@@ -1,14 +1,14 @@
 ---
 title: ISlidesPicture
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunumda resmi temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir sunumda bir resmi temsil eder.
 type: docs
-weight: 7090
+weight: 7110
 url: /tr/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture arayüz
 
-Bir sunumda resmi temsil eder.
+Bir sunumda bulunan bir resmi temsil eder.
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Gömülü resmi döndürür veya ayarlar. Okunur/yazılabilir [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Resim dönüşüm efektleri koleksiyonunu döndürür. Salt okunur [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Bağlantılı resmin URL'sini döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Temel ISlideComponent arabirimine erişim sağlar. Yalnızca okunur [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Gömülü resmi döndürür veya ayarlar. Okunabilir/Yazılabilir [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Resim dönüşüm efektlerinin koleksiyonunu döndürür. Yalnızca okunur [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Bağlantılı resmin URL'sini döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
 
 ### Ayrıca Bakınız
 

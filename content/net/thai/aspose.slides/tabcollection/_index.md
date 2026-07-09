@@ -1,7 +1,7 @@
 ---
 title: TabCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของแท็บ.
+description: แสดงถึงคอลเลกชันของแท็บ
 type: docs
 weight: 10840
 url: /th/aspose.slides/tabcollection/
@@ -16,25 +16,25 @@ public sealed class TabCollection : ITabCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันเป็นแบบประสาน (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | ดึงจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (thread-safe) หรือไม่. อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`Tab`](../tab). |
-| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | ส่งคืนรากการประสาน. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | คืนค่ารากฐานการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | เพิ่ม Tab ไปยังคอลเลกชัน. |
 | [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | เพิ่ม Tab ไปยังคอลเลกชัน. |
 | [Clear](../../aspose.slides/tabcollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | ตรวจสอบว่าตัวอย่าง TabsEx สองตัวเท่ากันหรือไม่. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | ส่งคืน hash code สำหรับอ็อบเจ็กต์นี้. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | คืนค่า enumerator ที่วนผ่านคอลเลกชัน. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | คืนค่า hash code สำหรับอ็อบเจ็กต์นี้. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 정의된 마스터 슬라이드의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. ILayoutSlideCollection 인터페이스를 확장하여 마스터 레이아웃 슬라이드의 개별 컬렉션 컨텍스트에서 레이아웃 슬라이드를 추가/삽입/제거/복제하는 메서드를 제공합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 정의된 마스터 슬라이드의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 개별 마스터 레이아웃 슬라이드 컬렉션 컨텍스트에서 레이아웃 슬라이드를 추가/삽입/제거/복제하는 메서드를 제공하는 ILayoutSlideCollection 인터페이스를 확장합니다.
 type: docs
 weight: 6380
 url: /ko/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection 인터페이스
 
-정의된 마스터 슬라이드의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. ILayoutSlideCollection 인터페이스를 확장하여 마스터 레이아웃 슬라이드 개별 컬렉션 컨텍스트에서 레이아웃 슬라이드를 추가/삽입/제거/클론하는 메서드를 제공합니다.
+정의된 마스터 슬라이드의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. ILayoutSlideCollection 인터페이스를 확장하여 마스터의 레이아웃 슬라이드 개별 컬렉션 컨텍스트에서 레이아웃 슬라이드를 추가/삽입/제거/복제하는 메서드를 제공합니다.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -16,22 +16,22 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection 인터페이스를 반환합니다. 읽기 전용 [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 새 레이아웃 슬라이드를 컬렉션의 끝에 추가합니다. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | 컬렉션의 끝에 새 레이아웃 슬라이드를 추가합니다. |
 | [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | 지정된 레이아웃 슬라이드의 복사본을 컬렉션의 끝에 추가합니다. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 새 레이아웃 슬라이드를 컬렉션의 지정된 위치에 삽입합니다. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | 컬렉션의 지정된 위치에 새 레이아웃 슬라이드를 삽입합니다. |
 | [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | 지정된 레이아웃 슬라이드의 복사본을 컬렉션의 지정된 위치에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 컬렉션의 지정된 인덱스에 있는 요소를 제거합니다. |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | 지정된 인덱스의 요소를 컬렉션에서 제거합니다. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | 컬렉션에서 레이아웃 슬라이드를 지정된 위치로 이동합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ILayoutSlideCollection](../ilayoutslidecollection)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

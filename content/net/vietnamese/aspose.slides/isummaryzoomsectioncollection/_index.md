@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một bộ sưu tập các đối tượng Summary Zoom Section.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các đối tượng Summary Zoom Section.
 type: docs
 weight: 7170
 url: /vi/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection giao diện
 
-Biểu diễn một bộ sưu tập các đối tượng Summary Zoom Section.
+Đại diện cho một tập hợp các đối tượng Summary Zoom Section.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -18,17 +18,17 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Lấy phần tử ở chỉ mục được chỉ định. Chỉ đọc [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Tạo đối tượng Summary Zoom Section mới và thêm vào bộ sưu tập |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Xóa tất cả các đối tượng SummaryZoomSection khỏi bộ sưu tập. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Trả về phần tử Summary Zoom Section cho phần đã cho. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Trả về chỉ mục của đối tượng SummaryZoomSection được chỉ định. |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Xóa đối tượng Summary Zoom Section khỏi bộ sưu tập. |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Tạo đối tượng Summary Zoom Section mới và thêm vào tập hợp |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Xóa tất cả các đối tượng SummaryZoomSection khỏi tập hợp. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | Trả về phần tử Summary Zoom Section cho phần section được cung cấp. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Trả về chỉ mục của đối tượng SummaryZoomSection đã chỉ định. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Xóa đối tượng Summary Zoom Section khỏi tập hợp. |
 
 ### Xem thêm
 

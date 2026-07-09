@@ -3,7 +3,7 @@ title: IMasterSlideCollection
 second_title: Aspose.Sildes for .NET API Referansı
 description: Ana slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 6410
+weight: 6430
 url: /tr/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection arayüz
@@ -16,21 +16,21 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IMasterSlide`](../imasterslide). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Belirtilen bir ana slaydın kopyasını koleksiyonun sonuna ekler. Bağlantılı yerleşim slaytları da kopyalanacaktır. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen bir ana slaydın kopyasını koleksiyonun belirtilen konumuna ekler. Bağlantılı yerleşim slaytları da kopyalanacaktır. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Belirtilen bir ana slaydın bir kopyasını koleksiyonun sonuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Belirtilen bir ana slaydın bir kopyasını koleksiyonun belirtilen konumuna ekler. Bağlı yerleşim slaytları da kopyalanacaktır. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Koleksiyonun belirtilen dizindeki öğesini kaldırır. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Koleksiyondaki belirtilen dizindeki öğeyi kaldırır. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Kullanılmayan ana slaytları kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IMasterSlide](../imasterslide)

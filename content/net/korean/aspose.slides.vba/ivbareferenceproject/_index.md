@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceProject
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 외부 VBA 프로젝트에 대한 참조를 나타냅니다.
 type: docs
 weight: 11620

@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe placeholder.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili jenis placeholder.
 type: docs
-weight: 9430
+weight: 9450
 url: /id/aspose.slides/placeholdertype/
 ---
 ## enumerasi PlaceholderType
 
-Mewakili tipe placeholder.
+Mewakili jenis placeholder.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -24,7 +24,7 @@ public enum PlaceholderType : sbyte
 | Subtitle | `3` | Subjudul. |
 | DateAndTime | `4` | Tanggal dan Waktu. |
 | SlideNumber | `5` | Nomor Slide. |
-| Footer | `6` | Kaki. |
+| Footer | `6` | Catatan kaki. |
 | Header | `7` | Kepala. |
 | Object | `8` | Objek. |
 | Chart | `9` | Bagan. |

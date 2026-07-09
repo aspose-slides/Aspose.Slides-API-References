@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
 second_title: Aspose.Sildes for .NET API 참조
-description: 외부 저장소로 데이터를 전송하기 위한 출력 저장기 구현을 나타냅니다.
+description: 외부 저장소에 데이터를 전송하기 위한 출력 저장기 구현을 나타냅니다.
 type: docs
 weight: 4710
 url: /ko/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver 인터페이스
 
-외부 스토리지로 데이터를 전송하기 위한 출력 저장기 구현을 나타냅니다.
+외부 저장소에 데이터를 전송하기 위한 출력 저장기 구현을 나타냅니다.
 
 ```csharp
 public interface IXamlOutputSaver
@@ -20,7 +20,7 @@ public interface IXamlOutputSaver
 | --- | --- |
 | [Save](../../aspose.slides.export.xaml/ixamloutputsaver/save)(string, byte[]) | 바이트 배열을 대상 위치에 저장합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: ग्राफ़िक्स पाथ कमांड्स का प्रतिनिधित्व करता है
 type: docs
 weight: 9320
 url: /hi/aspose.slides/pathcommandtype/
 ---
-## PathCommandType एन्यूमरेशन
+## PathCommandType एनेमरेशन
 
-ग्राफ़िक्स पाथ कमांड्स का प्रतिनिधित्व करता है
+ग्राफ़़िक्स पाथ कमांड्स का प्रतिनिधित्व करता है
 
 ```csharp
 public enum PathCommandType : byte
@@ -18,12 +18,12 @@ public enum PathCommandType : byte
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Close | `0` | ज्यामिति पथ को बंद करता है |
-| MoveTo | `1` | ज्यामिति पथ के अगले बिंदु की स्थिति निर्धारित करता है |
-| LineTo | `2` | ज्यामिति पथ में रेखा जोड़ता है |
-| ArcTo | `3` | निर्दिष्ट आर्क को ज्यामिति पथ में जोड़ता है। |
-| QuadBezierTo | `4` | ज्यामिति पथ में द्विघात बीज़र वक्र जोड़ता है |
-| CubicBezierTo | `5` | ज्यामिति पथ में घन बीज़र वक्र जोड़ता है |
+| Close | `0` | ज्यामितीय पथ को बंद करता है |
+| MoveTo | `1` | ज्यामितीय पथ के अगले बिंदु की स्थिति सेट करता है |
+| LineTo | `2` | ज्यामितीय पथ में रेखा जोड़ता है |
+| ArcTo | `3` | ज्यामितीय पथ में निर्दिष्ट आर्क जोड़ता है। |
+| QuadBezierTo | `4` | ज्यामितीय पथ में द्विघात Bezier वक्र जोड़ता है |
+| CubicBezierTo | `5` | ज्यामितीय पथ में घन Bezier वक्र जोड़ता है |
 
 ### संबंधित देखें
 

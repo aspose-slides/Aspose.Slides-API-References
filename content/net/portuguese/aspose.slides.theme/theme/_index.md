@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um tema.
 type: docs
-weight: 11460
+weight: 11480
 url: /pt/aspose.slides.theme/theme/
 ---
-## Theme classe
+## classe Theme
 
 Representa um tema.
 
@@ -20,7 +20,7 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Retorna o esquema de cores. Somente leitura [`IColorScheme`](../icolorscheme). |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Retorna o esquema de fontes. Somente leitura [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Retorna o esquema de formato de formas. Somente leitura [`IFormatScheme`](../iformatscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Retorna o esquema de formato de forma. Somente leitura [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Retorna a apresentação pai. Somente leitura [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Métodos

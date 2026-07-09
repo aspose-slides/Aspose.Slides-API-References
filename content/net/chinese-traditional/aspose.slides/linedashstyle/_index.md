@@ -1,6 +1,6 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示線條虛線樣式。
 type: docs
 weight: 7770

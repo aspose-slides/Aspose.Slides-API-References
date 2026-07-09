@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Excel 워크북의 단일 셀을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Excel 통합 문서의 단일 셀을 나타냅니다.
 type: docs
 weight: 3680
 url: /ko/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell 클래스
 
-Excel 워크북의 단일 셀을 나타냅니다.
+Excel 통합 문서의 단일 셀을 나타냅니다.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -18,12 +18,12 @@ public class ExcelDataCell : IExcelDataCell
 
 | 이름 | 설명 |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | 셀이 위치한 워크시트에서 열의 0 기반 인덱스를 가져옵니다. 읽기 전용 Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | 셀의 위치가 지정된 워크시트에서 열의 0부터 시작하는 인덱스를 가져옵니다. 읽기 전용 Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | 차트 데이터 셀의 이름을 가져옵니다. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | 셀이 위치한 워크시트에서 행의 0 기반 인덱스를 가져옵니다. 읽기 전용 Int32. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | 셀의 위치가 지정된 워크시트에서 행의 0부터 시작하는 인덱스를 가져옵니다. 읽기 전용 Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Excel 셀에 포함된 값을 가져옵니다. |
 
-### 참조
+### 또한 보기
 
 * 인터페이스 [IExcelDataCell](../iexceldatacell)
 * 네임스페이스 [Aspose.Slides.Excel](../../aspose.slides.excel)

@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงประเภทความเร็วของการเปลี่ยนแปลง.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงประเภทความเร็วการเปลี่ยนแปลง
 type: docs
 weight: 10440
 url: /th/aspose.slides.slideshow/transitionspeed/
 ---
-## TransitionSpeed การนับค่า
+## TransitionSpeed ชนิด enum
 
-แสดงประเภทความเร็วของการเปลี่ยนแปลง.
+แสดงประเภทความเร็วการเปลี่ยนแปลง
 
 ```csharp
 public enum TransitionSpeed

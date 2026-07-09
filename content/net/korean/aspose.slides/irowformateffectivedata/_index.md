@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과적인 표 행 서식 속성을 포함하는 불변 객체.
+description: 효과적인 테이블 행 서식 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 6880
 url: /ko/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData 인터페이스
 
-효과적인 표 행 서식 속성을 포함하는 불변 객체.
+효과적인 테이블 행 서식 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Lớp dùng để tải các phông chữ tùy chỉnh do người dùng định nghĩa. Nên được sử dụng trước khi tạo bất kỳ đối tượng trình chiếu nào.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Lớp dùng để tải các phông chữ tùy chỉnh được người dùng định nghĩa. Nên được sử dụng trước khi tạo bất kỳ đối tượng trình chiếu nào.
 type: docs
 weight: 4930
 url: /vi/aspose.slides/fontsloader/
 ---
 ## FontsLoader lớp
 
-Lớp dùng để tải các phông chữ tùy chỉnh do người dùng định nghĩa. Nên được sử dụng trước khi tạo bất kỳ đối tượng trình chiếu nào.
+Lớp dùng để tải các phông chữ tùy chỉnh được người dùng định nghĩa. Nên được sử dụng trước khi tạo bất kỳ đối tượng trình chiếu nào.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,8 +18,8 @@ public sealed class FontsLoader : IFontsLoader
 
 | Tên | Mô tả |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Giải phóng tất cả phông chữ tùy chỉnh do người dùng định nghĩa |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Lấy các thư mục phông chữ. Trả về các thư mục đã được thêm bằng phương thức LoadExternalFonts cũng như các thư mục phông chữ hệ thống |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | Giải phóng tất cả các phông chữ tùy chỉnh do người dùng định nghĩa |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | Lấy các thư mục phông chữ. Trả về các thư mục đã được thêm bằng phương pháp LoadExternalFonts cũng như các thư mục phông chữ hệ thống |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | Thêm phông chữ từ dữ liệu nhị phân |
 | static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | Thêm các thư mục bổ sung để tìm kiếm phông chữ. |
 

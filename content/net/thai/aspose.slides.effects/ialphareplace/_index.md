@@ -1,26 +1,26 @@
 ---
 title: IAlphaReplace
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนฐาน IImageTransformOperation อินเทอร์เฟซ.
 type: docs
 weight: 3140
 url: /th/aspose.slides.effects/ialphareplace/
 ---
-## IAlphaReplace interface
+## IAlphaReplace อินเทอร์เฟซ
 
-แสดงถึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน.
+แทนฐาน IImageTransformOperation อินเทอร์เฟซ
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
     IImageTransformOperation
 ```
 
-## Properties
+## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

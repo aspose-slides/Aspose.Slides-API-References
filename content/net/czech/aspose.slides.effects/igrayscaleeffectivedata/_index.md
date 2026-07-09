@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes pro .NET API
-description: Neměnný objekt, který představuje efekt stupně šedi. Převádí všechny barvy efektu na odstín šedi odpovídající jejich luminanci. Hodnoty alfa (průhlednosti) efektu nejsou ovlivněny.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Neměnný objekt, který představuje efekt stupně šedi. Převádí všechny barvy efektu na odstín šedé odpovídající jejich jasu. Hodnoty alfa (průhlednosti) efektu nejsou ovlivněny.
 type: docs
-weight: 3330
+weight: 3350
 url: /cs/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt stupně šedi. Převádí všechny barvy efektu na odstín šedi odpovídající jejich luminanci. Hodnoty alfa (průhlednost) efektu nejsou ovlivněny.
+Neměnný objekt, který představuje efekt stupně šedi. Převádí všechny barvy efektu na odstín šedé odpovídající jejich jasnosti. Hodnoty alfa (průhlednosti) efektu nejsou ovlivněny.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: ICamera
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของกล้อง.
+description: แสดงถึงกล้อง.
 type: docs
 weight: 5410
 url: /th/aspose.slides/icamera/
 ---
 ## ICamera อินเทอร์เฟซ
 
-เป็นตัวแทนของกล้อง.
+Represents Camera.
 
 ```csharp
 public interface ICamera
@@ -16,18 +16,18 @@ public interface ICamera
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | ประเภทกล้อง อ่าน/เขียน [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV ของกล้อง (0-180 deg, field of View) อ่าน/เขียน Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | การซูมของกล้อง (ค่าเป็นเปอร์เซ็นต์ที่เป็นบวก) อ่าน/เขียน Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Camera ประเภท อ่าน/เขียน [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, field of View) อ่าน/เขียน Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Camera zoom (positive value in percentage) อ่าน/เขียน Single. |
 
-## เมธอด
+## วิธีการ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาเรย์ผลลัพธ์ - ละติจูด, องค์ประกอบที่สอง - ลองจิจูด, องค์ประกอบที่สาม - การหมุน. คืนค่า null หากไม่มีการกำหนดการหมุน. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. หากค่าพิกัดใดเป็น float.NaN, การหมุนทั้งหมดจะไม่กำหนด. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | การหมุนกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการปฏิวัติรอบแกนตามพิกัดละติจูดและพิกัดลองจิจูด. องค์ประกอบแรกในอาร์เรย์ที่คืนค่า - ละติจูด, อันที่สอง - ลองจิจูด, อันที่สาม - การปฏิวัติ. คืนค่า null หากไม่มีการกำหนดการหมุน. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | การหมุนกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการปฏิวัติรอบแกนตามพิกัดละติจูดและพิกัดลองจิจูด. หากค่าพิกัดใดเป็น float.NaN, การหมุนทั้งหมดจะไม่กำหนด. |
 
 ### ดูเพิ่มเติม
 

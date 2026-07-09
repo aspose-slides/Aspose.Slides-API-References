@@ -1,7 +1,7 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cung cấp các tùy chọn kiểm soát cách hình ảnh của slide sẽ được chuyển đổi thành hình ảnh nhị phân.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp các tùy chọn kiểm soát cách hình ảnh của các slide sẽ được chuyển đổi thành hình ảnh nhị phân.
 type: docs
 weight: 3720
 url: /vi/aspose.slides.export/blackwhiteconversionmode/
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Default | `0` | Chỉ định không có thuật toán chuyển đổi. Thuật toán được triển khai trong codec TIFF sẽ được sử dụng. (Default) |
-| Dithering | `1` | Chỉ định thuật toán dither (Floyd-Steinberg). |
-| DitheringFloydSteinberg | `2` | Chỉ định thuật toán dither Floyd-Steinberg. |
-| Auto | `3` | Chỉ định thuật toán ngưỡng được tính tự động (Otsu). |
-| AutoOtsu | `4` | Chỉ định thuật toán ngưỡng Otsu được tính tự động. |
-| Threshold25 | `5` | Chỉ định thuật toán ngưỡng tĩnh (25%). |
-| Threshold50 | `6` | Chỉ định thuật toán ngưỡng tĩnh (50%). |
-| Threshold75 | `7` | Chỉ định thuật toán ngưỡng tĩnh (75%). |
+| Default | `0` | Xác định không có thuật toán chuyển đổi. Thuật toán được thực hiện trong bộ mã hoá TIFF sẽ được sử dụng. (Default) |
+| Dithering | `1` | Xác định thuật toán dithering (Floyd-Steinberg). |
+| DitheringFloydSteinberg | `2` | Xác định thuật toán dithering Floyd-Steinberg. |
+| Auto | `3` | Xác định thuật toán ngưỡng được tính tự động (Otsu). |
+| AutoOtsu | `4` | Xác định thuật toán ngưỡng Otsu được tính tự động. |
+| Threshold25 | `5` | Xác định thuật toán ngưỡng tĩnh (25%). |
+| Threshold50 | `6` | Xác định thuật toán ngưỡng tĩnh (50%). |
+| Threshold75 | `7` | Xác định thuật toán ngưỡng tĩnh (75%). |
 
 ### Xem thêm
 

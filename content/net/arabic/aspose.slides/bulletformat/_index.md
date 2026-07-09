@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
-second_title: Aspose.Sildes ل .NET مرجع API
-description: يمثل خصائص تنسيق نقاط الفقرة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثّل خصائص تنسيق رصاص الفقرة.
 type: docs
 weight: 1070
 url: /ar/aspose.slides/bulletformat/
 ---
-## BulletFormat فئة
+## فئة BulletFormat
 
-يمثل خصائص تنسيق نقاط الفقرة.
+يمثّل خصائص تنسيق رصاص الفقرة.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,32 +18,32 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. فقط للقراءة [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | يرجع أو يضبط حرف النقطة في الفقرة بدون وراثة. قراءة/كتابة Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | يرجع تنسيق اللون لنقطة الفقرة بدون وراثة. فقط للقراءة [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | يرجع أو يضبط خط النقطة في الفقرة بدون وراثة. قراءة/كتابة [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | يرجع أو يضبط ارتفاع النقطة في الفقرة بدون وراثة. القيمة float.NaN تحدد أن النقطة ترث الارتفاع من الجزء الأول في الفقرة. قراءة/كتابة Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كانت النقطة لها لون خاص أم ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت النقطة لها لون خاص و **NullableBool.False** إذا كانت النقطة ترث اللون من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كانت النقطة لها خط خاص أم ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت النقطة لها خط خاص و **NullableBool.False** إذا كانت النقطة ترث الخط من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | يرجع أو يضبط أول رقم يُستخدم لمجموعة النقاط المرقمة بدون وراثة. قراءة/كتابة Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | يرجع أو يضبط نمط النقطة المرقمة بدون وراثة. قراءة/كتابة [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | يرجع الصورة المستخدمة كنقطة في الفقرة بدون وراثة. فقط للقراءة [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | يرجع أو يضبط نوع النقطة في الفقرة بدون وراثة. قراءة/كتابة [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على الواجهة الأساسية IPresentationComponent. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | يرجع أو يعيّن حرف الرصاصة لفقرة بدون وراثة. قابل للقراءة/الكتابة Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | يرجع تنسيق اللون الخاص برصاصة فقرة بدون وراثة. قراءة فقط [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | يرجع أو يعيّن خط الرصاصة لفقرة بدون وراثة. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | يرجع أو يعيّن ارتفاع الرصاصة لفقرة بدون وراثة. القيمة float.NaN تحدد أن الرصاصة ترث الارتفاع من الجزء الأول في الفقرة. قابل للقراءة/الكتابة Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كانت الرصاصة لها لون خاص أو ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها لون خاص و **NullableBool.False** إذا كانت الرصاصة ترث اللون من الجزء الأول في الفقرة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كانت الرصاصة لها خط خاص أو ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها خط خاص و **NullableBool.False** إذا كانت الرصاصة ترث الخط من الجزء الأول في الفقرة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | يرجع أو يعيّن الرقم الأول المستخدم لمجموعة من الرصاصات المرقمة بدون وراثة. قابل للقراءة/الكتابة Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | يرجع أو يعيّن نمط الرصاصة المرقمة بدون وراثة. قابل للقراءة/الكتابة [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | يرجع الصورة المستخدمة كرصاصة في فقرة بدون وراثة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | يرجع أو يعيّن نوع الرصاصة لفقرة بدون وراثة. قابل للقراءة/الكتابة [`BulletType`](../bullettype). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | يحدد الإزاحات الافتراضية غير الصفرية للفراغ الفعال Indent والهوامش اليسرى MarginLeft للفقرة عندما تكون النقاط مفعلة (كما تفعل PowerPoint عند تمكين نقاط/ترقيم الفقرات). إذا تم تعطيل النقاط يتم إعادة تعيين Indent وMarginLeft للفقرة فقط (كما تفعل PowerPoint عند تعطيل نقاط/ترقيم الفقرات). تُطبق إزاحات الفراغ وفقًا لسياق النقطة الحالي - IBulletFormat.Type، .NumberedBulletStyle وFontHeight للجزء الأول. تُطبق إزاحات الفراغ غير الصفرية على Indent وMarginLeft الفعالين للفقرة الحالية (لتصبح القيم ناتجة محلية). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | يضبط الإزاحات غير الصفرية الافتراضية للهوامش الفعّالة للفقرة Indent وMarginLeft عندما تكون الرصاصات مفعَّلة (مثل ما يفعله PowerPoint إذا تم تمكين رصاصات/ترقيم الفقرات فيه). إذا تم تعطيل الرصاصات فإنها تعيد فقط ضبط Indent وMarginLeft للفقرة (مثل ما يفعله PowerPoint إذا تم تعطيل رصاصات/ترقيم الفقرات فيه). تُطبق إزاحات الهوامش فيما يتعلق بسياق الرصاصة الحالي - IBulletFormat.Type، .NumberedBulletStyle وFontHeight للجزء الأول. تُطبق إزاحات الهوامش غير الصفرية على Indent وMarginLeft الفعليين للفقرة الحالية (لتكون القيم الناتجة قيمًا محلية). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | يحصل على بيانات تنسيق النقطة الفعالة مع تطبيق الوراثة. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يرجع رمز التجزئة. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | يحصل على بيانات تنسيق الرصاصة الفعّالة مع تطبيق الوراثة. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يرجع قيمة تجزئة. |
 
-### راجع أيضًا
+### انظر أيضًا
 
 * فئة [PVIObject](../pviobject)
 * واجهة [IBulletFormat](../ibulletformat)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* مساحة اسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

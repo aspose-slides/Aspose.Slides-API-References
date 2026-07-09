@@ -1,9 +1,9 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan titik animasi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili koleksi titik animasi.
 type: docs
-weight: 710
+weight: 730
 url: /id/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection kelas
@@ -16,20 +16,20 @@ public class PointCollection : IPointCollection
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [PointCollection](pointcollection)() | Konstruktor default. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Mengembalikan jumlah titik dalam koleksi. Hanya-baca Int32. |
-| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Mengembalikan titik pada indeks yang ditentukan. |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Mengembalikan jumlah titik dalam koleksi. Baca-saja Int32. |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Mengembalikan sebuah titik pada indeks yang ditentukan. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 

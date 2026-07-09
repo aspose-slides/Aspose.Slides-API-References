@@ -3,10 +3,10 @@ title: DisplayBlanksAsType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan bagaimana data yang hilang akan ditampilkan.
 type: docs
-weight: 1590
+weight: 1610
 url: /id/aspose.slides.charts/displayblanksastype/
 ---
-## DisplayBlanksAsType enumerasi
+## enumerasi DisplayBlanksAsType
 
 Menentukan bagaimana data yang hilang akan ditampilkan.
 
@@ -18,9 +18,9 @@ public enum DisplayBlanksAsType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Gap | `0` | Menentukan bahwa nilai kosong akan dibiarkan sebagai celah. |
-| Span | `1` | Menentukan bahwa nilai kosong akan dihubungkan dengan sebuah garis. |
-| Zero | `2` | Menentukan bahwa nilai kosong akan diperlakukan sebagai nol. |
+| Gap | `0` | Menentukan bahwa nilai kosong harus dibiarkan sebagai celah. |
+| Span | `1` | Menentukan bahwa nilai kosong harus dibentangkan dengan sebuah garis. |
+| Zero | `2` | Menentukan bahwa nilai kosong harus diperlakukan sebagai nol. |
 
 ### Lihat Juga
 

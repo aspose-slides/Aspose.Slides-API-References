@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション/スライドのレンダリング方法を制御するオプションを提供します。
 type: docs
-weight: 4020
+weight: 4040
 url: /ja/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions インターフェイス
@@ -14,16 +14,16 @@ url: /ja/aspose.slides.export/irenderingoptions/
 public interface IRenderingOptions : ISaveOptions
 ```
 
-## Properties
+## プロパティ
 
 | Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。 読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。 `true` に設定すると、レンダリングされた出力で合字が無効になります。 デフォルトでは、このプロパティは `false` に設定されています。 |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。 読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | テキストが合字を使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力で合字が無効になります。既定では、このプロパティは `false` に設定されています。 |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
-### Examples
+### 例
 
 ```csharp
 [C#]
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### See Also
+### 関連項目
 
 * インターフェイス [ISaveOptions](../isaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

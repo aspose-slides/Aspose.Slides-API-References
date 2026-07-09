@@ -18,10 +18,10 @@ public class ChartLinesFormat : IChartLinesFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | 傳回圖表線使用的效果。唯讀 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | 傳回圖表線的線條樣式屬性。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | 傳回圖表線條使用的效果。唯讀 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | 傳回圖表線條的線條樣式屬性。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IChartLinesFormat](../ichartlinesformat)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

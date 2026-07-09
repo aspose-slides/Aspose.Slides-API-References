@@ -1,14 +1,14 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes για .NET αναφορά API
-description: Αναπαριστά τις ιδιότητες του data table.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τις ιδιότητες του πίνακα δεδομένων.
 type: docs
-weight: 1580
+weight: 1600
 url: /el/aspose.slides.charts/datatable/
 ---
-## DataTable κλάση
+## Κλάση DataTable
 
-Αναπαριστά τις ιδιότητες του data table.
+Αναπαριστά τις ιδιότητες του πίνακα δεδομένων.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -18,19 +18,19 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Επιστρέφει chart. Μόνο για ανάγνωση [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Επιστρέφει line, fill, and effect styles of an object. Μόνο για ανάγνωση [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Αληθές εάν η chart data table έχει οριζόντια όρια κελιών. Ανάγνωση/εγγραφή Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Αληθές εάν η chart data table έχει περιγράμματα. Ανάγνωση/εγγραφή Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Αληθές εάν η chart data table έχει κάθετα όρια κελιών. Ανάγνωση/εγγραφή Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Αληθές εάν το κλειδί του legend της ετικέτας δεδομένων είναι ορατό. Ανάγνωση/εγγραφή Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Επιστρέφει text format. Μόνο για ανάγνωση [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Επιστρέφει το γράφημα. Μόνο για ανάγνωση [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Επιστρέφει τα στυλ γραμμής, γεμίσματος και εφέ ενός αντικειμένου. Μόνο για ανάγνωση [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Αληθές εάν ο πίνακας δεδομένων του γραφήματος έχει οριζόντια σύνορα κελιών. Αναγνώσιμη/εγγράψιμη Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Αληθές εάν ο πίνακας δεδομένων του γραφήματος έχει περιγράμματα. Αναγνώσιμη/εγγράψιμη Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Αληθές εάν ο πίνακας δεδομένων του γραφήματος έχει κατακόρυφα σύνορα κελιών. Αναγνώσιμη/εγγράψιμη Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Αληθές εάν το κλειδί του υπόμνημα ετικέτας δεδομένων είναι ορατό. Αναγνώσιμη/εγγράψιμη Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Επιστρέφει μορφή κειμένου. Μόνο για ανάγνωση [`IChartTextFormat`](../icharttextformat). |
 
 ### Δείτε επίσης
 
 * κλάση [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * κλάση [Chart](../chart)
-* διασύνδεση [IDataTable](../idatatable)
+* διεπαφή [IDataTable](../idatatable)
 * χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 

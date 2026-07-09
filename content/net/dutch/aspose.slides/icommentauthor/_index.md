@@ -18,15 +18,15 @@ public interface ICommentAuthor
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Geeft de verzameling opmerkingen terug die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Geeft de initialen van de auteur terug of stelt ze in. Lezen/Schrijven String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Geeft de naam van de auteur terug of stelt deze in. Lezen/Schrijven String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Retourneert de verzameling opmerkingen die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Retourneert of stelt de initialen van de auteur in. Lezen/Schrijven String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Retourneert of stelt de naam van de auteur in. Lezen/Schrijven String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | Verwijdert de auteur uit de bovenliggende collectie. |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | Verwijdert de auteur uit de bovenliggende verzameling. |
 
 ### Zie ook
 

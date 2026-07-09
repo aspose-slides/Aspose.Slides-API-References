@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 基底と右上に配置された縮小サイズの上付き文字で構成される上付き文字オブジェクトを指定します。
+description: ベースと右上に配置された縮小サイズの上付き文字からなる上付き文字オブジェクトを指定します
 type: docs
-weight: 8470
+weight: 8490
 url: /ja/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement インターフェイス
 
-上付き文字オブジェクトを指定します。このオブジェクトは、基底と右上に配置された縮小サイズの上付き文字で構成されます。
+ベースと右上に配置された縮小サイズの上付き文字からなる上付き文字オブジェクトを指定します
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -18,8 +18,8 @@ public interface IMathSuperscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できる [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | ベース引数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | 基本引数 |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | 上付き文字 |
 
 ### 例
@@ -31,7 +31,7 @@ public interface IMathSuperscriptElement : IMathElement
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### 参考
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -18,30 +18,30 @@ public interface ITextFrameFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame의 수직 앵커 텍스트를 반환하거나 설정합니다. 읽기/쓰기 [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | TextFrame에서 수직 앵커 텍스트를 반환하거나 설정합니다. 읽기/쓰기 [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | 텍스트의 자동 맞춤 모드를 반환하거나 설정합니다. 읽기/쓰기 [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True이면 텍스트가 상자 안에서 수평으로 가운데 정렬되어야 합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | NullableBool.True이면 텍스트를 박스 안에서 가로로 가운데 정렬해야 합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
 | [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | 텍스트 영역의 열 수를 반환하거나 설정합니다. 이 값은 양수여야 합니다. 그렇지 않으면 값이 0으로 설정됩니다. 값 0은 정의되지 않은 값을 의미합니다. 읽기/쓰기 Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | 텍스트 영역에서 텍스트 열 사이의 간격을 반환하거나 설정합니다(포인트 단위). 이는 열이 1개 이상일 때만 적용됩니다. 이 값은 양수여야 합니다. 그렇지 않으면 값이 0으로 설정됩니다. 읽기/쓰기 Double. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | 텍스트 영역에서 텍스트 열 사이의 간격을 (포인트 단위로) 반환하거나 설정합니다. 이는 열이 2개 이상 있을 때만 적용됩니다. 이 값은 양수여야 합니다. 그렇지 않으면 값이 0으로 설정됩니다. 읽기/쓰기 Double. |
 | [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | 텍스트를 3D 장면에서 완전히 제외하도록 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame의 하단 여백(포인트)을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame의 왼쪽 여백(포인트)을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame의 오른쪽 여백(포인트)을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame의 상단 여백(포인트)을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | 경계 상자 내 텍스트에 적용되는 사용자 지정 회전을 지정합니다. 지정되지 않으면 해당 도형의 회전이 사용됩니다. 지정된 경우, 도형과 독립적으로 적용됩니다. 즉, 도형에 회전이 적용될 수 있으며 텍스트 자체에도 회전이 적용됩니다. 이 속성과 TextVerticalType 속성의 사전 정의된 수직 유형으로 요약된 시각적 텍스트 회전값이 결과로 제공됩니다. 읽기/쓰기 Single. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | TextFrame의 아래쪽 여백(포인트)를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | TextFrame의 왼쪽 여백(포인트)를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | TextFrame의 오른쪽 여백(포인트)를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | TextFrame의 위쪽 여백(포인트)를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | 경계 상자 내 텍스트에 적용되는 사용자 지정 회전을 지정합니다. 지정되지 않으면 함께 있는 도형의 회전이 사용됩니다. 지정된 경우 도형과 독립적으로 적용됩니다. 즉, 도형에 회전이 적용될 수 있으며 텍스트 자체에도 회전이 적용됩니다. 이 속성과 속성 TextVerticalType에 정의된 수직 유형을 합쳐서 시각적 텍스트 회전값이 결정됩니다. 읽기/쓰기 Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | 텍스트 스타일을 반환합니다. 읽기 전용 [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | 텍스트 방향을 결정합니다. 이 속성과 RotationAngle 속성의 사용자 지정 각도로 요약된 시각적 텍스트 회전값이 결과로 제공됩니다. 읽기/쓰기 [`TextVerticalType`](../textverticaltype). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | 텍스트 방향을 결정합니다. 이 속성과 속성 RotationAngle에 있는 사용자 지정 각도를 합쳐서 시각적 텍스트 회전값이 결정됩니다. 읽기/쓰기 [`TextVerticalType`](../textverticaltype). |
 | [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | 텍스트에 대한 3D 효과 속성을 나타내는 ThreeDFormat 객체를 반환합니다. 읽기 전용 [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | 텍스트 래핑 도형을 가져오거나 설정합니다. 읽기/쓰기 [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | 텍스트가 TextFrame의 여백에 맞게 래핑된 경우 **True**. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | 텍스트 줄 바꿈 모양을 가져오거나 설정합니다. 읽기/쓰기 [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | TextFrame의 여백에서 텍스트가 줄 바꿈될 경우 **True**. 읽기/쓰기 [`NullableBool`](../nullablebool). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | 상속이 적용된 효과적인 텍스트 프레임 서식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | 상속이 적용된 실제 텍스트 프레임 서식 데이터를 가져옵니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,34 +1,34 @@
 ---
 title: ILightRig
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: LightRig को दर्शाता है।
+description: LightRig का प्रतिनिधित्व करता है।
 type: docs
 weight: 6270
 url: /hi/aspose.slides/ilightrig/
 ---
-## ILightRig interface
+## ILightRig इंटरफ़ेस
 
-Represents LightRig.
+LightRig का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ILightRig
 ```
 
-## Properties
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | लाइट दिशा। पढ़ें/लिखें [`LightingDirection`](../lightingdirection)। |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | एक प्रीसेट लाइट राइट को दर्शाता है जिसे किसी आकार पर लागू किया जा सकता है। लाइट रिग एक समूह लाइट्स को दर्शाता है जो 3D सीन के सापेक्ष विशिष्ट तरीके से अभिमुखित होते हैं। पढ़ें/लिखें [`LightRigPresetType`](../lightrigpresettype)। |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light दिशा। पढ़ें/लिखें [`LightingDirection`](../lightingdirection)। |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | एक पूर्वनिर्धारित लाइट राइट को दर्शाता है जिसे एक shape पर लागू किया जा सकता है। light rig एक समूह लाइट्स को दर्शाता है जो 3D सीन के सापेक्ष विशिष्ट तरीके से अभिविन्यस्त होते हैं। पढ़ें/लिखें [`LightRigPresetType`](../lightrigpresettype)। |
 
-## Methods
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर अक्षांश और देशांतर निर्देशांक के रूप में क्रांति का उपयोग करके परिभाषित किया जाता है। रिटर्न एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - क्रांति। |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर अक्षांश और देशांतर निर्देशांक के रूप में क्रांति का उपयोग करके परिभाषित किया जाता है। |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | एक घुमाव को latitude निर्देशांक, longitude निर्देशांक, और अक्ष के चारों ओर घूर्णन द्वारा परिभाषित किया जाता है। वापसी array के पहले तत्व - latitude, दूसरा - longitude, तीसरा - revolution। |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | एक घुमाव को latitude निर्देशांक, longitude निर्देशांक, और अक्ष के चारों ओर घूर्णन द्वारा परिभाषित किया जाता है। |
 
-### See Also
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

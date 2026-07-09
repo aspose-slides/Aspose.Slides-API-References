@@ -19,10 +19,10 @@ public interface IGraphicalObject : IShape
 | 이름 | 설명 |
 | --- | --- |
 | [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | 기본 IShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | 도형의 잠금을 반환합니다. 읽기 전용 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | 도형의 잠금을 반환합니다. 읽기 전용 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | shape의 잠금을 반환합니다. 읽기 전용 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | shape의 잠금을 반환합니다. 읽기 전용 [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IShape](../ishape)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

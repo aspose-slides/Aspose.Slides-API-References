@@ -21,7 +21,7 @@ public interface IChartLinesFormat
 | [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | 차트 라인에 사용되는 효과를 반환합니다. 읽기 전용 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | 차트 라인의 선 스타일 속성을 반환합니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

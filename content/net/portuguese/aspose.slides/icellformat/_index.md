@@ -3,10 +3,10 @@ title: ICellFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o formato de uma célula de tabela.
 type: docs
-weight: 5450
+weight: 5470
 url: /pt/aspose.slides/icellformat/
 ---
-## Interface ICellFormat
+## interface ICellFormat
 
 Representa o formato de uma célula de tabela.
 
@@ -18,14 +18,14 @@ public interface ICellFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Retorna um objeto de propriedades da linha da borda inferior. Somente leitura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Retorna um objeto de propriedades da linha diagonal de cima à esquerda para baixo à direita. Somente leitura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Retorna um objeto de propriedades da linha diagonal de baixo à esquerda para cima à direita. Somente leitura [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Retorna um objeto de propriedades da linha da borda esquerda. Somente leitura [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Retorna um objeto de propriedades da linha da borda direita. Somente leitura [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Retorna um objeto de propriedades da linha da borda superior. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Retorna um objeto de propriedades da linha de borda inferior. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Retorna um objeto de propriedades da linha diagonal superior-esquerda para inferior-direita. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Retorna um objeto de propriedades da linha diagonal inferior-esquerda para superior-direita. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Retorna um objeto de propriedades da linha de borda esquerda. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Retorna um objeto de propriedades da linha de borda direita. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Retorna um objeto de propriedades da linha de borda superior. Somente leitura [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Retorna um objeto de propriedades de preenchimento da célula. Somente leitura [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Obtém ou define a transparência da cor de preenchimento. Leitura/gravação Single. |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Obtém ou define a transparência da cor de preenchimento. Leitura/Gravação Single. |
 
 ## Métodos
 

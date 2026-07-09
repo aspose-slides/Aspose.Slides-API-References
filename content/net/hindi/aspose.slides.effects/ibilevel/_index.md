@@ -1,27 +1,27 @@
 ---
 title: IBiLevel
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: बेस IImageTransformOperation इंटरफ़ेस का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: IImageTransformOperation इंटरफ़ेस के बेस को दर्शाता है।
 type: docs
 weight: 3160
 url: /hi/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel इंटरफ़ेस
 
-बेस IImageTransformOperation इंटरफ़ेस का प्रतिनिधित्व करता है।
+IImageTransformOperation इंटरफ़ेस के बेस को दर्शाता है।
 
 ```csharp
 public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageTransformOperation
 ```
 
-## गुण
+## गुणधर्म
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठनीय [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पठनीय [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | IAccessiblePVIObject इंटरफ़ेस के बेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | IImageTransformOperation इंटरफ़ेस के बेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [IBiLevelEffectiveData](../ibileveleffectivedata)

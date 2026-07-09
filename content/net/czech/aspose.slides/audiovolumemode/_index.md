@@ -1,12 +1,12 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Konstanty, které definují hlasitost zvuku.
 type: docs
-weight: 870
+weight: 890
 url: /cs/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode výčet
+## AudioVolumeMode enumerace
 
 Konstanty, které definují hlasitost zvuku.
 

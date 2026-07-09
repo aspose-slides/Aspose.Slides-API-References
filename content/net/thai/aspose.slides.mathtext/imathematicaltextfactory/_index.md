@@ -1,12 +1,12 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: อนุญาตให้สร้างองค์ประกอบ MathematicalText
 type: docs
 weight: 8520
 url: /th/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory อินเทอร์เฟซ
+## อินเทอร์เฟซ IMathematicalTextFactory
 
 อนุญาตให้สร้างองค์ประกอบ MathematicalText
 
@@ -20,12 +20,12 @@ public interface IMathematicalTextFactory
 | --- | --- |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | สร้างองค์ประกอบ MathematicalText ว่างเปล่า |
 | [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | สร้างองค์ประกอบ MathematicalText ด้วยค่าที่ระบุ |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | สร้างองค์ประกอบ MathematicalText ด้วยค่าที่ระบุ |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | สร้างองค์ประกอบ MathematicalText ด้วยค่าที่ระบุและคุณสมบัติการจัดรูปแบบ |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | สร้างองค์ประกอบ MathematicalText ว่างเปล่าด้วยค่าที่ระบุ |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | สร้างองค์ประกอบ MathematicalText ว่างเปล่าด้วยค่าที่ระบุและคุณสมบัติการจัดรูปแบบ IPortionFormat |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

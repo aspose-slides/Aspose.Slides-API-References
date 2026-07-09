@@ -1,9 +1,9 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Interfaccia base per oggetti immutabili che contengono le proprietà di formattazione della tabella effettive.
 type: docs
-weight: 5340
+weight: 5360
 url: /it/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData interfaccia
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Restituisce il valore effettivo del formato della linea del bordo inferiore. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Restituisce il valore effettivo del formato della linea diagonale verso il basso. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Restituisce il valore effettivo del formato della linea diagonale verso l'alto. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Restituisce il valore effettivo del formato della linea del bordo sinistro. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Restituisce il valore effettivo del formato della linea del bordo destro. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Restituisce il valore effettivo del formato della linea del bordo superiore. Sola lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Restituisce il valore effettivo del formato di riempimento. Sola lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Restituisce il valore effettivo del formato della linea del bordo inferiore. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Restituisce il valore effettivo del formato della linea diagonale discendente. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Restituisce il valore effettivo del formato della linea diagonale ascendente. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Restituisce il valore effettivo del formato della linea del bordo sinistro. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Restituisce il valore effettivo del formato della linea del bordo destro. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Restituisce il valore effettivo del formato della linea del bordo superiore. Solo lettura [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Restituisce il valore effettivo del formato di riempimento. Solo lettura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Vedi anche
 

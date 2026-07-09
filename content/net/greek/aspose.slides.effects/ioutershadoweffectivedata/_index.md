@@ -1,12 +1,12 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ εξωτερικής σκιάς.
 type: docs
-weight: 3450
+weight: 3470
 url: /el/aspose.slides.effects/ioutershadoweffectivedata/
 ---
-## διασύνδεση IOuterShadowEffectiveData
+## IOuterShadowEffectiveData interface
 
 Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ εξωτερικής σκιάς.
 
@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Ακτίνα θολώματος. Μόνο για ανάγνωση Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Κατεύθυνση σκιάς. Μόνο για ανάγνωση Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Απόσταση σκιάς. Μόνο για ανάγνωση Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Στοίχιση ορθογώνιου. Μόνο για ανάγνωση [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Καθορίζει εάν η σκιά πρέπει να περιστρέφεται με το σχήμα εάν το σχήμα είναι περιστραμμένο. Μόνο για ανάγνωση Boolean. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Στοίχιση ορθογωνίου. Μόνο για ανάγνωση [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Καθορίζει αν η σκιά πρέπει να περιστρέφεται με το σχήμα όταν το σχήμα περιστρέφεται. Μόνο για ανάγνωση Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Καθορίζει τον οριζόντιο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. Μόνο για ανάγνωση Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Καθορίζει τον κάθετο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. Μόνο για ανάγνωση Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Καθορίζει τον κατακόρυφο συντελεστή κλιμάκωσης, η αρνητική κλιμάκωση προκαλεί αναστροφή. Μόνο για ανάγνωση Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Χρώμα σκιάς. Μόνο για ανάγνωση Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Καθορίζει τη γωνία οριζόντιας πλαγίωσης (σε μοίρες). Μόνο για ανάγνωση Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Καθορίζει τη γωνία κάθετης πλαγίωσης (σε μοίρες). Μόνο για ανάγνωση Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Καθορίζει τη γωνία οριζόντιας παραμόρφωσης (σε μοίρες). Μόνο για ανάγνωση Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Καθορίζει τη γωνία κατακόρυφης παραμόρφωσης (σε μοίρες). Μόνο για ανάγνωση Double. |
 
 ### Δείτε επίσης
 

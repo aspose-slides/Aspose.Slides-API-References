@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
-second_title: Aspose.Sildes pro .NET API referenci
-description: Překládá prezentaci do určeného jazyka pomocí AI.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Překládá prezentaci do zadaného jazyka pomocí AI.
 type: docs
 weight: 50
 url: /cs/aspose.slides.ai/slidesaiagent/translateasync/
 ---
-## SlidesAIAgent.TranslateAsync metoda
+## SlidesAIAgent.TranslateAsync method
 
-Překládá prezentaci do určeného jazyka pomocí AI.
+Překládá prezentaci do zadaného jazyka pomocí AI.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -25,6 +25,14 @@ public Task TranslateAsync(IPresentation presentation, string language)
 | --- | --- |
 | ArgumentNullException | Instance prezentace není poskytnuta |
 | ArgumentException | Hodnota jazyka nesmí být null nebo prázdná |
+
+### Poznámky
+
+Níže uvedený příklad používá výchozí [`AsposeAIWebClient`](../../asposeaiwebclient), který je vytvořen bezparametrovým [`SlidesAIAgent`](../slidesaiagent) konstruktorem a spojuje se s vlastním LLM společnosti Aspose. Chcete-li použít jiného poskytovatele AI, poskytněte vlastní LLM nebo přizpůsobte připojení (například poskytnutím vlastního `HttpClient`), předávejte implementaci [`IAIWebClient`](../../iaiwebclient) do [`SlidesAIAgent`](../slidesaiagent) konstruktoru. K dispozici jsou následující implementace:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Viz také
 

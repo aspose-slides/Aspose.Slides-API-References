@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cung cấp các phương thức giúp xử lý các đối tượng hình dạng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Cung cấp các phương thức giúp xử lý các đối tượng shape.
 type: docs
 weight: 11510
 url: /vi/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil lớp
 
-Cung cấp các phương thức giúp xử lý các đối tượng hình dạng.
+Cung cấp các phương thức hỗ trợ xử lý các đối tượng shape.
 
 ```csharp
 public static class ShapeUtil

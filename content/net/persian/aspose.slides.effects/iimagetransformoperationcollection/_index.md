@@ -1,25 +1,25 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر یک مجموعه از افکت‌های اعمال‌شده بر یک تصویر.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر مجموعه‌ای از افکت‌های اعمال‌شده بر یک تصویر.
 type: docs
 weight: 3400
 url: /fa/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection رابط
 
-نمایانگر مجموعه‌ای از افکت‌های اعمال‌شده بر روی تصویر.
+نمایانگر مجموعه‌ای از افکت‌های اعمال‌شده بر یک تصویر است.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | باز می‌گرداند رابط IEnumerable. IEnumerable فقط‌خواندنی. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | یک [`IImageTransformOperation`](../iimagetransformoperation) را از مجموعه بر اساس اندیس آن باز می‌گرداند. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | رابط IEnumerable را برمی‌گرداند. IEnumerable فقط-خواندنی. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | عنصر [`IImageTransformOperation`](../iimagetransformoperation) را از مجموعه بر اساس ایندکس‌ آن برمی‌گرداند. |
 
 ## متدها
 
@@ -32,7 +32,7 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | افکت جدید Alpha Modulate را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | افکت جدید Alpha Modulate Fixed را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | افکت جدید Alpha Replace را به انتهای یک مجموعه اضافه می‌کند. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | افکت جدید Bi-Level (سیاه/سفید) را به انتهای یک مجموعه اضافه می‌کند. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | افکت جدید Bi-Level (black/white) را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | افکت جدید Blur را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | افکت جدید BrightnessContrast را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | افکت جدید Color Change را به انتهای یک مجموعه اضافه می‌کند. |
@@ -43,9 +43,9 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | افکت جدید Hue/Saturation/Luminance را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | افکت جدید Luminance را به انتهای یک مجموعه اضافه می‌کند. |
 | [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | افکت جدید Tint را به انتهای یک مجموعه اضافه می‌کند. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | یک افکت تصویر را از مجموعه در اندیس مشخص حذف می‌کند. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | یک اثر تصویر را از مجموعه در ایندکس مشخص حذف می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IImageTransformOperation](../iimagetransformoperation)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)

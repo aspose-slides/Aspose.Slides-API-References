@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van dia's in de sectie voor.
+description: Vertegenwoordigt een verzameling van dia's in de sectie.
 type: docs
 weight: 6910
 url: /nl/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection interface
 
-Stelt een collectie van dia's in de sectie voor.
+Vertegenwoordigt een verzameling van dia's in de sectie.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>

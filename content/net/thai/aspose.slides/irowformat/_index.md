@@ -1,14 +1,14 @@
 ---
 title: IRowFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงรูปแบบของแถวตาราง
+description: แสดงรูปแบบของแถวตาราง.
 type: docs
 weight: 6870
 url: /th/aspose.slides/irowformat/
 ---
-## IRowFormat อินเทอร์เฟส
+## IRowFormat อินเทอร์เฟซ
 
-แสดงรูปแบบของแถวตาราง
+แสดงรูปแบบของแถวตาราง.
 
 ```csharp
 public interface IRowFormat
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบแถวของตารางที่มีผลโดยการสืบทอดและสไตล์ของตารางที่ใช้ |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบแถวของตารางที่มีผลโดยคำนึงถึงการสืบทอดและสไตล์ตารางที่ใช้ |
 
 ### ดูเพิ่มเติม
 

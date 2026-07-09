@@ -1,6 +1,6 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงคุณสมบัติตารางข้อมูล.
 type: docs
 weight: 2060
@@ -8,7 +8,7 @@ url: /th/aspose.slides.charts/idatatable/
 ---
 ## IDataTable อินเทอร์เฟซ
 
-แสดงคุณสมบัติของตารางข้อมูล
+แสดงคุณสมบัติตารางข้อมูล
 
 ```csharp
 public interface IDataTable : IFormattedTextContainer
@@ -18,12 +18,12 @@ public interface IDataTable : IFormattedTextContainer
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | อนุญาตให้รับอินเทอร์เฟซ IFormattedTextContainer พื้นฐาน. อ่านอย่างเดียว [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatatable/format) { get; } | คืนค่ารูปแบบเส้น, การเติม, และเอฟเฟกต์ของวัตถุ. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวนอน. อ่าน/เขียน Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบรอบนอก. อ่าน/เขียน Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวตั้ง. อ่าน/เขียน Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | เป็นจริงหากคีย์คำอธิบายข้อมูลในตำนานมองเห็นได้. อ่าน/เขียน Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | อนุญาตให้เรียกดูส่วนต่อประสาน IFormattedTextContainer พื้นฐานได้. Read-only [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatatable/format) { get; } | ส่งคืนสไตล์ของเส้น, การเติมสี, และเอฟเฟกต์ของอ็อบเจกต์. Read-only [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวนอน. Read/write Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบรอบนอก. Read/write Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | เป็นจริงหากตารางข้อมูลแผนภูมิมีเส้นขอบเซลล์แนวตั้ง. Read/write Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | เป็นจริงหากคีย์ตำนานป้ายข้อมูลแสดงผล. Read/write Boolean. |
 
 ### ดูเพิ่มเติม
 

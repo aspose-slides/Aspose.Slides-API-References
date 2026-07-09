@@ -1,14 +1,14 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드에서 Section Zoom 개체를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드에서 Section Zoom 객체를 나타냅니다.
 type: docs
 weight: 6920
 url: /ko/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame 인터페이스
 
-슬라이드에서 Section Zoom 개체를 나타냅니다.
+슬라이드에서 Section Zoom 객체를 나타냅니다.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
@@ -19,9 +19,9 @@ public interface ISectionZoomFrame : IZoomObject
 | 이름 | 설명 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | IZoomObject 인터페이스를 반환합니다. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom 개체와 연결된 섹션 개체를 가져오거나 설정합니다. 읽기/쓰기 [`ISection`](../isection). |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom 객체와 연결된 섹션 객체를 가져오거나 설정합니다. 읽기/쓰기 [`ISection`](../isection). |
 
-### 관련 항목
+### 추가 보기
 
 * 인터페이스 [IZoomObject](../izoomobject)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

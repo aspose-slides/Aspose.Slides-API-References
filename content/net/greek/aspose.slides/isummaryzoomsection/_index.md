@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes για .NET αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα αντικείμενο Summary Zoom Section σε ένα πλαίσιο Summary Zoom.
 type: docs
-weight: 7140
+weight: 7160
 url: /el/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection διασύνδεση
 
-Αναπαριστά ένα αντικείμενο τμήματος Περίληψης Zoom σε ένα πλαίσιο Summary Zoom.
+Αναπαριστά ένα αντικείμενο Summary Zoom Section σε ένα πλαίσιο Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -19,8 +19,8 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Επιστρέφει ISectionZoomFrame διασύνδεση. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Επιστρέφει την περιγραφή κειμένου του αντικειμένου τμήματος Περίληψης Zoom. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Επιστρέφει τον τίτλο κειμένου του αντικειμένου τμήματος Περίληψης Zoom. |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Επιστρέφει τη περιγραφή κειμένου του αντικειμένου Summary Zoom Section. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Επιστρέφει τον τίτλο κειμένου του αντικειμένου Summary Zoom Section. |
 
 ### Δείτε επίσης
 

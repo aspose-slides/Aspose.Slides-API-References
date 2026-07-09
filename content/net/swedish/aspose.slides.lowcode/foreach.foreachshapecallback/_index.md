@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Återanrop som kommer att anropas för varje Shape./foreach/shape i Presentation../aspose.slides/presentation.
+description: Återuppringning som kommer att anropas för varje Shape./foreach/shape i Presentation../aspose.slides/presentation.
 type: docs
-weight: 7930
+weight: 7950
 url: /sv/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegate
 
-Återanrop som kommer att anropas för varje [`Shape`](../foreach/shape) i [`Presentation`](../../aspose.slides/presentation).
+Återuppringning som kommer att anropas för varje [`Shape`](../foreach/shape) i [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);

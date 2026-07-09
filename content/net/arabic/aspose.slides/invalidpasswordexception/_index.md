@@ -1,28 +1,28 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
-description: الاستثناء يتم إلقاؤه عندما يكون تنسيق ملف العرض غير مدعوم.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: استثناء يُرمى عندما يكون تنسيق ملف العرض غير مدعوم.
 type: docs
 weight: 7620
 url: /ar/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException فئة
 
-الاستثناء يتم إلقاؤه عندما يكون تنسيق ملف العرض غير مدعوم.
+الاستثناء الذي يُرمى عندما يكون تنسيق ملف العرض غير مدعوم.
 
 ```csharp
 public class InvalidPasswordException : Exception
 ```
 
-## المُنشئات
+## المنشئات
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | المُنشئ الافتراضي. |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | المنشئ الافتراضي. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | منشئ يسمح بإضافة رسالة إلى هذا الاستثناء. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | منشئ لاستثناء يحتوي على رسالة واستثناء مدمج. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | منشئ لاستثناء يحتوي على رسالة واستثناء مضمّن. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

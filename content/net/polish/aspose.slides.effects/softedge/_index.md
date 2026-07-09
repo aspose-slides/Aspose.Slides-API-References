@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest dotknięte.
+description: Reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
 type: docs
-weight: 3630
+weight: 3650
 url: /pl/aspose.slides.effects/softedge/
 ---
-## Klasa SoftEdge
+## SoftEdge klasa
 
-Reprezentuje efekt miękkiej krawędzi. Krawędzie kształtu są rozmyte, natomiast wypełnienie nie jest dotknięte.
+Reprezentuje efekt miękkiej krawędzi. Krawędzie obiektu są rozmyte, podczas gdy wypełnienie nie jest zmienione.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Nazwa | Opis |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Określa promień rozmycia stosowany do krawędzi. Odczyt/zapis Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Określa promień rozmycia stosowanego do krawędzi. Odczyt/zapis Double. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Określa, czy podany [`SoftEdge`](../softedge) jest równy bieżącemu [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Pobiera efektywne dane efektu miękkiej krawędzi z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Służy jako funkcja skrótu dla konkretnego typu. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Pobiera efektywne dane efektu Soft Edge z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 

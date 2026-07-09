@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل المدير الذي يحتفظ بسلوك عناصر النائب في شريحة النسخة الرئيسية بما في ذلك عنصر النائب للترويسة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مديرًا يحتوي على سلوك نائيات شريحة المستند الرئيسي بما في ذلك نائية الرأس.
 type: docs
 weight: 7990
 url: /ar/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
-## MasterHandoutSlideHeaderFooterManager الفئة
+## فئة MasterHandoutSlideHeaderFooterManager
 
-Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
+يمثل مديرًا يحتفظ بسلوك نائيات الشريحة الرئيسية للمستند الموزع، بما في ذلك نائية الرأس.
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,30 +17,30 @@ public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeader
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | يُرجع قيمة تشير إلى وجود عنصر نائب للتاريخ والوقت. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | يُرجع قيمة تشير إلى وجود عنصر نائب للتذييل. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | يُرجع قيمة تشير إلى وجود عنصر نائب للترويسة. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | يُرجع قيمة تشير إلى وجود عنصر نائب لرقم الصفحة. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | يحصل على القيمة التي تشير إلى وجود نائية تاريخ-وقت. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | يحصل على القيمة التي تشير إلى وجود نائية تذييل. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | يحصل على القيمة التي تشير إلى وجود نائية رأس. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | يحصل على القيمة التي تشير إلى وجود نائية رقم الصفحة. ReadBoolean. |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | يعيّن النص إلى عنصر نائب لتاريخ ووقت الشريحة. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | يغيّر رؤية عنصر نائب لتاريخ ووقت الشريحة. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | يعيّن النص إلى عنصر نائب لتذييل الشريحة. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | يغيّر رؤية عنصر نائب لتذييل الشريحة. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | يعيّن النص إلى عنصر نائب لترويسة الشريحة. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | يغيّر رؤية عنصر نائب لترويسة الشريحة. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | يغيّر رؤية عنصر نائب لرقم صفحة الشريحة. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | يضبط النص لنائية تاريخ-وقت الشريحة. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | يغيّر رؤية نائية تاريخ-وقت الشريحة. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | يضبط النص لنائية تذييل الشريحة. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | يغيّر رؤية نائية تذييل الشريحة. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | يضبط النص لنائية رأس الشريحة. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | يغيّر رؤية نائية رأس الشريحة. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | يغيّر رؤية نائية رقم صفحة الشريحة. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
-* الفئة [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
-* الواجهة [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* فئة [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
+* واجهة [IMasterHandoutSlideHeaderFooterManager](../imasterhandoutslideheaderfootermanager)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

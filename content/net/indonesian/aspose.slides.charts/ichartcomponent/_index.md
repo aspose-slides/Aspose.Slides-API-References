@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili komponen sebuah diagram.
+description: Mewakili komponen diagram.
 type: docs
-weight: 1770
+weight: 1790
 url: /id/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent antarmuka
 
-Mewakili komponen dari sebuah diagram.
+Mewakili komponen diagram.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,7 +18,7 @@ public interface IChartComponent : ISlideComponent
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Memungkinkan mendapatkan antarmuka dasar ISlideComponent. Hanya baca [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Mengembalikan diagram. Hanya baca [`IChart`](../ichart). |
 
 ### Lihat Juga

@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorksheet
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a planilha associada a IChartDataCell./ichartdatacell
 type: docs
-weight: 1370
+weight: 1390
 url: /pt/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet classe
@@ -21,7 +21,7 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 | [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Obtém o índice da planilha. Somente leitura Int32. |
 | [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Retorna o nome da planilha. Somente leitura String. |
 
-### Ver também
+### Veja Também
 
 * classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * classe [ChartDataWorksheetCollection](../chartdataworksheetcollection)

@@ -1,9 +1,9 @@
 ---
 title: BehaviorCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di effetti di comportamento.
+description: Rappresenta una collezione di effetti di comportamento.
 type: docs
-weight: 150
+weight: 170
 url: /it/aspose.slides.animation/behaviorcollection/
 ---
 ## BehaviorCollection classe
@@ -19,7 +19,7 @@ public class BehaviorCollection : IBehaviorCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Restituisce il numero di comportamenti in una raccolta. Solo lettura Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Ottiene un valore che indica se l'ICollection è sola lettura. Solo lettura Boolean. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Ottiene un valore che indica se l'ICollection è a sola lettura. Solo lettura Boolean. |
 | [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | Restituisce un comportamento all'indice specificato. |
 
 ## Metodi
@@ -29,12 +29,12 @@ public class BehaviorCollection : IBehaviorCollection
 | [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Aggiunge un nuovo comportamento a una raccolta. |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | Rimuove tutti i comportamenti da una raccolta. |
 | [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Determina se l'ICollection contiene un valore specifico. |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Copia gli elementi dell'ICollection in un Array, iniziando da uno specifico indice dell'Array. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Copia gli elementi dell'ICollection in un Array, iniziando da un indice specifico dell'Array. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Determina l'indice di un elemento specifico nella IList. |
 | [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Inserisce un nuovo comportamento in una raccolta all'indice specificato. |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Rimuove il comportamento specificato da una raccolta. |
-| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Rimuove il comportamento da una raccolta all'indice specificato. |
+| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Rimuove un comportamento da una raccolta all'indice specificato. |
 
 ### Vedi anche
 

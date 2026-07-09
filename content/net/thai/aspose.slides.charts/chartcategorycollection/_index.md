@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงคอลเลกชันของ ChartCategory./chartcategory
 type: docs
 weight: 1280
 url: /th/aspose.slides.charts/chartcategorycollection/
 ---
-## ChartCategoryCollection คลาส
+## คลาส ChartCategoryCollection
 
-แสดงถึงคอลเลกชันของ [`ChartCategory`](../chartcategory)
+Represents collection of [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -18,25 +18,25 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | คืนค่าจำนวนขององค์ประกอบในคอลเลกชันนี้ อ่านอย่างเดียว Int32. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | คืนค่าจำนวนขององค์ประกอบในคอลเลกชัน อ่านอย่างเดียว Int32. |
 | [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | คืนค่าจำนวนระดับการจัดกลุ่มประเภทที่ใช้ มีมากกว่าหนึ่งสำหรับประเภทหลายระดับ อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึง List มีการประสาน (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | รับค่าองค์ประกอบที่ตำแหน่งที่ระบุ. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | คืนค่าออบเจกต์ที่ใช้สำหรับประสานการเข้าถึงคอลเลกชัน อ่านอย่างเดียว Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | ถ้าเป็นค่า true แล้ว worksheet จะใช้สำหรับเก็บประเภท (กรณีนี้รองรับประเภทหลายระดับ) ถ้าเป็นค่า false แล้ว worksheet จะ **ไม่** ใช้สำหรับเก็บค่า (และกรณีนี้ไม่รองรับประเภทหลายระดับ) อ่าน/เขียน Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึง List มีการซิงโครไนซ์ (ปลอดภัยต่อหลายเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | คืนวัตถุที่สามารถใช้เพื่อซิงโครไนซ์การเข้าถึงคอลเลกชัน อ่านอย่างเดียว Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | ถ้าเป็นจริง worksheet จะถูกใช้เก็บประเภท (กรณีนี้สนับสนุนประเภทหลายระดับ) ถ้าเป็นเท็จ worksheet จะไม่ถูกใช้เก็บค่า (และกรณีนี้ไม่สนับสนุนประเภทหลายระดับ) อ่าน/เขียน Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | ถ้าประเภทมีอยู่ในคอลเลกชันแล้วคืนค่า หากไม่มีจะสร้างประเภทแผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) แล้วเพิ่มเข้าในคอลเลกชัน |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | สร้าง [`ChartCategory`](../chartcategory) ใหม่จากค่าและเพิ่มเข้าในคอลเลกชัน |
-| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบของคอลเลกชันไปยังแอเรย์ที่ระบุ |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | คืนค่า enumerator ที่วนผ่านคอลเลกชัน |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | ค้นหา [`ChartCategory`](../chartcategory) ที่ระบุและคืนค่าดัชนีฐานศูนย์ของการพบครั้งแรกในคอลเลกชันทั้งหมด |
-| [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | ลบค่าที่ระบุ |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่กำหนด |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | ถ้าประเภทมีอยู่ในคอลเลกชัน จะคืนค่าเดิม มิฉะนั้นจะสร้างประเภทแผนภูมิใหม่จาก [`IChartDataCell`](../ichartdatacell) แล้วเพิ่มเข้าไปในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | สร้าง [`ChartCategory`](../chartcategory) ใหม่จากค่าแล้วเพิ่มเข้าไปในคอลเลกชัน. |
+| [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดของคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนผ่านคอลเลกชัน. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | ค้นหา [`ChartCategory`](../chartcategory) ที่ระบุและคืนดัชนีเริ่มต้นศูนย์ของการปรากฏครั้งแรกในคอลเลกชันทั้งหมด. |
+| [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | ลบค่าที่ระบุ. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

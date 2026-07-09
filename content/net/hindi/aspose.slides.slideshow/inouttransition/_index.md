@@ -1,6 +1,6 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10230
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition क्लास
 
-In-Out स्लाइड ट्रांज़िशन प्रभाव।
+इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -16,18 +16,18 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | एक ट्रांज़िशन प्रभाव की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | ट्रांज़िशन प्रभाव की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंसेज़ समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के योग्य होता है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिद्म और हैश टेबल जैसी डेटा संरचनाओं में उपयोगी है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IInOutTransition](../iinouttransition)

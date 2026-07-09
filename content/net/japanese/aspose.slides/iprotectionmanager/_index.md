@@ -1,9 +1,9 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Slides for .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションのパスワード保護管理。
 type: docs
-weight: 6800
+weight: 6820
 url: /ja/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager インターフェイス
@@ -18,18 +18,18 @@ public interface IProtectionManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | このプロパティは、プレゼンテーションがパスワード保護されている場合に意味があります。true の場合、ドキュメント プロパティはプレゼンテーション ファイル内で暗号化されます。false の場合、プレゼンテーションは暗号化されているがドキュメント プロパティは公開されます。Read/write Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | 暗号化パスワードを返します。Read-only String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | このインスタンスが暗号化されているかどうかを示す値を取得します。Read-only Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | このプロパティは、プレゼンテーション ファイルがパスワード保護されており、かつこのファイルのドキュメント プロパティが公開されている場合に意味があります。true の場合、パスワードを使用せずに暗号化されたプレゼンテーション ファイルからドキュメント プロパティだけが読み込まれます。false の場合、正しいパスワードを使用して暗号化されたプレゼンテーション全体が読み込まれ、ドキュメント プロパティだけでなく全体がロードされます。プレゼンテーションが暗号化されていない場合、このプロパティの値は常に false です。暗号化されたファイルのドキュメント プロパティが公開されていない場合も、このプロパティの値は常に false です。PresentationEx.EncryptDocumentProperties が true の場合、IsOnlyDocumentPropertiesLoaded プロパティの値は常に false です。Read-only Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | このプレゼンテーションが書き込み保護されているかどうかを示す値を取得します。Read-only Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | 読み取り専用の推奨設定を取得または設定します。Read/write Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | このプロパティは、プレゼンテーションがパスワードで保護されている場合に意味があります。true の場合は、ドキュメント プロパティがプレゼンテーション ファイル内で暗号化されます。false の場合は、プレゼンテーションが暗号化されている間、ドキュメント プロパティは公開されます。読み書き可能 Boolean。 |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | 暗号化パスワードを返します。読み取り専用 String。 |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | このインスタンスが暗号化されているかどうかを示す値を取得します。読み取り専用 Boolean。 |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | このプロパティは、プレゼンテーション ファイルがパスワードで保護され、かつこのファイルのドキュメント プロパティが公開されている場合に意味があります。true の値は、パスワードを使用せずに暗号化されたプレゼンテーション ファイルからドキュメント プロパティのみがロードされることを意味します。false の値は、正しいパスワードを使用して暗号化されたプレゼンテーション全体がロードされ、ドキュメント プロパティだけでなくすべてがロードされることを意味します。プレゼンテーションが暗号化されていない場合、プロパティ値は常に false です。暗号化されたファイルのドキュメント プロパティが公開されていない場合も、プロパティ値は常に false です。PresentationEx.EncryptDocumentProperties が true の場合、IsOnlyDocumentPropertiesLoaded プロパティの値は常に false になります。読み取り専用 Boolean。 |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | このプレゼンテーションが書き込み保護されているかどうかを示す値を取得します。読み取り専用 Boolean。 |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | 読み取り専用の推奨を取得または設定します。読み書き可能 Boolean。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | プレゼンテーションが変更に対してパスワードで保護されているかどうかを判定します。 |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | プレゼンテーションが変更のためにパスワードで保護されているかどうかを判定します。 |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | 指定されたパスワードでプレゼンテーションを暗号化します。 |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | 暗号化を解除します。 |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | このプレゼンテーションの書き込み保護を解除します。 |

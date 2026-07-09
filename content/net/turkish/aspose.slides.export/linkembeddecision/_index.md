@@ -1,14 +1,14 @@
 ---
 title: LinkEmbedDecision
 second_title: Aspose.Sildes için .NET API Referansı
-description: Nesnenin kaydetme sırasında nasıl işleneceğini belirler.
+description: Nesnenin kaydedilirken nasıl işleneceğini belirler.
 type: docs
-weight: 4210
+weight: 4230
 url: /tr/aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision enum
 
-Nesnenin kaydetme sırasında nasıl işleneceğini belirler.
+Nesnenin kaydedilirken nasıl işleneceğini belirler.
 
 ```csharp
 public enum LinkEmbedDecision
@@ -18,11 +18,11 @@ public enum LinkEmbedDecision
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Link | `0` | Nesne dışarıda depolanacak, URL ile referans verilecek |
-| Embed | `1` | Nesne mümkünse oluşturulan bir dosyaya gömülmelidir. Gömme mümkün değilse, GetUrl çağrılacak ve sonuca göre nesne URL ile referans verilecek ya da yok sayılacak |
-| Ignore | `2` | Nesne yok sayılacak |
+| Link | `0` | Nesne harici olarak saklanacak, URL ile referans verilecek |
+| Embed | `1` | Nesnenin mümkünse oluşturulan dosyaya gömülmesi gerekir. Gömme mümkün olmazsa, GetUrl çağrılacak ve sonuca bağlı olarak nesne URL ile referans verilecek ya da yoksayılacak. |
+| Ignore | `2` | Nesne yoksayılacak. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

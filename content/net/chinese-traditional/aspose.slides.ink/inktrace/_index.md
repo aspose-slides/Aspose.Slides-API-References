@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示一個 Trace 物件。Trace 元素用於記錄數位化儀器捕獲的資料。它包含根據 InkTraceFormat 物件所提供的規範編碼的一系列點。
+description: 表示一個 Trace 物件。Trace 元素用於記錄由數位化儀捕獲的資料。它包含依 InkTraceFormat 物件提供的規範編碼的一系列點。
 type: docs
 weight: 7590
 url: /zh-hant/aspose.slides.ink/inktrace/
 ---
 ## InkTrace 類別
 
-表示一個 Trace 物件。Trace 元素用於記錄數位化儀器捕獲的資料。它包含根據 InkTraceFormat 物件所提供的規範編碼的一系列點。
+表示一個 Trace 物件。Trace 元素用於記錄由數位化儀捕獲的資料。它包含依 InkTraceFormat 物件提供的規範編碼的一系列點。
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | 取得 IInkLine [`IInkBrush`](../iinkbrush) 的 Brush 唯讀。 |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | 取得 IInkLine PointF 的點 唯讀。 |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | 取得 IInkLine [`IInkBrush`](../iinkbrush) 的筆刷。唯讀。 |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | 取得 IInkLine PointF 的點。唯讀。 |
 
 ### 另請參閱
 

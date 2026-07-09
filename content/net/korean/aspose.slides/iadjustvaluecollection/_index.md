@@ -1,14 +1,14 @@
 ---
 title: IAdjustValueCollection
-second_title: Aspose.Sildes용 .NET API 참조
-description: 도형 조정값 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 도형 조정값의 컬렉션을 나타냅니다.
 type: docs
 weight: 5190
 url: /ko/aspose.slides/iadjustvaluecollection/
 ---
 ## IAdjustValueCollection 인터페이스
 
-Shape의 조정값 컬렉션을 나타냅니다.
+도형 조정값의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IAdjustValueCollection : ICollection

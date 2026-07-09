@@ -16,14 +16,14 @@ public interface IMotionCmdPath
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | 指定指令類型。讀/寫 [`MotionCommandPathType`](../motioncommandpathtype)。 |
-| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | 決定指令座標是否為相對座標。讀/寫 Boolean。 |
-| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 指定指令的點。讀/寫 PointF[]。 |
-| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | 指定指令點類型。讀/寫 [`MotionPathPointsType`](../motionpathpointstype)。 |
+| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | 指定指令類型。可讀寫 [`MotionCommandPathType`](../motioncommandpathtype)。 |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | 決定指令座標是否為相對座標。可讀寫 Boolean。 |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 指定指令的點。可讀寫 PointF[]。 |
+| [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | 指定指令點類型 可讀寫 [`MotionPathPointsType`](../motionpathpointstype)。 |
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 組件 [Aspose.Slides](../../)

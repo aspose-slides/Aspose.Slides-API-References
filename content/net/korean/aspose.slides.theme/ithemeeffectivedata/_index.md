@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 효과적인 테마 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 실제 테마 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 11380
 url: /ko/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData 인터페이스
 
-효과적인 테마 속성을 포함하는 불변 객체입니다.
+실제 테마 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -16,22 +16,22 @@ public interface IThemeEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | 폰트 스키마를 반환합니다. 읽기 전용 [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | 글꼴 스키마를 반환합니다. 읽기 전용 [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | 도형 형식 스키마를 반환합니다. 읽기 전용 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | 색상 스키마를 반환합니다. |
 
 ### 비고
 
-이 인터페이스는 [`ITheme`](../itheme) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
+이 인터페이스는 [`ITheme`](../itheme) 인터페이스와 함께 사용되어 상속이 적용된 실제 서식 값을 반환합니다.
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 어셈블리 [Aspose.Slides](../../)

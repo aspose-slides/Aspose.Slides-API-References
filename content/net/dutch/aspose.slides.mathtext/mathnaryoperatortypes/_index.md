@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Nary-operator IMathNaryOperator-types, exclusief integralen. Voor integralen MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Nary-operator IMathNaryOperator-typen exclusief integralen. Voor integralen MathIntegralTypes./mathintegraltypes
 type: docs
 weight: 8890
 url: /nl/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumeratie
 
-Nary operator IMathNaryOperator types (exclusief integralen) Voor integralen [`MathIntegralTypes`](../mathintegraltypes)
+Nary-operator IMathNaryOperator-typen (exclusief integralen). Voor integralen [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes

@@ -1,6 +1,6 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션을 XPS 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
 type: docs
 weight: 4730
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions 클래스
 
-프레젠테이션을 XPS 형식으로 저장하는 방법을 제어하는 옵션을 제공합니다.
+프레젠테이션을 XPS 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -24,14 +24,14 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 슬라이드마다 검은 프레임을 그리려면 true. 읽기/쓰기 Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황을 업데이트하는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참고하세요. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | 프레젠테이션에서 사용되는 모든 메타파일을 PNG 이미지로 변환하려면 true. 읽기/쓰기 Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 가져오거나 설정합니다. 읽기-쓰기 String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 각 슬라이드 주위에 검은 프레임을 그리려면 true로 설정합니다. 읽기/쓰기 Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 위한 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | 프레젠테이션에서 사용되는 모든 메타파일을 PNG 이미지로 변환하려면 true로 설정합니다. 읽기/쓰기 Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`입니다. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 받고 로딩 프로세스를 계속 진행할지 중단할지를 결정하는 객체를 가져오거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 예제
 

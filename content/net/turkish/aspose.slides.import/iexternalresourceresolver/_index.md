@@ -3,12 +3,12 @@ title: IExternalResourceResolver
 second_title: Aspose.Sildes için .NET API Referansı
 description: Html ve Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri çağırma arabirimi.
 type: docs
-weight: 7470
+weight: 7490
 url: /tr/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver arabirimi
 
-Harici kaynakları Html ve Svg belgeleri içe aktarılırken çözmek için kullanılan geri çağırma arabirimi.
+Html ve Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılan geri arama arabirimi.
 
 ```csharp
 public interface IExternalResourceResolver
@@ -18,10 +18,10 @@ public interface IExternalResourceResolver
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Gerçek kaynağı içeren bir nesneye bir URI eşler. |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Temel ve göreceli URI'lerden mutlak URI'yi çözer. |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | Bir URI'yı gerçek kaynağı içeren bir nesneye eşler. |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | Temel ve göreceli URI'lardan mutlak URI'yı çözer. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Import](../../aspose.slides.import)
 * derleme [Aspose.Slides](../../)

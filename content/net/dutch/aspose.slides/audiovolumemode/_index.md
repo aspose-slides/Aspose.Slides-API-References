@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Constanten die het geluidsvolume definiëren.
+second_title: Aspose.Sildes voor .NET API Reference
+description: Constanten die het audiovolume definiëren.
 type: docs
 weight: 890
 url: /nl/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode enumeratie
+## AudioVolumeMode-enumeratie
 
-Constanten die het geluidsvolume definiëren.
+Constanten die het audiovolume definiëren.
 
 ```csharp
 public enum AudioVolumeMode
@@ -21,7 +21,7 @@ public enum AudioVolumeMode
 | Mixed | `-1` |  |
 | Mute | `0` | Nul geluidsvolume. |
 | Low | `1` | Lage geluidsvolume. |
-| Medium | `2` | Middelmatig geluidsvolume. |
+| Medium | `2` | Gemiddelde geluidsvolume. |
 | Loud | `3` | Hard geluidsvolume. |
 
 ### Zie ook

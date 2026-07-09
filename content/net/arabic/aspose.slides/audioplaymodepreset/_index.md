@@ -1,14 +1,14 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Sildes مرجع API لـ .NET
-description: الثوابت التي تحدد طريقة تشغيل الصوت.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: الثوابت التي تحدد كيفية تشغيل الصوت.
 type: docs
 weight: 880
 url: /ar/aspose.slides/audioplaymodepreset/
 ---
 ## تعداد AudioPlayModePreset
 
-الثوابت التي تحدد طريقة تشغيل الصوت.
+الثوابت التي تحدد كيفية تشغيل الصوت.
 
 ```csharp
 public enum AudioPlayModePreset
@@ -20,11 +20,11 @@ public enum AudioPlayModePreset
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | تشغيل تلقائيًا. |
-| OnClick | `1` | تشغيل فقط عندما يتم النقر على الأيقونة. |
-| AllSlides | `2` | تشغيل على جميع الشرائح. يرجى استخدام [`PlayAcrossSlides`](../iaudioframe/playacrossslides) الخاصية بدلاً من ذلك. هذا العنصر غير محدث منذ PowerPoint 2013. |
+| OnClick | `1` | تشغيل فقط عند النقر على الأيقونة. |
+| AllSlides | `2` | تشغيل على جميع الشرائح. يرجى استخدام الخاصية [`PlayAcrossSlides`](../iaudioframe/playacrossslides) بدلاً من ذلك. هذا العنصر قديم منذ PowerPoint 2013. |
 | InClickSequence | `3` | تشغيل تلقائيًا عند النقر. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

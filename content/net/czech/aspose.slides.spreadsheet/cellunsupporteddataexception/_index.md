@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyvolána, když jsou v buňce tabulky nalezena nepodporovaná data.
+description: Výjimka, která je vyvolána, když je v buňce tabulky nalezen nepodporovaný typ dat.
 type: docs
-weight: 10710
+weight: 10730
 url: /cs/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException třída
 
-Výjimka, která je vyvolána, když je v buňce tabulky nalezena nepodporovaná data.
+Výjimka, která je vyvolána, když je v buňce tabulky nalezen nepodporovaný typ dat.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -19,8 +19,8 @@ public class CellUnsupportedDataException : PptxEditException
 | Název | Popis |
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Inicializuje novou instanci třídy [`CellUnsupportedDataException`](../cellunsupporteddataexception). |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Inicializuje novou instanci třídy [`CellUnsupportedDataException`](../cellunsupporteddataexception) se zadanou chybovou zprávou. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Inicializuje novou instanci třídy [`CellUnsupportedDataException`](../cellunsupporteddataexception) se zadanou chybovou zprávou a odkazem na vnitřní výjimku, která je příčinou této výjimky. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Inicializuje novou instanci třídy [`CellUnsupportedDataException`](../cellunsupporteddataexception) s určenou chybovou zprávou. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Inicializuje novou instanci třídy [`CellUnsupportedDataException`](../cellunsupporteddataexception) s určenou chybovou zprávou a odkazem na vnitřní výjimku, která je příčinou této výjimky. |
 
 ### Viz také
 

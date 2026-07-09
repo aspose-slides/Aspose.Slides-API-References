@@ -6,7 +6,7 @@ type: docs
 weight: 3460
 url: /ar/aspose.slides.effects/ioutershadow/
 ---
-## IOuterShadow واجهة
+## واجهة IOuterShadow
 
 يمثل تأثير الظل الخارجي.
 
@@ -19,20 +19,20 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | نصف قطر الضبابية بالنقاط. القيمة الافتراضية – 0 pt. للقراءة والكتابة Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | اتجاه الظل بالدرجات. القيمة الافتراضية – 0 ° (من اليسار إلى اليمين). للقراءة والكتابة Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | مسافة الظل من الكائن بالنقاط. القيمة الافتراضية – 0 pt. للقراءة والكتابة Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | محاذاة المستطيل. القيمة الافتراضية – Bottom. للقراءة والكتابة [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | يشير إلى ما إذا كان الظل يدور مع الشكل. القيمة الافتراضية – true. للقراءة والكتابة Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | عامل التحجيم الأفقي كنسبة مئوية من الحجم الأصلي. التحجيم السالب يسبب انعكاسًا. القيمة الافتراضية – 100 %. للقراءة والكتابة Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | عامل التحجيم العمودي كنسبة مئوية من الحجم الأصلي. التحجيم السالب يسبب انعكاسًا. القيمة الافتراضية – 100 %. للقراءة والكتابة Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | لون الظل. القيمة الافتراضية – أسود تلقائي (يعتمد على السمة). للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | زاوية الانحراف الأفقي بالدرجات. القيمة الافتراضية – 0 °. للقراءة والكتابة Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | زاوية الانحراف العمودي بالدرجات. القيمة الافتراضية – 0 °. للقراءة والكتابة Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | نصف قطر الضبابية، بالنقاط. القيمة الافتراضية – 0 pt. قراءة/كتابة Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | اتجاه الظل، بالدرجات. القيمة الافتراضية – 0 ° (من اليسار إلى اليمين). قراءة/كتابة Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | مسافة الظل من الكائن، بالنقاط. القيمة الافتراضية – 0 pt. قراءة/كتابة Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | محاذاة المستطيل. القيمة الافتراضية – Bottom. قراءة/كتابة [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | يشير إلى ما إذا كان الظل يدور مع الشكل. القيمة الافتراضية – true. قراءة/كتابة Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | عامل التحجيم الأفقي، بالنسبة المئوية للحجم الأصلي. التحجيم السالب يسبب انعكاسًا. القيمة الافتراضية – 100 %. قراءة/كتابة Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | عامل التحجيم العمودي، بالنسبة المئوية للحجم الأصلي. التحجيم السالب يسبب انعكاسًا. القيمة الافتراضية – 100 %. قراءة/كتابة Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | لون الظل. القيمة الافتراضية – أسود تلقائي (يعتمد على النمط). قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | زاوية الانحراف الأفقي، بالدرجات. القيمة الافتراضية – 0 °. قراءة/كتابة Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | زاوية الانحراف العمودي، بالدرجات. القيمة الافتراضية – 0 °. قراءة/كتابة Double. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * واجهة [IOuterShadowEffectiveData](../ioutershadoweffectivedata)

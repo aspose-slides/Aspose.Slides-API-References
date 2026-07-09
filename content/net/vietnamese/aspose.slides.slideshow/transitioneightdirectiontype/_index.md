@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho tám loại chuyển đổi hướng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị tám loại chuyển động theo hướng.
 type: docs
 weight: 10360
 url: /vi/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType liệt kê
+## Kiểu liệt kê TransitionEightDirectionType
 
-Đại diện cho tám loại chuyển đổi hướng.
+Biểu thị tám loại chuyển động theo hướng.
 
 ```csharp
 public enum TransitionEightDirectionType

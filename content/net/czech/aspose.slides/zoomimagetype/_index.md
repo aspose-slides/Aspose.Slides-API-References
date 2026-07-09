@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Definuje, zda objekt Zoom používá náhled snímku nebo úvodní obrázek.
+description: Definuje, zda objekt Zoom používá náhled snímku nebo obrázek obálky.
 type: docs
-weight: 11830
+weight: 11850
 url: /cs/aspose.slides/zoomimagetype/
 ---
 ## Výčet ZoomImageType
 
-Definuje, zda objekt Zoom používá náhled snímku nebo úvodní obrázek.
+Definuje, zda objekt Zoom používá náhled snímku nebo obrázek obálky.
 
 ```csharp
 public enum ZoomImageType

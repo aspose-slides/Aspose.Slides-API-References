@@ -1,14 +1,14 @@
 ---
 title: SystemColor
 second_title: Aspose.Sildes için .NET API Referansı
-description: Önceden tanımlanmış sistem renklerini temsil eder.
+description: Önceden tanımlı sistem renklerini temsil eder.
 type: docs
-weight: 10790
+weight: 10810
 url: /tr/aspose.slides/systemcolor/
 ---
-## SystemColor enumı
+## SystemColor enumerasyonu
 
-Önceden tanımlanmış sistem renklerini temsil eder.
+Önceden tanımlı sistem renklerini temsil eder.
 
 ```csharp
 public enum SystemColor

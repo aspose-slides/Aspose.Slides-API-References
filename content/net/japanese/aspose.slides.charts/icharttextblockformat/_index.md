@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャート テキスト要素の書式設定プロパティを表します。
+description: チャートのテキスト要素の書式設定プロパティを表します。
 type: docs
-weight: 1960
+weight: 1980
 url: /ja/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat インターフェイス
 
-チャート テキスト要素の書式設定プロパティを表します。
+チャートのテキスト要素の書式設定プロパティを表します。
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -16,18 +16,18 @@ public interface IChartTextBlockFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | TextFrame の垂直アンカー テキストを取得または設定します。 読み取り/書き込み [`TextAnchorType`](../../aspose.slides/textanchortype)。 |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | テキストの自動調整モードを取得または設定します。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2013 で完全にサポート; PowerPoint 2007 では描画に影響なし)。 読み取り/書き込み [`TextAutofitType`](../../aspose.slides/textautofittype)。 |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True の場合、テキストはボックス内で水平に中央揃えされます。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | TextFrame の下余白 (ポイント) を取得または設定します。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2013 で完全にサポート; PowerPoint 2007 では描画に影響なし)。 読み取り/書き込み Double。 |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | TextFrame の左余白 (ポイント) を取得または設定します。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2013 で完全にサポート; PowerPoint 2007 では描画に影響なし)。 読み取り/書き込み Double。 |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | TextFrame の右余白 (ポイント) を取得または設定します。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2013 で完全にサポート; PowerPoint 2007 では描画に影響なし)。 読み取り/書き込み Double。 |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | TextFrame の上余白 (ポイント) を取得または設定します。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2013 で完全にサポート; PowerPoint 2007 では描画に影響なし)。 読み取り/書き込み Double。 |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | バウンディング ボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合は、添付されたシェイプの回転が使用されます。指定された場合、シェイプとは独立して適用されます。つまり、シェイプに回転が適用されている上で、テキスト自体にも回転が適用される可能性があります。このプロパティおよび TextVerticalType プロパティの事前定義された垂直タイプから要約された視覚的テキスト回転の結果値です。 読み取り/書き込み Single。 |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | テキストの向きを決定します。このプロパティと RotationAngle プロパティのカスタム角度から要約された視覚的テキスト回転の結果値です。 読み取り/書き込み [`TextVerticalType`](../../aspose.slides/textverticaltype)。 |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | TextFrame の余白でテキストが折り返される場合は **True**。このプロパティの変更は、次のチャート部分にのみ影響を与える可能性があります: DataLabel と DataLabelFormat (PowerPoint 2007/2013 で完全にサポート)。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | テキストフレーム内の垂直アンカーテキストを取得または設定します。読み取り/書き込み [`TextAnchorType`](../../aspose.slides/textanchortype)。 |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | テキストの自動調整モードを取得または設定します。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2013 で完全にサポート。PowerPoint 2007 ではレンダリングに影響なし）。読み取り/書き込み [`TextAutofitType`](../../aspose.slides/textautofittype)。 |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True の場合、テキストはボックス内で水平方向に中央揃えになります。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | テキストフレームの下余白（ポイント）を取得または設定します。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2013 で完全にサポート。PowerPoint 2007 ではレンダリングに影響なし）。読み取り/書き込み Double。 |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | テキストフレームの左余白（ポイント）を取得または設定します。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2013 で完全にサポート。PowerPoint 2007 ではレンダリングに影響なし）。読み取り/書き込み Double。 |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | テキストフレームの右余白（ポイント）を取得または設定します。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2013 で完全にサポート。PowerPoint 2007 ではレンダリングに影響なし）。読み取り/書き込み Double。 |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | テキストフレームの上余白（ポイント）を取得または設定します。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2013 で完全にサポート。PowerPoint 2007 ではレンダリングに影響なし）。読み取り/書き込み Double。 |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | バウンディングボックス内のテキストに適用されるカスタム回転を指定します。指定されていない場合、付随するシェイプの回転が使用されます。指定されている場合、シェイプとは独立して適用されます。つまり、シェイプに回転が適用されると同時に、テキスト自体にも回転が適用されることがあります。このプロパティと TextVerticalType プロパティの事前定義された垂直タイプから要約された、視覚的テキスト回転の結果値です。読み取り/書き込み Single。 |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | テキストの向きを決定します。このプロパティと RotationAngle プロパティのカスタム角度から要約された、視覚的テキスト回転の結果値です。読み取り/書き込み [`TextVerticalType`](../../aspose.slides/textverticaltype)。 |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** は、テキストが TextFrame の余白で折り返される場合です。このプロパティの変更は、次のチャートパーツにのみ影響を与える可能性があります：DataLabel と DataLabelFormat（PowerPoint 2007/2013 で完全にサポート）。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
 
 ### 参照
 

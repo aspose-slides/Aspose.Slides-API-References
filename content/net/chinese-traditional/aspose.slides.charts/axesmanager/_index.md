@@ -1,14 +1,14 @@
 ---
 title: AxesManager
-second_title: Aspose.Sildes .NET API 參考
-description: 提供對圖表軸的存取。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供對圖表坐標軸的存取。
 type: docs
 weight: 1170
 url: /zh-hant/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager 類別
 
-提供對圖表軸的存取。
+提供對圖表坐標軸的存取。
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager
@@ -24,7 +24,7 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | 取得圖表的系列軸。唯讀 [`IAxis`](../iaxis)。 |
 | [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | 取得圖表的垂直軸。唯讀 [`IAxis`](../iaxis)。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [Chart](../chart)

@@ -1,6 +1,6 @@
 ---
 title: IErrorBarsFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn các thanh lỗi của chuỗi biểu đồ. Các giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection trong thuộc tính ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
 weight: 2090
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat giao diện
 
-Biểu diễn các thanh lỗi của chuỗi biểu đồ. Giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection (trong thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Biểu diễn các thanh lỗi của chuỗi biểu đồ. Các giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection (trong thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -20,13 +20,13 @@ public interface IErrorBarsFormat : IChartComponent
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Trả về giao diện IChartComponent. Chỉ đọc [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Biểu diễn định dạng của các thanh lỗi. Đọc/ghi [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Chỉ định không vẽ nắp cuối trên các thanh lỗi. Đọc/ghi Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Lấy hoặc đặt khả năng hiển thị của Error Bars. Đọc/ghi Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Lấy hoặc đặt kiểu của các thanh lỗi. Đọc/ghi [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Lấy hoặc đặt giá trị được dùng với các loại giá trị Fixed, Percentage và StandardDeviation để xác định độ dài của các thanh lỗi. Đọc/ghi Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Biểu diễn các cách khả thi để xác định độ dài của các thanh lỗi. Trong trường hợp loại giá trị tùy chỉnh để chỉ định giá trị, sử dụng thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) của điểm dữ liệu cụ thể trong bộ sưu tập DataPoints của chuỗi. Đọc/ghi [`ErrorBarValueType`](../errorbarvaluetype). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Chỉ định đầu mũi không được vẽ trên các thanh lỗi. Đọc/ghi Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Lấy hoặc đặt tính hiển thị của Error Bars. Đọc/ghi Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Lấy hoặc đặt loại của các thanh lỗi. Đọc/ghi [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Lấy hoặc đặt giá trị được sử dụng với các kiểu giá trị Fixed, Percentage và StandardDeviation để xác định độ dài của các thanh lỗi. Đọc/ghi Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Biểu diễn các cách có thể để xác định độ dài của các thanh lỗi. Trong trường hợp kiểu giá trị tùy chỉnh để chỉ định giá trị, sử dụng thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) của điểm dữ liệu cụ thể trong bộ sưu tập DataPoints của chuỗi. Đọc/ghi [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IChartComponent](../ichartcomponent)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

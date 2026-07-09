@@ -1,14 +1,14 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Slides per .NET API Reference
-description: Rappresenta una raccolta di sottotitoli chiusi.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta una raccolta dei sottotitoli chiusi.
 type: docs
-weight: 1100
+weight: 1120
 url: /it/aspose.slides/captionscollection/
 ---
-## classe CaptionsCollection
+## CaptionsCollection classe
 
-Rappresenta una raccolta di sottotitoli chiusi.
+Rappresenta una raccolta dei sottotitoli chiusi.
 
 ```csharp
 public sealed class CaptionsCollection : ICaptionsCollection
@@ -18,19 +18,19 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/captionscollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Restituisce le didascalie chiuse all'indice specificato. Solo lettura [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/captionscollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Sola lettura Int32. |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Restituisce i sottotitoli chiusi all'indice specificato. Sola lettura [`ICaptions`](../icaptions). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Aggiunge le didascalie chiuse WebVTT alla fine della raccolta da un flusso. |
-| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Aggiunge le didascalie chiuse WebVTT alla fine della raccolta. |
-| [Clear](../../aspose.slides/captionscollection/clear)() | Rimuove tutte le didascalie chiuse dalla raccolta. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Aggiunge i sottotitoli chiusi WebVTT alla fine della raccolta da un stream. |
+| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Aggiunge i sottotitoli chiusi WebVTT alla fine della raccolta. |
+| [Clear](../../aspose.slides/captionscollection/clear)() | Rimuove tutti i sottotitoli chiusi dalla raccolta. |
 | [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Rimuove le didascalie chiuse specificate dalla raccolta. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Rimuove le didascalie chiuse all'indice specificato. |
+| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Rimuove i sottotitoli chiusi specificati dalla raccolta. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Rimuove i sottotitoli chiusi all'indice specificato. |
 
 ### Vedi anche
 

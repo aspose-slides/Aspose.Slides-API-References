@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi a jegyzetek és megjegyzések exportált dokumentumban történő elrendezésének megjelenésének szabályozását.
+second_title: Aspose.Sildes a .NET API referencia
+description: Lehetőségeket biztosít, amelyek szabályozzák a jegyzetek és megjegyzések elrendezésének megjelenését az exportált dokumentumban.
 type: docs
-weight: 4270
+weight: 4290
 url: /hu/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions osztály
 
-Lehetővé teszi a jegyzetek és megjegyzések exportált dokumentumban történő elrendezésének megjelenésének szabályozását.
+Lehetőségeket biztosít, amelyek szabályozzák a megjegyzések és jegyzetek elrendezésének megjelenését az exportált dokumentumban.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Név | Leírás |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | A megjegyzések területének színének lekérése vagy beállítása (csak akkor alkalmazandó, ha a megjegyzések jobbra vannak megjelenítve). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | A megjegyzés kimeneti területének szélességének lekérése vagy beállítása képpontban (csak akkor alkalmazandó, ha a megjegyzések jobbra vannak megjelenítve). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | A megjegyzések oldalra vonatkozó pozíciójának lekérése vagy beállítása. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | A jegyzetek oldalra vonatkozó pozíciójának lekérése vagy beállítása. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | A szerző nélküli megjegyzések láthatóságának lekérése vagy beállítása. Ha igaz, a megjegyzések megjelennek. (Csak akkor alkalmazandó, ha a megjegyzések megjelennek.) |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Megkapja vagy beállítja a megjegyzések területének színét (csak akkor érvényes, ha a megjegyzések jobbra vannak megjelenítve). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Megkapja vagy beállítja a megjegyzés kimeneti terület szélességét pixelben (csak akkor érvényes, ha a megjegyzések jobbra vannak megjelenítve). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Megkapja vagy beállítja a megjegyzések pozícióját az oldalon. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Megkapja vagy beállítja a jegyzetek pozícióját az oldalon. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Megkapja vagy beállítja a szerző nélküli megjegyzések láthatóságát. Ha igaz, akkor a megjegyzések megjelennek. (Csak akkor érvényes, ha a megjegyzések megjelennek). |
 
 ### Lásd még
 

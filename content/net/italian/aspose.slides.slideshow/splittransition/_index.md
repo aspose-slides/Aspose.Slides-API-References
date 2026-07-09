@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione della diapositiva a divisione.
+description: Effetto di transizione della diapositiva divisa.
 type: docs
-weight: 10310
+weight: 10330
 url: /it/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition classe
 
-Effetto di transizione della diapositiva a divisione.
+Effetto di transizione della diapositiva divisa.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Nome | Descrizione |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Direzione della divisione della transizione. Lettura/Scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientamento della divisione della transizione. Lettura/Scrittura [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Direzione della divisione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientamento della divisione della transizione. Lettura/scrittura [`Orientation`](../../aspose.slides/orientation). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

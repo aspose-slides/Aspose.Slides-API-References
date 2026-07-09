@@ -1,25 +1,25 @@
 ---
 title: IAIWebClient
 second_title: Aspose.Sildes için .NET API Referansı
-description: AI Web istemci arayüzü. Bu arayüz, farklı AI dil modellerinin değiştirilmesini sağlar. Bu arayüzü uygulayan sınıflar, SlidesAIAgent ile birlikte kullanılmalıdır.
+description: AI Web istemci arayüzü. Bu arayüz, farklı AI dil modellerinin yerine geçilmesini sağlar. Bu arayüzü uygulayan sınıflar, SlidesAIAgent ile birlikte kullanılmak üzere tasarlanmıştır.
 type: docs
-weight: 20
+weight: 30
 url: /tr/aspose.slides.ai/iaiwebclient/
 ---
 ## IAIWebClient arayüzü
 
-AI Web istemci arayüzü. Bu arayüz, farklı AI dil modellerinin değiştirilebilmesini sağlar. Bu arayüzü uygulayan sınıflar, `SlidesAIAgent` ile birlikte kullanılmalıdır.
+AI Web istemci arayüzü. Bu arayüz, farklı AI dil modellerinin yerine geçilmesini sağlar. Bu arayüzü uygulayan sınıflar, `SlidesAIAgent` ile birlikte kullanılmak üzere tasarlanmıştır.
 
 ```csharp
 public interface IAIWebClient
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Sağlanan bir `HttpClient` örneği kullanarak AI modeline bir sohbet talimatı gönderir ve verilen talimata yanıt mesajını döndürür. |
-| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Bir konuşma örneği oluşturur. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı tutar. |
+| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Bir konuşma örneği oluşturur. Normal AI çağrılarının aksine, konuşmalar tüm bağlamı korur. |
 
 ### Ayrıca Bakınız
 

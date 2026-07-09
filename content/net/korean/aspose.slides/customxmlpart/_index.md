@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: custom xml part를 나타냅니다.
+description: 사용자 정의 XML 파트를 나타냅니다.
 type: docs
 weight: 2740
 url: /ko/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart 클래스
 
-custom xml part를 나타냅니다.
+사용자 정의 xml 파트를 나타냅니다.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,18 +18,18 @@ public class CustomXmlPart : ICustomXmlPart
 
 | 이름 | 설명 |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | 전역적으로 고유한 식별자(GUID)를 지정하며, Office Open XML 문서 내에서 단일 custom XML part를 고유하게 식별합니다. 읽기 전용 Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | custom XML part와 연관된 컬렉션 XML 스키마를 반환합니다. 읽기 전용 String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | XML 데이터를 UTF-8 문자열로 반환하거나 설정합니다. 읽기/쓰기 String. 값이 `null`입니다. 값이 비어 있거나 xml-data가 올바르지 않습니다. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | XML 데이터를 반환하거나 설정합니다. 읽기/쓰기 Byte[]. 값이 `null`입니다. 값이 비어 있거나 xml-data가 올바르지 않습니다. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Office Open XML 문서 내에서 단일 사용자 정의 XML 파트를 고유하게 식별하는 전역 고유 식별자(GUID)를 지정합니다. 읽기 전용 Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | 사용자 정의 XML 파트와 연결된 컬렉션 XML 스키마를 반환합니다. 읽기 전용 String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | XML 데이터를 UTF-8 문자열로 반환하거나 설정합니다. 읽기/쓰기 String. 값이 `null`.값이 비어 있거나 xml-data가 잘못되었습니다. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | XML 데이터를 반환하거나 설정합니다. 읽기/쓰기 Byte[]. 값이 `null`.값이 비어 있거나 xml-data가 잘못되었습니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Remove](../../aspose.slides/customxmlpart/remove)() | 프레젠테이션에서 custom xml part를 제거합니다. |
+| [Remove](../../aspose.slides/customxmlpart/remove)() | 프레젠테이션에서 사용자 정의 xml 파트를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ICustomXmlPart](../icustomxmlpart)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

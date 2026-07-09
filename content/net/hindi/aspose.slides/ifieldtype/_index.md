@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: फ़ील्ड के एक प्रकार को दर्शाता है। यह मान निर्धारित करता है कि अपडेट होने पर फ़ील्ड भाग में कौन सा पाठ सेट किया जाएगा।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: फ़ील्ड का एक प्रकार दर्शाता है। यह मान निर्धारित करता है कि जब इसे अपडेट किया जाएगा तो फ़ील्ड भाग में कौन सा पाठ सेट किया जाएगा।
 type: docs
 weight: 5780
 url: /hi/aspose.slides/ifieldtype/
 ---
 ## IFieldType इंटरफ़ेस
 
-फ़ील्ड के एक प्रकार को दर्शाता है। यह मान निर्धारित करता है कि किस पाठ को फ़ील्ड भाग में सेट किया जाएगा जब इसे अपडेट किया जाएगा।
+फ़ील्ड का एक प्रकार दर्शाता है। यह मान निर्धारित करता है कि फ़ील्ड भाग में कौन सा टेक्स्ट सेट किया जाएगा जब इसे अपडेट किया जाएगा।
 
 ```csharp
 public interface IFieldType
@@ -18,9 +18,9 @@ public interface IFieldType
 
 | नाम | विवरण |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | इस FieldTypeEx ऑब्जेक्ट का आंतरिक नाम लौटाता है। पढ़ने/लिखने योग्य String. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | इस FieldTypeEx ऑब्जेक्ट का अंतरिक नाम लौटाता है। पढ़ें/लिखें स्ट्रिंग। |
 
-### देखें भी
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

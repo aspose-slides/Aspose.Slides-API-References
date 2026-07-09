@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอนสแตนท์ที่กำหนดประเภทของการบีบอัดที่นำไปใช้กับเนื้อหาทั้งหมดในไฟล์ PDF ยกเว้นรูปภาพ.
+description: คอนสแตนท์ที่กำหนดประเภทของการบีบอัดที่ใช้กับเนื้อหาทั้งหมดในไฟล์ PDF ยกเว้นรูปภาพ.
 type: docs
 weight: 4340
 url: /th/aspose.slides.export/pdftextcompression/
 ---
-## PdfTextCompression enumeration
+## PdfTextCompression enum
 
-คอนสแตนท์ที่กำหนดประเภทของการบีบอัดที่นำไปใช้กับเนื้อหาทั้งหมดในไฟล์ PDF ยกเว้นรูปภาพ.
+คอนสแตนท์ที่กำหนดประเภทของการบีบอัดที่ใช้กับเนื้อหาทั้งหมดในไฟล์ PDF ยกเว้นรูปภาพ
 
 ```csharp
 public enum PdfTextCompression

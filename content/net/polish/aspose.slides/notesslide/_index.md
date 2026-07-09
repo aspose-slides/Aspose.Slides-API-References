@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje slajd notatek w prezentacji.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Reprezentuje slajd z notatkami w prezentacji.
 type: docs
-weight: 9120
+weight: 9140
 url: /pl/aspose.slides/notesslide/
 ---
-## Klasa NotesSlide
+## NotesSlide klasa
 
-Reprezentuje slajd notatek w prezentacji.
+Reprezentuje notatkę slajdu w prezentacji.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -22,27 +22,27 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Zwraca kolekcję kontrolek ActiveX na slajdzie. Tylko do odczytu [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Zwraca niestandardowe dane slajdu. Tylko do odczytu [`ICustomData`](../icustomdata). |
 | [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter notatki slajdu. Tylko do odczytu [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Zapewnia łatwy dostęp do zawartych odnośników hipertekstowych. Tylko do odczytu [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Umożliwia łatwy dostęp do zawartych hiperłączy. Tylko do odczytu [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Zwraca lub ustawia nazwę slajdu. Odczyt/zapis String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Zwraca TextFrame z tekstem notatki, jeśli istnieje. Tylko do odczytu [`ITextFrame`](../itextframe). |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Zwraca TextFrame z tekstem notatek, jeśli istnieje. Tylko do odczytu [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Zwraca slajd nadrzędny. Tylko do odczytu [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Zwraca interfejs IPresentation. Tylko do odczytu [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Zwraca kształty slajdu. Tylko do odczytu [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Określa, czy kształty na slajdzie master powinny być wyświetlane na slajdach. Odczyt/zapis Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Określa, czy kształty na slajdzie-mistrzu mają być wyświetlane na slajdach, czy nie. Odczyt/zapis Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Zwraca identyfikator slajdu. Tylko do odczytu UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Zwraca obiekt Transition zawierający informacje o tym, jak określony slajd przechodzi w trakcie pokazu slajdów. Tylko do odczytu [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Zwraca menedżera nadpisującego motywu. Tylko do odczytu [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt osi czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt linii czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metody
 
 | Name | Description |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Zwraca efektywny motyw dla tego slajdu. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Określa, czy dwa wystąpienia IBaseSlide są równe. Zwracana wartość jest obliczana na podstawie struktury slajdu i statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itp. są równe. Porównanie nie uwzględnia unikalnych wartości identyfikatorów, np. SlideId oraz dynamicznej zawartości, np. bieżącej wartości daty w zastępnikiem daty. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Znajduje pierwsze wystąpienie kształtu z określonym tekstem alternatywnym. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Łączy fragmenty tekstu o tym samym formatowaniu we wszystkich akapitach wszystkich dopuszczalnych kształtów. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Łączy fragmenty tekstu o tym samym formatowaniu we wszystkich akapitach we wszystkich dopuszczalnych kształtach. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Określa, czy dwie instancje IBaseSlide są równe. Zwracana wartość jest obliczana na podstawie struktury slajdu i statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itp. są równe. Porównanie nie uwzględnia wartości unikalnych identyfikatorów, np. SlideId oraz dynamicznej zawartości, np. bieżącej wartości daty w symbolu zastępczym Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Znajduje pierwsze wystąpienie kształtu o określonym alternatywnym tekście. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Łączy ciągi znaków o tym samym formatowaniu we wszystkich akapitach wszystkich dopuszczalnych kształtów. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Łączy ciągi znaków o tym samym formatowaniu we wszystkich akapitach we wszystkich dopuszczalnych kształtach. |
 
 ### Zobacz także
 

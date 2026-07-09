@@ -1,14 +1,14 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes 用於 .NET API 參考
-description: 表示一個輸出保存服務。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示輸出儲存服務。
 type: docs
 weight: 4610
 url: /zh-hant/aspose.slides.export.web/ioutputsaver/
 ---
 ## IOutputSaver 介面
 
-表示一個輸出保存服務。
+表示輸出儲存服務。
 
 ```csharp
 public interface IOutputSaver
@@ -18,9 +18,9 @@ public interface IOutputSaver
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 將輸出檔案儲存至指定路徑。 |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 將輸出檔案儲存到指定的路徑。 |
 
-### 相關參考
+### 參見
 
 * 命名空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 組件 [Aspose.Slides](../../)

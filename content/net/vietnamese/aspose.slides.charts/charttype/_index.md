@@ -1,7 +1,7 @@
 ---
 title: ChartType
-second_title: Tham chiếu API Aspose.Slides cho .NET
-description: Biểu thị một loại biểu đồ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một loại biểu đồ.
 type: docs
 weight: 1500
 url: /vi/aspose.slides.charts/charttype/
@@ -18,92 +18,92 @@ public enum ChartType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| ClusteredColumn | `0` | Biểu thị biểu đồ Cột Cụm. |
-| StackedColumn | `1` | Biểu thị biểu đồ Cột Chồng. |
-| PercentsStackedColumn | `2` | Biểu thị biểu đồ Cột Chồng 100%. |
-| ClusteredColumn3D | `3` | Biểu thị biểu đồ Cột Cụm 3D. |
-| StackedColumn3D | `4` | Biểu thị biểu đồ Cột Chồng 3D. |
-| PercentsStackedColumn3D | `5` | Biểu thị biểu đồ Cột Chồng 100% 3D. |
-| Column3D | `6` | Biểu thị biểu đồ Cột 3D. |
-| ClusteredCylinder | `7` | Biểu thị biểu đồ Trụ Cụm. |
-| StackedCylinder | `8` | Biểu thị biểu đồ Trụ Chồng. |
-| PercentsStackedCylinder | `9` | Biểu thị biểu đồ Trụ Chồng 100%. |
-| Cylinder3D | `10` | Biểu thị biểu đồ Trụ 3D. |
-| ClusteredCone | `11` | Biểu thị biểu đồ Nón Cụm. |
-| StackedCone | `12` | Biểu thị biểu đồ Nón Chồng. |
-| PercentsStackedCone | `13` | Biểu thị biểu đồ Nón Chồng 100%. |
-| Cone3D | `14` | Biểu thị biểu đồ Nón 3D. |
-| ClusteredPyramid | `15` | Biểu thị biểu đồ Kim tự tháp Cụm. |
-| StackedPyramid | `16` | Biểu thị biểu đồ Kim tự tháp Chồng. |
-| PercentsStackedPyramid | `17` | Biểu thị biểu đồ Kim tự tháp Chồng 100%. |
-| Pyramid3D | `18` | Biểu thị biểu đồ Kim tự tháp 3D. |
-| Line | `19` | Biểu thị biểu đồ Đường. |
-| StackedLine | `20` | Biểu thị biểu đồ Đường Chồng. |
-| PercentsStackedLine | `21` | Biểu thị biểu đồ Đường Chồng 100%. |
-| LineWithMarkers | `22` | Biểu thị biểu đồ Đường với các điểm dữ liệu. |
-| StackedLineWithMarkers | `23` | Biểu thị biểu đồ Đường Chồng với các điểm dữ liệu. |
-| PercentsStackedLineWithMarkers | `24` | Biểu thị biểu đồ Đường Chồng 100% với các điểm dữ liệu. |
-| Line3D | `25` | Biểu thị biểu đồ Đường 3D. |
-| Pie | `26` | Biểu thị biểu đồ Tròn. |
-| Pie3D | `27` | Biểu thị biểu đồ Tròn 3D. |
-| PieOfPie | `28` | Biểu thị biểu đồ Tròn trong Tròn. |
-| ExplodedPie | `29` | Biểu thị biểu đồ Tròn Bùng nổ. |
-| ExplodedPie3D | `30` | Biểu thị biểu đồ Tròn Bùng nổ 3D. |
-| BarOfPie | `31` | Biểu thị biểu đồ Thanh trong Tròn. |
-| PercentsStackedBar | `32` | Biểu thị biểu đồ Thanh Chồng 100%. |
-| ClusteredBar3D | `33` | Biểu thị biểu đồ Thanh Cụm 3D. |
-| ClusteredBar | `34` | Biểu thị biểu đồ Thanh Cụm. |
-| StackedBar | `35` | Biểu thị biểu đồ Thanh Chồng. |
-| StackedBar3D | `36` | Biểu thị biểu đồ Thanh Chồng 3D. |
-| PercentsStackedBar3D | `37` | Biểu thị biểu đồ Thanh Chồng 100% 3D. |
-| ClusteredHorizontalCylinder | `38` | Biểu thị biểu đồ Thanh Trụ Ngang. |
-| StackedHorizontalCylinder | `39` | Biểu thị biểu đồ Thanh Trụ Ngang Chồng. |
-| PercentsStackedHorizontalCylinder | `40` | Biểu thị biểu đồ Thanh Trụ Ngang Chồng 100%. |
-| ClusteredHorizontalCone | `41` | Biểu thị biểu đồ Thanh Nón Ngang. |
-| StackedHorizontalCone | `42` | Biểu thị biểu đồ Thanh Nón Ngang Chồng. |
-| PercentsStackedHorizontalCone | `43` | Biểu thị biểu đồ Thanh Nón Ngang Chồng 100%. |
-| ClusteredHorizontalPyramid | `44` | Biểu thị biểu đồ Thanh Kim tự tháp Ngang. |
-| StackedHorizontalPyramid | `45` | Biểu thị biểu đồ Thanh Kim tự tháp Ngang Chồng. |
-| PercentsStackedHorizontalPyramid | `46` | Biểu thị biểu đồ Thanh Kim tự tháp Ngang Chồng 100%. |
-| Area | `47` | Biểu thị biểu đồ Diện tích. |
-| StackedArea | `48` | Biểu thị biểu đồ Diện tích Chồng. |
-| PercentsStackedArea | `49` | Biểu thị biểu đồ Diện tích Chồng 100%. |
-| Area3D | `50` | Biểu thị biểu đồ Diện tích 3D. |
-| StackedArea3D | `51` | Biểu thị biểu đồ Diện tích Chồng 3D. |
-| PercentsStackedArea3D | `52` | Biểu thị biểu đồ Diện tích Chồng 100% 3D. |
-| ScatterWithMarkers | `53` | Biểu thị biểu đồ Scatter với các điểm dữ liệu. |
-| ScatterWithSmoothLinesAndMarkers | `54` | Biểu thị biểu đồ Scatter kết nối bằng đường cong, có các điểm dữ liệu. |
-| ScatterWithSmoothLines | `55` | Biểu thị biểu đồ Scatter kết nối bằng đường cong, không có các điểm dữ liệu. |
-| ScatterWithStraightLinesAndMarkers | `56` | Biểu thị biểu đồ Scatter kết nối bằng đường thẳng, có các điểm dữ liệu. |
-| ScatterWithStraightLines | `57` | Biểu thị biểu đồ Scatter kết nối bằng đường thẳng, không có các điểm dữ liệu. |
-| HighLowClose | `58` | Biểu thị biểu đồ Cổ phiếu Cao-Thấp-Đóng. |
-| OpenHighLowClose | `59` | Biểu thị biểu đồ Cổ phiếu Mở-Cao-Thấp-Đóng. |
-| VolumeHighLowClose | `60` | Biểu thị biểu đồ Khối lượng-Cao-Thấp-Đóng. |
-| VolumeOpenHighLowClose | `61` | Biểu thị biểu đồ Khối lượng-Mở-Cao-Thấp-Đóng. |
-| Surface3D | `62` | Biểu thị biểu đồ Bề mặt 3D. |
-| WireframeSurface3D | `63` | Biểu thị biểu đồ Bề mặt Dây 3D. |
-| Contour | `64` | Biểu thị biểu đồ Đường viền. |
-| WireframeContour | `65` | Biểu thị biểu đồ Đường viền Dây. |
-| Doughnut | `66` | Biểu thị biểu đồ Doughnut. |
-| ExplodedDoughnut | `67` | Biểu thị biểu đồ Doughnut Bùng nổ. |
-| Bubble | `68` | Biểu thị biểu đồ Bọt. |
-| BubbleWith3D | `69` | Biểu thị biểu đồ Bọt 3D. |
-| Radar | `70` | Biểu thị biểu đồ Radar. |
-| RadarWithMarkers | `71` | Biểu thị biểu đồ Radar với các điểm dữ liệu. |
-| FilledRadar | `72` | Biểu thị biểu đồ Radar Được Điền. |
+| ClusteredColumn | `0` | Đại diện cho biểu đồ Clustered Column Chart. |
+| StackedColumn | `1` | Đại diện cho biểu đồ Stacked Column Chart. |
+| PercentsStackedColumn | `2` | Đại diện cho biểu đồ 100% Stacked Column Chart. |
+| ClusteredColumn3D | `3` | Đại diện cho biểu đồ 3D Colustered Column Chart. |
+| StackedColumn3D | `4` | Đại diện cho biểu đồ 3D Stacked Column Chart. |
+| PercentsStackedColumn3D | `5` | Đại diện cho biểu đồ 3D 100% Stacked Column Chart. |
+| Column3D | `6` | Đại diện cho biểu đồ 3D Column Chart. |
+| ClusteredCylinder | `7` | Đại diện cho biểu đồ Cylinder Chart. |
+| StackedCylinder | `8` | Đại diện cho biểu đồ Stacked Cylinder Chart. |
+| PercentsStackedCylinder | `9` | Đại diện cho biểu đồ 100% Stacked Cylinder Chart. |
+| Cylinder3D | `10` | Đại diện cho biểu đồ 3D Cylindrical Column Chart. |
+| ClusteredCone | `11` | Đại diện cho biểu đồ Cone Chart. |
+| StackedCone | `12` | Đại diện cho biểu đồ Stacked Cone Chart. |
+| PercentsStackedCone | `13` | Đại diện cho biểu đồ 100% Stacked Cone Chart. |
+| Cone3D | `14` | Đại diện cho biểu đồ 3D Conical Column Chart. |
+| ClusteredPyramid | `15` | Đại diện cho biểu đồ Pyramid Chart. |
+| StackedPyramid | `16` | Đại diện cho biểu đồ Stacked Pyramid Chart. |
+| PercentsStackedPyramid | `17` | Đại diện cho biểu đồ 100% Stacked Pyramid Chart. |
+| Pyramid3D | `18` | Đại diện cho biểu đồ 3D Pyramid Column Chart. |
+| Line | `19` | Đại diện cho biểu đồ Line Chart. |
+| StackedLine | `20` | Đại diện cho biểu đồ Stacked Line Chart. |
+| PercentsStackedLine | `21` | Đại diện cho biểu đồ 100% Stacked Line Chart. |
+| LineWithMarkers | `22` | Đại diện cho biểu đồ Line Chart with data markers. |
+| StackedLineWithMarkers | `23` | Đại diện cho biểu đồ Stacked Line Chart with data markers. |
+| PercentsStackedLineWithMarkers | `24` | Đại diện cho biểu đồ 100% Stacked Line Chart with data markers. |
+| Line3D | `25` | Đại diện cho biểu đồ 3D Line Chart. |
+| Pie | `26` | Đại diện cho biểu đồ Pie Chart. |
+| Pie3D | `27` | Đại diện cho biểu đồ 3D Pie Chart. |
+| PieOfPie | `28` | Đại diện cho biểu đồ Pie of Pie Chart. |
+| ExplodedPie | `29` | Đại diện cho biểu đồ Exploded Pie Chart. |
+| ExplodedPie3D | `30` | Đại diện cho biểu đồ 3D Exploded Pie Chart. |
+| BarOfPie | `31` | Đại diện cho biểu đồ Bar of Pie Chart. |
+| PercentsStackedBar | `32` | Đại diện cho biểu đồ 100% Stacked Bar Chart. |
+| ClusteredBar3D | `33` | Đại diện cho biểu đồ 3D Colustered Bar Chart. |
+| ClusteredBar | `34` | Đại diện cho biểu đồ Clustered Bar Chart. |
+| StackedBar | `35` | Đại diện cho biểu đồ Stacked Bar Chart. |
+| StackedBar3D | `36` | Đại diện cho biểu đồ 3D Stacked Bar Chart. |
+| PercentsStackedBar3D | `37` | Đại diện cho biểu đồ 3D 100% Stacked Bar Chart. |
+| ClusteredHorizontalCylinder | `38` | Đại diện cho biểu đồ Cylindrical Bar Chart. |
+| StackedHorizontalCylinder | `39` | Đại diện cho biểu đồ Stacked Cylindrical Bar Chart. |
+| PercentsStackedHorizontalCylinder | `40` | Đại diện cho biểu đồ 100% Stacked Cylindrical Bar Chart. |
+| ClusteredHorizontalCone | `41` | Đại diện cho biểu đồ Conical Bar Chart. |
+| StackedHorizontalCone | `42` | Đại diện cho biểu đồ Stacked Conical Bar Chart. |
+| PercentsStackedHorizontalCone | `43` | Đại diện cho biểu đồ 100% Stacked Conical Bar Chart. |
+| ClusteredHorizontalPyramid | `44` | Đại diện cho biểu đồ Pyramid Bar Chart. |
+| StackedHorizontalPyramid | `45` | Đại diện cho biểu đồ Stacked Pyramid Bar Chart. |
+| PercentsStackedHorizontalPyramid | `46` | Đại diện cho biểu đồ 100% Stacked Pyramid Bar Chart. |
+| Area | `47` | Đại diện cho biểu đồ Area Chart. |
+| StackedArea | `48` | Đại diện cho biểu đồ Stacked Area Chart. |
+| PercentsStackedArea | `49` | Đại diện cho biểu đồ 100% Stacked Area Chart. |
+| Area3D | `50` | Đại diện cho biểu đồ 3D Area Chart. |
+| StackedArea3D | `51` | Đại diện cho biểu đồ 3D Stacked Area Chart. |
+| PercentsStackedArea3D | `52` | Đại diện cho biểu đồ 3D 100% Stacked Area Chart. |
+| ScatterWithMarkers | `53` | Đại diện cho biểu đồ Scatter Chart. |
+| ScatterWithSmoothLinesAndMarkers | `54` | Đại diện cho biểu đồ Scatter Chart connected by curves, with data markers. |
+| ScatterWithSmoothLines | `55` | Đại diện cho biểu đồ Scatter Chart connected by curves, without data markers. |
+| ScatterWithStraightLinesAndMarkers | `56` | Đại diện cho biểu đồ Scatter Chart connected by lines, with data markers. |
+| ScatterWithStraightLines | `57` | Đại diện cho biểu đồ Scatter Chart connected by lines, without data markers. |
+| HighLowClose | `58` | Đại diện cho biểu đồ High-Low-Close Stock Chart. |
+| OpenHighLowClose | `59` | Đại diện cho biểu đồ Open-High-Low-Close Stock Chart. |
+| VolumeHighLowClose | `60` | Đại diện cho biểu đồ Volume-High-Low-Close Stock Chart. |
+| VolumeOpenHighLowClose | `61` | Đại diện cho biểu đồ Volume-Open-High-Low-Close Stock Chart. |
+| Surface3D | `62` | Đại diện cho biểu đồ 3D Surface Chart. |
+| WireframeSurface3D | `63` | Đại diện cho biểu đồ Wireframe 3D Surface Chart. |
+| Contour | `64` | Đại diện cho biểu đồ Contour Chart. |
+| WireframeContour | `65` | Đại diện cho biểu đồ Wireframe Contour Chart. |
+| Doughnut | `66` | Đại diện cho biểu đồ Doughnut Chart. |
+| ExplodedDoughnut | `67` | Đại diện cho biểu đồ Exploded Doughnut Chart. |
+| Bubble | `68` | Đại diện cho biểu đồ Bubble Chart. |
+| BubbleWith3D | `69` | Đại diện cho biểu đồ 3D Bubble Chart. |
+| Radar | `70` | Đại diện cho biểu đồ Radar Chart. |
+| RadarWithMarkers | `71` | Đại diện cho biểu đồ Radar Chart with data markers. |
+| FilledRadar | `72` | Đại diện cho biểu đồ Filled Radar Chart. |
 | SeriesOfMixedTypes | `73` | Giá trị này chỉ có thể được trả về bởi thuộc tính ChartEx.Type. Nó có nghĩa là biểu đồ có các chuỗi loại hỗn hợp. |
-| Treemap | `74` | Biểu thị biểu đồ Cây Đồ. |
-| Sunburst | `75` | Biểu thị biểu đồ Sunburst. |
-| Histogram | `76` | Biểu thị biểu đồ Histogram. |
-| ParetoLine | `77` | Biểu thị loại chuỗi Đường Pareto (biểu đồ Histogram Pareto). |
-| BoxAndWhisker | `78` | Biểu thị biểu đồ BoxAndWhisker. |
-| Waterfall | `79` | Biểu thị biểu đồ Waterfall. |
-| Funnel | `80` | Biểu thị biểu đồ Funnel. |
-| Map | `81` | Biểu thị biểu đồ Bản đồ. |
+| Treemap | `74` | Đại diện cho biểu đồ Treemap. |
+| Sunburst | `75` | Đại diện cho biểu đồ Sunburst. |
+| Histogram | `76` | Đại diện cho biểu đồ Histogram. |
+| ParetoLine | `77` | Đại diện cho loại chuỗi Pareto line (Histogram Pareto chart). |
+| BoxAndWhisker | `78` | Đại diện cho biểu đồ BoxAndWhisker. |
+| Waterfall | `79` | Đại diện cho biểu đồ Waterfall. |
+| Funnel | `80` | Đại diện cho biểu đồ Funnel. |
+| Map | `81` | Đại diện cho biểu đồ Map. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* bộ lắp ráp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

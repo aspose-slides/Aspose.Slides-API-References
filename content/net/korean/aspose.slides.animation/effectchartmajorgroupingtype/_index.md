@@ -1,6 +1,6 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 차트 요소에 대한 애니메이션 효과 유형을 나타냅니다.
 type: docs
 weight: 290
@@ -19,7 +19,7 @@ public enum EffectChartMajorGroupingType
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | BySeries | `0` | 시리즈별 차트 애니메이션 |
-| ByCategory | `1` | 카테고리별 차트 애니메이션 |
+| ByCategory | `1` | 범주별 차트 애니메이션 |
 
 ### 참고
 

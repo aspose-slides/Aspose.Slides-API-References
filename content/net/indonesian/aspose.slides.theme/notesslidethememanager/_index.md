@@ -1,9 +1,9 @@
 ---
 title: NotesSlideThemeManager
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan akses ke tema slide catatan yang ditimpa.
 type: docs
-weight: 11430
+weight: 11450
 url: /id/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager kelas
@@ -16,14 +16,14 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Menentukan apakah OverrideTheme menimpa tema efektif yang diwariskan atau tidak. Untuk mengaktifkan OverrideTheme untuk penimpaan gunakan metode OverrideTheme.Init*(). Untuk menonaktifkan OverrideTheme dari penimpaan gunakan metode OverrideTheme.Clear(). Boolean Baca-saja. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang ditimpa. Baca/tulis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Menentukan apakah OverrideTheme menimpa tema efektif yang diwarisi atau tidak. Untuk mengaktifkan OverrideTheme agar menimpa gunakan metode OverrideTheme.Init*(). Untuk menonaktifkan OverrideTheme dari penimpaan gunakan metode OverrideTheme.Clear(). Boolean baca-saja. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang menimpa. Baca/tulis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Menerapkan skema warna ekstra ke sebuah slide. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Mengembalikan objek tema. |

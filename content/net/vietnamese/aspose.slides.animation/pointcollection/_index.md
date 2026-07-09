@@ -1,14 +1,14 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn tập hợp các điểm hoạt ảnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho tập hợp các điểm hoạt hình.
 type: docs
 weight: 730
 url: /vi/aspose.slides.animation/pointcollection/
 ---
-## Lớp PointCollection
+## PointCollection lớp
 
-Đại diện cho tập hợp các điểm hoạt ảnh.
+Đại diện cho tập hợp các điểm hoạt hình.
 
 ```csharp
 public class PointCollection : IPointCollection
@@ -25,13 +25,13 @@ public class PointCollection : IPointCollection
 | Tên | Mô tả |
 | --- | --- |
 | [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Trả về số lượng điểm trong tập hợp. Chỉ đọc Int32. |
-| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Trả về một điểm tại chỉ mục được chỉ định. |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Trả về một điểm tại chỉ mục đã chỉ định. |
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua tập hợp. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Trả về một enumerator cho phép lặp qua tập hợp. |
 
 ### Xem thêm
 

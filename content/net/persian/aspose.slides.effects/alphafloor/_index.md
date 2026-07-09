@@ -1,37 +1,37 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش‌دهندهٔ یک اثر Alpha Floor است. مقادیر شفافیت Alpha کمتر از ۱۰۰ به صفر تغییر می‌یابند. به عبارت دیگر، هر چیزی که به‌صورت جزئی شفاف باشد، به‌صورت کامل شفاف می‌شود.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایش یک اثر Alpha Floor. مقادیر شفافیت Alpha که کمتر از ۱۰۰ هستند به صفر تغییر می‌یابند. به عبارت دیگر، هر چیزی که به‌جزئی شفاف باشد کاملاً شفاف می‌شود.
 type: docs
 weight: 2860
 url: /fa/aspose.slides.effects/alphafloor/
 ---
 ## کلاس AlphaFloor
 
-نمایش‌دهنده یک اثر Alpha Floor است. مقادیر Alpha (شفافیت) کمتر از ۱۰۰٪ به صفر تغییر می‌یابند. به عبارت دیگر، هر چیزی که به‌صورت نیمه‌شفاف باشد، به‌صورت کاملاً شفاف تبدیل می‌شود.
+نمایش اثر Alpha Floor. مقادیر Alpha (شفافیت) کمتر از ۱۰۰٪ به صفر تغییر می‌یابند. به عبارت دیگر، هر چیزی که جزئی شفاف باشد به طور کامل شفاف می‌شود.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | امکان دریافت رابط پایه IPresentationComponent را فراهم می‌کند. فقط خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد تا رابط IPresentationComponent پایه را دریافت کند. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | تشخیص می‌دهد آیا [`AlphaFloor`](../alphafloor) مشخص‌شده برابر با [`AlphaFloor`](../alphafloor) جاری است یا خیر. |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | داده‌های مؤثر اثر Alpha Floor را با اعمال ارث‌بری دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | تعیین می‌کند آیا [`AlphaFloor`](../alphafloor) مشخص شده برابر با [`AlphaFloor`](../alphafloor) فعلی است. |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | داده‌های مؤثر اثر Alpha Floor را با به-کارگیری ارث‌بری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [ImageTransformOperation](../imagetransformoperation)
-* رابط [IAlphaFloor](../ialphafloor)
+* اینترفیس [IAlphaFloor](../ialphafloor)
 * فضای نام [Aspose.Slides.Effects](../../aspose.slides.effects)
 * اسمبلی [Aspose.Slides](../../)
 

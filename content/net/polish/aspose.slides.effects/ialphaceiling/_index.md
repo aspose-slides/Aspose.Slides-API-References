@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes dla .NET referencji API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje efekt Alpha Ceiling. Wartości przezroczystości Alpha większe niż zero są zmieniane na 100. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
 type: docs
-weight: 3020
+weight: 3040
 url: /pl/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling interfejs
 
-Reprezentuje efekt Alpha Ceiling. Wartości Alpha (przezroczystość) większe niż zero są zmieniane na 100%. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
+Reprezentuje efekt Alpha Ceiling. Wartości Alpha (przezroczystość) większe niż zero są zmieniane na 100 %. Innymi słowy, wszystko częściowo nieprzezroczyste staje się w pełni nieprzezroczyste.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperationEx. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphaceiling/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphaceiling/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperationEx. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Zobacz także
 

@@ -1,6 +1,6 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示計時的重新啟動類型。
 type: docs
 weight: 330
@@ -23,7 +23,7 @@ public enum EffectRestartType
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### 另請參閱
+### 相關參考
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程式集 [Aspose.Slides](../../)

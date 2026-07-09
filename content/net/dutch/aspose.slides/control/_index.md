@@ -8,7 +8,7 @@ url: /nl/aspose.slides/control/
 ---
 ## Controlklasse
 
-Representeert een ActiveX-besturingselement.
+Stelt een ActiveX-besturingselement voor.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de gebruikte methode om op te slaan ofwel PersistStream, PersistStreamInit of PersistStorage is. |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de te gebruiken methode om te bewaren PersistStream, PersistStreamInit of PersistStorage is. |
 | [ClassId](../../aspose.slides/control/classid) { get; set; } | Haalt de class-id van dit besturingselement op. Alleen-lezen Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | Geeft het frame van het besturingselement terug of stelt het in. Lezen/schrijven [`IShapeFrame`](../ishapeframe). |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | Geeft het frame van het besturingselement terug of stelt dit in. Lezen/schrijven [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | Haalt de naam van dit besturingselement op of stelt deze in. Lezen/schrijven String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Haalt de methode op die wordt gebruikt om eigenschappen van het ActiveX-besturingselement op te slaan. Alleen-lezen [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Geeft een collectie van ActiveX-eigenschappen terug. Opmerking: Aspose.Slides ondersteunt alleen XML-gebaseerde ActiveX-eigenschappen. Als eigenschappen in binair formaat zijn opgeslagen, zal deze eigenschap null retourneren. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Geeft het object met vul-eigenschappen voor de afbeelding van de Control terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Haalt de methode op die wordt gebruikt om de eigenschappen van het ActiveX-besturingselement op te slaan. Alleen-lezen [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Geeft een verzameling ActiveX-eigenschappen terug. Opmerking: Aspose.Slides ondersteunt alleen op XML gebaseerde ActiveX-eigenschappen. Als eigenschappen in binair formaat zijn opgeslagen, zal deze eigenschap null teruggeven. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Geeft Control image fill properties-object terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Zie ook
 

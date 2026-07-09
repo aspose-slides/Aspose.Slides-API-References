@@ -1,14 +1,14 @@
 ---
 title: IMotionPath
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 모션 경로를 나타냅니다.
+description: 동작 경로를 나타냅니다.
 type: docs
 weight: 530
 url: /ko/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath 인터페이스
 
-모션 경로를 나타냅니다.
+동작 경로를 나타냅니다.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -29,7 +29,7 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 | [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 경로에 새 명령을 추가합니다. |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | 컬렉션의 모든 명령을 제거합니다. |
 | [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 경로에 새 명령을 삽입합니다. |
-| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | 컬렉션에서 지정된 커맨드를 제거합니다. |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | 컬렉션에서 지정된 명령을 제거합니다. |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | 지정된 인덱스의 명령을 제거합니다. |
 
 ### 참조

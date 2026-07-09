@@ -1,24 +1,24 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: किओस्क पर पूर्ण स्क्रीन में ब्राउज़ किया गया
+description: कियोस्क पर पूर्ण स्क्रीन में ब्राउज़ किया गया
 type: docs
 weight: 1040
 url: /hi/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk क्लास
 
-किओस्क पर ब्राउज़ किया गया (पूर्ण स्क्रीन)
+कियोस्क पर ब्राउज़ किया गया (पूर्ण स्क्रीन)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माणकर्ता
 
 | नाम | विवरण |
 | --- | --- |
-| [BrowsedAtKiosk](browsedatkiosk)() | BrowsedAtKiosk क्लास का एक नया उदाहरण प्रारंभ करता है। |
+| [BrowsedAtKiosk](browsedatkiosk)() | BrowsedAtKiosk क्लास का नया उदाहरण प्रारंभ करता है। |
 
 ### उदाहरण
 
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### देखें
+### और देखें
 
 * क्लास [SlideShowType](../slideshowtype)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

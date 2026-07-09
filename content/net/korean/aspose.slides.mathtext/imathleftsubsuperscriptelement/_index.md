@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes for .NET API 참조
-description: 베이스의 왼쪽에 배치된 베이스와 아래 첨자 및 위 첨자로 구성된 서브-슈퍼스크립트 객체를 지정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 베이스의 왼쪽에 배치된 기본과 아래첨자 및 위첨자로 구성된 Sub-Superscript 객체를 지정합니다.
 type: docs
 weight: 8310
 url: /ko/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement 인터페이스
 
-베이스의 왼쪽에 배치된 베이스와 아래 첨자 및 위 첨자로 구성된 서브-슈퍼스크립트 개체를 지정합니다.
+베이스의 왼쪽에 배치된 기본과 아래첨자 및 위첨자로 구성된 Sub-Superscript 객체를 지정합니다.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,10 +18,10 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 기본 인수 |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 아래 첨자 |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 위 첨자 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | 베이스 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | 베이스 인수 |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | 아래첨자 |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | 위첨자 |
 
 ### 예제
 
@@ -32,7 +32,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### 참고
+### 추가 보기
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

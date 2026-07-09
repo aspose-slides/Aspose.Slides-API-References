@@ -1,6 +1,6 @@
 ---
 title: IEffectEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Lớp cơ sở cho các đối tượng bất biến đại diện cho hiệu ứng.
 type: docs
 weight: 3280
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData giao diện
 
-Lớp cơ sở cho các đối tượng bất biến, mà đại diện cho hiệu ứng.
+Lớp cơ sở cho các đối tượng bất biến, đại diện cho hiệu ứng.
 
 ```csharp
 public interface IEffectEffectiveData

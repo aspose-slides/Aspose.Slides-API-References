@@ -1,6 +1,6 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: LightRig का प्रतिनिधित्व करता है।
 type: docs
 weight: 7690
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/lightrig/
 ---
 ## LightRig क्लास
 
-Represents LightRig.
+LightRig का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class LightRig : PVIObject, ILightRig
@@ -18,9 +18,9 @@ public sealed class LightRig : PVIObject, ILightRig
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देती है। केवल पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | प्रकाश की दिशा। पढ़ें/लिखें [`LightingDirection`](../lightingdirection)। |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | एक प्रीसेट प्रकाश दिशा को दर्शाता है जिसे आकार पर लागू किया जा सकता है। लाइट रिग एक समूह प्रकाशों को दर्शाता है जो 3D दृश्य के सापेक्ष विशिष्ट तरीके से दिशित होते हैं। पढ़ें/लिखें [`LightRigPresetType`](../lightrigpresettype)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | प्रकाश की दिशा। पढ़ने/लिखने योग्य [`LightingDirection`](../lightingdirection)। |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | एक पूर्वनिर्धारित लाइट राइट का प्रतिनिधित्व करता है जिसे एक आकार पर लागू किया जा सकता है। लाइट रिग एक विशिष्ट तरीके से 3D दृश्य के सापेक्ष अभिमुखित लाइटों के समूह का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`LightRigPresetType`](../lightrigpresettype)। |
 
 ## विधियाँ
 
@@ -28,10 +28,10 @@ public sealed class LightRig : PVIObject, ILightRig
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | एक घूर्णन को अक्षांश समन्वय, देशांतर समन्वय, और अक्ष के चारों ओर घूमने से परिभाषित किया जाता है, जहाँ अक्षांश और देशांतर समन्वय क्रमशः उपयोग होते हैं। लौटाए गए एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - घूर्णन। यदि कोई घूर्णन परिभाषित नहीं है तो null लौटाता है। |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | एक घूर्णन को अक्षांश समन्वय, देशांतर समन्वय, और अक्ष के चारों ओर घूमने से परिभाषित किया जाता है, जहाँ अक्षांश और देशांतर समन्वय उपयोग होते हैं। यदि किसी भी समन्वय का मान float.NaN है, तो सभी घूर्णन अपरिभाषित होते हैं। |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | एक रोटेशन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर घूर्णन के उपयोग से परिभाषित किया जाता है। रिटर्न एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - घूर्णन। यदि कोई रोटेशन परिभाषित नहीं है तो null लौटाता है। |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | एक रोटेशन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर घूर्णन के उपयोग से परिभाषित किया जाता है। यदि किसी भी निर्देशांक का मान float.NaN है, तो सभी रोटेशन अपरिभाषित होते हैं। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [ILightRig](../ilightrig)

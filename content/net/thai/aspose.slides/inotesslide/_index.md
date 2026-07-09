@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงสไลด์โน้ตในงานนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงสไลด์โน้ตในงานนำเสนอ.
 type: docs
 weight: 6500
 url: /th/aspose.slides/inotesslide/
 ---
-## INotesSlide อินเทอร์เฟซ
+## อินเทอร์เฟซ INotesSlide
 
-Represents a notes slide in a presentation.
+แสดงสไลด์โน้ตในงานนำเสนอ.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | อนุญาตให้ดึง IBaseSlide อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | คืนค่า IOverrideThemeable อินเทอร์เฟซ. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | คืนค่า ตัวจัดการ HeaderFooter ของสไลด์โน้ต. อ่านอย่างเดียว [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | คืนค่า TextFrame พร้อมข้อความโน้ตหากมี. อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | คืนค่า ParentSlide อ่านอย่างเดียว [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseSlide พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | ส่งคืนอินเทอร์เฟซ IOverrideThemeable. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | ส่งคืนผู้จัดการ HeaderFooter ของสไลด์โน้ต. อ่านอย่างเดียว [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | ส่งคืน TextFrame ที่มีข้อความโน้ตหากมี. อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ส่งคืน ParentSlide. อ่านอย่างเดียว [`ISlide`](../islide). |
 
 ### ดูเพิ่มเติม
 

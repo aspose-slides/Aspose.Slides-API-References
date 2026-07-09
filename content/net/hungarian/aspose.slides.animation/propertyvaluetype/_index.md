@@ -1,9 +1,9 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: A tulajdonságérték típusokat képviseli.
 type: docs
-weight: 740
+weight: 760
 url: /hu/aspose.slides.animation/propertyvaluetype/
 ---
 ## PropertyValueType enumeráció

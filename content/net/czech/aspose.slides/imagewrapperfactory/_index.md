@@ -1,9 +1,9 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes pro .NET API Reference
-description: Tato třída umožňuje inicializovat IBitmapWrapper.
+second_title: Aspose.Slides pro .NET – reference API
+description: Třída umožňuje inicializovat IBitmapWrapper.
 type: docs
-weight: 7430
+weight: 7450
 url: /cs/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory třída

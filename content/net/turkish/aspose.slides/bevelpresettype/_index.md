@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Şeklin 3B köşe tanımını belirleyen sabitler.
+second_title: Aspose.Sildes .NET API Referansı
+description: Şeklin 3D köşe tanımını belirleyen sabitler.
 type: docs
-weight: 990
+weight: 1010
 url: /tr/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType enum
 
-Şeklin 3B köşe tanımını belirleyen sabitler.
+Şeklin 3D köşe tanımlayan sabitler.
 
 ```csharp
 public enum BevelPresetType

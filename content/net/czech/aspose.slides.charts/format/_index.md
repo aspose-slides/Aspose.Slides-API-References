@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET - referenční příručka API
 description: Reprezentuje vlastnosti formátu grafu.
 type: docs
-weight: 1660
+weight: 1680
 url: /cs/aspose.slides.charts/format/
 ---
-## Format třída
+## Formát třídy
 
-Represents chart format properties.
+Představuje vlastnosti formátu grafu.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -16,7 +16,7 @@ public sealed class Format : PVIObject, IFormat
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Vrací efekty použité pro graf. Pouze pro čtení [`IEffectFormat`](../../aspose.slides/ieffectformat). |
@@ -26,9 +26,9 @@ public sealed class Format : PVIObject, IFormat
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

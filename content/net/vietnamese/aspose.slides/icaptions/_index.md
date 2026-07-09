@@ -19,8 +19,8 @@ public interface ICaptions
 | Tên | Mô tả |
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Trả về dữ liệu nhị phân của phụ đề đóng. Chỉ đọc Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Trả về định danh duy nhất toàn cầu (GUID) của phụ đề đóng. Chỉ đọc Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Trả về dữ liệu phụ đề đóng dưới dạng chuỗi được mã hoá UTF-8. Chỉ đọc String. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Trả về định danh toàn cục duy nhất (GUID) của phụ đề đóng. Chỉ đọc Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Trả về dữ liệu phụ đề đóng dưới dạng chuỗi mã hoá UTF-8. Chỉ đọc String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Trả về hoặc đặt nhãn của phụ đề đóng. Đọc/ghi String. |
 
 ### Xem thêm

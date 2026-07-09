@@ -1,6 +1,6 @@
 ---
 title: IHyperlink
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل ارتباطًا تشعبيًا.
 type: docs
 weight: 6110
@@ -18,27 +18,27 @@ public interface IHyperlink
 
 | الاسم | الوصف |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | يرجع نوع إجراء HyperLinkEx. للقراءة فقط [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | يمثل مصدر لون الارتباط التشعبي - إما الأنماط أو تنسيق الجزء. قابل للقراءة والكتابة [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | يحدد عنوان URL الخارجي. إذا أصبحت هذه الخاصية غير فارغة فإن الخاصية TargetSlide تصبح فارغة. للقراءة فقط نص. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | يمثل ارتباطًا تشعبيًا يتم تعيينه لهذا الجزء دون اعتبار لمحتوى الجزء الفعلي. يتصرف PowerPoint بشكل خاص بالنسبة للروابط والنص المقابل لها في الجزء. يسمح بإنشاء نص للارتباط التشعبي على شكل عنوان URL صالح، مختلف عن العنوان الحقيقي للرابط. في هذه الحالة، عند عرض الرابط في نافذة التحرير، سيتغير ليتطابق مع نص الجزء. تمثل هذه الخاصية القيمة الأصلية للارتباط التشعبي. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | يحدد ما إذا كان يجب إبراز الارتباط التشعبي عند النقر. قابل للقراءة والكتابة منطقي. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | يحدد ما إذا كان يجب إضافة هدف الارتباط التشعبي الأصلي إلى قائمة الارتباطات المشاهدة عند تنفيذه. قابل للقراءة والكتابة منطقي. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | يمثل الصوت المشغل للارتباط التشعبي. قابل للقراءة والكتابة [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | يحدد ما إذا كان يجب إيقاف الصوت عند النقر على الارتباط التشعبي. قابل للقراءة والكتابة منطقي. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; } | يرجع الإطار داخل مجموعة إطارات HTML الأصل للهدف من الارتباط التشعبي الأصلي عندما يكون موجودًا. قابل للقراءة والكتابة نص. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | إذا كان HyperlinkEx يستهدف شريحة محددة فإنه يرجع هذه الشريحة. إذا أصبحت هذه الخاصية غير فارغة فإن الخاصية ExternalUrl تصبح فارغة. للقراءة فقط [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | يرجع النص الذي قد يُظهر في واجهة المستخدم كمرتبط بالارتباط التشعبي الأصلي. قابل للقراءة والكتابة نص. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | يعيد نوع إجراء HyperLinkEx. للقراءة فقط [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | يمثل مصدر لون الارتباط التشعبي - إما الأنماط أو تنسيق الجزء. للقراءة والكتابة [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | يحدد عنوان URL الخارجي. إذا أصبحت هذه الخاصية غير فارغة فإن الخاصية TargetSlide تصبح فارغة. للقراءة فقط String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | يمثل ارتباطًا تشعبيًا يتم تعيينه لهذا الجزء دون الاهتمام بالمحتوى الفعلي للجزء. يتعامل PowerPoint بطريقة خاصة مع الروابط والنص المقابل لها في الجزء. يسمح بإنشاء نص للارتباط التشعبي على شكل عنوان URL صالح، مختلف عن العنوان الحقيقي للارتباط. في هذه الحالة، عند عرض الرابط في نافذة التحرير، سيتغير ليتطابق مع نص الجزء. تمثل هذه الخاصية القيمة الأصلية للارتباط التشعبي. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | يحدد ما إذا كان يجب تمييز الارتباط التشعبي عند النقر. للقراءة والكتابة Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | يحدد ما إذا كان هدف الارتباط التشعبي الأصلي يجب إضافته إلى قائمة الروابط المشاهدة عند استدعائه. للقراءة والكتابة Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | يمثل الصوت المشغل للارتباط التشعبي. للقراءة والكتابة [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | يحدد ما إذا كان ينبغي إيقاف الصوت عند النقر على الارتباط التشعبي. للقراءة والكتابة Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | يعيد الإطار داخل مجموعة إطارات HTML الأصل للهدف من الارتباط التشعبي الأصلي عندما يكون موجودًا. للقراءة والكتابة String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | إذا كان HyperlinkEx يستهدف شريحة معينة، يعيد هذه الشريحة. إذا أصبحت الخاصية غير فارغة فإن الخاصية ExternalUrl تصبح فارغة. للقراءة فقط [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | يعيد السلسلة التي قد تُظهر في واجهة المستخدم كمرتبطة بالارتباط التشعبي الأصلي. للقراءة والكتابة String. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | يحدد ما إذا كانت مثيلتي Hyperlink متساويتين. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | يحدد ما إذا كانت مثيلتا Hyperlink متساويتين. |
 
-### انظر أيضًا
+### انظر أيضا
 
-* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* نطاق الاسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

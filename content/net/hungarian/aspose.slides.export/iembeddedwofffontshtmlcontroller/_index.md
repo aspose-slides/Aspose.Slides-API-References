@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Beágyazott woff betűkészletek html vezérlője.
+second_title: Aspose.Sildes a .NET API referencia
+description: Beágyazott woff betűtípusok HTML vezérlő.
 type: docs
-weight: 3890
+weight: 3910
 url: /hu/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController interfész
 
-Beágyazott woff betűkészletek html vezérlője.
+Beágyazott woff betűtípusok HTML vezérlő.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController

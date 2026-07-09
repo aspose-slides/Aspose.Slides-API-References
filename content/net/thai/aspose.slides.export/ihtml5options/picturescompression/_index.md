@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน PicturesCompressionaspose.slides.export/ihtml5options/picturescompression.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนระดับการบีบอัดรูปภาพ อ่าน/เขียน PicturesCompressionaspose.slides.export/ihtml5options/picturescompression.
 type: docs
 weight: 70
 url: /th/aspose.slides.export/ihtml5options/picturescompression/
 ---
 ## IHtml5Options.PicturesCompression คุณสมบัติ
 
-แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน `PicturesCompression`.
+แทนระดับการบีบอัดรูปภาพ อ่าน/เขียน `PicturesCompression`.
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }

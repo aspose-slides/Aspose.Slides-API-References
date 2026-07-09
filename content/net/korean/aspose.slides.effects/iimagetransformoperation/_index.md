@@ -14,7 +14,7 @@ url: /ko/aspose.slides.effects/iimagetransformoperation/
 public interface IImageTransformOperation
 ```
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

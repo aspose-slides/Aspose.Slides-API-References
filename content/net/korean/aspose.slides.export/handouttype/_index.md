@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes for .NET API 참조
-description: 페이지에 배치될 슬라이드 수와 순서를 지정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 페이지에 슬라이드가 몇 개 배치되고 어떤 순서로 배치될지를 지정합니다.
 type: docs
 weight: 3850
 url: /ko/aspose.slides.export/handouttype/
 ---
 ## HandoutType 열거형
 
-페이지에 배치될 슬라이드 수와 순서를 지정합니다.
+페이지에 슬라이드가 몇 개 배치되고 어떤 순서로 배치될지를 지정합니다.
 
 ```csharp
 public enum HandoutType
@@ -18,15 +18,15 @@ public enum HandoutType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Handouts1 | `0` | 페이지당 한 슬라이드. |
-| Handouts2 | `1` | 페이지당 두 슬라이드. |
-| Handouts3 | `2` | 페이지당 세 슬라이드. |
-| Handouts4Horizontal | `3` | 수평 순서로 페이지당 네 슬라이드. |
-| Handouts4Vertical | `4` | 수직 순서로 페이지당 네 슬라이드. |
-| Handouts6Horizontal | `5` | 수평 순서로 페이지당 여섯 슬라이드. |
-| Handouts6Vertical | `6` | 수직 순서로 페이지당 여섯 슬라이드. |
-| Handouts9Horizontal | `7` | 수평 순서로 페이지당 아홉 슬라이드. |
-| Handouts9Vertical | `8` | 수직 순서로 페이지당 아홉 슬라이드. |
+| Handouts1 | `0` | 페이지당 하나의 슬라이드. |
+| Handouts2 | `1` | 페이지당 두 개의 슬라이드. |
+| Handouts3 | `2` | 페이지당 세 개의 슬라이드. |
+| Handouts4Horizontal | `3` | 가로 순서로 페이지당 네 개의 슬라이드. |
+| Handouts4Vertical | `4` | 세로 순서로 페이지당 네 개의 슬라이드. |
+| Handouts6Horizontal | `5` | 가로 순서로 페이지당 여섯 개의 슬라이드. |
+| Handouts6Vertical | `6` | 세로 순서로 페이지당 여섯 개의 슬라이드. |
+| Handouts9Horizontal | `7` | 가로 순서로 페이지당 아홉 개의 슬라이드. |
+| Handouts9Vertical | `8` | 세로 순서로 페이지당 아홉 개의 슬라이드. |
 
 ### 참고
 

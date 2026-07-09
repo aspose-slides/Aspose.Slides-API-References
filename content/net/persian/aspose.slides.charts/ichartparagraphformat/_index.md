@@ -1,41 +1,41 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: خواص فرمت‌بندی یک پاراگراف در یک نمودار را نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: ویژگی‌های قالب‌بندی پاراگراف یک نمودار را نمایندگی می‌کند.
 type: docs
 weight: 1900
 url: /fa/aspose.slides.charts/ichartparagraphformat/
 ---
-## رابط IChartParagraphFormat
+## IChartParagraphFormat رابط
 
-خواص فرمت‌بندی یک پاراگراف در یک نمودار را نشان می‌دهد.
+ویژگی‌های قالب‌بندی پاراگراف نمودار را نمایندگی می‌کند.
 
 ```csharp
 public interface IChartParagraphFormat
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | مقدار یا تنظیم تراز متن در یک پاراگراف. قابل خواندن/نوشتن [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | مقدار یا تنظیم اندازه تب پیش‌فرض. قابل خواندن/نوشتن Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | تعیین می‌کند آیا شکسته خط شرق آسیا در یک پاراگراف استفاده می‌شود. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | مقدار یا تنظیم تراز قلم در یک پاراگراف. قابل خواندن/نوشتن [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | تعیین می‌کند آیا علامت‌گذاری معلق در یک پاراگراف استفاده می‌شود. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | مقدار یا تنظیم تورفتگی خط اول/تورفتگی معلق پاراگراف. تورفتگی معلق می‌تواند با مقادیر منفی تعریف شود. قابل خواندن/نوشتن Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | تعیین می‌کند آیا شکسته خط لاتین در یک پاراگراف استفاده می‌شود. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیه چپ در یک پاراگراف. قابل خواندن/نوشتن Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | مقدار یا تنظیم حاشیه راست در یک پاراگراف. قابل خواندن/نوشتن Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | تعیین می‌کند آیا نوشتار راست به چپ در یک پاراگراف استفاده می‌شود. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | مقدار یا تنظیم فضای پس از آخرین خط در یک پاراگراف. قابل خواندن/نوشتن Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | مقدار یا تنظیم فضای قبل از اولین خط در یک پاراگراف. قابل خواندن/نوشتن Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | مقدار یا تنظیم فضای بین خطوط پایه در یک پاراگراف. قابل خواندن/نوشتن Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | تب‌های یک پاراگراف را باز می‌گرداند. فقط قابل خواندن [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | تراز متن در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | اندازه تب پیش‌فرض را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | تعیین می‌کند آیا شکستن خط شرق آسیا در یک پاراگراف استفاده می‌شود یا خیر. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | تراز قلم‌خط در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | تعیین می‌کند آیا نقطه‌گذاری معلق در یک پاراگراف استفاده می‌شود یا خیر. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | فرورفت اولین خط/فرورفت معلق پاراگراف را برمی‌گرداند یا تنظیم می‌کند. فرورفت معلق می‌تواند با مقادیر منفی تعریف شود. قابل خواندن/نوشتن Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | تعیین می‌کند آیا شکست خط لاتین در یک پاراگراف استفاده می‌شود یا خیر. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | حاشیه چپ در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | حاشیه راست در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | تعیین می‌کند آیا نوشتار راست به چپ در یک پاراگراف استفاده می‌شود یا خیر. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | مقدار فضای پس از خط آخر در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | مقدار فضای قبل از خط اول در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | مقدار فضای بین خطوط پایه در یک پاراگراف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | تب‌گذاری‌های یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### موارد مرتبط
 
-* فضای نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* اسمبلی [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que representa um efeito Glow no qual um contorno borrado de cor é adicionado fora das bordas do objeto.
 type: docs
-weight: 3310
+weight: 3330
 url: /pt/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface
@@ -19,10 +19,10 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Somente leitura Color. |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Cor. Somente leitura Cor. |
 | [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Raio. Somente leitura Double. |
 
-### Ver Também
+### Veja Também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 基礎とオプションの次数からなる根関数を指定します。根オブジェクトの例は .
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 基底とオプションの次数からなる根号関数を指定します。根号オブジェクトの例は .
 type: docs
-weight: 8410
+weight: 8430
 url: /ja/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical インターフェイス
 
-基本とオプションの次数からなる根関数を指定します。根オブジェクトの例は √𝑥 です。
+基底とオプションの次数からなる根号関数を指定します。根号オブジェクトの例は √𝑥 です。
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | ベース引数 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | 基底引数 |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | 次数引数 |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Hide degree When が true の場合、次数は表示されません（例: √𝑥） |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Hide degree が true の場合、次数は表示されません（例: √𝑥 のように） |
 
 ### 例
 
@@ -29,10 +29,10 @@ public interface IMathRadical : IMathElement
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radial("3"); // 立方根
+IMathRadical radical = new MathematicalText("x").Radical("3"); // 立方根
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

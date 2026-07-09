@@ -1,9 +1,9 @@
 ---
 title: IFormattedTextContainer
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A diagram szövegformátumát képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Képviseli a diagram szövegformátumát.
 type: docs
-weight: 2090
+weight: 2110
 url: /hu/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer interfész
@@ -18,7 +18,7 @@ public interface IFormattedTextContainer : IChartComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Visszaadja az IChartComponent interfészt. Csak olvasható [`IChartComponent`](../ichartcomponent). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Visszaadja az IChartComponent interfész. Csak olvasható [`IChartComponent`](../ichartcomponent). |
 | [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Visszaadja a diagram szövegformátumot. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
 
 ### Lásd még

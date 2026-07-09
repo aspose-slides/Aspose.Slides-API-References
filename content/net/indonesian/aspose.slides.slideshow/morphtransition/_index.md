@@ -1,12 +1,12 @@
 ---
 title: MorphTransition
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide riak.
 type: docs
-weight: 10230
+weight: 10250
 url: /id/aspose.slides.slideshow/morphtransition/
 ---
-## Kelas MorphTransition
+## MorphTransition kelas
 
 Efek transisi slide riak.
 
@@ -18,14 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Jenis morph transition. Baca/tulis [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Tipe transisi morph. Baca/tulis [`TransitionMorphType`](../transitionmorphtype). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Bertindak sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |
 
 ### Lihat Juga
 

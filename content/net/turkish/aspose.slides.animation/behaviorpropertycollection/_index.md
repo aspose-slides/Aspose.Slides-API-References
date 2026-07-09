@@ -3,7 +3,7 @@ title: BehaviorPropertyCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Efekt davranışı için zamanlama özelliklerini temsil eder.
 type: docs
-weight: 180
+weight: 200
 url: /tr/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection sınıfı
@@ -18,28 +18,28 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Koleksiyonda depolanan özelliklerin sayısını döndürür. Salt okunur Int32. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Koleksiyonda depolanan özellik sayısını döndürür. Salt okunur Int32. |
 | [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | ICollection'ın salt okunur olup olmadığını gösteren bir değeri alır. Salt okunur Boolean. |
-| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Belirtilen indeksdeki bir özelliği döndürür. |
+| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Belirtilen dizindeki bir özelliği döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Koleksiyona yeni bir özellik ekler. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Koleksiyona yeni bir özellik ekler. |
-| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Koleksiyondaki tüm özellikleri kaldırır. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Yeni bir özelliği koleksiyona ekler. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Yeni bir özelliği koleksiyona ekler. |
+| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Tüm özellikleri koleksiyondan kaldırır. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection'ın öğelerini belirli bir dizi indeksinden başlayarak bir diziye kopyalar. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection öğelerini bir Array'e, belirli bir Array dizininden başlayarak kopyalar. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList içindeki belirli bir öğenin indeksini belirler. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList içinde özellik değeriyle belirli bir öğenin indeksini belirler. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Belirtilen indekste koleksiyona yeni bir özellik ekler. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Belirtilen indekste koleksiyona belirtilen özellik değerine sahip yeni bir özellik ekler. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList içinde belirli bir öğenin dizinini belirler. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList içinde özellik değerine göre belirli bir öğenin dizinini belirler. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Yeni bir özelliği belirtilen dizine koleksiyona ekler. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Yeni bir özelliği (belirtilen özellik değeriyle) belirtilen dizine koleksiyona ekler. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Belirtilen özelliği koleksiyondan kaldırır. |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Belirtilen özelliği koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Belirtilen indeksdeki özelliği kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Belirtilen dizindeki özelliği kaldırır. |
 
 ### Ayrıca Bakınız
 

@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet 클래스
 
-워크시트와 연결된 [`IChartDataCell`](../ichartdatacell)를 나타냅니다.
+관련된 워크시트를 나타냅니다 [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -21,7 +21,7 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 | [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | 워크시트의 인덱스를 가져옵니다. 읽기 전용 Int32. |
 | [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | 워크시트의 이름을 반환합니다. 읽기 전용 String. |
 
-### 참조
+### 참고
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartDataWorksheetCollection](../chartdataworksheetcollection)

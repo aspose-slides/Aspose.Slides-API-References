@@ -1,7 +1,7 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드에서 플레이스홀더를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드의 플레이스홀더를 나타냅니다.
 type: docs
 weight: 9430
 url: /ko/aspose.slides/placeholder/
@@ -23,7 +23,7 @@ public class Placeholder : IPlaceholder
 | [Size](../../aspose.slides/placeholder/size) { get; } | 플레이스홀더의 크기를 가져오거나 설정합니다. 읽기 전용 [`PlaceholderSize`](../placeholdersize). |
 | [Type](../../aspose.slides/placeholder/type) { get; } | 플레이스홀더의 유형을 가져오거나 설정합니다. 읽기 전용 [`PlaceholderType`](../placeholdertype). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IPlaceholder](../iplaceholder)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

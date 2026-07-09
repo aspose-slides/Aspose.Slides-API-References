@@ -1,14 +1,14 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Animasyon sırasında bir şekil üzerinde metnin nasıl görüneceğini belirler.
 type: docs
-weight: 190
+weight: 210
 url: /tr/aspose.slides.animation/buildtype/
 ---
 ## BuildType enum'ı
 
-Metnin animasyon sırasında bir şekil üzerinde nasıl görüneceğini belirler.
+Bir animasyon sırasında metnin bir şekil üzerinde nasıl görüneceğini belirler.
 
 ```csharp
 public enum BuildType
@@ -19,12 +19,12 @@ public enum BuildType
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | AsOneObject | `0` | İçeren şekil ile. |
-| AllParagraphsAtOnce | `1` | Tüm paragraf. |
-| ByLevelParagraphs1 | `2` | Derinliği 1 olan paragraf gruplarıyla. |
-| ByLevelParagraphs2 | `3` | Derinliği 2 olan paragraf gruplarıyla. |
-| ByLevelParagraphs3 | `4` | Derinliği 3 olan paragraf gruplarıyla. |
-| ByLevelParagraphs4 | `5` | Derinliği 4 olan paragraf gruplarıyla. |
-| ByLevelParagraphs5 | `6` | Derinliği 5 olan paragraf gruplarıyla. |
+| AllParagraphsAtOnce | `1` | Tüm paragraflar. |
+| ByLevelParagraphs1 | `2` | Derinliği 1 olan paragraf gruplarına göre. |
+| ByLevelParagraphs2 | `3` | Derinliği 2 olan paragraf gruplarına göre. |
+| ByLevelParagraphs3 | `4` | Derinliği 3 olan paragraf gruplarına göre. |
+| ByLevelParagraphs4 | `5` | Derinliği 4 olan paragraf gruplarına göre. |
+| ByLevelParagraphs5 | `6` | Derinliği 5 olan paragraf gruplarına göre. |
 
 ### Ayrıca Bakınız
 

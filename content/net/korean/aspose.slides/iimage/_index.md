@@ -1,14 +1,14 @@
 ---
 title: IImage
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 래스터 또는 벡터 이미지를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 래스터 이미지 또는 벡터 이미지를 나타냅니다.
 type: docs
 weight: 6150
 url: /ko/aspose.slides/iimage/
 ---
 ## IImage 인터페이스
 
-래스터 또는 벡터 이미지를 나타냅니다.
+래스터 이미지 또는 벡터 이미지를 나타냅니다.
 
 ```csharp
 public interface IImage : IDisposable
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### 비고
 
-이 인터페이스는 래스터 및 벡터 이미지 모두를 처리하기 위한 공통 추상화를 제공합니다. 구현은 기본 이미지 유형에 따라 달라질 수 있습니다.
+이 인터페이스는 래스터 이미지와 벡터 이미지를 모두 처리하기 위한 공통 추상화를 제공합니다. 구현은 기본 이미지 유형에 따라 달라질 수 있습니다.
 
 ### 참조
 

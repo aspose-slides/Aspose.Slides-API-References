@@ -1,9 +1,9 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: スライドから抽出されたテキストを表します
 type: docs
-weight: 7080
+weight: 7100
 url: /ja/aspose.slides/islidetext/
 ---
 ## ISlideText インターフェイス
@@ -19,10 +19,10 @@ public interface ISlideText
 | 名前 | 説明 |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | スライドコメントのテキスト |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | このスライドのレイアウトページ上のシェイプのテキスト |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | このスライドのマスターページ上のシェイプのテキスト |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | このスライドのノートページ上のシェイプのテキスト |
-| [Text](../../aspose.slides/islidetext/text) { get; } | スライド上のシェイプのテキスト |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | このスライドのレイアウトページのシェイプのテキスト |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | このスライドのマスターページのシェイプのテキスト |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | このスライドのノートページのシェイプのテキスト |
+| [Text](../../aspose.slides/islidetext/text) { get; } | スライドのシェイプのテキスト |
 
 ### 参照
 

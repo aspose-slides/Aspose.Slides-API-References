@@ -1,6 +1,6 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: हैंडआउट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
 type: docs
 weight: 6350
@@ -8,20 +8,20 @@ url: /hi/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide इंटरफ़ेस
 
-हैंडआउट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
+Represents master slide for handouts.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | बेस IBaseSlide इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने के लिए [`IBaseSlide`](../ibaseslide)। |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस लौटाता है। केवल-पढ़ने के लिए [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | मास्टर हैंडआउट स्लाइड के लिए ड्रॉइंग गाइड्स का संग्रह लौटाता है। केवल-पढ़ने के लिए [`IDrawingGuidesCollection`](../idrawingguidescollection)। |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | मास्टर हैंडआउट स्लाइड का HeaderFooter प्रबंधक वापस देता है। केवल-पढ़ने के लिए [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)। |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | बेस IBaseSlide इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस को वापस करता है। केवल-पढ़ने योग्य [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | मास्टर हैंडआउट स्लाइड के लिये ड्राइंग गाइड का संग्रह वापस करता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | मास्टर हैंडआउट स्लाइड का HeaderFooter प्रबंधक वापस करता है। केवल-पढ़ने योग्य [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)। |
 
 ### देखें
 

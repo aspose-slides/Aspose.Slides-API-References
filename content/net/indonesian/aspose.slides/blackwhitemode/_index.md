@@ -1,12 +1,12 @@
 ---
 title: BlackWhiteMode
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan bagaimana bentuk berwarna harus diubah menjadi hitam putih.
 type: docs
-weight: 1000
+weight: 1020
 url: /id/aspose.slides/blackwhitemode/
 ---
-## BlackWhiteMode enumerasi
+## enumerasi BlackWhiteMode
 
 Menentukan bagaimana bentuk berwarna harus diubah menjadi hitam putih.
 
@@ -18,16 +18,16 @@ public enum BlackWhiteMode : sbyte
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Properti tidak diatur |
+| NotDefined | `-1` | Properti belum diatur |
 | Color | `0` | Objek dirender dengan pewarnaan normal |
 | Automatic | `1` | Objek dirender dengan pewarnaan otomatis |
 | Gray | `2` | Objek dirender dengan pewarnaan abu-abu |
-| LightGray | `3` | Objek dirender dengan pewarnaan abu-abu terang |
+| LightGray | `3` | Objek dirender dengan pewarnaan abu-abu muda |
 | InverseGray | `4` | Objek dirender dengan pewarnaan abu-abu terbalik |
 | GrayWhite | `5` | Objek dirender dengan pewarnaan abu-abu dan putih |
 | BlackGray | `6` | Objek dirender dengan pewarnaan hitam dan abu-abu |
 | BlackWhite | `7` | Objek dirender dengan pewarnaan hitam dan putih |
-| Black | `8` | Objek dirender hanya dengan pewarnaan hitam |
+| Black | `8` | Objek hanya dirender dengan pewarnaan hitam |
 | White | `9` | Objek dirender dengan pewarnaan putih |
 | Hidden | `10` | Objek tidak dirender |
 

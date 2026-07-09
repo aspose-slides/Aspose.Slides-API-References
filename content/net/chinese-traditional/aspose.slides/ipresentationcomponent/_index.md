@@ -1,14 +1,14 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示簡報的元件。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示簡報的組件。
 type: docs
 weight: 6760
 url: /zh-hant/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent 介面
 
-表示簡報的元件。
+表示簡報的組件。
 
 ```csharp
 public interface IPresentationComponent
@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | 傳回簡報。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | 返回簡報。唯讀 [`IPresentation`](../ipresentation)。 |
 
 ### 另請參閱
 

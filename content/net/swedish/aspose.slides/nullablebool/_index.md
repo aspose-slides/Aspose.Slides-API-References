@@ -1,14 +1,14 @@
 ---
 title: NullableBool
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar tredubbla boolska värden.
+description: Representerar tredubbla booleska värden.
 type: docs
-weight: 9150
+weight: 9170
 url: /sv/aspose.slides/nullablebool/
 ---
-## NullableBool-uppräkning
+## NullableBool enumeration
 
-Representerar tredubbla boolska värden.
+Representerar tredubbla booleska värden.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -16,7 +16,7 @@ public enum NullableBool : sbyte
 
 ### Värden
 
-| Name | Value | Description |
+| Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | NotDefined | `-1` | Booleskt värde är odefinierat. |
 | False | `0` | Falskt värde. |

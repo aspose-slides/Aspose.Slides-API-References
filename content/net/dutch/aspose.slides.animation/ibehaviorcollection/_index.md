@@ -8,33 +8,33 @@ url: /nl/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection interface
 
-Vertegenwoordigt een collectie van gedragseffecten.
+Stelt een verzameling van gedragseffecten voor.
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Retourneert IEnumerable interface. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Retourneert de IEnumerable-interface. Alleen-lezen IEnumerable. |
 | [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Retourneert het aantal gedragingen in een collectie. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Retourneert een gedrag op de opgegeven index. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Voeg een nieuw gedrag toe aan een collectie. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Voegt een nieuw gedrag toe aan een collectie. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Verwijdert alle gedragingen uit een collectie. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Bepaalt of de ICollection een specifieke waarde bevat. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Bepaalt de index van een specifiek item in de IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Voegt een nieuw gedrag toe aan een collectie op de opgegeven index. |
-| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Verwijdert het opgegeven gedrag uit een collectie. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Voegt een nieuw gedrag in een collectie in op de opgegeven index. |
+| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Verwijdert opgegeven gedrag uit een collectie. |
 | [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Verwijdert gedrag uit een collectie op de opgegeven index. |
 
-### Zie ook
+### See Also
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

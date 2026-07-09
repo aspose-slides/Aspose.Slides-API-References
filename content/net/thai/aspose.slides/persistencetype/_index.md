@@ -6,9 +6,9 @@ type: docs
 weight: 9370
 url: /th/aspose.slides/persistencetype/
 ---
-## enumeration PersistenceType
+## PersistenceType enum
 
-ระบุวิธีการที่ใช้เก็บคุณสมบัติของคอนโทรล ActiveX.
+ระบุวิธีที่ใช้ในการจัดเก็บคุณสมบัติของคอนโทรล ActiveX.
 
 ```csharp
 public enum PersistenceType
@@ -18,11 +18,11 @@ public enum PersistenceType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | รหัส Persistance ไม่ได้ระบุ. |
-| PersistPropertyBag | `0` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บโดยใช้การเก็บแบบ property-bag-based persistence. การเก็บแบบ property-bag-based persistence จะเก็บคอนโทรล ActiveX โดยใช้คอลเลกชันของคู่ชื่อและค่า ซึ่งระบุข้อมูลที่ถูกเก็บโดยคอนโทรล ActiveX. |
-| PersistStream | `1` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บโดยใช้การเก็บแบบ stream-based persistence ที่ไม่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
-| PersistStreamInit | `2` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บโดยใช้การเก็บแบบ stream-based persistence ที่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
-| PersistStorage | `3` | ระบุว่คอนโทรล ActiveX จะถูกเก็บโดยใช้การเก็บแบบ storage-based persistence. |
+| NotDefined | `-1` | รหัสการเก็บข้อมูลไม่ได้ระบุ. |
+| PersistPropertyBag | `0` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ property-bag. การคงสภาพแบบ property-bag จะเก็บคอนโทรล ActiveX โดยใช้ชุดของคู่ชื่อและค่า ซึ่งระบุข้อมูลที่คงสภาพโดยคอนโทรล ActiveX. |
+| PersistStream | `1` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ stream ที่ไม่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
+| PersistStreamInit | `2` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ stream ที่รองรับการเริ่มต้นคอนโทรล ActiveX ให้เป็นสถานะเริ่มต้น. |
+| PersistStorage | `3` | ระบุว่าคอนโทรล ActiveX จะถูกเก็บด้วยการคงสภาพแบบ storage. |
 
 ### ดูเพิ่มเติม
 

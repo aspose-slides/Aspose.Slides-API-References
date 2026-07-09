@@ -1,43 +1,43 @@
 ---
 title: IReflectionEffectiveData
-second_title: مرجع API Aspose.Sildes برای .NET
-description: شیء غیرقابل تغییر که یک اثر انعکاس را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: شیء غیرقابل تغییر که یک اثر بازتاب را نشان می‌دهد.
 type: docs
 weight: 3510
 url: /fa/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData رابط
 
-شیء غیرقابل تغییر که نمایانگر اثر انعکاس است.
+شیء غیرقابل تغییر که اثر بازتاب را نشان می‌دهد.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | امکان دریافت رابط پایه IEffectEffectiveData را فراهم می‌کند. فقط‌خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | شعاع تاری. فقط‌خواندنی Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | جهت انعکاس. فقط‌خواندنی Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | فاصله انعکاس. فقط‌خواندنی Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | موقعیت انتهایی (در امتداد شیب گرادیان آلفا) مقدار آلفای انتهایی (درصد) را مشخص می‌کند. فقط‌خواندنی Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | تیرگی انتهای انعکاس (درصد). فقط‌خواندنی Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | جهت جابجایی انعکاس (زاویه). فقط‌خواندنی Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | تراز مستطیل. فقط‌خواندنی [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | تعیین می‌کند که آیا انعکاس هنگام چرخش شکل، با شکل بچرخد یا خیر. فقط‌خواندنی Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | عامل مقیاس افقی؛ مقیاس منفی باعث وارون شدن می‌شود (درصد). فقط‌خواندنی Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | عامل مقیاس عمودی؛ مقیاس منفی باعث وارون شدن می‌شود (درصد). فقط‌خواندنی Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | زاویهٔ کج‌پذیری افقی. فقط‌خواندنی Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | زاویهٔ کج‌پذیری عمودی. فقط‌خواندنی Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | موقعیت آغازین (در امتداد شیب گرادیان آلفا) مقدار آلفای آغازین (درصد) را مشخص می‌کند. فقط‌خواندنی Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | تیرگی آغازین انعکاس (درصد). فقط‌خواندنی Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | اجازه می‌دهد تا رابط IEffectEffectiveData پایه را دریافت کند. فقط-خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | شعاع تاری. فقط-خواندنی Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | جهت بازتاب. فقط-خواندنی Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | فاصله بازتاب. فقط-خواندنی Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | موقعیت انتهایی (در طول شیب گرادیان آلفا) مقدار آلفای انتهایی (درصد) را مشخص می‌کند. فقط-خواندنی Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | شفافیت انتهای بازتاب. (درصد). فقط-خواندنی Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | جهت جابجایی بازتاب را مشخص می‌کند. (زاویه). فقط-خواندنی Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | ترازبندی مستطیل. فقط-خواندنی [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | مشخص می‌کند آیا بازتاب باید با شکل دور بزند اگر شکل چرخانده شود. فقط-خواندنی Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | عامل مقیاس افقی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصد) فقط-خواندنی Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | عامل مقیاس عمودی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصد) فقط-خواندنی Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | زاویهٔ کج‌کردن افقی را مشخص می‌کند. فقط-خواندنی Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | زاویهٔ کج‌کردن عمودی را مشخص می‌کند. فقط-خواندنی Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | موقعیت شروع (در طول شیب گرادیان آلفا) مقدار آلفای شروع (درصد) را مشخص می‌کند. فقط-خواندنی Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | شفافیت شروع بازتاب. (درصد). فقط-خواندنی Single. |
 
 ### موارد مرتبط
 
 * رابط [IEffectEffectiveData](../ieffecteffectivedata)
-* فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* مجموعه [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides.Effects](../../aspose.slides.effects)
+* مجموعة [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

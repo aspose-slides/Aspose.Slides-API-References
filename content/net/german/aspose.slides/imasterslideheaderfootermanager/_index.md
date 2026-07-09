@@ -1,40 +1,39 @@
----  
+---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Slides für .NET API Referenz  
-description: Stellt den Manager dar, der das Verhalten der Fußzeile der Masterfolie, des Datums, der Uhrzeit, der Seitennummernplatzhalter und aller untergeordneten Platzhalter hält. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt den Manager dar, der das Verhalten des Master-Folien-Fußbereichs, der Datum-Zeit- und Seitenzahl-Platzhalter sowie aller untergeordneten Platzhalter verwaltet. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab.
 type: docs
-weight: 6240  
+weight: 6440
 url: /de/aspose.slides/imasterslideheaderfootermanager/
----  
+---
+## IMasterSlideHeaderFooterManager Schnittstelle
 
-## IMasterSlideHeaderFooterManager Schnittstelle  
+Stellt den Manager dar, der das Verhalten des Master-Folien-Fußbereichs, des Datums-Zeit-Platzhalters, des Seitenzahl-Platzhalters und aller untergeordneten Platzhalter verwaltet. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab.
 
-Stellt den Manager dar, der das Verhalten der Fußzeile der Masterfolie, des Datums, der Uhrzeit, der Seitennummernplatzhalter und aller untergeordneten Platzhalter hält. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab.  
+```csharp
+public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
+```
 
-```csharp  
-public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager  
-```  
+## Eigenschaften
 
-## Eigenschaften  
+| Name | Beschreibung |
+| --- | --- |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Gibt die IBaseSlideHeaderFooterManager Schnittstelle zurück. |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Gibt die Schnittstelle IBaseSlideHeaderFooterManager zurück. |  
+## Methoden
 
-## Methoden  
+| Name | Beschreibung |
+| --- | --- |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Setzt den Text im Master-Folien-Datum-Zeit-Platzhalter und allen untergeordneten Datum-Zeit-Platzhaltern. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändert die Sichtbarkeit des Master-Folien-Datum-Zeit-Platzhalters und aller untergeordneten Datum-Zeit-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Setzt den Text im Master-Folien-Fußbereich-Platzhalter und allen untergeordneten Fußbereich-Platzhaltern. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändert die Sichtbarkeit des Master-Folien-Fußbereich-Platzhalters und aller untergeordneten Fußbereich-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit des Master-Folien-Seitenzahl-Platzhalters und aller untergeordneten Seitenzahl-Platzhalter. Untergeordnete Platzhalter bedeuten, dass Platzhalter in abhängigen Layout-Folien und abhängigen Folien enthalten sind. Abhängige Layout-Folien und Folien verwenden und hängen von der Master-Folie ab. |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Setzt den Text für den Platzhalter für das Datum und die Uhrzeit der Masterfolie sowie für alle untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab. |  
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für Datum und Uhrzeit der Masterfolie sowie aller untergeordneten Platzhalter für Datum und Uhrzeit. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab. |  
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Setzt den Text für den Platzhalter der Fußzeile der Masterfolie sowie für alle untergeordneten Platzhalter für die Fußzeile. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab. |  
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für die Fußzeile der Masterfolie sowie aller untergeordneten Platzhalter für die Fußzeile. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab. |  
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändert die Sichtbarkeit des Platzhalters für die Seitennummer der Masterfolie sowie aller untergeordneten Platzhalter für die Seitennummer. Untergeordnete Platzhalter bedeuten, dass Platzhalter auf abhängigen Layoutfolien und abhängigen Folien enthalten sind. Abhängige Layoutfolien und Folien verwenden und hängen von der Masterfolie ab. |  
+### Siehe auch
 
-### Siehe auch  
+* Schnittstelle [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
-* Schnittstelle [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)  
-* Namespace [Aspose.Slides](../../aspose.slides)  
-* Assembly [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

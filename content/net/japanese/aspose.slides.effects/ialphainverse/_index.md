@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha 逆効果を表します。Alpha の不透明度の値は 100 から減算することで反転されます。
+description: Alpha Inverse エフェクトを表します。Alpha の不透明度の値は 100 から減算することで反転します。
 type: docs
-weight: 3060
+weight: 3080
 url: /ja/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse インターフェイス
 
-Alpha 逆効果を表します。Alpha（不透明度）の値は 100% から減算することで反転されます。
+Alpha Inverse エフェクトを表します。Alpha (不透明度) の値は 100% から減算することで反転します。
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 

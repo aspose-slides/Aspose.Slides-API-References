@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Referência da API Aspose.Sildes para .NET
-description: A exceção lançada quando uma ou mais referências circulares são detectadas, onde uma fórmula se refere à sua própria célula direta ou indiretamente.
+second_title: Aspose.Sildes para .NET Referência da API
+description: A exceção lançada quando uma ou mais referências circulares são detectadas, onde uma fórmula se refere à sua própria célula, direta ou indiretamente.
 type: docs
-weight: 10680
+weight: 10700
 url: /pt/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException classe
 
-A exceção que é lançada quando uma ou mais referências circulares são detectadas, onde uma fórmula se refere à sua própria célula direta ou indiretamente.
+A exceção lançada quando uma ou mais referências circulares são detectadas, onde uma fórmula se refere à sua própria célula, direta ou indiretamente.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -21,15 +21,15 @@ public class CellCircularReferenceException : PptxEditException
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Inicializa uma nova instância da classe [`CellCircularReferenceException`](../cellcircularreferenceexception). |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Inicializa uma nova instância da classe [`CellCircularReferenceException`](../cellcircularreferenceexception) com uma mensagem de erro especificada. |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Inicializa uma nova instância da classe [`CellCircularReferenceException`](../cellcircularreferenceexception) com uma mensagem de erro especificada e uma referência à exceção interna que é a causa desta exceção. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inicializa uma nova instância da classe [`CellCircularReferenceException`](../cellcircularreferenceexception) com uma mensagem de erro especificada e referência de célula circular. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Inicializa uma nova instância da classe [`CellCircularReferenceException`](../cellcircularreferenceexception) com uma mensagem de erro especificada e referência circular de célula. |
 
 ## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Obtém uma referência de célula circular. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Obtém uma referência circular de célula. |
 
-### Veja Também
+### Ver também
 
 * classe [PptxEditException](../../aspose.slides/pptxeditexception)
 * namespace [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

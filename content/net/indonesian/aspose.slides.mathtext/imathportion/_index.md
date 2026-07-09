@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili bagian dengan konteks matematika di dalamnya.
 type: docs
-weight: 8400
+weight: 8420
 url: /id/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion antarmuka
@@ -18,7 +18,7 @@ public interface IMathPortion
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Paragraf matematika |
+| [MathParagraph](../../aspose.slides.mathtext/imathportion/mathparagraph) { get; } | Paragraf Matematika |
 
 ### Contoh
 

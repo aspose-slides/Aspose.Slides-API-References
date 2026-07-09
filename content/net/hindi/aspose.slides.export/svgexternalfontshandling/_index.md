@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: टेक्स्ट ड्राइंग के लिए उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स को संभालने का तरीका दर्शाता है।
+description: टेक्स्ट ड्रॉइंग के लिए उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स को संभालने का एक तरीका दर्शाता है।
 type: docs
 weight: 4500
 url: /hi/aspose.slides.export/svgexternalfontshandling/
 ---
-## SvgExternalFontsHandling एन्यूमेरेशन
+## SvgExternalFontsHandling एन्नुमरेशन
 
-टेक्स्ट ड्राइंग के लिए उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स को संभालने का तरीका दर्शाता है।
+टेक्स्ट ड्रॉइंग के लिए उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स को संभालने का एक तरीका दर्शाता है।
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,11 +18,11 @@ public enum SvgExternalFontsHandling
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | SVG फ़ाइल के शैली अनुभाग में अलग फ़ॉन्ट फ़ाइलों के लिंक जोड़ें। |
+| AddLinksToFontFiles | `0` | SVG फ़ाइल के स्टाइल सेक्शन में अलग फ़ॉन्ट फ़ाइलों के लिंक जोड़ें। |
 | Embed | `1` | फ़ॉन्ट डेटा को सीधे SVG फ़ाइल में सहेजें। इस विकल्प का उपयोग करने से पहले सभी बाहरी फ़ॉन्ट लाइसेंस समझौतों की जाँच करें। |
-| Vectorize | `2` | बाहरी फ़ॉन्ट्स का उपयोग करने वाले सभी पाठ को ग्राफ़िक्स के रूप में सहेजें। |
+| Vectorize | `2` | बाहरी फ़ॉन्ट्स का उपयोग करके सभी टेक्स्ट को ग्राफ़िक्स के रूप में सहेजें। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

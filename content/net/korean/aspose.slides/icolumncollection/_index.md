@@ -1,6 +1,6 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 테이블의 열 컬렉션을 나타냅니다.
 type: docs
 weight: 5530
@@ -26,7 +26,7 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블 하단에 삽입합니다. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | 지정된 템플릿 열의 복사본을 만들고 테이블의 지정된 위치에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 테이블에서 지정된 위치의 열을 제거합니다. |
+| [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | 테이블의 지정된 위치에 있는 열을 제거합니다. |
 
 ### 참조
 

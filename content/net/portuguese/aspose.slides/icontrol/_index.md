@@ -1,9 +1,9 @@
 ---
 title: IControl
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa um controle ActiveX.
 type: docs
-weight: 5610
+weight: 5630
 url: /pt/aspose.slides/icontrol/
 ---
 ## IControl interface
@@ -20,8 +20,8 @@ public interface IControl : ISlideComponent
 | --- | --- |
 | [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Especifica a persistência de um controle ActiveX quando o método usado para persistir é PersistStream, PersistStreamInit ou PersistStorage. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Permite obter a interface base ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Obtém o ID da classe deste controle. Somente leitura Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Retorna ou define o quadro do controle. Leitura/gravação [`IShapeFrame`](../ishapeframe). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Obtém o id da classe deste controle. Somente leitura Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Retorna ou define a moldura do controle. Leitura/gravação [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Retorna o nome deste controle. Leitura/gravação String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Obtém o método usado para armazenar as propriedades do controle ActiveX. Somente leitura [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Retorna uma coleção de propriedades ActiveX. Somente leitura [`IControlPropertiesCollection`](../icontrolpropertiescollection). |

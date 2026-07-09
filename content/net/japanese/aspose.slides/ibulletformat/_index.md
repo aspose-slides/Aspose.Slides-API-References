@@ -1,12 +1,12 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Slides for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 段落の箇条書き書式プロパティを表します。
 type: docs
-weight: 5370
+weight: 5390
 url: /ja/aspose.slides/ibulletformat/
 ---
-## IBulletFormat インターフェイス
+## IBulletFormat interface
 
 段落の箇条書き書式プロパティを表します。
 
@@ -18,27 +18,27 @@ public interface IBulletFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 継承されない段落の箇条書き文字を取得または設定します。読み取り/書き込み Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | 継承されない段落の箇条書きの色フォーマットを取得します。読み取り専用 [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 継承されない段落の箇条書きフォントを取得または設定します。読み取り/書き込み [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 継承されない段落の箇条書きの高さを取得または設定します。float.NaN の値は、箇条書きが段落の最初の部分から高さを継承することを示します。読み取り/書き込み Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 箇条書きが独自の色を持つか、段落の最初の部分から継承するかを決定します。箇条書きが独自の色を持つ場合は **NullableBool.True**、段落の最初の部分から色を継承する場合は **NullableBool.False**。読み取り/書き込み [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 箇条書きが独自のフォントを持つか、段落の最初の部分から継承するかを決定します。箇条書きが独自のフォントを持つ場合は **NullableBool.True**、段落の最初の部分からフォントを継承する場合は **NullableBool.False**。読み取り/書き込み [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 継承されない番号付き箇条書きのグループで使用される最初の番号を取得または設定します。読み取り/書き込み Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 継承されない番号付き箇条書きのスタイルを取得または設定します。読み取り/書き込み [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 継承されない段落で箇条書きとして使用される画像を取得します。読み取り専用 [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 継承されない段落の箇条書きタイプを取得または設定します。読み取り/書き込み [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | 継承なしで段落の箇条書き文字を取得または設定します。Read/write Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | 継承なしで段落の箇条書きの色書式を取得します。Read-only [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | 継承なしで段落の箇条書きフォントを取得または設定します。Read/write [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | 継承なしで段落の箇条書き高さを取得または設定します。Value float.NaN は箇条書きが段落の最初の部分から高さを継承することを示します。Read/write Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | 箇条書きが独自の色を持つか、段落の最初の部分から継承するかを決定します。**NullableBool.True** は独自の色を持ち、**NullableBool.False** は段落の最初の部分から色を継承します。Read/write [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | 箇条書きが独自のフォントを持つか、段落の最初の部分から継承するかを決定します。**NullableBool.True** は独自のフォントを持ち、**NullableBool.False** は段落の最初の部分からフォントを継承します。Read/write [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | 継承なしで番号付き箇条書きのグループに使用される最初の番号を取得または設定します。Read/write Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | 継承なしで番号付き箇条書きのスタイルを取得または設定します。Read/write [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | 継承なしで段落の箇条書きとして使用される画像を取得します。Read-only [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | 継承なしで段落の箇条書きタイプを取得または設定します。Read/write [`BulletType`](../bullettype). |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 箇条書きが有効な場合、段落の実際の Indent と MarginLeft に対してデフォルトの非ゼロシフトを設定します（PowerPoint が段落の箇条書き/番号付けを有効にしたときの動作と同様）。箇条書きが無効な場合は、段落の Indent と MarginLeft をリセットするだけです（PowerPoint が段落の箇条書き/番号付けを無効にしたときと同様）。インデントシフトは現在の箇条書きコンテキスト（IBulletFormat.Type、.NumberedBulletStyle、最初の部分の FontHeight）に基づいて適用されます。非ゼロのインデントシフトは現在の段落の実際の Indent と MarginLeft に適用され、結果の値はローカル値となります。 |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | 箇条書きが有効な場合、実際の段落 Indent と MarginLeft に対してデフォルトの非ゼロシフトを設定します（PowerPoint が段落の箇条書き/番号付けを有効にしたときと同様）。箇条書きが無効な場合は、段落の Indent と MarginLeft をリセットします（PowerPoint が無効にしたときと同様）。シフトは現在の箇条書きコンテキスト（IBulletFormat.Type、.NumberedBulletStyle、最初の部分の FontHeight）に基づいて適用されます。非ゼロのインデントシフトは現在の段落の実際の Indent と MarginLeft に適用され、結果の値はローカル値になります。 |
 | [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | 継承が適用された実際の箇条書き書式データを取得します。 |
 
-### 参照
+### 関連項目
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* 名前空間 [Aspose.Slides](../../aspose.slides)
+* アセンブリ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

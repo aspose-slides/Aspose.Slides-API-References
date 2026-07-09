@@ -1,51 +1,51 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 常見的一元數學函式
+second_title: Aspose.Sildes .NET API 參考
+description: 單參數的常見數學函數
 type: docs
 weight: 8740
 url: /zh-hant/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument 列舉
 
-常見的一元數學函式
+單參數的常見數學函數
 
 ```csharp
 public enum MathFunctionsOfOneArgument
 ```
 
-### Values
+### 值
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Sin | `0` | 正弦 |
-| Cos | `1` | 餘弦 |
+| Cos | `1` | 余弦 |
 | Tan | `2` | 正切 |
 | Csc | `3` | 餘割 |
 | Sec | `4` | 正割 |
-| Cot | `5` | 餘切 |
+| Cot | `5` | 余切 |
 | HyperbolicSin | `6` | 雙曲正弦 |
-| HyperbolicCos | `7` | 雙曲餘弦 |
+| HyperbolicCos | `7` | 雙曲余弦 |
 | HyperbolicTan | `8` | 雙曲正切 |
 | HyperbolicCsc | `9` | 雙曲餘割 |
 | HyperbolicSec | `10` | 雙曲正割 |
-| HyperbolicCot | `11` | 雙曲餘切 |
+| HyperbolicCot | `11` | 雙曲余切 |
 | Lg | `12` | 常用對數 |
 | Ln | `13` | 自然對數 |
 | ArcSin | `14` | 反正弦 |
-| ArcCos | `15` | 反餘弦 |
+| ArcCos | `15` | 反余弦 |
 | ArcTan | `16` | 反正切 |
 | ArcCsc | `17` | 反餘割 |
 | ArcSec | `18` | 反正割 |
-| ArcCot | `19` | 反餘切 |
+| ArcCot | `19` | 反余切 |
 | HyperbolicArcSin | `20` | 雙曲反正弦 |
-| HyperbolicArcCos | `21` | 雙曲反餘弦 |
+| HyperbolicArcCos | `21` | 雙曲反余弦 |
 | HyperbolicArcTan | `22` | 雙曲反正切 |
 | HyperbolicArcCsc | `23` | 雙曲反餘割 |
 | HyperbolicArcSec | `24` | 雙曲反正割 |
-| HyperbolicArcCot | `25` | 雙曲反餘切 |
+| HyperbolicArcCot | `25` | 雙曲反余切 |
 
-### See Also
+### 參見
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

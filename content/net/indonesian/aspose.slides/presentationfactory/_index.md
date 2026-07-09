@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan pembuatan presentasi melalui antarmuka COM
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Memungkinkan membuat presentasi melalui antarmuka COM
 type: docs
-weight: 9580
+weight: 9600
 url: /id/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory kelas
 
-Memungkinkan pembuatan presentasi melalui antarmuka COM
+Memungkinkan membuat presentasi melalui antarmuka COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -16,33 +16,33 @@ public class PresentationFactory : IPresentationFactory
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [PresentationFactory](presentationfactory)() | Konstruktor default. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instansi factory presentasi statis. Hanya-baca [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Instansi pabrik presentasi statis. Hanya-baca [`PresentationFactory`](../presentationfactory). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Membuat presentasi baru. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Membuat presentasi baru dengan opsi muat tambahan |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Membuat objek PresentationInfo baru dari stream dan mengikat presentasi ke dalamnya. Mendapatkan info tentang presentasi dalam stream yang ditentukan. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Membuat objek PresentationInfo baru dari file dan mengikat presentasi ke dalamnya. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Membuat objek PresentationInfo dari aliran dan mengikat presentasi ke dalamnya. Mendapatkan info tentang presentasi dalam aliran yang ditentukan. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Membuat objek PresentationInfo dari file dan mengikat presentasi ke dalamnya. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Mengambil teks mentah dari slide |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Mengambil teks mentah dari slide |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Mengambil teks mentah dari slide |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Membaca presentasi yang ada dari array |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Membaca presentasi yang ada dari stream |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Membaca presentasi yang ada dari aliran |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Membaca presentasi yang ada dari file |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Membaca presentasi yang ada dari array dengan opsi muat tambahan |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Membaca presentasi yang ada dari stream dengan opsi muat tambahan |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Membaca presentasi yang ada dari stream dengan opsi muat tambahan |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Membaca presentasi yang ada dari aliran dengan opsi muat tambahan |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Membaca presentasi yang ada dari aliran dengan opsi muat tambahan |
 
 ### Contoh
 
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Contoh berikut menunjukkan cara mendapatkan properti dari Presentation.
+Contoh berikut menunjukkan cara mendapatkan properti dari sebuah Presentasi.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-Contoh berikut menunjukkan cara memperbarui properti dari Presentation.
+Contoh berikut menunjukkan cara memperbarui properti sebuah Presentasi.
 
 ```csharp
 [C#]
@@ -84,6 +84,6 @@ info.UpdateDocumentProperties(props);
 
 * antarmuka [IPresentationFactory](../ipresentationfactory)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

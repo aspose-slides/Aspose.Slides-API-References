@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes için .NET API Referansı
-description: Çizgi veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
+description: Line- veya Stock-grafiğin yukarı/aşağı çubuklarına erişim sağlar.
 type: docs
-weight: 2240
+weight: 2260
 url: /tr/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager arayüzü
 
-Çizgi veya Hisse senedi grafiğinin yukarı/aşağı çubuklarına erişim sağlar.
+Line- veya Stock-grafiğin yukarı/aşağı çubuklarına erişim sağlar.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Aşağı çubukların biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Gap genişliğini döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Grafiğin yukarı/aşağı çubukları olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Yukarı çubukların biçimini döndürür. Salt okunur [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | İniş çubuklarının formatını döndürür. Yalnızca okuma [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Boşluk genişliğini döndürür veya ayarlar. Okunabilir/yazılabilir Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Grafiğin yukarı/aşağı çubuklara sahip olup olmadığını belirler. Okunabilir/yazılabilir Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Yukarı çubuklarının formatını döndürür. Yalnızca okuma [`IFormat`](../iformat). |
 
 ### Ayrıca Bakınız
 

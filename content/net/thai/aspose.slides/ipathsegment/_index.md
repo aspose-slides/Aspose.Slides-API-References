@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงส่วนของกราฟิกพาธของ GeometryShape
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของส่วนของพาธกราฟิกของ GeometryShape
 type: docs
 weight: 6610
 url: /th/aspose.slides/ipathsegment/
 ---
 ## IPathSegment อินเทอร์เฟซ
 
-แสดงส่วนของกราฟิกพาธของ GeometryShape
+เป็นตัวแทนของส่วนของกราฟิกพาธของ GeometryShape
 
 ```csharp
 public interface IPathSegment

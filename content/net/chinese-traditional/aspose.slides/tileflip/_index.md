@@ -1,6 +1,6 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 定義瓦片翻轉模式。
 type: docs
 weight: 11500
@@ -16,7 +16,7 @@ public enum TileFlip
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | NoFlip | `0` |  |
@@ -24,7 +24,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程式集 [Aspose.Slides](../../)

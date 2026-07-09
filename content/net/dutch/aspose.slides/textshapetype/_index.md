@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een tekstomslagvorm voor.
+description: Stelt tekstomloopvorm voor.
 type: docs
 weight: 10980
 url: /nl/aspose.slides/textshapetype/
 ---
-## TextShapeType enumeratie
+## TextShapeType-enumeratie
 
-Stelt een tekstomslagvorm voor.
+Stelt tekstomloopvorm voor.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -24,8 +24,8 @@ public enum TextShapeType : sbyte
 | Stop | `2` | Stopbord |
 | Triangle | `3` | Driehoek |
 | TriangleInverted | `4` | Omgekeerde driehoek |
-| Chevron | `5` | Chevronsymbool |
-| ChevronInverted | `6` | Omgekeerd chevronsymbool |
+| Chevron | `5` | Chevron |
+| ChevronInverted | `6` | Omgekeerde Chevron |
 | RingInside | `7` | Binnenring |
 | RingOutside | `8` | Buitenring |
 | ArchUp | `9` | Opwaartse boog |
@@ -36,8 +36,8 @@ public enum TextShapeType : sbyte
 | ArchDownPour | `14` | Neerwaartse gietboog |
 | CirclePour | `15` | Cirkelgiet |
 | ButtonPour | `16` | Knopgiet |
-| CurveUp | `17` | Opwaartse kromme |
-| CurveDown | `18` | Neerwaartse kromme |
+| CurveUp | `17` | Opwaartse curve |
+| CurveDown | `18` | Neerwaartse curve |
 | CanUp | `19` | Opwaartse blik |
 | CanDown | `20` | Neerwaartse blik |
 | Wave1 | `21` | Golf 1 |
@@ -45,15 +45,15 @@ public enum TextShapeType : sbyte
 | DoubleWave1 | `23` | Dubbele golf 1 |
 | Wave4 | `24` | Golf 4 |
 | Inflate | `25` | Opblazen |
-| Deflate | `26` | Afsnoeren |
+| Deflate | `26` | Ontblazen |
 | InflateBottom | `27` | Onderkant opblazen |
-| DeflateBottom | `28` | Onderkant afsnellen |
+| DeflateBottom | `28` | Onderkant ontblazen |
 | InflateTop | `29` | Bovenkant opblazen |
-| DeflateTop | `30` | Bovenkant afsnellen |
-| DeflateInflate | `31` | Afsnellen-opblazen |
-| DeflateInflateDeflate | `32` | Afsnellen-opblazen-afsnellen |
-| FadeRight | `33` | Rechts vervagen |
-| FadeLeft | `34` | Links vervagen |
+| DeflateTop | `30` | Bovenkant ontblazen |
+| DeflateInflate | `31` | Ontblazen-opblazen |
+| DeflateInflateDeflate | `32` | Ontblazen-opblazen-ontblazen |
+| FadeRight | `33` | Vervagen rechts |
+| FadeLeft | `34` | Vervagen links |
 | FadeUp | `35` | Opwaarts vervagen |
 | FadeDown | `36` | Neerwaarts vervagen |
 | SlantUp | `37` | Opwaartse helling |

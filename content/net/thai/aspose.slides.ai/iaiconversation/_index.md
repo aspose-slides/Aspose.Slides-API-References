@@ -1,24 +1,24 @@
 ---
 title: IAIConversation
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของอินสแตนซ์การสนทนา ไม่เหมือนการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมดไว้
+description: แสดงถึงอินสแตนซ์ของการสนทนา. ไม่เหมือนกับการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมดไว้.
 type: docs
 weight: 20
 url: /th/aspose.slides.ai/iaiconversation/
 ---
-## IAIConversation อินเทอร์เฟซ
+## IAIConversation อินเทอร์เฟส
 
-เป็นตัวแทนของอินสแตนซ์การสนทนา Unlike regular AI calls, conversations retain the entire context.
+แสดงถึงอินสแตนซ์ของการสนทนา. ไม่เหมือนกับการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมดไว้.
 
 ```csharp
 public interface IAIConversation
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | ส่งข้อความคำขอการสนทนาที่รวมบริบททั้งหมดและคืนค่าการตอบกลับ |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | ส่งข้อความคำขอสนทนาที่รวมบริบททั้งหมดและส่งกลับการตอบสนอง. |
 
 ### ดูเพิ่มเติม
 

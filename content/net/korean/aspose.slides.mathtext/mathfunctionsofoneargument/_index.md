@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 단일 인수에 대한 일반 수학 함수
+second_title: Aspose.Sildes for .NET API 참조
+description: 하나의 인수를 갖는 일반적인 수학 함수
 type: docs
 weight: 8740
 url: /ko/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument 열거형
 
-공통 단일 인수 수학 함수
+하나의 인수를 갖는 일반적인 수학 함수
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -45,7 +45,7 @@ public enum MathFunctionsOfOneArgument
 | HyperbolicArcSec | `24` | 쌍곡 아크시컨트 |
 | HyperbolicArcCot | `25` | 쌍곡 아크코탄젠트 |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

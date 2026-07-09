@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes .NET API Referansı
-description: Yazı tipi geri dönüşüm kuralını temsil eder
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yazı tipi geri dönüş kuralını temsil eder
 type: docs
-weight: 4820
+weight: 4840
 url: /tr/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule sınıfı
 
-Yazı tipi geri dönüşüm kuralını temsil eder
+Yazı tipi geri dönüş kuralını temsil eder
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
@@ -25,25 +25,25 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Aralık için gerçekte tanımlanan yazı tiplerinin sayısını alır. Salt okunur Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Belirtilen indeksteki yazı tipi adını alır. Salt okunur [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Sürekli Unicode aralığının son indeksini alır. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Sürekli Unicode aralığının ilk indeksini alır. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Aralık için gerçek tanımlanan yazı tiplerinin sayısını al. Salt okunur Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Belirtilen indeksteki yazı tipi adını al. Salt okunur [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Sürekli unicode aralığının son indeksini al. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Sürekli unicode aralığının ilk indeksini al. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Yeni bir veya daha fazla yazı tipini FallBack yazı tipleri listesine ekler. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Yeni bir (veya birden fazla) yazı tipini FallBack yazı tipleri listesine ekler. |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Yeni yazı tiplerini FallBack yazı tipleri listesine ekler. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Listedeki tüm yazı tiplerini kaldırır. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Koleksiyondaki belirtilen kuralın indeksini döndürür. |
 | [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Listeden belirli bir FallBack yazı tipinin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Listedeki belirtilen indeksteki FallBack yazı tipini kaldırır. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Listedeki belirtilen indeksdeki FallBack yazı tipini kaldırır. |
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Bu kural için tüm FallBack yazı tiplerini içeren bir dizi oluşturur ve döndürür. |
 | [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Listede belirtilen aralıktaki tüm FallBack yazı tiplerini içeren bir dizi oluşturur ve döndürür. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IFontFallBackRule](../ifontfallbackrule)
 * ad alanı [Aspose.Slides](../../aspose.slides)

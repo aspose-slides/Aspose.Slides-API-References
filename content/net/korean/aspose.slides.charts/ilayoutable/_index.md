@@ -1,12 +1,12 @@
 ---
 title: ILayoutable
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 요소의 정확한 위치를 지정합니다.
 type: docs
 weight: 2120
 url: /ko/aspose.slides.charts/ilayoutable/
 ---
-## ILayoutable interface
+## ILayoutable 인터페이스
 
 차트 요소의 정확한 위치를 지정합니다.
 
@@ -19,12 +19,12 @@ public interface ILayoutable : IChartComponent
 | 이름 | 설명 |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 기본 IChartComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 차트의 높이에 대한 비율로 차트 요소의 상단을 가져옵니다. 읽기 전용 Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 차트의 높이에 대한 비율로 차트 요소의 높이를 지정합니다. 읽기/쓰기 Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 차트의 너비에 대한 비율로 차트 요소의 오른쪽을 가져옵니다. 읽기 전용 Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 차트의 너비에 대한 비율로 차트 요소의 너비를 지정합니다. 읽기/쓰기 Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 차트의 너비에 대한 비율로 차트 요소의 x 위치(왼쪽)를 지정합니다. 읽기/쓰기 Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 차트의 높이에 대한 비율로 차트 요소의 상단을 지정합니다. 읽기/쓰기 Single. |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 차트 요소의 상단을 차트 높이의 비율로 가져옵니다. 읽기 전용 Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | 차트 요소의 높이를 차트 높이의 비율로 지정합니다. 읽기/쓰기 Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | 차트 요소의 오른쪽을 차트 너비의 비율로 가져옵니다. 읽기 전용 Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | 차트 요소의 너비를 차트 너비의 비율로 지정합니다. 읽기/쓰기 Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 차트 요소의 x 위치(왼쪽)를 차트 너비의 비율로 지정합니다. 읽기/쓰기 Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 차트 요소의 상단을 차트 높이의 비율로 지정합니다. 읽기/쓰기 Single. |
 
 ### 참고
 

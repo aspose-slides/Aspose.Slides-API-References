@@ -18,12 +18,12 @@ public interface IZoomObject : IGraphicalObject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Biedt toegang tot de basis-IGraphicalObject-interface. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Haalt het beeldtype van een zoom-object op of stelt het in. Lezen/Schrijven [`ZoomImageType`](../zoomimagetype). Standaardwaarde: Preview |
+| [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | Staat toe om de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | Haalt het afbeeldingstype van een zoomobject op of stelt het in. Lezen/Schrijven [`ZoomImageType`](../zoomimagetype). Standaardwaarde: Preview |
 | [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | Haalt het navigatiegedrag in de diavoorstelling op of stelt het in. Lezen/Schrijven Boolean. Standaardwaarde: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Haalt de waarde op die aangeeft of de Zoom de achtergrond van de bestemmingsdia gebruikt, of stelt deze in. Lezen/Schrijven Boolean. Standaardwaarde: true |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Haalt de waarde op of stelt deze in die aangeeft of de Zoom de achtergrond van de doel-dia gebruikt. Lezen/Schrijven Boolean. Standaardwaarde: true |
 | [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Haalt de duur van de overgang tussen Zoom en dia op of stelt deze in. Lezen/Schrijven Single. Standaardwaarde: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Haalt de afbeelding voor het zoom-object op of stelt deze in. Lezen/Schrijven [`IPPImage`](../ippimage). |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Haalt de afbeelding voor zoomobject op of stelt deze in. Lezen/Schrijven [`IPPImage`](../ippimage). |
 
 ### Zie ook
 

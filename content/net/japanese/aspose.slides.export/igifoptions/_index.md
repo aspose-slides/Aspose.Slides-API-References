@@ -3,7 +3,7 @@ title: IGifOptions
 second_title: Aspose.Sildes の .NET API リファレンス
 description: GIF エクスポートオプションを表します。
 type: docs
-weight: 3900
+weight: 3920
 url: /ja/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions インターフェイス
@@ -19,10 +19,10 @@ public interface IGifOptions : ISaveOptions
 | 名前 | 説明 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | デフォルトの遅延時間 [ms] を取得または設定します。この値は [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) が設定されていない場合に使用されます。既定値は 1000 です。 |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | 既定の遅延時間 [ms] を取得または設定します。この値は [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) が設定されていない場合に使用されます。既定値は 1000 です。 |
 | [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | 非表示スライドをエクスポートするかどうかを決定します。既定値は false です。 |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | フレームサイズを取得または設定します。 |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | 遷移 FPS [frames/sec] を取得または設定します。既定値は 25 です。 |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | 遷移の FPS [frames/sec] を取得または設定します。既定値は 25 です。 |
 
 ### 関連項目
 

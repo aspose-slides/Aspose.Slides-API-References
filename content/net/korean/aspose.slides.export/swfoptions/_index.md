@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions 클래스
 
-프레젠테이션을 Swf 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
+프레젠테이션이 Swf 형식으로 저장되는 방식을 제어하는 옵션을 제공합니다.
 
 ```csharp
 public class SwfOptions : SaveOptions, ISwfOptions
@@ -16,39 +16,39 @@ public class SwfOptions : SaveOptions, ISwfOptions
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [SwfOptions](swfoptions)() | 기본 생성자. |
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | 생성된 SWF 문서를 압축할지 여부를 지정합니다. 기본값은 `true`입니다. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 원본 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | 컨텍스트 메뉴를 활성화/비활성화합니다. 기본값은 true. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없는 경우 사용되는 폰트를 반환하거나 설정합니다. 읽기-쓰기 String. |
+| [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | 컨텍스트 메뉴를 활성화/비활성화합니다. 기본값은 true입니다. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | JPEG 이미지의 품질을 지정합니다. 기본값은 95. |
+| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | JPEG 이미지의 품질을 지정합니다. 기본값은 95입니다. |
 | [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | 뷰어 오른쪽 상단에 로고로 표시될 이미지입니다. 이미지는 32x64 픽셀 PNG 이미지여야 하며, 그렇지 않으면 로고가 올바르게 표시되지 않을 수 있습니다. |
-| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 로고의 전체 하이퍼링크 주소를 가져오거나 설정합니다. [`LogoImageBytes`](./logoimagebytes)가 지정된 경우에만 효과가 있습니다. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 진행률을 백분율로 업데이트하는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
-| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 하단 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
-| [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 전체 화면 버튼을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
+| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 로고에 대한 전체 하이퍼링크 주소를 가져오거나 설정합니다. [`LogoImageBytes`](./logoimagebytes) 가 지정된 경우에만 적용됩니다. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 받는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback) 를 참조하십시오. |
+| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 하단 창을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 전체 화면 버튼을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
 | [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`입니다. |
-| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 왼쪽 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
-| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | 페이지 주변의 테두리를 표시할지 여부를 지정합니다. 기본값은 true. |
-| [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | 페이지 스테퍼를 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
-| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 검색 섹션을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
-| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 전체 상단 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true. |
+| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 좌측 창을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | 페이지 주변의 테두리를 표시할지 여부를 지정합니다. 기본값은 true입니다. |
+| [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | 페이지 단계 조절기를 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 검색 섹션을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 전체 상단 창을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
-| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | 프레젠테이션 [`ISlidesLayoutOptions`](../islideslayoutoptions)을(를) 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다. 이 속성은 [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 유형의 객체 할당을 지원하지 않습니다. |
-| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 왼쪽 패널을 열려 있는 상태로 시작합니다. flashvars에서 재정의할 수 있습니다. 기본값은 false. |
+| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). 이 속성은 [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 타입의 객체 할당을 지원하지 않습니다. |
+| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 좌측 창을 열린 상태로 시작합니다. flashvars에서 재정의할 수 있습니다. 기본값은 false입니다. |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | 생성된 SWF 문서에 통합 문서 뷰어를 포함할지 여부를 지정합니다. 기본값은 `true`입니다. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속 진행할지 중단할지 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 예제
 
-다음 예제는 PowerPoint를 SWF Flash로 변환하는 방법을 보여 줍니다.
+다음 예제는 PowerPoint를 SWF Flash로 변환하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -59,14 +59,14 @@ using (Presentation presentation = new Presentation("HelloWorld.pptx"))
     swfOptions.ViewerIncluded = false;
     INotesCommentsLayoutingOptions notesOptions = swfOptions.NotesCommentsLayouting;
     notesOptions.NotesPosition = NotesPositions.BottomFull;
-    // 프레젠테이션 및 노트 페이지 저장
+    // 프레젠테이션 및 노트 페이지를 저장합니다
     presentation.Save("SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
     swfOptions.ViewerIncluded = true;
     presentation.Save("SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 }
 ```
 
-### 참고
+## 참조
 
 * 클래스 [SaveOptions](../saveoptions)
 * 인터페이스 [ISwfOptions](../iswfoptions)

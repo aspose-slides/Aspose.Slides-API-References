@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tidak dapat diubah yang mewakili efek Bayangan Luar.
+description: Objek tidak dapat diubah yang mewakili efek Outer Shadow.
 type: docs
-weight: 3450
+weight: 3470
 url: /id/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek Bayangan Luar.
+Objek tidak dapat diubah yang mewakili efek Outer Shadow.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -16,19 +16,19 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Hanya baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Radius keburaman. Hanya baca Double. |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Arah bayangan. Hanya baca Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Jarak bayangan. Hanya baca Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Perataan persegi panjang. Hanya baca [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Menentukan apakah bayangan harus berputar bersama bentuk bila bentuk diputar. Hanya baca Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. Hanya baca Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. Hanya baca Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Warna bayangan. Hanya baca Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Menentukan sudut miring horizontal (dalam derajat). Hanya baca Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Menentukan sudut miring vertikal (dalam derajat). Hanya baca Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Radius blur. Baca-saja Double. |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Arah bayangan. Baca-saja Single. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Jarak bayangan. Baca-saja Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Perataan persegi panjang. Baca-saja [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Menentukan apakah bayangan harus berputar bersama shape jika shape diputar. Baca-saja Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. Baca-saja Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. Baca-saja Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Warna bayangan. Baca-saja Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Menentukan sudut skew horizontal (dalam derajat). Baca-saja Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Menentukan sudut skew vertikal (dalam derajat). Baca-saja Double. |
 
 ### Lihat Juga
 

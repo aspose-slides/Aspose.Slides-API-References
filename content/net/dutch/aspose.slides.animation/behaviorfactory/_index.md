@@ -1,14 +1,14 @@
 ---
 title: BehaviorFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe animatie-effecten te maken
+description: Staat toe om animatie-effecten te maken
 type: docs
 weight: 180
 url: /nl/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory klasse
 
-Staat toe animatie-effecten te maken
+Staat toe om animatie-effecten te maken
 
 ```csharp
 public class BehaviorFactory : IBehaviorFactory
@@ -24,14 +24,14 @@ public class BehaviorFactory : IBehaviorFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Creëert kleureffect. |
-| [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Creëert commando-effect. |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Creëert filtereffect. |
-| [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Creëert bewegingseffect. |
-| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Creëert eigenschapseffect. |
-| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Creëert rotatie-effect. |
-| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Creëert schaaleffect. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Creëert set-effect. |
+| [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | Maakt kleureffect. |
+| [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | Maakt commando-effect. |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Maakt filtereffect. |
+| [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Maakt bewegingseffect. |
+| [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Maakt eigenschapseffect. |
+| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Maakt rotatie-effect. |
+| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Maakt schaal-effect. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Maakt set-effect. |
 
 ### Opmerkingen
 

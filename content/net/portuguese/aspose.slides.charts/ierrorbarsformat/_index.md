@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
-second_title: Aspose.Sildes para Referência de API .NET
-description: Representa as barras de erro de uma série de gráfico. Os valores personalizados de ErrorBars estão em IChartDataPointCollection na propriedade ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa barras de erro de séries de gráfico. Os valores personalizados de ErrorBars estão em IChartDataPointCollection na propriedade ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 2070
+weight: 2090
 url: /pt/aspose.slides.charts/ierrorbarsformat/
 ---
-## IErrorBarsFormat interface
+## interface IErrorBarsFormat
 
-Representa as barras de erro de uma série de gráfico. Os valores personalizados de ErrorBars estão em IChartDataPointCollection (na propriedade [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Representa barras de erro de séries de gráfico. Os valores personalizados de ErrorBars estão em IChartDataPointCollection (na propriedade [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -20,13 +20,13 @@ public interface IErrorBarsFormat : IChartComponent
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Retorna a interface IChartComponent. Somente leitura [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Representa o formato das barras de erro. Leitura/gravação [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Especifica que a tampa final não é desenhada nas barras de erro. Leitura/gravação Boolean. |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Especifica que um cap de extremidade não é desenhado nas barras de erro. Leitura/gravação Boolean. |
 | [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Obtém ou define a visibilidade das Error Bars. Leitura/gravação Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Obtém ou define o tipo das barras de erro. Leitura/gravação [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Obtém ou define o valor usado com os tipos Fixed, Percentage e StandardDeviation para determinar o comprimento das barras de erro. Leitura/gravação Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Representa as possíveis formas de determinar o comprimento das barras de erro. No caso de tipo de valor personalizado, para especificar o valor, use a propriedade [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) do ponto de dados específico na coleção DataPoints da série. Leitura/gravação [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Obtém ou define o tipo de barras de erro. Leitura/gravação [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Obtém ou define o valor usado com os tipos de valor Fixed, Percentage e StandardDeviation para determinar o comprimento das barras de erro. Leitura/gravação Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Representa possíveis maneiras de determinar o comprimento das barras de erro. No caso de tipo de valor personalizado, para especificar o valor use a propriedade [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) do ponto de dados específico na coleção DataPoints da série. Leitura/gravação [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### Veja Também
+### Ver Também
 
 * interface [IChartComponent](../ichartcomponent)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

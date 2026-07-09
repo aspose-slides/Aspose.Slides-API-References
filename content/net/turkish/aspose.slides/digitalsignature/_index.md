@@ -1,9 +1,9 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Sildes için .NET API Referansı
-description: İmzalı dosyadaki dijital imza.
+description: İmzalı dosyada dijital imza.
 type: docs
-weight: 2750
+weight: 2770
 url: /tr/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature sınıfı
@@ -19,20 +19,20 @@ public class DigitalSignature : IDigitalSignature
 | Ad | Açıklama |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Belirtilen sertifikayla yeni bir DigitalSignature nesnesi oluşturur. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Belirtilen sertifika dosya yolu ve şifre ile yeni bir DigitalSignature nesnesi oluşturur. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Belirtilen sertifika dosyası yolu ve parola ile yeni bir DigitalSignature nesnesi oluşturur. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Belgeyi imzalamak için kullanılan sertifika nesnesi. Salt okunur X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | İmzanın amacı. Okunabilir/yazılabilir String. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | İmzanın amacı. Okunur/yazılır String. |
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Bu dijital imza geçerli ve belge değiştirilmemişse, bu değer doğru olur. Salt okunur Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Belgenin imzalandığı zaman. Salt okunur DateTime. |
 
 ### Örnekler
 
-Aşağıdaki örnek, PowerPoint Sunumu'nda PFX sertifikasından dijital imza eklemeyi gösterir.
+Aşağıdaki örnek, PowerPoint Sunumunda PFX sertifikasından dijital imza eklemeyi göstermektedir.
 
 ```csharp
 [C#]
@@ -50,7 +50,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Aşağıdaki örnek kod, PowerPoint Sunumu'nun dijital imzasını doğrulamayı gösterir.
+Aşağıdaki örnek kod, PowerPoint Sunumunun dijital imzasını nasıl doğrulayacağını göstermektedir.
 
 ```csharp
 [C#]

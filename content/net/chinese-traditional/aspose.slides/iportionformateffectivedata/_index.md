@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData 介面
 
-不可變的物件，包含有效的文字區段格式屬性。
+不變的物件，包含有效的文字區段格式屬性。
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | 傳回 IBasePortionFormatEffectiveData 介面。 |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | 傳回書籤識別碼。唯讀 String。 |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | 傳回滑鼠點擊時定義的超連結。唯讀 [`IHyperlink`](../ihyperlink)。 |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | 傳回滑鼠懸停時定義的超連結。唯讀 [`IHyperlink`](../ihyperlink)。 |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | 返回 IBasePortionFormatEffectiveData 介面。 |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | 返回書籤識別碼。只讀 String。 |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | 返回為滑鼠點擊定義的超連結。只讀 [`IHyperlink`](../ihyperlink)。 |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | 返回為滑鼠懸停定義的超連結。只讀 [`IHyperlink`](../ihyperlink)。 |
 
 ### 備註
 
-此介面與 [`IPortionFormat`](../iportionformat) 介面一起使用，以傳回套用繼承的有效格式值。
+此介面與 [`IPortionFormat`](../iportionformat) 介面一起使用，以返回套用繼承的有效格式值。
 
-### 參見
+### 另見
 
 * 介面 [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

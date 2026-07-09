@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل ثيمًا متجاوزًا.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل سمة متجاوزة.
 type: docs
 weight: 11340
 url: /ar/aspose.slides.theme/ioverridetheme/
 ---
-## واجهة IOverrideTheme
+## IOverrideTheme واجهة
 
-يمثل ثيمًا متجاوزًا.
+يمثل سمة متجاوزة.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,28 +18,28 @@ public interface IOverrideTheme : ITheme
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | يسمح بالحصول على واجهة ITheme الأساسية. للقراءة فقط [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | القيمة true تعني أن ColorScheme و FontScheme و FormatScheme هي null وأي تجاوز باستخدام كائن الثيم هذا مُعطل. للقراءة فقط Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | يسمح بالحصول على واجهة ITheme الأساسية. قراءة فقط [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | القيمة True تعني أن ColorScheme و FontScheme و FormatScheme هي null وأي تجاوز باستخدام كائن السمة هذا معطل. قراءة فقط Boolean. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | تعيين ColorScheme و FontScheme و FormatScheme إلى null لتعطيل أي تجاوز باستخدام كائن الثيم هذا. |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | تهيئة ColorScheme باستخدام كائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | تهيئة ColorScheme باستخدام كائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | تهيئة ColorScheme باستخدام كائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات ColorScheme الخاص بـ InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | تهيئة FontScheme باستخدام كائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | تهيئة FontScheme باستخدام كائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | تهيئة FontScheme باستخدام كائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات FontScheme الخاص بـ InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | تهيئة FormatScheme باستخدام كائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | تهيئة FormatScheme باستخدام كائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | تهيئة FormatScheme باستخدام كائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات FormatScheme الخاص بـ InheritedTheme. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | تعيين ColorScheme و FontScheme و FormatScheme إلى null لتعطيل أي تجاوز باستخدام كائن السمة هذا. |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | تهيئة ColorScheme بكائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | تهيئة ColorScheme بكائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | تهيئة ColorScheme بكائن جديد لتجاوز ColorScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات ColorScheme الخاص بـ InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | تهيئة FontScheme بكائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | تهيئة FontScheme بكائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | تهيئة FontScheme بكائن جديد لتجاوز FontScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات FontScheme الخاص بـ InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | تهيئة FormatScheme بكائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | تهيئة FormatScheme بكائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | تهيئة FormatScheme بكائن جديد لتجاوز FormatScheme الخاص بـ InheritedTheme. وتهيئة بيانات هذا الكائن الجديد ببيانات FormatScheme الخاص بـ InheritedTheme. |
 
 ### انظر أيضًا
 
 * واجهة [ITheme](../itheme)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)
-* التجميع [Aspose.Slides](../../)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

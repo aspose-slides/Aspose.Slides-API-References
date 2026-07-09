@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ระบุคุณสมบัติของ IMathNaryOperator
 type: docs
 weight: 8380
@@ -8,7 +8,7 @@ url: /th/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties อินเทอร์เฟซ
 
-ระบุคุณสมบัติของ IMMathNaryOperator
+ระบุคุณสมบัติของ IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | อักขระตัวดำเนินการเติบโตตามแนวตั้งเพื่อให้ตรงกับความสูงของออพอแรนด์ |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | ซ่อนตัวห้อย |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | ซ่อนตัวยก |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | ตำแหน่งของขอบเขต (ตัวห้อยและตัวยก) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | อักขระตัวดำเนินการ Nary เช่น: '∑', '∫' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | อักขระตัวดำเนินการขยายตัวในแนวดิ่งให้ตรงกับความสูงของออเปอแรนด์ |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | ซ่อนตัวล่าง |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | ซ่อนตัวบน |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | ตำแหน่งของลิมิต (ตัวล่างและตัวบน) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | อักขระตัวดำเนินการ Nary ตัวอย่างเช่น: '∑', '∫' |
 
 ### ดูเพิ่มเติม
 

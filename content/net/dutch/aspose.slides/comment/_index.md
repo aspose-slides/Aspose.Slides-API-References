@@ -1,14 +1,14 @@
 ---
 title: Comment
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een opmerking op een dia.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een opmerking op een dia voor.
 type: docs
 weight: 2620
 url: /nl/aspose.slides/comment/
 ---
 ## Comment klasse
 
-Representeert een opmerking op een dia.
+Stelt een opmerking op een dia voor.
 
 ```csharp
 public class Comment : IComment
@@ -18,12 +18,12 @@ public class Comment : IComment
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Retourneert de auteur van een opmerking. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Retourneert of stelt de tijd van een opmerking in. Het instellen van deze eigenschap op MinValue betekent dat er geen opmerkingstijd is ingesteld. Lezen/schrijven DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Haalt op of stelt de bovenliggende opmerking in. Lezen/schrijven [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Retourneert of stelt de positie van een opmerking op een dia in. Lezen/schrijven PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Retourneert de bovenliggende dia van een opmerking. Alleen-lezen [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Retourneert of stelt de platte tekst van een diaopmerking in. Lezen/schrijven String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Geeft de auteur van een opmerking terug. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Geeft de tijd van een opmerkingcreatie terug of stelt deze in. Het instellen van deze eigenschap op MinValue betekent dat er geen opmerkingstijd is ingesteld. Lezen/Schrijven DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Haalt de bovenliggende opmerking op of stelt deze in. Lezen/Schrijven [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Geeft de positie van een opmerking op een dia terug of stelt deze in. Lezen/Schrijven PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Geeft de bovenliggende dia van een opmerking terug. Alleen-lezen [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Geeft de platte tekst van een dia-opmerking terug of stelt deze in. Lezen/Schrijven String. |
 
 ## Methoden
 
@@ -33,11 +33,11 @@ public class Comment : IComment
 
 ### Voorbeelden
 
-Dit voorbeeld toont hoe u een opmerking aan een dia in een PowerPoint-presentatie kunt toevoegen.
+Dit voorbeeld laat zien hoe u een opmerking aan een dia in een PowerPoint-presentatie kunt toevoegen.
 
 ```csharp
 [C#]
-// Maakt een instantie van de Presentation-klasse
+// Instantieert de Presentation klasse
 using (Presentation presentation = new Presentation())
 {
     // Voegt een lege dia toe
@@ -48,27 +48,27 @@ using (Presentation presentation = new Presentation())
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Voegt een diaopmerking toe voor een auteur op dia 1
+    // Voegt een dia-opmerking toe voor een auteur op dia 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Voegt een diaopmerking toe voor een auteur op dia 2
+    // Voegt een dia-opmerking toe voor een auteur op dia 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
 	// Sla het PowerPoint-presentatiebestand op
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Dit voorbeeld toont hoe u toegang krijgt tot een bestaande opmerking op een dia in een PowerPoint-presentatie.
+Dit voorbeeld laat zien hoe u een bestaande opmerking op een dia in een PowerPoint-presentatie kunt benaderen.
 
 ```csharp
 [C#]
-// Instantieert de Presentation-klasse
+// Instantieert de Presentation klasse
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itereer over CommentAuthors
+	// Itereren over CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itereer over Comments
+		// Itereren over Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,11 +78,11 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-Dit voorbeeld toont hoe u opmerkingen kunt toevoegen en antwoorden hierop kunt krijgen.
+Dit voorbeeld laat zien hoe u opmerkingen kunt toevoegen en antwoorden kunt ophalen.
 
 ```csharp
 [C#]
-// Instantieert de Presentation-klasse
+// Instantieert de Presentation klasse
 using (Presentation pres = new Presentation())
 {
     // Voegt een opmerking toe
@@ -92,7 +92,7 @@ using (Presentation pres = new Presentation())
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // Voegt een ander antwoord toe aan comment1
+    // Voegt nog een antwoord toe aan comment1
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
     // Voegt een antwoord toe aan een bestaand antwoord
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Toont de hiërarchie van opmerkingen op de console
+    // Toont de hiërarchie van opmerkingen in de console
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -117,7 +117,7 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // Verwijdert comment1 en alle antwoorden daarop
+    // Verwijdert comment1 en alle antwoorden erop
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
@@ -127,6 +127,6 @@ using (Presentation pres = new Presentation())
 
 * interface [IComment](../icomment)
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

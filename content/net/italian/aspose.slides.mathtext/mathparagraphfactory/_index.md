@@ -1,9 +1,9 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Consente di creare un paragrafo matematico
 type: docs
-weight: 8890
+weight: 8910
 url: /it/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory classe

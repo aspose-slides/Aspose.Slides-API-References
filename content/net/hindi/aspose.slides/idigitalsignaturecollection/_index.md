@@ -8,27 +8,27 @@ url: /hi/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection इंटरफ़ेस
 
-एक दस्तावेज़ से जुड़े डिजिटल हस्ताक्षरों का संग्रह दर्शाता है।
+एक दस्तावेज़ से जुड़े डिजिटल हस्ताक्षरों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | सूचकांक द्वारा हस्ताक्षर लौटाता है। |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | इंडेक्स द्वारा हस्ताक्षर लौटाता है। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | संग्रह के अंत में हस्ताक्षर जोड़ता है। |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | संग्रह से सभी हस्ताक्षर हटाता है। |
-| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | निर्दिष्ट सूचकांक पर हस्ताक्षर हटाता है। |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | निर्दिष्ट इंडेक्स पर हस्ताक्षर हटाता है। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IDigitalSignature](../idigitalsignature)

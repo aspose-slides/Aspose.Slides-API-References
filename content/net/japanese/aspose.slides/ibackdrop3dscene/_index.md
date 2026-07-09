@@ -1,14 +1,14 @@
 ---
 title: IBackdrop3DScene
-second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクト（グローやシャドウなど）が適用される形状に対して、効果が適用される平面を定義します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 光彩や影などのエフェクトが適用される平面を、適用対象の形状に対して定義します。
 type: docs
-weight: 5240
+weight: 5260
 url: /ja/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene インターフェイス
 
-エフェクト（グローやシャドウなど）が適用される形状に対して、効果が適用される平面を定義します。
+3D 空間の点を取得または設定します。この点はバックドロップ平面をアンカーする空間上の点です。3 つの float 値の配列で表される 3D 点で、X、Y、Z 座標を定義します。読み取り/書き込み Single[].
 
 ```csharp
 public interface IBackdrop3DScene
@@ -18,9 +18,9 @@ public interface IBackdrop3DScene
 
 | 名前 | 説明 |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | 3D 空間内の点を取得または設定します。この点はバックドロップ平面のアンカーとなる空間上の点です。X、Y、Z 座標を定義する 3 つの float 値の配列で表される 3D 点です。読み書き Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | 法線ベクトルを取得または設定します。より正確には、この属性はバックドロップ平面の面に対して直交するベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表されるベクトルです。読み書き Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | 上方向を表すベクトルを取得または設定します。より正確には、この属性はバックドロップ平面の面に対する上方向を表すベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表されるベクトルです。読み書き Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | 3D 空間の点を取得または設定します。この点はバックドロップ平面をアンカーする空間上の点です。3 つの float 値の配列で表される 3D 点で、X、Y、Z 座標を定義します。読み取り/書き込み Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | 法線ベクトルを取得または設定します。正確には、この属性はバックドロップ平面の面に対して垂直なベクトルを定義します。ベクトルは X、Y、Z 座標を定義する 3 つの float 値の配列で表されます。読み取り/書き込み Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | 上方向を表すベクトルを取得または設定します。正確には、この属性はバックドロップ平面の面に対する上方向のベクトルを定義します。ベクトルは X、Y、Z 座標を定義する 3 つの float 値の配列で表されます。読み取り/書き込み Single[]. |
 
 ### 参照
 

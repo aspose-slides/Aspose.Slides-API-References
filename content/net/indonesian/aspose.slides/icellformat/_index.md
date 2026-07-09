@@ -1,9 +1,9 @@
 ---
 title: ICellFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili format sel tabel.
 type: docs
-weight: 5450
+weight: 5470
 url: /id/aspose.slides/icellformat/
 ---
 ## ICellFormat antarmuka
@@ -31,7 +31,7 @@ public interface ICellFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Mendapatkan properti format sel tabel yang efektif dengan warisan dan gaya tabel yang diterapkan. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Mengambil properti format sel tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
 
 ### Lihat Juga
 

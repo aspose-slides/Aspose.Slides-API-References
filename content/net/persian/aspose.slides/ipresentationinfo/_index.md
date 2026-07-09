@@ -1,38 +1,38 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Sildes برای .NET مرجع API
-description: اطلاعات درباره فایل ارائه
+second_title: مرجع API Aspose.Sildes برای .NET
+description: اطلاعات در مورد فایل ارائه
 type: docs
 weight: 6790
 url: /fa/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo رابط
 
-اطلاعات درباره فایل ارائه
+اطلاعات در مورد فایل ارائه
 
 ```csharp
 public interface IPresentationInfo
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | اگر ارائه پیوند شده رمزگذاری شده باشد True را بر می‌گرداند، در غیر این صورت False. Boolean فقط‌خواندنی. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا ارائه پیوند شده با رمز عبور برای باز کردن محافظت شده است یا خیر. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا ارائه پیوند شده از نوشتن محافظت شده است یا خیر. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | قالب ارائه پیوند شده را بر می‌گرداند. فقط‌خواندنی [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | True را برمی‌گرداند اگر ارائه بایند شده رمزنگاری شده باشد، در غیر این صورت False. Boolean فقط-خواندنی. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا ارائه بایند شده با رمز عبور برای باز کردن محافظت شده است یا خیر. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا ارائه بایند شده از نوشتن محافظت شده است یا خیر. |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | قالب ارائه بایند شده را برمی‌گرداند. فقط-خواندنی [`LoadFormat`](../loadformat). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | بررسی می‌کند که آیا رمز عبور برای ارائه‌ای که با رمز عبور باز محافظت شده صحیح است یا خیر. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | بررسی می‌کند که آیا رمز عبور برای تغییر برای ارائه‌ای که از نوشتن محافظت شده صحیح است یا خیر. |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | خواص سند ارائه پیوند شده را بر می‌گرداند. |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | خواص ارائه پیوند شده را به‌روزرسانی می‌کند. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | ارائه پیوند شده را به جریان می‌نویسد. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | ارائه پیوند شده را به فایل می‌نویسد. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | بررسی می‌کند که آیا رمز عبور برای ارائه‌ای که با رمز باز محافظت شده است، صحیح است یا خیر. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | بررسی می‌کند که آیا رمز عبور برای تغییر برای ارائه‌ای که از نوشتن محافظت شده است، صحیح است یا خیر. |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | ویژگی‌های سند ارائه بایند شده را برمی‌گرداند. |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | ویژگی‌های ارائه بایند شده را به‌روزرسانی می‌کند. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | ارائه بایند شده را به استریم می‌نویسد. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | ارائه بایند شده را در فایل می‌نویسد. |
 
 ### موارد مرتبط
 

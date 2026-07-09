@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Definieert de vulbron van de slide-achtergrond.
+description: Definieert de bron van de dia-achtergrondvulling.
 type: docs
 weight: 940
 url: /nl/aspose.slides/backgroundtype/
 ---
 ## BackgroundType enumeratie
 
-Definieert de vulbron van de slide-achtergrond.
+Definieert de bron van de dia-achtergrondvulling.
 
 ```csharp
 public enum BackgroundType : sbyte

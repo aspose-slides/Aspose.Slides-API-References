@@ -1,6 +1,6 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes .NET용 API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 범례 속성을 나타냅니다.
 type: docs
 weight: 2130
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/ilegend/
 ---
 ## ILegend 인터페이스
 
-차트 범례 속성을 나타냅니다.
+차트의 범례 속성을 나타냅니다.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -22,8 +22,8 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 | [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | 기본 ILayoutable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ILayoutable`](../ilayoutable). |
 | [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | 범례 항목을 가져옵니다. 읽기 전용 [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/ilegend/format) { get; } | 범례의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 다른 차트 요소가 범례와 겹치는 것을 허용할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 차트에서 범례의 위치를 지정합니다. X, Y, Width, Height 속성의 Non-NaN 값은 이 속성의 효과를 대체합니다. 읽기/쓰기 [`LegendPositionType`](../legendpositiontype). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | 다른 차트 요소가 범례와 겹치도록 허용할지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | 차트에서 범례의 위치를 지정합니다. X, Y, Width, Heigt 속성의 NaN이 아닌 값은 이 속성의 효과를 무시합니다. 읽기/쓰기 [`LegendPositionType`](../legendpositiontype). |
 
 ### 참고
 

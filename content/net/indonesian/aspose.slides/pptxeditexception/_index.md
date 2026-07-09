@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili pengecualian yang dilempar ketika kesalahan pengeditan presentasi terdeteksi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili pengecualian yang dilempar ketika kesalahan penyuntingan presentasi terdeteksi.
 type: docs
-weight: 9530
+weight: 9550
 url: /id/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException kelas
 
-Mewakili pengecualian yang dilempar ketika kesalahan pengeditan presentasi terdeteksi.
+Mewakili sebuah pengecualian yang dilempar ketika kesalahan penyuntingan presentasi terdeteksi.
 
 ```csharp
 public class PptxEditException : PptxException
@@ -20,7 +20,7 @@ public class PptxEditException : PptxException
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Konstruktor default. |
 | [PptxEditException](pptxeditexception#constructor_1)(string) | Konstruktor yang memungkinkan pesan ditambahkan ke pengecualian ini. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian yang tersemat. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Konstruktor untuk pengecualian yang berisi pesan dan pengecualian tersemat. |
 
 ### Lihat Juga
 

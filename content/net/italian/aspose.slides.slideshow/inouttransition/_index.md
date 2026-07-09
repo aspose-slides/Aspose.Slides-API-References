@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Effetto di transizione di diapositiva In-Out.
+description: Effetto di transizione slide In-Out.
 type: docs
-weight: 10210
+weight: 10230
 url: /it/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition classe
 
-Effetto di transizione di diapositiva In-Out.
+Effetto di transizione slide In-Out.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -25,7 +25,7 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve come funzione hash per un tipo particolare, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

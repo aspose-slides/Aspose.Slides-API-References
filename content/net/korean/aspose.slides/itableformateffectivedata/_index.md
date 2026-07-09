@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 효과적인 테이블 서식 속성을 포함하는 불변 객체.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 유효한 테이블 서식 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 7250
 url: /ko/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData 인터페이스
 
-효과적인 테이블 서식 속성을 포함하는 불변 객체.
+유효한 테이블 서식 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,16 +16,16 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | 기본 IBaseTableFormatEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 채우기 색상의 투명도를 가져옵니다. Single 반환. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 채우기 색상의 투명도를 가져옵니다. 읽기 Single. |
 
 ### 비고
 
-이 인터페이스는 [`ITableFormat`](../itableformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 효과적인 서식 값을 반환합니다.
+이 인터페이스는 [`ITableFormat`](../itableformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 유효한 서식 값을 반환합니다.
 
-### 참고
+### 참조
 
 * 인터페이스 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

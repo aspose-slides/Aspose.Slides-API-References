@@ -1,15 +1,14 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes pour la référence API .NET
-description: Représente un lien hypertexte.
+second_title: Référence de l'API Aspose.Sildes pour .NET
+description: Représente un hyperlien.
 type: docs
-weight: 5910
+weight: 6110
 url: /fr/aspose.slides/ihyperlink/
 ---
+## IHyperlink interface
 
-## Interface IHyperlink
-
-Représente un lien hypertexte.
+Représente un hyperlien.
 
 ```csharp
 public interface IHyperlink
@@ -19,27 +18,27 @@ public interface IHyperlink
 
 | Nom | Description |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Renvoie le type de l'action de HyperLinkEx. Lecture seule [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Représente la source de la couleur du lien hypertexte - soit des styles soit un format de portion. Lecture/écriture [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Spécifie l'URL externe. Si cette propriété devient non nulle, alors la propriété TargetSlide devient nulle. Chaîne de caractères en lecture seule. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Représente un lien hypertexte qui est défini pour cette portion sans tenir compte du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et leur texte correspondant dans une portion. Cela permet de créer un texte pour le lien hypertexte sous la forme d'une URL valide, différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre au texte de la portion. Cette propriété représente la valeur originale du lien hypertexte. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Détermine si le lien hypertexte doit être mis en surbrillance au clic. Lecture/écriture Booléen. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Détermine si la cible du lien hypertexte parent doit être ajoutée à une liste de liens hypertexte consultés lorsqu'il est invoqué. Lecture/écriture Booléen. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Représente le son joué du lien hypertexte. Lecture/écriture [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Détermine si le son doit être arrêté lors du clic sur le lien hypertexte. Lecture/écriture Booléen. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Renvoie le cadre dans le cadre HTML parent pour la cible du lien hypertexte parent lorsqu'il existe. Lecture/écriture Chaîne de caractères. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Si HyperlinkEx cible une diapositive spécifique, renvoie cette diapositive. Si la propriété devient non nulle, alors la propriété ExternalUrl devient nulle. Lecture seule [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Renvoie la chaîne qui peut être affichée dans une interface utilisateur comme associée au lien hypertexte parent. Lecture/écriture Chaîne de caractères. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Renvoie le type de l'action de HyperLinkEx. Lecture seule [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Représente la source de la couleur du lien hypertexte - soit les styles, soit le format de partie. Lecture/écriture [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Spécifie l'URL externe. Si cette propriété devient non nulle alors la propriété TargetSlide devient nulle. Lecture seule Chaîne. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Représente un hyperlien défini pour cette portion sans tenir compte du contenu réel de la portion. PowerPoint se comporte spécifiquement pour les liens et le texte correspondant dans une portion. Il permet de créer du texte pour l'hyperlien sous la forme d'une URL valide, différente de l'adresse réelle du lien. Dans ce cas, lorsque vous visualisez le lien dans la fenêtre d'édition, il sera modifié pour correspondre à la portion de texte. Cette propriété représente la valeur originale de l'hyperlien. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Détermine si le hyperlien doit être mis en évidence lors du clic. Lecture/écriture Booléen. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Détermine si la cible du hyperlien parent doit être ajoutée à une liste des hyperliens consultés lorsqu'elle est invoquée. Lecture/écriture Booléen. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Représente le son joué du hyperlien. Lecture/écriture [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Détermine si le son doit être arrêté lors du clic sur le hyperlien. Lecture/écriture Booléen. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Renvoie le cadre au sein du frameset HTML parent pour la cible du hyperlien parent lorsqu'il existe. Lecture/écriture Chaîne. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Si le HyperlinkEx cible une diapositive spécifique, renvoie cette diapositive. Si la propriété devient non nulle alors la propriété ExternalUrl devient nulle. Lecture seule [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Renvoie la chaîne qui peut être affichée dans une interface utilisateur associée au hyperlien parent. Lecture/écriture Chaîne. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Détermine si les deux instances de lien hypertexte sont égales. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | Détermine si les deux instances de Hyperlink sont égales. |
 
 ### Voir aussi
 
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

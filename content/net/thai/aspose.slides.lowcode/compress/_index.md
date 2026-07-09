@@ -1,14 +1,14 @@
 ---
 title: Compress
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงกลุ่มของเมธอดที่ตั้งใจบีบอัด Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของกลุ่มเมธอดที่มีวัตถุประสงค์เพื่อบีบอัด Presentation../aspose.slides/presentation.
 type: docs
 weight: 7870
 url: /th/aspose.slides.lowcode/compress/
 ---
 ## Compress คลาส
 
-เป็นการรวมกลุ่มของเมธอดที่มีจุดประสงค์เพื่อบีบอัด [`Presentation`](../../aspose.slides/presentation).
+เป็นตัวแทนของกลุ่มเมธอดที่มีวัตถุประสงค์เพื่อบีบอัด [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public static class Compress
@@ -18,9 +18,9 @@ public static class Compress
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | ทำการบีบอัด [`Presentation`](../../aspose.slides/presentation) โดยการลบอักขระที่ไม่ได้ใช้จากฟอนต์ที่ฝังอยู่. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | ทำการบีบอัด [`Presentation`](../../aspose.slides/presentation) โดยการลบสไลด์เลย์เอาต์ที่ไม่ได้ใช้. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | ทำการบีบอัด [`Presentation`](../../aspose.slides/presentation) โดยการลบสไลด์มาสเตอร์ที่ไม่ได้ใช้. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | ทำการบีบอัดของ [`Presentation`](../../aspose.slides/presentation) โดยการลบอักขระที่ไม่ได้ใช้จากแบบอักษรที่ฝังอยู่. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | ทำการบีบอัดของ [`Presentation`](../../aspose.slides/presentation) โดยการลบสไลด์เลย์เอาต์ที่ไม่ได้ใช้. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | ทำการบีบอัดของ [`Presentation`](../../aspose.slides/presentation) โดยการลบสไลด์มาสเตอร์ที่ไม่ได้ใช้. |
 
 ### ตัวอย่าง
 

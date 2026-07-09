@@ -1,14 +1,14 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một mẫu để lấp đầy hình dạng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu thị một mẫu để lấp đầy hình dạng.
 type: docs
 weight: 9350
 url: /vi/aspose.slides/patternformat/
 ---
 ## PatternFormat lớp
 
-Đại diện cho một mẫu để lấp đầy hình dạng.
+Biểu thị một mẫu để điền vào hình dạng.
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -18,9 +18,9 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện cơ sở IPresentationComponent. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Trả về màu nền của mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Trả về màu tiền cảnh của mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Trả về màu nền mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Trả về màu trước mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Trả về hoặc đặt kiểu mẫu. Đọc/ghi [`PatternStyle`](../patternstyle). |
 
 ## Phương thức
@@ -29,10 +29,10 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Tạo ảnh gạch lát cho việc lấp mẫu. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Tạo ảnh gạch lát cho mẫu lấp đầy với các màu được chỉ định. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Tạo ảnh gạch cho việc điền mẫu. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Tạo ảnh gạch cho việc điền mẫu với các màu được chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [PVIObject](../pviobject)
 * giao diện [IPatternFormat](../ipatternformat)

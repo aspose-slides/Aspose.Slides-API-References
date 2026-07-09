@@ -1,7 +1,7 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक SmartArt आरेख की शैली योजना का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: SmartArt आरेख की शैली योजना का प्रतिनिधित्व करता है।
 type: docs
 weight: 10650
 url: /hi/aspose.slides.smartart/smartartquickstyletype/

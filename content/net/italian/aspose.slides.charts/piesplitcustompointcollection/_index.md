@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di punti per la divisione del punto in un grafico a torta a barra o a torta a torta con una divisione personalizzata.
+description: Rappresenta una collezione di punti per dividere un punto in un grafico a torta a barre o a torta di torta con una divisione personalizzata.
 type: docs
-weight: 2350
+weight: 2370
 url: /it/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection classe
 
-Rappresenta una raccolta di punti per la divisione del punto in un grafico a torta a barra o a torta a torta con una divisione personalizzata.
+Rappresenta una collezione di punti per dividere un punto in un grafico a torta a barre o a torta di torta con una divisione personalizzata.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,8 +18,8 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Restituisce o imposta il conteggio dei punti dati del grafico. Solo lettura Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Ottiene un valore che indica se l'ICollection è di sola lettura. Solo lettura Boolean. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Restituisce o imposta il numero di punti dati del grafico. Solo lettura Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Restituisce un valore che indica se l'ICollection è di sola lettura. Solo lettura Boolean. |
 | [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Restituisce il punto dati del grafico per l'indice specificato. |
 | [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
@@ -28,14 +28,14 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Aggiunge un punto dati alla collezione. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Aggiunge un punto dati mediante il suo indice nella collezione di punti della serie genitore. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | Aggiunge un punto dati alla raccolta. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | Aggiunge un punto dati mediante il suo indice nella raccolta dei punti della serie principale. |
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Rimuove tutti gli elementi dall'ICollection. |
 | [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Determina se l'ICollection contiene un valore specifico. |
 | [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copia gli elementi dell'ICollection in un Array, iniziando da un indice specifico dell'Array. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Rimuove l'elemento dalla collezione. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Rimuove l'elemento dalla collezione mediante il suo indice nella collezione di punti della serie genitore. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Rimuove l'elemento dalla raccolta. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Rimuove l'elemento dalla raccolta mediante il suo indice nella raccolta dei punti della serie principale. |
 
 ### Vedi anche
 

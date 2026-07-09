@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή όλων των διαφανειών διάταξης στην παρουσίαση. Επεκτείνει την LayoutSlideCollection κλάση με μεθόδους για προσθήκη/κλωνοποίηση διαφανειών διάταξης στο πλαίσιο ενοποίησης των επιμέρους συλλογών των master διαφανειών διάταξης.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αντιπροσωπεύει μια συλλογή όλων των διαφανειών διάταξης στην παρουσίαση. Επεκτείνει την κλάση LayoutSlideCollection με μεθόδους για προσθήκη/κλωνοποίηση διαφανειών διάταξης στο πλαίσιο ενότητας των επιμέρους συλλογών των διαφανειών διάταξης του master.
 type: docs
-weight: 4960
+weight: 4980
 url: /el/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection κλάση
 
-Αναπαριστά μια συλλογή όλων των διαφανειών διάταξης στην παρουσίαση. Επεκτείνει την LayoutSlideCollection class με μεθόδους για προσθήκη/κλωνοποίηση διαφανειών διάταξης στο πλαίσιο της ενοποίησης των επιμέρους συλλογών των διαφανειών διάταξης του master.
+Αντιπροσωπεύει μια συλλογή όλων των διαφανειών διάταξης στην παρουσίαση. Επεκτείνει την κλάση LayoutSlideCollection με μεθόδους για προσθήκη/κλωνοποίηση διαφανειών διάταξης στο πλαίσιο ενότητας των επιμέρους συλλογών των διαφανειών διάταξης του master.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,31 +17,31 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Επιστρέφει τον αριθμό των διαφανειών διάταξης σε μια συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Επιστρέφει μια τιμή η οποία υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Επιστρέφει τη διαφάνεια διάταξης με βάση το δείκτη. Μόνο για ανάγνωση [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Προσθέτει μια νέα διαφάνεια διάταξης στην παρουσίαση. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Προσθέτει αντίγραφο μιας καθορισμένης διαφάνειας διάταξης στην παρουσίαση. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Προσθέτει αντίγραφο μιας καθορισμένης διαφάνειας διάταξης στην παρουσίαση. |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Προσθέτει νέα διαφάνεια διάταξης στην παρουσίαση. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Προσθέτει αντίγραφο μιας συγκεκριμένης διαφάνειας διάταξης στην παρουσίαση. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Προσθέτει αντίγραφο μιας συγκεκριμένης διαφάνειας διάταξης στην παρουσίαση. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Επιστρέφει την πρώτη διαφάνεια διάταξης του καθορισμένου τύπου. Ένας τύπος διαφάνειας διάταξης προς εύρεση.[`LayoutSlide`](../layoutslide) με καθορισμένο τύπο ή null εάν δεν βρέθηκαν διαφάνειες. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Αφαιρεί μια διάταξη από τη συλλογή. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Αφαιρεί αχρησιμοποίητες διαφάνειες διάταξης (διαφάνειες διάταξης των οποίων το HasDependingSlides είναι false). |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Επιστρέφει την πρώτη διαφάνεια διάταξης του καθορισμένου τύπου. Ένας τύπος διαφάνειας διάταξης για εντοπισμό.[`LayoutSlide`](../layoutslide) με καθορισμένο τύπο ή null εάν δεν βρέθηκαν διαφάνειες. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Επιστρέφει έναν επαναλήπτη που διασχίζει τη συλλογή. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Αφαιρεί μια διαφάνεια διάταξης από τη συλλογή. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Αφαιρεί αχρησιμοποίητες διαφάνειες διάταξης (διαφάνειες των οποίων το HasDependingSlides είναι false). |
 
 ### Δείτε επίσης
 
 * κλάση [LayoutSlideCollection](../layoutslidecollection)
-* διασύνδεση [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* διεπαφή [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

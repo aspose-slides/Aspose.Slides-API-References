@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Neměnný objekt představující pouze pro čtení kolekci efektivních transformací obrázku.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Neměnný objekt, který představuje jen pro čtení kolekci efektivních transformací obrázku.
 type: docs
-weight: 3540
+weight: 3560
 url: /cs/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData třída
 
-Neměnný objekt představující pouze pro čtení kolekci efektivních transformací obrázku.
+Neměnný objekt, který představuje jen pro čtení kolekci efektivních transformací obrázku.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -16,31 +16,31 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Výchozí konstruktor. |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Vrací počet obrazových efektů v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Vrací prvek podle indexu. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Určuje, zda je zadaný objekt roven aktuálnímu objektu. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Poznámky
 
-Název IImageTransformOperationCollectionEffectiveData byl zkrácen na IImageTransformOCollectionEffectiveData kvůli omezení délky názvů COM, která nesmí být delší než 39.
+Název IImageTransformOperationCollectionEffectiveData byl zkrácen na IImageTransformOCollectionEffectiveData, protože délka názvů COM nesmí přesáhnout 39 znaků.
 
 ### Viz také
 

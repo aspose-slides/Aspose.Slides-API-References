@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, które operacje są wyłączone w obiekcie nadrzędnym AutoshapeEx.
+description: Określa, które operacje są wyłączone w nadrzędnym AutoshapeEx.
 type: docs
-weight: 5230
+weight: 5250
 url: /pl/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock interfejs
 
-Określa, które operacje są wyłączone w obiekcie nadrzędnym AutoshapeEx.
+Określa, które operacje są wyłączone w nadrzędnym AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -16,25 +16,25 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości regulacji jest zabroniona. Zmienny Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Określa, czy zmiana grotów jest zabroniona. Zmienny Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Umożliwia pobranie bazowego interfejsu IBaseShapeLock. Tylko do odczytu [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Określa, czy kształt musi zachować proporcje przy zmianie rozmiaru. Zmienny Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Określa, czy bezpośrednia zmiana konturu tego kształtu jest zabroniona. Zmienny Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Zmienny Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Określa, czy przemieszczenie tego kształtu jest zabronione. Zmienny Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest zabroniona. Zmienny Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Określa, czy zaznaczenie tego kształtu jest zabronione. Zmienny Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Określa, czy zmiana typu kształtu jest zabroniona. Zmienny Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Zmienny Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Określa, czy edycja tekstu jest zabroniona. Zmienny Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości dopasowania jest niedozwolona. Read-write Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Określa, czy zmiana grotów strzałek jest niedozwolona. Read-write Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseShapeLock. Read-only [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Określa, czy kształt ma zachować proporcje podczas zmiany rozmiaru. Read-write Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Określa, czy bezpośrednia zmiana konturu tego kształtu jest niedozwolona. Read-write Boolean. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest niedozwolone. Read-write Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Określa, czy przemieszczanie tego kształtu jest niedozwolone. Read-write Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest niedozwolona. Read-write Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Określa, czy zaznaczanie tego kształtu jest niedozwolone. Read-write Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Określa, czy zmiana typu kształtu jest niedozwolona. Read-write Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest niedozwolona. Read-write Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Określa, czy edycja tekstu jest niedozwolona. Read-write Boolean. |
 
 ### Zobacz także
 
-* interface [IBaseShapeLock](../ibaseshapelock)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfejs [IBaseShapeLock](../ibaseshapelock)
+* przestrzeń nazw [Aspose.Slides](../../aspose.slides)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: InterruptionTokenSource
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili sumber InterruptionToken./interruptiontoken.
 type: docs
-weight: 7590
+weight: 7610
 url: /id/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource kelas
@@ -16,22 +16,22 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [InterruptionTokenSource](interruptiontokensource)() | Membuat [`InterruptionTokenSource`](../interruptiontokensource) baru. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | Mengembalikan true jika interupsi diminta, false sebaliknya. |
 | [Token](../../aspose.slides/interruptiontokensource/token) { get; } | Mengembalikan token baru yang terikat pada [`InterruptionTokenSource`](../interruptiontokensource) ini. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Inisialisasi permintaan untuk interupsi. |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Menginisialisasi permintaan interupsi. |
 
 ### Lihat Juga
 

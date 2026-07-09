@@ -1,14 +1,14 @@
 ---
 title: IRotation3D
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: チャートの3D回転を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャートの 3D 回転を表します。
 type: docs
-weight: 2180
+weight: 2200
 url: /ja/aspose.slides.charts/irotation3d/
 ---
 ## IRotation3D インターフェイス
 
-チャートの3D回転を表します。
+Represents 3D rotation of a chart.
 
 ```csharp
 public interface IRotation3D
@@ -18,14 +18,14 @@ public interface IRotation3D
 
 | 名前 | 説明 |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | チャート幅のパーセンテージとしての3Dチャートの深さを取得または設定します（20%から2000%の間）。読み取り/書き込み UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | チャート幅のパーセンテージとしての3Dチャートの高さを指定します（5%から500%の間）。読み取り/書き込み UInt16. |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3Dチャートの視野角（パースペクティブ）値を取得または設定します（0から100の間）。RightAngleAxes プロパティの値が true の場合は無視されます。読み取り/書き込み Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | チャートの軸がパースペクティブではなく直交しているかどうかを決定します。つまり、軸の角度がチャートの回転や仰角とは独立しているかを示します。読み取り/書き込み Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X 軸周りの回転角度（3Dチャートでは Y 方向）を取得または設定します（-90 から 90 度）。このプロパティは ECMA-376 の 21.2.2.157 rotX (X Rotation) 項目および PowerPoint 2007+ の "Y Rotation" オプションに対応しています。読み取り/書き込み SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y 軸周りの回転角度（3Dチャートでは X 方向）を取得または設定します（0 から 360 度）。このプロパティは ECMA-376 の 21.2.2.158 rotY (Y Rotation) 項目および PowerPoint 2007+ の "X Rotation" オプションに対応しています。読み取り/書き込み UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 3D チャートの深さをチャート幅のパーセンテージとして取得または設定します（20〜2000 パーセント）。読み取り/書き込み UInt16。 |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 3-D チャートの高さをチャート幅のパーセンテージとして指定します（5〜500 パーセント）。読み取り/書き込み UInt16。 |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3D チャートの透視値（視野角）を取得または設定します（0〜100）。RightAngleAxes プロパティの値が true の場合は無視されます。読み取り/書き込み Byte。 |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | チャート軸が透視で描画されるのではなく直角であるかどうかを決定します。言い換えれば、軸の角度がチャートの回転または標高から独立しているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X 軸（3D チャートでは Y 方向）周りの回転角度を取得または設定します（-90〜90 度）。このプロパティは ECMA-376 の 21.2.2.157 rotX（X Rotation）項目および PowerPoint 2007+ の「Y Rotation」オプションに対応しています。読み取り/書き込み SByte。 |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y 軸（3D チャートでは X 方向）周りの回転角度を取得または設定します（0〜360 度）。このプロパティは ECMA-376 の 21.2.2.158 rotY（Y Rotation）項目および PowerPoint 2007+ の「X Rotation」オプションに対応しています。読み取り/書き込み UInt16。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

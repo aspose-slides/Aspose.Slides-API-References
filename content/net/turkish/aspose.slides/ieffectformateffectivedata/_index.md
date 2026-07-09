@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes .NET için API Referansı
-description: Değiştirilemez nesne, etkili efekt biçimlendirme özelliklerini içerir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili efekt biçimlendirme özelliklerini içeren değişmez nesne.
 type: docs
-weight: 5730
+weight: 5750
 url: /tr/aspose.slides/ieffectformateffectivedata/
 ---
-## IEffectFormatEffectiveData arabirim
+## IEffectFormatEffectiveData arayüzü
 
-Etkili efekt biçimlendirme özelliklerini içeren değiştirilemez nesne.
+Değiştirilemez nesne, etkili efekt biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,10 +18,10 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Temel IEffectParamSource arabirimini almayı sağlar. Salt okunur [`IEffectParamSource`](../ieffectparamsource). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Temel IEffectParamSource arayüzünü almayı sağlar. Salt okunur [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Bulanık efekt. Salt okunur [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Dolgu bindirme efekti. Salt okunur [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Parıltı efekti. Salt okunur [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Dolgu kaplama efekti. Salt okunur [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Parlama efekti. Salt okunur [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | İç gölge. Salt okunur [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
 | [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldığında (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi) true döndürür. Salt okunur Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Dış gölge. Salt okunur [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
@@ -31,11 +31,11 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ### Açıklamalar
 
-Bu arabirim, [`IEffectFormat`](../ieffectformat) arabirimi ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`IEffectFormat`](../ieffectformat) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Bakınız
+### Ayrıca Bakınız
 
-* arabirim [IEffectParamSource](../ieffectparamsource)
+* arayüz [IEffectParamSource](../ieffectparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

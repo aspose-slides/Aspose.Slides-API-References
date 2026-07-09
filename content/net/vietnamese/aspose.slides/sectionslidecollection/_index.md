@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một bộ sưu tập các slide trong phần.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các slide trong phần.
 type: docs
 weight: 9770
 url: /vi/aspose.slides/sectionslidecollection/
 ---
 ## Lớp SectionSlideCollection
 
-Biểu diễn một bộ sưu tập các slide trong phần.
+Đại diện cho một tập hợp các slide trong phần.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -18,17 +18,17 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Lấy số lượng phần tử thực sự có trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISlide`](../islide). |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Lấy số phần tử thực sự chứa trong tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Lấy phần tử tại chỉ số được chỉ định. Chỉ đọc [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Trả về một gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Sao chép toàn bộ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Trả về một enumerator cho phép lặp qua bộ sưu tập. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Sao chép toàn bộ tập hợp vào mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
 
 ### Xem thêm
 

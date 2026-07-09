@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
 second_title: Aspose.Sildes için .NET API Referansı
-description: Geometri şekillerinin ayar değerini temsil eder. Bu değerler şekillerin biçimini etkiler.
+description: Geometri şekillerinin ayar değerini temsil eder. Bu değerler şekillerin formunu etkiler.
 type: docs
-weight: 70
+weight: 90
 url: /tr/aspose.slides/adjustvalue/
 ---
 ## AdjustValue sınıfı
 
-Geometri şeklinin ayar değerini temsil eder. Bu değerler şeklin biçimini etkiler.
+Geometri şeklinin ayar değerini temsil eder. Bu değerler şeklin şeklini etkiler.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -18,10 +18,10 @@ public class AdjustValue : IAdjustValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Değeri döndürür veya ayarlar, derece cinsinden bir açı olarak yorumlar. Okunabilir/Yazılabilir Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Bu ayar değerinin adını döndürür. Sadece-okunur String. |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Değeri döndürür veya ayarlar, derece cinsinden açı olarak yorumlar. Okunabilir/Yazılabilir Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Bu ayar değerinin adını döndürür. Salt-okunur String. |
 | [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Ayar değerini olduğu gibi döndürür veya ayarlar. Okunabilir/Yazılabilir Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Şekil ayarının türünü döndürür. Sadece-okunur [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Şekil ayarının türünü döndürür. Salt-okunur [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Ayrıca Bakınız
 

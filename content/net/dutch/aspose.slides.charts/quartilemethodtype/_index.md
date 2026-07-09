@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Retourneert type van kwartielmethode
+description: Retourneert het type van de kwartielmethode
 type: docs
 weight: 2390
 url: /nl/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType enumeratie
 
-Retourneert type van kwartielmethode
+Retourneert het type van de kwartielmethode
 
 ```csharp
 public enum QuartileMethodType
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Exclusive | `0` | Stelt exclusieve kwartielmethode voor. |
-| Inclusive | `1` | Stelt inclusieve kwartielmethode voor. |
+| Exclusive | `0` | Geeft de exclusieve kwartielmethode weer. |
+| Inclusive | `1` | Geeft de inclusieve kwartielmethode weer. |
 
 ### Zie ook
 

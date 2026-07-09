@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Aspose.Slides için .NET API Referansı
-description: İç veya dış yön geçiş tiplerini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: İç veya dış yön geçiş türlerini temsil eder.
 type: docs
-weight: 10350
+weight: 10370
 url: /tr/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumerasyonu
 
-Geçiş yönü iç veya dış yön tiplerini temsil eder.
+İç ya da dış yön geçiş türlerini temsil eder.
 
 ```csharp
 public enum TransitionInOutDirectionType
@@ -21,7 +21,7 @@ public enum TransitionInOutDirectionType
 | In | `0` |  |
 | Out | `1` |  |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

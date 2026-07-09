@@ -3,10 +3,10 @@ title: TabCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sekmelerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 10820
+weight: 10840
 url: /tr/aspose.slides/tabcollection/
 ---
-## TabCollection sınıf
+## TabCollection sınıfı
 
 Sekmelerin bir koleksiyonunu temsil eder.
 
@@ -19,11 +19,11 @@ public sealed class TabCollection : ITabCollection
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/tabcollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -32,11 +32,11 @@ public sealed class TabCollection : ITabCollection
 | [Clear](../../aspose.slides/tabcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | İki TabsEx örneğinin eşit olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Bu nesne için bir hash kodu döndürür. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Koleksiyonda belirtilen indeksteki öğeyi kaldırır. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
+| override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Bu nesne için karma kodu döndürür. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ITabCollection](../itabcollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

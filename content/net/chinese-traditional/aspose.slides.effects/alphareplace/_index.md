@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 Alpha Replace 效果。效果的 alpha 不透明度值會被固定的 alpha 取代。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示 Alpha Replace 效果。效果的 alpha 不透明度值將被固定的 alpha 取代。
 type: docs
 weight: 2900
 url: /zh-hant/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace 類別
 
-代表 Alpha Replace 效果。效果的 alpha（不透明度）值會被固定的 alpha 取代。
+表示 Alpha Replace 效果。效果的 alpha（不透明度）值將被固定的 alpha 取代。
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -16,19 +16,19 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 判斷指定的 [`AlphaReplace`](../alphareplace) 是否等於目前的 [`AlphaReplace`](../alphareplace). |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 取得套用繼承的有效 Alpha Replace 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 作為特定型別的雜湊函式。 |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 確定指定的 [`AlphaReplace`](../alphareplace) 是否等於目前的 [`AlphaReplace`](../alphareplace)。 |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 取得套用繼承後的有效 Alpha Replace 效果資料。 |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 作為特定類型的雜湊函式。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [ImageTransformOperation](../imagetransformoperation)
 * 介面 [IAlphaReplace](../ialphareplace)

@@ -3,10 +3,10 @@ title: PathCommandType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik yol komutlarını temsil eder
 type: docs
-weight: 9300
+weight: 9320
 url: /tr/aspose.slides/pathcommandtype/
 ---
-## PathCommandType enum
+## PathCommandType enumerasyonu
 
 Grafik yol komutlarını temsil eder
 
@@ -19,11 +19,11 @@ public enum PathCommandType : byte
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Close | `0` | Geometri yolunu kapatır |
-| MoveTo | `1` | Geometri yolunun sonraki nokta konumunu ayarlar |
+| MoveTo | `1` | Geometri yolunun bir sonraki nokta konumunu ayarlar |
 | LineTo | `2` | Geometri yoluna bir çizgi ekler |
 | ArcTo | `3` | Belirtilen yayı geometri yoluna ekler. |
-| QuadBezierTo | `4` | Geometri yoluna ikinci dereceli Bezier eğrisi ekler |
-| CubicBezierTo | `5` | Geometri yoluna üçüncü dereceli Bezier eğrisi ekler |
+| QuadBezierTo | `4` | İkinci dereceden Bezier eğrisini geometri yoluna ekler |
+| CubicBezierTo | `5` | Kübik Bezier eğrisini geometri yoluna ekler |
 
 ### Ayrıca Bakınız
 

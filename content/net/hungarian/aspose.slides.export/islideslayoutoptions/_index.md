@@ -1,14 +1,14 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Aspose.Sildes .NET API referenciája
-description: A prezentáció elrendezési módját jelöli exportáláshoz.
+second_title: Aspose.Sildes .NET API referencia
+description: A prezentáció exportálásához használt elrendezési módot reprezentálja.
 type: docs
-weight: 4080
+weight: 4100
 url: /hu/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions interfész
 
-A prezentáció elrendezési módját jelöli exportáláshoz.
+A prezentáció exportáláshoz használt elrendezési módját reprezentálja.
 
 ```csharp
 public interface ISlidesLayoutOptions

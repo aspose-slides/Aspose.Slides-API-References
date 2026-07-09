@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen string veya double değerini temsil eder: 1) grafiğe ilişkin çalışma kitabının hücre(ler)inde, 2) doğrudan değer olarak.
+second_title: Aspose.Sildes için .NET API Referansı
+description: String veya double değeri temsil eder ve pptx sunum belgesinde iki şekilde depolanabilir: 1) grafiğe bağlı çalışma kitabının hücre/hücrelerinde 2) literal değer olarak.
 type: docs
-weight: 2210
+weight: 2230
 url: /tr/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue arayüzü
 
-Grafiğe ilişkin çalışma kitabındaki hücre/ hücrelerde veya doğrudan değer olarak pptx sunum belgesinde saklanabilecek string veya double değeri temsil eder.
+String veya double değeri temsil eder ve pptx sunum belgesinde iki şekilde depolanabilir: 1) grafiğe bağlı çalışma kitabının hücre/ hücrelerinde; 2) literal değer olarak.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,17 +18,17 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Temel ISingleCellChartValue arayüzünü almaya izin verir. Salt okunur [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType özelliği DataSourceType.DoubleLiterals olduğunda literal double değerini döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType özelliği DataSourceType.StringLiterals olduğunda literal string değerini döndürür veya ayarlar. Okunabilir/Yazılabilir String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Temel ISingleCellChartValue arayüzünü almayı sağlar. Salt okunur [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Literal double değerini döndürür veya ayarlar, eğer DataSourceType özelliği DataSourceType.DoubleLiterals ise. Okunur/yazılır Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Literal string değerini döndürür veya ayarlar, eğer DataSourceType özelliği DataSourceType.StringLiterals ise. Okunur/yazılır String. |
 
-## Yöntemler
+## Metodlar
 
 | Ad | Açıklama |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Değeri double’a dönüştürür. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [ISingleCellChartValue](../isinglecellchartvalue)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

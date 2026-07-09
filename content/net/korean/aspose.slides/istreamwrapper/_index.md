@@ -1,6 +1,6 @@
 ---
 title: IStreamWrapper
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: COM 인터페이스용 Aspose.IO.Stream 래퍼입니다.
 type: docs
 weight: 7130
@@ -22,8 +22,8 @@ public interface IStreamWrapper : IDisposable
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | 현재 스트림이 읽기를 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
 | [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | 현재 스트림이 탐색을 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | 현재 스트림이 쓰기를 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [Length](../../aspose.slides/istreamwrapper/length) { get; } | 스트림의 길이를 바이트 단위로 가져옵니다. 읽기 전용 Int64. |
-| [Position](../../aspose.slides/istreamwrapper/position) { get; } | 현재 스트림 내의 위치를 가져옵니다. 읽기 전용 Int64. |
+| [Length](../../aspose.slides/istreamwrapper/length) { get; } | 스트림의 길이(바이트)를 가져옵니다. 읽기 전용 Int64. |
+| [Position](../../aspose.slides/istreamwrapper/position) { get; } | 현재 스트림 내 위치를 가져옵니다. 읽기 전용 Int64. |
 | [Stream](../../aspose.slides/istreamwrapper/stream) { get; } | 스트림을 가져옵니다. 읽기 전용 Stream. |
 
 ## 메서드
@@ -31,12 +31,12 @@ public interface IStreamWrapper : IDisposable
 | 이름 | 설명 |
 | --- | --- |
 | [Close](../../aspose.slides/istreamwrapper/close)() | 현재 스트림을 닫고 모든 리소스를 해제합니다. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | 이 스트림의 모든 버퍼를 지우고 버퍼링된 데이터를 기본 장치에 기록합니다. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 현재 스트림에서 바이트 시퀀스를 읽고, 읽은 바이트 수만큼 스트림 내 위치를 앞으로 이동합니다. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 스트림에서 바이트 하나를 읽고 스트림 내 위치를 한 바이트 앞으로 이동합니다. 스트림 끝에 도달하면 -1을 반환합니다. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | 이 스트림의 모든 버퍼를 비우고 버퍼링된 데이터를 기본 장치에 기록하도록 합니다. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | 현재 스트림에서 바이트 시퀀스를 읽고, 읽은 바이트 수만큼 스트림 내 위치를 앞당깁니다. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | 스트림에서 바이트를 읽고 스트림 내 위치를 한 바이트 앞으로 이동시키며, 스트림 끝에 도달하면 -1을 반환합니다. |
 | [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | 현재 스트림 내 위치를 설정합니다. |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 현재 스트림에 바이트 시퀀스를 쓰고, 쓰여진 바이트 수만큼 현재 스트림 내 위치를 앞으로 이동합니다. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 스트림의 현재 위치에 바이트를 쓰고 스트림 내 위치를 한 바이트 앞으로 이동합니다. |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | 현재 스트림에 바이트 시퀀스를 기록하고, 기록된 바이트 수만큼 현재 위치를 앞당깁니다. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | 스트림의 현재 위치에 바이트를 기록하고 스트림 내 위치를 한 바이트 앞으로 이동시킵니다. |
 
 ### 참고
 

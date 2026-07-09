@@ -1,20 +1,20 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bu sınıf IBitmapWrapper başlatmaya olanak tanır.
+second_title: Aspose.Slides için .NET API Referansı
+description: Bu sınıf IBitmapWrapper'ı başlatmaya olanak tanır.
 type: docs
-weight: 7430
+weight: 7450
 url: /tr/aspose.slides/imagewrapperfactory/
 ---
 ## ImageWrapperFactory sınıfı
 
-Bu sınıf IBitmapWrapper başlatmaya olanak tanır.
+Bu sınıf IBitmapWrapper'ı başlatmaya olanak tanır.
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
 ```
 
-## Yapıcılar
+## Kurucular
 
 | Ad | Açıklama |
 | --- | --- |
@@ -24,11 +24,11 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görüntüden yeni bir ImageWrapper sınıfı örneği başlatır. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Belirtilen veri akışından yeni bir BitmapWrapper sınıfı örneği başlatır. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Belirtilen dosyadan yeni bir BitmapWrapper sınıfı örneği başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Belirtilen mevcut görüntüden ImageWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Belirtilen veri akışından BitmapWrapper sınıfının yeni bir örneğini başlatır. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Belirtilen dosyadan BitmapWrapper sınıfının yeni bir örneğini başlatır. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IImageWrapperFactory](../iimagewrapperfactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

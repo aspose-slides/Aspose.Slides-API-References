@@ -1,27 +1,27 @@
 ---
 title: ITemplateEngine
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक टेम्प्लेट इंजन को दर्शाता है जो टेम्प्लेट और डेटा जोड़ी को परिणामी आउटपुट में परिवर्तित करता है, आमतौर पर HTML।
+description: एक टेम्प्लेट इंजन का प्रतिनिधित्व करता है जो टेम्प्लेट और डेटा युग्म को परिणामी आउटपुट, आमतौर पर HTML, में परिवर्तित करता है।
 type: docs
 weight: 4620
 url: /hi/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine इंटरफ़ेस
 
-एक टेम्प्लेट इंजन का प्रतिनिधित्व करता है जो टेम्प्लेट और डेटा जोड़ी को परिणामी आउटपुट (आमतौर पर HTML) में बदलता है।
+एक टेम्प्लेट इंजन का प्रतिनिधित्व करता है जो टेम्प्लेट और डेटा युग्म को परिणामी आउटपुट (आमतौर पर HTML) में परिवर्तित करता है।
 
 ```csharp
 public interface ITemplateEngine
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | टेम्प्लेट को टेम्प्लेट संग्रह में जोड़ता है। |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | दिए गए कुंजी और मॉडल ऑब्जेक्ट के साथ टेम्प्लेट को आउटपुट में बदलता है। |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | दिए गए कुंजी और मॉडल ऑब्जेक्ट के साथ टेम्प्लेट को आउटपुट में परिवर्तित करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * असेंबली [Aspose.Slides](../../)

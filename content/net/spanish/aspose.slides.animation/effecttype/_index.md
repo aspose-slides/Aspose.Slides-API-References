@@ -1,12 +1,11 @@
 ---
 title: EffectType
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el tipo de un efecto de animación.
 type: docs
-weight: 280
+weight: 360
 url: /es/aspose.slides.animation/effecttype/
 ---
-
 ## Enumeración EffectType
 
 Representa el tipo de un efecto de animación.
@@ -19,18 +18,18 @@ public enum EffectType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Appear | `0` | Efecto de aparición. Clase **Entrance** o **Exit**. |
+| Appear | `0` | Efecto Appear. Clase **Entrance** o **Exit**. |
 | CurveUpDown | `1` | Efecto CurveUpDown. Clase **Entrance** o **Exit**. |
-| Ascend | `2` | Efecto de ascenso. Clase **Entrance** o **Exit**. |
-| FloatUp | `2` | Efecto de flotación con dirección hacia arriba. Este es el alias para el tipo Ascend. Clase **Entrance** o **Exit**. |
-| Blast | `3` | Efecto de explosión. Clase **Emphasis**. |
-| Blinds | `4` | Efecto de persianas. Clase **Entrance** o **Exit**. |
-| Blink | `5` | Efecto de parpadeo. Clase **Emphasis**. |
+| Ascend | `2` | Efecto Ascend. Clase **Entrance** o **Exit**. |
+| FloatUp | `2` | Efecto Float con dirección Arriba. Este es el alias del tipo Ascend. Clase **Entrance** o **Exit**. |
+| Blast | `3` | Efecto Blast. Clase **Emphasis**. |
+| Blinds | `4` | Efecto Blinds. Clase **Entrance** o **Exit**. |
+| Blink | `5` | Efecto Blink. Clase **Emphasis**. |
 | BoldFlash | `6` | Efecto BoldFlash. Clase **Emphasis**. |
 | BoldReveal | `7` | Efecto BoldReveal. Clase **Emphasis**. |
-| Boomerang | `8` | Efecto de boomerang. Clase **Entrance** o **Exit**. |
-| Bounce | `9` | Efecto de rebote. Clase **Entrance** o **Exit**. |
-| Box | `10` | Efecto de caja. Clase **Entrance** o **Exit**. |
+| Boomerang | `8` | Efecto Boomerang. Clase **Entrance** o **Exit**. |
+| Bounce | `9` | Efecto Bounce. Clase **Entrance** o **Exit**. |
+| Box | `10` | Efecto Box. Clase **Entrance** o **Exit**. |
 | BrushOnColor | `11` | Efecto BrushOnColor. Clase **Emphasis**. |
 | BrushOnUnderline | `12` | Efecto BrushOnUnderline. Clase **Emphasis**. |
 | CenterRevolve | `13` | Efecto CenterRevolve. Clase **Entrance** o **Exit**. |
@@ -40,41 +39,41 @@ public enum EffectType
 | ChangeFontSize | `17` | Efecto ChangeFontSize. Clase **Emphasis**. |
 | ChangeFontStyle | `18` | Efecto ChangeFontSize. Clase **Emphasis**. |
 | ChangeLineColor | `19` | Efecto ChangeLineColor. Clase **Emphasis**. |
-| Checkerboard | `20` | Efecto de tablero de ajedrez. Clase **Entrance** o **Exit**. |
+| Checkerboard | `20` | Efecto Checkerboard. Clase **Entrance** o **Exit**. |
 | Circle | `21` | Efecto ColorBlend. Clase **Entrance** o **Exit**. |
 | ColorBlend | `22` | Efecto BrushOnUnderline. Clase **Emphasis**. |
-| ColorTypewriter | `23` | Efecto de tablero de ajedrez. Clase **Entrance** o **Exit**. |
+| ColorTypewriter | `23` | Efecto Checkerboard. Clase **Entrance** o **Exit**. |
 | ColorWave | `24` | Efecto ColorWave. Clase **Emphasis**. |
 | ComplementaryColor | `25` | Efecto ComplementaryColor. Clase **Emphasis**. |
 | ComplementaryColor2 | `26` | Efecto ComplementaryColor2. Clase **Emphasis**. |
-| Compress | `27` | Efecto de compresión. Clase **Entrance** o **Exit**. |
+| Compress | `27` | Efecto Compress. Clase **Entrance** o **Exit**. |
 | ContrastingColor | `28` | Efecto ContrastingColor. Clase **Emphasis**. |
 | Crawl | `29` | Efecto Crawl. Clase **Entrance** o **Exit**. |
-| Credits | `30` | Efecto de créditos. Clase **Entrance** o **Exit**. |
-| Custom | `31` | Efecto personalizado. |
-| Darken | `32` | Efecto de oscurecimiento. Clase **Emphasis**. |
-| Desaturate | `33` | Efecto de desaturación. Clase **Emphasis**. |
-| Descend | `34` | Efecto de descenso. Clase **Entrance** o **Exit**. |
-| FloatDown | `34` | Efecto de flotación con dirección hacia abajo. Este es el alias para el tipo Descend. Clase **Entrance** o **Exit**. |
-| Diamond | `35` | Efecto de diamante. Clase **Entrance** o **Exit**. |
-| Dissolve | `36` | Efecto de disolución. Clase **Entrance** o **Exit**. |
-| EaseInOut | `37` | Efecto de disolución. Clase **Entrance** o **Exit**. |
-| Expand | `38` | Efecto de expansión. Clase **Entrance** o **Exit**. |
-| Fade | `39` | Efecto de desvanecimiento. Clase **Entrance** o **Exit**. |
+| Credits | `30` | Efecto Credits. Clase **Entrance** o **Exit**. |
+| Custom | `31` | Efecto Custom. |
+| Darken | `32` | Efecto Darken. Clase **Emphasis**. |
+| Desaturate | `33` | Efecto Desaturate. Clase **Emphasis**. |
+| Descend | `34` | Efecto Descend. Clase **Entrance** o **Exit**. |
+| FloatDown | `34` | Efecto Float con dirección Abajo. Este es el alias del tipo Descend. Clase **Entrance** o **Exit**. |
+| Diamond | `35` | Efecto Diamond. Clase **Entrance** o **Exit**. |
+| Dissolve | `36` | Efecto Dissolve. Clase **Entrance** o **Exit**. |
+| EaseInOut | `37` | Efecto Dissolve. Clase **Entrance** o **Exit**. |
+| Expand | `38` | Efecto Expand. Clase **Entrance** o **Exit**. |
+| Fade | `39` | Efecto Fade. Clase **Entrance** o **Exit**. |
 | FadedSwivel | `40` | Efecto FadedSwivel. Clase **Entrance** o **Exit**. |
 | FadedZoom | `41` | Efecto FadedZoom. Clase **Entrance** o **Exit**. |
 | FlashBulb | `42` | Efecto FlashBulb. Clase **Emphasis**. |
 | FlashOnce | `43` | Efecto FlashOnce. Clase **Entrance** o **Exit**. |
-| Flicker | `44` | Efecto de parpadeo. Clase **Emphasis**. |
-| Flip | `45` | Efecto de giro. Clase **Entrance** o **Exit**. |
-| Float | `46` | Efecto de flotación. Clase **Entrance** o **Exit**. |
-| Fly | `47` | Efecto de vuelo. Clase **Entrance** o **Exit**. |
-| Fold | `48` | Efecto de plegado. Clase **Entrance** o **Exit**. |
-| Glide | `49` | Efecto de deslizamiento. Clase **Entrance** o **Exit**. |
+| Flicker | `44` | Efecto Flicker. Clase **Emphasis**. |
+| Flip | `45` | Efecto Flip. Clase **Entrance** o **Exit**. |
+| Float | `46` | Efecto Float. Clase **Entrance** o **Exit**. |
+| Fly | `47` | Efecto Fly. Clase **Entrance** o **Exit**. |
+| Fold | `48` | Efecto Fold. Clase **Entrance** o **Exit**. |
+| Glide | `49` | Efecto Glide. Clase **Entrance** o **Exit**. |
 | GrowAndTurn | `50` | Efecto GrowAndTurn. Clase **Entrance** o **Exit**. |
 | GrowShrink | `51` | Efecto GrowShrink. Clase **Emphasis**. |
 | GrowWithColor | `52` | Efecto GrowWithColor. Clase **Emphasis**. |
-| Lighten | `53` | Efecto de aclarado. Clase **Emphasis**. |
+| Lighten | `53` | Efecto Lighten. Clase **Emphasis**. |
 | LightSpeed | `54` | Efecto LightSpeed. Clase **Entrance** o **Exit**. |
 | MediaPause | `55` | Efecto MediaPause. Clase **Media**. |
 | MediaPlay | `56` | Efecto MediaPlay. Clase **Media**. |
@@ -163,7 +162,7 @@ public enum EffectType
 | Swivel | `139` | Efecto Swivel. Clase **Entrance** o **Exit**. |
 | Teeter | `140` | Efecto Teeter. Clase **Emphasis**. |
 | Thread | `141` | Efecto Thread. Clase **Emphasis**. |
-| Transparency | `142` | Efecto de transparencia. Clase **Emphasis**. |
+| Transparency | `142` | Efecto Transparency. Clase **Emphasis**. |
 | Unfold | `143` | Efecto Unfold. Clase **Entrance** o **Exit**. |
 | VerticalGrow | `144` | Efecto VerticalGrow. Clase **Emphasis**. |
 | Wave | `145` | Efecto Wave. Clase **Emphasis**. |
@@ -177,9 +176,9 @@ public enum EffectType
 | OLEObjectEdit | `153` | Efecto OLEObjectEdit. Clase **OLEActionVerbs**. |
 | OLEObjectOpen | `154` | Efecto OLEObjectOpen. Clase **OLEActionVerbs**. |
 
-### Véase También
+### Ver también
 
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides.Animation](../../aspose.slides.animation)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

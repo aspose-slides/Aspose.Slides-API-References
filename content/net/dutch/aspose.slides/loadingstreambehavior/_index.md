@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Aspose.Sildes voor .NET API-referentie
-description: De Stream die aan een methode wordt doorgegeven, wordt beschouwd als een Binary Large Object (BLOB) zie IBlobManagementOptions./iblobmanagementoptions beschrijving. Waarden van deze enumeratie geven aan hoe de Stream behandeld moet worden wanneer deze aan de methode wordt doorgegeven. Afhankelijk van de eisen kunnen verschillende beslissingen worden genomen om het meest efficiënte gedrag te bieden.
+description: De Stream die aan een methode wordt doorgegeven wordt beschouwd als een Binary Large Object (BLOB) zie IBlobManagementOptions./iblobmanagementoptions beschrijving. De waarden van deze enumeratie geven aan hoe de Stream moet worden behandeld wanneer deze aan de methode wordt doorgegeven. Afhankelijk van de eisen kunnen verschillende beslissingen worden genomen om het meest efficiënte gedrag te bieden.
 type: docs
 weight: 7850
 url: /nl/aspose.slides/loadingstreambehavior/
 ---
 ## LoadingStreamBehavior enumeratie
 
-De Stream die aan een methode wordt doorgegeven, wordt beschouwd als een Binary Large Object (BLOB) (zie [`IBlobManagementOptions`](../iblobmanagementoptions) beschrijving). Waarden van deze enumeratie geven aan hoe de Stream behandeld moet worden wanneer deze aan de methode wordt doorgegeven. Afhankelijk van de eisen kunnen verschillende beslissingen worden genomen om het meest efficiënte gedrag te bieden.
+De Stream die aan een methode wordt doorgegeven wordt beschouwd als een Binary Large Object (BLOB) (zie [`IBlobManagementOptions`](../iblobmanagementoptions) beschrijving). De waarden van deze enumeratie geven aan hoe de Stream moet worden behandeld wanneer deze aan de methode wordt doorgegeven. Afhankelijk van de eisen kunnen verschillende beslissingen worden genomen om het meest efficiënte gedrag te bieden.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | De stream wordt tot het einde gelezen en daarna vrijgegeven – d.w.z. er wordt gegarandeerd dat deze stream in de toekomst niet meer door [`IPresentation`](../ipresentation) instantie wordt gebruikt. Hij kan worden gesloten door de clientcode of op een andere manier worden gebruikt. |
-| KeepLocked | `1` | De stream wordt vergrendeld binnen het [`IPresentation`](../ipresentation) object, d.w.z. het eigendom van de stream wordt overgedragen. Het [`IPresentation`](../ipresentation) object is verantwoordelijk om de stream correct te vrijgeven wanneer dit object zelf wordt vrijgegeven. Dit gedrag is uiterst nuttig wanneer u een groot BLOB-bestand moet serialiseren (zoals een grote video of audio – zie [`IBlobManagementOptions`](../iblobmanagementoptions) beschrijving) en u wilt voorkomen dat dit bestand in het geheugen wordt geladen of andere prestatieproblemen ontstaan. U kunt eenvoudig de FileStream voor dit bestand openen en doorgeven aan een methode, waarbij u KeepLocked LoadingStreamBehavior kiest. |
+| ReadStreamAndRelease | `0` | De stream wordt tot het einde gelezen en daarna vrijgegeven - d.w.z. er wordt gegarandeerd dat deze stream in de toekomst niet meer door de [`IPresentation`](../ipresentation) instantie zal worden gebruikt. Hij kan door de clientcode worden gesloten of op een andere manier worden gebruikt. |
+| KeepLocked | `1` | De stream wordt vergrendeld binnen het [`IPresentation`](../ipresentation) object, d.w.z. het eigendom van de stream wordt overgedragen. Het [`IPresentation`](../ipresentation) object is verantwoordelijk om de stream correct te verwijderen wanneer dit object zelf wordt verwijderd. Dit gedrag is uiterst nuttig wanneer u een groot BLOB-bestand moet serialiseren (zoals een grote video of audio – zie [`IBlobManagementOptions`](../iblobmanagementoptions) beschrijving) en wilt voorkomen dat dit bestand in het geheugen wordt geladen of andere prestatieproblemen ontstaan. U kunt gewoon de FileStream voor dit bestand openen en doorgeven aan een methode, waarbij u KeepLocked LoadingStreamBehavior kiest. |
 
 ### Zie ook
 

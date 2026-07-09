@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: TrendlineEx のコレクションを表します
 type: docs
-weight: 2230
+weight: 2250
 url: /ja/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection インターフェイス
 
-Represents a collection of TrendlineEx
+TrendlineEx のコレクションを表します。
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -18,7 +18,7 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | ベースの IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 基本的な IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ITrendline`](../itrendline)。 |
 
@@ -26,10 +26,10 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | コレクションの末尾に新しい Trendline を追加し、返します。 |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 新しい Trendline をコレクションの末尾に追加し、返します。 |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | 指定された値を削除します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ITrendline](../itrendline)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

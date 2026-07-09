@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: シリーズのグループを表します。
 type: docs
-weight: 1440
+weight: 1460
 url: /ja/aspose.slides.charts/chartseriesgroup/
 ---
 ## ChartSeriesGroup クラス
@@ -19,31 +19,32 @@ public class ChartSeriesGroup : IChartSeriesGroup
 | 名前 | 説明 |
 | --- | --- |
 | [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | バブルチャート上でバブルサイズの値がどのように表されるかを指定します。読み取り/書き込み [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype)。 |
-| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | バブルチャートのスケール係数を指定します（デフォルトサイズの 0% から 300% の範囲で指定可能）。読み取り/書き込み Int32。 |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | バブルチャートのスケール係数を指定します（既定サイズの 0〜300 パーセントの範囲）。読み取り/書き込み Int32。 |
 | [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
-| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | ドーナツチャートの穴のサイズを指定します（プロット領域のサイズの 0% から 90% の範囲で指定可能）。読み取り/書き込み Byte。 |
-| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | 最初の円グラフまたはドーナツチャートのスライスの角度を取得または設定します（上から時計回り、0 から 360 度）。読み取り/書き込み UInt16。 |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | 3D チャートのデータ系列間の距離を、マーカー幅のパーセンテージで取得または設定します。読み取り/書き込み UInt16。 |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | 棒または列クラスター間の間隔を、棒または列幅のパーセンテージで指定します。読み取り/書き込み UInt16。 |
-| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | チャートに系列ラインがある場合は true。積み上げ棒グラフおよび OfPie グラフに適用されます。読み取り/書き込み Boolean。 |
-| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | HiLowLines の書式を指定します。HiLowLines は HiLowClose、OpenHiLowClose、VolumeHiLowClose、VolumeOpenHiLowClose の各チャートタイプで適用されます。 |
-| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | 系列内の各データ マーカーに異なる色が使用されることを指定します。読み取り/書き込み Boolean。 |
-| [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | 2-D チャートで棒や列がどの程度重なるかをパーセンテージで指定します（-100% から 100%）。- -100%: 最大間隔（棒が完全に分離）。- 0%: 棒が重なりも間隔もなく隣接して配置。- 100%: 最大重なり（棒が完全に重なる）。このプロパティは読み取り/書き込み SByte です。 |
-| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | pie-of-pie または bar-of-pie チャートで、どのデータ ポイントが第 2 の円または棒に属するかを決定する方法を指定します。読み取り/書き込み [`PieSplitType`](../piesplittype)。 |
-| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | カスタム分割が設定された pie-of-pie または bar-of-pie チャートのカスタム分割情報です。第 2 の円または棒に描画されるデータ ポイントを含みます。読み取り専用 [`PieSplitCustomPointCollection`](../piesplitcustompointcollection)。 |
-| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | pie-of-pie または bar-of-pie チャートで、第 2 の円または棒に属するデータ ポイントを決定するために使用される値を指定します。PieSplitBy プロパティと組み合わせて使用されます。読み取り/書き込み Double。 |
-| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | このグループの系列が二次軸にプロットされているかどうかを示します。読み取り専用 Boolean。 |
-| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | pie-of-pie または bar-of-pie チャートの第 2 の円または棒のサイズを、第 1 の円のサイズのパーセンテージで指定します（5% から 200% の範囲で指定可能）。読み取り/書き込み UInt16。 |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | ドーナツチャートの中心の穴のサイズを指定します（プロット領域のサイズの 0〜90 パーセントの範囲）。読み取り/書き込み Byte。 |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | 最初の円グラフまたはドーナツチャートのスライスの角度を取得または設定します（上方向から時計回りに、0〜360 度）。読み取り/書き込み UInt16。 |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | 3D チャートのデータ系列間の距離を、マーカー幅のパーセンテージとして取得または設定します。読み取り/書き込み UInt16。 |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | 棒または列クラスター間のスペースを、棒または列の幅のパーセンテージで指定します。読み取り/書き込み UInt16。 |
+| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | チャートにシリーズラインがある場合は True。積み上げ棒グラフおよび OfPie チャートに適用されます。読み取り/書き込み Boolean。 |
+| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | HiLowLines の形式を指定します。HiLowLines は HiLowClose、OpenHiLowClose、VolumeHiLowClose、VolumeOpenHiLowClose の各チャートタイプで適用されます。 |
+| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | 系列内の各データマーカーが異なる色になるように指定します。読み取り/書き込み Boolean。 |
+| [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | 指定したインデックスの要素を取得します。 |
+| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | 2D チャートで棒と列がどの程度重なるかをパーセンテージで指定します（-100%〜100%）。- -100%: 最大間隔（棒が完全に分離）。- 0%: 重なりや間隔なしで隣り合わせに配置。- 100%: 最大重なり（棒が完全に重なる）。このプロパティは読み取り/書き込み SByte です。 |
+| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定する方法を指定します。読み取り/書き込み [`PieSplitType`](../piesplittype)。 |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | カスタム スプリットが設定された pie-of-pie または bar-of-pie チャートのカスタム分割情報。pie-of-pie または bar-of-pie チャートの第2の円または棒に描画されるデータポイントを含みます。読み取り専用 [`PieSplitCustomPointCollection`](../piesplitcustompointcollection)。 |
+| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | pie-of-pie または bar-of-pie チャートで、どのデータポイントが第2の円または棒に属するかを決定するために使用される値を指定します。PieSplitBy プロパティと併用されます。読み取り/書き込み Double。 |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | このグループの系列がセカンダリ軸にプロットされるかどうかを示します。読み取り専用 Boolean。 |
+| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | pie-of-pie または bar-of-pie チャートの第2の円または棒のサイズを、最初の円のサイズのパーセンテージで指定します（5〜200 パーセントの範囲）。読み取り/書き込み UInt16。 |
 | [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | 系列のコレクションを返します。読み取り専用 [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection)。 |
-| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | この系列グループの型を返します。読み取り専用 [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup)。 |
-| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | Line または Stock チャートの上/下バーへのアクセスを提供します。読み取り専用 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
+| [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | このシリーズグループの型を返します。読み取り専用 [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup)。 |
+| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | ラインチャートまたは株価チャートの上下バーへのアクセスを提供します。読み取り専用 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
 
 ### 備考
 
-1) ChartSeriesGroupCollection クラスおよび CombinableSeriesTypesGroup 列挙体の概要と備考を参照してください。 2) 系列のグループには、グループ内の各系列で共通のいくつかの系列プロパティが含まれます（「系列グループ プロパティ」）。 ChartSeriesGroup クラスの「系列グループ プロパティ」は読み取り/書き込みです。「系列グループ プロパティ」の各項目は、ChartSeries クラスで読み取り専用の投影を持つことができます。
+1) ChartSeriesGroupCollection クラスおよび CombinableSeriesTypesGroup 列挙体の概要と備考を参照してください。  
+2) 系列のグループには、グループ内の各系列に共通するいくつかのシリーズプロパティ（「series group properties」）が含まれます。ChartSeriesGroup クラスの「series group properties」は読み取り/書き込みです。「series group properties」の各項目は ChartSeries クラスで読み取り専用のプロジェクションを持つことがあります。
 
-### 関連項目
+### 参照
 
 * インターフェイス [IChartSeriesGroup](../ichartseriesgroup)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: Glitter स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10050
 url: /hi/aspose.slides.slideshow/glittertransition/
 ---
-## GlitterTransition क्लास
+## GlitterTransition वर्ग
 
-Glitter स्लाइड ट्रांज़िशन प्रभाव।
+Glitter स्लाइड ट्रांज़िशन इफ़ेक्ट।
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -18,19 +18,19 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`TransitionSideDirectionType`](../transitionsidedirectiontype)। |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | ट्रांज़िशन के दौरान उपयोग किए गए दृश्य तत्वों का आकार निर्दिष्ट करता है। पढ़ें/लिखें [`TransitionPattern`](../transitionpattern)। |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`TransitionSideDirectionType`](../transitionsidedirectiontype)। |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | ट्रांज़िशन के दौरान उपयोग किए जाने वाले दृश्यों के आकार को निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`TransitionPattern`](../transitionpattern)। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | यह निर्धारित करता है कि क्या दो TransitionValueBase इंस्टेंस बराबर हैं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंस समान हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
-### संबंधित देखें
+### देखें
 
-* क्लास [TransitionValueBase](../transitionvaluebase)
+* वर्ग [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IGlitterTransition](../iglittertransition)
 * नेमस्पेस [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: TextSearchOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar alternativ som kan användas för att söka efter text i en Presentation, Slide eller TextFrame.
+description: Representerar alternativ som kan användas för att söka efter text i en Presentation Slide eller TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /sv/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions klass
@@ -14,7 +14,7 @@ Representerar alternativ som kan användas för att söka efter text i en Presen
 public class TextSearchOptions : ITextSearchOptions
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,9 +24,9 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Ange true för att använda skiftlägeskänslig sökning, false annars. Läs/skriv Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Ange `true` för att inkludera text som finns i slide-anteckningar ([`NotesSlide`](../notesslide)) vid textsökning, ersättning eller markeringsoperationer. Standardvärdet är `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Ange true för att bara matcha hela ord, false annars. Läs/skriv Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Ange true för att använda skiftlägeskänslig sökning, false - annars. Läs/skriv Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Ange `true` för att inkludera text som finns i bildanteckningar ([`NotesSlide`](../notesslide)) vid textsökning, ersättning eller markeringsoperationer. Standardvärdet är `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Ange true för att endast matcha hela ord, false - annars. Läs/skriv Boolean. |
 
 ### Se även
 

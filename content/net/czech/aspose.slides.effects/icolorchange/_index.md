@@ -1,9 +1,9 @@
 ---
 title: IColorChange
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
+description: Representuje efekt změny barvy. Instance FromColor jsou nahrazeny instancemi ToColor.
 type: docs
-weight: 3200
+weight: 3220
 url: /cs/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange rozhraní
@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Barva, která bude nahrazena. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Barva, která nahradí. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Barva, která bude nahrazena. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Barva, která nahradí. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Viz také
 

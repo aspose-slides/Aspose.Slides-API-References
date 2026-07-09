@@ -1,14 +1,14 @@
 ---
 title: IPPImage
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunumda bir resmi temsil eder.
+description: Bir sunumdaki görüntüyü temsil eder.
 type: docs
-weight: 6530
+weight: 6550
 url: /tr/aspose.slides/ippimage/
 ---
 ## IPPImage arayüzü
 
-Bir sunumda bir resmi temsil eder.
+Bir sunumdaki görüntüyü temsil eder.
 
 ```csharp
 public interface IPPImage
@@ -18,22 +18,22 @@ public interface IPPImage
 
 | Ad | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Bir resmin verisinin kopyasını döndürür. Salt okunur Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Bir resmin MIME tipini, [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt okunur String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Bir resmin yüksekliğini döndürür. Salt okunur Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | Bir resmin kopyasını döndürür. Salt okunur [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage nesnesini [`ISvgImage`](../isvgimage) döndürür veya ayarlar. |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Bir resmin genişliğini döndürür. Salt okunur Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Bir resmin X ofsetini döndürür. Salt okunur Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Bir resmin Y ofsetini döndürür. Salt okunur Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Bir görüntünün verisinin kopyasını döndürür. Salt-okunur Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Bir görüntünün MIME tipini, [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt-okunur String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Bir görüntünün yüksekliğini döndürür. Salt-okunur Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Bir görüntünün kopyasını döndürür. Salt-okunur [`Image`](./image). |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage nesnesini döndürür veya ayarlar [`ISvgImage`](../isvgimage) |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Bir görüntünün genişliğini döndürür. Salt-okunur Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Bir görüntünün X ofsetini döndürür. Salt-okunur Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Bir görüntünün Y ofsetini döndürür. Salt-okunur Int32. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Resim verisini değiştirir. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Resmi değiştirir. |
-| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | Resmi değiştirir. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Görüntü verisini değiştirir. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Görüntüyü değiştirir. |
+| [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | Görüntüyü değiştirir. |
 
 ### Ayrıca Bakınız
 

@@ -1,12 +1,12 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes per la documentazione API di .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Costanti che definiscono come viene riprodotto un video.
 type: docs
-weight: 11710
+weight: 11730
 url: /it/aspose.slides/videoplaymodepreset/
 ---
-## Enumerazione VideoPlayModePreset
+## enumerazione VideoPlayModePreset
 
 Costanti che definiscono come viene riprodotto un video.
 
@@ -16,7 +16,7 @@ public enum VideoPlayModePreset
 
 ### Valori
 
-| Name | Value | Description |
+| Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | Riproduci automaticamente. |

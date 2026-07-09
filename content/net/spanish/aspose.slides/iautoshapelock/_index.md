@@ -1,15 +1,14 @@
 ---
 title: IAutoShapeLock
-second_title: Aspose.Sildes for .NET API Reference
-description: Determina qué operaciones están deshabilitadas en el AutoshapeEx padre.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Determina qué operaciones están deshabilitadas en el AutoshapeEx principal.
 type: docs
-weight: 5050
+weight: 5250
 url: /es/aspose.slides/iautoshapelock/
 ---
+## IAutoShapeLock interfaz
 
-## Interfaz IAutoShapeLock
-
-Determina qué operaciones están deshabilitadas en el AutoshapeEx padre.
+Determina qué operaciones están deshabilitadas en el AutoshapeEx principal.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -19,23 +18,23 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina si se prohíbe cambiar los valores de ajuste. Booleano de lectura y escritura. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina si se prohíbe cambiar las cabezas de flecha. Booleano de lectura y escritura. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Permite obtener la interfaz base IBaseShapeLock. Solo de lectura [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina si una forma debe preservar la relación de aspecto al cambiar de tamaño. Booleano de lectura y escritura. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina si se prohíbe un cambio directo del contorno de esta forma. Booleano de lectura y escritura. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina si se prohíbe agregar esta forma a un grupo. Booleano de lectura y escritura. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina si se prohíbe mover esta forma. Booleano de lectura y escritura. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina si se prohíbe cambiar el ángulo de rotación de esta forma. Booleano de lectura y escritura. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina si se prohíbe seleccionar esta forma. Booleano de lectura y escritura. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina si se prohíbe cambiar el tipo de forma. Booleano de lectura y escritura. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina si se prohíbe cambiar el tamaño de esta forma. Booleano de lectura y escritura. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina si se prohíbe editar el texto. Booleano de lectura y escritura. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Determina si cambiar los valores de ajuste está prohibido. Booleano de lectura-escritura. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Determina si cambiar las puntas de flecha está prohibido. Booleano de lectura-escritura. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Permite obtener la interfaz base IBaseShapeLock. Solo lectura [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Determina si una forma debe preservar la proporción al redimensionar. Booleano de lectura-escritura. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Determina si cambiar directamente el contorno de esta forma está prohibido. Booleano de lectura-escritura. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Determina si agregar esta forma a un grupo está prohibido. Booleano de lectura-escritura. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Determina si mover esta forma está prohibido. Booleano de lectura-escritura. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Determina si cambiar el ángulo de rotación de esta forma está prohibido. Booleano de lectura-escritura. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Determina si seleccionar esta forma está prohibido. Booleano de lectura-escritura. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Determina si cambiar el tipo de una forma está prohibido. Booleano de lectura-escritura. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Determina si redimensionar esta forma está prohibido. Booleano de lectura-escritura. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Determina si editar el texto está prohibido. Booleano de lectura-escritura. |
 
-### Véase También
+### Ver también
 
-* interfaz [IBaseShapeLock](../ibaseshapelock)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* interfaz [IBaseShapeLock](../ibaseshapelock)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

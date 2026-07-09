@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett ytterligare färgschema som kan tilldelas en bild.
+description: Representerar ett extra färgschema som kan tilldelas en bild.
 type: docs
-weight: 11080
+weight: 11100
 url: /sv/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme klass
 
-Representerar ett ytterligare färgschema som kan tilldelas en bild.
+Representerar ett extra färgschema som kan tilldelas en bild.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme

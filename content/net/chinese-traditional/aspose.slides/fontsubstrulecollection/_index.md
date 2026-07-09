@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示字體置換的集合。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示字型替代的集合。
 type: docs
 weight: 4900
 url: /zh-hant/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection 類別
 
-表示字體置換的集合。
+表示字型替代的集合。
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -16,27 +16,27 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | 預設建構函式。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 取得集合實際包含的元素數量。只讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。只讀 Boolean。 |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 返回指示集合存取是否已同步（執行緒安全）的值。唯讀 Boolean。 |
 | [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | 取得指定索引處的元素。 |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 傳回同步根。只讀 Object。 |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 返回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 將新的字體置換規則新增到集合中。 |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 將集合中所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除第一次出現的特定物件。 |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 將新字型替代規則新增至集合 |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除首次出現的特定物件。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示用於文字繪製的外部字型的處理方式。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示處理用於文字繪製的外部字型的方式。
 type: docs
 weight: 4500
 url: /zh-hant/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling 列舉
 
-表示處理用於文字繪製的外部字型的方式。
+代表處理用於文字繪製之外部字型的方式。
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,11 +18,11 @@ public enum SvgExternalFontsHandling
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | 將指向獨立字型檔案的連結加入 SVG 檔案的 style 區段。 |
-| Embed | `1` | 直接將字型資料保存到 SVG 檔案中。使用此選項前請檢查所有外部字型的授權協議。 |
-| Vectorize | `2` | 將使用外部字型的所有文字保存為圖形。 |
+| AddLinksToFontFiles | `0` | 在 SVG 檔案的 style 區段加入指向各個字型檔案的連結。 |
+| Embed | `1` | 將字型資料直接儲存至 SVG 檔案。使用此選項前請檢查所有外部字型的授權協議。 |
+| Vectorize | `2` | 將使用外部字型的所有文字儲存為圖形。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

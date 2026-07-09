@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đối tượng bất biến chứa các thuộc tính định dạng đường hiệu quả.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến chứa các thuộc tính định dạng dòng có hiệu lực.
 type: docs
 weight: 6320
 url: /vi/aspose.slides/ilineformateffectivedata/
 ---
-## Giao diện ILineFormatEffectiveData
+## ILineFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính định dạng đường hiệu quả.
+Đối tượng bất biến chứa các thuộc tính định dạng dòng có hiệu lực.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,33 +18,33 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Tên | Mô tả |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Trả về căn chỉnh đường. Chỉ đọc [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Cho phép lấy giao diện ILineParamSource cơ sở. Chỉ đọc [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Trả về độ dài mũi tên ở đầu đường. Chỉ đọc [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Trả về kiểu mũi tên ở đầu đường. Chỉ đọc [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Trả về độ rộng mũi tên ở đầu đường. Chỉ đọc [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Trả về kiểu đầu mút đường. Chỉ đọc [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Trả về mẫu gạch tùy chỉnh. Chỉ đọc Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Trả về kiểu gạch đường. Chỉ đọc [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Trả về độ dài mũi tên ở cuối đường. Chỉ đọc [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Trả về kiểu mũi tên ở cuối đường. Chỉ đọc [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Trả về độ rộng mũi tên ở cuối đường. Chỉ đọc [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Trả về định dạng tô màu của đường. Chỉ đọc [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Trả về việc căn chỉnh dòng. Chỉ đọc [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Cho phép lấy giao diện ILineParamSource cơ bản. Chỉ đọc [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Trả về độ dài mũi tên ở đầu dòng. Chỉ đọc [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Trả về kiểu mũi tên ở đầu dòng. Chỉ đọc [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Trả về độ rộng mũi tên ở đầu dòng. Chỉ đọc [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Trả về kiểu đầu mút dòng. Chỉ đọc [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Trả về mẫu gạch chấm tùy chỉnh. Chỉ đọc Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Trả về kiểu gạch chấm của dòng. Chỉ đọc [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Trả về độ dài mũi tên ở cuối dòng. Chỉ đọc [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Trả về kiểu mũi tên ở cuối dòng. Chỉ đọc [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Trả về độ rộng mũi tên ở cuối dòng. Chỉ đọc [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Trả về định dạng tô màu của dòng. Chỉ đọc [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Trả về kiểu nối các đoạn đường. Chỉ đọc [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Trả về giới hạn mối góc của đường. Chỉ đọc Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Trả về định dạng phác thảo của đường. Chỉ đọc [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Trả về kiểu đường. Chỉ đọc [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Trả về độ rộng của đường. Chỉ đọc Double. |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Trả về giới hạn chéo cắt của dòng. Chỉ đọc Single. |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Trả về định dạng phác thảo của dòng. Chỉ đọc [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Trả về kiểu dòng. Chỉ đọc [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Trả về độ rộng của dòng. Chỉ đọc Double. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Xác định xem hai thể hiện ILineFormatEffectiveData có bằng nhau không. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Xác định liệu hai thể hiện ILineFormatEffectiveData có bằng nhau không. |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`ILineFormat`](../ilineformat) để trả về các giá trị định dạng hiệu quả được áp dụng kế thừa.
+Giao diện này được sử dụng cùng với giao diện [`ILineFormat`](../ilineformat) để trả về các giá trị định dạng có hiệu lực với tính kế thừa được áp dụng.
 
 ### Xem thêm
 

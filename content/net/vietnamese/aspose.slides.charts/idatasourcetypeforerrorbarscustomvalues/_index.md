@@ -1,14 +1,14 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Xác định các loại giá trị trong danh sách thuộc tính ChartDataPoint.ErrorBarsCustomValues
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định các kiểu giá trị trong danh sách thuộc tính ChartDataPoint.ErrorBarsCustomValues
 type: docs
 weight: 2050
 url: /vi/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues giao diện
 
-Xác định các loại giá trị trong danh sách thuộc tính ChartDataPoint.ErrorBarsCustomValues
+Xác định các kiểu giá trị trong danh sách thuộc tính ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public interface IDataSourceTypeForErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | Tên | Mô tả |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Xác định xem thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có phải là thực tế trong đối tượng thuộc tính XMinus của các điểm dữ liệu cho các giá trị tùy chỉnh của thanh lỗi hay không. Nói cách khác, nó xác định loại giá trị của thuộc tính ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Xác định xem thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có phải là thực tế trong đối tượng thuộc tính XPlus của các điểm dữ liệu cho các giá trị tùy chỉnh của thanh lỗi hay không. Nói cách khác, nó xác định loại giá trị của thuộc tính ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Xác định xem thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có phải là thực tế trong đối tượng thuộc tính YMinus của các điểm dữ liệu cho các giá trị tùy chỉnh của thanh lỗi hay không. Nói cách khác, nó xác định loại giá trị của thuộc tính ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Xác định xem thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có phải là thực tế trong đối tượng thuộc tính YPlus của các điểm dữ liệu cho các giá trị tùy chỉnh của thanh lỗi hay không. Nói cách khác, nó xác định loại giá trị của thuộc tính ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Xác định liệu thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có thực trong đối tượng thuộc tính XMinus của các điểm dữ liệu cho các giá trị tùy chỉnh của error bars hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Xác định liệu thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có thực trong đối tượng thuộc tính XPlus của các điểm dữ liệu cho các giá trị tùy chỉnh của error bars hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Xác định liệu thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có thực trong đối tượng thuộc tính YMinus của các điểm dữ liệu cho các giá trị tùy chỉnh của error bars hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Xác định liệu thuộc tính AsCell hoặc AsLiteralString hoặc AsLiteralDouble có thực trong đối tượng thuộc tính YPlus của các điểm dữ liệu cho các giá trị tùy chỉnh của error bars hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
 
 ### Xem thêm
 

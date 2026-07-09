@@ -1,7 +1,7 @@
 ---
 title: IRotation3D
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चार्ट के 3D घूर्णन को दर्शाता है।
+description: एक चार्ट के 3D घूर्णन का प्रतिनिधित्व करता है।
 type: docs
 weight: 2200
 url: /hi/aspose.slides.charts/irotation3d/
@@ -16,14 +16,14 @@ public interface IRotation3D
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | एक 3D चार्ट की गहराई को चार्ट की चौड़ाई के प्रतिशत के रूप में लौटाता या सेट करता है (20 से 2000 प्रतिशत के बीच)। पढ़ें/लिखें UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | एक 3-D चार्ट की ऊँचाई को चार्ट की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है (5 से 500 प्रतिशत के बीच)। पढ़ें/लिखें UInt16. |
-| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3D चार्ट के लिए पर्सपेक्टिव मान (फ़ील्ड ऑफ़ व्यू कोण) को लौटाता या सेट करता है (0 से 100 के बीच)। यदि RightAngleAxes प्रॉपर्टी मान true है तो इसे अनदेखा किया जाता है। पढ़ें/लिखें Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | निर्धारित करता है कि चार्ट धुरियां पर्सपेक्टिव में खींचने के बजाय सीधे कोणों पर रखी गई हैं या नहीं। दूसरे शब्दों में यह निर्धारित करता है कि चार्ट धुरियों के कोण चार्ट के घूर्णन या ऊँचाई से स्वतंत्र हैं या नहीं। पढ़ें/लिखें Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X-अक्ष के चारों ओर घूर्णन डिग्री को लौटाता या सेट करता है, अर्थात् 3D चार्ट के लिए Y दिशा में (-90 से 90 डिग्री के बीच)। यह प्रॉपर्टी ECMA-376 के 21.2.2.157 rotX (X Rotation) आइटम और PowerPoint 2007+ में "Y Rotation" विकल्प के साथ मेल खाती है। पढ़ें/लिखें SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y-अक्ष के चारों ओर घूर्णन डिग्री को लौटाता या सेट करता है, अर्थात् 3D चार्ट के लिए X दिशा में (0 से 360 डिग्री के बीच)। यह प्रॉपर्टी ECMA-376 के 21.2.2.158 rotY (Y Rotation) आइटम और PowerPoint 2007+ में "X Rotation" विकल्प के साथ मेल खाती है। पढ़ें/लिखें UInt16. |
+| [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | एक 3D चार्ट की गहराई को चार्ट की चौड़ाई के प्रतिशत के रूप में लौटाता है या सेट करता है (20 से 2000 प्रतिशत के बीच)। पढ़ने/लिखने योग्य UInt16। |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | एक 3-D चार्ट की ऊँचाई को चार्ट की चौड़ाई के प्रतिशत के रूप में निर्दिष्ट करता है (5 से 500 प्रतिशत के बीच)। पढ़ने/लिखने योग्य UInt16। |
+| [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3D चार्ट्स के लिए परिप्रेक्ष्य मान (दर्शनीय क्षेत्र कोण) लौटाता है या सेट करता है (0 से 100 के बीच)। यदि RightAngleAxes प्रॉपर्टी मान true है तो अनदेखा किया जाता है। पढ़ने/लिखने योग्य Byte। |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | निर्धारित करता है कि चार्ट अक्ष सही कोण पर हैं या परिप्रेक्ष्य में नहीं खींचे गए हैं। अन्य शब्दों में, यह निर्धारित करता है कि चार्ट अक्षों के कोण चार्ट घूर्णन या ऊंचाई से स्वतंत्र हैं या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | X-अक्ष के चारों ओर (अर्थात् 3D चार्ट्स के लिए Y दिशा में) घूर्णन डिग्री को लौटाता है या सेट करता है (-90 से 90 डिग्री के बीच)। यह प्रॉपर्टी ECMA-376 में 21.2.2.157 rotX (X Rotation) आइटम और PowerPoint 2007+ में "Y Rotation" विकल्प के साथ मिलती है। पढ़ने/लिखने योग्य SByte। |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | Y-अक्ष के चारों ओर (अर्थात् 3D चार्ट्स के लिए X दिशा में) घूर्णन डिग्री को लौटाता है या सेट करता है (0 से 360 डिग्री के बीच)। यह प्रॉपर्टी ECMA-376 में 21.2.2.158 rotY (Y Rotation) आइटम और PowerPoint 2007+ में "X Rotation" विकल्प के साथ मिलती है। पढ़ने/लिखने योग्य UInt16। |
 
 ### देखें भी
 

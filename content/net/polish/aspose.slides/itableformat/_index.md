@@ -1,12 +1,12 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje format tabeli.
 type: docs
-weight: 7220
+weight: 7240
 url: /pl/aspose.slides/itableformat/
 ---
-## interfejs ITableFormat
+## ITableFormat interfejs
 
 Reprezentuje format tabeli.
 
@@ -19,13 +19,13 @@ public interface ITableFormat
 | Nazwa | Opis |
 | --- | --- |
 | [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Zwraca obiekt właściwości wypełnienia tabeli. Tylko do odczytu [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Pobiera lub ustawia przejrzystość koloru wypełnienia. Odczyt/zapis Single. |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Pobiera lub ustawia przezroczystość koloru wypełnienia. Odczyt/zapis Single. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Pobiera efektywne właściwości formatowania tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Zwraca efektywne właściwości formatowania tabeli z uwzględnieniem dziedziczenia i zastosowanymi stylami tabeli. |
 
 ### Zobacz także
 

@@ -19,7 +19,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/rowcollection/count) { get; } | 컬렉션에 실제로 포함된 행 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | 지정된 인덱스에 있는 행을 반환합니다. 읽기 전용 [`Row`](../row). |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -29,7 +29,7 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블 하단에 삽입합니다. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | 지정된 템플릿 행의 복사본을 만들고 테이블의 지정된 위치에 삽입합니다. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | 테이블에서 지정된 위치의 행을 제거합니다. |
 

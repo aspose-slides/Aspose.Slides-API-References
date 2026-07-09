@@ -1,20 +1,20 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes cho .NET – Tham chiếu API
-description: Khởi tạo một thể hiện mới của SlidesAIAgentaspose.slides.ai/slidesaiagent với một client AI tùy chỉnh. Sử dụng phiên bản này để chỉ định nhà cung cấp AI, cung cấp LLM của riêng bạn hoặc tùy chỉnh kết nối, ví dụ bằng cách cung cấp HttpClient của riêng bạn. Bất kỳ triển khai nào của IAIWebClientaspose.slides.ai/iaiwebclient đều có thể được sử dụng, bao gồm
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Khởi tạo một thể hiện mới của SlidesAIAgentaspose.slides.ai/slidesaiagent với một máy khách AI tùy chỉnh. Sử dụng phương thức này để chỉ định nhà cung cấp AI, cung cấp LLM của riêng bạn hoặc tùy chỉnh kết nối, ví dụ bằng cách cung cấp HttpClient của riêng bạn. Bất kỳ triển khai nào của IAIWebClientaspose.slides.ai/iaiwebclient cũng có thể được sử dụng, bao gồm
 type: docs
 weight: 10
 url: /vi/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
 ## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-Khởi tạo một thể hiện mới của [`SlidesAIAgent`](../../slidesaiagent) với một client AI tùy chỉnh. Sử dụng phiên bản này để chỉ định nhà cung cấp AI, cung cấp LLM của riêng bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn). Bất kỳ triển khai nào của [`IAIWebClient`](../../iaiwebclient) đều có thể được sử dụng, bao gồm:
+Khởi tạo một thể hiện mới của [`SlidesAIAgent`](../../slidesaiagent) với một máy khách AI tùy chỉnh. Sử dụng phương thức này để chỉ định nhà cung cấp AI, cung cấp LLM của riêng bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn). Bất kỳ triển khai nào của [`IAIWebClient`](../../iaiwebclient) cũng có thể được sử dụng, bao gồm:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-Để sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) tích hợp sẵn với cấu hình mặc định, hãy dùng phiên bản [`SlidesAIAgent`](../slidesaiagent).
+Để sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) tích hợp sẵn với cấu hình mặc định, hãy sử dụng [`SlidesAIAgent`](../slidesaiagent) thay thế.
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
@@ -22,15 +22,15 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| aiClient | IIAWebClient | Thể hiện client AI. Bất kỳ triển khai nào của [`IAIWebClient`](../../iaiwebclient) đều có thể được sử dụng. |
+| aiClient | IIAIWebClient | Thực thể máy khách AI. Bất kỳ triển khai nào của [`IAIWebClient`](../../iaiwebclient) cũng có thể được sử dụng. |
 
 ### Ngoại lệ
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentNullException | Thể hiện client AI không được cung cấp. |
+| ArgumentNullException | Không có thể hiện máy khách AI được cung cấp. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IAIWebClient](../../iaiwebclient)
 * lớp [SlidesAIAgent](../../slidesaiagent)
@@ -41,13 +41,13 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 ## SlidesAIAgent() {#constructor}
 
-Khởi tạo một thể hiện mới của [`SlidesAIAgent`](../../slidesaiagent) bằng cách sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) tích hợp sẵn với cấu hình mặc định. Client sẽ kết nối tới LLM của Aspose và không yêu cầu cấu hình bổ sung. Để sử dụng client AI khác, hãy dùng phiên bản [`SlidesAIAgent`](../slidesaiagent).
+Khởi tạo một thể hiện mới của [`SlidesAIAgent`](../../slidesaiagent) bằng cách sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) tích hợp sẵn với cấu hình mặc định. Máy khách kết nối tới LLM của Aspose và không yêu cầu cấu hình bổ sung. Để sử dụng một máy khách AI khác, hãy sử dụng [`SlidesAIAgent`](../slidesaiagent) thay thế.
 
 ```csharp
 public SlidesAIAgent()
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [SlidesAIAgent](../../slidesaiagent)
 * không gian tên [Aspose.Slides.AI](../../slidesaiagent)

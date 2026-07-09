@@ -1,14 +1,14 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示投影片放映過渡類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示投影片秀的過渡類型。
 type: docs
 weight: 10450
 url: /zh-hant/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType 列舉
 
-表示投影片放映過渡類型。
+表示投影片秀的過渡類型。
 
 ```csharp
 public enum TransitionType
@@ -21,25 +21,25 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | 與 PowerPoint 2010 中的過渡 Shape（選項 Circle）相關。 |
+| Circle | `3` | 與 PowerPoint 2010 中的 transition Shape（選項為 Circle）相關。 |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | 與 PowerPoint 2010 中的過渡 Shape（選項 Diamond）相關。 |
+| Diamond | `7` | 與 PowerPoint 2010 中的 transition Shape（選項為 Diamond）相關。 |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | 與 PowerPoint 2010 中的過渡 Shape（選項 Plus）相關。 |
+| Plus | `11` | 與 PowerPoint 2010 中的 transition Shape（選項為 Plus）相關。 |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | 等同於 PowerPoint 2010 中的過渡 Wipe。 |
+| Split | `16` | 相當於 PowerPoint 2010 中的 transition Wipe。 |
 | Strips | `17` |  |
-| Wedge | `18` | 與 PowerPoint 2010 中的過渡 Clock（選項 Wedge）相關。 |
-| Wheel | `19` | 與 PowerPoint 2010 中的過渡 Clock（選項 Clockwise）相關。 |
+| Wedge | `18` | 與 PowerPoint 2010 中的 transition Clock（選項為 Wedge）相關。 |
+| Wheel | `19` | 與 PowerPoint 2010 中的 transition Clock（選項為 Clockwise）相關。 |
 | Wipe | `20` |  |
-| Zoom | `21` | 與 PowerPoint 2010 中的過渡 Shape（選項 In/Out）相關。另請參閱 Warp，它與 PowerPoint 2010 中的過渡 Zoom 相關。 |
+| Zoom | `21` | 與 PowerPoint 2010 中的 transition Shape（選項為 In/Out）相關。另請參閱 Warp，它與 PowerPoint 2010 中的 transition Zoom 相關。 |
 | Vortex | `22` | 在 PowerPoint 2010 中可用。 |
 | Switch | `23` | 在 PowerPoint 2010 中可用。 |
 | Flip | `24` | 在 PowerPoint 2010 中可用。 |
@@ -56,12 +56,12 @@ public enum TransitionType
 | Conveyor | `35` | 在 PowerPoint 2010 中可用。 |
 | Pan | `36` | 在 PowerPoint 2010 中可用。 |
 | Glitter | `37` | 在 PowerPoint 2010 中可用。 |
-| Warp | `38` | 與 PowerPoint 2010 中的過渡 Zoom 相關。在 PowerPoint 2010 中可用。 |
+| Warp | `38` | 與 PowerPoint 2010 中的 transition Zoom 相關。在 PowerPoint 2010 中可用。 |
 | Flythrough | `39` | 在 PowerPoint 2010 中可用。 |
 | Flash | `40` | 在 PowerPoint 2010 中可用。 |
 | Shred | `41` | 在 PowerPoint 2010 中可用。 |
 | Reveal | `42` | 在 PowerPoint 2010 中可用。 |
-| WheelReverse | `43` | 與 PowerPoint 2010 中的過渡 Clock（選項 Counterclockwise）相關。在 PowerPoint 2010 中可用。 |
+| WheelReverse | `43` | 與 PowerPoint 2010 中的 transition Clock（選項為 Counterclockwise）相關。在 PowerPoint 2010 中可用。 |
 | FallOver | `44` | 在 PowerPoint 2013 中可用。 |
 | Drape | `45` | 在 PowerPoint 2013 中可用。 |
 | Curtains | `46` | 在 PowerPoint 2013 中可用。 |
@@ -74,9 +74,9 @@ public enum TransitionType
 | PageCurlSingle | `53` | 在 PowerPoint 2013 中可用。 |
 | Airplane | `54` | 在 PowerPoint 2013 中可用。 |
 | Origami | `55` | 在 PowerPoint 2013 中可用。 |
-| Morph | `56` | 與 PowerPoint 2019 中的過渡 Morph（選項 Type）相關。 |
+| Morph | `56` | 與 PowerPoint 2019 中的 transition Morph（選項為 Type）相關。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 組件 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो प्रभावी लाइट रिग गुणों को सम्मिलित करती है।
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी लाइट रिग गुणों को शामिल करती है।
 type: docs
 weight: 6280
 url: /hi/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी लाइट रिग गुणों को सम्मिलित करती है।
+Immutable object which contains effective light rig properties.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -16,22 +16,22 @@ public interface ILightRigEffectiveData
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | प्रकाश दिशा। केवल-पढ़ने योग्य [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | वह प्रीसेट लाइट राइट दर्शाता है जिसे किसी आकार पर लागू किया जा सकता है। लाइट रिग एक समूह लाइटों को दर्शाता है जो 3D दृश्य के सापेक्ष विशिष्ट तरीके से अभिमुख होते हैं। केवल-पढ़ने योग्य [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | लाइट दिशा। केवल-पठनीय [`LightingDirection`](../lightingdirection)। |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | एक प्रीसेट लाइट राइट जो एक आकार पर लागू किया जा सकता है। लाइट रिग 3D दृश्य के सापेक्ष एक विशिष्ट तरीके से अभिमुखित लाइट्स के समूह का प्रतिनिधित्व करता है। केवल-पठनीय [`LightRigPresetType`](../lightrigpresettype)। |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्षांश तथा देशांतर निर्देशांकों के सापेक्ष अक्ष के चारों ओर घूर्णन के उपयोग द्वारा परिभाषित किया जाता है। लौटाने वाले एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - घूर्णन। |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | एक रोटेशन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर परिक्रमण के उपयोग से परिभाषित किया जाता है। रिटर्न ऐरे में पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - परिक्रमण। |
 
 ### टिप्पणियाँ
 
 यह इंटरफ़ेस [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) का हिस्सा के रूप में उपयोग किया जाता है।
 
-### समान देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

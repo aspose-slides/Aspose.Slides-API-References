@@ -1,41 +1,41 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงประเภทของการกระทำฮีเปอร์ลิงก์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทของการกระทำแบบ hyperlink.
 type: docs
 weight: 5130
 url: /th/aspose.slides/hyperlinkactiontype/
 ---
-## HyperlinkActionType ชนิดนับ
+## HyperlinkActionType enumeration
 
-แสดงประเภทของการกระทำฮีเปอร์ลิงก์.
+แสดงประเภทของการกระทำแบบ hyperlink.
 
 ```csharp
 public enum HyperlinkActionType
 ```
 
-### ค่า
+### Values
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | Description |
 | --- | --- | --- |
 | Unknown | `-1` | ประเภทการกระทำที่ไม่รู้จัก. |
 | NoAction | `0` | ไม่มีการกระทำ. |
-| Hyperlink | `1` | ไฮเปอร์ลิงก์ทั่วไป. |
-| JumpFirstSlide | `2` | กระโดดไปยังสไลด์แรกของการนำเสนอ. |
+| Hyperlink | `1` | hyperlink ปกติ. |
+| JumpFirstSlide | `2` | กระโดดไปยังสไลด์แรกของงานนำเสนอ. |
 | JumpPreviousSlide | `3` | กระโดดไปยังสไลด์ก่อนหน้า. |
 | JumpNextSlide | `4` | กระโดดไปยังสไลด์ถัดไป. |
-| JumpLastSlide | `5` | กระโดดไปยังสไลด์สุดท้ายของการนำเสนอ. |
+| JumpLastSlide | `5` | กระโดดไปยังสไลด์สุดท้ายของงานนำเสนอ. |
 | JumpEndShow | `6` | กระโดดไปยังส่วนท้ายของการแสดงสไลด์. |
 | JumpLastViewedSlide | `7` | กระโดดไปยังสไลด์ที่ดูล่าสุด. |
-| JumpSpecificSlide | `8` | กระโดดไปยังสไลด์ที่ระบุโดย [`TargetSlide`](../ihyperlink/targetslide) property. |
+| JumpSpecificSlide | `8` | กระโดดไปยังสไลด์เฉพาะที่อ้างอิงโดยคุณสมบัติ [`TargetSlide`](../ihyperlink/targetslide). |
 | StartCustomSlideShow | `9` | เริ่มการแสดงสไลด์แบบกำหนดเอง. |
 | OpenFile | `10` | เปิดไฟล์ที่อ้างอิง. |
-| OpenPresentation | `11` | เปิดการนำเสนอที่อ้างอิง. |
+| OpenPresentation | `11` | เปิดงานนำเสนอที่อ้างอิง. |
 | StartStopMedia | `12` | เริ่ม/หยุดเล่นไฟล์สื่อ. |
 | StartMacro | `13` | เริ่มดำเนินการสคริปต์แมโคร. |
 | StartProgram | `14` | เริ่มโปรแกรม. |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

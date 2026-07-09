@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes for .NET API 참조
-description: 객체가 속성 값 상속의 대상이 될 수 있도록 기본 서비스 인프라스트럭처를 캡슐화합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 객체가 속성 값 상속의 대상이 될 수 있도록 기본 서비스 인프라를 캡슐화합니다.
 type: docs
 weight: 9270
 url: /ko/aspose.slides/pviobject/
 ---
 ## PVIObject 클래스
 
-기본 서비스 인프라스트럭처를 캡슐화하여 객체가 속성 값 상속의 대상이 될 수 있도록 합니다.
+객체가 속성 값 상속의 대상이 될 수 있는 기본 서비스 인프라를 캡슐화합니다.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -27,7 +27,7 @@ public abstract class PVIObject : ISlideComponent
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

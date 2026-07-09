@@ -1,7 +1,7 @@
 ---
 title: ILineFillFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt eigenschappen voor het vullen van lijnen voor.
+description: Geeft eigenschappen voor het vullen van lijnen weer.
 type: docs
 weight: 6290
 url: /nl/aspose.slides/ilinefillformat/
@@ -19,10 +19,10 @@ public interface ILineFillFormat : IFillParamSource
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | Stelt toe om de basis IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Geeft het vul type terug of stelt het in. Lezen/Schrijven [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Geeft het verloop vul formaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Geeft het patroon vul formaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling moet roteren met een vorm. Lezen/Schrijven [`NullableBool`](../nullablebool). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | Geeft het vultype terug of stelt het in. Lezen/Schrijven [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | Geeft het verloopvullingsformaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | Geeft het patroonvullingsformaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling moet worden geroteerd met een vorm. Lezen/Schrijven [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | Geeft de kleur van een effen vulling terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
 
 ### Zie ook

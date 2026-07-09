@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định đối tượng Sub-Superscript, bao gồm một cơ sở và chỉ số dưới cùng chỉ số trên được đặt ở phía trái của cơ sở.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định đối tượng Sub-Superscript, bao gồm một cơ sở và một chỉ số phụ và chỉ số trên được đặt ở phía trái của cơ sở.
 type: docs
 weight: 8310
 url: /vi/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
-## IMathLeftSubSuperscriptElement giao diện
+## IMathLeftSubSuperscriptElement interface
 
-Xác định đối tượng Sub-Superscript, bao gồm một cơ sở và chỉ số dưới cũng như chỉ số trên được đặt ở phía trái của cơ sở.
+Xác định đối tượng Sub-Superscript, bao gồm một cơ sở và một chỉ số phụ và chỉ số trên được đặt ở phía trái của cơ sở.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -20,7 +20,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ sở [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Đối số cơ sở |
-| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Chỉ số dưới |
+| [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Chỉ số phụ |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Chỉ số trên |
 
 ### Ví dụ
@@ -32,7 +32,7 @@ Ví dụ:
 IMathLeftSubSuperscriptElement leftSubsuperscript = new MathematicalText("N").SetSubSuperscriptOnTheLeft("i", "j");
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IMathElement](../imathelement)
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een callback-object voor dat voortgangsupdates in procenten opslaat.
+description: Representeert een callback-object voor het opslaan van voortgangsupdates in percentages.
 type: docs
 weight: 6810
 url: /nl/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback interface
 
-Stelt een callback-object voor dat voortgangsupdates in procenten opslaat.
+Vertegenwoordigt een callback-object voor het bijwerken van de voortgang bij opslaan in percentages.
 
 ```csharp
 public interface IProgressCallback

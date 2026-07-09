@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti exportu GIF.
+description: Reprezentuje možnosti exportu GIF.
 type: docs
-weight: 3800
+weight: 3820
 url: /cs/aspose.slides.export/gifoptions/
 ---
 ## GifOptions třída
 
-Představuje možnosti exportu GIF.
+Reprezentuje možnosti exportu GIF.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -24,15 +24,15 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | Název | Popis |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Získává nebo nastavuje výchozí dobu zpoždění [ms]. Tato hodnota bude použita, pokud není nastaveno [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). Výchozí hodnota je 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že není nalezeno zdrojové písmo. Čtení-zápis String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Určuje, zda budou exportovány skryté snímky. Výchozí hodnota je false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Získává nebo nastavuje velikost rámečku. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Představuje objekt zpětného volání pro ukládání aktualizací postupu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s voláním JavaScriptu. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Získává nebo nastavuje FPS přechodu [frames/sec]. Výchozí hodnota je 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda proces načítání bude pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Získá nebo nastaví výchozí dobu prodlevy [ms]. Tato hodnota bude použita, pokud není nastaveno [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime). Výchozí hodnota je 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastaví písmo použité v případě, že výchozí písmo není nalezeno. Čtení-zápis String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Určuje, zda budou skryté snímky exportovány. Výchozí hodnota je false. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Získá nebo nastaví velikost rámce. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastaví vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje objekt zpětného volání pro ukládání aktualizací postupu v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda přeskočit hypertextové odkazy s voláním JavaScriptu při ukládání prezentace. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Získá nebo nastaví FPS přechodu [frames/sec]. Výchozí hodnota je 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastaví objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Příklady
 
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // velikost výsledného GIFu
-        DefaultDelay = 2000, // jak dlouho bude každý snímek zobrazen, dokud nebude změněn na další
-        TransitionFps = 35 // zvyšte FPS pro lepší kvalitu přechodové animace
+        DefaultDelay = 2000, // jak dlouho bude každý snímek zobrazen, dokud nebude přepnut na další
+        TransitionFps = 35 // zvýšit FPS pro lepší kvalitu animačních přechodů
     });
 }
 ```

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایشی مدیری است که رفتار فوتر اسلاید اصلی، جای‌نگهدارهای تاریخ-زمان، شماره صفحه و تمام جای‌نگهدارهای فرزند را در بر می‌گیرد. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته گنجانده شده‌اند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایشی از مدیری است که رفتار جای‌دارهای فوتر اسلاید اصلی، تاریخ-زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند.
 type: docs
 weight: 6440
 url: /fa/aspose.slides/imasterslideheaderfootermanager/
 ---
-## IMasterSlideHeaderFooterManager رابط
+## رابط IMasterSlideHeaderFooterManager
 
-نمایشگر مدیری است که رفتار فوتر اسلاید اصلی، جای‌نگهدارهای تاریخ-زمان، شماره صفحه و تمام جای‌نگهدارهای فرزند را در بر می‌گیرد. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند.
+مدیری را که رفتار فوتر اسلاید اصلی، جای‌دارهای تاریخ-زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد، نشان می‌دهد. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,19 +18,19 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | یک رابط IBaseSlideHeaderFooterManager را برمی‌گرداند. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | یک رابط IBaseSlideHeaderFooterManager بازمی‌گرداند. |
 
 ## متدها
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را در جای‌نگهدار تاریخ-زمان اسلاید اصلی و تمام جای‌نگهدارهای تاریخ-زمان فرزند تنظیم می‌کند. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | قابلیت نمایش جای‌نگهدار تاریخ-زمان اسلاید اصلی و تمام جای‌نگهدارهای تاریخ-زمان فرزند را تغییر می‌دهد. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را در جای‌نگهدار فوتر اسلاید اصلی و تمام جای‌نگهدارهای فوتر فرزند تنظیم می‌کند. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | قابلیت نمایش جای‌نگهدار فوتر اسلاید اصلی و تمام جای‌نگهدارهای فوتر فرزند را تغییر می‌دهد. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | قابلیت نمایش جای‌نگهدار شماره صفحه اسلاید اصلی و تمام جای‌نگهدارهای شماره صفحه فرزند را تغییر می‌دهد. جای‌نگهدارهای فرزند به این معنی است که این جای‌نگهدارها در اسلایدهای چیدمان وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای چیدمان وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را در جای‌دار تاریخ-زمان اسلاید اصلی و تمام جای‌دارهای تاریخ-زمان فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | قابلیت مشاهده جای‌دار تاریخ-زمان اسلاید اصلی و تمام جای‌دارهای تاریخ-زمان فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را در جای‌دار فوتر اسلاید اصلی و تمام جای‌دارهای فوتر فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | قابلیت مشاهده جای‌دار فوتر اسلاید اصلی و تمام جای‌دارهای فوتر فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | قابلیت مشاهده جای‌دار شماره صفحه اسلاید اصلی و تمام جای‌دارهای شماره صفحه فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی هستند که جای‌دارها در اسلایدهای طرح‌بندی وابسته و اسلایدهای وابسته قرار دارند. اسلایدهای طرح‌بندی وابسته و اسلایدها از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

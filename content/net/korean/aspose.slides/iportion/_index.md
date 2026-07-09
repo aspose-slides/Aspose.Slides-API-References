@@ -1,14 +1,14 @@
 ---
 title: IPortion
 second_title: Aspose.Sildes for .NET API 참조
-description: 텍스트 단락 안에 있는 텍스트 일부를 나타냅니다.
+description: 텍스트 단락 내부의 텍스트 일부를 나타냅니다.
 type: docs
 weight: 6700
 url: /ko/aspose.slides/iportion/
 ---
 ## IPortion 인터페이스
 
-텍스트 단락 안에 있는 텍스트 일부를 나타냅니다.
+텍스트 단락 내부의 텍스트 일부를 나타냅니다.
 
 ```csharp
 public interface IPortion : ISlideComponent
@@ -20,7 +20,7 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
 | [Field](../../aspose.slides/iportion/field) { get; } | 이 부분의 필드를 반환합니다. 읽기 전용 [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 상속이 적용되지 않은 텍스트 부분에 대해 명시적으로 설정된 서식 속성을 포함하는 서식 객체를 반환합니다. 읽기 전용 [`IPortionFormat`](../iportionformat). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 상속이 적용되지 않은 텍스트 부분에 대해 명시적으로 설정된 서식 속성을 포함하는 서식 개체를 반환합니다. 읽기 전용 [`IPortionFormat`](../iportionformat). |
 | [Text](../../aspose.slides/iportion/text) { get; set; } | 부분의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
@@ -29,11 +29,11 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | 이 부분을 자동으로 업데이트되는 필드로 변환합니다. |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | 이 부분을 자동으로 업데이트되는 필드로 변환합니다. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 부분의 시작 좌표를 가져옵니다. 점의 X 좌표는 왼쪽 사이드 베어링을 포함한 첫 번째 문자부터 시작하는 부분을 나타냅니다. Y 좌표는 상단 사이드 베어링을 포함합니다. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | 부분을 둘러싼 사각형의 좌표를 가져옵니다. 사각형은 빈 줄을 포함한 부분의 모든 텍스트 줄을 포함합니다. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | 이 필드 부분을 간단한 부분으로 변환합니다. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 부분 시작점의 좌표를 가져옵니다. 점의 X 좌표는 왼쪽 사이드 베어링을 포함한 첫 번째 문자부터 시작하는 부분을 나타냅니다. Y 좌표는 상단 사이드 베어링을 포함합니다. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | 부분을 둘러싼 사각형의 좌표를 가져옵니다. 이 사각형은 빈 줄을 포함한 부분의 모든 텍스트 줄을 포함합니다. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | 이 필드 부분을 단순 부분으로 변환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

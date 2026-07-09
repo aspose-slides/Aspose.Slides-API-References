@@ -8,7 +8,7 @@ url: /nl/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData interface
 
-Onveranderlijk object dat de effectieve lijnopmaak-eigenschappen bevat.
+Onveranderlijk object dat effectieve lijnopmaak-eigenschappen bevat.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,24 +19,24 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Naam | Beschrijving |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Geeft de lijnuitlijning terug. Alleen-lezen [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Stelt toegang tot de basis-ILineParamSource-interface beschikbaar. Alleen-lezen [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Geeft de pijlhoofd-lengte aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Geeft de pijlhoofd-stijl aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Geeft de pijlhoofd-breedte aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Geeft de lijnkap-stijl terug. Alleen-lezen [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Geeft het aangepaste streeppatroon terug. Alleen-lezen Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Geeft de lijnstreeps-stijl terug. Alleen-lezen [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Geeft de pijlhoofd-lengte aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Geeft de pijlhoofd-stijl aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Geeft de pijlhoofd-breedte aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Staat toe de basis-interface ILineParamSource op te vragen. Alleen-lezen [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Geeft de lengte van de pijlpunt aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Geeft de stijl van de pijlpunt aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Geeft de breedte van de pijlpunt aan het begin van een lijn terug. Alleen-lezen [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Geeft de stijl van de lijnkap terug. Alleen-lezen [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Geeft het aangepaste streeptypepatroon terug. Alleen-lezen Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Geeft de lijnstreepstijl terug. Alleen-lezen [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Geeft de lengte van de pijlpunt aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Geeft de stijl van de pijlpunt aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Geeft de breedte van de pijlpunt aan het einde van een lijn terug. Alleen-lezen [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Geeft het vulformaat van een lijn terug. Alleen-lezen [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Geeft de lijnsamenvoegings-stijl terug. Alleen-lezen [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Geeft de versteklimiet van een lijn terug. Alleen-lezen Single. |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Geeft de lijnsamenvoegingsstijl terug. Alleen-lezen [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Geeft de snijpuntlimiet van een lijn terug. Alleen-lezen Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Geeft het schetsformaat van een lijn terug. Alleen-lezen [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Geeft de lijnstijl terug. Alleen-lezen [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Geeft de breedte van een lijn terug. Alleen-lezen Double. |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -44,12 +44,12 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`ILineFormat`](../ilineformat) interface gebruikt om effectieve opmaakwaarden terug te geven met toepaste overerving.
+Deze interface wordt samen met de [`ILineFormat`](../ilineformat) interface gebruikt om effectieve opmaakwaarden met toegepast overerven terug te geven.
 
 ### Zie ook
 
 * interface [ILineParamSource](../ilineparamsource)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

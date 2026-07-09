@@ -1,12 +1,12 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Pusty efekt przejścia slajdu.
 type: docs
-weight: 10060
+weight: 10080
 url: /pl/aspose.slides.slideshow/iemptytransition/
 ---
-## Interfejs IEmptyTransition
+## IEmptyTransition interfejs
 
 Pusty efekt przejścia slajdu.
 

@@ -1,20 +1,20 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไตล์ของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึงรูปแบบแผนภูมิ.
 type: docs
 weight: 2430
 url: /th/aspose.slides.charts/styletype/
 ---
-## StyleType การระบุค่า
+## StyleType enumeration
 
-แสดงสไตล์ของแผนภูมิ.
+แสดงถึงรูปแบบแผนภูมิ.
 
 ```csharp
 public enum StyleType
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

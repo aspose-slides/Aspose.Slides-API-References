@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes لمرجع API .NET
-description: يمثل خصائص تنسيق جزء المخطط المستخدمة في المخططات.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل خصائص تنسيق جزء الرسم البياني المستخدمة في الرسوم البيانية.
 type: docs
 weight: 1920
 url: /ar/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat واجهة
 
-يمثل خصائص تنسيق جزء المخطط المستخدمة في المخططات.
+يمثل خصائص تنسيق جزء الرسم البياني المستخدمة في الرسوم البيانية.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -18,9 +18,9 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | يعيد واجهة IBasePortionFormat. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | يرجع واجهة IBasePortionFormat. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)

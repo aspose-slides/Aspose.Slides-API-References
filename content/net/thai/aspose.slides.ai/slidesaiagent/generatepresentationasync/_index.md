@@ -1,85 +1,85 @@
 ---
 title: GeneratePresentationAsync
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายข้อความ จัดหาหัวข้อ ไอเดีย คำคม หรือข้อความสั้นในภาษาที่ต้องการ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายข้อความ. ให้ระบุหัวข้อ ไอเดีย คำคม หรือข้อความสั้นในภาษาที่ต้องการ.
 type: docs
 weight: 30
 url: /th/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายข้อความ จัดหาหัวข้อ ไอเดีย คำคม หรือข้อความสั้นในภาษาที่ต้องการ
+สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายเป็นข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือข้อความสั้นในภาษาที่ต้องการ
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| description | String | หัวข้อ, ไอเดีย, คำคม หรือข้อความสั้น |
-| presentationContentAmount | PresentationContentAmountType | ปริมาณเนื้อหาในงานนำเสนอที่ได้ |
+| description | String | The topic, ideas, quotes, or text snippets. |
+| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
 
-### Exceptions
+### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentException | คำสั่งแชท AI ไม่สามารถเป็นค่าว่างหรือ null ได้ |
+| ArgumentException | AI chat instruction can't be null or empty. |
 
-### Remarks
+### หมายเหตุ
 
-ตัวอย่างด้านล่างใช้ค่าเริ่มต้น [`AsposeAIWebClient`](../../asposeaiwebclient) ซึ่งสร้างโดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) ที่ไม่มีพารามิเตอร์และเชื่อมต่อกับ LLM ของ Aspose เอง เพื่อใช้ผู้ให้บริการ AI ที่แตกต่าง ให้จัดหา LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ (เช่น โดยการจัดหา `HttpClient` ของคุณเอง) ส่งการนำไปใช้ [`IAIWebClient`](../../iaiwebclient) ไปยังคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) การนำไปใช้ที่มีให้รวมถึง:
+ตัวอย่างด้านล่างใช้ค่าเริ่มต้น [`AsposeAIWebClient`](../../asposeaiwebclient) ซึ่งสร้างโดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) ที่ไม่มีพารามิเตอร์และเชื่อมต่อกับ LLM ของ Aspose เอง เพื่อใช้ผู้ให้บริการ AI ที่แตกต่าง ให้ระบุ LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ (เช่นโดยการให้ `HttpClient` ของคุณ) ส่งการทำงานที่เป็น [`IAIWebClient`](../../iaiwebclient) ไปยังคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) การนำไปใช้ที่มีอยู่ได้แก่:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### See Also
+### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IPresentation](../../../aspose.slides/ipresentation)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* คลาส [SlidesAIAgent](../../slidesaiagent)
-* เนมสเปส [Aspose.Slides.AI](../../slidesaiagent)
-* แอสเซมบลี [Aspose.Slides](../../../)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายข้อความ จัดหาหัวข้อ ไอเดีย คำคม หรือข้อความสั้นในภาษาที่ต้องการ
+สร้างอินสแตนซ์ของงานนำเสนอจากคำอธิบายเป็นข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือข้อความสั้นในภาษาที่ต้องการ
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| description | String | หัวข้อ, ไอเดีย, คำคม หรือข้อความสั้น |
-| presentationContentAmount | PresentationContentAmountType | ปริมาณเนื้อหาในงานนำเสนอที่ได้ |
-| presentationTemplate | IPresentation | งานนำเสนอที่ใช้เป็นแม่แบบสำหรับเลาเอาต์และการออกแบบ แทนแม่แบบเริ่มต้น |
+| description | String | The topic, ideas, quotes, or text snippets. |
+| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
+| presentationTemplate | IPresentation | A presentation to use as a template for layout and design, replacing the default template. |
 
-### Exceptions
+### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | ไม่ได้ระบุแม่แบบงานนำเสนอ |
-| ArgumentException | คำสั่งแชท AI ไม่สามารถเป็นค่าว่างหรือ null ได้ |
+| ArgumentNullException | Presentation template is not provided. |
+| ArgumentException | AI chat instruction can't be null or empty. |
 
-### Remarks
+### หมายเหตุ
 
-ตัวอย่างด้านล่างใช้ค่าเริ่มต้น [`AsposeAIWebClient`](../../asposeaiwebclient) ซึ่งสร้างโดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) ที่ไม่มีพารามิเตอร์และเชื่อมต่อกับ LLM ของ Aspose เอง เพื่อใช้ผู้ให้บริการ AI ที่แตกต่าง ให้จัดหา LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ (เช่น โดยการจัดหา `HttpClient` ของคุณเอง) ส่งการนำไปใช้ [`IAIWebClient`](../../iaiwebclient) ไปยังคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) การนำไปใช้ที่มีให้รวมถึง:
+ตัวอย่างด้านล่างใช้ค่าเริ่มต้น [`AsposeAIWebClient`](../../asposeaiwebclient) ซึ่งสร้างโดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) ที่ไม่มีพารามิเตอร์และเชื่อมต่อกับ LLM ของ Aspose เอง เพื่อใช้ผู้ให้บริการ AI ที่แตกต่าง ให้ระบุ LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ (เช่นโดยการให้ `HttpClient` ของคุณ) ส่งการทำงานที่เป็น [`IAIWebClient`](../../iaiwebclient) ไปยังคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent) การนำไปใช้ที่มีอยู่ได้แก่:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### See Also
+### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IPresentation](../../../aspose.slides/ipresentation)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* คลาส [SlidesAIAgent](../../slidesaiagent)
-* เนมสเปส [Aspose.Slides.AI](../../slidesaiagent)
-* แอสเซมบลี [Aspose.Slides](../../../)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

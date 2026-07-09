@@ -1,20 +1,20 @@
 ---
 title: MotionCommandPathType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของคำสั่งสำหรับพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของแอนิเมชัน
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนประเภทของคำสั่งสำหรับพฤติกรรมของเอฟเฟกต์การเคลื่อนไหวของแอนิเมชัน.
 type: docs
 weight: 660
 url: /th/aspose.slides.animation/motioncommandpathtype/
 ---
-## MotionCommandPathType การนับค่า
+## MotionCommandPathType ประเภทการนับ
 
-แสดงประเภทของคำสั่งสำหรับพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของแอนิเมชัน
+แทนประเภทของคำสั่งสำหรับพฤติกรรมของเอฟเฟกต์การเคลื่อนไหวของแอนิเมชัน.
 
 ```csharp
 public enum MotionCommandPathType
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

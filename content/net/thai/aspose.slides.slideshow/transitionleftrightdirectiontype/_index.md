@@ -1,20 +1,20 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ระบุทิศทางที่จำกัดให้เป็นค่าซ้ายหรือขวา
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุทิศทางที่จำกัดไว้เป็นค่าซ้ายและขวา
 type: docs
 weight: 10380
 url: /th/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
-## TransitionLeftRightDirectionType แบบนับ
+## การนับ TransitionLeftRightDirectionType
 
-ระบุทิศทางที่จำกัดอยู่เพียงค่าซ้ายและขวา
+ระบุทิศทางที่จำกัดไว้เป็นค่า Left และ Right เท่านั้น.
 
 ```csharp
 public enum TransitionLeftRightDirectionType
 ```
 
-### ค่า
+### ค่าต่าง ๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

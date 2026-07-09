@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Fill Overlay etkisini temsil eder. Fill overlay, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir Fill Overlay etkisini temsil eder. Fill overlay, bir nesne için ek bir doldurma belirlemek ve iki doldurmayı birleştirmek için kullanılabilir.
 type: docs
-weight: 2960
+weight: 2980
 url: /tr/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay sınıfı
 
-Bir Fill Overlay etkisini temsil eder. Fill overlay, bir nesne için ek bir dolgu belirtmek ve iki dolguyu birleştirmek için kullanılabilir.
+Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,19 +18,19 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Okunur/yazılabilir [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Dolgu formatı. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişmeyi sağlar. Sadece okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Okuma/yazma [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill format. Sadece okuma [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Belirtilen [`FillOverlay`](../filloverlay)'nin geçerli [`FillOverlay`](../filloverlay) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Kalıtım uygulanmış etkili Fill Overlay efekti verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Belirli bir tip için bir karma (hash) işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Belirtilen [`FillOverlay`](../filloverlay) geçerli [`FillOverlay`](../filloverlay) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Uygulanan kalıtımla birlikte etkili Fill Overlay etkisi verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Belirli bir tür için bir hash işlevi olarak hizmet eder. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IFillOverlay](../ifilloverlay)

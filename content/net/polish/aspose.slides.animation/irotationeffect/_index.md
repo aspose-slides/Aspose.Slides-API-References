@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Reprezentuje zachowanie obrotu efektu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje zachowanie rotacji efektu.
 type: docs
-weight: 550
+weight: 570
 url: /pl/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect interfejs
 
-Reprezentuje zachowanie obrotu efektu.
+Reprezentuje zachowanie rotacji efektu.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Umożliwia pobranie podstawowego interfejsu IBehavior. Tylko do odczytu [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Umożliwia pobranie bazowego interfejsu IBehavior. Tylko do odczytu [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Opisuje względną wartość offsetu dla animacji. Odczyt/zapis Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Opisuje wartość początkową dla animacji. Odczyt/zapis Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Opisuje wartość końcową dla animacji. Odczyt/zapis Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Opisuje początkową wartość dla animacji. Odczyt/zapis Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Opisuje końcową wartość dla animacji. Odczyt/zapis Single. |
 
 ### Zobacz także
 

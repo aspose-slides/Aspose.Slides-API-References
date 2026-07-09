@@ -1,14 +1,14 @@
 ---
 title: CaptionsCollection
-second_title: "Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API"
-description: แสดงถึงคอลเลกชันของคำบรรยายปิด.
+second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
+description: แสดงถึงคอลเลกชันของคำบรรยายปิด
 type: docs
 weight: 1120
 url: /th/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection คลาส
 
-Represents a collection of the closed captions.
+แสดงถึงคอลเลกชันของคำบรรยายปิด
 
 ```csharp
 public sealed class CaptionsCollection : ICaptionsCollection
@@ -16,21 +16,21 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/captionscollection/count) { get; } | ส่งคืนจำนวนขององค์ประกอบในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | ส่งคืนคำบรรยายปิดที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/captionscollection/count) { get; } | ส่งคืนจำนวนขององค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | ส่งคืนคำบรรยายปิดที่ดัชนีที่ระบุ. อ่านอย่างเดียว [`ICaptions`](../icaptions). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | เพิ่มคำบรรยายปิด WebVTT ที่ส่วนท้ายของคอลเลกชันจากสตรีม. |
-| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | เพิ่มคำบรรยายปิด WebVTT ที่ส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/captionscollection/clear)() | ลบคำบรรยายปิดทั้งหมดจากคอลเลกชัน. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | ส่งคืนตัววนซ้ำที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | ลบคำบรรยายปิดที่ระบุจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | ลบคำบรรยายปิดที่ตำแหน่งที่ระบุ. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | เพิ่มคำบรรยาย WebVTT ปิดที่ส่วนท้ายของคอลเลกชันจากสตรีม. |
+| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | เพิ่มคำบรรยาย WebVTT ปิดที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/captionscollection/clear)() | ลบคำบรรยายปิดทั้งหมดออกจากคอลเลกชัน. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | ส่งคืนอ็อบเจกต์ enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | ลบคำบรรยายปิดที่ระบุออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | ลบคำบรรยายปิดที่ดัชนีที่ระบุออกจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

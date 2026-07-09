@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงเอฟเฟกต์ Blur ที่นำไปใช้กับรูปร่างทั้งหมดรวมถึงการเติมสีของมัน ทุกช่องสีรวมทั้งแอลฟ่าได้รับผลกระทบ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงเอฟเฟกต์ Blur ที่ถูกนำไปใช้กับรูปทรงทั้งหมดรวมถึงการเติมสีของมัน ทุกช่องสีรวมถึงอัลฟ่าได้รับผลกระทบ
 type: docs
 weight: 3180
 url: /th/aspose.slides.effects/iblur/
 ---
 ## IBlur อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟ็กต์ Blur ที่นำไปใช้กับรูปร่างทั้งหมดรวมถึงการเติมสีของมัน ทุกช่องสีรวมทั้งแอลฟ่าได้รับผลกระทบ
+เป็นเอฟเฟกต์ Blur ที่ถูกนำไปใช้กับรูปทรงทั้งหมด รวมถึงการเติมสีของมัน ทุกช่องสีรวมถึงอัลฟ่าได้รับผลกระทบ
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านได้เท่านั้น [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านได้เท่านั้น [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | กำหนดว่าขอบเขตของอ็อบเจ็กต์ควรขยายเป็นผลมาจากการเบลอหรือไม่. True แสดงว่าขอบเขตถูกขยายในขณะที่ false แสดงว่าไม่ถูกขยาย. อ่าน/เขียน Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | คืนค่าหรือกำหนดค่า blur radius. อ่าน/เขียน Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | กำหนดว่าขอบเขตของอ็อบเจกต์ควรขยายออกไปเป็นผลจากการเบลอหรือไม่. True ระบุว่าขอบเขตจะขยายออกไปในขณะที่ false ระบุว่าไม่ขยาย. อ่าน/เขียน Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | คืนค่า หรือกำหนดค่า blur radius. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

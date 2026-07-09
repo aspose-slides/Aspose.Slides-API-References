@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM eindpunt. Dit is de client die wordt gebruikt door de parameterloze SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent constructor, dus het expliciet maken is alleen vereist wanneer de client direct wordt doorgegeven aan de SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent constructor.
+description: Maakt een instantie van de Aspose AI-webclient die verbinding maakt met het standaard Aspose LLM-eindpunt. Dit is de client die wordt gebruikt door de parameterloze SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent-constructor, dus expliciet aanmaken is alleen vereist wanneer de client rechtstreeks wordt doorgegeven aan de SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent-constructor.
 type: docs
 weight: 10
 url: /nl/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM eindpunt. Dit is de client die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) constructor, dus expliciet maken is alleen vereist wanneer de client direct wordt doorgegeven aan de [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) constructor.
+Maakt een instantie van de Aspose AI-webclient die verbinding maakt met het standaard Aspose LLM-eindpunt. Dit is de client die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) constructor, dus expliciet aanmaken is alleen vereist wanneer de client rechtstreeks wordt doorgegeven aan de [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) constructor.
 
 ```csharp
 public AsposeAIWebClient()
@@ -24,7 +24,7 @@ public AsposeAIWebClient()
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM eindpunt met behulp van een extern beheerde HttpClient. De opgegeven HttpClient wordt niet vrijgegeven door deze instantie en blijft eigendom van de aanroeper.
+Maakt een instantie van de Aspose AI-webclient die verbinding maakt met het standaard Aspose LLM-eindpunt met behulp van een extern beheerde HttpClient. De geleverde HttpClient wordt niet door deze instantie vrijgegeven en blijft eigendom van de aanroeper.
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
@@ -32,13 +32,13 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| httpClient | HttpClient | Een extern beheerde HttpClient instantie. |
+| httpClient | HttpClient | Een extern beheerde HttpClient-instantie. |
 
 ### Uitzonderingen
 
-| Uitzondering | Voorwaarde |
+| Uitzondering | Conditie |
 | --- | --- |
-| ArgumentNullException | HttpClient instantie is niet opgegeven. |
+| ArgumentNullException | HttpClient-instantie is niet opgegeven. |
 
 ### Zie ook
 
@@ -50,7 +50,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste eindpunt-URL. Gebruik deze overload wanneer u een URL heeft die door het Aspose.Slides-team wordt geleverd; anders gebruikt u de [`AsposeAIWebClient`](../asposeaiwebclient) overload met de standaard-URL.
+Maakt een instantie van de Aspose AI-webclient die verbinding maakt met een aangepaste eindpunt-URL. Gebruik deze overload wanneer u een URL hebt die door het Aspose.Slides-team wordt verstrekt; gebruik anders de [`AsposeAIWebClient`](../asposeaiwebclient) overload met de standaard-URL.
 
 ```csharp
 public AsposeAIWebClient(string url)
@@ -58,11 +58,11 @@ public AsposeAIWebClient(string url)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| url | String | Eindpunt-URL van de Aspose LLM, geleverd door het Aspose.Slides-team. |
+| url | String | Eindpunt-URL van de Aspose LLM, verstrekt door het Aspose.Slides-team. |
 
 ### Uitzonderingen
 
-| Uitzondering | Voorwaarde |
+| Uitzondering | Conditie |
 | --- | --- |
 | ArgumentNullException | URL mag niet null of leeg zijn. |
 
@@ -76,7 +76,7 @@ public AsposeAIWebClient(string url)
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste eindpunt-URL met behulp van een extern beheerde HttpClient. De opgegeven HttpClient wordt niet vrijgegeven door deze instantie en blijft eigendom van de aanroeper. Gebruik deze overload wanneer u een URL heeft die door het Aspose.Slides-team wordt geleverd en uw eigen HttpClient wilt opgeven; als u alleen uw eigen HttpClient nodig heeft met de standaard-URL, gebruik dan de [`AsposeAIWebClient`](../asposeaiwebclient) overload.
+Maakt een instantie van de Aspose AI-webclient die verbinding maakt met een aangepaste eindpunt-URL met behulp van een extern beheerde HttpClient. De geleverde HttpClient wordt niet door deze instantie vrijgegeven en blijft eigendom van de aanroeper. Gebruik deze overload wanneer u een URL hebt die door het Aspose.Slides-team wordt verstrekt en uw eigen HttpClient wilt leveren; als u alleen uw eigen HttpClient nodig heeft met de standaard-URL, gebruik dan de [`AsposeAIWebClient`](../asposeaiwebclient) overload.
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
@@ -84,15 +84,15 @@ public AsposeAIWebClient(string url, HttpClient httpClient)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| url | String | Eindpunt-URL van de Aspose LLM, geleverd door het Aspose.Slides-team. |
-| httpClient | HttpClient | Een extern beheerde HttpClient instantie. |
+| url | String | Eindpunt-URL van de Aspose LLM, verstrekt door het Aspose.Slides-team. |
+| httpClient | HttpClient | Een extern beheerde HttpClient-instantie. |
 
 ### Uitzonderingen
 
-| Uitzondering | Voorwaarde |
+| Uitzondering | Conditie |
 | --- | --- |
 | ArgumentNullException | URL mag niet null of leeg zijn. |
-| ArgumentNullException | HttpClient instantie is niet opgegeven. |
+| ArgumentNullException | HttpClient-instantie is niet opgegeven. |
 
 ### Zie ook
 

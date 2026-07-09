@@ -1,12 +1,12 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje kolekcję komórek.
 type: docs
-weight: 5440
+weight: 5460
 url: /pl/aspose.slides/icellcollection/
 ---
-## ICellCollection interface
+## ICellCollection interfejs
 
 Reprezentuje kolekcję komórek.
 

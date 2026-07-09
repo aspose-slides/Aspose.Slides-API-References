@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Alpha Ceiling-effect voor. Alpha-waarden voor ondoorzichtigheid groter dan nul worden gewijzigd naar 100. Met andere woorden wordt alles dat gedeeltelijk ondoorzichtig is volledig ondoorzichtig.
+description: Stelt een Alpha Ceiling-effect voor. Alpha-opaciteitswaarden groter dan nul worden gewijzigd naar 100. Met andere woorden wordt alles dat gedeeltelijk ondoorzichtig is volledig ondoorzichtig.
 type: docs
 weight: 2850
 url: /nl/aspose.slides.effects/alphaceiling/
 ---
 ## AlphaCeiling klasse
 
-Stelt een Alpha Ceiling-effect voor. Alpha-waarden (ondoorzichtigheid) groter dan nul worden gewijzigd naar 100 %. Met andere woorden, alles dat gedeeltelijk ondoorzichtig is, wordt volledig ondoorzichtig.
+Stelt een Alpha Ceiling-effect voor. Alpha (opaciteit) waarden groter dan nul worden gewijzigd naar 100%. Met andere woorden wordt alles wat gedeeltelijk ondoorzichtig is volledig ondoorzichtig.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -18,14 +18,14 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Maakt het mogelijk om de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis- IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Bepaalt of de opgegeven [`AlphaCeiling`](../alphaceiling) gelijk is aan de huidige [`AlphaCeiling`](../alphaceiling). |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Haalt de effectieve Alpha Ceiling-effectgegevens op met de geërfde waarden toegepast. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Haalt effectieve Alpha Ceiling-effectgegevens op met de toepasselijke overerving. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Dient als een hash-functie voor een specifiek type. |
 
 ### Zie ook

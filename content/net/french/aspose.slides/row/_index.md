@@ -1,12 +1,11 @@
 ---
 title: Row
-second_title: Référence API Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente une ligne dans un tableau.
 type: docs
-weight: 9440
+weight: 9710
 url: /fr/aspose.slides/row/
 ---
-
 ## Classe Row
 
 Représente une ligne dans un tableau.
@@ -19,31 +18,31 @@ public sealed class Row : CellCollection, IRow
 
 | Nom | Description |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Renvoie le nombre de cellules dans une collection. Lecture seule Int32. |
-| [Height](../../aspose.slides/row/height) { get; } | Renvoie la hauteur d'une ligne. Lecture seule Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Renvoie une cellule par sa position. Lecture seule [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Renvoie ou définit la hauteur minimale possible d'une ligne. Lecture/écriture Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Renvoie la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Renvoie l'objet RowFormat qui contient les propriétés de formatage pour cette ligne. Lecture seule [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Renvoie la diapositive parente d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Renvoie le nombre de cellules dans une collection. Lecture seule Int32. |
+| [Height](../../aspose.slides/row/height) { get; } | Renvoie la hauteur d'une ligne. Lecture seule Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Renvoie une cellule par sa position. Lecture seule [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Renvoie ou définit la hauteur minimale possible d'une ligne. Lecture/écriture Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Renvoie la présentation parente d'une CellCollection. Lecture seule [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Renvoie l'objet RowFormat qui contient les propriétés de mise en forme pour cette ligne. Lecture seule [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Renvoie la diapositive parente d'une CellCollection. Lecture seule [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copie tous les éléments de la collection vers le tableau spécifié. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes de cellules de ligne. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions de cellules de ligne. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de ligne. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto) (Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator) () | Renvoie un énumérateur qui parcourt la collection. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat) (IParagraphFormat) | Définit les propriétés de format de paragraphe définies pour tous les paragraphes des cellules de la ligne. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1) (IPortionFormat) | Définit les propriétés de format de portion définies pour toutes les portions des cellules de la ligne. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2) (ITextFrameFormat) | Définit les propriétés de format de cadre de texte définies pour tous les cadres de texte des cellules de la ligne. |
 
 ### Voir aussi
 
-* classe [CellCollection](../cellcollection)
-* interface [IRow](../irow)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [CellCollection](../cellcollection)
+* interface [IRow](../irow)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

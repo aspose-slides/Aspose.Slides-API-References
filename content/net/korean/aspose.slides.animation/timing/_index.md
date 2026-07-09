@@ -1,12 +1,14 @@
 ---
 title: Timing
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 애니메이션 타이밍을 나타냅니다.
 type: docs
 weight: 840
 url: /ko/aspose.slides.animation/timing/
 ---
 ## Timing 클래스
+
+애니메이션 타이밍을 나타냅니다.
 
 ```csharp
 public class Timing : ITiming
@@ -22,15 +24,15 @@ public class Timing : ITiming
 | [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | 애니메이션 효과의 지속 시간을 설명합니다. 읽기/쓰기 Single. |
 | [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | 효과가 반복되어야 하는 횟수를 설명합니다. 읽기/쓰기 Single. |
 | [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | 효과가 반복되어야 하는 횟수를 설명합니다. 읽기/쓰기 Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | 이 특성은 효과가 슬라이드 끝까지 반복되는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | 이 특성은 효과가 다음 클릭까지 반복되는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | 효과가 완료된 후 다시 시작되는지 여부를 지정합니다. 읽기/쓰기 [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | 이 특성은 재생이 완료된 후 효과가 되감기 되는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | 타이밍을 가속(또는 감속)시키는 백분율을 지정합니다. 읽기/쓰기 Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | 효과가 슬라이드 끝까지 반복될지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | 효과가 다음 클릭까지 반복될지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | 효과가 완료된 후 다시 시작될지 여부를 지정합니다. 읽기/쓰기 [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | 효과가 재생이 끝났을 때 되감기될지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | 타이밍을 가속(또는 감속)할 비율을 지정합니다. 읽기/쓰기 Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | 트리거 후 지연 시간을 설명합니다. 읽기/쓰기 Single. |
 | [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | 트리거 유형을 설명합니다. 읽기/쓰기 [`EffectTriggerType`](../effecttriggertype). |
 
-### 참조
+### 또 보기
 
 * 인터페이스 [ITiming](../itiming)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

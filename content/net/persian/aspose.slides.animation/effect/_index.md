@@ -1,42 +1,42 @@
 ---
 title: Effect
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش‌گر افکت انیمیشن.
+description: نمایانگر یک افکت انیمیشن است.
 type: docs
 weight: 280
 url: /fa/aspose.slides.animation/effect/
 ---
-## Effect کلاس
+## کلاس Effect
 
-نمایش‌گر افکت انیمیشن.
+نمایانگر یک افکت انیمیشن است.
 
 ```csharp
 public class Effect : IEffect
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | یک رنگ پس از انیمیشن برای اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | یک نوع پس از انیمیشن برای اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | یک نوع متن متحرک برای اثر را تعریف می‌کند. متن شکل می‌تواند به صورت حرف، کلمه یا به‌صورت کلی متحرک شود. قابل‌خواندن/قابل‌نوشتن [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | یک مجموعه از رفتارها برای اثر را برمی‌گرداند. قابل‌خواندن/قابل‌نوشتن [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | یک تاخیر بین بخش‌های متن متحرک (کلمات یا حروف) را تعریف می‌کند. مقدار مثبت درصد مدت زمان اثر را مشخص می‌کند. مقدار منفی تاخیر را بر حسب ثانیه مشخص می‌کند. قابل‌خواندن/قابل‌نوشتن Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | کلاس اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | یک دنباله برای یک اثر را برمی‌گرداند. فقط‌قابل‌خواندن [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | یک صدای توکار برای اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | این ویژگی مشخص می‌کند که آیا اثر انیمیشن صدا قبلی را متوقف می‌کند یا نه. قابل‌خواندن/قابل‌نوشتن Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | زیرنوع اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | شکل هدف برای اثر را برمی‌گرداند. فقط‌قابل‌خواندن [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation فقط‌قابل‌خواندن [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | مقدار زمان‌بندی برای اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | نوع اثر را تعریف می‌کند. قابل‌خواندن/قابل‌نوشتن [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | یک رنگ پس از انیمیشن برای اثر را تعریف می‌کند. قابل خواندن/نوشتن [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | یک نوع پس از انیمیشن برای اثر را تعریف می‌کند. قابل خواندن/نوشتن [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | یک نوع متن انیمیشن برای اثر را تعریف می‌کند. متن شکل می‌تواند بر اساس حرف، کلمه یا تماماً به‌صورت همزمان انیمیشن شود. قابل خواندن/نوشتن [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | مجموعه‌ای از رفتارها برای اثر را برمی‌گرداند. قابل خواندن/نوشتن [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | یک تاخیر بین بخش‌های متن انیمیشن (کلمات یا حروف) را تعریف می‌کند. مقدار مثبت درصد مدت زمان اثر را مشخص می‌کند. مقدار منفی تاخیر را بر حسب ثانیه مشخص می‌کند. قابل خواندن/نوشتن Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | کلاس اثر را تعریف می‌کند. قابل خواندن/نوشتن [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | یک دنباله برای یک اثر را برمی‌گرداند. فقط خواندنی [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | صدای توکار برای اثر را تعریف می‌کند. قابل خواندن/نوشتن [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | این ویژگی مشخص می‌کند آیا اثر انیمیشن صوت قبلی را متوقف می‌کند یا نه. قابل خواندن/نوشتن Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | زیردسته اثر را تعریف می‌کند. قابل خواندن/نوشتن [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | شکل هدف برای اثر را برمی‌گرداند. فقط خواندنی [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation فقط خواندنی [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | مقدار زمان‌بندی برای اثر را تعریف می‌کند. قابل خواندن/نوشتن [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | نوع اثر را تعریف می‌کند. قابل خواندن/نوشتن [`EffectType`](../effecttype). |
 
 ### موارد مرتبط
 
 * رابط [IEffect](../ieffect)
 * فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
-* اسمبلی [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

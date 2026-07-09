@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một đối tượng Slide Zoom trong một slide.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu thị một đối tượng Slide Zoom trong một slide.
 type: docs
 weight: 7400
 url: /vi/aspose.slides/izoomframe/
 ---
 ## IZoomFrame giao diện
 
-Represents a Slide Zoom object in a slide.
+Biểu thị một đối tượng Slide Zoom trong một slide.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | Tên | Mô tả |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Trả về giao diện IZoomObject. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Lấy hoặc thiết lập đối tượng slide mà đối tượng Slide Zoom liên kết tới. Đọc/ghi [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Lấy hoặc đặt đối tượng slide mà đối tượng Slide Zoom liên kết tới. Đọc/ghi [`ISlide`](../islide). |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes para referência da API .NET
-description: Representa opções de decisão do retorno de aviso.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa opções de decisão de retorno de chamada de aviso.
 type: docs
-weight: 11800
+weight: 11820
 url: /pt/aspose.slides.warnings/returnaction/
 ---
 ## enumeração ReturnAction
 
-Representa opções de decisão do retorno de aviso.
+Representa opções de decisão de retorno de chamada de aviso.
 
 ```csharp
 public enum ReturnAction

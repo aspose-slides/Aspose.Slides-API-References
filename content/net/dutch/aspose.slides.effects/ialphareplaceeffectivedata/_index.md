@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Alpha Replace-effect vertegenwoordigt. Effect-alpha-doorzichtigheidswaarden worden vervangen door een vaste alfa.
+description: Onveranderlijk object dat een Alpha Replace-effect vertegenwoordigt. Alpha-doorzichtigheidswaarden van het effect worden vervangen door een vaste alpha.
 type: docs
 weight: 3150
 url: /nl/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData interface
 
-Onveranderlijk object dat een Alpha Replace-effect vertegenwoordigt. Effect-alfa (doorzichtigheid) waarden worden vervangen door een vaste alfa.
+Onveranderlijk object dat een Alpha Replace-effect vertegenwoordigt. Alpha-waarden (doorzichtigheid) van het effect worden vervangen door een vaste alpha.
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Retourneert nieuwe alfabewerking in het interval [0..1] Alleen-lezen Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Biedt toegang tot de basis IEffectEffectiveData interface. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | Geeft nieuwe alpha-waarde terug in het interval [0..1] Alleen-lezen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | Stelt u in staat de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: Fonts
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Koleksi Fonts.
+description: Koleksi font.
 type: docs
-weight: 4900
+weight: 4920
 url: /id/aspose.slides/fonts/
 ---
-## Kelas Fonts
+## Fonts kelas
 
-Koleksi Fonts.
+Koleksi font.
 
 ```csharp
 public class Fonts : IFonts
@@ -29,7 +29,7 @@ public class Fonts : IFonts
 | [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Mendapatkan nama font yang terkait dengan tag skrip tertentu dari tema presentasi. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Mengembalikan kamus semua definisi font skrip dalam presentasi. |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Menghapus pengaturan font yang terkait dengan tag skrip tertentu dari koleksi font tema. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Menetapkan nama font ke tag skrip tertentu, yang menentukan bagaimana teks skrip tersebut akan ditampilkan dalam presentasi. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Menetapkan nama font ke tag skrip tertentu, yang menentukan bagaimana teks skrip tersebut akan dirender dalam presentasi. |
 
 ### Lihat Juga
 

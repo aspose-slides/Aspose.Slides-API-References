@@ -1,6 +1,6 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 允許建立 MathematicalText 元素
 type: docs
 weight: 9070
@@ -14,26 +14,26 @@ url: /zh-hant/aspose.slides.mathtext/mathematicaltextfactory/
 public class MathematicalTextFactory : IMathematicalTextFactory
 ```
 
-## 建構函式
+## 建構子
 
 | 名稱 | 說明 |
 | --- | --- |
-| [MathematicalTextFactory](mathematicaltextfactory)() | 預設建構函式。 |
+| [MathematicalTextFactory](mathematicaltextfactory)() | 預設建構子。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 建立空的數學文字元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 建立具有指定值的數學文字元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 建立具有指定值的空數學文字元素 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 建立具有指定值和 IPortionFormat 格式屬性的空數學文字元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 建立空的 MathematicalText 元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 使用指定的值建立 MathematicalText 元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 以指定的值建立空的 MathematicalText 元素 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 以指定的值和 IPortionFormat 格式屬性建立空的 MathematicalText 元素 |
 
 ### 備註
 
 用於 COM 相容性
 
-### 參見
+### 另見
 
 * 介面 [IMathematicalTextFactory](../imathematicaltextfactory)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

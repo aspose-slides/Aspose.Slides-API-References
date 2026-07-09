@@ -1,6 +1,6 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ, bao gồm trình giữ chỗ tiêu đề cho mọi loại slide handout và notes.
 type: docs
 weight: 950
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager lớp
 
-Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ, bao gồm trình giữ chỗ tiêu đề cho mọi loại slide handout và notes.
+Đại diện cho trình quản lý giữ các hành vi của các trình giữ chỗ, bao gồm trình giữ chỗ tiêu đề cho mọi loại slide handout và notes.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,10 +19,10 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ ngày-giờ có mặt. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ chân trang có mặt. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ tiêu đề có mặt. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị cho biết rằng một trình giữ chỗ số trang có mặt. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị cho biết rằng có một trình giữ chỗ ngày-giờ. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị cho biết rằng có một trình giữ chỗ chân trang. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Lấy giá trị cho biết rằng có một trình giữ chỗ tiêu đề. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị cho biết rằng có một trình giữ chỗ số trang. ReadBoolean. |
 
 ## Phương thức
 
@@ -36,7 +36,7 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 | [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ tiêu đề trên slide. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang trên slide. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * giao diện [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)

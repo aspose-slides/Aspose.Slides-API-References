@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes .NET API 參考
-description: 表示角落方向的過渡類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示角落方向過渡類型。
 type: docs
 weight: 10350
 url: /zh-hant/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType 列舉
 
-表示角落方向的過渡類型。
+表示角落方向過渡類型。
 
 ```csharp
 public enum TransitionCornerDirectionType

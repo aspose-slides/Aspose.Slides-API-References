@@ -14,13 +14,13 @@ url: /ar/aspose.slides.mathtext/mathmatrixfactory/
 public class MathMatrixFactory : IMathMatrixFactory
 ```
 
-## المنشئين
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [MathMatrixFactory](mathmatrixfactory)() | منشئ افتراضي. |
+| [MathMatrixFactory](mathmatrixfactory)() | المُنشئ الافتراضي. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
@@ -28,9 +28,9 @@ public class MathMatrixFactory : IMathMatrixFactory
 
 ### ملاحظات
 
-للتوافق مع COM
+لتوافق COM
 
-### انظر أيضًا
+### انظر أيضا
 
 * الواجهة [IMathMatrixFactory](../imathmatrixfactory)
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)

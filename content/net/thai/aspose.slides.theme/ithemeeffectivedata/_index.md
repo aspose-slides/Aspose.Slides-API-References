@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติโธีมที่มีผล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของธีมที่มีผล
 type: docs
 weight: 11380
 url: /th/aspose.slides.theme/ithemeeffectivedata/
 ---
-## อินเทอร์เฟซ IThemeEffectiveData
+## IThemeEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติโทร์มที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของธีมที่มีผล.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -16,20 +16,20 @@ public interface IThemeEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | ส่งคืนแบบฟอนต์สเคม. อ่านอย่างเดียว [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | ส่งคืนสเคมรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | ส่งคืนแบบอักษร. อ่านอย่างเดียว [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | ส่งคืนรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | ส่งคืนสเคมสี. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | ส่งคืนแบบสี. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITheme`](../itheme) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยมีการใช้การสืบทอด
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITheme`](../itheme) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลพร้อมการสืบทอด.
 
 ### ดูเพิ่มเติม
 

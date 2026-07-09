@@ -1,31 +1,31 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر سلول جدول است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: شیء تغییرناپذیر که ویژگی‌های قالب‌بندی مؤثر سلول جدول را شامل می‌شود.
 type: docs
 weight: 5480
 url: /fa/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر سلول جدول است.
+شیء تغییرناپذیر که ویژگی‌های قالب‌بندی مؤثر سلول جدول را شامل می‌شود.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | اجازه می‌دهد رابط IBaseTableFormatEffectiveData پایه را دریافت کند. فقط-خواندنی [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | شفافیت رنگ پر را دریافت می‌کند. یک‌عدد. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | اجازه دریافت رابط IBaseTableFormatEffectiveData پایه را می‌دهد. فقط-خواندنی [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | شفافیت رنگ پرشدگی را دریافت می‌کند. خواندنی Single. |
 
-### توضیحاتی
+### توضیحات
 
-این رابط همراه با رابط [`ICellFormat`](../icellformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال ارث‌بری و استایل‌های جدول استفاده می‌شود.
+این رابط همراه با رابط [`ICellFormat`](../icellformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با وراثت و اعمال سبک‌های جدول استفاده می‌شود.
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

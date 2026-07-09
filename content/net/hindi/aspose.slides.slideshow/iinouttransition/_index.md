@@ -1,6 +1,6 @@
 ---
 title: IInOutTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10110
@@ -8,18 +8,18 @@ url: /hi/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition इंटरफ़ेस
 
-इन-आउट स्लाइड ट्रांज़िशन इफ़ेक्ट।
+इन-आउट स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | ट्रांज़िशन इफ़ेक्ट की दिशा। पढ़ने/लिखने योग्य [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | आधार ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | एक ट्रांज़िशन प्रभाव की दिशा। पढ़ने/लिखने योग्य [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
 
 ### देखें भी
 

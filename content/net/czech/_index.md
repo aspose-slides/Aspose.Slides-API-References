@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /cs/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides jsou sady API pro správu Microsoft PowerPoint® umožňující softwarovým aplikacím číst a zapisovat dokumenty PowerPoint® bez použití Microsoft PowerPoint®.
+description: Aspose.Slides jsou sady API pro správu Microsoft PowerPoint®, které umožňují softwarovým aplikacím číst a zapisovat dokumenty PowerPoint® bez použití Microsoft PowerPoint®.
 is_root: true
 ---
 ## Jmenné prostory
@@ -18,14 +18,14 @@ is_root: true
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Obsahuje třídy pro práci s objekty OLE v prezentacích Microsoft PowerPoint. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Obsahuje třídy pro práci s různými efekty v prezentacích Microsoft PowerPoint. |
 | [Aspose.Slides.Excel](./aspose.slides.excel) | Obsahuje třídy pro práci s externími tabulkami Microsoft Excel. |
-| [Aspose.Slides.Export](./aspose.slides.export) | Obsahuje třídy pro export prezentací Microsoft PowerPoint do různých formátů, jako jsou Html, Pdf, Svg, Xps a další. |
+| [Aspose.Slides.Export](./aspose.slides.export) | Obsahuje třídy pro export prezentací Microsoft PowerPoint do různých formátů, jako je Html, Pdf, Svg, Xps a další. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Obsahuje třídy pro export prezentací Microsoft PowerPoint do Html s rozšířenými projekty. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Obsahuje třídy pro export prezentací Microsoft PowerPoint do XAML. |
-| [Aspose.Slides.Import](./aspose.slides.import) | Obsahuje třídy pro import dat do prezentací Microsoft PowerPoint. |
+| [Aspose.Slides.Import](./aspose.slides.import) | Obsahuje třídy pro importování dat do prezentací Microsoft PowerPoint. |
 | [Aspose.Slides.Ink](./aspose.slides.ink) | Obsahuje třídy pro práci s Ink. |
 | [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Obsahuje třídy a metody pro zpracování složitých obecných operací nízkokódovým způsobem. |
 | [Aspose.Slides.MathText](./aspose.slides.mathtext) | Obsahuje třídy pro práci s matematickým textem v prezentacích Microsoft PowerPoint. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Obsahuje třídy pro správu prezentací a přechodů mezi snímky |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Obsahuje třídy pro správu prezentací a přechodů snímků |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Obsahuje třídy pro práci s objekty SmartArt |
 | [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Obsahuje třídy pro práci s objekty tabulek v prezentacích Microsoft PowerPoint. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Obsahuje třídy pro práci s různými typy motivů. |

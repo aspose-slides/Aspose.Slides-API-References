@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: อนุญาตให้ระบุตัวเลือกเพิ่มเติม เช่น รูปแบบหรือแบบอักษรเริ่มต้นเมื่อโหลดงานนำเสนอ
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อนุญาตให้ระบุตัวเลือกเพิ่มเติม เช่น รูปแบบหรือแบบอักษรเริ่มต้นเมื่อโหลดการนำเสนอ
 type: docs
 weight: 7840
 url: /th/aspose.slides/loadoptions/
 ---
 ## LoadOptions คลาส
 
-อนุญาตให้ระบุตัวเลือกเพิ่มเติม (เช่น รูปแบบหรือแบบอักษรเริ่มต้น) ขณะโหลดงานนำเสนอ
+อนุญาตให้ระบุตัวเลือกเพิ่มเติม (เช่น รูปแบบหรือแบบอักษรเริ่มต้น) เมื่อโหลดการนำเสนอ
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -16,29 +16,29 @@ public class LoadOptions : ILoadOptions
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | สร้างตัวเลือกการโหลดเริ่มต้นใหม่ |
 | [LoadOptions](loadoptions#constructor_1)(LoadFormat) | สร้างตัวเลือกการโหลดใหม่ |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | เป็นตัวแทนของตัวเลือกที่สามารถใช้ในการจัดการพฤติกรรมการจัดการ Binary Large Objects (BLOBs) เช่น การใช้ไฟล์ชั่วคราวหรือจำนวนไบต์สูงสุดของ BLOBs ในหน่วยความจำ ตัวเลือกเหล่านี้มีวัตถุประสงค์เพื่อกำหนดอัตราส่วนประสิทธิภาพ/การใช้หน่วยความจำที่ดีที่สุดสำหรับสภาพแวดล้อมหรือความต้องการเฉพาะ BLOB (Binary Large Object) คือข้อมูลไบนารีที่จัดเก็บเป็นเอนทิตีเดียว เช่น BLOB สามารถเป็นไฟล์เสียง วิดีโอ หรือการนำเสนอเอง |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | คืนค่าหรือกำหนดแบบอักษร Asian ที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน/เขียน String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | คืนค่าหรือกำหนดแบบอักษร Regular ที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน/เขียน String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | คืนค่าหรือกำหนดแบบอักษร Symbol ที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน/เขียน String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | คืนค่าหรือกำหนดภาษาตัวดีฟอลต์สำหรับข้อความในงานนำเสนอ. อ่าน/เขียน String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | กำหนดว่า Aspose.Slides จะลบออบเจ็กต์ไบนารีที่ฝังทั้งหมดขณะโหลดการนำเสนอหรือไม่ |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | ระบุแหล่งที่มาของแบบอักษรภายนอกที่จะใช้ในงานนำเสนอ แบบอักษรเหล่านี้จะมีให้กับงานนำเสนอตลอดอายุการใช้งานและจะไม่ถูกแชร์กับงานนำเสนออื่น |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | โทเค็นที่ใช้ตรวจสอบคำขอการหยุดชั่วคราว โทเค็นนี้จัดการอายุการใช้งานทั้งหมดของอินสแตนซ์ [`IPresentation`](../ipresentation) การดำเนินการที่ใช้เวลานาน เช่น การโหลดหรือบันทึกงานนำเสนอ จะถูกหยุดโดยการเรียกเมธอด [`Interrupt`](../interruptiontokensource/interrupt) ของ [`InterruptionTokenSource`](../interruptiontokensource) |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | คืนค่าหรือกำหนดรูปแบบของงานนำเสนอที่ต้องการโหลด. อ่าน/เขียน [`LoadFormat`](../loadformat) |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | คุณสมบัตินี้มีประโยชน์เมื่อไฟล์งานนำเสนอถูกป้องกันด้วยรหัสผ่าน ค่า true หมายถึงโหลดเฉพาะคุณสมบัติเบื้องต้นของเอกสารจากไฟล์ที่เข้ารหัสและละเลยรหัสผ่าน ค่า false หมายถึงต้องโหลดงานนำเสนอทั้งหมดโดยใช้รหัสผ่านที่ถูกต้อง หากงานนำเสนอไม่ได้เข้ารหัสคุณสมบัตินี้จะถูกละเลยเสมอ หากคุณสมบัติของเอกสารที่เข้ารหัสไม่เปิดเผยและค่าเป็น true จะไม่สามารถโหลดคุณสมบัติได้และจะเกิดข้อยกเว้น. อ่าน/เขียน Boolean |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | รับหรือกำหนดรหัสผ่าน. อ่าน/เขียน String |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | คืนค่าหรือกำหนดอินเทอร์เฟซ callback ที่จัดการการโหลดทรัพยากรภายนอก. อ่าน/เขียน [`IResourceLoadingCallback`](../iresourceloadingcallback) |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | แสดงถึงตัวเลือกที่สามารถใช้จัดการพฤติกรรมการจัดการ Binary Large Objects (BLOBs) เช่น การใช้ไฟล์ชั่วคราวหรือจำนวนไบต์สูงสุดของ BLOBs ในหน่วยความจำ ตัวเลือกเหล่านี้มีจุดมุ่งหมายเพื่อกำหนดอัตราส่วนประสิทธิภาพ/การใช้หน่วยความจำที่ดีที่สุดสำหรับสภาพแวดล้อมหรือความต้องการเฉพาะ A Binary Large Object (BLOB) คือข้อมูลไบนารีที่จัดเก็บเป็นเอกเทศเดียว - ตัวอย่างเช่น BLOB สามารถเป็นไฟล์เสียง วิดีโอ หรือการนำเสนอเอง |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | ส่งคืนหรือกำหนดแบบอักษรเอเชียที่ใช้เมื่อไม่พบแบบอักษรต้นฉบับ อ่าน/เขียน String |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | ส่งคืนหรือกำหนดแบบอักษรธรรมดาที่ใช้เมื่อไม่พบแบบอักษรต้นฉบับ อ่าน/เขียน String |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | ส่งคืนหรือกำหนดแบบอักษรสัญลักษณ์ที่ใช้เมื่อไม่พบแบบอักษรต้นฉบับ อ่าน/เขียน String |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | ส่งคืนหรือกำหนดภาษาดีฟอลต์สำหรับข้อความในงานนำเสนอ อ่าน/เขียน String |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | กำหนดว่า Aspose.Slides จะลบวัตถุไบนารีที่ฝังทั้งหมดขณะโหลดการนำเสนอหรือไม่ |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | ระบุแหล่งที่มาของแบบอักษรภายนอกที่จะใช้ในงานนำเสนอ แบบอักษรเหล่านี้พร้อมใช้งานตลอดอายุการใช้งานของงานนำเสนอและไม่แชร์กับงานนำเสนออื่น |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | โทเค็นสำหรับตรวจสอบคำขอการขัดจังหวะ โทเค็นนี้จัดการอายุการใช้งานของอินสแตนซ์ [`IPresentation`](../ipresentation) ทั้งหมด การดำเนินการที่ใช้เวลานาน เช่น การโหลดหรือการบันทึกการนำเสนอ จะถูกขัดจังหวะโดยการเรียกเมธอด [`Interrupt`](../interruptiontokensource/interrupt) ของ [`InterruptionTokenSource`](../interruptiontokensource) |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | ส่งคืนหรือกำหนดรูปแบบของการนำเสนอที่ต้องการโหลด อ่าน/เขียน [`LoadFormat`](../loadformat) |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | คุณสมบัตินี้มีความหมายเมื่อไฟล์การนำเสนอถูกป้องกันด้วยรหัสผ่าน ค่า true หมายความว่าจะโหลดเฉพาะคุณสมบัติของเอกสารจากไฟล์การนำเสนอที่เข้ารหัสและละเว้นรหัสผ่าน ค่า false หมายความว่าจะโหลดการนำเสนอที่เข้ารหัสทั้งหมดโดยใช้รหัสผ่านที่ถูกต้อง หากการนำเสนอไม่ได้เข้ารหัสค่าของคุณสมบัติจะแสดงผลเสมอ หากคุณสมบัติของเอกสารในไฟล์ที่เข้ารหัสไม่เป็นสาธารณะและค่าคุณสมบัติเป็น true จะไม่สามารถโหลดคุณสมบัติเจ้าด็อกเมนต์และจะเกิดข้อยกเว้น อ่าน/เขียน Boolean |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | รับหรือกำหนดรหัสผ่าน อ่าน/เขียน String |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | ส่งคืนหรือกำหนดอินเทอร์เฟซ callback ที่จัดการการโหลดทรัพยากรภายนอก อ่าน/เขียน [`IResourceLoadingCallback`](../iresourceloadingcallback) |
 | [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | รับตัวเลือกสำหรับสเปรดชีต ตัวอย่างเช่น ตัวเลือกเหล่านี้มีผลต่อการคำนวณสูตรสำหรับแผนภูมิ |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | คืนค่าหรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือถูกยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | ส่งคืนหรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) |
 
 ### ดูเพิ่มเติม
 

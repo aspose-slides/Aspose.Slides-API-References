@@ -1,12 +1,12 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Slides .NET API Referansı
-description: Görüntü efektlerinin örneklerini oluşturur
+second_title: Aspose.Sildes için .NET API Referansı
+description: Görüntü efektleri örneklerini oluşturur
 type: docs
-weight: 3390
+weight: 3410
 url: /tr/aspose.slides.effects/iimagetransformoperationfactory/
 ---
-## IImageTransformOperationFactory arabirimi
+## IImageTransformOperationFactory arayüz
 
 Görüntü efektlerinin örneklerini oluşturur
 
@@ -16,29 +16,29 @@ public interface IImageTransformOperationFactory
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel etkisini oluşturur. |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Alpha floor etkisini oluşturur. |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Alpha inverse etkisini oluşturur. |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Alpha modulate etkisini oluşturur. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed etkisini oluşturur. |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Alpha replace etkisini oluşturur. |
-| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Alpha Ceiling etkisini oluşturur. |
-| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | BiLevel etkisini oluşturur. |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Blur etkisini oluşturur. |
-| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Color change etkisini oluşturur. |
-| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Color replace etkisini oluşturur. |
-| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Duotone etkisini oluşturur. |
-| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Fill overlay etkisini oluşturur. |
-| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Gray scale etkisini oluşturur. |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance etkisini oluşturur. |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Luminance etkisini oluşturur. |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Tint etkisini oluşturur. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel efektini oluşturur. |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | Alpha floor efektini oluşturur. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | Alpha inverse efektini oluşturur. |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | Alpha modulate efektini oluşturur. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed efektini oluşturur. |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Alpha replace efektini oluşturur. |
+| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Alpha Ceiling efektini oluşturur. |
+| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | BiLevel efektini oluşturur. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Blur efektini oluşturur. |
+| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Color change efektini oluşturur. |
+| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Color replace efektini oluşturur. |
+| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Duotone efektini oluşturur. |
+| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Fill overlay efektini oluşturur. |
+| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Gray scale efektini oluşturur. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance efektini oluşturur. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Luminance efektini oluşturur. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Tint efektini oluşturur. |
 
 ### Açıklamalar
 
-COM arabirimi için.
+COM arayüzü için.
 
 ### Ayrıca Bakınız
 

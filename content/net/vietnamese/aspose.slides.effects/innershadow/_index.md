@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một hiệu ứng Inner Shadow.
+description: Biểu diễn một hiệu ứng Inner Shadow.
 type: docs
 weight: 3600
 url: /vi/aspose.slides.effects/innershadow/
 ---
-## lớp InnerShadow
+## InnerShadow lớp
 
-Đại diện cho hiệu ứng InnerShadow.
+Biểu diễn một hiệu ứng Inner Shadow.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -27,8 +27,8 @@ public sealed class InnerShadow : IInnerShadow
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Xác định xem [`InnerShadow`](../innershadow) được chỉ định có bằng [`InnerShadow`](../innershadow) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Lấy dữ liệu hiệu ứng InnerShadow thực tế với kế thừa được áp dụng. |
+| override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Xác định xem [`InnerShadow`](../innershadow) được chỉ định có bằng với [`InnerShadow`](../innershadow) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Lấy dữ liệu hiệu ứng Inner Shadow thực tế với kế thừa được áp dụng. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm

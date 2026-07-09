@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
-description: Objeto imutável que contém as propriedades efetivas do esquema de fontes.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que contém propriedades efetivas do esquema de fontes.
 type: docs
-weight: 11240
+weight: 11260
 url: /pt/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData interface
 
-Objeto imutável que contém as propriedades efetivas do esquema de fontes.
+Objeto imutável que contém propriedades efetivas do esquema de fontes.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -16,10 +16,10 @@ public interface IFontSchemeEffectiveData
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Retorna a coleção de fontes para a parte de "cabeçalho" do slide. Somente leitura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Retorna a coleção de fontes para a parte de "corpo" do slide. Somente leitura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Retorna a coleção de fontes para a parte "heading" do slide. Somente leitura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Retorna a coleção de fontes para a parte "body" do slide. Somente leitura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
 | [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Retorna o nome do esquema de fontes. Somente leitura String. |
 
 ### Observações

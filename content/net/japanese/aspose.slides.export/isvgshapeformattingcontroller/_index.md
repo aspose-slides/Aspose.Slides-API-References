@@ -3,7 +3,7 @@ title: ISvgShapeFormattingController
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SVG シェイプの生成を制御します。
 type: docs
-weight: 4110
+weight: 4130
 url: /ja/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController インターフェイス
@@ -18,9 +18,9 @@ public interface ISvgShapeFormattingController
 
 | 名前 | 説明 |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | この関数は、シェイプを SVG にレンダリングする前に呼び出され、ユーザーが結果の SVG を制御できるようにします。 |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | この関数は、シェイプを SVG にレンダリングする前に呼び出され、ユーザーが生成された SVG を制御できるようにします。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

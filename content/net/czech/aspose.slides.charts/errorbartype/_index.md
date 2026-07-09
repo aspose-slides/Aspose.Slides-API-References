@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje typ chybové čáry
+description: Reprezentuje typ chybového pruhu
 type: docs
-weight: 1620
+weight: 1640
 url: /cs/aspose.slides.charts/errorbartype/
 ---
-## Výčet ErrorBarType
+## ErrorBarType výčet
 
-Reprezentuje typ chybové čáry
+Reprezentuje typ chybového pruhu
 
 ```csharp
 public enum ErrorBarType
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Both | `0` | Určuje, že chybové čáry budou zobrazeny v kladném i záporném směru. |
-| Minus | `1` | Určuje, že chybové čáry budou zobrazeny pouze v záporném směru. |
-| Plus | `2` | Určuje, že chybové čáry budou zobrazeny pouze v kladném směru. |
+| Both | `0` | Určuje, že chybové pruhy budou zobrazeny v kladném i záporném směru. |
+| Minus | `1` | Určuje, že chybové pruhy budou zobrazeny pouze v záporném směru. |
+| Plus | `2` | Určuje, že chybové pruhy budou zobrazeny pouze v kladném směru. |
 
 ### Viz také
 

@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides/ifillparamsource/
 public interface IFillParamSource
 ```
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

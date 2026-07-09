@@ -8,7 +8,7 @@ url: /ko/aspose.slides.animation/colorspace/
 ---
 ## ColorSpace 열거형
 
-색상 효과 동작을 위한 색 공간을 나타냅니다.
+색상 효과 동작에 대한 색 공간을 나타냅니다.
 
 ```csharp
 public enum ColorSpace
@@ -22,7 +22,7 @@ public enum ColorSpace
 | RGB | `0` |  |
 | HSL | `1` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

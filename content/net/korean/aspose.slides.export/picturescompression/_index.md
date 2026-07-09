@@ -1,6 +1,6 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 그림 압축 수준을 나타냅니다
 type: docs
 weight: 4350
@@ -18,10 +18,10 @@ public enum PicturesCompression
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Dpi330 | `0` | 고화질(HD) 디스플레이에 적합한 품질 |
+| Dpi330 | `0` | 고해상도 (HD) 디스플레이에 대한 좋은 품질 |
 | Dpi220 | `1` | 대부분의 프린터와 화면에서 뛰어난 품질 |
-| Dpi150 | `2` | 웹 페이지 및 프로젝터에 적합 |
-| Dpi96 | `3` | 공유를 위한 문서 크기 최소화 |
+| Dpi150 | `2` | 웹 페이지와 프로젝터에 적합 |
+| Dpi96 | `3` | 공유를 위해 문서 크기 최소화 |
 | Dpi72 | `4` | 기본 압축 수준 |
 | DocumentResolution | `5` | 문서 해상도 사용 - 그림이 압축되지 않고 그대로 문서에 사용됩니다 |
 

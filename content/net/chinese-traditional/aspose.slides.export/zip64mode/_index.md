@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 指定何時對 OpenXML 檔案使用 ZIP64 format extensions。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 指定在何時對 OpenXML 檔案使用 ZIP64 格式擴充功能。
 type: docs
 weight: 4740
 url: /zh-hant/aspose.slides.export/zip64mode/
 ---
 ## Zip64Mode 列舉
 
-指定何時對 OpenXML 檔案使用 ZIP64 format extensions。
+指定何時對 OpenXML 檔案使用 ZIP64 格式擴充功能。
 
 ```csharp
 public enum Zip64Mode
@@ -16,17 +16,17 @@ public enum Zip64Mode
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Never | `0` | 不使用 ZIP64 format extensions。 |
-| IfNecessary | `1` | 如有必要，使用 ZIP64 format extensions。 |
-| Always | `2` | 總是使用 ZIP64 format extensions。 |
+| Never | `0` | 不使用 ZIP64 格式擴充功能。 |
+| IfNecessary | `1` | 若有必要，使用 ZIP64 格式擴充功能。 |
+| Always | `2` | 始終使用 ZIP64 格式擴充功能。 |
 
 ### 備註
 
-OpenXML 檔案是一個 ZIP 壓縮檔案，其未壓縮檔案大小、壓縮檔案大小以及壓縮檔總大小均受 4 GB (2^32 bytes) 的限制，且壓縮檔內檔案數量上限為 65,535 (2^16-1) 個。ZIP64 format extensions 可將限制提升至 2^64。
+OpenXML 檔案是一個 ZIP 壓縮檔案，其未壓縮檔案大小、壓縮檔案大小以及壓縮檔總大小均受到 4 GB（2^32 bytes）的限制，且壓縮檔中檔案數量上限為 65,535（2^16-1）個。ZIP64 格式擴充功能可將這些限制提升至 2^64。
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

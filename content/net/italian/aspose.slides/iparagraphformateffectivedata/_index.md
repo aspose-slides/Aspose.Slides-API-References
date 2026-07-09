@@ -1,46 +1,46 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes per .NET - Riferimento API
-description: Oggetto immutabile che contiene le proprietà di formattazione effective del paragrafo.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che contiene le proprietà di formattazione efficace del paragrafo.
 type: docs
-weight: 6580
+weight: 6600
 url: /it/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData interfaccia
+## IParagraphFormatEffectiveData interface
 
-Oggetto immutabile che contiene le proprietà di formattazione effective del paragrafo.
+Oggetto immutabile che contiene le proprietà di formattazione efficace del paragrafo.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
 ```
 
-## Proprietà
+## Properties
 
 | Nome | Descrizione |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Restituisce l'allineamento del testo in un paragrafo. Sola lettura [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Restituisce un formato di elenco puntato di un paragrafo. Sola lettura [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Restituisce il formato di porzione predefinito di un paragrafo. Sola lettura [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Restituisce la dimensione di tabulazione predefinita. Sola lettura Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Restituisce la profondità di un paragrafo. Sola lettura Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Determina se l'interruzione di riga orientale asiatica viene utilizzata in un paragrafo. Sola lettura Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Restituisce l'allineamento del carattere in un paragrafo. Sola lettura [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Determina se la punteggiatura sospesa viene utilizzata in un paragrafo. Sola lettura Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Restituisce il rientro della prima riga/il rientro sospeso del paragrafo. Il rientro sospeso può essere definito con valori negativi. Sola lettura Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Determina se l'interruzione di riga latina viene utilizzata in un paragrafo. Sola lettura Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Restituisce il margine sinistro in un paragrafo. Sola lettura Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Restituisce il margine destro in un paragrafo. Sola lettura Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Determina se la scrittura da destra a sinistra viene utilizzata in un paragrafo. Sola lettura Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Restituisce la quantità di spazio dopo l'ultima riga in un paragrafo. Sola lettura Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Restituisce la quantità di spazio prima della prima riga in un paragrafo. Sola lettura Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Restituisce la quantità di spazio tra le linee di base in un paragrafo. Sola lettura Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Restituisce le tabulazioni di un paragrafo. Sola lettura [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Restituisce l'allineamento del testo in un paragrafo. Solo lettura [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Restituisce un formato a elenco puntato di un paragrafo. Solo lettura [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Restituisce il formato di porzione predefinito di un paragrafo. Solo lettura [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Restituisce la dimensione di tabulazione predefinita. Solo lettura Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Restituisce la profondità di un paragrafo. Solo lettura Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Determina se l'interruzione di riga asiatica è usata in un paragrafo. Solo lettura Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Restituisce l'allineamento del carattere in un paragrafo. Solo lettura [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Determina se la punteggiatura sospesa è usata in un paragrafo. Solo lettura Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Restituisce l'indentazione della prima riga/indentazione sospesa del paragrafo. L'indentazione sospesa può essere definita con valori negativi. Solo lettura Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Determina se l'interruzione di riga latina è usata in un paragrafo. Solo lettura Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Restituisce il margine sinistro in un paragrafo. Solo lettura Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Restituisce il margine destro in un paragrafo. Solo lettura Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Determina se la scrittura da destra a sinistra è usata in un paragrafo. Solo lettura Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Restituisce la quantità di spazio dopo l'ultima riga in un paragrafo. Solo lettura Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Restituisce la quantità di spazio prima della prima riga in un paragrafo. Solo lettura Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Restituisce la quantità di spazio tra le linee di base in un paragrafo. Solo lettura Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Restituisce le tabulazioni di un paragrafo. Solo lettura [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### Osservazioni
+### Remarks
 
-Questa interfaccia è usata insieme all'interfaccia [`IParagraphFormat`](../iparagraphformat) per restituire i valori di formattazione effective con ereditarietà applicata.
+Questa interfaccia è utilizzata insieme all'interfaccia [`IParagraphFormat`](../iparagraphformat) per restituire i valori di formattazione efficace con ereditarietà applicata.
 
-### Vedi anche
+### See Also
 
 * spazio dei nomi [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

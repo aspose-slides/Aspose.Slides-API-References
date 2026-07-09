@@ -1,14 +1,14 @@
 ---
 title: PptOptions
-second_title: Aspose.Sildes a .NET API referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan kerül mentésre egy bemutató PPT formátumban.
+second_title: Aspose.Sildes .NET API Referencia
+description: Opciókat biztosít, amelyek szabályozzák, hogyan ment egy bemutató PPT formátumban.
 type: docs
-weight: 4340
+weight: 4360
 url: /hu/aspose.slides.export/pptoptions/
 ---
 ## PptOptions osztály
 
-Lehetőségeket biztosít, amelyek szabályozzák, hogyan kerül mentésre egy bemutató PPT formátumban.
+Lehetőségeket biztosít, amelyek szabályozzák, hogyan ment egy bemutató PPT formátumban.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -18,18 +18,18 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | Név | Leírás |
 | --- | --- |
-| [PptOptions](pptoptions)() | Alapértelmezett konstruktor. |
+| [PptOptions](pptoptions)() | Az alapértelmezett konstruktor. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amelyet akkor használ, ha a forrás betűtípusa nem található. Olvasás-írás String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradiens vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentés előrehaladásának százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Az objektum osztály GUID-ját (CLSID) képviseli, amely a gyökérkönyvtár bejegyzésben van tárolva. Használható a dokumentum alkalmazásának COM aktiválásához. Az alapértelmezett érték '64818D11-4F9B-11CF-86EA-00AA00B929E8', amely a 'Microsoft Powerpoint.Slide.8' értékre mutat. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a betűtípust, amely akkor használatos, ha a forrásbetűtípus nem található. Olvasás-írás String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Visszaadja vagy beállítja a gradient vizuális stílusát. Olvasás/írás [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Egy visszahívási objektumot képvisel a mentési előrehaladás százalékos frissítéseihez. Lásd [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Az objektumosztály GUID-ját (CLSID) képviseli, amely a gyökérkönyvtár bejegyzésben van tárolva. Használható a dokumentumalkalmazás COM aktiválásához. Az alapértelmezett érték '64818D11-4F9B-11CF-86EA-00AA00B929E8', amely a 'Microsoft Powerpoint.Slide.8'-nek felel meg. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Megadja, hogy a bemutató mentésekor kihagyja-e a JavaScript hívásokat tartalmazó hiperhivatkozásokat. Olvasás/írás Boolean. Az alapértelmezett érték **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaad egy objektumot, vagy beállít egy olyan objektumot, amely figyelmeztetéseket kap és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódik-e vagy megszakad. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lásd még
 

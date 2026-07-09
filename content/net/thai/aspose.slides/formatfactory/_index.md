@@ -18,25 +18,25 @@ public class FormatFactory : IFormatFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FormatFactory](formatfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [FormatFactory](formatfactory)() | ตัวสร้างค่าเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | อินสแตนซ์คงที่ของโรงงานฟอร์แมต. อ่านอย่างเดียว [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | อินสแตนซ์แบบสเตติกของ Format factory. อ่านอย่างเดียว [`FormatFactory`](../formatfactory). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | สร้าง [`IParagraphFormat`](../iparagraphformat) ใหม่ |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | สร้าง [`IPortionFormat`](../iportionformat) ใหม่ |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | สร้าง [`ITextFrameFormat`](../itextframeformat) ใหม่ |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | สร้างใหม่ [`IParagraphFormat`](../iparagraphformat). |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | สร้างใหม่ [`IPortionFormat`](../iportionformat). |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | สร้างใหม่ [`ITextFrameFormat`](../itextframeformat). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IFormatFactory](../iformatfactory)
+* อินเตอร์เฟซ [IFormatFactory](../iformatfactory)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

@@ -1,6 +1,6 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Slides for .NET API 參考
 description: 表示超連結。
 type: docs
 weight: 6110
@@ -16,27 +16,27 @@ public interface IHyperlink
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | 傳回 HyperLinkEx 動作的類型。唯讀 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超連結顏色的來源 - 可能是樣式或文字區段格式。讀寫 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL。如果此屬性不為 null，則屬性 TargetSlide 會變為 null。唯讀 String。 |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 表示為此文字區段設定的超連結，且不考慮該區段的實際內容。PowerPoint 會對區段中的連結及其相對應的文字有特定的行為。它允許以有效的 URL 形式建立超連結文字，該文字可能與連結的實際位址不同。在此情況下，於編輯視窗中檢視連結時，會將其變更為符合文字區段的內容。此屬性代表超連結的原始值。 |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 決定點擊時是否應突顯此超連結。讀寫 Boolean。 |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 決定在呼叫父超連結時，是否將其目標加入已檢視超連結的清單。讀寫 Boolean。 |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 表示此超連結的播放聲音。讀寫 [`IAudio`](../iaudio)。 |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 決定在點擊超連結時是否停止聲音。讀寫 Boolean。 |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 傳回父 HTML frameset 中，父超連結目標所在的框架（若存在）。讀寫 String。 |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 目標為特定投影片，則傳回該投影片。若此屬性不為 null，則屬性 ExternalUrl 會變為 null。唯讀 [`ISlide`](../islide)。 |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 傳回可在使用者介面中顯示的字串，與父超連結相關聯。讀寫 String。 |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | 傳回 HyperLinkEx 的動作類型。唯讀 [`HyperlinkActionType`](../hyperlinkactiontype)。 |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 表示超連結顏色的來源 — 來自樣式或文字區段格式。可讀寫 [`HyperlinkColorSource`](../hyperlinkcolorsource)。 |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 指定外部 URL。若此屬性變為非 null，則屬性 TargetSlide 變為 null。唯讀 String。 |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 表示設定於此文字區段的超連結，且不考慮區段的實際內容。PowerPoint 會對連結及其對應的文字區段有特定行為。它允許以有效的 URL 形式建立超連結的文字，與實際連結位址不同。在此情況下，當您在編輯視窗中檢視連結時，會自動變更為符合文字區段的內容。此屬性代表超連結的原始值。 |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 決定點擊時是否應突顯此超連結。可讀寫 Boolean。 |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 決定在呼叫時，是否將父超連結的目標加入已檢視超連結清單。可讀寫 Boolean。 |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 表示超連結的播放聲音。可讀寫 [`IAudio`](../iaudio)。 |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 決定在點擊超連結時是否應停止聲音。可讀寫 Boolean。 |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 傳回父 HTML frameset 中父超連結目標所在的框架（若存在）。可讀寫 String。 |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | 如果 HyperlinkEx 目標為特定投影片，則傳回該投影片。若此屬性變為非 null，則屬性 ExternalUrl 變為 null。唯讀 [`ISlide`](../islide)。 |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 傳回可能在使用者介面中顯示的、與父超連結相關聯的字串。可讀寫 String。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 判斷兩個 Hyperlink 實例是否相等。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

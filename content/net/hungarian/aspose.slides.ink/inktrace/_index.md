@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Trace objektumot képvisel. A Trace elem a digitalizáló által rögzített adatok felvételére szolgál. Pontsorozatot tartalmaz, amely a InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Trace objektumot képvisel. A Trace elem arra szolgál, hogy rögzítse a digitalizáló által felvett adatokat. Tartalmaz egy pontsorozatot, amely az InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
 type: docs
-weight: 7570
+weight: 7590
 url: /hu/aspose.slides.ink/inktrace/
 ---
 ## InkTrace osztály
 
-Egy Trace objektumot képvisel. A Trace elem a digitalizáló által rögzített adatok felvételére szolgál. Pontsorozatot tartalmaz, amely a InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
+Egy Trace objektumot képvisel. A Trace elem arra szolgál, hogy rögzítse a digitalizáló által felvett adatokat. Tartalmaz egy pontsorozatot, amely az InkTraceFormat objektum által megadott specifikáció szerint van kódolva.
 
 ```csharp
 public class InkTrace : IInkTrace

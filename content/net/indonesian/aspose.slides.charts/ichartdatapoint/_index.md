@@ -1,9 +1,9 @@
 ---
 title: IChartDataPoint
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili titik data seri.
 type: docs
-weight: 1800
+weight: 1820
 url: /id/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint antarmuka
@@ -16,33 +16,33 @@ public interface IChartDataPoint : IActualLayout
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Mengembalikan antarmuka IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Mengembalikan ukuran gelembung dari titik data grafik. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Mengembalikan nilai warna dari titik data grafik. Digunakan dengan grafik Peta. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Mengembalikan kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data dimulai dari nol. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Mengembalikan ukuran gelembung titik data diagram. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Mengembalikan nilai warna titik data diagram. Digunakan dengan diagram Peta. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Mengembalikan kontainer level titik data. Diterapkan untuk seri Treeamp dan Sunburst. Pengindeksan level titik data berbasis nol. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Mewakili nilai batang galat seri dalam kasus tipe nilai Custom. Hanya-baca [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Menentukan jumlah titik data yang harus dipindahkan dari pusat pai. Baca/tulis Int32. |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Menentukan jumlah pergeseran titik data dari pusat pai. Baca/tulis Int32. |
 | [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Mewakili properti pemformatan. Baca/tulis [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Menentukan koleksi anak orang tua mana yang diterapkan pada titik data ini. Baca UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Menentukan titik data harus membalikkan warnanya jika nilai negatif. Baca/tulis Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Menentukan bahwa gelembung memiliki efek 3D yang diterapkan padanya. Baca/tulis Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Mewakili label titik data grafik. Hanya-baca [`IDataLabel`](../idatalabel). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Menentukan koleksi anak orang tua yang berlaku untuk titik data ini. Baca UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Menentukan titik data akan membalikkan warnanya jika nilai negatif. Baca/tulis Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Menentukan bahwa gelembung memiliki efek 3-D yang diterapkan. Baca/tulis Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Mewakili label titik data diagram. Hanya-baca [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Menentukan penanda data. Hanya-baca [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Properti entri legenda yang sesuai bila tipe grafik dari daftar ini: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Hanya-baca [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Properti entri legenda yang bersesuaian dalam kasus tipe diagram dari daftar berikut: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Hanya-baca [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Menetapkan titik data sebagai total. Diterapkan hanya untuk tipe seri Waterfall. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Mengembalikan nilai ukuran titik data grafik. Digunakan dengan grafik Treemap dan Sunburst. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Mengembalikan nilai titik data grafik. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Mengembalikan nilai x titik data grafik. Hanya-baca [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Mengembalikan nilai y titik data grafik. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Mengembalikan nilai ukuran titik data diagram. Digunakan dengan diagram Treemap dan Sunburst. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Mengembalikan nilai titik data diagram. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Mengembalikan nilai x titik data diagram. Hanya-baca [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Mengembalikan nilai y titik data diagram. Hanya-baca [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Mengembalikan warna otomatis titik data berdasarkan indeks seri, indeks titik data, properti ParentSeriesGroup.IsColorVaried, dan gaya grafik. Warna ini digunakan secara default jika FillType sama dengan NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Menghapus DataPoint dari seri grafik. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Mengembalikan warna otomatis titik data berdasarkan indeks seri, indeks titik data, properti ParentSeriesGroup.IsColorVaried, dan gaya diagram. Warna ini digunakan secara default jika FillType bernilai NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Menghapus DataPoint dari seri diagram. |
 
 ### Lihat Juga
 

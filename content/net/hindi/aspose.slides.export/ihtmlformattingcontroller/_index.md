@@ -1,7 +1,7 @@
 ---
 title: IHtmlFormattingController
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: html फ़ाइल निर्माण को नियंत्रित करता है।
+description: एक html फ़ाइल निर्माण को नियंत्रित करता है।
 type: docs
 weight: 3950
 url: /hi/aspose.slides.export/ihtmlformattingcontroller/
@@ -14,18 +14,18 @@ url: /hi/aspose.slides.export/ihtmlformattingcontroller/
 public interface IHtmlFormattingController
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | html दस्तावेज़ फ़ूटर लिखने के लिए बुलाया जाता है। प्रस्तुति परिवर्तन के प्रति एक बार बुलाया जाता है। |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | html दस्तावेज़ हेडर लिखने के लिए बुलाया जाता है। प्रस्तुति परिवर्तन के प्रति एक बार बुलाया जाता है। |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | shape की रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जनरेटर को कुछ भी लिखता है, तो वर्तमान स्लाइड इमेज जनरेशन समाप्त हो जाएगी, जोड़े गए html फ़्रैगमेंट सम्मिलित किए जाएंगे और नई इमेज पिछले के ऊपर शुरू की जाएगी। |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | shape की रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जनरेटर को कुछ भी लिखता है, तो वर्तमान स्लाइड इमेज जनरेशन समाप्त हो जाएगी, जोड़े गए html फ़्रैगमेंट सम्मिलित किए जाएंगे और नई इमेज पिछले के ऊपर शुरू की जाएगी। |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | html स्लाइड फ़ूटर लिखने के लिए बुलाया जाता है। प्रत्येक स्लाइड के लिए एक बार बुलाया जाता है। |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | html दस्तावेज़ फुटर लिखने के लिए बुलाया जाता है। प्रस्तुति रूपांतरण में प्रति बार एक बार बुलाया जाता है। |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | html दस्तावेज़ हेडर लिखने के लिए बुलाया जाता है। प्रस्तुति रूपांतरण में प्रति बार एक बार बुलाया जाता है। |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | shape की रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जेनरेटर में कुछ भी लिखता है, तो वर्तमान स्लाइड छवि निर्माण समाप्त हो जाएगा, जोड़ा गया html फ्रैगमेंट सम्मिलित होगा और नई छवि पिछले के ऊपर शुरू होगी। |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | shape की रेंडरिंग से पहले बुलाया जाता है। प्रत्येक shape के लिए एक बार बुलाया जाता है। यदि यह फ़ंक्शन जेनरेटर में कुछ भी लिखता है, तो वर्तमान स्लाइड छवि निर्माण समाप्त हो जाएगा, जोड़ा गया html फ्रैगमेंट सम्मिलित होगा और नई छवि पिछले के ऊपर शुरू होगी। |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | html स्लाइड फुटर लिखने के लिए बुलाया जाता है। प्रत्येक स्लाइड के लिए एक बार बुलाया जाता है। |
 | [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | html स्लाइड हेडर लिखने के लिए बुलाया जाता है। प्रत्येक स्लाइड के लिए एक बार बुलाया जाता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

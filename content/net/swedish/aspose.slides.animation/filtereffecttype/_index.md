@@ -3,7 +3,7 @@ title: FilterEffectType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar filtereffekttyper.
 type: docs
-weight: 380
+weight: 400
 url: /sv/aspose.slides.animation/filtereffecttype/
 ---
 ## FilterEffectType enumeration
@@ -14,7 +14,7 @@ Representerar filtereffekttyper.
 public enum FilterEffectType
 ```
 
-### Values
+### Värden
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |

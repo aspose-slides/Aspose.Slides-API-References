@@ -1,9 +1,9 @@
 ---
 title: ILeftRightDirectionTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET referencja API
 description: Efekt przejścia slajdu w kierunku lewo-prawo.
 type: docs
-weight: 10100
+weight: 10120
 url: /pl/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition interfejs
@@ -21,7 +21,7 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | Umożliwia pobranie bazowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [ITransitionValueBase](../itransitionvaluebase)
 * przestrzeń nazw [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

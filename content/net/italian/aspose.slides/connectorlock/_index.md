@@ -3,7 +3,7 @@ title: ConnectorLock
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina quali operazioni sono disabilitate sul Connector genitore.
 type: docs
-weight: 2660
+weight: 2680
 url: /it/aspose.slides/connectorlock/
 ---
 ## ConnectorLock classe
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | Nome | Descrizione |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Determina se la modifica dei valori di regolazione è proibita. Lettura/scrittura Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Determina se la modifica delle punte delle frecce è proibita. Lettura/scrittura Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Determina se una forma deve preservare il rapporto d'aspetto durante il ridimensionamento. Lettura/scrittura Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Determina se la modifica diretta del contorno di questa forma è proibita. Lettura/scrittura Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è proibita. Lettura/scrittura Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Restituisce true se tutti i flag di blocco sono disabilitati. Sola lettura Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Determina se lo spostamento di questa forma è proibito. Lettura/scrittura Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è proibita. Lettura/scrittura Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Determina se la selezione di questa forma è proibita. Lettura/scrittura Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Determina se la modifica del tipo di forma è proibita. Lettura/scrittura Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è proibito. Lettura/scrittura Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Determina se la modifica dei valori di regolazione è vietata. Boolean di lettura/scrittura. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Determina se la modifica delle punte delle frecce è vietata. Boolean di lettura/scrittura. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Determina se una forma deve mantenere le proporzioni durante il ridimensionamento. Boolean di lettura/scrittura. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Determina se la modifica diretta del contorno di questa forma è vietata. Boolean di lettura/scrittura. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è vietata. Boolean di lettura/scrittura. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Restituisce true se tutti i flag di blocco sono disabilitati. Boolean di sola lettura. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Determina se lo spostamento di questa forma è vietato. Boolean di lettura/scrittura. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è vietata. Boolean di lettura/scrittura. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Boolean di lettura/scrittura. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Determina se la modifica del tipo di forma è vietata. Boolean di lettura/scrittura. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Boolean di lettura/scrittura. |
 
 ### Vedi anche
 

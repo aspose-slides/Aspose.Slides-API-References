@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes .NET için API Referansı
-description: Her LayoutSlide./foreach/layoutslide için Presentation../aspose.slides/presentation içinde çağrılacak geri çağrı.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Presentation../aspose.slides/presentation içinde her bir LayoutSlide./foreach/layoutslide için tetiklenecek geri çağırma.
 type: docs
-weight: 7890
+weight: 7910
 url: /tr/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback delege
 
-[`Presentation`](../../aspose.slides/presentation) içinde her [`LayoutSlide`](../foreach/layoutslide) için çağrılacak geri çağrı.
+Her bir [`LayoutSlide`](../foreach/layoutslide) için [`Presentation`](../../aspose.slides/presentation) içinde tetiklenecek geri çağırma.
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Geçerli yinelemekteki layout slaytı |
-| index | Int32 | Geçerli layout slaytının indeksi |
+| layoutSlide | LayoutSlide | Geçerli yinelemeli yerleşim slaytı |
+| index | Int32 | Geçerli yerleşim slaytının indeksi |
 
 ### Ayrıca Bakınız
 

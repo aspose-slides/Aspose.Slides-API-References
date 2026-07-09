@@ -1,20 +1,20 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Xác định một hướng giới hạn ở các góc và trung tâm.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định một hướng bị giới hạn ở các góc và trung tâm.
 type: docs
 weight: 10340
 url: /vi/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType liệt kê
+## TransitionCornerAndCenterDirectionType enumeration
 
-Xác định một hướng giới hạn ở các góc và trung tâm.
+Xác định một hướng bị giới hạn ở các góc và trung tâm.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-### Giá trị
+### Các giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |

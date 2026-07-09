@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Tạo một thể hiện bản trình chiếu từ mô tả bằng văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc các đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Tạo một thể hiện bản trình chiếu từ mô tả văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
 type: docs
 weight: 20
 url: /vi/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-Tạo một thể hiện bản trình chiếu từ mô tả bằng văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
+Tạo một thể hiện của bản trình chiếu từ mô tả văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -17,18 +17,18 @@ public IPresentation GeneratePresentation(string description,
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| description | String | Chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn. |
-| presentationContentAmount | PresentationContentAmountType | Lượng nội dung trong bản trình chiếu kết quả. |
+| description | String | Chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản. |
+| presentationContentAmount | PresentationContentAmountType | Lượng nội dung trong bản trình chiếu được tạo ra. |
 
 ### Ngoại lệ
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentException | Hướng dẫn trò chuyện AI không được để null hoặc rỗng. |
+| ArgumentException | AI chat instruction không được để null hoặc rỗng. |
 
 ### Ghi chú
 
-Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) mặc định, được tạo bởi constructor [`SlidesAIAgent`](../slidesaiagent) không có tham số và kết nối tới LLM riêng của Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM của riêng bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) cho constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
+Ví dụ dưới đây sử dụng mặc định [`AsposeAIWebClient`](../../asposeaiwebclient), được tạo bởi constructor không tham số [`SlidesAIAgent`](../slidesaiagent) và kết nối đến LLM của Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM của bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) vào constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
@@ -37,7 +37,7 @@ Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient
 ### Xem thêm
 
 * giao diện [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* liệt kê [PresentationContentAmountType](../../presentationcontentamounttype)
 * lớp [SlidesAIAgent](../../slidesaiagent)
 * không gian tên [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
@@ -46,7 +46,7 @@ Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-Tạo một thể hiện bản trình chiếu từ mô tả bằng văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
+Tạo một thể hiện của bản trình chiếu từ mô tả văn bản. Cung cấp một chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn bằng ngôn ngữ yêu cầu.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -55,20 +55,20 @@ public IPresentation GeneratePresentation(string description,
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| description | String | Chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản ngắn. |
-| presentationContentAmount | PresentationContentAmountType | Lượng nội dung trong bản trình chiếu kết quả. |
-| presentationTemplate | IPresentation | Một bản trình chiếu được dùng làm mẫu cho bố cục và thiết kế, thay thế mẫu mặc định. |
+| description | String | Chủ đề, ý tưởng, trích dẫn hoặc đoạn văn bản. |
+| presentationContentAmount | PresentationContentAmountType | Lượng nội dung trong bản trình chiếu được tạo ra. |
+| presentationTemplate | IPresentation | Bản trình chiếu được sử dụng làm mẫu cho bố cục và thiết kế, thay thế mẫu mặc định. |
 
 ### Ngoại lệ
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentNullException | Mẫu bản trình chiếu không được cung cấp. |
-| ArgumentException | Hướng dẫn trò chuyện AI không được để null hoặc rỗng. |
+| ArgumentNullException | Không cung cấp mẫu bản trình chiếu. |
+| ArgumentException | AI chat instruction không được để null hoặc rỗng. |
 
 ### Ghi chú
 
-Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) mặc định, được tạo bởi constructor [`SlidesAIAgent`](../slidesaiagent) không có tham số và kết nối tới LLM riêng của Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM của riêng bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) cho constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
+Ví dụ dưới đây sử dụng mặc định [`AsposeAIWebClient`](../../asposeaiwebclient), được tạo bởi constructor không tham số [`SlidesAIAgent`](../slidesaiagent) và kết nối đến LLM của Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM của bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của riêng bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) vào constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
@@ -77,7 +77,7 @@ Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient
 ### Xem thêm
 
 * giao diện [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* liệt kê [PresentationContentAmountType](../../presentationcontentamounttype)
 * lớp [SlidesAIAgent](../../slidesaiagent)
 * không gian tên [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)

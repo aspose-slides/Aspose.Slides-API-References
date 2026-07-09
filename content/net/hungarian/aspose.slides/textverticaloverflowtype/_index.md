@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
-second_title: Aspose.Sildes .NET API referencia
-description: A szöveg függőleges túlfutás típusát reprezentálja.
+second_title: Aspose.Sildes .NET API referenciához
+description: A szöveg függőleges túlcsordulás típusát reprezentálja.
 type: docs
-weight: 11000
+weight: 11020
 url: /hu/aspose.slides/textverticaloverflowtype/
 ---
-## TextVerticalOverflowType enumeráció
+## TextVerticalOverflowType felsorolás
 
-A szöveg függőleges túlfutás típusát reprezentálja.
+A szöveg függőleges túlcsordulás típusát reprezentálja.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte

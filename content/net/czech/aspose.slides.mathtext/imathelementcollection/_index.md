@@ -1,14 +1,14 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes pro .NET API referenci
-description: Representuje sbírku matematických prvků MathElement.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje kolekci matematických prvků MathElement.
 type: docs
-weight: 8220
+weight: 8240
 url: /cs/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection rozhraní
 
-Representuje sbírku matematických prvků (MathElement).
+Reprezentuje kolekci matematických prvků (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -18,9 +18,9 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | Název | Popis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze ke čtení IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Získá počet prvků, které jsou ve sbírce skutečně obsaženy. Pouze ke čtení Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze ke čtení [`IMathElement`](../imathelement). |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | Vrací rozhraní IEnumerable. Pouze pro čtení IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | Získá počet skutečně obsažených prvků ve sbírce. Pouze pro čtení Int32. |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`IMathElement`](../imathelement). |
 
 ## Metody
 
@@ -29,15 +29,15 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 | [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | Přidá matematický prvek na konec sbírky. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | Odstraní všechny prvky ze sbírky. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | Určuje, zda sbírka obsahuje konkrétní hodnotu. |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Kopíruje do zadaného pole. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | Zkopíruje do zadaného pole. |
 | [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | Určuje index konkrétního matematického prvku ve sbírce. |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Vloží matematický prvek do sbírky na zadaný index. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Odstraní první výskyt konkrétního objektu ze sbírky. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Odstraní prvek na zadaném indexu ve sbírce. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | Vloží matematický prvek do sbírky na zadaném indexu. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | Odstraňuje první výskyt konkrétního objektu ze sbírky. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | Odstraňuje prvek na zadaném indexu sbírky. |
 
 ### Příklady
 
-Example:
+Příklad:
 
 ```csharp
 [C#]

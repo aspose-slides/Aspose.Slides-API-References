@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果クラスの種類を表します。
+description: エフェクト クラスの種類を表します。
 type: docs
-weight: 300
+weight: 320
 url: /ja/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType 列挙型
+## EffectPresetClassType 列挙体
 
-効果クラスの種類を表します。
+エフェクト クラスの種類を表します。
 
 ```csharp
 public enum EffectPresetClassType
@@ -18,12 +18,12 @@ public enum EffectPresetClassType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Entrance | `0` | Entrance 効果クラス。 |
-| Exit | `1` | Exit 効果クラス。 |
-| Emphasis | `2` | Emphasis 効果クラス。 |
-| Path | `3` | Motion Paths クラス。 |
-| MediaCall | `4` | Media 効果クラス。 |
-| OLEActionVerbs | `5` | OLE Action Verbs クラス。 |
+| Entrance | `0` | Entrance エフェクト クラスです。 |
+| Exit | `1` | Exit エフェクト クラスです。 |
+| Emphasis | `2` | Emphasis エフェクト クラスです。 |
+| Path | `3` | Motion Paths エフェクト クラスです。 |
+| MediaCall | `4` | Media エフェクト クラスです。 |
+| OLEActionVerbs | `5` | OLE Action Verbs エフェクト クラスです。 |
 
 ### 参照
 

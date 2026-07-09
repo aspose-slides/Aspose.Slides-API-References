@@ -1,9 +1,9 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のオーディオクリップを表します。
 type: docs
-weight: 5210
+weight: 5230
 url: /ja/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame インターフェイス
@@ -18,26 +18,26 @@ public interface IAudioFrame : IPictureFrame
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | ベースの IPictureFrame インターフェイスを取得できます。読み取り専用 [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | 最後のトラックインデックスを取得または設定します。読み取り/書き込み Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | 最後のトラック時間を取得または設定します。読み取り/書き込み Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | 開始トラックインデックスを取得または設定します。読み取り/書き込み Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | 開始トラック時間を取得または設定します。読み取り/書き込み Int32. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | ベースの IPictureFrame インターフェイスを取得できます。読み取り専用 [`IPictureFrame`](../ipictureframe)。 |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | 最後のトラックインデックスを取得または設定します。読み書き可能 Int32。 |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | 最後のトラック時間を取得または設定します。読み書き可能 Int32。 |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | 開始トラックインデックスを取得または設定します。読み書き可能 Int32。 |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | 開始トラック時間を取得または設定します。読み書き可能 Int32。 |
 | [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | オーディオフレームに関連付けられたクローズドキャプションのコレクションを取得します。このプロパティは読み取り専用で、すべてのキャプショントラックを含む [`ICaptionsCollection`](../icaptionscollection) を返します。 |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | サウンドがプレゼンテーションに埋め込まれているかどうかを判断します。読み取り専用 Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 埋め込みオーディオオブジェクトを取得または設定します。読み取り/書き込み [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | メディアの初期フェードインの時間期間（ミリ秒）を指定します。読み取り/書き込み Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | メディアの終了フェードアウトの時間期間（ミリ秒）を指定します。読み取り/書き込み Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | AudioFrame が非表示かどうかを判断します。読み取り/書き込み Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame にリンクされたオーディオファイルの名前を取得または設定します。読み取り/書き込み String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | オーディオがスライド間で再生されているかどうかを判断します。読み取り/書き込み Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | オーディオがループ設定かどうかを判断します。読み取り/書き込み Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | オーディオの再生モードを取得または設定します。読み取り/書き込み [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 再生後にオーディオが自動的に先頭へ巻き戻されるかどうかを判断します。読み取り/書き込み Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 再生中にメディアの末尾から削除される時間期間（ミリ秒）を指定します。読み取り/書き込み Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 再生中にメディアの先頭から削除される時間期間（ミリ秒）を指定します。読み取り/書き込み Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | オーディオの音量を取得または設定します。読み取り/書き込み [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | オーディオの音量をパーセントで取得または設定します。読み取り/書き込み Single. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | サウンドがプレゼンテーションに埋め込まれているかどうかを判定します。読み取り専用 Boolean。 |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | 埋め込みオーディオオブジェクトを取得または設定します。読み書き可能 [`IAudio`](../iaudio)。 |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | メディアの初期フェードインの時間期間（ミリ秒）を指定します。読み書き可能 Single。 |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | メディアの終了フェードアウトの時間期間（ミリ秒）を指定します。読み書き可能 Single。 |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | AudioFrame が非表示かどうかを判定します。読み書き可能 Boolean。 |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame にリンクされたオーディオファイルの名前を取得または設定します。読み書き可能 String。 |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | スライド全体でオーディオが再生されるかどうかを判定します。読み書き可能 Boolean。 |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | オーディオがループ再生されるかどうかを判定します。読み書き可能 Boolean。 |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | オーディオ再生モードを取得または設定します。読み書き可能 [`AudioPlayModePreset`](../audioplaymodepreset)。 |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | 再生後にオーディオが自動的に先頭に巻き戻されるかどうかを判定します。読み書き可能 Boolean。 |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | 再生中にメディアの末尾から削除される時間期間（ミリ秒）を指定します。読み書き可能 Single。 |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | 再生中にメディアの先頭から削除される時間期間（ミリ秒）を指定します。読み書き可能 Single。 |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | オーディオ音量を取得または設定します。読み書き可能 [`AudioVolumeMode`](../audiovolumemode)。 |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | オーディオ音量（パーセント）を取得または設定します。読み書き可能 Single。 |
 
 ### 参照
 

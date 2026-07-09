@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Hai mức đen/trắng. Các màu đầu vào có độ sáng nhỏ hơn giá trị ngưỡng đã chỉ định sẽ được đổi thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng Bi-Level đen/trắng. Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 type: docs
 weight: 3170
 url: /vi/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho một hiệu ứng Hai mức (đen/trắng). Các màu đầu vào có độ sáng nhỏ hơn giá trị ngưỡng đã chỉ định sẽ được đổi thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+Đối tượng bất biến đại diện cho hiệu ứng Bi-Level (đen/trắng). Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng được chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị ngưỡng được chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderbaar object dat de ingestelde effectieve lettertypen bevat.
+description: Onveranderlijk object dat de effectieve lettertype-set bevat.
 type: docs
 weight: 5910
 url: /nl/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData interface
 
-Onveranderbaar object dat de ingestelde effectieve lettertypen bevat.
+Onveranderlijk object dat de effectieve lettertype-set bevat.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -19,12 +19,12 @@ public interface IFontsEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Retourneert het complex script-lettertype. Alleen-lezen [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Retourneert het Oost-Aziatische lettertype. Alleen-lezen [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Retourneert het Oost-Azië-lettertype. Alleen-lezen [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Retourneert het Latijnse lettertype. Alleen-lezen [`IFontData`](../ifontdata). |
 
 ### Opmerkingen
 
-Deze interface wordt gebruikt als onderdeel van de [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) en [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfaces.
+Deze interface wordt gebruikt als onderdeel van [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) en [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfaces.
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
 second_title: Aspose.Sildes .NET API referencia
-description: Segédvonal paraméterek interfésze.
+description: Kiegészítő vonalparaméterek interfésze.
 type: docs
-weight: 6310
+weight: 6330
 url: /hu/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource interfész
 
-Segédvonal paraméterek interfésze.
+Kiegészítő vonalparaméterek interfésze.
 
 ```csharp
 public interface ILineParamSource

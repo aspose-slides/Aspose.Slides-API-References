@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili yazı tipi şeması özelliklerini içeren değiştirilemez nesne.
+description: Geçerli yazı tipi şeması özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 11240
+weight: 11260
 url: /tr/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData arayüzü
 
-Değiştirilemez nesne, etkili yazı tipi şeması özelliklerini içerir.
+Değiştirilemez nesne, geçerli yazı tipi şeması özelliklerini içerir.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -16,15 +16,15 @@ public interface IFontSchemeEffectiveData
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Kaydırmanın "başlık" bölümüne ait yazı tipleri koleksiyonunu döndürür. Yalnızca okuma [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Kaydırmanın "gövde" bölümüne ait yazı tipleri koleksiyonunu döndürür. Yalnızca okuma [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Yazı tipi şeması adını döndürür. Yalnızca okuma String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Slaytın "heading" bölümüne ait yazı tipleri koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Slaytın "body" bölümüne ait yazı tipleri koleksiyonunu döndürür. Salt okunur [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Yazı tipi şeması adını döndürür. Salt okunur String. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata) bir parçası olarak kullanılır.
+Bu arayüz, [`IThemeEffectiveData`](../ithemeeffectivedata)'ın bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

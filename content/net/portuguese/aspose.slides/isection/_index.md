@@ -1,9 +1,9 @@
 ---
 title: ISection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para a Referência da API .NET
 description: Representa a seção de slides.
 type: docs
-weight: 6870
+weight: 6890
 url: /pt/aspose.slides/isection/
 ---
 ## ISection interface
@@ -26,9 +26,9 @@ public interface ISection
 
 | Nome | Descrição |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Retorna a lista de slides na seção. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | Retorna a lista de slides da seção. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

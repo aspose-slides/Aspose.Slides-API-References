@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 분자와 분모가 분수 막대로 구분되는 분수 객체를 지정합니다. 분수 막대는 분수 속성에 따라 가로 또는 대각선이 될 수 있습니다. 분수 객체는 분수 막대 없이 하나의 요소를 다른 요소 위에 배치하는 스택 함수를 나타내는 데에도 사용됩니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 분자와 분모가 분수선으로 구분된 분수 객체를 지정합니다. 분수선은 분수 속성에 따라 가로 또는 대각선일 수 있습니다. 분수 객체는 또한 분수선 없이 하나의 요소를 다른 요소 위에 배치하는 스택 함수를 나타내는 데 사용됩니다.
 type: docs
 weight: 8250
 url: /ko/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction 인터페이스
 
-분자와 분모가 분수 막대로 구분되는 분수 객체를 지정합니다. 분수 막대는 분수 속성에 따라 가로 또는 대각선이 될 수 있습니다. 분수 객체는 분수 막대 없이 하나의 요소를 다른 요소 위에 배치하는 스택 함수도 나타내는 데 사용됩니다.
+분자와 분모가 분수 기호로 구분된 분수 객체를 지정합니다. 분수 기호는 분수 속성에 따라 가로 또는 대각선일 수 있습니다. 분수 객체는 또한 하나의 요소를 다른 요소 위에 배치하는 스택 함수도 나타내며, 이 경우 분수 기호가 없습니다.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -25,7 +25,7 @@ public interface IMathFraction : IMathElement
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### 또 보기
+### 관련 항목
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ
 type: docs
 weight: 1900
 url: /th/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ.
+แสดงคุณสมบัติการจัดรูปแบบย่อหน้าของแผนภูมิ
 
 ```csharp
 public interface IChartParagraphFormat
@@ -16,21 +16,21 @@ public interface IChartParagraphFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | คืนค่าหรือกำหนดการจัดแนวข้อความในย่อหน้า. อ่าน/เขียน [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | คืนค่าหรือกำหนดขนาดการแท็บเริ่มต้น. อ่าน/เขียน Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบเอเชียตะวันออกจะถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | คืนค่าหรือกำหนดการจัดแนวฟอนต์ในย่อหน้า. อ่าน/เขียน [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | กำหนดว่าการใช้เครื่องหมายวรรคตอนห้อยจะถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | คืนค่าหรือกำหนดการเยื้องบรรทัดแรก/การเยื้องห้อยของย่อหน้า. การเยื้องห้อยสามารถกำหนดด้วยค่าติดลบได้. อ่าน/เขียน Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบละตินจะถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | คืนค่าหรือกำหนดระยะขอบซ้ายในย่อหน้า. อ่าน/เขียน Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | คืนค่าหรือกำหนดระยะขอบขวาในย่อหน้า. อ่าน/เขียน Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | กำหนดว่าการเขียนจากขวาไปซ้ายจะถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | คืนค่าหรือกำหนดปริมาณช่องว่างหลังบรรทัดสุดท้ายในย่อหน้า. อ่าน/เขียน Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | คืนค่าหรือกำหนดปริมาณช่องว่างก่อนบรรทัดแรกในย่อหน้า. อ่าน/เขียน Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | คืนค่าหรือกำหนดปริมาณช่องว่างระหว่างบรรทัดฐานในย่อหน้า. อ่าน/เขียน Single. |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | คืนค่า หรือ ตั้งค่าการจัดแนวข้อความในย่อหน้า. อ่าน/เขียน [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | คืนค่า หรือ ตั้งค่าขนาดการแท็บเริ่มต้น. อ่าน/เขียน Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบเอเชียตะวันออกถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | คืนค่า หรือ ตั้งค่าการจัดแนวฟอนต์ในย่อหน้า. อ่าน/เขียน [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | กำหนดว่าการใช้เครื่องหมายวรรคตอนลอยถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | คืนค่า หรือ ตั้งค่าการเยื้อนบรรทัดแรก/การเยื้องลอยของย่อหน้า. การเยื้องลอยสามารถกำหนดด้วยค่าติดลบได้. อ่าน/เขียน Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | กำหนดว่าการตัดบรรทัดแบบละตินถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | คืนค่า หรือ ตั้งค่าขอบซ้ายในย่อหน้า. อ่าน/เขียน Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | คืนค่า หรือ ตั้งค่าขอบขวาในย่อหน้า. อ่าน/เขียน Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | กำหนดว่าการเขียนจากขวาไปซ้ายถูกใช้ในย่อหน้าหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | คืนค่า หรือ ตั้งค่าปริมาณช่องว่างหลังบรรทัดสุดท้ายในย่อหน้า. อ่าน/เขียน Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | คืนค่า หรือ ตั้งค่าปริมาณช่องว่างก่อนบรรทัดแรกในย่อหน้า. อ่าน/เขียน Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | คืนค่า หรือ ตั้งค่าปริมาณช่องว่างระหว่างบรรทัดฐานในย่อหน้า. อ่าน/เขียน Single. |
 | [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | คืนค่าการแท็บของย่อหน้า. อ่านอย่างเดียว [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### ดูเพิ่มเติม

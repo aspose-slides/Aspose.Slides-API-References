@@ -1,9 +1,9 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um projeto VBA com macros de apresentação.
 type: docs
-weight: 11530
+weight: 11550
 url: /pt/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject interface
@@ -18,10 +18,10 @@ public interface IVbaProject
 
 | Nome | Descrição |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indica se o VBAProject está protegido por senha para visualizar as propriedades do projeto. Somente leitura Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Retorna a lista de todos os módulos contidos no projeto VBA. Somente leitura [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indica se o VBAProject está protegido por uma senha para visualizar as propriedades do projeto. Somente leitura Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Retorna a lista de todos os módulos que estão contidos no projeto VBA. Somente leitura [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Retorna o nome do projeto VBA. Somente leitura String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Retorna a lista de todas as referências contidas no projeto VBA. Somente leitura [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Retorna a lista de todas as referências que estão contidas no projeto VBA. Somente leitura [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Métodos
 
@@ -29,7 +29,7 @@ public interface IVbaProject
 | --- | --- |
 | [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Retorna a representação binária do projeto VBA como contêiner OLE. Somente leitura Byte[]. |
 
-### Veja Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

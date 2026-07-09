@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili skema warna tambahan yang dapat diterapkan pada slide.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili skema warna tambahan yang dapat ditetapkan ke slide.
 type: docs
-weight: 11080
+weight: 11100
 url: /id/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme kelas
 
-Mewakili skema warna tambahan yang dapat diterapkan pada slide.
+Mewakili skema warna tambahan yang dapat ditetapkan ke slide.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme
@@ -18,8 +18,8 @@ public class ExtraColorScheme : IExtraColorScheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Mengembalikan skema warna. Baca-saja [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Mengembalikan nama skema ini. Baca-saja String. |
+| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Mengembalikan skema warna. Hanya-baca [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Mengembalikan nama skema ini. Hanya-baca String. |
 
 ### Lihat Juga
 

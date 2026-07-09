@@ -1,6 +1,6 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示區段中投影片的集合。
 type: docs
 weight: 9770
@@ -18,19 +18,19 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ISlide`](../islide)。 |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 取得集合實際包含的元素數量。 唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 傳回一個值，指示集合的存取是否已同步（執行緒安全）。 唯讀 Boolean。 |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`ISlide`](../islide)。 |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 傳回同步根。 唯讀 Object。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | 將整個集合複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | 傳回遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Section](../section)

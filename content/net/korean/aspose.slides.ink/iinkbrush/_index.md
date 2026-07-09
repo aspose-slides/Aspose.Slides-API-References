@@ -8,7 +8,7 @@ url: /ko/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush 인터페이스
 
-트레이스 브러시를 나타냅니다.
+선택 브러시를 나타냅니다.
 
 ```csharp
 public interface IInkBrush
@@ -18,11 +18,11 @@ public interface IInkBrush
 
 | 이름 | 설명 |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 라인의 브러시 색상을 가져오거나 설정합니다. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | 잉크 효과 유형(예: Galaxy, Gold, Silver)을 가져옵니다. 이는 잉크 스트로크의 시각적 스타일을 정의합니다. 값은 브러시 속성 "inkEffects"에서 구문 분석됩니다. 인식된 효과가 지정되지 않으면 NotDefined가 반환됩니다. |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 라인의 브러시 크기를 포인트 단위로 가져오거나 설정합니다. |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | 선의 브러시 색을 가져오거나 설정합니다. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | 잉크 스트로크의 시각적 스타일을 정의하는 잉크 효과 유형(e.g., Galaxy, Gold, Silver)을 가져옵니다. 값은 브러시 속성 "inkEffects"에서 구문 분석됩니다. 인식된 효과가 지정되지 않으면 NotDefined가 반환됩니다. |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | 선의 브러시 크기를 포인트 단위로 가져오거나 설정합니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Ink](../../aspose.slides.ink)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Các hằng số xác định hướng ánh sáng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Các hằng số xác định các hướng ánh sáng.
 type: docs
 weight: 7710
 url: /vi/aspose.slides/lightingdirection/
 ---
 ## LightingDirection liệt kê
 
-Các hằng số xác định hướng ánh sáng.
+Các hằng số xác định các hướng ánh sáng.
 
 ```csharp
 public enum LightingDirection
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

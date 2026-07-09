@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 不可變物件，表示 Alpha Ceiling 效果。Alpha 不透明度值大於零時會被更改為 100%。換句話說，任何部分透明的物件都會變為完全不透明。
+second_title: Aspose.Sildes for .NET API 參考
+description: 不可變物件，代表 Alpha Ceiling 效果。Alpha 不透明度值大於零時會被改為 100%。換句話說，任何部分透明的都會變成完全不透明。
 type: docs
 weight: 3050
 url: /zh-hant/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData 介面
 
-不可變物件，表示 Alpha Ceiling 效果。Alpha（不透明度）值大於零時會被改為 100%。換句話說，任何部分透明的物件都會變為完全不透明。
+不可變物件，代表 Alpha Ceiling 效果。Alpha（不透明度）值大於零的會被變更為 100%。換句話說，任何部分透明的都會變成完全不透明。
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

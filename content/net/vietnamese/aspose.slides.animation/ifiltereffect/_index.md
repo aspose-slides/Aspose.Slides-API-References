@@ -1,14 +1,14 @@
 ---
 title: IFilterEffect
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hiệu ứng lọc của hành vi.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn hiệu ứng bộ lọc của hành vi.
 type: docs
 weight: 500
 url: /vi/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect giao diện
 
-Biểu diễn hiệu ứng lọc của hành vi.
+Đại diện cho hiệu ứng bộ lọc của hành vi.
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -19,9 +19,9 @@ public interface IFilterEffect : IBehavior
 | Tên | Mô tả |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Cho phép lấy giao diện IBehavior cơ bản. Chỉ đọc [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Biểu diễn rằng hiệu ứng với hành vi phải hiển thị (in/out) Đọc/ghi [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Biểu diễn loại phụ của hiệu ứng lọc. Đọc/ghi [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Biểu diễn loại của hiệu ứng lọc. Đọc/ghi [`FilterEffectType`](../filtereffecttype). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Mô tả rằng hiệu ứng với hành vi phải hiển thị (in/out) Đọc/viết [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Mô tả kiểu con của hiệu ứng bộ lọc. Đọc/viết [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Mô tả loại của hiệu ứng bộ lọc. Đọc/viết [`FilterEffectType`](../filtereffecttype). |
 
 ### Xem thêm
 

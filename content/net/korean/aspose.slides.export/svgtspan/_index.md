@@ -18,9 +18,9 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | 이름 | 설명 |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | "tspan" 요소 id를 가져옵니다 |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | "tspan" 요소 ID를 가져옵니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ISvgTSpan](../isvgtspan)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

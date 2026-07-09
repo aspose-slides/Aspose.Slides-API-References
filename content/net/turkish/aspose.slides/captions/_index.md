@@ -1,12 +1,12 @@
 ---
 title: Captions
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: WebVTT kapalı altyazılarını temsil eder.
 type: docs
-weight: 1090
+weight: 1110
 url: /tr/aspose.slides/captions/
 ---
-## Captions sınıfı
+# Captions sınıfı
 
 WebVTT kapalı altyazılarını temsil eder.
 
@@ -18,10 +18,10 @@ public class Captions : ICaptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Kapalı altyazıların ikili verisini döndürür. Salt okunur Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Kapalı altyazıların küresel benzersiz tanımlayıcısını (GUID) döndürür. Salt okunur Guid. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Kapalı altyazıların ikili verilerini döndürür. Salt okunur Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Kapalı altyazıların evrensel benzersiz tanımlayıcısını (GUID) döndürür. Salt okunur Guid. |
 | [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Kapalı altyazı verilerini UTF-8 kodlu dize olarak döndürür. Salt okunur String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Kapalı altyazıların etiketini döndürür veya ayarlar. Okunabilir/yazılabilir String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Kapalı altyazıların etiketini döndürür veya ayarlar. Okunur/yazılabilir String. |
 
 ### Ayrıca Bakınız
 

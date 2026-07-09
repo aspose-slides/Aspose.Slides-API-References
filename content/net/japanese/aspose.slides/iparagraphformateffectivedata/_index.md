@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な段落書式プロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes 用 .NET API リファレンス
+description: 効果的な段落書式プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6580
+weight: 6600
 url: /ja/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData インターフェイス
 
-有効な段落書式プロパティを含む不変オブジェクトです。
+効果的な段落書式プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,27 +18,27 @@ public interface IParagraphFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 段落のテキスト配置を返します。読み取り専用 [`TextAlignment`](../textalignment)。 |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 段落内のテキスト配置を返します。読み取り専用 [`TextAlignment`](../textalignment)。 |
 | [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | 段落の箇条書き形式を返します。読み取り専用 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)。 |
 | [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | 段落のデフォルト部分書式を返します。読み取り専用 [`IPortionFormatEffectiveData`](../iportionformateffectivedata)。 |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | デフォルトのタブ設定サイズを返します。読み取り専用 Single。 |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | デフォルトのタブ幅を返します。読み取り専用 Single。 |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | 段落の深さを返します。読み取り専用 Int16。 |
 | [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | 段落で東アジアの改行が使用されているかどうかを判定します。読み取り専用 Boolean。 |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 段落のフォント配置を返します。読み取り専用 [`FontAlignment`](../fontalignment)。 |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 段落でハングパンクチュエーションが使用されているかどうかを判定します。読み取り専用 Boolean。 |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 段落の最初の行インデント/ハングインデントを返します。ハングインデントは負の値で定義できます。読み取り専用 Single。 |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 段落でラテン文字の改行が使用されているかどうかを判定します。読み取り専用 Boolean。 |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 段落内のフォント配置を返します。読み取り専用 [`FontAlignment`](../fontalignment)。 |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 段落でハンギング句読点が使用されているかどうかを判定します。読み取り専用 Boolean。 |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 段落の先頭行インデント/ハンギングインデントを返します。ハンギングインデントは負の値で定義できます。読み取り専用 Single。 |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 段落でラテン語の改行が使用されているかどうかを判定します。読み取り専用 Boolean。 |
 | [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | 段落の左余白を返します。読み取り専用 Single。 |
 | [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | 段落の右余白を返します。読み取り専用 Single。 |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 段落で右から左への書字が使用されているかどうかを判定します。読み取り専用 Boolean。 |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 段落の最後の行の後のスペース量を返します。読み取り専用 Single。 |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 段落の最初の行の前のスペース量を返します。読み取り専用 Single。 |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 段落の基線間のスペース量を返します。読み取り専用 Single。 |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 段落で右から左への書き込みが使用されているかどうかを判定します。読み取り専用 Boolean。 |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 段落の最終行の後の余白量を返します。読み取り専用 Single。 |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 段落の最初の行の前の余白量を返します。読み取り専用 Single。 |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 段落の基準線間の余白量を返します。読み取り専用 Single。 |
 | [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | 段落のタブ設定を返します。読み取り専用 [`ITabEffectiveData`](../itabeffectivedata)[]。 |
 
 ### 備考
 
-このインターフェイスは [`IParagraphFormat`](../iparagraphformat) インターフェイスと共に使用され、継承が適用された有効な書式値を返します。
+このインターフェイスは [`IParagraphFormat`](../iparagraphformat) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
 ### 参照
 

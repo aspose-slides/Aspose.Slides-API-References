@@ -1,14 +1,14 @@
 ---
 title: Merger
-second_title: Aspose.Sildes için .NET API Referansı
-description: Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için bir grup yöntemi temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için yöntemlerin bir grubunu temsil eder.
 type: docs
-weight: 7950
+weight: 7970
 url: /tr/aspose.slides.lowcode/merger/
 ---
 ## Merger sınıfı
 
-Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için bir grup yöntemi temsil eder.
+Aynı formatta PowerPoint sunumlarını tek bir dosyada birleştirmek için yöntemlerin bir grubunu temsil eder.
 
 ```csharp
 public static class Merger
@@ -16,14 +16,14 @@ public static class Merger
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
 | static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
 | static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
 | static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Aynı formatta birden fazla PowerPoint sunumunu tek bir sunum dosyasında birleştirir. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * derleme [Aspose.Slides](../../)

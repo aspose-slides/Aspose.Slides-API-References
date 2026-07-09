@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Wyjątek, który jest zgłaszany, gdy napotkane zostanie nieprawidłowe odwołanie do komórki.
+description: Wyjątek zgłaszany, gdy napotkane zostanie nieprawidłowe odwołanie do komórki.
 type: docs
-weight: 10700
+weight: 10720
 url: /pl/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException klasa
 
-Wyjątek, który jest zgłaszany, gdy napotkane zostanie nieprawidłowe odwołanie do komórki.
+Wyjątek zgłaszany, gdy napotkane zostanie nieprawidłowe odwołanie do komórki.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -19,9 +19,9 @@ public class CellInvalidReferenceException : PptxEditException
 | Nazwa | Opis |
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Inicjalizuje nową instancję klasy [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Inicjalizuje nową instancję klasy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) z określonym komunikatem o błędzie. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Inicjalizuje nową instancję klasy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) z określonym komunikatem o błędzie oraz odwołaniem do wewnętrznego wyjątku, który jest przyczyną tego wyjątku. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określonym komunikatem o błędzie oraz nieprawidłowym odwołaniem do komórki. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Inicjalizuje nową instancję klasy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) z określoną wiadomością o błędzie. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Inicjalizuje nową instancję klasy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) z określoną wiadomością o błędzie oraz odwołaniem do wewnętrznego wyjątku, który jest przyczyną tego wyjątku. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inicjalizuje nową instancję klasy [`CellCircularReferenceException`](../cellcircularreferenceexception) z określoną wiadomością o błędzie oraz nieprawidłowym odwołaniem do komórki. |
 
 ## Właściwości
 

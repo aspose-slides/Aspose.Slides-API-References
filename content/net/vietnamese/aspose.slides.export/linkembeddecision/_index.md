@@ -14,12 +14,12 @@ Xác định cách đối tượng sẽ được xử lý khi lưu.
 public enum LinkEmbedDecision
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | Link | `0` | Đối tượng sẽ được lưu trữ bên ngoài, được tham chiếu bằng URL |
-| Embed | `1` | Đối tượng nên được nhúng vào tệp được tạo nếu có thể. Nếu việc nhúng không khả thi, GetUrl sẽ được gọi và, tùy theo kết quả, đối tượng sẽ được tham chiếu bằng URL hoặc bị bỏ qua. |
+| Embed | `1` | Đối tượng nên được nhúng vào tệp được tạo nếu có thể. Nếu việc nhúng không khả thi, GetUrl sẽ được gọi và, tùy thuộc vào kết quả, đối tượng sẽ được tham chiếu bằng URL hoặc bị bỏ qua. |
 | Ignore | `2` | Đối tượng sẽ bị bỏ qua. |
 
 ### Xem thêm

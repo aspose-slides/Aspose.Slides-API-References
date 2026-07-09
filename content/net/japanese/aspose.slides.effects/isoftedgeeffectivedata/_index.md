@@ -3,12 +3,12 @@ title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ソフトエッジ効果を表す不変オブジェクトです。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
 type: docs
-weight: 3510
+weight: 3530
 url: /ja/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData インターフェイス
 
-ソフトエッジ効果を表す不変オブジェクトです。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
+不変オブジェクトで、ソフトエッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | エッジに適用するぼかしの半径を指定します。読み取り専用 Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 基底 IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | エッジに適用するぼかしの半径を指定します。読み取り専用 Double。 |
 
 ### 参照
 

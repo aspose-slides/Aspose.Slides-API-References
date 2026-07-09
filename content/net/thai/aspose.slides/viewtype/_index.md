@@ -1,14 +1,14 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ประเภทการแสดงผลการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ประเภทมุมมองการนำเสนอ
 type: docs
 weight: 11750
 url: /th/aspose.slides/viewtype/
 ---
-## การนับ ViewType
+## การระบุประเภท ViewType
 
-ประเภทการแสดงผลการนำเสนอ
+ประเภทมุมมองการนำเสนอ
 
 ```csharp
 public enum ViewType
@@ -18,15 +18,15 @@ public enum ViewType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `0` | ค่ายังไม่ได้กำหนด |
+| NotDefined | `0` | ค่ไม่ได้กำหนด |
 | SlideView | `1` | มุมมองสไลด์ปกติ |
-| SlideMasterView | `2` | มุมมองหน้าตาแม่สไลด์ |
-| NotesView | `3` | มุมมองโน้ต |
-| HandoutView | `4` | มุมมองเอกสารประกอบ |
-| NotesMasterView | `5` | มุมมองหน้าตาแม่โน้ต |
+| SlideMasterView | `2` | มุมมองสไลด์มาสเตอร์ |
+| NotesView | `3` | มุมมองบันทึกหมายเหตุ |
+| HandoutView | `4` | มุมมองเอกสารแจก |
+| NotesMasterView | `5` | มุมมองบันทึกหมายเหตุมาสเตอร์ |
 | OutlineView | `6` | มุมมองโครงร่าง |
 | SlideSorterView | `7` | มุมมองจัดเรียงสไลด์ |
-| SlideThumbnailView | `8` | มุมมองรูปเล็กสไลด์ |
+| SlideThumbnailView | `8` | มุมมองภาพขนาดย่อสไลด์ |
 
 ### ดูเพิ่มเติม
 

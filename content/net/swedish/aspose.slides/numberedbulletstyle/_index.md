@@ -3,10 +3,10 @@ title: NumberedBulletStyle
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar stilen för de numrerade punkterna.
 type: docs
-weight: 9160
+weight: 9180
 url: /sv/aspose.slides/numberedbulletstyle/
 ---
-## NumberedBulletStyle enumeration
+## NumberedBulletStyle uppräkning
 
 Representerar stilen för de numrerade punkterna.
 
@@ -19,47 +19,47 @@ public enum NumberedBulletStyle : sbyte
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | NotDefined | `-1` | Ej definierad. |
-| BulletAlphaLCPeriod | `0` | Låga alfabetiska tecken med en punkt. Exempel: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Stora alfabetiska tecken med en punkt. Exempel: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arabiska siffror med avslutande parentes. Exempel: 1), 2), 3), ... |
+| BulletAlphaLCPeriod | `0` | Gemena alfabetiska tecken med en punkt. Exempel: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Versala alfabetiska tecken med en punkt. Exempel: A., B., C., ... |
+| BulletArabicParenRight | `2` | Arabiska siffror med slutparentes. Exempel: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Arabiska siffror med en punkt. Exempel: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Låga romerska siffror med båda parenteserna. Exempel: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Låga romerska siffror med avslutande parentes. Exempel: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Låga romerska siffror med en punkt. Exempel: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Stora romerska siffror med en punkt. Exempel: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Låga alfabetiska tecken med båda parenteserna. Exempel: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Låga alfabetiska tecken med avslutande parentes. Exempel: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Stora alfabetiska tecken med båda parenteserna. Exempel: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Stora alfabetiska tecken med avslutande parentes. Exempel: A), B), C), ... |
+| BulletRomanLCParenBoth | `4` | Gemena romerska siffror med båda parenteserna. Exempel: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Gemena romerska siffror med slutparentes. Exempel: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Gemena romerska siffror med en punkt. Exempel: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Versala romerska siffror med en punkt. Exempel: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Gemena alfabetiska tecken med båda parenteserna. Exempel: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Gemena alfabetiska tecken med slutparentes. Exempel: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Versala alfabetiska tecken med båda parenteserna. Exempel: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Versala alfabetiska tecken med slutparentes. Exempel: A), B), C), ... |
 | BulletArabicParenBoth | `12` | Arabiska siffror med båda parenteserna. Exempel: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Arabiska siffror. Exempel: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Stora romerska siffror med båda parenteserna. Exempel: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Stora romerska siffror med avslutande parentes. Exempel: I), II), III), ... |
+| BulletRomanUCParenBoth | `14` | Versala romerska siffror med båda parenteserna. Exempel: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Versala romerska siffror med slutparentes. Exempel: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Förenklad kinesiska utan punkt. |
-| BulletSimpChinPeriod | `17` | Förenklad kinesiska med punkt. |
-| BulletCircleNumDBPlain | `18` | Dubbelbyte cirklat tal för värden upp till 10, från 11 – arabiska tal. |
-| BulletCircleNumWDWhitePlain | `19` | Textfärgat nummer med samma färg cirkel ritad runt det (Wingdings vita cirkelnummer). Från 11 – arabiska tal. |
-| BulletCircleNumWDBlackPlain | `20` | Skuggfärgat nummer med cirkulär bakgrund av normal textfärg (Wingdings svarta cirkelnummer). |
+| BulletSimpChinPeriod | `17` | Förenklad kinesiska med en punkt. |
+| BulletCircleNumDBPlain | `18` | Dubbel-byte inringade siffror för värden upp till 10, från 11 - arabiska siffror. |
+| BulletCircleNumWDWhitePlain | `19` | Textfärgad siffra med cirkel i samma färg ritad runt den (Wingdings vita cirkelnummer). Från 11 - arabiska siffror. |
+| BulletCircleNumWDBlackPlain | `20` | Skuggfärgad siffra med cirkulär bakgrund i normal textfärg (Wingdings svarta cirkelnummer). |
 | BulletTradChinPlain | `21` | Traditionell kinesiska utan punkt. |
-| BulletTradChinPeriod | `22` | Traditionell kinesiska med punkt. |
-| BulletArabicAlphaDash | `23` | Arabiska språkliga alfabetiska tecken med ett bindestreck. |
+| BulletTradChinPeriod | `22` | Traditionell kinesiska med en punkt. |
+| BulletArabicAlphaDash | `23` | Arabiska alfabetiska tecken med ett bindestreck. |
 | BulletArabicAbjadDash | `24` | Arabiska Abjad-alfabet med ett bindestreck. |
-| BulletHebrewAlphaDash | `25` | Hebreiska språkliga alfabetiska tecken med ett bindestreck. |
+| BulletHebrewAlphaDash | `25` | Hebreiska alfabetiska tecken med ett bindestreck. |
 | BulletKanjiKoreanPlain | `26` | Japanska/koreanska siffror utan punkt. |
-| BulletKanjiKoreanPeriod | `27` | Japanska/koreanska siffror med punkt. |
-| BulletArabicDBPlain | `28` | Dubbelbyte arabisk numreringsschema (ingen interpunktion). |
-| BulletArabicDBPeriod | `29` | Dubbelbyte arabisk numreringsschema med dubbelbyte punkt. |
-| BulletThaiAlphaPeriod | `30` | Thailändskt alfabet med punkt. |
-| BulletThaiAlphaParenRight | `31` | Thailändskt alfabet parenteser – höger. |
-| BulletThaiAlphaParenBoth | `32` | Thailändskt alfabet parenteser – båda. |
-| BulletThaiNumPeriod | `33` | Thailändska siffror med punkt. |
-| BulletThaiNumParenRight | `34` | Thailändska siffror parenteser – höger. |
-| BulletThaiNumParenBoth | `35` | Thailändska siffror parenteser – båda. |
-| BulletHindiAlphaPeriod | `36` | Hindi-alfabet punkt – vokaler. |
-| BulletHindiNumPeriod | `37` | Hindi numeriska punkt. |
+| BulletKanjiKoreanPeriod | `27` | Japanska/koreanska siffror med en punkt. |
+| BulletArabicDBPlain | `28` | Dubbel-byte arabisk numreringsordning (ingen interpunktion). |
+| BulletArabicDBPeriod | `29` | Dubbel-byte arabisk numreringsordning med dubbel-byte punkt. |
+| BulletThaiAlphaPeriod | `30` | Thailändska alfabet med punkt. |
+| BulletThaiAlphaParenRight | `31` | Thailändska alfabet parenteser - höger. |
+| BulletThaiAlphaParenBoth | `32` | Thailändska alfabet parenteser - båda. |
+| BulletThaiNumPeriod | `33` | Thailändska numeriska punkt. |
+| BulletThaiNumParenRight | `34` | Thailändska numeriska parenteser - höger. |
+| BulletThaiNumParenBoth | `35` | Thailändska numeriska parenteser - båda. |
+| BulletHindiAlphaPeriod | `36` | Hindi alfabet med punkt - vokaler. |
+| BulletHindiNumPeriod | `37` | Hindi numerisk punkt. |
 | BulletKanjiSimpChinDBPeriod | `38` | Kanji förenklad kinesiska DBPeriod. |
-| BulletHindiNumParenRight | `39` | Hindi numeriska parenteser – höger. |
-| BulletHindiAlpha1Period | `40` | Hindi-alfabet punkt – konsonanter. |
+| BulletHindiNumParenRight | `39` | Hindi numeriska parenteser - höger. |
+| BulletHindiAlpha1Period | `40` | Hindi alfabet med punkt - konsonanter. |
 
 ### Se även
 

@@ -1,9 +1,9 @@
 ---
 title: IPropertyEffect
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje chování efektu vlastnosti.
 type: docs
-weight: 540
+weight: 560
 url: /cs/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect rozhraní
@@ -19,7 +19,7 @@ public interface IPropertyEffect : IBehavior
 | Název | Popis |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Určuje relativní hodnotu odsazení animace vzhledem k její pozici před zahájením animace. Čtení/zápis String. |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Určuje relativní hodnotu offsetu animace vzhledem k její pozici před zahájením animace. Čtení/zápis String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Určuje režim interpolace pro animaci. Čtení/zápis [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Určuje počáteční hodnotu animace. Čtení/zápis String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Určuje body animace. Čtení/zápis [`IPointCollection`](../ipointcollection). |

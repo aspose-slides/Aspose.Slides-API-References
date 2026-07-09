@@ -1,9 +1,9 @@
 ---
 title: ILicense
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Fornisce metodi per licenziare il componente.
 type: docs
-weight: 6240
+weight: 6260
 url: /it/aspose.slides/ilicense/
 ---
 ## ILicense interfaccia
@@ -25,7 +25,7 @@ public interface ILicense
 
 ### Esempi
 
-In questo esempio, verrà tentato di trovare un file di licenza chiamato MyLicense.lic nella cartella che contiene il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di ingresso e poi nelle risorse incorporate dell'assembly chiamante.
+In questo esempio, si cercherà di trovare un file di licenza chiamato MyLicense.lic nella cartella che contiene il componente, nella cartella che contiene l'assembly chiamante, nella cartella dell'assembly di ingresso e quindi nelle risorse incorporate dell'assembly chiamante.
 
 ```csharp
 [C#]

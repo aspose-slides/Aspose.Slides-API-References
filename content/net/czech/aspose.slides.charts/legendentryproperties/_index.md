@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti legendy grafu.
+description: Reprezentuje vlastnosti legendy diagramu.
 type: docs
-weight: 2290
+weight: 2310
 url: /cs/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties třída
 
-Reprezentuje vlastnosti legendy grafu.
+Představuje vlastnosti legendy diagramu.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -18,9 +18,9 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | Název | Popis |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Vrací nadřazený graf. Jen pro čtení [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Určuje, zda je položka legendy skryta. Čtení/Zápis Boolean. |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Vrací formát textu. Jen pro čtení [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Určuje, zda je položka legendy skryta. Čtení/zápis Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 埋め込みExcelワークブックへのアクセスを提供します
+description: 埋め込み Excel ワークブックへのアクセスを提供します
 type: docs
-weight: 1360
+weight: 1380
 url: /ja/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook クラス
 
-埋め込みのExcelワークブックへのアクセスを提供します。
+埋め込み Excel ワークブックへのアクセスを提供します
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -31,9 +31,9 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | チャートの系列またはカテゴリに使用できるセルを取得します。 |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | セルのセットを取得します。 |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | セットのセルを取得します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [ChartData](../chartdata)

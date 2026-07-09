@@ -1,9 +1,9 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický pruh
 type: docs
-weight: 8560
+weight: 8580
 url: /cs/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory třída

@@ -1,14 +1,14 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes .NET API 參考
-description: 允許建立數學條
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 允許建立數學上標
 type: docs
 weight: 8130
 url: /zh-hant/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory 介面
 
-允許建立數學條
+允許建立數學上標
 
 ```csharp
 public interface IMathBarFactory
@@ -16,16 +16,16 @@ public interface IMathBarFactory
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 透過套用於元素建立數學條 |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 透過套用於元素建立數學條 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | 透過套用於元素建立數學上標 |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 透過套用於元素建立數學上標 |
 
 ### 備註
 
-供 COM 相容性
+供 COM 相容性使用
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

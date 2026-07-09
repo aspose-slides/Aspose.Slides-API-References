@@ -1,14 +1,14 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: อนุญาตให้สร้างอินสแตนซ์ ITab
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อนุญาตให้สร้างอินสแตนซ์ของ ITab
 type: docs
 weight: 10850
 url: /th/aspose.slides/tabfactory/
 ---
 ## TabFactory คลาส
 
-อนุญาตให้สร้างอินสแตนซ์ ITab
+อนุญาตให้สร้างอินสแตนซ์ของ ITab
 
 ```csharp
 public class TabFactory : ITabFactory
@@ -24,11 +24,11 @@ public class TabFactory : ITabFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | สร้างอินสแตนซ์ ITab ใหม่ |
+| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | สร้างอินสแตนซ์ใหม่ของ ITab |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+เพื่อให้เข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili tipe kelas efek.
 type: docs
-weight: 300
+weight: 320
 url: /id/aspose.slides.animation/effectpresetclasstype/
 ---
 ## EffectPresetClassType enumerasi
@@ -22,7 +22,7 @@ public enum EffectPresetClassType
 | Exit | `1` | Kelas efek Exit. |
 | Emphasis | `2` | Kelas efek Emphasis. |
 | Path | `3` | Kelas Motion Paths. |
-| MediaCall | `4` | Kelas efek Media. |
+| MediaCall | `4` | Kelas Media. |
 | OLEActionVerbs | `5` | Kelas OLE Action Verbs. |
 
 ### Lihat Juga

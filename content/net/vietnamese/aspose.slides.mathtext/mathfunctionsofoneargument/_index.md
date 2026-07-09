@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfOneArgument
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các hàm toán học phổ biến của một đối số
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Các hàm toán học chung có một đối số
 type: docs
 weight: 8740
 url: /vi/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
-## Liệt kê MathFunctionsOfOneArgument
+## MathFunctionsOfOneArgument liệt kê
 
-Các hàm toán học phổ biến của một đối số
+Các hàm toán học chung có một đối số
 
 ```csharp
 public enum MathFunctionsOfOneArgument
@@ -18,34 +18,34 @@ public enum MathFunctionsOfOneArgument
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Sin | `0` | Sin |
-| Cos | `1` | Cos |
-| Tan | `2` | Tang |
-| Csc | `3` | Csc |
-| Sec | `4` | Sec |
-| Cot | `5` | Cot |
-| HyperbolicSin | `6` | Sinh hyperbolic |
-| HyperbolicCos | `7` | Cosine hyperbolic |
-| HyperbolicTan | `8` | Tang hyperbolic |
-| HyperbolicCsc | `9` | Csc hyperbolic |
-| HyperbolicSec | `10` | Secant hyperbolic |
-| HyperbolicCot | `11` | Cotangent hyperbolic |
-| Lg | `12` | Logarithm thập phân |
-| Ln | `13` | Logarithm tự nhiên |
-| ArcSin | `14` | Arc sin |
-| ArcCos | `15` | Arc cos |
-| ArcTan | `16` | Arc tan |
-| ArcCsc | `17` | Arc csc |
-| ArcSec | `18` | Arc sec |
-| ArcCot | `19` | Arc cot |
-| HyperbolicArcSin | `20` | Arc sin hyperbolic |
-| HyperbolicArcCos | `21` | Arc cos hyperbolic |
-| HyperbolicArcTan | `22` | Arc tan hyperbolic |
-| HyperbolicArcCsc | `23` | Arc csc hyperbolic |
-| HyperbolicArcSec | `24` | Arc sec hyperbolic |
-| HyperbolicArcCot | `25` | Arc cot hyperbolic |
+| Sin | `0` | sin |
+| Cos | `1` | cos |
+| Tan | `2` | tan |
+| Csc | `3` | cosecant |
+| Sec | `4` | sec |
+| Cot | `5` | cot |
+| HyperbolicSin | `6` | sin hyperbolic |
+| HyperbolicCos | `7` | cos hyperbolic |
+| HyperbolicTan | `8` | tan hyperbolic |
+| HyperbolicCsc | `9` | cosecant hyperbolic |
+| HyperbolicSec | `10` | sec hyperbolic |
+| HyperbolicCot | `11` | cot hyperbolic |
+| Lg | `12` | logarit cơ số 10 |
+| Ln | `13` | logarit tự nhiên |
+| ArcSin | `14` | arcsin |
+| ArcCos | `15` | arccos |
+| ArcTan | `16` | arctan |
+| ArcCsc | `17` | arccsc |
+| ArcSec | `18` | arcsec |
+| ArcCot | `19` | arccot |
+| HyperbolicArcSin | `20` | arcsinh |
+| HyperbolicArcCos | `21` | arccosh |
+| HyperbolicArcTan | `22` | arctanh |
+| HyperbolicArcCsc | `23` | arccsch |
+| HyperbolicArcSec | `24` | arcsech |
+| HyperbolicArcCot | `25` | arccoth |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

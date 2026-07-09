@@ -1,14 +1,14 @@
 ---
 title: ControlCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Een verzameling van ActiveX-controls.
+description: Een collectie van ActiveX-besturingselementen.
 type: docs
 weight: 2700
 url: /nl/aspose.slides/controlcollection/
 ---
 ## ControlCollection klasse
 
-Een verzameling van ActiveX-controls.
+Een collectie van ActiveX-besturingselementen.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -16,23 +16,23 @@ public class ControlCollection : IControlCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Retourneert het aantal objecten in de collectie. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Retourneert een aantal objecten in de collectie. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | Retourneert een control op de opgegeven positie. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | Retourneert een besturingselement op de opgegeven positie. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Beschrijving |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Maakt een nieuwe control aan en voegt deze toe aan de collectie. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | Verwijdert alle controls uit de collectie. |
-| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Kopieert de gehele collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereren. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Verwijdert een ActiveX-control uit de collectie. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Verwijdert een ActiveX-control die op de opgegeven positie is opgeslagen uit de collectie. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Maakt een nieuw besturingselement aan en voegt het toe aan de collectie. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | Verwijdert alle besturingselementen uit de collectie. |
+| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Kopieert de volledige collectie naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Retourneert een enumerator die door de collectie heen iterereert. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Verwijdert een ActiveX-besturingselement uit de collectie. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Verwijdert een ActiveX-besturingselement dat zich op de opgegeven positie bevindt uit de collectie. |
 
 ### Zie ook
 

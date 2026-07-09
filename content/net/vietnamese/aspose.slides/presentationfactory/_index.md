@@ -8,45 +8,45 @@ url: /vi/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory lớp
 
-Cho phép tạo bản trình chiếu qua giao diện COM
+Cho phép tạo bản trình bày qua giao diện COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | Bộ khởi tạo mặc định. |
+| [PresentationFactory](presentationfactory)() | Hàm tạo mặc định. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Thể hiện tĩnh của Presentation factory. Chỉ đọc [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Thực thể tĩnh của Presentation factory. Chỉ đọc [`PresentationFactory`](../presentationfactory). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Tạo bản trình chiếu mới. |
-| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Tạo bản trình chiếu mới với các tùy chọn tải bổ sung |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Tạo đối tượng PresentationInfo từ stream và gắn bản trình chiếu vào nó. Lấy thông tin về bản trình chiếu trong stream đã chỉ định. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Tạo đối tượng PresentationInfo từ tệp và gắn bản trình chiếu vào nó. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Trích xuất văn bản thô từ các slide |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Trích xuất văn bản thô từ các slide |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Trích xuất văn bản thô từ các slide |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Đọc một bản trình chiếu hiện có từ mảng |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Đọc một bản trình chiếu hiện có từ stream |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Đọc một bản trình chiếu hiện có từ tệp |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Đọc một bản trình chiếu hiện có từ mảng với các tùy chọn tải bổ sung |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Đọc một bản trình chiếu hiện có từ stream với các tùy chọn tải bổ sung |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Đọc một bản trình chiếu hiện có từ stream với các tùy chọn tải bổ sung |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Tạo bản trình bày mới. |
+| [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Tạo bản trình bày mới với các tùy chọn tải bổ sung |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Tạo đối tượng PresentationInfo mới từ luồng và liên kết bản trình bày với nó. Lấy thông tin về bản trình bày trong luồng đã chỉ định. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Tạo đối tượng PresentationInfo mới từ tệp và liên kết bản trình bày với nó. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Lấy văn bản thô từ các slide |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Lấy văn bản thô từ các slide |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Lấy văn bản thô từ các slide |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Đọc một bản trình bày hiện có từ mảng |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Đọc một bản trình bày hiện có từ luồng |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Đọc một bản trình bày hiện có từ tệp |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Đọc một bản trình bày hiện có từ mảng với các tùy chọn tải bổ sung |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Đọc một bản trình bày hiện có từ luồng với các tùy chọn tải bổ sung |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Đọc một bản trình bày hiện có từ luồng với các tùy chọn tải bổ sung |
 
 ### Ví dụ
 
-Ví dụ sau cho thấy cách kiểm tra Presentation Format.
+Ví dụ sau cho thấy cách kiểm tra Định dạng Bản trình bày.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-Ví dụ sau cho thấy cách lấy các thuộc tính của một Presentation.
+Ví dụ sau cho thấy cách lấy các thuộc tính của một Bản trình bày.
 
 ```csharp
 [C#]
@@ -67,10 +67,10 @@ IDocumentProperties props = info.ReadDocumentProperties();
 Console.WriteLine(props.CreatedTime);
 Console.WriteLine(props.Subject);
 Console.WriteLine(props.Title);
-// ...
+// ..
 ```
 
-Ví dụ sau cho thấy cách cập nhật các thuộc tính của một Presentation.
+Ví dụ sau cho thấy cách cập nhật các thuộc tính của một Bản trình bày.
 
 ```csharp
 [C#]
@@ -82,8 +82,8 @@ info.UpdateDocumentProperties(props);
 
 ### Xem thêm
 
-* giao diện [IPresentationFactory](../ipresentationfactory)
-* không gian tên [Aspose.Slides](../../aspose.slides)
+* interface [IPresentationFactory](../ipresentationfactory)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

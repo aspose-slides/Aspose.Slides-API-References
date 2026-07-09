@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงประเภทคลาสของเอฟเฟ็กต์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทคลาสของเอฟเฟกต์
 type: docs
 weight: 320
 url: /th/aspose.slides.animation/effectpresetclasstype/
 ---
-## 列舉 EffectPresetClassType
+## EffectPresetClassType การจำแนก
 
-แสดงประเภทคลาสของเอฟเฟ็กต์
+แสดงประเภทคลาสของเอฟเฟกต์
 
 ```csharp
 public enum EffectPresetClassType
@@ -18,12 +18,12 @@ public enum EffectPresetClassType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Entrance | `0` | คลาสเอฟเฟกต์แบบเข้า |
-| Exit | `1` | คลาสเอฟเฟกต์แบบออก |
-| Emphasis | `2` | คลาสเอฟเฟกต์แบบเน้น |
-| Path | `3` | คลาสเส้นทางการเคลื่อนที่ |
-| MediaCall | `4` | คลาสเอฟเฟกต์สื่อ |
-| OLEActionVerbs | `5` | คลาส OLE Action Verbs |
+| Entrance | `0` | คลาสของเอฟเฟกต์การเข้าสู่ |
+| Exit | `1` | คลาสของเอฟเฟกต์การออก |
+| Emphasis | `2` | คลาสของเอฟเฟกต์การเน้น |
+| Path | `3` | คลาสของเส้นทางการเคลื่อนที่ |
+| MediaCall | `4` | คลาสของเอฟเฟกต์สื่อ |
+| OLEActionVerbs | `5` | คลาสของ OLE Action Verbs |
 
 ### ดูเพิ่มเติม
 

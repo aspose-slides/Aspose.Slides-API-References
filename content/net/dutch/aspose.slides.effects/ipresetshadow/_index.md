@@ -19,12 +19,12 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Staat toe om de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Staat toe om de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Richting van schaduw. Lezen/schrijven Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Afstand van schaduw. Lezen/schrijven Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Voorinstelling. Lezen/schrijven [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Kleur van schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Stelt toe om de basis IAccessiblePVIObject interface te verkrijgen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Stelt toe om de basis IImageTransformOperation interface te verkrijgen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Direction of shadow. Lezen/schrijven Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Distance of shadow. Lezen/schrijven Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Lezen/schrijven [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Zie ook
 

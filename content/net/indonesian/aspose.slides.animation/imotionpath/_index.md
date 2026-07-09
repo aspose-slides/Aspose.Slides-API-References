@@ -3,10 +3,10 @@ title: IMotionPath
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili jalur gerakan.
 type: docs
-weight: 510
+weight: 530
 url: /id/aspose.slides.animation/imotionpath/
 ---
-## antarmuka IMotionPath
+## IMotionPath antarmuka
 
 Mewakili jalur gerakan.
 
@@ -18,8 +18,8 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Mengizinkan untuk mendapatkan antarmuka IBehavior dasar. Hanya-baca IEnumerable. |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Mengembalikan jumlah jalur dalam koleksi. Hanya-baca Int32. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Mengizinkan untuk mendapatkan antarmuka IBehavior dasar. IEnumerable hanya-baca. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Mengembalikan jumlah jalur dalam koleksi. Int32 hanya-baca. |
 | [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Mengembalikan perintah pada indeks yang ditentukan. |
 
 ## Metode

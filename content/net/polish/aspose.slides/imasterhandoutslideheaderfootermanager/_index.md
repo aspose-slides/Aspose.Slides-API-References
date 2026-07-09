@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje menedżera, który przechowuje zachowanie elementów zastępczych slajdu notatek głównych, w tym elementu zastępczego nagłówka.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje menedżera, który przechowuje zachowanie zastępczych elementów slajdu zestawienia głównego, w tym zastępczy nagłówek.
 type: docs
-weight: 6340
+weight: 6360
 url: /pl/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżer, który zawiera zachowanie elementów zastępczych slajdu notatek głównych, w tym elementu zastępczego nagłówka.
+Reprezentuje menedżera, który przechowuje zachowanie zastępczych elementów slajdu zestawienia głównego, w tym zastępczy nagłówek.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,7 +16,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Zwraca interfejs IBaseHandoutNotesSlideHeaderFooterManag. |
 

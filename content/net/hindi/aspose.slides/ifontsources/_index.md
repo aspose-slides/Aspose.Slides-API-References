@@ -18,8 +18,8 @@ public interface IFontSources
 
 | नाम | विवरण |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | फ़ॉन्ट फ़ाइलों वाले फ़ोल्डर। इन फ़ोल्डरों में स्थित सभी फ़ॉन्ट फ़ाइलें संग्रह में शामिल हैं। फ़ोल्डर जिन्हें पुनरावर्ती रूप से खोजा जाता है। |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | बाइट ऐरे के रूप में प्रतिनिधित्व किए गए फ़ॉन्ट्स का संग्रह। |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | फ़ॉन्ट फ़ाइलों वाले फ़ोल्डर्स। इन फ़ोल्डर्स में स्थित सभी फ़ॉन्ट फ़ाइलें संग्रह में शामिल होती हैं। फ़ोल्डर्स को पुनरावृति रूप से खोजा जाता है। |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | फ़ॉन्ट्स का संग्रह जो बाइट एरे के रूप में प्रतिनिधित्व किया गया है। |
 
 ### संबंधित देखें
 

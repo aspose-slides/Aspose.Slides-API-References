@@ -1,14 +1,14 @@
 ---
 title: PVIObject
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zabaluje základní služební infrastrukturu pro objekty, které mohou být předmětem dědičnosti hodnot vlastností.
+description: Zapouzdřuje základní servisní infrastrukturu pro objekty, které mohou být předmětem dědičnosti hodnot vlastností.
 type: docs
-weight: 9250
+weight: 9270
 url: /cs/aspose.slides/pviobject/
 ---
 ## PVIObject třída
 
-Zabaluje základní služební infrastrukturu pro objekty, které mohou být předmětem dědičnosti hodnot vlastností.
+Zapouzdřuje základní servisní infrastrukturu pro objekty, které mohou být předmětem dědičnosti hodnot vlastností.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,13 +18,13 @@ public abstract class PVIObject : ISlideComponent
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se specifikovaným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

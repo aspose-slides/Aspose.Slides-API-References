@@ -1,6 +1,6 @@
 ---
 title: IDataTable
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 데이터 테이블 속성을 나타냅니다.
 type: docs
 weight: 2060
@@ -20,10 +20,10 @@ public interface IDataTable : IFormattedTextContainer
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatatable/asiformattedtextcontainer) { get; } | 기본 IFormattedTextContainer 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Format](../../aspose.slides.charts/idatatable/format) { get; } | 객체의 선, 채우기 및 효과 스타일을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | 차트 데이터 테이블에 가로 셀 테두리가 있는 경우 True입니다. 읽기/쓰기 Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | 차트 데이터 테이블에 외곽선 테두리가 있는 경우 True입니다. 읽기/쓰기 Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | 차트 데이터 테이블에 세로 셀 테두리가 있는 경우 True입니다. 읽기/쓰기 Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | 데이터 레이블 범례 키가 표시되는 경우 True입니다. 읽기/쓰기 Boolean. |
+| [HasBorderHorizontal](../../aspose.slides.charts/idatatable/hasborderhorizontal) { get; set; } | True if 차트 데이터 테이블에 가로 셀 테두리가 있습니다. 읽기/쓰기 Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/idatatable/hasborderoutline) { get; set; } | True if 차트 데이터 테이블에 외곽선 테두리가 있습니다. 읽기/쓰기 Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/idatatable/hasbordervertical) { get; set; } | True if 차트 데이터 테이블에 세로 셀 테두리가 있습니다. 읽기/쓰기 Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatatable/showlegendkey) { get; set; } | True if 데이터 레이블 레전드 키가 표시됩니다. 읽기/쓰기 Boolean. |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Niezmienny obiekt reprezentujący efekt BrightnessContrast. Dostosowuje jasność i kontrast
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Obiekt niezmienny, który reprezentuje efekt BrightnessContrast. Dostosowuje jasność i kontrast
 type: docs
-weight: 3190
+weight: 3210
 url: /pl/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt BrightnessContrast. Dostosowuje jasność i kontrast
+Obiekt niezmienny, który reprezentuje efekt BrightnessContrast. Dostosowuje jasność i kontrast
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData

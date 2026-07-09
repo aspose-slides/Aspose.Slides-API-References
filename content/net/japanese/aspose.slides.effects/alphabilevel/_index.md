@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Alpha Bi-Level エフェクトを表します。しきい値未満の Alpha 不透明度の値は 0（完全に透明）に、しきい値以上の Alpha の値は 100（完全に不透明）に変更されます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Alpha Bi-Level エフェクトを表します。しきい値未満の Alpha Opacity の値は 0 に変更され、完全に透明になります。しきい値以上の Alpha Opacity の値は 100 に変更され、完全に不透明になります。
 type: docs
-weight: 2820
+weight: 2840
 url: /ja/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel クラス
 
-Alpha Bi-Level エフェクトを表します。しきい値未満の Alpha (Opacity) 値は 0 (完全に透明) に、しきい値以上の Alpha 値は 100% (完全に不透明) に変更されます。
+Alpha Bi-Level エフェクトを表します。Alpha (Opacity) の値がしきい値未満の場合は 0 (完全に透明) に、しきい値以上の場合は 100% (完全に不透明) に変更されます。
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,15 +18,15 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | エフェクトのしきい値を返します。読み書き Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | エフェクトのしきい値を返します。読み書き可能 Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 指定された [`AlphaBiLevel`](../alphabilevel) が現在の [`AlphaBiLevel`](../alphabilevel) と等しいかどうかを決定します。 |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | 継承が適用された有効な Alpha Bi-Level エフェクト データを取得します。 |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 指定された [`AlphaBiLevel`](../alphabilevel) が現在の [`AlphaBiLevel`](../alphabilevel) と等しいかどうかを判断します。 |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | 継承が適用された有効な Alpha Bi-Level エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

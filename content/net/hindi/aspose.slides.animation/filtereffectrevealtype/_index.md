@@ -1,6 +1,6 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: फ़िल्टर रिवील प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 380

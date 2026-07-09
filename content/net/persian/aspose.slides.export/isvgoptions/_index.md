@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر گزینه‌های SVG.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک گزینه SVG را نمایندگی می‌کند.
 type: docs
 weight: 4060
 url: /fa/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions رابط
 
-نمایانگر گزینه‌های SVG است.
+یک گزینه SVG را نمایندگی می‌کند.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,23 +18,23 @@ public interface ISVGOptions : ISaveOptions
 
 | نام | توضیح |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | ISaveOptions رابط را برمی‌گرداند. فقط خواندنی [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | یک پرچم بولی نشان می‌دهد که آیا بخش‌های بریده‌شده به عنوان بخشی از سند باقی می‌مانند. اگر true باشد، بخش‌های بریده‌شده حذف می‌شوند، اگر false باشند، در سند سریالی می‌شوند (که ممکن است منجر به فایل بزرگ‌تر شود) قابل خواندن/نوشتن Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | مشخص می‌کند که آیا متن 3D در SVG غیرفعال باشد یا نه. قابل خواندن/نوشتن Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | مقداری را دریافت یا تنظیم می‌کند که نشان می‌دهد آیا متن بدون استفاده از لیگچرها رندر می‌شود یا نه. هنگام تنظیم به `true`، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی برابر `false` است. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | تقسیم گرادیان‌های FromCornerX و FromCenter را غیرفعال می‌کند. قابل خواندن/نوشتن Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 توانایی تعریف تو رفتگی برای نشانگرها را ندارد. موتور نوشتن SVG در Aspose.Slides راه‌حلی برای این مشکل دارد: انتهای خط با پیکان را برش می‌دهد، به‌طوری که خط با نشانگرها همپوشانی نکند. این گزینه این رفتار را غیرفعال می‌کند. قابل خواندن/نوشتن Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | روشی برای پردازش فونت‌های بارگذاری‌شده از خارج را تعیین می‌کند. قابل خواندن/نوشتن [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیاء Ink را در سند صادر شده کنترل می‌کند. فقط خواندنی [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | کیفیت رمزگذاری JPEG را تعیین می‌کند. قابل خواندن/نوشتن Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | حد پایین وضوح برای رسترسازی متافایل را باز می‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد. قابل خواندن/نوشتن [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | یک رابط callback را باز می‌گرداند و تنظیم می‌کند که به کاربر امکان کنترل تبدیل شکل را می‌دهد. قابل خواندن/نوشتن [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | مشخص می‌کند که آیا دوران مشخص‌شدهٔ شکل در زمان رندر اجرا شود یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض true است. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | مشخص می‌کند که آیا چارچوب متن در ناحیه رندر گنجانده شود یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض false است. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | مشخص می‌کند که آیا متن روی اسلاید به‌صورت گرافیک ذخیره شود یا نه. قابل خواندن/نوشتن Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | باز می‌گرداند ISaveOptions interface. فقط خواندنی [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | یک پرچم بولی نشان می‌دهد آیا قسمت‌های برش خورده به عنوان بخشی از سند باقی می‌مانند. اگر true باشد، قسمت‌های برش خورده حذف می‌شوند، اگر false باشند، در سند سریال‌سازی می‌شوند (که ممکن است منجر به فایل بزرگتر شود) خواندن/نوشتن Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | تعیین می‌کند آیا متن 3D در SVG غیرفعال است یا نه. خواندن/نوشتن Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | مقداری را دریافت یا تنظیم می‌کند که نشان می‌دهد آیا متن بدون استفاده از لیگچرها رندر می‌شود یا نه. وقتی به `true` تنظیم شود، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به طور پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | تقسیم گرادیان‌های FromCornerX و FromCenter را غیرفعال می‌کند. خواندن/نوشتن Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 قادر به تعریف تو رفتگی برای مارکرها نیست. موتور نوشتن SVG Aspose.Slides راه‌حلی برای این مشکل دارد: انتهای خط با فلش را برش می‌دهد تا خط با مارکرها همپوشانی نداشته باشد. این گزینه این رفتار را غیرفعال می‌کند. خواندن/نوشتن Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | روشی را برای مدیریت فونت‌های بارگذاری شده به‌صورت خارجی تعیین می‌کند. خواندن/نوشتن [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیای Ink را در سند صادر شده کنترل می‌کند. فقط خواندنی [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | کیفیت رمزگذاری JPEG را تعیین می‌کند. خواندن/نوشتن Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | حد پایین وضوح برای رسترایز کردن متافایل را دریافت یا تنظیم می‌کند. خواندن/نوشتن Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نمایندگی می‌کند. خواندن/نوشتن [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | یک رابط callback را دریافت و تنظیم می‌کند که به کاربر اجازه می‌دهد تبدیل شکل را کنترل کند. خواندن/نوشتن [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | تعیین می‌کند آیا چرخش مشخص‌شده شکل هنگام رندر کردن انجام شود یا نه. خواندن/نوشتن Boolean. مقدار پیش‌فرض true است. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | تعیین می‌کند آیا قاب متن در ناحیه رندر گنجانده شود یا نه. خواندن/نوشتن Boolean. مقدار پیش‌فرض false است. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | تعیین می‌کند آیا متن روی اسلاید به‌صورت گرافیک ذخیره شود یا نه. خواندن/نوشتن Boolean. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [ISaveOptions](../isaveoptions)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)

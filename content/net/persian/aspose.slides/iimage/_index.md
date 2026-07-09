@@ -1,6 +1,6 @@
 ---
 title: IImage
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای مرجع API .NET
 description: یک تصویر رستر یا برداری را نشان می‌دهد.
 type: docs
 weight: 6150
@@ -14,29 +14,29 @@ url: /fa/aspose.slides/iimage/
 public interface IImage : IDisposable
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | ارتفاع تصویر را بر حسب پیکسل برمی‌گرداند. |
-| [Size](../../aspose.slides/iimage/size) { get; } | اندازه تصویر را برمی‌گرداند. |
-| [Width](../../aspose.slides/iimage/width) { get; } | عرض تصویر را بر حسب پیکسل برمی‌گرداند. |
+| [Height](../../aspose.slides/iimage/height) { get; } | ارتفاع تصویر را بر حسب پیکسل بازمی‌گرداند. |
+| [Size](../../aspose.slides/iimage/size) { get; } | اندازه تصویر را بازمی‌گرداند. |
+| [Width](../../aspose.slides/iimage/width) { get; } | عرض تصویر را بر حسب پیکسل بازمی‌گرداند. |
 
 ## متدها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | تصویر را در یک فایل ذخیره می‌کند. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | تصویر را در یک جریان با فرمت مشخص ذخیره می‌کند. |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | تصویر را در یک فایل با فرمت مشخص ذخیره می‌کند. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | تصویر را در یک جریان با فرمت و کیفیت مشخص ذخیره می‌کند. |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | تصویر را در یک فایل با فرمت و کیفیت مشخص ذخیره می‌کند. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | تصویر را در قالب مشخص به یک جریان ذخیره می‌کند. |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | تصویر را در قالب مشخص در یک فایل ذخیره می‌کند. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | تصویر را در قالب و کیفیت مشخص به یک جریان ذخیره می‌کند. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | تصویر را در قالب و کیفیت مشخص در یک فایل ذخیره می‌کند. |
 
-### توضیحات
+### نکات
 
-این رابط یک انتزاع مشترک برای کار با تصاویر رستر و برداری فراهم می‌کند. پیاده‌سازی‌ها ممکن است بسته به نوع تصویر زمینه متفاوت باشند.
+این رابط یک انتزاع مشترک برای کار با تصاویر رستر و برداری فراهم می‌کند. پیاده‌سازی‌ها ممکن است بسته به نوع تصویر زیرین متفاوت باشد.
 
-### مراجع
+### همچنین ببینید
 
 * فضای نام [Aspose.Slides](../../aspose.slides)
 * مونتاژ [Aspose.Slides](../../)

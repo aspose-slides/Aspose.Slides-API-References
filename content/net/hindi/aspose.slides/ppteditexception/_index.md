@@ -1,26 +1,26 @@
 ---
 title: PptEditException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: जब संपादन प्रस्तुति त्रुटि का पता चलता है तो फेंका गया अपवाद दर्शाता है।
+description: प्रस्तुति संपादन त्रुटि का पता चलने पर फेंके गए अपवाद का प्रतिनिधित्व करता है।
 type: docs
 weight: 9510
 url: /hi/aspose.slides/ppteditexception/
 ---
 ## PptEditException क्लास
 
-एक अपवाद का प्रतिनिधित्व करता है जो तब फेंका जाता है जब प्रस्तुति संपादन त्रुटि का पता चलता है।
+प्रस्तुति संपादन त्रुटि का पता चलने पर फेंके गए अपवाद का प्रतिनिधित्व करता है।
 
 ```csharp
 public class PptEditException : PptException
 ```
 
-## निर्माताएँ
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [PptEditException](ppteditexception#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
-| [PptEditException](ppteditexception#constructor_1)(string) | कंस्ट्रक्टर जो इस अपवाद में एक संदेश जोड़ने की अनुमति देता है। |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | एक संदेश और एक अंतर्निहित अपवाद वाले अपवाद के लिए कंस्ट्रक्टर। |
+| [PptEditException](ppteditexception#constructor)() | डिफ़ॉल्ट निर्माता। |
+| [PptEditException](ppteditexception#constructor_1)(string) | एक संदेश को इस अपवाद में जोड़ने की अनुमति देने वाला निर्माता। |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | एक संदेश और एक एम्बेडेड अपवाद शामिल करने वाले अपवाद के लिए निर्माता। |
 
 ### देखें
 

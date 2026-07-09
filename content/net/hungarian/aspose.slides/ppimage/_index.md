@@ -1,14 +1,14 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes .NET API referencia
-description: Egy képet képvisel egy prezentációban.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy kép reprezentálása egy bemutatóban.
 type: docs
-weight: 9230
+weight: 9250
 url: /hu/aspose.slides/ppimage/
 ---
 ## PPImage osztály
 
-Represents an image in a presentation.
+Egy kép reprezentálása egy bemutatóban.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -16,25 +16,25 @@ public class PPImage : IDisposable, IPPImage
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Visszaadja a kép adatainak másolatát. Csak olvasható Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Visszaadja a kép MIME-típusát, amely [`BinaryData`](./binarydata)-ben kódolt. Csak olvasható String. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Visszaadja a kép MIME típusát, [`BinaryData`](./binarydata)-ban kódolva. Csak olvasható String. |
 | [Height](../../aspose.slides/ppimage/height) { get; } | Visszaadja a kép magasságát. Csak olvasható Int32. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Visszaadja egy kép másolatát. Csak olvasható [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Visszaadja vagy beállítja az ISvgImage objektumot [`ISvgImage`](../isvgimage) |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Visszaadja a kép másolatát. Csak olvasható [`IImage`](../iimage). |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Visszaadja vagy beállítja az ISvgImage objektumot [`ISvgImage`](../isvgimage). |
 | [Width](../../aspose.slides/ppimage/width) { get; } | Visszaadja a kép szélességét. Csak olvasható Int32. |
 | [X](../../aspose.slides/ppimage/x) { get; } | Visszaadja a kép X-eltolását. Csak olvasható Int32. |
 | [Y](../../aspose.slides/ppimage/y) { get; } | Visszaadja a kép Y-eltolását. Csak olvasható Int32. |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Felszabadítja az objektumot. |
-| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Visszaadja a kép hash kódját. |
+| override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Visszaadja egy kép hash kódját. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Lecseréli a kép adatait. Az új kép adatai. Ha a newImageData paraméter null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Lecseréli a kép adatait. Figyelem: ha a Image metafájl, rasterizálva lesz. Használja helyette a ReplaceImage(byte[]) metódust. Az új kép. Ha a newImage paraméter null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Lecseréli a kép adatait. Figyelem: ha a kép metafájl – rasterizálva lesz. Használja a ReplaceImage(byte[]) metódust helyette. Az új kép. Ha a newImage paraméter null. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Lecseréli a kép adatait. Az új IPPImage. Ha a newImage paraméter null. |
 
 ### Lásd még

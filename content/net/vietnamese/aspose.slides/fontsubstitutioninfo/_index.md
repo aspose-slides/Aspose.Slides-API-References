@@ -1,20 +1,20 @@
 ---
 title: FontSubstitutionInfo
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cấu trúc này đại diện cho thông tin về việc thay thế phông chữ khi nó sẽ được hiển thị.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Cấu trúc này biểu diễn thông tin về việc thay thế phông chữ khi nó sẽ được hiển thị.
 type: docs
 weight: 4910
 url: /vi/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo lớp
 
-Cấu trúc này đại diện cho thông tin về việc thay thế phông chữ khi nó được hiển thị.
+Cấu trúc này biểu diễn thông tin về việc thay thế phông chữ khi nó sẽ được hiển thị.
 
 ```csharp
 public class FontSubstitutionInfo
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -24,7 +24,7 @@ public class FontSubstitutionInfo
 
 | Tên | Mô tả |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Chỉ ra tên phông chữ nguồn trong bản trình chiếu. Chỉ đọc String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Chỉ ra tên phông chữ nguồn trong bản trình bày. Chỉ đọc String |
 | [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Chỉ ra tên phông chữ thay thế cho phông chữ gốc. Chỉ đọc String |
 
 ### Ví dụ

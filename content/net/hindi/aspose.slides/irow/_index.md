@@ -1,7 +1,7 @@
 ---
 title: IRow
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: टेबल में एक पंक्ति का प्रतिनिधित्व करता है।
+description: एक तालिका में पंक्ति का प्रतिनिधित्व करता है।
 type: docs
 weight: 6850
 url: /hi/aspose.slides/irow/
@@ -18,13 +18,13 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | बेस IBulkTextFormattable इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBulkTextFormattable`](../ibulktextformattable)। |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | बेस ICellCollection इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ICellCollection`](../icellcollection)। |
-| [Height](../../aspose.slides/irow/height) { get; } | एक पंक्ति की ऊंचाई लौटाता है। केवल-पढ़ने योग्य Double। |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | एक पंक्ति की न्यूनतम सम्भव ऊंचाई लौटाता या सेट करता है। पढ़ने/लिखने योग्य Double। |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | इस पंक्ति के लिए फ़ॉर्मेटिंग गुणों को शामिल करने वाले RowFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IRowFormat`](../irowformat)। |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | IBulkTextFormattable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | ICellCollection इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | पंक्ति की ऊँचाई लौटाता है। केवल-पढ़ने योग्य Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | पंक्ति की न्यूनतम संभव ऊँचाई लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | इस पंक्ति के लिए स्वरूपण गुणों को शामिल करने वाले RowFormat ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IRowFormat`](../irowformat). |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IBulkTextFormattable](../ibulktextformattable)
 * इंटरफ़ेस [ICellCollection](../icellcollection)

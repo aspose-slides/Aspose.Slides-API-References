@@ -1,14 +1,14 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 애니메이션 효과의 후 애니메이션 유형을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 애니메이션 효과의 after animation 유형을 나타냅니다.
 type: docs
 weight: 110
 url: /ko/aspose.slides.animation/afteranimationtype/
 ---
 ## AfterAnimationType 열거형
 
-애니메이션 효과의 이후 애니메이션 유형을 나타냅니다.
+애니메이션 효과의 after animation 유형을 나타냅니다.
 
 ```csharp
 public enum AfterAnimationType
@@ -18,10 +18,10 @@ public enum AfterAnimationType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| DoNotDim | `0` | 애니메이션 후 어두워지지 않음 유형. |
-| Color | `1` | 애니메이션 후 색상 유형. |
-| HideAfterAnimation | `2` | 애니메이션 후 숨기기 유형 |
-| HideOnNextMouseClick | `3` | 다음 마우스 클릭 시 애니메이션 후 숨기기 유형. |
+| DoNotDim | `0` | 애니메이션 후에 흐려지지 않음. |
+| Color | `1` | 애니메이션 후 색상. |
+| HideAfterAnimation | `2` | 애니메이션 후 숨김. |
+| HideOnNextMouseClick | `3` | 다음 마우스 클릭 시 애니메이션 후 숨김. |
 
 ### 참조
 

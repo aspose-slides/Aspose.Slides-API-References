@@ -1,14 +1,14 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kategori veri etiketlerinin düzenini temsil eder. Yalnızca Treemap serileriyle kullanılır.
 type: docs
-weight: 2330
+weight: 2350
 url: /tr/aspose.slides.charts/parentlabellayouttype/
 ---
-## ParentLabelLayoutType enum
+## ParentLabelLayoutType enumerasyonu
 
-Kategori veri etiketlerinin düzenini temsil eder. Yalnızca Treemap serileriyle kullanılır.
+Üst kategori etiketlerinin düzenini temsil eder. Yalnızca Treemap serileriyle kullanılır.
 
 ```csharp
 public enum ParentLabelLayoutType
@@ -20,7 +20,7 @@ public enum ParentLabelLayoutType
 | --- | --- | --- |
 | Banner | `0` | Üst kategori etiketlerinin banner olarak gösterileceğini belirtir |
 | None | `1` | Üst kategori etiketlerinin çizilmediğini belirtir |
-| Overlapping | `2` | Üst kategori etiketlerinin üst üste bindiği şekilde gösterileceğini belirtir |
+| Overlapping | `2` | Üst kategori etiketlerinin üst üste binmiş olarak gösterileceğini belirtir |
 
 ### Ayrıca Bakınız
 

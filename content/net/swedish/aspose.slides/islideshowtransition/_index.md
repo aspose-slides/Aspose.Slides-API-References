@@ -3,7 +3,7 @@ title: ISlideShowTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bildspelsövergång.
 type: docs
-weight: 7060
+weight: 7080
 url: /sv/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition gränssnitt
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Detta attribut anger om bildspelet ska gå till nästa bild efter en viss tid. Read/write Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Anger tiden, i millisekunder, efter vilken övergången ska starta. Denna inställning kan användas i kombination med advClick-attributet. Om detta attribut inte anges antas att ingen automatisk vidaregång sker. Read-write UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Anger om ett musklick kommer att gå vidare till bilden eller inte. Om detta attribut inte anges antas ett värde av true. Read-write Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Hämtar eller anger varaktigheten för bildövergångseffekten i millisekunder. Read/write Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Returnerar eller anger den inbäddade ljuddata. Read-write [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Anger om detta ljud är ett inbyggt ljud eller inte. Om detta attribut är satt till true får den genererande applikationen en varning att kontrollera namn-attributet som angavs för detta ljud i dess lista över inbyggda ljud och kan då visa ett anpassat namn eller UI vid behov. Read-write Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Detta attribut anger om ljudet ska loopa tills nästa ljudhändelse inträffar i bildspelet. Read-write Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Anger eller returnerar ljudläge för bildövergången. Read-write [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Anger ett människoläsbart namn för övergångens ljud. [`Sound`](./sound)-egenskapen måste tilldelas för att hämta eller ange ljudnamnet. Read-write String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Anger övergångshastigheten som ska användas vid övergång från aktuell bild till nästa. Read-write [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ av övergång. Read-write [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Värde för bildspelsövergång. Read-only [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Detta attribut anger om bildspelet ska gå till nästa bild efter en viss tid. Läs/skriv Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Anger tiden i millisekunder efter vilken övergången ska starta. Denna inställning kan användas tillsammans med attributet advClick. Om detta attribut inte anges antas att ingen automatisk vidaregång kommer att ske. Läs/skriv UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Anger om ett musklick ska gå vidare till bilden eller inte. Om detta attribut inte anges antas värdet true. Läs/skriv Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Hämtar eller anger varaktigheten för bildövergångseffekten i millisekunder. Läs/skriv Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Hämtar eller anger den inbäddade ljuddata. Läs/skriv [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Anger om detta ljud är ett inbyggt ljud eller ej. Om detta attribut är satt till true får den genererande applikationen en signal att kontrollera namn-attributet som specificerats för detta ljud i dess lista över inbyggda ljud och kan då visa ett anpassat namn eller UI vid behov. Läs/skriv Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Detta attribut anger om ljudet ska loopa tills nästa ljudhändelse inträffar i bildspelet. Läs/skriv Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Ange eller hämta ljudläge för bildövergång. Läs/skriv [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Anger ett människoläsbart namn för övergångens ljud. Egenskapen [`Sound`](./sound) måste tilldelas för att hämta eller ange ljudnamnet. Läs/skriv String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Anger övergångshastigheten som ska användas när man övergår från den aktuella bilden till nästa. Läs/skriv [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Typ av övergång. Läs/skriv [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Bildspelsövergångsvärde. Endast läs [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### Se också
 
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* namnutrymme [Aspose.Slides](../../aspose.slides)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

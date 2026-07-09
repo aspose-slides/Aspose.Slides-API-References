@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: लाइन भरने के लिए गुणों को दर्शाता है।
+description: रेखाओं के भराव के लिए गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 6290
 url: /hi/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat इंटरफ़ेस
 
-लाइन भरने के लिए गुणों को दर्शाता है।
+रेखाओं के भराव के लिए गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -18,14 +18,14 @@ public interface ILineFillFormat : IFillParamSource
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | फ़िल प्रकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`FillType`](../filltype)। |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | ग्रेडिएंट फ़िल फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IGradientFormat`](../igradientformat)। |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | पैटर्न फ़िल फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IPatternFormat`](../ipatternformat)। |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | निर्धारित करता है कि फ़िल को आकार के साथ घुमाया जाना चाहिए या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool)। |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | सॉलिड फ़िल का रंग लौटाता है। केवल पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | फ़िल प्रकार को लौटाता या सेट करता है। पढ़ें/लिखें [`FillType`](../filltype)। |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | ग्रेडिएंट फ़िल फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IGradientFormat`](../igradientformat)। |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | पैटर्न फ़िल फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IPatternFormat`](../ipatternformat)। |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | निर्धारित करता है कि फ़िल को आकार के साथ घुमाया जाना चाहिए या नहीं। पढ़ें/लिखें [`NullableBool`](../nullablebool)। |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | सॉलिड फ़िल का रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IFillParamSource](../ifillparamsource)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

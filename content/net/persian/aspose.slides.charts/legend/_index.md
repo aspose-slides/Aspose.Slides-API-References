@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: مرجع API Aspose.Sildes برای .NET
-description: خواص legend نمودارها را نمایش می‌دهد.
+description: ویژگی‌های راهنمای نمودارها را نشان می‌دهد.
 type: docs
 weight: 2280
 url: /fa/aspose.slides.charts/legend/
 ---
-## کلاس Legend
+## Legend کلاس
 
-نمایانگر خصوصیات legend نمودار است.
+نمایانگر ویژگی‌های راهنمای نمودار است.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,29 +18,29 @@ public class Legend : DomObject<Chart>, ILegend
 
 | نام | توضیح |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | ارتفاع حقیقی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر حقیقی به دست آید. فقط‌خواندنی Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | عرض حقیقی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر حقیقی به دست آید. فقط‌خواندنی Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | موقعیت x (چپ) حقیقی عنصر نمودار نسبت به گوشهٔ بالای چپ نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر حقیقی به دست آید. فقط‌خواندنی Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | موقعیت y (بالا) حقیقی عنصر نمودار نسبت به گوشهٔ بالای چپ نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر حقیقی به دست آید. فقط‌خواندنی Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | پایین. فقط‌خواندنی Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | نمودار را برمی‌گرداند. فقط‌خواندنی [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | ورودی‌های legend را دریافت می‌کند. فقط‌خواندنی [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | قالب یک legend را برمی‌گرداند. فقط‌خواندنی [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | ارتفاع یک legend را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | تعیین می‌کند آیا عناصر دیگر نمودار مجاز به هم‌پوشانی با legend هستند یا نه. قابل‌خواندن و نوشتن Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | موقعیت legend روی نمودار را مشخص می‌کند. مقادیر غیر NaN از ویژگی‌های X، Y، Width، Heigt اثر این ویژگی را منقضی می‌کنند. قابل‌خواندن و نوشتن [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | راست. فقط‌خواندنی Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | قالب متن. فقط‌خواندنی [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | عرض یک legend را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | مختصات x یک legend را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | مختصات y یک legend را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن و نوشتن Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | موقعیت x واقعی (چپ) عنصر نمودار نسبت به گوشه بالا-چپ نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | بالای واقعی عنصر نمودار نسبت به گوشه بالا-چپ نمودار را مشخص می‌کند. قبل از دریافت مقادیر واقعی، متد IChart.ValidateChartLayout() را فراخوانی کنید. خواندنی Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | پایین. فقط خواندنی Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | نمودار را برمی‌گرداند. فقط خواندنی [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | ورودی‌های راهنما را دریافت می‌کند. فقط خواندنی [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | قالب یک راهنما را برمی‌گرداند. فقط خواندنی [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | ارتفاع یک راهنما را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | تعیین می‌کند که آیا عناصر دیگر نمودار می‌توانند روی راهنما قرار گیرند یا نه. خواندنی/نوشتنی Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | موقعیت راهنما بر روی نمودار را مشخص می‌کند. مقادیر غیر NaN ویژگی‌های X، Y، Width، Heigt اثر این ویژگی را نادیده می‌گیرند. خواندنی/نوشتنی [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | راست. فقط خواندنی Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | قالب متن. فقط خواندنی [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | عرض یک راهنما را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | مختصات x یک راهنما را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | مختصات y یک راهنما را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
 
 ### موارد مرتبط
 
 * کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * کلاس [Chart](../chart)
-* رابط [ILegend](../ilegend)
+* اینترفیس [ILegend](../ilegend)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجموعه [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

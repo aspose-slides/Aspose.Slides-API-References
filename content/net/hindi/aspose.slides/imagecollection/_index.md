@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: PPImage का संग्रह प्रस्तुत करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: PPImage का संग्रह दर्शाता है।
 type: docs
 weight: 7420
 url: /hi/aspose.slides/imagecollection/
 ---
 ## ImageCollection क्लास
 
-PPImage का संग्रह प्रस्तुत करता है।
+PPImage के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -18,26 +18,26 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | कलेक्शन में छवियों की संख्या लौटाता है। पढ़ने-के-लिए-केवल Int32। |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | कलेक्शन तक पहुंच सिंक्रनाइज़्ड (थ्रेड-सेफ़) है या नहीं दर्शाने वाला मान लौटाता है। पढ़ने-के-लिए-केवल Boolean। |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। पढ़ने-के-लिए-केवल [`IPPImage`](../ippimage)। |
-| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | सिंक्रनाइज़ेशन रूट लौटाता है। पढ़ने-के-लिए-केवल Object। |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | संग्रह में छवियों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | यह दर्शाने वाला मान लौटाता है कि संग्रह तक पहुंच समन्वित (थ्रेड-सुरक्षित) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IPPImage`](../ippimage). |
+| [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | समकालन मूल लौटाता है। केवल पढ़ने योग्य Object. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | निर्दिष्ट बफ़र से प्रस्तुति में एक छवि जोड़ता है। |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | प्रस्तुति में एक छवि जोड़ता है। |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | अन्य प्रस्तुति से एक छवि की प्रतिलिपि जोड़ता है। |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | एक प्रस्तुति में छवि जोड़ता है। |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | एक अन्य प्रस्तुति से छवि की एक प्रति जोड़ता है। |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Svg वस्तु से प्रस्तुति में एक छवि जोड़ता है। |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | स्ट्रीम से प्रस्तुति में एक छवि जोड़ता है। |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | स्ट्रीम से प्रस्तुति में एक छवि जोड़ता है। |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | स्ट्रीम से एक छवि बनाता है और उसे प्रस्तुति में जोड़ता है। |
-| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | सभी तत्वों को कलेक्शन से निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | कलेक्शन के माध्यम से इटररेट करने वाला एन्यूमरेटर लौटाता है। |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | स्ट्रीम से प्रस्तुति में एक छवि बनाता और जोड़ता है। |
+| [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | संग्रह के माध्यम से इटरटे करने वाला एक इटेरेटर लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Presentation](../presentation)

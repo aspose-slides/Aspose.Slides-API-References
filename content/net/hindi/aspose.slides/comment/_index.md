@@ -6,43 +6,43 @@ type: docs
 weight: 2620
 url: /hi/aspose.slides/comment/
 ---
-## टिप्पणी वर्ग
+## Comment क्लास
 
-स्लाइड पर टिप्पणी का प्रतिनिधित्व करता है।
+स्लाइड पर एक टिप्पणी का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Comment : IComment
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | टिप्पणी के लेखक को लौटाता है। केवल पढ़ने योग्य [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | टिप्पणी निर्माण का समय वापस देता है या सेट करता है। इस गुण को MinValue पर सेट करने का अर्थ है कि टिप्पणी का समय सेट नहीं है। पढ़ने/लिखने योग्य DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | पेरेंट टिप्पणी को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | स्लाइड पर टिप्पणी की स्थिति को वापस देता है या सेट करता है। पढ़ने/लिखने योग्य PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | टिप्पणी की पेरेंट स्लाइड को वापस देता है या सेट करता है। केवल पढ़ने योग्य [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | स्लाइड टिप्पणी का सामान्य पाठ वापस देता है या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [Author](../../aspose.slides/comment/author) { get; } | टिप्पणी के लेखक को लौटाता है। केवल पढ़ने योग्य [`ICommentAuthor`](../icommentauthor)। |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | टिप्पणी निर्माण के समय को लौटाता है या सेट करता है। इस प्रॉपर्टी को MinValue पर सेट करने से कोई टिप्पणी समय सेट नहीं होता। पढ़ने/लिखने योग्य DateTime। |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | पैरेंट टिप्पणी को प्राप्त करता या सेट करता है। पढ़ने/लिखने योग्य [`IComment`](../icomment)। |
+| [Position](../../aspose.slides/comment/position) { get; set; } | स्लाइड पर टिप्पणी की स्थिति को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य PointF। |
+| [Slide](../../aspose.slides/comment/slide) { get; } | टिप्पणी के पैरेंट स्लाइड को लौटाता है। केवल पढ़ने योग्य [`ISlide`](../islide)। |
+| [Text](../../aspose.slides/comment/text) { get; set; } | स्लाइड टिप्पणी का साधारण पाठ लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | टिप्पणी और उसके सभी उत्तरों को पेरेंट संग्रह से हटाता है। |
+| [Remove](../../aspose.slides/comment/remove)() | टिप्पणी और उसके सभी उत्तरों को पैरेंट कलेक्शन से हटाता है। |
 
 ### उदाहरण
 
-यह उदाहरण दर्शाता है कि PowerPoint प्रस्तुति में स्लाइड पर टिप्पणी कैसे जोड़ें।
+यह उदाहरण दिखाता है कि PowerPoint प्रस्तुति में स्लाइड पर टिप्पणी कैसे जोड़ें।
 
 ```csharp
 [C#]
-// Presentation क्लास का एक उदाहरण बनाता है
+// Presentation क्लास का इंस्टेंस बनाता है
 using (Presentation presentation = new Presentation())
 {
     // एक खाली स्लाइड जोड़ता है
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
-    // लेखक जोड़ता है
+    // एक लेखक जोड़ता है
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
     // टिप्पणियों के लिए स्थिति सेट करता है
     PointF point = new PointF();
@@ -57,18 +57,18 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-यह उदाहरण दर्शाता है कि PowerPoint प्रस्तुति में स्लाइड पर मौजूदा टिप्पणी कैसे एक्सेस करें।
+यह उदाहरण दिखाता है कि PowerPoint प्रस्तुति में स्लाइड पर मौजूदा टिप्पणी तक कैसे पहुँचें।
 
 ```csharp
 [C#]
-// Presentation वर्ग का एक उदाहरण बनाता है
+// Presentation क्लास का इंस्टेंस बनाता है
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// CommentAuthors को इटररेट करें
+	// CommentAuthors को दोहराएँ
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Comments को इटररेट करें
+		// Comments को दोहराएँ
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,21 +78,21 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-यह उदाहरण दर्शाता है कि टिप्पणी कैसे जोड़ें और उनके उत्तर कैसे प्राप्त करें।
+यह उदाहरण दिखाता है कि टिप्पणियाँ कैसे जोड़ें और उनके उत्तर कैसे प्राप्त करें।
 
 ```csharp
 [C#]
-// Presentation क्लास का एक उदाहरण बनाता है
+// Presentation क्लास का इंस्टेंस बनाता है
 using (Presentation pres = new Presentation())
 {
     // एक टिप्पणी जोड़ता है
     ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
     IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    // comment1 के लिए उत्तर जोड़ता है
+    // comment1 के लिए एक उत्तर जोड़ता है
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // comment1 के लिए दूसरा उत्तर जोड़ता है
+    // comment1 के लिए एक और उत्तर जोड़ता है
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
     // मौजूदा उत्तर के लिए एक उत्तर जोड़ता है
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // कंसोल पर टिप्पणियों की श्रृंखला दिखाता है
+    // कंसोल पर टिप्पणियों की पदानुक्रम दिखाता है
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -123,10 +123,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IComment](../icomment)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
-* एसेम्बली [Aspose.Slides](../../)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

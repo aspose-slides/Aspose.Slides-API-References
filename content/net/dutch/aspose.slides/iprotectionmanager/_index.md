@@ -16,28 +16,28 @@ public interface IProtectionManager
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Deze eigenschap is relevant als de presentatie met een wachtwoord is beveiligd. Als true dan zijn de documenteigenschappen versleuteld in het presentatiebestand. Als false zijn de documenteigenschappen openbaar terwijl de presentatie versleuteld is. Lezen/Schrijven Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Retourneert het versleutelingswachtwoord. Alleen-lezen String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Retourneert een waarde die aangeeft of deze instantie versleuteld is. Alleen-lezen Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Deze eigenschap is relevant als het presentatiebestand met een wachtwoord is beveiligd en de documenteigenschappen van dit bestand openbaar zijn. De waarde true betekent dat alleen de documenteigenschappen worden geladen uit een versleuteld presentatiebestand zonder wachtwoord. De waarde false betekent dat de gehele versleutelde presentatie wordt geladen met het juiste wachtwoord, niet alleen de documenteigenschappen. Als de presentatie niet versleuteld is, is de eigenschapswaarde altijd false. Als de documenteigenschappen van een versleuteld bestand niet openbaar zijn, is de eigenschapswaarde altijd false. Als PresentationEx.EncryptDocumentProperties true is, is de eigenschap IsOnlyDocumentPropertiesLoaded altijd false. Alleen-lezen Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Retourneert een waarde die aangeeft of deze presentatie schrijfbeveiligd is. Alleen-lezen Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Retourneert of stelt een alleen-lezen aanbeveling in. Lezen/Schrijven Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Deze eigenschap is zinvol als de presentatie met wachtwoord is beveiligd. Als true dan zijn de documenteigenschappen versleuteld in het presentatiebestand. Als false dan zijn de documenteigenschappen openbaar terwijl de presentatie versleuteld is. Read/write Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Retourneert het encryptiewachtwoord. Read-only String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Haalt een waarde op die aangeeft of deze instantie versleuteld is. Read-only Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Deze eigenschap is zinvol als het presentatiebestand met wachtwoord is beveiligd en de documenteigenschappen van dit bestand openbaar zijn. De waarde true betekent dat alleen documenteigenschappen worden geladen uit een versleuteld presentatiebestand zonder gebruik van een wachtwoord. De waarde false betekent dat de volledige versleutelde presentatie wordt geladen met het juiste wachtwoord, niet alleen de documenteigenschappen. Als de presentatie niet versleuteld is, is de eigenschapswaarde altijd false. Als de documenteigenschappen van een versleuteld bestand niet openbaar zijn, is de eigenschapswaarde altijd false. Als PresentationEx.EncryptDocumentProperties true is, dan is de IsOnlyDocumentPropertiesLoaded-eigenschap altijd false. Read-only Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Haalt een waarde op die aangeeft of deze presentatie tegen schrijven is beschermd. Read-only Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Haalt op of stelt een alleen-lezen aanbeveling in. Read/write Boolean. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bepaalt of een presentatie met een wachtwoord is beveiligd om te wijzigen. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Versleutelt presentatie met opgegeven wachtwoord. |
-| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Verwijdert de versleuteling. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Verwijdert schrijfbescherming voor deze presentatie. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Stelt schrijfbescherming in voor deze presentatie met opgegeven wachtwoord. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bepaalt of een presentatie met wachtwoord is beveiligd om te wijzigen. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Versleutelt de presentatie met het opgegeven wachtwoord. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Verwijdert de encryptie. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Verwijdert de schrijfbescherming voor deze presentatie. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Stelt de schrijfbescherming voor deze presentatie in met het opgegeven wachtwoord. |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

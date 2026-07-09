@@ -1,9 +1,9 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję wierszy tabeli.
 type: docs
-weight: 9700
+weight: 9720
 url: /pl/aspose.slides/rowcollection/
 ---
 ## RowCollection klasa
@@ -18,8 +18,8 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Pobiera liczbę wierszy faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Zwraca liczbę wierszy faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | Zwraca wiersz o określonym indeksie. Tylko do odczytu [`Row`](../row). |
 | [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -29,11 +29,11 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją na końcu tabeli. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Zwraca enumerator iterujący przez kolekcję. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją w podanej pozycji w tabeli. |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Usuwa wiersz o podanej pozycji z tabeli. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Tworzy kopię określonego wiersza szablonu i wstawia ją w określonym miejscu w tabeli. |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Usuwa wiersz w określonej pozycji z tabeli. |
 
-### Zobacz także
+### Zobacz też
 
 * klasa [DomObject&lt;TParent&gt;](../domobject-1)
 * klasa [Table](../table)

@@ -1,14 +1,14 @@
 ---
 title: TransitionSoundMode
-second_title: Aspose.Slides .NET API referencia
-description: Átmenet hangmódját reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diavetítés átmenetének hangmódját reprezentálja.
 type: docs
-weight: 10410
+weight: 10430
 url: /hu/aspose.slides.slideshow/transitionsoundmode/
 ---
-## TransitionSoundMode enumeráció
+## TransitionSoundMode felsorolás
 
-A diavetítés hangmódját reprezentálja.
+A diavetítés átmeneti hangmódját reprezentálja.
 
 ```csharp
 public enum TransitionSoundMode

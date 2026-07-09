@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: İç gölge efektini temsil eden değişmez nesne.
+description: İç gölge etkisini temsil eden değiştirilemez nesne.
 type: docs
-weight: 3410
+weight: 3430
 url: /tr/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData arayüz
 
-İç gölge efektini temsil eden değişmez nesne.
+İç gölge etkisini temsil eden değiştirilemez nesne.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okuma [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Bulanıklaştırma yarıçapı. Yalnızca okuma Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Gölgenin yönü. Yalnızca okuma Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Yalnızca okuma Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Yalnızca okuma Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Bulanıklık yarıçapı. Salt okunur Double. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Gölgenin yönü. Salt okunur Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Gölgenin mesafesi. Salt okunur Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Gölgenin rengi. Salt okunur Color. |
 
-### Ayrıca Bakınız
+### See Also
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

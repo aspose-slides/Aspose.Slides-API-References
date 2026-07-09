@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematik radikal oluşturmayı sağlar
+description: Matematik radikali oluşturmayı sağlar
 type: docs
-weight: 8420
+weight: 8440
 url: /tr/aspose.slides.mathtext/imathradicalfactory/
 ---
-## IMathRadialFactory arayüz
+## IMathRadicalFactory arayüz
 
-Matematik radikal oluşturmayı sağlar
+Matematik radikali oluşturmayı sağlar
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Matematik radikali oluşturur |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Bir matematik radikali oluşturur |
 
 ### Açıklamalar
 

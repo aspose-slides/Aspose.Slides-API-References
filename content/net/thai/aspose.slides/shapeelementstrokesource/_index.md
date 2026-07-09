@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงวิธีการวาดองค์ประกอบรูปทรง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงวิธีการวาดองค์ประกอบรูปทรง
 type: docs
 weight: 9890
 url: /th/aspose.slides/shapeelementstrokesource/
 ---
-## ShapeElementStrokeSource enumeration
+## การระบุ ShapeElementStrokeSource (enumeration)
 
-แสดงว่าองค์ประกอบรูปทรงควรถูกวาดอย่างไร.
+อธิบายวิธีการวาดองค์ประกอบรูปทรง
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,9 +18,9 @@ public enum ShapeElementStrokeSource : byte
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NoStroke | `0` | ไม่ทำการวาดเส้น primitive. |
-| Shape | `1` | ใช้ LineFormat ของ shape. |
-| OwnStroke | `2` | ใช้ stroke ของตนเอง. |
+| NoStroke | `0` | ไม่วาดขอบของ primitive |
+| Shape | `1` | ใช้ LineFormat ของ shape |
+| OwnStroke | `2` | ใช้ขอบของตัวเอง |
 
 ### ดูเพิ่มเติม
 

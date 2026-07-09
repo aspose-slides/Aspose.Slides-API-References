@@ -1,14 +1,14 @@
 ---
 title: IControlCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Una raccolta di controlli ActiveX.
+description: Una collezione di controlli ActiveX.
 type: docs
-weight: 5620
+weight: 5640
 url: /it/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection interfaccia
 
-Una raccolta di controlli ActiveX.
+Una collezione di controlli ActiveX.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>
@@ -24,10 +24,10 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Crea e aggiunge un nuovo controllo alla raccolta. |
-| [Clear](../../aspose.slides/icontrolcollection/clear)() | Rimuove tutti i controlli dalla raccolta. |
-| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Rimuove un controllo ActiveX dalla raccolta. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Rimuove un controllo ActiveX memorizzato nella posizione specificata dalla raccolta. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Crea e aggiunge un nuovo controllo alla collezione. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | Rimuove tutti i controlli dalla collezione. |
+| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Rimuove un controllo ActiveX dalla collezione. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Rimuove un controllo ActiveX memorizzato nella posizione specificata dalla collezione. |
 
 ### Vedi anche
 

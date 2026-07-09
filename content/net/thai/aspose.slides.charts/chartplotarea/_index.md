@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงสี่เหลี่ยมที่ควรใช้วางแผนภูมิ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงสี่เหลี่ยมผืนผ้าที่ควรพล็อตแผนภูมิ.
 type: docs
 weight: 1420
 url: /th/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea คลาส
 
-แสดงสี่เหลี่ยมที่ควรใช้วางแผนภูมิ
+แสดงสี่เหลี่ยมผืนผ้าที่ควรพล็อตแผนภูมิ.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | ระบุตำแหน่ง x (ซ้าย) จริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง อ่าน Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | ระบุตำแหน่ง x (ซ้าย) จริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิสัมพันธ์กับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | ด้านล่าง. อ่านอย่างเดียว Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | แผนภูมิ. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | ส่งคืนรูปแบบของพื้นที่วาดกราฟ. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | ส่งคืนหรือกำหนดความสูงของกล่องกรอบพื้นที่วาดกราฟเป็นสัดส่วนของความสูงของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | กำหนดวิธีการคำนวณตำแหน่ง: true – คำนวณอัตโนมัติ; กำหนดโดยคุณสมบัติ X, Y, Width, Height. อ่านอย่างเดียว Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | หากการจัดวางพื้นที่วาดกราฟกำหนดด้วยตนเอง คุณสมบัตินี้ระบุว่าจะจัดวางพื้นที่วาดกราฟโดยภายใน (ไม่รวมแกนและป้ายแกน) หรือโดยภายนอก (รวมแกนและป้ายแกน). อ่าน/เขียน [`LayoutTargetType`](./layouttargettype). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | คืนค่ารูปแบบของพื้นที่พล็อต. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | คืนค่าหรือกำหนดความสูงของกล่องขอบเขตพื้นที่พล็อตเป็นส่วนของความสูงของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | กำหนดวิธีการคำนวณตำแหน่ง: true – คำนวณโดยอัตโนมัติ; กำหนดโดยคุณสมบัติ X, Y, Width, Height. อ่านอย่างเดียว Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | หากการจัดวางของพื้นที่พล็อตกำหนดด้วยตนเอง property นี้ระบุว่าจัดวางพื้นที่พล็อตโดยภายใน (ไม่รวมแกนและป้ายแกน) หรือโดยภายนอก (รวมแกนและป้ายแกน). อ่าน/เขียน [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | ด้านขวา. อ่านอย่างเดียว Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของกล่องกรอบพื้นที่วาดกราฟเป็นสัดส่วนของความกว้างของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | ส่งคืนหรือกำหนดค่าพิกัด x ของมุมซ้ายบนของกล่องกรอบพื้นที่วาดกราฟเป็นสัดส่วนของความกว้างของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | ส่งคืนหรือกำหนดค่าพิกัด y ของมุมซ้ายบนของกล่องกรอบพื้นที่วาดกราฟเป็นสัดส่วนของความสูงของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | คืนค่าหรือกำหนดความกว้างของกล_bbox พื้นที่พล็อตเป็นส่วนของความกว้างของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | คืนค่าหรือกำหนดพิกัด x ของมุมซ้ายบนของกล_bbox พื้นที่พล็อตเป็นส่วนของความกว้างของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | คืนค่าหรือกำหนดพิกัด y ของมุมซ้ายบนของกล_bbox พื้นที่พล็อตเป็นส่วนของความสูงของแผนภูมิ (จาก 0 ถึง 1). อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

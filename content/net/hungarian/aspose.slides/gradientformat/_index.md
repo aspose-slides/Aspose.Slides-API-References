@@ -1,14 +1,14 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy színátmenet formátumot ábrázol.
+second_title: Aspose.Sildes .NET API Referencia
+description: Gradient formátumot reprezentál.
 type: docs
-weight: 4980
+weight: 5000
 url: /hu/aspose.slides/gradientformat/
 ---
 ## GradientFormat osztály
 
-A színátmenet formátumát ábrázolja.
+Represent a gradient format.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -18,22 +18,22 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interface lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Visszaadja vagy beállítja egy színátmenet stílusát. Olvasás/írás [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Visszaadja vagy beállítja egy színátmenet alakját. Olvasás/írás [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Visszaadja a színátmenet állomásainak gyűjteményét. Csak olvasható [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Visszaadja vagy beállítja egy színátmenet szögét. Olvasás/írás Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Megállapítja, hogy a színátmenet skálázott-e. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Visszaadja vagy beállítja egy színátmenet forgatási módját. Olvasás/írás [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Visszaadja vagy beállítja egy gradient stílusát. Olvasás/írás [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Visszaadja vagy beállítja egy gradient alakját. Olvasás/írás [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Visszaadja a gradient állomásainak gyűjteményét. Csak olvasható [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Visszaadja vagy beállítja egy gradient szögét. Olvasás/írás Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Meghatározza, hogy egy gradient skálázott-e. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Visszaadja vagy beállítja egy gradient tükrözési módját. Olvasás/írás [`TileFlip`](../tileflip). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hashkódot. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
-### Lásd még
+### Kapcsolódó elemek
 
 * osztály [PVIObject](../pviobject)
 * interfész [IGradientFormat](../igradientformat)

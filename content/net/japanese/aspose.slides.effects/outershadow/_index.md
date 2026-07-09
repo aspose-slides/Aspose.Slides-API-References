@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Outer Shadow 効果を表します。
 type: docs
-weight: 3600
+weight: 3620
 url: /ja/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow クラス
@@ -18,23 +18,23 @@ public sealed class OuterShadow : IOuterShadow
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | ぼかし半径（ポイント単位）。既定値 – 0 pt。読み取り/書き込み Double。 |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 影の方向（度単位）。既定値 – 0 °（左から右）。読み取り/書き込み Single。 |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 影とオブジェクト間の距離（ポイント単位）。既定値 – 0 pt。読み取り/書き込み Double。 |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形の配置。既定値 – Bottom。読み取り/書き込み [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 影がシェイプと一緒に回転するかどうかを示します。既定値 – true。読み取り/書き込み Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 水平方向のスケーリング係数（元のサイズのパーセンテージ）。負のスケーリングは反転を引き起こします。既定値 – 100 %。読み取り/書き込み Double。 |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 垂直方向のスケーリング係数（元のサイズのパーセンテージ）。負のスケーリングは反転を引き起こします。既定値 – 100 %。読み取り/書き込み Double。 |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 影の色。既定値 – 自動的な黒（テーマ依存）。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 水平方向のせん断角度（度単位）。既定値 – 0 °。読み取り/書き込み Double。 |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 垂直方向のせん断角度（度単位）。既定値 – 0 °。読み取り/書き込み Double。 |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | ぼかし半径（ポイント単位）。既定値 – 0 pt。読み書き可能 Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | シャドウの方向（度単位）。既定値 – 0 °（左から右）。読み書き可能 Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | オブジェクトからシャドウまでの距離（ポイント単位）。既定値 – 0 pt。読み書き可能 Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 矩形の配置。既定値 – Bottom。読み書き可能 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | シャドウがシェイプとともに回転するかどうかを示します。既定値 – true。読み書き可能 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 水平スケーリング係数（元のサイズの百分率）。負のスケーリングは反転を引き起こします。既定値 – 100 %。読み書き可能 Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 垂直スケーリング係数（元のサイズの百分率）。負のスケーリングは反転を引き起こします。既定値 – 100 %。読み書き可能 Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | シャドウの色。既定値 – 自動的な黒（テーマ依存）。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 水平せん断角度（度単位）。既定値 – 0 °。読み書き可能 Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 垂直せん断角度（度単位）。既定値 – 0 °。読み書き可能 Double. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 指定された [`OuterShadow`](../outershadow) が現在の [`OuterShadow`](../outershadow) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 継承が適用された有効な Outer Shadow 効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 継承が適用された有効な Outer Shadow エフェクト データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

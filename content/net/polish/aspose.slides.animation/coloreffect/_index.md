@@ -1,14 +1,14 @@
 ---
 title: ColorEffect
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje efekt koloru dla zachowania animacji.
+second_title: Aspose.Sildes dla .NET referencja API
+description: Reprezentuje efekt kolorystyczny dla zachowania animacji.
 type: docs
-weight: 210
+weight: 230
 url: /pl/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect klasa
 
-Reprezentuje efekt koloru dla zachowania animacji.
+Reprezentuje efekt kolorystyczny dla zachowania animacji.
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
@@ -16,23 +16,23 @@ public class ColorEffect : Behavior, IColorEffect
 
 ## Konstruktory
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [ColorEffect](coloreffect)() | Tworzy nową instancję. |
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Reprezentuje, czy zachowania animacji są kumulowane. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Reprezentuje, czy bieżące zachowanie animacji jest łączone z innymi uruchomionymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Określa, czy zachowania animacji są kumulowane. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Określa, czy bieżące zachowanie animacji jest łączone z innymi trwającymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | Opisuje względną wartość offsetu dla animacji koloru. Odczyt/zapis [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | Reprezentuje przestrzeń kolorów zachowania. Odczyt/zapis [`ColorSpace`](../colorspace). |
 | [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | Określa, w którym kierunku obracać odcień wokół koła kolorów. Odczyt/zapis [`ColorDirection`](../colordirection). |
 | [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | Ta wartość jest używana do określenia początkowego koloru zachowania. Odczyt/zapis [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje właściwości zachowania. Tylko do odczytu [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje właściwości czasowe dla zachowania efektu. Odczyt/zapis [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Opisuje wynikowy kolor zmiany koloru animacji. Odczyt/zapis [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | Opisuje wynikowy kolor dla zmiany koloru animacji. Odczyt/zapis [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Zobacz także
 

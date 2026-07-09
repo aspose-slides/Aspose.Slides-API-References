@@ -1,9 +1,9 @@
 ---
 title: FontAlignment
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Representa o alinhamento vertical da fonte.
 type: docs
-weight: 4780
+weight: 4800
 url: /pt/aspose.slides/fontalignment/
 ---
 ## Enumeração FontAlignment

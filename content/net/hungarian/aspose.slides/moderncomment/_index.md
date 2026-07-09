@@ -1,14 +1,14 @@
 ---
 title: ModernComment
-second_title: Aspose.Sildes .NET API referencia
-description: Egy dián lévő megjegyzést képvisel.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy dián lévő megjegyzést ábrázol.
 type: docs
-weight: 9070
+weight: 9090
 url: /hu/aspose.slides/moderncomment/
 ---
 ## ModernComment osztály
 
-Represents a comment on a slide.
+A dián lévő megjegyzést képviseli.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -16,24 +16,24 @@ public sealed class ModernComment : Comment, IModernComment
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Visszaadja a kommentár szerzőjét. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Visszaadja vagy beállítja egy kommentár létrehozásának időpontját. Ennek a tulajdonságnak MinValue-re állítása azt jelenti, hogy nincs beállítva kommentár időpont. Olvasható/írható DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülőkommentárt. Olvasható/írható [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Visszaadja vagy beállítja egy kommentár helyzetét egy dián. Olvasható/írható PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Visszaad egy alakzatot, amely a kommentárhoz kapcsolódik. Csak olvasható [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Visszaadja vagy beállítja egy kommentár szülődiáját. Csak olvasható [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Visszaadja vagy beállítja a kommentár állapotát. Olvasható/írható [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Visszaadja vagy beállítja egy diakommentár egyszerű szövegét. Olvasható/írható String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés hosszát a szövegtörzsben, ha a kommentár egy AutoShape-hez kapcsolódik. Olvasható/írható Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés kezdőpozícióját a szövegtörzsben, ha a kommentár egy AutoShape-hez kapcsolódik. Olvasható/írható Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | Visszaadja a megjegyzés szerzőjét. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Visszaadja vagy beállítja a megjegyzés létrehozásának időpontját. A tulajdonság MinValue-re állítása azt jelenti, hogy nincs beállítva a megjegyzés időpontja. Olvasás/írás DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Visszaadja vagy beállítja a szülő megjegyzést. Olvasás/írás [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Visszaadja vagy beállítja egy megjegyzés pozícióját a dián. Olvasás/írás PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Visszaad egy alakzatot, amely a megjegyzéshez kapcsolódik. Csak olvasható [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Visszaadja vagy beállítja a megjegyzés szülő diáját. Csak olvasható [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Visszaadja vagy beállítja a megjegyzés állapotát. Olvasás/írás [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Visszaadja vagy beállítja egy diamegjegyzés egyszerű szövegét. Olvasás/írás String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés hosszát a szövegdobozban, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasás/írás Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Visszaadja vagy beállítja a szövegkijelölés kezdőpozícióját a szövegdobozban, ha a megjegyzés AutoShape-hez kapcsolódik. Olvasás/írás Int32. |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Eltávolítja a kommentárt és annak minden válaszát a szülőgyűjteményből. |
+| [Remove](../../aspose.slides/comment/remove)() | Eltávolítja a megjegyzést és annak összes válaszát a szülő gyűjteményből. |
 
 ### Példák
 

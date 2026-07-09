@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Aspose.Sildes .NET için API Referansı
-description: Grafik metin öğeleri için varsayılan metin biçimlendirmesini belirtir.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Grafik metin öğeleri için varsayılan metin biçimlendirmesini belirler.
 type: docs
-weight: 1460
+weight: 1480
 url: /tr/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat sınıfı
 
-Grafik metin öğeleri için varsayılan metin biçimlendirmesini belirtir.
+Grafik metin öğeleri için varsayılan metin biçimlendirmesini belirler.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -18,9 +18,9 @@ public class ChartTextFormat : IChartTextFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Yalnızca okunabilir [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Yalnızca okunabilir [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Yalnızca okunabilir [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/charttextformat/paragraphformat) { get; } | ParagraphFormat. Yalnızca okuma [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/charttextformat/portionformat) { get; } | PortionFormat. Yalnızca okuma [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/charttextformat/textblockformat) { get; } | TextBlockFormat. Yalnızca okuma [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Yöntemler
 
@@ -29,7 +29,7 @@ public class ChartTextFormat : IChartTextFormat
 | [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Belirtilen metin çerçevesinden metin biçimini kopyalar. |
 | [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Belirtilen metin çerçevesine metin biçimini kopyalar. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [IChartTextFormat](../icharttextformat)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

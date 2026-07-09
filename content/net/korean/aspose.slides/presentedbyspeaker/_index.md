@@ -1,14 +1,14 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 연설자에 의해 전체 화면으로 표시됩니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 연사에 의해 전체 화면으로 표시됩니다
 type: docs
 weight: 9650
 url: /ko/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker 클래스
 
-연설자에 의해 표시됨 (전체 화면)
+연사에 의해 표시됩니다 (전체 화면)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType

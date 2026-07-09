@@ -1,14 +1,14 @@
 ---
 title: BaseSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのスライドタイプに対して、フッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+description: すべてのスライドタイプに対して、フッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 980
+weight: 1000
 url: /ja/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager クラス
 
-すべてのスライドタイプに対してフッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+すべてのスライドタイプに対して、フッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -18,16 +18,16 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日時プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean。 |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean。 |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日時プレースホルダーにテキストを設定します。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日時プレースホルダーの表示状態を変更します。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日付時刻プレースホルダーにテキストを設定します。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日付時刻プレースホルダーの表示状態を変更します。 |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | スライドのフッタープレースホルダーにテキストを設定します。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | スライドのフッタープレースホルダーの表示状態を変更します。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | スライドのページ番号プレースホルダーの表示状態を変更します。 |

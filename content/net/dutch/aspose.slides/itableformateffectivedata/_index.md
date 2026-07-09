@@ -1,6 +1,6 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Slides voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Onveranderlijk object dat effectieve tabelopmaak-eigenschappen bevat.
 type: docs
 weight: 7250
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Geeft toegang tot de basisinterface IBaseTableFormatEffectiveData. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Haalt de transparantie van de opvulkleur op. Leest Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Staat toe om de basis IBaseTableFormatEffectiveData interface op te halen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Haalt de transparantie van de vulkleur op. Lezen Single. |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`ITableFormat`](../itableformat) interface gebruikt om effectieve opmaakwaarden terug te geven met overerving en toegepaste tabelstijlen.
+Deze interface wordt samen met de [`ITableFormat`](../itableformat) interface gebruikt om effectieve opmaakwaarden met overerving en toegepaste tabelstijlen te retourneren.
 
 ### Zie ook
 

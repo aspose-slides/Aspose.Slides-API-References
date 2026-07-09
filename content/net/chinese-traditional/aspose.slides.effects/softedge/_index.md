@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示軟邊緣效果。形狀的邊緣被模糊，而填充則不受影響。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示軟邊緣效果。形狀的邊緣會被模糊化，而填充則不受影響。
 type: docs
 weight: 3650
 url: /zh-hant/aspose.slides.effects/softedge/
 ---
 ## SoftEdge 類別
 
-表示軟邊緣效果。形狀的邊緣被模糊，而填充不受影響。
+表示軟邊緣效果。形狀的邊緣會被模糊化，而填充則不受影響。
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,7 +18,7 @@ public sealed class SoftEdge : ISoftEdge
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定套用於邊緣的模糊半徑。可讀寫 Double。 |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | 指定要套用於邊緣的模糊半徑。讀寫 Double。 |
 
 ## 方法
 

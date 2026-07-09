@@ -1,14 +1,14 @@
 ---
 title: IMathBox
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de logische verpakking (boxing) van een wiskundig element. Bijvoorbeeld kan een verpakt object dienen als een operator-emulator met of zonder een uitlijnpunt, dienen als een regeleinde-punt, of gegroepeerd worden zodat er geen regeleinden binnen mogen voorkomen. Bijvoorbeeld moet de operator worden verpakt om regeleinden te voorkomen.
+description: Specificeert de logische vergrijzing en verpakking van een wiskundig element. Bijvoorbeeld kan een verpakt object dienen als een operator-emulator met of zonder een uitlijningspunt, fungeren als een regeleindepunt of gegroepeerd worden zodat er geen regeleinden binnen toegestaan zijn. Bijvoorbeeld moet de operator verpakt worden om regeleinden te voorkomen.
 type: docs
 weight: 8190
 url: /nl/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox interface
 
-Specificeert de logische verpakking (boxing) van een wiskundig element. Een verpakt object kan bijvoorbeeld dienen als een operator-emulator met of zonder een uitlijnpunt, als een regeleinde-punt, of gegroepeerd worden zodat er geen regeleinden binnen mogen voorkomen. Bijvoorbeeld, de “==” operator moet verpakt worden om regeleinden te voorkomen.
+Specificeert de logische vergruizing (verpakking) van een wiskundig element. Bijvoorbeeld kan een verpakt object dienen als een operator-emulator met of zonder uitlijningspunt, fungeren als een regeleindepunt, of gegroepeerd worden zodat geen regeleinden binnen toegestaan zijn. Bijvoorbeeld moet de "=="-operator verpakt worden om regeleinden te voorkomen.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,17 +18,17 @@ public interface IMathBox : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Wanneer true, dient deze operatoremulator als een uitlijnpunt; dat wil zeggen, aangewezen uitlijnpunten in andere vergelijkingen kunnen op deze worden uitgelijnd. Standaard: false |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Stelt toe om de basis IMathElement interface [`IMathElement`](../imathelement) op te halen |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Wanneer true, dient deze operator-emulator als een uitlijningspunt; dat wil zeggen, aangewezen uitlijningspunten in andere vergelijkingen kunnen op dit punt worden uitgelijnd. Standaard: false |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Staat toe om de basis-IMathElement interface op te halen [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Basisargument |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differentiëel. Wanneer true, functioneert de box als een differentiëel (bijv. 𝑑𝑥 in een integrand) en krijgt de juiste horizontale spatiëring voor het wiskundige differentiaal. Standaard: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Expliciete onderbreking geeft aan of er een regeleinde is aan het begin van het Box-object, zodat de regel wordt afgebroken aan het begin van het box-object. Geeft het nummer van de operator op de vorige regel van wiskundige tekst op welke als uitlijnpunt voor de huidige regel wiskundige tekst moet worden gebruikt. Mogelijke waarden: 1..255 Standaard: 0 (geen expliciete onderbreking) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Geen onderbreking. Deze eigenschap specificeert de “ononderbreekbare” eigenschap van het object-box. Wanneer true, kan er geen regeleinde binnen de box ontstaan. Dit kan belangrijk zijn voor operatoremulators die uit meer dan één binaire operator bestaan. Wanneer dit element niet is gespecificeerd, kunnen er onderbrekingen binnen de box voorkomen. Standaard: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator-emulator. Wanneer true, gedragen de box en de inhoud zich als één enkele operator en erven de eigenschappen van een operator. Dit betekent onder andere dat het teken kan dienen als een punt voor een regeleinde en kan worden uitgelijnd met andere operators. Operator-emulators worden vaak gebruikt wanneer één of meer glyphs combineren tot een operator, zoals '=='. Standaardwaarde: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Differential. Wanneer true, functioneert de box als een differentiaal (bijv. 𝑑𝑥 in een integrand), en krijgt de juiste horizontale ruimte voor het wiskundige differentiaal. Standaard: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Expliciete onderbreking geeft aan of er een regeleinde is aan het begin van het Box-object, zodat de regel wordt afgebroken bij het begin van het Box-object. Geeft het aantal operatoren op de vorige regel wiskundige tekst aan dat als uitlijningspunt voor de huidige regel wiskundige tekst moet worden gebruikt. Mogelijke waarden: 1..255 Standaard: 0 (geen expliciete onderbreking) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Geen onderbreking. Deze eigenschap specificeert de "ononderbreekbare" eigenschap van het objectbox. Wanneer true, kunnen er geen regeleinden binnen de box plaatsvinden. Dit kan belangrijk zijn voor operator-emulators die uit meer dan één binaire operator bestaan. Wanneer dit element niet is gespecificeerd, kunnen er onderbrekingen binnen de box voorkomen. Standaard: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Operator-emulator. Wanneer true, gedragen de box en de inhoud zich als één operator en erven de eigenschappen van een operator. Dit betekent bijvoorbeeld dat het teken kan dienen als een punt voor een regeleinde en kan worden uitgelijnd met andere operatoren. Operator-emulators worden vaak gebruikt wanneer één of meer glyphs combineren tot een operator, zoals '=='. Standaardwaarde: false |
 
 ### Voorbeelden
 
-Example:
+Voorbeeld:
 
 ```csharp
 [C#]

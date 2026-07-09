@@ -3,10 +3,10 @@ title: StyleType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar diagramstil.
 type: docs
-weight: 2410
+weight: 2430
 url: /sv/aspose.slides.charts/styletype/
 ---
-## StyleType uppräkning
+## StyleType-uppräkning
 
 Representerar diagramstil.
 
@@ -67,7 +67,7 @@ public enum StyleType
 | Style47 | `46` | Stil 47 |
 | Style48 | `47` | Stil 48 |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

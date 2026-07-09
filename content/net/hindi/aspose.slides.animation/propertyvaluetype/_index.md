@@ -1,14 +1,14 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रॉपर्टी मान प्रकारों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: प्रॉपर्टी वैल्यू टाइप्स का प्रतिनिधित्व करता है।
 type: docs
 weight: 760
 url: /hi/aspose.slides.animation/propertyvaluetype/
 ---
-## PropertyValueType एन्यूमरेशन
+## PropertyValueType एन्युमरेशन
 
-प्रॉपर्टी मान प्रकारों का प्रतिनिधित्व करता है।
+प्रॉपर्टी वैल्यू टाइप्स का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum PropertyValueType
@@ -23,7 +23,7 @@ public enum PropertyValueType
 | Number | `1` |  |
 | Color | `2` |  |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

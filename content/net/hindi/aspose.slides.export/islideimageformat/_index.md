@@ -1,20 +1,20 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है वह फ़ॉर्मेट जिसमें slide image को HTML निर्यात के लिए प्रस्तुति में सहेजा जाएगा।
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: निर्धारित करता है कि स्लाइड छवि किस फ़ॉर्मेट में सहेजी जाएगी जब प्रस्तुति को HTML निर्यात किया जाता है।
 type: docs
 weight: 4090
 url: /hi/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat इंटरफ़ेस
 
-निर्धारित करता है वह फ़ॉर्मेट जिसमें slide image को HTML निर्यात के लिए प्रस्तुति में सहेजा जाएगा।
+निर्धारित करता है कि स्लाइड छवि किस फ़ॉर्मेट में सहेजी जाएगी जब प्रस्तुति को HTML निर्यात किया जाता है।
 
 ```csharp
 public interface ISlideImageFormat
 ```
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

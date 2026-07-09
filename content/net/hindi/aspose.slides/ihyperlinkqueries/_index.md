@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkQueries
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: समाहित हाइपरलिंक्स तक आसान पहुँच प्रदान करता है।
+description: निहित हाइपरलिंक्स तक आसान पहुँच प्रदान करता है।
 type: docs
 weight: 6140
 url: /hi/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries इंटरफ़ेस
 
-समाहित हाइपरलिंक्स तक आसान पहुंच प्रदान करता है।
+निहित हाइपरलिंक्स तक आसान पहुँच प्रदान करता है।
 
 ```csharp
 public interface IHyperlinkQueries
@@ -18,12 +18,12 @@ public interface IHyperlinkQueries
 
 | नाम | विवरण |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करता है जिनमें null नहीं वाला HyperlinkMouseOver होता है। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक (पढ़ें, अपडेट करें या हटाएँ) प्रबंधित कर सकते हैं। देखें IHyperlinkContainer इंटरफ़ेस। |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करता है जिनमें null नहीं वाला HyperlinkClick होता है। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक (पढ़ें, अपडेट करें या हटाएँ) प्रबंधित कर सकते हैं। देखें IHyperlinkContainer इंटरफ़ेस। |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करता है जिनमें null नहीं वाला HyperlinkMouseOver होता है। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक (पढ़ें, अपडेट करें या हटाएँ) प्रबंधित कर सकते हैं। देखें IHyperlinkContainer इंटरफ़ेस। |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | सभी समाहित HyperlinkClick और HyperlinkMouseOver हाइपरलिंक्स को हटाता है (सभी IHyperlinkContainer उपवस्तुओं में)। |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करें जिनमें null नहीं वाला HyperlinkMouseOver हो। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक प्रबंधित कर सकते हैं (पढ़ें, अपडेट करें या हटाएँ)। IHyperlinkContainer इंटरफ़ेस देखें। |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करें जिनमें null नहीं वाला HyperlinkClick हो। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक प्रबंधित कर सकते हैं (पढ़ें, अपडेट करें या हटाएँ)। IHyperlinkContainer इंटरफ़ेस देखें। |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | सभी IHyperlinkContainer उपवस्तुओं को प्राप्त करें जिनमें null नहीं वाला HyperlinkMouseOver हो। दिए गए IHyperlinkContainer ऑब्जेक्ट के साथ आप उसका हाइपरलिंक प्रबंधित कर सकते हैं (पढ़ें, अपडेट करें या हटाएँ)। IHyperlinkContainer इंटरफ़ेस देखें। |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | सभी निहित HyperlinkClick और HyperlinkMouseOver हाइपरलिंक्स को हटाता है (सभी IHyperlinkContainer उपवस्तुओं में)। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

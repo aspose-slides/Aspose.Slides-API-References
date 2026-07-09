@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes para a Referência da API .NET
-description: Especifica a função de acento consistindo em uma base e um sinal diacrítico combinante Exemplo ́
+second_title: Referência da API Aspose.Sildes para .NET
+description: Especifica a função de acento consistindo de uma base e um sinal diacrítico combinante. Exemplo ́
 type: docs
-weight: 8060
+weight: 8080
 url: /pt/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interface
 
-Especifica a função de acento, consistindo em uma base e um sinal diacrítico combinante Exemplo: 𝑎́
+Especifica a função de acento, consistindo de uma base e um sinal diacrítico combinante. Exemplo: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -16,11 +16,11 @@ public interface IMathAccent : IMathElement
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | O argumento ao qual o acento foi aplicado |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Caractere de Acento O valor deve estar dentro do intervalo de (U+0300–U+036F) ou (U+20D0–U+20EF) Valor padrão: Combining Circumflex Accent (U+0302) |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Caractere de acento O valor deve estar dentro do intervalo (U+0300–U+036F) ou (U+20D0–U+20EF) Valor padrão: Circunflexo Combinante (U+0302) |
 
 ### Exemplos
 
@@ -31,7 +31,7 @@ Exemplo:
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### Ver Também
+### Ver também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

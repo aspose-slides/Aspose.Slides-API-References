@@ -1,34 +1,34 @@
 ---
 title: ColorOffset
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar färgoffset.
+description: Representerar färgförskjutning.
 type: docs
-weight: 220
+weight: 240
 url: /sv/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset klass
 
-Representerar färgoffset.
+Representerar färgförskjutning.
 
 ```csharp
 public class ColorOffset : IColorOffset
 ```
 
-## Konstruktorer
+## Konstruktörer
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [ColorOffset](coloroffset)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definierar första värdet av förskjutningen. Läs/skriv Single. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definierar andra värdet av förskjutningen. Läs/skriv Single. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definierar tredje värdet av förskjutningen. Läs/skriv Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definierar första värdet av offset. Läs/skriv Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definierar andra värdet av offset. Läs/skriv Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definierar tredje värdet av offset. Läs/skriv Single. |
 
-### Se också
+### Se även
 
 * gränssnitt [IColorOffset](../icoloroffset)
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)

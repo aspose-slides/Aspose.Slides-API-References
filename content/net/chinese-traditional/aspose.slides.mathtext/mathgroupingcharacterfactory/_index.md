@@ -1,6 +1,6 @@
 ---
 title: MathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學分組字元
 type: docs
 weight: 8770

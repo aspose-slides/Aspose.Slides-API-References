@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Stream yang diteruskan ke sebuah metode dianggap sebagai Binary Large Object BLOB lihat deskripsi IBlobManagementOptions./iblobmanagementoptions. Nilai-nilai enumerasi ini mengidentifikasi bagaimana Stream harus diperlakukan ketika diteruskan ke metode. Bergantung pada kebutuhan, keputusan yang berbeda dapat dibuat untuk memberikan perilaku yang paling efisien.
+description: Stream yang diteruskan ke sebuah metode dianggap sebagai Binary Large Object (BLOB) lihat IBlobManagementOptions./iblobmanagementoptions description. Nilai-nilai enumerasi ini mengidentifikasi bagaimana Stream harus diperlakukan ketika diteruskan ke metode. Bergantung pada kebutuhan, keputusan yang berbeda dapat diambil untuk memberikan perilaku yang paling efisien.
 type: docs
-weight: 7830
+weight: 7850
 url: /id/aspose.slides/loadingstreambehavior/
 ---
-## Enumerasi LoadingStreamBehavior
+## LoadingStreamBehavior enumerasi
 
-Stream yang diteruskan ke sebuah metode dianggap sebagai Binary Large Object (BLOB) (lihat [`IBlobManagementOptions`](../iblobmanagementoptions) deskripsi). Nilai-nilai enumerasi ini mengidentifikasi bagaimana Stream harus diperlakukan ketika diteruskan ke metode. Bergantung pada kebutuhan, keputusan berbeda dapat diambil untuk memberikan perilaku yang paling efisien.
+Stream yang diteruskan ke sebuah metode dianggap sebagai Binary Large Object (BLOB) (lihat [`IBlobManagementOptions`](../iblobmanagementoptions) description). Nilai-nilai enumerasi ini mengidentifikasi bagaimana Stream harus diperlakukan ketika diteruskan ke metode. Bergantung pada kebutuhan, keputusan yang berbeda dapat diambil untuk memberikan perilaku yang paling efisien.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Stream akan dibaca hingga akhir dan kemudian dibebaskan - yaitu akan dijamin bahwa stream ini tidak akan digunakan oleh instance [`IPresentation`](../ipresentation) di masa depan. Itu dapat ditutup oleh kode klien atau digunakan dengan cara lain. |
-| KeepLocked | `1` | Stream akan dikunci di dalam objek [`IPresentation`](../ipresentation), yaitu kepemilikan stream akan dipindahkan. Objek [`IPresentation`](../ipresentation) akan bertanggung jawab untuk membuang stream secara benar ketika objek ini dibuang sendiri. Perilaku ini sangat berguna ketika Anda perlu men-serialize file BLOB besar (seperti video atau audio besar - lihat deskripsi [`IBlobManagementOptions`](../iblobmanagementoptions)) dan ingin mencegah memuat file ini ke memori atau masalah kinerja lainnya. Anda dapat cukup membuka FileStream untuk file ini dan melewatkannya ke metode, memilih KeepLocked LoadingStreamBehavior. |
+| ReadStreamAndRelease | `0` | Stream akan dibaca hingga akhir dan kemudian dilepaskan – yaitu akan dijamin bahwa Stream ini tidak akan digunakan oleh instance [`IPresentation`](../ipresentation) di masa mendatang. Stream dapat ditutup oleh kode klien atau digunakan dengan cara lain. |
+| KeepLocked | `1` | Stream akan dikunci di dalam objek [`IPresentation`](../ipresentation), yaitu kepemilikan Stream akan dipindahkan. Objek [`IPresentation`](../ipresentation) akan bertanggung jawab untuk membuang Stream dengan benar ketika objek ini dibuang sendiri. Perilaku ini sangat berguna ketika Anda perlu menyerialkan file BLOB besar (seperti video atau audio berukuran besar – lihat [`IBlobManagementOptions`](../iblobmanagementoptions) description) dan ingin mencegah memuat file ini ke memori atau masalah kinerja lainnya. Anda cukup membuka FileStream untuk file ini dan meneruskannya ke sebuah metode, dengan memilih KeepLocked LoadingStreamBehavior. |
 
 ### Lihat Juga
 

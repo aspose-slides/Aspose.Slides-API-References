@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，包含有效的效果樣式屬性。
+description: 不可變物件，包含有效的效果樣式屬性。
 type: docs
 weight: 11200
 url: /zh-hant/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData 介面
 
-不可變的物件，包含有效的效果樣式屬性。
+不可變物件，包含有效的效果樣式屬性。
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,14 +18,14 @@ public interface IEffectStyleEffectiveData
 
 | 名稱 | 描述 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 傳回效果格式。唯讀 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 傳回 3d 格式。唯讀 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 傳回效果格式。只讀 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 傳回 3d 格式。只讀 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
 
 ### 備註
 
 此介面作為 [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) 的一部分使用。
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 組件 [Aspose.Slides](../../)

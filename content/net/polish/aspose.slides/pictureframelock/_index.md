@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Aspose.Sildes – odniesienie API dla .NET
-description: Określa, które operacje są wyłączone w nadrzędnym elemencie PictureFrame.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa, które operacje są wyłączone w nadrzędnym PictureFrame.
 type: docs
-weight: 9400
+weight: 9420
 url: /pl/aspose.slides/pictureframelock/
 ---
-## Klasa PictureFrameLock
+## PictureFrameLock klasa
 
-Determines which operations are disabled on the parent PictureFrame.
+Określa, które operacje są wyłączone w nadrzędnym PictureFrame.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,18 +18,18 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Nazwa | Opis |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości dopasowania jest zabroniona. Odczyt/Zapis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Określa, czy zmiana grotów strzałek jest zabroniona. Odczyt/Zapis Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Określa, czy kształt musi zachować proporcje podczas zmiany rozmiaru. Odczyt/Zapis Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Określa, czy przycinanie obrazu jest zabronione. Odczyt/Zapis Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Określa, czy bezpośrednia zmiana konturu tego kształtu jest zabroniona. Odczyt/Zapis Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Odczyt/Zapis Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca prawdę, jeśli wszystkie flagi blokady są wyłączone. Tylko do odczytu Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Określa, czy przesuwanie tego kształtu jest zabronione. Odczyt/Zapis Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest zabroniona. Odczyt/Zapis Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Określa, czy zaznaczanie tego kształtu jest zabronione. Odczyt/Zapis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Określa, czy zmiana typu kształtu jest zabroniona. Odczyt/Zapis Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Odczyt/Zapis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości dopasowania jest zabroniona. Odczyt/zapis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Określa, czy zmiana grotów strzałek jest zabroniona. Odczyt/zapis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Określa, czy kształt musi zachować proporcje podczas zmiany rozmiaru. Odczyt/zapis Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Określa, czy przycinanie obrazu jest zabronione. Odczyt/zapis Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Określa, czy bezpośrednia zmiana konturu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Zwraca true, jeśli wszystkie flagi blokady są wyłączone. Tylko do odczytu Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Określa, czy przemieszczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Określa, czy zaznaczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Określa, czy zmiana typu kształtu jest zabroniona. Odczyt/zapis Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

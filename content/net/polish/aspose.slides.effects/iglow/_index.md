@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: Reprezentuje efekt poświaty, w którym rozmyta obrysowa kreska w kolorze jest dodawana poza krawędziami obiektu.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Reprezentuje efekt poświaty, w którym rozmyta obramowanie w kolorze jest dodawane poza krawędziami obiektu.
 type: docs
-weight: 3300
+weight: 3320
 url: /pl/aspose.slides.effects/iglow/
 ---
 ## IGlow interfejs
 
-Reprezentuje efekt poświaty, w którym rozmyta obrysowa kreska w kolorze jest dodawana poza krawędziami obiektu.
+Reprezentuje efekt poświaty, w którym rozmyta obramowanie w kolorze jest dodawane poza krawędziami obiektu.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Umożliwia uzyskanie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Umożliwia uzyskanie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Format koloru. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Promień. Odczyt/zapis Double. |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Promień. Do odczytu i zapisu Double. |
 
 ### Zobacz także
 

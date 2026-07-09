@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表一種 Bi-Level 黑白效果。亮度低於指定閾值的輸入顏色會被變為黑色。亮度大於或等於指定值的輸入顏色會被設為白色。此效果不會影響 alpha 效果值。
+description: 表示一種 Bi-Level（黑/白）效果。光度低於指定閾值的輸入顏色會被改為黑色。光度大於或等於指定值的輸入顏色會被設定為白色。此效果不會影響 alpha 效果值。
 type: docs
 weight: 2910
 url: /zh-hant/aspose.slides.effects/bilevel/
 ---
 ## BiLevel 類別
 
-代表一種 Bi-Level（黑/白）效果。輸入色彩的亮度低於指定閾值時會被變為黑色。輸入色彩的亮度大於或等於指定值時會被設定為白色。此效果不會影響 alpha 效果值。
+表示一種 Bi-Level（黑/白）效果。光度低於指定閾值的輸入顏色會被變成黑色。光度大於或等於指定值的輸入顏色會被設定為白色。此效果不會影響 alpha 效果值。
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -25,8 +25,8 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | 判斷指定的 [`BiLevel`](../bilevel) 是否等於目前的 [`BiLevel`](../bilevel)。 |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 取得套用繼承後的有效 Bi-Level 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | 作為特定類型的雜湊函式。 |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | 取得套用繼承的有效 Bi-Level 效果資料。 |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | 作為特定型別的雜湊函式。 |
 
 ### 另請參閱
 

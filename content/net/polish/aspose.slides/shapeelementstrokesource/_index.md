@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje sposób, w jaki element kształtu powinien być rysowany.
 type: docs
-weight: 9870
+weight: 9890
 url: /pl/aspose.slides/shapeelementstrokesource/
 ---
-## Wyliczenie ShapeElementStrokeSource
+## ShapeElementStrokeSource enumeracja
 
-Reprezentuje sposób rysowania elementu kształtu.
+Reprezentuje sposób, w jaki element kształtu powinien być rysowany.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,7 +18,7 @@ public enum ShapeElementStrokeSource : byte
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NoStroke | `0` | Nie rysuj obrysu elementu prymitywnego. |
+| NoStroke | `0` | Nie rysuj prymitywu. |
 | Shape | `1` | Użyj LineFormat kształtu. |
 | OwnStroke | `2` | Użyj własnego obrysu. |
 

@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: ส่งคำสั่งแชทไปยังโมเดล AI และส่งกลับข้อความตอบสนองต่อคำสั่งที่ให้
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ส่งคำสั่งแชตไปยังโมเดล AI และคืนข้อความตอบกลับตามคำสั่งที่ให้
 type: docs
 weight: 20
 url: /th/aspose.slides.ai/asposeaiwebclient/callchatasync/
 ---
 ## AsposeAIWebClient.CallChatAsync เมธอด
 
-ส่งคำสั่งแชทไปยังโมเดล AI และส่งกลับข้อความตอบสนองต่อคำสั่งที่ให้
+ส่งคำสั่งแชตไปยังโมเดล AI และคืนข้อความตอบกลับตามคำสั่งที่ให้
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -16,17 +16,17 @@ public Task<string> CallChatAsync(string instruction)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| instruction | String | คำสั่งหรือข้อความที่ต้องการให้โมเดล AI ประมวลผล |
+| instruction | String | คำสั่งหรือข้อความที่จะถูกประมวลผลโดยโมเดล AI |
 
 ### ค่าที่ส่งคืน
 
-ข้อความที่โมเดล AI สร้างขึ้นเพื่อตอบสนองต่อคำสั่งที่ให้
+ข้อความที่สร้างโดยโมเดล AI เพื่อตอบสนองต่อคำสั่งที่ให้
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentException | คำสั่งแชท AI ไม่สามารถเป็นค่า null หรือว่างเปล่า |
+| ArgumentException | คำสั่งแชต AI ไม่สามารถเป็นค่าว่างหรือเป็น null |
 
 ### ดูเพิ่มเติม
 

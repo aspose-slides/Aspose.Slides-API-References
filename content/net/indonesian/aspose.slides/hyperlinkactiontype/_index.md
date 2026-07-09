@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili jenis tindakan hyperlink.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili tipe aksi hyperlink.
 type: docs
-weight: 5110
+weight: 5130
 url: /id/aspose.slides/hyperlinkactiontype/
 ---
-## enumerasi HyperlinkActionType
+## HyperlinkActionType enumerasi
 
-Mewakili jenis tindakan hyperlink.
+Mewakili tipe aksi hyperlink.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,22 +18,22 @@ public enum HyperlinkActionType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Unknown | `-1` | Tipe tindakan yang tidak dikenali. |
-| NoAction | `0` | Tidak ada tindakan. |
+| Unknown | `-1` | Tipe aksi tidak dikenali. |
+| NoAction | `0` | Tidak ada aksi. |
 | Hyperlink | `1` | Hyperlink biasa. |
-| JumpFirstSlide | `2` | Lompat ke slide pertama dari presentasi. |
-| JumpPreviousSlide | `3` | Lompat ke slide sebelumnya. |
-| JumpNextSlide | `4` | Lompat ke slide berikutnya. |
-| JumpLastSlide | `5` | Lompat ke slide terakhir dari presentasi. |
-| JumpEndShow | `6` | Lompat ke akhir slideshow. |
-| JumpLastViewedSlide | `7` | Lompat ke slide yang terakhir dilihat. |
-| JumpSpecificSlide | `8` | Lompat ke slide tertentu, yang dirujuk oleh properti [`TargetSlide`](../ihyperlink/targetslide). |
-| StartCustomSlideShow | `9` | Mulai slideshow khusus. |
-| OpenFile | `10` | Buka file yang dirujuk. |
-| OpenPresentation | `11` | Buka presentasi yang dirujuk. |
-| StartStopMedia | `12` | Mulai/berhenti memutar file media. |
-| StartMacro | `13` | Mulai mengeksekusi skrip makro. |
-| StartProgram | `14` | Mulai program. |
+| JumpFirstSlide | `2` | Melompat ke slide pertama dari presentasi. |
+| JumpPreviousSlide | `3` | Melompat ke slide sebelumnya. |
+| JumpNextSlide | `4` | Melompat ke slide berikutnya. |
+| JumpLastSlide | `5` | Melompat ke slide terakhir dari presentasi. |
+| JumpEndShow | `6` | Melompat ke akhir tayangan slide. |
+| JumpLastViewedSlide | `7` | Melompat ke slide yang terakhir dilihat. |
+| JumpSpecificSlide | `8` | Melompat ke slide tertentu, yang dirujuk oleh properti [`TargetSlide`](../ihyperlink/targetslide). |
+| StartCustomSlideShow | `9` | Memulai tayangan slide khusus. |
+| OpenFile | `10` | Membuka file yang dirujuk. |
+| OpenPresentation | `11` | Membuka presentasi yang dirujuk. |
+| StartStopMedia | `12` | Memulai/ menghentikan pemutaran file media. |
+| StartMacro | `13` | Memulai mengeksekusi skrip makro. |
+| StartProgram | `14` | Memulai program. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkin degrade doldurma özelliklerini içeren değiştirilemez nesne.
+second_title: Aspose.Slides için .NET API Referansı
+description: Etkili gradient doldurma özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 5990
+weight: 6010
 url: /tr/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData arayüz
 
-Etkin degrade doldurma özelliklerini içeren değiştirilemez nesne.
+Etkili gradient doldurma özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -18,19 +18,19 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | IFillParamSource temel arayüzünü almayı sağlar. Salt okunur [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Bir degrade stilini döndürür. Salt okunur [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Bir degrade şekli döndürür. Salt okunur [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Degrade durakları koleksiyonunu döndürür. Salt okunur [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Bir degrade açısını döndürür. Salt okunur Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Bir degerenin ölçeklenip ölçeklenmediğini belirler. Salt okunur Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Bir degerenin çevirme kipini döndürür. Salt okunur [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Temel IFillParamSource arayüzünü almaya izin verir. Salt okunur [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Bir gradient'in stilini döndürür. Salt okunur [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Bir gradient'in şeklini döndürür. Salt okunur [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Gradient duraklarının koleksiyonunu döndürür. Salt okunur [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Bir gradient'in açısını döndürür. Salt okunur Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Bir gradient'in ölçeklenip ölçeklenmediğini belirler. Salt okunur Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Bir gradient için çevirme modunu döndürür. Salt okunur [`TileFlip`](../tileflip). |
 
 ### Açıklamalar
 
-Bu arayüz [`IFillFormatEffectiveData`](../ifillformateffectivedata) ve [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) içinde kullanılır.
+Bu arayüz [`IFillFormatEffectiveData`](../ifillformateffectivedata) ve [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) parçası olarak kullanılır.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [IFillParamSource](../ifillparamsource)
 * ad alanı [Aspose.Slides](../../aspose.slides)

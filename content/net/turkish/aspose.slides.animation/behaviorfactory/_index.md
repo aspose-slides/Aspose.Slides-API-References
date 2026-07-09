@@ -1,12 +1,12 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Animasyon efektleri oluşturmayı sağlar
 type: docs
-weight: 160
+weight: 180
 url: /tr/aspose.slides.animation/behaviorfactory/
 ---
-## BehaviorFactory sınıfı
+## BehaviorFactory sınıf
 
 Animasyon efektleri oluşturmayı sağlar
 
@@ -20,7 +20,7 @@ public class BehaviorFactory : IBehaviorFactory
 | --- | --- |
 | [BehaviorFactory](behaviorfactory)() | Varsayılan yapıcı. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -29,9 +29,9 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | Filtre etkisi oluşturur. |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Hareket etkisi oluşturur. |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Özellik etkisi oluşturur. |
-| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Döndürme etkisi oluşturur. |
+| [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Dönüş etkisi oluşturur. |
 | [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Ölçek etkisi oluşturur. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Ayar etkisi oluşturur. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Set etkisi oluşturur. |
 
 ### Açıklamalar
 

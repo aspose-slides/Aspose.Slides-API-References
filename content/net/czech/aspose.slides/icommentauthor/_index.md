@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthor
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje autora komentářů.
+description: Reprezentuje autora komentářů.
 type: docs
-weight: 5550
+weight: 5570
 url: /cs/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor rozhraní
 
-Representuje autora komentářů.
+Reprezentuje autora komentářů.
 
 ```csharp
 public interface ICommentAuthor

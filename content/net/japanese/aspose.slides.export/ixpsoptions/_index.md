@@ -3,7 +3,7 @@ title: IXpsOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションを XPS 形式で保存する方法を制御するオプションを提供します。
 type: docs
-weight: 4180
+weight: 4200
 url: /ja/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions インターフェイス
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | 名前 | 説明 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒枠を描画する場合は true に設定します。読み書き Boolean。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | プレゼンテーションで使用されるすべてのメタファイルを PNG 画像に変換する場合は true に設定します。読み書き Boolean。 |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒いフレームを描画するかどうかを示します。読み取り/書き込み Boolean。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | プレゼンテーションで使用されるすべてのメタファイルを PNG 画像に変換するかどうかを示します。読み取り/書き込み Boolean。 |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。既定値は `false` です。 |
 
 ### 参照
 

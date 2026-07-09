@@ -1,6 +1,6 @@
 ---
 title: ILayoutSlideCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 레이아웃 슬라이드 컬렉션의 기본 클래스를 나타냅니다.
 type: docs
 weight: 6230

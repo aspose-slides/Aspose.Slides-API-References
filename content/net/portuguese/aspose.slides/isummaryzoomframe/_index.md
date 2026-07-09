@@ -3,7 +3,7 @@ title: ISummaryZoomFrame
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um quadro Summary Zoom em um slide.
 type: docs
-weight: 7130
+weight: 7150
 url: /pt/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame interface
@@ -14,12 +14,12 @@ Representa um quadro Summary Zoom em um slide.
 public interface ISummaryZoomFrame : IGraphicalObject
 ```
 
-## Properties
+## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Retorna a interface IGraphicalObject. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Obtém o layout das Seções Summary Zoom na moldura. O valor padrão é GridLayout. |
+| [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Retorna IGraphicalObject interface. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Obtém o layout das Summary Zoom Sections no quadro. O valor padrão é GridLayout. |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Obtém [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) para o objeto Summary Zoom Frame. |
 
 ### Veja Também

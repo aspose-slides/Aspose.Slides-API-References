@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการเติมสีแบบไล่ระดับที่มีผล
+second_title: Aspose.Slides สำหรับ .NET อ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการเติมสีไล่ระดับที่มีผล
 type: docs
 weight: 6010
 url: /th/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการเติมสีแบบไล่ระดับที่มีผล
+อ็อบเจ็กต์ที่ไม่แปรเปลี่ยนซึ่งมีคุณสมบัติการเติมสีไล่ระดับที่มีผล
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | อนุญาตให้ดึง IFillParamSource อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | คืนค่ารูปแบบของการไล่ระดับสี. อ่านอย่างเดียว [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | คืนค่ารูปของการไล่ระดับสี. อ่านอย่างเดียว [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | คืนค่าชุดของจุดไล่ระดับสี. อ่านอย่างเดียว [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | คืนค่ามุมของการไล่ระดับสี. อ่านอย่างเดียว Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | กำหนดว่าการไล่ระดับสีถูกสเกลหรือไม่. อ่านอย่างเดียว Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | คืนค่าโหมดการพลิกของการไล่ระดับสี. อ่านอย่างเดียว [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFillParamSource พื้นฐาน. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | คืนค่ารูปแบบของไล่ระดับสี. อ่านอย่างเดียว [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | คืนค่ารูปร่างของไล่ระดับสี. อ่านอย่างเดียว [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | คืนค่าคอลเลกชันของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | คืนค่ามุมของไล่ระดับสี. อ่านอย่างเดียว Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | กำหนดว่าผลลัพธ์ไล่ระดับสีถูกสเกลหรือไม่. อ่านอย่างเดียว Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | คืนค่ารูปแบบการพลิกของไล่ระดับสี. อ่านอย่างเดียว [`TileFlip`](../tileflip). |
 
 ### หมายเหตุ
 

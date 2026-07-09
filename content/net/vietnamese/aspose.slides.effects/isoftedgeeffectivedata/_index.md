@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình dạng bị làm mờ trong khi phần nền không bị ảnh hưởng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình được làm mờ trong khi phần tô nền không bị ảnh hưởng.
 type: docs
 weight: 3530
 url: /vi/aspose.slides.effects/isoftedgeeffectivedata/
 ---
-## ISoftEdgeEffectiveData giao diện
+## ISoftEdgeEffectiveData interface
 
-Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình dạng bị làm mờ, trong khi phần nền không bị ảnh hưởng.
+Đối tượng bất biến đại diện cho hiệu ứng viền mềm. Các cạnh của hình được làm mờ, trong khi phần tô nền không bị ảnh hưởng.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Xác định bán kính làm mờ sẽ áp dụng cho các cạnh. Chỉ đọc Double. |
 
 ### Xem thêm

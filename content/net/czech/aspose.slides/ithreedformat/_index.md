@@ -3,7 +3,7 @@ title: IThreeDFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje 3-D vlastnosti.
 type: docs
-weight: 7310
+weight: 7330
 url: /cs/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat rozhraní
@@ -18,17 +18,17 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Název | Popis |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Pouze pro čtení [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Vrací nebo nastavuje typ spodního 3D zkosení. Pouze pro čtení [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Vrací nebo nastavuje typ horního 3D zkosení. Pouze pro čtení [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Vrací nebo nastavuje nastavení kamery. Pouze pro čtení [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Vrací nebo nastavuje barvu kontury. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Vrací nebo nastavuje šířku 3D kontury. Čtení/Zápis Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Vrací nebo nastavuje hloubku 3D tvaru. Čtení/Zápis Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Vrací nebo nastavuje barvu extruze. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Vrací nebo nastavuje výšku efektu extruze. Čtení/Zápis Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Vrací nebo nastavuje typ světla. Pouze pro čtení [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Vrací nebo nastavuje typ materiálu. Čtení/Zápis [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Pouze ke čtení [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Vrací nebo nastavuje typ spodního 3D sklonu. Pouze ke čtení [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Vrací nebo nastavuje typ horního 3D sklonu. Pouze ke čtení [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Vrací nebo nastavuje nastavení kamery. Pouze ke čtení [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Vrací nebo nastavuje barvu obrysu. Pouze ke čtení [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Vrací nebo nastavuje šířku 3D obrysu. Čtení/zápis Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Vrací nebo nastavuje hloubku 3D tvaru. Čtení/zápis Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Vrací nebo nastavuje barvu extruze. Pouze ke čtení [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Vrací nebo nastavuje výšku efektu extruze. Čtení/zápis Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Vrací nebo nastavuje typ světla. Pouze ke čtení [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Vrací nebo nastavuje typ materiálu. Čtení/zápis [`MaterialPresetType`](../materialpresettype). |
 
 ## Metody
 

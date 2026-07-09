@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติ Heading pair ของเอกสาร โดยระบุชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: เป็นตัวแทนของคุณสมบัติ Heading pair ของเอกสาร โดยบ่งบอกชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม.
 type: docs
 weight: 5110
 url: /th/aspose.slides/headingpair/
 ---
-## HeadingPair คลาส
+## คลาส HeadingPair
 
-แสดงคุณสมบัติ 'Heading pair' ของเอกสารโดยระบุชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
+เป็นตัวแทนของคุณสมบัติ 'Heading pair' ของเอกสาร บ่งบอกชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -18,8 +18,8 @@ public sealed class HeadingPair : IHeadingPair
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | คืนค่าจำนวนส่วนในกลุ่ม อ่านอย่างเดียว Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | คืนค่าชื่อกลุ่มของส่วนเอกสาร อ่านอย่างเดียว String. |
+| [Count](../../aspose.slides/headingpair/count) { get; } | คืนค่าจำนวนส่วนในกลุ่ม. อ่านอย่างเดียว Int32. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | คืนค่าชื่อกลุ่มของส่วนเอกสาร. อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

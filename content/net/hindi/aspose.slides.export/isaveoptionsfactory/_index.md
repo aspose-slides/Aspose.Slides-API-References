@@ -1,24 +1,24 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: सेव विकल्पों के इंस्टेंस बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: सेव विकल्प के इंस्टेंस बनाने की अनुमति देता है
 type: docs
 weight: 4080
 url: /hi/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory इंटरफ़ेस
 
-सेव विकल्पों के इंस्टेंस बनाने की अनुमति देता है
+सेव विकल्प के इंस्टेंस बनाने की अनुमति देता है
 
 ```csharp
 public interface ISaveOptionsFactory
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | PPTX सेव विकल्प बनाता है। |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | PPTX सहेजने के विकल्प बनाता है। |
 
 ### टिप्पणी
 

@@ -1,12 +1,12 @@
 ---
 title: StyleType
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gaya bagan.
 type: docs
-weight: 2410
+weight: 2430
 url: /id/aspose.slides.charts/styletype/
 ---
-## enumerasi StyleType
+## StyleType enumerasi
 
 Mewakili gaya bagan.
 
@@ -14,7 +14,7 @@ Mewakili gaya bagan.
 public enum StyleType
 ```
 
-### Nilai
+### Values
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ISection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของส่วนของสไลด์
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงส่วนของสไลด์.
 type: docs
 weight: 6890
 url: /th/aspose.slides/isection/
@@ -16,17 +16,17 @@ public interface ISection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | ชื่อของส่วน |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | ไอดีของส่วน |
-| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | ส่งคืนสไลด์แรกของส่วน |
+| [Name](../../aspose.slides/isection/name) { get; set; } | ชื่อของส่วน. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Id ของส่วน. |
+| [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | ส่งคืนสไลด์แรกของส่วน. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | ส่งคืนรายการสไลด์ในส่วน |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | ส่งคืนรายการสไลด์ในส่วน. |
 
 ### ดูเพิ่มเติม
 

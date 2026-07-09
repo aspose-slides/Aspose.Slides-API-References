@@ -3,7 +3,7 @@ title: IActualLayout
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャート要素の実際の位置を指定します。
 type: docs
-weight: 1670
+weight: 1690
 url: /ja/aspose.slides.charts/iactuallayout/
 ---
 ## IActualLayout インターフェイス
@@ -18,10 +18,10 @@ public interface IActualLayout
 
 | 名前 | 説明 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | チャート要素の実際の x 位置（左）を、チャートの左上隅に対する相対位置で指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | チャート要素の実際の上位置を、チャートの左上隅に対する相対位置で指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Single を読み取ります。 |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Single を読み取ります。 |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | チャート要素の実際の x 位置（左）を、チャートの左上隅に対する相対位置で指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Single を読み取ります。 |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | チャート要素の実際の上位置を、チャートの左上隅に対する相対位置で指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Single を読み取ります。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes for .NET API リファレンス
-description: フォント フォールバック ルールを表します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: フォントのフォールバック ルールを表します
 type: docs
-weight: 5830
+weight: 5850
 url: /ja/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule インターフェイス
 
-フォント フォールバック ルールを表します
+フォントフォールバック ルールを表します。
 
 ```csharp
 public interface IFontFallBackRule
@@ -27,14 +27,14 @@ public interface IFontFallBackRule
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 新しいフォントを FallBack フォントのリストに追加します。 |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 新しいフォントを FallBack フォントのリストに追加します。 |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | FallBack フォントのリストに新しいフォントを追加します。 |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | FallBack フォントのリストに新しいフォントを追加します。 |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | リストからすべてのフォントを削除します。 |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | コレクション内の指定されたルールのインデックスを返します。 |
 | [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | リストから特定の FallBack フォントの最初の出現を削除します。 |
 | [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | リストの指定されたインデックスにある FallBack フォントを削除します。 |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | このルールのすべての FallBack フォントを含む配列を作成し、返します。 |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | リストの指定された範囲からすべての FallBack フォントを含む配列を作成し、返します。 |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | このルールのすべての FallBack フォントを含む配列を作成して返します。 |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | リストの指定された範囲からすべての FallBack フォントを含む配列を作成して返します。 |
 
 ### 参照
 

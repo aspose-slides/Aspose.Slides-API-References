@@ -1,9 +1,9 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 2D と 3D のチャートタイプを組み合わせようとしたときにスローされる例外です。
 type: docs
-weight: 1220
+weight: 1240
 url: /ja/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException クラス
@@ -14,13 +14,13 @@ url: /ja/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | デフォルト コンストラクターです。 |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクターです。 |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクターです。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | デフォルトコンストラクタ。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
 
 ### 参照
 

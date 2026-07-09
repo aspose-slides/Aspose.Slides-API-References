@@ -1,12 +1,12 @@
 ---
 title: ControlCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per la Documentazione API di .NET
 description: Una raccolta di controlli ActiveX.
 type: docs
-weight: 2680
+weight: 2700
 url: /it/aspose.slides/controlcollection/
 ---
-## ControlCollection classe
+## classe ControlCollection
 
 Una raccolta di controlli ActiveX.
 

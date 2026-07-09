@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính ngắt tab của văn bản hiệu quả.
+description: Đối tượng bất biến chứa các thuộc tính dừng tab của văn bản thực tế.
 type: docs
 weight: 7210
 url: /vi/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính ngắt tab của văn bản hiệu quả.
+Đối tượng bất biến chứa các thuộc tính dừng tab của văn bản thực tế.
 
 ```csharp
 public interface ITabEffectiveData : IComparable

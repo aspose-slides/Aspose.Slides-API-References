@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
-description: Objeto imutável que representa um efeito de Fill Overlay. Um Fill Overlay pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
+second_title: Aspose.Sildes para referência da API .NET
+description: Objeto imutável que representa um efeito Fill Overlay. Um fill overlay pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
 type: docs
-weight: 3290
+weight: 3310
 url: /pt/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
-## interface IFillOverlayEffectiveData
+## IFillOverlayEffectiveData interface
 
-Objeto imutável que representa um efeito de Fill Overlay. Um Fill Overlay pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
+Objeto imutável que representa um efeito de Fill Overlay. Um fill overlay pode ser usado para especificar um preenchimento adicional para um objeto e mesclar os dois preenchimentos juntos.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Somente leitura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formato de preenchimento. Somente leitura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Veja Também
+### Veja também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

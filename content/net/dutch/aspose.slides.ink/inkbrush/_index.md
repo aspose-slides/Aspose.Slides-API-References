@@ -19,7 +19,7 @@ public class InkBrush : IInkBrush
 | Naam | Beschrijving |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Haalt de penseelkleur op of stelt deze in voor een lijn. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Haalt het inkt-effecttype op (bijv. Galaxy, Gold, Silver) dat de visuele stijl van de inktstreek bepaalt. De waarde wordt geparseerd uit de penseel-eigenschap "inkEffects". Als er geen herkend effect is gespecificeerd, wordt NotDefined geretourneerd. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Haalt het inkt-effecttype op (bijv. Galaxy, Gold, Silver) dat de visuele stijl van de inktstreep definieert. De waarde wordt ontleed uit de penseel-eigenschap "inkEffects". Als er geen herkend effect is gespecificeerd, wordt NotDefined geretourneerd. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Haalt de penseelgrootte op of stelt deze in voor een lijn in punten. |
 
 ### Zie ook

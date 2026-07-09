@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes pro .NET API referenci
-description: Zastupuje kolekci částí.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje kolekci částí.
 type: docs
-weight: 530
+weight: 550
 url: /cs/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection rozhraní
 
-Zastupuje kolekci částí.
+Reprezentuje kolekci částí.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>

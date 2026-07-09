@@ -1,14 +1,14 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션에서 사용되는 색을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션에서 사용되는 색상을 나타냅니다.
 type: docs
 weight: 2520
 url: /ko/aspose.slides/colorformat/
 ---
 ## ColorFormat 클래스
 
-프레젠테이션에서 사용되는 색을 나타냅니다.
+프레젠테이션에서 사용되는 색상을 나타냅니다.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -16,33 +16,33 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | 색상의 파란색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | 모든 색 변환이 적용된 결과 색을 반환합니다. RGB 색을 설정하고 모든 색 변환을 지웁니다. 읽기/쓰기 Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | 색상에 적용된 색 변환 컬렉션을 반환합니다. 읽기 전용 [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | 색 정의 방법을 반환하거나 설정합니다. 읽기/쓰기 [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | 색상의 파란색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | 색상의 녹색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | 색상의 빨간색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [G](../../aspose.slides/colorformat/g) { get; set; } | 색상의 녹색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | HSL 표현에서 색상의 색조(Hue) 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | HSL 표현에서 색상의 밝기(Luminance) 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | 색 사전 설정을 반환하거나 설정합니다. 읽기/쓰기 [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | 색상의 빨간색 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | HSL 표현에서 색상의 채도(Saturation) 구성 요소를 반환하거나 설정합니다. 모든 색 변환은 무시됩니다. 읽기/쓰기 Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | 색 구성표에 의해 식별되는 색을 반환하거나 설정합니다. 읽기/쓰기 [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | 시스템 색 테이블에 의해 식별되는 색을 반환하거나 설정합니다. 읽기/쓰기 [`SystemColor`](../systemcolor). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | 색상의 파란색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | 모든 색상 변환이 적용된 결과 색상을 반환합니다. RGB 색상을 설정하고 모든 색상 변환을 지웁니다. 읽기/쓰기 Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | 색상에 적용된 색상 변환 컬렉션을 반환합니다. 읽기 전용 [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | 색상 정의 방법을 반환하거나 설정합니다. 읽기/쓰기 [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | 색상의 파란색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | 색상의 초록색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | 색상의 빨간색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [G](../../aspose.slides/colorformat/g) { get; set; } | 색상의 초록색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | HSL 표현에서 색상의 색조 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | HSL 표현에서 색상의 명도 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | 색상 프리셋을 반환하거나 설정합니다. 읽기/쓰기 [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | 색상의 빨간색 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | HSL 표현에서 색상의 채도 구성 요소를 반환하거나 설정합니다. 모든 색상 변환이 무시됩니다. 읽기/쓰기 Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | 색상 스키마에 의해 식별된 색상을 반환하거나 설정합니다. 읽기/쓰기 [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | 시스템 색상 테이블에 의해 식별된 색상을 반환하거나 설정합니다. 읽기/쓰기 [`SystemColor`](../systemcolor). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | 색 형식을 "color"에서 복사합니다. |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | 지정된 객체와의 동등성을 검사합니다. |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | 색상 형식을 "color"에서 복사합니다. |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | 지정된 객체와의 동일성을 검사합니다. |
 | override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | 해시 코드를 반환합니다. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | 현재 색 형식을 나타내는 문자열을 반환합니다. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | 현재 색상 형식을 나타내는 문자열을 반환합니다. |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentationAsync
-second_title: Aspose.Slides için .NET API Referansı
-description: Bir metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikir, alıntı veya metin parçacıkları sağlayın.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikirler, alıntılar veya metin parçacıkları sağlayın.
 type: docs
 weight: 30
 url: /tr/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı veya metin parçacıkları sağlayın.
+Bir metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikirler, alıntılar veya metin parçacıkları sağlayın.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -17,16 +17,24 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| description | String | The topic, ideas, quotes, or text snippets. |
-| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
+| description | String | Konu, fikirler, alıntılar veya metin parçacıkları. |
+| presentationContentAmount | PresentationContentAmountType | Sonuç sunumdaki içerik miktarı. |
 
 ### İstisnalar
 
 | İstisna | koşul |
 | --- | --- |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentException | AI sohbet talimatı null veya boş olamaz. |
 
-### Ayrıca Bakınız
+### Açıklamalar
+
+Aşağıdaki örnek, parametresiz [`SlidesAIAgent`](../slidesaiagent) yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [`AsposeAIWebClient`](../../asposeaiwebclient) öğesini kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi `HttpClient`'ınızı sağlayarak) için bir [`IAIWebClient`](../../iaiwebclient) uygulamasını [`SlidesAIAgent`](../slidesaiagent) yapıcısına geçirin. Mevcut uygulamalar şunlardır:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### İlgili
 
 * arayüz [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -38,7 +46,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Metin açıklamasından bir sunum örneği oluşturur. Gereken dilde bir konu, fikir, alıntı veya metin parçacıkları sağlayın.
+Bir metin açıklamasından bir sunum örneği oluşturur. Gerekli dilde bir konu, fikirler, alıntılar veya metin parçacıkları sağlayın.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -47,18 +55,26 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 | Parametre | Tür | Açıklama |
 | --- | --- | --- |
-| description | String | The topic, ideas, quotes, or text snippets. |
-| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
-| presentationTemplate | IPresentation | A presentation to use as a template for layout and design, replacing the default template. |
+| description | String | Konu, fikirler, alıntılar veya metin parçacıkları. |
+| presentationContentAmount | PresentationContentAmountType | Sonuç sunumdaki içerik miktarı. |
+| presentationTemplate | IPresentation | Düzen ve tasarım için kullanılacak, varsayılan şablonu değiştiren bir sunum şablonu. |
 
 ### İstisnalar
 
 | İstisna | koşul |
 | --- | --- |
-| ArgumentNullException | Presentation template is not provided. |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentNullException | Sunum şablonu sağlanmadı. |
+| ArgumentException | AI sohbet talimatı null veya boş olamaz. |
 
-### Ayrıca Bakınız
+### Açıklamalar
+
+Aşağıdaki örnek, parametresiz [`SlidesAIAgent`](../slidesaiagent) yapıcısı tarafından oluşturulan ve Aspose'un kendi LLM'sine bağlanan varsayılan [`AsposeAIWebClient`](../../asposeaiwebclient) öğesini kullanır. Farklı bir AI sağlayıcısı kullanmak, kendi LLM'nizi sağlamak veya bağlantıyı özelleştirmek (örneğin, kendi `HttpClient`'ınızı sağlayarak) için bir [`IAIWebClient`](../../iaiwebclient) uygulamasını [`SlidesAIAgent`](../slidesaiagent) yapıcısına geçirin. Mevcut uygulamalar şunlardır:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### İlgili
 
 * arayüz [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)

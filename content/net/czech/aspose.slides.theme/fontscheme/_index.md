@@ -3,7 +3,7 @@ title: FontScheme
 second_title: Aspose.Sildes pro .NET API Reference
 description: Ukládá písma definovaná tématem.
 type: docs
-weight: 11110
+weight: 11130
 url: /cs/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme třída
@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Název | Popis |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Vrací kolekci písem pro část „heading“ snímku. Pouze pro čtení [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Vrací kolekci písem pro část „body“ snímku. Pouze pro čtení [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Vrací název schématu písem. Čtení/Zápis String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Vrací kolekci písem pro část "heading" snímku. Pouze pro čtení [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Vrací kolekci písem pro část "body" snímku. Pouze pro čtení [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Vrací název schématu písma. Čtení/Zápis String. |
 
 ### Viz také
 

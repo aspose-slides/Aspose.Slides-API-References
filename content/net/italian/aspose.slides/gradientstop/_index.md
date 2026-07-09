@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un formato di gradiente.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta un formato gradiente.
 type: docs
-weight: 5000
+weight: 5020
 url: /it/aspose.slides/gradientstop/
 ---
 ## GradientStop classe
 
-Rappresenta un formato di gradiente.
+Rappresenta un formato gradiente.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -19,8 +19,8 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | Nome | Descrizione |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Restituisce il colore di una tappa di gradiente. Solo lettura [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Restituisce o imposta la posizione (0..1) di una tappa di gradiente. Lettura/scrittura Single. |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Restituisce il colore di un gradient stop. Solo lettura [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Restituisce o imposta la posizione (0..1) di un gradient stop. Lettura/scrittura Single. |
 
 ## Metodi
 

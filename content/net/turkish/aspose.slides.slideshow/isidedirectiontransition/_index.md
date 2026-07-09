@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yan yön slayt geçiş efekti.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yan yön kaydırma geçiş efekti.
 type: docs
-weight: 10170
+weight: 10190
 url: /tr/aspose.slides.slideshow/isidedirectiontransition/
 ---
-## ISideDirectionTransition arayüzü
+## ISideDirectionTransition arayüz
 
-Yan yön slayt geçiş efekti.
+Yan yön kaydırma geçiş efekti.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Yalnızca okuma [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Geçiş yönü. Okuma/yazma [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

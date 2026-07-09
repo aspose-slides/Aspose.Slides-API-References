@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ฟังก์ชันคณิตศาสตร์ทั่วไปที่มีอากิวเมนต์สองตัว
+description: ฟังก์ชันคณิตศาสตร์ทั่วไปที่รับสองอาร์กิวเมนต์
 type: docs
 weight: 8750
 url: /th/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments การนับ
 
-ฟังก์ชันคณิตศาสตร์ทั่วไปที่มีอากิวเมนต์สองตัว
+ฟังก์ชันคณิตศาสตร์ทั่วไปที่รับสองอาร์กิวเมนต์
 
 ```csharp
 public enum MathFunctionsOfTwoArguments

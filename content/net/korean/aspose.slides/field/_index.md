@@ -1,6 +1,6 @@
 ---
 title: Field
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 필드를 나타냅니다.
 type: docs
 weight: 4750
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | 이름 | 설명 |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | 필드의 형식을 반환하거나 설정합니다. 읽기/쓰기 [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | 필드의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`IFieldType`](../ifieldtype). |
 
 ### 참조
 

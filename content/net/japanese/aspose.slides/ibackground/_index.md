@@ -1,9 +1,9 @@
 ---
 title: IBackground
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドの背景を表します。
 type: docs
-weight: 5250
+weight: 5270
 url: /ja/aspose.slides/ibackground/
 ---
 ## IBackground インターフェイス
@@ -16,23 +16,23 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | IFillParamSource インターフェイスを返します。 読み取り専用 [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | ISlideComponent インターフェイスを返します。 読み取り専用 [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground の塗りつぶし用 EffectFormat を返します。 読み取り専用 [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground の塗りつぶし用 FillFormat を返します。 読み取り専用 [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed の塗りつぶし用 ColorFormat を返します。 読み取り専用 [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 背景テーマコレクション内の BackgroundType.Themed 塗りつぶしのインデックスを返します。0 は塗りつぶしなしを意味し、1..999 はインデックスです。 読み書き UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | 背景塗りつぶしのタイプを返します。 読み書き [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | IFillParamSource インターフェイスを返します。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | ISlideComponent インターフェイスを返します。読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground の塗りつぶしに対する EffectFormat を返します。読み取り専用 [`IEffectFormat`](../ieffectformat)。 |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground の塗りつぶしに対する FillFormat を返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed の塗りつぶしに対する ColorFormat を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | BackgroundType.Themed の塗りつぶしに対する background theme コレクションのインデックスを返します。0 は塗りつぶしなしを意味します。1..999 - インデックス。読み書き UInt16。 |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | 背景塗りつぶしのタイプを返します。読み書き [`BackgroundType`](../backgroundtype)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/ibackground/geteffective)() | 継承が適用された有効な背景データを取得します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFillParamSource](../ifillparamsource)
 * インターフェイス [ISlideComponent](../islidecomponent)

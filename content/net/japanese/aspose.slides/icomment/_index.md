@@ -3,7 +3,7 @@ title: IComment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のコメントを表します。
 type: docs
-weight: 5540
+weight: 5560
 url: /ja/aspose.slides/icomment/
 ---
 ## IComment インターフェイス
@@ -18,20 +18,20 @@ public interface IComment
 
 | 名前 | 説明 |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | コメントの作成者を返します。 読み取り専用 [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。 このプロパティを MinValue に設定すると、コメント時刻が設定されていないことを意味します。 読み取り/書き込み DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | 親コメントを取得または設定します。 読み取り/書き込み [`IComment`](../icomment). |
-| [Position](../../aspose.slides/icomment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。 読み取り/書き込み PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | コメントの親スライドを取得または設定します。 読み取り専用 [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。 読み取り/書き込み String. |
+| [Author](../../aspose.slides/icomment/author) { get; } | コメントの作成者を返します。読み取り専用 [`ICommentAuthor`](../icommentauthor)。 |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | コメント作成時刻を取得または設定します。このプロパティに MinValue を設定すると、コメント時刻が設定されていないことを意味します。読み書き可能 DateTime。 |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | 親コメントを取得または設定します。読み書き可能 [`IComment`](../icomment)。 |
+| [Position](../../aspose.slides/icomment/position) { get; set; } | スライド上のコメントの位置を取得または設定します。読み書き可能 PointF。 |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | コメントの親スライドを取得または設定します。読み取り専用 [`ISlide`](../islide)。 |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | スライドコメントのプレーンテキストを取得または設定します。読み書き可能 String。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | コメントとそのすべての返信を親コレクションから削除します。 |
+| [Remove](../../aspose.slides/icomment/remove)() | 親コレクションからコメントとそのすべての返信を削除します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

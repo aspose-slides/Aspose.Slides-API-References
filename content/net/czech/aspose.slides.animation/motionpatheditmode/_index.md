@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Určuje, jak se cesta pohybu mění, když je přesunut cílový tvar
+second_title: Aspose.Sildes pro .NET API referenci
+description: Určuje, jak se pohybová cesta pohybuje, když je přesunut cílový tvar
 type: docs
-weight: 680
+weight: 700
 url: /cs/aspose.slides.animation/motionpatheditmode/
 ---
-## Výčet MotionPathEditMode
+## MotionPathEditMode výčet
 
-Určuje, jak se pohybuje cesta pohybu, když je přesunut cílový tvar
+Určuje, jak se pohybová cesta posouvá, když se přesouvá cílový tvar
 
 ```csharp
 public enum MotionPathEditMode

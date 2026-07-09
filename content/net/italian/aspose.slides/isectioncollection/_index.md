@@ -1,9 +1,9 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una raccolta di sezioni.
 type: docs
-weight: 6880
+weight: 6900
 url: /it/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interfaccia
@@ -16,20 +16,20 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Restituisce l'elemento all'indice specificato. Di sola lettura [`ISection`](../isection). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Aggiunge una sezione vuota nella posizione specificata della raccolta. |
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Aggiunge una nuova sezione iniziata dalla diapositiva specifica. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Aggiunge una sezione vuota alla fine della raccolta. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Rimuove tutte le sezioni dalla raccolta. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Restituisce l'indice della sezione specificata nella raccolta. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione verranno unite alla sezione precedente. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Restituisce un indice della sezione specificata nella raccolta. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Rimuove la sezione. Le diapositive contenute nella sezione saranno unite alla sezione precedente. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Rimuove la sezione e le diapositive contenute nella sezione. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Sposta la sezione e le sue diapositive dalla raccolta alla posizione specificata. |
 

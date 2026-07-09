@@ -1,14 +1,14 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن غير قابل للتغيير يحتوي على خصائص الكاميرا الفعالة.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: كائن ثابت يحتوي على خصائص الكاميرا الفعّالة.
 type: docs
 weight: 5420
 url: /ar/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص الكاميرا الفعالة.
+كائن ثابت يحتوي على خصائص الكاميرا الفعّالة.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -18,17 +18,17 @@ public interface ICameraEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | نوع الكاميرا. قراءة فقط [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | مجال رؤية الكاميرا (0-180 درجة، مجال العرض). قراءة فقط Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | تقريب الكاميرا (قيمة إيجابية بالنسبة المئوية). قراءة فقط Single. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | نوع الكاميرا. للقراءة فقط [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | مجال رؤية الكاميرا (0-180 درجة، مجال الرؤية). للقراءة فقط Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | تكبير الكاميرا (قيمة إيجابية بالنسبة المئوية). للقراءة فقط Single. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. العنصر الأول في مصفوفة الإرجاع - خط العرض، الثاني - خط الطول، الثالث - الثورة. تُعيد null إذا لم يتم تعريف دوران. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. العنصر الأول في مصفوفة الإرجاع - خط العرض، الثاني - خط الطول، الثالث - الثورة. تُرجع null إذا لم يُعرّف دوران. |
 
-### الملاحظات
+### ملاحظات
 
 تُستخدم هذه الواجهة كجزء من [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 

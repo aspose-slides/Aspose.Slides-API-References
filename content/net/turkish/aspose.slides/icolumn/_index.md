@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir tabloda sütunu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir tabloda bir sütunu temsil eder.
 type: docs
-weight: 5500
+weight: 5520
 url: /tr/aspose.slides/icolumn/
 ---
-## IColumn arayüz
+## IColumn arayüzü
 
-Bir tabloda bir sütunu temsil eder.
+Represents a column in a table.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzüne erişim sağlar. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Temel ICellCollection arayüzüne erişim sağlar. Yalnızca okuma [`ICellCollection`](../icellcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzünü almaya izin verir. Yalnızca okuma [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Temel ICellCollection arayüzünü almaya izin verir. Yalnızca okuma [`ICellCollection`](../icellcollection). |
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Bu sütun için biçimlendirme özelliklerini içeren ColumnFormat nesnesini döndürür. Yalnızca okuma [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Bir sütunun genişliğini döndürür veya ayarlar. Okuma/yazma Double. |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Bir sütunun genişliğini döndürür veya ayarlar. Okunur/yazılır Double. |
 
 ### Ayrıca Bakınız
 

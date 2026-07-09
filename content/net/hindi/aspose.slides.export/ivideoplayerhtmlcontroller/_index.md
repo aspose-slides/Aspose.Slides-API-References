@@ -1,6 +1,6 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: यह क्लास वीडियो और ऑडियो फ़ाइलों को HTML में निर्यात करने की अनुमति देती है।
 type: docs
 weight: 4180
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | बेस IHtmlFormattingController इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IHtmlFormattingController`](../ihtmlformattingcontroller)। |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | बेस ILinkEmbedController इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ILinkEmbedController`](../ilinkembedcontroller)। |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | बेस ISvgShapeFormattingController इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)। |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | बेस IHtmlFormattingController इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | बेस ILinkEmbedController इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | बेस ISvgShapeFormattingController इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### संबंधित देखें
 

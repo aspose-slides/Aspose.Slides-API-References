@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงป้ายความละเอียดจาก Microsoft Purview Information Protection.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงป้ายความละเอียดจาก Microsoft Purview Information Protection.
 type: docs
 weight: 9790
 url: /th/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel คลาส
 
-Represents the sensitivity label from Microsoft Purview Information Protection.
+เป็นการแทนป้ายความละเอียดจาก Microsoft Purview Information Protection.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,14 +16,14 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | คืนค่า หรือ ตั้งค่าวิธีการกำหนดให้กับป้ายความละเอียด. อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | คืนรายชื่อประเภทของการทำเครื่องหมายเนื้อหาที่ควรนำไปใช้กับไฟล์. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | คืนค่า หรือ ตั้งค่า วิธีการกำหนดค่า สำหรับป้ายความละเอียด. อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | คืนรายการประเภทของการทำเครื่องหมายเนื้อหาที่ควรนำไปใช้กับไฟล์. |
 | [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | คืนค่า หรือ ตั้งค่า id ของป้ายความละเอียด. อ่าน/เขียน String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | ระบุว่าป้ายความละเอียดเปิดอยู่หรือไม่. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | ระบุว่าป้ายความละเอียดถูกเปิดใช้งานหรือไม่. |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | ระบุว่าป้ายความละเอียดถูกลบหรือไม่. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | คืนค่า หรือ ตั้งค่า Azure Active Directory (Azure AD) site identifier ที่สอดคล้องกับนโยบายป้ายความละเอียดที่อธิบายป้ายความละเอียด. อ่าน/เขียน Guid. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | คืนค่า หรือ ตั้งค่า ตัวระบุไซต์ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความละเอียดที่อธิบายป้ายความละเอียด. อ่าน/เขียน Guid. |
 
 ### ดูเพิ่มเติม
 

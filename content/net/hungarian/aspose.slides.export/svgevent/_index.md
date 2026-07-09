@@ -1,14 +1,14 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes .NET API referenciája
-description: Az SVG alakzat opcióit képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: SVG alakzat opcióit reprezentálja.
 type: docs
-weight: 4470
+weight: 4490
 url: /hu/aspose.slides.export/svgevent/
 ---
 ## SvgEvent felsorolás
 
-Az SVG alakzat opcióit képviseli.
+Az SVG alakzat lehetőségeit reprezentálja.
 
 ```csharp
 public enum SvgEvent
@@ -16,27 +16,27 @@ public enum SvgEvent
 
 ### Értékek
 
-| Name | Value | Description |
+| Név | Érték | Leírás |
 | --- | --- | --- |
-| OnFocusIn | `0` | Akkor fordul elő, amikor egy elem fókuszt kap, például amikor egy szöveg ki van jelölve. |
-| OnFocusOut | `1` | Akkor fordul elő, amikor egy elem elveszíti a fókuszt, például amikor egy szöveg ki van jelölésből visszavonva. |
-| OnActivate | `2` | Akkor fordul elő, amikor egy elem aktiválódik, például egérkattintás vagy billentyűleütés hatására. |
-| OnClick | `3` | Akkor fordul elő, amikor a mutatóeszköz gombját egy elem felett lenyomják. |
-| OnMouseDown | `4` | Akkor fordul elő, amikor a mutatóeszköz gombját egy elem felett lenyomják. |
-| OnMouseUp | `5` | Akkor fordul elő, amikor a mutatóeszköz gombját egy elem felett felengedik. |
-| OnMouseOver | `6` | Akkor fordul elő, amikor a mutatóeszközt egy elemre mozdítják. |
-| OnMouseMove | `7` | Akkor fordul elő, amikor a mutatóeszközt egy elem felett mozgatják. |
-| OnMouseOut | `8` | Akkor fordul elő, amikor a mutatóeszközt egy elemtől elmozdítják. |
-| OnLoad | `9` | Akkor fordul elő, amikor a felhasználói ügynök teljesen feldolgozza az elemet és annak leszármazottait, valamint az összes hivatkozott erőforrást, amely a megjelenítéshez szükséges. |
-| OnUnload | `10` | Akkor fordul elő, amikor a DOM-implementáció eltávolít egy dokumentumot egy ablakból vagy keretből. Csak a legkülső SVG elemekre vonatkozik. |
-| OnAbort | `11` | Akkor fordul elő, amikor az oldalbetöltés megáll, mielőtt egy elem teljesen betöltődhetne. |
-| OnError | `12` | Akkor fordul elő, amikor egy elem nem töltődik be megfelelően, vagy amikor hibát okoz a szkript végrehajtása. |
-| OnResize | `13` | Akkor fordul elő, amikor egy dokumentumnézet mérete változik. Csak a legkülső SVG elemekre vonatkozik. |
-| OnScroll | `14` | Akkor fordul elő, amikor egy dokumentumnézetet az X vagy Y vagy mindkét tengely mentén eltolják. Csak a legkülső SVG elemekre vonatkozik. |
-| OnZoom | `15` | Akkor fordul elő, amikor egy dokumentumnézet nagyítási szintje változik. Csak a legkülső SVG elemekre vonatkozik. |
-| OnBegin | `16` | Akkor fordul elő, amikor egy animációs elem elindul. |
-| OnEnd | `17` | Akkor fordul elő, amikor egy animációs elem befejeződik. |
-| OnRepeat | `18` | Akkor fordul elő, amikor egy animációs elem ismétlődik. |
+| OnFocusIn | `0` | Bekövetkezik, amikor egy elem fókuszt kap, például amikor egy szöveg ki van jelölve. |
+| OnFocusOut | `1` | Bekövetkezik, amikor egy elem elveszíti a fókuszt, például amikor egy szöveg ki van jelölésből. |
+| OnActivate | `2` | Bekövetkezik, amikor egy elem aktiválódik, például egérkattintással vagy billentyűleütéssel. |
+| OnClick | `3` | Bekövetkezik, amikor a mutatóeszköz gombját egy elem fölött kattintják. |
+| OnMouseDown | `4` | Bekövetkezik, amikor a mutatóeszköz gombját egy elem fölött lenyomják. |
+| OnMouseUp | `5` | Bekövetkezik, amikor a mutatóeszköz gombját egy elem fölött felengedik. |
+| OnMouseOver | `6` | Bekövetkezik, amikor a mutatóeszköz egy elemre mozog. |
+| OnMouseMove | `7` | Bekövetkezik, amikor a mutatóeszköz egy elem fölött mozog. |
+| OnMouseOut | `8` | Bekövetkezik, amikor a mutatóeszköz távolodik egy elemről. |
+| OnLoad | `9` | Bekövetkezik, amikor a felhasználói ügynök teljesen felolvassa az elemet és leszármazottait, valamint minden hivatkozott erőforrást, amely a megjelenítéshez szükséges. |
+| OnUnload | `10` | Bekövetkezik, amikor a DOM implementáció eltávolít egy dokumentumot egy ablakból vagy keretből. Csak a legkülső svg elemekre vonatkozik. |
+| OnAbort | `11` | Bekövetkezik, amikor az oldalletöltés megáll, mielőtt egy elem teljesen betöltődne. |
+| OnError | `12` | Bekövetkezik, amikor egy elem nem töltődik be megfelelően, vagy amikor hiba történik a szkript végrehajtása során. |
+| OnResize | `13` | Bekövetkezik, amikor egy dokumentumnézet mérete változik. Csak a legkülső svg elemekre vonatkozik. |
+| OnScroll | `14` | Bekövetkezik, amikor egy dokumentumnézet eltolódik az X vagy Y, vagy mindkét tengely mentén. Csak a legkülső svg elemekre vonatkozik. |
+| OnZoom | `15` | Bekövetkezik, amikor egy dokumentumnézet nagyítási szintje megváltozik. Csak a legkülső svg elemekre vonatkozik. |
+| OnBegin | `16` | Bekövetkezik, amikor egy animációs elem elindul. |
+| OnEnd | `17` | Bekövetkezik, amikor egy animációs elem befejeződik. |
+| OnRepeat | `18` | Bekövetkezik, amikor egy animációs elem ismétlődik. |
 
 ### Lásd még
 

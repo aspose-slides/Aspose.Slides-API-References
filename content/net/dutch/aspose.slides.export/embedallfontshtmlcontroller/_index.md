@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes voor .NET API-referentie
-description: De formatteringscontrollerklasse die gebruikt wordt om alle presentatielettertypen in WOFF-formaat in te sluiten.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: De opmaakcontrollerklasse die te gebruiken is voor het insluiten van alle presentatieschriften in WOFF-indeling.
 type: docs
 weight: 3760
 url: /nl/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController klasse
 
-De formatteringscontrollerklasse die gebruikt wordt om alle presentatielettertypen in WOFF-formaat in te sluiten.
+De opmaakcontrollerklasse die gebruikt wordt om alle presentatieschriften in WOFF-indeling in te sluiten.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -18,21 +18,21 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | Naam | Beschrijving |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Maakt een nieuw exemplaar |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Maakt een nieuw exemplaar |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Maakt een nieuwe instantie aan |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Maakt een nieuwe instantie aan |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Schrijf alle lettertypen die zijn opgenomen in [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Schrijft alle lettertypen die zich bevinden in [`Presentation`](../../aspose.slides/presentation). |
 | virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Wordt aangeroepen om de voettekst van het html-document te schrijven. Wordt één keer per presentatieconversie aangeroepen. |
 | virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Wordt aangeroepen om de koptekst van het html-document te schrijven. Wordt één keer per presentatieconversie aangeroepen. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Schrijft gegevens als base64 in het HTML-document zelf |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wordt aangeroepen vóór de rendering van de shape. Wordt één keer per shape aangeroepen. Als deze functie iets naar de generator schrijft, wordt de huidige slide-afbeeldingsgeneratie afgerond, wordt het toegevoegde html-fragment ingevoegd en wordt een nieuwe afbeelding bovenop de vorige gestart. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wordt aangeroepen vóór de rendering van de shape. Wordt één keer per shape aangeroepen. Als deze functie iets naar de generator schrijft, wordt de huidige slide-afbeeldingsgeneratie afgerond, wordt het toegevoegde html-fragment ingevoegd en wordt een nieuwe afbeelding bovenop de vorige gestart. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Wordt aangeroepen om de voettekst van de html-slide te schrijven. Wordt één keer per slide aangeroepen. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Wordt aangeroepen om de koptekst van de html-slide te schrijven. Wordt één keer per slide aangeroepen. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Wordt aangeroepen vóór het renderen van de vorm. Wordt één keer per elke vorm aangeroepen. Als deze functie iets naar de generator schrijft, wordt de huidige dia-afbeeldingsgeneratie voltooid, wordt het toegevoegde html-fragment ingevoegd en wordt een nieuwe afbeelding bovenop de vorige gestart. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Wordt aangeroepen vóór het renderen van de vorm. Wordt één keer per elke vorm aangeroepen. Als deze functie iets naar de generator schrijft, wordt de huidige dia-afbeeldingsgeneratie voltooid, wordt het toegevoegde html-fragment ingevoegd en wordt een nieuwe afbeelding bovenop de vorige gestart. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Wordt aangeroepen om de voettekst van de html-dia te schrijven. Wordt één keer per elke dia aangeroepen. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Wordt aangeroepen om de koptekst van de html-dia te schrijven. Wordt één keer per elke dia aangeroepen. |
 
 ### Zie ook
 

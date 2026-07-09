@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
-second_title: مرجع API Aspose.Sildes برای .NET
-description: گزینه‌هایی را فراهم می‌کند که نحوه ذخیره‌سازی یک ارائه را در قالب TIFF کنترل می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: گزینه‌هایی را فراهم می‌کند که نحوه ذخیره ارائه در قالب TIFF را کنترل می‌کنند.
 type: docs
 weight: 4170
 url: /fa/aspose.slides.export/itiffoptions/
 ---
-## رابط ITiffOptions
+## ITiffOptions رابط
 
-گزینه‌هایی را فراهم می‌کند که نحوه ذخیره‌سازی یک ارائه را در قالب TIFF کنترل می‌کند.
+گزینه‌هایی را فراهم می‌کند که کنترل می‌کند ارائه چگونه در قالب TIFF ذخیره می‌شود.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -18,21 +18,21 @@ public interface ITiffOptions : ISaveOptions
 
 | نام | توضیح |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | یک رابط ISaveOptions را برمی‌گرداند. فقط خواندنی [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | الگوریتم تبدیل یک تصویر رنگی به تصویر سیاه‌سفید را مشخص می‌کند. این گزینه تنها در صورتی اعمال می‌شود که [`CompressionType`](./compressiontype) به CCITT4 یا CCITT3 تنظیم شده باشد. خواند و نوشتن [`BlackWhiteConversionMode`](../blackwhiteconversionmode). مقدار پیش‌فرض Default است. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | نوع فشرده‌سازی را مشخص می‌کند. خواند و نوشتن [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | رزولوشن افقی را به‌صورت نقطه در اینچ مشخص می‌کند. خواند و نوشتن UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | رزولوشن عمودی را به‌صورت نقطه در اینچ مشخص می‌کند. خواند و نوشتن UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | اندازه تصویر TIFF تولید شده را مشخص می‌کند. مقدار پیش‌فرض 0x0 است، که به این معنی است که اندازه‌های تصویر تولید شده بر اساس مقدار اندازه اسلاید ارائه محاسبه خواهند شد. خواند و نوشتن Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیاء Ink را در سند استخراج‌شده کنترل می‌کند. فقط خواندنی [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | قالب پیکسل برای تصاویر تولید شده را مشخص می‌کند. خواند و نوشتن [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | مشخص می‌کند آیا سند تولید شده باید اسلایدهای مخفی را شامل شود یا خیر. مقدار پیش‌فرض `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام استخراج یک ارائه را می‌گیرد یا تنظیم می‌کند [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions رابط را باز می‌گرداند. فقط-خواندنی [`ISaveOptions`](../isaveoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | الگوریتم تبدیل یک تصویر رنگی به تصویر سیاه-سفیدی را مشخص می‌کند. این گزینه فقط زمانی اعمال می‌شود که [`CompressionType`](./compressiontype) روی CCITT4 یا CCITT3 تنظیم شده باشد. خواندنی/نوشتنی [`BlackWhiteConversionMode`](../blackwhiteconversionmode). مقدار پیش‌فرض Default است. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | نوع فشرده‌سازی را مشخص می‌کند. خواندنی/نوشتنی [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | رزولوشن افقی را به نقطه بر اینچ مشخص می‌کند. خواندنی/نوشتنی UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | رزولوشن عمودی را به نقطه بر اینچ مشخص می‌کند. خواندنی/نوشتنی UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | اندازه تصویر TIFF تولید شده را مشخص می‌کند. مقدار پیش‌فرض 0x0 است، به این معنی که اندازه‌های تصویر تولید شده بر اساس مقدار اندازه اسلاید ارائه محاسبه می‌شود. خواندنی/نوشتنی Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیای Ink را در سند صادر شده کنترل می‌کند. فقط-خواندنی [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | فرمت پیکسل برای تصاویر تولید شده را مشخص می‌کند. خواندنی/نوشتنی [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | مشخص می‌کند آیا سند تولید شده باید اسلایدهای پنهان را شامل شود یا خیر. مقدار پیش‌فرض `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام خروجی گرفتن از ارائه را دریافت یا تنظیم می‌کند [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [ISaveOptions](../isaveoptions)
-* فضای نام [Aspose.Slides.Export](../../aspose.slides.export)
+* فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
 * مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

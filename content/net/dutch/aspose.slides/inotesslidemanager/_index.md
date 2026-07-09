@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheerder voor notitieslides.
+description: Notitieslide-beheerder.
 type: docs
 weight: 6520
 url: /nl/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager interface
 
-Beheerder voor notitieslides.
+Notitieslide-beheerder.
 
 ```csharp
 public interface INotesSlideManager
@@ -18,14 +18,14 @@ public interface INotesSlideManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Retourneert de notitieslide voor de huidige slide. Retourneert null als de slide geen notitieslide heeft. Alleen-lezen [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Retourneert de notitieslide voor de huidige dia. Retourneert null als de dia geen notitieslide heeft. Alleen-lezen [`INotesSlide`](../inotesslide). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Retourneert de notitieslide voor de huidige slide, en maakt er één aan als deze er niet is. |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Verwijdert de notitieslide van de huidige slide. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Retourneert de notitieslide voor de huidige dia, en maakt er één aan als deze er niet is. |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Verwijdert de notitieslide van de huidige dia. |
 
 ### Zie ook
 

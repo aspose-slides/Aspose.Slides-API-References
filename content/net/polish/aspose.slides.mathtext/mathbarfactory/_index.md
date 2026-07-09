@@ -1,20 +1,20 @@
 ---
 title: MathBarFactory
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Umożliwia tworzenie belki matematycznej
+description: Umożliwia tworzenie paska matematycznego
 type: docs
-weight: 8560
+weight: 8580
 url: /pl/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory klasa
 
-Umożliwia tworzenie belki matematycznej
+Umożliwia tworzenie paska matematycznego
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
 ```
 
-## Konstruktorzy
+## Konstruktory
 
 | Nazwa | Opis |
 | --- | --- |
@@ -24,12 +24,12 @@ public class MathBarFactory : IMathBarFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Tworzy belkę matematyczną poprzez zastosowanie do elementu |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Tworzy belkę matematyczną poprzez zastosowanie do elementu |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | Tworzy pasek matematyczny przez zastosowanie do elementu |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Tworzy pasek matematyczny przez zastosowanie do elementu |
 
 ### Uwagi
 
-Dla zgodności z COM
+Dla kompatybilności z COM
 
 ### Zobacz także
 

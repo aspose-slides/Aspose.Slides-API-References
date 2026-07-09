@@ -1,14 +1,14 @@
 ---
 title: IFonts
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フォント コレクションを表します。
+description: フォントのコレクションを表します。
 type: docs
-weight: 5880
+weight: 5900
 url: /ja/aspose.slides/ifonts/
 ---
 ## IFonts インターフェイス
 
-フォント コレクションを表します。
+フォントのコレクションを表します。
 
 ```csharp
 public interface IFonts
@@ -18,20 +18,20 @@ public interface IFonts
 
 | 名前 | 説明 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 複合スクリプト フォントを取得または設定します。 読み取り/書き込み [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 東アジア フォントを取得または設定します。 読み取り/書き込み [`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | ラテン フォントを取得または設定します。 読み取り/書き込み [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | 複合スクリプト フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | 東アジア フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | ラテン フォントを取得または設定します。読み書き可能 [`IFontData`](../ifontdata)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | プレゼンテーションのテーマから特定のスクリプトタグに関連付けられたフォント名を取得します。 |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | プレゼンテーションテーマから特定のスクリプトタグに関連付けられたフォント名を取得します。 |
 | [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | プレゼンテーション内のすべてのスクリプトフォント定義の辞書を返します。 |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | テーマのフォントコレクションから特定のスクリプトタグに関連付けられたフォント設定を削除します。 |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | プレゼンテーションでそのスクリプトのテキストがどのように表示されるかを定義する、特定のスクリプトタグにフォント名を割り当てます。 |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | 特定のスクリプトタグにフォント名を割り当てます。これにより、そのスクリプトのテキストがプレゼンテーションでどのように表示されるかが定義されます。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IBiLevel
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa a interface base IImageTransformOperation.
 type: docs
-weight: 3140
+weight: 3160
 url: /pt/aspose.slides.effects/ibilevel/
 ---
 ## IBiLevel interface
@@ -21,7 +21,7 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ver também
+### Veja também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IBiLevelEffectiveData](../ibileveleffectivedata)

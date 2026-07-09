@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: プレゼンテーションマクロを含むVBAプロジェクトを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: プレゼンテーション マクロを含む VBA プロジェクトを表します。
 type: docs
-weight: 11530
+weight: 11550
 url: /ja/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject インターフェイス
 
-プレゼンテーションマクロを含む VBA プロジェクトを表します。
+プレゼンテーション マクロを含む VBA プロジェクトを表します。
 
 ```csharp
 public interface IVbaProject
@@ -18,10 +18,10 @@ public interface IVbaProject
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject がプロジェクト プロパティを表示するためのパスワードで保護されているかどうかを示します。読み取り専用 Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | VBA プロジェクトに含まれるすべてのモジュールの一覧を返します。読み取り専用 [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | VBA プロジェクトの名前を返します。読み取り専用 String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | VBA プロジェクトに含まれるすべての参照の一覧を返します。読み取り専用 [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | VBAProject がプロジェクト プロパティを表示するためにパスワードで保護されているかどうかを示します。読み取り専用 Boolean。 |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | VBA プロジェクトに含まれるすべてのモジュールの一覧を返します。読み取り専用 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | VBA プロジェクトの名前を返します。読み取り専用 String。 |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | VBA プロジェクトに含まれるすべての参照の一覧を返します。読み取り専用 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
 
 ## メソッド
 

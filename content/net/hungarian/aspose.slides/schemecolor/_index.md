@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Színeket képvisel egy színsémában.
+second_title: Aspose.Sildes a .NET API referencia
+description: A színsémában lévő színeket képviseli.
 type: docs
-weight: 9720
+weight: 9740
 url: /hu/aspose.slides/schemecolor/
 ---
-## SchemeColor felsorolás
+## SchemeColor enumeráció
 
-A színsémában használt színeket képviseli.
+A színsémában szereplő színeket reprezentálja.
 
 ```csharp
 public enum SchemeColor
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | A színséma nincs meghatározva. |
+| NotDefined | `-1` | A színséma nincs definiálva. |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |

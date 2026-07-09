@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett sätt att hantera externa typsnitt som används för textritning.
+description: Representerar ett sätt att hantera externa teckensnitt som används för textritning.
 type: docs
-weight: 4480
+weight: 4500
 url: /sv/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling uppräkning
 
-Representerar ett sätt att hantera externa typsnitt som används för textritning.
+Representerar ett sätt att hantera externa teckensnitt som används för textritning.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Lägg till länkar till separata typsnittsfiler i stilsektionen i SVG-filen. |
-| Embed | `1` | Spara typsnittsdata direkt i SVG-filen. Kontrollera alla licensavtal för externa typsnitt innan du använder detta alternativ. |
-| Vectorize | `2` | Spara all text som använder externa typsnitt som grafik. |
+| AddLinksToFontFiles | `0` | Lägg till länkar till separata teckensnittsfiler i stilsektionen i SVG-filen. |
+| Embed | `1` | Spara teckensnittsdatan direkt i SVG-filen. Kontrollera alla licensavtal för externa teckensnitt innan du använder detta alternativ. |
+| Vectorize | `2` | Spara all text som använder externa teckensnitt som grafik. |
 
 ### Se även
 

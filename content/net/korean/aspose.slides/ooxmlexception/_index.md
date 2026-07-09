@@ -1,6 +1,6 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: Office Open XML 파일 형식과 관련된 표준 내부 예외 유형을 나타냅니다.
 type: docs
 weight: 9200
@@ -20,9 +20,9 @@ public class OOXMLException : Exception
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | 기본 생성자. |
 | [OOXMLException](ooxmlexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 생성자. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외용 생성자. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

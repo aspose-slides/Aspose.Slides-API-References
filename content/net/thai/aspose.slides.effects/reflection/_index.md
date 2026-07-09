@@ -1,14 +1,14 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของเอฟเฟกต์ Reflection.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Reflection.
 type: docs
 weight: 3640
 url: /th/aspose.slides.effects/reflection/
 ---
 ## คลาส Reflection
 
-Represents a Reflection effect.
+แสดงถึงเอฟเฟกต์ Reflection
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -16,30 +16,30 @@ public sealed class Reflection : IReflection
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | รัศมีเบลอ. อ่าน/เขียน Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | ทิศทางของการสะท้อน. อ่าน/เขียน Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | ระยะทางของการสะท้อน. อ่าน/เขียน Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | ระบุตำแหน่งสุดท้าย (ตามระดับสีไล่เชิงอัลฟา) ของค่าความโปร่งใสอัลฟาสุดท้าย (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | ระยะห่างของการสะท้อน. อ่าน/เขียน Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | ระบุตำแหน่งสุดท้าย (ตามระดับการไล่สีอัลฟ่า) ของค่าอัลฟ่าสุดท้าย (เปอร์เซ็นต์). อ่าน/เขียน Single. |
 | [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | ความทึบของการสะท้อนสุดท้าย. (เปอร์เซ็นต์). อ่าน/เขียน Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | ระบุทิศทางเพื่อย้ายตำแหน่งการสะท้อน. (มุม). อ่าน/เขียน Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | การจัดแนวสี่เหลี่ยม. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | ระบุว่าการสะท้อนควรหมุนตามรูปร่างเมื่อรูปร่างถูกหมุนหรือไม่. อ่าน/เขียน Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | ระบุตัวคูณสเกลแนวนอน, การสเกลเชิงลบทำให้กลับด้าน. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | ระบุตัวคูณสเกลแนวตั้ง, การสเกลเชิงลบทำให้กลับด้าน. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | ระบุมุมบิดแนวนอน. อ่าน/เขียน Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | ระบุมุมบิดแนวตั้ง. อ่าน/เขียน Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | ระบุตำแหน่งเริ่มต้น (ตามระดับสีไล่เชิงอัลฟา) ของค่าอัลฟาเริ่มต้น (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | ระบุทิศทางในการเลื่อนการสะท้อน. (มุม). อ่าน/เขียน Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | การจัดตำแหน่งสี่เหลี่ยม. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | ระบุว่าการสะท้อนควรหมุนตามรูปทรงหรือไม่หากรูปทรงถูกหมุน. อ่าน/เขียน Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | ระบุปัจจัยการปรับขนาดแนวนอน, การปรับขนาดเป็นลบทำให้พลิก. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | ระบุปัจจัยการปรับขนาดแนวตั้ง, การปรับขนาดเป็นลบทำให้พลิก. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | ระบุมุมเอียงแนวนอน. อ่าน/เขียน Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | ระบุมุมเอียงแนวตั้ง. อ่าน/เขียน Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | ระบุตำแหน่งเริ่มต้น (ตามระดับการไล่สีอัลฟ่า) ของค่าอัลฟ่าเริ่มต้น (เปอร์เซ็นต์). อ่าน/เขียน Single. |
 | [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | ความทึบของการสะท้อนเริ่มต้น. (เปอร์เซ็นต์). อ่าน/เขียน Single. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | กำหนดว่าค่า [`Reflection`](../reflection) ที่ระบุเท่ากับ [`Reflection`](../reflection) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | รับข้อมูลผลกระทบ Reflection ที่มีผลโดยคำนึงถึงการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดที่เฉพาะเจาะจง. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | กำหนดว่าค่า [`Reflection`](../reflection) ที่ระบุเท่ากับค่า [`Reflection`](../reflection) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Reflection ที่มีผลโดยคำนึงถึงการสืบทอด. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

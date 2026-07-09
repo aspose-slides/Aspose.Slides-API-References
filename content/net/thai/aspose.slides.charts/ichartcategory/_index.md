@@ -1,14 +1,14 @@
 ---
 title: IChartCategory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงหมวดหมู่แผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของหมวดหมู่แผนภูมิ.
 type: docs
 weight: 1750
 url: /th/aspose.slides.charts/ichartcategory/
 ---
 ## IChartCategory อินเทอร์เฟซ
 
-แสดงถึงหมวดหมู่แผนภูมิ.
+เป็นตัวแทนของหมวดหมู่แผนภูมิ
 
 ```csharp
 public interface IChartCategory
@@ -18,13 +18,13 @@ public interface IChartCategory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | คืนค่าหรือกำหนดอ็อบเจ็กต์ IChartDataCell หากหมวดหมู่เป็นหลายระดับ จะใช้ IChartDataCell สำหรับระดับ "0". อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | คืนค่าหรือกำหนด AsLiteral หาก UseCell เป็น false. อ่าน/เขียน Object. |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มของหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีมากกว่าหนึ่งระดับการจัดกลุ่ม. การจัดลำดับระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | หากเป็น true แล้วสมบัติ AsCell จะมีผล จริง ๆ กล่าวคือ worksheet ถูกใช้เพื่อเก็บหมวดหมู่ (กรณีนี้รองรับหมวดหมู่หลายระดับ). หากเป็น false แล้วสมบัติ AsLiteral จะมีผล จริง ๆ กล่าวคือ worksheet ไม่ได้ถูกใช้เพื่อเก็บหมวดหมู่ (และกรณีนั้นไม่รองรับหมวดหมู่หลายระดับ). อ่านอย่างเดียว Boolean. |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | หาก UseCell เป็น true แล้วสมบัตินี้แทนค่าของสมบัติ AsCell.Value. หาก UseCell เป็น false แล้วสมบัตินี้แทนค่าของสมบัติ AsLiteral. อ่าน/เขียน Object. |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | คืนค่า หรือกำหนดอ็อบเจกต์ IChartDataCell หากหมวดหมู่เป็นหลายระดับจะใช้ IChartDataCell สำหรับระดับ "0". อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | คืนค่า หรือกำหนด AsLiteral หาก UseCell เป็น false. อ่าน/เขียน Object. |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีหลายระดับการจัดกลุ่ม. การทำดัชนีระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | หาก true แล้วคุณสมบัติ AsCell เป็นค่าที่ใช้จริง. กล่าวคือ worksheet ถูกใช้เพื่อเก็บหมวดหมู่ (กรณีนี้รองรับหมวดหมู่หลายระดับ). หาก false แล้วคุณสมบัติ AsLiteral เป็นค่าที่ใช้จริง. กล่าวคือ worksheet ไม่ได้ถูกใช้เพื่อเก็บหมวดหมู่ (และกรณีนี้ไม่รองรับหมวดหมู่หลายระดับ). อ่านอย่างเดียว Boolean. |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | หาก UseCell เป็น true แล้วคุณสมบัตินี้แสดงถึงคุณสมบัติ AsCell.Value. หาก UseCell เป็น false แล้วคุณสมบัตินี้แสดงถึงคุณสมบัติ AsLiteral. อ่าน/เขียน Object. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

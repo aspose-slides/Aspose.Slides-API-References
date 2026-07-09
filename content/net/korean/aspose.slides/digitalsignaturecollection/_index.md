@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 문서에 첨부된 디지털 서명의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 문서에 첨부된 디지털 서명 컬렉션을 나타냅니다.
 type: docs
 weight: 2780
 url: /ko/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection 클래스
 
-문서에 첨부된 디지털 서명의 컬렉션을 나타냅니다.
+문서에 첨부된 디지털 서명 컬렉션을 나타냅니다.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -19,7 +19,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | 컬렉션의 요소 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | 인덱스로 서명을 반환합니다. |
 | [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -28,12 +28,12 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | 이름 | 설명 |
 | --- | --- |
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | 컬렉션 끝에 서명을 추가합니다. |
-| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | 컬렉션에서 모든 서명을 제거합니다. |
-| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
+| [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | 컬렉션의 모든 서명을 제거합니다. |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | 지정된 인덱스의 서명을 제거합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Presentation](../presentation)

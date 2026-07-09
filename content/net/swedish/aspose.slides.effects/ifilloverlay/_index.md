@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Fill Overlay-effekt. En Fill Overlay kan användas för att ange ett ytterligare fyllningsvärde för ett objekt och blanda de två fyllningarna tillsammans.
+description: Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange ett extra fyllningsvärde för ett objekt och blanda de två fyllningarna tillsammans.
 type: docs
-weight: 3280
+weight: 3300
 url: /sv/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay gränssnitt
 
-Representerar en Fill Overlay-effekt. En Fill Overlay kan användas för att ange ett ytterligare fyllningsvärde för ett objekt och blanda de två fyllningarna tillsammans.
+Representerar en Fill Overlay-effekt. En fill overlay kan användas för att ange ett extra fyllningsvärde för ett objekt och blanda de två fyllningarna tillsammans.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,12 +19,12 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Läs/skriv [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fyllformat. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill format. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

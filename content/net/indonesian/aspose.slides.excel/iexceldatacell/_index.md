@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili satu sel tunggal dalam buku kerja Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /id/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell antarmuka
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Mendapatkan indeks berbasis nol dari kolom dalam lembar kerja tempat sel berada. Baca-saja Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Mendapatkan nama sel data diagram. Baca-saja String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Mendapatkan indeks berbasis nol dari baris dalam lembar kerja tempat sel berada. Baca-saja Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Mendapatkan nilai yang terdapat dalam sel Excel. Baca-saja Object. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Mendapatkan indeks berbasis nol dari kolom di lembar kerja tempat sel berada. Hanya-baca Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Mendapatkan nama sel data diagram. Hanya-baca String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Mendapatkan indeks berbasis nol dari baris di lembar kerja tempat sel berada. Hanya-baca Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Mendapatkan nilai yang terdapat dalam sel Excel. Hanya-baca Object. |
 
 ### Lihat Juga
 

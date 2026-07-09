@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Retourneert de collectie lettertypen voor een "heading"-deel van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Retourneert de collectie lettertypen voor een "body"-deel van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Retourneert de naam van het lettertype-schema. Lees/schrijven String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | Retourneert de lettertypecollectie voor het "heading"-gedeelte van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | Retourneert de lettertypecollectie voor het "body"-gedeelte van de dia. Alleen-lezen [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | Retourneert de naam van het lettertype-schema. Lezen/schrijven String. |
 
 ### Zie ook
 

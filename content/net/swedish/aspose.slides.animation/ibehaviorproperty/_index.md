@@ -3,12 +3,12 @@ title: IBehaviorProperty
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar egenskapstyper för animationsbeteende. Följer listan över egenskaper från https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx och https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 420
+weight: 440
 url: /sv/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty gränssnitt
 
-Representerar egenskapstyper för animationsbeteende. Följer listan över egenskaper från https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx och https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+Representerar egenskapstyper för animationsbeteende. Följ listan över egenskaper från https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx och https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -21,7 +21,7 @@ public interface IBehaviorProperty
 | [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Visar om denna egenskap inte tillhör den fördefinierade egenskapslistan i specifikationen: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Egenskapens värde |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

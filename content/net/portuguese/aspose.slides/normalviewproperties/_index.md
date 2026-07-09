@@ -1,9 +1,9 @@
 ---
 title: NormalViewProperties
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades da visualização normal. A visualização normal consiste em três regiões de conteúdo: o próprio slide, uma região de conteúdo lateral e uma região de conteúdo inferior.
 type: docs
-weight: 9090
+weight: 9110
 url: /pt/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties classe
@@ -18,13 +18,13 @@ public class NormalViewProperties : INormalViewProperties
 
 | Nome | Descrição |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Especifica o estado em que a barra divisor horizontal deve ser exibida. Uma barra divisor horizontal separa o slide da região de conteúdo abaixo do slide. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Especifica se o usuário prefere ver uma região de conteúdo única em tela cheia em vez da visualização normal padrão com três regiões de conteúdo. Se habilitado, a aplicação pode escolher exibir uma das regiões de conteúdo em toda a janela. Boolean de leitura/gravação. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Este elemento especifica o dimensionamento da região de conteúdo lateral da visualização normal, quando a região tem um tamanho restaurado variável (não minimizado nem maximizado). Somente leitura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Este elemento especifica o dimensionamento da região superior do slide da visualização normal, quando a região tem um tamanho restaurado variável (não minimizado nem maximizado). Somente leitura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Especifica se a aplicação deve mostrar ícones ao exibir conteúdo de contorno em qualquer das regiões de conteúdo do modo de visualização normal. Boolean de leitura/gravação. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Especifica se o divisor vertical deve encaixar em um estado minimizado quando a região lateral está suficientemente pequena. Boolean de leitura/gravação. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Especifica o estado em que a barra divisor vertical deve ser exibida. Uma barra divisor vertical separa o slide da região de conteúdo lateral. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Especifica o estado em que a barra divisória horizontal deve ser exibida. Uma barra divisória horizontal separa o slide da região de conteúdo abaixo do slide. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Especifica se o usuário prefere ver uma região de conteúdo única em tela cheia em vez da visualização normal padrão com três regiões de conteúdo. Se habilitado, a aplicação pode optar por exibir uma das regiões de conteúdo em toda a janela. Leitura/gravação Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Este elemento especifica o dimensionamento da região de conteúdo lateral da visualização normal, quando a região está em um tamanho restaurado variável (nem minimizada nem maximizada). Somente leitura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Este elemento especifica o dimensionamento da região superior do slide da visualização normal, quando a região está em um tamanho restaurado variável (nem minimizada nem maximizada). Somente leitura [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Especifica se a aplicação deve mostrar ícones ao exibir conteúdo de contorno em qualquer das regiões de conteúdo do modo de visualização normal. Leitura/gravação Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Especifica se o divisor vertical deve encaixar em um estado minimizado quando a região lateral está suficientemente pequena. Leitura/gravação Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Especifica o estado em que a barra divisória vertical deve ser exibida. Uma barra divisória vertical separa o slide da região de conteúdo lateral. |
 
 ### Exemplos
 
@@ -32,7 +32,7 @@ O exemplo a seguir mostra como configurar as propriedades ViewProperties.NormalV
 
 ```csharp
 [C#]
-//Instanciar um objeto de apresentação que representa um arquivo de apresentação
+//Instancia um objeto de apresentação que representa um arquivo de apresentação
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

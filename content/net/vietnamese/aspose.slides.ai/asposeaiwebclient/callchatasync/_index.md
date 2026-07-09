@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Gửi một chỉ thị trò chuyện tới mô hình AI và trả về tin nhắn phản hồi cho chỉ thị đã cho.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Gửi một chỉ thị chat tới mô hình AI và trả về tin nhắn phản hồi cho chỉ thị đã cho.
 type: docs
 weight: 20
 url: /vi/aspose.slides.ai/asposeaiwebclient/callchatasync/
 ---
-## AsposeAIWebClient.CallChatAsync phương thức
+## AsposeAIWebClient.CallChatAsync method
 
-Gửi một chỉ thị trò chuyện tới mô hình AI và trả về tin nhắn phản hồi cho chỉ thị đã cho.
+Gửi một chỉ thị chat tới mô hình AI và trả về tin nhắn phản hồi cho chỉ thị đã cho.
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -24,9 +24,9 @@ Tin nhắn được mô hình AI tạo ra để đáp lại chỉ thị đã cho
 
 ### Ngoại lệ
 
-| ngoại lệ | điều kiện |
+| Ngoại lệ | Điều kiện |
 | --- | --- |
-| ArgumentException | Chỉ thị trò chuyện AI không được null hoặc trống |
+| ArgumentException | AI chat instruction can't be null or empty |
 
 ### Xem thêm
 

@@ -1,48 +1,48 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: shape frames के गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: शेप फ़्रेम की विशेषताओं को दर्शाता है।
 type: docs
 weight: 9900
 url: /hi/aspose.slides/shapeframe/
 ---
-## ShapeFrame क्लास
+## ShapeFrame वर्ग
 
-shape frame के गुणों का प्रतिनिधित्व करता है।
+shape frame की विशेषताओं को दर्शाता है।
 
 ```csharp
 public class ShapeFrame : IShapeFrame
 ```
 
-## कन्स्ट्रक्टर
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float,float,float,float,NullableBool,NullableBool,float) | नया shape frame के गुण बनाता है। |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | नया shape frame की विशेषताएँ बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | फ़्रेम के केंद्र का X निर्देशांक लौटाता है। केवल-पढ़ने योग्य Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | फ़्रेम के केंद्र का Y निर्देशांक लौटाता है। केवल-पढ़ने योग्य Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | निर्धारित करता है कि फ़्रेम क्षैतिज रूप से फ़्लिप हुआ है या नहीं। केवल-पढ़ने योग्य [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | निर्धारित करता है कि फ़्रेम लंबवत रूप से फ़्लिप हुआ है या नहीं। केवल-पढ़ने योग्य [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | फ़्रेम की ऊँचाई लौटाता है। केवल-पढ़ने योग्य Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | फ़्रेम के निर्देशांक लौटाता है। केवल-पढ़ने योग्य RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | फ़्रेम के Z-अक्ष के चारों ओर घुमाव की डिग्री लौटाता है। सकारात्मक मान घड़ी की दिशा में घुमाव दर्शाता है; नकारात्मक मान विपरीत दिशा में घुमाव दर्शाता है। केवल-पढ़ने योग्य Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | फ़्रेम की चौड़ाई लौटाता है। केवल-पढ़ने योग्य Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | फ़्रेम के ऊपरी-बाएँ कोने का X निर्देशांक लौटाता है। केवल-पढ़ने योग्य Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | फ़्रेम के ऊपरी-बाएँ कोने का Y निर्देशांक लौटाता है। केवल-पढ़ने योग्य Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | फ़्रेम के केंद्र का X निर्देशांक लौटाता है। केवल पढ़ने योग्य Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | फ़्रेम के केंद्र का Y निर्देशांक लौटाता है। केवल पढ़ने योग्य Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | निर्धारित करता है कि फ़्रेम क्षैतिज रूप से फ़्लिप किया गया है या नहीं। केवल पढ़ने योग्य [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | निर्धारित करता है कि फ़्रेम लंबवत रूप से फ़्लिप किया गया है या नहीं। केवल पढ़ने योग्य [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | फ़्रेम की ऊँचाई लौटाता है। केवल पढ़ने योग्य Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | फ़्रेम के निर्देशांक लौटाता है। केवल पढ़ने योग्य RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | z-अक्ष के चारों ओर फ़्रेम द्वारा घुमाए गए डिग्री की संख्या लौटाता है। एक सकारात्मक मान घड़ी की दिशा में घूर्णन दर्शाता है; एक नकारात्मक मान प्रतिपक्षी दिशा में घूर्णन दर्शाता है। केवल पढ़ने योग्य Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | फ़्रेम की चौड़ाई लौटाता है। केवल पढ़ने योग्य Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | फ़्रेम के ऊपर बाएँ कोने का X निर्देशांक लौटाता है। केवल पढ़ने योग्य Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | फ़्रेम के ऊपर बाएँ कोने का Y निर्देशांक लौटाता है। केवल पढ़ने योग्य Single. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Clone](../../aspose.slides/shapeframe/clone)() | क्लोन करता है |
-| [CloneT](../../aspose.slides/shapeframe/clonet)() | क्लोन करता है। |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | यह दर्शाने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | यह दर्शाने वाला मान लौटाता है कि यह उदाहरण निर्दिष्ट ऑब्जेक्ट के बराबर है या नहीं। |
+| [Clone](../../aspose.slides/shapeframe/clone)() | क्लोन बनाता है |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | क्लोन बनाता है। |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | इस इंस्टेंस के किसी निर्दिष्ट ऑब्जेक्ट के बराबर होने का संकेत देने वाला मान लौटाता है। |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | इस इंस्टेंस के किसी निर्दिष्ट ऑब्जेक्ट के बराबर होने का संकेत देने वाला मान लौटाता है। |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | इस ऑब्जेक्ट के लिए हैश कोड लौटाता है। |
 
 ### देखें

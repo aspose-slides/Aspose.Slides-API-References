@@ -1,14 +1,14 @@
 ---
 title: FieldType
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een type veld voor. Deze waarde bepaalt welke tekst wordt ingesteld op het veldgedeelte wanneer het wordt bijgewerkt.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een type veld voor. Deze waarde bepaalt welke tekst wordt ingesteld voor het veldgedeelte wanneer het wordt bijgewerkt.
 type: docs
 weight: 4760
 url: /nl/aspose.slides/fieldtype/
 ---
 ## FieldType klasse
 
-Stelt een type veld voor. Deze waarde bepaalt welke tekst wordt ingesteld op het veldgedeelte wanneer het wordt bijgewerkt.
+Stelt een type veld voor. Deze waarde bepaalt welke tekst zal worden ingesteld voor het veldgedeelte wanneer het wordt bijgewerkt.
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -20,30 +20,30 @@ public sealed class FieldType : IFieldType
 | --- | --- |
 | [FieldType](fieldtype)(string) | Initialiseert een nieuw exemplaar van de FieldType klasse. |
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
 | static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Huidige datum en tijd in het standaard datum-tijdformaat voor de render-applicatie. Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Huidige datum en tijd in een eerste vooraf gedefinieerde indeling (MM/DD/YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Huidige datum en tijd in een tiende vooraf gedefinieerde indeling (hh:mm voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Huidige datum en tijd in een elfde vooraf gedefinieerde indeling (hh:mm:ss voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Huidige datum en tijd in een twaalfde vooraf gedefinieerde indeling (hh:mm AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Huidige datum en tijd in een dertiende vooraf gedefinieerde indeling (hh:mm:ss AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Huidige datum en tijd in een tweede vooraf gedefinieerde indeling (Dag, Maand DD, YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Huidige datum en tijd in een derde vooraf gedefinieerde indeling (DD Maand YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Huidige datum en tijd in een vierde vooraf gedefinieerde indeling (Maand DD, YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Huidige datum en tijd in een vijfde vooraf gedefinieerde indeling (DD-Mon-YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Huidige datum en tijd in een zesde vooraf gedefinieerde indeling (Maand YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Huidige datum en tijd in een zevende vooraf gedefinieerde indeling (Mon-YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Huidige datum en tijd in een achtste vooraf gedefinieerde indeling (MM/DD/YYYY hh:mm AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Huidige datum en tijd in een negende vooraf gedefinieerde indeling (MM/DD/YYYY hh:mm:ss AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Huidige datum en tijd in een eerste vooraf gedefinieerd formaat (MM/DD/YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Huidige datum en tijd in een tiende vooraf gedefinieerd formaat (hh:mm voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Huidige datum en tijd in een elfde vooraf gedefinieerd formaat (hh:mm:ss voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Huidige datum en tijd in een twaalfde vooraf gedefinieerd formaat (hh:mm AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Huidige datum en tijd in een dertiende vooraf gedefinieerd formaat (hh:mm:ss AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Huidige datum en tijd in een tweede vooraf gedefinieerd formaat (Day, Month DD, YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Huidige datum en tijd in een derde vooraf gedefinieerd formaat (DD Month YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Huidige datum en tijd in een vierde vooraf gedefinieerd formaat (Month DD, YYYY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Huidige datum en tijd in een vijfde vooraf gedefinieerd formaat (DD-Mon-YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Huidige datum en tijd in een zesde vooraf gedefinieerd formaat (Month YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Huidige datum en tijd in een zevende vooraf gedefinieerd formaat (Mon-YY voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Huidige datum en tijd in een achtste vooraf gedefinieerd formaat (MM/DD/YYYY hh:mm AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Huidige datum en tijd in een negende vooraf gedefinieerd formaat (MM/DD/YYYY hh:mm:ss AM/PM voor Engels). Alleen-lezen [`FieldType`](../fieldtype). |
 | static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Voettekst van de dia. Alleen-lezen [`FieldType`](../fieldtype). |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | Koptekst van de dia. Alleen-lezen [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Huidig diapaginummer. Alleen-lezen [`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Retourneert de interne naam van dit FieldType-object. Lezen/Schrijven String. |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Huidig nummer van de dia. Alleen-lezen [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Retourneert de interne naam van dit FieldType-object. Lezen/schrijven String. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |

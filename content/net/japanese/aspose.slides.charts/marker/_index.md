@@ -1,14 +1,14 @@
 ---
 title: Marker
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートのマーカーを表します。
+description: chert のマーカーを表します。
 type: docs
-weight: 2310
+weight: 2330
 url: /ja/aspose.slides.charts/marker/
 ---
-## マーカー クラス
+## Marker クラス
 
-チャートのマーカーを表します。
+chert のマーカーを表します。
 
 ```csharp
 public class Marker : IMarker
@@ -19,8 +19,8 @@ public class Marker : IMarker
 | 名前 | 説明 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/marker/format) { get; } | マーカーの塗りつぶしを取得または設定します。読み取り専用 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | ラインチャート、散布図、またはレーダーチャートにおけるマーカーのサイズを表します。読み書き可能 Int32。 |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | ラインチャート、散布図、またはレーダーチャートにおけるマーカーのスタイルを表します。読み書き可能 [`MarkerStyleType`](../markerstyletype)。 |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 折れ線グラフ、散布図、またはレーダー グラフにおけるマーカーのサイズを表します。読み書き可能 Int32。 |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 折れ線グラフ、散布図、またはレーダー グラフにおけるマーカーのスタイルを表します。読み書き可能 [`MarkerStyleType`](../markerstyletype)。 |
 
 ### 参照
 

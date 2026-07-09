@@ -8,7 +8,7 @@ url: /th/aspose.slides.ai/asposeaiwebclient/dispose/
 ---
 ## AsposeAIWebClient.Dispose เมธอด
 
-ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้.
+ปล่อยทรัพยากรที่ใช้งานโดยอินสแตนซ์นี้.
 
 ```csharp
 public void Dispose()

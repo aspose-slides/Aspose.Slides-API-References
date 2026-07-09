@@ -1,14 +1,14 @@
 ---
 title: Picture
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนภาพในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: แทนรูปภาพในงานพรีเซนเทชันหนึ่ง.
 type: docs
 weight: 9380
 url: /th/aspose.slides/picture/
 ---
 ## Picture คลาส
 
-Represents a picture in a presentation.
+แทนภาพในงานพรีเซนเทชันหนึ่ง.
 
 ```csharp
 public sealed class Picture : ISlidesPicture
@@ -18,19 +18,19 @@ public sealed class Picture : ISlidesPicture
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Returns or sets the embedded image. อ่าน/เขียน [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Returns the collection of image transform effects. อ่านอย่างเดียว [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Returns or sets linked image's URL. อ่าน/เขียน String. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Returns the presentation. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Returns the parent slide of a picture. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | คืนค่า或กำหนดรูปภาพที่ฝังอยู่. อ่าน/เขียน [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | คืนคอลเลกชันของเอฟเฟกต์การแปลงภาพ. อ่านอย่างเดียว [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | คืนค่าและกำหนด URL ของรูปภาพที่เชื่อมโยง. อ่าน/เขียน String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | คืนการพรีเซนเทชัน. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | คืนสไลด์แม่ของภาพ. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | ส่งคืนแฮช. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่ระบุ. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | คืนค่าแฮช. |
 
 ### ดูเพิ่มเติม
 

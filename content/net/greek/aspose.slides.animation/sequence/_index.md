@@ -1,14 +1,14 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τη συλλογή εφέ της ακολουθίας.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά μια ακολουθία συλλογής εφέ.
 type: docs
-weight: 770
+weight: 790
 url: /el/aspose.slides.animation/sequence/
 ---
 ## Sequence κλάση
 
-Αντιπροσωπεύει την ακολουθία (συλλογή εφέ).
+Αναπαριστά μια ακολουθία (συλλογή εφέ).
 
 ```csharp
 public sealed class Sequence : ISequence
@@ -18,31 +18,31 @@ public sealed class Sequence : ISequence
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | Επιστρέφει τον αριθμό των εφέ σε μια ακολουθία. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.animation/sequence/item) { get; } | Επιστρέφει ένα εφέ στον καθορισμένο δείκτη. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Επιστρέφει ή ορίζει το στόχο σχήματος για την INTERACTIVE ακολουθία. Εάν η ακολουθία δεν είναι διαδραστική, τότε επιστρέφει null. Ανάγνωση/εγγραφή [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | Επιστρέφει τον αριθμό των εφέ σε μια ακολουθία. Μόνο-ανάγνωση Int32. |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | Επιστρέφει ένα εφέ στο συγκεκριμένο δείκτη. |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Επιστρέφει ή ορίζει το στόχο σχήματος για την INTERACTIVE ακολουθία. Εάν η ακολουθία δεν είναι αλληλεπιδραστική, τότε επιστρέφει null. Ανάγνωση/εγγραφή [`IShape`](../../aspose.slides/ishape). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει νέο εφέ κινούμενων γραφικών για παράγραφο στο τέλος της ακολουθίας. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει νέο εφέ κίνησης για την παράγραφο στο τέλος της ακολουθίας. |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει νέο εφέ στο τέλος της ακολουθίας. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει το νέο εφέ κινούμενων γραφικών διαγράμματος για κατηγορία ή σειρά στο τέλος της ακολουθίας. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει το νέο εφέ κινούμενων γραφικών διαγράμματος για στοιχεία σε κατηγορία ή σειρά στο τέλος της ακολουθίας. |
-| [Clear](../../aspose.slides.animation/sequence/clear)() | Καθαρίζει όλα τα εφέ από μια συλλογή. |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Επιστρέφει τον αριθμό των εφέ για το καθορισμένο σχήμα. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Επιστρέφει έναν πίνακα με τα εφέ για την καθορισμένη παράγραφο. |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Επιστρέφει έναν πίνακα με τα εφέ για το καθορισμένο σχήμα. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Επιστρέφει έναν επαναλήπτη που διασχίζει τη συλλογή. |
-| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Καθαρίζει το καθορισμένο εφέ από μια συλλογή. |
-| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Καθαρίζει ένα εφέ από μια συλλογή. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Καθαρίζει το εφέ για το καθορισμένο σχήμα. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει το νέο εφέ κίνησης γραφήματος για κατηγορία ή σειρά στο τέλος της ακολουθίας. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Προσθέτει το νέο εφέ κίνησης γραφήματος για στοιχεία σε κατηγορία ή σειρά στο τέλος της ακολουθίας. |
+| [Clear](../../aspose.slides.animation/sequence/clear)() | Αφαιρεί όλα τα εφέ από μια συλλογή. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Επιστρέφει το πλήθος των εφέ για το καθορισμένο σχήμα. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Επιστρέφει πίνακα εφέ για την καθορισμένη παράγραφο. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Επιστρέφει πίνακα εφέ για το καθορισμένο σχήμα. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Επιστρέφει έναν επαναλήπτη που διατρέχει τη συλλογή. |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Αφαιρεί το καθορισμένο εφέ από μια συλλογή. |
+| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Αφαιρεί ένα εφέ από μια συλλογή. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Αφαιρεί το εφέ για το καθορισμένο σχήμα. |
 
 ### Δείτε επίσης
 
-* διεπαφή [ISequence](../isequence)
-* χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
-* συστάδα [Aspose.Slides](../../)
+* διασύνδεση [ISequence](../isequence)
+* χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

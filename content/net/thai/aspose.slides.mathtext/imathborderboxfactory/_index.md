@@ -1,6 +1,6 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างกล่องขอบคณิตศาสตร์
 type: docs
 weight: 8180
@@ -8,7 +8,7 @@ url: /th/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างกล่องขอบคณิตศาสตร์
+Allows to create a math border box
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Create a math border box by applying to the element |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Create a math border box by applying to the element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | สร้างกล่องขอบคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | สร้างกล่องขอบคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
 
 ### หมายเหตุ
 

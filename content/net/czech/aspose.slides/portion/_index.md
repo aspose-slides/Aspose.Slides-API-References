@@ -1,14 +1,14 @@
 ---
 title: Portion
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje část textu uvnitř textového odstavce.
+description: Představuje část textu uvnitř textového odstavce.
 type: docs
-weight: 9440
+weight: 9460
 url: /cs/aspose.slides/portion/
 ---
 ## Portion třída
 
-Reprezentuje část textu uvnitř textového odstavce.
+Představuje část textu uvnitř textového odstavce.
 
 ```csharp
 public class Portion : IPortion
@@ -27,8 +27,8 @@ public class Portion : IPortion
 | Název | Popis |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Vrací pole této části. Pouze pro čtení [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Vrací objekt formátování, který obsahuje explicitně nastavené vlastnosti formátování textové části bez aplikované dědičnosti. Pouze pro čtení [`IPortionFormat`](../iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Získá nebo nastaví čistý text části. Čtení/zápis String. |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Vrací objekt formátování, který obsahuje explicitně nastavené vlastnosti formátování textové části bez aplikovaného dědění. Pouze pro čtení [`IPortionFormat`](../iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Získá nebo nastaví prostý text části. Čtení/zápis String. |
 
 ## Metody
 
@@ -36,7 +36,7 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Převede tuto část na automaticky aktualizované pole. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Převede tuto část na automaticky aktualizované pole. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Získá souřadnice začátku části. Souřadnice X bodu představuje začátek části od prvního znaku včetně levého postranního odsazení. Souřadnice Y zahrnuje horní postranní odsazení. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Získá souřadnice začátku části. Souřadnice X bodu představuje začátek části od prvního znaku včetně levého odsazení. Souřadnice Y zahrnuje horní odsazení. |
 | [GetRect](../../aspose.slides/portion/getrect)() | Získá souřadnice obdélníka ohraničujícího část. Obdélník zahrnuje všechny řádky textu v části, včetně prázdných. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Převede tuto část pole na jednoduchou část. |
 

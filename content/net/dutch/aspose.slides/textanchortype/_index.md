@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: uitlijning van tekstvak binnen een tekstgebied.
+description: tekstvakuitlijning binnen een tekstgebied.
 type: docs
 weight: 10910
 url: /nl/aspose.slides/textanchortype/
 ---
 ## TextAnchorType enumeratie
 
-Uitlijning van tekstvak binnen een tekstgebied.
+tekstvakuitlijning binnen een tekstgebied.
 
 ```csharp
 public enum TextAnchorType : sbyte

@@ -1,7 +1,7 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แสดงรูปแบบของตาราง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นการแทนรูปแบบของตาราง.
 type: docs
 weight: 10870
 url: /th/aspose.slides/tableformat/
@@ -18,20 +18,20 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติการเติมตาราง. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | รับหรือกำหนดความโปร่งใสของสีเติม. อ่าน/เขียน Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | ส่งคืนออบเจ็กต์คุณสมบัติการเติมตาราง. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | รับหรือกำหนดค่าความโปร่งแสงของสีที่เติม. อ่าน/เขียน Single. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบตารางที่มีผลรวมกับการสืบทอดและสไตล์ตารางที่ใช้. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบตารางที่มีผลโดยมีการสืบทอดและสไตล์ตารางที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [DomObject&lt;TParent&gt;](../domobject-1)
 * คลาส [Table](../table)
-* อินเทอร์เฟซ [ITableFormat](../itableformat)
+* อินเทอร์เฟส [ITableFormat](../itableformat)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

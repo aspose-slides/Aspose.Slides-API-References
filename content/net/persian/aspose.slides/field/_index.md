@@ -1,14 +1,14 @@
 ---
 title: Field
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک فیلد.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش یک فیلد.
 type: docs
 weight: 4750
 url: /fa/aspose.slides/field/
 ---
 ## کلاس Field
 
-نمایانگر یک فیلد.
+نمایش یک فیلد.
 
 ```csharp
 public sealed class Field : DomObject<Portion>, IField
@@ -18,7 +18,7 @@ public sealed class Field : DomObject<Portion>, IField
 
 | نام | توضیح |
 | --- | --- |
-| [Type](../../aspose.slides/field/type) { get; set; } | مقداردهی یا دریافت نوع فیلد. خواندن/نوشتن [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/field/type) { get; set; } | دریافت یا تنظیم نوع فیلد. قابل خواندن/قابل نوشتن [`IFieldType`](../ifieldtype). |
 
 ### موارد مرتبط
 

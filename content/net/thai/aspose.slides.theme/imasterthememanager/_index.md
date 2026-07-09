@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeManager
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ให้การเข้าถึงธีมมาสเตอร์ของงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้การเข้าถึงธีมหลักของงานนำเสนอ
 type: docs
 weight: 11320
 url: /th/aspose.slides.theme/imasterthememanager/
 ---
 ## IMasterThemeManager อินเทอร์เฟซ
 
-อนุญาตให้เข้าถึงธีมมาสเตอร์ของงานนำเสนอ.
+ให้การเข้าถึงธีมหลักของงานนำเสนอ
 
 ```csharp
 public interface IMasterThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IMasterThemeManager : IThemeManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | อนุญาตให้รับอินเทอร์เฟซ IThemeManager พื้นฐานได้แบบอ่านอย่างเดียว [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | กำหนดว่า OverrideTheme จะเขียนทับธีมที่สืบทอด (Presentation.MasterTheme) หรือไม่ อ่าน/เขียน Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | ส่งคืนออบเจ็กต์ธีมที่เขียนทับ. อ่าน/เขียน [`IMasterTheme`](../imastertheme). |
+| [AsIThemeManager](../../aspose.slides.theme/imasterthememanager/asithememanager) { get; } | Allows to get base IThemeManager interface. อ่านอย่างเดียว [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/imasterthememanager/isoverridethemeenabled) { get; set; } | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. อ่าน/เขียน Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/imasterthememanager/overridetheme) { get; set; } | Returns the overriding theme object. อ่าน/เขียน [`IMasterTheme`](../imastertheme). |
 
 ### ดูเพิ่มเติม
 

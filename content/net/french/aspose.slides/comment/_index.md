@@ -1,13 +1,12 @@
 ---
 title: Comment
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Représente un commentaire sur une diapositive.
 type: docs
-weight: 2530
+weight: 2620
 url: /fr/aspose.slides/comment/
 ---
-
-## Classe Comment
+## Comment classe
 
 Représente un commentaire sur une diapositive.
 
@@ -19,22 +18,22 @@ public class Comment : IComment
 
 | Nom | Description |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Renvoie l'auteur d'un commentaire. En lecture seule [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Renvoie ou définit le moment de la création d'un commentaire. Si cette propriété est définie sur MinValue, cela signifie qu'aucun temps de commentaire n'est défini. En lecture/écriture DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtient ou définit le commentaire parent. En lecture/écriture [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Renvoie ou définit la position d'un commentaire sur une diapositive. En lecture/écriture PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Renvoie ou définit la diapositive parent d'un commentaire. En lecture seule [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Renvoie ou définit le texte brut d'un commentaire sur une diapositive. En lecture/écriture String. |
+| [Author](../../aspose.slides/comment/author) { get; } | Renvoie l'auteur d'un commentaire. Lecture seule [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Renvoie ou définit l'heure de création d'un commentaire. Définir cette propriété à MinValue signifie qu'aucune heure de commentaire n'est définie. Lecture/écriture DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Renvoie ou définit le commentaire parent. Lecture/écriture [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Renvoie ou définit la position d'un commentaire sur une diapositive. Lecture/écriture PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Renvoie ou définit la diapositive parent d'un commentaire. Lecture seule [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Renvoie ou définit le texte brut d'un commentaire de diapositive. Lecture/écriture String. |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Supprime le commentaire et toutes ses réponses de la collection parent. |
+| [Remove](../../aspose.slides/comment/remove)() | Supprime le commentaire et toutes ses réponses de la collection parente. |
 
 ### Exemples
 
-Cet exemple vous montre comment ajouter un commentaire à une diapositive dans une présentation PowerPoint.
+Cet exemple montre comment ajouter un commentaire à une diapositive dans une présentation PowerPoint.
 
 ```csharp
 [C#]
@@ -45,7 +44,7 @@ using (Presentation presentation = new Presentation())
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // Ajoute un auteur
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // Définit la position pour les commentaires
+    // Définit la position des commentaires
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
@@ -53,23 +52,23 @@ using (Presentation presentation = new Presentation())
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
     // Ajoute un commentaire de diapositive pour un auteur sur la diapositive 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// Enregistre le fichier de présentation PowerPoint
+	// Enregistre le fichier PowerPoint Presentation
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Cet exemple vous montre comment accéder à un commentaire existant sur une diapositive dans une présentation PowerPoint.
+Cet exemple montre comment accéder à un commentaire existant sur une diapositive dans une présentation PowerPoint.
 
 ```csharp
 [C#]
 // Instancie la classe Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itère sur CommentAuthors
+	// Parcourt les CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itère sur Comments
+		// Parcourt les commentaires
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -79,7 +78,7 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-Cet exemple vous montre comment ajouter des commentaires et obtenir des réponses à ceux-ci.
+Cet exemple montre comment ajouter des commentaires et obtenir des réponses à ceux-ci.
 
 ```csharp
 [C#]
@@ -103,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Affiche la hiérarchie des commentaires sur la console
+    // Affiche la hiérarchie des commentaires dans la console
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -124,10 +123,10 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Voir Aussi
+### Voir aussi
 
-* interface [IComment](../icomment)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [IComment](../icomment)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

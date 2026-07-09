@@ -3,7 +3,7 @@ title: IVideoCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Video オブジェクトのコレクションを表します。
 type: docs
-weight: 7350
+weight: 7370
 url: /ja/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection インターフェイス
@@ -16,19 +16,19 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | 指定したインデックスの要素を取得します。読み取り専用 [`IVideo`](../ivideo)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | バイト配列から動画を作成し、プレゼンテーションに追加します。 |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 別のプレゼンテーションから動画ファイルのコピーを追加します。 |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | ストリームから動画を作成し、プレゼンテーションに追加します。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | バイト配列からビデオを作成し、プレゼンテーションに追加します。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 別のプレゼンテーションからビデオファイルのコピーを追加します。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | ストリームからビデオを作成し、プレゼンテーションに追加します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * インターフェイス [IVideo](../ivideo)

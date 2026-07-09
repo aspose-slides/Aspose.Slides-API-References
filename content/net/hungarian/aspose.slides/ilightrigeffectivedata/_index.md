@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Változtathatatlan objektum, amely a hatékony light rig tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API referenciája
+description: Módosíthatatlan objektum, amely a hatékony light rig tulajdonságait tartalmazza.
 type: docs
-weight: 6260
+weight: 6280
 url: /hu/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData interfész
 
-Állandó objektum, amely a hatékony light rig tulajdonságait tartalmazza.
+Módosíthatatlan objektum, amely a hatékony light rig tulajdonságait tartalmazza.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -16,16 +16,16 @@ public interface ILightRigEffectiveData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Fény iránya. Csak olvasható [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Egy előre beállított light right-et reprezentál, amely alakzatra alkalmazható. A light rig egy olyan fénycsoportot ábrázol, amely meghatározott módon helyezkedik el egy 3D jelenethez képest. Csak olvasható [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Egy előre beállított fényirányt képvisel, amely egy alakzatra alkalmazható. A light rig egy csoport fényt képvisel, amelyek egy meghatározott módon vannak orientálva egy 3D-s jelenethez képest. Csak olvasható [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | A forgatás a szélességi koordináta, a hosszúsági koordináta és a tengely körüli revolúció használatával definiálható. Az eredmény tömb első eleme – szélesség, a második – hosszúság, a harmadik – revolúció. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | A forgást a szélességi koordináta, a hosszúsági koordináta és az tengely körüli revolúció használatával határozzák meg a szélességi és hosszúsági koordináták alapján. Az eredmény tömb első eleme – szélesség, a második – hosszúság, a harmadik – revolúció. |
 
 ### Megjegyzések
 

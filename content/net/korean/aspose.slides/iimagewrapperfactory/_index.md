@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 지정된 기존 이미지에서 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 지정된 데이터 스트림에서 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 지정된 파일에서 ImageWrapper 클래스의 새 인스턴스를 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 지정된 기존 이미지에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 지정된 데이터 스트림에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 지정된 파일에서 ImageWrapper 클래스를 새 인스턴스로 초기화합니다. |
 
 ### 참고
 

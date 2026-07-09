@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: सेक्शन के संग्रह का प्रतिनिधित्व करता है।
+description: सेक्शन के संग्रह को दर्शाता है।
 type: docs
 weight: 9760
 url: /hi/aspose.slides/sectioncollection/
 ---
 ## SectionCollection क्लास
 
-सेक्शन के संग्रह का प्रतिनिधित्व करता है।
+सेक्शन का संग्रह दर्शाता है।
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,32 +18,32 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | संग्रह में वास्तविक रूप से शामिल तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच समकालिक (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`ISection`](../isection). |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | एक समक्रमण मूल लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | कलेक्शन में वास्तव में शामिल तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | कलेक्शन तक पहुंच समक्रमित (थ्रेड-सुरक्षित) है या नहीं, यह दर्शाने वाला मान लौटाता है। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`ISection`](../isection). |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | समक्रमण मूल लौटाता है। केवल पढ़ने योग्य Object. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | संग्रह की निर्दिष्ट स्थिति में एक खाली सेक्शन जोड़ता है। |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | एक विशिष्ट स्लाइड से शुरू होने वाला स्लाइड सेक्शन जोड़ता है। |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | संग्रह के अंत में एक खाली सेक्शन जोड़ता है। |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | संग्रह से सभी सेक्शन हटाता है। |
-| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | पूरे संग्रह को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | संग्रह में निर्दिष्ट सेक्शन का अनुक्रमांक लौटाता है। |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | सेक्शन हटाता है। सेक्शन में शामिल स्लाइड्स को पिछले सेक्शन में मिलाया जाएगा। |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | सेक्शन और उसमें शामिल स्लाइड्स को हटाता है। |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | सेक्शन और उसकी स्लाइड्स को संग्रह से निकालकर निर्दिष्ट स्थिति पर ले जाता है। |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | कलेक्शन में निर्दिष्ट स्थिति पर खाली सेक्शन जोड़ता है। |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | विशिष्ट स्लाइड से शुरू होने वाला स्लाइड सेक्शन जोड़ता है। |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | कलेक्शन के अंत में खाली सेक्शन जोड़ता है। |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | कलेक्शन से सभी सेक्शन हटा देता है। |
+| [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | पूरे कलेक्शन को निर्दिष्ट ऐरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | कलेक्शन के माध्यम से इटररेट करने वाला एनोमरेटर लौटाता है। |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | कलेक्शन में निर्दिष्ट सेक्शन का अनुक्रमांक लौटाता है। |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | सेक्शन हटाता है। सेक्शन में मौजूद स्लाइड्स को पिछले सेक्शन में मिलाया जाएगा। |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | सेक्शन तथा सेक्शन में मौजूद स्लाइड्स हटाता है। |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | सेक्शन और उसकी स्लाइड्स को कलेक्शन से निर्दिष्ट स्थिति पर ले जाता है। |
 
 ### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Presentation](../presentation)
 * इंटरफ़ेस [ISectionCollection](../isectioncollection)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

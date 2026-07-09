@@ -1,12 +1,12 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la sorgente del colore del collegamento ipertestuale.
 type: docs
-weight: 5120
+weight: 5140
 url: /it/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource enumeration
+## HyperlinkColorSource enumerazione
 
 Rappresenta la sorgente del colore del collegamento ipertestuale.
 

@@ -1,14 +1,14 @@
 ---
 title: ITab
 second_title: Aspose.Sildes .NET API 參考
-description: 表示文字的定位點。
+description: 表示文字的製表符。
 type: docs
 weight: 7190
 url: /zh-hant/aspose.slides/itab/
 ---
 ## ITab 介面
 
-表示文字的定位點。
+表示文字的製表符。
 
 ```csharp
 public interface ITab : IComparable
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或設定定位點的對齊樣式。可讀寫 [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 返回或設定製表符的對齊樣式。可讀寫 [`TabAlignment`](../tabalignment)。 |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | 返回 IComparable 介面。唯讀 IComparable。 |
-| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或設定定位點的位置。設定此屬性可能會變更集合中定位點的索引，並使列舉器失效。可讀寫 Double。 |
+| [Position](../../aspose.slides/itab/position) { get; set; } | 返回或設定製表符的位置。設定此屬性可能會變更集合中製表符的索引並使列舉器失效。可讀寫 Double。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

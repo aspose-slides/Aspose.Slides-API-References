@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes a .NET-hez API Referencia
-description: Módosíthatatlan objektum, amely a hatékony betűkészleteket tartalmazza.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Változtathatatlan objektum, amely a hatékony betűkészleteket tartalmazza.
 type: docs
-weight: 5890
+weight: 5910
 url: /hu/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData interfész
 
-Módosíthatatlan objektum, amely a hatékony betűkészleteket tartalmazza.
+Állandó objektum, amely tartalmazza a hatékony betűkészleteket.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,13 +18,13 @@ public interface IFontsEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Visszaadja a komplex írásrendszer betűtípusát. Csak olvasható [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Visszaadja az kelet-ázsiai betűtípust. Csak olvasható [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Visszaadja a latin betűtípust. Csak olvasható [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Visszaadja a komplex írásmód betűkészletet. Csak olvasható [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Visszaadja a kelet-ázsiai betűkészletet. Csak olvasható [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Visszaadja a latin betűkészletet. Csak olvasható [`IFontData`](../ifontdata). |
 
 ### Megjegyzés
 
-Ez az interfész a [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) és [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfészek részeként használatos.
+Ez az interfész a [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) és a [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) interfészek részeként használatos.
 
 ### Lásd még
 

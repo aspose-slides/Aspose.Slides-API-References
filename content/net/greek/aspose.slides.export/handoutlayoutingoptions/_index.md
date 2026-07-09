@@ -1,14 +1,14 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τη λειτουργία διάταξης παρουσίασης χειρογράφου για εξαγωγή.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά τη λειτουργία διάταξης παρουσίασης χειρότυτου για εξαγωγή.
 type: docs
-weight: 3820
+weight: 3840
 url: /el/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions κλάση
 
-Αναπαριστά τη λειτουργία διάταξης παρουσίασης χειρογράφου για εξαγωγή.
+Αναπαριστά τη λειτουργία διάταξης παρουσίασης χειρότυπου για εξαγωγή.
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
@@ -16,22 +16,22 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [HandoutLayoutingOptions](handoutlayoutingoptions)() | Αρχικοποιεί τις προεπιλεγμένες τιμές. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Καθορίζει πόσες διαφάνειες και σε ποια ακολουθία θα τοποθετηθούν στη σελίδα [`HandoutType`](../handouttype). |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Καθορίζει εάν θα εμφανιστούν ή όχι σχόλια στις διαφάνειες |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Καθορίζει εάν θα σχεδιαστούν ή όχι πλαίσια γύρω από τις εμφανιζόμενες διαφάνειες. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Καθορίζει εάν θα εκτυπωθούν ή όχι οι αριθμοί των εμφανιζόμενων διαφανειών. |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Καθορίζει αν θα εμφανιστούν ή όχι σχόλια στις διαφάνειες |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Καθορίζει αν θα σχεδιαστούν ή όχι πλαίσια γύρω από τις εμφανιζόμενες διαφάνειες |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Καθορίζει αν θα εκτυπωθούν ή όχι οι αριθμοί των εμφανιζόμενων διαφανειών. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ISlidesLayoutOptions](../islideslayoutoptions)
+* διεπαφή [ISlidesLayoutOptions](../islideslayoutoptions)
 * χώρος ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
 * συναρμολόγηση [Aspose.Slides](../../)
 

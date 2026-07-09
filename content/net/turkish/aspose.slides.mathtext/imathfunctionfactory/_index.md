@@ -1,12 +1,12 @@
 ---
 title: IMathFunctionFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matematik işlevi oluşturmayı sağlar
+second_title: Aspose.Sildes .NET API Referansı
+description: Matematik işlevi oluşturmayı sağlar
 type: docs
-weight: 8260
+weight: 8280
 url: /tr/aspose.slides.mathtext/imathfunctionfactory/
 ---
-## IMathFunctionFactory arabirimi
+## IMathFunctionFactory arayüzü
 
 Matematik işlevi oluşturmayı sağlar
 
@@ -14,7 +14,7 @@ Matematik işlevi oluşturmayı sağlar
 public interface IMathFunctionFactory
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

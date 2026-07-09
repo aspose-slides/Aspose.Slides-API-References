@@ -1,19 +1,20 @@
 ---
 title: IAlphaModulate
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Modulate. I valori di opacità alpha dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto contenente valori alpha da modulare.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta un effetto Alpha Modulate. I valori di opacità alfa dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto contenente i valori alfa da modulare.
 type: docs
-weight: 3080
+weight: 3100
 url: /it/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interfaccia
 
-Rappresenta un effetto Alpha Modulate. I valori alpha (opacità) dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto che contiene valori alpha da modulare.
+Rappresenta un effetto Alpha Modulate. I valori alfa (opacità) dell'effetto sono moltiplicati per una percentuale fissa. Il contenitore dell'effetto specifica un effetto contenente i valori alfa da modulare.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
     IImageTransformOperation
 ```
+
 
 ## Proprietà
 

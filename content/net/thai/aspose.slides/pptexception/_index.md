@@ -1,14 +1,14 @@
 ---
 title: PptException
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงประเภทข้อยกเว้นภายในมาตรฐาน
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงประเภทข้อยกเว้นภายในมาตรฐาน
 type: docs
 weight: 9520
 url: /th/aspose.slides/pptexception/
 ---
 ## PptException คลาส
 
-แสดงถึงประเภทข้อยกเว้นภายในมาตรฐาน
+แสดงประเภทข้อยกเว้นภายในมาตรฐาน
 
 ```csharp
 public class PptException : Exception
@@ -18,9 +18,9 @@ public class PptException : Exception
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PptException](pptexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น |
-| [PptException](pptexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความลงในข้อยกเว้นนี้ |
-| [PptException](pptexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
+| [PptException](pptexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [PptException](pptexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
+| [PptException](pptexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

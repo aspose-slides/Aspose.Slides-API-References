@@ -1,7 +1,7 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Modulate 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다. 효과 컨테이너는 알파 값을 변조하는 효과를 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Alpha Modulate 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다. 효과 컨테이너는 알파 값을 변조하는 효과를 지정합니다.
 type: docs
 weight: 2880
 url: /ko/aspose.slides.effects/alphamodulate/
@@ -24,11 +24,11 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 지정된 [`AlphaModulate`](../alphamodulate)가 현재 [`AlphaModulate`](../alphamodulate)와 동일한지 확인합니다. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 지정된 [`AlphaModulate`](../alphamodulate)가 현재 [`AlphaModulate`](../alphamodulate)와 동일한지 여부를 확인합니다. |
 | [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 상속이 적용된 효과적인 Alpha Modulate 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IAlphaModulate](../ialphamodulate)

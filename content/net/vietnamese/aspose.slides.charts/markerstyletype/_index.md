@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định hình dạng của dấu hiệu trên điểm dữ liệu của biểu đồ.
+description: Xác định dạng của dấu đánh dấu trên điểm dữ liệu của biểu đồ.
 type: docs
 weight: 2340
 url: /vi/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType liệt kê
 
-Xác định hình dạng của dấu hiệu trên điểm dữ liệu của biểu đồ.
+Xác định hình dạng của dấu đánh dấu trên điểm dữ liệu của biểu đồ.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Chỉ định một vòng tròn sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Dash | `1` | Chỉ định một nét gạch sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Diamond | `2` | Chỉ định một hình thoi sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Dot | `3` | Chỉ định một chấm sẽ được vẽ tại mỗi điểm dữ liệu. |
-| None | `4` | Chỉ định không có gì sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Picture | `5` | Chỉ định một hình ảnh sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Plus | `6` | Chỉ định một dấu cộng sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Square | `7` | Chỉ định một hình vuông sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Star | `8` | Chỉ định một ngôi sao sẽ được vẽ tại mỗi điểm dữ liệu. |
-| Triangle | `9` | Chỉ định một tam giác sẽ được vẽ tại mỗi điểm dữ liệu. |
-| X | `10` | Chỉ định một ký tự X sẽ được vẽ tại mỗi điểm dữ liệu. |
+| Circle | `0` | Chỉ định một vòng tròn sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Dash | `1` | Chỉ định một dấu gạch ngang sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Diamond | `2` | Chỉ định một hình thoi sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Dot | `3` | Chỉ định một dấu chấm sẽ được vẽ ở mỗi điểm dữ liệu. |
+| None | `4` | Chỉ định sẽ không vẽ gì ở mỗi điểm dữ liệu. |
+| Picture | `5` | Chỉ định một hình ảnh sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Plus | `6` | Chỉ định một dấu cộng sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Square | `7` | Chỉ định một hình vuông sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Star | `8` | Chỉ định một ngôi sao sẽ được vẽ ở mỗi điểm dữ liệu. |
+| Triangle | `9` | Chỉ định một tam giác sẽ được vẽ ở mỗi điểm dữ liệu. |
+| X | `10` | Chỉ định một ký tự X sẽ được vẽ ở mỗi điểm dữ liệu. |
 
 ### Xem thêm
 

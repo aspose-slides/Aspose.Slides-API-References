@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller hantering av hyperlänkar, lägg till och ta bort.
+description: Tillhandahåller hantering av hyperlänkar, lägga till och ta bort.
 type: docs
-weight: 6110
+weight: 6130
 url: /sv/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager gränssnitt
 
-Tillhandahåller hantering av hyperlänkar (lägg till, ta bort).
+Tillhandahåller hyperlänkshantering (lägg till, ta bort).
 
 ```csharp
 public interface IHyperlinkManager

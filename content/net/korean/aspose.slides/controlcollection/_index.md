@@ -1,6 +1,6 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: ActiveX 컨트롤의 컬렉션입니다.
 type: docs
 weight: 2700
@@ -18,23 +18,23 @@ public class ControlCollection : IControlCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | 컬렉션에 포함된 객체의 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | 지정된 위치에 있는 컨트롤을 반환합니다. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | 컬렉션에 포함된 객체 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | 지정된 위치의 컨트롤을 반환합니다. |
 | [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 새 컨트롤을 생성하고 컬렉션에 추가합니다. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | 컬렉션의 모든 컨트롤을 제거합니다. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | 컬렉션에 새 컨트롤을 만들고 추가합니다. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | 컬렉션에서 모든 컨트롤을 제거합니다. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | 전체 컬렉션을 지정된 배열에 복사합니다. |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | 컬렉션에서 ActiveX 컨트롤을 제거합니다. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 지정된 위치에 저장된 ActiveX 컨트롤을 컬렉션에서 제거합니다. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | 컬렉션에서 지정된 위치에 저장된 ActiveX 컨트롤을 제거합니다. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IControlCollection](../icontrolcollection)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

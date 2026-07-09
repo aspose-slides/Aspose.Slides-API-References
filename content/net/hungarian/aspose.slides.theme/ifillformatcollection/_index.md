@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: A kitöltési stílusok gyűjteményét képviseli.
 type: docs
-weight: 11210
+weight: 11230
 url: /hu/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection interfész
 
-Represents the collection of fill styles.
+A kitöltési stílusok gyűjteményét képviseli.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -16,9 +16,9 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Lásd még
 

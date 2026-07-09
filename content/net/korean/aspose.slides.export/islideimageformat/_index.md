@@ -1,20 +1,20 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드 이미지를 HTML 내보내기용 프레젠테이션에 저장할 형식을 결정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션을 HTML로 내보낼 때 슬라이드 이미지가 저장되는 형식을 결정합니다.
 type: docs
 weight: 4090
 url: /ko/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat 인터페이스
 
-슬라이드 이미지를 HTML 내보내기용 프레젠테이션에 저장할 형식을 결정합니다.
+프레젠테이션을 HTML로 내보낼 때 슬라이드 이미지가 저장되는 형식을 결정합니다.
 
 ```csharp
 public interface ISlideImageFormat
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

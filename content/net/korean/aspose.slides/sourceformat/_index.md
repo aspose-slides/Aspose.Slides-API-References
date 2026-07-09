@@ -1,6 +1,6 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 소스 파일 형식을 나타냅니다.
 type: docs
 weight: 10680
@@ -32,7 +32,7 @@ public enum SourceFormat
 | Fodp | `11` | Flat XML ODF 프레젠테이션 (*.fodp). |
 | Xml | `12` | PowerPoint XML 프레젠테이션 (*.xml). |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟ็กต์ Luminance. Brightness ปรับสีทั้งหมดให้เข้าใกล้สีขาวหรือสีดำอย่างเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Luminance. Brightness จะเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. Contrast จะปรับสเกลสีทั้งหมดให้ใกล้หรือห่างกันมากขึ้น.
 type: docs
 weight: 3450
 url: /th/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟ็กต์ Luminance. Brightness ปรับสีทั้งหมดให้เข้าใกล้สีขาวหรือสีดำอย่างเชิงเส้น. Contrast ปรับสเกลสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
+แสดงถึงเอฟเฟกต์ Luminance. Brightness จะเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. Contrast จะปรับสเกลสีทั้งหมดให้ใกล้หรือห่างกันมากขึ้น.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. อ่านอย่างเดียว Single. |
 | [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. อ่านอย่างเดียว Single. |
 

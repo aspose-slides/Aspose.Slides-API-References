@@ -1,9 +1,9 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes dla .NET – Odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje opcje kontrolujące sposób zapisywania prezentacji do formatu markdown.
 type: docs
-weight: 4230
+weight: 4250
 url: /pl/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions klasa
@@ -18,28 +18,28 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Konstruktor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Określa podstawową ścieżkę, w której zostanie zapisany dokument wraz z zasobami. Domyślnie jest to bieżący katalog aplikacji. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie znaleziono czcionki źródłowej. Odczyt-zapis String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Określa specyfikację markdown używaną do konwersji prezentacji. Domyślnie jest `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Określa specyfikację markdown używaną do konwersji prezentacji. Domyślnie jest `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt-zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Określa podstawową ścieżkę, w której dokument wraz z zasobami zostanie zapisany. Domyślnie jest to bieżący katalog aplikacji. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie zostanie znaleziona czcionka źródłowa. Odczyt/zapis String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Określa specyfikację markdown używaną do konwersji prezentacji. Domyślnie jest to `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Określa specyfikację markdown używaną do konwersji prezentacji. Domyślnie jest to `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Określa nazwę folderu, w którym zapisywane są obrazy. Domyślnie jest `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Określa, czy wygenerowany dokument powinien używać nowych linii \\r (Macintosh), \\n (Unix) lub \\r\\n (Windows). Domyślnie jest `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego służący do aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Jeśli ustawione na `true`, usuwa puste lub zawierające wyłącznie białe znaki wiersze z ostatecznego wyniku Markdown. Domyślnie jest `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Określa, czy wygenerowany dokument powinien wyświetlać komentarze. Domyślnie jest `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument powinien zawierać ukryte slajdy. Domyślnie jest `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Określa, czy wygenerowany dokument powinien wyświetlać numer każdego slajdu. Domyślnie jest `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt-zapis Boolean. Wartość domyślna to **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Pobiera lub ustawia ciąg formatu używany do nagłówków numerów slajdów w wyjściu Markdown. Format musi zawierać symbol zastępczy \"{0}\", który zostanie zastąpiony indeksem slajdu podczas eksportu. Przykład: \"# Slide {0}\" wygeneruje \"# Slide 1\", \"# Slide 2\" itd. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt-zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Określa nazwę folderu, w którym zapisywane są obrazy. Domyślnie jest to `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Określa, czy generowany dokument ma mieć nowe wiersze \\r (Macintosh), \\n (Unix) czy \\r\\n (Windows). Domyślnie jest to `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt zwrotny służący do aktualizacji postępu zapisu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Jeśli ustawione na `true`, usuwa puste lub zawierające wyłącznie białe znaki wiersze z ostatecznego wyjścia Markdown. Domyślnie jest to `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Określa, czy generowany dokument ma wyświetlać komentarze. Domyślnie jest to `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Określa, czy generowany dokument ma zawierać ukryte slajdy. Domyślnie jest to `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Określa, czy generowany dokument ma wyświetlać numer każdego slajdu. Domyślnie jest to `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza wywołujące JavaScript podczas zapisywania prezentacji. Odczyt/zapis Boolean. Domyślna wartość to **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Zwraca lub ustawia ciąg formatowania używany do nagłówków numerów slajdów w wyjściu Markdown. Format musi zawierać placeholder \"{0}\", który zostanie zastąpiony indeksem slajdu podczas eksportu. Przykład: \"# Slide {0}\" wygeneruje \"# Slide 1\", \"# Slide 2\" itd. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt odbierający ostrzeżenia i decydujący, czy proces ładowania będzie kontynuowany czy przerwany. Odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 

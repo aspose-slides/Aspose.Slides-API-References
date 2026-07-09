@@ -1,14 +1,14 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक एनिमेशन इफ़ेक्ट के एनीमेट टेक्स्ट प्रकार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: एक एनीमेशन प्रभाव के टेक्स्ट एनीमेट प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 120
 url: /hi/aspose.slides.animation/animatetexttype/
 ---
-## AnimateTextType एन्यूमरेशन
+## AnimateTextType एन्नुमरेशन
 
-एक एनिमेशन इफ़ेक्ट के एनीमेट टेक्स्ट प्रकार को दर्शाता है।
+एक एनीमेशन प्रभाव के टेक्स्ट प्रकार को दर्शाता है।
 
 ```csharp
 public enum AnimateTextType
@@ -18,11 +18,11 @@ public enum AnimateTextType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| AllAtOnce | `0` | सभी टेक्स्ट को एक साथ एनिमेट करें। |
-| ByWord | `1` | टेक्स्ट को शब्द द्वारा एनिमेट करें। |
-| ByLetter | `2` | टेक्स्ट को अक्षर द्वारा एनिमेट करें। |
+| AllAtOnce | `0` | सभी टेक्स्ट को एक साथ एनीमेट करें। |
+| ByWord | `1` | शब्द के अनुसार टेक्स्ट को एनीमेट करें। |
+| ByLetter | `2` | अक्षर के अनुसार टेक्स्ट को एनीमेट करें। |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

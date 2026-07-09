@@ -1,9 +1,9 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Mozgási útvonalat képviseli.
+second_title: Aspose.Slides .NET API Referencia
+description: A mozgási útvonalat képviseli.
 type: docs
-weight: 670
+weight: 690
 url: /hu/aspose.slides.animation/motionpath/
 ---
 ## MotionPath osztály
@@ -25,18 +25,18 @@ public class MotionPath : IMotionPath
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | Visszaadja az útvonalak számát a gyűjteményben. Csak olvasható Int32. |
-| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Visszaad egy parancsot a megadott indexen. |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Visszaad egy parancsot a megadott indexnél. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Új parancsot ad az útvonalhoz |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Új parancs hozzáadása az útvonalhoz |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Eltávolítja az összes parancsot a gyűjteményből. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Visszaad egy enumerátort, amely végig iterál a gyűjteményen. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Új parancsot szúr be az útvonalba |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Új parancs beszúrása az útvonalba |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Eltávolítja a megadott parancsokat a gyűjteményből. |
-| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Eltávolít egy parancsot a megadott indexen. |
+| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Eltávolít egy parancsot a megadott indexnél. |
 
 ### Lásd még
 

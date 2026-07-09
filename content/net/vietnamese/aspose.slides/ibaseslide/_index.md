@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho dữ liệu chung của tất cả các loại slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn dữ liệu chung cho tất cả các loại slide.
 type: docs
 weight: 5340
 url: /vi/aspose.slides/ibaseslide/
 ---
-## IBaseSlide giao diện
+## Giao diện IBaseSlide
 
-Represents common data for all slide types.
+Biểu diễn dữ liệu chung cho tất cả các loại slide.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Cho phép lấy giao diện IThemeable cơ bản. Chỉ đọc [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Cho phép truy cập giao diện IThemeable cơ bản. Chỉ đọc [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](../../aspose.slides/ibaseslide/background) { get; } | Trả về nền của slide. Chỉ đọc [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Trả về tập hợp các điều khiển ActiveX trên một slide. Chỉ đọc [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Trả về dữ liệu tùy chỉnh của slide. Chỉ đọc [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng tới các siêu liên kết chứa trong slide. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng tới các siêu liên kết được chứa. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Trả về hoặc đặt tên của một slide. Đọc/ghi String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Trả về các hình dạng của một slide. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Chỉ định nếu các hình dạng trên master slide nên được hiển thị trên các slide hay không. Đối với master slide tự nó, thuộc tính này luôn trả về `false`. Đọc/ghi Boolean. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Trả về các shape của một slide. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Xác định liệu các shape trên master slide có được hiển thị trên các slide hay không. Đối với master slide itself, thuộc tính này luôn trả về `false`. Đọc/ghi Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Trả về ID của một slide. Chỉ đọc UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Trả về đối tượng TransitionEx chứa thông tin về cách slide được chỉ định tiến triển trong một buổi chiếu slide. Chỉ đọc [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Trả về đối tượng timeline hoạt ảnh. Chỉ đọc [`IAnimationTimeLine`](../ianimationtimeline). |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Trả về đối tượng TransitionEx chứa thông tin về cách slide được chỉ định tiến tới trong một buổi trình chiếu. Chỉ đọc [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Trả về đối tượng thời gian biểu hoạt ảnh. Chỉ đọc [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Xác định xem hai đối tượng IBaseSlide có bằng nhau hay không. Giá trị trả về được tính dựa trên cấu trúc slide và nội dung tĩnh. Hai slide bằng nhau nếu tất cả các hình dạng, kiểu dáng, văn bản, hoạt ảnh và các cài đặt khác, v.v. đều bằng nhau. So sánh không tính đến các giá trị định danh duy nhất, ví dụ SlideId và nội dung động, ví dụ giá trị ngày hiện tại trong Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Tìm lần xuất hiện đầu tiên của một hình dạng có văn bản thay thế được chỉ định. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Nối các run có cùng định dạng trong tất cả các đoạn văn trong mọi hình dạng có thể chấp nhận. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Xác định xem hai thể hiện IBaseSlide có bằng nhau hay không. Giá trị trả về được tính dựa trên cấu trúc slide và nội dung tĩnh. Hai slide được coi bằng nếu tất cả các shape, kiểu dáng, văn bản, hoạt ảnh và các cài đặt khác, v.v. đều bằng nhau. So sánh không xem xét các giá trị định danh duy nhất, chẳng hạn SlideId và nội dung động, chẳng hạn giá trị ngày hiện tại trong Placeholder ngày. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Tìm lần xuất hiện đầu tiên của một shape có văn bản thay thế được chỉ định. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Nối các run có định dạng giống nhau trong tất cả các đoạn văn trong tất cả các shape chấp nhận được. |
 
 ### Xem thêm
 

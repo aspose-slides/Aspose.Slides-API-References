@@ -3,7 +3,7 @@ title: InterruptionTokenSource
 second_title: Aspose.Sildes の .NET API リファレンス
 description: InterruptionToken のソースを表します。/interruptiontoken.
 type: docs
-weight: 7590
+weight: 7610
 url: /ja/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource クラス
@@ -18,20 +18,20 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | [`InterruptionTokenSource`](../interruptiontokensource) を新しく作成します。 |
+| [InterruptionTokenSource](interruptiontokensource)() | [`InterruptionTokenSource`](../interruptiontokensource) の新しいインスタンスを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 割り込みが要求された場合は true を返し、そうでない場合は false を返します。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontokensource/isinterruptionrequested) { get; } | 中断が要求された場合は true を返し、それ以外の場合は false を返します。 |
 | [Token](../../aspose.slides/interruptiontokensource/token) { get; } | この [`InterruptionTokenSource`](../interruptiontokensource) にバインドされた新しいトークンを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | 割り込みのリクエストを初期化します。 |
+| [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | 中断要求を初期化します。 |
 
 ### 参照
 

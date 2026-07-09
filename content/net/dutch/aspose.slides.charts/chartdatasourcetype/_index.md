@@ -1,6 +1,6 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes for .NET API-referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een type gegevensbron van de grafiek voor
 type: docs
 weight: 1370

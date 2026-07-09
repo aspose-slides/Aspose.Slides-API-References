@@ -1,14 +1,14 @@
 ---
 title: IFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính định dạng biểu đồ.
+description: Đại diện cho các thuộc tính định dạng biểu đồ.
 type: docs
 weight: 2100
 url: /vi/aspose.slides.charts/iformat/
 ---
-## giao diện IFormat
+## IFormat giao diện
 
-Biểu diễn các thuộc tính định dạng biểu đồ.
+Đại diện cho các thuộc tính định dạng biểu đồ.
 
 ```csharp
 public interface IFormat
@@ -16,11 +16,11 @@ public interface IFormat
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Trả về các hiệu ứng được sử dụng cho biểu đồ. Chỉ đọc [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Trả về định dạng 3D của biểu đồ. Chỉ đọc [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Trả về các thuộc tính kiểu tô của biểu đồ. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Trả về các thuộc tính kiểu tô màu của biểu đồ. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | Trả về các thuộc tính kiểu đường của biểu đồ. Chỉ đọc [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Xem thêm

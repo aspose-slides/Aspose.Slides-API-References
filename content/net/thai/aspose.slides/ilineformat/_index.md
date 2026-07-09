@@ -1,14 +1,14 @@
 ---
 title: ILineFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงรูปแบบของเส้น.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงรูปแบบของเส้น.
 type: docs
 weight: 6310
 url: /th/aspose.slides/ilineformat/
 ---
 ## ILineFormat อินเทอร์เฟซ
 
-แสดงถึงรูปแบบของเส้น.
+แสดงรูปแบบของเส้น.
 
 ```csharp
 public interface ILineFormat : ILineParamSource
@@ -18,31 +18,31 @@ public interface ILineFormat : ILineParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | คืนค่าหรือกำหนดการจัดแนวของเส้น. อ่าน/เขียน [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ ILineParamSource พื้นฐาน. อ่านเท่านั้น [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | คืนค่าหรือกำหนดความยาวของหัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | คืนค่าหรือกำหนดสไตล์ของหัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | คืนค่าหรือกำหนดความกว้างของหัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | คืนค่าหรือกำหนดสไตล์ของขอบเส้น. อ่าน/เขียน [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | คืนค่าหรือกำหนดรูปแบบการขีดแบบกำหนดเอง. อ่าน/เขียน Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | คืนค่าหรือกำหนดสไตล์การขีดของเส้น. อ่าน/เขียน [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | คืนค่าหรือกำหนดความยาวของหัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | คืนค่าหรือกำหนดสไตล์ของหัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | คืนค่าหรือกำหนดความกว้างของหัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | คืนค่ารูปแบบการเติมของเส้น. อ่านเท่านั้น [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | คืนค่า true หากรูปแบบเส้นไม่ได้กำหนด (เช่น เพิ่งสร้าง, ค่าเริ่มต้น). อ่านเท่านั้น Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | คืนค่าหรือกำหนดสไตล์การเชื่อมต่อของเส้น. อ่าน/เขียน [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | คืนค่าหรือกำหนดขีดจำกัดมิตเทอร์ของเส้น. อ่าน/เขียน Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | คืนค่ารูปแบบสเก็ตช์ของเส้น. อ่านเท่านั้น [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | คืนค่าหรือกำหนดสไตล์ของเส้น. อ่าน/เขียน [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | คืนค่าหรือกำหนดความกว้างของเส้น. อ่าน/เขียน Double. |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | คืนค่า หรือกำหนดการจัดแนวของเส้น. อ่าน/เขียน [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ ILineParamSource พื้นฐาน. อ่านอย่างเดียว [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | คืนค่า หรือกำหนดความยาวหัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์หัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | คืนค่า หรือกำหนดความกว้างหัวศรที่จุดเริ่มต้นของเส้น. อ่าน/เขียน [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การปิดปลายของเส้น. อ่าน/เขียน [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | คืนค่า หรือกำหนดรูปแบบการเส้นประแบบกำหนดเอง. อ่าน/เขียน Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การเส้นประของเส้น. อ่าน/เขียน [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | คืนค่า หรือกำหนดความยาวหัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์หัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | คืนค่า หรือกำหนดความกว้างหัวศรที่จุดสิ้นสุดของเส้น. อ่าน/เขียน [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | คืนรูปแบบการเติมของเส้น. อ่านอย่างเดียว [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | คืนค่า true หากรูปแบบเส้นไม่ได้กำหนด (เช่น เพิ่งสร้าง, ค่าเริ่มต้น). อ่านอย่างเดียว Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การเชื่อมต่อของเส้น. อ่าน/เขียน [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | คืนค่า หรือกำหนดขีดจำกัดมิตเตอร์ของเส้น. อ่าน/เขียน Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | คืนรูปแบบสเก็ตช์ของเส้น. อ่านอย่างเดียว [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | คืนค่า หรือกำหนดสไตล์ของเส้น. อ่าน/เขียน [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | คืนค่า หรือกำหนดความกว้างของเส้น. อ่าน/เขียน Double. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | กำหนดว่าตัวอย่าง LineFormat สองตัวเท่ากันหรือไม่. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | รับข้อมูลการจัดรูปแบบเส้นที่มีผลโดยคำนึงถึงการสืบทอด. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | รับข้อมูลการจัดรูปแบบเส้นที่มีผลพร้อมการสืบทอดที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 

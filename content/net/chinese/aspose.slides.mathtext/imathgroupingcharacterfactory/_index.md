@@ -1,12 +1,11 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建数学分组字符
 type: docs
-weight: 8050
+weight: 8300
 url: /zh/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
-
 ## IMathGroupingCharacterFactory 接口
 
 允许创建数学分组字符
@@ -19,14 +18,14 @@ public interface IMathGroupingCharacterFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 创建一个数学分组字符 |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 创建一个数学分组字符 |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 创建数学分组字符 |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 创建数学分组字符 |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 参见
+### 另见
 
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 程序集 [Aspose.Slides](../../)

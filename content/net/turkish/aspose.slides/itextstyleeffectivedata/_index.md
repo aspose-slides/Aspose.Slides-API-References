@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Etkili metin stili özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili metin stil özelliklerini içeren değişmez nesne.
 type: docs
-weight: 7300
+weight: 7320
 url: /tr/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData arayüz
 
-Etkili metin stili özelliklerini içeren değişmez nesne.
+Etkili metin stil özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -16,21 +16,21 @@ public interface ITextStyleEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Etkili varsayılan paragraf özelliklerini döndürür. Salt okunur [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Etkin varsayılan paragraf özelliklerini döndürür. Salt okunur [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Etkili stil seviyesini döndürür. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Etkin stilin seviyesini döndürür. |
 
 ### Açıklamalar
 
-Bu arayüz, [`ITextStyle`](../itextstyle) arayüzü ile birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`ITextStyle`](../itextstyle) arayüzüyle birlikte kullanılarak kalıtım uygulanmış etkin biçimlendirme değerlerini döndürür.
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

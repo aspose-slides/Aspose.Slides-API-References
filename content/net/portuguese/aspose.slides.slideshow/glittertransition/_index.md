@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Referência da API Aspose.Sildes para .NET
-description: Efeito de transição de slide Glitter.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Efeito de transição de slide glitter.
 type: docs
-weight: 10030
+weight: 10050
 url: /pt/aspose.slides.slideshow/glittertransition/
 ---
-## Classe GlitterTransition
+## GlitterTransition classe
 
-Efeito de transição de slide Glitter.
+Efeito de transição de slide glitter.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -18,17 +18,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 | Nome | Descrição |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direção da transição. Leitura/escrita [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Especifica a forma dos visuais usados durante a transição. Leitura/escrita [`TransitionPattern`](../transitionpattern). |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Especifica a forma dos visuais usados durante a transição. Leitura/gravação [`TransitionPattern`](../transitionpattern). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Atua como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
 
-### Ver também
+### Veja Também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [IGlitterTransition](../iglittertransition)

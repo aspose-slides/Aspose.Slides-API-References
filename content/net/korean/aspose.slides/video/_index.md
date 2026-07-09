@@ -1,14 +1,14 @@
 ---
 title: Video
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션에 포함된 이미지를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션에 삽입된 이미지를 나타냅니다.
 type: docs
 weight: 11700
 url: /ko/aspose.slides/video/
 ---
 ## Video 클래스
 
-프레젠테이션에 포함된 이미지를 나타냅니다.
+프레젠테이션에 삽입된 이미지를 나타냅니다.
 
 ```csharp
 public class Video : IVideo
@@ -18,8 +18,8 @@ public class Video : IVideo
 
 | 이름 | 설명 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 오디오 데이터의 복사본을 반환합니다. 대량의 데이터인 경우 [`GetStream`](./getstream) 메서드를 사용하여 비디오 데이터가 메모리로 불필요하게 로드되거나 OutOfMemoryException이 발생하는 것을 방지하십시오. 읽기 전용 Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | 비디오의 MIME 유형을 반환합니다, [`BinaryData`](./binarydata)에 인코딩됩니다. 읽기 전용 String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | 오디오 데이터의 복사본을 반환합니다. 대용량 데이터의 경우 [`GetStream`](./getstream) 메서드를 사용하여 비디오 데이터가 메모리에 불필요하게 로드되거나 OutOfMemoryException이 발생하는 것을 방지하는 것이 좋습니다. 읽기 전용 Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | 비디오의 MIME 유형을 [`BinaryData`](./binarydata) 로 인코딩된 형태로 반환합니다. 읽기 전용 String. |
 
 ## 메서드
 
@@ -27,7 +27,7 @@ public class Video : IVideo
 | --- | --- |
 | [GetStream](../../aspose.slides/video/getstream)() | 읽기를 위한 Stream 스트림을 반환합니다. 'using'을 사용하거나 사용 후 스트림을 닫으세요. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IVideo](../ivideo)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

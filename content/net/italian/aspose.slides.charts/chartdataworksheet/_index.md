@@ -3,7 +3,7 @@ title: ChartDataWorksheet
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il foglio di lavoro associato a IChartDataCell./ichartdatacell
 type: docs
-weight: 1370
+weight: 1390
 url: /it/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet classe

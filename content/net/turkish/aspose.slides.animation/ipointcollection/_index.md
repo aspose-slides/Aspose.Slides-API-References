@@ -1,12 +1,12 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Parçaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 530
+weight: 550
 url: /tr/aspose.slides.animation/ipointcollection/
 ---
-## IPointCollection arayüzü
+## IPointCollection arabirimi
 
 Parçaların bir koleksiyonunu temsil eder.
 
@@ -16,15 +16,15 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Temel IEnumerable arayüzünü elde etmeyi sağlar. Salt okunur IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Temel IEnumerable arabirimini almanıza izin verir. Salt okunur IEnumerable. |
 | [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Koleksiyondaki nokta sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Belirtilen indeksteki bir noktayı döndürür. |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Belirtilen dizindeki bir noktayı döndürür. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
-* arayüz [IPoint](../ipoint)
+* arabirimi [IPoint](../ipoint)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)
 

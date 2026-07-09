@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 효과적인 선 스케치 속성을 포함하는 불변 객체.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 효과적인 라인 스케치 속성을 포함하는 불변 객체.
 type: docs
 weight: 7030
 url: /ko/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData 인터페이스
 
-효과적인 선 스케치 속성을 포함하는 불변 객체.
+효과적인 라인 스케치 속성을 포함하는 불변 객체.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -24,7 +24,7 @@ public interface ISketchFormatEffectiveData
 
 이 인터페이스는 [`ILineFormatEffectiveData`](../ilineformateffectivedata)의 일부로 사용됩니다.
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

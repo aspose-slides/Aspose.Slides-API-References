@@ -1,31 +1,31 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes .NET API संदर्भ के लिए
-description: ऐसे विकल्पों का प्रतिनिधित्व करता है जिन्हें अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए उपयोग किया जा सकता है।
+second_title: Aspose.Sildes के लिए .NET API रेफरेंस
+description: विकल्पों का प्रतिनिधित्व करता है जिन्हें अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए उपयोग किया जा सकता है।
 type: docs
 weight: 10740
 url: /hi/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions क्लास
 
-Represents options which can be used to specify additional spreadsheets behavior.
+अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
 ```
 
-## निर्माणकर्ता
+## कंस्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | [`SpreadsheetOptions`](../spreadsheetoptions) क्लास का नया उदाहरण आरंभ करता है। |
+| [SpreadsheetOptions](spreadsheetoptions)() | एक नया उदाहरण प्रारंभ करता है [`SpreadsheetOptions`](../spreadsheetoptions) क्लास का। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | डबल बाइट कैरेक्टर सेट (DBCS) का उपयोग करने वाली भाषाओं के लिए अभिप्रेत कुछ फ़ंक्शनों की गणना के लिये पसंदीदा संस्कृति जानकारी प्राप्त या सेट करता है। |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | यदि चार्ट के लिये डेटा स्रोत एक बाह्य कार्यपुस्तिका है और वह उपलब्ध नहीं है, तो इसे चार्ट कैश से पुनः प्राप्त किया जाएगा। |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | प्राथमिक संस्कृति जानकारी को प्राप्त या सेट करता है जिसका उपयोग डबल-बाइट कैरेक्टर सेट (DBCS) का प्रयोग करने वाली भाषाओं के लिये कुछ फ़ंक्शन की गणना में किया जाता है। |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | यदि चार्ट के लिए डेटा स्रोत एक बाहरी कार्यपुस्तिका है और वह उपलब्ध नहीं है, तो इसे चार्ट कैश से पुनर्प्राप्त किया जाएगा। |
 
 ### संबंधित देखें
 

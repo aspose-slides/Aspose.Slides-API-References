@@ -14,16 +14,16 @@ url: /th/aspose.slides.mathtext/imatharrayfactory/
 public interface IMathArrayFactory
 ```
 
-## Methods
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาเรย์คณิตศาสตร์และวางอิลิเมนต์ที่ระบุไว้ในอาเรย์ |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาเรย์คณิตศาสตร์และวางอิลิเมนต์ที่ระบุไว้หลายรายการในอาเรย์ |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | สร้างอาเรย์คณิตศาสตร์และใส่องค์ประกอบที่ระบุลงในอาเรย์ |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | สร้างอาเรย์คณิตศาสตร์และใส่องค์ประกอบหลายรายการที่ระบุลงในอาเรย์ |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+เพื่อความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

@@ -1,6 +1,6 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示類別軸的類型。
 type: docs
 weight: 1250
@@ -18,10 +18,10 @@ public enum CategoryAxisType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Text | `0` | 指定類別軸為文字軸。 |
-| Date | `1` | 指定類別軸為日期軸。 |
+| Text | `0` | 指定類別軸是文字軸。 |
+| Date | `1` | 指定類別軸是日期軸。 |
 
-### 另請參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

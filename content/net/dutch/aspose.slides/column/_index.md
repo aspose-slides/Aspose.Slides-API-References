@@ -18,12 +18,12 @@ public sealed class Column : CellCollection, IColumn
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Retourneert het ColumnFormat-object dat opmaakeigenschappen voor deze kolom bevat. Alleen-lezen [`IColumnFormat`](../icolumnformat). |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Retourneert het ColumnFormat-object dat de opmaak-eigenschappen voor deze kolom bevat. Alleen-lezen [`IColumnFormat`](../icolumnformat). |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Retourneert het aantal cellen in een collectie. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-veilig). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Retourneert een cel op basis van zijn positie. Alleen-lezen [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourneert de bovenliggende presentatie van een CellCollection. Alleen-lezen [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourneert de bovenliggende dia van een CellCollection. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourneert de ouderpresentatie van een CellCollection. Alleen-lezen [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourneert de ouder-slide van een CellCollection. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 | [Width](../../aspose.slides/column/width) { get; set; } | Retourneert of stelt de breedte van een kolom in. Lezen/schrijven Double. |
 
@@ -31,11 +31,11 @@ public sealed class Column : CellCollection, IColumn
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen uit de collectie naar de opgegeven array. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Stelt gedefinieerde paragraph format-eigenschappen in voor alle column cells-paragraphs. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Stelt gedefinieerde portion format-eigenschappen in voor alle column cells-portions. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Stelt gedefinieerde text frame format-eigenschappen in voor alle column cells-text frames. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Stelt gedefinieerde alinea-opmaak-eigenschappen in voor alle alinea's van kolomcellen. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Stelt gedefinieerde portion-opmaak-eigenschappen in voor alle gedeelten van kolomcellen. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Stelt gedefinieerde tekst-frame-opmaak-eigenschappen in voor alle tekstframes van kolomcellen. |
 
 ### Zie ook
 

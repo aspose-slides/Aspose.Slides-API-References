@@ -1,14 +1,14 @@
 ---
 title: SetEffect
-second_title: Aspose.Sildes .NET API referencia
-description: Egy animációs viselkedéshez tartozó halmaz hatást reprezentál.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Egy animációs viselkedéshez tartozó beállítási hatást képvisel.
 type: docs
-weight: 790
+weight: 810
 url: /hu/aspose.slides.animation/seteffect/
 ---
 ## SetEffect osztály
 
-Egy animációs viselkedéshez tartozó halmaz hatást reprezentál.
+Egy animációs viselkedéshez kapcsolódó beállítási hatást képvisel.
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
@@ -16,19 +16,19 @@ public class SetEffect : Behavior, ISetEffect
 
 ## Konstruktorok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [SetEffect](seteffect)() | Az alapértelmezett konstruktor. |
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések halmozottak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés össze van-e kombinálva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelenti. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait jelenti. Olvasás/írás [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Megadja egy effektus bizonyos attribútumát egy animációs hatás után. Pontértéket reprezentál. Csak: bool, ColorFormat, float, int, string. Olvasás/írás Object. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelzi. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | A hatás viselkedés időzítési tulajdonságait jelzi. Olvasás/írás [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Megadja egy hatás bizonyos attribútumát egy animációs hatás után. Pontértéket jelent. Only: bool, ColorFormat, float, int, string. Olvasás/írás Object. |
 
 ### Lásd még
 

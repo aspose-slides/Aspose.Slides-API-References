@@ -8,7 +8,7 @@ url: /vi/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject giao diện
 
-Biểu diễn tham chiếu tới một dự án VBA bên ngoài.
+Represents reference to an external VBA project.
 
 ```csharp
 public interface IVbaReferenceProject : IVbaReference

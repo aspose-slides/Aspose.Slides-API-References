@@ -3,12 +3,12 @@ title: RenderingOptions
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Παρέχει επιλογές που ελέγχουν πώς αποδίδεται μια παρουσίαση/διαφάνεια.
 type: docs
-weight: 4390
+weight: 4410
 url: /el/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions κλάση
 
-Provides options that control how a presentation/slide is rendered.
+Παρέχει επιλογές που ελέγχουν πώς αποδίδεται μια παρουσίαση/διαφάνεια.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -18,20 +18,20 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Name | Description |
 | --- | --- |
-| [RenderingOptions](renderingoptions)() | Default constructor. |
+| [RenderingOptions](renderingoptions)() | Προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
 | Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται όταν δεν βρεθεί η πηγαία γραμματοσειρά. Ανάγνωση/εγγραφή String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει αν το κείμενο αποδίδεται χωρίς τη χρήση ligatures. Όταν οριστεί σε `true`, οι ligatures θα απενεργοποιηθούν στην αποδοθείσα έξοδο. Κατά προεπιλογή, αυτή η ιδιότητα ορίζεται σε `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink σε εξαγόμενο έγγραφο. Μόνο-ανάγνωση [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο callback για αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript όταν αποθηκεύεται η παρουσίαση. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που δεν βρεθεί η πηγαία γραμματοσειρά. Ανάγνωση-εγγραφή String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς τη χρήση συνδέσεων. Όταν οριστεί σε `true`, οι συνδέσεις θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα είναι ορισμένη σε `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της κλίμακας χρώματος. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο-ανάγνωση [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει εάν θα παραληφθούν οι υπερσύνδεσμοι με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα όταν εξάγεται μια παρουσίαση [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ακυρωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Παραδείγματα
 

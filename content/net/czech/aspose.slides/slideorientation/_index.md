@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje orientaci snímku.
+description: Představuje orientaci snímku.
 type: docs
-weight: 9980
+weight: 10000
 url: /cs/aspose.slides/slideorientation/
 ---
-## SlideOrientation výčet
+## Výčtový typ SlideOrientation
 
-Reprezentuje orientaci snímku.
+Představuje orientaci snímku.
 
 ```csharp
 public enum SlideOrientation
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Landscape | `0` | Orientace na šířku. |
-| Portrait | `1` | Orientace na výšku. |
+| Landscape | `0` | Landscape orientace. |
+| Portrait | `1` | Portrait orientace. |
 
 ### Viz také
 

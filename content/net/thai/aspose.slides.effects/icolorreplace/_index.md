@@ -1,7 +1,7 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์การแทนที่สี.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงเอฟเฟกต์การแทนที่สี
 type: docs
 weight: 3240
 url: /th/aspose.slides.effects/icolorreplace/
@@ -19,8 +19,8 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงค่า base IAccessiblePVIObject อินเทอร์เฟซ. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | อนุญาตให้ดึงค่า base IImageTransformOperation อินเทอร์เฟซ. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | คืนค่ารูปแบบสีที่จะแทนที่สีของพิกเซลทุกพิกเซล. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### ดูเพิ่มเติม

@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes for .NET API 참조
-description: 도형에 대한 테마 정의 형식을 저장합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 모양에 대해 테마에서 정의된 형식을 저장합니다.
 type: docs
 weight: 11140
 url: /ko/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme 클래스
 
-도형에 대한 테마 정의 형식을 저장합니다.
+테마에 정의된 형식을 모양에 대해 저장합니다.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,14 +18,14 @@ public class FormatScheme : IFormatScheme
 
 | 이름 | 설명 |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 테마에서 정의된 배경 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 테마에서 정의된 효과 스타일 컬렉션을 반환합니다. 읽기 전용 [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 테마에서 정의된 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 테마에서 정의된 선 스타일 컬렉션을 반환합니다. 읽기 전용 [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | 테마에 정의된 배경 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | 테마에 정의된 효과 스타일 컬렉션을 반환합니다. 읽기 전용 [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | 테마에 정의된 채우기 스타일 컬렉션을 반환합니다. 읽기 전용 [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | 테마에 정의된 선 스타일 컬렉션을 반환합니다. 읽기 전용 [`ILineFormatCollection`](../ilineformatcollection). |
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | 부모 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | 부모 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IFormatScheme](../iformatscheme)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

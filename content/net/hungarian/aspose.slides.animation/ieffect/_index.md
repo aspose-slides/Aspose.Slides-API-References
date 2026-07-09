@@ -1,14 +1,14 @@
 ---
 title: IEffect
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Animációs effektust képvisel.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Ábrázolja az animációs hatást.
 type: docs
-weight: 470
+weight: 490
 url: /hu/aspose.slides.animation/ieffect/
 ---
 ## IEffect interfész
 
-Az animációs effektust képviseli.
+Ábrázolja az animációs hatást.
 
 ```csharp
 public interface IEffect
@@ -18,24 +18,24 @@ public interface IEffect
 
 | Név | Leírás |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Az effektus után animációs színt definiálja. Olvasás-írás [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Az effektus után animációs típusát definiálja. Olvasás-írás [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Az effektus szöveganimáció típusát definiálja. A forma szövege betűnként, szónként vagy egyszerre animálható. Olvasás-írás [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Visszaadja az effektus viselkedésének gyűjteményét. Olvasás-írás [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Az animált szöveg részei (szavak vagy betűk) közti késleltetést definiálja. Pozitív érték esetén az effektus időtartamának százalékát adja meg. Negatív érték esetén másodpercben adja meg a késleltetést. Olvasás-írás Single. |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Az effektus osztályát definiálja. Olvasás-írás [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Visszaadja az effektus sorrendjét. Csak olvasható [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Az effektus beágyazott hangját definiálja. Olvasás-írás [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Ez az attribútum meghatározza, hogy az animációs effektus leállítja-e az előző hangot. Olvasás-írás Boolean. |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Az effektus altípusát definiálja. Olvasás-írás [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Visszaadja az effektus cél alakzatát. Csak olvasható [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Visszaadja a szöveg animációt. Csak olvasható [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Az effektus időzítési értékét definiálja. Olvasás-írás [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Az effektus típusát definiálja. Olvasás-írás [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | A hatás után megjelenő animációs színt definiálja. Olvasás/írás [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | A hatás után megjelenő animáció típusát definiálja. Olvasás/írás [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | A hatás szöveganimáció típusát definiálja. A forma szövege betűnként, szó szerint vagy egyszerre animálható. Olvasás/írás [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | A hatáshoz tartozó viselkedés gyűjteményét adja vissza. Olvasás/írás [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Az animált szövegrészek (szavak vagy betűk) közötti késleltetést definiálja. Pozitív érték esetén a hatás időtartamának százalékát jelöli. Negatív érték esetén a késleltetést másodpercben adja meg. Olvasás/írás Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | A hatás osztályát definiálja. Olvasás/írás [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | A hatáshoz tartozó sorozatot adja vissza. Csak olvasható [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | A hatáshoz beágyazott hangot definiálja. Olvasás/írás [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Ez az attribútum megadja, hogy az animációs hatás megállítja-e az előző hangot. Olvasás/írás Boolean. |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | A hatás altípusát definiálja. Olvasás/írás [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | A hatás cél alakját adja vissza. Csak olvasható [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | A szöveg animációt adja vissza. Csak olvasható [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | A hatás időzítési értékét definiálja. Olvasás/írás [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | A hatás típusát definiálja. Olvasás/írás [`EffectType`](../effecttype). |
 
 ### Lásd még
 
 * névtér [Aspose.Slides.Animation](../../aspose.slides.animation)
-* összeállítás [Aspose.Slides](../../)
+* összeszerelés [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,73 +1,73 @@
 ---
 title: MathElementBase
-second_title: Aspose.Sildes .NET API referencia
-description: Alap osztály az IMathElement számára, amely a minden örökölt osztályra jellemző néhány metódus megvalósítását tartalmazza. Csak belső használatra. Az örökölt osztálynak IMathElementnek kell lennie.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Az IMathElement alaposztálya, amely néhány, az összes leszármazott osztályra jellemző metódus implementációját tartalmazza. Csak belső használatra. A származtatott osztálynak IMathElement-nek kell lennie.
 type: docs
-weight: 8660
+weight: 8680
 url: /hu/aspose.slides.mathtext/mathelementbase/
 ---
 ## MathElementBase osztály
 
-Alap osztály az IMathElement számára, amely a minden örökölt osztályra jellemző néhány metódus megvalósítását tartalmazza. Csak belső használatra. Az örökölt osztálynak IMMathElementnek kell lennie.
+Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.
 
 ```csharp
 public abstract class MathElementBase : IMathElement
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Beállít egy akcentus jelet (egy karaktert ezen elem tetején) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction)(IMathElement) | Megadott függvényt hív meg, amely ezt az példányt használja argumentumként |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Megadott függvényt hív meg, amely ezt az példányt használja argumentumként |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_4)(string) | Megadott függvényt hív meg, amely ezt az példányt használja argumentumként |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Megadott függvényt hív meg, amely ezt az példányt használja argumentumként, és egy megadott további argumentumot |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Megadott függvényt hív meg, amely ezt az példányt használja argumentumként, és egy megadott további argumentumot |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide)(IMathElement) | Létrehoz egy törtet ezzel a számlálóval és a megadott nevezővel |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_2)(string) | Létrehoz egy törtet ezzel a számlálóval és a megadott nevezővel |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_1)(IMathElement, MathFractionTypes) | Létrehoz a megadott típusú törtet ezzel a számlálóval és a megadott nevezővel |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_3)(string, MathFractionTypes) | Létrehoz a megadott típusú törtet ezzel a számlálóval és a megadott nevezővel |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose)() | Körülvesz egy matematikai elemet zárójelekbe |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose_1)(char, char) | Körülvesz egy matematikai elemet a megadott karakterekkel, például zárójelek vagy más keretező karakterek |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function#function)(IMathElement) | Megadott argumentumfüggvényt vesz, amely ezt az példányt használja függvénynévként |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function#function_1)(string) | Megadott argumentumfüggvényt vesz, amely ezt az példányt használja függvénynévként |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group#group)() | Ezt az elemet egy csoportba helyezi, az alsó kapcsos zárójel használatával |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | Ezt az elemet egy csoportba helyezi, egy csoportosító karakter, például alsó kapcsos zárójel vagy más segítségével |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral)(MathIntegralTypes) | Megkapja az integrált limitek nélkül |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Végrehajt egy integrált |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_3)(MathIntegralTypes, string, string) | Végrehajt egy integrált |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Végrehajt egy integrált |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Végrehajt egy integrált |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join)(IMathElement) | Összekapcsol egy matematikai elemet és létrehoz egy matematikai blokkot |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join_1)(string) | Összekapcsol egy matematikai szöveget és létrehoz egy matematikai blokkot |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Létrehoz egy N-operandus operátort |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary_1)(MathNaryOperatorTypes, string, string) | Létrehoz egy N-operandus operátort |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Beállít egy vonalat ennek az elemnek a tetején |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical)(IMathElement) | Megadja a megadott fokú matematikai gyökeret a meghatározott argumentumból. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical_1)(string) | Megadja a megadott fokú matematikai gyökeret a meghatározott argumentumból. |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit)(IMathElement) | Megkapja az alsó határt |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit_1)(string) | Megkapja az alsó határt |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript)(IMathElement) | Létrehoz alsó indexet |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript_1)(string) | Létrehoz alsó indexet |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Bal oldalon létrehoz alsó és felső indexet |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Bal oldalon létrehoz alsó és felső indexet |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Jobb oldalon hoz létre alsó és felső indexet |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Jobb oldalon hoz létre alsó és felső indexet |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript)(IMathElement) | Létrehoz felső indexet |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript_1)(string) | Létrehoz felső indexet |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit)(IMathElement) | Megkapja a felső határt |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit_1)(string) | Megkapja a felső határt |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox)() | Ezt az elemet egy keretdobozba helyezi |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Ezt az elemet egy keretdobozba helyezi |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Ezt az elemet egy nem vizuális dobozba (logikai csoportosítás) helyezi, amelyet egyenlet vagy más matematikai szöveg komponenseinek csoportosítására használnak. Egy keretezett objektum (például) szolgálhat operátor emulátorként igazítási ponttal vagy anélkül, szolgálhat sorvágás pontként, vagy úgy csoportosítható, hogy ne engedje meg a sortöréseket belül. |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Beállít egy ékezetet (a karaktert az elem tetején) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction)(IMathElement) | Az adott függvényt veszi, a példányt argumentumként használva |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Az adott függvényt veszi, a példányt argumentumként használva |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_4)(string) | Az adott függvényt veszi, a példányt argumentumként használva |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Az adott függvényt veszi, a példányt argumentumként, valamint a megadott további argumentumot |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Az adott függvényt veszi, a példányt argumentumként, valamint a megadott további argumentumot |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide)(IMathElement) | Létrehoz egy törtet a számlálóval és a megadott nevezővel |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_2)(string) | Létrehoz egy törtet a számlálóval és a megadott nevezővel |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_1)(IMathElement, MathFractionTypes) | Létrehoz egy adott típusú törtet a számlálóval és a megadott nevezővel |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_3)(string, MathFractionTypes) | Létrehoz egy adott típusú törtet a számlálóval és a megadott nevezővel |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose)() | Zárójelek közé tesz egy matematikai elemet |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose_1)(char, char) | Megadott karakterekkel (például zárójelek vagy más keretező karakterek) zárja be a matematikai elemet |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function#function)(IMathElement) | Egy függvényt vesz egy argumentummal, a példányt a függvény nevének használva |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function#function_1)(string) | Egy függvényt vesz egy argumentummal, a példányt a függvény nevének használva |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group#group)() | A legalja széles zárójel segítségével csoportba helyezi az elemet |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | A megadott csoportosító karakterrel (például legalja széles zárójel vagy más) csoportba helyezi az elemet |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral)(MathIntegralTypes) | Az integrált veszi korlátok nélkül |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Az integrált veszi |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_3)(MathIntegralTypes, string, string) | Az integrált veszi |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Az integrált veszi |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Az integrált veszi |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join)(IMathElement) | Egy matematikai elemet összekapcsol és egy matematikai blokkot hoz létre |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join_1)(string) | Matematikai szöveget kapcsol össze és blokkot hoz létre |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Létrehozza az N-értelmű operátort |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary_1)(MathNaryOperatorTypes, string, string) | Létrehozza az N-értelmű operátort |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Felső vonalat ad az elemhez |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical)(IMathElement) | Meghatározza a megadott fokú matematikai gyököt a megadott argumentumból |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical_1)(string) | Meghatározza a megadott fokú matematikai gyököt a megadott argumentumból |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit)(IMathElement) | Az alsó határt veszi |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit_1)(string) | Az alsó határt veszi |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript)(IMathElement) | Alsó indexet hoz létre |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript_1)(string) | Alsó indexet hoz létre |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Baloldalon hoz létre alsó és felső indexet |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Baloldalon hoz létre alsó és felső indexet |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Jobboldalon hoz létre alsó és felső indexet |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Jobboldalon hoz létre alsó és felső indexet |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript)(IMathElement) | Felső indexet hoz létre |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript_1)(string) | Felső indexet hoz létre |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit)(IMathElement) | A felső határt veszi |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit_1)(string) | A felső határt veszi |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox)() | Az elemet keretdobozba helyezi |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Az elemet keretdobozba helyezi |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Az elemet nem vizuális dobozba (logikai csoportosításba) helyezi, amelyet egyenlet vagy más matematikai szöveg komponenseinek csoportosítására használnak. Egy doboz objektum például operátor emulátorként, igazítási ponttal vagy anélkül, sortörés pontként vagy úgy csoportosítva használható, hogy ne engedje meg a sortöréseket benne. |
 | virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Függőleges tömbbe helyezi |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Beállít egy vonalat ennek az elemnek az alján |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Alsó vonalat ad az elemhez |
 
 ### Lásd még
 
 * interfész [IMathElement](../imathelement)
 * névtér [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* assembly [Aspose.Slides](../../)
+* összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

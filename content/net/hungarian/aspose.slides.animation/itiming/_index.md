@@ -1,14 +1,14 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes for .NET API Referencia
-description: Az animáció időzítését képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: Az animáció időzítését reprezentálja.
 type: docs
-weight: 620
+weight: 640
 url: /hu/aspose.slides.animation/itiming/
 ---
 ## ITiming interfész
 
-Az animáció időzítését képviseli.
+Animáció időzítését reprezentálja.
 
 ```csharp
 public interface ITiming
@@ -18,17 +18,17 @@ public interface ITiming
 
 | Név | Leírás |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Leírja a gyorsítási viselkedés hatásának időtartam százalékos arányát. Olvasás/írás Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Leírja, hogy a animációt automatikusan visszafelé kell-e lejátszani a előre irányú lejátszás után. Olvasás/írás Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Leírja a lassítási viselkedés hatásának időtartam százalékos arányát. Olvasás/írás Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Leírja az animáció hatásának időtartamát. Olvasás/írás Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Leírja, hányszor kell ismételni a hatást. Olvasás/írás Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Leírja, hányszor kell ismételni a hatást. Olvasás/írás Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Ez a tulajdonság meghatározza, hogy a hatás a diák végéig ismétlődik-e. Olvasás/írás Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Ez a tulajdonság meghatározza, hogy a hatás a következő kattintásig ismétlődik-e. Olvasás/írás Boolean. |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Leírja a gyorsulási viselkedés hatás időtartamának százalékos arányát. Olvasás/írás Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Leírja, hogy a animációt automatikusan visszafelé játssza-e le, miután előrefelé lejátszotta. Olvasás/írás Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Leírja a lassulási viselkedés hatás időtartamának százalékos arányát. Olvasás/írás Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Leírja az animációs hatás időtartamát. Olvasás/írás Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Leírja, hogy hányszor kell ismétlődni a hatásnak. Olvasás/írás Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Leírja, hogy hányszor kell ismétlődni a hatásnak. Olvasás/írás Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Ez az attribútum meghatározza, hogy a hatás a diavetítés végéig ismétlődik-e. Olvasás/írás Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Ez az attribútum meghatározza, hogy a hatás a következő kattintásig ismétlődik-e. Olvasás/írás Boolean. |
 | [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Megadja, hogy a hatás befejezés után újraindul-e. Olvasás/írás [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Ez a tulajdonság meghatározza, hogy a hatás lejátszás befejezése után visszatekerődik-e. Olvasás/írás Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Megadja, hogy a időzítést mekkora százalékban kell felgyorsítani (vagy lelassítani). Olvasás/írás Single. |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Ez az attribútum meghatározza, hogy a hatás lejátszása után visszatekerődik-e. Olvasás/írás Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Megadja, hogy a időzítés mennyivel gyorsul (vagy lassul) százalékban. Olvasás/írás Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Leírja a trigger után lévő késleltetési időt. Olvasás/írás Single. |
 | [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Leírja a trigger típusát. Olvasás/írás [`EffectTriggerType`](../effecttriggertype). |
 

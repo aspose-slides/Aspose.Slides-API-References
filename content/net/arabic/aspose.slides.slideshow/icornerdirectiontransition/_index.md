@@ -1,7 +1,7 @@
 ---
 title: ICornerDirectionTransition
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
-description: تأثير انتقال الشريحة باتجاه الزاوية.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تأثير انتقال شريحة باتجاه الزاوية.
 type: docs
 weight: 10060
 url: /ar/aspose.slides.slideshow/icornerdirectiontransition/
@@ -18,7 +18,7 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | يسمح بالحصول على الواجهة الأساسية ITransitionValueBase. قراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | يسمح بالحصول على واجهة ITransitionValueBase الأساسية. قراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | اتجاه الانتقال. قراءة/كتابة [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### انظر أيضًا

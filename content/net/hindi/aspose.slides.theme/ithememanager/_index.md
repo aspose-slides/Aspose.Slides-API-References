@@ -14,12 +14,12 @@ url: /hi/aspose.slides.theme/ithememanager/
 public interface IThemeManager
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/ithememanager/applycolorscheme)(IExtraColorScheme) | एक स्लाइड पर अतिरिक्त रंग योजना लागू करता है। |
-| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | थीम ऑब्जेक्ट लौटाता है। |
+| [CreateThemeEffective](../../aspose.slides.theme/ithememanager/createthemeeffective)() | थीम ऑब्जेक्ट को लौटाता है। |
 
 ### संबंधित देखें
 

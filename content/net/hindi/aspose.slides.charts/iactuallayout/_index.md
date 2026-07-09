@@ -1,12 +1,12 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक चार्ट तत्व की वास्तविक स्थिति निर्दिष्ट करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: चार्ट तत्व की वास्तविक स्थिति निर्दिष्ट करता है।
 type: docs
 weight: 1690
 url: /hi/aspose.slides.charts/iactuallayout/
 ---
-## IActualLayout interface
+## IActualLayout इंटरफ़ेस
 
 चार्ट तत्व की वास्तविक स्थिति निर्दिष्ट करता है।
 
@@ -14,16 +14,16 @@ url: /hi/aspose.slides.charts/iactuallayout/
 public interface IActualLayout
 ```
 
-## गुण
+## प्रॉपर्टी
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
 | [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने के सापेक्ष वास्तविक x स्थिति (बायाँ) निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने के सापेक्ष वास्तविक शीर्ष स्थिति निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने की सापेक्ष वास्तविक x स्थान (बायाँ) को निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | चार्ट तत्व के बाएँ शीर्ष कोने की सापेक्ष वास्तविक शीर्ष को निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

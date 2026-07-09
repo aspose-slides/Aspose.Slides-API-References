@@ -3,10 +3,10 @@ title: MasterTheme
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα κύριο θέμα.
 type: docs
-weight: 11410
+weight: 11430
 url: /el/aspose.slides.theme/mastertheme/
 ---
-## MasterTheme κλάση
+## MasterTheme class
 
 Αναπαριστά ένα κύριο θέμα.
 
@@ -18,18 +18,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Επιστρέφει το χρωματικό σχήμα. Μόνο για ανάγνωση [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Επιστρέφει τη συλλογή των επιπλέον χρωματικών σχημάτων. Αυτά τα σχήματα δεν επηρεάζουν την εμφάνιση της παρουσίασης, μπορούν να επιλεγούν ως κύριο χρωματικό σχήμα για μια διαφάνεια. Μόνο για ανάγνωση [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Επιστρέφει το σχήμα χρωμάτων. Μόνο για ανάγνωση [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Επιστρέφει τη συλλογή των πρόσθετων σχημάτων χρωμάτων. Αυτά τα σχήματα δεν επηρεάζουν την εμφάνιση της παρουσίασης, μπορούν να επιλεγούν ως κύριο σχήμα χρωμάτων για μια διαφάνεια. Μόνο για ανάγνωση [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Επιστρέφει το σχήμα γραμματοσειράς. Μόνο για ανάγνωση [`IFontScheme`](../ifontscheme). |
 | override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Επιστρέφει το σχήμα μορφοποίησης σχήματος. Μόνο για ανάγνωση [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Επιστρέφει το όνομα ενός θέματος. Ανάγνωση/Εγγραφή String. |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Επιστρέφει το όνομα ενός θέματος. Ανάγνωση/εγγραφή String. |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Επιστρέφει την γονική παρουσίαση. Μόνο για ανάγνωση [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## Μεθόδους
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Αντλεί τα δεδομένα του ενεργού θέματος με την εφαρμοσμένη κληρονομικότητα. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Λαμβάνει τα δεδομένα του ενεργού θέματος με την εφαρμόμενη κληρονομικότητα. |
 
 ### Δείτε επίσης
 

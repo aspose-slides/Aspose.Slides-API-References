@@ -1,9 +1,9 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de regras FontFallBack definidas pelo usuário
 type: docs
-weight: 4830
+weight: 4850
 url: /pt/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection classe
@@ -25,7 +25,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Obtém o número de regras realmente contidas na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Obtém a regra no índice especificado. Somente leitura [`IFontFallBackRule`](../ifontfallbackrule). |
 | [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -35,7 +35,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | --- | --- |
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Adiciona uma regra FallBack especificada ao final da coleção. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Remove a primeira ocorrência de uma regra FallBack específica da coleção. |
 
 ### Veja Também

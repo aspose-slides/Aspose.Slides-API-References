@@ -18,7 +18,7 @@ public interface ISvgTSpan
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | รับหรือกำหนดค่า id สำหรับองค์ประกอบ "tspan" |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | รับหรือกำหนด id สำหรับองค์ประกอบ "tspan" |
 
 ### ดูเพิ่มเติม
 

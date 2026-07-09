@@ -1,14 +1,14 @@
 ---
 title: ITab
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một khoảng tab cho văn bản.
+description: Biểu thị một tab cho văn bản.
 type: docs
 weight: 7190
 url: /vi/aspose.slides/itab/
 ---
 ## ITab giao diện
 
-Represents a tabulation for a text.
+Biểu thị một tab cho văn bản.
 
 ```csharp
 public interface ITab : IComparable
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | Tên | Mô tả |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Trả về hoặc thiết lập kiểu căn chỉnh của một tab. Đọc/ghi [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Trả về giao diện IComparable. Chỉ-đọc IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Trả về hoặc thiết lập vị trí của một tab. Việc gán thuộc tính này có thể thay đổi chỉ mục của tab trong bộ sưu tập và làm mất hiệu lực của Enumerator. Đọc/ghi Double. |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Trả về hoặc đặt kiểu căn chỉnh của một tab. Đọc/ghi [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Trả về giao diện IComparable. Chỉ đọc IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Trả về hoặc đặt vị trí của một tab. Gán thuộc tính này có thể thay đổi chỉ mục của tab trong bộ sưu tập và làm cho Enumerator không hợp lệ. Đọc/ghi Double. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

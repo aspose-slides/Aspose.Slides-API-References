@@ -3,10 +3,10 @@ title: IFormattedTextContainer
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik metin biçimini temsil eder.
 type: docs
-weight: 2090
+weight: 2110
 url: /tr/aspose.slides.charts/iformattedtextcontainer/
 ---
-## IFormattedTextContainer arayüz
+## IFormattedTextContainer arayüzü
 
 Grafik metin biçimini temsil eder.
 

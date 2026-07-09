@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides.mathtext/mathnaryoperatorfactory/
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 用於 COM 相容性
 
-### 參見
+### 另見
 
 * 介面 [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

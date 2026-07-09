@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: トレンドラインのタイプを表します
+second_title: Aspose.Sildes for .NET API リファレンス
+description: トレンドラインの種類を表します
 type: docs
-weight: 2470
+weight: 2490
 url: /ja/aspose.slides.charts/trendlinetype/
 ---
-## TrendlineType 列挙型
+## TrendlineType 列挙体
 
-トレンドラインのタイプを表します。
+トレンドラインの種類を表します
 
 ```csharp
 public enum TrendlineType
@@ -21,9 +21,9 @@ public enum TrendlineType
 | Exponential | `0` | トレンドラインが指数曲線になることを指定します。 |
 | Linear | `1` | トレンドラインが直線になることを指定します。 |
 | Logarithmic | `2` | トレンドラインが対数曲線になることを指定します（ここで log は自然対数です）。 |
-| MovingAverage | `3` | トレンドラインが Period 期間の移動平均になることを指定します。 |
-| Polynomial | `4` | トレンドラインが Order 次の多項式曲線になることを指定します。 |
-| Power | `5` | トレンドラインがべき乗曲線になることを指定します。 |
+| MovingAverage | `3` | トレンドラインが期間 Period の移動平均になることを指定します。 |
+| Polynomial | `4` | トレンドラインが次数 Order の多項式曲線になることを指定します。 |
+| Power | `5` | トレンドラインがべき曲線になることを指定します。 |
 
 ### 参照
 

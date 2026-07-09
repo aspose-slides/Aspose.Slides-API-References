@@ -1,12 +1,12 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Hata çubuğu tipini temsil eder
 type: docs
-weight: 1620
+weight: 1640
 url: /tr/aspose.slides.charts/errorbartype/
 ---
-## ErrorBarType sayımı
+## ErrorBarType enum
 
 Hata çubuğu tipini temsil eder
 

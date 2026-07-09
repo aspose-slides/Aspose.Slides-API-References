@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，包含有效的線條填充屬性。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 不變的物件，包含有效的線條填充屬性。
 type: docs
 weight: 6300
 url: /zh-hant/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData 介面
 
-不可變的物件，包含有效的線條填充屬性。
+不變的物件，包含有效的線條填充屬性。
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -22,12 +22,12 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 傳回填充類型。唯讀 [`FillType`](../filltype)。 |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 傳回漸層填充格式。唯讀 [`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 傳回圖案填充格式。唯讀 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 判斷是否應隨形狀旋轉填充。唯讀 Boolean。 |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 判斷填充是否應隨形狀旋轉。唯讀 Boolean。 |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 傳回實心填充的顏色。唯讀 Color。 |
 
 ### 備註
 
-此介面用作 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分。
+此介面是 [`ILineFormatEffectiveData`](../ilineformateffectivedata) 的一部分。
 
 ### 另請參閱
 

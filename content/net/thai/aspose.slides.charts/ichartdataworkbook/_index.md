@@ -1,37 +1,37 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึง Excel workbook ที่ฝังอยู่
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: ให้การเข้าถึงเวิร์กบุ๊ก Excel ที่ฝังอยู่
 type: docs
 weight: 1860
 url: /th/aspose.slides.charts/ichartdataworkbook/
 ---
-## IChartDataWorkbook interface
+## IChartDataWorkbook อินเทอร์เฟซ
 
-ให้การเข้าถึง Excel Workbook ที่ฝังอยู่
+ให้การเข้าถึงเวิร์กบุ๊ก Excel ที่ฝังอยู่
 
 ```csharp
 public interface IChartDataWorkbook
 ```
 
-## Properties
+## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | ดึงคอลเลกชันของ Worksheet |
+| [Worksheets](../../aspose.slides.charts/ichartdataworkbook/worksheets) { get; } | ดึงคอลเลกชันของแผ่นงาน |
 
-## Methods
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | คำนวณสูตรทั้งหมดใน Workbook และอัปเดตค่าของ Cell ที่สอดคล้อง |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | ลบค่าของ Cell ทั้งหมดใน Sheet |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | ดึง Cell ที่สามารถใช้สำหรับ series หรือ categories ของ chart |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | ดึง Cell ที่สามารถใช้สำหรับ series หรือ categories ของ chart |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | ดึง Cell ที่สามารถใช้สำหรับ series หรือ categories ของ chart |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | ดึง Cell ที่สามารถใช้สำหรับ series หรือ categories ของ chart |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | ดึง Cell ที่สามารถใช้สำหรับ series หรือ categories ของ chart |
-| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | ดึงชุดของ Cell |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | คำนวณสูตรทั้งหมดในเวิร์กบุ๊กและอัปเดตค่าของเซลล์ที่เกี่ยวข้อง |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | ลบค่าทั้งหมดของเซลล์ในแผ่นงาน |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | ดึงเซลล์ที่สามารถใช้สำหรับซีรีส์หรือประเภทของแผนภูมิ |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | ดึงเซลล์ที่สามารถใช้สำหรับซีรีส์หรือประเภทของแผนภูมิ |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | ดึงเซลล์ที่สามารถใช้สำหรับซีรีส์หรือประเภทของแผนภูมิ |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | ดึงเซลล์ที่สามารถใช้สำหรับซีรีส์หรือประเภทของแผนภูมิ |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | ดึงเซลล์ที่สามารถใช้สำหรับซีรีส์หรือประเภทของแผนภูมิ |
+| [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | ดึงชุดของเซลล์ |
 
 ### ดูเพิ่มเติม
 

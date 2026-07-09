@@ -1,6 +1,6 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트의 값을 나타냅니다.
 type: docs
 weight: 1220
@@ -16,12 +16,12 @@ public abstract class BaseChartValue : IBaseChartValue
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. 읽기/쓰기 Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Descendants에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 하위 클래스에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 즉 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBaseChartValue](../ibasechartvalue)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

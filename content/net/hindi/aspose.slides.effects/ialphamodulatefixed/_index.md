@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Alpha Modulate Fixed प्रभाव का प्रतिनिधित्व करता है। प्रभाव अल्फा अपारदर्शिता मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
+second_title: Aspose.Sildes .NET API संदर्भ के लिए
+description: एक Alpha Modulate Fixed इफ़ेक्ट का प्रतिनिधित्व करता है। इफ़ेक्ट की अल्फा अपारदर्शिता मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
 type: docs
 weight: 3120
 url: /hi/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed इंटरफ़ेस
 
-एक Alpha Modulate Fixed इफ़ेक्ट का प्रतिनिधित्व करता है। इफ़ेक्ट अल्फ़ा (अस्पष्टता) मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
+Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | नाम | विवरण |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | प्रभाव का प्रतिशत में मात्रा लौटाता है। पढ़ें/लिखें Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। पढ़ें-केवल [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। पढ़ें-केवल [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | इफ़ेक्ट का मान प्रतिशत में लौटाता है। पढ़ें/लिखें Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### देखें
 

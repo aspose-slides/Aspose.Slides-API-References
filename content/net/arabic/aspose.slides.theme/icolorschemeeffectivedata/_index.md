@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes ل .NET مرجع API
-description: كائن غير قابل للتغيير يحتوي على خصائص مخطط الألوان الفعّال.
+second_title: Aspose.Sildes لمرجع API .NET
+description: كائن غير قابل للتغيير يحتوي على خصائص نظام الألوان الفعّال.
 type: docs
 weight: 11160
 url: /ar/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص مخطط الألوان الفعّال.
+كائن غير قابل للتغيير يحتوي على خصائص نظام الألوان الفعّال.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -18,25 +18,25 @@ public interface IColorSchemeEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | اللون الأول المميز في المخطط. Color للقراءة فقط. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | اللون الثاني المميز في المخطط. Color للقراءة فقط. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | اللون الثالث المميز في المخطط. Color للقراءة فقط. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | اللون الرابع المميز في المخطط. Color للقراءة فقط. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | اللون الخامس المميز في المخطط. Color للقراءة فقط. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | اللون السادس المميز في المخطط. Color للقراءة فقط. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | اللون الأول الداكن في المخطط. Color للقراءة فقط. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | اللون الثاني الداكن في المخطط. Color للقراءة فقط. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Color للروابط الفائقة التي تم زيارتها. Color للقراءة فقط. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Color للروابط الفائقة. Color للقراءة فقط. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | يحصل على العنصر في الفهرس المحدد. Color للقراءة فقط. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | اللون الأول الفاتح في المخطط. Color للقراءة فقط. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | اللون الثاني الفاتح في المخطط. Color للقراءة فقط. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | اللون المميز الأول في المخطط. قراءة فقط Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | اللون المميز الثاني في المخطط. قراءة فقط Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | اللون المميز الثالث في المخطط. قراءة فقط Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | اللون المميز الرابع في المخطط. قراءة فقط Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | اللون المميز الخامس في المخطط. قراءة فقط Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | اللون المميز السادس في المخطط. قراءة فقط Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | اللون الداكن الأول في المخطط. قراءة فقط Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | اللون الداكن الثاني في المخطط. قراءة فقط Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | لون الروابط التشعبية التي تم زيارتها. قراءة فقط Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | لون الروابط التشعبية. قراءة فقط Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | يحصل على العنصر في الفهرس المحدد. قراءة فقط Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | اللون الفاتح الأول في المخطط. قراءة فقط Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | اللون الفاتح الثاني في المخطط. قراءة فقط Color. |
 
 ### ملاحظات
 
-يتم استخدام هذه الفئة كجزء من [`IThemeEffectiveData`](../ithemeeffectivedata).
+هذا الصف يُستخدم كجزء من [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### انظر أيضًا
+### انظر أيضاً
 
 * النطاق [Aspose.Slides.Theme](../../aspose.slides.theme)
 * التجميع [Aspose.Slides](../../)

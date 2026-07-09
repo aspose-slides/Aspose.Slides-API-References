@@ -1,9 +1,9 @@
 ---
 title: PresentationText
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa o texto extraído da apresentação
 type: docs
-weight: 9620
+weight: 9640
 url: /pt/aspose.slides/presentationtext/
 ---
 ## PresentationText classe
@@ -20,7 +20,7 @@ public class PresentationText : IPresentationText
 | --- | --- |
 | [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Um array de [`SlideText`](../islidetext) contém o texto de uma apresentação. |
 
-### Veja também
+### Veja Também
 
 * interface [IPresentationText](../ipresentationtext)
 * namespace [Aspose.Slides](../../aspose.slides)

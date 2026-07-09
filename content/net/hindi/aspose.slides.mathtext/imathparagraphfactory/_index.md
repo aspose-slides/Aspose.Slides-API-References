@@ -1,14 +1,14 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Math पैराग्राफ बनाने की अनुमति देता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: गणित पैराग्राफ बनाने की अनुमति देता है
 type: docs
 weight: 8400
 url: /hi/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory इंटरफ़ेस
 
-Math पैराग्राफ बनाने की अनुमति देता है
+गणित पैराग्राफ बनाने की अनुमति देता है
 
 ```csharp
 public interface IMathParagraphFactory
@@ -18,10 +18,10 @@ public interface IMathParagraphFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | खाली Math पैराग्राफ बनाएँ |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Math पैराग्राफ बनाता है और निर्दिष्ट Math ब्लॉक को उसमें रखता है |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | खाली गणित पैराग्राफ बनाएं |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | गणित पैराग्राफ बनाता है और निर्दिष्ट गणित ब्लॉक को उसमें रखता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
 COM संगतता के लिए
 

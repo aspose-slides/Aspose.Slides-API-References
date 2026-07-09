@@ -1,9 +1,9 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーション内の画像を表します。
 type: docs
-weight: 6530
+weight: 6550
 url: /ja/aspose.slides/ippimage/
 ---
 ## IPPImage インターフェイス
@@ -19,10 +19,10 @@ public interface IPPImage
 | 名前 | 説明 |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 画像データのコピーを返します。読み取り専用 Byte[]。 |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 画像の MIME タイプを [`BinaryData`](./binarydata) でエンコードしたものを返します。読み取り専用 String。 |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 画像の MIME タイプを返します。[`BinaryData`](./binarydata) でエンコードされています。読み取り専用 String。 |
 | [Height](../../aspose.slides/ippimage/height) { get; } | 画像の高さを返します。読み取り専用 Int32。 |
 | [Image](../../aspose.slides/ippimage/image) { get; } | 画像のコピーを返します。読み取り専用 [`Image`](./image)。 |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage オブジェクト [`ISvgImage`](../isvgimage) を取得または設定します |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage オブジェクト [`ISvgImage`](../isvgimage) を取得または設定します。 |
 | [Width](../../aspose.slides/ippimage/width) { get; } | 画像の幅を返します。読み取り専用 Int32。 |
 | [X](../../aspose.slides/ippimage/x) { get; } | 画像の X オフセットを返します。読み取り専用 Int32。 |
 | [Y](../../aspose.slides/ippimage/y) { get; } | 画像の Y オフセットを返します。読み取り専用 Int32。 |

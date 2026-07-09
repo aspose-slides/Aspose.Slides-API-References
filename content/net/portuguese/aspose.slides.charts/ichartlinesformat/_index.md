@@ -3,7 +3,7 @@ title: IChartLinesFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa as propriedades de formato das linhas de grade.
 type: docs
-weight: 1870
+weight: 1890
 url: /pt/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat interface
@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Retorna os efeitos usados para uma linha de gráfico. Somente leitura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Retorna as propriedades de estilo de linha de um gráfico. Somente leitura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Retorna efeitos usados para uma linha de gráfico. Somente leitura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Retorna propriedades de estilo de linha de um gráfico. Somente leitura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Ver também
 

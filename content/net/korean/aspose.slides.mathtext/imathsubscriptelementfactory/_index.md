@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: IMathSubscriptElement를 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: IMMathSubscriptElement을(를) 생성할 수 있습니다
 type: docs
 weight: 8480
 url: /ko/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
 ## IMathSubscriptElementFactory 인터페이스
 
-IMMathSubscriptElement를 생성합니다
+IMMathSubscriptElement을(를) 만들 수 있습니다
 
 ```csharp
 public interface IMathSubscriptElementFactory
@@ -18,13 +18,13 @@ public interface IMathSubscriptElementFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMathSubscriptElement를 생성합니다 |
+| [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMathSubscriptElement을(를) 생성합니다 |
 
 ### 비고
 
 COM 호환성을 위해
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

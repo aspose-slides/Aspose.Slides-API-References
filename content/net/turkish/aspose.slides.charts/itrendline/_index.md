@@ -1,12 +1,12 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Sınıf, grafik serisinin trend çizgisini temsil eder
 type: docs
-weight: 2220
+weight: 2240
 url: /tr/aspose.slides.charts/itrendline/
 ---
-## ITrendline arayüzü
+## ITrendline arayüz
 
 Sınıf, grafik serisinin trend çizgisini temsil eder
 
@@ -18,18 +18,18 @@ public interface ITrendline : IOverridableText
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText arabirimi döndürür. Salt-okunur [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Trend çizgisinin, trend yapılan serinin verileri öncesinde uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım dışı grafiklerde, değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Trend çizgisinin denkleminin, grafikte (Rsquaredvalue ile aynı etiket içinde) gösterilmesini belirtir. Okunabilir/Yazılabilir Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Trend çizgisinin R-kare değerinin, grafikte (denklemle aynı etiket içinde) gösterilmesini belirtir. Okunabilir/Yazılabilir Boolean. |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText arayüzünü döndürür. Yalnızca okunabilir [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden önce uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Trend çizgisinin denkleminin grafik üzerinde (Rsquaredvalue ile aynı etikette) gösterilmesini belirtir. Okunabilir/Yazılabilir Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Trend çizgisinin R-kare değerinin grafik üzerinde (denklemin aynı etiketi içinde) gösterilmesini belirtir. Okunabilir/Yazılabilir Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Trend çizgisinin biçimini temsil eder. Okunabilir/Yazılabilir [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Trend çizgisinin, trend yapılan serinin verileri sonrasında uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım dışı grafiklerde, değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Trend çizgisinin y eksenini kestiği değeri belirtir. Bu özellik yalnızca trend çizgi tipi exp, linear veya poly olduğunda desteklenir. Okunabilir/Yazılabilir Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Polinom trend çizgisinin derecesini belirtir. Diğer trend çizgi tipleri için dikkate alınmaz. Değer 2 ile 6 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Hareketli ortalama trend çizgisi için trend çizgisinin periyodunu belirtir. Diğer trend çizgi varyantları için dikkate alınmaz. Değer 2 ile 255 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Bu trend çizgisiyle ilişkili lejand girişini temsil eder. Salt-okunur [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Trend çizgisinin, trendi uygulanan serinin verilerinden sonra uzadığı kategori (veya dağılım grafiğindeki birim) sayısını belirtir. Dağılım ve dağılım olmayan grafiklerde değer herhangi bir negatif olmayan değer olmalıdır. Okunabilir/Yazılabilir Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Trend çizgisinin y eksenini kestiği değeri belirtir. Bu özellik yalnızca trend çizgi türü exp, linear veya poly olduğunda desteklenir. Okunabilir/Yazılabilir Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Polinomsal trend çizgisinin derecesini belirtir. Diğer trend çizgi türleri için göz ardı edilir. Değer 2 ile 6 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Hareketli ortalama trend çizgisi için trend çizgisinin dönemini belirtir. Diğer trend çizgi varyantları için göz ardı edilir. Değer 2 ile 255 arasında olmalıdır. Okunabilir/Yazılabilir Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Bu trend çizgisiyle ilişkili lejand girişini temsil eder. Yalnızca okunabilir [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Trend çizgisinin adını alır veya ayarlar. Okunabilir/Yazılabilir String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Trend çizgisinin tipini alır veya ayarlar. Okunabilir/Yazılabilir [`TrendlineType`](./trendlinetype). |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Trend çizgisinin türünü alır veya ayarlar. Okunabilir/Yazılabilir [`TrendlineType`](./trendlinetype). |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ShapeType
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل الهندسة المسبقة للأشكال الهندسية.
+description: يمثل الهندسة المحددة مسبقًا للأشكال الهندسية.
 type: docs
 weight: 9930
 url: /ar/aspose.slides/shapetype/
 ---
 ## تعداد ShapeType
 
-يمثل الشكل الهندسي المعد مسبقًا للأشكال الهندسية.
+يمثل الشكل الهندسي المحدد مسبقًا للأشكال الهندسية.
 
 ```csharp
 public enum ShapeType
@@ -19,198 +19,198 @@ public enum ShapeType
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | NotDefined | `-1` | غير معرف. |
-| Custom | `0` | Custom شكل. هذه قيمة للقراءة فقط. |
-| Line | `1` | Line شكل. |
-| LineInverse | `2` | Line Inverse شكل. |
-| Triangle | `3` | Triangle شكل. |
-| RightTriangle | `4` | RightTriangle شكل. |
-| Rectangle | `5` | Rectangle شكل. |
-| Diamond | `6` | Diamond شكل. |
-| Parallelogram | `7` | Parallelogram شكل. |
-| Trapezoid | `8` | Trapezoid شكل. |
-| NonIsoscelesTrapezoid | `9` | NonIsoscelesTrapezoid شكل. |
-| Pentagon | `10` | Pentagon شكل. |
-| Hexagon | `11` | Hexagon شكل. |
-| Heptagon | `12` | Heptagon شكل. |
-| Octagon | `13` | Octagon شكل. |
-| Decagon | `14` | Decagon شكل. |
-| Dodecagon | `15` | Dodecagon شكل. |
-| FourPointedStar | `16` | FourPointedStar شكل بأربع نقاط. |
-| FivePointedStar | `17` | FivePointedStar شكل بخمس نقاط. |
-| SixPointedStar | `18` | SixPointedStar شكل بست نقاط. |
-| SevenPointedStar | `19` | SevenPointedStar شكل بسبع نقاط. |
-| EightPointedStar | `20` | EightPointedStar شكل بثمانية نقاط. |
-| TenPointedStar | `21` | TenPointedStar شكل بعشر نقاط. |
-| TwelvePointedStar | `22` | TwelvePointedStar شكل باثنا عشر نقطة. |
-| SixteenPointedStar | `23` | SixteenPointedStar شكل ستة عشر نقطة. |
-| TwentyFourPointedStar | `24` | TwentyFourPointedStar شكل بأربعة وعشرين نقطة. |
-| ThirtyTwoPointedStar | `25` | ThirtyTwoPointedStar شكل بثلاثة وثلاثين نقطة. |
-| RoundCornerRectangle | `26` | RoundCornerRectangle شكل بزاوية مستديرة. |
-| OneRoundCornerRectangle | `27` | OneRoundCornerRectangle شكل بزاوية مستديرة واحدة. |
-| TwoSamesideRoundCornerRectangle | `28` | TwoSamesideRoundCornerRectangle شكل بزاويتين مستديرتين على نفس الجانب. |
-| TwoDiagonalRoundCornerRectangle | `29` | TwoDiagonalRoundCornerRectangle شكل بزاويتين مستديرتين قطريًا. |
-| OneSnipOneRoundCornerRectangle | `30` | OneSnipOneRoundCornerRectangle شكل مع قطع واحدة وزاوية مستديرة واحدة. |
-| OneSnipCornerRectangle | `31` | OneSnipCornerRectangle شكل بزاوية مقطوعة واحدة. |
-| TwoSamesideSnipCornerRectangle | `32` | TwoSamesideSnipCornerRectangle شكل بزاويتين مقطوعتين على نفس الجانب. |
-| TwoDiagonalSnipCornerRectangle | `33` | TwoDiagonalSnipCornerRectangle شكل بزاويتين مقطوعتين قطريًا. |
-| Plaque | `34` | Plaque شكل. |
-| Ellipse | `35` | Ellipse شكل. |
-| Teardrop | `36` | Teardrop شكل. |
-| HomePlate | `37` | HomePlate شكل. |
-| Chevron | `38` | Chevron شكل. |
-| PieWedge | `39` | PieWedge شكل قطاع فطيرة. |
-| Pie | `40` | Pie شكل فطيرة. |
-| BlockArc | `41` | BlockArc شكل قوس كتلة. |
-| Donut | `42` | Donut شكل دونات. |
-| NoSmoking | `43` | NoSmoking شكل غير مسموح بالتدخين. |
-| RightArrow | `44` | RightArrow شكل سهم يمين. |
-| LeftArrow | `45` | LeftArrow شكل سهم يسار. |
-| UpArrow | `46` | UpArrow شكل سهم أعلى. |
-| DownArrow | `47` | DownArrow شكل سهم أسفل. |
-| StripedRightArrow | `48` | StripedRightArrow شكل سهم يمين مخطط. |
-| NotchedRightArrow | `49` | NotchedRightArrow شكل سهم يمين مسنن. |
-| BentUpArrow | `50` | BentUpArrow شكل سهم مائل للأعلى. |
-| LeftRightArrow | `51` | LeftRightArrow شكل سهم يمين-يسار. |
-| UpDownArrow | `52` | UpDownArrow شكل سهم أعلى-أسفل. |
-| LeftUpArrow | `53` | LeftUpArrow شكل سهم يسار أعلى. |
-| LeftRightUpArrow | `54` | LeftRightUpArrow شكل سهم يسار يمين أعلى. |
-| QuadArrow | `55` | QuadArrow شكل سهم رباعي. |
-| CalloutLeftArrow | `56` | CalloutLeftArrow شكل سهم استدعاء يسار. |
-| CalloutRightArrow | `57` | CalloutRightArrow شكل سهم استدعاء يمين. |
-| CalloutUpArrow | `58` | CalloutUpArrow شكل سهم استدعاء أعلى. |
-| CalloutDownArrow | `59` | CalloutDownArrow شكل سهم استدعاء أسفل. |
-| CalloutLeftRightArrow | `60` | CalloutLeftRightArrow شكل سهم استدعاء يسار يمين. |
-| CalloutUpDownArrow | `61` | CalloutUpDownArrow شكل سهم استدعاء أعلى أسفل. |
-| CalloutQuadArrow | `62` | CalloutQuadArrow شكل سهم رباعي استدعاء. |
-| BentArrow | `63` | BentArrow شكل سهم مائل. |
-| UTurnArrow | `64` | UTurnArrow شكل سهم انعطاف U. |
-| CircularArrow | `65` | CircularArrow شكل سهم دائري. |
-| LeftCircularArrow | `66` | LeftCircularArrow شكل سهم دائري يسار. |
-| LeftRightCircularArrow | `67` | LeftRightCircularArrow شكل سهم دائري يسار يمين. |
-| CurvedRightArrow | `68` | CurvedRightArrow شكل سهم منحني يمين. |
-| CurvedLeftArrow | `69` | CurvedLeftArrow شكل سهم منحني يسار. |
-| CurvedUpArrow | `70` | CurvedUpArrow شكل سهم منحني أعلى. |
-| CurvedDownArrow | `71` | CurvedDownArrow شكل سهم منحني أسفل. |
-| SwooshArrow | `72` | SwooshArrow شكل سهم انسيابي. |
-| Cube | `73` | Cube شكل مكعب. |
-| Can | `74` | Can شكل علبة. |
-| LightningBolt | `75` | LightningBolt شكل صاعق. |
-| Heart | `76` | Heart شكل قلب. |
-| Sun | `77` | Sun شكل شمس. |
-| Moon | `78` | Moon شكل قمر. |
-| SmileyFace | `79` | SmileyFace شكل وجه مبتسم. |
-| IrregularSeal1 | `80` | IrregularSeal1 شكل خاتم غير منتظم 1. |
-| IrregularSeal2 | `81` | IrregularSeal2 شكل خاتم غير منتظم 2. |
-| FoldedCorner | `82` | FoldedCorner شكل زاوية مطوية. |
-| Bevel | `83` | Bevel شكل إسفين. |
-| Frame | `84` | Frame شكل إطار. |
-| HalfFrame | `85` | HalfFrame شكل نصف إطار. |
-| Corner | `86` | Corner شكل زاوية. |
-| DiagonalStripe | `87` | DiagonalStripe شكل شريط مائل. |
-| Chord | `88` | Chord شكل وتر. |
-| CurvedArc | `89` | CurvedArc شكل قوس منحني. |
-| LeftBracket | `90` | LeftBracket شكل قوسين أيسر. |
-| RightBracket | `91` | RightBracket شكل قوسين أيمن. |
-| LeftBrace | `92` | LeftBrace شكل قوس معقوف أيسر. |
-| RightBrace | `93` | RightBrace شكل قوس معقوف أيمن. |
-| BracketPair | `94` | BracketPair شكل زوج قوسين. |
-| BracePair | `95` | BracePair شكل زوج أقواس معقوفة. |
-| StraightConnector1 | `96` | StraightConnector1 شكل موصل مستقيم 1. |
-| BentConnector2 | `97` | BentConnector2 شكل موصل مائل 2. |
-| BentConnector3 | `98` | BentConnector3 شكل موصل مائل 3. |
-| BentConnector4 | `99` | BentConnector4 شكل موصل مائل 4. |
-| BentConnector5 | `100` | BentConnector5 شكل موصل مائل 5. |
-| CurvedConnector2 | `101` | CurvedConnector2 شكل موصل منحني 2. |
-| CurvedConnector3 | `102` | CurvedConnector3 شكل موصل منحني 3. |
-| CurvedConnector4 | `103` | CurvedConnector4 شكل موصل منحني 4. |
-| CurvedConnector5 | `104` | CurvedConnector5 شكل موصل منحني 5. |
-| Callout1 | `105` | Callout1 شكل استدعاء 1. |
-| Callout2 | `106` | Callout2 شكل استدعاء 2. |
-| Callout3 | `107` | Callout3 شكل استدعاء 3. |
-| Callout1WithAccent | `108` | Callout1WithAccent شكل استدعاء 1 مع تمييز. |
-| Callout2WithAccent | `109` | Callout2WithAccent شكل استدعاء 2 مع تمييز. |
-| Callout3WithAccent | `110` | Callout3WithAccent شكل استدعاء 3 مع تمييز. |
-| Callout1WithBorder | `111` | Callout1WithBorder شكل استدعاء 1 مع حدود. |
-| Callout2WithBorder | `112` | Callout2WithBorder شكل استدعاء 2 مع حدود. |
-| Callout3WithBorder | `113` | Callout3WithBorder شكل استدعاء 3 مع حدود. |
-| Callout1WithBorderAndAccent | `114` | Callout1WithBorderAndAccent شكل استدعاء 1 مع حدود وتمييز. |
-| Callout2WithBorderAndAccent | `115` | Callout2WithBorderAndAccent شكل استدعاء 2 مع حدود وتمييز. |
-| Callout3WithBorderAndAccent | `116` | Callout3WithBorderAndAccent شكل استدعاء 3 مع حدود وتمييز. |
-| CalloutWedgeRectangle | `117` | CalloutWedgeRectangle شكل استدعاء وادي مستطيل. |
-| CalloutWedgeRoundRectangle | `118` | CalloutWedgeRoundRectangle شكل استدعاء وادي مستطيل مستدير. |
-| CalloutWedgeEllipse | `119` | CalloutWedgeEllipse شكل استدعاء وادي إهليلج. |
-| CalloutCloud | `120` | CalloutCloud شكل استدعاء سحابة. |
-| Cloud | `121` | Cloud شكل سحابة. |
-| Ribbon | `122` | Ribbon شكل شريط. |
-| Ribbon2 | `123` | Ribbon2 شكل شريط 2. |
-| EllipseRibbon | `124` | EllipseRibbon شكل شريط إهليلجي. |
-| EllipseRibbon2 | `125` | EllipseRibbon2 شكل شريط إهليلجي 2. |
-| LeftRightRibbon | `126` | LeftRightRibbon شكل شريط يسار يمين. |
-| VerticalScroll | `127` | VerticalScroll شكل تمرير عمودي. |
-| HorizontalScroll | `128` | HorizontalScroll شكل تمرير أفقي. |
-| Wave | `129` | Wave شكل موجة. |
-| DoubleWave | `130` | DoubleWave شكل موجة مزدوجة. |
-| Plus | `131` | Plus شكل زائد. |
-| ProcessFlow | `132` | ProcessFlow شكل تدفق عملية. |
-| DecisionFlow | `133` | DecisionFlow شكل تدفق قرار. |
-| InputOutputFlow | `134` | InputOutputFlow شكل تدفق إدخال إخراج. |
-| PredefinedProcessFlow | `135` | PredefinedProcessFlow شكل تدفق عملية معرفة مسبقًا. |
-| InternalStorageFlow | `136` | InternalStorageFlow شكل تدفق تخزين داخلي. |
-| DocumentFlow | `137` | DocumentFlow شكل تدفق مستند. |
-| MultiDocumentFlow | `138` | MultiDocumentFlow شكل تدفق مستندات متعددة. |
-| TerminatorFlow | `139` | TerminatorFlow شكل تدفق نهائي. |
-| PreparationFlow | `140` | PreparationFlow شكل تدفق إعداد. |
-| ManualInputFlow | `141` | ManualInputFlow شكل تدفق إدخال يدوي. |
-| ManualOperationFlow | `142` | ManualOperationFlow شكل تدفق عملية يدوية. |
-| ConnectorFlow | `143` | ConnectorFlow شكل تدفق موصل. |
-| PunchedCardFlow | `144` | PunchedCardFlow شكل تدفق بطاقة مثقوبة. |
-| PunchedTapeFlow | `145` | PunchedTapeFlow شكل تدفق شريط مثقوب. |
-| SummingJunctionFlow | `146` | SummingJunctionFlow شكل تدفق تقاطع جمع. |
-| OrFlow | `147` | OrFlow شكل تدفق أو. |
-| CollateFlow | `148` | CollateFlow شكل تدفق تجميع. |
-| SortFlow | `149` | SortFlow شكل تدفق فرز. |
-| ExtractFlow | `150` | ExtractFlow شكل تدفق استخراج. |
-| MergeFlow | `151` | MergeFlow شكل تدفق دمج. |
-| OfflineStorageFlow | `152` | OfflineStorageFlow شكل تدفق تخزين دون الاتصال. |
-| OnlineStorageFlow | `153` | OnlineStorageFlow شكل تدفق تخزين عبر الإنترنت. |
-| MagneticTapeFlow | `154` | MagneticTapeFlow شكل تدفق شريط مغناطيسي. |
-| MagneticDiskFlow | `155` | MagneticDiskFlow شكل تدفق قرص مغناطيسي. |
-| MagneticDrumFlow | `156` | MagneticDrumFlow شكل تدفق أسطوانة مغناطيسية. |
-| DisplayFlow | `157` | DisplayFlow شكل تدفق عرض. |
-| DelayFlow | `158` | DelayFlow شكل تدفق تأخير. |
-| AlternateProcessFlow | `159` | AlternateProcessFlow شكل تدفق عملية بديلة. |
-| OffPageConnectorFlow | `160` | OffPageConnectorFlow شكل تدفق موصل خارج الصفحة. |
-| BlankButton | `161` | BlankButton شكل زر فارغ. |
-| HomeButton | `162` | HomeButton شكل زر الصفحة الرئيسية. |
-| HelpButton | `163` | HelpButton شكل زر مساعدة. |
-| InformationButton | `164` | InformationButton شكل زر معلومات. |
-| ForwardOrNextButton | `165` | ForwardOrNextButton شكل زر تقديم أو التالي. |
-| BackOrPreviousButton | `166` | BackOrPreviousButton شكل زر رجوع أو السابق. |
-| EndButton | `167` | EndButton شكل زر النهاية. |
-| BeginningButton | `168` | BeginningButton شكل زر البداية. |
-| ReturnButton | `169` | ReturnButton شكل زر إرجاع. |
-| DocumentButton | `170` | DocumentButton شكل زر مستند. |
-| SoundButton | `171` | SoundButton شكل زر صوت. |
-| MovieButton | `172` | MovieButton شكل زر فيديو. |
-| Gear6 | `173` | Gear6 شكل ترس 6. |
-| Gear9 | `174` | Gear9 شكل ترس 9. |
-| Funnel | `175` | Funnel شكل قمع. |
-| PlusMath | `176` | PlusMath شكل جمع رياضي. |
-| MinusMath | `177` | MinusMath شكل طرح رياضي. |
-| MultiplyMath | `178` | MultiplyMath شكل ضرب رياضي. |
-| DivideMath | `179` | DivideMath شكل قسمة رياضي. |
-| EqualMath | `180` | EqualMath شكل مساواة رياضية. |
-| NotEqualMath | `181` | NotEqualMath شكل عدم مساواة رياضية. |
-| CornerTabs | `182` | CornerTabs شكل علامات زاوية. |
-| SquareTabs | `183` | SquareTabs شكل علامات مربعة. |
-| PlaqueTabs | `184` | PlaqueTabs شكل علامات لوحة. |
-| ChartX | `185` | ChartX شكل مخطط X. |
-| ChartStar | `186` | ChartStar شكل مخطط نجمة. |
-| ChartPlus | `187` | ChartPlus شكل مخطط زائد. |
+| Custom | `0` | شكل مخصص. هذه قيمة للقراءة فقط. |
+| Line | `1` | شكل خط. |
+| LineInverse | `2` | شكل خط معكوس. |
+| Triangle | `3` | شكل مثلث. |
+| RightTriangle | `4` | شكل مثلث قائم. |
+| Rectangle | `5` | شكل مستطيل. |
+| Diamond | `6` | شكل معين. |
+| Parallelogram | `7` | شكل متوازي أضلاع. |
+| Trapezoid | `8` | شكل شبه منحرف. |
+| NonIsoscelesTrapezoid | `9` | شكل شبه منحرف غير متساوي الساقين. |
+| Pentagon | `10` | شكل خماسي. |
+| Hexagon | `11` | شكل سداسي. |
+| Heptagon | `12` | شكل سباعي. |
+| Octagon | `13` | شكل ثماني. |
+| Decagon | `14` | شكل عشاري. |
+| Dodecagon | `15` | شكل مزدوج عشر. |
+| FourPointedStar | `16` | شكل نجمة رباعية. |
+| FivePointedStar | `17` | شكل نجمة خماسية. |
+| SixPointedStar | `18` | شكل نجمة سداسية. |
+| SevenPointedStar | `19` | شكل نجمة سباعية. |
+| EightPointedStar | `20` | شكل نجمة ثمانية. |
+| TenPointedStar | `21` | شكل نجمة عشرية. |
+| TwelvePointedStar | `22` | شكل نجمة ثنائية عشر. |
+| SixteenPointedStar | `23` | شكل نجمة ستة عشر. |
+| TwentyFourPointedStar | `24` | شكل نجمة أربعة وعشرين. |
+| ThirtyTwoPointedStar | `25` | شكل نجمة اثنين وثلاثين. |
+| RoundCornerRectangle | `26` | شكل مستطيل بزوايا مستديرة. |
+| OneRoundCornerRectangle | `27` | شكل مستطيل بزوايا مستديرة واحدة. |
+| TwoSamesideRoundCornerRectangle | `28` | شكل مستطيل بزوايا مستديرة على الجانبين المتشابهين. |
+| TwoDiagonalRoundCornerRectangle | `29` | شكل مستطيل بزوايا مستديرة قطرية. |
+| OneSnipOneRoundCornerRectangle | `30` | شكل مستطيل بقطعة واحدة وزاوية مستديرة واحدة. |
+| OneSnipCornerRectangle | `31` | شكل مستطيل بقطعة واحدة في الزاوية. |
+| TwoSamesideSnipCornerRectangle | `32` | شكل مستطيل بقطعتين على الجانبين المتشابهين. |
+| TwoDiagonalSnipCornerRectangle | `33` | شكل مستطيل بقطعتين قطريتين. |
+| Plaque | `34` | شكل لوحة. |
+| Ellipse | `35` | شكل بيضاوي. |
+| Teardrop | `36` | شكل قطر دمعة. |
+| HomePlate | `37` | شكل قاعدة منزلية. |
+| Chevron | `38` | شكل شيفرون. |
+| PieWedge | `39` | شكل شريحة فطيرة. |
+| Pie | `40` | شكل فطيرة. |
+| BlockArc | `41` | شكل قوس كتلي. |
+| Donut | `42` | شكل دونات. |
+| NoSmoking | `43` | شكل لا تدخين. |
+| RightArrow | `44` | شكل سهم يمين. |
+| LeftArrow | `45` | شكل سهم يسار. |
+| UpArrow | `46` | شكل سهم أعلى. |
+| DownArrow | `47` | شكل سهم أسفل. |
+| StripedRightArrow | `48` | شكل سهم يمين مخطط. |
+| NotchedRightArrow | `49` | شكل سهم يمين مسنن. |
+| BentUpArrow | `50` | شكل سهم منحني للأعلى. |
+| LeftRightArrow | `51` | شكل سهم يمين ويسار. |
+| UpDownArrow | `52` | شكل سهم أعلى وأسفل. |
+| LeftUpArrow | `53` | شكل سهم يسار أعلى. |
+| LeftRightUpArrow | `54` | شكل سهم يسار يمين أعلى. |
+| QuadArrow | `55` | شكل سهم رباعي. |
+| CalloutLeftArrow | `56` | شكل سحب توضيحي سهم يسار. |
+| CalloutRightArrow | `57` | شكل سحب توضيحي سهم يمين. |
+| CalloutUpArrow | `58` | شكل سحب توضيحي سهم أعلى. |
+| CalloutDownArrow | `59` | شكل سحب توضيحي سهم أسفل. |
+| CalloutLeftRightArrow | `60` | شكل سحب توضيحي سهم يسار يمين. |
+| CalloutUpDownArrow | `61` | شكل سحب توضيحي سهم أعلى أسفل. |
+| CalloutQuadArrow | `62` | شكل سحب توضيحي سهم رباعي. |
+| BentArrow | `63` | شكل سهم منحني. |
+| UTurnArrow | `64` | شكل سهم دورة U. |
+| CircularArrow | `65` | شكل سهم دائري. |
+| LeftCircularArrow | `66` | شكل سهم دائري يسار. |
+| LeftRightCircularArrow | `67` | شكل سهم دائري يسار يمين. |
+| CurvedRightArrow | `68` | شكل سهم منحني يمين. |
+| CurvedLeftArrow | `69` | شكل سهم منحني يسار. |
+| CurvedUpArrow | `70` | شكل سهم منحني أعلى. |
+| CurvedDownArrow | `71` | شكل سهم منحني أسفل. |
+| SwooshArrow | `72` | شكل سهم swoosh. |
+| Cube | `73` | شكل مكعب. |
+| Can | `74` | شكل علبة. |
+| LightningBolt | `75` | شكل صاعقة. |
+| Heart | `76` | شكل قلب. |
+| Sun | `77` | شكل شمس. |
+| Moon | `78` | شكل قمر. |
+| SmileyFace | `79` | شكل وجه ابتسامة. |
+| IrregularSeal1 | `80` | شكل ختم غير منتظم 1. |
+| IrregularSeal2 | `81` | شكل ختم غير منتظم 2. |
+| FoldedCorner | `82` | شكل زاوية مطوية. |
+| Bevel | `83` | شكل حافة مائلة. |
+| Frame | `84` | شكل إطار. |
+| HalfFrame | `85` | شكل نصف إطار. |
+| Corner | `86` | شكل زاوية. |
+| DiagonalStripe | `87` | شكل شريط قطري. |
+| Chord | `88` | شكل وتر. |
+| CurvedArc | `89` | شكل قوس منحني. |
+| LeftBracket | `90` | شكل قوسين أيسر. |
+| RightBracket | `91` | شكل قوسين أيمن. |
+| LeftBrace | `92` | شكل قوس مزدوج أيسر. |
+| RightBrace | `93` | شكل قوس مزدوج أيمن. |
+| BracketPair | `94` | شكل زوج أقواس. |
+| BracePair | `95` | شكل زوج أقواس مزدوجة. |
+| StraightConnector1 | `96` | شكل موصل مستقيم 1. |
+| BentConnector2 | `97` | شكل موصل منحني 2. |
+| BentConnector3 | `98` | شكل موصل منحني 3. |
+| BentConnector4 | `99` | شكل موصل منحني 4. |
+| BentConnector5 | `100` | شكل موصل منحني 5. |
+| CurvedConnector2 | `101` | شكل موصل منحني 2. |
+| CurvedConnector3 | `102` | شكل موصل منحني 3. |
+| CurvedConnector4 | `103` | شكل موصل منحني 4. |
+| CurvedConnector5 | `104` | شكل موصل منحني 5. |
+| Callout1 | `105` | شكل سحب توضيحي 1. |
+| Callout2 | `106` | شكل سحب توضيحي 2. |
+| Callout3 | `107` | شكل سحب توضيحي 3. |
+| Callout1WithAccent | `108` | شكل سحب توضيحي 1 مع إبراز. |
+| Callout2WithAccent | `109` | شكل سحب توضيحي 2 مع إبراز. |
+| Callout3WithAccent | `110` | شكل سحب توضيحي 3 مع إبراز. |
+| Callout1WithBorder | `111` | شكل سحب توضيحي 1 مع حد. |
+| Callout2WithBorder | `112` | شكل سحب توضيحي 2 مع حد. |
+| Callout3WithBorder | `113` | شكل سحب توضيحي 3 مع حد. |
+| Callout1WithBorderAndAccent | `114` | شكل سحب توضيحي 1 مع حد وإبراز. |
+| Callout2WithBorderAndAccent | `115` | شكل سحب توضيحي 2 مع حد وإبراز. |
+| Callout3WithBorderAndAccent | `116` | شكل سحب توضيحي 3 مع حد وإبراز. |
+| CalloutWedgeRectangle | `117` | شكل سحب توضيحي مثلث مستطيل. |
+| CalloutWedgeRoundRectangle | `118` | شكل سحب توضيحي مثلث مستطيل مستدير. |
+| CalloutWedgeEllipse | `119` | شكل سحب توضيحي مثلث بيضاوي. |
+| CalloutCloud | `120` | شكل سحب توضيحي سحابة. |
+| Cloud | `121` | شكل سحابة. |
+| Ribbon | `122` | شكل شريط. |
+| Ribbon2 | `123` | شكل شريط 2. |
+| EllipseRibbon | `124` | شكل شريط بيضاوي. |
+| EllipseRibbon2 | `125` | شكل شريط بيضاوي 2. |
+| LeftRightRibbon | `126` | شكل شريط يسار يمين. |
+| VerticalScroll | `127` | شكل تمرير عمودي. |
+| HorizontalScroll | `128` | شكل تمرير أفقي. |
+| Wave | `129` | شكل موجة. |
+| DoubleWave | `130` | شكل موجة مزدوجة. |
+| Plus | `131` | شكل زائد. |
+| ProcessFlow | `132` | شكل تدفق عملية. |
+| DecisionFlow | `133` | شكل تدفق قرار. |
+| InputOutputFlow | `134` | شكل تدفق إدخال وإخراج. |
+| PredefinedProcessFlow | `135` | شكل تدفق عملية معرفة مسبقًا. |
+| InternalStorageFlow | `136` | شكل تدفق تخزين داخلي. |
+| DocumentFlow | `137` | شكل تدفق مستند. |
+| MultiDocumentFlow | `138` | شكل تدفق مستندات متعددة. |
+| TerminatorFlow | `139` | شكل تدفق نهائي. |
+| PreparationFlow | `140` | شكل تدفق إعداد. |
+| ManualInputFlow | `141` | شكل تدفق إدخال يدوي. |
+| ManualOperationFlow | `142` | شكل تدفق عملية يدوية. |
+| ConnectorFlow | `143` | شكل تدفق موصل. |
+| PunchedCardFlow | `144` | شكل تدفق بطاقة مثقوبة. |
+| PunchedTapeFlow | `145` | شكل تدفق شريط مثقوب. |
+| SummingJunctionFlow | `146` | شكل تدفق تقاطع جمع. |
+| OrFlow | `147` | شكل تدفق أو. |
+| CollateFlow | `148` | شكل تدفق تجميع. |
+| SortFlow | `149` | شكل تدفق فرز. |
+| ExtractFlow | `150` | شكل تدفق استخراج. |
+| MergeFlow | `151` | شكل تدفق دمج. |
+| OfflineStorageFlow | `152` | شكل تدفق تخزين غير متصل. |
+| OnlineStorageFlow | `153` | شكل تدفق تخزين متصل. |
+| MagneticTapeFlow | `154` | شكل تدفق شريط مغناطيسي. |
+| MagneticDiskFlow | `155` | شكل تدفق قرص مغناطيسي. |
+| MagneticDrumFlow | `156` | شكل تدفق أسطوانة مغناطيسية. |
+| DisplayFlow | `157` | شكل تدفق عرض. |
+| DelayFlow | `158` | شكل تدفق تأخير. |
+| AlternateProcessFlow | `159` | شكل تدفق عملية بديلة. |
+| OffPageConnectorFlow | `160` | شكل تدفق موصل خارج الصفحة. |
+| BlankButton | `161` | شكل زر فارغ. |
+| HomeButton | `162` | شكل زر منزل. |
+| HelpButton | `163` | شكل زر مساعدة. |
+| InformationButton | `164` | شكل زر معلومات. |
+| ForwardOrNextButton | `165` | شكل زر للأمام أو التالي. |
+| BackOrPreviousButton | `166` | شكل زر للرجوع أو السابق. |
+| EndButton | `167` | شكل زر النهاية. |
+| BeginningButton | `168` | شكل زر البداية. |
+| ReturnButton | `169` | شكل زر إرجاع. |
+| DocumentButton | `170` | شكل زر مستند. |
+| SoundButton | `171` | شكل زر صوت. |
+| MovieButton | `172` | شكل زر فيلم. |
+| Gear6 | `173` | شكل ترس 6. |
+| Gear9 | `174` | شكل ترس 9. |
+| Funnel | `175` | شكل قمع. |
+| PlusMath | `176` | شكل جمع رياضي. |
+| MinusMath | `177` | شكل طرح رياضي. |
+| MultiplyMath | `178` | شكل ضرب رياضي. |
+| DivideMath | `179` | شكل قسمة رياضي. |
+| EqualMath | `180` | شكل مساواة رياضية. |
+| NotEqualMath | `181` | شكل عدم مساواة رياضية. |
+| CornerTabs | `182` | شكل علامات زاوية. |
+| SquareTabs | `183` | شكل علامات مربعة. |
+| PlaqueTabs | `184` | شكل علامات لوحة. |
+| ChartX | `185` | شكل مخطط X. |
+| ChartStar | `186` | شكل مخطط نجمة. |
+| ChartPlus | `187` | شكل مخطط زائد. |
 
 ### انظر أيضًا
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

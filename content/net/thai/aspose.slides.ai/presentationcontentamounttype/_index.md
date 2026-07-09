@@ -1,26 +1,26 @@
 ---
 title: PresentationContentAmountType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุปริมาณเนื้อหาที่รวมอยู่ในงานนำเสนอที่สร้างขึ้น ซึ่งส่งผลต่อจำนวนสไลด์และระดับรายละเอียดต่อสไลด์
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ระบุปริมาณเนื้อหาที่รวมอยู่ในงานนำเสนอที่สร้างขึ้น ซึ่งส่งผลต่อจำนวนสไลด์และระดับของรายละเอียดต่อสไลด์
 type: docs
 weight: 60
 url: /th/aspose.slides.ai/presentationcontentamounttype/
 ---
-## PresentationContentAmountType ประเภทการนับค่า
+## PresentationContentAmountType enumeration
 
-ระบุปริมาณเนื้อหาที่รวมอยู่ในงานนำเสนอที่สร้างขึ้น ซึ่งมีผลต่อจำนวนสไลด์และระดับรายละเอียดต่อสไลด์.
+ระบุปริมาณเนื้อหาที่รวมในงานนำเสนอที่สร้างขึ้น ซึ่งส่งผลต่อจำนวนสไลด์และระดับของรายละเอียดต่อสไลด์
 
 ```csharp
 public enum PresentationContentAmountType
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Brief | `0` | เนื้อหาสั้นและพื้นฐาน |
 | Medium | `1` | เนื้อหาปริมาณปานกลาง |
-| Detailed | `2` | ตัวเลือกที่มีรายละเอียดสูงสุดพร้อมข้อความที่ยาวมาก |
+| Detailed | `2` | ตัวเลือกที่ละเอียดที่สุดพร้อมข้อความจำนวนมาก |
 
 ### ดูเพิ่มเติม
 

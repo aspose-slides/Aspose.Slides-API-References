@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุประเภทของค่าต่าง ๆ ในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ระบุประเภทของค่าที่อยู่ในรายการคุณสมบัติของ ChartDataPoint.ErrorBarsCustomValues
 type: docs
 weight: 1590
 url: /th/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues คลาส
 
-ระบุประเภทของค่าในรายการคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues
+ระบุประเภทของค่าในรายการคุณสมบัติของ ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -16,18 +16,18 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | ตัวสร้างค่าเริ่มต้น |
+| [DataSourceTypeForErrorBarsCustomValues](datasourcetypeforerrorbarscustomvalues)() | คอนสตรัคเตอร์เริ่มต้น |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | ระบุว่า property AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็น property ที่ใช้งานจริงในวัตถุ property XMinus ของจุดข้อมูลสำหรับค่าที่กำหนดเองของ error bars. ในอีกความหมายหนึ่ง มันระบุประเภทของค่าของ property ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | ระบุว่า property AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็น property ที่ใช้งานจริงในวัตถุ property XPlus ของจุดข้อมูลสำหรับค่าที่กำหนดเองของ error bars. ในอีกความหมายหนึ่ง มันระบุประเภทของค่าของ property ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | ระบุว่า property AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็น property ที่ใช้งานจริงในวัตถุ property YMinus ของจุดข้อมูลสำหรับค่าที่กำหนดเองของ error bars. ในอีกความหมายหนึ่ง มันระบุประเภทของค่าของ property ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | ระบุว่า property AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็น property ที่ใช้งานจริงในวัตถุ property YPlus ของจุดข้อมูลสำหรับค่าที่กำหนดเองของ error bars. ในอีกความหมายหนึ่ง มันระบุประเภทของค่าของ property ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | ระบุว่า คุณสมบัติ AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าจริงในวัตถุคุณสมบัติ XMinus ของจุดข้อมูลสำหรับค่า error bars ที่กำหนดเอง. อีกอย่างหนึ่ง มันระบุประเภทของค่าของคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | ระบุว่า คุณสมบัติ AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าจริงในวัตถุคุณสมบัติ XPlus ของจุดข้อมูลสำหรับค่า error bars ที่กำหนดเอง. อีกอย่างหนึ่ง มันระบุประเภทของค่าของคุณสมบัติ ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | ระบุว่า คุณสมบัติ AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าจริงในวัตถุคุณสมบัติ YMinus ของจุดข้อมูลสำหรับค่า error bars ที่กำหนดเอง. อีกอย่างหนึ่ง มันระบุประเภทของค่าของคุณสมบัติ ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | ระบุว่า คุณสมบัติ AsCell หรือ AsLiteralString หรือ AsLiteralDouble เป็นค่าจริงในวัตถุคุณสมบัติ YPlus ของจุดข้อมูลสำหรับค่า error bars ที่กำหนดเอง. อีกอย่างหนึ่ง มันระบุประเภทของค่าของคุณสมบัติ ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
 
 ### ดูเพิ่มเติม
 

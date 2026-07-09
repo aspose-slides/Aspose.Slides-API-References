@@ -1,14 +1,14 @@
 ---
 title: IFontScheme
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Memorizza i caratteri definiti dal tema.
+description: Memorizza i font definiti dal tema.
 type: docs
-weight: 11230
+weight: 11250
 url: /it/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme interfaccia
 
-Memorizza i caratteri definiti dal tema.
+Memorizza i font definiti dal tema.
 
 ```csharp
 public interface IFontScheme
@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | Nome | Descrizione |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Restituisce la raccolta di caratteri per la parte "intestazione" della diapositiva. Sola lettura [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Restituisce la raccolta di caratteri per la parte "corpo" della diapositiva. Sola lettura [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Restituisce il nome dello schema di carattere. Lettura/scrittura String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Restituisce la raccolta di font per la parte "titolo" della diapositiva. Sola lettura [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Restituisce la raccolta di font per la parte "corpo" della diapositiva. Sola lettura [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Restituisce il nome dello schema di font. Lettura/scrittura String. |
 
 ### Vedi anche
 

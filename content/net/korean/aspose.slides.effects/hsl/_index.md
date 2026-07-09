@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes .NET용 API 레퍼런스
-description: Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 �휘도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 따라 조정될 수 있습니다.
 type: docs
 weight: 3010
 url: /ko/aspose.slides.effects/hsl/
 ---
 ## HSL 클래스
 
-Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 휘도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
+Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 상대적으로 조정될 수 있습니다.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -24,11 +24,11 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 지정된 [`HSL`](../hsl)가 현재 [`HSL`](../hsl)와 동일한지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 상속이 적용된 효율적인 Hue/Saturation/Luminance 효과 데이터를 가져옵니다. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | 지정된 [`HSL`](../hsl)가 현재 [`HSL`](../hsl)와 같은지 여부를 결정합니다. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | 상속이 적용된 효과적인 Hue/Saturation/Luminance 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IHSL](../ihsl)

@@ -1,14 +1,14 @@
 ---
 title: IVideoCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: Video वस्तुओं के संग्रह को दर्शाता है।
+description: Video वस्तुओं के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 7370
 url: /hi/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection इंटरफ़ेस
 
-Video वस्तुओं का संग्रह दर्शाता है।
+Video वस्तुओं के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,15 +18,15 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IVideo`](../ivideo)। |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IVideo`](../ivideo)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | एक बाइट एरे से प्रस्तुति में वीडियो बनाता और जोड़ता है। |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | दूसरी प्रस्तुति से एक वीडियो फ़ाइल की प्रतिलिपि जोड़ता है। |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | स्ट्रीम से प्रस्तुति में वीडियो बनाता और जोड़ता है। |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | बाइट एरे से प्रस्तुति में video बनाता और जोड़ता है। |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | एक अन्य प्रस्तुति से video फ़ाइल की एक प्रति जोड़ता है। |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | स्ट्रीम से प्रस्तुति में video बनाता और जोड़ता है। |
 
 ### देखें
 

@@ -1,27 +1,27 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: OLE Automation टाइप लाइब्रेरी संदर्भ का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: प्रतिनिधित्व करता है OLE Automation प्रकार लाइब्रेरी संदर्भ।
 type: docs
 weight: 11610
 url: /hi/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib इंटरफ़ेस
 
-OLE Automation टाइप लाइब्रेरी संदर्भ का प्रतिनिधित्व करता है।
+OLE Automation प्रकार लाइब्रेरी संदर्भ का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
 ```
 
-## गुणधर्म
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | वापस लौटाता है IVbaReference इंटरफ़ेस। केवल-पढ़ने योग्य [`IVbaReference`](../ivbareference)। |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | प्रतिनिधित्व करता है Automation टाइप लाइब्रेरी का पहचानकर्ता। पढ़ना/लिखना String। |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference इंटरफ़ेस लौटाता है। केवल-पढ़ने-योग्य [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Automation प्रकार लाइब्रेरी की पहचानकर्ता का प्रतिनिधित्व करता है। पढ़ें/लिखें String. |
 
-### संबंधित देखें
+### अधिक देखें
 
 * इंटरफ़ेस [IVbaReference](../ivbareference)
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)

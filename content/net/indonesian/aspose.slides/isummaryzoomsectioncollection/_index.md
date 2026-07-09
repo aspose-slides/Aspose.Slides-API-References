@@ -1,9 +1,9 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi objek Summary Zoom Section.
 type: docs
-weight: 7150
+weight: 7170
 url: /id/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection antarmuka
@@ -16,13 +16,13 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`ISummaryZoomSection`](../isummaryzoomsection). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Membuat objek Summary Zoom Section baru dan menambahkannya ke koleksi |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | Menghapus semua objek SummaryZoomSection dari koleksi. |

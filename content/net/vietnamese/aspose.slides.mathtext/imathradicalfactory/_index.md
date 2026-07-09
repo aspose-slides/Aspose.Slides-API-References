@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cho phép tạo căn bậc toán học
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Cho phép tạo gốc toán học
 type: docs
 weight: 8440
 url: /vi/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory giao diện
 
-Cho phép tạo một căn bậc toán học
+Cho phép tạo gốc toán học
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMMathElement, IMMathElement) | Tạo một căn bậc toán học |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Tạo một gốc toán học |
 
 ### Ghi chú
 

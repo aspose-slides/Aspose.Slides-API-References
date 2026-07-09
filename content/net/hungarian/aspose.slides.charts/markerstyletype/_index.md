@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a jelölő formáját a diagram adatpontján.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Meghatározza a jelölő alakját a diagram adatpontján.
 type: docs
-weight: 2320
+weight: 2340
 url: /hu/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType enumeráció
 
-Meghatározza a jelölő formaját a diagram adatpontján.
+Meghatározza a jelölő alakját a diagram adatpontján.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,17 +19,17 @@ public enum MarkerStyleType
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | Megadja, hogy minden adatpontnál kör legyen rajzolva. |
-| Dash | `1` | Megadja, hogy minden adatpontnál vonal legyen rajzolva. |
-| Diamond | `2` | Megadja, hogy minden adatpontnál rombusz legyen rajzolva. |
-| Dot | `3` | Megadja, hogy minden adatpontnál pont legyen rajzolva. |
-| None | `4` | Megadja, hogy minden adatpontnál semmi ne legyen rajzolva. |
-| Picture | `5` | Megadja, hogy minden adatpontnál kép legyen rajzolva. |
-| Plus | `6` | Megadja, hogy minden adatpontnál pluszjel legyen rajzolva. |
-| Square | `7` | Megadja, hogy minden adatpontnál négyzet legyen rajzolva. |
-| Star | `8` | Megadja, hogy minden adatpontnál csillag legyen rajzolva. |
-| Triangle | `9` | Megadja, hogy minden adatpontnál háromszög legyen rajzolva. |
-| X | `10` | Megadja, hogy minden adatpontnál X legyen rajzolva. |
+| Circle | `0` | Megadja, hogy egy kör legyen rajzolva minden adatpontnál. |
+| Dash | `1` | Megadja, hogy egy vonal legyen rajzolva minden adatpontnál. |
+| Diamond | `2` | Megadja, hogy egy rombusz legyen rajzolva minden adatpontnál. |
+| Dot | `3` | Megadja, hogy egy pont legyen rajzolva minden adatpontnál. |
+| None | `4` | Megadja, hogy semmi ne legyen rajzolva minden adatpontnál. |
+| Picture | `5` | Megadja, hogy egy kép legyen rajzolva minden adatpontnál. |
+| Plus | `6` | Megadja, hogy egy plusz jel legyen rajzolva minden adatpontnál. |
+| Square | `7` | Megadja, hogy egy négyzet legyen rajzolva minden adatpontnál. |
+| Star | `8` | Megadja, hogy egy csillag legyen rajzolva minden adatpontnál. |
+| Triangle | `9` | Megadja, hogy egy háromszög legyen rajzolva minden adatpontnál. |
+| X | `10` | Megadja, hogy egy X jel legyen rajzolva minden adatpontnál. |
 
 ### Lásd még
 

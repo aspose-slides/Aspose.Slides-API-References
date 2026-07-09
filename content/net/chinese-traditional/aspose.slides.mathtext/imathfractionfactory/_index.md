@@ -1,6 +1,6 @@
 ---
 title: IMathFractionFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 允許建立數學分數
 type: docs
 weight: 8260
@@ -16,14 +16,14 @@ public interface IMathFractionFactory
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | 建立數學分數 |
 | [CreateMathFraction](../../aspose.slides.mathtext/imathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | 建立數學分數 |
 
 ### 備註
 
-供 COM 相容性使用
+用於 COM 相容性
 
 ### 另請參閱
 

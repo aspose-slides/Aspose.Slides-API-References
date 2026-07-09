@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Lớp cơ bản cho các hiệu ứng chuyển đổi slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lớp cơ sở cho các hiệu ứng chuyển tiếp slide.
 type: docs
 weight: 10460
 url: /vi/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase lớp
 
-Lớp cơ bản cho các hiệu ứng chuyển đổi slide.
+Lớp cơ sở cho các hiệu ứng chuyển tiếp slide.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai đối tượng TransitionValueBase có bằng nhau hay không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hoạt động như một hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm
 

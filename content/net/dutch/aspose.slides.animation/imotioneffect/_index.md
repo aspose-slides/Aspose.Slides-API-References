@@ -1,34 +1,34 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt het gedrag van een motion effect.
+description: Geeft het gedrag van een motion effect weer.
 type: docs
 weight: 520
 url: /nl/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect interface
 
-Represent motion effect behavior of effect.
+Weergeeft het gedrag van een motion effect.
 
 ```csharp
 public interface IMotionEffect : IBehavior
 ```
 
-## Eigenschappen
+## Properties
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | Beschrijft de relatieve hoek van het bewegingspad. Lezen/Schrijven Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Staat toe de basis IBehavior interface op te halen. Alleen-lezen [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | Stelt in staat om de basis IBehavior interface te verkrijgen. Alleen-lezen [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | Beschrijft de relatieve offsetwaarde voor de animatie (in procenten). Lezen/Schrijven PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Specificeert een x/y-coördinaat om de animatie vanaf te starten (in procenten). Lezen/Schrijven PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Specificeert waartoe de oorsprong van het bewegingspad relatief is, zoals de lay-out van de dia of de bovenliggende. Lezen/Schrijven [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Specificeert de pad-primitieve gevolgd door coördinaten voor de animatiebeweging. Lezen/Schrijven [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Specificeert hoe het pad beweegt wanneer de vorm wordt verplaatst. Lezen/Schrijven [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Beschrijft het midden van de rotatie gebruikt om een bewegingspad te roteren met X hoek. Lezen/Schrijven PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Specificeert de doelpositie voor een animatie-effect (in procenten). Lezen/Schrijven PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | Bepaalt een x/y-coördinaat om de animatie van te starten (in procenten). Lezen/Schrijven PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | Bepaalt wat de oorsprong van het bewegingspad is ten opzichte van bijvoorbeeld de lay-out van de dia, of de bovenliggende. Lezen/Schrijven [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | Bepaalt het padprimitive gevolgd door coördinaten voor de animatiebeweging. Lezen/Schrijven [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | Bepaalt hoe het bewegingspad beweegt wanneer de vorm wordt verplaatst. Lezen/Schrijven [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | Beschrijft het middelpunt van de rotatie die wordt gebruikt om een bewegingspad te roteren met X hoek. Lezen/Schrijven PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | Bepaalt de doellocatie voor een animatiebewegingseffect (in procenten). Lezen/Schrijven PointF. |
 
-### Zie ook
+### See Also
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

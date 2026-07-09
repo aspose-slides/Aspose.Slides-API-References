@@ -1,14 +1,14 @@
 ---
 title: ExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 추가 색 구성표 컬렉션을 나타냅니다.
+description: 추가 색 구성표의 컬렉션을 나타냅니다.
 type: docs
 weight: 11110
 url: /ko/aspose.slides.theme/extracolorschemecollection/
 ---
 ## ExtraColorSchemeCollection 클래스
 
-추가 색 구성표의 컬렉션을 나타냅니다.
+추가 색 구성표의 모음(컬렉션)을 나타냅니다.
 
 ```csharp
 public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
@@ -16,19 +16,19 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | 컬렉션의 요소 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayList에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 색 구성표를 인덱스로 반환합니다. 읽기 전용 [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 컬렉션에 대한 액세스를 동기화하는 데 사용할 수 있는 객체를 반환합니다. 읽기 전용 Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | 컬렉션의 요소 개수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | ArrayList에 대한 접근이 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | 인덱스로 색 구성표를 반환합니다. 읽기 전용 [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | 컬렉션에 대한 접근을 동기화하는 데 사용할 수 있는 객체를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 
 ### 참조
 

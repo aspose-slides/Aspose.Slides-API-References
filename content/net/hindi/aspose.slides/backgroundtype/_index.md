@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड पृष्ठभूमि भराव स्रोत को परिभाषित करता है।
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: स्लाइड बैकग्राउंड भराव स्रोत को निर्धारित करता है।
 type: docs
 weight: 940
 url: /hi/aspose.slides/backgroundtype/
 ---
 ## BackgroundType एन्यूमरेशन
 
-स्लाइड पृष्ठभूमि भराव स्रोत को परिभाषित करता है।
+स्लाइड बैकग्राउंड भराव स्रोत को निर्धारित करता है।
 
 ```csharp
 public enum BackgroundType : sbyte

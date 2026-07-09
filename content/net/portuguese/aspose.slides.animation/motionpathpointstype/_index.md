@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa tipos de pontos em caminho de movimento de animação.
 type: docs
-weight: 690
+weight: 710
 url: /pt/aspose.slides.animation/motionpathpointstype/
 ---
-## enumeração MotionPathPointsType
+## MotionPathPointsType enumeração
 
-Representa tipos de pontos em caminhos de movimento de animação.
+Representa tipos de pontos em caminho de movimento de animação.
 
 ```csharp
 public enum MotionPathPointsType

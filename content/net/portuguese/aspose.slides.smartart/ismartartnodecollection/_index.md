@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Referência de API Aspose.Sildes para .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de nós SmartArt.
 type: docs
-weight: 10540
+weight: 10560
 url: /pt/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection interface
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | Nome | Descrição |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Retorna o nó por índice. Somente leitura [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Retorna nó por índice. Somente leitura [`ISmartArtNode`](../ismartartnode) |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Adiciona um novo nó ou subnó. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Adiciona um novo nó na posição selecionada da coleção de nós. |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Adiciona novo nó ou subnó. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Adiciona novo nó na posição selecionada da coleção de nós. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Remove nó ou subnó por índice. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Remove nó ou subnó. |
 
-### Veja Também
+### Ver Também
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [ISmartArtNode](../ismartartnode)

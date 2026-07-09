@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturation en luminance kunnen elk worden aangepast ten opzichte van hun huidige waarde.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturatie en luminantie kunnen elk worden aangepast ten opzichte van hun huidige waarde.
 type: docs
 weight: 3010
 url: /nl/aspose.slides.effects/hsl/
 ---
 ## HSL klasse
 
-Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturation en luminance kunnen elk worden aangepast ten opzichte van hun huidige waarde.
+Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturatie en luminantie kunnen elk worden aangepast ten opzichte van hun huidige waarde.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -16,21 +16,21 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basisinterface IPresentationComponent op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Maakt het mogelijk om de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Bepaalt of de opgegeven [`HSL`](../hsl) gelijk is aan de huidige [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Haalt effectieve Hue/Saturation/Luminance-effectgegevens op met de overerving toegepast. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Dient als hashfunctie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Haalt de effectieve Hue/Saturation/Luminance-effectgegevens op met de geërfde waarden toegepast. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Dient als een hash-functie voor een bepaald type. |
 
 ### Zie ook
 
-* class [ImageTransformOperation](../imagetransformoperation)
+* klasse [ImageTransformOperation](../imagetransformoperation)
 * interface [IHSL](../ihsl)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)

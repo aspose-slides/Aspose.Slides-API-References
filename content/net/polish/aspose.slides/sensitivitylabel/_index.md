@@ -1,29 +1,28 @@
 ---
 title: SensitivityLabel
 second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje etykietę poufności z Microsoft Purview Information Protection.
+description: Reprezentuje etykietę wrażliwości z Microsoft Purview Information Protection.
 type: docs
-weight: 9770
+weight: 9790
 url: /pl/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel klasa
 
-Reprezentuje etykietę poufności z Microsoft Purview Information Protection.
+Reprezentuje etykietę wrażliwości z Microsoft Purview Information Protection.
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
 ```
-
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Zwraca lub ustawia metodę przypisania etykiety poufności. Odczyt/zapis [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Zwraca listę typów oznaczeń treści, które powinny być zastosowane do pliku. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Zwraca lub ustawia identyfikator etykiety poufności. Odczyt/zapis String. |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Wskazuje, czy etykieta poufności jest włączona. |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Wskazuje, czy etykieta poufności została usunięta. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Zwraca lub ustawia identyfikator witryny Azure Active Directory (Azure AD) odpowiadający zasadzie etykiety poufności, która opisuje etykietę poufności. Odczyt/zapis Guid. |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Zwraca lub ustawia metodę przypisania etykiety wrażliwości. Odczyt/zapis [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Zwraca listę typów oznaczania zawartości, które powinny być zastosowane do pliku. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Zwraca lub ustawia identyfikator etykiety wrażliwości. Odczyt/zapis String. |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Wskazuje, czy etykieta wrażliwości jest włączona. |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Wskazuje, czy etykieta wrażliwości została usunięta. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Zwraca lub ustawia identyfikator witryny Azure Active Directory (Azure AD) odpowiadający polityce etykiety wrażliwości opisującej etykietę wrażliwości. Odczyt/zapis Guid. |
 
 ### Zobacz także
 

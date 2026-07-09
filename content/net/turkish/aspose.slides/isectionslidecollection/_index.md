@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes .NET API Referansı
-description: Bölümdeki slaytların bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir bölümdeki slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 6890
+weight: 6910
 url: /tr/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection arayüz
 
-Bölümdeki slaytların bir koleksiyonunu temsil eder.
+Bir bölümdeki slaytların bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Yalnızca okunabilir [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ISlide`](../islide). |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn điểm dữ liệu của series.
+description: Biểu diễn điểm dữ liệu của chuỗi.
 type: docs
 weight: 1330
 url: /vi/aspose.slides.charts/chartdatapoint/
 ---
-## ChartDataPoint lớp
+## Lớp ChartDataPoint
 
-Represents series data point.
+Biểu diễn điểm dữ liệu của chuỗi.
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,25 +18,25 @@ public class ChartDataPoint : IChartDataPoint
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Read Single. |
-| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Read Single. |
-| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Read Single. |
+| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
 | [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
 | [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | Trả về giá trị màu của điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Map. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | Trả về container của các cấp độ điểm dữ liệu. Áp dụng cho các series Treeamp và Sunburst. Chỉ mục các cấp độ điểm dữ liệu bắt đầu từ 0. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | Đại diện cho các giá trị thanh lỗi của series trong trường hợp kiểu giá trị Custom. Chỉ đọc [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | Xác định lượng mà điểm dữ liệu sẽ được di chuyển ra khỏi trung tâm của biểu đồ tròn. Đọc/ghi Int32. |
-| [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | Đại diện cho các thuộc tính định dạng. Đọc/ghi [`IFormat`](../iformat). |
+| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | Trả về bộ chứa các mức độ của điểm dữ liệu. Áp dụng cho các chuỗi Treeamp và Sunburst. Chỉ mục các mức độ điểm dữ liệu bắt đầu từ 0. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | Biểu diễn giá trị thanh lỗi chuỗi trong trường hợp kiểu giá trị Custom. Chỉ đọc [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | Xác định lượng mà điểm dữ liệu sẽ được di chuyển khỏi trung tâm của bánh pie. Đọc/ghi Int32. |
+| [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | Biểu diễn các thuộc tính định dạng. Đọc/ghi [`IFormat`](../iformat). |
 | [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
 | [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | Xác định điểm dữ liệu sẽ đảo ngược màu nếu giá trị là âm. Đọc/ghi Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | Xác định các bong bóng có hiệu ứng 3D được áp dụng. Đọc/ghi Boolean. |
-| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Nhãn. Chỉ đọc [`IDataLabel`](../idatalabel). |
+| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | Xác định rằng các bong bóng có hiệu ứng 3D được áp dụng. Đọc/ghi Boolean. |
+| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Label. Chỉ đọc [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | Xác định một dấu dữ liệu. Chỉ đọc [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | Thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ trong danh sách này: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Chỉ đọc [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | Đặt điểm dữ liệu là tổng. Chỉ áp dụng cho loại series Waterfall. |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | Thuộc tính của mục chú giải tương ứng trong trường hợp loại biểu đồ thuộc danh sách: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Chỉ đọc [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | Đặt điểm dữ liệu làm tổng. Chỉ áp dụng cho loại chuỗi Waterfall. |
 | [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | Trả về giá trị kích thước của điểm dữ liệu biểu đồ. Được sử dụng với biểu đồ Treemap và Sunburst. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | Giá trị. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | Value. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue. Chỉ đọc [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
 | [YValue](../../aspose.slides.charts/chartdatapoint/yvalue) { get; } | YValue. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
 
@@ -44,10 +44,10 @@ public class ChartDataPoint : IChartDataPoint
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | Trả về màu tự động của điểm dữ liệu dựa trên chỉ số series, chỉ số điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined. |
-| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | Xóa DataPoint khỏi series biểu đồ. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | Trả về màu tự động của điểm dữ liệu dựa trên chỉ số chuỗi, chỉ số điểm dữ liệu, thuộc tính ParentSeriesGroup.IsColorVaried và kiểu biểu đồ. Màu này được sử dụng mặc định nếu FillType bằng NotDefined. |
+| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | Xóa DataPoint khỏi chuỗi biểu đồ. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IChartDataPoint](../ichartdatapoint)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

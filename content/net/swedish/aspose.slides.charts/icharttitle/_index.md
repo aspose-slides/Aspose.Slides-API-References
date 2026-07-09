@@ -1,14 +1,14 @@
 ---
 title: IChartTitle
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för diagramtitel.
+description: Representerar diagramtitelns egenskaper.
 type: docs
-weight: 1980
+weight: 2000
 url: /sv/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle gränssnitt
 
-Representerar egenskaper för diagramtitel.
+Representerar diagramtitelns egenskaper.
 
 ```csharp
 public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
@@ -18,12 +18,12 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Tillåter att hämta bas-ILayoutable gränssnittet. Skrivskyddad [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Tillåter att hämta bas-IOverridableText gränssnittet. Skrivskyddad [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Returnerar fyllnings-, linje- och effekt-stilar för en titel. Skrivskyddad [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Bestämmer om andra diagram-element ska tillåtas överlappa titel. Läs/skriv Boolean. |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Tillåter att hämta bas-ILayoutable-gränssnittet. Skrivskyddad [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Tillåter att hämta bas-IOverridableText-gränssnittet. Skrivskyddad [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Returnerar fyllnings-, linje- och effektstilar för en titel. Skrivskyddad [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Bestämmer om andra diagramdelar ska tillåtas överlappa titeln. Läs/skriv Boolean. |
 
-### Se även
+### Se också
 
 * gränssnitt [IActualLayout](../iactuallayout)
 * gränssnitt [ILayoutable](../ilayoutable)

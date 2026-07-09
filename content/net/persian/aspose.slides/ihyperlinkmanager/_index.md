@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مدیریت پیوندهای فراگیر را برای اضافه‌کردن و حذف فراهم می‌کند.
+description: مدیریت هایپرلینک‌ها را ارائه می‌دهد، شامل افزودن و حذف.
 type: docs
 weight: 6130
 url: /fa/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager رابط
 
-مدیریت پیوندهای فراگیر (اضافه‌کردن، حذف).
+مدیریت هایپرلینک‌ها را فراهم می‌کند (اضافه‌کردن، حذف).
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,13 +18,13 @@ public interface IHyperlinkManager
 
 | نام | توضیح |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | لینک را هنگام کلیک حذف می‌کند. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | لینک را هنگام عبور موس حذف می‌کند. |
-| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | تنظیم لینک خارجی هنگام کلیک. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | تنظیم لینک خارجی هنگام عبور موس. |
-| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | تنظیم لینک داخلی هنگام کلیک. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | تنظیم لینک داخلی هنگام عبور موس. |
-| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | تنظیم لینک ماکرو هنگام کلیک. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | هایپرلینک را هنگام کلیک حذف می‌کند. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | هایپرلینک را هنگام شناور شدن ماوس حذف می‌کند. |
+| [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | هایپرلینک خارجی را هنگام کلیک تنظیم می‌کند. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | هایپرلینک خارجی را هنگام شناور شدن ماوس تنظیم می‌کند. |
+| [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | هایپرلینک داخلی را هنگام کلیک تنظیم می‌کند. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | هایپرلینک داخلی را هنگام شناور شدن ماوس تنظیم می‌کند. |
+| [SetMacroHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setmacrohyperlinkclick)(string) | هایپرلینک ماکرو را هنگام کلیک تنظیم می‌کند. |
 
 ### موارد مرتبط
 

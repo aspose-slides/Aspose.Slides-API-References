@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt gemeenschappelijke slideweergave-eigenschappen voor.
+description: Vertegenwoordigt gemeenschappelijke weergave-eigenschappen voor dia's.
 type: docs
 weight: 2660
 url: /nl/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties klasse
 
-Stelt algemene eigenschappen van de slideweergave voor.
+Vertegenwoordigt gemeenschappelijke weergave-eigenschappen voor dia's.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,21 +18,21 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Retourneert de collectie van de tekenrichtlijnen. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifieert de schaalsverhouding van de weergave in procenten. Lezen/schrijven Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifieert dat de inhoud van de weergave automatisch moet schalen om het huidige venster optimaal te passen. Lezen/schrijven Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Retourneert de collectie van de tekengidsen. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specificeert de weergaveschaalverhouding in percentages. Lezen/Schrijven Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specificeert dat de weergave-inhoud automatisch moet schalen om het beste te passen bij de huidige venstergrootte. Lezen/Schrijven Boolean. |
 
 ### Voorbeelden
 
-Het volgende voorbeeld toont hoe u de zoomwaarde voor een dia van een PowerPoint-presentatie instelt.
+Het volgende voorbeeld toont hoe de zoomwaarde voor een dia van een PowerPoint-presentatie kan worden ingesteld.
 
 ```csharp
 [C#]
-// Instantieer een Presentation-object dat een presentatiebestand vertegenwoordigt
+// Maak een Presentation-object aan dat een presentatiebestand voorstelt
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // Instellen weergave-eigenschappen van de presentatie
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoomwaarde in procenten voor slideweergave
+    // Instellen van weergave-eigenschappen van de presentatie
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Zoomwaarde in procenten voor de diaweergave
 	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Zoomwaarde in procenten voor notitieweergave
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }

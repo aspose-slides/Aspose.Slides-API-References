@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک مجموعه از نقاط گرادیان.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نماینده یک مجموعه از نقاط توقف گرادیان.
 type: docs
 weight: 5030
 url: /fa/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection کلاس
 
-یک مجموعه از نقاط گرادیان را نشان می‌دهد.
+نماینده یک مجموعه از توقف‌های گرادیان است.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,34 +18,34 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | امکان دریافت رابط پایه IPresentationComponent را می‌دهد. فقط-خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | تعداد نقاط گرادیان در یک مجموعه را برمی‌گرداند. فقط-خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (امن برای چندنخی). فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | نقطهٔ گرادیان را بر اساس شاخص برمی‌گرداند. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازۀ دریافت رابط پایه IPresentationComponent را می‌دهد. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | تعداد نقاط گرادیان در یک مجموعه را برمی‌گرداند. فقط خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همزمان است (thread-safe). فقط خواندنی Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | نقطه گرادیان را بر اساس اندیس برمی‌گرداند. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | نقطهٔ گرادیان جدید را ایجاد کرده و به انتهای مجموعه اضافه می‌کند. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | نقطهٔ گرادیان جدید را ایجاد کرده و به انتهای مجموعه اضافه می‌کند. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | نقطهٔ گرادیان جدید را ایجاد کرده و به انتهای مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | یک نقطه گرادیان جدید ایجاد می‌کند و به انتهای مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | یک نقطه گرادیان جدید ایجاد می‌کند و به انتهای مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | یک نقطه گرادیان جدید ایجاد می‌کند و به انتهای مجموعه اضافه می‌نماید. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | تمام نقاط گرادیان را از یک مجموعه حذف می‌کند. |
-| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | همهٔ عناصر را از مجموعه به آرایهٔ مشخص‌شده کپی می‌کند. |
+| [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص شده کپی می‌کند. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | یک enumerator که از مجموعه عبور می‌کند را برمی‌گرداند. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | یک enumerator که از طریق مجموعه پیمایش می‌کند را برمی‌گرداند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | نقطهٔ گرادیان جدید را ایجاد کرده و در شاخص مشخص‌شده به مجموعه درج می‌کند. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | نقطهٔ گرادیان جدید را ایجاد کرده و در شاخص مشخص‌شده به مجموعه درج می‌کند. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | نقطهٔ گرادیان جدید را ایجاد کرده و در شاخص مشخص‌شده به مجموعه درج می‌کند. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | یک نقطهٔ گرادیان را در شاخص مشخص‌شده حذف می‌کند. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | یک نقطه گرادیان جدید ایجاد می‌کند و در اندیس مشخص شده به مجموعه اضافه می‌نماید. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | یک نقطه گرادیان جدید ایجاد می‌کند و در اندیس مشخص شده به مجموعه اضافه می‌نماید. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | یک نقطه گرادیان جدید ایجاد می‌کند و در اندیس مشخص شده به مجموعه اضافه می‌نماید. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | یک نقطه گرادیان را در اندیس مشخص حذف می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [PVIObject](../pviobject)
 * رابط [IGradientStopCollection](../igradientstopcollection)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

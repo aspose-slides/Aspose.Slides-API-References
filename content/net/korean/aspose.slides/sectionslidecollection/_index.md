@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 섹션의 슬라이드 컬렉션을 나타냅니다.
+description: 섹션 내 슬라이드 컬렉션을 나타냅니다.
 type: docs
 weight: 9770
 url: /ko/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection 클래스
 
-섹션에서 슬라이드의 컬렉션을 나타냅니다.
+섹션 내 슬라이드 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -16,19 +16,19 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ISlide`](../islide). |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | 전체 컬렉션을 지정된 Array에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | 전체 컬렉션을 지정된 배열에 복사합니다. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
 ### 참조
 

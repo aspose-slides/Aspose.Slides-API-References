@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Bộ điều khiển HTML cho phông chữ woff được nhúng.
+second_title: Aspose.Sildes cho .NET - Tham chiếu API
+description: Bộ điều khiển HTML cho các phông chữ woff được nhúng.
 type: docs
 weight: 3910
 url: /vi/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController giao diện
 
-Bộ điều khiển HTML cho phông chữ woff nhúng.
+Bộ điều khiển HTML cho các phông chữ woff được nhúng.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -20,7 +20,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | Trả về giao diện IHtmlFormattingController. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IHtmlFormattingController](../ihtmlformattingcontroller)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes for .NET API 참조
-description: 문서의 Heading pair 속성을 나타냅니다. 이는 문서 파트의 그룹 이름과 그룹 내 파트 수를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 문서의 'Heading pair' 속성을 나타냅니다. 문서 파트의 그룹 이름 및 그룹 내 파트 수를 나타냅니다.
 type: docs
 weight: 6100
 url: /ko/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair 인터페이스
 
-문서의 'Heading pair' 속성을 나타냅니다. 이는 문서 파트의 그룹 이름과 그룹 내 파트 수를 나타냅니다.
+문서의 'Heading pair' 속성을 나타냅니다. 문서 파트의 그룹 이름과 그룹 내 파트 수를 나타냅니다.
 
 ```csharp
 public interface IHeadingPair
@@ -21,7 +21,7 @@ public interface IHeadingPair
 | [Count](../../aspose.slides/iheadingpair/count) { get; } | 그룹의 파트 수를 반환합니다. 읽기 전용 Int32. |
 | [Name](../../aspose.slides/iheadingpair/name) { get; } | 문서 파트의 그룹 이름을 반환합니다. 읽기 전용 String. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

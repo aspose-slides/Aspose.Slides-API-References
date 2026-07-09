@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेज़ेंटेशन को निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
 url: /hi/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions प्रॉपर्टी
 
-प्रेज़ेंटेशन को निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../../islideslayoutoptions)।
+प्रेजेंटेशन को निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ISlidesLayoutOptions](../../islideslayoutoptions)
 * इंटरफ़ेस [IHtml5Options](../../ihtml5options)

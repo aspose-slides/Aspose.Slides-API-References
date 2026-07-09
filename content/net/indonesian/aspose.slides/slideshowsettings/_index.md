@@ -1,9 +1,9 @@
 ---
 title: SlideShowSettings
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili pengaturan slide show untuk presentasi.
 type: docs
-weight: 10460
+weight: 10480
 url: /id/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings kelas
@@ -18,14 +18,14 @@ public class SlideShowSettings
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Loop Slide Show |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Pen Color for Slide Show |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Show Animation in Slide Show |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Show Media Controls |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Show Narration in Slide Show |
-| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Slides range |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Mendapatkan atau mengatur jenis slide show. Diwakili oleh [`SlideShowType`](./slideshowtype) ancestors: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) dan [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Use Timings in Slide Show |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Putar Ulang Slide Show |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Warna Pena untuk Slide Show |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Tampilkan Animasi dalam Slide Show |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Tampilkan Kontrol Media |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Tampilkan Narasi dalam Slide Show |
+| [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Rentang Slide |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Mendapatkan atau mengatur jenis slide show. Diwakili oleh [`SlideShowType`](./slideshowtype) nenek moyang berikut: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) dan [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Gunakan Timing dalam Slide Show |
 
 ### Lihat Juga
 

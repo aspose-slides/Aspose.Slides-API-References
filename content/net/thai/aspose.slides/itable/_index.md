@@ -1,14 +1,14 @@
 ---
 title: ITable
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของตารางบนสไลด์.
+description: แสดงถึงตารางบนสไลด์.
 type: docs
 weight: 7230
 url: /th/aspose.slides/itable/
 ---
-## ITable อินเทอร์เฟซ
+## ITable ส่วนต่อประสาน
 
-แสดงตารางบนสไลด์
+แสดงถึงตารางบนสไลด์.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -18,20 +18,20 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBulkTextFormattable พื้นฐานได้. อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IGraphicalObject พื้นฐานได้. อ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | ส่งคืนคอลัมน์ทั้งหมด. อ่านอย่างเดียว [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | กำหนดว่าคอลัมน์แรกของตารางต้องแสดงด้วยรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | กำหนดว่าตารางแถวแรกต้องแสดงด้วยรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | กำหนดว่าแถวคู่ของตารางต้องแสดงด้วยรูปแบบที่แตกต่างหรือไม่. อ่าน/เขียน Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | ส่งคืนเซลล์ที่ตำแหน่งคอลัมน์และแถวที่ระบุ. อ่านอย่างเดียว [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | กำหนดว่าคอลัมน์สุดท้ายของตารางต้องแสดงด้วยรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | กำหนดว่าตารางแถวสุดท้ายต้องแสดงด้วยรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | กำหนดว่าตารางมีลำดับการอ่านจากขวาไปซ้ายหรือไม่. อ่าน/เขียน Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | ส่งคืนแถวทั้งหมด. อ่านอย่างเดียว [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | รับหรือกำหนดสไตล์ตารางที่สร้างไว้. อ่าน/เขียน [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | ส่งคืนอ็อบเจ็กต์ TableFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับตารางนี้. อ่านอย่างเดียว [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | กำหนดว่าคอลัมน์คู่ของตารางต้องแสดงด้วยรูปแบบที่แตกต่างหรือไม่. อ่าน/เขียน Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IBulkTextFormattable พื้นฐาน. อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | ส่งกลับคอลเลกชันของคอลัมน์. อ่านอย่างเดียว [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | กำหนดว่าคอลัมน์แรกของตารางต้องวาดด้วยการจัดรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | กำหนดว่าตารางแรกของตารางต้องวาดด้วยการจัดรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | กำหนดว่าตารางที่เป็นแถวคู่ต้องวาดด้วยการจัดรูปแบบที่แตกต่างหรือไม่. อ่าน/เขียน Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | ส่งกลับเซลล์ที่ตำแหน่งคอลัมน์และแถวที่ระบุ. อ่านอย่างเดียว [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | กำหนดว่าคอลัมน์สุดท้ายของตารางต้องวาดด้วยการจัดรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | กำหนดว่าตารางสุดท้ายของตารางต้องวาดด้วยการจัดรูปแบบพิเศษหรือไม่. อ่าน/เขียน Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | กำหนดว่าตารางมีการอ่านจากขวาไปซ้ายหรือไม่. อ่าน/เขียน Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | ส่งกลับคอลเลกชันของแถว. อ่านอย่างเดียว [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | รับหรือกำหนดสไตล์ตาราง builtin. อ่าน/เขียน [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | ส่งกลับอ็อบเจกต์ TableFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับตารางนี้. อ่านอย่างเดียว [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | กำหนดว่าคอลัมน์คู่ต้องวาดด้วยการจัดรูปแบบที่แตกต่างหรือไม่. อ่าน/เขียน Boolean. |
 
 ## วิธีการ
 
@@ -41,8 +41,8 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IBulkTextFormattable](../ibulktextformattable)
-* อินเทอร์เฟซ [IGraphicalObject](../igraphicalobject)
+* ส่วนต่อประสาน [IBulkTextFormattable](../ibulktextformattable)
+* ส่วนต่อประสาน [IGraphicalObject](../igraphicalobject)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes pro .NET API Reference
-description: Specifikuje skupinový symbol nad nebo pod výrazem, obvykle pro zvýraznění vztahu mezi prvky
+second_title: Aspose.Sildes pro .NET API referenci
+description: Určuje skupinový symbol nad nebo pod výrazem, obvykle pro zvýraznění vztahu mezi prvky.
 type: docs
-weight: 8270
+weight: 8290
 url: /cs/aspose.slides.mathtext/imathgroupingcharacter/
 ---
-## IMathGroupingCharacter rozhraní
+## IMMathGroupingCharacter rozhraní
 
-Specifikuje seskupovací symbol nad nebo pod výrazem, obvykle pro zdůraznění vztahu mezi prvky
+Specifikuje skupinový znak nad nebo pod výrazem, obvykle pro zvýraznění vztahu mezi prvky.
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -22,7 +22,7 @@ public interface IMathGroupingCharacter : IMathElement
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Základní argument |
 | [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Skupinový znak Výchozí hodnota: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Pozice skupinového znaku. Výchozí: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikální zarovnání skupinového znaku. Určuje zarovnání objektu vzhledem k základní linii. Například když je skupinový znak nad objektem, VerticalJustification s hodnotou Top znamená, že horní část objektu leží na základní linii; když je VerticalJustification nastaven na Bottom, spodní část objektu je na základní linii Výchozí: Bottom pro Position=Top a Top pro Position=Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Vertikální zarovnání skupinového znaku. Určuje zarovnání objektu vzhledem k základní lince. Například když je skupinový znak nad objektem, VerticalJustification s hodnotou Top znamená, že horní část objektu leží na základní lince; když je VerticalJustification nastaven na Bottom, spodní část objektu je na základní lince Výchozí: Bottom pro Position=Top a Top pro Position=Bottom |
 
 ### Příklady
 

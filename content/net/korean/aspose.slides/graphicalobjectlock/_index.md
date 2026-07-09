@@ -1,7 +1,7 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes for .NET API 참조
-description: 부모 GraphicalObject에서 비활성화된 작업을 결정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 부모 GraphicalObject에서 비활성화된 작업이 무엇인지 결정합니다.
 type: docs
 weight: 5080
 url: /ko/aspose.slides/graphicalobjectlock/
@@ -18,15 +18,15 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | 이름 | 설명 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 크기 조정 시 모양이 종횡비를 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 이 객체의 하위 모양 선택이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 이 모양을 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 lock-flag가 비활성화된 경우 true를 반환합니다. 읽기 전용 Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 이 모양의 이동이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 이 모양 선택이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 이 모양의 크기 조정이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 크기 조정 시 형태가 비율을 유지해야 하는지 결정합니다. 읽기/쓰기 Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 이 객체의 하위 형태 선택이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 이 형태를 그룹에 추가하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 lock-flags가 비활성화된 경우 true를 반환합니다. 읽기 전용 Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 이 형태를 이동하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 이 형태를 선택하는 것이 금지되는지 결정합니다. 읽기/쓰기 Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 이 형태의 크기 조정을 금지하는지 결정합니다. 읽기/쓰기 Boolean. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [BaseShapeLock](../baseshapelock)
 * 인터페이스 [IGraphicalObjectLock](../igraphicalobjectlock)

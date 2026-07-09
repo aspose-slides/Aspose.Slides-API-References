@@ -18,7 +18,7 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | 지정된 인덱스의 요소를 반환합니다. |
+| [Item](../../aspose.slides/icustomxmlpartcollection/item) { get; } | 지정된 인덱스에 있는 요소를 반환합니다. |
 
 ## 메서드
 
@@ -29,9 +29,9 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | 새 사용자 정의 XML 파트를 추가합니다. |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | 컬렉션에서 모든 항목을 제거합니다. |
 | [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 컬렉션에서 특정 객체의 첫 번째 항목을 제거합니다. |
-| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 지정된 인덱스의 사용자 정의 XML 파트를 제거합니다. |
+| [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 지정된 인덱스에 있는 사용자 정의 XML 파트를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ICustomXmlPart](../icustomxmlpart)

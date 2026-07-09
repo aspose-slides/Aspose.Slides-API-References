@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 外部リソース読み込み引数のインターフェイスです。
 type: docs
-weight: 6810
+weight: 6830
 url: /ja/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs インターフェイス
@@ -18,8 +18,8 @@ public interface IResourceLoadingArgs
 
 | 名前 | 説明 |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | インポートされたプレゼンテーションで指定されたリソースの元の URI。 |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) が Default を返す場合にダウンロードに使用されるリソースの URI。最初はリソースの元の URI に設定されますが、任意の値に再定義できます。 |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | インポートされたプレゼンテーションで指定されたリソースの元のURI。 |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) が Default を返す場合にダウンロードに使用されるリソースのURI。最初はリソースの元のURIに設定されていますが、任意の値に再定義できます。 |
 
 ## メソッド
 

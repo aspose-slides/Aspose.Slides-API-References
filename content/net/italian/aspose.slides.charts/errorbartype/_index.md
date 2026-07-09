@@ -1,12 +1,12 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di barra di errore
 type: docs
-weight: 1620
+weight: 1640
 url: /it/aspose.slides.charts/errorbartype/
 ---
-## enumerazione ErrorBarType
+## Enumerazione ErrorBarType
 
 Rappresenta il tipo di barra di errore
 
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Both | `0` | Specifica che le barre di errore devono essere mostrate nelle direzioni positiva e negativa. |
-| Minus | `1` | Specifica che le barre di errore devono essere mostrate solo nella direzione negativa. |
-| Plus | `2` | Specifica che le barre di errore devono essere mostrate solo nella direzione positiva. |
+| Both | `0` | Specifica che le barre di errore devono essere visualizzate nelle direzioni positiva e negativa. |
+| Minus | `1` | Specifica che le barre di errore devono essere visualizzate solo nella direzione negativa. |
+| Plus | `2` | Specifica che le barre di errore devono essere visualizzate solo nella direzione positiva. |
 
 ### Vedi anche
 

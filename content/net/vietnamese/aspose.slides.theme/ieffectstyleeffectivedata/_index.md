@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính kiểu hiệu ứng thực tế.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đối tượng bất biến chứa các thuộc tính kiểu hiệu ứng hiệu lực.
 type: docs
 weight: 11200
 url: /vi/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính kiểu hiệu ứng thực tế.
+Đối tượng bất biến chứa các thuộc tính kiểu hiệu ứng hiệu lực.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -19,7 +19,7 @@ public interface IEffectStyleEffectiveData
 | Tên | Mô tả |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Trả về một định dạng hiệu ứng. Chỉ đọc [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Trả về một định dạng 3d. Chỉ đọc [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Trả về một định dạng 3D. Chỉ đọc [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Ghi chú
 

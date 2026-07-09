@@ -1,14 +1,14 @@
 ---
 title: FillType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: さまざまなビジュアルオブジェクトの内部塗りつぶしタイプを指定します。
+description: さまざまなビジュアルオブジェクトの内部塗りタイプを指定します。
 type: docs
-weight: 4770
+weight: 4790
 url: /ja/aspose.slides/filltype/
 ---
-## FillType 列挙体
+## FillType 列挙型
 
-さまざまなビジュアルオブジェクトの内部塗りつぶしタイプを指定します。
+さまざまなビジュアルオブジェクトの内部塗りタイプを指定します。
 
 ```csharp
 public enum FillType : sbyte
@@ -18,15 +18,15 @@ public enum FillType : sbyte
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | 塗りつぶしタイプが定義されていません。 |
-| NoFill | `0` | 塗りつぶしが適用されていません。 |
+| NotDefined | `-1` | 塗りタイプが定義されていません。 |
+| NoFill | `0` | 塗りが適用されていません。 |
 | Solid | `1` | 単色で塗りつぶされています。 |
-| Gradient | `2` | 塗りつぶしはグラデーションです。 |
-| Pattern | `3` | オブジェクトの塗りつぶしに繰り返しパターンが使用されています。 |
-| Picture | `4` | 単一の画像がオブジェクトの塗りつぶしに使用されています。 |
-| Group | `5` | ビジュアルオブジェクトはグループから塗りつぶしプロパティを継承します。 |
+| Gradient | `2` | 塗りがグラデーションです。 |
+| Pattern | `3` | 繰り返しパターンでオブジェクトが塗りつぶされています。 |
+| Picture | `4` | 単一の画像でオブジェクトが塗りつぶされています。 |
+| Group | `5` | ビジュアルオブジェクトはグループから塗りプロパティを継承します。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

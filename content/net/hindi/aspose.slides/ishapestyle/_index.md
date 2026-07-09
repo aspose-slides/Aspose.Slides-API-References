@@ -1,7 +1,7 @@
 ---
 title: IShapeStyle
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: आकृतियों की शैली संदर्भ का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET API संदर्भ
+description: आकृति की शैली संदर्भ का प्रतिनिधित्व करता है।
 type: docs
 weight: 7010
 url: /hi/aspose.slides/ishapestyle/
@@ -18,14 +18,14 @@ public interface IShapeStyle
 
 | नाम | विवरण |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | आकृति के प्रभाव रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | आकृति के प्रभाव स्तंभ इंडेक्स को शैली मैट्रिक्स में लौटाता या सेट करता है। पढ़ने/लिखने योग्य UInt32। |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | आकृति के भराव रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | आकृति के भराव स्तंभ इंडेक्स को शैली मैट्रिक्स में लौटाता या सेट करता है। 0 का अर्थ है कोई भराव नहीं, सकारात्मक मान - थीम के भराव शैलियों में इंडेक्स, नकारात्मक मान - थीम के पृष्ठभूमि शैलियों में इंडेक्स। पढ़ने/लिखने योग्य Int16। |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | आकृति के फ़ॉन्ट इंडेक्स को फ़ॉन्ट संग्रह में लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`FontCollectionIndex`](../fontcollectionindex)। |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | आकृति के फ़ॉन्ट रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | आकृति के रूपरेखा रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | रेखा के स्तंभ इंडेक्स को शैली मैट्रिक्स में लौटाता या सेट करता है। पढ़ने/लिखने योग्य UInt16। |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | एक आकृति के इफ़ेक्ट रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | एक शैली मैट्रिक्स में आकृति के इफ़ेक्ट कॉलम इंडेक्स को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य UInt32। |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | एक आकृति का भराव रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | शैली मैट्रिक्स में आकृति के भराव कॉलम सूचकांक को लौटाता है या सेट करता है। 0 का अर्थ कोई भराव नहीं, सकारात्मक मान - थीम के भराव शैलियों में सूचकांक, नकारात्मक मान - थीम के पृष्ठभूमि शैलियों में सूचकांक। पढ़ने/लिखने योग्य Int16। |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | एक फ़ॉन्ट संग्रह में आकृति के फ़ॉन्ट सूचकांक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`FontCollectionIndex`](../fontcollectionindex)। |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | एक आकृति का फ़ॉन्ट रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | एक आकृति का रूपरेखा रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | एक शैली मैट्रिक्स में रेखा के कॉलम सूचकांक को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य UInt16। |
 
 ### देखें
 

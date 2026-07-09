@@ -1,14 +1,14 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes a .NET API referenciája
-description: A rácsvonalak formázási tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: A rácsvonalak formázási tulajdonságait reprezentálja.
 type: docs
-weight: 1390
+weight: 1410
 url: /hu/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat osztály
 
-A rácsvonalak formázási tulajdonságait képviseli.
+A rácsvonalak formázási tulajdonságait reprezentálja.
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat

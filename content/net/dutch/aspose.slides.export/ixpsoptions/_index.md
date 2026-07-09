@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-indeling.
+description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-formaat.
 type: docs
 weight: 4200
 url: /nl/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interface
 
-Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-indeling.
+Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-formaat.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -19,11 +19,11 @@ public interface IXpsOptions : ISaveOptions
 | Naam | Beschrijving |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Retourneert ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Waar om een zwart kader rond elke dia te tekenen. Lees/schrijf Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Waar om alle metafiles die in een presentatie worden gebruikt te converteren naar PNG-afbeeldingen. Lees/schrijf Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Geeft aan of het gegenereerde document verborgen dia’s moet opnemen of niet. Standaard is `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True om een zwart kader rond elke dia te tekenen. Lezen/schrijven Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True om alle metafiles die in een presentatie worden gebruikt om te zetten naar PNG-afbeeldingen. Lezen/schrijven Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet bevatten of niet. Standaard is `false`. |
 
-### See Also
+### Zie ook
 
 * interface [ISaveOptions](../isaveoptions)
 * naamruimte [Aspose.Slides.Export](../../aspose.slides.export)

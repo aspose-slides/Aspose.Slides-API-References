@@ -14,20 +14,20 @@ url: /hi/aspose.slides.export/handoutlayoutingoptions/
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [HandoutLayoutingOptions](handoutlayoutingoptions)() | डिफ़ॉल्ट मानों को आरंभ करता है। |
+| [HandoutLayoutingOptions](handoutlayoutingoptions)() | डिफ़ॉल्ट मानों को प्रारम्भ करता है। |
 
-## प्रॉपर्टीज
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | निर्दिष्ट करता है कि पृष्ठ पर कितनी स्लाइड्स और किस क्रम में रखी जाएँगी [`HandoutType`](../handouttype)। |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | निर्दिष्ट करता है कि स्लाइड्स पर टिप्पणियाँ प्रदर्शित की जाएँ या नहीं |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | निर्दिष्ट करता है कि पृष्ठ [`HandoutType`](../handouttype) पर कितनी स्लाइड्स और किस क्रम में रखी जाएँगी। |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | निर्दिष्ट करता है कि स्लाइड्स पर टिप्पणी प्रदर्शित की जाएँ या न हों। |
 | [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | निर्दिष्ट करता है कि प्रदर्शित स्लाइड्स के चारों ओर फ्रेम खींचे जाएँ या नहीं। |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | निर्धारित करता है कि प्रदर्शित स्लाइड नंबरों को छापा जाएँ या नहीं। |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | निर्दिष्ट करता है कि प्रदर्शित स्लाइड नंबरों को प्रिंट किया जाएँ या नहीं। |
 
 ### संबंधित देखें
 

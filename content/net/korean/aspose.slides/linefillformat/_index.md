@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 라인 채우기 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 선 채우기 속성을 나타냅니다.
 type: docs
 weight: 7780
 url: /ko/aspose.slides/linefillformat/
 ---
 ## LineFillFormat 클래스
 
-라인 채우기 속성을 나타냅니다.
+선 채우기 속성을 나타냅니다.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -19,10 +19,10 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 채우기 종류를 반환하거나 설정합니다. 읽기/쓰기 [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 채우기 유형을 반환하거나 설정합니다. 읽기/쓰기 [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | 그라디언트 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | 패턴 채우기 형식을 반환합니다. 읽기 전용 [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 채우기가 도형과 함께 회전되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 채우기가 도형과 함께 회전되어야 하는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 단색 채우기의 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
 
 ## 메서드

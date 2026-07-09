@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av alla layoutbilder för en definierad master slide. Ärver LayoutSlideCollection-klass med metoder för att lägga till/infoga/ta bort/klona/omordna layoutbilder i kontexten av de individuella samlingarna av masterns layoutbilder.
+description: Representerar en samling av alla layoutbilder för en definierad masterslide. Ärver LayoutSlideCollection-klassen med metoder för att lägga till, infoga, ta bort, klona och omordna layoutbilder i samband med de individuella samlingarna av masters layoutbilder.
 type: docs
-weight: 7980
+weight: 8000
 url: /sv/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection klass
 
-Representerar en samling av alla layoutbilder för en definierad masterslide. Ärver LayoutSlideCollection klass med metoder för att lägga till/infoga/ta bort/klona/omordna layoutbilder i kontexten av de individuella samlingarna av masterns layoutbilder.
+Representerar en samling av alla layoutbilder för en definierad master slide. Ärver LayoutSlideCollection klass med metoder för att lägga till, infoga, ta bort, klona och omordna layoutbilder i samband med de individuella samlingarna av masterslidens layoutbilder.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,32 +19,32 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Returnerar antalet layoutbilder i en samling. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Returnerar layoutbilden efter index. Skrivskyddad [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Returnerar antalet layoutbilder i en samling. Read-only Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Read-only Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Returnerar layoutbilden enligt index. Read-only [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Read-only Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Lägger till en ny layoutbild i slutet av samlingen. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Lägger till en kopia av en angiven layoutbild i slutet av samlingen. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returnerar den första layoutbilden av angiven typ. En typ av layoutbild att hitta.[`LayoutSlide`](../layoutslide) med angiven typ eller null om inga layouter hittades. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Lägger till en kopia av en specificerad layoutbild i slutet av samlingen. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopierar alla element från samlingen till den specificerade arrayen. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Returnerar den första layoutbilden av angiven typ. En typ av layoutbild att söka efter.[`LayoutSlide`](../layoutslide) med den angivna typen eller null om inga layouter hittas. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Infogar en ny layoutbild på en angiven position i samlingen. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Infogar en kopia av en angiven layoutbild på en angiven position i samlingen. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Infogar en kopia av en specificerad layoutbild på en angiven position i samlingen. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Tar bort en layout från samlingen. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Tar bort oanvända layoutbilder (layoutbilder där HasDependingSlides är falskt). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Tar bort oanvända layoutbilder (layoutbilder vars HasDependingSlides är false). |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Flyttar layoutbilden från samlingen till den angivna positionen. |
 
 ### Se även
 
 * klass [LayoutSlideCollection](../layoutslidecollection)
 * gränssnitt [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
-* namnutrymme [Aspose.Slides](../../aspose.slides)
+* namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

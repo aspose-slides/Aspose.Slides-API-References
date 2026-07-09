@@ -1,29 +1,29 @@
 ---
 title: ShapeElementFillSource
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft weer hoe een shape-element moet worden gevuld.
+description: Geeft aan hoe shape element moet worden gevuld.
 type: docs
 weight: 9880
 url: /nl/aspose.slides/shapeelementfillsource/
 ---
 ## ShapeElementFillSource enumeratie
 
-Geeft aan hoe een shape-element moet worden gevuld.
+Geeft aan hoe shape-element moet worden gevuld.
 
 ```csharp
 public enum ShapeElementFillSource : byte
 ```
 
-### Values
+### Waarden
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| NoFill | `0` | Primitive niet vullen. |
-| Shape | `1` | Gebruik de vulling van shape. |
-| Lighten | `2` | Gebruik de verlichte vulling van shape. |
-| LightenLess | `3` | Gebruik minder verlichte vulling van shape. |
-| Darken | `4` | Gebruik de verduisterde vulling van shape. |
-| DarkenLess | `5` | Gebruik minder verduisterde vulling van shape. |
+| NoFill | `0` | Vul het primitieve niet. |
+| Shape | `1` | Gebruik shape's vulling. |
+| Lighten | `2` | Gebruik lighten shape's vulling. |
+| LightenLess | `3` | Gebruik minder lighten shape's vulling. |
+| Darken | `4` | Gebruik darken shape's vulling. |
+| DarkenLess | `5` | Gebruik minder darken shape's vulling. |
 
 ### Zie ook
 

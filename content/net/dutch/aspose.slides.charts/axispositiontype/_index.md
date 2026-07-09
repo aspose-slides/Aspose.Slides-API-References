@@ -18,10 +18,10 @@ public enum AxisPositionType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Bottom | `0` | Geeft aan dat de as onderaan het plotgebied wordt weergegeven. |
-| Left | `1` | Geeft aan dat de as aan de linkerkant van het plotgebied wordt weergegeven. |
-| Right | `2` | Geeft aan dat de as aan de rechterkant van het plotgebied wordt weergegeven. |
-| Top | `3` | Geeft aan dat de as bovenaan het plotgebied wordt weergegeven. |
+| Bottom | `0` | Specificeert dat de as wordt weergegeven aan de onderkant van het plotgebied. |
+| Left | `1` | Specificeert dat de as wordt weergegeven aan de linkerkant van het plotgebied. |
+| Right | `2` | Specificeert dat de as wordt weergegeven aan de rechterkant van het plotgebied. |
+| Top | `3` | Specificeert dat de as wordt weergegeven aan de bovenkant van het plotgebied. |
 
 ### Zie ook
 

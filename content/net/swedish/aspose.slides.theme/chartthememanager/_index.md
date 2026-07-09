@@ -3,7 +3,7 @@ title: ChartThemeManager
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller åtkomst till diagramtema som åsidosätts.
 type: docs
-weight: 11040
+weight: 11060
 url: /sv/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager klass
@@ -18,7 +18,7 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bestämmer om OverrideTheme åsidosätter ärvt effektivt tema eller inte. För att aktivera OverrideTheme för åsidosättning, använd OverrideTheme.Init*()-metoderna. För att inaktivera OverrideTheme från åsidosättning, använd OverrideTheme.Clear()-metoden. Skrivskyddad Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Avgör om OverrideTheme åsidosätter ärvt effektivt tema eller inte. För att aktivera OverrideTheme för åsidosättning, använd OverrideTheme.Init*()-metoderna. För att inaktivera OverrideTheme från att åsidosätta, använd OverrideTheme.Clear()-metoden. Skrivskyddad Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Returnerar det åsidosättande temaobjektet. Läs/skriv [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metoder
@@ -26,7 +26,7 @@ public class ChartThemeManager : BaseOverrideThemeManager
 | Namn | Beskrivning |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Tillämpar extra färgschema på en bild. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Returnerar temaobjektet. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Returnerar temats objekt. |
 
 ### Se även
 

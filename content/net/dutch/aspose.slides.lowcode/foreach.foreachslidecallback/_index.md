@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes for .NET API Referentie
 description: Callback die wordt aangeroepen voor elke Slide./foreach/slide in de Presentation../aspose.slides/presentation.
 type: docs
 weight: 7960

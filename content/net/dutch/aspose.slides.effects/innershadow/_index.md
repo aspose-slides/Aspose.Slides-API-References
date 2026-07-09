@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een Inner Shadow-effect.
+description: Stelt een Inner Shadow-effect voor.
 type: docs
 weight: 3600
 url: /nl/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow klasse
 
-Vertegenwoordigt een Inner Shadow-effect.
+Stelt een Inner Shadow-effect voor.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -16,20 +16,20 @@ public sealed class InnerShadow : IInnerShadow
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Vervaagstraal. Lezen/Schrijven Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Blur radius. Lezen/Schrijven Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Richting van de schaduw. Lezen/Schrijven Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Afstand van de schaduw. Lezen/Schrijven Double. |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Bepaalt of de opgegeven [`InnerShadow`](../innershadow) gelijk is aan de huidige [`InnerShadow`](../innershadow). |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Haalt de effectieve Inner Shadow-effectgegevens op met de overgeërfde instellingen toegepast. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Dient als hashfunctie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Haalt effectieve Inner Shadow-effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Dient als een hashfunctie voor een bepaald type. |
 
 ### Zie ook
 

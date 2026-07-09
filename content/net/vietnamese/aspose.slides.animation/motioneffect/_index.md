@@ -18,30 +18,30 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Tên | Mô tả |
 | --- | --- |
-| [MotionEffect](motioneffect)() | Bộ khởi tạo mặc định. |
+| [MotionEffect](motioneffect)() | Hàm khởi tạo mặc định. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu diễn liệu các hành vi hoạt hình có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu diễn liệu hành vi hoạt hình hiện tại có được kết hợp với các hoạt hình đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Mô tả góc tương đối của đường chuyển động. Đọc/ghi Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Mô tả giá trị độ lệch tương đối cho hoạt hình (tính bằng phần trăm). Đọc/ghi PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Chỉ định tọa độ x/y để bắt đầu hoạt hình (tính bằng phần trăm). Đọc/ghi PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Chỉ định nguồn gốc của đường chuyển động tương đối so với chẳng hạn như bố cục slide hoặc phần tử cha. Đọc/ghi [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Chỉ định primitive đường dẫn kèm theo tọa độ cho chuyển động hoạt hình. Đọc/ghi [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Chỉ định cách đường chuyển động di chuyển khi hình dạng được di chuyển. Đọc/ghi [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Biểu diễn các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Mô tả trung tâm của việc quay được sử dụng để quay một đường chuyển động theo góc X. Đọc/ghi PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Biểu diễn các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Chỉ định vị trí mục tiêu cho một hiệu ứng chuyển động hoạt hình (tính bằng phần trăm). Đọc/ghi PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu thị liệu các hành vi hoạt ảnh có được tích lũy hay không. đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu thị liệu hành vi hoạt ảnh hiện tại có được kết hợp với các hoạt ảnh đang chạy khác hay không. đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Mô tả góc tương đối của đường chuyển động. đọc/ghi Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Mô tả giá trị dịch chuyển tương đối cho hoạt ảnh (theo phần trăm). đọc/ghi PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm). đọc/ghi PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Xác định gốc của đường chuyển động tương đối so với ví dụ như bố cục của slide hoặc phần cha. đọc/ghi [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Xác định hình nguyên thủy của đường dẫn kèm theo tọa độ cho chuyển động hoạt ảnh. đọc/ghi [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Xác định cách đường chuyển động di chuyển khi hình dạng được di chuyển. đọc/ghi [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Biểu thị các thuộc tính của hành vi. chỉ-đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Mô tả trung tâm của phép quay được sử dụng để quay một đường chuyển động theo góc X. đọc/ghi PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Biểu thị các thuộc tính thời gian cho hành vi hiệu ứng. đọc/ghi [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Xác định vị trí mục tiêu cho một hiệu ứng chuyển động hoạt ảnh (theo phần trăm). đọc/ghi PointF. |
 
 ### Xem thêm
 
 * lớp [Behavior](../behavior)
 * giao diện [IMotionEffect](../imotioneffect)
 * không gian tên [Aspose.Slides.Animation](../../aspose.slides.animation)
-* tập hợp [Aspose.Slides](../../)
+* bộ lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

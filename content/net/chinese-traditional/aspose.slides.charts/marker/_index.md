@@ -1,6 +1,6 @@
 ---
 title: Marker
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 chert 的標記。
 type: docs
 weight: 2330
@@ -18,11 +18,11 @@ public class Marker : IMarker
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | 取得或設定標記填充色。唯讀 [`IFormat`](../iformat)。 |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | 取得或設定標記填充。唯讀 [`IFormat`](../iformat)。 |
 | [Size](../../aspose.slides.charts/marker/size) { get; set; } | 表示線形圖、散佈圖或雷達圖中的標記大小。可讀寫 Int32。 |
 | [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 表示線形圖、散佈圖或雷達圖中的標記樣式。可讀寫 [`MarkerStyleType`](../markerstyletype)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IMarker](../imarker)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

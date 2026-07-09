@@ -1,27 +1,27 @@
 ---
 title: BubbleSizeRepresentationType
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: กำหนดวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิบับเบิ้ล
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ระบุวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิกึ่งเพลา
 type: docs
 weight: 1230
 url: /th/aspose.slides.charts/bubblesizerepresentationtype/
 ---
-## BubbleSizeRepresentationType การกำหนดค่า
+## BubbleSizeRepresentationType enumeration
 
-ระบุวิธีที่เป็นไปได้สำหรับการแสดงข้อมูลเป็นขนาดของแผนภูมิบับเบิ้ล
+กำหนดวิธีที่เป็นไปได้ในการแสดงข้อมูลเป็นขนาดของแผนภูมิกึ่งเพลา
 
 ```csharp
 public enum BubbleSizeRepresentationType
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Area | `0` | ระบุว่าพื้นที่ของบับเบิ้ลจะต้องเป็นสัดส่วนกับค่าขนาดของบับเบิ้ล |
-| Width | `1` | ระบุว่ารัศมีของบับเบิ้ลจะต้องเป็นสัดส่วนกับค่าขนาดของบับเบิ้ล |
+| Area | `0` | ระบุว่าพื้นที่ของฟองจะสัดส่วนกับค่าขนาดฟอง |
+| Width | `1` | ระบุว่ารัศมีของฟองจะสัดส่วนกับค่าขนาดฟอง |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)

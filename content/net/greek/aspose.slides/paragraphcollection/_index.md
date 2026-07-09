@@ -3,12 +3,12 @@ title: ParagraphCollection
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά μια συλλογή παραγράφων.
 type: docs
-weight: 9270
+weight: 9290
 url: /el/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection κλάση
 
-Αναπαριστά μια συλλογή παραγράφων.
+Αναπαριστά μια συλλογή από παραγράφους.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -16,26 +16,26 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Ανακτά τον αριθμό των στοιχείων που περιέχονται πραγματικά στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Ανακτά μια τιμή που υποδεικνύει εάν το ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Ανακτά το στοιχείο στον καθορισμένο δείκτη. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που περιέχονται πραγματικά στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Λαμβάνει μια τιμή που υποδεικνύει εάν το ICollection είναι μόνο για ανάγνωση. Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Προσθέτει ένα Paragraph στο τέλος της συλλογής. |
 | [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Προσθέτει το περιεχόμενο του ParagraphCollection στο τέλος της συλλογής. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Προσθέτει κείμενο από την καθορισμένη συμβολοσειρά html στη συλλογή. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Προσθέτει κείμενο από την καθορισμένη συμβολοσειρά html στη συλλογή. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Προσθέτει κείμενο από το καθορισμένο html string στη συλλογή. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Προσθέτει κείμενο από το καθορισμένο html string στη συλλογή. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Αφαιρεί όλα τα στοιχεία από τη συλλογή. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Καθορίζει εάν το ICollection περιέχει μια συγκεκριμένη τιμή. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Αντιγράφει τα στοιχεία του ICollection σε έναν Array, αρχίζοντας από συγκεκριμένο δείκτη Array. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Μετατρέπει τα καθορισμένα paragraphs σε HTML και τα επιστρέφει ως αντικείμενο String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Επιστρέφει έναν enumerator που διασχίζει τη συλλογή. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Καθορίζει τον δείκτη ενός συγκεκριμένου στοιχείου στο IList. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Αντιγράφει τα στοιχεία του ICollection σε ένα Array, ξεκινώντας από έναν συγκεκριμένο δείκτη Array. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Μετατρέπει τις καθορισμένες παραγράφους σε HTML και τις επιστρέφει ως αντικείμενο String. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Επιστρέφει έναν Enumerator που διατρέχει τη συλλογή. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Καθορίζει το δείκτη ενός συγκεκριμένου αντικειμένου στο IList. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Εισάγει ένα Paragraph στη συλλογή στον καθορισμένο δείκτη. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Εισάγει το περιεχόμενο του ParagraphCollection στη συλλογή στον καθορισμένο δείκτη. |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Αφαιρεί την πρώτη εμφάνιση ενός συγκεκριμένου αντικειμένου από το ICollection. |
@@ -47,6 +47,6 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 * κλάση [TextFrame](../textframe)
 * διασύνδεση [IParagraphCollection](../iparagraphcollection)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

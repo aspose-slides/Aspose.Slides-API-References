@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de accentfunctie bestaande uit een basis en een combinatiediacritisch teken Voorbeeld ́
+description: Specificeert de accentfunctie die bestaat uit een basis en een combineerbaar diakritisch teken Voorbeeld ́
 type: docs
 weight: 8080
 url: /nl/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent interface
 
-Specificeert de accentfunctie, bestaande uit een basis en een combinatiediacritisch teken Voorbeeld: 𝑎́
+Specificeert de accentfunctie, bestaande uit een basis en een combineerbaar diakritisch teken Voorbeeld: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -18,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Staat toe om de basis IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Het argument waarop het accent is toegepast |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Accentteken De waarde moet binnen het bereik (U+0300–U+036F) of (U+20D0–U+20EF) liggen Standaardwaarde: Combining Circumflex Accent (U+0302) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | Staat toe de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Het argument waarop het accent werd toegepast |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Accent teken De waarde moet binnen het bereik (U+0300–U+036F) of (U+20D0–U+20EF) liggen Standaardwaarde: Combining Circumflex Accent (U+0302) |
 
 ### Voorbeelden
 

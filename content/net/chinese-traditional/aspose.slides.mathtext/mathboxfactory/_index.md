@@ -1,30 +1,30 @@
 ---
 title: MathBoxFactory
-second_title: Aspose.Sildes .NET API 參考
-description: 允許建立數學方塊
+second_title: Aspose.Sildes for .NET API 參考
+description: 允許建立數學盒
 type: docs
 weight: 8640
 url: /zh-hant/aspose.slides.mathtext/mathboxfactory/
 ---
 ## MathBoxFactory 類別
 
-允許建立數學方塊
+允許建立數學盒
 
 ```csharp
 public class MathBoxFactory : IMathBoxFactory
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [MathBoxFactory](mathboxfactory)() | 預設建構子。 |
+| [MathBoxFactory](mathboxfactory)() | 預設建構函式。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | 透過套用於元素來建立數學方塊 |
+| [CreateMathBox](../../aspose.slides.mathtext/mathboxfactory/createmathbox)(IMathElement) | 透過套用於元素來建立數學盒 |
 
 ### 備註
 

@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sekelompok shape pada slide.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sekelompok shape pada sebuah slide.
 type: docs
-weight: 6060
+weight: 6080
 url: /id/aspose.slides/igroupshape/
 ---
 ## IGroupShape antarmuka
 
-Mewakili sekelompok shape pada slide.
+Mewakili sekelompok shape pada sebuah slide.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Memungkinkan untuk mendapatkan antarmuka IShape dasar. Hanya-baca [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Mengembalikan kunci shape. Hanya-baca [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Mengembalikan kunci shape. Hanya-baca [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Mengembalikan koleksi shape di dalam grup. Hanya-baca [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Mengizinkan untuk mendapatkan antarmuka IShape dasar. Baca-saja [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Mengembalikan kunci shape. Baca-saja [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Mengembalikan kunci shape. Baca-saja [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Mengembalikan koleksi shape di dalam grup. Baca-saja [`IShapeCollection`](../ishapecollection). |
 
 ### Lihat Juga
 

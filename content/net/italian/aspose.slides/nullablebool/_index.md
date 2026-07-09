@@ -1,9 +1,9 @@
 ---
 title: NullableBool
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta valori booleani tripli.
 type: docs
-weight: 9150
+weight: 9170
 url: /it/aspose.slides/nullablebool/
 ---
 ## Enumerazione NullableBool
@@ -19,8 +19,8 @@ public enum NullableBool : sbyte
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` | Il valore booleano è indefinito. |
-| False | `0` | Valore False. |
-| True | `1` | Valore True. |
+| False | `0` | Valore falso. |
+| True | `1` | Valore vero. |
 
 ### Vedi anche
 

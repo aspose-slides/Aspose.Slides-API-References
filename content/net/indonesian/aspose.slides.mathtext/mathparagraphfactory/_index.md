@@ -1,14 +1,14 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat paragraf matematika
 type: docs
-weight: 8890
+weight: 8910
 url: /id/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory kelas
 
-Memungkinkan membuat paragraf matematika
+Memungkinkan untuk membuat paragraf matematika
 
 ```csharp
 public class MathParagraphFactory : IMathParagraphFactory

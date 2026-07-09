@@ -1,9 +1,9 @@
 ---
 title: IRenderingOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Fornece opções que controlam como uma apresentação/slide é renderizada.
 type: docs
-weight: 4020
+weight: 4040
 url: /pt/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions interface
@@ -20,8 +20,8 @@ public interface IRenderingOptions : ISaveOptions
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | Retorna a interface ISaveOptions. Somente leitura [`ISaveOptions`](../isaveoptions). |
 | [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Obtém ou define um valor que indica se o texto é renderizado sem usar ligaduras. Quando definido como `true`, as ligaduras serão desativadas na saída renderizada. Por padrão, esta propriedade é definida como `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Fornece opções que controlam a aparência de objetos Ink no documento exportado. Somente leitura [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo em que os slides são posicionados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Fornece opções que controlam a aparência de objetos Ink em documento exportado. Somente leitura [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Obtém ou define o modo em que slides são colocados na página ao exportar uma apresentação [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Exemplos
 
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Veja Também
+### Ver Também
 
 * interface [ISaveOptions](../isaveoptions)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

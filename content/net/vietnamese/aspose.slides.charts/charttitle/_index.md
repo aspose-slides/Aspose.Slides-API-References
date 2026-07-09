@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính tiêu đề biểu đồ.
+description: Đại diện cho các thuộc tính tiêu đề biểu đồ.
 type: docs
 weight: 1490
 url: /vi/aspose.slides.charts/charttitle/
 ---
-## ChartTitle lớp
+## Lớp ChartTitle
 
-Biểu diễn các thuộc tính tiêu đề biểu đồ.
+Đại diện cho các thuộc tính tiêu đề biểu đồ.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,32 +18,32 @@ public class ChartTitle : IChartTitle
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Dưới. Chỉ đọc Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Trả về biểu đồ cha. Chỉ đọc [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Trả về các kiểu tô màu, đường viền, hiệu ứng của tiêu đề. Chỉ đọc [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng phần tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy các giá trị thực tế. Đọc Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Dưới. Chỉ-đọc Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Trả về biểu đồ cha. Chỉ-đọc [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Trả về các kiểu đổ màu, đường viền, hiệu ứng của tiêu đề. Chỉ-đọc [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Trả về hoặc đặt chiều cao của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
 | [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Xác định liệu các phần tử biểu đồ khác có được phép chồng lên tiêu đề hay không. Đọc/ghi Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Phải. Chỉ đọc Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Trả về định dạng văn bản. Chỉ đọc [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản đã định dạng này sẽ ghi đè lên văn bản tự động tạo. Văn bản tự động tạo là một thuộc tính ngầm của nhãn dữ liệu, nhãn đơn vị hiển thị của trục giá trị, tiêu đề trục, tiêu đề biểu đồ, nhãn của đường xu hướng. Văn bản tự động tạo được định dạng bằng thuộc tính IFormattedTextContainer.TextFormat. Chỉ đọc [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng phần tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng phần tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng phần tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Phải. Chỉ-đọc Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Trả về định dạng văn bản. Chỉ-đọc [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Có thể chứa văn bản định dạng phong phú. Nếu thuộc tính này không null thì giá trị văn bản đã định dạng này sẽ ghi đè lên văn bản tự động sinh. Văn bản tự động sinh là thuộc tính ngầm của nhãn dữ liệu, nhãn đơn vị hiển thị của trục giá trị, tiêu đề trục, tiêu đề biểu đồ, nhãn của đường xu hướng. Văn bản tự động sinh được định dạng bằng thuộc tính IFormattedTextContainer.TextFormat. Chỉ-đọc [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Trả về hoặc đặt chiều rộng của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Trả về hoặc đặt tọa độ x của tiêu đề dưới dạng tỷ lệ của chiều rộng biểu đồ. Đọc/ghi Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Trả về hoặc đặt tọa độ y của tiêu đề dưới dạng tỷ lệ của chiều cao biểu đồ. Đọc/ghi Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding với văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ thay đổi văn bản của nó. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Khởi tạo TextFrameForOverriding bằng văn bản trong tham số "text". Nếu TextFrameForOverriding đã được khởi tạo thì chỉ thay đổi văn bản của nó. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IChartTitle](../icharttitle)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

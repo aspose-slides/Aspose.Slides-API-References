@@ -21,7 +21,7 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IBiLevelEffectiveData](../ibileveleffectivedata)

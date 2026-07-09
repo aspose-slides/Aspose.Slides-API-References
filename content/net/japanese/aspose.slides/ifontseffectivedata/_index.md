@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: 効果的なフォントセットを含む不変オブジェクトです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効なフォントセットを含む不変オブジェクトです。
 type: docs
-weight: 5890
+weight: 5910
 url: /ja/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData インターフェイス
 
-効果的なフォントセットを含む不変オブジェクトです。
+有効なフォントセットを含む不変オブジェクトです。
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,15 +18,15 @@ public interface IFontsEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 複雑文字スクリプトフォントを返します。読み取り専用 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 複雑なスクリプトフォントを返します。読み取り専用 [`IFontData`](../ifontdata)。 |
 | [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | 東アジアフォントを返します。読み取り専用 [`IFontData`](../ifontdata)。 |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | ラテンフォントを返します。読み取り専用 [`IFontData`](../ifontdata)。 |
 
 ### 備考
 
-このインターフェイスは [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) と [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) インターフェイスの一部として使用されます。
+このインターフェイスは [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) および [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) インターフェイスの一部として使用されます。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

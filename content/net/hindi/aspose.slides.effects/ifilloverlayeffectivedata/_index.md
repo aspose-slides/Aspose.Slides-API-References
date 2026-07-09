@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Fill Overlay प्रभाव का प्रतिनिधित्व करता है। एक Fill Overlay का उपयोग किसी ऑब्जेक्ट के लिए अतिरिक्त फ़िल निर्दिष्ट करने और दोनों फ़िल को एक साथ मिलाने के लिए किया जा सकता है।
+description: अपरिवर्त्य वस्तु जो Fill Overlay प्रभाव का प्रतिनिधित्व करती है। Fill Overlay का उपयोग किसी वस्तु के लिए अतिरिक्त भराई निर्दिष्ट करने और दो भराइयों को मिलाने के लिए किया जा सकता है।
 type: docs
 weight: 3310
 url: /hi/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो Fill Overlay प्रभाव का प्रतिनिधित्व करता है। एक Fill Overlay का उपयोग एक ऑब्जेक्ट के लिए अतिरिक्त फ़िल निर्दिष्ट करने और दोनों फ़िल को मिलाने के लिए किया जा सकता है।
+अपरिवर्त्य वस्तु जो Fill Overlay प्रभाव का प्रतिनिधित्व करती है। एक Fill Overlay का उपयोग किसी वस्तु के लिए अतिरिक्त फ़िल निर्दिष्ट करने और दो फ़िल्स को एक साथ मिश्रित करने के लिए किया जा सकता है।
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode। केवल-पढ़ने योग्य [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | फ़िल प्रारूप। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill फ़ॉर्मेट। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### संबंधित देखें
 

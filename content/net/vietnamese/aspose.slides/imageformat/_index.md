@@ -1,14 +1,14 @@
 ---
 title: ImageFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị định dạng tệp của hình ảnh.
+description: Đại diện cho định dạng tệp của hình ảnh.
 type: docs
 weight: 7430
 url: /vi/aspose.slides/imageformat/
 ---
 ## ImageFormat liệt kê
 
-Biểu thị định dạng tệp của hình ảnh.
+Đại diện cho định dạng tệp của hình ảnh.
 
 ```csharp
 public enum ImageFormat
@@ -18,16 +18,16 @@ public enum ImageFormat
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| MemoryBmp | `0` | Biểu thị định dạng của bitmap trong bộ nhớ. |
-| Bmp | `1` | Biểu thị định dạng ảnh bitmap (BMP). |
-| Emf | `2` | Biểu thị định dạng ảnh enhanced metafile (EMF). |
-| Wmf | `3` | Biểu thị định dạng ảnh Windows metafile (WMF). |
-| Gif | `4` | Biểu thị định dạng ảnh Graphics Interchange Format (GIF). |
-| Jpeg | `5` | Biểu thị định dạng ảnh Joint Photographic Experts Group (JPEG). |
-| Png | `6` | Biểu thị định dạng ảnh W3C Portable Network Graphics (PNG). |
-| Tiff | `7` | Biểu thị định dạng ảnh Tagged Image File Format (TIFF). |
-| Exif | `8` | Biểu thị định dạng Exchangeable Image File (Exif). |
-| Icon | `9` | Biểu thị định dạng ảnh biểu tượng Windows. |
+| MemoryBmp | `0` | Đại diện cho định dạng bitmap trong bộ nhớ. |
+| Bmp | `1` | Đại diện cho định dạng hình ảnh bitmap (BMP). |
+| Emf | `2` | Đại diện cho định dạng hình ảnh enhanced metafile (EMF). |
+| Wmf | `3` | Đại diện cho định dạng hình ảnh Windows metafile (WMF). |
+| Gif | `4` | Đại diện cho định dạng Graphics Interchange Format (GIF). |
+| Jpeg | `5` | Đại diện cho định dạng Joint Photographic Experts Group (JPEG). |
+| Png | `6` | Đại diện cho định dạng W3C Portable Network Graphics (PNG). |
+| Tiff | `7` | Đại diện cho định dạng Tagged Image File Format (TIFF). |
+| Exif | `8` | Đại diện cho định dạng Exchangeable Image File (Exif). |
+| Icon | `9` | Đại diện cho định dạng hình ảnh Windows icon. |
 
 ### Xem thêm
 

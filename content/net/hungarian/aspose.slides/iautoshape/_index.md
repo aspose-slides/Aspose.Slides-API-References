@@ -1,14 +1,14 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes .NET API referencia
-description: Az AutoShape-t reprezentálja.
+second_title: Aspose.Sildes .NET-hez API referenciája
+description: Egy AutoShape-t képvisel.
 type: docs
-weight: 5220
+weight: 5240
 url: /hu/aspose.slides/iautoshape/
 ---
 ## IAutoShape interfész
 
-Az AutoShape-t reprezentálja.
+Az AutoShape-t képviseli.
 
 ```csharp
 public interface IAutoShape : IGeometryShape
@@ -16,20 +16,20 @@ public interface IAutoShape : IGeometryShape
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Lehetővé teszi a bázis IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Lehetővé teszi az alap IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Visszaadja az AutoShape zárolásait. Csak olvasható [`IAutoShapeLock`](../iautoshapelock). |
-| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Megadja, hogy a forma szövegdoboz-e. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Visszaadja a forma zárolásait. Csak olvasható [`IAutoShapeLock`](../iautoshapelock). |
+| [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Megadja, hogy az alakzat szövegdoboz-e. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Visszaadja az alakzat zárolásait. Csak olvasható [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Visszaadja a TextFrame objektumot az AutoShape-hez. Csak olvasható [`ITextFrame`](../itextframe). |
 | [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Megállapítja, hogy ez az autóforma a dia háttérkitöltésével legyen-e kitöltve a stílus vagy kitöltési formátum által megadott helyett. Olvasás/írás Boolean. |
 
-## Módszerek
+## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Új TextFrame-et ad hozzá egy formához. Ha a forma már rendelkezik TextFrame-el, akkor egyszerűen megváltoztatja a szövegét. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Új TextFrame-et ad az alakzathoz. Ha az alakzat már rendelkezik TextFrame-el, akkor egyszerűen megváltoztatja a szövegét. |
 
 ### Lásd még
 

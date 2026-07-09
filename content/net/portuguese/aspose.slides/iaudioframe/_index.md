@@ -1,9 +1,9 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um clipe de áudio em um slide.
 type: docs
-weight: 5210
+weight: 5230
 url: /pt/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame interface
@@ -23,23 +23,23 @@ public interface IAudioFrame : IPictureFrame
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Retorna ou define o tempo da última faixa. Leitura/gravação Int32. |
 | [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Retorna ou define o índice da faixa inicial. Leitura/gravação Int32. |
 | [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Retorna ou define o tempo da faixa inicial. Leitura/gravação Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Obtém a coleção de legendas fechadas associadas ao quadro de áudio. Esta propriedade é somente leitura e devolve um [`ICaptionsCollection`](../icaptionscollection) contendo todas as faixas de legendas. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Determina se um som está incorporado na apresentação. Somente leitura Boolean. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Obtém a coleção de legendas fechadas associadas ao quadro de áudio. Esta propriedade é somente leitura e retorna um [`ICaptionsCollection`](../icaptionscollection) contendo todas as faixas de legenda. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Determina se um som está incorporado a uma apresentação. Somente leitura Boolean. |
 | [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Retorna ou define o objeto de áudio incorporado. Leitura/gravação [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Especifica a duração do fade-in inicial da mídia em milissegundos. Leitura/gravação Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Especifica a duração do fade-out final da mídia em milissegundos. Leitura/gravação Single. |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Especifica a duração, em milissegundos, do fade-in inicial da mídia. Leitura/gravação Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Especifica a duração, em milissegundos, do fade-out final da mídia. Leitura/gravação Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Determina se um AudioFrame está oculto. Leitura/gravação Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Retorna ou define o nome de um arquivo de áudio vinculado a um AudioFrame. Leitura/gravação String. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Retorna ou define o nome de um arquivo de áudio que está vinculado a um AudioFrame. Leitura/gravação String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Determina se um áudio está sendo reproduzido em todas os slides. Leitura/gravação Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Determina se um áudio está em loop. Leitura/gravação Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Retorna ou define o modo de reprodução de áudio. Leitura/gravação [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Determina se um áudio é automaticamente rebobinado para o início após a reprodução. Leitura/gravação Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Especifica a duração a ser removida do final da mídia durante a reprodução, em milissegundos. Leitura/gravação Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Especifica a duração a ser removida do início da mídia durante a reprodução, em milissegundos. Leitura/gravação Single. |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Determina se um áudio é rebobinado automaticamente ao início após a reprodução. Leitura/gravação Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Especifica a duração, em milissegundos, a ser removida do final da mídia durante a reprodução. Leitura/gravação Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Especifica a duração, em milissegundos, a ser removida do início da mídia durante a reprodução. Leitura/gravação Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Retorna ou define o volume de áudio. Leitura/gravação [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Retorna ou define o volume de áudio em porcentagens. Leitura/gravação Single. |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Retorna ou define o volume de áudio em porcentagem. Leitura/gravação Single. |
 
-### Ver também
+### Ver Também
 
 * interface [IPictureFrame](../ipictureframe)
 * namespace [Aspose.Slides](../../aspose.slides)

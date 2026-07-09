@@ -3,7 +3,7 @@ title: IAudioFrame
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett ljudklipp på en bild.
 type: docs
-weight: 5210
+weight: 5230
 url: /sv/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame gränssnitt
@@ -16,33 +16,33 @@ public interface IAudioFrame : IPictureFrame
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Tillåter att hämta bas-IPictureFrame-gränssnittet. Skrivskyddad [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Returnerar eller anger ett sista spårindex. Läs/ skriv Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Returnerar eller anger en sista spårtid. Läs/ skriv Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Returnerar eller anger ett startspårindex. Läs/ skriv Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Returnerar eller anger en startspårtid. Läs/ skriv Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Hämtar samlingen av stängda undertexter som är associerade med ljudramen. Denna egenskap är skrivskyddad och returnerar en [`ICaptionsCollection`](../icaptionscollection) som innehåller alla undertextspår. |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Returnerar eller anger ett sista spårindex. Läs-skriv Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Returnerar eller anger en sista spårtid. Läs-skriv Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Returnerar eller anger ett startspårindex. Läs-skriv Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Returnerar eller anger en startspårtid. Läs-skriv Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Hämtar samlingen av stängda undertexter som är kopplade till ljudramen. Denna egenskap är skrivskyddad och returnerar en [`ICaptionsCollection`](../icaptionscollection) som innehåller alla undertextspår. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Avgör om ett ljud är inbäddat i en presentation. Skrivskyddad Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Returnerar eller anger inbäddat ljudobjekt. Läs/ skriv [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Anger tidslängden för den initiala fade-in-effekten på mediet i millisekunder. Läs/ skriv Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Anger tidslängden för den avslutande fade-out-effekten på mediet i millisekunder. Läs/ skriv Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Avgör om en AudioFrame är dold. Läs/ skriv Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Returnerar eller anger namnet på en ljudfil som är länkad till en AudioFrame. Läs/ skriv String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Avgör om ett ljud spelas över alla bilder. Läs/ skriv Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Avgör om ett ljud är i slinga. Läs/ skriv Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Returnerar eller anger ljuduppspelningsläget. Läs/ skriv [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Avgör om ett ljud automatiskt spolas tillbaka till början efter uppspelning. Läs/ skriv Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Anger tidslängden som ska tas bort från slutet av mediet under uppspelning, i millisekunder. Läs/ skriv Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Anger tidslängden som ska tas bort från början av mediet under uppspelning, i millisekunder. Läs/ skriv Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Returnerar eller anger ljudvolymen. Läs/ skriv [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Returnerar eller anger ljudvolymen i procent. Läs/ skriv Single. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Returnerar eller anger inbäddat ljudobjekt. Läs-skriv [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Anger tidslängden för den initiala fade-in-effekten för mediet i millisekunder. Läs-skriv Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Anger tidslängden för den avslutande fade-out-effekten för mediet i millisekunder. Läs-skriv Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Avgör om ett AudioFrame är dolt. Läs-skriv Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Returnerar eller anger namnet på en ljudfil som är länkad till ett AudioFrame. Läs-skriv String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Avgör om ett ljud spelas över alla bilder. Läs-skriv Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Avgör om ett ljud är i loop. Läs-skriv Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Returnerar eller anger ljuduppspelningsläget. Läs-skriv [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Avgör om ett ljud automatiskt spolas tillbaka till början efter uppspelning. Läs-skriv Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Anger tidslängden som ska tas bort från slutet av mediet under uppspelning, i millisekunder. Läs-skriv Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Anger tidslängden som ska tas bort från början av mediet under uppspelning, i millisekunder. Läs-skriv Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Returnerar eller anger ljudvolymen. Läs-skriv [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Returnerar eller anger ljudvolymen i procent. Läs-skriv Single. |
 
-### Se även
+### Se också
 
 * gränssnitt [IPictureFrame](../ipictureframe)
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* namnrum [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

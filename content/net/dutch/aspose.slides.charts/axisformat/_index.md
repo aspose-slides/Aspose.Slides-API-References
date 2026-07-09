@@ -1,14 +1,14 @@
 ---
 title: AxisFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt eigenschappen voor het opmaken van een grafiek.
+description: Stelt de opmaak-eigenschappen van een diagram voor.
 type: docs
 weight: 1200
 url: /nl/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat klasse
 
-Vertegenwoordigt eigenschappen voor het opmaken van een grafiek.
+Stelt de opmaak-eigenschappen van een diagram voor.
 
 ```csharp
 public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
@@ -18,9 +18,9 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Geeft effecten die voor een as worden gebruikt. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Geeft vulstijleigenschappen van een as. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Geeft lijnstijleigenschappen van een as. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Geeft de effecten terug die voor een as worden gebruikt. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Geeft de vulstijleigenschappen van een as terug. Alleen-lezen [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Geeft de lijnstijleigenschappen van een as terug. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: 2D ve 3D grafik türlerini birleştirmeye çalışırken atılan istisna.
 type: docs
-weight: 1220
+weight: 1240
 url: /tr/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException sınıf
 
-2D ve 3D grafik tiplerini birleştirmeye çalışırken atılan istisna.
+2D ve 3D grafik türlerini birleştirmeye çalışırken atılan Exception.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -19,8 +19,8 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | Ad | Açıklama |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Varsayılan yapıcı. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Bu istisna için bir ileti eklenmesine izin veren yapıcı. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren istisna için yapıcı. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Bu istisna için bir mesaj eklenmesine izin veren yapıcı. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

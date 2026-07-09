@@ -1,12 +1,12 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: व्हील स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10470
 url: /hi/aspose.slides.slideshow/wheeltransition/
 ---
-## WheelTransition क्लास
+## WheelTransition कक्षा
 
 व्हील स्लाइड ट्रांज़िशन प्रभाव।
 
@@ -14,22 +14,22 @@ url: /hi/aspose.slides.slideshow/wheeltransition/
 public class WheelTransition : TransitionValueBase, IWheelTransition
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | व्हील ट्रांज़िशन के स्पोक की संख्या। पढ़ें/लिखें UInt32। |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | व्हील ट्रांज़िशन के स्पोक्स की संख्या। पढ़ें/लिखें UInt32। |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंसेज़ समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के योग्य है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टैंस बराबर हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
 ### संबंधित देखें
 
-* क्लास [TransitionValueBase](../transitionvaluebase)
+* कक्षा [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IWheelTransition](../iwheeltransition)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

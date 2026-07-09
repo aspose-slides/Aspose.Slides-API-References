@@ -1,12 +1,12 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje komponent wykresu.
 type: docs
-weight: 1770
+weight: 1790
 url: /pl/aspose.slides.charts/ichartcomponent/
 ---
-## interfejs IChartComponent
+## IChartComponent interface
 
 Reprezentuje komponent wykresu.
 

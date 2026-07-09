@@ -1,6 +1,6 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 참조
 description: HTML5 내보내기 옵션을 나타냅니다.
 type: docs
 weight: 3860
@@ -16,26 +16,26 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Html5Options](html5options)() | 기본 생성자. |
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 쉐이프 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 전환 애니메이션 옵션을 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 가져오거나 설정합니다. 읽기/쓰기 String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 텍스트를 리가처 없이 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. `true`로 설정하면 렌더링 출력에서 리가처가 비활성화됩니다. 기본값은 `false`입니다. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 이미지 포함 옵션을 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 외부 리소스를 저장할 위치를 결정합니다. 읽기/쓰기 String. |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 텍스트를 합자(ligature)를 사용하지 않고 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면 렌더링 출력에서 합자가 비활성화됩니다. 기본값은 `false` 입니다. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 이미지 임베딩 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String. |
 | [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 그림 압축 수준을 나타냅니다. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 있는 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 업데이트를 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 있는 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false** 입니다. |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지 결정하는 객체를 가져오거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스가 계속 진행될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### 예제
 

@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt zawierający skuteczne właściwości formatowania efektów.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Niezmienny obiekt, który zawiera efektywne właściwości formatowania efektów.
 type: docs
-weight: 5730
+weight: 5750
 url: /pl/aspose.slides/ieffectformateffectivedata/
 ---
-## IEffectFormatEffectiveData interfejs
+## interfejs IEffectFormatEffectiveData
 
-Niezmienny obiekt zawierający skuteczne właściwości formatowania efektów.
+Nieodmienny obiekt, który zawiera efektywne właściwości formatowania efektów.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -23,15 +23,15 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efekt nakładki wypełnienia. Tylko do odczytu [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efekt poświaty. Tylko do odczytu [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Cień wewnętrzny. Tylko do odczytu [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Zwraca true, jeśli wszystkie efekty są wyłączone (tak jak w nowo utworzonym, domyślnym obiekcie EffectFormat). Tylko do odczytu Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Zwraca wartość true, jeśli wszystkie efekty są wyłączone (jak w nowo utworzonym, domyślnym obiekcie EffectFormat). Tylko do odczytu Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Cień zewnętrzny. Tylko do odczytu [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Predefiniowany cień. Tylko do odczytu [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Cień wstępny. Tylko do odczytu [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Odbicie. Tylko do odczytu [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Miękka krawędź. Tylko do odczytu [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IEffectFormat`](../ieffectformat) do zwracania efektywnych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`IEffectFormat`](../ieffectformat) w celu zwrócenia efektywnych wartości formatowania z zastosowaną dziedzicznością.
 
 ### Zobacz także
 

@@ -1,9 +1,9 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 軸の位置を決定します。
 type: docs
-weight: 1190
+weight: 1210
 url: /ja/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType 列挙型
@@ -18,10 +18,10 @@ public enum AxisPositionType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Bottom | `0` | 軸がプロット領域の下部に表示されることを指定します。 |
-| Left | `1` | 軸がプロット領域の左側に表示されることを指定します。 |
-| Right | `2` | 軸がプロット領域の右側に表示されることを指定します。 |
-| Top | `3` | 軸がプロット領域の上部に表示されることを指定します。 |
+| Bottom | `0` | プロット領域の下部に軸を表示することを指定します。 |
+| Left | `1` | プロット領域の左側に軸を表示することを指定します。 |
+| Right | `2` | プロット領域の右側に軸を表示することを指定します。 |
+| Top | `3` | プロット領域の上部に軸を表示することを指定します。 |
 
 ### 参照
 

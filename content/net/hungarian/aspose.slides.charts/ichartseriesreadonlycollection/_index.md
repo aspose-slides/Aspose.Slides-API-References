@@ -3,12 +3,12 @@ title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes .NET API referencia
 description: Egy csak olvasható IChartSeries gyűjteményt képvisel./ichartseries
 type: docs
-weight: 1950
+weight: 1970
 url: /hu/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection interfész
 
-Egy csak olvasható [`IChartSeries`](../ichartseries) gyűjteményt képvisel
+Egy csak olvasható gyűjteményt képvisel [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Visszaadja az elemet a megadott indexen. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | A megadott indexű elemet adja vissza. |
 
 ### Lásd még
 

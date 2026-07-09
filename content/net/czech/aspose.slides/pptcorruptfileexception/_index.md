@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozen.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozený.
 type: docs
-weight: 9480
+weight: 9500
 url: /cs/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException třída
 
-Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozen.
+Výjimka, která je vyvolána, když je soubor prezentace pravděpodobně poškozený.
 
 ```csharp
 public class PptCorruptFileException : PptReadException

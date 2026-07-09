@@ -1,14 +1,14 @@
 ---
 title: CellCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: Cellák gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET-hez API hivatkozás
+description: A cellák gyűjteményét képviseli.
 type: docs
-weight: 1120
+weight: 1140
 url: /hu/aspose.slides/cellcollection/
 ---
 ## CellCollection osztály
 
-Egy cellagyűjteményt képvisel.
+A cellák gyűjteményét képviseli.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -16,18 +16,18 @@ public abstract class CellCollection : ICellCollection
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Visszaadja a cellák számát egy gyűjteményben. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Visszaad egy értéket, amely megmutatja, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Visszaad egy cellát a pozíciója alapján. Csak olvasható [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Visszaadja a CellCollection szülő bemutatóját. Csak olvasható [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Visszaadja a CellCollection szülő diáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér elemet. Csak olvasható Object. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Visszaadja a CellCollection szülő-prezentációját. Csak olvasható [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Visszaadja a CellCollection szülő-diaját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |

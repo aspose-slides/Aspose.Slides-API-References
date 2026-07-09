@@ -1,9 +1,9 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje menedżer, który przechowuje zachowanie pól zastępczych slajdu notatek, w tym pola zastępczego nagłówka.
 type: docs
-weight: 6490
+weight: 6510
 url: /pl/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interfejs
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Zwraca interfejs IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Zwraca IBaseHandoutNotesSlideHeaderFooterManag interfejs. |
 
 ### Zobacz także
 

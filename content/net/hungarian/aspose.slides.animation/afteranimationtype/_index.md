@@ -1,14 +1,14 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Az animáció hatása után alkalmazandó animáció típust reprezentálja.
+second_title: Aspose.Sildes .NET API Referencia
+description: Az animáció hatása után alkalmazott animációtípust reprezentálja.
 type: docs
-weight: 90
+weight: 110
 url: /hu/aspose.slides.animation/afteranimationtype/
 ---
-## AfterAnimationType enumeráció
+## AfterAnimationType felsorolás
 
-Az animációs hatás után alkalmazandó animációtípust jelöli.
+Az animáció hatás után alkalmazott animációtípust reprezentálja.
 
 ```csharp
 public enum AfterAnimationType
@@ -18,10 +18,10 @@ public enum AfterAnimationType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| DoNotDim | `0` | Ne sötétítsen le az animáció után. |
-| Color | `1` | Szín az animáció után. |
-| HideAfterAnimation | `2` | Animáció után elrejtés |
-| HideOnNextMouseClick | `3` | Elrejtés a következő egérkattintáskor az animáció után. |
+| DoNotDim | `0` | Ne halványítsa az animációtípus után. |
+| Color | `1` | Szín az animációtípus után. |
+| HideAfterAnimation | `2` | Elrejtés az animációtípus után |
+| HideOnNextMouseClick | `3` | Elrejtés a következő egérkattintáskor az animációtípus után. |
 
 ### Lásd még
 

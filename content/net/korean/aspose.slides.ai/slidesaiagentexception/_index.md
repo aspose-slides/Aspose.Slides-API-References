@@ -1,6 +1,6 @@
 ---
 title: SlidesAIAgentException
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: Slides AI Agent와 관련된 예외를 나타냅니다.
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException 클래스
 
-Slides AI Agent 관련 예외를 나타냅니다.
+Slides AI Agent와 관련된 예외를 나타냅니다.
 
 ```csharp
 public class SlidesAIAgentException : Exception
@@ -18,10 +18,10 @@ public class SlidesAIAgentException : Exception
 
 | 이름 | 설명 |
 | --- | --- |
-| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | 이 예외에 메시지를 추가하도록 허용하는 생성자입니다. |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | 메시지와 포함된 Exception을 포함하는 예외에 대한 생성자입니다. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | 이 예외에 메시지를 추가할 수 있는 생성자입니다. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | 메시지와 내부 예외를 포함하는 예외에 대한 생성자입니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.AI](../../aspose.slides.ai)
 * 어셈블리 [Aspose.Slides](../../)

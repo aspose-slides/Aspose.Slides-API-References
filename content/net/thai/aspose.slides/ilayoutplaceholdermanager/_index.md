@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่ทำให้คุณสามารถเพิ่มตัวเติมลงในสไลด์เค้าโครงได้
+description: แสดงถึงผู้จัดการที่ให้คุณเพิ่ม placeholders ลงในสไลด์เลเอาต์.
 type: docs
 weight: 6210
 url: /th/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager อินเทอร์เฟซ
 
-แสดงถึงผู้จัดการที่ทำให้คุณสามารถเพิ่มตัวเติมลงในสไลด์เค้าโครงได้
+แสดงถึงผู้จัดการที่ให้คุณเพิ่ม placeholder ลงในสไลด์เลเอาต์.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บแผนภูมิ |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความ |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บออบเจ็กต์สื่อ |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บรูปภาพออนไลน์ |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บรูปภาพ |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บแผนผัง SmartArt |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บตาราง |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บข้อความ |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บเนื้อหา เช่น รูปภาพ ตาราง สื่อ หรือข้อความในแนวตั้ง |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | เพิ่มรูปทรงตัวเติมใหม่ไปยังสไลด์เค้าโครงเพื่อเก็บข้อความในแนวตั้ง |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุแผนภูมิ. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุเนื้อหา เช่น รูปภาพ, ตาราง, สื่อ หรือข้อความ. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุวัตถุสื่อ. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุภาพออนไลน์. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุรูปภาพ. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุไดอะแกรม SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุตาราง. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุเนื้อหาข้อความ. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุเนื้อหา เช่น รูปภาพ, ตาราง, สื่อ หรือข้อความในแนวตั้ง. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | เพิ่มรูปทรง placeholder ใหม่ลงในสไลด์เลเอาต์เพื่อบรรจุเนื้อหาข้อความในแนวตั้ง. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: การจัดแนวในแนวตั้ง
+second_title: Aspose.Sildes สำหรับอ้างอิง API .NET
+description: การจัดแนวแนวตั้ง
 type: docs
 weight: 9050
 url: /th/aspose.slides.mathtext/mathverticalalignment/
 ---
-## MathVerticalAlignment การระบุค่า
+## การกำหนดค่า MathVerticalAlignment
 
-การจัดแนวในแนวตั้ง
+การจัดแนวแนวตั้ง
 
 ```csharp
 public enum MathVerticalAlignment

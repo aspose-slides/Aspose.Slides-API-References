@@ -1,14 +1,14 @@
 ---
 title: LineStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de stijl van een lijn voor.
+description: Geeft de stijl van een lijn weer.
 type: docs
 weight: 7820
 url: /nl/aspose.slides/linestyle/
 ---
 ## LineStyle-enumeratie
 
-Stelt de stijl van een lijn voor.
+Geeft de stijl van een lijn weer.
 
 ```csharp
 public enum LineStyle : sbyte

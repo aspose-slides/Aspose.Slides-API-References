@@ -1,9 +1,9 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Preset Shadow-effekt.
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar en förinställd skuggeffekt.
 type: docs
-weight: 3610
+weight: 3630
 url: /sv/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow klass
@@ -27,11 +27,11 @@ public sealed class PresetShadow : IPresetShadow
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Bestämmer huruvida den angivna [`PresetShadow`](../presetshadow) är lika med den aktuella [`PresetShadow`](../presetshadow). |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Hämtar effektiv Preset Shadow-effektdat med arv tillämpat. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Avgör om den angivna [`PresetShadow`](../presetshadow) är lika med den aktuella [`PresetShadow`](../presetshadow). |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Hämtar effektiv Preset Shadow-effektdata med ärvda värden tillämpade. |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
-### Se också
+### Se även
 
 * gränssnitt [IPresetShadow](../ipresetshadow)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

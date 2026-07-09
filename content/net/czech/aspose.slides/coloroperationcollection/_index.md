@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes pro .NET referenci API
-description: Reprezentuje kolekci operací transformace barev.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje kolekci operací transformace barev.
 type: docs
-weight: 2520
+weight: 2540
 url: /cs/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection třída
 
-Represents a collection of color transform operations.
+Representuje kolekci operací transformace barev.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -16,27 +16,27 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Vrací počet operací ve sbírce. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Vrací počet operací v kolekci. Jen pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Jen pro čtení Boolean. |
 | [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Vrací nebo nastavuje operaci na zadaném indexu. Čtení/zápis [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Vrací kořen synchronizace. Jen pro čtení Object. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Přidá novou operaci na konec sbírky. |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Přidá novou operaci na konec sbírky. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Přidá novou operaci na konec kolekce. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Přidá novou operaci na konec kolekce. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Odstraní všechny operace barev. |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Vytvoří kopii sbírky ColorOperationCollection. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Vytvoří kopii kolekce ColorOperationCollection. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Klonuje aktuální objekt |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Vloží novou operaci do sbírky. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Vloží novou operaci do sbírky. |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Odstraní operaci barev ze sbírky. |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Vloží novou operaci do kolekce. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Vloží novou operaci do kolekce. |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Odstraní operaci barev z kolekce. |
 
 ### Viz také
 

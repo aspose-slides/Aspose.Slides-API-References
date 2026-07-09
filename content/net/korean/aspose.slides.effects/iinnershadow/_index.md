@@ -1,6 +1,6 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 내부 그림자 효과를 나타냅니다.
 type: docs
 weight: 3420
@@ -21,12 +21,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 흐림 반경. 읽기/쓰기 Double. |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | 블러 반경. 읽기/쓰기 Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | 그림자의 방향. 읽기/쓰기 Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | 그림자의 거리. 읽기/쓰기 Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | 그림자 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IInnerShadowEffectiveData](../iinnershadoweffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la raccolta di colonne in una tabella.
+description: Rappresenta una raccolta di colonne in una tabella.
 type: docs
-weight: 5510
+weight: 5530
 url: /it/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection interfaccia
 
-Rappresenta la raccolta di colonne in una tabella.
+Rappresenta una raccolta di colonne in una tabella.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -16,13 +16,13 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | Restituisce la colonna all'indice specificato. Solo lettura [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | Restituisce la colonna all'indice specificato. Sola lettura [`IColumn`](../icolumn). |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | Crea una copia della riga modello specificata e la inserisce nella parte inferiore di una tabella. |
 | [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | Crea una copia della colonna modello specificata e la inserisce nella posizione specificata in una tabella. |

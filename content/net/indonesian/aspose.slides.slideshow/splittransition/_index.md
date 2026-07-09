@@ -3,10 +3,10 @@ title: SplitTransition
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide terpisah.
 type: docs
-weight: 10310
+weight: 10330
 url: /id/aspose.slides.slideshow/splittransition/
 ---
-## Kelas SplitTransition
+## SplitTransition kelas
 
 Efek transisi slide terpisah.
 
@@ -18,8 +18,8 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Arah pemisahan transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientasi pemisahan transisi. Baca/tulis [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Arah split transisi. Baca/tulis [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Orientasi split transisi. Baca/tulis [`Orientation`](../../aspose.slides/orientation). |
 
 ## Metode
 

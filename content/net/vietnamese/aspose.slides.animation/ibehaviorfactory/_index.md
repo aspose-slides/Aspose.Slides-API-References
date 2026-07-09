@@ -1,6 +1,6 @@
 ---
 title: IBehaviorFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Cho phép tạo hiệu ứng hoạt hình
 type: docs
 weight: 430
@@ -23,13 +23,13 @@ public interface IBehaviorFactory
 | [CreateFilterEffect](../../aspose.slides.animation/ibehaviorfactory/createfiltereffect)() | Tạo hiệu ứng bộ lọc. |
 | [CreateMotionEffect](../../aspose.slides.animation/ibehaviorfactory/createmotioneffect)() | Tạo hiệu ứng chuyển động. |
 | [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Tạo hiệu ứng thuộc tính. |
-| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Tạo hiệu ứng quay. |
-| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Tạo hiệu ứng tỉ lệ. |
+| [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Tạo hiệu ứng xoay. |
+| [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Tạo hiệu ứng thu phóng. |
 | [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Tạo hiệu ứng thiết lập. |
 
 ### Ghi chú
 
-Để tương thích với COM.
+Để tương thích COM.
 
 ### Xem thêm
 

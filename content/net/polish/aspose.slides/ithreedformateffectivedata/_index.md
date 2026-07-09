@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes dla .NET API Reference
-description: Niezmienny obiekt reprezentujący efektywne właściwości formatowania 3-D.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Niezmienny obiekt, który reprezentuje skuteczne właściwości formatowania 3-D.
 type: docs
-weight: 7320
+weight: 7340
 url: /pl/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData interfejs
+## Interfejs IThreeDFormatEffectiveData
 
-Niezmienny obiekt reprezentujący efektywne właściwości formatowania 3-D.
+Niezmienny obiekt reprezentujący skuteczne właściwości formatowania 3-D.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -19,8 +19,8 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IThreeDParamSource. Tylko do odczytu [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Zwraca typ dolnego fazetu 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Zwraca typ górnego fazetu 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Zwraca typ dolnego wycięcia 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Zwraca typ górnego wycięcia 3D. Tylko do odczytu [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Zwraca ustawienia kamery. Tylko do odczytu [`ICameraEffectiveData`](../icameraeffectivedata). |
 | [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Zwraca kolor konturu. Tylko do odczytu Color. |
 | [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Zwraca szerokość konturu 3D. Tylko do odczytu Double. |
@@ -32,7 +32,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IThreeDFormat`](../ithreedformat) w celu zwrócenia efektywnych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`IThreeDFormat`](../ithreedformat) aby zwrócić skuteczne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

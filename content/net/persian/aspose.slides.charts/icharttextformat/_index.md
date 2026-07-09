@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمودار با مجموعه محدود از ویژگی‌های قالب متن عمل می‌کند. رابط‌های IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat این مجموعه محدود را توصیف می‌کنند.
+description: نمودار با مجموعه‌ای محدود از ویژگی‌های قالب‌بندی متن کار می‌کند. رابط‌های IChartTextFormat، IChartTextBlockFormat، IChartParagraphFormat و IChartPortionFormat این مجموعه محدود را توصیف می‌کنند.
 type: docs
 weight: 1990
 url: /fa/aspose.slides.charts/icharttextformat/
 ---
-## IChartTextFormat رابط
+## IChartTextFormat واسط
 
-نمودار با مجموعه محدود از ویژگی‌های قالب متن عمل می‌کند. رابط‌های IChartTextFormat، IChartTextBlockFormat، IChartParagraphFormat، IChartPortionFormat این مجموعه محدود را توصیف می‌کنند.
+نمودار با مجموعه محدودی از ویژگی‌های قالب‌بندی متن کار می‌کند. رابط‌های IChartTextFormat، IChartTextBlockFormat، IChartParagraphFormat و IChartPortionFormat این مجموعه محدود را توصیف می‌کنند.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,18 +18,18 @@ public interface IChartTextFormat
 
 | نام | توضیح |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | قالب پاراگراف را برمی‌گرداند. فقط-خواندنی [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | قالب بخش را برمی‌گرداند. فقط-خواندنی [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | قالب عناصر متن نمودار را برمی‌گرداند. فقط-خواندنی [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | قالب پاراگراف را برمی‌گرداند. فقط خواندنی [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | قالب بخش را برمی‌گرداند. فقط خواندنی [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | قالب عناصر متن نمودار را برمی‌گرداند. فقط خواندنی [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | قالب متن را از فریم متنی مشخص کپی می‌کند. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | قالب متن را به فریم متنی مشخص کپی می‌کند. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | قالب متن را از فریم متنی مشخص شده کپی می‌کند. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | قالب متن را به فریم متنی مشخص شده کپی می‌کند. |
 
-### مراجعه
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
 * مجمع [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนลายที่ใช้เติมรูปทรง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงรูปแบบที่ใช้เติมรูปร่าง.
 type: docs
 weight: 9350
 url: /th/aspose.slides/patternformat/
 ---
 ## PatternFormat คลาส
 
-แสดงลายที่ใช้เติมรูปทรง
+แสดงถึงรูปแบบที่ใช้เติมรูปร่าง
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -16,21 +16,21 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึง interface IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | ส่งคืนสีลายพื้นหลัง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | ส่งคืนสีลายพื้นหน้า. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | ส่งคืนหรือกำหนดสไตล์ลาย. อ่าน/เขียน [`PatternStyle`](../patternstyle). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | คืนค่าสีพื้นหลังของลายแบบ อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | คืนค่าสีพื้นหน้าของลายแบบ อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | คืนค่า หรือกำหนดรูปแบบลายแบบ อ่าน/เขียน [`PatternStyle`](../patternstyle). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮช. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | สร้างภาพต่อกันสำหรับเติมลาย. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | สร้างภาพต่อกันสำหรับเติมลายด้วยสีที่ระบุ. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | สร้างภาพไทล์สำหรับการเติมลายแบบ |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | สร้างภาพไทล์สำหรับการเติมลายแบบด้วยสีที่ระบุ |
 
 ### ดูเพิ่มเติม
 

@@ -3,10 +3,10 @@ title: Paragraph
 second_title: Aspose.Sildes için .NET API Referansı
 description: Metin paragrafını temsil eder.
 type: docs
-weight: 9260
+weight: 9280
 url: /tr/aspose.slides/paragraph/
 ---
-## Paragraph sınıfı
+## Paragraph sınıf
 
 Metin paragrafını temsil eder.
 
@@ -16,27 +16,27 @@ public sealed class Paragraph : IParagraph
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Varsayılan özelliklerle Paragraph sınıfının yeni bir örneğini başlatır. |
+| [Paragraph](paragraph#constructor)() | Paragraph sınıfının varsayılan özelliklerle yeni bir örneğini başlatır. |
 | [Paragraph](paragraph#constructor_1)(Paragraph) | Paragraph sınıfının yeni bir örneğini başlatan kopya yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Sonuncusundan sonra başka bir bölüm eklendiğinde kullanılacak bölüm özelliklerini belirtir. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Bu paragraf için biçimlendirme nesnesini döndürür. Yalnızca okunur [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Metin bölümlerinin koleksiyonunu döndürür. Yalnızca okunur [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Bir paragrafın düz metnini alır veya ayarlar. Okunabilir/yazılabilir String. |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Son parçanın ardından başka bir parça eklenirse kullanılacak parça özelliklerini belirtir. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Bu paragraf için biçimlendirme nesnesini döndürür. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Metin parçalarının koleksiyonunu döndürür. Salt okunur [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Bir paragrafın düz metnini alır veya ayarlar. Okunabilir/Yazılabilir String. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Bir paragraftaki satır sayısını alır. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Paragrafı sınırlayan dikdörtgenin koordinatlarını alır. Dikdörtgen, boş satırlar dahil, paragraftaki tüm metin satırlarını içerir. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip run'ları birleştirir. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Paragrafı çevreleyen dikdörtgenin koordinatlarını alır. Dikdörtgen, paragraftaki tüm metin satırlarını, boş olanları da dahil, içerir. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Aynı biçimlendirmeye sahip çalışmaları birleştirir. |
 
 ### Ayrıca Bakınız
 

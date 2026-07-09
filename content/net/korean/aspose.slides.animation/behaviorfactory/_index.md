@@ -1,6 +1,6 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 애니메이션 효과를 생성할 수 있습니다
 type: docs
 weight: 180
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory 클래스
 
-애니메이션 효과를 만들 수 있습니다
+애니메이션 효과를 생성할 수 있습니다
 
 ```csharp
 public class BehaviorFactory : IBehaviorFactory
@@ -18,7 +18,7 @@ public class BehaviorFactory : IBehaviorFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [BehaviorFactory](behaviorfactory)() | 기본 생성자입니다. |
+| [BehaviorFactory](behaviorfactory)() | 기본 생성자. |
 
 ## 메서드
 
@@ -31,13 +31,13 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | 속성 효과를 생성합니다. |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | 회전 효과를 생성합니다. |
 | [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | 스케일 효과를 생성합니다. |
-| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | 설정 효과를 생성합니다. |
+| [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | 세트 효과를 생성합니다. |
 
 ### 비고
 
 COM 호환성을 위해.
 
-### 참고
+### 참조
 
 * 인터페이스 [IBehaviorFactory](../ibehaviorfactory)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

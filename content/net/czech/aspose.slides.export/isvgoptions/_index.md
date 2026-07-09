@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes pro .NET – reference API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje možnosti SVG.
 type: docs
-weight: 4040
+weight: 4060
 url: /cs/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions rozhraní
 
-Reprezentuje možnosti SVG.
+Represents an SVG options.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -19,19 +19,19 @@ public interface ISVGOptions : ISaveOptions
 | Název | Popis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Příznak typu Boolean určuje, zda oříznuté části zůstávají součástí dokumentu. Pokud je true, oříznuté části budou odstraněny, pokud je false, budou v dokumentu serializovány (což může vést k většímu souboru). Čtení/zápis Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Logický příznak určuje, zda oříznuté části zůstávají součástí dokumentu. Pokud je true, oříznuté části budou odstraněny, pokud je false, budou v dokumentu serializovány (což může vést k většímu souboru). Čtení/zápis Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Určuje, zda je 3D text v SVG zakázán. Čtení/zápis Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Získá nebo nastaví hodnotu určující, zda je text vykreslen bez použití ligatur. Když je nastaveno na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Zakazuje dělení gradientů FromCornerX a FromCenter. Čtení/zápis Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 postrádá schopnost definovat odsazení pro značky. Aspose.Slides SVG writing engine má řešení tohoto problému: ořízne konec čáry s šipkou, takže čára nepřekrývá značky. Toto nastavení tuto funkci vypne. Čtení/zápis Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Určuje způsob zpracování externě načtených fontů. Čtení/zápis [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Poskytuje možnosti, které řídí vzhled Ink objektů v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Určuje kvalitu JPEG kódování. Čtení/zápis Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Vrací nebo nastaví spodní limit rozlišení pro rasterizaci metafile. Čtení/zápis Int32. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Získá nebo nastaví hodnotu určující, zda je text vykreslován bez použití ligatur. Když je nastaveno na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Zakazuje rozdělení gradientů FromCornerX a FromCenter. Čtení/zápis Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 postrádá schopnost definovat odsazení pro značky. Engine pro zápis SVG v Aspose.Slides má pro tento problém řešení: ořízne koncový segment čáry s šipkou, takže čára nepřekrývá značky. Tato volba vypíná takové chování. Čtení/zápis Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Určuje způsob zacházení s externě načtenými fonty. Čtení/zápis [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Poskytuje možnosti, které ovlivňují vzhled Ink objektů v exportovaném dokumentu. Pouze pro čtení [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Určuje kvalitu kódování JPEG. Čtení/zápis Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Vrací nebo nastavuje spodní limit rozlišení pro rasterizaci metafile. Čtení/zápis Int32. |
 | [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Reprezentuje úroveň komprese obrázků. Čtení/zápis [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Vrací a nastavuje rozhraní zpětného volání, které umožňuje uživateli řídit konverzi tvaru. Čtení/zápis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Určuje, zda při vykreslování provést určenou rotaci tvaru nebo ne. Čtení/zápis Boolean. Výchozí hodnota je true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Určuje, zda bude textový rámec zahrnut v oblasti vykreslování nebo ne. Čtení/zápis Boolean. Výchozí hodnota je false. |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Vrací a nastavuje zpětné volání rozhraní, které umožňuje uživateli řídit konverzi tvaru. Čtení/zápis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Určuje, zda provést specifikovanou rotaci tvaru při vykreslování nebo ne. Čtení/zápis Boolean. Výchozí hodnota je true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Určuje, zda bude textový rámeček zahrnut do oblasti vykreslování nebo ne. Čtení/zápis Boolean. Výchozí hodnota je false. |
 | [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Určuje, zda bude text na snímku uložen jako grafika. Čtení/zápis Boolean. |
 
 ### Viz také

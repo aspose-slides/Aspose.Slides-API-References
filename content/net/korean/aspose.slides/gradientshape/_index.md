@@ -24,7 +24,7 @@ public enum GradientShape : sbyte
 | Radial | `2` |  |
 | Path | `3` |  |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Picture
-second_title: Aspose.Sildes a .NET-hez API hivatkozás
-description: Egy képet reprezentál egy prezentációban.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy képet képvisel a prezentációban.
 type: docs
-weight: 9360
+weight: 9380
 url: /hu/aspose.slides/picture/
 ---
 ## Picture osztály
 
-Egy képet reprezentál a prezentációban.
+Egy képet képvisel a prezentációban.
 
 ```csharp
 public sealed class Picture : ISlidesPicture
@@ -18,12 +18,12 @@ public sealed class Picture : ISlidesPicture
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 | [Image](../../aspose.slides/picture/image) { get; set; } | Visszaadja vagy beállítja a beágyazott képet. Olvasás/írás [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Visszaadja a kép transzformációs hatásainak gyűjteményét. Csak olvasható [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Visszaadja vagy beállítja a csatolt kép URL-jét. Olvasás/írás String. |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Visszaadja a képek transzformációs effektusainak gyűjteményét. Csak olvasható [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Visszaadja vagy beállítja a hivatkozott kép URL-jét. Olvasás/írás String. |
 | [Presentation](../../aspose.slides/picture/presentation) { get; } | Visszaadja a prezentációt. Csak olvasható [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Visszaadja a kép szülődiáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Visszaadja a kép szülő diáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
 
 ## Metódusok
 

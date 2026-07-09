@@ -1,9 +1,9 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir alan türünü temsil eder. Bu değer, güncellendiğinde alan bölümüne hangi metnin ayarlanacağını belirler.
 type: docs
-weight: 5760
+weight: 5780
 url: /tr/aspose.slides/ifieldtype/
 ---
 ## IFieldType arayüz
@@ -18,7 +18,7 @@ public interface IFieldType
 
 | Ad | Açıklama |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Bu FieldTypeEx nesnesinin dahili adını döndürür. Okuma/yazma String. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Bu FieldTypeEx nesnesinin dahili adını döndürür. Okunabilir/Yazılabilir String. |
 
 ### Ayrıca Bakınız
 

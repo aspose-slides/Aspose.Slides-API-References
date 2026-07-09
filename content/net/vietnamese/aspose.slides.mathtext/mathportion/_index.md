@@ -1,47 +1,47 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Đại diện cho một phần có ngữ cảnh toán học bên trong.
 type: docs
 weight: 8930
 url: /vi/aspose.slides.mathtext/mathportion/
 ---
-## Lớp MathPortion
+## MathPortion lớp
 
-Đại diện cho một phần có ngữ cảnh toán học bên trong.
+Đại diện cho một phần với ngữ cảnh toán học bên trong.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
 ```
 
-## Hàm tạo
+## Bộ khởi tạo
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [MathPortion](mathportion)() | Khởi tạo một thể hiện mới của lớp MathPortion. |
+| [MathPortion](mathportion)() | Khởi tạo một phiên bản mới của lớp MathPortion. |
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Trả về một trường của phần này. Chỉ đọc [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Đoạn văn toán học |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Trả về đối tượng định dạng chứa các thuộc tính định dạng được đặt rõ ràng của phần văn bản mà không áp dụng kế thừa. Chỉ đọc [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Trả về đối tượng định dạng chứa các thuộc tính định dạng được đặt một cách rõ ràng của phần văn bản mà không áp dụng kế thừa. Chỉ đọc [`IPortionFormat`](../../aspose.slides/iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | Lấy hoặc đặt văn bản thuần của một phần. Đọc/ghi String. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Chuyển đổi phần này thành trường được cập nhật tự động. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Chuyển đổi phần này thành trường được cập nhật tự động. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lấy tọa độ của điểm bắt đầu phần. Tọa độ X của điểm đại diện cho phần bắt đầu từ ký tự đầu tiên bao gồm phần lề trái. Tọa độ Y bao gồm phần lề trên. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Lấy tọa độ của hình chữ nhật bao quanh phần. Hình chữ nhật bao gồm tất cả các dòng văn bản trong phần, kể cả các dòng trống. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Lấy tọa độ của đầu phần. Tọa độ X của điểm đại diện cho phần bắt đầu từ ký tự đầu tiên bao gồm độ lệch bên trái. Tọa độ Y bao gồm độ lệch bên trên. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Lấy tọa độ của hình chữ nhật bao quanh phần. Hình chữ nhật bao gồm tất cả các dòng văn bản trong phần, bao gồm cả các dòng trống. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Chuyển đổi phần trường này thành phần đơn giản. |
 
 ### Ví dụ
 
-Ví dụ:
+Example:
 
 ```csharp
 [C#]

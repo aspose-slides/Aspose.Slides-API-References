@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: वह डेलिमिटर ऑब्जेक्ट निर्दिष्ट करता है जिसमें खोलने और बंद करने वाले अक्षर होते हैं, जैसे कोष्ठक, ब्रेस, ब्रैकेट और वर्टिकल बार, तथा एक या अधिक गणितीय तत्व अंदर होते हैं जिन्हें निर्दिष्ट अक्षर द्वारा अलग किया जाता है। उदाहरण 2 2x7C2
+description: डिलिमिटर ऑब्जेक्ट को निर्दिष्ट करता है जिसमें खोलने और बंद करने वाले अक्षर होते हैं जैसे कोष्ठक, ब्रेस, वर्ग कोष्ठक और लंबवत बार, तथा एक या अधिक गणितीय तत्व होते हैं जो निर्दिष्ट अक्षर द्वारा अलग किए जाते हैं। उदाहरण 2 2x7C2
 type: docs
 weight: 8210
 url: /hi/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter इंटरफ़ेस
 
-Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (𝑥2); [𝑥2&#x7C;𝑦2]
+डिलिमिटर ऑब्जेक्ट को निर्दिष्ट करता है, जिसमें प्रारंभिक और समाप्ती अक्षर शामिल होते हैं (जैसे कोष्ठक, ब्रेस, वर्ग कोष्ठक, और लंबवत बार), और उसके भीतर एक या अधिक गणितीय तत्व होते हैं, जो निर्दिष्ट अक्षर द्वारा अलग किए जाते हैं। उदाहरण: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -18,23 +18,21 @@ public interface IMathDelimiter : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | एक या अधिक गणितीय तत्व जो विभाजक अक्षरों द्वारा अलग किए गए हैं |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | आधार IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character प्रारम्भिक, अर्थात् खोलने वाला, विभाजक अक्षर निर्दिष्ट करता है। गणितीय विभाजक ऐसे घेरने वाले अक्षर होते हैं जैसे कोष्ठक, ब्रेस और ब्रैकेट। डिफ़ॉल्ट मान: '('। |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Delimiter ऑब्जेक्ट में विभाजकों के आकार को निर्दिष्ट करता है। जब MathDelimiterShape.Centered हो, तो विभाजक गणितीय पाठ के अक्ष पर केन्द्रित रहते हैं और उनकी सामग्री की पूरी ऊँचाई के अनुरूप बने रहते हैं। जब MathDelimiterShape.Match हो, तो उनकी ऊँचाई और आकार को ठीक-ठीक सामग्री के अनुसार बदल दिया जाता है। |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character समापन, अर्थात् बंद करने वाला, विभाजक अक्षर निर्दिष्ट करता है। गणितीय विभाजक ऐसे घेरने वाले अक्षर होते हैं जैसे कोष्ठक, ब्रेस और ब्रैकेट। डिफ़ॉल्ट: ')'। |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter, SeparatorCharacter, EndingCharacter की वृद्धि को निर्दिष्ट करता है। जब true हो, तो विभाजक अपने ऑपरेण्ड की ऊँचाई के अनुसार लंबवत रूप से बढ़ते हैं। डिफ़ॉल्ट मान true है |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character वह अक्षर निर्दिष्ट करता है जो delimiter ऑब्जेक्ट में तर्कों को अलग करता है। डिफ़ॉल्ट: '&#x7C;'। |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | डिलिमिटर अक्षरों द्वारा अलग किए गए एक या अधिक गणितीय तत्व |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | आधार IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | डिलिमिटर शुरुआती अक्षर प्रारम्भिक या खोलने वाले डिलिमिटर अक्षर को निर्दिष्ट करता है। गणितीय डिलिमिटर कोष्ठक, वर्ग कोष्ठक, और ब्रेस जैसे बंद करने वाले अक्षर होते हैं। डिफ़ॉल्ट मान: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | डिलिमिटर ऑब्जेक्ट में डिलिमिटर के आकार को निर्दिष्ट करता है। जब MathDelimiterShape.Centered होता है, तो डिलिमिटर गणितीय पाठ के अक्ष के चारों ओर केंद्रित होते हैं और अपनी सामग्री की पूरी ऊँचाई को फिट करने के लिये समायोजित किए जा सकते हैं। जब MathDelimiterShape.Match होता है, तो उनकी ऊँचाई और आकार को ठीक उसी तरह बदल दिया जाता है ताकि वे अपनी सामग्री से मेल खाएँ। |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | डिलिमिटर समाप्ति अक्षर समाप्ति या बंद करने वाले डिलिमिटर अक्षर को निर्दिष्ट करता है। गणितीय डिलिमिटर कोष्ठक, वर्ग कोष्ठक, और ब्रेस जैसे बंद करने वाले अक्षर होते हैं। डिफ़ॉल्ट: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter, SeparatorCharacter, EndingCharacter की वृद्धि को निर्दिष्ट करता है। जब true होता है, तो डिलिमिटर अपनी ऑपरेण्ड की ऊँचाई से मेल खाने के लिये लंबवत रूप से बढ़ते हैं। डिफ़ॉल्ट मान true है |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | डिलिमिटर सेपरेटर अक्षर डिलिमिटर ऑब्जेक्ट में तर्कों को अलग करने वाला अक्षर निर्दिष्ट करता है। डिफ़ॉल्ट: '&#x7C;' |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | निर्दिष्ट विभाजक अक्षर का उपयोग करके तर्कों को सीमाबद्ध करता है |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | निर्दिष्ट डिलिमिटर अक्षर का उपयोग करके तर्कों को सीमांकित करता है |
 
 ### उदाहरण
-
-Example:
 
 ```csharp
 [C#]
@@ -42,10 +40,10 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldoccmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta come deve essere disegnato l'elemento della forma.
+description: Rappresenta come l'elemento shape deve essere disegnato.
 type: docs
-weight: 9870
+weight: 9890
 url: /it/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource enumerazione
 
-Rappresenta come deve essere disegnato l'elemento della forma.
+Rappresenta come l'elemento shape deve essere disegnato.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -19,8 +19,8 @@ public enum ShapeElementStrokeSource : byte
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NoStroke | `0` | Non tracciare il primitivo. |
-| Shape | `1` | Usa il LineFormat della forma. |
-| OwnStroke | `2` | Usa il tratto proprio. |
+| Shape | `1` | Usa il LineFormat dello shape. |
+| OwnStroke | `2` | Usa il proprio contorno. |
 
 ### Vedi anche
 

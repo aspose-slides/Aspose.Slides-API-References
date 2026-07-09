@@ -1,6 +1,6 @@
 ---
 title: IExcelDataCell
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: แสดงถึงเซลล์เดียวในเวิร์กบุ๊ก Excel.
 type: docs
 weight: 3700
@@ -8,7 +8,7 @@ url: /th/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell อินเทอร์เฟซ
 
-แสดงถึงเซลล์เดี่ยวหนึ่งเซลล์ในเวิร์กบุ๊ก Excel.
+แสดงถึงเซลล์เดียวในเวิร์กบุ๊ก Excel
 
 ```csharp
 public interface IExcelDataCell
@@ -16,12 +16,12 @@ public interface IExcelDataCell
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | รับดัชนีตั้งแต่ศูนย์ของคอลัมน์ในแผ่นงานที่เซลล์ตั้งอยู่ อ่านอย่างเดียว Int32. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | รับดัชนีเริ่มจากศูนย์ของคอลัมน์ในเวิร์กชีตที่เซลล์ตั้งอยู่ อ่านอย่างเดียว Int32. |
 | [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | รับชื่อของเซลล์ข้อมูลแผนภูมิ อ่านอย่างเดียว String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | รับดัชนีตั้งแต่ศูนย์ของแถวในแผ่นงานที่เซลล์ตั้งอยู่ อ่านอย่างเดียว Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | รับค่าที่บรรจุอยู่ในเซลล์ Excel อ่านอย่างเดียว Object. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | รับดัชนีเริ่มจากศูนย์ของแถวในเวิร์กชีตที่เซลล์ตั้งอยู่ อ่านอย่างเดียว Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | รับค่าที่อยู่ในเซลล์ Excel อ่านอย่างเดียว Object. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili buku kerja yang menyediakan akses ke data Excel untuk penggunaan umum.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Mewakili workbook yang menyediakan akses ke data Excel untuk penggunaan umum.
 type: docs
-weight: 3690
+weight: 3710
 url: /id/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook antarmuka
 
-Mewakili buku kerja yang menyediakan akses ke data Excel untuk penggunaan umum.
+Mewakili workbook yang menyediakan akses ke data Excel untuk penggunaan umum.
 
 ```csharp
 public interface IExcelDataWorkbook
@@ -18,13 +18,13 @@ public interface IExcelDataWorkbook
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan indeksnya dan nama sel gaya Excel (mis., "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Mengambil sel dari lembar kerja yang ditentukan menggunakan nama sel gaya Excel (mis., "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Mengambil sel dari lembar kerja yang ditentukan menggunakan indeksnya dan koordinat sel. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Mengambil sel dari lembar kerja yang ditentukan menggunakan namanya dan koordinat sel. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Mengambil koleksi sel dari buku kerja yang cocok dengan rumus yang ditentukan. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Mengambil kamus yang berisi indeks dan nama semua diagram dalam lembar kerja yang ditentukan dari sebuah buku kerja Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Mengambil nama semua lembar kerja yang terdapat dalam buku kerja Excel. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Mengambil sel dari worksheet yang ditentukan menggunakan indeksnya dan nama sel gaya Excel (mis., "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Mengambil sel dari worksheet yang ditentukan menggunakan nama sel gaya Excel (mis., "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Mengambil sel dari worksheet yang ditentukan menggunakan indeksnya dan koordinat sel. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Mengambil sel dari worksheet yang ditentukan menggunakan namanya dan koordinat sel. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Mengambil koleksi sel dari workbook yang cocok dengan formula yang ditentukan. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Mengambil kamus yang berisi indeks dan nama semua charts di worksheet yang ditentukan dari sebuah workbook Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Mengambil nama semua worksheet yang terdapat dalam workbook Excel. |
 
 ### Lihat Juga
 

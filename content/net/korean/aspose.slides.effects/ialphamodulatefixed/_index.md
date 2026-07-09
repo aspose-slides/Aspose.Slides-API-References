@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파 불투명도 값은 고정 비율로 곱해집니다.
+description: Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파 불투명도 값은 고정된 비율로 곱해집니다.
 type: docs
 weight: 3120
 url: /ko/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed 인터페이스
 
-Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정 비율로 곱해집니다.
+Alpha Modulate Fixed 효과를 나타냅니다. 효과 알파(불투명도) 값은 고정된 비율로 곱해집니다.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 

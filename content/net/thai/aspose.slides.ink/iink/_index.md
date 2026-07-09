@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นอ็อบเจ็กต์หมึกบนสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงออบเจ็กต์หมึกบนสไลด์
 type: docs
 weight: 7510
 url: /th/aspose.slides.ink/iink/
 ---
 ## IInk อินเทอร์เฟซ
 
-เป็นตัวแทนของอ็อบเจ็กต์หมึกบนสไลด์
+แสดงถึงออบเจ็กต์หมึกบนสไลด์
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | ดึงรอยทั้งหมดที่อยู่ในองค์ประกอบ IInk [`IInkTrace`](../iinktrace). อ่านอย่างเดียว. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเตอร์เฟส IGraphicalObject พื้นฐาน. อ่านเท่านั้น [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | ดึงการเคลื่อนที่ทั้งหมดที่อยู่ในองค์ประกอบ IInk [`IInkTrace`](../iinktrace). อ่านเท่านั้น. |
 
 ### ดูเพิ่มเติม
 

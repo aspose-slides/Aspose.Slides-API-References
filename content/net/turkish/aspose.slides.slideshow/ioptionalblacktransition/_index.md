@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: İsteğe bağlı siyah slayt geçiş efekti.
 type: docs
-weight: 10120
+weight: 10140
 url: /tr/aspose.slides.slideshow/ioptionalblacktransition/
 ---
-## IOptionalBlackTransition arayüz
+## IOptionalBlackTransition arabirimi
 
-İsteğe bağlı siyah slayt geçiş etkisi.
+İsteğe bağlı siyah slayt geçiş efekti.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almayı sağlar. Yalnızca okunur [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Bu öznitelik, geçişin siyah bir ekrandan başlayıp (ve ardından yeni slaytı siyah üzerinden geçiş yapacağını) belirler. Okunabilir/Yazılabilir Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimini almayı sağlar. Salt okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Bu öznitelik, geçişin siyah bir ekrandan başlayıp (ve ardından yeni slaytı siyah üzerine geçirecek) olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
 
 ### İlgili
 
-* arayüz [ITransitionValueBase](../itransitionvaluebase)
+* arabirim [ITransitionValueBase](../itransitionvaluebase)
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)
 

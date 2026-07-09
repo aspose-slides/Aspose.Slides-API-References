@@ -1,14 +1,14 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes .NET API संदर्भ
-description: इफ़ेक्ट व्यवहार के लिए एडिटिव प्रकार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: इफ़ेक्ट व्यवहार के लिए एडिटिव प्रकार को दर्शाता है।
 type: docs
 weight: 160
 url: /hi/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType एनेमरेशन
+## BehaviorAdditiveType एन्यूमेरेशन
 
-इफ़ेक्ट व्यवहार के लिए एडिटिव प्रकार का प्रतिनिधित्व करता है।
+इफ़ेक्ट बिहेवियर के लिए एडिटिव टाइप को दर्शाता है।
 
 ```csharp
 public enum BehaviorAdditiveType
@@ -25,7 +25,7 @@ public enum BehaviorAdditiveType
 | Replace | `3` |  |
 | Multiply | `4` |  |
 
-### और देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

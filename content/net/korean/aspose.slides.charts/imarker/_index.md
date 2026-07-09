@@ -1,6 +1,6 @@
 ---
 title: IMarker
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: chert의 마커를 나타냅니다.
 type: docs
 weight: 2160
@@ -19,10 +19,10 @@ public interface IMarker
 | 이름 | 설명 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/imarker/format) { get; } | 마커 채우기를 가져옵니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 라인 차트, 스캐터 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 라인 차트, 스캐터 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 라인 차트, 산점도 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 라인 차트, 산점도 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

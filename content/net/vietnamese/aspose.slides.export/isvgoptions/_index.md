@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn các tùy chọn SVG.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các tùy chọn SVG.
 type: docs
 weight: 4060
 url: /vi/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions giao diện
 
-Biểu diễn các tùy chọn SVG.
+Đại diện cho các tùy chọn SVG.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -19,20 +19,20 @@ public interface ISVGOptions : ISaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Một cờ Boolean cho biết các phần đã cắt có được giữ lại trong tài liệu hay không. Nếu true các phần đã cắt sẽ bị loại bỏ, nếu false chúng sẽ được tuần tự hoá trong tài liệu (có thể dẫn đến tệp lớn hơn). Đọc/ghi Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Cờ boolean cho biết các phần đã cắt có còn là một phần của tài liệu hay không. Nếu true các phần đã cắt sẽ bị xóa, nếu false chúng sẽ được tuần tự hoá trong tài liệu (có thể dẫn đến tệp lớn hơn). Đọc/ghi Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Xác định liệu văn bản 3D có bị tắt trong SVG hay không. Đọc/ghi Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không sử dụng ligature hay không. Khi đặt thành `true`, ligature sẽ bị tắt trong đầu ra được render. Mặc định, thuộc tính này được đặt thành `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Vô hiệu hoá việc chia gradient FromCornerX và FromCenter. Đọc/ghi Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 không hỗ trợ định nghĩa inset cho markers. Động cơ ghi SVG của Aspose.Slides có giải pháp khắc phục: nó cắt phần cuối của đường có mũi tên, để đường không chồng lên markers. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Xác định cách xử lý phông chữ được tải từ bên ngoài. Đọc/ghi [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu xuất. Chỉ đọc [`IInkOptions`](../iinkoptions) |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi được đặt thành `true`, các ligatures sẽ bị tắt trong đầu ra được hiển thị. Mặc định, thuộc tính này được đặt thành `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Vô hiệu hoá việc tách gradient FromCornerX và FromCenter. Đọc/ghi Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 không hỗ trợ định nghĩa khoảng lề cho các marker. Động cơ ghi SVG của Aspose.Slides có giải pháp khắc phục vấn đề này: nó cắt phần cuối của đường với mũi tên, do đó, đường không chồng lên các marker. Tùy chọn này tắt hành vi đó. Đọc/ghi Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Xác định cách xử lý các phông chữ được tải từ bên ngoài. Đọc/ghi [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Cung cấp các tùy chọn kiểm soát giao diện của các đối tượng Ink trong tài liệu đã xuất. Chỉ đọc [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Xác định chất lượng mã hoá JPEG. Đọc/ghi Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Trả về hoặc đặt giới hạn độ phân giải thấp nhất cho rasterization của metafile. Đọc/ghi Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Biểu diễn mức nén hình ảnh. Đọc/ghi [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Trả về và đặt một giao diện callback cho phép người dùng kiểm soát việc chuyển đổi shape. Đọc/ghi [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Xác định có thực hiện quay được chỉ định của shape khi render hay không. Đọc/ghi Boolean. Giá trị mặc định là true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Xác định có bao gồm khung văn bản trong khu vực render hay không. Đọc/ghi Boolean. Giá trị mặc định là false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Xác định có lưu văn bản trên slide dưới dạng đồ họa hay không. Đọc/ghi Boolean. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Trả về hoặc đặt giới hạn độ phân giải thấp nhất cho raster hoá metafile. Đọc/ghi Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Đại diện cho mức nén hình ảnh. Đọc/ghi [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Trả về và đặt một giao diện callback cho phép người dùng kiểm soát việc chuyển đổi hình dạng. Đọc/ghi [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Xác định có thực hiện việc xoay hình dạng được chỉ định khi render hay không. Đọc/ghi Boolean. Giá trị mặc định là true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Xác định liệu khung văn bản có được bao gồm trong khu vực render hay không. Đọc/ghi Boolean. Giá trị mặc định là false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Xác định liệu văn bản trên slide có được lưu dưới dạng đồ họa hay không. Đọc/ghi Boolean. |
 
 ### Xem thêm
 

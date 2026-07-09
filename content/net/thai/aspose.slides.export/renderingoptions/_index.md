@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของงานนำเสนอ/สไลด์
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ให้ตัวเลือกที่ควบคุมวิธีการเรนเดอร์การนำเสนอ/สไลด์
 type: docs
 weight: 4410
 url: /th/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions คลาส
 
-ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของงานนำเสนอ/สไลด์
+ให้ตัวเลือกที่ควบคุมวิธีการเรนเดอร์การนำเสนอ/สไลด์
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -18,20 +18,20 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Name | Description |
 | --- | --- |
-| [RenderingOptions](renderingoptions)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [RenderingOptions](renderingoptions)() | ตัวสร้างเริ่มต้น |
 
 ## คุณสมบัติ
 
 | Name | Description |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ. อ่าน-เขียน String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่ระบุว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ ligatures. เมื่อกำหนดเป็น `true` ligatures จะถูกปิดในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้น, คุณสมบัตินี้ถูกตั้งค่าเป็น `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงผลของ gradient. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมการดูของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจ็กต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจ็กต์ที่รับคำเตือนและตัดสินใจว่าจะดำเนินกระบวนการโหลดต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน-เขียน String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลิเกเจอร์. เมื่อกำหนดเป็น `true` ลิเกเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้นคุณสมบัตินี้ถูกตั้งค่าเป็น `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ภาพสังเคราะห์ของไล่ระดับสี. อ่าน-เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจกต์คอลแบ็กสำหรับการอัปเดตความคืบหน้าการบันทึกในรูปแบบเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอ. อ่าน-เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือหยุด. อ่าน-เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 

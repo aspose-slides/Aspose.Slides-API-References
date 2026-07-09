@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 소프트 에지 효과를 나타내는 불변 객체입니다. 도형의 가장자리는 흐려지지만 채우기에는 영향을 주지 않습니다.
+description: 소프트 에지 효과를 나타내는 불변 객체입니다. 도형의 가장자는 흐려지지만 채우기는 영향을 받지 않습니다.
 type: docs
 weight: 3530
 url: /ko/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData 인터페이스
 
-소프트 에지 효과를 나타내는 불변 객체입니다. 도형의 가장자리는 흐려지지만, 채우기에는 영향을 주지 않습니다.
+소프트 에지 효과를 나타내는 불변 객체입니다. 도형의 가장자리는 흐려지지만 채우기는 영향을 받지 않습니다.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -19,9 +19,9 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 | 이름 | 설명 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 가장자리에 적용할 블러 반경을 지정합니다. 읽기 전용 Double. |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | 모서리에 적용할 블러 반경을 지정합니다. 읽기 전용 Double. |
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

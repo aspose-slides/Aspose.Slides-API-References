@@ -1,14 +1,14 @@
 ---
 title: Input
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคอลเลกชันของเทมเพลตองค์ประกอบอินพุต
+description: แสดงถึงคอลเลกชันของเทมเพลตขององค์ประกอบอินพุต
 type: docs
 weight: 4630
 url: /th/aspose.slides.export.web/input/
 ---
 ## คลาส Input
 
-เป็นคอลเลกชันขององค์ประกอบอินพุต (แม่แบบ).
+แสดงถึงชุดขององค์ประกอบอินพุต (เทมเพลต)
 
 ```csharp
 public sealed class Input
@@ -18,7 +18,7 @@ public sealed class Input
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | เพิ่มแม่แบบเข้าสู่คอลเลกชัน |
+| [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | เพิ่มเทมเพลตเข้าไปในคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

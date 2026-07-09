@@ -1,14 +1,14 @@
 ---
 title: MathematicalTextFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Memungkinkan untuk membuat elemen MathematicalText
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Memungkinkan membuat elemen MathematicalText
 type: docs
-weight: 9050
+weight: 9070
 url: /id/aspose.slides.mathtext/mathematicaltextfactory/
 ---
-## MathematicalTextFactory kelas
+## kelas MathematicalTextFactory
 
-Memungkinkan untuk membuat elemen MathematicalText
+Memungkinkan membuat elemen MathematicalText
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -24,10 +24,10 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Membuat elemen teks matematika kosong |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Membuat elemen teks matematika dengan nilai yang ditentukan |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Membuat elemen teks matematika kosong dengan nilai yang ditentukan |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Membuat elemen teks matematika kosong dengan nilai yang ditentukan dan properti pemformatan |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Membuat elemen MathematicalText kosong |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Membuat elemen MathematicalText dengan nilai yang ditentukan |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Membuat elemen MathematicalText kosong dengan nilai yang ditentukan |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Membuat elemen MathematicalText kosong dengan nilai yang ditentukan dan properti pemformatan |
 
 ### Catatan
 

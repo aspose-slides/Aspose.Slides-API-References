@@ -1,14 +1,14 @@
 ---
 title: AnimationTimeLine
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示動畫的時間線。
+description: 代表動畫的時間軸。
 type: docs
 weight: 130
 url: /zh-hant/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine 類別
 
-表示動畫的時間線。
+代表動畫的時間軸。
 
 ```csharp
 public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | 名稱 | 說明 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 傳回互動序列的集合。此序列只能包含透過「點擊圖形」方式的效果，並指定目標圖形。唯讀 [`ISequenceCollection`](../isequencecollection)。 |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 傳回主序列，其只能包含主要效果集合。唯讀 [`ISequence`](../isequence)。 |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | 傳回文字動畫的集合。唯讀 [`ITextAnimationCollection`](../itextanimationcollection)。 |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 傳回互動序列的集合。此序列可能僅包含透過「點擊形狀」指定目標形狀的效果。唯讀 [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 傳回主要序列，該序列可能僅包含主要效果集合。唯讀 [`ISequence`](../isequence). |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | 傳回文字動畫的集合。唯讀 [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### 另請參閱
 

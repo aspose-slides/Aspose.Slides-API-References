@@ -19,11 +19,11 @@ public interface IXpsOptions : ISaveOptions
 | 이름 | 설명 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | ISaveOptions 인터페이스를 반환합니다. 읽기 전용 [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 각 슬라이드 주위에 검은색 프레임을 그리려면 true로 설정합니다. 읽기/쓰기 Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | 프레젠테이션에서 사용되는 모든 메타파일을 PNG 이미지로 변환하려면 true로 설정합니다. 읽기/쓰기 Boolean. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | 각 슬라이드 주위에 검은 테두리를 그리려면 true로 설정합니다. 읽기/쓰기 Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | 프레젠테이션에 사용된 모든 메타파일을 PNG 이미지로 변환하려면 true로 설정합니다. 읽기/쓰기 Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`입니다. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

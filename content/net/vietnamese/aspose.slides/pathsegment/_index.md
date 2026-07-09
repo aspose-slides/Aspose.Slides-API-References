@@ -1,14 +1,14 @@
 ---
 title: PathSegment
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho đoạn đường đồ họa của GeometryShape
+description: Biểu diễn đoạn của đường đồ họa của GeometryShape
 type: docs
 weight: 9340
 url: /vi/aspose.slides/pathsegment/
 ---
 ## PathSegment lớp
 
-Đại diện cho đoạn đường đồ họa của GeometryShape
+Biểu diễn đoạn của đường đồ họa của GeometryShape
 
 ```csharp
 public sealed class PathSegment : IPathSegment
@@ -18,10 +18,10 @@ public sealed class PathSegment : IPathSegment
 
 | Tên | Mô tả |
 | --- | --- |
-| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | Kiểu đường của đoạn |
-| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | Dữ liệu đường của đoạn |
+| [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | Loại đường dẫn của đoạn |
+| [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | Dữ liệu đường dẫn của đoạn |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IPathSegment](../ipathsegment)
 * không gian tên [Aspose.Slides](../../aspose.slides)

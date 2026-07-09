@@ -1,6 +1,6 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 섹션에 포함된 슬라이드 컬렉션을 나타냅니다.
 type: docs
 weight: 6910
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection 인터페이스
 
-섹션 내 슬라이드의 컬렉션을 나타냅니다.
+섹션에 포함된 슬라이드 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,9 +18,9 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISlide`](../islide). |
 
-### 참고
+### 관련
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ISlide](../islide)

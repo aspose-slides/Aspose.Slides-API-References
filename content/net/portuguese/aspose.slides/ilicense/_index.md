@@ -1,12 +1,12 @@
 ---
 title: ILicense
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Fornece métodos para licenciar o componente.
 type: docs
-weight: 6240
+weight: 6260
 url: /pt/aspose.slides/ilicense/
 ---
-## interface ILicense
+## ILicense interface
 
 Fornece métodos para licenciar o componente.
 
@@ -25,7 +25,7 @@ public interface ILicense
 
 ### Exemplos
 
-Neste exemplo, será feita uma tentativa de encontrar um arquivo de licença chamado MyLicense.lic na pasta que contém o componente, na pasta que contém o assembly chamador, na pasta do assembly de entrada e, por fim, nos recursos incorporados do assembly chamador.
+Neste exemplo, será feita uma tentativa de localizar um arquivo de licença chamado MyLicense.lic na pasta que contém o componente, na pasta que contém o assembly chamador, na pasta do assembly de entrada e, por fim, nos recursos incorporados do assembly chamador.
 
 ```csharp
 [C#]

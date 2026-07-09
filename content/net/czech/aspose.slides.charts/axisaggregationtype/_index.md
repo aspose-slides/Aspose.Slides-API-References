@@ -1,14 +1,14 @@
 ---
 title: AxisAggregationType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ agregace kategoriální osy. Používá se pouze se sériemi Histogram nebo HistogramPareto.
+description: Reprezentuje typ agregace kategoriové osy. Používá se pouze se sériemi Histogram nebo HistogramPareto.
 type: docs
-weight: 1170
+weight: 1190
 url: /cs/aspose.slides.charts/axisaggregationtype/
 ---
 ## AxisAggregationType výčet
 
-Representuje typ agregace kategoriální osy. Používá se pouze se sériemi Histogram nebo HistogramPareto.
+Reprezentuje typ agregace kategoriové osy. Používá se pouze se sériemi Histogram nebo HistogramPareto.
 
 ```csharp
 public enum AxisAggregationType
@@ -18,10 +18,10 @@ public enum AxisAggregationType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| ByCategory | `0` | Seskupí podle kategorií |
-| Automatic | `1` | Automaticky seskupí kategorie. |
-| ByBinWidth | `2` | Seskupí kategorie podle šířky koše. Vlastnost IAxis.BinWidth musí být nastavena. |
-| ByNumberOfBins | `3` | Seskupí kategorie podle počtu košů. Vlastnost IAxis.NumberOfBins musí být nastavena. |
+| ByCategory | `0` | Agregovat podle kategorií |
+| Automatic | `1` | Agregovat kategorie automaticky. |
+| ByBinWidth | `2` | Agregovat kategorie podle šířky koše. Property IAxis.BinWidth musí být nastavena. |
+| ByNumberOfBins | `3` | Agregovat kategorie podle počtu košů. Property IAxis.NumberOfBins musí být nastavena. |
 
 ### Viz také
 

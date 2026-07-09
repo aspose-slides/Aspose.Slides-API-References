@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. ค่า hue, saturation และ luminance สามารถปรับได้แต่ละค่าโดยอิงจากค่าในปัจจุบันของมัน.
+description: แสดงเอฟเฟกต์ Hue/Saturation/Luminance. hue, saturation และ luminance สามารถปรับค่าได้สัมพันธ์กับค่าปัจจุบันของแต่ละตัว
 type: docs
 weight: 3370
 url: /th/aspose.slides.effects/ihsleffectivedata/
 ---
-## IHSLEffectiveData อินเทอร์เฟซ
+## IHSLEffectiveData อินเตอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. ค่า hue, saturation และ luminance สามารถปรับได้แต่ละค่าโดยอิงจากค่าปัจจุบันของมัน.
+เป็นเอฟเฟกต์ Hue/Saturation/Luminance โดย hue, saturation และ luminance สามารถปรับค่าได้สัมพันธ์กับค่าปัจจุบันของแต่ละตัว
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,14 +18,14 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงค่า IEffectEffectiveData อินเทอร์เฟซพื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | คืนค่าเปอร์เซ็นต์ hue. อ่านอย่างเดียว Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | คืนค่าเปอร์เซ็นต์ luminance. อ่านอย่างเดียว Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | คืนค่าเปอร์เซ็นต์ saturation. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | ใช้เพื่อรับอินเตอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | ส่งคืนเปอร์เซ็นต์ hue. อ่านอย่างเดียว Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | ส่งคืนเปอร์เซ็นต์ luminance. อ่านอย่างเดียว Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | ส่งคืนเปอร์เซ็นต์ saturation. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
+* อินเตอร์เฟซ [IEffectEffectiveData](../ieffecteffectivedata)
 * เนมสเปซ [Aspose.Slides.Effects](../../aspose.slides.effects)
 * แอสเซมบลี [Aspose.Slides](../../)
 

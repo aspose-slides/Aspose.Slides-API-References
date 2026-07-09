@@ -1,12 +1,12 @@
 ---
 title: LinkEmbedDecision
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan bagaimana objek akan diproses selama penyimpanan.
 type: docs
-weight: 4210
+weight: 4230
 url: /id/aspose.slides.export/linkembeddecision/
 ---
-## enumerasi LinkEmbedDecision
+## Enumerasi LinkEmbedDecision
 
 Menentukan bagaimana objek akan diproses selama penyimpanan.
 
@@ -19,7 +19,7 @@ public enum LinkEmbedDecision
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Link | `0` | Objek akan disimpan secara eksternal, direferensikan oleh URL |
-| Embed | `1` | Objek harus ditanamkan ke file yang dihasilkan jika memungkinkan. Jika penanaman tidak memungkinkan, GetUrl akan dipanggil dan, tergantung pada hasil, objek akan direferensikan oleh URL atau diabaikan. |
+| Embed | `1` | Objek harus disematkan ke file yang dihasilkan jika memungkinkan. Jika penyematan tidak memungkinkan, GetUrl akan dipanggil dan, tergantung pada hasilnya, objek akan direferensikan oleh URL atau diabaikan. |
 | Ignore | `2` | Objek akan diabaikan. |
 
 ### Lihat Juga

@@ -1,6 +1,6 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 레거시 다이어그램 객체를 나타냅니다
 type: docs
 weight: 6250
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram 인터페이스
 
-레거시 다이어그램 객체를 나타냅니다.
+레거시 다이어그램 객체를 나타냅니다
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -24,8 +24,8 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | 이름 | 설명 |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 레거시 다이어그램을 편집 가능한 그룹 형식으로 변환합니다. 생성된 GroupShape 객체가 동일 위치의 상위 그룹 형식에 추가됩니다. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 레거시 다이어그램을 편집 가능한 SmartArt 객체로 변환합니다. 생성된 SmartArt 객체가 동일 위치의 상위 그룹 형식에 추가됩니다. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | 레거시 다이어그램을 편집 가능한 그룹 형태로 변환합니다. 생성된 GroupShape 객체가 동일한 위치에 부모 그룹 형태에 추가됩니다. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | 레거시 다이어그램을 편집 가능한 SmartArt 객체로 변환합니다. 생성된 SmartArt 객체가 동일한 위치에 부모 그룹 형태에 추가됩니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik biçim özelliklerini temsil eder.
 type: docs
-weight: 2080
+weight: 2100
 url: /tr/aspose.slides.charts/iformat/
 ---
-## IFormat arabirimi
+## IFormat arayüz
 
-Grafik biçim özelliklerini temsil eder.
+Bir grafiğin biçim özelliklerini temsil eder.
 
 ```csharp
 public interface IFormat
@@ -18,12 +18,12 @@ public interface IFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Bir grafik için kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Bir grafik için 3D biçimini döndürür. Salt okunur [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Bir grafik için dolgu stili özelliklerini döndürür. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Bir grafik için çizgi stili özelliklerini döndürür. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Bir grafikte kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Bir grafiğin 3B biçimini döndürür. Salt okunur [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Bir grafiğin dolgu stili özelliklerini döndürür. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Bir grafiğin çizgi stili özelliklerini döndürür. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

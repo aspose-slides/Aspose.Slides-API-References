@@ -1,30 +1,30 @@
 ---
 title: GradientFormat
 second_title: Aspose.Sildes برای مرجع API .NET
-description: یک فرمت گرادیان را نشان می‌دهد.
+description: یک قالب گرادیان را نمایش می‌دهد.
 type: docs
 weight: 5000
 url: /fa/aspose.slides/gradientformat/
 ---
-## GradientFormat کلاس
+## کلاس GradientFormat
 
-نمایش یک فرمت گرادیان.
+یک قالب گرادیان را نمایش می‌دهد.
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
 ```
 
-## خواص
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط IPresentationComponent پایه را دریافت کند. فقط-قابل-خواندن [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | مقدار یا تنظیم سبک یک گرادیان را برمی‌گرداند. قابل-خواندن/قابل-نوشتن [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | مقدار یا تنظیم شکل یک گرادیان را برمی‌گرداند. قابل-خواندن/قابل-نوشتن [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | مجموعه نقاط توقف گرادیان را برمی‌گرداند. فقط-قابل-خواندن [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | زاویهٔ یک گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | مشخص می‌کند آیا یک گرادیان مقیاس‌دار است یا نه. قابل-خواندن/قابل-نوشتن [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | حالت وارونه شدن یک گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل-خواندن/قابل-نوشتن [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد واسط IPresentationComponent پایه را دریافت کند. فقط‌خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | مقدار یا تنظیم سبک یک گرادیان را برمی‌گرداند. قابل‌خواندن/نوشتن [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | مقدار یا تنظیم شکل یک گرادیان را برمی‌گرداند. قابل‌خواندن/نوشتن [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | مجموعه نقاط توقف گرادیان را برمی‌گرداند. فقط‌خواندنی [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | مقدار یا تنظیم زاویه یک گرادیان را برمی‌گرداند. قابل‌خواندن/نوشتن Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | تعیین می‌کند آیا گرادیان مقیاس‌بندی شده است یا نه. قابل‌خواندن/نوشتن [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | مقدار یا تنظیم حالت چرخش برای گرادیان را برمی‌گرداند. قابل‌خواندن/نوشتن [`TileFlip`](../tileflip). |
 
 ## متدها
 
@@ -33,7 +33,7 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
 
-### مراجع
+### همچنین ببینید
 
 * کلاس [PVIObject](../pviobject)
 * رابط [IGradientFormat](../igradientformat)

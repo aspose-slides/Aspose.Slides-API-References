@@ -23,7 +23,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 組件 [Aspose.Slides](../../)

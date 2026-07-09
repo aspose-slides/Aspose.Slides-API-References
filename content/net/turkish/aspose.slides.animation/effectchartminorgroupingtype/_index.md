@@ -1,13 +1,14 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Seri veya kategori içindeki grafik öğesi için bir animasyon etkisinin tipini temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Seri veya kategorideki grafik öğeleri için bir animasyon etkisinin tipini temsil eder.
 type: docs
-weight: 280
+weight: 300
 url: /tr/aspose.slides.animation/effectchartminorgroupingtype/
 ---
-## EffectChartMinorGroupingType enum
-Seri veya kategori içindeki grafik öğesi için bir animasyon etkisinin tipini temsil eder.
+## EffectChartMinorGroupingType enumerasyonu
+
+Seri veya kategori içinde grafik öğesi için bir animasyon etkisinin tipini temsil eder.
 
 ```csharp
 public enum EffectChartMinorGroupingType

@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Hiệu ứng chuyển đổi slide theo hướng góc.
 type: docs
 weight: 10010
 url: /vi/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## CornerDirectionTransition lớp
+## Lớp CornerDirectionTransition
 
-Corner direction slide transition effect.
+Hiệu ứng chuyển đổi slide theo hướng góc.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,16 +18,16 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Tên | Mô tả |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Hướng chuyển tiếp. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai thể hiện TransitionValueBase có bằng nhau hay không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một loại nhất định, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, thích hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [TransitionValueBase](../transitionvaluebase)
 * giao diện [ICornerDirectionTransition](../icornerdirectiontransition)

@@ -1,6 +1,6 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 글꼴 대체 정보를 나타냅니다
 type: docs
 weight: 4890
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule 클래스
 
-글꼴 대체 정보를 나타냅니다
+글꼴 대체 정보를 나타냅니다.
 
 ```csharp
 public class FontSubstRule : IFontSubstRule

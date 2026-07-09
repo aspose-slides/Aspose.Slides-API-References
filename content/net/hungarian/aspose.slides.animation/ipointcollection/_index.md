@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referenciához
 description: Egy darabok gyűjteményét képviseli.
 type: docs
-weight: 530
+weight: 550
 url: /hu/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection interfész
 
-Representál egy darabok gyűjteményét.
+Egy szeletek gyűjteményét képviseli.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -18,7 +18,7 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Lehetővé teszi a bázis IEnumerable interfész lekérdezését. Csak olvasható IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Lehetővé teszi az alap IEnumerable interfész elérését. Csak olvasható IEnumerable. |
 | [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Visszaadja a gyűjteményben lévő pontok számát. Csak olvasható Int32. |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Visszaad egy pontot a megadott indexen. |
 

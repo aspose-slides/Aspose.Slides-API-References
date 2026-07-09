@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 객체의 가장자리 외부에 색상이 흐려진 외곽선을 추가하는 Glow 효과를 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 객체의 가장자리 외부에 색상이 흐려진 외곽선이 추가되는 Glow 효과를 나타내는 불변 객체입니다.
 type: docs
 weight: 3330
 url: /ko/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData 인터페이스
 
-색상이 흐려진 외곽선을 객체의 가장자리 외부에 추가하는 Glow 효과를 나타내는 불변 객체입니다.
+불변 객체이며, Glow 효과를 나타내며, 색상이 흐려진 외곽선이 객체의 가장자리 바깥에 추가됩니다.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 | 이름 | 설명 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | 색상. 읽기 전용 Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | 반경. 읽기 전용 Double. |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. 읽기 전용 Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. 읽기 전용 Double. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -3,7 +3,7 @@ title: IFontScheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーマで定義されたフォントを格納します。
 type: docs
-weight: 11230
+weight: 11250
 url: /ja/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme インターフェイス

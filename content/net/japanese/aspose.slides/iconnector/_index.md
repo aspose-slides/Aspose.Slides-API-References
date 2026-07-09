@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes for .NET API リファレンス
 description: コネクタを表します。
 type: docs
-weight: 5590
+weight: 5610
 url: /ja/aspose.slides/iconnector/
 ---
 ## IConnector インターフェイス
@@ -19,18 +19,18 @@ public interface IConnector : IGeometryShape
 | 名前 | 説明 |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | ベース IGeometryShape インターフェイスを取得できます。読み取り専用 [`IGeometryShape`](../igeometryshape)。 |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector のロックを取得します。読み取り専用 [`IConnectorLock`](../iconnectorlock)。 |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector のロックを返します。読み取り専用 [`IConnectorLock`](../iconnectorlock)。 |
 | [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | コネクタの終端を接続する形状を取得または設定します。読み書き [`IShape`](../ishape)。 |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 終端形状の接続サイトのインデックスを取得または設定します。読み書き UInt32。 |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 形状のロックを取得します。読み取り専用 [`IConnectorLock`](../iconnectorlock)。 |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | コネクタの開始部を接続する形状を取得または設定します。読み書き [`IShape`](../ishape)。 |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 形状のロックを返します。読み取り専用 [`IConnectorLock`](../iconnectorlock)。 |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | コネクタの開始側を接続する形状を取得または設定します。読み書き [`IShape`](../ishape)。 |
 | [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 開始形状の接続サイトのインデックスを取得または設定します。読み書き UInt32。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | コネクタを再ルーティングし、接続されている形状間の最短経路を取るようにします。 |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | コネクタの経路を再設定し、接続する形状間の最短パスを取るようにします。 |
 
 ### 参照
 

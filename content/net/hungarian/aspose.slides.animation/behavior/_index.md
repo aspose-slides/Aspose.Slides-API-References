@@ -1,14 +1,14 @@
 ---
 title: Behavior
-second_title: Aspose.Sildes .NET API referencia
-description: Az effektus alap osztály viselkedését képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az effektus alap osztályának viselkedését reprezentálja.
 type: docs
-weight: 120
+weight: 140
 url: /hu/aspose.slides.animation/behavior/
 ---
 ## Behavior osztály
 
-Az effektus alap osztály viselkedését képviseli.
+Represent base class behavior of effect.
 
 ```csharp
 public abstract class Behavior : IBehavior
@@ -19,9 +19,9 @@ public abstract class Behavior : IBehavior
 | Név | Leírás |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés kombinálva van-e más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés más futó animációkkal kombinálva van-e. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelenti. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait jelenti. Olvasás/írás [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedésének időzítési tulajdonságait jelenti. Olvasás/írás [`ITiming`](../itiming). |
 
 ### Lásd még
 

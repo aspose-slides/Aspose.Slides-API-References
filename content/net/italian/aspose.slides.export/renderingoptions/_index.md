@@ -3,12 +3,12 @@ title: RenderingOptions
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Fornisce opzioni che controllano come viene renderizzata una presentazione/diapositiva.
 type: docs
-weight: 4390
+weight: 4410
 url: /it/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions classe
 
-Fornisce le opzioni che controllano come una presentazione/diapositiva viene renderizzata.
+Fornisce opzioni che controllano come viene renderizzata una presentazione/diapositiva.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il font usato nel caso in cui il font di origine non sia trovato. Lettura-scrittura String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Ottiene o imposta un valore che indica se il testo è renderizzato senza utilizzare le legature. Quando impostato a `true`, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata a `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura-scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Fornisce le opzioni che controllano l'aspetto degli oggetti Ink nel documento esportato. Lettura sola [`IInkOptions`](../iinkoptions) |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Restituisce o imposta il carattere utilizzato nel caso in cui il carattere sorgente non sia trovato. Lettura-scrittura String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Ottiene o imposta un valore che indica se il testo viene renderizzato senza utilizzare le legature. Quando impostato su `true`, le legature saranno disabilitate nell'output renderizzato. Per impostazione predefinita, questa proprietà è impostata su `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Restituisce o imposta lo stile visivo del gradiente. Lettura/scrittura [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Fornisce opzioni che controllano l'aspetto degli oggetti Ink nel documento esportato. Sola lettura [`IInkOptions`](../iinkoptions) |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Rappresenta un oggetto di callback per il salvataggio degli aggiornamenti di avanzamento in percentuale. Vedi [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se ignorare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura-scrittura Boolean. Il valore predefinito è **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità in cui le diapositive sono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura-scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specifica se ignorare i collegamenti ipertestuali con chiamate JavaScript durante il salvataggio della presentazione. Lettura/scrittura Boolean. Il valore predefinito è **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Ottiene o imposta la modalità in cui le diapositive vengono posizionate sulla pagina durante l'esportazione di una presentazione [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Restituisce o imposta un oggetto che riceve avvisi e decide se il processo di caricamento continuerà o verrà interrotto. Lettura/scrittura [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Esempi
 

@@ -14,11 +14,11 @@ url: /zh-hant/aspose.slides.mathtext/mathradicalfactory/
 public class MathRadicalFactory : IMathRadicalFactory
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 描述 |
 | --- | --- |
-| [MathRadicalFactory](mathradicalfactory)() | 預設建構子。 |
+| [MathRadicalFactory](mathradicalfactory)() | 預設建構函式。 |
 
 ## 方法
 

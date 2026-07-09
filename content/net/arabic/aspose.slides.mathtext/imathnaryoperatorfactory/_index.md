@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يسمح بإنشاء IMathNaryOperator
 type: docs
 weight: 8370
@@ -24,7 +24,7 @@ public interface IMathNaryOperatorFactory
 
 ### ملاحظات
 
-لتوافق COM
+للتوافق مع COM
 
 ### انظر أيضًا
 

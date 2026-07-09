@@ -1,6 +1,6 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: फ़ॉन्ट फॉलबैक नियम का प्रतिनिधित्व करता है
 type: docs
 weight: 5850
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule इंटरफ़ेस
 
-फ़ॉन्ट फॉल्बैक नियम का प्रतिनिधित्व करता है
+फ़ॉन्ट फॉलबैक नियम का प्रतिनिधित्व करता है
 
 ```csharp
 public interface IFontFallBackRule
@@ -20,21 +20,21 @@ public interface IFontFallBackRule
 | --- | --- |
 | [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | रेंज के लिए वास्तव में परिभाषित फ़ॉन्ट की संख्या प्राप्त करता है। |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | निर्दिष्ट इंडेक्स पर फ़ॉन्ट का नाम प्राप्त करता है। |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | सतत यूनिकोड रेंज का अंतिम इंडेक्स प्राप्त करें। |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | सतत यूनिकोड रेंज का पहला इंडेक्स प्राप्त करें। |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | सतत यूनिकोड रेंज का अंतिम इंडेक्स प्राप्त करता है। |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | सतत यूनिकोड रेंज का पहला इंडेक्स प्राप्त करता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | नई फ़ॉन्ट(s) को FallBack फ़ॉन्ट की सूची में जोड़ता है। |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | नई फ़ॉन्ट को FallBack फ़ॉन्ट की सूची में जोड़ता है। |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | FallBack फ़ॉन्ट्स की सूची में नया फ़ॉन्ट (फ़ॉन्ट्स) जोड़ता है। |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | FallBack फ़ॉन्ट्स की सूची में नया फ़ॉन्ट जोड़ता है। |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | सूची से सभी फ़ॉन्ट हटाता है। |
-| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | संग्रह में निर्दिष्ट नियम का इंडेक्स वापस करता है। |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | सूची से विशिष्ट FallBack फ़ॉन्ट की पहली घटना हटाता है। |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | सूची में निर्दिष्ट इंडेक्स पर FallBack फ़ॉन्ट हटाता है। |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | इस नियम के लिए सभी FallBack फ़ॉन्ट के साथ एक एरे बनाता और वापस करता है। |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | सूची में निर्दिष्ट रेंज से सभी FallBack फ़ॉन्ट के साथ एक एरे बनाता और वापस करता है। |
+| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | संग्रह में निर्दिष्ट नियम का इंडेक्स लौटाता है। |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | सूची से विशेष FallBack फ़ॉन्ट की पहली उपस्थिति हटाता है। |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | सूची के निर्दिष्ट इंडेक्स पर FallBack फ़ॉन्ट हटाता है। |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | इस नियम के सभी FallBack फ़ॉन्ट्स के साथ एक एरे बनाता है और लौटाता है। |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | सूची में निर्दिष्ट रेंज से सभी FallBack फ़ॉन्ट्स के साथ एक एरे बनाता है और लौटाता है। |
 
 ### संबंधित देखें
 

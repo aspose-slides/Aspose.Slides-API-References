@@ -1,14 +1,14 @@
 ---
 title: FillBlendMode
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 혼합 모드를 결정합니다.
+description: 블렌드 모드를 결정합니다.
 type: docs
 weight: 4770
 url: /ko/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode 열거형
 
-혼합 모드를 결정합니다.
+블렌드 모드를 결정합니다.
 
 ```csharp
 public enum FillBlendMode
@@ -18,13 +18,13 @@ public enum FillBlendMode
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Darken | `0` | Darken 혼합 모드. |
-| Lighten | `1` | Lighten 혼합 모드. |
-| Multiply | `2` | Multiply 혼합 모드. |
-| Overlay | `3` | Overlay 혼합 모드. |
-| Screen | `4` | Screen 혼합 모드. |
+| Darken | `0` | Darken 블렌드 모드. |
+| Lighten | `1` | Lighten 블렌드 모드. |
+| Multiply | `2` | Multiply 블렌드 모드. |
+| Overlay | `3` | Overlay 블렌드 모드. |
+| Screen | `4` | Screen 블렌드 모드. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

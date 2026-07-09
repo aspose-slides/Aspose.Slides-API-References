@@ -1,9 +1,9 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Kelas untuk memuat font khusus yang ditentukan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Kelas untuk memuat font khusus yang didefinisikan oleh pengguna. Harus digunakan sebelum membuat objek presentasi apa pun.
 type: docs
-weight: 4910
+weight: 4930
 url: /id/aspose.slides/fontsloader/
 ---
 ## FontsLoader kelas

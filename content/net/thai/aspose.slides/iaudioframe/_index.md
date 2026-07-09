@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Slides สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของคลิปเสียงบนสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคลิปเสียงบนสไลด์.
 type: docs
 weight: 5230
 url: /th/aspose.slides/iaudioframe/
 ---
-## IAudioFrame อินเทอร์เฟซ
+## IAudioFrame ส่วนต่อประสาน
 
-เป็นตัวแทนของคลิปเสียงบนสไลด์
+แสดงคลิปเสียงบนสไลด์
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,30 +18,30 @@ public interface IAudioFrame : IPictureFrame
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPictureFrame พื้นฐาน. อ่านอย่างเดียว [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | ส่งคืนหรือกำหนดดัชนีแทร็กสุดท้าย. อ่าน/เขียน Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | ส่งคืนหรือกำหนดเวลาแทร็กสุดท้าย. อ่าน/เขียน Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | ส่งคืนหรือกำหนดดัชนีแทร็กเริ่มต้น. อ่าน/เขียน Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | ส่งคืนหรือกำหนดเวลาแทร็กเริ่มต้น. อ่าน/เขียน Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | ได้รับคอลเลกชันของคำบรรยายปิดที่เชื่อมโยงกับเฟรมเสียง. คุณสมบัตินี้อ่านอย่างเดียวและส่งคืน [`ICaptionsCollection`](../icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | กำหนดว่ามีเสียงฝังไว้ในงานนำเสนอหรือไม่. อ่านอย่างเดียว Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | ส่งคืนหรือกำหนดอ็อบเจกต์เสียงฝัง. อ่าน/เขียน [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | ระบุระยะเวลาการค่อย ๆ ปรากฏขึ้นแรกของสื่อเป็นมิลลิวินาที. อ่าน/เขียน Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | ระบุระยะเวลาการค่อย ๆ จางลงของสื่อในตอนท้ายเป็นมิลลิวินาที. อ่าน/เขียน Single. |
-| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | กำหนดว่า AudioFrame ถูกซ่อนไว้หรือไม่. อ่าน/เขียน Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | ส่งคืนหรือกำหนดชื่อไฟล์เสียงที่เชื่อมโยงกับ AudioFrame. อ่าน/เขียน String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | กำหนดว่าเสียงจะเล่นต่อเนื่องข้ามสไลด์หรือไม่. อ่าน/เขียน Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | กำหนดว่าเสียงจะวนซ้ำหรือไม่. อ่าน/เขียน Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | ส่งคืนหรือกำหนดโหมดการเล่นเสียง. อ่าน/เขียน [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | กำหนดว่าเสียงจะรีวินด์อัตโนมัติไปยังจุดเริ่มต้นหลังจากเล่นเสร็จหรือไม่. อ่าน/เขียน Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | ระบุระยะเวลาที่จะลบออกจากส่วนท้ายของสื่อระหว่างการเล่นเป็นมิลลิวินาที. อ่าน/เขียน Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | ระบุระยะเวลาที่จะลบออกจากส่วนเริ่มต้นของสื่อระหว่างการเล่นเป็นมิลลิวินาที. อ่าน/เขียน Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | ส่งคืนหรือกำหนดระดับเสียง. อ่าน/เขียน [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | ส่งคืนหรือกำหนดระดับเสียงเป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IPictureFrame พื้นฐานได้ อ่านอย่างเดียว [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | คืนหรือกำหนดดัชนีแทร็กสุดท้าย อ่าน/เขียน Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | คืนหรือกำหนดเวลาของแทร็กสุดท้าย. อ่าน/เขียน Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | คืนหรือกำหนดดัชนีเริ่มต้นของแทร็ก. อ่าน/เขียน Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | คืนหรือกำหนดเวลาเริ่มต้นของแทร็ก. อ่าน/เขียน Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | ดึงชุดของ closed captions ที่เกี่ยวข้องกับ audio frame. คุณสมบัตินี้เป็นแบบอ่านอย่างเดียวและคืนค่า [`ICaptionsCollection`](../icaptionscollection) ที่มีแทร็กคำบรรยายทั้งหมด. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | กำหนดว่ามีเสียงฝังในงานนำเสนอหรือไม่ อ่านอย่างเดียว Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | คืนหรือกำหนดออบเจ็กต์เสียงที่ฝังอยู่. อ่าน/เขียน [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | ระบุระยะเวลา (มิลลิวินาที) สำหรับการเฟดอินเริ่มต้นของสื่อ. อ่าน/เขียน Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | ระบุระยะเวลา (มิลลิวินาที) สำหรับการเฟดเอาท์ตอนจบของสื่อ. อ่าน/เขียน Single. |
+| [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | กำหนดว่า AudioFrame ถูกซ่อนหรือไม่. อ่าน/เขียน Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | คืนหรือกำหนดชื่อไฟล์เสียงที่เชื่อมโยงกับ AudioFrame. อ่าน/เขียน String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | กำหนดว่าเสียงเล่นข้ามสไลด์หรือไม่. อ่าน/เขียน Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | กำหนดว่าเสียงวนซ้ำหรือไม่. อ่าน/เขียน Boolean. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | คืนหรือกำหนดโหมดการเล่นเสียง. อ่าน/เขียน [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | กำหนดว่าเสียงจะกลับไปเริ่มต้นโดยอัตโนมัติหลังจากเล่นหรือไม่. อ่าน/เขียน Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | ระบุระยะเวลาที่จะตัดออกจากส่วนท้ายของสื่อขณะเล่น, หน่วยเป็นมิลลิวินาที. อ่าน/เขียน Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | ระบุระยะเวลาที่จะตัดออกจากส่วนต้นของสื่อขณะเล่น, หน่วยเป็นมิลลิวินาที. อ่าน/เขียน Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | คืนหรือกำหนดระดับเสียง. อ่าน/เขียน [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | คืนหรือกำหนดระดับเสียงเป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IPictureFrame](../ipictureframe)
+* ส่วนต่อประสาน [IPictureFrame](../ipictureframe)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

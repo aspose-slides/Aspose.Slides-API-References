@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
 second_title: Aspose.Sildes voor .NET API-referentie
-description: HTML-generator.
+description: Html-generator.
 type: docs
 weight: 3880
 url: /nl/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator klasse
 
-HTML-generator.
+Html-generator.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -18,31 +18,31 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 | Naam | Beschrijving |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Retourneert de index van een dia die wordt gerenderd na de huidige dia of -1 als momenteel de laatste dia wordt gerenderd. Alleen-lezen Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Retourneert de index van de eerder gerenderde dia of -1 als de eerste dia wordt gerenderd. Alleen-lezen Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Retourneert de grootte van de dia-afbeelding. Alleen-lezen SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Retourneert de eenheid waarin de grootte van de dia-afbeelding is opgegeven. Alleen-lezen [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Retourneert een CSS-code van de eenheid waarin de grootte van de dia-afbeelding is opgegeven. Alleen-lezen String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Retourneert de index van de momenteel gerenderde dia. Alleen-lezen Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Geeft de index van een dia terug, die wordt gerenderd na de huidige dia of -1 als momenteel de laatste dia wordt gerenderd. Alleen-lezen Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Geeft de index van de eerder gerenderde dia terug of -1 als de eerste dia wordt gerenderd. Alleen-lezen Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Geeft de afbeeldinggrootte van de dia terug. Alleen-lezen SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Geeft een eenheid terug waarin de afbeeldinggrootte van de dia wordt gespecificeerd. Alleen-lezen [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Geeft een css-code van de eenheid waarin de afbeeldinggrootte van de dia wordt gespecificeerd terug. Alleen-lezen String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Geeft de index van de momenteel renderende dia terug. Alleen-lezen Int32. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Quoteert attribuutwaarde en voegt deze toe aan het html-bestand. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Quoteert de attribuutwaarde en voegt deze toe aan het html-bestand. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Quoteert de attribuutwaarde en voegt deze toe aan het html-bestand. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Quoteert de attribuutwaarde en voegt deze toe aan het html-bestand. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Voegt geformatteerde HTML-tekst toe. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Voegt geformatteerde HTML-tekst toe. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Voegt geformatteerde HTML-tekst toe. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleinden en spaties worden niet vervangen. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleinden en spaties worden niet vervangen. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleinden en spaties worden niet vervangen. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleindes en witruimtes worden niet vervangen. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleindes en witruimtes worden niet vervangen. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Voegt platte tekst toe aan de html-bestanden, waarbij speciale tekens worden vervangen door html-entiteiten. Regeleindes en witruimtes worden niet vervangen. |
 
 ### Zie ook
 
 * interface [IHtmlGenerator](../ihtmlgenerator)
 * naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

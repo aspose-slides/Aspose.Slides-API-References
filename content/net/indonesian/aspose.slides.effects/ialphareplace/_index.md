@@ -3,12 +3,12 @@ title: IAlphaReplace
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili antarmuka IImageTransformOperation dasar.
 type: docs
-weight: 3120
+weight: 3140
 url: /id/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace antarmuka
 
-Mewakili antarmuka IImageTransformOperation dasar.
+Mewakili antarmuka dasar IImageTransformOperation.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 

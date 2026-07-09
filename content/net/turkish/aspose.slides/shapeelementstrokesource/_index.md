@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Şekil öğesinin nasıl çizileceğini temsil eder.
 type: docs
-weight: 9870
+weight: 9890
 url: /tr/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource enum
 
-Şekil öğesinin nasıl çizilmesi gerektiğini temsil eder.
+Şekil öğesinin nasıl çizileceğini temsil eder.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,9 +18,9 @@ public enum ShapeElementStrokeSource : byte
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| NoStroke | `0` | İlkel üzerine çizgi uygulanmaz. |
-| Shape | `1` | Şeklin LineFormat'ını kullan. |
-| OwnStroke | `2` | Kendi çizgisini kullan. |
+| NoStroke | `0` | İlkel nesnenin kenarlığını çizmeyin. |
+| Shape | `1` | Şeklin LineFormat'ını kullanın. |
+| OwnStroke | `2` | Kendi kenarlığını kullanın. |
 
 ### Ayrıca Bakınız
 

@@ -1,9 +1,9 @@
 ---
 title: IAlphaBiLevel
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości Alpha Opacity większe lub równe progowi są zmieniane na 100 (całkowicie nieprzezroczyste).
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje efekt Alpha Bi-Level. Wartości Alpha Opacity mniejsze niż próg są zmieniane na 0 (całkowicie przezroczyste), a wartości alpha większe lub równe progowi są zmieniane na 100 (całkowicie nieprzezroczyste).
 type: docs
-weight: 3000
+weight: 3020
 url: /pl/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel interfejs
@@ -17,15 +17,15 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Pozwala pobrać podstawowy interfejs IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Pozwala pobrać podstawowy interfejs IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | Zwraca próg efektu. Odczyt/zapis Single. |
 
 ### Uwagi
 
-Użyj ImageTransformOperationFactory, aby utworzyć instancje w COM.
+Użyj ImageTransformOperationFactory do tworzenia instancji w COM.
 
 ### Zobacz także
 

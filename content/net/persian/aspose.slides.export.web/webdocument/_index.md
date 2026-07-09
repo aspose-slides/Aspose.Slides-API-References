@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر شکل گذراى ارائه برای ذخیره‌سازی به قالب وب است.
+description: نمایشی از فرم انتقال ارائه برای ذخیره‌سازی در قالب وب.
 type: docs
 weight: 4680
 url: /fa/aspose.slides.export.web/webdocument/
 ---
-## کلاس WebDocument
+## WebDocument کلاس
 
-نمایانگر شکل گذراى ارائه برای ذخیره‌سازی به قالب وب است.
+نمایش‌گری از فرم انتقال ارائه برای ذخیره‌سازی در قالب وب است.
 
 ```csharp
 public class WebDocument
@@ -24,7 +24,7 @@ public class WebDocument
 
 | نام | توضیح |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | مقدار ذخیره‌سازی سراسری سند را برمی‌گرداند. فقط خواندنی [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | ذخیره‌سازی سراسری سند را برمی‌گرداند. فقط خواندنی [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
 | [Output](../../aspose.slides.export.web/webdocument/output) { get; } | مجموعه‌ای از عناصر خروجی سند را برمی‌گرداند. فقط خواندنی [`Output`](./output). |
 
@@ -34,7 +34,7 @@ public class WebDocument
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | خروجی سند را ذخیره می‌کند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * مجمع [Aspose.Slides](../../)

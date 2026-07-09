@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 비밀번호 보호 관리.
+description: 프레젠테이션 암호 보호 관리.
 type: docs
 weight: 9680
 url: /ko/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager 클래스
 
-프레젠테이션 비밀번호 보호 관리.
+프레젠테이션 암호 보호 관리.
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,24 +18,24 @@ public sealed class ProtectionManager : IProtectionManager
 
 | Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 프레젠테이션이 비밀번호로 보호된 경우에 의미가 있습니다. true인 경우 문서 속성이 프레젠테이션 파일에서 암호화됩니다. false인 경우 프레젠테이션은 암호화되지만 문서 속성은 공개됩니다. 읽기/쓰기 Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 프레젠테이션 암호화에 사용되는 비밀번호를 가져옵니다. 읽기 전용 String. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 이 속성은 프레젠테이션이 암호 보호된 경우에 의미가 있습니다. true인 경우 문서 속성이 프레젠테이션 파일에서 암호화됩니다. false인 경우 프레젠테이션은 암호화된 상태이지만 문서 속성은 공개됩니다. 읽기/쓰기 Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 프레젠테이션 암호화에 사용되는 암호를 가져옵니다. 읽기 전용 String. |
 | [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 이 인스턴스가 암호화되었는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 프레젠테이션 파일이 비밀번호로 보호되고 해당 파일의 문서 속성이 공개된 경우에 의미가 있습니다. true 값은 비밀번호 없이 암호화된 프레젠테이션 파일에서 문서 속성만 로드됨을 의미합니다. false 값은 올바른 비밀번호를 사용하여 전체 암호화된 프레젠테이션이 로드되며, 문서 속성만 로드되는 것이 아니라는 의미입니다. 프레젠테이션이 암호화되지 않은 경우 이 속성 값은 항상 false입니다. 암호화된 파일의 문서 속성이 공개되지 않은 경우에도 이 속성 값은 항상 false입니다. Presentation.EncryptDocumentProperties가 true인 경우 IsOnlyDocumentPropertiesLoaded 속성 값은 항상 false입니다. 읽기 전용 Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 이 프레젠테이션이 쓰기 보호되는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 이 속성은 프레젠테이션 파일이 암호 보호되고 이 파일의 문서 속성이 공개된 경우에 의미가 있습니다. true인 경우 암호 없이 암호화된 프레젠테이션 파일에서 문서 속성만 로드됩니다. false인 경우 올바른 암호를 사용하여 전체 암호화된 프레젠테이션이 로드되며, 문서 속성만 로드되는 것이 아닙니다. 프레젠테이션이 암호화되지 않은 경우 속성 값은 항상 false입니다. 암호화된 파일의 문서 속성이 공개되지 않은 경우에도 속성 값은 항상 false입니다. Presentation.EncryptDocumentProperties가 true인 경우 IsOnlyDocumentPropertiesLoaded 속성 값은 항상 false입니다. 읽기 전용 Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 이 프레젠테이션이 쓰기 보호된 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
 | [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | 읽기 전용 권고를 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
 
 ## 메서드
 
 | Name | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | 프레젠테이션이 수정하기 위해 비밀번호로 보호되는지 여부를 결정합니다. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | 지정된 비밀번호로 프레젠테이션을 암호화합니다. |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | 프레젠테이션이 수정에 대한 암호 보호가 되어 있는지 여부를 판단합니다. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | 지정된 암호로 프레젠테이션을 암호화합니다. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | 암호화를 제거합니다. |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | 이 프레젠테이션의 쓰기 보호를 제거합니다. |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | 지정된 비밀번호로 이 프레젠테이션의 쓰기 보호를 설정합니다. |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | 이 프레젠테이션에 대한 쓰기 보호를 제거합니다. |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | 지정된 암호로 이 프레젠테이션에 쓰기 보호를 설정합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IProtectionManager](../iprotectionmanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

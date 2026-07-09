@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يحدد كائن Matrix المكوّن من عناصر فرعية مُرتَّبة في صف واحد أو أكثر وأعمدة. من المهم ملاحظة أن المصفوفات لا تحتوي على محددات مدمجة. لوضع المصفوفة داخل الأقواس يجب استخدام كائن المحدد IMathDelimiter. يمكن استخدام الوسائط Null لإنشاء فراغات في المصفوفات.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد كائن Matrix المكوَّن من عناصر فرعية مرتّبة في صف واحد أو أكثر وأعمدة. من المهم ملاحظة أن المصفوفات لا تحتوي على محددات مدمجة. لوضع المصفوفة بين الأقواس يجب استخدام كائن المحدد IMathDelimiter. يمكن استخدام القيم الفارغة لإنشاء فجوات في المصفوفات.
 type: docs
 weight: 8340
 url: /ar/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix واجهة
 
-يحدد كائن Matrix، المكوّن من العناصر الفرعية المُرتبة في صف واحد أو أكثر وأعمدة. من المهم ملاحظة أن المصفوفات لا تحتوي على محددات مدمجة. لوضع المصفوفة داخل الأقواس يجب استخدام كائن المحدد (IMathDelimiter). يمكن استخدام القيم Null لإنشاء فراغات في المصفوفات.
+تحدد كائن المصفوفة، المكوّن من عناصر فرعية مُرتَّبة في صف واحد أو أكثر وأعمدة. من المهم ملاحظة أن المصفوفات لا تحتوي على محددات مدمجة. لوضع المصفوفة بين الأقواس يجب استخدام كائن المحدد (IMathDelimiter). يمكن استخدام القيم الفارغة لإنشاء فجوات في المصفوفات.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -16,35 +16,35 @@ public interface IMathMatrix : IMathElement
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | يسمح بالحصول على واجهة IMathElement الأساسية [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | يحدد محاذاة عمودية بالنسبة للنص المحيط. القيم الممكنة هي top، bottom، وcenter. الافتراضي: Center |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | يحدد محاذاة العمود العمودي بالنسبة للنص المحيط. القيم الممكنة هي top، bottom، وcenter. القيمة الافتراضية: الوسط |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | عدد الأعمدة في المصفوفة |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | قيمة التباعد الأفقي بين أعمدة المصفوفة؛ إذا تم ضبط ColumnGapRule على 3 ("Exactly")، تُفسَّر الوحدة كـ twips (1/20 نقطة). إذا تم ضبط ColumnGapRule على 4 ("Multiple")، تُفسَّر الوحدة كعدد من الزيادات 0.5 em. في الحالات الأخرى يتم تجاهلها. الافتراضي: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | نوع التباعد الأفقي بين أعمدة المصفوفة؛ يمكن أن تكون وحدات التباعد الأفقي إما ems أو نقاط (مخزنة كـ twips). الافتراضي: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | إخفاء العناصر النائبة لعناصر المصفوفة الفارغة. الافتراضي: false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | قيمة المسافة الأفقية بين أعمدة المصفوفة؛ إذا تم ضبط ColumnGapRule على 3 ("Exactly") فسيتم تفسير الوحدة كتوِبس (1/20 نقطة). إذا تم ضبط ColumnGapRule على 4 ("Multiple") فسيتم تفسير الوحدة كعدد من الزيادات 0.5 em. في الحالات الأخرى يتم تجاهلها. القيمة الافتراضية: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | نوع المسافة الأفقية بين أعمدة المصفوفة؛ يمكن أن تكون الوحدات ems أو نقاط (مخزَّنة كتوِبس). القيمة الافتراضية: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | إخفاء العناصر النائبة لعناصر المصفقة الفارغة القيمة الافتراضية: false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | عناصر المصفوفة |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | الحد الأدنى لعرض العمود بوحدة twips (1/20 نقطة). يتم إضافة تباعد الفجوة (المعروف أيضًا بـ “Column Gap” أو “Gap Width”) إلى MinColumnWidth لتحديد إجمالي تباعد أعمدة المصفوفة (المسافة بين الحواف المتماثلة للأعمدة المختلفة). الافتراضي: 0. |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | الحد الأدنى لعرض العمود بالتوِبس (1/20 نقطة). تُضاف المسافة الفجوة (المعروفة أيضاً باسم “Column Gap” أو “Gap Width”) إلى MinColumnWidth لتحديد إجمالي المسافة بين أعمدة المصفوفة. القيمة الافتراضية: 0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | عدد الصفوف في المصفوفة |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | قيمة التباعد العمودي بين صفوف المصفوفة؛ إذا تم ضبط RowGapRule على 3 ("Exactly")، تُفسَّر الوحدة كـ twips (1/20 نقطة). إذا تم ضبط RowGapRule على 4 ("Multiple")، تُفسَّر الوحدة كنصف خطوط. الافتراضي: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | نوع التباعد العمودي بين صفوف المصفوفة؛ يمكن أن تكون وحدات التباعد العمودي إما خطوط أو نقاط (مخزنة كـ twips). الافتراضي: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | قيمة المسافة العمودية بين صفوف المصفوفة؛ إذا تم ضبط RowGapRule على 3 ("Exactly") فسيتم تفسير الوحدة كتوِبس (1/20 نقطة). إذا تم ضبط RowGapRule على 4 ("Multiple") فسيتم تفسير الوحدة كنصف أسطر. القيمة الافتراضية: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | نوع المسافة العمودية بين صفوف المصفوفة؛ يمكن أن تكون الوحدات أسطر أو نقاط (مخزَّنة كتوِبس). القيمة الافتراضية: SingleSpacingGap (0) |
 
-## الطرق
+## الأساليب
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | يحذف العمود المحدد |
-| [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | يحذف الصف المحدد |
-| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | يحصل على محاذاة أفقية للعمود المحدد |
-| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | إدراج عمود جديد بعد العمود المحدد. في البداية تكون جميع العناصر في العمود الجديد قيمتها null. |
-| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | إدراج عمود جديد قبل العمود المحدد. في البداية تكون جميع العناصر في العمود الجديد قيمتها null. |
-| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | إدراج صف جديد بعد الصف المحدد. في البداية تكون جميع العناصر في الصف الجديد قيمتها null. |
-| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | إدراج صف جديد قبل الصف المحدد. في البداية تكون جميع العناصر في الصف الجديد قيمتها null. |
-| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | تعيين المحاذاة الأفقية للعمود المحدد |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | تعيين المحاذاة الأفقية للأعمدة المحددة |
+| [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | حذف العمود المحدد |
+| [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | حذف الصف المحدد |
+| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | الحصول على المحاذاة الأفقية للعمود المحدد |
+| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | إدراج عمود جديد بعد العمود المحدد. في البداية تكون جميع العناصر في العمود الجديد فارغة. |
+| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | إدراج عمود جديد قبل العمود المحدد. في البداية تكون جميع العناصر في العمود الجديد فارغة. |
+| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | إدراج صف جديد بعد الصف المحدد. في البداية تكون جميع العناصر في الصف الجديد فارغة. |
+| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | إدراج صف جديد قبل الصف المحدد. في البداية تكون جميع العناصر في الصف الجديد فارغة. |
+| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | ضبط المحاذاة الأفقية للعمود المحدد |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | ضبط المحاذاة الأفقية للأعمدة المحددة |
 
-### الأمثلة
+### أمثلة
 
 مثال:
 
@@ -54,10 +54,10 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### انظر أيضا
+### راجع أيضًا
 
-* الواجهة [IMathElement](../imathelement)
-* مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* واجهة [IMathElement](../imathelement)
+* مساحة الأسماء [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

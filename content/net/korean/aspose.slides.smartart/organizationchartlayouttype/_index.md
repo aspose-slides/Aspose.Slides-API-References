@@ -1,28 +1,28 @@
 ---
 title: OrganizationChartLayoutType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 조직도에서 자식 노드의 형식 지정 유형을 나타냅니다
+description: 조직도에서 자식 노드의 서식 유형을 나타냅니다
 type: docs
 weight: 10590
 url: /ko/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType 열거형
 
-조직도에서 자식 노드의 형식 지정 유형을 나타냅니다.
+조직도에서 자식 노드의 서식 유형을 나타냅니다
 
 ```csharp
 public enum OrganizationChartLayoutType
 ```
 
-### 값
+### Values
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Initial | `0` | 초기 레이아웃 유형 |
-| Standart | `1` | 자식 노드를 부모 노드 아래에 수평으로 배치합니다. |
-| BothHanging | `2` | 자식 노드를 부모 노드 아래에 왼쪽과 오른쪽 양쪽에 수직으로 배치합니다. |
-| LeftHanging | `3` | 자식 노드를 부모 노드 아래에 왼쪽에 수직으로 배치합니다. |
-| RightHanging | `4` | 자식 노드를 부모 노드 아래에 오른쪽에 수직으로 배치합니다. |
+| Standart | `1` | 부모 노드 아래에 자식 노드를 수평으로 배치합니다. |
+| BothHanging | `2` | 부모 노드 아래에 자식 노드를 좌우 양쪽에 수직으로 배치합니다. |
+| LeftHanging | `3` | 부모 노드 아래에 자식 노드를 왼쪽에 수직으로 배치합니다. |
+| RightHanging | `4` | 부모 노드 아래에 자식 노드를 오른쪽에 수직으로 배치합니다. |
 
 ### 참조
 

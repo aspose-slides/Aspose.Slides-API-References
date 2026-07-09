@@ -1,12 +1,12 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
 description: يمثل مجموعة من الأعمدة في جدول.
 type: docs
 weight: 2600
 url: /ar/aspose.slides/columncollection/
 ---
-## ColumnCollection الفئة
+## فئة ColumnCollection
 
 يمثل مجموعة من الأعمدة في جدول.
 
@@ -16,28 +16,28 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | يعيد عدد الأعمدة في مجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للـ thread). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | يعيد العمود عند الفهرس المحدد. قراءة فقط [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | يعيد جذر التزامن. قراءة فقط Object. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | تُرجع عدد الأعمدة في المجموعة. Int32 للقراءة فقط. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | تُرجع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامناً (آمن للخيوط). Boolean للقراءة فقط. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | تُرجع العمود في الفهرس المحدد. [`Column`](../column) للقراءة فقط. |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | تُرجع جذر التزامن. Object للقراءة فقط. |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | ينشئ نسخة من صف القالب المحدد ويضيفها إلى أسفل الجدول. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | ينشئ نسخة من صف القالب المحدد ويُدرجها في أسفل الجدول. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | يعيد كائن تعداد يمكنه التجول عبر المجموعة. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | ينشئ نسخة من عمود القالب المحدد ويضيفها إلى الموضع المحدد في جدول. |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | يزيل عمودًا في الموضع المحدد من جدول. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | تُرجع مُعددًا يمر عبر المجموعة. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | ينشئ نسخة من عمود القالب المحدد ويُدرجها في الموقع المحدد في الجدول. |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | يزيل عمودًا في الموقع المحدد من الجدول. |
 
-### انظر أيضا
+### انظر أيضاً
 
-* الفئة [DomObject&lt;TParent&gt;](../domobject-1)
-* الفئة [RowCollection](../rowcollection)
-* الواجهة [IColumnCollection](../icolumncollection)
+* فئة [DomObject&lt;TParent&gt;](../domobject-1)
+* فئة [RowCollection](../rowcollection)
+* واجهة [IColumnCollection](../icolumncollection)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 

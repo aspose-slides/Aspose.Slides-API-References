@@ -1,34 +1,34 @@
 ---
 title: Storage
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於 WebDocument./webdocument 的暫時資料儲存。
+second_title: Aspose.Sildes .NET API 參考手冊
+description: 表示用於 WebDocument./webdocument 的臨時資料儲存。
 type: docs
 weight: 4660
 url: /zh-hant/aspose.slides.export.web/storage/
 ---
 ## 儲存類別
 
-表示 [`WebDocument`](../webdocument) 的暫時資料儲存。
+表示 [`WebDocument`](../webdocument) 的臨時資料儲存。
 
 ```csharp
 public sealed class Storage
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Storage](storage)() | 預設建構子。 |
+| [Storage](storage)() | 預設建構函式。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | 判斷儲存是否包含具有指定鍵的元素。 |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | 取得儲存中的資料。 |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | 將值放入儲存。 |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | 判斷儲存空間是否包含具有指定鍵的元素。 |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | 從儲存空間取得資料。 |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | 將值放入儲存空間。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 組件 [Aspose.Slides](../../)

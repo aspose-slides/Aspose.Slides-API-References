@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: एक भराव फ़ॉर्मेटिंग विकल्प का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: फ़िल फ़ॉर्मेटिंग विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 4780
 url: /hi/aspose.slides/fillformat/
 ---
 ## FillFormat क्लास
 
-Represents a fill formatting options.
+फ़िल फ़ॉर्मेटिंग विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,23 +18,23 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | भराव के प्रकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | ग्रेडिएंट भराव प्रारूप लौटाता है। केवल-पढ़ने योग्य [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | पैटर्न भराव प्रारूप लौटाता है। केवल-पढ़ने योग्य [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | चित्र भराव प्रारूप लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | निर्धारित करता है कि भराव को आकार के साथ घुमाया जाए या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | भराव रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधारभूत IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | भरण के प्रकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`FillType`](../filltype)। |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | ग्रेडिएंट फ़िल फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IGradientFormat`](../igradientformat)। |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | पैटर्न फ़िल फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IPatternFormat`](../ipatternformat)। |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | चित्र फ़िल फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IPictureFillFormat`](../ipicturefillformat)। |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | निर्धारित करता है कि क्या फ़िल को आकार के साथ घुमाया जाना चाहिए। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool)। |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | फ़िल रंग को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट से तुलना करता है। |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | विरासत लागू होने के साथ प्रभावी भराव फ़ॉर्मेटिंग डेटा प्राप्त करता है। |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | विरासत लागू होने के साथ प्रभावी फ़िल फ़ॉर्मेटिंग डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [IFillFormat](../ifillformat)

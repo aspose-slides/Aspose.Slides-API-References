@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ระบุอ็อบเจกต์ Sub-Superscript ซึ่งประกอบด้วย base และ subscript และ superscript ที่วางอยู่ทางซ้ายของ base.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ระบุวัตถุ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวห้อยและตัวห้อยเหนือที่วางอยู่ทางซ้ายของฐาน
 type: docs
 weight: 8310
 url: /th/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement อินเทอร์เฟซ
 
-ระบุอ็อบเจกต์ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวห้อยและตัวยกที่วางอยู่ทางซ้ายของฐาน.
+ระบุวัตถุ Sub-Superscript ซึ่งประกอบด้วยฐานและตัวห้อยและตัวห้อยเหนือที่วางอยู่ทางซ้ายของฐาน
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,14 +18,14 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | อนุญาตให้รับค่า base IMathElement อินเทอร์เฟซ [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | อนุญาตให้ดึงฐาน IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | อาร์กิวเมนต์ฐาน |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | ตัวห้อย |
-| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | ตัวยก |
+| [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | ตัวห้อยเหนือ |
 
 ### ตัวอย่าง
 
-ตัวอย่าง:
+Example:
 
 ```csharp
 [C#]

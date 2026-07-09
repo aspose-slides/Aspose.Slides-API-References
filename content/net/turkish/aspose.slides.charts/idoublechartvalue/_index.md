@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
-second_title: Aspose.Sildes için .NET API Referansı
-description: pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) çizelgeyle ilişkili çalışma kitabının hücre/ hücrelerinde; 2) literal değer olarak.
+second_title: Aspose.Sildes .NET API Referansı
+description: pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) grafiğe ilişkin çalışma kitabındaki hücre/hücrelerde, 2) literal değer olarak.
 type: docs
-weight: 2050
+weight: 2070
 url: /tr/aspose.slides.charts/idoublechartvalue/
 ---
-## IDoubleChartValue arabirimi
+## IDoubleChartValue arayüz
 
-pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) çizelgeyle ilişkili çalışma kitabının hücre/ hücrelerinde; 2) literal değer olarak.
+pptx sunum belgesinde iki şekilde saklanabilen double değeri temsil eder: 1) grafik ile ilgili çalışma kitabındaki hücre/hücrelerde; 2) literal değer olarak.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -18,18 +18,18 @@ public interface IDoubleChartValue : ISingleCellChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Temel ISingleCellChartValue arabirimini almayı sağlar. Salt okunur [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | DataSourceType = Charts.DataSourceType.DoubleLiterals ise, literal double değerini döndürür veya ayarlar. Okunabilir/Yazılabilir Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Temel ISingleCellChartValue arayüzünü almayı sağlar. Salt okunur [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | DataSourceType = Charts.DataSourceType.DoubleLiterals olduğunda literal double değerini döndürür veya ayarlar. Okuma/yazma Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | double’a dönüştürür. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | double türüne dönüştürür. |
 
 ### Ayrıca Bakınız
 
-* arabirim [ISingleCellChartValue](../isinglecellchartvalue)
+* arayüz [ISingleCellChartValue](../isinglecellchartvalue)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)
 

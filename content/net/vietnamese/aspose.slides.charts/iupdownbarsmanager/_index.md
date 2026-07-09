@@ -1,26 +1,26 @@
 ---
 title: IUpDownBarsManager
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc Chứng khoán.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc biểu đồ Cổ phiếu.
 type: docs
 weight: 2260
 url: /vi/aspose.slides.charts/iupdownbarsmanager/
 ---
-## IUpDownBarsManager interface
+## IUpDownBarsManager giao diện
 
-Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc Chứng khoán.
+Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc biểu đồ Cổ phiếu.
 
 ```csharp
 public interface IUpDownBarsManager
 ```
 
-## Thuộc tính
+## Properties
 
 | Tên | Mô tả |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Trả về định dạng của các thanh xuống. Chỉ đọc [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Trả về hoặc đặt độ rộng khoảng cách. Đọc/ghi Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Xác định xem biểu đồ có các thanh lên/xuống hay không. Đọc/ghi Boolean. |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Trả về hoặc đặt độ rộng khoảng trống. Đọc/ghi Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Xác định liệu biểu đồ có thanh lên/xuống hay không. Đọc/ghi Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Trả về định dạng của các thanh lên. Chỉ đọc [`IFormat`](../iformat). |
 
 ### Xem thêm

@@ -1,14 +1,14 @@
 ---
 title: IFonts
-second_title: Aspose.Slides لـ .NET مرجع API
-description: يمثل مجموعة الخطوط.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: تمثل مجموعة الخطوط.
 type: docs
 weight: 5900
 url: /ar/aspose.slides/ifonts/
 ---
-## IFonts واجهة
+## واجهة IFonts
 
-يمثل مجموعة الخطوط.
+تمثل مجموعة الخطوط.
 
 ```csharp
 public interface IFonts
@@ -18,18 +18,18 @@ public interface IFonts
 
 | الاسم | الوصف |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | إرجاع أو تعيين الخط المتعدد الأنظمة. قراءة/كتابة [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | إرجاع أو تعيين الخط الآسيوي الشرقي. قراءة/كتابة [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | إرجاع أو تعيين الخط اللاتيني. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | يعيد أو يضبط الخط المعقد للنص. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | يعيد أو يضبط الخط الآسيوي الشرقي. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | يعيد أو يضبط الخط اللاتيني. قراءة/كتابة [`IFontData`](../ifontdata). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | يحصل على اسم الخط المرتبط بوسم نص معين من سمة العرض التقديمي. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | إرجاع قاموس بجميع تعريفات خطوط النص في العرض التقديمي. |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | إزالة إعداد الخط المرتبط بوسم نص معين من مجموعة خطوط السمة. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | تعيين اسم الخط إلى وسم نص معين، وهو ما يحدد كيفية عرض النص بهذا الولوج في العرض التقديمي. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | يحصل على اسم الخط المرتبط بوسم نص محدد من سمة العرض التقديمي. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | يعيد قاموسًا بجميع تعريفات خطوط النص في العرض التقديمي. |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | يزيل إعداد الخط المرتبط بوسم نص محدد من مجموعة خطوط السمة. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | يعين اسم الخط لوسم نص محدد، مما يحدد طريقة عرض نص ذلك السكريبت في العرض التقديمي. |
 
 ### انظر أيضًا
 

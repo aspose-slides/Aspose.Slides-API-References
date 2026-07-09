@@ -1,14 +1,14 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션을 저장하는 방식을 제어하는 옵션입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션이 저장되는 방식을 제어하는 옵션입니다.
 type: docs
 weight: 4070
 url: /ko/aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions 인터페이스
 
-프레젠테이션을 저장하는 방법을 제어하는 옵션입니다.
+프레젠테이션이 저장되는 방식을 제어하는 옵션입니다.
 
 ```csharp
 public interface ISaveOptions
@@ -18,13 +18,13 @@ public interface ISaveOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없을 때 사용되는 글꼴을 반환하거나 설정합니다. 읽기-쓰기 String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기-쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | 원본 글꼴을 찾을 수 없을 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 업데이트를 위한 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기-쓰기 Boolean. 기본값은 **false**입니다. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지를 결정하는 객체를 반환하거나 설정합니다. 읽기-쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스가 계속될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

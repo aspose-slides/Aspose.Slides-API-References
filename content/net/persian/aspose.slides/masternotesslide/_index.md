@@ -1,54 +1,54 @@
 ---
 title: MasterNotesSlide
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش اسلاید اصلی برای یادداشت‌ها.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نماینده اسلاید اصلی برای یادداشت‌ها.
 type: docs
 weight: 8010
 url: /fa/aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide کلاس
 
-Represents master slide for notes.
+نماینده اسلاید اصلی برای یادداشت‌ها.
 
 ```csharp
 public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | پس‌زمینه اسلاید را برمی‌گرداند. فقط‌خواندنی [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعه کنترل‌های ActiveX روی اسلاید را برمی‌گرداند. فقط‌خواندنی [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | داده‌های سفارشی اسلاید را برمی‌گرداند. فقط‌خواندنی [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | مجموعه راهنمای‌های رسم برای اسلاید یادداشت‌های اصلی را برمی‌گرداند. فقط‌خواندنی [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت‌های اصلی را برمی‌گرداند. فقط‌خواندنی [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای داخلی را فراهم می‌کند. فقط‌خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام یک اسلاید را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی String. |
-| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | سبک متن یادداشت‌ها را برمی‌گرداند. فقط‌خواندنی [`ITextStyle`](../itextstyle). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | رابط IPresentation را برمی‌گرداند. فقط‌خواندنی [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | اشکال یک اسلاید را برمی‌گرداند. فقط‌خواندنی [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | مشخص می‌کند که آیا اشکال روی اسلاید اصلی باید روی اسلایدها نمایش داده شوند یا نه. برای خود اسلاید اصلی این خصوصیت همیشه `false` برمی‌گرداند. خواندنی/نوشتنی Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | شناسه یک اسلاید را برمی‌گرداند. فقط‌خواندنی UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شی Transition را که شامل اطلاعاتی درباره پیشرفت اسلاید در نمایش اسلاید است برمی‌گرداند. فقط‌خواندنی [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | مدیر تم را برمی‌گرداند. فقط‌خواندنی [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | شی animation timeline را برمی‌گرداند. فقط‌خواندنی [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | پس‌زمینه اسلاید را برمی‌گرداند. فقط خواندنی [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعه کنترل‌های ActiveX روی اسلاید را برمی‌گرداند. فقط خواندنی [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | داده‌های سفارشی اسلاید را برمی‌گرداند. فقط خواندنی [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | مجموعه راهنمای رسم برای اسلاید یادداشت‌های اصلی را برمی‌گرداند. فقط خواندنی [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید یادداشت‌های اصلی را برمی‌گرداند. فقط خواندنی [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای داخلی را فراهم می‌کند. فقط خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام یک اسلاید را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن String. |
+| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | سبک متنی یادداشت را برمی‌گرداند. فقط خواندنی [`ITextStyle`](../itextstyle). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | رابط IPresentation را برمی‌گرداند. فقط خواندنی [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | شکل‌های یک اسلاید را برمی‌گرداند. فقط خواندنی [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | مشخص می‌کند آیا شکل‌ها روی اسلاید اصلی باید روی اسلایدها نمایش داده شوند یا نه. برای خود اسلاید اصلی این ویژگی همیشه `false` را برمی‌گرداند. خواندن/نوشتن Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | شناسه یک اسلاید را برمی‌گرداند. فقط خواندنی UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شیء Transition را برمی‌گرداند که شامل اطلاعاتی درباره نحوه پیشروی اسلاید مشخص‌شده در طول نمایش اسلاید است. فقط خواندنی [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | مدیر تم را برمی‌گرداند. فقط خواندنی [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | شیء خط زمان انیمیشن را برمی‌گرداند. فقط خواندنی [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | یک تم مؤثر برای این اسلاید برمی‌گرداند. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | تعیین می‌کند که آیا دو نمونه IBaseSlide برابر هستند یا نه. مقدار بازگشتی بر پایه ساختار اسلاید و محتوای ثابت محاسبه می‌شود. دو اسلاید برابر هستند اگر تمام اشکال، سبک‌ها، متون، انیمیشن و تنظیمات دیگر آن‌ها برابر باشد. مقایسه شناسه‌های منحصر به فرد مانند SlideId و محتوای پویا مانند مقدار تاریخ جاری در Placeholder تاریخ را در نظر نمی‌گیرد. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | یک تم مؤثر برای این اسلاید را برمی‌گرداند. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | تشخیص می‌دهد آیا دو نمونه IBaseSlide برابر هستند. مقدار بازگشتی بر اساس ساختار اسلاید و محتوای ثابت محاسبه می‌شود. دو اسلاید برابر هستند اگر همه شکل‌ها، سبک‌ها، متن‌ها، انیمیشن و سایر تنظیمات و غیره برابر باشند. مقایسه مقادیر شناسهٔ یکتا مانند SlideId و محتوای پویا مانند مقدار تاریخ فعلی در جای‌گیر تاریخ را در نظر نمی‌گیرد. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | اولین رخداد یک شکل با متن جایگزین مشخص‌شده را پیدا می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های تمام شکل‌های قابل قبول ترکیب می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | بخش‌های متنی با قالب‌بندی یکسان را در تمام پاراگراف‌های تمام شکل‌های قابل قبول ترکیب می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | دنباله‌ها با قالب‌بندی یکسان در تمام پاراگراف‌های تمام اشکال قابل قبول را ترکیب می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | دنباله‌ها با قالب‌بندی یکسان در تمام پاراگراف‌های تمام اشکال قابل قبول را ترکیب می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [BaseSlide](../baseslide)
 * رابط [IMasterNotesSlide](../imasternotesslide)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

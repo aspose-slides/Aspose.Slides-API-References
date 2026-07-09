@@ -1,14 +1,14 @@
 ---
 title: GradientShape
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje tvar gradientové výplně.
+description: Reprezentuje tvar výplně gradientu.
 type: docs
-weight: 4990
+weight: 5010
 url: /cs/aspose.slides/gradientshape/
 ---
-## GradientShape enumerace
+## výčet GradientShape
 
-Reprezentuje tvar gradientové výplně.
+Reprezentuje tvar výplně gradientu.
 
 ```csharp
 public enum GradientShape : sbyte

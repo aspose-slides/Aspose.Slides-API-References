@@ -1,7 +1,7 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: shape frame의 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: shape 프레임의 속성을 나타냅니다.
 type: docs
 weight: 9900
 url: /ko/aspose.slides/shapeframe/
@@ -24,16 +24,16 @@ public class ShapeFrame : IShapeFrame
 
 | 이름 | 설명 |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | 프레임 중심의 X 좌표를 반환합니다. 읽기 전용 Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | 프레임 중심의 Y 좌표를 반환합니다. 읽기 전용 Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | 프레임이 가로 방향으로 뒤집혔는지 여부를 나타냅니다. 읽기 전용 [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | 프레임이 세로 방향으로 뒤집혔는지 여부를 나타냅니다. 읽기 전용 [`NullableBool`](../nullablebool). |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | 프레임 중앙의 X 좌표를 반환합니다. 읽기 전용 Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | 프레임 중앙의 Y 좌표를 반환합니다. 읽기 전용 Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | 프레임이 수평으로 뒤집혔는지 판단합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | 프레임이 수직으로 뒤집혔는지 판단합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | 프레임의 높이를 반환합니다. 읽기 전용 Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | 프레임의 좌표를 반환합니다. 읽기 전용 RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 프레임이 z축을 중심으로 회전된 각도를 반환합니다. 양수 값은 시계 방향 회전을 나타내며, 음수 값은 반시계 방향 회전을 나타냅니다. 읽기 전용 Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | 프레임이 z축을 중심으로 회전된 각도를 반환합니다. 양수 값은 시계 방향 회전을 나타내고, 음수 값은 반시계 방향 회전을 나타냅니다. 읽기 전용 Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | 프레임의 너비를 반환합니다. 읽기 전용 Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | 프레임의 왼쪽 위 모서리 X 좌표를 반환합니다. 읽기 전용 Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | 프레임의 왼쪽 위 모서리 Y 좌표를 반환합니다. 읽기 전용 Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | 프레임 좌상단 모서리의 X 좌표를 반환합니다. 읽기 전용 Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | 프레임 좌상단 모서리의 Y 좌표를 반환합니다. 읽기 전용 Single. |
 
 ## 메서드
 
@@ -45,7 +45,7 @@ public class ShapeFrame : IShapeFrame
 | [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | 이 인스턴스가 지정된 객체와 같은지 여부를 나타내는 값을 반환합니다. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | 이 객체의 해시 코드를 반환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IShapeFrame](../ishapeframe)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

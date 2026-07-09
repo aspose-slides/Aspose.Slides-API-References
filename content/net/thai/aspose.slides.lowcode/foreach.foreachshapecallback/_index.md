@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: การเรียกกลับที่จะถูกเรียกใช้สำหรับแต่ละ Shape./foreach/shape ใน Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ Shape./foreach/shape ใน Presentation../aspose.slides/presentation.
 type: docs
 weight: 7950
 url: /th/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback ตัวแทน
+## ForEach.ForEachShapeCallback delegate
 
-การเรียกกลับที่จะถูกเรียกใช้สำหรับแต่ละ [`Shape`](../foreach/shape) ใน [`Presentation`](../../aspose.slides/presentation).
+คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ [`Shape`](../foreach/shape) ใน [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int inde
 | slide |  |
 | index |  |
 
-### ดูเพิ่มเติม
+### See Also
 
 * คลาส [Shape](../../aspose.slides/shape)
 * คลาส [BaseSlide](../../aspose.slides/baseslide)

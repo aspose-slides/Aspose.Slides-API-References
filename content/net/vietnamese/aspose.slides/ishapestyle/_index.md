@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn tham chiếu kiểu dáng của hình.
+description: Đại diện cho tham chiếu kiểu dáng của hình.
 type: docs
 weight: 7010
 url: /vi/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle giao diện
 
-Biểu diễn tham chiếu kiểu dáng của hình.
+Đại diện cho tham chiếu kiểu dáng của hình.
 
 ```csharp
 public interface IShapeStyle
@@ -19,15 +19,15 @@ public interface IShapeStyle
 | Tên | Mô tả |
 | --- | --- |
 | [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Trả về màu hiệu ứng của hình. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Trả về hoặc đặt chỉ mục cột hiệu ứng của hình trong ma trận kiểu dáng. Đọc/ghi UInt32. |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Trả về màu tô đầy của hình. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Trả về hoặc đặt chỉ mục cột tô đầy của hình trong ma trận kiểu dáng. 0 có nghĩa là không tô, giá trị dương – chỉ mục trong các kiểu tô đầy của chủ đề, giá trị âm – chỉ mục trong các kiểu nền của chủ đề. Đọc/ghi Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Trả về hoặc đặt chỉ mục phông chữ của hình trong bộ sưu tập phông chữ. Đọc/ghi [`FontCollectionIndex`](../fontcollectionindex). |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Trả về hoặc thiết lập chỉ mục cột hiệu ứng của hình trong ma trận kiểu dáng. Đọc/ghi UInt32. |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Trả về màu nền của hình. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Trả về hoặc thiết lập chỉ mục cột nền của hình trong các ma trận kiểu dáng. 0 có nghĩa là không có nền, giá trị dương - chỉ mục trong các kiểu nền của chủ đề, giá trị âm - chỉ mục trong các kiểu nền nền của chủ đề. Đọc/ghi Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Trả về hoặc thiết lập chỉ mục phông chữ của hình trong bộ sưu tập phông chữ. Đọc/ghi [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Trả về màu phông chữ của hình. Chỉ đọc [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Trả về màu viền của hình. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Trả về hoặc đặt chỉ mục cột của đường trong ma trận kiểu dáng. Đọc/ghi UInt16. |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Trả về hoặc thiết lập chỉ mục cột của đường trong một ma trận kiểu dáng. Đọc/ghi UInt16. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

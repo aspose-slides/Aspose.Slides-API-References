@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Slides .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bölümdeki slaytların bir koleksiyonunu temsil eder.
 type: docs
-weight: 9750
+weight: 9770
 url: /tr/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection sınıfı
@@ -19,7 +19,7 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iplik güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
@@ -28,9 +28,9 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | Ad | Açıklama |
 | --- | --- |
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumeratör döndürür. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Koleksiyon içinde dolaşan bir enumerator döndürür. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Section](../section)

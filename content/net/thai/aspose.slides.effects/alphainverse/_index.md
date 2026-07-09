@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงเอฟเฟ็กต์ Alpha Inverse. ค่า Alpha (ความทึบ) จะถูกกลับโดยการลบจาก 100%.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha ถูกกลับโดยการลบจาก 100.
 type: docs
 weight: 2870
 url: /th/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse คลาส
 
-แสดงถึงเอฟเฟ็กต์ Alpha Inverse. ค่า Alpha (ความทึบ) จะถูกกลับโดยการลบจาก 100%
+แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่า Alpha (ความทึบ) ถูกกลับโดยการลบจาก 100%
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -24,9 +24,9 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | กำหนดว่า [`AlphaInverse`](../alphainverse) ที่ระบุเทียบเท่ากับ [`AlphaInverse`](../alphainverse) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | รับข้อมูลผลของ Alpha Inverse ที่มีการสืบทอดที่นำไปใช้. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทใดประเภทหนึ่ง. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | กำหนดว่าค่า [`AlphaInverse`](../alphainverse) ที่ระบุเท่ากับค่า [`AlphaInverse`](../alphainverse) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | รับข้อมูลเอฟเฟกต์ Alpha Inverse ที่มีผลโดยมีการสืบทอด. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดใดชนิดหนึ่ง. |
 
 ### ดูเพิ่มเติม
 

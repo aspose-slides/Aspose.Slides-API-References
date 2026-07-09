@@ -1,14 +1,14 @@
 ---
 title: Captions
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αναπαριστά τους κλειστούς υποτίτλους WebVTT.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τους κλειστούς υπότιτλους WebVTT.
 type: docs
-weight: 1090
+weight: 1110
 url: /el/aspose.slides/captions/
 ---
-## Captions κλάση
+## Κλάση Captions
 
-Αναπαριστά τους κλειστούς υποτίτλους WebVTT.
+Αναπαριστά τις κλειστές υπότιτλοι WebVTT.
 
 ```csharp
 public class Captions : ICaptions

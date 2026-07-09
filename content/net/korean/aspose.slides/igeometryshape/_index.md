@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 모든 기하학적 도형의 부모 클래스를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 모든 기하학적 도형의 상위 클래스를 나타냅니다.
 type: docs
 weight: 5980
 url: /ko/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape 인터페이스
 
-모든 기하학적 도형의 부모 클래스를 나타냅니다.
+모든 기하학적 모양의 상위 클래스를 나타냅니다.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,21 +18,21 @@ public interface IGeometryShape : IShape
 
 | 이름 | 설명 |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | shape의 조정 값 컬렉션을 반환합니다. 읽기 전용 [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | 모양의 조정 값 컬렉션을 반환합니다. 읽기 전용 [`IAdjustValueCollection`](../iadjustvaluecollection). |
 | [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | 기본 IShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | shape의 스타일 객체를 반환합니다. 읽기 전용 [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 기하학 사전 설정 유형을 반환하거나 설정합니다. 참고: 값이 변경될 때 모든 조정 값이 기본값으로 재설정됩니다. 읽기/쓰기 [`ShapeType`](../shapetype). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | 모양의 스타일 개체를 반환합니다. 읽기 전용 [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | 기하학 사전 설정 유형을 반환하거나 설정합니다. 참고: 값을 변경하면 모든 조정 값이 기본값으로 재설정됩니다. 읽기/쓰기 [`ShapeType`](../shapetype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | shape의 요소 배열을 생성하고 반환합니다. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | 기하학 도형의 경로 복사본을 반환합니다. 좌표는 도형의 왼쪽 상단 모서리를 기준으로 합니다. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | [`IGeometryPath`](../igeometrypath) 객체에서 도형 기하학을 업데이트합니다. 좌표는 도형의 왼쪽 상단 모서리를 기준이어야 합니다. 도형 유형([`ShapeType`](./shapetype))을 Custom으로 변경합니다. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | [`IGeometryPath`](../igeometrypath) 배열에서 도형 기하학을 업데이트합니다. 좌표는 도형의 왼쪽 상단 모서리를 기준이어야 합니다. 도형 유형([`ShapeType`](./shapetype))을 Custom으로 변경합니다. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | 모양 요소의 배열을 생성하고 반환합니다. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | 기하학적 모양의 경로 복사본을 반환합니다. 좌표는 모양의 왼쪽 상단 모서리를 기준으로 합니다. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | [`IGeometryPath`](../igeometrypath) 개체에서 모양 기하학을 업데이트합니다. 좌표는 모양의 왼쪽 상단 모서리를 기준으로 해야 합니다. 모양 유형([`ShapeType`](./shapetype))을 Custom으로 변경합니다. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | [`IGeometryPath`](../igeometrypath) 배열에서 모양 기하학을 업데이트합니다. 좌표는 모양의 왼쪽 상단 모서리를 기준으로 해야 합니다. 모양 유형([`ShapeType`](./shapetype))을 Custom으로 변경합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IShape](../ishape)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

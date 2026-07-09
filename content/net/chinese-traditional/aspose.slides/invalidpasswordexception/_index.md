@@ -1,6 +1,6 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 當簡報檔案格式不受支援時拋出的例外。
 type: docs
 weight: 7620
@@ -16,13 +16,13 @@ public class InvalidPasswordException : Exception
 
 ## 建構函式
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | 預設建構函式。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 允許將訊息新增至此例外的建構函式。 |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 用於包含訊息與內部例外的建構函式。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | 允許為此例外加入訊息的建構函式。 |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構函式。 |
 
-### 另請參閱
+### 相關參考
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

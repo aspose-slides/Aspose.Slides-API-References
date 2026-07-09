@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling celler.
 type: docs
-weight: 1120
+weight: 1140
 url: /sv/aspose.slides/cellcollection/
 ---
 ## CellCollection klass
@@ -23,7 +23,7 @@ public abstract class CellCollection : ICellCollection
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Returnerar en cell efter dess position. Skrivskyddad [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Returnerar den överordnade presentationen för en CellCollection. Skrivskyddad [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Returnerar den överordnade bilden för en CellCollection. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Returnerar en synkroniseringsrot. Skrivskyddad Object. |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
@@ -32,7 +32,7 @@ public abstract class CellCollection : ICellCollection
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se även
+### Se också
 
 * gränssnitt [ICellCollection](../icellcollection)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes .NET 用 API リファレンス
 description: Alpha Inverse エフェクトを表します。Alpha の不透明度の値は 100 から減算することで反転します。
 type: docs
-weight: 2850
+weight: 2870
 url: /ja/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse クラス
 
-Alpha Inverse エフェクトを表します。Alpha（不透明度）値は 100% から減算することで反転します。
+Alpha (opacity) 値は 100% から減算することで反転されます。Alpha Inverse エフェクトを表します。
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,7 +18,7 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェースを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## メソッド
 
@@ -31,7 +31,7 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 ### 参照
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
-* インターフェース [IAlphaInverse](../ialphainverse)
+* インターフェイス [IAlphaInverse](../ialphainverse)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * アセンブリ [Aspose.Slides](../../)
 

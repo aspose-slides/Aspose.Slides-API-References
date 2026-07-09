@@ -1,6 +1,6 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 타이밍에 대한 재시작 유형을 나타냅니다.
 type: docs
 weight: 330
@@ -23,7 +23,7 @@ public enum EffectRestartType
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

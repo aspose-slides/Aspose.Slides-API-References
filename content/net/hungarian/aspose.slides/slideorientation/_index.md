@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes .NET API referenciája
-description: A dia tájolását jelöli.
+second_title: Aspose.Sildes for .NET API Referencia
+description: A dia tájolását reprezentálja.
 type: docs
-weight: 9980
+weight: 10000
 url: /hu/aspose.slides/slideorientation/
 ---
-## SlideOrientation felsorolás
+## SlideOrientation enumeráció
 
-A dia tájolását jelöli.
+A dia tájolását reprezentálja.
 
 ```csharp
 public enum SlideOrientation
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Landscape | `0` | Landscape tájolás. |
-| Portrait | `1` | Portrait tájolás. |
+| Landscape | `0` | Fekvő tájolás. |
+| Portrait | `1` | Álló tájolás. |
 
 ### Lásd még
 

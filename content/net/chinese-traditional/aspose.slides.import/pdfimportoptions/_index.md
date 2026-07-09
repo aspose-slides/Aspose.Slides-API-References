@@ -1,6 +1,6 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 PDF 匯入選項
 type: docs
 weight: 7500
@@ -24,9 +24,9 @@ public class PdfImportOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | 決定在匯入 pdf 檔案時是否偵測表格。 |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | 決定在匯入 PDF 檔案時是否偵測表格。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Import](../../aspose.slides.import)
 * 組件 [Aspose.Slides](../../)

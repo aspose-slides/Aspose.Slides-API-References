@@ -1,14 +1,14 @@
 ---
 title: ChartCategory
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表圖表類別。
+description: 表示圖表類別。
 type: docs
 weight: 1270
 url: /zh-hant/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory 類別
 
-代表圖表類別。
+表示圖表類別。
 
 ```csharp
 public class ChartCategory : IChartCategory
@@ -18,19 +18,19 @@ public class ChartCategory : IChartCategory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 傳回或設定 IChartDataCell 物件。如果類別是多層級，則在等級「0」使用 IChartDataCell 物件。可讀寫 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 傳回或設定 AsLiteral 物件。可讀寫 Object。 |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 受管理的容器，保存圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級的索引以零為起點。唯讀 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 如果為 true，則 AsCell 屬性為實際值。換言之，工作表用於儲存類別（此情況支援多層級類別）。如果為 false，則 AsLiteral 屬性為實際值。換言之，工作表不會用於儲存類別（此情況不支援多層級類別）。唯讀 Boolean。 |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | 如果 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。若 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 Object。 |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | 傳回或設定 IChartDataCell 物件。若類別為多層級，則使用等級 "0" 的 IChartDataCell 物件。可讀寫 [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | 傳回或設定 AsLiteral 物件。可讀寫 物件. |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | 受管理的容器，保存圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級索引從零開始。唯讀 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | 若為 true，則 AsCell 屬性為實際使用的屬性。換言之，工作表用於儲存類別（此情況支援多層級類別）。若為 false，則 AsLiteral 屬性為實際使用的屬性。換言之，工作表不會用於儲存類別（此情況不支援多層級類別）。唯讀 布林. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | 若 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。若 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 物件. |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 從圖表中移除類別。 |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | 從圖表中移除類別. |
 
-### 參見
+### 另請參閱
 
 * 介面 [IChartCategory](../ichartcategory)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

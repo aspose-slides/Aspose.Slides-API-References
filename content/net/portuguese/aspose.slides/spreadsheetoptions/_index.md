@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa opções que podem ser usadas para especificar comportamento adicional das planilhas.
+description: Representa opções que podem ser usadas para especificar comportamentos adicionais de planilhas.
 type: docs
-weight: 10720
+weight: 10740
 url: /pt/aspose.slides/spreadsheetoptions/
 ---
-## SpreadsheetOptions classe
+## classe SpreadsheetOptions
 
-Representa opções que podem ser usadas para especificar comportamento adicional das planilhas.
+Representa opções que podem ser usadas para especificar comportamentos adicionais de planilhas.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -16,15 +16,15 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [SpreadsheetOptions](spreadsheetoptions)() | Inicializa uma nova instância da classe [`SpreadsheetOptions`](../spreadsheetoptions). |
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Obtém ou define as informações de cultura preferida para calcular algumas funções destinadas ao uso com idiomas que utilizam o conjunto de caracteres de dois bytes (DBCS). |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | Obtém ou define as informações de cultura preferidas para calcular algumas funções destinadas ao uso com linguagens que utilizam o conjunto de caracteres de byte duplo (DBCS). |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se a fonte de dados para o gráfico for uma pasta de trabalho externa e não estiver disponível, ela será recuperada do cache do gráfico. |
 
 ### Veja Também

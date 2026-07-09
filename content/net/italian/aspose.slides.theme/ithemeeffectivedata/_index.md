@@ -1,9 +1,9 @@
 ---
 title: IThemeEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Oggetto immutabile che contiene le proprietà effettive del tema.
 type: docs
-weight: 11360
+weight: 11380
 url: /it/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData interfaccia
@@ -18,7 +18,7 @@ public interface IThemeEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Restituisce lo schema dei font. Sola lettura [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Restituisce lo schema dei caratteri. Sola lettura [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
 | [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Restituisce lo schema del formato della forma. Sola lettura [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Metodi
@@ -27,9 +27,9 @@ public interface IThemeEffectiveData
 | --- | --- |
 | [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Restituisce lo schema dei colori. |
 
-### Note
+### Osservazioni
 
-Questa interfaccia è usata insieme all'interfaccia [`ITheme`](../itheme) per restituire i valori di formattazione effettivi con ereditarietà applicata.
+Questa interfaccia è utilizzata insieme al [`ITheme`](../itheme) interfaccia per restituire i valori di formattazione effettivi con ereditarietà applicata.
 
 ### Vedi anche
 

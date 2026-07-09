@@ -3,10 +3,10 @@ title: PresentationContentAmountType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan jumlah konten yang termasuk dalam presentasi yang dihasilkan, memengaruhi baik jumlah slide maupun tingkat detail per slide.
 type: docs
-weight: 40
+weight: 60
 url: /id/aspose.slides.ai/presentationcontentamounttype/
 ---
-## enumerasi PresentationContentAmountType
+## PresentationContentAmountType enumerasi
 
 Menentukan jumlah konten yang termasuk dalam presentasi yang dihasilkan, memengaruhi baik jumlah slide maupun tingkat detail per slide.
 
@@ -16,11 +16,11 @@ public enum PresentationContentAmountType
 
 ### Nilai
 
-| Name | Value | Description |
+| Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Brief | `0` | Konten singkat dan dasar. |
-| Medium | `1` | Jumlah konten yang sedang. |
-| Detailed | `2` | Opsi paling detail dengan teks yang luas. |
+| Medium | `1` | Konten dengan jumlah sedang. |
+| Detailed | `2` | Opsi paling terperinci dengan teks yang luas. |
 
 ### Lihat Juga
 

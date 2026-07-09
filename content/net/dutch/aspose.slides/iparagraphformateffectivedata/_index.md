@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Geeft de tekstuitlijning in een alinea terug. Alleen-lezen [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Geeft een opsommingstekenopmaak van een alinea terug. Alleen-lezen [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Geeft de standaardonderdeelopmaak van een alinea terug. Alleen-lezen [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Geeft de standaard tabulatiegrootte terug. Alleen-lezen Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Geeft de diepte van een alinea terug. Alleen-lezen Int16. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Geeft terug de tekstuitlijning in een alinea. Alleen-lezen [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Geeft terug een opsommingstype van een alinea. Alleen-lezen [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Geeft terug het standaardgedeelte-formaat van een alinea. Alleen-lezen [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Geeft terug de standaard tabulatie-grootte. Alleen-lezen Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Geeft terug de diepte van een alinea. Alleen-lezen Int16. |
 | [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Bepaalt of de Oost-Aziatische regeleinde wordt gebruikt in een alinea. Alleen-lezen Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Geeft een lettertype-uitlijning in een alinea terug. Alleen-lezen [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Bepaalt of hangende interpunctie wordt gebruikt in een alinea. Alleen-lezen Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Geeft de eerste regelinspringing/hangende inspringing van een alinea terug. Hangende inspringing kan worden gedefinieerd met negatieve waarden. Alleen-lezen Single. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Geeft terug de lettertype-uitlijning in een alinea. Alleen-lezen [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Bepaalt of de hangende interpunctie wordt gebruikt in een alinea. Alleen-lezen Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Geeft terug de eerste regel-inspringing/hangende inspringing van een alinea. Hangende inspringing kan met negatieve waarden worden gedefinieerd. Alleen-lezen Single. |
 | [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Bepaalt of de Latijnse regeleinde wordt gebruikt in een alinea. Alleen-lezen Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Geeft de linkermarge in een alinea terug. Alleen-lezen Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Geeft de rechtermarge in een alinea terug. Alleen-lezen Single. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Geeft terug de linkermarge in een alinea. Alleen-lezen Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Geeft terug de rechtermarge in een alinea. Alleen-lezen Single. |
 | [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Bepaalt of rechts-naar-links schrijven wordt gebruikt in een alinea. Alleen-lezen Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Geeft de hoeveelheid ruimte na de laatste regel in een alinea terug. Alleen-lezen Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Geeft de hoeveelheid ruimte vóór de eerste regel in een alinea terug. Alleen-lezen Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Geeft de hoeveelheid ruimte tussen basisregels in een alinea terug. Alleen-lezen Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Geeft de tabulaties van een alinea terug. Alleen-lezen [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | Geeft terug de hoeveelheid ruimte na de laatste regel in een alinea. Alleen-lezen Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | Geeft terug de hoeveelheid ruimte vóór de eerste regel in een alinea. Alleen-lezen Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | Geeft terug de hoeveelheid ruimte tussen basisregels in een alinea. Alleen-lezen Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | Geeft terug tabulaties van een alinea. Alleen-lezen [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`IParagraphFormat`](../iparagraphformat) interface gebruikt om effectieve opmaakwaarden met toegepaste overerving terug te geven.
+Deze interface wordt samen met de [`IParagraphFormat`](../iparagraphformat) interface gebruikt om effectieve opmaakwaarden met erfelijkheid toegepast te retourneren.
 
 ### Zie ook
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* naamruimte [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -8,7 +8,7 @@ url: /hi/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions इंटरफ़ेस
 
-प्रेजेंटेशन को PPT फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+प्रस्तुति को PPT फ़ॉर्मेट में सहेजे जाने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -18,10 +18,10 @@ public interface IPptOptions : ISaveOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | ऑब्जेक्ट क्लास GUID (CLSID) को दर्शाता है जो रूट डायरेक्टरी एंट्री में संग्रहीत होता है। दस्तावेज़ के एप्लिकेशन के COM सक्रियण के लिए उपयोग किया जा सकता है। डिफ़ॉल्ट मान '64818D11-4F9B-11CF-86EA-00AA00B929E8' है जो 'Microsoft Powerpoint.Slide.8' से मेल खाता है। |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल-रीड [`ISaveOptions`](../isaveoptions)। |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | वह ऑब्जेक्ट क्लास GUID (CLSID) दर्शाता है जो रूट डायरेक्टरी एंट्री में संग्रहीत है। दस्तावेज़ के अनुप्रयोग की COM सक्रियता के लिए उपयोग किया जा सकता है। डिफ़ॉल्ट मान '64818D11-4F9B-11CF-86EA-00AA00B929E8' है जो 'Microsoft Powerpoint.Slide.8' से मेल खाता है। |
 
-### अन्य देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

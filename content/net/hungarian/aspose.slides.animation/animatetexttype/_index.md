@@ -1,14 +1,14 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Sildes .NET API referencia
-description: Az animációs hatás szöveganimáció típusát jelöli.
+second_title: Aspose.Sildes .NET API-referencia
+description: Az animációs effektus animált szövegtípusát reprezentálja.
 type: docs
-weight: 100
+weight: 120
 url: /hu/aspose.slides.animation/animatetexttype/
 ---
-## AnimateTextType felsorolás
+## AnimateTextType enumeráció
 
-Az animációs hatás szöveganimáció típusát jelöli.
+Az animációs effektus animált szövegtípusát reprezentálja.
 
 ```csharp
 public enum AnimateTextType
@@ -18,9 +18,9 @@ public enum AnimateTextType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| AllAtOnce | `0` | Az összes szöveget egyszerre animálja. |
-| ByWord | `1` | A szöveget szavanként animálja. |
-| ByLetter | `2` | A szöveget betűről betűre animálja. |
+| AllAtOnce | `0` | Az összes szöveget egyből animálja. |
+| ByWord | `1` | Szó szerint animálja a szöveget. |
+| ByLetter | `2` | Betűnként animálja a szöveget. |
 
 ### Lásd még
 

@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: GradientStopData वस्तुओं का एक संग्रह प्रस्तुत करता है।
+description: GradientStopData ऑब्जेक्ट्स का संग्रह प्रस्तुत करता है।
 type: docs
 weight: 5040
 url: /hi/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData क्लास
 
-GradientStopData ऑब्जेक्ट्स का एक संग्रह दर्शाता है।
+Represents a collection of GradientStopData objects.
 
 ```csharp
 public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffectiveData
@@ -18,19 +18,19 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | संग्रह में ग्रेडिएंट स्टॉप्स की संख्या लौटाता है। केवल पढ़ने योग्य Int32। |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | संग्रह तक पहुंच समकालिक (थ्रेड-सेफ) है या नहीं, यह संकेत देने वाला मान लौटाता है। केवल पढ़ने योग्य Boolean। |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | इंडेक्स द्वारा ग्रेडिएंट स्टॉप लौटाता है। |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | समकालिकता जड़ लौटाता है। केवल पढ़ने योग्य Object। |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | कलेक्शन में ग्रेडिएंट स्टॉप्स की संख्या लौटाता है। केवल-पढ़ने-योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | कलेक्शन तक पहुँच के समन्वयन (थ्रेड-सेफ़) को दर्शाने वाला मान लौटाता है। केवल-पढ़ने-योग्य Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | इंडेक्स के द्वारा ग्रेडिएंट स्टॉप लौटाता है। |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | समन्वयन रूट लौटाता है। केवल-पढ़ने-योग्य Object. |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | संग्रह के सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से पुनरावृत करता है। |
+| [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | कलेक्शन के सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | कलेक्शन के माध्यम से इटरेट करने वाला एन्यूमरेटर लौटाता है। |
 
-## संबंधित देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

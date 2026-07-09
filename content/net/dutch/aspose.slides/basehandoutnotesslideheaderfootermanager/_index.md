@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van de plaatsaanduiders bevat, inclusief de kop placeholder voor alle typen handout- en notitieslides.
+description: Stelt een manager voor die het gedrag van de plaatsaanduidingen bevat, inclusief de koptekst-plaatsaanduiding voor alle soorten hand-out- en notitieslides.
 type: docs
 weight: 950
 url: /nl/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager klasse
 
-Stelt een manager voor die het gedrag van de plaatsaanduiders bevat, inclusief de kop-plaatsaanduider voor alle handout- en notitie-dia’s.
+Stelt een manager voor die het gedrag van de plaatsaanduidingen bevat, inclusief koptekstaanduiding voor alle soorten hand-out- en notitieslides.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,28 +19,28 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Haalt waarde op die aangeeft dat een datum-tijd placeholder aanwezig is. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Haalt waarde op die aangeeft dat een voettekst placeholder aanwezig is. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Haalt waarde op die aangeeft dat een kop-placeholder aanwezig is. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Haalt waarde op die aangeeft dat een paginanummer-placeholder aanwezig is. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Krijgt waarde die aangeeft dat er een datum-tijd-plaatsaanduiding aanwezig is. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Krijgt waarde die aangeeft dat er een voettekst-plaatsaanduiding aanwezig is. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Krijgt waarde die aangeeft dat er een koptekst-plaatsaanduiding aanwezig is. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Krijgt waarde die aangeeft dat er een paginanummer-plaatsaanduiding aanwezig is. ReadBoolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt tekst in voor de datum-tijd placeholder van de dia. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd placeholder van de dia. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt tekst in voor de voettekst placeholder van de dia. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst placeholder van de dia. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Stelt tekst in voor de kop-placeholder van de dia. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Wijzigt de zichtbaarheid van de kop-placeholder van de dia. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-placeholder van de dia. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Stelt de tekst in voor de datum-tijd-plaatsaanduiding van de dia. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Wijzigt de zichtbaarheid van de datum-tijd-plaatsaanduiding op de dia. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Stelt de tekst in voor de voettekst-plaatsaanduiding van de dia. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduiding op de dia. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Stelt de tekst in voor de koptekst-plaatsaanduiding van de dia. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Wijzigt de zichtbaarheid van de koptekst-plaatsaanduiding op de dia. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduiding op de dia. |
 
 ### Zie ook
 
 * klasse [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

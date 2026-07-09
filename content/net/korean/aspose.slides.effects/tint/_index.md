@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes .NET API 참조
-description: Tint 효과를 나타냅니다. 지정된 양만큼 색조를 향하거나 멀어지도록 효과 색상 값을 이동시킵니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 이동하거나 멀어지게 합니다.
 type: docs
 weight: 3660
 url: /ko/aspose.slides.effects/tint/
 ---
 ## Tint 클래스
 
-Tint 효과를 나타냅니다. 지정된 양만큼 색조를 향하거나 멀어지도록 효과 색상 값을 이동시킵니다.
+Tint 효과를 나타냅니다. 지정된 양만큼 색조를 기준으로 효과 색상 값을 이동하거나 멀어지게 합니다.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -24,11 +24,11 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 지정된 [`Tint`](../tint) 가 현재 [`Tint`](../tint)와 동일한지 여부를 판단합니다. |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 상속이 적용된 실제 Tint 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 특정 형식에 대한 해시 함수 역할을 합니다. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | 지정된 [`Tint`](../tint)가 현재 [`Tint`](../tint)와 같은지 여부를 결정합니다. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | 상속이 적용된 효과적인 Tint 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
 
-### 참고
+### 관련 항목
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [ITint](../itint)

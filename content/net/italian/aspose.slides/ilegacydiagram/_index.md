@@ -3,7 +3,7 @@ title: ILegacyDiagram
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un oggetto diagramma legacy
 type: docs
-weight: 6230
+weight: 6250
 url: /it/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram interfaccia
@@ -24,8 +24,8 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Converte il diagramma legacy in un gruppo forme modificabile. L'oggetto GroupShape creato viene aggiunto al gruppo forme genitore nella stessa posizione. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Converte il diagramma legacy in un oggetto SmartArt modificabile. L'oggetto SmartArt creato viene aggiunto al gruppo forme genitore nella stessa posizione. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Converte il diagramma legacy in una forma di gruppo modificabile. L'oggetto GroupShape creato viene aggiunto alla forma di gruppo padre nella stessa posizione. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Converte il diagramma legacy in un oggetto SmartArt modificabile. L'oggetto SmartArt creato viene aggiunto alla forma di gruppo padre nella stessa posizione. |
 
 ### Vedi anche
 

@@ -1,6 +1,6 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 외부 글꼴에 대한 파일 및 메모리 소스를 제공합니다.
 type: docs
 weight: 4860
@@ -24,10 +24,10 @@ public class FontSources : IFontSources
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | 글꼴 파일이 포함된 폴더. 이 폴더에 있는 모든 글꼴 파일이 컬렉션에 포함됩니다. 재귀적으로 검색되는 폴더. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | 글꼴 파일이 포함된 폴더입니다. 이러한 폴더에 있는 모든 글꼴 파일이 컬렉션에 포함됩니다. 재귀적으로 검색되는 폴더입니다. |
 | [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | 바이트 배열로 표현된 글꼴 컬렉션입니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IFontSources](../ifontsources)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

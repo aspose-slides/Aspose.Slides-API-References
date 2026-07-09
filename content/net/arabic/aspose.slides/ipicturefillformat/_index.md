@@ -19,36 +19,36 @@ public interface IPictureFillFormat : IFillParamSource
 | الاسم | الوصف |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformat/asifillparamsource) { get; } | يسمح بالحصول على واجهة IFillParamSource الأساسية. قراءة فقط [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | يعيد أو يضبط عدد النسبة المئوية لارتفاع الصورة الحقيقي التي يتم قصها من أسفل الصورة. قراءة/كتابة Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | يعيد أو يضبط عدد النسبة المئوية لعرض الصورة الحقيقي التي يتم قصها من الجانب الأيسر للصورة. قراءة/كتابة Single. |
-| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | يعيد أو يضبط عدد النسبة المئوية لعرض الصورة الحقيقي التي يتم قصها من الجانب الأيمن للصورة. قراءة/كتابة Single. |
-| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | يعيد أو يضبط عدد النسبة المئوية لارتفاع الصورة الحقيقي التي يتم قصها من أعلى الصورة. قراءة/كتابة Single. |
-| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | يعيد أو يضبط الـ dpi الذي يستخدم لتعبئة صورة. قراءة/كتابة Int32. |
-| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | يعيد الصورة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | يعيد أو يضبط وضع تعبئة الصورة. قراءة/كتابة [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | يعيد أو يضبط الحافة السفلية لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة السفلية لمربع احتواء الشكل. النسبة الموجبة تحدد تقليصًا، بينما النسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
-| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | يعيد أو يضبط الحافة اليسرى لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة اليسرى لمربع احتواء الشكل. النسبة الموجبة تحدد تقليصًا، والنسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
-| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | يعيد أو يضبط الحافة اليمنية لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة اليمنية لمربع احتواء الشكل. النسبة الموجبة تحدد تقليصًا، والنسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
-| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | يعيد أو يضبط الحافة العليا لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة العليا لمربع احتواء الشكل. النسبة الموجبة تحدد تقليصًا، والنسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
-| [TileAlignment](../../aspose.slides/ipicturefillformat/tilealignment) { get; set; } | يعيد أو يضبط كيفية محاذاة القوام داخل الشكل. يتحكم هذا الإعداد بنقطة البداية لنمط القوام وكيفية تكراره عبر الشكل. قراءة/كتابة [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/ipicturefillformat/tileflip) { get; set; } | يقلب بلاطة القوام حول محورها الأفقي أو العمودي أو كليهما. قراءة/كتابة [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/ipicturefillformat/tileoffsetx) { get; set; } | يعيد أو يضبط الإزاحة الأفقية للقوام من أصل الشكل بالنقاط. القيمة الموجبة تحرك القوام إلى اليمين، والقيمة السالبة تحركه إلى اليسار. قراءة/كتابة Single. |
-| [TileOffsetY](../../aspose.slides/ipicturefillformat/tileoffsety) { get; set; } | يعيد أو يضبط الإزاحة العمودية للقوام من أصل الشكل بالنقاط. القيمة الموجبة تحرك القوام إلى الأسفل، والقيمة السالبة تحركه إلى الأعلى. قراءة/كتابة Single. |
-| [TileScaleX](../../aspose.slides/ipicturefillformat/tilescalex) { get; set; } | يعيد أو يضبط المقياس الأفقي لتعبئة القوام كنسبة مئوية. قراءة/كتابة Single. |
-| [TileScaleY](../../aspose.slides/ipicturefillformat/tilescaley) { get; set; } | يعيد أو يضبط المقياس العمودي لتعبئة القوام كنسبة مئوية. قراءة/كتابة Single. |
+| [CropBottom](../../aspose.slides/ipicturefillformat/cropbottom) { get; set; } | إرجاع أو تعيين عدد النسب المئوية لارتفاع الصورة الفعلي الذي يُقص من أسفل الصورة. قراءة/كتابة Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformat/cropleft) { get; set; } | إرجاع أو تعيين عدد النسب المئوية لعرض الصورة الفعلي الذي يُقص من يسار الصورة. قراءة/كتابة Single. |
+| [CropRight](../../aspose.slides/ipicturefillformat/cropright) { get; set; } | إرجاع أو تعيين عدد النسب المئوية لعرض الصورة الفعلي الذي يُقص من يمين الصورة. قراءة/كتابة Single. |
+| [CropTop](../../aspose.slides/ipicturefillformat/croptop) { get; set; } | إرجاع أو تعيين عدد النسب المئوية لارتفاع الصورة الفعلي الذي يُقص من أعلى الصورة. قراءة/كتابة Single. |
+| [Dpi](../../aspose.slides/ipicturefillformat/dpi) { get; set; } | إرجاع أو تعيين قيمة dpi المستخدمة لتعبئة الصورة. قراءة/كتابة Int32. |
+| [Picture](../../aspose.slides/ipicturefillformat/picture) { get; } | إرجاع الصورة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformat/picturefillmode) { get; set; } | إرجاع أو تعيين وضع تعبئة الصورة. قراءة/كتابة [`PictureFillMode`](../picturefillmode). |
+| [StretchOffsetBottom](../../aspose.slides/ipicturefillformat/stretchoffsetbottom) { get; set; } | إرجاع أو تعيين الحافة السفلية لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة السفلية لمربع حدود الشكل. النسبة المئوية الموجبة تحدد تقليصًا، بينما النسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
+| [StretchOffsetLeft](../../aspose.slides/ipicturefillformat/stretchoffsetleft) { get; set; } | إرجاع أو تعيين الحافة اليسرى لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة اليسرى لمربع حدود الشكل. النسبة المئوية الموجبة تحدد تقليصًا، بينما النسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
+| [StretchOffsetRight](../../aspose.slides/ipicturefillformat/stretchoffsetright) { get; set; } | إرجاع أو تعيين الحافة اليمنى لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة اليمنى لمربع حدود الشكل. النسبة المئوية الموجبة تحدد تقليصًا، بينما النسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
+| [StretchOffsetTop](../../aspose.slides/ipicturefillformat/stretchoffsettop) { get; set; } | إرجاع أو تعيين الحافة العلوية لمستطيل التعبئة المحدد بنسبة إزاحة من الحافة العلوية لمربع حدود الشكل. النسبة المئوية الموجبة تحدد تقليصًا، بينما النسبة السالبة تحدد توسعًا. قراءة/كتابة Single. |
+| [TileAlignment](../../aspose.slides/ipicturefillformat/tilealignment) { get; set; } | إرجاع أو تعيين كيفية محاذاة النسيج داخل الشكل. هذه الإعدادات تتحكم في نقطة بدء نمط النسيج وكيفية تكراره عبر الشكل. قراءة/كتابة [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/ipicturefillformat/tileflip) { get; set; } | إرجاع أو تعيين انعكاس تجانب النسيج أفقيًا أو رأسيًا أو كليهما. قراءة/كتابة [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/ipicturefillformat/tileoffsetx) { get; set; } | إرجاع أو تعيين الإزاحة الأفقية للنسيج من أصل الشكل بالنقاط. القيمة الموجبة تحرك النسيج إلى اليمين، بينما القيمة السالبة تحركه إلى اليسار. قراءة/كتابة Single. |
+| [TileOffsetY](../../aspose.slides/ipicturefillformat/tileoffsety) { get; set; } | إرجاع أو تعيين الإزاحة الرأسية للنسيج من أصل الشكل بالنقاط. القيمة الموجبة تحرك النسيج إلى الأسفل، بينما القيمة السالبة تحركه إلى الأعلى. قراءة/كتابة Single. |
+| [TileScaleX](../../aspose.slides/ipicturefillformat/tilescalex) { get; set; } | إرجاع أو تعيين مقياس أفقي لتعبئة النسيج كنسبة مئوية. قراءة/كتابة Single. |
+| [TileScaleY](../../aspose.slides/ipicturefillformat/tilescaley) { get; set; } | إرجاع أو تعيين مقياس رأسي لتعبئة النسيج كنسبة مئوية. قراءة/كتابة Single. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | يضغط الصورة عن طريق تقليل حجمها بناءً على حجم الشكل والدقة المحددة. اختياريًا، يحذف أيضًا المناطق المقصوصة. |
-| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | يضغط الصورة عن طريق تقليل حجمها بناءً على حجم الشكل والدقة المحددة. اختياريًا، يحذف أيضًا المناطق المقصوصة. |
-| [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | احذف المناطق المقصوصة لصورة التعبئة. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage_1)(bool, float) | يضغط الصورة عن طريق تقليل حجمها بناءً على حجم الشكل والدقة المحددة. يمكن أيضًا حذف المناطق المقصوصة. |
+| [CompressImage](../../aspose.slides/ipicturefillformat/compressimage#compressimage)(bool, PicturesCompression) | يضغط الصورة عن طريق تقليل حجمها بناءً على حجم الشكل والدقة المحددة. يمكن أيضًا حذف المناطق المقصوصة. |
+| [DeletePictureCroppedAreas](../../aspose.slides/ipicturefillformat/deletepicturecroppedareas)() | حذف المناطق المقصوصة من صورة التعبئة. |
 
 ### انظر أيضًا
 
 * واجهة [IFillParamSource](../ifillparamsource)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan opsi yang mengontrol tampilan tata letak catatan dan komentar dalam dokumen yang diekspor.
+description: Menyediakan opsi yang mengontrol tampilan penataan catatan dan komentar dalam dokumen yang diekspor.
 type: docs
-weight: 4270
+weight: 4290
 url: /id/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions kelas
 
-Menyediakan opsi yang mengontrol tampilan tata letak catatan dan komentar dalam dokumen yang diekspor.
+Menyediakan opsi yang mengontrol tampilan penataan catatan dan komentar dalam dokumen yang diekspor.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Mendapatkan atau menetapkan warna area komentar (Hanya berlaku jika komentar ditampilkan di sebelah kanan). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Mendapatkan atau menetapkan lebar area keluaran komentar dalam piksel (Hanya berlaku jika komentar ditampilkan di sebelah kanan). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Mendapatkan atau menetapkan posisi komentar pada halaman. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Mendapatkan atau menetapkan posisi catatan pada halaman. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Mendapatkan atau menetapkan visibilitas komentar yang tidak memiliki penulis. Jika true maka komentar akan ditampilkan. (Hanya berlaku jika komentar ditampilkan). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Mendapatkan atau mengatur warna area komentar (Hanya berlaku jika komentar ditampilkan di kanan). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Mendapatkan atau mengatur lebar area output komentar dalam piksel (Hanya berlaku jika komentar ditampilkan di kanan). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Mendapatkan atau mengatur posisi komentar pada halaman. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Mendapatkan atau mengatur posisi catatan pada halaman. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Mendapatkan atau mengatur visibilitas komentar yang tidak memiliki penulis. Jika true maka komentar akan ditampilkan. (Hanya berlaku jika komentar ditampilkan). |
 
 ### Lihat Juga
 

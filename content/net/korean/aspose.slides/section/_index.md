@@ -1,6 +1,6 @@
 ---
 title: Section
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 섹션을 나타냅니다.
 type: docs
 weight: 9750
@@ -16,7 +16,7 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | 섹션의 이름. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | 섹션 ID. |
@@ -24,9 +24,9 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 섹션에 있는 슬라이드 목록을 반환합니다. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 섹션에 포함된 슬라이드 목록을 반환합니다. |
 
 ### 참조
 

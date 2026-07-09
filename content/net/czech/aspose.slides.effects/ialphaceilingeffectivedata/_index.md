@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty průhlednosti Alpha větší než nula jsou změněny na 100. Jinými slovy, vše částečně neprůhledné se stane plně neprůhledným.
+second_title: Aspose.Sildes pro .NET – referenční příručka
+description: Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty alfa průhlednosti větší než nula jsou změněny na 100. Jinými slovy, vše částečně neprůhledné se stane zcela neprůhledným.
 type: docs
-weight: 3030
+weight: 3050
 url: /cs/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty Alpha (průhlednost) větší než nula jsou změněny na 100 %. Jinými slovy, vše částečně neprůhledné se stane zcela neprůhledným.
+Neměnný objekt, který představuje efekt Alpha Ceiling. Hodnoty Alpha (průhlednost) větší než nula jsou změněny na 100 %. Jinými slovy, vše částečně neprůhledné se stane plně neprůhledným.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData

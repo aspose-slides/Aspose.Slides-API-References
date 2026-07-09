@@ -1,38 +1,38 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Sildes برای مرجع API .NET
-description: نماینده‌ای از مجموعه‌ای از ماژول‌های پروژه VBA.
+description: نمایانگر مجموعه‌ای از ماژول‌های پروژه VBA.
 type: docs
 weight: 11640
 url: /fa/aspose.slides.vba/vbamodulecollection/
 ---
-## کلاس VbaModuleCollection
+## VbaModuleCollection کلاس
 
-نماینده‌ای برای مجموعه‌ای از ماژول‌های پروژه VBA.
+نمایانگر مجموعه‌ای از ماژول‌های پروژه VBA.
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را برمی‌گرداند. فقط-خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده (امن برای چندین رشته) است یا خیر. فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | عنصر را در اندیس مشخص‌شده برمی‌گرداند. |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را دریافت می‌کند. فقط خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد دسترسی به مجموعه همگام‌سازی شده است (امنیت‌نخی). فقط خواندنی Boolean. |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | عنصر موجود در ایندکس مشخص‌شده را دریافت می‌کند. |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | یک ماژول جدید خالی به پروژه VBA اضافه می‌کند. |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص‌شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | یک enumerator که از مجموعه عبور می‌کند را برمی‌گرداند. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | یک ماژول خالی جدید به پروژه VBA اضافه می‌کند. |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایه مشخص‌شده کپی می‌کند. |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | یک شمارنده را که از مجموعه عبور می‌کند برمی‌گرداند. |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | اولین رخداد یک شیء خاص را از مجموعه حذف می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [IVbaModuleCollection](../ivbamodulecollection)
 * فضای‌نام [Aspose.Slides.Vba](../../aspose.slides.vba)

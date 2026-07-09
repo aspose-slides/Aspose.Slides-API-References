@@ -1,26 +1,26 @@
 ---
 title: PptxException
-second_title: Tham chiếu API .NET của Aspose.Sildes
-description: Biểu diễn một loại ngoại lệ nội bộ chuẩn.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một loại ngoại lệ nội bộ tiêu chuẩn.
 type: docs
 weight: 9560
 url: /vi/aspose.slides/pptxexception/
 ---
 ## Lớp PptxException
 
-Biểu diễn một loại ngoại lệ nội bộ chuẩn.
+Biểu diễn một loại ngoại lệ nội bộ tiêu chuẩn.
 
 ```csharp
 public class PptxException : OOXMLException
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [PptxException](pptxexception#constructor)() | Hàm tạo mặc định. |
-| [PptxException](pptxexception#constructor_1)(string) | Hàm tạo cho phép thêm một thông báo vào ngoại lệ này. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông báo và một ngoại lệ được nhúng. |
+| [PptxException](pptxexception#constructor)() | Hàm khởi tạo mặc định. |
+| [PptxException](pptxexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm thông điệp vào ngoại lệ này. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: IMetered
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้เมธอดสำหรับตั้งค่ากุญแจที่มีการวัด
+description: ให้เมธอดสำหรับตั้งค่าคีย์แบบมีมิเตอร์.
 type: docs
 weight: 6450
 url: /th/aspose.slides/imetered/
 ---
 ## IMetered อินเทอร์เฟซ
 
-ให้เมธอดสำหรับตั้งค่าคีย์ที่มีการวัด
+ให้เมธอดสำหรับตั้งค่าคีย์แบบมีมิเตอร์.
 
 ```csharp
 public interface IMetered
@@ -18,7 +18,7 @@ public interface IMetered
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | ตั้งค่ากุญแจสาธารณะและส่วนตัวที่มีการวัด |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | ตั้งค่าคีย์สาธารณะและส่วนตัวแบบมีมิเตอร์. |
 
 ### ดูเพิ่มเติม
 

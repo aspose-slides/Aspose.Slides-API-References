@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Callback sẽ được gọi cho mỗi MasterSlide./foreach/masterslide trong Presentation../aspose.slides/presentation.
 type: docs
 weight: 7920
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Master slide hiện tại đang được lặp |
-| index | Int32 | Chỉ mục của master slide hiện tại |
+| masterSlide | MasterSlide | Slide master hiện tại đang được lặp |
+| index | Int32 | Chỉ mục của slide master hiện tại |
 
 ### Xem thêm
 

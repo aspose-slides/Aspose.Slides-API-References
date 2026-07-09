@@ -1,14 +1,14 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Sildes dla dokumentacji API .NET
-description: Określa, które operacje są wyłączone w nadrzędnym Connectorze.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Określa, które operacje są wyłączone w nadrzędnym Connector.
 type: docs
-weight: 5600
+weight: 5620
 url: /pl/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock interfejs
 
-Określa, które operacje są wyłączone w nadrzędnym Connectorze.
+Określa, które operacje są wyłączone w nadrzędnym Connector.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -16,15 +16,15 @@ public interface IConnectorLock : IBaseShapeLock
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości dopasowania jest zabroniona. Odczyt/zapis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Określa, czy zmiana główek strzałek jest zabroniona. Odczyt/zapis Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Umożliwia pobranie bazowego interfejsu IBaseShapeLock. Tylko odczyt [`IBaseShapeLock`](../ibaseshapelock). |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Określa, czy zmiana wartości regulacji jest zabroniona. Odczyt/zapis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Określa, czy zmiana grotów strzałek jest zabroniona. Odczyt/zapis Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseShapeLock. Tylko do odczytu [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Określa, czy kształt musi zachować proporcje przy zmianie rozmiaru. Odczyt/zapis Boolean. |
 | [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Określa, czy bezpośrednia zmiana konturu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
 | [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Określa, czy dodanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Określa, czy przenoszenie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Określa, czy przemieszczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
 | [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Określa, czy zmiana kąta obrotu tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
 | [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Określa, czy zaznaczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
 | [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Określa, czy zmiana typu kształtu jest zabroniona. Odczyt/zapis Boolean. |

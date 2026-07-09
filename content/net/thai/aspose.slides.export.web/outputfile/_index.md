@@ -1,26 +1,26 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของไฟล์ผลลัพธ์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นไฟล์เอาต์พุต.
 type: docs
 weight: 4650
 url: /th/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile คลาส
 
-เป็นตัวแทนของไฟล์ผลลัพธ์.
+เป็นไฟล์เอาต์พุต
 
 ```csharp
 public abstract class OutputFile : IOutputFile
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | เขียนเนื้อหาไฟล์ไปยังสตรีม. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | เขียนเนื้อหาไฟล์ไปยังสตรีม |
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IOutputFile](../ioutputfile)
 * เนมสเปซ [Aspose.Slides.Export.Web](../../aspose.slides.export.web)

@@ -24,13 +24,13 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | 지정된 마스터 슬라이드의 사본을 컬렉션 끝에 추가합니다. 연결된 레이아웃 슬라이드도 복사됩니다. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | 지정된 마스터 슬라이드의 사본을 컬렉션의 지정된 위치에 삽입합니다. 연결된 레이아웃 슬라이드도 복사됩니다. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | 컬렉션의 지정된 인덱스에 있는 요소를 제거합니다. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | 지정된 마스터 슬라이드의 복사본을 컬렉션 끝에 추가합니다. 연결된 레이아웃 슬라이드도 복사됩니다. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | 지정된 마스터 슬라이드의 복사본을 컬렉션의 지정된 위치에 삽입합니다. 연결된 레이아웃 슬라이드도 복사됩니다. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | 컬렉션에서 특정 객체의 첫 번째 항목을 제거합니다. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | 컬렉션에서 지정된 인덱스의 요소를 제거합니다. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | 사용되지 않는 마스터 슬라이드를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IMasterSlide](../imasterslide)

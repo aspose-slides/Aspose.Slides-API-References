@@ -3,7 +3,7 @@ title: IOrientationTransition
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Effetto di transizione della diapositiva di orientamento.
 type: docs
-weight: 10130
+weight: 10150
 url: /it/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition interfaccia
@@ -19,7 +19,7 @@ public interface IOrientationTransition : ITransitionValueBase
 | Nome | Descrizione |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Direzione della transizione. Lettura/Scrittura [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`Orientation`](../../aspose.slides/orientation). |
 
 ### Vedi anche
 

@@ -1,12 +1,12 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes for .NET مرجع API
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل مجموعة من أنماط التأثير.
 type: docs
 weight: 11180
 url: /ar/aspose.slides.theme/ieffectstylecollection/
 ---
-## واجهة IEffectStyleCollection
+## IEffectStyleCollection واجهة
 
 يمثل مجموعة من أنماط التأثير.
 
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | يعيد عنصرًا في الموضع المحدد. قراءة فقط [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | إرجاع عنصر في الموقع المحدد. للقراءة فقط [`IEffectStyle`](../ieffectstyle). |
 
 ### انظر أيضًا
 

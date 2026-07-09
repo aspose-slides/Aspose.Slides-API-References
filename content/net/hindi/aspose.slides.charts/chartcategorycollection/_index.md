@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ChartCategory का संग्रह दर्शाता है./chartcategory
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ChartCategory का संग्रह दर्शाता है। /chartcategory
 type: docs
 weight: 1280
 url: /hi/aspose.slides.charts/chartcategorycollection/
 ---
-## ChartCategoryCollection वर्ग
+## ChartCategoryCollection क्लास
 
-Represents collection of [`ChartCategory`](../chartcategory)
+यह [`ChartCategory`](../chartcategory) का संग्रह दर्शाता है।
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -19,31 +19,31 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | नाम | विवरण |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | उपयोग किए गए वर्गीकरण समूह स्तरों की गणना लौटाता है। बहु-स्तरीय वर्गीकरणों के लिए यह एक से अधिक होता है। केवल पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | सूची तक पहुँच समकालिक (थ्रेड-सेफ़) है या नहीं, यह दर्शाने वाला मान लौटाता है। केवल पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | संग्रह तक पहुँच को समकालिक करने के लिये उपयोग किया जा सकने वाला ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | यदि सत्य है तो कार्यपत्रक श्रेणियों को संग्रहीत करने के लिये उपयोग किया जाता है (यह मामला बहु-स्तरीय श्रेणियों का समर्थन करता है)। यदि गलत है तो कार्यपत्रक मूल्यों को संग्रहीत करने के लिये उपयोग नहीं किया जाता (और यह मामला बहु-स्तरीय श्रेणियों का समर्थन नहीं करता)। पढ़ने/लिखने योग्य Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | उपयोग किए गए वर्गीकरण समूह स्तरों की गिनती लौटाता है। बहु-स्तरीय वर्गीकरणों के लिए यह एक से अधिक होता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | यह दर्शाता है कि सूची तक पहुंच सिंक्रनाइज़्ड (थ्रेड सुरक्षित) है या नहीं, इसका मान लौटाता है। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | एक ऑब्जेक्ट लौटाता है जिसका उपयोग संग्रह तक पहुंच को सिंक्रनाइज़ करने के लिए किया जा सकता है। केवल पढ़ने योग्य Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | यदि true है तो कार्यपत्रक को वर्गों को संग्रहीत करने के लिए प्रयोग किया जाता है (यह मामला बहु-स्तरीय वर्गीकरणों का समर्थन करता है)। यदि false है तो कार्यपत्रक मानों को संग्रहीत करने के लिए उपयोग नहीं किया जाता (और यह मामला बहु-स्तरीय वर्गीकरणों का समर्थन नहीं करता)। पढ़ने/लिखने योग्य Boolean. |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | यदि श्रेणी संग्रह में मौजूद है, तो उसे लौटाता है। अन्यथा [`IChartDataCell`](../ichartdatacell) से नया चार्ट कैटेगरी बनाता है और उसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | यदि वर्ग संग्रह में मौजूद है, तो उसे लौटाता है। अन्यथा [`IChartDataCell`](../ichartdatacell) से नया चार्ट वर्ग बनाता है और उसे संग्रह में जोड़ता है। |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | मान से नया [`ChartCategory`](../chartcategory) बनाता है और उसे संग्रह में जोड़ता है। |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | संग्रह के माध्यम से पुनरावृत्ति करने वाला enumerator लौटाता है। |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | निर्दिष्ट [`ChartCategory`](../chartcategory) को खोजता है और संपूर्ण संग्रह में उसकी प्रथम उपस्थिति का शून्य-आधारित अनुक्रमणिका लौटाता है। |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट ऐरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से पार करता है। |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | निर्दिष्ट [`ChartCategory`](../chartcategory) की खोज करता है और संपूर्ण संग्रह में पहली प्रकटि का शून्य-आधारित अनुक्रमांक लौटाता है। |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | निर्दिष्ट मान को हटाता है। |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | दिए गए अनुक्रमणिका पर तत्व को हटाता है। |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | दिए गए अनुक्रमांक पर तत्व को हटाता है। |
 
-### देखें
+### देखें भी
 
-* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* वर्ग [ChartData](../chartdata)
+* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* क्लास [ChartData](../chartdata)
 * इंटरफ़ेस [IChartCategoryCollection](../ichartcategorycollection)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
-* एसेंबली [Aspose.Slides](../../)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

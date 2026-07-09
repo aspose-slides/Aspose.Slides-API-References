@@ -3,10 +3,10 @@ title: QuartileMethodType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Vrací typ kvartilové metody
 type: docs
-weight: 2370
+weight: 2390
 url: /cs/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType výčtový typ
+## QuartileMethodType enumerace
 
 Vrací typ kvartilové metody
 
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Exclusive | `0` | Representuje exkluzivní metodu kvartilu. |
-| Inclusive | `1` | Representuje inkluzivní metodu kvartilu. |
+| Exclusive | `0` | Representuje exkluzivní kvartilovou metodu. |
+| Inclusive | `1` | Representuje inkluzivní kvartilovou metodu. |
 
 ### Viz také
 

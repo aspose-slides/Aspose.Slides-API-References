@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta il gestore che contiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il gestore che contiene il comportamento dei segnaposti piè di pagina, data-ora e numero di pagina per tutti i tipi di diapositiva.
 type: docs
-weight: 5330
+weight: 5350
 url: /it/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager interfaccia
 
-Rappresenta il gestore che contiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
+Rappresenta il gestore che contiene il comportamento dei segnaposti piè di pagina, data-ora e numero di pagina per tutti i tipi di diapositiva.
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -19,17 +19,17 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 | Nome | Descrizione |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ibaseslideheaderfootermanager/asibaseheaderfootermanager) { get; } | Restituisce l'interfaccia IBaseHeaderFooterManager. |
-| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto data/ora. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto piè di pagina. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Ottiene il valore che indica la presenza di un segnaposto numero di pagina. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/ibaseslideheaderfootermanager/isdatetimevisible) { get; } | Ottiene il valore che indica che è presente un segnaposto data-ora. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/ibaseslideheaderfootermanager/isfootervisible) { get; } | Ottiene il valore che indica che è presente un segnaposto piè di pagina. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/ibaseslideheaderfootermanager/isslidenumbervisible) { get; } | Ottiene il valore che indica che è presente un segnaposto numero di pagina. ReadBoolean. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Imposta il testo del segnaposto data/ora della diapositiva. |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifica la visibilità del segnaposto data/ora della diapositiva. |
-| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Imposta il testo del segnaposto piè di pagina della diapositiva. |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | Imposta il testo nel segnaposto data-ora della diapositiva. |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | Modifica la visibilità del segnaposto data-ora della diapositiva. |
+| [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | Imposta il testo nel segnaposto piè di pagina della diapositiva. |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | Modifica la visibilità del segnaposto piè di pagina della diapositiva. |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | Modifica la visibilità del segnaposto numero di pagina della diapositiva. |
 

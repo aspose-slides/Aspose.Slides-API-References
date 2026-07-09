@@ -6,9 +6,9 @@ type: docs
 weight: 5850
 url: /th/aspose.slides/ifontfallbackrule/
 ---
-## IFontFallBackRule อินเทอร์เฟซ
+## IFontFallBackRule ส่วนต่อประสาน
 
-Represents font fallback rule
+แสดงกฎการสำรองแบบอักษร
 
 ```csharp
 public interface IFontFallBackRule
@@ -16,25 +16,25 @@ public interface IFontFallBackRule
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | รับจำนวนแบบอักษรที่กำหนดไว้จริงสำหรับช่วงนี้. |
-| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | รับชื่อแบบอักษรที่ตำแหน่งที่ระบุ. |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | รับตำแหน่งสุดท้ายของช่วงยูนิโค้ดต่อเนื่อง. |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | รับตำแหน่งแรกของช่วงยูนิโค้ดต่อเนื่อง. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | ดึงจำนวนฟอนต์ที่กำหนดจริงสำหรับช่วง |
+| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | ดึงชื่อฟอนต์ที่ตำแหน่งที่ระบุ |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | ดึงตำแหน่งสุดท้ายของช่วงยูนิโค้ดต่อเนื่อง |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | ดึงตำแหน่งแรกของช่วงยูนิโค้ดต่อเนื่อง |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | เพิ่มแบบอักษรใหม่ลงในรายการแบบอักษรสำรอง. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | เพิ่มแบบอักษรใหม่ลงในรายการแบบอักษรสำรอง. |
-| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | ลบแบบอักษรทั้งหมดออกจากรายการ. |
-| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | คืนค่าตำแหน่งของกฎที่ระบุในคอลเลกชัน. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | ลบการปรากฏครั้งแรกของแบบอักษรสำรองที่ระบุออกจากรายการ. |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | ลบแบบอักษรสำรองที่ตำแหน่งที่ระบุในรายการ. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | สร้างและคืนค่าอาเรย์ที่มีแบบอักษรสำรองทั้งหมดสำหรับกฎนี้. |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | สร้างและคืนค่าอาเรย์ที่มีแบบอักษรสำรองทั้งหมดจากช่วงที่ระบุในรายการ. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | เพิ่มฟอนต์ใหม่ลงในรายการฟอนต์ FallBack |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | เพิ่มฟอนต์ใหม่ลงในรายการฟอนต์ FallBack |
+| [Clear](../../aspose.slides/ifontfallbackrule/clear)() | ลบฟอนต์ทั้งหมดออกจากรายการ |
+| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | คืนดัชนีของกฎที่ระบุในคอลเลกชัน |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | ลบการปรากฏครั้งแรกของฟอนต์ FallBack ที่ระบุออกจากรายการ |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | ลบฟอนต์ FallBack ที่ตำแหน่งที่ระบุในรายการ |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | สร้างและคืนอาร์เรย์ของฟอนต์ FallBack ทั้งหมดสำหรับกฎนี้ |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | สร้างและคืนอาร์เรย์ของฟอนต์ FallBack ทั้งหมดจากช่วงที่ระบุในรายการ |
 
 ### ดูเพิ่มเติม
 

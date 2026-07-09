@@ -3,7 +3,7 @@ title: IEffectEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Basisklass för oföränderliga objekt som representerar effekt.
 type: docs
-weight: 3260
+weight: 3280
 url: /sv/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData gränssnitt

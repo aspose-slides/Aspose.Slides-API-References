@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesGroup
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示系列的群組。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表系列的群組。
 type: docs
 weight: 1460
 url: /zh-hant/aspose.slides.charts/chartseriesgroup/
 ---
 ## ChartSeriesGroup 類別
 
-表示系列的群組。
+代表系列的群組。
 
 ```csharp
 public class ChartSeriesGroup : IChartSeriesGroup
@@ -16,35 +16,34 @@ public class ChartSeriesGroup : IChartSeriesGroup
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | 指定氣泡大小值在氣泡圖上的表示方式。 讀寫 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype)。 |
-| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | 指定氣泡圖的比例因子（可為預設大小的 0% 到 300% 之間）。 讀寫 Int32。 |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/chartseriesgroup/bubblesizerepresentation) { get; set; } | 指定在氣泡圖上如何呈現氣泡大小值。 可讀寫 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype)。 |
+| [BubbleSizeScale](../../aspose.slides.charts/chartseriesgroup/bubblesizescale) { get; set; } | 指定氣泡圖的比例因子（可介於預設大小的 0% 到 300% 之間）。 可讀寫 Int32。 |
 | [Chart](../../aspose.slides.charts/chartseriesgroup/chart) { get; } | 傳回父圖表。 唯讀 [`IChart`](../ichart)。 |
-| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | 指定甜甜圈圖中孔的大小（可為繪圖區大小的 0% 到 90% 之間）。 讀寫 Byte。 |
-| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | 取得或設定第一個圓餅或甜甜圈圖切片的角度（以度為單位，從上方順時針，0 到 360 度）。 讀寫 UInt16。 |
-| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | 傳回或設定 3D 圖表中資料系列之間的距離（以標記寬度的百分比表示）。 讀寫 UInt16。 |
-| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | 指定條形或柱狀叢集之間的間距，以條形或柱狀寬度的百分比表示。 讀寫 UInt16。 |
-| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | 如果圖表具有系列線則為 true。套用於堆疊條形圖與 OfPie 圖表。 讀寫 Boolean。 |
-| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | 指定 HiLowLines 格式。HiLowLines 套用於 HiLowClose、OpenHiLowClose、VolumeHiLowClose 與 VolumeOpenHiLowClose 圖表類型。 |
-| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | 指定系列中的每個資料標記具有不同的顏色。 讀寫 Boolean。 |
+| [DoughnutHoleSize](../../aspose.slides.charts/chartseriesgroup/doughnutholesize) { get; set; } | 指定甜甜圈圖中孔的大小（可介於繪圖區大小的 0% 到 90% 之間）。 可讀寫 Byte。 |
+| [FirstSliceAngle](../../aspose.slides.charts/chartseriesgroup/firstsliceangle) { get; set; } | 取得或設定第一個餅圖或甜甜圈圖切片的角度（以度為單位，從上方順時針，以 0 到 360 度表示）。 可讀寫 UInt16。 |
+| [GapDepth](../../aspose.slides.charts/chartseriesgroup/gapdepth) { get; set; } | 傳回或設定資料系列在 3D 圖表中之間的距離，以標記寬度的百分比表示。 可讀寫 UInt16。 |
+| [GapWidth](../../aspose.slides.charts/chartseriesgroup/gapwidth) { get; set; } | 指定條形或直條叢集之間的間距，以條形或直條寬度的百分比表示。 可讀寫 UInt16。 |
+| [HasSeriesLines](../../aspose.slides.charts/chartseriesgroup/hasserieslines) { get; set; } | 若圖表具有系列線則為 true。適用於堆疊條形圖與 OfPie 圖表。 可讀寫 Boolean。 |
+| [HiLowLinesFormat](../../aspose.slides.charts/chartseriesgroup/hilowlinesformat) { get; } | 指定 HiLowLines 格式。HiLowLines 於 HiLowClose、OpenHiLowClose、VolumeHiLowClose 與 VolumeOpenHiLowClose 圖表類型中套用。 |
+| [IsColorVaried](../../aspose.slides.charts/chartseriesgroup/iscolorvaried) { get; set; } | 指定系列中的每個資料標記使用不同的顏色。 可讀寫 Boolean。 |
 | [Item](../../aspose.slides.charts/chartseriesgroup/item) { get; } | 取得指定索引處的元素。 |
-| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | 指定條形與柱狀在 2-D 圖表上重疊的程度，以百分比表示（從 -100% 到 100%）。 - -100%：最大間距（條形完全分開）。 - 0%：條形並排放置，無重疊或間距。 - 100%：最大重疊（條形完全彼此重疊）。 此屬性為讀寫 SByte。 |
-| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | 指定如何決定在 pie-of-pie 或 bar-of-pie 圖表的第二個圓餅或條形中哪些資料點。 讀寫 [`PieSplitType`](../piesplittype)。 |
-| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | 具自訂分割的 pie-of-pie 或 bar-of-pie 圖表的自訂分割資訊。包含應在 pie-of-pie 或 bar-of-pie 圖表的第二個圓餅或條形中繪製的資料點。 唯讀 [`PieSplitCustomPointCollection`](../piesplitcustompointcollection)。 |
-| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | 指定用於決定在 pie-of-pie 或 bar-of-pie 圖表的第二個圓餅或條形中哪些資料點的值。 與 PieSplitBy 屬性一起使用。 讀寫 Double。 |
-| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | 指示此群組的系列是否繪製於次要軸上。 唯讀 Boolean。 |
-| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | 指定 pie-of-pie 圖表或 bar-of-pie 圖表第二個圓餅或條形的大小，以第一個圓餅大小的百分比表示（可為 5% 到 200% 之間）。 讀寫 UInt16。 |
+| [Overlap](../../aspose.slides.charts/chartseriesgroup/overlap) { get; set; } | 指定條形與直條在 2-D 圖表上的重疊程度，以百分比表示（從 -100% 到 100%）。- -100%：最大間距（條形完全分開）。- 0%：條形並排放置，無重疊或間距。- 100%：最大重疊（條形完全彼此重疊）。此屬性為可讀寫 SByte。 |
+| [PieSplitBy](../../aspose.slides.charts/chartseriesgroup/piesplitby) { get; set; } | 指定如何決定哪些資料點位於 pie-of-pie 或 bar-of-pie 圖表的第二個餅或條。 可讀寫 [`PieSplitType`](../piesplittype)。 |
+| [PieSplitCustomPoints](../../aspose.slides.charts/chartseriesgroup/piesplitcustompoints) { get; } | 具有自訂分割的 pie-of-pie 或 bar-of-pie 圖表的自訂分割資訊。包含應繪製於第二個餅或條的資料點。 唯讀 [`PieSplitCustomPointCollection`](../piesplitcustompointcollection)。 |
+| [PieSplitPosition](../../aspose.slides.charts/chartseriesgroup/piesplitposition) { get; set; } | 指定用於決定哪些資料點位於 pie-of-pie 或 bar-of-pie 圖表第二個餅或條的值。與 PieSplitBy 屬性一起使用。 可讀寫 Double。 |
+| [PlotOnSecondAxis](../../aspose.slides.charts/chartseriesgroup/plotonsecondaxis) { get; } | 指示此群組的系列是否繪製在次要軸上。 唯讀 Boolean。 |
+| [SecondPieSize](../../aspose.slides.charts/chartseriesgroup/secondpiesize) { get; set; } | 指定 pie-of-pie 或 bar-of-pie 圖表第二個餅或條的大小，以第一個餅的大小百分比表示（可介於 5% 到 200% 之間）。 可讀寫 UInt16。 |
 | [Series](../../aspose.slides.charts/chartseriesgroup/series) { get; } | 傳回系列的集合。 唯讀 [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection)。 |
 | [Type](../../aspose.slides.charts/chartseriesgroup/type) { get; } | 傳回此系列群組的類型。 唯讀 [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup)。 |
-| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | 提供對折線圖或股票圖的上下條的存取。 唯讀 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
+| [UpDownBars](../../aspose.slides.charts/chartseriesgroup/updownbars) { get; } | 提供對折線圖或股票圖之上/下柱的存取。 唯讀 [`IUpDownBarsManager`](../iupdownbarsmanager)。 |
 
 ### 備註
 
-1) 請參閱 ChartSeriesGroupCollection 類別和 CombinableSeriesTypesGroup 列舉的摘要與備註。  
-2) 系列群組包含一些對群組中每個系列共用的屬性（「series group properties」）。ChartSeriesGroup 類別中的「series group properties」為讀寫。每個「series group properties」在 ChartSeries 類別中可有唯讀的投影。
+1) 請參閱 ChartSeriesGroupCollection 類別與 CombinableSeriesTypesGroup 列舉的概要與備註。 2) 系列群組包含一些對群組中每個系列通用的系列屬性（「系列群組屬性」）。ChartSeriesGroup 類別中的「系列群組屬性」為可讀寫。每個「系列群組屬性」在 ChartSeries 類別中可能有唯讀的投影。
 
-### 另請參閱
+### 另見
 
 * 介面 [IChartSeriesGroup](../ichartseriesgroup)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

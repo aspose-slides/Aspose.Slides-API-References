@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบล้อ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบล้อ.
 type: docs
 weight: 10470
 url: /th/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบล้อ
+เอฟเฟกต์การเปลี่ยนสไลด์แบบล้อ.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,19 +18,19 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | จำนวนสป็อกของ wheel transition. อ่าน/เขียน UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | จำนวนเส้นล้อของการเปลี่ยนล้อ. อ่าน/เขียน UInt32. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทใดประเภทหนึ่ง ที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่างสองอันของ TransitionValueBase เท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดที่กำหนด, เหมาะสำหรับใช้งานในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [TransitionValueBase](../transitionvaluebase)
-* อินเทอร์เฟซ [IWheelTransition](../iwheeltransition)
+* อินเทอร์เฟส [IWheelTransition](../iwheeltransition)
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * แอสเซมบลี [Aspose.Slides](../../)
 

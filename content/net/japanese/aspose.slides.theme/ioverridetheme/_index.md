@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: 上書きテーマを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: オーバーライドテーマを表します。
 type: docs
-weight: 11320
+weight: 11340
 url: /ja/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme インターフェイス
 
-上書きテーマを表します。
+オーバーライドテーマを表します。
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -16,27 +16,27 @@ public interface IOverrideTheme : ITheme
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | ベース ITheme インターフェイスを取得できます。読み取り専用 [`ITheme`](../itheme)。 |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True 値は、ColorScheme、FontScheme、FormatScheme が null であり、このテーマオブジェクトによるすべての上書きが無効になることを意味します。読み取り専用 Boolean。 |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | 基本 ITheme インターフェイスを取得できます。読み取り専用 [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | True 値は、ColorScheme、FontScheme、FormatScheme が null であり、このテーマ オブジェクトでのオーバーライドが無効であることを意味します。読み取り専用 Boolean. |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme、FontScheme、FormatScheme を null に設定し、このテーマオブジェクトによるすべての上書きを無効にします。 |
-| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme の ColorScheme を上書きするために、新しいオブジェクトで ColorScheme を初期化します。 |
-| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme の ColorScheme を上書きするために、新しいオブジェクトで ColorScheme を初期化します。 |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme の ColorScheme を上書きするために、新しいオブジェクトで ColorScheme を初期化します。そして、この新しいオブジェクトのデータを InheritedTheme の ColorScheme のデータで初期化します。 |
-| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme の FontScheme を上書きするために、新しいオブジェクトで FontScheme を初期化します。 |
-| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme の FontScheme を上書きするために、新しいオブジェクトで FontScheme を初期化します。 |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme の FontScheme を上書きするために、新しいオブジェクトで FontScheme を初期化します。そして、この新しいオブジェクトのデータを InheritedTheme の FontScheme のデータで初期化します。 |
-| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme の FormatScheme を上書きするために、新しいオブジェクトで FormatScheme を初期化します。 |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme の FormatScheme を上書きするために、新しいオブジェクトで FormatScheme を初期化します。 |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme の FormatScheme を上書きするために、新しいオブジェクトで FormatScheme を初期化します。そして、この新しいオブジェクトのデータを InheritedTheme の FormatScheme のデータで初期化します。 |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | ColorScheme、FontScheme、FormatScheme を null に設定し、このテーマ オブジェクトでのオーバーライドを無効にします。 |
+| [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。 |
+| [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。 |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | InheritedTheme の ColorScheme をオーバーライドするために、新しいオブジェクトで ColorScheme を初期化します。また、この新しいオブジェクトのデータを InheritedTheme の ColorScheme のデータで初期化します。 |
+| [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | InheritedTheme の FontScheme をオーバーライドするために、新しいオブジェクトで FontScheme を初期化します。 |
+| [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme の FontScheme をオーバーライドするために、新しいオブジェクトで FontScheme を初期化します。 |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | InheritedTheme の FontScheme をオーバーライドするために、新しいオブジェクトで FontScheme を初期化します。また、この新しいオブジェクトのデータを InheritedTheme の FontScheme のデータで初期化します。 |
+| [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | InheritedTheme の FormatScheme をオーバーライドするために、新しいオブジェクトで FormatScheme を初期化します。 |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme の FormatScheme をオーバーライドするために、新しいオブジェクトで FormatScheme を初期化します。 |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | InheritedTheme の FormatScheme をオーバーライドするために、新しいオブジェクトで FormatScheme を初期化します。また、この新しいオブジェクトのデータを InheritedTheme の FormatScheme のデータで初期化します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ITheme](../itheme)
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

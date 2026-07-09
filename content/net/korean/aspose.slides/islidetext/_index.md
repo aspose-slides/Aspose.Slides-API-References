@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드에서 추출된 텍스트를 나타냅니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드에서 추출한 텍스트를 나타냅니다.
 type: docs
 weight: 7100
 url: /ko/aspose.slides/islidetext/
 ---
 ## ISlideText 인터페이스
 
-슬라이드에서 추출된 텍스트를 나타냅니다
+슬라이드에서 추출된 텍스트를 나타냅니다.
 
 ```csharp
 public interface ISlideText
@@ -24,7 +24,7 @@ public interface ISlideText
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 이 슬라이드의 노트 페이지 모양에 대한 텍스트 |
 | [Text](../../aspose.slides/islidetext/text) { get; } | 슬라이드 모양에 대한 텍스트 |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

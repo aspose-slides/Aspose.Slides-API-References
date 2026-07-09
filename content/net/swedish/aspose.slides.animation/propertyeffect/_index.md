@@ -1,24 +1,24 @@
 ---
 title: PropertyEffect
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar beteendet för egenskapseffekt.
+description: Representerar egenskapseffektsbeteende.
 type: docs
-weight: 730
+weight: 750
 url: /sv/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect klass
 
-Representerar beteendet för egenskapseffekt.
+Representerar egenskapseffektsbeteendet.
 
 ```csharp
 public class PropertyEffect : Behavior, IPropertyEffect
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [PropertyEffect](propertyeffect)() | Standardkonstruktorn. |
+| [PropertyEffect](propertyeffect)() | Standardkonstruktören. |
 
 ## Egenskaper
 
@@ -26,12 +26,12 @@ public class PropertyEffect : Behavior, IPropertyEffect
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar huruvida animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representerar huruvida det aktuella animationsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Anger ett relativt offsetvärde för animationen i förhållande till dess position före animationens start. Läs/skriv String. |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | Anger ett relativt förskjutningsvärde för animationen i förhållande till dess position före start av animationen. Läs/skriv String. |
 | [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | Anger interpolationsläget för animationen. Läs/skriv [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | Anger startvärdet för animationen. Läs/skriv String. |
-| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Anger punkterna i animationen. Läs/skriv [`IPointCollection`](../ipointcollection). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteendet. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar timing-egenskaper för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | Anger punkterna för animationen. Läs/skriv [`IPointCollection`](../ipointcollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteendet. Endast läsning [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar tidsinställningarna för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
 | [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | Anger slutvärdet för animationen. Läs/skriv String. |
 | [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | Anger typen av ett egenskapsvärde. Läs/skriv [`PropertyValueType`](../propertyvaluetype). |
 

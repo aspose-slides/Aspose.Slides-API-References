@@ -1,9 +1,9 @@
 ---
 title: XpsOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを XPS 形式で保存する方法を制御するオプションを提供します。
+description: プレゼンテーションが XPS 形式で保存される方法を制御するオプションを提供します。
 type: docs
-weight: 4710
+weight: 4730
 url: /ja/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions クラス
@@ -14,28 +14,28 @@ url: /ja/aspose.slides.export/xpsoptions/
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [XpsOptions](xpsoptions)() | デフォルトコンストラクター。 |
+| [XpsOptions](xpsoptions)() | デフォルトコンストラクタ。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒いフレームを描画するかどうかを指定します。読み書き可能な Boolean。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進行状況のパーセンテージ更新を受け取るコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | プレゼンテーションで使用されるすべてのメタファイルを PNG 画像に変換するかどうかを指定します。読み書き可能な Boolean。 |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 保存時に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用するフォントを取得または設定します。読み書き可能 String。 |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒い枠を描画するかどうかを指定します。読み書き可能 Boolean。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。読み書き可能 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存進行状況のパーセンテージ更新を受け取るコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback)をご参照ください。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | プレゼンテーションで使用されているすべてのメタファイルを PNG 画像に変換するかどうかを指定します。読み書き可能 Boolean。 |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false`。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 保存時に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能 Boolean。デフォルト値は **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 
-次の例は、デフォルト設定を使用してプレゼンテーションを XPS に変換する方法を示します。
+以下の例は、デフォルト設定を使用してプレゼンテーションを XPS に変換する方法を示します。
 
 ```csharp
 [C#]
@@ -47,7 +47,7 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 }
 ```
 
-次の例は、カスタム設定を使用してプレゼンテーションを XPS に変換する方法を示します。
+以下の例は、カスタム設定を使用してプレゼンテーションを XPS に変換する方法を示します。
 
 ```csharp
 [C#]

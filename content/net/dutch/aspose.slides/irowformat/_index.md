@@ -1,14 +1,14 @@
 ---
 title: IRowFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het formaat van een tabelrij weer.
+description: Stelt het formaat van een tabelrij voor.
 type: docs
 weight: 6870
 url: /nl/aspose.slides/irowformat/
 ---
 ## IRowFormat interface
 
-Geeft het formaat van een tabelrij weer.
+Stelt het formaat van een tabelrij voor.
 
 ```csharp
 public interface IRowFormat
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Haalt de effectieve opmaak-eigenschappen van een tabelrij op met overerving en toegepaste tabelstijlen. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Haalt de effectieve opmaak eigenschappen van een tabelrij op, met overerving en toegepaste tabelstijlen. |
 
 ### Zie ook
 

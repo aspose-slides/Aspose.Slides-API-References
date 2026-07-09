@@ -1,12 +1,12 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: COM arayüzü için System.Drawing.Image sarmalayıcısı.
 type: docs
-weight: 6150
+weight: 6170
 url: /tr/aspose.slides/iimagewrapper/
 ---
-## IImageWrapper arayüzü
+## IImageWrapper arayüz
 
 COM arayüzü için System.Drawing.Image sarmalayıcısı.
 
@@ -18,17 +18,17 @@ public interface IImageWrapper : IDisposable
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | IDisposable arayüzünü döndürür. Salt okunur IDisposable. |
-| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Görüntüyü alır. Salt okunur Image. |
-| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image'ın piksel cinsinden genişliğini ve yüksekliğini alır. Salt okunur [`Size`](./size). |
+| [AsIDisposable](../../aspose.slides/iimagewrapper/asidisposable) { get; } | IDisposable arayüzünü döndürür. Yalnızca okunur IDisposable. |
+| [ImageSource](../../aspose.slides/iimagewrapper/imagesource) { get; } | Image'i alır. Yalnızca okunur Image. |
+| [Size](../../aspose.slides/iimagewrapper/size) { get; } | Image'in piksel cinsinden genişliğini ve yüksekliğini alır. Yalnızca okunur [`Size`](./size). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Image'ı belirtilen dosyaya kaydeder |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Image'ı belirtilen akışa belirtilen formatta kaydeder. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Image'ı belirtilen dosyaya belirtilen formatta kaydeder. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | Image'i belirtilen dosyaya kaydeder |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | Image'i belirtilen akışa belirtilen formatta kaydeder. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | Image'i belirtilen dosyaya belirtilen formatta kaydeder. |
 
 ### Ayrıca Bakınız
 

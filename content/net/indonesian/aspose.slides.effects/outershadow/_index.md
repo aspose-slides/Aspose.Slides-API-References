@@ -1,12 +1,12 @@
 ---
 title: OuterShadow
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek Outer Shadow.
 type: docs
-weight: 3600
+weight: 3620
 url: /id/aspose.slides.effects/outershadow/
 ---
-## OuterShadow kelas
+## Kelas OuterShadow
 
 Mewakili efek Outer Shadow.
 
@@ -18,16 +18,16 @@ public sealed class OuterShadow : IOuterShadow
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Radius blur, dalam poin. Nilai default – 0 pt. Baca/tulis Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | Radius keburaman, dalam point. Nilai default – 0 pt. Baca/tulis Double. |
 | [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | Arah bayangan, dalam derajat. Nilai default – 0 ° (kiri-ke-kanan). Baca/tulis Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Jarak bayangan dari objek, dalam poin. Nilai default – 0 pt. Baca/tulis Double. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | Jarak bayangan dari objek, dalam point. Nilai default – 0 pt. Baca/tulis Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | Perataan persegi panjang. Nilai default – Bottom. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | Menunjukkan apakah bayangan berputar bersama bentuk. Nilai default – true. Baca/tulis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Faktor skala horizontal, dalam persen ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Faktor skala vertikal, dalam persen ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | Faktor skala horizontal, dalam persen dari ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | Faktor skala vertikal, dalam persen dari ukuran asli. Skala negatif menyebabkan pembalikan. Nilai default – 100 %. Baca/tulis Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | Warna bayangan. Nilai default – hitam otomatis (tergantung tema). Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Sudut skew horizontal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Sudut skew vertikal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | Sudut miring horizontal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | Sudut miring vertikal, dalam derajat. Nilai default – 0 °. Baca/tulis Double. |
 
 ## Metode
 

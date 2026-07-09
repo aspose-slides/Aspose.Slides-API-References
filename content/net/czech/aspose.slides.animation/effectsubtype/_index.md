@@ -1,12 +1,12 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes pro .NET referenci API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje podtypy animačního efektu.
 type: docs
-weight: 320
+weight: 340
 url: /cs/aspose.slides.animation/effectsubtype/
 ---
-## Enumerace EffectSubtype
+## Výčtový typ EffectSubtype
 
 Reprezentuje podtypy animačního efektu.
 

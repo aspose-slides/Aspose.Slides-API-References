@@ -6,39 +6,39 @@ type: docs
 weight: 990
 url: /hi/aspose.slides/baseslide/
 ---
-## BaseSlide क्लास
+## BaseSlide वर्ग
 
-सभी स्लाइड प्रकारों के लिए सामान्य डेटा दर्शाता है।
+सभी स्लाइड प्रकारों के लिए सामान्य डेटा का प्रतिनिधित्व करता है।
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। केवल-पढ़ने योग्य [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | स्लाइड का कस्टम डेटा लौटाता है। केवल-पढ़ने योग्य [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक तक आसान पहुंच प्रदान करता है। केवल-पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | स्लाइड का नाम लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | स्लाइड की आकृतियों को लौटाता है। केवल-पढ़ने योग्य [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | मास्टर स्लाइड पर आकृतियों को स्लाइड्स पर दिखाया जाना चाहिए या नहीं, निर्दिष्ट करता है। मास्टर स्लाइड के लिए यह गुण हमेशा `false` लौटाता है। पढ़ने/लिखने योग्य Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | स्लाइड का ID लौटाता है। केवल-पढ़ने योग्य UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Transition वस्तु को लौटाता है जिसमें यह जानकारी होती है कि निर्दिष्ट स्लाइड स्लाइड शो के दौरान कैसे आगे बढ़ती है। केवल-पढ़ने योग्य [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | एनिमेशन टाइमलाइन ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। केवल-पढ़ने योग्य [`IBackground`](../ibackground)। |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IControlCollection`](../icontrolcollection)। |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | स्लाइड का कस्टम डेटा लौटाता है। केवल-पढ़ने योग्य [`ICustomData`](../icustomdata)। |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक्स तक आसान पहुंच प्रदान करता है। केवल-पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries)। |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | स्लाइड का नाम लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation)। |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | स्लाइड के शेप्स लौटाता है। केवल-पढ़ने योग्य [`IShapeCollection`](../ishapecollection)। |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | निर्धारित करता है कि मास्टर स्लाइड पर शैप्स स्लाइड्स पर दिखाए जाने चाहिए या नहीं। मास्टर स्लाइड के लिए यह प्रॉपर्टी हमेशा `false` लौटती है। पढ़ने/लिखने योग्य Boolean। |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | स्लाइड का ID लौटाता है। केवल-पढ़ने योग्य UInt32। |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | स्लाइड शो के दौरान निर्दिष्ट स्लाइड के आगे बढ़ने के बारे में जानकारी वाले Transition ऑब्जेक्ट को लौटाता है। केवल-पढ़ने योग्य [`ISlideShowTransition`](../islideshowtransition)। |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | एनिमेशन टाइमलाइन ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IAnimationTimeLine`](../ianimationtimeline)। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | इस स्लाइड के लिए प्रभावी थीम लौटाता है। |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | यह निर्धारित करता है कि दो IBaseSlide इंस्टेंस समान हैं या नहीं। लौटाने वाला मान स्लाइड की संरचना और स्थिर सामग्री के आधार पर गणना किया जाता है। दो स्लाइड समान मानी जाती हैं यदि सभी आकार, शैलियां, पाठ, एनीमेशन और अन्य सेटिंग्स आदि समान हों। तुलना में विशिष्ट पहचानकर्ता मानों को ध्यान में नहीं रखा जाता, जैसे SlideId और गतिशील सामग्री, जैसे Date Placeholder में वर्तमान तिथि मान। |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक टेक्स्ट वाले आकार की पहली घटना खोजता है। |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | सभी स्वीकार्य आकारों में सभी पैराग्राफ़ में समान स्वरूपण वाले रन को जोड़ता है। |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | सभी स्वीकार्य आकारों में सभी पैराग्राफ़ में समान स्वरूपण वाले रन को जोड़ता है। |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | निर्धारित करता है कि दो IBaseSlide इंस्टेंस समान हैं या नहीं। लौटाया गया मान स्लाइड की संरचना और स्थिर सामग्री के आधार पर गणना किया जाता है। दो स्लाइड समान मानी जाती हैं यदि सभी शैप्स, शैलियाँ, पाठ, एनिमेशन और अन्य सेटिंग्स आदि समान हों। तुलना अद्वितीय पहचानकर्ता मानों जैसे SlideId तथा गतिशील सामग्री जैसे Date Placeholder में वर्तमान तिथि मान को ध्यान में नहीं रखती। |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक टेक्स्ट वाले पहले शैप की घटना खोजता है। |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | सभी स्वीकार्य शैप्स में सभी पैराग्राफ़ के समान फ़ॉर्मेटिंग वाले रन को मिलाता है। |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | सभी स्वीकार्य शैप्स में सभी पैराग्राफ़ के समान फ़ॉर्मेटिंग वाले रन को मिलाता है। |
 
 ### देखें भी
 

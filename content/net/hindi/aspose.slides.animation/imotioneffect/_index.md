@@ -1,14 +1,14 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रभाव के गति प्रभाव व्यवहार का प्रतिनिधित्व करता है।
+description: प्रभाव के मोशन इफ़ेक्ट व्यवहार का प्रतिनिधित्व करता है।
 type: docs
 weight: 520
 url: /hi/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect इंटरफ़ेस
 
-गति प्रभाव के व्यवहार का प्रतिनिधित्व करता है।
+प्रभाव के मूवमेंट इफ़ेक्ट व्यवहार का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -18,17 +18,17 @@ public interface IMotionEffect : IBehavior
 
 | नाम | विवरण |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | गति पथ के सापेक्ष कोण का विवरण देता है। Read/write Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। Read-only [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | एनीमेशन के लिए सापेक्ष ऑफ़सेट मान का विवरण देता है (प्रतिशत में)। Read/write PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | एनीमेशन को शुरू करने के लिए x/y निर्देशांक को निर्दिष्ट करता है (प्रतिशत में)। Read/write PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | गति पथ की उत्पत्ति को निर्दिष्ट करता है, जैसे स्लाइड की लेआउट या पैरेंट। Read/write [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | एनीमेशन गति के लिए अनुसरण किए जाने वाले पाथ प्रिमिटिव को निर्देशांक के साथ निर्दिष्ट करता है। Read/write [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | जब आकृति को स्थानांतरित किया जाता है तो गति पथ कैसे चलता है, इसे निर्दिष्ट करता है। Read/write [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X कोण द्वारा गति पथ को घुमाने के लिए उपयोग किए जाने वाले घूर्णन के केंद्र का विवरण देता है। Read/write PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | एनीमेशन गति प्रभाव के लिए लक्ष्य स्थान को निर्दिष्ट करता है (प्रतिशत में)। Read/write PointF. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | मूवमेंट पथ के सापेक्ष कोण का वर्णन करता है। पढ़ें/लिखें Single. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | एनिमेशन के लिए सापेक्ष ऑफसेट मान का वर्णन करता है (प्रतिशत में)। पढ़ें/लिखें PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | एनिमेशन शुरू करने के लिए x/y निर्देशांक निर्दिष्ट करता है (प्रतिशत में)। पढ़ें/लिखें PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | स्लाइड के लेआउट या माता-पिता जैसे चीज़ों के सापेक्ष मूवमेंट पथ की मूल स्थिति क्या है, यह निर्दिष्ट करता है। पढ़ें/लिखें [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | एनिमेशन मोशन के लिए निर्देशांक द्वारा अनुसरित पाथ प्रिमिटिव को निर्दिष्ट करता है। पढ़ें/लिखें [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | जब आकार स्थानांतरित होता है तो मूवमेंट पथ कैसे चलता है, यह निर्दिष्ट करता है। पढ़ें/लिखें [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X कोण से एक मूवमेंट पथ को घुमाने के लिए उपयोग किए जाने वाले रोटेशन के केंद्र का वर्णन करता है। पढ़ें/लिखें PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | एनिमेशन मोशन इफ़ेक्ट के लिए लक्ष्य स्थान (प्रतिशत में) को निर्दिष्ट करता है। पढ़ें/लिखें PointF. |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IBehavior](../ibehavior)
 * नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)

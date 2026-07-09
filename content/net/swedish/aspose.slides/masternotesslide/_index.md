@@ -3,7 +3,7 @@ title: MasterNotesSlide
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar masterbild för anteckningar.
 type: docs
-weight: 7990
+weight: 8010
 url: /sv/aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide klass
@@ -21,34 +21,34 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | Returnerar bildens bakgrund. Skrivskyddad [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Returnerar samlingen av ActiveX-kontroller på en bild. Skrivskyddad [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Returnerar bildens anpassade data. Skrivskyddad [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Returnerar en samling ritningsguider för master-anteckningsbilden. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för master-anteckningsbilden. Skrivskyddad [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Ger enkel åtkomst till inbäddade hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Returnerar en samling ritningsguider för master notes-bilden. Skrivskyddad [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Returnerar HeaderFooter-hanteraren för master notes-bilden. Skrivskyddad [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till innehållande hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Returnerar eller anger namnet på en bild. Läs/skriv String. |
-| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Returnerar stil för en anteckningstext. Skrivskyddad [`ITextStyle`](../itextstyle). |
+| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Returnerar stilen för en notes-text. Skrivskyddad [`ITextStyle`](../itextstyle). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Returnerar IPresentation-gränssnittet. Skrivskyddad [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Returnerar formerna på en bild. Skrivskyddad [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Anger om former på master-bilden ska visas på bilder eller inte. För själva master-bilden returnerar denna egenskap alltid `false`. Läs/skriv Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Returnerar ID för en bild. Skrivskyddad UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Returnerar Transition-objektet som innehåller information om hur den angivna bilden avancerar under ett bildspel. Skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Anger om former på master-bilden ska visas på bilder eller inte. För master-bilden själv returnerar denna egenskap alltid `false`. Läs/skriv Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Returnerar ID:t för en bild. Skrivskyddad UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Returnerar Transition-objektet som innehåller information om hur den specificerade bilden avancerar under en bildspelsvisning. Skrivskyddad [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | Returnerar temahanteraren. Skrivskyddad [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Returnerar animerings-tidslinjeobjektet. Skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Returnerar animations-tidslinjeobjektet. Skrivskyddad [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Returnerar ett effektivt tema för denna bild. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestämmer huruvida de två IBaseSlide-instanserna är lika. Returnerat värde beräknas baserat på bildens struktur och statiska innehåll. Två bilder är lika om alla former, stilar, texter, animationer och andra inställningar osv. är lika. Jämförelsen tar inte hänsyn till unika identifieringsvärden, t.ex. SlideId, och dynamiskt innehåll, t.ex. aktuellt datumvärde i datumplatshållaren. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestämmer huruvida de två IBaseSlide-instanserna är lika. Returvärdet beräknas baserat på bildens struktur och statiska innehåll. Två bilder är lika om alla former, stilar, texter, animation och andra inställningar etc. är lika. Jämförelsen tar inte hänsyn till unika identifierarvärden, t.ex. SlideId och dynamiskt innehåll, t.ex. aktuellt datumvärde i Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Hittar första förekomsten av en form med den angivna alternativa texten. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Sammanfogar körningar med samma formatering i alla stycken i alla godkända former. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Sammanfogar körningar med samma formatering i alla stycken i alla godkända former. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Sammanfogar löp med samma formatering i alla stycken i alla godkända former. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Sammanfogar löp med samma formatering i alla stycken i alla godkända former. |
 
 ### Se även
 
 * klass [BaseSlide](../baseslide)
-* gränssnitt [IMasterNotesSlide](../imasternotesslide)
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* interface [IMasterNotesSlide](../imasternotesslide)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorFactory
 second_title: Aspose.Sildes for .NET API Referansı
-description: IMathNaryOperator oluşturmayı sağlar
+description: IMathNaryOperator oluşturmanıza izin verir
 type: docs
-weight: 8860
+weight: 8880
 url: /tr/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
-## MathNaryOperatorFactory sınıfı
+## MathNaryOperatorFactory sınıf
 
-IMathNaryOperator oluşturmayı sağlar
+IMathNaryOperator oluşturmanıza izin verir
 
 ```csharp
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
@@ -20,7 +20,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 | --- | --- |
 | [MathNaryOperatorFactory](mathnaryoperatorfactory)() | Varsayılan yapıcı. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 COM uyumluluğu için
 
-### Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

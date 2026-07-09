@@ -1,15 +1,14 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt die Eigenschaften der normalen Ansicht dar. Die normale Ansicht besteht aus drei Inhaltsbereichen der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt die Normalansichtseigenschaften dar. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
 type: docs
-weight: 8840
+weight: 9110
 url: /de/aspose.slides/normalviewproperties/
 ---
+## NormalViewProperties Klasse
 
-## NormalViewProperties-Klasse
-
-Stellt die Eigenschaften der normalen Ansicht dar. Die normale Ansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
+Stellt die Normalansichts-Eigenschaften dar. Die Normalansicht besteht aus drei Inhaltsbereichen: der Folie selbst, einem seitlichen Inhaltsbereich und einem unteren Inhaltsbereich.
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -19,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | Name | Beschreibung |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie vom Inhaltsbereich unterhalb der Folie. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Gibt an, ob der Benutzer eine gesamte Fensteransicht des einzelnen Inhaltsbereichs anstelle der standardmäßigen normalen Ansicht mit drei Inhaltsbereichen bevorzugt. Wenn aktiviert, kann die Anwendung wählen, einen der Inhaltsbereiche im gesamten Fenster anzuzeigen. Lese-/schreibbarer Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Dieses Element gibt die Größe des seitlichen Inhaltsbereichs der normalen Ansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Dieses Element gibt die Größe des oberen Folienbereichs der normalen Ansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur lesbar [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Gibt an, ob die Anwendung Symbole anzeigen soll, wenn sie Gliederungsinhalte in einem der Inhaltsbereiche des normalen Ansichtsmodus anzeigt. Lese-/schreibbarer Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Gibt an, ob der vertikale Trennbereich in einen minimierten Zustand einrasten soll, wenn der Seitenbereich ausreichend klein ist. Lese-/schreibbarer Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Gibt den Zustand an, in dem die vertikale Trennleiste angezeigt werden soll. Eine vertikale Trennleiste trennt die Folie vom seitlichen Inhaltsbereich. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Gibt den Zustand an, in dem die horizontale Trennleiste angezeigt werden soll. Eine horizontale Trennleiste trennt die Folie von dem Inhaltsbereich unterhalb der Folie. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Gibt an, ob der Benutzer bevorzugt, einen einzigen Vollfenster-Inhaltsbereich anstelle der Standard-Normalansicht mit drei Inhaltsbereichen zu sehen. Wenn aktiviert, kann die Anwendung wählen, einen der Inhaltsbereiche im gesamten Fenster anzuzeigen. Lese/Schreib Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Dieses Element gibt die Größe des seitlichen Inhaltsbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur Lese [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Dieses Element gibt die Größe des oberen Folienbereichs der Normalansicht an, wenn der Bereich eine variable wiederhergestellte Größe hat (weder minimiert noch maximiert). Nur Lese [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Gibt an, ob die Anwendung Symbole anzeigen soll, wenn Gliederungsinhalt in einem der Inhaltsbereiche der Normalansichts-Modus dargestellt wird. Lese/Schreib Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Gibt an, ob der vertikale Trennbalken beim ausreichenden Verkleinern des seitlichen Bereichs in den minimierten Zustand einrasten soll. Lese/Schreib Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Gibt den Zustand an, in dem die vertikale Trennleiste angezeigt werden soll. Eine vertikale Trennleiste trennt die Folie vom seitlichen Inhaltsbereich. |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man die Eigenschaften ViewProperties.NormalViewProperties einer PowerPoint-Präsentation konfiguriert.
+Das folgende Beispiel zeigt, wie die Eigenschaften ViewProperties.NormalViewProperties einer PowerPoint-Präsentation konfiguriert werden.
 
 ```csharp
 [C#]
-//Instanziieren eines Präsentationsobjekts, das eine Präsentationsdatei darstellt
+//Instanziiere ein Präsentationsobjekt, das eine Präsentationsdatei darstellt
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -45,10 +44,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* interface [INormalViewProperties](../inormalviewproperties)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* Schnittstelle [INormalViewProperties](../inormalviewproperties)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

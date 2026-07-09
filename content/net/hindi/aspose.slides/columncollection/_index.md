@@ -1,36 +1,36 @@
 ---
 title: ColumnCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक तालिका में कॉलमों के संग्रह को दर्शाता है।
+description: एक तालिका में कॉलमों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 2600
 url: /hi/aspose.slides/columncollection/
 ---
 ## ColumnCollection क्लास
 
-एक तालिका में कॉलमों का संग्रह दर्शाता है।
+एक तालिका में कॉलमों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
 | [Count](../../aspose.slides/columncollection/count) { get; } | संग्रह में कॉलमों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | एक मान लौटाता है जो यह दर्शाता है कि संग्रह तक पहुंच समक्रमित (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर कॉलम लौटाता है। केवल-पढ़ने योग्य [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | समक्रमण रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | संग्रह तक पहुँच के समकालिक (थ्रेड-सेफ़) होने को दर्शाने वाला मान लौटाता है। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर कॉलम लौटाता है। केवल-पढ़ने योग्य [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | समकालिक मूल (सिंक व्युत्पत्ति) लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | निर्दिष्ट टेम्प्लेट पंक्ति की एक कॉपी बनाता है और इसे तालिका के नीचे सम्मिलित करता है। |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | संग्रह से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | निर्दिष्ट टेम्प्लेट कॉलम की कॉपी बनाता है और इसे तालिका में निर्दिष्ट स्थान पर सम्मिलित करता है। |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | निर्दिष्ट टेम्पलेट पंक्ति की एक कॉपी बनाता है और उसे तालिका के नीचे सम्मिलित करता है। |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | संग्रह के माध्यम से इटरेट करने वाला एन्यूमेरेटर लौटाता है। |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | निर्दिष्ट टेम्पलेट कॉलम की एक कॉपी बनाता है और उसे तालिका में निर्दिष्ट स्थान पर सम्मिलित करता है। |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | तालिका से निर्दिष्ट स्थान पर कॉलम को हटाता है। |
 
 ### संबंधित देखें

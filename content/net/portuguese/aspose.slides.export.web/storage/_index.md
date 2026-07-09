@@ -1,9 +1,9 @@
 ---
 title: Storage
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um armazenamento temporário de dados para WebDocument./webdocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /pt/aspose.slides.export.web/storage/
 ---
 ## Classe de armazenamento
@@ -28,7 +28,7 @@ public sealed class Storage
 | [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Obtém os dados do armazenamento. |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Insere o valor no armazenamento. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * assembly [Aspose.Slides](../../)

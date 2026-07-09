@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
 second_title: Aspose.Sildes para .NET Referência da API
-description: Efeito de transição de slide na direção esquerda-direita.
+description: Efeito de transição de slide de direção esquerda-direita.
 type: docs
-weight: 10220
+weight: 10240
 url: /pt/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
-## LeftRightDirectionTransition class
+## LeftRightDirectionTransition classe
 
-Efeito de transição de slide na direção esquerda-direita.
+Efeito de transição de slide de direção esquerda-direita.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,16 +18,16 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Nome | Descrição |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Atua como uma função hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função hash para um tipo específico, adequado para uso em algoritmos de hash e estruturas de dados como uma tabela hash. |
 
-### Veja Também
+### Veja também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [ILeftRightDirectionTransition](../ileftrightdirectiontransition)

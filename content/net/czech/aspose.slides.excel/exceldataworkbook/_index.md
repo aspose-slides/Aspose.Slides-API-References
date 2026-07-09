@@ -1,9 +1,9 @@
 ---
 title: ExcelDataWorkbook
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET – reference API
 description: Představuje sešit, který poskytuje přístup k datům Excel pro obecné použití.
 type: docs
-weight: 3670
+weight: 3690
 url: /cs/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook třída
@@ -25,13 +25,13 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | Název | Popis |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Načte buňku ze zadaného pracovního listu pomocí jeho indexu a názvu buňky ve stylu Excel (např. "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Načte buňku ze zadaného pracovního listu pomocí názvu buňky ve stylu Excel (např. "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Načte buňku ze zadaného pracovního listu pomocí jeho indexu a souřadnic buňky. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Načte buňku ze zadaného pracovního listu pomocí jeho názvu a souřadnic buňky. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Načte buňku ze zadaného listu pomocí jejího indexu a názvu buňky ve stylu Excel (např. „B2“). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Načte buňku ze zadaného listu pomocí názvu buňky ve stylu Excel (např. „B2“). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Načte buňku ze zadaného listu pomocí jejího indexu a souřadnic buňky. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Načte buňku ze zadaného listu pomocí jejího názvu a souřadnic buňky. |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Načte kolekci buněk ze sešitu, které odpovídají zadanému vzorci. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Načte slovník obsahující indexy a názvy všech grafů v zadaném pracovním listu Excel sešitu. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Načte názvy všech pracovních listů obsažených v Excel sešitu. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Načte slovník obsahující indexy a názvy všech grafů v zadaném listu Excel sešitu. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Načte názvy všech listů obsažených v Excel sešitu. |
 
 ### Viz také
 

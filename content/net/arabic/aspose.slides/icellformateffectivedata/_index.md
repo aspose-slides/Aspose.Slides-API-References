@@ -1,6 +1,6 @@
 ---
 title: ICellFormatEffectiveData
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق خلايا الجدول الفعّالة.
 type: docs
 weight: 5480
@@ -18,14 +18,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | يسمح بالحصول على الواجهة الأساسية IBaseTableFormatEffectiveData. للقراءة فقط [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | يحصل على شفافية لون التعبئة. قراءة Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | يسمح بالحصول على واجهة IBaseTableFormatEffectiveData الأساسية. للقراءة فقط [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | يحصل على شفافية لون التعبئة. قراءة مفردة. |
 
 ### ملاحظات
 
-يتم استخدام هذه الواجهة مع واجهة [`ICellFormat`](../icellformat) لإرجاع قيم تنسيق فعّالة مع تطبيق الوراثة وأنماط الجدول.
+يتم استخدام هذه الواجهة مع واجهة [`ICellFormat`](../icellformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة وأنماط الجدول.
 
-### انظر أيضًا
+### انظر أيضا
 
 * واجهة [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * نطاق [Aspose.Slides](../../aspose.slides)

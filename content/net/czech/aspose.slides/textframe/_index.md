@@ -3,12 +3,12 @@ title: TextFrame
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje TextFrame.
 type: docs
-weight: 10930
+weight: 10950
 url: /cs/aspose.slides/textframe/
 ---
 ## TextFrame třída
 
-Represents a TextFrame.
+Představuje TextFrame.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -18,26 +18,26 @@ public sealed class TextFrame : ITextFrame
 
 | Název | Popis |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Returns the list of all paragraphs in a frame. Pouze pro čtení [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Returns the parent cell or null if the parent object does not implement the ICell interface. Pouze pro čtení [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Returns the parent shape or null if the parent object does not implement the IShape interface Pouze pro čtení [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Returns the parent presentation of a TextFrame. Pouze pro čtení [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Returns the parent slide of a TextFrame. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | Gets or sets the plain text for a TextFrame. Čtení/Zápis String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Returns the formatting object for this TextFrame object. Pouze pro čtení [`ITextFrameFormat`](../itextframeformat). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Poskytuje jednoduchý přístup k obsaženým hyperodkazům. Pouze ke čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Vrací seznam všech odstavců v rámečku. Pouze ke čtení [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Vrací nadřazenou buňku nebo null, pokud nadřazený objekt neimplementuje rozhraní ICell. Pouze ke čtení [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Vrací nadřazený tvar nebo null, pokud nadřazený objekt neimplementuje rozhraní IShape. Pouze ke čtení [`IShape`](../ishape). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Vrací nadřazenou prezentaci TextFrame. Pouze ke čtení [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Vrací nadřazený snímek TextFrame. Pouze ke čtení [`IBaseSlide`](../ibaseslide). |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | Získá nebo nastaví prostý text pro TextFrame. Čtení/zápis String. |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Vrací objekt formátování pro tento objekt TextFrame. Pouze ke čtení [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Highlights all matches of the regular expression with the specified color. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Highlights all matches of the sample text with the specified color. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Highlights all matches of the sample text with the specified color. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs. |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Replaces all matches of regular expression with specified string. |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Replaces all occurrences of the specified text with another specified text. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Splits the text content of the [`ITextFrame`](../itextframe) into an array of strings, where each element corresponds to a separate text column within the frame. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Zvýrazní všechny shody ukázkového textu zadanou barvou. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Zvýrazní všechny shody ukázkového textu zadanou barvou. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Spojí úseky se stejným formátováním ve všech odstavcích. |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Nahradí všechny shody regulárního výrazu zadaným řetězcem. |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Nahradí všechny výskyty zadaného textu jiným zadaným textem. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Rozdělí textový obsah [`ITextFrame`](../itextframe) na pole řetězců, kde každý prvek odpovídá samostatnému textovému sloupci v rámečku. |
 
 ### Viz také
 

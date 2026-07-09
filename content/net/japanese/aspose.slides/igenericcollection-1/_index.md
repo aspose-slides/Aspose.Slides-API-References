@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 補助的なジェネリック コレクション インターフェイス。
+description: 補助的なジェネリックコレクションインターフェイスです。
 type: docs
-weight: 5940
+weight: 5960
 url: /ja/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; インターフェイス
+## IGenericCollection<T> インターフェイス
 
-補助的なジェネリック コレクション インターフェイス。
+補助的なジェネリックコレクションインターフェイスです。
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -22,8 +22,8 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Returns ICollection interface. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Returns IEnumerable interface. Read-only IEnumerable. |
+| [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | ICollection インターフェイスを返します。 |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
 
 ### 参照
 

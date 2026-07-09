@@ -1,15 +1,14 @@
 ---
 title: IMathAccent
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक बेस और संयोजक विराम चिह्न से बना एक्सेंट फ़ंक्शन निर्धारित करता है। उदाहरण: ́
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक बेस और एक संयोजी डायाक्रिटिकल मार्क से बना एक्सेंट फ़ंक्शन निर्दिष्ट करता है उदाहरण ́
 type: docs
 weight: 8080
 url: /hi/aspose.slides.mathtext/imathaccent/
 ---
-
 ## IMathAccent इंटरफ़ेस
 
-बेस और संयोजक विराम चिह्न से बना एक्सेंट फ़ंक्शन निर्दिष्ट करता है उदाहरण: 𝑎́
+एक्सेंट फ़ंक्शन को निर्दिष्ट करता है, जो एक बेस और एक संयोजी डायाक्रिटिकल मार्क से बना है उदाहरण: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -19,9 +18,9 @@ public interface IMathAccent : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस को प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | वह तर्क जिससे एक्सेंट लागू किया गया |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | एक्सेंट अक्षर मान (U+0300–U+036F) या (U+20D0–U+20EF) सीमा के भीतर होना चाहिए डिफ़ॉल्ट मान: कॉम्बाइनिंग सर्कमफ्लेक्स एक्सेंट (U+0302) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | एक्सेंट लागू किए गए तर्क |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | एक्सेंट कैरेक्टर मान (U+0300–U+036F) या (U+20D0–U+20EF) की सीमा में होना चाहिए। डिफ़ॉल्ट मान: Combining Circumflex Accent (U+0302) |
 
 ### उदाहरण
 
@@ -32,7 +31,7 @@ public interface IMathAccent : IMathElement
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

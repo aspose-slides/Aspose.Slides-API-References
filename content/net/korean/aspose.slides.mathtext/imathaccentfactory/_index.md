@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory 인터페이스
 
-수학 악센트를 생성할 수 있습니다
+Allows to create a math accent
 
 ```csharp
 public interface IMathAccentFactory

@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het superscriptobject dat bestaat uit een basis en een verkleind superscript dat boven en rechts wordt geplaatst
+description: Specificeert het superscriptobject dat bestaat uit een basis en een verkleinde superscript die boven en rechts geplaatst is
 type: docs
 weight: 8490
 url: /nl/aspose.slides.mathtext/imathsuperscriptelement/
 ---
 ## IMathSuperscriptElement interface
 
-Specifieert het superscriptobject, dat bestaat uit een basis en een verkleind superscript dat boven en rechts wordt geplaatst
+Specificeert het superscriptobject, dat bestaat uit een basis en een verkleinde superscript die boven en rechts geplaatst is
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -16,9 +16,9 @@ public interface IMathSuperscriptElement : IMathElement
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Staat toe om base IMathElement interface [`IMathElement`](../imathelement) op te halen |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsuperscriptelement/asimathelement) { get; } | Stelt toe om de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsuperscriptelement/base) { get; } | Basisargument |
 | [Superscript](../../aspose.slides.mathtext/imathsuperscriptelement/superscript) { get; } | Superscript |
 

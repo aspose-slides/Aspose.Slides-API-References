@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir taban ve isteğe bağlı bir derece içeren radikal fonksiyonunu belirtir. Radikal nesne örneği .
+second_title: Aspose.Slides için .NET API Referansı
+description: Bir temel ve isteğe bağlı bir derece içeren kök işlevini belirtir. Kök nesnesine bir örnek .
 type: docs
-weight: 8410
+weight: 8430
 url: /tr/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical arayüz
 
-Radikal fonksiyonu tanımlar; bir taban ve isteğe bağlı bir derece içerir. Radikal nesne örneği √𝑥’dir.
+Kök fonksiyonunu belirtir; bir taban ve isteğe bağlı bir derece içerir. Kök nesnesine bir örnek √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Base IMathElement arayüzünü almayı sağlar [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Temel IMathElement arabirimini almayı sağlar [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Temel argüman |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Derece argümanı |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | True olduğunda, derece gösterilmez, √𝑥 gibi |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Dereceyi gizle. true olduğunda derece gösterilmez, √𝑥 gibi |
 
 ### Örnekler
 

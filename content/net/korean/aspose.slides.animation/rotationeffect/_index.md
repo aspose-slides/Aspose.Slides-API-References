@@ -24,13 +24,13 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | 이름 | 설명 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | 애니메이션에 대한 상대 오프셋 값을 설명합니다. 읽기/쓰기 Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지 여부를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지 여부를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | 애니메이션의 상대 오프셋 값을 설명합니다. 읽기/쓰기 Single. |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | 애니메이션의 시작 값을 설명합니다. 읽기/쓰기 Single. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 동작의 속성을 나타냅니다. 읽기 전용 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작에 대한 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | 애니메이션의 종료 값을 설명합니다. 읽기/쓰기 Single. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작의 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | 애니메이션의 끝 값을 설명합니다. 읽기/쓰기 Single. |
 
 ### 참조
 

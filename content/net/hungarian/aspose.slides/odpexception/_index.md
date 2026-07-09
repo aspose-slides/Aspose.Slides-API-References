@@ -1,14 +1,14 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes .NET API Referencia
-description: Szabványos belső kivételtípust képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Egy szabványos belső kivételtípust reprezentál.
 type: docs
-weight: 9190
+weight: 9210
 url: /hu/aspose.slides/odpexception/
 ---
 ## OdpException osztály
 
-Szabványos belső kivételtípust képvisel.
+A szabványos belső kivételtípust reprezentálja.
 
 ```csharp
 public class OdpException : Exception
@@ -19,7 +19,7 @@ public class OdpException : Exception
 | Név | Leírás |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Alapértelmezett konstruktor |
-| [OdpException](odpexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
+| [OdpException](odpexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez a kivételhez. |
 | [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
 
 ### Lásd még

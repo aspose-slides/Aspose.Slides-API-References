@@ -8,7 +8,7 @@ url: /hi/aspose.slides/ilegacydiagram/
 ---
 ## ILegacyDiagram इंटरफ़ेस
 
-एक लेगेसी डायग्राम ऑब्जेक्ट का प्रतिनिधित्व करता है
+लेगेसी डायग्राम ऑब्जेक्ट का प्रतिनिधित्व करता है
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,16 +18,16 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject)। |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | लेगेसी डायग्राम को संपादन योग्य समूह आकार में परिवर्तित करता है। बनाया गया GroupShape ऑब्जेक्ट समान स्थिति पर पैरेंट समूह आकार में जोड़ता है। |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | लेगेसी डायग्राम को संपादन योग्य SmartArt ऑब्जेक्ट में परिवर्तित करता है। बनाया गया SmartArt ऑब्जेक्ट समान स्थिति पर पैरेंट समूह आकार में जोड़ता है। |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | लेगेसी डायग्राम को एडिटेबल ग्रुप शेप में परिवर्तित करता है। बनाए गए GroupShape ऑब्जेक्ट को समान स्थिति में पैरेंट ग्रुप शेप में जोड़ दिया जाता है। |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | लेगेसी डायग्राम को एडिटेबल SmartArt ऑब्जेक्ट में परिवर्तित करता है। बनाए गए SmartArt ऑब्जेक्ट को समान स्थिति में पैरेंट ग्रुप शेप में जोड़ दिया जाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGraphicalObject](../igraphicalobject)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

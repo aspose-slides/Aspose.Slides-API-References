@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
 second_title: Aspose.Sildes for .NET API 參考
-description: Glitter 幻燈片過渡效果。
+description: Glitter 投影片過渡效果。
 type: docs
 weight: 10050
 url: /zh-hant/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition 類別
 
-Glitter 幻燈片過渡效果。
+Glitter 投影片過渡效果。
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -16,17 +16,17 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | 轉換方向。讀寫 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 指定在轉換期間使用的視覺形狀。讀寫 [`TransitionPattern`](../transitionpattern)。 |
+| [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | 過渡的方向。可讀/可寫 [`TransitionSideDirectionType`](../transitionsidedirectiontype)。 |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 指定過渡期間使用的視覺形狀。可讀/可寫 [`TransitionPattern`](../transitionpattern)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和資料結構（如雜湊表）。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和資料結構，例如雜湊表。 |
 
 ### 另請參閱
 

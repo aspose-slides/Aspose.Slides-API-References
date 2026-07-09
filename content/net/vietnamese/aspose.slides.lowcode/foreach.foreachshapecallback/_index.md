@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Hàm gọi lại sẽ được gọi cho mỗi Shape./foreach/shape trong Presentation../aspose.slides/presentation.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Callback sẽ được gọi cho mỗi Shape./foreach/shape trong Presentation../aspose.slides/presentation.
 type: docs
 weight: 7950
 url: /vi/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegate
 
-Hàm gọi lại sẽ được gọi cho mỗi [`Shape`](../foreach/shape) trong [`Presentation`](../../aspose.slides/presentation).
+Callback sẽ được gọi cho mỗi [`Shape`](../foreach/shape) trong [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int inde
 | slide |  |
 | index |  |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [Shape](../../aspose.slides/shape)
 * lớp [BaseSlide](../../aspose.slides/baseslide)

@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A szöveg aláhúzásának típusát jelöli.
+second_title: Aspose.Sildes a .NET API-referencia
+description: A szöveg aláhúzás típusát reprezentálja.
 type: docs
-weight: 10990
+weight: 11010
 url: /hu/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enumeration
+## TextUnderlineType enumeráció
 
-A szöveg aláhúzásának típusát jelöli.
+A szöveg aláhúzás típusát reprezentálja.
 
 ```csharp
 public enum TextUnderlineType : sbyte

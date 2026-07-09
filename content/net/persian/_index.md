@@ -9,28 +9,28 @@ is_root: true
 ---
 ## فضاهای نام
 
-| فضاهای نام | توضیح |
+| فضا نام | توضیح |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | حاوی کلاس‌هایی برای کار با ارائه‌های Microsoft PowerPoint بدون استفاده از Microsoft PowerPoint. |
-| [Aspose.Slides.AI](./aspose.slides.ai) | حاوی کلاس‌هایی که ویژگی‌های مبتنی بر هوش مصنوعی را برای تحلیل و پردازش ارائه‌های PowerPoint ارائه می‌دهند. |
-| [Aspose.Slides.Animation](./aspose.slides.animation) | حاوی کلاس‌هایی برای کار با انیمیشن در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.Charts](./aspose.slides.charts) | حاوی کلاس‌هایی برای کار با نمودارها در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | حاوی کلاس‌هایی برای کار با اشیاء OLE در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.Effects](./aspose.slides.effects) | حاوی کلاس‌هایی برای کار با اثرات مختلف در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.Excel](./aspose.slides.excel) | حاوی کلاس‌هایی برای کار با صفحات گستردهٔ خارجی Microsoft Excel. |
-| [Aspose.Slides.Export](./aspose.slides.export) | حاوی کلاس‌هایی برای خروجی‌گیری از ارائه‌های Microsoft PowerPoint به فرمت‌های مختلفی مانند Html، Pdf، Svg، Xps و سایر فرمت‌ها. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | حاوی کلاس‌هایی برای خروجی‌گیری از ارائه‌های Microsoft PowerPoint به Html با پروژه‌های افزونه. |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | حاوی کلاس‌هایی برای خروجی‌گیری از ارائه‌های Microsoft PowerPoint به XAML. |
-| [Aspose.Slides.Import](./aspose.slides.import) | حاوی کلاس‌هایی برای وارد کردن داده‌ها به ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) | حاوی کلاس‌هایی برای کار با Ink. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | حاوی کلاس‌ها و متدهایی برای انجام عملیات کلی پیچیده به‌صورت کد کم. |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) | حاوی کلاس‌هایی برای کار با متن ریاضی در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | حاوی کلاس‌هایی برای مدیریت اسلایدشوها و انتقال اسلایدها |
-| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | حاوی کلاس‌هایی برای کار با اشیاء SmartArt |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | حاوی کلاس‌هایی برای کار با اشیاء صفحه‌گسترده در ارائه‌های Microsoft PowerPoint. |
-| [Aspose.Slides.Theme](./aspose.slides.theme) | حاوی کلاس‌هایی برای کار با انواع مختلف تم‌ها. |
-| [Aspose.Slides.Util](./aspose.slides.util) | حاوی کلاس‌های کمکی که به کار با ارائه‌ها کمک می‌کنند. |
-| [Aspose.Slides.Vba](./aspose.slides.vba) | حاوی کلاس‌هایی برای کار با ماکروهای VBA |
-| [Aspose.Slides.Warnings](./aspose.slides.warnings) | حاوی کلاس‌هایی که انواع مختلف هشدارها را نمایان می‌کنند |
+| [Aspose.Slides](./aspose.slides) | شامل کلاس‌هایی برای کار با ارائه‌های Microsoft PowerPoint بدون استفاده از Microsoft PowerPoint. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | شامل کلاس‌هایی که ویژگی‌های مبتنی بر هوش مصنوعی را برای تحلیل و پردازش ارائه‌های PowerPoint ارائه می‌دهند. |
+| [Aspose.Slides.Animation](./aspose.slides.animation) | شامل کلاس‌هایی برای کار با انیمیشن در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.Charts](./aspose.slides.charts) | شامل کلاس‌هایی برای کار با نمودارها در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | شامل کلاس‌هایی برای کار با اشیای OLE در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.Effects](./aspose.slides.effects) | شامل کلاس‌هایی برای کار با افکت‌های مختلف در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | شامل کلاس‌هایی برای کار با صفحات گسترده خارجی Microsoft Excel. |
+| [Aspose.Slides.Export](./aspose.slides.export) | شامل کلاس‌هایی برای استخراج ارائه‌های Microsoft PowerPoint به فرمت‌های مختلفی مانند Html، Pdf، Svg، Xps و سایرین. |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | شامل کلاس‌هایی برای استخراج ارائه‌های Microsoft PowerPoint به Html همراه با پروژه‌های افزونه. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | شامل کلاس‌هایی برای استخراج ارائه‌های Microsoft PowerPoint به XAML. |
+| [Aspose.Slides.Import](./aspose.slides.import) | شامل کلاس‌هایی برای وارد کردن داده‌ها به ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | شامل کلاس‌هایی برای کار با Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | شامل کلاس‌ها و متدهایی برای مدیریت عملیات کلی پیچیده به‌صورت کم‌کد. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | شامل کلاس‌هایی برای کار با متن‌های ریاضی در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | شامل کلاس‌هایی برای مدیریت اسلایدشوها و انتقالات اسلاید |
+| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | شامل کلاس‌هایی برای کار با اشیای SmartArt |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | شامل کلاس‌هایی برای کار با اشیای صفحه‌گسترده در ارائه‌های Microsoft PowerPoint. |
+| [Aspose.Slides.Theme](./aspose.slides.theme) | شامل کلاس‌هایی برای کار با انواع مختلف تم‌ها. |
+| [Aspose.Slides.Util](./aspose.slides.util) | شامل کلاس‌های کمکی که به کار با ارائه‌ها کمک می‌کنند. |
+| [Aspose.Slides.Vba](./aspose.slides.vba) | شامل کلاس‌هایی برای کار با ماکروهای VBA |
+| [Aspose.Slides.Warnings](./aspose.slides.warnings) | شامل کلاس‌هایی که انواع مختلف هشدارها را نمایندگی می‌کنند |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

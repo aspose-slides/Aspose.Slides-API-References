@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryLevelsManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: チャートのカテゴリーレベルの値を管理するコンテナです。
+description: チャートカテゴリーレベルの値を管理するコンテナです。
 type: docs
-weight: 1750
+weight: 1770
 url: /ja/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager インターフェイス
 
-Managed container of the values of the chart category levels.
+チャートカテゴリーレベルの値を管理するコンテナです。
 
 ```csharp
 public interface IChartCategoryLevelsManager

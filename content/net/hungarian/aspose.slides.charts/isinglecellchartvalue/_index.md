@@ -1,12 +1,12 @@
 ---
 title: ISingleCellChartValue
 second_title: Aspose.Sildes .NET API referencia
-description: Egy diagram adatcellát képvisel.
+description: Diagram adatcellát képvisel.
 type: docs
-weight: 2190
+weight: 2210
 url: /hu/aspose.slides.charts/isinglecellchartvalue/
 ---
-## ISingleCellChartValue interface
+## ISingleCellChartValue interfész
 
 Egy diagram adatcellát képvisel.
 
@@ -19,7 +19,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 | Név | Leírás |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Visszaadja vagy beállítja a diagram adatcellát. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Lehetővé teszi az IBaseChartValue interfész alapjának lekérését. Csak olvasható [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Lehetővé teszi a base IBaseChartValue interfész lekérését. Csak olvasható [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Lásd még
 

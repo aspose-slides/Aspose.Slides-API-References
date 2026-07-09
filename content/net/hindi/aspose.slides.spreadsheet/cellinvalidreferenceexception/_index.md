@@ -1,37 +1,37 @@
 ---
 title: CellInvalidReferenceException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: जब एक अमान्य सेल संदर्भ मिलता है तो यह फेंका जाने वाला अपवाद है।
+description: जब कोई अमान्य सेल रेफ़रेंस मिलता है तो फेंका जाने वाला अपवाद।
 type: docs
 weight: 10720
 url: /hi/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
-## CellInvalidReferenceException वर्ग
+## CellInvalidReferenceException क्लास
 
-अवैध सेल संदर्भ मिलने पर फेंका गया अपवाद।
+जब कोई अमान्य सेल रेफ़रेंस मिलता है तो फेंकी जाने वाली अपवाद।
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
 ```
 
-## निर्माणकर्ता
+## Constructors
 
 | नाम | विवरण |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) वर्ग का। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | निर्दिष्ट त्रुटि संदेश के साथ [`CellInvalidReferenceException`](../cellinvalidreferenceexception) वर्ग का एक नया उदाहरण आरम्भ करता है। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | निर्दिष्ट त्रुटि संदेश और इस अपवाद का कारण बनने वाले भीतर के अपवाद के संदर्भ के साथ [`CellInvalidReferenceException`](../cellinvalidreferenceexception) वर्ग का एक नया उदाहरण आरम्भ करता है। |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | निर्दिष्ट त्रुटि संदेश और एक अमान्य सेल संदर्भ के साथ [`CellCircularReferenceException`](../cellcircularreferenceexception) वर्ग का एक नया उदाहरण आरम्भ करता है। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश के साथ। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | एक नया उदाहरण प्रारम्भ करता है [`CellInvalidReferenceException`](../cellinvalidreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश और अंदरूनी अपवाद का एक रेफ़रेंस जिसके कारण यह अपवाद हुआ है। |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | एक नया उदाहरण प्रारम्भ करता है [`CellCircularReferenceException`](../cellcircularreferenceexception) क्लास का, एक निर्दिष्ट त्रुटि संदेश और एक अमान्य सेल रेफ़रेंस के साथ। |
 
-## गुण
+## Properties
 
 | नाम | विवरण |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | एक अमान्य सेल संदर्भ प्राप्त करता है। |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | एक अमान्य सेल रेफ़रेंस प्राप्त करता है। |
 
 ### संबंधित देखें
 
-* वर्ग [PptxEditException](../../aspose.slides/pptxeditexception)
+* क्लास [PptxEditException](../../aspose.slides/pptxeditexception)
 * नामस्थान [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)
 * असेंबली [Aspose.Slides](../../)
 

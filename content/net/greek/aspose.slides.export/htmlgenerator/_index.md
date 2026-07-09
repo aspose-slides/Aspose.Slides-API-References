@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes για .NET αναφορά API
-description: Γεννήτρια Html.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Γεννήτρια HTML.
 type: docs
-weight: 3860
+weight: 3880
 url: /el/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator κλάση
 
-Html generator.
+Γεννήτρια HTML.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -16,22 +16,22 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Επιστρέφει το ευρετήριο μιας διαφάνειας, η οποία θα αποδοθεί μετά την τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο για ανάγνωση Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Επιστρέφει το ευρετήριο της προηγουμένως αποδοθείσας διαφάνειας ή -1 εάν αποδίδεται η πρώτη διαφάνεια. Μόνο για ανάγνωση Int32. |
-| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα μέτρησης στην οποία ορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει τον κώδικα css της μονάδας μέτρησης στην οποία ορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο για ανάγνωση String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Επιστρέφει το ευρετήριο της τρέχουσας αποδίδεται διαφάνειας. Μόνο για ανάγνωση Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Επιστρέφει τον δείκτη μιας διαφάνειας που θα αποδοθεί μετά τη τρέχουσα διαφάνεια ή -1 εάν αποδίδεται η τελευταία διαφάνεια. Μόνο ανάγνωση Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Επιστρέφει τον δείκτη της προηγουμένως αποδοθείσας διαφάνειας ή -1 εάν αποδίδεται η πρώτη διαφάνεια. Μόνο ανάγνωση Int32. |
+| [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Επιστρέφει το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Επιστρέφει τη μονάδα στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Επιστρέφει έναν κώδικα css της μονάδας στην οποία καθορίζεται το μέγεθος της εικόνας της διαφάνειας. Μόνο ανάγνωση String. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Επιστρέφει τον δείκτη της τρέχουσας διαφάνειας που αποδίδεται. Μόνο ανάγνωση Int32. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Περιβάλλει σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Περιβάλλει σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Περιβάλλει σε εισαγωγικά την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Παραθέτει την τιμή του χαρακτηριστικού και την προσθέτει στο αρχείο html. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Προσθέτει μορφοποιημένο κείμενο HTML. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Προσθέτει μορφοποιημένο κείμενο HTML. |
 | [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Προσθέτει μορφοποιημένο κείμενο HTML. |
@@ -41,8 +41,8 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ### Δείτε επίσης
 
-* Διεπαφή [IHtmlGenerator](../ihtmlgenerator)
-* Χώρος ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* Συγκρότημα [Aspose.Slides](../../)
+* διεπαφή [IHtmlGenerator](../ihtmlgenerator)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

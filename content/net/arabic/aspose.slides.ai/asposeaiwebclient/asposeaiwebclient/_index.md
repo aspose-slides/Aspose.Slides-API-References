@@ -1,103 +1,103 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes لـ .NET – مرجع API
-description: ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل المستخدم من قبل المُنشئ غير المعتمد على معاملات SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent، لذا لا يلزم إنشاؤه صراحةً إلا عند تمرير العميل إلى مُنشئ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent مباشرة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: ينشئ مثيلًا لعميل Aspose AI الويب الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل المستخدم من قبل المنشئ غير المتطلب للمعلمات SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent، لذا إنشاءه صراحةً مطلوب فقط عند تمرير العميل إلى منشئ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent مباشرة.
 type: docs
 weight: 10
 url: /ar/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل المستخدم من قبل المُنشئ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) غير المعتمد على معاملات، لذا لا يلزم إنشاؤه صراحةً إلا عند تمرير العميل إلى المُنشئ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) مباشرة.
+ينشئ مثيلًا لعميل Aspose AI الويب الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل الذي يستخدمه المُنشئ الذي لا يتطلب معلمات [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent)، لذا فإن إنشاءه صراحةً يُطلب فقط عند تمرير العميل إلى المُنشئ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) مباشرة.
 
 ```csharp
 public AsposeAIWebClient()
 ```
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [AsposeAIWebClient](../../asposeaiwebclient)
-* مساحة الاسم [Aspose.Slides.AI](../../asposeaiwebclient)
+* نطاق [Aspose.Slides.AI](../../asposeaiwebclient)
 * تجميع [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM باستخدام HttpClient يُدار خارجيًا. لا يتولى هذا المثيل تحرير HttpClient المقدم ويبقى مملوكًا للمتصل.
+ينشئ مثيلًا لعميل Aspose AI الويب الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM باستخدام HttpClient مدار خارجيًا. HttpClient المقدم لا يتم إتلافه بواسطة هذا المثيل ويظل مملوكًا للمتصل.
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| httpClient | HttpClient | مثيل HttpClient يُدار خارجيًا. |
+| httpClient | HttpClient | مثيل HttpClient مدار خارجيًا. |
 
 ### الاستثناءات
 
-| exception | condition |
+| الاستثناء | الشرط |
 | --- | --- |
 | ArgumentNullException | لم يتم توفير مثيل HttpClient. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [AsposeAIWebClient](../../asposeaiwebclient)
-* مساحة الاسم [Aspose.Slides.AI](../../asposeaiwebclient)
+* نطاق [Aspose.Slides.AI](../../asposeaiwebclient)
 * تجميع [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بعنوان نقطة نهاية مخصص. استخدم هذا التحميل الإضافي عندما يكون لديك عنوان URL موفّر من فريق Aspose.Slides؛ وإلا فاستعمل التحميل الإضافي [`AsposeAIWebClient`](../asposeaiwebclient) مع العنوان الافتراضي.
+ينشئ مثيلًا لعميل Aspose AI الويب الذي يتصل بعنوان URL نقطة النهاية المخصص. استخدم هذا التحميل الزائد عندما يكون لديك URL مقدم من فريق Aspose.Slides؛ وإلا، استخدم التحميل الزائد [`AsposeAIWebClient`](../asposeaiwebclient) مع URL الافتراضي.
 
 ```csharp
 public AsposeAIWebClient(string url)
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| url | String | عنوان URL لنقطة النهاية لـ Aspose LLM، موفّر من فريق Aspose.Slides. |
+| url | String | عنوان URL لنقطة النهاية Aspose LLM، مقدم من فريق Aspose.Slides. |
 
 ### الاستثناءات
 
-| exception | condition |
+| الاستثناء | الشرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن يكون العنوان URL فارغًا أو null. |
+| ArgumentNullException | لا يمكن أن يكون URL فارغًا أو null. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [AsposeAIWebClient](../../asposeaiwebclient)
-* مساحة الاسم [Aspose.Slides.AI](../../asposeaiwebclient)
+* نطاق [Aspose.Slides.AI](../../asposeaiwebclient)
 * تجميع [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بعنوان نقطة نهاية مخصص باستخدام HttpClient يُدار خارجيًا. لا يتولى هذا المثيل تحرير HttpClient المقدم ويبقى مملوكًا للمتصل. استخدم هذا التحميل الإضافي عندما يكون لديك عنوان URL موفّر من فريق Aspose.Slides وتريد توفير HttpClient الخاص بك؛ إذا كنت تحتاج فقط HttpClient الخاص بك مع العنوان الافتراضي، فاستعمل التحميل الإضافي [`AsposeAIWebClient`](../asposeaiwebclient) بدلاً من ذلك.
+ينشئ مثيلًا لعميل Aspose AI الويب الذي يتصل بعنوان URL نقطة النهاية المخصص باستخدام HttpClient مدار خارجيًا. HttpClient المقدم لا يتم إتلافه بواسطة هذا المثيل ويظل مملوكًا للمتصل. استخدم هذا التحميل الزائد عندما يكون لديك URL مقدم من فريق Aspose.Slides وتريد تزويد HttpClient الخاص بك؛ إذا كنت تحتاج فقط إلى HttpClient الخاص بك مع URL الافتراضي، استخدم التحميل الزائد [`AsposeAIWebClient`](../asposeaiwebclient) بدلاً من ذلك.
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
 ```
 
-| Parameter | Type | Description |
+| المعامل | النوع | الوصف |
 | --- | --- | --- |
-| url | String | عنوان URL لنقطة النهاية لـ Aspose LLM، موفّر من فريق Aspose.Slides. |
-| httpClient | HttpClient | مثيل HttpClient يُدار خارجيًا. |
+| url | String | عنوان URL لنقطة النهاية Aspose LLM، مقدم من فريق Aspose.Slides. |
+| httpClient | HttpClient | مثيل HttpClient مدار خارجيًا. |
 
 ### الاستثناءات
 
-| exception | condition |
+| الاستثناء | الشرط |
 | --- | --- |
-| ArgumentNullException | لا يمكن أن يكون العنوان URL فارغًا أو null. |
+| ArgumentNullException | لا يمكن أن يكون URL فارغًا أو null. |
 | ArgumentNullException | لم يتم توفير مثيل HttpClient. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * فئة [AsposeAIWebClient](../../asposeaiwebclient)
-* مساحة الاسم [Aspose.Slides.AI](../../asposeaiwebclient)
+* نطاق [Aspose.Slides.AI](../../asposeaiwebclient)
 * تجميع [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

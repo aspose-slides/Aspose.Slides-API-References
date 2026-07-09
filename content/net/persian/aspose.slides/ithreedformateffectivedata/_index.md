@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء غیرقابل تغییر که ویژگی‌های قالب‌بندی سه‌بعدی مؤثر را نمایان می‌کند.
+description: شیء غیرقابل تغییر که ویژگی‌های قالب‌بندی 3-بعدی مؤثر را نمایش می‌دهد.
 type: docs
 weight: 7340
 url: /fa/aspose.slides/ithreedformateffectivedata/
 ---
-## IThreeDFormatEffectiveData رابط
+## رابط IThreeDFormatEffectiveData
 
-شیءی غیرقابل تغییر که ویژگی‌های قالب‌بندی سه‌بعدی مؤثر را نشان می‌دهد.
+شیء غیرقابل تغییر که ویژگی‌های قالب‌بندی 3-بعدی مؤثر را نمایش می‌دهد.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,21 +18,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | نام | توضیح |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | امکان دریافت رابط base IThreeDParamSource را فراهم می‌کند. فقط خواندنی [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | نوع حاشیه‌ساز پایین سه‌بعدی را برمی‌گرداند. فقط خواندنی [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | نوع حاشیه‌ساز بالا سه‌بعدی را برمی‌گرداند. فقط خواندنی [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | امکان دریافت رابط پایه IThreeDParamSource را فراهم می‌کند. فقط خواندنی [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | نوع برجستگی 3D پایین را برمی‌گرداند. فقط خواندنی [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | نوع برجستگی 3D بالا را برمی‌گرداند. فقط خواندنی [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | تنظیمات دوربین را برمی‌گرداند. فقط خواندنی [`ICameraEffectiveData`](../icameraeffectivedata). |
 | [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | رنگ کانتور را برمی‌گرداند. فقط خواندنی Color. |
 | [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | عرض کانتور 3D را برمی‌گرداند. فقط خواندنی Double. |
 | [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | عمق شکل 3D را برمی‌گرداند. فقط خواندنی Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | رنگ برجستگی (extrusion) را برمی‌گرداند. فقط خواندنی Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | ارتفاع افکت برجستگی را برمی‌گرداند. فقط خواندنی Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | رنگ برآمدگی را برمی‌گرداند. فقط خواندنی Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | ارتفاع اثر برآمدگی را برمی‌گرداند. فقط خواندنی Double. |
 | [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | نوع نور را برمی‌گرداند. فقط خواندنی [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
 | [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | نوع ماده را برمی‌گرداند. فقط خواندنی [`MaterialPresetType`](../materialpresettype). |
 
-### توضیحات
+### ملاحظات
 
-این رابط همراه با رابط [`IThreeDFormat`](../ithreedformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با وراثت اعمال شده استفاده می‌شود.
+این رابط همراه با رابط [`IThreeDFormat`](../ithreedformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال وراثت استفاده می‌شود.
 
 ### مراجع
 

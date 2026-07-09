@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IMathElement の周囲に矩形またはその他の枠線を描画します。
+description: IMathElement の周囲に四角形またはその他の枠線を描画します。
 type: docs
-weight: 8150
+weight: 8170
 url: /ja/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox インターフェイス
 
-Draws a rectangular or some other border around the IMathElement.
+IMathElement の周囲に四角形またはその他の枠線を描画します。
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -16,18 +16,18 @@ public interface IMathBorderBox : IMathElement
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | ベース IMathElement インターフェイス を取得できます [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | ベース引数 |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 下端を非表示にする (デフォルトは false) - ボーダーボックスの下端の非表示または表示状態を指定します。 |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 左端を非表示にする (デフォルトは false) - ボーダーボックスの左端の非表示または表示状態を指定します。 |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 右端を非表示にする (デフォルトは false) - ボーダーボックスの右端の非表示または表示状態を指定します。 |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 上端を非表示にする (デフォルトは false) - ボーダーボックスの上端の非表示または表示状態を指定します。 |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 左下から右上への取り消し線 (デフォルトは false)。 ボーダーボックスの左下隅から右上隅への対角線の取り消し線の非表示または表示状態を指定します。 |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 水平取り消し線 (デフォルトは false) - 水平取り消し線の非表示または表示状態を指定します。 |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 左上から右下への取り消し線 (デフォルトは false)。 ボーダーボックスの左上隅から右下隅への対角線の取り消し線の非表示または表示状態を指定します。 |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 垂直取り消し線 (デフォルトは false) - 垂直取り消し線の非表示または表示状態を指定します。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | 基本引数 |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | Hide Bottom Edge (default is false) - ボーダーボックスの下端の非表示または表示状態を指定します。 |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | Hide Left Edge (default is false) - ボーダーボックスの左端の非表示または表示状態を指定します。 |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | Hide Right Edge (default is false) - ボーダーボックスの右端の非表示または表示状態を指定します。 |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | Hide Top Edge (default is false) - ボーダーボックスの上端の非表示または表示状態を指定します。 |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | Strikethrough Bottom-Left to Top-Right (default is false). ボーダーボックスの左下隅から右上隅へ向かう取り消し線対角線の非表示または表示状態を指定します。 |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | Strikethrough Horizontal (default is false) - 取り消し線の横線の非表示または表示状態を指定します。 |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | Strikethrough Top-Left to Bottom-Right (default is false). ボーダーボックスの左上隅から右下隅へ向かう取り消し線対角線の非表示または表示状態を指定します。 |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | Strikethrough Vertical (default is false) - 取り消し線の縦線の非表示または表示状態を指定します。 |
 
 ### 例
 

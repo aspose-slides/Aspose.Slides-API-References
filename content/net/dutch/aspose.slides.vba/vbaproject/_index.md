@@ -8,7 +8,7 @@ url: /nl/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject klasse
 
-Stelt een VBA-project voor met presentatiemacro's.
+Stelt een VBA-project voor met presentatie-macro's.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -16,25 +16,25 @@ public sealed class VbaProject : IVbaProject
 
 ## Constructoren
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Deze constructor maakt een nieuw VBA-project vanaf nul. Het project wordt aangemaakt in de Windows Latin 1 (ANSI) codepage 1252 |
+| [VbaProject](vbaproject#constructor)() | Deze constructor maakt een nieuw VBA-project vanaf nul. Het project wordt aangemaakt in de codepagina 1252 Windows Latin 1 (ANSI). |
 | [VbaProject](vbaproject#constructor_1)(byte[]) | Deze constructor laadt een VBA-project vanuit de binaire weergave van een OLE-container. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Geeft aan of het VBAProject beschermd is met een wachtwoord om projecteigenschappen te bekijken. Alleen-lezen Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Geeft de lijst van alle modules die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Geeft de naam van het VBA-project. Alleen-lezen String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Geeft de lijst van alle referenties die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | Geeft aan of de VBAProject beschermd is met een wachtwoord om project-eigenschappen te bekijken. Alleen-lezen Boolean. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | Retourneert de lijst van alle modules die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | Retourneert de naam van het VBA-project. Alleen-lezen String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | Retourneert de lijst van alle referenties die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Geeft de binaire weergave van het VBA-project als OLE-container. |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | Retourneert de binaire weergave van het VBA-project als OLE-container. |
 
 ### Zie ook
 

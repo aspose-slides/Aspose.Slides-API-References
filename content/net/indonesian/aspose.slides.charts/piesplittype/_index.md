@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis titik pemisahan pada pie atau bar kedua pada diagram pie-of-pie atau bar-of-pie.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili tipe titik pemisahan pada pai atau batang kedua pada diagram pai-dalam-pai atau batang-dalam-pai.
 type: docs
-weight: 2360
+weight: 2380
 url: /id/aspose.slides.charts/piesplittype/
 ---
-## enumerasi PieSplitType
+## PieSplitType enumerasi
 
-Mewakili jenis titik pemisahan pada pie atau bar kedua pada diagram pie-of-pie atau bar-of-pie.
+Mewakili tipe titik pemisahan pada pai atau batang kedua pada diagram pai-dalam-pai atau batang-dalam-pai.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Default | `0` | Menentukan bahwa titik data akan dipisah menggunakan mekanisme default untuk tipe diagram ini. |
-| Custom | `1` | Menentukan bahwa titik data akan dipisah antara pie dan diagram kedua sesuai nilai Custom Split. |
-| ByPercentage | `2` | Menentukan bahwa titik data akan dipisah antara pie dan diagram kedua dengan menempatkan titik yang persentasenya kurang dari Split Position persen pada diagram kedua. |
-| ByPos | `3` | Menentukan bahwa titik data akan dipisah antara pie dan diagram kedua dengan menempatkan posisi Split Position terakhir dari titik data pada diagram kedua. |
-| ByValue | `4` | Menentukan bahwa titik data akan dipisah antara pie dan diagram kedua dengan menempatkan titik data yang nilainya kurang dari Split Position pada diagram kedua. |
+| Default | `0` | Menentukan bahwa titik data akan dipisahkan menggunakan mekanisme default untuk jenis diagram ini. |
+| Custom | `1` | Menentukan bahwa titik data akan dipisahkan antara pai dan diagram kedua sesuai dengan nilai Custom Split. |
+| ByPercentage | `2` | Menentukan bahwa titik data akan dipisahkan antara pai dan diagram kedua dengan menempatkan titik dengan persentase kurang dari Split Position percent di diagram kedua. |
+| ByPos | `3` | Menentukan bahwa titik data akan dipisahkan antara pai dan diagram kedua dengan menempatkan Split Position terakhir dari titik data di diagram kedua. |
+| ByValue | `4` | Menentukan bahwa titik data akan dipisahkan antara pai dan diagram kedua dengan menempatkan titik data dengan nilai kurang dari Split Position di diagram kedua. |
 
 ### Lihat Juga
 

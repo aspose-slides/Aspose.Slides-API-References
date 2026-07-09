@@ -1,14 +1,14 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes .NET API hivatkozása
-description: Hullám diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API Referencia
+description: Ripple diaátmenet hatás.
 type: docs
-weight: 10150
+weight: 10170
 url: /hu/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition interfész
 
-Hullám diaátmenet hatás.
+Ripple diaátmenet hatás.
 
 ```csharp
 public interface IRippleTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IRippleTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Lehetővé teszi az ITransitionValueBase alap interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak-olvasás [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-### Lásd még
+### Kapcsolódó elemek
 
 * interfész [ITransitionValueBase](../itransitionvaluebase)
 * névtér [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

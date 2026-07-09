@@ -1,6 +1,6 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 Video 物件的集合。
 type: docs
 weight: 7370
@@ -24,11 +24,11 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 從位元組陣列建立並加入視訊至簡報。 |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 從另一個簡報中加入視訊檔案的副本。 |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 從 Stream 建立並將視訊加入簡報。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | 從位元組陣列建立並將影片新增至簡報。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | 從另一個簡報新增影片檔案的副本。 |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 從串流建立並將影片新增至簡報。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IVideo](../ivideo)

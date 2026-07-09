@@ -1,14 +1,14 @@
 ---
 title: ShapeThumbnailBounds
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Enumeratie van typen vormminiatuurgrenzen.
+description: Enumeratie van typen van shape thumbnail grenzen.
 type: docs
 weight: 9920
 url: /nl/aspose.slides/shapethumbnailbounds/
 ---
 ## ShapeThumbnailBounds enumeratie
 
-Enumeratie van typen vormminiatuurgrenzen.
+Enumeratie van typen van shape thumbnail grenzen.
 
 ```csharp
 public enum ShapeThumbnailBounds
@@ -18,9 +18,9 @@ public enum ShapeThumbnailBounds
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Slide | `0` | Shape-miniatuur heeft een grootte die gelijk is aan de Slide-grootte. Shape-positie wordt opgeslagen. |
-| Shape | `1` | Shape-miniatuur heeft een grootte die gelijk is aan de Shape-omtrekrand-rechthoek, rekening houdend met de instellingen voor de Shape-contour. |
-| Appearance | `2` | Shape-miniatuur heeft een grootte die gelijk is aan de Shape-weergave (binnen de grenzen van een Slide). Er kunnen gevallen zijn waarin de Shape-weergave niet binnen de Shape-grenzen past. Bijv. rotatie, verstekpunt van een scherpe hoek, 3D-effecten, enz. |
+| Slide | `0` | Shape thumbnail zal de grootte hebben die gelijk is aan de dia-grootte. Shape-positie wordt opgeslagen. |
+| Shape | `1` | Shape thumbnail zal een grootte hebben die gelijk is aan de shape bounds rectangle, met inachtneming van shape outline settings. |
+| Appearance | `2` | Shape thumbnail zal een grootte hebben die gelijk is aan de shape appearance (binnen de grenzen van een dia). Het kan voorkomen dat shape appearance niet binnen de shape bounds past. Bijv. rotatie, miter join van een scherpe hoek, 3D-effecten, enz. |
 
 ### Zie ook
 

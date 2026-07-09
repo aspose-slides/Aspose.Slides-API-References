@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Uitzondering die wordt gegooid wanneer de ascompositie van de reeks niet combineerbaar is met de huidige ascompositie in de grafiek.
+description: Uitzondering die wordt gegooid wanneer de ascompositie van de series niet combineerbaar is met de huidige ascompositie in de grafiek.
 type: docs
 weight: 1160
 url: /nl/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException klasse
 
-Uitzondering die wordt gegooid wanneer de ascompositie van de serie niet combineerbaar is met de huidige ascompositie in de grafiek.
+Uitzondering die wordt gegooid wanneer de ascompositie van de series niet combineerbaar is met de huidige ascompositie in chart.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -19,8 +19,8 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Naam | Beschrijving |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Standaardconstructor. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Constructor die een bericht aan deze uitzondering kan toevoegen. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Constructor voor een uitzondering die een bericht en een ingebedde uitzondering bevat. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Constructor die een bericht toestaat toe te voegen aan deze Exception. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Constructor voor een Exception die een bericht en een ingebedde Exception bevat. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: Representa um efeito Alpha Inverse. Valores de opacidade Alpha são invertidos subtraindo de 100.
 type: docs
-weight: 2850
+weight: 2870
 url: /pt/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse classe
 
-Representa um efeito Alpha Inverse. Valores Alpha (opacidade) são invertidos subtraindo de 100%.
+Representa um efeito Alpha Inverse. Valores de Alpha (opacidade) são invertidos subtraindo de 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -26,9 +26,9 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Determina se o [`AlphaInverse`](../alphainverse) especificado é igual ao [`AlphaInverse`](../alphainverse) atual. |
 | [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Obtém os dados efetivos do efeito Alpha Inverse com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Serve como função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Atua como uma função de hash para um tipo específico. |
 
-### Veja também
+### Veja Também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IAlphaInverse](../ialphainverse)

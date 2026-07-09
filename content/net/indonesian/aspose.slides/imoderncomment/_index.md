@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili komentar pada slide.
 type: docs
-weight: 6440
+weight: 6460
 url: /id/aspose.slides/imoderncomment/
 ---
 ## IModernComment antarmuka
@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Mengizinkan mendapatkan antarmuka IComment dasar. Baca-saja [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Mengembalikan shape yang terkait dengan komentar. Baca-saja [`IShape`](../ishape). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IComment. Hanya-baca [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Mengembalikan bentuk yang terkait dengan komentar. Hanya-baca [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Mengembalikan atau mengatur status komentar. Baca/tulis [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Mengembalikan atau mengatur panjang pemilihan teks dalam bingkai teks jika komentar terkait dengan AutoShape. Baca/tulis Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Mengembalikan atau mengatur posisi awal pemilihan teks dalam bingkai teks jika komentar terkait dengan AutoShape. Baca/tulis Int32. |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Mengembalikan atau mengatur panjang seleksi teks dalam bingkai teks jika komentar terkait dengan AutoShape. Baca/tulis Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Mengembalikan atau mengatur posisi mulai seleksi teks dalam bingkai teks jika komentar terkait dengan AutoShape. Baca/tulis Int32. |
 
 ### Contoh
 

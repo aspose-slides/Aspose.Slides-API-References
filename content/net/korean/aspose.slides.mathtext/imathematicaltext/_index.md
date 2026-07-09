@@ -1,6 +1,6 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수학 텍스트
 type: docs
 weight: 8510
@@ -24,14 +24,14 @@ public interface IMathematicalText : IMathElement
 
 ### 예제
 
-예제:
+예:
 
 ```csharp
 [C#]
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### 참조
+### 또 보기
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

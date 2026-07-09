@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili komentar pada sebuah slide.
+description: Mewakili komentar pada slide.
 type: docs
-weight: 2600
+weight: 2620
 url: /id/aspose.slides/comment/
 ---
 ## Kelas Comment
 
-Mewakili komentar pada sebuah slide.
+Mewakili komentar pada slide.
 
 ```csharp
 public class Comment : IComment
@@ -16,18 +16,18 @@ public class Comment : IComment
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Mengembalikan penulis komentar. Hanya-baca [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Mengembalikan atau mengatur waktu pembuatan komentar. Menetapkan properti ini ke MinValue berarti tidak ada waktu komentar yang diatur. Baca/tulis DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Mengambil atau mengatur komentar induk. Baca/tulis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Mengembalikan atau mengatur posisi komentar pada slide. Baca/tulis PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Mengembalikan slide induk dari komentar. Hanya-baca [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Mengembalikan atau mengatur teks biasa komentar slide. Baca/tulis String. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Mengembalikan atau mengatur slide induk dari komentar. Hanya-baca [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Mengembalikan atau mengatur teks polos komentar slide. Baca/tulis String. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Remove](../../aspose.slides/comment/remove)() | Menghapus komentar dan semua balasannya dari koleksi induk. |
 
@@ -52,7 +52,7 @@ using (Presentation presentation = new Presentation())
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
     // Menambahkan komentar slide untuk penulis pada slide 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// Menyimpan file PowerPoint Presentation
+	// Menyimpan file Presentasi PowerPoint
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // Menampilkan hierarki komentar di console
+    // Menampilkan hierarki komentar di konsol
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)

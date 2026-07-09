@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en kommentar på en bild.
 type: docs
-weight: 6440
+weight: 6460
 url: /sv/aspose.slides/imoderncomment/
 ---
 ## IModernComment gränssnitt
@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Tillåter att hämta bas IComment gränssnittet. Skrivskyddad [`IComment`](../icomment). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Tillåter att hämta bas-IComment-gränssnittet. Skrivskyddad [`IComment`](../icomment). |
 | [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Returnerar en form som är associerad med kommentaren. Skrivskyddad [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Returnerar eller anger status för kommentaren. Läs/skriv [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Returnerar eller anger textmarkeringslängd i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Returnerar eller anger startposition för textmarkering i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Returnerar eller anger statusen för kommentaren. Läs/skriv [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Returnerar eller anger längden på textmarkeringen i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Returnerar eller anger startpositionen för textmarkeringen i textramen om kommentaren är associerad med AutoShape. Läs/skriv Int32. |
 
 ### Exempel
 

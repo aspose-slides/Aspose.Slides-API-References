@@ -21,7 +21,7 @@ public interface IColorOperation
 | [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | 작업의 유형을 반환하거나 설정합니다. 읽기 전용 [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | 작업의 매개변수를 반환합니다. 읽기 전용 Single. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

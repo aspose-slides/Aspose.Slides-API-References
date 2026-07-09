@@ -1,7 +1,7 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes .NET API 參考
-description: 表示 LightRig。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 代表 LightRig。
 type: docs
 weight: 7690
 url: /zh-hant/aspose.slides/lightrig/
@@ -19,19 +19,19 @@ public sealed class LightRig : PVIObject, ILightRig
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 光線方向。可讀寫 [`LightingDirection`](../lightingdirection)。 |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 表示可套用至形狀的預設光線方向。light rig 代表相對於 3D 場景以特定方式定位的一組光線。可讀寫 [`LightRigPresetType`](../lightrigpresettype)。 |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Light direction。讀寫 [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 代表可套用於圖形的預設光源方向。光源組在相對於 3D 場景的特定方式中定位。讀寫 [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的 object 比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 透過緯度座標、經度座標及繞軸旋轉來定義旋轉。返回陣列的第一個元素為緯度，第二個為經度，第三個為繞轉。如果未定義旋轉則傳回 null。 |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 透過緯度座標、經度座標及繞軸旋轉來定義旋轉。如果任一座標值為 float.NaN，則所有旋轉皆未定義。 |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 旋轉是透過使用緯度座標、經度座標以及繞軸的旋轉來定義的。返回陣列的第一個元素為緯度，第二個元素為經度，第三個元素為旋轉。若未定義旋轉，則傳回 null。 |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 旋轉是透過使用緯度座標、經度座標以及繞軸的旋轉來定義的。若任一座標值為 float.NaN，則全部旋轉未定義。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [ILightRig](../ilightrig)

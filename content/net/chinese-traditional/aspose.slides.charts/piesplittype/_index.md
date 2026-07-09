@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示在餅中餅或條中餅圖表的第二個餅或條上切分點的類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示在餅中餅或條中條圖表的第二個餅形或條形上的分割點類型。
 type: docs
 weight: 2380
 url: /zh-hant/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType 列舉
 
-表示在餅中餅或條中餅圖表的第二個餅或條上切分點的類型。
+表示在餅中餅或條中條圖表的第二個餅形或條形上的分割點類型。
 
 ```csharp
 public enum PieSplitType
@@ -18,13 +18,13 @@ public enum PieSplitType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Default | `0` | 指定資料點應使用此圖表類型的預設機制進行切分。 |
-| Custom | `1` | 指定資料點應根據自訂切分值在餅圖與第二圖表之間切分。 |
-| ByPercentage | `2` | 指定資料點應透過將百分比低於 Split Position 百分比的點放入第二圖表，來在餅圖與第二圖表之間切分。 |
-| ByPos | `3` | 指定資料點應透過將資料點的最後 Split Position 放入第二圖表，來在餅圖與第二圖表之間切分。 |
-| ByValue | `4` | 指定資料點應透過將值小於 Split Position 的資料點放入第二圖表，來在餅圖與第二圖表之間切分。 |
+| Default | `0` | 指定資料點將使用此圖表類型的預設機制進行切割。 |
+| Custom | `1` | 指定資料點將根據自訂切割值在餅圖與第二圖表之間分割。 |
+| ByPercentage | `2` | 指定資料點將透過將百分比低於 Split Position 百分比的點放入第二圖表，來在餅圖與第二圖表之間分割。 |
+| ByPos | `3` | 指定資料點將透過將資料點的最後 Split Position 放入第二圖表，來在餅圖與第二圖表之間分割。 |
+| ByValue | `4` | 指定資料點將透過將值小於 Split Position 的資料點放入第二圖表，來在餅圖與第二圖表之間分割。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

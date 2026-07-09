@@ -1,14 +1,14 @@
 ---
 title: IAudio
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงไฟล์เสียงที่ฝังอยู่
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนไฟล์เสียงที่ฝังไว้
 type: docs
 weight: 5210
 url: /th/aspose.slides/iaudio/
 ---
 ## IAudio อินเทอร์เฟซ
 
-แสดงถึงไฟล์เสียงที่ฝังอยู่
+แทนไฟล์เสียงที่ฝังไว้.
 
 ```csharp
 public interface IAudio
@@ -18,14 +18,14 @@ public interface IAudio
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | ส่งคืนสำเนาของข้อมูลเสียง ในกรณีที่มีข้อมูลจำนวนมากควรพิจารณาใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลเสียงเข้าสู่หน่วยความจำโดยไม่จำเป็นหรือแม้กระทั่ง OutOfMemoryException อ่านอย่างเดียว Byte[] |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | ส่งคืนประเภท MIME ของเสียงที่เข้ารหัสใน [`BinaryData`](./binarydata) อ่านอย่างเดียว String |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | คืนค่ากลุ่มสำเนาของข้อมูลเสียง หากข้อมูลมีจำนวนมากควรใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลเสียงเข้าเมมโมรีโดยไม่จำเป็น หรือแม้กระทั่งการเกิด OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | คืนค่าประเภท MIME ของเสียงที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | ส่งคืน Stream สำหรับการอ่าน ใช้ 'using' หรือปิด stream หลังการใช้ |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | คืนค่า Stream สำหรับการอ่าน ใช้ 'using' หรือปิดสตรีมหลังการใช้. |
 
 ### ดูเพิ่มเติม
 

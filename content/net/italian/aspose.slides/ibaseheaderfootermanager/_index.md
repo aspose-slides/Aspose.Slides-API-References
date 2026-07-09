@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il manager che contiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il gestore che mantiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
 type: docs
-weight: 5280
+weight: 5300
 url: /it/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager interfaccia
 
-Rappresenta il manager che contiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
+Rappresenta il gestore che mantiene il comportamento dei segnaposto di piè di pagina, data/ora e numero di pagina per tutti i tipi di diapositiva.
 
 ```csharp
 public interface IBaseHeaderFooterManager

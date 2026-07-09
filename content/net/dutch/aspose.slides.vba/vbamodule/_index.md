@@ -1,14 +1,14 @@
 ---
 title: VbaModule
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een module voor die in een VBA-project zit.
+description: Stelt de module voor die zich bevindt in een VBA-project.
 type: docs
 weight: 11630
 url: /nl/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule klasse
 
-Representeert een module die in een VBA-project is opgenomen.
+Stelt de module voor die zich bevindt in een VBA-project.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -19,7 +19,7 @@ public sealed class VbaModule : IVbaModule
 | Naam | Beschrijving |
 | --- | --- |
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Haalt de naam van de module op. Alleen-lezen String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Geeft de broncode van de module terug of stelt deze in. Lezen/schrijven String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Retourneert of stelt de broncode van de module in. Lezen/schrijven String. |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: IBulletFormat
-second_title: Referência de API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades de formatação de marcadores de parágrafo.
 type: docs
-weight: 5370
+weight: 5390
 url: /pt/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interface
@@ -21,10 +21,10 @@ public interface IBulletFormat
 | [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Retorna ou define o caractere de marcador de um parágrafo sem herança. Leitura/gravação Char. |
 | [Color](../../aspose.slides/ibulletformat/color) { get; } | Retorna o formato de cor de um marcador de um parágrafo sem herança. Somente leitura [`IColorFormat`](../icolorformat). |
 | [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Retorna ou define a fonte do marcador de um parágrafo sem herança. Leitura/gravação [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Retorna ou define a altura do marcador de um parágrafo sem herança. O valor float.NaN determina que o marcador herda a altura da primeira parte do parágrafo. Leitura/gravação Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Determina se o marcador tem cor própria ou a herda da primeira parte do parágrafo. **NullableBool.True** se o marcador tem cor própria e **NullableBool.False** se o marcador herda a cor da primeira parte do parágrafo. Leitura/gravação [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Determina se o marcador tem fonte própria ou a herda da primeira parte do parágrafo. **NullableBool.True** se o marcador tem fonte própria e **NullableBool.False** se o marcador herda a fonte da primeira parte do parágrafo. Leitura/gravação [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Retorna ou define o primeiro número usado para o grupo de marcadores numerados sem herança. Leitura/gravação Int16. |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Retorna ou define a altura do marcador de um parágrafo sem herança. O valor float.NaN determina que o marcador herda a altura da primeira porção do parágrafo. Leitura/gravação Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Determina se o marcador tem cor própria ou a herda da primeira porção do parágrafo. **NullableBool.True** se o marcador tem cor própria e **NullableBool.False** se o marcador herda a cor da primeira porção do parágrafo. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Determina se o marcador tem fonte própria ou a herda da primeira porção do parágrafo. **NullableBool.True** se o marcador tem fonte própria e **NullableBool.False** se o marcador herda a fonte da primeira porção do parágrafo. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Retorna ou define o primeiro número usado para grupo de marcadores numerados sem herança. Leitura/gravação Int16. |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Retorna ou define o estilo de um marcador numerado sem herança. Leitura/gravação [`NumberedBulletStyle`](./numberedbulletstyle). |
 | [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Retorna a imagem usada como marcador em um parágrafo sem herança. Somente leitura [`ISlidesPicture`](../islidespicture). |
 | [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Retorna ou define o tipo de marcador de um parágrafo sem herança. Leitura/gravação [`BulletType`](../bullettype). |
@@ -33,12 +33,12 @@ public interface IBulletFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Define deslocamentos padrão diferentes de zero para o Indent e MarginLeft efetivos do parágrafo quando os marcadores estão habilitados (como o PowerPoint faz ao habilitar marcadores/numeração de parágrafos). Se os marcadores estiverem desabilitados, reinicia apenas o Indent e MarginLeft do parágrafo (como o PowerPoint faz ao desabilitar marcadores/numeração de parágrafos). Os deslocamentos de recuo são aplicados em relação ao contexto atual do marcador – IBulletFormat.Type, .NumberedBulletStyle e FontHeight da primeira parte. Deslocamentos de recuo diferentes de zero são aplicados ao Indent e MarginLeft efetivos do parágrafo atual (fazendo com que os valores resultantes sejam valores locais). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Obtém os dados efetivos de formatação de marcadores com a herança aplicada. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Define deslocamentos padrão diferentes de zero para o recuo (Indent) e margem esquerda (MarginLeft) efetivos do parágrafo quando os marcadores estão habilitados (como o PowerPoint faz ao habilitar marcadores/numerção de parágrafo). Se os marcadores estiverem desabilitados, apenas redefine o recuo e a margem esquerda do parágrafo (como o PowerPoint faz ao desabilitar marcadores/numerção de parágrafo). Os deslocamentos de recuo são aplicados em relação ao contexto atual do marcador – IBulletFormat.Type, .NumberedBulletStyle e FontHeight da primeira porção. Deslocamentos de recuo diferentes de zero são aplicados ao recuo e margem esquerda efetivos do parágrafo atual (fazendo com que os valores resultantes sejam valores locais). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Obtém os dados de formatação de marcador efetivos com a herança aplicada. |
 
-### Veja Também
+### Ver Também
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

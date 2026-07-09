@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของคอลเลกชันของการปรับค่า shape.
+second_title: Aspose.Sildes สำหรับอ้างอิง API .NET
+description: แสดงคอลเลกชันของการปรับค่ารูปร่าง.
 type: docs
 weight: 100
 url: /th/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection คลาส
 
-เป็นตัวแทนของคอลเล็กชันของการปรับค่าของ shape
+เป็นคอลเลกชันของการปรับค่ารูปร่าง
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -16,18 +16,18 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | ส่งคืนจำนวนการปรับค่า. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึงคอลเล็กชันมีการทำงานแบบประสาน (thread-safe). อ่านอย่างเดียว Boolean. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | ส่งคืนการปรับค่าตามดัชนี. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | ส่งคืนรากของการประสาน. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเล็กชันไปยังอาร์เรย์ที่ระบุ. |
+| [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

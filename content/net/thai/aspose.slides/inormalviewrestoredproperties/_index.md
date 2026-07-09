@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: กำหนดขนาดของบริเวณสไลด์ ความกว้างเมื่อเป็นลูกของ restoredTop ความสูงเมื่อเป็นลูกของ restoredLeft ของมุมมองปกติเมื่อบริเวณมีขนาดที่ปรับได้ซึ่งไม่ได้ถูกย่อหรือขยายเต็ม
+description: ระบุขนาดของบริเวณสไลด์ width when a child of restoredTop height when a child of restoredLeft ของมุมมองปกติเมื่อบริเวณเป็นขนาดที่ปรับได้ (ไม่ถูกย่อหรือขยายเต็ม)
 type: docs
 weight: 6480
 url: /th/aspose.slides/inormalviewrestoredproperties/
 ---
-## อินเทอร์เฟซ INormalViewRestoredProperties
+## INormalViewRestoredProperties อินเทอร์เฟซ
 
-กำหนดขนาดของบริเวณสไลด์ ((ความกว้างเมื่อเป็นลูกของ restoredTop, ความสูงเมื่อเป็นลูกของ restoredLeft) ของมุมมองปกติ, เมื่อบริเวณมีขนาดที่ปรับได้ (ไม่มีการย่อหรือขยายสูงสุด).
+ระบุขนาดของพื้นที่สไลด์ ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | กำหนดว่าขนาดของบริเวณเนื้อหาด้านข้างควรชดเชยขนาดใหม่เมื่อปรับขนาดหน้าต่างที่บรรจุมุมมองภายในแอปพลิเคชัน อ่าน/เขียน Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | กำหนดขนาดของบริเวณสไลด์ (กว้างเมื่อเป็นลูกของ RestoredTop, สูงเมื่อเป็นลูกของ RestoredLeft). อ่าน/เขียน Single. ขว้างข้อยกเว้นเมื่อค่าต่ำกว่า 0 หรือมากกว่า 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | ระบุว่าขนาดของพื้นที่เนื้อหาด้านข้างควรชดเชยขนาดใหม่เมื่อปรับขนาดหน้าต่างที่บรรจุมุมมองภายในแอปพลิเคชันหรือไม่ อ่าน/เขียน Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | ระบุขนาดของพื้นที่สไลด์ (width when a child of RestoredTop, height when a child of RestoredLeft). อ่าน/เขียน Single. ทำข้อยกเว้นเมื่อค่าต่ำกว่า 0 หรือมากกว่า 100. |
 
 ### ดูเพิ่มเติม
 

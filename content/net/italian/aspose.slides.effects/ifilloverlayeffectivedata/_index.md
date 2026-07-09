@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes per .NET - Riferimento API
-description: Oggetto immutabile che rappresenta un effetto Fill Overlay. Un fill overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e fondere i due riempimenti insieme.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta un effetto Fill Overlay. Un fill overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e combinare i due riempimenti insieme.
 type: docs
-weight: 3290
+weight: 3310
 url: /it/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Fill Overlay. Un Fill Overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e fondere i due riempimenti insieme.
+Oggetto immutabile che rappresenta un effetto Fill Overlay. Un fill overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e combinare i due riempimenti insieme.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia IEffectEffectiveData base. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Solo lettura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formato riempimento. Solo lettura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Formato di riempimento. Solo lettura [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### Vedi anche
 

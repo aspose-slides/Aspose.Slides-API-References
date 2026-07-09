@@ -1,14 +1,14 @@
 ---
 title: ForEach
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un gruppo di metodi destinati a iterare su diversi oggetti modello Presentation../aspose.slides/presentation. Questi metodi possono essere utili se è necessario iterare e modificare la formattazione o il contenuto di alcuni elementi di Presentation, ad es. modificare la formattazione di ogni porzione.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta un gruppo di metodi destinati a iterare su diversi oggetti modello Presentation../aspose.slides/presentation. Questi metodi possono essere utili se è necessario iterare e modificare la formattazione o il contenuto di alcuni elementi di Presentation, ad esempio modificare la formattazione di ogni porzione.
 type: docs
-weight: 7880
+weight: 7900
 url: /it/aspose.slides.lowcode/foreach/
 ---
 ## ForEach classe
 
-Rappresenta un gruppo di metodi destinati a iterare su diversi [`Presentation`](../../aspose.slides/presentation) oggetti modello. Questi metodi possono essere utili se è necessario iterare e modificare la formattazione o il contenuto di alcuni elementi di Presentation, ad es. modificare la formattazione di ogni porzione.
+Rappresenta un gruppo di metodi destinati a iterare su diversi oggetti modello [`Presentation`](../../aspose.slides/presentation). Questi metodi possono essere utili se è necessario iterare e modificare la formattazione o il contenuto di alcuni elementi di Presentation, ad esempio modificare la formattazione di ogni porzione.
 
 ```csharp
 public static class ForEach
@@ -33,12 +33,12 @@ public static class ForEach
 
 | Nome | Descrizione |
 | --- | --- |
-| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | Callback che verrà invocato per ciascun [`LayoutSlide`](./layoutslide) nel [`Presentation`](../../aspose.slides/presentation). |
-| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | Callback che verrà invocato per ciascun [`MasterSlide`](./masterslide) nel [`Presentation`](../../aspose.slides/presentation). |
-| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | Callback che verrà invocato per ciascun [`Paragraph`](./paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide). |
-| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | Callback che verrà invocato per ciascun [`Portion`](./portion) nel [`Paragraph`](./paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide). |
-| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | Callback che verrà invocato per ciascun [`Shape`](./shape) nel [`Presentation`](../../aspose.slides/presentation). |
-| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | Callback che verrà invocato per ciascun [`Slide`](./slide) nel [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachLayoutSlideCallback](foreach.foreachlayoutslidecallback) | Callback che verrà invocato per ogni [`LayoutSlide`](./layoutslide) nel [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachMasterSlideCallback](foreach.foreachmasterslidecallback) | Callback che verrà invocato per ogni [`MasterSlide`](./masterslide) nel [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachParagraphCallback](foreach.foreachparagraphcallback) | Callback che verrà invocato per ogni [`Paragraph`](./paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide). |
+| delegate [ForEachPortionCallback](foreach.foreachportioncallback) | Callback che verrà invocato per ogni [`Portion`](./portion) nel [`Paragraph`](./paragraph) sul [`BaseSlide`](../../aspose.slides/baseslide). |
+| delegate [ForEachShapeCallback](foreach.foreachshapecallback) | Callback che verrà invocato per ogni [`Shape`](./shape) nel [`Presentation`](../../aspose.slides/presentation). |
+| delegate [ForEachSlideCallback](foreach.foreachslidecallback) | Callback che verrà invocato per ogni [`Slide`](./slide) nel [`Presentation`](../../aspose.slides/presentation). |
 
 ### Esempi
 

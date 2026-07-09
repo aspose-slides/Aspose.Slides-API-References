@@ -1,6 +1,6 @@
 ---
 title: Tab
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트에 대한 탭을 나타냅니다.
 type: docs
 weight: 10820
@@ -18,7 +18,7 @@ public sealed class Tab : PVIObject, ITab
 
 | 이름 | 설명 |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | 새 Tab을 생성합니다. |
+| [Tab](tab)(double, TabAlignment) | 새 Tab을 생성합니다 |
 
 ## 속성
 
@@ -36,7 +36,7 @@ public sealed class Tab : PVIObject, ITab
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [ITab](../itab)

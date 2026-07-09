@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ソフトエッジ効果を表します。シェイプのエッジはぼやけますが、塗りつぶしは影響を受けません。
+description: ソフト エッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
 type: docs
-weight: 3630
+weight: 3650
 url: /ja/aspose.slides.effects/softedge/
 ---
 ## SoftEdge クラス
 
-ソフトエッジ効果を表します。シェイプのエッジはぼやけますが、塗りつぶしは影響を受けません。
+ソフト エッジ効果を表します。シェイプのエッジはぼかされますが、塗りつぶしは影響を受けません。
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,14 +18,14 @@ public sealed class SoftEdge : ISoftEdge
 
 | 名前 | 説明 |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | エッジに適用するぼかしの半径を指定します。読み書き Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | エッジに適用するぼかしの半径を指定します。読み取り/書き込み Double. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | 指定された [`SoftEdge`](../softedge) が現在の [`SoftEdge`](../softedge) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 継承が適用された有効なソフトエッジ効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | 継承が適用された有効な Soft Edge エフェクト データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

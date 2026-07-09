@@ -1,54 +1,54 @@
 ---
 title: ISlide
 second_title: Aspose.Sildes برای .NET مرجع API
-description: یک اسلاید در یک ارائه را نشان می‌دهد.
+description: یک اسلاید را در یک ارائه نمایش می‌دهد.
 type: docs
 weight: 7040
 url: /fa/aspose.slides/islide/
 ---
-## ISlide رابط
+## رابط ISlide
 
-نمایش یک اسلاید در ارائه.
+نمایش یک اسلاید در ارائه را می‌کند.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | امکان دریافت رابط پایه IBaseSlide را فراهم می‌کند. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | رابط IOverrideThemeable را برمی‌گرداند. فقط-خواندنی [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | مدیر HeaderFooter اسلاید را برمی‌گرداند. فقط-خواندنی [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | تعیین می‌کند آیا اسلاید مشخص‌شده در طول ارائه مخفی باشد یا نه. خواندن/نوشتن Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | اسلاید چیدمان برای اسلاید جاری را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | دسترسی به اسلاید یادداشت‌ها را امکان‌پذیر می‌سازد، افزودن و حذف آن. فقط-خواندنی [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | تعداد اسلایدها را برمی‌گرداند. شاخص اسلاید در مجموعه [`Slides`](../ipresentation/slides) همیشه برابر است با SlideNumber - 1. خواندن/نوشتن Int32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | اجازه می‌دهد رابط پایه IBaseSlide را دریافت کند. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | بازمی‌گرداند رابط IOverrideThemeable. فقط-خواندنی [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | بازمی‌گرداند مدیر HeaderFooter اسلاید. فقط-خواندنی [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | مشخص می‌کند آیا اسلاید مشخص شده در نمایش اسلایدها مخفی است یا نه. Boolean خواندنی/نوشتنی. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | بازمی‌گرداند یا تنظیم می‌کند اسلاید چیدمان برای اسلاید فعلی. خواندنی/نوشتنی [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | اجازه می‌دهد به اسلاید یادداشت‌ها دسترسی داشته باشد، آن را اضافه یا حذف کند. فقط-خواندنی [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | بازمی‌گرداند شماره‌ای از اسلاید. اندیس اسلاید در مجموعه [`Slides`](../ipresentation/slides) همیشه برابر با SlideNumber - 1 است. Int32 خواندنی/نوشتنی. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | یک شیء تصویر بندانگشتی (20٪ از اندازه واقعی) را برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | یک شیء Bitmap بندانگشتی را برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | یک شیء bitmap tiff بندانگشتی را با پارامترهای مشخص شده برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | یک شیء تصویر با اندازه مشخص شده را برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | یک شیء تصویر با مقیاس‌بندی سفارشی را برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | یک شیء Bitmap بندانگشتی را با اندازه مشخص شده برمی‌گرداند. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | یک شیء Bitmap بندانگشتی را با مقیاس‌بندی سفارشی برمی‌گرداند. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | تمام نظرات اسلاید اضافه شده توسط نویسنده خاص را برمی‌گرداند. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | بازمی‌گرداند یک شی تصویر بند انگشتی (20% اندازه واقعی). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | بازمی‌گرداند یک شی Bitmap بند انگشتی. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | بازمی‌گرداند یک شی bitmap tiff بند انگشتی با پارامترهای مشخص شده. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | بازمی‌گرداند یک شی تصویر با اندازه مشخص. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | بازمی‌گرداند یک شی تصویر با مقیاس‌پذیری سفارشی. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | بازمی‌گرداند یک شی Bitmap بند انگشتی با اندازه مشخص. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | بازمی‌گرداند یک شی Bitmap بند انگشتی با مقیاس‌پذیری سفارشی. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | بازمی‌گرداند تمام نظرات اسلایدی اضافه شده توسط نویسنده مشخص. |
 | [Remove](../../aspose.slides/islide/remove)() | اسلاید را از ارائه حذف می‌کند. |
-| [Reset](../../aspose.slides/islide/reset)() | موقعیت، اندازه و قالب‌بندی هر شکل که پروتوتایپی در LayoutSlide دارد را بازنشانی می‌کند. |
-| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | محتوای اسلاید را به‌عنوان فایل EMF ذخیره می‌کند. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | محتوای اسلاید را به‌عنوان فایل SVG ذخیره می‌کند. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | محتوای اسلاید را به‌عنوان فایل SVG ذخیره می‌کند. |
+| [Reset](../../aspose.slides/islide/reset)() | موقعیت، اندازه و قالب‌بندی هر شکل که طرح اولیه‌ای در LayoutSlide دارد را بازنشانی می‌کند. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | محتویات اسلاید را به صورت فایل EMF ذخیره می‌کند. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | محتویات اسلاید را به صورت فایل SVG ذخیره می‌کند. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | محتویات اسلاید را به صورت فایل SVG ذخیره می‌کند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IBaseSlide](../ibaseslide)
 * رابط [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

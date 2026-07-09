@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verstelbare tekengids voor.
+description: Vertegenwoordigt een verstelbare tekenlijn.
 type: docs
 weight: 5720
 url: /nl/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide interface
 
-Stelt een verstelbare tekengids voor.
+Representeert een verstelbare tekenlijn.
 
 ```csharp
 public interface IDrawingGuide
@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Geeft de kleur van de tekengids terug of stelt deze in. Lezen/Schrijven Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Geeft de oriëntatie van de tekengids terug of stelt deze in. Lezen/Schrijven [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Geeft de positie van de tekengids terug of stelt deze in in punten vanaf de bovenste linkerhoek van de dia. Lezen/Schrijven Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | Retourneert of stelt de kleur van de tekenlijn in. Lezen/Schrijven Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | Retourneert of stelt de oriëntatie van de tekenlijn in. Lezen/Schrijven [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | Retourneert of stelt de positie van de tekenlijn in punten vanaf de bovenste, linker hoek van de dia in. Lezen/Schrijven Single. |
 
 ### Zie ook
 

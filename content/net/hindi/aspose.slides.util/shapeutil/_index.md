@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: ऐसी विधियाँ प्रदान करता है जो शैप्स ऑब्जेक्ट्स को प्रोसेस करने में मदद करती हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: ऐसे मेथड्स प्रदान करता है जो शेप्स ऑब्जेक्ट्स को प्रोसेस करने में मदद करते हैं।
 type: docs
 weight: 11510
 url: /hi/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil क्लास
 
-ऐसी विधियां प्रदान करता है जो शैप्स ऑब्जेक्ट्स को प्रोसेस करने में मदद करती हैं।
+शेप्स ऑब्जेक्ट्स को प्रोसेस करने में मदद करने वाले मेथड्स प्रदान करता है।
 
 ```csharp
 public static class ShapeUtil

@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett Trace-objekt. Ett Trace-element används för att registrera data som fångas av digitaliseraren. Den innehåller en sekvens av punkter kodade enligt specifikationen som ges av InkTraceFormat-objektet.
+description: Representerar ett Trace-objekt. Ett Trace-element används för att spela in data som fångas av digitalisatorn. Det innehåller en sekvens av punkter kodade enligt specifikationen som ges av InkTraceFormat-objektet.
 type: docs
-weight: 7570
+weight: 7590
 url: /sv/aspose.slides.ink/inktrace/
 ---
 ## InkTrace klass
 
-Representerar ett Trace-objekt. Ett Trace-element används för att registrera data som fångas av digitaliseraren. Den innehåller en sekvens av punkter kodade enligt specifikationen som ges av InkTraceFormat-objektet.
+Representerar ett Trace-objekt. Ett Trace-element används för att spela in data som fångas av digitalisatorn. Det innehåller en sekvens av punkter kodade enligt specifikationen som ges av InkTraceFormat-objektet.
 
 ```csharp
 public class InkTrace : IInkTrace

@@ -1,14 +1,14 @@
 ---
 title: PptOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+description: Bir sunumun PPT biçiminde nasıl kaydedileceğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4340
+weight: 4360
 url: /tr/aspose.slides.export/pptoptions/
 ---
 ## PptOptions sınıfı
 
-Sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
+Bir sunumun PPT formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
@@ -24,14 +24,14 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geçişin görsel stilini döndürür veya ayarlar. Okunabilir/yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde cinsinden kaydetme ilerleme güncellemeleri için bir geri arama nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Kök dizin girişinde depolanan nesne sınıfı GUID (CLSID) temsil eder. Belgenin uygulamasının COM etkinleştirmesi için kullanılabilir. Varsayılan değer '64818D11-4F9B-11CF-86EA-00AA00B929E8' 'Microsoft Powerpoint.Slide.8' ile eşleşir. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren hiperlinklerin atlanıp atlanmayacağını belirtir. Okunabilir/yazılabilir Boolean. Varsayılan değer **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine veya iptal edileceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir/yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini alır veya ayarlar. Okuma-yazma String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini alır veya ayarlar. Okuma-yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | Kök dizin girişinde saklanan nesne sınıfı GUID'ini (CLSID) temsil eder. Belgenin uygulamasının COM etkinleştirmesi için kullanılabilir. Varsayılan değer, 'Microsoft Powerpoint.Slide.8' ile eşleşen '64818D11-4F9B-11CF-86EA-00AA00B929E8' değeridir. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrısı içeren köprüleri atlayıp atlamayacağını belirler. Okuma-yazma Boolean. Varsayılan değer **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme işleminin devam edip etmeyeceğine karar veren bir nesneyi alır veya ayarlar. Okuma-yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [SaveOptions](../saveoptions)
 * arayüz [IPptOptions](../ipptoptions)

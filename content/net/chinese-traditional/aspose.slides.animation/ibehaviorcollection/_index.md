@@ -18,19 +18,19 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | 返回 IEnumerable 介面。唯讀 IEnumerable。 |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | 返回集合中行為的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | 返回指定索引處的行為。 |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | 傳回集合中行為的數量。唯讀 Int32。 |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | 傳回指定索引處的行為。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | 將新行為新增至集合。 |
-| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | 移除集合中所有行為。 |
+| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | 從集合中移除所有行為。 |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | 判斷 ICollection 是否包含特定值。 |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | 判斷 IList 中特定項目的索引。 |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | 在指定索引處將新行為插入至集合。 |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | 在指定索引處將新行為插入集合。 |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | 從集合中移除指定的行為。 |
 | [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | 在指定索引處從集合中移除行為。 |
 

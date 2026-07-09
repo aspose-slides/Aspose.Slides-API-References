@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: イン・アウト スライド遷移効果。
+description: In-Out スライド トランジション効果。
 type: docs
-weight: 10090
+weight: 10110
 url: /ja/aspose.slides.slideshow/iinouttransition/
 ---
-## IInOutTransition インターフェイス
+## IInOutTransition インターフェース
 
-イン・アウト スライド遷移効果。
+In-Out slide transition effect.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -18,12 +18,12 @@ public interface IInOutTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 遷移効果の方向。 読み書き [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェースを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | トランジション効果の方向。読み書き [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
-### 関連項目
+### 参照
 
-* インターフェイス [ITransitionValueBase](../itransitionvaluebase)
+* インターフェース [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)
 

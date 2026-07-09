@@ -1,9 +1,9 @@
 ---
 title: CommandEffect
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en kommandoeffekt för ett animationsbeteende.
 type: docs
-weight: 240
+weight: 260
 url: /sv/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect klass
@@ -24,15 +24,15 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representerar om animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representerar om det aktuella animationsbeteendet kombineras med andra körande animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Anger om animationsbeteenden ackumuleras. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Anger om det aktuella animationsbeteendet kombineras med andra pågående animationer. Läs/skriv [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Definierar kommandosträng. Läs/skriv String. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representerar egenskaper för beteendet. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Anger egenskaper för beteendet. Skrivskyddad [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definierar formmål för kommandoeffekten. Läs/skriv [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representerar timingegenskaper för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definierar kommandoeffektstyp för beteendet. Läs/skriv [`CommandEffectType`](../commandeffecttype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Anger tidsegenskaper för effektbeteendet. Läs/skriv [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definierar kommandoeffekttyp för beteendet. Läs/skriv [`CommandEffectType`](../commandeffecttype). |
 
-### Se också
+### Se även
 
 * klass [Behavior](../behavior)
 * gränssnitt [ICommandEffect](../icommandeffect)

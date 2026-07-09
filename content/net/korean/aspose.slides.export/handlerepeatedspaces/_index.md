@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Markdown 내보내기 중 반복되는 일반 공백 문자를 어떻게 처리할지 지정합니다.
+description: Markdown 내보내기 중에 반복되는 일반 공백 문자를 어떻게 처리할지 지정합니다.
 type: docs
 weight: 3830
 url: /ko/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces 열거형
 
-Markdown 내보내기 중 반복되는 일반 공백 문자들을 어떻게 처리할지 지정합니다.
+정규 공백 문자가 반복될 때 Markdown 내보내기 중 처리 방법을 지정합니다.
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -22,7 +22,7 @@ public enum HandleRepeatedSpaces
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

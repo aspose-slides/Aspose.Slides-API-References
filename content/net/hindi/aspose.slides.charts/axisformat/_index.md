@@ -18,11 +18,11 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | एक अक्ष के लिए उपयोग किए जाने वाले प्रभाव लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | एक अक्ष की फ़िल स्टाइल गुण लौटाता है। केवल-पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | एक अक्ष की लाइन स्टाइल गुण लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | एक अक्ष के लिए प्रयुक्त प्रभावों को लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | एक अक्ष की भराव शैली गुणों को लौटाता है। केवल-पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | एक अक्ष की रेखा शैली गुणों को लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [Axis](../axis)

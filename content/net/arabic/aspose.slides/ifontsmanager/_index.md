@@ -1,12 +1,12 @@
 ---
 title: IFontsManager
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يدير الخطوط عبر العرض التقديمي.
 type: docs
 weight: 5930
 url: /ar/aspose.slides/ifontsmanager/
 ---
-## IFontsManager واجهة
+## IFontsManager الواجهة
 
 يدير الخطوط عبر العرض التقديمي.
 
@@ -18,25 +18,25 @@ public interface IFontsManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | يمثل مجموعة المستخدم من قواعد FontFallBack لإدارة مجموعات الخطوط للتبديلات السليمة بواسطة وظيفة fallback قراءة/كتابة [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | بدائل الخطوط لاستخدامها أثناء العرض قراءة/كتابة [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | يمثل مجموعة قواعد FontFallBack الخاصة بالمستخدم لإدارة مجموعات الخطوط لضمان الاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | بدائل الخطوط المستخدمة عند التصيير قراءة/كتابة [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | يضيف الخط المضمّن. احرص على أنه عند إضافة أي خطوط فإن معظمها محمية بحقوق النشر. يجب أولاً تحديد رخصة الخط مسبقًا والتحقق من أنه يمكن نقلها بحرية إلى جهاز آخر. يمكن أن يُرمى استثناء ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمّنًا بالفعل. |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | يضيف الخط المضمّن. احرص على أنه عند نسخ أي خطوط فإن معظمها محمية بحقوق النشر. يجب أولاً تحديد رخصة الخط مسبقًا والتحقق من أنه يمكن نقلها بحرية إلى جهاز آخر. يمكن أن يُرمى استثناء ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمّنًا بالفعل. |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | يعيد الخطوط المضمّنة في العرض التقديمي |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | يضيف الخط المضمن. ضع في الاعتبار عند إضافة أي خطوط أن معظم الخطوط محمية بحقوق النشر. ابحث أولاً عن ترخيص الخط مسبقًا وتأكد من إمكانية نقلها بحرية إلى جهاز آخر. يمكن رمي استثناء ArgumentException إذا كانت بيانات الخط فارغة أو تم تضمين هذا الخط مسبقًا. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | يضيف الخط المضمن. ضع في الاعتبار عند نسخ أي خطوط أن معظم الخطوط محمية بحقوق النشر. ابحث أولاً عن ترخيص الخط مسبقًا وتأكد من إمكانية نقلها بحرية إلى جهاز آخر. يمكن رمي استثناء ArgumentException إذا كانت بيانات الخط فارغة أو تم تضمين هذا الخط مسبقًا. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | يعيد الخطوط المضمنة في العرض التقديمي |
 | [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | يسترجع مصفوفة البايت التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | يحدّد مستوى تضمين الخط من مصفوفة البايت المعطاة واسم الخط. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | يحدد مستوى تضمين الخط من مصفوفة البايت المعطاة واسم الخط. |
 | [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | يعيد الخطوط المستخدمة في العرض التقديمي |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | يحصل على معلومات حول الخطوط التي سيتم استبدالها عند عرض العرض التقديمي. |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | يحصل على معلومات حول الخطوط التي سيتم استبدالها أثناء عرض الشرائح المحددة. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | يزيل الخط المضمّن |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | استبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | استبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة من [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | استبدل الخط في العرض التقديمي |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | يحصل على المعلومات حول الخطوط التي سيتم استبدالها أثناء تصيير الشرائح المحددة. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | يزيل الخط المضمن |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | يستبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | يستبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة [`IFontSubstRule`](../ifontsubstrule) |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | يستبدل الخط في العرض التقديمي |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o reprodutor de animações associado ao Presentation../aspose.slides/presentation.
+description: Representa o player de animações associado à Presentation../aspose.slides/presentation.
 type: docs
-weight: 4370
+weight: 4390
 url: /pt/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer classe
 
-Representa o reprodutor de animações associado ao [`Presentation`](../../aspose.slides/presentation).
+Representa o player de animações associado ao [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -16,25 +16,25 @@ public class PresentationPlayer : IDisposable
 
 ## Construtores
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Cria uma nova instância de [`PresentationPlayer`](../presentationplayer). |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Cria uma nova instância do [`PresentationPlayer`](../presentationplayer). |
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Obtém o índice do quadro. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Libera a instância de [`PresentationPlayer`](../presentationplayer). |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Descarta a instância do [`PresentationPlayer`](../presentationplayer). |
 
 ## Outros Membros
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | delegate [FrameTickHandler](presentationplayer.frametickhandler) | Representa o manipulador de tick de quadro do evento [`FrameTick`](./frametick). |
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // Reproduzir animação com 33 FPS
+        // Reproduz animação com 33 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // Reproduzir animação com 45 FPS
+        // Reproduz animação com 45 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>
@@ -71,7 +71,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

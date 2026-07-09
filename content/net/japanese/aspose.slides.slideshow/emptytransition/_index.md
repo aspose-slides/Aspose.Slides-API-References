@@ -1,9 +1,9 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 空のスライド遷移効果です。
 type: docs
-weight: 10010
+weight: 10030
 url: /ja/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition クラス
@@ -18,13 +18,13 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造で使用できます。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型のハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルなどのデータ構造での使用に適しています。 |
 
 ### 参照
 
 * クラス [TransitionValueBase](../transitionvaluebase)
-* インターフェイス [IEmptyTransition](../iemptytransition)
+* インターフェース [IEmptyTransition](../iemptytransition)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * アセンブリ [Aspose.Slides](../../)
 

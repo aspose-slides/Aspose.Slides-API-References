@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Een Binary Large Object (BLOB) is een binaire data die als één entiteit wordt opgeslagen - d.w.z. een BLOB kan een audio-, video- of presentatie zelf zijn. Er worden verschillende technieken gebruikt om het geheugenverbruik te optimaliseren tijdens het werken met BLOB's - die al in de presentatie zijn opgeslagen of later programmatically worden toegevoegd. Met IBlobManagementOptions./iblobmanagementoptions kunt u verschillende gedragsaspecten met betrekking tot het omgaan met BLOB's wijzigen voor de levensduur van de IPresentation./ipresentation-instantie.
+description: Een Binary Large Object (BLOB) is een binaire data die als één entiteit wordt opgeslagen - i.e. BLOB kan een audio, video of presentatie zelf zijn. Een aantal technieken worden gebruikt om het geheugenverbruik te optimaliseren tijdens het werken met BLOB's - die al in de presentatie zijn opgeslagen of later programmatisch kunnen worden toegevoegd. Met IBlobManagementOptions./iblobmanagementoptions kun je verschillende gedragseigenschappen wijzigen met betrekking tot de verwerking van BLOB's voor de levensduur van de IPresentation./ipresentation instantie.
 type: docs
 weight: 5370
 url: /nl/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interface
 
-Een Binary Large Object (BLOB) is een binaire data die als één entiteit wordt opgeslagen – d.w.z. een BLOB kan een audio-, video- of presentatie zelf zijn. Er worden verschillende technieken gebruikt om het geheugenverbruik te optimaliseren tijdens het werken met BLOB's – of deze al in de presentatie zijn opgeslagen of later programmatically worden toegevoegd. Met [`IBlobManagementOptions`](../iblobmanagementoptions) kunt u verschillende gedragsaspecten met betrekking tot het omgaan met BLOB's wijzigen voor de levensduur van de [`IPresentation`](../ipresentation) instantie.
+Een Binary Large Object (BLOB) is een binaire data die als één entiteit wordt opgeslagen – bijvoorbeeld een BLOB kan een audio-, video- of presentatie zelf zijn. Er worden verschillende technieken gebruikt om het geheugenverbruik te optimaliseren bij het werken met BLOB's – die al in de presentatie zijn opgeslagen of later programmatisch kunnen worden toegevoegd. Met [`IBlobManagementOptions`](../iblobmanagementoptions) kun je verschillende gedragseigenschappen wijzigen met betrekking tot de verwerking van BLOB's voor de levensduur van de [`IPresentation`](../ipresentation) instantie.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Deze eigenschap bepaalt of tijdelijke bestanden kunnen worden aangemaakt tijdens het werken met BLOB's, wat het geheugenverbruik aanzienlijk vermindert maar permissies vereist om bestanden te creëren. Alle bestanden worden verwijderd nadat het werk met de presentatie is voltooid. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Deze eigenschap bepaalt of er tijdelijke bestanden kunnen worden aangemaakt tijdens het werken met BLOB's, wat het geheugenverbruik aanzienlijk vermindert, maar waarvoor toestemming nodig is om bestanden aan te maken. Alle bestanden worden verwijderd nadat het werken met de presentatie is voltooid. |
 | [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Definieert de maximale totale grootte (in bytes) die alle BLOB's in het geheugen mogen innemen. Standaard worden alle BLOB's in het geheugen geladen; pas wanneer deze limiet is bereikt, worden alternatieve mechanismen (zoals tijdelijke bestanden) toegepast. BLOB's in het geheugen houden maximaliseert de prestaties, maar kan leiden tot hoog geheugenverbruik. Gebruik deze eigenschap om het gedrag af te stemmen op uw omgeving of vereisten. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Deze eigenschap bepaalt of een exemplaar van de Presentation-klasse eigenaar kan zijn van de bron – bestand of stream gedurende de levensduur van het exemplaar. Als het exemplaar eigenaar is, vergrendelt het de bron. Dit helpt het geheugenverbruik en de prestaties bij het werken met BLOB's te verbeteren, maar de bron (stream of bestand) kan niet worden gewijzigd gedurende de levensduur van de Presentation. Dit is een voorbeeld: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Het hoofdpad waar tijdelijke bestanden worden aangemaakt. Standaard wordt de systeemtijdelijke map gebruikt. Het hostproces moet permissies hebben om daar bestanden en mappen te maken. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Deze eigenschap bepaalt of een instantie van de Presentation class eigenaar kan zijn van de bron – een bestand of stream – gedurende de levensduur van de instantie. Als de instantie eigenaar is, wordt de bron vergrendeld. Dit helpt het geheugenverbruik en de prestaties bij het werken met BLOB's te verbeteren, maar de bron (stream of bestand) kan niet worden gewijzigd gedurende de levensduur van de Presentation-instantie. Dit is een voorbeeld: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Het hoofdpad waar tijdelijke bestanden worden aangemaakt. Standaard wordt de systeem-tijdelijke map gebruikt. Het host-proces moet permissies hebben om daar bestanden en mappen te creëren. |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

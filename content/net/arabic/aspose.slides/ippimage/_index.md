@@ -1,14 +1,14 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل صورةً في عرض تقديمي.
+second_title: مرجع API لـ Aspose.Sildes للـ .NET
+description: تمثّل صورة في عرض تقديمي.
 type: docs
 weight: 6550
 url: /ar/aspose.slides/ippimage/
 ---
 ## IPPImage واجهة
 
-يمثل صورةً في عرض تقديمي.
+تمثل صورة في عرض تقديمي.
 
 ```csharp
 public interface IPPImage
@@ -18,14 +18,14 @@ public interface IPPImage
 
 | الاسم | الوصف |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | تعيد نسخة من بيانات الصورة. قراءة فقط Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | تعيد نوع MIME للصورة، مشفر في [`BinaryData`](./binarydata). قراءة فقط String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | تعيد ارتفاع الصورة. قراءة فقط Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | تعيد نسخة من الصورة. قراءة فقط [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | تعيد أو تعين كائن ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ippimage/width) { get; } | تعيد عرض الصورة. قراءة فقط Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | تعيد إزاحة X للصورة. قراءة فقط Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | تعيد إزاحة Y للصورة. قراءة فقط Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | إرجاع نسخة من بيانات الصورة. للقراءة فقط Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | إرجاع نوع MIME للصورة، مشفر في [`BinaryData`](./binarydata). للقراءة فقط String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | إرجاع ارتفاع الصورة. للقراءة فقط Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | إرجاع نسخة من الصورة. للقراءة فقط [`Image`](./image). |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | إرجاع أو تعيين كائن ISvgImage [`ISvgImage`](../isvgimage) |
+| [Width](../../aspose.slides/ippimage/width) { get; } | إرجاع عرض الصورة. للقراءة فقط Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | إرجاع إزاحة X للصورة. للقراءة فقط Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | إرجاع إزاحة Y للصورة. للقراءة فقط Int32. |
 
 ## الطرق
 
@@ -35,7 +35,7 @@ public interface IPPImage
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | يستبدل الصورة. |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | يستبدل الصورة. |
 
-### انظر أيضًا
+### أنظر أيضاً
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: LegendDataLabelPosition
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: データ ラベルの位置を決定します。
 type: docs
-weight: 2270
+weight: 2290
 url: /ja/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition 列挙体
@@ -18,12 +18,12 @@ public enum LegendDataLabelPosition
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | 位置は未定義です。 |
+| NotDefined | `-1` | 位置が定義されていません。 |
 | Bottom | `0` | データ ラベルがデータ マーカーの下に表示されることを指定します。 |
 | BestFit | `1` | データ ラベルが最適な位置に表示されることを指定します。 |
 | Center | `2` | データ ラベルがデータ マーカーの中央に表示されることを指定します。 |
-| InsideBase | `3` | データ ラベルがデータ マーカーの基部内に表示されることを指定します。 |
-| InsideEnd | `4` | データ ラベルがデータ マーカーの端部内に表示されることを指定します。 |
+| InsideBase | `3` | データ ラベルがデータ マーカーの基部内部に表示されることを指定します。 |
+| InsideEnd | `4` | データ ラベルがデータ マーカーの端部内部に表示されることを指定します。 |
 | Left | `5` | データ ラベルがデータ マーカーの左側に表示されることを指定します。 |
 | OutsideEnd | `6` | データ ラベルがデータ マーカーの端部の外側に表示されることを指定します。 |
 | Right | `7` | データ ラベルがデータ マーカーの右側に表示されることを指定します。 |

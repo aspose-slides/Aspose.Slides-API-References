@@ -1,14 +1,14 @@
 ---
 title: FilterEffect
-second_title: Aspose.Sildes a .NET API referenciához
-description: A viselkedés szűrőhatását ábrázolja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A viselkedés szűrőhatását képviseli.
 type: docs
-weight: 350
+weight: 370
 url: /hu/aspose.slides.animation/filtereffect/
 ---
 ## FilterEffect osztály
 
-Képviseli a viselkedés szűrőhatását.
+A viselkedés szűrőhatását képviseli.
 
 ```csharp
 public class FilterEffect : Behavior, IFilterEffect
@@ -24,11 +24,11 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés más futó animációkkal van-e kombinálva. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait ábrázolja. Csak olvasás [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Azt jelzi, hogy a hatás a viselkedéssel együtt meg kell jelenjen (in/out). Olvasás/írás [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | A szűrőhatás altípusát jelenti. Olvasás/írás [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy a animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés más futó animációkkal kombinálva van-e. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait képviseli. Csak-olvasás [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Azt jelzi, hogy a hatás a viselkedéssel együtt felfedendő (be/ki). Olvasás/írás [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | A szűrőhatás altípusát jelöli. Olvasás/írás [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | A hatás viselkedésének időzítési tulajdonságait jelöli. Olvasás/írás [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | A szűrőhatás típusát jelöli. Olvasás/írás [`FilterEffectType`](../filtereffecttype). |
 

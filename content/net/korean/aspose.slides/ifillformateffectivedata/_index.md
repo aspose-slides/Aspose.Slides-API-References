@@ -1,14 +1,14 @@
 ---
 title: IFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과적인 채우기 서식 속성을 포함하는 불변 객체입니다.
+description: 효과적인 채우기 서식 속성을 포함하는 불변 객체.
 type: docs
 weight: 5800
 url: /ko/aspose.slides/ifillformateffectivedata/
 ---
 ## IFillFormatEffectiveData 인터페이스
 
-효과적인 채우기 서식 속성을 포함하는 불변 객체입니다.
+효과적인 채우기 서식 속성을 포함하는 불변 객체.
 
 ```csharp
 public interface IFillFormatEffectiveData : IFillParamSource
@@ -23,15 +23,15 @@ public interface IFillFormatEffectiveData : IFillParamSource
 | [GradientFormat](../../aspose.slides/ifillformateffectivedata/gradientformat) { get; } | 그라디언트 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ifillformateffectivedata/patternformat) { get; } | 패턴 채우기 형식을 반환합니다. 읽기 전용 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [PictureFillFormat](../../aspose.slides/ifillformateffectivedata/picturefillformat) { get; } | 그림 채우기 형식을 반환합니다. 읽기 전용 [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 채우기가 도형과 함께 회전되어야 하는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 채우기 색을 반환합니다. 읽기 전용 Color. |
-| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | 색 구성표에 의해 정의된 채우기 색을 가져옵니다. NotDefined 값은 [`SolidFillColor`](./solidfillcolor)가 스키마 색이 아님을 나타냅니다. 읽기 전용 [`SchemeColor`](../schemecolor). |
+| [RotateWithShape](../../aspose.slides/ifillformateffectivedata/rotatewithshape) { get; } | 채우기가 도형과 함께 회전되는지 여부를 결정합니다. 읽기 전용 Boolean. |
+| [SolidFillColor](../../aspose.slides/ifillformateffectivedata/solidfillcolor) { get; } | 채우기 색상을 반환합니다. 읽기 전용 Color. |
+| [SolidFillSchemeColor](../../aspose.slides/ifillformateffectivedata/solidfillschemecolor) { get; } | 색 구성표에 정의된 채우기 색상을 가져옵니다. NotDefined 값은 [`SolidFillColor`](./solidfillcolor)가 색 구성표 색상이 아님을 나타냅니다. 읽기 전용 [`SchemeColor`](../schemecolor). |
 
-### 비고
+### 참고
 
 이 인터페이스는 [`IFillFormat`](../ifillformat) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
 
-### 참고
+### 관련 보기
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

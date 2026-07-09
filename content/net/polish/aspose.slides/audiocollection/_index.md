@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
-second_title: Aspose.Sildes dla .NET – odniesienie do API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje kolekcję osadzonych plików audio.
 type: docs
-weight: 840
+weight: 860
 url: /pl/aspose.slides/audiocollection/
 ---
 ## AudioCollection klasa
 
-Reprezentuje kolekcję osadzonych plików audio.
+Represents a collection of embedded audio files.
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -19,7 +19,7 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/audiocollection/count) { get; } | Zwraca liczbę plików audio w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/audiocollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IAudio`](../iaudio). |
 | [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -27,11 +27,11 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Tworzy i dodaje dźwięk do prezentacji z tablicy bajtów. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Utworzy i doda audio do prezentacji z tablicy bajtów. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Dodaje kopię pliku audio z innej prezentacji. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Tworzy i dodaje dźwięk do prezentacji ze strumienia. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Tworzy i dodaje dźwięk do prezentacji ze strumienia. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopiuje pliki audio do określonej tablicy zaczynając od podanego indeksu. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Utworzy i doda audio do prezentacji ze strumienia. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Utworzy i doda audio do prezentacji ze strumienia. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopiuje pliki audio do określonej tablicy, zaczynając od podanego indeksu. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 
 ### Zobacz także

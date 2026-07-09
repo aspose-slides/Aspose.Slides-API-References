@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 실제 배경 속성을 포함하는 불변 객체.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 효과적인 배경 속성을 포함하는 불변 객체.
 type: docs
 weight: 5280
 url: /ko/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData 인터페이스
 
-실제 배경 속성을 포함하는 불변 객체.
+효과적인 배경 속성을 포함하는 불변 객체.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -16,17 +16,17 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | IFillParamSource 인터페이스를 반환합니다. |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 실제 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 실제 채우기 형식을 반환합니다. 읽기 전용 [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 효과적인 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 효과적인 채우기 형식을 반환합니다. 읽기 전용 [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### 비고
 
-이 인터페이스는 [`IBackground`](../ibackground) 인터페이스와 함께 사용되어 상속이 적용된 실제 서식 값을 반환합니다.
+이 인터페이스는 [`IBackground`](../ibackground) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: チャートのコンポーネントを表します。
 type: docs
-weight: 1770
+weight: 1790
 url: /ja/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent インターフェイス
@@ -18,8 +18,8 @@ public interface IChartComponent : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | チャートを返します。読み取り専用 [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。 読み取り専用 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | チャートを返します。 読み取り専用 [`IChart`](../ichart)。 |
 
 ### 参照
 

@@ -1,6 +1,6 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Alpha Inverse 효과를 나타냅니다. Alpha 불투명도 값은 100에서 빼서 반전됩니다.
 type: docs
 weight: 2870
@@ -24,9 +24,9 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | 지정된 [`AlphaInverse`](../alphainverse)가 현재 [`AlphaInverse`](../alphainverse)와 같은지 여부를 확인합니다. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | 지정된 [`AlphaInverse`](../alphainverse)가 현재 [`AlphaInverse`](../alphainverse)와 같은지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | 상속이 적용된 효과적인 Alpha Inverse 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | 특정 타입에 대한 해시 함수 역할을 합니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
 ### 참고
 

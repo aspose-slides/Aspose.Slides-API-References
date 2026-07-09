@@ -1,31 +1,31 @@
 ---
 title: MathDelimiterFactory
-second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
-description: Cho phép tạo một ký tự phân tách toán học
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Cho phép tạo dấu phân cách toán học
 type: docs
 weight: 8660
 url: /vi/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory lớp
 
-Cho phép tạo một ký tự phân tách toán học
+Cho phép tạo một dấu phân cách toán học
 
 ```csharp
 public class MathDelimiterFactory : IMathDelimiterFactory
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathDelimiterFactory](mathdelimiterfactory)() | Hàm khởi tạo mặc định. |
+| [MathDelimiterFactory](mathdelimiterfactory)() | Bộ khởi tạo mặc định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Tạo một ký tự phân tách toán học bằng cách áp dụng vào phần tử |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Tạo một ký tự phân tách toán học bằng cách áp dụng vào phần tử |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Tạo dấu phân cách toán học bằng cách áp dụng cho phần tử |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Tạo dấu phân cách toán học bằng cách áp dụng cho phần tử |
 
 ### Ghi chú
 

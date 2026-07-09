@@ -1,26 +1,26 @@
 ---
 title: IMathBlockFactory
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 数式ブロックを作成できます
+description: 数式ブロックの作成を可能にします
 type: docs
-weight: 8140
+weight: 8160
 url: /ja/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory インターフェイス
 
-数式ブロックを作成できます
+数式ブロックを作成することができます
 
 ```csharp
 public interface IMathBlockFactory
 ```
 
-## メソッド
+## Methods
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | 数式ブロックを作成します |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 数式ブロックを作成し、要素をその中に配置します |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 数式ブロックを作成し、要素をその中に配置します |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 数式ブロックを作成し、その中に要素を配置します |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 数式ブロックを作成し、その中に要素を配置します |
 
 ### 備考
 

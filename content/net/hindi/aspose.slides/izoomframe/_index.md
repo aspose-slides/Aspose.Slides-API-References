@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक स्लाइड में Slide Zoom ऑब्जेक्ट का प्रतिनिधित्व करता है।
+description: एक स्लाइड में Slide Zoom वस्तु का प्रतिनिधित्व करता है।
 type: docs
 weight: 7400
 url: /hi/aspose.slides/izoomframe/
 ---
-## IZoomFrame इंटरफ़ेस
+## IZoomFrame interface
 
-स्लाइड में एक Slide Zoom ऑब्जेक्ट का प्रतिनिधित्व करता है।
+Slide में एक Slide Zoom वस्तु का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -18,10 +18,10 @@ public interface IZoomFrame : IZoomObject
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | IZoomObject इंटरफ़ेस लौटाता है। |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom ऑब्जेक्ट से लिंक करने वाले स्लाइड ऑब्जेक्ट को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`ISlide`](../islide)। |
+| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | वापस करता है IZoomObject इंटरफ़ेस। |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | स्लाइड ऑब्जेक्ट को प्राप्त करता है या सेट करता है जिससे Slide Zoom ऑब्जेक्ट लिंक किया गया है। पढ़ने/लिखने [`ISlide`](../islide)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IZoomObject](../izoomobject)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

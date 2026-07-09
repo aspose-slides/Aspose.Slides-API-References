@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek tak dapat diubah yang mewakili properti format 3-D yang efektif.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Objek tidak dapat diubah yang mewakili properti pemformatan 3-D yang efektif.
 type: docs
-weight: 7320
+weight: 7340
 url: /id/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData antarmuka
 
-Objek yang tidak dapat diubah yang mewakili properti format 3-D yang efektif.
+Objek tidak dapat diubah yang mewakili properti pemformatan 3-D yang efektif.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,7 +18,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Memungkinkan untuk mendapatkan antarmuka IThreeDParamSource dasar. Hanya-baca [`IThreeDParamSource`](../ithreedparamsource). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Mengizinkan untuk mendapatkan antarmuka IThreeDParamSource dasar. Hanya-baca [`IThreeDParamSource`](../ithreedparamsource). |
 | [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Mengembalikan tipe bevel 3D bagian bawah. Hanya-baca [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Mengembalikan tipe bevel 3D bagian atas. Hanya-baca [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Mengembalikan pengaturan kamera. Hanya-baca [`ICameraEffectiveData`](../icameraeffectivedata). |
@@ -32,7 +32,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`IThreeDFormat`](../ithreedformat) untuk mengembalikan nilai format yang efektif dengan pewarisan diterapkan.
+Antarmuka ini digunakan bersama dengan [`IThreeDFormat`](../ithreedformat) antarmuka untuk mengembalikan nilai pemformatan yang efektif dengan pewarisan yang diterapkan.
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes for .NET API 參考資料
-description: 確定軸的位置。
+second_title: Aspose.Sildes for .NET API 參考
+description: 決定軸的位置。
 type: docs
 weight: 1210
 url: /zh-hant/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType 列舉
 
-確定軸的位置。
+決定軸的位置。
 
 ```csharp
 public enum AxisPositionType
@@ -16,12 +16,12 @@ public enum AxisPositionType
 
 ### 值
 
-| 名稱 | 數值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Bottom | `0` | 指定軸應顯示在繪圖區域的底部。 |
-| Left | `1` | 指定軸應顯示在繪圖區域的左側。 |
-| Right | `2` | 指定軸應顯示在繪圖區域的右側。 |
-| Top | `3` | 指定軸應顯示在繪圖區域的頂部。 |
+| Bottom | `0` | 指定軸將顯示在繪圖區域的底部。 |
+| Left | `1` | 指定軸將顯示在繪圖區域的左側。 |
+| Right | `2` | 指定軸將顯示在繪圖區域的右側。 |
+| Top | `3` | 指定軸將顯示在繪圖區域的頂部。 |
 
 ### 另請參閱
 

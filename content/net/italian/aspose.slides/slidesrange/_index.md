@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Intervallo diapositive
 type: docs
-weight: 10510
+weight: 10530
 url: /it/aspose.slides/slidesrange/
 ---
 ## SlidesRange classe

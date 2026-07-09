@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Ένα Binary Large Object (BLOB) είναι δυαδικά δεδομένα που αποθηκεύονται ως μία ενιαία οντότητα – δηλαδή το BLOB μπορεί να είναι ήχο, βίντεο ή η ίδια η παρουσίαση. Χρησιμοποιούνται διάφορες τεχνικές για τη βελτιστοποίηση της κατανάλωσης μνήμης κατά την εργασία με BLOB, τα οποία μπορεί να είναι ήδη αποθηκευμένα στην παρουσίαση ή να προστεθούν αργότερα προγραμματιστικά. Χρησιμοποιώντας IBlobManagementOptions./iblobmanagementoptions μπορείτε να αλλάξετε διαφορετικές πτυχές της συμπεριφοράς σχετικά με τη διαχείριση των BLOB για τη διάρκεια ζωής της IPresentation./ipresentation.
+description: Ένα Binary Large Object (BLOB) είναι ένα δυαδικό δεδομένο που αποθηκεύεται ως μία ενιαία οντότητα - δηλαδή το BLOB μπορεί να είναι ήχου, βίντεο ή παρουσίαση από μόνο του. Χρησιμοποιούνται πολλές τεχνικές για τη βελτιστοποίηση της κατανάλωσης μνήμης κατά την εργασία με BLOBs - που έχουν ήδη αποθηκευτεί στην παρουσίαση ή προστίθενται αργότερα προγραμματιστικά. Με τη χρήση IBlobManagementOptions./iblobmanagementoptions μπορείτε να αλλάξετε διαφορετικές πτυχές της συμπεριφοράς σχετικά με τη διαχείριση των BLOBs για τη διάρκεια ζωής του IPresentation./ipresentation αντικειμένου.
 type: docs
-weight: 5350
+weight: 5370
 url: /el/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions διασύνδεση
 
-Ένα Binary Large Object (BLOB) είναι ένας δυαδικός δεδομένων που αποθηκεύεται ως μία ενιαία οντότητα – δηλαδή το BLOB μπορεί να είναι ήχος, βίντεο ή η ίδια η παρουσίαση. Χρησιμοποιούνται διάφορες τεχνικές για τη βελτιστοποίηση της χρήσης μνήμης κατά την εργασία με BLOB, τα οποία μπορεί να είναι ήδη αποθηκευμένα στην παρουσίαση ή να προστεθούν αργότερα προγραμματικά. Με τη χρήση του [`IBlobManagementOptions`](../iblobmanagementoptions) μπορείτε να αλλάξετε διαφορετικές πτυχές της συμπεριφοράς σχετικά με τη διαχείριση των BLOB για τη διάρκεια ζωής του αντικειμένου [`IPresentation`](../ipresentation).
+A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using [`IBlobManagementOptions`](../iblobmanagementoptions) you can change a different behavior aspects regarding BLOBs handling for the [`IPresentation`](../ipresentation) instance lifetime.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Αυτή η ιδιότητα καθορίζει αν μπορούν να δημιουργηθούν προσωρινά αρχεία κατά την εργασία με BLOB, κάτι που μειώνει σημαντικά τη χρήση μνήμης, αλλά απαιτεί δικαιώματα δημιουργίας αρχείων. Όλα τα αρχεία θα διαγραφούν μετά το τέλος της εργασίας με την παρουσίαση. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Καθορίζει το μέγιστο συνολικό μέγεθος (σε byte) που μπορούν να καταλαμβάνουν στη μνήμη όλα τα BLOB. Από προεπιλογή, όλα τα BLOB φορτώνονται στη μνήμη· μόνο όταν φτάσει αυτό το όριο χρησιμοποιούνται εναλλακτικοί μηχανισμοί (όπως προσωρινά αρχεία). Η διατήρηση των BLOB στη μνήμη μεγιστοποιεί την απόδοση αλλά μπορεί να οδηγήσει σε υψηλή χρήση μνήμης. Χρησιμοποιήστε αυτή την ιδιότητα για να προσαρμόσετε τη συμπεριφορά στο περιβάλλον ή τις απαιτήσεις σας. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Αυτή η ιδιότητα καθορίζει αν μια παρουσία της κλάσης Presentation μπορεί να είναι ιδιοκτήτης της πηγής – αρχείου ή ροής – κατά τη διάρκεια της ζωής της παρουσίασης. Εάν η παρουσία είναι ιδιοκτήτης, κλειδώνει την πηγή. Αυτό βοηθά στη βελτίωση της κατανάλωσης μνήμης και της απόδοσης κατά την εργασία με BLOB, αλλά η πηγή (ροή ή αρχείο) δεν μπορεί να αλλάξει κατά τη διάρκεια της ζωής της Presentation. Αυτό είναι ένα παράδειγμα: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Η ριζική διαδρομή όπου θα δημιουργηθούν τα προσωρινά αρχεία. Ο σύστημα προσωρινών φακέλων θα χρησιμοποιηθεί από προεπιλογή. Η διαδικασία φιλοξενίας πρέπει να έχει δικαιώματα δημιουργίας αρχείων και φακέλων εκεί. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Αυτή η ιδιότητα ορίζει εάν μπορούν να δημιουργηθούν προσωρινά αρχεία κατά την εργασία με BLOBs, κάτι που μειώνει σημαντικά τη διαχείριση μνήμης αλλά απαιτεί δικαιώματα δημιουργίας αρχείων. Όλα τα αρχεία θα διαγραφούν μετά το πέρας της εργασίας με την παρουσίαση. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Καθορίζει το μέγιστο συνολικό μέγεθος (σε bytes) που μπορούν να καταλαμβάνουν όλα τα BLOBs στη μνήμη. Από προεπιλογή, όλα τα BLOBs φορτώνονται στη μνήμη· μόνο όταν αυτό το όριο φτάσει εφαρμόζονται εναλλακτικοί μηχανισμοί (όπως προσωρινά αρχεία). Η διατήρηση των BLOBs στη μνήμη βελτιστοποιεί την απόδοση αλλά μπορεί να οδηγήσει σε υψηλή χρήση μνήμης. Χρησιμοποιήστε αυτή την ιδιότητα για να προσαρμόσετε τη συμπεριφορά στο περιβάλλον ή τις απαιτήσεις σας. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Αυτή η ιδιότητα ορίζει εάν ένα αντικείμενο της κλάσης Presentation μπορεί να είναι ιδιοκτήτης της πηγής – αρχείου ή ροής κατά τη διάρκεια της ζωής του αντικειμένου. Εάν το αντικείμενο είναι ιδιοκτήτης, κλειδώνει την πηγή. Αυτό βοηθά στη βελτίωση της χρήσης μνήμης και της απόδοσης κατά την εργασία με BLOBs, αλλά η πηγή (ροή ή αρχείο) δεν μπορεί να αλλάξει κατά τη διάρκεια της ζωής του Presentation. Αυτό είναι ένα παράδειγμα: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Η ρίζα διαδρομή όπου θα δημιουργούνται τα προσωρινά αρχεία. Ο φάκελος προσωρινών αρχείων του συστήματος θα χρησιμοποιηθεί από προεπιλογή. Η διαδικασία φιλοξενίας πρέπει να διαθέτει δικαιώματα δημιουργίας αρχείων και φακέλων εκεί. |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

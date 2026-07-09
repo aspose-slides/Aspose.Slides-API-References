@@ -1,20 +1,20 @@
 ---
 title: TiffCompressionTypes
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति TIFF प्रारूप में कैसे संकुचित की जाती है।
+description: प्रस्तुति को TIFF प्रारूप में कैसे संकुचित किया जाता है, इसे नियंत्रित करने वाले विकल्प प्रदान करता है।
 type: docs
 weight: 4560
 url: /hi/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes एन्यूमरेशन
 
-विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति TIFF प्रारूप में कैसे संकुचित की जाती है।
+पेशकश करता है विकल्प जो नियंत्रित करते हैं कि प्रस्तुति TIFF प्रारूप में कैसे संकुचित की जाती है।
 
 ```csharp
 public enum TiffCompressionTypes
 ```
 
-### Values
+### मान
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ public enum TiffCompressionTypes
 | LZW | `4` | LZW संपीड़न योजना (डिफ़ॉल्ट) निर्दिष्ट करता है। |
 | RLE | `5` | RLE संपीड़न योजना निर्दिष्ट करता है। |
 
-### देखें भी
+### देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

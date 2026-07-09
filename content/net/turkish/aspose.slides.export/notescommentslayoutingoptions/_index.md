@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: Dışa aktarılan belgede notların ve yorumların yerleşim görünümünü kontrol eden seçenekleri sağlar.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Dışa aktarılan belgede notların ve yorumların yerleşim görünümünü kontrol eden seçenekler sağlar.
 type: docs
-weight: 4270
+weight: 4290
 url: /tr/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions sınıfı
 
-Dışa aktarılan belgede notların ve yorumların yerleşim görünümünü kontrol eden seçenekleri sağlar.
+İhracat belgesinde notların ve yorumların yerleşim görünümünü kontrol eden seçenekler sağlar.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,11 +24,11 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Yorum alanının rengini alır veya ayarlar (Yorumlar sağda görüntüleniyorsa uygulanır). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Yorum çıkış alanının genişliğini piksel cinsinden alır veya ayarlar (Yorumlar sağda görüntüleniyorsa uygulanır). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Yorumların sayfa üzerindeki konumunu alır veya ayarlar. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Notların sayfa üzerindeki konumunu alır veya ayarlar. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Yazar olmayan yorumların görünürlüğünü alır veya ayarlar. Doğru ise yorumlar görüntülenecektir. (Yorumlar görüntüleniyorsa uygulanır). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Yorum alanının rengini alır veya ayarlar (Yalnızca yorumlar sağda görüntülendiğinde geçerlidir). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Yorum çıkış alanının genişliğini piksel cinsinden alır veya ayarlar (Yalnızca yorumlar sağda görüntülendiğinde geçerlidir). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Sayfa üzerindeki yorumların konumunu alır veya ayarlar. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Sayfa üzerindeki notların konumunu alır veya ayarlar. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Yazarı olmayan yorumların görünürlüğünü alır veya ayarlar. True ise yorumlar görüntülenir. (Yalnızca yorumlar görüntülendiğinde geçerlidir). |
 
 ### Ayrıca Bakınız
 

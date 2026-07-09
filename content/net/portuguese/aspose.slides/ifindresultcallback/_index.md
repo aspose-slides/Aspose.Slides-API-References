@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes para .NET Referência da API
-description: Interface de callback usada para obter o resultado da pesquisa de texto.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Interface de callback usada para obter resultado de pesquisa de texto.
 type: docs
-weight: 5800
+weight: 5820
 url: /pt/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback interface
 
-Interface de callback usada para obter o resultado da pesquisa de texto.
+Interface de callback usada para obter resultado de pesquisa de texto.
 
 ```csharp
 public interface IFindResultCallback
@@ -20,7 +20,7 @@ public interface IFindResultCallback
 | --- | --- |
 | [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Método de callback que recebe dados sobre o texto encontrado. |
 
-### Veja também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

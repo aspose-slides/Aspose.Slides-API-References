@@ -1,14 +1,14 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: 수학 단락을 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 수학 단락을 만들 수 있습니다
 type: docs
 weight: 8400
 url: /ko/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory 인터페이스
 
-수학 단락을 생성할 수 있습니다
+수학 단락을 만들 수 있습니다
 
 ```csharp
 public interface IMathParagraphFactory
@@ -25,7 +25,7 @@ public interface IMathParagraphFactory
 
 COM 호환성을 위해
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

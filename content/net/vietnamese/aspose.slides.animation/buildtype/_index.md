@@ -1,14 +1,14 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định cách văn bản sẽ hiển thị trên một hình dạng trong quá trình hoạt hình.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định cách văn bản sẽ hiển thị trên hình dạng trong quá trình hoạt hình.
 type: docs
 weight: 210
 url: /vi/aspose.slides.animation/buildtype/
 ---
-## BuildType liệt kê
+## Kiểu liệt kê BuildType
 
-Xác định cách văn bản sẽ hiển thị trên một hình dạng trong quá trình hoạt hình.
+Xác định cách văn bản sẽ hiển thị trên hình dạng trong quá trình hoạt hình.
 
 ```csharp
 public enum BuildType
@@ -19,12 +19,12 @@ public enum BuildType
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | AsOneObject | `0` | Với hình dạng chứa. |
-| AllParagraphsAtOnce | `1` | Tất cả các đoạn văn. |
-| ByLevelParagraphs1 | `2` | Theo nhóm các đoạn văn độ sâu 1. |
-| ByLevelParagraphs2 | `3` | Theo nhóm các đoạn văn độ sâu 2. |
-| ByLevelParagraphs3 | `4` | Theo nhóm các đoạn văn độ sâu 3. |
-| ByLevelParagraphs4 | `5` | Theo nhóm các đoạn văn độ sâu 4. |
-| ByLevelParagraphs5 | `6` | Theo nhóm các đoạn văn độ sâu 5. |
+| AllParagraphsAtOnce | `1` | Tất cả các đoạn. |
+| ByLevelParagraphs1 | `2` | Theo nhóm các đoạn có độ sâu 1. |
+| ByLevelParagraphs2 | `3` | Theo nhóm các đoạn có độ sâu 2. |
+| ByLevelParagraphs3 | `4` | Theo nhóm các đoạn có độ sâu 3. |
+| ByLevelParagraphs4 | `5` | Theo nhóm các đoạn có độ sâu 4. |
+| ByLevelParagraphs5 | `6` | Theo nhóm các đoạn có độ sâu 5. |
 
 ### Xem thêm
 

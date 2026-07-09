@@ -1,14 +1,14 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili tema yang menimpa.
 type: docs
-weight: 11320
-url: /id/aspose.slides.theme/ioverridetheme/
+weight: 11340
+url: /id/aspose.slides.theme/ioverridethema/
 ---
 ## IOverrideTheme antarmuka
 
-Mewakili tema yang menimpa.
+Represents a overriding theme.
 
 ```csharp
 public interface IOverrideTheme : ITheme
@@ -18,7 +18,7 @@ public interface IOverrideTheme : ITheme
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Memungkinkan untuk mendapatkan antarmuka ITheme dasar. Hanya-baca [`ITheme`](../itheme). |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Mengizinkan untuk mendapatkan antarmuka ITheme dasar. Hanya-baca [`ITheme`](../itheme). |
 | [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Nilai true berarti bahwa ColorScheme, FontScheme, FormatScheme bernilai null dan semua penimpaan dengan objek tema ini dinonaktifkan. Hanya-baca Boolean. |
 
 ## Metode
@@ -28,13 +28,13 @@ public interface IOverrideTheme : ITheme
 | [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Atur ColorScheme, FontScheme, FormatScheme menjadi null untuk menonaktifkan semua penimpaan dengan objek tema ini. |
 | [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Inisialisasi ColorScheme dengan objek baru untuk menimpa ColorScheme dari InheritedTheme. |
 | [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Inisialisasi ColorScheme dengan objek baru untuk menimpa ColorScheme dari InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inisialisasi ColorScheme dengan objek baru untuk menimpa ColorScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data ColorScheme dari InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Inisialisasi ColorScheme dengan objek baru untuk menimpa ColorScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data dari ColorScheme InheritedTheme. |
 | [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Inisialisasi FontScheme dengan objek baru untuk menimpa FontScheme dari InheritedTheme. |
 | [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Inisialisasi FontScheme dengan objek baru untuk menimpa FontScheme dari InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inisialisasi FontScheme dengan objek baru untuk menimpa FontScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data FontScheme dari InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Inisialisasi FontScheme dengan objek baru untuk menimpa FontScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data dari FontScheme InheritedTheme. |
 | [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Inisialisasi FormatScheme dengan objek baru untuk menimpa FormatScheme dari InheritedTheme. |
 | [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Inisialisasi FormatScheme dengan objek baru untuk menimpa FormatScheme dari InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inisialisasi FormatScheme dengan objek baru untuk menimpa FormatScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data FormatScheme dari InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Inisialisasi FormatScheme dengan objek baru untuk menimpa FormatScheme dari InheritedTheme. Dan menginisialisasi data objek baru ini dengan data dari FormatScheme InheritedTheme. |
 
 ### Lihat Juga
 

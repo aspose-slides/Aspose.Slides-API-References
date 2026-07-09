@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar delimiter-objektet som består av öppnings- och stängningstecken såsom parenteser, klammerparenteser, hakparenteser och vertikala streck samt ett eller flera matematiska element inuti som separeras av ett specificerat tecken. Exempel 2 2x7C2
+description: Specificerar delimiter-objektet som består av öppnings- och stängnings-tecken såsom parenteser, klammerparenteser, hakparenteser och vertikala streck samt ett eller flera matematiska element inuti som separeras av ett specificerat tecken. Exempel 2 2x7C2
 type: docs
-weight: 8190
+weight: 8210
 url: /sv/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter gränssnitt
 
-Specificerar delimiter-objektet, bestående av öppnings- och stängningstecken (såsom parenteser, klammerparenteser, hakparenteser och vertikala streck), och ett eller flera matematiska element inuti, separerade av ett specificerat tecken. Exempel: (𝑥2); [𝑥2&#x7C;𝑦2]
+Specificerar delimiter-objektet, bestående av öppnings- och stängnings-tecken (såsom parenteser, klammerparenteser, hakparenteser och vertikala streck), samt ett eller flera matematiska element inuti, separerade av ett angivet tecken. Exempel: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -18,19 +18,19 @@ public interface IMathDelimiter : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Ett eller flera matematiska element separerade av delimiter-tecken |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Ett eller flera matematiska element separerade av avgränsartecken |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnittet [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character specificerar början, eller öppning, delimiter-tecken. Matematiska delimiters är omslutande tecken såsom parenteser, hakparenteser och klammerparenteser. Standardvärdet: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Specificerar formen på delimiters i delimiter-objektet. När MathDelimiterShape.Centered används, centrerar delimiters kring den matematiska axeln för den matematiska texten och anpassas för att passa hela höjden av deras innehåll. När MathDelimiterShape.Match används, ändras deras höjd och form för att exakt matcha deras innehåll. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character specificerar slutet, eller stängnings-, delimiter-tecket. Matematiska delimiters är omslutande tecken såsom parenteser, hakparenteser och klammerparenteser. Standard: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Specificerar tillväxten för BeginningCharacter, SeparatorCharacter, EndingCharacter. När true, växer delimiters vertikalt för att matcha operandens höjd. Standardvärdet är true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character specificerar tecknet som separerar argument i delimiter-objektet. Standard: '&#x7C;'. |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character specificerar början, eller det öppnings-delimiter-tecknet. Matematiska delimitrar är inneslutande tecken såsom parenteser, hakparenteser och klammerparenteser. Standardvärdet: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Specificerar formen på delimitrar i delimiter-objektet. När MathDelimiterShape.Centered är delimitrarna centrerade kring den matematiska axeln i den matematiska texten och anpassas för att fylla hela höjden på deras innehåll. När MathDelimiterShape.Match är deras höjd och form justerade för att exakt matcha innehållet. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character specificerar slutet, eller det avslutande delimiter-tecknet. Matematiska delimitrar är inneslutande tecken såsom parenteser, hakparenteser och klammerparenteser. Standard: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Specificerar tillväxten för BeginningCharacter, SeparatorCharacter, EndingCharacter. När true växer delimitrarna vertikalt för att matcha operandens höjd. Standardvärdet är true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character specificerar tecknet som separerar argumenten i delimiter-objektet. Standard: '&#x7C;'. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Delimiterar argument med det specificerade delimiter-tecknet |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Avgränsar argument med det angivna delimiter-tecknet |
 
 ### Exempel
 
@@ -42,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-### Se också
+### Se även
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Dia-overgangseffect in links-rechts richting.
+description: Slide-overgangseffect in linkse-rechtse richting.
 type: docs
 weight: 10240
 url: /nl/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition klasse
 
-Dia-overgangseffect in links-rechts richting.
+Slide-overgangseffect in linkse-rechtse richting.
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,7 +18,7 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Richting van overgang. Lezen/Schrijven [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | Richting van de overgang. Lezen/Schrijven [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 
 ## Methoden
 

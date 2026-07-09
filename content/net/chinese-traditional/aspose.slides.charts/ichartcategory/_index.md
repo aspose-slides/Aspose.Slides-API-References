@@ -1,7 +1,7 @@
 ---
 title: IChartCategory
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示圖表類別。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表圖表類別。
 type: docs
 weight: 1750
 url: /zh-hant/aspose.slides.charts/ichartcategory/
@@ -18,11 +18,11 @@ public interface IChartCategory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | 傳回或設定 IChartDataCell 物件。如類別是多層級，則在等級「0」時使用 IChartDataCell 物件。可讀寫 [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | 當 UseCell 為 false 時，傳回或設定 AsLiteral。可讀寫 Object。 |
-| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | 受管理的容器，保存圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級的索引從零開始。唯讀 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
-| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | 若為 true，則 AsCell 屬性為實際使用的屬性。換言之，工作表用於儲存類別（此情況支援多層級類別）。若為 false，則 AsLiteral 屬性為實際使用的屬性。換言之，工作表不會用於儲存類別（此情況不支援多層級類別）。唯讀 Boolean。 |
-| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | 若 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。若 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 Object。 |
+| [AsCell](../../aspose.slides.charts/ichartcategory/ascell) { get; set; } | 取得或設定 IChartDataCell 物件。若類別為多層級，則在層級「0」使用 IChartDataCell 物件。可讀寫 [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteral](../../aspose.slides.charts/ichartcategory/asliteral) { get; set; } | 取得或設定 AsLiteral（當 UseCell 為 false 時）。可讀寫 Object。 |
+| [GroupingLevels](../../aspose.slides.charts/ichartcategory/groupinglevels) { get; } | 受管理的容器，用於儲存圖表類別分組層級的值。多層級類別包含多個分組層級。分組層級的索引從零開始。唯讀 [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager)。 |
+| [UseCell](../../aspose.slides.charts/ichartcategory/usecell) { get; } | 如果為 true，則 AsCell 屬性為實際值。換句話說，工作表用於儲存類別（此情況支援多層級類別）。如果為 false，則 AsLiteral 屬性為實際值。換句話說，工作表不用於儲存類別（此情況不支援多層級類別）。唯讀 Boolean。 |
+| [Value](../../aspose.slides.charts/ichartcategory/value) { get; set; } | 如果 UseCell 為 true，則此屬性代表 AsCell.Value 屬性。若 UseCell 為 false，則此屬性代表 AsLiteral 屬性。可讀寫 Object。 |
 
 ## 方法
 

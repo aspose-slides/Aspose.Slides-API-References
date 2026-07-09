@@ -1,12 +1,12 @@
 ---
 title: IXpsOptions
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes .NET API referencia
 description: Lehetőségeket biztosít, amelyek szabályozzák, hogyan mentődik a bemutató XPS formátumban.
 type: docs
-weight: 4180
+weight: 4200
 url: /hu/aspose.slides.export/ixpsoptions/
 ---
-## IXsOptions interfész
+## IXpsOptions interfész
 
 Lehetőségeket biztosít, amelyek szabályozzák, hogyan mentődik a bemutató XPS formátumban.
 
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Igaz érték esetén fekete keret rajzolása minden dia körül. Olvasás/írás Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Igaz érték esetén az összes metafájl konvertálása PNG képekké. Olvasás/írás Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Meghatározza, hogy a generált dokumentumban legyenek-e rejtett diák. Alapértelmezett érték `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Igaz, ha fekete keretet kell rajzolni minden diára. Olvasás/írás Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Igaz, ha a bemutatóban használt összes metafájlt PNG képekké kell konvertálni. Olvasás/írás Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákat vagy sem. Alapértelmezett érték a `false`. |
 
 ### Lásd még
 

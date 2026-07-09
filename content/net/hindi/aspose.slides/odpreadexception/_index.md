@@ -1,28 +1,28 @@
 ---
 title: OdpReadException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेजेंटेशन पढ़ने की त्रुटियों पर उत्पन्न होने वाले अपवाद का प्रतिनिधित्व करता है।
+description: प्रेज़ेंटेशन पढ़ने की त्रुटियों पर फेंके जाने वाले अपवाद का प्रतिनिधित्व करता है।
 type: docs
 weight: 9220
 url: /hi/aspose.slides/odpreadexception/
 ---
 ## OdpReadException क्लास
 
-प्रेजेंटेशन पढ़ने की त्रुटियों पर उत्पन्न होने वाले अपवाद का प्रतिनिधित्व करता है।
+प्रेज़ेंटेशन पढ़ने की त्रुटियों पर फेंके जाने वाले अपवाद का प्रतिनिधित्व करता है।
 
 ```csharp
 public class OdpReadException : OdpException
 ```
 
-## कन्स्ट्रक्टर्स
+## कंस्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [OdpReadException](odpreadexception#constructor)() | डिफ़ॉल्ट कन्स्ट्रक्टर |
-| [OdpReadException](odpreadexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला कन्स्ट्रक्टर। |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | संदेश और अंतर्निहित अपवाद शामिल करने वाले अपवाद के लिए कन्स्ट्रक्टर। |
+| [OdpReadException](odpreadexception#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर |
+| [OdpReadException](odpreadexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला कंस्ट्रक्टर। |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | एक संदेश और एम्बेडेड अपवाद वाले अपवाद के लिए कंस्ट्रक्टर। |
 
-### संबंधित देखें
+### आगे देखें
 
 * क्लास [OdpException](../odpexception)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

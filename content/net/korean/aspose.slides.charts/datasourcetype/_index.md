@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Worksheet | `0` | 워크시트에 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 저장하기 위해 CellXls 개체를 사용합니다. |
-| StringLiterals | `1` | 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 저장하기 위해 빠른 접근 문자열 변수를 사용합니다. 워크시트는 값을 저장하는 데 사용되지 않습니다. |
-| DoubleLiterals | `2` | 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 저장하기 위해 빠른 접근 double 변수를 사용합니다. 워크시트는 값을 저장하는 데 사용되지 않습니다. |
+| Worksheet | `0` | 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 워크시트에 저장하기 위해 CellXls 객체를 사용합니다. |
+| StringLiterals | `1` | 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 저장하기 위해 빠른 액세스 문자열 변수를 사용합니다. 워크시트는 값을 저장하는 데 사용되지 않습니다. |
+| DoubleLiterals | `2` | 데이터 포인트의 XValue, YValue, Value 또는 BubbleSize를 저장하기 위해 빠른 액세스 double 변수를 사용합니다. 워크시트는 값을 저장하는 데 사용되지 않습니다. |
 
 ### 참고
 

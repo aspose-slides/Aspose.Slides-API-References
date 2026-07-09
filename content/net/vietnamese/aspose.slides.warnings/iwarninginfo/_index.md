@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một giao diện cơ sở cho tất cả các cảnh báo.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn giao diện cơ bản cho tất cả các cảnh báo.
 type: docs
 weight: 11810
 url: /vi/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo giao diện
 
-Biểu diễn một giao diện cơ sở cho tất cả các cảnh báo.
+Represents a base interface for all warnings.
 
 ```csharp
 public interface IWarningInfo
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | Tên | Mô tả |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Trả về mô tả có thể đọc được cho người dùng của cảnh báo này. Chỉ đọc String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Trả về kiểu cảnh báo. Chỉ đọc [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | Trả về mô tả có thể đọc được cho người dùng về cảnh báo này. Chỉ đọc String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | Trả về loại cảnh báo. Chỉ đọc [`WarningType`](./warningtype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Nếu receiver không phải null, kết thúc cảnh báo cho một receiver được chỉ định và ném AbortRequestedException nếu receiver quyết định hủy một thao tác. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | Nếu receiver không null, kết thúc cảnh báo cho một receiver được chỉ định và ném AbortRequestedException nếu receiver quyết định hủy bỏ một thao tác. |
 
 ### Xem thêm
 

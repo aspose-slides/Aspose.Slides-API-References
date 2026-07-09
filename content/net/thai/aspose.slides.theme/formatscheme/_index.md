@@ -1,7 +1,7 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: จัดเก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง.
 type: docs
 weight: 11140
 url: /th/aspose.slides.theme/formatscheme/
@@ -16,14 +16,14 @@ public class FormatScheme : IFormatScheme
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | ส่งคืนคอลเลกชันของสไตล์เติมพื้นหลังที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | ส่งคืนคอลเลกชันของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม. อ่านอย่างเดียว [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | ส่งคืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | ส่งคืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม. อ่านอย่างเดียว [`ILineFormatCollection`](../ilineformatcollection). |
-| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | ส่งคืนการนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | ส่งคืนสไลด์แม่. อ่านอย่างเดียว [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | คืนค่าชุดของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | คืนค่าชุดของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม. อ่านอย่างเดียว [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | คืนค่าชุดของสไตล์การเติมที่กำหนดโดยธีม. อ่านอย่างเดียว [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | คืนค่าชุดของสไตล์เส้นที่กำหนดโดยธีม. อ่านอย่างเดียว [`ILineFormatCollection`](../ilineformatcollection). |
+| [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | คืนค่าการนำเสนอหลัก. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | คืนค่าหน้าสไลด์หลัก. อ่านอย่างเดียว [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### ดูเพิ่มเติม
 

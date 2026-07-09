@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内の画像を表します。
 type: docs
-weight: 9360
+weight: 9380
 url: /ja/aspose.slides/picture/
 ---
 ## Picture クラス
@@ -18,12 +18,12 @@ public sealed class Picture : ISlidesPicture
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Image](../../aspose.slides/picture/image) { get; set; } | 埋め込み画像を取得または設定します。 読み書き可能 [`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 画像変換エフェクトのコレクションを返します。 読み取り専用 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | リンクされた画像の URL を取得または設定します。 読み書き可能 String。 |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | プレゼンテーションを返します。 読み取り専用 [`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/picture/slide) { get; } | 画像の親スライドを返します。 読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | 埋め込み画像を取得または設定します。読み取り/書き込み [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 画像変換エフェクトのコレクションを返します。読み取り専用 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | リンクされた画像の URL を取得または設定します。読み取り/書き込み String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | 画像の親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide). |
 
 ## メソッド
 
@@ -32,7 +32,7 @@ public sealed class Picture : ISlidesPicture
 | override [Equals](../../aspose.slides/picture/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/picture/gethashcode)() | ハッシュを返します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISlidesPicture](../islidespicture)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

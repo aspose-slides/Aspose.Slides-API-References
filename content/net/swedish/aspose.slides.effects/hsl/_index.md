@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en nyans/mättnad/ljusstyrkeeffekt. Nyans, mättnad och ljusstyrka kan var och en justeras relativt sitt aktuella värde.
+description: Representerar en Hue/Saturation/Luminance-effekt. Hue, Saturation och Luminance kan var och en justeras relativt sitt aktuella värde.
 type: docs
-weight: 2990
+weight: 3010
 url: /sv/aspose.slides.effects/hsl/
 ---
 ## HSL-klass
 
-Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.
+Representerar en nyans/mättnad/luminans-effekt. Nyansen, mättnaden och luminansen kan var och en justeras relativt sitt nuvarande värde.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,15 +18,15 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnitt. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta grund-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Bestämmer om den angivna [`HSL`](../hsl) är lika med den aktuella [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Hämtar den effektiva Hue/Saturation/Luminance-effektdatan med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Hämtar effektiv Hue/Saturation/Luminance-effektdat med arv tillämpat. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Fungera som en hash-funktion för en given typ. |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn thông tin dữ liệu được nhúng cho đối tượng OLE.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện thông tin dữ liệu được nhúng cho đối tượng OLE.
 type: docs
 weight: 6530
 url: /vi/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo giao diện
 
-Biểu diễn thông tin dữ liệu được nhúng cho đối tượng OLE.
+Đại diện thông tin dữ liệu được nhúng cho đối tượng OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,10 +18,10 @@ public interface IOleEmbeddedDataInfo
 
 | Tên | Mô tả |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Trả về dữ liệu tệp của đối tượng OLE được nhúng. Chỉ đọc Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Trả về phần mở rộng tệp cho đối tượng OLE được nhúng hiện tại. Chỉ đọc String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Trả về dữ liệu tệp của đối tượng OLE được nhúng, chỉ đọc Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Trả về phần mở rộng tệp cho đối tượng OLE được nhúng hiện tại, chỉ đọc String. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

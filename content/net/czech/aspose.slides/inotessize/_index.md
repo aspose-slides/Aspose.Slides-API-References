@@ -1,9 +1,9 @@
 ---
 title: INotesSize
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje velikost snímku poznámek.
+description: Representuje velikost snímku poznámek.
 type: docs
-weight: 6470
+weight: 6490
 url: /cs/aspose.slides/inotessize/
 ---
 ## INotesSize rozhraní
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | Název | Popis |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Vrací nebo nastavuje velikost v bodech. Číst/zapisovat SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Vrací nebo nastavuje velikost v bodech. Čtení/zápis SizeF. |
 
 ### Viz také
 

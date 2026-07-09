@@ -1,58 +1,58 @@
 ---
 title: DataLabel
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक श्रृंखला के लेबल का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक श्रृंखला के लेबल्स को दर्शाता है।
 type: docs
 weight: 1550
 url: /hi/aspose.slides.charts/datalabel/
 ---
-## DataLabel वर्ग
+## DataLabel क्लास
 
-एक श्रृंखला लेबल का प्रतिनिधित्व करता है।
+चार्ट की श्रृंखला लेबल्स को दर्शाता है।
 
 ```csharp
 public class DataLabel : IDataLabel
 ```
 
-## निर्माता
+## कन्स्ट्रक्टर्स
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | DataLabel वर्ग का नया उदाहरण बनाता है। |
+| [DataLabel](datalabel)(IChartDataPoint) | DataLabel क्लास का नया उदाहरण बनाता है। |
 
-## प्रॉपर्टीज
+## प्रॉपर्टीज़
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने से पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने से पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | चार्ट तत्व का वास्तविक x स्थिति (बाएँ) निर्दिष्ट करता है, जो चार्ट के बाएँ ऊपरी कोने के सापेक्ष है। वास्तविक मान प्राप्त करने से पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | चार्ट तत्व का वास्तविक शीर्ष, चार्ट के बाएँ ऊपरी कोने के सापेक्ष। वास्तविक मान प्राप्त करने से पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | चार्ट के बाएँ ऊपर कोने के सापेक्ष चार्ट तत्व का वास्तविक x स्थान (बाएँ) निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | चार्ट के बाएँ ऊपर कोने के सापेक्ष चार्ट तत्व की वास्तविक शीर्ष स्थिति निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
 | [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | नीचे। केवल पढ़ने योग्य Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | पैरेंट चार्ट लौटाता है। केवल पढ़ने योग्य [`IChart`](../ichart). |
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | डेटा लेबल फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | चार्ट की ऊँचाई के अनुपात के रूप में शीर्ष की ऊँचाई लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False का अर्थ है कि डेटा लेबल दिखाई नहीं देता (और सभी Show*-फ़्लैग्स (ShowValue, ...) भी false होते हैं)। केवल पढ़ने योग्य Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | दायाँ। केवल पढ़ने योग्य Single. |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | शीर्षक की ऊँचाई, जो चार्ट की ऊँचाई के अंश के रूप में है, को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False का अर्थ है कि डेटा लेबल दिखाई नहीं देता (और इसलिए सभी Show*-flags (ShowValue, ...) false होते हैं)। केवल पढ़ने योग्य Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | दाएँ। केवल पढ़ने योग्य Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | टेक्स्ट फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | रिच फ़ॉर्मेटेड टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह फ़ॉर्मेटेड टेक्स्ट मान डेटा लेबल के स्वचालित उत्पन्न टेक्स्ट को अधिलेखित करता है। डेटा लेबल का स्वचालित उत्पन्न टेक्स्ट वह होता है जो ShowSeriesName, ShowValue, ... प्रॉपर्टीज़ द्वारा प्रबंधित होता है और TextFormatManager.TextFormat प्रॉपर्टी से फ़ॉर्मेट किया जाता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | वर्कबुक डेटा सेल प्राप्त करता है या सेट करता है। तभी लागू होता है जब IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true हो। |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | चार्ट की चौड़ाई के अनुपात के रूप में शीर्ष की चौड़ाई लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | चार्ट की चौड़ाई के अनुपात के रूप में शीर्ष का x निर्देशांक लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | चार्ट की ऊँचाई के अनुपात के रूप में शीर्ष का y निर्देशांक लौटाता है या सेट करता है। पढ़ें/लिखें Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | रिच फ़ॉर्मेटेड टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह फ़ॉर्मेटेड टेक्स्ट मान डेटा लेबल के ऑटो-जनरेटेड टेक्स्ट को ओवरराइड कर देता है। डेटा लेबल का ऑटो-जनरेटेड टेक्स्ट वह टेक्स्ट है जिसे ShowSeriesName, ShowValue, ... प्रॉपर्टीज़ द्वारा प्रबंधित किया जाता है और TextFormatManager.TextFormat प्रॉपर्टी से फ़ॉर्मेट किया जाता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | वर्कबुक डेटा सेल प्राप्त करता है या सेट करता है। यदि IDataLabelFormat.ShowLabelValueFromCell प्रॉपर्टी true है तो लागू होता है। |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | शीर्षक की चौड़ाई, जो चार्ट की चौड़ाई के अंश के रूप में है, को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | शीर्षक का x निर्देशांक, जो चार्ट की चौड़ाई के अंश के रूप में है, को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | शीर्षक का y निर्देशांक, जो चार्ट की ऊँचाई के अंश के रूप में है, को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
 
 ## मेथड्स
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | पैरामीटर "text" के साथ TextFrameForOverriding को प्रारम्भ करता है। यदि TextFrameForOverriding पहले से प्रारम्भ है तो केवल उसका टेक्स्ट बदलता है। |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | पैरामीटर "text" में दिए गए टेक्स्ट के साथ TextFrameForOverriding को इनिशिएलाइज़ करता है। यदि TextFrameForOverriding पहले से इनिशियलाइज़ है तो केवल उसका टेक्स्ट बदलता है। |
 | [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat सेटिंग्स या TextFrameForOverriding.Text मान के आधार पर वास्तविक लेबल टेक्स्ट लौटाता है। |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | सभी Show*-फ़्लैग्स (ShowValue, ...) को false स्थिति पर सेट करके डेटा लेबल को छुपाता है। इस के बाद IsVisible false होगा। |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | सभी Show*-flags (ShowValue, ...) को false सेट करके डेटा लेबल को छिपा देता है। इस के बाद IsVisible false होगा। |
 
 ### देखें
 
-* interface [IDataLabel](../idatalabel)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* इंटरफ़ेस [IDataLabel](../idatalabel)
+* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

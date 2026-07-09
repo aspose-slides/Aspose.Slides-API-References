@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Dịch một bản trình chiếu sang ngôn ngữ được chỉ định bằng AI.
+description: Dịch một bản thuyết trình sang ngôn ngữ được chỉ định bằng AI.
 type: docs
 weight: 50
 url: /vi/aspose.slides.ai/slidesaiagent/translateasync/
 ---
 ## SlidesAIAgent.TranslateAsync phương thức
 
-Dịch một bản trình chiếu sang ngôn ngữ được chỉ định bằng AI.
+Dịch một bản thuyết trình sang ngôn ngữ được chỉ định bằng AI.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -16,19 +16,19 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| presentation | IPresentation | Bản trình chiếu đích |
-| language | String | Ngôn ngữ đích |
+| presentation | IPresentation | Bản thuyết trình mục tiêu |
+| language | String | Ngôn ngữ mục tiêu |
 
 ### Ngoại lệ
 
-| ngoại lệ | điều kiện |
+| Ngoại lệ | Điều kiện |
 | --- | --- |
-| ArgumentNullException | Thực thể Presentation không được cung cấp |
+| ArgumentNullException | Không cung cấp thể hiện Presentation |
 | ArgumentException | Giá trị Language không được null hoặc rỗng |
 
 ### Ghi chú
 
-Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) mặc định, được tạo bởi constructor không tham số [`SlidesAIAgent`](../slidesaiagent) và kết nối tới LLM của riêng Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM của bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) vào constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
+Ví dụ dưới đây sử dụng [`AsposeAIWebClient`](../../asposeaiwebclient) mặc định, được tạo bằng constructor không tham số [`SlidesAIAgent`](../slidesaiagent) và kết nối đến LLM của Aspose. Để sử dụng nhà cung cấp AI khác, cung cấp LLM riêng của bạn, hoặc tùy chỉnh kết nối (ví dụ, bằng cách cung cấp `HttpClient` của bạn), truyền một triển khai [`IAIWebClient`](../../iaiwebclient) cho constructor [`SlidesAIAgent`](../slidesaiagent). Các triển khai khả dụng bao gồm:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)

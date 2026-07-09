@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ efektu příkazu pro chování efektu příkazu.
 type: docs
-weight: 250
+weight: 270
 url: /cs/aspose.slides.animation/commandeffecttype/
 ---
-## výčtový typ CommandEffectType
+## CommandEffectType enumerace
 
-Představuje typ efektu příkazu pro chování efektu příkazu.
+Reprezentuje typ efektu příkazu pro chování efektu příkazu.
 
 ```csharp
 public enum CommandEffectType : sbyte
@@ -23,7 +23,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### Další odkazy
+### Viz také
 
 * jmenný prostor [Aspose.Slides.Animation](../../aspose.slides.animation)
 * sestavení [Aspose.Slides](../../)

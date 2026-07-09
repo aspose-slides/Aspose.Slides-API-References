@@ -1,12 +1,12 @@
 ---
 title: EffectStyle
-second_title: Aspose.Sildes .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: एक प्रभाव शैली का प्रतिनिधित्व करता है।
 type: docs
 weight: 11080
 url: /hi/aspose.slides.theme/effectstyle/
 ---
-## EffectStyle वर्ग
+## EffectStyle क्लास
 
 एक प्रभाव शैली का प्रतिनिधित्व करता है।
 
@@ -18,13 +18,13 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 | नाम | विवरण |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | एक प्रभाव प्रारूप लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | एक 3d प्रारूप लौटाता है। केवल-पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | एक प्रभाव स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | एक 3d स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
-### देखें भी
+### देखें
 
-* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* वर्ग [EffectStyleCollection](../effectstylecollection)
+* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* क्लास [EffectStyleCollection](../effectstylecollection)
 * इंटरफ़ेस [IEffectStyle](../ieffectstyle)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

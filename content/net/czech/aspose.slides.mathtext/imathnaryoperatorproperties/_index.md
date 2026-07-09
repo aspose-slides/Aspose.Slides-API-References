@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje vlastnosti rozhraní IMathNaryOperator
+description: Specifikuje vlastnosti IMathNaryOperator
 type: docs
-weight: 8360
+weight: 8380
 url: /cs/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties rozhraní
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Název | Popis |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Znak operátoru roste svisle tak, aby odpovídal výšce operandů |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Znak operátoru se vertikálně rozšiřuje, aby odpovídal výšce operandů |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Skrýt dolní index |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Skrýt horní index |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Umístění limitů (dolní a horní index) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Znak n-ární operace, například: '∑', '∫' |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Umístění limit (dolní a horní index) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Znak N-árního operátoru. Například: '∑', '∫' |
 
 ### Viz také
 

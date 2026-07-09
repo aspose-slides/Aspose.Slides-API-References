@@ -3,10 +3,10 @@ title: IFontFallBackRule
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili aturan fallback font
 type: docs
-weight: 5830
+weight: 5850
 url: /id/aspose.slides/ifontfallbackrule/
 ---
-## IFontFallBackRule interface
+## IFontFallBackRule antarmuka
 
 Mewakili aturan fallback font
 
@@ -16,22 +16,22 @@ public interface IFontFallBackRule
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Mendapatkan jumlah font yang sebenarnya didefinisikan untuk rentang. |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Mendapatkan nama font pada indeks yang ditentukan. |
-| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Mendapatkan indeks terakhir dari rentang unicode berkelanjutan. |
-| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Mendapatkan indeks pertama dari rentang unicode berkelanjutan. |
+| [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Mendapatkan indeks terakhir dari rentang Unicode kontinu. |
+| [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Mendapatkan indeks pertama dari rentang Unicode kontinu. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Menambahkan font baru ke daftar font FallBack. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Menambahkan font baru ke daftar font FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Menambahkan font baru ke dalam daftar font FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Menambahkan font baru ke dalam daftar font FallBack. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Menghapus semua font dari daftar. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Mengembalikan indeks aturan yang ditentukan dalam koleksi. |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Menghapus kemunculan pertama font FallBack tertentu dari daftar. |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Menghapus kemunculan pertama dari font FallBack tertentu dari daftar. |
 | [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Menghapus font FallBack pada indeks yang ditentukan dalam daftar. |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Membuat dan mengembalikan array dengan semua font FallBack untuk aturan ini. |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Membuat dan mengembalikan array dengan semua font FallBack dari rentang yang ditentukan dalam daftar. |

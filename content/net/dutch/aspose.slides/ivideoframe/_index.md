@@ -8,7 +8,7 @@ url: /nl/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interface
 
-Geeft een video-clip op een dia weer.
+Stelt een video-clip op een dia voor.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -18,17 +18,17 @@ public interface IVideoFrame : IPictureFrame
 
 | Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Staat toe de basis-IPictureFrame-interface op te halen. Alleen-lezen [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Haalt de verzameling gesloten ondertitels op die bij het audio-frame horen. Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](../icaptionscollection) die alle ondertitel-sporen bevat. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Retourneert of stelt het ingebedde video-object in. Lezen/Schrijven [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bepaalt of een video in volledig-schermmodus wordt weergegeven. Lezen/Schrijven Boolean. |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Staat toe de basale IPictureFrame interface op te halen. Alleen-lezen [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Haalt de verzameling van gesloten ondertitels op die bij het audiokader horen. Deze eigenschap is alleen-lezen en retourneert een [`ICaptionsCollection`](../icaptionscollection) met alle ondertitelsporen. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Retourneert of stelt het ingesloten video-object in. Lezen/Schrijven [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Bepaalt of een video in volledig-scherm modus wordt getoond. Lezen/Schrijven Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Bepaalt of een VideoFrame verborgen is. Lezen/Schrijven Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Retourneert of stelt de naam van een videobestand in dat aan een VideoFrame is gekoppeld. Lezen/Schrijven String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bepaalt of een video wordt herhaald. Lezen/Schrijven Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Retourneert of stelt de naam van een videobestand in dat gekoppeld is aan een VideoFrame. Lezen/Schrijven String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Bepaalt of een video in een lus wordt afgespeeld. Lezen/Schrijven Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Retourneert of stelt de afspeelmodus van de video in. Lezen/Schrijven [`VideoPlayModePreset`](../videoplaymodepreset). |
 | [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Bepaalt of een video automatisch naar het begin wordt teruggespoeld zodra de film is afgelopen. Lezen/Schrijven Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Trim einde [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim begin [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Trim start [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Retourneert of stelt het audiovolume in. Lezen/Schrijven [`AudioVolumeMode`](../audiovolumemode). |
 
 ### Zie ook

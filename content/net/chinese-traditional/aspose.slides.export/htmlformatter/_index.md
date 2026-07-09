@@ -1,7 +1,7 @@
 ---
 title: HtmlFormatter
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 HTML 檔案範本。
+description: 代表 HTML 檔案範本。
 type: docs
 weight: 3870
 url: /zh-hant/aspose.slides.export/htmlformatter/
@@ -16,11 +16,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 建立並傳回用於自訂回呼驅動 HTML 產生的 HTML 格式化程式。 |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 建立並傳回用於簡易文件檢視的 HTML 格式化程式，該檢視由一系列上下排列的投影片組成。 |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 建立並傳回用於簡易投影片放映 HTML 的 HTML 格式化程式，該放映會依序顯示投影片。 |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 建立並傳回用於自訂回呼驅動的 HTML 產生的 HTML 格式化器。 |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 建立並傳回用於簡易文件檢視的 HTML 格式化器，該檢視由一系列上下排列的投影片組成。 |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 建立並傳回用於簡易投影片播放的 HTML 格式化器，該播放會依序顯示投影片。 |
 
 ### 另請參閱
 

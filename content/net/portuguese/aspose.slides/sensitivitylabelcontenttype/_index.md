@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabelContentType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa os tipos de marcação de conteúdo que devem ser aplicados a um documento.
 type: docs
-weight: 9800
+weight: 9820
 url: /pt/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## SensitivityLabelContentType enumeração
@@ -24,7 +24,7 @@ public enum SensitivityLabelContentType
 | Watermark | `4` | Indica que o rótulo foi aplicado manualmente. Use para qualquer rótulo de sensibilidade que foi aplicado diretamente pelo usuário. |
 | Encryption | `8` | Indica que o rótulo foi aplicado manualmente. Use para qualquer rótulo de sensibilidade que foi aplicado diretamente pelo usuário. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プロパティエフェクトの動作を表します。
 type: docs
-weight: 730
+weight: 750
 url: /ja/aspose.slides.animation/propertyeffect/
 ---
 ## PropertyEffect クラス
@@ -18,22 +18,22 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [PropertyEffect](propertyeffect)() | 既定のコンストラクタです。 |
+| [PropertyEffect](propertyeffect)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーションのビヘイビアが蓄積されるかどうかを表します。 読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーションビヘイビアが他の実行中のアニメーションと結合されるかどうかを表します。 読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | アニメーション開始前の位置に対する相対オフセット値を指定します。 読み書き String。 |
-| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | アニメーションの補間モードを指定します。 読み書き [`PropertyCalcModeType`](../propertycalcmodetype)。 |
-| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | アニメーションの開始値を指定します。 読み書き String。 |
-| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | アニメーションのポイントを指定します。 読み書き [`IPointCollection`](../ipointcollection)。 |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | ビヘイビアのプロパティを表します。 読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクトビヘイビアのタイミングプロパティを表します。 読み書き [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | アニメーションの終了値を指定します。 読み書き String。 |
-| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | プロパティ値の型を指定します。 読み書き [`PropertyValueType`](../propertyvaluetype)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が蓄積されるかどうかを表します。Read/write [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されているかどうかを表します。Read/write [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | アニメーション開始前の位置に対する相対オフセット値を指定します。Read/write String。 |
+| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | アニメーションの補間モードを指定します Read/write [`PropertyCalcModeType`](../propertycalcmodetype)。 |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | アニメーションの開始値を指定します。Read/write String。 |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | アニメーションのポイントを指定します。Read/write [`IPointCollection`](../ipointcollection)。 |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。Read-only [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。Read/write [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | アニメーションの終了値を指定します。Read/write String。 |
+| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | プロパティ値のタイプを指定します。Read/write [`PropertyValueType`](../propertyvaluetype)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個可調整的繪圖參考線。
+description: 代表一個可調整的繪圖參考線。
 type: docs
 weight: 2810
 url: /zh-hant/aspose.slides/drawingguide/
 ---
 ## DrawingGuide 類別
 
-表示一個可調整的繪圖參考線。
+代表一個可調整的繪圖參考線。
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -16,11 +16,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 取得或設定繪圖參考線的顏色。讀寫 Color。 |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 取得或設定繪圖參考線的方向。讀寫 [`Orientation`](../orientation)。 |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 取得或設定繪圖參考線相對於投影片左上角的點數位置。讀寫 Single。 |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 取得或設定繪圖參考線的顏色。讀/寫 Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 取得或設定繪圖參考線的方向。讀/寫 [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 取得或設定從投影片左上角起以點為單位的繪圖參考線位置。讀/寫 Single. |
 
 ### 另請參閱
 

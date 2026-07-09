@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงชุดสีเพิ่มเติมที่สามารถกำหนดให้กับสไลด์ได้.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงชุดสีเพิ่มเติมที่สามารถกำหนดให้กับสไลด์ได้
 type: docs
 weight: 11210
 url: /th/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme อินเทอร์เฟซ
 
-แสดงถึงชุดสีเพิ่มเติมที่สามารถกำหนดให้กับสไลด์ได้.
+แทนสีสโcheme เพิ่มเติมที่สามารถกำหนดให้กับสไลด์ได้
 
 ```csharp
 public interface IExtraColorScheme
@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | คืนค่าชุดสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | คืนค่าชื่อของสกีมนี้. อ่านอย่างเดียว String. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | ส่งคืนชุดสี อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | ส่งคืนชื่อของชุดนี้ อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

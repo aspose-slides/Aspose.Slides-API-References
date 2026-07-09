@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
 second_title: Aspose.Sildes için .NET API Referansı
-description: IChartDataCell./ichartdatacell ile ilişkili çalışma sayfasını temsil eder
+description: IChartDataCell ile ilişkili çalışma sayfasını temsil eder./ichartdatacell
 type: docs
-weight: 1370
+weight: 1390
 url: /tr/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet sınıfı
 
-İlgili [`IChartDataCell`](../ichartdatacell) ile ilişkili çalışma sayfasını temsil eder.
+İlgili [`IChartDataCell`](../ichartdatacell) çalışma sayfasını temsil eder
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,10 +18,10 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Ad | Açıklama |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Çalışma sayfasının indeksini alır. Salt okunur Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Çalışma sayfasının adını döndürür. Salt okunur String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Çalışma sayfasının dizinini alır. Sadece okuma Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Çalışma sayfasının adını döndürür. Sadece okuma String. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartDataWorksheetCollection](../chartdataworksheetcollection)

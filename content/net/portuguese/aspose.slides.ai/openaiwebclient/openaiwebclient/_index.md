@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes para .NET Referência da API
-description: Cria uma instância do cliente OpenAI Web.
+second_title: Aspose.Sildes para .NET – Referência da API
+description: Cria uma instância do cliente web OpenAI.
 type: docs
 weight: 10
 url: /pt/aspose.slides.ai/openaiwebclient/openaiwebclient/
 ---
 ## OpenAIWebClient(string, string, string) {#constructor}
 
-Cria uma instância do cliente OpenAI Web.
+Cria uma instância do cliente web OpenAI.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId)
@@ -17,17 +17,17 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | model | String | Modelo de linguagem OpenAI. Valores possíveis: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | Chave da API OpenAI |
-| organizationId | String | ID da organização (opcional) |
+| apiKey | String | Chave de API OpenAI. |
+| organizationId | String | ID da organização (opcional). |
 
 ### Exceções
 
 | exceção | condição |
 | --- | --- |
-| ArgumentException | O valor da chave da API não pode ser nulo ou vazio |
-| ArgumentException | O valor do modelo de texto não pode ser nulo ou vazio |
+| ArgumentException | O valor da chave de API não pode ser nulo ou vazio. |
+| ArgumentException | O valor do modelo de texto não pode ser nulo ou vazio. |
 
-### Veja também
+### Veja Também
 
 * classe [OpenAIWebClient](../../openaiwebclient)
 * espaço de nomes [Aspose.Slides.AI](../../openaiwebclient)
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-Cria uma instância do cliente OpenAI Web.
+Cria uma instância do cliente web OpenAI que usa um HttpClient gerenciado externamente. O HttpClient fornecido não é descartado por esta instância e continua sendo de responsabilidade do chamador.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -46,18 +46,19 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
 | model | String | Modelo de linguagem OpenAI. Valores possíveis: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
-| apiKey | String | Chave da API OpenAI |
+| apiKey | String | Chave de API OpenAI |
 | organizationId | String | ID da organização (opcional) |
-| httpClient | HttpClient | Uma instância `HttpClient` gerenciada externamente. |
+| httpClient | HttpClient | Uma instância `HttpClient` gerenciada externamente |
 
 ### Exceções
 
 | exceção | condição |
 | --- | --- |
-| ArgumentException | O valor da chave da API não pode ser nulo ou vazio |
+| ArgumentException | O valor da chave de API não pode ser nulo ou vazio |
 | ArgumentException | O valor do modelo de texto não pode ser nulo ou vazio |
+| ArgumentNullException | HttpClient não pode ser nulo |
 
-### Veja também
+### Veja Também
 
 * classe [OpenAIWebClient](../../openaiwebclient)
 * espaço de nomes [Aspose.Slides.AI](../../openaiwebclient)

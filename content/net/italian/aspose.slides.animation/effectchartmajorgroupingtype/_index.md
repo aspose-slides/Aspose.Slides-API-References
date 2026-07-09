@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta il tipo di effetto di animazione per l'elemento del grafico.
 type: docs
-weight: 270
+weight: 290
 url: /it/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 ## EffectChartMajorGroupingType enumerazione
 
-Rappresenta il tipo di effetto di animazione per l'elemento del grafico.
+Rappresenta il tipo di un effetto di animazione per l'elemento del grafico.
 
 ```csharp
 public enum EffectChartMajorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMajorGroupingType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| BySeries | `0` | Animare il grafico per serie |
-| ByCategory | `1` | Animare il grafico per categoria |
+| BySeries | `0` | Anima il grafico per serie |
+| ByCategory | `1` | Anima il grafico per categoria |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวจัดการที่เก็บพฤติกรรมของส่วนท้ายของสไลด์บันทึกหลัก รวมถึงตัวจัดเก็บวันที่และเวลา, หมายเลขหน้า และตัวจัดเก็บทั้งหมดของส่วนย่อย. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงตัวจัดการที่บรรจุพฤติกรรมของส่วนท้ายสไลด์บันทึกหลัก ตัวแสดงวันที่-เวลา ตัวแสดงเลขหน้า และตัวแสดงตารางทั้งหมด รวมทั้งตัวแสดงตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่บนสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก
 type: docs
 weight: 6400
 url: /th/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager อินเทอร์เฟซ
 
-เป็นตัวจัดการที่เก็บพฤติกรรมของส่วนท้ายของสไลด์บันทึกหลัก, ตัวจัดเก็บวันที่และเวลา, ตัวจัดเก็บหมายเลขหน้า และตัวจัดเก็บทั้งหมดของส่วนย่อย. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก.
+แสดงตัวจัดการที่บรรจุพฤติกรรมของส่วนท้ายสไลด์บันทึกหลัก, ตัวแสดงวันที่-เวลา, ตัวแสดงเลขหน้าและตัวแสดงตารางแม่แบบทั้งหมด รวมถึงตัวแสดงตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,24 +18,24 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | คืนค่าอินเทอร์เฟซ IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | คืนค่า IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวจัดเก็บวันที่และเวลาของสไลด์บันทึกหลักและตัวจัดเก็บวันที่และเวลาของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บวันที่และเวลาของสไลด์บันทึกหลักและตัวจัดเก็บวันที่และเวลาของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวจัดเก็บส่วนท้ายของสไลด์บันทึกหลักและตัวจัดเก็บส่วนท้ายของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บส่วนท้ายของสไลด์บันทึกหลักและตัวจัดเก็บส่วนท้ายของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | ตั้งค่าข้อความให้กับตัวจัดเก็บส่วนหัวของสไลด์บันทึกหลักและตัวจัดเก็บส่วนหัวของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บส่วนหัวของสไลด์บันทึกหลักและตัวจัดเก็บส่วนหัวของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บหมายเลขหน้าของสไลด์บันทึกหลักและตัวจัดเก็บหมายเลขหน้าของส่วนย่อยทั้งหมด. ส่วนย่อยหมายถึงตัวจัดเก็บที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่. สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวแสดงวันที่-เวลาในสไลด์บันทึกหลักและตัวแสดงวันที่-เวลาในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวแสดงวันที่-เวลาในสไลด์บันทึกหลักและตัวแสดงวันที่-เวลาในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับส่วนท้ายสไลด์บันทึกหลักและส่วนท้ายในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของส่วนท้ายสไลด์บันทึกหลักและส่วนท้ายในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | ตั้งค่าข้อความให้กับส่วนหัวสไลด์บันทึกหลักและส่วนหัวในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | เปลี่ยนการมองเห็นของส่วนหัวสไลด์บันทึกหลักและส่วนหัวในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวแสดงเลขหน้าสไลด์บันทึกหลักและตัวแสดงเลขหน้าในตารางลูกทั้งหมด ตัวแสดงตารางลูกหมายถึงตัวแสดงที่อยู่ในสไลด์บันทึกที่ขึ้นอยู่ สไลด์บันทึกที่ขึ้นอยู่ใช้และพึ่งพาสไลด์บันทึกหลัก |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

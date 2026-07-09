@@ -1,9 +1,9 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um objeto de tinta em um slide.
 type: docs
-weight: 7500
+weight: 7520
 url: /pt/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions interface

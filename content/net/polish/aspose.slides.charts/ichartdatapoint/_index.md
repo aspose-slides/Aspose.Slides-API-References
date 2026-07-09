@@ -3,12 +3,12 @@ title: IChartDataPoint
 second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje punkt danych serii.
 type: docs
-weight: 1800
+weight: 1820
 url: /pl/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interfejs
 
-Represents series data point.
+Reprezentuje punkt danych serii.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -19,19 +19,19 @@ public interface IChartDataPoint : IActualLayout
 | Nazwa | Opis |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Zwraca interfejs IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Zwraca rozmiar bańki punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Zwraca wartość koloru punktu danych wykresu. Używane z wykresami mapowymi. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Zwraca kontener poziomów punktu danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktu danych zaczyna się od zera. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Zwraca rozmiar bąbelka punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Zwraca wartość koloru punktu danych wykresu. Używane z wykresami Map. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Zwraca kontener poziomów punktów danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych zaczyna się od zera. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Reprezentuje wartości słupków błędów serii w przypadku typu wartości Custom. Tylko do odczytu [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Określa ilość, o którą punkt danych ma zostać przesunięty od środka wykresu kołowego. Odczyt/zapis Int32. |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Określa odległość, o jaką punkt danych ma być przesunięty od środka koła. Odczyt/zapis Int32. |
 | [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Reprezentuje właściwości formatowania. Odczyt/zapis [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Określa, do której kolekcji potomków rodzica stosowany jest ten punkt danych. Odczyt UInt32. |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Określa, do której kolekcji dzieci rodzica stosowany jest ten punkt danych. Odczyt UInt32. |
 | [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Określa, że punkt danych odwróci swoje kolory, jeśli wartość jest ujemna. Odczyt/zapis Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Określa, że bańki mają zastosowany efekt 3D. Odczyt/zapis Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Określa, że bąbelki mają zastosowany efekt 3D. Odczyt/zapis Boolean. |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Reprezentuje etykietę punktu danych wykresu. Tylko do odczytu [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Określa znacznik danych. Tylko do odczytu [`IMarker`](../imarker). |
 | [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Właściwości odpowiadającego wpisu legendy w przypadku typu wykresu z tej listy: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Tylko do odczytu [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Ustawia punkt danych jako całkowity. Stosowane wyłącznie dla serii typu Waterfall. |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Ustawia punkt danych jako sumę. Stosowane wyłącznie dla serii Waterfall. |
 | [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Zwraca wartość rozmiaru punktu danych wykresu. Używane z wykresami Treemap i Sunburst. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Zwraca wartość punktu danych wykresu. Tylko do odczytu [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Zwraca wartość x punktu danych wykresu. Tylko do odczytu [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
@@ -41,7 +41,7 @@ public interface IChartDataPoint : IActualLayout
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Zwraca automatyczny kolor punktu danych na podstawie indeksu serii, indeksu punktu danych, właściwości ParentSeriesGroup.IsColorVaried oraz stylu wykresu. Ten kolor jest używany domyślnie, jeśli FillType równa się NotDefined. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Zwraca automatyczny kolor punktu danych na podstawie indeksu serii, indeksu punktu danych, właściwości ParentSeriesGroup.IsColorVaried oraz stylu wykresu. Ten kolor jest używany domyślnie, jeśli FillType jest równy NotDefined. |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Usuwa DataPoint z serii wykresu. |
 
 ### Zobacz także

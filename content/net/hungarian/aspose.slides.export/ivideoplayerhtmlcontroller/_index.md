@@ -1,14 +1,14 @@
 ---
 title: IVideoPlayerHtmlController
-second_title: Aspose.Sildes .NET API Referencia
-description: Ez az osztály lehetővé teszi a videó- és audiofájlok HTML-be történő exportálását.
+second_title: Aspose.Sildes .NET-hez API referencia
+description: Ez az osztály lehetővé teszi a videó- és hangfájlok exportálását HTML-be
 type: docs
-weight: 4160
+weight: 4180
 url: /hu/aspose.slides.export/ivideoplayerhtmlcontroller/
 ---
 ## IVideoPlayerHtmlController interfész
 
-Ez az osztály lehetővé teszi a videó- és audiofájlok HTML-be történő exportálását.
+Ez az osztály lehetővé teszi a videó- és hangfájlok exportálását HTML-be
 
 ```csharp
 public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEmbedController, 
@@ -19,9 +19,9 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 
 | Név | Leírás |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Lehetővé teszi a base IHtmlFormattingController interfész lekérését. Csak olvasható [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
-| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Lehetővé teszi a base ILinkEmbedController interfész lekérését. Csak olvasható [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Lehetővé teszi a base ISvgShapeFormattingController interfész lekérését. Csak olvasható [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [AsIHtmlFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asihtmlformattingcontroller) { get; } | Lehetővé teszi a bázis IHtmlFormattingController interfész lekérését. Csak olvasható [`IHtmlFormattingController`](../ihtmlformattingcontroller). |
+| [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | Lehetővé teszi a bázis ILinkEmbedController interfész lekérését. Csak olvasható [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | Lehetővé teszi a bázis ISvgShapeFormattingController interfész lekérését. Csak olvasható [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
 ### Lásd még
 

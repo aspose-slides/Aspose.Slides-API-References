@@ -1,26 +1,26 @@
 ---
 title: CellCircularReferenceException
 second_title: Aspose.Sildes for .NET API 參考
-description: 當偵測到一個或多個循環參照時拋出的例外，該情況下公式直接或間接引用了其自己的儲存格。
+description: 當偵測到一個或多個循環參照時拋出的例外，公式直接或間接引用其自身儲存格。
 type: docs
 weight: 10700
 url: /zh-hant/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException 類別
 
-當偵測到一個或多個循環參照時拋出的例外，該情況下公式直接或間接引用了其自己的儲存格。
+當偵測到一個或多個循環參照時拋出的例外，當公式直接或間接引用其自身儲存格時。
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 使用指定的錯誤訊息初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的錯誤訊息以及導致此例外的內部例外參考，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 使用指定的錯誤訊息以及作為此例外原因的內部例外參考，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
 | [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 使用指定的錯誤訊息和循環儲存格參照，初始化 [`CellCircularReferenceException`](../cellcircularreferenceexception) 類別的新執行個體。 |
 
 ## 屬性
@@ -29,7 +29,7 @@ public class CellCircularReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | 取得循環儲存格參照。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 命名空間 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

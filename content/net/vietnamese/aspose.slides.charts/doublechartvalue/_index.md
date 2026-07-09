@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn giá trị double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thuỷ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn giá trị double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
 type: docs
 weight: 1630
 url: /vi/aspose.slides.charts/doublechartvalue/
 ---
 ## Lớp DoubleChartValue
 
-Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+Biểu diễn giá trị double có thể được lưu trong tài liệu trình chiếu pptx theo hai cách: 1) trong ô/ô của workbook liên quan đến biểu đồ; 2) dưới dạng giá trị nguyên thủy.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -18,10 +18,10 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Trả về hoặc đặt ô dữ liệu biểu đồ. Đọc/ghi [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc đặt giá trị dưới dạng double nguyên thuỷ. Đọc/ghi Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Trả về hoặc đặt đối tượng Data. Đọc/ghi Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Xác định xem thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực tế trong các lớp con hay không. Nói cách khác, nó xác định kiểu giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Trả về hoặc thiết lập ô dữ liệu biểu đồ. Đọc/ghi [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Trả về hoặc thiết lập giá trị dưới dạng double nguyên thủy. Đọc/ghi Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Trả về hoặc thiết lập đối tượng Data. Đọc/ghi Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Chỉ định liệu thuộc tính AsCell, AsCells, AsLiteralString hoặc AsLiteralDouble có thực hiện trong các lớp kế thừa hay không. Nói cách khác, nó chỉ định kiểu giá trị của thuộc tính Data. Đọc/ghi [`DataSourceType`](../datasourcetype). |
 
 ## Phương thức
 

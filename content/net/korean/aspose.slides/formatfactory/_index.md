@@ -24,15 +24,15 @@ public class FormatFactory : IFormatFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format factory static 인스턴스. 읽기 전용 [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format factory 정적 인스턴스. 읽기 전용 [`FormatFactory`](../formatfactory). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | 새 [`IParagraphFormat`](../iparagraphformat)를 생성합니다. |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 새 [`IPortionFormat`](../iportionformat)를 생성합니다. |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 새 [`ITextFrameFormat`](../itextframeformat)를 생성합니다. |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | 새로운 [`IParagraphFormat`](../iparagraphformat)를 생성합니다. |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | 새로운 [`IPortionFormat`](../iportionformat)를 생성합니다. |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | 새로운 [`ITextFrameFormat`](../itextframeformat)를 생성합니다. |
 
 ### 참고
 

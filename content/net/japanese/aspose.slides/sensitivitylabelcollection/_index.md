@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ドキュメントに適用された感度ラベルのコレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ドキュメントに適用された機密ラベルのコレクションを表します。
 type: docs
-weight: 9790
+weight: 9810
 url: /ja/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection クラス
 
-ドキュメントに適用された感度ラベルのコレクションを表します。
+ドキュメントに適用された機密ラベルのコレクションを表します。
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -17,21 +17,21 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | コレクション内の要素数を返します。読み取り専用の Int32。 |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | インデックスで SensitivityLabel を返します。 |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | インデックスで機密ラベルを返します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | SensitivityLabel をコレクションに追加します。 |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | コレクションの末尾に感度ラベルを追加します。 |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | コレクションに SensitivityLabel を追加します。 |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | コレクションの末尾に機密ラベルを追加します。 |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | コレクションからすべての要素を削除します。 |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 指定されたインデックスの感度ラベルを削除します。 |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 指定されたインデックスの機密ラベルを削除します。 |
 
 ### 参照
 

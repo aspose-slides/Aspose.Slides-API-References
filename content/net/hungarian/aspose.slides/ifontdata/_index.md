@@ -1,14 +1,14 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy betűtípusdefiníciót képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Betűkészlet definíciót ábrázol.
 type: docs
-weight: 5810
+weight: 5830
 url: /hu/aspose.slides/ifontdata/
 ---
 ## IFontData interfész
 
-Egy betűtípusdefiníciót képvisel.
+Egy betűkészlet definíciót ábrázol.
 
 ```csharp
 public interface IFontData
@@ -20,11 +20,11 @@ public interface IFontData
 | --- | --- |
 | [FontName](../../aspose.slides/ifontdata/fontname) { get; } | Visszaadja a betűtípus nevét. Csak olvasható String. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Visszaadja a betűtípus nevét, a témára mutató hivatkozást egy ténylegesen használt betűtípussal helyettesítve. |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Visszaadja a betűtípus nevét, a téma hivatkozást a ténylegesen használt betűtípussal helyettesítve. |
 
 ### Lásd még
 

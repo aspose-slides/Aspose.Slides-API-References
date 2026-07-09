@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes 用於 .NET API 參考
-description: 表示主題母版。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示一個母版主題。
 type: docs
 weight: 11310
 url: /zh-hant/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme 介面
 
-表示主題母版。
+表示一個母版主題。
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -18,9 +18,9 @@ public interface IMasterTheme : ITheme
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | 允許取得基礎 ITheme 介面。 唯讀 [`ITheme`](../itheme)。 |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 傳回額外色彩方案的集合。 這些方案不會影響簡報外觀，可作為投影片的主要色彩方案選擇。 唯讀 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | 傳回主題的名稱。 讀寫 String。 |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | 允許取得基礎 ITheme 介面。唯讀 [`ITheme`](../itheme)。 |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | 傳回附加色彩配置的集合。這些配置不會影響簡報的外觀，可選擇作為投影片的主要色彩配置。唯讀 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | 傳回主題的名稱。讀寫 String。 |
 
 ### 另請參閱
 

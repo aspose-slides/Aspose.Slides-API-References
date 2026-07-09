@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Zapewnia dostęp do nadpisanego motywu slajdu notatek.
 type: docs
-weight: 11430
+weight: 11450
 url: /pl/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager klasa
 
-Zapewnia dostęp do zastąpionego motywu slajdu notatek.
+Zapewnia dostęp do nadpisanego motywu slajdu notatek.
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -18,8 +18,8 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). tylko do odczytu Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Zwraca obiekt motywu nadpisującego. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
@@ -28,7 +28,7 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Stosuje dodatkowy schemat kolorów do slajdu. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Zwraca obiekt motywu. |
 
-### Zobacz również
+### Zobacz także
 
 * klasa [BaseOverrideThemeManager](../baseoverridethememanager)
 * przestrzeń nazw [Aspose.Slides.Theme](../../aspose.slides.theme)

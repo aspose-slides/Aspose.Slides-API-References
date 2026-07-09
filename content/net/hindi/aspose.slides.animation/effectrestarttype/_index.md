@@ -6,7 +6,7 @@ type: docs
 weight: 330
 url: /hi/aspose.slides.animation/effectrestarttype/
 ---
-## EffectRestartType एन्यूमेरेशन
+## EffectRestartType एन्यूमरेशन
 
 समय के लिए पुनरारंभ प्रकारों का प्रतिनिधित्व करता है।
 
@@ -16,14 +16,14 @@ public enum EffectRestartType
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Always | `0` |  |
 | WhenNotActive | `1` |  |
 | Never | `2` |  |
 
-### संबंधित देखें
+### संदर्भ
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

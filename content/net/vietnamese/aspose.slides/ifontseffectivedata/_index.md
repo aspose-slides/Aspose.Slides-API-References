@@ -1,7 +1,7 @@
 ---
 title: IFontsEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa tập hợp phông chữ hiệu lực.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến chứa tập hợp các phông chữ hiệu lực.
 type: docs
 weight: 5910
 url: /vi/aspose.slides/ifontseffectivedata/
@@ -18,13 +18,13 @@ public interface IFontsEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Trả về phông chữ script phức tạp. Chỉ đọc [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Trả về phông chữ cho script phức tạp. Chỉ đọc [`IFontData`](../ifontdata). |
 | [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Trả về phông chữ Đông Á. Chỉ đọc [`IFontData`](../ifontdata). |
 | [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Trả về phông chữ Latin. Chỉ đọc [`IFontData`](../ifontdata). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng như một phần của [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) và [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) giao diện.
+Giao diện này được sử dụng như một phần của các giao diện [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) và [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
 
 ### Xem thêm
 

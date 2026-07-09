@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het type commando-effect weer voor het gedrag van commando-effecten.
+description: Stelt het type van een commando-effect voor voor het gedrag van commando-effecten.
 type: docs
 weight: 270
 url: /nl/aspose.slides.animation/commandeffecttype/
 ---
 ## CommandEffectType enumeratie
 
-Geeft het type commando-effect weer voor het gedrag van commando-effecten.
+Stelt het type van een commandoeffect voor voor het gedrag van commandoeffecten.
 
 ```csharp
 public enum CommandEffectType : sbyte
@@ -16,7 +16,7 @@ public enum CommandEffectType : sbyte
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Event | `0` |  |

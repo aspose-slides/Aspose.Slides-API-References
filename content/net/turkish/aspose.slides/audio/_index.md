@@ -3,7 +3,7 @@ title: Audio
 second_title: Aspose.Sildes için .NET API Referansı
 description: Gömülü bir ses dosyasını temsil eder.
 type: docs
-weight: 830
+weight: 850
 url: /tr/aspose.slides/audio/
 ---
 ## Audio sınıfı
@@ -16,16 +16,16 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Bir ses dosyasının verilerinin bir kopyasını döndürür. Büyük miktarda veri durumunda, ses verilerinin belleğe gereksiz şekilde yüklenmesini veya OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) metodunun kullanılmasını düşünün. Salt-okunur Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Bir sesin MIME türünü [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Salt-okunur String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Ses verisinin bir kopyasını döndürür. Büyük miktarda veri durumunda, ses verisinin belleğe gereksiz yere yüklenmesini veya hatta OutOfMemoryException oluşmasını önlemek için [`GetStream`](./getstream) metodunu kullanmayı düşünün. Yalnızca okunabilir Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Sesin MIME tipini [`BinaryData`](./binarydata) içinde kodlanmış olarak döndürür. Yalnızca okunabilir String. |
 
-## Yöntemler
+## Metotlar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | Okuma için bir Stream akışı döndürür. ‘using’ kullanın veya kullanım sonrası akışı kapatın. |
+| [GetStream](../../aspose.slides/audio/getstream)() | Okuma için bir Stream döndürür. 'using' kullanın veya kullandıktan sonra akışı kapatın. |
 
 ### Ayrıca Bakınız
 

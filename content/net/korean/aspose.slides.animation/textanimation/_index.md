@@ -1,6 +1,6 @@
 ---
 title: TextAnimation
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트 애니메이션을 나타냅니다.
 type: docs
 weight: 820
@@ -25,15 +25,15 @@ public class TextAnimation : ITextAnimation
 | 이름 | 설명 |
 | --- | --- |
 | [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | 텍스트 애니메이션의 빌드 유형 목록(예: Paragraph 1,2,3, All at Once). 읽기/쓰기 [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | 그룹에 연결된 모양 효과 여부(또는 null). 읽기/쓰기 [`IEffect`](../ieffect). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | 그룹 여부에 관계없이 연결된 모양 효과(null). 읽기/쓰기 [`IEffect`](../ieffect). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 현재 시퀀스의 끝에 새로운 효과를 추가하여 그룹 텍스트 애니메이션의 끝에 배치합니다. 텍스트 단락 수가 이 그룹의 효과 수와 같거나 많을 경우에만 유효합니다! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 새 효과를 현재 시퀀스의 끝에 추가하여 그룹 텍스트 애니메이션의 끝에 연결합니다. 텍스트 단락 수가 이 그룹의 효과 수와 같거나 많을 경우에만 유효합니다! |
 
-### 참조
+### 또 보기
 
 * 인터페이스 [ITextAnimation](../itextanimation)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

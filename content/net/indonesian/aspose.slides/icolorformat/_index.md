@@ -3,12 +3,12 @@ title: IColorFormat
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili warna yang digunakan dalam presentasi.
 type: docs
-weight: 5470
+weight: 5490
 url: /id/aspose.slides/icolorformat/
 ---
-## IColorFormat antarmuka
+## antarmuka IColorFormat
 
-Mewakili sebuah warna yang digunakan dalam presentasi.
+Mewakili warna yang digunakan dalam presentasi.
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -18,10 +18,10 @@ public interface IColorFormat : IFillParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Mengembalikan antarmuka IFillParamSource. Baca-saja [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Mengembalikan antarmuka IFillParamSource. Hanya-baca [`IFillParamSource`](../ifillparamsource). |
 | [B](../../aspose.slides/icolorformat/b) { get; set; } | Mengembalikan atau mengatur komponen biru dari sebuah warna. Semua transformasi warna diabaikan. Baca/tulis Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Mengembalikan warna yang dihasilkan (dengan semua transformasi warna diterapkan). Mengatur warna RGB dan menghapus semua transformasi warna. Baca/tulis Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Mengembalikan koleksi transformasi warna yang diterapkan pada sebuah warna. Baca-saja [`IColorOperationCollection`](../icoloroperationcollection). |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Mengembalikan warna hasil (dengan semua transformasi warna diterapkan). Mengatur warna RGB dan menghapus semua transformasi warna. Baca/tulis Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Mengembalikan koleksi transformasi warna yang diterapkan pada sebuah warna. Hanya-baca [`IColorOperationCollection`](../icoloroperationcollection). |
 | [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Mengembalikan atau mengatur metode definisi warna. Baca/tulis [`ColorType`](../colortype). |
 | [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Mengembalikan atau mengatur komponen biru dari sebuah warna. Semua transformasi warna diabaikan. Baca/tulis Single. |
 | [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Mengembalikan atau mengatur komponen hijau dari sebuah warna. Semua transformasi warna diabaikan. Baca/tulis Single. |
@@ -39,7 +39,7 @@ public interface IColorFormat : IFillParamSource
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Menyalin format warna dari "color". |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Salin format warna dari "color". |
 | [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Mengembalikan String yang mewakili format warna saat ini. |
 
 ### Lihat Juga

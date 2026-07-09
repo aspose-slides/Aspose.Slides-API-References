@@ -1,6 +1,6 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: COM 인터페이스용 Aspose.IO.Stream 래퍼.
 type: docs
 weight: 10750
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/streamwrapper/
 ---
 ## StreamWrapper 클래스
 
-COM 인터페이스용 Aspose.IO.Stream 래퍼.
+Aspose.IO.Stream 래퍼 for COM 인터페이스.
 
 ```csharp
 public class StreamWrapper : IStreamWrapper
@@ -20,10 +20,10 @@ public class StreamWrapper : IStreamWrapper
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | 기본 IDisposable 인터페이스를 가져올 수 있습니다. 읽기 전용 IDisposable. |
 | [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | 현재 스트림이 읽기를 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | 현재 스트림이 탐색을 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | 현재 스트림이 위치 지정(seeking)을 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
 | [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | 현재 스트림이 쓰기를 지원하는지 여부를 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | 스트림의 길이(바이트)를 가져옵니다. 읽기 전용 Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | 현재 스트림 내에서 위치를 가져오거나 설정합니다. 읽기 전용 Int64. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | 스트림의 길이를 바이트 단위로 가져옵니다. 읽기 전용 Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | 현재 스트림 내 위치를 가져오거나 설정합니다. 읽기 전용 Int64. |
 | [Stream](../../aspose.slides/streamwrapper/stream) { get; } | 스트림을 가져옵니다. 읽기 전용 Stream. |
 
 ## 메서드
@@ -31,15 +31,15 @@ public class StreamWrapper : IStreamWrapper
 | 이름 | 설명 |
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | 현재 스트림을 닫고 모든 리소스를 해제합니다. |
-| [Dispose](../../aspose.slides/streamwrapper/dispose)() | 객체를 폐기합니다. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | 이 스트림의 모든 버퍼를 지우고 버퍼링된 데이터를 기본 장치에 기록합니다. |
+| [Dispose](../../aspose.slides/streamwrapper/dispose)() | 객체를 해제합니다. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | 이 스트림의 모든 버퍼를 비우고 버퍼링된 데이터를 기본 장치에 기록하도록 합니다. |
 | [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | 현재 스트림에서 바이트 시퀀스를 읽고 읽은 바이트 수만큼 스트림 내 위치를 이동합니다. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | 스트림에서 바이트를 읽고 스트림 내 위치를 한 바이트씩 이동합니다. 스트림 끝에 도달하면 -1을 반환합니다. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | 스트림에서 바이트를 읽고 스트림 내 위치를 한 바이트 이동하며, 스트림 끝에 도달하면 -1을 반환합니다. |
 | [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | 현재 스트림 내 위치를 설정합니다. |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | 현재 스트림에 바이트 시퀀스를 쓰고 쓰여진 바이트 수만큼 현재 스트림 내 위치를 이동합니다. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | 스트림의 현재 위치에 바이트를 쓰고 스트림 내 위치를 한 바이트씩 이동합니다. |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | 현재 스트림에 바이트 시퀀스를 쓰고, 쓰인 바이트 수만큼 현재 스트림 내 위치를 이동합니다. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | 스트림의 현재 위치에 바이트를 쓰고, 스트림 내 위치를 한 바이트 이동합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IStreamWrapper](../istreamwrapper)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

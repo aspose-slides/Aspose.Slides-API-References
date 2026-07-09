@@ -1,6 +1,6 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트 취소선의 유형을 나타냅니다.
 type: docs
 weight: 10990

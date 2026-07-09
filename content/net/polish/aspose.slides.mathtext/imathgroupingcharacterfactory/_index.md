@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes dla .NET API Reference
-description: Umożliwia tworzenie znaku grupującego w matematyce
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Umożliwia tworzenie znaku grupowania matematycznego
 type: docs
-weight: 8280
+weight: 8300
 url: /pl/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
-## IMMathGroupingCharacterFactory interfejs
+## IMathGroupingCharacterFactory interfejs
 
-Umożliwia tworzenie znaku grupującego w matematyce
+Umożliwia tworzenie znaku grupowania matematycznego
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Tworzy znak grupujący w matematyce |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Tworzy znak grupujący w matematyce |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Tworzy znak grupowania matematycznego |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Tworzy znak grupowania matematycznego |
 
 ### Uwagi
 

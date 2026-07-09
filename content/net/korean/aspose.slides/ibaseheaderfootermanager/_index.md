@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 모든 슬라이드 유형에 대한 바닥글, 날짜-시간 및 페이지 번호 자리표시자의 동작을 유지하는 관리자를 나타냅니다.
+description: 모든 슬라이드 유형에 대해 바닥글, 날짜-시간, 페이지 번호 자리표시자의 동작을 관리하는 매니저를 나타냅니다.
 type: docs
 weight: 5300
 url: /ko/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager 인터페이스
 
-모든 슬라이드 유형에 대한 바닥글, 날짜-시간, 페이지 번호 자리표시자의 동작을 유지하는 관리자를 나타냅니다.
+모든 슬라이드 유형에 대해 바닥글, 날짜-시간, 페이지 번호 자리표시자의 동작을 관리하는 매니저를 나타냅니다.
 
 ```csharp
 public interface IBaseHeaderFooterManager

@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุค่าของ error bar. จะใช้ได้เฉพาะเมื่อประเภทค่าของ error bars เป็น Custom.
+description: กำหนดค่าบาร์ข้อผิดพลาด. จะใช้เฉพาะเมื่อประเภทค่าบาร์ข้อผิดพลาดเป็น Custom.
 type: docs
 weight: 2080
 url: /th/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues อินเทอร์เฟซ
 
-ระบุค่าของ error bar. จะใช้เฉพาะเมื่อประเภทค่า error bars เป็น Custom.
+กำหนดค่าบาร์ข้อผิดพลาด. จะใช้เฉพาะเมื่อ Error bars value type เป็น Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | ระบุค่าของ error bar ในทิศทางลบ. มีให้ใช้ได้หากประเภทค่าของ error bars เป็น Custom และ ErrorBarsXFormat ถูกอนุญาต. ในกรณีอื่น ๆ property นี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | ระบุค่าของ error bar ในทิศทางบวก. มีให้ใช้ได้หากประเภทค่าของ error bars เป็น Custom และ ErrorBarsXFormat ถูกอนุญาต. ในกรณีอื่น ๆ property นี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | ระบุค่าของ error bar ในทิศทางลบ. มีให้ใช้ได้หากประเภทค่าของ error bars เป็น Custom และ ErrorBarsYFormat ถูกอนุญาต. ในกรณีอื่น ๆ property นี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | ระบุค่าของ error bar ในทิศทางบวก. มีให้ใช้ได้หากประเภทค่าของ error bars เป็น Custom และ ErrorBarsYFormat ถูกอนุญาต. ในกรณีอื่น ๆ property นี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | กำหนดค่าบาร์ข้อผิดพลาดในทิศทางลบ. มีให้ใช้ถ้า error bars value type เป็น Custom และ ErrorBarsXFormat ได้รับอนุญาต. ในกรณีอื่น ๆ คุณสมบัตินี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | กำหนดค่าบาร์ข้อผิดพลาดในทิศทางบวก. มีให้ใช้ถ้า error bars value type เป็น Custom และ ErrorBarsXFormat ได้รับอนุญาต. ในกรณีอื่น ๆ คุณสมบัตินี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | กำหนดค่าบาร์ข้อผิดพลาดในทิศทางลบ. มีให้ใช้ถ้า error bars value type เป็น Custom และ ErrorBarsYFormat ได้รับอนุญาต. ในกรณีอื่น ๆ คุณสมบัตินี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | กำหนดค่าบาร์ข้อผิดพลาดในทิศทางบวก. มีให้ใช้ถ้า error bars value type เป็น Custom และ ErrorBarsYFormat ได้รับอนุญาต. ในกรณีอื่น ๆ คุณสมบัตินี้จะคืนค่า null. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### ดูเพิ่มเติม
 

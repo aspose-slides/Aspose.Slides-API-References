@@ -3,10 +3,10 @@ title: IOverrideThemeable
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il gestore del tema di override.
 type: docs
-weight: 11340
+weight: 11360
 url: /it/aspose.slides.theme/ioverridethemeable/
 ---
-## interfaccia IOverrideThemeable
+## Interfaccia IOverrideThemeable
 
 Rappresenta il gestore del tema di override.
 

@@ -18,28 +18,28 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | يسمح بالحصول على واجهة IBaseSlide الأساسية. فقط للقراءة [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | يعيد واجهة IOverrideThemeable. فقط للقراءة [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | يعيد مدير HeaderFooter للشفرة. فقط للقراءة [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | يحدد ما إذا كانت الشريحة المحددة مخفية أثناء عرض الشرائح. قابل للقراءة والكتابة Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | يعيد أو يعيّن شريحة التخطيط للشريحة الحالية. قابل للقراءة والكتابة [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | يسمح بالوصول إلى شريحة الملاحظات، وإضافتها وإزالتها. فقط للقراءة [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | يعيد عدد الشريحة. فهرس الشريحة في مجموعة [`Slides`](../ipresentation/slides) يكون دائمًا مساويًا لـ SlideNumber - 1. قابل للقراءة والكتابة Int32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | يسمح بالحصول على واجهة IBaseSlide الأساسية. قراءة فقط [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | يرجع واجهة IOverrideThemeable. قراءة فقط [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | يرجع مدير HeaderFooter للشريحة. قراءة فقط [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | يحدد ما إذا كانت الشريحة المحددة مخفية أثناء عرض الشرائح. قراءة/كتابة Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | يرجع أو يضبط شريحة التخطيط للشريحة الحالية. قراءة/كتابة [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | يسمح بالوصول إلى شريحة الملاحظات، إضافتها وإزالتها. قراءة فقط [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | يرجع عدد الشرائح. فهرس الشريحة في مجموعة [`Slides`](../ipresentation/slides) يكون دائمًا مساويًا لـ SlideNumber - 1. قراءة/كتابة Int32. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | يعيد كائن صورة مصغرة (20% من الحجم الحقيقي). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | يعيد كائن Bitmap مصغر. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | يعيد كائن tiff bitmap مصغر مع المعلمات المحددة. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | يعيد كائن صورة بالحجم المحدد. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | يعيد كائن صورة مع تعديل مخصص. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | يعيد كائن Bitmap مصغر بالحجم المحدد. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | يعيد كائن Bitmap مصغر مع تعديل مخصص. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | يعيد جميع تعليقات الشريحة المضافة بواسطة مؤلف محدد. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | يرجع كائن صورة مصغرة (20% من الحجم الحقيقي). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | يرجع كائن Bitmap مصغّر. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | يرجع كائن bitmap tiff مصغر مع المعلمات المحددة. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | يرجع كائن صورة بالحجم المحدد. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | يرجع كائن صورة مع تحجيم مخصص. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | يرجع كائن Bitmap مصغر بالحجم المحدد. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | يرجع كائن Bitmap مصغر مع تحجيم مخصص. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | يرجع جميع تعليقات الشريحة التي أضافها مؤلف معين. |
 | [Remove](../../aspose.slides/islide/remove)() | يزيل الشريحة من العرض التقديمي. |
-| [Reset](../../aspose.slides/islide/reset)() | يعيد ضبط الموقع والحجم والتنسيق لكل شكل له نموذج أولي على LayoutSlide. |
+| [Reset](../../aspose.slides/islide/reset)() | يعيد تعيين الموقع والحجم وتنسيق كل شكل لديه نموذج في LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | يحفظ محتوى الشريحة كملف EMF. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | يحفظ محتوى الشريحة كملف SVG. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | يحفظ محتوى الشريحة كملف SVG. |
@@ -48,7 +48,7 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 * واجهة [IBaseSlide](../ibaseslide)
 * واجهة [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
-* نطاق الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* مساحة أسماء [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

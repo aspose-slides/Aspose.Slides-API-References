@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: रैडिकल फ़ंक्शन को निर्दिष्ट करता है जिसमें एक बेस और वैकल्पिक डिग्री होती है। रैडिकल वस्तु का उदाहरण है।
+description: आधार और वैकल्पिक डिग्री से बनी रैडिकल फ़ंक्शन को निर्दिष्ट करता है। रैडिकल ऑब्जेक्ट का उदाहरण है .
 type: docs
 weight: 8430
 url: /hi/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical इंटरफ़ेस
 
-एक मूल फ़ंक्शन को निर्दिष्ट करता है, जिसमें एक बेस और वैकल्पिक डिग्री होती है। मूल वस्तु का उदाहरण √𝑥 है।
+रैडिकल फ़ंक्शन को निर्दिष्ट करता है, जिसमें आधार और वैकल्पिक डिग्री शामिल होते हैं। रैडिकल वस्तु का उदाहरण √𝑥 है।
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,10 +18,10 @@ public interface IMathRadical : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | बेस तर्क |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Allows to get base IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | आधार तर्क |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | डिग्री तर्क |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | डिग्री छुपाएँ जब सत्य हो, डिग्री नहीं दिखाया जाता, जैसे √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | डिग्री को छुपाएँ जब सत्य हो, डिग्री नहीं दिखाई देती, जैसे √𝑥 |
 
 ### उदाहरण
 
@@ -32,7 +32,7 @@ public interface IMathRadical : IMathElement
 IMathRadical radical = new MathematicalText("x").Radical("3"); // घन मूल
 ```
 
-### अन्य देखें
+### देखें भी
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

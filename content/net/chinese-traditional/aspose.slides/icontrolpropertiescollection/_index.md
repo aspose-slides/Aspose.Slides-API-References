@@ -1,6 +1,6 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: ActiveX 控制項的集合。
 type: docs
 weight: 5650
@@ -18,20 +18,20 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | 傳回集合中屬性的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | 傳回或設定屬性。 |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | 傳回集合中屬性的數量。唯讀 ICollection。 |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | 返回 IEnumerable 介面。唯讀 IEnumerable。 |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | 返回集合中屬性的數量。唯讀 Int32。 |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | 返回或設定屬性。 |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | 返回集合中屬性的數量。唯讀 ICollection。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | 將屬性新增至集合。 |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | 在集合中新增屬性。 |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | 移除所有屬性。 |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | 移除具有指定名稱的屬性。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

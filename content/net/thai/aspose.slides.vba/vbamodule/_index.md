@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงโมดูลที่อยู่ในโครงการ VBA.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงโมดูลที่อยู่ในโครงการ VBA
 type: docs
 weight: 11630
 url: /th/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule คลาส
 
-แสดงโมดูลที่อยู่ในโครงการ VBA.
+แสดงถึงโมดูลที่อยู่ในโครงการ VBA
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | ดึงชื่อของโมดูล. อ่านอย่างเดียว String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | คืนค่า หรือกำหนดโค้ดต้นฉบับของโมดูล. อ่าน/เขียน String. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | รับชื่อของโมดูล. อ่านอย่างเดียว String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | ส่งคืนหรือกำหนดซอร์สโค้ดของโมดูล. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

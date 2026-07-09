@@ -8,7 +8,7 @@ url: /vi/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ khỏi 100%.
+Đối tượng bất biến đại diện cho hiệu ứng Alpha Inverse. Giá trị Alpha (độ trong suốt) được đảo ngược bằng cách trừ cho 100%.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData

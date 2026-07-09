@@ -1,14 +1,14 @@
 ---
 title: TransitionMorphType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft een type morph-transitie weer.
+description: Stelt een type morph-transitie voor.
 type: docs
 weight: 10390
 url: /nl/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType enumeratie
 
-Geeft een type morph-transitie weer.
+Stelt een type morph-transitie voor.
 
 ```csharp
 public enum TransitionMorphType
@@ -18,7 +18,7 @@ public enum TransitionMorphType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| ByObject | `0` | Morph-transitie wordt uitgevoerd rekening houdend met vormen als ondeelbare objecten. |
+| ByObject | `0` | Morph-transitie wordt uitgevoerd waarbij vormen als ondeelbare objecten worden beschouwd. |
 | ByWord | `1` | Morph-transitie wordt uitgevoerd met het overbrengen van tekst per woord waar mogelijk. |
 | ByChar | `2` | Morph-transitie wordt uitgevoerd met het overbrengen van tekst per teken waar mogelijk. |
 

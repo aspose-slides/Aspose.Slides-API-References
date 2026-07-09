@@ -6,7 +6,7 @@ type: docs
 weight: 1480
 url: /ko/aspose.slides.charts/charttextformat/
 ---
-## ChartTextFormat class
+## ChartTextFormat 클래스
 
 차트 텍스트 요소에 대한 기본 텍스트 서식을 지정합니다.
 
@@ -26,10 +26,10 @@ public class ChartTextFormat : IChartTextFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 지정된 텍스트 프레임에서 텍스트 형식을 복사합니다. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임에 텍스트 형식을 복사합니다. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | 지정된 텍스트 프레임에서 텍스트 서식을 복사합니다. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임에 텍스트 서식을 복사합니다. |
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IChartTextFormat](../icharttextformat)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

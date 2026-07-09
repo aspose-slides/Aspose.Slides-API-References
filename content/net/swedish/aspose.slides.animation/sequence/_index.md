@@ -1,9 +1,9 @@
 ---
 title: Sequence
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en sekvens, en samling av effekter.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en sekvens som en samling av effekter.
 type: docs
-weight: 770
+weight: 790
 url: /sv/aspose.slides.animation/sequence/
 ---
 ## Sequence klass
@@ -20,29 +20,29 @@ public sealed class Sequence : ISequence
 | --- | --- |
 | [Count](../../aspose.slides.animation/sequence/count) { get; } | Returnerar antalet effekter i en sekvens. Skrivskyddad Int32. |
 | [Item](../../aspose.slides.animation/sequence/item) { get; } | Returnerar en effekt vid angivet index. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Returnerar eller anger shape-mål för INTERACTIVE sekvens. Om sekvensen inte är interaktiv returneras null. Läs/skriv [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Returnerar eller anger shape target för INTERACTIVE sekvens. Om sekvensen inte är interaktiv returneras null. Läs/skriv [`IShape`](../../aspose.slides/ishape). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Lägg till ny animeringseffekt för paragraf i slutet av sekvensen. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Lägg till ny effekt i slutet av sekvensen. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Lägger till den nya diagramanimeringseffekten för kategori eller serie i slutet av sekvensen. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Lägger till den nya diagramanimeringseffekten för element i kategori eller serie i slutet av sekvensen. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Lägg till ny animeringseffekt för paragraph till slutet av sekvensen. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Lägg till ny effekt till slutet av sekvensen. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Lägger till den nya diagramanimeringseffekten för kategori eller serie till slutet av sekvensen. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Lägger till den nya diagramanimeringseffekten för element i kategori eller serie till slutet av sekvensen. |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | Tar bort alla effekter från en samling. |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Returnerar antalet effekter för den angivna formen. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Returnerar en matris av effekter för den angivna paragrafen. |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Returnerar en matris av effekter för den angivna formen. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Returnerar en enumerator som itererar igenom samlingen. |
-| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Tar bort angiven effekt från en samling. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Returnerar antalet effekter för den angivna shape. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Returnerar en array av effekter för det angivna paragraph. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Returnerar en array av effekter för den angivna shape. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Tar bort specificerad effekt från en samling. |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Tar bort en effekt från en samling. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Ta bort effekt för den angivna formen. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Tar bort effekt för den angivna shape. |
 
-### Se också
+### Se även
 
 * gränssnitt [ISequence](../isequence)
-* namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
+* namnutrymme [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

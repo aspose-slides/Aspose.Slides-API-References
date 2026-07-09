@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
 second_title: Riferimento API Aspose.Sildes per .NET
-description: La classe controller di formattazione da utilizzare per l'incorporamento dei font in formato EOT
+description: La classe controller di formattazione da utilizzare per l'inserimento di font in formato EOT
 type: docs
-weight: 3760
+weight: 3780
 url: /it/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController classe
 
-La classe controller di formattazione da utilizzare per l'incorporamento dei font in formato EOT
+Il controller di formattazione da utilizzare per l’inserimento di font in formato EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

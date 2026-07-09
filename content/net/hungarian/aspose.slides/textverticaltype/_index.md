@@ -1,9 +1,9 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes .NET API-referencia
 description: Meghatározza a szöveg függőleges írási módját.
 type: docs
-weight: 11010
+weight: 11030
 url: /hu/aspose.slides/textverticaltype/
 ---
 ## TextVerticalType enumeráció

@@ -1,9 +1,9 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan jenis nilai dalam daftar properti ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 2030
+weight: 2050
 url: /id/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues antarmuka
@@ -18,10 +18,10 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble aktual dalam objek properti XMinus pada titik data untuk nilai khusus error bars. Dengan kata lain, ini menentukan jenis nilai properti ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble aktual dalam objek properti XPlus pada titik data untuk nilai khusus error bars. Dengan kata lain, ini menentukan jenis nilai properti ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble aktual dalam objek properti YMinus pada titik data untuk nilai khusus error bars. Dengan kata lain, ini menentukan jenis nilai properti ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble aktual dalam objek properti YPlus pada titik data untuk nilai khusus error bars. Dengan kata lain, ini menentukan jenis nilai properti ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble berlaku pada objek properti XMinus titik data untuk nilai kustom batang galat. Dengan kata lain, ini menentukan jenis nilai dari properti ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble berlaku pada objek properti XPlus titik data untuk nilai kustom batang galat. Dengan kata lain, ini menentukan jenis nilai dari properti ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble berlaku pada objek properti YMinus titik data untuk nilai kustom batang galat. Dengan kata lain, ini menentukan jenis nilai dari properti ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Menentukan apakah properti AsCell atau AsLiteralString atau AsLiteralDouble berlaku pada objek properti YPlus titik data untuk nilai kustom batang galat. Dengan kata lain, ini menentukan jenis nilai dari properti ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Baca/tulis [`DataSourceType`](../datasourcetype). |
 
 ### Lihat Juga
 

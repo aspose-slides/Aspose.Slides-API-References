@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat kotak batas matematika
 type: docs
-weight: 8600
+weight: 8620
 url: /id/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory kelas
 
-Memungkinkan untuk membuat kotak batas matematika
+Memungkinkan membuat kotak batas matematika
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -24,8 +24,8 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Membuat kotak batas matematika dengan menerapkannya pada elemen |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Membuat kotak batas matematika dengan menerapkannya pada elemen |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Membuat kotak batas matematika dengan menerapkannya ke elemen |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement,bool,bool,bool,bool,bool,bool,bool,bool) | Membuat kotak batas matematika dengan menerapkannya ke elemen |
 
 ### Catatan
 

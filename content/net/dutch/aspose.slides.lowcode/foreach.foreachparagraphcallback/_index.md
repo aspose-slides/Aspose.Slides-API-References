@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Callback die wordt aangeroepen voor elke Paragraph./foreach/paragraph op de BaseSlide../aspose.slides/baseslide.
 type: docs
 weight: 7930
@@ -16,9 +16,9 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| para | Paragraph | Huidige doorlopen Paragraph |
-| slide | BaseSlide | Huidige doorlopen BaseSlide |
-| index | Int32 | Index van de huidige Paragraph op de slide |
+| para | Paragraph | Huidige doorlopen alinea |
+| slide | BaseSlide | Huidige doorlopen dia |
+| index | Int32 | Index van de huidige alinea op de dia |
 
 ### Zie ook
 

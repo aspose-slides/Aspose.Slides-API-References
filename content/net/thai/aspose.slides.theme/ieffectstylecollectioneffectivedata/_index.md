@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของสไตล์เอฟเฟ็กต์ที่มีประสิทธิผล
+description: อ็อบเจกต์ไม่เปลี่ยนแปลงที่เป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของสไตล์เอฟเฟ็กต์ที่มีผล
 type: docs
 weight: 11190
 url: /th/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของสไตล์เอฟเฟ็กต์ที่มีประสิทธิผล
+อ็อบเจกต์ไม่เปลี่ยนแปลงที่เป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของสไตล์เอฟเฟ็กต์ที่มีผล
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | รับอิลิเมนต์ที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### หมายเหตุ
 

@@ -14,51 +14,51 @@ Biedt opties die bepalen hoe een presentatie wordt opgeslagen in XPS-indeling.
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [XpsOptions](xpsoptions)() | Standaardconstructor. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft of stelt het lettertype in dat wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lees-schrijf String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Waar om een zwart kader rond elke dia te tekenen. Lees-schrijf Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft of stelt de visuele stijl van de gradient in. Lees-schrijf [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor voor het opslaan van voortgangsupdates in procenten. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Waar om alle metafiles die in een presentatie worden gebruikt te converteren naar PNG-afbeeldingen. Lees-schrijf Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet opnemen al dan niet. Standaard is `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen overgeslagen moeten worden bij het opslaan van de presentatie. Lees-schrijf Boolean. De standaardwaarde is **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt het in dat waarschuwingen ontvangt en bepaalt of het laadproces wordt voortgezet of wordt afgebroken. Lees-schrijf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft of stelt het lettertype in dat wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True om een zwart kader rond elke dia te tekenen. Lezen/schrijven Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft of stelt de visuele stijl van de gradiënt in. Lezen/schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor die voortgangsupdates bij het opslaan weergeeft in percentage. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True om alle metabestanden die in een presentatie worden gebruikt te converteren naar PNG-afbeeldingen. Lezen/schrijven Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen dia's moet bevatten of niet. Standaard is `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen/schrijven Boolean. De standaardwaarde is **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of afgebroken. Lezen/schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 
-Het volgende voorbeeld laat zien hoe presentaties naar XPS te converteren met standaardinstellingen.
+Het volgende voorbeeld toont hoe presentaties naar XPS worden geconverteerd met de standaardinstellingen.
 
 ```csharp
 [C#]
-// Instantieer een Presentation-object dat een presentatiebestand voorstelt
+// Maak een Presentation-object aan dat een presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // De presentatie opslaan naar XPS-document
+    // Sla de presentatie op als XPS-document
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-Het volgende voorbeeld laat zien hoe presentaties naar XPS te converteren met aangepaste instellingen.
+Het volgende voorbeeld toont hoe presentaties naar XPS worden geconverteerd met aangepaste instellingen.
 
 ```csharp
 [C#]
-// Instantieer een Presentation-object dat een presentatiebestand voorstelt
+// Maak een Presentation-object aan dat een presentatiebestand vertegenwoordigt
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Instantieer de TiffOptions-klasse
+    // Maak de TiffOptions-klasse aan
     XpsOptions options = new XpsOptions();
     // Sla MetaFiles op als PNG
     options.SaveMetafilesAsPng = true;
-    // Sla de presentatie op in XPS-document
+    // Sla de presentatie op als XPS-document
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
@@ -67,7 +67,7 @@ using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 
 * klasse [SaveOptions](../saveoptions)
 * interface [IXpsOptions](../ixpsoptions)
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

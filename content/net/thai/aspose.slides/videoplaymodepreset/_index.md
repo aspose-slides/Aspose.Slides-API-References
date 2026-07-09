@@ -1,28 +1,28 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: ค่าคงที่ที่กำหนดวิธีการเล่นวิดีโอ.
 type: docs
 weight: 11730
 url: /th/aspose.slides/videoplaymodepreset/
 ---
-## VideoPlayModePreset การนับค่า
+## VideoPlayModePreset enumeration
 
-ค่าคงที่ที่กำหนดวิธีการเล่นวิดีโอ
+ค่าคงที่ที่กำหนดวิธีการเล่นวิดีโอ.
 
 ```csharp
 public enum VideoPlayModePreset
 ```
 
-### ค่า
+### Values
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | เล่นโดยอัตโนมัติ. |
-| OnClick | `1` | เล่นเฉพาะเมื่อคลิกบนเฟรมวิดีโอ. |
-| AllSlides | `2` | เล่นบนสไลด์ทั้งหมด. |
-| InClickSequence | `3` | เล่นโดยอัตโนมัติเมื่อคลิก. |
+| Auto | `0` | เล่นโดยอัตโนมัติ |
+| OnClick | `1` | เล่นเมื่อคลิกที่เฟรมวิดีโอเท่านั้น |
+| AllSlides | `2` | เล่นบนสไลด์ทั้งหมด |
+| InClickSequence | `3` | เล่นโดยอัตโนมัติพร้อมคลิก |
 
 ### ดูเพิ่มเติม
 

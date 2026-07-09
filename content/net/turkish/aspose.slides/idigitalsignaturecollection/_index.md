@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes .NET API Referansı
-description: Belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Bir belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
 type: docs
-weight: 5680
+weight: 5700
 url: /tr/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection arayüz
 
-Belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
+Bir belgeye eklenmiş dijital imzaların bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -18,17 +18,17 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | İmza, indeks ile döndürülür. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | İmzayı indeksine göre döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | İmzayı koleksiyonun sonuna ekler. |
-| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Koleksiyondaki tüm imzaları kaldırır. |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Koleksiyondan tüm imzaları kaldırır. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Belirtilen indeksdeki imzayı kaldırır. |
 
-### Ayrıca Bakınız
+### Diğer
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IDigitalSignature](../idigitalsignature)

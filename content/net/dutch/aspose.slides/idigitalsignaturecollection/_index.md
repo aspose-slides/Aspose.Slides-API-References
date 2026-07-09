@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling digitale handtekeningen voor die aan een document zijn gekoppeld.
+description: Stelt een collectie digitale handtekeningen voor die aan een document zijn toegevoegd.
 type: docs
 weight: 5700
 url: /nl/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interface
 
-Stelt een verzameling digitale handtekeningen voor die aan een document zijn gekoppeld.
+Stelt een collectie digitale handtekeningen voor die aan een document zijn toegevoegd.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -16,13 +16,13 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Retourneert de handtekening op index. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Voegt de handtekening toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Verwijdert alle handtekeningen uit de collectie. |

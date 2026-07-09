@@ -1,14 +1,14 @@
 ---
 title: DataLabelFormat
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل خيارات تنسيق DataLabel.
+description: يمثل خيارات التنسيق لتسمية البيانات.
 type: docs
 weight: 1570
 url: /ar/aspose.slides.charts/datalabelformat/
 ---
 ## DataLabelFormat فئة
 
-Represents formatting options for DataLabel.
+يمثل خيارات تنسيق لتسمية البيانات.
 
 ```csharp
 public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
@@ -19,35 +19,35 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 | الاسم | الوصف |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | يعيد chart. للقراءة فقط [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | يمثل تنسيق DataLabel. للقراءة فقط [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | قراءة/كتابة Boolean. |
-| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. قراءة/كتابة String. |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | يمثل موضع DataLabel. قراءة/كتابة [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | يحدد أو يعيد Variant يمثل الفاصل المستخدم لتسميات البيانات على chart. قراءة/كتابة String. |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | يمثل سلوك عرض قيمة حجم الفقاعة لتسمية البيانات في chart محدد. True يعرض قيمة حجم الفقاعة. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | يمثل سلوك عرض اسم الفئة لتسمية البيانات في chart محدد. True لعرض اسم الفئة لتسميات البيانات على chart. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | يحدد ما إذا كانت تسمية البيانات في chart المحدد ستُعرض كإشارة بيانات أو كتسمية بيانات. إذا كان العنصر الأب لهذا الكائن DataLabelFormat هو مجموعة DataLabelCollection من تسميات البيانات، فإن هذه الخاصية تحصل أو تعيين القيمة الافتراضية للخاصية ShowLabelAsDataCallout لتسميات البيانات الجديدة في مجموعة DataLabelCollection. تعيين هذه الخاصية بقيمة يقوم أيضًا بتعيين هذه القيمة للخاصية ShowLabelAsDataCallout لجميع تسميات البيانات في مجموعة DataLabelCollection (مثال: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" يسبب أن جميع DataLabels[i].ShowLabelAsDataCallout تساوي val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | يمثل سلوك عرض قيمة خلية تسمية البيانات في chart محدد. True يعرض قيمة الخلية. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | يمثل سلوك عرض خطوط القائد لتسمية البيانات في chart محدد. True يعرض خطوط القائد. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | يمثل سلوك عرض مفتاح وسيلة الإيضاح لتسمية البيانات في chart محدد. True إذا كان مفتاح وسيلة الإيضاح لتسمية البيانات مرئيًا. قراءة/كتابة Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في chart محدد. True يعرض قيمة النسبة المئوية. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | يعيد أو يعيّن Boolean لتحديد سلوك عرض اسم السلسلة لتسميات البيانات على chart. True لعرض اسم السلسلة. False للإخفاء. قراءة/كتابة Boolean. |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | يمثل سلوك عرض قيمة النسبة المئوية لتسمية البيانات في chart محدد. True يعرض قيمة النسبة المئوية. False للإخفاء. قراءة/كتابة Boolean. |
-| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | يعيد تنسيق نص المخطط. للقراءة فقط [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | يرجع المخطط. للقراءة فقط [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | يمثل تنسيق تسمية البيانات. للقراءة فقط [`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | منطقية قراءة/كتابة. |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | يمثل سلسلة التنسيق لكائن DataLabels. قراءة/كتابة نص. |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | يمثل موضع تسمية البيانات. قراءة/كتابة [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | تعيين أو إرجاع Variant يمثل الفاصل المستخدم لتسميات البيانات في المخطط. قراءة/كتابة نص. |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | يمثل سلوك عرض قيمة حجم الفقاعة لتسمية البيانات في مخطط محدد. صحيح يعرض قيمة حجم الفقاعة. خطأ لإخفائها. قراءة/كتابة منطقية. |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | يمثل سلوك عرض اسم الفئة لتسمية البيانات في مخطط محدد. صحيح لعرض اسم الفئة. خطأ لإخفائه. قراءة/كتابة منطقية. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | يحدد ما إذا كانت تسمية البيانات لمخطط محدد ستُعرض كقالب بيانات أو كملصق بيانات. إذا كان الأصل لهذا الكائن DataLabelFormat هو مجموعة DataLabelCollection لتسميات البيانات فإن هذه الخاصية تحصل أو تعين القيمة الافتراضية لخاصية ShowLabelAsDataCallout للملصقات البيانات الجديدة في مجموعة DataLabelCollection. تعيين هذه الخاصية بقيمة سيعيّن هذه القيمة لخاصية ShowLabelAsDataCallout لجميع تسميات البيانات في مجموعة DataLabelCollection (أي "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" يؤدي إلى أن جميع DataLabels[i].ShowLabelAsDataCallout يساوي val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | يمثل سلوك عرض قيمة الخلية لتسمية البيانات في مخطط محدد. صحيح يعرض قيمة الخلية. خطأ لإخفائها. قراءة/كتابة منطقية. |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | يمثل سلوك عرض خطوط القائد لتسمية البيانات في مخطط محدد. صحيح يعرض خطوط القائد. خطأ لإخفائها. قراءة/كتابة منطقية. |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | يمثل سلوك عرض مفتاح وسيلة الإيضاح لتسمية البيانات في مخطط محدد. صحيح إذا كان مفتاح وسيلة الإيضاح مرئيًا. قراءة/كتابة منطقية. |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | يمثل سلوك عرض القيمة النسبية لتسمية البيانات في مخطط محدد. صحيح يعرض القيمة النسبية. خطأ لإخفائها. قراءة/كتابة منطقية. |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | إرجاع أو تعيين منطقية لتحديد سلوك عرض اسم السلسلة لتسميات البيانات في مخطط. صحيح لإظهار اسم السلسلة. خطأ لإخفائه. قراءة/كتابة منطقية. |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | يمثل سلوك عرض القيمة النسبية لتسمية البيانات في مخطط محدد. صحيح يعرض القيمة النسبية. خطأ لإخفائها. قراءة/كتابة منطقية. |
+| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | يرجع تنسيق نص المخطط. للقراءة فقط [`IChartTextFormat`](../icharttextformat). |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يعيد رمز التجزئة. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يرجع رمز التجزئة. |
 
 ### انظر أيضًا
 
 * فئة [PVIObject](../../aspose.slides/pviobject)
 * واجهة [IDataLabelFormat](../idatalabelformat)
-* مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* نطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: Aspose.Sildes for .NET API リファレンス
-description: コンポーネントにライセンスを付与するためのメソッドを提供します。
+description: コンポーネントをライセンスするためのメソッドを提供します。
 type: docs
-weight: 7660
+weight: 7680
 url: /ja/aspose.slides/license/
 ---
 ## License クラス
 
-コンポーネントのライセンスを付与するためのメソッドを提供します。
+コンポーネントをライセンスするためのメソッドを提供します。
 
 ```csharp
 public class License : ILicense
@@ -26,12 +26,12 @@ public class License : ILicense
 | --- | --- |
 | [IsLicensed](../../aspose.slides/license/islicensed)() | コンポーネントにライセンスが適用されているか確認します |
 | [ResetLicense](../../aspose.slides/license/resetlicense)() | ライセンスをリセットします |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | コンポーネントにライセンスを適用します。 |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | コンポーネントにライセンスを適用します。 |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | コンポーネントにライセンスを付与します。 |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | コンポーネントにライセンスを付与します。 |
 
 ### 例
 
-この例では、コンポーネントが配置されているフォルダー、呼び出し側アセンブリが配置されているフォルダー、エントリ アセンブリのフォルダー、そして呼び出し側アセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンス ファイルを検索しようとします。
+この例では、コンポーネントが含まれるフォルダー、呼び出し側アセンブリが含まれるフォルダー、エントリアセンブリのフォルダー、そして呼び出し側アセンブリの埋め込みリソースの順に、MyLicense.lic という名前のライセンスファイルを探すことを試みます。
 
 ```csharp
 [C#]

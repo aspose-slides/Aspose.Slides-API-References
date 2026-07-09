@@ -1,6 +1,6 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: แสดงถึงคอลเลกชันขององค์ประกอบคณิตศาสตร์ MathElement.
 type: docs
 weight: 8240
@@ -8,7 +8,7 @@ url: /th/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันขององค์ประกอบคณิตศาสตร์ (MathElement).
+Represents a collection of mathematical elements (MathElement).
 
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
@@ -18,22 +18,22 @@ public interface IMathElementCollection : IEnumerable<IMathElement>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | รับจำนวนขององค์ประกอบที่แท้จริงที่อยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | ส่งคืนอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IMathElement`](../imathelement). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | เพิ่มองค์ประกอบคณิตศาสตร์ลงในส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | ตรวจสอบว่าคอลเลกชันมีค่าที่เฉพาะหรือไม่. |
-| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | คัดลอกไปยังอาร์เรย์ที่ระบุ. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | ตรวจสอบตำแหน่งขององค์ประกอบคณิตศาสตร์ที่เฉพาะในคอลเลกชัน. |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | แทรกองค์ประกอบคณิตศาสตร์ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | ลบการปรากฏครั้งแรกของวัตถุที่เฉพาะจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
+| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | เพิ่มองค์ประกอบคณิตศาสตร์ไปยังตำแหน่งสุดท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | ลบองค์ประกอบทั้งหมดออกจากคอลเลกชัน. |
+| [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | ตรวจสอบว่าคอลเลกชันมีค่าที่ระบุหรือไม่. |
+| [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | คัดลอกรายการไปยังอาเรย์ที่ระบุ. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | ตรวจสอบตำแหน่งขององค์ประกอบคณิตศาสตร์ที่ระบุในคอลเลกชัน. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | แทรกองค์ประกอบคณิตศาสตร์เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | ลบการปรากฏครั้งแรกของอ็อบเจ็กต์ที่ระบุออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
 
 ### ตัวอย่าง
 

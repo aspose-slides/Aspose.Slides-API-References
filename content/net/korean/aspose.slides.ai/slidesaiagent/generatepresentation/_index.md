@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트 설명에서 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용구 또는 텍스트 조각을 제공하십시오.
+description: 텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요 언어로 주제, 아이디어, 인용문 또는 텍스트 조각을 제공하십시오.
 type: docs
 weight: 20
 url: /ko/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-텍스트 설명에서 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용구 또는 텍스트 조각을 제공하십시오.
+텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용문 또는 텍스트 조각을 제공하십시오.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -17,8 +17,8 @@ public IPresentation GeneratePresentation(string description,
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| description | String | 주제, 아이디어, 인용구 또는 텍스트 조각. |
-| presentationContentAmount | PresentationContentAmountType | 결과 프레젠테이션에 포함될 콘텐츠 양. |
+| description | String | 주제, 아이디어, 인용문 또는 텍스트 조각입니다. |
+| presentationContentAmount | PresentationContentAmountType | 결과 프레젠테이션에 포함될 콘텐츠 양입니다. |
 
 ### 예외
 
@@ -28,13 +28,13 @@ public IPresentation GeneratePresentation(string description,
 
 ### 비고
 
-아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)를 사용합니다. 이는 매개변수가 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 자체 LLM에 연결됩니다. 다른 AI 공급자를 사용하려면 직접 LLM을 제공하거나 연결을 사용자 지정하십시오(예: 직접 `HttpClient`를 제공). [`IAIWebClient`](../../iaiwebclient) 구현을 [`SlidesAIAgent`](../slidesaiagent) 생성자에 전달하십시오. 사용 가능한 구현은 다음과 같습니다:
+아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)를 사용합니다. 이 객체는 매개변수가 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 자체 LLM에 연결됩니다. 다른 AI 공급자를 사용하려면 자체 LLM을 제공하거나 연결을 사용자 지정하십시오(예: 자체 `HttpClient` 제공). [`SlidesAIAgent`](../slidesaiagent) 생성자에 [`IAIWebClient`](../../iaiwebclient) 구현을 전달하십시오. 사용 가능한 구현은 다음과 같습니다:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IPresentation](../../../aspose.slides/ipresentation)
 * 열거형 [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -46,7 +46,7 @@ public IPresentation GeneratePresentation(string description,
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-텍스트 설명에서 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용구 또는 텍스트 조각을 제공하십시오.
+텍스트 설명으로부터 프레젠테이션 인스턴스를 생성합니다. 필요한 언어로 주제, 아이디어, 인용문 또는 텍스트 조각을 제공하십시오.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -55,9 +55,9 @@ public IPresentation GeneratePresentation(string description,
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| description | String | 주제, 아이디어, 인용구 또는 텍스트 조각. |
-| presentationContentAmount | PresentationContentAmountType | 결과 프레젠테이션에 포함될 콘텐츠 양. |
-| presentationTemplate | IPresentation | 레이아웃 및 디자인 템플릿으로 사용할 프레젠테이션이며 기본 템플릿을 대체합니다. |
+| description | String | 주제, 아이디어, 인용문 또는 텍스트 조각입니다. |
+| presentationContentAmount | PresentationContentAmountType | 결과 프레젠테이션에 포함될 콘텐츠 양입니다. |
+| presentationTemplate | IPresentation | 레이아웃 및 디자인 템플릿으로 사용할 프레젠테이션이며, 기본 템플릿을 대체합니다. |
 
 ### 예외
 
@@ -68,13 +68,13 @@ public IPresentation GeneratePresentation(string description,
 
 ### 비고
 
-아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)를 사용합니다. 이는 매개변수가 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 자체 LLM에 연결됩니다. 다른 AI 공급자를 사용하려면 직접 LLM을 제공하거나 연결을 사용자 지정하십시오(예: 직접 `HttpClient`를 제공). [`IAIWebClient`](../../iaiwebclient) 구현을 [`SlidesAIAgent`](../slidesaiagent) 생성자에 전달하십시오. 사용 가능한 구현은 다음과 같습니다:
+아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)를 사용합니다. 이 객체는 매개변수가 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 자체 LLM에 연결됩니다. 다른 AI 공급자를 사용하려면 자체 LLM을 제공하거나 연결을 사용자 지정하십시오(예: 자체 `HttpClient` 제공). [`SlidesAIAgent`](../slidesaiagent) 생성자에 [`IAIWebClient`](../../iaiwebclient) 구현을 전달하십시오. 사용 가능한 구현은 다음과 같습니다:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IPresentation](../../../aspose.slides/ipresentation)
 * 열거형 [PresentationContentAmountType](../../presentationcontentamounttype)

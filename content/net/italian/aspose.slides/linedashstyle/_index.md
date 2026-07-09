@@ -3,10 +3,10 @@ title: LineDashStyle
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta lo stile di tratteggio della linea.
 type: docs
-weight: 7750
+weight: 7770
 url: /it/aspose.slides/linedashstyle/
 ---
-## LineDashStyle enumerazione
+## enumerazione LineDashStyle
 
 Rappresenta lo stile di tratteggio della linea.
 

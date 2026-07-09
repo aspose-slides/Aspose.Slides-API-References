@@ -18,14 +18,14 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dit attribuut bepaalt of de overgang start vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart toont). Lezen/Schrijven Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Dit attribuut geeft aan of de overgang start vanaf een zwart scherm (en vervolgens de nieuwe dia over zwart overgaat). Lezen/schrijven Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

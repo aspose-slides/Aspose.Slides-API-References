@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यह क्लास लंबी चलने वाले कार्यों को संकेत देने हेतु उपयोग किए जाने वाले टोकन को दर्शाती है, यह बताता है कि क्या बाधा का अनुरोध किया गया था।
+description: यह क्लास टोकन को दर्शाती है जिसका उपयोग दीर्घकालिक कार्यों को संकेत देने के लिए किया जाता है कि क्या बाधा का अनुरोध किया गया है।
 type: docs
 weight: 6190
 url: /hi/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken इंटरफ़ेस
 
-यह क्लास लंबी चलने वाले कार्यों को संकेत देने के लिए उपयोग किए जाने वाले टोकन को दर्शाती है कि क्या बाधा का अनुरोध किया गया था।
+यह क्लास टोकन को दर्शाती है जिसका उपयोग दीर्घकालिक कार्यों को संकेत देने के लिये किया जाता है कि क्या बाधा का अनुरोध किया गया है।
 
 ```csharp
 public interface IInterruptionToken
@@ -18,13 +18,13 @@ public interface IInterruptionToken
 
 | नाम | विवरण |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | यदि बाधा का अनुरोध किया गया हो तो Boolean.true लौटाता है। |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | यदि बाधा का अनुरोध किया गया है तो Boolean.true लौटाता है। |
 
-## विधियाँ
+## मेथड
 
 | नाम | विवरण |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | यदि बाधा का अनुरोध किया गया हो तो OperationCanceledException फेंकता है। बाधा का अनुरोध किए जाने पर फेंका जाता है। |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | यदि बाधा का अनुरोध किया गया है तो OperationCanceledException को थ्रो करता है। बाधा का अनुरोध किया गया होने पर थ्रो किया जाता है। |
 
 ### देखें
 

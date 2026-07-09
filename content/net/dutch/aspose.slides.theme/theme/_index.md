@@ -1,14 +1,14 @@
 ---
 title: Theme
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een thema voor.
+description: Vertegenwoordigt een thema.
 type: docs
 weight: 11480
 url: /nl/aspose.slides.theme/theme/
 ---
 ## Theme klasse
 
-Stelt een thema voor.
+Vertegenwoordigt een thema.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -18,16 +18,16 @@ public abstract class Theme : ITheme
 
 | Naam | Beschrijving |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Retourneert het kleurenschema. Alleen-lezen [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Retourneert het lettertype-schema. Alleen-lezen [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Retourneert het vormopmaakschema. Alleen-lezen [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Retourneert de bovenliggende presentatie. Alleen-lezen [`IPresentation`](../../aspose.slides/ipresentation). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Geeft het kleurschema terug. Alleen-lezen [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Geeft het lettertype-schema terug. Alleen-lezen [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Geeft het vorm-opmaakschema terug. Alleen-lezen [`IFormatScheme`](../iformatscheme). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Geeft de bovenliggende presentatie terug. Alleen-lezen [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Haalt de effectieve themagegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Haalt effectieve themagegevens op met de overerving toegepast. |
 
 ### Zie ook
 

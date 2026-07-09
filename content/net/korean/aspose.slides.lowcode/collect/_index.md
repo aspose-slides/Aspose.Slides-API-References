@@ -18,16 +18,16 @@ public static class Collect
 
 | 이름 | 설명 |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Presentation`](../../aspose.slides/presentation) 내의 모든 [`Shape`](../../aspose.slides/shape) 인스턴스를 수집합니다. |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 [`Shape`](../../aspose.slides/shape)의 모든 인스턴스를 수집합니다. |
 
-### 예시
+### 예제
 
 ```csharp
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... shape 서식 또는 기타 속성을 변경합니다
+        // ... 모양 서식이나 기타 속성을 변경합니다
     }
 }    
 ```

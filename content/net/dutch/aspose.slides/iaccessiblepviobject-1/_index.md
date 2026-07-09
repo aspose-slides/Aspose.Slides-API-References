@@ -6,7 +6,7 @@ type: docs
 weight: 5170
 url: /nl/aspose.slides/iaccessiblepviobject-1/
 ---
-## IAccessiblePVIObject&lt;T&gt; interface
+## IAccessiblePVIObject<T> interface
 
 Stelt een type voor dat de overeenkomstige effectieve gegevens kan retourneren met de toegepaste overerving.
 

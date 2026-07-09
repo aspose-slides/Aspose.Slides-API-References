@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है कि कौन से ऑपरेशन पैरेंट AutoshapeEx पर निष्क्रिय हैं।
+description: निर्धारित करता है कि पैरेंट AutoshapeEx पर कौन-से ऑपरेशन निष्क्रिय हैं।
 type: docs
 weight: 5250
 url: /hi/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock इंटरफ़ेस
 
-Determines which operations are disabled on the parent AutoshapeEx.
+निर्धारित करता है कि पैरेंट AutoshapeEx पर कौन-से ऑपरेशन निष्क्रिय हैं।
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -18,20 +18,20 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | नाम | विवरण |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | यह निर्धारित करता है कि समायोजन मानों में परिवर्तन प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | यह निर्धारित करता है कि तीर के सिरों में परिवर्तन प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | आधार IBaseShapeLock इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | यह निर्धारित करता है कि आकार को आकार बदलते समय अनुपात बनाए रखना चाहिए या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | यह निर्धारित करता है कि इस आकार की रूपरेखा में प्रत्यक्ष परिवर्तन प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | यह निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | यह निर्धारित करता है कि इस आकार को स्थानांतरित करना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | यह निर्धारित करता है कि इस आकार का घूर्णन कोण बदलना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | यह निर्धारित करता है कि इस आकार का चयन करना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | यह निर्धारित करता है कि आकार प्रकार में परिवर्तन प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | यह निर्धारित करता है कि इस आकार का आकार बदलना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | यह निर्धारित करता है कि पाठ को संपादित करना प्रतिबंधित है या नहीं। पढ़ने-लेखन योग्य Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | निर्धारित करता है कि समायोजन मानों को बदलना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | निर्धारित करता है कि एरोहेड को बदलना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | बेस IBaseShapeLock इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseShapeLock`](../ibaseshapelock)। |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को पुनः आकार देने पर अनुपात सुरक्षित रखा जाए। पढ़ने-लिखने योग्य बूलियन। |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | निर्धारित करता है कि इस आकार की रूपरेखा को सीधे बदलना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को स्थानांतरित करना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | निर्धारित करता है कि इस आकार का घूर्णन कोण बदलना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन करना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | निर्धारित करता है कि आकार प्रकार को बदलना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का पुनः आकार देना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | निर्धारित करता है कि पाठ को संपादित करना निषिद्ध है। पढ़ने-लिखने योग्य बूलियन। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBaseShapeLock](../ibaseshapelock)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

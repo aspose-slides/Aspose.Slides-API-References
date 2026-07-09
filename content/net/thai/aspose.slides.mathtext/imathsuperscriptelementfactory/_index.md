@@ -6,9 +6,9 @@ type: docs
 weight: 8500
 url: /th/aspose.slides.mathtext/imathsuperscriptelementfactory/
 ---
-## IMathSuperscriptElementFactory อินเทอร์เฟส
+## IMathSuperscriptElementFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้าง IMMathSuperscriptElement
+อนุญาตให้สร้าง IMathSuperscriptElement
 
 ```csharp
 public interface IMathSuperscriptElementFactory
@@ -18,7 +18,7 @@ public interface IMathSuperscriptElementFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMMathElement, IMathElement) | สร้าง IMMathSuperscriptElement |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | สร้าง IMathSuperscriptElement |
 
 ### หมายเหตุ
 

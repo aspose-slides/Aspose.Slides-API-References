@@ -1,14 +1,14 @@
 ---
 title: IParagraphFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa paragrafer
+description: Tillåter att skapa stycken
 type: docs
-weight: 6560
+weight: 6580
 url: /sv/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory gränssnitt
 
-Tillåter att skapa paragrafer
+Tillåter att skapa stycken
 
 ```csharp
 public interface IParagraphFactory
@@ -19,7 +19,7 @@ public interface IParagraphFactory
 | Namn | Beskrivning |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Skapar ett nytt tomt stycke. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Skapar ett nytt stycke med angivna styckedata. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Skapar ett nytt stycke med angivet stycke-data med hjälp av. |
 
 ### Anmärkningar
 

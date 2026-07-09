@@ -1,6 +1,6 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 저장 옵션 인스턴스를 생성할 수 있습니다
 type: docs
 weight: 4080
@@ -24,7 +24,7 @@ public interface ISaveOptionsFactory
 
 COM 호환성을 위해.
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

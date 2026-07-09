@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 참조
-description: 레이아웃 슬라이드의 푸터, 날짜/시간, 페이지 번호 자리표시자와 모든 하위 자리표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
+description: 레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리표시자 및 모든 자식 자리표시자의 동작을 유지하는 관리자를 나타냅니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
 type: docs
 weight: 6240
 url: /ko/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager 인터페이스
 
-레이아웃 슬라이드 푸터, 날짜/시간, 페이지 번호 자리표시자 및 모든 하위 자리표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
+레이아웃 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리표시자와 모든 자식 자리표시자의 동작을 유지하는 관리자를 나타냅니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,19 +18,19 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager 인터페이스를 반환합니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 레이아웃 슬라이드 날짜/시간 자리표시자와 모든 하위 날짜/시간 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 레이아웃 슬라이드 날짜/시간 자리표시자와 모든 하위 날짜/시간 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 레이아웃 슬라이드 푸터 자리표시자와 모든 하위 푸터 자리표시자에 텍스트를 설정합니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 레이아웃 슬라이드 푸터 자리표시자와 모든 하위 푸터 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 레이아웃 슬라이드 페이지 번호 자리표시자와 모든 하위 페이지 번호 자리표시자의 가시성을 변경합니다. 하위 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 레이아웃 슬라이드 날짜-시간 자리표시자와 모든 자식 날짜-시간 자리표시자에 텍스트를 설정합니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 레이아웃 슬라이드 날짜-시간 자리표시자와 모든 자식 날짜-시간 자리표시자의 표시 여부를 변경합니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | 레이아웃 슬라이드 바닥글 자리표시자와 모든 자식 바닥글 자리표시자에 텍스트를 설정합니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 레이아웃 슬라이드 바닥글 자리표시자와 모든 자식 바닥글 자리표시자의 표시 여부를 변경합니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 레이아웃 슬라이드 페이지 번호 자리표시자와 모든 자식 페이지 번호 자리표시자의 표시 여부를 변경합니다. 자식 자리표시자는 종속 슬라이드에 포함된 자리표시자를 의미합니다. 종속 슬라이드는 레이아웃 슬라이드를 사용하고 의존합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

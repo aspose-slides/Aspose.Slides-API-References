@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एनीमेशन की टाइमलाइन का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एनिमेशन की टाइमलाइन को दर्शाता है।
 type: docs
 weight: 5200
 url: /hi/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine इंटरफ़ेस
 
-एनीमेशन की टाइमलाइन का प्रतिनिधित्व करता है।
+Represents timeline of animation.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,11 +18,11 @@ public interface IAnimationTimeLine
 
 | नाम | विवरण |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | इंटरैक्टिव अनुक्रमों का संग्रह लौटाता है। यह अनुक्रम केवल "click on shape" द्वारा प्रभावों को शामिल कर सकता है जिसमें निर्दिष्ट लक्ष्य आकृति होती है। केवल पढ़ने योग्य [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | मुख्य अनुक्रम लौटाता है जो केवल मुख्य प्रभावों के संग्रह को शामिल कर सकता है। केवल पढ़ने योग्य [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | पाठ एनीमेशन का संग्रह लौटाता है। केवल पढ़ने योग्य [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | इंटरैक्टिव अनुक्रमों का संग्रह लौटाता है। यह अनुक्रम केवल "अकार पर क्लिक" द्वारा प्रभाव रख सकते हैं जिसमें निर्दिष्ट लक्ष्य आकृति है। केवल-पढ़ने योग्य [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | मुख्य अनुक्रम लौटाता है जिसमें केवल मुख्य प्रभाव संग्रह हो सकता है। केवल-पढ़ने योग्य [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | पाठ एनीमेशन का संग्रह लौटाता है। केवल-पढ़ने योग्य [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

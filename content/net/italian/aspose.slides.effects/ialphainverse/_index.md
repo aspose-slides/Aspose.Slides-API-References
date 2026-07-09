@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Alpha Inverse. I valori di opacità Alpha sono invertiti sottraendo dal 100.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Alpha Inverse. I valori di opacità Alpha vengono invertiti sottraendoli da 100.
 type: docs
-weight: 3060
+weight: 3080
 url: /it/aspose.slides.effects/ialphainverse/
 ---
-## IAlphaInverse interfaccia
+## Interfaccia IAlphaInverse
 
-Rappresenta un effetto Alpha Inverse. I valori Alpha (opacità) sono invertiti sottraendo dal 100%.
+Rappresenta un effetto Alpha Inverse. I valori Alpha (opacità) sono invertiti sottraendoli dal 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -17,10 +17,10 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solamente lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solamente lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

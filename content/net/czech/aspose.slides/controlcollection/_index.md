@@ -1,9 +1,9 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Kolekce ActiveX ovládacích prvků.
 type: docs
-weight: 2680
+weight: 2700
 url: /cs/aspose.slides/controlcollection/
 ---
 ## ControlCollection třída
@@ -19,7 +19,7 @@ public class ControlCollection : IControlCollection
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides/controlcollection/count) { get; } | Vrací počet objektů v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Vrací hodnotu, která určuje, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Vrací ovládací prvek na zadané pozici. |
 | [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -29,7 +29,7 @@ public class ControlCollection : IControlCollection
 | --- | --- |
 | [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Vytvoří a přidá nový ovládací prvek do kolekce. |
 | [Clear](../../aspose.slides/controlcollection/clear)() | Odstraní všechny ovládací prvky z kolekce. |
-| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Zkopíruje celou kolekci do zadaného pole. |
+| [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Zkopíruje celou kolekci do určeného pole. |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Odstraní ActiveX ovládací prvek z kolekce. |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Odstraní ActiveX ovládací prvek uložený na zadané pozici z kolekce. |

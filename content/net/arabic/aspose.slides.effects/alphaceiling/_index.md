@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل تأثير Alpha Ceiling. تتغير قيم شفافية Alpha التي هي أكبر من الصفر إلى 100. بمعنى آخر، أي شيء شبه شفاف يصبح شفافًا بالكامل.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل تأثير Alpha Ceiling. قيم الشفافية Alpha الأكبر من الصفر تُغيّر إلى 100. بعبارة أخرى، أي شيء شفاف جزئياً يصبح شفافاً بالكامل.
 type: docs
 weight: 2850
 url: /ar/aspose.slides.effects/alphaceiling/
 ---
-## AlphaCeiling الفئة
+## AlphaCeiling الصنف
 
-يمثل تأثير Alpha Ceiling. يتم تغيير قيم Alpha (الشفافية) الأكبر من الصفر إلى 100٪. بعبارة أخرى، أي شيء شبه شفاف يصبح شفافًا بالكامل.
+يمثل تأثير Alpha Ceiling. قيم Alpha (الشفافية) الأكبر من الصفر تتغير إلى 100٪. بعبارة أخرى، أي شيء شفاف جزئياً يصبح شفافاً بالكامل.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -25,12 +25,12 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | الاسم | الوصف |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | يحدد ما إذا كان [`AlphaCeiling`](../alphaceiling) المحدد يساوي [`AlphaCeiling`](../alphaceiling) الحالي. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | يحصل على بيانات تأثير Alpha Ceiling الفعّال مع تطبيق الوراثة. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | يحصل على بيانات تأثير Alpha Ceiling الفعّالة مع تطبيق الوراثة. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### انظر أيضًا
 
-* الفئة [ImageTransformOperation](../imagetransformoperation)
+* الصنف [ImageTransformOperation](../imagetransformoperation)
 * الواجهة [IAlphaCeiling](../ialphaceiling)
 * مساحة الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
 * التجميع [Aspose.Slides](../../)

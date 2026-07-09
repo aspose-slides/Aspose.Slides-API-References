@@ -1,14 +1,14 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Özel veri için bir kapsayıcıyı temsil eder.
+description: Özel veri için kapsayıcıyı temsil eder.
 type: docs
-weight: 2710
+weight: 2730
 url: /tr/aspose.slides/customdata/
 ---
-## CustomData sınıfı
+## CustomData sınıf
 
-Özel veriler için bir kapsayıcıyi temsil eder.
+Özel veri için kapsayıcıyı temsil eder.
 
 ```csharp
 public class CustomData : ICustomData
@@ -18,10 +18,10 @@ public class CustomData : ICustomData
 
 | Ad | Açıklama |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Özel xml bölümleri koleksiyonunu döndürür. Yalnızca okuma [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Müşteri Veri Etiketleri koleksiyonunu döndürür. Yalnızca okuma [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Özel xml parça koleksiyonunu döndürür. Salt okunur [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Müşteri Veri Etiketleri koleksiyonunu döndürür. Salt okunur [`ITagCollection`](../itagcollection). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ICustomData](../icustomdata)
 * ad alanı [Aspose.Slides](../../aspose.slides)

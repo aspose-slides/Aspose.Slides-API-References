@@ -1,14 +1,14 @@
 ---
 title: ShapeAdjustmentType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert verschillende soorten vormaanpassingswaarden.
+description: Specificeert verschillende typen vormaanpassingswaarden.
 type: docs
 weight: 9840
 url: /nl/aspose.slides/shapeadjustmenttype/
 ---
 ## ShapeAdjustmentType enumeratie
 
-Specificeert verschillende soorten vormaanpassingswaarden.
+Specificeert verschillende typen vormaanpassingswaarden.
 
 ```csharp
 public enum ShapeAdjustmentType
@@ -18,45 +18,45 @@ public enum ShapeAdjustmentType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Custom | `0` | Custom type (onbekende aanpassing) |
-| CornerSize | `1` | Regelt de grootte van de hoeken. |
-| LeftUpCorner | `2` | Regelt de linkerbovenhoek. |
-| RightUpCorner | `3` | Regelt de rechterbovenhoek. |
-| UpCorners | `4` | Regelt de bovenhoeken. |
-| DownCorners | `5` | Regelt de onderste hoeken. |
-| Thickness | `6` | Regelt de dikte van de figuur. |
-| ArrowTailThickness | `7` | Regelt de dikte van de pijlstaart. |
-| ArrowheadLength | `8` | Regelt de lengte van de pijlpunt. |
-| ArrowheadWidth | `9` | Regelt de breedte van de pijlpunt. |
-| Radius | `10` | Regelt de grootte van de straal van de vorm of een deel ervan. |
-| Depth | `11` | Regelt de diepte van de tandwieltanden of het afschuinings-effect. |
-| ShapePartOffset | `12` | Regelt de offset van een deel van de figuur ten opzichte van een ander. |
-| Angle | `13` | Regelt de hoek voor de figuur of een deel ervan. |
+| Custom | `0` | Aangepast type (onbekende aanpassing) |
+| CornerSize | `1` | Bepaalt de grootte van de hoeken. |
+| LeftUpCorner | `2` | Bepaalt de linkerbovenhoek. |
+| RightUpCorner | `3` | Bepaalt de rechterbovenhoek. |
+| UpCorners | `4` | Bepaalt de bovenste hoeken. |
+| DownCorners | `5` | Bepaalt de onderste hoeken. |
+| Thickness | `6` | Bepaalt de dikte van de figuur. |
+| ArrowTailThickness | `7` | Bepaalt de dikte van de pijlstaart. |
+| ArrowheadLength | `8` | Bepaalt de lengte van de pijlpunt. |
+| ArrowheadWidth | `9` | Bepaalt de breedte van de pijlpunt. |
+| Radius | `10` | Bepaalt de grootte van de straal van de vorm of een deel ervan. |
+| Depth | `11` | Bepaalt de diepte van de tandwieltanden of het afschuineffect. |
+| ShapePartOffset | `12` | Bepaalt de offset van een deel van de figuur ten opzichte van een ander. |
+| Angle | `13` | Bepaalt de hoek voor de figuur of een deel ervan. |
 | StartAngle | `14` | Starthoek voor taart- en boogvormen. |
 | EndAngle | `15` | Eindhoek voor taart- en boogvormen. |
-| StartPointX | `16` | Regelt de X-positie van het startpunt van de callout. |
-| StartPointY | `17` | Regelt de Y-positie van het startpunt van de callout. |
-| ConnectorPoint1X | `18` | Regelt de horizontale positie van het hoekaanpassingspunt van de callout. |
-| ConnectorPoint1Y | `19` | Regelt de verticale positie van het hoekaanpassingspunt van de callout. |
-| ConnectorPoint2X | `20` | Regelt de horizontale positie van het hoekaanpassingspunt van de callout. |
-| ConnectorPoint2Y | `21` | Regelt de verticale positie van het hoekaanpassingspunt van de callout. |
-| ConnectorBendPositionX | `22` | Regelt de horizontale positie van de buiging in de connector. |
-| ConnectorBendPositionY | `23` | Regelt de verticale positie van de buiging in de connector. |
-| AttachY | `24` | Regelt het verticale bevestigingspunt van de figuur. |
-| AttachX | `25` | Regelt het horizontale bevestigingspunt van de figuur. |
-| CalloutHeight | `26` | Regelt de verticale grootte van de callout. |
-| CalloutWidth | `27` | Regelt de horizontale grootte van de callout. |
-| CalloutSize | `28` | Regelt de grootte van de callout. |
-| Curvature | `29` | Kromming van een gebogen, haak, gebogen pijl of vorm. |
-| HorizontalThickness | `30` | Regelt de horizontale dikte van de hoekvorm. |
-| VerticalThickness | `31` | Regelt de verticale dikte van de hoekvorm. |
-| VerticalSize | `32` | Regelt de verticale grootte van de vorm. |
-| HorizontalSize | `33` | Regelt de horizontale grootte van de vorm. |
-| Top | `34` | Regelt de bovenkant van een vorm. |
+| StartPointX | `16` | Bepaalt de X-positie van het startpunt van de callout. |
+| StartPointY | `17` | Bepaalt de Y-positie van het startpunt van de callout. |
+| ConnectorPoint1X | `18` | Bepaalt de horizontale positie van het aanpassingspunt van de callout-hoek. |
+| ConnectorPoint1Y | `19` | Bepaalt de verticale positie van het aanpassingspunt van de callout-hoek. |
+| ConnectorPoint2X | `20` | Bepaalt de horizontale positie van het aanpassingspunt van de callout-hoek. |
+| ConnectorPoint2Y | `21` | Bepaalt de verticale positie van het aanpassingspunt van de callout-hoek. |
+| ConnectorBendPositionX | `22` | Bepaalt de horizontale positie van de buiging in de connector. |
+| ConnectorBendPositionY | `23` | Bepaalt de verticale positie van de buiging in de connector. |
+| AttachY | `24` | Bepaalt het verticale bevestigingspunt van de figuur. |
+| AttachX | `25` | Bepaalt het horizontale bevestigingspunt van de figuur. |
+| CalloutHeight | `26` | Bepaalt de verticale grootte van de callout. |
+| CalloutWidth | `27` | Bepaalt de horizontale grootte van de callout. |
+| CalloutSize | `28` | Bepaalt de grootte van de callout. |
+| Curvature | `29` | Kromming van een gebogen, haakjes, gebogen pijl of vorm. |
+| HorizontalThickness | `30` | Bepaalt de horizontale dikte van de hoekvorm. |
+| VerticalThickness | `31` | Bepaalt de verticale dikte van de hoekvorm. |
+| VerticalSize | `32` | Bepaalt de verticale grootte van de vorm. |
+| HorizontalSize | `33` | Bepaalt de horizontale grootte van de vorm. |
+| Top | `34` | Bepaalt de bovenkant van een vorm. |
 
 ### Zie ook
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* naamruimte [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

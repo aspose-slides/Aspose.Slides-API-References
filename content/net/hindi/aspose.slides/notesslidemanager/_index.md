@@ -1,6 +1,6 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: नोट्स स्लाइड प्रबंधक।
 type: docs
 weight: 9160
@@ -18,22 +18,22 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Name | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | वर्तमान स्लाइड के लिए नोट्स स्लाइड लौटाता है। यदि स्लाइड में नोट्स स्लाइड नहीं है तो null लौटाता है। केवल-पढ़ने योग्य [`INotesSlide`](../inotesslide)। |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | वर्तमान स्लाइड के लिए नोट्स स्लाइड लौटाता है। यदि स्लाइड में नोट्स स्लाइड नहीं है तो null लौटाता है। केवल पढ़ने योग्य [`INotesSlide`](../inotesslide)। |
 
-## मेथड्स
+## विधियां
 
 | Name | Description |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | वर्तमान स्लाइड के लिए नोट्स स्लाइड लौटाता है, यदि मौजूद नहीं है तो नया बनाता है। |
-| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | वर्तमान स्लाइड की नोट्स स्लाइड को हटाता है। |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | वर्तमान स्लाइड के लिए नोट्स स्लाइड लौटाता है, यदि नहीं है तो एक बनाता है। |
+| [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | वर्तमान स्लाइड की नोट्स स्लाइड हटाता है। |
 
 ### उदाहरण
 
-निम्न उदाहरण दर्शाता है कि कैसे विशिष्ट PowerPoint प्रस्तुति स्लाइड में नोट्स जोड़ें।
+निम्नलिखित उदाहरण दर्शाता है कि विशिष्ट PowerPoint प्रस्तुति स्लाइड में नोट्स कैसे जोड़ें।
 
 ```csharp
 [C#]
-	// प्रस्तुति फ़ाइल का प्रतिनिधित्व करने वाला एक Presentation ऑब्जेक्ट बनाएं
+	// एक Presentation ऑब्जेक्ट को उदाहरणित करें जो एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // पहली स्लाइड में नोट्स जोड़ें
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
@@ -44,13 +44,13 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-निम्न उदाहरण दर्शाता है कि कैसे PowerPoint प्रस्तुति की विशिष्ट स्लाइड से नोट्स हटाएँ।
+निम्नलिखित उदाहरण दर्शाता है कि PowerPoint प्रस्तुति की विशिष्ट स्लाइड से नोट्स कैसे हटाएँ।
 
 ```csharp
 [C#]
-	// एक Presentation ऑब्जेक्ट बनाएं जो प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
+	// एक Presentation ऑब्जेक्ट को उदाहरणित करें जो एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करता है
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // पहली स्लाइड के नोट्स को हटाना
+	  // पहली स्लाइड के नोट्स हटाना
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
 	  // प्रस्तुति को डिस्क पर सहेजें

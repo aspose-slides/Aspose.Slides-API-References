@@ -1,12 +1,12 @@
 ---
 title: PresentationFactory
-second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يسمح بإنشاء عرض تقديمي عبر واجهة COM
 type: docs
 weight: 9600
 url: /ar/aspose.slides/presentationfactory/
 ---
-## PresentationFactory الفئة
+## فئة PresentationFactory
 
 يسمح بإنشاء عرض تقديمي عبر واجهة COM
 
@@ -18,13 +18,13 @@ public class PresentationFactory : IPresentationFactory
 
 | الاسم | الوصف |
 | --- | --- |
-| [PresentationFactory](presentationfactory)() | المُنشئ الافتراضي. |
+| [PresentationFactory](presentationfactory)() | المنشئ الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | مثال ثابت لمصنع العرض التقديمي. للقراءة فقط [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | مثيل ثابت لمصنع العروض التقديمية. للقراءة فقط [`PresentationFactory`](../presentationfactory). |
 
 ## الطرق
 
@@ -32,21 +32,21 @@ public class PresentationFactory : IPresentationFactory
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | ينشئ عرض تقديمي جديد. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | ينشئ عرض تقديمي جديد مع خيارات تحميل إضافية |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | ينشئ كائن PresentationInfo من الدفق ويربط العرض التقديمي به. يحصل على معلومات حول العرض التقديمي في الدفق المحدد. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | ينشئ كائن PresentationInfo من ملف ويربط العرض التقديمي به. |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | يستخرج النص الخام من الشرائح |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | يستخرج النص الخام من الشرائح |
-| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | يستخرج النص الخام من الشرائح |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | يقرء عرض تقديمي موجود من مصفوفة |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | يقرء عرض تقديمي موجود من الدفق |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | يقرء عرض تقديمي موجود من ملف |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | يقرء عرض تقديمي موجود من مصفوفة مع خيارات تحميل إضافية |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | يقرء عرض تقديمي موجود من الدفق مع خيارات تحميل إضافية |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | يقرء عرض تقديمي موجود من الدفق مع خيارات تحميل إضافية |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | ينشئ كائن PresentationInfo جديدًا من التدفق ويربط العرض التقديمي به. يحصل على معلومات حول العرض التقديمي في التدفق المحدد. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | ينشئ كائن PresentationInfo جديدًا من ملف ويربط العرض التقديمي به. |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | يستخرج النص الأصلي من الشرائح |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | يستخرج النص الأصلي من الشرائح |
+| [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | يستخرج النص الأصلي من الشرائح |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | يقرأ عرض تقديمي موجود من مصفوفة |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | يقرأ عرض تقديمي موجود من تدفق |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | يقرأ عرض تقديمي موجود من ملف |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | يقرأ عرض تقديمي موجود من مصفوفة مع خيارات تحميل إضافية |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | يقرأ عرض تقديمي موجود من تدفق مع خيارات تحميل إضافية |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | يقرأ عرض تقديمي موجود من تدفق مع خيارات تحميل إضافية |
 
-### الأمثلة
+### أمثلة
 
-يوضح المثال التالي كيفية التحقق من تنسيق العرض التقديمي.
+المثال التالي يوضح كيفية التحقق من تنسيق العرض التقديمي.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ IPresentationInfo info3 = PresentationFactory.Instance.GetPresentationInfo("pres
 Console.WriteLine(info3.LoadFormat); // ODP
 ```
 
-يوضح المثال التالي كيفية الحصول على خصائص العرض التقديمي.
+المثال التالي يوضح كيفية الحصول على خصائص العرض التقديمي.
 
 ```csharp
 [C#]
@@ -70,7 +70,7 @@ Console.WriteLine(props.Title);
 // ..
 ```
 
-يوضح المثال التالي كيفية تحديث خصائص العرض التقديمي.
+المثال التالي يوضح كيفية تحديث خصائص العرض التقديمي.
 
 ```csharp
 [C#]
@@ -80,10 +80,10 @@ props.Title = "My title";
 info.UpdateDocumentProperties(props);
 ```
 
-### انظر أيضاً
+### انظر أيضًا
 
-* واجهة [IPresentationFactory](../ipresentationfactory)
-* مساحة أسماء [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [IPresentationFactory](../ipresentationfactory)
+* الفضاء الاسمي [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

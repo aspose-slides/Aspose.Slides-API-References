@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes for .NET API Reference
-description: Reprezentuje typ placeholdera.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje typ elementu zastępczego.
 type: docs
-weight: 9430
+weight: 9450
 url: /pl/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType enumeracja
 
-Reprezentuje typ placeholdera.
+Reprezentuje typ elementu zastępczego.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -20,7 +20,7 @@ public enum PlaceholderType : sbyte
 | --- | --- | --- |
 | Title | `0` | Tytuł. |
 | Body | `1` | Treść. |
-| CenteredTitle | `2` | Środkowany tytuł. |
+| CenteredTitle | `2` | Wyśrodkowany tytuł. |
 | Subtitle | `3` | Podtytuł. |
 | DateAndTime | `4` | Data i godzina. |
 | SlideNumber | `5` | Numer slajdu. |
@@ -29,7 +29,7 @@ public enum PlaceholderType : sbyte
 | Object | `8` | Obiekt. |
 | Chart | `9` | Wykres. |
 | Table | `10` | Tabela. |
-| ClipArt | `11` | Clip Art. |
+| ClipArt | `11` | Grafika Clip Art. |
 | Diagram | `12` | Diagram. |
 | Media | `13` | Media. |
 | SlideImage | `14` | Obraz slajdu. |

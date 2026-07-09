@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes for .NET एपीआई संदर्भ
-description: एक कस्टम स्प्लिट वाले बार-ऑफ़-पाइ या पाइ-ऑफ़-पाइ चार्ट में दूसरे पाई या बार पर खींचे जाने वाले बिंदुओं के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: कस्टम विभाजन के साथ बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर ड्रॉ किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
 type: docs
 weight: 2190
 url: /hi/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection इंटरफ़ेस
 
-एक कस्टम स्प्लिट वाले बार-ऑफ़-पाइ या पाइ-ऑफ़-पाइ चार्ट में दूसरे पाई या बार पर खींचे जाने वाले बिंदुओं के संग्रह का प्रतिनिधित्व करता है।
+कस्टम विभाजन के साथ बार-ऑफ़-पाई या पाई-ऑफ़-पाई चार्ट में दूसरे पाई या बार पर ड्रॉ किए जाने वाले बिंदुओं का संग्रह दर्शाता है।
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -25,10 +25,10 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | पेरेंट सीरीज़ पॉइंट्स कलेक्शन में उसके इंडेक्स द्वारा डेटा पॉइंट जोड़ता है। |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | पेरेंट सीरीज़ पॉइंट्स कलेक्शन में उसके इंडेक्स द्वारा आइटम को हटाता है। |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा डेटा पॉइंट जोड़ता है। |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | पैरेंट सीरीज़ पॉइंट्स संग्रह में उसके इंडेक्स द्वारा आइटम हटाता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IChartDataPoint](../ichartdatapoint)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

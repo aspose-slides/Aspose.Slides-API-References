@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes के लिए .NET API रेफरेंस
-description: भराव शैलियों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: फ़िल शैलियों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 11120
 url: /hi/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection क्लास
 
-संकलन में भराव शैलियों का प्रतिनिधित्व करता है।
+फ़िल शैलियों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,19 +18,19 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | यह दर्शाता है कि क्या संग्रह तक पहुंच समक्रमित (थ्रेड-सुरक्षित) है। केवल पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | समक्रमण मूल लौटाता है। केवल पढ़ने योग्य Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | यह दर्शाता है कि क्या संग्रह तक पहुंच समन्वित (थ्रेड-सेफ़) है। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | एक समन्वयन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | संग्रह से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | संग्रह के माध्यम से इटरेट करने वाला एन्यूमरेटर लौटाता है। |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | एक एन्‍युमरेटर लौटाता है जो संग्रह के माध्यम से इटर्‍रेट करता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [FormatScheme](../formatscheme)

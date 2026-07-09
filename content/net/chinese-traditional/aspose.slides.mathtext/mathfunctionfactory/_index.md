@@ -1,6 +1,6 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 允許建立數學函式
 type: docs
 weight: 8730
@@ -16,13 +16,13 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [MathFunctionFactory](mathfunctionfactory)() | 預設建構函式。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | 建立數學函式 |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | 建立數學函式 |

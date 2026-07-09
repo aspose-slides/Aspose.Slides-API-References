@@ -1,6 +1,6 @@
 ---
 title: BaseSlide
-second_title: Aspose.Sildes برای .NET API Reference
+second_title: مرجع API Aspose.Sildes برای .NET
 description: داده‌های مشترک برای همه انواع اسلاید را نمایش می‌دهد.
 type: docs
 weight: 990
@@ -8,42 +8,42 @@ url: /fa/aspose.slides/baseslide/
 ---
 ## BaseSlide کلاس
 
-داده‌های مشترک برای همه انواع اسلاید را نمایش می‌دهد.
+داده‌های مشترک برای تمام انواع اسلاید را نمایش می‌دهد.
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
 ```
 
-## خواص
+## خصوصیات
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | پس‌زمینه اسلاید را بازمی‌گرداند. فقط‌خواندنی [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعه کنترل‌های ActiveX موجود در اسلاید را بازمی‌گرداند. فقط‌خواندنی [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | داده‌های سفارشی اسلاید را بازمی‌گرداند. فقط‌خواندنی [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای موجود را فراهم می‌کند. فقط‌خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام اسلاید را بازمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | رابط IPresentation را بازمی‌گرداند. فقط‌خواندنی [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | شکل‌های اسلاید را بازمی‌گرداند. فقط‌خواندنی [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | مشخص می‌کند آیا شکل‌های اسلاید اصلی باید در اسلایدها نمایش داده شوند یا نه. برای خود اسلاید اصلی این ویژگی همیشه مقدار `false` را بازمی‌گرداند. قابل‌خواندن/نوشتن Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | شناسه اسلاید را بازمی‌گرداند. فقط‌خواندنی UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شیء Transition را بازمی‌گرداند که اطلاعات در مورد نحوه پیشرفت اسلاید مشخص شده در طول نمایش اسلاید را شامل می‌شود. فقط‌خواندنی [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | شیء زمان‌بندی انیمیشن را بازمی‌گرداند. فقط‌خواندنی [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | پس‌زمینه اسلاید را برمی‌گرداند. فقط خواندنی [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | مجموعه کنترل‌های ActiveX روی اسلاید را برمی‌گرداند. فقط خواندنی [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | داده‌های سفارشی اسلاید را برمی‌گرداند. فقط خواندنی [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای داخلی را فراهم می‌کند. فقط خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | نام اسلاید را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن String. |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | رابط IPresentation را برمی‌گرداند. فقط خواندنی [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | اشکال اسلاید را برمی‌گرداند. فقط خواندنی [`IShapeCollection`](../ishapecollection). |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | مشخص می‌کند آیا اشکال روی اسلاید اصلی باید در اسلایدها نمایش داده شوند یا خیر. برای خود اسلاید اصلی این ویژگی همیشه `false` برمی‌گرداند. قابل خواندن/نوشتن Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | شناسه اسلاید را برمی‌گرداند. فقط خواندنی UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | شیء Transition را که شامل اطلاعاتی درباره چگونگی پیشرفت اسلاید مشخص در نمایش اسلاید است، برمی‌گرداند. فقط خواندنی [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | شیء زمان‌بندی انیمیشن را برمی‌گرداند. فقط خواندنی [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | یک تم مؤثر برای این اسلاید را بازمی‌گرداند. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | مشخص می‌کند آیا دو نمونه IBaseSlide برابر هستند یا نه. مقدار بازگردانده‌شده بر اساس ساختار اسلاید و محتوای ثابت محاسبه می‌شود. دو اسلاید برابر هستند اگر تمام شکل‌ها، سبک‌ها، متن‌ها، انیمیشن و سایر تنظیمات و غیره برابر باشند. مقایسه مقادیر شناس‌گرهای یکتا مانند SlideId و محتوای پویا مانند مقدار تاریخ جاری در Date Placeholder را در نظر نمی‌گیرد. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | یک تم مؤثر برای این اسلاید را برمی‌گرداند. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | تعیین می‌کند آیا دو نمونه IBaseSlide برابر هستند. مقدار برگشتی بر پایه ساختار اسلاید و محتوای ثابت محاسبه می‌شود. دو اسلاید برابرند اگر تمام اشکال، سبک‌ها، متون، انیمیشن‌ها و سایر تنظیمات و غیره برابر باشند. مقایسه مقادیر شناسه‌های یکتا مانند SlideId و محتوای پویا مانند مقدار تاریخ فعلی در Date Placeholder را در نظر نمی‌گیرد. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | اولین رخداد یک شکل با متن جایگزین مشخص‌شده را پیدا می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | بخش‌های متن با قالب‌بندی یکسان در تمام پاراگراف‌ها و تمام شکل‌های قابل‌پذیر را ترکیب می‌کند. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | بخش‌های متن با قالب‌بندی یکسان در تمام پاراگراف‌ها در تمام شکل‌های قابل‌پذیر را ترکیب می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | قسمت‌های متنی با قالب‌بندی یکسان در تمام پاراگراف‌های تمام شکل‌های قابل قبول را ترکیب می‌کند. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | قسمت‌های متنی با قالب‌بندی یکسان در تمام پاراگراف‌ها در تمام شکل‌های قابل قبول را ترکیب می‌کند. |
 
 ### موارد مرتبط
 
 * رابط [IBaseSlide](../ibaseslide)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงเอฟเฟ็กต์ Tint. ปรับค่าสีของเอฟเฟ็กต์ให้เคลื่อนเข้าหรือออกจากโทนสีตามจำนวนที่ระบุ
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนค่าผลกระทบ Tint. เลื่อนค่าความเข้มสีของผลกระทบไปทาง/ออกจาก hue ตามปริมาณที่ระบุ.
 type: docs
 weight: 3540
 url: /th/aspose.slides.effects/itint/
 ---
 ## ITint อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนเข้าหรือออกจากโทนสีตามจำนวนที่ระบุ
+แทนค่าผลกระทบ Tint. เลื่อนค่าความเข้มสีของผลกระทบไปทาง/ออกจากสีตามปริมาณที่ระบุ
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Alpha Ceiling-effekt. Alfa-opacitetsvärden större än noll ändras till 100. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
+second_title: Aspose.Slides för .NET API-referens
+description: Oföränderligt objekt som representerar en Alpha Ceiling-effekt. Alpha-opacitetsvärden som är större än noll ändras till 100. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
 type: docs
-weight: 3030
+weight: 3050
 url: /sv/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Alpha Ceiling-effekt. Alfa (opacitet) värden större än noll ändras till 100 %. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
+Oföränderligt objekt som representerar en Alpha Ceiling-effekt. Alpha-värden (opacitet) som är större än noll ändras till 100 %. Med andra ord blir allt delvis ogenomskinligt helt ogenomskinligt.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Endast läsning [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Se även
 

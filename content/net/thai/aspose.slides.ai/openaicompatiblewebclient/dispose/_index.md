@@ -1,14 +1,14 @@
 ---
 title: Dispose
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ปลดปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้.
 type: docs
 weight: 40
 url: /th/aspose.slides.ai/openaicompatiblewebclient/dispose/
 ---
 ## OpenAICompatibleWebClient.Dispose เมธอด
 
-ปลดปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้.
+ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้.
 
 ```csharp
 public void Dispose()

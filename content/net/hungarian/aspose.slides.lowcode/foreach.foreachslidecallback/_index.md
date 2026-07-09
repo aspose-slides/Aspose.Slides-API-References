@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Visszahívás, amely minden egyes Slide./foreach/slide esetén meghívásra kerül a Presentation../aspose.slides/presentation-ban.
+second_title: Aspose.Sildes .NET API referenciához
+description: Visszahívás, amely minden Slide./foreach/slide esetén a Presentation../aspose.slides/presentation-ban meghívásra kerül.
 type: docs
-weight: 7940
+weight: 7960
 url: /hu/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delegate
 
-Visszahívás, amely minden egyes [`Slide`](../foreach/slide) esetén meghívásra kerül a [`Presentation`](../../aspose.slides/presentation)-ban.
+Visszahívás, amely minden [`Slide`](../foreach/slide) esetén a [`Presentation`](../../aspose.slides/presentation)-ban meghívásra kerül.
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -16,7 +16,7 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| slide | Slide | Aktuális iterált dia |
+| slide | Slide | Az aktuálisan iterált diák |
 | index | Int32 | Az aktuális dia indexe |
 
 ### Lásd még

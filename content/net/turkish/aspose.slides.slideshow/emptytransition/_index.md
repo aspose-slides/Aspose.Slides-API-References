@@ -1,9 +1,9 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Boş slayt geçiş efekti.
 type: docs
-weight: 10010
+weight: 10030
 url: /tr/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition sınıfı
@@ -14,12 +14,12 @@ Boş slayt geçiş efekti.
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için bir hash işlevi olarak hizmet eder, hash algoritmaları ve hash tablosu gibi veri yapılarına uygun. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir, hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
 
 ### Ayrıca Bakınız
 

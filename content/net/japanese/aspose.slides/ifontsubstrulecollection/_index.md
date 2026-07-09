@@ -3,7 +3,7 @@ title: IFontSubstRuleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: フォント置換のコレクションを表します。
 type: docs
-weight: 5870
+weight: 5890
 url: /ja/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection インターフェイス
@@ -16,18 +16,18 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 新しいフォント置換ルールをコレクションに追加します |
 | [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | コレクションから特定のオブジェクトの最初の出現を削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * インターフェイス [IFontSubstRule](../ifontsubstrule)

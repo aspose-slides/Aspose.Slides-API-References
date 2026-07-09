@@ -1,7 +1,7 @@
 ---
 title: IGlow
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 객체의 가장자리 밖에 색상이 흐려진 외곽선을 추가하는 Glow 효과를 나타냅니다.
+description: 색상이 흐려진 외곽선이 객체의 가장자리 밖에 추가되는 Glow 효과를 나타냅니다.
 type: docs
 weight: 3320
 url: /ko/aspose.slides.effects/iglow/

@@ -1,9 +1,9 @@
 ---
 title: ISection
-second_title: Aspose.Sildes dla .NET API Referencja
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje sekcję slajdów.
 type: docs
-weight: 6870
+weight: 6890
 url: /pl/aspose.slides/isection/
 ---
 ## interfejs ISection
@@ -19,7 +19,7 @@ public interface ISection
 | Nazwa | Opis |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Nazwa sekcji. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Identyfikator sekcji. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Id sekcji. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Zwraca pierwszy slajd sekcji. |
 
 ## Metody

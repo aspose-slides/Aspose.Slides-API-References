@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Podstawowy interfejs dla niezmiennych obiektów, które zawierają efektywne właściwości formatowania tabeli.
+second_title: Aspose.Sildes dla .NET - Referencja API
+description: Podstawowy interfejs dla niezmiennych obiektów, które zawierają skuteczne właściwości formatowania tabeli.
 type: docs
-weight: 5340
+weight: 5360
 url: /pl/aspose.slides/ibasetableformateffectivedata/
 ---
-## Interfejs IBaseTableFormatEffectiveData
+## IBaseTableFormatEffectiveData interfejs
 
-Podstawowy interfejs dla niezmiennych obiektów, które zawierają efektywne właściwości formatowania tabeli.
+Podstawowy interfejs dla niezmiennych obiektów, które zawierają skuteczne właściwości formatowania tabeli.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,15 +18,15 @@ public interface IBaseTableFormatEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Zwraca efektywną wartość formatu linii dolnej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Zwraca efektywną wartość formatu linii ukośnej w dół. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Zwraca efektywną wartość formatu linii ukośnej w górę. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Zwraca efektywną wartość formatu linii lewej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Zwraca efektywną wartość formatu linii prawej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Zwraca efektywną wartość formatu linii górnej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Zwraca efektywną wartość formatu wypełnienia. Tylko do odczytu [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Zwraca skuteczną wartość formatu dolnej linii obramowania. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Zwraca skuteczną wartość formatu linii przekątnej w dół. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Zwraca skuteczną wartość formatu linii przekątnej w górę. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Zwraca skuteczną wartość formatu linii lewej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Zwraca skuteczną wartość formatu linii prawej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Zwraca skuteczną wartość formatu linii górnej krawędzi. Tylko do odczytu [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Zwraca skuteczną wartość formatu wypełnienia. Tylko do odczytu [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Zobacz także
+### Zobacz również
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

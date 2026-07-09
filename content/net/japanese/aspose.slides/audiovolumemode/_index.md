@@ -1,12 +1,12 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: オーディオ ボリュームを定義する定数です。
 type: docs
-weight: 870
+weight: 890
 url: /ja/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode 列挙型
+## AudioVolumeMode 列挙体
 
 オーディオ ボリュームを定義する定数です。
 
@@ -20,11 +20,11 @@ public enum AudioVolumeMode
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Mute | `0` | 音量がゼロです。 |
-| Low | `1` | 低い音量です。 |
-| Medium | `2` | 中程度の音量です。 |
-| Loud | `3` | 大きな音量です。 |
+| Low | `1` | 低音量です。 |
+| Medium | `2` | 中音量です。 |
+| Loud | `3` | 高音量です。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

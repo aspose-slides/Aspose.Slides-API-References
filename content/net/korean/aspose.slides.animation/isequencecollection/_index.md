@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 대화형 시퀀스의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 대화형 시퀀스 컬렉션을 나타냅니다.
 type: docs
 weight: 600
 url: /ko/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection 인터페이스
 
-대화형 시퀀스의 컬렉션을 나타냅니다.
+대화형 시퀀스 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -19,17 +19,17 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 | 이름 | 설명 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | IEnumerable 인터페이스를 반환합니다. 읽기 전용 IEnumerable. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 컬렉션의 요소 수를 반환합니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | 지정된 인덱스의 시퀀스를 반환합니다. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 컬렉션에 있는 요소 개수를 반환합니다. 읽기 전용 Int32. |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | 지정된 인덱스에 있는 시퀀스를 반환합니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 새 인터랙티브 시퀀스를 추가합니다. |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 새로운 대화형 시퀀스를 추가합니다. |
 | [Clear](../../aspose.slides.animation/isequencecollection/clear)() | 컬렉션에서 모든 시퀀스를 제거합니다. |
 | [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | 컬렉션에서 지정된 시퀀스를 제거합니다. |
-| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | 지정된 인덱스의 시퀀스를 제거합니다. |
+| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | 지정된 인덱스에 있는 시퀀스를 제거합니다. |
 
 ### 참고
 

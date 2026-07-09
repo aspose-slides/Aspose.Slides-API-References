@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Képviseli a menedzsert, amely a mester kiosztó diahelyőrzők viselkedését tartalmazza, beleértve a fejléc helyőrzőt.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Kezelő, amely a mester kézikönyv diahelyőrzők viselkedését tartalmazza, beleértve a fejléchelyőrzőt.
 type: docs
-weight: 6340
+weight: 6360
 url: /hu/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interfész
 
-Képviseli azt a menedzsert, amely a mester kiosztó diahelyőrzők viselkedését tartalmazza, beleértve a fejléchez tartozó helyőrzőt.
+Represents manager which holds behavior of the master handout slide placeholders, including header placeholder.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja az IBaseHandoutNotesSlideHeaderFooterManag interfészt. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja IBaseHandoutNotesSlideHeaderFooterManag interfész. |
 
 ### Lásd még
 

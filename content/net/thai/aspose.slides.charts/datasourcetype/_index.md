@@ -1,26 +1,26 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: ประเภทแหล่งข้อมูล.
 type: docs
 weight: 1580
 url: /th/aspose.slides.charts/datasourcetype/
 ---
-## การนับ DataSourceType
+## DataSourceType enumeration
 
-ประเภทแหล่งข้อมูล.
+Data source types.
 
 ```csharp
 public enum DataSourceType
 ```
 
-### ค่าต่าง ๆ
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Worksheet | `0` | ใช้วัตถุ CellXls เพื่อเก็บ XValue, YValue, Value หรือ BubbleSize ของจุดข้อมูลในแผ่นงาน. |
-| StringLiterals | `1` | ใช้ตัวแปรสตริงที่เข้าถึงเร็วเพื่อเก็บ XValue, YValue, Value หรือ BubbleSize ของจุดข้อมูล. Worksheet ไม่ได้ใช้สำหรับเก็บค่า. |
-| DoubleLiterals | `2` | ใช้ตัวแปร double ที่เข้าถึงเร็วเพื่อเก็บ XValue, YValue, Value หรือ BubbleSize ของจุดข้อมูล. Worksheet ไม่ได้ใช้สำหรับเก็บค่า. |
+| StringLiterals | `1` | ใช้ตัวแปร string แบบเข้าถึงเร็วเพื่อเก็บ XValue, YValue, Value หรือ BubbleSize ของจุดข้อมูล. Worksheet ไม่ได้ถูกใช้ในการเก็บค่า. |
+| DoubleLiterals | `2` | ใช้ตัวแปร double แบบเข้าถึงเร็วเพื่อเก็บ XValue, YValue, Value หรือ BubbleSize ของจุดข้อมูล. Worksheet ไม่ได้ถูกใช้ในการเก็บค่า. |
 
 ### ดูเพิ่มเติม
 

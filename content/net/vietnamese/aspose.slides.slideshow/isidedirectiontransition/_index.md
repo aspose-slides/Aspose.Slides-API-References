@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển tiếp slide theo hướng bên.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển slide theo hướng bên.
 type: docs
 weight: 10190
 url: /vi/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition giao diện
 
-Hiệu ứng chuyển tiếp slide theo hướng bên.
+Hiệu ứng chuyển đổi slide theo hướng bên.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ sở. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ITransitionValueBase](../itransitionvaluebase)
 * không gian tên [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

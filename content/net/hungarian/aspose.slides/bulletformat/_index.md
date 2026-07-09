@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A bekezdés bullet formázási tulajdonságait ábrázolja.
+second_title: Aspose.Sildes .NET API referenciája
+description: A bekezdés bullet formázási tulajdonságait képviseli.
 type: docs
-weight: 1050
+weight: 1070
 url: /hu/aspose.slides/bulletformat/
 ---
 ## BulletFormat osztály
 
-A bekezdés bullet formázási tulajdonságait ábrázolja.
+A bekezdés bullet formázási tulajdonságait képviseli.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,25 +18,25 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Visszaadja vagy beállítja a bullet karaktert egy öröklődés nélküli bekezdésben. Olvasható/írható Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Visszaadja a bullet színformátumát egy öröklődés nélküli bekezdésben. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Visszaadja vagy beállítja a bullet betűtípusát egy öröklődés nélküli bekezdésben. Olvasható/írható [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Visszaadja vagy beállítja a bullet magasságát egy öröklődés nélküli bekezdésben. A float.NaN érték azt határozza meg, hogy a bullet a bekezdés első részéből örökli a magasságot. Olvasható/írható Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Meghatározza, hogy a bullet saját színnel rendelkezik-e, vagy örökli azt a bekezdés első részéből. **NullableBool.True** ha a bullet saját színt használ, és **NullableBool.False** ha a bullet a bekezdés első részéből örökli a színt. Olvasható/írható [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Meghatározza, hogy a bullet saját betűtípussal rendelkezik-e, vagy örökli azt a bekezdés első részéből. **NullableBool.True** ha a bullet saját betűtípust használ, és **NullableBool.False** ha a bullet a bekezdés első részéből örökli a betűtípust. Olvasható/írható [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Visszaadja vagy beállítja az első számot, amely a számozott bullet csoporthoz használható öröklődés nélkül. Olvasható/írható Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Visszaadja vagy beállítja egy számozott bullet stílusát öröklődés nélkül. Olvasható/írható [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Visszaadja a képet, amely bulletként használatos egy öröklődés nélküli bekezdésben. Csak olvasható [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Visszaadja vagy beállítja a bullet típusát egy öröklődés nélküli bekezdésben. Olvasható/írható [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Visszaadja vagy beállítja a bekezdés bullet karakterét öröklődés nélkül. Olvasás/írás Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Visszaadja egy bekezdés bullet színformátumát öröklődés nélkül. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Visszaadja vagy beállítja egy bekezdés bullet betűtípusát öröklődés nélkül. Olvasás/írás [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Visszaadja vagy beállítja egy bekezdés bullet magasságát öröklődés nélkül. A float.NaN érték azt jelzi, hogy a bullet a bekezdés első részletének magasságát örökli. Olvasás/írás Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Meghatározza, hogy a bullet saját színnel rendelkezik-e, vagy a bekezdés első részletétől örökli azt. **NullableBool.True** ha a bullet saját színnel rendelkezik, és **NullableBool.False** ha a bullet a bekezdés első részletétől örökli a színt. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Meghatározza, hogy a bullet saját betűtípussal rendelkezik-e, vagy a bekezdés első részletétől örökli azt. **NullableBool.True** ha a bullet saját betűtípussal rendelkezik, és **NullableBool.False** ha a bullet a bekezdés első részletétől örökli a betűtípust. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Visszaadja vagy beállítja az első számot, amely a számozott bullet csoporthoz tartozik öröklődés nélkül. Olvasás/írás Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Visszaadja vagy beállítja egy számozott bullet stílusát öröklődés nélkül. Olvasás/írás [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Visszaadja a bekezdésben bullet-ként használt képet öröklődés nélkül. Csak olvasható [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Visszaadja vagy beállítja egy bekezdés bullet típusát öröklődés nélkül. Olvasás/írás [`BulletType`](../bullettype). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Beállítja az alapértelmezett nem nulla eltolásokat a tényleges bekezdés Indent és MarginLeft értékeire, amikor a bullet-ek engedélyezve vannak (úgy, ahogy a PowerPoint is teszi, ha engedélyezi a bekezdés bulletjeit/számozását). Ha a bullet-ek le vannak tiltva, akkor csak visszaállítja a bekezdés Indent és MarginLeft értékeit (úgy, ahogy a PowerPoint is teszi, ha letiltja a bekezdés bulletjeit/számozását). Az indent eltolások a jelenlegi bullet kontextusra – IBulletFormat.Type, .NumberedBulletStyle és az első rész FontHeight értékére – vonatkoznak. A nem nulla indent eltolások a jelenlegi bekezdés tényleges Indent és MarginLeft értékeire kerülnek alkalmazásra (az eredményértékek helyi értékekké válnak). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Alapértelmezett nem-nulla eltolásokat állít be a tényleges bekezdés Indent és MarginLeft értékeihez, ha a bulletek engedélyezve vannak (mint a PowerPoint, amikor engedélyezi a bekezdés bullet-/számozását). Ha a bulletek le vannak tiltva, csak visszaállítja a bekezdés Indent és MarginLeft értékeit (mint a PowerPoint, amikor letiltja a bekezdés bullet-/számozását). Az eltolások a jelenlegi bullet környezet – IBulletFormat.Type, .NumberedBulletStyle és a első részlet FontHeight – függvényében kerülnek alkalmazásra. A nem-nulla eltolások a jelenlegi bekezdés tényleges Indent és MarginLeft értékeire hatnak (az eredmény értékek helyi értékekké válnak). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Lekérdezi a tényleges bullet formázási adatokat az alkalmazott öröklődéssel. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Lekéri a hatékony bullet formázási adatokat, a öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
 ### Lásd még
@@ -44,6 +44,6 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 * osztály [PVIObject](../pviobject)
 * interfész [IBulletFormat](../ibulletformat)
 * névtér [Aspose.Slides](../../aspose.slides)
-* összeállítás [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

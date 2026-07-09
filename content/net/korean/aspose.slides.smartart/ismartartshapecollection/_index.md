@@ -18,9 +18,9 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISmartArtShape`](../ismartartshape). 요소의 0 기반 인덱스 |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ISmartArtShape`](../ismartartshape). 요소의 0부터 시작하는 인덱스 |
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [ISmartArtShape](../ismartartshape)

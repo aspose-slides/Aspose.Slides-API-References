@@ -18,24 +18,24 @@ public class Legend : DomObject<Chart>, ILegend
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 指定圖表元素的實際高度。在此之前呼叫方法 IChart.ValidateChartLayout() 以取得實際值。唯讀 Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 指定圖表元素的實際寬度。在此之前呼叫方法 IChart.ValidateChartLayout() 以取得實際值。唯讀 Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左）。在此之前呼叫方法 IChart.ValidateChartLayout() 以取得實際值。唯讀 Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。在此之前呼叫方法 IChart.ValidateChartLayout() 以取得實際值。唯讀 Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 底部。唯讀 Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | 傳回圖表。唯讀 [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 取得圖例項目。唯讀 [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | 傳回圖例的格式。唯讀 [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 傳回或設定圖例的高度，作為圖表高度的比例。讀/寫 Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 判斷是否允許其他圖表元素與圖例重疊。讀/寫 Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定圖例在圖表上的位置。X、Y、Width、Heigt 屬性的非 NaN 值會覆寫此屬性的效果。讀/寫 [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | 右側。唯讀 Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 文字格式。唯讀 [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 傳回或設定圖例的寬度，作為圖表寬度的比例。讀/寫 Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | 傳回或設定圖例的 x 座標，作為圖表寬度的比例。讀/寫 Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 傳回或設定圖例的 y 座標，作為圖表高度的比例。讀/寫 Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 指定圖表元素的實際高度。 呼叫 IChart.ValidateChartLayout() 方法之前取得實際值。 Read Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 指定圖表元素的實際寬度。 呼叫 IChart.ValidateChartLayout() 方法之前取得實際值。 Read Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 X 位置（左）。 呼叫 IChart.ValidateChartLayout() 方法之前取得實際值。 Read Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。 呼叫 IChart.ValidateChartLayout() 方法之前取得實際值。 Read Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Bottom. Read-only Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | 傳回圖表。 Read-only [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | 取得圖例條目。 Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | 傳回圖例的格式。 Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | 取得或設定圖例高度（相對於圖表高度的比例）。 Read/write Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 決定是否允許其他圖表元素覆蓋圖例。 Read/write Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 指定圖例在圖表上的位置。 X、Y、Width、Heigt 屬性的非 NaN 值會覆蓋此屬性的效果。 Read/write [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Right. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 文字格式。 Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | 取得或設定圖例寬度（相對於圖表寬度的比例）。 Read/write Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | 取得或設定圖例 X 座標（相對於圖表寬度的比例）。 Read/write Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | 取得或設定圖例 Y 座標（相對於圖表高度的比例）。 Read/write Single. |
 
-### 參見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [Chart](../chart)

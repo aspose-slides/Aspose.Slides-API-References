@@ -18,12 +18,12 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Standaardinterface IBaseTableFormatEffectiveData ophalen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Haalt de transparantie van de vulkleur op. Alleen-lezen Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Staat toe de basis IBaseTableFormatEffectiveData interface op te halen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Haalt de transparantie van de vulkleur op. Lezen Single. |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`ICellFormat`](../icellformat) interface gebruikt om effectieve opmaakwaarden terug te geven met overerving en toegepaste tabelstijlen.
+Deze interface wordt samen met de [`ICellFormat`](../icellformat) interface gebruikt om effectieve opmaakwaarden met overerving en tabelstijlen terug te geven.
 
 ### Zie ook
 

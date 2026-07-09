@@ -1,12 +1,12 @@
 ---
 title: IDataLabel
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta le etichette di una serie.
 type: docs
-weight: 2000
+weight: 2020
 url: /it/aspose.slides.charts/idatalabel/
 ---
-## IDataLabel interfaccia
+## Interfaccia IDataLabel
 
 Rappresenta le etichette di una serie.
 
@@ -19,18 +19,18 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | Nome | Descrizione |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | Restituisce l'interfaccia IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Restituisce l'interfaccia ILayoutable. Solo lettura [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Restituisce l'interfaccia IOverridableText. Solo lettura [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Restituisce il formato dell'etichetta dati. Solo lettura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show* (ShowValue, ...) sono false). Solo lettura Boolean. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | Restituisce l'interfaccia ILayoutable. Di sola lettura [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | Restituisce l'interfaccia IOverridableText. Di sola lettura [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | Restituisce il formato dell'etichetta dati. Di sola lettura [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False indica che l'etichetta dati non è visibile (e quindi tutti i flag Show* (ShowValue, ...) sono false). Di sola lettura Booleano. |
 | [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | Ottiene o imposta la cella dati della cartella di lavoro. Applicato se la proprietà IDataLabelFormat.ShowLabelValueFromCell è true. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Restituisce il testo dell'etichetta reale in base alle impostazioni di DataLabelFormat o al valore TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Rende l'etichetta dati nascosta impostando tutti i flag Show* (ShowValue, ...) nello stato false. IsVisible sarà false dopo questo. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | Restituisce il testo effettivo dell'etichetta in base alle impostazioni di DataLabelFormat o al valore TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | Nasconde l'etichetta dati impostando tutti i flag Show* (ShowValue, ...) su false. IsVisible sarà false dopo questa operazione. |
 
 ### Vedi anche
 

@@ -1,9 +1,9 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Not slaytı yöneticisi.
 type: docs
-weight: 6500
+weight: 6520
 url: /tr/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager arayüzü
@@ -18,13 +18,13 @@ public interface INotesSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Geçerli slayt için not slaytını döndürür. Slayt not slaytı içermiyorsa null döndürür. Yalnızca okunabilir [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Geçerli slayt için not slaytını döndürür. Slaytın not slaytı yoksa null döndürür. Salt okunur [`INotesSlide`](../inotesslide). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Geçerli slayt için not slaytını döndürür, yoksa oluşturur. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Geçerli slayt için not slaytını döndürür, yoksa bir tane oluşturur. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Geçerli slaytın not slaytını kaldırır. |
 
 ### Ayrıca Bakınız

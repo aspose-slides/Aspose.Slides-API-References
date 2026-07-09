@@ -1,6 +1,6 @@
 ---
 title: TransitionSideDirectionType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 측면 방향 전환 유형을 나타냅니다.
 type: docs
 weight: 10420

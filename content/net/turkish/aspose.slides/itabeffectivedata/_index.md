@@ -1,12 +1,12 @@
 ---
 title: ITabEffectiveData
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Etkili metinlerin sekme durak özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 7190
+weight: 7210
 url: /tr/aspose.slides/itabeffectivedata/
 ---
-## ITabEffectiveData arayüz
+## ITabEffectiveData arayüzü
 
 Etkili metnin sekme durak özelliklerini içeren değiştirilemez nesne.
 
@@ -18,13 +18,13 @@ public interface ITabEffectiveData : IComparable
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Bir sekmenin hizalama stilini döndürür. Yalnızca okuma [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | IComparable arayüzünü döndürür. Yalnızca okuma IComparable. |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Bir sekmenin konumunu döndürür. Bu özelliğe değer atamak, sekmenin koleksiyondaki dizinini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Yalnızca okuma Double. |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | Bir sekmenin hizalama stilini döndürür. Salt okunur [`TabAlignment`](../tabalignment). |
+| [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | IComparable arayüzünü döndürür. Salt okunur IComparable. |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | Bir sekmenin konumunu döndürür. Bu özelliğe değer atamak, koleksiyondaki sekmenin indeksini değiştirebilir ve Enumerator'ı geçersiz kılabilir. Salt okunur Double. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) parçası olarak kullanılır.
+Bu arayüz [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) içinde bir parça olarak kullanılır.
 
 ### Ayrıca Bakınız
 

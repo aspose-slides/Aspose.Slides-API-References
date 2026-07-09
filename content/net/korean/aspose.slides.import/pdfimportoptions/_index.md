@@ -1,14 +1,14 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: PDF 가져오기 옵션을 나타냅니다
+second_title: Aspose.Sildes for .NET API 참조
+description: PDF 가져오기 옵션을 나타냅니다.
 type: docs
 weight: 7500
 url: /ko/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions 클래스
 
-PDF 가져오기 옵션을 나타냅니다
+PDF 가져오기 옵션을 나타냅니다.
 
 ```csharp
 public class PdfImportOptions

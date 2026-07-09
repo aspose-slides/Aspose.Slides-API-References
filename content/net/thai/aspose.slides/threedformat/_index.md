@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงคุณสมบัติ 3-D.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติ 3 มิติ.
 type: docs
 weight: 11490
 url: /th/aspose.slides/threedformat/
 ---
 ## ThreeDFormat คลาส
 
-แสดงคุณสมบัติ 3-D
+Represents 3-D properties.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -16,40 +16,40 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | คืนค่า หรือกำหนดประเภทของ bevel 3-D ด้านล่าง. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | คืนค่า หรือกำหนดประเภทของ bevel 3-D ด้านบน. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | คืนค่า หรือกำหนดการตั้งค่าของกล้อง. อ่านอย่างเดียว [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | คืนค่า หรือกำหนดสีของคอนทัวร์. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | คืนค่า หรือกำหนดความกว้างของคอนทัวร์ 3-D. อ่าน/เขียน Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | คืนค่า หรือกำหนดความลึกของรูปร่าง 3-D. อ่าน/เขียน Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | คืนค่า หรือกำหนดสีของ extrusion. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | คืนค่า หรือกำหนดความสูงของเอฟเฟกต์ extrusion. อ่าน/เขียน Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | คืนค่า หรือกำหนดประเภทของแสง. อ่านอย่างเดียว [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | คืนค่า หรือกำหนดประเภทของวัสดุ. อ่าน/เขียน [`MaterialPresetType`](../materialpresettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Returns or sets the type of a bottom 3D bevel. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Returns or sets the type of a top 3D bevel. อ่านอย่างเดียว [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Returns or sets the settings of a camera. อ่านอย่างเดียว [`ICamera`](../icamera). |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Returns or sets the color of a contour. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Returns or sets the width of a 3D contour. อ่าน/เขียน Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Returns or sets the depth of a 3D shape. อ่าน/เขียน Double. |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Returns or sets the color of an extrusion. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Returns or sets the height of an extrusion effect. อ่าน/เขียน Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Returns or sets the type of a light. อ่านอย่างเดียว [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | Returns or sets the type of a material. อ่าน/เขียน [`MaterialPresetType`](../materialpresettype). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับออบเจ็กต์ที่ระบุ |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | ดึงข้อมูลการจัดรูปแบบ 3-D ที่มีผลพร้อมกับการสืบทอดที่นำไปใช้ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับวัตถุที่ระบุ. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Gets effective 3-D formatting data with the inheritance applied. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีการเพิ่มรูปแบบ 3-D ใน PowerPoint Presentation.
+The following example shows how to add 3D shape in PowerPoint Presentation.
 
 ```csharp
 [C#]
 // สร้างอินสแตนซ์ของคลาส Presentation.
 using (Presentation pres = new Presentation())
 {
-	// เพิ่มรูปทรงโดยใช้เมธอด AddAutoShape
+	// เพิ่มรูปร่างโดยใช้เมธอด AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// กำหนด TextFrame และคุณสมบัติของมัน
+	// กำหนด TextFrame และคุณสมบัติต่าง ๆ ของมัน
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
 	// กำหนดคุณสมบัติของ ThreeDFormat
@@ -66,19 +66,19 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีการใช้เอฟเฟกต์ Gradient กับรูปแบบ 3-D ใน PowerPoint Presentation.
+The following example shows how to apply Gradient affect to 3D shape in PowerPoint Presentation.
 
 ```csharp
 [C#]
 // สร้างอินสแตนซ์ของคลาส Presentation.
 using (Presentation pres = new Presentation())
 {
-	// เพิ่มรูปทรงโดยใช้เมธอด AddAutoShape
+	// เพิ่มรูปร่างโดยใช้เมธอด AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// กำหนด TextFrame และคุณสมบัติของมัน
+	// กำหนด TextFrame และคุณสมบัติต่าง ๆ ของมัน
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// ตั้งค่า FillFormat.FillType เป็น FillType.Gradient และกำหนดคุณสมบัติของ gradient
+	// กำหนด FillFormat.FillType เป็น FillType.Gradient และกำหนดคุณสมบัติของเกรเดียนต์
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
@@ -96,18 +96,18 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีการใช้เอฟเฟกต์ 3-D กับข้อความ. สำหรับการสร้างข้อความ 3-D สามารถใช้เอฟเฟกต์การแปลง WordArt.
+The following example shows how to apply 3D effect on text. For creating a 3D text its possible to use WordArt transform effect.
 
 ```csharp
 [C#]
 // สร้างอินสแตนซ์ของคลาส Presentation.
 using (Presentation pres = new Presentation())
 {
-	// เพิ่มรูปทรงโดยใช้เมธอด AddAutoShape
+	// เพิ่มรูปร่างโดยใช้เมธอด AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// กำหนด TextFrame และคุณสมบัติของมัน
+	// กำหนด TextFrame และคุณสมบัติต่าง ๆ ของมัน
     shape.TextFrame.Text = "3D Text";
-	// ตั้งค่า FillFormat.FillType เป็น FillType.NoFill
+	// กำหนด FillFormat.FillType เป็น FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
 	// กำหนด Portion ของ TextFrame และตั้งค่าคุณสมบัติของ PortionFormat
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // ตั้งค่าเอฟเฟ็กต์การแปลง WordArt "Arch Up"
+    // ตั้งค่าเอฟเฟกต์แปลง WordArt แบบ "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// กำหนดคุณสมบัติของ ThreeDFormat ของ ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;

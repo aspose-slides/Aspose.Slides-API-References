@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: हाइपरलिंक रंग के स्रोत का प्रतिनिधित्व करता है।
+description: हाइपरलिंक रंग के स्रोत को दर्शाता है।
 type: docs
 weight: 5140
 url: /hi/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource एन्यूमरेशन
+## HyperlinkColorSource एन्यूमेरेशन
 
-हाइपरलिंक रंग के स्रोत का प्रतिनिधित्व करता है।
+हाइपरलिंक रंग के स्रोत को दर्शाता है।
 
 ```csharp
 public enum HyperlinkColorSource
@@ -18,10 +18,10 @@ public enum HyperlinkColorSource
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Styles | `0` | शैलियाँ। |
-| PortionFormat | `1` | भाग स्वरूप। |
+| Styles | `0` | स्टाइल्स। |
+| PortionFormat | `1` | पोर्टियन फ़ॉर्मेट। |
 
-### अन्य देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

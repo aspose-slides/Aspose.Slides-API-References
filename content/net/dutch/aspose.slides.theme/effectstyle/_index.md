@@ -1,14 +1,14 @@
 ---
 title: EffectStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een effectstijl.
+description: Stelt een effectstijl voor.
 type: docs
 weight: 11080
 url: /nl/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle klasse
 
-Representeert een effectstijl.
+Represents an effect style.
 
 ```csharp
 public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
@@ -16,10 +16,10 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Geeft een effectindeling terug. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Geeft een 3D-indeling terug. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | Retourneert een effectformaat. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | Retourneert een 3d-formaat. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Zie ook
 

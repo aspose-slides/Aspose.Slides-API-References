@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachParagraphCallback
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 각 Paragraph./foreach/paragraph에 대해 BaseSlide../aspose.slides/baseslide에서 호출되는 콜백.
+second_title: Aspose.Slides for .NET API 레퍼런스
+description: 각 Paragraph./foreach/paragraph에 대해 BaseSlide../aspose.slides/baseslide에서 호출되는 콜백입니다.
 type: docs
 weight: 7930
 url: /ko/aspose.slides.lowcode/foreach.foreachparagraphcallback/
 ---
 ## ForEach.ForEachParagraphCallback delegate
 
-각 [`Paragraph`](../foreach/paragraph)에 대해 [`BaseSlide`](../../aspose.slides/baseslide)에서 호출되는 콜백.
+각 [`Paragraph`](../foreach/paragraph)에 대해 호출되는 콜백이며 [`BaseSlide`](../../aspose.slides/baseslide)에서 동작합니다.
 
 ```csharp
 public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, int index);
@@ -16,11 +16,11 @@ public delegate void ForEachParagraphCallback(Paragraph para, BaseSlide slide, i
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| para | Paragraph | 현재 반복된 Paragraph |
-| slide | BaseSlide | 현재 반복된 슬라이드 |
-| index | Int32 | 슬라이드에서 현재 Paragraph의 인덱스 |
+| para | Paragraph | 현재 반복 중인 문단 |
+| slide | BaseSlide | 현재 반복 중인 슬라이드 |
+| index | Int32 | 슬라이드에서 현재 문단의 인덱스 |
 
-### 참고
+### 참조
 
 * 클래스 [Paragraph](../../aspose.slides/paragraph)
 * 클래스 [BaseSlide](../../aspose.slides/baseslide)

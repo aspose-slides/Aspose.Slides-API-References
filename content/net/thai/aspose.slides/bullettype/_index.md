@@ -1,12 +1,12 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงประเภทของสัญลักษณ์หัวข้อย่อยที่ขยาย
 type: docs
 weight: 1080
 url: /th/aspose.slides/bullettype/
 ---
-## BulletType enumeration
+## BulletType การนับ
 
 แสดงประเภทของสัญลักษณ์หัวข้อย่อยที่ขยาย
 
@@ -14,17 +14,17 @@ url: /th/aspose.slides/bullettype/
 public enum BulletType : sbyte
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | สัญลักษณ์หัวข้อย่อย. |
-| Numbered | `2` | หัวข้อย่อยแบบลำดับเลข. |
-| Picture | `3` | หัวข้อย่อยแบบรูปภาพ. |
+| Symbol | `1` | Symbol bullets. |
+| Numbered | `2` | Numbered bullets. |
+| Picture | `3` | Picture bullets. |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili segmen dari jalur grafis GeometryShape
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili segmen jalur grafis dari GeometryShape
 type: docs
-weight: 6590
+weight: 6610
 url: /id/aspose.slides/ipathsegment/
 ---
 ## IPathSegment antarmuka
 
-Mewakili segmen dari jalur grafis GeometryShape
+Mewakili segmen jalur grafik dari GeometryShape
 
 ```csharp
 public interface IPathSegment

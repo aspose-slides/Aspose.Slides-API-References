@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di commenti di un singolo autore.
+description: Rappresenta una raccolta di commenti di un unico autore.
 type: docs
-weight: 5570
+weight: 5590
 url: /it/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interfaccia
 
-Rappresenta una collezione di commenti di un singolo autore.
+Rappresenta una raccolta di commenti di un autore.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -18,19 +18,19 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Sola lettura [`IComment`](../icomment). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Aggiunge un nuovo commento alla fine di una collezione. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Aggiunge un nuovo commento moderno alla fine di una collezione. |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | Rimuove tutti i commenti da una collezione. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Inserisce un nuovo commento in una collezione all'indice specificato. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Inserisce un nuovo commento moderno in una collezione all'indice specificato. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Rimuove la prima occorrenza del commento specificato in una collezione. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Rimuove l'elemento all'indice specificato in una collezione. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Aggiunge un nuovo commento alla fine di una raccolta. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Aggiunge un nuovo commento moderno alla fine di una raccolta. |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | Rimuove tutti i commenti da una raccolta. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Inserisce un nuovo commento in una raccolta all'indice specificato. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Inserisce un nuovo commento moderno in una raccolta all'indice specificato. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Rimuove la prima occorrenza del commento specificato in una raccolta. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Rimuove l'elemento all'indice specificato in una raccolta. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Crea e restituisce un array con tutti i commenti. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Crea e restituisce un array con tutti i commenti dell'intervallo specificato. |
 

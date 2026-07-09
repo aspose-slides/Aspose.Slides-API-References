@@ -1,14 +1,14 @@
 ---
 title: AlphaModulateFixed
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị độ trong suốt alpha của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
 type: docs
 weight: 2890
 url: /vi/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed lớp
 
-Biểu diễn một hiệu ứng Alpha Modulate Fixed. Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
+Biểu diễn một hiệu ứng Alpha Modulate Fixed. Giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -16,17 +16,17 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Trả về một lượng hiệu ứng tính bằng phần trăm. Đọc/ghi Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Trả về một lượng hiệu ứng theo phần trăm. Đọc/ghi Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Xác định liệu [`AlphaModulateFixed`](../alphamodulatefixed) được chỉ định có bằng với [`AlphaModulateFixed`](../alphamodulatefixed) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Modulate Fixed hiệu quả với kế thừa đã được áp dụng. |
+| override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Xác định xem [`AlphaModulateFixed`](../alphamodulatefixed) đã chỉ định có bằng với [`AlphaModulateFixed`](../alphamodulatefixed) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Modulate Fixed thực tế với kế thừa đã được áp dụng. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm

@@ -3,10 +3,10 @@ title: ISwfOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format SWF.
 type: docs
-weight: 4130
+weight: 4150
 url: /id/aspose.slides.export/iswfoptions/
 ---
-## ISwfOptions antarmuka
+## antarmuka ISwfOptions
 
 Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format SWF.
 
@@ -16,25 +16,25 @@ public interface ISwfOptions : ISaveOptions
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya baca [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Menentukan apakah dokumen SWF yang dihasilkan harus dikompresi atau tidak. Nilai default adalah `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Mengaktifkan/menonaktifkan menu konteks. Nilai default adalah true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Menentukan kualitas gambar JPEG. Nilai default adalah 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Gambar yang akan ditampilkan sebagai logo di pojok kanan atas penampil. Gambar harus berukuran 32x64 piksel dalam format PNG, jika tidak logo dapat ditampilkan secara tidak tepat. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Mendapatkan atau mengatur alamat hyperlink lengkap untuk logo. Berpengaruh hanya jika [`LogoImageBytes`](./logoimagebytes) ditentukan. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Menampilkan/menyembunyikan panel bawah. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Menampilkan/menyembunyikan tombol layar penuh. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Nilai default adalah `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Menampilkan/menyembunyikan panel kiri. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Menentukan apakah batas di sekitar halaman harus ditampilkan. Nilai default adalah true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Menampilkan/menyembunyikan pengatur langkah halaman. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Menampilkan/menyembunyikan bagian pencarian. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Menampilkan/menyembunyikan seluruh panel atas. Dapat ditimpa dalam flashvars. Nilai default adalah true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). Properti ini tidak mendukung penetapan objek bertipe `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Mulai dengan panel kiri terbuka. Dapat ditimpa dalam flashvars. Nilai default adalah false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Menentukan apakah dokumen SWF yang dihasilkan harus menyertakan penampil dokumen terintegrasi atau tidak. Nilai default adalah `true`. |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya-baca [`ISaveOptions`](../isaveoptions). |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Menentukan apakah dokumen SWF yang dihasilkan harus dikompresi atau tidak. Defaultnya adalah `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Mengaktifkan/menonaktifkan menu konteks. Defaultnya adalah true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Menentukan kualitas gambar JPEG. Defaultnya adalah 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Gambar yang akan ditampilkan sebagai logo di pojok kanan atas penampil. Gambar harus berukuran 32x64 piksel berformat PNG, jika tidak logo dapat ditampilkan secara tidak tepat. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Mendapatkan atau mengatur alamat tautan lengkap untuk sebuah logo. Hanya berpengaruh jika [`LogoImageBytes`](./logoimagebytes) ditentukan. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Tampilkan/sembunyikan panel bawah. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Tampilkan/sembunyikan tombol layar penuh. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Defaultnya adalah `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Tampilkan/sembunyikan panel kiri. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Menentukan apakah batas di sekitar halaman harus ditampilkan. Defaultnya adalah true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Tampilkan/sembunyikan pengatur langkah halaman. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Tampilkan/sembunyikan bagian pencarian. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Tampilkan/sembunyikan seluruh panel atas. Dapat ditimpa dalam flashvars. Defaultnya adalah true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Mendapatkan atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). Properti ini tidak mendukung penetapan objek berjenis `Aspose.Slides.Export.HandoutLayoutingOptions`. |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Mulai dengan panel kiri terbuka. Dapat ditimpa dalam flashvars. Defaultnya adalah false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Menentukan apakah dokumen SWF yang dihasilkan harus menyertakan penampil dokumen terintegrasi atau tidak. Defaultnya adalah `true`. |
 
 ### Lihat Juga
 

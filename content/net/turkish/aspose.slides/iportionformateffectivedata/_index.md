@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes .NET için API Referansı
-description: Etkili metin bölümü biçimlendirme özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Etkili metin bölümü biçimlendirme özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6720
+weight: 6740
 url: /tr/aspose.slides/iportionformateffectivedata/
 ---
-## IPortionFormatEffectiveData arayüzü
+## IPortionFormatEffectiveData arayüz
 
-Değişmez nesne, etkili metin bölümü biçimlendirme özelliklerini içerir.
+Değiştirilemez nesne, etkili metin bölümü biçimlendirme özelliklerini içerir.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -19,13 +19,13 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Ad | Açıklama |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | IBasePortionFormatEffectiveData arayüzünü döndürür. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Yer imi tanımlayıcısını döndürür. Yalnızca okunabilir String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Fare tıklaması için tanımlanan köprüyi döndürür. Yalnızca okunabilir [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Fare üzerindeyken tanımlanan köprüyi döndürür. Yalnızca okunabilir [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Yer imi tanımlayıcısını döndürür. Salt Okunur String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Fare tıklaması için tanımlanan köprüyü döndürür. Salt Okunur [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Fare üzerine gelindiğinde tanımlanan köprüyü döndürür. Salt Okunur [`IHyperlink`](../ihyperlink). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IPortionFormat`](../iportionformat) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
+Bu arayüz, [`IPortionFormat`](../iportionformat) arayüzüyle birlikte kullanılarak kalıtım uygulanmış etkili biçimlendirme değerlerini döndürür.
 
 ### Ayrıca Bakınız
 

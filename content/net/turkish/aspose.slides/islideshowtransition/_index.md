@@ -1,12 +1,12 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt gösterisi geçişini temsil eder.
 type: docs
-weight: 7060
+weight: 7080
 url: /tr/aspose.slides/islideshowtransition/
 ---
-## ISlideShowTransition arayüz
+## ISlideShowTransition arayüzü
 
 Slayt gösterisi geçişini temsil eder.
 
@@ -18,20 +18,20 @@ public interface ISlideShowTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Bu öznitelik, slayt gösterisinin belirli bir süreden sonra bir sonraki slayta geçip geçmeyeceğini belirtir. Okunur/yazılabilir Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Geçişin başlaması gereken süreyi milisaniye cinsinden belirtir. Bu ayar, advClick özniteliğiyle birlikte kullanılabilir. Bu öznitelik belirtilmezse, otomatik ilerlemenin gerçekleşmeyeceği varsayılır. Okunur/yazılabilir UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Bir fare tıklamasının slaytı ilerletip ilerletmeyeceğini belirtir. Bu öznitelik belirtilmezse, true değeri varsayılır. Okunur/yazılabilir Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Slayt geçiş efektinin süresini milisaniye cinsinden alır veya ayarlar. Okunur/yazılabilir Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Gömülü ses verisini döndürür veya ayarlar. Okunur/yazılabilir [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Bu sesin yerleşik bir ses olup olmadığını belirtir. Bu öznitelik true olarak ayarlanırsa, oluşturan uygulama bu ses için yerleşik sesler listesindeki name özniteliğini kontrol etmesi gerektiği konusunda uyarılır ve ardından gerektiğinde özel bir ad veya UI gösterebilir. Okunur/yazılabilir Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Bu öznitelik, sesin slayt gösterisinde bir sonraki ses olayı gerçekleşene kadar döngü yapıp yapmayacağını belirtir. Okunur/yazılabilir Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Slayt geçişi için ses modunu ayarlar veya döndürür. Okunur/yazılabilir [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Geçiş sesine insan tarafından okunabilir bir ad belirtir. Ses adını almak veya ayarlamak için [`Sound`](./sound) özelliğine atanması gerekir. Okunur/yazılabilir String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Geçerli slayttan bir sonraki slayta geçişte kullanılacak geçiş hızını belirtir. Okunur/yazılabilir [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Geçiş türü. Okunur/yazılabilir [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Slayt gösterisi geçiş değeri. Sadece okunabilir [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Bu öznitelik, slayt gösterisinin belirli bir süreden sonra bir sonraki slayta geçip geçmeyeceğini belirler. Okunur/Yazılır Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Geçişin ne zaman başlayacağını milisaniye cinsinden belirtir. Bu ayar, advClick özniteliğiyle birlikte kullanılabilir. Bu öznitelik belirtilmezse, otomatik ilerlemenin gerçekleşmeyeceği varsayılır. Okunur/Yazılır UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Bir fare tıklamasının slaytı ilerletip ilerletmeyeceğini belirtir. Bu öznitelik belirtilmezse, true değeri varsayılır. Okunur/Yazılır Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Slayt geçiş efektinin süresini milisaniye olarak alır veya ayarlar. Okunur/Yazılır Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Gömülü ses verisini döndürür veya ayarlar. Okunur/Yazılır [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Bu sesin yerleşik bir ses olup olmadığını belirtir. Bu öznitelik true olarak ayarlanırsa, üreten uygulamaya bu sesin yerleşik sesler listesindeki name özniteliği kontrol edilmesi bildirilir ve gerektiğinde özel bir ad veya UI sunulabilir. Okunur/Yazılır Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Bu öznitelik, sesin slayt gösterisinde bir sonraki ses olayı gerçekleşene kadar döngü yapıp yapmayacağını belirler. Okunur/Yazılır Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Slayt geçişi için ses modunu ayarlar veya döndürür. Okunur/Yazılır [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Geçiş sesinin insanlar tarafından okunabilir bir adını belirtir. Ses adını alıp ayarlamak için [`Sound`](./sound) özelliği atanmalıdır. Okunur/Yazılır String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Mevcut slayttan bir sonraki slayta geçişte kullanılacak geçiş hızını belirtir. Okunur/Yazılır [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Geçiş türü. Okunur/Yazılır [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Slayt gösterisi geçiş değeri. Salt-okunur [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

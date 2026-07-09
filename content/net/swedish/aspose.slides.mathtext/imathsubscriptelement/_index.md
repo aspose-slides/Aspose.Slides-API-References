@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar subscript-objektet som består av en bas och ett nedsänkt subscript placerat nedanför och åt höger.
+description: Specificerar subscript-objektet som består av en bas och ett förminskat subscript placerat nedanför och till höger.
 type: docs
-weight: 8450
+weight: 8470
 url: /sv/aspose.slides.mathtext/imathsubscriptelement/
 ---
-## IMathSubscriptElement interface
+## IMMathSubscriptElement gränssnitt
 
-Specificerar subscript-objektet, som består av en bas och ett nedsänkt subscript placerat nedanför och åt höger.
+Specificerar subscript-objektet, som består av en bas och ett förminskat subscript placerat nedanför och till höger.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathSubscriptElement : IMathElement
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Tillåter att hämta bas IMathElement gränssnitt [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Basargument |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subscript |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subskript |
 
 ### Exempel
 
@@ -31,7 +31,7 @@ Exempel:
 IMathSubscriptElement subscriptElement = new MathematicalText("N").SetSubscript("i");
 ```
 
-### Se även
+### Se också
 
 * gränssnitt [IMathElement](../imathelement)
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)

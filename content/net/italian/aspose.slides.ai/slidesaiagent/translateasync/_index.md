@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Traduce una presentazione nella lingua specificata utilizzando l'AI.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Traduce una presentazione nella lingua specificata usando l'IA.
 type: docs
 weight: 50
 url: /it/aspose.slides.ai/slidesaiagent/translateasync/
 ---
 ## SlidesAIAgent.TranslateAsync metodo
 
-Traduce una presentazione nella lingua specificata utilizzando l'AI.
+Traduce una presentazione nella lingua specificata usando l'IA.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -21,10 +21,18 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 ### Eccezioni
 
-| eccezione | condizione |
+| Eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | L'istanza di presentazione non è fornita |
-| ArgumentException | Il valore della lingua non può essere nullo o vuoto |
+| ArgumentNullException | Presentation instance is not provided |
+| ArgumentException | Language value can't be null or empty |
+
+### Osservazioni
+
+L'esempio seguente utilizza il valore predefinito [`AsposeAIWebClient`](../../asposeaiwebclient), che viene creato dal costruttore senza parametri [`SlidesAIAgent`](../slidesaiagent) e si connette al LLM di Aspose. Per utilizzare un provider AI diverso, fornire il proprio LLM, o personalizzare la connessione (ad esempio fornendo il proprio `HttpClient`), passare un'implementazione [`IAIWebClient`](../../iaiwebclient) al costruttore [`SlidesAIAgent`](../slidesaiagent). Le implementazioni disponibili includono:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Vedi anche
 

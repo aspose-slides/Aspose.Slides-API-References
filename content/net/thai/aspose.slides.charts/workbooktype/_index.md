@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ระบุประเภทของไฟล์เวิร์กบุ๊ก Open XML.
 type: docs
 weight: 2510
 url: /th/aspose.slides.charts/workbooktype/
 ---
-## การกำหนดค่า WorkbookType enumeration
+## การนับค่า WorkbookType
 
-ระบุประเภทของไฟล์เวิร์กบุ๊ก Open XML
+กำหนดประเภทของไฟล์เวิร์กบุ๊ก Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -18,12 +18,12 @@ public enum WorkbookType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | ประเภทเวิร์กบุ๊กไม่ได้กำหนด |
-| Workbook | `0` | Excel เวิร์กบุ๊ก (*.xlsx). |
-| WorkbookMacro | `1` | Excel เวิร์กบุ๊กที่เปิดใช้งานมาโคร (*.xlsm). |
-| Template | `2` | Excel เทมเพลต (*.xltx). |
-| TemplateMacro | `3` | Excel เทมเพลตที่เปิดใช้งานมาโคร (*.xltm). |
-| WorkbookBinaryMacro | `4` | Excel เวิร์กบุ๊กไบนารีที่เปิดใช้งานมาโคร (*.xlsb). |
+| NotDefined | `-1` | ประเภทของเวิร์กบุ๊กไม่ได้กำหนด |
+| Workbook | `0` | เวิร์กบุ๊ก Excel (*.xlsx) |
+| WorkbookMacro | `1` | เวิร์กบุ๊ก Excel ที่รองรับมาโคร (*.xlsm) |
+| Template | `2` | เทมพลต Excel (*.xltx) |
+| TemplateMacro | `3` | เทมพลต Excel ที่รองรับมาโคร (*.xltm) |
+| WorkbookBinaryMacro | `4` | เวิร์กบุ๊ก Excel แบบไบนารีที่รองรับมาโคร (*.xlsb) |
 
 ### ดูเพิ่มเติม
 

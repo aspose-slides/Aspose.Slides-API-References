@@ -1,6 +1,6 @@
 ---
 title: IErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 오류 막대 값을 지정합니다. 오류 막대 값 유형이 Custom인 경우에만 사용해야 합니다.
 type: docs
 weight: 2080
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues 인터페이스
 
-오류 막대 값을 지정합니다. Error bars 값 유형이 Custom인 경우에만 사용해야 합니다.
+오류 막대 값을 지정합니다. 오류 막대 값 유형이 Custom인 경우에만 사용해야 합니다.
 
 ```csharp
 public interface IErrorBarsCustomValues

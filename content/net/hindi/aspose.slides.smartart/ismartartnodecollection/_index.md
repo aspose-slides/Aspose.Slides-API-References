@@ -1,7 +1,7 @@
 ---
 title: ISmartArtNodeCollection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: SmartArt नोड्स का एक संग्रह दर्शाता है।
+description: SmartArt नोड्स का संग्रह दर्शाता है।
 type: docs
 weight: 10560
 url: /hi/aspose.slides.smartart/ismartartnodecollection/
@@ -16,20 +16,20 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | इंडेक्स द्वारा नोड लौटाता है। केवल-पढ़ने-योग्य [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | इंडेक्स द्वारा नोड लौटाता है। केवल-पढ़ने योग्य [`ISmartArtNode`](../ismartartnode) |
 
 ## विधियां
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | नया नोड या उप नोड जोड़ता है। |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | नोड संग्रह में चयनित स्थिति में नया नोड जोड़ता है। |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | इंडेक्स द्वारा नोड या उप नोड हटाता है। |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | नोड या उप नोड हटाता है। |
+| [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | नया नोड या उप-नोड जोड़ें। |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | नोड्स संग्रह के चयनित स्थान में नया नोड जोड़ें। |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | इंडेक्स द्वारा नोड या उप-नोड हटाएँ। |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | नोड या उप-नोड हटाएँ। |
 
-### और देखें
+### अन्य देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [ISmartArtNode](../ismartartnode)

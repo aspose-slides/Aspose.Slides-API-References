@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il gestore che contiene il comportamento dei segnaposto delle diapositive master handout, inclusi i segnaposto dell'intestazione.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta il gestore che mantiene il comportamento dei segnaposto delle diapositive di handout master, incluso il segnaposto dell'intestazione.
 type: docs
-weight: 6340
+weight: 6360
 url: /it/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interfaccia
 
-Rappresenta il gestore che contiene il comportamento dei segnaposto delle diapositive master handout, inclusi i segnaposto dell'intestazione.
+Rappresenta il gestore che mantiene il comportamento dei segnaposto delle diapositive di handout master, incluso il segnaposto dell'intestazione.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

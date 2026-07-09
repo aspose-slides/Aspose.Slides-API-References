@@ -1,6 +1,6 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้าง VideoPlayerHtmlController.
 type: docs
 weight: 4590
@@ -18,13 +18,13 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | ตัวสร้างเริ่มต้น |
+| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | คอนสตราคเตอร์เริ่มต้น. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | สร้าง `VideoPlayerHtmlController` ใหม่ |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | สร้าง `VideoPlayerHtmlController` ใหม่. |
 
 ### หมายเหตุ
 

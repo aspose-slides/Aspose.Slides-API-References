@@ -1,14 +1,14 @@
 ---
 title: ScaleEffect
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu thị hiệu ứng thu phóng hoạt hình.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn hiệu ứng thu phóng của hoạt ảnh.
 type: docs
 weight: 780
 url: /vi/aspose.slides.animation/scaleeffect/
 ---
-## ScaleEffect lớp
+## Lớp ScaleEffect
 
-Biểu thị hiệu ứng thu phóng hoạt hình.
+Biểu diễn hiệu ứng thu phóng của hoạt ảnh.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -24,13 +24,13 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Tên | Mô tả |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu thị liệu các hành vi hoạt hình có được cộng dồn hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu thị liệu hành vi hoạt hình hiện tại có được kết hợp với các hoạt hình đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Mô tả giá trị độ dịch tương đối cho hoạt hình (theo phần trăm). Đọc/ghi PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Chỉ định tọa độ x/y để bắt đầu hoạt hình (theo phần trăm). Đọc/ghi PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Biểu thị các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Biểu thị các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Chỉ định vị trí mục tiêu cho hiệu ứng thu phóng hoạt hình (theo phần trăm). Đọc/ghi PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu diễn việc các hành vi hoạt ảnh có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu diễn việc hành vi hoạt ảnh hiện tại có được kết hợp với các hoạt ảnh đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Mô tả giá trị độ dịch tương đối cho hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Biểu diễn các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Biểu diễn các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Xác định vị trí mục tiêu cho hiệu ứng thu phóng hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
 | [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Xác định liệu nội dung có nên được phóng to hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Xem thêm

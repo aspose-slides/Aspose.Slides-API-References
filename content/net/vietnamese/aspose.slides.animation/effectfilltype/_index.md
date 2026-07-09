@@ -1,14 +1,14 @@
 ---
 title: EffectFillType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả các kiểu tô đầy.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Mô tả các kiểu đổ.
 type: docs
 weight: 310
 url: /vi/aspose.slides.animation/effectfilltype/
 ---
-## Liệt kê EffectFillType
+## EffectFillType liệt kê
 
-Mô tả các kiểu tô đầy.
+Mô tả các kiểu đổ.
 
 ```csharp
 public enum EffectFillType

@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkinin dönüş davranışını temsil eder.
+description: Efektin döndürme davranışını temsil eder.
 type: docs
-weight: 550
+weight: 570
 url: /tr/aspose.slides.animation/irotationeffect/
 ---
-## IRotationEffect interface
+## IRotationEffect arabirimi
 
-Etkinin dönüş davranışını temsil eder.
+Efektin döndürme davranışını temsil eder.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,14 +18,14 @@ public interface IRotationEffect : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Temel IBehavior arayüzünü almaya izin verir. Salt okunur [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Animasyon için göreceli ofset değerini tanımlar. Okunur/Yazılabilir Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Animasyon için başlangıç değerini tanımlar. Okunur/Yazılabilir Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Animasyon için bitiş değerini tanımlar. Okunur/Yazılabilir Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Temel IBehavior arabirimine erişmeyi sağlar. Yalnızca okuma [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Animasyon için ilgili ofset değerini açıklar. Okuma/yazma Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Animasyon için başlangıç değerini açıklar. Okuma/yazma Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Animasyon için bitiş değerini açıklar. Okuma/yazma Single. |
 
 ### Ayrıca Bakınız
 
-* arayüz [IBehavior](../ibehavior)
+* arabirim [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)
 

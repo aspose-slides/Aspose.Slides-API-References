@@ -1,12 +1,12 @@
 ---
 title: IEffect
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงถึงเอฟเฟกต์การเคลื่อนไหว.
 type: docs
 weight: 490
 url: /th/aspose.slides.animation/ieffect/
 ---
-## IEffect อินเทอร์เฟส
+## อินเทอร์เฟซ IEffect
 
 แสดงถึงเอฟเฟกต์การเคลื่อนไหว.
 
@@ -16,21 +16,21 @@ public interface IEffect
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | กำหนดสีหลังการทำอนิเมชันสำหรับเอฟเฟกต์. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | กำหนดประเภทหลังการทำอนิเมชันสำหรับเอฟเฟกต์. อ่าน/เขียน [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | กำหนดประเภทการเคลื่อนไหวของข้อความสำหรับเอฟเฟกต์. ข้อความของรูปร่างสามารถทำอนิเมชันโดยอักษร, โดยคำ หรือทั้งหมดพร้อมกัน. อ่าน/เขียน [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | คืนค่าคอลเลกชันของพฤติกรรมสำหรับเอฟเฟกต์. อ่าน/เขียน [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | กำหนดความหน่วงระหว่างส่วนของข้อความที่ทำอนิเมชัน (คำหรืออักษร). ค่าเป็นบวกระบุเป็นเปอร์เซ็นต์ของระยะเวลาเอฟเฟกต์. ค่าเป็นลบระบุความหน่วงเป็นวินาที. อ่าน/เขียน Single. |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | กำหนดสีหลังการเคลื่อนไหวสำหรับเอฟเฟกต์. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | กำหนดประเภทหลังการเคลื่อนไหวสำหรับเอฟเฟกต์. อ่าน/เขียน [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | กำหนดประเภทการเคลื่อนไหวของข้อความสำหรับเอฟเฟกต์. ข้อความของรูปทรงสามารถเคลื่อนไหวเป็นตัวอักษร, เป็นคำ หรือทั้งหมดพร้อมกัน. อ่าน/เขียน [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | ส่งคืนคอลเลกชันของพฤติกรรมสำหรับเอฟเฟกต์. อ่าน/เขียน [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | กำหนดค่าหน่วงเวลาระหว่างส่วนของข้อความที่เคลื่อนไหว (คำหรืออักษร). ค่าบวกระบุเป็นเปอร์เซ็นต์ของระยะเวลาเอฟเฟกต์. ค่าลบระบุเป็นเวลาหน่วงเป็นวินาที. อ่าน/เขียน Single. |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | กำหนดคลาสของเอฟเฟกต์. อ่าน/เขียน [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | คืนค่าลำดับสำหรับเอฟเฟกต์. อ่านอย่างเดียว [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | กำหนดเสียงฝังในสำหรับเอฟเฟกต์. อ่าน/เขียน [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | คุณลักษณะนี้ระบุว่าผลกระทบการทำอนิเมชันหยุดเสียงก่อนหน้าหรือไม่. อ่าน/เขียน Boolean. |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | ส่งคืนลำดับสำหรับเอฟเฟกต์. อ่านอย่างเดียว [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | กำหนดเสียงฝังในเอฟเฟกต์. อ่าน/เขียน [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | แอตทริบิวต์นี้ระบุว่าเอฟเฟกต์การเคลื่อนไหวจะหยุดเสียงก่อนหน้าหรือไม่. อ่าน/เขียน Boolean. |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | กำหนดชนิดย่อยของเอฟเฟกต์. อ่าน/เขียน [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | คืนรูปร่างเป้าหมายสำหรับเอฟเฟกต์. อ่านอย่างเดียว [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | คืนการเคลื่อนไหวของข้อความ. อ่านอย่างเดียว [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | กำหนดค่าการกำหนดเวลาสำหรับเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | ส่งคืนรูปทรงเป้าหมายสำหรับเอฟเฟกต์. อ่านอย่างเดียว [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | ส่งคืนการเคลื่อนไหวของข้อความ. อ่านอย่างเดียว [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | กำหนดค่าเวลาสำหรับเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | กำหนดประเภทของเอฟเฟกต์. อ่าน/เขียน [`EffectType`](../effecttype). |
 
 ### ดูเพิ่มเติม

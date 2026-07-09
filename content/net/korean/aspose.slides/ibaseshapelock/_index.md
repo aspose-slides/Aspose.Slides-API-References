@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes for .NET API 참조
-description: Shape lock 비활성화된 작업을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Shape lock 비활성화 작업을 나타냅니다.
 type: docs
 weight: 5330
 url: /ko/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock 인터페이스
 
-Shape lock (비활성화된 연산)을 나타냅니다.
+Shape lock (비활성화된 작업)을 나타냅니다.
 
 ```csharp
 public interface IBaseShapeLock

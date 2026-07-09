@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: แสดงถึงคอนโทรล ActiveX.
 type: docs
 weight: 5630
 url: /th/aspose.slides/icontrol/
 ---
-## IControl อินเทอร์เฟซ
+## อินเทอร์เฟซ IControl
 
-แสดงถึงคอนโทรล ActiveX.
+แสดงถึง ActiveX control.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -16,16 +16,16 @@ public interface IControl : ISlideComponent
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | ระบุการคงอยู่ของคอนโทรล ActiveX เมื่อวิธีการที่ใช้ในการบันทึกคือ PersistStream, PersistStreamInit หรือ PersistStorage. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ ISlideComponent พื้นฐาน อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | รับค่า class id ของคอนโทรลนี้ อ่านอย่างเดียว Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | ส่งคืนหรือกำหนดกรอบของคอนโทรล อ่าน-เขียน [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | ส่งคืนชื่อของคอนโทรลนี้ อ่าน-เขียน String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | รับวิธีที่ใช้ในการเก็บคุณสมบัติของคอนโทรล ActiveX อ่านอย่างเดียว [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | ส่งคืนคอลเลกชันของคุณสมบัติ ActiveX อ่านอย่างเดียว [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติการเติมภาพของ ControlEx อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | ระบุการคงสถานะของ ActiveX control เมื่อวิธีการที่ใช้ในการคงข้อมูลเป็น PersistStream, PersistStreamInit หรือ PersistStorage. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน ISlideComponent ได้. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | ดึง class id ของคอนโทรลนี้. อ่านอย่างเดียว Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | คืนหรือกำหนดกรอบของคอนโทรล. อ่าน/เขียน [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | คืนชื่อของคอนโทรลนี้. อ่าน/เขียน String. |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ดึงวิธีการที่ใช้เก็บคุณสมบัติของ ActiveX control. อ่านอย่างเดียว [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | คืนคอลเลกชันของคุณสมบัติ ActiveX. อ่านอย่างเดียว [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | คืนอ็อบเจ็กต์ของคุณสมบัติการเติมภาพ ControlEx. อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il tipo di trigger dell'effetto.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il tipo di attivazione dell'effetto.
 type: docs
-weight: 330
+weight: 350
 url: /it/aspose.slides.animation/effecttriggertype/
 ---
-## enumerazione EffectTriggerType
+## EffectTriggerType enumerazione
 
-Rappresenta il tipo di trigger dell'effetto.
+Rappresenta il tipo di attivazione dell'effetto.
 
 ```csharp
 public enum EffectTriggerType

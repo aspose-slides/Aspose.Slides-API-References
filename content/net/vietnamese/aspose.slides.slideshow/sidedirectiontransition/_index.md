@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Hiệu ứng chuyển tiếp slide theo hướng bên.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển đoạn trượt theo hướng bên.
 type: docs
 weight: 10310
 url: /vi/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition lớp
 
-Hiệu ứng chuyển tiếp slide theo hướng bên.
+Hiệu ứng chuyển đoạn trượt theo hướng bên.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -18,14 +18,14 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | Tên | Mô tả |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/sidedirectiontransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định xem hai đối tượng TransitionValueBase có bằng nhau hay không. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Xác định liệu hai đối tượng TransitionValueBase có bằng nhau hay không. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu nhất định, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Xem thêm
 

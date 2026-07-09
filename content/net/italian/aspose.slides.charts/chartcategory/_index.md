@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le categorie del grafico.
 type: docs
-weight: 1250
+weight: 1270
 url: /it/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory classe
@@ -18,10 +18,10 @@ public class ChartCategory : IChartCategory
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Restituisce o imposta l'oggetto IChartDataCell. Se la categoria è a più livelli allora viene usato l'oggetto IChartDataCell per il livello "0". Lettura/scrittura [`IChartDataCell`](../ichartdatacell). |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Restituisce o imposta l'oggetto IChartDataCell. Se la categoria è a più livelli, viene usato l'oggetto IChartDataCell per il livello "0". Lettura/scrittura [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Restituisce o imposta l'oggetto AsLiteral. Lettura/scrittura Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Contenitore gestito dei valori dei livelli di raggruppamento della categoria del grafico. Una categoria a più livelli contiene più di un livello di raggruppamento. L'indicizzazione dei livelli di raggruppamento parte da zero. Solo lettura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Solo lettura Boolean. |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Contenitore gestito dei valori dei livelli di raggruppamento delle categorie del grafico. Una categoria a più livelli contiene più di un livello di raggruppamento. L'indicizzazione dei livelli di raggruppamento parte da zero. Sola lettura [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Se vero, la proprietà AsCell è attiva. In altre parole, il foglio di lavoro è usato per memorizzare la categoria (questo caso supporta una categoria a più livelli). Se falso, la proprietà AsLiteral è attiva. In altre parole, il foglio di lavoro NON è usato per memorizzare la categoria (e questo caso non supporta categorie a più livelli). Sola lettura Boolean. |
 | [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Se UseCell è vero, questa proprietà rappresenta la proprietà AsCell.Value. Se UseCell è falso, questa proprietà rappresenta la proprietà AsLiteral. Lettura/scrittura Object. |
 
 ## Metodi

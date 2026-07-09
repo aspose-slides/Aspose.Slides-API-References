@@ -1,14 +1,14 @@
 ---
 title: LinkEmbedDecision
 second_title: Aspose.Sildes برای مرجع API .NET
-description: تعیین می‌کند که شی در طول ذخیره‌سازی چگونه پردازش خواهد شد.
+description: تعیین می‌کند که شی در زمان ذخیره‌سازی چگونه پردازش شود.
 type: docs
 weight: 4230
 url: /fa/aspose.slides.export/linkembeddecision/
 ---
-## enum LinkEmbedDecision
+## LinkEmbedDecision شمارش
 
-Determines how object will be processed during saving.
+تعیین می‌کند که شی در زمان ذخیره‌سازی چگونه پردازش شود.
 
 ```csharp
 public enum LinkEmbedDecision
@@ -18,9 +18,9 @@ public enum LinkEmbedDecision
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Link | `0` | شی به‌صورت خارجی ذخیره می‌شود و توسط URL ارجاع داده می‌شود |
-| Embed | `1` | شی باید در صورت امکان به فایلی که تولید می‌شود جاسازی شود. اگر جاسازی ممکن نباشد، GetUrl فراخوانی می‌شود و بسته به نتیجه، شی توسط URL ارجاع داده می‌شود یا نادیده گرفته می‌شود. |
-| Ignore | `2` | شی نادیده گرفته می‌شود. |
+| Link | `0` | شی به صورت خارجی ذخیره خواهد شد و توسط URL ارجاع می‌شود |
+| Embed | `1` | اگر امکان‌پذیر باشد، شی باید در فایلی تولید شده جاسازی شود. اگر جاسازی امکان‌پذیر نباشد، GetUrl فراخوانی می‌شود و بسته به نتیجه، شی توسط URL ارجاع می‌شود یا نادیده گرفته می‌شود. |
+| Ignore | `2` | شی نادیده گرفته خواهد شد. |
 
 ### موارد مرتبط
 

@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果の回転動作を表します。
+description: エフェクトの回転動作を表します。
 type: docs
-weight: 550
+weight: 570
 url: /ja/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect インターフェイス
 
-効果の回転動作を表します。
+エフェクトの回転動作を表します。
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | ベースの IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | アニメーションの相対オフセット値を表します。読み書き Single。 |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | アニメーションの開始値を表します。読み書き Single。 |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | アニメーションの終了値を表します。読み書き Single。 |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | アニメーションの相対オフセット値を記述します。読み書き Single。 |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | アニメーションの開始値を記述します。読み書き Single。 |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | アニメーションの終了値を記述します。読み書き Single。 |
 
 ### 参照
 

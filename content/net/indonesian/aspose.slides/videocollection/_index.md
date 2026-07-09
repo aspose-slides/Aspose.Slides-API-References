@@ -3,12 +3,12 @@ title: VideoCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi objek Video.
 type: docs
-weight: 11690
+weight: 11710
 url: /id/aspose.slides/videocollection/
 ---
 ## VideoCollection kelas
 
-Mewakili kumpulan objek Video.
+Mewakili koleksi objek Video.
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,17 +18,17 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | Mengembalikan jumlah berkas video dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | Mengembalikan jumlah file video dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman untuk thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Baca-saja [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Membuat dan menambahkan video ke presentasi dari byte array. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Menambahkan salinan berkas video dari presentasi lain. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Membuat dan menambahkan video ke presentasi dari array byte. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Menambahkan salinan file video dari presentasi lain. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan video ke presentasi dari stream. |
 | [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Menyalin video ke array yang ditentukan mulai dari indeks yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |

@@ -1,27 +1,27 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्यातित दस्तावेज़ में Ink ऑब्जेक्ट्स के स्वरूप को नियंत्रित करने वाले विकल्प प्रदान करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक्सपोर्टेड दस्तावेज़ में Ink ऑब्जेक्ट्स के लुक को नियंत्रित करने वाले विकल्प प्रदान करता है।
 type: docs
 weight: 3980
 url: /hi/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions इंटरफ़ेस
 
-निर्यातित दस्तावेज़ में Ink ऑब्जेक्ट्स के स्वरूप को नियंत्रित करने वाले विकल्प प्रदान करता है।
+एक्सपोर्टेड दस्तावेज़ में Ink ऑब्जेक्ट्स के लुक को नियंत्रित करने वाले विकल्प प्रदान करता है।
 
 ```csharp
 public interface IInkOptions
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | निर्यातित दस्तावेज़ में Ink तत्वों को दिखाता या छिपाता है। |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | रेंडरिंग ब्रश के लिए ROP ऑपरेशन या अपैसिटी का उपयोग करता है। |
+| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | एक्सपोर्टेड दस्तावेज़ में Ink तत्वों को दिखाता या छुपाता है। |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | ब्रश के रेंडरिंग के लिए ROP ऑपरेशन या Opacity का उपयोग करता है। |
 
-### संबंधित देखें
+### आगे देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

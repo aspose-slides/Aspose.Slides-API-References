@@ -1,6 +1,6 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Slides for .NET API 參考
 description: 表示單一作者的評論集合。
 type: docs
 weight: 2650
@@ -16,31 +16,31 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | 取得集合中實際包含的元素數量。 唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | 返回一個值，指示對集合的存取是否同步 (執行緒安全)。 唯讀 Boolean。 |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`Comment`](../comment)。 |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | 返回同步根。 唯讀 Object。 |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | 傳回指示集合存取是否同步（執行緒安全）的值。唯讀 Boolean。 |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`Comment`](../comment)。 |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | 傳回同步根物件。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合的末端新增評論。 |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合的末端新增現代評論。 |
-| [Clear](../../aspose.slides/commentcollection/clear)() | 從集合中移除所有評論。 |
+| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | 在集合末端新增評論。 |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 在集合末端新增現代評論。 |
+| [Clear](../../aspose.slides/commentcollection/clear)() | 移除集合中的所有評論。 |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | 依索引在集合中尋找評論。 |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | 返回一個可遍歷集合的列舉器。 |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引處將新評論插入集合。 |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引處將新現代評論插入集合。 |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 在指定索引處於集合中插入新評論。 |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 在指定索引處於集合中插入新現代評論。 |
 | [Remove](../../aspose.slides/commentcollection/remove)(IComment) | 移除集合中指定評論的第一次出現。 |
 | [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | 移除集合中指定索引處的元素。 |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | 建立並返回包含所有評論的陣列。 |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | 建立並返回指定範圍內所有評論的陣列。 |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | 建立並傳回包含所有評論的陣列。 |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | 建立並傳回指定範圍內所有評論的陣列。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [CommentAuthor](../commentauthor)

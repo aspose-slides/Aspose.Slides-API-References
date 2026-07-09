@@ -6,7 +6,7 @@ type: docs
 weight: 11760
 url: /vi/aspose.slides.warnings/iknownissuewarninginfo/
 ---
-## IKnownIssueWarningInfo interface
+## IKnownIssueWarningInfo giao diện
 
 Biểu thị một cảnh báo về vấn đề đã biết sẽ không được sửa trong tương lai gần.
 

@@ -1,6 +1,6 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: स्लाइड शो ट्रांज़िशन का प्रतिनिधित्व करता है।
 type: docs
 weight: 7080
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | नाम | विवरण |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | यह एट्रीब्यूट निर्धारित करता है कि स्लाइड शो एक निर्धारित समय के बाद अगली स्लाइड पर जाएगा या नहीं। पढ़ें/लिखें Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | ट्रांज़िशन कब शुरू होना चाहिए, मिलिसेण्ड में समय निर्धारित करता है। यह सेटिंग advClick एट्रीब्यूट के साथ मिलकर उपयोग की जा सकती है। यदि यह एट्रीब्यूट निर्दिष्ट नहीं किया गया है तो मान लिया जाता है कि कोई ऑटो-एडवांस नहीं होगा। पढ़ें-लिखें UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | निर्धारित करता है कि माउस क्लिक स्लाइड को आगे बढ़ाएगा या नहीं। यदि यह एट्रीब्यूट निर्दिष्ट नहीं किया गया है तो true मान लिया जाता है। पढ़ें-लिखें Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | स्लाइड ट्रांज़िशन इफ़ेक्ट की अवधि मिलिसेण्ड में प्राप्त या सेट करता है। पढ़ें/लिखें Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | एम्बेडेड ऑडियो डेटा को प्राप्त या सेट करता है। पढ़ें-लिखें [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | निर्धारित करता है कि यह साउंड बिल्ट-इन साउंड है या नहीं। यदि यह एट्रीब्यूट true पर सेट है तो जनरेटिंग एप्लिकेशन को सूचित किया जाता है ताकि वह इस साउंड के लिए नाम एट्रीब्यूट को उसके बिल्ट-इन साउंड की सूची में जांच सके और आवश्यकतानुसार एक कस्टम नाम या UI प्रदर्शित कर सके। पढ़ें-लिखें Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | यह एट्रीब्यूट निर्धारित करता है कि साउंड स्लाइड शो में अगली साउंड इवेंट होने तक लूप करेगा या नहीं। पढ़ें-लिखें Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | स्लाइड ट्रांज़िशन के लिए साउंड मोड सेट या प्राप्त करता है। पढ़ें-लिखें [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | ट्रांज़िशन के साउंड के लिए मानवीय पठनीय नाम निर्दिष्ट करता है। साउंड नाम प्राप्त या सेट करने के लिए [`Sound`](./sound) प्रॉपर्टी को असाइन किया जाना चाहिए। पढ़ें-लिखें String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | वर्तमान स्लाइड से अगली स्लाइड पर ट्रांज़िशन के दौरान उपयोग होने वाली ट्रांज़िशन गति निर्दिष्ट करता है। पढ़ें-लिखें [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | ट्रांज़िशन का प्रकार। पढ़ें-लिखें [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | स्लाइड शो ट्रांज़िशन मान। केवल-पढ़ने योग्य [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | यह विशेषता निर्दिष्ट करती है कि स्लाइडशो एक निश्चित समय के बाद अगले स्लाइड पर जाएगा या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | ट्रांज़िशन के शुरू होने के बाद की समयावधि को मिलिसेकेंड में निर्दिष्ट करता है। यह सेटिंग advClick विशेषता के साथ उपयोग की जा सकती है। यदि यह विशेषता निर्दिष्ट नहीं है तो माना जाता है कि कोई स्वतः-आगे बढ़ना नहीं होगा। पढ़ने/लिखने योग्य UInt32। |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | निर्दिष्ट करता है कि माउस क्लिक स्लाइड को आगे बढ़ाएगा या नहीं। यदि यह विशेषता निर्दिष्ट नहीं है तो true मान मान लिया जाता है। पढ़ने/लिखने योग्य बूलियन। |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | स्लाइड ट्रांज़िशन प्रभाव की अवधि को मिलिसेकेंड में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Int32। |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | एंबेडेड ऑडियो डेटा को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio)। |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | निर्दिष्ट करता है कि यह ध्वनि बिल्ट-इन ध्वनि है या नहीं। यदि यह विशेषता true पर सेट की जाती है तो उत्पन्न करने वाला एप्लिकेशन सतर्क किया जाता है कि वह इस ध्वनि के लिए निर्दिष्ट name विशेषता को इसके बिल्ट-इन ध्वनियों की सूची में जाँचें और आवश्यकता अनुसार एक कस्टम नाम या UI प्रदर्शित कर सके। पढ़ने/लिखने योग्य बूलियन। |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | यह विशेषता निर्दिष्ट करती है कि ध्वनि स्लाइडशो में अगले ध्वनि इवेंट तक लूप करेगी या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | स्लाइड ट्रांज़िशन के लिए साउंड मोड को सेट या प्राप्त करता है। पढ़ने/लिखने योग्य [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)। |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | ट्रांज़िशन की ध्वनि के लिए एक मानव-पठनीय नाम निर्दिष्ट करता है। ध्वनि नाम प्राप्त या सेट करने के लिए [`Sound`](./sound) गुण को असाइन करना आवश्यक है। पढ़ने/लिखने योग्य String। |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | वर्तमान स्लाइड से अगले स्लाइड में ट्रांज़िशन के दौरान उपयोग करने की ट्रांज़िशन गति निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)। |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | ट्रांज़िशन का प्रकार। पढ़ने/लिखने योग्य [`TransitionType`](../../aspose.slides.slideshow/transitiontype)। |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | स्लाइड शो ट्रांज़िशन मान। केवल पढ़ने योग्य [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)। |
 
 ### संबंधित देखें
 
-* नामस्थान [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

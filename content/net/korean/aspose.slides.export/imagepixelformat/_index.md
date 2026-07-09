@@ -1,6 +1,6 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 생성된 이미지의 픽셀 형식을 지정합니다.
 type: docs
 weight: 4210

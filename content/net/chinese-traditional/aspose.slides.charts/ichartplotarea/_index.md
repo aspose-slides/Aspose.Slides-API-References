@@ -16,12 +16,12 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | 傳回 IActualLayout 介面。 |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | 返回 IActualLayout 介面。 |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | 允許取得基礎 ILayoutable 介面。唯讀 [`ILayoutable`](../ilayoutable)。 |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 傳回繪圖區的格式。唯讀 [`IFormat`](../iformat)。 |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果繪圖區的版面配置是手動定義，此屬性指定是否以內部（不含軸與軸標籤）或外部（包含軸與軸標籤）方式配置繪圖區。可讀寫 [`LayoutTargetType`](./layouttargettype)。 |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 返回繪圖區的格式。唯讀 [`IFormat`](../iformat)。 |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 如果手動定義繪圖區的佈局，則此屬性指定是否根據其內部（不包括座標軸和座標軸標籤）或外部（包括座標軸和座標軸標籤）來佈局繪圖區。可讀寫 [`LayoutTargetType`](./layouttargettype)。 |
 
 ### 另請參閱
 

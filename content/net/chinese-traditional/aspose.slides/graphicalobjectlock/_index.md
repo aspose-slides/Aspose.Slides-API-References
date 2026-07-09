@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 判斷在父 GraphicalObject 上哪些操作被停用。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 決定在父 GraphicalObject 上哪些操作被停用。
 type: docs
 weight: 5080
 url: /zh-hant/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock 類別
 
-判定父 GraphicalObject 上哪些操作被停用。
+決定在父 GraphicalObject 上哪些操作被停用。
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -16,15 +16,15 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 判定在調整大小時是否需保持形狀的長寬比。可讀寫 Boolean。 |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 判定是否禁止選取此物件的子形狀。可讀寫 Boolean。 |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 判定是否禁止將此形狀加入群組。可讀寫 Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有鎖定旗標皆已停用則返回 true。唯讀 Boolean。 |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 判定是否禁止移動此形狀。可讀寫 Boolean。 |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 判定是否禁止選取此形狀。可讀寫 Boolean。 |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 判定是否禁止調整此形狀的大小。可讀寫 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | 決定在調整大小時是否必須保持形狀的寬高比。讀寫 Boolean。 |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | 決定是否禁止選取此物件的子形狀。讀寫 Boolean。 |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | 決定是否禁止將此形狀加入群組。讀寫 Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 若所有鎖定旗標皆已停用，則回傳 true。唯讀 Boolean。 |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | 決定是否禁止移動此形狀。讀寫 Boolean。 |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | 決定是否禁止選取此形狀。讀寫 Boolean。 |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | 決定是否禁止調整此形狀的大小。讀寫 Boolean。 |
 
 ### 另見
 

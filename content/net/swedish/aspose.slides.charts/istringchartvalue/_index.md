@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett strängvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagrammet 2) som ett bokstavligt värde.
+second_title: Aspose.Sildes för .NET API Referens
+description: Representerar strängvärde som kan lagras i pptx presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram 2) som ett bokstavligt värde.
 type: docs
-weight: 2200
+weight: 2220
 url: /sv/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue gränssnitt
 
-Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+Representerar strängvärde som kan lagras i pptx-presentationsdokument på två sätt: 1) i cell/celler i arbetsbok relaterad till diagram; 2) som litteralt värde.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -16,18 +16,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Tillåter att hämta bas IMultipleCellChartValue gränssnittet. Skrivskyddad [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Returnerar eller sätter den bokstavliga strängen om DataSourceType egenskapen är DataSourceType.StringLiterals. Läs/skriv String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Tillåter att hämta bas-IMultipleCellChartValue-gränssnittet. Skrivskyddad [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Returnerar eller anger den litterala strängen om egenskapen DataSourceType är DataSourceType.StringLiterals. Läs/skriv Sträng. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Om DataSourceType egenskapen är DataSourceType.Worksheet returnerar den här metoden adressen till cellerna i arbetsboken som representerar strängdata. Annars returneras en tom sträng. |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Ställer in värdet från angiven cell. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Returnerar strängrepresentation. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Om egenskapen DataSourceType är DataSourceType.Worksheet returnerar den här metoden adressen till cellerna i arbetsboken som representerar strängdata. Annars returneras en tom sträng. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Anger värde från angiven cell. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Returnerar en strängrepresentation. |
 
 ### Se också
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: चार्ट डेटा वर्कबुक के कार्यपत्रकों के संग्रह का प्रतिनिधित्व करता है।
+description: चार्ट डेटा वर्कबुक की वर्कशीट्स का संग्रह दर्शाता है।
 type: docs
 weight: 1880
 url: /hi/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection इंटरफ़ेस
 
-chart data workbook के कार्यपत्रकों के संग्रह का प्रतिनिधित्व करता है।
+चार्ट डेटा वर्कबुक की वर्कशीट्स का संग्रह दर्शाता है।
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -16,9 +16,9 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | इंडेक्स द्वारा Worksheet लौटाता है। |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | इंडेक्स द्वारा वर्कशीट लौटाता है। |
 
 ### उदाहरण
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IChartDataWorksheet](../ichartdataworksheet)

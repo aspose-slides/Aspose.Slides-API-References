@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes .NET API リファレンス
 description: シェイプの向きを表します。
 type: docs
-weight: 9220
+weight: 9240
 url: /ja/aspose.slides/orientation/
 ---
-## Orientation 列挙型
+## Orientation 列挙体
 
-Shape の向きを表します。
+シェイプの向きを表します。
 
 ```csharp
 public enum Orientation : sbyte
@@ -21,7 +21,7 @@ public enum Orientation : sbyte
 | Horizontal | `0` | 水平。 |
 | Vertical | `1` | 垂直。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

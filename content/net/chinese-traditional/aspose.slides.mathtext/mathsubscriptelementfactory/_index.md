@@ -1,6 +1,6 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 允許建立 IMathSubscriptElement
 type: docs
 weight: 9010

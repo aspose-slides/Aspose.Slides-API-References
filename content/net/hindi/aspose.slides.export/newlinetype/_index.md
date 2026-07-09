@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: जेनरेटेड दस्तावेज़ में उपयोग की जाने वाली नई पंक्ति का प्रकार।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: जनरेट किए गए दस्तावेज़ में उपयोग की जाने वाली नई पंक्ति का प्रकार।
 type: docs
 weight: 4280
 url: /hi/aspose.slides.export/newlinetype/
 ---
-## NewLineType enumeration
+## NewLineType इनेमरेशन
 
-जेनरेटेड दस्तावेज़ में उपयोग की जाने वाली नई पंक्ति का प्रकार।
+निर्मित दस्तावेज़ में उपयोग की जाने वाली नई पंक्ति का प्रकार।
 
 ```csharp
 public enum NewLineType
@@ -16,7 +16,7 @@ public enum NewLineType
 
 ### मान
 
-| Name | Value | Description |
+| नाम | मान | विवरण |
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

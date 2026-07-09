@@ -1,9 +1,9 @@
 ---
 title: IColorReplace
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy színcsere hatást reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: Színcsere hatást képvisel.
 type: docs
-weight: 3220
+weight: 3240
 url: /hu/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace interfész
@@ -21,7 +21,7 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Visszaadja a színformátumot, amely minden pixel színét lecseréli. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Visszaadja a színformátumot, amely minden pixel színét helyettesíti. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még
 

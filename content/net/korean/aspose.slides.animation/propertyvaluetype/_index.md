@@ -1,6 +1,6 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 속성 값 유형을 나타냅니다.
 type: docs
 weight: 760
@@ -23,7 +23,7 @@ public enum PropertyValueType
 | Number | `1` |  |
 | Color | `2` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

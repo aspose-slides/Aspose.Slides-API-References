@@ -1,12 +1,12 @@
 ---
 title: ITable
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una tabella su una diapositiva.
 type: docs
-weight: 7210
+weight: 7230
 url: /it/aspose.slides/itable/
 ---
-## Interfaccia ITable
+## ITable interfaccia
 
 Rappresenta una tabella su una diapositiva.
 
@@ -18,20 +18,20 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Consente di ottenere l'interfaccia base IBulkTextFormattable. Solo lettura [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Solo lettura [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Restituisce la raccolta di colonne. Solo lettura [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina se la prima colonna di una tabella deve essere disegnata con una formattazione speciale. Booleano lettura/scrittura. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina se la prima riga di una tabella deve essere disegnata con una formattazione speciale. Booleano lettura/scrittura. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina se le righe pari devono essere disegnate con una formattazione diversa. Booleano lettura/scrittura. |
-| [Item](../../aspose.slides/itable/item) { get; } | Restituisce la cella agli indici di colonna e riga specificati. Solo lettura [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina se l'ultima colonna di una tabella deve essere disegnata con una formattazione speciale. Booleano lettura/scrittura. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina se l'ultima riga di una tabella deve essere disegnata con una formattazione speciale. Booleano lettura/scrittura. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina se la tabella ha ordine di lettura da destra a sinistra. Booleano lettura/scrittura. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Restituisce la raccolta di righe. Solo lettura [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Ottiene o imposta lo stile di tabella incorporato. Lettura/scrittura [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Restituisce l'oggetto TableFormat che contiene le proprietà di formattazione per questa tabella. Solo lettura [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina se le colonne pari devono essere disegnate con una formattazione diversa. Booleano lettura/scrittura. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Consente di ottenere l'interfaccia base IBulkTextFormattable. Sola lettura [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Consente di ottenere l'interfaccia base IGraphicalObject. Sola lettura [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Restituisce la raccolta di colonne. Sola lettura [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina se la prima colonna di una tabella deve essere disegnata con una formattazione speciale. Lettura/scrittura Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina se la prima riga di una tabella deve essere disegnata con una formattazione speciale. Lettura/scrittura Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina se le righe pari devono essere disegnate con una formattazione diversa. Lettura/scrittura Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Restituisce la cella agli indici di colonna e riga specificati. Sola lettura [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina se l'ultima colonna di una tabella deve essere disegnata con una formattazione speciale. Lettura/scrittura Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina se l'ultima riga di una tabella deve essere disegnata con una formattazione speciale. Lettura/scrittura Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina se la tabella ha ordine di lettura da destra a sinistra. Lettura-scrittura Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Restituisce la raccolta di righe. Sola lettura [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Ottiene o imposta lo stile di tabella predefinito. Lettura/scrittura [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Restituisce l'oggetto TableFormat che contiene le proprietà di formattazione per questa tabella. Sola lettura [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina se le colonne pari devono essere disegnate con una formattazione diversa. Lettura/scrittura Boolean. |
 
 ## Metodi
 

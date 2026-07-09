@@ -8,7 +8,7 @@ url: /nl/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection klasse
 
-Stelt een collectie van kleurtransformatie-bewerkingen voor.
+Stelt een collectie van kleurtransformatiebewerkingen voor.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -16,26 +16,26 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 | --- | --- |
 | [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Geeft het aantal bewerkingen in een collectie terug. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Geeft of stelt de bewerking in op de opgegeven index. Lezen/Schrijven [`ColorOperation`](../coloroperation). |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Geeft de bewerking op de opgegeven index terug of stelt deze in. Lezen/schrijven [`ColorOperation`](../coloroperation). |
 | [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Geeft een synchronisatieroot terug. Alleen-lezen Object. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Naam | Omschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Voegt een nieuwe bewerking toe aan het einde van de collectie. |
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Voegt een nieuwe bewerking toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Verwijdert alle kleurbewerkingen. |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Maakt een kopie van een ColorOperationCollection collectie. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Maakt een kopie van een ColorOperationCollection-collectie. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Kloont het huidige object |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Voegt de nieuwe bewerking in een collectie in. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Voegt de nieuwe bewerking in een collectie in. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Geeft een enumerator terug die door de collectie itereert. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Voegt de nieuwe bewerking toe aan een collectie. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Voegt de nieuwe bewerking toe aan een collectie. |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Verwijdert de kleurbewerking uit een collectie. |
 
 ### Zie ook

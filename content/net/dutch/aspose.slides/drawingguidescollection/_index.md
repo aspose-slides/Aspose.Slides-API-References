@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van de aanpasbare tekenrichtlijnen voor.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Vertegenwoordigt een collectie van de verstelbare tekenrichtlijnen.
 type: docs
 weight: 2820
 url: /nl/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection klasse
 
-Represents a collection of the adjustable drawing guides.
+Vertegenwoordigt een verzameling van de verstelbare tekenrichtlijnen.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -16,19 +16,19 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Geeft het aantal elementen in de collectie terug. Alleen-lezen Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Geeft de tekenrichtlijn op index terug. Alleen-lezen [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Retourneert het aantal elementen in de collectie. Alleen-lezen Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Retourneert de tekenrichtlijn op index. Alleen-lezen [`IDrawingGuide`](../idrawingguide). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Voegt de tekenrichtlijn toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Verwijdert alle elementen uit de collectie. |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Verwijdert de tekenrichtlijn op de opgegeven index. |
 
 ### Zie ook

@@ -1,14 +1,14 @@
 ---
 title: TextFrameFormat
 second_title: Aspose.Sildes برای .NET مرجع API
-description: حاوی ویژگی‌های formatTextFrameFormatting کلاس TextFrames است.
+description: خواص قالب‌بندی formatTextFrameFormatting را در TextFrames شامل می‌شود.
 type: docs
 weight: 10960
 url: /fa/aspose.slides/textframeformat/
 ---
 ## TextFrameFormat کلاس
 
-حاوی ویژگی‌های formatTextFrameFormatting فریم متن است.
+خواص قالب‌بندی TextFrame را شامل می‌شود.
 
 ```csharp
 public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
@@ -16,45 +16,45 @@ public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFra
 
 ## سازنده‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [TextFrameFormat](textframeformat)() | یک نمونه جدید از کلاس [`TextFrameFormat`](../textframeformat) را مقداردهی اولیه می‌کند. |
+| [TextFrameFormat](textframeformat)() | یک نمونه جدید از کلاس [`TextFrameFormat`](../textframeformat) را مقداردهی می‌کند. |
 
-## ویژگی‌ها
+## خواص
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | مقدار یا تنظیم متن لنگر عمودی در یک TextFrame. خواند/نوشت [`TextAnchorType`](../textanchortype). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | دسترسی به دریافت واسط پایه IPresentationComponent را فراهم می‌کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | مقدار یا تنظیم حالت خودآستفیت متن. خواند/نوشت [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | اگر NullableBool.True باشد، متن باید به صورت افقی در جعبه مرکز شود. خواند/نوشت [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | مقدار یا تنظیم تعداد ستون‌ها در ناحیه متن. این مقدار باید عددی مثبت باشد. در غیر این صورت، مقدار به صفر تنظیم می‌شود. مقدار 0 به معنای مقدار نامشخص است. خواند/نوشت Int32. |
-| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | مقدار یا تنظیم فاصله بین ستون‌های متن در ناحیه متن (به نقاط). این فقط زمانی اعمال می‌شود که بیش از یک ستون وجود داشته باشد. این مقدار باید عددی مثبت باشد. در غیر این صورت، مقدار به صفر تنظیم می‌شود. خواند/نوشت Double. |
-| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | مقدار یا تنظیم نگه داشتن متن صاف حتی در صورتی که اثر چرخش سه‌بعدی اعمال شده باشد. خواند/نوشت Boolean. |
-| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | مقدار یا تنظیم حاشیه پایین (نقاط) در یک TextFrame. خواند/نوشت Double. |
-| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیه چپ (نقاط) در یک TextFrame. خواند/نوشت Double. |
-| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | مقدار یا تنظیم حاشیه راست (نقاط) در یک TextFrame. خواند/نوشت Double. |
-| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | مقدار یا تنظیم حاشیه بالا (نقاط) در یک TextFrame. خواند/نوشت Double. |
-| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | چرخش سفارشی که بر متن داخل کادر اعمال می‌شود را مشخص می‌کند. اگر مشخص نشده باشد، از چرخش شکل مرتبط استفاده می‌شود. اگر مشخص شده باشد، این چرخش به‌طور مستقل از شکل اعمال می‌شود. یعنی شکل می‌تواند چرخش داشته باشد و متن نیز به‌طور جداگانه چرخش داشته باشد. مقدار نهایی چرخش بصری متن که از این ویژگی و نوع عمودی پیش‌تعریف‌شده در ویژگی TextVerticalType ترکیب می‌شود. خواند/نوشت Single. |
-| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | جهت متن را تعیین می‌کند. مقدار نهایی چرخش بصری متن که از این ویژگی و زاویه سفارشی در ویژگی RotationAngle ترکیب می‌شود. خواند/نوشت [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | شیء ThreeDFormat را برگرداند که ویژگی‌های اثر سه‌بعدی برای متن را نشان می‌دهد. فقط خواندنی [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | شیء بسته‌بندی متن را دریافت یا تنظیم می‌کند. خواند/نوشت [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** اگر متن در حاشیه‌های TextFrame بسته شود. خواند/نوشت [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | مقدار یا تنظیم متن لنگر عمودی در یک TextFrame. خواندنی/قابل نوشتن [`TextAnchorType`](../textanchortype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | امکان دریافت رابط پایه IPresentationComponent را فراهم می‌کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | مقدار یا تنظیم حالت خودکار تنظیم متن. خواندنی/قابل نوشتن [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | اگر NullableBool.True باشد، متن باید به صورت افقی در جعبه مرکز شود. خواندنی/قابل نوشتن [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | مقدار یا تنظیم تعداد ستون‌ها در ناحیه متن. این مقدار باید عددی مثبت باشد؛ در غیر این صورت مقدار صفر تنظیم می‌شود. مقدار 0 نشان‌دهنده مقدار نامشخص است. خواندنی/قابل نوشتن Int32. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | مقدار یا تنظیم فاصله بین ستون‌های متن در ناحیه متن (به نقاط). این فقط وقتی اعمال می‌شود که بیش از یک ستون موجود باشد. این مقدار باید عددی مثبت باشد؛ در غیر این صورت مقدار صفر تنظیم می‌شود. خواندنی/قابل نوشتن Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | تنظیم یا دریافت نگه داشتن متن به صورت صاف حتی اگر اثر چرخش سه‌بعدی اعمال شده باشد. خواندنی/قابل نوشتن Boolean. |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | مقدار یا تنظیم حاشیه پایین (نقاط) در یک TextFrame. خواندنی/قابل نوشتن Double. |
+| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | مقدار یا تنظیم حاشیه چپ (نقاط) در یک TextFrame. خواندنی/قابل نوشتن Double. |
+| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | مقدار یا تنظیم حاشیه راست (نقاط) در یک TextFrame. خواندنی/قابل نوشتن Double. |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | مقدار یا تنظیم حاشیه بالا (نقاط) در یک TextFrame. خواندنی/قابل نوشتن Double. |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | چرخش سفارشی‌ای که بر متن داخل جعبه اعمال می‌شود را مشخص می‌کند. اگر مشخص نشود، چرخش شکل همراه استفاده می‌شود. اگر مشخص شود، این مقدار مستقل از شکل اعمال می‌شود. مقدار نهایی چرخش بصری متن از این خصوصیت و نوع عمودی پیش‌تعریف‌شده در TextVerticalType ترکیب می‌شود. خواندنی/قابل نوشتن Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | جهت‌گیری متن را تعیین می‌کند. مقدار نهایی چرخش بصری متن از این خصوصیت و زاویه سفارشی در RotationAngle ترکیب می‌شود. خواندنی/قابل نوشتن [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | شی ThreeDFormat را بر می‌گرداند که ویژگی‌های اثر سه‌بعدی برای متن را نشان می‌دهد. فقط خواندنی [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | شکل پیچ‌دادن متن را دریافت یا تنظیم می‌کند. خواندنی/قابل نوشتن [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** اگر متن در حاشیه‌های TextFrame پیچ‌داده شود. خواندنی/قابل نوشتن [`NullableBool`](../nullablebool). |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
-| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | داده‌های قالب‌بندی مؤثر فریم متن را با ارث‌بری اعمال‌شده دریافت می‌کند. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | مقایسه با شیء مشخص‌شده. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | داده‌های مؤثر قالب‌بندی فریم متن را با درنظر گرفتن وراثت دریافت می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [PVIObject](../pviobject)
 * رابط [IChartTextBlockFormat](../../aspose.slides.charts/icharttextblockformat)
 * رابط [ITextFrameFormat](../itextframeformat)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

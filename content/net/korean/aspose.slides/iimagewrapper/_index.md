@@ -1,14 +1,14 @@
 ---
 title: IImageWrapper
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: COM 인터페이스용 System.Drawing.Image 래퍼입니다.
+second_title: Aspose.Sildes .NET API 참조
+description: COM 인터페이스용 System.Drawing.Image 래퍼.
 type: docs
 weight: 6170
 url: /ko/aspose.slides/iimagewrapper/
 ---
 ## IImageWrapper 인터페이스
 
-System.Drawing.Image 래퍼용 COM 인터페이스입니다.
+COM 인터페이스용 System.Drawing.Image 래퍼.
 
 ```csharp
 public interface IImageWrapper : IDisposable
@@ -26,11 +26,11 @@ public interface IImageWrapper : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 지정된 파일에 Image를 저장합니다. |
-| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 지정된 스트림에 지정된 포맷으로 Image를 저장합니다. |
-| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 지정된 파일에 지정된 포맷으로 Image를 저장합니다. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_1)(string) | 이미지를 지정된 파일에 저장합니다. |
+| [Save](../../aspose.slides/iimagewrapper/save#save)(Stream, PPImageFormat) | 이미지를 지정된 형식으로 지정된 스트림에 저장합니다. |
+| [Save](../../aspose.slides/iimagewrapper/save#save_2)(string, PPImageFormat) | 이미지를 지정된 형식으로 지정된 파일에 저장합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

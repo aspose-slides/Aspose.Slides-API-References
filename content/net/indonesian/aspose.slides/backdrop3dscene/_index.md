@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mendefinisikan sebuah bidang di mana efek seperti cahaya bersinar dan bayangan diterapkan relatif terhadap bentuk yang dikenakan efek tersebut.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mendefinisikan sebuah bidang di mana efek seperti glow dan shadow diterapkan relatif terhadap bentuk yang diterapkan kepadanya.
 type: docs
-weight: 900
+weight: 920
 url: /id/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene kelas
 
-Mendefinisikan sebuah bidang di mana efek, seperti cahaya bersinar dan bayangan, diterapkan relatif terhadap bentuk yang dikenakan efek tersebut.
+Mendefinisikan sebuah bidang dimana efek, seperti glow dan shadow, diterapkan relatif terhadap bentuk yang diterapkan kepadanya.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -16,16 +16,16 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Mengembalikan atau mengatur sebuah titik dalam ruang 3D. Titik ini adalah titik dalam ruang yang menjadi jangkar bidang latar belakang. Titik 3D direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Mengembalikan atau mengatur sebuah vektor normal. Lebih tepatnya, atribut ini mendefinisikan vektor yang tegak lurus terhadap permukaan bidang latar belakang. Vektor direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Mengembalikan atau mengatur sebuah vektor yang mewakili arah atas. Lebih tepatnya, atribut ini mendefinisikan vektor yang mewakili arah atas relatif terhadap permukaan bidang latar belakang. Vektor direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Mengembalikan atau mengatur titik dalam ruang 3D. Titik ini adalah titik dalam ruang yang menjadi jangkar bidang backdrop. Titik 3D direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Baca-saja [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Mengembalikan atau mengatur vektor normal. Secara lebih tepat, atribut ini mendefinisikan vektor yang tegak lurus terhadap permukaan bidang backdrop. Vektor direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Mengembalikan atau mengatur vektor yang merepresentasikan ke atas. Secara lebih tepat, atribut ini mendefinisikan vektor yang merepresentasikan ke atas relatif terhadap permukaan bidang backdrop. Vektor direpresentasikan oleh array berisi 3 nilai float yang menentukan koordinat X, Y, dan Z. Baca/tulis Single[]. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |

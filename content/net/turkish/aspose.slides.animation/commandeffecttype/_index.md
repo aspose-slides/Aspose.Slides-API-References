@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
 second_title: Aspose.Sildes for .NET API Referansı
-description: Komut etkisi davranışı için komut etkisi türünü temsil eder.
+description: Komut etkisi davranışı için komut etki tipini temsil eder.
 type: docs
-weight: 250
+weight: 270
 url: /tr/aspose.slides.animation/commandeffecttype/
 ---
-## CommandEffectType sayımı
+## CommandEffectType enum
 
-Komut etkisi davranışı için komut etkisi türünü temsil eder.
+Komut etkisi davranışı için komut etki tipi temsil eder.
 
 ```csharp
 public enum CommandEffectType : sbyte

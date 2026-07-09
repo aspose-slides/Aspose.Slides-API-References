@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes の .NET API リファレンス
-description: マトリックスまたは配列の列間の垂直間隔の種類
+second_title: Aspose.Sildes for .NET API リファレンス
+description: マトリックスまたは配列における列間の垂直間隔の種類
 type: docs
-weight: 8960
+weight: 8980
 url: /ja/aspose.slides.mathtext/mathrowspacingrule/
 ---
-## MathRowSpacingRule 列挙体
+## MathRowSpacingRule 列挙型
 
-マトリックスまたは配列の列間の垂直間隔の種類
+マトリックスまたは配列における列間の垂直間隔の種類
 
 ```csharp
 public enum MathRowSpacingRule
@@ -18,13 +18,13 @@ public enum MathRowSpacingRule
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| SingleLineGap | `0` | 単一行の間隔 |
+| SingleLineGap | `0` | 単一行間隔 |
 | OneAndAHalfLineGap | `1` | 1 行半の間隔 |
-| TwoLineGap | `2` | 2 行の間隔 |
+| TwoLineGap | `2` | 2 行間隔 |
 | Exactly | `3` | 正確に（RowSpacing プロパティの値に依存し、ポイントで測定） |
-| Multiple | `4` | 複数（RowSpacing プロパティの値に依存し、行で測定） |
+| Multiple | `4` | 複数（RowSpacing プロパティの値に依存し、行単位で測定） |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

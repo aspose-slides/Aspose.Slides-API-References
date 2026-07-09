@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Orientation स्लाइड ट्रांज़िशन प्रभाव.
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: ओरिएंटेशन स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10150
 url: /hi/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition इंटरफ़ेस
 
-Orientation slide transition effect.
+ओरिएंटेशन स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IOrientationTransition : ITransitionValueBase
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`Orientation`](../../aspose.slides/orientation). |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

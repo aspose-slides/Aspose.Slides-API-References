@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes .NET API referencia
-description: IChartSeries gyűjteményét képviseli./ichartseries
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Az IChartSeries elemeit tartalmazó gyűjteményt képviseli./ichartseries
 type: docs
-weight: 1920
+weight: 1940
 url: /hu/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interfész
 
-A [`IChartSeries`](../ichartseries) gyűjteményét képviseli.
+A(z) [`IChartSeries`](../ichartseries) elemeit tartalmazó gyűjteményt képviseli.
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -18,19 +18,19 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | A megadott indexű elemet adja vissza. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Visszaadja a megadott indexű elemet. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | Új diagram sorozatot hoz létre, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Új diagram sorozatot hoz létre a(z) [`IChartCellCollection`](../ichartcellcollection) alapján, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Új diagram sorozatot hoz létre a(z) [`IChartDataCell`](../ichartdatacell) alapján, és hozzáadja a gyűjteményhez. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Új diagram sorozatot hoz létre az érték alapján, és hozzáadja a gyűjteményhez. |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Eltávolítja az összes elemet (beleértve a diagram stílusát) a gyűjteményből. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Keres a megadott [`IChartSeries`](../ichartseries) után, és visszaadja a nullától kezdődő indexet az első előfordulásra az egész gyűjteményben. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Új diagram sorozatot hoz létre, és beszúrja a gyűjteménybe. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Új diagram sorozatot hoz létre a [`IChartCellCollection`](../ichartcellcollection) alapján, és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Új diagram sorozatot hoz létre a [`IChartDataCell`](../ichartdatacell) alapján, és hozzáadja a gyűjteményhez. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Új diagram sorozatot hoz létre az értékből, és hozzáadja a gyűjteményhez. |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Eltávolítja az összes elemet (beleértve a diagram stílust) a gyűjteményből. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Megkeresi a megadott [`IChartSeries`](../ichartseries)-t, és visszaadja a nullától számított indexet az első előfordulásra az egész Collection-ben. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Új diagram sorozatot hoz létre, és beilleszti a gyűjteménybe. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Eltávolítja a megadott értéket. |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Eltávolítja a megadott indexű elemet. |
 

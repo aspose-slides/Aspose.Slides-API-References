@@ -1,15 +1,14 @@
 ---
 title: IBasePortionFormatEffectiveData
-second_title: Aspose.Sildes for .NET API Reference
-description: 包含有效文本部分格式属性的不可变对象的基接口。
+second_title: Aspose.Sildes .NET API 参考
+description: 用于包含有效文本部分格式属性的不可变对象的基础接口。
 type: docs
-weight: 5120
+weight: 5320
 url: /zh/aspose.slides/ibaseportionformateffectivedata/
 ---
-
 ## IBasePortionFormatEffectiveData 接口
 
-包含有效文本部分格式属性的不可变对象的基接口。
+用于包含有效文本部分格式属性的不可变对象的基础接口。
 
 ```csharp
 public interface IBasePortionFormatEffectiveData
@@ -19,37 +18,37 @@ public interface IBasePortionFormatEffectiveData
 
 | 名称 | 描述 |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | 返回替代语言的 Id。只读字符串。 |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 返回复杂脚本字体信息。只读 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | 返回东亚字体信息。只读 [`IFontData`](../ifontdata)。 |
-| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | 返回文本 EffectFormat 属性。只读 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
-| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | 返回上标或下标文本。从 -100%（下标）到 100%（上标）值。只读单精度浮点数。 |
-| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | 返回文本 FillFormat 属性。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | 确定字体是否为粗体。只读布尔值。 |
-| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | 返回部分的字体高度。只读单精度浮点数。 |
-| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | 确定字体是否为斜体。只读布尔值。 |
-| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | 返回文本下划线类型。只读 [`TextUnderlineType`](../textunderlinetype)。 |
-| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | 返回用于高亮文本的颜色。只读颜色。 |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 确定下划线样式是否具有自己的 FillFormat 属性，或是否从文本的 FillFormat 属性中继承。只读布尔值。 |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 确定下划线样式是否具有自己的 LineFormat 属性，或是否从文本的 LineFormat 属性中继承。只读布尔值。 |
-| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | 返回应当启用字距调整的最小字体大小。只读单精度浮点数。 |
-| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 确定数字是否应忽略文本东部语言特定的竖排布局。只读布尔值。 |
-| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | 返回语言的 Id。只读字符串。 |
-| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | 返回拉丁字体信息。只读 [`IFontData`](../ifontdata)。 |
-| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | 返回文本轮廓的 LineFormat 属性。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | 确定文本的高度是否应规范化。只读布尔值。 |
-| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | 确定文本是否不应该进行校对。只读布尔值。 |
-| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | 确定是否应清理智能标签。只读布尔值。 |
-| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 返回字符间距增量。只读单精度浮点数。 |
-| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | 返回文本的删除线类型。只读 [`TextStrikethroughType`](../textstrikethroughtype)。 |
-| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | 返回符号字体信息。只读 [`IFontData`](../ifontdata)。 |
-| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | 返回文本大小写类型。只读 [`TextCapType`](../textcaptype)。 |
-| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | 返回下划线 FillFormat 属性。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | 返回用于勾勒下划线的 LineFormat 属性。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | 返回备用语言的 Id。只读 String。 |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 返回复合脚本字体信息。只读 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | 返回东亚字体信息。只读 [`IFontData`](../ifontdata)。 |
+| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | 返回文本 EffectFormat 属性。只读 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
+| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | 返回上标或下标文本。取值范围为 -100%（下标）到 100%（上标）。只读 Single。 |
+| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | 返回文本 FillFormat 属性。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | 确定字体是否为粗体。只读 Boolean。 |
+| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | 返回文本部分的字体高度（单位为点）。只读 Single。 |
+| [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | 确定字体是否为斜体。只读 Boolean。 |
+| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | 返回文本下划线类型。只读 [`TextUnderlineType`](../textunderlinetype)。 |
+| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | 返回用于突出显示文本的颜色。只读 Color。 |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 确定下划线样式是否具有自己的 FillFormat 属性，或从文本的 FillFormat 属性继承。只读 Boolean。 |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 确定下划线样式是否具有自己的 LineFormat 属性，或从文本的 LineFormat 属性继承。只读 Boolean。 |
+| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | 返回应开启字距调整的最小字体大小。只读 Single。 |
+| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 确定数字是否应忽略文本特定于东部语言的垂直排版布局。只读 Boolean。 |
+| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | 返回语言的 Id。只读 String。 |
+| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | 返回拉丁字体信息。只读 [`IFontData`](../ifontdata)。 |
+| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | 返回文本轮廓的 LineFormat 属性。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | 确定是否应对文本高度进行标准化。只读 Boolean。 |
+| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | 确定文本是否不应进行拼写检查。只读 Boolean。 |
+| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | 确定是否应清除智能标记。只读 Boolean。 |
+| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 返回字符间距增量（单位为点）。只读 Single。 |
+| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | 返回文本删除线类型。只读 [`TextStrikethroughType`](../textstrikethroughtype)。 |
+| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | 返回符号字体信息。只读 [`IFontData`](../ifontdata)。 |
+| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | 返回文本大小写类型。只读 [`TextCapType`](../textcaptype)。 |
+| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | 返回下划线线条的 FillFormat 属性。只读 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | 返回用于描边下划线线条的 LineFormat 属性。只读 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
 
-### 另见
+### 另请参见
 
-* 命名空间 [Aspose.Slides](../../aspose.slides)
-* 程序集 [Aspose.Slides](../../)
+* 命名空间 [Aspose.Slides](../../aspose.slides)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

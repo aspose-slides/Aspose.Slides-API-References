@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 그라디언트 스톱 컬렉션을 나타냅니다.
+description: 그라디언트 스탑 컬렉션을 나타냅니다.
 type: docs
 weight: 5030
 url: /ko/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection 클래스
 
-그라디언트 스톱의 컬렉션을 나타냅니다.
+그라디언트 스탑 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -16,32 +16,32 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | 컬렉션에 있는 그라디언트 스톱의 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | 인덱스로 그라디언트 스톱을 반환합니다. |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | 컬렉션에 있는 그라디언트 스탑 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | 인덱스로 그라디언트 스탑을 반환합니다. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 새 그라디언트 스톱을 생성하고 컬렉션 끝에 추가합니다. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 새 그라디언트 스톱을 생성하고 컬렉션 끝에 추가합니다. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 새 그라디언트 스톱을 생성하고 컬렉션 끝에 추가합니다. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | 컬렉션에서 모든 그라디언트 스톱을 제거합니다. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 새 그라디언트 스탑을 생성하고 컬렉션 끝에 추가합니다. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 새 그라디언트 스탑을 생성하고 컬렉션 끝에 추가합니다. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 새 그라디언트 스탑을 생성하고 컬렉션 끝에 추가합니다. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | 컬렉션에서 모든 그라디언트 스탑을 제거합니다. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 새 그라디언트 스톱을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 새 그라디언트 스톱을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 새 그라디언트 스톱을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 지정된 인덱스에서 그라디언트 스톱을 제거합니다. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 새 그라디언트 스탑을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 새 그라디언트 스탑을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 새 그라디언트 스탑을 생성하고 지정된 인덱스에 컬렉션에 삽입합니다. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 지정된 인덱스의 그라디언트 스탑을 제거합니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IGradientStopCollection](../igradientstopcollection)

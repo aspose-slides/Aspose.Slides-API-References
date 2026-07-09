@@ -1,9 +1,9 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que contém propriedades de formatação efetiva de células de tabela.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que contém propriedades de formatação efetiva de célula de tabela.
 type: docs
-weight: 5460
+weight: 5480
 url: /pt/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData interface
@@ -19,11 +19,11 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Permite obter a interface base IBaseTableFormatEffectiveData. Somente leitura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtém a transparência da cor de preenchimento. Leitura Única. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Obtém a transparência da cor de preenchimento. Leitura Single. |
 
 ### Observações
 
-Esta interface é usada em conjunto com a [`ICellFormat`](../icellformat) interface para retornar valores de formatação efetiva com herança e estilos de tabela aplicados.
+Esta interface é usada juntamente com a interface [`ICellFormat`](../icellformat) para retornar valores de formatação efetiva com herança e estilos de tabela aplicados.
 
 ### Veja Também
 

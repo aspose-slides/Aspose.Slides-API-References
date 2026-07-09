@@ -1,14 +1,14 @@
 ---
 title: LineFormatCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de collectie van lijnstijlen voor.
+description: Vertegenwoordigt de collectie van lijnstijlen.
 type: docs
 weight: 11420
 url: /nl/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection klasse
 
-Stelt de collectie van lijnstijlen voor.
+Vertegenwoordigt de collectie van lijnstijlen.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -21,7 +21,7 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
 
 ## Methoden
 

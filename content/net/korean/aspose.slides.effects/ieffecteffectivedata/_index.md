@@ -1,20 +1,20 @@
 ---
 title: IEffectEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과를 나타내는 불변 객체의 기본 클래스.
+second_title: Aspose.Sildes for .NET API 참조
+description: 효과를 나타내는 불변 객체에 대한 기본 클래스.
 type: docs
 weight: 3280
 url: /ko/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData 인터페이스
 
-Base 클래스는 효과를 나타내는 불변 객체에 대한 것입니다.
+효과를 나타내는 불변 객체에 대한 기본 클래스.
 
 ```csharp
 public interface IEffectEffectiveData
 ```
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

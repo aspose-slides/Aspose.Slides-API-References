@@ -1,6 +1,6 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수직 글꼴 정렬을 나타냅니다.
 type: docs
 weight: 4800
@@ -25,7 +25,7 @@ public enum FontAlignment
 | Bottom | `3` |  |
 | Baseline | `4` |  |
 
-### 관련
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các kiểu hiệu ứng thực tế.
+description: Đối tượng bất biến đại diện cho bộ sưu tập chỉ đọc của các kiểu hiệu ứng thực tế.
 type: docs
 weight: 11190
 url: /vi/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các kiểu hiệu ứng thực tế.
+Đối tượng bất biến đại diện cho bộ sưu tập chỉ đọc của các kiểu hiệu ứng thực tế.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>

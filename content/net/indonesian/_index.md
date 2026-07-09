@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /id/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides adalah API manajemen Microsoft PowerPoint® yang memungkinkan aplikasi perangkat lunak untuk membaca dan menulis dokumen PowerPoint® tanpa menggunakan Microsoft PowerPoint®.
+description: Aspose.Slides adalah API manajemen Microsoft PowerPoint® yang memungkinkan aplikasi perangkat lunak membaca dan menulis dokumen PowerPoint® tanpa menggunakan Microsoft PowerPoint®.
 is_root: true
 ---
 ## Namespace
@@ -18,18 +18,18 @@ is_root: true
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Berisi kelas untuk bekerja dengan objek OLE dalam presentasi Microsoft PowerPoint. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Berisi kelas untuk bekerja dengan berbagai efek dalam presentasi Microsoft PowerPoint. |
 | [Aspose.Slides.Excel](./aspose.slides.excel) | Berisi kelas untuk bekerja dengan lembar kerja Microsoft Excel eksternal. |
-| [Aspose.Slides.Export](./aspose.slides.export) | Berisi kelas untuk mengekspor presentasi Microsoft PowerPoint ke berbagai format seperti Html, Pdf, Svg, Xps, dan lainnya. |
+| [Aspose.Slides.Export](./aspose.slides.export) | Berisi kelas untuk mengekspor presentasi Microsoft PowerPoint ke format berbeda seperti Html, Pdf, Svg, Xps, dan lain-lain. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Berisi kelas untuk mengekspor presentasi Microsoft PowerPoint ke Html dengan proyek ekstensi. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Berisi kelas untuk mengekspor presentasi Microsoft PowerPoint ke XAML. |
-| [Aspose.Slides.Import](./aspose.slides.import) | Berisi kelas untuk mengimpor data ke dalam presentasi Microsoft PowerPoint. |
+| [Aspose.Slides.Import](./aspose.slides.import) | Berisi kelas yang mengimpor data ke dalam presentasi Microsoft PowerPoint. |
 | [Aspose.Slides.Ink](./aspose.slides.ink) | Berisi kelas untuk bekerja dengan Ink. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Berisi kelas dan metode untuk menangani operasi umum yang kompleks dengan cara low-code. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Berisi kelas dan metode untuk menangani operasi umum yang kompleks dengan cara low code. |
 | [Aspose.Slides.MathText](./aspose.slides.mathtext) | Berisi kelas untuk bekerja dengan teks matematis dalam presentasi Microsoft PowerPoint. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Berisi kelas untuk mengelola tampilan slide dan transisi slide. |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Berisi kelas untuk mengelola pertunjukan slide dan transisi slide. |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Berisi kelas untuk bekerja dengan objek SmartArt. |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Berisi kelas untuk bekerja dengan objek spreadsheet dalam presentasi Microsoft PowerPoint. |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Berisi kelas untuk bekerja dengan objek lembar kerja dalam presentasi Microsoft PowerPoint. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Berisi kelas untuk bekerja dengan berbagai jenis tema. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Berisi kelas utilitas yang membantu bekerja dengan presentasi. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Berisi kelas util yang membantu bekerja dengan presentasi. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Berisi kelas untuk bekerja dengan makro VBA. |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Berisi kelas yang mewakili berbagai jenis peringatan. |
 

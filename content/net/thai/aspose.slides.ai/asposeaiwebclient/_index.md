@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: การดำเนินการ IAIWebClient./iaiwebclient ในตัวที่เชื่อมต่อกับ LLM ของ Asposes เอง นี่เป็นไคลเอนต์เริ่มต้นที่ใช้โดยคอนสตรัคเตอร์ SlidesAIAgent./slidesaiagent/slidesaiagent ที่ไม่มีพารามิเตอร์
+description: การนำไปใช้ IAIWebClient./iaiwebclient ที่สร้างไว้ล่วงหน้าซึ่งเชื่อมต่อกับ LLM ของ Asposes เอง นี่คือไคลเอนต์เริ่มต้นที่ใช้โดยตัวสร้าง SlidesAIAgent./slidesaiagent/slidesaiagent ที่ไม่มีพารามิเตอร์
 type: docs
 weight: 10
 url: /th/aspose.slides.ai/asposeaiwebclient/
 ---
 ## AsposeAIWebClient คลาส
 
-การดำเนินการ [`IAIWebClient`](../iaiwebclient) ในตัวที่เชื่อมต่อกับ LLM ของ Aspose ตัวนี้เป็นไคลเอนต์เริ่มต้นที่ใช้โดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) ที่ไม่มีพารามิเตอร์
+การนำไปใช้ที่สร้างไว้ล่วงหน้าของ [`IAIWebClient`](../iaiwebclient) ซึ่งเชื่อมต่อไปยัง LLM ของ Aspose เอง นี่เป็นไคลเอนต์เริ่มต้นที่ใช้โดยตัวสร้างที่ไม่มีพารามิเตอร์ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent).
 
 ```csharp
 public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
@@ -18,18 +18,18 @@ public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้น นี้คือไคลเอนต์ที่ใช้โดยคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) ที่ไม่มีพารามิเตอร์ ดังนั้นการสร้างโดยตรงจำเป็นเฉพาะเมื่อส่งไคลเอนต์ให้กับคอนสตรัคเตอร์ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้น นี่คือไคลเอนต์ที่ใช้โดยตัวสร้างที่ไม่มีพารามิเตอร์ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) ดังนั้นการสร้างแบบชัดเจนจำเป็นเฉพาะเมื่อส่งไคลเอนต์ไปยังตัวสร้าง [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) โดยตรง |
 | [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้นโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้ |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL จุดสิ้นสุดแบบกำหนดเอง ใช้ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides จัดเตรียมไว้; มิฉะนั้นให้ใช้ overload [`AsposeAIWebClient`](./asposeaiwebclient) พร้อม URL เริ่มต้น |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL จุดสิ้นสุดแบบกำหนดเองโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้ ใช้ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides จัดเตรียมและต้องการใช้ HttpClient ของคุณเอง; หากต้องการใช้ HttpClient ของคุณเองกับ URL เริ่มต้นให้ใช้ overload [`AsposeAIWebClient`](./asposeaiwebclient) แทน |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL จุดสิ้นสุดที่กำหนดเอง ใช้การ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides ให้มา; มิฉะนั้น ใช้การ overload [`AsposeAIWebClient`](./asposeaiwebclient) พร้อม URL เริ่มต้น |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL จุดสิ้นสุดที่กำหนดเองโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียก ใช้การ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides ให้มาและต้องการส่ง HttpClient ของคุณเอง; หากคุณต้องการเพียง HttpClient ของคุณเองพร้อม URL เริ่มต้น ให้ใช้การ overload [`AsposeAIWebClient`](./asposeaiwebclient) แทน |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI และคืนข้อความตอบกลับตามคำสั่งที่ให้ |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | สร้างอินสแตนซ์ของการสนทนา ต่างจากการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมดไว้ |
-| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | ปล่อยทรัพยากรที่ใช้งานโดยอินสแตนซ์นี้ |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI และส่งคืนข้อความตอบสนองต่อคำสั่งที่ให้ |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | สร้างอินสแตนซ์ของการสนทนา แตกต่างจากการเรียก AI ปกติ การสนทนาจะรักษาบริบททั้งหมดไว้ |
+| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้ |
 
 ### ดูเพิ่มเติม
 

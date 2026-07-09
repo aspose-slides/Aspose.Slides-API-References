@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha フロア効果を表す不変オブジェクトです。Alpha の不透明度が 100 未満の値はゼロに変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Alpha フロア効果を表す不変オブジェクトです。Alpha の不透明度が 100 未満の値はゼロに変換されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
 type: docs
-weight: 3050
+weight: 3070
 url: /ja/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData インターフェイス
 
-アルファフロア効果を表す不変オブジェクトです。アルファ（不透明度）の値が 100% 未満の場合、ゼロに変更されます。つまり、部分的に透明なものはすべて完全に透明になります。
+アルファフロア効果を表す不変オブジェクトです。アルファ（不透明度）の値が 100% 未満の場合はゼロに変換されます。言い換えれば、部分的に透明なものはすべて完全に透明になります。
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できるようにします。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

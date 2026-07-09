@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 보통 요소 간의 관계를 강조하기 위해 식 위 또는 아래에 그룹화 기호를 지정합니다
+description: 표현식 위 또는 아래에 그룹화 기호를 지정하며, 일반적으로 요소들 간의 관계를 강조합니다.
 type: docs
 weight: 8290
 url: /ko/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter 인터페이스
 
-수식 위 또는 아래에 그룹화 기호를 지정하며, 일반적으로 요소 간의 관계를 강조합니다
+표현식 위 또는 아래에 그룹화 기호를 지정하며, 일반적으로 요소들 간의 관계를 강조합니다.
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -22,18 +22,18 @@ public interface IMathGroupingCharacter : IMathElement
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | 기본 인수 |
 | [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | 그룹화 문자 기본값: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | 그룹화 문자의 위치. 기본값: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 그룹 문자 의 수직 맞춤. 객체를 기준선에 대해 정렬하는 방법을 지정합니다. 예를 들어, 그룹 문자가 객체 위에 있을 때 VerticalJustification이 Top이면 객체의 상단이 기준선에 놓이며, VerticalJustification이 Bottom으로 설정되면 객체의 하단이 기준선에 놓습니다. 기본값: Position=Top인 경우 Bottom, Position=Bottom인 경우 Top |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | 그룹 문자에 대한 수직 정렬. 객체를 기준선에 대해 어떻게 정렬할지를 지정합니다. 예를 들어, 그룹 문자가 객체 위에 있을 때, VerticalJustification이 Top이면 객체의 상단이 기준선에 맞춰짐을 의미합니다; VerticalJustification이 Bottom으로 설정되면 객체의 하단이 기준선에 맞춰집니다. 기본값: Position=Top인 경우 Bottom, Position=Bottom인 경우 Top |
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

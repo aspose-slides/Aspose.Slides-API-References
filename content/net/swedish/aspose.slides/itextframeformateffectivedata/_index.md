@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för en textram.
+description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för textramen.
 type: docs
-weight: 7270
+weight: 7290
 url: /sv/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData gränssnitt
 
-Omutabelt objekt som innehåller effektiva formateringsegenskaper för textramen.
+Oföränderligt objekt som innehåller effektiva formateringsegenskaper för TextFrame.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,26 +18,26 @@ public interface ITextFrameFormatEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Returnerar vertikal ankaretext i en TextFrame. Endast läsning [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Returnerar textens autofit-läge. Endast läsning [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Returnerar om texten ska centreras horisontellt i rutan. Endast läsning Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Anger antalet textkolumner i den begränsande rektangeln. Endast läsning Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Anger avståndet mellan textkolumner i textområdet (i punkter). Endast läsning Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Returnerar den nedre marginalen (punkter) i en TextFrame. Endast läsning Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Returnerar den vänstra marginalen (punkter) i en TextFrame. Endast läsning Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Returnerar den högra marginalen (punkter) i en TextFrame. Endas läsning Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Returnerar den övre marginalen (punkter) i en TextFrame. Endast läsning Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Returnerar effektiv textstil. Endast läsning [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Returnerar textorientering. Endast läsning [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Returnerar om texten radbryts vid TextFrames marginaler. Endast läsning Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Returnerar vertikal förankringstext i en TextFrame. Skrivskyddad [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Returnerar textens autofit-läge. Skrivskyddad [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Returnerar om texten ska centreras horisontellt i rutan. Skrivskyddad Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Anger antalet textkolumner i den omgivande rektangeln. Skrivskyddad Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Anger avståndet mellan textkolumner i textområdet (i punkter). Skrivskyddad Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Returnerar den nedre marginalen (punkter) i en TextFrame. Skrivskyddad Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Returnerar den vänstra marginalen (punkter) i en TextFrame. Skrivskyddad Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Returnerar den högra marginalen (punkter) i en TextFrame. Skrivskyddad Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Returnerar den övre marginalen (punkter) i en TextFrame. Skrivskyddad Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Returnerar den effektiva textens stil. Skrivskyddad [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Returnerar textens orientering. Skrivskyddad [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Returnerar om texten radbryts vid TextFrames marginaler. Skrivskyddad Boolean. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ITextFrameFormat`](../itextframeformat)-gränssnittet för att returnera effektiva formateringsvärden med ärvd egenskap tillämpad.
+Detta gränssnitt används tillsammans med [`ITextFrameFormat`](../itextframeformat)-gränssnittet för att returnera effektiva formateringsvärden med ärvd tillämpning.
 
 ### Se även
 
-* namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

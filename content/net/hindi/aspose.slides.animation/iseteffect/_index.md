@@ -8,7 +8,7 @@ url: /hi/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect इंटरफ़ेस
 
-एक एनीमेशन व्यवहार के लिए सेट इफ़ेक्ट का प्रतिनिधित्व करता है।
+एनीमेशन व्यवहार के लिए सेट इफ़ेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ISetEffect : IBehavior
@@ -16,12 +16,12 @@ public interface ISetEffect : IBehavior
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | आधार IBehavior इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | एनिमेशन इफ़ेक्ट के बाद प्रभाव के एक विशिष्ट एट्रिब्यूट को निर्दिष्ट करता है। बिंदु मान का प्रतिनिधित्व करता है। केवल: bool, ColorFormat, float, int, string. पढ़ें/लिखें Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | एक एनीमेशन प्रभाव के बाद प्रभाव की किसी विशेष गुण को निर्दिष्ट करता है। पॉइंट मान को प्रतिनिधित्व करता है। केवल: bool, ColorFormat, float, int, string। पढ़ने/लेखन योग्य Object. |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBehavior](../ibehavior)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)

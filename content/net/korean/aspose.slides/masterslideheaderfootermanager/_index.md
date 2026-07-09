@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 마스터 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 마스터 슬라이드 바닥글, 날짜/시간, 페이지 번호 자리 표시자 및 모든 자식 자리 표시자의 동작을 담당하는 관리자를 나타냅니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다.
 type: docs
 weight: 8050
 url: /ko/aspose.slides/masterslideheaderfootermanager/
 ---
 ## MasterSlideHeaderFooterManager 클래스
 
-마스터 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다.
+마스터 슬라이드 바닥글, 날짜/시간, 페이지 번호 자리 표시자 및 모든 자식 자리 표시자의 동작을 담당하는 관리자를 나타냅니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다.
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,26 +17,26 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜/시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 슬라이드 날짜-시간 자리 표시자 및 모든 하위 날짜-시간 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 슬라이드 날짜-시간 자리 표시자 및 모든 하위 날짜-시간 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 가시성을 변경합니다. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 마스터 슬라이드 바닥글 자리 표시자 및 모든 하위 바닥글 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 마스터 슬라이드 바닥글 자리 표시자 및 모든 하위 바닥글 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 슬라이드 날짜/시간 자리 표시자와 모든 자식 날짜/시간 자리 표시자에 텍스트를 설정합니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 슬라이드 날짜/시간 자리 표시자와 모든 자식 날짜/시간 자리 표시자의 표시 여부를 변경합니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜/시간 자리 표시자에 텍스트를 설정합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜/시간 자리 표시자의 표시 여부를 변경합니다. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 마스터 슬라이드 바닥글 자리 표시자와 모든 자식 바닥글 자리 표시자에 텍스트를 설정합니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 마스터 슬라이드 바닥글 자리 표시자와 모든 자식 바닥글 자리 표시자의 표시 여부를 변경합니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리 표시자에 텍스트를 설정합니다. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 가시성을 변경합니다. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 마스터 슬라이드 페이지 번호 자리 표시자 및 모든 하위 페이지 번호 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 종속됩니다. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 가시성을 변경합니다. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 표시 여부를 변경합니다. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 마스터 슬라이드 페이지 번호 자리 표시자와 모든 자식 페이지 번호 자리 표시자의 표시 여부를 변경합니다. 자식 자리 표시자는 종속 레이아웃 슬라이드와 종속 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 레이아웃 슬라이드와 슬라이드는 마스터 슬라이드를 사용하고 의존합니다. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 표시 여부를 변경합니다. |
 
 ### 관련 항목
 

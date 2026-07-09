@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que contém propriedades efetivas de formatação de marcadores de parágrafo.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Objeto imutável que contém propriedades eficazes de formatação de marcadores de parágrafo.
 type: docs
-weight: 5380
+weight: 5400
 url: /pt/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData interface
 
-Objeto imutável que contém propriedades efetivas de formatação de marcadores de parágrafo.
+Objeto imutável que contém propriedades eficazes de formatação de marcadores de parágrafo.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IBulletFormatEffectiveData
 
 | Nome | Descrição |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Retorna o valor real da marca de tópicos para o parágrafo pai. Somente leitura String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Retorna o caractere da marca de tópicos de um parágrafo. Somente leitura Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Retorna o formato de preenchimento da marca de tópicos de um parágrafo. Somente leitura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Retorna a fonte da marca de tópicos de um parágrafo. Somente leitura [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Retorna a altura da marca de tópicos de um parágrafo. Somente leitura Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina se a marca de tópicos tem cor própria ou a herda da primeira porção do parágrafo. Retorna **true** se a marca tem cor própria e **false** se a marca herda a cor da primeira porção do parágrafo. Somente leitura Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina se a marca de tópicos tem fonte própria ou a herda da primeira porção do parágrafo. Retorna **true** se a marca tem fonte própria e **true** se a marca herda a fonte da primeira porção do parágrafo. Somente leitura Boolean. |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Retorna o valor real do marcador para o parágrafo pai. Somente leitura String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Retorna o caractere do marcador de um parágrafo. Somente leitura Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Retorna o formato de preenchimento do marcador de um parágrafo. Somente leitura [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Retorna a fonte do marcador de um parágrafo. Somente leitura [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Retorna a altura do marcador de um parágrafo. Somente leitura Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Determina se o marcador tem cor própria ou herda da primeira porção do parágrafo. Retorna **true** se o marcador tem cor própria e **false** se o marcador herda a cor da primeira porção do parágrafo. Somente leitura Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Determina se o marcador tem fonte própria ou herda da primeira porção do parágrafo. Retorna **true** se o marcador tem fonte própria e **true** se o marcador herda a fonte da primeira porção do parágrafo. Somente leitura Boolean. |
 | [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Retorna o primeiro número usado para o grupo de marcadores numerados. Somente leitura Int16. |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Retorna o estilo de um marcador numerado. Somente leitura [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Retorna o tipo de marca de tópicos de um parágrafo. Somente leitura [`BulletType`](../bullettype). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Retorna o tipo de marcador de um parágrafo. Somente leitura [`BulletType`](../bullettype). |
 
 ### Observações
 

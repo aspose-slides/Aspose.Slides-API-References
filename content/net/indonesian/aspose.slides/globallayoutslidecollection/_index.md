@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi semua slide tata letak dalam presentasi. Memperluas kelas LayoutSlideCollection dengan metode untuk menambahkan/menyalin slide tata letak dalam konteks penggabungan koleksi individual master layout slides.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili kumpulan semua slide tata letak dalam presentasi. Memperluas kelas LayoutSlideCollection dengan metode untuk menambahkan/menyadur slide tata letak dalam konteks penggabungan koleksi individu slide tata letak master.
 type: docs
-weight: 4960
+weight: 4980
 url: /id/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection kelas
 
-Mewakili koleksi semua slide tata letak dalam presentasi. Memperluas kelas LayoutSlideCollection dengan metode untuk menambahkan/menyalin slide tata letak dalam konteks penggabungan koleksi individual slide tata letak master.
+Mewakili kumpulan semua slide tata letak dalam presentasi. Memperluas kelas LayoutSlideCollection dengan metode untuk menambah/menyadur slide tata letak dalam konteks penggabungan koleksi individu slide tata letak master.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,31 +17,31 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Mengembalikan jumlah slide tata letak dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Mengembalikan slide tata letak berdasarkan indeks. Hanya-baca [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Mengembalikan jumlah slide tata letak dalam koleksi. Baca-saja Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Mengembalikan slide tata letak berdasarkan indeks. Baca-saja [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Menambahkan slide tata letak baru ke presentasi. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Menambahkan salinan slide tata letak yang ditentukan ke presentasi. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Menambahkan salinan slide tata letak yang ditentukan ke presentasi. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Menambahkan salinan slide tata letak tertentu ke presentasi. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Menambahkan salinan slide tata letak tertentu ke presentasi. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
 | [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Mengembalikan slide tata letak pertama dengan tipe yang ditentukan. Tipe slide tata letak yang akan dicari.[`LayoutSlide`](../layoutslide) dengan tipe yang ditentukan atau null jika tidak ada tata letak yang ditemukan. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Menghapus tata letak dari koleksi. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus slide tata letak yang tidak terpakai (slide tata letak yang HasDependingSlides bernilai false). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus slide tata letak yang tidak digunakan (slide tata letak yang HasDependingSlides bernilai false). |
 
 ### Lihat Juga
 
 * kelas [LayoutSlideCollection](../layoutslidecollection)
 * antarmuka [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

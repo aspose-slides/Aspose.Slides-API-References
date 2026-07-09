@@ -3,12 +3,12 @@ title: ILineFormatEffectiveData
 second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que contém propriedades efetivas de formatação de linha.
 type: docs
-weight: 6300
+weight: 6320
 url: /pt/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData interface
 
-Immutable object which contains effective line formatting properties.
+Objeto imutável que contém propriedades efetivas de formatação de linha.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -31,7 +31,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Retorna a largura da ponta da seta no final de uma linha. Somente leitura [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Retorna o formato de preenchimento de uma linha. Somente leitura [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Retorna o estilo de junção das linhas. Somente leitura [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Retorna o limite de corte de uma linha. Somente leitura Single. |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Retorna o limite de entalhe de uma linha. Somente leitura Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | Retorna o formato de esboço de uma linha. Somente leitura [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | Retorna o estilo da linha. Somente leitura [`LineStyle`](../linestyle). |
 | [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | Retorna a largura de uma linha. Somente leitura Double. |
@@ -44,9 +44,9 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ### Observações
 
-Esta interface é usada em conjunto com a interface [`ILineFormat`](../ilineformat) para retornar valores de formatação efetiva com herança aplicada.
+Esta interface é usada juntamente com a interface [`ILineFormat`](../ilineformat) para retornar valores efetivos de formatação com herança aplicada.
 
-### Veja Também
+### Veja também
 
 * interface [ILineParamSource](../ilineparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

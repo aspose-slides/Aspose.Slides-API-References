@@ -3,10 +3,10 @@ title: BuildType
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Determina come il testo apparirà su una forma durante l'animazione.
 type: docs
-weight: 190
+weight: 210
 url: /it/aspose.slides.animation/buildtype/
 ---
-## enumerazione BuildType
+## Enumerazione BuildType
 
 Determina come il testo apparirà su una forma durante l'animazione.
 

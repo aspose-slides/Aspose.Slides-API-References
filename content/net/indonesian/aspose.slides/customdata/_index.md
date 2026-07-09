@@ -1,9 +1,9 @@
 ---
 title: CustomData
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili wadah untuk data khusus.
 type: docs
-weight: 2710
+weight: 2730
 url: /id/aspose.slides/customdata/
 ---
 ## CustomData kelas

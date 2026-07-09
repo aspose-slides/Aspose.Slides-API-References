@@ -1,7 +1,7 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مستوى ضغط الصور قراءة/كتابة PicturesCompressionaspose.slides.export/ihtml5options/picturescompression.
+description: يمثل مستوى ضغط الصور للقراءة/الكتابة PicturesCompression aspose.slides.export/ihtml5options/picturescompression.
 type: docs
 weight: 70
 url: /ar/aspose.slides.export/ihtml5options/picturescompression/
@@ -16,8 +16,8 @@ public PicturesCompression PicturesCompression { get; set; }
 
 ### انظر أيضًا
 
-* enum [PicturesCompression](../../picturescompression)
-* الواجهة [IHtml5Options](../../ihtml5options)
+* عدد [PicturesCompression](../../picturescompression)
+* واجهة [IHtml5Options](../../ihtml5options)
 * مساحة الاسم [Aspose.Slides.Export](../../ihtml5options)
 * تجميع [Aspose.Slides](../../../)
 

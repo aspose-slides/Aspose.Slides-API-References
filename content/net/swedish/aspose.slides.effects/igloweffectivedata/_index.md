@@ -3,12 +3,12 @@ title: IGlowEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en Glow-effekt där en färgad suddig kontur läggs till utanför objektets kanter.
 type: docs
-weight: 3310
+weight: 3330
 url: /sv/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar en Glow-effekt, där en färgad suddig kontur läggs till utanför objektets kanter.
+Oföränderligt objekt som representerar en Glow-effekt, där en färgblurrad kontur läggs till utanför objektets kanter.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-gränssnitt IEffectEffectiveData. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Skrivskyddad Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Skrivskyddad Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Endast läs [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Färg. Endast läs Color. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Endast läs Double. |
 
 ### Se även
 

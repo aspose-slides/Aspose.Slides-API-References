@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar basenheten för kategorisaxeln
+description: Representerar basenheten för kategoriaxeln
 type: docs
-weight: 2440
+weight: 2460
 url: /sv/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType enum
+## TimeUnitType-uppräkning
 
-Representerar basenheten för kategorisaxeln
+Representerar basenheten för kategoriaksen
 
 ```csharp
 public enum TimeUnitType
@@ -18,7 +18,7 @@ public enum TimeUnitType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Värden kommer att visas som de är. |
+| None | `0` | Värden visas som de är. |
 | Days | `1` | Anger att diagramdata ska visas i dagar. |
 | Months | `2` | Anger att diagramdata ska visas i månader. |
 | Years | `3` | Anger att diagramdata ska visas i år. |

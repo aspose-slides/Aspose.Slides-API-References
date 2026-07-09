@@ -1,14 +1,14 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงถึงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนข้อยกเว้นที่ถูกขว้างเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
 type: docs
 weight: 9510
 url: /th/aspose.slides/ppteditexception/
 ---
 ## PptEditException คลาส
 
-แสดงถึงข้อยกเว้นที่ถูกโยนเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
+แทนข้อยกเว้นที่ถูกขว้างเมื่อพบข้อผิดพลาดในการแก้ไขการนำเสนอ
 
 ```csharp
 public class PptEditException : PptException
@@ -20,7 +20,7 @@ public class PptEditException : PptException
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น |
 | [PptEditException](ppteditexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้ |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังไว้ |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
 
 ### ดูเพิ่มเติม
 

@@ -1,7 +1,7 @@
 ---
 title: IMotionPath
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft een bewegingspad weer.
+description: Vertegenwoordigt een bewegingspad.
 type: docs
 weight: 530
 url: /nl/aspose.slides.animation/imotionpath/
@@ -16,20 +16,20 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Maakt het mogelijk om de basis-IBehavior-interface op te halen. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Stating toe om de basis IBehavior-interface op te halen. Alleen-lezen IEnumerable. |
 | [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Geeft het aantal paden in de collectie terug. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Geeft een opdracht op de opgegeven index terug. |
 
-## Methodes
+## Methoden
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voeg een nieuwe opdracht toe aan het pad |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Verwijdert alle opdrachten uit de collectie. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voeg een nieuwe opdracht in op het pad |
-| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Verwijdert de opgegeven opdrachten uit de collectie. |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voegt een nieuwe opdracht in het pad in |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Verwijdert opgegeven commando's uit de collectie. |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Verwijdert een opdracht op de opgegeven index. |
 
 ### Zie ook

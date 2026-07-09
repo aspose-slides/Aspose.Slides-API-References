@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsCustomValues
 second_title: Aspose.Sildes pro .NET – reference API
-description: Specifikuje hodnoty chybových úseček. Použije se pouze tehdy, když je typ hodnot chybových úseček Custom.
+description: Určuje hodnoty chybových úseček. Má být použito pouze tehdy, když je typ hodnoty Error bars nastaven na Custom.
 type: docs
-weight: 2060
+weight: 2080
 url: /cs/aspose.slides.charts/ierrorbarscustomvalues/
 ---
 ## IErrorBarsCustomValues rozhraní
 
-Specifikuje hodnoty chybových úseček. Mělo by být použito pouze, když je typ hodnot chybových úseček Custom.
+Určuje hodnoty chybových úseček. Má být použito pouze tehdy, když je typ hodnoty Error bars nastaven na Custom.
 
 ```csharp
 public interface IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public interface IErrorBarsCustomValues
 
 | Název | Popis |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Specifikuje hodnotu chybové úsečky v záporném směru. K dispozici, pokud je typ hodnot chybových úseček Custom a je povolen ErrorBarsXFormat. V ostatních případech tato vlastnost vrací null. Pouze ke čtení [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Specifikuje hodnotu chybové úsečky v kladném směru. K dispozici, pokud je typ hodnot chybových úseček Custom a je povolen ErrorBarsXFormat. V ostatních případech tato vlastnost vrací null. Pouze ke čtení [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Specifikuje hodnotu chybové úsečky v záporném směru. K dispozici, pokud je typ hodnot chybových úseček Custom a je povolen ErrorBarsYFormat. V ostatních případech tato vlastnost vrací null. Pouze ke čtení [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Specifikuje hodnotu chybové úsečky v kladném směru. K dispozici, pokud je typ hodnot chybových úseček Custom a je povolen ErrorBarsYFormat. V ostatních případech tato vlastnost vrací null. Pouze ke čtení [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/ierrorbarscustomvalues/xminus) { get; } | Určuje hodnotu chybového pruhu v záporném směru. K dispozici, pokud je typ hodnoty error bars nastaven na Custom a je povolen ErrorBarsXFormat. V ostatních případech tato vlastnost vrací null. Pouze pro čtení [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/ierrorbarscustomvalues/xplus) { get; } | Určuje hodnotu chybového pruhu v kladném směru. K dispozici, pokud je typ hodnoty error bars nastaven na Custom a je povolen ErrorBarsXFormat. V ostatních případech tato vlastnost vrací null. Pouze pro čtení [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/ierrorbarscustomvalues/yminus) { get; } | Určuje hodnotu chybového pruhu v záporném směru. K dispozici, pokud je typ hodnoty error bars nastaven na Custom a je povolen ErrorBarsYFormat. V ostatních případech tato vlastnost vrací null. Pouze pro čtení [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/ierrorbarscustomvalues/yplus) { get; } | Určuje hodnotu chybového pruhu v kladném směru. K dispozici, pokud je typ hodnoty error bars nastaven na Custom a je povolen ErrorBarsYFormat. V ostatních případech tato vlastnost vrací null. Pouze pro čtení [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Viz také
 

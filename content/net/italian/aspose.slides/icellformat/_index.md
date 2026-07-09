@@ -3,7 +3,7 @@ title: ICellFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato di una cella di tabella.
 type: docs
-weight: 5450
+weight: 5470
 url: /it/aspose.slides/icellformat/
 ---
 ## ICellFormat interfaccia
@@ -19,8 +19,8 @@ public interface ICellFormat
 | Nome | Descrizione |
 | --- | --- |
 | [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Restituisce un oggetto di proprietà della linea del bordo inferiore. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Restituisce un oggetto di proprietà della linea diagonale dall'angolo in alto a sinistra a quello in basso a destra. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Restituisce un oggetto di proprietà della linea diagonale dal basso a sinistra al superiore a destra. Solo lettura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Restituisce un oggetto di proprietà della linea diagonale da in alto a sinistra a in basso a destra. Solo lettura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Restituisce un oggetto di proprietà della linea diagonale da in basso a sinistra a in alto a destra. Solo lettura [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Restituisce un oggetto di proprietà della linea del bordo sinistro. Solo lettura [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Restituisce un oggetto di proprietà della linea del bordo destro. Solo lettura [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Restituisce un oggetto di proprietà della linea del bordo superiore. Solo lettura [`ILineFormat`](../ilineformat). |
@@ -31,7 +31,7 @@ public interface ICellFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Restituisce le proprietà di formattazione effettive della cella della tabella con ereditarietà e stili di tabella applicati. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Ottiene le proprietà di formattazione effettive della cella della tabella con ereditarietà e stili di tabella applicati. |
 
 ### Vedi anche
 

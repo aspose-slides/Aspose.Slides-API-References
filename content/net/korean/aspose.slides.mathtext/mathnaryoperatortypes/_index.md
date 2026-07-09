@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 정수가 아닌 Nary 연산자 IMathNaryOperator 유형. 정수에 대해서는 MathIntegralTypes./mathintegraltypes
+description: 정수를 제외한 Nary 연산자 IMathNaryOperator 유형. 정수에 대해서는 MathIntegralTypes./mathintegraltypes
 type: docs
 weight: 8890
 url: /ko/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes 열거형
 
-Nary 연산자 IMathNaryOperator 유형(정수를 제외함) 정수에 대해서는 [`MathIntegralTypes`](../mathintegraltypes)
+Nary 연산자 IMathNaryOperator 유형 (정수를 제외) 정수에 대해 [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -23,8 +23,8 @@ public enum MathNaryOperatorTypes
 | CoProduct | `2` | Coproduct: '∐' |
 | Intersection | `3` | Intersection: '∩' |
 | Union | `4` | Union: '∪' |
-| LogicalAnd | `5` | Logical And: '∧' |
-| LogicalOr | `6` | Logical Or: '∨' |
+| LogicalAnd | `5` | 논리 AND: '∧' |
+| LogicalOr | `6` | 논리 OR: '∨' |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang mewakili efek Alpha Bi-Level. Nilai Opacity Alpha yang kurang dari ambang batas diubah menjadi 0 sepenuhnya transparan dan nilai alpha yang lebih besar atau sama dengan ambang batas diubah menjadi 100 sepenuhnya opak.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak berubah yang mewakili efek Alpha Bi-Level. Nilai Alpha Opacity yang kurang dari ambang diubah menjadi 0 sepenuhnya transparan dan nilai alpha yang lebih besar atau sama dengan ambang diubah menjadi 100 sepenuhnya opak.
 type: docs
-weight: 3010
+weight: 3030
 url: /id/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek Alpha Bi-Level. Nilai Alpha (Opacity) yang kurang dari ambang batas diubah menjadi 0 (sepenuhnya transparan) dan nilai alpha yang lebih besar atau sama dengan ambang batas diubah menjadi 100 % (sepenuhnya opak).
+Objek tak berubah yang mewakili efek Alpha Bi-Level. Nilai Alpha (Opacity) yang kurang dari ambang diubah menjadi 0 (sepenuhnya transparan) dan nilai alpha yang lebih besar atau sama dengan ambang diubah menjadi 100% (sepenuhnya opak).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Mengizinkan mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Mengembalikan ambang batas efek. Hanya-baca Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Mengembalikan ambang efek. Hanya-baca Single. |
 
 ### Lihat Juga
 

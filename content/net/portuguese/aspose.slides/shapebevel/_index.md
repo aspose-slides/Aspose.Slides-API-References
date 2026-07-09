@@ -1,9 +1,9 @@
 ---
 title: ShapeBevel
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Contém as propriedades do relevo da face principal das formas.
 type: docs
-weight: 9830
+weight: 9850
 url: /pt/aspose.slides/shapebevel/
 ---
 ## ShapeBevel classe
@@ -25,9 +25,9 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | Nome | Descrição |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Tipo de chanfradura. Leitura/Gravação [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Altura da chanfradura. Leitura/Gravação Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Largura da chanfradura. Leitura/Gravação Double. |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Tipo de chanfro. Leitura/gravação [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Altura do chanfro. Leitura/gravação Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Largura do chanfro. Leitura/gravação Double. |
 
 ## Métodos
 
@@ -36,7 +36,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver Também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [IShapeBevel](../ishapebevel)

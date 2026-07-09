@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị kiểu của các dấu đầu dòng có số.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho kiểu của các dấu đầu dòng có số.
 type: docs
 weight: 9180
 url: /vi/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle liệt kê
 
-Represents the style of the numbered bullets.
+Đại diện cho kiểu của các dấu đầu dòng có số.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -18,52 +18,52 @@ public enum NumberedBulletStyle : sbyte
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Không được định nghĩa. |
-| BulletAlphaLCPeriod | `0` | Các ký tự chữ cái thường kèm dấu chấm. Sample: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Các ký tự chữ cái hoa kèm dấu chấm. Sample: A., B., C., ... |
-| BulletArabicParenRight | `2` | Số Ả Rập kèm dấu ngoặc đóng. Sample: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | Số Ả Rập kèm dấu chấm. Sample: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Số La Mã thường kèm cả hai dấu ngoặc. Sample: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Số La Mã thường kèm dấu ngoặc đóng. Sample: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Số La Mã thường kèm dấu chấm. Sample: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Số La Mã hoa kèm dấu chấm. Sample: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Các ký tự chữ cái thường kèm cả hai dấu ngoặc. Sample: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Các ký tự chữ cái thường kèm dấu ngoặc đóng. Sample: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Các ký tự chữ cái hoa kèm cả hai dấu ngoặc. Sample: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Các ký tự chữ cái hoa kèm dấu ngoặc đóng. Sample: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Số Ả Rập kèm cả hai dấu ngoặc. Sample: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | Số Ả Rập. Sample: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Số La Mã hoa kèm cả hai dấu ngoặc. Sample: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Số La Mã hoa kèm dấu ngoặc đóng. Sample: I), II), III), ... |
+| NotDefined | `-1` | Chưa được định nghĩa. |
+| BulletAlphaLCPeriod | `0` | Các ký tự alphabet viết thường có dấu chấm. Ví dụ: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Các ký tự alphabet viết hoa có dấu chấm. Ví dụ: A., B., C., ... |
+| BulletArabicParenRight | `2` | Các số Ả Rập có dấu ngoặc đóng. Ví dụ: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | Các số Ả Rập có dấu chấm. Ví dụ: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | Số La Mã viết thường có cả hai dấu ngoặc. Ví dụ: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Số La Mã viết thường có dấu ngoặc đóng. Ví dụ: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Số La Mã viết thường có dấu chấm. Ví dụ: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Số La Mã viết hoa có dấu chấm. Ví dụ: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Các ký tự alphabet viết thường có cả hai dấu ngoặc. Ví dụ: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Các ký tự alphabet viết thường có dấu ngoặc đóng. Ví dụ: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Các ký tự alphabet viết hoa có cả hai dấu ngoặc. Ví dụ: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Các ký tự alphabet viết hoa có dấu ngoặc đóng. Ví dụ: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Các số Ả Rập có cả hai dấu ngoặc. Ví dụ: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | Các số Ả Rập. Ví dụ: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | Số La Mã viết hoa có cả hai dấu ngoặc. Ví dụ: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Số La Mã viết hoa có dấu ngoặc đóng. Ví dụ: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Tiếng Trung giản thể không có dấu chấm. |
 | BulletSimpChinPeriod | `17` | Tiếng Trung giản thể có dấu chấm. |
-| BulletCircleNumDBPlain | `18` | Số tròn gói đôi byte cho các giá trị tới 10, từ 11 - số Ả Rập. |
-| BulletCircleNumWDWhitePlain | `19` | Số màu văn bản với vòng tròn cùng màu vẽ quanh (Wingdings white circle numbers). Từ 11 - số Ả Rập. |
-| BulletCircleNumWDBlackPlain | `20` | Số màu bóng với nền tròn màu văn bản thường (Wingdings black circle numbers). |
+| BulletCircleNumDBPlain | `18` | Số tròn double-byte cho các giá trị tới 10, từ 11 - số Ả Rập. |
+| BulletCircleNumWDWhitePlain | `19` | Số có màu văn bản với vòng tròn cùng màu vẽ quanh (số vòng tròn trắng Wingdings). Từ 11 - số Ả Rập. |
+| BulletCircleNumWDBlackPlain | `20` | Số màu bóng với nền tròn màu văn bản thường (số vòng tròn đen Wingdings). |
 | BulletTradChinPlain | `21` | Tiếng Trung truyền thống không có dấu chấm. |
 | BulletTradChinPeriod | `22` | Tiếng Trung truyền thống có dấu chấm. |
-| BulletArabicAlphaDash | `23` | Các ký tự chữ cái tiếng Ả Rập kèm dấu gạch ngang. |
-| BulletArabicAbjadDash | `24` | Chữ cái Abjad tiếng Ả Rập kèm dấu gạch ngang. |
-| BulletHebrewAlphaDash | `25` | Các ký tự chữ cái tiếng Do Thái kèm dấu gạch ngang. |
-| BulletKanjiKoreanPlain | `26` | Số Nhật/Korê không có dấu chấm. |
-| BulletKanjiKoreanPeriod | `27` | Số Nhật/Korê có dấu chấm. |
-| BulletArabicDBPlain | `28` | Sơ đồ đánh số Ả Rập gói đôi byte (không có dấu câu). |
-| BulletArabicDBPeriod | `29` | Sơ đồ đánh số Ả Rập gói đôi byte kèm dấu chấm gói đôi byte. |
+| BulletArabicAlphaDash | `23` | Các ký tự alphabet tiếng Ả Rập có dấu gạch ngang. |
+| BulletArabicAbjadDash | `24` | Các chữ cái Abjad tiếng Ả Rập có dấu gạch ngang. |
+| BulletHebrewAlphaDash | `25` | Các ký tự alphabet tiếng Do Thái có dấu gạch ngang. |
+| BulletKanjiKoreanPlain | `26` | Số Nhật / Hàn không có dấu chấm. |
+| BulletKanjiKoreanPeriod | `27` | Số Nhật / Hàn có dấu chấm. |
+| BulletArabicDBPlain | `28` | Hệ thống đánh số Ả Rập double-byte (không có dấu câu). |
+| BulletArabicDBPeriod | `29` | Hệ thống đánh số Ả Rập double-byte có dấu chấm double-byte. |
 | BulletThaiAlphaPeriod | `30` | Bảng chữ cái Thái có dấu chấm. |
-| BulletThaiAlphaParenRight | `31` | Dấu ngoặc chữ cái Thái - phía bên phải. |
-| BulletThaiAlphaParenBoth | `32` | Dấu ngoặc chữ cái Thái - cả hai. |
+| BulletThaiAlphaParenRight | `31` | Dấu ngoặc chữ Thái - bên phải. |
+| BulletThaiAlphaParenBoth | `32` | Dấu ngoặc chữ Thái - cả hai. |
 | BulletThaiNumPeriod | `33` | Số Thái có dấu chấm. |
-| BulletThaiNumParenRight | `34` | Dấu ngoặc số Thái - phía bên phải. |
+| BulletThaiNumParenRight | `34` | Dấu ngoặc số Thái - bên phải. |
 | BulletThaiNumParenBoth | `35` | Dấu ngoặc số Thái - cả hai. |
 | BulletHindiAlphaPeriod | `36` | Bảng chữ cái Hindi có dấu chấm - nguyên âm. |
 | BulletHindiNumPeriod | `37` | Số Hindi có dấu chấm. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji Trung Quốc giản thể DBPeriod. |
-| BulletHindiNumParenRight | `39` | Dấu ngoặc số Hindi - phía bên phải. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji Tiếng Trung giản thể DBPeriod. |
+| BulletHindiNumParenRight | `39` | Dấu ngoặc số Hindi - bên phải. |
 | BulletHindiAlpha1Period | `40` | Bảng chữ cái Hindi có dấu chấm - phụ âm. |
 
-### Xem Thêm
+### Xem thêm
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* không gian tên [Aspose.Slides](../../aspose.slides)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

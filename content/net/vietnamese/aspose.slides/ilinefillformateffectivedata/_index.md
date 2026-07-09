@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính tô màu dòng hiệu quả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến chứa các thuộc tính tô đường viền hiệu quả.
 type: docs
 weight: 6300
 url: /vi/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính tô màu dòng hiệu quả.
+Đối tượng bất biến chứa các thuộc tính tô đường viền hiệu quả.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -19,10 +19,10 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Trả về giao diện IFillParamSource. Chỉ đọc [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Trả về loại tô. Chỉ đọc [`FillType`](../filltype). |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | Trả về kiểu tô. Chỉ đọc [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | Trả về định dạng tô gradient. Chỉ đọc [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | Trả về định dạng tô mẫu. Chỉ đọc [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Xác định xem việc tô có nên quay cùng với hình dạng hay không. Chỉ đọc Boolean. |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | Xác định liệu việc tô có nên được xoay cùng hình dạng hay không. Chỉ đọc Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | Trả về màu của tô đặc. Chỉ đọc Color. |
 
 ### Ghi chú

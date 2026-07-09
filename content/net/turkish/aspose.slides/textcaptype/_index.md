@@ -1,14 +1,14 @@
 ---
 title: TextCapType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Metin büyük harf kullanımının türünü temsil eder.
+description: Metin büyük harfe dönüştürülmesinin türünü temsil eder.
 type: docs
-weight: 10910
+weight: 10930
 url: /tr/aspose.slides/textcaptype/
 ---
-## TextCapType enumerasyonu
+## TextCapType enum
 
-Metin büyük harf kullanımının türünü temsil eder.
+Metin büyük harfe dönüştürülmesinin türünü temsil eder.
 
 ```csharp
 public enum TextCapType : sbyte

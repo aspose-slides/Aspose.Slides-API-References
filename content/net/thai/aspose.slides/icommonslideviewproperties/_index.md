@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคุณสมบัติมุมมองสไลด์ทั่วไป.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของคุณสมบัติมุมมองสไลด์ทั่วไป.
 type: docs
 weight: 5600
 url: /th/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties อินเทอร์เฟซ
 
-Represents common slide view properties.
+เป็นตัวแทนของคุณสมบัติมุมมองสไลด์ทั่วไป.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | ส่งคืนคอลเลกชันของไกด์การวาด. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | ระบุอัตราส่วนการขยายมุมมองเป็นเปอร์เซ็นต์. อ่าน/เขียน Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | ระบุว่าขั้นตอนการแสดงเนื้อหาในมุมมองควรปรับขนาดอัตโนมัติเพื่อให้พอดีกับขนาดหน้าต่างปัจจุบันที่ดีที่สุด. อ่าน/เขียน Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | คืนค่าคอลเลกชันของแนวทางการวาด. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | ระบุอัตราส่วนการสเกลมุมมองเป็นเปอร์เซ็นต์. อ่าน/เขียน Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | ระบุว่าข้อมูลมุมมองควรสเกลโดยอัตโนมัติเพื่อให้พอดีกับขนาดหน้าต่างปัจจุบันที่สุด. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

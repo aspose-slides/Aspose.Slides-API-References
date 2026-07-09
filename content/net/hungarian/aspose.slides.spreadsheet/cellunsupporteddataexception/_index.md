@@ -1,14 +1,14 @@
 ---
 title: CellUnsupportedDataException
-second_title: Aspose.Sildes .NET API referencia
-description: Az a kivétel, amely akkor kerül dobásra, ha egy táblázat cellájában nem támogatott adatot találnak.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az a kivétel, amelyet akkor dobnak, amikor egy nem támogatott adatot találnak egy táblázatcellában.
 type: docs
-weight: 10710
+weight: 10730
 url: /hu/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException osztály
 
-Az a kivétel, amely akkor kerül dobásra, ha egy táblázat cellájában nem támogatott adatra bukkannak.
+A kivétel, amelyet akkor dobnak, amikor egy nem támogatott adatot találnak egy táblázatcellában.
 
 ```csharp
 public class CellUnsupportedDataException : PptxEditException
@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | Név | Leírás |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Inicializál egy új példányt a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Inicializál egy új példányt a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból a megadott hibaüzenettel. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Inicializál egy új példányt a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból a megadott hibaüzenettel és a belső kivétel hivatkozásával, amely ennek a kivételnek az okát jelenti. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | Új példányt hoz létre a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | Új példányt hoz létre a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból a megadott hibaüzenettel. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | Új példányt hoz létre a(z) [`CellUnsupportedDataException`](../cellunsupporteddataexception) osztályból a megadott hibaüzenettel és egy hivatkozással a belső kivételre, amely ennek a kivételnek az oka. |
 
 ### Lásd még
 

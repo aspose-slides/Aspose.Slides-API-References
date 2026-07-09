@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in TIFF-indeling.
+description: Biedt opties die bepalen hoe een presentatie wordt opgeslagen in TIFF-formaat.
 type: docs
 weight: 4170
 url: /nl/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions interface
 
-Biedt opties die bepalen hoe een presentatie wordt opgeslagen in TIFF-indeling.
+Biedt opties die bepalen hoe een presentatie wordt opgeslagen in TIFF-formaat.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -16,18 +16,18 @@ public interface ITiffOptions : ISaveOptions
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Retourneert de ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specificeert het algoritme voor het converteren van een kleurenafbeelding naar een zwart-wit afbeelding. Deze optie wordt alleen toegepast als [`CompressionType`](./compressiontype) is ingesteld op CCITT4 of CCITT3 Lees/Schrijf [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standaard is Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specificeert het compressietype. Lees/Schrijf [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specificeert de horizontale resolutie in dots per inch. Lees/Schrijf UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specificeert de verticale resolutie in dots per inch. Lees/Schrijf UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specificeert de grootte van een gegenereerde TIFF-afbeelding. Standaardwaarde is 0x0, wat betekent dat de gegenereerde afbeeldingsgroottes worden berekend op basis van de grootte van de presentatieslide. Lees/Schrijf Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document bepalen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specificeert het pixelformaat voor de gegenereerde afbeeldingen. Lees/Schrijf [`ImagePixelFormat`](../imagepixelformat). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Specificeert het algoritme voor het omzetten van een kleurenafbeelding naar een zwart-wit afbeelding. Deze optie wordt alleen toegepast als [`CompressionType`](./compressiontype) is ingesteld op CCITT4 of CCITT3. Lezen/Schrijven [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standaard is Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Specificeert het compressietype. Lezen/Schrijven [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Specificeert de horizontale resolutie in dots per inch. Lezen/Schrijven UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Specificeert de verticale resolutie in dots per inch. Lezen/Schrijven UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Specificeert de grootte van een gegenereerde TIFF-afbeelding. Standaardwaarde is 0x0, wat betekent dat de gegenereerde afbeeldingsgroottes worden berekend op basis van de slide-grootte van de presentatie. Lezen/Schrijven Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Specificeert het pixel-formaat voor de gegenereerde afbeeldingen. Lezen/Schrijven [`ImagePixelFormat`](../imagepixelformat). |
 | [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Specificeert of het gegenereerde document verborgen slides moet bevatten of niet. Standaard is `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Haalt op of stelt de modus in waarin slides op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Haalt de modus op of stelt deze in waarin slides op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Zie ook
 

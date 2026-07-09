@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: SmartArt düğümlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 10540
+weight: 10560
 url: /tr/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection arayüz
@@ -18,18 +18,18 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | İndekse göre düğümü döndürür. Salt Okunur [`ISmartArtNode`](../ismartartnode) |
+| [Item](../../aspose.slides.smartart/ismartartnodecollection/item) { get; } | Dizine göre düğüm döndürür. Yalnızca okuma [`ISmartArtNode`](../ismartartnode) |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Yeni düğüm veya alt düğüm ekler. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Düğüm koleksiyonundaki seçilen konuma yeni düğüm ekler. |
-| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | İndekse göre düğüm veya alt düğüm kaldırır. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Seçilen konumda düğüm koleksiyonuna yeni düğüm ekler. |
+| [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Dizine göre düğüm veya alt düğüm kaldırır. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Düğüm veya alt düğüm kaldırır. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [ISmartArtNode](../ismartartnode)

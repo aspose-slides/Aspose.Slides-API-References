@@ -3,12 +3,12 @@ title: SlideSize
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar storleken och orienteringen av en bild.
 type: docs
-weight: 10480
+weight: 10500
 url: /sv/aspose.slides/slidesize/
 ---
-## SlideSize klass
+## SlideSize class
 
-Represents the size and orientation of a slide.
+Representerar storlek och orientering av en bild.
 
 ```csharp
 public class SlideSize : DomObject<Presentation>, ISlideSize
@@ -16,7 +16,7 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Hämtar eller anger bildens orientering. |
 | [Size](../../aspose.slides/slidesize/size) { get; } | Hämtar bildens dimensioner i punkter. |
@@ -24,7 +24,7 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Ställer in bildens storlek efter typ och skalar befintligt innehåll. |
 | [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Ställer in bildens dimensioner explicit och skalar befintligt innehåll. |

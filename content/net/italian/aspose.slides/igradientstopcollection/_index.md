@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una collezione di fermate di gradiente.
 type: docs
-weight: 6010
+weight: 6030
 url: /it/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interfaccia
@@ -28,9 +28,9 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Crea una nuova fermata di gradiente e la aggiunge alla fine della collezione. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Crea una nuova fermata di gradiente e la aggiunge alla fine della collezione. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Rimuove tutte le fermate di gradiente da una collezione. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella collezione. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella collezione. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella collezione. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Crea una nuova fermata di gradiente e la inserisce nell'indice specificato della collezione. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Crea una nuova fermata di gradiente e la inserisce nell'indice specificato della collezione. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea una nuova fermata di gradiente e la inserisce nell'indice specificato della collezione. |
 | [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Rimuove una fermata di gradiente all'indice specificato. |
 
 ### Vedi anche

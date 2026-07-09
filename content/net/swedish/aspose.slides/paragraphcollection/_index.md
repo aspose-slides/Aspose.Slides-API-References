@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av stycken.
+description: Representerar en samling av paragrafer.
 type: docs
-weight: 9270
+weight: 9290
 url: /sv/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection klass
 
-Representerar en samling av stycken.
+Representerar en samling av paragrafer.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,8 +18,8 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Läs-endast Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Hämtar ett värde som indikerar om ICollection är skrivskyddad. Läs-endast Boolean. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Hämtar ett värde som indikerar om ICollection är skrivskyddad. Skrivskyddad Boolean. |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Hämtar elementet på det angivna indexet. |
 
 ## Metoder
@@ -27,26 +27,26 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Lägger till ett Paragraph i slutet av samlingen. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Lägger till innehållet i en ParagraphCollection i slutet av samlingen. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Lägger till text från angiven html-sträng till samlingen. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Lägger till text från angiven html-sträng till samlingen. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Lägger till innehållet i ParagraphCollection i slutet av samlingen. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Lägger till text från angiven HTML-sträng till samlingen. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Lägger till text från angiven HTML-sträng till samlingen. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Bestämmer om ICollection innehåller ett specifikt värde. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopierar elementen i ICollection till en Array, med början vid ett specifikt Array-index. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konverterar angivna stycken till HTML och returnerar det som ett String-objekt. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Avgör om ICollection innehåller ett specifikt värde. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopierar elementen i ICollection till en Array, med start vid ett specifikt Array-index. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Konverterar angivna paragrafer till HTML och returnerar det som ett String-objekt. |
 | [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Bestämmer indexet för ett specifikt objekt i IList. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Avgör indexet för ett specifikt objekt i IList. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Infogar ett Paragraph i samlingen på det angivna indexet. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Infogar innehållet i en ParagraphCollection i samlingen på det angivna indexet. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Tar bort det första förekomsten av ett specifikt objekt från ICollection. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Infogar innehållet i ParagraphCollection i samlingen på det angivna indexet. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Tar bort den första förekomsten av ett specifikt objekt från ICollection. |
 | [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |
 
 ### Se även
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [TextFrame](../textframe)
-* interface [IParagraphCollection](../iparagraphcollection)
-* namespace [Aspose.Slides](../../aspose.slides)
+* gränssnitt [IParagraphCollection](../iparagraphcollection)
+* namnrymd [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

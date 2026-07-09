@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติการจัดรูปแบบสำหรับข้อความของแผนภูมิ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงคุณสมบัติการจัดรูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ.
 type: docs
 weight: 1980
 url: /th/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติการจัดรูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ
+แสดงคุณสมบัติการจัดรูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -16,22 +16,22 @@ public interface IChartTextBlockFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | คืนค่า หรือกำหนดข้อความ anchor แนวตั้งใน TextFrame. อ่าน/เขียน [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | คืนค่า หรือกำหนดโหมด autofit ของข้อความ. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2013; ใน PowerPoint 2007 ไม่มีผลต่อการแสดงผล). อ่าน/เขียน [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | หาก NullableBool.True แล้วข้อความควรอยู่กึ่งกลางในกล่องในแนวนอน. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | คืนค่า หรือกำหนดระยะขอบล่าง (หน่วยจุด) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2013; ใน PowerPoint 2007 ไม่มีผลต่อการแสดงผล). อ่าน/เขียน Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | คืนค่า หรือกำหนดระยะขอบซ้าย (หน่วยจุด) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2013; ใน PowerPoint 2007 ไม่มีผลต่อการแสดงผล). อ่าน/เขียน Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | คืนค่า หรือกำหนดระยะขอบขวา (หน่วยจุด) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2013; ใน PowerPoint 2007 ไม่มีผลต่อการแสดงผล). อ่าน/เขียน Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | คืนค่า หรือกำหนดระยะขอบบน (หน่วยจุด) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2013; ใน PowerPoint 2007 ไม่มีผลต่อการแสดงผล). อ่าน/เขียน Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | ระบุการหมุนแบบกำหนดเองที่จะนำไปใช้กับข้อความภายในกล่องรอบ. หากไม่ได้ระบุ การหมุนของรูปร่างที่เกี่ยวข้องจะถูกใช้. หากระบุแล้ว การหมุนนี้จะถูกนำไปใช้แยกจากรูปร่าง. กล่าวคือ รูปร่างอาจมีการหมุนเพิ่มขึ้นในขณะเดียวกันที่ข้อความเองก็มีการหมุน. ค่าที่ได้จากการหมุนของข้อความแบบภาพรวมสรุปจากคุณสมบัตินี้และประเภทแนวตั้งที่กำหนดไว้ล่วงหน้าในคุณสมบัติ TextVerticalType. อ่าน/เขียน Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | กำหนดการวางแนวข้อความ. ค่าที่ได้จากการหมุนของข้อความแบบภาพรวมสรุปจากคุณสมบัตินี้และมุมกำหนดเองในคุณสมบัติ RotationAngle. อ่าน/เขียน [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** หากข้อความถูกตัดบรรทัดที่ระยะขอบของ TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจมีผลต่อส่วนของแผนภูมิเฉพาะส่วนต่อไปนี้เท่านั้น: DataLabel และ DataLabelFormat (รองรับเต็มรูปแบบใน PowerPoint 2007/2013). อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | คืนค่าหรือกำหนดข้อความ anchor แนวตั้งใน TextFrame. อ่าน/เขียน [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | คืนค่าหรือกำหนดโหมด autofit ของข้อความ. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). อ่าน/เขียน [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | ถ้า NullableBool.True แล้วข้อความควรอยู่กึ่งกลางในกล่องในแนวนอน. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | คืนค่าหรือกำหนดระยะขอบล่าง (points) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). อ่าน/เขียน Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | คืนค่าหรือกำหนดระยะขอบซ้าย (points) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). อ่าน/เขียน Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | คืนค่าหรือกำหนดระยะขอบขวา (points) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). อ่าน/เขียน Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | คืนค่าหรือกำหนดระยะขอบบน (points) ใน TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). อ่าน/เขียน Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | ระบุการหมุนแบบกำหนดเองที่ใช้กับข้อความภายในกรอบ. หากไม่ได้ระบุ จะใช้การหมุนของรูปร่างที่แนบมาด้วย. หากระบุแล้ว จะถูกนำไปใช้แยกจากรูปร่าง. ดังนั้นรูปร่างอาจมีการหมุนเพิ่มเติมในขณะที่ข้อความเองก็มีการหมุน. ค่าที่ได้ของการหมุนของข้อความที่แสดงสรุปจากคุณสมบัตินี้และประเภทแนวตั้งที่กำหนดไว้ล่วงหน้าในคุณสมบัติ TextVerticalType. อ่าน/เขียน Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | กำหนดทิศทางของข้อความ. ค่าที่ได้ของการหมุนของข้อความที่แสดงสรุปจากคุณสมบัตินี้และมุมกำหนดเองในคุณสมบัติ RotationAngle. อ่าน/เขียน [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** หากข้อความถูกตัดบรรทัดที่ขอบของ TextFrame. การเปลี่ยนแปลงคุณสมบัตินี้อาจส่งผลเฉพาะต่อส่วนของแผนภูมิเหล่านี้: DataLabel และ DataLabelFormat (full suport in PowerPoint 2007/2013). อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

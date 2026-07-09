@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili delapan tipe transisi arah.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili delapan jenis transisi arah.
 type: docs
-weight: 10340
+weight: 10360
 url: /id/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## enumerasi TransitionEightDirectionType
+## TransitionEightDirectionType enumerasi
 
-Mewakili delapan tipe transisi arah.
+Mewakili delapan jenis transisi arah.
 
 ```csharp
 public enum TransitionEightDirectionType

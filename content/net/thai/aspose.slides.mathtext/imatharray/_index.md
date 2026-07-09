@@ -1,6 +1,6 @@
 ---
 title: IMathArray
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: ระบุอาร์เรย์แนวตั้งของสมการหรือวัตถุคณิตศาสตร์ใด ๆ
 type: docs
 weight: 8100
@@ -8,7 +8,7 @@ url: /th/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray อินเทอร์เฟซ
 
-Specifies a vertical array of equations or any mathematical objects
+ระบุอาร์เรย์แนวตั้งของสมการหรือวัตถุคณิตศาสตร์ใด ๆ
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -16,19 +16,20 @@ public interface IMathArray : IMathElement
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | ชุดของรายการในอาร์เรย์ |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | ระบุการจัดแนวของอาร์เรย์สัมพันธ์กับข้อความรอบด้าน ข้อความนอกอาร์เรย์สามารถจัดแนวกับด้านล่าง ด้านบน หรือศูนย์กลางของวัตถุอาร์เรย์ ค่าเริ่มต้น: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum Distribution เมื่อเป็น true, อาร์เรย์จะถูกจัดช่องว่างให้เต็มความกว้างสูงสุดขององค์ประกอบที่บรรจุ (หน้า, คอลัมน์, เซลล์, เป็นต้น). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution เมื่อเป็น true, เนื้อหาของอาร์เรย์จะถูกจัดช่องว่างให้เต็มความกว้างสูงสุดของวัตถุอาร์เรย์. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Spacing between rows of an array ใช้เฉพาะเมื่อ RowSpacingRule ถูกตั้งค่าเป็น 3 Exactly ซึ่งหน่วยวัดเป็น points หรือ Multiple ซึ่งหน่วยวัดเป็น half-lines ค่าเริ่มต้น: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | ประเภทของการจัดช่องว่างแนวตั้งระหว่างองค์ประกอบของอาร์เรย์ |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | ระบุการจัดแนวของอาร์เรย์สัมพันธ์กับข้อความโดยรอบ ข้อความนอกอาร์เรย์สามารถจัดแนวกับด้านล่าง ด้านบน หรือศูนย์กลางของวัตถุอาร์เรย์ได้ ค่าเริ่มต้น: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | การจัดการสูงสุด เมื่อเป็นจริง อาร์เรย์จะถูกจัดเว้นระยะให้เต็มความกว้างสูงสุดขององค์ประกอบที่บรรจุ (หน้า, คอลัมน์, เซลล์ ฯลฯ) |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | การจัดการวัตถุ เมื่อเป็นจริง เนื้อหาของอาร์เรย์จะถูกจัดเว้นระยะให้เต็มความกว้างสูงสุดของวัตถุอาร์เรย์ |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | ระยะห่างระหว่างแถวของอาร์เรย์ ใช้เฉพาะเมื่อ RowSpacingRule ถูกตั้งค่าเป็น 3 Exactly ในกรณีนี้หน่วยวัดคือ points หรือ Multiple ในกรณีนี้หน่วยวัดคือครึ่งบรรทัด ค่าเริ่มต้น: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | ประเภทของระยะห่างแนวตั้งระหว่างองค์ประกอบของอาร์เรย์ |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
+
 ```csharp
 [C#]
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));

@@ -1,14 +1,14 @@
 ---
 title: IResponsiveHtmlController
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Bộ điều khiển HTML đáp ứng
+description: Trình điều khiển HTML đáp ứng
 type: docs
 weight: 4050
 url: /vi/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController giao diện
 
-Bộ điều khiển HTML đáp ứng
+Trình điều khiển HTML đáp ứng
 
 ```csharp
 public interface IResponsiveHtmlController : IHtmlFormattingController

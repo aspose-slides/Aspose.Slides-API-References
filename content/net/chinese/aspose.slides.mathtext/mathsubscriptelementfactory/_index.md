@@ -1,13 +1,12 @@
 ---
 title: MathSubscriptElementFactory
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 IMathSubscriptElement
 type: docs
-weight: 8740
+weight: 9010
 url: /zh/aspose.slides.mathtext/mathsubscriptelementfactory/
 ---
-
-## MathSubscriptElementFactory class
+## MathSubscriptElementFactory 类
 
 允许创建 IMathSubscriptElement
 
@@ -25,13 +24,13 @@ public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | 创建 IMathSubscriptElement |
+| [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | 创建 IMathSubscriptElement |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 相关信息
+### 另见
 
 * 接口 [IMathSubscriptElementFactory](../imathsubscriptelementfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

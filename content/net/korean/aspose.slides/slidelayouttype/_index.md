@@ -18,42 +18,42 @@ public enum SlideLayoutType : sbyte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Custom | `-1` | Custom |
-| Title | `0` | Title |
-| Text | `1` | Text |
-| TwoColumnText | `2` | Two Column Text |
-| Table | `3` | Table |
-| TextAndChart | `4` | Text and Chart |
-| ChartAndText | `5` | Chart and Text |
-| Diagram | `6` | Diagram |
-| Chart | `7` | Chart |
-| TextAndClipArt | `8` | Text and Clip Art |
-| ClipArtAndText | `9` | Clip Art and Text |
-| TitleOnly | `10` | Title Only |
-| Blank | `11` | Blank |
-| TextAndObject | `12` | Text and Object |
-| ObjectAndText | `13` | Object and Text |
-| Object | `14` | Object |
-| TitleAndObject | `15` | Title and Object |
-| TextAndMedia | `16` | Text and Media |
-| MediaAndText | `17` | Media and Text |
-| ObjectOverText | `18` | Object over Text |
-| TextOverObject | `19` | Text over Object |
-| TextAndTwoObjects | `20` | Text and Two Objects |
-| TwoObjectsAndText | `21` | Two Objects and Text |
-| TwoObjectsOverText | `22` | Two Objects over Text |
-| FourObjects | `23` | Four Objects |
-| VerticalText | `24` | Vertical Text |
-| ClipArtAndVerticalText | `25` | Clip Art and Vertical Text |
-| VerticalTitleAndText | `26` | Vertical Title and Text |
-| VerticalTitleAndTextOverChart | `27` | Vertical Title and Text Over Chart |
-| TwoObjects | `28` | Two Objects |
-| ObjectAndTwoObject | `29` | Object and Two Object |
-| TwoObjectsAndObject | `30` | Two Objects and Object |
-| SectionHeader | `31` | Section Header |
-| TwoTextAndTwoObjects | `32` | Two Text and Two Objects |
-| TitleObjectAndCaption | `33` | Title, Object, and Caption |
-| PictureAndCaption | `34` | Picture and Caption |
+| Custom | `-1` | 맞춤 |
+| Title | `0` | 제목 |
+| Text | `1` | 텍스트 |
+| TwoColumnText | `2` | 두 열 텍스트 |
+| Table | `3` | 표 |
+| TextAndChart | `4` | 텍스트 및 차트 |
+| ChartAndText | `5` | 차트 및 텍스트 |
+| Diagram | `6` | 다이어그램 |
+| Chart | `7` | 차트 |
+| TextAndClipArt | `8` | 텍스트 및 클립 아트 |
+| ClipArtAndText | `9` | 클립 아트 및 텍스트 |
+| TitleOnly | `10` | 제목만 |
+| Blank | `11` | 빈 슬라이드 |
+| TextAndObject | `12` | 텍스트 및 객체 |
+| ObjectAndText | `13` | 객체 및 텍스트 |
+| Object | `14` | 객체 |
+| TitleAndObject | `15` | 제목 및 객체 |
+| TextAndMedia | `16` | 텍스트 및 미디어 |
+| MediaAndText | `17` | 미디어 및 텍스트 |
+| ObjectOverText | `18` | 객체가 텍스트 위에 |
+| TextOverObject | `19` | 텍스트가 객체 위에 |
+| TextAndTwoObjects | `20` | 텍스트 및 두 객체 |
+| TwoObjectsAndText | `21` | 두 객체 및 텍스트 |
+| TwoObjectsOverText | `22` | 두 객체가 텍스트 위에 |
+| FourObjects | `23` | 네 객체 |
+| VerticalText | `24` | 수직 텍스트 |
+| ClipArtAndVerticalText | `25` | 클립 아트 및 수직 텍스트 |
+| VerticalTitleAndText | `26` | 수직 제목 및 텍스트 |
+| VerticalTitleAndTextOverChart | `27` | 수직 제목 및 텍스트가 차트 위에 |
+| TwoObjects | `28` | 두 객체 |
+| ObjectAndTwoObject | `29` | 객체 및 두 객체 |
+| TwoObjectsAndObject | `30` | 두 객체 및 객체 |
+| SectionHeader | `31` | 섹션 헤더 |
+| TwoTextAndTwoObjects | `32` | 두 텍스트 및 두 객체 |
+| TitleObjectAndCaption | `33` | 제목, 객체 및 캡션 |
+| PictureAndCaption | `34` | 그림 및 캡션 |
 
 ### 참고
 

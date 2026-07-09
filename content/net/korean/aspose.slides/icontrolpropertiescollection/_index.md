@@ -1,6 +1,6 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: ActiveX 컨트롤의 컬렉션입니다.
 type: docs
 weight: 5650
@@ -29,9 +29,9 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | --- | --- |
 | [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | 컬렉션에 속성을 추가합니다. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | 모든 속성을 제거합니다. |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | 지정된 이름의 속성을 제거합니다. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | 지정된 이름을 가진 속성을 제거합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: लीजेंड संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: लेजेंड संग्रह को दर्शाता है।
 type: docs
 weight: 2300
 url: /hi/aspose.slides.charts/legendentrycollection/
 ---
 ## LegendEntryCollection क्लास
 
-लीजेंड संग्रह का प्रतिनिधित्व करता है।
+लेजेंड संग्रह को दर्शाता है।
 
 ```csharp
 public class LegendEntryCollection : ILegendEntryCollection
@@ -16,10 +16,10 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 ## गुण
 
-| Name | विवरण |
+| नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | लीजेंड प्रविष्टियों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | लीजेंड प्रविष्टि के गुण प्राप्त करता है जो Chart.ChartData.Series[0].DataPoints[index] से संबंधित है यदि चार्ट प्रकार इस सूची में से हो: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Series[index] से संबंधित है। |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | लेजेंड एंट्री की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | लेजेंड एंट्री के गुण प्राप्त करता है जो Chart.ChartData.Series[0].DataPoints[index] के अनुरूप है, जब चार्ट प्रकार इस सूची में से हो: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; या अन्य चार्ट प्रकारों के लिए Chart.ChartData.Series[index] के अनुरूप है। |
 
 ### संबंधित देखें
 

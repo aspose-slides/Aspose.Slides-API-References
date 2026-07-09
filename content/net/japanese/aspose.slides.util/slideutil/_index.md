@@ -1,14 +1,14 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内のシェイプやテキストの検索を支援するメソッドを提供します。
 type: docs
-weight: 11500
+weight: 11520
 url: /ja/aspose.slides.util/slideutil/
 ---
 ## SlideUtil クラス
 
-プレゼンテーション内でシェイプやテキストを検索するためのメソッドを提供します。
+プレゼンテーション内のシェイプやテキストの検索を支援するメソッドを提供します。
 
 ```csharp
 public static class SlideUtil
@@ -18,13 +18,13 @@ public static class SlideUtil
 
 | 名前 | 説明 |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | スライド上のすべてのシェイプの配置を変更します。シェイプをスライドの余白や端に合わせるか、互いに相対的に配置します。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | グループシェイプ内のすべてのシェイプの配置を変更します。シェイプをスライドの余白や端に合わせるか、互いに相対的に配置します。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | スライド上で選択されたシェイプの配置を変更します。シェイプをスライドの余白や端に合わせるか、互いに相対的に配置します。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | グループシェイプ内で選択されたシェイプの配置を変更します。シェイプをスライドの余白や端に合わせるか、互いに相対的に配置します。 |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | プレゼンテーション内のテキストを検索し、指定された形式で置換します。 |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | PPTX プレゼンテーションのスライド上で代替テキストでシェイプを検索します。 |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | PPTX プレゼンテーション内で代替テキストでシェイプを検索します。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | スライド上のすべてのシェイプの配置を変更します。シェイプをスライドの余白または端に揃えるか、相互に揃えます。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | グループシェイプ内のすべてのシェイプの配置を変更します。シェイプをスライドの余白または端に揃えるか、相互に揃えます。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | スライド上で選択されたシェイプの配置を変更します。シェイプをスライドの余白または端に揃えるか、相互に揃えます。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | グループシェイプ内で選択されたシェイプの配置を変更します。シェイプをスライドの余白または端に揃えるか、相互に揃えます。 |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 指定された書式でプレゼンテーション内のテキストを検索し置換します。 |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | PPTX プレゼンテーションのスライド上で代替テキストによりシェイプを検索します。 |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | PPTX プレゼンテーション内で代替テキストによりシェイプを検索します。 |
 | static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 指定されたスライド上で、指定されたプレースホルダータイプに一致するすべてのシェイプを検索します。 |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | PPTX プレゼンテーションのスライド上のすべてのテキストフレームを返します。 |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | PPTX プレゼンテーション内のすべてのテキストフレームを返します。 |

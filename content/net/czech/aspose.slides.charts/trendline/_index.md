@@ -1,14 +1,14 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes pro .NET – reference API
-description: Třída představuje čáru trendu řady grafu
+second_title: Aspose.Sildes pro .NET API Reference
+description: Třída představuje trendovou čáru řady grafu
 type: docs
-weight: 2450
+weight: 2470
 url: /cs/aspose.slides.charts/trendline/
 ---
-## Třída Trendline
+## Trendline třída
 
-Třída představuje čáru trendu řady grafu
+Třída představuje trendovou čáru řady grafu
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
@@ -18,16 +18,16 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Název | Popis |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Určuje počet kategorií (nebo jednotek v bodovém grafu), o které čára trendu přesahuje před data řady, která je zobrazována. V bodových i nebodových grafech může být hodnota libovolná nezáporná. Čtení/Zápis Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Určuje počet kategorií (nebo jednotek v rozptylovém grafu), o které se trendová čára prodlužuje před daty řady, která je trendována. V rozptylových i nerozptylových grafech může být hodnota libovolná nezáporná hodnota. Čtení/Zápis Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Vrací nadřazený graf. Pouze pro čtení [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Určuje, že rovnice trendové čáry je zobrazena v grafu (ve stejném popisku jako hodnota Rsquaredvalue). Čtení/Zápis Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Určuje, že hodnota R-kvadrátu trendové čáry je zobrazena v grafu (ve stejném popisku jako rovnice). Čtení/Zápis Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Reprezentuje formát trendové čáry. Čtení/Zápis [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Určuje počet kategorií (nebo jednotek v bodovém grafu), o které trendová čára přesahuje za data řady, která je zobrazována. V bodových i nebodových grafech může být hodnota libovolná nezáporná. Čtení/Zápis Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Určuje hodnotu, ve které trendová čára protne osu y. Tato vlastnost je podporována pouze když je typ trendové čáry exp, linear nebo poly. Čtení/Zápis Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Určuje řád polynomiální trendové čáry. Pro ostatní typy trendových čar se ignoruje. Hodnota musí být mezi 2 a 6. Čtení/Zápis Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Určuje periodu trendové čáry pro klouzavý průměr. Pro ostatní varianty trendových čar se ignoruje. Hodnota musí být mezi 2 a 255. Čtení/Zápis Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Reprezentuje položku legendy související s touto trendovou čárou. Pouze pro čtení [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Určuje, zda je rovnice trendové čáry zobrazena v grafu (ve stejném popisku jako Rsquaredvalue). Čtení/Zápis Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Určuje, zda je hodnota R-kvadrát trendové čáry zobrazena v grafu (ve stejném popisku jako rovnice). Čtení/Zápis Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Zastupuje formát trendové čáry. Čtení/Zápis [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Určuje počet kategorií (nebo jednotek v rozptylovém grafu), o které se trendová čára prodlužuje za data řady, která je trendována. V rozptylových i nerozptylových grafech může být hodnota libovolná nezáporná hodnota. Čtení/Zápis Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Určuje hodnotu, ve které má trendová čára protínat osu y. Tato vlastnost je podporována jen při typech trendové čáry exp, linear nebo poly. Čtení/Zápis Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Určuje řád polynomické trendové čáry. Pro ostatní typy trendových čar je ignorováno. Hodnota musí být mezi 2 a 6. Čtení/Zápis Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Určuje periodu pro trendovou čáru klouzavého průměru. Pro ostatní varianty trendových čar je ignorováno. Hodnota musí být mezi 2 a 255. Čtení/Zápis Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Zastupuje položku legendy související s touto trendovou čárou. Pouze pro čtení [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
 | [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Může obsahovat bohatě formátovaný text. Pokud není tato vlastnost null, pak tato hodnota formátovaného textu přepíše automaticky generovaný text popisku dat. Automaticky generovaný text popisku dat znamená text, který je řízen vlastnostmi ShowSeriesName, ShowValue, … a je formátován pomocí vlastnosti TextFormatManager.TextFormat. Pouze pro čtení [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Získá nebo nastaví název trendové čáry. Čtení/Zápis String. |
@@ -37,7 +37,7 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Název | Popis |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru "text". Pokud je TextFrameForOverriding již inicializován, jednoduše změní jeho text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | Inicializuje TextFrameForOverriding textem z parametru „text“. Pokud je TextFrameForOverriding již inicializován, jednoduše změní jeho text. |
 
 ### Viz také
 

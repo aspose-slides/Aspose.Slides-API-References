@@ -1,14 +1,14 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Sildes for .NET API 參考
-description: HTML 產生器。
+description: Html 產生器。
 type: docs
 weight: 3960
 url: /zh-hant/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator 介面
 
-HTML 產生器。
+Html generator.
 
 ```csharp
 public interface IHtmlGenerator
@@ -18,26 +18,26 @@ public interface IHtmlGenerator
 
 | 名稱 | 說明 |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | 傳回投影片的索引，該投影片將在目前投影片之後呈現，若目前正在呈現最後一張投影片則傳回 -1。唯讀 Int32。 |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | 傳回先前已呈現投影片的索引，若是第一張投影片正在呈現則傳回 -1。唯讀 Int32。 |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | 傳回在目前投影片之後將被渲染的投影片索引，若目前正在渲染最後一張投影片則傳回 -1。唯讀 Int32。 |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | 傳回先前已渲染的投影片索引，若是第一張投影片正在渲染則傳回 -1。唯讀 Int32。 |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | 傳回投影片影像大小。唯讀 SizeF。 |
 | [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | 傳回投影片影像大小所使用的單位。唯讀 [`SvgCoordinateUnit`](../svgcoordinateunit)。 |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | 傳回投影片影像大小所使用單位的 CSS 代碼。唯讀 String。 |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | 傳回目前正在呈現的投影片索引。唯讀 Int32。 |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | 傳回目前正在渲染的投影片索引。唯讀 Int32。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | 對屬性值加上引號，並將其加入 HTML 檔案。 |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | 對屬性值加上引號，並將其加入 HTML 檔案。 |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 對屬性值加上引號，並將其加入 HTML 檔案。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | 為屬性值加上引號並將其加入 HTML 檔案。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | 為屬性值加上引號並將其加入 HTML 檔案。 |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | 為屬性值加上引號並將其加入 HTML 檔案。 |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | 加入格式化的 HTML 文字。 |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | 加入格式化的 HTML 文字。 |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | 加入格式化的 HTML 文字。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | 將純文字加入 HTML 檔案，並將特殊字元取代為 HTML 實體。換行與空白字元不會被取代。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | 將純文字加入 HTML 檔案，並將特殊字元取代為 HTML 實體。換行與空白字元不會被取代。 |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | 將純文字加入 HTML 檔案，並將特殊字元取代為 HTML 實體。換行與空白字元不會被取代。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | 將純文字加入 HTML 檔案，將特殊字元替換為 HTML 實體。換行符與空白字元不會被替換。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | 將純文字加入 HTML 檔案，將特殊字元替換為 HTML 實體。換行符與空白字元不會被替換。 |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | 將純文字加入 HTML 檔案，將特殊字元替換為 HTML 實體。換行符與空白字元不會被替換。 |
 
 ### 另請參閱
 

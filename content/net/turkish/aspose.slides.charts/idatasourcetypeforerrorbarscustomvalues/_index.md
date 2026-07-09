@@ -1,12 +1,12 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API Referansı
-description: ChartDataPoint.ErrorBarsCustomValues özellik listesinde değer türlerini belirtir
+second_title: Aspose.Sildes için .NET API Referansı
+description: ChartDataPoint.ErrorBarsCustomValues özellik listesindeki değer türlerini belirtir
 type: docs
-weight: 2030
+weight: 2050
 url: /tr/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
-## IDataSourceTypeForErrorBarsCustomValues arayüzü
+## IDataSourceTypeForErrorBarsCustomValues arayüz
 
 ChartDataPoint.ErrorBarsCustomValues özellik listesinde değer türlerini belirtir
 
@@ -18,12 +18,12 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | Ad | Açıklama |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Veri noktalarının XMinus özelliği nesnesinde error bars custom values için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle, ChartDataPoint.ErrorBarsCustomValues.XMinus.Data özelliğinin değer türünü belirtir. Okunabilir/Yazılabilir [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Veri noktalarının XPlus özelliği nesnesinde error bars custom values için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle, ChartDataPoint.ErrorBarsCustomValues.XPlus.Data özelliğinin değer türünü belirtir. Okunabilir/Yazılabilir [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Veri noktalarının YMinus özelliği nesnesinde error bars custom values için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle, ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data özelliğinin değer türünü belirtir. Okunabilir/Yazılabilir [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Veri noktalarının YPlus özelliği nesnesinde error bars custom values için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin geçerli olup olmadığını belirtir. Başka bir deyişle, ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data özelliğinin değer türünü belirtir. Okunabilir/Yazılabilir [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Veri noktalarının XMinus özelliği nesnesindeki hata çubukları özel değerleri için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin gerçek olup olmadığını belirtir. Başka bir deyişle, ChartDataPoint.ErrorBarsCustomValues.XMinus.Data özelliğinin değer türünü belirtir. Okunur/yazılır [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Veri noktalarının XPlus özelliği nesnesindeki hata çubukları özel değerleri için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin gerçek olup olmadığını belirtir. Başka bir deyişle, ChartDataPoint.ErrorBarsCustomValues.XPlus.Data özelliğinin değer türünü belirtir. Okunur/yazılır [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Veri noktalarının YMinus özelliği nesnesindeki hata çubukları özel değerleri için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin gerçek olup olmadığını belirtir. Başka bir deyişle, ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data özelliğinin değer türünü belirtir. Okunur/yazılır [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Veri noktalarının YPlus özelliği nesnesindeki hata çubukları özel değerleri için AsCell, AsLiteralString veya AsLiteralDouble özelliğinin gerçek olup olmadığını belirtir. Başka bir deyişle, ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data özelliğinin değer türünü belirtir. Okunur/yazılır [`DataSourceType`](../datasourcetype). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

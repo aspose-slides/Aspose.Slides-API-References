@@ -1,9 +1,9 @@
 ---
 title: Row
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: テーブル内の行を表します。
 type: docs
-weight: 9690
+weight: 9710
 url: /ja/aspose.slides/row/
 ---
 ## Row クラス
@@ -20,9 +20,9 @@ public sealed class Row : CellCollection, IRow
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | コレクション内のセル数を返します。読み取り専用 Int32。 |
 | [Height](../../aspose.slides/row/height) { get; } | 行の高さを返します。読み取り専用 Double。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッド セーフ) されているかを示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているかどうかを示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | 位置でセルを返します。読み取り専用 [`Cell`](../cell)。 |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | 行の最小可能高さを取得または設定します。読み取り/書き込み Double。 |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | 行の最小可能な高さを取得または設定します。読み書き可能 Double。 |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection の親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | この行の書式設定プロパティを含む RowFormat オブジェクトを返します。読み取り専用 [`IRowFormat`](../irowformat)。 |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection の親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
@@ -32,11 +32,11 @@ public sealed class Row : CellCollection, IRow
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | すべての行セルの段落に定義された段落書式プロパティを設定します。 |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | すべての行セルの部分に定義された部分書式プロパティを設定します。 |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | すべての行セルのテキストフレームに定義されたテキストフレーム書式プロパティを設定します。 |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | 定義された段落書式プロパティをすべての行セルの段落に設定します。 |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | 定義された部分書式プロパティをすべての行セルの部分に設定します。 |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | 定義されたテキストフレーム書式プロパティをすべての行セルのテキストフレームに設定します。 |
 
 ### 参照
 

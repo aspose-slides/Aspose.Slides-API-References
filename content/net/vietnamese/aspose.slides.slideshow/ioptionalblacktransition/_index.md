@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển tiếp slide màu đen tùy chọn.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Hiệu ứng chuyển đổi slide đen tùy chọn.
 type: docs
 weight: 10140
 url: /vi/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## Giao diện IOptionalBlackTransition
 
-Hiệu ứng chuyển tiếp slide màu đen tùy chọn.
+Optional black slide transition effect.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | Tên | Mô tả |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Thuộc tính này chỉ định liệu chuyển tiếp sẽ bắt đầu từ màn hình đen (và sau đó chuyển slide mới qua màu đen). Boolean đọc/ghi. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Thuộc tính này xác định liệu chuyển tiếp có bắt đầu từ màn hình đen hay không (và sau đó chuyển slide mới trên nền đen). Đọc/ghi Boolean. |
 
 ### Xem thêm
 

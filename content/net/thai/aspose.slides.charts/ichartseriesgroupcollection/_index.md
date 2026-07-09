@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงคอลเลกชันของกลุ่มซีรีส์ที่สามารถรวมกันได้.
+description: แสดงถึงคอลเลกชันของกลุ่มของ series ที่สามารถรวมกันได้.
 type: docs
 weight: 1960
 url: /th/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection อินเทอร์เฟซ
 
-แสดงคอลเลกชันของกลุ่มซีรีส์ที่สามารถรวมกันได้
+แสดงถึงคอลเลกชันของกลุ่มของ series ที่สามารถรวมกันได้.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,11 +18,13 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | ดึงกลุ่มซีรีส์ตามซีรีส์ (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | รับกลุ่ม series ตาม series. (2 indexers) |
 
 ### หมายเหตุ
 
-1) แต่ละกลุ่มซีรีส์ประกอบด้วยซีรีส์ที่มีประเภทที่สามารถรวมกันได้ กลุ่มประเภทซีรีส์ที่สามารถรวมกันได้ถูกกำหนดและอธิบายด้วย enum CombinableSeriesTypesGroup นอกจากนี้แต่ละกลุ่มซีรีส์ยังประกอบด้วยซีรีส์ที่ถูกพล็อตบนแกนหลักหรือแกนรอง (ไม่ใช่ทั้งสองกรณีในกลุ่มเดียว) ดังนั้นหลักการของการจัดกลุ่มซีรีส์คือการจัดกลุ่มตามประเภทที่กล่าวถึงข้างต้นและตามประเภทการพล็อตบนแกนหลัก/รอง 2) กลุ่มซีรีส์มีคุณสมบัติบางอย่างที่เป็นค่าร่วมสำหรับแต่ละซีรีส์ในกลุ่ม (“คุณสมบัติของกลุ่มซีรีส์”) “คุณสมบัติของกลุ่มซีรีส์” ในคลาส ChartSeriesGroup เป็น read/write แต่ละ “คุณสมบัติของกลุ่มซีรีส์” สามารถมีการฉายแบบ read-only ในคลาส ChartSeries
+1) แต่ละกลุ่มของ series จะประกอบด้วย series ที่มีประเภทที่สามารถรวมกันได้. กลุ่มของประเภท series ที่สามารถรวมกันได้ถูกกำหนดและอธิบายด้วย enum CombinableSeriesTypesGroup. นอกจากนี้แต่ละกลุ่มของ series ยังประกอบด้วย series ที่ถูกพล็อตบนแกนหลักหรือบนแกนรอง (ไม่ใช่ทั้งสองกรณีในหนึ่งกลุ่ม). ดังนั้น หลักการของการจัดกลุ่ม series คือการจัดกลุ่มตามประเภทที่กล่าวถึงข้างต้นและตามประเภทการพล็อตเป็นหลัก/รอง.
+
+2) กลุ่มของ series มีคุณสมบัติของ series บางอย่างที่เป็นสากลสำหรับแต่ละ series ในกลุ่ม ("series group properties"). "Series group properties" ในคลาส ChartSeriesGroup เป็นแบบ read/write. แต่ละ "series group properties" สามารถมีการแสดงผลแบบ read-only ในคลาส ChartSeries.
 
 ### ดูเพิ่มเติม
 

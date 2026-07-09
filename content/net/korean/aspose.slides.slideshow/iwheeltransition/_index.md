@@ -1,6 +1,6 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 휠 슬라이드 전환 효과.
 type: docs
 weight: 10220
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition 인터페이스
 
-휠 슬라이드 전환 효과.
+Wheel slide transition effect.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IWheelTransition : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | 휠 전환의 스포크 수. 읽기/쓰기 UInt32. |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | Wheel 전환의 스포크 수. 읽기/쓰기 UInt32. |
 
 ### 참고
 

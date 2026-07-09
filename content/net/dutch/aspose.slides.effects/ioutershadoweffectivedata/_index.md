@@ -1,36 +1,36 @@
 ---
 title: IOuterShadowEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Niet-wijzigbaar object dat een Outer Shadow-effect vertegenwoordigt.
+description: Onveranderlijk object dat een Outer Shadow-effect vertegenwoordigt.
 type: docs
 weight: 3470
 url: /nl/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData interface
 
-Niet-wijzigbaar object dat een Outer Shadow-effect vertegenwoordigt.
+Onveranderlijk object dat een Outer Shadow-effect vertegenwoordigt.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
 ```
 
-## Eigenschappen
+## Properties
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Vervagingsstraal. Alleen-lezen Double. |
-| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Richting van de schaduw. Alleen-lezen Single. |
-| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Afstand van de schaduw. Alleen-lezen Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rechthoek uitlijning. Alleen-lezen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Stelt toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Blur radius. Alleen-lezen Double. |
+| [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Direction of shadow. Alleen-lezen Single. |
+| [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distance of shadow. Alleen-lezen Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Rectangle alignment. Alleen-lezen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Geeft aan of de schaduw moet roteren met de vorm wanneer de vorm wordt geroteerd. Alleen-lezen Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Bepaalt de horizontale schaalfactor, negatieve schaalvergroting veroorzaakt een omkering. Alleen-lezen Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Bepaalt de verticale schaalfactor, negatieve schaalvergroting veroorzaakt een omkering. Alleen-lezen Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Bepaalt de horizontale schaalfactor, negatieve schaal veroorzaakt een draaiing. Alleen-lezen Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Bepaalt de verticale schaalfactor, negatieve schaal veroorzaakt een draaiing. Alleen-lezen Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen Color. |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Bepaalt de horizontale scheefhoek (in graden). Alleen-lezen Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Bepaalt de verticale scheefhoek (in graden). Alleen-lezen Double. |
 
-### Zie ook
+### See Also
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

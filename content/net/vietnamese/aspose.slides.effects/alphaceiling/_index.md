@@ -1,14 +1,14 @@
 ---
 title: AlphaCeiling
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một hiệu ứng Alpha Ceiling. Các giá trị độ trong suốt Alpha lớn hơn không được đổi thành 100. Nói cách khác, bất kỳ đối tượng nào một phần trong suốt sẽ trở thành hoàn toàn trong suốt.
+description: Biểu diễn một hiệu ứng Alpha Ceiling. Các giá trị độ trong suốt Alpha lớn hơn không được thay đổi thành 100. Nói cách khác, bất kỳ đối tượng nào chỉ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 type: docs
 weight: 2850
 url: /vi/aspose.slides.effects/alphaceiling/
 ---
-## AlphaCeiling lớp
+## Lớp AlphaCeiling
 
-Biểu diễn một hiệu ứng Alpha Ceiling. Các giá trị Alpha (độ trong suốt) lớn hơn không được đổi thành 100%. Nói cách khác, bất kỳ đối tượng nào một phần trong suốt sẽ trở thành hoàn toàn trong suốt.
+Biểu diễn một hiệu ứng Alpha Ceiling. Các giá trị Alpha (độ trong suốt) lớn hơn 0 được thay đổi thành 100%. Nói cách khác, bất kỳ đối tượng nào chỉ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 
 ```csharp
 public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
@@ -25,7 +25,7 @@ public sealed class AlphaCeiling : ImageTransformOperation, IAlphaCeiling
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphaceiling/equals)(object) | Xác định xem [`AlphaCeiling`](../alphaceiling) được chỉ định có bằng với [`AlphaCeiling`](../alphaceiling) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Ceiling đã áp dụng kế thừa. |
+| [GetEffective](../../aspose.slides.effects/alphaceiling/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Ceiling thực tế với tính kế thừa được áp dụng. |
 | override [GetHashCode](../../aspose.slides.effects/alphaceiling/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm

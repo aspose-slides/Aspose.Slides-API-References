@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของส่วน XML แบบกำหนดเอง.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงส่วน xml ที่กำหนดเอง
 type: docs
 weight: 5670
 url: /th/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart อินเทอร์เฟซ
 
-เป็นตัวแทนของส่วน XML แบบกำหนดเอง.
+แสดงถึงส่วน xml ที่กำหนดเอง
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,16 +18,16 @@ public interface ICustomXmlPart
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | ระบุตัวระบุที่ไม่ซ้ำกันทั่วโลก (GUID) ที่ใช้ระบุส่วน XML แบบกำหนดเองเดี่ยวภายในเอกสาร Office Open XML อย่างไม่ซ้ำกัน. Guid แบบอ่านอย่างเดียว. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | คืนค่าชุดคอลเลกชันของสกีม่า XML ที่เชื่อมโยงกับส่วน XML แบบกำหนดเอง. String[] แบบอ่านอย่างเดียว. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | คืนค่าหรือกำหนดข้อมูล XML เป็นสตริง UTF-8. อ่าน/เขียน String. ค่าเป็น `null`. ค่าเป็นค่าว่างหรือข้อมูล XML ไม่ถูกต้อง. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | คืนค่าหรือกำหนดข้อมูล XML. อ่าน/เขียน Byte[]. ค่าเป็น `null`. ค่าเป็นค่าว่างหรือข้อมูล XML ไม่ถูกต้อง. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | ระบุ GUID ที่เป็นตัวระบุเอกลักษณ์ทั่วโลก (GUID) ซึ่งระบุส่วน XML ที่กำหนดเองแบบเฉพาะในเอกสาร Office Open XML หนึ่งรายการ. อ่านอย่างเดียว Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | ส่งคืนคอลเลกชันสคีม่า XML ที่เชื่อมโยงกับส่วน XML ที่กำหนดเอง. อ่านอย่างเดียว String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | ส่งคืนหรือกำหนดข้อมูล xml เป็นสตริง UTF-8. อ่าน/เขียน String. value is `null`.value is empty or xml-data is invalid. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | ส่งคืนหรือกำหนดข้อมูล xml. อ่าน/เขียน Byte[]. value is `null`.value is empty or xml-data is invalid. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | ลบส่วน XML แบบกำหนดเองออกจากงานนำเสนอ. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | ลบส่วน xml ที่กำหนดเองออกจากการนำเสนอ |
 
 ### ดูเพิ่มเติม
 

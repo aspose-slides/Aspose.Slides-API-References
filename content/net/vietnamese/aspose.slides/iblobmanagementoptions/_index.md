@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Binary Large Object (BLOB) là dữ liệu nhị phân được lưu trữ dưới dạng một thực thể duy nhất - tức là BLOB có thể là âm thanh, video hoặc bản trình chiếu. Nhiều kỹ thuật được sử dụng để tối ưu hóa việc tiêu thụ bộ nhớ khi làm việc với BLOB - có thể đã được lưu trong bản trình chiếu hoặc được thêm sau này bằng chương trình. Sử dụng IBlobManagementOptions./iblobmanagementoptions bạn có thể thay đổi các khía cạnh hành vi khác nhau liên quan đến việc xử lý BLOB cho vòng đời của thể hiện IPresentation./ipresentation.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Binary Large Object BLOB là dữ liệu nhị phân được lưu trữ dưới dạng một thực thể duy nhất - nghĩa là BLOB có thể là âm thanh, video hoặc bản trình bày. Một số kỹ thuật được sử dụng để tối ưu hóa mức tiêu thụ bộ nhớ khi làm việc với BLOBs - đã được lưu trong bản trình bày hoặc sẽ được thêm sau này bằng mã. Sử dụng IBlobManagementOptions./iblobmanagementoptions bạn có thể thay đổi các khía cạnh hành vi khác nhau liên quan đến việc xử lý BLOBs cho vòng đời của thể hiện IPresentation./ipresentation.
 type: docs
 weight: 5370
 url: /vi/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions giao diện
 
-Một Đối tượng Nhị phân Lớn (BLOB) là dữ liệu nhị phân được lưu trữ như một thực thể duy nhất - tức là BLOB có thể là âm thanh, video hoặc bản trình chiếu. Một số kỹ thuật được sử dụng để tối ưu hóa việc tiêu thụ bộ nhớ khi làm việc với BLOB - có thể đã được lưu trong bản trình chiếu hoặc được thêm sau này bằng chương trình. Sử dụng [`IBlobManagementOptions`](../iblobmanagementoptions) bạn có thể thay đổi các khía cạnh hành vi khác nhau liên quan đến việc xử lý BLOB cho vòng đời của đối tượng [`IPresentation`](../ipresentation).
+Binary Large Object (BLOB) là dữ liệu nhị phân được lưu trữ dưới dạng một thực thể duy nhất - tức là BLOB có thể là một tệp âm thanh, video hoặc bản trình bày. Một số kỹ thuật được sử dụng để tối ưu hóa mức tiêu thụ bộ nhớ khi làm việc với BLOB - có thể đã được lưu trong bản trình bày hoặc được thêm sau này bằng mã. Sử dụng [`IBlobManagementOptions`](../iblobmanagementoptions) bạn có thể thay đổi các khía cạnh hành vi khác nhau liên quan đến việc xử lý BLOB cho vòng đời của thể hiện [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Thuộc tính này xác định liệu có thể tạo tệp tạm thời khi làm việc với BLOB hay không, điều này giảm đáng kể việc tiêu thụ bộ nhớ nhưng yêu cầu quyền tạo tệp. Tất cả các tệp sẽ được xóa sau khi công việc với bản trình chiếu kết thúc. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Xác định kích thước tối đa tổng cộng (tính bằng byte) mà tất cả BLOB có thể chiếm trong bộ nhớ. Mặc định, tất cả BLOB được tải vào bộ nhớ; chỉ khi đạt đến giới hạn này thì các cơ chế thay thế (như tệp tạm thời) mới được sử dụng. Giữ BLOB trong bộ nhớ tối đa hoá hiệu năng nhưng có thể dẫn đến việc sử dụng bộ nhớ cao. Sử dụng thuộc tính này để điều chỉnh hành vi cho môi trường hoặc yêu cầu của bạn. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Thuộc tính này xác định liệu một thể hiện của lớp Presentation có thể là chủ sở hữu của nguồn - tệp hoặc luồng trong suốt vòng đời của thể hiện hay không. Nếu thể hiện là chủ sở hữu, nó sẽ khóa nguồn. Điều này giúp cải thiện việc tiêu thụ bộ nhớ và hiệu năng khi làm việc với BLOB, nhưng nguồn (luồng hoặc tệp) không thể thay đổi trong vòng đời của thể hiện Presentation. Đây là một ví dụ: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Đường dẫn gốc nơi các tệp tạm thời sẽ được tạo. Thư mục tạm thời của hệ thống sẽ được sử dụng theo mặc định. Quy trình lưu trữ phải có quyền tạo tệp và thư mục tại đó. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Thuộc tính này xác định liệu có thể tạo tệp tạm trong khi làm việc với BLOB hay không, điều này giảm đáng kể mức tiêu thụ bộ nhớ nhưng yêu cầu quyền tạo tệp. Tất cả các tệp sẽ được xóa sau khi công việc với bản trình bày hoàn tất. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Xác định kích thước tối đa tổng cộng (tính bằng byte) mà tất cả các BLOB có thể chiếm trong bộ nhớ. Mặc định, tất cả các BLOB được tải vào bộ nhớ; chỉ khi đạt đến giới hạn này thì các cơ chế thay thế (như tệp tạm) mới được áp dụng. Giữ BLOB trong bộ nhớ tối đa hoá hiệu năng nhưng có thể gây sử dụng bộ nhớ cao. Sử dụng thuộc tính này để điều chỉnh hành vi cho môi trường hoặc yêu cầu của bạn. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Thuộc tính này xác định liệu một thể hiện của lớp Presentation có thể là chủ sở hữu của nguồn - tệp hoặc luồng trong suốt vòng đời của thể hiện hay không. Nếu thể hiện là chủ sở hữu, nó sẽ khóa nguồn. Điều này giúp cải thiện mức tiêu thụ bộ nhớ và hiệu năng khi làm việc với BLOB, nhưng nguồn (luồng hoặc tệp) không thể thay đổi trong vòng đời của thể hiện Presentation. Đây là một ví dụ: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Đường dẫn gốc nơi các tệp tạm sẽ được tạo. Thư mục tạm hệ thống sẽ được sử dụng mặc định. Quy trình hosting cần có quyền tạo tệp và thư mục tại đó. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

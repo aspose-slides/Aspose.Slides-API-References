@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Slides voor .NET API-referentie
-description: Stelt een collectie van effecten voor die op een afbeelding worden toegepast.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een verzameling effecten voor die op een afbeelding zijn toegepast.
 type: docs
 weight: 3400
 url: /nl/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interface
 
-Stelt een collectie van effecten voor die op een afbeelding worden toegepast.
+Stelt een verzameling effecten voor die op een afbeelding zijn toegepast.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -18,32 +18,32 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Retourneert IEnumerable interface. Alleen-lezen IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Retourneert een [`IImageTransformOperation`](../iimagetransformoperation) uit de collectie op zijn index. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Retourneert IEnumerable-interface. Alleen-lezen IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Retourneert een [`IImageTransformOperation`](../iimagetransformoperation) uit de verzameling op zijn index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Voegt het nieuwe Alpha Bi-Level effect toe aan het einde van een collectie. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Voegt het nieuwe Alpha Ceiling effect toe aan het einde van een collectie. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Voegt het nieuwe Alpha Floor effect toe aan het einde van een collectie. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Voegt het nieuwe Alpha Inverse effect toe aan het einde van een collectie. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Voegt het nieuwe Alpha Modulate effect toe aan het einde van een collectie. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Voegt het nieuwe Alpha Modulate Fixed effect toe aan het einde van een collectie. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Voegt het nieuwe Alpha Replace effect toe aan het einde van een collectie. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Voegt het nieuwe Bi-Level (black/white) effect toe aan het einde van een collectie. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Voegt het nieuwe Blur effect toe aan het einde van een collectie. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Voegt het nieuwe BrightnessContrast effect toe aan het einde van een collectie. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Voegt het nieuwe Color Change effect toe aan het einde van een collectie. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Voegt het nieuwe Color Replacement effect toe aan het einde van een collectie. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Voegt het nieuwe Duotone effect toe aan het einde van een collectie. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Voegt het nieuwe Fill Overlay effect toe aan het einde van een collectie. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Voegt het nieuwe Gray Scale effect toe aan het einde van een collectie. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Voegt het nieuwe Hue/Saturation/Luminance effect toe aan het einde van een collectie. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Voegt het nieuwe Luminance effect toe aan het einde van een collectie. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Voegt het nieuwe Tint effect toe aan het einde van een collectie. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Verwijdert een afbeeldingseffect uit een collectie op de opgegeven index. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Voegt het nieuwe Alpha Bi-Level-effect toe aan het einde van een verzameling. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Voegt het nieuwe Alpha Ceiling-effect toe aan het einde van een verzameling. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Voegt het nieuwe Alpha Floor-effect toe aan het einde van een verzameling. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Voegt het nieuwe Alpha Inverse-effect toe aan het einde van een verzameling. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Voegt het nieuwe Alpha Modulate-effect toe aan het einde van een verzameling. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Voegt het nieuwe Alpha Modulate Fixed-effect toe aan het einde van een verzameling. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Voegt het nieuwe Alpha Replace-effect toe aan het einde van een verzameling. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Voegt het nieuwe Bi-Level (zwart/wit)-effect toe aan het einde van een verzameling. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Voegt het nieuwe Blur-effect toe aan het einde van een verzameling. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Voegt het nieuwe BrightnessContrast-effect toe aan het einde van een verzameling. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Voegt het nieuwe Color Change-effect toe aan het einde van een verzameling. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Voegt het nieuwe Color Replacement-effect toe aan het einde van een verzameling. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Voegt het nieuwe Duotone-effect toe aan het einde van een verzameling. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Voegt het nieuwe Fill Overlay-effect toe aan het einde van een verzameling. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Voegt het nieuwe Gray Scale-effect toe aan het einde van een verzameling. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Voegt het nieuwe Hue/Saturation/Luminance-effect toe aan het einde van een verzameling. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Voegt het nieuwe Luminance-effect toe aan het einde van een verzameling. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Voegt het nieuwe Tint-effect toe aan het einde van een verzameling. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Verwijdert een afbeeldingseffect uit een verzameling op de opgegeven index. |
 
 ### Zie ook
 

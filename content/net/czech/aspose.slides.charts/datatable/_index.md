@@ -1,14 +1,14 @@
 ---
 title: DataTable
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje vlastnosti datové tabulky.
 type: docs
-weight: 1580
+weight: 1600
 url: /cs/aspose.slides.charts/datatable/
 ---
 ## DataTable třída
 
-Reprezentuje vlastnosti datové tabulky.
+Represents data table properties.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Name | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Vrací graf. Pouze pro čtení [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Vrací styly čáry, výplně a efektu objektu. Pouze pro čtení [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Pravda, pokud má datová tabulka grafu vodorovné okraje buněk. Čtení/Zápis Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Pravda, pokud má datová tabulka grafu ohraničující okraje. Čtení/Zápis Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Pravda, pokud má datová tabulka grafu svislé okraje buněk. Čtení/Zápis Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Pravda, pokud je klíč legendy popisků dat viditelný. Čtení/Zápis Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Vrací formát textu. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Vrací chart. Pouze pro čtení [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Vrací styl čáry, výplně a efektu objektu. Pouze pro čtení [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | True pokud data tabulka grafu má horizontální ohraničení buněk. Čtení/zápis Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | True pokud data tabulka grafu má ohraničení obrysu. Čtení/zápis Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | True pokud data tabulka grafu má vertikální ohraničení buněk. Čtení/zápis Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | True pokud je klíč legendy popisků dat viditelný. Čtení/zápis Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Vrací textový formát. Pouze pro čtení [`IChartTextFormat`](../icharttextformat). |
 
 ### Viz také
 

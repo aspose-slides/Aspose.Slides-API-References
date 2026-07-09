@@ -1,9 +1,9 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: FontData gyár
 type: docs
-weight: 4810
+weight: 4830
 url: /hu/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory osztály
@@ -20,11 +20,11 @@ public class FontDataFactory : IFontDataFactory
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | Az alapértelmezett konstruktor. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Létrehozza a FontData-t a megadott betűtípus nevével. |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | Létrehozza a FontData-t a megadott betűtípusnévvel. |
 
 ### Lásd még
 

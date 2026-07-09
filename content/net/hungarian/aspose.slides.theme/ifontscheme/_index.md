@@ -1,14 +1,14 @@
 ---
 title: IFontScheme
-second_title: Aspose.Sildes .NET API referencia
-description: A téma által meghatározott betűtípusokat tárolja.
+second_title: Aspose.Sildes a .NET API referencia számára
+description: A téma által meghatározott betűket tárolja.
 type: docs
-weight: 11230
+weight: 11250
 url: /hu/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme interfész
 
-Témához kapcsolódó betűtípusokat tárolja.
+A téma által meghatározott betűkészleteket tárolja.
 
 ```csharp
 public interface IFontScheme
@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | Név | Leírás |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Visszaadja a betűtípusok gyűjteményét a "heading" részhez a dián. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Visszaadja a betűtípusok gyűjteményét a "body" részhez a dián. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Visszaadja a betűtípus-séma nevét. Olvasás/írás String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Visszaadja a betűkészletek gyűjteményét a dia "heading" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Visszaadja a betűkészletek gyűjteményét a dia "body" részéhez. Csak olvasható [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Visszaadja a betűkészlet-séma nevét. Olvasható/írható String. |
 
 ### Lásd még
 

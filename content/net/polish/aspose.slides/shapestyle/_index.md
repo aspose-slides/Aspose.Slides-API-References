@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje odniesienie do stylu kształtu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje odwołanie do stylu kształtu.
 type: docs
-weight: 9890
+weight: 9910
 url: /pl/aspose.slides/shapestyle/
 ---
-## Klasa ShapeStyle
+## ShapeStyle klasa
 
-Reprezentuje odniesienie do stylu kształtu.
+Reprezentuje odwołanie do stylu kształtu.
 
 ```csharp
 public class ShapeStyle : DomObject<Shape>, IShapeStyle
@@ -21,7 +21,7 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 | [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Zwraca kolor efektu kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Zwraca lub ustawia indeks kolumny efektu kształtu w macierzy stylu. Odczyt/zapis UInt32. |
 | [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Zwraca kolor wypełnienia kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Zwraca lub ustawia indeks kolumny wypełnienia kształtu w macierzach stylów. 0 oznacza brak wypełnienia, dodatnia wartość - indeks w stylach wypełnienia motywu, ujemna wartość - indeks w stylach tła motywu. Odczyt/zapis Int16. |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Zwraca lub ustawia indeks kolumny wypełnienia kształtu w macierzach stylu. 0 oznacza brak wypełnienia, wartość dodatnia — indeks w stylach wypełnienia motywu, wartość ujemna — indeks w stylach tła motywu. Odczyt/zapis Int16. |
 | [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Zwraca lub ustawia indeks czcionki kształtu w kolekcji czcionek. Odczyt/zapis [`FontCollectionIndex`](../fontcollectionindex). |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Zwraca kolor czcionki kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Zwraca kolor konturu kształtu. Tylko do odczytu [`IColorFormat`](../icolorformat). |

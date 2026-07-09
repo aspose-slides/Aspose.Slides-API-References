@@ -1,37 +1,37 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट टेक्स्ट तत्वों के लिए स्वरूपण गुणों का प्रतिनिधित्व करता है।
+description: चार्ट टेक्स्ट तत्वों के फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 1980
 url: /hi/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat इंटरफ़ेस
 
-चार्ट टेक्स्ट तत्वों के लिए फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है।
+चार्ट टेक्स्ट तत्वों के फ़ॉर्मेटिंग प्रॉपर्टीज़ को दर्शाता है।
 
 ```csharp
 public interface IChartTextBlockFormat
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | TextFrame में ऊर्ध्वाधर एंकर टेक्स्ट को प्राप्त या सेट करता है। पढ़ें/लिखें [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | टेक्स्ट के ऑटोफिट मोड को प्राप्त या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | एक TextFrame में ऊर्ध्वाधर एंकर टेक्स्ट को लौटाता है या सेट करता है। पढ़ें/लिखें [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | टेक्स्ट के ऑटोफ़िट मोड को लौटाता है या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें [`TextAutofitType`](../../aspose.slides/textautofittype). |
 | [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | यदि NullableBool.True हो तो टेक्स्ट को बॉक्स में क्षैतिज रूप से केंद्रित किया जाना चाहिए। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | TextFrame में नीचे की मार्जिन (पॉइंट) को प्राप्त या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | TextFrame में बाएँ मार्जिन (पॉइंट) को प्राप्त या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | TextFrame में दाएँ मार्जिन (पॉइंट) को प्राप्त या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | TextFrame में ऊपर की मार्जिन (पॉइंट) को प्राप्त या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | बाउंडिंग बॉक्स के भीतर टेक्स्ट पर लागू कस्टम घूर्णन को निर्दिष्ट करता है। यदि निर्दिष्ट नहीं किया गया है तो साथ में आने वाले आकार का घूर्णन उपयोग किया जाता है। यदि निर्दिष्ट किया गया है तो यह आकार से स्वतंत्र रूप से लागू होता है। अर्थात् आकार पर अतिरिक्त घूर्णन लागू हो सकता है जबकि टेक्स्ट स्वयं पर भी घूर्णन लागू हो सकता है। इस गुण और प्रॉपर्टी TextVerticalType में पूर्वनिर्धारित वर्टिकल प्रकार से समग्र दृश्य टेक्स्ट घूर्णन मान प्राप्त होता है। पढ़ें/लिखें Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | टेक्स्ट अभिविन्यास निर्धारित करता है। इस गुण और प्रॉपर्टी RotationAngle में कस्टम कोण से समग्र दृश्य टेक्स्ट घूर्णन मान प्राप्त होता है। पढ़ें/लिखें [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** यदि टेक्स्ट TextFrame की मार्जिन पर लिपटा हुआ है। इस गुण को बदलने से केवल इन चार्ट भागों पर प्रभाव पड़ सकता है: DataLabel और DataLabelFormat (PowerPoint 2007/2013 में पूर्ण समर्थन)। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | एक TextFrame में निचला मार्जिन (पॉइंट) लौटाता है या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | एक TextFrame में बायाँ मार्जिन (पॉइंट) लौटाता है या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | एक TextFrame में दायाँ मार्जिन (पॉइंट) लौटाता है या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | एक TextFrame में ऊपर का मार्जिन (पॉइंट) लौटाता है या सेट करता है। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2013 में पूर्ण समर्थन; PowerPoint 2007 में रेंडरिंग पर कोई प्रभाव नहीं)। पढ़ें/लिखें Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | बाउंडिंग बॉक्स के भीतर टेक्स्ट पर लागू होने वाली कस्टम रोटेशन को निर्दिष्ट करता है। यदि यह निर्दिष्ट नहीं किया गया है, तो साथ वाली आकार की रोटेशन उपयोग की जाती है। यदि यह निर्दिष्ट है, तो यह आकार से स्वतंत्र रूप से लागू होती है। अर्थात् आकार पर रोटेशन लागू हो सकता है और टेक्स्ट पर भी रोटेशन लागू हो सकता है। इस गुण और प्रॉपर्टी TextVerticalType में निर्धारित वर्टिकल प्रकार से प्राप्त विज़ुअल टेक्स्ट रोटेशन का सम्मिलित मान। पढ़ें/लिखें Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | टेक्स्ट की अभिविन्यास निर्धारित करता है। इस गुण और प्रॉपर्टी RotationAngle में कस्टम कोण से प्राप्त विज़ुअल टेक्स्ट रोटेशन का सम्मिलित मान। पढ़ें/लिखें [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | यदि टेक्स्ट को TextFrame की मार्जिन पर रैप किया गया हो तो True। इस गुण को बदलने से केवल इन चार्ट भागों पर कुछ प्रभाव पड़ता है: DataLabel और DataLabelFormat (PowerPoint 2007/2013 में पूर्ण समर्थन)। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### देखें भी
+### संबंधित देखें
 
-* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

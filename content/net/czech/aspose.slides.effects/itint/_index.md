@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Tint. Posouvá hodnoty barvy efektu směrem k/od odstínu o zadané množství.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje efekt Tint. Posunuje hodnoty barvy efektu směrem k/od odstínu podle zadané hodnoty.
 type: docs
-weight: 3520
+weight: 3540
 url: /cs/aspose.slides.effects/itint/
 ---
 ## ITint rozhraní
 
-Reprezentuje efekt Tint. Posouvá hodnoty barvy efektu směrem k/od odstínu o zadané množství.
+Representuje efekt Tint. Posunuje hodnoty barvy efektu směrem k/od odstínu podle zadané hodnoty.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze ke čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze ke čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Viz také
 

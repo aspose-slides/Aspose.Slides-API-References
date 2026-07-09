@@ -1,14 +1,14 @@
 ---
 title: IEffect
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनीमेशन इफ़ेक्ट को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एनिमेशन इफ़ेक्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 490
 url: /hi/aspose.slides.animation/ieffect/
 ---
 ## IEffect इंटरफ़ेस
 
-एनीमेशन इफ़ेक्ट का प्रतिनिधित्व करता है।
+एनीमेशन इफ़ैक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IEffect
@@ -18,24 +18,24 @@ public interface IEffect
 
 | नाम | विवरण |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | इफ़ेक्ट के बाद के एनीमेशन रंग को परिभाषित करता है। Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | इफ़ेक्ट के बाद के एनीमेशन प्रकार को परिभाषित करता है। Read/write [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | इफ़ेक्ट के लिए एनीमेट टेक्स्ट प्रकार को परिभाषित करता है। शैलियों का टेक्स्ट अक्षर द्वारा, शब्द द्वारा या सभी एक साथ एनीमेट किया जा सकता है। Read/write [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | इफ़ेक्ट के लिए व्यवहार का संग्रह लौटाता है। Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | एनीमेटेड टेक्स्ट हिस्सों (शब्दों या अक्षरों) के बीच विलंब को परिभाषित करता है। एक सकारात्मक मान इफ़ेक्ट अवधि का प्रतिशत दर्शाता है। एक नकारात्मक मान सेकंड में विलंब दर्शाता है। Read/write Single. |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | इफ़ेक्ट की वर्ग को परिभाषित करता है। Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | इफ़ेक्ट के लिए एक क्रम लौटाता है। Read-only [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | इफ़ेक्ट के लिए एम्बेडेड साउंड को परिभाषित किया गया है। Read/write [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | यह विशेषता निर्धारित करती है कि क्या एनीमेशन इफ़ेक्ट पिछले साउंड को रोकता है। Read/write Boolean. |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | इफ़ेक्ट के उपप्रकार को परिभाषित करता है। Read/write [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | इफ़ेक्ट के लिए लक्ष्य शैप लौटाता है। Read-only [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | टेक्स्ट एनीमेशन लौटाता है। Read-only [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | इफ़ेक्ट के लिए टाइमिंग वैल्यू को परिभाषित करता है। Read/write [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | इफ़ेक्ट के प्रकार को परिभाषित करता है। Read/write [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | इफ़ैक्ट के लिए एनिमेशन के बाद का रंग निर्धारित करता है। पढ़ने/लिखने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | इफ़ैक्ट के लिए एनिमेशन के बाद का प्रकार निर्धारित करता है। पढ़ने/लिखने योग्य [`AfterAnimationType`](./afteranimationtype)। |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | इफ़ैक्ट के लिए एनीमेट टेक्स्ट प्रकार को परिभाषित करता है। आकार (शेप) का टेक्स्ट अक्षर-दर-अक्षर, शब्द-दर-शब्द या एक साथ एनीमेट किया जा सकता है। पढ़ने/लिखने योग्य [`AnimateTextType`](./animatetexttype)। |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | इफ़ैक्ट के लिए व्यवहार का संग्रह लौटाता है। पढ़ने/लिखने योग्य [`IBehaviorCollection`](../ibehaviorcollection)। |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | एनीमेटेड टेक्स्ट भागों (शब्द या अक्षर) के बीच विलंब को परिभाषित करता है। सकारात्मक मान इफ़ैक्ट अवधि का प्रतिशत दर्शाता है। नकारात्मक मान सेकंड में विलंब दर्शाता है। पढ़ने/लिखने योग्य Single। |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | इफ़ैक्ट की क्लास को परिभाषित करता है। पढ़ने/लिखने योग्य [`EffectPresetClassType`](../effectpresetclasstype)। |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | इफ़ैक्ट के लिए एक अनुक्रम लौटाता है। केवल पढ़ने योग्य [`ISequence`](../isequence)। |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | इफ़ैक्ट के लिए एम्बेडेड साउंड निर्धारित किया गया है। पढ़ने/लिखने योग्य [`IAudio`](../../aspose.slides/iaudio)। |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | यह गुण निर्दिष्ट करता है कि क्या एनीमेशन इफ़ैक्ट पिछले साउंड को रोकता है। पढ़ने/लिखने योग्य Boolean। |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | इफ़ैक्ट का उपप्रकार परिभाषित करता है। पढ़ने/लिखने योग्य [`EffectSubtype`](../effectsubtype)। |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | इफ़ैक्ट के लिए लक्ष्य आकार लौटाता है। केवल पढ़ने योग्य [`IShape`](../../aspose.slides/ishape)। |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | टेक्स्ट एनीमेशन लौटाता है। केवल पढ़ने योग्य [`ITextAnimation`](../itextanimation)। |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | इफ़ैक्ट के लिए टाइमिंग मान निर्धारित करता है। पढ़ने/लिखने योग्य [`ITiming`](../itiming)। |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | इफ़ैक्ट का प्रकार निर्धारित करता है। पढ़ने/लिखने योग्य [`EffectType`](../effecttype)। |
 
 ### देखें
 
-* नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
+* नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

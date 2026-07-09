@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes para .NET - Referência da API
-description: Representa uma coleção de pontos para dividir ponto em um gráfico bar-of-pie ou pie-of-pie com uma divisão personalizada.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa uma coleção de pontos para dividir ponto em um gráfico de barra-de-torta ou torta-de-torta com divisão personalizada.
 type: docs
-weight: 2350
+weight: 2370
 url: /pt/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection classe
 
-Representa uma coleção de pontos para dividir ponto em um gráfico bar-of-pie ou pie-of-pie com uma divisão personalizada.
+Representa uma coleção de pontos para dividir ponto em um gráfico de barra-de-torta ou torta-de-torta com divisão personalizada.
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -21,7 +21,7 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | Retorna ou define a contagem de pontos de dados do gráfico. Somente leitura Int32. |
 | [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | Obtém um valor que indica se a ICollection é somente leitura. Somente leitura Boolean. |
 | [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Retorna ponto de dados do gráfico para o índice especificado. |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | Retorna o ponto de dados do gráfico para o índice especificado. |
 | [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
@@ -33,7 +33,7 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | Remove todos os itens da ICollection. |
 | [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | Determina se a ICollection contém um valor específico. |
 | [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | Copia os elementos da ICollection para um Array, começando em um índice específico do Array. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | Remove item da coleção. |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | Remove item da coleção pelo seu índice na coleção de pontos da série pai. |
 

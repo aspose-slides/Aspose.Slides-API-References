@@ -1,12 +1,12 @@
 ---
 title: Row
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una riga in una tabella.
 type: docs
-weight: 9690
+weight: 9710
 url: /it/aspose.slides/row/
 ---
-## Classe Row
+## Row classe
 
 Rappresenta una riga in una tabella.
 
@@ -19,24 +19,24 @@ public sealed class Row : CellCollection, IRow
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Restituisce il numero di celle in una raccolta. Sola lettura Int32. |
-| [Height](../../aspose.slides/row/height) { get; } | Restituisce l'altezza di una riga. Sola lettura Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Height](../../aspose.slides/row/height) { get; } | Restituisce l’altezza di una riga. Sola lettura Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l’accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Sola lettura [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Restituisce o imposta l'altezza minima possibile di una riga. Lettura/scrittura Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione padre di una CellCollection. Sola lettura [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Restituisce l'oggetto RowFormat che contiene le proprietà di formattazione per questa riga. Sola lettura [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la slide padre di una CellCollection. Sola lettura [`IBaseSlide`](../ibaseslide). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Restituisce o imposta l’altezza minima possibile di una riga. Lettura/scrittura Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione principale di una CellCollection. Sola lettura [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | Restituisce l’oggetto RowFormat che contiene le proprietà di formattazione per questa riga. Sola lettura [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la diapositiva principale di una CellCollection. Sola lettura [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formato del paragrafo definite a tutti i paragrafi delle celle della riga. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formato della porzione definite a tutte le porzioni delle celle della riga. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formato del riquadro di testo definite a tutti i riquadri di testo delle celle della riga. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell’array specificato. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Restituisce un enumeratore che scorre la raccolta. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | Imposta le proprietà di formattazione dei paragrafi definite su tutti i paragrafi delle celle della riga. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | Imposta le proprietà di formattazione delle porzioni definite su tutte le porzioni delle celle della riga. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | Imposta le proprietà di formattazione dei riquadri di testo definite su tutti i riquadri di testo delle celle della riga. |
 
 ### Vedi anche
 

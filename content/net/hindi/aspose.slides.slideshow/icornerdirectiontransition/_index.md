@@ -1,6 +1,6 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: कोर्नर दिशा स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10060
@@ -18,10 +18,10 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-रीड [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नेमस्पेस [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

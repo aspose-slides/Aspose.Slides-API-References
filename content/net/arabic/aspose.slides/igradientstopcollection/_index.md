@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل مجموعة من نقاط التدرج.
+second_title: مرجع واجهة برمجة تطبيقات Aspose.Sildes لـ .NET
+description: يمثل مجموعة من إيقافات التدرج.
 type: docs
 weight: 6030
 url: /ar/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection واجهة
 
-Represnts a collection of gradient stops.
+يمثل مجموعة من إيقافات التدرج.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | إرجاع نقطة التدرج وفق الفهرس. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | يعيد إيقاف التدرج حسب الفهرس. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | يزيل جميع نقاط التدرج من المجموعة. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد بالمجموعة. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد بالمجموعة. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد بالمجموعة. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | يزيل نقطة التدرج في الفهرس المحدد. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | ينشئ إيقاف تدرج جديد ويضيفه إلى نهاية المجموعة. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | ينشئ إيقاف تدرج جديد ويضيفه إلى نهاية المجموعة. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | ينشئ إيقاف تدرج جديد ويضيفه إلى نهاية المجموعة. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | يزيل جميع إيقافات التدرج من مجموعة. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | ينشئ إيقاف تدرج جديد ويدخله في الفهرس المحدد داخل المجموعة. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | ينشئ إيقاف تدرج جديد ويدخله في الفهرس المحدد داخل المجموعة. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | ينشئ إيقاف تدرج جديد ويدخله في الفهرس المحدد داخل المجموعة. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | يزيل إيقاف تدرج عند الفهرس المحدد. |
 
 ### انظر أيضًا
 

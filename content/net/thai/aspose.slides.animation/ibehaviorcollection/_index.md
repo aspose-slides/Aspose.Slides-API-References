@@ -1,14 +1,14 @@
 ---
 title: IBehaviorCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของเอฟเฟกต์พฤติกรรม.
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงคอลเลกชันของเอฟเฟกต์พฤติกรรม
 type: docs
 weight: 420
 url: /th/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของเอฟเฟกต์พฤติกรรม
+แสดงคอลเลกชันของเอฟเฟกต์พฤติกรรม
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
@@ -18,21 +18,21 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | คืนค่า IEnumerable อินเทอร์เฟซ. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | คืนค่าจำนวนของ behavior ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | คืนค่า behavior ที่ตำแหน่งที่ระบุ. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | ส่งคืนอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | ส่งคืนจำนวนของพฤติกรรมในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | ส่งคืนพฤติกรรมที่ตำแหน่งที่ระบุ. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | เพิ่ม behavior ใหม่ลงในคอลเลกชัน. |
-| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | ลบ behavior ทั้งหมดออกจากคอลเลกชัน. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | เพิ่มพฤติกรรมใหม่ไปยังคอลเลกชัน. |
+| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | ลบพฤติกรรมทั้งหมดออกจากคอลเลกชัน. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | กำหนดว่าคอลเลกชัน ICollection มีค่าที่ระบุหรือไม่. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | กำหนดตำแหน่งของรายการที่ระบุใน IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | แทรก behavior ใหม่ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | ลบ behavior ที่ระบุออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | ลบ behavior จากคอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | กำหนดดัชนีของรายการที่ระบุใน IList. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | แทรกพฤติกรรมใหม่ไปยังคอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | ลบพฤติกรรมที่ระบุออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | ลบพฤติดกรรมจากคอลเลกชันที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

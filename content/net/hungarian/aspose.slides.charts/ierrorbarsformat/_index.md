@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: A diagram sorozat hibasávjait képviseli. Az ErrorBars egyéni értékei az IChartDataPointCollection-ban találhatók az ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues tulajdonságban.
 type: docs
-weight: 2070
+weight: 2090
 url: /hu/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat interfész
 
-A diagram sorozat hibasávjait képviseli. Az ErrorBars egyéni értékei az IChartDataPointCollection-ban találhatók (a [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) tulajdonságban).
+A diagram sorozat hibasávjait képviseli. Az ErrorBars egyéni értékei az IChartDataPointCollection (a [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) tulajdonságban) találhatók.
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -18,13 +18,13 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Visszaadja az IChartComponent interfészt. Csak olvasható [`IChartComponent`](../ichartcomponent). |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | A hibasávok formátumát képviseli. Olvasható/írható [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Megadja, hogy a hibasávok végén nem jelenik meg kapocspont. Olvasható/írható Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | A hibasávok láthatóságát kapja vagy állítja be. Olvasható/írható Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | A hibasávok típusát kapja vagy állítja be. Olvasható/írható [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | A hibasávok hosszának meghatározásához a Fixed, Percentage és StandardDeviation értéktípusokkal használt értéket kapja vagy állítja be. Olvasható/írható Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | A hibasávok hosszának meghatározásának lehetséges módjait képviseli. Egyéni értéktípus esetén az érték megadásához használja a [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) tulajdonságot a sorozat DataPoints gyűjteményének adott adatpontjában. Olvasható/írható [`ErrorBarValueType`](../errorbarvaluetype). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Visszaadja az IChartComponent interfészt. Írásvédett [`IChartComponent`](../ichartcomponent). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | A hibasávok formátumát képviseli. Olvasás/írás [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Megadja, hogy a hibasávok végén nincs végcsúcs rajzolva. Olvasás/írás Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | A hibasávok láthatóságát adja vissza vagy állítja be. Olvasás/írás Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | A hibasávok típusát adja vissza vagy állítja be. Olvasás/írás [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | A hibasávok hosszának meghatározásához a Fixed, Percentage és StandardDeviation értéktípusokkal használt értéket adja vissza vagy állítja be. Olvasás/írás Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | A hibasávok hosszának meghatározásának lehetséges módjait képviseli. Egyéni értéktípus esetén az érték megadásához használja a [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) tulajdonságot a sorozat DataPoints gyűjteményének konkrét adatpontjában. Olvasás/írás [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Lásd még
 

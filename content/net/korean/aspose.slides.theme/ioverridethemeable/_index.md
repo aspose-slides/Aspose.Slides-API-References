@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: override 테마 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 오버라이드 테마 관리자를 나타냅니다.
 type: docs
 weight: 11360
 url: /ko/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable 인터페이스
 
-override 테마 관리자를 나타냅니다.
+오버라이드 테마 관리자를 나타냅니다.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,9 +19,9 @@ public interface IOverrideThemeable : IThemeable
 | 이름 | 설명 |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | IThemeable 인터페이스를 반환합니다. 읽기 전용 [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | override 테마 관리자를 반환합니다. 읽기 전용 [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | 오버라이드 테마 관리자를 반환합니다. 읽기 전용 [`IOverrideThemeManager`](../ioverridethememanager). |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IThemeable](../ithemeable)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

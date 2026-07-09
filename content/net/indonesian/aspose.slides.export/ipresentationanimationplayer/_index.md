@@ -3,7 +3,7 @@ title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili pemutar animasi. Animasi dihasilkan oleh PresentationAnimationsGenerator./presentationanimationsgenerator melalui peristiwa NewAnimation./presentationanimationsgenerator/newanimation.
 type: docs
-weight: 4010
+weight: 4030
 url: /id/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer antarmuka
@@ -24,8 +24,8 @@ public interface IPresentationAnimationPlayer
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Dapatkan frame untuk posisi waktu saat ini yang sebelumnya ditetapkan dengan metode [`SetTimePosition`](./settimeposition). |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Tetapkan posisi waktu animasi dalam [`Duration`](./duration). |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | Dapatkan frame untuk posisi waktu saat ini yang sebelumnya diatur dengan metode [`SetTimePosition`](./settimeposition). |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | Atur posisi waktu animasi dalam [`Duration`](./duration). |
 
 ### Contoh
 

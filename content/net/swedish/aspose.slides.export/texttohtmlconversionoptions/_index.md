@@ -3,7 +3,7 @@ title: TextToHtmlConversionOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Alternativ för att extrahera HTML från Pptx-texten.
 type: docs
-weight: 4530
+weight: 4550
 url: /sv/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions klass
@@ -18,16 +18,16 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Standardkonstruktören. |
+| [TextToHtmlConversionOptions](texttohtmlconversionoptions)() | Standardkonstruktorn. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Returnerar eller anger värde som indikerar om Clipboard-rubriker ska läggas till. Läs/skriv Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Returnerar eller anger namn på HTML-kodning. Detta värde kommer att sparas i den genererade HTML-filen, men det är upp till anroparen att säkerställa att filen sparas i denna kodning. Läs/skriv String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Returnerar eller anger ett återuppringningsobjekt som styr hur ett externt objekt ska lagras. Läs/skriv [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Returnerar eller anger djupet för inbäddning av textegenskaper. Läs/skriv [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Returnerar eller anger värdet, vilket indikerar om Clipboard-rubriker ska läggas till. Läs/skriv Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Returnerar eller anger namn på HTML-kodning. Detta värde kommer att sparas i den genererade HTML-filen, men det är upp till anroparen att säkerställa att filen sparas med denna kodning. Läs/skriv String. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Returnerar eller anger ett återuppringningsobjekt som styr hur externt objekt ska lagras. Läs/skriv [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Returnerar eller anger ärvd djup för textegenskaper. Läs/skriv [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Se även
 

@@ -19,7 +19,7 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | 이름 | 설명 |
 | --- | --- |
 | [SVGOptions](svgoptions#constructor)() | SVGOptions 클래스의 새 인스턴스를 초기화합니다. |
-| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | 링크 임베딩 컨트롤러 개체를 지정하여 SVGOptions 클래스의 새 인스턴스를 초기화합니다. |
+| [SVGOptions](svgoptions#constructor_1)(ILinkEmbedController) | 링크 포함 컨트롤러 객체를 지정하여 SVGOptions 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
@@ -28,27 +28,27 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 | static [Default](../../aspose.slides.export/svgoptions/default) { get; } | 기본 설정을 반환합니다. 읽기 전용 [`SVGOptions`](../svgoptions). |
 | static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | 가장 간단하고 작은 SVG 파일 생성을 위한 설정을 반환합니다. 읽기 전용 [`SVGOptions`](../svgoptions). |
 | static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | 가장 정확한 SVG 파일 생성을 위한 설정을 반환합니다. 읽기 전용 [`SVGOptions`](../svgoptions). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 크롭된 부분이 문서의 일부로 남아 있는지 여부를 나타내는 Boolean 플래그입니다. true이면 크롭된 부분이 제거되고, false이면 문서에 직렬화됩니다(파일 크기가 커질 수 있습니다). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없는 경우 사용되는 폰트를 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 자른 부분을 문서의 일부로 유지할지 여부를 나타내는 부울 플래그입니다. true이면 자른 부분이 제거되고, false이면 문서에 직렬화됩니다(파일 크기가 커질 수 있음) |
 | [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | SVG에서 3D 텍스트가 비활성화되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 리거처(ligatures)를 사용하지 않고 텍스트를 렌더링할지 여부를 나타내는 값을 가져오거나 설정합니다. 속성을 `true` 로 설정하면 렌더링된 출력에서 리거처가 비활성화됩니다. 기본적으로 이 속성은 `false` 로 설정되어 있습니다. |
-| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | FromCornerX 및 FromCenter 그라데이션 분할을 비활성화합니다. 읽기/쓰기 Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1은 마커에 대한 인셋을 정의할 수 없습니다. Aspose.Slides SVG 작성 엔진은 해당 문제에 대한 해결책으로 화살표가 있는 선 끝을 잘라 마커와 겹치지 않게 합니다. 이 옵션을 사용하면 해당 동작이 비활성화됩니다. 읽기/쓰기 Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 텍스트가 합자를 사용하지 않고 렌더링되는지를 나타내는 값을 반환하거나 설정합니다. `true`로 설정하면 렌더링된 출력에서 합자가 비활성화됩니다. 기본값은 `false`입니다. |
+| [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | FromCornerX 및 FromCenter 그라디언트 분할을 비활성화합니다. 읽기/쓰기 Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1은 마커에 대한 인셋 정의 기능이 없습니다. Aspose.Slides SVG 작성 엔진은 이 문제에 대한 해결책으로 화살표가 있는 선의 끝을 잘라 마커가 겹치지 않도록 합니다. 이 옵션은 해당 동작을 끕니다. 읽기/쓰기 Boolean. |
 | [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | 외부에서 로드된 폰트를 처리하는 방식을 결정합니다. 읽기/쓰기 [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라데이션의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | 내보낸 문서에서 Ink 객체의 모양을 제어하는 옵션을 제공합니다. 읽기 전용 [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | JPEG 인코딩 품질을 결정합니다. 읽기/쓰기 Int32. |
 | [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | 메타파일 래스터화에 대한 최소 해상도 제한을 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 | [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | 그림 압축 수준을 나타냅니다. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행률 업데이트를 제공하는 콜백 개체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)을(를) 참조하십시오. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 진행률 업데이트를 백분율로 저장하는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
 | [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | 사용자가 도형 변환을 제어할 수 있도록 하는 콜백 인터페이스를 반환하고 설정합니다. 읽기/쓰기 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
-| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 렌더링 시 지정된 도형 회전을 수행할지 여부를 결정합니다. 읽기/쓰기 Boolean. 기본값은 true입니다. |
-| [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | 텍스트 프레임을 렌더링 영역에 포함할지 여부를 결정합니다. 읽기/쓰기 Boolean. 기본값은 false입니다. |
+| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 렌더링 시 도형에 지정된 회전을 수행할지 여부를 결정합니다. 읽기/쓰기 Boolean. 기본값은 true입니다. |
+| [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | 텍스트 프레임을 렌더링 영역에 포함시킬지 여부를 결정합니다. 읽기/쓰기 Boolean. 기본값은 false입니다. |
 | [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | 슬라이드의 텍스트를 그래픽으로 저장할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속 진행할지 중단할지 결정하는 개체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 과정이 계속될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### 참고
+### 참조
 
 * 클래스 [SaveOptions](../saveoptions)
 * 인터페이스 [ISVGOptions](../isvgoptions)

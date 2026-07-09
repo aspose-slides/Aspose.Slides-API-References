@@ -1,14 +1,14 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Sildes .NET API Referencia
-description: A sorozat adatpontját ábrázolja.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: A sorozat adatpontját jelöli.
 type: docs
-weight: 1800
+weight: 1820
 url: /hu/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interfész
 
-Ábrázolja a sorozat adatpontját.
+A sorozat adatpontját jelöli.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -19,19 +19,19 @@ public interface IChartDataPoint : IActualLayout
 | Név | Leírás |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Visszaadja az IActualLayout interfészt. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Visszaadja a diagram adatpont buborékméretét. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Visszaadja a diagram adatpont buborék méretét. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
 | [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Visszaadja a diagram adatpont színértékét. Térképes diagramoknál használatos. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Visszaadja az adatpont szintek tárolóját. Treeamp és Sunburst sorozatoknál alkalmazott. Az adatpont szintek indexelése nulláról indul. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Ábrázolja a sorozat hibasáv értékeit egyedi értéktípus esetén. Csak olvasható [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Megadja azt az összeget, amellyel az adatpontot a kördiagram középpontjától el kell tolni. Olvasható/írható Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Ábrázolja a formázási tulajdonságokat. Olvasható/írható [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Meghatározza, hogy a szülő gyermekgyűjteményének melyik elemére vonatkozik ez az adatpont. Olvasható UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Megadja, hogy az adatpont negatív érték esetén invertálja a színeit. Olvasható/írható Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Megadja, hogy a buborékokra 3D effektus legyen alkalmazva. Olvasható/írható Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Ábrázolja a diagram adatpont címkéjét. Csak olvasható [`IDataLabel`](../idatalabel). |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Megad egy adatjelölőt. Csak olvasható [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Az adott diagramtípushoz tartozó legendabejegyzés tulajdonságai a következő listából: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Csak olvasható [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Az adatpontot összegként állítja be. Csak Waterfall sorozattípusnál alkalmazott. |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Visszaadja az adatpont szintek tárolóját. Treeamp és Sunburst sorozatoknál alkalmazott. Az adatpont szintek indexelése nulla alapú. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | A sorozat hibasávértékeit jelöli egyéni értéktípus esetén. Csak olvasható [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Megadja, hogy az adatpont mennyivel kerüljön el a kör diagram középpontjától. Olvasás/írás Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | A formázási tulajdonságokat jelöli. Olvasás/írás [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Meghatározza, hogy a szülő gyermekgyűjteményének melyik elemére vonatkozik ez az adatpont. Csak olvasás UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Megadja, hogy az adatpont negatív érték esetén megfordítsa-e a színeket. Olvasás/írás Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Megadja, hogy a buborékok 3D hatással rendelkeznek. Olvasás/írás Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | A diagram adatpont címkéjét jelöli. Csak olvasható [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Adatjelölőt határoz meg. Csak olvasható [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | A megfelelő jelmagyarázat bejegyzés tulajdonságai az alábbi diagramtípus esetén: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Csak olvasható [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Az adatpontot összegként állítja be. Csak a Waterfall sorozattípusnál alkalmazható. |
 | [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Visszaadja a diagram adatpont méretértékét. Treemap és Sunburst diagramoknál használatos. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Visszaadja a diagram adatpont értékét. Csak olvasható [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Visszaadja a diagram adatpont x értékét. Csak olvasható [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
@@ -41,7 +41,7 @@ public interface IChartDataPoint : IActualLayout
 
 | Név | Leírás |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Visszaad egy automatikus színt az adatponthoz a sorozat index, adatpont index, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagram stílusa alapján. Ez a szín alapértelmezés szerint használatos, ha a FillType értéke NotDefined. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Visszaad egy automatikus színt az adatpont számára a sorozat index, az adatpont index, a ParentSeriesGroup.IsColorVaried tulajdonság és a diagram stílusa alapján. Ez a szín alapértelmezés szerint akkor használatos, ha a FillType értéke NotDefined. |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Eltávolítja a DataPoint-ot a diagram sorozatból. |
 
 ### Lásd még

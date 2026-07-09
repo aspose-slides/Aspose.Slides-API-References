@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes .NET API 參考
-description: 用於以 EOT 格式嵌入字型的格式化控制器類別
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 用於將字型嵌入 EOT 格式的格式化控制器類別
 type: docs
 weight: 3780
 url: /zh-hant/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController 類別
 
-用於以 EOT 格式嵌入字型的格式化控制器類別
+用於將字型嵌入 EOT 格式的格式化控制器類別
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

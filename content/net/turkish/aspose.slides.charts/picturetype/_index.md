@@ -1,12 +1,12 @@
 ---
 title: PictureType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Çubuk resmi doldurma modunu belirler.
 type: docs
-weight: 2340
+weight: 2360
 url: /tr/aspose.slides.charts/picturetype/
 ---
-## PictureType enum
+## PictureType numaralandırması
 
 Çubuk resmi doldurma modunu belirler.
 
@@ -19,9 +19,9 @@ public enum PictureType
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış. |
-| Stack | `0` | Resim, en uzun yığılmış çubukta en fazla 15 kez tekrarlanacak şekilde boyutlandırılır. |
+| Stack | `0` | Resim, en uzun birikmiş çubukta en fazla 15 kez tekrarlanacak şekilde boyutlandırılır. |
 | StackScale | `1` | Resim, belirtilen birim sayısına göre boyutlandırılır ve çubuğun uzunluğu boyunca tekrarlanır. |
-| Stretch | `2` | Resim, yığılmış çubuğun tam uzunluğuna kadar uzatılır. |
+| Stretch | `2` | Resim, birikmiş çubuğun tam uzunluğuna kadar uzatılır. |
 
 ### Ayrıca Bakınız
 

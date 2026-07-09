@@ -1,6 +1,6 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 전환 효과에 대한 기본 클래스.
 type: docs
 weight: 10460
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase 클래스
 
-슬라이드 전환 효과에 대한 기본 클래스.
+슬라이드 전환 효과를 위한 기본 클래스입니다.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -19,9 +19,9 @@ public class TransitionValueBase : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해싱 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đóng gói cơ sở hạ tầng dịch vụ cơ bản cho các đối tượng có thể là chủ thể của kế thừa giá trị thuộc tính.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Bao gói cơ sở hạ tầng dịch vụ cơ bản cho các đối tượng có thể là chủ thể của việc kế thừa giá trị thuộc tính.
 type: docs
 weight: 9270
 url: /vi/aspose.slides/pviobject/
 ---
 ## PVIObject lớp
 
-Đóng gói cơ sở hạ tầng dịch vụ cơ bản cho các đối tượng có thể là chủ thể của kế thừa giá trị thuộc tính.
+Bao gói cơ sở hạ tầng dịch vụ cơ bản cho các đối tượng có thể là chủ thể của việc kế thừa giá trị thuộc tính.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,7 +18,7 @@ public abstract class PVIObject : ISlideComponent
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ sở. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## Phương thức
 

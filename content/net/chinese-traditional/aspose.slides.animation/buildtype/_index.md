@@ -1,14 +1,14 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes for .NET API 參考
-description: 決定文字在動畫期間於形狀上如何顯示。
+description: 決定文字在動畫期間於圖形上的顯示方式。
 type: docs
 weight: 210
 url: /zh-hant/aspose.slides.animation/buildtype/
 ---
 ## BuildType 列舉
 
-決定文字在動畫期間如何顯示於形狀上。
+決定文字在動畫期間於圖形上的顯示方式。
 
 ```csharp
 public enum BuildType
@@ -20,11 +20,11 @@ public enum BuildType
 | --- | --- | --- |
 | AsOneObject | `0` | 與包含的形狀一起。 |
 | AllParagraphsAtOnce | `1` | 所有段落。 |
-| ByLevelParagraphs1 | `2` | 深度為 1 的段落群組。 |
-| ByLevelParagraphs2 | `3` | 深度為 2 的段落群組。 |
-| ByLevelParagraphs3 | `4` | 深度為 3 的段落群組。 |
-| ByLevelParagraphs4 | `5` | 深度為 4 的段落群組。 |
-| ByLevelParagraphs5 | `6` | 深度為 5 的段落群組。 |
+| ByLevelParagraphs1 | `2` | 依深度1的段落群組。 |
+| ByLevelParagraphs2 | `3` | 依深度2的段落群組。 |
+| ByLevelParagraphs3 | `4` | 依深度3的段落群組。 |
+| ByLevelParagraphs4 | `5` | 依深度4的段落群組。 |
+| ByLevelParagraphs5 | `6` | 依深度5的段落群組。 |
 
 ### 參見
 

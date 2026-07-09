@@ -1,7 +1,7 @@
 ---
 title: ITextFrameFormat
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحتوي على خصائص تنسيق TextFrames.
+description: يتضمن خصائص تنسيق TextFrames.
 type: docs
 weight: 7280
 url: /ar/aspose.slides/itextframeformat/
@@ -18,32 +18,32 @@ public interface ITextFrameFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | يعيد أو يضبط النص المرتكز عموديًا في TextFrame. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | يعيد أو يضبط وضع التكييف التلقائي للنص. قراءة/كتابة [`TextAutofitType`](../textautofittype). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | إرجاع أو تعيين نص الارتكاز العمودي في TextFrame. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | إرجاع أو تعيين وضع الملائمة الذاتية للنص. قراءة/كتابة [`TextAutofitType`](../textautofittype). |
 | [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | إذا كان NullableBool.True فإن النص يجب أن يُوسَّط أفقياً داخل الصندوق. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | يعيد أو يضبط عدد الأعمدة في منطقة النص. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا فسيتم ضبط القيمة إلى صفر. القيمة 0 تعني قيمة غير معرفة. قراءة/كتابة Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | يعيد أو يضبط المسافة بين أعمدة النص في منطقة النص (نقطة). يجب أن يُطبق ذلك فقط عندما يكون هناك أكثر من عمود واحد. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا فسيتم ضبط القيمة إلى صفر. قراءة/كتابة Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | يعيد أو يضبط إبعاد النص بالكامل عن المشهد ثلاثي الأبعاد. قراءة/كتابة Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | يعيد أو يضبط الهوامش السفلية (نقطة) في TextFrame. قراءة/كتابة Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | يعيد أو يضبط الهوامش اليسرى (نقطة) في TextFrame. قراءة/كتابة Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | يعيد أو يضبط الهوامش اليمنى (نقطة) في TextFrame. قراءة/كتابة Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | يعيد أو يضبط الهوامش العلوية (نقطة) في TextFrame. قراءة/كتابة Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | يحدد الدوران المخصص الذي يُطبق على النص داخل الصندوق الحدودي. إذا لم يُحدد، يُستَخدم دوران الشكل المرافق. إذا تم تحديده، يُطبق بشكل مستقل عن الشكل. أي أن الشكل يمكن أن يكون له دوران بالإضافة إلى دوران النص نفسه. يتم تلخيص القيمة الناتجة لدوران النص البصري من هذه الخاصية والنوع العمودي المحدد مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | يعيد نمط النص. قراءة فقط [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | يحدد اتجاه النص. يتم تلخيص القيمة الناتجة لدوران النص البصري من هذه الخاصية والز angle المخصص في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | يعيد كائن ThreeDFormat الذي يمثل خصائص التأثير ثلاثي الأبعاد للنص. قراءة فقط [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | يعيد أو يضبط شكل طي النص. قراءة/كتابة [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** إذا كان النص مطويًا عند هوامش TextFrame. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | إرجاع أو تعيين عدد الأعمدة في منطقة النص. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا سيتم ضبط القيمة إلى صفر. القيمة 0 تعني قيمة غير معرفة. قراءة/كتابة Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | إرجاع أو تعيين المسافة بين أعمدة النص في منطقة النص (بنقاط). يجب أن يُطبق هذا فقط عندما يوجد أكثر من عمود واحد. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا سيتم ضبط القيمة إلى صفر. قراءة/كتابة Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | إرجاع أو تعيين إبقاء النص خارج مشهد ثلاثي الأبعاد تمامًا. قراءة/كتابة Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | إرجاع أو تعيين الهامش السفلي (بنقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | إرجاع أو تعيين الهامش الأيسر (بنقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | إرجاع أو تعيين الهامش الأيمن (بنقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | إرجاع أو تعيين الهامش العلوي (بنقاط) في TextFrame. قراءة/كتابة Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | يحدد الدوران المخصص المطبق على النص داخل الصندوق المحيط. إذا لم يُحدد، يُستخدم دوران الشكل المرافق. إذا تم تحديده، يُطبق بشكل مستقل عن الشكل. أي أن الشكل يمكن أن يكون له دوران بالإضافة إلى أن النص نفسه لديه دوران يُطبق عليه. القيمة الناتجة للدوران البصري للنص تُلخص من هذه الخاصية والنوع العمودي المحدد مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | إرجاع نمط النص. قراءة فقط [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | يحدد اتجاه النص. القيمة الناتجة للدوران البصري للنص تُلخص من هذه الخاصية والزاوية المخصصة في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | إرجاع كائن ThreeDFormat الذي يمثل خصائص التأثير ثلاثي الأبعاد للنص. قراءة فقط [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | إرجاع أو تعيين شكل لف النص. قراءة/كتابة [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** إذا كان النص مُلتفًا عند هوامش TextFrame. قراءة/كتابة [`NullableBool`](../nullablebool). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | يعيد بيانات تنسيق إطار النص الفعّالة مع تطبيق الوراثة. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | إرجاع بيانات تنسيق إطار النص الفعّالة مع تطبيق الوراثة. |
 
 ### انظر أيضًا
 
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
 second_title: Aspose.Sildes .NET API Referansı
-description: Alfa İnvers etkisini temsil eder. Alfa opaklık değerleri %100'den çıkarılarak ters çevrilir.
+description: Alpha Ters etkisini temsil eder. Alpha opaklık değerleri %100'den çıkarılarak ters çevrilir.
 type: docs
-weight: 3060
+weight: 3080
 url: /tr/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse arayüz
 
-Alfa Invers etkisini temsil eder. Alfa (opaklık) değerleri %100'den çıkarılarak ters çevrilir.
+Alpha Ters etkisini temsil eder. Alpha (opaklık) değerleri %100'den çıkarılarak ters çevrilir.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphainverse/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphainverse/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ayrıca Bakınız
 

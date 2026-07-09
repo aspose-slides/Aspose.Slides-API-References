@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चार्ट के घटक का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक चार्ट का घटक दर्शाता है।
 type: docs
 weight: 1790
 url: /hi/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent इंटरफ़ेस
 
-चार्ट का एक घटक दर्शाता है।
+एक चार्ट का घटक दर्शाता है।
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,10 +18,10 @@ public interface IChartComponent : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | चार्ट लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-रीड [`ISlideComponent`](../../aspose.slides/islidecomponent)। |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | चार्ट लौटाता है। केवल-रीड [`IChart`](../ichart)। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [ISlideComponent](../../aspose.slides/islidecomponent)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

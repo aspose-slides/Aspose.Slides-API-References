@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Presentation과 연관된 애니메이션 플레이어를 나타냅니다../aspose.slides/presentation.
+second_title: Aspose.Sildes for .NET API 참조
+description: Presentation../aspose.slides/presentation와 연관된 애니메이션 플레이어를 나타냅니다.
 type: docs
 weight: 4390
 url: /ko/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer 클래스
 
-연관된 [`Presentation`](../../aspose.slides/presentation)와 관련된 애니메이션 플레이어를 나타냅니다.
+연관된 [`Presentation`](../../aspose.slides/presentation)의 애니메이션 플레이어를 나타냅니다.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -16,25 +16,25 @@ public class PresentationPlayer : IDisposable
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | 새로운 [`PresentationPlayer`](../presentationplayer) 인스턴스를 생성합니다. |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | 새 인스턴스를 생성합니다 [`PresentationPlayer`](../presentationplayer). |
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | 프레임 인덱스를 가져옵니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer) 인스턴스를 해제합니다. |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | [`PresentationPlayer`](../presentationplayer)의 인스턴스를 해제합니다. |
 
 ## 기타 멤버
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | delegate [FrameTickHandler](presentationplayer.frametickhandler) | [`FrameTick`](./frametick) 이벤트의 프레임 틱 핸들러를 나타냅니다. |
 

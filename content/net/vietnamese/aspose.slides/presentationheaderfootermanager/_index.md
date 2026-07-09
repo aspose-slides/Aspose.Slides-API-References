@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho trình quản lý giữ hành vi của tất cả các trình giữ chỗ chân trang, ngày-giờ và số trang của bản trình chiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý chứa hành vi của tất cả các trình giữ chỗ chân trang, ngày-giờ và số trang của bản trình bày.
 type: docs
 weight: 9610
 url: /vi/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager lớp
 
-Đại diện cho trình quản lý chứa hành vi của tất cả các trình giữ chỗ chân trang, ngày-giờ và số trang của bản trình chiếu.
+Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,20 +19,20 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ ngày-giờ, bao gồm slide master, slide bố cục, slide, master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ ngày-giờ, bao gồm slide master, slide bố cục, slide, master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ chân trang, bao gồm slide master, slide bố cục, slide, master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ chân trang, bao gồm slide master, slide bố cục, slide, master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ đầu trang, bao gồm master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ đầu trang, bao gồm master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ số trang, bao gồm slide master, slide bố cục, slide, master ghi chú, slide ghi chú và master tài liệu phát. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Thay đổi khả năng hiển thị của các trình giữ chỗ chân trang, ngày-giờ và số trang cho tất cả các slide tiêu đề và cho slide bố cục đầu tiên. Slide tiêu đề – các slide dựa trên slide bố cục đầu tiên (bất kể loại của bố cục đầu tiên này). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ ngày-giờ, bao gồm các slide mẫu, slide bố cục, slide, notes master, notes slide và handout master. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ ngày-giờ, bao gồm các slide mẫu, slide bố cục, slide, notes master, notes slide và handout master. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ chân trang, bao gồm các slide mẫu, slide bố cục, slide, notes master, notes slide và handout master. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ chân trang, bao gồm các slide mẫu, slide bố cục, slide, notes master, notes slide và handout master. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Đặt văn bản cho tất cả các trình giữ chỗ tiêu đề, bao gồm notes master, notes slide và handout master. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ tiêu đề, bao gồm notes master, notes slide và handout master. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của tất cả các trình giữ chỗ số trang, bao gồm các slide mẫu, slide bố cục, slide, notes master, notes slide và handout master. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Thay đổi khả năng hiển thị của các trình giữ chỗ chân trang, ngày-giờ và số trang cho tất cả các slide tiêu đề và cho slide bố cục đầu tiên. Slide tiêu đề – các slide dựa trên slide bố cục đầu tiên (bất kể loại của bố cục đầu tiên). |
 
 ### Xem thêm
 
 * lớp [BaseHeaderFooterManager](../baseheaderfootermanager)
 * giao diện [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en regel för typsnittsersättning
+description: Representerar en regel för teckensnittsbyte
 type: docs
-weight: 4860
+weight: 4880
 url: /sv/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition enumeration
+## FontSubstCondition-enumeration
 
-Representerar en regel för typsnittsersättning
+Representerar en regel för teckensnittsbyte
 
 ```csharp
 public enum FontSubstCondition
@@ -18,10 +18,10 @@ public enum FontSubstCondition
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| WhenInaccessible | `0` | Ersätt när font inte hittas |
+| WhenInaccessible | `0` | Ersätt när teckensnittet inte hittas |
 | Always | `1` | Ersätt alltid |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

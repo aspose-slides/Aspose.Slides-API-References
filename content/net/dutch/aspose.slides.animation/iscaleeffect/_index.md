@@ -1,28 +1,28 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Slides voor .NET API-referentie
-description: Stelt een animatieschaaleffect voor.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Geeft een animatieschaaleffect weer.
 type: docs
 weight: 580
 url: /nl/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect interface
 
-Stelt een animatieschaaleffect voor.
+Geeft een animatieschaaleffect weer.
 
 ```csharp
 public interface IScaleEffect : IBehavior
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Maakt het mogelijk de basis IBehavior interface op te halen. Alleen-lezen [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Staat toe de basis IBehavior interface op te halen. Alleen-lezen [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | beschrijft de relatieve offsetwaarde voor de animatie (in procenten). Lezen/schrijven PointF. |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Specificeert een x/y-coördinaat om de animatie te starten (in procenten). Lezen/schrijven PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Specificeert de doelpositie voor een animatieschaaleffect (in procenten). Lezen/schrijven PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Bepaalt of een inhoud moet worden ingezoomd. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | specificeert een x/y-coördinaat om de animatie van te starten (in procenten). Lezen/schrijven PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | specificeert de doel locatie voor een animatieschaaleffect (in procenten). Lezen/schrijven PointF. |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | bepaalt of een inhoud ingezoomd moet worden. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Zie ook
 

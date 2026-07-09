@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 외부에서 관리되는 HttpClient 인스턴스를 사용하여 AI 모델에 채팅 지시를 보내고, 지정된 지시문에 대한 응답 메시지를 반환합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 외부에서 관리되는 HttpClient 인스턴스를 사용하여 AI 모델에 채팅 명령을 전송하고, 주어진 명령에 대한 응답 메시지를 반환합니다.
 type: docs
 weight: 20
 url: /ko/aspose.slides.ai/openaicompatiblewebclient/callchatasync/
 ---
 ## OpenAICompatibleWebClient.CallChatAsync 메서드
 
-외부에서 관리되는 `HttpClient` 인스턴스를 사용하여 AI 모델에 채팅 지시를 보내고, 해당 지시문에 대한 응답 메시지를 반환합니다.
+외부에서 관리되는 `HttpClient` 인스턴스를 사용하여 AI 모델에 채팅 명령을 보내고, 주어진 명령에 대한 응답 메시지를 반환합니다.
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -16,17 +16,17 @@ public Task<string> CallChatAsync(string instruction)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| instruction | String | AI 모델이 처리할 지시문 또는 메시지. |
+| instruction | String | AI 모델에 의해 처리될 명령 또는 메시지. |
 
-### 반환값
+### 반환 값
 
-주어진 지시문에 대한 응답으로 AI 모델이 생성한 메시지.
+주어진 명령에 대한 응답으로 AI 모델이 생성한 메시지.
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentException | OpenAI 호환 채팅 지시문은 null이거나 비어 있을 수 없습니다 |
+| ArgumentException | OpenAI 호환 채팅 명령은 null이거나 비어 있을 수 없습니다. |
 
 ### 참조
 

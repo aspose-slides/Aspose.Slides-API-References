@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایشگر مجموعه‌ای از تمام اسلایدهای طرح‌بندی در ارائه. کلاس LayoutSlideCollection را با متدهایی برای افزودن/کپی‌کردن اسلایدهای طرح‌بندی در زمینهٔ ادغام مجموعه‌های جداگانهٔ اسلایدهای طرح‌بندی مستر گسترش می‌دهد.
+second_title: Aspose.Sildes برای .NET API مرجع
+description: نمایش یک مجموعه از تمام اسلایدهای طرح‌بندی در ارائه. کلاس LayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای طرح‌بندی در زمینه ترکیب مجموعه‌های جداگانه اسلایدهای طرح‌بندی master گسترش می‌دهد.
 type: docs
 weight: 4980
 url: /fa/aspose.slides/globallayoutslidecollection/
 ---
-## کلاس GlobalLayoutSlideCollection
+## GlobalLayoutSlideCollection کلاس
 
-کلکسیونی از تمام اسلایدهای طرح‌بندی در ارائه را نمایندگی می‌کند. کلاس LayoutSlideCollection را با متدی برای افزودن/کپی‌کردن اسلایدهای طرح‌بندی در زمینهٔ ادغام مجموعه‌های جداگانهٔ اسلایدهای طرح‌بندی استاد گسترش می‌دهد.
+یک مجموعه از تمام اسلایدهای طرح‌بندی در ارائه را نشان می‌دهد. کلاس LayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای طرح‌بندی در زمینه ترکیب مجموعه‌های جداگانه اسلایدهای طرح‌بندی master گسترش می‌دهد.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,29 +19,29 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | تعداد اسلایدهای طرح‌بندی در یک مجموعه را بر می‌گرداند. فقط خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همزمان (thread-safe) است یا خیر. فقط خواندنی Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | اسلاید طرح‌بندی را بر مبنای شاخص بر می‌گرداند. فقط خواندنی [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | ریشهٔ همگام‌سازی را بر می‌گرداند. فقط خواندنی Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | تعداد اسلایدهای طرح‌بندی در یک مجموعه را برمی‌گرداند. فقط خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده (ایمن در برابر چندین رشته) است. فقط خواندنی Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | اسلاید طرح‌بندی را بر اساس شاخص برمی‌گرداند. فقط خواندنی [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | یک اسلاید طرح‌بندی جدید به ارائه اضافه می‌کند. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | یک کپی از اسلاید طرح‌بندی مشخص شده را به ارائه اضافه می‌کند. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | یک کپی از اسلاید طرح‌بندی مشخص شده را به ارائه اضافه می‌کند. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص شده کپی می‌کند. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | اولین اسلاید طرح‌بندی از نوع مشخص شده را بر می‌گرداند. نوع اسلاید طرح‌بندی برای جستجو.[`LayoutSlide`](../layoutslide) با نوع مشخص شده یا null اگر هیچ طرح‌بندی یافت نشود. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | یک enumerator که از مجموعه عبور می‌کند را بر می‌گرداند. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | یک نسخه از اسلاید طرح‌بندی مشخص شده را به ارائه اضافه می‌کند. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | یک نسخه از اسلاید طرح‌بندی مشخص شده را به ارائه اضافه می‌کند. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | همه عناصر مجموعه را به آرایه مشخص شده کپی می‌کند. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | اولین اسلاید طرح‌بندی از نوع مشخص شده را برمی‌گرداند. نوع اسلاید طرح‌بندی برای یافتن.[`LayoutSlide`](../layoutslide) با نوع مشخص شده یا null اگر هیچ طرح‌بندی یافت نشد. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | یک شمارنده که از طریق مجموعه پیمایش می‌کند را برمی‌گرداند. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | یک طرح‌بندی را از مجموعه حذف می‌کند. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | اسلایدهای طرح‌بندی استفاده‌نشده (اسلایدهای طرح‌بندی که HasDependingSlides برابر false است) را حذف می‌کند. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | اسلایدهای طرح‌بندی غیر استفاده‌شده (اسلایدهای طرح‌بندی که HasDependingSlides برابر false است) را حذف می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [LayoutSlideCollection](../layoutslidecollection)
 * رابط [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

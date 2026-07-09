@@ -1,6 +1,6 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes용 .NET API 참고 문서
 description: Aspose.Slides 버전에 대한 정보를 포함합니다.
 type: docs
 weight: 1060
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo 클래스
 
-Aspose.Slides의 버전 정보가 포함되어 있습니다.
+Aspose.Slides의 버전에 대한 정보를 포함합니다.
 
 ```csharp
 public static class BuildVersionInfo
@@ -18,14 +18,14 @@ public static class BuildVersionInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Aspose.Slides 어셈블리의 버전입니다. |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | 어셈블리 파일의 버전입니다. |
+| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Aspose.Slides 어셈블리의 버전. |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | 어셈블리 파일의 버전. |
 | const [Product](../../aspose.slides/buildversioninfo/product) | Aspose.Slides의 제품 이름 |
 | const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | 주 버전 번호. |
 | const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | 부 버전 번호. |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | 어셈블리의 릴리스 날짜. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

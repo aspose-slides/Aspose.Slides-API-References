@@ -18,9 +18,9 @@ public interface IPoint
 
 | 이름 | 설명 |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | 값, from, to, by 속성 내의 수식은 다음과 같이 구성될 수 있습니다: 표준 산술 연산자: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 상수: ‘pi’ ‘e’ 조건 연산자: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 비교 연산자: '==', '&gt;=', '', '!=', '!' 삼각 연산자: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 자연 로그 ‘ln()’ 속성 참조(호스트가 지원하는 속성) 예시: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 읽기/쓰기 String. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | 값, from, to, by 속성 내의 수식은 다음으로 구성될 수 있습니다: 표준 산술 연산자: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 상수: ‘pi’, ‘e’ 조건 연산자: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 비교 연산자: '==', '&gt;=', '', '!=', '!' 삼각 함수 연산자: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 자연 로그 ‘ln()’ 속성 참조(호스트가 지원하는 속성) 예시: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 읽기/쓰기 String. |
 | [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | 시간 값을 나타냅니다. 읽기/쓰기 Single. |
-| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | 점 값을 나타냅니다. 허용: bool, ColorFormat, float, int, string. 읽기/쓰기 Object. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | 포인트 값을 나타냅니다. 허용 유형: bool, ColorFormat, float, int, string. 읽기/쓰기 Object. |
 
 ### 관련 항목
 

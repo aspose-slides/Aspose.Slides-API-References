@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het formaat van het document aan dat geladen moet worden.
+description: Geeft het formaat van het document aan dat moet worden geladen.
 type: docs
 weight: 7830
 url: /nl/aspose.slides/loadformat/
 ---
-## LoadFormat enumeration
+## LoadFormat enumeratie
 
-Geeft het formaat van het document aan dat geladen moet worden.
+Geeft het formaat van het document aan dat moet worden geladen.
 
 ```csharp
 public enum LoadFormat
@@ -16,23 +16,23 @@ public enum LoadFormat
 
 ### Waarden
 
-| Name | Value | Beschrijving |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Auto | `0` | Instrueert Aspose.Slides om het formaat automatisch te herkennen. |
-| Ppt | `1` | Microsoft PowerPoint 97-2003-presentatie. |
-| Pps | `2` | Microsoft PowerPoint 97-2003-diavoorstelling. |
-| Pptx | `3` | Microsoft Office Open XML PresentationML-document. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML-diavoorstelling. |
-| Odp | `5` | OpenOffice ODF-presentatie. |
-| Potx | `6` | Microsoft Office Open XML PresentationML-sjabloon. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML-macro-enabled document. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML-macro-enabled diavoorstelling. |
-| Potm | `9` | Microsoft Office Open XML PresentationML-macro-enabled sjabloon. |
-| Otp | `10` | OpenOffice OTP-presentatiesjabloon. |
-| Ppt95 | `11` | Microsoft PowerPoint 95-presentatie. |
-| Pot | `12` | Microsoft PowerPoint 97-2003-presentatiesjabloon. |
-| Fodp | `13` | Flat XML ODF-presentatie. |
-| Unknown | `255` | Onbekend bestandsformaat |
+| Auto | `0` | Instructs Aspose.Slides to recognize the format automatically. |
+| Ppt | `1` | Microsoft PowerPoint 97-2003 Presentation. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 SlideShow. |
+| Pptx | `3` | Microsoft Office Open XML PresentationML Document. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML SlideShow. |
+| Odp | `5` | OpenOffice ODF Presentation. |
+| Potx | `6` | Microsoft Office Open XML PresentationML Template. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML Macro-enabled Document. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Macro-enabled SlideShow. |
+| Potm | `9` | Microsoft Office Open XML PresentationML Macro-enabled Template. |
+| Otp | `10` | OpenOffice OTP Presentation template. |
+| Ppt95 | `11` | Microsoft PowerPoint 95 Presentation. |
+| Pot | `12` | Microsoft PowerPoint 97-2003 Presentation Template. |
+| Fodp | `13` | Flat XML ODF Presentation. |
+| Unknown | `255` | Unknown file format |
 
 ### Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: प्रभावों के अनुक्रम संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 790
@@ -16,33 +16,33 @@ public sealed class Sequence : ISequence
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | एक अनुक्रम में प्रभावों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [Item](../../aspose.slides.animation/sequence/item) { get; } | निर्दिष्ट अनुक्रमांक पर एक प्रभाव लौटाता है। |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | INTERACTIVE अनुक्रम के लिए shape लक्ष्य लौटाता है या सेट करता है। यदि अनुक्रम इंटरैक्टिव नहीं है तो null लौटाता है। पढ़ें/लिखें [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | एक अनुक्रम में प्रभावों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | निर्दिष्ट सूचकांक पर एक प्रभाव लौटाता है। |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | INTERACTIVE अनुक्रम के लिए शैप लक्ष्य लौटाता है या सेट करता है। यदि अनुक्रम इंटरैक्टिव नहीं है तो null लौटाता है। पढ़ने/लिखने योग्य [`IShape`](../../aspose.slides/ishape). |
 
 ## विधियाँ
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | परिच्छेद के लिए नई एनीमेशन प्रभाव को अनुक्रम के अंत में जोड़ता है। |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | नई प्रभाव को अनुक्रम के अंत में जोड़ता है। |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | श्रेणी या श्रृंखला के लिए नया चार्ट एनीमेशन प्रभाव को अनुक्रम के अंत में जोड़ता है। |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | श्रेणी या श्रृंखला में तत्वों के लिए नया चार्ट एनीमेशन प्रभाव को अनुक्रम के अंत में जोड़ता है। |
-| [Clear](../../aspose.slides.animation/sequence/clear)() | एक संग्रह से सभी प्रभावों को हटाता है। |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | निर्दिष्ट shape के लिए प्रभावों की गिनती लौटाता है। |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | निर्दिष्ट paragraph के लिए प्रभावों का array लौटाता है। |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | निर्दिष्ट shape के लिए प्रभावों का array लौटाता है। |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
-| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | एक संग्रह से निर्दिष्ट प्रभाव को हटाता है। |
-| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | एक संग्रह से प्रभाव को हटाता है। |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | निर्दिष्ट shape के लिए प्रभाव हटाता है। |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | अनुक्रम के अंत में पैराग्राफ के लिए नया एनीमेशन प्रभाव जोड़ता है। |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | अनुक्रम के अंत में नया प्रभाव जोड़ता है। |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | अनुक्रम के अंत में श्रेणी या श्रृंखला के लिए नया चार्ट एनीमेशन प्रभाव जोड़ता है। |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | अनुक्रम के अंत में श्रेणी या श्रृंखला के तत्वों के लिए नया चार्ट एनीमेशन प्रभाव जोड़ता है। |
+| [Clear](../../aspose.slides.animation/sequence/clear)() | कलेक्शन से सभी प्रभाव हटाता है। |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | निर्दिष्ट शैप के लिए प्रभावों की गिनती लौटाता है। |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | निर्दिष्ट पैराग्राफ के लिए प्रभावों का एरे लौटाता है। |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | निर्दिष्ट शैप के लिए प्रभावों का एरे लौटाता है। |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | कलेक्शन के माध्यम से इटरिट करने वाला एनेमरेटर लौटाता है। |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | कलेक्शन से निर्दिष्ट प्रभाव हटाता है। |
+| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | कलेक्शन से एक प्रभाव हटाता है। |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | निर्दिष्ट शैप के लिए प्रभाव हटाता है। |
 
 ### देखें
 
 * इंटरफ़ेस [ISequence](../isequence)
-* नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
-* असेम्बली [Aspose.Slides](../../)
+* नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

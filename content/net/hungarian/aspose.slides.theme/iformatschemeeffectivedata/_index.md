@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Módosíthatatlan objektum, amely tartalmazza a hatékony formátumséma tulajdonságait.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely a hatékony formátumséma tulajdonságait tartalmazza.
 type: docs
-weight: 11260
+weight: 11280
 url: /hu/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interfész
 
-Módosíthatatlan objektum, amely tartalmazza a hatékony formátumséma tulajdonságait.
+Módosíthatatlan objektum, amely a hatékony formátumséma tulajdonságait tartalmazza.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -18,12 +18,12 @@ public interface IFormatSchemeEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Visszaad egy gyűjteményt a téma által meghatározott háttérkitöltési stílusokból. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Visszaad egy gyűjteményt a téma által meghatározott effektusstílusokból. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Visszaad egy gyűjteményt a téma által meghatározott kitöltési stílusokból. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Visszaad egy gyűjteményt a téma által meghatározott vonalstílusokból. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált háttér kitöltési stílusokról. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált effektus stílusokról. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Visszaad egy gyűjteményt a téma által definiált kitöltési stílusokról. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Visszaad egy gyűjteményt a téma által definiált vonalstílusokról. |
 
-### Megjegyzés
+### Megjegyzések
 
 Ez az interfész a [`IThemeEffectiveData`](../ithemeeffectivedata) részeként használható.
 

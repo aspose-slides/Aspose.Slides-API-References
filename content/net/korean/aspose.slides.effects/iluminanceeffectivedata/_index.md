@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Luminance 효과를 나타냅니다. Brightness는 모든 색상을 선형적으로 흰색 또는 검은색에 더 가깝게 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
+description: 휘도 효과를 나타냅니다. Brightness는 모든 색상을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝거나 더 멀어지도록 스케일링합니다.
 type: docs
 weight: 3450
 url: /ko/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData 인터페이스
 
-Luminance 효과를 나타냅니다. Brightness는 모든 색상을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
+휘도 효과를 나타냅니다. Brightness는 모든 색상을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝거나 더 멀어지도록 스케일링합니다.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData

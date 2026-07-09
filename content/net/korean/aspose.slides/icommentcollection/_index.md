@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 하나의 작성자에 대한 주석 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 한 명 작성자의 주석 컬렉션을 나타냅니다.
 type: docs
 weight: 5590
 url: /ko/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection 인터페이스
 
-한 작성자의 주석 컬렉션을 나타냅니다.
+한 명의 작성자에 대한 주석 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -18,23 +18,23 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IComment`](../icomment). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | 컬렉션 끝에 새 주석을 추가합니다. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 컬렉션 끝에 새 현대 주석을 추가합니다. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | 컬렉션 끝에 새 최신 주석을 추가합니다. |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | 컬렉션의 모든 주석을 제거합니다. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 지정된 인덱스에 새 주석을 컬렉션에 삽입합니다. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 지정된 인덱스에 새 현대 주석을 컬렉션에 삽입합니다. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 지정된 인덱스에 컬렉션에 새 주석을 삽입합니다. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 지정된 인덱스에 컬렉션에 새 최신 주석을 삽입합니다. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | 컬렉션에서 지정된 주석의 첫 번째 항목을 제거합니다. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 컬렉션에서 지정된 인덱스의 요소를 제거합니다. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | 컬렉션에서 지정된 인덱스에 있는 요소를 제거합니다. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | 모든 주석을 포함하는 배열을 생성하고 반환합니다. |
 | [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | 지정된 범위의 모든 주석을 포함하는 배열을 생성하고 반환합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IComment](../icomment)

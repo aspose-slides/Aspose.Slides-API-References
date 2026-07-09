@@ -3,7 +3,7 @@ title: ImageFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato file dell'immagine.
 type: docs
-weight: 7410
+weight: 7430
 url: /it/aspose.slides/imageformat/
 ---
 ## enumerazione ImageFormat
@@ -18,7 +18,7 @@ public enum ImageFormat
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| MemoryBmp | `0` | Rappresenta il formato di una bitmap in memoria. |
+| MemoryBmp | `0` | Rappresenta il formato di un bitmap in memoria. |
 | Bmp | `1` | Rappresenta il formato immagine bitmap (BMP). |
 | Emf | `2` | Rappresenta il formato immagine metafile avanzato (EMF). |
 | Wmf | `3` | Rappresenta il formato immagine metafile Windows (WMF). |

@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Proprietà di visualizzazione a livello di presentazione.
 type: docs
-weight: 11720
+weight: 11740
 url: /it/aspose.slides/viewproperties/
 ---
 ## ViewProperties classe
@@ -18,12 +18,12 @@ public class ViewProperties : IViewProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Restituisce o imposta la spaziatura della griglia da utilizzare per la griglia sottostante il documento della presentazione, in punti. Lettura/Scrittura Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Specifica la modalità di visualizzazione che è stata usata quando il documento della presentazione è stato salvato l'ultima volta. Lettura/Scrittura [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre regioni di contenuto: la diapositiva stessa, una regione di contenuto laterale e una regione di contenuto inferiore. Sola lettura [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Specifica le proprietà comuni della visualizzazione associate alla modalità visualizzazione note. Sola lettura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Specifica se i commenti della diapositiva devono essere mostrati. Lettura/Scrittura [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Specifica le proprietà comuni della visualizzazione associate alla modalità visualizzazione diapositiva. Sola lettura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Restituisce o imposta la spaziatura della griglia che deve essere usata per la griglia sottostante il documento di presentazione, in punti. Lettura/scrittura Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Specifica la modalità di visualizzazione usata quando il documento di presentazione è stato salvato l'ultima volta. Lettura/scrittura [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Rappresenta le proprietà della visualizzazione normale. La visualizzazione normale è composta da tre aree di contenuto: la diapositiva stessa, un'area di contenuto laterale e un'area di contenuto inferiore. Solo lettura [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Specifica le proprietà comuni della visualizzazione associate alla modalità di visualizzazione delle note. Solo lettura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Specifica se i commenti della diapositiva devono essere mostrati. Lettura/scrittura [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Specifica le proprietà comuni della visualizzazione associate alla modalità di visualizzazione della diapositiva. Solo lettura [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### Vedi anche
 

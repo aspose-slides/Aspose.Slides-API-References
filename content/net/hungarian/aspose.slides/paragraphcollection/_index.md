@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Slides .NET API referencia
-description: Egy bekezdések gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy bekezdésgyűjteményt képvisel.
 type: docs
-weight: 9270
+weight: 9290
 url: /hu/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection osztály
 
-Egy bekezdések gyűjteményét képviseli.
+Egy bekezdésgyűjteményt képvisel.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -16,30 +16,30 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | A gyűjteményben ténylegesen tárolt elemek számát adja vissza. Csak olvasható Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Az ICollection csak olvasható-e értéket ad vissza. Csak olvasható Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | A megadott indexű elemet adja vissza. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Lekérdezi a gyűjteményben ténylegesen lévő elemek számát. Csak olvasható Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Lekérdezi, hogy az ICollection csak olvasható-e. Csak olvasható Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Lekérdezi az elemet a megadott indexen. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Egy Paragraph példányt ad a gyűjtemény végéhez. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Egy ParagraphCollection tartalmát adja a gyűjtemény végéhez. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | A megadott html karakterláncból származó szöveget adja a gyűjteményhez. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | A megadott html karakterláncból származó szöveget adja a gyűjteményhez. |
-| [Clear](../../aspose.slides/paragraphcollection/clear)() | Az összes elemet eltávolítja a gyűjteményből. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Megállapítja, hogy az ICollection tartalmaz-e egy meghatározott értéket. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Az ICollection elemeit egy Array-be másolja, egy adott Array-indextől kezdve. |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Hozzáad egy Paragraph objektumot a gyűjtemény végéhez. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Hozzáad egy ParagraphCollection tartalmát a gyűjtemény végéhez. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Hozzáad szöveget a megadott HTML karakterláncból a gyűjteményhez. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Hozzáad szöveget a megadott HTML karakterláncból a gyűjteményhez. |
+| [Clear](../../aspose.slides/paragraphcollection/clear)() | Eltávolítja a gyűjtemény minden elemét. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Meghatározza, hogy az ICollection tartalmaz-e egy adott értéket. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Átmásolja az ICollection elemeit egy tömbbe, egy adott tömbindextől kezdve. |
 | [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | A megadott bekezdéseket HTML-re konvertálja, és String objektumként adja vissza. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Egy enumerátort ad vissza, amely végigjárja a gyűjteményt. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Megállapítja egy adott elem indexét az IList-ben. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Egy Paragraph példányt szúr be a gyűjteménybe a megadott indexnél. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Egy ParagraphCollection tartalmát szúrja be a gyűjteménybe a megadott indexnél. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Eltávolítja egy adott objektum első előfordulását az ICollection-ből. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexű elemet. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Visszaad egy enumerátort, amely a gyűjteményen iterál. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Meghatározza egy adott elem indexét az IList-ben. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Beszúr egy Paragraph objektumot a gyűjteménybe a megadott indexen. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Beszúr egy ParagraphCollection tartalmát a gyűjteménybe a megadott indexen. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Eltávolítja az adott objektum első előfordulását az ICollection-ből. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Eltávolítja az elemet a megadott indexen a gyűjteményből. |
 
 ### Lásd még
 
@@ -47,6 +47,6 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 * osztály [TextFrame](../textframe)
 * interfész [IParagraphCollection](../iparagraphcollection)
 * névtér [Aspose.Slides](../../aspose.slides)
-* összeállítás [Aspose.Slides](../../)
+* szerelvény [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

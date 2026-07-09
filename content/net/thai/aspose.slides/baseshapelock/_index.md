@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคลาสฐานสำหรับการล็อกที่ปิดการทำงาน
+description: แสดงถึงคลาสพื้นฐานสำหรับการล็อกที่ปิดการทำงาน
 type: docs
 weight: 980
 url: /th/aspose.slides/baseshapelock/
 ---
 ## คลาส BaseShapeLock
 
-แสดงถึงคลาสพื้นฐานสำหรับการล็อก (การดำเนินการที่ปิดใช้งาน).
+แสดงถึงคลาสพื้นฐานสำหรับการล็อก (การดำเนินการที่ถูกปิด)
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากแฟล็กการล็อกทั้งหมดถูกปิดการทำงาน. อ่านอย่างเดียว Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หาก lock-flags ทั้งหมดถูกปิดการใช้งาน. อ่านอย่างเดียว Boolean. |
 
 ### ดูเพิ่มเติม
 

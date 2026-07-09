@@ -1,14 +1,12 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: नोट्स स्लाइड प्लेसहोल्डर के व्यवहार को धारण करने वाले मैनेजर का प्रतिनिधित्व करता है, जिसमें हेडर प्लेसहोल्डर शामिल है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: नोट्स स्लाइड प्लेसहोल्डर के व्यवहार को धारण करने वाले मैनेजर को दर्शाता है, जिसमें हेडर प्लेसहोल्डर शामिल है।
 type: docs
 weight: 6510
 url: /hi/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager इंटरफ़ेस
-
-नोट्स स्लाइड प्लेसहोल्डर के व्यवहार को धारण करने वाले मैनेजर का प्रतिनिधित्व करता है, जिसमें हेडर प्लेसहोल्डर शामिल है।
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +16,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | वापस देता है IBaseHandoutNotesSlideHeaderFooterManag इंटरफ़ेस। |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | वापस करता है IBaseHandoutNotesSlideHeaderFooterManag इंटरफ़ेस। |
 
 ### संबंधित देखें
 

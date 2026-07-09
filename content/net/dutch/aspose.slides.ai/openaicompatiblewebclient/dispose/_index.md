@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft bronnen vrij die door deze instantie worden gebruikt.
+description: Geeft de door deze instantie gebruikte bronnen vrij.
 type: docs
 weight: 40
 url: /nl/aspose.slides.ai/openaicompatiblewebclient/dispose/
 ---
 ## OpenAICompatibleWebClient.Dispose methode
 
-Geeft resources vrij die door deze instantie worden gebruikt.
+Geeft de door deze instantie gebruikte bronnen vrij.
 
 ```csharp
 public void Dispose()

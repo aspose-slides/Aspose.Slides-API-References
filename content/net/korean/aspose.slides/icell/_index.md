@@ -1,14 +1,14 @@
 ---
 title: ICell
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 테이블에서 셀을 나타냅니다.
+description: 테이블의 셀을 나타냅니다.
 type: docs
 weight: 5450
 url: /ko/aspose.slides/icell/
 ---
 ## ICell 인터페이스
 
-셀을 테이블에서 나타냅니다.
+Represents a cell in a table.
 
 ```csharp
 public interface ICell : ISlideComponent
@@ -18,25 +18,25 @@ public interface ICell : ISlideComponent
 
 | 이름 | 설명 |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 셀 내부의 텍스트 상자가 가운데 정렬되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | 셀 내부에 텍스트 상자가 가운데 정렬되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | 이 셀에 대한 서식 속성을 포함하는 CellFormat 객체를 반환합니다. 읽기 전용 [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 부모 테이블의 테이블 그리드에서 현재 셀이 차지할 열 수를 반환합니다. 이 속성은 셀이 다른 셀의 수직 경계를 가로지르는 병합된 것처럼 보이게 합니다. 읽기 전용 Int32. |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | 이 셀에 대한 서식 속성을 포함하는 CellFormat 개체를 반환합니다. 읽기 전용 [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 현재 셀이 차지해야 하는 상위 테이블의 테이블 그리드에 있는 열 수를 반환합니다. 이 속성은 셀이 테이블의 다른 셀의 수직 경계를 가로질러 병합된 것처럼 보이도록 합니다. 읽기 전용 Int32. |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | 셀의 첫 번째 열을 가져옵니다. 읽기 전용 [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 셀에 의해 차지되는 첫 번째 열의 인덱스를 반환합니다. 읽기 전용 Int32. |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | 셀이 차지하는 첫 번째 열의 인덱스를 반환합니다. 읽기 전용 Int32. |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | 셀의 첫 번째 행을 가져옵니다. 읽기 전용 [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 셀에 의해 차지되는 첫 번째 행의 인덱스를 반환합니다. 읽기 전용 Int32. |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | 셀이 차지하는 첫 번째 행의 인덱스를 반환합니다. 읽기 전용 Int32. |
 | [Height](../../aspose.slides/icell/height) { get; } | 셀의 높이를 반환합니다. 읽기 전용 Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 셀과 조정된 셀이 병합된 경우 true, 그렇지 않으면 false를 반환합니다. 읽기 전용 Boolean. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | 셀이 다른 조정된 셀과 병합된 경우 true, 그렇지 않으면 false를 반환합니다. 읽기 전용 Boolean. |
 | [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | TextFrame의 아래쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | TextFrame의 왼쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | TextFrame의 오른쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | TextFrame의 위쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 셀의 최소 높이를 반환합니다. 이는 셀이 차지하는 모든 행의 최소 높이의 합계입니다. 읽기 전용 Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | 테이블의 왼쪽 가장자리에서 셀의 왼쪽 가장자리까지의 거리를 반환합니다. 읽기 전용 Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | 테이블의 위쪽 가장자리에서 셀의 위쪽 가장자리까지의 거리를 반환합니다. 읽기 전용 Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 병합된 셀이 차지하는 행 수를 반환합니다. 이는 다른 셀의 vMerge 속성과 함께 사용되어 가로 병합의 시작 셀을 지정합니다. 읽기 전용 Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | 셀의 부모 Table 객체를 반환합니다. 읽기 전용 [`ITable`](../itable). |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | 셀의 최소 높이를 반환합니다. 이는 셀이 차지하는 모든 행의 최소 높이의 합입니다. 읽기 전용 Double. |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | 테이블의 왼쪽 경계에서 셀의 왼쪽 경계까지의 거리를 반환합니다. 읽기 전용 Double. |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | 테이블의 위쪽 경계에서 셀의 위쪽 경계까지의 거리를 반환합니다. 읽기 전용 Double. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 병합된 셀이 차지하는 행 수를 반환합니다. 이는 다른 셀의 vMerge 속성과 결합하여 수평 병합의 시작 셀을 지정하는 데 사용됩니다. 읽기 전용 Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | 셀에 대한 상위 Table 객체를 반환합니다. 읽기 전용 [`ITable`](../itable). |
 | [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | 텍스트 앵커 유형을 반환하거나 설정합니다. 읽기/쓰기 [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/icell/textframe) { get; } | 셀의 텍스트 프레임을 반환합니다. 읽기 전용 [`ITextFrame`](../itextframe). |
 | [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | 수직 텍스트 유형을 반환하거나 설정합니다. 읽기/쓰기 [`TextVerticalType`](../textverticaltype). |
@@ -46,12 +46,12 @@ public interface ICell : ISlideComponent
 
 | 이름 | 설명 |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 열 인덱스를 기준으로 셀을 두 개의 셀로 분할합니다. |
-| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | 높이를 기준으로 셀을 분할합니다. |
-| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | 행 인덱스를 기준으로 셀을 두 개의 셀로 분할합니다. |
-| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | 너비를 기준으로 셀을 분할합니다. |
+| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 열 인덱스로 셀을 두 개의 셀로 분할합니다. |
+| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | 높이로 셀을 분할합니다. |
+| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | 행 인덱스로 셀을 두 개의 셀로 분할합니다. |
+| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | 너비로 셀을 분할합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示可以以兩種方式儲存在 pptx 簡報文件中的字串或 double 值：1) 在與圖表相關聯的工作簿儲存格中；2) 作為文字值。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示可以以兩種方式儲存在 pptx 簡報文件中的字串或雙精度值：1）儲存在與圖表相關的工作簿之儲存格/儲存格群組中；2）作為文字值。
 type: docs
 weight: 2230
 url: /zh-hant/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue 介面
 
-表示可以以兩種方式儲存在 pptx 簡報文件中的字串或 double 值：1) 於與圖表相關聯的工作簿的儲存格中；2) 作為文字值。
+表示可以以兩種方式儲存在 pptx 簡報文件中的字串或雙精度值：1）儲存在與圖表相關的工作簿之儲存格/儲存格群組中；2）作為文字值。
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -16,19 +16,19 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 允許取得基礎 ISingleCellChartValue 介面。唯讀 [`ISingleCellChartValue`](../isinglecellchartvalue)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | 如果 DataSourceType 屬性為 DataSourceType.DoubleLiterals，則回傳或設定文字 double 常量。讀寫 Double。 |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | 如果 DataSourceType 屬性為 DataSourceType.StringLiterals，則回傳或設定文字 string 常量。讀寫 String。 |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | 若 DataSourceType 屬性為 DataSourceType.DoubleLiterals，則返回或設定文字雙精度值。可讀寫 Double。 |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | 若 DataSourceType 屬性為 DataSourceType.StringLiterals，則返回或設定文字字串。可讀寫 String。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 將值轉換為 double。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [ISingleCellChartValue](../isinglecellchartvalue)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

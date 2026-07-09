@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Sildes per il riferimento API .NET
-description: Specifica i livelli di compressione ZIP per il file OpenXML. I livelli più alti forniscono una compressione migliore a costo di un'elaborazione più lenta.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Specifica i livelli di compressione ZIP per il file OpenXML. I livelli più alti forniscono una migliore compressione al costo di una elaborazione più lenta.
 type: docs
-weight: 3720
+weight: 3740
 url: /it/aspose.slides.export/compressionlevel/
 ---
 ## CompressionLevel enumerazione
 
-Specifica i livelli di compressione ZIP per il file OpenXML. I livelli più alti forniscono una compressione migliore a costo di una elaborazione più lenta.
+Specifica i livelli di compressione ZIP per il file OpenXML. I livelli più alti forniscono una migliore compressione al costo di una più lenta elaborazione.
 
 ```csharp
 public enum CompressionLevel
@@ -18,14 +18,14 @@ public enum CompressionLevel
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Non viene applicata alcuna compressione. I file vengono archiviati così come sono. |
+| None | `0` | Nessuna compressione applicata. I file sono memorizzati così come sono. |
 | Level1 | `1` | Compressione più veloce con il rapporto di compressione più basso. |
 | Level2 | `2` | Compressione più veloce con un rapporto di compressione leggermente migliore rispetto a Level1. |
-| Level3 | `3` | Fornisce una compressione migliore rispetto a Level2 con un impatto medio sulle prestazioni. |
-| Level4 | `4` | Fornisce una compressione migliore rispetto a Level3. |
-| Level5 | `5` | Fornisce una compressione migliorata rispetto a Level4 con un tempo di elaborazione aggiuntivo. |
-| Level6 | `6` | Compressione standard, che offre un buon equilibrio tra velocità di compressione e dimensione del file. Il livello di compressione predefinito. |
-| Level7 | `7` | Fornisce una compressione più alta rispetto a Level6 con un'elaborazione più lenta. |
+| Level3 | `3` | Fornisce una migliore compressione rispetto a Level2 con un impatto moderato sulle prestazioni. |
+| Level4 | `4` | Fornisce una migliore compressione rispetto a Level3. |
+| Level5 | `5` | Fornisce una compressione migliorata rispetto a Level4 con tempo di elaborazione aggiuntivo. |
+| Level6 | `6` | Compressione standard, offrendo un buon equilibrio tra velocità di compressione e dimensione del file. Il livello di compressione predefinito. |
+| Level7 | `7` | Fornisce una compressione più alta rispetto a Level6 con elaborazione più lenta. |
 | Level8 | `8` | Fornisce una compressione più alta rispetto a Level7. |
 | Level9 | `9` | Compressione massima. Produce la dimensione di file più piccola con la velocità di elaborazione più lenta. |
 

@@ -1,15 +1,14 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes for .NET API Reference
-description: 确定文本在动画期间如何出现在形状上。
+second_title: Aspose.Sildes .NET API 参考
+description: 确定在动画过程中文本在形状上的显示方式。
 type: docs
-weight: 130
+weight: 210
 url: /zh/aspose.slides.animation/buildtype/
 ---
-
 ## BuildType 枚举
 
-确定文本在动画期间如何出现在形状上。
+确定在动画过程中文本在形状上的显示方式。
 
 ```csharp
 public enum BuildType
@@ -19,15 +18,15 @@ public enum BuildType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| AsOneObject | `0` | 与包含的形状一起。 |
+| AsOneObject | `0` | 随包含的形状。 |
 | AllParagraphsAtOnce | `1` | 所有段落。 |
-| ByLevelParagraphs1 | `2` | 按深度为 1 的段落组。 |
-| ByLevelParagraphs2 | `3` | 按深度为 2 的段落组。 |
-| ByLevelParagraphs3 | `4` | 按深度为 3 的段落组。 |
-| ByLevelParagraphs4 | `5` | 按深度为 4 的段落组。 |
-| ByLevelParagraphs5 | `6` | 按深度为 5 的段落组。 |
+| ByLevelParagraphs1 | `2` | 按深度为1的段落组。 |
+| ByLevelParagraphs2 | `3` | 按深度为2的段落组。 |
+| ByLevelParagraphs3 | `4` | 按深度为3的段落组。 |
+| ByLevelParagraphs4 | `5` | 按深度为4的段落组。 |
+| ByLevelParagraphs5 | `6` | 按深度为5的段落组。 |
 
-### 另请参见
+### 另见
 
 * 命名空间 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

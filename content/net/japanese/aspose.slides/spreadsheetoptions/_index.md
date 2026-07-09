@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 追加のスプレッドシートの動作を指定するために使用できるオプションを表します。
 type: docs
-weight: 10720
+weight: 10740
 url: /ja/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions クラス
@@ -14,17 +14,17 @@ url: /ja/aspose.slides/spreadsheetoptions/
 public class SpreadsheetOptions : ISpreadsheetOptions
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | Name | Description |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | [`SpreadsheetOptions`](../spreadsheetoptions) クラスの新しいインスタンスを初期化します。 |
+| [SpreadsheetOptions](spreadsheetoptions)() | 新しい [`SpreadsheetOptions`](../spreadsheetoptions) クラスのインスタンスを初期化します。 |
 
 ## プロパティ
 
 | Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | ダブルバイト文字セット (DBCS) を使用する言語向けの関数計算に使用する、優先するカルチャ情報を取得または設定します。 |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | ダブルバイト文字セット (DBCS) を使用する言語で使用することを想定した一部の関数の計算に使用する、優先のカルチャ情報を取得または設定します。 |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | チャートのデータ ソースが外部ブックで利用できない場合、チャート キャッシュから復元されます。 |
 
 ### 参照

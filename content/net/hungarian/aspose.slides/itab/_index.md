@@ -1,14 +1,14 @@
 ---
 title: ITab
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes a .NET API hivatkozás
 description: Egy szöveg tabulációját képviseli.
 type: docs
-weight: 7170
+weight: 7190
 url: /hu/aspose.slides/itab/
 ---
 ## ITab interfész
 
-Egy szöveg tabulációját képviseli.
+Represents a tabulation for a text.
 
 ```csharp
 public interface ITab : IComparable
@@ -19,8 +19,8 @@ public interface ITab : IComparable
 | Név | Leírás |
 | --- | --- |
 | [Alignment](../../aspose.slides/itab/alignment) { get; set; } | Visszaadja vagy beállítja a tabulátor igazítási stílusát. Olvasás/írás [`TabAlignment`](../tabalignment). |
-| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Visszaadja az IComparable interfészt. Csak olvasható IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | Visszaadja vagy beállítja a tabulátor pozícióját. A tulajdonság beállítása megváltoztathatja a tabulátor indexét a gyűjteményben, és érvénytelenítheti az Enumerator-t. Olvasás/írás Double. |
+| [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | Visszaadja IComparable interfész. Csak olvasható IComparable. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | Visszaadja vagy beállítja a tabulátor pozícióját. Ennek a tulajdonságnak a beállítása megváltoztathatja a tabulátor indexét a gyűjteményben és érvénytelenítheti az Enumerator-t. Olvasás/írás Double. |
 
 ### Lásd még
 

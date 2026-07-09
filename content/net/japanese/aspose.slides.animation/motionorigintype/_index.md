@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: モーション パスの原点が相対的に何を基準としているかを指定します。スライドのレイアウトや親などです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: モーション パスの原点が相対的に何であるかを指定します。スライドのレイアウトや親などです。
 type: docs
-weight: 660
+weight: 680
 url: /ja/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType 列挙型
 
-モーション パスの原点が相対的に何を基準としているかを指定します。スライドのレイアウトや親などです。
+モーション パスの原点が相対的に何であるかを指定します。スライドのレイアウトや親などです。
 
 ```csharp
 public enum MotionOriginType

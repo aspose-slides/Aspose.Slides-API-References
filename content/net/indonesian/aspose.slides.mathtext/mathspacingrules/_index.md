@@ -1,28 +1,28 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Jenis celah spasi horizontal antara kolom matriks
+second_title: Referensi API .NET Aspose.Sildes
+description: Jenis celah jarak horizontal antara kolom matriks
 type: docs
-weight: 8970
+weight: 8990
 url: /id/aspose.slides.mathtext/mathspacingrules/
 ---
-## enumerasi MathSpacingRules
+## MathSpacingRules enumerasi
 
-Jenis celah (spasi horizontal) antara kolom matriks
+Jenis celah (jarak horizontal) antara kolom-kolom matriks
 
 ```csharp
 public enum MathSpacingRules
 ```
 
-### Values
+### Nilai
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Tunggal (1 em untuk kolom atau 1 baris untuk baris) |
+| SingleSpacingGap | `0` | Satu (1 em untuk kolom atau 1 baris untuk baris) |
 | OneAndHalfSpacingGap | `1` | Satu setengah (1.5 em untuk kolom atau 1.5 baris untuk baris) |
-| DoubleSpacingGap | `2` | Spasi ganda (2 em untuk kolom atau 2 baris untuk baris) |
+| DoubleSpacingGap | `2` | Jarak ganda (2 em untuk kolom atau 2 baris untuk baris) |
 | Exactly | `3` | Nilai tepat. Untuk kolom, mengandalkan nilai ColumnGap, diukur dalam twip. Untuk baris, mengandalkan nilai RowGap, diukur dalam twip |
-| Multiple | `4` | Berulang. Untuk kolom, mengandalkan nilai ColumnGap, diukur dalam kenaikan 0.5 em. Untuk baris, mengandalkan nilai RowGap, diukur dalam baris |
+| Multiple | `4` | Berbagai. Untuk kolom, mengandalkan nilai ColumnGap, diukur dalam kenaikan 0.5 em. Untuk baris, mengandalkan nilai RowGap, diukur dalam baris |
 
 ### Lihat Juga
 

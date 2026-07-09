@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 읽기 전용 효과 스타일 컬렉션을 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes .NET용 API 레퍼런스
+description: 읽기 전용 컬렉션의 효과 스타일을 나타내는 불변 객체입니다.
 type: docs
 weight: 11190
 url: /ko/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData 인터페이스
 
-읽기 전용 효과 스타일 컬렉션을 나타내는 불변 객체입니다.
+읽기 전용 컬렉션의 효과 스타일을 나타내는 불변 객체입니다.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>

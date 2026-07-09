@@ -1,6 +1,6 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 효과 클래스 유형을 나타냅니다.
 type: docs
 weight: 320

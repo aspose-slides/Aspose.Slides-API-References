@@ -1,14 +1,14 @@
 ---
 title: GifOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili opsi pengeksporan GIF.
+description: Mewakili opsi ekspor GIF.
 type: docs
-weight: 3800
+weight: 3820
 url: /id/aspose.slides.export/gifoptions/
 ---
-## GifOptions kelas
+## Kelas GifOptions
 
-Mewakili opsi pengeksporan GIF.
+Mewakili opsi ekspor GIF.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -16,9 +16,9 @@ public class GifOptions : SaveOptions, IGifOptions
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Deskripsi |
 | --- | --- |
-| [GifOptions](gifoptions)() | Menginisialisasi instance baru dari kelas GifOptions. |
+| [GifOptions](gifoptions)() | Menginisialisasi sebuah instance baru dari kelas GifOptions. |
 
 ## Properti
 
@@ -28,11 +28,11 @@ public class GifOptions : SaveOptions, IGifOptions
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan bila font sumber tidak ditemukan. String baca-tulis. |
 | [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Menentukan apakah slide tersembunyi akan diekspor. Nilai defaultnya adalah false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Mendapatkan atau mengatur ukuran frame. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradasi. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk menyimpan pembaruan kemajuan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Boolean baca/tulis. Nilai defaultnya adalah **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Mendapatkan atau mengatur FPS transisi [frame/detik]. Nilai defaultnya adalah 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Merepresentasikan objek callback untuk menyimpan pembaruan kemajuan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan pemanggilan JavaScript saat menyimpan presentasi. Boolean baca/tulis. Nilai defaultnya adalah **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Mendapatkan atau mengatur FPS transisi [frames/dtk]. Nilai defaultnya adalah 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur sebuah objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Contoh
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
     {
         FrameSize = new Size(960, 720), // ukuran GIF yang dihasilkan
         DefaultDelay = 2000, // berapa lama setiap slide akan ditampilkan hingga diganti dengan slide berikutnya
-        TransitionFps = 35 // tingkatkan FPS untuk kualitas animasi transisi yang lebih baik
+        TransitionFps = 35 // meningkatkan FPS untuk kualitas animasi transisi yang lebih baik
     });
 }
 ```

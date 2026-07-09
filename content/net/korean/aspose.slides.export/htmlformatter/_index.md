@@ -18,9 +18,9 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | 이름 | 설명 |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 사용자 정의 콜백 기반 HTML 생성을 위한 HTML 포매터를 생성하고 반환합니다. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 슬라이드가 차례로 아래에 배치된 간단한 문서 보기용 HTML 포매터를 생성하고 반환합니다. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 슬라이드가 순차적으로 표시되는 간단한 슬라이드 쇼 HTML용 포매터를 생성하고 반환합니다. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | 맞춤 콜백 기반 HTML 생성을 위한 HTML 포매터를 생성하고 반환합니다. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | 슬라이드가 위아래로 순서대로 배열된 간단한 문서 보기용 HTML 포매터를 생성하고 반환합니다. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | 슬라이드가 연속으로 표시되는 간단한 슬라이드쇼 HTML을 위한 HTML 포매터를 생성하고 반환합니다. |
 
 ### 참조
 

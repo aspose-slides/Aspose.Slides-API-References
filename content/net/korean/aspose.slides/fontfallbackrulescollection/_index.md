@@ -1,14 +1,14 @@
 ---
 title: FontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다.
+description: 사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다
 type: docs
 weight: 4850
 url: /ko/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection 클래스
 
-사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다.
+Represents a collection of FontFallBack rules, defined by user
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
@@ -25,7 +25,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | 컬렉션에 실제로 포함된 규칙 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)인지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | 지정된 인덱스에 있는 규칙을 가져옵니다. 읽기 전용 [`IFontFallBackRule`](../ifontfallbackrule). |
 | [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -36,7 +36,7 @@ public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 | [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | 지정된 FallBack 규칙을 컬렉션의 끝에 추가합니다. |
 | [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | 컬렉션에서 특정 FallBack 규칙의 첫 번째 발생을 제거합니다. |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | 컬렉션에서 특정 FallBack 규칙의 첫 번째 항목을 제거합니다. |
 
 ### 참조
 

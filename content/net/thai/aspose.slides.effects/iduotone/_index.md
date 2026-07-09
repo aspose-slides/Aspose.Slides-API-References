@@ -1,14 +1,14 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Duotone.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของเอฟเฟกต์ Duotone.
 type: docs
 weight: 3260
 url: /th/aspose.slides.effects/iduotone/
 ---
 ## IDuotone อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Duotone.
+แสดงเอฟเฟกต์ Duotone.
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีมืด. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีอ่อน. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IAccessiblePVIObject. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IImageTransformOperation. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | คืนค่าฟอร์แมตสีเป้าหมายสำหรับพิกเซลสีเข้ม. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | คืนค่าฟอร์แมตสีเป้าหมายสำหรับพิกเซลสีอ่อน. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes pro .NET API reference
-description: Zobrazuje typy restartu pro časování.
+second_title: Aspose.Sildes pro .NET API – referenční dokumentace
+description: Reprezentuje typy restartu pro časování.
 type: docs
-weight: 310
+weight: 330
 url: /cs/aspose.slides.animation/effectrestarttype/
 ---
-## EffectRestartType enumerace
+## Výčet EffectRestartType
 
-Zobrazuje typy restartu pro časování.
+Reprezentuje typy restartu pro časování.
 
 ```csharp
 public enum EffectRestartType

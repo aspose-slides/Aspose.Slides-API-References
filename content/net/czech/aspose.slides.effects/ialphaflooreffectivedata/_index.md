@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Alpha Floor. Hodnoty průhlednosti Alpha menší než 100 jsou změněny na nulu. Jinými slovy, vše částečně průhledné se stane zcela průhledným.
+description: Neměnný objekt, který představuje efekt Alpha Floor. Hodnoty opacity Alpha menší než 100 jsou změněny na nulu. Jinými slovy se všechno částečně průhledné stane zcela průhledným.
 type: docs
-weight: 3050
+weight: 3070
 url: /cs/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt Alpha Floor. Hodnoty Alpha (průhlednost) menší než 100 % jsou změněny na nulu. Jinými slovy, vše částečně průhledné se stane zcela průhledným.
+Neměnný objekt, který představuje efekt Alpha Floor. Hodnoty Alpha (průhlednost) menší než 100 % jsou změněny na nulu. Jinými slovy, vše, co je částečně průhledné, se stane zcela průhledným.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData

@@ -1,12 +1,12 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Meghatározza a tengely helyzetét.
 type: docs
-weight: 1190
+weight: 1210
 url: /hu/aspose.slides.charts/axispositiontype/
 ---
-## AxisPositionType enumeráció
+## AxisPositionType felsorolás
 
 Meghatározza a tengely helyzetét.
 
@@ -18,10 +18,10 @@ public enum AxisPositionType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Bottom | `0` | Megadja, hogy a tengely a diagram területének alján jelenjen meg. |
-| Left | `1` | Megadja, hogy a tengely a diagram területének bal oldalán jelenjen meg. |
-| Right | `2` | Megadja, hogy a tengely a diagram területének jobb oldalán jelenjen meg. |
-| Top | `3` | Megadja, hogy a tengely a diagram területének tetején jelenjen meg. |
+| Bottom | `0` | Megadja, hogy a tengely a diagramterület alján legyen megjelenítve. |
+| Left | `1` | Megadja, hogy a tengely a diagramterület bal oldalán legyen megjelenítve. |
+| Right | `2` | Megadja, hogy a tengely a diagramterület jobb oldalán legyen megjelenítve. |
+| Top | `3` | Megadja, hogy a tengely a diagramterület felső részén legyen megjelenítve. |
 
 ### Lásd még
 

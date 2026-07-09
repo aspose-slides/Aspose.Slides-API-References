@@ -1,6 +1,6 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes .NET용 API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 코너 방향 전환 유형을 나타냅니다.
 type: docs
 weight: 10350

@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta l'interfaccia di base IImageTransformOperation.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta l'interfaccia base IImageTransformOperation.
 type: docs
-weight: 3120
+weight: 3140
 url: /it/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interfaccia
 
-Rappresenta l'interfaccia di base IImageTransformOperation.
+Rappresenta l'interfaccia base IImageTransformOperation.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia di base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia di base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

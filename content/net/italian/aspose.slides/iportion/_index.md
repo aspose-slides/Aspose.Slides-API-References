@@ -1,9 +1,9 @@
 ---
 title: IPortion
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una porzione di testo all'interno di un paragrafo di testo.
 type: docs
-weight: 6680
+weight: 6700
 url: /it/aspose.slides/iportion/
 ---
 ## IPortion interfaccia
@@ -18,9 +18,9 @@ public interface IPortion : ISlideComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Consente di ottenere l'interfaccia di base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
 | [Field](../../aspose.slides/iportion/field) { get; } | Restituisce un campo di questa porzione. Solo lettura [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Restituisce l'oggetto di formattazione che contiene le proprietà di formattazione impostate esplicitamente della porzione di testo, senza ereditarietà applicata. Solo lettura [`IPortionFormat`](../iportionformat). |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | Restituisce l'oggetto di formattazione che contiene le proprietà di formattazione impostate esplicitamente della porzione di testo senza eredità applicata. Solo lettura [`IPortionFormat`](../iportionformat). |
 | [Text](../../aspose.slides/iportion/text) { get; set; } | Ottiene o imposta il testo semplice di una porzione. Lettura/scrittura String. |
 
 ## Metodi
@@ -29,9 +29,9 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | Converte questa porzione in un campo aggiornato automaticamente. |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | Converte questa porzione in un campo aggiornato automaticamente. |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Ottiene le coordinate dell'inizio della porzione. La coordinata X del punto rappresenta l'inizio della porzione dal primo carattere includendo il margine laterale sinistro. La coordinata Y include il margine superiore. |
-| [GetRect](../../aspose.slides/iportion/getrect)() | Ottiene le coordinate del rettangolo che delimita la porzione. Il rettangolo include tutte le linee di testo nella porzione, comprese quelle vuote. |
-| [RemoveField](../../aspose.slides/iportion/removefield)() | Converte questa porzione di campo in una porzione semplice. |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | Ottiene le coordinate dell'inizio della porzione. La coordinata X del punto rappresenta l'inizio della porzione dal primo carattere, includendo il margine laterale sinistro. La coordinata Y include il margine superiore. |
+| [GetRect](../../aspose.slides/iportion/getrect)() | Ottiene le coordinate del rettangolo che delimitano la porzione. Il rettangolo include tutte le linee di testo nella porzione, incluse quelle vuote. |
+| [RemoveField](../../aspose.slides/iportion/removefield)() | Converte questa porzione di campo nella porzione semplice. |
 
 ### Vedi anche
 

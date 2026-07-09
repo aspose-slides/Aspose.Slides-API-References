@@ -1,12 +1,12 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes cho .NET API Tham chiếu
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một đoạn toán
 type: docs
 weight: 8400
 url: /vi/aspose.slides.mathtext/imathparagraphfactory/
 ---
-## IMathParagraphFactory giao diện
+## Giao diện IMathParagraphFactory
 
 Cho phép tạo một đoạn toán
 
@@ -18,12 +18,12 @@ public interface IMathParagraphFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Tạo đoạn toán rỗng |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Tạo một đoạn toán và đặt khối toán được chỉ định vào trong nó |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | Tạo đoạn toán trống |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Tạo một đoạn toán và đặt khối toán đã chỉ định vào trong nó |
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM
+Để tương thích với COM
 
 ### Xem thêm
 

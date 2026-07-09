@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Fill Overlay 効果を表す不変オブジェクトです。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+description: Fill Overlay エフェクトを表すイミュータブル オブジェクトです。Fill Overlay は、オブジェクトに対して追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 type: docs
-weight: 3290
+weight: 3310
 url: /ja/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData インターフェイス
 
-オブジェクトの Fill Overlay 効果を表す不変オブジェクトです。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+Fill Overlay エフェクトを表すイミュータブル オブジェクトです。Fill Overlay は、オブジェクトの追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode。読み取り専用 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format。読み取り専用 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode。読み取り専用 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill format。読み取り専用 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
 ### 参照
 

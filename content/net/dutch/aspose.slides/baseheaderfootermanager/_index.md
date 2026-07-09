@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert manager die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduiders voor alle dia-typen bevat.
+description: Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduidingen voor alle dia-types bevat.
 type: docs
 weight: 960
 url: /nl/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager klasse
 
-Representeert manager die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatsaanduiders voor alle dia-types bevat.
+Stelt een manager voor die het gedrag van de voettekst, datum-tijd en paginanummer-plaatsaanduidingen voor alle dia-types bevat.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

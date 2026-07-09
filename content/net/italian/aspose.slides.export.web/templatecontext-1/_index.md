@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta l'interfaccia di un oggetto modello per un motore di template.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta un'interfaccia di oggetto modello per un motore di template.
 type: docs
-weight: 4650
+weight: 4670
 url: /it/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> classe
 
-Rappresenta l'interfaccia di un oggetto modello per un motore di template.
+Rappresenta un'interfaccia di oggetto modello per un motore di template.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,10 +18,10 @@ public sealed class TemplateContext<TObject>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Restituisce lo storage globale del documento host. Sola lettura [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Restituisce lo storage locale del contesto di template corrente. Sola lettura [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Restituisce l'oggetto modello. Sola lettura !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Restituisce la collezione di elementi di output del documento host. Sola lettura [`Output`](./output). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Restituisce l'archivio globale del documento host. Solo lettura [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Restituisce l'archivio locale del contesto di template corrente. Solo lettura [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Restituisce l'oggetto modello. Solo lettura !:TObject. |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Restituisce la collezione di elementi di output del documento host. Solo lettura [`Output`](./output). |
 
 ## Metodi
 

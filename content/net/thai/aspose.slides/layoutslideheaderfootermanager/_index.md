@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์เลย์เอาต์, ตัวเก็บวันที่-เวลา, ตัวเก็บหมายเลขหน้า, และตัวเก็บลูกทั้งหมด. ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง. สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวแปรที่เป็นส่วนท้ายสไลด์เลย์เอาต์ วันที่-เวลา หมายเลขหน้า และตัวแปรย่อยทั้งหมด ตัวแปรย่อยหมายถึงตัวแปรที่อยู่บนสไลด์ที่ขึ้นกับ สไลด์ที่ขึ้นกับใช้และพึ่งพาเลย์เอาต์สไลด์.
 type: docs
 weight: 7660
 url: /th/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager คลาส
 
-แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้ายสไลด์เลย์เอาต์, ตัวเก็บวันที่-เวลา, ตัวเก็บหมายเลขหน้า และตัวเก็บลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์
+Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,26 +17,26 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่ระบุว่ามีตัวเก็บวันที่-เวลาอยู่. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่ระบุว่ามีตัวเก็บส่วนท้ายอยู่. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่ระบุว่ามีตัวเก็บหมายเลขหน้าอยู่. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่บ่งชี้ว่ามี placeholder ของวันที่และเวลา ปรากฏ. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่บ่งชี้ว่ามี placeholder ของส่วนท้าย ปรากฏ. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่บ่งชี้ว่ามี placeholder ของหมายเลขหน้า ปรากฏ. ReadBoolean. |
 
 ## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวเก็บวันที่-เวลาในสไลด์เลย์เอาต์และตัวเก็บวันที่-เวลาลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บวันที่-เวลาในสไลด์เลย์เอาต์และตัวเก็บวันที่-เวลาลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งค่าข้อความให้กับตัวเก็บวันที่-เวลาในสไลด์. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บวันที่-เวลาในสไลด์. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนท้ายในสไลด์เลย์เอาต์และตัวเก็บส่วนท้ายลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บส่วนท้ายในสไลด์เลย์เอาต์และตัวเก็บส่วนท้ายลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาสไลด์หลัก. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งค่าข้อความให้กับตัวเก็บส่วนท้ายในสไลด์. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บส่วนท้ายในสไลด์. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บหมายเลขหน้าสไลด์เลย์เอาต์และตัวเก็บหมายเลขหน้าลูกทั้งหมด ตัวเก็บลูกหมายถึงตัวเก็บที่อยู่บนสไลด์ที่อ้างอิง สไลด์ที่อ้างอิงใช้และพึ่งพาเลย์เอาต์สไลด์. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของตัวเก็บหมายเลขหน้าในสไลด์. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับ placeholder ของวันที่และเวลาใน layout slide และ placeholder ของวันที่และเวลาใน child ทั้งหมด. Placeholder child หมายถึง placeholder ที่อยู่บนสไลด์ที่ขึ้นกับ. สไลด์ที่ขึ้นกับใช้และพึ่งพา layout slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของวันที่และเวลาใน layout slide และ placeholder ของวันที่และเวลาใน child ทั้งหมด. Placeholder child หมายถึง placeholder ที่อยู่บนสไลด์ที่ขึ้นกับ. สไลด์ที่ขึ้นกับใช้และพึ่งพา layout slide. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | กำหนดข้อความให้กับ placeholder ของวันที่และเวลาในสไลด์. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของวันที่และเวลาในสไลด์. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับ placeholder ของส่วนท้ายใน layout slide และ placeholder ของส่วนท้ายใน child ทั้งหมด. Placeholder child หมายถึง placeholder ที่อยู่บนสไลด์ที่ขึ้นกับ. สไลด์ที่ขึ้นกับใช้และพึ่งพา layout slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของส่วนท้ายใน layout slide และ placeholder ของส่วนท้ายใน child ทั้งหมด. Placeholder child หมายถึง placeholder ที่อยู่บนสไลด์ที่ขึ้นกับ. สไลด์ที่ขึ้นกับใช้และพึ่งพา master slide. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | กำหนดข้อความให้กับ placeholder ของส่วนท้ายในสไลด์. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของส่วนท้ายในสไลด์. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของหมายเลขหน้าใน layout slide และ placeholder ของหมายเลขหน้าใน child ทั้งหมด. Placeholder child หมายถึง placeholder ที่อยู่บนสไลด์ที่ขึ้นกับ. สไลด์ที่ขึ้นกับใช้และพึ่งพา layout slide. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ของหมายเลขหน้าในสไลด์. |
 
 ### ดูเพิ่มเติม
 

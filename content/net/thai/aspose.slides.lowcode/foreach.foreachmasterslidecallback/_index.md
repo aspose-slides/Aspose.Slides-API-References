@@ -1,23 +1,23 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: เดลิเกตที่จะถูกเรียกสำหรับแต่ละ MasterSlide./foreach/masterslide ใน Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: คอลลแบคที่จะถูกเรียกสำหรับแต่ละ MasterSlide./foreach/masterslide ใน Presentation../aspose.slides/presentation.
 type: docs
 weight: 7920
 url: /th/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
-## ForEach.ForEachMasterSlideCallback เดลิเกต
+## ForEach.ForEachMasterSlideCallback delegate
 
-เดลิเกตที่จะถูกเรียกสำหรับแต่ละ [`MasterSlide`](../foreach/masterslide) ใน [`Presentation`](../../aspose.slides/presentation).
+คอลลแบคที่จะถูกเรียกสำหรับแต่ละ [`MasterSlide`](../foreach/masterslide) ใน [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| masterSlide | MasterSlide | สไลด์มาสเตอร์ที่กำลังวนอยู่ |
-| index | Int32 | ดัชนีของสไลด์มาสเตอร์ปัจจุบัน |
+| masterSlide | MasterSlide | มาสเตอร์สลายด์ที่กำลังวนซ้ำอยู่ |
+| index | Int32 | ดัชนีของมาสเตอร์สลายด์ปัจจุบัน |
 
 ### ดูเพิ่มเติม
 

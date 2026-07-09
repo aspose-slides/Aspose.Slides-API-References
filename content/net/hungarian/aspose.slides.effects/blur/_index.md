@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy Blur hatást reprezentál, amely az egész alakzatra, beleértve a kitöltést, kerül alkalmazásra. Minden színcsatorna, beleértve az alfát, érintett.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Blur effektust reprezentál, amely az egész alakzatra, beleértve a kitöltést is, van alkalmazva. Minden színcsatorna, beleértve az alfát is, érintett.
 type: docs
-weight: 2900
+weight: 2920
 url: /hu/aspose.slides.effects/blur/
 ---
 ## Blur osztály
 
-A Blur effektust reprezentálja, amely az egész alakzatra, beleértve a kitöltést, alkalmazható. Minden színcsatorna, beleértve az alfát is, érintett.
+Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -18,17 +18,17 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Meghatározza, hogy az objektum határai a homályosítás miatt növekedjenek-e. Az igaz érték azt jelzi, hogy a határok növekednek, míg a hamis azt jelzi, hogy nem növekednek. Olvasható/írható Boolean. |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Visszaadja vagy beállítja a homály sugárát. Olvasható/írható Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak-olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | Meghatározza, hogy a homályosítás eredményeként a objektum határai növekedjenek-e. Az igaz érték azt jelzi, hogy a határok növekednek, a hamis érték pedig, hogy nem növekednek. Olvasás-írás Boolean. |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | Visszaadja vagy beállítja a homály sugarát. Olvasás-írás Double. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Meghatározza, hogy a megadott [`Blur`](../blur) megegyezik-e a jelenlegi [`Blur`](../blur). |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Lekéri a hatékony Blur effektus adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/blur/equals)(object) | Meghatározza, hogy a megadott [`Blur`](../blur) egyenlő-e a jelenlegi [`Blur`](../blur)-val. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | Lekéri a hatékony Blur effektus adatokat a öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

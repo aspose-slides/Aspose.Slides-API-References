@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: परिणाम का प्रतिनिधित्व करने वाली अपरिवर्तनीय वस्तुओं के लिए बेस क्लास।
+description: प्रभाव का प्रतिनिधित्व करने वाली अपरिवर्तनीय वस्तुओं के लिए बेस क्लास।
 type: docs
 weight: 3280
 url: /hi/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तुओं के लिए बेस क्लास, जो प्रभाव का प्रतिनिधित्व करती है।
+बेस क्लास अपरिवर्तनीय वस्तुओं के लिये, जो प्रभाव का प्रतिनिधित्व करती हैं।
 
 ```csharp
 public interface IEffectEffectiveData

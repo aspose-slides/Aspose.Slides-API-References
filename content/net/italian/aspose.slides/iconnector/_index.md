@@ -3,7 +3,7 @@ title: IConnector
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un connettore.
 type: docs
-weight: 5590
+weight: 5610
 url: /it/aspose.slides/iconnector/
 ---
 ## IConnector interfaccia
@@ -19,7 +19,7 @@ public interface IConnector : IGeometryShape
 | Nome | Descrizione |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Consente di ottenere l'interfaccia base IGeometryShape. Solo lettura [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Restituisce i blocchi del Connector. Solo lettura [`IConnectorLock`](../iconnectorlock). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Restituisce i blocchi del connettore. Solo lettura [`IConnectorLock`](../iconnectorlock). |
 | [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Restituisce o imposta la forma a cui collegare l'estremità del connettore. Lettura/scrittura [`IShape`](../ishape). |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Restituisce o imposta l'indice del punto di connessione per la forma finale. Lettura/scrittura UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IConnectorLock`](../iconnectorlock). |
@@ -30,7 +30,7 @@ public interface IConnector : IGeometryShape
 
 | Nome | Descrizione |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Riorienta il connettore in modo che segua il percorso più breve possibile tra le forme a cui è collegato. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Riorienta il connettore in modo che prenda il percorso più breve possibile tra le forme a cui è collegato. |
 
 ### Vedi anche
 

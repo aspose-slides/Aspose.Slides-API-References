@@ -1,6 +1,6 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: सहायक भराव पैरामीटर इंटरफ़ेस।
 type: docs
 weight: 5810

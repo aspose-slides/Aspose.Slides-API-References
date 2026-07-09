@@ -1,6 +1,6 @@
 ---
 title: Compress
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 참조
 description: Presentation../aspose.slides/presentation을 압축하도록 설계된 메서드 그룹을 나타냅니다.
 type: docs
 weight: 7870
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.lowcode/compress/
 ---
 ## Compress 클래스
 
-이것은 [`Presentation`](../../aspose.slides/presentation)을 압축하도록 설계된 메서드 그룹을 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)를 압축하도록 설계된 메서드 그룹을 나타냅니다.
 
 ```csharp
 public static class Compress
@@ -18,9 +18,9 @@ public static class Compress
 
 | 이름 | 설명 |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 사용되지 않는 문자를 포함된 폰트에서 제거하여 압축합니다. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 사용되지 않는 레이아웃 슬라이드를 제거하여 압축합니다. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | [`Presentation`](../../aspose.slides/presentation)에서 사용되지 않는 마스터 슬라이드를 제거하여 압축합니다. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 내장된 글꼴에서 사용되지 않는 문자를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 사용되지 않는 레이아웃 슬라이드를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 사용되지 않는 마스터 슬라이드를 제거하여 [`Presentation`](../../aspose.slides/presentation)를 압축합니다. |
 
 ### 예제
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * 어셈블리 [Aspose.Slides](../../)

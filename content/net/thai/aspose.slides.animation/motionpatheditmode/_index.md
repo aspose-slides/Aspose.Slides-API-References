@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวิธีที่เส้นทางการเคลื่อนไหวทำงานเมื่อรูปร่างเป้าหมายถูกย้าย
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ระบุวิธีที่เส้นทางการเคลื่อนที่ทำงานเมื่อรูปร่างเป้าหมายถูกย้าย
 type: docs
 weight: 700
 url: /th/aspose.slides.animation/motionpatheditmode/
 ---
-## MotionPathEditMode การนับค่า
+## การระบุค่า MotionPathEditMode
 
-ระบุวิธีการที่เส้นทางการเคลื่อนที่ทำงานเมื่อรูปร่างเป้าหมายถูกย้าย
+ระบุวิธีที่เส้นทางการเคลื่อนที่ทำงานเมื่อรูปร่างเป้าหมายถูกย้าย
 
 ```csharp
 public enum MotionPathEditMode

@@ -1,44 +1,44 @@
 ---
 title: IParagraphCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अनुच्छेदों के संग्रह का प्रतिनिधित्व करता है।
+description: पैराग्राफ़ का संग्रह दर्शाता है।
 type: docs
 weight: 6570
 url: /hi/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection इंटरफ़ेस
 
-एक अनुच्छेदों के संग्रह का प्रतिनिधित्व करता है।
+Represents a collection of a paragraphs.
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 ```
 
-## गुण
+## प्रॉपर्टीज
 
-| नाम | वर्णन |
+| नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IEnumerable। |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | संग्रह में वास्तविक रूप से मौजूद तत्वों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides/iparagraphcollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
 
 ## विधियां
 
-| नाम | वर्णन |
+| नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | Paragraph को संग्रह के अंत में जोड़ता है। |
+| [Add](../../aspose.slides/iparagraphcollection/add#add_1)(IParagraph) | संग्रह के अंत में एक Paragraph जोड़ता है। |
 | [Add](../../aspose.slides/iparagraphcollection/add#add)(IParagraphCollection) | ParagraphCollection की सामग्री को संग्रह के अंत में जोड़ता है। |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | निर्दिष्ट html स्ट्रिंग से पाठ को संग्रह में जोड़ता है। |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | निर्दिष्ट html स्ट्रिंग से पाठ को संग्रह में जोड़ता है। |
-| [Clear](../../aspose.slides/iparagraphcollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | निर्दिष्ट अनुच्छेदों को HTML में बदलता है और उसे String वस्तु के रूप में लौटाता है। |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | निर्दिष्ट सूचकांक पर Paragraph को संग्रह में सम्मिलित करता है। |
-| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | निर्दिष्ट सूचकांक पर ParagraphCollection की सामग्री को संग्रह में सम्मिलित करता है। |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | विशिष्ट अनुच्छेद की पहली उपस्थिति को हटाता है। |
-| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | संग्रह में निर्दिष्ट सूचकांक पर तत्व को हटाता है। |
+| [Clear](../../aspose.slides/iparagraphcollection/clear)() | संग्रह से सभी तत्व हटाता है। |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | निर्दिष्ट पैराग्राफ़ को HTML में परिवर्तित करता है और इसे String ऑब्जेक्ट के रूप में लौटाता है। |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | निर्दिष्ट अनुक्रमांक पर संग्रह में एक Paragraph सम्मिलित करता है। |
+| [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | निर्दिष्ट अनुक्रमांक पर संग्रह में ParagraphCollection की सामग्री सम्मिलित करता है। |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | एक विशिष्ट पैराग्राफ़ की पहली उपस्थिति को हटाता है। |
+| [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | संग्रह में निर्दिष्ट अनुक्रमांक पर तत्व को हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IParagraph](../iparagraph)
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)

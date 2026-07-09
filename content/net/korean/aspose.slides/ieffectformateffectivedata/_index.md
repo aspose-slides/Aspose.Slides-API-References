@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData 인터페이스
 
-효과 서식 속성을 포함하는 불변 객체입니다.
+효과적인 효과 서식 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -16,24 +16,24 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | 기본 IEffectParamSource 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | 블러 효과. 읽기 전용 [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | 채우기 오버레이 효과. 읽기 전용 [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | 글로우 효과. 읽기 전용 [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | 내부 그림자. 읽기 전용 [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 모든 효과가 비활성화된 경우 true를 반환합니다 (새로 생성된 기본 EffectFormat 객체와 같이). 읽기 전용 Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | 모든 효과가 비활성화된 경우(true) 반환합니다(새로 만든 기본 EffectFormat 객체와 동일). 읽기 전용 Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | 외부 그림자. 읽기 전용 [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | 프리셋 그림자. 읽기 전용 [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 반사 효과. 읽기 전용 [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | 소프트 엣지. 읽기 전용 [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | 반사. 읽기 전용 [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | 부드러운 가장자리. 읽기 전용 [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### 비고
 
-이 인터페이스는 [`IEffectFormat`](../ieffectformat) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
+이 인터페이스는 [`IEffectFormat`](../ieffectformat) 인터페이스와 함께 사용되어 상속 적용된 효과적인 서식 값을 반환합니다.
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectParamSource](../ieffectparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

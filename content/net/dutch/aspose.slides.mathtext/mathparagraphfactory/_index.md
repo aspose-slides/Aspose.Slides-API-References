@@ -14,7 +14,7 @@ Staat toe een wiskundige alinea te maken
 public class MathParagraphFactory : IMathParagraphFactory
 ```
 
-## Constructeurs
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |

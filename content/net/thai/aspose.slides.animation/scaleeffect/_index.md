@@ -1,36 +1,36 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงเอฟเฟกต์สเกลการเคลื่อนไหว.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงเอฟเฟ็กต์การปรับสเกลของแอนิเมชัน.
 type: docs
 weight: 780
 url: /th/aspose.slides.animation/scaleeffect/
 ---
-## ScaleEffect คลาส
+## คลาส ScaleEffect
 
-แสดงเอฟเฟ็กต์สเกลการเคลื่อนไหว.
+แสดงถึงเอฟเฟ็กต์การปรับสเกลของแอนิเมชัน
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ScaleEffect](scaleeffect)() | ตัวสร้างเริ่มต้น. |
+| [ScaleEffect](scaleeffect)() | ตัวสร้างค่าเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | แสดงว่าพฤติกรรมการเคลื่อนไหวถูกสะสมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | แสดงว่าพฤติกรรมการเคลื่อนไหวปัจจุบันรวมกับการเคลื่อนไหวที่กำลังทำงานอื่นหรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | อธิบายค่าการออฟเซ็ตสัมพัทธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | ระบุตำแหน่ง x/y เพื่อเริ่มการเคลื่อนไหวจาก (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | แสดงคุณสมบัติของพฤติกรรม. อ่านอย่างเดียว [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงคุณสมบัติของเวลา สำหรับพฤติกรรมเอฟเฟ็กต์. อ่าน/เขียน [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟ็กต์สเกลการเคลื่อนไหว (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | ระบุว่าแอนิเมชันบีฮีเวียร์ถูกสะสมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | ระบุว่าพฤติกรรมแอนิเมชันปัจจุบันจะถูกรวมกับแอนิเมชันอื่นที่กำลังทำงานหรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | อธิบายค่าการออฟเซ็ตสัมพันธ์สำหรับแอนิเมชัน (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | ระบุตำแหน่งพิกัด x/y ที่เริ่มต้นแอนิเมชัน (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | แสดงถึงคุณสมบัติของพฤติกรรม. อ่านอย่างเดียว [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงถึงคุณสมบัติการจับเวลา สำหรับพฤติกรรมเอฟเฟ็กต์. อ่าน/เขียน [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟ็กต์การปรับสเกลของแอนิเมชัน (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
 | [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | กำหนดว่าคอนเทนต์ควรซูมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### ดูเพิ่มเติม

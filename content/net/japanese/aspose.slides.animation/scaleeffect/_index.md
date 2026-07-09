@@ -3,12 +3,12 @@ title: ScaleEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションのスケール効果を表します。
 type: docs
-weight: 760
+weight: 780
 url: /ja/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect クラス
 
-アニメーションスケール効果を表します。
+アニメーションのスケール効果を表します。
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -18,22 +18,22 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [ScaleEffect](scaleeffect)() | デフォルトコンストラクタです。 |
+| [ScaleEffect](scaleeffect)() | デフォルト コンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が累積されるかどうかを表します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中アニメーションと結合されるかどうかを表します。 読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | アニメーションの相対オフセット値（パーセンテージ）を表します。 読み取り/書き込み PointF。 |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | アニメーション開始位置の x/y 座標（パーセンテージ）を指定します。 読み取り/書き込み PointF。 |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。 読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。 読み取り/書き込み [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | アニメーションスケール効果の対象位置（パーセンテージ）を指定します。 読み取り/書き込み PointF。 |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | コンテンツをズームすべきかどうかを決定します。 読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーションの動作が蓄積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | アニメーションの相対オフセット値（パーセント）を表します。読み取り/書き込み PointF。 |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | アニメーション開始時の x/y 座標（パーセント）を指定します。読み取り/書き込み PointF。 |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み取り/書き込み [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | アニメーションのスケール効果のターゲット位置（パーセント）を指定します。読み取り/書き込み PointF。 |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | コンテンツをズームすべきかどうかを決定します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
 
-## 参照
+### 参照
 
 * クラス [Behavior](../behavior)
 * インターフェイス [IScaleEffect](../iscaleeffect)

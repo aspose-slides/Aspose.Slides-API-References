@@ -1,7 +1,7 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
-description: แสดงถึงคอลเลกชันของโมดูล VBA Project.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงคอลเลกชันของโมดูล VBA Project
 type: docs
 weight: 11540
 url: /th/aspose.slides.vba/ivbamodulecollection/
@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | รับอิลิเมนต์ที่ตำแหน่งที่ระบุ. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | เพิ่มโมดูลเปล่าที่ใหม่เข้าสู่โครงการ VBA. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | ลบการพบครั้งแรกของอ็อบเจ็กต์ที่ระบุออกจากคอลเลกชัน. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | เพิ่มโมดูลเปล่าใหม่ไปยัง VBA Project |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | ลบการพบครั้งแรกของอ็อบเจ็กต์เฉพาะจากคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

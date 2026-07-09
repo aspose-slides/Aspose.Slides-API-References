@@ -1,29 +1,29 @@
 ---
 title: PresentationLockingBehavior
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงพฤติกรรมที่เกี่ยวกับการจัดการไฟล์หรือ Stream แหล่งข้อมูล IPresentation./ipresentation ขณะโหลดและทำงานกับอินสแตนซ์ของ IPresentation./ipresentation.
+description: แสดงพฤติกรรมที่เกี่ยวข้องกับการจัดการไฟล์แหล่งข้อมูล IPresentation./ipresentation หรือ Stream ขณะโหลดและทำงานกับอินสแตนซ์ของ IPresentation./ipresentation.
 type: docs
 weight: 9630
 url: /th/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enumeration
 
-แทนพฤติกรรมที่เกี่ยวกับการจัดการแหล่งข้อมูล [`IPresentation`](../ipresentation) (ไฟล์หรือ Stream) ขณะโหลดและทำงานกับอินสแตนซ์ของ [`IPresentation`](../ipresentation).
+แสดงพฤติกรรมในการจัดการแหล่งข้อมูล [`IPresentation`](../ipresentation) (ไฟล์หรือ Stream) ขณะโหลดและทำงานกับอินสแตนซ์ของ [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
 ```
 
-### Values
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| LoadAndRelease | `0` | แหล่งข้อมูลจะถูกล็อกเฉพาะในช่วงเวลาการดำเนินการของคอนสตรัคเตอร์ [`IPresentation`](../ipresentation) เท่านั้น หาก [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) ถูกตั้งค่าเป็น false, BLOB ทั้งหมดจะถูกโหลดเข้าสู่หน่วยความจำ มิฉะนั้น อาจใช้วิธีอื่นเช่นไฟล์ชั่วคราว พฤติกรรมนี้ช้ากว่า KeepLocked และหากเป็นไปได้ที่จะส่งมอบความเป็นเจ้าของของแหล่งข้อมูลให้กับ [`IPresentation`](../ipresentation) ควรใช้ KeepLocked |
-| KeepLocked | `1` | แหล่งข้อมูลจะถูกล็อกตลอดอายุการใช้งานของอินสแตนซ์ [`IPresentation`](../ipresentation) จนกว่าจะถูกทำลาย [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) ต้องตั้งค่าเป็น true เพื่อใช้พฤติกรรมนี้ มิฉะนั้นจะเกิดข้อยกเว้น พฤติกรรมนี้แนะนำ เพราะเร็วกว่าและใช้หน่วยความจำน้อยกว่า LoadAndRelease |
+| LoadAndRelease | `0` | แหล่งข้อมูลจะถูกล็อกเฉพาะในช่วงเวลาการทำงานของคอนสตรัคเตอร์ [`IPresentation`](../ipresentation) เท่านั้น หาก [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) ถูกตั้งค่าเป็น false, BLOB ทั้งหมดจะถูกโหลดเข้าหน่วยความจำ มิฉะนั้นอาจใช้วิธีอื่นเช่นไฟล์ชั่วคราว พฤติกรรมนี้ช้ากว่า KeepLocked และหากสามารถส่งมอบความเป็นเจ้าของแหล่งข้อมูลให้กับ [`IPresentation`](../ipresentation) ได้แนะนำให้ใช้ KeepLocked. |
+| KeepLocked | `1` | แหล่งข้อมูลจะถูกล็อกตลอดอายุการใช้งานของอินสแตนซ์ [`IPresentation`](../ipresentation) จนกว่าจะถูกทำลาย [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) ต้องตั้งค่าเป็น true เพื่อใช้พฤติกรรมนี้ มิฉะนั้นจะเกิดข้อยกเว้น พฤติกรรมนี้แนะนำ เนื่องจากเร็วกว่าและใช้หน่วยความจำน้อยกว่า LoadAndRelease. |
 
-### Remarks
+### หมายเหตุ
 
-แหล่งข้อมูลคือพารามิเตอร์ที่ส่งให้คอนสตรัคเตอร์ [`IPresentation`](../ipresentation) ในตัวอย่างด้านล่าง แหล่งข้อมูลคือไฟล์ "pres.pptx" :
+แหล่งข้อมูลเป็นพารามิเตอร์ที่ส่งให้กับคอนสตรัคเตอร์ [`IPresentation`](../ipresentation) ในตัวอย่างด้านล่าง แหล่งข้อมูลคือไฟล์ "pres.pptx" :
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,9 +31,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-สำหรับตัวอย่างนี้ แหล่งข้อมูล (ไฟล์ "pres.pptx") จะถูกล็อกตลอดอายุการใช้งานของอินสแตนซ์ [`IPresentation`](../ipresentation) คือไม่สามารถถูกเปลี่ยนแปลงหรือถูกลบโดยกระบวนการอื่นได้
+สำหรับตัวอย่างนี้ แหล่งข้อมูล (ไฟล์ "pres.pptx") จะถูกล็อกตลอดอายุการใช้งานของอินสแตนซ์ [`IPresentation`](../ipresentation) คือไม่สามารถเปลี่ยนแปลงหรือถูกลบโดยโปรเซสอื่นได้
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

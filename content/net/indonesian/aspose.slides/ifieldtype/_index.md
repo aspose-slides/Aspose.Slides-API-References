@@ -1,14 +1,14 @@
 ---
 title: IFieldType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika diperbarui.
+description: Mewakili jenis bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika akan diperbarui.
 type: docs
-weight: 5760
+weight: 5780
 url: /id/aspose.slides/ifieldtype/
 ---
-## IFieldType interface
+## antarmuka IFieldType
 
-Mewakili tipe bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika diperbarui.
+Mewakili jenis bidang. Nilai ini menentukan teks mana yang akan diatur ke bagian bidang ketika diperbarui.
 
 ```csharp
 public interface IFieldType
@@ -18,7 +18,7 @@ public interface IFieldType
 
 | Nama | Deskripsi |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Mengembalikan nama internal dari objek FieldTypeEx ini. Baca/tulis String. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Mengembalikan nama internal objek FieldTypeEx ini. Read/write String. |
 
 ### Lihat Juga
 

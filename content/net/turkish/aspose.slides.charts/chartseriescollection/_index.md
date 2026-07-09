@@ -1,12 +1,12 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: ChartSeries koleksiyonunu temsil eder./chartseries
 type: docs
-weight: 1430
+weight: 1450
 url: /tr/aspose.slides.charts/chartseriescollection/
 ---
-## ChartSeriesCollection class
+## ChartSeriesCollection sınıf
 
 [`ChartSeries`](../chartseries) koleksiyonunu temsil eder.
 
@@ -16,30 +16,30 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Koleksiyondaki nesne sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Koleksiyondaki nesne sayısını döndürür. Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Yeni bir grafik serisi [`ChartCellCollection`](../chartcellcollection)'den oluşturur ve koleksiyona ekler. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Yeni bir grafik serisi [`ChartDataCell`](../chartdatacell)'den oluşturur ve koleksiyona ekler. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`ChartCellCollection`](../chartcellcollection)'den yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`ChartDataCell`](../chartdatacell)'den yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Değerden yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
-| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Koleksiyondaki tüm denetimleri kaldırır. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Tüm koleksiyonu belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Koleksiyon içinde yinelemeye yapan bir enumerator döndürür. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Belirtilen [`ChartSeries`](../chartseries)'i arar ve tüm koleksiyon içinde ilk oluşumun sıfır tabanlı indeksini döndürür. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Koleksiyondan tüm denetimleri kaldırır. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Tam koleksiyonu belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir yineleyici döndürür. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | [`ChartSeries`](../chartseries)'yi arar ve tüm koleksiyon içinde ilk oluşumun sıfır tabanlı dizinini döndürür. |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Yeni bir grafik serisi oluşturur ve koleksiyona ekler. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Belirtilen değeri kaldırır. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Koleksiyondan belirtilen konumda depolanan bir ActiveX denetimini kaldırır. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Koleksiyonda belirtilen konumda saklanan bir ActiveX denetimini kaldırır. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [ChartData](../chartdata)

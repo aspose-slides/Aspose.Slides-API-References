@@ -1,12 +1,12 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce gli stili di formattazione che possono essere applicati al testo.
 type: docs
-weight: 4850
+weight: 4870
 url: /it/aspose.slides/fontstyletype/
 ---
-## FontStyleType enumerazione
+## enumerazione FontStyleType
 
 Definisce gli stili di formattazione che possono essere applicati al testo.
 

@@ -3,10 +3,10 @@ title: IImageCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: PPImage のコレクションを表します。
 type: docs
-weight: 6140
+weight: 6160
 url: /ja/aspose.slides/iimagecollection/
 ---
-## IImageCollection interface
+## IImageCollection インターフェイス
 
 PPImage のコレクションを表します。
 
@@ -14,13 +14,13 @@ PPImage のコレクションを表します。
 public interface IImageCollection : IGenericCollection<IPPImage>
 ```
 
-## Properties
+## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | インデックスで画像を取得します。 |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | インデックスで画像を返します。 |
 
-## Methods
+## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
@@ -30,7 +30,7 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG オブジェクトからプレゼンテーションに画像を追加します。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | メモリストリームから画像を追加します。 |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | ストリームからプレゼンテーションに画像を追加します。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | ストリームから画像を作成してプレゼンテーションに追加します。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | ストリームから画像を作成し、プレゼンテーションに追加します。 |
 
 ### 参照
 

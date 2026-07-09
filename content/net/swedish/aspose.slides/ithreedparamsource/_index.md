@@ -3,18 +3,18 @@ title: IThreeDParamSource
 second_title: Aspose.Sildes för .NET API-referens
 description: Hjälpgränssnitt för källa till 3D-egenskaper
 type: docs
-weight: 7330
+weight: 7350
 url: /sv/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource gränssnitt
 
-Hjälpgränssnitt för källa till 3D-egenskaper
+Hjälpgränssnitt för källa till 3D egenskaper
 
 ```csharp
 public interface IThreeDParamSource
 ```
 
-### Se även
+### Se också
 
 * namnutrymme [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

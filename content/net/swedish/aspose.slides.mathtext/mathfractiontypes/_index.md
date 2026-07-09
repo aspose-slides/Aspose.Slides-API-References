@@ -1,14 +1,14 @@
 ---
 title: MathFractionTypes
 second_title: Aspose.Sildes för .NET API-referens
-description: Fraktionstyper
+description: Bråktyper
 type: docs
-weight: 8690
+weight: 8710
 url: /sv/aspose.slides.mathtext/mathfractiontypes/
 ---
-## MathFractionTypes uppräkning
+## MathFractionTypes enumeration
 
-Fraktionstyper
+Bråktyper
 
 ```csharp
 public enum MathFractionTypes
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Bar | `1` | Bar fraktion |
+| Bar | `1` | Bar-fraktion |
 | Skewed | `2` | Sned |
 | Linear | `3` | Linjär fraktion |
-| NoBar | `4` | No-Bar fraktion (Stack) |
+| NoBar | `4` | Ingen-Bar fraktion (Stack) |
 
 ### Se även
 

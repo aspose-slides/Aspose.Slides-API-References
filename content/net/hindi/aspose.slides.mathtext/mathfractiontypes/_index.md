@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Bar | `1` | बार फ्रैक्शन |
-| Skewed | `2` | तिरछा |
-| Linear | `3` | रेखीय फ्रैक्शन |
-| NoBar | `4` | नो-बार फ्रैक्शन (स्टैक) |
+| Bar | `1` | Bar भिन्न |
+| Skewed | `2` | Skewed |
+| Linear | `3` | Linear भिन्न |
+| NoBar | `4` | No-Bar भिन्न (स्टैक) |
 
 ### संबंधित देखें
 

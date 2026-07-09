@@ -1,9 +1,9 @@
 ---
 title: ISmartArtNodeCollection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci uzlů SmartArt.
 type: docs
-weight: 10540
+weight: 10560
 url: /cs/aspose.slides.smartart/ismartartnodecollection/
 ---
 ## ISmartArtNodeCollection rozhraní
@@ -25,7 +25,7 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | Název | Popis |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | Přidá nový uzel nebo poduzel. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Přidá nový uzel na vybrané pozici v kolekci uzlů. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | Přidá nový uzel na vybranou pozici v kolekci uzlů. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | Odstraní uzel nebo poduzel podle indexu. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | Odstraní uzel nebo poduzel. |
 

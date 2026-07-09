@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내장된 Excel 통합 문서에 대한 액세스를 제공합니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 내장 Excel 워크북에 대한 액세스를 제공합니다
 type: docs
 weight: 1860
 url: /ko/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook 인터페이스
 
-내장된 Excel 통합 문서에 대한 액세스를 제공합니다
+내장 Excel 워크북에 대한 액세스를 제공합니다
 
 ```csharp
 public interface IChartDataWorkbook
@@ -24,7 +24,7 @@ public interface IChartDataWorkbook
 
 | 이름 | 설명 |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | 통합 문서의 모든 수식을 계산하고 해당 셀 값들을 업데이트합니다. |
+| [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | 워크북의 모든 수식을 계산하고 해당 셀 값을 업데이트합니다. |
 | [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | 시트의 모든 셀 값을 지웁니다 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | 차트 시리즈 또는 범주에 사용할 수 있는 셀을 가져옵니다 |
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | 차트 시리즈 또는 범주에 사용할 수 있는 셀을 가져옵니다 |
@@ -33,7 +33,7 @@ public interface IChartDataWorkbook
 | [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | 차트 시리즈 또는 범주에 사용할 수 있는 셀을 가져옵니다 |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | 셀 집합을 가져옵니다. |
 
-### 또 보기
+### 참조
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

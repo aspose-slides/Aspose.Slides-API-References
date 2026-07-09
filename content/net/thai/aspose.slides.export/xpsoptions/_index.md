@@ -1,12 +1,11 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ XPS
 type: docs
 weight: 4730
 url: /th/aspose.slides.export/xpsoptions/
 ---
-
 ## XpsOptions คลาส
 
 Provides options that control how a presentation is saved in XPS format.
@@ -26,49 +25,49 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ. อ่าน-เขียน String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | เป็น true เพื่อวาดกรอบสีดำรอบแต่ละสไลด์. อ่าน/เขียน Boolean. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True เพื่อวาดกรอบสีดำรอบแต่ละสไลด์. อ่าน/เขียน Boolean. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงผลของการไล่ระดับสี. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจ็กต์ callback สำหรับอัปเดตความคืบหน้าในการบันทึกเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | เป็น true เพื่อแปลงไฟล์เมทาดาต้าทั้งหมดที่ใช้ในงานนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | ระบุว่าควรรวมสไลด์ที่ซ่อนอยู่ในเอกสารที่สร้างหรือไม่. ค่าเริ่มต้นคือ `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจ็กต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจกต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True เพื่อแปลง metafile ทั้งหมดที่ใช้ในงานนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | ระบุว่าเอกสารที่สร้างควรรวมสไลด์ที่ซ่อนอยู่หรือไม่. ค่าเริ่มต้นคือ `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีการแปลงงานนำเสนอเป็น XPS ด้วยการตั้งค่าเริ่มต้น.
+The following example shows how to converting presentations to XPS using default settings.
 
 ```csharp
 [C#]
-// สร้างอ็อบเจ็กต์ Presentation ที่แทนไฟล์งานนำเสนอ
+// สร้างอ็อบเจกต์ Presentation ที่แทนไฟล์การนำเสนอ
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // บันทึกงานนำเสนอเป็นเอกสาร XPS
+    // กำลังบันทึกการนำเสนอเป็นเอกสาร XPS
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-ตัวอย่างต่อไปนี้แสดงวิธีการแปลงงานนำเสนอเป็น XPS ด้วยการตั้งค่าที่กำหนดเอง.
+The following example shows how to converting presentations to XPS using custom settings.
 
 ```csharp
 [C#]
-// สร้างอ็อบเจ็กต์ Presentation ที่แทนไฟล์งานนำเสนอ
+// สร้างอ็อบเจกต์ Presentation ที่แทนไฟล์การนำเสนอ
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // สร้างอ็อบเจ็กต์ของคลาส TiffOptions
+    // สร้างอ็อบเจกต์ของคลาส TiffOptions
     XpsOptions options = new XpsOptions();
     // บันทึก MetaFiles เป็น PNG
     options.SaveMetafilesAsPng = true;
-    // บันทึกงานนำเสนอเป็นเอกสาร XPS
+    // บันทึกการนำเสนอเป็นเอกสาร XPS
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
 ### ดูเพิ่มเติม
 
-* class [SaveOptions](../saveoptions)
-* interface [IXpsOptions](../ixpsoptions)
-* namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* assembly [Aspose.Slides](../../)
+* คลาส [SaveOptions](../saveoptions)
+* อินเทอร์เฟซ [IXpsOptions](../ixpsoptions)
+* เนมส페ซ [Aspose.Slides.Export](../../aspose.slides.export)
+* แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

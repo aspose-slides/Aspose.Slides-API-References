@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het compressieniveau van afbeeldingen weer
+description: Stelt het compressieniveau van afbeeldingen voor
 type: docs
 weight: 4350
 url: /nl/aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression enumeratie
 
-Geeft het compressieniveau van afbeeldingen weer
+Stelt het compressieniveau van afbeeldingen voor
 
 ```csharp
 public enum PicturesCompression
@@ -16,14 +16,14 @@ public enum PicturesCompression
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Beschrijving |
 | --- | --- | --- |
 | Dpi330 | `0` | Goede kwaliteit voor high-definition (HD) schermen |
 | Dpi220 | `1` | Uitstekende kwaliteit op de meeste printers en schermen |
-| Dpi150 | `2` | Goed voor webpagina's en projectoren |
-| Dpi96 | `3` | Verklein de documentgrootte voor delen |
+| Dpi150 | `2` | Goed voor webpagina’s en projectoren |
+| Dpi96 | `3` | Minimaliseer de documentgrootte voor delen |
 | Dpi72 | `4` | Standaard compressieniveau |
-| DocumentResolution | `5` | Gebruik documentresolutie - de afbeelding wordt niet gecomprimeerd en wordt in het document gebruikt zoals deze is |
+| DocumentResolution | `5` | Gebruik documentresolutie – de afbeelding wordt niet gecomprimeerd en wordt in het document zoals hij is gebruikt |
 
 ### Zie ook
 

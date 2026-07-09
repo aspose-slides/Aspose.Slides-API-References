@@ -1,6 +1,6 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 不可變物件，包含有效的線條草圖屬性。
 type: docs
 weight: 7030

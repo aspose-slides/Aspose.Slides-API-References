@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Slides for .NET API 參考文件
-description: 方向投影片轉場效果。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 方向幻燈片過渡效果。
 type: docs
 weight: 10150
 url: /zh-hant/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition 介面
 
-方向投影片轉場效果。
+方向幻燈片過渡效果。
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IOrientationTransition : ITransitionValueBase
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 過渡方向。可讀寫 [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | 過渡方向。可讀寫 [`Orientation`](../../aspose.slides/orientation)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

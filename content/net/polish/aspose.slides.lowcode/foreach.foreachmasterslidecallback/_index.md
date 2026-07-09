@@ -1,9 +1,9 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Wywołanie zwrotne, które zostanie wywołane dla każdego MasterSlide./foreach/masterslide w Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Wywołanie zwrotne, które zostanie wywołane dla każdego MasterSlide./foreach/masterslide w prezentacji../aspose.slides/presentation.
 type: docs
-weight: 7900
+weight: 7920
 url: /pl/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback delegat
@@ -16,7 +16,7 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | Parametr | Typ | Opis |
 | --- | --- | --- |
-| masterSlide | MasterSlide | Obecny iterowany master slide |
+| masterSlide | MasterSlide | Aktualnie iterowany master slide |
 | index | Int32 | Indeks bieżącego master slide |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Sildes pro .NET API referenci
-description: Představuje typy hodnot vlastností.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje typy hodnot vlastností.
 type: docs
-weight: 740
+weight: 760
 url: /cs/aspose.slides.animation/propertyvaluetype/
 ---
 ## PropertyValueType enumerace
 
-Představuje typy hodnot vlastností.
+Reprezentuje typy hodnot vlastností.
 
 ```csharp
 public enum PropertyValueType
@@ -18,10 +18,10 @@ public enum PropertyValueType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` |  |
-| String | `0` |  |
-| Number | `1` |  |
-| Color | `2` |  |
+| NotDefined | `-1` | |
+| String | `0` | |
+| Number | `1` | |
+| Color | `2` | |
 
 ### Viz také
 

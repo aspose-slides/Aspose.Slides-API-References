@@ -1,44 +1,43 @@
----  
+---
 title: ISVGOptions
-second_title: Aspose.Sildes für .NET API Referenz  
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt SVG-Optionen dar.
 type: docs
-weight: 3890  
+weight: 4060
 url: /de/aspose.slides.export/isvgoptions/
----  
+---
+## ISVGOptions Schnittstelle
 
-## ISVGOptions-Schnittstelle  
+Stellt SVG-Optionen dar.
 
-Stellt SVG-Optionen dar.  
+```csharp
+public interface ISVGOptions : ISaveOptions
+```
 
-```csharp  
-public interface ISVGOptions : ISaveOptions  
-```  
+## Eigenschaften
 
-## Eigenschaften  
+| Name | Beschreibung |
+| --- | --- |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Gibt die ISaveOptions Schnittstelle zurück. Nur lesbar [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Ein boolesches Flag gibt an, ob die zugeschnittenen Teile Teil des Dokuments bleiben. Wenn true, werden die zugeschnittenen Teile entfernt, wenn false, werden sie im Dokument serialisiert (was zu einer größeren Datei führen kann) Lese/Schreib Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Legt fest, ob der 3D-Text in SVG deaktiviert ist. Lese/Schreib Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Liest oder setzt einen Wert, der angibt, ob Text ohne Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen in der gerenderten Ausgabe deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Deaktiviert das Aufteilen von FromCornerX- und FromCenter-Verläufen. Lese/Schreib Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 kann keine Einzüge für Marker definieren. Die Aspose.Slides SVG-Schreibengine hat hierfür eine Lösung: Sie schneidet das Linienende mit Pfeil ab, sodass die Linie Marker nicht überlappt. Diese Option deaktiviert dieses Verhalten. Lese/Schreib Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Legt fest, wie extern geladene Schriften behandelt werden. Lese/Schreib [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Stellt Optionen bereit, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur lesbar [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Legt die JPEG-Codierungsqualität fest. Lese/Schreib Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Gibt das untere Auflösungslimit für die Rasterisierung von Metadateien zurück oder setzt es. Lese/Schreib Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Stellt das Kompressionsniveau für Bilder dar. Lese/Schreib [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Gibt eine Callback-Schnittstelle zurück und setzt sie, die dem Benutzer erlaubt, die Formkonvertierung zu steuern. Lese/Schreib [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Legt fest, ob die angegebene Drehung der Form beim Rendering durchgeführt wird oder nicht. Lese/Schreib Boolean. Standardwert ist true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Legt fest, ob der Textrahmen in einen Renderbereich einbezogen wird oder nicht. Lese/Schreib Boolean. Standardwert ist false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Legt fest, ob der Text auf einer Folie als Grafik gespeichert wird. Lese/Schreib Boolean. |
 
-| Name | Beschreibung |  
-| --- | --- |  
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Gibt die ISaveOptions-Schnittstelle zurück. Nur-lesend [`ISaveOptions`](../isaveoptions). |  
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Ein boolesches Flag, das angibt, ob die beschnittenen Teile als Teil des Dokuments verbleiben. Wenn wahr sind die beschnittenen Teile entfernt, wenn falsch werden sie im Dokument serialisiert (was zu einer größeren Datei führen kann). Lese-/schreibbarer Boolean. |  
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Bestimmt, ob der 3D-Text in SVG deaktiviert ist. Lese-/schreibbarer Boolean. |  
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Gibt einen Wert an, der angibt, ob Text ohne Verwendung von Ligaturen gerendert wird. Wenn auf `true` gesetzt, werden Ligaturen im gerenderten Output deaktiviert. Standardmäßig ist diese Eigenschaft auf `false` gesetzt. |  
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Deaktiviert das Teilen von FromCornerX- und FromCenter-Gradienten. Lese-/schreibbarer Boolean. |  
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 fehlt die Möglichkeit, Einzüge für Marker zu definieren. Die SVG-Schreibmaschine von Aspose.Slides hat einen Workaround für dieses Problem: Sie beschneidet das Ende einer Linie mit einem Pfeil, sodass die Linie sich nicht mit den Markern überlappt. Diese Option schaltet dieses Verhalten aus. Lese-/schreibbarer Boolean. |  
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Bestimmt, wie extern geladene Schriftarten behandelt werden. Lese-/schreibbarer [`SvgExternalFontsHandling`](../svgexternalfontshandling). |  
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Bietet Optionen, die das Aussehen von Ink-Objekten im exportierten Dokument steuern. Nur-lesend [`IInkOptions`](../iinkoptions) |  
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Bestimmt die JPEG-Codierungsqualität. Lese-/schreibbarer Int32. |  
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Gibt die untere Auflösungsgrenze für die Metafile-Rasterisierung zurück oder setzt sie. Lese-/schreibbarer Int32. |  
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Stellt das Komprimierungsniveau für Bilder dar. Lese-/schreibbarer [`PicturesCompression`](./picturescompression). |  
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Gibt eine Rückruffunktion zurück und setzt diese, die es dem Benutzer ermöglicht, die Formkonvertierung zu steuern. Lese-/schreibbarer [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |  
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Bestimmt, ob die angegebene Rotation der Form beim Rendern durchgeführt wird oder nicht. Lese-/schreibbarer Boolean. Standardwert ist wahr. |  
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Bestimmt, ob der Textrahmen in einem Rendering-Bereich enthalten ist oder nicht. Lese-/schreibbarer Boolean. Standardwert ist falsch. |  
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Bestimmt, ob der Text auf einer Folie als Grafik gespeichert wird. Lese-/schreibbarer Boolean. |  
+### Siehe auch
 
-### Siehe auch  
+* Schnittstelle [ISaveOptions](../isaveoptions)
+* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Assembly [Aspose.Slides](../../)
 
-* Schnittstelle [ISaveOptions](../isaveoptions)  
-* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)  
-* Assembly [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

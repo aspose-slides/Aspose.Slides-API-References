@@ -1,6 +1,6 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: COM इंटरफ़ेस के माध्यम से प्रस्तुति बनाने की अनुमति देता है
 type: docs
 weight: 6770
@@ -8,29 +8,29 @@ url: /hi/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory इंटरफ़ेस
 
-COM इंटरफ़ेस के माध्यम से प्रस्तुति बनाने की अनुमति देता है
+COM इंटरफ़ेस के द्वारा प्रस्तुति बनाने की अनुमति देता है
 
 ```csharp
 public interface IPresentationFactory
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | नई प्रस्तुति बनाता है। |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | अतिरिक्त लोड विकल्पों के साथ नई प्रस्तुति बनाता है। |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | निर्धारित स्ट्रीम में प्रस्तुति की जानकारी प्राप्त करता है। |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | निर्धारित फ़ाइल में प्रस्तुति की जानकारी प्राप्त करता है। |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | स्लाइड्स से कच्चा पाठ प्राप्त करता है। |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | स्लाइड्स से कच्चा पाठ प्राप्त करता है। |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | स्लाइड्स से कच्चा पाठ प्राप्त करता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | ऐरे से मौजूदा प्रस्तुति पढ़ता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | स्ट्रीम से मौजूदा प्रस्तुति पढ़ता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | फ़ाइल से मौजूदा प्रस्तुति पढ़ता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | ऐरे से मौजूदा प्रस्तुति को अतिरिक्त लोड विकल्पों के साथ पढ़ता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | स्ट्रीम से मौजूदा प्रस्तुति को अतिरिक्त लोड विकल्पों के साथ पढ़ता है। |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | स्ट्रीम से मौजूदा प्रस्तुति को अतिरिक्त लोड विकल्पों के साथ पढ़ता है। |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | अतिरिक्त लोड विकल्पों के साथ नई प्रस्तुति बनाता है |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | निर्दिष्ट स्ट्रीम में प्रस्तुति की जानकारी प्राप्त करता है। |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | निर्दिष्ट फ़ाइल में प्रस्तुति की जानकारी प्राप्त करता है। |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | स्लाइड्स से कच्चा पाठ प्राप्त करता है |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | स्लाइड्स से कच्चा पाठ प्राप्त करता है |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | स्लाइड्स से कच्चा पाठ प्राप्त करता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | ऐरे से मौजूदा प्रस्तुति पढ़ता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | स्ट्रीम से मौजूदा प्रस्तुति पढ़ता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | फ़ाइल से मौजूदा प्रस्तुति पढ़ता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | अतिरिक्त लोड विकल्पों के साथ ऐरे से मौजूदा प्रस्तुति पढ़ता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | अतिरिक्त लोड विकल्पों के साथ स्ट्रीम से मौजूदा प्रस्तुति पढ़ता है |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | अतिरिक्त लोड विकल्पों के साथ स्ट्रीम से मौजूदा प्रस्तुति पढ़ता है |
 
 ### देखें
 

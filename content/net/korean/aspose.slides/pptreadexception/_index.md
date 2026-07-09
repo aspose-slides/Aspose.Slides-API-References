@@ -1,14 +1,14 @@
 ---
 title: PptReadException
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 읽기 오류 발생 시 발생하는 예외를 나타냅니다.
+description: 프레젠테이션을 읽는 중 오류가 발생했을 때 발생하는 예외를 나타냅니다.
 type: docs
 weight: 9530
 url: /ko/aspose.slides/pptreadexception/
 ---
 ## PptReadException 클래스
 
-프레젠테이션 읽기 오류가 발생할 때 발생하는 예외를 나타냅니다.
+프레젠테이션을 읽는 중 발생하는 오류에 대해 발생하는 예외를 나타냅니다.
 
 ```csharp
 public class PptReadException : PptException
@@ -19,10 +19,10 @@ public class PptReadException : PptException
 | 이름 | 설명 |
 | --- | --- |
 | [PptReadException](pptreadexception#constructor)() | 기본 생성자. |
-| [PptReadException](pptreadexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 갖는 예외용 생성자. |
+| [PptReadException](pptreadexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외를 위한 생성자. |
 
-### 참조
+### 참고
 
 * 클래스 [PptException](../pptexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: सहायक जनरिक संग्रह इंटरफ़ेस।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: सहायक जेनेरिक संग्रह इंटरफ़ेस।
 type: docs
 weight: 5960
 url: /hi/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection<T> इंटरफ़ेस
+## IGenericCollection&lt;T&gt; इंटरफ़ेस
 
-सहायक जनरिक संग्रह इंटरफ़ेस।
+सहायक जेनेरिक संग्रह इंटरफ़ेस।
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
@@ -25,7 +25,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | ICollection इंटरफ़ेस लौटाता है। |
 | [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

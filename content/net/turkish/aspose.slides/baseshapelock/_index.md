@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
 second_title: Aspose.Sildes için .NET API Referansı
-description: Kilitlerin devre dışı bırakıldığı işlem için temel bir sınıfı temsil eder.
+description: Kilitlerin devre dışı bırakılmış işlemleri için temel bir sınıfı temsil eder.
 type: docs
-weight: 960
+weight: 980
 url: /tr/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock sınıfı
 
-Tüm kilitleme bayrakları devre dışı bırakılmışsa true döndürür. Salt okunur Boolean.
+Temel kilit (devre dışı bırakılmış işlem) sınıfını temsil eder.
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,9 +18,9 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Ad | Açıklama |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm kilitleme bayrakları devre dışı bırakılmışsa true döndürür. Salt okunur Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm lock-flags devre dışı bırakılmışsa true döner. Salt okunur Boolean. |
 
-### Ayrıca Bakınız
+### Diğerlerine Bakın
 
 * arayüz [IBaseShapeLock](../ibaseshapelock)
 * ad alanı [Aspose.Slides](../../aspose.slides)

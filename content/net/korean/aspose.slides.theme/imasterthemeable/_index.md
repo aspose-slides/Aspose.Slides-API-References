@@ -21,7 +21,7 @@ public interface IMasterThemeable : IThemeable
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | IThemeable 인터페이스를 반환합니다. 읽기 전용 [`IThemeable`](../ithemeable). |
 | [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | 마스터 테마 관리자를 반환합니다. 읽기 전용 [`IMasterThemeManager`](../imasterthememanager). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IThemeable](../ithemeable)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 數學段落，是數學區塊 IMathBlock 的容器
+second_title: Aspose.Sildes for .NET API 參考
+description: 數學段落，作為數學區塊 IMathBlock 的容器
 type: docs
 weight: 8390
 url: /zh-hant/aspose.slides.mathtext/imathparagraph/
 ---
 ## IMathParagraph 介面
 
-數學段落，是數學區塊 (IMathBlock) 的容器
+數學段落，作為數學區塊 (IMathBlock) 的容器
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -39,7 +39,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathBlockCollection](../imathblockcollection)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

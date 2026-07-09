@@ -1,14 +1,14 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ให้ตัวเลือกที่ควบคุมลักษณะของอ็อบเจ็กต์ Ink ในเอกสารที่ส่งออก
 type: docs
 weight: 3980
 url: /th/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions อินเทอร์เฟซ
 
-ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก
+ให้ตัวเลือกที่ควบคุมลักษณะของอ็อบเจ็กต์ Ink ในเอกสารที่ส่งออก
 
 ```csharp
 public interface IInkOptions
@@ -18,8 +18,8 @@ public interface IInkOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | แสดงหรือซ่อนองค์ประกอบ Ink ในเอกสารที่ส่งออก |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | ใช้การดำเนินการ ROP หรือความโปร่งแสงสำหรับการเรนเดอร์แปรง |
+| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | แสดงหรือซ่อนองค์ประกอบ Ink ในเอกสารที่ส่งออก. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | ใช้การดำเนินการ ROP หรือความทึบแสงสำหรับการเรนเดอร์แปรง. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes para referência de API .NET
-description: Especifica propriedades de IMathNaryOperator
+second_title: Aspose.Sildes para Referência de API .NET
+description: Especifica as propriedades do IMathNaryOperator
 type: docs
-weight: 8360
+weight: 8380
 url: /pt/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
-## IMathNaryOperatorProperties interface
+## interface IMathNaryOperatorProperties
 
-Especifica propriedades de IMathNaryOperator
+Especifica propriedades do IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -16,15 +16,15 @@ public interface IMathNaryOperatorProperties
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | O caractere do operador cresce verticalmente para corresponder à altura de seu operando |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | O caractere do operador cresce verticalmente para corresponder à altura do operando |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Ocultar subscrito |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Ocultar sobrescrito |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | A localização dos limites (subscrito e sobrescrito) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Caractere do operador N-ário. Por exemplo: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Caractere do operador n-ário Por exemplo: '∑', '∫' |
 
-### Veja Também
+### Veja também
 
 * espaço de nomes [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

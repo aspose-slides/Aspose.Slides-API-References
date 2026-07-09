@@ -1,6 +1,6 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: हाइपरलिंक का प्रतिनिधित्व करता है।
 type: docs
 weight: 6110
@@ -16,29 +16,29 @@ public interface IHyperlink
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx की कार्रवाई के प्रकार को लौटाता है। केवल-पढ़ने योग्य [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | हाइपरलिंक रंग का स्रोत दर्शाता है - या तो स्टाइल या भाग प्रारूप। पढ़ने/लिखने योग्य [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | बाहरी URL निर्दिष्ट करता है। यदि यह प्रॉपर्टी null नहीं रहती है तो TargetSlide प्रॉपर्टी null हो जाती है। केवल-पढ़ने योग्य String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | यह प्रॉपर्टी उस भाग के लिए सेट किए गए हाइपरलिंक को दर्शाती है, चाहे भाग की वास्तविक सामग्री कुछ भी हो। PowerPoint लिंक और उनके संबंधित पाठ के साथ विशेष रूप से व्यवहार करता है। यह एक वैध URL के रूप में हाइपरलिंक के लिए पाठ बनाने की अनुमति देता है, जो लिंक के वास्तविक पते से अलग होता है। इस स्थिति में, जब आप संपादन विंडो में लिंक देखते हैं, तो वह पाठ भाग से मेल खाने के लिए बदल दिया जाता है। यह प्रॉपर्टी हाइपरलिंक का मूल मान दर्शाती है। |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | निर्धारित करता है कि क्लिक पर हाइपरलिंक को हाईलाइट किया जाना चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | निर्धारित करता है कि पैरेंट हाइपरलिंक का लक्ष्य सक्रिय होने पर देखे गए हाइपरलिंक की सूची में जोड़ा जाएगा या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | हाइपरलिंक की चल रही आवाज़ को दर्शाता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | निर्धारित करता है कि हाइपरलिंक क्लिक पर आवाज़ को रोका जाना चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | जब मौजूद हो, पैरेंट HTML फ्रेमसेट के भीतर पैरेंट हाइपरलिंक के लक्ष्य के लिए फ्रेम लौटाता है। पढ़ने/लिखने योग्य String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | यदि HyperlinkEx विशिष्ट स्लाइड को लक्षित करता है तो वह इस स्लाइड को लौटाता है। यदि यह प्रॉपर्टी null नहीं रहती है तो ExternalUrl प्रॉपर्टी null हो जाती है। केवल-पढ़ने योग्य [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | वह स्ट्रिंग लौटाता है जो उपयोगकर्ता इंटरफ़ेस में पैरेंट हाइपरलिंक से संबद्ध रूप में प्रदर्शित हो सकती है। पढ़ने/लिखने योग्य String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx की क्रिया का प्रकार लौटाता है। केवल पढ़ने योग्य [`HyperlinkActionType`](../hyperlinkactiontype)। |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | हाइपरलिंक के रंग स्रोत का प्रतिनिधित्व करता है - या तो शैली या भाग प्रारूप। पढ़ने/लिखने योग्य [`HyperlinkColorSource`](../hyperlinkcolorsource)। |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | बाहरी URL निर्दिष्ट करता है। यदि यह प्रॉपर्टी null नहीं है तो TargetSlide प्रॉपर्टी null हो जाती है। केवल पढ़ने योग्य String। |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | इस भाग के लिए सेट किया गया हाइपरलिंक दर्शाता है, भाग की वास्तविक सामग्री की परवाह किए बिना। PowerPoint लिंक और उनके संबंधित पाठ के लिए विशेष रूप से व्यवहार करता है। यह लिंक के लिए वैध URL के रूप में टेक्स्ट बनाने की अनुमति देता है, जो वास्तविक पते से भिन्न हो सकता है। इस मामले में, जब आप संपादन विंडो में लिंक देखते हैं, तो यह टेक्स्ट भाग से मेल खाने के लिये बदल दिया जाता है। यह प्रॉपर्टी हाइपरलिंक का मूल मान दर्शाती है। |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | निर्धारित करता है कि क्लिक पर हाइपरलिंक को हाइलाइट किया जाना चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | निर्धारित करता है कि पैरेंट हाइपरलिंक का लक्ष्य जब इसे बुलाया जाये तो देखी गई हाइपरलिंक्स की सूची में जोड़ा जायेगा या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | हाइपरलिंक की ध्वनि बजाने को दर्शाता है। पढ़ने/लिखने योग्य [`IAudio`](../iaudio)। |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | निर्धारित करता है कि हाइपरलिंक क्लिक पर ध्वनि को रोकना चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | पैरेंट HTML फ्रेमसेट के भीतर वह फ्रेम लौटाता है जो पैरेंट हाइपरलिंक के लक्ष्य के लिए है, जब उपलब्ध हो। पढ़ने/लिखने योग्य String। |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | यदि HyperlinkEx विशिष्ट स्लाइड को लक्ष्य बनाता है तो यह स्लाइड लौटाता है। यदि यह प्रॉपर्टी null नहीं है तो ExternalUrl प्रॉपर्टी null हो जाती है। केवल पढ़ने योग्य [`ISlide`](../islide)। |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | एक स्ट्रिंग लौटाता है जो उपयोगकर्ता इंटरफ़ेस में पैरेंट हाइपरलिंक के साथ संबंधित दिखाई दे सकती है। पढ़ने/लिखने योग्य String। |
 
-## मेथड्स
+## विधियां
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | निर्धारित करता है कि दो Hyperlink उदाहरण समान हैं या नहीं। |
 
-### संबंधित देखें
+### देखें
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

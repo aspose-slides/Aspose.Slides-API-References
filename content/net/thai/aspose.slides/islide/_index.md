@@ -1,14 +1,14 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงสไลด์ในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แทนสไลด์หนึ่งในงานนำเสนอ.
 type: docs
 weight: 7040
 url: /th/aspose.slides/islide/
 ---
 ## ISlide อินเทอร์เฟซ
 
-แสดงสไลด์ในงานนำเสนอ
+แทนสไลด์หนึ่งในงานนำเสนอ.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -18,31 +18,31 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseSlide พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | คืนค่าอินเทอร์เฟซ IOverrideThemeable. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | คืนค่าเมเนเจอร์ HeaderFooter ของสไลด์. อ่านอย่างเดียว [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | กำหนดว่ารายการสไลด์ที่ระบุถูกซ่อนไว้หรือไม่ระหว่างการแสดงสไลด์. อ่าน/เขียน Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | คืนค่าหรือกำหนดสไลด์เค้าโครงสำหรับสไลด์ปัจจุบัน. อ่าน/เขียน [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | อนุญาตให้เข้าถึงสไลด์บันทึกย่อ, เพิ่มและลบ. อ่านอย่างเดียว [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | คืนค่าจำนวนสไลด์. ดัชนีของสไลด์ในคอลเลกชัน [`Slides`](../ipresentation/slides) จะเท่ากับ SlideNumber - 1 เสมอ. อ่าน/เขียน Int32. |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Allows to get base IBaseSlide interface. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Returns IOverrideThemeable interface. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Returns HeaderFooter manager of the slide. อ่านอย่างเดียว [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Determines whether the specified slide is hidden during a slide show. อ่าน/เขียน Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Returns or sets the layout slide for the current slide. อ่าน/เขียน [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Allow to access notes slide, add and remove it. อ่านอย่างเดียว [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Returns a number of slide. Index of slide in [`Slides`](../ipresentation/slides) collection is always equal to SlideNumber - 1. อ่าน/เขียน Int32. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | คืนค่าอ็อบเจ็กต์ Thumbnail Image (20% ของขนาดจริง). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | คืนค่าอ็อบเจ็กต์ Thumbnail tiff bitmap พร้อมพารามิเตอร์ที่ระบุ. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | คืนค่าอ็อบเจ็กต์ภาพพร้อมขนาดที่ระบุ. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | คืนค่าอ็อบเจ็กต์ภาพพร้อมการสเกลแบบกำหนดเอง. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap พร้อมขนาดที่ระบุ. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | คืนค่าอ็อบเจ็กต์ Thumbnail Bitmap พร้อมการสเกลแบบกำหนดเอง. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | คืนความคิดเห็นสไลด์ทั้งหมดที่เพิ่มโดยผู้เขียนเฉพาะ. |
-| [Remove](../../aspose.slides/islide/remove)() | ลบสไลด์ออกจากการนำเสนอ. |
-| [Reset](../../aspose.slides/islide/reset)() | รีเซ็ตตำแหน่ง, ขนาดและรูปแบบของรูปทรงทุกอันที่มีต้นแบบบน LayoutSlide. |
-| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | บันทึกเนื้อหาสไลด์เป็นไฟล์ EMF. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | บันทึกเนื้อหาสไลด์เป็นไฟล์ SVG. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | บันทึกเนื้อหาสไลด์เป็นไฟล์ SVG. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Returns a Thumbnail Image object (20% of real size). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Returns a Thumbnail Bitmap object. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Returns a Thumbnail tiff bitmap object with specified parameters. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Returns an image object with specified size. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Returns an image object with custom scaling. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Returns a Thumbnail Bitmap object with specified size. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Returns all slide comments added by specific author. |
+| [Remove](../../aspose.slides/islide/remove)() | Removes slide from presentation. |
+| [Reset](../../aspose.slides/islide/reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Saves the slide content as an EMF file. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Saves the slide content as an SVG file. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves the slide content as an SVG file. |
 
 ### ดูเพิ่มเติม
 

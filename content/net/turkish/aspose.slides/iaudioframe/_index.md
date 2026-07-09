@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir slaytta ses klibini temsil eder.
+description: Bir slayttaki ses klibini temsil eder.
 type: docs
-weight: 5210
+weight: 5230
 url: /tr/aspose.slides/iaudioframe/
 ---
-## IAudioFrame arabirimi
+## IAudioFrame arayüzü
 
-Bir slayt üzerindeki ses klibini temsil eder.
+Bir slaytta ses klibini temsil eder.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,30 +18,30 @@ public interface IAudioFrame : IPictureFrame
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Temel IPictureFrame arabirimini almayı sağlar. Salt okunur [`IPictureFrame`](../ipictureframe). |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Temel IPictureFrame arayüzünü almayı sağlar. Salt okunur [`IPictureFrame`](../ipictureframe). |
 | [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Son iz indeksini döndürür veya ayarlar. Okunur/yazılabilir Int32. |
 | [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Son iz zamanını döndürür veya ayarlar. Okunur/yazılabilir Int32. |
 | [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Başlangıç iz indeksini döndürür veya ayarlar. Okunur/yazılabilir Int32. |
 | [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Başlangıç iz zamanını döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Audio çerçevesiyle ilişkili kapalı altyazıların koleksiyonunu alır. Bu özellik salt okunurdur ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Sesin bir sunuma gömülü olup olmadığını belirler. Salt okunur Boolean. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | AudioFrame ile ilişkili kapalı altyazı koleksiyonunu alır. Bu özellik salt okunurdur ve tüm altyazı izlerini içeren bir [`ICaptionsCollection`](../icaptionscollection) döndürür. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Bir sesin sunuma gömülü olup olmadığını belirler. Salt okunur Boolean. |
 | [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Gömülü ses nesnesini döndürür veya ayarlar. Okunur/yazılabilir [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Medyanın ilk solma giriş süresini milisaniye cinsinden belirtir. Okunur/yazılabilir Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Medyanın bitiş solma çıkış süresini milisaniye cinsinden belirtir. Okunur/yazılabilir Single. |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Medyanın ilk yumuşak geçiş süresini milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Medyanın bitiş yumuşak geçiş süresini milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Bir AudioFrame'in gizli olup olmadığını belirler. Okunur/yazılabilir Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame'e bağlı bir ses dosyasının adını döndürür veya ayarlar. Okunur/yazılabilir String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Sesin slaytlar arasında çalınıp çalınmadığını belirler. Okunur/yazılabilir Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Sesin döngüye alınıp alınmadığını belirler. Okunur/yazılabilir Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | AudioFrame'e bağlanan ses dosyasının adını döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Sesin slaytlar arasında çalıp çalmadığını belirler. Okunur/yazılabilir Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Sesin döngüde olup olmadığını belirler. Okunur/yazılabilir Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Ses çalma modunu döndürür veya ayarlar. Okunur/yazılabilir [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Sesin çalma sonrası otomatik olarak başa sarılıp sarılmayacağını belirler. Okunur/yazılabilir Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Oynatma sırasında medyanın sonundan kaldırılacak süreyi milisaniye cinsinden belirtir. Okunur/yazılabilir Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Oynatma sırasında medyanın başlangıcından kaldırılacak süreyi milisaniye cinsinden belirtir. Okunur/yazılabilir Single. |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Sesin çalındıktan sonra otomatik olarak başa sarılıp sarılmayacağını belirler. Okunur/yazılabilir Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Oynatma sırasında medyanın sonundan kaldırılacak süreyi milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Oynatma sırasında medyanın başından kaldırılacak süreyi milisaniye cinsinden belirler. Okunur/yazılabilir Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Ses seviyesini döndürür veya ayarlar. Okunur/yazılabilir [`AudioVolumeMode`](../audiovolumemode). |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Ses seviyesini yüzde olarak döndürür veya ayarlar. Okunur/yazılabilir Single. |
 
-### Ayrıca Bakınız
+### İlgili
 
-* arabirim [IPictureFrame](../ipictureframe)
+* arayüz [IPictureFrame](../ipictureframe)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

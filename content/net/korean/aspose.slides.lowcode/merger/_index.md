@@ -1,7 +1,7 @@
 ---
 title: Merger
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 같은 형식의 PowerPoint 프레젠테이션을 하나의 파일로 병합하는 메서드 그룹을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 같은 형식의 PowerPoint 프레젠테이션을 하나의 파일로 병합하기 위한 메서드 그룹을 나타냅니다.
 type: docs
 weight: 7970
 url: /ko/aspose.slides.lowcode/merger/
@@ -18,10 +18,10 @@ public static class Merger
 
 | 이름 | 설명 |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | 동일한 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | 동일한 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | 동일한 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | 동일한 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | 같은 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | 같은 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | 같은 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | 같은 형식의 여러 PowerPoint 프레젠테이션을 단일 프레젠테이션 파일로 병합합니다. |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes pro .NET – reference API
-description: Binary Large Object BLOB je binární data uložená jako jediná entita - tj. BLOB může být samotný audio, video nebo prezentace. K optimalizaci spotřeby paměti při práci s BLOBy se používá řada technik - ať už jsou BLOBy již uloženy v prezentaci, nebo jsou později přidány programově. Pomocí IBlobManagementOptions./iblobmanagementoptions můžete měnit různé aspekty chování týkající se zpracování BLOBů během životnosti instance IPresentation./ipresentation.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Binární velký objekt (BLOB) je binární data uložená jako jedinečná entita – tj. BLOB může být samotný audio, video nebo prezentace. K optimalizaci spotřeby paměti při práci s BLOBy se používá řada technik – ať už jsou již uloženy v prezentaci, nebo jsou později přidány programově. Pomocí IBlobManagementOptions./iblobmanagementoptions můžete změnit různé aspekty chování týkající se zpracování BLOBů během životnosti instance IPresentation./ipresentation.
 type: docs
-weight: 5350
+weight: 5370
 url: /cs/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions rozhraní
 
-Binary Large Object (BLOB) je binární data uložená jako jedinečná entita – např. BLOB může být samotný audio, video nebo prezentace. K optimalizaci spotřeby paměti při práci s BLOBy se používá řada technik – ať už jsou BLOBy již uloženy v prezentaci, nebo jsou později přidány programově. Pomocí [`IBlobManagementOptions`](../iblobmanagementoptions) můžete měnit různé aspekty chování týkající se zpracování BLOBů pro životnost instance [`IPresentation`](../ipresentation).
+Binární velký objekt (BLOB) je binární data uložená jako jedinečná entita – např. BLOB může být samotný audio, video či prezentace. K optimalizaci spotřeby paměti při práci s BLOBy se používá řada technik – ať už jsou již uloženy v prezentaci, nebo jsou později přidány programově. Pomocí [`IBlobManagementOptions`](../iblobmanagementoptions) můžete změnit různé aspekty chování týkající se zpracování BLOBů pro životnost instance [`IPresentation`](../ipresentation).
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,14 +18,14 @@ public interface IBlobManagementOptions
 
 | Název | Popis |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Tato vlastnost určuje, zda mohou být při práci s BLOBy vytvářeny dočasné soubory, což výrazně snižuje spotřebu paměti, ale vyžaduje oprávnění k vytváření souborů. Všechny soubory budou po dokončení práce s prezentací smazány. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Určuje maximální celkovou velikost (v bajtech), kterou mohou všechny BLOBy zabírat v paměti. Ve výchozím nastavení jsou všechny BLOBy načteny do paměti; až po dosažení tohoto limitu jsou použity alternativní mechanismy (jako jsou dočasné soubory). Uchovávání BLOBů v paměti maximalizuje výkon, ale může vést k vysoké spotřebě paměti. Použijte tuto vlastnost k přizpůsobení chování vašemu prostředí či požadavkům. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Tato vlastnost určuje, zda může instance třídy Presentation být vlastníkem zdroje – souboru nebo proudu během životnosti instance. Pokud je instance vlastníkem, uzamkne zdroj. To pomáhá zlepšit spotřebu paměti a výkon při práci s BLOBy, ale zdroj (proud nebo soubor) nelze během životnosti instance Presentation měnit. Toto je příklad: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Kořenová cesta, kde budou vytvářeny dočasné soubory. Ve výchozím nastavení bude použita systémová dočasná složka. Hostitelský proces by měl mít oprávnění k vytváření souborů a složek zde. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Tato vlastnost určuje, zda mohou být během práce s BLOBy vytvářeny dočasné soubory, což výrazně snižuje spotřebu paměti, ale vyžaduje oprávnění k vytváření souborů. Všechny soubory budou po dokončení práce s prezentací smazány. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Určuje maximální celkovou velikost (v bajtech), kterou mohou všechny BLOBy zabírat v paměti. Ve výchozím nastavení jsou všechny BLOBy načteny do paměti; pouze po dosažení tohoto limitu jsou použity alternativní mechanismy (např. dočasné soubory). Udržování BLOBů v paměti maximalizuje výkon, ale může vést k vysoké spotřebě paměti. Použijte tuto vlastnost k přizpůsobení chování vašemu prostředí nebo požadavkům. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Tato vlastnost určuje, zda instance třídy Presentation může být vlastníkem zdroje – souboru nebo proudu během životnosti instance. Pokud je instance vlastníkem, uzamkne zdroj. To pomáhá zlepšit spotřebu paměti a výkon při práci s BLOBy, ale zdroj (proud nebo soubor) nelze během životnosti instance Presentation měnit. Toto je příklad: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Kořenová cesta, kde budou vytvářeny dočasné soubory. Ve výchozím nastavení bude použita systémová dočasná složka. Hostitelský proces by měl mít oprávnění k vytváření souborů a složek v tomto umístění. |
 
 ### Viz také
 
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

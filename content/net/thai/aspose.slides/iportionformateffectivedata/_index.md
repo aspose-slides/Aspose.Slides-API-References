@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบส่วนข้อความที่มีประสิทธิภาพ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบส่วนข้อความที่มีผล
 type: docs
 weight: 6740
 url: /th/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบส่วนข้อความที่มีประสิทธิภาพ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการจัดรูปแบบส่วนข้อความที่มีผล
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -19,13 +19,13 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | ส่งคืนอินเทอร์เฟซ IBasePortionFormatEffectiveData |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | ส่งคืนตัวระบุตำแหน่งบุ๊กมาร์ก. อ่านอย่างเดียว String |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | ส่งคืนไฮเปอร์ลิงก์ที่กำหนดสำหรับการคลิกเมาส์. อ่านอย่างเดียว [`IHyperlink`](../ihyperlink) |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | ส่งคืนไฮเปอร์ลิงก์ที่กำหนดสำหรับการชี้เมาส์. อ่านอย่างเดียว [`IHyperlink`](../ihyperlink) |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | ส่งคืนตัวระบุที่คั่นหน้า อ่านอย่างเดียว String |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | ส่งคืนไฮเปอร์ลิงก์ที่กำหนดสำหรับคลิกเมาส์ อ่านอย่างเดียว [`IHyperlink`](../ihyperlink) |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | ส่งคืนไฮเปอร์ลิงก์ที่กำหนดสำหรับเมาส์โอเวอร์ อ่านอย่างเดียว [`IHyperlink`](../ihyperlink) |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IPortionFormat`](../iportionformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพโดยมีการสืบทอดใช้งาน
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IPortionFormat`](../iportionformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยทำการสืบทอด
 
 ### ดูเพิ่มเติม
 

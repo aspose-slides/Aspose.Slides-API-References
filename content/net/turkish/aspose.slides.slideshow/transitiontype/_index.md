@@ -3,7 +3,7 @@ title: TransitionType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Slayt gösterisi geçiş türünü temsil eder.
 type: docs
-weight: 10430
+weight: 10450
 url: /tr/aspose.slides.slideshow/transitiontype/
 ---
 ## TransitionType enum
@@ -14,71 +14,71 @@ Slayt gösterisi geçiş türünü temsil eder.
 public enum TransitionType
 ```
 
-### Değerler
+### Values
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | PowerPoint 2010'da geçiş Shape (Circle seçeneği) ile ilgilidir. |
+| Circle | `3` | PowerPoint 2010'da geçiş Shape (seçenek Circle) ile ilgilidir. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | PowerPoint 2010'da geçiş Shape (Diamond seçeneği) ile ilgilidir. |
+| Diamond | `7` | PowerPoint 2010'da geçiş Shape (seçenek Diamond) ile ilgilidir. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | PowerPoint 2010'da geçiş Shape (Plus seçeneği) ile ilgilidir. |
+| Plus | `11` | PowerPoint 2010'da geçiş Shape (seçenek Plus) ile ilgilidir. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | PowerPoint 2010'da geçiş Wipe'e eşdeğerdir. |
+| Split | `16` | PowerPoint 2010'da geçiş Wipe ile eşdeğerdir. |
 | Strips | `17` |  |
-| Wedge | `18` | PowerPoint 2010'da geçiş Clock (Wedge seçeneği) ile ilgilidir. |
-| Wheel | `19` | PowerPoint 2010'da geçiş Clock (Clockwise seçeneği) ile ilgilidir. |
+| Wedge | `18` | PowerPoint 2010'da geçiş Clock (seçenek Wedge) ile ilgilidir. |
+| Wheel | `19` | PowerPoint 2010'da geçiş Clock (seçenek Clockwise) ile ilgilidir. |
 | Wipe | `20` |  |
-| Zoom | `21` | PowerPoint 2010'da geçiş Shape (In/Out seçenekleri) ile ilgilidir. Ayrıca PowerPoint 2010'da geçiş Zoom ile ilişkili Warp'ı da inceleyin. |
-| Vortex | `22` | PowerPoint 2010'da kullanılabilir. |
-| Switch | `23` | PowerPoint 2010'da kullanılabilir. |
-| Flip | `24` | PowerPoint 2010'da kullanılabilir. |
-| Ripple | `25` | PowerPoint 2010'da kullanılabilir. |
-| Honeycomb | `26` | PowerPoint 2010'da kullanılabilir. |
-| Cube | `27` | PowerPoint 2010'da kullanılabilir. |
-| Box | `28` | PowerPoint 2010'da kullanılabilir. |
-| Rotate | `29` | PowerPoint 2010'da kullanılabilir. |
-| Orbit | `30` | PowerPoint 2010'da kullanılabilir. |
-| Doors | `31` | PowerPoint 2010'da kullanılabilir. |
-| Window | `32` | PowerPoint 2010'da kullanılabilir. |
-| Ferris | `33` | PowerPoint 2010'da kullanılabilir. |
-| Gallery | `34` | PowerPoint 2010'da kullanılabilir. |
-| Conveyor | `35` | PowerPoint 2010'da kullanılabilir. |
-| Pan | `36` | PowerPoint 2010'da kullanılabilir. |
-| Glitter | `37` | PowerPoint 2010'da kullanılabilir. |
-| Warp | `38` | PowerPoint 2010'da geçiş Zoom ile ilgilidir. PowerPoint 2010'da kullanılabilir. |
-| Flythrough | `39` | PowerPoint 2010'da kullanılabilir. |
-| Flash | `40` | PowerPoint 2010'da kullanılabilir. |
-| Shred | `41` | PowerPoint 2010'da kullanılabilir. |
-| Reveal | `42` | PowerPoint 2010'da kullanılabilir. |
-| WheelReverse | `43` | PowerPoint 2010'da geçiş Clock (Counterclockwise seçeneği) ile ilgilidir. PowerPoint 2010'da kullanılabilir. |
-| FallOver | `44` | PowerPoint 2013'te kullanılabilir. |
-| Drape | `45` | PowerPoint 2013'te kullanılabilir. |
-| Curtains | `46` | PowerPoint 2013'te kullanılabilir. |
-| Wind | `47` | PowerPoint 2013'te kullanılabilir. |
-| Prestige | `48` | PowerPoint 2013'te kullanılabilir. |
-| Fracture | `49` | PowerPoint 2013'te kullanılabilir. |
-| Crush | `50` | PowerPoint 2013'te kullanılabilir. |
-| PeelOff | `51` | PowerPoint 2013'te kullanılabilir. |
-| PageCurlDouble | `52` | PowerPoint 2013'te kullanılabilir. |
-| PageCurlSingle | `53` | PowerPoint 2013'te kullanılabilir. |
-| Airplane | `54` | PowerPoint 2013'te kullanılabilir. |
-| Origami | `55` | PowerPoint 2013'te kullanılabilir. |
-| Morph | `56` | PowerPoint 2019'da geçiş Morph (Type seçeneği) ile ilgilidir. |
+| Zoom | `21` | PowerPoint 2010'da geçiş Shape (seçenekler In/Out) ile ilgilidir. Ayrıca PowerPoint 2010'da geçiş Zoom ile ilgili Warp'a bakınız. |
+| Vortex | `22` | PowerPoint 2010'da mevcuttur. |
+| Switch | `23` | PowerPoint 2010'da mevcuttur. |
+| Flip | `24` | PowerPoint 2010'da mevcuttur. |
+| Ripple | `25` | PowerPoint 2010'da mevcuttur. |
+| Honeycomb | `26` | PowerPoint 2010'da mevcuttur. |
+| Cube | `27` | PowerPoint 2010'da mevcuttur. |
+| Box | `28` | PowerPoint 2010'da mevcuttur. |
+| Rotate | `29` | PowerPoint 2010'da mevcuttur. |
+| Orbit | `30` | PowerPoint 2010'da mevcuttur. |
+| Doors | `31` | PowerPoint 2010'da mevcuttur. |
+| Window | `32` | PowerPoint 2010'da mevcuttur. |
+| Ferris | `33` | PowerPoint 2010'da mevcuttur. |
+| Gallery | `34` | PowerPoint 2010'da mevcuttur. |
+| Conveyor | `35` | PowerPoint 2010'da mevcuttur. |
+| Pan | `36` | PowerPoint 2010'da mevcuttur. |
+| Glitter | `37` | PowerPoint 2010'da mevcuttur. |
+| Warp | `38` | PowerPoint 2010'da geçiş Zoom ile ilgilidir. PowerPoint 2010'da mevcuttur. |
+| Flythrough | `39` | PowerPoint 2010'da mevcuttur. |
+| Flash | `40` | PowerPoint 2010'da mevcuttur. |
+| Shred | `41` | PowerPoint 2010'da mevcuttur. |
+| Reveal | `42` | PowerPoint 2010'da mevcuttur. |
+| WheelReverse | `43` | PowerPoint 2010'da geçiş Clock (seçenek Counterclockwise) ile ilgilidir. PowerPoint 2010'da mevcuttur. |
+| FallOver | `44` | PowerPoint 2013'de mevcuttur. |
+| Drape | `45` | PowerPoint 2013'de mevcuttur. |
+| Curtains | `46` | PowerPoint 2013'de mevcuttur. |
+| Wind | `47` | PowerPoint 2013'de mevcuttur. |
+| Prestige | `48` | PowerPoint 2013'de mevcuttur. |
+| Fracture | `49` | PowerPoint 2013'de mevcuttur. |
+| Crush | `50` | PowerPoint 2013'de mevcuttur. |
+| PeelOff | `51` | PowerPoint 2013'de mevcuttur. |
+| PageCurlDouble | `52` | PowerPoint 2013'de mevcuttur. |
+| PageCurlSingle | `53` | PowerPoint 2013'de mevcuttur. |
+| Airplane | `54` | PowerPoint 2013'de mevcuttur. |
+| Origami | `55` | PowerPoint 2013'de mevcuttur. |
+| Morph | `56` | PowerPoint 2019'da geçiş Morph (seçenek Type) ile ilgilidir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* derleme [Aspose.Slides](../../)
+* birim [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

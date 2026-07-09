@@ -1,85 +1,85 @@
 ---
 title: GeneratePresentation
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يولد مثيلًا للعرض التقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
+description: يُولِّد مثالًا لعرض تقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 type: docs
 weight: 20
 url: /ar/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-ينشئ مثيلًا للعرض التقديمي من وصف نصي. قدم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
+يُولِّد مثالًا لعرض تقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
     PresentationContentAmountType presentationContentAmount)
 ```
 
-| المعامل | النوع | الوصف |
+| معمل | نوع | وصف |
 | --- | --- | --- |
-| description | String | الموضوع أو الأفكار أو الاقتباسات أو مقاطع النص. |
+| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
 | presentationContentAmount | PresentationContentAmountType | كمية المحتوى في العرض التقديمي الناتج. |
 
 ### الاستثناءات
 
-| الاستثناء | الشرط |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentException | تعليمات الدردشة الذكية لا يمكن أن تكون فارغة أو غير محددة. |
+| ArgumentException | لا يمكن أن تكون تعليمة الدردشة الذكية فارغة أو خالية. |
 
 ### ملاحظات
 
-المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يتم إنشاؤه بواسطة المُنشئ [`SlidesAIAgent`](../slidesaiagent) بدون معلمات ويتصل بـ LLM الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، قدم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، مرّر تنفيذًا [`IAIWebClient`](../../iaiwebclient) إلى مُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
+المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يُنشأ بواسطة المُنشئ غير المتحمل للمعاملات [`SlidesAIAgent`](../slidesaiagent) ويتصل بـ LLM الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، زوِّد LLM خاصًا بك، أو خصِّص الاتصال (على سبيل المثال، عبر توفير `HttpClient` خاص بك)، مرِّر تنفيذًا لـ [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### انظر أيضاً
+### انظر أيضًا
 
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* class [SlidesAIAgent](../../slidesaiagent)
-* namespace [Aspose.Slides.AI](../../slidesaiagent)
-* assembly [Aspose.Slides](../../../)
+* واجهة [IPresentation](../../../aspose.slides/ipresentation)
+* تعداد [PresentationContentAmountType](../../presentationcontentamounttype)
+* فئة [SlidesAIAgent](../../slidesaiagent)
+* نطاق [Aspose.Slides.AI](../../slidesaiagent)
+* تجميع [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-ينشئ مثيلًا للعرض التقديمي من وصف نصي. قدم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
+يُولِّد مثالًا لعرض تقديمي من وصف نصي. قدِّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-| المعامل | النوع | الوصف |
+| معمل | نوع | وصف |
 | --- | --- | --- |
-| description | String | الموضوع أو الأفكار أو الاقتباسات أو مقاطع النص. |
+| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
 | presentationContentAmount | PresentationContentAmountType | كمية المحتوى في العرض التقديمي الناتج. |
-| presentationTemplate | IPresentation | عرض تقديمي يُستخدم كقالب للتخطيط والتصميم، ليحل محل القالب الافتراضي. |
+| presentationTemplate | IPresentation | عرض تقديمي يُستَخدم كقالب لتخطيط وتصميم الشرائح، بدلاً من القالب الافتراضي. |
 
 ### الاستثناءات
 
-| الاستثناء | الشرط |
+| استثناء | شرط |
 | --- | --- |
-| ArgumentNullException | قالب العرض التقديمي غير مُقدم. |
-| ArgumentException | تعليمات الدردشة الذكية لا يمكن أن تكون فارغة أو غير محددة. |
+| ArgumentNullException | قالب العرض التقديمي غير مُقدَّم. |
+| ArgumentException | لا يمكن أن تكون تعليمة الدردشة الذكية فارغة أو خالية. |
 
 ### ملاحظات
 
-المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يتم إنشاؤه بواسطة المُنشئ [`SlidesAIAgent`](../slidesaiagent) بدون معلمات ويتصل بـ LLM الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، قدم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، مرّر تنفيذًا [`IAIWebClient`](../../iaiwebclient) إلى مُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
+المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يُنشأ بواسطة المُنشئ غير المتحمل للمعاملات [`SlidesAIAgent`](../slidesaiagent) ويتصل بـ LLM الخاص بـ Aspose. لاستخدام موفر ذكاء اصطناعي مختلف، زوِّد LLM خاصًا بك، أو خصِّص الاتصال (على سبيل المثال، عبر توفير `HttpClient` خاص بك)، مرِّر تنفيذًا لـ [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### انظر أيضاً
+### انظر أيضًا
 
-* interface [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
-* class [SlidesAIAgent](../../slidesaiagent)
-* namespace [Aspose.Slides.AI](../../slidesaiagent)
-* assembly [Aspose.Slides](../../../)
+* واجهة [IPresentation](../../../aspose.slides/ipresentation)
+* تعداد [PresentationContentAmountType](../../presentationcontentamounttype)
+* فئة [SlidesAIAgent](../../slidesaiagent)
+* نطاق [Aspose.Slides.AI](../../slidesaiagent)
+* تجميع [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

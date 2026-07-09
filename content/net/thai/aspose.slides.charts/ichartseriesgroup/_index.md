@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroup
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงกลุ่มของชุดข้อมูล.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงกลุ่มของซีรีส์.
 type: docs
 weight: 1950
 url: /th/aspose.slides.charts/ichartseriesgroup/
 ---
 ## IChartSeriesGroup อินเทอร์เฟซ
 
-Represents group of series.
+แสดงถึงกลุ่มของซีรีส์
 
 ```csharp
 public interface IChartSeriesGroup : IChartComponent
@@ -18,30 +18,30 @@ public interface IChartSeriesGroup : IChartComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | Allows to get base IChartComponent interface. อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | Specifies how the bubble size values are represented on the bubble chart. อ่าน/เขียน [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). อ่าน/เขียน Int32. |
-| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). อ่าน/เขียน Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). อ่าน/เขียน UInt16. |
-| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. อ่าน/เขียน UInt16. |
-| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | Specifies the space between bar or column clusters, as a percentage of the bar or column width. อ่าน/เขียน UInt16. |
-| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | True if chart has series lines. Applied to stacked bar and OfPie charts. อ่าน/เขียน Boolean. |
-| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
-| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | Specifies that each data marker in the series has a different color. อ่าน/เขียน Boolean. |
-| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | Gets the element at the specified index. |
-| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | Specifies how much bars and columns shall overlap on 2-D charts, as a percentage (from -100% to 100%). -100%: Maximum spacing (bars are completely separated). 0%: Bars are placed side by side without overlap or spacing. 100%: Maximum overlap (bars completely overlap each other). This property is read/write SByte. |
-| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. อ่าน/เขียน [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. อ่านอย่างเดียว [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. อ่าน/เขียน Double. |
-| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | Indicates if series of this group is plotted on secondary axis. อ่านอย่างเดียว Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). อ่าน/เขียน UInt16. |
-| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | Returns a readonly collection of chart series. อ่านอย่างเดียว [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
-| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | Returns a type of this series group. อ่านอย่างเดียว [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Provede access to up/down bars of Line- or Stock-chart. อ่านอย่างเดียว [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IChartComponent พื้นฐานได้. อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | กำหนดวิธีที่ค่าขนาดของบับเบิลถูกแสดงบนแผนภูมิบับเบิล. อ่าน/เขียน [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | กำหนดสเกลแฟกเตอร์สำหรับแผนภูมิบับเบิล (สามารถอยู่ระหว่าง 0 ถึง 300 เปอร์เซ็นต์ของขนาดเริ่มต้น). อ่าน/เขียน Int32. |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | กำหนดขนาดของช่องว่างในแผนภูมิโดนัท (สามารถอยู่ระหว่าง 10 ถึง 90 เปอร์เซ็นต์ของขนาดพื้นที่พล็อต). อ่าน/เขียน Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | รับหรือกำหนดมุมของชิ้นพายหรือโดนัทชิ้นแรก, เป็นองศา (ตามเข็มนอนจากบน, จาก 0 ถึง 360 องศา). อ่าน/เขียน UInt16. |
+| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | ส่งคืนหรือกำหนดระยะห่าง, เป็นเปอร์เซ็นต์ของความกว้างมาร์คเกอร์, ระหว่างชุดข้อมูลในแผนภูมิ 3 มิติ. อ่าน/เขียน UInt16. |
+| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | กำหนดช่องว่างระหว่างกลุ่มแถบหรือคอลัมน์, เป็นเปอร์เซ็นต์ของความกว้างแถบหรือคอลัมน์. อ่าน/เขียน UInt16. |
+| [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | เป็นจริงหากแผนภูมิมีเส้นซีรีส์. ใช้กับแผนภูมิ stacked bar และ OfPie. อ่าน/เขียน Boolean. |
+| [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | กำหนดรูปแบบ HiLowLines. HiLowLines ถูกใช้ร่วมกับ HiLowClose, OpenHiLowClose, VolumeHiLowClose และ VolumeOpenHiLowClose chart types. |
+| [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | กำหนดให้แต่ละมาร์คเกอร์ข้อมูลในซีรีส์มีสีที่ต่างกัน. อ่าน/เขียน Boolean. |
+| [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | กำหนดว่าบาร์และคอลัมน์จะทับซ้อนกันบนแผนภูมิ 2-D อย่างไร, เป็นเปอร์เซ็นต์ (จาก -100% ถึง 100%). -100%: ระยะห่างสูงสุด (บาร์แยกจากกันทั้งหมด). 0%: บาร์วางข้างกันโดยไม่มีการทับซ้อนหรือช่องว่าง. 100%: ทับซ้อนสูงสุด (บาร์ทับซ้อนกันทั้งหมด). คุณสมบัตินี้เป็นอ่าน/เขียน SByte. |
+| [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | กำหนดวิธีกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแถบที่สองบนแผนภูมิ pie-of-pie หรือ bar-of-pie. อ่าน/เขียน [`PieSplitType`](../piesplittype). |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | ข้อมูลการแยกแบบกำหนดเองสำหรับแผนภูมิ pie-of-pie หรือ bar-of-pie ที่มีการแยกแบบกำหนดเอง. มีจุดข้อมูลที่ควรวาดในพายหรือแถบที่สอง. อ่านอย่างเดียว [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | กำหนดค่าที่จะใช้เพื่อกำหนดว่าจุดข้อมูลใดอยู่ในพายหรือแถบที่สองบนแผนภูมิ pie-of-pie หรือ bar-of-pie. ใช้ร่วมกับคุณสมบัติ PieSplitBy. อ่าน/เขียน Double. |
+| [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | บ่งบอกว่าซีรีส์ของกลุ่มนี้ถูกพล็อตบนแกนรองหรือไม่. อ่านอย่างเดียว Boolean. |
+| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | กำหนดขนาดของพายหรือแถบที่สองของแผนภูมิ pie-of-pie หรือ bar-of-pie, เป็นเปอร์เซ็นต์ของขนาดของพายแรก (สามารถอยู่ระหว่าง 5 ถึง 200 เปอร์เซ็นต์). อ่าน/เขียน UInt16. |
+| [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | ส่งคืนคอลเลกชันแบบอ่านอย่างเดียวของซีรีส์แผนภูมิ. อ่านอย่างเดียว [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
+| [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | ส่งคืนประเภทของกลุ่มซีรีส์นี้. อ่านอย่างเดียว [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
+| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | ให้การเข้าถึงบาร์ขึ้น/ลงของแผนภูมิ Line- หรือ Stock-chart. อ่านอย่างเดียว [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### หมายเหตุ
 
-1) ดูสรุปและหมายเหตุสำหรับคลาส ChartSeriesGroupCollection และ enum CombinableSeriesTypesGroup. 2) กลุ่มของชุดข้อมูลมีคุณสมบัติบางอย่างของชุดข้อมูลที่เป็นสากลสำหรับแต่ละชุดในกลุ่ม ("series group properties"). "Series group properties" ในคลาส ChartSeriesGroup เป็นอ่าน/เขียน. แต่ละ "series group properties" สามารถมีการฉายออกเป็นอ่านอย่างเดียวในคลาส ChartSeries.
+1) ดูสรุปและหมายเหตุสำหรับ ChartSeriesGroupCollection คลาสและ CombinableSeriesTypesGroup enum. 2) กลุ่มของซีรีส์มีคุณสมบัติของซีรีส์บางอย่างที่เป็นร่วมกันสำหรับแต่ละซีรีส์ในกลุ่ม ("คุณสมบัติของกลุ่มซีรีส์"). "คุณสมบัติของกลุ่มซีรีส์" ในคลาส ChartSeriesGroup เป็นอ่าน/เขียน. แต่ละ "คุณสมบัติของกลุ่มซีรีส์" สามารถมีการฉายภาพแบบอ่านอย่างเดียวในคลาส ChartSeries.
 
 ### ดูเพิ่มเติม
 

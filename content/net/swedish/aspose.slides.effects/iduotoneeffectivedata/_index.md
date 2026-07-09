@@ -1,9 +1,9 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en Duotone-effekt. För varje pixel kombineras clr1 och clr2 genom en linjär interpolation för att bestämma den nya färgen för den pixeln.
 type: docs
-weight: 3250
+weight: 3270
 url: /sv/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData gränssnitt
@@ -22,7 +22,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Returnerar mål färgformat för mörka pixlar. Skrivskyddad Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Returnerar mål färgformat för ljusa pixlar. Skrivskyddad Color. |
 
-### Se även
+### Se också
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

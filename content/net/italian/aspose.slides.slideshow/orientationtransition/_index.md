@@ -1,14 +1,14 @@
 ---
 title: OrientationTransition
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Effetto di transizione della diapositiva orientata.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Effetto di transizione slide di orientamento.
 type: docs
-weight: 10250
+weight: 10270
 url: /it/aspose.slides.slideshow/orientationtransition/
 ---
 ## OrientationTransition classe
 
-Effetto di transizione della diapositiva orientata.
+Effetto di transizione slide di orientamento.
 
 ```csharp
 public class OrientationTransition : TransitionValueBase, IOrientationTransition
@@ -25,7 +25,7 @@ public class OrientationTransition : TransitionValueBase, IOrientationTransition
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, idonea all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

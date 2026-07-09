@@ -1,14 +1,14 @@
 ---
 title: IBackdrop3DScene
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Definisce un piano in cui gli effetti, come bagliore e ombra, sono applicati in relazione alla forma a cui sono applicati.
+description: Definisce un piano su cui gli effetti, come bagliore e ombra, vengono applicati in relazione alla forma a cui sono applicati.
 type: docs
-weight: 5240
+weight: 5260
 url: /it/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene interfaccia
 
-Definisce un piano in cui effetti, come bagliore e ombra, vengono applicati in relazione alla forma a cui sono applicati.
+Definisce un piano su cui vengono applicati effetti, come bagliore e ombra, in relazione alla forma a cui sono applicati.
 
 ```csharp
 public interface IBackdrop3DScene
@@ -18,9 +18,9 @@ public interface IBackdrop3DScene
 
 | Nome | Descrizione |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Restituisce o imposta un punto nello spazio 3D. Questo punto è il punto nello spazio che ancorra il piano di sfondo. Punto 3D rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Restituisce o imposta un vettore normale. Più precisamente, questo attributo definisce un vettore perpendicolare alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Restituisce o imposta un vettore che rappresenta l'alto. Più precisamente, questo attributo definisce un vettore che rappresenta l'alto in relazione alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Restituisce o imposta un punto nello spazio 3D. Questo punto è il punto nello spazio che fissa il piano di sfondo. Punto 3D rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Restituisce o imposta un vettore normale. Per essere più precisi, questo attributo definisce un vettore perpendicolare alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Restituisce o imposta un vettore che rappresenta l'altezza. Per essere più precisi, questo attributo definisce un vettore che rappresenta l'altezza in relazione alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
 
 ### Vedi anche
 

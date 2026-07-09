@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: हिस्सों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: खंडों का एक संग्रह दर्शाता है।
 type: docs
 weight: 550
 url: /hi/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection इंटरफ़ेस
 
-एक संग्रह के हिस्सों का प्रतिनिधित्व करता है।
+खंडों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -19,8 +19,8 @@ public interface IPointCollection : IEnumerable<IPoint>
 | नाम | विवरण |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | बेस IEnumerable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | संग्रह में बिंदुओं की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | निर्दिष्ट सूचकांक पर एक बिंदु लौटाता है। |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | कलेक्शन में पॉइंट्स की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | निर्दिष्ट इंडेक्स पर एक पॉइंट लौटाता है। |
 
 ### संबंधित देखें
 

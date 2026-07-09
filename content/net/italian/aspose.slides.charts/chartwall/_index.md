@@ -1,14 +1,14 @@
 ---
 title: ChartWall
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta i muri nei grafici 3D.
+second_title: Riferimento API di Aspose.Slides per .NET
+description: Rappresenta i muri sui grafici 3d.
 type: docs
-weight: 1500
+weight: 1520
 url: /it/aspose.slides.charts/chartwall/
 ---
 ## ChartWall classe
 
-Rappresenta i muri nei grafici 3D.
+Rappresenta i muri sui grafici 3d.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | Nome | Descrizione |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Restituisce il riempimento del muro, la linea, l’effetto, gli stili 3D. Sola lettura [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | Restituisce il riempimento della parete, la linea, l'effetto, gli stili 3d. Solo lettura [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | Restituisce o imposta il tipo di immagine. Lettura/scrittura [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Restituisce o imposta lo spessore dei muri come percentuale della dimensione più grande del volume del grafico. Lettura/scrittura Int32. |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | Restituisce o imposta lo spessore delle pareti come percentuale della dimensione più grande del volume del grafico. Lettura/scrittura Int32. |
 
 ### Vedi anche
 

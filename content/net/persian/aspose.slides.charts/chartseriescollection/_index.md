@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر مجموعه‌ای از ChartSeries./chartseries
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایشگر مجموعه‌ای از ChartSeries./chartseries
 type: docs
 weight: 1450
 url: /fa/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection کلاس
 
-نمایانگر مجموعه‌ای از [`ChartSeries`](../chartseries)
+نمایشگر مجموعه‌ای از [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -19,32 +19,32 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | نام | توضیح |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | تعداد اشیاء موجود در مجموعه را برمی‌گرداند. فقط-خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد دسترسی به مجموعه همگام‌سازی شده است (امنیت‌نخی). فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | عنصر موجود در اندیس مشخص‌شده را دریافت می‌کند. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | مقدار نشان‌دهنده این که دسترسی به مجموعه همگام‌سازی شده است (ایمن برای چندنخی). فقط-خواندنی Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | عنصر در ایندکس مشخص‌شده را دریافت می‌کند. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | یک سری نمودار جدید ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | یک سری نمودار جدید از [`ChartCellCollection`](../chartcellcollection) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | یک سری نمودار جدید از [`ChartDataCell`](../chartdatacell) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | یک سری نمودار جدید از مقدار ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | یک سری نموداری جدید ایجاد می‌کند و آن را به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | یک سری نموداری جدید از [`ChartCellCollection`](../chartcellcollection) ایجاد می‌کند و به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | یک سری نموداری جدید از [`ChartDataCell`](../chartdatacell) ایجاد می‌کند و به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | یک سری نموداری جدید از مقدار ایجاد می‌کند و به مجموعه اضافه می‌کند. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | تمام کنترل‌ها را از مجموعه حذف می‌کند. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | کل مجموعه را در آرایه مشخص‌شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | یک شمارشگر که از طریق مجموعه پیمایش می‌کند را برمی‌گرداند. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | به دنبال [`ChartSeries`](../chartseries) مشخص‌شده جستجو می‌کند و شاخص صفر مبنا برای اولین وقوع در تمام مجموعه را برمی‌گرداند. |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | یک سری نمودار جدید ایجاد می‌کند و در مجموعه درج می‌کند. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | کل مجموعه را به آرایهٔ مشخص‌شده کپی می‌کند. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | یک شمارنده برمی‌گرداند که از مجموعه عبور می‌کند. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | برای [`ChartSeries`](../chartseries) مشخص‌شده جستجو می‌کند و نمایه صفر-پایهٔ اولین رخداد را در سراسر Collection برمی‌گرداند |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | یک سری نموداری جدید ایجاد می‌کند و در مجموعه وارد می‌کند. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | مقدار مشخص‌شده را حذف می‌کند. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | یک کنترل ActiveX که در موقعیت مشخص ذخیره شده است را از مجموعه حذف می‌کند. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | یک کنترل ActiveX ذخیره‌شده در موقعیت مشخص را از مجموعه حذف می‌کند. |
 
-### مراجع
+### مراجعه
 
 * کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * کلاس [ChartData](../chartdata)
 * رابط [IChartSeriesCollection](../ichartseriescollection)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* تجمع [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

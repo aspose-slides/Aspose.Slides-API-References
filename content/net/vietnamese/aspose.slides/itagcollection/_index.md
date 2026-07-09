@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho bộ sưu tập các thẻ, các cặp chuỗi do người dùng định nghĩa
+description: Biểu diễn bộ sưu tập các thẻ, các cặp chuỗi do người dùng định nghĩa
 type: docs
 weight: 7260
 url: /vi/aspose.slides/itagcollection/
 ---
 ## ITagCollection giao diện
 
-Đại diện cho bộ sưu tập các thẻ (cặp chuỗi do người dùng định nghĩa)
+Represents the collection of tags (user defined pairs of strings)
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -18,7 +18,7 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Trả về hoặc thiết lập một cặp khóa và giá trị của thẻ. |
+| [Item](../../aspose.slides/itagcollection/item) { get; set; } | Trả về hoặc đặt một cặp khóa và giá trị của thẻ. |
 
 ## Phương thức
 
@@ -27,12 +27,12 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | Thêm một thẻ mới vào bộ sưu tập. |
 | [Clear](../../aspose.slides/itagcollection/clear)() | Xóa tất cả các thẻ khỏi bộ sưu tập. |
 | [Contains](../../aspose.slides/itagcollection/contains)(string) | Xác định xem bộ sưu tập có chứa một tên cụ thể hay không. |
-| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Trả về khóa của thẻ tại chỉ mục đã chỉ định. |
-| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Trả về các tên của thẻ. |
-| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Trả về giá trị của thẻ tại chỉ mục đã chỉ định. |
-| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Trả về chỉ mục dựa trên số không của khóa đã chỉ định trong bộ sưu tập. |
+| [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | Trả về khóa của thẻ tại chỉ mục được chỉ định. |
+| [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | Trả về tên của các thẻ. |
+| [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | Trả về giá trị của thẻ tại chỉ mục được chỉ định. |
+| [IndexOfName](../../aspose.slides/itagcollection/indexofname)(string) | Trả về chỉ mục bắt đầu từ 0 của khóa được chỉ định trong bộ sưu tập. |
 | [Remove](../../aspose.slides/itagcollection/remove)(string) | Xóa thẻ có tên được chỉ định khỏi bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Xóa thẻ tại chỉ mục đã chỉ định. |
+| [RemoveAt](../../aspose.slides/itagcollection/removeat)(int) | Xóa thẻ tại chỉ mục được chỉ định. |
 
 ### Xem thêm
 

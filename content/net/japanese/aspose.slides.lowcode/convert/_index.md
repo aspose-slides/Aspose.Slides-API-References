@@ -1,14 +1,14 @@
 ---
 title: Convert
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: Presentation../aspose.slides/presentation を変換することを目的としたメソッドのグループを表します。
 type: docs
-weight: 7860
+weight: 7880
 url: /ja/aspose.slides.lowcode/convert/
 ---
 ## Convert クラス
 
-[`Presentation`](../../aspose.slides/presentation) の変換を目的としたメソッドのグループを表します。
+[`Presentation`](../../aspose.slides/presentation) を変換することを目的としたメソッドのグループを表します。
 
 ```csharp
 public static class Convert
@@ -18,30 +18,30 @@ public static class Convert
 
 | 名前 | 説明 |
 | --- | --- |
-| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | [`Presentation`](../../aspose.slides/presentation) を、渡された出力パス拡張子を使用して変換し、必要なエクスポート形式を決定します。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg"（N はスライド番号）というファイルセットとして保存されます。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg"（N はスライド番号）というファイルセットとして保存されます。 |
-| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg"（N はスライド番号）というファイルセットとして保存されます。 |
+| static [AutoByExtension](../../aspose.slides.lowcode/convert/autobyextension)(string, string) | 渡された出力パス拡張子を使用して [`Presentation`](../../aspose.slides/presentation) を変換し、必要なエクスポート形式を決定します。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg)(Presentation, string) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg" という名前のファイルセットとして保存されます（N はスライド番号）。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_2)(Presentation, string, Size) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg" という名前のファイルセットとして保存されます（N はスライド番号）。 |
+| static [ToJpeg](../../aspose.slides.lowcode/convert/tojpeg#tojpeg_1)(Presentation, string, float, IRenderingOptions) | 入力プレゼンテーションを JPEG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.jpeg" の場合、結果は "myPath/myFilename_N.jpeg" という名前のファイルセットとして保存されます（N はスライド番号）。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf)(Presentation, string) | [`Presentation`](../../aspose.slides/presentation) を PDF に変換します。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_2)(string, string) | [`Presentation`](../../aspose.slides/presentation) を PDF に変換します。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_1)(Presentation, string, IPdfOptions) | [`Presentation`](../../aspose.slides/presentation) を PDF に変換します。 |
 | static [ToPdf](../../aspose.slides.lowcode/convert/topdf#topdf_3)(string, string, IPdfOptions) | [`Presentation`](../../aspose.slides/presentation) を PDF に変換します。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png"（N はスライド番号）というファイルセットとして保存されます。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png"（N はスライド番号）というファイルセットとして保存されます。 |
-| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png"（N はスライド番号）というファイルセットとして保存されます。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng)(Presentation, string) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_2)(Presentation, string, Size) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。 |
+| static [ToPng](../../aspose.slides.lowcode/convert/topng#topng_1)(Presentation, string, float, IRenderingOptions) | 入力プレゼンテーションを PNG 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.png" の場合、結果は "myPath/myFilename_N.png" という名前のファイルセットとして保存されます（N はスライド番号）。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_3)(string) | [`Presentation`](../../aspose.slides/presentation) を SVG に変換します。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_1)(Presentation, GetOutPathCallback) | [`Presentation`](../../aspose.slides/presentation) を SVG に変換します。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg)(Presentation, ISVGOptions) | [`Presentation`](../../aspose.slides/presentation) を SVG に変換します。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_4)(string, GetOutPathCallback) | [`Presentation`](../../aspose.slides/presentation) を SVG に変換します。 |
 | static [ToSvg](../../aspose.slides.lowcode/convert/tosvg#tosvg_2)(Presentation, GetOutPathCallback, ISVGOptions) | [`Presentation`](../../aspose.slides/presentation) を SVG に変換します。 |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 入力プレゼンテーションを TIFF 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.tiff" の場合、結果は "myPath/myFilename_N.tiff"（N はスライド番号）というファイルセットとして保存されます。 |
-| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 入力プレゼンテーションをカスタムオプションで TIFF 形式に変換します。出力ファイル名が "myPath/myFilename.tiff" で *multipage* が `false` の場合、結果は "myPath/myFilename_N.tiff"（N はスライド番号）というファイルセットとして保存されます。*multipage* が `true` の場合、結果はマルチページの "myPath/myFilename.tiff" ドキュメントになります。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff)(Presentation, string) | 入力プレゼンテーションを TIFF 形式の画像セットに変換します。出力ファイル名が "myPath/myFilename.tiff" の場合、結果は "myPath/myFilename_N.tiff" という名前のファイルセットとして保存されます（N はスライド番号）。 |
+| static [ToTiff](../../aspose.slides.lowcode/convert/totiff#totiff_1)(Presentation, string, ITiffOptions, bool) | 入力プレゼンテーションをカスタムオプション付きの TIFF 形式に変換します。出力ファイル名が "myPath/myFilename.tiff" で *multipage* が `false` の場合、結果は "myPath/myFilename_N.tiff" という名前のファイルセットとして保存されます（N はスライド番号）。 *multipage* が `true` の場合、結果はマルチページの "myPath/myFilename.tiff" ドキュメントとなります。 |
 
 ## その他のメンバー
 
 | 名前 | 説明 |
 | --- | --- |
-| delegate [GetOutPathCallback](convert.getoutpathcallback) | 各 [`Slide`](../../aspose.slides/slide) に対して呼び出されるコールバックで、出力パスが返されることが期待されます。 |
+| delegate [GetOutPathCallback](convert.getoutpathcallback) | 各 [`Slide`](../../aspose.slides/slide) に対して呼び出されるコールバックで、戻り値として出力パスが期待されます。 |
 
 ### 例
 
@@ -49,7 +49,7 @@ public static class Convert
 Convert.AutoByExtension("pres.pptx", "pres.pdf");
 ```
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * アセンブリ [Aspose.Slides](../../)

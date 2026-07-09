@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 不変オブジェクトで、Tint 効果を表します。指定された量だけ、効果の色値を色相に向けて、または離してシフトします。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Tint 効果を表す不変オブジェクトです。指定された量だけ色相に向かって、または離れて効果のカラー値をシフトします。
 type: docs
-weight: 3530
+weight: 3550
 url: /ja/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData インターフェイス
 
-不変オブジェクトで、Tint 効果を表します。指定された量だけ、効果の色値を色相に向けて、または離してシフトします。
+Tint 効果を表す不変オブジェクトです。指定された量だけ色相に向かって、または離れて効果のカラー値をシフトします。
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | エフェクト量を返します。読み取り専用 Single。 |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | 効果量を返します。読み取り専用 Single。 |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 色相を返します。読み取り専用 Single。 |
 

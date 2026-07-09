@@ -3,7 +3,7 @@ title: License
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan metode untuk melisensikan komponen.
 type: docs
-weight: 7660
+weight: 7680
 url: /id/aspose.slides/license/
 ---
 ## Kelas License
@@ -24,14 +24,14 @@ public class License : ILicense
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | Periksa apakah lisensi diterapkan pada komponen |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | Reset lisensi |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | Memeriksa apakah lisensi diterapkan ke komponen |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | Setel ulang lisensi |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | Melisensikan komponen. |
 | [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | Melisensikan komponen. |
 
 ### Contoh
 
-Pada contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly entri, dan kemudian di sumber daya tersemat dari assembly pemanggil.
+Dalam contoh ini, upaya akan dilakukan untuk menemukan file lisensi bernama MyLicense.lic di folder yang berisi komponen, di folder yang berisi assembly pemanggil, di folder assembly masuk, dan kemudian di sumber daya tersemat dari assembly pemanggil.
 
 ```csharp
 [C#]

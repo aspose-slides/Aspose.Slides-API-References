@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل أشرطة الخطأ لسلسلة المخطط. قيم ErrorBars المخصصة موجودة في IChartDataPointCollection في خاصية ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Aspose.Sildes لمرجع API .NET
+description: يمثل أشرطة الأخطاء لسلسلة المخطط. قيم ErrorBars المخصصة موجودة في IChartDataPointCollection في خاصية ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
 weight: 2090
 url: /ar/aspose.slides.charts/ierrorbarsformat/
 ---
-## IErrorBarsFormat الواجهة
+## IErrorBarsFormat واجهة
 
-يمثل أشرطة الخطأ لسلسلة المخطط. قيم ErrorBars المخصصة موجودة في IChartDataPointCollection (في خاصية [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+يمثل أشرطة الخطأ لسلسلة المخطط. قيم ErrorBars المخصصة تكون في IChartDataPointCollection (في خاصية [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -18,17 +18,17 @@ public interface IErrorBarsFormat : IChartComponent
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | إرجاع واجهة IChartComponent. للقراءة فقط [`IChartComponent`](../ichartcomponent). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | ترجع واجهة IChartComponent. قراءة فقط [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | يمثل تنسيق أشرطة الخطأ. قراءة/كتابة [`IFormat`](../iformat). |
 | [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | يحدد عدم رسم غطاء نهائي على أشرطة الخطأ. قراءة/كتابة Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | يحصل أو يضبط إظهار أشرطة الخطأ. قراءة/كتابة Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | يحصل أو يضبط رؤية Error Bars. قراءة/كتابة Boolean. |
 | [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | يحصل أو يضبط نوع أشرطة الخطأ. قراءة/كتابة [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | يحصل أو يضبط القيمة التي تُستخدم مع الأنواع Fixed و Percentage و StandardDeviation لتحديد طول أشرطة الخطأ. قراءة/كتابة Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | يمثل الطرق الممكنة لتحديد طول أشرطة الخطأ. في حالة نوع القيمة المخصص لتحديد القيمة استخدم خاصية [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) لنقطة بيانات محددة في مجموعة DataPoints للسلسلة. قراءة/كتابة [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | يحصل أو يضبط القيمة التي تُستخدم مع أنواع القيم Fixed, Percentage و StandardDeviation لتحديد طول أشرطة الخطأ. قراءة/كتابة Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | يمثل الطرق الممكنة لتحديد طول أشرطة الخطأ. في حالة نوع القيمة المخصصة لتحديد القيمة استخدم خاصية [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) لنقطة البيانات المحددة في مجموعة DataPoints للسلسلة. قراءة/كتابة [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### انظر أيضاً
+### انظر أيضًا
 
-* الواجهة [IChartComponent](../ichartcomponent)
+* واجهة [IChartComponent](../ichartcomponent)
 * المجال [Aspose.Slides.Charts](../../aspose.slides.charts)
 * التجميع [Aspose.Slides](../../)
 

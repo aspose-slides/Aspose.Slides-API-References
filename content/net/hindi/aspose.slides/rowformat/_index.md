@@ -1,14 +1,14 @@
 ---
 title: RowFormat
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: टेबल पंक्ति का प्रारूप दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक तालिका पंक्ति का स्वरूप दर्शाता है।
 type: docs
 weight: 9730
 url: /hi/aspose.slides/rowformat/
 ---
 ## RowFormat क्लास
 
-टेबल पंक्ति का प्रारूप दर्शाता है।
+एक तालिका पंक्ति का स्वरूप दर्शाता है।
 
 ```csharp
 public sealed class RowFormat : DomObject<Row>, IRowFormat
@@ -18,9 +18,9 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/rowformat/geteffective)() | विरासत और टेबल शैलियों के लागू होने के साथ प्रभावी टेबल पंक्ति फ़ॉर्मेटिंग गुण प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/rowformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका पंक्ति फ़ॉर्मेटिंग गुण प्राप्त करता है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Row](../row)

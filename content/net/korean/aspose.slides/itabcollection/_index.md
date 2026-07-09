@@ -8,7 +8,7 @@ url: /ko/aspose.slides/itabcollection/
 ---
 ## ITabCollection 인터페이스
 
-탭 컬렉션을 나타냅니다.
+Tab 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ITab`](../itab). |
 
 ## 메서드
 
@@ -27,7 +27,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | 컬렉션에 Tab을 추가합니다. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | 컬렉션에 Tab을 추가합니다. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | 컬렉션에서 지정된 인덱스에 있는 요소를 제거합니다. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | 컬렉션에서 지정된 인덱스의 요소를 제거합니다. |
 
 ### 참고
 

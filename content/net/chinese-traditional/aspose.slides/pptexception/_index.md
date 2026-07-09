@@ -1,18 +1,19 @@
 ---
 title: PptException
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 表示標準的內部例外類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表一種標準的內部例外類型。
 type: docs
 weight: 9520
 url: /zh-hant/aspose.slides/pptexception/
 ---
 ## PptException 類別
 
-表示標準的內部例外類型。
+代表一種標準的內部例外類型。
 
 ```csharp
 public class PptException : Exception
 ```
+
 
 ## 建構子
 
@@ -20,7 +21,7 @@ public class PptException : Exception
 | --- | --- |
 | [PptException](pptexception#constructor)() | 預設建構子。 |
 | [PptException](pptexception#constructor_1)(string) | 允許將訊息加入此例外的建構子。 |
-| [PptException](pptexception#constructor_2)(string, Exception) | 用於包含訊息與內嵌例外的建構子。 |
+| [PptException](pptexception#constructor_2)(string, Exception) | 用於包含訊息與內嵌例外的例外建構子。 |
 
 ### 另請參閱
 

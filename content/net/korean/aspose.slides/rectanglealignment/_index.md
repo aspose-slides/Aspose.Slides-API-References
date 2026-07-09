@@ -1,6 +1,6 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 2차원 정렬을 정의합니다.
 type: docs
 weight: 9690

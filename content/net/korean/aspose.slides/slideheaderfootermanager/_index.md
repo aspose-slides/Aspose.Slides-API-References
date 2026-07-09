@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자의 동작을 관리하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드 바닥글, 날짜-시간 및 페이지 번호 자리 표시자의 동작을 담당하는 관리자를 나타냅니다.
 type: docs
 weight: 9980
 url: /ko/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager 클래스
 
-슬라이드 바닥글, 날짜-시간, 페이지 번호 자리 표시자의 동작을 관리하는 관리자를 나타냅니다.
+슬라이드 바닥글, 날짜-시간 및 페이지 번호 자리 표시자의 동작을 담당하는 관리자를 나타냅니다.
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -28,10 +28,10 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 | 이름 | 설명 |
 | --- | --- |
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 가시성을 변경합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자 표시 여부를 변경합니다. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리 표시자에 텍스트를 설정합니다. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 가시성을 변경합니다. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 가시성을 변경합니다. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자 표시 여부를 변경합니다. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자 표시 여부를 변경합니다. |
 
 ### 관련 항목
 

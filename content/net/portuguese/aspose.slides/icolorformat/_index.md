@@ -1,9 +1,9 @@
 ---
 title: IColorFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma cor usada em uma apresentação.
 type: docs
-weight: 5470
+weight: 5490
 url: /pt/aspose.slides/icolorformat/
 ---
 ## IColorFormat interface
@@ -28,10 +28,10 @@ public interface IColorFormat : IFillParamSource
 | [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
 | [G](../../aspose.slides/icolorformat/g) { get; set; } | Retorna ou define o componente verde de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Byte. |
 | [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Retorna ou define o componente matiz de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Retorna ou define o componente luminância de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Retorna ou define a predefinição de cor. Leitura/gravação [`PresetColor`](../presetcolor). |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Retorna ou define o componente de luminância de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Retorna ou define a cor predefinida. Leitura/gravação [`PresetColor`](../presetcolor). |
 | [R](../../aspose.slides/icolorformat/r) { get; set; } | Retorna ou define o componente vermelho de uma cor. Todas as transformações de cor são ignoradas. Leitura/gravação Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Retorna ou define o componente saturação de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Retorna ou define o componente de saturação de uma cor na representação HSL. Todas as transformações de cor são ignoradas. Leitura/gravação Single. |
 | [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Retorna ou define a cor identificada por um esquema de cores. Leitura/gravação [`SchemeColor`](../schemecolor). |
 | [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Retorna ou define a cor identificada pela tabela de cores do sistema. Leitura/gravação [`SystemColor`](../systemcolor). |
 
@@ -42,7 +42,7 @@ public interface IColorFormat : IFillParamSource
 | [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Copia o formato de cor de "color". |
 | [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Retorna uma String que representa o formato de cor atual. |
 
-### Veja Também
+### Veja também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

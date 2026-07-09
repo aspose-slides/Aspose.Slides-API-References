@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖片的壓縮等級
+description: 表示圖片壓縮等級
 type: docs
 weight: 4350
 url: /zh-hant/aspose.slides.export/picturescompression/
 ---
 ## PicturesCompression 列舉
 
-表示圖片的壓縮等級
+表示圖片壓縮等級
 
 ```csharp
 public enum PicturesCompression
@@ -18,12 +18,12 @@ public enum PicturesCompression
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Dpi330 | `0` | 適用於高解析度 (HD) 顯示器的良好品質 |
-| Dpi220 | `1` | 在大多數印表機和螢幕上具有卓越品質 |
+| Dpi330 | `0` | 適合高畫質（HD）顯示器的良好品質 |
+| Dpi220 | `1` | 在大多數印表機和螢幕上提供卓越品質 |
 | Dpi150 | `2` | 適用於網頁和投影機的良好品質 |
-| Dpi96 | `3` | 最小化文件大小以便分享 |
+| Dpi96 | `3` | 最小化文件大小以便共享 |
 | Dpi72 | `4` | 預設壓縮等級 |
-| DocumentResolution | `5` | 使用文件解析度 - 圖片不會被壓縮，將以原始狀態使用於文件中 |
+| DocumentResolution | `5` | 使用文件解析度 - 圖片將不會被壓縮，並以原樣使用於文件中 |
 
 ### 參見
 

@@ -1,14 +1,14 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes .NET API Referansı
-description: Kaydetme seçenekleri örneklerini oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: Kaydetme seçenekleri örneklerini oluşturmaya olanak tanır
 type: docs
-weight: 4440
+weight: 4460
 url: /tr/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory sınıfı
 
-Kaydetme seçenekleri örneklerini oluşturulmasını sağlar
+Kaydetme seçeneklerinin örneklerini oluşturmayı sağlar
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory

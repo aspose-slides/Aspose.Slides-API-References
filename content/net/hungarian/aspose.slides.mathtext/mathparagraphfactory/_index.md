@@ -1,14 +1,14 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Lehetővé teszi matematikai bekezdés létrehozását
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi egy matematikai bekezdés létrehozását
 type: docs
-weight: 8890
+weight: 8910
 url: /hu/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory osztály
 
-Lehetővé teszi matematikai bekezdés létrehozását
+Lehetővé teszi egy matematikai bekezdés létrehozását
 
 ```csharp
 public class MathParagraphFactory : IMathParagraphFactory
@@ -20,16 +20,16 @@ public class MathParagraphFactory : IMathParagraphFactory
 | --- | --- |
 | [MathParagraphFactory](mathparagraphfactory)() | Az alapértelmezett konstruktor. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph)() | Üres matematikai bekezdés létrehozása |
 | [CreateMathParagraph](../../aspose.slides.mathtext/mathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | Létrehoz egy matematikai bekezdést, és elhelyezi benne a megadott matematikai blokkot |
 
-### Megjegyzés
+### Megjegyzések
 
-COM kompatibilitás érdekében
+COM kompatibilitáshoz
 
 ### Lásd még
 

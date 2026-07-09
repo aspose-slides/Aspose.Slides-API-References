@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi file audio tersemat.
+description: Mewakili kumpulan file audio yang disematkan.
 type: docs
-weight: 840
+weight: 860
 url: /id/aspose.slides/audiocollection/
 ---
 ## AudioCollection kelas
 
-Mewakili koleksi file audio tersemat.
+Mewakili kumpulan file audio yang disematkan.
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -16,22 +16,22 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Mengembalikan sejumlah file audio dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | Mengambil elemen pada indeks yang ditentukan. Hanya-baca [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Mengembalikan jumlah file audio dalam koleksi. Hanya baca Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya baca Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya baca [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya baca Object. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Membuat dan menambahkan audio ke presentasi dari array byte. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Menambahkan salinan file audio dari presentasi lain. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Membuat dan menambahkan audio ke presentasi dari stream. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Membuat dan menambahkan audio ke presentasi dari stream. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Menyalin audio ke array yang ditentukan dimulai dari indeks yang ditentukan. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Menyalin audio ke array yang ditentukan mulai dari indeks yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 
 ### Lihat Juga

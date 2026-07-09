@@ -1,14 +1,14 @@
 ---
 title: IBackground
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드 배경을 나타냅니다.
+description: 슬라이드의 배경을 나타냅니다.
 type: docs
 weight: 5270
 url: /ko/aspose.slides/ibackground/
 ---
 ## IBackground 인터페이스
 
-슬라이드의 배경을 나타냅니다.
+슬라이드 배경을 나타냅니다.
 
 ```csharp
 public interface IBackground : IFillParamSource, ISlideComponent
@@ -23,7 +23,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 | [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | BackgroundType.OwnBackground 채우기에 대한 EffectFormat을 반환합니다. 읽기 전용 [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | BackgroundType.OwnBackground 채우기에 대한 FillFormat을 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
 | [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | BackgroundType.Themed 채우기에 대한 ColorFormat을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | 배경 테마 컬렉션에서 BackgroundType.Themed 채우기의 인덱스를 반환합니다. 0은 채우기 없음, 1..999는 인덱스입니다. 읽기/쓰기 UInt16. |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | BackgroundType.Themed 채우기에 대한 배경 테마 컬렉션의 인덱스를 반환합니다. 0은 채우지 않음을 의미합니다. 1..999 - 인덱스. 읽기/쓰기 UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | 배경 채우기 유형을 반환합니다. 읽기/쓰기 [`BackgroundType`](../backgroundtype). |
 
 ## 메서드

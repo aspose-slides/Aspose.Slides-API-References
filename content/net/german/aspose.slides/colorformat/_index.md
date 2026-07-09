@@ -1,15 +1,14 @@
 ---
 title: ColorFormat
-second_title: Aspose.Slides für .NET API Referenz
-description: Stellt eine Farbe dar, die in einer Präsentation verwendet wird.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt eine in einer Präsentation verwendete Farbe dar.
 type: docs
-weight: 2430
+weight: 2520
 url: /de/aspose.slides/colorformat/
 ---
+## ColorFormat Klasse
 
-## ColorFormat-Klasse
-
-Stellt eine Farbe dar, die in einer Präsentation verwendet wird.
+Stellt eine in einer Präsentation verwendete Farbe dar.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -19,22 +18,22 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht den Zugriff auf die Basisschnittstelle IPresentationComponent. Nur-Lese [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Gibt die blaue Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Gibt die resultierende Farbe (mit allen angewendeten Farbtransformationen) zurück. Legt RGB-Farben fest und entfernt alle Farbtransformationen. Lese-/Schreibzugriff Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Gibt die Sammlung der auf eine Farbe angewendeten Farbtransformationen zurück. Nur-Lese [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Gibt die Methode zur Definition der Farbe zurück oder legt sie fest. Lese-/Schreibzugriff [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Gibt die blaue Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
-| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Gibt die grüne Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
-| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Gibt die rote Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Ermöglicht das Abrufen der Basis-IPresentationComponent-Schnittstelle. Nur lesbar [`IPresentationComponent`](../ipresentationcomponent). |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Gibt die blaue Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Byte. |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Gibt die resultierende Farbe zurück (mit allen angewendeten Farbtransformationen). Setzt RGB-Farben und löscht alle Farbtransformationen. Lesen/Schreiben Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Gibt die Sammlung der auf eine Farbe angewendeten Farbtransformationen zurück. Nur lesbar [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Gibt die Methode zur Farbbestimmung zurück oder legt sie fest. Lesen/Schreiben [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Gibt die blaue Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
+| [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Gibt die grüne Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
+| [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Gibt die rote Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
 | [G](../../aspose.slides/colorformat/g) { get; set; } | Gibt die grüne Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Gibt die Farbtongröße einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Gibt die Helligkeit einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Gibt die Farbvorlage zurück oder legt sie fest. Lese-/Schreibzugriff [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/colorformat/r) { get; set; } | Gibt die rote Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Gibt die Sättigungskomponente einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lese-/Schreibzugriff Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Gibt die Farbe zurück oder legt sie fest, die durch ein Farbschema identifiziert wird. Lese-/Schreibzugriff [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Gibt die Farbe zurück oder legt sie fest, die durch die Systemfarbtabelle identifiziert wird. Lese-/Schreibzugriff [`SystemColor`](../systemcolor). |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Gibt die Farbton-Komponente einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Gibt die Luminanz-Komponente einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Gibt die vordefinierte Farbe zurück oder legt sie fest. Lesen/Schreiben [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/colorformat/r) { get; set; } | Gibt die rote Komponente einer Farbe zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Byte. |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Gibt die Sättigungs-Komponente einer Farbe in HSL-Darstellung zurück oder legt sie fest. Alle Farbtransformationen werden ignoriert. Lesen/Schreiben Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Gibt die durch ein Farbschema identifizierte Farbe zurück oder legt sie fest. Lesen/Schreiben [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Gibt die durch die Systemfarbtabelle identifizierte Farbe zurück oder legt sie fest. Lesen/Schreiben [`SystemColor`](../systemcolor). |
 
 ## Methoden
 
@@ -42,8 +41,8 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | --- | --- |
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Kopiert das Farbformat von "color". |
 | override [Equals](../../aspose.slides/colorformat/equals)(object) | Überprüft die Gleichheit mit dem angegebenen Objekt. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Gibt den Hash-Code zurück. |
-| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Gibt eine Zeichenfolge zurück, die das aktuelle Farbformat darstellt. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Gibt den Hashcode zurück. |
+| [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Gibt einen String zurück, der das aktuelle Farbformat darstellt. |
 
 ### Siehe auch
 

@@ -1,14 +1,14 @@
 ---
 title: IGroupShapeLock
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्धारित करता है कि पैरेंट GroupShape पर कौन-से ऑपरेशन्स निष्क्रिय हैं।
+description: निर्धारित करता है कि पैरेंट GroupShape पर कौन-सी क्रियाएँ अक्षम हैं।
 type: docs
 weight: 6090
 url: /hi/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock इंटरफ़ेस
 
-निर्धारित करता है कि कौन सी क्रियाएँ पैरेंट GroupShape पर निष्क्रिय हैं।
+निर्धारित करता है कि कौन-सी क्रियाएँ पैरेंट GroupShape पर अक्षम हैं।
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -18,14 +18,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | बेस IBaseShapeLock इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseShapeLock`](../ibaseshapelock)। |
-| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को पुनःआकारित करने पर अनुपात को संरक्षित रखना चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को ले जाना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | निर्धारित करता है कि इस आकार का घूमाव कोण बदलना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन करना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का पुनःआकार देना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | निर्धारित करता है कि इस groupshape को विभाजित करना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | बेस IBaseShapeLock इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पाठनीय [`IBaseShapeLock`](../ibaseshapelock)। |
+| [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को आकार बदलने पर अनुपात बनाए रखना चाहिए या नहीं। पढ़ें/लिखें बूलियन। |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को स्थानांतरित करना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | निर्धारित करता है कि इस आकार का घूर्णन कोण बदलना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन करना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का आकार बदलना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | निर्धारित करता है कि इस समूहाकार को विभाजित करना प्रतिबंधित है या नहीं। पढ़ें/लिखें बूलियन। |
 
 ### देखें भी
 

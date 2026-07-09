@@ -1,6 +1,6 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een Heading pair-eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep aan.
 type: docs
 weight: 6100
@@ -8,7 +8,7 @@ url: /nl/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair interface
 
-Stelt een 'Heading pair'-eigenschap van het document voor. Het geeft de groepsnaam van documentonderdelen en het aantal onderdelen in de groep aan.
+Represents a 'Heading pair' property of the document. It indicates the group name of document parts and the number of parts in group.
 
 ```csharp
 public interface IHeadingPair

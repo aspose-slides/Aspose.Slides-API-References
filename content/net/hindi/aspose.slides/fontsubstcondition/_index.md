@@ -1,14 +1,14 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: फ़ॉन्ट प्रतिस्थापन के लिए एक नियम का प्रतिनिधित्व करता है
 type: docs
 weight: 4880
 url: /hi/aspose.slides/fontsubstcondition/
 ---
-## FontSubstCondition एन्यूमेरेशन
+## FontSubstCondition एन्यूमरेशन
 
-फ़ॉन्ट प्रतिस्थापन के लिए एक नियम का प्रतिनिधित्व करता है
+फ़ॉन्ट प्रतिस्थापन के लिए नियम का प्रतिनिधित्व करता है
 
 ```csharp
 public enum FontSubstCondition

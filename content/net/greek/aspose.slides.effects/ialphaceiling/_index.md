@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα εφέ Alpha Ceiling. Τιμές αδιαφάνειας Alpha μεγαλύτερες του μηδενός μετατρέπονται σε 100. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
+description: Αντιπροσωπεύει ένα εφέ Alpha Ceiling. Οι τιμές διαφάνειας Alpha μεγαλύτερες του μηδενός μετατρέπονται σε 100. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
 type: docs
-weight: 3020
+weight: 3040
 url: /el/aspose.slides.effects/ialphaceiling/
 ---
-## IAlphaCeiling διεπαφή
+## IAlphaCeiling διασύνδεση
 
-Αντιπροσωπεύει ένα εφέ Alpha Ceiling. Τιμές Alpha (αδιαφάνεια) μεγαλύτερες του μηδενός μετατρέπονται σε 100%. Με άλλα λόγια, οτιδήποτε είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
+Αντιπροσωπεύει ένα εφέ Alpha Ceiling. Τιμές Alpha (διαφάνειας) μεγαλύτερες του μηδενός μετατρέπονται σε 100%. Με άλλα λόγια, ό,τι είναι μερικώς αδιαφανές γίνεται πλήρως αδιαφανές.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 
@@ -24,9 +24,9 @@ public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData
 
 ### Δείτε επίσης
 
-* διεπαφή [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* διεπαφή [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)
-* διεπαφή [IImageTransformOperation](../iimagetransformoperation)
+* διασύνδεση [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* διασύνδεση [IAlphaCeilingEffectiveData](../ialphaceilingeffectivedata)
+* διασύνδεση [IImageTransformOperation](../iimagetransformoperation)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συγκρότηση [Aspose.Slides](../../)
 

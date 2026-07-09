@@ -6,7 +6,7 @@ type: docs
 weight: 5330
 url: /vi/aspose.slides/ibaseshapelock/
 ---
-## IBaseShapeLock giao diện
+## Giao diện IBaseShapeLock
 
 Biểu diễn khóa Shape (hoạt động bị vô hiệu hoá).
 
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Tên | Mô tả |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Trả về true nếu tất cả các lock-flag đều bị vô hiệu hoá. Boolean chỉ đọc. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Trả về true nếu tất cả các cờ khóa đều bị tắt. Chỉ đọc Boolean. |
 
 ### Xem thêm
 

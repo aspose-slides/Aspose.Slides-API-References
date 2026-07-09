@@ -1,14 +1,14 @@
 ---
 title: AxisAggregationType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Kategori ekseninin toplama tipini temsil eder. Yalnızca Histogram veya HistogramPareto serileriyle kullanılır.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Kategori ekseninin toplama türünü temsil eder. Yalnızca Histogram veya HistogramPareto serileriyle kullanılır.
 type: docs
-weight: 1170
+weight: 1190
 url: /tr/aspose.slides.charts/axisaggregationtype/
 ---
-## AxisAggregationType enum
+## AxisAggregationType enumerasyon
 
-Kategori ekseninin toplama tipini temsil eder. Yalnızca Histogram veya HistogramPareto serileriyle kullanılır.
+Kategori ekseninin toplama türünü temsil eder. Yalnızca Histogram veya HistogramPareto serileriyle kullanılır.
 
 ```csharp
 public enum AxisAggregationType
@@ -20,10 +20,10 @@ public enum AxisAggregationType
 | --- | --- | --- |
 | ByCategory | `0` | Kategorilere göre toplar |
 | Automatic | `1` | Kategorileri otomatik olarak toplar. |
-| ByBinWidth | `2` | Kategorileri sınıf genişliğine göre toplar. Property IAxis.BinWidth must be setted. |
-| ByNumberOfBins | `3` | Kategorileri sınıf sayısına göre toplar. Property IAxis.NumberOfBins must be setted. |
+| ByBinWidth | `2` | Kategorileri kutu genişliğine göre toplar. Özellik IAxis.BinWidth ayarlanmalıdır. |
+| ByNumberOfBins | `3` | Kategorileri kutu sayısına göre toplar. Özellik IAxis.NumberOfBins ayarlanmalıdır. |
 
-### See Also
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示形狀的效果屬性。
 type: docs
 weight: 5740
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat 介面
 
-Represent effect properties of shape.
+表示形狀的效果屬性。
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -16,45 +16,45 @@ public interface IEffectFormat : IEffectParamSource
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | 允許取得基礎 IEffectParamSource 介面。唯讀 [`IEffectParamSource`](../ieffectparamsource)。 |
 | [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | 模糊效果。可讀寫 [`IBlur`](../../aspose.slides.effects/iblur)。 |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | 填充覆蓋效果。可讀寫 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | 填充疊加效果。可讀寫 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | 發光效果。可讀寫 [`IGlow`](../../aspose.slides.effects/iglow)。 |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | 內陰影。可讀寫 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | 如果所有效果均已停用（如剛建立的預設 EffectFormat 物件），則傳回 true。唯讀 Boolean。 |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | 外陰影。可讀寫 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | 內部陰影。可讀寫 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | 如果所有效果皆已停用（例如剛創建的預設 EffectFormat 物件），則回傳 true。唯讀 Boolean。 |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | 外部陰影。可讀寫 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | 預設陰影。可讀寫 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | 反射效果。可讀寫 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | 軟邊緣。可讀寫 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | 柔和邊緣。可讀寫 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | 停用模糊效果。 |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | 停用填充覆蓋效果。 |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | 停用填充疊加效果。 |
 | [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | 停用發光效果。 |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | 停用內陰影效果。 |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | 停用外陰影效果。 |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | 停用內部陰影效果。 |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | 停用外部陰影效果。 |
 | [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | 停用預設陰影效果。 |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | 停用反射效果。 |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | 停用軟邊緣效果。 |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | 啟用填充覆蓋效果。 |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | 停用柔和邊緣效果。 |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | 啟用填充疊加效果。 |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | 啟用發光效果。 |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | 啟用內陰影效果。 |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | 啟用外陰影效果。 |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | 啟用內部陰影效果。 |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | 啟用外部陰影效果。 |
 | [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | 啟用預設陰影效果。 |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | 啟用反射效果。 |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | 啟用軟邊緣效果。 |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | 取得套用繼承的有效效果格式資料。 |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | 啟用柔和邊緣效果。 |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | 取得套用繼承的有效效果格式化資料。 |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | 設定模糊效果。 |
 
 ### 另請參閱
 
 * 介面 [IEffectParamSource](../ieffectparamsource)
-* 命名空間 [Aspose.Slides](../../aspose.slides)
+* 名稱空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

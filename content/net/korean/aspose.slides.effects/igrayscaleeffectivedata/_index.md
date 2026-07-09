@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 불변 객체이며 그레이 스케일 효과를 나타냅니다. 모든 효과 색상 값을 그들의 휘도에 해당하는 회색 음영으로 변환합니다. 효과 알파 불투명도 값은 영향을 받지 않습니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 불변 객체로, 그레이 스케일 효과를 나타냅니다. 효과의 모든 색상 값을 그들의 밝기에 해당하는 회색 음영으로 변환합니다. 효과 알파(불투명도) 값은 영향을 받지 않습니다.
 type: docs
 weight: 3350
 url: /ko/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData 인터페이스
 
-불변 객체이며 그레이 스케일 효과를 나타냅니다. 모든 효과 색상 값을 그들의 휘도에 해당하는 회색 음영으로 변환합니다. 효과 알파(불투명도) 값은 영향을 받지 않습니다.
+불변 객체로, 그레이 스케일 효과를 나타냅니다. 효과의 모든 색상 값을 그들의 밝기에 해당하는 회색 음영으로 변환합니다. 효과 알파(불투명도) 값은 영향을 받지 않습니다.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

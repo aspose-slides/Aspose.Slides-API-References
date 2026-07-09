@@ -3,7 +3,7 @@ title: IMotionPath
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά το μονοπάτι κίνησης.
 type: docs
-weight: 510
+weight: 530
 url: /el/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath διασύνδεση
@@ -19,7 +19,7 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IBehavior. Μόνο για ανάγνωση IEnumerable. |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Επιστρέφει τον αριθμό των μονοπατιών στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Επιστρέφει τον αριθμό των διαδρομών στη συλλογή. Μόνο για ανάγνωση Int32. |
 | [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Επιστρέφει μια εντολή στον καθορισμένο δείκτη. |
 
 ## Μέθοδοι

@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内のノートスライドを表します。
 type: docs
-weight: 6480
+weight: 6500
 url: /ja/aspose.slides/inotesslide/
 ---
 ## INotesSlide インターフェイス
 
-プレゼンテーション内のノートスライドを表します。
+プレゼンテーションのノートスライドを表します。
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | ベース IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | ノートスライドの HeaderFooter マネージャーを返します。読み取り専用 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | テキストがある場合、ノートのテキストを含む TextFrame を返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide を返します。読み取り専用 [`ISlide`](../islide)。 |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | ベースのIBaseSlideインターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeableインターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | ノートスライドのHeaderFooterマネージャーを返します。読み取り専用 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager)。 |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | ノートのテキストがある場合、TextFrameを返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlideを返します。読み取り専用 [`ISlide`](../islide)。 |
 
 ### 参照
 

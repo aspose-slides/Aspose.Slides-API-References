@@ -1,14 +1,14 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวเลือกการส่งออก HTML5
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงตัวเลือกการส่งออก HTML5.
 type: docs
 weight: 3860
 url: /th/aspose.slides.export/html5options/
 ---
-## คลาส Html5Options
+## Html5Options คลาส
 
-เป็นตัวเลือกการส่งออกเป็น HTML5
+แสดงตัวเลือกการส่งออกเป็น HTML5
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
@@ -18,24 +18,24 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Html5Options](html5options)() | คอนสตรักเตอร์เริ่มต้น |
+| [Html5Options](html5options)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการทำแอนิเมชันของรูปร่าง อ่าน/เขียน Boolean |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการทำแอนิเมชันของการเปลี่ยนฉาก อ่าน/เขียน Boolean |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ อ่าน/เขียน String |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | อ่านหรือกำหนดค่าสบ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์ เมื่อกำหนดเป็น `true` ลิเกเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่เรนเดอร์ โดยค่าเริ่มต้นของคุณสมบัตินี้คือ `false` |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการฝังภาพ อ่าน/เขียน Boolean |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ภาพของการไล่ระดับสี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle) |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | กำหนดว่าทรัพยากรภายนอกจะถูกจัดเก็บไว้ที่ใด อ่าน/เขียน String |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | เป็นระดับการบีบอัดของรูปภาพ |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจ็กต์คอลแบ็กสำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback) |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกการนำเสนอ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false** |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | อ่านหรือกำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions) |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจ็กต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. อ่าน/เขียน Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | คืนค่า或กำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนฉาก. อ่าน/เขียน Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า或กำหนดแบบอักษรที่ใช้เมื่อไม่พบแบบอักษรต้นฉบับ. อ่าน/เขียน String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | คืนค่า或กำหนดค่าที่บ่งชี้ว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลิกเชอร์. เมื่อกำหนดเป็น `true` ลิกเชอร์จะถูกปิดใช้งานในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้นคุณสมบัตินี้ตั้งเป็น **false**. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | คืนค่า或กำหนดตัวเลือกการฝังรูปภาพ. อ่าน/เขียน Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า或กำหนดสไตล์ภาพแบบไล่ระดับของกราเดียนต์. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. อ่าน/เขียน String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงวัตถุกลับสำหรับอัปเดตความคืบหน้าการบันทึกเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่เรียก JavaScript เมื่อบันทึกการพรีเซนเทชันหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกการพรีเซนเทชัน [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า或กำหนดออบเจ็กต์ที่รับคำเตือนและตัดสินว่ากระบวนการโหลดจะดำเนินต่อหรือถูกยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 * คลาส [SaveOptions](../saveoptions)
 * อินเทอร์เฟซ [IHtml5Options](../ihtml5options)
-* เนมส페ซ [Aspose.Slides.Export](../../aspose.slides.export)
+* เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

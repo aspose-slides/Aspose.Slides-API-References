@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Glow-effect voor waarbij een gekleurde vervaagde omtrek buiten de randen van het object wordt toegevoegd.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een Glow-effect voor waarbij een gekleurde vage omtrek buiten de randen van het object wordt toegevoegd.
 type: docs
 weight: 2990
 url: /nl/aspose.slides.effects/glow/
 ---
 ## Glow klasse
 
-Stelt een Glow-effect voor, waarbij een gekleurde vervaagde omtrek buiten de randen van het object wordt toegevoegd.
+Stelt een Glow-effect voor, waarin een gekleurde vage omtrek buiten de randen van het object wordt toegevoegd.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -19,15 +19,15 @@ public sealed class Glow : IGlow
 | Naam | Beschrijving |
 | --- | --- |
 | [Color](../../aspose.slides.effects/glow/color) { get; } | Kleurformaat. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Radius. Lezen/Schrijven Double. |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Straal. Lezen/Schrijven Double. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Bepaalt of de opgegeven [`Glow`](../glow) gelijk is aan de huidige [`Glow`](../glow). |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Verkrijgt effectieve Glow-effectgegevens met de toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Dient als hashfunctie voor een specifiek type. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Haalt effectieve Glow-effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Dient als hash-functie voor een bepaald type. |
 
 ### Zie ook
 

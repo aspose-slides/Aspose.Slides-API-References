@@ -1,9 +1,9 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar en samling av bilder i avsnittet.
 type: docs
-weight: 6890
+weight: 6910
 url: /sv/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection gränssnitt
@@ -16,9 +16,9 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | Hämtar elementet på det angivna indexet. Läs-endast [`ISlide`](../islide). |
 
 ### Se även
 

@@ -1,9 +1,9 @@
 ---
 title: IColorEffect
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de cor para um comportamento de animação.
 type: docs
-weight: 440
+weight: 460
 url: /pt/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect interface
@@ -19,13 +19,13 @@ public interface IColorEffect : IBehavior
 | Nome | Descrição |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Permite obter a interface IBehavior base. Somente leitura [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação de cor. Leitura/escrita [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Representa o espaço de cor do comportamento. Leitura/escrita [`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Especifica a direção para percorrer matiz ao redor da roda de cores. Leitura/escrita [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Este valor é usado para especificar a cor inicial do comportamento. Leitura/escrita [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Descreve a cor resultante para a mudança de cor da animação. Leitura/escrita [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação de cor. Leitura/gravação [`IColorOffset`](../icoloroffset). |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | Representa o espaço de cor do comportamento. Leitura/gravação [`ColorSpace`](./colorspace). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Especifica a direção para percorrer a matiz ao redor da roda de cores. Leitura/gravação [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Este valor é usado para especificar a cor inicial do comportamento. Leitura/gravação [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Descreve a cor resultante para a mudança de cor da animação. Leitura/gravação [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ver também
+### Veja Também
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

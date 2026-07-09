@@ -1,14 +1,14 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes a .NET API referenciája
-description: Ábrázolja a diagram elemének sorozatonkénti vagy kategóriánkénti animációs effektus típusát.
+second_title: Aspose.Sildes .NET API referencia
+description: A diagram elemének animációs effektusának típusát reprezentálja sorozatban vagy kategóriában.
 type: docs
-weight: 280
+weight: 300
 url: /hu/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType enumeráció
 
-Ábrázolja egy animációs effektus típusát a diagram elemére sorozatonként vagy kategóriánként.
+A diagram elemének animációs effektusának típusát reprezentálja sorozatban vagy kategóriában.
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMinorGroupingType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Animálja a diagramot sorozatonkénti elem szerint |
-| ByElementInCategory | `1` | Animálja a diagramot kategoriánkénti elem szerint |
+| ByElementInSeries | `0` | Animálja a diagramot sorozaton belüli elemmel |
+| ByElementInCategory | `1` | Animálja a diagramot kategórián belüli elemmel |
 
 ### Lásd még
 

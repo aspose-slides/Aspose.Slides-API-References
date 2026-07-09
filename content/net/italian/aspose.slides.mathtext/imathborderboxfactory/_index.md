@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBoxFactory
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Consente di creare un riquadro di bordi matematici
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Consente di creare una math border box
 type: docs
-weight: 8160
+weight: 8180
 url: /it/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory interfaccia
 
-Consente di creare un riquadro di bordi matematici
+Consente di creare una math border box
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -18,8 +18,8 @@ public interface IMathBorderBoxFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea un riquadro di bordi matematici applicandolo all'elemento |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement,bool,bool,bool,bool,bool,bool,bool,bool) | Crea un riquadro di bordi matematici applicandolo all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Crea una math border box applicandola all'elemento |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Crea una math border box applicandola all'elemento |
 
 ### Osservazioni
 

@@ -1,9 +1,9 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un valore di un grafico.
 type: docs
-weight: 1200
+weight: 1220
 url: /it/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue classe
@@ -19,7 +19,7 @@ public abstract class BaseChartValue : IBaseChartValue
 | Nome | Descrizione |
 | --- | --- |
 | abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Lettura/scrittura Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifica se la proprietà AsCell, AsCells, AsLiteralString o AsLiteralDouble è effettiva nelle classi derivate. In altre parole, specifica il tipo di valore della proprietà Data. Lettura/scrittura [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Specifica se la proprietà AsCell, AsCells, AsLiteralString o AsLiteralDouble è effettiva nei discendenti. In altre parole specifica il tipo di valore della proprietà Data. Lettura/scrittura [`DataSourceType`](../datasourcetype). |
 
 ### Vedi anche
 

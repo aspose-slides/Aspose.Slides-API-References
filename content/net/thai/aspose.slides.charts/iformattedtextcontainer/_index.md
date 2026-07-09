@@ -1,14 +1,14 @@
 ---
 title: IFormattedTextContainer
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงรูปแบบข้อความแผนภูมิ.
+description: เป็นตัวแทนของรูปแบบข้อความของแผนภูมิ.
 type: docs
 weight: 2110
 url: /th/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer อินเทอร์เฟซ
 
-แสดงถึงรูปแบบข้อความแผนภูมิ.
+เป็นตัวแทนของรูปแบบข้อความของแผนภูมิ.
 
 ```csharp
 public interface IFormattedTextContainer : IChartComponent
@@ -16,10 +16,10 @@ public interface IFormattedTextContainer : IChartComponent
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | คืนค่า IChartComponent อินเทอร์เฟซ. อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | คืนค่า รูปแบบข้อความแผนภูมิ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
+| [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | ส่งคืน IChartComponent อินเทอร์เฟซ. อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | ส่งคืนรูปแบบข้อความของแผนภูมิ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
 
 ### ดูเพิ่มเติม
 

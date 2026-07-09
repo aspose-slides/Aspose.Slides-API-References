@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Specifica una direzione limitata ai valori left e right.
 type: docs
-weight: 10360
+weight: 10380
 url: /it/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType enumerazione
 
-Specifica una direzione limitata ai valori Left e Right.
+Specifica una direzione limitata ai valori left e right.
 
 ```csharp
 public enum TransitionLeftRightDirectionType

@@ -1,13 +1,12 @@
 ---
 title: ShapeFrame
-second_title: Referencia de API de Aspose.Sildes para .NET
+second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa las propiedades de los marcos de forma.
 type: docs
-weight: 9590
+weight: 9900
 url: /es/aspose.slides/shapeframe/
 ---
-
-## Clase ShapeFrame
+## ShapeFrame clase
 
 Representa las propiedades del marco de forma.
 
@@ -19,22 +18,22 @@ public class ShapeFrame : IShapeFrame
 
 | Nombre | Descripción |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Crea nuevas propiedades del marco de forma. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Crea nuevas propiedades del marco de forma. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Devuelve la coordenada X del centro de un marco. Solo lectura Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Devuelve la coordenada Y del centro de un marco. Solo lectura Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Determina si un marco está volteado horizontalmente. Solo lectura [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determina si un marco está volteado verticalmente. Solo lectura [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Devuelve la altura de un marco. Solo lectura Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Devuelve las coordenadas de un marco. Solo lectura RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Devuelve el número de grados que un marco está girado alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Solo lectura Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Devuelve el ancho de un marco. Solo lectura Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Devuelve la coordenada X de la esquina superior izquierda de un marco. Solo lectura Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Devuelve la coordenada Y de la esquina superior izquierda de un marco. Solo lectura Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Devuelve la coordenada X del centro de un marco. Solo lectura Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Devuelve la coordenada Y del centro de un marco. Solo lectura Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Determina si un marco está volteado horizontalmente. Solo lectura [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Determina si un marco está volteado verticalmente. Solo lectura [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Devuelve la altura de un marco. Solo lectura Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Devuelve las coordenadas de un marco. Solo lectura RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Devuelve el número de grados que se ha girado un marco alrededor del eje z. Un valor positivo indica rotación en sentido horario; un valor negativo indica rotación en sentido antihorario. Solo lectura Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Devuelve el ancho de un marco. Solo lectura Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Devuelve la coordenada X de la esquina superior izquierda de un marco. Solo lectura Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Devuelve la coordenada Y de la esquina superior izquierda de un marco. Solo lectura Single. |
 
 ## Métodos
 
@@ -42,14 +41,14 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Clona |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Clona. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
 | [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Devuelve un valor que indica si esta instancia es igual a un objeto especificado. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Devuelve un código hash para este objeto. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Devuelve un código hash para este objeto. |
 
-### Ver También
+### Ver también
 
-* interfaz [IShapeFrame](../ishapeframe)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* interfaz [IShapeFrame](../ishapeframe)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

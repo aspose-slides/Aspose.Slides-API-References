@@ -1,14 +1,14 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式アクセントを作成できます
+description: 数式アクセントを作成することを可能にします
 type: docs
-weight: 8520
+weight: 8540
 url: /ja/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory クラス
 
-数式アクセントを作成できます
+数式アクセントを作成することを可能にします
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -24,14 +24,14 @@ public class MathAccentFactory : IMathAccentFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 指定された数式要素に、デフォルトのアクセント文字値を使用して数式アクセントを作成します |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 既定のアクセント文字値を使用して、指定された数式要素に適用される数式アクセントを作成します |
 | [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 指定された数式要素に適用される数式アクセントを作成します |
 
 ### 備考
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathAccentFactory](../imathaccentfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

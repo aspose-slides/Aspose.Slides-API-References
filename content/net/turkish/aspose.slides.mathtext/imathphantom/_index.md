@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes için .NET API Referansı
-description: ltmphantgt adlı bir hayalet matematik nesnesini temsil eder; bu nesne alt öğesinin düzenini etkiler ancak mutlaka görüntülenmesi gerekmez. Bir hayalet, formülleri hizalamak veya boşluk ayırmak için genişliğini, yüksekliğini veya derinliğini korurken temel ifadesini gizleyebilir. Görünürlük ve geometri davranışı Show, ZeroWid, ZeroAsc, ZeroDesc ve Transp gibi özelliklerle kontrol edilir.
+description: ltmphantgt adlı bir hayalet matematik nesnesini temsil eder; bu nesne, alt öğesinin düzenini, zorunlu olarak görüntülenmesi gerekmeden etkiler. Bir hayalet, temel ifadesini gizleyebilir ancak formülleri hizalamak veya alan ayırmak için genişliğini, yüksekliğini veya derinliğini korur. Görünürlük ve geometrik davranış, Show, ZeroWid, ZeroAsc, ZeroDesc ve Transp gibi özelliklerle kontrol edilir.
 type: docs
-weight: 8390
+weight: 8410
 url: /tr/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom arayüz
 
-Phantom bir matematik nesnesini (<m:phant>) temsil eder; bu nesne, alt öğesinin düzenini etkiler ancak mutlaka görüntülenmesi gerekmez. Bir phantom, temel ifadesini gizleyebilir ve formülleri hizalamak veya boşluk ayırmak için genişliğini, yüksekliğini veya derinliğini korur. Görünürlük ve geometri davranışı, Show, ZeroWid, ZeroAsc, ZeroDesc ve Transp gibi özelliklerle kontrol edilir.
+Bir hayalet matematik nesnesini (<m:phant>) temsil eder; bu nesne, alt öğesinin düzenini etkiler ancak mutlaka görüntülenmesi gerekmez. Bir hayalet, temel ifadesini gizleyebilir ancak formülleri hizalamak veya alan ayırmak için genişliğini, yüksekliğini veya derinliğini korur. Görünürlük ve geometrik davranış, Show, ZeroWid, ZeroAsc, ZeroDesc ve Transp gibi özelliklerle kontrol edilir.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -19,11 +19,11 @@ public interface IMathPhantom : IMathElement
 | Ad | Açıklama |
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Temel argüman |
-| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Temel öğenin görüntülenip görüntülenmediğini gösteren bir değeri alır veya ayarlar. |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Phantom'un sınıf tabanlı boşluk kuralları için şeffaf olup olmadığını gösteren bir değeri alır veya ayarlar. |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Temel öğenin yükselişinin (çizgi üstü yüksekliği) sıfır olarak ele alınması gerektiğini gösteren bir değeri alır veya ayarlar. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Temel öğenin inişinin (çizgi altı derinliği) sıfır olarak ele alınması gerektiğini gösteren bir değeri alır veya ayarlar. |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Temel öğenin genişliğinin sıfır olarak ele alınması gerektiğini gösteren bir değeri alır veya ayarlar. |
+| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Temel öğenin görüntülenip görüntülenmediğini belirten bir değeri alır veya ayarlar. |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Hayaletin sınıf tabanlı boşluk kuralları için şeffaf olup olmadığını belirten bir değeri alır veya ayarlar. |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Temel öğenin yükselişinin (çizgi üstü yüksekliği) sıfır olarak kabul edilip edilmemesi gerektiğini belirten bir değeri alır veya ayarlar. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Temel öğenin düşüşünün (çizgi altı derinliği) sıfır olarak kabul edilip edilmemesi gerektiğini belirten bir değeri alır veya ayarlar. |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Temel öğenin genişliğinin sıfır olarak kabul edilip edilmemesi gerektiğini belirten bir değeri alır veya ayarlar. |
 
 ### Örnekler
 
@@ -36,7 +36,7 @@ phantom.Show = false;          // İçeriği gizle
 phantom.ZeroWidth = false;     // Genişliği koru
 ```
 
-### Diğer
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

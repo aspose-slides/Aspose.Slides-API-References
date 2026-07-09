@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Nyolc irányú diaátmeneti hatás.
+second_title: Aspose.Sildes a .NET API Referencia
+description: Nyolc irányú diavetítés átmeneti hatás.
 type: docs
-weight: 10050
+weight: 10070
 url: /hu/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition interfész
 
-Eight direction slide transition effect.
+Nyolc irányú diavetítés átmeneti hatás.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi az ITransitionValueBase alap interfész elérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Az áttűnés iránya. Olvasható/írható [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Átmenet iránya. Olvasás/írás [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### Lásd még
 

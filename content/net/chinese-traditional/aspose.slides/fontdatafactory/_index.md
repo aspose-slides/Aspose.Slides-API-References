@@ -1,6 +1,6 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: FontData 工廠
 type: docs
 weight: 4830
@@ -14,19 +14,19 @@ FontData 工廠
 public class FontDataFactory : IFontDataFactory
 ```
 
-## 建構函式
+## 建構式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontDataFactory](fontdatafactory)() | 預設建構函式。 |
+| [FontDataFactory](fontdatafactory)() | 預設建構式。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 使用指定的字體名稱建立 FontData。 |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 建立具有指定字體名稱的 FontData。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IFontDataFactory](../ifontdatafactory)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

@@ -6,7 +6,7 @@ type: docs
 weight: 4870
 url: /nl/aspose.slides/fontstyletype/
 ---
-## FontStyleType enumeratie
+## FontStyleType enumeration
 
 Definieert opmaakstijlen die op tekst kunnen worden toegepast.
 
@@ -20,10 +20,10 @@ public enum FontStyleType
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Regular | `0` | Standaardtekst. |
-| Bold | `1` | Vette tekst. |
+| Bold | `1` | Vetgedrukte tekst. |
 | Italic | `2` | Cursieve tekst. |
 | Underline | `4` | Onderstreepte tekst. |
-| Strikeout | `8` | Tekst doorgestoken met een horizontale lijn. |
+| Strikeout | `8` | Tekst doorgestreept met een horizontale lijn. |
 
 ### Zie ook
 

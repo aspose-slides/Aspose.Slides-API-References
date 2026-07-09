@@ -1,6 +1,6 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프리셋 그림자 효과를 나타냅니다.
 type: docs
 weight: 3480
@@ -17,14 +17,14 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | IAccessiblePVIObject 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | IImageTransformOperation 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 그림자 방향. 읽기/쓰기 Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 그림자 거리. 읽기/쓰기 Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. 읽기/쓰기 [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 그림자 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 그림자의 방향. 읽기/쓰기 Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 그림자의 거리. 읽기/쓰기 Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 프리셋. 읽기/쓰기 [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 그림자의 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 관련 항목
 

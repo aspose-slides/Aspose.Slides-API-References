@@ -1,14 +1,14 @@
 ---
 title: CellCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una raccolta di celle.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta una collezione di celle.
 type: docs
-weight: 1120
+weight: 1140
 url: /it/aspose.slides/cellcollection/
 ---
 ## CellCollection classe
 
-Rappresenta una raccolta di celle.
+Rappresenta una collezione di celle.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -18,18 +18,18 @@ public abstract class CellCollection : ICellCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Restituisce il numero di celle in una raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Sola lettura [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione padre di una CellCollection. Sola lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la diapositiva padre di una CellCollection. Sola lettura [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Restituisce il numero di celle in una raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Restituisce una cella in base alla sua posizione. Solo lettura [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Restituisce la presentazione padre di un CellCollection. Solo lettura [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Restituisce la diapositiva padre di un CellCollection. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta all'array specificato. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche

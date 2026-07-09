@@ -1,34 +1,34 @@
 ---
 title: ChartThemeManager
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट थीम को ओवरराइड करने की पहुँच प्रदान करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: चार्ट थीम को ओवरराइड करने तक पहुंच प्रदान करता है।
 type: docs
 weight: 11060
 url: /hi/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager क्लास
 
-चार्ट थीम को ओवरराइड करने की पहुँच प्रदान करता है।
+चार्ट थीम ओवरराइड करने तक पहुंच प्रदान करता है।
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | निर्धारित करता है कि OverrideTheme विरासती प्रभावी थीम को ओवरराइड करता है या नहीं। OverrideTheme को ओवरराइड करने के लिए OverrideTheme.Init*() विधियों का उपयोग करें। OverrideTheme को ओवरराइड से निष्क्रिय करने के लिए OverrideTheme.Clear() विधि का उपयोग करें। केवल-पढ़ने योग्य Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट लौटाता है। पढ़ने/लिखने योग्य [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | निर्धारित करता है कि OverrideTheme विरासत में मिले प्रभावी थीम को ओवरराइड करता है या नहीं। OverrideTheme को ओवरराइड करने के लिए सक्षम करने हेतु OverrideTheme.Init*() मेथड्स का उपयोग करें। OverrideTheme को ओवरराइड करने से रोकने के लिए OverrideTheme.Clear() मेथड का उपयोग करें। केवल पढ़ने योग्य Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट लौटाता है। पढ़ने/लिखने [`IOverrideTheme`](../ioverridetheme). |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | एक स्लाइड पर अतिरिक्त रंग योजना लागू करता है। |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | स्लाइड पर अतिरिक्त रंग योजना लागू करता है। |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | थीम ऑब्जेक्ट लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [BaseOverrideThemeManager](../baseoverridethememanager)
 * नेमस्पेस [Aspose.Slides.Theme](../../aspose.slides.theme)

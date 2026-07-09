@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エラーバー値の型を表します
+description: エラーバー値のタイプを表します
 type: docs
-weight: 1630
+weight: 1650
 url: /ja/aspose.slides.charts/errorbarvaluetype/
 ---
-## ErrorBarValueType 列挙型
+## ErrorBarValueType 列挙体
 
-エラーバー値の型を表します
+エラーバーの値のタイプを表します
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,13 +18,13 @@ public enum ErrorBarValueType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Custom | `0` | エラーバーの長さは Plus と Minus の要素で決定されることを指定します。 |
-| Fixed | `1` | エラーバーの長さは Error Bar Value で決定された固定値であることを指定します。 |
+| Custom | `0` | エラーバーの長さは Plus および Minus 要素によって決定されることを指定します。 |
+| Fixed | `1` | エラーバーの長さは Error Bar Value によって決定された固定値であることを指定します。 |
 | Percentage | `2` | エラーバーの長さはデータの Error Bar Value パーセントであることを指定します。 |
 | StandardDeviation | `3` | エラーバーの長さはデータの Error Bar Value 標準偏差であることを指定します。 |
 | StandardError | `4` | エラーバーの長さはデータの Error Bar Value 標準誤差であることを指定します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

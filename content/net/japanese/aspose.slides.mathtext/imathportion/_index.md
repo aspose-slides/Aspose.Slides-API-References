@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式コンテキストを含む部分を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 数式コンテキストを持つ部分を表します。
 type: docs
-weight: 8400
+weight: 8420
 url: /ja/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion インターフェイス
 
-数式コンテキストを含む部分を表します。
+数式コンテキストを持つ部分を表します。
 
 ```csharp
 public interface IMathPortion
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

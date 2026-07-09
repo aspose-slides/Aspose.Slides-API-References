@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes for .NET API 참조
-description: 내보낸 문서에서 노트와 코멘트의 레이아웃 모양을 제어하는 옵션을 제공합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 내보낸 문서에서 메모와 주석의 레이아웃 모양을 제어하는 옵션을 제공합니다.
 type: docs
 weight: 4290
 url: /ko/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions 클래스
 
-내보낸 문서에서 노트와 코멘트의 레이아웃 모양을 제어하는 옵션을 제공합니다.
+내보낸 문서에서 메모 및 주석의 레이아웃 모양을 제어하는 옵션을 제공합니다.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -24,13 +24,13 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | 코멘트 영역의 색상을 가져오거나 설정합니다 (코멘트가 오른쪽에 표시될 때만 적용됩니다). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | 코멘트 출력 영역의 너비를 픽셀 단위로 가져오거나 설정합니다 (코멘트가 오른쪽에 표시될 때만 적용됩니다). |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | 페이지에서 코멘트의 위치를 가져오거나 설정합니다. |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | 페이지에서 노트의 위치를 가져오거나 설정합니다. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 작성자가 없는 코멘트의 표시 여부를 가져오거나 설정합니다. true인 경우 코멘트가 표시됩니다 (코멘트가 표시될 때만 적용됩니다). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | 주석 영역의 색상을 가져오거나 설정합니다(주석이 오른쪽에 표시되는 경우에만 적용됩니다). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | 주석 출력 영역의 너비를 픽셀 단위로 가져오거나 설정합니다(주석이 오른쪽에 표시되는 경우에만 적용됩니다). |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | 페이지에서 주석의 위치를 가져오거나 설정합니다. |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | 페이지에서 메모의 위치를 가져오거나 설정합니다. |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | 작성자가 없는 주석의 표시 여부를 가져오거나 설정합니다. true인 경우 주석이 표시됩니다(주석이 표시되는 경우에만 적용됩니다). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISlidesLayoutOptions](../islideslayoutoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

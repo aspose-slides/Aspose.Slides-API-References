@@ -1,34 +1,34 @@
 ---
 title: Storage
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: WebDocument./webdocument के लिए एक अस्थायी डेटा स्टोरेज का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET एपीआई रेफ़रेंस
+description: WebDocument./webdocument के लिए अस्थायी डेटा भंडारण का प्रतिनिधित्व करता है।
 type: docs
 weight: 4660
 url: /hi/aspose.slides.export.web/storage/
 ---
-## स्टोरेज क्लास
+## भंडारण क्लास
 
-एक अस्थायी डेटा स्टोरेज का प्रतिनिधित्व करता है [`WebDocument`](../webdocument) के लिए।
+एक अस्थायी डेटा भंडारण का प्रतिनिधित्व करता है [`WebDocument`](../webdocument) के लिए।
 
 ```csharp
 public sealed class Storage
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [Storage](storage)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [Storage](storage)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | निर्धारित करता है कि स्टोरेज में निर्दिष्ट कुंजी के साथ कोई तत्व है या नहीं। |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | निर्धारित करता है कि स्टोरेज में निर्दिष्ट कुंजी वाला तत्व मौजूद है या नहीं। |
 | [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | स्टोरेज से डेटा प्राप्त करता है। |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | मूल्य को स्टोरेज में डालता है। |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | मान को स्टोरेज में रखता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * असेंबली [Aspose.Slides](../../)

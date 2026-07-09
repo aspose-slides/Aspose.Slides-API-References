@@ -1,14 +1,14 @@
 ---
 title: IPresentationInfo
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 關於簡報檔案的資訊
+second_title: Aspose.Sildes for .NET API 參考
+description: 簡報檔案資訊
 type: docs
 weight: 6790
 url: /zh-hant/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo 介面
 
-關於簡報檔案的資訊
+簡報檔案資訊
 
 ```csharp
 public interface IPresentationInfo
@@ -18,21 +18,21 @@ public interface IPresentationInfo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 取得 True（如果綁定的簡報已加密），否則為 False。唯讀 Boolean。 |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 取得指示綁定的簡報是否受到開啟密碼保護的值。 |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 取得指示綁定的簡報是否受到寫入保護的值。 |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 取得綁定的簡報的格式。唯讀 [`LoadFormat`](../loadformat)。 |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | 若已繫結的簡報已加密則傳回 True，否則傳回 False。唯讀 Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | 取得指示已繫結的簡報是否受開啟密碼保護的值。 |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | 取得指示已繫結的簡報是否受寫入保護的值。 |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | 取得已繫結的簡報之格式。唯讀 [`LoadFormat`](../loadformat). |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | 檢查密碼是否正確，用於受開啟密碼保護的簡報。 |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | 檢查修改密碼是否正確，用於受寫入保護的簡報。 |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | 取得綁定的簡報的文件屬性。 |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | 更新綁定的簡報的屬性。 |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | 將綁定的簡報寫入至串流。 |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | 將綁定的簡報寫入至檔案。 |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | 檢查對受開啟密碼保護的簡報，密碼是否正確。 |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | 檢查對受寫入保護的簡報，修改密碼是否正確。 |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | 取得已繫結的簡報之文件屬性。 |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | 更新已繫結的簡報之屬性。 |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | 將已繫結的簡報寫入串流。 |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | 將已繫結的簡報寫入檔案。 |
 
 ### 另見
 

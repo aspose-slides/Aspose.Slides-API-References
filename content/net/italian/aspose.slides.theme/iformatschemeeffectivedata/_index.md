@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che contiene le proprietà del schema di formato effettivo.
+description: Oggetto immutabile che contiene le proprietà del formato schema effettivo.
 type: docs
-weight: 11260
+weight: 11280
 url: /it/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà del schema di formato effettivo.
+Oggetto immutabile che contiene le proprietà del formato schema effettivo.
 
 ```csharp
 public interface IFormatSchemeEffectiveData

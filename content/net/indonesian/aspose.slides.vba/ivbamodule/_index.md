@@ -1,9 +1,9 @@
 ---
 title: IVbaModule
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili modul yang terdapat dalam proyek VBA.
 type: docs
-weight: 11510
+weight: 11530
 url: /id/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule antarmuka
@@ -18,7 +18,7 @@ public interface IVbaModule
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Nama modul. Hanya-baca String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Nama modul. Hanya baca String. |
 | [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Kode sumber modul. Baca/tulis String. |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes برای .NET مرجع API
-description: امکان ایجاد نوار ریاضی را فراهم می‌کند
+second_title: Aspose.Sildes برای مرجع API .NET
+description: امکان ایجاد یک نوار ریاضی را فراهم می‌کند
 type: docs
 weight: 8580
 url: /fa/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory کلاس
 
-امکان ایجاد نوار ریاضی را فراهم می‌کند
+ایجاد یک نوار ریاضی را امکان‌پذیر می‌کند
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -24,14 +24,14 @@ public class MathBarFactory : IMathBarFactory
 
 | نام | توضیح |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | نوار ریاضی را با اعمال بر عنصر ایجاد می‌کند |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | نوار ریاضی را با اعمال بر عنصر ایجاد می‌کند |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | یک نوار ریاضی را با اعمال بر عنصر ایجاد می‌کند |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | یک نوار ریاضی را با اعمال بر عنصر ایجاد می‌کند |
 
 ### توضیحات
 
-برای سازگاری با COM
+برای سازگاری COM
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IMathBarFactory](../imathbarfactory)
 * فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)

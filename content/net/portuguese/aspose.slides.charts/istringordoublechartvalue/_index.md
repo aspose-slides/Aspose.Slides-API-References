@@ -1,9 +1,9 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um valor string ou double que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da pasta de trabalho relacionada ao gráfico; 2) como valor literal.
 type: docs
-weight: 2210
+weight: 2230
 url: /pt/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interface
@@ -16,15 +16,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Permite obter a interface base ISingleCellChartValue. Somente leitura [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Retorna ou define o double literal se a propriedade DataSourceType for DataSourceType.DoubleLiterals. Leitura/gravação Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Retorna ou define a string literal se a propriedade DataSourceType for DataSourceType.StringLiterals. Leitura/gravação String. |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Retorna ou define o double literal se a propriedade DataSourceType for DataSourceType.DoubleLiterals. Leitura/Gravação Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Retorna ou define a string literal se a propriedade DataSourceType for DataSourceType.StringLiterals. Leitura/Gravação String. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Converte o valor para double. |
 

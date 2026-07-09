@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Aspose.Sildes .NET API Referencia
-description: Megad egy irányt, amely a sarkokra és a középre korlátozódik.
+second_title: Aspose.Sildes .NET API Referenciához
+description: Megadja a sarkokra és a középre korlátozott irányt.
 type: docs
-weight: 10320
+weight: 10340
 url: /hu/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType enumeráció
 
-Megad egy irányt, amely a sarkokra és a középre korlátozódik.
+Megadja a sarkokra és a középre korlátozott irányt.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType

@@ -1,20 +1,20 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje regułę zastępowania czcionek
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje zasadę zastępowania czcionek
 type: docs
-weight: 4820
+weight: 4840
 url: /pl/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule klasa
 
-Reprezentuje regułę zastępowania czcionek
+Reprezentuje zasadę zastępowania czcionek
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
 ```
 
-## Konstruktorzy
+## Konstruktory
 
 | Nazwa | Opis |
 | --- | --- |
@@ -26,7 +26,7 @@ public class FontFallBackRule : IFontFallBackRule
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | Pobiera liczbę czcionek faktycznie zdefiniowanych dla zakresu. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Pobiera nazwę czcionki pod określonym indeksem. Tylko do odczytu [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | Pobiera nazwę czcionki o podanym indeksie. Tylko do odczytu [`IFontFallBackRule`](../ifontfallbackrule). |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Pobiera ostatni indeks ciągłego zakresu Unicode. |
 | [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Pobiera pierwszy indeks ciągłego zakresu Unicode. |
 
@@ -34,14 +34,14 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Dodaje nową czcionkę(i) do listy czcionek FallBack. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Dodaje nowe czcionki do listy czcionek FallBack. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Dodaje nową czcionkę(e) do listy czcionek zastępczych. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Dodaje nowe czcionki do listy czcionek zastępczych. |
 | [Clear](../../aspose.slides/fontfallbackrule/clear)() | Usuwa wszystkie czcionki z listy. |
-| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Zwraca indeks określonej reguły w kolekcji. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Usuwa pierwsze wystąpienie określonej czcionki FallBack z listy. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Usuwa czcionkę FallBack pod określonym indeksem listy. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Tworzy i zwraca tablicę ze wszystkimi czcionkami FallBack dla tej reguły. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Tworzy i zwraca tablicę ze wszystkimi czcionkami FallBack z określonego zakresu w liście. |
+| [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Zwraca indeks określonej zasady w kolekcji. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Usuwa pierwsze wystąpienie określonej czcionki zastępczej z listy. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Usuwa czcionkę zastępczą o podanym indeksie z listy. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Tworzy i zwraca tablicę ze wszystkimi czcionkami zastępczymi dla tej zasady. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Tworzy i zwraca tablicę ze wszystkimi czcionkami zastępczymi z określonego zakresu na liście. |
 
 ### Zobacz także
 

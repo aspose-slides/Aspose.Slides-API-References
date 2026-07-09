@@ -1,6 +1,6 @@
 ---
 title: Compress
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示一組旨在壓縮 Presentation../aspose.slides/presentation 的方法。
 type: docs
 weight: 7870
@@ -18,9 +18,9 @@ public static class Compress
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 對 [`Presentation`](../../aspose.slides/presentation) 進行壓縮，方法是移除嵌入字型中未使用的字元。 |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 對 [`Presentation`](../../aspose.slides/presentation) 進行壓縮，方法是移除未使用的版面投影片。 |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 對 [`Presentation`](../../aspose.slides/presentation) 進行壓縮，方法是移除未使用的母版投影片。 |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | 透過移除嵌入字型中未使用的字元，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | 透過移除未使用的版面投影片，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | 透過移除未使用的母片投影片，壓縮 [`Presentation`](../../aspose.slides/presentation)。 |
 
 ### 範例
 

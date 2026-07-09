@@ -1,14 +1,14 @@
 ---
 title: IPoint
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
 description: Reprezentuje punkt animacji.
 type: docs
-weight: 520
+weight: 540
 url: /pl/aspose.slides.animation/ipoint/
 ---
 ## IPoint interfejs
 
-Reprezentuje punkt animacji.
+Represent animation point.
 
 ```csharp
 public interface IPoint
@@ -18,7 +18,7 @@ public interface IPoint
 
 | Nazwa | Opis |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Formuły w wartościach, atrybutach from, to, by mogą być zbudowane z następujących: Standardowe operatory arytmetyczne: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Stałe: ‘pi’ ‘e’ Operatory warunkowe: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operatory porównania: '==', '&gt;=', '', '!=', '!' Operatory trygonometryczne: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logarytm naturalny ‘ln()’ Odniesienia do właściwości (host wspierane właściwości) na przykład: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Odczyt/zapis String. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Formuły w wartościach, atrybutach from, to, by mogą być zbudowane z następujących elementów: Standardowe operatory arytmetyczne: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Stałe: ‘pi’ ‘e’ Operatory warunkowe: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operatory porównania: '==', '&gt;=', '', '!=', '!' Operatory trygonometryczne: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logarytm naturalny ‘ln()’ Odwołania do własności (host supported properties) na przykład: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Odczyt/zapis String. |
 | [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Reprezentuje wartość czasu. Odczyt/zapis Single. |
 | [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Reprezentuje wartość punktu. Tylko: bool, ColorFormat, float, int, string. Odczyt/zapis Object. |
 

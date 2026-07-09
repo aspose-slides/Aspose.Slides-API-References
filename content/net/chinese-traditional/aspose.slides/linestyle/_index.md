@@ -1,6 +1,6 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示線條的樣式。
 type: docs
 weight: 7820
@@ -16,7 +16,7 @@ public enum LineStyle : sbyte
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Single | `0` |  |
@@ -25,7 +25,7 @@ public enum LineStyle : sbyte
 | ThinThick | `3` |  |
 | ThickBetweenThin | `4` |  |
 
-### 另請參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

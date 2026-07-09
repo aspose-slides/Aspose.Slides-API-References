@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Immutable object dat effectieve effectopmaak-eigenschappen bevat.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Onveranderlijk object dat effectieve effectopmaak-eigenschappen bevat.
 type: docs
 weight: 5750
 url: /nl/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData interface
 
-Immutable object dat effectieve effectopmaak-eigenschappen bevat.
+Onveranderlijk object dat effectieve effectopmaak-eigenschappen bevat.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,25 +18,25 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Staat toe de basis-interface IEffectParamSource op te halen. Alleen-lezen [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Vervaag-effect. Alleen-lezen [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Vulling-overlay-effect. Alleen-lezen [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Gloed-effect. Alleen-lezen [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Binnen-schaduw. Alleen-lezen [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Retourneert true als alle effecten zijn uitgeschakeld (zoals net aangemaakt, standaard EffectFormat-object). Alleen-lezen Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Buiten-schaduw. Alleen-lezen [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Vooraf-ingestelde schaduw. Alleen-lezen [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Standaard IEffectParamSource interface ophalen. Alleen-lezen [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Vervagingseffect. Alleen-lezen [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Vulling overlay effect. Alleen-lezen [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Gloed effect. Alleen-lezen [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Binnen schaduw. Alleen-lezen [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Retourneert true als alle effecten zijn uitgeschakeld (zoals net aangemaakt, standaard EffectFormat object). Alleen-lezen Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Buiten schaduw. Alleen-lezen [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Voorinstelling schaduw. Alleen-lezen [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflectie. Alleen-lezen [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Zachte rand. Alleen-lezen [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`IEffectFormat`](../ieffectformat) interface gebruikt om effectieve opmaakwaarden met geërfde instellingen terug te geven.
+Deze interface wordt samen met de [`IEffectFormat`](../ieffectformat) interface gebruikt om effectieve opmaakwaarden met overerving te retourneren.
 
 ### Zie ook
 
 * interface [IEffectParamSource](../ieffectparamsource)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

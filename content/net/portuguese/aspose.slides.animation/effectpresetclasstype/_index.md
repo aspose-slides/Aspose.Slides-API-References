@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa tipos de classe de efeitos.
+description: Representa tipos de classe de efeito.
 type: docs
-weight: 300
+weight: 320
 url: /pt/aspose.slides.animation/effectpresetclasstype/
 ---
-## Enumeração EffectPresetClassType
+## EffectPresetClassType enumeração
 
-Representa tipos de classe de efeitos.
+Representa tipos de classe de efeito.
 
 ```csharp
 public enum EffectPresetClassType
@@ -18,14 +18,14 @@ public enum EffectPresetClassType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Entrance | `0` | Classe de efeitos Entrance. |
-| Exit | `1` | Classe de efeitos Exit. |
-| Emphasis | `2` | Classe de efeitos Emphasis. |
-| Path | `3` | Classe Motion Paths. |
-| MediaCall | `4` | Classe de efeitos MediaCall. |
-| OLEActionVerbs | `5` | Classe OLE Action Verbs. |
+| Entrance | `0` | Classe de efeitos de entrada. |
+| Exit | `1` | Classe de efeitos de saída. |
+| Emphasis | `2` | Classe de efeitos de ênfase. |
+| Path | `3` | Classe de trajetórias de movimento. |
+| MediaCall | `4` | Classe de efeitos de mídia. |
+| OLEActionVerbs | `5` | Classe de verbos de ação OLE. |
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

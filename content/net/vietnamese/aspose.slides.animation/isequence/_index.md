@@ -1,14 +1,14 @@
 ---
 title: ISequence
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn tập hợp chuỗi các hiệu ứng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho tập hợp chuỗi các hiệu ứng.
 type: docs
 weight: 590
 url: /vi/aspose.slides.animation/isequence/
 ---
-## Giao diện ISequence
+## ISequence giao diện
 
-Biểu diễn chuỗi (tập hợp các hiệu ứng).
+Đại diện cho chuỗi (tập hợp các hiệu ứng).
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -16,26 +16,26 @@ public interface ISequence : IEnumerable<IEffect>
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Cho phép lấy giao diện IEnumerable cơ bản. IEnumerable chỉ đọc. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Trả về số lượng hiệu ứng trong một sequense. Int32 chỉ đọc. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | Trả về một hiệu ứng tại chỉ mục đã chỉ định. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Trả về hoặc thiết lập mục tiêu hình dạng cho INTERACTIVE sequence. Nếu sequence không tương tác thì trả về null. Đọc/ghi [`IShape`](../../aspose.slides/ishape). |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Cho phép lấy giao diện IEnumerable cơ bản. Chỉ đọc IEnumerable. |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Trả về số lượng hiệu ứng trong một chuỗi. Chỉ đọc Int32. |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | Trả về một hiệu ứng tại chỉ số đã cho. |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Trả về hoặc đặt mục tiêu hình dạng cho chuỗi INTERACTIVE. Nếu chuỗi không tương tác thì trả về null. Đọc/ghi [`IShape`](../../aspose.slides/ishape). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt ảnh mới cho đoạn văn vào cuối chuỗi. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt hình mới cho đoạn văn vào cuối chuỗi. |
 | [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng mới vào cuối chuỗi. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt ảnh biểu đồ mới cho danh mục hoặc chuỗi vào cuối chuỗi. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt ảnh biểu đồ mới cho các phần tử trong danh mục hoặc chuỗi vào cuối chuỗi. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt hình biểu đồ mới cho danh mục hoặc chuỗi vào cuối chuỗi. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng hoạt hình biểu đồ mới cho các phần tử trong danh mục hoặc chuỗi vào cuối chuỗi. |
 | [Clear](../../aspose.slides.animation/isequence/clear)() | Xóa tất cả các hiệu ứng khỏi một bộ sưu tập. |
 | [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Trả về số lượng hiệu ứng cho hình dạng đã chỉ định. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Trả về mảng các hiệu ứng cho đoạn văn đã chỉ định. |
 | [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Trả về mảng các hiệu ứng cho hình dạng đã chỉ định. |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Xóa hiệu ứng đã chỉ định khỏi một bộ sưu tập. |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Xóa hiệu ứng được chỉ định khỏi một bộ sưu tập. |
 | [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Xóa một hiệu ứng khỏi một bộ sưu tập. |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Xóa hiệu ứng cho hình dạng đã chỉ định. |
 

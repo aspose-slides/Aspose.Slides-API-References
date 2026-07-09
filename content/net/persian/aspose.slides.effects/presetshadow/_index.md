@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش یک افکت سایه پیش‌تنظیم‌شده.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر یک افکت سایه پیش‌تنظیم است.
 type: docs
 weight: 3630
 url: /fa/aspose.slides.effects/presetshadow/
 ---
-## PresetShadow کلاس
+## کلاس PresetShadow
 
-نمایش یک افکت سایه پیش‌تنظیم‌شده.
+نمایانگر یک افکت سایه پیش‌تنظیم شده است.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -18,17 +18,17 @@ public sealed class PresetShadow : IPresetShadow
 
 | نام | توضیح |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | جهت سایه. قابل خواندن/نوشتن Single. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | فاصله سایه. قابل خواندن/نوشتن Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | پیکربندی پیش‌فرض. قابل خواندن/نوشتن [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | رنگ سایه. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | جهت سایه. فقط‌خواندنی/نوشتنی Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | فاصله‌ی سایه. فقط‌خواندنی/نوشتنی Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | پیش‌تنظیم. فقط‌خواندنی/نوشتنی [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | رنگ سایه. فقط‌خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | تعیین می‌کند آیا [`PresetShadow`](../presetshadow) مشخص‌شده برابر با [`PresetShadow`](../presetshadow) فعلی است. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | داده‌های مؤثر افکت سایه پیش‌تنظیم‌شده را با به‌کارگیری وارثت دریافت می‌کند. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | تعیین می‌کند آیا [`PresetShadow`](../presetshadow) مشخص شده برابر با [`PresetShadow`](../presetshadow) فعلی است یا خیر. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | داده‌های مؤثر افکت سایه پیش‌تنظیم شده را با اعمال وراثت دریافت می‌کند. |
 | override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | به‌عنوان یک تابع هش برای یک نوع خاص عمل می‌کند. |
 
 ### موارد مرتبط

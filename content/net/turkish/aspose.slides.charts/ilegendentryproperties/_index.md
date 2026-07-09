@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir çizelgenin lejand özelliklerini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir grafiğin gösterge özelliklerini temsil eder.
 type: docs
-weight: 2130
+weight: 2150
 url: /tr/aspose.slides.charts/ilegendentryproperties/
 ---
-## ILegendEntryProperties arayüz
+## ILegendEntryProperties interface
 
-Bir çizelgenin lejand özelliklerini temsil eder.
+Bir grafiğin gösterge özelliklerini temsil eder.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almaya olanak tanır. Salt Okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Lejant girişinin gizleme bayrağını döndürür veya ayarlar. Okunur/Yazılabilir Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Temel IFormattedTextContainer arayüzünü almaya izin verir. Salt okunur [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Gösterge girişinin gizleme bayrağını döndürür veya ayarlar. Okunur/yazılabilir Boolean. |
 
 ### Ayrıca Bakınız
 

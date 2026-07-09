@@ -19,23 +19,23 @@ public sealed class Background : PVIObject, IBackground
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Trả về một EffectFormat cho việc tô màu BackgroundType.OwnBackground. Chỉ đọc [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Trả về một FillFormat cho việc tô màu BackgroundType.OwnBackground. Chỉ đọc [`IFillFormat`](../ifillformat). |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | Trả về bản trình chiếu cha của một slide. Chỉ đọc [`IPresentation`](../ipresentation). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Trả về một EffectFormat cho việc điền BackgroundType.OwnBackground. Chỉ đọc [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Trả về một FillFormat cho việc điền BackgroundType.OwnBackground. Chỉ đọc [`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | Trả về bản trình bày cha của một slide. Chỉ đọc [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/background/slide) { get; } | Trả về slide cha của một shape. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Trả về một ColorFormat cho việc tô màu BackgroundType.Themed. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Trả về chỉ mục của việc tô màu BackgroundType.Themed trong bộ sưu tập chủ đề nền. 0 có nghĩa là không có màu. 1..999 - chỉ mục. Đọc/ghi UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Trả về kiểu tô màu nền. Đọc/ghi [`BackgroundType`](../backgroundtype). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Trả về một ColorFormat cho việc điền BackgroundType.Themed. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Trả về chỉ mục của BackgroundType.Themed trong bộ sưu tập chủ đề nền. 0 có nghĩa là không có màu. 1..999 - chỉ mục. Đọc/Ghi UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Trả về kiểu nền. Đọc/Ghi [`BackgroundType`](../backgroundtype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
-| [GetEffective](../../aspose.slides/background/geteffective)() | Lấy dữ liệu nền hiệu quả với việc kế thừa đã áp dụng. |
+| [GetEffective](../../aspose.slides/background/geteffective)() | Lấy dữ liệu nền hiệu quả với việc kế thừa đã được áp dụng. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
 
-### Xem thêm
+### Xem Thêm
 
 * lớp [PVIObject](../pviobject)
 * giao diện [IBackground](../ibackground)

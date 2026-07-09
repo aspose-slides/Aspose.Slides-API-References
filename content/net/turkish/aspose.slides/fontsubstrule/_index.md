@@ -1,14 +1,14 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yazı tipi ikame bilgilerini temsil eder
+second_title: Aspose.Sildes için .NET API Referansı
+description: Font ikame bilgilerini temsil eder
 type: docs
-weight: 4870
+weight: 4890
 url: /tr/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule sınıf
 
-Yazı tipi ikame bilgilerini temsil eder
+Font ikame bilgilerini temsil eder
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
@@ -16,18 +16,18 @@ public class FontSubstRule : IFontSubstRule
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | Yeni bir örnek oluşturur. |
 | [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | Yeni bir örnek oluşturur. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | İkame için kullanılacak yazı tipi. Salt okunur [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | İkame için uygulanacak kural. Salt okunur [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | İkame edilecek yazı tipi. Salt okunur [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | İkame için kullanılacak font. Yalnızca okunabilir [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | İkame için uygulanacak kural. Yalnızca okunabilir [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | İkame edilecek font. Yalnızca okunabilir [`IFontData`](../ifontdata). |
 
 ### Ayrıca Bakınız
 

@@ -6,7 +6,7 @@ type: docs
 weight: 8780
 url: /ko/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment 열거형
+## MathHorizontalAlignment enumeration
 
 수평 정렬
 

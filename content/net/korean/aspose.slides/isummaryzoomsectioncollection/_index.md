@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Summary Zoom Section 개체의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Summary Zoom Section 객체의 컬렉션을 나타냅니다.
 type: docs
 weight: 7170
 url: /ko/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection 인터페이스
 
-Summary Zoom Section 개체의 컬렉션을 나타냅니다.
+Summary Zoom Section 객체의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -24,13 +24,13 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 새 Summary Zoom Section 개체를 생성하고 컬렉션에 추가합니다 |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 컬렉션에서 모든 SummaryZoomSection 개체를 제거합니다. |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 주어진 섹션에 대한 Summary Zoom Section 요소를 반환합니다. |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 지정된 SummaryZoomSection 개체의 인덱스를 반환합니다. |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 컬렉션에서 Summary Zoom Section 개체를 제거합니다. |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 새 Summary Zoom Section 객체를 생성하고 컬렉션에 추가합니다. |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 컬렉션에서 모든 SummaryZoomSection 객체를 제거합니다. |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 지정된 섹션에 대한 Summary Zoom Section 요소를 반환합니다. |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 지정된 SummaryZoomSection 객체의 인덱스를 반환합니다. |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 컬렉션에서 Summary Zoom Section 객체를 제거합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ISummaryZoomSection](../isummaryzoomsection)

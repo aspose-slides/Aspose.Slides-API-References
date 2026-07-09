@@ -1,9 +1,9 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti hlavního povrchu tvaru.
+description: Reprezentuje vlastnosti hlavního povrchu tvarů.
 type: docs
-weight: 6940
+weight: 6960
 url: /cs/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel rozhraní
@@ -18,9 +18,9 @@ public interface IShapeBevel
 
 | Název | Popis |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Typ zkosení. Čtení/Zápis [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Výška zkosení. Čtení/Zápis Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Šířka zkosení. Čtení/Zápis Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Typ zkosení. Čtení/zápis [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Výška zkosení. Čtení/zápis Double. |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Šířka zkosení. Čtení/zápis Double. |
 
 ### Viz také
 

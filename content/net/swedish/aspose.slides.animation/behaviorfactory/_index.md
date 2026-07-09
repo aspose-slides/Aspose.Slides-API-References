@@ -1,20 +1,20 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa animationseffekter
+second_title: Aspose.Slides för .NET API-referens
+description: Tillåter att skapa animeringseffekter
 type: docs
-weight: 160
+weight: 180
 url: /sv/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory-klass
 
-Tillåter att skapa animationseffekter
+Tillåter att skapa animeringseffekter
 
 ```csharp
 public class BehaviorFactory : IBehaviorFactory
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -30,7 +30,7 @@ public class BehaviorFactory : IBehaviorFactory
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | Skapar rörelseeffekt. |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | Skapar egenskapseffekt. |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | Skapar roteringseffekt. |
-| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Skapar skalningseffekt. |
+| [CreateScaleEffect](../../aspose.slides.animation/behaviorfactory/createscaleeffect)() | Skapar skaleffekt. |
 | [CreateSetEffect](../../aspose.slides.animation/behaviorfactory/createseteffect)() | Skapar set-effekt. |
 
 ### Anmärkningar

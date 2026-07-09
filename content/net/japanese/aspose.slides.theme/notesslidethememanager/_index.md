@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Sildes for .NET APIリファレンス
-description: ノートスライドテーマの上書きへのアクセスを提供します。
+second_title: Aspose.Slides for .NET APIリファレンス
+description: ノートスライドテーマのオーバーライドへのアクセスを提供します。
 type: docs
-weight: 11430
+weight: 11450
 url: /ja/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager クラス
 
-Provides access to notes slide theme overriden.
+ノートスライドテーマのオーバーライドへのアクセスを提供します。
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -16,17 +16,17 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。上書き用に OverrideTheme を有効にするには OverrideTheme.Init*() メソッドを使用します。上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きテーマ オブジェクトを返します。読み書き [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマをオーバーライドするかどうかを決定します。オーバーライド用に OverrideTheme を有効にするには OverrideTheme.Init*() メソッドを使用します。オーバーライドから OverrideTheme を無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きされたテーマオブジェクトを返します。読み書き可能な [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに余分なカラースキームを適用します。 |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマ オブジェクトを返します。 |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
 ### 参照
 

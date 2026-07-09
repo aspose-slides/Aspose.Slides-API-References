@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent.
 type: docs
-weight: 3100
+weight: 3120
 url: /pl/aspose.slides.effects/ialphamodulatefixed/
 ---
-## IAlphaModulateFixed interfejs
+## IAlphaModulateFixed interface
 
-Reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (nieprzezroczystość) efektu są mnożone przez stały procent.
+Reprezentuje efekt Alpha Modulate Fixed. Wartości alfa (przezroczystość) efektu są mnożone przez stały procent.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | Nazwa | Opis |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Zwraca wartość efektu w procentach. Odczyt/zapis Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Pozwala uzyskać podstawowy interfejs IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Pozwala uzyskać podstawowy interfejs IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Zwraca ilość efektu w procentach. Odczyt/zapis Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Umożliwia uzyskanie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Umożliwia uzyskanie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Zobacz także
 

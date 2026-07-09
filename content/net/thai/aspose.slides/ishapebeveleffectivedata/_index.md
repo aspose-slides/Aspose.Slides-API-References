@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการยกผิวของรูปทรงที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการยกหน้ารูปทรงที่มีประสิทธิภาพ
 type: docs
 weight: 6970
 url: /th/aspose.slides/ishapebeveleffectivedata/
 ---
-## IShapeBevelEffectiveData อินเตอร์เฟส
+## IShapeBevelEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการยกผิวของรูปร่างที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติการยกหน้ารูปทรงที่มีประสิทธิภาพ
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -24,7 +24,7 @@ public interface IShapeBevelEffectiveData
 
 ### หมายเหตุ
 
-อินเตอร์เฟสนี้ใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+อินเทอร์เฟซนี้ถูกใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Fill Overlay 효과를 나타내는 불변 객체입니다. Fill Overlay는 객체에 추가 채우기를 지정하고 두 채우기를 함께 혼합하는 데 사용할 수 있습니다.
+description: 채우기 오버레이 효과를 나타내는 불변 객체입니다. 채우기 오버레이는 객체에 추가 채우기를 지정하고 두 채우기를 함께 혼합하는 데 사용할 수 있습니다.
 type: docs
 weight: 3310
 url: /ko/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData 인터페이스
 
-불변 객체로, Fill Overlay 효과를 나타냅니다. Fill Overlay는 객체에 추가 채우기를 지정하고 두 채우기를 혼합하는 데 사용할 수 있습니다.
+불변 객체이며 Fill Overlay 효과를 나타냅니다. Fill Overlay는 객체에 추가 채우기를 지정하고 두 채우기를 함께 혼합하는 데 사용할 수 있습니다.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -16,13 +16,13 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. 읽기 전용 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | 채우기 형식. 읽기 전용 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill 형식. 읽기 전용 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

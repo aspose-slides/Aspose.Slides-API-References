@@ -1,6 +1,6 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 참조
 description: 라인 캡 스타일을 나타냅니다.
 type: docs
 weight: 7760
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/linecapstyle/
 ---
 ## LineCapStyle 열거형
 
-라인 캡 스타일을 나타냅니다.
+선 캡 스타일을 나타냅니다.
 
 ```csharp
 public enum LineCapStyle : sbyte
@@ -23,7 +23,7 @@ public enum LineCapStyle : sbyte
 | Square | `1` |  |
 | Flat | `2` |  |
 
-### 참조
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

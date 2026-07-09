@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een type van een categorie-as voor.
+description: Stelt een type van een categorieas voor.
 type: docs
 weight: 1250
 url: /nl/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType enumeratie
 
-Stelt een type van een categorie-as voor.
+Stelt een type van een categorieas voor.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Text | `0` | Geeft aan dat de categorie-as een tekst-as is. |
-| Date | `1` | Geeft aan dat de categorie-as een datum-as is. |
+| Text | `0` | Specificeert dat de categorieas een tekstas is. |
+| Date | `1` | Specificeert dat de categorieas een datumas is. |
 
 ### Zie ook
 

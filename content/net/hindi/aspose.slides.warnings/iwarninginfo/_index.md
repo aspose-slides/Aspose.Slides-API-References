@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: सभी चेतावनियों के लिए एक बेस इंटरफ़ेस का प्रतिनिधित्व करता है।
+description: सभी चेतावनियों के लिए एक मूल इंटरफ़ेस का प्रतिनिधित्व करता है।
 type: docs
 weight: 11810
 url: /hi/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo इंटरफ़ेस
 
-यह सभी चेतावनियों के लिए एक बेस इंटरफ़ेस का प्रतिनिधित्व करता है।
+इस चेतावनी के लिए एक आधार इंटरफ़ेस का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IWarningInfo
@@ -16,16 +16,16 @@ public interface IWarningInfo
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | इस चेतावनी का मानव-पठनीय विवरण लौटाता है। केवल पढ़ने योग्य String. |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | एक चेतावनी का प्रकार लौटाता है। केवल पढ़ने योग्य [`WarningType`](./warningtype). |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | इस चेतावनी का मानव पठनीय विवरण वापस करता है। केवल-पढ़ने योग्य String. |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | चेतावनी का प्रकार वापस करता है। केवल-पढ़ने योग्य [`WarningType`](./warningtype). |
 
-## विधियाँ
+## मेथड्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | यदि रिसीवर null नहीं है तो निर्दिष्ट रिसीवर को चेतावनी समाप्त करता है और यदि रिसीवर ऑपरेशन को रोकने का निर्णय लेता है तो AbortRequestedException फेंकता है। |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | यदि receiver null नहीं है तो निर्दिष्ट receiver को चेतावनी समाप्त करता है और यदि receiver ने ऑपरेशन को abort करने का निर्णय लिया तो AbortRequestedException फेंकता है। |
 
 ### संबंधित देखें
 

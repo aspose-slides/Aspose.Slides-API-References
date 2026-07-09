@@ -8,7 +8,7 @@ url: /nl/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory klasse
 
-Staat toe om IMathRightSubSuperscriptElementFactory te maken
+Allows to create IMathRightSubSuperscriptElementFactory
 
 ```csharp
 public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptElementFactory
@@ -26,11 +26,11 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 | --- | --- |
 | [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | Maakt een instantie van IMathRightSubSuperscriptElementFactory |
 
-### Remarks
+### Opmerkingen
 
 Voor COM-compatibiliteit
 
-### See Also
+### Zie ook
 
 * interface [IMathRightSubSuperscriptElementFactory](../imathrightsubsuperscriptelementfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

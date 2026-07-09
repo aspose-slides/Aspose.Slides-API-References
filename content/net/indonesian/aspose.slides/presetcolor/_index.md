@@ -1,12 +1,12 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili preset warna yang telah ditentukan.
 type: docs
-weight: 9640
+weight: 9660
 url: /id/aspose.slides/presetcolor/
 ---
-## PresetColor enumeration
+## PresetColor enumerasi
 
 Mewakili preset warna yang telah ditentukan.
 
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Preset warna tidak terdefinisi. |
+| NotDefined | `-1` | Preset warna tidak ditentukan. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

@@ -1,7 +1,7 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: 애니메이션 포인트의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 애니메이션 포인트 컬렉션을 나타냅니다.
 type: docs
 weight: 730
 url: /ko/aspose.slides.animation/pointcollection/
@@ -18,7 +18,7 @@ public class PointCollection : IPointCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [PointCollection](pointcollection)() | 기본 생성자. |
+| [PointCollection](pointcollection)() | 기본 생성자입니다. |
 
 ## 속성
 
@@ -31,9 +31,9 @@ public class PointCollection : IPointCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
-### 참조
+### 또보기
 
 * 인터페이스 [IPointCollection](../ipointcollection)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

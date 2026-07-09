@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션 읽기 오류가 발생했을 때 발생하는 예외를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션을 읽는 중 오류가 발생했을 때 발생하는 예외를 나타냅니다.
 type: docs
 weight: 9220
 url: /ko/aspose.slides/odpreadexception/
 ---
 ## OdpReadException 클래스
 
-프레젠테이션 읽기 오류가 발생했을 때 발생하는 예외를 나타냅니다.
+프레젠테이션을 읽는 중 오류가 발생했을 때 발생하는 예외를 나타냅니다.
 
 ```csharp
 public class OdpReadException : OdpException
@@ -19,8 +19,8 @@ public class OdpReadException : OdpException
 | 이름 | 설명 |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | 기본 생성자 |
-| [OdpReadException](odpreadexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자 |
-| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 메시지와 내장된 예외를 포함하는 예외에 대한 생성자 |
+| [OdpReadException](odpreadexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [OdpReadException](odpreadexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외용 생성자. |
 
 ### 참조
 

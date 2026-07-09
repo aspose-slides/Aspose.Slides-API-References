@@ -1,14 +1,14 @@
 ---
 title: PatternStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de patroonstijl voor.
+description: Geeft de patroonstijl weer.
 type: docs
 weight: 9360
 url: /nl/aspose.slides/patternstyle/
 ---
 ## PatternStyle enumeratie
 
-Stelt de patroonstijl voor.
+Geeft de patroonstijl weer.
 
 ```csharp
 public enum PatternStyle : sbyte

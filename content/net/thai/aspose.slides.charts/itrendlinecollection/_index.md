@@ -1,14 +1,14 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของคอลเลกชันของ TrendlineEx
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของ TrendlineEx
 type: docs
 weight: 2250
 url: /th/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection อินเทอร์เฟซ
 
-Represents a collection of TrendlineEx
+แสดงถึงคอลเลกชันของ TrendlineEx
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
@@ -16,18 +16,18 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Allows to get base IEnumerable interface. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Gets the number of elements actually contained in the collection. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Gets the element at the specified index. อ่านอย่างเดียว [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEnumerable พื้นฐานได้. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ แล้วอยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ITrendline`](../itrendline). |
 
 ## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Adds the new Trendline at the end of a collection and return it. เพิ่ม Trendline ใหม่ที่ส่วนท้ายของคอลเลกชันและส่งกลับมัน. |
-| [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Removes the specified value. ลบค่าที่ระบุ. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | เพิ่ม Trendline ใหม่ที่ส่วนท้ายของคอลเลกชันและส่งกลับมัน. |
+| [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | ลบค่าที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

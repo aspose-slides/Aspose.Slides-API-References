@@ -1,7 +1,7 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes for .NET API 참조
-description: VBA 프로젝트 모듈의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: VBA 프로젝트 모듈 컬렉션을 나타냅니다.
 type: docs
 weight: 11640
 url: /ko/aspose.slides.vba/vbamodulecollection/
@@ -18,7 +18,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
@@ -27,7 +27,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | 새 빈 모듈을 VBA 프로젝트에 추가합니다. |
+| [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | VBA 프로젝트에 새 빈 모듈을 추가합니다. |
 | [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
 | [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다. |

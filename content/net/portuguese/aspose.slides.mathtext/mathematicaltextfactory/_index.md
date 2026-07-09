@@ -3,7 +3,7 @@ title: MathematicalTextFactory
 second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar um elemento MathematicalText
 type: docs
-weight: 9050
+weight: 9070
 url: /pt/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory classe
@@ -24,16 +24,16 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Nome | Descrição |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Cria um elemento de texto matemático vazio |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Cria um elemento de texto matemático com o valor especificado |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Cria um elemento de texto matemático vazio com o valor especificado |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Cria um elemento de texto matemático vazio com o valor especificado e propriedades de formatação |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Criar elemento de texto matemático vazio |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Criar elemento de texto matemático com o valor especificado |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Criar elemento de texto matemático vazio com o valor especificado |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Criar elemento de texto matemático vazio com o valor especificado e propriedades de formatação |
 
 ### Observações
 
 Para compatibilidade COM
 
-### Ver também
+### Veja também
 
 * interface [IMathematicalTextFactory](../imathematicaltextfactory)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

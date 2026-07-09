@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Modulate etkisini temsil eder. Etkinin alfa opaklık değerleri sabit bir yüzde ile çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etkiyi belirtir.
+second_title: Aspose.Slides için .NET API Referansı
+description: Alpha Modulate etkisini temsil eder. Etkinin alfa opaklık değerleri sabit bir yüzde ile çarpılır. Etki konteyneri, modüle edilecek alfa değerlerini içeren bir etki belirtir.
 type: docs
-weight: 3080
+weight: 3100
 url: /tr/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate arayüz
 
-Alpha Modulate etkisini temsil eder. Etkinin alfa (opaklık) değerleri sabit bir yüzde ile çarpılır. Etki kapsayıcısı, modüle edilecek alfa değerlerini içeren bir etkiyi belirtir.
+Alpha Modulate etkisini temsil eder. Etkinin alfa (opaklık) değerleri sabit bir yüzde ile çarpılır. Etki konteyneri, modüle edilecek alfa değerlerini içeren bir etki belirler.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimini almayı sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimini almayı sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaModulateEffectiveData](../ialphamodulateeffectivedata)

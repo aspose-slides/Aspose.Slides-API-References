@@ -1,12 +1,12 @@
 ---
 title: PlaceholderSize
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili ukuran placeholder.
 type: docs
-weight: 9420
+weight: 9440
 url: /id/aspose.slides/placeholdersize/
 ---
-## PlaceholderSize enumeration
+## PlaceholderSize enumerasi
 
 Mewakili ukuran placeholder.
 

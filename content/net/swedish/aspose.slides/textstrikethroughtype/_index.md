@@ -3,10 +3,10 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar typen av genomstruken text.
 type: docs
-weight: 10970
+weight: 10990
 url: /sv/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType uppräkning
+## TextStrikethroughType enumeration
 
 Representerar typen av genomstruken text.
 
@@ -23,7 +23,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

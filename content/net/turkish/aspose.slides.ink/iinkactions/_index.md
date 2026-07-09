@@ -1,14 +1,14 @@
 ---
 title: IInkActions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir slayttaki mürekkep nesnesini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir slaytta mürekkep nesnesini temsil eder.
 type: docs
-weight: 7500
+weight: 7520
 url: /tr/aspose.slides.ink/iinkactions/
 ---
 ## IInkActions arayüz
 
-Bir slayttaki mürekkep nesnesini temsil eder.
+Bir slaytta mürekkep nesnesini temsil eder.
 
 ```csharp
 public interface IInkActions : IGraphicalObject
@@ -18,9 +18,9 @@ public interface IInkActions : IGraphicalObject
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Temel IGraphicalObject arabirimini almayı sağlar. Salt okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * ad alanı [Aspose.Slides.Ink](../../aspose.slides.ink)

@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
 second_title: Aspose.Sildes for .NET API 참조
-description: 형태 스타일 참조를 나타냅니다.
+description: 도형 스타일 참조를 나타냅니다.
 type: docs
 weight: 7010
 url: /ko/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle 인터페이스
 
-형태의 스타일 참조를 나타냅니다.
+도형 스타일 참조를 나타냅니다.
 
 ```csharp
 public interface IShapeStyle
@@ -18,16 +18,16 @@ public interface IShapeStyle
 
 | 이름 | 설명 |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | 형태의 효과 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | 스타일 매트릭스에서 형태의 효과 열 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | 형태의 채우기 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | 스타일 매트릭스에서 형태의 채우기 열 인덱스를 반환하거나 설정합니다. 0은 채우기 없음, 양수 값은 테마의 채우기 스타일 인덱스, 음수 값은 테마의 배경 스타일 인덱스입니다. 읽기/쓰기 Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | 글꼴 컬렉션에서 형태의 글꼴 인덱스를 반환하거나 설정합니다. 읽기/쓰기 [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | 형태의 글꼴 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | 형태의 윤곽선 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | 스타일 매트릭스에서 선의 열 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt16. |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | 도형의 효과 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | 도형의 스타일 매트릭스에서 효과 열 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | 도형의 채우기 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | 도형의 스타일 매트릭스에서 채우기 열 인덱스를 반환하거나 설정합니다. 0은 채우기 없음, 양수 값은 테마의 채우기 스타일 인덱스, 음수 값은 테마의 배경 스타일 인덱스를 의미합니다. 읽기/쓰기 Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | 도형의 글꼴 컬렉션에서 글꼴 인덱스를 반환하거나 설정합니다. 읽기/쓰기 [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | 도형의 글꼴 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | 도형의 윤곽선 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | 라인의 스타일 매트릭스에서 열 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt16. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito Alpha Modulate. Os valores de opacidade alpha do efeito são multiplicados por uma porcentagem fixa. O contêiner de efeito especifica um efeito que contém valores alpha para modular.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um efeito Alpha Modulate. Os valores de alfa (opacidade) do efeito são multiplicados por uma porcentagem fixa. O contêiner de efeito especifica um efeito que contém valores alfa para modular.
 type: docs
-weight: 3080
+weight: 3100
 url: /pt/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interface
 
-Representa um efeito Alpha Modulate. Os valores alpha (opacidade) do efeito são multiplicados por uma porcentagem fixa. O contêiner de efeito especifica um efeito que contém valores alpha para modular.
+Representa um efeito Alpha Modulate. Os valores alfa (opacidade) do efeito são multiplicados por uma porcentagem fixa. O contêiner de efeito especifica um efeito que contém valores alfa para modular.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -17,7 +17,7 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |

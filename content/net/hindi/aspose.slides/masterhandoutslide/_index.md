@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
 second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: हैंडआउट के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
+description: हैंडआउट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
 type: docs
 weight: 7980
 url: /hi/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide क्लास
 
-हैंडआउट के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
+हैंडआउट्स के लिए मास्टर स्लाइड का प्रतिनिधित्व करता है।
 
 ```csharp
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
@@ -18,32 +18,32 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 
 | नाम | विवरण |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। केवल-पढ़ने योग्य [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | स्लाइड का कस्टम डेटा लौटाता है। केवल-पढ़ने योग्य [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | मास्टर हैंडआउट स्लाइड के लिए ड्राइंग गाइड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | मास्टर हैंडआउट स्लाइड के HeaderFooter प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक तक आसान पहुँच प्रदान करता है। केवल-पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | स्लाइड का नाम लौटाता है या सेट करता है। पढ़ें/लिखें String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | स्लाइड की आकृतियों को लौटाता है। केवल-पढ़ने योग्य [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | निर्दिष्ट करता है कि मास्टर स्लाइड पर आकृतियों को स्लाइड पर दिखाया जाना चाहिए या नहीं। मास्टर स्लाइड के लिए यह गुण हमेशा `false` लौटाता है। पढ़ें/लिखें Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | स्लाइड का ID लौटाता है। केवल-पढ़ने योग्य UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | वह Transition ऑब्जेक्ट लौटाता है जिसमें यह जानकारी होती है कि निर्दिष्ट स्लाइड स्लाइड शो के दौरान कैसे आगे बढ़ती है। केवल-पढ़ने योग्य [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | थीम प्रबंधक को लौटाता है। केवल-पढ़ने योग्य [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | एनिमेशन टाइमलाइन ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। केवल-पठन [`IBackground`](../ibackground)। |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों का संग्रह लौटाता है। केवल-पठन [`IControlCollection`](../icontrolcollection)। |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | स्लाइड का अनुकूलित डेटा लौटाता है। केवल-पठन [`ICustomData`](../icustomdata)। |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | मास्टर हैंडआउट स्लाइड के लिए ड्राइंग गाइड्स का संग्रह लौटाता है। केवल-पठन [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | मास्टर हैंडआउट स्लाइड का HeaderFooter प्रबंधक लौटाता है। केवल-पठन [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)। |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक्स तक आसान पहुँच प्रदान करता है। केवल-पठन [`IHyperlinkQueries`](../ihyperlinkqueries)। |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | स्लाइड का नाम लौटाता है या सेट करता है। पढ़ना/लिखना स्ट्रिंग। |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation इंटरफ़ेस लौटाता है। केवल-पठन [`IPresentation`](../ipresentation)। |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | स्लाइड के आकार लौटाता है। केवल-पठन [`IShapeCollection`](../ishapecollection)। |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | निर्दिष्ट करता है कि क्या मास्टर स्लाइड पर आकार स्लाइडों पर दिखाए जाएँगे या नहीं। मास्टर स्लाइड के लिए यह गुण हमेशा `false` लौटाता है। पढ़ना/लिखना बूलियन। |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | स्लाइड का ID लौटाता है। केवल-पठन UInt32। |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Transition ऑब्जेक्ट लौटाता है जिसमें निर्दिष्ट स्लाइड शॉ के दौरान कैसे आगे बढ़ती है, की जानकारी होती है। केवल-पठन [`ISlideShowTransition`](../islideshowtransition)। |
+| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | थीम प्रबंधक लौटाता है। केवल-पठन [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)। |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | एनीमेशन टाइमलाइन ऑब्जेक्ट लौटाता है। केवल-पठन [`IAnimationTimeLine`](../ianimationtimeline)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | इस स्लाइड के लिए प्रभावी थीम लौटाता है। |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | निर्धारित करता है कि दो IBaseSlide उदाहरण समान हैं या नहीं। लौटाने वाला मान स्लाइड की संरचना और स्थायी सामग्री के आधार पर गणना किया जाता है। दो स्लाइड समान तब मानी जाती हैं जब सभी आकृतियाँ, शैलियाँ, टेक्स्ट, एनीमेशन और अन्य सेटिंग्स आदि समान हों। तुलना में अनन्य पहचानकर्ताओं जैसे SlideId और गतिशील सामग्री जैसे Date Placeholder के वर्तमान मान को ध्यान में नहीं रखा जाता। |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक टेक्स्ट वाली आकृति की पहली घटना खोजता है। |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | सभी उपयुक्त आकृतियों में सभी पैराग्राफ़ों में समान स्वरूप वाले रन को जोड़ता है। |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | सभी उपयुक्त आकृतियों में सभी पैराग्राफ़ों में समान स्वरूप वाले रन को जोड़ता है। |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | इस स्लाइड के लिए एक प्रभावी थीम लौटाता है। |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | दो IBaseSlide इंस्टेंस बराबर हैं या नहीं निर्धारित करता है। लौटाया गया मान स्लाइड की संरचना और स्थिर सामग्री के आधार पर गणना किया जाता है। दो स्लाइड तब बराबर मानी जाती हैं जब सभी आकार, शैलियाँ, पाठ, एनीमेशन और अन्य सेटिंग्स आदि बराबर हों। तुलना में अद्वितीय पहचानकर्ता मूल्यों को नहीं लिया जाता, जैसे SlideId और गतिशील सामग्री, जैसे तिथि प्लेसहोल्डर में वर्तमान तिथि मान। |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक पाठ वाले आकार की पहली घटना खोजता है। |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | सभी स्वीकार्य आकारों के सभी अनुच्छेदों में समान स्वरूपण वाले रन को जोड़ता है। |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | सभी स्वीकार्य आकारों के सभी अनुच्छेदों में समान स्वरूपण वाले रन को जोड़ता है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [BaseSlide](../baseslide)
 * इंटरफ़ेस [IMasterHandoutSlide](../imasterhandoutslide)

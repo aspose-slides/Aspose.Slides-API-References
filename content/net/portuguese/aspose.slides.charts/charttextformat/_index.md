@@ -3,7 +3,7 @@ title: ChartTextFormat
 second_title: Referência da API Aspose.Sildes para .NET
 description: Especifica a formatação de texto padrão para elementos de texto de gráfico.
 type: docs
-weight: 1460
+weight: 1480
 url: /pt/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat classe
@@ -26,10 +26,10 @@ public class ChartTextFormat : IChartTextFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Copia a formatação de texto da moldura de texto especificada. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Copia a formatação de texto para a moldura de texto especificada. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Copia o formato de texto do quadro de texto especificado. |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Copia o formato de texto para o quadro de texto especificado. |
 
-### Veja Também
+### Veja também
 
 * interface [IChartTextFormat](../icharttextformat)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

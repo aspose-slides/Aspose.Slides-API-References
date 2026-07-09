@@ -1,14 +1,14 @@
 ---
 title: GlitterTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 글리터 슬라이드 전환 효과.
+second_title: Aspose.Sildes .NET API 참조
+description: Glitter 슬라이드 전환 효과.
 type: docs
 weight: 10050
 url: /ko/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition 클래스
 
-글리터 슬라이드 전환 효과.
+Glitter 슬라이드 전환 효과.
 
 ```csharp
 public class GlitterTransition : TransitionValueBase, IGlitterTransition
@@ -19,13 +19,13 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 | 이름 | 설명 |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 전환 중에 사용되는 시각 효과의 모양을 지정합니다. 읽기/쓰기 [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | 전환 중에 사용되는 시각 요소의 형태를 지정합니다. 읽기/쓰기 [`TransitionPattern`](../transitionpattern). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 결정합니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 확인합니다. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 
 ### 참조

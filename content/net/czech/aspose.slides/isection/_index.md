@@ -1,14 +1,14 @@
 ---
 title: ISection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje sekci snímků.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Představuje sekci snímků.
 type: docs
-weight: 6870
+weight: 6890
 url: /cs/aspose.slides/isection/
 ---
-## Rozhraní ISection
+## ISection rozhraní
 
-Zastupuje sekci snímků.
+Představuje sekci snímků.
 
 ```csharp
 public interface ISection

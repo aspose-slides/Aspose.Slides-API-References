@@ -1,13 +1,12 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示一个覆盖主题。
 type: docs
-weight: 11150
+weight: 11460
 url: /zh/aspose.slides.theme/overridetheme/
 ---
-
-## OverrideTheme class
+## OverrideTheme 类
 
 表示一个覆盖主题。
 
@@ -17,35 +16,35 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 ## 属性
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 返回颜色方案。只读 [`IColorScheme`](../icolorscheme)。 |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | 返回字体方案。只读 [`IFontScheme`](../ifontscheme)。 |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | 返回形状格式方案。只读 [`IFormatScheme`](../iformatscheme)。 |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True值意味着ColorScheme、FontScheme、FormatScheme为null，且不允许使用该主题对象进行任何覆盖。只读布尔值。 |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。只读 [`IPresentation`](../../aspose.slides/ipresentation)。 |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | 返回颜色方案。只读 [`IColorScheme`](../icolorscheme)。 |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | 返回字体方案。只读 [`IFontScheme`](../ifontscheme)。 |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | 返回形状格式方案。只读 [`IFormatScheme`](../iformatscheme)。 |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True 值表示 ColorScheme、FontScheme、FormatScheme 为 null，且任何使用此主题对象的覆盖都已禁用。只读 Boolean。 |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 返回父演示文稿。只读 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## 方法
 
-| 名称 | 描述 |
+| 名称 | 说明 |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | 将ColorScheme、FontScheme、FormatScheme设置为null，以禁用使用该主题对象进行的任何覆盖。 |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 获取应用继承的有效主题数据。 |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | 用新对象初始化ColorScheme，以覆盖InheritedTheme的ColorScheme。 |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | 用新对象初始化ColorScheme，以覆盖InheritedTheme的ColorScheme。 |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | 用新对象初始化ColorScheme，以覆盖InheritedTheme的ColorScheme，并用InheritedTheme的ColorScheme的数据初始化该新对象的数据。 |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | 用新对象初始化FontScheme，以覆盖InheritedTheme的FontScheme。 |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | 用新对象初始化FontScheme，以覆盖InheritedTheme的FontScheme。 |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | 用新对象初始化FontScheme，以覆盖InheritedTheme的FontScheme，并用InheritedTheme的FontScheme的数据初始化该新对象的数据。 |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | 用新对象初始化FormatScheme，以覆盖InheritedTheme的FormatScheme。 |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | 用新对象初始化FormatScheme，以覆盖InheritedTheme的FormatScheme。 |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | 用新对象初始化FormatScheme，以覆盖InheritedTheme的FormatScheme，并用InheritedTheme的FormatScheme的数据初始化该新对象的数据。 |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | 将 ColorScheme、FontScheme、FormatScheme 设置为 null，以禁用对该主题对象的任何覆盖。 |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 获取应用继承后的有效主题数据。 |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | 使用新对象初始化 ColorScheme，以覆盖 InheritedTheme 的 ColorScheme。 |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | 使用新对象初始化 ColorScheme，以覆盖 InheritedTheme 的 ColorScheme。 |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | 使用新对象初始化 ColorScheme，以覆盖 InheritedTheme 的 ColorScheme。并使用 InheritedTheme 的 ColorScheme 数据来初始化此新对象的数据。 |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | 使用新对象初始化 FontScheme，以覆盖 InheritedTheme 的 FontScheme。 |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | 使用新对象初始化 FontScheme，以覆盖 InheritedTheme 的 FontScheme。 |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | 使用新对象初始化 FontScheme，以覆盖 InheritedTheme 的 FontScheme。并使用 InheritedTheme 的 FontScheme 数据来初始化此新对象的数据。 |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | 使用新对象初始化 FormatScheme，以覆盖 InheritedTheme 的 FormatScheme。 |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | 使用新对象初始化 FormatScheme，以覆盖 InheritedTheme 的 FormatScheme。 |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | 使用新对象初始化 FormatScheme，以覆盖 InheritedTheme 的 FormatScheme。并使用 InheritedTheme 的 FormatScheme 数据来初始化此新对象的数据。 |
 
 ### 另见
 
-* class [Theme](../theme)
-* interface [IOverrideTheme](../ioverridetheme)
-* namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
-* assembly [Aspose.Slides](../../)
+* 类 [Theme](../theme)
+* 接口 [IOverrideTheme](../ioverridetheme)
+* 命名空间 [Aspose.Slides.Theme](../../aspose.slides.theme)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

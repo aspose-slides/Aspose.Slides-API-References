@@ -1,33 +1,33 @@
 ---
 title: Glow
 second_title: Aspose.Sildes for .NET API 참조
-description: 객체의 가장자리를 넘어 색상이 흐려진 윤곽선이 추가되는 Glow 효과를 나타냅니다.
+description: 객체의 가장자리를 둘러싸는 색이 흐릿한 외곽선이 추가되는 Glow 효과를 나타냅니다.
 type: docs
 weight: 2990
 url: /ko/aspose.slides.effects/glow/
 ---
 ## Glow 클래스
 
-Glow 효과를 나타내며, 객체의 가장자리를 넘어 색상이 흐려진 윤곽선이 추가됩니다.
+오브젝트의 가장자리를 둘러싸는 색이 흐릿한 외곽선이 추가되는 Glow 효과를 나타냅니다.
 
 ```csharp
 public sealed class Glow : IGlow
 ```
 
-## Properties
+## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | 색상 형식. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | 컬러 형식. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | 반경. 읽기/쓰기 Double. |
 
-## Methods
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 지정된 [`Glow`](../glow)가 현재 [`Glow`](../glow)와 같은지 확인합니다. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | 지정된 [`Glow`](../glow)이 현재 [`Glow`](../glow)와 같은지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/glow/geteffective)() | 상속이 적용된 효과적인 Glow 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | 특정 형식에 대한 해시 함수를 제공합니다. |
 
 ### 참조
 

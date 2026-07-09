@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک الگوی هندسی را مشخص می‌کند که به‌صورت کاشی کنار هم قرار می‌گیرد تا منطقه وسیع‌تری را پر کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک الگوی هندسی را مشخص می‌کند که با هم کاشی می‌شوند تا ناحیه بزرگ‌تری را پر کنند.
 type: docs
 weight: 10400
 url: /fa/aspose.slides.slideshow/transitionpattern/
 ---
-## TransitionPattern شمارنده
+## TransitionPattern شمارش
 
-یک الگوی هندسی را مشخص می‌کند که به‌صورت کاشی کنار هم قرار می‌گیرد تا منطقه وسیع‌تری را پر کند.
+یک الگوی هندسی را مشخص می‌کند که با هم کاشی می‌شوند تا ناحیه بزرگ‌تری را پر کنند.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Diamond | `0` | الگوی کاشی الماس |
-| Hexagon | `1` | الگوی کاشی شش‌ضلعی |
+| Diamond | `0` | الگو کاشی الماس |
+| Hexagon | `1` | الگو کاشی شش‌ضلعی |
 
 ### موارد مرتبط
 

@@ -3,7 +3,7 @@ title: IBehaviorProperty
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa tipos de propriedade para comportamento de animação. Segue a lista de propriedades de https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx e https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
-weight: 420
+weight: 440
 url: /pt/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty interface
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | Nome | Descrição |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Mostra se esta propriedade não pertence à lista de propriedades predefinidas na especificação: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Indica se esta propriedade não pertence à lista de propriedades pré-definidas na especificação: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Valor da propriedade |
 
 ### Ver também

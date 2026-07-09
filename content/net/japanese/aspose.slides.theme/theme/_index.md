@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーマを表します。
 type: docs
-weight: 11460
+weight: 11480
 url: /ja/aspose.slides.theme/theme/
 ---
 ## Theme クラス
@@ -20,7 +20,7 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | カラースキームを返します。読み取り専用 [`IColorScheme`](../icolorscheme)。 |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | フォントスキームを返します。読み取り専用 [`IFontScheme`](../ifontscheme)。 |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | シェイプ フォーマット スキームを返します。読み取り専用 [`IFormatScheme`](../iformatscheme)。 |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | シェイプフォーマットスキームを返します。読み取り専用 [`IFormatScheme`](../iformatscheme)。 |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## メソッド

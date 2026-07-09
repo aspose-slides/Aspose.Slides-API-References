@@ -1,14 +1,14 @@
 ---
 title: IMathematicalText
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式テキスト
+description: 数学テキスト
 type: docs
-weight: 8490
+weight: 8510
 url: /ja/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText インターフェイス
 
-数式テキスト
+数学テキスト
 
 ```csharp
 public interface IMathematicalText : IMathElement
@@ -18,7 +18,7 @@ public interface IMathematicalText : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | テキスト書式設定プロパティ |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | テキスト値 |
 
@@ -31,7 +31,7 @@ public interface IMathematicalText : IMathElement
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,7 +1,7 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes .NET API 參考
-description: 表示表格中的欄。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示表格中的欄位。
 type: docs
 weight: 5520
 url: /zh-hant/aspose.slides/icolumn/
@@ -21,9 +21,9 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | 允許取得基礎 IBulkTextFormattable 介面。唯讀 [`IBulkTextFormattable`](../ibulktextformattable)。 |
 | [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | 允許取得基礎 ICellCollection 介面。唯讀 [`ICellCollection`](../icellcollection)。 |
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | 傳回包含此欄格式屬性的 ColumnFormat 物件。唯讀 [`IColumnFormat`](../icolumnformat)。 |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | 傳回或設定欄的寬度。讀寫 Double。 |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | 傳回或設定欄的寬度。可讀寫 Double。 |
 
-### 另請參閱
+### 參閱
 
 * 介面 [IBulkTextFormattable](../ibulktextformattable)
 * 介面 [ICellCollection](../icellcollection)

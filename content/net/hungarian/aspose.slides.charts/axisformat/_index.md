@@ -1,14 +1,14 @@
 ---
 title: AxisFormat
-second_title: Aspose.Sildes a .NET API hivatkozása
-description: Ábrázolja a diagram formátum tulajdonságait.
+second_title: Aspose.Sildes .NET API Referencia
+description: Képviseli a diagram formátum tulajdonságait.
 type: docs
-weight: 1180
+weight: 1200
 url: /hu/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat osztály
 
-Ábrázolja a diagram formátum tulajdonságait.
+Képviseli a diagram formátum tulajdonságait.
 
 ```csharp
 public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
@@ -18,11 +18,11 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | Név | Leírás |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Visszaadja a tengelyhez használt effektusokat. Csak olvasható [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Visszaadja a tengely kitöltési stílus tulajdonságait. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Visszaadja a tengely vonalstil tulajdonságait. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | Visszaadja a tengelyhez használt effektusokat. Írásvédett [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | Visszaadja a tengely kitöltési stílus tulajdonságait. Írásvédett [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | Visszaadja a tengely vonalstílus tulajdonságait. Írásvédett [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### További hivatkozások
+### Lásd még
 
 * osztály [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * osztály [Axis](../axis)

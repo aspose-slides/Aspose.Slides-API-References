@@ -1,9 +1,9 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıklaştırılırken dolgu etkilenmez.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yumuşak kenar etkisini temsil eder. Şeklin kenarları bulanıktır, ancak dolgu etkilenmez.
 type: docs
-weight: 3630
+weight: 3650
 url: /tr/aspose.slides.effects/softedge/
 ---
 ## SoftEdge sınıfı
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Ad | Açıklama |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Kenarlar için uygulanacak bulanıklık yarıçapını belirtir. Okuma/Yazma Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Kenarlara uygulanacak bulanıklık yarıçapını belirtir. Okunur/Yazılır Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Belirtilen [`SoftEdge`](../softedge)'nin mevcut [`SoftEdge`](../softedge) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Uygulanan kalıtımla birlikte etkili Soft Edge etkisi verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Belirli bir tür için bir karma işlevi olarak hizmet eder. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Belirtilen [`SoftEdge`](../softedge)'nin geçerli [`SoftEdge`](../softedge) ile eşit olup olmadığını belirler. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Kalıtım uygulanmış etkili Soft Edge efekti verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder. |
 
 ### Ayrıca Bakınız
 

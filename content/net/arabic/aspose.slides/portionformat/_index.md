@@ -1,6 +1,6 @@
 ---
 title: PortionFormat
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: هذه الفئة تحتوي على خصائص تنسيق جزء النص. على عكس IPortionFormatEffectiveData./iportionformateffectivedata جميع خصائص هذه الفئة قابلة للكتابة.
 type: docs
 weight: 9490
@@ -18,63 +18,63 @@ public sealed class PortionFormat : BasePortionFormat, IPortionFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [PortionFormat](portionformat)() | يهيئ مثيلاً جديداً من فئة [`PortionFormat`](../portionformat). |
+| [PortionFormat](portionformat)() | يهيئ نسخة جديدة من الفئة [`PortionFormat`](../portionformat). |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/baseportionformat/alternativelanguageid) { get; set; } | إرجاع أو ضبط معرف لغة بديلة. قابل للقراءة/الكتابة String. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [BookmarkId](../../aspose.slides/portionformat/bookmarkid) { get; set; } | إرجاع أو ضبط معرف الإشارة المرجعية. قابل للقراءة/الكتابة String. |
-| [ComplexScriptFont](../../aspose.slides/baseportionformat/complexscriptfont) { get; set; } | إرجاع أو ضبط معلومات خط النص المعقد. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب الرئيسي. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/baseportionformat/eastasianfont) { get; set; } | إرجاع أو ضبط معلومات خط شرق آسيا. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب الرئيسي. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
-| [EffectFormat](../../aspose.slides/baseportionformat/effectformat) { get; } | إرجاع خصائص EffectFormat للنص. لا يتم تطبيق الوراثة. للقراءة فقط [`IEffectFormat`](../ieffectformat). |
-| [Escapement](../../aspose.slides/baseportionformat/escapement) { get; set; } | إرجاع أو ضبط النص كحرف مرتفع أو منخفض. القيمة من -100% (منخفض) إلى 100% (مرتفع). **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب الرئيسي. قابل للقراءة/الكتابة Single. |
-| [FillFormat](../../aspose.slides/baseportionformat/fillformat) { get; } | إرجاع خصائص FillFormat للنص. لا يتم تطبيق الوراثة. للقراءة فقط [`IFillFormat`](../ifillformat). |
-| [FontBold](../../aspose.slides/baseportionformat/fontbold) { get; set; } | يحدد ما إذا كان الخط عريضاً. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [FontHeight](../../aspose.slides/baseportionformat/fontheight) { get; set; } | إرجاع أو ضبط ارتفاع خط الجزء. **float.NaN** يعني أن الارتفاع غير معرف ويجب وراثته من القالب الرئيسي. قابل للقراءة/الكتابة Single. |
-| [FontItalic](../../aspose.slides/baseportionformat/fontitalic) { get; set; } | يحدد ما إذا كان الخط مائلًا. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [FontUnderline](../../aspose.slides/baseportionformat/fontunderline) { get; set; } | إرجاع أو ضبط نوع التسطير النصي. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`TextUnderlineType`](../textunderlinetype). |
-| [HighlightColor](../../aspose.slides/baseportionformat/highlightcolor) { get; } | إرجاع اللون المستخدم لتسليط الضوء على النص. لا يتم تطبيق الوراثة. للقراءة فقط [`IColorFormat`](../icolorformat). |
-| [HyperlinkClick](../../aspose.slides/portionformat/hyperlinkclick) { get; set; } | إرجاع أو ضبط الارتباط التشعبي المحدد للنقر بالفأرة. قابل للقراءة/الكتابة [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/portionformat/hyperlinkmanager) { get; } | مدير الارتباطات التشعبية. للقراءة فقط [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/portionformat/hyperlinkmouseover) { get; set; } | إرجاع أو ضبط الارتباط التشعبي المحدد عند مرور الفأرة. قابل للقراءة/الكتابة [`IHyperlink`](../ihyperlink). |
-| [IsHardUnderlineFill](../../aspose.slides/baseportionformat/ishardunderlinefill) { get; set; } | يحدد ما إذا كان نمط التسطير يملك خصائص FillFormat خاصة به أو يرثها من خصائص FillFormat للنص. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [IsHardUnderlineLine](../../aspose.slides/baseportionformat/ishardunderlineline) { get; set; } | يحدد ما إذا كان نمط التسطير يملك خصائص LineFormat خاصة به أو يرثها من خصائص LineFormat للنص. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [KerningMinimalSize](../../aspose.slides/baseportionformat/kerningminimalsize) { get; set; } | إرجاع أو ضبط الحد الأدنى لحجم الخط الذي يتم فيه تفعيل Kerning. **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب الرئيسي. قابل للقراءة/الكتابة Single. |
-| [Kumimoji](../../aspose.slides/baseportionformat/kumimoji) { get; set; } | يحدد ما إذا كان يجب تجاهل الأرقام لتخطيط النص العمودي الخاص باللغة الشرقية. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [LanguageId](../../aspose.slides/baseportionformat/languageid) { get; set; } | إرجاع أو ضبط معرف لغة التدقيق. يستخدم لفحص الإملاء والقواعد. قابل للقراءة/الكتابة String. |
-| [LatinFont](../../aspose.slides/baseportionformat/latinfont) { get; set; } | إرجاع أو ضبط معلومات الخط اللاتيني. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب الرئيسي. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
-| [LineFormat](../../aspose.slides/baseportionformat/lineformat) { get; } | إرجاع خصائص LineFormat لتحديد حدود النص. لا يتم تطبيق الوراثة. للقراءة فقط [`ILineFormat`](../ilineformat). |
-| [NormaliseHeight](../../aspose.slides/baseportionformat/normaliseheight) { get; set; } | يحدد ما إذا كان يجب تطبيع ارتفاع النص. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [ProofDisabled](../../aspose.slides/baseportionformat/proofdisabled) { get; set; } | يحدد ما إذا كان يجب عدم تدقيق النص. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [SmartTagClean](../../aspose.slides/portionformat/smarttagclean) { get; set; } | يحدد ما إذا يجب تنظيف العلامة الذكية. لا يتم تطبيق الوراثة. Boolean. |
-| [Spacing](../../aspose.slides/baseportionformat/spacing) { get; set; } | إرجاع أو ضبط الزيادة في تباعد الأحرف. **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب الرئيسي. قابل للقراءة/الكتابة Single. |
-| [SpellCheck](../../aspose.slides/baseportionformat/spellcheck) { get; set; } | الحصول أو ضبط قيمة تشير إلى ما إذا كان تدقيق الإملاء مفعلاً لجزء النص. عندما تُضبط هذه الخاصية إلى false، يُقمع فحص الإملاء لعناصر النص. عندما تُضبط إلى true، يُسمح بتدقيق الإملاء. القيمة الافتراضية هي `false`. |
-| [StrikethroughType](../../aspose.slides/baseportionformat/strikethroughtype) { get; set; } | إرجاع أو ضبط نوع الشطب للنص. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`TextStrikethroughType`](../textstrikethroughtype). |
-| [SymbolFont](../../aspose.slides/baseportionformat/symbolfont) { get; set; } | إرجاع أو ضبط معلومات الخط الرمزي. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب الرئيسي. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
-| [TextCapType](../../aspose.slides/baseportionformat/textcaptype) { get; set; } | إرجاع أو ضبط نوع تحويل الحروف للنص. لا يتم تطبيق الوراثة. قابل للقراءة/الكتابة [`TextCapType`](../textcaptype). |
-| [UnderlineFillFormat](../../aspose.slides/baseportionformat/underlinefillformat) { get; } | إرجاع خصائص FillFormat لخط التسطير. لا يتم تطبيق الوراثة. للقراءة فقط [`IFillFormat`](../ifillformat). |
-| [UnderlineLineFormat](../../aspose.slides/baseportionformat/underlinelineformat) { get; } | إرجاع خصائص LineFormat المستخدمة لتحديد حدود خط التسطير. لا يتم تطبيق الوراثة. للقراءة فقط [`ILineFormat`](../ilineformat). |
+| [AlternativeLanguageId](../../aspose.slides/baseportionformat/alternativelanguageid) { get; set; } | يرجع أو يعيّن معرف لغة بديلة. قراءة/كتابة String. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [BookmarkId](../../aspose.slides/portionformat/bookmarkid) { get; set; } | يرجع أو يعيّن معرف العلامة المرجعية. قراءة/كتابة String. |
+| [ComplexScriptFont](../../aspose.slides/baseportionformat/complexscriptfont) { get; set; } | يرجع أو يعيّن معلومات خط النص المعقد. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/baseportionformat/eastasianfont) { get; set; } | يرجع أو يعيّن معلومات خط اللغة الشرقية الآسيوية. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [EffectFormat](../../aspose.slides/baseportionformat/effectformat) { get; } | يرجع خصائص EffectFormat للنص. لا يتم تطبيق الوراثة. قراءة فقط [`IEffectFormat`](../ieffectformat). |
+| [Escapement](../../aspose.slides/baseportionformat/escapement) { get; set; } | يرجع أو يعيّن نص أعلى أو أسفل السطر. القيمة من -100% (أسفل السطر) إلى 100% (أعلى السطر). **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب. قراءة/كتابة Single. |
+| [FillFormat](../../aspose.slides/baseportionformat/fillformat) { get; } | يرجع خصائص FillFormat للنص. لا يتم تطبيق الوراثة. قراءة فقط [`IFillFormat`](../ifillformat). |
+| [FontBold](../../aspose.slides/baseportionformat/fontbold) { get; set; } | يحدد ما إذا كان الخط عريضًا. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [FontHeight](../../aspose.slides/baseportionformat/fontheight) { get; set; } | يرجع أو يعيّن ارتفاع الخط للجزء. **float.NaN** يعني أن الارتفاع غير معرف ويجب وراثته من القالب. قراءة/كتابة Single. |
+| [FontItalic](../../aspose.slides/baseportionformat/fontitalic) { get; set; } | يحدد ما إذا كان الخط مائلًا. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [FontUnderline](../../aspose.slides/baseportionformat/fontunderline) { get; set; } | يرجع أو يعيّن نوع خط تحت النص. لا يتم تطبيق الوراثة. قراءة/كتابة [`TextUnderlineType`](../textunderlinetype). |
+| [HighlightColor](../../aspose.slides/baseportionformat/highlightcolor) { get; } | يرجع اللون المستخدم لتسليط الضوء على النص. لا يتم تطبيق الوراثة. قراءة فقط [`IColorFormat`](../icolorformat). |
+| [HyperlinkClick](../../aspose.slides/portionformat/hyperlinkclick) { get; set; } | يرجع أو يعيّن الارتباط التشعبي المحدد للنقر بالفأرة. قراءة/كتابة [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/portionformat/hyperlinkmanager) { get; } | مدير الارتباطات التشعبية. قراءة فقط [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/portionformat/hyperlinkmouseover) { get; set; } | يرجع أو يعيّن الارتباط التشعبي المحدد للتمرير فوق الفأرة. قراءة/كتابة [`IHyperlink`](../ihyperlink). |
+| [IsHardUnderlineFill](../../aspose.slides/baseportionformat/ishardunderlinefill) { get; set; } | يحدد ما إذا كان نمط الخط تحت النص يمتلك خصائص FillFormat خاصة به أو يرثها من خصائص FillFormat للنص. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [IsHardUnderlineLine](../../aspose.slides/baseportionformat/ishardunderlineline) { get; set; } | يحدد ما إذا كان نمط الخط تحت النص يمتلك خصائص LineFormat خاصة به أو يرثها من خصائص LineFormat للنص. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [KerningMinimalSize](../../aspose.slides/baseportionformat/kerningminimalsize) { get; set; } | يرجع أو يعيّن الحد الأدنى لحجم الخط الذي يجب تشغيل التتبع الإنسي للخط عنده. **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب. قراءة/كتابة Single. |
+| [Kumimoji](../../aspose.slides/baseportionformat/kumimoji) { get; set; } | يحدد ما إذا كانت الأرقام تتجاهل تخطيط النص الرأسي الخاص باللغات الشرقية. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [LanguageId](../../aspose.slides/baseportionformat/languageid) { get; set; } | يرجع أو يعيّن معرف لغة التدقيق. يستخدم لفحص الإملاء والقواعد. قراءة/كتابة String. |
+| [LatinFont](../../aspose.slides/baseportionformat/latinfont) { get; set; } | يرجع أو يعيّن معلومات خط اللاتينية. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [LineFormat](../../aspose.slides/baseportionformat/lineformat) { get; } | يرجع خصائص LineFormat لتحديد حدود النص. لا يتم تطبيق الوراثة. قراءة فقط [`ILineFormat`](../ilineformat). |
+| [NormaliseHeight](../../aspose.slides/baseportionformat/normaliseheight) { get; set; } | يحدد ما إذا كان ارتفاع النص يجب أن يكون طبيعيًا. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [ProofDisabled](../../aspose.slides/baseportionformat/proofdisabled) { get; set; } | يحدد ما إذا كان النص لا يجب تدقيقه. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [SmartTagClean](../../aspose.slides/portionformat/smarttagclean) { get; set; } | يحدد ما إذا كان يجب مسح العلامة الذكية. لا يتم تطبيق الوراثة. قراءة/كتابة Boolean. |
+| [Spacing](../../aspose.slides/baseportionformat/spacing) { get; set; } | يرجع أو يعيّن الزيادة في التباعد بين الأحرف. **float.NaN** يعني أن القيمة غير معرفة ويجب وراثتها من القالب. قراءة/كتابة Single. |
+| [SpellCheck](../../aspose.slides/baseportionformat/spellcheck) { get; set; } | يحصل أو يعيّن قيمة تشير إلى ما إذا كان تدقيق الإملاء مفعّلاً للجزء النصي. عندما تكون الخاصية false، يتم قمع فحوص الإملاء لعناصر النص. عندما تكون true، يُسمح بتدقيق الإملاء. القيمة الافتراضية هي `false`. |
+| [StrikethroughType](../../aspose.slides/baseportionformat/strikethroughtype) { get; set; } | يرجع أو يعيّن نوع الخط المشطوب. لا يتم تطبيق الوراثة. قراءة/كتابة [`TextStrikethroughType`](../textstrikethroughtype). |
+| [SymbolFont](../../aspose.slides/baseportionformat/symbolfont) { get; set; } | يرجع أو يعيّن معلومات الخط الرمزي. القيمة Null تعني أن الخط غير معرف ويجب وراثته من القالب. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [TextCapType](../../aspose.slides/baseportionformat/textcaptype) { get; set; } | يرجع أو يعيّن نوع تحويل الحروف. لا يتم تطبيق الوراثة. قراءة/كتابة [`TextCapType`](../textcaptype). |
+| [UnderlineFillFormat](../../aspose.slides/baseportionformat/underlinefillformat) { get; } | يرجع خصائص FillFormat لخط السطر تحت النص. لا يتم تطبيق الوراثة. قراءة فقط [`IFillFormat`](../ifillformat). |
+| [UnderlineLineFormat](../../aspose.slides/baseportionformat/underlinelineformat) { get; } | يرجع خصائص LineFormat المستخدمة لتحديد حدود سطر الخط تحت النص. لا يتم تطبيق الوراثة. قراءة فقط [`ILineFormat`](../ilineformat). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن بالعنصر المحدد. |
-| [GetEffective](../../aspose.slides/portionformat/geteffective)() | يحصل على بيانات تنسيق الجزء الفعلي مع تطبيق الوراثة. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | إرجاع رمز التجزئة. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
+| [GetEffective](../../aspose.slides/portionformat/geteffective)() | يحصل على بيانات تنسيق الجزء الفعّال مع تطبيق الوراثة. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يرجع رمز التجزئة. |
 
-### الملاحظات
+### ملاحظات
 
-تُستخدم هذه الفئة لإرجاع ومعالجة خصائص تنسيق جزء النص المحددة للجزء المعين. وهذا يعني أنه لا يتم تطبيق الوراثة عند جلب القيم، لذا في معظم الحالات ستحصل على قيم تعني "غير معرفة".
+تُستخدم هذه الفئة لإرجاع وتعديل خصائص تنسيق جزء النص المحدد. هذا يعني أنه لا يتم تطبيق الوراثة عند الحصول على القيم، لذا في معظم الحالات ستحصل على قيم تعني "غير معرفة".
 
-للحصول على قيم معلمات التنسيق الفعلي بما في ذلك الموروثة، تحتاج إلى استخدام طريقة [`GetEffective`](./geteffective) التي تُعيد مثيلاً من [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+للحصول على قيم معلمات التنسيق الفعّالة بما في ذلك الموروثة، يجب استخدام طريقة [`GetEffective`](./geteffective) التي تُعيد كائن [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
-### الأمثلة
+### أمثلة
 
-تُظهر الأمثلة التالية كيفية تعيين الخط اللاتيني لجزء الفقرة في عرض تقديمي PowerPoint.
+المثال التالي يوضح كيفية تعيين الخط اللاتيني لجزء فقرة في عرض تقديمي PowerPoint.
 
 ```csharp
 [C#]
@@ -87,15 +87,15 @@ Portion portion = new Portion("Theme text format");
 paragraph.Portions.Add(portion);
 shape.TextFrame.Paragraphs.Add(paragraph);
 // Aspose.Slides يستخدم هذه المعرفات الخاصة (مشابهة لتلك المستخدمة في PowerPoint):
-// +mn-lt - خط جسم لاتيني (خط لاتيني أصغر)
-// +mj-lt - خط عنوان لاتيني (خط لاتيني رئيسي)
-// +mn-ea - خط جسم شرق آسيوي (خط شرق آسيوي أصغر)
-// +mj-ea - خط جسم شرق آسيوي (خط شرق آسيوي أصغر)
+// +mn-lt - خط الجسم اللاتيني (الخط اللاتيني الصغير)
+// +mj-lt - خط العنوان اللاتيني (الخط اللاتيني الرئيسي)
+// +mn-ea - خط الجسم الشرقي الآسيوي (الخط الشرقي الآسيوي الصغير)
+// +mj-ea - خط الجسم الشرقي الآسيوي (الخط الشرقي الآسيوي الصغير)
 portion.PortionFormat.LatinFont = new FontData("+mn-lt");
 }
 ```
 
-### انظر أيضاً
+### انظر أيضًا
 
 * class [BasePortionFormat](../baseportionformat)
 * interface [IPortionFormat](../iportionformat)

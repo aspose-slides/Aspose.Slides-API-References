@@ -1,12 +1,12 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes の .NET API リファレンス
-description: HTMLファイルの生成を制御します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: HTML ファイルの生成を制御します。
 type: docs
-weight: 3930
+weight: 3950
 url: /ja/aspose.slides.export/ihtmlformattingcontroller/
 ---
-## IHtmlFormattingController インターフェイス
+## IHtmlFormattingController インターフェース
 
 HTMLファイルの生成を制御します。
 
@@ -20,10 +20,10 @@ public interface IHtmlFormattingController
 | --- | --- |
 | [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTMLドキュメントのフッターを書き込むために呼び出されます。プレゼンテーション変換ごとに一度呼び出されます。 |
 | [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTMLドキュメントのヘッダーを書き込むために呼び出されます。プレゼンテーション変換ごとに一度呼び出されます。 |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | シェイプのレンダリングの前に呼び出されます。各シェイプにつき一度呼び出されます。この関数がジェネレーターに何かを書き込むと、現在のスライド画像の生成が完了し、HTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | シェイプのレンダリングの前に呼び出されます。各シェイプにつき一度呼び出されます。この関数がジェネレーターに何かを書き込むと、現在のスライド画像の生成が完了し、HTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTMLスライドのフッターを書き込むために呼び出されます。各スライドにつき一度呼び出されます。 |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTMLスライドのヘッダーを書き込むために呼び出されます。各スライドにつき一度呼び出されます。 |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | シェイプのレンダリング前に呼び出されます。各シェイプごとに一度呼び出されます。この関数がジェネレータに何かを書き込むと、現在のスライド画像の生成が完了し、HTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | シェイプのレンダリング前に呼び出されます。各シェイプごとに一度呼び出されます。この関数がジェネレータに何かを書き込むと、現在のスライド画像の生成が完了し、HTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTMLスライドのフッターを書き込むために呼び出されます。各スライドごとに一度呼び出されます。 |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTMLスライドのヘッダーを書き込むために呼び出されます。各スライドごとに一度呼び出されます。 |
 
 ### 参照
 

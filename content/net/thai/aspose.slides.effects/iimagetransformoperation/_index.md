@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นการแสดงผลการแปลงภาพแบบนามธรรม
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์การแปลงภาพแบบเชิงนามธรรม.
 type: docs
 weight: 3390
 url: /th/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation อินเทอร์เฟซ
 
-เป็นการแสดงผลการแปลงภาพแบบนามธรรม
+แสดงถึงเอฟเฟกต์การแปลงภาพแบบเชิงนามธรรม.
 
 ```csharp
 public interface IImageTransformOperation

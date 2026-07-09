@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表一個幻影數學物件 ltmphantgt，會影響其子元素的版面配置，但不一定顯示它。幻影可以隱藏其基礎表達式，同時保留其寬度、高度或深度，以對齊公式或保留空間。可見性和幾何行為由 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 等屬性控制。
+description: 表示一個幻影數學物件 ltmphantgt，會影響其子元素的版面配置，但未必顯示該元素。幻影可以隱藏基礎表達式，同時保留其寬度、高度或深度，以對齊公式或保留空間。可見性和幾何行為由屬性如 Show、ZeroWid、ZeroAsc、ZeroDesc 與 Transp 控制。
 type: docs
 weight: 8410
 url: /zh-hant/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom 介面
 
-代表一個幻影數學物件 (<m:phant>)，會影響其子元素的版面配置，但不一定顯示它。幻影可以隱藏其基礎表達式，同時保留其寬度、高度或深度，以對齊公式或保留空間。可見性和幾何行為由屬性如 Show、ZeroWid、ZeroAsc、ZeroDesc 和 Transp 控制。
+表示一個幻影數學物件 (<m:phant>)，它會影響子元素的版面配置，但未必顯示該元素。幻影可以隱藏基礎表達式，同時保留其寬度、高度或深度，以對齊公式或保留空間。可見性和幾何行為由屬性如 Show、ZeroWid、ZeroAsc、ZeroDesc 與 Transp 控制。
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -20,14 +20,12 @@ public interface IMathPhantom : IMathElement
 | --- | --- |
 | [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | 基礎參數 |
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | 取得或設定一個值，指示是否顯示基礎元素。 |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | 取得或設定一個值，指示幻影在基於類別的間距規則中是否為透明。 |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | 取得或設定一個值，指示是否應將基礎元素的上升（基線上方的高度）視為零。 |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | 取得或設定一個值，指示是否應將基礎元素的下降（基線以下的深度）視為零。 |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | 取得或設定一個值，指示是否應將基礎元素的寬度視為零。 |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | 取得或設定一個值，指示幻影是否對基於類別的間距規則透明。 |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | 取得或設定一個值，指示是否將基礎元素的上升高度（基線之上）視為零。 |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | 取得或設定一個值，指示是否將基礎元素的下降深度（基線之下）視為零。 |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | 取得或設定一個值，指示是否將基礎元素的寬度視為零。 |
 
 ### 範例
-
-範例：
 
 ```csharp
 [C#]
@@ -36,7 +34,7 @@ phantom.Show = false;          // 隱藏內容
 phantom.ZeroWidth = false;     // 保留寬度
 ```
 
-### 另見
+### 另請參閱
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

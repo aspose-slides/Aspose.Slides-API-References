@@ -1,14 +1,14 @@
 ---
 title: IMathAccent
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 기본과 결합형 부호 기호로 구성된 악센트 기능을 지정합니다. 예: ́
+description: 베이스와 결합 부호를 포함하는 accent 기능을 지정합니다. 예: ́
 type: docs
 weight: 8080
 url: /ko/aspose.slides.mathtext/imathaccent/
 ---
 ## IMathAccent 인터페이스
 
-기본 및 결합형 부호 문자로 구성된 악센트 기능을 지정합니다. 예시: 𝑎́
+Accent 함수를 지정합니다. 기본 문자와 결합 부호가 포함됩니다. 예: 𝑎́
 
 ```csharp
 public interface IMathAccent : IMathElement
@@ -19,8 +19,8 @@ public interface IMathAccent : IMathElement
 | 이름 | 설명 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathaccent/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | 악센트가 적용된 인수 |
-| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | 악센트 문자 값은 (U+0300–U+036F) 또는 (U+20D0–U+20EF) 범위 내에 있어야 합니다 기본값: 결합형 서킷플렉스 악센트 (U+0302) |
+| [Base](../../aspose.slides.mathtext/imathaccent/base) { get; } | Accent가 적용된 인수 |
+| [Character](../../aspose.slides.mathtext/imathaccent/character) { get; set; } | Accent 문자. 값은 (U+0300–U+036F) 또는 (U+20D0–U+20EF) 범위 내에 있어야 합니다. 기본값: Combining Circumflex Accent (U+0302) |
 
 ### 예제
 
@@ -31,7 +31,7 @@ public interface IMathAccent : IMathElement
 IMathAccent accent = new MathematicalText("x").Accent('~');
 ```
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 角方向投影片轉場效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 角落方向投影片過渡效果。
 type: docs
 weight: 10060
 url: /zh-hant/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition 介面
 
-角方向投影片轉場效果。
+角落方向投影片過渡效果。
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 轉場的方向。可讀寫 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 過渡的方向。讀/寫 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

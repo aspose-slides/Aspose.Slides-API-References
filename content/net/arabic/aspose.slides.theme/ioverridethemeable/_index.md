@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل مدير السمة المتجاوز.
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
+description: يمثل مدير سمة التجاوز.
 type: docs
 weight: 11360
 url: /ar/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable واجهة
 
-يمثل مدير السمة المتجاوز.
+يمثل مدير سمة التجاوز.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,9 +19,9 @@ public interface IOverrideThemeable : IThemeable
 | الاسم | الوصف |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | إرجاع واجهة IThemeable. للقراءة فقط [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | إرجاع مدير السمة المتجاوز. للقراءة فقط [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | إرجاع مدير سمة التجاوز. للقراءة فقط [`IOverrideThemeManager`](../ioverridethememanager). |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [IThemeable](../ithemeable)
 * نطاق [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนค่าผลกระทบ Outer Shadow.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงเอฟเฟกต์เงานอก
 type: docs
 weight: 3620
 url: /th/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow คลาส
 
-แทนค่าผลกระทบ Outer Shadow
+แสดงถึงเอฟเฟกต์เงานอก
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -16,26 +16,26 @@ public sealed class OuterShadow : IOuterShadow
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | รัศมีการเบลอ, หน่วยเป็นจุด. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | ทิศทางของเงา, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 ° (ซ้ายไปขวา). อ่าน/เขียน Single. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | รัศมีการเบลอร์, หน่วยเป็นจุด. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | ทิศทางของเงา, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 ° (ซ้ายถึงขวา). อ่าน/เขียน Single. |
 | [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | ระยะห่างของเงาจากวัตถุ, หน่วยเป็นจุด. ค่าเริ่มต้น – 0 pt. อ่าน/เขียน Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | การจัดแนวสี่เหลี่ยม. ค่าเริ่มต้น – Bottom. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | การจัดตำแหน่งสี่เหลี่ยม. ค่าเริ่มต้น – Bottom. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | ระบุว่าเงาจะหมุนพร้อมกับรูปร่างหรือไม่. ค่าเริ่มต้น – true. อ่าน/เขียน Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | ปัจจัยสเกลแนวนอน, เป็นเปอร์เซ็นต์ของขนาดต้นฉบับ. การสเกลเป็นค่าลบทำให้พลิก. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | ปัจจัยสเกลแนวตั้ง, เป็นเปอร์เซ็นต์ของขนาดต้นฉบับ. การสเกลเป็นค่าลบทำให้พลิก. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | ปัจจัยสเกลแนวนอน, เปอร์เซ็นต์ของขนาดเดิม. การสเกลเป็นค่าลบทำให้พลิก. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | ปัจจัยสเกลแนวตั้ง, เปอร์เซ็นต์ของขนาดเดิม. การสเกลเป็นค่าลบทำให้พลิก. ค่าเริ่มต้น – 100 %. อ่าน/เขียน Double. |
 | [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | สีของเงา. ค่าเริ่มต้น – สีดำอัตโนมัติ (ขึ้นกับธีม). อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | มุมบิดแนวนอน, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | มุมบิดแนวตั้ง, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | มุมเอียงแนวนอน, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | มุมเอียงแนวตั้ง, หน่วยเป็นองศา. ค่าเริ่มต้น – 0 °. อ่าน/เขียน Double. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | กำหนดว่าตัว [`OuterShadow`](../outershadow) ที่ระบุเท่ากับ [`OuterShadow`](../outershadow) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | รับข้อมูลผลกระทบ Outer Shadow ที่มีการสืบทอดใช้แล้ว. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | กำหนดว่าข้อกำหนด [`OuterShadow`](../outershadow) ที่ระบุเท่ากับ [`OuterShadow`](../outershadow) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Outer Shadow ที่มีผลโดยคำนึงถึงการสืบทอด. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

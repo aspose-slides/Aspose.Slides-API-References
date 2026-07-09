@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
 second_title: Aspose.Sildes .NET API referencia
-description: FontData gyár interfész
+description: FontData gyári interfész
 type: docs
-weight: 5820
+weight: 5840
 url: /hu/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory interfész
 
-FontData gyár interfész
+FontData gyári interfész
 
 ```csharp
 public interface IFontDataFactory
@@ -18,7 +18,7 @@ public interface IFontDataFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Létrehozza a FontData-t a megadott betűtípusnévvel. |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | Létrehozza a FontData-t a megadott betűtípus névvel. |
 
 ### Lásd még
 

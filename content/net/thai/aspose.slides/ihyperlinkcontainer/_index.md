@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงออบเจกต์ไฮเปอร์ลิงก์.
+description: เป็นตัวแทนของวัตถุไฮเปอร์ลิงก์.
 type: docs
 weight: 6120
 url: /th/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer อินเทอร์เฟซ
 
-แสดงถึงออบเจกต์ไฮเปอร์ลิงก์
+เป็นตัวแทนของวัตถุไฮเปอร์ลิงก์.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | คืนค่า หรือกำหนดไฮเปอร์ลิงก์ที่กำหนดสำหรับการคลิกเมาส์. อ่าน/เขียน [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | ผู้จัดการไฮเปอร์ลิงก์ อ่านอย่างเดียว [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | คืนค่า หรือกำหนดไฮเปอร์ลิงก์ที่กำหนดสำหรับการวางเมาส์. อ่าน/เขียน [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | คืนค่าหรือกำหนดไฮเปอร์ลิงก์ที่กำหนดสำหรับการคลิกเมาส์. อ่าน/เขียน [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | ตัวจัดการไฮเปอร์ลิงก์ อ่านอย่างเดียว [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | คืนค่าหรือกำหนดไฮเปอร์ลิงก์ที่กำหนดสำหรับการวางเมาส์. อ่าน/เขียน [`IHyperlink`](../ihyperlink). |
 
 ### ดูเพิ่มเติม
 

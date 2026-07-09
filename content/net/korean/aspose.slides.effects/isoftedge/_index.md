@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 소프트 엣지 효과를 나타냅니다. 도형의 가장자리는 흐려지지만 채우기는 영향을 받지 않습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 도형의 가장자리는 흐릿해지지만 채우기는 영향을 받지 않는 소프트 엣지 효과를 나타냅니다.
 type: docs
 weight: 3520
 url: /ko/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge 인터페이스
 
-소프트 엣지 효과를 나타냅니다. 도형의 가장자리는 흐려지지만 채우기는 영향을 받지 않습니다.
+소프트 엣지 효과를 나타냅니다. 도형의 가장자리는 흐릿해지지만 채우기에는 영향을 주지 않습니다.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -20,9 +20,9 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 모서리에 적용할 블러의 반경을 지정합니다. 읽기/쓰기 Double. |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 모서리에 적용할 블러 반경을 지정합니다. 읽기/쓰기 Double. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

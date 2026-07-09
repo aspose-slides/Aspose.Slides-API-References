@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションの処理のための AI 搭載機能を提供します。
+description: プレゼンテーションの処理のための AI 機能を提供します。
 type: docs
-weight: 50
+weight: 70
 url: /ja/aspose.slides.ai/slidesaiagent/
 ---
 ## SlidesAIAgent クラス
 
-プレゼンテーションの処理のための AI 搭載機能を提供します。
+プレゼンテーションの処理のための AI 機能を提供します。
 
 ```csharp
 public class SlidesAIAgent
@@ -18,16 +18,17 @@ public class SlidesAIAgent
 
 | 名前 | 説明 |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent)(IAIWebClient) | SlidesAIAgent コンストラクタ |
+| [SlidesAIAgent](slidesaiagent#constructor)() | 組み込みの [`AsposeAIWebClient`](../asposeaiwebclient) を使用し、デフォルト構成で [`SlidesAIAgent`](../slidesaiagent) の新しいインスタンスを初期化します。クライアントは Aspose の独自 LLM に接続し、追加の構成は不要です。別の AI クライアントを使用する場合は、[`SlidesAIAgent`](./slidesaiagent) オーバーロードを使用してください。 |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | カスタム AI クライアントで [`SlidesAIAgent`](../slidesaiagent) の新しいインスタンスを初期化します。このオーバーロードを使用して AI プロバイダーを指定したり、独自の LLM を提供したり、接続をカスタマイズしたりできます（例: 独自の `HttpClient` を提供する）。[`IAIWebClient`](../iaiwebclient) の任意の実装を使用できます。その例として: |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | テキスト記述からプレゼンテーションインスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストの抜粋を提供してください。 |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | テキスト記述からプレゼンテーションインスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストの抜粋を提供してください。 |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | テキスト記述からプレゼンテーションインスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストの抜粋を提供してください。 |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | テキスト記述からプレゼンテーションインスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストの抜粋を提供してください。 |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | テキスト説明からプレゼンテーション インスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストスニペットを提供してください。 |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | テキスト説明からプレゼンテーション インスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストスニペットを提供してください。 |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | テキスト説明からプレゼンテーション インスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストスニペットを提供してください。 |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | テキスト説明からプレゼンテーション インスタンスを生成します。必要な言語でトピック、アイデア、引用、またはテキストスニペットを提供してください。 |
 | [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | AI を使用してプレゼンテーションを指定された言語に翻訳します（同期バージョン）。 |
 | [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | AI を使用してプレゼンテーションを指定された言語に翻訳します。 |
 

@@ -1,12 +1,12 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes dla .NET API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Określa, jak tekst będzie wyświetlany na kształcie podczas animacji.
 type: docs
-weight: 190
+weight: 210
 url: /pl/aspose.slides.animation/buildtype/
 ---
-## Wyliczenie BuildType
+## BuildType enumeracja
 
 Określa, jak tekst będzie wyświetlany na kształcie podczas animacji.
 
@@ -18,13 +18,13 @@ public enum BuildType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| AsOneObject | `0` | Z zawierającym kształtem. |
+| AsOneObject | `0` | Z kształtem zawierającym. |
 | AllParagraphsAtOnce | `1` | Wszystkie akapity. |
-| ByLevelParagraphs1 | `2` | Według grup akapitów o głębokości 1. |
-| ByLevelParagraphs2 | `3` | Według grup akapitów o głębokości 2. |
-| ByLevelParagraphs3 | `4` | Według grup akapitów o głębokości 3. |
-| ByLevelParagraphs4 | `5` | Według grup akapitów o głębokości 4. |
-| ByLevelParagraphs5 | `6` | Według grup akapitów o głębokości 5. |
+| ByLevelParagraphs1 | `2` | W grupach akapitów głębokości 1. |
+| ByLevelParagraphs2 | `3` | W grupach akapitów głębokości 2. |
+| ByLevelParagraphs3 | `4` | W grupach akapitów głębokości 3. |
+| ByLevelParagraphs4 | `5` | W grupach akapitów głębokości 4. |
+| ByLevelParagraphs5 | `6` | W grupach akapitów głębokości 5. |
 
 ### Zobacz także
 

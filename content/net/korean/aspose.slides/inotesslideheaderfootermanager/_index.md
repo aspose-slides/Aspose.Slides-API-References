@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 노트 슬라이드 자리 표시자(헤더 자리 표시자를 포함)의 동작을 담당하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 노트 슬라이드 자리 표시자(헤더 자리 표시자 포함)의 동작을 유지하는 관리자를 나타냅니다.
 type: docs
 weight: 6510
 url: /ko/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager 인터페이스
 
-노트 슬라이드 자리 표시자(헤더 자리 표시자를 포함)의 동작을 담당하는 관리자를 나타냅니다.
+노트 슬라이드 자리 표시자의 동작을 유지하는 관리자를 나타내며, 헤더 자리 표시자를 포함합니다.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

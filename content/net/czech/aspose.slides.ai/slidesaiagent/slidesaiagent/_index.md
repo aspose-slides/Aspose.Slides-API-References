@@ -1,14 +1,20 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Sildes pro .NET API Reference
-description: Konstruktor SlidesAIAgent
+description: Inicializuje novou instanci SlidesAIAgentaspose.slides.ai/slidesaiagent s vlastním AI klientem. Použijte toto přetížení k určení poskytovatele AI, dodání vlastního LLM nebo přizpůsobení připojení, například poskytnutím vlastního HttpClient. Lze použít libovolnou implementaci IAIWebClientaspose.slides.ai/iaiwebclient, včetně
 type: docs
 weight: 10
 url: /cs/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
-## SlidesAIAgent konstruktor
+## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-SlidesAIAgent konstruktor
+Inicializuje novou instanci [`SlidesAIAgent`](../../slidesaiagent) s vlastním AI klientem. Použijte tuto přetížení k určení poskytovatele AI, k dodání vlastního LLM nebo k přizpůsobení připojení (například poskytnutím vlastního `HttpClient`). Lze použít libovolnou implementaci [`IAIWebClient`](../../iaiwebclient), včetně:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+Pro použití vestavěného [`AsposeAIWebClient`](../../asposeaiwebclient) s výchozí konfigurací použijte místo toho přetížení [`SlidesAIAgent`](../slidesaiagent).
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
@@ -16,17 +22,33 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| aiClient | IAIWebClient |  |
+| aiClient | IAIWebClient | Instance AI klienta. Lze použít libovolnou implementaci [`IAIWebClient`](../../iaiwebclient). |
 
 ### Výjimky
 
 | výjimka | podmínka |
 | --- | --- |
-| ArgumentNullException | Instance AI klienta není poskytnuta |
+| ArgumentNullException | Instance AI klienta nebyla poskytnuta. |
 
 ### Viz také
 
 * rozhraní [IAIWebClient](../../iaiwebclient)
+* třída [SlidesAIAgent](../../slidesaiagent)
+* jmenný prostor [Aspose.Slides.AI](../../slidesaiagent)
+* sestava [Aspose.Slides](../../../)
+
+---
+
+## SlidesAIAgent() {#constructor}
+
+Inicializuje novou instanci [`SlidesAIAgent`](../../slidesaiagent) pomocí vestavěného [`AsposeAIWebClient`](../../asposeaiwebclient) s výchozí konfigurací. Klient se připojuje k vlastnímu LLM společnosti Aspose a nevyžaduje žádnou další konfiguraci. Pro použití jiného AI klienta použijte přetížení [`SlidesAIAgent`](../slidesaiagent).
+
+```csharp
+public SlidesAIAgent()
+```
+
+### Viz také
+
 * třída [SlidesAIAgent](../../slidesaiagent)
 * jmenný prostor [Aspose.Slides.AI](../../slidesaiagent)
 * sestava [Aspose.Slides](../../../)

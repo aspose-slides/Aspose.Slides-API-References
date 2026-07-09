@@ -1,6 +1,6 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示圖表的值。
 type: docs
 weight: 1220
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue 類別
 
-Represents a value of a chart.
+表示圖表的值。
 
 ```csharp
 public abstract class BaseChartValue : IBaseChartValue
@@ -18,10 +18,10 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | 名稱 | 說明 |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Read/write Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定在衍生類別中是否實際使用 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性。換句話說，它指定 Data 屬性的值類型。Read/write [`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data。讀寫 Object。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 指定 AsCell、AsCells、AsLiteralString 或 AsLiteralDouble 屬性在衍生類別中是否為實際屬性。換言之，它指定 Data 屬性的值類型。Read/write [`DataSourceType`](../datasourcetype)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IBaseChartValue](../ibasechartvalue)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

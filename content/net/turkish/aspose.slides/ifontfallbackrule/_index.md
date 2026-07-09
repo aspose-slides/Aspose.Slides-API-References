@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yazı tipi geri dönüşüm kuralını temsil eder
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yazı tipi geri dönüş kuralını temsil eder
 type: docs
-weight: 5830
+weight: 5850
 url: /tr/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule arayüz
 
-Yazı tipi geri dönüşüm kuralını temsil eder
+Yazı tipi geri dönüş kuralını temsil eder
 
 ```csharp
 public interface IFontFallBackRule
@@ -18,19 +18,19 @@ public interface IFontFallBackRule
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Aralık için tanımlanmış olan gerçek yazı tipi sayısını alır. |
-| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Belirtilen indeksteki yazı tipi adını alır. |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | Aralık için gerçekten tanımlanan yazı tiplerinin sayısını alır. |
+| [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | Belirtilen dizindeki yazı tipi adını alır. |
 | [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | Sürekli Unicode aralığının son indeksini al. |
 | [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | Sürekli Unicode aralığının ilk indeksini al. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Yeni bir yazı tipini(leri) FallBack yazı tipleri listesine ekler. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Yeni bir yazı tipini (yazı tiplerini) FallBack yazı tipleri listesine ekler. |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Yeni yazı tiplerini FallBack yazı tipleri listesine ekler. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Listedeki tüm yazı tiplerini kaldırır. |
-| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Belirtilen kuralın koleksiyondaki indeksini döndürür. |
+| [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Koleksiyondaki belirtilen kuralın indeksini döndürür. |
 | [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Listedeki belirli bir FallBack yazı tipinin ilk oluşumunu kaldırır. |
 | [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | Listedeki belirtilen indeksteki FallBack yazı tipini kaldırır. |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Bu kural için tüm FallBack yazı tiplerini içeren bir dizi oluşturur ve döndürür. |

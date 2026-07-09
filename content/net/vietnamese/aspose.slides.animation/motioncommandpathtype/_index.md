@@ -1,14 +1,14 @@
 ---
 title: MotionCommandPathType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện các loại lệnh cho hành vi hiệu ứng chuyển động hoạt hình.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn các loại lệnh cho hành vi hiệu ứng chuyển động animation.
 type: docs
 weight: 660
 url: /vi/aspose.slides.animation/motioncommandpathtype/
 ---
-## Liệt kê MotionCommandPathType
+## MotionCommandPathType liệt kê
 
-Biểu diễn các loại lệnh cho hành vi hiệu ứng chuyển động hoạt hình.
+Biểu diễn các loại lệnh cho hành vi hiệu ứng chuyển động animation.
 
 ```csharp
 public enum MotionCommandPathType

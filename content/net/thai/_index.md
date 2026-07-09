@@ -4,33 +4,33 @@ type: docs
 weight: 10
 url: /th/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides เป็นชุด API การจัดการ Microsoft PowerPoint® ที่ช่วยให้แอปพลิเคชันซอฟต์แวร์อ่านและเขียนเอกสาร PowerPoint® ได้โดยไม่ต้องใช้ Microsoft PowerPoint®.
+description: Aspose.Slides เป็น API การจัดการ Microsoft PowerPoint® ที่ทำให้แอปพลิเคชันซอฟต์แวร์สามารถอ่านและเขียนเอกสาร PowerPoint® ได้โดยไม่ต้องใช้ Microsoft PowerPoint®.
 is_root: true
 ---
 ## เนมสเปซ
 
 | เนมสเปซ | คำอธิบาย |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | ประกอบด้วยคลาสสำหรับทำงานกับการนำเสนอ Microsoft PowerPoint โดยไม่ใช้ Microsoft PowerPoint |
-| [Aspose.Slides.AI](./aspose.slides.ai) | ประกอบด้วยคลาสที่ให้ฟีเจอร์ที่ใช้ AI สำหรับการวิเคราะห์และประมวลผลการนำเสนอ PowerPoint |
-| [Aspose.Slides.Animation](./aspose.slides.animation) | ประกอบด้วยคลาสสำหรับทำงานกับการเคลื่อนไหวใน Microsoft PowerPoint |
-| [Aspose.Slides.Charts](./aspose.slides.charts) | ประกอบด้วยคลาสสำหรับทำงานกับแผนภูมิใน Microsoft PowerPoint |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | ประกอบด้วยคลาสสำหรับทำงานกับอ็อบเจ็กต์ OLE ใน Microsoft PowerPoint |
-| [Aspose.Slides.Effects](./aspose.slides.effects) | ประกอบด้วยคลาสสำหรับทำงานกับเอฟเฟกต์ต่าง ๆ ใน Microsoft PowerPoint |
-| [Aspose.Slides.Excel](./aspose.slides.excel) | ประกอบด้วยคลาสสำหรับทำงานกับสเปรดชีต Microsoft Excel ภายนอก |
-| [Aspose.Slides.Export](./aspose.slides.export) | ประกอบด้วยคลาสสำหรับส่งออกการนำเสนอ Microsoft PowerPoint ไปเป็นรูปแบบต่าง ๆ เช่น Html, Pdf, Svg, Xps และอื่น ๆ |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | ประกอบด้วยคลาสสำหรับส่งออกการนำเสนอ Microsoft PowerPoint ไปเป็น Html ด้วยโครงการส่วนขยาย |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | ประกอบด้วยคลาสสำหรับส่งออกการนำเสนอ Microsoft PowerPoint ไปเป็น XAML |
-| [Aspose.Slides.Import](./aspose.slides.import) | ประกอบด้วยคลาสสำหรับนำเข้าข้อมูลเข้าสู่การนำเสนอ Microsoft PowerPoint |
-| [Aspose.Slides.Ink](./aspose.slides.ink) | ประกอบด้วยคลาสสำหรับทำงานกับ Ink |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | ประกอบด้วยคลาสและเมธอดเพื่อจัดการการทำงานทั่วไปที่ซับซ้อนในรูปแบบ low code |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) | ประกอบด้วยคลาสสำหรับทำงานกับข้อความคณิตศาสตร์ใน Microsoft PowerPoint |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | ประกอบด้วยคลาสสำหรับจัดการการแสดงสไลด์และการเปลี่ยนสไลด์ |
-| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | ประกอบด้วยคลาสสำหรับทำงานกับอ็อบเจ็กต์ SmartArt |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | ประกอบด้วยคลาสสำหรับทำงานกับอ็อบเจ็กต์สเปรดชีตใน Microsoft PowerPoint |
-| [Aspose.Slides.Theme](./aspose.slides.theme) | ประกอบด้วยคลาสสำหรับทำงานกับธีมประเภทต่าง ๆ |
-| [Aspose.Slides.Util](./aspose.slides.util) | ประกอบด้วยคลาส utility ที่ช่วยทำงานกับการนำเสนอ |
-| [Aspose.Slides.Vba](./aspose.slides.vba) | ประกอบด้วยคลาสสำหรับทำงานกับแมโคร VBA |
-| [Aspose.Slides.Warnings](./aspose.slides.warnings) | ประกอบด้วยคลาสที่แสดงคำเตือนหลายประเภท |
+| [Aspose.Slides](./aspose.slides) | มีคลาสสำหรับทำงานกับงานนำเสนอ Microsoft PowerPoint โดยไม่ใช้ Microsoft PowerPoint |
+| [Aspose.Slides.AI](./aspose.slides.ai) | มีคลาสที่ให้คุณลักษณะที่ใช้ AI สำหรับการวิเคราะห์และประมวลผลงานนำเสนอ PowerPoint |
+| [Aspose.Slides.Animation](./aspose.slides.animation) | มีคลาสสำหรับทำงานกับแอนิเมชันในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.Charts](./aspose.slides.charts) | มีคลาสสำหรับทำงานกับแผนภูมิในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | มีคลาสสำหรับทำงานกับอ็อบเจ็กต์ OLE ในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.Effects](./aspose.slides.effects) | มีคลาสสำหรับทำงานกับเอฟเฟกต์ต่างๆในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | มีคลาสสำหรับทำงานกับสเปรดชีต Microsoft Excel ภายนอก |
+| [Aspose.Slides.Export](./aspose.slides.export) | มีคลาสสำหรับส่งออกงานนำเสนอ Microsoft PowerPoint ไปยังรูปแบบต่างๆ เช่น Html, Pdf, Svg, Xps และอื่นๆ |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | มีคลาสสำหรับส่งออกงานนำเสนอ Microsoft PowerPoint ไปยัง Html พร้อมโครงการส่วนขยาย |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | มีคลาสสำหรับส่งออกงานนำเสนอ Microsoft PowerPoint ไปยัง XAML |
+| [Aspose.Slides.Import](./aspose.slides.import) | มีคลาสสำหรับนำเข้าข้อมูลลงในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | มีคลาสสำหรับทำงานกับ Ink |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | มีคลาสและเมธอดสำหรับจัดการการดำเนินการทั่วไปที่ซับซ้อนในแบบ low code |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | มีคลาสสำหรับทำงานกับข้อความคณิตศาสตร์ในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | มีคลาสสำหรับจัดการการแสดงสไลด์และการเปลี่ยนสไลด์ |
+| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | มีคลาสสำหรับทำงานกับอ็อบเจ็กต์ SmartArt |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | มีคลาสสำหรับทำงานกับอ็อบเจ็กต์สเปรดชีตในงานนำเสนอ Microsoft PowerPoint |
+| [Aspose.Slides.Theme](./aspose.slides.theme) | มีคลาสสำหรับทำงานกับธีมประเภทต่างๆ |
+| [Aspose.Slides.Util](./aspose.slides.util) | มีคลาสยูทิลิตี้ที่ช่วยทำงานกับงานนำเสนอ |
+| [Aspose.Slides.Vba](./aspose.slides.vba) | มีคลาสสำหรับทำงานกับแมโคร VBA |
+| [Aspose.Slides.Warnings](./aspose.slides.warnings) | มีคลาสที่แสดงคำเตือนหลายประเภท |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

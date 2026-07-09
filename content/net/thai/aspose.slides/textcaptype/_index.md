@@ -1,14 +1,14 @@
 ---
 title: TextCapType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงประเภทของการพิมพ์ตัวอักษรในข้อความ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงประเภทของการใช้ตัวพิมพ์ใหญ่ของข้อความ.
 type: docs
 weight: 10930
 url: /th/aspose.slides/textcaptype/
 ---
-## TextCapType การนับค่า
+## การนับค่าชนิด TextCapType
 
-แสดงประเภทของการพิมพ์ตัวอักษรในข้อความ.
+แสดงถึงประเภทของการใช้ตัวพิมพ์ใหญ่ของข้อความ.
 
 ```csharp
 public enum TextCapType : sbyte

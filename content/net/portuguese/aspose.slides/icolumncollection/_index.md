@@ -1,9 +1,9 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a coleção de colunas em uma tabela.
 type: docs
-weight: 5510
+weight: 5530
 url: /pt/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection interface

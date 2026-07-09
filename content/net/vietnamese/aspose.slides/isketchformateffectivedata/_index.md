@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính bản phác đường hiệu quả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến chứa các thuộc tính phác thảo đường hiệu quả.
 type: docs
 weight: 7030
 url: /vi/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính bản phác đường hiệu quả.
+Đối tượng bất biến chứa các thuộc tính phác thảo đường hiệu quả.
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,7 +18,7 @@ public interface ISketchFormatEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Trả về loại bản phác. Chỉ đọc [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Trả về kiểu phác thảo. Chỉ đọc [`LineSketchType`](../linesketchtype). |
 
 ### Ghi chú
 

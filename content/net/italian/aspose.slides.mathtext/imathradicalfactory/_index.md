@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Consente di creare radicale matematico
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Consente di creare una radice matematica
 type: docs
-weight: 8420
+weight: 8440
 url: /it/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory interfaccia
 
-Consente di creare radicale matematico
+Consente di creare una radice matematica
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Crea un radicale matematico |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Crea una radice matematica |
 
 ### Osservazioni
 

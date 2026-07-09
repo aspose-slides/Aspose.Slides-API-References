@@ -14,21 +14,21 @@ url: /zh-hant/aspose.slides.vba/vbareferencefactory/
 public class VbaReferenceFactory : IVbaReferenceFactory
 ```
 
-## 建構函式
+## 建構子
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() | 預設建構函式。 |
+| [VbaReferenceFactory](vbareferencefactory)() | 預設建構子。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 專案參考工廠靜態實例。唯讀 [`VbaReferenceFactory`](../vbareferencefactory)。 |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA 專案參考工廠的靜態實例。唯讀 [`VbaReferenceFactory`](../vbareferencefactory)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | 建立新的 OLE Automation 類型庫參考。 |
 

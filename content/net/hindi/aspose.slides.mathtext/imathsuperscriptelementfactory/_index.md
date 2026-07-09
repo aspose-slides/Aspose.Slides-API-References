@@ -1,6 +1,6 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathSuperscriptElement बनाने की अनुमति देता है
 type: docs
 weight: 8500
@@ -14,17 +14,17 @@ IMathSuperscriptElement बनाने की अनुमति देता �
 public interface IMathSuperscriptElementFactory
 ```
 
-## मेथड्स
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | [CreateMathSuperscriptElement](../../aspose.slides.mathtext/imathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | IMathSuperscriptElement बनाता है |
 
-### टिप्पणियाँ
+### टिप्पणियां
 
 COM संगतता के लिए
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

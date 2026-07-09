@@ -1,14 +1,14 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์การสะท้อน.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงเอฟเฟ็กต์การสะท้อน.
 type: docs
 weight: 3500
 url: /th/aspose.slides.effects/ireflection/
 ---
-## อินเทอร์เฟซ IReflection
+## IReflection อินเทอร์เฟซ
 
-Represents a reflection effect.
+แสดงถึงเอฟเฟ็กต์การสะท้อน
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | รัศมีการเบลอ. อ่าน/เขียน Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | รัศมีเบลอ. อ่าน/เขียน Double. |
 | [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | ทิศทางของการสะท้อน. อ่าน/เขียน Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | ระยะของการสะท้อน. อ่าน/เขียน Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | ระบุตำแหน่งสุดท้าย (ตามแนวลาดสีโปร่งใส) ของค่าอัลฟาสุดท้าย (เปอร์เซ็นต์). อ่าน/เขียน Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | ความทึบของการสะท้อนสุดท้าย. (เปอร์เซ็นต์). อ่าน/เขียน Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | ระบุทิศทางการเลื่อนของการสะท้อน. (องศา). อ่าน/เขียน Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | การจัดตำแหน่งสี่เหลี่ยม. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | ระบุว่าการสะท้อนควรหมุนพร้อมกับรูปร่างหรือไม่ หากรูปร่างถูกหมุน. อ่าน/เขียน Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | ระบุปัจจัยการปรับขนาดแนวนอน, การปรับขนาดเชิงลบทำให้พลิก. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | ระบุปัจจัยการปรับขนาดแนวตั้ง, การปรับขนาดเชิงลบทำให้พลิก. (เปอร์เซ็นต์) อ่าน/เขียน Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | ระบุมุมเอียงแนวนอน. อ่าน/เขียน Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | ระบุมุมเอียงแนวตั้ง. อ่าน/เขียน Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | ระบุตำแหน่งเริ่มต้น (ตามแนวลาดสีโปร่งใส) ของค่าอัลฟ่าเริ่มต้น (เปอร์เซ็นต์). อ่าน/เขียน Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | ความทึบของการสะท้อนเริ่มต้น. (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | ระยะห่างของการสะท้อน. อ่าน/เขียน Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | ระบุตำแหน่งสิ้นสุด (ตามลาดสีไล่ระดับอัลฟา) ของค่าอัลฟาสิ้นสุด (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | ความทึบของการสะท้อนสุดท้าย (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | ระบุทิศทางเพื่อย้ายการสะท้อน (มุม). อ่าน/เขียน Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | การจัดแนวสี่เหลี่ยม. อ่าน/เขียน [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | ระบุว่าการสะท้อนควรหมุนตามรูปร่างหากรูปร่างถูกหมุน. อ่าน/เขียน Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | ระบุอัตราส่วนการปรับขนาดแนวนอน, การปรับขนาดเป็นค่าลบทำให้กลับด้าน (เปอร์เซ็นต์). อ่าน/เขียน Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | ระบุอัตราส่วนการปรับขนาดแนวตั้ง, การปรับขนาดเป็นค่าลบทำให้กลับด้าน (เปอร์เซ็นต์). อ่าน/เขียน Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | ระบุมุมการเอียงแนวนอน. อ่าน/เขียน Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | ระบุมุมการเอียงแนวตั้ง. อ่าน/เขียน Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | ระบุตำแหน่งเริ่มต้น (ตามลาดสีไล่ระดับอัลฟา) ของค่าอัลฟาเริ่มต้น (เปอร์เซ็นต์). อ่าน/เขียน Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | ความทึบของการสะท้อนเริ่มต้น (เปอร์เซ็นต์). อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

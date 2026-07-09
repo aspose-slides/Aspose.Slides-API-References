@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính định dạng cột bảng hiệu quả.
+description: Đối tượng bất biến chứa các thuộc tính định dạng cột bảng hiệu lực.
 type: docs
 weight: 5550
 url: /vi/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính định dạng cột bảng hiệu quả.
+Đối tượng bất biến chứa các thuộc tính định dạng cột bảng hiệu lực.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Cho phép lấy giao diện IBaseTableFormatEffectiveData cơ bản. Chỉ đọc [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Cho phép lấy giao diện cơ sở IBaseTableFormatEffectiveData. Chỉ đọc [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IColumnFormat`](../icolumnformat) để trả về các giá trị định dạng hiệu quả với kế thừa và kiểu bảng đã áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`IColumnFormat`](../icolumnformat) để trả về các giá trị định dạng hiệu lực với kế thừa và kiểu bảng đã được áp dụng.
 
 ### Xem thêm
 

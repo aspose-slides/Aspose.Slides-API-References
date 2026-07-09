@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
-second_title: Aspose.Sildes dla .NET – Odnośnik API
-description: Reprezentuje osiem typów przejść kierunkowych.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje osiem typów przejść w kierunkach.
 type: docs
-weight: 10340
+weight: 10360
 url: /pl/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType enumeracja
+## Typ wyliczeniowy TransitionEightDirectionType
 
-Reprezentuje osiem typów przejść kierunkowych.
+Reprezentuje osiem typów przejść w kierunkach.
 
 ```csharp
 public enum TransitionEightDirectionType

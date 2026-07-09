@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: مرجع API Aspose.Sildes لـ .NET
-description: تمثّل قيمة نصية يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا دفتر العمل المرتبط بالمخطط 2) كقيمة حرفية.
+description: تمثّل قيمة سلسلة يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا من دفتر عمل مرتبط بالمخطط 2) كقيمة حرفية.
 type: docs
 weight: 2410
 url: /ar/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue فئة
 
-تمثيل قيمة نصية يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا دفتر العمل المرتبط بالمخطط؛ 2) كقيمة حرفية.
+تمثّل قيمة سلسلة يمكن تخزينها في مستند عرض تقديمي pptx بطريقتين: 1) في خلية/خلايا من دفتر عمل مرتبط بالمخطط؛ 2) كقيمة حرفية.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | عدم السماح بتعيين قيمة فارغة. دائمًا ما تكون القيمة المرجعة غير فارغة. قراءة/كتابة [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | إرجاع أو تعيين القيمة كسلسلة حرفية. قراءة/كتابة String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | إرجاع أو تعيين كائن Data. قراءة/كتابة Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | تحديد ما إذا كان الخاصية AsCell أو AsCells أو AsLiteralString أو AsLiteralDouble هي الفعلية في الفروع. بمعنى آخر يحدد نوع قيمة الخاصية Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | تعيين القيمة الفارغة غير مسموح به. القيمة المرجعة ليست فارغة دائمًا. قراءة/كتابة [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | يُرجع أو يضبط القيمة كسلسلة حرفية. قراءة/كتابة String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | يُرجع أو يضبط كائن Data. قراءة/كتابة Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsCells أو AsLiteralString أو AsLiteralDouble هي الفعلية في الفروع. بعبارة أخرى يحدد نوع قيمة الخاصية Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
 
 ## الطرق
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | إذا كانت الخاصية DataSourceType هي DataSourceType.Worksheet فإن هذه الطريقة تُرجع عنوان الخلايا في دفتر العمل الذي يمثل بيانات السلسلة. وإلا تُرجع سلسلة فارغة. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | تعيين القيمة من الخلية المحددة. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | إرجاع بيانات قيمة السلسلة. إرجاع null إذا كان DataSourceType غير صحيح ولم يتم تعيين قيمة سلسلة. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | إذا كانت الخاصية DataSourceType هي DataSourceType.Worksheet فإن هذه الطريقة تُرجع عنوان الخلايا في دفتر العمل الذي يمثل بيانات النص. وإلا تُرجع سلسلة فارغة. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | يضبط القيمة من الخلية المحددة. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | يُرجع بيانات قيمة النص. تُرجع null إذا كان DataSourceType خاطئًا ولم يتم تعيين قيمة نصية. |
 
 ### انظر أيضًا
 

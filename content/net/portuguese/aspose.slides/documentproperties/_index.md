@@ -1,14 +1,14 @@
 ---
 title: DocumentProperties
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa as propriedades de uma apresentação.
+description: Representa propriedades de uma apresentação.
 type: docs
-weight: 2770
+weight: 2790
 url: /pt/aspose.slides/documentproperties/
 ---
 ## DocumentProperties classe
 
-Representa as propriedades de uma apresentação.
+Representa propriedades de uma apresentação.
 
 ```csharp
 public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocumentProperties>
@@ -18,46 +18,46 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 
 | Nome | Descrição |
 | --- | --- |
-| [DocumentProperties](documentproperties)() | Inicializa uma nova instância da classe [`DocumentProperties`](../documentproperties). |
+| [DocumentProperties](documentproperties)() | Inicializa nova instância da classe [`DocumentProperties`](../documentproperties). |
 
 ## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | Retorna ou define o modelo de um aplicativo. Leitura/gravação String. |
+| [ApplicationTemplate](../../aspose.slides/documentproperties/applicationtemplate) { get; set; } | Retorna ou define o modelo de uma aplicação. Leitura/Gravação String. |
 | [AppVersion](../../aspose.slides/documentproperties/appversion) { get; } | Retorna a versão do aplicativo. Somente leitura String. |
-| [Author](../../aspose.slides/documentproperties/author) { get; set; } | Retorna ou define o autor de uma apresentação. Leitura/gravação String. |
-| [Category](../../aspose.slides/documentproperties/category) { get; set; } | Retorna ou define a categoria de uma apresentação. Leitura/gravação String. |
-| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | Retorna ou define os comentários de uma apresentação. Leitura/gravação String. |
-| [Company](../../aspose.slides/documentproperties/company) { get; set; } | Retorna ou define a propriedade empresa. Leitura/gravação String. |
-| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | Retorna ou define o status de conteúdo de uma apresentação. Leitura/gravação String. |
-| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | Retorna ou define o tipo de conteúdo de uma apresentação. Leitura/gravação String. |
+| [Author](../../aspose.slides/documentproperties/author) { get; set; } | Retorna ou define o autor de uma apresentação. Leitura/Gravação String. |
+| [Category](../../aspose.slides/documentproperties/category) { get; set; } | Retorna ou define a categoria de uma apresentação. Leitura/Gravação String. |
+| [Comments](../../aspose.slides/documentproperties/comments) { get; set; } | Retorna ou define os comentários de uma apresentação. Leitura/Gravação String. |
+| [Company](../../aspose.slides/documentproperties/company) { get; set; } | Retorna ou define a propriedade company. Leitura/Gravação String. |
+| [ContentStatus](../../aspose.slides/documentproperties/contentstatus) { get; set; } | Retorna ou define o status de conteúdo de uma apresentação. Leitura/Gravação String. |
+| [ContentType](../../aspose.slides/documentproperties/contenttype) { get; set; } | Retorna ou define o tipo de conteúdo de uma apresentação. Leitura/Gravação String. |
 | [CountOfCustomProperties](../../aspose.slides/documentproperties/countofcustomproperties) { get; } | Retorna o número de propriedades personalizadas realmente contidas em uma coleção. Somente leitura Int32. |
-| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | Retorna a data em que a apresentação foi criada. Os valores estão em UTC. Leitura/gravação DateTime. |
+| [CreatedTime](../../aspose.slides/documentproperties/createdtime) { get; set; } | Retorna a data em que uma apresentação foi criada. Os valores estão em UTC. Leitura/Gravação DateTime. |
 | [HeadingPairs](../../aspose.slides/documentproperties/headingpairs) { get; } | Indica o agrupamento de partes do documento e o número de partes em cada grupo. Somente leitura IHeadingPair[]. |
 | [HiddenSlides](../../aspose.slides/documentproperties/hiddenslides) { get; } | Retorna o número de slides ocultos em um documento de apresentação. Somente leitura Int32. |
-| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | Retorna ou define a propriedade de documento HyperlinkBase. Leitura/gravação String. |
-| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | Especifica que um ou mais hyperlinks nesta parte foram atualizados exclusivamente nesta parte por um produtor. O próximo produtor a abrir este documento deverá atualizar os relacionamentos de hyperlinks com os novos hyperlinks especificados nesta parte. Leitura/gravação Boolean. |
-| [Item](../../aspose.slides/documentproperties/item) { get; set; } | Retorna ou define a propriedade personalizada associada a um nome especificado. Leitura/gravação Object. |
-| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | Retorna ou define as palavras-chave de uma apresentação. Leitura/gravação String. |
-| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | Retorna a data em que a apresentação foi impressa pela última vez. Leitura/gravação DateTime. |
-| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | Retorna ou define o nome da última pessoa que modificou a apresentação. Leitura/gravação String. |
-| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | Retorna a data em que a apresentação foi modificada pela última vez. Os valores estão em UTC. Somente leitura no caso de Presentation.DocumentProperties (pois será atualizado internamente durante o processo de gravação do objeto IPresentation). Pode ser alterado via instância DocumentProperties retornada pelo método [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Consulte o exemplo no resumo do método [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
-| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | Indica se os hyperlinks em um documento estão atualizados. Defina este elemento como **true** para indicar que os hyperlinks estão atualizados. Defina como **false** para indicar que os hyperlinks estão desatualizados. Leitura/gravação Boolean. |
-| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | Retorna ou define a propriedade manager. Leitura/gravação String. |
-| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | Retorna o número total de clipes de som ou vídeo presentes no documento. Somente leitura Int32. |
-| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | Retorna ou define o nome do aplicativo. Leitura/gravação String. |
-| [Notes](../../aspose.slides/documentproperties/notes) { get; } | Retorna o número de slides em uma apresentação que contêm anotações. Somente leitura Int32. |
+| [HyperlinkBase](../../aspose.slides/documentproperties/hyperlinkbase) { get; set; } | Retorna ou define a propriedade HyperlinkBase do documento. Leitura/Gravação String. |
+| [HyperlinksChanged](../../aspose.slides/documentproperties/hyperlinkschanged) { get; set; } | Especifica que um ou mais hyperlinks nesta parte foram atualizados exclusivamente nesta parte por um produtor. O próximo produtor a abrir este documento deverá atualizar os relacionamentos de hyperlinks com os novos hyperlinks especificados nesta parte. Leitura/Gravação Boolean. |
+| [Item](../../aspose.slides/documentproperties/item) { get; set; } | Retorna ou define a propriedade personalizada associada a um nome especificado. Leitura/Gravação Object. |
+| [Keywords](../../aspose.slides/documentproperties/keywords) { get; set; } | Retorna ou define as palavras-chave de uma apresentação. Leitura/Gravação String. |
+| [LastPrinted](../../aspose.slides/documentproperties/lastprinted) { get; set; } | Retorna a data em que uma apresentação foi impressa pela última vez. Leitura/Gravação DateTime. |
+| [LastSavedBy](../../aspose.slides/documentproperties/lastsavedby) { get; set; } | Retorna o nome da última pessoa que modificou uma apresentação. Leitura/Gravação String. |
+| [LastSavedTime](../../aspose.slides/documentproperties/lastsavedtime) { get; set; } | Retorna a data em que uma apresentação foi modificada pela última vez. Os valores estão em UTC. Somente leitura no caso de Presentation.DocumentProperties (porque será atualizado internamente durante o processo de salvamento do objeto IPresentation). Pode ser alterado através da instância DocumentProperties retornada pelo método [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Consulte o exemplo no resumo do método [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
+| [LinksUpToDate](../../aspose.slides/documentproperties/linksuptodate) { get; set; } | Indica se os hyperlinks em um documento estão atualizados. Defina este elemento como **true** para indicar que os hyperlinks estão atualizados. Defina este elemento como **false** para indicar que os hyperlinks estão desatualizados. Leitura/Gravação Boolean. |
+| [Manager](../../aspose.slides/documentproperties/manager) { get; set; } | Retorna ou define a propriedade manager. Leitura/Gravação String. |
+| [MultimediaClips](../../aspose.slides/documentproperties/multimediaclips) { get; } | Retorna o número total de clipes de áudio ou vídeo presentes no documento. Somente leitura Int32. |
+| [NameOfApplication](../../aspose.slides/documentproperties/nameofapplication) { get; set; } | Retorna ou define o nome da aplicação. Leitura/Gravação String. |
+| [Notes](../../aspose.slides/documentproperties/notes) { get; } | Retorna o número de slides em uma apresentação que contêm notas. Somente leitura Int32. |
 | [Paragraphs](../../aspose.slides/documentproperties/paragraphs) { get; } | Retorna o número total de parágrafos encontrados em um documento, se aplicável. Somente leitura Int32. |
-| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | Retorna ou define o formato pretendido de uma apresentação. Leitura/gravação String. |
-| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | Retorna ou define o número de revisão da apresentação. Leitura/gravação Int32. |
-| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | Indica o modo de exibição da miniatura do documento. Defina este elemento como **true** para habilitar o dimensionamento da miniatura do documento ao visor. Defina como **false** para habilitar o recorte da miniatura do documento para mostrar apenas as seções que cabem no visor. Leitura/gravação Boolean. |
-| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | Determina se a apresentação é compartilhada entre várias pessoas. Leitura/gravação Boolean. |
+| [PresentationFormat](../../aspose.slides/documentproperties/presentationformat) { get; set; } | Retorna ou define o formato pretendido de uma apresentação. Leitura/Gravação String. |
+| [RevisionNumber](../../aspose.slides/documentproperties/revisionnumber) { get; set; } | Retorna ou define o número de revisão da apresentação. Leitura/Gravação Int32. |
+| [ScaleCrop](../../aspose.slides/documentproperties/scalecrop) { get; set; } | Indica o modo de exibição da miniatura do documento. Defina este elemento como **true** para habilitar o dimensionamento da miniatura do documento para a exibição. Defina este elemento como **false** para habilitar o recorte da miniatura do documento para mostrar apenas as seções que se encaixam na exibição. Leitura/Gravação Boolean. |
+| [SharedDoc](../../aspose.slides/documentproperties/shareddoc) { get; set; } | Determina se a apresentação é compartilhada entre várias pessoas. Leitura/Gravação Boolean. |
 | [Slides](../../aspose.slides/documentproperties/slides) { get; } | Retorna o número total de slides em um documento de apresentação. Somente leitura Int32. |
-| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | Retorna ou define o assunto da apresentação. Leitura/gravação String. |
-| [Title](../../aspose.slides/documentproperties/title) { get; set; } | Retorna ou define o título da apresentação. Leitura/gravação String. |
-| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Especifica o título de cada parte do documento. Essas partes não são partes do documento, mas representações conceituais de seções do documento. Somente leitura string[]. |
-| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | Tempo total de edição de uma apresentação. Leitura/gravação TimeSpan. |
+| [Subject](../../aspose.slides/documentproperties/subject) { get; set; } | Retorna ou define o assunto de uma apresentação. Leitura/Gravação String. |
+| [Title](../../aspose.slides/documentproperties/title) { get; set; } | Retorna ou define o título de uma apresentação. Leitura/Gravação String. |
+| [TitlesOfParts](../../aspose.slides/documentproperties/titlesofparts) { get; } | Especifica o título de cada parte do documento. Estas partes não são partes do documento, mas representações conceituais de seções do documento. Somente leitura string[]. |
+| [TotalEditingTime](../../aspose.slides/documentproperties/totaleditingtime) { get; set; } | Tempo total de edição de uma apresentação. Leitura/Gravação TimeSpan. |
 | [Words](../../aspose.slides/documentproperties/words) { get; } | Retorna o número total de palavras contidas em um documento. Somente leitura Int32. |
 
 ## Métodos
@@ -87,7 +87,7 @@ public class DocumentProperties : IDocumentProperties, IGenericCloneable<IDocume
 
 ### Exemplos
 
-O exemplo abaixo mostra como acessar as Propriedades built-in de uma apresentação do PowerPoint.
+O exemplo a seguir mostra como acessar as Propriedades incorporadas de uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -105,7 +105,7 @@ using (Presentation pres = new Presentation(dataDir + "AccessBuiltin Properties.
 }
 ```
 
-O exemplo abaixo mostra como modificar as Propriedades built-in de uma apresentação do PowerPoint.
+O exemplo a seguir mostra como modificar as Propriedades incorporadas de uma apresentação PowerPoint.
 
 ```csharp
 [C#]
@@ -123,11 +123,11 @@ using (Presentation presentation = new Presentation(dataDir + "ModifyBuiltinProp
 }
 ```
 
-### Ver Também
+### Ver também
 
 * interface [IDocumentProperties](../idocumentproperties)
 * interface [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
-* namespace [Aspose.Slides](../../aspose.slides)
+* espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

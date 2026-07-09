@@ -1,14 +1,14 @@
 ---
 title: IPresentationText
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Biểu thị văn bản được trích xuất từ slide
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn văn bản được trích xuất từ slide
 type: docs
 weight: 6800
 url: /vi/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText giao diện
 
-Biểu thị văn bản được trích xuất từ slide
+Biểu diễn văn bản được trích xuất từ slide
 
 ```csharp
 public interface IPresentationText
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Tên | Mô tả |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Một mảng của [`SlideText`](../islidetext) chứa văn bản của bản trình chiếu. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | Một mảng của [`SlideText`](../islidetext) chứa văn bản của bài thuyết trình. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Představuje kolekci objektů Summary Zoom Section.
 type: docs
-weight: 10770
+weight: 10790
 url: /cs/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSection třída
 
-Represents a collection of Summary Zoom Section objects.
+Representuje kolekci objektů Summary Zoom Section.
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -19,8 +19,8 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Získá počet skutečně obsažených prvků ve sbírce. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Vrátí hodnotu indikující, zda je přístup k sbírce synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Získá počet prvků ve skutečnosti obsažených v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Vrátí hodnotu označující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Vrátí kořen synchronizace. Pouze pro čtení Object. |
 
@@ -28,13 +28,13 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Název | Popis |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Vytvoří nový objekt Summary Zoom Section a přidá jej do sbírky |
-| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Odstraní všechny objekty SummaryZoomSection ze sbírky. |
-| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Zkopíruje celou sbírku do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Vrátí enumerátor, který prochází sbírku. |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Vytvoří nový objekt Summary Zoom Section a přidá jej do kolekce |
+| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Odstraní všechny objekty SummaryZoomSection z kolekce. |
+| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Zkopíruje celou kolekci do zadaného pole. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Vrátí prvek Summary Zoom Section pro danou sekci. |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Vrátí index zadaného objektu SummaryZoomSection. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Odstraní objekt Summary Zoom Section ze sbírky. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Odstraní objekt Summary Zoom Section z kolekce. |
 
 ### Viz také
 

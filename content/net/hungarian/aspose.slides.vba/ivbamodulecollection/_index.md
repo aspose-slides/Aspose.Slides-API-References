@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: A VBA Project modulok gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy VBA projekt moduljainak gyűjteményét képviseli.
 type: docs
-weight: 11520
+weight: 11540
 url: /hu/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection interfész
 
-A VBA Project modulok gyűjteményét képviseli.
+Egy VBA-projekt moduljainak gyűjteményét képvisel.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -18,14 +18,14 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Visszaadja az elemet a megadott indexnél. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Visszaadja a megadott indexű elemet. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Új üres modult ad hozzá a VBA Project-hez. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Eltávolítja egy adott objektum első előfordulását a gyűjteményből. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Új üres modult ad a VBA-projekthez. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
 
 ### Lásd még
 

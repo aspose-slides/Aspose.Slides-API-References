@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en manager som innehåller beteendet för layout-bildens fot, datum-tid- och sidnummer-platshållare samt alla underordnade platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden.
+description: Representerar manager som hanterar beteendet för layout slide fot-, datum-tid- och sidnummer-platshållare samt alla underordnade platshållare. Underordnade platshållare innebär att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av layout slide.
 type: docs
-weight: 6220
+weight: 6240
 url: /sv/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager gränssnitt
 
-Representerar en manager som håller beteendet för layout-bildens fot, datum-tid- och sidnummer-platshållare samt alla underordnade platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden.
+Representerar manager som håller beteendet för layout-slide sidfot, datum-tid, sidnummer-platshållare och alla underordnade platshållare. Underordnade platshållare betyder att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av layout-slide.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,16 +24,16 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ställer in text till layout-bildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för layout-bildens datum-tid-platshållare och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ställer in text till layout-bildens fot-platshållare och alla underordnade fot-platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för layout-bildens fot-platshållare och alla underordnade fot-platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av master-bilden. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för layout-bildens sidnummer-platshållare och alla underordnade sidnummer-platshållare. Underordnade platshållare betyder att platshållarna finns på beroende bilder. Beroende bilder använder och är beroende av layout-bilden. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Sätter text i layout-slide datum-tid-platshållaren och alla underordnade datum-tid-platshållare. Underordnade platshållare betyder att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av layout-slide. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ändrar synligheten för layout-slide datum-tid-platshållaren och alla underordnade datum-tid-platshållare. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Sätter text i layout-slide fot-platshållaren och alla underordnade fot-platshållare. Underordnade platshållare betyder att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av layout-slide. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ändrar synligheten för layout-slide fot-platshållaren och alla underordnade fot-platshållare. Underordnade platshållare betyder att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av master-slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ändrar synligheten för layout-slide sidnummer-platshållaren och alla underordnade sidnummer-platshållare. Underordnade platshållare betyder att platshållare finns på beroende bilder. Beroende bilder använder och är beroende av layout-slide. |
 
 ### Se även
 
 * gränssnitt [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* samling [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

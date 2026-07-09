@@ -1,12 +1,12 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET referenční příručku
 description: Reprezentuje typ animačního efektu pro prvek grafu.
 type: docs
-weight: 270
+weight: 290
 url: /cs/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType výčet
+## EffectChartMajorGroupingType výčtový typ
 
 Reprezentuje typ animačního efektu pro prvek grafu.
 
@@ -18,8 +18,8 @@ public enum EffectChartMajorGroupingType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| BySeries | `0` | Animovat graf podle série |
-| ByCategory | `1` | Animovat graf podle kategorie |
+| BySeries | `0` | Animovat graf po sériích |
+| ByCategory | `1` | Animovat graf po kategoriích |
 
 ### Viz také
 

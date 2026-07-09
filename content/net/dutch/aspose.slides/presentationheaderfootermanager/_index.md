@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van alle voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen van de presentatie bevat.
+description: Vertegenwoordigt een manager die gedrag bevat van alle voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen van de presentatie.
 type: docs
 weight: 9610
 url: /nl/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager klasse
 
-Stelt een manager voor die het gedrag van alle voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen van de presentatie bevat.
+Vertegenwoordigt een manager die gedrag bevat van alle voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen van de presentatie.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,20 +19,20 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Stelt de tekst in voor alle datum-tijd-plaatsaanduidingen, inclusief masterslides, layout-slides, slides, notitie-master, notitieslides en handout-master. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van alle datum-tijd-plaatsaanduidingen, inclusief masterslides, layout-slides, slides, notitie-master, notitieslides en handout-master. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Stelt de tekst in voor alle voettekst-plaatsaanduidingen, inclusief masterslides, layout-slides, slides, notitie-master, notitieslides en handout-master. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Wijzigt de zichtbaarheid van alle voettekst-plaatsaanduidingen, inclusief masterslides, layout-slides, slides, notitie-master, notitieslides en handout-master. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Stelt de tekst in voor alle koptekst-plaatsaanduidingen, inclusief notitie-master, notitieslides en handout-master. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Wijzigt de zichtbaarheid van alle koptekst-plaatsaanduidingen, inclusief notitie-master, notitieslides en handout-master. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van alle paginanummer-plaatsaanduidingen, inclusief masterslides, layout-slides, slides, notitie-master, notitieslides en handout-master. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Wijzigt de zichtbaarheid van de voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen voor alle titelslides en voor de eerste layout-slide. Titelslides – slides gebaseerd op de eerste layout-slide (ongeacht het type van deze eerste layout). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Stelt de tekst in voor alle datum-tijd-plaatsaanduidingen, inclusief master slides, layout slides, slides, notes master, notes slides en handout master. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Wijzigt de zichtbaarheid van alle datum-tijd-plaatsaanduidingen, inclusief master slides, layout slides, slides, notes master, notes slides en handout master. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Stelt de tekst in voor alle voettekst-plaatsaanduidingen, inclusief master slides, layout slides, slides, notes master, notes slides en handout master. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Wijzigt de zichtbaarheid van alle voettekst-plaatsaanduidingen, inclusief master slides, layout slides, slides, notes master, notes slides en handout master. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Stelt de tekst in voor alle koptekst-plaatsaanduidingen, inclusief notes master, notes slides en handout master. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Wijzigt de zichtbaarheid van alle koptekst-plaatsaanduidingen, inclusief notes master, notes slides en handout master. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Wijzigt de zichtbaarheid van alle paginanummer-plaatsaanduidingen, inclusief master slides, layout slides, slides, notes master, notes slides en handout master. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Wijzigt de zichtbaarheid van de voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen voor alle title slides en voor de eerste layout slide. Title slides – slides gebaseerd op de eerste layout slide (ongeacht het type van deze eerste layout). |
 
 ### Zie ook
 
 * klasse [BaseHeaderFooterManager](../baseheaderfootermanager)
 * interface [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

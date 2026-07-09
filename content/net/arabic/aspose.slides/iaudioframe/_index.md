@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل مقطعًا صوتيًا على شريحة.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تمثل مقطعًا صوتيًا على الشريحة.
 type: docs
 weight: 5230
 url: /ar/aspose.slides/iaudioframe/
 ---
-## IAudioFrame واجهة
+## واجهة IAudioFrame
 
-يمثل مقطع صوتي على شريحة.
+يمثل مقطع صوتي على الشريحة.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -16,33 +16,33 @@ public interface IAudioFrame : IPictureFrame
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | يسمح بالحصول على واجهة IPictureFrame الأساسية. للقراءة فقط [`IPictureFrame`](../ipictureframe). |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | يسمح بالحصول على الواجهة الأساسية IPictureFrame. للقراءة فقط [`IPictureFrame`](../ipictureframe). |
 | [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | إرجاع أو تعيين فهرس المسار الأخير قراءة/كتابة Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | إرجاع أو تعيين وقت المسار الأخير قراءة/كتابة Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | إرجاع أو تعيين فهرس المسار الابتدائي قراءة/كتابة Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | إرجاع أو تعيين وقت المسار الابتدائي قراءة/كتابة Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | يحصل على مجموعة التسميات المغلقة المرتبطة بإطار الصوت. هذه الخاصية للقراءة فقط وتُرجع [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات التسمية. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | يُحدد ما إذا كان الصوت مضمّنًا في العرض التقديمي. للقراءة فقط Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | إرجاع أو تعيين كائن الصوت المضمّن. قراءة/كتابة [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | يحدد المدة الزمنية للانتقال التدريجي الأولي للوسائط بالمللي ثانية. قراءة/كتابة Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | يحدد المدة الزمنية للانتقال التدريجي النهائي للوسائط بالمللي ثانية. قراءة/كتابة Single. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | إرجاع أو تعيين وقت آخر مسار. قراءة/كتابة Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | إرجاع أو تعيين فهرس بداية المسار. قراءة/كتابة Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | إرجاع أو تعيين وقت بداية المسار. قراءة/كتابة Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | يحصل على مجموعة التسميات المغلقة المرتبطة بإطار الصوت. هذه الخاصية للقراءة فقط وتعيد [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات التسميات. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | يحدد ما إذا كان الصوت مضمنًا في العرض التقديمي. للقراءة فقط Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | إرجاع أو تعيين كائن الصوت المضمن. قراءة/كتابة [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | يحدد مدة الوقت للظهور التدريجي الأولي للوسائط بالملليثانية. قراءة/كتابة Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | يحدد مدة الوقت للخفوت التدريجي النهائي للوسائط بالملليثانية. قراءة/كتابة Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | يحدد ما إذا كان AudioFrame مخفيًا. قراءة/كتابة Boolean. |
 | [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | إرجاع أو تعيين اسم ملف الصوت المرتبط بـ AudioFrame. قراءة/كتابة String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | يحدد ما إذا كان الصوت يُشغَل عبر الشرائح. قراءة/كتابة Boolean. |
-| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | يحدد ما إذا كان الصوت يُعاد تشغيله بشكل حلقي. قراءة/كتابة Boolean. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | يحدد ما إذا كان الصوت يُشغّل عبر الشرائح. قراءة/كتابة Boolean. |
+| [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | يحدد ما إذا كان الصوت متكررًا. قراءة/كتابة Boolean. |
 | [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | إرجاع أو تعيين وضع تشغيل الصوت. قراءة/كتابة [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | يحدد ما إذا كان الصوت يُعاد إلى البداية تلقائيًا بعد التشغيل. قراءة/كتابة Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | يحدد المدة الزمنية لإزالتها من نهاية الوسائط أثناء التشغيل بالمللي ثانية. قراءة/كتابة Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | يحدد المدة الزمنية لإزالتها من بداية الوسائط أثناء التشغيل بالمللي ثانية. قراءة/كتابة Single. |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | يحدد ما إذا كان الصوت يُعاد تلقائيًا إلى البداية بعد التشغيل. قراءة/كتابة Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | يحدد مدة الوقت التي يجب إزالتها من نهاية الوسائط أثناء التشغيل، بالملليثانية. قراءة/كتابة Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | يحدد مدة الوقت التي يجب إزالتها من بداية الوسائط أثناء التشغيل، بالملليثانية. قراءة/كتابة Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | إرجاع أو تعيين مستوى صوت الصوت. قراءة/كتابة [`AudioVolumeMode`](../audiovolumemode). |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | إرجاع أو تعيين مستوى صوت الصوت بالنسبة المئوية. قراءة/كتابة Single. |
 
 ### انظر أيضًا
 
-* الواجهة [IPictureFrame](../ipictureframe)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IPictureFrame](../ipictureframe)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* مجموعة تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

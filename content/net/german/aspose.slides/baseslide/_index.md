@@ -1,15 +1,14 @@
 ---
 title: BaseSlide
-second_title: Aspose.Slides für .NET API-Referenz
-description: Stellt gemeinsame Daten für alle Folientypen dar.
+second_title: Aspose.Sildes für .NET API Referenz
+description: Stellt gemeinsame Daten für alle Folientypen bereit.
 type: docs
-weight: 910
+weight: 990
 url: /de/aspose.slides/baseslide/
 ---
+## BaseSlide Klasse
 
-## BaseSlide-Klasse
-
-Stellt gemeinsame Daten für alle Folientypen dar.
+Stellt gemeinsame Daten für alle Folientypen bereit.
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
@@ -19,32 +18,32 @@ public abstract class BaseSlide : IBaseSlide
 
 | Name | Beschreibung |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Nur lesbar [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur lesbar [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Nur lesbar [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur lesbar [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder legt ihn fest. Lese-/Schreibzeichenfolge. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Gibt das IPresentation-Interface zurück. Nur lesbar [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Nur lesbar [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Gibt an, ob die Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Für die Masterfolie selbst gibt diese Eigenschaft immer `false` zurück. Lese-/Schreib-Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Nur lesbar UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Transition-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow voranschreitet. Nur lesbar [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animations-Zeitachsenobjekt zurück. Nur lesbar [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Nur-Lese [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung der ActiveX-Steuerelemente einer Folie zurück. Nur-Lese [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Nur-Lese [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-Lese [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder setzt ihn. Lese/Schreib String. |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Gibt die IPresentation-Schnittstelle zurück. Nur-Lese [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Nur-Lese [`IShapeCollection`](../ishapecollection). |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Legt fest, ob Formen auf der Master-Folie in den Folien angezeigt werden sollen oder nicht. Für die Master-Folie selbst liefert diese Eigenschaft immer `false`. Lese/Schreib Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Nur-Lese UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Transition-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Vorführung fortschreitet. Nur-Lese [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animations-Zeitlinien-Objekt zurück. Nur-Lese [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Gibt ein effektives Thema für diese Folie zurück. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird auf Basis der Struktur und des statischen Inhalts der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Identifikatorwerte, z.B. SlideId und dynamischen Inhalt, z.B. den aktuellen Datumswert im Datumsplatzhalter. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Gibt ein effektives Theme für diese Folie zurück. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf Struktur und statischem Inhalt der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Kennungswerte, z. B. SlideId, und keinen dynamischen Inhalt, z. B. den aktuellen Datumswert im Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen Alternativtext. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Verbindet Absätze mit demselben Format in allen akzeptablen Formen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Verbindet Absätze mit demselben Format in allen akzeptablen Formen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Fügt Lauftexte mit gleicher Formatierung in allen Absätzen aller akzeptablen Formen zusammen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Fügt Lauftexte mit gleicher Formatierung in allen Absätzen aller akzeptablen Formen zusammen. |
 
 ### Siehe auch
 
-* interface [IBaseSlide](../ibaseslide)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* Schnittstelle [IBaseSlide](../ibaseslide)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

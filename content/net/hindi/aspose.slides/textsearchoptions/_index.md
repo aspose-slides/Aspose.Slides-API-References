@@ -1,32 +1,32 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति स्लाइड या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक Presentation Slide या TextFrame में पाठ खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 10970
 url: /hi/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions क्लास
 
-प्रस्तुति, स्लाइड या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
+एक Presentation, Slide या TextFrame में पाठ खोजने के लिए उपयोग की जा सकने वाली विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
 ```
 
-## कंस्ट्रक्टर
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [TextSearchOptions](textsearchoptions)() | नया डिफ़ॉल्ट टेक्स्ट सर्च विकल्प बनाता है। |
+| [TextSearchOptions](textsearchoptions)() | नई डिफ़ॉल्ट टेक्स्ट सर्च विकल्प बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | सही (true) सेट करें ताकि केस-सेंसिटिव खोज का उपयोग हो, अन्यथा गलत (false)। पढ़ने/लिखने योग्य Boolean। |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | `true` सेट करें ताकि स्लाइड नोट्स ([`NotesSlide`](../notesslide)) में मौजूद टेक्स्ट को टेक्स्ट खोज, प्रतिस्थापन या हाइलाइटिंग संचालन के दौरान शामिल किया जा सके। डिफ़ॉल्ट मान `false` है। |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | `true` सेट करें ताकि केवल पूर्ण शब्दों से मेल हो, अन्यथा `false`। पढ़ने/लिखने योग्य Boolean। |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | केस-संवेदनशील खोज के लिए `true` सेट करें, अन्यथा `false`। पढ़ने/लिखने योग्य Boolean। |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | पाठ खोज, प्रतिस्थापन या हाइलाइटिंग संचालन के दौरान स्लाइड नोट्स ([`NotesSlide`](../notesslide)) में मौजूद पाठ को शामिल करने के लिए `true` सेट करें। डिफ़ॉल्ट मान `false` है। |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | केवल पूर्ण शब्दों से मेल खाने के लिए `true` सेट करें, अन्यथा `false`। पढ़ने/लिखने योग्य Boolean। |
 
 ### देखें
 

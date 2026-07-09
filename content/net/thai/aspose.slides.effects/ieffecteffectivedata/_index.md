@@ -1,14 +1,14 @@
 ---
 title: IEffectEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คลาสพื้นฐานสำหรับอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: คลาสฐานสำหรับวัตถุที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์.
 type: docs
 weight: 3280
 url: /th/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData อินเทอร์เฟซ
 
-คลาสพื้นฐานสำหรับอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์
+คลาสฐานสำหรับวัตถุที่ไม่สามารถเปลี่ยนแปลงได้ ซึ่งเป็นตัวแทนของเอฟเฟกต์
 
 ```csharp
 public interface IEffectEffectiveData

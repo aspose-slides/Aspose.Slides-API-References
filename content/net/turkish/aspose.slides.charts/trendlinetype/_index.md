@@ -1,14 +1,14 @@
 ---
 title: TrendlineType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Trend çizgisinin türünü temsil eder
+description: Trend çizgisinin tipini temsil eder
 type: docs
-weight: 2470
+weight: 2490
 url: /tr/aspose.slides.charts/trendlinetype/
 ---
-## TrendlineType numaralandırması
+## TrendlineType sayımı
 
-Trend çizgisinin türünü temsil eder
+Trend çizgisinin tipini temsil eder
 
 ```csharp
 public enum TrendlineType
@@ -18,14 +18,14 @@ public enum TrendlineType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Exponential | `0` | Trend çizgisinin, biçimde bir üstel eğri olacağını belirtir. |
-| Linear | `1` | Trend çizgisinin, biçimde bir çizgi olacağını belirtir. |
-| Logarithmic | `2` | Trend çizgisinin, biçimde bir logaritmik eğri olacağını belirtir, burada log doğal logaritmadır. |
-| MovingAverage | `3` | Trend çizgisinin, Period periyodunda bir hareketli ortalama olacağını belirtir. |
-| Polynomial | `4` | Trend çizgisinin, Order derecesinde bir polinom eğri olacağını belirtir. |
-| Power | `5` | Trend çizgisinin, biçimde bir güç eğrisi olacağını belirtir. |
+| Exponential | `0` | Trend çizgisi, formda üstel bir eğri olmalıdır. |
+| Linear | `1` | Trend çizgisi, formda bir çizgi olmalıdır. |
+| Logarithmic | `2` | Trend çizgisi, formda logaritmik bir eğri olmalıdır, burada log doğal logaritmadır. |
+| MovingAverage | `3` | Trend çizgisi, Period periyodunun hareketli ortalaması olmalıdır. |
+| Polynomial | `4` | Trend çizgisi, formda Order dereceli bir polinom eğrisi olmalıdır. |
+| Power | `5` | Trend çizgisi, formda bir güç eğrisi olmalıdır. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

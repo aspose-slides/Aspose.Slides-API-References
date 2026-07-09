@@ -3,10 +3,10 @@ title: ITabCollection
 second_title: Aspose.Sildes .NET API Referansı
 description: Sekmelerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 7180
+weight: 7200
 url: /tr/aspose.slides/itabcollection/
 ---
-## ITabCollection arayüzü
+## ITabCollection arayüz
 
 Sekmelerin bir koleksiyonunu temsil eder.
 
@@ -18,7 +18,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ITab`](../itab). |
 
 ## Yöntemler
 
@@ -27,7 +27,7 @@ public interface ITabCollection : IGenericCollection<ITab>
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Koleksiyona bir Tab ekler. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Koleksiyona bir Tab ekler. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Koleksiyondaki belirtilen dizindeki öğeyi kaldırır. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
 
 ### Ayrıca Bakınız
 

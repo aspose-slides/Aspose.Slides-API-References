@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนเวิร์กบุ๊กที่ให้การเข้าถึงข้อมูล Excel เพื่อการใช้งานทั่วไป.
+second_title: Aspose.Sildes for .NET เอกสารอ้างอิง API
+description: แสดงถึงเวิร์กบุ๊คที่ให้การเข้าถึงข้อมูล Excel เพื่อการใช้งานทั่วไป.
 type: docs
 weight: 3690
 url: /th/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook คลาส
 
-แทนเวิร์กบุ๊กที่ให้การเข้าถึงข้อมูล Excel เพื่อการใช้งานทั่วไป.
+แสดงถึงเวิร์กบุ๊คที่ให้การเข้าถึงข้อมูล Excel เพื่อการใช้งานทั่วไป.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -25,13 +25,13 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | ดึงเซลล์จากแผ่นงานที่ระบุโดยใช้ดัชนีและชื่อเซลล์แบบ Excel (เช่น "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | ดึงเซลล์จากแผ่นงานที่ระบุโดยใช้ชื่อเซลล์แบบ Excel (เช่น "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | ดึงเซลล์จากแผ่นงานที่ระบุโดยใช้ดัชนีและพิกัดเซลล์. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | ดึงเซลล์จากแผ่นงานที่ระบุโดยใช้ชื่อและพิกัดเซลล์. |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | ดึงคอลเลกชันของเซลล์จากเวิร์กบุ๊กที่ตรงกับสูตรที่ระบุ. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | ดึงพจนานุกรมที่มีดัชนีและชื่อของแผนภูมิทั้งหมดในแผ่นงานที่ระบุของเวิร์กบุ๊ก Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | ดึงชื่อของแผ่นงานทั้งหมดที่อยู่ในเวิร์กบุ๊ก Excel. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | ดึงเซลล์จากเวิร์กชีตที่ระบุโดยใช้ดัชนีและชื่อเซลล์แบบ Excel (เช่น "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | ดึงเซลล์จากเวิร์กชีตที่ระบุโดยใช้ชื่อเซลล์แบบ Excel (เช่น "B2"). |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | ดึงเซลล์จากเวิร์กชีตที่ระบุโดยใช้ดัชนีและพิกัดของเซลล์. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | ดึงเซลล์จากเวิร์กชีตที่ระบุโดยใช้ชื่อและพิกัดของเซลล์. |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | ดึงชุดของเซลล์จากเวิร์กบุ๊คที่ตรงกับสูตรที่ระบุ. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | ดึงพจนานุกรมที่บรรจุดัชนีและชื่อของแผนภูมิทั้งหมดในเวิร์กชีตที่ระบุของเวิร์กบุ๊ค Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | ดึงชื่อของเวิร์กชีตทั้งหมดที่อยู่ในเวิร์กบุ๊ค Excel. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert de generieke versie van ICloneable
+second_title: Aspose.Sildes for .NET API-referentie
+description: Stelt een generieke versie van ICloneable voor
 type: docs
 weight: 5950
 url: /nl/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> interface
 
-Geeft de generieke versie van ICloneable weer
+Stelt een generieke versie van ICloneable voor
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -16,13 +16,13 @@ public interface IGenericCloneable<T> : ICloneable
 
 | Parameter | Beschrijving |
 | --- | --- |
-| T | Het type object dat moet worden gekloond |
+| T | Het type object dat gekloond moet worden |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | Retourneert ICloneable-interface. |
+| [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | Retourneert de ICloneable interface. |
 
 ## Methoden
 

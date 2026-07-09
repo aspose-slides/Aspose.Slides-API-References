@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho một tập hợp các slide master.
+description: Đại diện cho một bộ sưu tập các slide chủ.
 type: docs
 weight: 6430
 url: /vi/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection giao diện
 
-Đại diện cho một tập hợp các slide master.
+Đại diện cho một bộ sưu tập các slide chủ.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -16,19 +16,19 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ-đọc [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IMasterSlide`](../imasterslide). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide master được chỉ định vào cuối tập hợp. Các slide bố cục được liên kết cũng sẽ được sao chép. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide master được chỉ định vào vị trí được chỉ định trong tập hợp. Các slide bố cục được liên kết cũng sẽ được sao chép. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi tập hợp. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong tập hợp. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Xóa các slide master không dùng. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Thêm một bản sao của slide chủ được chỉ định vào cuối bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Chèn một bản sao của slide chủ được chỉ định vào vị trí được chỉ định trong bộ sưu tập. Các slide bố cục được liên kết cũng sẽ được sao chép. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong bộ sưu tập. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Xóa các slide chủ không sử dụng. |
 
 ### Xem thêm
 

@@ -1,49 +1,49 @@
 ---
 title: BaseSlide
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili data umum untuk semua tipe slide.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Mewakili data umum untuk semua jenis slide.
 type: docs
-weight: 970
+weight: 990
 url: /id/aspose.slides/baseslide/
 ---
-## BaseSlide class
+## BaseSlide kelas
 
-Mewakili data umum untuk semua tipe slide.
+Mewakili data umum untuk semua jenis slide.
 
 ```csharp
 public abstract class BaseSlide : IBaseSlide
 ```
 
-## Properties
+## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Mengembalikan latar belakang slide. Baca-saja [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Mengembalikan koleksi kontrol ActiveX pada slide. Baca-saja [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Mengembalikan data khusus slide. Baca-saja [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Baca-saja [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Mengembalikan latar belakang slide. Hanya-baca [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Mengembalikan koleksi kontrol ActiveX pada slide. Hanya-baca [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Mengembalikan data kustom slide. Hanya-baca [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Menyediakan akses mudah ke hyperlink yang terkandung. Hanya-baca [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Mengembalikan atau mengatur nama slide. Baca/tulis String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Mengembalikan antarmuka IPresentation. Baca-saja [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Mengembalikan kumpulan bentuk pada slide. Baca-saja [`IShapeCollection`](../ishapecollection). |
-| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Menentukan apakah bentuk pada master slide harus ditampilkan pada slide atau tidak. Untuk master slide sendiri properti ini selalu mengembalikan `false`. Baca/tulis Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Mengembalikan ID slide. Baca-saja UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Mengembalikan objek Transition yang berisi informasi tentang cara slide ini beralih selama pertunjukan slide. Baca-saja [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Mengembalikan objek timeline animasi. Baca-saja [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Mengembalikan antarmuka IPresentation. Hanya-baca [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Mengembalikan shape slide. Hanya-baca [`IShapeCollection`](../ishapecollection). |
+| abstract [ShowMasterShapes](../../aspose.slides/baseslide/showmastershapes) { get; set; } | Menentukan apakah shape pada master slide harus ditampilkan pada slide atau tidak. Untuk master slide sendiri properti ini selalu mengembalikan `false`. Baca/tulis Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Mengembalikan ID slide. Hanya-baca UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Mengembalikan objek Transition yang berisi informasi tentang cara slide tersebut beralih selama presentasi. Hanya-baca [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Mengembalikan objek timeline animasi. Hanya-baca [`IAnimationTimeLine`](../ianimationtimeline). |
 
-## Methods
+## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Mengembalikan tema efektif untuk slide ini. |
-| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Menentukan apakah dua instance IBaseSlide sama. Nilai yang dikembalikan dihitung berdasarkan struktur slide dan konten statis. Dua slide dianggap sama bila semua bentuk, gaya, teks, animasi, dan pengaturan lain, dll., sama. Perbandingan tidak memperhitungkan nilai pengidentifikasi unik, misalnya SlideId, serta konten dinamis, misalnya nilai tanggal saat ini dalam Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Menemukan kemunculan pertama dari bentuk dengan teks alternatif yang ditentukan. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Menggabungkan run dengan pemformatan yang sama di semua paragraf pada semua bentuk yang dapat diterima. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Menggabungkan run dengan pemformatan yang sama di semua paragraf pada semua bentuk yang dapat diterima. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Mengembalikan tema yang efektif untuk slide ini. |
+| [Equals](../../aspose.slides/baseslide/equals#equals)(IBaseSlide) | Menentukan apakah dua instance IBaseSlide sama. Nilai yang dikembalikan dihitung berdasarkan struktur slide dan konten statis. Dua slide dianggap sama jika semua shape, gaya, teks, animasi, dan pengaturan lainnya, dll., sama. Perbandingan tidak memperhitungkan nilai pengidentifikasi unik, misalnya SlideId, serta konten dinamis, misalnya nilai tanggal saat ini pada Placeholder Tanggal. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Menemukan kemunculan pertama dari shape dengan teks alternatif yang ditentukan. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting)() | Menggabungkan run dengan format yang sama di semua paragraf pada semua shape yang dapat diterima. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting#joinportionswithsameformatting_1)(IShapeCollection) | Menggabungkan run dengan format yang sama di semua paragraf pada semua shape yang dapat diterima. |
 
 ### Lihat Juga
 
 * antarmuka [IBaseSlide](../ibaseslide)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

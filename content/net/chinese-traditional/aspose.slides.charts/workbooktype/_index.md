@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Aspose.Sildes .NET API 參考
-description: 指定 Open XML 工作簿檔案的類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定 Open XML 活頁簿檔案的類型。
 type: docs
 weight: 2510
 url: /zh-hant/aspose.slides.charts/workbooktype/
 ---
 ## WorkbookType 列舉
 
-指定 Open XML 工作簿檔案的類型。
+指定 Open XML 活頁簿檔案的類型。
 
 ```csharp
 public enum WorkbookType
@@ -16,14 +16,14 @@ public enum WorkbookType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 工作簿類型未定義。 |
-| Workbook | `0` | Excel 工作簿 (*.xlsx)。 |
-| WorkbookMacro | `1` | Excel 含巨集的工作簿 (*.xlsm)。 |
+| NotDefined | `-1` | 活頁簿類型未定義。 |
+| Workbook | `0` | Excel 活頁簿 (*.xlsx)。 |
+| WorkbookMacro | `1` | Excel 支援巨集的活頁簿 (*.xlsm)。 |
 | Template | `2` | Excel 範本 (*.xltx)。 |
-| TemplateMacro | `3` | Excel 含巨集的範本 (*.xltm)。 |
-| WorkbookBinaryMacro | `4` | Excel 二進位含巨集的工作簿 (*.xlsb)。 |
+| TemplateMacro | `3` | Excel 支援巨集的範本 (*.xltm)。 |
+| WorkbookBinaryMacro | `4` | Excel 二進位支援巨集的活頁簿 (*.xlsb)。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Biểu diễn một bộ sưu tập các hiệu ứng được áp dụng cho một hình ảnh.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Biểu diễn một tập hợp các hiệu ứng được áp dụng cho hình ảnh.
 type: docs
 weight: 3400
 url: /vi/aspose.slides.effects/iimagetransformoperationcollection/
 ---
-## IImageTransformOperationCollection giao diện
+## Giao diện IImageTransformOperationCollection interface
 
-Biểu diễn một bộ sưu tập các hiệu ứng được áp dụng cho một hình ảnh.
+Biểu diễn một tập hợp các hiệu ứng được áp dụng cho hình ảnh.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -19,36 +19,36 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | Tên | Mô tả |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Trả về giao diện IEnumerable. IEnumerable chỉ đọc. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Trả về một [`IImageTransformOperation`](../iimagetransformoperation) từ bộ sưu tập theo chỉ mục của nó. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Trả về một [`IImageTransformOperation`](../iimagetransformoperation) từ tập hợp theo chỉ mục của nó. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Thêm hiệu ứng Alpha Bi-Level mới vào cuối bộ sưu tập. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Thêm hiệu ứng Alpha Ceiling mới vào cuối bộ sưu tập. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Thêm hiệu ứng Alpha Floor mới vào cuối bộ sưu tập. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Thêm hiệu ứng Alpha Inverse mới vào cuối bộ sưu tập. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Thêm hiệu ứng Alpha Modulate mới vào cuối bộ sưu tập. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Thêm hiệu ứng Alpha Modulate Fixed mới vào cuối bộ sưu tập. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Thêm hiệu ứng Alpha Replace mới vào cuối bộ sưu tập. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Thêm hiệu ứng Bi-Level (đen/trắng) mới vào cuối bộ sưu tập. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Thêm hiệu ứng Blur mới vào cuối bộ sưu tập. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Thêm hiệu ứng BrightnessContrast mới vào cuối bộ sưu tập. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Thêm hiệu ứng Color Change mới vào cuối bộ sưu tập. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Thêm hiệu ứng Color Replacement mới vào cuối bộ sưu tập. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Thêm hiệu ứng Duotone mới vào cuối bộ sưu tập. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Thêm hiệu ứng Fill Overlay mới vào cuối bộ sưu tập. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Thêm hiệu ứng Gray Scale mới vào cuối bộ sưu tập. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Thêm hiệu ứng Hue/Saturation/Luminance mới vào cuối bộ sưu tập. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Thêm hiệu ứng Luminance mới vào cuối bộ sưu tập. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Thêm hiệu ứng Tint mới vào cuối bộ sưu tập. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Xóa một hiệu ứng ảnh khỏi bộ sưu tập tại chỉ mục được chỉ định. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Thêm hiệu ứng Alpha Bi-Level mới vào cuối tập hợp. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Thêm hiệu ứng Alpha Ceiling mới vào cuối tập hợp. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | Thêm hiệu ứng Alpha Floor mới vào cuối tập hợp. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | Thêm hiệu ứng Alpha Inverse mới vào cuối tập hợp. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Thêm hiệu ứng Alpha Modulate mới vào cuối tập hợp. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Thêm hiệu ứng Alpha Modulate Fixed mới vào cuối tập hợp. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Thêm hiệu ứng Alpha Replace mới vào cuối tập hợp. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Thêm hiệu ứng Bi-Level (đen/trắng) mới vào cuối tập hợp. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Thêm hiệu ứng Blur mới vào cuối tập hợp. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Thêm hiệu ứng BrightnessContrast mới vào cuối tập hợp. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Thêm hiệu ứng Color Change mới vào cuối tập hợp. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Thêm hiệu ứng Color Replacement mới vào cuối tập hợp. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Thêm hiệu ứng Duotone mới vào cuối tập hợp. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Thêm hiệu ứng Fill Overlay mới vào cuối tập hợp. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Thêm hiệu ứng Gray Scale mới vào cuối tập hợp. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Thêm hiệu ứng Hue/Saturation/Luminance mới vào cuối tập hợp. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Thêm hiệu ứng Luminance mới vào cuối tập hợp. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Thêm hiệu ứng Tint mới vào cuối tập hợp. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Xóa một hiệu ứng hình ảnh khỏi tập hợp tại chỉ mục đã chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IImageTransformOperation](../iimagetransformoperation)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* bộ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

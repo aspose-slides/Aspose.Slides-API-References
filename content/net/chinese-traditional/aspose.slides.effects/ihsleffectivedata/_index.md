@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示色相/飽和度/亮度效果。色相、飽和度與亮度可以相對於其當前值進行調整。
+description: 表示 Hue（色相）/ Saturation（飽和度）/ Luminance（亮度）效果。色相、飽和度和亮度皆可相對於其目前值進行調整。
 type: docs
 weight: 3370
 url: /zh-hant/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData 介面
 
-表示色相/飽和度/亮度效果。色相、飽和度與亮度可以相對於其當前值進行調整。
+表示 Hue（色相）/ Saturation（飽和度）/ Luminance（亮度）效果。色相、飽和度和亮度皆可相對於其目前值進行調整。
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -19,11 +19,11 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | 傳回色相百分比。唯讀 Single。 |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | 傳回亮度百分比。唯讀 Single。 |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | 傳回飽和度百分比。唯讀 Single。 |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | 返回色相百分比。唯讀 Single。 |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | 返回亮度百分比。唯讀 Single。 |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | 返回飽和度百分比。唯讀 Single。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

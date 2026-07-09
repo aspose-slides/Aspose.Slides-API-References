@@ -1,36 +1,36 @@
 ---
 title: IImageCollection
 second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر مجموعه‌ای از PPImage است.
+description: نمایشگر مجموعه‌ای از PPImage.
 type: docs
 weight: 6160
 url: /fa/aspose.slides/iimagecollection/
 ---
-## رابط IImageCollection
+## IImageCollection رابط
 
-نمایانگر مجموعه‌ای از PPImage است.
+نمایشگر مجموعه‌ای از PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | تصویر را بر اساس ایندکس بازمی‌گرداند. |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | تصویر را بر اساس ایندکس آن برمی‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | تصویری را از بافر مشخص به یک ارائه اضافه می‌کند. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | تصویری را به یک ارائه اضافه می‌کند. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | نسخه‌ای از تصویر را از ارائهٔ دیگری اضافه می‌کند. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | تصویری را از شیء SVG به یک ارائه اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | تصویری را از بافر مشخص به ارائه اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | تصویری را به ارائه اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | کپی‌ای از تصویر را از ارائه دیگری اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | تصویری را از شیء SVG به ارائه اضافه می‌کند. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | تصویر را از یک MemoryStream اضافه می‌کند. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | تصویری را از یک Stream به ارائه اضافه می‌کند. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | یک تصویر را از یک Stream ایجاد کرده و به ارائه اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | تصویر را از یک Stream به ارائه اضافه می‌کند. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | یک تصویر را از یک Stream ایجاد و به ارائه اضافه می‌کند. |
 
 ### موارد مرتبط
 

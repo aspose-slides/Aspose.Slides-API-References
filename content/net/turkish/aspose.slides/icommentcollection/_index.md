@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tek bir yazarın yorum koleksiyonunu temsil eder.
+description: Tek bir yazarın yorumlarının koleksiyonunu temsil eder.
 type: docs
-weight: 5570
+weight: 5590
 url: /tr/aspose.slides/icommentcollection/
 ---
-## ICommentCollection arayüz
+## ICommentCollection arayüzü
 
-Tek bir yazarın yorum koleksiyonunu temsil eder.
+Tek bir yazarın yorumlarının koleksiyonunu temsil eder.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -18,23 +18,23 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | Belirtilen indisteki öğeyi alır. Salt okunur [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IComment`](../icomment). |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Koleksiyonun sonuna yeni bir yorum ekler. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Koleksiyonun sonuna yeni bir modern yorum ekler. |
-| [Clear](../../aspose.slides/icommentcollection/clear)() | Koleksiyondaki tüm yorumları kaldırır. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Belirtilen indiste koleksiyona yeni bir yorum ekler. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Belirtilen indiste koleksiyona yeni bir modern yorum ekler. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Koleksiyonda belirtilen yorumun ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Koleksiyonda belirtilen indisteki öğeyi kaldırır. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tüm yorumları içeren bir dizi oluşturur ve döndürür. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Belirtilen aralıktaki tüm yorumları içeren bir dizi oluşturur ve döndürür. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Bir koleksiyonun sonuna yeni yorum ekler. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Bir koleksiyonun sonuna yeni modern yorum ekler. |
+| [Clear](../../aspose.slides/icommentcollection/clear)() | Bir koleksiyondaki tüm yorumları kaldırır. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Belirtilen indeksteki bir koleksiyona yeni yorum ekler. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Belirtilen indeksteki bir koleksiyona yeni modern yorum ekler. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Bir koleksiyonda belirtilen yorumun ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Bir koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Tüm yorumlarla bir dizi oluşturur ve döndürür. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Belirtilen aralıktaki tüm yorumlarla bir dizi oluşturur ve döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IComment](../icomment)

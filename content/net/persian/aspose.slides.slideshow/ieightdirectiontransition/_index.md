@@ -1,6 +1,6 @@
 ---
 title: IEightDirectionTransition
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: اثر انتقال اسلاید در هشت جهت.
 type: docs
 weight: 10070
@@ -8,7 +8,7 @@ url: /fa/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition رابط
 
-Eight direction slide transition effect.
+اثر انتقال اسلاید در هشت جهت.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | نام | توضیح |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | امکان دریافت رابط پایه ITransitionValueBase را فراهم می‌کند. فقط‌خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | جهت انتقال. خواندن/نوشتن [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | اجازه دسترسی به رابط پایه ITransitionValueBase را می‌دهد. فقط خواندنی [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | جهت انتقال. خواندنی/نوشتنی [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### موارد مرتبط
 

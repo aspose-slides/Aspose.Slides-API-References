@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes dla .NET – odwołanie API
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
 description: Reprezentuje kolekcję komórek z danymi.
 type: docs
-weight: 1280
+weight: 1300
 url: /pl/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection klasa
 
-Reprezentuje kolekcję komórek z danymi.
+Represents collection of a cells with data.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -18,7 +18,7 @@ public class ChartCellCollection : IChartCellCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Pobiera liczbę komórek w kolekcji. Tylko do odczytu Int32. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Zwraca liczbę komórek w kolekcji. Int32 (tylko do odczytu). |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Zwraca komórkę (IChartDataCell) według indeksu. |
 
 ## Metody

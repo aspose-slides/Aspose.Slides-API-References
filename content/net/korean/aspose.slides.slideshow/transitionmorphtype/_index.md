@@ -1,6 +1,6 @@
 ---
 title: TransitionMorphType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: Morph 전환 유형을 나타냅니다.
 type: docs
 weight: 10390
@@ -18,11 +18,11 @@ public enum TransitionMorphType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| ByObject | `0` | Morph 전환은 모양을 불가분 객체로 간주하여 수행됩니다. |
-| ByWord | `1` | Morph 전환은 가능할 경우 텍스트를 단어 단위로 전송하면서 수행됩니다. |
-| ByChar | `2` | Morph 전환은 가능할 경우 텍스트를 문자 단위로 전송하면서 수행됩니다. |
+| ByObject | `0` | Morph 전환은 도형을 불가분 객체로 간주하여 수행됩니다. |
+| ByWord | `1` | Morph 전환은 가능한 경우 텍스트를 단어 단위로 전송하면서 수행됩니다. |
+| ByChar | `2` | Morph 전환은 가능한 경우 텍스트를 문자 단위로 전송하면서 수행됩니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

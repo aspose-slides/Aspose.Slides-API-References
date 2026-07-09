@@ -1,9 +1,9 @@
 ---
 title: ChartSeriesCollection
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa coleção de ChartSeries./chartseries
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Representa a coleção de ChartSeries./chartseries
 type: docs
-weight: 1430
+weight: 1450
 url: /pt/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection classe
@@ -16,16 +16,16 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Retorna o número de objetos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Obtém o elemento no índice especificado. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Retorna um objeto de sincronização. Somente leitura Object. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Cria uma nova série de gráfico e a adiciona à coleção. |
 | [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Cria uma nova série de gráfico a partir de [`ChartCellCollection`](../chartcellcollection) e a adiciona à coleção. |
@@ -34,7 +34,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Remove todos os controles da coleção. |
 | [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Copia toda a coleção para o array especificado. |
 | [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Procura o [`ChartSeries`](../chartseries) especificado e retorna o índice baseado em zero da primeira ocorrência dentro de toda a Coleção |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Procura o [`ChartSeries`](../chartseries) especificado e retorna o índice baseado em zero da primeira ocorrência na coleção inteira |
 | [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Cria uma nova série de gráfico e a insere na coleção. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Remove o valor especificado. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Remove um controle ActiveX armazenado na posição especificada da coleção. |

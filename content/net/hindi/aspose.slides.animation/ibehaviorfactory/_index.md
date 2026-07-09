@@ -1,20 +1,20 @@
 ---
 title: IBehaviorFactory
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनिमेशन प्रभाव बनाने की अनुमति देता है
+description: एनीमेशन प्रभाव बनाने की अनुमति देता है
 type: docs
 weight: 430
 url: /hi/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory इंटरफ़ेस
 
-एनिमेशन प्रभाव बनाने की अनुमति देता है
+एनीमेशन प्रभाव बनाने की अनुमति देता है
 
 ```csharp
 public interface IBehaviorFactory
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
@@ -31,7 +31,7 @@ public interface IBehaviorFactory
 
 COM संगतता के लिए।
 
-### अन्य देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

@@ -1,28 +1,28 @@
 ---
 title: Marker
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चर्ट का मार्कर दर्शाता है।
+description: एक चार्ट का मार्कर दर्शाता है।
 type: docs
 weight: 2330
 url: /hi/aspose.slides.charts/marker/
 ---
-## मार्कर कक्षा
+## मार्कर क्लास
 
-एक चर्ट का मार्कर दर्शाता है।
+एक चार्ट का मार्कर दर्शाता है।
 
 ```csharp
 public class Marker : IMarker
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | मार्कर भराव को प्राप्त या सेट करता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | लाइन चार्ट, स्कैटर चार्ट, या रडार चार्ट में मार्कर आकार का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | लाइन चार्ट, स्कैटर चार्ट, या रडार चार्ट में मार्कर शैली का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | मार्कर फ़िल प्राप्त करता है या सेट करता है। केवल पढ़ने योग्य [`IFormat`](../iformat)। |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | लाइन चार्ट, स्कैटर चार्ट, या राडार चार्ट में मार्कर आकार को दर्शाता है। पढ़ने/लिखने योग्य Int32। |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | लाइन चार्ट, स्कैटर चार्ट, या राडार चार्ट में मार्कर शैली को दर्शाता है। पढ़ने/लिखने योग्य [`MarkerStyleType`](../markerstyletype)। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMarker](../imarker)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,9 +1,9 @@
 ---
 title: TrendlineType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta il tipo di linea di tendenza
 type: docs
-weight: 2470
+weight: 2490
 url: /it/aspose.slides.charts/trendlinetype/
 ---
 ## Enumerazione TrendlineType
@@ -19,9 +19,9 @@ public enum TrendlineType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Exponential | `0` | Specifica che la linea di tendenza deve essere una curva esponenziale nella forma. |
-| Linear | `1` | Specifica che la linea di tendenza deve essere una linea nella forma. |
+| Linear | `1` | Specifica che la linea di tendenza deve essere una retta nella forma. |
 | Logarithmic | `2` | Specifica che la linea di tendenza deve essere una curva logaritmica nella forma, dove log è il logaritmo naturale. |
-| MovingAverage | `3` | Specifica che la linea di tendenza deve essere una media mobile di periodo Period. |
+| MovingAverage | `3` | Specifica che la linea di tendenza deve essere una media mobile del periodo Period. |
 | Polynomial | `4` | Specifica che la linea di tendenza deve essere una curva polinomiale di ordine Order nella forma. |
 | Power | `5` | Specifica che la linea di tendenza deve essere una curva di potenza nella forma. |
 

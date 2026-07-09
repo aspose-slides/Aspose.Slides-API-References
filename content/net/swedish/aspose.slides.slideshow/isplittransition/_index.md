@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Slides för .NET API-referens
-description: Split-bildövergångseffekt.
+second_title: Aspose.Sildes för .NET API-referens
+description: Övergångseffekt för split slide.
 type: docs
-weight: 10180
+weight: 10200
 url: /sv/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition gränssnitt
 
-Split-bildövergångseffekt.
+Split-slide-övergångseffekt.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Riktning för övergångssplit. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientering för övergångssplit. Läs/skriv [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Riktning för split av övergången. Läs/skriv [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientering för split av övergången. Läs/skriv [`Orientation`](../../aspose.slides/orientation). |
 
 ### Se även
 

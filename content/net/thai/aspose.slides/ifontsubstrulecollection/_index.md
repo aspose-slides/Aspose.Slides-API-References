@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แสดงคอลเลกชันของการแทนที่ฟอนต์
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงคอลเลกชันของการทดแทนฟอนต์.
 type: docs
 weight: 5890
 url: /th/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection อินเทอร์เฟซ
 
-แสดงคอลเลกชันของการแทนที่ฟอนต์
+แสดงถึงคอลเลกชันของการทดแทนฟอนต์
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -18,14 +18,14 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | รับอิลิเมนต์ที่ตำแหน่งดัชนีที่ระบุ |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | เพิ่มกฎการแทนที่ฟอนต์ใหม่เข้าไปในคอลเลกชัน |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | ลบการปรากฏครั้งแรกของออบเจ็กต์ที่ระบุออกจากคอลเลกชัน |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | เพิ่มกฎการทดแทนฟอนต์ใหม่ลงในคอลเลกชัน |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | ลบการเกิดขึ้นเป็นครั้งแรกของอ็อบเจกต์เฉพาะจากคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

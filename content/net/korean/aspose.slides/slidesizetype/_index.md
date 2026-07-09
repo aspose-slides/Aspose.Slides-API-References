@@ -18,7 +18,7 @@ public enum SlideSizeType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| OnScreen | `0` | 화면 4x3 |
+| OnScreen | `0` | 스크린 4x3 |
 | LetterPaper | `1` | 레터 |
 | A4Paper | `2` | A4 |
 | Slide35mm | `3` | 슬라이드 35mm |
@@ -32,8 +32,8 @@ public enum SlideSizeType
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | 하가키 카드 |
-| OnScreen16x9 | `14` | 화면 16x9 |
-| OnScreen16x10 | `15` | 화면 16x10 |
+| OnScreen16x9 | `14` | 스크린 16x9 |
+| OnScreen16x10 | `15` | 스크린 16x10 |
 | Widescreen | `16` | 와이드스크린 |
 
 ### 참조

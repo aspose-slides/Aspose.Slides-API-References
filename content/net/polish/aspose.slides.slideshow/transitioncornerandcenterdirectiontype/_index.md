@@ -1,12 +1,12 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Aspose.Sildes dla .NET - odniesienie API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Określa kierunek ograniczony do rogów i środka.
 type: docs
-weight: 10320
+weight: 10340
 url: /pl/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType enumeracja
+## TransitionCornerAndCenterDirectionType wyliczenie
 
 Określa kierunek ograniczony do rogów i środka.
 

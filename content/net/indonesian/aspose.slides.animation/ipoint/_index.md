@@ -3,12 +3,12 @@ title: IPoint
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili titik animasi.
 type: docs
-weight: 520
+weight: 540
 url: /id/aspose.slides.animation/ipoint/
 ---
 ## IPoint antarmuka
 
-Represent animation point.
+Mewakili titik animasi.
 
 ```csharp
 public interface IPoint
@@ -18,7 +18,7 @@ public interface IPoint
 
 | Name | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Rumus dalam nilai, atribut from, to, by dapat terdiri dari: Operator aritmatika standar: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanta: ‘pi’ ‘e’ Operator kondisional: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operator perbandingan: '==', '&gt;=', '', '!=', '!' Operator trigonometri: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logaritma natural ‘ln()’ Referensi properti (properti yang didukung host) misalnya: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Baca/tulis String. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Rumus dalam nilai, atribut from, to, by dapat terdiri dari: Operator aritmetika standar: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanta: ‘pi’ ‘e’ Operator kondisional: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operator perbandingan: '==', '&gt;=', '', '!=', '!' Operator trigonometri: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logaritma natural ‘ln()’ Referensi properti (properti yang didukung host) misalnya: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Baca/tulis String. |
 | [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Mewakili nilai waktu. Baca/tulis Single. |
 | [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Mewakili nilai titik. Hanya: bool, ColorFormat, float, int, string. Baca/tulis Object. |
 

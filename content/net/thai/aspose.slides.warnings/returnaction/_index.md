@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวเลือกการตัดสินใจของการเรียกกลับคำเตือน
+description: แสดงตัวเลือกการตัดสินใจสำหรับการเรียกกลับคำเตือน
 type: docs
 weight: 11820
 url: /th/aspose.slides.warnings/returnaction/
 ---
-## การนับจำนวน ReturnAction
+## ReturnAction การกำหนดค่า
 
-แสดงตัวเลือกการตัดสินใจของการเรียกกลับคำเตือน
+แสดงตัวเลือกการตัดสินใจสำหรับการเรียกกลับคำเตือน.
 
 ```csharp
 public enum ReturnAction
@@ -18,8 +18,8 @@ public enum ReturnAction
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Continue | `0` | ปฏิบัติการควรดำเนินต่อไป |
-| Abort | `1` | ปฏิบัติการควรยกเลิก |
+| Continue | `0` | การทำงานควรดำเนินต่อ |
+| Abort | `1` | การทำงานควรยกเลิก |
 
 ### ดูเพิ่มเติม
 

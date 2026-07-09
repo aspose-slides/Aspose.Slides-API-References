@@ -1,14 +1,14 @@
 ---
 title: BehaviorProperty
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーション ビヘイビアのプロパティ タイプを表します。プロパティの一覧は https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx と https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx に従います。
+description: アニメーション ビヘイビアのプロパティ タイプを表します。プロパティのリストは https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx と https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx に従います。
 type: docs
-weight: 170
+weight: 190
 url: /ja/aspose.slides.animation/behaviorproperty/
 ---
 ## BehaviorProperty クラス
 
-アニメーション ビヘイビアのプロパティ タイプを表します。プロパティの一覧は https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx と https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx に従います。
+アニメーション ビヘイビアのプロパティ タイプを表します。プロパティのリストは https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx と https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx に従います。
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
@@ -139,15 +139,15 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | ‘style.visibility’ プロパティを表します |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | ‘xshear’ プロパティを表します |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | ‘yshear’ プロパティを表します |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | このプロパティが仕様書の事前定義されたプロパティ リスト https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx に含まれていないかどうかを示します |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | このプロパティが仕様の事前定義リスト https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx に属さない場合に示します |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | プロパティの値 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | 値で既存のビヘイビア プロパティを検索し、指定された値で新しいカスタム プロパティを作成します |
-| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | このオブジェクトが別のオブジェクトと等しいかどうかをチェックします |
+| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | 指定された値で既存のビヘイビア プロパティを検索し、存在しない場合は新しいカスタム プロパティを作成します |
+| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | このオブジェクトが別のオブジェクトと等しいかどうかを確認します |
 | override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | [`Value`](./value) プロパティに基づいてハッシュコードを計算し、返します |
 
 ### 参照

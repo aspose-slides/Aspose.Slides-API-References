@@ -21,7 +21,7 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 | [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Haalt de horizontale as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
 | [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Haalt de secundaire horizontale as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
 | [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Haalt de secundaire verticale as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Haalt de serie-as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Haalt de reeks-as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Haalt de verticale as van de grafiek op. Alleen-lezen [`IAxis`](../iaxis). |
 
 ### Zie ook

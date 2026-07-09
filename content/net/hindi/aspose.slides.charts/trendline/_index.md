@@ -1,50 +1,50 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: क्लास चार्ट श्रृंखला की ट्रेंड लाइन को दर्शाता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: क्लास चार्ट श्रृंखला की ट्रेंड लाइन का प्रतिनिधित्व करता है
 type: docs
 weight: 2470
 url: /hi/aspose.slides.charts/trendline/
 ---
 ## Trendline क्लास
 
-क्लास चार्ट श्रृंखला की ट्रेंड लाइन को दर्शाता है
+क्लास चार्ट श्रृंखला की ट्रेंड लाइन का प्रतिनिधित्व करता है
 
 ```csharp
 public class Trendline : DomObject<TrendlineCollection>, ITrendline
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | ट्रेंड लाइन द्वारा विस्तारित होने से पहले श्रेणियों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है। स्कैटर और नॉन-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
-| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | पेरेंट चार्ट लौटाता है। केवल पढ़ने योग्य [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | ट्रेंडलाइन के समीकरण को चार्ट पर प्रदर्शित करने को निर्दिष्ट करता है (Rsquaredvalue की समान लेबल में)। पढ़ें/लिखें Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | ट्रेंडलाइन के R-squared मान को चार्ट पर प्रदर्शित करने को निर्दिष्ट करता है (समीकरण की समान लेबल में)। पढ़ें/लिखें Boolean. |
-| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | ट्रेंड लाइन का स्वरूप दर्शाता है। पढ़ें/लिखें [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | ट्रेंडलाइन द्वारा डेटा के बाद विस्तारित होने वाली श्रेणियों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है। स्कैटर और नॉन-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ें/लिखें Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | ट्रेंडलाइन जहाँ y-अक्ष को काटेगी, उस मान को निर्दिष्ट करता है। यह प्रॉपर्टी केवल तब समर्थित होगी जब ट्रेंडलाइन प्रकार exp, linear या poly हो। पढ़ें/लिखें Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | बहुपद ट्रेंड लाइन के क्रम को निर्दिष्ट करता है। अन्य ट्रेंड लाइन प्रकारों के लिए इसे नजरअंदाज़ किया जाता है। मान 2 से 6 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | मूविंग एवरेज ट्रेंडलाइन के लिए ट्रेंड लाइन की अवधि निर्दिष्ट करता है। अन्य ट्रेंड लाइन विविधताओं के लिए इसे नजरअंदाज़ किया जाता है। मान 2 से 255 के बीच होना चाहिए। पढ़ें/लिखें Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | इस ट्रेंडलाइन से संबंधित लेजेंड एंट्री दर्शाता है। केवल पढ़ने योग्य [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | टेक्स्ट फॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | समृद्ध स्वरूपित टेक्स्ट हो सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह स्वरूपित टेक्स्ट मान डेटा लेबल के स्वचालित रूप से उत्पन्न टेक्स्ट को ओवरराइड करता है। स्वचालित उत्पन्न डेटा लेबल टेक्स्ट का अर्थ है वह टेक्स्ट जो ShowSeriesName, ShowValue, ... प्रॉपर्टीज़ द्वारा प्रबंधित होता है और TextFormatManager.TextFormat प्रॉपर्टी के साथ स्वरूपित किया जाता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
-| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | ट्रेंडलाइन का नाम प्राप्त करता है या सेट करता है। पढ़ें/लिखें String. |
-| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | ट्रेंड लाइन का प्रकार प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`TrendlineType`](../trendlinetype). |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | वर्गीकरणों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है जिससे ट्रेंड लाइन श्रृंखला के डेटा से पहले बढ़ती है जो ट्रेंड की जा रही है। स्कैटर और गैर-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ने/लिखने योग्य Double. |
+| [Chart](../../aspose.slides.charts/trendline/chart) { get; } | पैरेंट चार्ट लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | ट्रेंडलाइन के समीकरण को चार्ट पर प्रदर्शित करने को निर्दिष्ट करता है (Rsquaredvalue के समान लेबल में)। पढ़ने/लिखने योग्य Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | ट्रेंडलाइन के R-squared मान को चार्ट पर प्रदर्शित करने को निर्दिष्ट करता है (समीकरण के समान लेबल में)। पढ़ने/लिखने योग्य Boolean. |
+| [Format](../../aspose.slides.charts/trendline/format) { get; set; } | ट्रेंड लाइन का फॉर्मेट दर्शाता है। पढ़ने/लिखने योग्य [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | वर्गीकरणों (या स्कैटर चार्ट पर इकाइयों) की संख्या निर्दिष्ट करता है जिससे ट्रेंडलाइन श्रृंखला के डेटा के बाद विस्तृत होती है जो ट्रेंड की जा रही है। स्कैटर और गैर-स्कैटर चार्ट में, मान कोई भी गैर-नकारात्मक मान हो सकता है। पढ़ने/लिखने योग्य Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | y-अक्ष को ट्रेंडलाइन किस मान पर पार करती है, यह निर्दिष्ट करता है। यह प्रापर्टी केवल तभी समर्थित होगी जब ट्रेंडलाइन प्रकार exp, linear, या poly हो। पढ़ने/लिखने योग्य Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | पॉलीनॉमियल ट्रेंडलाइन का क्रम निर्दिष्ट करता है। अन्य ट्रेंडलाइन प्रकारों के लिए इसे नज़रअंदाज़ किया जाता है। मान 2 से 6 के बीच होना चाहिए। पढ़ने/लिखने योग्य Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | मूविंग एवरेज ट्रेंडलाइन के लिए ट्रेंडलाइन की अवधि निर्दिष्ट करता है। अन्य ट्रेंडलाइन विविधताओं के लिए इसे नज़रअंदेज किया जाता है। मान 2 से 255 के बीच होना चाहिए। पढ़ने/लिखने योग्य Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | इस ट्रेंडलाइन से संबंधित लेजेंड प्रविष्टि दर्शाता है। केवल-पढ़ने योग्य [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | टेक्ट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | समृद्ध स्वरूपित टेक्स्ट शामिल कर सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह स्वरूपित टेक्स्ट मान डेटा लेबल के स्वतः-जनरेटेड टेक्स्ट को अधिलेखित करता है। डेटा लेबल का स्वतः-जनरेटेड टेक्स्ट वह टेक्स्ट है जिसे ShowSeriesName, ShowValue, ... प्रॉपर्टीज़ द्वारा प्रबंधित किया जाता है और TextFormatManager.TextFormat प्रॉपर्टी के साथ स्वरूपित किया जाता है। केवल-पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | ट्रेंडलाइन का नाम प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | ट्रेंडलाइन का प्रकार प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`TrendlineType`](../trendlinetype). |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | TextFrameForOverriding को पैरामीटर "text" में दिए गए टेक्स्ट से प्रारंभ करता है। यदि TextFrameForOverriding पहले से प्रारंभ किया गया है तो केवल उसका टेक्स्ट बदलता है। |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | परिमाण "text" में टेक्स्ट के साथ TextFrameForOverriding को आरंभ करता है। यदि TextFrameForOverriding पहले से ही आरंभ किया गया है तो केवल उसका टेक्स्ट बदल देता है। |
 
 ### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [TrendlineCollection](../trendlinecollection)
 * इंटरफ़ेस [ITrendline](../itrendline)
-* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

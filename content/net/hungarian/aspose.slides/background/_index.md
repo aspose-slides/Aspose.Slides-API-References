@@ -1,14 +1,14 @@
 ---
 title: Background
-second_title: Aspose.Sildes .NET API Referencia
-description: A dia hátterét reprezentálja.
+second_title: Aspose.Sildes .NET API referencia
+description: A dia hátterét képviseli.
 type: docs
-weight: 910
+weight: 930
 url: /hu/aspose.slides/background/
 ---
-## Háttér osztály
+## Background osztály
 
-A dia hátterét reprezentálja.
+Represents background of a slide.
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -18,14 +18,14 @@ public sealed class Background : PVIObject, IBackground
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Visszaad egy EffectFormat objektumot a BackgroundType.OwnBackground kitöltéshez. Csak olvasható [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Visszaad egy FillFormat objektumot a BackgroundType.OwnBackground kitöltéshez. Csak olvasható [`IFillFormat`](../ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Visszaad egy EffectFormat-ot a BackgroundType.OwnBackground kitöltéshez. Csak olvasható [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Visszaad egy FillFormat-ot a BackgroundType.OwnBackground kitöltéshez. Csak olvasható [`IFillFormat`](../ifillformat). |
 | [Presentation](../../aspose.slides/background/presentation) { get; } | Visszaadja a dia szülő prezentációját. Csak olvasható [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/background/slide) { get; } | Visszaadja a forma szülő diáját. Csak olvasható [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Visszaad egy ColorFormat objektumot a BackgroundType.Themed kitöltéshez. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Visszaadja a BackgroundType.Themed kitöltés indexét a háttér témakollekcióban. 0 jelenti, hogy nincs kitöltés. 1..999 - index. Olvasás/írás UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Visszaadja a háttér kitöltés típusát. Olvasás/írás [`BackgroundType`](../backgroundtype). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Visszaad egy ColorFormat-ot a BackgroundType.Themed kitöltéshez. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Visszaad egy indexet a BackgroundType.Themed kitöltéshez a háttér téma gyűjteményben. 0 = üres kitöltés. 1..999 – index. Olvasható/írható UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Visszaadja a háttér kitöltés típusát. Olvasható/írható [`BackgroundType`](../backgroundtype). |
 
 ## Módszerek
 

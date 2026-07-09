@@ -1,6 +1,6 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET용 API 레퍼런스
 description: 프레젠테이션을 SWF 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
 type: docs
 weight: 4150
@@ -20,23 +20,23 @@ public interface ISwfOptions : ISaveOptions
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | ISaveOptions 인터페이스를 반환합니다. 읽기 전용 [`ISaveOptions`](../isaveoptions). |
 | [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | 생성된 SWF 문서를 압축할지 여부를 지정합니다. 기본값은 `true`입니다. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | 컨텍스트 메뉴를 사용하거나 사용하지 않도록 설정합니다. 기본값은 true입니다. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | 컨텍스트 메뉴를 활성화/비활성화합니다. 기본값은 true입니다. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | JPEG 이미지의 품질을 지정합니다. 기본값은 95입니다. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | 뷰어 오른쪽 상단에 로고로 표시될 이미지입니다. 32x64 픽셀 PNG 이미지여야 하며, 그렇지 않으면 로고가 올바르게 표시되지 않을 수 있습니다. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | 로고에 대한 전체 하이퍼링크 주소를 가져오거나 설정합니다. [`LogoImageBytes`](./logoimagebytes)이 지정된 경우에만 효과가 있습니다. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | 하단 패널을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | 전체 화면 버튼을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | 뷰어 오른쪽 상단에 로고로 표시될 이미지입니다. 이미지는 32x64 픽셀 PNG여야 하며, 그렇지 않을 경우 로고가 제대로 표시되지 않을 수 있습니다. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | 로고의 전체 하이퍼링크 주소를 가져오거나 설정합니다. [`LogoImageBytes`](./logoimagebytes)가 지정된 경우에만 영향을 미칩니다. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | 하단 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | 전체 화면 버튼을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
 | [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`입니다. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | 왼쪽 패널을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | 페이지 주변에 테두리를 표시할지 여부를 지정합니다. 기본값은 true입니다. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | 페이지 스테퍼를 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | 검색 섹션을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | 전체 상단 패널을 표시하거나 숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 방식을 지정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). 이 속성은 `Aspose.Slides.Export.HandoutLayoutingOptions` 유형의 객체 할당을 지원하지 않습니다. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | 왼쪽 패널을 연 상태로 시작합니다. flashvars에서 재정의할 수 있습니다. 기본값은 false입니다. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | 왼쪽 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | 페이지 주변의 테두리를 표시할지 여부를 지정합니다. 기본값은 true입니다. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | 페이지 스텝퍼를 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | 검색 섹션을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | 전체 상단 패널을 표시/숨깁니다. flashvars에서 재정의할 수 있습니다. 기본값은 true입니다. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). 이 속성은 `Aspose.Slides.Export.HandoutLayoutingOptions` 유형의 객체 할당을 지원하지 않습니다 |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | 왼쪽 패널을 열린 상태로 시작합니다. flashvars에서 재정의할 수 있습니다. 기본값은 false입니다. |
 | [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | 생성된 SWF 문서에 통합 문서 뷰어를 포함할지 여부를 지정합니다. 기본값은 `true`입니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

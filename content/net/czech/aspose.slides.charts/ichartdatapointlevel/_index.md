@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje úroveň datového bodu. Používá se pro grafy Treemap a Sunburst.
+description: Reprezentuje úroveň datového bodu. Používá se pro grafy Treemap a Sunburst.
 type: docs
-weight: 1820
+weight: 1840
 url: /cs/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel rozhraní
 
-Představuje úroveň datového bodu. Používá se pro grafy Treemap a Sunburst.
+Reprezentuje úroveň datového bodu. Použito pro grafy Treemap a Sunburst.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Název | Popis |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Představuje vlastnosti formátování úrovně datového bodu. Čtení/Zápis [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Představuje popisek datové úrovně. Používá se pro typy řad Treemap a Sunburst. Pouze ke čtení [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Reprezentuje formátovací vlastnosti úrovně datového bodu. Čtení/zápis [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Reprezentuje popisek datového bodu úrovně. Použito pro typy řad Treemap a Sunburst. Pouze pro čtení [`IDataLabel`](../idatalabel). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een buitenschaduw-effect voor.
+description: Stelt een Outer Shadow-effect voor.
 type: docs
 weight: 3460
 url: /nl/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interface
 
-Stelt een buitenschaduw-effect voor.
+Stelt een Outer Shadow-effect voor.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Staat toe de basis-interface IAccessiblePVIObject op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Staat toe de basis-interface IImageTransformOperation op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Vervagingsradius, in punten. Standaardwaarde – 0 pt. Lezen/schrijven Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Richting van de schaduw, in graden. Standaardwaarde – 0 ° (van links naar rechts). Lezen/schrijven Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Afstand van de schaduw tot het object, in punten. Standaardwaarde – 0 pt. Lezen/schrijven Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rechthoekuitlijning. Standaardwaarde – Bottom. Lezen/schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Geeft aan of de schaduw samen met de vorm draait. Standaardwaarde – true. Lezen/schrijven Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Horizontale schaalfactor, in procent van de oorspronkelijke grootte. Negatieve schaalverdeling veroorzaakt een omkering. Standaardwaarde – 100 %. Lezen/schrijven Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Verticale schaalfactor, in procent van de oorspronkelijke grootte. Negatieve schaalverdeling veroorzaakt een omkering. Standaardwaarde – 100 %. Lezen/schrijven Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kleur van de schaduw. Standaardwaarde – automatisch zwart (thema-afhankelijk). Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Horizontale scheefhoek, in graden. Standaardwaarde – 0 °. Lezen/schrijven Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Verticale scheefhoek, in graden. Standaardwaarde – 0 °. Lezen/schrijven Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Staat toe de basale IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Staat toe de basale IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Vervaagingsstraal, in punten. Standaardwaarde – 0 pt. Lezen/Schrijven Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Richting van de schaduw, in graden. Standaardwaarde – 0 ° (van links naar rechts). Lezen/Schrijven Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Afstand van de schaduw tot het object, in punten. Standaardwaarde – 0 pt. Lezen/Schrijven Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Rechthoek uitlijning. Standaardwaarde – Bottom. Lezen/Schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Geeft aan of de schaduw meedraait met de vorm. Standaardwaarde – true. Lezen/Schrijven Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Horizontale schaalfactor, in procent van de oorspronkelijke grootte. Negatieve schaalvergroting veroorzaakt een omkering. Standaardwaarde – 100 %. Lezen/Schrijven Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Verticale schaalfactor, in procent van de oorspronkelijke grootte. Negatieve schaalvergroting veroorzaakt een omkering. Standaardwaarde – 100 %. Lezen/Schrijven Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kleur van de schaduw. Standaardwaarde – automatisch zwart (theme-dependent). Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Horizontale kantelhoek, in graden. Standaardwaarde – 0 °. Lezen/Schrijven Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Verticale kantelhoek, in graden. Standaardwaarde – 0 °. Lezen/Schrijven Double. |
 
 ### Zie ook
 

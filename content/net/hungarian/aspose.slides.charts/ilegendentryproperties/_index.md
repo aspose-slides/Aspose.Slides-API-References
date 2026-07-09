@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes .NET API-referencia
-description: A diagram legendájának tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A diagram jelmagyarázatának tulajdonságait reprezentálja.
 type: docs
-weight: 2130
+weight: 2150
 url: /hu/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties interfész
 
-A diagram legendájának tulajdonságait képviseli.
+A diagram jelmagyarázatának tulajdonságait reprezentálja.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -18,8 +18,8 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Lehetővé teszi a base IFormattedTextContainer interfész elérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Visszaadja vagy beállítja a legendabejegyzés rejtés zászlóját. Olvasás/írás Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Lehetővé teszi az alap IFormattedTextContainer interfész elérését. Csak olvasható [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Visszaadja vagy beállítja a jelmagyarázat bejegyzés elrejtési jelzőjét. Olvasás/írás Boolean. |
 
 ### Lásd még
 

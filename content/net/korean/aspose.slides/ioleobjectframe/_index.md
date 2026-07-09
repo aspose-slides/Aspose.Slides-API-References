@@ -1,43 +1,43 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드에 OLE 객체를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드에 있는 OLE 개체를 나타냅니다.
 type: docs
 weight: 6540
 url: /ko/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame 인터페이스
+## IOleObjectFrame interface
 
-슬라이드에 OLE 객체를 나타냅니다.
+슬라이드에 있는 OLE 개체를 나타냅니다.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
 ```
 
-## 속성
+## Properties
 
 | 이름 | 설명 |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | 기본 IGraphicalObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE 내장 데이터에 대한 정보를 가져옵니다. 읽기 전용 [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | 내장된 OLE 객체의 파일 이름을 반환합니다 |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | 내장된 OLE 객체의 경로를 반환합니다 |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | 객체가 아이콘으로 표시되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | 객체가 외부 파일에 링크되어 있는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | 링크된 파일의 전체 경로를 반환합니다. 짧은 파일 이름이 사용됩니다. 읽기 전용 String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | 링크된 파일의 전체 경로를 반환합니다. 긴 파일 이름이 사용됩니다. 읽기/쓰기 String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | 링크된 파일이 존재하면 상대 경로를 반환하고, 없으면 빈 문자열을 반환합니다. 읽기 전용 String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | 객체의 이름을 가져오거나 설정합니다. 읽기/쓰기 String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | 객체의 ProgID를 반환합니다. 읽기 전용 String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject 이미지 채우기 속성 객체를 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject 아이콘의 제목을 가져오거나 설정합니다. 읽기/쓰기 String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | 프레젠테이션을 열거나 인쇄할 때 링크된 내장 객체가 자동으로 업데이트되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | OLE 임베디드 데이터에 대한 정보를 가져옵니다. 읽기 전용 [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | 임베디드 OLE 개체의 파일 이름을 반환합니다. |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | 임베디드 OLE 개체의 경로를 반환합니다. |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | 개체가 아이콘으로 표시되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | 개체가 외부 파일에 연결되어 있는지 여부를 결정합니다. 읽기 전용 Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | 연결된 파일의 전체 경로를 반환합니다. 짧은 파일 이름이 사용됩니다. 읽기 전용 String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | 연결된 파일의 전체 경로를 반환합니다. 긴 파일 이름이 사용됩니다. 읽기/쓰기 String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | 연결된 파일이 있는 경우 상대 경로를 반환하고, 그렇지 않으면 빈 문자열을 반환합니다. 읽기 전용 String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | 개체의 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | 개체의 ProgID를 반환합니다. 읽기 전용 String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | OleObject 이미지 채우기 속성 개체를 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | OleObject 아이콘의 제목을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | 프레젠테이션을 열거나 인쇄할 때 연결된 임베디드 개체가 자동으로 업데이트되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 
-## 메서드
+## Methods
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE 내장 데이터에 대한 정보를 설정합니다. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | OLE 임베디드 데이터에 대한 정보를 설정합니다. |
 
 ### 참고
 

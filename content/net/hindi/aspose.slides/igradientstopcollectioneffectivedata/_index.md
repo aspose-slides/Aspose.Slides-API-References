@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: GradientStopDataEx ऑब्जेक्ट्स का संग्रह दर्शाता है।
+description: GradientStopDataEx ऑब्जेक्ट्स का संग्रह प्रस्तुत करता है।
 type: docs
 weight: 6040
 url: /hi/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData इंटरफ़ेस
 
-GradientStopDataEx ऑब्जेक्ट्स का संग्रह दर्शाता है।
+GradientStopDataEx वस्तुओं का संग्रह प्रस्तुत करता है।
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | इंडेक्स द्वारा ग्रेडिएंट स्टॉप को लौटाता है। |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | इंडेक्स द्वारा ग्रेडिएंट स्टॉप लौटाता है। |
 
 ### संबंधित देखें
 

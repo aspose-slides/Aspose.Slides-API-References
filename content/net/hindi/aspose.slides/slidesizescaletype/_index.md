@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड सामग्री के स्केल प्रकार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: स्लाइड सामग्री के स्केल प्रकार को दर्शाता है।
 type: docs
 weight: 10510
 url: /hi/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType एन्‍यूमरेशन
+## SlideSizeScaleType एनेमरेशन
 
-स्लाइड सामग्री के स्केल प्रकार का प्रतिनिधित्व करता है।
+स्लाइड सामग्री के स्केल प्रकार को दर्शाता है।
 
 ```csharp
 public enum SlideSizeScaleType
@@ -19,7 +19,7 @@ public enum SlideSizeScaleType
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | DoNotScale | `0` | स्केल न करें। |
-| EnsureFit | `1` | फ़िट सुनिश्चित करने के लिए स्केल करें। |
+| EnsureFit | `1` | फिट सुनिश्चित करने के लिए स्केल करें। |
 | Maximize | `2` | सामग्री का आकार अधिकतम करें। |
 
 ### संबंधित देखें

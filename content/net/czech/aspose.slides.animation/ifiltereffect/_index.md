@@ -3,7 +3,7 @@ title: IFilterEffect
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje efekt filtru chování.
 type: docs
-weight: 480
+weight: 500
 url: /cs/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect rozhraní
@@ -19,9 +19,9 @@ public interface IFilterEffect : IBehavior
 | Název | Popis |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
-| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Zobrazuje, že efekt s chováním musí být odhalen (in/out). Čtení/zápis [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Zobrazuje podtyp filtru efektu. Čtení/zápis [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Zobrazuje typ filtru efektu. Čtení/zápis [`FilterEffectType`](../filtereffecttype). |
+| [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | Reprezentuje, že efekt s chováním musí být odhalen (in/out). Čtení/zápis [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | Reprezentuje podtyp filtru efektu. Čtení/zápis [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | Reprezentuje typ filtru efektu. Čtení/zápis [`FilterEffectType`](../filtereffecttype). |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling voor van ChartCategory./chartcategory
+description: Stelt een collectie voor van ChartCategory./chartcategory
 type: docs
 weight: 1280
 url: /nl/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection klasse
 
-Stelt een verzameling voor van [`ChartCategory`](../chartcategory)
+Stelt een collectie voor van [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -18,23 +18,23 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Retourneert een aantal elementen in de collectie. Alleen-lezen Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Retourneert het aantal gebruikte categoriegroeperingsniveaus. Is meer dan één voor meerlagige categorieën. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de List gesynchroniseerd is (thread safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Geeft een aantal elementen in de collectie terug. Alleen-lezen Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Geeft het aantal gebruikte categoriegroeperingsniveaus terug. Is meer dan één voor meerlagige categorieën. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de List gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Haalt het element op op de opgegeven index. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Retourneert een object dat kan worden gebruikt om de toegang tot de collectie te synchroniseren. Alleen-lezen Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Als true dan wordt het werkblad gebruikt voor het opslaan van categorieën (dit geval ondersteunt meerlagige categorieën). Als false wordt het werkblad NIET gebruikt voor het opslaan van waarden (en dit geval ondersteunt geen meerlagige categorieën). Lezen/Schrijven Boolean. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Geeft een object terug dat kan worden gebruikt om de toegang tot de collectie te synchroniseren. Alleen-lezen Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Als true dan wordt een werkblad gebruikt voor het opslaan van categorieën (dit geval ondersteunt meerdere niveaus van categorieën). Als false dan wordt een werkblad NIET gebruikt voor het opslaan van waarden (en ondersteunt dit geval geen meerlagige categorieën). Lees/Schrijf Boolean. |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Als de categorie bestaat in de collectie, retourneer deze. Anders maakt het een nieuwe diagramcategorie aan van [`IChartDataCell`](../ichartdatacell) en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Maakt een nieuw [`ChartCategory`](../chartcategory) van de waarde en voegt het toe aan de collectie. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Als de categorie bestaat in de collectie, retourneer deze. Anders maakt het een nieuwe grafiekcategorie aan vanuit [`IChartDataCell`](../ichartdatacell) en voegt deze toe aan de collectie. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Maakt een nieuwe [`ChartCategory`](../chartcategory) aan vanuit de waarde en voegt deze toe aan de collectie. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Verwijdert alle elementen uit de collectie. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Zoekt naar de opgegeven [`ChartCategory`](../chartcategory) en retourneert de nulgebaseerde index van de eerste keer dat deze voorkomt in de gehele collectie. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Zoekt naar de opgegeven [`ChartCategory`](../chartcategory) en retourneert de nul-gebaseerde index van de eerste vindplaats binnen de gehele Collectie. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Verwijdert de opgegeven waarde. |
 | [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Verwijdert het element op de opgegeven index. |
 
@@ -44,6 +44,6 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 * klasse [ChartData](../chartdata)
 * interface [IChartCategoryCollection](../ichartcategorycollection)
 * naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

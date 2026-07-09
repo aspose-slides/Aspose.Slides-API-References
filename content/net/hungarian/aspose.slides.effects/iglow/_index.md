@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes .NET API-referencia
-description: Egy Glow hatást reprezentál, amelyben egy színű elmosódott körvonal kerül hozzáadásra az objektum széleihez kívül.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Glow effektust ábrázol, amelynél egy színes elmosódott körvonal kerül az objektum széleihez kívülre.
 type: docs
-weight: 3300
+weight: 3320
 url: /hu/aspose.slides.effects/iglow/
 ---
 ## IGlow interfész
 
-Egy Glow hatást képviseli, amelyben egy színű elmosódott körvonal kerül hozzáadásra az objektum széleihez kívül.
+Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | Színformátum. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Sugár. Olvasás/írás Double. |
 

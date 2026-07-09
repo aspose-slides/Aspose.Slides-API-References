@@ -1,33 +1,33 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Html や Svg ドキュメントのインポート時に外部リソースを解決するために使用されるコールバッククラスです。このリゾルバを使用すると、クライアントが提供した HTML または SVG ファイルがサーバーソフトウェアにローカルまたはネットワーク上のファイルを取得させる脆弱性が生じる可能性があります。使用する際は注意してください。ExternalResourceResolver を全く指定しないこと（埋め込みオブジェクトのみが読み取られます）を推奨するか、指定された uri が有効かどうかをチェックするサブクラスを作成してください。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Html および Svg ドキュメントのインポート時に外部リソースを解決するために使用されるコールバック クラスです。このリゾルバーを使用すると、クライアントが提供した HTML または SVG ファイルによりサーバー ソフトウェアがローカルまたはネットワーク上のファイルを取得する脆弱性が発生する可能性があります。使用する際は注意が必要です。ExternalResourceResolver をまったく指定しないこと（埋め込みオブジェクトのみが読み込まれます）を推奨するか、指定された URI が有効かどうかをチェックするサブクラスを作成してください。
 type: docs
-weight: 7460
+weight: 7480
 url: /ja/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver クラス
 
-Html や Svg 文書のインポート時に外部リソースを解決するために使用されるコールバック クラスです。このリゾルバを使用すると、クライアントが提供した HTML または SVG ファイルがサーバーソフトウェアにローカルまたはネットワーク上のファイルを取得させる脆弱性が生じる可能性があります。使用する際は注意が必要です。ExternalResourceResolver を指定しないこと（埋め込みオブジェクトのみが読み取られます）を推奨するか、指定された uri が有効かどうかをチェックするサブクラスを作成してください。
+Callback クラスは Html、Svg ドキュメントのインポート時に外部リソースを解決するために使用されます。このリゾルバーを使用すると、クライアントが提供した HTML または SVG ファイルがサーバー ソフトウェアにローカルまたはネットワーク上のファイルを取得させる脆弱性が生じる可能性があります。使用する際は注意が必要です。ExternalResourceResolver を指定しないこと（埋め込みオブジェクトのみが読み込まれます）を推奨するか、指定された uri が有効かどうかをチェックするサブクラスを作成してください。
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [ExternalResourceResolver](externalresourceresolver)() | デフォルトコンストラクタ。 |
+| [ExternalResourceResolver](externalresourceresolver)() | デフォルト コンストラクターです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | URI を実際のリソースを含むオブジェクトにマッピングします。 |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | 基底 URI と相対 URI から絶対 URI を解決します。 |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | ベース URI と相対 URI から絶対 URI を解決します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IExternalResourceResolver](../iexternalresourceresolver)
 * 名前空間 [Aspose.Slides.Import](../../aspose.slides.import)

@@ -3,7 +3,7 @@ title: EffectStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: エフェクト スタイルを表します。
 type: docs
-weight: 11060
+weight: 11080
 url: /ja/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle クラス
@@ -18,8 +18,8 @@ public class EffectStyle : DomObject<EffectStyleCollection>, IEffectStyle
 
 | 名前 | 説明 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | エフェクト フォーマットを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 3D フォーマットを返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/effectstyle/effectformat) { get; } | エフェクト フォーマットを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [ThreeDFormat](../../aspose.slides.theme/effectstyle/threedformat) { get; } | 3D フォーマットを返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 
 ### 参照
 

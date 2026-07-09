@@ -1,20 +1,20 @@
 ---
 title: Dispose
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 인스턴스가 사용한 리소스를 해제합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 이 인스턴스에서 사용되는 리소스를 해제합니다.
 type: docs
 weight: 40
 url: /ko/aspose.slides.ai/openaicompatiblewebclient/dispose/
 ---
 ## OpenAICompatibleWebClient.Dispose 메서드
 
-이 인스턴스가 사용한 리소스를 해제합니다.
+이 인스턴스에서 사용하는 리소스를 해제합니다.
 
 ```csharp
 public void Dispose()
 ```
 
-### 참조
+### 관련 항목
 
 * 클래스 [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../openaicompatiblewebclient)

@@ -1,6 +1,6 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Alpha Inverse 효과를 나타내는 불변 객체입니다. Alpha 불투명도 값은 100에서 빼서 반전됩니다.
 type: docs
 weight: 3090
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData 인터페이스
 
-불변 객체로 Alpha Inverse 효과를 나타냅니다. Alpha(불투명도) 값은 100%에서 빼서 반전됩니다.
+불변 객체로, Alpha Inverse 효과를 나타냅니다. Alpha(불투명도) 값은 100%에서 빼서 반전됩니다.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

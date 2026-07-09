@@ -21,7 +21,7 @@ public class ResponsiveHtmlController : IResponsiveHtmlController
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor)() | 새 인스턴스를 생성합니다 |
 | [ResponsiveHtmlController](responsivehtmlcontroller#constructor_1)(IHtmlFormattingController) | 새 인스턴스를 생성합니다 |
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IResponsiveHtmlController](../iresponsivehtmlcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

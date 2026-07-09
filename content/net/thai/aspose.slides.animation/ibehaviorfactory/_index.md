@@ -1,20 +1,20 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างเอฟเฟกต์แอนิเมชัน
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อนุญาตให้สร้างเอฟเฟกต์การเคลื่อนไหว
 type: docs
 weight: 430
 url: /th/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างเอฟเฟกต์แอนิเมชัน
+อนุญาตให้สร้างเอฟเฟกต์การเคลื่อนไหว
 
 ```csharp
 public interface IBehaviorFactory
 ```
 
-## เมธอด
+## Methods
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -27,11 +27,11 @@ public interface IBehaviorFactory
 | [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | สร้างเอฟเฟกต์การสเกล. |
 | [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | สร้างเอฟเฟกต์การตั้งค่า. |
 
-### หมายเหตุ
+### Remarks
 
-สำหรับความเข้ากันได้กับ COM.
+เพื่อความเข้ากันได้กับ COM.
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.Animation](../../aspose.slides.animation)
 * แอสเซมบลี [Aspose.Slides](../../)

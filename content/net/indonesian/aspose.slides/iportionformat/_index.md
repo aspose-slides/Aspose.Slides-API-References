@@ -1,9 +1,9 @@
 ---
 title: IPortionFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Kelas ini berisi properti pemformatan bagian teks. Tidak seperti IPortionFormatEffectiveData./iportionformateffectivedata semua properti kelas ini dapat ditulis.
+description: Kelas ini berisi properti pemformatan bagian teks. Berbeda dengan IPortionFormatEffectiveData./iportionformateffectivedata, semua properti kelas ini dapat ditulis.
 type: docs
-weight: 6710
+weight: 6730
 url: /id/aspose.slides/iportionformat/
 ---
 ## IPortionFormat antarmuka
@@ -20,8 +20,8 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Mengembalikan antarmuka IBasePortionFormat. Hanya-baca [`IBasePortionFormat`](../ibaseportionformat). |
 | [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Memungkinkan untuk mendapatkan antarmuka IHyperlinkContainer dasar. Hanya-baca [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Mengembalikan atau mengatur pengidentifikasi bookmark. Baca/tulis String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Menentukan apakah tag pintar harus dibersihkan. Tidak ada pewarisan yang diterapkan. Baca/tulis Boolean. |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Mengembalikan atau mengatur identifier penanda. Baca/tulis String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Menentukan apakah smart tag harus dibersihkan. Tidak ada pewarisan yang diterapkan. Baca/tulis Boolean. |
 
 ## Metode
 
@@ -29,11 +29,11 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | --- | --- |
 | [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Mendapatkan data pemformatan bagian yang efektif dengan pewarisan yang diterapkan. |
 
-### Keterangan
+### Catatan
 
-Kelas ini digunakan untuk mengembalikan dan memanipulasi properti pemformatan bagian teks yang didefinisikan untuk bagian tertentu. Ini berarti tidak ada pewarisan yang diterapkan saat mengambil nilai sehingga dalam kebanyakan kasus Anda akan mendapatkan nilai yang berarti "tidak terdefinisi".
+Kelas ini digunakan untuk mengembalikan dan memanipulasi properti pemformatan teks bagian yang ditentukan untuk bagian tertentu. Ini berarti tidak ada pewarisan yang diterapkan saat mengambil nilai sehingga dalam mayoritas kasus Anda akan mendapatkan nilai yang berarti "undefined".
 
-Untuk mendapatkan nilai parameter pemformatan yang efektif termasuk yang diwariskan, Anda perlu menggunakan metode [`GetEffective`](./geteffective) yang mengembalikan sebuah instance [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Untuk mendapatkan nilai parameter pemformatan yang efektif termasuk yang diwarisi, Anda perlu menggunakan metode [`GetEffective`](./geteffective) yang mengembalikan sebuah instance [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapperFactory
 second_title: Aspose.Sildes pro .NET API Reference
-description: Továrna na StreamWrappers. Pro COM rozhraní.
+description: Továrna na StreamWrappery. Pro COM rozhraní.
 type: docs
-weight: 7120
+weight: 7140
 url: /cs/aspose.slides/istreamwrapperfactory/
 ---
-## IStreamWrapperFactory rozhraní
+## IStreamWrapperFactory interface
 
-Factory of StreamWrappers. For COM rozhraní.
+Factory konstruktorů StreamWrapperů. Pro COM rozhraní.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -18,8 +18,8 @@ public interface IStreamWrapperFactory
 
 | Název | Popis |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Vytvoří FileStream se zadanou cestou a režimem vytvoření. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Vytvoří FileStream se zadanou cestou, režimem vytvoření a oprávněním čtení/zápisu. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Vytvoří FileStream se zadanou cestou a režimem vytváření. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Vytvoří FileStream se zadanou cestou, režimem vytváření a oprávněním pro čtení/zápis. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Vytvoří obal MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Vytvoří obal MemoryStream na základě zadaného pole bajtů. |
 

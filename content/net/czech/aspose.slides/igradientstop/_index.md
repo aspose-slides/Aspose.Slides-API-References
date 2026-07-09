@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje formát přechodu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje formát gradientu.
 type: docs
-weight: 6000
+weight: 6020
 url: /cs/aspose.slides/igradientstop/
 ---
 ## IGradientStop rozhraní
 
-Reprezentuje formát přechodu.
+Reprezentuje formát gradientu.
 
 ```csharp
 public interface IGradientStop
@@ -19,7 +19,7 @@ public interface IGradientStop
 | Název | Popis |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstop/color) { get; } | Vrací barvu gradientového bodu. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Vrací nebo nastavuje polohu (0..1) gradientového bodu. Čtení/zápis Single. |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Vrací nebo nastavuje pozici (0..1) gradientového bodu. Čtení/Zápis Single. |
 
 ### Viz také
 

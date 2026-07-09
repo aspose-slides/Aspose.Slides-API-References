@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอนโทรลเลอร์ HTML ของฟอนต์ Eot ที่ฝังอยู่.
+description: คอนโทรลเลอร์ HTML สำหรับฟอนท์ Eot ที่ฝังไว้
 type: docs
 weight: 3900
 url: /th/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController อินเทอร์เฟซ
 
-คอนโทรลเลอร์ HTML ของฟอนต์ Eot ที่ฝังอยู่.
+คอนโทรลเลอร์ HTML สำหรับฟอนท์ Eot ที่ฝังไว้
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | คืนค่าอินเทอร์เฟซ IHtmlFormattingController. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | คืนค่า IHtmlFormattingController อินเทอร์เฟซ. |
 
 ### ดูเพิ่มเติม
 

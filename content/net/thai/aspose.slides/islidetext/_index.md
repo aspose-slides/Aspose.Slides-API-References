@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แทนข้อความที่สกัดจากสไลด์
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นตัวแทนข้อความที่สกัดจากสไลด์
 type: docs
 weight: 7100
 url: /th/aspose.slides/islidetext/
 ---
 ## ISlideText อินเทอร์เฟซ
 
-แทนข้อความที่สกัดจากสไลด์
+เป็นการแทนข้อความที่สกัดจากสไลด์
 
 ```csharp
 public interface ISlideText
@@ -18,10 +18,10 @@ public interface ISlideText
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | ข้อความของความคิดเห็นบนสไลด์ |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | ข้อความบนรูปร่างของหน้าเลเยาต์สำหรับสไลด์นี้ |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | ข้อความบนรูปร่างของหน้ามาสเตอร์สำหรับสไลด์นี้ |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | ข้อความบนรูปร่างของหน้าบันทึกย่อสำหรับสไลด์นี้ |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | ข้อความของความคิดเห็นสไลด์ |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | ข้อความบนรูปร่างของหน้าเค้าโครงสำหรับสไลด์นี้ |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | ข้อความบนรูปร่างของหน้าแม่สำหรับสไลด์นี้ |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | ข้อความบนรูปร่างของหน้าบันทึกสำหรับสไลด์นี้ |
 | [Text](../../aspose.slides/islidetext/text) { get; } | ข้อความบนรูปร่างของสไลด์ |
 
 ### ดูเพิ่มเติม

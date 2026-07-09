@@ -1,14 +1,14 @@
 ---
 title: MathJustification
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megadja a matematikai bekezdés igazítását, amely a ugyanabban a bekezdésben egymás mellett elhelyezkedő matematikai szövegrészek sorozata
+second_title: Aspose.Sildes .NET API Referencia
+description: Megadja a matematikai bekezdés igazítását, amely egy sor egymás melletti matematikai szövegpéldányt tartalmaz ugyanabban a bekezdésben
 type: docs
-weight: 8780
+weight: 8800
 url: /hu/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification enumeráció
 
-Megadja a matematikai bekezdés igazítását (egymás mellé helyezkedő matematikai szövegrészek sorozata ugyanabban a bekezdésben)
+Megadja a matematikai bekezdés igazítását (egy sor egymás melletti matematikai szövegpéldányból álló szöveg ugyanazon bekezdésen belül)
 
 ```csharp
 public enum MathJustification
@@ -21,7 +21,7 @@ public enum MathJustification
 | LeftJustified | `1` | A matematikai szöveget balra igazítja |
 | RightJustified | `2` | A matematikai szöveget jobbra igazítja |
 | Centered | `3` | A matematikai szöveget középre igazítja |
-| CenteredAsGroup | `4` | Az egész matematikai blokkok csoportját egy egységként középre helyezi az oldalon. Ez azt jelenti, hogy a matematikai szöveg példányai egymáshoz képest igazíthatók, de a teljes matematikai szöveg csoportot egészként középre helyezi. |
+| CenteredAsGroup | `4` | A teljes matematikai blokkcsoportot egy egységként középre helyezi az oldalon. Ez azt jelenti, hogy a matematikai szöveg példányai egymáshoz képest igazíthatók, de a teljes matematikai szövegcsoport egészként középre van igazítva. |
 
 ### Lásd még
 

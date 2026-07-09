@@ -1,14 +1,14 @@
 ---
 title: PresentationContentAmountType
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد مقدار المحتوى المتضمن في العرض التقديمي المُنشأ، مما يؤثر على عدد الشرائح ومستوى التفصيل في كل شريحة.
+description: يحدد كمية المحتوى المتضمن في العرض المولد، مما يؤثر على عدد الشرائح ومستوى التفاصيل في كل شريحة.
 type: docs
 weight: 60
 url: /ar/aspose.slides.ai/presentationcontentamounttype/
 ---
-## PresentationContentAmountType التعداد
+## تعداد PresentationContentAmountType
 
-يحدد مقدار المحتوى المتضمن في العرض التقديمي المُنشأ، مما يؤثر على كلٍ من عدد الشرائح ومستوى التفصيل في كل شريحة.
+حدد كمية المحتوى المتضمن في العرض المولد، مما يؤثر على عدد الشرائح ومستوى التفصيل في كل شريحة.
 
 ```csharp
 public enum PresentationContentAmountType
@@ -16,11 +16,11 @@ public enum PresentationContentAmountType
 
 ### القيم
 
-| Name | Value | Description |
+| الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | Brief | `0` | محتوى قصير وأساسي. |
 | Medium | `1` | كمية محتوى معتدلة. |
-| Detailed | `2` | الخيار الأكثر تفصيلاً مع نصٍ واسع. |
+| Detailed | `2` | الخيار الأكثر تفصيلاً مع نص واسع. |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति में फ़ॉन्ट को प्रबंधित करता है।
+description: प्रस्तुति में फ़ॉन्ट्स का प्रबंधन करता है।
 type: docs
 weight: 5930
 url: /hi/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager इंटरफ़ेस
 
-प्रेजेंटेशन में फ़ॉन्ट को प्रबंधित करता है।
+प्रस्तुति में फ़ॉन्ट्स का प्रबंधन करता है।
 
 ```csharp
 public interface IFontsManager
@@ -18,29 +18,29 @@ public interface IFontsManager
 
 | नाम | विवरण |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | फ़ॉन्ट के संग्रह को उचित प्रतिस्थापन के लिए फॉलबैक कार्यक्षमता द्वारा प्रबंधित करने हेतु उपयोगकर्ता की FontFallBack नियमों की संग्रह का प्रतिनिधित्व करता है। पढ़ें/लिखें [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | रेंडरिंग के दौरान उपयोग किए जाने वाले फ़ॉन्ट प्रतिस्थापन। पढ़ें/लिखें [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | एक उपयोगकर्ता के फ़ॉन्ट फॉलबैक नियमों के संग्रह का प्रतिनिधित्व करता है जो फ़ॉन्ट्स के संग्रह का प्रबंधन करता है ताकि फॉलबैक कार्यक्षमता द्वारा उचित प्रतिस्थापन हो सके। Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | रेंडरिंग के दौरान उपयोग करने के लिए फ़ॉन्ट प्रतिस्थापन। Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | एंबेडेड फ़ॉन्ट जोड़ता है। ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइटेड होते हैं, इसलिए फ़ॉन्ट जोड़ते समय लाइसेंस की जाँच करें और सुनिश्चित करें कि इसे स्वतंत्र रूप से किसी अन्य मशीन पर स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंका जा सकता है। |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | एंबेडेड फ़ॉन्ट जोड़ता है। फ़ॉन्ट कॉपी करते समय ध्यान रखें कि अधिकांश फ़ॉन्ट कॉपीराइटेड हैं। फ़ॉन्ट का लाइसेंस पहले से खोजें और पुष्टि करें कि इसे स्वतंत्र रूप से किसी अन्य मशीन पर स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंका जा सकता है। |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | प्रेजेंटेशन में एंबेडेड फ़ॉन्ट लौटाता है। |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | निर्दिष्ट फ़ॉन्ट शैली और फ़ॉन्ट डेटा के लिए फ़ॉन्ट डेटा को दर्शाने वाला बाइट एरे प्राप्त करता है। |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | दिये गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट का एंबेडिंग स्तर निर्धारित करता है। |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | प्रेजेंटेशन में उपयोग किए गए फ़ॉन्ट लौटाता है। |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | प्रेजेंटेशन के रेंडरिंग के दौरान प्रतिस्थापित किए जाने वाले फ़ॉन्ट की जानकारी प्राप्त करता है। |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | निर्दिष्ट स्लाइड्स के रेंडरिंग के दौरान प्रतिस्थापित किए जाने वाले फ़ॉन्ट की जानकारी प्राप्त करता है। |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | एंबेडेड फ़ॉन्ट हटाता है। |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | [`IFontSubstRule`](../ifontsubstrule) में दी गई जानकारी का उपयोग करके प्रेजेंटेशन में फ़ॉन्ट बदलें। |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`IFontSubstRule`](../ifontsubstrule) के संग्रह में दी गई जानकारी का उपयोग करके प्रेजेंटेशन में फ़ॉन्ट बदलें। |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | प्रेजेंटेशन में फ़ॉन्ट बदलें। |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | एंबेडेड फ़ॉन्ट जोड़ता है। ध्यान रखें कि अधिकांश फ़ॉन्ट्स कॉपीराइटेड होते हैं, इसलिए फ़ॉन्ट जोड़ने से पहले उसके लाइसेंस को देखें और सुनिश्चित करें कि इसे दूसरी मशीन पर स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंकी जा सकती है। |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | एंबेडेड फ़ॉन्ट जोड़ता है। ध्यान रखें कि अधिकांश फ़ॉन्ट्स कॉपीराइटेड होते हैं, इसलिए फ़ॉन्ट कॉपी करने से पहले उसके लाइसेंस को देखें और सुनिश्चित करें कि इसे दूसरी मशीन पर स्वतंत्र रूप से स्थानांतरित किया जा सकता है। यदि फ़ॉन्ट डेटा null है या यह फ़ॉन्ट पहले से एंबेडेड है तो ArgumentException फेंकी जा सकती है। |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | प्रस्तुति में एंबेडेड फ़ॉन्ट्स को लौटाता है। |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | निर्दिष्ट फ़ॉन्ट शैली और फ़ॉन्ट डेटा के लिए फ़ॉन्ट डेटा का बाइट एरे प्राप्त करता है। |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | दिए गए बाइट एरे और फ़ॉन्ट नाम से फ़ॉन्ट का एंबेडिंग स्तर निर्धारित करता है। |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | प्रस्तुति में उपयोग किए गए फ़ॉन्ट्स को लौटाता है। |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | प्रस्तुति के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स की जानकारी प्राप्त करता है। |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | निर्दिष्ट स्लाइड्स के रेंडरिंग के दौरान बदलने वाले फ़ॉन्ट्स की जानकारी प्राप्त करता है। |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | एंबेडेड फ़ॉन्ट को हटाता है। |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | [`IFontSubstRule`](../ifontsubstrule) में प्रदान की गई जानकारी का उपयोग करके प्रस्तुति में फ़ॉन्ट बदलें। |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | [`IFontSubstRule`](../ifontsubstrule) के संग्रह में प्रदान की गई जानकारी का उपयोग करके प्रस्तुति में फ़ॉन्ट बदलें। |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | प्रस्तुति में फ़ॉन्ट बदलें। |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* असेंबल [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

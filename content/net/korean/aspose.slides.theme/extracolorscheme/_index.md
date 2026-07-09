@@ -1,6 +1,6 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes용 .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드에 할당할 수 있는 추가 색 구성표를 나타냅니다.
 type: docs
 weight: 11100
@@ -19,9 +19,9 @@ public class ExtraColorScheme : IExtraColorScheme
 | 이름 | 설명 |
 | --- | --- |
 | [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | 색 구성표를 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | 이 스킴의 이름을 반환합니다. 읽기 전용 String. |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | 이 색 구성표의 이름을 반환합니다. 읽기 전용 문자열. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IExtraColorScheme](../iextracolorscheme)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

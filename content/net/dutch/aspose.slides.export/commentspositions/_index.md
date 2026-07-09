@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de regel weer voor het renderen van opmerkingen in een geëxporteerd document
+description: Geeft de regel weer om opmerkingen in een geëxporteerd document weer te geven
 type: docs
 weight: 3730
 url: /nl/aspose.slides.export/commentspositions/
 ---
 ## CommentsPositions enumeratie
 
-Geeft de regel weer voor het renderen van opmerkingen in een geëxporteerd document
+Geeft de regel weer om opmerkingen in een geëxporteerd document weer te geven
 
 ```csharp
 public enum CommentsPositions
@@ -18,9 +18,9 @@ public enum CommentsPositions
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| None | `0` | Geeft aan dat opmerkingen helemaal niet moeten worden weergegeven. |
+| None | `0` | Geeft aan dat opmerkingen niet getoond moeten worden. |
 | Bottom | `1` | Geeft aan dat opmerkingen onderaan de pagina moeten worden weergegeven. |
-| Right | `2` | Geeft aan dat opmerkingen aan de rechterkant van de pagina moeten worden weergegeven. |
+| Right | `2` | Geeft aan dat opmerkingen rechts van de pagina moeten worden weergegeven. |
 
 ### Zie ook
 

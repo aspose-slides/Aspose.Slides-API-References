@@ -1,14 +1,14 @@
 ---
 title: Background
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงพื้นหลังของสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนค่าพื้นหลังของสไลด์.
 type: docs
 weight: 930
 url: /th/aspose.slides/background/
 ---
 ## คลาส Background
 
-แสดงถึงพื้นหลังของสไลด์.
+แทนค่าพื้นหลังของสไลด์
 
 ```csharp
 public sealed class Background : PVIObject, IBackground
@@ -18,22 +18,22 @@ public sealed class Background : PVIObject, IBackground
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐานแบบอ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | คืนค่า EffectFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | คืนค่า FillFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | คืนค่า presentation พาเรนต์ของสไลด์. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/background/slide) { get; } | คืนค่า slide พาเรนต์ของ shape. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | คืนค่า ColorFormat สำหรับการเติม BackgroundType.Themed. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | คืนค่าดัชนีของการเติม BackgroundType.Themed ในคอลเลกชันธีมพื้นหลัง 0 หมายถึงไม่มีการเติม 1..999 - ดัชนี. อ่าน/เขียน UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | คืนค่าประเภทของการเติมพื้นหลัง. อ่าน/เขียน [`BackgroundType`](../backgroundtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent เบื้องต้น. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | ส่งคืน EffectFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | ส่งคืน FillFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | ส่งคืนการนำเสนอแม่ของสไลด์. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/background/slide) { get; } | ส่งคืนสไลด์แม่ของรูปร่าง. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | ส่งคืน ColorFormat สำหรับการเติม BackgroundType.Themed. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | ส่งคืนดัชนีของการเติม BackgroundType.Themed ในคอลเลกชันธีมพื้นหลัง. 0 หมายถึงไม่มีการเติม. 1..999 - ดัชนี. อ่าน/เขียน UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | ส่งคืนประเภทของการเติมพื้นหลัง. อ่าน/เขียน [`BackgroundType`](../backgroundtype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับออบเจ็กต์ที่ระบุ |
-| [GetEffective](../../aspose.slides/background/geteffective)() | ดึงข้อมูลพื้นหลังที่มีผลโดยใช้การสืบทอด |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code |
+| [GetEffective](../../aspose.slides/background/geteffective)() | รับข้อมูลพื้นหลังที่มีผลโดยใช้การสืบทอด |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮช |
 
 ### ดูเพิ่มเติม
 

@@ -1,28 +1,28 @@
 ---
 title: FillBlendMode
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: กำหนดโหมดการผสม.
 type: docs
 weight: 4770
 url: /th/aspose.slides/fillblendmode/
 ---
-## FillBlendMode การนับ
+## FillBlendMode enumeration
 
-กำหนดโหมดผสม
+กำหนดโหมดการผสม
 
 ```csharp
 public enum FillBlendMode
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Darken | `0` | โหมดผสม Darken. |
-| Lighten | `1` | โหมดผสม Lighten. |
-| Multiply | `2` | โหมดผสม Multiply. |
-| Overlay | `3` | โหมดผสม Overlay. |
-| Screen | `4` | โหมดผสม Screen. |
+| Darken | `0` | โหมดการผสม Darken. |
+| Lighten | `1` | โหมดการผสม Lighten. |
+| Multiply | `2` | โหมดการผสม Multiply. |
+| Overlay | `3` | โหมดการผสม Overlay. |
+| Screen | `4` | โหมดการผสม Screen. |
 
 ### ดูเพิ่มเติม
 

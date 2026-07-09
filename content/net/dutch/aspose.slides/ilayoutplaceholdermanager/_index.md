@@ -1,14 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die je in staat stelt placeholders toe te voegen aan de lay-outdia.
+description: Stelt een manager voor die je in staat stelt placeholders toe te voegen aan de layout slide.
 type: docs
 weight: 6210
 url: /nl/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interface
 
-Stelt een manager voor die je in staat stelt placeholders toe te voegen aan de lay-outdia.
+Vertegenwoordigt een beheerder die je in staat stelt placeholders toe te voegen aan de layout-slide.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -18,16 +18,16 @@ public interface ILayoutPlaceholderManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een grafiek te bevatten. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om inhoud te bevatten, zoals een afbeelding, tabel, media of tekst. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een media-object te bevatten. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een online-afbeelding te bevatten. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een afbeelding te bevatten. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een SmartArt-diagram te bevatten. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om een tabel te bevatten. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om tekstinhoud te bevatten. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om inhoud, zoals een afbeelding, tabel, media of tekst, in verticale richting te bevatten. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de lay-outdia om tekstinhoud in verticale richting te bevatten. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een diagram te bevatten. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om inhoud te bevatten, zoals een afbeelding, tabel, media of tekst. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een media-object te bevatten. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een online afbeelding te bevatten. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een afbeelding te bevatten. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een SmartArt-diagram te bevatten. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om een tabel te bevatten. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om tekstinhoud te bevatten. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om inhoud te bevatten, zoals een afbeelding, tabel, media of tekst, in een verticale richting. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Voegt een nieuw placeholder-vorm toe aan de layout-slide om tekstinhoud in een verticale richting te bevatten. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: MotionCmdPath
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: पथ का एक कमांड दर्शाता है।
+description: पथ के एक कमांड का प्रतिनिधित्व करता है।
 type: docs
 weight: 650
 url: /hi/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath क्लास
 
-एक पथ का एक कमांड दर्शाता है।
+पथ का एक कमांड दर्शाता है।
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
@@ -18,12 +18,12 @@ public class MotionCmdPath : IMotionCmdPath
 
 | नाम | विवरण |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | कमांड प्रकार निर्दिष्ट करता है। पढ़ें/लिखें [`MotionCommandPathType`](../motioncommandpathtype)। |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | कमांड निर्देशांक सापेक्ष हैं या नहीं निर्धारित करता है। पढ़ें/लिखें Boolean। |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | कमांड के बिंदुओं को निर्दिष्ट करता है। पढ़ें/लिखें PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | कमांड बिंदुओं के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`MotionPathPointsType`](../motionpathpointstype)। |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | कमांड प्रकार निर्दिष्ट करता है। पढ़ने/लिखने [`MotionCommandPathType`](../motioncommandpathtype)। |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | कमांड निर्देशांक सापेक्ष है या नहीं निर्धारित करता है। पढ़ने/लिखने Boolean। |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | कमांड के बिंदुओं को निर्दिष्ट करता है। पढ़ने/लिखने PointF[]। |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | कमांड बिंदु प्रकार निर्दिष्ट करता है पढ़ने/लिखने [`MotionPathPointsType`](../motionpathpointstype)। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IMotionCmdPath](../imotioncmdpath)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)

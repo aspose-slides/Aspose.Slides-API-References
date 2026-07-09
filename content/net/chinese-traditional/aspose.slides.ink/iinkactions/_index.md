@@ -18,9 +18,9 @@ public interface IInkActions : IGraphicalObject
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | 允許獲取基礎 IGraphicalObject 介面。唯讀 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | 允許取得基礎 IGraphicalObject 介面。唯讀 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * 命名空間 [Aspose.Slides.Ink](../../aspose.slides.ink)

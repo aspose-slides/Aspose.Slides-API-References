@@ -16,20 +16,20 @@ public class CellCircularReferenceException : PptxEditException
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | 지정된 오류 메시지와 이 예외의 원인인 내부 예외에 대한 참조를 사용하여 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | 지정된 오류 메시지와 순환 셀 참조를 사용하여 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 새 인스턴스를 초기화합니다. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | 새로운 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 인스턴스를 초기화합니다. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 새로운 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 인스턴스를 초기화합니다. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string,Exception) | 지정된 오류 메시지와 이 예외의 원인이 되는 내부 예외에 대한 참조를 사용하여 새로운 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 인스턴스를 초기화합니다. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string,string) | 지정된 오류 메시지와 순환 셀 참조를 사용하여 새로운 [`CellCircularReferenceException`](../cellcircularreferenceexception) 클래스의 인스턴스를 초기화합니다. |
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | 순환 셀 참조를 가져옵니다. |
 
-### 참조
+### 참고
 
 * 클래스 [PptxEditException](../../aspose.slides/pptxeditexception)
 * 네임스페이스 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

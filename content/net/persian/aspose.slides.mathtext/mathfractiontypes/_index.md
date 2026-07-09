@@ -1,14 +1,14 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes برای مرجع API .NET
-description: انواع کسری
+second_title: Aspose.Sildes برای .NET مرجع API
+description: انواع کسر
 type: docs
 weight: 8710
 url: /fa/aspose.slides.mathtext/mathfractiontypes/
 ---
-## enumeration MathFractionTypes
+## MathFractionTypes شمارش
 
-انواع کسری
+انواع کسر
 
 ```csharp
 public enum MathFractionTypes
@@ -18,12 +18,12 @@ public enum MathFractionTypes
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Bar | `1` | کسری میله‌ای |
-| Skewed | `2` | کج |
-| Linear | `3` | کسری خطی |
-| NoBar | `4` | کسری بدون میله (پشته) |
+| Bar | `1` | کسر میله‌ای |
+| Skewed | `2` | خمیده |
+| Linear | `3` | کسر خطی |
+| NoBar | `4` | کسر بدون میله (پشته) |
 
-### همچنین ببینید
+### مراجع
 
 * فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * مجمع [Aspose.Slides](../../)

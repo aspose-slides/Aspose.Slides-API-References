@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Gesplitste diaovergangseffect.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Gesplitste dia-overgangseffect.
 type: docs
 weight: 10200
 url: /nl/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interface
 
-Gesplitste diaovergangseffect.
+Gesplitste dia-overgangseffect.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Staat toe de basale ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richting van de overgangssplitsing. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Oriëntatie van de overgangssplitsing. Lezen/schrijven [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Biedt toegang tot de basis ITransitionValueBase interface. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Richting van de splitsingsovergang. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Oriëntatie van de splitsingsovergang. Lezen/Schrijven [`Orientation`](../../aspose.slides/orientation). |
 
 ### Zie ook
 

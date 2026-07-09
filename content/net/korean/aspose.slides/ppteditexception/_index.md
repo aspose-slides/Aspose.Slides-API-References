@@ -1,6 +1,6 @@
 ---
 title: PptEditException
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 편집 오류가 감지될 때 발생하는 예외를 나타냅니다.
 type: docs
 weight: 9510
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ppteditexception/
 ---
 ## PptEditException 클래스
 
-프레젠테이션 편집 오류가 감지될 때 발생하는 예외를 나타냅니다.
+편집 프레젠테이션 오류가 감지되었을 때 발생하는 예외를 나타냅니다.
 
 ```csharp
 public class PptEditException : PptException
@@ -19,8 +19,8 @@ public class PptEditException : PptException
 | 이름 | 설명 |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | 기본 생성자. |
-| [PptEditException](ppteditexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외용 생성자. |
+| [PptEditException](ppteditexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외용 생성자. |
 
 ### 참고
 

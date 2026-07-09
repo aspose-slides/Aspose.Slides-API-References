@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Παρέχει επιλογές που ελέγχουν πώς αποθηκεύεται μια παρουσίαση σε μορφή SWF.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Παρέχει επιλογές που ελέγχουν τον τρόπο αποθήκευσης μιας παρουσίασης σε μορφή SWF.
 type: docs
-weight: 4130
+weight: 4150
 url: /el/aspose.slides.export/iswfoptions/
 ---
 ## Διεπαφή ISwfOptions
 
-Παρέχει επιλογές που ελέγχουν πώς μια παρουσίαση αποθηκεύεται σε μορφή SWF.
+Παρέχει επιλογές που ελέγχουν τον τρόπο αποθήκευσης μιας παρουσίασης σε μορφή SWF.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -19,27 +19,27 @@ public interface ISwfOptions : ISaveOptions
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Επιστρέφει τη διεπαφή ISaveOptions. Μόνο για ανάγνωση [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο SWF πρέπει να συμπιεστεί ή όχι. Προεπιλογή είναι `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Ενεργοποίηση/απενεργοποίηση μενού περιβάλλοντος. Προεπιλογή είναι true. |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Καθορίζει την ποιότητα των εικόνων JPEG. Προεπιλογή είναι 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Εικόνα που θα εμφανίζεται ως λογότυπο στην επάνω δεξιά γωνία του προβολέα. Η εικόνα πρέπει να είναι PNG 32x64 εικονοστοιχεία, αλλιώς το λογότυπο μπορεί να εμφανιστεί εσφαλμένα. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Αποκτά ή ορίζει τη πλήρη διεύθυνση υπερσυνδέσμου για ένα λογότυπο. Έχει επίδραση μόνο εάν έχει οριστεί ένα [`LogoImageBytes`](./logoimagebytes). |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Εμφάνιση/απόκρυψη κάτω παραθύρου. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Εμφάνιση/απόκρυψη πλήρους οθόνης κουμπιού. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο θα περιλαμβάνει κρυφές διαφάνειες ή όχι. Προεπιλογή είναι `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Εμφάνιση/απόκρυψη αριστερού παραθύρου. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Καθορίζει εάν θα εμφανίζεται το περίγραμμα γύρω από τις σελίδες. Προεπιλογή είναι true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Εμφάνιση/απόκρυψη πλοήγησης σελίδας. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Εμφάνιση/απόκρυψη ενότητας αναζήτησης. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Εμφάνιση/απόκρυψη ολόκληρου του επάνω παραθύρου. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Αποκτά ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). Αυτή η ιδιότητα δεν υποστηρίζει την ανάθεση αντικειμένων τύπου `Aspose.Slides.Export.HandoutLayoutingOptions` |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Έναρξη με ανοιχτό αριστερό παράθυρο. Μπορεί να παρακαμφθεί στα flashvars. Προεπιλογή είναι false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Καθορίζει εάν το παραγόμενο έγγραφο SWF θα περιλαμβάνει τον ενσωματωμένο προβολέα εγγράφων ή όχι. Προεπιλογή είναι `true`. |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο SWF θα συμπιεστεί ή όχι. Η προεπιλογή είναι `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Ενεργοποίηση/απενεργοποίηση του μενού περιβάλλοντος. Η προεπιλογή είναι true. |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Καθορίζει την ποιότητα των εικόνων JPEG. Η προεπιλογή είναι 95. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Εικόνα που θα εμφανίζεται ως λογότυπο στην επάνω δεξιά γωνία του προβολέα. Η εικόνα πρέπει να είναι PNG 32x64 pixel, διαφορετικά το λογότυπο μπορεί να εμφανιστεί εσφαλμένα. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Αποκτά ή ορίζει τη πλήρη διεύθυνση υπερσύνδεσμου για ένα λογότυπο. Έχει νόημα μόνο εάν έχει οριστεί ένα [`LogoImageBytes`](./logoimagebytes). |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Εμφάνιση/απόκρυψη του κάτω πάνελ. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Εμφάνιση/απόκρυψη του κουμπιού πλήρους οθόνης. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο θα περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Εμφάνιση/απόκρυψη του αριστερού πάνελ. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Καθορίζει αν θα εμφανίζεται το πλαίσιο γύρω από τις σελίδες. Η προεπιλογή είναι true. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Εμφάνιση/απόκρυψη του ελεγκτή αλλαγής σελίδας. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Εμφάνιση/απόκρυψη της ενότητας αναζήτησης. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Εμφάνιση/απόκρυψη ολόκληρου του πάνω πάνελ. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι true. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Αποκτά ή ορίζει τη λειτουργία με την οποία τοποθετούνται οι διαφάνειες στη σελίδα κατά την εξαγωγή παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). Αυτή η ιδιότητα δεν υποστηρίζει την ανάθεση αντικειμένων τύπου `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Έναρξη με ανοιχτό το αριστερό πάνελ. Μπορεί να παρακαμφθεί μέσω flashvars. Η προεπιλογή είναι false. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο SWF θα περιλαμβάνει τον ενσωματωμένο προβολέα εγγράφων ή όχι. Η προεπιλογή είναι `true`. |
 
 ### Δείτε επίσης
 
-* διεπαφή [ISaveOptions](../isaveoptions)
+* διασύνδεση [ISaveOptions](../isaveoptions)
 * χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: รูปแบบภาพต่าง ๆ enum นี้เป็นตัวแทนของคลาส System.Drawing.Imaging.ImageFormat เพื่อความเข้ากันได้กับ COM
+description: รูปแบบภาพ. enum นี้เป็นการแทนที่คลาส System.Drawing.Imaging.ImageFormat. จำเป็นสำหรับความเข้ากันได้กับ COM.
 type: docs
 weight: 9260
 url: /th/aspose.slides/ppimageformat/
 ---
-## PPImageFormat enum
+## PPImageFormat การกำหนดค่า
 
-รูปแบบภาพต่าง ๆ enum นี้เป็นตัวแทนของคลาส `System.Drawing.Imaging.ImageFormat` เพื่อความเข้ากันได้กับ COM
+รูปแบบภาพ. enum นี้เป็นการแทนที่คลาส `System.Drawing.Imaging.ImageFormat`. จำเป็นสำหรับความเข้ากันได้กับ COM.
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Bmp | `0` | รับรูปแบบภาพ bitmap (BMP) |
-| Emf | `1` | รับรูปแบบภาพ enhanced metafile (EMF) |
-| Exif | `2` | รับรูปแบบ Exchangeable Image File (Exif) |
-| Gif | `3` | รับรูปแบบภาพ Graphics Interchange Format (GIF) |
-| Icon | `4` | รับรูปแบบภาพ Windows icon |
-| Jpeg | `5` | รับรูปแบบภาพ Joint Photographic Experts Group (JPEG) |
-| MemoryBmp | `6` | รับรูปแบบของ bitmap ที่อยู่ในหน่วยความจำ |
-| Png | `7` | รับรูปแบบภาพ W3C Portable Network Graphics (PNG) |
-| Tiff | `8` | รับรูปแบบภาพ Tagged Image File Format (TIFF) |
-| Wmf | `9` | รับรูปแบบภาพ Windows metafile (WMF) |
+| Bmp | `0` | รับรูปแบบภาพ bitmap (BMP). |
+| Emf | `1` | รับรูปแบบภาพ enhanced metafile (EMF). |
+| Exif | `2` | รับรูปแบบ Exchangeable Image File (Exif). |
+| Gif | `3` | รับรูปแบบภาพ Graphics Interchange Format (GIF). |
+| Icon | `4` | รับรูปแบบภาพไอคอน Windows. |
+| Jpeg | `5` | รับรูปแบบภาพ Joint Photographic Experts Group (JPEG). |
+| MemoryBmp | `6` | รับรูปแบบ bitmap ในหน่วยความจำ. |
+| Png | `7` | รับรูปแบบภาพ W3C Portable Network Graphics (PNG). |
+| Tiff | `8` | รับรูปแบบภาพ Tagged Image File Format (TIFF). |
+| Wmf | `9` | รับรูปแบบภาพ Windows metafile (WMF). |
 
 ### ดูเพิ่มเติม
 

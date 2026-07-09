@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một bộ sưu tập các bình luận của một tác giả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một tập hợp các bình luận của một tác giả.
 type: docs
 weight: 2650
 url: /vi/aspose.slides/commentcollection/
 ---
-## Lớp CommentCollection
+## CommentCollection lớp
 
-Biểu diễn một bộ sưu tập các bình luận của một tác giả.
+Represents a collection of comments of one author.
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,10 +18,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Lấy số phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Lấy số lượng phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập bộ sưu tập có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | Lấy phần tử tại vị trí được chỉ định. Chỉ đọc [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Trả về một synchronization root. Chỉ đọc Object. |
 
 ## Phương thức
 
@@ -29,16 +29,16 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Thêm bình luận mới vào cuối bộ sưu tập. |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Thêm bình luận hiện đại mới vào cuối bộ sưu tập. |
-| [Clear](../../aspose.slides/commentcollection/clear)() | Xóa tất cả bình luận khỏi bộ sưu tập. |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng đã chỉ định. |
+| [Clear](../../aspose.slides/commentcollection/clear)() | Xóa tất cả các bình luận khỏi bộ sưu tập. |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Tìm một bình luận trong bộ sưu tập theo chỉ mục. |
 | [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Chèn bình luận mới vào bộ sưu tập tại chỉ mục đã chỉ định. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Chèn bình luận hiện đại mới vào bộ sưu tập tại chỉ mục đã chỉ định. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Xóa lần xuất hiện đầu tiên của bình luận đã chỉ định trong bộ sưu tập. |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Xóa phần tử tại chỉ mục đã chỉ định trong bộ sưu tập. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả bình luận. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả bình luận từ phạm vi đã chỉ định. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Chèn bình luận mới vào bộ sưu tập tại vị trí được chỉ định. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Chèn bình luận hiện đại mới vào bộ sưu tập tại vị trí được chỉ định. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Xóa lần xuất hiện đầu tiên của bình luận được chỉ định trong bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Xóa phần tử tại vị trí được chỉ định trong bộ sưu tập. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả các bình luận. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả các bình luận từ phạm vi được chỉ định. |
 
 ### Xem thêm
 

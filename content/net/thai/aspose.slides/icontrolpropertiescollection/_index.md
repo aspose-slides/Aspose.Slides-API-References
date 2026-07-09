@@ -8,7 +8,7 @@ url: /th/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection อินเทอร์เฟซ
 
-A collection of ActiveX controls.
+คอลเลกชันของคอนโทรล ActiveX.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -19,9 +19,9 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | คืนค่าจำนวนคุณสมบัติในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | คืนจำนวนของคุณสมบัติในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | คืนค่าหรือกำหนดคุณสมบัติ. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | คืนค่าจำนวนคุณสมบัติในคอลเลกชัน. อ่านอย่างเดียว ICollection. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | คืนจำนวนของคุณสมบัติในคอลเลกชัน. อ่านอย่างเดียว ICollection. |
 
 ## เมธอด
 
@@ -29,7 +29,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 | --- | --- |
 | [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | เพิ่มคุณสมบัติไปยังคอลเลกชัน. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | ลบคุณสมบัติทั้งหมด. |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | ลบคุณสมบัติที่มีชื่อที่ระบุ. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | ลบคุณสมบัติตามชื่อที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

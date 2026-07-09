@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes for .NET API 參考
-description: 在 Markdown 匯出期間，對每個非 SVG 圖像（點陣圖或中繪圖）呼叫此委派。傳回 true 以使用指定的連結，或傳回 false 以套用預設的儲存邏輯。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 在 Markdown 匯出期間，對每個非 SVG 圖像（位圖或圖元檔）呼叫此委派。返回 true 以使用指定的連結，或返回 false 以套用預設的儲存邏輯。
 type: docs
 weight: 4260
 url: /zh-hant/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
 ## MarkdownSaveOptions.MarkdownImageSavingHandler 委派
 
-在 Markdown 匯出期間，對每個非 SVG 圖像（點陣圖或中繪圖）呼叫此委派。傳回 `true` 以使用指定的 *連結*，或傳回 `false` 以套用預設的儲存邏輯。
+在 Markdown 匯出期間，對每個非 SVG 圖像（位圖或圖元檔）呼叫此委派。返回 `true` 以使用指定的 *link*，或返回 `false` 以套用預設的儲存邏輯。
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -16,11 +16,11 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| image | IImage | 正在匯出的圖像（點陣圖或中繪圖）。 |
+| image | IImage | 正在匯出的圖像（位圖或圖元檔）。 |
 | format | ImageFormat | 圖像格式。 |
-| link | String& | 當傳回 `true` 時使用的 Markdown 連結。 |
+| link | String& | 當返回 `true` 時要使用的 Markdown 連結。 |
 
-### 參見
+### 另見
 
 * 介面 [IImage](../../aspose.slides/iimage)
 * 列舉 [ImageFormat](../../aspose.slides/imageformat)

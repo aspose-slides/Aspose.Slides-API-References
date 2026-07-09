@@ -1,12 +1,12 @@
 ---
 title: IGenericCollectionT
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Antarmuka koleksi generik tambahan.
 type: docs
-weight: 5940
+weight: 5960
 url: /id/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; antarmuka
+## IGenericCollection<T> antarmuka
 
 Antarmuka koleksi generik tambahan.
 
@@ -23,7 +23,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | Nama | Deskripsi |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | Mengembalikan antarmuka ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. IEnumerable hanya-baca. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | Mengembalikan antarmuka IEnumerable. Hanya-baca IEnumerable. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes for .NET API Referansı
-description: Belge renderleme türü.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Belge oluşturma türü.
 type: docs
-weight: 4220
+weight: 4240
 url: /tr/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType enumerasyon
+## MarkdownExportType enum
 
-Belge renderleme türü.
+Belge oluşturma türü.
 
 ```csharp
 public enum MarkdownExportType
@@ -18,9 +18,9 @@ public enum MarkdownExportType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Sequential | `0` | Tüm öğeleri ayrı ayrı renderlayın. Tek tek. |
-| TextOnly | `1` | Yalnızca metni renderlayın. |
-| Visual | `2` | Tüm öğeleri renderlayın, bir grup halinde olan öğeler - birlikte renderlayın. |
+| Sequential | `0` | Tüm öğeleri ayrı ayrı oluştur. Tek tek. |
+| TextOnly | `1` | Yalnızca metni oluştur. |
+| Visual | `2` | Tüm öğeleri oluştur, gruplanmış öğeler bir arada oluştur. |
 
 ### Örnekler
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

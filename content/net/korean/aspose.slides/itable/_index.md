@@ -1,14 +1,14 @@
 ---
 title: ITable
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드의 표를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드의 테이블을 나타냅니다.
 type: docs
 weight: 7230
 url: /ko/aspose.slides/itable/
 ---
 ## ITable 인터페이스
 
-슬라이드에 있는 표를 나타냅니다.
+슬라이드의 테이블을 나타냅니다.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -16,30 +16,30 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | 기본 IBulkTextFormattable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | 기본 IGraphicalObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | 컬럼 컬렉션을 반환합니다. 읽기 전용 [`IColumnCollection`](../icolumncollection). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | 열의 컬렉션을 반환합니다. 읽기 전용 [`IColumnCollection`](../icolumncollection). |
 | [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | 테이블의 첫 번째 열을 특수 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | 테이블의 첫 번째 행을 특수 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | 짝수 행을 다른 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | 지정된 열 및 행 인덱스에 있는 셀을 반환합니다. 읽기 전용 [`ICell`](../icell). |
+| [Item](../../aspose.slides/itable/item) { get; } | 지정된 열 및 행 인덱스에 해당하는 셀을 반환합니다. 읽기 전용 [`ICell`](../icell). |
 | [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | 테이블의 마지막 열을 특수 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | 테이블의 마지막 행을 특수 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | 테이블이 오른쪽에서 왼쪽으로 읽히는 순서를 가질지 여부를 결정합니다. 읽기-쓰기 Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | 행 컬렉션을 반환합니다. 읽기 전용 [`IRowCollection`](../irowcollection). |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | 테이블이 오른쪽에서 왼쪽으로 읽는 순서를 갖는지 여부를 결정합니다. 읽기-쓰기 Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | 행의 컬렉션을 반환합니다. 읽기 전용 [`IRowCollection`](../irowcollection). |
 | [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | 내장 테이블 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | 이 테이블에 대한 서식 속성을 포함하는 TableFormat 객체를 반환합니다. 읽기 전용 [`ITableFormat`](../itableformat). |
 | [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | 짝수 열을 다른 서식으로 그릴지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | 인접한 셀을 병합합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBulkTextFormattable](../ibulktextformattable)
 * 인터페이스 [IGraphicalObject](../igraphicalobject)

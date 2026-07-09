@@ -1,14 +1,14 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat pecahan matematika
 type: docs
-weight: 8680
+weight: 8700
 url: /id/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory kelas
 
-Allows to create a math fraction
+Memungkinkan membuat pecahan matematika
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
@@ -18,14 +18,14 @@ public class MathFractionFactory : IMathFractionFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MathFractionFactory](mathfractionfactory)() | Konstruktor default. |
+| [MathFractionFactory](mathfractionfactory)() | Konstruktor bawaan. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Membuat sebuah pecahan matematika |
-| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Membuat sebuah pecahan matematika |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction)(IMathElement, IMathElement) | Membuat pecahan matematika |
+| [CreateMathFraction](../../aspose.slides.mathtext/mathfractionfactory/createmathfraction#createmathfraction_1)(IMathElement, IMathElement, MathFractionTypes) | Membuat pecahan matematika |
 
 ### Catatan
 

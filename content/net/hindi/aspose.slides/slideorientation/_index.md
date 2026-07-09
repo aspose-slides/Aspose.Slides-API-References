@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET एपीआई संदर्भ
 description: स्लाइड अभिविन्यास का प्रतिनिधित्व करता है।
 type: docs
 weight: 10000
 url: /hi/aspose.slides/slideorientation/
 ---
-## SlideOrientation एन्यूमरेशन
+## SlideOrientation एन्यूमेरशन
 
-स्लाइड अभिविन्यास का प्रतिनिधित्व करता है।
+स्लाइड अभिविन्यास को दर्शाता है।
 
 ```csharp
 public enum SlideOrientation

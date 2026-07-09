@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
 second_title: Aspose.Sildes for .NET API リファレンス
-description: この構造体は、レンダリング時のフォント置換に関する情報を表します。
+description: この構造体は、レンダリング時にフォントが置き換えられる情報を表します。
 type: docs
-weight: 4890
+weight: 4910
 url: /ja/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo クラス
 
-This structure represents the information about the font replacement when it will be rendered.
+この構造体は、レンダリング時にフォントが置き換えられる情報を表します。
 
 ```csharp
 public class FontSubstitutionInfo
@@ -16,16 +16,16 @@ public class FontSubstitutionInfo
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) クラスのインスタンスを作成します。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | プレゼンテーション内のソースフォント名を示します。読み取り専用 String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | 元のフォントの代替フォント名を示します。読み取り専用 String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | 元のフォントに対する置換フォント名を示します。読み取り専用 String |
 
 ### 例
 

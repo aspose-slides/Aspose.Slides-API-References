@@ -1,38 +1,38 @@
 ---
 title: ICameraEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva kamerainställningar.
+description: Oföränderligt objekt som innehåller effektiva kameraegenskaper.
 type: docs
-weight: 5400
+weight: 5420
 url: /sv/aspose.slides/icameraeffectivedata/
 ---
-## ICameraEffectiveData interface
+## ICameraEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva kamerainställningar.
+Oföränderligt objekt som innehåller effektiva kameraegenskaper.
 
 ```csharp
 public interface ICameraEffectiveData
 ```
 
-## Properties
+## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Kameratyp. Skrivskyddad [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Kamera-FOV (0-180 grad, synfält). Skrivskyddad Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Kamerazoom (positivt värde i procent). Skrivskyddad Single. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Camera type. Endast läsning [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Camera FOV (0-180 deg, field of View). Endast läsning Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Camera zoom (positive value in percentage). Endast läsning Single. |
 
-## Methods
+## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | En rotation definieras genom användning av en latitudkoordinat, en longitudkoordinat och en revolution kring axeln som latitud- och longitudkoordinater. första elementet i returarrayen - latitud, andra - longitud, tredje - revolution. Returnerar null om ingen rotation definierats. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returnerar null om ingen rotation är definierad. |
 
-### Remarks
+### Anmärkningar
 
 Detta gränssnitt används som en del av [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### See Also
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

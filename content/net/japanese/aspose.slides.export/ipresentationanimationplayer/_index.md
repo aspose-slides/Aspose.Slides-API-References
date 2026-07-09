@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーションのプレーヤーを表します。PresentationAnimationsGenerator./presentationanimationsgenerator によって、その NewAnimation./presentationanimationsgenerator/newanimation イベントを通じて生成されたアニメーションです。
+description: アニメーションのプレーヤーを表します。アニメーションは PresentationAnimationsGenerator./presentationanimationsgenerator によって、その NewAnimation./presentationanimationsgenerator/newanimation イベントを介して生成されます。
 type: docs
-weight: 4010
+weight: 4030
 url: /ja/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer インターフェイス
 
-アニメーションのプレーヤーを表します。アニメーションは [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) によってその [`NewAnimation`](../presentationanimationsgenerator/newanimation) イベントを通じて生成されます。
+アニメーションのプレーヤーを表します。 アニメーションは [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) によって [`NewAnimation`](../presentationanimationsgenerator/newanimation) イベントを介して生成されます。
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,13 +18,13 @@ public interface IPresentationAnimationPlayer
 
 | 名前 | 説明 |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | アニメーションの期間を取得します [ms] |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | アニメーションの継続時間を取得します [ms] |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 以前 [`SetTimePosition`](./settimeposition) メソッドで設定された現在の時間位置のフレームを取得します。 |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 以前に [`SetTimePosition`](./settimeposition) メソッドで設定された現在の時間位置のフレームを取得します。 |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) 内のアニメーション時間位置を設定します。 |
 
 ### 例
@@ -51,7 +51,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

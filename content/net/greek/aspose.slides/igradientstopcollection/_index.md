@@ -1,12 +1,12 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει μια συλλογή από σημεία διαβάθμισης.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά μια συλλογή από σημεία διαβάθμισης.
 type: docs
-weight: 6010
+weight: 6030
 url: /el/aspose.slides/igradientstopcollection/
 ---
-## IGradientStopCollection διεπαφή
+## IGradientStopCollection διασύνδεση
 
 Αναπαριστά μια συλλογή από σημεία διαβάθμισης.
 
@@ -28,15 +28,15 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το προσθέτει στο τέλος της συλλογής. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Αφαιρεί όλα τα σημεία διαβάθμισης από μια συλλογή. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στο καθορισμένο δείκτη στη συλλογή. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Αφαιρεί ένα σημείο διαβάθμισης στο καθορισμένο δείκτη. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στη ζητούμενη θέση στη συλλογή. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στη ζητούμενη θέση στη συλλογή. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Δημιουργεί το νέο σημείο διαβάθμισης και το εισάγει στη ζητούμενη θέση στη συλλογή. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Αφαιρεί ένα σημείο διαβάθμισης στην καθορισμένη θέση. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* διεπαφή [IGradientStop](../igradientstop)
+* διασύνδεση [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* διασύνδεση [IGradientStop](../igradientstop)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότηση [Aspose.Slides](../../)
 

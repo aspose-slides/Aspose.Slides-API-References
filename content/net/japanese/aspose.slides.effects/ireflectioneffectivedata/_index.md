@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: リフレクション効果を表す不変オブジェクトです。
+description: Reflection エフェクトを表す不変オブジェクト。
 type: docs
-weight: 3490
+weight: 3510
 url: /ja/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData インターフェイス
 
-リフレクション効果を表す不変オブジェクトです。
+不可変オブジェクトで、Reflection エフェクトを表します。
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,21 +18,21 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | ぼかし半径です。読み取り専用 Double。 |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | リフレクションの方向です。読み取り専用 Single。 |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | リフレクションの距離です。読み取り専用 Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | 終了アルファ値（パーセント）の終端位置（アルファグラデーション ランプに沿って）を指定します。読み取り専用 Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | リフレクションの終了不透明度（パーセント）。読み取り専用 Single。 |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | リフレクションのオフセット方向（角度）を指定します。読み取り専用 Single。 |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | 矩形の配置です。読み取り専用 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | シェイプが回転した場合に、リフレクションがシェイプとともに回転するかどうかを指定します。読み取り専用 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | 水平方向のスケーリング係数を指定します。負のスケーリングは反転を引き起こします。（パーセント） 読み取り専用 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | 垂直方向のスケーリング係数を指定します。負のスケーリングは反転を引き起こします。（パーセント） 読み取り専用 Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | 水平方向のせん断角度を指定します。読み取り専用 Double。 |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | 垂直方向のせん断角度を指定します。読み取り専用 Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | 開始アルファ値（パーセント）の開始位置（アルファグラデーション ランプに沿って）を指定します。読み取り専用 Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | リフレクションの開始不透明度（パーセント）。読み取り専用 Single。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | 基本 IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | ぼかし半径。読み取り専用 Double。 |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | 反射の方向。読み取り専用 Single。 |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | 反射の距離。読み取り専用 Double。 |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | アルファ グラデーション ランプに沿った最終アルファ値の位置（パーセント）を指定します。読み取り専用 Single。 |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | 終了反射の不透明度（パーセント）。読み取り専用 Single。 |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | 反射のオフセット方向を指定します（角度）。読み取り専用 Single。 |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | 矩形の配置。読み取り専用 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | 形状が回転したときに反射も回転するかどうかを指定します。読み取り専用 Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み取り専用 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み取り専用 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | 水平せん断角度を指定します。読み取り専用 Double。 |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | 垂直せん断角度を指定します。読み取り専用 Double。 |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | アルファ グラデーション ランプに沿った開始アルファ値の位置（パーセント）を指定します。読み取り専用 Single。 |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | 開始反射の不透明度（パーセント）。読み取り専用 Single。 |
 
 ### 参照
 

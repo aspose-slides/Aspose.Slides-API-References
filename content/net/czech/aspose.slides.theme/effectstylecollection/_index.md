@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci efektových stylů.
+description: Reprezentuje kolekci stylů efektů.
 type: docs
-weight: 11070
+weight: 11090
 url: /cs/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection třída
 
-Reprezentuje kolekci efektových stylů.
+Represents a collection of effect styles.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -19,7 +19,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Vrací počet prvků v kolekci. Pouze pro čtení Int32, Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizovaný (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Vrací prvek na zadané pozici. Pouze pro čtení [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
@@ -27,8 +27,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Kopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do určeného pole. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Vrací výčet, který prochází kolekcí. |
 
 ### Viz také
 

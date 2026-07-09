@@ -1,6 +1,6 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: อนุญาตให้สร้างเมทริกซ์คณิตศาสตร์
 type: docs
 weight: 8860

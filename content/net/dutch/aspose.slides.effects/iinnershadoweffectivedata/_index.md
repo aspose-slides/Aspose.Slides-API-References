@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een inner schaduweffect vertegenwoordigt.
+description: Onveranderlijk object dat een inner shadow effect vertegenwoordigt.
 type: docs
 weight: 3430
 url: /nl/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData interface
 
-Onveranderlijk object dat een inner schaduweffect vertegenwoordigt.
+Onveranderlijk object dat een inner shadow effect vertegenwoordigt.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Vervaagingsradius. Alleen-lezen Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Stelt u in staat om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Vervagingsstraal. Alleen-lezen Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Richting van de schaduw. Alleen-lezen Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Afstand van de schaduw. Alleen-lezen Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Kleur van de schaduw. Alleen-lezen Color. |

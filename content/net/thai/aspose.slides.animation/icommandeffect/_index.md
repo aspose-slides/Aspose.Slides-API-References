@@ -1,14 +1,14 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงถึงเอฟเฟกต์คำสั่งสำหรับพฤติกรรมแอนิเมชัน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ของคำสั่งสำหรับพฤติกรรมการเคลื่อนไหว.
 type: docs
 weight: 480
 url: /th/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์คำสั่งสำหรับพฤติกรรมแอนิเมชัน.
+แสดงถึงเอฟเฟกต์ของคำสั่งสำหรับพฤติกรรมการเคลื่อนไหว.
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | กำหนดสตริงคำสั่ง. อ่าน/เขียน String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | กำหนดเป้าหมายรูปร่างของเอฟเฟกต์คำสั่ง. อ่าน/เขียน [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | กำหนดประเภทเอฟเฟกต์คำสั่งของพฤติกรรม. อ่าน/เขียน [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior ฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | กำหนดสตริงของคำสั่ง. อ่าน/เขียน String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | กำหนดเป้าหมายรูปทรงของเอฟเฟกต์คำสั่ง. อ่าน/เขียน [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | กำหนดประเภทของเอฟเฟกต์คำสั่งของพฤติกรรม. อ่าน/เขียน [`CommandEffectType`](../commandeffecttype). |
 
 ### ดูเพิ่มเติม
 

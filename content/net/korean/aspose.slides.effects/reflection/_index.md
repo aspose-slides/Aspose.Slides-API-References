@@ -18,30 +18,30 @@ public sealed class Reflection : IReflection
 
 | 이름 | 설명 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Blur 반경. 읽기/쓰기 Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | 반사 방향. 읽기/쓰기 Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | 반사 거리. 읽기/쓰기 Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | 끝 알파 값(퍼센트)의 끝 위치(알파 그라데이션 램프를 따라)를 지정합니다. 읽기/쓰기 Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | 끝 반사 불투명도(퍼센트). 읽기/쓰기 Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | 반사를 오프셋할 방향을 지정합니다(각도). 읽기/쓰기 Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | 사각형 정렬. 읽기/쓰기 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | 형상이 회전될 경우 반사도 형상과 함께 회전해야 하는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | 수평 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 일으킵니다(퍼센트). 읽기/쓰기 Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | 수직 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 일으킵니다(퍼센트). 읽기/쓰기 Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | 수평 왜곡 각도를 지정합니다. 읽기/쓰기 Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | 수직 왜곡 각도를 지정합니다. 읽기/쓰기 Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | 시작 알파 값(퍼센트)의 시작 위치(알파 그라데이션 램프를 따라)를 지정합니다. 읽기/쓰기 Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | 시작 반사 불투명도(퍼센트). 읽기/쓰기 Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Blur radius. 읽기/쓰기 Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direction of reflection. 읽기/쓰기 Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distance of reflection. 읽기/쓰기 Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Specifies the end position (along the alpha gradient ramp) of the end alpha value (percents). 읽기/쓰기 Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | End reflection opacity. (percents). 읽기/쓰기 Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Specifies the direction to offset the reflection. (angle). 읽기/쓰기 Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rectangle alignment. 읽기/쓰기 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Specifies whether the reflection should rotate with the shape if the shape is rotated. 읽기/쓰기 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) 읽기/쓰기 Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Specifies the vertical scaling factor, negative scaling causes a flip. (percents) 읽기/쓰기 Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Specifies the horizontal skew angle. 읽기/쓰기 Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Specifies the vertical skew angle. 읽기/쓰기 Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). 읽기/쓰기 Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Starting reflection opacity. (percents). 읽기/쓰기 Single. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | 지정된 [`Reflection`](../reflection)가 현재 [`Reflection`](../reflection)와 같은지 여부를 결정합니다. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | 지정된 [`Reflection`](../reflection) 가 현재 [`Reflection`](../reflection) 와(과) 같은지 확인합니다. |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | 상속이 적용된 효과적인 Reflection 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IReflection](../ireflection)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

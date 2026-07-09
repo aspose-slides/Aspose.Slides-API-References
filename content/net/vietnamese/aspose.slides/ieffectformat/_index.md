@@ -1,14 +1,14 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes cho .NET Tài liệu tham khảo API
-description: Biểu diễn các thuộc tính hiệu ứng của hình dạng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho các thuộc tính hiệu ứng của hình dạng.
 type: docs
 weight: 5740
 url: /vi/aspose.slides/ieffectformat/
 ---
-## IEffectFormat interface
+## IEffectFormat giao diện
 
-Biểu diễn các thuộc tính hiệu ứng của hình dạng.
+Đại diện cho các thuộc tính hiệu ứng của hình dạng.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -20,41 +20,41 @@ public interface IEffectFormat : IEffectParamSource
 | --- | --- |
 | [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Cho phép lấy giao diện IEffectParamSource cơ bản. Chỉ đọc [`IEffectParamSource`](../ieffectparamsource). |
 | [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Hiệu ứng mờ. Đọc/ghi [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Hiệu ứng phủ màu. Đọc/ghi [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Hiệu ứng phủ màu nền. Đọc/ghi [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Hiệu ứng phát sáng. Đọc/ghi [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Bóng nội. Đọc/ghi [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Trả về true nếu tất cả các hiệu ứng bị tắt (như khi mới tạo, đối tượng EffectFormat mặc định). Chỉ đọc Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Bóng ngoại. Đọc/ghi [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Bóng đặt trước. Đọc/ghi [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Bóng tối trong. Đọc/ghi [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Trả về true nếu tất cả các hiệu ứng đều bị tắt (như khi mới tạo, đối tượng EffectFormat mặc định). Chỉ đọc Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Bóng tối bên ngoài. Đọc/ghi [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Bóng tối định dạng sẵn. Đọc/ghi [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Phản chiếu. Đọc/ghi [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Đầu mềm. Đọc/ghi [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Viền mềm. Đọc/ghi [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Tắt hiệu ứng mờ. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Tắt hiệu ứng phủ màu. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Tắt hiệu ứng phát sáng. |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Tắt hiệu ứng bóng nội. |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Tắt hiệu ứng bóng ngoại. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Tắt hiệu ứng bóng đặt trước. |
-| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Tắt hiệu ứng phản chiếu. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Tắt hiệu ứng đầu mềm. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Bật hiệu ứng phủ màu. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Vô hiệu hoá hiệu ứng mờ. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Vô hiệu hoá hiệu ứng phủ màu nền. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Vô hiệu hoá hiệu ứng phát sáng. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Vô hiệu hoá hiệu ứng bóng tối trong. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Vô hiệu hoá hiệu ứng bóng tối bên ngoài. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Vô hiệu hoá hiệu ứng bóng tối định dạng sẵn. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Vô hiệu hoá hiệu ứng phản chiếu. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Vô hiệu hoá hiệu ứng viền mềm. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Bật hiệu ứng phủ màu nền. |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Bật hiệu ứng phát sáng. |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Bật hiệu ứng bóng nội. |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Bật hiệu ứng bóng ngoại. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Bật hiệu ứng bóng đặt trước. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Bật hiệu ứng bóng tối trong. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Bật hiệu ứng bóng tối bên ngoài. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Bật hiệu ứng bóng tối định dạng sẵn. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Bật hiệu ứng phản chiếu. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Bật hiệu ứng đầu mềm. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Bật hiệu ứng viền mềm. |
 | [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Lấy dữ liệu định dạng hiệu ứng thực tế với kế thừa đã áp dụng. |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Đặt hiệu ứng mờ. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IEffectParamSource](../ieffectparamsource)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* tập tin lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: MathAccentFactory
 second_title: Aspose.Sildes for .NET API 참조
-description: 수학 억양을 생성할 수 있습니다
+description: 수학 악센트를 만들 수 있습니다
 type: docs
 weight: 8540
 url: /ko/aspose.slides.mathtext/mathaccentfactory/
 ---
 ## MathAccentFactory 클래스
 
-수학 억양을 생성할 수 있습니다
+수학 악센트를 만들 수 있습니다.
 
 ```csharp
 public class MathAccentFactory : IMathAccentFactory
@@ -24,14 +24,14 @@ public class MathAccentFactory : IMathAccentFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 지정된 수학 요소에 기본 억양 문자 값을 적용하여 수학 억양을 생성합니다. |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 지정된 수학 요소에 억양을 적용하여 수학 억양을 생성합니다. |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 지정된 수학 요소에 기본 악센트 문자 값을 적용하여 수학 악센트를 생성합니다. |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 지정된 수학 요소에 적용되는 수학 악센트를 생성합니다. |
 
 ### 비고
 
 COM 호환성을 위해
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathAccentFactory](../imathaccentfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

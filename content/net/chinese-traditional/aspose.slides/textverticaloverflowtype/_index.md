@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

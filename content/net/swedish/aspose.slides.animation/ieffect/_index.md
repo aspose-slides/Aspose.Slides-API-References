@@ -1,14 +1,14 @@
 ---
 title: IEffect
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en animationseffekt.
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar en animeringseffekt.
 type: docs
-weight: 470
+weight: 490
 url: /sv/aspose.slides.animation/ieffect/
 ---
 ## IEffect gränssnitt
 
-Representerar en animationseffekt.
+Representerar en animeringseffekt.
 
 ```csharp
 public interface IEffect
@@ -18,19 +18,19 @@ public interface IEffect
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Definierar en färg efter animationen för effekten. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Definierar en typ efter animationen för effekten. Läs/skriv [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Definierar en typ av textanimation för effekten. Formtexten kan animeras per bokstav, per ord eller hela på en gång. Läs/skriv [`AnimateTextType`](./animatetexttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Definierar en efter-animeringsfärg för effekten. Läs/skriv [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Definierar en efter-animeringstyp för effekten. Läs/skriv [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | Definierar en animerad texttyp för effekten. Formtexten kan animeras per bokstav, per ord eller hela texten på en gång. Läs/skriv [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Returnerar en samling av beteenden för effekten. Läs/skriv [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Definierar en fördröjning mellan animerade textdelar (ord eller bokstäver). Ett positivt värde anger procentandel av effektens varaktighet. Ett negativt värde anger fördröjning i sekunder. Läs/skriv Single. |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Definierar klass för effekten. Läs/skriv [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returnerar en sekvens för en effekt. Endast läsning [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Definierar inbäddat ljud för effekten. Läs/skriv [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Detta attribut anger om animationseffekten stoppar det föregående ljudet. Läs/skriv Boolean. |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | Definierar en fördröjning mellan animerade textrader (ord eller bokstäver). Ett positivt värde anger procentandel av effektens varaktighet. Ett negativt värde anger fördröjning i sekunder. Läs/skriv Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Definierar klass för effekt. Läs/skriv [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returnerar en sekvens för en effekt. Skrivskyddad [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | Definierar inbäddat ljud för effekt. Läs/skriv [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | Detta attribut anger om animeringseffekten stoppar föregående ljud. Läs/skriv Boolean. |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | Definierar undertyp av effekt. Läs/skriv [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Returnerar målformen för effekten. Endast läsning [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Returnerar textanimation. Endast läsning [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Definierar tidsvärde för effekten. Läs/skriv [`ITiming`](../itiming). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | Returnerar målsformen för effekt. Skrivskyddad [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | Returnerar textanimation. Skrivskyddad [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | Definierar tidsvärde för effekt. Läs/skriv [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | Definierar typ av effekt. Läs/skriv [`EffectType`](../effecttype). |
 
 ### Se även

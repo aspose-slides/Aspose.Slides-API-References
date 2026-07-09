@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito de sombra externa.
 type: docs
-weight: 3440
+weight: 3460
 url: /pt/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interface
 
-Represents an Outer Shadow effect.
+Representa um efeito de sombra externa.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Raio do desfoque, em pontos. Valor padrão – 0 pt. Leitura/Gravação Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direção da sombra, em graus. Valor padrão – 0 ° (da esquerda para a direita). Leitura/Gravação Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distância da sombra ao objeto, em pontos. Valor padrão – 0 pt. Leitura/Gravação Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alinhamento do retângulo. Valor padrão – Bottom. Leitura/Gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indica se a sombra gira junto com a forma. Valor padrão – true. Leitura/Gravação Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Fator de escala horizontal, em porcentagem do tamanho original. Escala negativa causa inversão. Valor padrão – 100 %. Leitura/Gravação Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Fator de escala vertical, em porcentagem do tamanho original. Escala negativa causa inversão. Valor padrão – 100 %. Leitura/Gravação Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Raio do desfoque, em pontos. Valor padrão – 0 pt. Leitura/gravação Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Direção da sombra, em graus. Valor padrão – 0 ° (da esquerda para a direita). Leitura/gravação Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Distância da sombra ao objeto, em pontos. Valor padrão – 0 pt. Leitura/gravação Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Alinhamento do retângulo. Valor padrão – Bottom. Leitura/gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Indica se a sombra gira juntamente com a forma. Valor padrão – true. Leitura/gravação Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Fator de escala horizontal, em porcentagem do tamanho original. Escala negativa causa inversão. Valor padrão – 100 %. Leitura/gravação Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Fator de escala vertical, em porcentagem do tamanho original. Escala negativa causa inversão. Valor padrão – 100 %. Leitura/gravação Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Cor da sombra. Valor padrão – preto automático (dependente do tema). Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Ângulo de inclinação horizontal, em graus. Valor padrão – 0 °. Leitura/Gravação Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Ângulo de inclinação vertical, em graus. Valor padrão – 0 °. Leitura/Gravação Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Ângulo de inclinação horizontal, em graus. Valor padrão – 0 °. Leitura/gravação Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Ângulo de inclinação vertical, em graus. Valor padrão – 0 °. Leitura/gravação Double. |
 
 ### Ver também
 

@@ -18,7 +18,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | --- | --- | --- |
 | model | String | OpenAI 언어 모델. 가능한 값: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API 키. |
-| organizationId | String | 조직 ID (선택 사항). |
+| organizationId | String | 조직 ID ( 선택 사항 ). |
 
 ### 예외
 
@@ -27,7 +27,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 | ArgumentException | API 키 값이 null이거나 비어 있을 수 없습니다. |
 | ArgumentException | 텍스트 모델 값이 null이거나 비어 있을 수 없습니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [OpenAIWebClient](../../openaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../openaiwebclient)
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-외부에서 관리되는 HttpClient를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 폐기되지 않으며 호출자가 소유합니다.
+외부에서 관리되는 HttpClient를 사용하는 OpenAI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에서 폐기되지 않으며 호출자에 의해 소유됩니다.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -58,7 +58,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 | ArgumentException | 텍스트 모델 값이 null이거나 비어 있을 수 없습니다 |
 | ArgumentNullException | HttpClient는 null일 수 없습니다 |
 
-### 참조
+### 관련 항목
 
 * 클래스 [OpenAIWebClient](../../openaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../openaiwebclient)

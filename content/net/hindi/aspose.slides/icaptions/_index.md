@@ -1,29 +1,29 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: WebVTT बंद विवरणों का प्रतिनिधित्व करता है।
+description: WebVTT बंद कैप्शन को दर्शाता है।
 type: docs
 weight: 5430
 url: /hi/aspose.slides/icaptions/
 ---
 ## ICaptions इंटरफ़ेस
 
-WebVTT बंद विवरणों का प्रतिनिधित्व करता है।
+WebVTT बंद कैप्शन को दर्शाता है।
 
 ```csharp
 public interface ICaptions
 ```
 
-## गुण
+## विशेषताएँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | बंद विवरणों का बाइनरी डेटा लौटाता है। केवल-पढ़ने योग्य Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | बंद विवरणों का वैश्विक रूप से अद्वितीय पहचानकर्ता (GUID) लौटाता है। केवल-पढ़ने योग्य Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | बंद विवरणों का डेटा UTF-8 एन्कोडेड स्ट्रिंग के रूप में लौटाता है। केवल-पढ़ने योग्य String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | बंद विवरणों का लेबल लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | बंद कैप्शन की बाइनरी डेटा लौटाता है। केवल-पढ़ने योग्य Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | बंद कैप्शन का वैश्विक रूप से अद्वितीय पहचानकर्ता (GUID) लौटाता है। केवल-पढ़ने योग्य Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | बंद कैप्शन डेटा को UTF-8 एन्कोडेड स्ट्रिंग के रूप में लौटाता है। केवल-पढ़ने योग्य String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | बंद कैप्शन के लेबल को लौटाता है या सेट करता है। पढ़ें/लिखें String. |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

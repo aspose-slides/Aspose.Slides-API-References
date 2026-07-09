@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวเลือกการส่งออก HTML
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงตัวเลือกการส่งออก HTML.
 type: docs
 weight: 3970
 url: /th/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions อินเทอร์เฟซ
 
-แทนตัวเลือกการส่งออก HTML.
+แสดงถึงตัวเลือกการส่งออก HTML.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -18,17 +18,17 @@ public interface IHtmlOptions : ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | คืนค่า ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | แฟล็กบูลีนบ่งชี้ว่าพาร์ทที่ถูกตัดออกยังคงเป็นส่วนหนึ่งของเอกสารหรือไม่. หากเป็น true พาร์ทที่ถูกตัดออกจะถูกลบ, หากเป็น false จะถูกจัดเรียงเป็นซีเรียลในเอกสาร (ซึ่งอาจทำให้ไฟล์มีขนาดใหญ่ขึ้น) อ่าน/เขียน Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิกเชอร์. เมื่อกำหนดเป็น `true` ลิกเชอร์จะถูกปิดการทำงานในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้น คุณสมบัตินี้จะตั้งค่าเป็น `false`. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | คืนค่าหรือกำหนดแม่แบบ HTML. อ่าน/เขียน [`IHtmlFormatter`](../ihtmlformatter). |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | ส่งกลับอินเตอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | ธงแบบบูลีนบ่งชี้ว่าขั้นตัดออกจะคงอยู่เป็นส่วนของเอกสารหรือไม่ หากเป็น true ส่วนที่ถูกตัดจะถูกลบ หากเป็น false จะถูกจัดเรียงในเอกสาร (ซึ่งอาจทำให้ไฟล์ใหญ่ขึ้น) อ่าน/เขียน Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลิแกเจอร์ เมื่อกำหนดเป็น `true` ลิแกเจอร์จะถูกปิดใช้งานในผลลัพธ์ที่เรนเดอร์ โดยค่าเริ่มต้นคุณสมบัตินี้ตั้งค่าเป็น `false`. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | ส่งกลับหรือกำหนดเทมเพลต HTML. อ่าน/เขียน [`IHtmlFormatter`](../ihtmlformatter). |
 | [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | คืนค่าหรือกำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ภายในเอกสาร PDF. อ่าน/เขียน Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | แสดงระดับการบีบอัดของรูปภาพ อ่าน/เขียน [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | ระบุว่าเอกสารที่สร้างขึ้นควรรวมสไลด์ที่ซ่อนไว้หรือไม่. ค่าเริ่มต้นคือ `false`. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | คืนค่าหรือกำหนดตัวเลือกรูปแบบภาพสไลด์. อ่าน/เขียน [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | true เพื่อยกเว้นแอตทริบิวต์ความกว้างและความสูงจากคอนเทนเนอร์ SVG - ซึ่งจะทำให้การจัดวางตอบสนอง. false - ในกรณีอื่น. อ่าน/เขียน Boolean. |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | ส่งกลับหรือกำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ภายในเอกสาร PDF. อ่าน/เขียน Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | ระบุว่าควรรวมสไลด์ที่ซ่อนไว้ในเอกสารที่สร้างหรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | ส่งกลับหรือกำหนดตัวเลือกรูปแบบภาพสไลด์. อ่าน/เขียน [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกรายการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | เป็น true เพื่อยกเว้นแอตทริบิวต์ความกว้างและความสูงจากคอนเทนเนอร์ SVG - จะทำให้เลย์เอาต์ตอบสนองได้. เป็น false - ในกรณีอื่น. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

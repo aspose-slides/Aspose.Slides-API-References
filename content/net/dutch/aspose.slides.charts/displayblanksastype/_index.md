@@ -18,9 +18,9 @@ public enum DisplayBlanksAsType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Gap | `0` | Geeft aan dat lege waarden als een gat moeten worden gelaten. |
-| Span | `1` | Geeft aan dat lege waarden met een lijn moeten worden overbrugd. |
-| Zero | `2` | Geeft aan dat lege waarden als nul moeten worden behandeld. |
+| Gap | `0` | Geeft aan dat lege waarden als een gat worden gelaten. |
+| Span | `1` | Geeft aan dat lege waarden worden overbrugd met een lijn. |
+| Zero | `2` | Geeft aan dat lege waarden als nul worden behandeld. |
 
 ### Zie ook
 

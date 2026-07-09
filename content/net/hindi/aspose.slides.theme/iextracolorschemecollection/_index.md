@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: अतिरिक्त रंग योजनाओं के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: अतिरिक्त रंग योजनाओं का संग्रह प्रस्तुत करता है।
 type: docs
 weight: 11220
 url: /hi/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection इंटरफ़ेस
 
-एक अतिरिक्त रंग योजना संग्रह का प्रतिनिधित्व करता है।
+अतिरिक्त रंग योजनाओं का संग्रह प्रस्तुत करता है।
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,9 +18,9 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | इंडेक्स द्वारा एक रंग योजना लौटाता है। केवल-पढ़ने-योग्य [`IExtraColorScheme`](../iextracolorscheme)। |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | इंडेक्स द्वारा एक रंग योजना लौटाता है। केवल पढ़ने योग्य [`IExtraColorScheme`](../iextracolorscheme)। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IExtraColorScheme](../iextracolorscheme)

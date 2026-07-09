@@ -1,6 +1,6 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Microsoft Purview Information Protection에서 제공하는 민감도 레이블을 나타냅니다.
 type: docs
 weight: 6930
@@ -18,12 +18,12 @@ public interface ISensitivityLabel
 
 | 이름 | 설명 |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 민감도 레이블에 대한 할당 방식을 반환하거나 설정합니다. 읽기/쓰기 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | 파일에 적용되어야 하는 콘텐츠 마킹 유형 목록을 반환합니다. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 민감도 레이블의 ID를 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | 민감도 레이블이 활성화되어 있는지 여부를 나타냅니다. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | 민감도 레이블이 제거되었는지 여부를 나타냅니다. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 민감도 레이블을 설명하는 민감도 레이블 정책에 해당하는 Azure Active Directory(Azure AD) 사이트 식별자를 반환하거나 설정합니다. 읽기/쓰기 Guid. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | 민감도 레이블에 대한 할당 방법을 가져오거나 설정합니다. 읽기/쓰기 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | 파일에 적용되어야 하는 콘텐츠 표시 유형 목록을 반환합니다. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | 민감도 레이블의 ID를 가져오거나 설정합니다. 읽기/쓰기 문자열. |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | 민감도 레이블이 활성화되어 있는지 표시합니다. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | 민감도 레이블이 제거되었는지 표시합니다. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | 민감도 레이블을 설명하는 민감도 레이블 정책에 해당하는 Azure Active Directory(Azure AD) 사이트 식별자를 가져오거나 설정합니다. 읽기/쓰기 Guid. |
 
 ### 참고
 

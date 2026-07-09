@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ประเภทของการเว้นระยะแนวตั้งระหว่างคอลัมน์ในเมทริกซ์หรืออาเรย์
+description: ประเภทของการเว้นระยะแนวตั้งระหว่างคอลัมน์ในเมทริกซ์หรืออาร์เรย์
 type: docs
 weight: 8980
 url: /th/aspose.slides.mathtext/mathrowspacingrule/
 ---
-## MathRowSpacingRule enum
+## MathRowSpacingRule การนับค่า
 
-ประเภทของการเว้นระยะแนวตั้งระหว่างคอลัมน์ในเมทริกซ์หรืออาเรย์
+ประเภทการเว้นระยะแนวตั้งระหว่างคอลัมน์ในเมทริกซ์หรืออาร์เรย์
 
 ```csharp
 public enum MathRowSpacingRule
@@ -21,8 +21,8 @@ public enum MathRowSpacingRule
 | SingleLineGap | `0` | ช่องว่างบรรทัดเดียว |
 | OneAndAHalfLineGap | `1` | ช่องว่างบรรทัดหนึ่งครึ่ง |
 | TwoLineGap | `2` | ช่องว่างสองบรรทัด |
-| Exactly | `3` | แน่นอน (พึ่งพาค่าของคุณสมบัติ RowSpacing ที่วัดเป็นจุด) |
-| Multiple | `4` | หลายค่า (พึ่งพาค่าของคุณสมบัติ RowSpacing ที่วัดเป็นบรรทัด) |
+| Exactly | `3` | ตามที่กำหนด (อิงค่าของคุณสมบัติ RowSpacing วัดเป็นพอยต์) |
+| Multiple | `4` | หลายบรรทัด (อิงค่าของคุณสมบัติ RowSpacing วัดเป็นบรรทัด) |
 
 ### ดูเพิ่มเติม
 

@@ -24,36 +24,36 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Retourneert de notitieslide voor de huidige slide, en maakt er één aan als deze niet bestaat. |
+| [AddNotesSlide](../../aspose.slides/notesslidemanager/addnotesslide)() | Retourneert de notitieslide voor de huidige slide, en maakt er één aan als deze er niet is. |
 | [RemoveNotesSlide](../../aspose.slides/notesslidemanager/removenotesslide)() | Verwijdert de notitieslide van de huidige slide. |
 
 ### Voorbeelden
 
-Het volgende voorbeeld laat zien hoe notities toe te voegen aan een specifieke PowerPoint-presentatieslide.
+Het volgende voorbeeld toont hoe notities aan een specifieke PowerPoint-presentatieslide kunnen worden toegevoegd.
 
 ```csharp
 [C#]
-	// Maak een Presentation-object dat een presentatiebestand vertegenwoordigt
+	// Maak een Presentation-object aan dat een presentatiedocument vertegenwoordigt
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // Voeg notities toe aan de eerste slide
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
-	  // Sla de presentatie op schijf
+	  // Sla de presentatie op disk
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
 
-Het volgende voorbeeld laat zien hoe notities te verwijderen van een specifieke slide van een PowerPoint-presentatie.
+Het volgende voorbeeld toont hoe notities van een specifieke slide van een PowerPoint-presentatie kunnen worden verwijderd.
 
 ```csharp
 [C#]
-	// Maak een Presentation-object aan dat een presentatiebestand vertegenwoordigt
+	// Maak een Presentation-object aan dat een presentatiedocument vertegenwoordigt
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // Verwijderen van notities van de eerste slide
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // Sla de presentatie op schijf
+	  // Sla de presentatie op disk
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

@@ -1,14 +1,14 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: カスタム分割を使用した棒円グラフまたは円の中の円グラフにおける分割点用のポイント コレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: カスタム分割を使用したバー・オブ・パイまたはパイ・オブ・パイ チャートの分割ポイント用ポイント コレクションを表します。
 type: docs
-weight: 2350
+weight: 2370
 url: /ja/aspose.slides.charts/piesplitcustompointcollection/
 ---
 ## PieSplitCustomPointCollection クラス
 
-カスタム分割を使用した棒円グラフまたは円の中の円グラフの分割点のポイント コレクションを表します。
+カスタム分割を使用したバー・オブ・パイまたはパイ・オブ・パイ チャートの分割ポイント用のポイント コレクションを表します。
 
 ```csharp
 public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
@@ -18,28 +18,28 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | チャート データ ポイントの数を取得または設定します。 読み取り専用 Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | ICollection が読み取り専用かどうかを示す値を取得します。 読み取り専用 Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。 読み取り専用 Boolean. |
-| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | 指定されたインデックスのチャート データ ポイントを返します。 |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | 同期化ルートを返します。 読み取り専用 Object. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | チャート データポイントの数を取得または設定します。読み取り専用 Int32。 |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | ICollection が読み取り専用かどうかを示す値を取得します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | 指定されたインデックスのチャート データポイントを返します。 |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | コレクションにデータ ポイントを追加します。 |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | 親シリーズ ポイント コレクションのインデックスでデータ ポイントを追加します。 |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | コレクションにデータポイントを追加します。 |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | 親シリーズ ポイント コレクション内のインデックスでデータポイントを追加します。 |
 | [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ICollection からすべての項目を削除します。 |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ICollection が特定の値を含むかどうかを判断します。 |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection の要素を Array にコピーします。特定の Array インデックスから開始します。 |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ICollection が特定の値を含むかどうかを判定します。 |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | ICollection の要素を配列にコピーします。特定の配列インデックスから開始します。 |
 | [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | コレクションから項目を削除します。 |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | 親シリーズ ポイント コレクションのインデックスでコレクションから項目を削除します。 |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | 親シリーズ ポイント コレクション内のインデックスでコレクションから項目を削除します。 |
 
 ### 参照
 
-* インターフェイス [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
+* インターフェース [IPieSplitCustomPointCollection](../ipiesplitcustompointcollection)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

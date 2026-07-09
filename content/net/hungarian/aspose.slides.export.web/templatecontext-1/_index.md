@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy sablonmotor modellobjektum-interfészét képviseli.
+second_title: Aspose.Sildes .NET-hez API referencia
+description: Egy sablonmotor számára modellobjektum interfészt képvisel.
 type: docs
-weight: 4650
+weight: 4670
 url: /hu/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext&lt;TObject&gt; osztály
 
-Egy sablonmotor modellobjektum-interfészét reprezentálja.
+A sablonmotor számára modellobjektum interfészt képvisel.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,12 +18,12 @@ public sealed class TemplateContext<TObject>
 
 | Név | Leírás |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Visszaadja a gazda dokumentum globális tárolását. Csak olvasható [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Visszaadja az aktuális sablonkörnyezet helyi tárolását. Csak olvasható [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Visszaadja a modell objektumot. Csak olvasható !:TObject. |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Visszaadja a gazda dokumentum globális tárolóját. Csak olvasható [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Visszaadja az aktuális sablonkörnyezet helyi tárolóját. Csak olvasható [`Storage`](../storage). |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Visszaadja a modellobjektumot. Csak olvasható !:TObject. |
 | [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Visszaadja a gazda dokumentum kimeneti elemeinek gyűjteményét. Csak olvasható [`Output`](./output). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |

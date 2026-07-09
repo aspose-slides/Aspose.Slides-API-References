@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
 second_title: Aspose.Sildes for .NET API 參考
-description: 上/下位置列舉
+description: 上/下 位置 列舉
 type: docs
 weight: 9040
 url: /zh-hant/aspose.slides.mathtext/mathtopbotpositions/
 ---
 ## MathTopBotPositions 列舉
 
-上/下位置列舉
+上/下 位置 列舉
 
 ```csharp
 public enum MathTopBotPositions
@@ -16,7 +16,7 @@ public enum MathTopBotPositions
 
 ### 值
 
-| 名稱 | 數值 | 說明 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `0` | 未定義 |
 | Top | `1` | 上方 |

@@ -1,22 +1,22 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงโหมดที่ใช้ระหว่างการสกัดข้อความ
+description: แสดงถึงโหมดที่ใช้ระหว่างการสกัดข้อความ
 type: docs
 weight: 10940
 url: /th/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enum
 
-แสดงโหมดที่ใช้ระหว่างการสกัดข้อความ
+แสดงถึงโหมดที่ใช้ระหว่างการสกัดข้อความ
 
 ```csharp
 public enum TextExtractionArrangingMode
 ```
 
-### ค่า
+### Values
 
-| ชื่อ | ค่า | คำอธิบาย |
+| ชื่อ | ค่า | รายละเอียด |
 | --- | --- | --- |
 | Unarranged | `0` | ข้อความดิบโดยไม่คำนึงถึงตำแหน่งบนสไลด์ |
 | Arranged | `1` | ข้อความถูกจัดตำแหน่งตามลำดับเดียวกับบนสไลด์ |

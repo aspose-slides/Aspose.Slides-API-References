@@ -1,6 +1,6 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Callback sẽ được gọi cho mỗi Slide./foreach/slide trong Presentation../aspose.slides/presentation.
 type: docs
 weight: 7960

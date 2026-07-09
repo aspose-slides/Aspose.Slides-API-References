@@ -1,12 +1,13 @@
 ---
 title: AudioVolumeMode
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Konstanta yang mendefinisikan volume audio.
 type: docs
-weight: 870
+weight: 890
 url: /id/aspose.slides/audiovolumemode/
 ---
-## enumerasi AudioVolumeMode
+## AudioVolumeMode enumerasi
+
 Konstanta yang mendefinisikan volume audio.
 
 ```csharp

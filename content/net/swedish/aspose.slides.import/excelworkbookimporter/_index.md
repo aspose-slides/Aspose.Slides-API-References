@@ -3,7 +3,7 @@ title: ExcelWorkbookImporter
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller funktionalitet för att importera innehåll från en Excel-arbetsbok till en presentation.
 type: docs
-weight: 7450
+weight: 7470
 url: /sv/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter klass
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Hämtar en tabell från den angivna Excel-arbetsboken och lägger till den i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Hämtar en tabell från den angivna Excel-arbetsboksfilen och lägger till den i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Hämtar en tabell från den angivna Excel-arbetsboksfilen och lägger till den i slutet av den angivna shape-samlingen på de angivna koordinaterna. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Hämtar ett diagram från den angivna Excel-arbetsboken och lägger till det i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Hämtar en tabell från den angivna Excel-arbetsboken och lägger till den i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Hämtar en tabell från den angivna Excel-arbetsbokfilen och lägger till den i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Hämtar en tabell från den angivna Excel-arbetsbokfilen och lägger till den i slutet av den angivna figurssamlingen på de angivna koordinaterna. |
 
 ### Se även
 
-* namespace [Aspose.Slides.Import](../../aspose.slides.import)
+* namnrymd [Aspose.Slides.Import](../../aspose.slides.import)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอนโทรลเลอร์ HTML ฟอนต์ woff ที่ฝังไว้.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ตัวควบคุม HTML ของฟอนต์ woff ที่ฝังอยู่.
 type: docs
 weight: 3910
 url: /th/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController อินเทอร์เฟซ
 
-คอนโทรลเลอร์ HTML ฟอนต์ woff ที่ฝังไว้
+ตัวควบคุม HTML สำหรับฟอนต์ woff ที่ฝังอยู่.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | ส่งคืน IHtmlFormattingController อินเทอร์เฟซ. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | คืนค่า IHtmlFormattingController อินเทอร์เฟซ. |
 
 ### ดูเพิ่มเติม
 

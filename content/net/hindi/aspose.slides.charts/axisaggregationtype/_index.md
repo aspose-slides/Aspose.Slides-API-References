@@ -6,9 +6,9 @@ type: docs
 weight: 1190
 url: /hi/aspose.slides.charts/axisaggregationtype/
 ---
-## AxisAggregationType एन्ह्यूमेरेशन
+## AxisAggregationType एन्स्युमरेशन
 
-श्रेणी अक्ष के एकत्रीकरण प्रकार को दर्शाता है। केवल Histogram या HistogramPareto श्रृंखला के साथ उपयोग किया जाता है।
+श्रेणी अक्ष का एकत्रीकरण प्रकार दर्शाता है। केवल Histogram या HistogramPareto श्रृंखला के साथ उपयोग किया जाता है।
 
 ```csharp
 public enum AxisAggregationType
@@ -16,14 +16,14 @@ public enum AxisAggregationType
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| ByCategory | `0` | श्रेणियों द्वारा समेकित किया जाता है |
-| Automatic | `1` | श्रेणियों को स्वतः समेकित करता है। |
-| ByBinWidth | `2` | बिन चौड़ाई द्वारा श्रेणियों को समेकित करें। Property IAxis.BinWidth must be setted. |
-| ByNumberOfBins | `3` | बिन की संख्या द्वारा श्रेणियों को समेकित करें। Property IAxis.NumberOfBins must be setted. |
+| ByCategory | `0` | श्रेणियों द्वारा एकत्रित करें |
+| Automatic | `1` | श्रेणियों को स्वतः एकत्रित करें। |
+| ByBinWidth | `2` | बिन चौड़ाई द्वारा श्रेणियों को एकत्रित करें। प्रॉपर्टी IAxis.BinWidth को सेट किया जाना चाहिए। |
+| ByNumberOfBins | `3` | बिनों की संख्या द्वारा श्रेणियों को एकत्रित करें। प्रॉपर्टी IAxis.NumberOfBins को सेट किया जाना चाहिए। |
 
-### अन्य देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

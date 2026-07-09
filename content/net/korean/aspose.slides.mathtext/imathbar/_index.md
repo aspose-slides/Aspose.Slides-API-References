@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar 인터페이스
 
-기본 인수와 위바 또는 아래바로 구성된 바 함수를 지정합니다
+바 함수(기본 인수와 위바 또는 아래바로 구성)를 지정합니다
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,7 +20,7 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | 기본 인수 |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Bar 라인의 위치. 기본값: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | 바 라인의 위치. 기본값: Top |
 
 ### 예제
 

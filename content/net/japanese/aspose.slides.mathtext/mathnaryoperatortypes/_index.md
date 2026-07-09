@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 積分を除く Nary 演算子 IMathNaryOperator のタイプ。積分の場合は MathIntegralTypes./mathintegraltypes
+description: 積分を除く Nary 演算子 IMathNaryOperator の種類。積分については MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /ja/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes 列挙型
 
-Nary 演算子 IMathNaryOperator のタイプ（積分を除く）。積分の場合は [`MathIntegralTypes`](../mathintegraltypes)
+Nary 演算子 IMathNaryOperator の種類（積分を除く）積分については [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
@@ -16,7 +16,7 @@ public enum MathNaryOperatorTypes
 
 ### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Summation | `0` | Summation: '∑' |
 | Product | `1` | Product: '∏' |

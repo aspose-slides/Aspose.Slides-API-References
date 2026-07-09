@@ -1,6 +1,6 @@
 ---
 title: SaveOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션 저장 방식을 제어하는 옵션이 포함된 추상 클래스.
 type: docs
 weight: 4450
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/saveoptions/
 ---
 ## SaveOptions 클래스
 
-프레젠테이션이 저장되는 방식을 제어하는 옵션이 포함된 추상 클래스.
+프레젠테이션을 저장하는 방법을 제어하는 옵션이 포함된 추상 클래스.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -18,13 +18,13 @@ public abstract class SaveOptions : ISaveOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없을 때 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 업데이트를 위한 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
 | [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

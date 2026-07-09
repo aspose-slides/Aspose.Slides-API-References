@@ -18,11 +18,11 @@ public interface IFormatFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 建立新的 [`IParagraphFormat`](../iparagraphformat)。 |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 建立新的 [`IPortionFormat`](../iportionformat)。 |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 建立新的 [`ITextFrameFormat`](../itextframeformat)。 |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 建立新的[`IParagraphFormat`](../iparagraphformat)。 |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 建立新的[`IPortionFormat`](../iportionformat)。 |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 建立新的[`ITextFrameFormat`](../itextframeformat)。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

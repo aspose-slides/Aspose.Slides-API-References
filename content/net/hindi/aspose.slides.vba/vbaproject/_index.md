@@ -1,40 +1,40 @@
 ---
 title: VbaProject
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति मैक्रो के साथ VBA प्रोजेक्ट को दर्शाता है।
+description: प्रेज़ेंटेशन मैक्रोज़ के साथ VBA प्रोजेक्ट को दर्शाता है।
 type: docs
 weight: 11650
 url: /hi/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject क्लास
 
-VBA प्रोजेक्ट को प्रस्तुति मैक्रो के साथ दर्शाता है।
+प्रेज़ेंटेशन मैक्रोज़ के साथ VBA प्रोजेक्ट को दर्शाता है।
 
 ```csharp
 public sealed class VbaProject : IVbaProject
 ```
 
-## निर्माता
+## कंस्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | यह निर्माता नई VBA प्रोजेक्ट को शून्य से बनाता है। प्रोजेक्ट 1252 Windows Latin 1 (ANSI) कोडपेज में बनाया जाएगा |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | यह निर्माता OLE कंटेनर के बाइनरी प्रतिनिधित्व से VBA प्रोजेक्ट लोड करता है |
+| [VbaProject](vbaproject#constructor)() | यह कंस्ट्रक्टर शुरू से नया VBA प्रोजेक्ट बनाता है। प्रोजेक्ट 1252 Windows Latin 1 (ANSI) कोडपेज में बनाया जाएगा |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | यह कंस्ट्रक्टर OLE कंटेनर के बाइनरी प्रतिनिधित्व से VBA प्रोजेक्ट लोड करता है। |
 
-## गुण
+## प्रॉपर्टीज
 
 | नाम | विवरण |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | इंगित करता है कि VBAProject को प्रोजेक्ट गुण देखने के लिए पासवर्ड द्वारा संरक्षित किया गया है या नहीं। केवल पढ़ने योग्य Boolean। |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | VBA प्रोजेक्ट में शामिल सभी मॉड्यूल की सूची लौटाता है। केवल पढ़ने योग्य [`IVbaModuleCollection`](../ivbamodulecollection)। |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | VBA प्रोजेक्ट का नाम लौटाता है। केवल पढ़ने योग्य String। |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | VBA प्रोजेक्ट में शामिल सभी संदर्भों की सूची लौटाता है। केवल पढ़ने योग्य [`IVbaReferenceCollection`](../ivbareferencecollection)। |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | यह दर्शाता है कि VBAProject पासवर्ड द्वारा प्रोजेक्ट प्रॉपर्टीज़ देखने के लिए संरक्षित है या नहीं। केवल-पढ़ने योग्य बूलियन। |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | VBA प्रोजेक्ट में शामिल सभी मॉड्यूल की सूची लौटाता है। केवल-पढ़ने योग्य [`IVbaModuleCollection`](../ivbamodulecollection)। |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | VBA प्रोजेक्ट का नाम लौटाता है। केवल-पढ़ने योग्य String। |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | VBA प्रोजेक्ट में शामिल सभी रेफ़रेंसेज़ की सूची लौटाता है। केवल-पढ़ने योग्य [`IVbaReferenceCollection`](../ivbareferencecollection)। |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | VBA प्रोजेक्ट का बाइनरी प्रतिनिधित्व OLE कंटेनर के रूप में लौटाता है |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | VBA प्रोजेक्ट की बाइनरी प्रतिनिधित्व को OLE कंटेनर के रूप में लौटाता है |
 
 ### देखें
 

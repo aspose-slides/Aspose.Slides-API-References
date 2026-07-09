@@ -19,10 +19,10 @@ public class PptException : Exception
 | 이름 | 설명 |
 | --- | --- |
 | [PptException](pptexception#constructor)() | 기본 생성자. |
-| [PptException](pptexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptException](pptexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외에 대한 생성자. |
+| [PptException](pptexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptException](pptexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 생성자. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

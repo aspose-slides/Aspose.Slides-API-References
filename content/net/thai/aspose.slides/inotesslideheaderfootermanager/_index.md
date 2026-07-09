@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวจัดการที่กำหนดพฤติกรรมของตำแหน่งตัวเก็บสไลด์โน้ตรวมถึงตำแหน่งส่วนหัว
+description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวแสดงตำแหน่งสไลด์โน้ตรวมถึงตัวแสดงตำแหน่งส่วนหัว
 type: docs
 weight: 6510
 url: /th/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager อินเทอร์เฟซ
 
-เป็นตัวจัดการที่กำหนดพฤติกรรมของตำแหน่งตัวเก็บสไลด์โน้ต รวมถึงตำแหน่งส่วนหัว
+แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวแสดงตำแหน่งสไลด์โน้ต รวมถึงตัวแสดงตำแหน่งส่วนหัว
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | คืนค่า IBaseHandoutNotesSlideHeaderFooterManag interface. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | คืนค่า IBaseHandoutNotesSlideHeaderFooterManag อินเทอร์เฟซ. |
 
 ### ดูเพิ่มเติม
 

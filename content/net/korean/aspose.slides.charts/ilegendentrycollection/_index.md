@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 범례 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 전설 컬렉션을 나타냅니다.
 type: docs
 weight: 2140
 url: /ko/aspose.slides.charts/ilegendentrycollection/
 ---
 ## ILegendEntryCollection 인터페이스
 
-범례 컬렉션을 나타냅니다.
+전설 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -18,10 +18,10 @@ public interface ILegendEntryCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Chart.ChartData.Series[0].DataPoints[index]에 해당하는 범례 항목의 속성을 가져옵니다(차트 유형이 다음 목록에 있는 경우: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie) 또는 다른 차트 유형에 대해서는 Chart.ChartData.Series[index]에 해당하는 속성을 가져옵니다. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 개수를 가져옵니다. 읽기 전용 Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 차트 유형이 다음 목록에 있는 경우 Chart.ChartData.Series[0].DataPoints[index]에 해당하는 범례 항목의 속성을 가져옵니다: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; 다른 차트 유형의 경우 Chart.ChartData.Series[index]에 해당합니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

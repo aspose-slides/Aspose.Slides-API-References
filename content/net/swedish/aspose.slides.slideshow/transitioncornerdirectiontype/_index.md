@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typer av hörnriktningens övergång.
+description: Representerar typer av hörnriktningstransitioner.
 type: docs
-weight: 10330
+weight: 10350
 url: /sv/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType enumeration
+## TransitionCornerDirectionType uppräkning
 
-Representerar typer av hörnriktningens övergång.
+Representerar typer av hörnriktningstransitioner.
 
 ```csharp
 public enum TransitionCornerDirectionType
@@ -23,7 +23,7 @@ public enum TransitionCornerDirectionType
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * samling [Aspose.Slides](../../)

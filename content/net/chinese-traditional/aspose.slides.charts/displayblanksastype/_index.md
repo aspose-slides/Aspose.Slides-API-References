@@ -1,6 +1,6 @@
 ---
 title: DisplayBlanksAsType
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 決定缺少的資料將如何顯示。
 type: docs
 weight: 1610
@@ -16,11 +16,11 @@ public enum DisplayBlanksAsType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Gap | `0` | 指定空白值將保留為間隙。 |
+| Gap | `0` | 指定空白值將保留為間距。 |
 | Span | `1` | 指定空白值將以線條跨越。 |
-| Zero | `2` | 指定空白值將被視為零。 |
+| Zero | `2` | 指定空白值將視為零。 |
 
 ### 參見
 

@@ -1,14 +1,14 @@
 ---
 title: IColorFormat
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงสีที่ใช้ในการนำเสนอ.
+description: แสดงถึงสีที่ใช้ในการนำเสนอ
 type: docs
 weight: 5490
 url: /th/aspose.slides/icolorformat/
 ---
 ## IColorFormat อินเทอร์เฟซ
 
-แสดงถึงสีที่ใช้ในการนำเสนอ.
+แสดงถึงสีที่ใช้ในการนำเสนอ
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -18,34 +18,34 @@ public interface IColorFormat : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | คืนค่าอินเทอร์เฟซ IFillParamSource. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีน้ำเงินของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | คืนค่าสีผลลัพธ์ (พร้อมการแปลงสีทั้งหมดที่ใช้). ตั้งค่าสี RGB และล้างการแปลงสีทั้งหมด. อ่าน/เขียน Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | คืนค่าคอลเลกชันของการแปลงสีที่ใช้กับสีหนึ่ง. อ่านอย่างเดียว [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | คืนค่า หรือ ตั้งค่าวิธีการกำหนดสี. อ่าน/เขียน [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีน้ำเงินของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีเขียวของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีแดงของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีเขียวของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบ hue ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบ luminance ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | คืนค่า หรือ ตั้งค่าชุดสีสำเร็จรูป. อ่าน/เขียน [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบสีแดงของสี การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | คืนค่า หรือ ตั้งค่าส่วนประกอบ saturation ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | คืนค่า หรือ ตั้งค่าสีที่ระบุโดยโทนสี. อ่าน/เขียน [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | คืนค่า หรือ ตั้งค่าสีที่ระบุโดยตารางสีของระบบ. อ่าน/เขียน [`SystemColor`](../systemcolor). |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | ส่งคืน IFillParamSource อินเทอร์เฟซ. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีน้ำเงินของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | ส่งคืนสีที่ได้ (พร้อมการแปลงสีทั้งหมดที่ถูกใช้). กำหนดสี RGB และล้างการแปลงสีทั้งหมด. อ่าน/เขียน Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | ส่งคืนคอลเลกชันของการแปลงสีที่ใช้กับสีหนึ่ง. อ่านอย่างเดียว [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | ส่งคืนหรือกำหนดวิธีการกำหนดสี. อ่าน/เขียน [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีน้ำเงินของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีเขียวของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีแดงของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีเขียวของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบ hue ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบ luminance ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | ส่งคืนหรือกำหนดค่าตั้งล่วงหน้าของสี. อ่าน/เขียน [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบสีแดงของสีหนึ่ง. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | ส่งคืนหรือกำหนดส่วนประกอบ saturation ของสีในรูปแบบ HSL. การแปลงสีทั้งหมดจะถูกละเว้น. อ่าน/เขียน Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | ส่งคืนหรือกำหนดสีที่ระบุโดย color scheme. อ่าน/เขียน [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | ส่งคืนหรือกำหนดสีที่ระบุโดยตารางสีของระบบ. อ่าน/เขียน [`SystemColor`](../systemcolor). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | คัดลอกรูปแบบสีจาก "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | คืนค่า String ที่แสดงรูปแบบสีปัจจุบัน. |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | ส่งคืน String ที่แสดงรูปแบบสีปัจจุบัน. |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IFillParamSource](../ifillparamsource)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

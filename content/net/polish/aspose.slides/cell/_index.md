@@ -1,14 +1,14 @@
 ---
 title: Cell
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje komórkę tabeli.
 type: docs
-weight: 1110
+weight: 1130
 url: /pl/aspose.slides/cell/
 ---
 ## Klasa Cell
 
-Represents a cell of a table.
+Reprezentuje komórkę tabeli.
 
 ```csharp
 public class Cell : ICell
@@ -18,44 +18,44 @@ public class Cell : ICell
 
 | Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Determines whether or not text box centered inside a cell. Read/write Boolean. |
-| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Returns the CellFormat object that contains formatting properties for this cell. Read-only [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Returns the number of grid columns in the parent table's table grid which shall be spanned by the current cell. This property allows cells to have the appearance of being merged, as they span vertical boundaries of other cells in the table. Read-only Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Gets first column of cell. Read-only [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Returns an index of first column, covered by the cell. Read-only Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Gets first row of cell. Read-only [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Returns an index of first row, covered by the cell. Read-only Int32. |
-| [Height](../../aspose.slides/cell/height) { get; } | Returns the height of the cell. Read-only Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Returns true if the cell is merged with any adjusted cell, false otherwise. Read-only Boolean. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Returns or sets the bottom margin in a TextFrame. Read/write Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Returns or sets the left margin in a TextFrame. Read/write Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Returns or sets the right margin in a TextFrame. Read/write Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Returns or sets the top margin in a TextFrame. Read/write Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Returns the minimum height of a cell. This is a sum of minimal heights of all rows cowered by the cell. Read-only Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Returns a distance from left side of a table to left side of a cell. Read-only Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Returns a distance from top side of a table to top side of a cell. Read-only Double. |
-| [Presentation](../../aspose.slides/cell/presentation) { get; } | Returns the parent presentation of a cell. Read-only [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Returns the number of rows that a merged cell spans. This is used in combination with the vMerge attribute on other cells in order to specify the beginning cell of a horizontal merge. Read-only Int32. |
-| [Slide](../../aspose.slides/cell/slide) { get; } | Returns the parent slide of a cell. Read-only [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | Returns the parent Table object for a cell. Read-only [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Returns or sets the text anchor type. Read/write [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Returns the text frame of a cell. Read-only [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Returns or sets the type of vertical text. Read/write [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/cell/width) { get; } | Returns the width of the cell. Read-only Double. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Określa, czy pole tekstowe jest wyśrodkowane w komórce. Odczyt/zapis Boolean. |
+| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Zwraca obiekt CellFormat zawierający właściwości formatowania tej komórki. Tylko do odczytu [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Zwraca liczbę kolumn siatki w tabeli nadrzędnej, które mają być objęte bieżącą komórką. Ta właściwość pozwala komórkom mieć wygląd połączonych, gdy obejmują pionowe granice innych komórek w tabeli. Tylko do odczytu Int32. |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Pobiera pierwszą kolumnę komórki. Tylko do odczytu [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Zwraca indeks pierwszej kolumny objętej komórką. Tylko do odczytu Int32. |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Pobiera pierwszy wiersz komórki. Tylko do odczytu [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Zwraca indeks pierwszego wiersza objętego komórką. Tylko do odczytu Int32. |
+| [Height](../../aspose.slides/cell/height) { get; } | Zwraca wysokość komórki. Tylko do odczytu Double. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Zwraca true, jeśli komórka jest połączona z inną dopasowaną komórką, w przeciwnym razie false. Tylko do odczytu Boolean. |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Zwraca lub ustawia dolny margines w TextFrame. Odczyt/zapis Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Zwraca lub ustawia lewy margines w TextFrame. Odczyt/zapis Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Zwraca lub ustawia prawy margines w TextFrame. Odczyt/zapis Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Zwraca lub ustawia górny margines w TextFrame. Odczyt/zapis Double. |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Zwraca minimalną wysokość komórki. Jest to suma minimalnych wysokości wszystkich wierszy pokrytych przez komórkę. Tylko do odczytu Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Zwraca odległość od lewej krawędzi tabeli do lewej krawędzi komórki. Tylko do odczytu Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Zwraca odległość od górnej krawędzi tabeli do górnej krawędzi komórki. Tylko do odczytu Double. |
+| [Presentation](../../aspose.slides/cell/presentation) { get; } | Zwraca prezentację nadrzędną komórki. Tylko do odczytu [`IPresentation`](../ipresentation). |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Zwraca liczbę wierszy, które obejmuje połączona komórka. Używane w połączeniu z atrybutem vMerge w innych komórkach w celu określenia komórki początkowej poziomego połączenia. Tylko do odczytu Int32. |
+| [Slide](../../aspose.slides/cell/slide) { get; } | Zwraca slajd nadrzędny komórki. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [Table](../../aspose.slides/cell/table) { get; } | Zwraca obiekt Table nadrzędny dla komórki. Tylko do odczytu [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Zwraca lub ustawia typ kotwicy tekstu. Odczyt/zapis [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Zwraca ramkę tekstową komórki. Tylko do odczytu [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Zwraca lub ustawia typ pionowego tekstu. Odczyt/zapis [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/cell/width) { get; } | Zwraca szerokość komórki. Tylko do odczytu Double. |
 
 ## Metody
 
 | Name | Description |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Splits the cell to two cells by index of column. |
-| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Splits the cell by height. |
-| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Splits the cell to two cells by index of row. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Splits the cell by width. |
+| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Dzieli komórkę na dwie komórki według indeksu kolumny. |
+| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Dzieli komórkę według wysokości. |
+| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Dzieli komórkę na dwie komórki według indeksu wiersza. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Dzieli komórkę według szerokości. |
 
 ### Zobacz także
 
-* interface [ICell](../icell)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfejs [ICell](../icell)
+* przestrzeń nazw [Aspose.Slides](../../aspose.slides)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

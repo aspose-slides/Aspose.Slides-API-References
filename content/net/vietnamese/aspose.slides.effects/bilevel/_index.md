@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một hiệu ứng Bi-Level đen/trắng. Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng đã chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một hiệu ứng Bi-Level đen/trắng. Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng đã chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 type: docs
 weight: 2910
 url: /vi/aspose.slides.effects/bilevel/
 ---
 ## Lớp BiLevel
 
-Đại diện cho hiệu ứng Bi-Level (đen/trắng). Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng đã chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
+Biểu diễn một hiệu ứng Bi-Level (đen/trắng). Các màu đầu vào có độ sáng thấp hơn giá trị ngưỡng đã chỉ định sẽ được chuyển thành màu đen. Các màu đầu vào có độ sáng lớn hơn hoặc bằng giá trị đã chỉ định sẽ được đặt thành màu trắng. Các giá trị hiệu ứng alpha không bị ảnh hưởng bởi hiệu ứng này.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -24,9 +24,9 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Xác định liệu [`BiLevel`](../bilevel) được chỉ định có bằng với [`BiLevel`](../bilevel) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Lấy dữ liệu hiệu ứng Bi-Level thực tế với kế thừa đã được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Đóng vai trò như hàm băm cho một kiểu cụ thể. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Xác định xem [`BiLevel`](../bilevel) được chỉ định có bằng với [`BiLevel`](../bilevel) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Lấy dữ liệu hiệu ứng Bi-Level đã áp dụng kế thừa. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

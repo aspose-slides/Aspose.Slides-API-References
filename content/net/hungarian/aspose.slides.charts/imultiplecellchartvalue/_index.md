@@ -1,14 +1,14 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes .NET API referencia
-description: Egy diagram celláit tartalmazó gyűjteményt képvisel.
+second_title: Aspose.Sildes for .NET API Referencia
+description: Egy diagramcella gyűjteményét képviseli.
 type: docs
-weight: 2150
+weight: 2170
 url: /hu/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue interfész
 
-Egy diagram celláit tartalmazó gyűjteményt képvisel.
+Egy diagramcellák gyűjteményét képviseli.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Név | Leírás |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Visszaadja vagy beállítja a diagram celláinak gyűjteményét. Olvasás/írás [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Lehetővé teszi a bázis IBaseChartValue interfész lekérését. Csak olvasható [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Visszaadja vagy beállítja a diagramcellák gyűjteményét. Olvasás/írás [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Lehetővé teszi az alap IBaseChartValue interfész lekérését. Csak olvasható [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Lásd még
 

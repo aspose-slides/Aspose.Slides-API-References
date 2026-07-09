@@ -1,12 +1,12 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: COM arayüzü aracılığıyla biçimler oluşturmayı sağlar.
 type: docs
-weight: 5920
+weight: 5940
 url: /tr/aspose.slides/iformatfactory/
 ---
-## IFormatFactory arayüz
+## IFormatFactory arayüzü
 
 COM arayüzü aracılığıyla biçimler oluşturmayı sağlar.
 
@@ -18,11 +18,11 @@ public interface IFormatFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Yeni [`IParagraphFormat`](../iparagraphformat) oluşturur. |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Yeni [`IPortionFormat`](../iportionformat) oluşturur. |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Yeni [`ITextFrameFormat`](../itextframeformat) oluşturur. |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | Yeni bir [`IParagraphFormat`](../iparagraphformat) oluşturur. |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | Yeni bir [`IPortionFormat`](../iportionformat) oluşturur. |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | Yeni bir [`ITextFrameFormat`](../itextframeformat) oluşturur. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

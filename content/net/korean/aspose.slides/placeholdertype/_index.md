@@ -21,12 +21,12 @@ public enum PlaceholderType : sbyte
 | Title | `0` | 제목. |
 | Body | `1` | 본문. |
 | CenteredTitle | `2` | 가운데 제목. |
-| Subtitle | `3` | 부제목. |
+| Subtitle | `3` | 부제. |
 | DateAndTime | `4` | 날짜 및 시간. |
 | SlideNumber | `5` | 슬라이드 번호. |
 | Footer | `6` | 바닥글. |
 | Header | `7` | 머리글. |
-| Object | `8` | 개체. |
+| Object | `8` | 객체. |
 | Chart | `9` | 차트. |
 | Table | `10` | 표. |
 | ClipArt | `11` | 클립 아트. |
@@ -35,7 +35,7 @@ public enum PlaceholderType : sbyte
 | SlideImage | `14` | 슬라이드 이미지. |
 | Picture | `15` | 그림. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

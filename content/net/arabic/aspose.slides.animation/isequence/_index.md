@@ -1,14 +1,14 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مجموعة تسلسل من التأثيرات.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل مجموعة تسلسلية من التأثيرات.
 type: docs
 weight: 590
 url: /ar/aspose.slides.animation/isequence/
 ---
-## ISequence الواجهة
+## واجهة ISequence
 
-يمثل تسلسل (مجموعة من التأثيرات).
+Represents sequence (collection of effects).
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -18,28 +18,28 @@ public interface ISequence : IEnumerable<IEffect>
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | يسمح بالحصول على واجهة IEnumerable الأساسية. قابل للقراءة فقط IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | يرجع عدد التأثيرات في sequense. قابل للقراءة فقط Int32. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | يرجع تأثيرًا عند الفهرس المحدد. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | يرجع أو يحدد هدف الشكل لتسلسل INTERACTIVE. إذا لم يكن التسلسل تفاعليًا فسيعيد null. قراءة/كتابة [`IShape`](../../aspose.slides/ishape). |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | يسمح بالحصول على واجهة IEnumerable الأساسية. IEnumerable للقراءة فقط. |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | يعيد عدد التأثيرات في التسلسل. Int32 للقراءة فقط. |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | يعيد تأثيرًا عند الفهرس المحدد. |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | يعيد أو يضبط هدف الشكل للتسلسل INTERACTIVE. إذا لم يكن التسلسل تفاعليًا فإنه يعيد null. قراءة/كتابة [`IShape`](../../aspose.slides/ishape). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | أضف تأثيرًا جديدًا للرسوم المتحركة للفقرة إلى نهاية التسلسل. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | أضف تأثيرًا جديدًا إلى نهاية التسلسل. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | يضيف تأثير الرسوم المتحركة الجديد للمخطط للفئة أو السلسلة إلى نهاية التسلسل. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | يضيف تأثير الرسوم المتحركة الجديد للمخطط للعناصر في الفئة أو السلسلة إلى نهاية التسلسل. |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | يزيل جميع التأثيرات من مجموعة. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | يرجع عدد التأثيرات للشكل المحدد. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | يرجع مصفوفة من التأثيرات للفقرة المحددة. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | يرجع مصفوفة من التأثيرات للشكل المحدد. |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | يزيل التأثير المحدد من مجموعة. |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | يزيل تأثيرًا من مجموعة. |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | يزيل التأثير للشكل المحدد. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | إضافة تأثير حركة جديد للفقرة إلى نهاية التسلسل. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | إضافة تأثير جديد إلى نهاية التسلسل. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | يضيف تأثير حركة المخطط الجديد للفئة أو السلسلة إلى نهاية التسلسل. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | يضيف تأثير حركة المخطط الجديد للعناصر في الفئة أو السلسلة إلى نهاية التسلسل. |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | إزالة جميع التأثيرات من المجموعة. |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | يعيد عدد التأثيرات للشكل المحدد. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | يعيد مصفوفة من التأثيرات للفقرة المحددة. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | يعيد مصفوفة من التأثيرات للشكل المحدد. |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | إزالة التأثير المحدد من مجموعة. |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | إزالة تأثير من مجموعة. |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | إزالة تأثير للشكل المحدد. |
 
-### انظر أيضًا
+### انظر أيضا
 
 * الواجهة [IEffect](../ieffect)
 * النطاق [Aspose.Slides.Animation](../../aspose.slides.animation)

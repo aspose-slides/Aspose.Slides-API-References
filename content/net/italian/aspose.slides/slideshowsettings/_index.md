@@ -1,9 +1,9 @@
 ---
 title: SlideShowSettings
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta le impostazioni della presentazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le impostazioni della presentazione per lo slideshow.
 type: docs
-weight: 10460
+weight: 10480
 url: /it/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings classe
@@ -16,16 +16,16 @@ public class SlideShowSettings
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Riproduzione ciclica della presentazione |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | Ripeti presentazione |
 | [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | Colore della penna per la presentazione |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | Mostra animazione nella presentazione |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Mostra controlli multimediali |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Mostra narrazione nella presentazione |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Intervallo diapositive |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Ottiene o imposta il tipo di presentazione. Rappresentato dai seguenti [`SlideShowType`](./slideshowtype) antenati: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) e [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Usa tempistiche nella presentazione |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Ottiene o imposta il tipo di presentazione. Rappresentato dai seguenti antenati [`SlideShowType`](./slideshowtype): [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) e [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Usa i tempi nella presentazione |
 
 ### Vedi anche
 

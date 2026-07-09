@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Aspose.Sildes .NET API referencia
-description: Ripple diaátmeneti hatás.
+description: Hullámzó diaátmenet hatás.
 type: docs
-weight: 10230
+weight: 10250
 url: /hu/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition osztály
 
-Ripple slide transition effect.
+Hullámzó diaátmenet hatás.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,14 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | Név | Leírás |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph átmenet típusa. Olvasás/írás [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | A morf átmenet típusa. Olvasás/írás [`TransitionMorphType`](../transitionmorphtype). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hashfüggvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és adatstruktúrákban, például hash táblában való használatra. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például egy hash táblában való használatra. |
 
 ### Lásd még
 

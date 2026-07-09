@@ -20,7 +20,7 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | IWarningInfo 인터페이스를 반환합니다. 읽기 전용 [`IWarningInfo`](../iwarninginfo). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IWarningInfo](../iwarninginfo)
 * 네임스페이스 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

@@ -1,7 +1,7 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: निकट भविष्य में ठीक न की जाने वाली ज्ञात समस्या के बारे में एक चेतावनी का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ज्ञात मुद्दे के बारे में एक चेतावनी का प्रतिनिधित्व करता है जिसे निकट भविष्य में ठीक नहीं किया जाएगा।
 type: docs
 weight: 11760
 url: /hi/aspose.slides.warnings/iknownissuewarninginfo/
@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस लौटाता है। केवल-पढ़ने-योग्य [`IWarningInfo`](../iwarninginfo)। |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | IWarningInfo इंटरफ़ेस को वापस देता है। केवल पढ़ने योग्य [`IWarningInfo`](../iwarninginfo)। |
 
 ### संबंधित देखें
 

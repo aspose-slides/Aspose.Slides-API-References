@@ -1,9 +1,9 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Constantes que definem o chanfro 3D da forma.
 type: docs
-weight: 990
+weight: 1010
 url: /pt/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType enumeração
@@ -16,7 +16,7 @@ public enum BevelPresetType
 
 ### Valores
 
-| Nome | Valor | Descrição |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Angle | `0` |  |

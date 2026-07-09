@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 不変オブジェクトで、グレースケール効果を表します。すべての効果カラー値を輝度に対応するグレーの濃淡に変換します。効果のアルファ（不透明度）値は影響を受けません。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: 不変オブジェクトで、グレースケール効果を表します。すべての効果カラー値を、その輝度に対応するグレイの濃淡に変換します。効果のアルファ不透明度値は影響を受けません。
 type: docs
-weight: 3330
+weight: 3350
 url: /ja/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData インターフェイス
 
-不変オブジェクトで、グレースケール効果を表します。すべての効果カラー値を輝度に対応するグレーの濃淡に変換します。効果のアルファ（不透明度）値は影響を受けません。
+不変オブジェクトで、グレースケール効果を表します。すべての効果カラー値を、その輝度に対応するグレイの濃淡に変換します。効果のアルファ（不透明度）値は影響を受けません。
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -16,9 +16,9 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 参照
 

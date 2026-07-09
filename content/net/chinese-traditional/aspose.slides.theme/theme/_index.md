@@ -1,14 +1,14 @@
 ---
 title: Theme
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個主題。
+description: 表示一個佈景主題。
 type: docs
 weight: 11480
 url: /zh-hant/aspose.slides.theme/theme/
 ---
 ## Theme 類別
 
-表示一個主題。
+Represents a theme.
 
 ```csharp
 public abstract class Theme : ITheme
@@ -20,16 +20,16 @@ public abstract class Theme : ITheme
 | --- | --- |
 | abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | 傳回色彩方案。唯讀 [`IColorScheme`](../icolorscheme)。 |
 | abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | 傳回字型方案。唯讀 [`IFontScheme`](../ifontscheme)。 |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | 傳回圖形格式方案。唯讀 [`IFormatScheme`](../iformatscheme)。 |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | 傳回形狀格式方案。唯讀 [`IFormatScheme`](../iformatscheme)。 |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 傳回父簡報。唯讀 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 取得套用繼承的有效主題資料。 |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | 取得套用繼承的有效佈景主題資料。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ITheme](../itheme)
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

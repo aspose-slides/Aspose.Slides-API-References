@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Reprezentuje správce, který určuje chování zápatí, data a času, číslování stránek v hlavním snímku poznámek a všech podřízených zástupných znaků. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje správce, který drží chování zástupných symbolů paty hlavního snímku poznámek, data-času, číslování stránek a všech dětských zástupných symbolů. Dětské zástupné symboly znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek.
 type: docs
-weight: 6380
+weight: 6400
 url: /cs/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager rozhraní
 
-Reprezentuje správce, který určuje chování zápatí, data a času, číslování stránek v hlavním snímku poznámek a všech podřízených zástupných znaků. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek.
+Představuje správce, který drží chování paty hlavního snímku poznámek, zástupného symbolu data-času, zástupného symbolu čísla stránky a všech dětských zástupných symbolů. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,24 +18,24 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 | Name | Description |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Vrací rozhraní IBaseHandoutNotesSlideHeaderFooterManag. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Vrací IBaseHandoutNotesSlideHeaderFooterManag rozhraní. |
 
 ## Metody
 
 | Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastaví text do zástupného znaku data a času hlavního snímku poznámek a všech podřízených zástupných znaků data a času. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mění viditelnost zástupného znaku data a času hlavního snímku poznámek a všech podřízených zástupných znaků data a času. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastaví text do zástupného znaku zápatí hlavního snímku poznámek a všech podřízených zástupných znaků zápatí. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mění viditelnost zástupného znaku zápatí hlavního snímku poznámek a všech podřízených zástupných znaků zápatí. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Nastaví text do zástupného znaku záhlaví hlavního snímku poznámek a všech podřízených zástupných znaků záhlaví. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Mění viditelnost zástupného znaku záhlaví hlavního snímku poznámek a všech podřízených zástupných znaků záhlaví. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mění viditelnost zástupného znaku čísla stránky hlavního snímku poznámek a všech podřízených zástupných znaků čísla stránky. Podřízené zástupné znaky znamenají, že jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a jsou závislé na hlavním snímku poznámek. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Nastavuje text do hlavního snímku poznámek zástupného symbolu data-času a všech dětských zástupných symbolů data-času. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mění viditelnost hlavního snímku poznámek zástupného symbolu data-času a všech dětských zástupných symbolů data-času. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Nastavuje text do hlavního snímku poznámek zástupného symbolu paty a všech dětských zástupných symbolů paty. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mění viditelnost hlavního snímku poznámek zástupného symbolu paty a všech dětských zástupných symbolů paty. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Nastavuje text do hlavního snímku poznámek zástupného symbolu záhlaví a všech dětských zástupných symbolů záhlaví. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Mění viditelnost hlavního snímku poznámek zástupného symbolu záhlaví a všech dětských zástupných symbolů záhlaví. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mění viditelnost hlavního snímku poznámek zástupného symbolu čísla stránky a všech dětských zástupných symbolů čísla stránky. Dětské zástupné symboly znamenají, že zástupné symboly jsou obsaženy na závislých snímcích poznámek. Závislé snímky poznámek používají a závisí na hlavním snímku poznámek. |
 
 ### Viz také
 
 * rozhraní [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
-* sestava [Aspose.Slides](../../)
+* sestavení [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

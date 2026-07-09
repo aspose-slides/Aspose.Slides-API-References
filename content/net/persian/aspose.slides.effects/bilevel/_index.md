@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش یک اثر دو-سطحی سیاه/سفید. رنگ‌های ورودی که روشنایی آن‌ها کمتر از مقدار آستانه مشخص شده باشد، به سیاه تغییر می‌یابند. رنگ‌های ورودی که روشنایی آن‌ها برابر یا بیشتر از مقدار مشخص شده باشد، به سفید تنظیم می‌شوند. مقادیر اثر آلفا تحت تأثیر این اثر قرار نمی‌گیرند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش یک افکت دو سطحی سیاه/سفید. رنگ‌های ورودی که روشنایی آن‌ها کمتر از مقدار آستانهٔ مشخص شده باشد به سیاه تبدیل می‌شوند. رنگ‌های ورودی که روشنایی آن‌ها برابر یا بیشتر از مقدار مشخص شده باشد به سفید تنظیم می‌شوند. مقادیر افکت آلفا تحت تأثیر این افکت قرار نمی‌گیرند.
 type: docs
 weight: 2910
 url: /fa/aspose.slides.effects/bilevel/
 ---
 ## کلاس BiLevel
 
-نمایش یک اثر دو-سطحی (سیاه/سفید). رنگ‌های ورودی که روشنایی آن‌ها کمتر از مقدار آستانه مشخص شده باشد، به سیاه تغییر می‌یابند. رنگ‌های ورودی که روشنایی آن‌ها برابر یا بیشتر از مقدار مشخص شده باشد، به سفید تنظیم می‌شوند. مقادیر اثر آلفا تحت تأثیر این اثر قرار نمی‌گیرند.
+نمایش دهنده یک افکت دو سطحی (سیاه/سفید) است. رنگ‌های ورودی که روشنایی آن‌ها کمتر از مقدار آستانهٔ مشخص‌شده است، به سیاه تبدیل می‌شوند. رنگ‌های ورودی که روشنایی آن‌ها برابر یا بیشتر از مقدار مشخص‌شده است، به سفید تنظیم می‌شوند. مقادیر افکت آلفا تحت تأثیر این افکت قرار نمی‌گیرند.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,17 +18,17 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه دریافت اینترفیس base IPresentationComponent را می‌دهد. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط IPresentationComponent پایه را دریافت کند. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | تعیین می‌کند که آیا [`BiLevel`](../bilevel) مشخص شده برابر با [`BiLevel`](../bilevel) فعلی است یا خیر. |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | داده‌های مؤثر اثر دو-سطحی را با اعمال ارث‌بری دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص خدمت می‌کند. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | تعیین می‌کند آیا [`BiLevel`](../bilevel) مشخص‌شده برابر با [`BiLevel`](../bilevel) جاری است. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | داده‌های مؤثر افکت دو سطحی را با اعمال ارث‌بری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
-### مباحث مرتبط
+### موارد مرتبط
 
 * کلاس [ImageTransformOperation](../imagetransformoperation)
 * رابط [IBiLevel](../ibilevel)

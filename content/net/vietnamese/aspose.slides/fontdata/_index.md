@@ -1,39 +1,39 @@
 ---
 title: FontData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một định nghĩa phông chữ. Không thay đổi.
+description: Biểu diễn một định nghĩa phông chữ. Không thể thay đổi.
 type: docs
 weight: 4820
 url: /vi/aspose.slides/fontdata/
 ---
 ## FontData lớp
 
-Biểu diễn một định nghĩa phông chữ. Không thay đổi.
+Biểu diễn một định nghĩa phông chữ. Không thể thay đổi.
 
 ```csharp
 public sealed class FontData : IFontData
 ```
 
-## Các hàm khởi tạo
+## Hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [FontData](fontdata)(string) | Tạo một đối tượng FontData mới với tên phông chữ được chỉ định. |
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [FontName](../../aspose.slides/fontdata/fontname) { get; } | Trả về tên phông chữ. Đọc/ghi String. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Xác định xem hai đối tượng FontData có bằng nhau hay không. |
 | [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Trả về tên phông chữ, thay thế tham chiếu chủ đề bằng phông chữ thực tế được sử dụng. |
 | override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Trả về biểu diễn dạng chuỗi. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Trả về biểu diễn chuỗi. |
 
 ### Xem thêm
 

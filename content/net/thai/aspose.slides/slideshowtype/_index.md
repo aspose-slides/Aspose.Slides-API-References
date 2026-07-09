@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: การตั้งค่าพื้นฐานของการแสดงสไลด์ คลาสบรรพบุรุษแสดงประเภทของการแสดงสไลด์ PresentedBySpeaker./presentedbyspeaker นำเสนอโดยผู้พูดเต็มหน้าจอ BrowsedByIndividual./browsedbyindividual เรียกดูโดยบุคคลในหน้าต่าง BrowsedAtKiosk./browsedatkiosk เรียกดูที่คีออสเต็มหน้าจอ
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์ PresentedBySpeaker./presentedbyspeaker นำเสนอโดยผู้พูดเต็มจอ BrowsedByIndividual./browsedbyindividual เรียกดูโดยบุคคลในหน้าต่าง BrowsedAtKiosk./browsedatkiosk เรียกดูที่คีออสเต็มจอ
 type: docs
 weight: 10490
 url: /th/aspose.slides/slideshowtype/
 ---
 ## SlideShowType คลาส
 
-การตั้งค่าพื้นฐานของการแสดงสไลด์. คลาสบรรพบุรุษแสดงประเภทของการแสดงสไลด์: [`PresentedBySpeaker`](../presentedbyspeaker) นำเสนอโดยผู้พูด (เต็มหน้าจอ) [`BrowsedByIndividual`](../browsedbyindividual) เรียกดูโดยบุคคล (หน้าต่าง) [`BrowsedAtKiosk`](../browsedatkiosk) เรียกดูที่คีออส (เต็มหน้าจอ)
+การตั้งค่าการแสดงสไลด์พื้นฐาน. บรรพบุรุษแสดงประเภทของการแสดงสไลด์: [`PresentedBySpeaker`](../presentedbyspeaker) นำเสนอโดยผู้พูด (เต็มจอ) [`BrowsedByIndividual`](../browsedbyindividual) เรียกดูโดยบุคคล (หน้าต่าง) [`BrowsedAtKiosk`](../browsedatkiosk) เรียกดูที่คีออสก์ (เต็มจอ)
 
 ```csharp
 public abstract class SlideShowType

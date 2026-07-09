@@ -1,14 +1,14 @@
 ---
 title: IBehaviorCollection
-second_title: Aspose.Sildes .NET API Referenciája
-description: A viselkedés hatásait tartalmazó gyűjteményt képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Viselkedési hatásokat tartalmazó gyűjteményt képvisel.
 type: docs
-weight: 400
+weight: 420
 url: /hu/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection interfész
 
-A viselkedés hatásait tartalmazó gyűjteményt képviseli.
+A viselkedési hatásokat tartalmazó gyűjteményt képviseli.
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
@@ -16,23 +16,23 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Visszaadja a gyűjteményben lévő viselkedések számát. Csak olvasható Int32. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Visszaadja a viselkedések számát egy gyűjteményben. Csak olvasható Int32. |
 | [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Visszaad egy viselkedést a megadott indexen. |
 
-## Metódusok
+## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Új viselkedést ad a gyűjteményhez. |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Új viselkedés hozzáadása egy gyűjteményhez. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Eltávolítja az összes viselkedést a gyűjteményből. |
-| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Megállapítja, hogy a ICollection tartalmaz-e egy adott értéket. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Megállapítja egy adott elem indexét az IListben. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Új viselkedést szúr be a gyűjteménybe a megadott indexen. |
+| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Megállapítja, hogy az ICollection tartalmaz-e egy adott értéket. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Megállapítja egy adott elem indexét az IList-ben. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Beszúr egy új viselkedést a gyűjteménybe a megadott indexen. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Eltávolítja a megadott viselkedést a gyűjteményből. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Eltávolítja a viselkedést a gyűjteményből a megadott indexen. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Eltávolít egy viselkedést a gyűjteményből a megadott indexen. |
 
 ### Lásd még
 

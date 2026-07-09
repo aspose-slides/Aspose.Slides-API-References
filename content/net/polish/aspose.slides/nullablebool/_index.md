@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje potrójne wartości logiczne.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Reprezentuje trójwartościowe wartości logiczne.
 type: docs
-weight: 9150
+weight: 9170
 url: /pl/aspose.slides/nullablebool/
 ---
 ## Wyliczenie NullableBool
 
-Reprezentuje potrójne wartości logiczne.
+Reprezentuje trójwartościowe wartości logiczne.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -16,9 +16,9 @@ public enum NullableBool : sbyte
 
 ### Wartości
 
-| Nazwa | Wartość | Opis |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `-1` | Wartość logiczna jest niezdefiniowana. |
+| NotDefined | `-1` | Wartość logiczna jest nieokreślona. |
 | False | `0` | Wartość False. |
 | True | `1` | Wartość True. |
 

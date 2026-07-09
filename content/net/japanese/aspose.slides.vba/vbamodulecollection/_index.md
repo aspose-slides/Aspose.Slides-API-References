@@ -1,14 +1,14 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: VBA プロジェクト モジュールのコレクションを表します。
+second_title: Aspose.Sildes 用 .NET API リファレンス
+description: VBA プロジェクトのモジュールのコレクションを表します。
 type: docs
-weight: 11620
+weight: 11640
 url: /ja/aspose.slides.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection クラス
 
-VBA プロジェクト モジュールのコレクションを表します。
+VBA プロジェクトのモジュールのコレクションを表します。
 
 ```csharp
 public sealed class VbaModuleCollection : IVbaModuleCollection
@@ -19,9 +19,9 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッドセーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 指定したインデックスの要素を取得します。 |
+| [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 同期用ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 

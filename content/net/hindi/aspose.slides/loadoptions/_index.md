@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति लोड करते समय फ़ॉर्मेट या डिफ़ॉल्ट फ़ॉन्ट जैसी अतिरिक्त विकल्प निर्धारित करने की अनुमति देता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: प्रेजेंटेशन लोड करते समय फ़ॉर्मेट या डिफ़ॉल्ट फ़ॉन्ट जैसे अतिरिक्त विकल्प निर्दिष्ट करने की अनुमति देता है।
 type: docs
 weight: 7840
 url: /hi/aspose.slides/loadoptions/
 ---
-## LoadOptions वर्ग
+## LoadOptions क्लास
 
-Allows to specify additional options (such as format or default font) when loading a presentation.
+प्रेजेंटेशन लोड करने पर अतिरिक्त विकल्प (जैसे फ़ॉर्मेट या डिफ़ॉल्ट फ़ॉन्ट) निर्दिष्ट करने की अनुमति देता है।
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -19,31 +19,31 @@ public class LoadOptions : ILoadOptions
 | नाम | विवरण |
 | --- | --- |
 | [LoadOptions](loadoptions#constructor)() | नई डिफ़ॉल्ट लोड विकल्प बनाता है। |
-| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | नए लोड विकल्प बनाता है। |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | नया लोड विकल्प बनाता है। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | विकल्पों को दर्शाता है जिन्हें Binary Large Objects (BLOBs) के हैंडलिंग व्यवहार को प्रबंधित करने के लिए उपयोग किया जा सकता है, जैसे अस्थायी फ़ाइलों का उपयोग या मेमोरी में अधिकतम BLOBs बाइट्स। ये विकल्प किसी विशेष वातावरण या आवश्यकताओं के लिए सर्वोत्तम प्रदर्शन/मेमोरी खपत अनुपात स्थापित करने के लिए नियत हैं। एक Binary Large Object (BLOB) बाइनरी डेटा है जो एकल इकाई के रूप में संग्रहीत होता है - अर्थात् BLOB ऑडियो, वीडियो या स्वयं प्रस्तुति हो सकता है। |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किए जाने वाले एशियाई फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किए जाने वाले नियमित फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किए जाने वाले सिंबल फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ें/लिखें String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | प्रस्तुति के पाठ के लिए डिफ़ॉल्ट भाषा को लौटाता है या सेट करता है। पढ़ें/लिखें String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | निर्धारित करता है कि प्रस्तुति लोड करते समय Aspose.Slides सभी अंतर्निहित बाइनरी ऑब्जेक्ट्स को हटाएगा या नहीं। |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | प्रस्तुति द्वारा उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स के स्रोत निर्दिष्ट करता है। ये फ़ॉन्ट्स प्रस्तुति के पूरे जीवनकाल में उपलब्ध रहते हैं और अन्य प्रस्तुतियों के साथ साझा नहीं होते। |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | विच्छेदन अनुरोधों की निगरानी करने के लिए टोकन। यह टोकन पूरे [`IPresentation`](../ipresentation) उदाहरण आयु को प्रबंधित करता है। कोई भी लंबा चलने वाला कार्य, जैसे प्रस्तुति का लोड या सहेजना, [`InterruptionTokenSource`](../interruptiontokensource) के [`Interrupt`](../interruptiontokensource/interrupt) मेथड को कॉल करके बाधित किया जाएगा। |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | लोड करने के लिए प्रस्तुति के प्रारूप को लौटाता है या सेट करता है। पढ़ें/लिखें [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | यह प्रॉपर्टी तभी उपयोगी होती है जब प्रस्तुति फ़ाइल पासवर्ड-सुरक्षित हो। true होने पर केवल दस्तावेज़ गुणों को एन्क्रिप्टेड प्रस्तुति फ़ाइल से लोड किया जाता है और पासवर्ड को अनदेखा किया जाता है। false होने पर सही पासवर्ड का उपयोग करके पूरी एन्क्रिप्टेड प्रस्तुति को लोड किया जाता है। यदि प्रस्तुति एन्क्रिप्टेड नहीं है तो यह प्रॉपर्टी हमेशा अनदेखी की जाती है। यदि एन्क्रिप्टेड फ़ाइल के दस्तावेज़ गुण सार्वजनिक नहीं हैं और प्रॉपर्टी true है तो दस्तावेज़ गुण लोड नहीं किए जा सकते और अपवाद फेंका जाएगा। पढ़ें/लिखें Boolean. |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | विकल्पों का प्रतिनिधित्व करता है जिन्हें Binary Large Objects (BLOBs) हैंडलिंग व्यवहार को प्रबंधित करने के लिए उपयोग किया जा सकता है, जैसे अस्थायी फ़ाइलों का उपयोग या स्मृति में अधिकतम BLOBs बाइट्स। ये विकल्प विशिष्ट पर्यावरण या आवश्यकताओं के लिए सर्वोत्तम प्रदर्शन/स्मृति उपभोग अनुपात सेट करने के उद्देश्य से हैं। Binary Large Object (BLOB) एक बाइनरी डेटा है जिसे एक एकल इकाई के रूप में संग्रहीत किया जाता है - अर्थात् BLOB ऑडियो, वीडियो या स्वयं प्रेजेंटेशन हो सकता है। |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग होने वाला एशियन फ़ॉन्ट लौटाता है या सेट करता है। पढ़ें/लिखें String. |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग होने वाला नियमित फ़ॉन्ट लौटाता है या सेट करता है। पढ़ें/लिखें String. |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग होने वाला सिम्बोल फ़ॉन्ट लौटाता है या सेट करता है। पढ़ें/लिखें String. |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | प्रेजेंटेशन टेक्स्ट के लिए डिफ़ॉल्ट भाषा लौटाता है या सेट करता है। पढ़ें/लिखें String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | निर्धारित करता है कि प्रेजेंटेशन लोड करते समय Aspose.Slides सभी एंबेडेड बाइनरी ऑब्जेक्ट्स को हटाएगा या नहीं। |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | प्रेजेंटेशन द्वारा उपयोग किए जाने वाले बाहरी फ़ॉन्ट्स के स्रोत निर्दिष्ट करता है। ये फ़ॉन्ट्स प्रेजेंटेशन के पूरे जीवनकाल में उपलब्ध होते हैं और अन्य प्रेजेंटेशन के साथ साझा नहीं होते। |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | इंटरप्शन अनुरोधों की निगरानी के लिए टोकन। यह टोकन पूरे [`IPresentation`](../ipresentation) इंस्टेंस जीवनकाल को प्रबंधित करता है। प्रेजेंटेशन को लोड या सहेजने जैसी कोई भी दीर्घकालिक प्रक्रिया [`Interrupt`](../interruptiontokensource/interrupt) मेथड को [`InterruptionTokenSource`](../interruptiontokensource) कॉल करके बाधित की जाएगी। |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | लोड करने के लिए प्रेजेंटेशन के फ़ॉर्मेट को लौटाता है या सेट करता है। पढ़ें/लिखें [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | यह प्रॉपर्टी तब अर्थपूर्ण होती है जब प्रेजेंटेशन फ़ाइल पासवर्ड से सुरक्षित हो। true मान का अर्थ है कि केवल एन्क्रिप्टेड प्रेजेंटेशन फ़ाइल से दस्तावेज़ गुण लोड किए जाएंगे और पासवर्ड को नज़रअंदाज़ किया जाएगा। false मान का अर्थ है कि सही पासवर्ड का उपयोग करके पूरी एन्क्रिप्टेड प्रेजेंटेशन लोड की जाएगी। यदि प्रेजेंटेशन एन्क्रिप्टेड नहीं है तो प्रॉपर्टी मान हमेशा नज़रअंदाज़ किया जाता है। यदि एन्क्रिप्टेड फ़ाइल के दस्तावेज़ गुण सार्वजनिक नहीं हैं और प्रॉपर्टी मान true है तो दस्तावेज़ गुण लोड नहीं किए जा सकते और एक अपवाद फेंका जाएगा। पढ़ें/लिखें Boolean. |
 | [Password](../../aspose.slides/loadoptions/password) { get; set; } | पासवर्ड को प्राप्त करता है या सेट करता है। पढ़ें/लिखें String. |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | बाहरी संसाधनों को लोड करने का प्रबंधन करने वाले कॉलबैक इंटरफ़ेस को लौटाता है या सेट करता है। पढ़ें/लिखें [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | स्प्रेडशीट के विकल्प प्राप्त करता है। उदाहरण के लिए, ये विकल्प चार्ट के सूत्रों की गणना को प्रभावित करते हैं। |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | चेतावनी प्राप्त करने वाले ऑब्जेक्ट को लौटाता है या सेट करता है तथा तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | बाहरी संसाधनों के लोडिंग को प्रबंधित करने वाले कॉलबैक इंटरफ़ेस को लौटाता है या सेट करता है। पढ़ें/लिखें [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | स्प्रेडशीट्स के लिए विकल्प प्राप्त करता है। उदाहरण के लिए, ये विकल्प चार्ट्स के फ़ॉर्मूले की गणना को प्रभावित करते हैं। |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | एक ऑब्जेक्ट को लौटाता है या सेट करता है जो चेतावनियां प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या निरस्त हो जाएगी। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [ILoadOptions](../iloadoptions)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

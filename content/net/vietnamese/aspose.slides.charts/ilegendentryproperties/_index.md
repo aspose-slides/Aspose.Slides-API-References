@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho các thuộc tính chú giải của biểu đồ.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn các thuộc tính chú thích của biểu đồ.
 type: docs
 weight: 2150
 url: /vi/aspose.slides.charts/ilegendentryproperties/
 ---
 ## ILegendEntryProperties giao diện
 
-Đại diện cho các thuộc tính chú giải của biểu đồ.
+Biểu diễn các thuộc tính chú thích của biểu đồ.
 
 ```csharp
 public interface ILegendEntryProperties : IFormattedTextContainer
@@ -19,9 +19,9 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 | Tên | Mô tả |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện IFormattedTextContainer cơ bản. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Trả về hoặc thiết lập cờ ẩn của mục chú giải. Đọc/ghi Boolean. |
+| [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | Trả về hoặc thiết lập cờ ẩn của mục chú thích. Đọc/ghi Boolean. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IFormattedTextContainer](../iformattedtextcontainer)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

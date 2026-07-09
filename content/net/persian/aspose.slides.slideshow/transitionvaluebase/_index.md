@@ -16,12 +16,12 @@ public class TransitionValueBase : ITransitionValueBase
 
 ## متدها
 
-| نام | توضیح |
+| نام | توضح |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونهٔ TransitionValueBase برابر هستند یا نه. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده مانند جدول هش مناسب است. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند و برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
-### موارد مرتبط
+### مراجع
 
 * رابط [ITransitionValueBase](../itransitionvaluebase)
 * فضای نام [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

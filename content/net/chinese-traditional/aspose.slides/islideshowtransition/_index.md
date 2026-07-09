@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表投影片放映轉場。
+description: 表示簡報放映轉場。
 type: docs
 weight: 7080
 url: /zh-hant/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition 介面
 
-代表投影片放映轉場。
+表示簡報放映轉場。
 
 ```csharp
 public interface ISlideShowTransition
@@ -16,20 +16,20 @@ public interface ISlideShowTransition
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | 此屬性指定投影片放映是否會在一定時間後移動至下一張投影片。可讀寫 Boolean。 |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定在多少毫秒後開始轉場。此設定可與 advClick 屬性一起使用。如果未指定此屬性，則假設不會自動前進。可讀寫 UInt32。 |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定滑鼠點擊是否會前進投影片。若未指定此屬性，則預設為 true。可讀寫 Boolean。 |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | 取得或設定投影片轉場效果的持續時間（毫秒）。可讀寫 Int32。 |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 取得或設定嵌入的音訊資料。可讀寫 [`IAudio`](../iaudio)。 |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此音效是否為內建音效。若此屬性設為 true，則會通知產生應用程式檢查此音效在內建音效清單中指定的 name 屬性，並可根據需要提供自訂名稱或介面。可讀寫 Boolean。 |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此屬性指定音效是否會循環播放，直至投影片放映中下一個音效事件發生。可讀寫 Boolean。 |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 設定或取得投影片轉場的音效模式。可讀寫 [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode)。 |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 指定轉場音效的可讀名稱。必須指派 [`Sound`](./sound) 屬性才能取得或設定音效名稱。可讀寫 String。 |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定在從目前投影片過渡至下一張時使用的轉場速度。可讀寫 [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed)。 |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 轉場類型。可讀寫 [`TransitionType`](../../aspose.slides.slideshow/transitiontype)。 |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 投影片放映轉場值。唯讀 [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase)。 |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | 此屬性指定簡報是否會在特定時間後移至下一張投影片。讀寫 Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | 指定以毫秒為單位的時間，於此之後開始轉場。此設定可與 advClick 屬性一起使用。如果未指定此屬性，則假設不會自動前進。讀寫 UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | 指定滑鼠點擊是否會前進投影片。若未指定此屬性，則預設為 true。讀寫 Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | 取得或設定投影片轉場效果的持續時間（毫秒）。讀寫 Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | 取得或設定嵌入的音訊資料。讀寫 [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | 指定此聲音是否為內建聲音。若此屬性設定為 true，則會通知產生此檔的應用程式檢查此聲音在內建聲音清單中指定的 name 屬性，並可依需要顯示自訂名稱或介面。讀寫 Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | 此屬性指定聲音是否會持續循環，直至簡報中下一個聲音事件發生。讀寫 Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | 設定或取得投影片轉場的聲音模式。讀寫 [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | 指定轉場聲音的人類可讀名稱。必須指派 [`Sound`](./sound) 屬性才能取得或設定聲音名稱。讀寫 String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | 指定從目前投影片過渡到下一張時使用的轉場速度。讀寫 [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | 轉場類型。讀寫 [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | 簡報轉場值。唯讀 [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een VBA-project voor met presentatiemacro's.
+description: Vertegenwoordigt een VBA-project met presentatiemacro's.
 type: docs
 weight: 11550
 url: /nl/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject interface
 
-Stelt een VBA-project voor met presentatiemacro’s.
+Geeft een VBA-project met presentatiemacro’s weer.
 
 ```csharp
 public interface IVbaProject
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Geeft aan of het VBAProject beschermd is met een wachtwoord om projecteigenschappen te bekijken. Alleen-lezen Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Geeft de lijst van alle modules die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Geeft de naam van het VBA-project. Alleen-lezen String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Geeft de lijst van alle referenties die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Geeft aan of het VBAProject beschermd is door een wachtwoord om projecteigenschappen te bekijken. Alleen-lezen Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Retourneert de lijst met alle modules die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Retourneert de naam van het VBA-project. Alleen-lezen String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Retourneert de lijst met alle referenties die in het VBA-project zijn opgenomen. Alleen-lezen [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Geeft de binaire weergave van het VBA-project als OLE-container. Alleen-lezen Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Retourneert de binaire weergave van het VBA-project als OLE-container. Alleen-lezen Byte[]. |
 
 ### Zie ook
 

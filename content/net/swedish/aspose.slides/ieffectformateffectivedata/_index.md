@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes for .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva effektformateringsegenskaper.
+second_title: Aspose.Sildes för .NET API-referens
+description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för effekter.
 type: docs
-weight: 5730
+weight: 5750
 url: /sv/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData gränssnitt
 
-Imutable object which contains effective effect formatting properties.
+Oföränderligt objekt som innehåller effektiva formateringsegenskaper för effekter.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,20 +18,20 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Tillåter att hämta basgränssnitt IEffectParamSource. Läs-endast [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Oskärpeffekt. Läs-endast [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Fyll-överlappningseffekt. Läs-endast [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Glödeffekt. Läs-endast [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Inre skugga. Läs-endast [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Returnerar true om alla effekter är inaktiverade (som precis skapad, standard EffectFormat-objekt). Läs-endast Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Yttre skugga. Läs-endast [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Förvald skugga. Läs-endast [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflektion. Läs-endast [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Mjuk kant. Läs-endast [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Tillåter att hämta bas-IEffectParamSource gränssnitt. Skrivskyddad [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Blur-effekt. Skrivskyddad [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Fill-överlappnings-effekt. Skrivskyddad [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Glow-effekt. Skrivskyddad [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Inre skugga. Skrivskyddad [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Returnerar true om alla effekter är inaktiverade (som precis skapad, standard-EffectFormat-objekt). Skrivskyddad Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Yttre skugga. Skrivskyddad [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Förinställd skugga. Skrivskyddad [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflektion. Skrivskyddad [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Mjuk kant. Skrivskyddad [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IEffectFormat`](../ieffectformat) gränssnitt för att returnera effektiva formateringsvärden med arv tillämpat.
+Detta gränssnitt används tillsammans med [`IEffectFormat`](../ieffectformat)-gränssnitt för att returnera effektiva formateringsvärden med ärvd tillämpning.
 
 ### Se även
 

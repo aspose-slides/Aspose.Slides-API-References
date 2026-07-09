@@ -1,9 +1,9 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Uyarı geri arama karar seçeneklerini temsil eder.
 type: docs
-weight: 11800
+weight: 11820
 url: /tr/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction enum
@@ -18,7 +18,7 @@ public enum ReturnAction
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Continue | `0` | İşlem devam etmelidir. |
+| Continue | `0` | İşlem devam ettirilmelidir. |
 | Abort | `1` | İşlem iptal edilmelidir. |
 
 ### Ayrıca Bakınız

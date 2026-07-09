@@ -18,23 +18,23 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides/icommentcollection/item) { get; } | عنصری را در ایندکس مشخص شده دریافت می‌کند. فقط خواندنی [`IComment`](../icomment). |
+| [Item](../../aspose.slides/icommentcollection/item) { get; } | عنصری را در شاخص مشخص‌شده دریافت می‌کند. فقط‌خواندنی [`IComment`](../icomment). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | یک نظر جدید در انتهای مجموعه اضافه می‌کند. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید در انتهای مجموعه اضافه می‌کند. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | یک نظر جدید به انتهای مجموعه اضافه می‌کند. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید به انتهای مجموعه اضافه می‌کند. |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | تمام نظرات را از یک مجموعه حذف می‌کند. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | یک نظر جدید را در ایندکس مشخص شده به یک مجموعه وارد می‌کند. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید را در ایندکس مشخص شده به یک مجموعه وارد می‌کند. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | اولین رخداد نظر مشخص شده را در یک مجموعه حذف می‌کند. |
-| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | عنصری را در ایندکس مشخص شده در یک مجموعه حذف می‌کند. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | یک آرایه حاوی تمام نظرات را ایجاد و برمی‌گرداند. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | یک آرایه حاوی تمام نظرات از بازه مشخص شده را ایجاد و برمی‌گرداند. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | یک نظر جدید را در یک مجموعه در شاخص مشخص‌شده وارد می‌کند. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | یک نظر مدرن جدید را در یک مجموعه در شاخص مشخص‌شده وارد می‌کند. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | اولین وقوع نظر مشخص‌شده را در یک مجموعه حذف می‌کند. |
+| [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | عنصری را در شاخص مشخص‌شده در یک مجموعه حذف می‌کند. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | یک آرایه حاوی تمام نظرات ایجاد و برمی‌گرداند. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | یک آرایه حاوی تمام نظرات از محدودهٔ مشخص‌شده ایجاد و برمی‌گرداند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * رابط [IComment](../icomment)

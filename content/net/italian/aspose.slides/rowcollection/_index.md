@@ -1,14 +1,14 @@
 ---
 title: RowCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta la collezione di righe della tabella.
 type: docs
-weight: 9700
+weight: 9720
 url: /it/aspose.slides/rowcollection/
 ---
 ## RowCollection classe
 
-Rappresenta la collezione di righe della tabella.
+Rappresenta la collezione di righe di una tabella.
 
 ```csharp
 public sealed class RowCollection : DomObject<Table>, IRowCollection
@@ -18,18 +18,18 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | Ottiene il numero di righe effettivamente contenute nella collezione. Di sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Di sola lettura Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | Restituisce la riga all'indice specificato. Di sola lettura [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Di sola lettura Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | Ottiene il numero di righe effettivamente contenute nella collezione. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | Restituisce la riga all'indice specificato. Sola lettura [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crea una copia della riga modello specificata e la inserisce alla fine di una tabella. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | Crea una copia della riga modello specificata e la inserisce in fondo a una tabella. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Restituisce un enumeratore che scorre la collezione. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | Crea una copia della riga modello specificata e la inserisce nella posizione specificata in una tabella. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | Rimuove una riga nella posizione specificata da una tabella. |
 

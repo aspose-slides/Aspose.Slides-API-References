@@ -3,12 +3,12 @@ title: IOleEmbeddedDataInfo
 second_title: Aspose.Sildes for .NET API リファレンス
 description: OLE オブジェクトの埋め込みデータ情報を表します。
 type: docs
-weight: 6510
+weight: 6530
 url: /ja/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo インターフェイス
 
-埋め込み OLE オブジェクトのデータ情報を表します。
+埋め込まれた OLE オブジェクトの情報を表します。
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 埋め込み OLE オブジェクトのファイル データを返します 読み取り専用 Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 現在の埋め込み OLE オブジェクトのファイル拡張子を返します 読み取り専用 String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | 埋め込まれた OLE オブジェクトのファイル データを返します 読み取り専用 Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | 現在の埋め込まれた OLE オブジェクトのファイル拡張子を返します 読み取り専用 String. |
 
 ### 参照
 

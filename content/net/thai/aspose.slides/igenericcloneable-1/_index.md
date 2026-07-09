@@ -6,29 +6,29 @@ type: docs
 weight: 5950
 url: /th/aspose.slides/igenericcloneable-1/
 ---
-## IGenericCloneable&lt;T&gt; อินเทอร์เฟซ
+## IGenericCloneable<T> อินเทอร์เฟซ
 
-แสดงเวอร์ชันทั่วไปของ ICloneable
+แสดงถึงเวอร์ชันทั่วไปของ ICloneable
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
 ```
 
-| Parameter | Description |
+| พารามิเตอร์ | คำอธิบาย |
 | --- | --- |
-| T | ประเภทของอ็อบเจ็กต์ที่จะทำการคัดลอก |
+| T | ประเภทของอ็อบเจกต์ที่จะทำการโคลน |
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsICloneable](../../aspose.slides/igenericcloneable`1/asicloneable) { get; } | คืนค่าอินเทอร์เฟซ ICloneable. |
 
-## วิธีการ
+## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | สร้างอ็อบเจ็กต์ใหม่ที่เป็นสำเนาของอินสแตนซ์ปัจจุบัน. |
+| [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | สร้างอ็อบเจกต์ใหม่ที่เป็นสำเนาของอินสแตนซ์ปัจจุบัน. |
 
 ### ดูเพิ่มเติม
 

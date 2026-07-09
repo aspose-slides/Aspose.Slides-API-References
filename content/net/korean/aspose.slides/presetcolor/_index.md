@@ -8,7 +8,7 @@ url: /ko/aspose.slides/presetcolor/
 ---
 ## PresetColor 열거형
 
-미리 정의된 색상 프리셋을 나타냅니다.
+사전 정의된 색상 프리셋을 나타냅니다.
 
 ```csharp
 public enum PresetColor

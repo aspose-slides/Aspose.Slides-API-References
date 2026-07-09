@@ -1,14 +1,14 @@
 ---
 title: RotationEffect
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر رفتار چرخش اثر است.
+description: رفتار چرخش اثر را نشان می‌دهد.
 type: docs
 weight: 770
 url: /fa/aspose.slides.animation/rotationeffect/
 ---
-## RotationEffect کلاس
+## کلاس RotationEffect
 
-نمایانگر رفتار چرخش اثر است.
+رفتار چرخش اثر را نمایش می‌دهد.
 
 ```csharp
 public class RotationEffect : Behavior, IRotationEffect
@@ -18,19 +18,19 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | نام | توضیح |
 | --- | --- |
-| [RotationEffect](rotationeffect)() | سازندهٔ پیش‌فرض. |
+| [RotationEffect](rotationeffect)() | سازنده پیش‌فرض. |
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | نشان می‌دهد که آیا رفتارهای انیمیشن انباشته می‌شوند. خواندنی/نوشتنی [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | نشان می‌دهد که آیا رفتار فعلی انیمیشن با سایر انیمیشن‌های در حال اجرا ترکیب می‌شود. خواندنی/نوشتنی [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | مقدار افست نسبی برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | مقدار شروع برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | خواص رفتار را نشان می‌دهد. فقط خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | خواص زمان‌بندی برای رفتار اثر را نشان می‌دهد. خواندنی/نوشتنی [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | مقدار پایان برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | نشان می‌دهد که رفتارهای انیمیشن تجمع می‌یابند. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | نشان می‌دهد که رفتار انیمیشن جاری با دیگر انیمیشن‌های در حال اجرا ترکیب می‌شود. قابل خواندن/نوشتن [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | مقدار آفست نسبی برای انیمیشن را توضیح می‌دهد. قابل خواندن/نوشتن Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | مقدار شروع برای انیمیشن را توضیح می‌دهد. قابل خواندن/نوشتن Single. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | خواص رفتار را نشان می‌دهد. فقط-خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | خواص زمان‌بندی برای رفتار اثر را نمایش می‌دهد. قابل خواندن/نوشتن [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | مقدار پایان برای انیمیشن را توضیح می‌دهد. قابل خواندن/نوشتن Single. |
 
 ### موارد مرتبط
 

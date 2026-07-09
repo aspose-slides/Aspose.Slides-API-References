@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 파일 형식이 지원되지 않을 때 발생하는 예외.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션 파일 형식이 지원되지 않을 때 발생하는 예외입니다.
 type: docs
 weight: 9540
 url: /ko/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException 클래스
 
-프레젠테이션 파일 형식이 지원되지 않을 때 발생하는 예외입니다.
+프레젠테이션 파일 형식이 지원되지 않을 경우 발생하는 예외입니다.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -20,7 +20,7 @@ public class PptUnsupportedFormatException : PptReadException
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | 기본 생성자. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외를 위한 생성자. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외용 생성자. |
 
 ### 참고
 

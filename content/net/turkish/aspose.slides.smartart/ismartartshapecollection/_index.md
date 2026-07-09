@@ -1,12 +1,12 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: SmartArt şekillerinin bir koleksiyonunu temsil eder
 type: docs
-weight: 10560
+weight: 10580
 url: /tr/aspose.slides.smartart/ismartartshapecollection/
 ---
-## ISmartArtShapeCollection arayüz
+## ISmartArtShapeCollection arayüzü
 
 SmartArt şekillerinin bir koleksiyonunu temsil eder
 
@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Yalnızca okuma [`ISmartArtShape`](../ismartartshape). Öğenin sıfırdan başlayan dizini |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ISmartArtShape`](../ismartartshape). Öğenin sıfır tabanlı indeksi |
 
 ### Ayrıca Bakınız
 

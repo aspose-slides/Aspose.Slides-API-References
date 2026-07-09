@@ -1,14 +1,14 @@
 ---
 title: CreateConversation
-second_title: Aspose.Sildes cho .NET API Tham khảo
-description: Tạo một thể hiện cuộc trò chuyện. Không giống như các lời gọi AI thông thường, các cuộc trò chuyện giữ nguyên toàn bộ ngữ cảnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Tạo một thể hiện hội thoại. Không giống như các cuộc gọi AI thông thường, hội thoại giữ toàn bộ ngữ cảnh.
 type: docs
 weight: 30
 url: /vi/aspose.slides.ai/openaicompatiblewebclient/createconversation/
 ---
-## OpenAICompatibleWebClient.CreateConversation phương thức
+## Phương thức OpenAICompatibleWebClient.CreateConversation
 
-Tạo một thể hiện của cuộc trò chuyện. Không giống như các lời gọi AI thông thường, các cuộc trò chuyện giữ nguyên toàn bộ ngữ cảnh.
+Tạo một thể hiện hội thoại. Không giống như các cuộc gọi AI thông thường, hội thoại sẽ giữ toàn bộ ngữ cảnh.
 
 ```csharp
 public IAIConversation CreateConversation()

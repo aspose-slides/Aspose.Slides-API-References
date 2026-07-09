@@ -3,7 +3,7 @@ title: FontSources
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller fil- och minneskällor för externa teckensnitt.
 type: docs
-weight: 4840
+weight: 4860
 url: /sv/aspose.slides/fontsources/
 ---
 ## FontSources klass
@@ -16,16 +16,16 @@ public class FontSources : IFontSources
 
 ## Konstruktörer
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [FontSources](fontsources)() | Skapar nya standardteckensnittsalternativ. |
+| [FontSources](fontsources)() | Skapar nya standardalternativ för teckensnitt. |
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Mappar som innehåller teckensnittsfiler. Alla teckensnittsfiler som finns i dessa mappar inkluderas i samlingen. Mappar som söks rekursivt. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | En samling teckensnitt representerade som byte-arrayer. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Mappar som innehåller teckensnittsfiler. Alla teckensnittsfiler som finns i dessa mappar ingår i samlingen. Mappar som söks rekursivt. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | En samling av teckensnitt representerade som byte-arrayer. |
 
 ### Se även
 

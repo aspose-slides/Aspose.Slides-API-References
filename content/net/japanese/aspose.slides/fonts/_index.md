@@ -1,9 +1,9 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes の .NET API リファレンス
-description: フォントのコレクション。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: フォントコレクション。
 type: docs
-weight: 4900
+weight: 4920
 url: /ja/aspose.slides/fonts/
 ---
 ## Fonts クラス
@@ -26,10 +26,10 @@ public class Fonts : IFonts
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | プレゼンテーション テーマから特定のスクリプト タグに関連付けられたフォント名を取得します。 |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 特定のスクリプト タグに関連付けられたフォント名をプレゼンテーションのテーマから取得します。 |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | プレゼンテーション内のすべてのスクリプト フォント定義の辞書を返します。 |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | テーマのフォント コレクションから特定のスクリプト タグに関連付けられたフォント設定を削除します。 |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 特定のスクリプト タグにフォント名を割り当て、プレゼンテーションでそのスクリプトのテキストがどのように描画されるかを定義します。 |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 特定のスクリプト タグにフォント名を割り当てます。このタグは、プレゼンテーションでそのスクリプトのテキストがどのようにレンダリングされるかを定義します。 |
 
 ### 参照
 

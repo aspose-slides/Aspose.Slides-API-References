@@ -1,14 +1,14 @@
 ---
 title: MathTopBotPositions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 上/下位置の列挙体
+description: 上/下 の位置列挙型
 type: docs
-weight: 9020
+weight: 9040
 url: /ja/aspose.slides.mathtext/mathtopbotpositions/
 ---
-## MathTopBotPositions 列挙体
+## MathTopBotPositions 列挙型
 
-上/下 の位置の列挙体
+上/下 の位置 列挙型
 
 ```csharp
 public enum MathTopBotPositions
@@ -16,11 +16,11 @@ public enum MathTopBotPositions
 
 ### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NotDefined | `0` | 未定義 |
-| Top | `1` | Top |
-| Bottom | `2` | Bottom |
+| Top | `1` | 上 |
+| Bottom | `2` | 下 |
 
 ### 参照
 

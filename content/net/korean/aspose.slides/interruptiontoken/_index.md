@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 클래스는 장기 실행 작업에 중단 요청 여부를 알리기 위해 사용할 토큰을 나타냅니다.
+description: 이 클래스는 장기 실행 작업에 대해 중단 요청 여부를 알리기 위해 사용할 토큰을 나타냅니다.
 type: docs
 weight: 7600
 url: /ko/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken 클래스
 
-이 클래스는 중단 요청 여부를 신호하기 위해 장기 실행 작업에 사용할 토큰을 나타냅니다.
+이 클래스는 장기 실행 작업에 대해 중단 요청 여부를 알리기 위해 사용할 토큰을 나타냅니다.
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -16,14 +16,14 @@ public class InterruptionToken : IInterruptionToken
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 빈 중단 토큰을 나타냅니다. 이 토큰을 사용할 경우, [`Interrupt`](../interruptiontokensource/interrupt)를 통해 장기 실행 작업이 중단되지 않습니다. |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 빈 중단 토큰을 나타냅니다. 이 토큰을 사용할 경우 장기 실행 작업은 [`Interrupt`](../interruptiontokensource/interrupt)를 통해 절대로 중단되지 않습니다. |
 | [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 중단이 요청된 경우 Boolean.true를 반환합니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | 중단이 요청된 경우 OperationCanceledException을 발생시킵니다. |
 

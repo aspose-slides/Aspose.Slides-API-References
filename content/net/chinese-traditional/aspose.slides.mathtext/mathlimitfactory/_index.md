@@ -24,8 +24,8 @@ public class MathLimitFactory : IMathLimitFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | 建立底部限制的 IMathLimit |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | 建立 IMMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | 建立在底部具有限制的 IMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | 建立 IMathLimit |
 
 ### 備註
 

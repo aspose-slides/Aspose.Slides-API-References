@@ -1,12 +1,12 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: グラフィック パス コマンドを表します
 type: docs
-weight: 9300
+weight: 9320
 url: /ja/aspose.slides/pathcommandtype/
 ---
-## PathCommandType 列挙型
+## PathCommandType 列挙体
 
 グラフィック パス コマンドを表します
 
@@ -19,13 +19,13 @@ public enum PathCommandType : byte
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Close | `0` | ジオメトリ パスを閉じます |
-| MoveTo | `1` | ジオメトリ パスの次の点の位置を設定します |
-| LineTo | `2` | ジオメトリ パスに直線を追加します |
-| ArcTo | `3` | 指定された円弧をジオメトリ パスに追加します。 |
+| MoveTo | `1` | ジオメトリ パスの次のポイント位置を設定します |
+| LineTo | `2` | ジオメトリ パスに線を追加します |
+| ArcTo | `3` | ジオメトリ パスに指定された円弧を追加します。 |
 | QuadBezierTo | `4` | ジオメトリ パスに二次ベジェ曲線を追加します |
 | CubicBezierTo | `5` | ジオメトリ パスに三次ベジェ曲線を追加します |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

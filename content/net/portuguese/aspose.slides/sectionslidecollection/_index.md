@@ -3,7 +3,7 @@ title: SectionSlideCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de slides na seção.
 type: docs
-weight: 9750
+weight: 9770
 url: /pt/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection classe
@@ -19,7 +19,7 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -27,10 +27,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Nome | Descrição |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia toda a coleção para o array especificado. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Copia a coleção inteira para o array especificado. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 
-### Veja também
+### Ver Também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Section](../section)

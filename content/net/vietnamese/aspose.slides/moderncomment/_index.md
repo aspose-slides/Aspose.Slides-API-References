@@ -1,14 +1,14 @@
 ---
 title: ModernComment
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một bình luận trên slide.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một bình luận trên một slide.
 type: docs
 weight: 9090
 url: /vi/aspose.slides/moderncomment/
 ---
 ## ModernComment lớp
 
-Biểu diễn một bình luận trên slide.
+Đại diện cho một bình luận trên một slide.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -18,12 +18,12 @@ public sealed class ModernComment : Comment, IModernComment
 
 | Tên | Mô tả |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | Trả về tác giả của bình luận. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Trả về hoặc đặt thời gian tạo bình luận. Đặt thuộc tính này thành MinValue có nghĩa là không có thời gian bình luận nào được đặt. Đọc/ghi DateTime. |
+| [Author](../../aspose.slides/comment/author) { get; } | Trả về tác giả của một bình luận. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Trả về hoặc đặt thời gian tạo bình luận. Đặt thuộc tính này thành MinValue có nghĩa là không có thời gian bình luận được đặt. Đọc/ghi DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Lấy hoặc đặt bình luận cha. Đọc/ghi [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Trả về hoặc đặt vị trí của bình luận trên một slide. Đọc/ghi PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Trả về một shape liên kết với bình luận. Chỉ đọc [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Trả về hoặc đặt slide cha của bình luận. Chỉ đọc [`ISlide`](../islide). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Trả về hoặc đặt vị trí của một bình luận trên slide. Đọc/ghi PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | Trả về một hình dạng liên kết với bình luận. Chỉ đọc [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Trả về hoặc đặt slide cha của một bình luận. Chỉ đọc [`ISlide`](../islide). |
 | [Status](../../aspose.slides/moderncomment/status) { get; set; } | Lấy hoặc đặt trạng thái của bình luận. Đọc/ghi [`ModernCommentStatus`](../moderncommentstatus). |
 | [Text](../../aspose.slides/comment/text) { get; set; } | Trả về hoặc đặt văn bản thuần của bình luận trên slide. Đọc/ghi String. |
 | [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Lấy hoặc đặt độ dài lựa chọn văn bản trong khung văn bản nếu bình luận liên kết với AutoShape. Đọc/ghi Int32. |

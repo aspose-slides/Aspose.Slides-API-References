@@ -22,7 +22,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 또한 보기
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IChartDataWorksheet](../ichartdataworksheet)

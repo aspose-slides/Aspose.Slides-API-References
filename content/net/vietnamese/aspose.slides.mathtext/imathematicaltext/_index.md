@@ -1,6 +1,6 @@
 ---
 title: IMathematicalText
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Văn bản toán học
 type: docs
 weight: 8510
@@ -18,13 +18,13 @@ public interface IMathematicalText : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Thuộc tính định dạng văn bản |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Giá trị văn bản |
 
 ### Ví dụ
 
-Ví dụ:
+Example:
 
 ```csharp
 [C#]

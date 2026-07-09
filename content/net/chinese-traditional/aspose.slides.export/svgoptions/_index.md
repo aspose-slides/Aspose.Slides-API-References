@@ -1,6 +1,6 @@
 ---
 title: SVGOptions
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 SVG 選項。
 type: docs
 weight: 4430
@@ -25,34 +25,34 @@ public sealed class SVGOptions : SaveOptions, ISVGOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [Default](../../aspose.slides.export/svgoptions/default) { get; } | 返回預設設定。唯讀 [`SVGOptions`](../svgoptions)。 |
-| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | 返回最簡單且最小的 SVG 檔案產生設定。唯讀 [`SVGOptions`](../svgoptions)。 |
-| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | 返回最高精度的 SVG 檔案產生設定。唯讀 [`SVGOptions`](../svgoptions)。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或設定在未找到來源字型時使用的字型。可讀寫 String。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 布林旗標指示裁切的部分是否保留在文件中。若為 true，裁切的部分將被移除；若為 false，則會序列化至文件中（可能導致檔案變大）。 |
+| static [Default](../../aspose.slides.export/svgoptions/default) { get; } | 傳回預設設定。唯讀 [`SVGOptions`](../svgoptions)。 |
+| static [Simple](../../aspose.slides.export/svgoptions/simple) { get; } | 傳回最簡單且最小的 SVG 檔案產生設定。唯讀 [`SVGOptions`](../svgoptions)。 |
+| static [WYSIWYG](../../aspose.slides.export/svgoptions/wysiwyg) { get; } | 傳回最精確的 SVG 檔案產生設定。唯讀 [`SVGOptions`](../svgoptions)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 傳回或設定在找不到來源字型時使用的字型。可讀寫 String。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/svgoptions/deletepicturescroppedareas) { get; set; } | 布林旗標，指示裁切的部分是否仍保留為文件的一部份。若為 true，裁切的部分將被移除；若為 false，將在文件中序列化（可能導致檔案變大）。 |
 | [Disable3DText](../../aspose.slides.export/svgoptions/disable3dtext) { get; set; } | 決定是否在 SVG 中停用 3D 文字。可讀寫 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 取得或設定一個值，以指示文字是否在渲染時不使用連字。當設定為 `true` 時，連字將在輸出中被停用。預設情況下，此屬性設定為 `false`。 |
+| [DisableFontLigatures](../../aspose.slides.export/svgoptions/disablefontligatures) { get; set; } | 取得或設定是否在渲染時停用連字。設定為 `true` 時，渲染輸出中將停用連字。預設為 `false`。 |
 | [DisableGradientSplit](../../aspose.slides.export/svgoptions/disablegradientsplit) { get; set; } | 停用 FromCornerX 與 FromCenter 漸層的分割。可讀寫 Boolean。 |
-| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 無法為標記定義內縮。Aspose.Slides SVG 寫入引擎針對此問題提供變通方法：它會裁切帶有箭頭的線段末端，使線段不會與標記重疊。此選項可關閉此行為。可讀寫 Boolean。 |
+| [DisableLineEndCropping](../../aspose.slides.export/svgoptions/disablelineendcropping) { get; set; } | SVG 1.1 缺乏為標記定義內縮的能力。Aspose.Slides SVG 寫入引擎為此提供了解決方案：它會裁切帶箭頭的線段尾端，使線條不會與標記重疊。此選項可關閉此行為。可讀寫 Boolean。 |
 | [ExternalFontsHandling](../../aspose.slides.export/svgoptions/externalfontshandling) { get; set; } | 決定外部載入字型的處理方式。可讀寫 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 傳回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [InkOptions](../../aspose.slides.export/svgoptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/svgoptions/jpegquality) { get; set; } | 決定 JPEG 編碼品質。可讀寫 Int32。 |
-| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | 返回或設定圖形檔光柵化的最低解析度限制。可讀寫 Int32。 |
-| [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | 表示圖片的壓縮等級 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示以百分比儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | 返回與設定一個回呼介面，允許使用者控制形狀轉換。可讀寫 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過含有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 決定在渲染時是否執行形狀的指定旋轉。可讀寫 Boolean。預設值為 true。 |
+| [MetafileRasterizationDpi](../../aspose.slides.export/svgoptions/metafilerasterizationdpi) { get; set; } | 傳回或設定圖形檔案光柵化的最低解析度限制。可讀寫 Int32。 |
+| [PicturesCompression](../../aspose.slides.export/svgoptions/picturescompression) { get; set; } | 代表圖片壓縮等級。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表儲存進度更新的回呼物件（以百分比表示）。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ShapeFormattingController](../../aspose.slides.export/svgoptions/shapeformattingcontroller) { get; set; } | 傳回並設定允許使用者控制形狀轉換的回呼介面。可讀寫 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過帶有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [UseFrameRotation](../../aspose.slides.export/svgoptions/useframerotation) { get; set; } | 決定在渲染時是否對形狀執行指定的旋轉。可讀寫 Boolean。預設值為 true。 |
 | [UseFrameSize](../../aspose.slides.export/svgoptions/useframesize) { get; set; } | 決定文字框是否會包含在渲染區域中。可讀寫 Boolean。預設值為 false。 |
 | [VectorizeText](../../aspose.slides.export/svgoptions/vectorizetext) { get; set; } | 決定投影片上的文字是否會儲存為圖形。可讀寫 Boolean。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定一個接收警告並決定載入過程是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 傳回或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另請參閱
+### 相關參考
 
-* 類別 [SaveOptions](../saveoptions)
-* 介面 [ISVGOptions](../isvgoptions)
-* 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
-* 組件 [Aspose.Slides](../../)
+* class [SaveOptions](../saveoptions)
+* interface [ISVGOptions](../isvgoptions)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

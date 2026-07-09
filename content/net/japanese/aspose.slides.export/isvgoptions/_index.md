@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes 用 .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: SVG オプションを表します。
 type: docs
-weight: 4040
+weight: 4060
 url: /ja/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions インターフェイス
 
-Represents an SVG options.
+SVG オプションを表します。
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,23 +18,23 @@ public interface ISVGOptions : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。 読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | 切り取られた部分がドキュメントの一部として残るかどうかを示すブールフラグです。 true の場合は切り取られた部分が削除され、false の場合はドキュメント内にシリアライズされます（これによりファイルが大きくなる可能性があります）。 読み書き可能 Boolean。 |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | SVG で 3D テキストが無効化されているかどうかを決定します。 読み書き可能 Boolean。 |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | テキストが合字を使用せずに描画されるかどうかを示す値を取得または設定します。 `true` に設定すると、合字は描画出力で無効化されます。デフォルトではこのプロパティは `false` に設定されています。 |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | FromCornerX と FromCenter のグラデーションの分割を無効にします。 読み書き可能 Boolean。 |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 ではマーカーのインセットを定義する機能がありません。Aspose.Slides の SVG 書き込みエンジンはこの問題への回避策として、矢印付きの線の端を切り取ることで線がマーカーと重ならないようにします。このオプションはその動作をオフにします。 読み書き可能 Boolean。 |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | 外部から読み込まれたフォントの取り扱い方法を決定します。 読み書き可能 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。 読み取り専用 [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | JPEG エンコード品質を決定します。 読み書き可能 Int32。 |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | メタファイルのラスタライズにおける最小解像度の上限を取得または設定します。 読み書き可能 Int32。 |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します。 読み書き可能 [`PicturesCompression`](./picturescompression)。 |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | ユーザーがシェイプの変換を制御できるコールバックインターフェイスを取得および設定します。 読み書き可能 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | レンダリング時にシェイプの指定された回転を実行するかどうかを決定します。 読み書き可能 Boolean。 デフォルト値は true です。 |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | テキストフレームをレンダリング領域に含めるかどうかを決定します。 読み書き可能 Boolean。 デフォルト値は false です。 |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | スライド上のテキストを画像として保存するかどうかを決定します。 読み書き可能 Boolean。 |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | クロップされた部分がドキュメントの一部として残るかどうかを示すブールフラグです。true の場合、クロップされた部分は削除され、false の場合はドキュメントにシリアライズされます（これによりファイルが大きくなる可能性があります）。読み書き可能 Boolean。 |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | SVG で 3D テキストが無効化されているかどうかを決定します。読み書き可能 Boolean。 |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | テキストがリガチャを使用せずに描画されるかどうかを示す値を取得または設定します。`true` に設定すると、描画出力でリガチャが無効化されます。既定では、このプロパティは `false` に設定されています。 |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | FromCornerX および FromCenter グラデーションの分割を無効にします。読み書き可能 Boolean。 |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 ではマーカーのインセットを定義する機能がありません。Aspose.Slides の SVG 書き込みエンジンはこの問題に対処するため、矢印付きの線の端をクロップし、線がマーカーと重ならないようにします。このオプションはその動作をオフにします。読み書き可能 Boolean。 |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | 外部でロードされたフォントの処理方法を決定します。読み書き可能 [`SvgExternalFontsHandling`](../svgexternalfontshandling)。 |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | JPEG エンコード品質を決定します。読み書き可能 Int32。 |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | メタファイルのラスター化に対する最小解像度の制限を取得または設定します。読み書き可能 Int32。 |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | 画像の圧縮レベルを表します。読み書き可能 [`PicturesCompression`](./picturescompression)。 |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | ユーザーがシェイプ変換を制御できるコールバックインターフェイスを取得および設定します。読み書き可能 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller)。 |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | レンダリング時にシェイプの指定された回転を実行するかどうかを決定します。読み書き可能 Boolean。デフォルト値は true です。 |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | テキストフレームをレンダリング領域に含めるかどうかを決定します。読み書き可能 Boolean。デフォルト値は false です。 |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | スライド上のテキストをグラフィックとして保存するかどうかを決定します。読み書き可能 Boolean。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ISaveOptions](../isaveoptions)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

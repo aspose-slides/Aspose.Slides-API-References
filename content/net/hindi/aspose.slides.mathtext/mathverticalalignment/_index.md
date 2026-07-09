@@ -1,12 +1,12 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: ऊर्ध्वाधर संरेखण
 type: docs
 weight: 9050
 url: /hi/aspose.slides.mathtext/mathverticalalignment/
 ---
-## MathVerticalAlignment एन्युमरेशन
+## MathVerticalAlignment एन्यूमरेशन
 
 ऊर्ध्वाधर संरेखण
 
@@ -19,11 +19,11 @@ public enum MathVerticalAlignment
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `0` | मान परिभाषित नहीं है |
-| Top | `1` | ऊपर |
-| Center | `2` | मध्य |
-| Bottom | `3` | नीचे |
+| Top | `1` | Top |
+| Center | `2` | Center |
+| Bottom | `3` | Bottom |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

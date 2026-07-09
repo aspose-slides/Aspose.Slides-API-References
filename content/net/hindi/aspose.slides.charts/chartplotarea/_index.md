@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट को प्लॉट करने के लिए आयताकार क्षेत्र को दर्शाता है।
+description: चार्ट को प्लॉट करने के लिए जहाँ आयत होना चाहिए, उसे दर्शाता है।
 type: docs
 weight: 1420
 url: /hi/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea क्लास
 
-चार्ट को प्लॉट करने के लिए आयताकार क्षेत्र को दर्शाता है।
+वह आयत दर्शाता है जहाँ चार्ट को प्लॉट किया जाना चाहिए।
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -20,25 +20,25 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 | --- | --- |
 | [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
 | [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | चार्ट के बाएं-ऊपरी कोने के सापेक्ष चार्ट तत्व की वास्तविक x स्थिति (बाएँ) निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | चार्ट के बाएं-ऊपरी कोने के सापेक्ष चार्ट तत्व का वास्तविक शीर्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | निचला। केवल पढ़ने योग्य Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. केवल पढ़ने योग्य [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | प्लॉट एरिया का फॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की ऊँचाई को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता या सेट करता है। पढ़ने-लिखने योग्य Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | स्थान की गणना कैसे की जाए, यह निर्धारित करता है: true – स्वचालित रूप से गणना; X, Y, Width, Height गुणों द्वारा परिभाषित। केवल पढ़ने योग्य Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | यदि प्लॉट एरिया का लेआउट मैन्युअली परिभाषित किया गया है, तो यह गुण यह निर्दिष्ट करता है कि लेआउट अंदर (अक्ष और लेबल को छोड़कर) या बाहर (अक्ष और लेबल सहित) किया जाए। पढ़ने-लिखने योग्य [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | दायाँ। केवल पढ़ने योग्य Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की चौड़ाई को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता या सेट करता है। पढ़ने-लिखने योग्य Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपरी बाएँ कोने के x निर्देशांक को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता या सेट करता है। पढ़ने-लिखने योग्य Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपरी बाएँ कोने के y निर्देशांक को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता या सेट करता है। पढ़ने-लिखने योग्य Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | चार्ट तत्व का वास्तविक x स्थान (बाईं ओर) चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | चार्ट तत्व का वास्तविक शीर्ष चार्ट के बाएँ ऊपर कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। Read Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | नीचे। Read-only Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | चार्ट। Read-only [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | प्लॉट एरिया का फ़ॉर्मेट लौटाता है। Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की ऊँचाई को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | यह निर्धारित करता है कि स्थान कैसे गणना किया जाना चाहिए: true – स्वचालित रूप से गणना किया गया; X, Y, Width, Height प्रॉपर्टीज़ द्वारा परिभाषित। Read-only Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | यदि प्लॉट एरिया का लेआउट मैन्युअल रूप से परिभाषित किया गया है तो यह प्रॉपर्टी निर्धारित करती है कि प्लॉट एरिया को उसके अंदर (धुरी और धुरी लेबल शामिल नहीं) या बाहर (धुरी और धुरी लेबल सहित) लेआउट किया जाए। Read/write [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | दाईं ओर। Read-only Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स की चौड़ाई को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपर बाएँ कोने के x निर्देशांक को चार्ट की चौड़ाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | प्लॉट एरिया बाउंडिंग बॉक्स के ऊपर बाएँ कोने के y निर्देशांक को चार्ट की ऊँचाई के अनुपात (0 से 1) के रूप में लौटाता है या सेट करता है। Read/write Single. |
 
-### देखें
+### देखें भी
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [Chart](../chart)
 * इंटरफ़ेस [IChartPlotArea](../ichartplotarea)
-* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

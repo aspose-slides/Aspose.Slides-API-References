@@ -1,14 +1,14 @@
 ---
 title: TagCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la collezione di tag, coppie di stringhe definite dall'utente
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta la raccolta di tag, coppie di stringhe definite dall'utente
 type: docs
-weight: 10870
+weight: 10890
 url: /it/aspose.slides/tagcollection/
 ---
 ## TagCollection classe
 
-Rappresenta la collezione di tag (coppie di stringhe definite dall'utente)
+Rappresenta la raccolta di tag (coppie di stringhe definite dall'utente)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -18,25 +18,25 @@ public sealed class TagCollection : ITagCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Restituisce il numero di tag nella raccolta. Sola lettura Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Restituisce il numero di tag nella raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Restituisce o imposta una coppia chiave e valore di un tag. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Sola lettura Object. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | Aggiunge un nuovo tag alla collezione. |
-| [Clear](../../aspose.slides/tagcollection/clear)() | Rimuove tutti i tag dalla collezione. |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Determina se la collezione contiene un nome specifico. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Copia tutti gli elementi della collezione nell'array specificato. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | Aggiunge un nuovo tag alla raccolta. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Rimuove tutti i tag dalla raccolta. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Determina se la raccolta contiene un nome specifico. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Restituisce la chiave di un tag all'indice specificato. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Restituisce i nomi dei tag. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Restituisce il valore di un tag all'indice specificato. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Restituisce l'indice basato su zero della chiave specificata nella collezione. |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | Rimuove il tag con un nome specificato dalla collezione. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Restituisce l'indice basato su zero della chiave specificata nella raccolta. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Rimuove il tag con il nome specificato dalla raccolta. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Rimuove il tag all'indice specificato. |
 
 ### Esempi

@@ -8,7 +8,7 @@ url: /th/aspose.slides.charts/icharttitle/
 ---
 ## IChartTitle อินเทอร์เฟซ
 
-แสดงคุณสมบัติเหนาเรื่องของแผนภูมิ
+แสดงคุณสมบัติของหัวเรื่องแผนภูมิ.
 
 ```csharp
 public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
@@ -18,10 +18,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ILayoutable พื้นฐาน. อ่านเท่านั้น [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IOverridableText พื้นฐาน. อ่านเท่านั้น [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | ส่งคืนสไตล์การเติม, เส้น, เอฟเฟกต์ ของหัวเรื่อง. อ่านเท่านั้น [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | กำหนดว่าจะให้ส่วนอื่นของแผนภูมิทับหัวเรื่องได้หรือไม่. อ่าน/เขียน Boolean. |
+| [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ILayoutable พื้นฐานได้. อ่านอย่างเดียว [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IOverridableText พื้นฐานได้. อ่านอย่างเดียว [`IOverridableText`](../ioverridabletext). |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | คืนค่าสไตล์การเติม, เส้น, และเอฟเฟกต์ของหัวเรื่อง. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | กำหนดว่าตัวอื่นของแผนภูมิควรอนุญาตให้ทับหัวเรื่องหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

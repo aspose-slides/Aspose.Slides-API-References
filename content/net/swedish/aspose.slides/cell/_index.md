@@ -3,10 +3,10 @@ title: Cell
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en cell i en tabell.
 type: docs
-weight: 1110
+weight: 1130
 url: /sv/aspose.slides/cell/
 ---
-## Cell-klass
+## Cell klass
 
 Representerar en cell i en tabell.
 
@@ -16,43 +16,43 @@ public class Cell : ICell
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Bestämmer om textrutan är centrerad i cellen eller inte. Läs/skriv Boolean. |
-| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Returnerar CellFormat-objektet som innehåller formateringsegenskaper för denna cell. Skrivskyddad [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Returnerar antalet rutnätkolumner i den överordnade tabellens rutnät som den aktuella cellen ska spänna över. Denna egenskap gör att celler kan se ut som om de är sammanslagna, eftersom de spänner över vertikala gränser för andra celler i tabellen. Skrivskyddad Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Hämtar den första kolumnen i cellen. Skrivskyddad [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Returnerar indexet för den första kolumnen som täcks av cellen. Skrivskyddad Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Hämtar den första raden i cellen. Skrivskyddad [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Returnerar indexet för den första raden som täcks av cellen. Skrivskyddad Int32. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Avgör om textrutan är centrerad i en cell eller inte. Läs/skriv Boolean. |
+| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Returnerar CellFormat-objektet som innehåller formaterings-egenskaper för den här cellen. Skrivskyddad [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Returnerar antalet rutnät-kolumner i föräldertabellens tabellrutnät som den aktuella cellen ska spänna över. Denna egenskap gör att celler kan se sammanslagna ut, eftersom de spänner över vertikala gränser för andra celler i tabellen. Skrivskyddad Int32. |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Hämtar första kolumnen i cellen. Skrivskyddad [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Returnerar ett index för den första kolumnen som cellen täcker. Skrivskyddad Int32. |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Hämtar första raden i cellen. Skrivskyddad [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Returnerar ett index för den första raden som cellen täcker. Skrivskyddad Int32. |
 | [Height](../../aspose.slides/cell/height) { get; } | Returnerar cellens höjd. Skrivskyddad Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Returnerar true om cellen är sammanslagen med någon annan justerad cell, annars false. Skrivskyddad Boolean. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Returnerar true om cellen är sammanslagen med någon justerad cell, annars false. Skrivskyddad Boolean. |
 | [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Returnerar eller anger det nedre marginalvärdet i en TextFrame. Läs/skriv Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Returnerar eller anger det vänstra marginalvärdet i en TextFrame. Läs/skriv Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Returnerar eller anger det högra marginalvärdet i en TextFrame. Läs/skriv Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Returnerar eller anger det övre marginalvärdet i en TextFrame. Läs/skriv Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Returnerar den minsta höjden för en cell. Detta är summan av minimihöjderna för alla rader som täcks av cellen. Skrivskyddad Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Returnerar avståndet från tabellens vänstra sida till cellens vänstra sida. Skrivskyddad Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Returnerar avståndet från tabellens övre sida till cellens övre sida. Skrivskyddad Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Returnerar eller anger den vänstra marginalen i en TextFrame. Läs/skriv Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Returnerar eller anger den högra marginalen i en TextFrame. Läs/skriv Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Returnerar eller anger den övre marginalen i en TextFrame. Läs/skriv Double. |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Returnerar cellens minsta höjd. Detta är summan av minimihöjderna för alla rader som cellen täcker. Skrivskyddad Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Returnerar avståndet från vänstra sidan av en tabell till vänstra sidan av en cell. Skrivskyddad Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Returnerar avståndet från övre sidan av en tabell till övre sidan av en cell. Skrivskyddad Double. |
 | [Presentation](../../aspose.slides/cell/presentation) { get; } | Returnerar den överordnade presentationen för en cell. Skrivskyddad [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Returnerar antalet rader som en sammanslagen cell spänner över. Detta används i kombination med vMerge-attributet på andra celler för att specificera startcellen för en horisontell sammanslagning. Skrivskyddad Int32. |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Returnerar antalet rader som en sammanslagen cell spänner över. Detta används i kombination med vMerge-attributet på andra celler för att ange startcellen för en horisontell sammanslagning. Skrivskyddad Int32. |
 | [Slide](../../aspose.slides/cell/slide) { get; } | Returnerar den överordnade bilden för en cell. Skrivskyddad [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | Returnerar det överordnade Table-objektet för en cell. Skrivskyddad [`ITable`](../itable). |
+| [Table](../../aspose.slides/cell/table) { get; } | Returnerar den överordnade Table-objektet för en cell. Skrivskyddad [`ITable`](../itable). |
 | [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Returnerar eller anger textankringstypen. Läs/skriv [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Returnerar textramen för en cell. Skrivskyddad [`ITextFrame`](../itextframe). |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Returnerar text-ramen för en cell. Skrivskyddad [`ITextFrame`](../itextframe). |
 | [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Returnerar eller anger typen av vertikal text. Läs/skriv [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/cell/width) { get; } | Returnerar cellens bredd. Skrivskyddad Double. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Delar cellen i två celler efter kolumnindex. |
 | [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Delar cellen efter höjd. |
 | [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Delar cellen i två celler efter radindex. |
 | [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Delar cellen efter bredd. |
 
-### Se även
+### Se också
 
 * gränssnitt [ICell](../icell)
 * namnrymd [Aspose.Slides](../../aspose.slides)

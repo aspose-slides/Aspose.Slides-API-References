@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | 이름 | 설명 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 위 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 위 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 전용 Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | 하단. 읽기 전용 Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | 차트. 읽기 전용 [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | 플롯 영역의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | 플롯 영역 경계 상자의 높이를 차트 높이에 대한 비율(0~1)로 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | 위치 계산 방식을 정의합니다: true – 자동으로 계산됨; X, Y, Width, Height 속성으로 정의됩니다. 읽기 전용 Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | 플롯 영역 레이아웃이 수동으로 정의된 경우 이 속성은 축 및 축 레이블을 포함하지 않는 내부 기준으로 플롯 영역을 레이아웃할지, 축 및 축 레이블을 포함하는 외부 기준으로 레이아웃할지를 지정합니다. 읽기/쓰기 [`LayoutTargetType`](./layouttargettype). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | 차트 높이의 비율(0~1)로 플롯 영역 경계 상자의 높이를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | 위치 계산 방식을 정의합니다: true – 자동 계산; X, Y, Width, Height 속성으로 정의됩니다. 읽기 전용 Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | 플롯 영역 레이아웃이 수동으로 정의된 경우, 이 속성은 플롯 영역을 내부(축 및 축 레이블 제외) 또는 외부(축 및 축 레이블 포함) 기준으로 레이아웃할지 지정합니다. 읽기/쓰기 [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | 오른쪽. 읽기 전용 Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | 플롯 영역 경계 상자의 너비를 차트 너비에 대한 비율(0~1)로 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | 플롯 영역 경계 상자의 왼쪽 위 모서리의 x 좌표를 차트 너비에 대한 비율(0~1)로 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | 플롯 영역 경계 상자의 왼쪽 위 모서리의 y 좌표를 차트 높이에 대한 비율(0~1)로 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | 차트 너비의 비율(0~1)로 플롯 영역 경계 상자의 너비를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | 차트 너비의 비율(0~1)로 플롯 영역 경계 상자의 왼쪽 위 모서리 x 좌표를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | 차트 높이의 비율(0~1)로 플롯 영역 경계 상자의 왼쪽 위 모서리 y 좌표를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
 ### 참고
 

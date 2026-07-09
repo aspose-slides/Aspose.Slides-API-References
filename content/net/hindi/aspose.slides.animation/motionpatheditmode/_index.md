@@ -1,20 +1,20 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: निर्दिष्ट करता है कि लक्ष्य आकार को ले जाने पर मोशन पाथ कैसे चलता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: निर्देशित करता है कि लक्ष्य आकृति को ले जाने पर मोशन पाथ कैसे चलता है
 type: docs
 weight: 700
 url: /hi/aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode एन्यूमरेशन
 
-निर्दिष्ट करता है कि लक्ष्य आकार को ले जाने पर मोशन पाथ कैसे चलता है
+निर्देशित करता है कि लक्ष्य आकृति को ले जाने पर मोशन पाथ कैसे चलता है
 
 ```csharp
 public enum MotionPathEditMode
 ```
 
-### मूल्य
+### मान
 
 | नाम | मान | विवरण |
 | --- | --- | --- |

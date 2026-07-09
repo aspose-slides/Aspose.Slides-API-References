@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางด้านข้าง
+description: เอฟเฟ็กต์การเปลี่ยนสไลด์ตามทิศทางด้าน
 type: docs
 weight: 10190
 url: /th/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์ในแนวด้านข้าง
+เอฟเฟ็กต์การเปลี่ยนสไลด์ตามทิศทางด้าน
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ISideDirectionTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยน. อ่าน/เขียน [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### ดูเพิ่มเติม
 

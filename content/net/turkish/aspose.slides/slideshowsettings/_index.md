@@ -3,10 +3,10 @@ title: SlideShowSettings
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum için slayt gösterisi ayarlarını temsil eder.
 type: docs
-weight: 10460
+weight: 10480
 url: /tr/aspose.slides/slideshowsettings/
 ---
-## SlideShowSettings sınıfı
+## SlideShowSettings sınıf
 
 Sunum için slayt gösterisi ayarlarını temsil eder.
 
@@ -24,7 +24,7 @@ public class SlideShowSettings
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | Medya Kontrollerini Göster |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | Slayt Gösterisinde Anlatımı Göster |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | Slayt aralığı |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Slayt gösterisi türünü alır veya ayarlar. Aşağıdaki [`SlideShowType`](./slideshowtype) atasından oluşur: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) ve [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | Slayt gösterisi türünü alır veya ayarlar. Aşağıdaki [`SlideShowType`](./slideshowtype) atalar tarafından temsil edilir: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) ve [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | Slayt Gösterisinde Zamanlamaları Kullan |
 
 ### Ayrıca Bakınız

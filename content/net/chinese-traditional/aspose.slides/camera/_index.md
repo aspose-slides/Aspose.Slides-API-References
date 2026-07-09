@@ -1,14 +1,14 @@
 ---
 title: Camera
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表 Camera。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示 Camera。
 type: docs
 weight: 1090
 url: /zh-hant/aspose.slides/camera/
 ---
 ## Camera 類別
 
-代表 Camera。
+表示 Camera。
 
 ```csharp
 public sealed class Camera : PVIObject, ICamera
@@ -16,21 +16,21 @@ public sealed class Camera : PVIObject, ICamera
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Camera 類型。可讀寫 [`CameraPresetType`](../camerapresettype)。 |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera FOV（0-180 度，視野）。可讀寫 Single。 |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera zoom（正值，以百分比表示）。可讀寫 Single。 |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | 相機類型。可讀寫 [`CameraPresetType`](../camerapresettype)。 |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | 相機 FOV（0-180 度，視野範圍）。可讀寫 Single。 |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | 相機縮放（以百分比表示的正值）。可讀寫 Single。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的 object 比較。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回雜湊碼。 |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | 旋轉是透過使用緯度座標、經度座標，以及繞該軸的旋轉來定義的。返回陣列的第一個元素 - 緯度，第二個 - 經度，第三個 - 旋轉。如果未定義旋轉，返回 null。 |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 旋轉是透過使用緯度座標、經度座標，以及繞該軸的旋轉來定義的。如果任一座標值為 float.NaN，則所有旋轉皆未定義。 |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | 透過使用緯度坐標、經度坐標以及繞軸的旋轉來定義旋轉。返回陣列的第一個元素為緯度，第二個為經度，第三個為旋轉。如果未定義旋轉，返回 null。 |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | 透過使用緯度坐標、經度坐標以及繞軸的旋轉來定義旋轉。如果任一坐標值為 float.NaN，則所有旋轉皆未定義。 |
 
 ### 另請參閱
 

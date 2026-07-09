@@ -1,28 +1,28 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Office Open XML ファイル形式が破損している場合にスローされる例外です。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Office Open XML ファイル形式が破損しているときにスローされる例外です。
 type: docs
-weight: 9170
+weight: 9190
 url: /ja/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException クラス
 
-Office Open XML ファイル形式が破損している場合にスローされる例外です。
+Office Open XML ファイル形式が破損しているときにスローされる例外です。
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | デフォルトコンストラクタ。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | デフォルトコンストラクターです。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクターです。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクターです。 |
 
-### 参照
+### 関連項目
 
 * クラス [OOXMLException](../ooxmlexception)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

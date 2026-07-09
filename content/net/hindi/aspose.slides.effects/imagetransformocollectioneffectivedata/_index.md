@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म प्रभावों के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करता है।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म इफ़ेक्ट्स के readonly संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 3560
 url: /hi/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData क्लास
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म प्रभावों के केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करता है।
+एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी इमेज ट्रांसफ़ॉर्म इफ़ेक्ट्स के readonly कलेक्शन का प्रतिनिधित्व करता है।
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
@@ -24,25 +24,25 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | संग्रह में इमेज इफ़ेक्ट्स की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | बताता है कि क्या संग्रह तक पहुंच समन्वित (थ्रेड-सेफ़) है। केवल-पढ़ने योग्य Boolean। |
-| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | सूचकांक द्वारा तत्व लौटाता है। |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | समन्वयन मूल लौटाता है। केवल-पढ़ने योग्य Object। |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | कलेक्शन में इमेज इफ़ेक्ट्स की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | बताता है कि कलेक्शन तक पहुँच synchronized (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | इंडेक्स द्वारा तत्व लौटाता है। |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | एक synchronization root लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | निर्धारित करता है कि क्या निर्दिष्ट ऑब्जेक्ट वर्तमान ऑब्जेक्ट के बराबर है। |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटरर करता है। |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | कलेक्शन से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | निर्धारित करता है कि निर्दिष्ट ऑब्जेक्ट वर्तमान ऑब्जेक्ट के बराबर है या नहीं। |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | एक enumerator लौटाता है जो कलेक्शन के माध्यम से इटररेट करता है। |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | एक विशिष्ट प्रकार के लिए hash फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और hash table जैसे डेटा स्ट्रक्चर में उपयोग के लिए उपयुक्त है। |
 
-### टिप्पणी
+### टिप्पणियां
 
 नाम IImageTransformOperationCollectionEffectiveData को IImageTransformOCollectionEffectiveData में छोटा किया गया क्योंकि COM नामों की लंबाई 39 से अधिक नहीं हो सकती।
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

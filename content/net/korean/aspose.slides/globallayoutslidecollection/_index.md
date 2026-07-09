@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 개별 마스터 레이아웃 슬라이드 컬렉션을 결합하는 컨텍스트에서 레이아웃 슬라이드를 추가/복제하는 메서드를 포함하는 LayoutSlideCollection 클래스를 확장합니다.
+description: 프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. LayoutSlideCollection 클래스를 확장하여 마스터 레이아웃 슬라이드의 개별 컬렉션을 통합하는 컨텍스트에서 레이아웃 슬라이드를 추가/복제하는 메서드를 제공합니다.
 type: docs
 weight: 4980
 url: /ko/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection 클래스
 
-프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. 개별 마스터 레이아웃 슬라이드 컬렉션을 결합하는 컨텍스트에서 레이아웃 슬라이드를 추가/복제하는 메서드를 포함하는 LayoutSlideCollection 클래스를 확장합니다.
+프레젠테이션의 모든 레이아웃 슬라이드 컬렉션을 나타냅니다. LayoutSlideCollection 클래스를 확장하여 마스터 레이아웃 슬라이드의 개별 컬렉션을 통합하는 컨텍스트에서 레이아웃 슬라이드를 추가/클론하는 메서드를 제공합니다.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -17,7 +17,7 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | 컬렉션에 포함된 레이아웃 슬라이드 수를 반환합니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
@@ -26,14 +26,14 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | 새 레이아웃 슬라이드를 프레젠테이션에 추가합니다. |
+| [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | 프레젠테이션에 새 레이아웃 슬라이드를 추가합니다. |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | 지정된 레이아웃 슬라이드의 복사본을 프레젠테이션에 추가합니다. |
 | [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | 지정된 레이아웃 슬라이드의 복사본을 프레젠테이션에 추가합니다. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 지정된 유형의 첫 번째 레이아웃 슬라이드를 반환합니다. 찾을 레이아웃 슬라이드 유형.[`LayoutSlide`](../layoutslide) 지정된 유형과 일치하는 레이아웃이 없으면 null을 반환합니다. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | 지정된 유형의 첫 번째 레이아웃 슬라이드를 반환합니다. 찾을 레이아웃 슬라이드 유형입니다. [`LayoutSlide`](../layoutslide) 지정된 유형과 함께 반환하거나 레이아웃이 없을 경우 null을 반환합니다. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | 컬렉션에서 레이아웃을 제거합니다. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | 사용되지 않는 레이아웃 슬라이드(HasDependingSlides가 false인 레이아웃 슬라이드)를 제거합니다. |
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Kontener poziomów punktów danych. Stosowany w seriach Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerowo-indeksowane.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Kontener poziomów punktów danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych rozpoczyna się od zera.
 type: docs
-weight: 1830
+weight: 1850
 url: /pl/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager interfejs
 
-Kontener poziomów punktów danych. Stosowany dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych jest zerowo-indeksowane.
+Kontener poziomów punktów danych. Stosowane dla serii Treeamp i Sunburst. Indeksowanie poziomów punktów danych rozpoczyna się od zera.
 
 ```csharp
 public interface IChartDataPointLevelsManager

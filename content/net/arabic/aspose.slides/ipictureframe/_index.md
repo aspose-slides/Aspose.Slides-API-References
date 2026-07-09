@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل إطارًا يحتوي على صورة داخلية.
+description: يمثل إطارًا يحتوي على صورة بداخله.
 type: docs
 weight: 6670
 url: /ar/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame واجهة
 
-يمثل إطارًا يحتوي على صورة داخلية.
+يمثل إطارًا يحتوي على صورة بداخله.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,14 +18,14 @@ public interface IPictureFrame : IGeometryShape
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | السماح بالحصول على واجهة IGeometryShape الأساسية. قراءة فقط [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | إرجاع كائن PictureFillFormat لإطار الصورة. قراءة فقط [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | إرجاع أقفال PictureFrame. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | إرجاع أو تعيين مقياس الارتفاع (نسبة إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تماثل 100٪. قراءة/كتابة Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | إرجاع أو تعيين مقياس العرض (نسبة إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تماثل 100٪. قراءة/كتابة Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | إرجاع أقفال الشكل. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | يسمح بالحصول على واجهة IGeometryShape الأساسية. قراءة فقط [`IGeometryShape`](../igeometryshape). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | يعيد كائن PictureFillFormat لإطار الصورة. قراءة فقط [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | يعيد أقفال PictureFrame. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | يعيد أو يضبط مقياس الارتفاع (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تعادل 100٪. قراءة/كتابة Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | يعيد أو يضبط مقياس العرض (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تعادل 100٪. قراءة/كتابة Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | يعيد أقفال الشكل. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
 
-### انظر أيضًا
+### راجع أيضًا
 
 * واجهة [IGeometryShape](../igeometryshape)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

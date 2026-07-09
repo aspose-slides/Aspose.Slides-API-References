@@ -1,20 +1,20 @@
 ---
 title: XamlOptions
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: الخيارات التي تتحكم في طريقة حفظ مستند XAML.
+description: الخيارات التي تتحكم في كيفية حفظ مستند XAML.
 type: docs
 weight: 4720
 url: /ar/aspose.slides.export.xaml/xamloptions/
 ---
-## فئة XamlOptions
+## XamlOptions الفئة
 
-الخيارات التي تتحكم في طريقة حفظ مستند XAML.
+الخيارات التي تتحكم في كيفية حفظ مستند XAML.
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
@@ -24,13 +24,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يعيد أو يضبط الخط المستخدم في حال عدم العثور على الخط الأصلي. قراءة/كتابة String. |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | يحدد ما إذا كانت الشرائح المخفية سيتم تصديرها. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يعيد أو يضبط النمط البصري للتدرج. قراءة/كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | يمثل تنفيذًا لواجهة IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن استدعاء رد للمتابعة لحفظ تحديثات التقدم بالنسبة المئوية. راجع [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية التي تحتوي على نداءات JavaScript عند حفظ العرض التقديمي. قراءة/كتابة Boolean. القيمة الافتراضية هي **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يعيد أو يضبط كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو سيتم إلغاؤها. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يُرجع أو يعيّن الخط المستخدم في حالة عدم العثور على الخط المصدر. قابل للقراءة والكتابة String. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | يحدِّد ما إذا كان سيتم تصدير الشرائح المخفية. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يُرجع أو يعيّن النمط البصري للتدرج. قابل للقراءة والكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | يُمثل تنفيذًا لواجهة IOutputSaver. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يُمثل كائن استدعاء للعودة لتحديثات تقدم الحفظ بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدِّد ما إذا كان يجب تخطي الروابط التشعبية التي تستدعي JavaScript عند حفظ العرض التقديمي. قابل للقراءة والكتابة Boolean. القيمة الافتراضية هي **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يُرجع أو يُعيّن كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو تُوقف. قابل للقراءة والكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### أمثلة
 
@@ -42,10 +42,10 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### انظر أيضا
+### انظر أيضًا
 
-* فئة [SaveOptions](../../aspose.slides.export/saveoptions)
-* واجهة [IXamlOptions](../ixamloptions)
+* الفئة [SaveOptions](../../aspose.slides.export/saveoptions)
+* الواجهة [IXamlOptions](../ixamloptions)
 * مساحة الاسم [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * التجميع [Aspose.Slides](../../)
 

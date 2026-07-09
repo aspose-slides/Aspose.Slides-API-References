@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Preset Shadow प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक Preset Shadow इफ़ेक्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 3630
 url: /hi/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow क्लास
 
-Represents a Preset Shadow effect.
+Preset Shadow इफ़ेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -18,18 +18,18 @@ public sealed class PresetShadow : IPresetShadow
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Shadow की दिशा। Read/write Single. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Shadow की दूरी। Read/write Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | पूर्वनिर्धारित। Read/write [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Shadow का रंग। Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | छाया की दिशा. पढ़ने/लिखने योग्य Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | छाया की दूरी. पढ़ने/लिखने योग्य Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | पूर्वनिर्धारित. पढ़ने/लिखने योग्य [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | छाया का रंग. केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`PresetShadow`](../presetshadow) वर्तमान [`PresetShadow`](../presetshadow) के बराबर है। |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | विरासत लागू करके प्रभावी Preset Shadow प्रभाव डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`PresetShadow`](../presetshadow) वर्तमान [`PresetShadow`](../presetshadow) के बराबर है या नहीं। |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | विरासत लागू होने के साथ प्रभावी Preset Shadow प्रभाव डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें
 

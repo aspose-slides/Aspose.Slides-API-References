@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.ai/openaicompatiblewebclient/
 ---
 ## OpenAICompatibleWebClient 類別
 
-一個內建的 [`IAIWebClient`](../iaiwebclient) 實作，可連接到指定基礎 URL 的 OpenAI 相容 LLM 提供者。
+內建的 [`IAIWebClient`](../iaiwebclient) 實作，可連接至指定基礎 URL 的 OpenAI 相容 LLM 提供者。
 
 ```csharp
 public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
@@ -18,16 +18,16 @@ public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
 
 | 名稱 | 說明 |
 | --- | --- |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | 建立 OpenAI 相容網路用戶端的實例。 |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | 建立使用外部管理的 `HttpClient` 之 OpenAI 相容網路用戶端的實例。提供的 HttpClient 不會在此實例中被釋放，仍由呼叫方擁有。 |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | 建立 OpenAI 相容 Web 客戶端實例。 |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | 建立使用外部管理的 HttpClient 的 OpenAI 相容 Web 客戶端實例。此實例不會處置提供的 HttpClient，且其所有權仍由呼叫端保有。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | 使用外部管理的 `HttpClient` 實例向 AI 模型傳送聊天指令，並回傳該指令的回應訊息。 |
-| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | 建立會話實例。與一般的 AI 呼叫不同，會話會保留完整的上下文。 |
-| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | 釋放此實例所使用的資源。 |
+| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | 使用外部管理的 `HttpClient` 實例向 AI 模型發送聊天指令，並回傳對該指令的回應訊息。 |
+| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | 建立對話實例。與一般 AI 呼叫不同，對話會保留完整的上下文。 |
+| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | 釋放此實例使用的資源。 |
 
 ### 另請參閱
 

@@ -1,9 +1,9 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa o texto extraído do slide
 type: docs
-weight: 7080
+weight: 7100
 url: /pt/aspose.slides/islidetext/
 ---
 ## ISlideText interface
@@ -19,12 +19,12 @@ public interface ISlideText
 | Nome | Descrição |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | O texto dos comentários do slide |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | O texto das formas da página de layout para este slide |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | O texto das formas da página mestre para este slide |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | O texto das formas da página de notas para este slide |
-| [Text](../../aspose.slides/islidetext/text) { get; } | O texto das formas do slide |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | O texto nas formas da página de layout para este slide |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | O texto nas formas da página mestre para este slide |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | O texto nas formas da página de notas para este slide |
+| [Text](../../aspose.slides/islidetext/text) { get; } | O texto nas formas do slide |
 
-### Ver também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

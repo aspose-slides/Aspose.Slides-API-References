@@ -1,6 +1,6 @@
 ---
 title: IColorScheme
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테마에서 정의된 색상을 저장합니다.
 type: docs
 weight: 11150
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme 인터페이스
 
-테마 정의 색상을 저장합니다.
+테마에서 정의된 색상을 저장합니다.
 
 ```csharp
 public interface IColorScheme : ISlideComponent
@@ -33,7 +33,7 @@ public interface IColorScheme : ISlideComponent
 | [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | 스킴의 첫 번째 밝은 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | 스킴의 두 번째 밝은 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

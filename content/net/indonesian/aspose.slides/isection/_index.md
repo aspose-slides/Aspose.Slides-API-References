@@ -1,9 +1,9 @@
 ---
 title: ISection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili bagian slide.
 type: docs
-weight: 6870
+weight: 6890
 url: /id/aspose.slides/isection/
 ---
 ## ISection antarmuka
@@ -19,7 +19,7 @@ public interface ISection
 | Nama | Deskripsi |
 | --- | --- |
 | [Name](../../aspose.slides/isection/name) { get; set; } | Nama bagian. |
-| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Id bagian. |
+| [SectionId](../../aspose.slides/isection/sectionid) { get; } | Id Bagian. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | Mengembalikan slide pertama dari bagian. |
 
 ## Metode

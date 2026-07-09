@@ -1,7 +1,7 @@
 ---
 title: IPlaceholder
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक स्लाइड पर प्लेसहोल्डर को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: स्लाइड पर एक प्लेसहोल्डर का प्रतिनिधित्व करता है।
 type: docs
 weight: 6690
 url: /hi/aspose.slides/iplaceholder/
@@ -18,12 +18,12 @@ public interface IPlaceholder
 
 | नाम | विवरण |
 | --- | --- |
-| [Index](../../aspose.slides/iplaceholder/index) { get; } | एक प्लेसहोल्डर का इंडेक्स प्राप्त करता है। केवल पढ़ने योग्य UInt32। |
-| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | एक प्लेसहोल्डर की अभिविन्यास प्राप्त करता है। केवल पढ़ने योग्य [`Orientation`](../orientation)। |
-| [Size](../../aspose.slides/iplaceholder/size) { get; } | एक प्लेसहोल्डर का आकार प्राप्त करता है। केवल पढ़ने योग्य [`PlaceholderSize`](../placeholdersize)। |
-| [Type](../../aspose.slides/iplaceholder/type) { get; } | एक प्लेसहोल्डर का प्रकार प्राप्त करता है। केवल पढ़ने योग्य [`PlaceholderType`](../placeholdertype)। |
+| [Index](../../aspose.slides/iplaceholder/index) { get; } | एक प्लेसहोल्डर का सूचकांक प्राप्त करता है। केवल पढ़ने योग्य UInt32. |
+| [Orientation](../../aspose.slides/iplaceholder/orientation) { get; } | एक प्लेसहोल्डर की अभिविन्यास प्राप्त करता है। केवल पढ़ने योग्य [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/iplaceholder/size) { get; } | एक प्लेसहोल्डर का आकार प्राप्त करता है। केवल पढ़ने योग्य [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/iplaceholder/type) { get; } | एक प्लेसहोल्डर का प्रकार प्राप्त करता है। केवल पढ़ने योग्य [`PlaceholderType`](../placeholdertype). |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

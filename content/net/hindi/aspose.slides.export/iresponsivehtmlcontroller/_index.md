@@ -1,14 +1,14 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: अनुकूलित HTML नियंत्रक
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: रिस्पॉन्सिव HTML नियंत्रक
 type: docs
 weight: 4050
 url: /hi/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController इंटरफ़ेस
 
-अनुकूलित HTML नियंत्रक
+Responsive HTML नियंत्रक
 
 ```csharp
 public interface IResponsiveHtmlController : IHtmlFormattingController
@@ -18,7 +18,7 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | वापस देता है IHtmlFormattingController इंटरफ़ेस। |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController इंटरफ़ेस लौटाता है। |
 
 ### संबंधित देखें
 

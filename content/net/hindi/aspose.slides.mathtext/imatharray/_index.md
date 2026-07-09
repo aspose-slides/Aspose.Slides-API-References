@@ -1,14 +1,14 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: समिकरणों या किसी भी गणितीय वस्तुओं की एक लंबवत सरणी को निर्दिष्ट करता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: समीकरणों या किसी भी गणितीय वस्तुओं की एक ऊर्ध्वाधर एरे निर्दिष्ट करता है
 type: docs
 weight: 8100
 url: /hi/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray इंटरफ़ेस
 
-समिकरणों या किसी भी गणितीय वस्तुओं की एक लंबवत सरणी को निर्दिष्ट करता है
+समीकरणों या किसी भी गणितीय वस्तुओं की एक ऊर्ध्वाधर एरे निर्दिष्ट करता है
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -18,13 +18,13 @@ public interface IMathArray : IMathElement
 
 | नाम | विवरण |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | सरणी के आइटमों का सेट |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | ऐरे के आइटम्स का सेट |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | सरणी की संरेखण को आसपास के Text के सापेक्ष निर्दिष्ट करता है। सरणी के बाहरी Text को सरणी वस्तु के नीचे, ऊपर या केंद्र में संरेखित किया जा सकता है। डिफ़ॉल्ट मान: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | अधिकतम वितरण जब true हो, तो सरणी को समाहित तत्व (पृष्ठ, कॉलम, सेल, आदि) की अधिकतम चौड़ाई तक फैलाया जाता है। |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | ऑब्जेक्ट वितरण जब true हो, तो सरणी की सामग्री को सरणी वस्तु की अधिकतम चौड़ाई तक फैलाया जाता है। |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | सरणी की पंक्तियों के बीच का अंतराल। यह केवल तब उपयोग किया जाता है जब RowSpacingRule को 3 (Exactly) पर सेट किया गया हो, जहाँ माप इकाई पॉइंट्स होती है, या Multiple पर सेट किया गया हो, जहाँ माप इकाई अर्ध-लाइन होते हैं। डिफ़ॉल्ट: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | सरणी तत्वों के बीच ऊर्ध्वाधर अंतराल का प्रकार |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | ऐरे की संरेखण को आसपास के टेक्स्ट के सापेक्ष निर्दिष्ट करता है। ऐरे के बाहर का टेक्स्ट ऐरे ऑब्जेक्ट के नीचे, ऊपर, या केंद्र के साथ संरेखित किया जा सकता है। डिफ़ॉल्ट मान: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | अधिकतम वितरण जब true हो, तो ऐरे को कंटेनिंग एलिमेंट (पेज, कॉलम, सेल आदि) की अधिकतम चौड़ाई तक फैलाया जाता है। |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | ऑब्जेक्ट वितरण जब true हो, तो ऐरे की सामग्री को ऐरे ऑब्जेक्ट की अधिकतम चौड़ाई तक फैलाया जाता है। |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | ऐरे की पंक्तियों के बीच की स्पेसिंग। यह केवल तब उपयोग होता है जब RowSpacingRule को 3 Exactly पर सेट किया गया हो, जहाँ माप की इकाई पॉइंट्स है, या Multiple पर जहाँ इकाई आधा-लाइन है। डिफ़ॉल्ट: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | ऐरे तत्वों के बीच ऊर्ध्वाधर स्पेसिंग का प्रकार |
 
 ### उदाहरण
 
@@ -35,7 +35,7 @@ public interface IMathArray : IMathElement
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### देखें
+### और देखें
 
 * इंटरफ़ेस [IMathElement](../imathelement)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

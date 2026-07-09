@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نماینده‌ای که رفتار نگه‌دارندگان را شامل نگهدارنده سرصفحه برای تمام انواع اسلایدهای جزوه و یادداشت نگه می‌دارد.
+description: مدیر را نمایندگی می‌کند که رفتار جای‌نگهدارها را، از جمله جای‌نگهدار سرصفحه برای تمام انواع اسلایدهای جزوه و یادداشت، نگه می‌دارد.
 type: docs
 weight: 950
 url: /fa/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager کلاس
 
-نماینده‌ی مدیری است که رفتار نگهدارنده‌ها را نگه می‌دارد، از جمله نگهدارنده سرصفحه برای تمام انواع اسلایدهای جزوه و یادداشت.
+نماینده‌ای است که رفتار جای‌نگهدارها را که شامل جای‌نگهدار سرصفحه برای تمام انواع اسلایدهای جزوه و یادداشت می‌شود، نگه می‌دارد.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,22 +19,22 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | نام | توضیح |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده تاریخ-زمان حضور دارد. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده پابرگ حضور دارد. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده سرصفحه حضور دارد. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک نگهدارنده شماره صفحه حضور دارد. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقدار را که نشان می‌دهد یک جای‌نگهدار تاریخ-زمان موجود است، دریافت می‌کند. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقدار را که نشان می‌دهد یک جای‌نگهدار پابرگ موجود است، دریافت می‌کند. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | مقدار را که نشان می‌دهد یک جای‌نگهدار سرصفحه موجود است، دریافت می‌کند. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقدار را که نشان می‌دهد یک جای‌نگهدار شماره صفحه موجود است، دریافت می‌کند. ReadBoolean. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را برای نگهدارنده تاریخ-زمان اسلاید تنظیم می‌کند. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت نمایش نگهدارنده تاریخ-زمان اسلاید را تغییر می‌دهد. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را برای نگهدارنده پابرگ اسلاید تنظیم می‌کند. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت نمایش نگهدارنده پابرگ اسلاید را تغییر می‌دهد. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | متن را برای نگهدارنده سرصفحه اسلاید تنظیم می‌کند. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | قابلیت نمایش نگهدارنده سرصفحه اسلاید را تغییر می‌دهد. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت نمایش نگهدارنده شماره صفحه اسلاید را تغییر می‌دهد. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را برای جای‌نگهدار تاریخ-زمان اسلاید تنظیم می‌کند. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت نمایش جای‌نگهدار تاریخ-زمان اسلاید را تغییر می‌دهد. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را برای جای‌نگهدار پابرگ اسلاید تنظیم می‌کند. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت نمایش جای‌نگهدار پابرگ اسلاید را تغییر می‌دهد. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | متن را برای جای‌نگهدار سرصفحه اسلاید تنظیم می‌کند. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | قابلیت نمایش جای‌نگهدار سرصفحه اسلاید را تغییر می‌دهد. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت نمایش جای‌نگهدار شماره صفحه اسلاید را تغییر می‌دهد. |
 
 ### موارد مرتبط
 

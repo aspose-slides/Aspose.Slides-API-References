@@ -1,26 +1,26 @@
 ---
 title: TextShapeType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn hình dạng bao quanh văn bản.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn hình dạng bọc văn bản.
 type: docs
 weight: 10980
 url: /vi/aspose.slides/textshapetype/
 ---
-## Kiểu liệt kê TextShapeType
+## TextShapeType enum
 
-Biểu diễn hình dạng bao quanh văn bản.
+Biểu diễn hình dạng bọc văn bản.
 
 ```csharp
 public enum TextShapeType : sbyte
 ```
 
-### Giá Trị
+### Các giá trị
 
-| Tên | Giá Trị | Mô Tả |
+| Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Chưa xác định |
-| None | `0` | Không có hình dạng |
-| Plain | `1` | Đơn giản |
+| NotDefined | `-1` | Không xác định |
+| None | `0` | Không hình dạng |
+| Plain | `1` | Bình thường |
 | Stop | `2` | Biển dừng |
 | Triangle | `3` | Tam giác |
 | TriangleInverted | `4` | Tam giác ngược |
@@ -28,41 +28,41 @@ public enum TextShapeType : sbyte
 | ChevronInverted | `6` | Chevron ngược |
 | RingInside | `7` | Vòng trong |
 | RingOutside | `8` | Vòng ngoài |
-| ArchUp | `9` | Cung lên |
-| ArchDown | `10` | Cung xuống |
-| Circle | `11` | Hình tròn |
+| ArchUp | `9` | Vòng cung lên |
+| ArchDown | `10` | Vòng cung xuống |
+| Circle | `11` | Vòng tròn |
 | Button | `12` | Nút |
-| ArchUpPour | `13` | Cung đổ lên |
-| ArchDownPour | `14` | Cung đổ xuống |
-| CirclePour | `15` | Đổ hình tròn |
-| ButtonPour | `16` | Đổ nút |
+| ArchUpPour | `13` | Vòng cung rót lên |
+| ArchDownPour | `14` | Vòng cung rót xuống |
+| CirclePour | `15` | Rót vòng tròn |
+| ButtonPour | `16` | Rót nút |
 | CurveUp | `17` | Đường cong lên |
 | CurveDown | `18` | Đường cong xuống |
-| CanUp | `19` | Hình bình lên |
-| CanDown | `20` | Hình bình xuống |
+| CanUp | `19` | Cán lên |
+| CanDown | `20` | Cán xuống |
 | Wave1 | `21` | Sóng 1 |
 | Wave2 | `22` | Sóng 2 |
 | DoubleWave1 | `23` | Sóng đôi 1 |
 | Wave4 | `24` | Sóng 4 |
-| Inflate | `25` | Phồng |
-| Deflate | `26` | Xẹp |
-| InflateBottom | `27` | Phồng phía dưới |
-| DeflateBottom | `28` | Xẹp phía dưới |
-| InflateTop | `29` | Phồng phía trên |
-| DeflateTop | `30` | Xẹp phía trên |
-| DeflateInflate | `31` | Xẹp-Phồng |
-| DeflateInflateDeflate | `32` | Xẹp-Phồng-Xẹp |
+| Inflate | `25` | Bơm phồng |
+| Deflate | `26` | Xả hơi |
+| InflateBottom | `27` | Bơm phồng dưới |
+| DeflateBottom | `28` | Xả hơi dưới |
+| InflateTop | `29` | Bơm phồng trên |
+| DeflateTop | `30` | Xả hơi trên |
+| DeflateInflate | `31` | Xả-Bơm |
+| DeflateInflateDeflate | `32` | Xả-Bơm-Xả |
 | FadeRight | `33` | Mờ dần bên phải |
 | FadeLeft | `34` | Mờ dần bên trái |
 | FadeUp | `35` | Mờ dần lên |
 | FadeDown | `36` | Mờ dần xuống |
-| SlantUp | `37` | Độ nghiêng lên |
-| SlantDown | `38` | Độ nghiêng xuống |
-| CascadeUp | `39` | Dòng chảy lên |
-| CascadeDown | `40` | Dòng chảy xuống |
+| SlantUp | `37` | Nghiêng lên |
+| SlantDown | `38` | Nghiêng xuống |
+| CascadeUp | `39` | Đổ thác lên |
+| CascadeDown | `40` | Đổ thác xuống |
 | Custom | `41` | Tùy chỉnh |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: FillBlendMode
 second_title: Aspose.Sildes için .NET API Referansı
-description: Karışım modunu belirler.
+description: Karıştırma modunu belirler.
 type: docs
-weight: 4750
+weight: 4770
 url: /tr/aspose.slides/fillblendmode/
 ---
-## FillBlendMode numaralandırması
+## FillBlendMode enumı
 
-Karışım modunu belirler.
+Karıştırma modunu belirler.
 
 ```csharp
 public enum FillBlendMode
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Darken | `0` | Darken karışım modu. |
-| Lighten | `1` | Lighten karışım modu. |
-| Multiply | `2` | Multiply karışım modu. |
-| Overlay | `3` | Overlay karışım modu. |
-| Screen | `4` | Screen karışım modu. |
+| Darken | `0` | Darken karıştırma modu. |
+| Lighten | `1` | Lighten karıştırma modu. |
+| Multiply | `2` | Multiply karıştırma modu. |
+| Overlay | `3` | Overlay karıştırma modu. |
+| Screen | `4` | Screen karıştırma modu. |
 
 ### Ayrıca Bakınız
 

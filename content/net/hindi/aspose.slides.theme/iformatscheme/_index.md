@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: आकारों के लिए थीम-परिभाषित फ़ॉर्मेट संग्रहीत करता है।
+second_title: Aspose.Sildes for .NET API रेफ़रेंस
+description: आकारों के लिए थीम-परिभाषित स्वरूपों को संग्रहीत करता है।
 type: docs
 weight: 11270
 url: /hi/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme इंटरफ़ेस
 
-आकारों के लिए थीम-परिभाषित फ़ॉर्मेट संग्रहीत करता है।
+आकारों के लिए थीम-परिभाषित स्वरूपों को संग्रहीत करता है।
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -18,13 +18,13 @@ public interface IFormatScheme : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | थीम द्वारा परिभाषित बैकग्राउंड फ़िल स्टाइल्स का संग्रह लौटाता है। केवल-पढ़ने-योग्य [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | थीम द्वारा परिभाषित इफ़ेक्ट स्टाइल्स का संग्रह लौटाता है। केवल-पढ़ने-योग्य [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | थीम द्वारा परिभाषित फ़िल स्टाइल्स का संग्रह लौटाता है। केवल-पढ़ने-योग्य [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | थीम द्वारा परिभाषित लाइन स्टाइल्स का संग्रह लौटाता है। केवल-पढ़ने-योग्य [`ILineFormatCollection`](../ilineformatcollection). |
+| [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent)। |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | थीम-परिभाषित पृष्ठभूमि भराव शैलियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IFillFormatCollection`](../ifillformatcollection)। |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | थीम-परिभाषित प्रभाव शैलियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IEffectStyleCollection`](../ieffectstylecollection)। |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | थीम-परिभाषित भराव शैलियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IFillFormatCollection`](../ifillformatcollection)। |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | थीम-परिभाषित रेखा शैलियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`ILineFormatCollection`](../ilineformatcollection)। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ISlideComponent](../../aspose.slides/islidecomponent)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)

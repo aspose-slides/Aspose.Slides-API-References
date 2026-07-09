@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 標準的な内部例外タイプを表します。
 type: docs
-weight: 9190
+weight: 9210
 url: /ja/aspose.slides/odpexception/
 ---
 ## OdpException クラス
@@ -18,9 +18,9 @@ public class OdpException : Exception
 
 | 名前 | 説明 |
 | --- | --- |
-| [OdpException](odpexception#constructor)() | デフォルト コンストラクタ |
-| [OdpException](odpexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [OdpException](odpexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタ。 |
+| [OdpException](odpexception#constructor)() | 既定のコンストラクタ |
+| [OdpException](odpexception#constructor_1)(string) | 例外にメッセージを追加できるコンストラクタ。 |
+| [OdpException](odpexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のコンストラクタ。 |
 
 ### 参照
 

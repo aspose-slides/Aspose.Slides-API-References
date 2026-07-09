@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: StreamWrappers의 팩터리. COM 인터페이스용.
+second_title: Aspose.Sildes for .NET API 참조
+description: StreamWrappers의 팩토리. COM 인터페이스용.
 type: docs
 weight: 10760
 url: /ko/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory 클래스
 
-StreamWrapper의 팩터리. COM 인터페이스용.
+StreamWrapper의 팩토리. COM 인터페이스용.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -18,7 +18,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [StreamWrapperFactory](streamwrapperfactory)() | 기본 생성자입니다. |
+| [StreamWrapperFactory](streamwrapperfactory)() | 기본 생성자. |
 
 ## 메서드
 
@@ -29,7 +29,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream 래퍼를 생성합니다. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 지정된 바이트 배열을 기반으로 MemoryStream 래퍼를 생성합니다. |
 
-### 참고
+### 기타 참고
 
 * 인터페이스 [IStreamWrapperFactory](../istreamwrapperfactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

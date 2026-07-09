@@ -1,6 +1,6 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET용 API 참조
 description: IInterruptionToken의 소스를 나타냅니다./iinterruptiontoken.
 type: docs
 weight: 6200
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource 인터페이스
 
-[`IInterruptionToken`](../iinterruptiontoken)의 소스를 나타냅니다.
+다음의 소스를 나타냅니다 [`IInterruptionToken`](../iinterruptiontoken).
 
 ```csharp
 public interface IInterruptionTokenSource
@@ -19,7 +19,7 @@ public interface IInterruptionTokenSource
 | 이름 | 설명 |
 | --- | --- |
 | [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | 중단이 요청되면 true를 반환하고, 그렇지 않으면 false를 반환합니다. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 이 [`IInterruptionTokenSource`](../iinterruptiontokensource)에 바인딩된 새 토큰을 반환합니다. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 새로운 토큰을 이 [`IInterruptionTokenSource`](../iinterruptiontokensource)에 바인딩하여 반환합니다. |
 
 ## 메서드
 

@@ -18,9 +18,9 @@ public interface IAxisFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | إرجاع التأثيرات المستخدمة للمحور. للقراءة فقط [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | إرجاع خصائص نمط التعبئة للمحور. للقراءة فقط [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | إرجاع خصائص نمط الخط للمحور. للقراءة فقط [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iaxisformat/effect) { get; } | يرجع التأثيرات المستخدمة للمحور. للقراءة فقط [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/iaxisformat/fill) { get; } | يرجع خصائص نمط التعبئة للمحور. للقراءة فقط [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iaxisformat/line) { get; } | يرجع خصائص نمط الخط للمحور. للقراءة فقط [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### انظر أيضًا
 

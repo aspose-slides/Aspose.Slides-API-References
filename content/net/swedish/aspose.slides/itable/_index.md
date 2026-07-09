@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en tabell på en bild.
 type: docs
-weight: 7210
+weight: 7230
 url: /sv/aspose.slides/itable/
 ---
 ## ITable gränssnitt
@@ -18,32 +18,32 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Tillåter att hämta bas-IBulkTextFormattable-gränssnitt. Skrivskyddad [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnitt. Skrivskyddad [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Returnerar samlingen av kolumner. Skrivskyddad [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Avgör om den första kolumnen i en tabell ska ritas med en speciell formatering. Läs/skriv Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Avgör om den första raden i en tabell ska ritas med en speciell formatering. Läs/skriv Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Avgör om jämna rader ska ritas med en annan formatering. Läs/skriv Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Returnerar cellen vid angivna kolumn- och radindex. Skrivskyddad [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Avgör om den sista kolumnen i en tabell ska ritas med en speciell formatering. Läs/skriv Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Avgör om den sista raden i en tabell ska ritas med en speciell formatering. Läs/skriv Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Avgör om tabellen har läsordning från höger till vänster. Läs-skriv Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Returnerar samlingen av rader. Skrivskyddad [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Hämtar eller anger inbyggd tabellstil. Läs/skriv [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Returnerar TableFormat-objektet som innehåller formateringsegenskaper för denna tabell. Skrivskyddad [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Avgör om jämna kolumner ska ritas med en annan formatering. Läs/skriv Boolean. |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Tillåter att hämta bas-IBulkTextFormattable-gränssnitt. Läs-endast [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Tillåter att hämta bas-IGraphicalObject-gränssnitt. Läs-endast [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Returnerar samlingen av kolumner. Läs-endast [`IColumnCollection`](../icolumncollection). |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bestämmer om den första kolumnen i en tabell ska ritas med särskild formatering. Läs/skriv Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bestämmer om den första raden i en tabell ska ritas med särskild formatering. Läs/skriv Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Bestämmer om jämna rader ska ritas med annan formatering. Läs/skriv Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Returnerar cellen på angivna kolumn- och radindex. Läs-endast [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bestämmer om den sista kolumnen i en tabell ska ritas med särskild formatering. Läs/skriv Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bestämmer om den sista raden i en tabell ska ritas med särskild formatering. Läs/skriv Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bestämmer om tabellen har läsriktning från höger till vänster. Läs-skriv Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Returnerar samlingen av rader. Läs-endast [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Hämtar eller sätter inbyggd tabellstil. Läs/skriv [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Returnerar TableFormat-objektet som innehåller formateringsegenskaper för denna tabell. Läs-endast [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Bestämmer om jämna kolumner ska ritas med annan formatering. Läs/skriv Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Slår ihop angränsande celler. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Slår ihop intilliggande celler. |
 
 ### Se även
 
 * gränssnitt [IBulkTextFormattable](../ibulktextformattable)
 * gränssnitt [IGraphicalObject](../igraphicalobject)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

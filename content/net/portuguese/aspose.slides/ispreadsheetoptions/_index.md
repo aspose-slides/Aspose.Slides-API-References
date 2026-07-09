@@ -1,9 +1,9 @@
 ---
 title: ISpreadsheetOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções que podem ser usadas para especificar comportamento adicional de planilhas.
 type: docs
-weight: 7100
+weight: 7120
 url: /pt/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interface
@@ -16,12 +16,12 @@ public interface ISpreadsheetOptions
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Obtém ou define as informações de cultura preferidas para calcular algumas funções destinadas ao uso com idiomas que utilizam o conjunto de caracteres de dois bytes (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se a fonte de dados do gráfico for uma pasta de trabalho externa e não estiver disponível, será recuperada do cache do gráfico. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Obtém ou define informações de cultura preferida para calcular algumas funções destinadas ao uso com idiomas que utilizam o conjunto de caracteres de dois bytes (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Se a fonte de dados para o gráfico for uma pasta de trabalho externa e não estiver disponível, será recuperada a partir do cache do gráfico. |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

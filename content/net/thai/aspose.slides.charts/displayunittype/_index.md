@@ -6,9 +6,9 @@ type: docs
 weight: 1620
 url: /th/aspose.slides.charts/displayunittype/
 ---
-## DisplayUnitType enumeration
+## DisplayUnitType การ列舉
 
-กำหนดความหลายของข้อมูลที่แสดง
+กำหนดลักษณะการแสดงผลของข้อมูลที่แสดง
 
 ```csharp
 public enum DisplayUnitType

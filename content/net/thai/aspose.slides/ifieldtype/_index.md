@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของประเภทของฟิลด์ ค่านี้กำหนดว่าข้อความใดจะถูกตั้งค่าให้กับส่วนของฟิลด์เมื่อมีการอัปเดต
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทของฟิลด์ ค่าดังกล่าวกำหนดว่าข้อความใดจะถูกตั้งค่าให้กับส่วนของฟิลด์เมื่อมีการอัปเดต
 type: docs
 weight: 5780
 url: /th/aspose.slides/ifieldtype/
 ---
 ## IFieldType อินเทอร์เฟซ
 
-เป็นตัวแทนของประเภทของฟิลด์ ค่านี้กำหนดว่าจะตั้งข้อความใดไปยังส่วนของฟิลด์เมื่อมีการอัปเดต
+แสดงประเภทของฟิลด์ ค่าดังกล่าวกำหนดว่าข้อความใดจะถูกตั้งค่าให้กับส่วนฟิลด์เมื่อมีการอัปเดต
 
 ```csharp
 public interface IFieldType
@@ -16,9 +16,9 @@ public interface IFieldType
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | ส่งคืนชื่อภายในของอ็อบเจ็กต์ FieldTypeEx นี้ อ่าน/เขียน String. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | ส่งคืนชื่อภายในของวัตถุ FieldTypeEx นี้. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: Output
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: IWebDocument için çıktı öğelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 4620
+weight: 4640
 url: /tr/aspose.slides.export.web/output/
 ---
-## Output sınıfı
+## Çıktı sınıfı
 
 !:IWebDocument için çıktı öğelerinin bir koleksiyonunu temsil eder.
 
@@ -25,7 +25,7 @@ public sealed class Output
 | [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Belirtilen yazı tipi için bir çıktı dosyası öğesi oluşturur ve ekler. |
 | [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Bağlam nesnesi için bir çıktı öğesi ekler. |
 | [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Kaynağı çıktı dosyasına bağlar. |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Verilen kaynak için yolu döndürür. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Belirli bir kaynak için yolu döndürür. |
 
 ### Ayrıca Bakınız
 

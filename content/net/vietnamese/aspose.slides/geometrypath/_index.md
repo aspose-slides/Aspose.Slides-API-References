@@ -14,41 +14,41 @@ Biểu diễn đường hình học của GeometryShape
 public sealed class GeometryPath : IGeometryPath
 ```
 
-## Hàm tạo
+## Các hàm tạo
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [GeometryPath](geometrypath)() | Tạo một thể hiện của GeometryPath |
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Đặt chế độ tô |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Trả về đường hình học của GeometryShape dưới dạng mảng các đoạn đường. |
-| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Đặt kiểu nét |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Trả về đường hình học của GeometryShape dưới dạng một mảng các đoạn đường. |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Đặt giao diện nét |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Thêm cung được chỉ định vào đường. |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Thêm cung đã chỉ định vào đường. |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Đóng hình hiện tại của đường này |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Thêm đường cong Bezier bậc ba vào cuối đường |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Thêm đường cong Bezier bậc ba vào vị trí được chỉ định của đường |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Thêm đường cong Bezier bậc ba vào vị trí đã chỉ định của đường |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Thêm đường cong Bezier bậc ba vào cuối đường |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Thêm đường cong Bezier bậc ba vào vị trí được chỉ định của đường |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Thêm đường thẳng vào cuối đường |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Thêm đường thẳng vào cuối đường |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Thêm đường thẳng vào vị trí được chỉ định của đường |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Thêm đường thẳng vào vị trí được chỉ định của đường |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Thêm đường cong Bezier bậc ba vào vị trí đã chỉ định của đường |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Thêm đoạn thẳng vào cuối đường |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Thêm đoạn thẳng vào cuối đường |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Thêm đoạn thẳng vào vị trí đã chỉ định của đường |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Thêm đoạn thẳng vào vị trí đã chỉ định của đường |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Đặt vị trí điểm tiếp theo. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Đặt vị trí điểm tiếp theo. |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Thêm đường cong Bezier bậc hai vào cuối đường |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Thêm đường cong Bezier bậc hai vào vị trí được chỉ định của đường |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Thêm đường cong Bezier bậc hai vào vị trí đã chỉ định của đường |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Thêm đường cong Bezier bậc hai vào cuối đường |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Thêm đường cong Bezier bậc hai vào vị trí được chỉ định của đường |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Xóa đoạn tại chỉ mục được chỉ định của đường hình học. |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Thêm đường cong Bezier bậc hai vào vị trí đã chỉ định của đường |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Xóa đoạn tại chỉ mục đã chỉ định của đường hình học. |
 
 ### Xem thêm
 

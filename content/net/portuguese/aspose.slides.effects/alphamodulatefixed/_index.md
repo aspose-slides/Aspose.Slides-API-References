@@ -3,12 +3,12 @@ title: AlphaModulateFixed
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito Alpha Modulate Fixed. Os valores de opacidade alfa do efeito são multiplicados por uma porcentagem fixa.
 type: docs
-weight: 2870
+weight: 2890
 url: /pt/aspose.slides.effects/alphamodulatefixed/
 ---
 ## AlphaModulateFixed classe
 
-Representa um efeito Alpha Modulate Fixed. Valores de alfa (opacidade) do efeito são multiplicados por uma porcentagem fixa.
+Representa um efeito Alpha Modulate Fixed. Os valores alfa (opacidade) do efeito são multiplicados por uma porcentagem fixa.
 
 ```csharp
 public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulateFixed
@@ -18,7 +18,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 
 | Nome | Descrição |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Retorna uma quantidade do efeito em porcentagem. Leitura/gravação Single. |
+| [Amount](../../aspose.slides.effects/alphamodulatefixed/amount) { get; set; } | Retorna uma quantidade de efeito em porcentagem. Leitura/gravação Single. |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Métodos
@@ -27,7 +27,7 @@ public sealed class AlphaModulateFixed : ImageTransformOperation, IAlphaModulate
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulatefixed/equals)(object) | Determina se o [`AlphaModulateFixed`](../alphamodulatefixed) especificado é igual ao [`AlphaModulateFixed`](../alphamodulatefixed) atual. |
 | [GetEffective](../../aspose.slides.effects/alphamodulatefixed/geteffective)() | Obtém os dados efetivos do efeito Alpha Modulate Fixed com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Serve como função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulatefixed/gethashcode)() | Funciona como uma função hash para um tipo específico. |
 
 ### Veja Também
 

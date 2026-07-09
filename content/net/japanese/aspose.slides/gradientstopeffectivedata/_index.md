@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション ストップを表す変更不可能なオブジェクトです。
+description: グラデーション ストップを表す不変オブジェクトです。
 type: docs
-weight: 5030
+weight: 5050
 url: /ja/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData クラス
 
-グラデーション ストップを表す変更不可能なオブジェクトです。
+グラデーション ストップを表す不変オブジェクトです。
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | グラデーション ストップの色を返します。読み取り専用 Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | グラデーション ストップの位置 (0..1) を返します。読み取り専用 Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | グラデーション ストップの色を返します。読み取り専用 Color。 |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | グラデーション ストップの位置 (0..1) を返します。読み取り専用 Single。 |
 
 ## メソッド
 

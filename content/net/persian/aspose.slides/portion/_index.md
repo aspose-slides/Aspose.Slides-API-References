@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر بخشی از متن داخل یک پاراگراف متنی.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک بخش از متن داخل یک پاراگراف متنی را نمایندگی می‌کند.
 type: docs
 weight: 9460
 url: /fa/aspose.slides/portion/
 ---
 ## Portion کلاس
 
-نمایانگر بخشی از متن داخل یک پاراگراف متنی است.
+یک بخش از متن داخل یک پاراگراف متنی را نمایندگی می‌کند.
 
 ```csharp
 public class Portion : IPortion
@@ -26,18 +26,18 @@ public class Portion : IPortion
 
 | نام | توضیح |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | یک فیلد از این بخش را برمی‌گرداند. فقط خواندنی [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | یک شیء قالب‌بندی را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی به‌وضوح تنظیم شدهٔ بخش متن است بدون اعمال ارث‌بری. فقط خواندنی [`IPortionFormat`](../iportionformat). |
+| [Field](../../aspose.slides/portion/field) { get; } | یک فیلد از این بخش را برمی‌گرداند. فقط-خواندنی [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | یک شیء قالب‌بندی که ویژگی‌های قالب‌بندی به‌صورت صریح تنظیم‌شدهٔ بخش متن را شامل می‌شود و وراثت اعمال نشده است را برمی‌گرداند. فقط-خواندنی [`IPortionFormat`](../iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | متن سادهٔ یک بخش را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی String. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | این بخش را به فیلد به‌روزرسانی خودکار تبدیل می‌کند. |
-| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | این بخش را به فیلد به‌روزرسانی خودکار تبدیل می‌کند. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | مختصات آغاز بخش را دریافت می‌کند. مختصات X نقطه نشان‌دهندهٔ آغاز بخش از اولین کاراکتر شامل فاصلهٔ سمت چپ است. مختصات Y شامل فاصلهٔ بالایی است. |
-| [GetRect](../../aspose.slides/portion/getrect)() | مختصات مستطیلی که بخش را محدود می‌کند دریافت می‌کند. این مستطیل شامل تمام خطوط متن در بخش است، حتی خطوط خالی. |
+| [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | این بخش را به فیلد به‌روزرسانی‌شدهٔ خودکار تبدیل می‌کند. |
+| [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | این بخش را به فیلد به‌روزرسانی‌شدهٔ خودکار تبدیل می‌کند. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | مختصات آغاز بخش را دریافت می‌کند. مختصات X نقطه، آغاز بخش را از اولین کاراکتر شامل سمت چپ نشان می‌دهد. مختصات Y شامل سمت بالایی است. |
+| [GetRect](../../aspose.slides/portion/getrect)() | مختصات مستطیلی که بخش را احاطه می‌کند را دریافت می‌کند. این مستطیل شامل تمام خطوط متن در بخش، حتی خطوط خالی، است. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | این بخش فیلد را به بخش ساده تبدیل می‌کند. |
 
 ### موارد مرتبط

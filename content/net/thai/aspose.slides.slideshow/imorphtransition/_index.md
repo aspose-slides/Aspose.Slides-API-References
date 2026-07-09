@@ -1,6 +1,6 @@
 ---
 title: IMorphTransition
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Ripple.
 type: docs
 weight: 10130
@@ -18,8 +18,8 @@ public interface IMorphTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | อนุญาตให้รับ ITransitionValueBase อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | ประเภทของการเปลี่ยนแปลงแบบ morph. อ่านเขียน [`TransitionMorphType`](../transitionmorphtype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | ประเภทของการเปลี่ยนแปลงแบบ morph. อ่าน/เขียน [`TransitionMorphType`](../transitionmorphtype). |
 
 ### ดูเพิ่มเติม
 

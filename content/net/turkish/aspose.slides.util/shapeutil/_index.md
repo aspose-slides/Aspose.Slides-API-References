@@ -1,14 +1,14 @@
 ---
 title: ShapeUtil
-second_title: Aspose.Sildes .NET API Referansı
-description: Şekil nesnelerini işlemeye yardımcı metotlar sunar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Şekil nesnelerini işlemek için yardımcı yöntemler sunar.
 type: docs
-weight: 11490
+weight: 11510
 url: /tr/aspose.slides.util/shapeutil/
 ---
-## ShapeUtil sınıf
+## ShapeUtil sınıfı
 
-Şekil nesnelerini işlemek için metotlar sunar.
+Şekil nesnelerini işlemek için yardımcı yöntemler sunar.
 
 ```csharp
 public static class ShapeUtil

@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes için .NET API Referansı
-description: Üst GroupShape üzerindeki hangi işlemlerin devre dışı bırakıldığını belirler.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Üst GroupShape üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
 type: docs
-weight: 5080
+weight: 5100
 url: /tr/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock sınıfı
 
-Ana GroupShape üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+Üst GroupShape üzerindeki hangi işlemlerin devre dışı bırakıldığını belirler.
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Ad | Açıklama |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Yeniden boyutlandırma sırasında şeklin en-boy oranını koruyup korumaması gerektiğini belirler. Read/write Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Read/write Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm kilit bayrakları devre dışı bırakılmışsa true döner. Read-only Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bu şeklin taşınmasının yasak olup olmadığını belirler. Read/write Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bu şeklin döndürme açısını değiştirmenin yasak olup olmadığını belirler. Read/write Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Read/write Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Read/write Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bu grup şeklinin bölünmesinin yasak olup olmadığını belirler. Read/write Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Şeklin yeniden boyutlandırma sırasında en-boy oranını koruyup korumaması gerektiğini belirler. Okunur/Yazılır Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Tüm kilit-bayrakları devre dışıysa true döndürür. Salt-okunur Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bu şeklin taşınmasının engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bu şeklin döndürme açısının değiştirilmesinin engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bu şeklin seçilmesinin engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bu grupşeklin bölünmesinin engellenip engellenmediğini belirler. Okunur/Yazılır Boolean. |
 
 ### Ayrıca Bakınız
 

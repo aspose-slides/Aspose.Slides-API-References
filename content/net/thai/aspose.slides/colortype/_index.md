@@ -1,14 +1,14 @@
 ---
 title: ColorType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงโหมดสีต่าง ๆ
+description: แสดงโหมดสีที่แตกต่างกัน.
 type: docs
 weight: 2580
 url: /th/aspose.slides/colortype/
 ---
-## การระบุประเภท ColorType
+## ColorType enumeration
 
-แสดงโหมดสีต่าง ๆ
+แสดงโหมดสีที่แตกต่างกัน.
 
 ```csharp
 public enum ColorType
@@ -19,12 +19,12 @@ public enum ColorType
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NotDefined | `-1` | สีไม่ได้กำหนดเลย |
-| RGB | `0` | สี RGB 24 บิตมาตรฐาน |
+| RGB | `0` | สี RGB มาตรฐาน 24 บิต |
 | RGBPercentage | `1` | สี RGB ความละเอียดสูง |
 | HSL | `2` | สี HSL ความละเอียดสูง |
 | Scheme | `3` | สี Scheme |
-| System | `4` | สี System |
-| Preset | `5` | สี Preset |
+| System | `4` | สีระบบ |
+| Preset | `5` | สีที่กำหนดล่วงหน้า |
 
 ### ดูเพิ่มเติม
 

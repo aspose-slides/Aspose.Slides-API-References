@@ -1,7 +1,7 @@
 ---
 title: IBaseChartValue
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트 값 하나를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트의 값을 나타냅니다.
 type: docs
 weight: 1730
 url: /ko/aspose.slides.charts/ibasechartvalue/
@@ -18,8 +18,8 @@ public interface IBaseChartValue
 
 | 이름 | 설명 |
 | --- | --- |
-| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 읽기/쓰기 Object. |
-| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell 또는 AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 이 속성은 읽기 전용입니다. 이 속성의 값을 변경하려면 ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; 속성 중 하나를 사용할 수 있습니다. 읽기/쓰기 [`DataSourceType`](./datasourcetype). |
+| [Data](../../aspose.slides.charts/ibasechartvalue/data) { get; set; } | 읽기/쓰기 객체. |
+| [DataSourceType](../../aspose.slides.charts/ibasechartvalue/datasourcetype) { get; set; } | AsCell 또는 AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 즉, Data 속성의 값 유형을 지정합니다. 이 속성은 읽기 전용입니다. 이 속성의 값을 변경하려면 ChartDataPointCollection.DataSourceTypeFor<...> 속성 중 하나를 사용할 수 있습니다. 읽기/쓰기 [`DataSourceType`](./datasourcetype). |
 
 ### 참조
 

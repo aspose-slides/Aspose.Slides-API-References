@@ -18,11 +18,11 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | 傳回用於軸的效果。唯讀 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | 傳回軸的填充樣式屬性。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | 傳回軸的線條樣式屬性。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | 返回軸使用的效果。唯讀 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | 返回軸的填充樣式屬性。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | 返回軸的線條樣式屬性。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 另見
+### 相關參考
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [Axis](../axis)

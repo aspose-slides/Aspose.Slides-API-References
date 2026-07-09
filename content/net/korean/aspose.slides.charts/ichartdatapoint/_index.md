@@ -23,15 +23,15 @@ public interface IChartDataPoint : IActualLayout
 | [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | 차트 데이터 포인트의 색상 값을 반환합니다. Map 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | 데이터 포인트 레벨의 컨테이너를 반환합니다. Treeamp 및 Sunburst 시리즈에 적용됩니다. 데이터 포인트 레벨 인덱스는 0부터 시작합니다. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Custom 값 유형인 경우 시리즈 오류 막대 값을 나타냅니다. 읽기 전용 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | 데이터 포인트가 파이 중앙에서 이동할 양을 지정합니다. 읽기/쓰기 Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | 포맷 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | 이 데이터 포인트가 적용되는 부모의 자식 컬렉션을 결정합니다. 읽기 UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 값이 음수일 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | 버블에 3D 효과가 적용되도록 지정합니다. 읽기/쓰기 Boolean. |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | 파이 중심에서 데이터 포인트가 이동할 거리(양)를 지정합니다. 읽기/쓰기 Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | 서식 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | 이 데이터 포인트가 적용되는 상위의 자식 컬렉션을 결정합니다. 읽기 UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | 값이 음수인 경우 데이터 포인트가 색상을 반전하도록 지정합니다. 읽기/쓰기 Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | 버블에 3-D 효과가 적용되도록 지정합니다. 읽기/쓰기 Boolean. |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | 차트 데이터 포인트의 레이블을 나타냅니다. 읽기 전용 [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | 데이터 마커를 지정합니다. 읽기 전용 [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | 다음 목록에 해당하는 차트 유형인 경우 해당 범례 항목의 속성: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | 데이터 포인트를 총계로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다. |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | 해당 차트 유형에 대한 범례 항목의 속성입니다: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | 데이터 포인트를 총합으로 설정합니다. Waterfall 시리즈 유형에만 적용됩니다. |
 | [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | 차트 데이터 포인트의 크기 값을 반환합니다. Treemap 및 Sunburst 차트와 함께 사용됩니다. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | 차트 데이터 포인트의 값을 반환합니다. 읽기 전용 [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | 차트 데이터 포인트의 x 값을 반환합니다. 읽기 전용 [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
@@ -41,7 +41,7 @@ public interface IChartDataPoint : IActualLayout
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | 시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 자동 색상을 반환합니다. FillType이 NotDefined인 경우 기본적으로 이 색상이 사용됩니다. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | 시리즈 인덱스, 데이터 포인트 인덱스, ParentSeriesGroup.IsColorVaried 속성 및 차트 스타일을 기반으로 데이터 포인트의 자동 색상을 반환합니다. FillType이 NotDefined인 경우 기본적으로 이 색상이 사용됩니다. |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | 차트 시리즈에서 DataPoint를 제거합니다. |
 
 ### 참고

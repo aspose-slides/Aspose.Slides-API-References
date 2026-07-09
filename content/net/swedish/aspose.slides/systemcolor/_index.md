@@ -3,10 +3,10 @@ title: SystemColor
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar fördefinierade systemfärger.
 type: docs
-weight: 10790
+weight: 10810
 url: /sv/aspose.slides/systemcolor/
 ---
-## SystemColor enumeration
+## SystemColor-enumeration
 
 Representerar fördefinierade systemfärger.
 
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NotDefined | `-1` | Systemfärgen är inte definierad. |
+| NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |

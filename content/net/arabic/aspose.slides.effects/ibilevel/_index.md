@@ -1,12 +1,12 @@
 ---
 title: IBiLevel
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل الواجهة الأساسية IImageTransformOperation.
 type: docs
 weight: 3160
 url: /ar/aspose.slides.effects/ibilevel/
 ---
-## واجهة IBiLevel
+## IBiLevel واجهة
 
 يمثل الواجهة الأساسية IImageTransformOperation.
 
@@ -18,8 +18,8 @@ public interface IBiLevel : IAccessiblePVIObject<IBiLevelEffectiveData>, IImageT
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ibilevel/asiaccessiblepviobject) { get; } | يسمح بالحصول على الواجهة الأساسية IAccessiblePVIObject. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ibilevel/asiimagetransformoperation) { get; } | يسمح بالحصول على الواجهة الأساسية IImageTransformOperation. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### انظر أيضًا
 

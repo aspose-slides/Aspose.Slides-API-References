@@ -1,14 +1,14 @@
 ---
 title: GradientShape
-second_title: Aspose.Sildes için .NET API Referansı
-description: Gradyan doldurmanın şeklini temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Gradyan dolgusunun şeklini temsil eder.
 type: docs
-weight: 4990
+weight: 5010
 url: /tr/aspose.slides/gradientshape/
 ---
 ## GradientShape enum
 
-Gradyan dolgu şekli temsil eder.
+Gradyan dolgusunun şeklini temsil eder.
 
 ```csharp
 public enum GradientShape : sbyte

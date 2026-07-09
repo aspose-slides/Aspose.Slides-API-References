@@ -1,6 +1,6 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: Summary Zoom फ्रेम में Summary Zoom Section ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 7160
@@ -18,9 +18,9 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | ISectionZoomFrame इंटरफ़ेस को वापस देता है। |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Summary Zoom Section ऑब्जेक्ट का पाठ विवरण वापस देता है। |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Summary Zoom Section ऑब्जेक्ट का पाठ शीर्षक वापस देता है। |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | ISectionZoomFrame इंटरफ़ेस लौटाता है। |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Summary Zoom Section ऑब्जेक्ट का टेक्स्ट विवरण लौटाता है। |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Summary Zoom Section ऑब्जेक्ट का टेक्स्ट शीर्षक लौटाता है। |
 
 ### संबंधित देखें
 

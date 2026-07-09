@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het filteronthullingstype weer.
+description: Stelt het filteronthullingstype voor.
 type: docs
 weight: 380
 url: /nl/aspose.slides.animation/filtereffectrevealtype/
 ---
 ## FilterEffectRevealType enumeratie
 
-Geeft het filteronthullingstype weer.
+Stelt het filteronthullingstype voor.
 
 ```csharp
 public enum FilterEffectRevealType

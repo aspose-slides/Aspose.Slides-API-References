@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: مرجع API لمكتبة Aspose.Sildes لـ .NET
-description: يمثل نوع تأثير الرسوم المتحركة لعناصر المخططات.
+second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
+description: يمثل نوع تأثير الرسوم المتحركة لعنصر الرسم البياني.
 type: docs
 weight: 290
 url: /ar/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType التعداد
+## EffectChartMajorGroupingType تعداد
 
-يمثل نوع تأثير الرسوم المتحركة لعنصر المخطط.
+يمثل نوع تأثير الرسوم المتحركة لعنصر الرسم البياني.
 
 ```csharp
 public enum EffectChartMajorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMajorGroupingType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| BySeries | `0` | تحريك المخطط حسب السلسلة |
-| ByCategory | `1` | تحريك المخطط حسب الفئة |
+| BySeries | `0` | تحريك الرسم البياني بحسب السلسلة |
+| ByCategory | `1` | تحريك الرسم البياني بحسب الفئة |
 
 ### انظر أيضًا
 

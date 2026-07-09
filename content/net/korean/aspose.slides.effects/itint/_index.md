@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Tint 효과를 나타냅니다. 지정된 양만큼 색조를 향하거나 멀어지게 색상 값을 이동시킵니다.
+description: Tint 효과를 나타냅니다. 지정된 양만큼 색조에 따라/반대로 효과 색상 값을 이동합니다.
 type: docs
 weight: 3540
 url: /ko/aspose.slides.effects/itint/
 ---
 ## ITint 인터페이스
 
-Tint 효과를 나타냅니다. 지정된 양만큼 색조를 향하거나 멀어지게 색상 값을 이동시킵니다.
+Tint 효과를 나타냅니다. 지정된 양만큼 색조에 따라/반대로 효과 색상 값을 이동합니다.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -21,7 +21,7 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [ITintEffectiveData](../itinteffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. ค่า hue, saturation และ luminance สามารถปรับได้ตามค่าปัจจุบันของแต่ละรายการ.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. ค่าของ Hue, Saturation และ Luminance สามารถปรับได้แต่ละค่าโดยอิงจากค่าปัจจุบันของมัน.
 type: docs
 weight: 3010
 url: /th/aspose.slides.effects/hsl/
 ---
 ## HSL คลาส
 
-แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance. ค่า hue, saturation และ luminance สามารถปรับได้แต่ละค่าตามค่าปัจจุบันของมัน.
+แสดงถึงเอฟเฟกต์ Hue/Saturation/Luminance ภาพ สี ความอิ่มตัว และความสว่าง สามารถปรับค่าแต่ละอย่างได้สัมพันธ์กับค่าปัจจุบัน
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,15 +18,15 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐานได้แบบอ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | ตรวจสอบว่ารายการ [`HSL`](../hsl) ที่ระบุเท่ากับ [`HSL`](../hsl) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Hue/Saturation/Luminance ที่มีผลโดยคำนึงถึงการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | กำหนดว่าค่า [`HSL`](../hsl) ที่ระบุเท่ากับค่า [`HSL`](../hsl) ปัจจุบันหรือไม่ |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | รับข้อมูลผลกระทบ Hue/Saturation/Luminance ที่มีการประยุกต์สืบทอด |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง |
 
 ### ดูเพิ่มเติม
 

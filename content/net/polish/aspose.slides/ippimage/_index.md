@@ -1,12 +1,12 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje obraz w prezentacji.
 type: docs
-weight: 6530
+weight: 6550
 url: /pl/aspose.slides/ippimage/
 ---
-## Interfejs IPPImage
+## IPPImage interfejs
 
 Reprezentuje obraz w prezentacji.
 

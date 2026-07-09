@@ -1,14 +1,14 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes για .NET API Reference
-description: Αντιπροσωπεύει τις επιλογές εξαγωγής HTML.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει επιλογές εξαγωγής HTML.
 type: docs
-weight: 3870
+weight: 3890
 url: /el/aspose.slides.export/htmloptions/
 ---
 ## HtmlOptions κλάση
 
-Αντιπροσωπεύει τις επιλογές εξαγωγής HTML.
+Αντιπροσωπεύει επιλογές εξαγωγής HTML.
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
@@ -18,34 +18,34 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | Δημιουργεί ένα νέο αντικείμενο HtmlOptions για αποθήκευση σε ένα ενιαίο αρχείο HTML. |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Δημιουργεί ένα νέο αντικείμενο HtmlOptions που καθορίζει τη συνάρτηση επανάκλησης. |
+| [HtmlOptions](htmloptions#constructor)() | Δημιουργεί ένα νέο αντικείμενο HtmlOptions για αποθήκευση σε ένα μόνο αρχείο HTML. |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | Δημιουργεί ένα νέο αντικείμενο HtmlOptions που καθορίζει την κλήση επιστροφής. |
 
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Ανάγνωση/εγγραφή String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Σημαία Boolean που υποδεικνύει αν τα περικομμένα τμήματα παραμένουν ως μέρος του εγγράφου. Εάν είναι true, τα περικομμένα τμήματα θα αφαιρεθούν· εάν είναι false, θα σειριοποιηθούν στο έγγραφο (κάτι που μπορεί να οδηγήσει σε μεγαλύτερο αρχείο). |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει αν το κείμενο αποδίδεται χωρίς χρήση συνδέσμων (ligatures). Όταν οριστεί σε `true`, οι συνδέσεις θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα ορίζεται σε `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της κλίμακας gradient. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται στην περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Ανάγνωση-εγγραφή String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | Ένα λογικό σημείο που υποδεικνύει εάν τα περικομμένα τμήματα παραμένουν μέρος του εγγράφου. Εάν είναι true, τα περικομμένα τμήματα θα αφαιρεθούν· εάν είναι false, θα σειριοποιηθούν στο έγγραφο (που μπορεί ενδεχομένως να οδηγήσει σε μεγαλύτερο αρχείο). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | Παίρνει ή ορίζει μια τιμή που υποδεικνύει εάν το κείμενο αποδίδεται χωρίς χρήση ligatures. Όταν οριστεί σε `true`, τα ligatures θα απενεργοποιηθούν στην παραγόμενη έξοδο. Από προεπιλογή, αυτή η ιδιότητα έχει τιμή `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Ανάγνωση/εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | Επιστρέφει ή ορίζει το πρότυπο HTML. Ανάγνωση/εγγραφή [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο ανάγνωση [`IInkOptions`](../iinkoptions) |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | Παρέχει επιλογές που ελέγχουν την εμφάνιση των αντικειμένων Ink στο εξαγόμενο έγγραφο. Μόνο για ανάγνωση [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | Επιστρέφει ή ορίζει μια τιμή που καθορίζει την ποιότητα των εικόνων JPEG μέσα στο έγγραφο PDF. Ανάγνωση/εγγραφή Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Αναπαριστά το επίπεδο συμπίεσης των εικόνων |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για ενημερώσεις προόδου αποθήκευσης σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Καθορίζει αν το παραγόμενο έγγραφο πρέπει να περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν οι υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | Αντιπροσωπεύει το επίπεδο συμπίεσης των εικόνων |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο κλήσης επιστροφής για αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | Ορίζει εάν το παραγόμενο έγγραφο θα περιλαμβάνει κρυφές διαφάνειες ή όχι. Η προεπιλογή είναι `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Ορίζει εάν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
 | [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | Επιστρέφει ή ορίζει τις επιλογές μορφής εικόνας διαφάνειας. Ανάγνωση/εγγραφή [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Λαμβάνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True για να εξαιρεθούν τα χαρακτηριστικά πλάτους και ύψους από το δοχείο svg - αυτό θα κάνει τη διάταξη προσαρμόσιμη. False - διαφορετικά. Ανάγνωση/εγγραφή Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | Παίρνει ή ορίζει τη λειτουργία με την οποία οι διαφάνειες τοποθετούνται στη σελίδα κατά την εξαγωγή μιας παρουσίασης [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True για εξαίρεση των ιδιοτήτων width και height από το δοχείο svg - αυτό θα κάνει τη διάταξη ανταποκρινόμενη. False - διαφορετικά. Ανάγνωση/εγγραφή Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει εάν η διαδικασία φόρτωσης θα συνεχιστεί ή θα διακοπεί. Ανάγνωση/εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Δείτε επίσης
 
 * κλάση [SaveOptions](../saveoptions)
 * διεπαφή [IHtmlOptions](../ihtmloptions)
-* χώρος ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides.Export](../../aspose.slides.export)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

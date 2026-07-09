@@ -1,7 +1,7 @@
 ---
 title: CellUnsupportedDataException
 second_title: Aspose.Sildes for .NET API 참조
-description: 스프레드시트 셀에서 지원되지 않는 데이터를 만나면 발생하는 예외입니다.
+description: 스프레드시트 셀에서 지원되지 않는 데이터를 찾을 때 발생하는 예외입니다.
 type: docs
 weight: 10730
 url: /ko/aspose.slides.spreadsheet/cellunsupporteddataexception/
@@ -18,9 +18,9 @@ public class CellUnsupportedDataException : PptxEditException
 
 | 이름 | 설명 |
 | --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스의 새 인스턴스를 초기화합니다. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스의 새 인스턴스를 지정된 오류 메시지와 함께 초기화합니다. |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스의 새 인스턴스를 지정된 오류 메시지와 이 예외의 원인인 내부 예외에 대한 참조와 함께 초기화합니다. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스를 새 인스턴스로 초기화합니다. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | 지정된 오류 메시지를 사용하여 [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스를 새 인스턴스로 초기화합니다. |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | 지정된 오류 메시지와 이 예외의 원인인 내부 예외에 대한 참조를 사용하여 [`CellUnsupportedDataException`](../cellunsupporteddataexception) 클래스를 새 인스턴스로 초기화합니다. |
 
 ### 참고
 

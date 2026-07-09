@@ -1,6 +1,6 @@
 ---
 title: SmartArtQuickStyleType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: SmartArt 다이어그램의 스타일 스킴을 나타냅니다.
 type: docs
 weight: 10650

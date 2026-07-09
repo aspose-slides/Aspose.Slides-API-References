@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของการสะสมของพฤติกรรมเอฟเฟกต์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทของการสะสมของพฤติกรรมผล
 type: docs
 weight: 150
 url: /th/aspose.slides.animation/behavioraccumulatetype/
 ---
-## BehaviorAccumulateType การนับจำนวน
+## BehaviorAccumulateType การกำหนดค่า
 
-แสดงประเภทของการสะสมของพฤติกรรมเอฟเฟกต์.
+แสดงประเภทของการสะสมของพฤติกรรมผล
 
 ```csharp
 public enum BehaviorAccumulateType

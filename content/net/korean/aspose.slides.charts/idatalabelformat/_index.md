@@ -1,6 +1,6 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: DataLabel에 대한 서식 옵션을 나타냅니다.
 type: docs
 weight: 2040
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat 인터페이스
 
-DataLabel에 대한 서식 옵션을 나타냅니다.
+Represents formatting options for DataLabel.
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
@@ -24,15 +24,15 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | DataLabels 객체의 형식 문자열을 나타냅니다. 읽기/쓰기 String. |
 | [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | 데이터 레이블의 위치를 나타냅니다. 읽기/쓰기 [`LegendDataLabelPosition`](../legenddatalabelposition). |
 | [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | 차트의 데이터 레이블에 사용되는 구분자를 나타내는 Variant를 설정하거나 반환합니다. 읽기/쓰기 String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | 지정된 차트의 데이터 레이블 거품 크기 값 표시 동작을 나타냅니다. true이면 거품 크기 값을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | 지정된 차트의 데이터 레이블 범주 이름 표시 동작을 나타냅니다. true이면 차트의 데이터 레이블에 범주 이름을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | 지정된 차트의 데이터 레이블이 데이터 호출선으로 표시될지 데이터 레이블로 표시될지를 결정합니다. 이 DataLabelFormat 객체의 부모가 DataLabelCollection인 경우, 이 속성은 DataLabelCollection에 새 데이터 레이블이 추가될 때 ShowLabelAsDataCallout 속성의 기본값을 가져오거나 설정합니다. 이 속성을 값과 함께 설정하면 DataLabelCollection에 있는 모든 데이터 레이블의 ShowLabelAsDataCallout 속성도 해당 값으로 설정됩니다 (예: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 은 모든 DataLabels[i].ShowLabelAsDataCallout이 val과 같게 됨). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | 지정된 차트의 데이터 레이블 셀 값 표시 동작을 나타냅니다. true이면 셀 값을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | 지정된 차트의 데이터 레이블 리더 라인 표시 동작을 나타냅니다. true이면 리더 라인을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | 지정된 차트의 데이터 레이블 범례 키 표시 동작을 나타냅니다. true이면 범례 키가 표시됩니다. false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | 지정된 차트의 데이터 레이블 백분율 값 표시 동작을 나타냅니다. true이면 백분율 값을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | 데이터 레이블에 대한 시리즈 이름 표시 동작을 나타내는 Boolean 값을 반환하거나 설정합니다. true이면 시리즈 이름을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | 지정된 차트의 데이터 레이블 백분율 값 표시 동작을 나타냅니다. true이면 백분율 값을 표시하고 false이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | 특정 차트의 데이터 레이블 버블 크기 값 표시 동작을 나타냅니다. True이면 버블 크기 값을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | 특정 차트의 데이터 레이블 카테고리 이름 표시 동작을 나타냅니다. True이면 차트의 데이터 레이블에 카테고리 이름을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | 특정 차트의 데이터 레이블이 데이터 콜아웃으로 표시될지 데이터 레이블로 표시될지를 결정합니다. 이 DataLabelFormat 객체의 상위가 DataLabelCollection(데이터 레이블 컬렉션)인 경우, 이 속성은 DataLabelCollection 컬렉션에 새 데이터 레이블에 대한 ShowLabelAsDataCallout 속성의 기본값을 가져오거나 설정합니다. 값을 사용해 이 속성을 설정하면 DataLabelCollection 컬렉션의 모든 데이터 레이블에 대한 ShowLabelAsDataCallout 속성에도 동일한 값이 설정됩니다(예: "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 은 모든 DataLabels[i].ShowLabelAsDataCallout이 val과 같게 됩니다). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | 특정 차트의 데이터 레이블 셀 값 표시 동작을 나타냅니다. True이면 셀 값을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | 특정 차트의 데이터 레이블 리더 라인 표시 동작을 나타냅니다. True이면 리더 라인을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | 특정 차트의 데이터 레이블 범례 키 표시 동작을 나타냅니다. True이면 데이터 레이블 범례 키가 보입니다. 읽기/쓰기 Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | 특정 차트의 데이터 레이블 백분율 값 표시 동작을 나타냅니다. True이면 백분율 값을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | 차트의 데이터 레이블에 대한 시리즈 이름 표시 동작을 나타내는 Boolean을 반환하거나 설정합니다. True이면 시리즈 이름을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | 특정 차트의 데이터 레이블 백분율 값 표시 동작을 나타냅니다. True이면 백분율 값을 표시합니다. False이면 숨깁니다. 읽기/쓰기 Boolean. |
 
 ### 참고
 

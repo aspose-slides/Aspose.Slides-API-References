@@ -1,44 +1,44 @@
----  
+---
 title: ChartPlotArea
-second_title: Aspose.Sildes para la referencia de API .NET  
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Representa el rectángulo donde se debe trazar el gráfico.
 type: docs
-weight: 1340  
+weight: 1420
 url: /es/aspose.slides.charts/chartplotarea/
----  
+---
+## ChartPlotArea clase
 
-## Clase ChartPlotArea  
+Representa el rectángulo donde se debe trazar el gráfico.
 
-Representa el rectángulo donde se debe trazar el gráfico.  
+```csharp
+public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
+```
 
-```csharp  
-public class ChartPlotArea : DomObject<Chart>, IChartPlotArea  
-```  
+## Propiedades
 
-## Propiedades  
+| Nombre | Descripción |
+| --- | --- |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Especifica la altura real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Especifica el ancho real del elemento del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Especifica la ubicación x real (izquierda) del elemento del gráfico respecto a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Especifica la parte superior real del elemento del gráfico respecto a la esquina superior izquierda del gráfico. Llame al método IChart.ValidateChartLayout() antes para obtener los valores reales. Solo lectura Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Inferior. Solo lectura Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Gráfico. Solo lectura [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Devuelve el formato de un área de trazado. Solo lectura [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Devuelve o establece la altura de la caja delimitadora del área de trazado como una fracción de la altura del gráfico (de 0 a 1). Lectura/escritura Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Define cómo se debe calcular la ubicación: true – calculado automáticamente; definido por las propiedades X, Y, Width, Height. Solo lectura Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Si la disposición del área de trazado se define manualmente, esta propiedad especifica si disponer el área de trazado por su interior (sin incluir ejes y etiquetas de ejes) o por su exterior (incluyendo ejes y etiquetas de ejes). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Derecha. Solo lectura Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Devuelve o establece el ancho de la caja delimitadora del área de trazado como una fracción del ancho del gráfico (de 0 a 1). Lectura/escritura Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Devuelve o establece la coordenada x de la esquina superior izquierda de la caja delimitadora del área de trazado como una fracción del ancho del gráfico (de 0 a 1). Lectura/escritura Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Devuelve o establece la coordenada y de la esquina superior izquierda de la caja delimitadora del área de trazado como una fracción de la altura del gráfico (de 0 a 1). Lectura/escritura Single. |
 
-| Nombre | Descripción |  
-| --- | --- |  
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Especifica la altura actual del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lectura única. |  
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Especifica el ancho actual del elemento del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lectura única. |  
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Especifica la ubicación x actual (izquierda) del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lectura única. |  
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Especifica la parte superior actual del elemento del gráfico en relación con la esquina superior izquierda del gráfico. Llama al método IChart.ValidateChartLayout() antes de obtener los valores actuales. Lectura única. |  
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Fondo. Solo lectura única. |  
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Gráfico. Solo lectura [`IChart`](../ichart). |  
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Devuelve el formato de un área de trazado. Solo lectura [`IFormat`](../iformat). |  
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Devuelve o establece la altura de un área de trazado como una fracción de la altura del gráfico (de 0 a 1). Lectura/escritura única. |  
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Define cómo se debe calcular la ubicación: verdadero - calculado automáticamente; definido por las propiedades X, Y, Ancho, Altura. Solo lectura booleano. |  
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Si el diseño del área de trazado se define manualmente, esta propiedad especifica si el área de trazado se diseña por dentro (sin incluir los ejes y las etiquetas de ejes) o por fuera (incluyendo los ejes y las etiquetas de ejes). Lectura/escritura [`LayoutTargetType`](./layouttargettype). |  
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Derecha. Solo lectura única. |  
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Devuelve o establece el ancho de un área de trazado como una fracción del ancho del gráfico (de 0 a 1). Lectura/escritura única. |  
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Devuelve o establece la coordenada x de la esquina superior izquierda del área de trazado como una fracción del ancho del gráfico (de 0 a 1). Lectura/escritura única. |  
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Devuelve o establece la coordenada y de la esquina superior izquierda del área de trazado como una fracción de la altura del gráfico (de 0 a 1). Lectura/escritura única. |  
+### Ver también
 
-### Vea También  
-* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)  
-* clase [Chart](../chart)  
-* interfaz [IChartPlotArea](../ichartplotarea)  
-* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)  
-* ensamblado [Aspose.Slides](../../)  
+* clase [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* clase [Chart](../chart)
+* interfaz [IChartPlotArea](../ichartplotarea)
+* espacio de nombres [Aspose.Slides.Charts](../../aspose.slides.charts)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

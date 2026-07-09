@@ -1,12 +1,12 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
 description: गणित फ़ंक्शन बनाने की अनुमति देता है
 type: docs
 weight: 8730
 url: /hi/aspose.slides.mathtext/mathfunctionfactory/
 ---
-## MathFunctionFactory वर्ग
+## MathFunctionFactory क्लास
 
 गणित फ़ंक्शन बनाने की अनुमति देता है
 
@@ -18,20 +18,20 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [MathFunctionFactory](mathfunctionfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [MathFunctionFactory](mathfunctionfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | गणित फ़ंक्शन बनाता है |
 | [CreateMathFunction](../../aspose.slides.mathtext/mathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | गणित फ़ंक्शन बनाता है |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-COM संगतता के लिये
+COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathFunctionFactory](../imathfunctionfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

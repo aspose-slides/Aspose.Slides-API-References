@@ -1,14 +1,14 @@
 ---
 title: IPatternFormat
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงลายที่ใช้เติมรูปทรง.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แทนลวดลายเพื่อเติมรูปทรง.
 type: docs
 weight: 6620
 url: /th/aspose.slides/ipatternformat/
 ---
 ## IPatternFormat อินเทอร์เฟซ
 
-แสดงถึงลายที่ใช้เติมรูปทรง.
+แทนลวดลายเพื่อเติมรูปทรง
 
 ```csharp
 public interface IPatternFormat
@@ -18,16 +18,16 @@ public interface IPatternFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | ส่งค่ากลับสีแบบลายพื้นหลัง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | ส่งค่ากลับสีแบบลายพื้นหน้า. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | ส่งค่า หรือกำหนดสไตล์แบบลาย. อ่าน/เขียน [`PatternStyle`](../patternstyle). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | ส่งกลับสีลวดลายพื้นหลัง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | ส่งกลับสีลวดลายพื้นหน้า อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | ส่งกลับหรือกำหนดรูปแบบลวดลาย อ่าน/เขียน [`PatternStyle`](../patternstyle). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | สร้างภาพไทล์สำหรับการเติมแบบลาย. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | สร้างภาพไทล์สำหรับการเติมแบบลายด้วยสีที่ระบุ. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | สร้างรูปภาพกระเบื้องสำหรับการเติมลวดลาย. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | สร้างรูปภาพกระเบื้องสำหรับการเติมลวดลายด้วยสีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

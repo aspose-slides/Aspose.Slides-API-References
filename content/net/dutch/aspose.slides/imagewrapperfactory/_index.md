@@ -16,17 +16,17 @@ public class ImageWrapperFactory : IImageWrapperFactory
 
 ## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [ImageWrapperFactory](imagewrapperfactory)() | De standaardconstructor. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initialiseert een nieuw exemplaar van de ImageWrapper-klasse met de opgegeven bestaande afbeelding. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initialiseert een nieuw exemplaar van de BitmapWrapper-klasse met de opgegeven gegevensstroom. |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initialiseert een nieuw exemplaar van de BitmapWrapper-klasse met het opgegeven bestand. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Initialiseert een nieuw exemplaar van de ImageWrapper klasse vanaf de opgegeven bestaande afbeelding. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Initialiseert een nieuw exemplaar van de BitmapWrapper klasse vanaf de opgegeven gegevensstroom. |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Initialiseert een nieuw exemplaar van de BitmapWrapper klasse vanaf het opgegeven bestand. |
 
 ### Zie ook
 

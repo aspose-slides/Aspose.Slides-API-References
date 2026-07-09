@@ -1,34 +1,34 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes용 .NET API 참조
-description: Gray Scale 효과를 나타냅니다. 모든 효과 색상 값을 그들의 휘도에 해당하는 회색 음영으로 변환합니다. 효과 알파 불투명도 값은 영향을 받지 않습니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 그레이 스케일 효과를 나타냅니다. 모든 효과 색상 값을 휘도에 해당하는 회색 음영으로 변환합니다. 효과 알파 불투명도 값은 영향을 받지 않습니다.
 type: docs
 weight: 3000
 url: /ko/aspose.slides.effects/grayscale/
 ---
 ## GrayScale 클래스
 
-Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
+그레이 스케일 효과를 나타냅니다. 모든 효과 색상 값을 그들의 휘도에 해당하는 회색 음영으로 변환합니다. 효과 알파(불투명도) 값은 영향을 받지 않습니다.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
 ```
 
-## 속성
+## Properties
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## 메서드
+## Methods
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 지정된 [`GrayScale`](../grayscale)가 현재 [`GrayScale`](../grayscale)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 상속이 적용된 Gray Scale 효과 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 상속이 적용된 효과적인 그레이 스케일 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 특정 타입에 대한 해시 함수 역할을 합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IGrayScale](../igrayscale)

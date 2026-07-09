@@ -1,7 +1,7 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 IChartSeries./ichartseries 的唯讀集合
+description: 表示 IChartSeries 的唯讀集合./ichartseries
 type: docs
 weight: 1970
 url: /zh-hant/aspose.slides.charts/ichartseriesreadonlycollection/

@@ -1,29 +1,29 @@
 ---
 title: TabAlignment
-second_title: مرجع API .NET برای Aspose.Sildes
+second_title: Aspose.Sildes برای مرجع API .NET
 description: نمایانگر تراز تب است.
 type: docs
 weight: 10830
 url: /fa/aspose.slides/tabalignment/
 ---
-## TabAlignment شمارش
+## TabAlignment شمارشی
 
-نمایش تراز تب.
+نمایانگر تراز تب است.
 
 ```csharp
 public enum TabAlignment
 ```
 
-### مقادیر
+### مقدارها
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Left | `0` | تراز چپ |
-| Center | `1` | تراز وسط |
-| Right | `2` | تراز راست |
-| Decimal | `3` | تراز اعشاری |
+| Left | `0` | ترازبندی چپ |
+| Center | `1` | ترازبندی وسط |
+| Right | `2` | ترازبندی راست |
+| Decimal | `3` | ترازبندی اعشاری |
 
-### موارد مرتبط
+### مشاهده نیز
 
 * فضای نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 슬라이드 전환 효과를 표시합니다.
 type: docs
 weight: 10160
@@ -19,8 +19,8 @@ public interface IRevealTransition : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 전환이 검은색을 통해 페이드되는지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | 전환의 방향. 읽기/쓰기 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | 전환이 검은색을 통해 페이드되는지 지정합니다. 읽기/쓰기 Boolean. |
 
 ### 참고
 

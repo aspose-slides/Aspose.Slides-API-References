@@ -1,24 +1,24 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes .NET API Referenciája
-description: A százalékos folyamatfrissítések mentéséhez használt visszahívási objektumot reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy visszahívási objektumot képvisel a haladásfrissítések százalékos mentéséhez.
 type: docs
-weight: 6790
+weight: 6810
 url: /hu/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback interfész
 
-A százalékos folyamatfrissítések mentéséhez használt visszahívási objektumot reprezentál.
+Egy visszahívási objektumot képvisel a haladásfrissítések százalékban történő mentéséhez.
 
 ```csharp
 public interface IProgressCallback
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Jelent egy folyamatfrissítést. |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Jelent egy haladásfrissítést. |
 
 ### Lásd még
 

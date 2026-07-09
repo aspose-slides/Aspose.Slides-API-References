@@ -1,9 +1,9 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un tipo di azione di collegamento ipertestuale.
 type: docs
-weight: 5110
+weight: 5130
 url: /it/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enumerazione
@@ -20,7 +20,7 @@ public enum HyperlinkActionType
 | --- | --- | --- |
 | Unknown | `-1` | Tipo di azione non riconosciuto. |
 | NoAction | `0` | Nessuna azione. |
-| Hyperlink | `1` | Collegamento ipertestuale normale. |
+| Hyperlink | `1` | Collegamento ipertestuale usuale. |
 | JumpFirstSlide | `2` | Salta alla prima diapositiva della presentazione. |
 | JumpPreviousSlide | `3` | Salta alla diapositiva precedente. |
 | JumpNextSlide | `4` | Salta alla diapositiva successiva. |
@@ -28,9 +28,9 @@ public enum HyperlinkActionType
 | JumpEndShow | `6` | Salta alla fine della presentazione. |
 | JumpLastViewedSlide | `7` | Salta all'ultima diapositiva visualizzata. |
 | JumpSpecificSlide | `8` | Salta alla diapositiva specifica, indicata dalla proprietà [`TargetSlide`](../ihyperlink/targetslide). |
-| StartCustomSlideShow | `9` | Avvia presentazione personalizzata. |
-| OpenFile | `10` | Apri il file di riferimento. |
-| OpenPresentation | `11` | Apri la presentazione di riferimento. |
+| StartCustomSlideShow | `9` | Avvia una presentazione personalizzata. |
+| OpenFile | `10` | Apre il file di riferimento. |
+| OpenPresentation | `11` | Apre la presentazione di riferimento. |
 | StartStopMedia | `12` | Avvia/ferma la riproduzione del file multimediale. |
 | StartMacro | `13` | Avvia l'esecuzione dello script macro. |
 | StartProgram | `14` | Avvia il programma. |

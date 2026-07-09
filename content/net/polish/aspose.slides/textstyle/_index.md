@@ -1,9 +1,9 @@
 ---
 title: TextStyle
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Ta klasa zawiera właściwości formatowania stylu tekstu.
 type: docs
-weight: 10980
+weight: 11000
 url: /pl/aspose.slides/textstyle/
 ---
 ## TextStyle klasa
@@ -26,9 +26,9 @@ public sealed class TextStyle : PVIObject, ITextStyle
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Pobiera skuteczne dane formatowania stylu tekstu z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Pobiera efektywne dane formatowania stylu tekstu z uwzględnionym dziedziczeniem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Jeśli istnieje poziom stylu, zwraca go, w przeciwnym razie zwraca null. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Jeśli poziom stylu istnieje, zwraca go, w przeciwnym razie zwraca null. |
 
 ### Zobacz także
 

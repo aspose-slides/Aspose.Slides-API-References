@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一組點，這些點應在條形餅圖或餅形餅圖的第二個餅或條形上以自訂分割方式繪製。
+description: 表示在 bar-of-pie 或 pie-of-pie 圖表上，第二個餅形或長條將以自訂分割方式繪製的點集合。
 type: docs
 weight: 2190
 url: /zh-hant/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection 介面
 
-表示一組點，這些點應在條形餅圖或餅形餅圖的第二個餅或條形上以自訂分割方式繪製。
+表示在 bar-of-pie 或 pie-of-pie 圖表上，第二個餅形或長條將以自訂分割方式繪製的點集合。
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -19,7 +19,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | 傳回 IEnumerable 介面。 |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | 傳回依索引取得的圖表資料點。 |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | 傳回圖表資料點依索引。 |
 
 ## 方法
 

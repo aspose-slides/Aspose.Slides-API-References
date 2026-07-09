@@ -1,6 +1,6 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示動畫縮放效果。
 type: docs
 weight: 780
@@ -16,24 +16,24 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [ScaleEffect](scaleeffect)() | 預設建構函式。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示是否累積動畫行為。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他正在執行的動畫合併。可讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | 描述動畫的相對偏移值（以百分比表示）。可讀寫 PointF。 |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | 指定動畫起始的 x/y 座標（以百分比表示）。可讀寫 PointF。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示動畫行為是否累積。讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他執行中的動畫結合。讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | 描述動畫的相對偏移值（以百分比表示）。讀寫 PointF。 |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | 指定動畫開始的 x/y 座標（以百分比表示）。讀寫 PointF。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行為的屬性。唯讀 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行為的時序屬性。可讀寫 [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | 指定動畫縮放效果的目標位置（以百分比表示）。可讀寫 PointF。 |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | 決定內容是否應該被縮放。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行為的計時屬性。讀寫 [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | 指定動畫縮放效果的目標位置（以百分比表示）。讀寫 PointF。 |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | 決定內容是否應該放大。讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [Behavior](../behavior)
 * 介面 [IScaleEffect](../iscaleeffect)

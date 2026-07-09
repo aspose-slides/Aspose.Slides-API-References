@@ -3,7 +3,7 @@ title: ChartShapeType
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta una forma di grafico.
 type: docs
-weight: 1450
+weight: 1470
 url: /it/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumerazione
@@ -20,11 +20,11 @@ public enum ChartShapeType
 | --- | --- | --- |
 | NotDefined | `-1` | La forma del grafico non è definita. |
 | Box | `0` | Specifica che il grafico deve essere disegnato con una forma a scatola. |
-| Cone | `1` | Specifica che il grafico deve essere disegnato come un cono, con la base del cono sul pavimento e la punta del cono in cima al marcatore dati. |
+| Cone | `1` | Specifica che il grafico deve essere disegnato come un cono, con la base del cono sul pavimento e la punta del cono nella parte superiore del marcatore dati. |
 | ConeToMax | `2` | Specifica che il grafico deve essere disegnato con coni troncati in modo che la punta del cono corrisponda al valore massimo dei dati. |
 | Cylinder | `3` | Specifica che il grafico deve essere disegnato come un cilindro. |
-| Pyramid | `4` | Specifica che il grafico deve essere disegnato come una piramide rettangolare, con la base della piramide sul pavimento e la punta della piramide in cima al marcatore dati. |
-| PyramidToMaximum | `5` | Specifica che il grafico deve essere disegnato con piramidi troncate in modo che la punta della piramide corrisponda al valore massimo dei dati. |
+| Pyramid | `4` | Specifica che il grafico deve essere disegnato come una piramide rettangolare, con la base della piramide sul pavimento e la punta della piramide nella parte superiore del marcatore dati. |
+| PyramidToMaximum | `5` | Specifica che il grafico deve essere disegnato con coni troncati in modo che la punta del cono corrisponda al valore massimo dei dati. |
 
 ### Vedi anche
 

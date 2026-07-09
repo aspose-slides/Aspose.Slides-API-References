@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili efek Alpha Modulate Fixed. Nilai opacity alfa efek dikalikan dengan persentase tetap.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili efek Alpha Modulate Fixed. Nilai opasitas alpha efek dikalikan dengan persentase tetap.
 type: docs
-weight: 3100
+weight: 3120
 url: /id/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed antarmuka
 
-Mewakili efek Alpha Modulate Fixed. Nilai alpha (opacity) efek dikalikan dengan persentase tetap.
+Mewakili efek Alpha Modulate Fixed. Nilai alpha (opasitas) efek dikalikan dengan persentase tetap.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -20,8 +20,8 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 | Nama | Deskripsi |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Mengembalikan jumlah efek dalam persentase. Baca/tulis Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IAccessiblePVIObject. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IImageTransformOperation. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Memungkinkan mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Memungkinkan mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

@@ -1,12 +1,12 @@
 ---
 title: LinkEmbedDecision
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Określa, jak obiekt będzie przetwarzany podczas zapisywania.
+second_title: Aspose.Sildes dla referencji API .NET
+description: Określa, w jaki sposób obiekt będzie przetwarzany podczas zapisywania.
 type: docs
-weight: 4210
+weight: 4230
 url: /pl/aspose.slides.export/linkembeddecision/
 ---
-## LinkEmbedDecision wyliczenie
+## enumeracja LinkEmbedDecision
 
 Określa, jak obiekt będzie przetwarzany podczas zapisywania.
 
@@ -18,8 +18,8 @@ public enum LinkEmbedDecision
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Link | `0` | Obiekt zostanie przechowany zewnętrznie, odwoływany przez URL |
-| Embed | `1` | Obiekt powinien być osadzony w generowanym pliku, jeśli to możliwe. Jeśli osadzanie jest niemożliwe, zostanie wywołane GetUrl i w zależności od wyniku obiekt zostanie odwoływany przez URL lub zignorowany. |
+| Link | `0` | Obiekt zostanie przechowany zewnętrznie, odwoływany przez adres URL |
+| Embed | `1` | Obiekt powinien być osadzony w generowanym pliku, jeśli to możliwe. Jeśli osadzenie jest niemożliwe, zostanie wywołana metoda GetUrl i w zależności od wyniku, obiekt będzie odwoływany przez adres URL lub zostanie zignorowany. |
 | Ignore | `2` | Obiekt zostanie zignorowany. |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
 second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション フォーマットを表します。
+description: グラデーション形式を表します。
 type: docs
-weight: 6000
+weight: 6020
 url: /ja/aspose.slides/igradientstop/
 ---
 ## IGradientStop インターフェイス
 
-グラデーション フォーマットを表します。
+グラデーション形式を表します。
 
 ```csharp
 public interface IGradientStop
@@ -18,10 +18,10 @@ public interface IGradientStop
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | グラデーション ストップの色を取得します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | グラデーション ストップの位置 (0..1) を取得または設定します。読み書き Single。 |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | グラデーション ストップの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | グラデーション ストップの位置 (0..1) を取得または設定します。読み書き可能 Single。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

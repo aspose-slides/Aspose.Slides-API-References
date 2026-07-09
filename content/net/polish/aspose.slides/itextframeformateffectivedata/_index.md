@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Niezmienny obiekt zawierający skuteczne właściwości formatowania ramki tekstu.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Niezmienny obiekt zawierający efektywne właściwości formatowania ramki tekstowej.
 type: docs
-weight: 7270
+weight: 7290
 url: /pl/aspose.slides/itextframeformateffectivedata/
 ---
-## interfejs ITextFrameFormatEffectiveData
+## ITextFrameFormatEffectiveData interfejs
 
-Obiekt niemutowalny zawierający skuteczne właściwości formatowania ramki tekstu.
+Niezmienny obiekt zawierający efektywne właściwości formatowania ramki tekstowej.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,24 +18,24 @@ public interface ITextFrameFormatEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Zwraca pionowy punkt kotwiczenia tekstu w obiekcie TextFrame. Tylko do odczytu [`TextAnchorType`](../textanchortype). |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Zwraca pionowy tekst kotwicy w TextFrame. Tylko do odczytu [`TextAnchorType`](../textanchortype). |
 | [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Zwraca tryb automatycznego dopasowania tekstu. Tylko do odczytu [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Zwraca, czy tekst powinien być wyśrodkowany w poziomie w ramce. Tylko do odczytu Boolean. |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Zwraca, czy tekst ma być wyśrodkowany w ramce w poziomie. Tylko do odczytu Boolean. |
 | [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Określa liczbę kolumn tekstu w prostokącie ograniczającym. Tylko do odczytu Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Określa odstęp między kolumnami tekstu w obszarze tekstowym (w punktach). Tylko do odczytu Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Zwraca dolny margines (punkty) w obiekcie TextFrame. Tylko do odczytu Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Zwraca lewy margines (punkty) w obiekcie TextFrame. Tylko do odczytu Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Zwraca prawy margines (punkty) w obiekcie TextFrame. Tylko do odczytu Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Zwraca górny margines (punkty) w obiekcie TextFrame. Tylko do odczytu Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Zwraca skuteczny styl tekstu. Tylko do odczytu [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Określa odstęp pomiędzy kolumnami tekstu w obszarze tekstowym (w punktach). Tylko do odczytu Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Zwraca dolny margines (punkty) w TextFrame. Tylko do odczytu Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Zwraca lewy margines (punkty) w TextFrame. Tylko do odczytu Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Zwraca prawy margines (punkty) w TextFrame. Tylko do odczytu Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Zwraca górny margines (punkty) w TextFrame. Tylko do odczytu Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Zwraca styl efektywnego tekstu. Tylko do odczytu [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Zwraca orientację tekstu. Tylko do odczytu [`TextVerticalType`](../textverticaltype). |
 | [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Zwraca, czy tekst jest zawijany przy marginesach TextFrame. Tylko do odczytu Boolean. |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`ITextFrameFormat`](../itextframeformat) do zwracania skutecznych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`ITextFrameFormat`](../itextframeformat) w celu zwrócenia efektywnych wartości formatowania z zastosowanym dziedziczeniem.
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zbiór [Aspose.Slides](../../)

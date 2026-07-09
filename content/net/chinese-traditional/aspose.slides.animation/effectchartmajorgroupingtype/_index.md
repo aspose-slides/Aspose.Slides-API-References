@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表元素的動畫效果類型。
+description: 表示圖表元素之動畫效果的類型。
 type: docs
 weight: 290
 url: /zh-hant/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 ## EffectChartMajorGroupingType 列舉
 
-表示圖表元件的動畫效果類型。
+表示圖表元素之動畫效果的類型。
 
 ```csharp
 public enum EffectChartMajorGroupingType
@@ -16,10 +16,10 @@ public enum EffectChartMajorGroupingType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 數值 | 說明 |
 | --- | --- | --- |
-| BySeries | `0` | 按系列動畫圖表 |
-| ByCategory | `1` | 按類別動畫圖表 |
+| BySeries | `0` | 依序列動畫圖表 |
+| ByCategory | `1` | 依類別動畫圖表 |
 
 ### 另請參閱
 

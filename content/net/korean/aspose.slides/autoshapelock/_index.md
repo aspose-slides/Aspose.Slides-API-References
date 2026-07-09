@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Slides for .NET API 레퍼런스
-description: 부모 AutoshapeEx에서 비활성화된 작업을 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 부모 AutoshapeEx에서 사용이 비활성화된 작업을 결정합니다.
 type: docs
 weight: 910
 url: /ko/aspose.slides/autoshapelock/
 ---
 ## AutoShapeLock 클래스
 
-부모 AutoshapeEx에서 비활성화된 작업을 결정합니다.
+부모 AutoshapeEx에서 사용이 제한된 작업을 결정합니다.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -18,20 +18,20 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | 이름 | 설명 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | 조정 값 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | 화살표 머리 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | 크기 조정 시 형태가 종횡비를 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | 이 형태의 윤곽 직접 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | 이 형태를 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | 조정 값을 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | 화살표 머리를 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | 도형이 크기 조정 시 종횡비를 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | 이 도형의 외곽선을 직접 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | 이 도형을 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 잠금 플래그가 비활성화된 경우 true를 반환합니다. 읽기 전용 Boolean. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | 이 형태를 이동하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | 이 형태의 회전 각도 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | 이 형태를 선택하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | 형태 유형 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | 이 형태의 크기 조정이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | 이 도형을 이동하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | 이 도형의 회전 각도를 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | 이 도형을 선택하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | 도형 유형을 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | 이 도형의 크기를 조정하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | 텍스트 편집이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [BaseShapeLock](../baseshapelock)
 * 인터페이스 [IAutoShapeLock](../iautoshapelock)

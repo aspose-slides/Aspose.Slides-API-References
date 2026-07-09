@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อินเทอร์เฟซพารามิเตอร์เส้นเสริม.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: อินเทอร์เฟซพารามิเตอร์เส้นช่วยเหลือ.
 type: docs
 weight: 6330
 url: /th/aspose.slides/ilineparamsource/
 ---
 ## ILineParamSource อินเทอร์เฟซ
 
-อินเทอร์เฟซพารามิเตอร์เส้นเสริม.
+อินเทอร์เฟซพารามิเตอร์เส้นช่วยเหลือ
 
 ```csharp
 public interface ILineParamSource

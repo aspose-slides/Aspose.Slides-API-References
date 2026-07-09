@@ -1,14 +1,14 @@
 ---
 title: IBehavior
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho hành vi lớp cơ sở của hiệu ứng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn hành vi lớp cơ sở của hiệu ứng.
 type: docs
 weight: 410
 url: /vi/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior giao diện
 
-Đại diện cho hành vi lớp cơ sở của hiệu ứng.
+Biểu diễn hành vi lớp cơ sở của hiệu ứng.
 
 ```csharp
 public interface IBehavior
@@ -18,10 +18,10 @@ public interface IBehavior
 
 | Tên | Mô tả |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Biểu thị xem các hành vi hoạt ảnh có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Biểu thị xem hành vi hoạt ảnh hiện tại có được kết hợp với các hoạt ảnh đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Biểu thị các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Biểu thị các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Biểu diễn liệu các hành vi hoạt ảnh có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Biểu diễn liệu hành vi hoạt ảnh hiện tại có được kết hợp với các hoạt ảnh đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Biểu diễn các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Biểu diễn các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
 
 ### Xem thêm
 

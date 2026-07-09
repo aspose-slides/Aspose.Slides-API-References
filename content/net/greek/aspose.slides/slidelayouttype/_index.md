@@ -1,9 +1,9 @@
 ---
 title: SlideLayoutType
-second_title: Aspose.Sildes για .NET – Αναφορά API
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τον τύπο διάταξης διαφάνειας.
 type: docs
-weight: 9970
+weight: 9990
 url: /el/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType απαρίθμηση
@@ -23,37 +23,37 @@ public enum SlideLayoutType : sbyte
 | Text | `1` | Κείμενο |
 | TwoColumnText | `2` | Κείμενο δύο στηλών |
 | Table | `3` | Πίνακας |
-| TextAndChart | `4` | Κείμενο και διάγραμμα |
-| ChartAndText | `5` | Διάγραμμα και κείμενο |
+| TextAndChart | `4` | Κείμενο και Διάγραμμα |
+| ChartAndText | `5` | Διάγραμμα και Κείμενο |
 | Diagram | `6` | Διάγραμμα |
 | Chart | `7` | Διάγραμμα |
 | TextAndClipArt | `8` | Κείμενο και Clip Art |
-| ClipArtAndText | `9` | Clip Art και κείμενο |
-| TitleOnly | `10` | Μόνο τίτλος |
+| ClipArtAndText | `9` | Clip Art και Κείμενο |
+| TitleOnly | `10` | Μόνο Τίτλος |
 | Blank | `11` | Κενό |
-| TextAndObject | `12` | Κείμενο και αντικείμενο |
-| ObjectAndText | `13` | Αντικείμενο και κείμενο |
+| TextAndObject | `12` | Κείμενο και Αντικείμενο |
+| ObjectAndText | `13` | Αντικείμενο και Κείμενο |
 | Object | `14` | Αντικείμενο |
-| TitleAndObject | `15` | Τίτλος και αντικείμενο |
-| TextAndMedia | `16` | Κείμενο και πολυμέσα |
-| MediaAndText | `17` | Πολυμέσα και κείμενο |
-| ObjectOverText | `18` | Αντικείμενο πάνω από κείμενο |
-| TextOverObject | `19` | Κείμενο πάνω από αντικείμενο |
-| TextAndTwoObjects | `20` | Κείμενο και δύο αντικείμενα |
-| TwoObjectsAndText | `21` | Δύο αντικείμενα και κείμενο |
-| TwoObjectsOverText | `22` | Δύο αντικείμενα πάνω από κείμενο |
-| FourObjects | `23` | Τέσσερα αντικείμενα |
-| VerticalText | `24` | Κατακόρυφο κείμενο |
-| ClipArtAndVerticalText | `25` | Clip Art και κατακόρυφο κείμενο |
-| VerticalTitleAndText | `26` | Κατακόρυφος τίτλος και κείμενο |
-| VerticalTitleAndTextOverChart | `27` | Κατακόρυφος τίτλος και κείμενο πάνω από διάγραμμα |
-| TwoObjects | `28` | Δύο αντικείμενα |
-| ObjectAndTwoObject | `29` | Αντικείμενο και δύο αντικείμενα |
-| TwoObjectsAndObject | `30` | Δύο αντικείμενα και αντικείμενο |
-| SectionHeader | `31` | Κεφαλίδα ενότητας |
-| TwoTextAndTwoObjects | `32` | Δύο κείμενα και δύο αντικείμενα |
-| TitleObjectAndCaption | `33` | Τίτλος, αντικείμενο και λεζάντα |
-| PictureAndCaption | `34` | Εικόνα και λεζάντα |
+| TitleAndObject | `15` | Τίτλος και Αντικείμενο |
+| TextAndMedia | `16` | Κείμενο και Πολυμέσα |
+| MediaAndText | `17` | Πολυμέσα και Κείμενο |
+| ObjectOverText | `18` | Αντικείμενο πάνω από Κείμενο |
+| TextOverObject | `19` | Κείμενο πάνω από Αντικείμενο |
+| TextAndTwoObjects | `20` | Κείμενο και Δύο Αντικείμενα |
+| TwoObjectsAndText | `21` | Δύο Αντικείμενα και Κείμενο |
+| TwoObjectsOverText | `22` | Δύο Αντικείμενα πάνω από Κείμενο |
+| FourObjects | `23` | Τέσσερα Αντικείμενα |
+| VerticalText | `24` | Κατακόρυφο Κείμενο |
+| ClipArtAndVerticalText | `25` | Clip Art και Κατακόρυφο Κείμενο |
+| VerticalTitleAndText | `26` | Κατακόρυφος Τίτλος και Κείμενο |
+| VerticalTitleAndTextOverChart | `27` | Κατακόρυφος Τίτλος και Κείμενο πάνω από Διάγραμμα |
+| TwoObjects | `28` | Δύο Αντικείμενα |
+| ObjectAndTwoObject | `29` | Αντικείμενο και Δύο Αντικείμενα |
+| TwoObjectsAndObject | `30` | Δύο Αντικείμενα και Αντικείμενο |
+| SectionHeader | `31` | Κεφαλίδα Ενότητας |
+| TwoTextAndTwoObjects | `32` | Δύο Κείμενα και Δύο Αντικείμενα |
+| TitleObjectAndCaption | `33` | Τίτλος, Αντικείμενο και Υπόμνημα |
+| PictureAndCaption | `34` | Εικόνα και Υπόμνημα |
 
 ### Δείτε επίσης
 

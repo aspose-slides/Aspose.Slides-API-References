@@ -1,9 +1,9 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: ActiveX コントロールのコレクションです。
 type: docs
-weight: 5630
+weight: 5650
 url: /ja/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection インターフェイス
@@ -18,10 +18,10 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | コレクション内のプロパティの数を返します。読み取り専用 Int32。 |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。 読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | コレクション内のプロパティ数を返します。 読み取り専用 Int32。 |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | プロパティを取得または設定します。 |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | コレクション内のプロパティの数を返します。読み取り専用 ICollection。 |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | コレクション内のプロパティ数を返します。 読み取り専用 ICollection。 |
 
 ## メソッド
 

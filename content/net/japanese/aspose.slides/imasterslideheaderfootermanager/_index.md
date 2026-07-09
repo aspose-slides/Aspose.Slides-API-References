@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API リファレンス
-description: マスタースライドのフッター、日時、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドとスライドはマスタースライドを使用し、依存します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: マスタースライドのフッター、日付時刻、ページ番号プレースホルダーおよびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。
 type: docs
-weight: 6420
+weight: 6440
 url: /ja/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager インターフェイス
 
-マスタースライドのフッター、日時、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。
+マスタースライドのフッター、日付時刻、ページ番号プレースホルダーおよびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日時プレースホルダーとすべての子の日時プレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日時プレースホルダーとすべての子の日時プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーとすべての子のフッタープレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーとすべての子のフッタープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーとすべての子のページ番号プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウトスライドおよびスライドはマスタースライドを使用し、依存します。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日付時刻プレースホルダーおよびすべての子日付時刻プレースホルダーにテキストを設定します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日付時刻プレースホルダーおよびすべての子日付時刻プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーおよびすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーおよびすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーおよびすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存するレイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存するレイアウトスライドやスライドはマスタースライドを使用し、依存しています。 |
 
 ### 参照
 

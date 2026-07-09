@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
-description: 실제 폰트 스키마 속성을 포함하는 불변 객체입니다.
+description: 유효한 글꼴 스킴 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 11260
 url: /ko/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData 인터페이스
 
-Immutable object which contains effective font scheme properties.
+유효한 글꼴 스킴 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,15 +18,15 @@ public interface IFontSchemeEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 슬라이드의 "heading" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 슬라이드의 "body" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 폰트 스키마 이름을 반환합니다. 읽기 전용 String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | 슬라이드의 "제목" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | 슬라이드의 "본문" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | 글꼴 스킴 이름을 반환합니다. 읽기 전용 String. |
 
-### 비고
+### 참고
 
 이 인터페이스는 [`IThemeEffectiveData`](../ithemeeffectivedata)의 일부로 사용됩니다.
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,42 +1,42 @@
 ---
 title: IChartCategoryCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: IChartCategory のコレクションを表します。/ichartcategory
+description: IChartCategory のコレクションを表します./ichartcategory
 type: docs
-weight: 1740
+weight: 1760
 url: /ja/aspose.slides.charts/ichartcategorycollection/
 ---
-## IChartCategoryCollection インターフェイス
+## IChartCategoryCollection インターフェース
 
-Represents collection of [`IChartCategory`](../ichartcategory)
+[`IChartCategory`](../ichartcategory) のコレクションを表します。
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 ```
 
-## プロパティ
+## Properties
 
 | 名前 | 説明 |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 使用されているカテゴリ グループ化レベルの数を返します。マルチレベルカテゴリの場合は 1 より大きくなります。読み取り専用の Int32。 |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 使用されているカテゴリ グループ化レベルの数を返します。マルチレベル カテゴリの場合は 1 より大きくなります。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | true の場合、ワークシートがカテゴリの保存に使用されます（この場合はマルチレベルカテゴリをサポートします）。false の場合、ワークシートは値の保存に使用されません（この場合はマルチレベルカテゴリをサポートしません）。読み書き可能な Boolean。 |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | true の場合、ワークシートはカテゴリの保存に使用されます（このケースはマルチレベル カテゴリをサポートします）。false の場合、ワークシートは値の保存に使用されません（このケースはマルチレベル カテゴリをサポートしません）。読み取り/書き込み Boolean。 |
 
-## メソッド
+## Methods
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | コレクションにカテゴリが存在する場合はそれを返します。存在しない場合は [`IChartDataCell`](../ichartdatacell) から新しいチャートカテゴリを作成し、コレクションに追加します。 |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | コレクションにカテゴリが存在すればそれを返します。存在しない場合は [`IChartDataCell`](../ichartdatacell) から新しいチャート カテゴリを作成し、コレクションに追加します。 |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 値から新しい [`IChartCategory`](../ichartcategory) を作成し、コレクションに追加します。 |
-| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | コレクションからすべての要素を削除します。 |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 指定された [`IChartCategory`](../ichartcategory) を検索し、コレクション全体で最初に出現する場所のゼロベースインデックスを返します。 |
+| [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | コレクション内のすべての要素を削除します。 |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 指定された [`IChartCategory`](../ichartcategory) を検索し、コレクション全体で最初に見つかった位置のゼロベースインデックスを返します。 |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | 指定された値を削除します。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | 指定されたインデックスの要素を削除します。 |
 
-### 参照
+### 関連項目
 
-* インターフェイス [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* インターフェイス [IChartCategory](../ichartcategory)
+* インターフェース [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* インターフェース [IChartCategory](../ichartcategory)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

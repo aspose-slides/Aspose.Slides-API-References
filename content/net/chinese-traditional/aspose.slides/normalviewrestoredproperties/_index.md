@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 指定投影片區域的大小，當為 restoredTop 的子項時為寬度，當為 restoredLeft 的子項時為高度，在常規檢視中，若區域為可變的還原大小（既非最小化亦非最大化）時。
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定在普通檢視中，當區域為可變的還原大小（既非最小化也非最大化）時，投影片區域的尺寸——若為 restoredTop 子項則為寬度，若為 restoredLeft 子項則為高度。
 type: docs
 weight: 9120
 url: /zh-hant/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties 類別
 
-指定投影片區域的大小（在常規檢視中，若為 restoredTop 的子項則為寬度，若為 restoredLeft 的子項則為高度），當該區域為可變的還原大小（既非最小化亦非最大化）時。
+指定投影片區域的大小（在普通檢視中，當區域為變動的還原大小（既非最小化亦非最大化）時，若為 restoredTop 子項則為寬度，若為 restoredLeft 子項則為高度）。
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,10 +18,10 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在調整包含該檢視之視窗大小時，側邊內容區域的大小是否應補償新的尺寸。讀寫 Boolean。 |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定投影片區域的大小（在 RestoredTop 的子項則為寬度，於 RestoredLeft 的子項則為高度）。讀寫 Single。 |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | 指定在調整應用程式中包含此檢視之視窗大小時，側邊內容區域的尺寸是否應補償新的大小。讀寫 Boolean。 |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | 指定投影片區域的大小（若為 RestoredTop 子項則為寬度，若為 RestoredLeft 子項則為高度）。讀寫 Single。 |
 
-### 另見
+### 參見
 
 * 介面 [INormalViewRestoredProperties](../inormalviewrestoredproperties)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

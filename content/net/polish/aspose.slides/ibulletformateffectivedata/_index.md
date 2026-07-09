@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt, który zawiera efektywne właściwości formatowania punktora w akapicie.
+second_title: Aspose.Sildes dla .NET - Referencja API
+description: Niezmienny obiekt zawierający efektywne właściwości formatowania wypunktowań akapitu.
 type: docs
-weight: 5380
+weight: 5400
 url: /pl/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData interfejs
 
-Niezmienny obiekt, który zawiera efektywne właściwości formatowania punktora w akapicie.
+Niezmienny obiekt zawierający efektywne właściwości formatowania wypunktowań akapitu.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IBulletFormatEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Zwraca rzeczywistą wartość punktora dla nadrzędnego paragrafu. Tylko do odczytu String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Zwraca znak punktora w paragrafie. Tylko do odczytu Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Zwraca format wypełnienia punktora w paragrafie. Tylko do odczytu [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Zwraca czcionkę punktora w paragrafie. Tylko do odczytu [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Zwraca wysokość punktora w paragrafie. Tylko do odczytu Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Określa, czy punktor ma własny kolor, czy dziedziczy go z pierwszej części w paragrafie. Zwraca **true**, jeśli punktor ma własny kolor i **false**, jeśli punktor dziedziczy kolor z pierwszej części w paragrafie. Tylko do odczytu Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Określa, czy punktor ma własną czcionkę, czy dziedziczy ją z pierwszej części w paragrafie. Zwraca **true**, jeśli punktor ma własną czcionkę i **true**, jeśli punktor dziedziczy czcionkę z pierwszej części w paragrafie. Tylko do odczytu Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Zwraca pierwszą liczbę używaną w grupie numerowanych punktorów. Tylko do odczytu Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Zwraca styl numerowanego punktora. Tylko do odczytu [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Zwraca typ punktora w paragrafie. Tylko do odczytu [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | Zwraca rzeczywistą wartość punktu dla nadrzędnego akapitu. Tylko do odczytu String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | Zwraca znak wypunktowania akapitu. Tylko do odczytu Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | Zwraca format wypełnienia wypunktowania akapitu. Tylko do odczytu [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | Zwraca czcionkę wypunktowania akapitu. Tylko do odczytu [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | Zwraca wysokość wypunktowania akapitu. Tylko do odczytu Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | Określa, czy wypunktowanie ma własny kolor czy dziedziczy go z pierwszej części akapitu. Zwraca **true**, jeśli wypunktowanie ma własny kolor i **false**, jeśli wypunktowanie dziedziczy kolor z pierwszej części akapitu. Tylko do odczytu Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | Określa, czy wypunktowanie ma własną czcionkę czy dziedziczy ją z pierwszej części akapitu. Zwraca **true**, jeśli wypunktowanie ma własną czcionkę i **true**, jeśli wypunktowanie dziedziczy czcionkę z pierwszej części akapitu. Tylko do odczytu Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | Zwraca pierwszą liczbę używaną w grupie numerowanych wypunktowań. Tylko do odczytu Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | Zwraca styl numerowanego wypunktowania. Tylko do odczytu [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | Zwraca typ wypunktowania akapitu. Tylko do odczytu [`BulletType`](../bullettype). |
 
 ### Uwagi
 
@@ -35,7 +35,7 @@ Ten interfejs jest używany jako część [`IParagraphFormatEffectiveData`](../i
 
 ### Zobacz także
 
-* przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

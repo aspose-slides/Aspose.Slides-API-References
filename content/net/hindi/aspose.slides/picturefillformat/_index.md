@@ -8,7 +8,7 @@ url: /hi/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat क्लास
 
-एक चित्र भराव शैली का प्रतिनिधित्व करता है।
+एक चित्र भराव शैली को दर्शाता है।
 
 ```csharp
 public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
@@ -18,36 +18,36 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | चित्र के नीचे से काटे गए वास्तविक चित्र की ऊँचाई के प्रतिशत संख्या को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | चित्र के बाएँ से काटे गए वास्तविक चित्र की चौड़ाई के प्रतिशत संख्या को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | चित्र के दाएँ से काटे गए वास्तविक चित्र की चौड़ाई के प्रतिशत संख्या को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | चित्र के ऊपर से काटे गए वास्तविक चित्र की ऊँचाई के प्रतिशत संख्या को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | चित्र भरने के लिए उपयोग किए जाने वाले dpi को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Int32. |
-| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | चित्र को प्राप्त करता है। केवल-पढ़ने योग्य [`ISlidesPicture`](../islidespicture). |
-| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | चित्र भराव मोड को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | भराव आयत के निचले किनारे को सेट करता है जो आकार के बाउंडिंग बॉक्स के निचले किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित है। सकारात्मक प्रतिशत एक इनसेट दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट दर्शाता है। पढ़ें/लिखें Single. |
-| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | भराव आयत के बाएँ किनारे को सेट करता है जो आकार के बाउंडिंग बॉक्स के बाएँ किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित है। सकारात्मक प्रतिशत एक इनसेट दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट दर्शाता है। पढ़ें/लिखें Single. |
-| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | भराव आयत के दाएँ किनारे को सेट करता है जो आकार के बाउंडिंग बॉक्स के दाएँ किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित है। सकारात्मक प्रतिशत एक इनसेट दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट दर्शाता है। पढ़ें/लिखें Single. |
-| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | भराव आयत के ऊपर के किनारे को सेट करता है जो आकार के बाउंडिंग बॉक्स के ऊपर किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित है। सकारात्मक प्रतिशत एक इनसेट दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट दर्शाता है। पढ़ें/लिखें Single. |
-| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | टेक्सचर को आकार के भीतर कैसे संरेखित किया जाता है, इसे सेट करता है। यह सेटिंग टेक्सचर पैटर्न के शुरुआती बिंदु और आकार में उसकी पुनरावृत्ति को नियंत्रित करती है। पढ़ें/लिखें [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | टेक्सचर टाइल को क्षैतिज, ऊर्ध्वाधर या दोनों अक्षों के आसपास उलटता है। पढ़ें/लिखें [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | आकार के मूल बिंदु से टेक्सचर का क्षैतिज ऑफ़सेट पॉइंट्स में सेट करता है। सकारात्मक मान टेक्सचर को दाएँ ले जाता है, जबकि नकारात्मक मान बाएँ ले जाता है। पढ़ें/लिखें Single. |
-| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | आकार के मूल बिंदु से टेक्सचर का ऊर्ध्वाधर ऑफ़सेट पॉइंट्स में सेट करता है। सकारात्मक मान टेक्सचर को नीचे ले जाता है, जबकि नकारात्मक मान ऊपर ले जाता है। पढ़ें/लिखें Single. |
-| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | टेक्सचर भराव के लिए क्षैतिज स्केल को प्रतिशत के रूप में सेट करता है। पढ़ें/लिखें Single. |
-| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | टेक्सचर भराव के लिए ऊर्ध्वाधर स्केल को प्रतिशत के रूप में सेट करता है। पढ़ें/लिखें Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
+| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | चित्र के नीचे से काटे गए वास्तविक इमेज की ऊँचाई के प्रतिशत संख्या को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | चित्र के बाएँ किनारे से काटे गए वास्तविक इमेज की चौड़ाई के प्रतिशत संख्या को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | चित्र के दाएँ किनारे से काटे गए वास्तविक इमेज की चौड़ाई के प्रतिशत संख्या को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | चित्र के ऊपर से काटे गए वास्तविक इमेज की ऊँचाई के प्रतिशत संख्या को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | चित्र को भरने के लिए उपयोग किए जाने वाले DPI को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Int32. |
+| [Picture](../../aspose.slides/picturefillformat/picture) { get; } | चित्र को लौटाता है। केवल-पढ़ने योग्य [`ISlidesPicture`](../islidespicture). |
+| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | चित्र भराव मोड को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`PictureFillMode`](../picturefillmode). |
+| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | शेप की बाउंडिंग बॉक्स के नीचे के किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित भराव आयत के निचले किनारे को लौटाता है या सेट करता है। सकारात्मक प्रतिशत एक इनसेट को दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट को दर्शाता है। पढ़ने/लिखने योग्य Single. |
+| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | शेप की बाउंडिंग बॉक्स के बाएँ किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित भराव आयत के बाएँ किनारे को लौटाता है या सेट करता है। सकारात्मक प्रतिशत एक इनसेट को दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट को दर्शाता है। पढ़ने/लिखने योग्य Single. |
+| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | शेप की बाउंडिंग बॉक्स के दाएँ किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित भराव आयत के दाएँ किनारे को लौटाता है या सेट करता है। सकारात्मक प्रतिशत एक इनसेट को दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट को दर्शाता है। पढ़ने/लिखने योग्य Single. |
+| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | शेप की बाउंडिंग बॉक्स के ऊपर के किनारे से प्रतिशत ऑफ़सेट द्वारा परिभाषित भराव आयत के ऊपर किनारे को लौटाता है या सेट करता है। सकारात्मक प्रतिशत एक इनसेट को दर्शाता है, जबकि नकारात्मक प्रतिशत एक आउटसेट को दर्शाता है। पढ़ने/लिखने योग्य Single. |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | टेक्सचर को शेप के भीतर कैसे संरेखित किया जाता है, इसे लौटाता है या सेट करता है। यह सेटिंग टेक्सचर पैटर्न का प्रारंभ बिंदु और वह शेप में कैसे दोहराया जाता है, नियंत्रित करती है। पढ़ने/लिखने योग्य [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | टेक्सचर टाइल को इसके क्षैतिज, लंबवत या दोनों अक्षों के बारे में उल्टा करता है। पढ़ने/लिखने योग्य [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | शेप के मूल बिंदु से पॉइंट में टेक्सचर के क्षैतिज ऑफ़सेट को लौटाता है या सेट करता है। सकारात्मक मान टेक्सचर को दाईं ओर ले जाता है, जबकि नकारात्मक मान इसे बाईं ओर ले जाता है। पढ़ने/लिखने योग्य Single. |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | शेप के मूल बिंदु से पॉइंट में टेक्सचर के लंबवत ऑफ़सेट को लौटाता है या सेट करता है। सकारात्मक मान टेक्सचर को नीचे ले जाता है, जबकि नकारात्मक मान इसे ऊपर ले जाता है। पढ़ने/लिखने योग्य Single. |
+| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | टेक्सचर भराव के क्षैतिज स्केल को प्रतिशत के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | टेक्सचर भराव के लंबवत स्केल को प्रतिशत के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Single. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | आकार के आकार और निर्दिष्ट रिज़ॉल्यूशन के आधार पर छवि का आकार घटाकर उसे संकुचित करता है। वैकल्पिक रूप से, यह कटे हुए क्षेत्रों को भी हटाता है। |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | आकार के आकार और निर्दिष्ट रिज़ॉल्यूशन के आधार पर छवि का आकार घटाकर उसे संकुचित करता है। वैकल्पिक रूप से, यह कटे हुए क्षेत्रों को भी हटाता है। |
-| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | भराव चित्र के कटे हुए क्षेत्रों को हटाएँ। |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | शेप आकार और निर्दिष्ट रेज़ोल्यूशन के आधार पर इमेज का आकार घटाकर उसे संकुचित करता है। वैकल्पिक रूप से, यह क्रॉप किए गए क्षेत्रों को भी हटा देता है। |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | शेप आकार और निर्दिष्ट रेज़ोल्यूशन के आधार पर इमेज का आकार घटाकर उसे संकुचित करता है। वैकल्पिक रूप से, यह क्रॉप किए गए क्षेत्रों को भी हटा देता है। |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | भराव चित्र के क्रॉप किए गए क्षेत्रों को हटाता है। |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हेश कोड लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [IPictureFillFormat](../ipicturefillformat)

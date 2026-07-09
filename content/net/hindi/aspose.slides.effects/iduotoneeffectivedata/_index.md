@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो Duotone प्रभाव का प्रतिनिधित्व करती है। प्रत्येक पिक्सेल के लिए clr1 और clr2 को रैखिक इंटरपोलेशन के माध्यम से मिलाकर उस पिक्सेल के लिए नया रंग निर्धारित किया जाता है।
+description: एक अपरिवर्तनीय वस्तु जो Duotone प्रभाव का प्रतिनिधित्व करती है। प्रत्येक पिक्सेल के लिए, clr1 और clr2 को रैखिक इंटरपोलेशन के माध्यम से मिलाकर उस पिक्सेल के नए रंग का निर्धारण करती है।
 type: docs
 weight: 3270
 url: /hi/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो Duotone प्रभाव का प्रतिनिधित्व करती है। प्रत्येक पिक्सेल के लिए, clr1 और clr2 को रैखिक इंटरपोलेशन के माध्यम से मिलाकर उस पिक्सेल के लिए नया रंग निर्धारित किया जाता है।
+एक अपरिवर्तनीय वस्तु जो Duotone प्रभाव का प्रतिनिधित्व करती है। प्रत्येक पिक्सेल के लिए, clr1 और clr2 को रैखिक इंटरपोलेशन के माध्यम से मिलाकर उस पिक्सेल के नए रंग का निर्धारण करती है।
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | नाम | विवरण |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | डार्क पिक्सल्स के लिए लक्ष्य रंग प्रारूप लौटाता है। केवल-पढ़ने योग्य Color। |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | लाइट पिक्सल्स के लिए लक्ष्य रंग प्रारूप लौटाता है। केवल-पढ़ने योग्य Color। |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | गहरे पिक्सेल के लिए लक्ष्य रंग स्वरूप लौटाता है। केवल-पढ़ने योग्य Color। |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | हल्के पिक्सेल के लिए लक्ष्य रंग स्वरूप लौटाता है। केवल-पढ़ने योग्य Color। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

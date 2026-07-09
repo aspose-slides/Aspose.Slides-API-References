@@ -1,14 +1,14 @@
 ---
 title: ITextAnimationCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าชุดของการเคลื่อนไหวข้อความ.
+description: เป็นคอลเลกชันของการเคลื่อนไหวข้อความ.
 type: docs
 weight: 630
 url: /th/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection อินเทอร์เฟซ
 
-แทนค่าชุดของการเคลื่อนไหวข้อความ
+เป็นคอลเลกชันของการเคลื่อนไหวข้อความ
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | คืนค่าองค์ประกอบตามดัชนี (2 ตัวชี้ดัชนี) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | ส่งคืนองค์ประกอบตามดัชนี (2 ตัวดัชนี) |
 
 ### ดูเพิ่มเติม
 

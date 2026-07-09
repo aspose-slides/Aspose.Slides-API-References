@@ -1,6 +1,6 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 화살촉의 길이를 나타냅니다.
 type: docs
 weight: 7730

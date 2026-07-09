@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 配付資料用のマスタースライドを表します。
+description: ハンドアウト用のマスタースライドを表します。
 type: docs
-weight: 6330
+weight: 6350
 url: /ja/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide インターフェイス
 
-配付資料用のマスタースライドを表します。
+ハンドアウト用のマスタースライドを表します。
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -16,12 +16,12 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | ベースのIBaseSlideインターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeableインターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | マスターハンドアウトスライド用の描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | マスターハンドアウトスライドのHeaderFooterマネージャーを返します。読み取り専用 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | IMasterThemeable インターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | マスターハンドアウト スライド用の描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | マスターハンドアウト スライドの HeaderFooter マネージャーを返します。読み取り専用 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
 
 ### 参照
 

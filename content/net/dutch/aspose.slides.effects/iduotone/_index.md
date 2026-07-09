@@ -16,12 +16,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Stelt toe de basis IAccessiblePVIObject-interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Stelt toe de basis IImageTransformOperation-interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Retourneert het doelkleuropmaak voor donkere pixels. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Retourneert het doelkleuropmaak voor lichte pixels. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Staat toe de basis-interface IAccessiblePVIObject op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Staat toe de basis-interface IImageTransformOperation op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Geeft het doelformaat voor donkere pixels terug. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Geeft het doelformaat voor lichte pixels terug. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Zie ook
 

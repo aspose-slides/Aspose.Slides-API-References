@@ -1,7 +1,7 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงลำดับของคอลเลกชันเอฟเฟ็กต์
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของลำดับเอฟเฟกต์
 type: docs
 weight: 590
 url: /th/aspose.slides.animation/isequence/
@@ -18,26 +18,26 @@ public interface ISequence : IEnumerable<IEffect>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Allows to get base IEnumerable interface. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Returns the number of effects in a sequense. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | Returns an effect at the specified index. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. อ่าน/เขียน [`IShape`](../../aspose.slides/ishape). |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IEnumerable พื้นฐานแบบอ่านอย่างเดียว |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | คืนค่าจำนวนเอฟเฟกต์ในลำดับแบบอ่านอย่างเดียว Int32 |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | คืนค่าเอฟเฟกต์ที่ตำแหน่งที่ระบุ |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | คืนค่าหรือกำหนดเป้าหมาย shape สำหรับลำดับ INTERACTIVE. หากลำดับไม่เป็น interactive จะคืนค่า null. อ่าน/เขียน [`IShape`](../../aspose.slides/ishape) |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | Removes all effects from a collection. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Returns count of effects for the specified shape. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Returns array of effects for the specified shape. |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Removes specified effect from a collection. |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Removes an effect from a collection. |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Remove effect for the specified shape. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | เพิ่มเอฟเฟกต์แอนิเมชันใหม่สำหรับย่อหน้าที่ส่วนท้ายของลำดับ |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | เพิ่มเอฟเฟกต์ใหม่ที่ส่วนท้ายของลำดับ |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | เพิ่มเอฟเฟกต์แอนิเมชันแผนภูมิใหม่สำหรับหมวดหมู่หรือชุดข้อมูลที่ส่วนท้ายของลำดับ |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | เพิ่มเอฟเฟกต์แอนิเมชันแผนภูมิใหม่สำหรับองค์ประกอบในหมวดหมู่หรือชุดข้อมูลที่ส่วนท้ายของลำดับ |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | ลบเอฟเฟกต์ทั้งหมดจากคอลเลกชัน |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | คืนค่าจำนวนเอฟเฟกต์สำหรับ shape ที่ระบุ |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | คืนค่าอาร์เรย์ของเอฟเฟกต์สำหรับย่อหน้าที่ระบุ |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | คืนค่าอาร์เรย์ของเอฟเฟกต์สำหรับ shape ที่ระบุ |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | ลบเอฟเฟกต์ที่ระบุจากคอลเลกชัน |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | ลบเอฟเฟกต์จากคอลเลกชัน |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | ลบเอฟเฟกต์สำหรับ shape ที่ระบุ |
 
 ### ดูเพิ่มเติม
 

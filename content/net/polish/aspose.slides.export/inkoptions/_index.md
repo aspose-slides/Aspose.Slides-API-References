@@ -1,14 +1,14 @@
 ---
 title: InkOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Udostępnia opcje, które kontrolują wygląd obiektów Ink w wyeksportowanym dokumencie.
+second_title: Aspose.Sildes dla referencji API .NET
+description: Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie.
 type: docs
-weight: 4200
+weight: 4220
 url: /pl/aspose.slides.export/inkoptions/
 ---
 ## InkOptions klasa
 
-Udostępnia opcje, które kontrolują wygląd obiektów Ink w wyeksportowanym dokumencie.
+Zapewnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie.
 
 ```csharp
 public class InkOptions : IInkOptions
@@ -16,12 +16,12 @@ public class InkOptions : IInkOptions
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Pokazuje lub ukrywa elementy Ink w wyeksportowanym dokumencie. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Używa operacji ROP lub przezroczystości do renderowania pędzla. |
+| [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Wyświetla lub ukrywa elementy Ink w wyeksportowanym dokumencie. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Używa operacji ROP lub przezroczystości przy renderowaniu pędzla. |
 
-### Patrz także
+### Zobacz także
 
 * interfejs [IInkOptions](../iinkoptions)
 * przestrzeń nazw [Aspose.Slides.Export](../../aspose.slides.export)

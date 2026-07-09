@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
-second_title: Aspose.Sildes .NET API referencia
-description: Tartalmazza a formák fő felületének domborítási tulajdonságait.
+second_title: Aspose.Sildes .NET API Referencia
+description: Tartalmazza a formák fő felületének domborulatával kapcsolatos tulajdonságokat.
 type: docs
-weight: 9830
+weight: 9850
 url: /hu/aspose.slides/shapebevel/
 ---
 ## ShapeBevel osztály
 
-A forma fő felületének domborítási tulajdonságait tartalmazza.
+Tartalmazza az alakzat fő felületének domborulatával kapcsolatos tulajdonságokat.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -24,10 +24,10 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész elérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Bevel típusa. Olvasás/írás [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Bevel magassága. Olvasás/írás Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Bevel szélessége. Olvasás/írás Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Fazetta típus. Olvasás/írás [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Fazetta magasság. Olvasás/írás Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Fazetta szélesség. Olvasás/írás Double. |
 
 ## Metódusok
 

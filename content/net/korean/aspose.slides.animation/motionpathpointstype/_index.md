@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 애니메이션 움직임 경로에서 포인트 유형을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 애니메이션 모션 경로에서 점의 유형을 나타냅니다.
 type: docs
 weight: 710
 url: /ko/aspose.slides.animation/motionpathpointstype/
 ---
 ## MotionPathPointsType 열거형
 
-애니메이션 움직임 경로에서 포인트 유형을 나타냅니다.
+애니메이션 모션 경로에서 점의 유형을 나타냅니다.
 
 ```csharp
 public enum MotionPathPointsType
@@ -28,7 +28,7 @@ public enum MotionPathPointsType
 | CurveStraight | `7` |  |
 | CurveSmooth | `8` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी टेक्स्ट फ्रेम फ़ॉर्मेटिंग गुणों को सम्मिलित करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: अपरिवर्तनीय वस्तु जो प्रभावी टेक्स्ट फ्रेम फॉर्मेटिंग गुणों को समाहित करती है।
 type: docs
 weight: 7290
 url: /hi/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी टेक्स्ट फ्रेम फ़ॉर्मेटिंग गुणों को सम्मिलित करता है।
+अपरिवर्तनीय वस्तु जो प्रभावी टेक्स्ट फ्रेम फॉर्मेटिंग गुणों को समाहित करती है।
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -18,24 +18,24 @@ public interface ITextFrameFormatEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | TextFrame में लंबवत एंकर टेक्स्ट लौटाता है। केवल-पढ़ने योग्य [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | टेक्स्ट ऑटोफ़िट मोड लौटाता है। केवल-पढ़ने योग्य [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | यदि टेक्स्ट बॉक्स में क्षैतिज रूप से केंद्रित होना चाहिए, तो लौटाता है। केवल-पढ़ने योग्य Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | बाउंडिंग आयत में टेक्स्ट के कॉलमों की संख्या निर्दिष्ट करता है। केवल-पढ़ने योग्य Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | टेक्स्ट क्षेत्र में कॉलमों के बीच का अंतराल (पॉइंट में) निर्दिष्ट करता है। केवल-पढ़ने योग्य Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | TextFrame में नीचे की मार्जिन (पॉइंट) लौटाता है। केवल-पढ़ने योग्य Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | TextFrame में बाईं मार्जिन (पॉइंट) लौटाता है। केवल-पढ़ने योग्य Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | TextFrame में दाईं मार्जिन (पॉइंट) लौटाता है। केवल-पढ़ने योग्य Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | TextFrame में ऊपर की मार्जिन (पॉइंट) लौटाता है। केवल-पढ़ने योग्य Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | प्रभावी टेक्स्ट की शैली लौटाता है। केवल-पढ़ने योग्य [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | टेक्स्ट की अभिविन्यास लौटाता है। केवल-पढ़ने योग्य [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | यदि टेक्स्ट को TextFrame की मार्जिन पर रैप किया जाना चाहिए, तो लौटाता है। केवल-पढ़ने योग्य Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | एक TextFrame में वर्टिकल एंकर टेक्स्ट लौटाता है। केवल पढ़ने योग्य [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | टेक्स्ट ऑटोफिट मोड लौटाता है। केवल पढ़ने योग्य [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | यदि टेक्स्ट को बॉक्स में क्षैतिज रूप से केंद्रित करना चाहिए तो लौटाता है। केवल पढ़ने योग्य Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | बाउंडिंग आयत में टेक्स्ट कॉलमों की संख्या निर्दिष्ट करता है। केवल पढ़ने योग्य Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | टेक्स्ट एरिया में टेक्स्ट कॉलमों के बीच की दूरी (पॉइंट में) निर्दिष्ट करता है। केवल पढ़ने योग्य Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | एक TextFrame में नीचे की मार्जिन (पॉइंट) लौटाता है। केवल पढ़ने योग्य Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | एक TextFrame में बाईं मार्जिन (पॉइंट) लौटाता है। केवल पढ़ने योग्य Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | एक TextFrame में दाईं मार्जिन (पॉइंट) लौटाता है। केवल पढ़ने योग्य Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | एक TextFrame में ऊपर की मार्जिन (पॉइंट) लौटाता है। केवल पढ़ने योग्य Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | प्रभावी टेक्स्ट की शैली लौटाता है। केवल पढ़ने योग्य [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | टेक्स्ट की अभिविन्यास लौटाता है। केवल पढ़ने योग्य [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | यदि टेक्स्ट TextFrame की मार्जिन पर रैप किया गया है तो लौटाता है। केवल पढ़ने योग्य Boolean. |
 
 ### टिप्पणियाँ
 
-यह इंटरफ़ेस [`ITextFrameFormat`](../itextframeformat) इंटरफ़ेस के साथ मिलकर विरासत लागू किए गए प्रभावी फ़ॉर्मेटिंग मानों को लौटाने के लिए उपयोग किया जाता है।
+यह इंटरफ़ेस [`ITextFrameFormat`](../itextframeformat) इंटरफ़ेस के साथ मिलकर उपयोग किया जाता है ताकि विरासत लागू होने पर प्रभावी फ़ॉर्मेटिंग मान लौटाए जा सकें।
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

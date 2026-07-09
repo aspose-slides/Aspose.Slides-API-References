@@ -1,14 +1,14 @@
 ---
 title: ErrorBarValueType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A hibasáv érték típusát képviseli
+second_title: Aspose.Sildes .NET API referenciája
+description: A hibasáv értékének típusát jelöli
 type: docs
-weight: 1630
+weight: 1650
 url: /hu/aspose.slides.charts/errorbarvaluetype/
 ---
 ## ErrorBarValueType enumeráció
 
-A hibasáv értékének típusát képviseli
+A hibasáv értékének típusát jelöli
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,11 +18,11 @@ public enum ErrorBarValueType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Custom | `0` | Megadja, hogy a hibasávok hossza a Plus és a Minus elemek alapján legyen meghatározva. |
+| Custom | `0` | Megadja, hogy a hibasávok hossza a Plus és Minus elemek által legyen meghatározva. |
 | Fixed | `1` | Megadja, hogy a hibasávok hossza az Error Bar Value által meghatározott rögzített érték legyen. |
-| Percentage | `2` | Megadja, hogy a hibasávok hossza az Error Bar Value százaléka legyen az adatoknak. |
-| StandardDeviation | `3` | Megadja, hogy a hibasávok hossza az Error Bar Value standard eltérése legyen az adatoknak. |
-| StandardError | `4` | Megadja, hogy a hibasávok hossza az Error Bar Value standard hibák legyenek az adatokról. |
+| Percentage | `2` | Megadja, hogy a hibasávok hossza az adat Error Bar Value százaléka legyen. |
+| StandardDeviation | `3` | Megadja, hogy a hibasávok hossza az adat Error Bar Value szórásának standard eltérése legyen. |
+| StandardError | `4` | Megadja, hogy a hibasávok hossza az adat Error Bar Value szabványos hibái legyen. |
 
 ### Lásd még
 

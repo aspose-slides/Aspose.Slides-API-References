@@ -1,14 +1,14 @@
 ---
 title: VbaProjectFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다
+description: COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다.
 type: docs
 weight: 11660
 url: /ko/aspose.slides.vba/vbaprojectfactory/
 ---
 ## VbaProjectFactory 클래스
 
-COM 인터페이스를 통해 VBA 프로젝트를 생성할 수 있습니다
+COM 인터페이스를 통해 VBA 프로젝트를 생성합니다.
 
 ```csharp
 public class VbaProjectFactory : IVbaProjectFactory
@@ -24,14 +24,14 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 프로젝트 팩토리 정적 인스턴스. 읽기 전용 [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | VBA 프로젝트 팩터리 정적 인스턴스. 읽기 전용 [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | 새 VBA 프로젝트를 생성합니다. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | OLE 컨테이너에서 VBA 프로젝트를 읽어옵니다. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | OLE 컨테이너에서 VBA 프로젝트를 읽습니다. |
 
 ### 참고
 

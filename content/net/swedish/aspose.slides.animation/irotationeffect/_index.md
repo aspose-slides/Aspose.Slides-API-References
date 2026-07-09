@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar rotationsbeteendet för effekten.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar roteringsbeteendet för en effekt.
 type: docs
-weight: 550
+weight: 570
 url: /sv/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect gränssnitt
 
-Representerar rotationsbeteendet för effekten.
+Representerar roteringsbeteendet för en effekt.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,12 +18,12 @@ public interface IRotationEffect : IBehavior
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Tillåter att hämta grundläggande IBehavior gränssnittet. Skrivskyddad [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Tillåter att hämta bas IBehavior gränssnittet. Läs-endast [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Beskriver det relativa förskjutningsvärdet för animationen. Läs/skriv Single. |
 | [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Beskriver startvärdet för animationen. Läs/skriv Single. |
 | [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Beskriver slutvärdet för animationen. Läs/skriv Single. |
 
-### Se också
+### Se även
 
 * gränssnitt [IBehavior](../ibehavior)
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)

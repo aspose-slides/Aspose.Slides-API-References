@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงส่วนประกอบของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงส่วนประกอบของแผนภูมิ.
 type: docs
 weight: 1790
 url: /th/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent อินเทอร์เฟซ
 
-แสดงส่วนประกอบของแผนภูมิ.
+แสดงถึงส่วนประกอบของแผนภูมิ.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -16,10 +16,10 @@ public interface IChartComponent : ISlideComponent
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ISlideComponent พื้นฐาน. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | คืนค่าแผนภูมิ. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน ISlideComponent. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | คืนค่ากราฟ. อ่านอย่างเดียว [`IChart`](../ichart). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
-second_title: Aspose.Sildes per .NET API Reference
-description: Specifica le dimensioni della regione della diapositiva (larghezza quando è figlio di restoredTop, altezza quando è figlio di restoredLeft) della visualizzazione normale, quando la regione è di dimensione ripristinata variabile (né minimizzata né massimizzata).
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica le dimensioni dell'area della diapositiva, larghezza quando è figlio di restoredTop, altezza quando è figlio di restoredLeft, nella visualizzazione normale, quando l'area ha una dimensione ripristinata variabile, né minimizzata né massimizzata.
 type: docs
-weight: 9100
+weight: 9120
 url: /it/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties classe
 
-Specifica le dimensioni della regione della diapositiva ((larghezza quando è figlio di restoredTop, altezza quando è figlio di restoredLeft) della visualizzazione normale, quando la regione è di dimensione ripristinata variabile (né minimizzata né massimizzata).
+Specifica le dimensioni dell'area della diapositiva ((larghezza quando è figlio di restoredTop, altezza quando è figlio di restoredLeft) della visualizzazione normale, quando l'area ha una dimensione ripristinata variabile (ne né minimizzata né massimizzata).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Specifica se le dimensioni della regione del contenuto laterale debbano compensare la nuova dimensione durante il ridimensionamento della finestra che contiene la vista all'interno dell'applicazione. Lettura/Scrittura Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Specifica le dimensioni della regione della diapositiva (larghezza quando è figlio di RestoredTop, altezza quando è figlio di RestoredLeft). Lettura/Scrittura Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Specifica se la dimensione dell'area di contenuto laterale debba compensare la nuova dimensione durante il ridimensionamento della finestra contenente la vista nell'applicazione Read/write Boolean. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Specifica la dimensione dell'area della diapositiva (larghezza quando è figlio di RestoredTop, altezza quando è figlio di RestoredLeft). Read/write Single. |
 
 ### Vedi anche
 

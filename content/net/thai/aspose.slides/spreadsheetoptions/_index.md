@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
+second_title: Aspose.Sildes for .NET API อ้างอิง
+description: แสดงถึงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
 type: docs
 weight: 10740
 url: /th/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions คลาส
 
-แสดงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
+แสดงถึงตัวเลือกที่สามารถใช้เพื่อระบุพฤติกรรมเพิ่มเติมของสเปรดชีต
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -16,16 +16,16 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [SpreadsheetOptions](spreadsheetoptions)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส [`SpreadsheetOptions`](../spreadsheetoptions) |
+| [SpreadsheetOptions](spreadsheetoptions)() | สร้างอินสแตนซ์ใหม่ของคลาส [`SpreadsheetOptions`](../spreadsheetoptions) |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | รับหรือกำหนดข้อมูลวัฒนธรรมที่ต้องการสำหรับการคำนวณฟังก์ชันบางอย่างที่ออกแบบให้ใช้กับภาษาที่ใช้ชุดอักขระสองไบต์ (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | หากแหล่งข้อมูลสำหรับแผนภูมิเป็นเวิร์กบุ๊กภายนอกและไม่พร้อมใช้งาน ระบบจะเรียกคืนจากแคชของแผนภูมิ. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | รับหรือกำหนดข้อมูลวัฒนธรรมที่ต้องการสำหรับการคำนวณฟังก์ชันบางอย่างที่มีเจตนาให้ใช้กับภาษาที่ใช้ชุดอักขระสองไบต์ (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | หากแหล่งข้อมูลสำหรับแผนภูมิเป็นเวิร์กบุ๊กภายนอกและไม่มีให้ใช้ ระบบจะกู้คืนจากแคชของแผนภูมิ |
 
 ### ดูเพิ่มเติม
 

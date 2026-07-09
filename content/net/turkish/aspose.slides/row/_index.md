@@ -1,9 +1,9 @@
 ---
 title: Row
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir tabloda satırı temsil eder.
 type: docs
-weight: 9690
+weight: 9710
 url: /tr/aspose.slides/row/
 ---
 ## Row sınıfı
@@ -16,21 +16,21 @@ public sealed class Row : CellCollection, IRow
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Bir koleksiyondaki hücre sayısını döndürür. Salt okunur Int32. |
 | [Height](../../aspose.slides/row/height) { get; } | Bir satırın yüksekliğini döndürür. Salt okunur Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Konumuna göre bir hücre döndürür. Salt okunur [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Bir satırın mümkün olan en düşük yüksekliğini döndürür veya ayarlar. Okuma/yazma Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Bir CellCollection'ın üst sunumunu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Salt okunur [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | Bir satırın alabileceği minimum yüksekliği döndürür veya ayarlar. Oku/yaz Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection'ın ana sunumunu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
 | [RowFormat](../../aspose.slides/row/rowformat) { get; } | Bu satır için biçimlendirme özelliklerini içeren RowFormat nesnesini döndürür. Salt okunur [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Bir CellCollection'ın üst slaydını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection'ın ana slaytını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
-## Metodlar
+## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |

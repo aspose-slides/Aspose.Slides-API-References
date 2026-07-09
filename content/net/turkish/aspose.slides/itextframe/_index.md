@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes .NET için API Referansı
-description: Bir TextFrame’i temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Bir TextFrame'i temsil eder.
 type: docs
-weight: 7250
+weight: 7270
 url: /tr/aspose.slides/itextframe/
 ---
-## ITextFrame interface
+## ITextFrame arayüzü
 
-Bir TextFrame’i temsil eder.
+Bir TextFrame'i temsil eder.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,13 +18,13 @@ public interface ITextFrame : ISlideComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | İçerilen köprü bağlantılarına kolay erişim sağlar. Salt okunur [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Bir çerçevedeki tüm paragrafların listesini döndürür. Salt okunur [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Üst hücreyi döndürür; üst nesne ICell arayüzünü uygulamıyorsa null döner. Salt okunur [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Üst şekli döndürür; üst nesne IShape arayüzünü uygulamıyorsa null döner. Salt okunur [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Bir TextFrame için düz metni alır veya ayarlar. Okunur/yazılır String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Bu TextFrame nesnesinin biçimlendirme nesnesini döndürür. Salt okunur [`ITextFrameFormat`](../itextframeformat). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Yalnızca okuma [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | İçerilen bağlantılara kolay erişim sağlar. Yalnızca okuma [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Bir çerçevedeki tüm paragraf listesini döndürür. Yalnızca okuma [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Üst hücreyi döndürür veya üst nesne ICell arayüzünü uygulamıyorsa null döndürür. Yalnızca okuma [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Üst şekli döndürür veya üst nesne IShape arayüzünü uygulamıyorsa null döndürür. Yalnızca okuma [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Bir TextFrame için düz metni alır veya ayarlar. Okuma/yazma String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Bu TextFrame nesnesi için biçimlendirme nesnesini döndürür. Yalnızca okuma [`ITextFrameFormat`](../itextframeformat). |
 
 ## Yöntemler
 
@@ -33,12 +33,12 @@ public interface ITextFrame : ISlideComponent
 | [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Belirtilen renk ile düzenli ifadenin tüm eşleşmelerini vurgular. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Belirtilen renk ile örnek metnin tüm eşleşmelerini vurgular. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Tüm paragraflarda aynı biçimlendirmeye sahip run’ları birleştirir. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Belirtilen dize ile düzenli ifadenin tüm eşleşmelerini değiştirir. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Tüm paragraflardaki aynı biçimlendirmeye sahip koşuları birleştirir. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Düzenli ifadenin tüm eşleşmelerini belirtilen dizeyle değiştirir. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Belirtilen metnin tüm oluşumlarını başka bir belirtilen metinle değiştirir. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) öğesinin metin içeriğini, çerçevedeki ayrı bir metin sütununa karşılık gelen her öğenin bir dizi stringe bölerek dönüştürür. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) nesnesinin metin içeriğini dize dizisine ayırır; her eleman çerçevedeki ayrı bir metin sütununa karşılık gelir. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [ISlideComponent](../islidecomponent)
 * ad alanı [Aspose.Slides](../../aspose.slides)

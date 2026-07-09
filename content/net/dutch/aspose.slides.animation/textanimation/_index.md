@@ -8,7 +8,7 @@ url: /nl/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation klasse
 
-Geeft tekstanimatie weer.
+Representeert tekstanimatie.
 
 ```csharp
 public class TextAnimation : ITextAnimation
@@ -24,14 +24,14 @@ public class TextAnimation : ITextAnimation
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Lijst van bouwtype (bijv. Paragraph 1,2,3, All at Once) van tekstanimatie. Lezen/schrijven [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Gelinkte vormeffect met groep of niet (null). Lezen/schrijven [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Lijst van opbouwtype (bijv. Paragraaf 1,2,3, Alles tegelijk) van tekstanimatie. Lezen/schrijven [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Gekoppeld vormeffect met groep of niet (null). Lezen/schrijven [`IEffect`](../ieffect). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Voegt een nieuw effect toe aan het einde van de huidige reeks tot het einde van de groeps-tekstanimaties. Alleen geldig als het aantal tekst-paragrafen gelijk is aan of groter is dan het aantal effecten van deze groep! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Voeg een nieuw effect toe aan het einde van de huidige reeks tot het einde van de groeps-tekstanimaties. Alleen geldig als het aantal tekstparagrafen gelijk is aan of groter is dan het aantal effecten van deze groep! |
 
 ### Zie ook
 

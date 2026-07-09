@@ -1,6 +1,6 @@
 ---
 title: AxisFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트 서식 속성을 나타냅니다.
 type: docs
 weight: 1200

@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 마스터 노트 슬라이드 푸터, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 담당하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
+description: 마스터 노트 슬라이드 푸터, 날짜/시간, 페이지 번호 자리 표시자와 모든 하위 자리 표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
 type: docs
 weight: 8020
 url: /ko/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager 클래스
 
-마스터 노트 슬라이드 푸터, 날짜-시간, 페이지 번호 자리 표시자 및 모든 하위 자리 표시자의 동작을 보유하는 관리자를 나타냅니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
+마스터 노트 슬라이드 푸터, 날짜/시간, 페이지 번호 자리 표시자와 모든 하위 자리 표시자의 동작을 관리하는 매니저를 나타냅니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,19 +19,19 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 푸터 자리 표시자가 존재함을 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 헤더 자리 표시자가 존재함을 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리 표시자가 존재함을 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜/시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 푸터 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 헤더 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 슬라이드 날짜-시간 자리 표시자와 모든 하위 날짜-시간 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 슬라이드 날짜-시간 자리 표시자와 모든 하위 날짜-시간 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 가시성을 변경합니다. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 마스터 슬라이드 날짜/시간 자리 표시자와 모든 하위 날짜/시간 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 마스터 슬라이드 날짜/시간 자리 표시자와 모든 하위 날짜/시간 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜/시간 자리 표시자에 텍스트를 설정합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜/시간 자리 표시자의 가시성을 변경합니다. |
 | [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 마스터 슬라이드 푸터 자리 표시자와 모든 하위 푸터 자리 표시자에 텍스트를 설정합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
 | [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 마스터 슬라이드 푸터 자리 표시자와 모든 하위 푸터 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 푸터 자리 표시자에 텍스트를 설정합니다. |
@@ -43,7 +43,7 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 | [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 마스터 슬라이드 페이지 번호 자리 표시자와 모든 하위 페이지 번호 자리 표시자의 가시성을 변경합니다. 하위 자리 표시자는 종속 노트 슬라이드에 포함된 자리 표시자를 의미합니다. 종속 노트 슬라이드는 마스터 노트 슬라이드를 사용하고 의존합니다. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 가시성을 변경합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * 인터페이스 [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)

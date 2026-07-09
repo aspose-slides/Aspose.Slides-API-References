@@ -1,6 +1,6 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้าง IMathNaryOperator
 type: docs
 weight: 8880
@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathnaryoperatorfactory/
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 ```
 
-## คอนสตรัคเตอร์
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | คอนสตรักเตอร์เริ่มต้น |
 
 ## เมธอด
 

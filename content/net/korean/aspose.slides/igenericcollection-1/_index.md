@@ -6,7 +6,7 @@ type: docs
 weight: 5960
 url: /ko/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection<T> 인터페이스
+## IGenericCollection&lt;T&gt; 인터페이스
 
 보조 제네릭 컬렉션 인터페이스.
 

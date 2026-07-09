@@ -24,14 +24,14 @@ public class ParagraphFactory : IParagraphFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | 建立一個新的空段落。 |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | 建立一個新的空白段落。 |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | 使用指定的段落資料建立新段落。 |
 
 ### 備註
 
 用於 COM 相容性。
 
-### 另請參閱
+### 參見
 
 * 介面 [IParagraphFactory](../iparagraphfactory)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

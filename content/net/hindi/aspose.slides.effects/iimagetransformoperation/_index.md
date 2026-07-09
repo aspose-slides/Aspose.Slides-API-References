@@ -1,20 +1,20 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: अमूर्त छवि रूपांतरण प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एब्स्ट्रैक्ट इमेज ट्रांसफ़ॉर्मेशन प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 3390
 url: /hi/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation इंटरफ़ेस
 
-अमूर्त छवि रूपांतरण प्रभाव का प्रतिनिधित्व करता है।
+एब्स्ट्रैक्ट इमेज ट्रांसफ़ॉर्मेशन प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IImageTransformOperation
 ```
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)

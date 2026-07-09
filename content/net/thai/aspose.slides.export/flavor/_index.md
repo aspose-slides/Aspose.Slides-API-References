@@ -1,12 +1,12 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: สเปค markdown ทั้งหมดที่ใช้ในโปรแกรม.
 type: docs
 weight: 3800
 url: /th/aspose.slides.export/flavor/
 ---
-## การกำหนดค่า Flavor
+## การกำหนดค่าแบบ enumeration ของ Flavor
 
 สเปค markdown ทั้งหมดที่ใช้ในโปรแกรม.
 
@@ -14,34 +14,34 @@ url: /th/aspose.slides.export/flavor/
 public enum Flavor
 ```
 
-### ค่าต่าง ๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Github | `0` | Github รูปแบบ. |
-| Gruber | `1` | Gruber รูปแบบ. |
-| MultiMarkdown | `2` | Multi markdown รูปแบบ. |
-| CommonMark | `3` | Common mark รูปแบบ. |
-| MarkdownExtra | `4` | Markdown extra รูปแบบ. |
-| Pandoc | `5` | Pandoc รูปแบบ. |
-| Kramdown | `6` | Kramdown รูปแบบ. |
-| Markua | `7` | Markua รูปแบบ. |
-| Maruku | `8` | Maruku รูปแบบ. |
-| Markdown2 | `9` | Markdown2 รูปแบบ. |
-| Remarkable | `10` | Remarkable รูปแบบ |
-| Showdown | `11` | Showdown รูปแบบ. |
-| Ghost | `12` | Ghost รูปแบบ. |
-| GitLab | `13` | Gitlab รูปแบบ. |
-| Haroopad | `14` | Haroopad รูปแบบ. |
-| IaWriter | `15` | IAWriter รูปแบบ. |
-| Redcarpet | `16` | Redcarpet รูปแบบ. |
-| ScholarlyMarkdown | `17` | Scholarly markdown รูปแบบ. |
-| Taiga | `18` | Taiga รูปแบบ. |
-| Trello | `19` | Trello รูปแบบ. |
-| S9ETextFormatter | `20` | S9E text formatter รูปแบบ. |
-| XWiki | `21` | XWiki รูปแบบ. |
-| StackOverflow | `22` | Stack overflow รูปแบบ. |
-| Default | `23` | Default markdown รูปแบบ. |
+| Github | `0` | รูปแบบ Github. |
+| Gruber | `1` | รูปแบบ Gruber. |
+| MultiMarkdown | `2` | รูปแบบ Multi markdown. |
+| CommonMark | `3` | รูปแบบ Common mark. |
+| MarkdownExtra | `4` | รูปแบบ Markdown extra. |
+| Pandoc | `5` | รูปแบบ Pandoc. |
+| Kramdown | `6` | รูปแบบ Kramdown. |
+| Markua | `7` | รูปแบบ Markua. |
+| Maruku | `8` | รูปแบบ Maruku. |
+| Markdown2 | `9` | รูปแบบ Markdown2. |
+| Remarkable | `10` | รูปแบบ Remarkable |
+| Showdown | `11` | รูปแบบ Showdown. |
+| Ghost | `12` | รูปแบบ Ghost. |
+| GitLab | `13` | รูปแบบ Gitlab. |
+| Haroopad | `14` | รูปแบบ Haroopad. |
+| IaWriter | `15` | รูปแบบ IAWriter. |
+| Redcarpet | `16` | รูปแบบ Redcarpet. |
+| ScholarlyMarkdown | `17` | รูปแบบ Scholarly markdown. |
+| Taiga | `18` | รูปแบบ Taiga. |
+| Trello | `19` | รูปแบบ Trello. |
+| S9ETextFormatter | `20` | รูปแบบ S9E text formatter. |
+| XWiki | `21` | รูปแบบ XWiki. |
+| StackOverflow | `22` | รูปแบบ Stack overflow. |
+| Default | `23` | รูปแบบ markdown เริ่มต้น. |
 
 ### ตัวอย่าง
 

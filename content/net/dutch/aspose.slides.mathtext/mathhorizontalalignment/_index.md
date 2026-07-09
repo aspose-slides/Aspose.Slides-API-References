@@ -16,11 +16,11 @@ public enum MathHorizontalAlignment
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | Waarde is niet gedefinieerd |
-| Left | `1` | Links uitgelijnd |
-| Center | `2` | Midden |
+| Left | `1` | Links uitlijning |
+| Center | `2` | Gecentreerd |
 | Right | `3` | Rechts |
 
 ### Zie ook

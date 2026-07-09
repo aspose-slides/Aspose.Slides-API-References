@@ -1,14 +1,14 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ค่าคงที่ที่กำหนดวิธีการเล่นเสียง
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ค่าคงที่ที่กำหนดวิธีการเล่นเสียง.
 type: docs
 weight: 880
 url: /th/aspose.slides/audioplaymodepreset/
 ---
-## AudioPlayModePreset การระบุค่า
+## AudioPlayModePreset ชนิด enum
 
-ค่าสถิตที่กำหนดว่าการเล่นเสียงจะทำอย่างไร
+ค่าคงที่ที่กำหนดวิธีการเล่นเสียง.
 
 ```csharp
 public enum AudioPlayModePreset
@@ -19,10 +19,10 @@ public enum AudioPlayModePreset
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | เล่นโดยอัตโนมัติ |
-| OnClick | `1` | เล่นเมื่อคลิกที่ไอคอนเท่านั้น |
-| AllSlides | `2` | เล่นบนทุกสไลด์ โปรดใช้คุณสมบัติ [`PlayAcrossSlides`](../iaudioframe/playacrossslides) แทน ข้อมูลนี้ล้าสมัยตั้งแต่ PowerPoint 2013 |
-| InClickSequence | `3` | เล่นโดยอัตโนมัติกับการคลิกหนึ่งครั้ง |
+| Auto | `0` | เล่นโดยอัตโนมัติ. |
+| OnClick | `1` | เล่นเมื่อไอคอนถูกคลิกเท่านั้น. |
+| AllSlides | `2` | เล่นบนสไลด์ทั้งหมด. โปรดใช้ [`PlayAcrossSlides`](../iaudioframe/playacrossslides) property แทน. องค์ประกอบนี้ล้าสมัยตั้งแต่ PowerPoint 2013. |
+| InClickSequence | `3` | เล่นโดยอัตโนมัติพร้อมการคลิก. |
 
 ### ดูเพิ่มเติม
 

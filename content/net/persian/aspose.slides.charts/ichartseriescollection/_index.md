@@ -18,23 +18,23 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | عنصری را که در اندیس مشخص شده است دریافت می‌کند. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | عنصر موجود در اندیس مشخص را برمی‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | یک سری نموداری جدید ایجاد می‌کند و آن را به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | یک سری نموداری جدید از [`IChartCellCollection`](../ichartcellcollection) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | یک سری نموداری جدید از [`IChartDataCell`](../ichartdatacell) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | یک سری نموداری جدید از مقدار ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | یک سری نمودار جدید ایجاد می‌کند و آن را به مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | یک سری نمودار جدید از [`IChartCellCollection`](../ichartcellcollection) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | یک سری نمودار جدید از [`IChartDataCell`](../ichartdatacell) ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | یک سری نمودار جدید از مقدار ایجاد می‌کند و به مجموعه اضافه می‌نماید. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | تمام عناصر (از جمله سبک نمودار) را از مجموعه حذف می‌کند. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | [`IChartSeries`](../ichartseries) مشخص شده را جستجو می‌کند و ایندکس پایه صفر اولین رخداد آن را در کل مجموعه باز می‌گرداند. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | یک سری نموداری جدید ایجاد می‌کند و در مجموعه وارد می‌نماید. |
-| [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | مقدار مشخص شده را حذف می‌کند. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | عنصری را که در اندیس مشخص شده است حذف می‌کند. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | به دنبال [`IChartSeries`](../ichartseries) مشخص جستجو می‌کند و شاخص مبتنی بر صفر اولین وقوع را در کل مجموعه برمی‌گرداند. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | یک سری نمودار جدید ایجاد می‌کند و آن را در مجموعه درج می‌نماید. |
+| [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | مقدار مشخص‌شده را حذف می‌کند. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | عنصری در اندیس مشخص حذف می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
 * رابط [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * رابط [IChartSeries](../ichartseries)

@@ -1,6 +1,6 @@
 ---
 title: IVbaReference
-second_title: Aspose.Sildes for .NET API-referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt de naam van de VBA-projectreferentie voor.
 type: docs
 weight: 11570
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Stelt de naam van de VBA-projectreferentie voor. Lezen/Schrijven String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Stelt de naam van de VBA-projectreferentie voor. Lezen/schrijven String. |
 
 ### Zie ook
 

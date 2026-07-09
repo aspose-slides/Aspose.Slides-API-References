@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रस्तुति का एक संक्रमण रूप दर्शाता है जिसे वेब फ़ॉर्मेट में सहेजा जा सके।
+description: प्रेज़ेंटेशन के ट्रांज़िशन फ़ॉर्म को वेब फ़ॉर्मेट में सहेजने के लिए प्रतिनिधित्व करता है।
 type: docs
 weight: 4680
 url: /hi/aspose.slides.export.web/webdocument/
 ---
-## WebDocument वर्ग
+## WebDocument क्लास
 
-प्रस्तुति का एक संक्रमण रूप दर्शाता है जिसे वेब फ़ॉर्मेट में सहेजा जा सके।
+प्रेज़ेंटेशन के ट्रांज़िशन फ़ॉर्म को वेब फ़ॉर्मेट में सहेजने के लिए प्रतिनिधित्व करता है।
 
 ```csharp
 public class WebDocument
@@ -18,23 +18,23 @@ public class WebDocument
 
 | नाम | विवरण |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) निर्माता। |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) कन्स्ट्रक्टर. |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | दस्तावेज़ का वैश्विक भंडारण लौटाता है। केवल-पढ़ने योग्य [`Storage`](../storage)। |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | दस्तावेज़ का वैश्विक स्टोरेज लौटाता है। केवल-पढ़ने योग्य [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | दस्तावेज़ के आउटपुट तत्वों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`Output`](./output)। |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | दस्तावेज़ के आउटपुट तत्वों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`Output`](./output). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/webdocument/save)() | दस्तावेज़ का आउटपुट सहेजता है। |
+| [Save](../../aspose.slides.export.web/webdocument/save)() | दस्तावेज़ आउटपुट को सहेजता है। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * असेंबली [Aspose.Slides](../../)

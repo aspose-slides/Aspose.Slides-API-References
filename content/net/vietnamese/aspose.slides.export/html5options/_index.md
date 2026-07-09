@@ -1,12 +1,12 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho các tùy chọn xuất HTML5.
 type: docs
 weight: 3860
 url: /vi/aspose.slides.export/html5options/
 ---
-## Lớp Html5Options
+## Html5Options lớp
 
 Đại diện cho các tùy chọn xuất HTML5.
 
@@ -14,28 +14,28 @@ url: /vi/aspose.slides.export/html5options/
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [Html5Options](html5options)() | Bộ khởi tạo mặc định. |
+| [Html5Options](html5options)() | Hàm tạo mặc định. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Lấy hoặc đặt tùy chọn hoạt hình cho các hình dạng. Đọc/ghi Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Lấy hoặc đặt tùy chọn hoạt hình chuyển tiếp. Đọc/ghi Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Lấy hoặc đặt phông chữ được sử dụng khi không tìm thấy phông chữ nguồn. Đọc/ghi String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi đặt thành `true`, các ligature sẽ bị tắt trong kết quả hiển thị. Mặc định, thuộc tính này được đặt thành `false`. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Lấy hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Lấy hoặc đặt kiểu hiển thị của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Xác định nơi lưu trữ tài nguyên ngoài. Đọc/ghi String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Đại diện cho mức độ nén ảnh |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Chỉ định liệu có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bài thuyết trình hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bài thuyết trình [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Lấy hoặc đặt một đối tượng nhận cảnh báo và quyết định liệu quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng khi không tìm thấy phông chữ nguồn. Đọc/ghi String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị chỉ ra liệu văn bản có được hiển thị mà không sử dụng ligature hay không. Khi đặt thành `true`, ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt là `false`. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Xác định nơi lưu trữ tài nguyên bên ngoài. Đọc/ghi String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | Đại diện cho mức độ nén hình ảnh |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để cập nhật tiến độ lưu dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Chỉ ra có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ sắp xếp các slide trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định liệu quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ví dụ
 
@@ -58,6 +58,6 @@ using (Presentation pres = new Presentation("demo.pptx"))
 * lớp [SaveOptions](../saveoptions)
 * giao diện [IHtml5Options](../ihtml5options)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
-* tập hợp [Aspose.Slides](../../)
+* tập lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

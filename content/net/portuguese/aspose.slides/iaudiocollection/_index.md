@@ -3,7 +3,7 @@ title: IAudioCollection
 second_title: Aspose.Sildes para Referência da API .NET
 description: Representa uma coleção de arquivos de áudio incorporados.
 type: docs
-weight: 5200
+weight: 5220
 url: /pt/aspose.slides/iaudiocollection/
 ---
 ## IAudioCollection interface
@@ -28,7 +28,7 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Adiciona uma cópia de um arquivo de áudio de outra apresentação. |
 | [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Cria e adiciona um áudio a uma apresentação a partir de um fluxo. |
 
-### Ver também
+### Veja também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IAudio](../iaudio)

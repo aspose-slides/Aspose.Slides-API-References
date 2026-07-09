@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 모션 경로의 원점이 상대적으로 어디에 있는지 지정합니다. 예를 들어 슬라이드 레이아웃이나 상위 요소와 같습니다.
+description: 동작 경로의 원점이 무엇에 상대적인지 지정합니다. 슬라이드 레이아웃이나 상위 요소와 같이 됩니다.
 type: docs
 weight: 680
 url: /ko/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType 열거형
 
-모션 경로의 원점이 상대적인 위치를 지정합니다. 슬라이드 레이아웃이나 상위 개체와 같은 경우입니다.
+동작 경로의 원점이 무엇에 상대적인지 지정합니다. 슬라이드 레이아웃이나 상위 요소와 같이 됩니다.
 
 ```csharp
 public enum MotionOriginType
@@ -22,7 +22,7 @@ public enum MotionOriginType
 | Parent | `0` |  |
 | Layout | `1` |  |
 
-### 또 보기
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: INotesSize
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili ukuran slide catatan.
 type: docs
-weight: 6470
+weight: 6490
 url: /id/aspose.slides/inotessize/
 ---
 ## INotesSize antarmuka
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | Mengembalikan atau mengatur ukuran dalam satuan poin. Baca/tulis SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | Mengembalikan atau mengatur ukuran dalam poin. Baca/tulis SizeF. |
 
 ### Lihat Juga
 

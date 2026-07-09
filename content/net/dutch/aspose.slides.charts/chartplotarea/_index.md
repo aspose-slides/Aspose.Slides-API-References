@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een rechthoek voor waarin de chart getekend moet worden.
+description: Stelt een rechthoek voor waarin de grafiek moet worden getekend.
 type: docs
 weight: 1420
 url: /nl/aspose.slides.charts/chartplotarea/
 ---
-## ChartPlotArea class
+## ChartPlotArea klasse
 
-Stelt een rechthoek voor waarin de chart getekend moet worden.
+Stelt het rechthoek voor waarin de grafiek moet worden getekend.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Specificeert de werkelijke hoogte van het chart-element. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van werkelijke waarden. Alleen-lezen Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Specificeert de werkelijke breedte van het chart-element. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van werkelijke waarden. Alleen-lezen Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Specificeert de werkelijke x-locatie (links) van het chart-element ten opzichte van de linkerbovenhoek van de chart. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van werkelijke waarden. Alleen-lezen Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Specificeert de werkelijke bovenkant van het chart-element ten opzichte van de linkerbovenhoek van de chart. Roep methode IChart.ValidateChartLayout() aan vóór het ophalen van werkelijke waarden. Alleen-lezen Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Specificeert de werkelijke hoogte van het grafiekelement. Roep methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Specificeert de werkelijke breedte van het grafiekelement. Roep methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Specificeert de werkelijke x-positie (links) van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Specificeert de werkelijke bovenkant van het grafiekelement ten opzichte van de linkerbovenhoek van de grafiek. Roep methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarden te verkrijgen. Alleen-lezen Single. |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Onderkant. Alleen-lezen Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. Alleen-lezen [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Retourneert het formaat van een plot-gebied. Alleen-lezen [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Retourneert of stelt de hoogte van de omhullende rechthoek van een plot-gebied in als een fractie van de chart-hoogte (van 0 tot 1). Lezen/Schrijven Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definieert hoe de locatie moet worden berekend: true – automatisch berekend; anders gedefinieerd door de X-, Y-, Width- en Height-eigenschappen. Alleen-lezen Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Als de lay-out van het plot-gebied handmatig is gedefinieerd, bepaalt deze eigenschap of het plot-gebied wordt ingedeeld volgens de binnenkant (exclusief assen en as-labels) of de buitenkant (inclusief assen en as-labels). Lezen/Schrijven [`LayoutTargetType`](./layouttargettype). |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Grafiek. Alleen-lezen [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Geeft het formaat van een plotgebied terug. Alleen-lezen [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Geeft de hoogte van de omhullende van een plotgebied terug of stelt deze in als een fractie van de hoogte van de grafiek (van 0 tot 1). Lezen/Schrijven Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Definieert hoe de locatie moet worden berekend: true – automatisch berekend; gedefinieerd door de X, Y, Width, Height-eigenschappen. Alleen-lezen Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Als de lay-out van het plotgebied handmatig is gedefinieerd, geeft deze eigenschap aan of het plotgebied moet worden gelayout door de binnenkant (exclusief assen en aslabels) of door de buitenkant (inclusief assen en aslabels). Lezen/Schrijven [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Rechts. Alleen-lezen Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Retourneert of stelt de breedte van de omhullende rechthoek van een plot-gebied in als een fractie van de chart-breedte (van 0 tot 1). Lezen/Schrijven Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Retourneert of stelt de x-coördinaat van de linkerbovenhoek van de omhullende rechthoek van een plot-gebied in als een fractie van de chart-breedte (van 0 tot 1). Lezen/Schrijven Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Retourneert of stelt de y-coördinaat van de linkerbovenhoek van de omhullende rechthoek van een plot-gebied in als een fractie van de chart-hoogte (van 0 tot 1). Lezen/Schrijven Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Geeft de breedte van de omhullende van een plotgebied terug of stelt deze in als een fractie van de breedte van de grafiek (van 0 tot 1). Lezen/Schrijven Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Geeft de x-coördinaat van de linkerbovenhoek van de omhullende van een plotgebied terug of stelt deze in als een fractie van de breedte van de grafiek (van 0 tot 1). Lezen/Schrijven Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Geeft de y-coördinaat van de linkerbovenhoek van de omhullende van een plotgebied terug of stelt deze in als een fractie van de hoogte van de grafiek (van 0 tot 1). Lezen/Schrijven Single. |
 
 ### Zie ook
 

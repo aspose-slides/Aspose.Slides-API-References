@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Efekt przejścia slajdu w kierunku narożnym.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Efekt przejścia slajdu w kierunku rogu.
 type: docs
-weight: 9990
+weight: 10010
 url: /pl/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition klasa
 
-Efekt przejścia slajdu w kierunku narożnym.
+Efekt przejścia slajdu w kierunku rogu.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -25,7 +25,7 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 | Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla konkretnego typu, odpowiednia do użycia w algorytmach hashujących i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszających i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

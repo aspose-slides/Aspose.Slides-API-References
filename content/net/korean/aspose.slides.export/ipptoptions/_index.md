@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션이 PPT 형식으로 저장되는 방식을 제어하는 옵션을 제공합니다.
+description: 프레젠테이션을 PPT 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
 type: docs
 weight: 4010
 url: /ko/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions 인터페이스
 
-프레젠테이션이 PPT 형식으로 저장되는 방식을 제어하는 옵션을 제공합니다.
+프레젠테이션을 PPT 형식으로 저장하는 방식을 제어하는 옵션을 제공합니다.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -16,12 +16,12 @@ public interface IPptOptions : ISaveOptions
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | ISaveOptions 인터페이스를 반환합니다. 읽기 전용 [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 루트 디렉터리 항목에 저장되는 개체 클래스 GUID(CLSID)를 나타냅니다. 문서 애플리케이션의 COM 활성화에 사용할 수 있습니다. 기본값은 '64818D11-4F9B-11CF-86EA-00AA00B929E8'이며, 이는 'Microsoft Powerpoint.Slide.8'에 해당합니다. |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | 루트 디렉터리 항목에 저장되는 개체 클래스 GUID(CLSID)를 나타냅니다. 문서 애플리케이션의 COM 활성화에 사용할 수 있습니다. 기본 값은 '64818D11-4F9B-11CF-86EA-00AA00B929E8'이며, 이는 'Microsoft Powerpoint.Slide.8'에 해당합니다. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

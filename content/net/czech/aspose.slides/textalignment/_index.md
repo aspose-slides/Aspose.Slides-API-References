@@ -3,12 +3,12 @@ title: TextAlignment
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje různé styly zarovnání textu.
 type: docs
-weight: 10880
+weight: 10900
 url: /cs/aspose.slides/textalignment/
 ---
 ## Výčtový typ TextAlignment
 
-Reprezentuje různé styly zarovnání textu.
+Representuje různé styly zarovnání textu.
 
 ```csharp
 public enum TextAlignment
@@ -23,8 +23,8 @@ public enum TextAlignment
 | Center | `1` | Zarovnání na střed. |
 | Right | `2` | Zarovnání vpravo. |
 | Justify | `3` | Zarovnání do bloku. |
-| JustifyLow | `4` | Nízké zarovnání Kashida. |
-| Distributed | `5` | Rozložené zarovnání. |
+| JustifyLow | `4` | Kashida nízké zarovnání. |
+| Distributed | `5` | Rozdělené zarovnání. |
 
 ### Viz také
 

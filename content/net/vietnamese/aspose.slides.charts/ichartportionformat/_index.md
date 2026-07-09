@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn các thuộc tính định dạng phần biểu đồ được sử dụng trong biểu đồ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho các thuộc tính định dạng phần biểu đồ được sử dụng trong biểu đồ.
 type: docs
 weight: 1920
 url: /vi/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat giao diện
 
-Biểu diễn các thuộc tính định dạng phần biểu đồ được sử dụng trong biểu đồ.
+Đại diện cho các thuộc tính định dạng phần biểu đồ được sử dụng trong biểu đồ.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -20,7 +20,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Trả về giao diện IBasePortionFormat. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IBasePortionFormat](../../aspose.slides/ibaseportionformat)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

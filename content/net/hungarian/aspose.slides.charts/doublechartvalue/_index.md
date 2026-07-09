@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes for .NET API Referenciája
-description: Kettős értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literál értékként.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Képviseli a dupla értéket, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literál értékként.
 type: docs
-weight: 1610
+weight: 1630
 url: /hu/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue osztály
 
-Két módon tárolható dupla érték a pptx prezentációs dokumentumban: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literál értékként.
+Képviseli a dupla értéket, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet cellájában/celláiban; 2) literál értékként.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -21,13 +21,13 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 | [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Visszaadja vagy beállítja a diagram adatcelláját. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
 | [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja az értéket literál doubleként. Olvasás/írás Double. |
 | override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Visszaadja vagy beállítja a Data objektumot. Olvasás/írás Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Meghatározza, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság a leszármazottaknál valós-e. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság valós-e a leszármazottaknál. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Átalakítja Double típusra. |
+| [ToDouble](../../aspose.slides.charts/doublechartvalue/todouble)() | Átalakítja Double típussá. |
 
 ### Lásd még
 

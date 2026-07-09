@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Slides için .NET API Referansı
-description: Özel xml bölümünü temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Özel XML bölümünü temsil eder.
 type: docs
-weight: 5650
+weight: 5670
 url: /tr/aspose.slides/icustomxmlpart/
 ---
-## ICustomXmlPart arayüzü
+## ICustomXmlPart arayüz
 
-Özel xml bölümünü temsil eder.
+Özel XML bölümünü temsil eder.
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,16 +18,16 @@ public interface ICustomXmlPart
 
 | Ad | Açıklama |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Office Open XML belgesi içinde tek bir özel XML bölümünü benzersiz şekilde tanımlayan küresel olarak benzersiz bir tanımlayıcı (GUID) belirtir. Yalnızca okuma Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Özel XML bölümüyle ilişkili XML şema koleksiyonunu döndürür. Yalnızca okuma String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML verisini UTF-8 dizgesi olarak döndürür veya ayarlar. Okuma/yazma String. değer `null`. değer boş veya xml-verisi geçersiz. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Bir Office Open XML belgesi içinde tek bir özel XML bölümünü benzersiz şekilde tanımlayan küresel benzersiz bir tanımlayıcı (GUID) belirtir. Salt okunur Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Özel XML bölümüyle ilişkilendirilen XML şemaları koleksiyonunu döndürür. Salt okunur String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML verisini UTF-8 dizesi olarak döndürür veya ayarlar. Okuma/yazma String. değer `null`. değer boş veya xml-verisi geçersiz. |
 | [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | XML verisini döndürür veya ayarlar. Okuma/yazma Byte[]. değer `null`. değer boş veya xml-verisi geçersiz. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Özel xml bölümünü sunumdan kaldırır. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Özel XML bölümünü sunumdan kaldırır. |
 
 ### Ayrıca Bakınız
 

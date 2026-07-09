@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes for .NET API Referansı
-description: Resmin alanı nasıl doldurulacağını belirler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Görselin alanı nasıl dolduracağını belirler.
 type: docs
-weight: 9380
+weight: 9400
 url: /tr/aspose.slides/picturefillmode/
 ---
 ## PictureFillMode enum
 
-Resmin alanı nasıl dolduracağını belirler.
+Görselin alanı nasıl dolduracağını belirler.
 
 ```csharp
 public enum PictureFillMode

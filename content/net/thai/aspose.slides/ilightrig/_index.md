@@ -1,14 +1,14 @@
 ---
 title: ILightRig
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของ LightRig.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึง LightRig.
 type: docs
 weight: 6270
 url: /th/aspose.slides/ilightrig/
 ---
 ## ILightRig อินเทอร์เฟซ
 
-เป็นตัวแทนของ LightRig.
+แสดงถึง LightRig.
 
 ```csharp
 public interface ILightRig
@@ -16,17 +16,17 @@ public interface ILightRig
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | ทิศทางของแสง. อ่าน/เขียน [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | เป็นตัวแทนของแสงพรีเซ็ตที่สามารถใช้กับรูปทรงได้. LightRig แสดงกลุ่มของแสงที่จัดวางในลักษณะเฉพาะสัมพันธ์กับฉาก 3D. อ่าน/เขียน [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | แสดงถึงแสงตั้งล่วงหน้าที่สามารถนำไปใช้กับรูปทรงได้. Light rig แสดงถึงกลุ่มของแสงที่จัดวางในลักษณะเฉพาะสัมพันธ์กับฉาก 3 มิติ. อ่าน/เขียน [`LightRigPresetType`](../lightrigpresettype). |
 
-## วิธีการ
+## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนเป็นพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาร์เรย์ที่คืนค่า - ละติจูด, ที่สอง - ลองจิจูด, ที่สาม - การหมุน. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนเป็นพิกัดละติจูดและลองจิจูด. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | การหมุนนิยามโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. รายการแรกในอาเรย์ผลลัพธ์ - ละติจูด, รายการที่สอง - ลองจิจูด, รายการที่สาม - การหมุน. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | การหมุนนิยามโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. |
 
 ### ดูเพิ่มเติม
 

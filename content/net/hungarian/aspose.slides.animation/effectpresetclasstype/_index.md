@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
-second_title: Aspose.Sildes .NET API referenciája
-description: Az effektus osztálytípusokat reprezentálja.
+second_title: Aspose.Sildes for .NET API Referencia
+description: A hatásosztály típusait képviseli.
 type: docs
-weight: 300
+weight: 320
 url: /hu/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType felsorolás
+## EffectPresetClassType enumeráció
 
-Az effektus osztály típusait reprezentálja.
+A hatás osztály típusait képviseli.
 
 ```csharp
 public enum EffectPresetClassType
@@ -18,12 +18,12 @@ public enum EffectPresetClassType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Entrance | `0` | Entrance effektus osztály. |
-| Exit | `1` | Exit effektus osztály. |
-| Emphasis | `2` | Emphasis effektus osztály. |
-| Path | `3` | Motion Paths osztály. |
-| MediaCall | `4` | Media effektus osztály. |
-| OLEActionVerbs | `5` | OLE Action Verbs osztály. |
+| Entrance | `0` | Belépő hatások osztálya. |
+| Exit | `1` | Kilépő hatások osztálya. |
+| Emphasis | `2` | Kiemelés hatások osztálya. |
+| Path | `3` | Mozgásútvonalak osztálya. |
+| MediaCall | `4` | Média hatások osztálya. |
+| OLEActionVerbs | `5` | OLE Action Verbs osztálya. |
 
 ### Lásd még
 

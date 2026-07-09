@@ -1,9 +1,9 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes .NET API referencia
-description: A diagram bekezdésformázási tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy diagram bekezdésformázási tulajdonságait reprezentálja.
 type: docs
-weight: 1880
+weight: 1900
 url: /hu/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat interfész
@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | Név | Leírás |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | A bekezdésben a szöveg igazítását adja vissza vagy állítja be. Olvasás/írás [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Az alapértelmezett tabuláció méretét adja vissza vagy állítja be. Olvasás/írás Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Megállapítja, hogy a kelet-ázsiai sortörést használják-e a bekezdésben. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | A bekezdésben a betűtípus igazítását adja vissza vagy állítja be. Olvasás/írás [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Megállapítja, hogy a függő írásjelek használatban vannak-e a bekezdésben. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | A bekezdés első sor behúzását/függő behúzást adja vissza vagy állítja be. A függő behúzás negatív értékekkel is definiálható. Olvasás/írás Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Megállapítja, hogy a latin sortörést használják-e a bekezdésben. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | A bekezdés bal margóját adja vissza vagy állítja be. Olvasás/írás Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | A bekezdés jobb margóját adja vissza vagy állítja be. Olvasás/írás Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Megállapítja, hogy a jobbról balra írás használatban van-e a bekezdésben. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | A bekezdés utolsó sor utáni térköz mennyiségét adja vissza vagy állítja be. Olvasás/írás Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | A bekezdés első sor előtti térköz mennyiségét adja vissza vagy állítja be. Olvasás/írás Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | A bekezdés alapvonalai közötti térköz mennyiségét adja vissza vagy állítja be. Olvasás/írás Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | A bekezdés tabulációit adja vissza. Csak olvasható [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Visszaadja vagy beállítja a szövegigazítást egy bekezdésben. Olvasás/írás [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Visszaadja vagy beállítja az alapértelmezett tabulációméretet. Olvasás/írás Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Meghatározza, hogy egy bekezdésben a kelet-ázsiai sortörést használják-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Visszaadja vagy beállítja a betűtípus igazítását egy bekezdésben. Olvasás/írás [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Meghatározza, hogy egy bekezdésben függőleges írásjelet használnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Visszaadja vagy beállítja a bekezdés első sor behúzását/függőleges behúzását. A függőleges behúzás negatív értékkel is definiálható. Olvasás/írás Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Meghatározza, hogy egy bekezdésben latin sortörés használatos-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Visszaadja vagy beállítja a bal margót egy bekezdésben. Olvasás/írás Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Visszaadja vagy beállítja a jobb margót egy bekezdésben. Olvasás/írás Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Meghatározza, hogy egy bekezdésben jobbról balra írás használatos-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Visszaadja vagy beállítja az utolsó sor utáni térközt egy bekezdésben. Olvasás/írás Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Visszaadja vagy beállítja az első sor előtti térközt egy bekezdésben. Olvasás/írás Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Visszaadja vagy beállítja az alapsorok közti távolságot egy bekezdésben. Olvasás/írás Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Visszaadja egy bekezdés tabulációit. Csak olvasás [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Lásd még
 

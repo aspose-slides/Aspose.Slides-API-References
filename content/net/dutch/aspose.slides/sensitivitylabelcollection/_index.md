@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een verzameling van gevoeligheidslabels voor die op het document zijn toegepast.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Vertegenwoordigt een verzameling van gevoeligheidslabels die op het document zijn toegepast.
 type: docs
 weight: 9810
 url: /nl/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection klasse
 
-Stelt een verzameling van gevoeligheidslabels voor die op het document zijn toegepast.
+Vertegenwoordigt een verzameling van gevoeligheidslabels die op het document zijn toegepast.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -19,18 +19,18 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Geeft het aantal elementen in de collectie terug. Alleen-lezen Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Geeft het gevoeligheidslabel op index terug. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Retourneert het aantal elementen in de verzameling. Alleen-lezen Int32. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Retourneert het gevoeligheidslabel op basis van de index. |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Voegt een SensitivityLabel toe aan de collectie. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Voegt het gevoeligheidslabel toe aan het einde van de collectie. |
-| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Voegt een SensitivityLabel toe aan de verzameling. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Voegt het gevoeligheidslabel toe aan het einde van de verzameling. |
+| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Verwijdert alle elementen uit de verzameling. |
+| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Kopieert alle elementen uit de verzameling naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereert. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Verwijdert het gevoeligheidslabel op de opgegeven index. |
 
 ### Zie ook

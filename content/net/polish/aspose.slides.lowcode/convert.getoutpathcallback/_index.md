@@ -1,14 +1,14 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Aspose.Sildes dla referencji API .NET
-description: Wywołanie zwrotne, które zostanie wywołane dla każdego Slide../aspose.slides/slide, oczekuje się zwrócenia ścieżki wyjściowej.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Wywołanie zwrotne, które zostanie wywołane dla każdego Slide../aspose.slides/slide, a oczekiwana jest zwrócona ścieżka wyjściowa.
 type: docs
-weight: 7870
+weight: 7890
 url: /pl/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback delegat
 
-Wywołanie zwrotne, które zostanie wywołane dla każdego [`Slide`](../../aspose.slides/slide), oczekuje się zwrócenia ścieżki wyjściowej.
+Wywołanie zwrotne, które zostanie wywołane dla każdego [`Slide`](../../aspose.slides/slide), a oczekiwana jest zwrócona ścieżka wyjściowa.
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
@@ -17,7 +17,7 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 | Parametr | Typ | Opis |
 | --- | --- | --- |
 | slide | Slide | Obecny iterowany slajd |
-| index | Int32 | Indeks aktualnego slajdu |
+| index | Int32 | Indeks bieżącego slajdu |
 
 ### Zobacz także
 

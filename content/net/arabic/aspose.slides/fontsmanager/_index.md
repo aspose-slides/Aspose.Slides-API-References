@@ -1,12 +1,12 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes for .NET
 description: يدير الخطوط عبر العرض التقديمي.
 type: docs
 weight: 4940
 url: /ar/aspose.slides/fontsmanager/
 ---
-## FontsManager فئة
+## فئة FontsManager
 
 يدير الخطوط عبر العرض التقديمي.
 
@@ -18,36 +18,36 @@ public class FontsManager : IFontsManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | يمثل مجموعة المستخدم من قواعد FontFallBack لإدارة مجموعات الخطوط من أجل الاستبدالات الصحيحة عبر وظيفة fallback. قراءة/كتابة [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | استبدالات الخطوط المستخدمة عند التصيير. قراءة/كتابة [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | يمثل مجموعة المستخدم من قواعد FontFallBack لإدارة مجموعات الخطوط للتبديلات الصحيحة باستخدام وظيفة الاستبدال الاحتياطي قراءة/كتابة [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | استبدالات الخط لاستخدامها عند العرض قراءة/كتابة [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | يضيف الخط المضمن. ضع في اعتبارك عند نسخ أي خطوط أن معظم الخطوط محمية بحقوق النشر. أولاً ابحث عن ترخيص الخط مسبقًا وتحقق من إمكانية نقله بحرية إلى جهاز آخر. يمكن أن يُرمى استثناء ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمّنًا بالفعل |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | يضيف الخط المضمن. ضع في اعتبارك عند نسخ أي خطوط أن معظم الخطوط محمية بحقوق النشر. أولاً ابحث عن ترخيص الخط مسبقًا وتحقق من إمكانية نقله بحرية إلى جهاز آخر. يمكن أن يُرمى استثناء ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمّنًا بالفعل |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | يُعيد الخطوط المضمنة في العرض التقديمي |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | يسترجع مصفوفة البايت التي تمثل بيانات الخط لنمط الخط المحدد وبيانات الخط |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | يحدد مستوى تضمين الخط من مصفوفة البايت المعطاة واسم الخط |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | يُعيد الخطوط المستخدمة في العرض التقديمي |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند تصيير العرض التقديمي |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | يحصل على المعلومات حول الخطوط التي سيتم استبدالها أثناء تصيير الشرائح المحددة |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | يضيف الخط المضمن ضع في اعتبارك عند نسخ أي خط أن معظم الخطوط محمية بحقوق الطبع والنشر. أولاً حدد ترخيص الخط مسبقاً وتحقق من إمكانية نقلها بحرية إلى جهاز آخر. يمكن رمي ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمناً بالفعل |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | يضيف الخط المضمن ضع في اعتبارك عند نسخ أي خط أن معظم الخطوط محمية بحقوق الطبع والنشر. أولاً حدد ترخيص الخط مسبقاً وتحقق من إمكانية نقلها بحرية إلى جهاز آخر. يمكن رمي ArgumentException إذا كانت بيانات الخط فارغة أو إذا كان هذا الخط مضمناً بالفعل |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | يعيد الخطوط المضمنة في العرض التقديمي |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | يسترجع مصفوفة البايت التي تمثل بيانات الخط لنمط خط محدد وبيانات الخط |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | يحدد مستوى تضمين الخط من مصفوفة البايت المقدمة واسم الخط |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | يعيد الخطوط المستخدمة في العرض التقديمي |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | يحصل على المعلومات حول الخطوط التي سيتم استبدالها عند عرض العرض التقديمي |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | يحصل على المعلومات حول الخطوط التي سيتم استبدالها أثناء عرض الشرائح المحددة |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | يزيل الخط المضمن |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | يستبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | يستبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | يستبدل الخط في العرض التقديمي باستخدام المعلومات المقدمة في مجموعة من [`FontSubstRule`](../fontsubstrule) |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | يستبدل الخط في العرض التقديمي |
 
-### أمثلة
+### الأمثلة
 
-يوضح المثال التالي كيفية إضافة الخطوط المضمنة إلى عرض تقديمي PowerPoint.
+يوضح المثال التالي كيفية إضافة الخطوط المضمنة إلى عرض PowerPoint.
 
 ```csharp
 [C#]
 // تحميل العرض التقديمي
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// تحميل خط المصدر المراد استبداله
+	// تحميل الخط المصدر الذي سيتم استبداله
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();

@@ -1,14 +1,14 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクト ビヘイビアのタイミング プロパティを表します。
+description: エフェクトの動作に対するタイミングプロパティを表します。
 type: docs
-weight: 180
+weight: 200
 url: /ja/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection クラス
 
-Represents timing properties for the effect behavior.
+エフェクトの動作に対するタイミングプロパティを表します。
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -26,17 +26,17 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | 新しいプロパティをコレクションに追加します。 |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | 新しいプロパティをコレクションに追加します。 |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | コレクションに新しいプロパティを追加します。 |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | コレクションに新しいプロパティを追加します。 |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | コレクションからすべてのプロパティを削除します。 |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | ICollection が特定の値を含むかどうかを判断します。 |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | ICollection が特定の値を含むかどうかを判断します。 |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection の要素を Array にコピーし、特定の Array インデックスから開始します。 |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | ICollection に特定の値が含まれるかどうかを判断します。 |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | ICollection に特定の値が含まれるかどうかを判断します。 |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection の要素を特定の配列インデックスから開始して Array にコピーします。 |
 | [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList の特定の項目のインデックスを決定します。 |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList でプロパティ値で特定の項目のインデックスを決定します。 |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList における特定の項目のインデックスを決定します。 |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList でプロパティ値に基づく特定の項目のインデックスを決定します。 |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | 指定されたインデックスに新しいプロパティをコレクションに挿入します。 |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | 指定されたインデックスに新しいプロパティ（指定されたプロパティ値付き）をコレクションに挿入します。 |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | 指定されたインデックスに（指定されたプロパティ値を持つ）新しいプロパティをコレクションに挿入します。 |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | コレクションから指定されたプロパティを削除します。 |
 | [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | コレクションから指定されたプロパティを削除します。 |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | 指定されたインデックスのプロパティを削除します。 |

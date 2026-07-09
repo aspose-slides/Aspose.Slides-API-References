@@ -1,48 +1,48 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक ओवरराइडिंग थीम का प्रतिनिधित्व करता है।
 type: docs
 weight: 11460
 url: /hi/aspose.slides.theme/overridetheme/
 ---
-## OverrideTheme क्लास
+## OverrideTheme वर्ग
 
-Represents a overriding theme.
+एक ओवरराइडिंग थीम का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
 ```
 
-## प्रॉपर्टीज
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | रंग योजना लौटाता है। केवल पढ़ने योग्य [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | फ़ॉन्ट योजना लौटाता है। केवल पढ़ने योग्य [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | आकार फ़ॉर्मेट योजना लौटाता है। केवल पढ़ने योग्य [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | True मान का अर्थ है कि ColorScheme, FontScheme, FormatScheme शून्य है और इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग अक्षम है। केवल पढ़ने योग्य Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | पैरेंट प्रस्तुति लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | रंग योजना लौटाता है। केवल पढ़ने योग्य [`IColorScheme`](../icolorscheme)। |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | फ़ॉन्ट योजना लौटाता है। केवल पढ़ने योग्य [`IFontScheme`](../ifontscheme)। |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | आकार फ़ॉर्मेट योजना लौटाता है। केवल पढ़ने योग्य [`IFormatScheme`](../iformatscheme)। |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | सत्य मान दर्शाता है कि ColorScheme, FontScheme, FormatScheme null हैं और इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग अक्षम है। केवल पढ़ने योग्य Boolean। |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | पैरेंट प्रस्तुति लौटाता है। केवल पढ़ने योग्य [`IPresentation`](../../aspose.slides/ipresentation)। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme, FontScheme, FormatScheme को null सेट करता है ताकि इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइडिंग अक्षम हो जाए। |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | इनहेरिटेंस लागू करके प्रभावी थीम डेटा प्राप्त करता है। |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | InheritedTheme की ColorScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ ColorScheme को इनिट करता है। |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme की ColorScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ ColorScheme को इनिट करता है। |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | InheritedTheme की ColorScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ ColorScheme को इनिट करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme की ColorScheme के डेटा से इनिशियलाइज़ करता है। |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | InheritedTheme की FontScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FontScheme को इनिट करता है। |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme की FontScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FontScheme को इनिट करता है। |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | InheritedTheme की FontScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FontScheme को इनिट करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme की FontScheme के डेटा से इनिशियलाइज़ करता है। |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | InheritedTheme की FormatScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FormatScheme को इनिट करता है। |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme की FormatScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FormatScheme को इनिट करता है। |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | InheritedTheme की FormatScheme को ओवरराइड करने के लिए एक नए ऑब्जेक्ट के साथ FormatScheme को इनिट करता है। और इस नए ऑब्जेक्ट का डेटा InheritedTheme की FormatScheme के डेटा से इनिशियलाइज़ करता है। |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ColorScheme, FontScheme, FormatScheme को null सेट करें ताकि इस थीम ऑब्जेक्ट के साथ कोई भी ओवरराइटिंग अक्षम हो जाए। |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | विरासत लागू किए साथ प्रभावी थीम डेटा प्राप्त करता है। |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | InheritedTheme की ColorScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ ColorScheme को प्रारंभ करें। |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | InheritedTheme की ColorScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ ColorScheme को प्रारंभ करें। |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | InheritedTheme की ColorScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ ColorScheme को प्रारंभ करें। और इस नई ऑब्जेक्ट के डेटा को InheritedTheme की ColorScheme के डेटा से प्रारंभ करें। |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | InheritedTheme की FontScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FontScheme को प्रारंभ करें। |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | InheritedTheme की FontScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FontScheme को प्रारंभ करें। |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | InheritedTheme की FontScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FontScheme को प्रारंभ करें। और इस नई ऑब्जेक्ट के डेटा को InheritedTheme की FontScheme के डेटा से प्रारंभ करें। |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | InheritedTheme की FormatScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FormatScheme को प्रारंभ करें। |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | InheritedTheme की FormatScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FormatScheme को प्रारंभ करें। |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | InheritedTheme की FormatScheme को ओवरराइड करने के लिए नई ऑब्जेक्ट के साथ FormatScheme को प्रारंभ करें। और इस नई ऑब्जेक्ट के डेटा को InheritedTheme की FormatScheme के डेटा से प्रारंभ करें। |
 
-### संबंधित देखें
+### देखें
 
-* क्लास [Theme](../theme)
+* वर्ग [Theme](../theme)
 * इंटरफ़ेस [IOverrideTheme](../ioverridetheme)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

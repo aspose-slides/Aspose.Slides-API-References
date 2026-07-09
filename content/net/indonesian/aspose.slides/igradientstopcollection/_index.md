@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili sebuah koleksi gradient stop.
+description: Mewakili koleksi gradient stop.
 type: docs
-weight: 6010
+weight: 6030
 url: /id/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection antarmuka
 
-Mewakili sebuah koleksi gradient stop.
+Mewakili koleksi gradient stop.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -28,9 +28,9 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Membuat gradient stop baru dan menambahkannya ke akhir koleksi. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Membuat gradient stop baru dan menambahkannya ke akhir koleksi. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Menghapus semua gradient stop dari koleksi. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan ke dalam koleksi. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan di koleksi. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan di koleksi. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Membuat gradient stop baru dan menyisipkannya pada indeks yang ditentukan di koleksi. |
 | [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Menghapus gradient stop pada indeks yang ditentukan. |
 
 ### Lihat Juga

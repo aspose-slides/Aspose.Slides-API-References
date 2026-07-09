@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes .NET API referencia
-description: Kivétel, amely akkor kerül dobásra, amikor a bemutató fájlformátuma nem támogatott.
+second_title: Aspose.Sildes a .NET API-referencia számára
+description: Kivétel, amely akkor dobódik, ha a bemutatófájl formátuma nem támogatott.
 type: docs
-weight: 9520
+weight: 9540
 url: /hu/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException osztály
 
-Kivétel, amely akkor kerül dobásra, amikor a bemutató fájlformátuma nem támogatott.
+Kivétel, amely akkor dobódik, ha a bemutató fájlformátuma nem támogatott.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -19,8 +19,8 @@ public class PptUnsupportedFormatException : PptReadException
 | Név | Leírás |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Alapértelmezett konstruktor. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor, amely egy üzenetet és egy beágyazott kivételt tartalmazó kivételt hoz létre. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez a kivételhez. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

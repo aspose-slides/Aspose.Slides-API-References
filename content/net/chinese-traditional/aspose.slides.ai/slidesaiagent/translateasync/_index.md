@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
 second_title: Aspose.Sildes for .NET API 參考
-description: 使用 AI 將簡報翻譯成指定語言。
+description: 使用 AI 將簡報翻譯為指定語言。
 type: docs
 weight: 50
 url: /zh-hant/aspose.slides.ai/slidesaiagent/translateasync/
 ---
 ## SlidesAIAgent.TranslateAsync 方法
 
-使用 AI 將簡報翻譯成指定語言。
+使用 AI 將簡報翻譯為指定語言。
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -19,7 +19,7 @@ public Task TranslateAsync(IPresentation presentation, string language)
 | presentation | IPresentation | 目標簡報 |
 | language | String | 目標語言 |
 
-### 例外狀況
+### 例外
 
 | 例外 | 條件 |
 | --- | --- |
@@ -28,13 +28,13 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 ### 備註
 
-以下範例使用預設 [`AsposeAIWebClient`](../../asposeaiwebclient)，此實例是由無參數 [`SlidesAIAgent`](../slidesaiagent) 建構函式建立，並連接至 Aspose 自己的 LLM。若要使用其他 AI 供應者、提供您自己的 LLM，或自訂連線（例如，提供您自己的 `HttpClient`），請將 [`IAIWebClient`](../../iaiwebclient) 實作傳遞給 [`SlidesAIAgent`](../slidesaiagent) 建構函式。可用的實作包括：
+以下範例使用預設的 [`AsposeAIWebClient`](../../asposeaiwebclient)，該實例是由無參數的 [`SlidesAIAgent`](../slidesaiagent) 建構函式建立，並連接至 Aspose 自家的 LLM。若要使用其他 AI 供應商，提供您自己的 LLM，或自訂連線（例如，提供您自己的 `HttpClient`），請將 [`IAIWebClient`](../../iaiwebclient) 實作傳入 [`SlidesAIAgent`](../slidesaiagent) 建構函式。可用的實作包括：
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### 另請參閱
+### 另見
 
 * 介面 [IPresentation](../../../aspose.slides/ipresentation)
 * 類別 [SlidesAIAgent](../../slidesaiagent)

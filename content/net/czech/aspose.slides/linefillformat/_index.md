@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje vlastnosti pro výplň čar.
+second_title: Aspose.Sildes pro .NET referenci API
+description: Reprezentuje vlastnosti pro vyplňování čar.
 type: docs
-weight: 7760
+weight: 7780
 url: /cs/aspose.slides/linefillformat/
 ---
 ## LineFillFormat třída
 
-Reprezentuje vlastnosti pro výplň čar.
+Represents properties for lines filling.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -16,20 +16,20 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Vrací nebo nastavuje typ výplně. Čtení/zápis [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Vrací formát gradientové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Vrací formát výplně vzoru. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Určuje, zda má být výplň otáčena se tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Vrací formát přechodové výplně. Pouze pro čtení [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Vrací formát vzorové výplně. Pouze pro čtení [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Určuje, zda má být výplň otáčena společně s tvarem. Čtení/zápis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Vrací barvu plné výplně. Pouze pro čtení [`IColorFormat`](../icolorformat). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se s určeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

@@ -8,7 +8,7 @@ url: /ko/aspose.slides/controltype/
 ---
 ## ControlType 열거형
 
-제어 형식을 정의하며, 이는 [`AddControl`](../icontrolcollection/addcontrol)에 의해 삽입되어야 합니다.
+[`AddControl`](../icontrolcollection/addcontrol)에 의해 삽입되어야 하는 컨트롤 유형을 정의합니다.
 
 ```csharp
 public enum ControlType
@@ -18,7 +18,7 @@ public enum ControlType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| WindowsMediaPlayer | `0` | Windows Media Player control. |
+| WindowsMediaPlayer | `0` | Windows Media Player 컨트롤. |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: تمثّل مجموعة من مؤلفي التعليقات.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل مجموعة من مؤلفي التعليقات.
 type: docs
 weight: 5580
 url: /ar/aspose.slides/icommentauthorcollection/
 ---
-## ICommentAuthorCollection واجهة
+## ICommentAuthorCollection الواجهة
 
-تمثّل مجموعة من مؤلفي التعليقات.
+تمثل مجموعة من مؤلفي التعليقات.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -16,26 +16,26 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
 | [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. للقراءة فقط [`ICommentAuthor`](../icommentauthor). |
 
 ## الطرق
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | إضافة مؤلف جديد في نهاية المجموعة. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | إضافة مؤلف جديد في نهاية مجموعة. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | إزالة جميع المؤلفين من مجموعة. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | العثور على مؤلف في مجموعة حسب الاسم. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | العثور على مؤلف في مجموعة حسب الاسم والاختصارات. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | إزالة أول تكرار للمؤلف المحدد في مجموعة. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | إزالة المؤلف عند الفهرس المحدد في المجموعة. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | العثور على المؤلف في مجموعة حسب الاسم. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | العثور على المؤلف في مجموعة حسب الاسم والحروف الأولى. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | إزالة أول ظهور للمؤلف المحدد في مجموعة. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | إزالة المؤلف في الفهرس المحدد للمجموعة. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | إنشاء وإرجاع مصفوفة تحتوي على جميع المؤلفين. |
 
-### انظر أيضا
+### انظر أيضًا
 
-* واجهة [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* واجهة [ICommentAuthor](../icommentauthor)
+* الواجهة [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* الواجهة [ICommentAuthor](../icommentauthor)
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 

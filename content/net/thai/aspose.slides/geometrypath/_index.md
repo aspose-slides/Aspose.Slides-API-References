@@ -1,6 +1,6 @@
 ---
 title: GeometryPath
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: แสดงเส้นทางเรขาคณิตของ GeometryShape
 type: docs
 weight: 4960
@@ -8,7 +8,7 @@ url: /th/aspose.slides/geometrypath/
 ---
 ## GeometryPath คลาส
 
-แสดงเส้นทางรูปทรงเรขาคณิตของ GeometryShape
+Represents geometry path of GeometryShape
 
 ```csharp
 public sealed class GeometryPath : IGeometryPath
@@ -16,44 +16,44 @@ public sealed class GeometryPath : IGeometryPath
 
 ## ตัวสร้าง
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [GeometryPath](geometrypath)() | สร้างอินสแตนซ์ของ GeometryPath |
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | ตั้งค่าโหมดการเติม |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | ส่งคืน geometry path ของ GeometryShape เป็นอาเรย์ของส่วนของเส้นทาง |
-| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | ตั้งค่าการแสดงผลของ stroke |
+| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | กำหนดโหมดการเติม |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | คืนค่าเส้นทางเรขาคณิตของ GeometryShape เป็นอาร์เรย์ของเซ็กเมนต์ของเส้นทาง |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | กำหนดลักษณะการวาดเส้น |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | เพิ่มส่วนโค้งที่ระบุลงในเส้นทาง |
-| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | ปิดรูปร่างปัจจุบันของเส้นทางนี้ |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | เพิ่มเส้นโค้ง Bezier แบบคิวบิกที่ส่วนท้ายของเส้นทาง |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | เพิ่มเส้นโค้ง Bezier แบบคิวบิกไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | เพิ่มเส้นโค้ง Bezier แบบคิวบิกที่ส่วนท้ายของเส้นทาง |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | เพิ่มเส้นโค้ง Bezier แบบคิวบิกไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | เพิ่มเส้นไปยังส่วนท้ายของเส้นทาง |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | เพิ่มเส้นไปยังส่วนท้ายของเส้นทาง |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | เพิ่มเส้นไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | เพิ่มเส้นไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | ตั้งค่าตำแหน่งจุดถัดไป |
-| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | ตั้งค่าตำแหน่งจุดถัดไป |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | เพิ่มเส้นโค้ง Bezier แบบควอดราติกที่ส่วนท้ายของเส้นทาง |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | เพิ่มเส้นโค้ง Bezier แบบควอดราติกไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | เพิ่มเส้นโค้ง Bezier แบบควอดราติกที่ส่วนท้ายของเส้นทาง |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | เพิ่มเส้นโค้ง Bezier แบบควอดราติกไปยังตำแหน่งที่กำหนดของเส้นทาง |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ลบเซกเมนต์ที่ตำแหน่งดัชนีที่ระบุของ geometry path |
+| [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | ปิดรูปแบบปัจจุบันของเส้นทางนี้ |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | เพิ่มเส้นโค้ง Cubic Bezier ที่ส่วนท้ายของเส้นทาง |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | เพิ่มเส้นโค้ง Cubic Bezier ไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | เพิ่มเส้นโค้ง Cubic Bezier ที่ส่วนท้ายของเส้นทาง |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | เพิ่มเส้นโค้ง Cubic Bezier ไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | เพิ่มเส้นตรงไปยังส่วนท้ายของเส้นทาง |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | เพิ่มเส้นตรงไปยังส่วนท้ายของเส้นทาง |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | เพิ่มเส้นตรงไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | เพิ่มเส้นตรงไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | กำหนดตำแหน่งจุดต่อไป |
+| [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | กำหนดตำแหน่งจุดต่อไป |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | เพิ่มเส้นโค้ง Quadratic Bezier ที่ส่วนท้ายของเส้นทาง |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | เพิ่มเส้นโค้ง Quadratic Bezier ไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | เพิ่มเส้นโค้ง Quadratic Bezier ที่ส่วนท้ายของเส้นทาง |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | เพิ่มเส้นโค้ง Quadratic Bezier ไปยังตำแหน่งที่ระบุของเส้นทาง |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ลบเซ็กเมนต์ที่ตำแหน่งที่ระบุของเส้นทางเรขาคณิต |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IGeometryPath](../igeometrypath)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

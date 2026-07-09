@@ -1,9 +1,9 @@
 ---
 title: IEffectStyleCollection
-second_title: Aspose.Sildes pro .NET API reference
+second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje kolekci stylů efektů.
 type: docs
-weight: 11160
+weight: 11180
 url: /cs/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection rozhraní
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | Název | Popis |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Vrátí prvek na zadané pozici. Pouze pro čtení [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | Vrací prvek na zadané pozici. Pouze pro čtení [`IEffectStyle`](../ieffectstyle). |
 
 ### Viz také
 

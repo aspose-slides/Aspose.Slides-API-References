@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드 콘텐츠의 스케일 유형을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 슬라이드 콘텐츠의 배율 유형을 나타냅니다.
 type: docs
 weight: 10510
 url: /ko/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType 열거형
 
-슬라이드 콘텐츠의 스케일 유형을 나타냅니다.
+슬라이드 내용의 배율 유형을 나타냅니다.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -19,8 +19,8 @@ public enum SlideSizeScaleType
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | DoNotScale | `0` | 크기를 조정하지 않습니다. |
-| EnsureFit | `1` | 맞춤을 보장하도록 조정합니다. |
-| Maximize | `2` | 콘텐츠의 크기를 최대화합니다. |
+| EnsureFit | `1` | 맞춤을 보장하도록 배율을 적용합니다. |
+| Maximize | `2` | 내용의 크기를 최대화합니다. |
 
 ### 참고
 

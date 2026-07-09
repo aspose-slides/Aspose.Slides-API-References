@@ -1,12 +1,12 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa propriedades para o formato de esboço de linhas.
 type: docs
-weight: 7000
+weight: 7020
 url: /pt/aspose.slides/isketchformat/
 ---
-## ISketchFormat interface
+## interface ISketchFormat
 
 Representa propriedades para o formato de esboço de linhas.
 
@@ -18,9 +18,9 @@ public interface ISketchFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Retorna ou define o tipo de esboço. Leitura/gravação [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | Retorna ou define o tipo de esboço. Leitura/Gravação [`LineSketchType`](../linesketchtype). |
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

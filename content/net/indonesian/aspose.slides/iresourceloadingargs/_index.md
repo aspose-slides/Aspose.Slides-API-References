@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingArgs
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Antarmuka untuk argumen pemuatan sumber daya eksternal.
 type: docs
-weight: 6810
+weight: 6830
 url: /id/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs antarmuka
@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | Nama | Deskripsi |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI asli sumber daya seperti yang ditentukan dalam presentasi yang diimpor. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI asli sumber daya sebagaimana ditentukan dalam presentasi yang diimpor. |
 | [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI sumber daya yang digunakan untuk mengunduh jika [`ResourceLoading`](../iresourceloadingcallback/resourceloading) mengembalikan Default. Awalnya diatur ke URI asli sumber daya, tetapi dapat didefinisikan ulang ke nilai apa pun. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Mengatur data yang diberikan pengguna untuk sumber daya yang digunakan jika [`ResourceLoading`](../iresourceloadingcallback/resourceloading) mengembalikan UserProvided. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Menetapkan data yang disediakan pengguna untuk sumber daya yang digunakan jika [`ResourceLoading`](../iresourceloadingcallback/resourceloading) mengembalikan UserProvided. |
 
 ### Lihat Juga
 

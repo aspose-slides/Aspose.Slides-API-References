@@ -1,9 +1,9 @@
 ---
 title: IReflection
-second_title: Aspose.Slides untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek refleksi.
 type: docs
-weight: 3480
+weight: 3500
 url: /id/aspose.slides.effects/ireflection/
 ---
 ## IReflection antarmuka
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Mengizinkan mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya Baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Mengizinkan mendapatkan antarmuka IImageTransformOperation dasar. Hanya Baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Radius blur. Baca/Tulis Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Arah refleksi. Baca/Tulis Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Jarak refleksi. Baca/Tulis Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Menentukan posisi akhir (sepanjang ramp gradien alfa) nilai alfa akhir (persen). Baca/Tulis Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Keburaman akhir refleksi. (persen). Baca/Tulis Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Menentukan arah pergeseran refleksi. (sudut). Baca/Tulis Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Perataan persegi panjang. Baca/Tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Menentukan apakah refleksi harus berputar bersama bentuk jika bentuk diputar. Baca/Tulis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. (persen) Baca/Tulis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. (persen) Baca/Tulis Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Menentukan sudut miring horizontal. Baca/Tulis Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Menentukan sudut miring vertikal. Baca/Tulis Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Menentukan posisi awal (sepanjang ramp gradien alfa) nilai alfa awal (persen). Baca/Tulis Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Keburaman awal refleksi. (persen). Baca/Tulis Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Memungkinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Jari-jari blur. Baca/tulis Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Arah refleksi. Baca/tulis Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Jarak refleksi. Baca/tulis Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Menentukan posisi akhir (sepanjang ramp gradien alfa) dari nilai alfa akhir (persen). Baca/tulis Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Opasitas akhir refleksi. (persen). Baca/tulis Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Menentukan arah untuk menggeser refleksi. (sudut). Baca/tulis Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Perataan persegi panjang. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Menentukan apakah refleksi harus berputar bersama bentuk jika bentuk diputar. Baca/tulis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. (persen) Baca/tulis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. (persen) Baca/tulis Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Menentukan sudut skew horizontal. Baca/tulis Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Menentukan sudut skew vertikal. Baca/tulis Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Menentukan posisi awal (sepanjang ramp gradien alfa) dari nilai alfa awal (persen). Baca/tulis Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Opasitas awal refleksi. (persen). Baca/tulis Single. |
 
 ### Lihat Juga
 

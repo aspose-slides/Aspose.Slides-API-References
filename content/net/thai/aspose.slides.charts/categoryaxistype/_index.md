@@ -1,20 +1,20 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงประเภทของแกนประเภท
 type: docs
 weight: 1250
 url: /th/aspose.slides.charts/categoryaxistype/
 ---
-## CategoryAxisType enum
+## CategoryAxisType enumeration
 
-แสดงถึงประเภทของแกนประเภท.
+แสดงถึงประเภทของแกนประเภท
 
 ```csharp
 public enum CategoryAxisType
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

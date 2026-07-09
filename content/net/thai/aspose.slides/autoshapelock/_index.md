@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน AutoshapeEx พาเรนท์
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: กำหนดว่าการดำเนินการใดบ้างถูกปิดการใช้งานบน AutoshapeEx พาเรนต์.
 type: docs
 weight: 910
 url: /th/aspose.slides/autoshapelock/
 ---
-## AutoShapeLock คลาส
+## คลาส AutoShapeLock
 
-กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน AutoshapeEx พาเรนท์
+กำหนดว่าการดำเนินการใดบ้างที่ถูกปิดการใช้งานบน AutoshapeEx พาเรนต์.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -16,19 +16,19 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงค่า adjust ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงหัวลูกศรถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปทรงต้องคงอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงรูปร่างโดยตรงของรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปนี้เข้าไปในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากทุก lock-flag ถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนประเภทของรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนค่า adjust ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยน arrowheads ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องคงอัตราส่วนตอนปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยนรูปทรงโดยตรงของรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากแฟล็กล็อกทั้งหมดถูกปิดการใช้งาน. อ่านอย่างเดียว Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนประเภทของรูปร่างถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 | [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | กำหนดว่าการแก้ไขข้อความถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม

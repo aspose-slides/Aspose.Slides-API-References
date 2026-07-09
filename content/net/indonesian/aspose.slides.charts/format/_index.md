@@ -1,14 +1,14 @@
 ---
 title: Format
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti format bagan.
+description: Mewakili properti format diagram.
 type: docs
-weight: 1660
+weight: 1680
 url: /id/aspose.slides.charts/format/
 ---
-## Format kelas
+## Kelas Format
 
-Mewakili properti format bagan.
+Mewakili properti format diagram.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,11 +18,11 @@ public sealed class Format : PVIObject, IFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | Mengembalikan efek yang digunakan untuk bagan. Hanya-baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Mengembalikan format 3D bagan. Hanya-baca [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Mengembalikan properti gaya isian bagan. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Mengembalikan properti gaya garis bagan. Hanya-baca [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan mengambil antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | Mengembalikan efek yang digunakan untuk diagram. Hanya-baca [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Mengembalikan format 3D dari diagram. Hanya-baca [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Mengembalikan properti gaya isi diagram. Hanya-baca [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Mengembalikan properti gaya garis diagram. Hanya-baca [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Metode
 

@@ -1,14 +1,14 @@
 ---
 title: Dispose
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Giải phóng các tài nguyên được sử dụng bởi thể hiện này.
+description: Giải phóng tài nguyên được sử dụng bởi thể hiện này.
 type: docs
 weight: 40
 url: /vi/aspose.slides.ai/asposeaiwebclient/dispose/
 ---
 ## AsposeAIWebClient.Dispose phương thức
 
-Giải phóng các tài nguyên được sử dụng bởi thể hiện này.
+Giải phóng tài nguyên được sử dụng bởi thể hiện này.
 
 ```csharp
 public void Dispose()

@@ -1,26 +1,26 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงกฎสำหรับการเรนเดอร์คอมเมนต์ในเอกสารที่ส่งออก
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงกฎการแสดงคอมเมนต์ในเอกสารที่ส่งออก
 type: docs
 weight: 3730
 url: /th/aspose.slides.export/commentspositions/
 ---
-## ชุดค่าคงที่ CommentsPositions
+## CommentsPositions enumeration
 
-แสดงถึงกฎสำหรับการเรนเดอร์คอมเมนต์ในเอกสารที่ส่งออก
+แทนกฎการแสดงคอมเมนต์ในเอกสารที่ส่งออก
 
 ```csharp
 public enum CommentsPositions
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| None | `0` | ระบุว่าคอมเมนต์ไม่ควรแสดงเลย |
-| Bottom | `1` | ระบุว่าคอมเมนต์ควรแสดงที่ด้านล่างของหน้า |
-| Right | `2` | ระบุว่าคอมเมนต์ควรแสดงที่ด้านขวาของหน้า |
+| None | `0` | ระบุว่าคอมเมนต์จะไม่แสดงเลย |
+| Bottom | `1` | ระบุว่าคอมเมนต์จะถูกแสดงที่ด้านล่างของหน้า |
+| Right | `2` | ระบุว่าคอมเมนต์จะถูกแสดงทางด้านขวาของหน้า |
 
 ### ดูเพิ่มเติม
 

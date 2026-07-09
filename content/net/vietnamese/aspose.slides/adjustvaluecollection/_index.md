@@ -1,6 +1,6 @@
 ---
 title: AdjustValueCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Đại diện cho một bộ sưu tập các điều chỉnh của hình dạng.
 type: docs
 weight: 100
@@ -19,9 +19,9 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 | Tên | Mô tả |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Trả về số lượng điều chỉnh. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (luồng an toàn) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Trả về phép điều chỉnh theo chỉ mục. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Trả về điều chỉnh theo chỉ mục. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Trả về một gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 

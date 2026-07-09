@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์ตามทิศทางมุม
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เอฟเฟกต์การเปลี่ยนสไลด์ในทิศทางของมุม
 type: docs
 weight: 10060
 url: /th/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์ตามทิศทางมุม
+เอฟเฟกต์การเปลี่ยนสไลด์ตามทิศทางของมุม
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้รับค่า base ITransitionValueBase interface. อ่าน-อย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### ดูเพิ่มเติม

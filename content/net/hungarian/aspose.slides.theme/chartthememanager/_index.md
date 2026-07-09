@@ -1,14 +1,14 @@
 ---
 title: ChartThemeManager
-second_title: Aspose.Sildes .NET API Referencia
-description: Hozzáférést biztosít a diagramtémák felülírásához.
+second_title: Aspose.Sildes .NET API-referencia
+description: Hozzáférést biztosít a diagramtémához, amely felül van írva.
 type: docs
-weight: 11040
+weight: 11060
 url: /hu/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager osztály
 
-Hozzáférést biztosít a diagramtémák felülírásához.
+Hozzáférést biztosít a diagramtémához, amely felül van írva.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -18,14 +18,14 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | Név | Leírás |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e az öröklött hatékony témát vagy sem. Az OverrideTheme engedélyezéséhez a felülíráshoz használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró téma objektumot. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Meghatározza, hogy az OverrideTheme felülírja-e a örökölt hatékony témát vagy sem. Az OverrideTheme felülírásának engedélyezéséhez használja az OverrideTheme.Init*() metódusokat. Az OverrideTheme felülírásának letiltásához használja az OverrideTheme.Clear() metódust. Csak olvasható Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Visszaadja a felülíró témát. Olvasás/írás [`IOverrideTheme`](../ioverridetheme). |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát egy diára. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
 
 ### Lásd még

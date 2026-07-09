@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: مرجع API Aspose.Sildes برای .NET
-description: کلاس کنترل‌کننده قالب‌بندی برای استفاده به‌منظور جاسازی همهٔ قلم‌های ارائه در قالب WOFF.
+description: کلاس کنترلر قالب‌بندی برای استفاده به‌منظور جاسازی تمام قلم‌های ارائه در فرمت WOFF.
 type: docs
 weight: 3760
 url: /fa/aspose.slides.export/embedallfontshtmlcontroller/
 ---
-## کلاس EmbedAllFontsHtmlController
+## EmbedAllFontsHtmlController کلاس
 
-کلاس کنترل‌کننده قالب‌بندی برای استفاده به‌منظور جاسازی همهٔ قلم‌های ارائه در قالب WOFF.
+کلاس کنترلر قالب‌بندی برای استفاده به‌منظور جاسازی تمام قلم‌های ارائه در قالب WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -16,28 +16,28 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | یک نمونهٔ جدید ایجاد می‌کند |
-| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | یک نمونهٔ جدید ایجاد می‌کند |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | نمونه جدیدی ایجاد می‌کند |
+| [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | نمونه جدیدی ایجاد می‌کند |
 
 ## متدها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | تمام قلم‌های موجود در [`Presentation`](../../aspose.slides/presentation) را می‌نویسد. |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | برای نوشتن پاورقی سند html فراخوانی می‌شود. یک بار برای هر تبدیل ارائه فراخوانی می‌گردد. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | برای نوشتن سرصفحه سند html فراخوانی می‌شود. یک بار برای هر تبدیل ارائه فراخوانی می‌گردد. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | داده‌ها را به‌صورت base64 در خود سند HTML می‌نویسد |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | قبل از رندر کردن shape فراخوانی می‌شود. یک بار برای هر shape فراخوانی می‌گردد. اگر این تابع چیزی به generator بنویسد، تولید تصویر اسلاید فعلی تمام می‌شود، تکهٔ html اضافه‌شده درج می‌شود و تصویر جدید بر روی قبلی آغاز می‌شود. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | قبل از رندر کردن shape فراخوانی می‌شود. یک بار برای هر shape فراخوانی می‌گردد. اگر این تابع چیزی به generator بنویسد، تولید تصویر اسلاید فعلی تمام می‌شود، تکهٔ html اضافه‌شده درج می‌شود و تصویر جدید بر روی قبلی آغاز می‌شود. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | برای نوشتن پاورقی اسلاید html فراخوانی می‌شود. یک بار برای هر اسلاید فراخوانی می‌گردد. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | برای نوشتن سرصفحه اسلاید html فراخوانی می‌شود. یک بار برای هر اسلاید فراخوانی می‌گردد. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | برای نوشتن پاورقی سند html فراخوانی می‌شود. یک بار برای هر تبدیل ارائه فراخوانی می‌شود. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | برای نوشتن سرصفحه سند html فراخوانی می‌شود. یک بار برای هر تبدیل ارائه فراخوانی می‌شود. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | داده‌ها را به‌صورت base64 در خود سند HTML می‌نویسد. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | قبل از رندرسازی شکل فراخوانی می‌شود. برای هر شکل یک بار فراخوانی می‌شود. اگر این تابع چیزی به generator بنویسد، تولید تصویر اسلاید جاری تمام می‌شود، قطعه html افزوده شده وارد می‌شود و تصویر جدید بر روی قبلی شروع می‌شود. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | قبل از رندرسازی شکل فراخوانی می‌شود. برای هر شکل یک بار فراخوانی می‌شود. اگر این تابع چیزی به generator بنویسد، تولید تصویر اسلاید جاری تمام می‌شود، قطعه html افزوده شده وارد می‌شود و تصویر جدید بر روی قبلی شروع می‌شود. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | برای نوشتن پاورقی اسلاید html فراخوانی می‌شود. برای هر اسلاید یک بار فراخوانی می‌شود. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | برای نوشتن سرصفحه اسلاید html فراخوانی می‌شود. برای هر اسلاید یک بار فراخوانی می‌شود. |
 
 ### موارد مرتبط
 
-* رابط [IHtmlFormattingController](../ihtmlformattingcontroller)
+* واسط [IHtmlFormattingController](../ihtmlformattingcontroller)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مجمع [Aspose.Slides](../../)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

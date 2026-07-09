@@ -3,10 +3,10 @@ title: ISlideText
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje text extrahovaný ze snímku
 type: docs
-weight: 7080
+weight: 7100
 url: /cs/aspose.slides/islidetext/
 ---
-## ISlideText rozhraní
+## rozhraní ISlideText
 
 Reprezentuje text extrahovaný ze snímku
 
@@ -18,7 +18,7 @@ public interface ISlideText
 
 | Název | Popis |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Text komentářů snímku |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | Text komentářů ke snímku |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | Text na tvarech rozložení stránky pro tento snímek |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | Text na tvarech hlavní stránky pro tento snímek |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | Text na tvarech stránky poznámek pro tento snímek |

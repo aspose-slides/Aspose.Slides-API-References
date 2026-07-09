@@ -1,12 +1,12 @@
 ---
 title: SensitivityLabelAssignmentType
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta il metodo di assegnazione per l'etichetta di sensibilità.
 type: docs
-weight: 9780
+weight: 9800
 url: /it/aspose.slides/sensitivitylabelassignmenttype/
 ---
-## SensitivityLabelAssignmentType enumerazione
+## Enumerazione SensitivityLabelAssignmentType
 
 Rappresenta il metodo di assegnazione per l'etichetta di sensibilità.
 
@@ -18,8 +18,8 @@ public enum SensitivityLabelAssignmentType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Standard | `0` | Da utilizzare per qualsiasi etichetta di sensibilità che non è stata applicata direttamente dall'utente. Include tutte le etichette predefinite, le etichette applicate automaticamente. |
-| Privileged | `1` | Da utilizzare per qualsiasi etichetta di sensibilità che è stata applicata direttamente dall'utente. Include tutte le etichette di sensibilità applicate manualmente, nonché l'etichettatura consigliata o obbligatoria o qualsiasi funzionalità in cui l'utente decide quale etichetta di sensibilità applicare. |
+| Standard | `0` | Utilizzare per qualsiasi etichetta di sensibilità che non è stata applicata direttamente dall'utente. Include le etichette predefinite e le etichette applicate automaticamente. |
+| Privileged | `1` | Utilizzare per qualsiasi etichetta di sensibilità che è stata applicata direttamente dall'utente. Include le etichette di sensibilità applicate manualmente, nonché la etichettatura consigliata o obbligatoria o qualsiasi funzionalità in cui l'utente decide quale etichetta di sensibilità applicare. |
 
 ### Vedi anche
 

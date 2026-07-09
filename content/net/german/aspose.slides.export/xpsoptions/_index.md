@@ -1,15 +1,14 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes für .NET API Referenz
-description: Bietet Optionen, die steuern, wie eine Präsentation im XPS-Format gespeichert wird.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Optionen bereit, die steuern, wie eine Präsentation im XPS-Format gespeichert wird.
 type: docs
-weight: 4540
+weight: 4730
 url: /de/aspose.slides.export/xpsoptions/
 ---
+## XpsOptions Klasse
 
-## XpsOptions-Klasse
-
-Bietet Optionen, die steuern, wie eine Präsentation im XPS-Format gespeichert wird.
+Stellt Optionen bereit, die steuern, wie eine Präsentation im XPS-Format gespeichert wird.
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
@@ -25,50 +24,50 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder setzt sie, die verwendet wird, falls die Quellschriftart nicht gefunden wird. Lese- und Schreibzugriff auf String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Wahr, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese-/Schreibzugriff auf Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Gradienten zurück oder setzt ihn. Lese-/Schreibzugriff auf [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Wahr, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese-/Schreibzugriff auf Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Gibt an, ob das generierte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-/Schreibzugriff auf Boolean. Der Standardwert ist **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder setzt eines, das Warnungen erhält und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-/Schreibzugriff auf [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schrift zurück oder legt sie fest, die verwendet wird, falls die Quellschrift nicht gefunden wird. Lese-Schreib String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True, um einen schwarzen Rahmen um jede Folie zu zeichnen. Lese/Schreib Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Lese/Schreib [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True, um alle in einer Präsentation verwendeten Metadateien in PNG-Bilder zu konvertieren. Lese/Schreib Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Gibt an, ob das erzeugte Dokument versteckte Folien enthalten soll oder nicht. Standard ist `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese/Schreib Boolean. Der Standardwert ist **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese/Schreib [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie man Präsentationen mit Standard Einstellungen in XPS konvertiert.
+Das folgende Beispiel zeigt, wie Präsentationen mit Standardeinstellungen in XPS konvertiert werden.
 
 ```csharp
 [C#]
-// Instanziieren Sie ein Präsentationsobjekt, das eine Präsentationsdatei darstellt
+// Instanziert ein Presentation-Objekt, das eine Präsentationsdatei darstellt
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // Speichern der Präsentation im XPS-Dokument
+    // Speichert die Präsentation als XPS-Dokument
     pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
 }
 ```
 
-Das folgende Beispiel zeigt, wie man Präsentationen mit benutzerdefinierten Einstellungen in XPS konvertiert.
+Das folgende Beispiel zeigt, wie Präsentationen mit benutzerdefinierten Einstellungen in XPS konvertiert werden.
 
 ```csharp
 [C#]
-// Instanziieren Sie ein Präsentationsobjekt, das eine Präsentationsdatei darstellt
+// Instanziert ein Presentation-Objekt, das eine Präsentationsdatei darstellt
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // Instanziieren Sie die Klasse TiffOptions
+    // Instanziert die TiffOptions-Klasse
     XpsOptions options = new XpsOptions();
-    // Speichern Sie Metadateien als PNG
+    // Speichert Metadateien als PNG
     options.SaveMetafilesAsPng = true;
-    // Speichern Sie die Präsentation im XPS-Dokument
+    // Speichert die Präsentation als XPS-Dokument
     pres.Save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
 }
 ```
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [SaveOptions](../saveoptions)
-* Schnittstelle [IXpsOptions](../ixpsoptions)
-* Namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* Klasse [SaveOptions](../saveoptions)
+* Schnittstelle [IXpsOptions](../ixpsoptions)
+* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

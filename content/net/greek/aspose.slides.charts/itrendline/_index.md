@@ -1,14 +1,14 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes για .NET API Reference
-description: Η κλάση αναπαριστά τη γραμμή τάσης σειράς γραφήματος
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Η κλάση αντιπροσωπεύει τη γραμμή τάσης της σειράς του γραφήματος
 type: docs
-weight: 2220
+weight: 2240
 url: /el/aspose.slides.charts/itrendline/
 ---
-## ITrendline διεπαφή
+## ITrendline διασύνδεση
 
-Η κλάση αναπαριστά τη γραμμή τάσης σειράς γραφήματος
+Κλάση αντιπροσωπεύει τη γραμμή τάσης της σειράς του γραφήματος
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -18,23 +18,23 @@ public interface ITrendline : IOverridableText
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Επιστρέφει το IOverridableText interface. Μόνο ανάγνωση [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα scatter) που η γραμμή τάσης επεκτείνεται πριν τα δεδομένα της σειράς που υποβάλλεται σε ανάλυση τάσης. Σε scatter και μη-scatter διαγράμματα, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Αναγνώσιμο/Εγγράψιμο Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Καθορίζει ότι η εξίσωση για τη γραμμή τάσης εμφανίζεται στο γράφημα (στην ίδια ετικέτα με την τιμή Rsquared). Αναγνώσιμο/Εγγράψιμο Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Καθορίζει ότι η τιμή R-square της γραμμής τάσης εμφανίζεται στο γράφημα (στην ίδια ετικέτα με την εξίσωση). Αναγνώσιμο/Εγγράψιμο Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Αναπαριστά τη μορφή της γραμμής τάσης. Αναγνώσιμο/Εγγράψιμο [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα scatter) που η γραμμή τάσης επεκτείνεται μετά τα δεδομένα της σειράς που υποβάλλεται σε ανάλυση τάσης. Σε scatter και μη-scatter διαγράμματα, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Αναγνώσιμο/Εγγράψιμο Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Καθορίζει την τιμή όπου η γραμμή τάσης θα διασχίσει τον άξονα y. Αυτή η ιδιότητα υποστηρίζεται μόνο όταν ο τύπος της γραμμής τάσης είναι exp, linear ή poly. Αναγνώσιμο/Εγγράψιμο Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Καθορίζει τη σειρά της πολυωνυμικής γραμμής τάσης. Αγνοείται για άλλους τύπους γραμμών τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 6. Αναγνώσιμο/Εγγράψιμο Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Καθορίζει την περίοδο της γραμμής τάσης για μια γραμμή τάσης κινητού μέσου. Αγνοείται για άλλες παραλλαγές γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 255. Αναγνώσιμο/Εγγράψιμο Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Αναπαριστά την καταχώρηση υπομνήματος σχετική με αυτή τη γραμμή τάσης. Μόνο ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Λαμβάνει ή ορίζει το όνομα της γραμμής τάσης. Αναγνώσιμο/Εγγράψιμο String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Λαμβάνει ή ορίζει τον τύπο της γραμμής τάσης. Αναγνώσιμο/Εγγράψιμο [`TrendlineType`](./trendlinetype). |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Επιστρέφει τη διασύνδεση IOverridableText. Μόνο για ανάγνωση [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα scatter) που η γραμμή τάσης επεκτείνεται πριν τα δεδομένα για τη σειρά που τείνει. Σε διαγράμματα scatter και μη-scatter, η τιμή πρέπει να είναι οποιαδήποτε μη αρνητική τιμή. Ανάγνωση/εγγραφή Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Καθορίζει ότι η εξίσωση για τη γραμμή τάσης εμφανίζεται στο διάγραμμα (στο ίδιο ετικέτα με την Rsquaredvalue). Ανάγνωση/εγγραφή Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Καθορίζει ότι η τιμή R-squared της γραμμής τάσης εμφανίζεται στο διάγραμμα (στο ίδιο ετικέτα με την εξίσωση). Ανάγνωση/εγγραφή Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Αντιπροσωπεύει τη μορφή της γραμμής τάσης. Ανάγνωση/εγγραφή [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Καθορίζει τον αριθμό των κατηγοριών (ή μονάδων σε διάγραμμα scatter) που η γραμμή τάσης επεκτείνεται μετά τα δεδομένα για τη σειρά που τείνει. Σε διαγράμματα scatter και μη-scatter, η τιμή πρέπει να είναι οποιαδήποτε μη-αρνητική τιμή. Ανάγνωση/εγγραφή Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Καθορίζει την τιμή όπου η γραμμή τάσης θα διασχίσει τον άξονα y. Αυτή η ιδιότητα υποστηρίζεται μόνο όταν ο τύπος της γραμμής τάσης είναι exp, linear ή poly. Ανάγνωση/εγγραφή Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Καθορίζει τη σειρά της πολυωνυμικής γραμμής τάσης. Αγνοείται για άλλους τύπους γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 6. Ανάγνωση/εγγραφή Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Καθορίζει την περίοδο της γραμμής τάσης για μια γραμμή τάσης κινητού μέσου. Αγνοείται για άλλες παραλλαγές γραμμής τάσης. Η τιμή πρέπει να είναι μεταξύ 2 και 255. Ανάγνωση/εγγραφή Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Αντιπροσωπεύει την καταχώριση υπομνήματος σχετική με αυτή τη γραμμή τάσης. Μόνο για ανάγνωση [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Λαμβάνει ή ορίζει το όνομα της γραμμής τάσης. Ανάγνωση/εγγραφή String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Λαμβάνει ή ορίζει τον τύπο της γραμμής τάσης. Ανάγνωση/εγγραφή [`TrendlineType`](./trendlinetype). |
 
 ### Δείτε επίσης
 
-* διεπαφή [IOverridableText](../ioverridabletext)
-* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συναρμολόγηση [Aspose.Slides](../../)
+* διασύνδεση [IOverridableText](../ioverridabletext)
+* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συγκρότηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

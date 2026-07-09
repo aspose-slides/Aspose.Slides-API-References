@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti barevného schématu.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Neměnný objekt, který obsahuje efektivní vlastnosti schématu barev.
 type: docs
-weight: 11140
+weight: 11160
 url: /cs/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti barevného schématu.
+Neměnný objekt, který obsahuje efektivní vlastnosti schématu barev.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -29,14 +29,14 @@ public interface IColorSchemeEffectiveData
 | [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | Barva pro navštívené hypertextové odkazy. Pouze pro čtení Color. |
 | [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | Barva pro hypertextové odkazy. Pouze pro čtení Color. |
 | [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení Color. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | První světlá barva ve schématu. Pouze pro čtení Color. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Druhá světlá barva ve schématu. Pouze pro čtení Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | První světelná barva ve schématu. Pouze pro čtení Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | Druhá světelná barva ve schématu. Pouze pro čtení Color. |
 
-### Poznámky
+## Poznámky
 
 Tato třída se používá jako součást [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Viz také
+## Viz také
 
 * jmenný prostor [Aspose.Slides.Theme](../../aspose.slides.theme)
 * sestavení [Aspose.Slides](../../)

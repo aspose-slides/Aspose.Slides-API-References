@@ -1,14 +1,14 @@
 ---
 title: LoadingStreamBehavior
-second_title: Aspose.Slides dla .NET – odniesienie API
-description: Strumień przekazywany metodzie jest traktowany jako Binary Large Object (BLOB) – zobacz opis IBlobManagementOptions./iblobmanagementoptions. Wartości tego wyliczenia określają, jak strumień powinien być traktowany, gdy jest przekazywany metodzie. W zależności od wymagań można podjąć różne decyzje, aby zapewnić najbardziej efektywne zachowanie.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Strumień przekazywany do metody jest traktowany jako Binary Large Object (BLOB) – zobacz opis IBlobManagementOptions./iblobmanagementoptions. Wartości tego wyliczenia określają, jak Strumień powinien być traktowany po przekazaniu do metody. W zależności od wymagań można podjąć różne decyzje, aby zapewnić najbardziej efektywne zachowanie.
 type: docs
-weight: 7830
+weight: 7850
 url: /pl/aspose.slides/loadingstreambehavior/
 ---
-## LoadingStreamBehavior wyliczenie
+## Wyliczenie LoadingStreamBehavior
 
-Strumień przekazywany metodzie jest traktowany jako Binary Large Object (BLOB) (zobacz opis [`IBlobManagementOptions`](../iblobmanagementoptions)). Wartości tego wyliczenia określają, jak strumień powinien być traktowany, gdy jest przekazywany metodzie. W zależności od wymagań można podjąć różne decyzje, aby zapewnić najbardziej efektywne zachowanie.
+Przekazywany do metody Stream jest traktowany jako Binary Large Object (BLOB) (zob. [`IBlobManagementOptions`](../iblobmanagementoptions) opis). Wartości tego wyliczenia określają, jak Stream ma być traktowany po przekazaniu do metody. W zależności od wymagań można podjąć różne decyzje, aby zapewnić jak najbardziej efektywne zachowanie.
 
 ```csharp
 public enum LoadingStreamBehavior
@@ -18,8 +18,8 @@ public enum LoadingStreamBehavior
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| ReadStreamAndRelease | `0` | Strumień zostanie odczytany do końca, a następnie zwolniony – tj. będzie zagwarantowane, że ten strumień nie będzie używany przez instancję [`IPresentation`](../ipresentation) w przyszłości. Może zostać zamknięty przez kod klienta lub użyty w inny sposób. |
-| KeepLocked | `1` | Strumień będzie zablokowany wewnątrz obiektu [`IPresentation`](../ipresentation), tj. własność strumienia zostanie przeniesiona. Obiekt [`IPresentation`](../ipresentation) będzie odpowiedzialny za prawidłowe zwolnienie strumienia, gdy ten obiekt zostanie sam zwolniony. To zachowanie jest niezwykle przydatne, gdy musisz serializować duży plik BLOB (np. duży plik wideo lub audio – zobacz opis [`IBlobManagementOptions`](../iblobmanagementoptions)) i chcesz zapobiec wczytywaniu tego pliku do pamięci lub innym problemom wydajnościowym. Możesz po prostu otworzyć FileStream dla tego pliku i przekazać go metodzie, wybierając KeepLocked LoadingStreamBehavior. |
+| ReadStreamAndRelease | `0` | Strumień zostanie odczytany do końca i następnie zwolniony – tzn. zostanie zagwarantowane, że ten strumień nie będzie używany przez instancję [`IPresentation`](../ipresentation) w przyszłości. Może być zamknięty przez kod klienta lub użyty w inny sposób. |
+| KeepLocked | `1` | Strumień zostanie zablokowany wewnątrz obiektu [`IPresentation`](../ipresentation), tzn. własność strumienia zostanie przeniesiona. Obiekt [`IPresentation`](../ipresentation) będzie odpowiedzialny za prawidłowe zwolnienie strumienia, gdy ten obiekt zostanie usunięty. To zachowanie jest niezwykle przydatne, gdy trzeba serializować duży plik BLOB (np. duży film lub dźwięk – zob. [`IBlobManagementOptions`](../iblobmanagementoptions) opis) i chcemy uniknąć ładowania tego pliku do pamięci lub innych problemów wydajnościowych. Wystarczy otworzyć FileStream dla tego pliku i przekazać go do metody, wybierając KeepLocked LoadingStreamBehavior. |
 
 ### Zobacz także
 

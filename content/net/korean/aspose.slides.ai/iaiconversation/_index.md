@@ -1,14 +1,14 @@
 ---
 title: IAIConversation
-second_title: Aspose.Sildes for .NET API 참조
-description: 대화 인스턴스를 나타냅니다. 일반 AI 호출과 달리 대화는 전체 컨텍스트를 유지합니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 대화 인스턴스를 나타냅니다. 일반 AI 호출과 달리, 대화는 전체 컨텍스트를 유지합니다.
 type: docs
 weight: 20
 url: /ko/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation 인터페이스
 
-대화 인스턴스를 나타냅니다. 일반 AI 호출과 달리 대화는 전체 컨텍스트를 유지합니다.
+대화 인스턴스를 나타냅니다. 일반 AI 호출과 달리, 대화는 전체 컨텍스트를 유지합니다.
 
 ```csharp
 public interface IAIConversation
@@ -18,9 +18,9 @@ public interface IAIConversation
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | 전체 컨텍스트를 포함한 대화 요청 메시지를 보내고 응답을 반환합니다. |
+| [GetResponseAsync](../../aspose.slides.ai/iaiconversation/getresponseasync)(string) | 전체 컨텍스트를 포함하는 대화 요청 메시지를 전송하고 응답을 반환합니다. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.AI](../../aspose.slides.ai)
 * 어셈블리 [Aspose.Slides](../../)

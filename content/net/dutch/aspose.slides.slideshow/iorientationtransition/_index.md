@@ -18,8 +18,8 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Stelt in staat om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Richting van de overgang. Lees/schrijf [`Orientation`](../../aspose.slides/orientation). |
 
 ### Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: IChartTitle
-second_title: Aspose.Sildes .NET용 API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 제목 속성을 나타냅니다.
 type: docs
 weight: 2000
@@ -16,12 +16,12 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | 기본 ILayoutable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | 기본 IOverridableText 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IOverridableText`](../ioverridabletext). |
 | [Format](../../aspose.slides.charts/icharttitle/format) { get; } | 제목의 채우기, 선, 효과 스타일을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 다른 차트 요소가 제목과 겹치도록 허용할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | 다른 차트 요소가 제목과 겹치는 것을 허용할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 
 ### 참고
 

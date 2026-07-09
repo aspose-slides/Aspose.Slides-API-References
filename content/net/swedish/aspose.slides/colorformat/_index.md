@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en färg som används i en presentation.
 type: docs
-weight: 2500
+weight: 2520
 url: /sv/aspose.slides/colorformat/
 ---
 ## ColorFormat klass
@@ -19,17 +19,17 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
-| [B](../../aspose.slides/colorformat/b) { get; set; } | Returnerar eller anger den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
+| [B](../../aspose.slides/colorformat/b) { get; set; } | Returnerar eller anger den blåa komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
 | [Color](../../aspose.slides/colorformat/color) { get; set; } | Returnerar den resulterande färgen (med alla färgtransformeringar tillämpade). Anger RGB-färger och rensar alla färgtransformeringar. Läs/skriv Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Returnerar samlingen av färgtransformeringar som applicerats på en färg. Skrivskyddad [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Returnerar eller anger metod för färgdefinition. Läs/skriv [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Returnerar eller anger den blå komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Returnerar samlingen av färgtransformeringar som tillämpats på en färg. Skrivskyddad [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Returnerar eller anger färgdefinitionsmetoden. Läs/skriv [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Returnerar eller anger den blåa komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
 | [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Returnerar eller anger den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
 | [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Returnerar eller anger den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
 | [G](../../aspose.slides/colorformat/g) { get; set; } | Returnerar eller anger den gröna komponenten i en färg. Alla färgtransformeringar ignoreras. |
 | [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Returnerar eller anger nyanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
 | [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Returnerar eller anger luminanskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Returnerar eller anger förinställt färgvärde. Läs/skriv [`PresetColor`](../presetcolor). |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Returnerar eller anger färgförinställningen. Läs/skriv [`PresetColor`](../presetcolor). |
 | [R](../../aspose.slides/colorformat/r) { get; set; } | Returnerar eller anger den röda komponenten i en färg. Alla färgtransformeringar ignoreras. Läs/skriv Byte. |
 | [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Returnerar eller anger mättnadskomponenten i en färg i HSL-representation. Alla färgtransformeringar ignoreras. Läs/skriv Single. |
 | [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Returnerar eller anger färgen som identifieras av ett färgschema. Läs/skriv [`SchemeColor`](../schemecolor). |
@@ -40,11 +40,11 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | Namn | Beskrivning |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Kopiera färgformat från "color". |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | Kontrollerar om lika med angivet objekt. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Returnerar hash-kod. |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | Kontrollerar likhet med specificerat objekt. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Returnerar hashkod. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Returnerar en String som representerar det aktuella färgformatet. |
 
-### Se även
+### Se också
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [IColorFormat](../icolorformat)

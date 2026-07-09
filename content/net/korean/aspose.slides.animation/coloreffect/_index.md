@@ -24,15 +24,15 @@ public class ColorEffect : Behavior, IColorEffect
 
 | 이름 | 설명 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | 색상 애니메이션에 대한 상대적 오프셋 값을 설명합니다. 읽기/쓰기 [`IColorOffset`](../icoloroffset). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지 여부를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지 여부를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | 색상 애니메이션의 상대 오프셋 값을 설명합니다. 읽기/쓰기 [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | 동작의 색상 공간을 나타냅니다. 읽기/쓰기 [`ColorSpace`](../colorspace). |
 | [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | 색상 휠을 따라 색조를 순환시킬 방향을 지정합니다. 읽기/쓰기 [`ColorDirection`](../colordirection). |
 | [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | 이 값은 동작의 시작 색상을 지정하는 데 사용됩니다. 읽기/쓰기 [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 동작의 속성을 나타냅니다. 읽기 전용 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작에 대한 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | 애니메이션 색상 변경에 대한 결과 색상을 설명합니다. 읽기/쓰기 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | 애니메이션 색상 변경을 위한 결과 색상을 설명합니다. 읽기/쓰기 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### 참고
 

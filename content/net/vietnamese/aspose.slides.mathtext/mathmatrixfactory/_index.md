@@ -1,6 +1,6 @@
 ---
 title: MathMatrixFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một ma trận toán học
 type: docs
 weight: 8860
@@ -14,7 +14,7 @@ Cho phép tạo một ma trận toán học
 public class MathMatrixFactory : IMathMatrixFactory
 ```
 
-## Hàm tạo
+## Các hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |

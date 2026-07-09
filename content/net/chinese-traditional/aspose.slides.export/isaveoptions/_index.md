@@ -1,6 +1,6 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 控制簡報儲存方式的選項。
 type: docs
 weight: 4070
@@ -18,13 +18,13 @@ public interface ISaveOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | 在找不到來源字型時，返回或設定使用的字型。可讀寫 String。 |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | 代表一個以百分比表示的儲存進度更新回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 返回或設定一個接收警告並決定載入程序是繼續還是中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | 返回或設定在找不到來源字型時使用的字型。讀寫 String。 |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | 表示用於儲存進度更新（以百分比表示）的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。讀寫 Boolean。預設值為 **false**。 |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | 返回或設定接收警告並決定載入程序是否繼續或中止的物件。讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IControlPropertiesCollection
 second_title: Aspose.Sildes .NET API referencia
 description: ActiveX vezérlők gyűjteménye.
 type: docs
-weight: 5630
+weight: 5650
 url: /hu/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection interfész
@@ -16,7 +16,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Visszaadja az IEnumerable interfészt. Csak olvasható IEnumerable. |
 | [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Visszaadja a gyűjteményben lévő tulajdonságok számát. Csak olvasható Int32. |
@@ -25,11 +25,11 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 ## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Tulajdonságot ad a gyűjteményhez. |
-| [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Eltávolítja az összes tulajdonságot. |
-| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Eltávolít egy tulajdonságot a megadott névvel. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Tulajdonságot ad hozzá a gyűjteményhez. |
+| [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Az összes tulajdonságot eltávolítja. |
+| [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Az adott névű tulajdonságot eltávolítja. |
 
 ### Lásd még
 

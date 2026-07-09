@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que contém o comportamento dos marcadores de posição, incluindo o marcador de cabeçalho para todos os tipos de folheto e slides de notas.
+description: Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folheto e notas.
 type: docs
-weight: 5270
+weight: 5290
 url: /pt/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag interface
 
-Representa o gerenciador que contém o comportamento dos marcadores de posição, incluindo o marcador de cabeçalho para todos os tipos de slides de folheto e notas.
+Representa o gerenciador que mantém o comportamento dos placeholders, incluindo o placeholder de cabeçalho para todos os tipos de slides de folheto e notas.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,20 +19,20 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | Nome | Descrição |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | Retorna a interface IBaseSlideHeaderFooterManager. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtém o valor que indica que um marcador de cabeçalho está presente. Leia Boolean. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Obtém o valor que indica que um placeholder de cabeçalho está presente. Lê Boolean. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Define o texto do marcador de cabeçalho do slide. |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Altera a visibilidade do marcador de cabeçalho do slide. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Define o texto no placeholder de cabeçalho do slide. |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Altera a visibilidade do placeholder de cabeçalho do slide. |
 
 ### Observações
 
-O nome original da interface "IBaseHandoutNotesSlideHeaderFooterManager" foi truncado para "IBaseHandoutNotesSlideHeaderFooterManag" para compatibilidade COM (o comprimento do nome do tipo não pode ser maior que 39).
+Original interface name "IBaseHandoutNotesSlideHeaderFooterManager" is trancuted to "IBaseHandoutNotesSlideHeaderFooterManag" for COM compatibility (type name length must be not more than 39).
 
-### Ver também
+### Veja Também
 
 * interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * namespace [Aspose.Slides](../../aspose.slides)

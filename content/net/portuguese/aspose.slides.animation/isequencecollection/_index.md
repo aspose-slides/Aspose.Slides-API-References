@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa a coleção de sequências interativas.
+description: Representa uma coleção de sequências interativas.
 type: docs
-weight: 580
+weight: 600
 url: /pt/aspose.slides.animation/isequencecollection/
 ---
-## ISequenceCollection interface
+## Interface ISequenceCollection
 
-Representa a coleção de sequências interativas.
+Representa coleção de sequências interativas.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -18,8 +18,8 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Retorna a interface IEnumerable. IEnumerable somente leitura. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Retorna o número de elementos em uma coleção. Int32 somente leitura. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Retorna a interface IEnumerable. Somente leitura IEnumerable. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Retorna o número de elementos em uma coleção. Somente leitura Int32. |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Retorna uma sequência no índice especificado. |
 
 ## Métodos

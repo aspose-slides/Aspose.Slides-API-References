@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
 second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje efekt přednastaveného stínu.
+description: Reprezentuje efekt předdefinovaného stínu.
 type: docs
-weight: 3460
+weight: 3480
 url: /cs/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow rozhraní
 
-Představuje efekt přednastaveného stínu.
+Representuje efekt Předdefinovaný stín.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -23,7 +23,7 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Směr stínu. Čtení/zápis Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Vzdálenost stínu. Čtení/zápis Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Čtení/zápis [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Předvolba. Čtení/zápis [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Barva stínu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Viz také

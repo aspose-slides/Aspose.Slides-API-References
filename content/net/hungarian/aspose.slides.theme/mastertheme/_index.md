@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API-referencia
 description: Egy mester témát reprezentál.
 type: docs
-weight: 11410
+weight: 11430
 url: /hu/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme osztály
 
-Egy mester téma reprezentálása.
+Egy mester témát reprezentál.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -16,18 +16,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Visszaadja a színsémát. Csak olvasható [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Visszaadja a további színsémák gyűjteményét. Ezek a sémák nem befolyásolják a bemutató megjelenését, kiválaszthatók fő színsémaként egy dián. Csak olvasható [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | Visszaadja a szín sémát. Csak olvasható [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | Visszaadja a további szín sémák gyűjteményét. Ezek a sémák nem befolyásolják a bemutató megjelenését, kiválaszthatók fő szín sémaként egy diára. Csak olvasható [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | Visszaadja a betűtípus sémát. Csak olvasható [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Visszaadja az alakzatformátum sémát. Csak olvasható [`IFormatScheme`](../iformatscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | Visszaadja a formaformátum sémát. Csak olvasható [`IFormatScheme`](../iformatscheme). |
 | [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | Visszaadja a téma nevét. Olvasás/írás String. |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Visszaadja a szülő bemutatót. Csak olvasható [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## Módszerek
+## Metódusok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lekéri a hatékony téma adatokat az öröklődés alkalmazásával. |
 

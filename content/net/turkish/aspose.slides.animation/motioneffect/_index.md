@@ -1,14 +1,14 @@
 ---
 title: MotionEffect
-second_title: Aspose.Sildes for .NET API Referansı
-description: Efektin hareket efekti davranışını temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Efektin hareket etkisi davranışını temsil eder.
 type: docs
-weight: 650
+weight: 670
 url: /tr/aspose.slides.animation/motioneffect/
 ---
-## MotionEffect sınıf
+## MotionEffect sınıfı
 
-Efektin hareket efekti davranışını temsil eder.
+Represent motion effect behavior of effect.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -18,26 +18,26 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [MotionEffect](motioneffect)() | Varsayılan yapıcı. |
+| [MotionEffect](motioneffect)() | The default constructor. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirildiğini temsil eder. Okuma/Yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Hareket yolunun göreceli açısını tanımlar. Okuma/Yazma Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Yüzde olarak animasyonun göreceli offset değerini tanımlar. Okuma/Yazma PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Yüzde olarak animasyonun başlayacağı x/y koordinatını belirler. Okuma/Yazma PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Hareket yolunun kökeninin slayt düzenine ya da üst öğeye göre nereden alındığını belirler. Okuma/Yazma [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Animasyon hareketi için koordinatlarla takip edilen yol ilkelini belirler. Okuma/Yazma [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Şekil hareket ettirildiğinde hareket yolunun nasıl hareket ettiğini belirler. Okuma/Yazma [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Bir X açısı ile hareket yolunu döndürmek için kullanılan dönüş merkezini tanımlar. Okuma/Yazma PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okuma/Yazma [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Yüzde olarak bir animasyon hareket efekti için hedef konumu belirler. Okuma/Yazma PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okunur/yazılır [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Hareket yolunun göreceli açısını tanımlar. Okunur/yazılır Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Animasyon için göreceli offset değerini tanımlar (yüzde olarak). Okunur/yazılır PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Animasyonu başlatmak için bir x/y koordinatı belirtir (yüzde olarak). Okunur/yazılır PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Hareket yolunun kökeninin slayt düzeni ya da üst nesne gibi neye göre olduğunu belirtir. Okunur/yazılır [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Animasyon hareketi için koordinatlarla birlikte izlenen yol ilkelini belirtir. Okunur/yazılır [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Şekil hareket ettirildiğinde hareket yolunun nasıl hareket ettiğini belirtir. Okunur/yazılır [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Sadece okuma [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Hareket yolunu X açıyla döndürmek için kullanılan dönüş merkezini tanımlar. Okunur/yazılır PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okunur/yazılır [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Bir animasyon hareket etkisi için hedef konumu belirtir (yüzde olarak). Okunur/yazılır PointF. |
 
-### Diğer Bağlantılar
+### Ayrıca bakınız
 
 * sınıf [Behavior](../behavior)
 * arayüz [IMotionEffect](../imotioneffect)

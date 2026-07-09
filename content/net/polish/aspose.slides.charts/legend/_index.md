@@ -1,12 +1,12 @@
 ---
 title: Legend
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje właściwości legendy wykresów.
 type: docs
-weight: 2260
+weight: 2280
 url: /pl/aspose.slides.charts/legend/
 ---
-## Klasa Legend
+## Legend klasa
 
 Reprezentuje właściwości legendy wykresu.
 
@@ -18,22 +18,22 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Nazwa | Opis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Określa rzeczywistą pozycję x (lewy) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Określa rzeczywistą górę elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Dół. Tylko do odczytu Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Zwraca wykres. Tylko do odczytu [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Pobiera pozycje legendy. Tylko do odczytu [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Zwraca format legendy. Tylko do odczytu [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Zwraca lub ustawia wysokość legendy jako ułamek wysokości wykresu. Odczyt/zapis Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą nachodzić na legendę. Odczyt/zapis Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Określa pozycję legendy na wykresie. Wartości nie-NaN właściwości X, Y, Width, Heigt nadpisują działanie tej właściwości. Odczyt/zapis [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | Prawa. Tylko do odczytu Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Format tekstu. Tylko do odczytu [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Zwraca lub ustawia szerokość legendy jako ułamek szerokości wykresu. Odczyt/zapis Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Zwraca lub ustawia współrzędną x legendy jako ułamek szerokości wykresu. Odczyt/zapis Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Zwraca lub ustawia współrzędną y legendy jako ułamek wysokości wykresu. Odczyt/zapis Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed, aby uztać rzeczywiste wartości. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed, aby uztać rzeczywiste wartości. Read Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Określa rzeczywistą pozycję x (lewy) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed, aby uztać rzeczywiste wartości. Read Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Określa rzeczywistą pozycję górną elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed, aby uztać rzeczywiste wartości. Read Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Dolny. Read-only Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | Zwraca wykres. Read-only [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Pobiera pozycje legendy. Read-only [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Zwraca format legendy. Read-only [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Zwraca lub ustawia wysokość legendy jako ułamek wysokości wykresu. Read/write Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Określa, czy inne elementy wykresu mogą nachodzić na legendę. Read/write Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Określa pozycję legendy na wykresie. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | Prawy. Read-only Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Format tekstu. Read-only [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Zwraca lub ustawia szerokość legendy jako ułamek szerokości wykresu. Read/write Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Zwraca lub ustawia współrzędną x legendy jako ułamek szerokości wykresu. Read/write Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Zwraca lub ustawia współrzędną y legendy jako ułamek wysokości wykresu. Read/write Single. |
 
 ### Zobacz także
 

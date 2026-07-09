@@ -1,6 +1,6 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงตัวเลือกการจัดรูปแบบสำหรับ DataLabel.
 type: docs
 weight: 1570
@@ -8,7 +8,7 @@ url: /th/aspose.slides.charts/datalabelformat/
 ---
 ## DataLabelFormat คลาส
 
-แสดงตัวเลือกการจัดรูปแบบสำหรับ DataLabel.
+Represents formatting options for DataLabel.
 
 ```csharp
 public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
@@ -18,36 +18,36 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เรียกดู base IPresentationComponent interface. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | ส่งคืน chart. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | แสดงรูปแบบของ data label. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | ส่งกลับแผนภูมิ. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | แสดงรูปแบบของป้ายข้อมูล. อ่านอย่างเดียว [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | อ่าน/เขียน Boolean. |
-| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | แสดง format string สำหรับอ็อบเจ็กต์ DataLabels. อ่าน/เขียน String. |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | แสดงตำแหน่งของ data label. อ่าน/เขียน [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | ตั้งค่า หรือส่งคืน Variant ที่แสดงตัวคั่นที่ใช้สำหรับ data label บน chart. อ่าน/เขียน String. |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | แสดงพฤติกรรมการแสดงค่า bubble size ของ data label ใน chart ที่ระบุ. True แสดงค่า bubble size. False จะซ่อน. อ่าน/เขียน Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | แสดงพฤติกรรมการแสดงชื่อหมวดหมู่ของ data label ใน chart ที่ระบุ. True เพื่อแสดงชื่อหมวดหมู่สำหรับ data label บน chart. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | กำหนดว่าข้อมูล label ของ chart ที่ระบุจะถูกแสดงเป็น data callout หรือเป็น data label. หากพาเรนท์ของอ็อบเจ็กต์ DataLabelFormat นี้เป็นคอลเลกชัน DataLabelCollection ของ data label แล้วคุณสมบัตินี้จะรับหรือกำหนดค่าเริ่มต้นของคุณสมบัติ ShowLabelAsDataCallout สำหรับ data label ใหม่ในคอลเลกชัน DataLabelCollection. การกำหนดค่าคุณสมบัตินี้ด้วยค่าใดค่าหนึ่งจะตั้งค่าคุณสมบัติ ShowLabelAsDataCallout ของ data label ทั้งหมดในคอลเลกชัน DataLabelCollection ด้วย (เช่น \"DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;\" ทำให้ DataLabels[i].ShowLabelAsDataCallout ทั้งหมดเท่ากับ val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | แสดงพฤติกรรมการแสดงค่าของเซลล์ data label ใน chart ที่ระบุ. True แสดงค่าของเซลล์. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | แสดงพฤติกรรมการแสดงเส้นนำของ data label ใน chart ที่ระบุ. True แสดงเส้นนำ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | แสดงพฤติกรรมการแสดงคีย์ legend ของ data label ใน chart ที่ระบุ. True หากคีย์ legend ของ data label ปรากฏ. อ่าน/เขียน Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | แสดงพฤติกรรมการแสดงค่าร้อยละของ data label ใน chart ที่ระบุ. True แสดงค่าร้อยละ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | ส่งคืนหรือกำหนดค่า Boolean เพื่อระบุพฤติกรรมการแสดงชื่อ series สำหรับ data label บน chart. True เพื่อแสดงชื่อ series. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | แสดงพฤติกรรมการแสดงค่าร้อยละของ data label ใน chart ที่ระบุ. True แสดงค่าร้อยละ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
-| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | ส่งคืนรูปแบบข้อความของ chart. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | แสดงสตริงรูปแบบสำหรับอ็อบเจ็กต์ DataLabels. อ่าน/เขียน String. |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | แสดงตำแหน่งของป้ายข้อมูล. อ่าน/เขียน [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | กำหนดหรือรับ Variant ที่แสดงตัวคั่นที่ใช้สำหรับป้ายข้อมูลบนแผนภูมิ. อ่าน/เขียน String. |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | แสดงพฤติกรรมการแสดงค่าขนาดฟองอากาศของป้ายข้อมูลในแผนภูมิที่ระบุ. True แสดงค่าขนาดฟองอากาศ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | แสดงพฤติกรรมการแสดงชื่อหมวดหมู่ของป้ายข้อมูลในแผนภูมิที่ระบุ. True เพื่อแสดงชื่อหมวดหมู่สำหรับป้ายข้อมูลบนแผนภูมิ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | กำหนดว่าจะให้ป้ายข้อมูลของแผนภูมิที่ระบุแสดงเป็นข้อมูลคำอธิบายหรือเป็นป้ายข้อมูล. ถ้า parent ของอ็อบเจ็กต์ DataLabelFormat นี้เป็นคอลเลกชัน DataLabelCollection ของป้ายข้อมูลแล้วคุณสมบัตินี้จะรับหรือกำหนดค่าดีฟอลต์ของคุณสมบัติ ShowLabelAsDataCallout สำหรับป้ายข้อมูลใหม่ในคอลเลกชัน DataLabelCollection. การตั้งค่าคุณสมบัตินี้ด้วยค่าใดค่าหนึ่งจะกำหนดค่านี้ให้กับคุณสมบัติ ShowLabelAsDataCallout ของป้ายข้อมูลทั้งหมดในคอลเลกชัน DataLabelCollection (เช่น "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" ทำให้ DataLabels[i].ShowLabelAsDataCallout ทั้งหมดเป็นค่า val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | แสดงพฤติกรรมการแสดงค่าของเซลล์ป้ายข้อมูลในแผนภูมิที่ระบุ. True แสดงค่าของเซลล์. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | แสดงพฤติกรรมการแสดงเส้นเชื่อมของป้ายข้อมูลในแผนภูมิที่ระบุ. True แสดงเส้นเชื่อม. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | แสดงพฤติกรรมการแสดงคีย์คำอธิบายของป้ายข้อมูลในแผนภูมิที่ระบุ. True หากคีย์คำอธิบายของป้ายข้อมูลมองเห็นได้. อ่าน/เขียน Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | แสดงพฤติกรรมการแสดงค่าร้อยละของป้ายข้อมูลในแผนภูมิที่ระบุ. True แสดงค่าร้อยละ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | ส่งคืนหรือกำหนด Boolean เพื่อระบุพฤติกรรมการแสดงชื่อซีรีส์สำหรับป้ายข้อมูลบนแผนภูมิ. True เพื่อแสดงชื่อซีรีส์. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | แสดงพฤติกรรมการแสดงค่าร้อยละของป้ายข้อมูลในแผนภูมิที่ระบุ. True แสดงค่าร้อยละ. False เพื่อซ่อน. อ่าน/เขียน Boolean. |
+| [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | ส่งคืนรูปแบบข้อความของแผนภูมิ. อ่านอย่างเดียว [`IChartTextFormat`](../icharttextformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืน hash code. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮชโค้ด. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [PVIObject](../../aspose.slides/pviobject)
 * อินเทอร์เฟซ [IDataLabelFormat](../idatalabelformat)
-* เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
+* เนมส페ซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

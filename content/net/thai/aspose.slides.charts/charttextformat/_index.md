@@ -1,6 +1,6 @@
 ---
 title: ChartTextFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ระบุการจัดรูปแบบข้อความเริ่มต้นสำหรับองค์ประกอบข้อความของแผนภูมิ
 type: docs
 weight: 1480
@@ -26,8 +26,8 @@ public class ChartTextFormat : IChartTextFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | คัดลอกรูปแบบข้อความจากเฟรมข้อความที่ระบุ. |
-| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | คัดลอกรูปแบบข้อความไปยังเฟรมข้อความที่ระบุ. |
+| [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความจากเฟรมข้อความที่กำหนด |
+| [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | คัดลอกการจัดรูปแบบข้อความไปยังเฟรมข้อความที่กำหนด |
 
 ### ดูเพิ่มเติม
 

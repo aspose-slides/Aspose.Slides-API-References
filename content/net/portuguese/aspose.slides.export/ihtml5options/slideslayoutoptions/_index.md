@@ -1,9 +1,9 @@
 ---
 title: SlidesLayoutOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Obtém ou define o modo como os slides são posicionados na página ao exportar uma apresentação ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /pt/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions propriedade
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ver Também
+### Veja Também
 
 * interface [ISlidesLayoutOptions](../../islideslayoutoptions)
 * interface [IHtml5Options](../../ihtml5options)

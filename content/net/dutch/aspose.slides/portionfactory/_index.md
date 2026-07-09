@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe testporties te maken
+description: Staat toe testgedeelten te creëren
 type: docs
 weight: 9480
 url: /nl/aspose.slides/portionfactory/
 ---
 ## PortionFactory klasse
 
-Staat toe testporties te maken
+Staat toe testgedeelten te creëren
 
 ```csharp
 public class PortionFactory : IPortionFactory
@@ -16,23 +16,23 @@ public class PortionFactory : IPortionFactory
 
 ## Constructors
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [PortionFactory](portionfactory)() | De standaardconstructor. |
 
-## Methoden
+## Methods
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Maakt een lege tekstportie. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Maakt een portie met het gebruik van opgegeven portiegegevens. |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Maakt een tekstportie van een opgegeven tekenreeks. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | Maakt een lege tekstgedeelte. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | Maakt een gedeelte met het gebruik van opgegeven gedeeltegegevens. |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | Maakt een tekstgedeelte van een opgegeven string. |
 
-### Opmerkingen
+### Remarks
 
 Voor COM-compatibiliteit
 
-### Zie ook
+### See Also
 
 * interface [IPortionFactory](../iportionfactory)
 * namespace [Aspose.Slides](../../aspose.slides)

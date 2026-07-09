@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta la collezione di colonne in una tabella.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una raccolta di colonne in una tabella.
 type: docs
-weight: 2580
+weight: 2600
 url: /it/aspose.slides/columncollection/
 ---
 ## ColumnCollection classe
 
-Rappresenta la collezione di colonne in una tabella.
+Rappresenta una raccolta di colonne in una tabella.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -18,8 +18,8 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | Restituisce il numero di colonne nella collezione. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Restituisce il numero di colonne in una raccolta. Solo lettura Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | Restituisce la colonna all'indice specificato. Solo lettura [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
@@ -27,9 +27,9 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia della riga modello specificata e la inserisce nella parte inferiore di una tabella. |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione all'array specificato. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Crea una copia della riga modello specificata e la inserisce alla fine di una tabella. |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Crea una copia della colonna modello specificata e la inserisce nella posizione specificata in una tabella. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Rimuove una colonna nella posizione specificata da una tabella. |
 

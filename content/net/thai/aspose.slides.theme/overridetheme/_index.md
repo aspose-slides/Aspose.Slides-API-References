@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงถึงธีมที่ถูกกำหนดทับ
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: เป็นตัวแทนของธีมที่กำหนดทับ.
 type: docs
 weight: 11460
 url: /th/aspose.slides.theme/overridetheme/
 ---
-## คลาส OverrideTheme
+## OverrideTheme คลาส
 
-Represents a overriding theme.
+เป็นตัวแทนของธีมที่กำหนดทับ
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -18,27 +18,27 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | ส่งคืนโครงร่างสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | ส่งคืนโครงร่างแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | ส่งคืนโครงร่างรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | ค่าจริงหมายความว่า ColorScheme, FontScheme, FormatScheme เป็น null และการแทนที่ใด ๆ ด้วยอ็อบเจ็กต์ธีมนี้จะถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งคืนการนำเสนอหลัก. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | ส่งคืนชุดสี. อ่าน-อย่างเดียว [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | ส่งคืนชุดแบบอักษร. อ่าน-อย่างเดียว [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | ส่งคืนชุดรูปแบบรูปร่าง. อ่าน-อย่างเดียว [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | ค่าจริงหมายถึงว่า ColorScheme, FontScheme, FormatScheme มีค่า null และการกำหนดทับใด ๆ ด้วยอ็อบเจ็กต์ธีมนี้ถูกปิดการทำงาน. อ่าน-อย่างเดียว Boolean. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งคืนการนำเสนอแม่. อ่าน-อย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ตั้งค่า ColorScheme, FontScheme, FormatScheme เป็น null เพื่อปิดการแทนที่ใด ๆ ด้วยอ็อบเจ็กต์ธีมนี้. |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | รับข้อมูลธีมที่มีผลพร้อมการสืบทอดที่นำมาใช้. |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ ColorScheme ของ InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ ColorScheme ของ InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ ColorScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ ColorScheme ของ InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FontScheme ของ InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FontScheme ของ InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FontScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ FontScheme ของ InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FormatScheme ของ InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FormatScheme ของ InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อแทนที่ FormatScheme ของ InheritedTheme. และเริ่มต้นข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ FormatScheme ของ InheritedTheme. |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | ตั้งค่า ColorScheme, FontScheme, FormatScheme ให้เป็น null เพื่อปิดการกำหนดทับใด ๆ ด้วยอ็อบเจ็กต์ธีมนี้. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | รับข้อมูลธีมที่มีผลพร้อมการประยุกต์ใช้การสืบทอด. |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ ColorScheme ของ InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ ColorScheme ของ InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | เริ่มต้น ColorScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ ColorScheme ของ InheritedTheme และกำหนดค่าข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ ColorScheme ของ InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FontScheme ของ InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FontScheme ของ InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | เริ่มต้น FontScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FontScheme ของ InheritedTheme และกำหนดค่าข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ FontScheme ของ InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FormatScheme ของ InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FormatScheme ของ InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | เริ่มต้น FormatScheme ด้วยอ็อบเจ็กต์ใหม่เพื่อกำหนดทับ FormatScheme ของ InheritedTheme และกำหนดค่าข้อมูลของอ็อบเจ็กต์ใหม่ด้วยข้อมูลของ FormatScheme ของ InheritedTheme. |
 
 ### ดูเพิ่มเติม
 

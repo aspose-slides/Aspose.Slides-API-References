@@ -3,7 +3,7 @@ title: FillFormatCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar samlingen av fyllningsstilar.
 type: docs
-weight: 11100
+weight: 11120
 url: /sv/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection klass
@@ -14,16 +14,16 @@ Representerar samlingen av fyllningsstilar.
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
 ```
 
-## Properties
+## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. skrivskyddad Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). skrivskyddad Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Hämtar elementet på det angivna indexet. skrivskyddad [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Returnerar en synkroniseringsrot. skrivskyddad Object. |
 
-## Methods
+## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |

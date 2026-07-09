@@ -1,14 +1,14 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes for .NET API 參考
-description: 此類別允許將視訊和音訊檔案匯出為 HTML
+second_title: Aspose.Sildes .NET API 參考
+description: 此類別允許將影片和音訊檔案匯出為 HTML
 type: docs
 weight: 4580
 url: /zh-hant/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController 類別
 
-此類別允許將視訊和音訊檔案匯出為 HTML
+此類別允許將影片和音訊檔案匯出為 HTML
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController
@@ -18,7 +18,7 @@ public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 
 | 名稱 | 說明 |
 | --- | --- |
-| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | 建立控制器的新執行個體 |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | 建立控制項的新執行個體 |
 
 ### 另請參閱
 

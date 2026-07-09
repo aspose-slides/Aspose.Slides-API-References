@@ -1,14 +1,14 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes pro .NET – reference API
-description: Representuje kolekci snímků v sekci.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje kolekci snímků v sekci.
 type: docs
-weight: 9750
+weight: 9770
 url: /cs/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection třída
 
-Representuje kolekci snímků v sekci.
+Reprezentuje kolekci snímků v sekci.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -18,16 +18,16 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Vrací počet skutečně obsažených prvků v kolekci. Pouze ke čtení Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze ke čtení Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Vrací prvek na zadaném indexu. Pouze ke čtení [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Zkopíruje celou kolekci do zadaného pole. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopíruje celou kolekci do zadaného pole. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 
 ### Viz také

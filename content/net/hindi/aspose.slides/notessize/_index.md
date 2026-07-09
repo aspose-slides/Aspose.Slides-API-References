@@ -1,6 +1,6 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: नोट्स स्लाइड का आकार दर्शाता है।
 type: docs
 weight: 9130
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/notessize/
 ---
 ## NotesSize क्लास
 
-नोट्स स्लाइड का आकार दर्शाता है।
+एक नोट्स स्लाइड का आकार दर्शाता है।
 
 ```csharp
 public class NotesSize : INotesSize
@@ -20,11 +20,11 @@ public class NotesSize : INotesSize
 | --- | --- |
 | [NotesSize](notessize)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | आकार को पॉइंट्स में लौटाता है या सेट करता है। पढ़ें/लिखें SizeF। |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | पॉइंट्स में आकार को लौटाता या सेट करता है। Read/write SizeF. |
 
 ### देखें भी
 

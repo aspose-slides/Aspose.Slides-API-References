@@ -1,14 +1,14 @@
 ---
 title: IReflection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک اثر انعکاسی است.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر یک اثر انعکاس است.
 type: docs
 weight: 3500
 url: /fa/aspose.slides.effects/ireflection/
 ---
-## IReflection رابط
+## رابط IReflection
 
-نمایانگر یک اثر انعکاسی است.
+نمایان‌گر یک اثر انعکاس است.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,29 +19,29 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | اجازه می‌دهد رابط IAccessiblePVIObject پایه را دریافت کند. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | اجازه می‌دهد رابط IImageTransformOperation پایه را دریافت کند. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | شعاع تاری. قابل خواندن/قابل نوشتن Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | جهت انعکاس. قابل خواندن/قابل نوشتن Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | فاصله انعکاس. قابل خواندن/قابل نوشتن Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | موقعیت انتهایی (در طول مسیر شیب گرادیان آلفا) مقدار آلفای انتهایی (درصدها) را مشخص می‌کند. قابل خواندن/قابل نوشتن Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | شفافیت انتهای انعکاس. (درصدها). قابل خواندن/قابل نوشتن Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | جهت افست (جابه‌جایی) انعکاس را مشخص می‌کند. (زاویه). قابل خواندن/قابل نوشتن Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | تراز مستطیل. قابل خواندن/قابل نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | مشخص می‌کند که آیا انعکاس باید همراه شکل بچرخد اگر شکل چرخانده شود. قابل خواندن/قابل نوشتن Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | عامل مقیاس افقی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصدها) قابل خواندن/قابل نوشتن Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | عامل مقیاس عمودی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصدها) قابل خواندن/قابل نوشتن Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | زاویه کشش افقی را مشخص می‌کند. قابل خواندن/قابل نوشتن Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | زاویه کشش عمودی را مشخص می‌کند. قابل خواندن/قابل نوشتن Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | موقعیت شروع (در طول مسیر شیب گرادیان آلفا) مقدار آلفای شروع (درصدها) را مشخص می‌کند. قابل خواندن/قابل نوشتن Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | شفافیت شروع انعکاس. (درصدها). قابل خواندن/قابل نوشتن Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | دسترسی به رابط IAccessiblePVIObject پایه را فراهم می‌کند. فقط خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | دسترسی به رابط IImageTransformOperation پایه را فراهم می‌کند. فقط خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | شعاع تاری. قابل خواندن/نوشتن Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | جهت انعکاس. قابل خواندن/نوشتن Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | فاصله انعکاس. قابل خواندن/نوشتن Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | موقعیت انتهای (در امتداد مسیر گرادیان آلفا) مقدار آلفای انتهایی (درصد). قابل خواندن/نوشتن Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | شفافیت انتهای انعکاس. (درصد). قابل خواندن/نوشتن Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | جهت جابه‌جایی انعکاس را مشخص می‌کند. (زاویه). قابل خواندن/نوشتن Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rectangle alignment. قابل خواندن/نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | مشخص می‌کند که آیا انعکاس باید با شکل چرخانده شود یا نه. قابل خواندن/نوشتن Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | عامل مقیاس افقی را مشخص می‌کند، مقیاس منفی منجر به وارون شدن می‌شود. (درصد) قابل خواندن/نوشتن Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | عامل مقیاس عمودی را مشخص می‌کند، مقیاس منفی منجر به وارون شدن می‌شود. (درصد) قابل خواندن/نوشتن Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | زاویه کج‌شویی افقی را مشخص می‌کند. قابل خواندن/نوشتن Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | زاویه کج‌شویی عمودی را مشخص می‌کند. قابل خواندن/نوشتن Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | موقعیت شروع (در امتداد مسیر گرادیان آلفا) مقدار آلفای شروعی (درصد). قابل خواندن/نوشتن Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | شفافیت شروع انعکاس. (درصد). قابل خواندن/نوشتن Single. |
 
 ### موارد مرتبط
 
 * رابط [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * رابط [IReflectionEffectiveData](../ireflectioneffectivedata)
 * رابط [IImageTransformOperation](../iimagetransformoperation)
-* فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* مجتمع [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides.Effects](../../aspose.slides.effects)
+* مجموعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

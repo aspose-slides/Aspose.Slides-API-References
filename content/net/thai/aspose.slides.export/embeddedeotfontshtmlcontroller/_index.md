@@ -1,20 +1,20 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ EOT
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังฟอนต์ในรูปแบบ EOT
 type: docs
 weight: 3780
 url: /th/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController คลาส
 
-คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับการฝังฟอนต์ในรูปแบบ EOT
+คลาสตัวควบคุมการจัดรูปแบบที่ใช้สำหรับฝังฟอนต์ในรูปแบบ EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: IMotionCmdPath
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคำสั่งหนึ่งของเส้นทาง.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงหนึ่งคำสั่งของเส้นทาง
 type: docs
 weight: 510
 url: /th/aspose.slides.animation/imotioncmdpath/
 ---
 ## IMotionCmdPath อินเทอร์เฟซ
 
-แสดงคำสั่งหนึ่งของเส้นทาง.
+แสดงหนึ่งคำสั่งของเส้นทาง
 
 ```csharp
 public interface IMotionCmdPath
@@ -16,11 +16,11 @@ public interface IMotionCmdPath
 
 ## คุณสมบัติ
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | ระบุประเภทคำสั่ง. อ่าน/เขียน [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | กำหนดพิกัดคำสั่งเป็นสัมพัทธ์หรือไม่. อ่าน/เขียน Boolean. |
-| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | ระบุจุดของคำสั่ง. อ่าน/เขียน PointF[]. |
+| [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | ระบุประเภทคำสั่ง อ่าน/เขียน [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | กำหนดพิกัดคำสั่งว่าเป็นแบบสัมพันธ์หรือไม่ อ่าน/เขียน Boolean. |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | ระบุจุดของคำสั่ง อ่าน/เขียน PointF[]. |
 | [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | ระบุประเภทจุดคำสั่ง อ่าน/เขียน [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### ดูเพิ่มเติม

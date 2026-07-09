@@ -3,7 +3,7 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který obsahuje efektivní vlastnosti motivu.
 type: docs
-weight: 11360
+weight: 11380
 url: /cs/aspose.slides.theme/ithemeeffectivedata/
 ---
 ## IThemeEffectiveData rozhraní
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s [`ITheme`](../itheme) rozhraním k vrácení efektivních hodnot formátování s aplikovaným děděním.
+Toto rozhraní se používá spolu s rozhraním [`ITheme`](../itheme) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

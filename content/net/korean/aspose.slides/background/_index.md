@@ -6,7 +6,7 @@ type: docs
 weight: 930
 url: /ko/aspose.slides/background/
 ---
-## 배경 클래스
+## Background 클래스
 
 슬라이드의 배경을 나타냅니다.
 
@@ -22,7 +22,7 @@ public sealed class Background : PVIObject, IBackground
 | [EffectFormat](../../aspose.slides/background/effectformat) { get; } | BackgroundType.OwnBackground 채우기에 대한 EffectFormat을 반환합니다. 읽기 전용 [`IEffectFormat`](../ieffectformat). |
 | [FillFormat](../../aspose.slides/background/fillformat) { get; } | BackgroundType.OwnBackground 채우기에 대한 FillFormat을 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
 | [Presentation](../../aspose.slides/background/presentation) { get; } | 슬라이드의 상위 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/background/slide) { get; } | 형상의 상위 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
+| [Slide](../../aspose.slides/background/slide) { get; } | 도형의 상위 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [StyleColor](../../aspose.slides/background/stylecolor) { get; } | BackgroundType.Themed 채우기에 대한 ColorFormat을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
 | [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | 배경 테마 컬렉션에서 BackgroundType.Themed 채우기의 인덱스를 반환합니다. 0은 채우기 없음, 1..999는 인덱스입니다. 읽기/쓰기 UInt16. |
 | [Type](../../aspose.slides/background/type) { get; set; } | 배경 채우기의 유형을 반환합니다. 읽기/쓰기 [`BackgroundType`](../backgroundtype). |
@@ -32,10 +32,10 @@ public sealed class Background : PVIObject, IBackground
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
-| [GetEffective](../../aspose.slides/background/geteffective)() | 상속이 적용된 유효한 배경 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/background/geteffective)() | 상속이 적용된 효과적인 배경 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IBackground](../ibackground)

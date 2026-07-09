@@ -1,12 +1,12 @@
 ---
 title: ITiming
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของการกำหนดเวลาแอนิเมชัน.
+description: แสดงเวลาการเคลื่อนที่ของแอนิเมชัน.
 type: docs
 weight: 640
 url: /th/aspose.slides.animation/itiming/
 ---
-## อินเทอร์เฟซ ITiming
+## ITiming อินเทอร์เฟซ
 
 Represents animation timing.
 
@@ -16,21 +16,21 @@ public interface ITiming
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | อธิบายเปอร์เซ็นต์ของผลพฤติกรรมการเร่งความเร็วของระยะเวลา. อ่าน/เขียน Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | อธิบายว่าควรเล่นแอนิเมชันแบบย้อนกลับโดยอัตโนมัติหลังจากเล่นในทิศทางไปข้างหน้าหรือไม่. อ่าน/เขียน Boolean. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | อธิบายว่าควรเล่นแอนิเมชันกลับด้านโดยอัตโนมัติหลังจากเล่นในทิศทางต่อไปหรือไม่. อ่าน/เขียน Boolean. |
 | [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | อธิบายเปอร์เซ็นต์ของผลพฤติกรรมการชะลอความเร็วของระยะเวลา. อ่าน/เขียน Single. |
 | [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | อธิบายระยะเวลาของผลแอนิเมชัน. อ่าน/เขียน Single. |
 | [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | อธิบายจำนวนครั้งที่ผลควรทำซ้ำ. อ่าน/เขียน Single. |
 | [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | อธิบายจำนวนครั้งที่ผลควรทำซ้ำ. อ่าน/เขียน Single. |
 | [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | แอตทริบิวต์นี้ระบุว่าผลจะทำซ้ำจนถึงจบสไลด์หรือไม่. อ่าน/เขียน Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | แอตทริบิวต์นี้ระบุว่าผลจะทำซ้ำจนถึงคลิกถัดไปหรือไม่. อ่าน/เขียน Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | ระบุว่าผลควรรีสตาร์ทหลังจากเสร็จสมบูรณ์หรือไม่. อ่าน/เขียน [`EffectRestartType`](../effectrestarttype). |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | แอตทริบิวต์นี้ระบุว่าผลจะทำซ้ำจนกว่าจะคลิกต่อไปหรือไม่. อ่าน/เขียน Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | ระบุว่าผลจะเริ่มใหม่หลังจากเสร็จสิ้นหรือไม่. อ่าน/เขียน [`EffectRestartType`](../effectrestarttype). |
 | [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | แอตทริบิวต์นี้ระบุว่าผลจะย้อนกลับเมื่อเล่นเสร็จหรือไม่. อ่าน/เขียน Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | ระบุเปอร์เซ็นต์ที่ต้องเพิ่มความเร็ว (หรือชะลอ) ของการกำหนดเวลา. อ่าน/เขียน Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | อธิบายเวลาหน่วงหลังจากการกระตุ้น. อ่าน/เขียน Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | อธิบายประเภทของการกระตุ้น. อ่าน/เขียน [`EffectTriggerType`](../effecttriggertype). |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | ระบุเปอร์เซ็นต์ที่ต้องเพิ่มความเร็ว (หรือชะลอ) เวลา. อ่าน/เขียน Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | อธิบายเวลาหน่วงหลังการกระตุ้น. อ่าน/เขียน Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | อธิบายประเภทของทริกเกอร์. อ่าน/เขียน [`EffectTriggerType`](../effecttriggertype). |
 
 ### ดูเพิ่มเติม
 

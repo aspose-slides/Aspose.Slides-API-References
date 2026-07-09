@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRule
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje informacje o zastępowaniu czcionek
+description: Reprezentuje informacje o podstawianiu czcionek
 type: docs
-weight: 5860
+weight: 5880
 url: /pl/aspose.slides/ifontsubstrule/
 ---
 ## IFontSubstRule interfejs
 
-Reprezentuje informacje o zamianie czcionek
+Reprezentuje informacje o podstawianiu czcionek
 
 ```csharp
 public interface IFontSubstRule
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Nazwa | Opis |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Czcionka używana do zamiany Tylko do odczytu [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Reguła stosowana przy zamianie Tylko do odczytu [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Czcionka do zamiany Tylko do odczytu [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Czcionka używana do podstawiania, tylko do odczytu [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Reguła stosowana do podstawiania, tylko do odczytu [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Czcionka do podmiany, tylko do odczytu [`IFontData`](../ifontdata). |
 
 ### Zobacz także
 

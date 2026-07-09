@@ -1,6 +1,6 @@
 ---
 title: ITab
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 텍스트에 대한 탭을 나타냅니다.
 type: docs
 weight: 7190
@@ -18,11 +18,11 @@ public interface ITab : IComparable
 
 | 이름 | 설명 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 탭의 정렬 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | 탭의 정렬 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | IComparable 인터페이스를 반환합니다. 읽기 전용 IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | 탭의 위치를 반환하거나 설정합니다. 이 속성을 할당하면 컬렉션에서 탭의 인덱스가 변경되고 Enumerator가 무효화될 수 있습니다. 읽기/쓰기 Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | 탭의 위치를 가져오거나 설정합니다. 이 속성을 할당하면 컬렉션 내 탭의 인덱스가 변경되고 열거자가 무효화될 수 있습니다. 읽기/쓰기 Double. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

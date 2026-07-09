@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
-description: 不可變物件，包含有效的段落項目符號格式屬性。
+second_title: Aspose.Sildes .NET API 參考
+description: 不可變物件，包含有效段落項目符號格式屬性。
 type: docs
 weight: 5400
 url: /zh-hant/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData 介面
 
-不可變物件，包含有效的段落項目符號格式屬性。
+不可變物件，包含有效段落項目符號格式屬性。
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,22 +18,22 @@ public interface IBulletFormatEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 返回父段落的實際項目符號值。唯讀 String。 |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 返回段落的項目符號字元。唯讀 Char。 |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 返回段落的項目符號填充格式。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 返回段落的項目符號字型。唯讀 [`IFontData`](../ifontdata)。 |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 返回段落的項目符號高度。唯讀 Single。 |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 確定項目符號是否具有自己的顏色，或從段落的第一段落部份繼承顏色。若項目符號具有自己的顏色則返回 **true**，若項目符號從段落的第一段落部份繼承顏色則返回 **false**。唯讀 Boolean。 |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 確定項目符號是否具有自己的字型，或從段落的第一段落部份繼承字型。若項目符號具有自己的字型則返回 **true**，若項目符號從段落的第一段落部份繼承字型則返回 **true**。唯讀 Boolean。 |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 返回用於編號項目符號組的第一個數字。唯讀 Int16。 |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 返回編號項目符號的樣式。唯讀 [`NumberedBulletStyle`](../numberedbulletstyle)。 |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 返回段落的項目符號類型。唯讀 [`BulletType`](../bullettype)。 |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | 傳回父段落的實際項目符號值。唯讀 String。 |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | 傳回段落的項目符號字元。唯讀 Char。 |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | 傳回段落的項目符號填充格式。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | 傳回段落的項目符號字型。唯讀 [`IFontData`](../ifontdata)。 |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | 傳回段落的項目符號高度。唯讀 Single。 |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | 判斷項目符號是否具有自訂顏色，或從段落的第一段落文字繼承顏色。若項目符號具有自訂顏色則傳回 **true**，若從段落的第一段落文字繼承顏色則傳回 **false**。唯讀 Boolean。 |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | 判斷項目符號是否具有自訂字型，或從段落的第一段落文字繼承字型。若項目符號具有自訂字型則傳回 **true**，若從段落的第一段落文字繼承字型則傳回 **true**。唯讀 Boolean。 |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | 傳回用於編號項目符號群組的第一個號碼。唯讀 Int16。 |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | 傳回編號項目符號的樣式。唯讀 [`NumberedBulletStyle`](../numberedbulletstyle)。 |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | 傳回段落的項目符號類型。唯讀 [`BulletType`](../bullettype)。 |
 
 ### 備註
 
-此介面用作 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 的一部份。
+此介面作為 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 的一部份使用。
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

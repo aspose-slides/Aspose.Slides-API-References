@@ -1,28 +1,28 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक्सेप्शन जो 2D और 3D चार्ट प्रकारों को संयोजित करने की कोशिश करते समय फेंकी जाती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: जब 2D और 3D चार्ट प्रकारों को संयोजित करने का प्रयास किया जाता है तो फेंका गया अपवाद।
 type: docs
 weight: 1240
 url: /hi/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException क्लास
 
-Exception जो 2D और 3D चार्ट प्रकारों को संयोजित करने की कोशिश करते समय फेंकी जाती है।
+2D और 3D चार्ट प्रकारों को संयोजित करने का प्रयास करने पर फेंका गया अपवाद।
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 ```
 
-## कंस्ट्रक्टर
+## कन्स्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | कंस्ट्रक्टर जो इस Exception में एक संदेश जोड़ने की अनुमति देता है। |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | एक संदेश और एक एम्बेडेड Exception शामिल करने वाली Exception के लिए कंस्ट्रक्टर। |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला कन्स्ट्रक्टर। |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | एक संदेश और एक एम्बेडेड अपवाद युक्त अपवाद के लिए कन्स्ट्रक्टर। |
 
-### संबंधित देखें
+### अधिक देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar tidsrelaterade egenskaper för effektbeteendet.
+description: Representerar tidsinställningsegenskaper för effektbeteendet.
 type: docs
-weight: 430
+weight: 450
 url: /sv/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection gränssnitt
 
-Representerar tidsrelaterade egenskaper för effektbeteendet.
+Representerar tidsinställningsegenskaper för effektbeteendet.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -16,21 +16,21 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnitt. Endast läs-IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Returnerar IEnumerable-gränssnitt. Skrivskyddad IEnumerable. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Lägger till en ny egenskap i samlingen. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Bestämmer om ICollection innehåller ett specifikt värde. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Bestämmer index för ett specifikt objekt efter egenskapsvärde i IList. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Determinerar om ICollection innehåller ett specifikt värde. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Bestämmer indexet för ett specifikt objekt efter egenskapsvärde i IList. |
 | [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Infogar en ny egenskap (med det angivna egenskapsvärdet) i samlingen på det angivna indexet. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Tar bort angiven egenskap från samlingen. |
 
-### Se också
+### Se även
 
 * gränssnitt [IBehaviorProperty](../ibehaviorproperty)
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)

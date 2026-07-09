@@ -1,14 +1,14 @@
 ---
 title: ISplitTransition
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
-description: تأثير انتقال شريحة مقسمة.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: تأثير انتقال شريحة مقسّم.
 type: docs
 weight: 10200
 url: /ar/aspose.slides.slideshow/isplittransition/
 ---
 ## واجهة ISplitTransition
 
-تأثير انتقال الشريحة المقسمة.
+تأثير انتقال شريحة مقسّم.
 
 ```csharp
 public interface ISplitTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | يسمح بالحصول على الواجهة الأساسية ITransitionValueBase. للقراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | اتجاه انقسام الانتقال. قراءة/كتابة [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | توجه انقسام الانتقال. قراءة/كتابة [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | يسمح بالحصول على واجهة ITransitionValueBase الأساسية. للقراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | اتجاه تقسيم الانتقال. قراءة/كتابة [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | توجيه تقسيم الانتقال. قراءة/كتابة [`Orientation`](../../aspose.slides/orientation). |
 
 ### انظر أيضًا
 

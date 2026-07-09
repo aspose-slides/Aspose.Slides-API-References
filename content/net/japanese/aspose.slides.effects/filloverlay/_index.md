@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Fill Overlay エフェクトを表します。Fill Overlay はオブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+description: Fill Overlay 効果を表します。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 type: docs
-weight: 2960
+weight: 2980
 url: /ja/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay クラス
 
-Fill Overlay エフェクトを表します。Fill Overlay はオブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+Fill Overlay 効果を表します。Fill Overlay は、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -19,8 +19,8 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 | 名前 | 説明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode。 読み書き [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill format。 読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode。 読み取り/書き込み [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill フォーマット。 読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
 ## メソッド
 
@@ -30,7 +30,7 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | 継承が適用された有効な Fill Overlay 効果データを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
-### 関連項目
+### 参照
 
 * クラス [ImageTransformOperation](../imagetransformoperation)
 * インターフェイス [IFillOverlay](../ifilloverlay)

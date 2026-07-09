@@ -16,7 +16,7 @@ public enum PictureFillMode
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
 | Tile | `0` |  |
 | Stretch | `1` |  |

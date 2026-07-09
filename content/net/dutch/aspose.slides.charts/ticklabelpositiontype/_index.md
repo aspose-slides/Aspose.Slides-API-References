@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het type positie van tick-mark-labels op de opgegeven as weer.
+description: Geeft het positietype weer van tick-mark labels op de opgegeven as.
 type: docs
 weight: 2440
 url: /nl/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeratie
 
-Geeft het type positie van tickmark-etiketten op de opgegeven as weer.
+Geeft het positietype weer van de tick-mark labels op de opgegeven as.
 
 ```csharp
 public enum TickLabelPositionType
@@ -16,12 +16,12 @@ public enum TickLabelPositionType
 
 ### Waarden
 
-| Name | Value | Description |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| High | `0` | Geeft aan dat de as-labels zich aan het hoge uiteinde van de loodrechte as bevinden. |
-| Low | `1` | Geeft aan dat de as-labels zich aan het lage uiteinde van de loodrechte as bevinden. |
-| NextTo | `2` | Geeft aan dat de as-labels naast de as worden geplaatst. |
-| None | `3` | Geeft aan dat de as-labels niet worden getekend. |
+| High | `0` | Geeft aan dat de aslabels zich aan het hoge uiteinde van de loodrechte as bevinden. |
+| Low | `1` | Geeft aan dat de aslabels zich aan het lage uiteinde van de loodrechte as bevinden. |
+| NextTo | `2` | Geeft aan dat de aslabels zich naast de as bevinden. |
+| None | `3` | Geeft aan dat de aslabels niet worden getekend. |
 
 ### Zie ook
 

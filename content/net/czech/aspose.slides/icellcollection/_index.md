@@ -3,7 +3,7 @@ title: ICellCollection
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci buněk.
 type: docs
-weight: 5440
+weight: 5460
 url: /cs/aspose.slides/icellcollection/
 ---
 ## ICellCollection rozhraní
@@ -19,7 +19,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 | Název | Popis |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | Vrací buňku podle její pozice. Pouze pro čtení [`ICell`](../icell). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | Vrátí buňku podle její pozice. Pouze pro čtení [`ICell`](../icell). |
 
 ### Viz také
 

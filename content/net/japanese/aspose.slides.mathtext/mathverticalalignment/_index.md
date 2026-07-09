@@ -1,14 +1,14 @@
 ---
 title: MathVerticalAlignment
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 垂直配置
+description: 垂直方向の配置
 type: docs
-weight: 9030
+weight: 9050
 url: /ja/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment 列挙型
 
-垂直配置
+垂直方向の配置
 
 ```csharp
 public enum MathVerticalAlignment
@@ -18,10 +18,10 @@ public enum MathVerticalAlignment
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `0` | 値は定義されていません |
-| Top | `1` | Top |
-| Center | `2` | Center |
-| Bottom | `3` | Bottom |
+| NotDefined | `0` | 値が定義されていません |
+| Top | `1` | 上 |
+| Center | `2` | 中央 |
+| Bottom | `3` | 下 |
 
 ### 参照
 

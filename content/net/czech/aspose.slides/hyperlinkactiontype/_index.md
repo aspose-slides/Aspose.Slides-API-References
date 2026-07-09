@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes pro .NET API reference
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typ akce hypertextového odkazu.
 type: docs
-weight: 5110
+weight: 5130
 url: /cs/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType enumerace
 
-Represents a type of hyperlink action.
+Reprezentuje typ akce hypertextového odkazu.
 
 ```csharp
 public enum HyperlinkActionType
@@ -20,19 +20,19 @@ public enum HyperlinkActionType
 | --- | --- | --- |
 | Unknown | `-1` | Nerozpoznaný typ akce. |
 | NoAction | `0` | Žádná akce. |
-| Hyperlink | `1` | Obvyklý hypertextový odkaz. |
+| Hyperlink | `1` | Běžný hypertextový odkaz. |
 | JumpFirstSlide | `2` | Přeskočit na první snímek prezentace. |
 | JumpPreviousSlide | `3` | Přeskočit na předchozí snímek. |
 | JumpNextSlide | `4` | Přeskočit na další snímek. |
 | JumpLastSlide | `5` | Přeskočit na poslední snímek prezentace. |
 | JumpEndShow | `6` | Přeskočit na konec prezentace. |
-| JumpLastViewedSlide | `7` | Přeskočit na naposledy zobrazený snímek. |
-| JumpSpecificSlide | `8` | Přeskočit na konkrétní snímek, určený pomocí vlastnosti [`TargetSlide`](../ihyperlink/targetslide). |
+| JumpLastViewedSlide | `7` | Přeskočit na poslední zobrazený snímek. |
+| JumpSpecificSlide | `8` | Přeskočit na konkrétní snímek, odkazovaný vlastností [`TargetSlide`](../ihyperlink/targetslide). |
 | StartCustomSlideShow | `9` | Spustit vlastní prezentaci. |
 | OpenFile | `10` | Otevřít odkazovaný soubor. |
 | OpenPresentation | `11` | Otevřít odkazovanou prezentaci. |
 | StartStopMedia | `12` | Spustit/stopovat přehrávání mediálního souboru. |
-| StartMacro | `13` | Spustit provádění skriptu makra. |
+| StartMacro | `13` | Spustit vykonávání skriptu makra. |
 | StartProgram | `14` | Spustit program. |
 
 ### Viz také

@@ -8,20 +8,20 @@ url: /hi/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule क्लास
 
-VBA प्रोजेक्ट में शामिल मॉड्यूल का प्रतिनिधित्व करता है।
+Represents module that is contained in VBA project.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | मॉड्यूल का नाम प्राप्त करता है। केवल पढ़ने योग्य String। |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | मॉड्यूल के स्रोत कोड को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | मॉड्यूल का स्रोत कोड प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य String। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IVbaModule](../ivbamodule)
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)

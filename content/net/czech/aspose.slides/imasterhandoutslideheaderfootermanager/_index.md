@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Reprezentuje správce, který uchovává chování placeholderů hlavního podkladového snímku včetně placeholderu záhlaví.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje správce, který uchovává chování zástupných prvků hlavního výtiskového slidu včetně zástupného prvku záhlaví.
 type: docs
-weight: 6340
+weight: 6360
 url: /cs/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager rozhraní
 
-Reprezentuje správce, který uchovává chování placeholderů hlavního podkladového snímku, včetně placeholderu záhlaví.
+Představuje správce, který uchovává chování zástupných prvků hlavního výtiskového slidu, včetně zástupného prvku záhlaví.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag

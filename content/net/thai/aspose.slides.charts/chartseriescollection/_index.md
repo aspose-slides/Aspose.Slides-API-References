@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของ ChartSeries./chartseries
+second_title: Aspose.Sildes สำหรับ .NET: เอกสารอ้างอิง API
+description: แสดงคอลเลกชันของ ChartSeries./chartseries
 type: docs
 weight: 1450
 url: /th/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection คลาส
 
-แสดงถึงคอลเลกชันของ [`ChartSeries`](../chartseries)
+แสดงเป็นคอลเลกชันของ [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -18,24 +18,24 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | ส่งค่าจำนวนของอ็อบเจ็กต์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | ส่งค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันได้รับการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | รับอีเลเมนต์ที่ตำแหน่งที่ระบุ. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | ส่งค่ารากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | ส่งคืนจำนวนของวัตถุในคอลเลกชัน อ่านได้อย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านได้อย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | ส่งคืนรากการซิงโครไนซ์ อ่านได้อย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | สร้างซีรีส์แผนภูมิใหม่และเพิ่มลงในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`ChartCellCollection`](../chartcellcollection) และเพิ่มลงในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`ChartDataCell`](../chartdatacell) และเพิ่มลงในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | สร้างซีรีส์แผนภูมิใหม่จากค่าและเพิ่มลงในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | สร้างซีรีส์แผนภูมิใหม่และเพิ่มเข้าไปในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`ChartCellCollection`](../chartcellcollection) และเพิ่มเข้าไปในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | สร้างซีรีส์แผนภูมิใหม่จาก [`ChartDataCell`](../chartdatacell) และเพิ่มเข้าไปในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | สร้างซีรีส์แผนภูมิใหม่จากค่าและเพิ่มเข้าไปในคอลเลกชัน. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | ลบคอนโทรลทั้งหมดจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | ส่งค่า enumerator ที่ทำการวนรอบคอลเลกชัน. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | ค้นหา [`ChartSeries`](../chartseries) ที่ระบุและส่งค่าดัชนีฐานศูนย์ของการพบครั้งแรกในคอลเลกชันทั้งหมด |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | สร้างซีรีส์แผนภูมิใหม่และแทรกลงในคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำคอลเลกชัน. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | ค้นหา [`ChartSeries`](../chartseries) ที่ระบุและส่งคืนดัชนีเริ่มจากศูนย์ของการพบครั้งแรกภายใน Collection ทั้งหมด |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | สร้างซีรีส์แผนภูมิใหม่และแทรกเข้าไปในคอลเลกชัน. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | ลบค่าที่ระบุ. |
 | [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | ลบคอนโทรล ActiveX ที่เก็บไว้ที่ตำแหน่งที่ระบุจากคอลเลกชัน. |
 
@@ -44,7 +44,7 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 * คลาส [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * คลาส [ChartData](../chartdata)
 * อินเทอร์เฟซ [IChartSeriesCollection](../ichartseriescollection)
-* เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
+* เนมสเปส [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

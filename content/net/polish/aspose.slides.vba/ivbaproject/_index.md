@@ -3,7 +3,7 @@ title: IVbaProject
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje projekt VBA z makrami prezentacji.
 type: docs
-weight: 11530
+weight: 11550
 url: /pl/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject interfejs
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | Name | Description |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Określa, czy VBAProject jest chroniony hasłem w celu podglądu właściwości projektu. Read-only Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Zwraca listę wszystkich modułów zawartych w projekcie VBA. Read-only [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Zwraca nazwę projektu VBA. Read-only String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Zwraca listę wszystkich odwołań zawartych w projekcie VBA. Read-only [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Określa, czy VBAProject jest chroniony hasłem w celu wyświetlenia właściwości projektu. Tylko do odczytu Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Zwraca listę wszystkich modułów zawartych w projekcie VBA. Tylko do odczytu [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Zwraca nazwę projektu VBA. Tylko do odczytu String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Zwraca listę wszystkich odwołań zawartych w projekcie VBA. Tylko do odczytu [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Metody
 
 | Name | Description |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Zwraca binarną reprezentację projektu VBA jako kontener OLE. Read-only Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Zwraca binarną reprezentację projektu VBA jako kontener OLE. Tylko do odczytu Byte[]. |
 
 ### Zobacz także
 

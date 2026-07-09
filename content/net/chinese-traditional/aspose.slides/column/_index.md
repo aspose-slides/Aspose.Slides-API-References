@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示表格中的一個欄位。
+description: 代表表格中的一個欄位。
 type: docs
 weight: 2590
 url: /zh-hant/aspose.slides/column/
 ---
 ## Column 類別
 
-表示表格中的一個欄位。
+表示表格中的一個欄。
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -18,26 +18,26 @@ public sealed class Column : CellCollection, IColumn
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | 傳回包含此欄位之格式屬性的 ColumnFormat 物件。唯讀 [`IColumnFormat`](../icolumnformat)。 |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | 傳回集合中儲存格的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 傳回指示是否同步存取集合（執行緒安全）的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 傳回依其位置的儲存格。唯讀 [`Cell`](../cell)。 |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 傳回 CellCollection 的父級簡報。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 傳回 CellCollection 的父級投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
-| [Width](../../aspose.slides/column/width) { get; set; } | 傳回或設定欄位的寬度。可讀寫 Double。 |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | 返回包含此欄格式屬性的 ColumnFormat 物件。唯讀 [`IColumnFormat`](../icolumnformat)。 |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | 返回集合中的儲存格數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 返回指示集合存取是否同步（執行緒安全）的值。唯讀 Boolean。 |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 根據位置返回儲存格。唯讀 [`Cell`](../cell)。 |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 返回 CellCollection 所屬的父簡報。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 返回 CellCollection 所屬的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 返回同步根。唯讀 Object。 |
+| [Width](../../aspose.slides/column/width) { get; set; } | 返回或設定列的寬度。可讀寫 Double。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | 將已定義的段落格式屬性套用至所有欄位儲存格的段落。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | 將已定義的部份格式屬性套用至所有欄位儲存格的部份。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | 將已定義的文字框格式屬性套用至所有欄位儲存格的文字框。 |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | 將已定義的段落格式屬性套用到所有列儲存格的段落。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | 將已定義的文字段格式屬性套用到所有列儲存格的文字段。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | 將已定義的文字框格式屬性套用到所有列儲存格的文字框。 |
 
-### 另見
+### 參見
 
 * 類別 [CellCollection](../cellcollection)
 * 介面 [IColumn](../icolumn)

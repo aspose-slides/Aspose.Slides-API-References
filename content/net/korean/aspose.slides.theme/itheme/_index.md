@@ -1,6 +1,6 @@
 ---
 title: ITheme
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 테마를 나타냅니다.
 type: docs
 weight: 11370
@@ -16,20 +16,20 @@ public interface ITheme : IPresentationComponent
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | 색 구성표를 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | 글꼴 구성표를 반환합니다. 읽기 전용 [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | 도형 형식 구성표를 반환합니다. 읽기 전용 [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | 베이스 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | 컬러 스킴을 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | 폰트 스킴을 반환합니다. 읽기 전용 [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | 모양 서식 스킴을 반환합니다. 읽기 전용 [`IFormatScheme`](../iformatscheme). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | 상속이 적용된 효과적인 테마 데이터를 가져옵니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IPresentationComponent](../../aspose.slides/ipresentationcomponent)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

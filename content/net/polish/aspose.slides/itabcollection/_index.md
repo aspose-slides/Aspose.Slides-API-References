@@ -1,12 +1,12 @@
 ---
 title: ITabCollection
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję zakładek.
 type: docs
-weight: 7180
+weight: 7200
 url: /pl/aspose.slides/itabcollection/
 ---
-## ITabCollection interfejs
+## interfejs ITabCollection
 
 Reprezentuje kolekcję zakładek.
 

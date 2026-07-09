@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक ऑब्जेक्ट का प्रतिनिधित्व करता है जिसमें बाल टेक्स्ट तत्वों के फ़ॉर्मेट को थोक में सेट करने की संभावना होती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक ऑब्जेक्ट का प्रतिनिधित्व करता है जिसमें चाइल्ड टेक्स्ट एलिमेंट्स के फ़ॉर्मेट को bulk सेट करने की संभावना होती है।
 type: docs
 weight: 5380
 url: /hi/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable इंटरफ़ेस
 
-एक ऑब्जेक्ट का प्रतिनिधित्व करता है जिसमें बाल टेक्स्ट तत्वों के फ़ॉर्मैट को थोक में सेट करने की संभावना होती है।
+एक ऑब्जेक्ट का प्रतिनिधित्व करता है जिसमें चाइल्ड टेक्स्ट एलिमेंट्स के फ़ॉर्मेट को bulk सेट करने की संभावना होती है।
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,11 +18,11 @@ public interface IBulkTextFormattable
 
 | नाम | विवरण |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | परिभाषित पैराग्राफ फ़ॉर्मैट गुणों को सभी एलिमेंट के पैराग्राफ़ों पर सेट करता है। |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | परिभाषित पोर्शन फ़ॉर्मैट गुणों को सभी एलिमेंट के पोर्शन पर सेट करता है। |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | परिभाषित टेक्स्ट फ्रेम फ़ॉर्मैट गुणों को सभी एलिमेंट के टेक्स्ट फ्रेम पर सेट करता है। |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | सभी तत्व के पैराग्राफ़ के लिए परिभाषित पैराग्राफ़ फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | सभी तत्व के खंडों के लिए परिभाषित खंड फ़ॉर्मेट गुण सेट करता है। |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | सभी तत्व के टेक्स्ट फ़्रेम्स के लिए परिभाषित टेक्स्ट फ़्रेम फ़ॉर्मेट गुण सेट करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

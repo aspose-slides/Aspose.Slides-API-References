@@ -3,7 +3,7 @@ title: ShapeElement
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 同じ輪郭と塗りつぶしプロパティを持つシェイプの一部を表します。
 type: docs
-weight: 9850
+weight: 9870
 url: /ja/aspose.slides/shapeelement/
 ---
 ## ShapeElement クラス
@@ -20,11 +20,11 @@ public class ShapeElement : IShapeElement
 | --- | --- |
 | [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | 要素の塗りつぶし方法に関する情報を返します。読み取り専用 [`ShapeElementFillSource`](../shapeelementfillsource)。 |
 | [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | 要素が作成された Shape_PPT を返します。読み取り専用 [`Shape`](../shape)。 |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | 要素のパスのジオメトリを定義するポイントの配列を取得します。 |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | 要素のパス内の各ポイントのタイプを指定するバイト値の配列を取得します。 |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | 要素のパスのジオメトリを定義する点の配列を取得します。 |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | 要素のパス内の各点のタイプを指定するバイト値の配列を取得します。 |
 | [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | 要素のストローク方法に関する情報を返します。読み取り専用 [`ShapeElementStrokeSource`](../shapeelementstrokesource)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IShapeElement](../ishapeelement)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

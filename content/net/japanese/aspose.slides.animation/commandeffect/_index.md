@@ -1,14 +1,14 @@
 ---
 title: CommandEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーション 動作のコマンド エフェクトを表します。
+description: アニメーション動作のコマンド効果を表します。
 type: docs
-weight: 240
+weight: 260
 url: /ja/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect クラス
 
-アニメーション 動作のコマンド エフェクトを表します。
+アニメーション動作のコマンド効果を表します。
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -24,13 +24,13 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション 動作が蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション 動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | コマンド文字列を定義します。読み書き String。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション動作が蓄積されるかどうかを表します。読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き可能 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | コマンド文字列を定義します。読み書き可能 String。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | コマンド エフェクトのシェイプ ターゲットを定義します。読み書き [`IShape`](../../aspose.slides/ishape)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト 動作のタイミング プロパティを表します。読み書き [`ITiming`](../itiming)。 |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | 動作のコマンド エフェクト タイプを定義します。読み書き [`CommandEffectType`](../commandeffecttype)。 |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | コマンド効果のシェイプターゲットを定義します。読み書き可能 [`IShape`](../../aspose.slides/ishape)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 効果動作のタイミングプロパティを表します。読み書き可能 [`ITiming`](../itiming)。 |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | 動作のコマンド効果タイプを定義します。読み書き可能 [`CommandEffectType`](../commandeffecttype)。 |
 
 ### 参照
 

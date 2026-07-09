@@ -3,10 +3,10 @@ title: BehaviorAccumulateType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar typer av ackumulering av effektbeteenden.
 type: docs
-weight: 130
+weight: 150
 url: /sv/aspose.slides.animation/behavioraccumulatetype/
 ---
-## BehaviorAccumulateType-enumeration
+## BehaviorAccumulateType uppräkning
 
 Representerar typer av ackumulering av effektbeteenden.
 

@@ -1,14 +1,14 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes for .NET API Referentie
-description: Staat toe om een IMathLimit te maken
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Staat toe om IMathLimit te maken
 type: docs
 weight: 8330
 url: /nl/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory interface
 
-Staat toe om een IMathLimit te maken
+Staat toe om IMathLimit te maken
 
 ```csharp
 public interface IMathLimitFactory
@@ -18,8 +18,8 @@ public interface IMathLimitFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Maakt een IMathLimit met limiet aan de onderkant |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Maakt een IMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Maakt IMathLimit met limiet aan de onderkant |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Maakt IMathLimit |
 
 ### Opmerkingen
 

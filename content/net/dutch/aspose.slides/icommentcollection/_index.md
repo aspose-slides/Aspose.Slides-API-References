@@ -1,14 +1,14 @@
 ---
 title: ICommentCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling opmerkingen van één auteur voor.
+description: Stelt een collectie van opmerkingen van één auteur voor.
 type: docs
 weight: 5590
 url: /nl/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
 
-Stelt een verzameling opmerkingen van één auteur voor.
+Stelt een collectie van opmerkingen van één auteur voor.
 
 ```csharp
 public interface ICommentCollection : IGenericCollection<IComment>
@@ -24,15 +24,15 @@ public interface ICommentCollection : IGenericCollection<IComment>
 
 | Name | Description |
 | --- | --- |
-| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Voeg een nieuwe opmerking toe aan het einde van een collectie. |
-| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Voeg een nieuwe moderne opmerking toe aan het einde van een collectie. |
+| [AddComment](../../aspose.slides/icommentcollection/addcomment)(string, ISlide, PointF, DateTime) | Voegt een nieuwe opmerking toe aan het einde van een collectie. |
+| [AddModernComment](../../aspose.slides/icommentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Voegt een nieuwe moderne opmerking toe aan het einde van een collectie. |
 | [Clear](../../aspose.slides/icommentcollection/clear)() | Verwijdert alle opmerkingen uit een collectie. |
-| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Voegt een nieuwe opmerking in een collectie in op de opgegeven index. |
-| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Voegt een nieuwe moderne opmerking in een collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Verwijdert de eerste voorkoming van de opgegeven opmerking in een collectie. |
+| [InsertComment](../../aspose.slides/icommentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Voegt een nieuwe opmerking in op de opgegeven index in een collectie. |
+| [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Voegt een nieuwe moderne opmerking in op de opgegeven index in een collectie. |
+| [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Verwijdert het eerste voorkomen van de opgegeven opmerking in een collectie. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Verwijdert het element op de opgegeven index in een collectie. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Maakt en retourneert een array met alle opmerkingen. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Maakt en retourneert een array met alle opmerkingen uit het opgegeven bereik. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Maakt een array met alle opmerkingen en geeft deze terug. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Maakt een array met alle opmerkingen uit het opgegeven bereik en geeft deze terug. |
 
 ### Zie ook
 

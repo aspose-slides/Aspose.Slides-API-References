@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: System.Drawing.Image wrapper สำหรับอินเทอร์เฟซ COM.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ตัวห่อ System.Drawing.Image สำหรับ COM อินเทอร์เฟซ.
 type: docs
 weight: 7440
 url: /th/aspose.slides/imagewrapper/
 ---
-## คลาส ImageWrapper
+## ImageWrapper คลาส
 
-System.Drawing.Image wrapper for COM interface.
+System.Drawing.Image ตัวห่อสำหรับ COM อินเทอร์เฟซ.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -16,19 +16,19 @@ public class ImageWrapper : IImageWrapper
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | รับ Image. อ่านอย่างเดียว [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | รับความกว้างและความสูงเป็นพิกเซลของ Image. อ่านอย่างเดียว [`Size`](./size). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | รับความกว้างและความสูง, หน่วยพิกเซล, ของ Image. อ่านอย่างเดียว [`Size`](./size). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ทำลาย ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | บันทึก Image ไปยังไฟล์ที่ระบุ |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | บันทึก Image ไปยังสตรีมที่ระบุในรูปแบบที่ระบุ |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | บันทึก Image ไปยังไฟล์ที่ระบุในรูปแบบที่ระบุ |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | บันทึก Image ไปยังสตรีมที่ระบุในรูปแบบที่ระบุ. |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | บันทึก Image ไปยังไฟล์ที่ระบุในรูปแบบที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

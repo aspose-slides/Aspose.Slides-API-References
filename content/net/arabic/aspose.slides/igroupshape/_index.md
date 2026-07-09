@@ -1,6 +1,6 @@
 ---
 title: IGroupShape
-second_title: مرجع API لـ Aspose.Sildes for .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة من الأشكال على الشريحة.
 type: docs
 weight: 6080
@@ -23,7 +23,7 @@ public interface IGroupShape : IShape
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | يعيد أقفال الشكل. للقراءة فقط [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | يعيد مجموعة الأشكال داخل المجموعة. للقراءة فقط [`IShapeCollection`](../ishapecollection). |
 
-### انظر أيضًا
+### راجع أيضًا
 
 * واجهة [IShape](../ishape)
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)

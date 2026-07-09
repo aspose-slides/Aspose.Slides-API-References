@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengizinkan membuat akar matematika
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Memungkinkan membuat radikal matematika
 type: docs
-weight: 8420
+weight: 8440
 url: /id/aspose.slides.mathtext/imathradicalfactory/
 ---
-## IMathRadialFactory antarmuka
+## IMathRadicalFactory antarmuka
 
-Mengizinkan membuat akar matematika
+Memungkinkan membuat radikal matematika
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Membuat akar matematika |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Membuat radikal matematika |
 
 ### Catatan
 

@@ -3,12 +3,12 @@ title: WebDocumentOptions
 second_title: Aspose.Sildes için .NET API Referansı
 description: WebDocument./webdocument kaydetme için bir seçenek kümesini temsil eder.
 type: docs
-weight: 4670
+weight: 4690
 url: /tr/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions sınıfı
 
-[`WebDocument`](../webdocument) kaydetme için seçenek kümesini temsil eder.
+[`WebDocument`](../webdocument) kaydetme için bir seçenek kümesini temsil eder.
 
 ```csharp
 public class WebDocumentOptions
@@ -16,19 +16,19 @@ public class WebDocumentOptions
 
 ## Yapıcılar
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [WebDocumentOptions](webdocumentoptions)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Şekil animasyon seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Geçiş animasyon seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Görüntü yerleştirme seçeneğini döndürür veya ayarlar. Okunur/yazılır Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Çıktı kaydediciyi döndürür veya ayarlar. Okunur/yazılır [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Şablon motorunu döndürür veya ayarlar. Okunur/yazılır [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Şekiller animasyon seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Geçişler animasyon seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Görüntü yerleştirme seçeneğini getirir veya ayarlar. Okuma/Yazma Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Çıktı kaydediciyi getirir veya ayarlar. Okuma/Yazma [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Şablon motorunu getirir veya ayarlar. Okuma/Yazma [`ITemplateEngine`](../itemplateengine). |
 
 ### Ayrıca Bakınız
 

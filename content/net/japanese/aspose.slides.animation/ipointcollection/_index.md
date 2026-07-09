@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ポーションのコレクションを表します。
+description: パーツのコレクションを表します。
 type: docs
-weight: 530
+weight: 550
 url: /ja/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection インターフェイス
 
-ポーションのコレクションを表します。
+コレクションの一部を表します。
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -18,9 +18,9 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 基本的な IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | コレクション内のポイント数を返します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | 指定されたインデックスのポイントを返します。 |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 基本 IEnumerable インターフェイスを取得できます。 読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | コレクション内のポイント数を返します。 読み取り専用 Int32。 |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | 指定したインデックスのポイントを返します。 |
 
 ### 参照
 

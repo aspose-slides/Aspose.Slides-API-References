@@ -1,7 +1,7 @@
 ---
 title: IImage
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een raster- of vectorafbeelding voor.
+description: Representeert een raster- of vectorafbeelding.
 type: docs
 weight: 6150
 url: /nl/aspose.slides/iimage/
@@ -27,9 +27,9 @@ public interface IImage : IDisposable
 | Naam | Beschrijving |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | Slaat de afbeelding op in een bestand. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Slaat de afbeelding op in een stroom in het opgegeven formaat. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Slaat de afbeelding op in een stream in het opgegeven formaat. |
 | [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Slaat de afbeelding op in een bestand in het opgegeven formaat. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Slaat de afbeelding op in een stroom in het opgegeven formaat en kwaliteit. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Slaat de afbeelding op in een stream in het opgegeven formaat en kwaliteit. |
 | [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Slaat de afbeelding op in een bestand in het opgegeven formaat en kwaliteit. |
 
 ### Opmerkingen

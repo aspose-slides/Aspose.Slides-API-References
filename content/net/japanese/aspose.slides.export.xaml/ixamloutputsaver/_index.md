@@ -1,9 +1,9 @@
 ---
 title: IXamlOutputSaver
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: 外部ストレージへデータ転送するための出力セーバー実装を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 外部ストレージへデータを転送するための出力セーバー実装を表します。
 type: docs
-weight: 4690
+weight: 4710
 url: /ja/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver インターフェイス

@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Slides dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje kolekcję sekcji.
 type: docs
-weight: 6880
+weight: 6900
 url: /pl/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interfejs
 
-Reprezentuje zbiór sekcji.
+Reprezentuje kolekcję sekcji.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -24,16 +24,16 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję do określonej pozycji w kolekcji. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Dodaje pustą sekcję w określonej pozycji w kolekcji. |
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Dodaje nową sekcję rozpoczynającą się od określonego slajdu. |
-| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Dodaje pustą sekcję na koniec kolekcji. |
+| [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Dodaje pustą sekcję na końcu kolekcji. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Usuwa wszystkie sekcje z kolekcji. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Zwraca indeks określonej sekcji w kolekcji. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Usuwa sekcję. Slajdy znajdujące się w sekcji zostaną połączone z poprzednią sekcją. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję oraz znajdujące się w niej slajdy. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Usuwa sekcję. Slajdy zawarte w sekcji zostaną połączone z poprzednią sekcją. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Usuwa sekcję oraz slajdy zawarte w sekcji. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Przenosi sekcję i jej slajdy z kolekcji do określonej pozycji. |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interfejs [ISection](../isection)

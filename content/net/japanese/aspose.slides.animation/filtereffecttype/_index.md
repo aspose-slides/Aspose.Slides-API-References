@@ -1,14 +1,14 @@
 ---
 title: FilterEffectType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フィルター効果のタイプを表します。
+description: フィルター効果タイプを表します。
 type: docs
-weight: 380
+weight: 400
 url: /ja/aspose.slides.animation/filtereffecttype/
 ---
 ## FilterEffectType 列挙型
 
-フィルター効果のタイプを表します。
+フィルター効果タイプを表します。
 
 ```csharp
 public enum FilterEffectType

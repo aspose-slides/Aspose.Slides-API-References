@@ -1,36 +1,36 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de eigenschappen van vormkaders voor.
+description: Geeft de eigenschappen van shape frames weer.
 type: docs
 weight: 9900
 url: /nl/aspose.slides/shapeframe/
 ---
 ## ShapeFrame klasse
 
-Stelt de eigenschappen van een vormkader voor.
+Geeft de eigenschappen van een shape frame weer.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Maakt nieuwe eigenschappen voor een vormkader aan. |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Maakt nieuwe shape frame-eigenschappen aan. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Retourneert de X-coördinaat van het midden van een frame. Alleen-lezen Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Retourneert de Y-coördinaat van het midden van een frame. Alleen-lezen Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bepaalt of een frame horizontaal is gespiegeld. Alleen-lezen [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bepaalt of een frame verticaal is gespiegeld. Alleen-lezen [`NullableBool`](../nullablebool). |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Retourneert de X-coördinaat van het middelpunt van een frame. Alleen-lezen Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Retourneert de Y-coördinaat van het middelpunt van een frame. Alleen-lezen Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Bepaalt of een frame horizontaal wordt gespiegeld. Alleen-lezen [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Bepaalt of een frame verticaal wordt gespiegeld. Alleen-lezen [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Retourneert de hoogte van een frame. Alleen-lezen Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Retourneert de coördinaten van een frame. Alleen-lezen RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Retourneert het aantal graden dat een frame is geroteerd rond de z-as. Een positieve waarde duidt op een rotatie met de klok mee; een negatieve waarde duidt op een rotatie tegen de klok in. Alleen-lezen Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Retourneert het aantal graden dat een frame rond de z-as is gedraaid. Een positieve waarde geeft een rotatie met de klok mee aan; een negatieve waarde geeft een rotatie tegen de klok in aan. Alleen-lezen Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Retourneert de breedte van een frame. Alleen-lezen Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Retourneert de X-coördinaat van de linkerbovenhoek van een frame. Alleen-lezen Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Retourneert de Y-coördinaat van de linkerbovenhoek van een frame. Alleen-lezen Single. |
@@ -39,11 +39,11 @@ public class ShapeFrame : IShapeFrame
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Clone](../../aspose.slides/shapeframe/clone)() | Kloont |
-| [CloneT](../../aspose.slides/shapeframe/clonet)() | Kloont. |
+| [Clone](../../aspose.slides/shapeframe/clone)() | Dupliceert |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | Dupliceert. |
 | override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object. |
 | [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Retourneert een waarde die aangeeft of deze instantie gelijk is aan een opgegeven object. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Retourneert een hashcode voor dit object. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Retourneert een hash-code voor dit object. |
 
 ### Zie ook
 

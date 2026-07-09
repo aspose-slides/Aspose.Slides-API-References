@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Wyjątek, który jest rzucany, gdy format pliku prezentacji jest nieobsługiwany.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Wyjątek rzucany, gdy format pliku prezentacji jest nieobsługiwany.
 type: docs
-weight: 7600
+weight: 7620
 url: /pl/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException klasa
 
-Wyjątek, który jest rzucany, gdy format pliku prezentacji jest nieobsługiwany.
+Exception, który jest rzucany, gdy format pliku prezentacji jest nieobsługiwany.
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -18,11 +18,11 @@ public class InvalidPasswordException : Exception
 
 | Nazwa | Opis |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception#constructor)() | Konstruktor domyślny. |
+| [InvalidPasswordException](invalidpasswordexception#constructor)() | Domyślny konstruktor. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i osadzony wyjątek. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Konstruktor dla wyjątku zawierającego komunikat i zagnieżdżony wyjątek. |
 
-### Zobacz też
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
 * zestaw [Aspose.Slides](../../)

@@ -23,10 +23,10 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | 컬렉션에 있는 모든 데이터 레이블의 수를 가져옵니다. 읽기 전용 Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | 컬렉션에 있는 표시된 데이터 레이블의 수를 가져옵니다. 읽기 전용 Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | 컬렉션에 있는 모든 데이터 레이블의 기본 형식을 반환합니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False는 데이터 레이블이 기본적으로 표시되지 않음을 의미합니다(따라서 DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue 등)가 false가 됩니다). 읽기 전용 Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 지정된 인덱스를 가진 데이터 포인트에 대한 데이터 레이블을 가져옵니다. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False는 데이터 레이블이 기본적으로 보이지 않음을 의미합니다(따라서 DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue 등)가 false입니다). 읽기 전용 Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | 지정된 인덱스를 가진 데이터 포인트의 데이터 레이블을 가져옵니다. |
 | [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | 데이터 레이블 리더 라인 형식을 나타냅니다. 읽기 전용 [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 부모 차트 시리즈를 반환합니다. 읽기 전용 [`IChartSeries`](../ichartseries). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | 상위 차트 시리즈를 반환합니다. 읽기 전용 [`IChartSeries`](../ichartseries). |
 
 ## 메서드
 
@@ -35,7 +35,7 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | DefaultDataLabelFormat 속성의 모든 Show*-플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 기본적으로 숨깁니다. 이후 IsVisible는 false가 됩니다. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | 컬렉션에서 지정된 DataLabel의 인덱스를 반환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IChartComponent](../ichartcomponent)
 * 인터페이스 [IDataLabel](../idatalabel)

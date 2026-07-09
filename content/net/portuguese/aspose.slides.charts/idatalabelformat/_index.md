@@ -1,9 +1,9 @@
 ---
 title: IDataLabelFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções de formatação para DataLabel.
 type: docs
-weight: 2020
+weight: 2040
 url: /pt/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat interface
@@ -18,21 +18,21 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Permite obter a interface IFormattedTextContainer base. Somente leitura [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Representa o formato do rótulo de dados. Somente leitura [`IFormat`](../iformat). |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Leitura/gravação Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Representa a cadeia de formato para o objeto DataLabels. Leitura/gravação String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Representa a posição do rótulo de dados. Leitura/gravação [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Define ou devolve um Variant que representa o separador usado para os rótulos de dados em um gráfico. Leitura/gravação String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representa o comportamento de exibição do valor do tamanho da bolha do rótulo de dados de um gráfico especificado. True exibe o valor do tamanho da bolha. False para ocultar. Leitura/gravação Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representa o comportamento de exibição do nome da categoria do rótulo de dados de um gráfico especificado. True para exibir o nome da categoria nos rótulos de dados de um gráfico. False para ocultar. Leitura/gravação Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Determina se o rótulo de dados de um gráfico especificado será exibido como chamada de dados ou como rótulo de dados. Se o pai deste objeto DataLabelFormat for uma coleção DataLabelCollection de rótulos de dados, então esta propriedade obtém ou define o valor padrão da propriedade ShowLabelAsDataCallout para os novos rótulos de dados na coleção DataLabelCollection. Definir esta propriedade com um valor também define esse valor para a propriedade ShowLabelAsDataCallout de todos os rótulos de dados na coleção DataLabelCollection (por exemplo, "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" faz com que todos DataLabels[i].ShowLabelAsDataCallout sejam iguais a val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representa o comportamento de exibição do valor da célula do rótulo de dados de um gráfico especificado. True exibe o valor da célula. False para ocultar. Leitura/gravação Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representa o comportamento de exibição das linhas de líder do rótulo de dados de um gráfico especificado. True exibe as linhas de líder. False para ocultar. Leitura/gravação Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representa o comportamento de exibição da chave da legenda do rótulo de dados de um gráfico especificado. True se a chave da legenda do rótulo de dados estiver visível. Leitura/gravação Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representa o comportamento de exibição do valor percentual do rótulo de dados de um gráfico especificado. True exibe o valor percentual. False para ocultar. Leitura/gravação Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Retorna ou define um Boolean para indicar o comportamento de exibição do nome da série nos rótulos de dados de um gráfico. True para mostrar o nome da série. False para ocultar. Leitura/gravação Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representa o comportamento de exibição do valor percentual do rótulo de dados de um gráfico especificado. True exibe o valor percentual. False para ocultar. Leitura/gravação Boolean. |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Permite obter a interface base IFormattedTextContainer. Somente leitura [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Representa o formato da legenda de dados. Somente leitura [`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Leitura/Gravação Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Representa a cadeia de formato para o objeto DataLabels. Leitura/Gravação String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Representa a posição da legenda de dados. Leitura/Gravação [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Define ou retorna um Variant que representa o separador usado nas legendas de dados em um gráfico. Leitura/Gravação String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representa o comportamento de exibição do valor do tamanho da bolha da legenda de dados de um gráfico especificado. Verdadeiro exibe o valor do tamanho da bolha. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representa o comportamento de exibição do nome da categoria da legenda de dados de um gráfico especificado. Verdadeiro para exibir o nome da categoria nas legendas de dados de um gráfico. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Determina se a legenda de dados de um gráfico especificado será exibida como chamada de dados ou como legenda de dados. Se o pai deste objeto DataLabelFormat for uma coleção DataLabelCollection de legendas de dados, então esta propriedade obtém ou define o valor padrão da propriedade ShowLabelAsDataCallout para as novas legendas de dados na coleção DataLabelCollection. Definir esta propriedade com um valor também define esse valor para a propriedade ShowLabelAsDataCallout de todas as legendas de dados na coleção DataLabelCollection (ou seja, "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" faz com que todos DataLabels[i].ShowLabelAsDataCallout sejam iguais a val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representa o comportamento de exibição do valor da célula da legenda de dados de um gráfico especificado. Verdadeiro exibe o valor da célula. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representa o comportamento de exibição das linhas de guia da legenda de dados de um gráfico especificado. Verdadeiro exibe as linhas de guia. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representa o comportamento de exibição da chave de legenda da legenda de dados de um gráfico especificado. Verdadeiro se a chave de legenda da legenda de dados estiver visível. Leitura/Gravação Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representa o comportamento de exibição do valor percentual da legenda de dados de um gráfico especificado. Verdadeiro exibe o valor percentual. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Retorna ou define um Boolean que indica o comportamento de exibição do nome da série nas legendas de dados de um gráfico. Verdadeiro para mostrar o nome da série. Falso para ocultar. Leitura/Gravação Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representa o comportamento de exibição do valor percentual da legenda de dados de um gráfico especificado. Verdadeiro exibe o valor percentual. Falso para ocultar. Leitura/Gravação Boolean. |
 
 ### Veja Também
 

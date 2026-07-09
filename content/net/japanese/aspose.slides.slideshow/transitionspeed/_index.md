@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 遷移速度のタイプを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 遷移速度タイプを表します。
 type: docs
-weight: 10420
+weight: 10440
 url: /ja/aspose.slides.slideshow/transitionspeed/
 ---
 ## TransitionSpeed 列挙型
 
-遷移速度のタイプを表します。
+遷移速度タイプを表します。
 
 ```csharp
 public enum TransitionSpeed

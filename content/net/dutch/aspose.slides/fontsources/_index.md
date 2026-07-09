@@ -6,7 +6,7 @@ type: docs
 weight: 4860
 url: /nl/aspose.slides/fontsources/
 ---
-## FontSources class
+## FontSources klasse
 
 Biedt bestands- en geheugenbronnen voor externe lettertypen.
 
@@ -14,20 +14,20 @@ Biedt bestands- en geheugenbronnen voor externe lettertypen.
 public class FontSources : IFontSources
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FontSources](fontsources)() | Maakt nieuwe standaard lettertype-opties aan. |
+| [FontSources](fontsources)() | Maakt nieuwe standaardlettertype-opties aan. |
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Mappen die lettertypebestanden bevatten. Alle lettertypebestanden in deze mappen worden opgenomen in de collectie. Mappen die recursief worden doorzocht. |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Een collectie lettertypen weergegeven als byte-arrays. |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | Mappen die lettertype-bestanden bevatten. Alle lettertype-bestanden in deze mappen worden in de collectie opgenomen. Mappen die recursief worden doorzocht. |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | Een collectie lettertypen die zijn weergegeven als byte-arrays. |
 
-### Zie ook
+### Zie Ook
 
 * interface [IFontSources](../ifontsources)
 * namespace [Aspose.Slides](../../aspose.slides)

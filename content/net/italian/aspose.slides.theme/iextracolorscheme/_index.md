@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta uno schema di colore aggiuntivo che può essere assegnato a una diapositiva.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta uno schema di colori aggiuntivo che può essere assegnato a una diapositiva.
 type: docs
-weight: 11190
+weight: 11210
 url: /it/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme interfaccia
 
-Rappresenta uno schema di colore aggiuntivo che può essere assegnato a una diapositiva.
+Rappresenta uno schema di colori aggiuntivo che può essere assegnato a una diapositiva.
 
 ```csharp
 public interface IExtraColorScheme
@@ -18,8 +18,8 @@ public interface IExtraColorScheme
 
 | Nome | Descrizione |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Restituisce uno schema di colore. Sola lettura [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Restituisce il nome di questo schema. Sola lettura String. |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | Restituisce uno schema di colori. Solo lettura [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | Restituisce un nome di questo schema. Solo lettura String. |
 
 ### Vedi anche
 

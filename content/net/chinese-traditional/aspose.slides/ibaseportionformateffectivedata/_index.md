@@ -1,14 +1,14 @@
 ---
 title: IBasePortionFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
-description: 用於包含有效文字片段格式屬性的不可變物件之基礎介面。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 用於包含有效文字段落格式屬性的不可變物件的基礎介面。
 type: docs
 weight: 5320
 url: /zh-hant/aspose.slides/ibaseportionformateffectivedata/
 ---
 ## IBasePortionFormatEffectiveData 介面
 
-此為不可變物件的基礎介面，包含有效的文字片段格式屬性。
+用於包含有效文字段落格式屬性的不可變物件的基礎介面。
 
 ```csharp
 public interface IBasePortionFormatEffectiveData
@@ -16,39 +16,39 @@ public interface IBasePortionFormatEffectiveData
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | 取得替代語言的 Id。唯讀 String。 |
-| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 取得複合文字腳本字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | 取得東亞字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
-| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | 取得文字 EffectFormat 屬性。唯讀 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
-| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | 取得上標或下標文字。值範圍從 -100%（下標）到 100%（上標）。唯讀 Single。 |
-| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | 取得文字 FillFormat 屬性。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [AlternativeLanguageId](../../aspose.slides/ibaseportionformateffectivedata/alternativelanguageid) { get; } | 傳回替代語言的 Id。唯讀 String。 |
+| [ComplexScriptFont](../../aspose.slides/ibaseportionformateffectivedata/complexscriptfont) { get; } | 傳回複雜文字腳本字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ibaseportionformateffectivedata/eastasianfont) { get; } | 傳回東亞字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
+| [EffectFormat](../../aspose.slides/ibaseportionformateffectivedata/effectformat) { get; } | 傳回文字 EffectFormat 屬性。唯讀 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
+| [Escapement](../../aspose.slides/ibaseportionformateffectivedata/escapement) { get; } | 傳回上標或下標文字。值範圍為 -100%（下標）至 100%（上標）。唯讀 Single。 |
+| [FillFormat](../../aspose.slides/ibaseportionformateffectivedata/fillformat) { get; } | 傳回文字 FillFormat 屬性。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
 | [FontBold](../../aspose.slides/ibaseportionformateffectivedata/fontbold) { get; } | 判斷字型是否為粗體。唯讀 Boolean。 |
-| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | 取得文字片段的字型高度（單位為點）。唯讀 Single。 |
+| [FontHeight](../../aspose.slides/ibaseportionformateffectivedata/fontheight) { get; } | 傳回文字段落的字型高度（以點為單位）。唯讀 Single。 |
 | [FontItalic](../../aspose.slides/ibaseportionformateffectivedata/fontitalic) { get; } | 判斷字型是否為斜體。唯讀 Boolean。 |
-| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | 取得文字底線類型。唯讀 [`TextUnderlineType`](../textunderlinetype)。 |
-| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | 取得用於突顯文字的顏色。唯讀 Color。 |
-| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 判斷底線樣式是否具有自己的 FillFormat 屬性，或是從文字的 FillFormat 屬性繼承。唯讀 Boolean。 |
-| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 判斷底線樣式是否具有自己的 LineFormat 屬性，或是從文字的 LineFormat 屬性繼承。唯讀 Boolean。 |
-| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | 取得應啟用字距微調的最小字型大小。唯讀 Single。 |
-| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 判斷數字是否應忽略文字的東方語言特定垂直排版。唯讀 Boolean。 |
-| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | 取得語言的 Id。唯讀 String。 |
-| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | 取得拉丁字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
-| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | 取得文字輪廓的 LineFormat 屬性。唯讀 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
-| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | 判斷文字高度是否應正規化。唯讀 Boolean。 |
-| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | 判斷文字是否不需校對。唯讀 Boolean。 |
-| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | 判斷智慧標籤是否應被清除。唯讀 Boolean。 |
-| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 取得字元間距增量（單位為點）。唯讀 Single。 |
-| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | 取得文字的刪除線類型。唯讀 [`TextStrikethroughType`](../textstrikethroughtype)。 |
-| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | 取得符號字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
-| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | 取得文字大小寫類型。唯讀 [`TextCapType`](../textcaptype)。 |
-| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | 取得底線線條的 FillFormat 屬性。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
-| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | 取得用於描繪底線線條的 LineFormat 屬性。唯讀 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [FontUnderline](../../aspose.slides/ibaseportionformateffectivedata/fontunderline) { get; } | 傳回文字底線類型。唯讀 [`TextUnderlineType`](../textunderlinetype)。 |
+| [HighlightColor](../../aspose.slides/ibaseportionformateffectivedata/highlightcolor) { get; } | 傳回用於標示文字的顏色。唯讀 Color。 |
+| [IsHardUnderlineFill](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlinefill) { get; } | 判斷底線樣式是否具有自行的 FillFormat 屬性，或從文字的 FillFormat 屬性繼承。唯讀 Boolean。 |
+| [IsHardUnderlineLine](../../aspose.slides/ibaseportionformateffectivedata/ishardunderlineline) { get; } | 判斷底線樣式是否具有自行的 LineFormat 屬性，或從文字的 LineFormat 屬性繼承。唯讀 Boolean。 |
+| [KerningMinimalSize](../../aspose.slides/ibaseportionformateffectivedata/kerningminimalsize) { get; } | 傳回應啟用字距微調的最小字型大小。唯讀 Single。 |
+| [Kumimoji](../../aspose.slides/ibaseportionformateffectivedata/kumimoji) { get; } | 判斷數字是否應忽略文字東方語言特定的垂直排版。唯讀 Boolean。 |
+| [LanguageId](../../aspose.slides/ibaseportionformateffectivedata/languageid) { get; } | 傳回語言的 Id。唯讀 String。 |
+| [LatinFont](../../aspose.slides/ibaseportionformateffectivedata/latinfont) { get; } | 傳回拉丁字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
+| [LineFormat](../../aspose.slides/ibaseportionformateffectivedata/lineformat) { get; } | 傳回文字描邊的 LineFormat 屬性。唯讀 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
+| [NormaliseHeight](../../aspose.slides/ibaseportionformateffectivedata/normaliseheight) { get; } | 判斷文字的高度是否應正規化。唯讀 Boolean。 |
+| [ProofDisabled](../../aspose.slides/ibaseportionformateffectivedata/proofdisabled) { get; } | 判斷文字是否不應進行校對。唯讀 Boolean。 |
+| [SmartTagClean](../../aspose.slides/ibaseportionformateffectivedata/smarttagclean) { get; } | 判斷智慧標籤是否應清除。唯讀 Boolean。 |
+| [Spacing](../../aspose.slides/ibaseportionformateffectivedata/spacing) { get; } | 傳回字元間距增量（以點為單位）。唯讀 Single。 |
+| [StrikethroughType](../../aspose.slides/ibaseportionformateffectivedata/strikethroughtype) { get; } | 傳回文字的刪除線類型。唯讀 [`TextStrikethroughType`](../textstrikethroughtype)。 |
+| [SymbolFont](../../aspose.slides/ibaseportionformateffectivedata/symbolfont) { get; } | 傳回符號字型資訊。唯讀 [`IFontData`](../ifontdata)。 |
+| [TextCapType](../../aspose.slides/ibaseportionformateffectivedata/textcaptype) { get; } | 傳回文字大小寫類型。唯讀 [`TextCapType`](../textcaptype)。 |
+| [UnderlineFillFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinefillformat) { get; } | 傳回底線線條的 FillFormat 屬性。唯讀 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [UnderlineLineFormat](../../aspose.slides/ibaseportionformateffectivedata/underlinelineformat) { get; } | 傳回用於描繪底線線條的 LineFormat 屬性。唯讀 [`ILineFormatEffectiveData`](../ilineformateffectivedata)。 |
 
 ### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 組件 [Aspose.Slides](../../)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

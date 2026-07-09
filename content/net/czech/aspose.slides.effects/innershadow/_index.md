@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje efekt vnitřního stínu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje efekt vnitřního stínu.
 type: docs
-weight: 3580
+weight: 3600
 url: /cs/aspose.slides.effects/innershadow/
 ---
-## InnerShadow třída
+## třída InnerShadow
 
-Představuje efekt vnitřního stínu.
+Reprezentuje efekt vnitřního stínu.
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow

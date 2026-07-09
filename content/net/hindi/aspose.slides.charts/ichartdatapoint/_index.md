@@ -1,6 +1,6 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: सीरीज़ डेटा पॉइंट का प्रतिनिधित्व करता है।
 type: docs
 weight: 1820
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint इंटरफ़ेस
 
-सीरीज़ डेटा पॉइंट का प्रतिनिधित्व करता है।
+सिरीज़ डेटा पॉइंट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -18,36 +18,36 @@ public interface IChartDataPoint : IActualLayout
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | वापस देता है IActualLayout इंटरफ़ेस। |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | वापस देता है चार्ट डेटा पॉइंट का बबल आकार। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | वापस देता है चार्ट डेटा पॉइंट का रंग मान। मैप चार्ट के साथ उपयोग किया जाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | डेटा पॉइंट स्तरों का कंटेनर लौटाता है। Treeamp और Sunburst सीरीज़ के लिए लागू। डेटा पॉइंट स्तरों की इंडेक्सिंग शून्य-आधारित है। |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | कस्टम वैल्यू प्रकार के मामले में सीरीज़ एरर बार मानों का प्रतिनिधित्व करता है। केवल पढ़ने योग्य [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)। |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | डेटा पॉइंट को पाई के केंद्र से कितना स्थानांतरित किया जाना चाहिए, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य Int32। |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | प्रारूपण गुणों का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`IFormat`](../iformat)। |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | निर्धारित करता है कि इस डेटा पॉइंट को पैरेंट के कौन से चाइल्ड कलेक्शन के लिए लागू किया गया है। पढ़ने UInt32। |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | यदि मान नकारात्मक है तो डेटा पॉइंट अपने रंग उलट देगा, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य Boolean। |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | निर्दिष्ट करता है कि बबल्स पर 3-D प्रभाव लागू हो। पढ़ने/लिखने योग्य Boolean। |
+| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | IActualLayout इंटरफ़ेस लौटाता है। |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | चार्ट डेटा पॉइंट का बबल आकार लौटाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | चार्ट डेटा पॉइंट का रंग मान लौटाता है। मैप चार्ट्स के साथ उपयोग किया जाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | डेटा पॉइंट स्तरों का कंटेनर लौटाता है। Treeamp और Sunburst श्रृंखलाओं पर लागू होता है। डेटा पॉइंट स्तरों का अनुक्रमण शून्य-आधारित है। |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Custom मान प्रकार के मामले में श्रृंखला त्रुटि बार मान दर्शाता है। केवल पढ़ने योग्य [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)। |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | डेटा पॉइंट को पाई के केंद्र से कितनी दूरी तक ले जाना है, निर्दिष्ट करता है। पढ़ने/लिखने योग्य Int32। |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | फ़ॉर्मेटिंग प्रॉपर्टीज़ दर्शाता है। पढ़ने/लिखने योग्य [`IFormat`](../iformat)। |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | निर्धारित करता है कि इस डेटा पॉइंट का लागू होने वाला पैरेंट के चाइल्ड कलेक्शन कौन सा है। पढ़ने योग्य UInt32। |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | यदि मान नकारात्मक है तो डेटा पॉइंट अपने रंग उलट देगा, निर्दिष्ट करता है। पढ़ने/लिखने योग्य Boolean। |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | निर्दिष्ट करता है कि बबल्स पर 3-D प्रभाव लागू किया गया है। पढ़ने/लिखने योग्य Boolean। |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | चार्ट डेटा पॉइंट का लेबल दर्शाता है। केवल पढ़ने योग्य [`IDataLabel`](../idatalabel)। |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | डेटा मार्कर निर्दिष्ट करता है। केवल पढ़ने योग्य [`IMarker`](../imarker)। |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | निम्नलिखित चार्ट प्रकारों के लिए संबंधित लेजेंड एंट्री के गुण: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie। केवल पढ़ने योग्य [`ILegendEntryProperties`](../ilegendentryproperties)। |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | डेटा पॉइंट को कुल के रूप में सेट करता है। केवल Waterfall सीरीज़ प्रकार के लिए लागू। |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | चार्ट डेटा पॉइंट का आकार मान लौटाता है। Treemap और Sunburst चार्ट के साथ उपयोग किया जाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | इस सूची में से चार्ट प्रकार के मामले में संबंधित लेजेंड एंट्री की प्रॉपर्टीज़: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie। केवल पढ़ने योग्य [`ILegendEntryProperties`](../ilegendentryproperties)। |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | डेटा पॉइंट को कुल के रूप में सेट करता है। केवल Waterfall श्रृंखला प्रकार के लिए लागू। |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | चार्ट डेटा पॉइंट का आकार मान लौटाता है। Treemap और Sunburst चार्ट्स के साथ उपयोग किया जाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | चार्ट डेटा पॉइंट का मान लौटाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
 | [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | चार्ट डेटा पॉइंट का x मान लौटाता है। केवल पढ़ने योग्य [`IStringOrDoubleChartValue`](../istringordoublechartvalue)। |
 | [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | चार्ट डेटा पॉइंट का y मान लौटाता है। केवल पढ़ने योग्य [`IDoubleChartValue`](../idoublechartvalue)। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | श्रृंखला सूचकांक, डेटा पॉइंट सूचकांक, ParentSeriesGroup.IsColorVaried प्रॉपर्टी और चार्ट शैली के आधार पर डेटा पॉइंट का स्वचालित रंग लौटाता है। यदि FillType NotDefined के बराबर है तो यह रंग डिफ़ॉल्ट रूप से उपयोग होता है। |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | चार्ट सीरीज़ से डेटा पॉइंट को हटाता है। |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | सीरीज़ इंडेक्स, डेटा पॉइंट इंडेक्स, ParentSeriesGroup.IsColorVaried प्रॉपर्टी और चार्ट शैली के आधार पर डेटा पॉइंट का एक स्वचालित रंग लौटाता है। यदि FillType NotDefined के बराबर है तो यह रंग डिफॉल्ट रूप से उपयोग किया जाता है। |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | चार्ट सीरीज़ से DataPoint को हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IActualLayout](../iactuallayout)
-* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,36 +1,36 @@
 ---
 title: EffectStyleCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रभाव शैलियों के संग्रह का प्रतिनिधित्व करता है।
+description: इफ़ेक्ट शैलियों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 11090
 url: /hi/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection क्लास
 
-प्रभाव शैली के संग्रह का प्रतिनिधित्व करता है।
+Represents a collection of effect styles.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
 ```
 
-## प्रॉपर्टीज
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | संग्रह में तत्वों की संख्या लौटाता है। केवल पढ़ने योग्य Int32, केवल पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | संग्रह तक पहुंच समकालिक (थ्रेड-सुरक्षित) है या नहीं, यह दर्शाने वाला मान लौटाता है। केवल पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | निर्दिष्ट स्थान पर एक तत्व लौटाता है। केवल पढ़ने योग्य [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | समक्रमण रूट लौटाता है। केवल पढ़ने योग्य Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | कलेक्शन में तत्वों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32, केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | यह दर्शाता है कि कलेक्शन तक पहुंच सिंक्रनाइज़्ड (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | निर्दिष्ट स्थिति पर एक तत्व लौटाता है। केवल-पढ़ने योग्य [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधाएँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | संग्रह से सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | संग्रह के माध्यम से इटरैट करने वाला enumerator लौटाता है। |
+| [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | कलेक्शन के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | कलेक्शन के माध्यम से इटरेट करने वाला enumerator लौटाता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [FormatScheme](../formatscheme)

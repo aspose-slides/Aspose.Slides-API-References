@@ -1,14 +1,14 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir tablo hücresinin biçimini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir tablo hücresinin formatını temsil eder.
 type: docs
-weight: 1130
+weight: 1150
 url: /tr/aspose.slides/cellformat/
 ---
 ## CellFormat sınıfı
 
-Bir tablo hücresinin biçimini temsil eder.
+Bir tablo hücresinin formatını temsil eder.
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -18,25 +18,25 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
 | [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Alt kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Sol üstten sağ alta köşegen çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Sol alt köşeden sağ üst köşeye köşegen çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Sol üstten sağ alta doğru çapraz çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Sol alt köşeden sağ üst köşeye doğru çapraz çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Sol kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Sağ kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Üst kenar çizgi özellikleri nesnesini döndürür. Salt okunur [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Hücre dolgu özellikleri nesnesini döndürür. Salt okunur [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Dolgu renginin şeffaflığını alır veya ayarlar. Okunur/yazılır Single. |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Dolgu renginin şeffaflığını alır veya ayarlar. Okunur/yazılabilir Single. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkin tablo hücresi biçimlendirme özelliklerini alır. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkili tablo hücresi biçimlendirme özelliklerini alır. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [ICellFormat](../icellformat)

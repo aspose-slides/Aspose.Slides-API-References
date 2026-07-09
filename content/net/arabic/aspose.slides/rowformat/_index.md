@@ -1,14 +1,14 @@
 ---
 title: RowFormat
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل تنسيق صف جدول.
+second_title: مرجع API لـ Aspose.Sildes على .NET
+description: يمثل تنسيق صف الجدول.
 type: docs
 weight: 9730
 url: /ar/aspose.slides/rowformat/
 ---
-## فئة RowFormat
+## RowFormat فئة
 
-يمثل تنسيق صف جدول.
+يمثل تنسيق صف الجدول.
 
 ```csharp
 public sealed class RowFormat : DomObject<Row>, IRowFormat
@@ -20,7 +20,7 @@ public sealed class RowFormat : DomObject<Row>, IRowFormat
 | --- | --- |
 | [GetEffective](../../aspose.slides/rowformat/geteffective)() | يحصل على خصائص تنسيق صف الجدول الفعّالة مع تطبيق الوراثة وأنماط الجدول. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../domobject-1)
 * فئة [Row](../row)

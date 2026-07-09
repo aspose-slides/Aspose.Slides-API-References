@@ -1,9 +1,9 @@
 ---
 title: XamlOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
+description: XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
 type: docs
-weight: 4700
+weight: 4720
 url: /tr/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions sınıfı
@@ -24,13 +24,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan yazı tipini döndürür veya ayarlar. Okunabilir-yazılabilir String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Kaynak yazı tipi bulunamadığında kullanılan fontu döndürür veya ayarlar. Okuma-yazma String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Gizli slaytların dışa aktarılıp aktarılmayacağını belirler. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okunabilir-yazılabilir [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gradyanın görsel stilini döndürür veya ayarlar. Okuma/yazma [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | IOutputSaver arayüzünün bir uygulamasını temsil eder. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde cinsinden kaydetme ilerleme güncellemeleri için bir geri çağırma nesnesini temsil eder. Bakınız [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprüleri atlayıp atlamayacağını belirtir. Okunabilir-yazılabilir Boolean. Varsayılan değer **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğine ya da iptal edileceğine karar veren bir nesneyi döndürür veya ayarlar. Okunabilir-yazılabilir [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Yüzde olarak kaydetme ilerleme güncellemeleri için bir geri arama nesnesini temsil eder. bkz. [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Sunumu kaydederken JavaScript çağrıları içeren köprülerin atlanıp atlanmayacağını belirtir. Okuma/yazma Boolean. Varsayılan değer **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Uyarıları alan ve yükleme sürecinin devam edip etmeyeceğini ya da iptal edilip edilmeyeceğini belirleyen bir nesneyi döndürür veya ayarlar. Okuma/yazma [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Örnekler
 
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [SaveOptions](../../aspose.slides.export/saveoptions)
 * arayüz [IXamlOptions](../ixamloptions)

@@ -16,19 +16,19 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 依索引傳回簽章。 |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | 根據索引傳回簽章。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 在集合末端加入簽章。 |
-| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 移除集合中的全部簽章。 |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 在集合的末端加入簽章。 |
+| [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 從集合中移除所有簽章。 |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | 移除指定索引處的簽章。 |
 
-### 相關參考
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IDigitalSignature](../idigitalsignature)

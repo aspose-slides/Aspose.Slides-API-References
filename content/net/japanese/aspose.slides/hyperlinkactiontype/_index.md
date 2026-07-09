@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ハイパーリンク アクションの種類を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: ハイパーリンクアクションのタイプを表します。
 type: docs
-weight: 5110
+weight: 5130
 url: /ja/aspose.slides/hyperlinkactiontype/
 ---
 ## HyperlinkActionType 列挙型
 
-ハイパーリンク アクションのタイプを表します。
+ハイパーリンクアクションのタイプを表します。
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,21 +18,21 @@ public enum HyperlinkActionType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Unknown | `-1` | 認識できないアクション タイプ。 |
-| NoAction | `0` | アクションなし。 |
-| Hyperlink | `1` | 通常のハイパーリンク。 |
-| JumpFirstSlide | `2` | プレゼンテーションの最初のスライドへジャンプします。 |
-| JumpPreviousSlide | `3` | 前のスライドへジャンプします。 |
-| JumpNextSlide | `4` | 次のスライドへジャンプします。 |
-| JumpLastSlide | `5` | プレゼンテーションの最後のスライドへジャンプします。 |
-| JumpEndShow | `6` | スライドショーの最後へジャンプします。 |
-| JumpLastViewedSlide | `7` | 最後に表示されたスライドへジャンプします。 |
-| JumpSpecificSlide | `8` | [`TargetSlide`](../ihyperlink/targetslide) プロパティで参照される特定のスライドへジャンプします。 |
-| StartCustomSlideShow | `9` | カスタム スライドショーを開始します。 |
+| Unknown | `-1` | 認識できないアクションタイプです。 |
+| NoAction | `0` | アクションなしです。 |
+| Hyperlink | `1` | 通常のハイパーリンクです。 |
+| JumpFirstSlide | `2` | プレゼンテーションの最初のスライドにジャンプします。 |
+| JumpPreviousSlide | `3` | 前のスライドにジャンプします。 |
+| JumpNextSlide | `4` | 次のスライドにジャンプします。 |
+| JumpLastSlide | `5` | プレゼンテーションの最後のスライドにジャンプします。 |
+| JumpEndShow | `6` | スライドショーの最後にジャンプします。 |
+| JumpLastViewedSlide | `7` | 最後に表示されたスライドにジャンプします。 |
+| JumpSpecificSlide | `8` | [`TargetSlide`](../ihyperlink/targetslide) プロパティで参照される特定のスライドにジャンプします。 |
+| StartCustomSlideShow | `9` | カスタムスライドショーを開始します。 |
 | OpenFile | `10` | 参照されたファイルを開きます。 |
 | OpenPresentation | `11` | 参照されたプレゼンテーションを開きます。 |
 | StartStopMedia | `12` | メディアファイルの再生を開始/停止します。 |
-| StartMacro | `13` | マクロ スクリプトの実行を開始します。 |
+| StartMacro | `13` | マクロスクリプトの実行を開始します。 |
 | StartProgram | `14` | プログラムを開始します。 |
 
 ### 参照

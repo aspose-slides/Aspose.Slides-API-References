@@ -1,6 +1,6 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: खाली स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10080
@@ -18,9 +18,9 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | आधार ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
 
-### अन्य देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

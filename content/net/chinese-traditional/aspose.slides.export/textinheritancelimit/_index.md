@@ -1,6 +1,6 @@
 ---
 title: TextInheritanceLimit
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 控制文字屬性繼承的深度。
 type: docs
 weight: 4540
@@ -20,9 +20,9 @@ public enum TextInheritanceLimit
 | --- | --- | --- |
 | All | `0` | 繼承所有文字屬性。 |
 | TextBox | `1` | 僅從 TextFrame 的樣式繼承。 |
-| ParagraphOnly | `2` | 僅使用為段落定義的屬性。 |
+| ParagraphOnly | `2` | 僅使用段落定義的屬性。 |
 
-### 另見
+### 相關參考
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

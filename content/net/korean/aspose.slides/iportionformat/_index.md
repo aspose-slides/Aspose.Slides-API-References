@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 클래스는 텍스트 부분 서식 속성을 포함합니다. IPortionFormatEffectiveData./iportionformateffectivedata와 달리 이 클래스의 모든 속성은 쓰기가 가능합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 이 클래스는 텍스트 구간 서식 속성을 포함합니다. IPortionFormatEffectiveData./iportionformateffectivedata와 달리 이 클래스의 모든 속성은 쓰기가 가능합니다.
 type: docs
 weight: 6730
 url: /ko/aspose.slides/iportionformat/
 ---
 ## IPortionFormat 인터페이스
 
-이 클래스는 텍스트 부분 서식 속성을 포함합니다. [`IPortionFormatEffectiveData`](../iportionformateffectivedata)와 달리, 이 클래스의 모든 속성은 쓰기 가능합니다.
+이 클래스는 텍스트 구간 서식 속성을 포함합니다. [`IPortionFormatEffectiveData`](../iportionformateffectivedata)와 달리, 이 클래스의 모든 속성은 쓰기가 가능합니다.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -27,15 +27,15 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | 상속이 적용된 효과적인 부분 서식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | 상속이 적용된 효과적인 구간 서식 데이터를 가져옵니다. |
 
-### 참고
+### 비고
 
-이 클래스는 특정 부분에 정의된 텍스트 부분 서식 속성을 반환하고 조작하는 데 사용됩니다. 이는 값을 가져올 때 상속이 적용되지 않으므로 대부분의 경우 "undefined"와 같은 값을 얻게 됨을 의미합니다.
+이 클래스는 특정 구간에 대해 정의된 텍스트 구간 서식 속성을 반환하고 조작하는 데 사용됩니다. 이는 값을 가져올 때 상속이 적용되지 않으므로 대부분의 경우 값이 "정의되지 않음"을 의미하게 됩니다.
 
-상속을 포함한 효과적인 서식 매개변수 값을 가져오려면 [`GetEffective`](./geteffective) 메서드를 사용해야 하며, 이 메서드는 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 인스턴스를 반환합니다.
+상속을 포함한 효과적인 서식 매개변수 값을 가져오기 위해서는 [`GetEffective`](./geteffective) 메서드를 사용해야 하며, 이 메서드는 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 인스턴스를 반환합니다.
 
-### 참고
+### 참조
 
 * 인터페이스 [IBasePortionFormat](../ibaseportionformat)
 * 인터페이스 [IHyperlinkContainer](../ihyperlinkcontainer)

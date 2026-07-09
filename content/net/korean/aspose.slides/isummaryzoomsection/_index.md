@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Summary Zoom 프레임 내에서 Summary Zoom Section 객체를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Summary Zoom 프레임의 Summary Zoom Section 객체를 나타냅니다.
 type: docs
 weight: 7160
 url: /ko/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection 인터페이스
 
-Summary Zoom 프레임 내에서 Summary Zoom Section 객체를 나타냅니다.
+Summary Zoom 프레임의 Summary Zoom Section 객체를 나타냅니다.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -22,7 +22,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Summary Zoom Section 객체의 텍스트 설명을 반환합니다. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Summary Zoom Section 객체의 텍스트 제목을 반환합니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ISectionZoomFrame](../isectionzoomframe)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

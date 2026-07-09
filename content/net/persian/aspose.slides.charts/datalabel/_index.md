@@ -1,58 +1,58 @@
 ---
 title: DataLabel
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر برچسب‌های یک سری است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر برچسب‌های یک سری.
 type: docs
 weight: 1550
 url: /fa/aspose.slides.charts/datalabel/
 ---
 ## کلاس DataLabel
 
-نمایانگر برچسب‌های یک سری است.
+نمایش برچسب‌های یک سری.
 
 ```csharp
 public class DataLabel : IDataLabel
 ```
 
-## سازندگان
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |
 | [DataLabel](datalabel)(IChartDataPoint) | یک نمونه جدید از کلاس DataLabel ایجاد می‌کند. |
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | مکان x واقعی (چپ) عنصر نمودار نسبت به گوشهٔ بالای چپ نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | مکان y واقعی (بالا) عنصر نمودار نسبت به گوشهٔ بالای چپ نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | پایین. فقط-خواندنی Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | نمودار والد را برمی‌گرداند. فقط-خواندنی [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | قالب برچسب داده را برمی‌گرداند. فقط-خواندنی [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | ارتفاع عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | اگر False باشد بدین معنی است که برچسب داده قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, …) مقدار False دارند). فقط-خواندنی Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | راست. فقط-خواندنی Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | قالب متن را برمی‌گرداند. فقط-خواندنی [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | می‌تواند متنی قالب‌بندی‌شدهٔ غنی داشته باشد. اگر این ویژگی مقدار null نباشد، مقدار متن قالب‌بندی‌شدهٔ آن، متن خودکار تولید شدهٔ برچسب داده را جایگزین می‌کند. متن خودکار تولید شدهٔ برچسب داده به متنی اطلاق می‌شود که توسط ویژگی‌های ShowSeriesName، ShowValue، … مدیریت می‌شود و با ویژگی TextFormatManager.TextFormat قالب‌بندی می‌شود. فقط-خواندنی [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | سلول دادهٔ کاربرگ را دریافت یا تنظیم می‌کند. در صورتی که ویژگی IDataLabelFormat.ShowLabelValueFromCell مقدار true داشته باشد اعمال می‌شود. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | عرض عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | مختصات x عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | مختصات y عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. خواندنی Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. خواندنی Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | مکان x واقعی (چپ) عنصر نمودار را نسبت به گوشهٔ بالایی سمت چپ نمودار مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. خواندنی Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | مکان y واقعی (بالا) عنصر نمودار را نسبت به گوشهٔ بالایی سمت چپ نمودار مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را صدا بزنید تا مقادیر واقعی دریافت شوند. خواندنی Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | پایین. فقط خواندنی Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | نمودار والد را برمی‌گرداند. فقط خواندنی [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | قالب برچسب داده را برمی‌گرداند. فقط خواندنی [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | ارتفاع یک عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | مقدار False به این معناست که برچسب داده قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, …) برابر false هستند). فقط خواندنی Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | راست. فقط خواندنی Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | قالب متن را برمی‌گرداند. فقط خواندنی [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | می‌تواند متن با قالب‌بندی غنی داشته باشد. اگر این خصوصیت null نباشد، مقدار متن قالب‌بندی‌شده آن، متن خودکار تولید شدهٔ برچسب داده را لغو می‌کند. متن خودکار تولید شدهٔ برچسب داده به متنی گفته می‌شود که توسط خصوصیت‌های ShowSeriesName، ShowValue، … مدیریت می‌شود و با خصوصیت TextFormatManager.TextFormat قالب‌بندی می‌شود. فقط خواندنی [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | سلول دادهٔ کتاب کار را دریافت یا تنظیم می‌کند. در صورتی اعمال می‌شود که خصوصیت IDataLabelFormat.ShowLabelValueFromCell برابر true باشد. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | عرض یک عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | مختصات x یک عنوان را به عنوان کسری از عرض نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | مختصات y یک عنوان را به عنوان کسری از ارتفاع نمودار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Single. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | TextFrameForOverriding را با متن پارامتر «text» مقداردهی اولیه می‌کند. اگر TextFrameForOverriding پیش از این مقداردهی شده باشد، صرفاً متن آن را تغییر می‌دهد. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | TextFrameForOverriding را با متن موجود در پارامتر "text" مقداردهی اولیه می‌کند. اگر TextFrameForOverriding قبلاً مقداردهی اولیه شده باشد، متن آن را به سادگی تغییر می‌دهد. |
 | [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | متن واقعی برچسب را بر اساس تنظیمات DataLabelFormat یا مقدار TextFrameForOverriding.Text برمی‌گرداند. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | با تنظیم تمام پرچم‌های Show* (ShowValue, …) بر وضعیت false، برچسب داده را پنهان می‌کند. پس از این IsVisible مقدار false خواهد شد. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | برچسب داده را با تنظیم تمام پرچم‌های Show* (ShowValue, …) به حالت false مخفی می‌کند. پس از این IsVisible برابر false خواهد بود. |
 
-### موارد مرتبط
+### مراجع مرتبط
 
-* interface [IDataLabel](../idatalabel)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* رابط [IDataLabel](../idatalabel)
+* فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

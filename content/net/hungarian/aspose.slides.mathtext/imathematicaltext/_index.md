@@ -1,9 +1,9 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Matematikai szöveg
 type: docs
-weight: 8490
+weight: 8510
 url: /hu/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText interfész
@@ -18,9 +18,9 @@ public interface IMathematicalText : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Lehetővé teszi, hogy lekérje a bázis IMathElement interfészt [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Szövegformázási tulajdonságok |
-| [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Szöveg értéke |
+| [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Szövegérték |
 
 ### Példák
 

@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt algemene weergave-eigenschappen van dia's.
+description: Stelt gemeenschappelijke weergave-eigenschappen van dia's voor.
 type: docs
 weight: 5600
 url: /nl/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties interface
 
-Vertegenwoordigt algemene weergave-eigenschappen van dia’s.
+Stelt gemeenschappelijke weergave-eigenschappen van dia's voor.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Retourneert de collectie van de tekenrichtlijnen. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Specificeert de weergave-schaalverhouding in percentages. Lezen/Schrijven Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Specificeert dat de weergave-inhoud automatisch moet schalen om het best te passen bij de huidige venstergrootte. Lezen/Schrijven Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Retourneert de collectie van de tekengidsen. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Specificeert de weergaveschaalverhouding in percentages. Lezen/schrijven Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Specificeert dat de weergave-inhoud automatisch moet schalen om het huidige vensterformaat het beste te passen. Lezen/schrijven Boolean. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Alpha Ceiling. Các giá trị độ mờ Alpha lớn hơn zero sẽ được chuyển thành 100. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở nên hoàn toàn không trong suốt.
+description: Đại diện cho hiệu ứng Alpha Ceiling. Các giá trị độ trong suốt Alpha lớn hơn không được thay đổi thành 100. Nói cách khác, bất kỳ phần nào chỉ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 type: docs
 weight: 3040
 url: /vi/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling giao diện
 
-Đại diện cho hiệu ứng Alpha Ceiling. Các giá trị Alpha (độ mờ) lớn hơn zero sẽ được thay đổi thành 100%. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở thành hoàn toàn không trong suốt.
+Đại diện cho hiệu ứng Alpha Ceiling. Các giá trị Alpha (độ trong suốt) lớn hơn không được thay đổi thành 100%. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 

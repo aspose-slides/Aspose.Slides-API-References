@@ -1,6 +1,6 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับเอกสารอ้างอิง API ของ .NET
 description: แสดงถึงรูปแบบการไล่ระดับสี.
 type: docs
 weight: 6020
@@ -8,7 +8,7 @@ url: /th/aspose.slides/igradientstop/
 ---
 ## IGradientStop อินเทอร์เฟซ
 
-แสดงถึงรูปแบบการไล่ระดับสี.
+Represents a gradient format.
 
 ```csharp
 public interface IGradientStop
@@ -19,7 +19,7 @@ public interface IGradientStop
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Color](../../aspose.slides/igradientstop/color) { get; } | คืนค่าสีของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | คืนค่า หรือ ตั้งค่าตำแหน่ง (0..1) ของจุดหยุดไล่ระดับสี. อ่าน/เขียน Single. |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | คืนค่าหรือกำหนดตำแหน่ง (0..1) ของจุดหยุดไล่ระดับสี. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

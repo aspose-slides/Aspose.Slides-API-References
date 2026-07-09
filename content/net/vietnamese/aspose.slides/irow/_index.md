@@ -1,6 +1,6 @@
 ---
 title: IRow
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một hàng trong bảng.
 type: docs
 weight: 6850
@@ -18,13 +18,13 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Cho phép lấy giao diện cơ sở IBulkTextFormattable. Chỉ đọc [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Cho phép lấy giao diện cơ sở ICellCollection. Chỉ đọc [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Trả về độ cao của một hàng. Chỉ đọc Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Trả về hoặc đặt độ cao tối thiểu có thể của một hàng. Đọc/ghi Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Trả về đối tượng RowFormat chứa các thuộc tính định dạng cho hàng này. Chỉ đọc [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Cho phép lấy giao diện cơ bản IBulkTextFormattable. [`IBulkTextFormattable`](../ibulktextformattable) chỉ đọc. |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Cho phép lấy giao diện cơ bản ICellCollection. [`ICellCollection`](../icellcollection) chỉ đọc. |
+| [Height](../../aspose.slides/irow/height) { get; } | Trả về chiều cao của một hàng. Double chỉ đọc. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Trả về hoặc đặt chiều cao tối thiểu có thể của một hàng. Double đọc/ghi. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Trả về đối tượng RowFormat chứa các thuộc tính định dạng cho hàng này. [`IRowFormat`](../irowformat) chỉ đọc. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IBulkTextFormattable](../ibulktextformattable)
 * giao diện [ICellCollection](../icellcollection)

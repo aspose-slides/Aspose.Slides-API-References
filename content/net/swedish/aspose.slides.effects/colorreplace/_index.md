@@ -1,9 +1,9 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en färgbytes-effekt. Alla effektfärger ändras till en fast färg. Alfa-värden påverkas inte.
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar en Color Replacement-effekt. Alla effektfärger ändras till en fast färg. Alfa-värden påverkas inte.
 type: docs
-weight: 2930
+weight: 2950
 url: /sv/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace klass
@@ -18,16 +18,16 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Returnerar färgformat som kommer att ersätta färgen på varje pixel. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att få bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | Returnerar färgformat som kommer att ersätta färgen för varje pixel. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Bestämmer om den angivna [`ColorReplace`](../colorreplace) är lika med den aktuella [`ColorReplace`](../colorreplace). |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Hämtar effektiv Color Replacement-effektdata med ärvning tillämpad. |
-| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
+| override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | Avgör om den angivna [`ColorReplace`](../colorreplace) är lika med den aktuella [`ColorReplace`](../colorreplace). |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | Hämtar effektiv Color Replacement-effektdat med tillämpad arv. |
+| override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | Tjänar som hash-funktion för en viss typ. |
 
 ### Se även
 

@@ -14,18 +14,18 @@ De uitzondering die wordt gegooid wanneer een berekende formule niet correct is 
 public class CellInvalidFormulaException : PptxEditException
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initialiseert een nieuw exemplaar van de klasse [`CellInvalidFormulaException`](../cellinvalidformulaexception). |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initialiseert een nieuw exemplaar van de klasse [`CellInvalidFormulaException`](../cellinvalidformulaexception) met een gespecificeerde foutmelding. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialiseert een nieuw exemplaar van de klasse [`CellInvalidFormulaException`](../cellinvalidformulaexception) met een gespecificeerde foutmelding en een verwijzing naar de binnenste uitzondering die de oorzaak van deze uitzondering is. |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialiseert een nieuw exemplaar van de klasse [`CellInvalidFormulaException`](../cellinvalidformulaexception) met een gespecificeerde foutmelding en een celreferentie die de ongeldige formule bevat. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | Initialiseert een nieuw exemplaar van de [`CellInvalidFormulaException`](../cellinvalidformulaexception) klasse. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | Initialiseert een nieuw exemplaar van de [`CellInvalidFormulaException`](../cellinvalidformulaexception) klasse met een opgegeven foutbericht. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | Initialiseert een nieuw exemplaar van de [`CellInvalidFormulaException`](../cellinvalidformulaexception) klasse met een opgegeven foutbericht en een verwijzing naar de binnenste exceptie die de oorzaak van deze exceptie is. |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | Initialiseert een nieuw exemplaar van de [`CellInvalidFormulaException`](../cellinvalidformulaexception) klasse met een opgegeven foutbericht en een celreferentie die de ongeldige formule bevat. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | Haalt een celreferentie op die de ongeldige formule bevat. |
 

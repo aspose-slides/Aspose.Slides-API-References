@@ -1,6 +1,6 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 읽기 전용 효과 이미지 변환 효과 컬렉션을 나타내는 불변 객체입니다.
 type: docs
 weight: 3560
@@ -16,33 +16,33 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | 기본 생성자입니다. |
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 컬렉션에 있는 이미지 효과 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | 컬렉션에 포함된 이미지 효과의 개수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | 인덱스로 요소를 반환합니다. |
 | [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 지정된 객체가 현재 객체와 같은지 여부를 판단합니다. |
+| override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | 지정된 객체가 현재 객체와 같은지 여부를 결정합니다. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 테이블과 같은 해시 알고리즘 및 데이터 구조에서 사용할 수 있습니다. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | 특정 유형에 대한 해시 함수를 제공하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용할 수 있습니다. |
 
 ### 비고
 
-IImageTransformOperationCollectionEffectiveData 이름이 COM 이름 길이 제한으로 39자를 초과할 수 없어 IImageTransformOCollectionEffectiveData 로 축약되었습니다.
+IImageTransformOperationCollectionEffectiveData 이름이 COM 이름 길이 제한으로 인해 39자를 초과할 수 없어 IImageTransformOCollectionEffectiveData 로 잘렸습니다.
 
-### 참고
+### 참조
 
 * 인터페이스 [IImageTransformOCollectionEffectiveData](../iimagetransformocollectioneffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

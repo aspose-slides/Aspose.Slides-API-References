@@ -1,14 +1,14 @@
 ---
 title: IFontScheme
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Przechowuje czcionki określone w temacie.
+second_title: Aspose.Sildes dla referencji API .NET
+description: Przechowuje czcionki zdefiniowane w motywie.
 type: docs
-weight: 11230
+weight: 11250
 url: /pl/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme interfejs
 
-Przechowuje czcionki określone w temacie.
+Przechowuje czcionki zdefiniowane w motywie.
 
 ```csharp
 public interface IFontScheme
@@ -18,8 +18,8 @@ public interface IFontScheme
 
 | Nazwa | Opis |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Zwraca kolekcję czcionek dla części „heading” slajdu. Tylko do odczytu [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Zwraca kolekcję czcionek dla części „body” slajdu. Tylko do odczytu [`IFonts`](../../aspose.slides/ifonts). |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Zwraca kolekcję czcionek dla części "nagłówek" slajdu. Tylko do odczytu [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Zwraca kolekcję czcionek dla części "treść" slajdu. Tylko do odczytu [`IFonts`](../../aspose.slides/ifonts). |
 | [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Zwraca nazwę schematu czcionek. Odczyt/zapis String. |
 
 ### Zobacz także

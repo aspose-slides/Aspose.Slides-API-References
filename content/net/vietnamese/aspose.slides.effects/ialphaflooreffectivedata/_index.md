@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Alpha Floor. Các giá trị độ mờ Alpha dưới 100 sẽ được chuyển thành zero. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở nên hoàn toàn trong suốt.
+description: Đối tượng bất biến biểu diễn hiệu ứng Alpha Floor. Các giá trị độ trong suốt Alpha nhỏ hơn 100 được đổi thành 0. Nói cách khác, bất kỳ thứ gì một phần trong suốt sẽ trở thành hoàn toàn trong suốt.
 type: docs
 weight: 3070
 url: /vi/aspose.slides.effects/ialphaflooreffectivedata/
 ---
-## IAlphaFloorEffectiveData giao diện
+## IAlphaFloorEffectiveData interface
 
-Đối tượng bất biến đại diện cho hiệu ứng Alpha Floor. Giá trị Alpha (độ mờ) nhỏ hơn 100% sẽ được chuyển thành không. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở nên hoàn toàn trong suốt.
+Đối tượng bất biến biểu diễn hiệu ứng Alpha Floor. Các giá trị Alpha (độ trong suốt) nhỏ hơn 100% sẽ được chuyển thành không. Nói cách khác, bất kỳ thứ gì một phần trong suốt sẽ trở thành hoàn toàn trong suốt.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Cho phép truy cập giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Xem thêm
 

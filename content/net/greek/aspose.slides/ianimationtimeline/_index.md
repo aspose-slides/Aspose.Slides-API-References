@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τη χρονογραμμή της κίνησης.
+description: Αντιπροσωπεύει τη χρονογραμμή της κίνησης.
 type: docs
-weight: 5180
+weight: 5200
 url: /el/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine διασύνδεση
 
-Αναπαριστά τη χρονογραμμή της κίνησης.
+Αντιπροσωπεύει τη χρονογραμμή της κίνησης.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Επιστρέφει τη συλλογή των διαδραστικών ακολουθιών. Αυτές οι ακολουθίες μπορεί να περιέχουν μόνο εφέ με «κλικ στο σχήμα» με καθορισμένο σχήμα-στόχο. Μόνο για ανάγνωση [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Επιστρέφει την κύρια ακολουθία που μπορεί να περιέχει μόνο τη συλλογή των κύριων εφέ. Μόνο για ανάγνωση [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Επιστρέφει τη συλλογή των κινούμενων κειμένων. Μόνο για ανάγνωση [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Επιστρέφει τη συλλογή των διαδραστικών ακολουθιών. Αυτές οι ακολουθίες μπορεί να περιέχουν μόνο εφέ με "κλικ στο σχήμα" που προσδιορίζουν το στόχο σχήμα. Μόνο για ανάγνωση [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Επιστρέφει την κύρια ακολουθία που μπορεί να περιέχει μόνο τη συλλογή κύριων εφέ. Μόνο για ανάγνωση [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Επιστρέφει τη συλλογή των κειμενικών κινήσεων. Μόνο για ανάγνωση [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Δείτε επίσης
 

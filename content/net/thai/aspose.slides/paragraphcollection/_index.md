@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงถึงคอลเลกชันของย่อหน้า
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นคอลเลกชันของย่อหน้า
 type: docs
 weight: 9290
 url: /th/aspose.slides/paragraphcollection/
 ---
-## ParagraphCollection คลาส
+## คลาส ParagraphCollection
 
-แสดงถึงคอลเลกชันของย่อหน้า
+แทนการเป็นคอลเลกชันของย่อหน้า
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,28 +18,28 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริง ๆ. อ่านอย่างเดียว Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | รับค่าที่บ่งบอกว่า ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | ดึงจำนวนของอิลิเมนต์ที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | ดึงค่าที่บ่งชี้ว่า ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | เพิ่ม Paragraph ไปยังตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | เพิ่มเนื้อหาของ ParagraphCollection ไปยังตำแหน่งสุดท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | เพิ่ม Paragraph ไปยังส่วนท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | เพิ่มเนื้อหาของ ParagraphCollection ไปยังส่วนท้ายของคอลเลกชัน. |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | เพิ่มข้อความจากสตริง HTML ที่ระบุไปยังคอลเลกชัน. |
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | เพิ่มข้อความจากสตริง HTML ที่ระบุไปยังคอลเลกชัน. |
-| [Clear](../../aspose.slides/paragraphcollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | กำหนดว่าคอลเลกชันนี้มีค่าที่ระบุหรือไม่. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | คัดลอกองค์ประกอบของ ICollection ไปยังอาเรย์ เริ่มจากตำแหน่งอาเรย์ที่กำหนด. |
+| [Clear](../../aspose.slides/paragraphcollection/clear)() | ลบอิลิเมนต์ทั้งหมดออกจากคอลเลกชัน. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | ตรวจสอบว่า ICollection มีค่าที่ระบุหรือไม่. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | คัดลอกอิลิเมนต์ของ ICollection ไปยังอาเรย์ เริ่มต้นที่ดัชนีอาเรย์ที่ระบุ. |
 | [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | แปลงย่อหน้าที่ระบุเป็น HTML และคืนค่าเป็นวัตถุ String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนซ้ำคอลเลกชัน. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | กำหนดตำแหน่งของรายการเฉพาะใน IList. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | คืน enumerator ที่วนผ่านคอลเลกชัน. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | หาตำแหน่งดัชนีของรายการที่ระบุใน IList. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | แทรก Paragraph เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | แทรกเนื้อหาของ ParagraphCollection เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ลบการเกิดขึ้นครั้งแรกของวัตถุที่ระบุออกจาก ICollection. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ลบการเกิดแรกของวัตถุที่ระบุออกจาก ICollection. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | ลบอิลิเมนต์ที่ตำแหน่งที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

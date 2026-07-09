@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 문자열 또는 double 값을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
+second_title: Aspose.Sildes for .NET API 참조
+description: pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 실수 값을 두 가지 방법으로 표현합니다: 1) 차트와 관련된 워크북의 셀/셀들에, 2) 리터럴 값으로.
 type: docs
 weight: 2230
 url: /ko/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue 인터페이스
 
-pptx 프레젠테이션 문서에 두 가지 방법으로 저장될 수 있는 문자열 또는 double 값을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀들에; 2) 리터럴 값으로.
+pptx 프레젠테이션 문서에 저장될 수 있는 문자열 또는 실수 값을 두 가지 방법으로 표현합니다: 1) 차트와 관련된 워크북의 셀/셀들에; 2) 리터럴 값으로.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -20,7 +20,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | 기본 ISingleCellChartValue 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISingleCellChartValue`](../isinglecellchartvalue). |
 | [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | DataSourceType 속성이 DataSourceType.DoubleLiterals인 경우 리터럴 double을 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType 속성이 DataSourceType.StringLiterals인 경우 리터럴 문자열을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | DataSourceType 속성이 DataSourceType.StringLiterals인 경우 리터럴 string을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
@@ -28,7 +28,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 | --- | --- |
 | [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | 값을 double로 변환합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ISingleCellChartValue](../isinglecellchartvalue)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

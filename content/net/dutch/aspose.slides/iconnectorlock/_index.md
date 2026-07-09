@@ -18,17 +18,17 @@ public interface IConnectorLock : IBaseShapeLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen/schrijven Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpunten verboden is. Lezen/schrijven Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Staat toe om de basis IBaseShapeLock interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij schalen. Lezen/schrijven Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Bepaalt of een wijzigende aanpassingswaarde verboden is. Lezen/schrijven Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Bepaalt of een wijzigende pijlpuntjes verboden is. Lezen/schrijven Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Hiermee kan de basis IBaseShapeLock interface worden opgehaald. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het wijzigen van de grootte. Lezen/schrijven Boolean. |
 | [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Bepaalt of een directe wijziging van de contour van deze vorm verboden is. Lezen/schrijven Boolean. |
 | [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/schrijven Boolean. |
 | [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen/schrijven Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Bepaalt of een wijziging van de rotatiehoek van deze vorm verboden is. Lezen/schrijven Boolean. |
 | [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van een vormtype verboden is. Lezen/schrijven Boolean. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Bepaalt of het schalen van deze vorm verboden is. Lezen/schrijven Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Bepaalt of een wijziging van het vormtype verboden is. Lezen/schrijven Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Lezen/schrijven Boolean. |
 
 ### Zie ook
 

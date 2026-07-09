@@ -3,7 +3,7 @@ title: IInnerShadowEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en inre skuggeffekt.
 type: docs
-weight: 3410
+weight: 3430
 url: /sv/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData gränssnitt
@@ -18,13 +18,13 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta gränssnittet IEffectEffectiveData. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Suddighetsradie. Skrivskyddad Double. |
 | [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Riktning för skugga. Skrivskyddad Single. |
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Avstånd för skugga. Skrivskyddad Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Färg för skugga. Skrivskyddad Color. |
 
-### Se också
+### Se även
 
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)
 * namnrymd [Aspose.Slides.Effects](../../aspose.slides.effects)

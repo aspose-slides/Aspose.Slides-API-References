@@ -1,6 +1,6 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 서명된 파일의 디지털 서명.
 type: docs
 weight: 2770
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature 클래스
 
-디지털 서명 파일에 포함된 서명.
+서명된 파일의 디지털 서명.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -19,31 +19,31 @@ public class DigitalSignature : IDigitalSignature
 | 이름 | 설명 |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 지정된 인증서를 사용하여 새 DigitalSignature 개체를 생성합니다. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 지정된 인증서 파일 경로와 비밀번호를 사용하여 새 DigitalSignature 개체를 생성합니다. |
+| [DigitalSignature](digitalsignature#constructor_1)(string,string) | 지정된 인증서 파일 경로와 비밀번호를 사용하여 새 DigitalSignature 개체를 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 문서 서명에 사용된 인증서 객체입니다. 읽기 전용 X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 서명의 목적입니다. 읽기/쓰기 String. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 문서를 서명하는 데 사용된 인증서 객체입니다. 읽기 전용 X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 서명의 목적입니다. 읽기/쓰기 문자열. |
 | [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | 이 디지털 서명이 유효하고 문서가 변조되지 않은 경우 이 값은 true가 됩니다. 읽기 전용 Boolean. |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | 문서가 서명된 시간입니다. 읽기 전용 DateTime. |
 
 ### 예제
 
-다음 예제는 PowerPoint 프레젠테이션에서 PFX 인증서를 사용하여 디지털 서명을 추가하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션에 PFX 인증서에서 디지털 서명을 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-// 프레젠테이션 인스턴스 초기화
+// Presentation 인스턴스 초기화
 using (Presentation pres = new Presentation())
 {
-    // PFX 파일과 PFX 비밀번호로 DigitalSignature 객체 생성
+    // PFX 파일 및 PFX 비밀번호로 DigitalSignature 객체 생성
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // 새 디지털 서명에 대한 주석
+    // 새로운 디지털 서명에 주석 달기
     signature.Comments = "Aspose.Slides digital signing test.";
-    // 프레젠테이션에 디지털 서명 추가
+    // 디지털 서명을 프레젠테이션에 추가
     pres.DigitalSignatures.Add(signature);
     // 프레젠테이션 저장
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
@@ -54,7 +54,7 @@ using (Presentation pres = new Presentation())
 
 ```csharp
 [C#]
-// 프레젠테이션 인스턴스 초기화
+// Presentation 인스턴스 초기화
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IDigitalSignature](../idigitalsignature)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

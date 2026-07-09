@@ -1,6 +1,6 @@
 ---
 title: IGenericCollectionT
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes ل .NET مرجع API
 description: واجهة مجموعة عامة مساعدة.
 type: docs
 weight: 5960
@@ -14,7 +14,7 @@ url: /ar/aspose.slides/igenericcollection-1/
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 ```
 
-| المعامل | الوصف |
+| معامل | الوصف |
 | --- | --- |
 | T |  |
 
@@ -23,7 +23,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | الاسم | الوصف |
 | --- | --- |
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | يرجع واجهة ICollection. |
-| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | يرجع واجهة IEnumerable. للقراءة فقط IEnumerable. |
+| [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | يرجع واجهة IEnumerable. IEnumerable للقراءة فقط. |
 
 ### انظر أيضًا
 

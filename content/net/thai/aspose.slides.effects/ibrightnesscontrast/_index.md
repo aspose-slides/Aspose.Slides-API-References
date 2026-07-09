@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrast
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความคอนทราสต์
+description: แสดงถึงเอฟเฟกต์ BrightnessContrast ปรับความสว่างและคอนทราสต์
 type: docs
 weight: 3200
 url: /th/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความคอนทราสต์
+แสดงถึงเอฟเฟกต์ BrightnessContrast ปรับความสว่างและคอนทราสต์
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 

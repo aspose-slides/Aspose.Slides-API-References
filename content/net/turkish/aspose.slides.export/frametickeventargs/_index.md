@@ -3,12 +3,12 @@ title: FrameTickEventArgs
 second_title: Aspose.Sildes için .NET API Referansı
 description: FrameTick./presentationplayer/frametick olayının argümanlarını temsil eder.
 type: docs
-weight: 3790
+weight: 3810
 url: /tr/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs sınıfı
 
-Belirtilen [`FrameTick`](../presentationplayer/frametick) olayının argümanlarını temsil eder.
+[`FrameTick`](../presentationplayer/frametick) olayının argümanlarını temsil eder.
 
 ```csharp
 public class FrameTickEventArgs
@@ -18,13 +18,13 @@ public class FrameTickEventArgs
 
 | Ad | Açıklama |
 | --- | --- |
-| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Sunum oynatıcısını al |
+| [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Sunum oynatıcıyı al |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Mevcut [`PresentationPlayer`](../presentationplayer) çerçevesini al. |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Geçerli [`PresentationPlayer`](../presentationplayer) çerçeveyi al. |
 
 ### Örnekler
 

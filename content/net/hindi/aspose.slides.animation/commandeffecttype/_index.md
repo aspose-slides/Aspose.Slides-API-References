@@ -1,6 +1,6 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes .NET API रेफ़रेंस के लिए
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: कमांड इफ़ेक्ट व्यवहार के लिए कमांड इफ़ेक्ट प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 270
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.animation/commandeffecttype/
 ---
 ## CommandEffectType एन्यूमरेशन
 
-कमांड इफ़ेक्ट के व्यवहार के लिए कमांड इफ़ेक्ट प्रकार का प्रतिनिधित्व करता है।
+कमांड इफ़ेक्ट व्यवहार के लिए कमांड इफ़ेक्ट प्रकार का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum CommandEffectType : sbyte
@@ -23,7 +23,7 @@ public enum CommandEffectType : sbyte
 | Call | `1` |  |
 | Verb | `2` |  |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 출력 파일을 나타냅니다.
 type: docs
 weight: 4650
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile 클래스
 
-출력 파일을 나타냅니다.
+파일을 나타냅니다.
 
 ```csharp
 public abstract class OutputFile : IOutputFile
@@ -18,9 +18,9 @@ public abstract class OutputFile : IOutputFile
 
 | 이름 | 설명 |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 파일 내용을 스트림에 씁니다. |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 스트림에 파일 내용을 씁니다. |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IOutputFile](../ioutputfile)
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)

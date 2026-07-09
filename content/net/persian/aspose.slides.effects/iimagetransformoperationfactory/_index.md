@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperationFactory
-second_title: Aspose.Sildes برای .NET مرجع API
-description: به شما امکان می‌دهد نمونه‌های افکت‌های تصویر را ایجاد کنید
+second_title: Aspose.Sildes برای مرجع API .NET
+description: امکان ایجاد نمونه‌های اثرهای تصویر را فراهم می‌کند
 type: docs
 weight: 3410
 url: /fa/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory رابط
 
-به شما امکان می‌دهد نمونه‌های افکت‌های تصویر را ایجاد کنید
+امکان ایجاد نمونه‌های اثرهای تصویر را فراهم می‌کند
 
 ```csharp
 public interface IImageTransformOperationFactory
@@ -18,23 +18,23 @@ public interface IImageTransformOperationFactory
 
 | نام | توضیح |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | یک اثر Alpha BiLevel ایجاد می‌کند. |
-| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | یک اثر Alpha floor ایجاد می‌کند. |
-| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | یک اثر Alpha inverse ایجاد می‌کند. |
-| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | یک اثر Alpha modulate ایجاد می‌کند. |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | یک اثر Alpha modulate fixed ایجاد می‌کند. |
-| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | یک اثر Alpha replace ایجاد می‌کند. |
-| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | یک اثر Alpha Ceiling ایجاد می‌کند. |
-| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | یک اثر BiLevel ایجاد می‌کند. |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double,bool) | یک اثر Blur ایجاد می‌کند. |
-| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | یک اثر Color change ایجاد می‌کند. |
-| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | یک اثر Color replace ایجاد می‌کند. |
-| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | یک اثر Duotone ایجاد می‌کند. |
-| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | یک اثر Fill overlay ایجاد می‌کند. |
-| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | یک اثر Gray scale ایجاد می‌کند. |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float,float,float) | یک اثر Hue Saturation Luminance ایجاد می‌کند. |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float,float) | یک اثر Luminance ایجاد می‌کند. |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float,float) | یک اثر Tint ایجاد می‌کند. |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createalphabilevel)(float) | اثر Alpha BiLevel را ایجاد می‌کند. |
+| [CreateAlphaFloor](../../aspose.slides.effects/iimagetransformoperationfactory/createalphafloor)() | اثر Alpha floor را ایجاد می‌کند. |
+| [CreateAlphaInverse](../../aspose.slides.effects/iimagetransformoperationfactory/createalphainverse)() | اثر Alpha inverse را ایجاد می‌کند. |
+| [CreateAlphaModulate](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate)() | اثر Alpha modulate را ایجاد می‌کند. |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/iimagetransformoperationfactory/createalphamodulatefixed)(float) | اثر Alpha modulate fixed را ایجاد می‌کند. |
+| [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | اثر Alpha replace را ایجاد می‌کند. |
+| [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | اثر Alpha Ceiling را ایجاد می‌کند. |
+| [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | اثر BiLevel را ایجاد می‌کند. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | اثر Blur را ایجاد می‌کند. |
+| [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | اثر Color change را ایجاد می‌کند. |
+| [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | اثر Color replace را ایجاد می‌کند. |
+| [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | اثر Duotone را ایجاد می‌کند. |
+| [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | اثر Fill overlay را ایجاد می‌کند. |
+| [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | اثر Gray scale را ایجاد می‌کند. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | اثر Hue Saturation Luminance را ایجاد می‌کند. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | اثر Luminance را ایجاد می‌کند. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | اثر Tint را ایجاد می‌کند. |
 
 ### توضیحات
 
@@ -43,6 +43,6 @@ public interface IImageTransformOperationFactory
 ### موارد مرتبط
 
 * فضای نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* مجمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IPdfOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: จัดเตรียมตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ Pdf.
+description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ Pdf.
 type: docs
 weight: 4000
 url: /th/aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions อินเทอร์เฟซ
 
-จัดเตรียมตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอเป็นรูปแบบ Pdf.
+Provides options that control how a presentation is saved in Pdf format.
 
 ```csharp
 public interface IPdfOptions : ISaveOptions
@@ -18,25 +18,25 @@ public interface IPdfOptions : ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | ประกอบด้วยชุดของแฟล็กที่ระบุว่าจะให้สิทธิ์การเข้าถึงใดบ้างเมื่อเอกสารถูกเปิดด้วยการเข้าถึงของผู้ใช้ ดู [`PdfAccessPermissions`](../pdfaccesspermissions). |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | รับหรือกำหนดอาร์เรย์ของชื่อฟอนต์ฟาไมลี่ที่ผู้ใช้กำหนดซึ่ง Aspose.Slides ควรพิจารณาว่าเป็นฟอนต์ที่ใช้กันทั่วไป. อ่าน/เขียน String[]. |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | ประกอบด้วยชุดของแฟล็กที่ระบุว่าการอนุญาตการเข้าถึงใดควรได้รับอนุญาตเมื่อเอกสารถูกเปิดด้วยการเข้าถึงของผู้ใช้ ดู [`PdfAccessPermissions`](../pdfaccesspermissions). |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | คืนค่าหรือกำหนดอาเรย์ของชื่อฟอนต์ที่กำหนดโดยผู้ใช้ซึ่ง Aspose.Slides ควรถือว่าเป็นฟอนต์ทั่วไป. อ่าน/เขียน String[]. |
 | [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | ใช้สีโปร่งใสที่ระบุกับภาพหาก `true`. |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | รับอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | ระบุว่าจะต้องเลือกการบีบอัดที่มีประสิทธิภาพที่สุด (แทนค่าปริยาย) สำหรับแต่ละภาพโดยอัตโนมัติหรือไม่ หากตั้งค่าเป็น Boolean.true, สำหรับทุกภาพในงานนำเสนอจะเลือกอัลกอริทึมการบีบอัดที่เหมาะสมที่สุด ซึ่งจะทำให้ขนาดของเอกสาร PDF ที่ได้มีขนาดเล็กลง การเลือกอัตราบีบอัดภาพที่ดีที่สุดต้องใช้การคำนวณที่มากและใช้ RAM เพิ่มเติม, ตัวเลือกนี้ตั้งค่าเป็น Boolean.false โดยค่าเริ่มต้น. |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | ระดับการปฏิบัติตามที่ต้องการสำหรับเอกสาร PDF ที่สร้างขึ้น. อ่าน/เขียน [`PdfCompliance`](../pdfcompliance). |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | True เพื่อวาดกรอบสีดำรอบสไลด์แต่ละอัน. อ่าน/เขียน Boolean. |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | กำหนดว่าจะฝังอักขระทั้งหมดของฟอนต์หรือเพียงส่วนย่อยที่ใช้. อ่าน/เขียน Boolean. |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | True เพื่อฝังฟอนต์ TrueType สำหรับอักขระ ASCII 32-127. ฟอนต์สำหรับรหัสอักขระที่ใหญ่กว่า 127 จะถูกฝังเสมอ. อ่าน/เขียน Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | คืนค่าอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | ระบุว่าควรเลือกการบีบอัดที่มีประสิทธิภาพที่สุด (แทนการบีบอัดเริ่มต้น) สำหรับแต่ละภาพโดยอัตโนมัติหรือไม่ หากตั้งค่าเป็น Boolean.true สำหรับภาพทุกภาพในงานนำเสนอจะเลือกอัลกอริธึมการบีบอัดที่เหมาะสมที่สุด ซึ่งจะทำให้ขนาดของเอกสาร PDF ที่ได้มีขนาดเล็กลง การเลือกอัตราการบีบอัดภาพที่ดีที่สุดต้องใช้การคำนวณมากและใช้หน่วยความจำ RAM เพิ่มเติม และตัวเลือกนี้ตั้งค่าเป็น Boolean.false โดยค่าเริ่มต้น. |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | ระดับความสอดคล้องที่ต้องการสำหรับเอกสาร PDF ที่สร้างขึ้น. อ่าน/เขียน [`PdfCompliance`](../pdfcompliance). |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | ตั้งค่าเป็น True เพื่อวาดกรอบสีดำรอบแต่ละสไลด์. อ่าน/เขียน Boolean. |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | กำหนดว่าควรฝังอักขระทั้งหมดของฟอนต์หรือเพียงส่วนที่ใช้. อ่าน/เขียน Boolean. |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | ตั้งค่าเป็น True เพื่อฝังฟอนต์ TrueType สำหรับอักขระ ASCII 32-127. ฟอนต์สำหรับรหัสอักขระที่มากกว่า 127 จะถูกฝังเสมอ. อ่าน/เขียน Boolean. |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | รับหรือกำหนดสีโปร่งใสของภาพ. |
-| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | True เพื่อแปลงข้อมูล OLE ทั้งหมดจากงานนำเสนอเป็นไฟล์ฝังใน PDF ที่ได้. อ่าน/เขียน Boolean. |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | ตั้งค่าเป็น True เพื่อแปลงข้อมูล OLE ทั้งหมดจากงานนำเสนอเป็นไฟล์ฝังใน PDF ที่ได้. อ่าน/เขียน Boolean. |
 | [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | รับหรือกำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ภายในเอกสาร PDF. อ่าน/เขียน Byte. |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | คืนค่า หรือกำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ภายในเอกสาร PDF. อ่าน/เขียน Byte. |
 | [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | ตั้งรหัสผ่านผู้ใช้เพื่อปกป้องเอกสาร PDF. อ่าน/เขียน String. |
-| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | ระบุว่าข้อความควรถูกทำเป็นแรสเตอร์เป็นบิตแมปและบันทึกเป็น PDF เมื่อฟอนต์ไม่รองรับการทำตัวหนา วิธีการนี้สามารถปรับปรุงคุณภาพของข้อความใน PDF ที่ได้สำหรับฟอนต์บางประเภท. อ่าน/เขียน Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | True เพื่อแปลง metafile ทั้งหมดที่ใช้ในงานนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | ระบุว่าจะให้เอกสารที่สร้างรวมสไลด์ที่ซ่อนอยู่หรือไม่ ค่าตั้งต้นคือ `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | รับหรือกำหนดค่าที่กำหนดความละเอียดของภาพภายในเอกสาร PDF. |
+| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | ระบุว่าข้อความควรแปลงเป็น bitmap แล้วบันทึกเป็น PDF หรือไม่เมื่อฟอนต์ไม่รองรับการทำให้เป็นตัวหนา วิธีนี้สามารถปรับปรุงคุณภาพของข้อความใน PDF ที่ได้สำหรับฟอนต์บางอย่าง. อ่าน/เขียน Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | ตั้งค่าเป็น True เพื่อแปลงเมตาไฟล์ทั้งหมดที่ใช้ในงานนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | ระบุว่าควรรวมสไลด์ที่ซ่อนอยู่ในเอกสารที่สร้างหรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะวางบนหน้ากระดาษเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | คืนค่า หรือกำหนดค่าที่กำหนดความละเอียดของภาพภายในเอกสาร PDF. |
 | [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | ระบุประเภทการบีบอัดที่จะใช้สำหรับเนื้อหาข้อความทั้งหมดในเอกสาร. อ่าน/เขียน [`PdfTextCompression`](../pdftextcompression). |
 
 ### ดูเพิ่มเติม

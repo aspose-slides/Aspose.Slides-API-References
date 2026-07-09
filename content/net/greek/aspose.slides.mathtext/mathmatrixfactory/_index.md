@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επιτρέπει τη δημιουργία ενός μαθηματικού πίνακα
 type: docs
-weight: 8840
+weight: 8860
 url: /el/aspose.slides.mathtext/mathmatrixfactory/
 ---
 ## MathMatrixFactory κλάση
@@ -26,7 +26,7 @@ public class MathMatrixFactory : IMathMatrixFactory
 | --- | --- |
 | [CreateMathMatrix](../../aspose.slides.mathtext/mathmatrixfactory/createmathmatrix)(int, int) | Δημιουργεί έναν μαθηματικό πίνακα |
 
-### Σχόλια
+### Παρατηρήσεις
 
 Για συμβατότητα με COM
 

@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định kích thước của vùng slide (độ rộng khi là con của restoredTop, độ cao khi là con của restoredLeft) của chế độ xem bình thường, khi vùng có kích thước đã khôi phục biến đổi (không phải thu nhỏ hay phóng to).
+description: Xác định kích thước của vùng slide (chiều rộng khi là con của restoredTop, chiều cao khi là con của restoredLeft) của chế độ xem bình thường khi vùng có kích thước khôi phục thay đổi (không phải thu nhỏ hay phóng to).
 type: docs
 weight: 6480
 url: /vi/aspose.slides/inormalviewrestoredproperties/
 ---
-## INormalViewRestoredProperties giao diện
+## Giao diện INormalViewRestoredProperties
 
-Chỉ định kích thước của vùng slide ((độ rộng khi là con của restoredTop, độ cao khi là con của restoredLeft) của chế độ xem bình thường, khi vùng có kích thước đã khôi phục biến đổi (không phải thu nhỏ hay phóng to).
+Xác định kích thước của vùng slide (chiều rộng khi là con của restoredTop, chiều cao khi là con của restoredLeft) của chế độ xem bình thường, khi vùng có kích thước khôi phục biến đổi (không phải thu nhỏ hay phóng to).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Tên | Mô tả |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Chỉ định liệu kích thước của vùng nội dung bên phải có nên bù cho kích thước mới khi thay đổi kích thước cửa sổ chứa view trong ứng dụng hay không. Đọc/ghi Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Chỉ định kích thước của vùng slide (độ rộng khi là con của RestoredTop, độ cao khi là con của RestoredLeft). Đọc/ghi Single. Ném ngoại lệ khi giá trị nhỏ hơn 0 hoặc lớn hơn 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Xác định liệu kích thước của vùng nội dung bên phải có phải điều chỉnh lại cho kích thước mới khi thay đổi kích thước cửa sổ chứa chế độ xem trong ứng dụng hay không. Đọc/ghi Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Xác định kích thước của vùng slide (chiều rộng khi là con của RestoredTop, chiều cao khi là con của RestoredLeft). Đọc/ghi Single. Phát sinh ngoại lệ khi giá trị nhỏ hơn 0 hoặc lớn hơn 100. |
 
 ### Xem Thêm
 

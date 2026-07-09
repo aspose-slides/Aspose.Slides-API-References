@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: IChartSeries 컬렉션을 나타냅니다./ichartseries
+description: IChartSeries의 컬렉션을 나타냅니다./ichartseries
 type: docs
 weight: 1940
 url: /ko/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection 인터페이스
 
-다음의 컬렉션을 나타냅니다 [`IChartSeries`](../ichartseries)
+Represents collection of [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -24,17 +24,17 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 새 차트 시리즈를 생성하고 컬렉션에 추가합니다. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection)에서 새 차트 시리즈를 생성하고 컬렉션에 추가합니다. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell)에서 새 차트 시리즈를 생성하고 컬렉션에 추가합니다. |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 값에서 새 차트 시리즈를 생성하고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | 새 차트 시리즈를 만들고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | 새 차트 시리즈를 [`IChartCellCollection`](../ichartcellcollection)에서 만들고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | 새 차트 시리즈를 [`IChartDataCell`](../ichartdatacell)에서 만들고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | 값에서 새 차트 시리즈를 만들고 컬렉션에 추가합니다. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | 컬렉션에서 모든 요소(차트 스타일 포함)를 제거합니다. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 지정된 [`IChartSeries`](../ichartseries)를 검색하고 전체 컬렉션에서 첫 번째 발생 위치의 0부터 시작하는 인덱스를 반환합니다. |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 새 차트 시리즈를 생성하고 컬렉션에 삽입합니다. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | 지정된 [`IChartSeries`](../ichartseries)를 검색하고 전체 컬렉션에서 첫 번째 발생의 0 기반 인덱스를 반환합니다. |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | 새 차트 시리즈를 만들고 컬렉션에 삽입합니다. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | 지정된 값을 제거합니다. |
 | [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | 지정된 인덱스에 있는 요소를 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IChartSeries](../ichartseries)

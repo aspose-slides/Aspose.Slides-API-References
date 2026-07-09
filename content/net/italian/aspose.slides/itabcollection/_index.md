@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
 second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una collezione di tab.
+description: Rappresenta una raccolta di tab.
 type: docs
-weight: 7180
+weight: 7200
 url: /it/aspose.slides/itabcollection/
 ---
 ## ITabCollection interfaccia
 
-Rappresenta una collezione di tab.
+Rappresenta una raccolta di Tab.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -18,16 +18,16 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/itabcollection/item) { get; } | Restituisce l'elemento all'indice specificato. Sola lettura [`ITab`](../itab). |
+| [Item](../../aspose.slides/itabcollection/item) { get; } | Ottiene l'elemento all'indice specificato. Solamente in lettura [`ITab`](../itab). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Aggiunge una Tab alla collezione. |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Aggiunge una Tab alla collezione. |
-| [Clear](../../aspose.slides/itabcollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
-| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Rimuove l'elemento all'indice specificato della collezione. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Aggiunge un Tab alla raccolta. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Aggiunge un Tab alla raccolta. |
+| [Clear](../../aspose.slides/itabcollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
+| [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Rimuove l'elemento all'indice specificato della raccolta. |
 
 ### Vedi anche
 

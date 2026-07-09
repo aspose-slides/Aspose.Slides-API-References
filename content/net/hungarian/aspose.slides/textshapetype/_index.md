@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes .NET API referencia
-description: Szövegcsomagolási alakzatot jelöl.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A szöveg körbefuttatási alakját jelenti.
 type: docs
-weight: 10960
+weight: 10980
 url: /hu/aspose.slides/textshapetype/
 ---
 ## TextShapeType enumeráció
 
-A szövegcsomagolási alakzatot reprezentálja.
+A szöveg körbefuttatási alakját jelenti.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -19,13 +19,13 @@ public enum TextShapeType : sbyte
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | Nem definiált |
-| None | `0` | Nincs alakzat |
+| None | `0` | Nincs alak |
 | Plain | `1` | Egyszerű |
 | Stop | `2` | Stop jel |
 | Triangle | `3` | Háromszög |
 | TriangleInverted | `4` | Fordított háromszög |
-| Chevron | `5` | Csavart |
-| ChevronInverted | `6` | Fordított csavart |
+| Chevron | `5` | Cíkk |
+| ChevronInverted | `6` | Fordított Cíkk |
 | RingInside | `7` | Belső gyűrű |
 | RingOutside | `8` | Külső gyűrű |
 | ArchUp | `9` | Felfelé ív |
@@ -34,32 +34,32 @@ public enum TextShapeType : sbyte
 | Button | `12` | Gomb |
 | ArchUpPour | `13` | Felfelé öntő ív |
 | ArchDownPour | `14` | Lefelé öntő ív |
-| CirclePour | `15` | Köröntés |
-| ButtonPour | `16` | Gomböntés |
+| CirclePour | `15` | Kör öntés |
+| ButtonPour | `16` | Gomb öntés |
 | CurveUp | `17` | Felfelé görbe |
 | CurveDown | `18` | Lefelé görbe |
-| CanUp | `19` | Felfelé kanna |
-| CanDown | `20` | Lefelé kanna |
+| CanUp | `19` | Felfelé doboz |
+| CanDown | `20` | Lefelé doboz |
 | Wave1 | `21` | Hullám 1 |
 | Wave2 | `22` | Hullám 2 |
 | DoubleWave1 | `23` | Dupla hullám 1 |
 | Wave4 | `24` | Hullám 4 |
 | Inflate | `25` | Felfúj |
-| Deflate | `26` | Leenged |
-| InflateBottom | `27` | Alsó felfújás |
-| DeflateBottom | `28` | Alsó leengedés |
-| InflateTop | `29` | Felső felfújás |
-| DeflateTop | `30` | Felső leengedés |
-| DeflateInflate | `31` | Leengedés-felfújás |
-| DeflateInflateDeflate | `32` | Leengedés-felfújás-leengedés |
-| FadeRight | `33` | Jobb elhalványulás |
-| FadeLeft | `34` | Bal elhalványulás |
-| FadeUp | `35` | Felfelé elhalványulás |
-| FadeDown | `36` | Lefelé elhalványulás |
-| SlantUp | `37` | Felfelé ferdeség |
-| SlantDown | `38` | Lefelé ferdeség |
-| CascadeUp | `39` | Felfelé kasele |
-| CascadeDown | `40` | Lefelé kasele |
+| Deflate | `26` | Lefúj |
+| InflateBottom | `27` | Alsó felfúj |
+| DeflateBottom | `28` | Alsó lefojt |
+| InflateTop | `29` | Felső felfúj |
+| DeflateTop | `30` | Felső lefojt |
+| DeflateInflate | `31` | Lefojt-Felfúj |
+| DeflateInflateDeflate | `32` | Lefojt-Felfúj-Lefojt |
+| FadeRight | `33` | Jobb oldali áttűnés |
+| FadeLeft | `34` | Bal oldali áttűnés |
+| FadeUp | `35` | Felfelé áttűnés |
+| FadeDown | `36` | Lefelé áttűnés |
+| SlantUp | `37` | Felfelé döntés |
+| SlantDown | `38` | Lefelé döntés |
+| CascadeUp | `39` | Felfelé kaszkád |
+| CascadeDown | `40` | Lefelé kaszkád |
 | Custom | `41` | Egyedi |
 
 ### Lásd még

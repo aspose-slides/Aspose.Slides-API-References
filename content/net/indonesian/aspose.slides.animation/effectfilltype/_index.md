@@ -1,14 +1,14 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili tipe isian.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili jenis pengisian.
 type: docs
-weight: 290
+weight: 310
 url: /id/aspose.slides.animation/effectfilltype/
 ---
-## EffectFillType enumerasi
+## Enumerasi EffectFillType
 
-Mewakili tipe isian.
+Mewakili jenis pengisian.
 
 ```csharp
 public enum EffectFillType

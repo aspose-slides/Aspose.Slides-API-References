@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τα κοινά δεδομένα για όλους τους τύπους διαφανειών.
+description: Αναπαριστά τα κοινά δεδομένα για όλους τους τύπους διαφανειών.
 type: docs
-weight: 5320
+weight: 5340
 url: /el/aspose.slides/ibaseslide/
 ---
-## IBaseSlide διεπαφή
+## IBaseSlide διασύνδεση
 
-Represents common data for all slide types.
+Αναπαριστά τα κοινά δεδομένα για όλους τους τύπους διαφανειών.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -16,32 +16,32 @@ public interface IBaseSlide : IThemeable
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Επικαλείται τη βασική διεπαφή IThemeable. Μόνο για ανάγνωση [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IThemeable. Μόνο για ανάγνωση [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](../../aspose.slides/ibaseslide/background) { get; } | Επιστρέφει το φόντο της διαφάνειας. Μόνο για ανάγνωση [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Επιστρέφει τη συλλογή των ελέγχων ActiveX σε μια διαφάνεια. Μόνο για ανάγνωση [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Επιστρέφει τα προσαρμοσμένα δεδομένα της διαφάνειας. Μόνο για ανάγνωση [`ICustomData`](../icustomdata). |
 | [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Παρέχει εύκολη πρόσβαση στους ενσωματωμένους υπερσυνδέσμους. Μόνο για ανάγνωση [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Επιστρέφει ή ορίζει το όνομα μιας διαφάνειας. Ανάγνωση/εγγραφή String. |
 | [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Επιστρέφει τα σχήματα μιας διαφάνειας. Μόνο για ανάγνωση [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Καθορίζει εάν τα σχήματα στην κύρια διαφάνεια πρέπει να εμφανίζονται στις διαφάνειες ή όχι. Για την κύρια διαφάνεια αυτή η ιδιότητα πάντα επιστρέφει `false`. Ανάγνωση/εγγραφή Boolean. |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Καθορίζει εάν τα σχήματα στη κύρια διαφάνεια πρέπει να εμφανίζονται στις διαφάνειες ή όχι. Για την ίδια τη κύρια διαφάνεια αυτή η ιδιότητα επιστρέφει πάντα `false`. Ανάγνωση/εγγραφή Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Επιστρέφει το ID μιας διαφάνειας. Μόνο για ανάγνωση UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Επιστρέφει το αντικείμενο TransitionEx που περιέχει πληροφορίες για το πώς προχωρά η καθορισμένη διαφάνεια κατά τη διάρκεια μιας παρουσίασης. Μόνο για ανάγνωση [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Επιστρέφει το αντικείμενο χρονοδιαγράμματος κίνησης. Μόνο για ανάγνωση [`IAnimationTimeLine`](../ianimationtimeline). |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Επιστρέφει το αντικείμενο TransitionEx το οποίο περιέχει πληροφορίες για το πώς προχωρά η καθορισμένη διαφάνεια κατά τη διάρκεια της παρουσίασης. Μόνο για ανάγνωση [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Επιστρέφει το αντικείμενο χρονοδιάγραμμα κίνησης. Μόνο για ανάγνωση [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Καθορίζει εάν τα δύο αντικείμενα IBaseSlide είναι ίσα. Η επιστρεφόμενη τιμή υπολογίζεται βάσει της δομής της διαφάνειας και του στατικού περιεχομένου. Δύο διαφάνειες είναι ίσες εάν όλα τα σχήματα, τα στυλ, τα κείμενα, η κίνηση και άλλες ρυθμίσεις κ.λπ. είναι ίσες. Η σύγκριση δεν λαμβάνει υπόψη τις μοναδικές τιμές ταυτοτήτων, π.χ. SlideId και το δυναμικό περιεχόμενο, π.χ. τρέχουσα τιμή ημερομηνίας στο Date Placeholder. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Καθορίζει εάν οι δύο εμφανίσεις IBaseSlide είναι ίσες. Η επιστρεφόμενη τιμή υπολογίζεται βάσει της δομής της διαφάνειας και του στατικού περιεχομένου. Δύο διαφάνειες είναι ίσες εάν όλα τα σχήματα, τα στυλ, τα κείμενα, οι κινήσεις και άλλες ρυθμίσεις κ.λπ. είναι ίσα. Η σύγκριση δεν λαμβάνει υπόψη τις μοναδικές τιμές αναγνωριστικών, π.χ. SlideId, και το δυναμικό περιεχόμενο, π.χ. την τρέχουσα τιμή ημερομηνίας στο Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Βρίσκει την πρώτη εμφάνιση σχήματος με το καθορισμένο εναλλακτικό κείμενο. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Συνδέει διαδοχικές ακολουθίες με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Συνενώνει τα runs με την ίδια μορφοποίηση σε όλες τις παραγράφους σε όλα τα αποδεκτά σχήματα. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IThemeable](../../aspose.slides.theme/ithemeable)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* διασύνδεση [IThemeable](../../aspose.slides.theme/ithemeable)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

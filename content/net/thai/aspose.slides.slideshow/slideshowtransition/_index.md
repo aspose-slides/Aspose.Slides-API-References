@@ -1,14 +1,14 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงการเปลี่ยนสไลด์โชว์.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เป็นตัวแทนการเปลี่ยนสไลด์โชว์.
 type: docs
 weight: 10320
 url: /th/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition คลาส
 
-แสดงการเปลี่ยนสไลด์โชว์.
+Represents slide show transition.
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
@@ -18,25 +18,25 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | แอตทริบิวต์นี้ระบุว่าการแสดงสไลด์จะย้ายไปยังสไลด์ถัดไปหลังจากเวลาที่กำหนด. Read/write Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | ระบุเวลาที่หน่วยเป็นมิลลิวินาที หลังจากนั้นการเปลี่ยนสไลด์ควรเริ่มต้น การตั้งค่านี้อาจใช้ร่วมกับแอตทริบิวต์ advClick หากแอตทริบิวต์นี้ไม่ได้ระบุ จะถือว่าไม่มีการเลื่อนอัตโนมัติเกิดขึ้น. Read/write UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | ระบุว่าการคลิกเมาส์จะทำให้สไลด์เลื่อนไปหรือไม่ หากแอตทริบิวต์นี้ไม่ได้ระบุ จะถือว่าค่าจริงเป็นค่าเริ่มต้น. Read/write Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | รับหรือกำหนดระยะเวลาของเอฟเฟกต์การเปลี่ยนสไลด์เป็นมิลลิวินาที. Read/write Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | รับหรือกำหนดข้อมูลเสียงที่ฝังไว้. Read/write [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | ระบุว่าเสียงนี้เป็นเสียงที่รวมมาในระบบหรือไม่ หากแอตทริบิวต์นี้ตั้งค่าเป็น true จะทำให้แอปพลิเคชันที่สร้างแจ้งให้ตรวจสอบแอตทริบิวต์ name ที่ระบุสำหรับเสียงนี้ในรายการเสียงที่รวมมาในระบบและสามารถแสดงชื่อหรือ UI ที่กำหนดเองตามต้องการ. Read-write Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | แอตทริบิวต์นี้ระบุว่าเสียงจะวนซ้ำจนกว่าจะเกิดเหตุการณ์เสียงถัดไปใน slideshow. Read/write Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | ตั้งค่าหรือรับโหมดเสียงสำหรับการเปลี่ยนสไลด์. Read/write [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | ระบุชื่อที่อ่านเข้าใจได้สำหรับเสียงของการเปลี่ยนสไลด์. ต้องกำหนดค่า property [`Sound`](./sound) เพื่อรับหรือกำหนดชื่อเสียง. Read-write String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | ระบุความเร็วของการเปลี่ยนสไลด์ที่จะใช้เมื่อเปลี่ยนจากสไลด์ปัจจุบันไปยังสไลด์ต่อไป. Read/write [`TransitionSpeed`](../transitionspeed). |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | ประเภทของการเปลี่ยนสไลด์. Read/write [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | ค่าการเปลี่ยนสไลด์โชว์. Read-only [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | แอตทริบิวต์นี้ระบุว่าการสไลด์โชว์จะย้ายไปสไลด์ถัดไปหลังจากเวลาที่กำหนด อ่าน/เขียน Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | ระบุเวลาเป็นมิลลิวินาทีหลังจากนั้นการเปลี่ยนภาพควรเริ่มต้น การตั้งค่านี้อาจใช้ร่วมกับแอตทริบิวต์ advClick หากแอตทริบิวต์นี้ไม่ได้ระบุจะถือว่าไม่มีการเลื่อนอัตโนมัติเกิดขึ้น อ่าน/เขียน UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | ระบุว่าการคลิกเมาส์จะทำให้สไลด์เลื่อนต่อหรือไม่ หากแอตทริบิวต์นี้ไม่ได้ระบุจะถือว่าค่าที่เป็น true ถูกสมมติอ่าน/เขียน Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | รับหรือกำหนดระยะเวลาเอฟเฟกต์การเปลี่ยนสไลด์เป็นมิลลิวินาที อ่าน/เขียน Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | รับหรือกำหนดข้อมูลเสียงที่ฝังไว้ อ่าน/เขียน [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | ระบุว่าเสียงนี้เป็นเสียงที่มีมาในตัวหรือไม่ หากแอตทริบิวต์นี้ตั้งค่าเป็น true แล้วแอปพลิเคชันที่สร้างจะถูกแจ้งให้ตรวจสอบแอตทริบิวต์ name ที่ระบุสำหรับเสียงนี้ในรายการเสียงที่มีมาในตัวและสามารถแสดงชื่อหรือ UI ที่กำหนดเองตามความต้องการ อ่าน/เขียน Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | แอตทริบิวต์นี้ระบุว่าข้อเสียงจะวนซ้ำจนกว่าเหตุการณ์เสียงถัดไปจะเกิดในสไลด์โชว์ อ่าน/เขียน Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | กำหนดหรือรับโหมดเสียงสำหรับการเปลี่ยนสไลด์ อ่าน/เขียน [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | ระบุชื่อที่อ่านเข้าใจได้สำหรับเสียงของการเปลี่ยนแปลง แอตทริบิวต์ [`Sound`](./sound) ต้องถูกกำหนดเพื่อรับหรือกำหนดชื่อเสียง อ่าน/เขียน String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | ระบุความเร็วของการเปลี่ยนแปลงที่จะใช้เมื่อเปลี่ยนจากสไลด์ปัจจุบันไปยังสไลด์ถัดไป อ่าน/เขียน [`TransitionSpeed`](../transitionspeed). |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | ประเภทของการเปลี่ยนแปลง อ่าน/เขียน [`TransitionType`](../transitiontype). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | ค่าการเปลี่ยนแปลงสไลด์โชว์ อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | กำหนดว่าตัวอย่าง SlideShowTransition สองตัวเท่ากันหรือไม่. Read/write Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | กำหนดว่าตัวอย่าง SlideShowTransition สองตัวเท่ากันหรือไม่ อ่าน/เขียน Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ซึ่งเหมาะสำหรับใช้ในอัลกอริธิมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: ColorChange
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Color Change エフェクトを表します。FromColor のインスタンスは ToColor のインスタンスに置き換えられます。
 type: docs
-weight: 2920
+weight: 2940
 url: /ja/aspose.slides.effects/colorchange/
 ---
 ## ColorChange クラス
@@ -18,17 +18,17 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 置き換えられる色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 置き換える色。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 置き換えられるカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | 置き換えるカラー。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 指定された [`ColorChange`](../colorchange) が現在の [`ColorChange`](../colorchange) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 継承が適用された有効な Color Change エフェクト データを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 特定の型のハッシュ関数として機能します。 |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 指定された [`ColorChange`](../colorchange) が現在の [`ColorChange`](../colorchange) と等しいかどうかを判定します。 |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 継承が適用された有効な Color Change エフェクトデータを取得します。 |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照
 

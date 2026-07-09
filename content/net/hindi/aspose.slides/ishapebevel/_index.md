@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: शैप्स के मुख्य फेस रिलीफ़ की विशेषताओं का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: आकार के मुख्य चेहरे के रिलीफ़ की गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 6960
 url: /hi/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel इंटरफ़ेस
 
-शेप के मुख्य फेस रिलीफ की विशेषताओं का प्रतिनिधित्व करता है।
+आकार के मुख्य चेहरे के रिलीफ़ की गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IShapeBevel
@@ -18,11 +18,11 @@ public interface IShapeBevel
 
 | नाम | विवरण |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Bevel प्रकार. पढ़ें/लिखें [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevel ऊँचाई. पढ़ें/लिखें Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevel चौड़ाई. पढ़ें/लिखें Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | Bevel प्रकार। पढ़ें/लिखें [`BevelPresetType`](../bevelpresettype)। |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | Bevel ऊँचाई। पढ़ें/लिखें Double। |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | Bevel चौड़ाई। पढ़ें/लिखें Double। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

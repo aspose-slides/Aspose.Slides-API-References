@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: ऐसी अपरिवर्तनीय वस्तु जो प्रभावी तालिका पंक्ति स्वरूपण गुणधर्मों को समाहित करती है।
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी तालिका पंक्ति स्वरूपण गुणों को सम्मिलित करती है।
 type: docs
 weight: 6880
 url: /hi/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो प्रभावी तालिका पंक्ति स्वरूपण गुणधर्मों को समाहित करती है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी तालिका पंक्ति स्वरूपण गुणों को सम्मिलित करती है।
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | बेस IBaseTableFormatEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | आधार IBaseTableFormatEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)। |
 
-### टिप्पणियाँ
+### टिप्पणियां
 
-यह इंटरफ़ेस [`IRowFormat`](../irowformat) इंटरफ़ेस के साथ मिलकर उत्तराधिकार और तालिका शैलियों के साथ लागू किए गए प्रभावी स्वरूपण मानों को लौटाता है।
+यह इंटरफ़ेस [`IRowFormat`](../irowformat) इंटरफ़ेस के साथ मिलकर विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी स्वरूपण मान लौटाने के लिए उपयोग किया जाता है।
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

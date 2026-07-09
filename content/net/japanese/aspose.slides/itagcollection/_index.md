@@ -1,14 +1,14 @@
 ---
 title: ITagCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: タグ（ユーザー定義の文字列ペア）のコレクションを表します
+description: タグのコレクション（ユーザー定義の文字列ペア）を表します
 type: docs
-weight: 7240
+weight: 7260
 url: /ja/aspose.slides/itagcollection/
 ---
 ## ITagCollection インターフェイス
 
-タグのコレクション（ユーザーが定義した文字列のペア）を表します
+タグのコレクション（ユーザー定義の文字列ペア）を表します。
 
 ```csharp
 public interface ITagCollection : IGenericCollection<KeyValuePair<string, string>>
@@ -16,17 +16,17 @@ public interface ITagCollection : IGenericCollection<KeyValuePair<string, string
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/itagcollection/item) { get; set; } | タグのキーと値のペアを取得または設定します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/itagcollection/add)(string, string) | コレクションに新しいタグを追加します。 |
 | [Clear](../../aspose.slides/itagcollection/clear)() | コレクションからすべてのタグを削除します。 |
-| [Contains](../../aspose.slides/itagcollection/contains)(string) | コレクションが特定の名前を含むかどうかを判断します。 |
+| [Contains](../../aspose.slides/itagcollection/contains)(string) | コレクションに特定の名前が含まれているかどうかを判断します。 |
 | [GetNameByIndex](../../aspose.slides/itagcollection/getnamebyindex)(int) | 指定されたインデックスのタグのキーを返します。 |
 | [GetNamesOfTags](../../aspose.slides/itagcollection/getnamesoftags)() | タグの名前を返します。 |
 | [GetValueByIndex](../../aspose.slides/itagcollection/getvaluebyindex)(int) | 指定されたインデックスのタグの値を返します。 |

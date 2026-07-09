@@ -1,12 +1,12 @@
 ---
 title: IMathAccentFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per la documentazione API .NET
 description: Consente di creare un accento matematico
 type: docs
-weight: 8070
+weight: 8090
 url: /it/aspose.slides.mathtext/imathaccentfactory/
 ---
-## IMathAccentFactory interfaccia
+## interfaccia IMathAccentFactory
 
 Consente di creare un accento matematico
 
@@ -23,7 +23,7 @@ public interface IMathAccentFactory
 
 ### Osservazioni
 
-Per la compatibilità COM
+Per compatibilità COM
 
 ### Vedi anche
 

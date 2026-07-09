@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
 second_title: Aspose.Sildes için .NET API Referansı
-description: Taban çizgisindeki metin ve hemen üstünde veya altında bulunan küçültülmüş boyutlu metinden oluşan Limit nesnesini belirtir.
+description: Alt çizgi üzerindeki metin ve hemen üstünde veya altında bulunan küçültülmüş metinden oluşan Limit nesnesini belirtir.
 type: docs
-weight: 8300
+weight: 8320
 url: /tr/aspose.slides.mathtext/imathlimit/
 ---
-## IMathLimit arayüzü
+## IMathLimit arayüz
 
-Temel üzerindeki metin ve hemen üstünde veya altında bulunan küçültülmüş boyutlu metinden oluşan Limit nesnesini tanımlar.
+Alt çizgi üzerindeki metin ve hemen üstünde veya altında bulunan küçültülmüş metinden oluşan Limit nesnesini belirtir.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -32,7 +32,7 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

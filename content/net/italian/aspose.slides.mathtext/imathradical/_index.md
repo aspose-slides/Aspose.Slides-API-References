@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Specifica la funzione radicale composta da una base e da un grado opzionale. Un esempio di oggetto radicale è .
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Specifica la funzione radice composta da una base e da un grado opzionale. Esempio di oggetto radice è .
 type: docs
-weight: 8410
+weight: 8430
 url: /it/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical interfaccia
 
-Specifica la funzione radicale, composta da una base e da un grado opzionale. Un esempio di oggetto radicale è √𝑥.
+Specifica la funzione radice, composta da una base e un grado opzionale. Un esempio di oggetto radice è √𝑥.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -21,7 +21,7 @@ public interface IMathRadical : IMathElement
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | Argomento base |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | Argomento grado |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Nascondi grado. Quando è true, il grado non viene mostrato, come in √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Nascondi grado Quando è true, il grado non è mostrato, come in √𝑥 |
 
 ### Esempi
 

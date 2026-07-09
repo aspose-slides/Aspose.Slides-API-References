@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Definisce un piano in cui gli effetti, come bagliore e ombra, vengono applicati in relazione alla forma a cui sono applicati.
 type: docs
-weight: 900
+weight: 920
 url: /it/aspose.slides/backdrop3dscene/
 ---
-## classe Backdrop3DScene
+## Backdrop3DScene classe
 
-Definisce un piano in cui gli effetti, come bagliore e ombra, vengono applicati in relazione alla forma a cui vengono applicati.
+Definisce un piano in cui effetti, come bagliore e ombra, vengono applicati in relazione alla forma a cui sono applicati.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -19,9 +19,9 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 | Nome | Descrizione |
 | --- | --- |
 | [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Restituisce o imposta un punto nello spazio 3D. Questo punto è il punto nello spazio che ancorra il piano di sfondo. Punto 3D rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Restituisce o imposta un vettore normale. Per essere più precisi, questo attributo definisce un vettore normale alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Restituisce o imposta un vettore che rappresenta la direzione verso l'alto. Per essere più precisi, questo attributo definisce un vettore che rappresenta la direzione verso l'alto in relazione alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Restituisce o imposta un vettore normale. Più precisamente, questo attributo definisce un vettore normale alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Restituisce o imposta un vettore che rappresenta la direzione verso l'alto. Più precisamente, questo attributo definisce un vettore che rappresenta l'alto in relazione alla faccia del piano di sfondo. Vettore rappresentato da un array di 3 valori float che definiscono le coordinate X, Y e Z. Lettura/scrittura Single[]. |
 
 ## Metodi
 

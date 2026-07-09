@@ -1,9 +1,9 @@
 ---
 title: ITabCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de abas.
 type: docs
-weight: 7180
+weight: 7200
 url: /pt/aspose.slides/itabcollection/
 ---
 ## ITabCollection interface
@@ -24,12 +24,12 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Adiciona um Tab à coleção. |
-| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Adiciona um Tab à coleção. |
+| [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Adiciona uma Tab à coleção. |
+| [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Adiciona uma Tab à coleção. |
 | [Clear](../../aspose.slides/itabcollection/clear)() | Remove todos os elementos da coleção. |
 | [RemoveAt](../../aspose.slides/itabcollection/removeat)(int) | Remove o elemento no índice especificado da coleção. |
 
-### Veja Também
+### Ver também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [ITab](../itab)

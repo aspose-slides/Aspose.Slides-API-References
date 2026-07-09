@@ -1,14 +1,14 @@
 ---
 title: WorkbookType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định loại tệp sách làm việc Open XML.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định loại tệp sổ làm việc Open XML.
 type: docs
 weight: 2510
 url: /vi/aspose.slides.charts/workbooktype/
 ---
-## Kiểu liệt kê WorkbookType
+## WorkbookType liệt kê
 
-Xác định loại tệp sách làm việc Open XML.
+Xác định loại tệp sổ làm việc Open XML.
 
 ```csharp
 public enum WorkbookType
@@ -18,7 +18,7 @@ public enum WorkbookType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Loại sách làm việc không được xác định. |
+| NotDefined | `-1` | Kiểu sổ làm việc không được xác định. |
 | Workbook | `0` | Sổ làm việc Excel (*.xlsx). |
 | WorkbookMacro | `1` | Sổ làm việc Excel hỗ trợ macro (*.xlsm). |
 | Template | `2` | Mẫu Excel (*.xltx). |

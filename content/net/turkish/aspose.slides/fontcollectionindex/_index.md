@@ -3,7 +3,7 @@ title: FontCollectionIndex
 second_title: Aspose.Sildes for .NET API Referansı
 description: Bir koleksiyondaki yazı tiplerinin dizinini temsil eder.
 type: docs
-weight: 4790
+weight: 4810
 url: /tr/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enum
@@ -22,7 +22,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

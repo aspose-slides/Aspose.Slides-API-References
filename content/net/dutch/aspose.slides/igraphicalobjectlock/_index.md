@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende GraphicalObjectEx.
+description: Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende GraphicalObjectEx.
 type: docs
 weight: 6070
 url: /nl/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock interface
 
-Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende GraphicalObjectEx.
+Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende GraphicalObjectEx.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,9 +18,9 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Staat toe de basis IBaseShapeLock interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Bepaalt of de vorm de beeldverhouding moet behouden bij het wijzigen van de grootte. Lezen/Schrijven Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bepaalt of het selecteren van subvormen van dit object verboden is. Lezen/Schrijven Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Staat toe om de basis-IBaseShapeLock interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Bepaalt of de vorm de beeldverhouding moet behouden bij het schalen. Lezen/Schrijven Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bepaalt of het selecteren van deelvormen van dit object verboden is. Lezen/Schrijven Boolean. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/Schrijven Boolean. |
 | [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/Schrijven Boolean. |
 | [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/Schrijven Boolean. |

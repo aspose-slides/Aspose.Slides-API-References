@@ -1,14 +1,14 @@
 ---
 title: AlphaInverse
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Alpha Inverse effect voor. Alpha-opaciteitswaarden worden omgekeerd door ze van 100 af te trekken.
+description: Stelt een Alpha Inverse effect voor. Alpha doorzichtigheidswaarden worden omgekeerd door ze af te trekken van 100.
 type: docs
 weight: 2870
 url: /nl/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse klasse
 
-Vertegenwoordigt een Alpha Inverse effect. Alpha (opacity) waarden worden omgekeerd door ze van 100% af te trekken.
+Stelt een Alpha Inverse effect voor. Alpha (doorzichtigheid) waarden worden omgekeerd door ze af te trekken van 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
@@ -18,14 +18,14 @@ public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface te verkrijgen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt toe om de basale IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Bepaalt of de opgegeven [`AlphaInverse`](../alphainverse) gelijk is aan de huidige [`AlphaInverse`](../alphainverse). |
-| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Haalt de effectieve Alpha Inverse effectgegevens op met de overerving toegepast. |
+| override [Equals](../../aspose.slides.effects/alphainverse/equals)(object) | Bepaalt of de gespecificeerde [`AlphaInverse`](../alphainverse) gelijk is aan de huidige [`AlphaInverse`](../alphainverse). |
+| [GetEffective](../../aspose.slides.effects/alphainverse/geteffective)() | Haalt effectieve Alpha Inverse effectgegevens op met de geërfde waarden toegepast. |
 | override [GetHashCode](../../aspose.slides.effects/alphainverse/gethashcode)() | Dient als hashfunctie voor een bepaald type. |
 
 ### Zie ook

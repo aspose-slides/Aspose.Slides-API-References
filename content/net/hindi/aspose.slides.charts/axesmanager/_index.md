@@ -1,14 +1,14 @@
 ---
 title: AxesManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट धुरियों तक पहुंच प्रदान करता है।
+description: चार्ट अक्षों तक पहुंच प्रदान करता है।
 type: docs
 weight: 1170
 url: /hi/aspose.slides.charts/axesmanager/
 ---
-## AxesManager वर्ग
+## AxesManager क्लास
 
-चार्ट धुरियों तक पहुंच प्रदान करता है।
+चार्ट अक्षों तक पहुंच प्रदान करता है।
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager
@@ -18,16 +18,16 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | नाम | विवरण |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | चार्ट की क्षैतिज धुरी प्राप्त करता है। केवल-पढ़ने योग्य [`IAxis`](../iaxis)। |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | चार्ट की द्वितीयक क्षैतिज धुरी प्राप्त करता है। केवल-पढ़ने योग्य [`IAxis`](../iaxis)। |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | चार्ट की द्वितीयक लंबवत धुरी प्राप्त करता है। केवल-पढ़ने योग्य [`IAxis`](../iaxis)। |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | चार्ट की श्रृंखला धुरी प्राप्त करता है। केवल-पढ़ने योग्य [`IAxis`](../iaxis)। |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | चार्ट की लंबवत धुरी प्राप्त करता है। केवल-पढ़ने योग्य [`IAxis`](../iaxis)। |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | चार्ट के क्षैतिज अक्ष को प्राप्त करता है। केवल-पठन [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | चार्ट के द्वितीयक क्षैतिज अक्ष को प्राप्त करता है। केवल-पठन [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | चार्ट के द्वितीयक लंबवत अक्ष को प्राप्त करता है। केवल-पठन [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | चार्ट के श्रृंखला अक्ष को प्राप्त करता है। केवल-पठन [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | चार्ट के लंबवत अक्ष को प्राप्त करता है। केवल-पठन [`IAxis`](../iaxis). |
 
-### और देखें
+### देखें भी
 
-* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* वर्ग [Chart](../chart)
+* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* क्लास [Chart](../chart)
 * इंटरफ़ेस [IAxesManager](../iaxesmanager)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

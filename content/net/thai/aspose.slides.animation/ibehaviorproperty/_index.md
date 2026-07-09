@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แทนประเภทคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. อ้างอิงรายการคุณสมบัติตามจาก https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx และ https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทของคุณสมบัติเพื่อพฤติกรรมการเคลื่อนไหว. อ้างอิงจากรายการคุณสมบัติตามลิงก์ https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx และ https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 440
 url: /th/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty อินเทอร์เฟซ
 
-แสดงประเภทคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. ตามรายการคุณสมบัติจาก https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx และ https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+แสดงประเภทของคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. อ้างอิงจากรายการคุณสมบัติตามลิงก์ https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx และ https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | แสดงว่าคุณสมบัตินี้ไม่ได้อยู่ในรายการคุณสมบัติที่กำหนดไว้ล่วงหน้าในข้อกำหนด: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | แสดงว่าคุณสมบัตินี้ไม่ได้อยู่ในรายการคุณสมบัติกำหนดล่วงหน้าในสเปค: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | ค่าของคุณสมบัติ |
 
 ### ดูเพิ่มเติม

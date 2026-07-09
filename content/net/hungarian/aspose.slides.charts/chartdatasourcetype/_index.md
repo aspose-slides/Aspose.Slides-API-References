@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes .NET API Referencia
-description: A diagram adatforrásának típusát jelöli
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diagram adatforrásának típusát képviseli
 type: docs
-weight: 1350
+weight: 1370
 url: /hu/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType felsorolás
 
-A diagram adatforrásának típusát képviseli
+Egy diagram adatforrásának típusát képviseli
 
 ```csharp
 public enum ChartDataSourceType
@@ -16,7 +16,7 @@ public enum ChartDataSourceType
 
 ### Értékek
 
-| Név | Érték | Leírás |
+| Name | Value | Description |
 | --- | --- | --- |
 | InternalWorkbook | `0` | Belső adatforrás. |
 | ExternalWorkbook | `1` | Külső adatforrás. |

@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: चार्ट फ़ॉर्मेट गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 1680
 url: /hi/aspose.slides.charts/format/
 ---
-## फ़ॉर्मेट क्लास
+## Format क्लास
 
-चार्ट फ़ॉर्मेट गुणों का प्रतिनिधित्व करता है।
+Represents chart format properties.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -18,20 +18,20 @@ public sealed class Format : PVIObject, IFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | चार्ट के लिए उपयोग किए जाने वाले इफ़ेक्ट्स लौटाता है। केवल पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat)। |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | चार्ट का 3D फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IThreeDFormat`](../../aspose.slides/ithreedformat)। |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | चार्ट की फ़िल स्टाइल गुणों को लौटाता है। केवल पढ़ने योग्य [`IFillFormat`](../../aspose.slides/ifillformat)। |
-| [Line](../../aspose.slides.charts/format/line) { get; } | चार्ट की लाइन स्टाइल गुणों को लौटाता है। केवल पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। पढ़ने-केवल [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | एक चार्ट के लिए उपयोग किए गए इफ़ेक्ट्स लौटाता है। पढ़ने-केवल [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | एक चार्ट का 3D फॉर्मेट लौटाता है। पढ़ने-केवल [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | एक चार्ट की fill style प्रॉपर्टीज़ लौटाता है। पढ़ने-केवल [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | एक चार्ट की line style प्रॉपर्टीज़ लौटाता है। पढ़ने-केवल [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-## विधियाँ
+## विधाएँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
-### और देखें
+### संबंधित देखें
 
 * क्लास [PVIObject](../../aspose.slides/pviobject)
 * इंटरफ़ेस [IFormat](../iformat)

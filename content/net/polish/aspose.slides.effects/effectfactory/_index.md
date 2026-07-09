@@ -1,12 +1,12 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia tworzenie efektów
 type: docs
-weight: 2950
+weight: 2970
 url: /pl/aspose.slides.effects/effectfactory/
 ---
-## EffectFactory klasa
+## Klasa EffectFactory
 
 Umożliwia tworzenie efektów
 
@@ -16,32 +16,32 @@ public class EffectFactory : IEffectFactory
 
 ## Konstruktory
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [EffectFactory](effectfactory)() | Domyślny konstruktor. |
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Zwraca ImageTransformOperationFactory. Tylko do odczytu [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Tworzy efekt poświaty. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Tworzy efekt wewnętrznego cienia. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Tworzy efekt zewnętrznego cienia. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Tworzy efekt cienia wstępnie ustawionego. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Tworzy efekt odbicia. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Tworzy efekt miękkiej krawędzi. |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Tworzy efekt Glow. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Tworzy efekt Inner shafow. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Tworzy efekt Outer shadow. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Tworzy efekt Preset shadow. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Tworzy efekt Reflection. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Tworzy efekt Soft Edge. |
 
 ### Uwagi
 
-Dla zgodności z COM.
+For COM compatibility.
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [IEffectFactory](../ieffectfactory)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)

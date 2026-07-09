@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ErrorBars のカスタム値は ErrorBarsCustomValues の IChartDataPointCollection の ./ichartdatapoint/errorbarscustomvalues プロパティにあります。
+description: チャート系列のエラーバーを表します。ErrorBars のカスタム値は ErrorBarsCustomValues の IChartDataPointCollection の /ichartdatapoint/errorbarscustomvalues プロパティにあります。
 type: docs
-weight: 1650
+weight: 1670
 url: /ja/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat クラス
 
-チャート系列のエラーバーを表します。ErrorBars のカスタム値は IChartDataPointCollection にあります（[`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) プロパティ内）。
+チャート系列のエラーバーを表します。ErrorBars のカスタム値は [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) プロパティの IChartDataPointCollection にあります。
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -18,13 +18,13 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | エラーバーの形式を表します。読み書き可能 [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | エラーバーの端キャップが描画されないことを指定します。読み書き可能 Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | エラーバーの表示を取得または設定します。読み書き可能 Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | エラーバーのタイプを取得または設定します。読み書き可能 [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | エラーバーの長さを決定するために Fixed、Percentage、StandardDeviation の値タイプで使用される値を取得または設定します。他の場合は NaN を返します。読み書き可能 Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | エラーバーの長さを決定するための可能な方法を表します。カスタム値タイプの場合、シリーズの DataPoints コレクション内の特定データポイントの [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) プロパティを使用して値を指定します。Fixed、Percentage、または StandardDeviation の値タイプの場合、Value プロパティを使用して値を指定します。読み書き可能 [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | エラーバーの書式を表します。読み取り/書き込み [`IFormat`](../iformat)。 |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | エラーバーの端にキャップを描画しないことを指定します。読み取り/書き込み Boolean。 |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Error Bars の可視性を取得または設定します。読み取り/書き込み Boolean。 |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Error Bars のタイプを取得または設定します。読み取り/書き込み [`ErrorBarType`](../errorbartype)。 |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Fixed、Percentage、StandardDeviation の値タイプで使用され、エラーバーの長さを決定する値を取得または設定します。他の場合は NaN を返します。読み取り/書き込み Single。 |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | エラーバーの長さを決定する可能な方法を表します。カスタム値タイプの場合は、系列の DataPoints コレクション内の特定データポイントの [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) プロパティを使用して値を指定します。Fixed、Percentage、StandardDeviation 値タイプの場合は Value プロパティで値を指定します。読み取り/書き込み [`ErrorBarValueType`](../errorbarvaluetype)。 |
 
 ### 参照
 

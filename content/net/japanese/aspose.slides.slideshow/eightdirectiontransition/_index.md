@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 八方向スライド遷移効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 8方向のスライド遷移効果。
 type: docs
-weight: 10000
+weight: 10020
 url: /ja/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## EightDirectionTransition クラス
 
-8方向スライド遷移効果。
+8方向のスライド遷移効果。
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -18,14 +18,14 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | 名前 | 説明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 遷移の方向。読み書き [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/eightdirectiontransition/direction) { get; set; } | 遷移の方向。読み取り/書き込み [`TransitionEightDirectionType`](../transitioneightdirectiontype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造で使用するのに適しています。 |
 
 ### 参照
 

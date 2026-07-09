@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matematik grup karakteri oluşturmayı sağlar
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir matematik gruplama karakteri oluşturmayı sağlar
 type: docs
-weight: 8280
+weight: 8300
 url: /tr/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
-## IMathGroupingCharacterFactory arayüzü
+## IMathGroupingCharacterFactory arayüz
 
-Matematik grup karakteri oluşturmayı sağlar
+Matematik gruplama karakteri oluşturmayı sağlar
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -18,8 +18,8 @@ public interface IMathGroupingCharacterFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Bir matematik grup karakteri oluşturur |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Bir matematik grup karakteri oluşturur |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | Bir matematik gruplama karakteri oluşturur |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | Bir matematik gruplama karakteri oluşturur |
 
 ### Açıklamalar
 

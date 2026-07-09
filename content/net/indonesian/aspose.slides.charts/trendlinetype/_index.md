@@ -1,12 +1,12 @@
 ---
 title: TrendlineType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili jenis garis tren
 type: docs
-weight: 2470
+weight: 2490
 url: /id/aspose.slides.charts/trendlinetype/
 ---
-## TrendlineType enumerasi
+## enumerasi TrendlineType
 
 Mewakili jenis garis tren
 
@@ -18,12 +18,12 @@ public enum TrendlineType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Exponential | `0` | Menentukan bahwa garis tren harus berupa kurva eksponensial dalam bentuk. |
-| Linear | `1` | Menentukan bahwa garis tren harus berupa sebuah garis dalam bentuk. |
-| Logarithmic | `2` | Menentukan bahwa garis tren harus berupa kurva logaritmik dalam bentuk, dimana log adalah logaritma natural. |
-| MovingAverage | `3` | Menentukan bahwa garis tren harus berupa rata-rata bergerak dengan periode Period. |
-| Polynomial | `4` | Menentukan bahwa garis tren harus berupa kurva polinomial berurutan Order dalam bentuk. |
-| Power | `5` | Menentukan bahwa garis tren harus berupa kurva pangkat dalam bentuk. |
+| Exponential | `0` | Menentukan bahwa trendline harus berupa kurva eksponensial dalam bentuk. |
+| Linear | `1` | Menentukan bahwa trendline harus berupa garis dalam bentuk. |
+| Logarithmic | `2` | Menentukan bahwa trendline harus berupa kurva logaritmik dalam bentuk, di mana log adalah logaritma natural. |
+| MovingAverage | `3` | Menentukan bahwa trendline harus berupa rata-rata bergerak dengan periode Period. |
+| Polynomial | `4` | Menentukan bahwa trendline harus berupa kurva polinomial berordo Order dalam bentuk. |
+| Power | `5` | Menentukan bahwa trendline harus berupa kurva pangkat dalam bentuk. |
 
 ### Lihat Juga
 

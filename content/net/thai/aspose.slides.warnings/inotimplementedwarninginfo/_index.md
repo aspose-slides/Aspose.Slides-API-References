@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคำเตือนเกี่ยวกับฟีเจอร์ที่ยังไม่ได้ดำเนินการและจะไม่ถูกดำเนินการในอนาคตอันใกล้
+description: แสดงคำเตือนเกี่ยวกับฟีเจอร์ที่ทราบว่าไม่ได้ทำและจะไม่ถูกทำในอนาคตอันใกล้
 type: docs
 weight: 11770
 url: /th/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
-## INotImplementedWarningInfo อินเทอร์เฟซ
+## INotImplementedWarningInfo อินเตอร์เฟซ
 
-แสดงคำเตือนเกี่ยวกับฟีเจอร์ที่ยังไม่ได้ดำเนินการที่ทราบและจะไม่ถูกดำเนินการในอนาคตอันใกล้.
+แสดงคำเตือนเกี่ยวกับฟีเจอร์ที่รู้ว่าไม่ได้ทำและจะไม่ถูกทำในอนาคตอันใกล้
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -18,11 +18,11 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | ส่งคืน IWarningInfo interface. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | คืนค่า IWarningInfo อินเตอร์เฟซ. อ่านอย่างเดียว [`IWarningInfo`](../iwarninginfo). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IWarningInfo](../iwarninginfo)
+* อินเตอร์เฟซ [IWarningInfo](../iwarninginfo)
 * เนมสเปซ [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * แอสเซมบลี [Aspose.Slides](../../)
 

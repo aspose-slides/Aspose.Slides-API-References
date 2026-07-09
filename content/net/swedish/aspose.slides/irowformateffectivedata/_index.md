@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellrader.
+description: Oföränderligt objekt som innehåller effektiva tabellradformatsegenskaper.
 type: docs
-weight: 6860
+weight: 6880
 url: /sv/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller de effektiva formateringsegenskaperna för tabellrader.
+Oföränderligt objekt som innehåller effektiva tabellradformatsegenskaper.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,7 +22,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`IRowFormat`](../irowformat)-gränssnittet för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
+Detta gränssnitt används tillsammans med [`IRowFormat`](../irowformat) gränssnitt för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
 
 ### Se också
 

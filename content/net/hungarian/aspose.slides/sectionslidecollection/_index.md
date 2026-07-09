@@ -1,9 +1,9 @@
 ---
 title: SectionSlideCollection
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: A szekcióban lévő diák gyűjteményét képviseli.
 type: docs
-weight: 9750
+weight: 9770
 url: /hu/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection osztály
@@ -18,16 +18,16 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | A ténylegesen a gyűjteményben lévő elemek számát adja vissza. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely azt jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | A megadott indexnél lévő elemet adja vissza. Csak olvasható [`ISlide`](../islide). |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Visszaadja a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjtemény elérése szinkronizált (szálbiztos)-e. Csak olvasható Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Visszaadja a megadott indexnél lévő elemet. Csak olvasható [`ISlide`](../islide). |
 | [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökeret. Csak olvasható Object. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Átmásolja a teljes gyűjteményt a megadott tömbbe. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Lemásolja a teljes gyűjteményt a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Lásd még

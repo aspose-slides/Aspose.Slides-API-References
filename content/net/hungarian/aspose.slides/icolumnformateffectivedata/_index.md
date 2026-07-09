@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Módosíthatatlan objektum, amely hatékony táblázatoszlop formázási tulajdonságokat tartalmaz.
+description: Változtathatatlan objektum, amely a hatékony táblázat oszlopszintű formázási tulajdonságokat tartalmaz.
 type: docs
-weight: 5530
+weight: 5550
 url: /hu/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely hatékony táblázatoszlop formázási tulajdonságokat tartalmaz.
+Változtathatatlan objektum, amely a hatékony táblázat oszlopszintű formázási tulajdonságokat tartalmaz.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az IBaseTableFormatEffectiveData interfész lekérdezését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az alap IBaseTableFormatEffectiveData interfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész a [`IColumnFormat`](../icolumnformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához öröklődéssel és táblastílusok alkalmazásával.
+Ez az interfész a [`IColumnFormat`](../icolumnformat) interfésszel együtt használatos a hatékony formázási értékek visszaadására öröklődéssel és alkalmazott táblastílusokkal.
 
 ### Lásd még
 

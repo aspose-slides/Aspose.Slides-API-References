@@ -1,9 +1,9 @@
 ---
 title: AnimationTimeLine
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje oś czasu animacji.
 type: docs
-weight: 110
+weight: 130
 url: /pl/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine klasa
@@ -18,8 +18,8 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Nazwa | Opis |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Zwraca kolekcję interaktywnych sekwencji. Te sekwencje mogą zawierać wyłącznie efekty poprzez „click on shape” z określonym docelowym kształtem. Tylko do odczytu [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Zwraca główną sekwencję, która może zawierać wyłącznie główną kolekcję efektów. Tylko do odczytu [`ISequence`](../isequence). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Zwraca kolekcję interaktywnych sekwencji. Te sekwencje mogą zawierać tylko efekty poprzez „kliknięcie na kształt” z określonym docelowym kształtem. Tylko do odczytu [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Zwraca główną sekwencję, która może zawierać tylko główną kolekcję efektów. Tylko do odczytu [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Zwraca kolekcję animacji tekstu. Tylko do odczytu [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### Zobacz także

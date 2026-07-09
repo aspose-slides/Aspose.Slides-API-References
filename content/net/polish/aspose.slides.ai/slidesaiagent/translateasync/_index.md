@@ -1,6 +1,6 @@
 ---
 title: TranslateAsync
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Tłumaczy prezentację na określony język przy użyciu sztucznej inteligencji.
 type: docs
 weight: 50
@@ -21,10 +21,18 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 ### Wyjątki
 
-| wyjątek | warunek |
+| Wyjątek | warunek |
 | --- | --- |
 | ArgumentNullException | Instancja prezentacji nie została podana |
-| ArgumentException | Wartość języka nie może być null lub pusta |
+| ArgumentException | Wartość języka nie może być pusta ani null |
+
+### Uwagi
+
+Poniższy przykład używa domyślnego [`AsposeAIWebClient`](../../asposeaiwebclient), który jest tworzony przez konstruktor bezparametrowy [`SlidesAIAgent`](../slidesaiagent) i łączy się z własnym LLM firmy Aspose. Aby użyć innego dostawcy AI, dostarcz własny LLM lub dostosuj połączenie (na przykład, podając własny `HttpClient`), przekaż implementację [`IAIWebClient`](../../iaiwebclient) do konstruktora [`SlidesAIAgent`](../slidesaiagent). Dostępne implementacje obejmują:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Zobacz także
 

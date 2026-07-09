@@ -1,14 +1,14 @@
 ---
 title: FillBlendMode
 second_title: Aspose.Sildes برای .NET مرجع API
-description: تعیین می‌کند حالت ترکیب.
+description: حالت ترکیب را تعیین می‌کند.
 type: docs
 weight: 4770
 url: /fa/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode شمارش
 
-تعیین می‌کند حالت ترکیب.
+حالت ترکیب را تعیین می‌کند.
 
 ```csharp
 public enum FillBlendMode
@@ -18,11 +18,11 @@ public enum FillBlendMode
 
 | نام | مقدار | توضیح |
 | --- | --- | --- |
-| Darken | `0` | Darken حالت ترکیب. |
-| Lighten | `1` | Lighten حالت ترکیب. |
-| Multiply | `2` | Multiply حالت ترکیب. |
-| Overlay | `3` | Overlay حالت ترکیب. |
-| Screen | `4` | Screen حالت ترکیب. |
+| Darken | `0` | حالت ترکیب Darken. |
+| Lighten | `1` | حالت ترکیب Lighten. |
+| Multiply | `2` | حالت ترکیب Multiply. |
+| Overlay | `3` | حالت ترکیب Overlay. |
+| Screen | `4` | حالت ترکیب Screen. |
 
 ### موارد مرتبط
 

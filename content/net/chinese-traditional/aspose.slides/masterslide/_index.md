@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示簡報中的母片投影片。
+description: 表示簡報中的母投影片。
 type: docs
 weight: 8030
 url: /zh-hant/aspose.slides/masterslide/
 ---
 ## MasterSlide 類別
 
-表示簡報中的母片投影片。
+表示簡報中的母投影片。
 
 ```csharp
 public class MasterSlide : BaseSlide, IMasterSlide
@@ -16,42 +16,42 @@ public class MasterSlide : BaseSlide, IMasterSlide
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | 返回投影片的背景。唯讀 [`IBackground`](../ibackground)。 |
-| [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | 返回正文文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | 返回投影片上 ActiveX 控制項的集合。唯讀 [`IControlCollection`](../icontrolcollection)。 |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 返回投影片的自訂資料。唯讀 [`ICustomData`](../icustomdata)。 |
-| [DrawingGuides](../../aspose.slides/masterslide/drawingguides) { get; } | 返回母片的繪圖指南集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | 如果至少有一張投影片依賴此母片則返回 true。唯讀 Boolean。 |
-| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | 返回母片的 HeaderFooter 管理員。唯讀 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供對包含的超連結的簡易存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | 返回此母片的子版面投影片集合。唯讀 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
-| override [Name](../../aspose.slides/masterslide/name) { get; set; } | 返回或設定母片的名稱。可讀寫 String。 |
-| [OtherStyle](../../aspose.slides/masterslide/otherstyle) { get; } | 返回其他文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 返回 IPresentation 介面。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | 確定當所有跟隨該母片的投影片都被刪除時，對應的母片是否也會被刪除。注意：Aspose.Slides 不會自行移除任何未使用的母片，若要實際移除未使用的母片，請呼叫 [`RemoveUnused`](../masterslidecollection/removeunused) 可讀寫 Boolean。 |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 返回投影片的圖形。唯讀 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | 指定是否在投影片上顯示母片上的圖形。對於母片本身，此屬性始終返回 `false`。可讀寫 Boolean。 |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 返回投影片的 ID。唯讀 UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 返回 Transition 物件，該物件包含有關指定投影片在投影片放映期間如何前進的資訊。唯讀 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | 返回佈景主題管理員。唯讀 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 返回動畫時間軸物件。唯讀 [`IAnimationTimeLine`](../ianimationtimeline)。 |
-| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | 返回標題文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
+| [Background](../../aspose.slides/baseslide/background) { get; } | 回傳投影片的背景。唯讀 [`IBackground`](../ibackground)。 |
+| [BodyStyle](../../aspose.slides/masterslide/bodystyle) { get; } | 回傳內文文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | 回傳投影片上 ActiveX 控制項的集合。唯讀 [`IControlCollection`](../icontrolcollection)。 |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 回傳投影片的自訂資料。唯讀 [`ICustomData`](../icustomdata)。 |
+| [DrawingGuides](../../aspose.slides/masterslide/drawingguides) { get; } | 回傳母投影片的繪圖參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/masterslide/hasdependingslides) { get; } | 若至少有一張投影片依賴此母投影片，則回傳 true。唯讀 Boolean。 |
+| [HeaderFooterManager](../../aspose.slides/masterslide/headerfootermanager) { get; } | 回傳母投影片的 HeaderFooter 管理器。唯讀 [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供對內含超連結的快速存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [LayoutSlides](../../aspose.slides/masterslide/layoutslides) { get; } | 回傳此母投影片的子版面配置投影片集合。唯讀 [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)。 |
+| override [Name](../../aspose.slides/masterslide/name) { get; set; } | 取得或設定母投影片的名稱。讀寫 String。 |
+| [OtherStyle](../../aspose.slides/masterslide/otherstyle) { get; } | 回傳其他文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 回傳 IPresentation 介面。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Preserve](../../aspose.slides/masterslide/preserve) { get; set; } | 判斷當所有跟隨該母投影片的投影片均被刪除時，對應的母投影片是否也會被刪除。注意：Aspose.Slides 不會自行移除任何未使用的母投影片，若要實際移除未使用的母投影片，請呼叫 [`RemoveUnused`](../masterslidecollection/removeunused)。讀寫 Boolean。 |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 回傳投影片的圖形。唯讀 [`IShapeCollection`](../ishapecollection)。 |
+| override [ShowMasterShapes](../../aspose.slides/masterslide/showmastershapes) { get; set; } | 指定母投影片上的圖形是否應顯示於投影片上。對於母投影片本身，此屬性永遠回傳 `false`。讀寫 Boolean。 |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 回傳投影片的 ID。唯讀 UInt32。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 回傳 Transition 物件，該物件包含有關指定投影片在投影片播放時如何前進的資訊。唯讀 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/masterslide/thememanager) { get; } | 回傳佈景主題管理器。唯讀 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 回傳動畫時間軸物件。唯讀 [`IAnimationTimeLine`](../ianimationtimeline)。 |
+| [TitleStyle](../../aspose.slides/masterslide/titlestyle) { get; } | 回傳標題文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 根據目前的母片建立新的母片，套用外部佈景主題，並將建立的母片套用至所有依賴的投影片。 |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 返回此投影片的有效佈景主題。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 判斷兩個 IBaseSlide 實例是否相等。返回值根據投影片的結構和靜態內容計算。若所有圖形、樣式、文字、動畫及其他設定等皆相等，則兩個投影片相等。比較不考慮唯一識別碼值，例如 SlideId，亦不考慮動態內容，例如日期佔位符中的目前日期值。 |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/masterslide/applyexternalthemetodependingslides)(string) | 根據目前的母投影片建立新的母投影片，套用外部佈景主題，並將建立的母投影片套用至所有相依的投影片。 |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 回傳此投影片的有效佈景主題。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 判斷兩個 IBaseSlide 實例是否相等。回傳值根據投影片的結構與靜態內容計算。若所有圖形、樣式、文字、動畫及其他設定等皆相等，則兩張投影片視為相等。比較時不會考慮唯一識別碼值，例如 SlideId，以及動態內容，例如日期佔位符的目前日期值。 |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 尋找第一個具有指定替代文字的圖形。 |
-| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | 返回一個陣列，包含所有依賴此母片的投影片。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 在所有可接受圖形的所有段落中合併具有相同格式的執行序。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受圖形的所有段落中合併具有相同格式的執行序。 |
+| [GetDependingSlides](../../aspose.slides/masterslide/getdependingslides)() | 回傳一個陣列，內含所有依賴此母投影片的投影片。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 合併所有可接受圖形中所有段落的相同格式文字串。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受的圖形中所有段落內，合併相同格式的文字執行序。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [BaseSlide](../baseslide)
 * 介面 [IMasterSlide](../imasterslide)

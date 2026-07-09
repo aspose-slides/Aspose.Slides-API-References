@@ -1,14 +1,14 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes for .NET API Referansı
-description: Yardımcı satır parametreleri arayüzü.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yardımcı çizgi parametreleri arayüzü.
 type: docs
-weight: 6310
+weight: 6330
 url: /tr/aspose.slides/ilineparamsource/
 ---
-## ILineParamSource arayüz
+## ILineParamSource arayüzü
 
-Yardımcı satır parametreleri arayüzü.
+Yardımcı çizgi parametreleri arayüzü.
 
 ```csharp
 public interface ILineParamSource

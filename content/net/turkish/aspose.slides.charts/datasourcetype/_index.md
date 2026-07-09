@@ -1,9 +1,9 @@
 ---
 title: DataSourceType
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Veri kaynağı türleri.
 type: docs
-weight: 1560
+weight: 1580
 url: /tr/aspose.slides.charts/datasourcetype/
 ---
 ## DataSourceType enum
@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Worksheet | `0` | Veri noktasının XValue, YValue, Value veya BubbleSize değerini çalışma sayfasında saklamak için CellXls nesnelerini kullanın. |
-| StringLiterals | `1` | Veri noktasının XValue, YValue, Value veya BubbleSize değerini saklamak için hızlı erişimli dize değişkeni kullanın. Worksheet, değerleri saklamak için KULLANILMAZ. |
-| DoubleLiterals | `2` | Veri noktasının XValue, YValue, Value veya BubbleSize değerini saklamak için hızlı erişimli double değişkeni kullanın. Worksheet, değerleri saklamak için KULLANILMAZ. |
+| Worksheet | `0` | Veri noktasının XValue, YValue, Value veya BubbleSize değerlerini worksheet içinde saklamak için CellXls nesnelerini kullan. |
+| StringLiterals | `1` | Veri noktasının XValue, YValue, Value veya BubbleSize değerlerini saklamak için hızlı erişimli string değişkeni kullan. Değerlerin saklanması için worksheet kullanılmaz. |
+| DoubleLiterals | `2` | Veri noktasının XValue, YValue, Value veya BubbleSize değerlerini saklamak için hızlı erişimli double değişkeni kullan. Değerlerin saklanması için worksheet kullanılmaz. |
 
 ### Ayrıca Bakınız
 

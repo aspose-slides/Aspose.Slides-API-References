@@ -1,12 +1,12 @@
 ---
 title: ISensitivityLabel
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงป้ายความอ่อนไหวจาก Microsoft Purview Information Protection.
 type: docs
 weight: 6930
 url: /th/aspose.slides/isensitivitylabel/
 ---
-## ISensitivityLabel ส่วนต่อประสาน
+## ISensitivityLabel อินเทอร์เฟซ
 
 แสดงถึงป้ายความอ่อนไหวจาก Microsoft Purview Information Protection.
 
@@ -16,14 +16,14 @@ public interface ISensitivityLabel
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | คืนค่า หรือ กำหนดวิธีการมอบหมายสำหรับป้ายความอ่อนไหว อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
-| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | คืนค่ารายการประเภทของการทำเครื่องหมายเนื้อหาที่ควรนำไปใช้กับไฟล์. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | คืนค่า หรือ กำหนด id ของป้ายความอ่อนไหว อ่าน/เขียน String. |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | ระบุว่าป้ายความอ่อนไหวถูกเปิดใช้งานหรือไม่. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | ระบุว่าป้ายความอ่อนไหวถูกลบออกหรือไม่. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | คืนค่า หรือ กำหนดตัวระบุไซต์ของ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความอ่อนไหวซึ่งอธิบายป้ายความอ่อนไหว อ่าน/เขียน Guid. |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | คืนค่า หรือกำหนดวิธีการมอบหมายสำหรับป้ายความอ่อนไหว อ่าน/เขียน [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | คืนรายการประเภทของการทำเครื่องหมายเนื้อหาที่ควรใช้กับไฟล์. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | คืนค่า หรือกำหนดรหัสของป้ายความอ่อนไหว อ่าน/เขียน String. |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | บ่งชี้ว่าป้ายความอ่อนไหวเปิดใช้งานอยู่หรือไม่. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | บ่งชี้ว่าป้ายความอ่อนไหวถูกลบหรือไม่. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | คืนค่า หรือกำหนดตัวระบุไซต์ของ Azure Active Directory (Azure AD) ที่สอดคล้องกับนโยบายป้ายความอ่อนไหวที่อธิบายป้ายความอ่อนไหว อ่าน/เขียน Guid. |
 
 ### ดูเพิ่มเติม
 

@@ -1,7 +1,7 @@
 ---
 title: BaseShapeLock
-second_title: مرجع API لـ Aspose.Sildes .NET
-description: يمثل فئة أساسية للأقفال في العملية المعطلة.
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يمثل فئة أساسية للأقفال العملية المعطلة.
 type: docs
 weight: 980
 url: /ar/aspose.slides/baseshapelock/
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | الاسم | الوصف |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | إرجاع true إذا كانت جميع علامات القفل معطلة. Boolean للقراءة فقط. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | تُرجع القيمة true إذا تم تعطيل جميع علامات القفل. Boolean للقراءة فقط. |
 
 ### انظر أيضًا
 

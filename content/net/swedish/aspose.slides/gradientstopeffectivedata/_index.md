@@ -3,7 +3,7 @@ title: GradientStopEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar ett gradientstopp.
 type: docs
-weight: 5030
+weight: 5050
 url: /sv/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData klass
@@ -28,7 +28,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Bestämmer om den angivna [`GradientStopEffectiveData`](../gradientstopeffectivedata) är lika med den aktuella [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### Se också
+### Se även
 
 * gränssnitt [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * namnrymd [Aspose.Slides](../../aspose.slides)

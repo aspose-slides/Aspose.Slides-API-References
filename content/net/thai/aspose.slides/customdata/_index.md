@@ -1,6 +1,6 @@
 ---
 title: CustomData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: เป็นคอนเทนเนอร์สำหรับข้อมูลที่กำหนดเอง.
 type: docs
 weight: 2730
@@ -8,7 +8,7 @@ url: /th/aspose.slides/customdata/
 ---
 ## คลาส CustomData
 
-เป็นคอนเทนเนอร์สำหรับข้อมูลที่กำหนดเอง.
+แทนที่คอนเทนเนอร์สำหรับข้อมูลที่กำหนดเอง
 
 ```csharp
 public class CustomData : ICustomData
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | ส่งคืนคอลเลกชันส่วน xml ที่กำหนดเอง. อ่านอย่างเดียว [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | ส่งคืนคอลเลกชันแท็กข้อมูลลูกค้า. อ่านอย่างเดียว [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | คืนค่าคอลเลกชันส่วน XML แบบกำหนดเอง อ่านอย่างเดียว [`ICustomXmlPartCollection`](../icustomxmlpartcollection) |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | คืนค่าคอลเลกชันแท็กข้อมูลลูกค้า อ่านอย่างเดียว [`ITagCollection`](../itagcollection) |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A szűrő feltárás típusát jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: A szűrő felbukkanás típusát képviseli.
 type: docs
-weight: 360
+weight: 380
 url: /hu/aspose.slides.animation/filtereffectrevealtype/
 ---
 ## FilterEffectRevealType enumeráció
 
-A szűrő feltárás típusa.
+A szűrő felbukkanás típusát írja le.
 
 ```csharp
 public enum FilterEffectRevealType

@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر مجموعه‌ای از جایگزینی قلم‌ها.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایشگر مجموعه‌ای از جایگزینی‌های قلم.
 type: docs
 weight: 4900
 url: /fa/aspose.slides/fontsubstrulecollection/
 ---
-## کلاس FontSubstRuleCollection
+## FontSubstRuleCollection کلاس
 
-نمایانگر مجموعه‌ای از جایگزینی قلم‌ها است.
+نمایشگر مجموعه‌ای از جایگزینی‌های قلم.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -16,27 +16,27 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [FontSubstRuleCollection](fontsubstrulecollection)() | سازندهٔ پیش‌فرض. |
+| [FontSubstRuleCollection](fontsubstrulecollection)() | سازنده پیش‌فرض. |
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) {{ get; }} | تعداد عناصری که واقعاً در مجموعه وجود دارد را برمی‌گرداند. فقط‌خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) {{ get; }} | مقداری را برمی‌گرداند که نشان می‌دهد دسترسی به مجموعه همگام‌سازی شده است (امن برای چندنخی). فقط‌خواندنی Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) {{ get; }} | عنصر در ایندکس مشخص‌شده را برمی‌گرداند. |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) {{ get; }} | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط‌خواندنی Object. |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | تعداد عناصری که واقعاً در مجموعه موجود است را دریافت می‌کند. فقط-خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا دسترسی به مجموعه همگام‌سازی شده است (امنیت برای چند رشته). فقط-خواندنی Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | عنصر موجود در اندیس مشخص شده را دریافت می‌کند. |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | ریشه همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | قانون جایگزینی قلم جدید را به مجموعه اضافه می‌کند |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص‌شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | یک شمارندهٔ تکرارگر را برمی‌گرداند که کل مجموعه را پیمایش می‌کند. |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | اولین رخداد یک شیء خاص را از مجموعه حذف می‌کند. |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایه مشخص شده کپی می‌کند. |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | شمارنده‌ای را برمی‌گرداند که از طریق مجموعه تکرار می‌کند. |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | اولین رخداد یک شی خاص را از مجموعه حذف می‌کند. |
 
 ### موارد مرتبط
 

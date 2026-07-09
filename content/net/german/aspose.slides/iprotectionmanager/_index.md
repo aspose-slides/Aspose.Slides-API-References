@@ -1,15 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Slides für .NET API-Referenz
-description: Verwaltung des Passwortschutzes von Präsentationen.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Verwaltung des Kennwortschutzes für Präsentationen.
 type: docs
-weight: 6620
+weight: 6820
 url: /de/aspose.slides/iprotectionmanager/
 ---
+## IProtectionManager Schnittstelle
 
-## IProtectionManager-Schnittstelle
-
-Verwaltung des Passwortschutzes von Präsentationen.
+Verwaltung des Kennwortschutzes für Präsentationen.
 
 ```csharp
 public interface IProtectionManager
@@ -19,26 +18,26 @@ public interface IProtectionManager
 
 | Name | Beschreibung |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentation passwortgeschützt ist. Wenn wahr, werden die Dokumenteigenschaften in der Präsentationsdatei verschlüsselt. Wenn falsch, sind die Dokumenteigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lese-/schreibbarer Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Gibt das Verschlüsselungspasswort zurück. Nur lesbarer String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Gibt einen Wert zurück, der angibt, ob diese Instanz verschlüsselt ist. Nur lesbarer Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei passwortgeschützt ist und die Dokumenteigenschaften dieser Datei öffentlich sind. Ein Wert von wahr bedeutet, dass nur die Dokumenteigenschaften aus einer verschlüsselten Präsentationsdatei ohne Verwendung des Passworts geladen wurden. Ein Wert von falsch bedeutet, dass die gesamte verschlüsselte Präsentation mit dem richtigen Passwort geladen wird, nicht nur die Dokumenteigenschaften. Wenn die Präsentation nicht verschlüsselt ist, ist der Eigenschaftswert immer falsch. Wenn die Dokumenteigenschaften einer verschlüsselten Datei nicht öffentlich sind, ist der Eigenschaftswert immer falsch. Wenn PresentationEx.EncryptDocumentProperties wahr ist, ist der Wert der Eigenschaft IsOnlyDocumentPropertiesLoaded immer falsch. Nur lesbarer Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Gibt einen Wert zurück, der angibt, ob diese Präsentation schreibgeschützt ist. Nur lesbarer Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Gibt die Empfehlung für schreibgeschützte Dokumente zurück oder legt sie fest. Lese-/schreibbarer Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentation kennwortgeschützt ist. Wenn true, sind die Dokumenteneigenschaften in der Präsentationsdatei verschlüsselt. Wenn false, sind die Dokumenteneigenschaften öffentlich, während die Präsentation verschlüsselt ist. Lese-/Schreib-Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | Gibt das Verschlüsselungspasswort zurück. Nur lesbarer String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | Ermittelt einen Wert, der anzeigt, ob diese Instanz verschlüsselt ist. Nur lesbarer Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | Diese Eigenschaft ist sinnvoll, wenn die Präsentationsdatei kennwortgeschützt ist und die Dokumenteneigenschaften dieser Datei öffentlich sind. Der Wert true bedeutet, dass nur die Dokumenteneigenschaften aus einer verschlüsselten Präsentationsdatei ohne Passwort geladen werden. Der Wert false bedeutet, dass die gesamte verschlüsselte Präsentation mit dem richtigen Passwort geladen wird, nicht nur die Dokumenteneigenschaften. Ist die Präsentation nicht verschlüsselt, ist der Eigenschaftswert stets false. Sind die Dokumenteneigenschaften einer verschlüsselten Datei nicht öffentlich, ist der Wert stets false. Ist PresentationEx.EncryptDocumentProperties true, ist der Wert von IsOnlyDocumentPropertiesLoaded stets false. Nur lesbarer Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | Ermittelt einen Wert, der anzeigt, ob diese Präsentation schreibgeschützt ist. Nur lesbarer Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | Liest oder setzt die Empfehlung für schreibgeschützt. Lese-/Schreib-Boolean. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bestimmt, ob eine Präsentation passwortgeschützt ist, um sie zu ändern. |
+| [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | Bestimmt, ob eine Präsentation zum Ändern kennwortgeschützt ist. |
 | [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | Verschlüsselt die Präsentation mit dem angegebenen Passwort. |
 | [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | Entfernt die Verschlüsselung. |
 | [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | Entfernt den Schreibschutz für diese Präsentation. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Legt einen Schreibschutz für diese Präsentation mit dem angegebenen Passwort fest. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | Setzt den Schreibschutz für diese Präsentation mit dem angegebenen Passwort. |
 
 ### Siehe auch
 
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

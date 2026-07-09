@@ -1,6 +1,6 @@
 ---
 title: IAutoShapeLock
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xác định các thao tác nào bị vô hiệu hoá trên AutoshapeEx cha.
 type: docs
 weight: 5250
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock giao diện
 
-Determines which operations are disabled on the parent AutoshapeEx.
+Xác định các thao tác nào bị vô hiệu hoá trên AutoshapeEx cha.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -18,23 +18,23 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Tên | Mô tả |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Xác định liệu việc thay đổi giá trị điều chỉnh có bị cấm hay không. Boolean đọc-ghi. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Xác định liệu việc thay đổi mũi tên có bị cấm hay không. Boolean đọc-ghi. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Cho phép lấy giao diện IBaseShapeLock cơ bản. Chỉ đọc [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng có phải giữ tỷ lệ khi thay đổi kích thước hay không. Boolean đọc-ghi. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Xác định liệu việc thay đổi trực tiếp đường viền của hình dạng này có bị cấm hay không. Boolean đọc-ghi. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Xác định liệu việc thêm hình dạng này vào một nhóm có bị cấm hay không. Boolean đọc-ghi. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Xác định liệu việc di chuyển hình dạng này có bị cấm hay không. Boolean đọc-ghi. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Xác định liệu việc thay đổi góc xoay của hình dạng này có bị cấm hay không. Boolean đọc-ghi. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Xác định liệu việc chọn hình dạng này có bị cấm hay không. Boolean đọc-ghi. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Xác định liệu việc thay đổi loại hình dạng có bị cấm hay không. Boolean đọc-ghi. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Xác định liệu việc thay đổi kích thước hình dạng này có bị cấm hay không. Boolean đọc-ghi. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Xác định liệu việc chỉnh sửa văn bản có bị cấm hay không. Boolean đọc-ghi. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Xác định việc thay đổi giá trị điều chỉnh có bị cấm hay không. Boolean đọc-ghi. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Xác định việc thay đổi mũi tên có bị cấm hay không. Boolean đọc-ghi. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Cho phép lấy IBaseShapeLock interface cơ bản. Chỉ-đọc [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng có phải duy trì tỷ lệ khung hình khi thay đổi kích thước hay không. Boolean đọc-ghi. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Xác định việc thay đổi trực tiếp đường viền của hình này có bị cấm hay không. Boolean đọc-ghi. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Xác định việc thêm hình này vào một nhóm có bị cấm hay không. Boolean đọc-ghi. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Xác định việc di chuyển hình này có bị cấm hay không. Boolean đọc-ghi. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Xác định việc thay đổi góc quay của hình này có bị cấm hay không. Boolean đọc-ghi. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Xác định việc chọn hình này có bị cấm hay không. Boolean đọc-ghi. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Xác định việc thay đổi loại hình có bị cấm hay không. Boolean đọc-ghi. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Xác định việc thay đổi kích thước của hình này có bị cấm hay không. Boolean đọc-ghi. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Xác định việc chỉnh sửa văn bản có bị cấm hay không. Boolean đọc-ghi. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IBaseShapeLock](../ibaseshapelock)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

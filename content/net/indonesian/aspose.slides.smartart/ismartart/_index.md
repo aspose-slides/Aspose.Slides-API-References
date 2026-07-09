@@ -3,7 +3,7 @@ title: ISmartArt
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili diagram SmartArt.
 type: docs
-weight: 10520
+weight: 10540
 url: /id/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt antarmuka
@@ -18,12 +18,12 @@ public interface ISmartArt : IGraphicalObject
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Mengembalikan koleksi semua node dalam objek SmartArt. Hanya-baca [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IGraphicalObject dasar. Hanya-baca [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Mengembalikan atau mengatur gaya warna objek SmartArt. Baca/tulis [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Mengembalikan atau mengatur keadaan diagram SmartArt terkait (kiri-ke-kanan) LTR atau (kanan-ke-kiri) RTL, bila diagram mendukung pembalikan. Baca/tulis Boolean. |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Mengembalikan koleksi semua node dalam objek SmartArt. Baca-saja [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Mengizinkan mendapatkan antarmuka IGraphicalObject dasar. Baca-saja [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Mengembalikan atau mengatur gaya warna dari objek SmartArt. Baca/tulis [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Mengembalikan atau mengatur status diagram SmartArt sehubungan dengan (kiri-ke-kanan) LTR atau (kanan-ke-kiri) RTL, jika diagram mendukung pembalikan. Baca/tulis Boolean. |
 | [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Mengembalikan atau mengatur tata letak objek SmartArt. Baca/tulis [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Mengembalikan koleksi node akar dalam objek SmartArt. Hanya-baca [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Mengembalikan koleksi node akar dalam objek SmartArt. Baca-saja [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Mengembalikan atau mengatur gaya cepat objek SmartArt. Baca/tulis [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Lihat Juga

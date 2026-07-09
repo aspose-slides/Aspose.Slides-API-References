@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes için .NET API Referansı
-description: Animasyon davranışı için özellik tiplerini temsil eder. https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx ve https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx adresindeki özellik listesini takip eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: Animasyon davranışı için özellik tiplerini temsil eder. https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx ve https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx adreslerinden alınan özellik listesine uyar.
 type: docs
-weight: 420
+weight: 440
 url: /tr/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty arayüz
 
-Animasyon davranışı için özellik tiplerini temsil eder. https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx ve https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx adresindeki özellik listesine uyar.
+Animasyon davranışı için özellik tiplerini temsil eder. Özellikler listesi şu adreslerden alınmıştır: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx ve https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -16,9 +16,9 @@ public interface IBehaviorProperty
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Bu özelliğin önceden tanımlanmış özellikler listesine ait olmadığını gösterir: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Bu özelliğin, belirlemedeki önceden tanımlı özellikler listesine ait olup olmadığını gösterir: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | Özelliğin değeri |
 
 ### Ayrıca Bakınız

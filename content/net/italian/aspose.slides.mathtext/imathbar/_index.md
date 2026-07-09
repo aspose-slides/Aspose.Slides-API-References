@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica la funzione di barra composta da un argomento base e da una barra superiore o inferiore
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Specifica la funzione barra composta da un argomento base e da una barra superiore o inferiore
 type: docs
-weight: 8100
+weight: 8120
 url: /it/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar interfaccia
 
-Specifica la funzione di barra, composta da un argomento base e da una barra superiore o inferiore
+Specifica la funzione barra, costituita da un argomento base e da una barra superiore o inferiore
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -20,7 +20,7 @@ public interface IMathBar : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | Argomento base |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Posizione della linea di barra. Predefinito: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | Posizione della linea della barra. Predefinito: Top |
 
 ### Esempi
 

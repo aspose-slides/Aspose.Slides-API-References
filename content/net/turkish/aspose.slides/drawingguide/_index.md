@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Aspose.Sildes için .NET API Referansı
 description: Ayarlanabilir bir çizim kılavuzunu temsil eder.
 type: docs
-weight: 2790
+weight: 2810
 url: /tr/aspose.slides/drawingguide/
 ---
 ## DrawingGuide sınıfı
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okunur/yazılır Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Çizim kılavuzunun yönelimini döndürür veya ayarlar. Okunur/yazılır [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın üst sol köşesinden puan cinsinden döndürür veya ayarlar. Okunur/yazılır Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Çizim kılavuzunun rengini döndürür veya ayarlar. Okuma/Yazma Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Çizim kılavuzunun yönünü döndürür veya ayarlar. Okuma/Yazma [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Çizim kılavuzunun konumunu slaytın üst sol köşesinden nokta cinsinden döndürür veya ayarlar. Okuma/Yazma Single. |
 
 ### Ayrıca Bakınız
 

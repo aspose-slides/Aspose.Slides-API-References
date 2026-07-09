@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
 second_title: Aspose.Sildes için .NET API Referansı
-description: Parlaklık ve gölge gibi efektlerin, uygulandıkları şekle göre uygulandığı bir düzlemi tanımlar.
+description: Parlama ve gölge gibi efektlerin, uygulanacak şekle göre uygulandığı bir düzlemi tanımlar.
 type: docs
-weight: 900
+weight: 920
 url: /tr/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene sınıfı
 
-Parlaklık ve gölge gibi efektlerin, uygulandıkları şekle göre uygulandığı bir düzlemi tanımlar.
+Parlama ve gölge gibi efektlerin, uygulanacak şekle göre uygulandığı bir düzlemi tanımlar.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -18,17 +18,17 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | Ad | Açıklama |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 3D uzaydaki bir noktayı alır veya ayarlar. Bu nokta, backdrop düzlemini sabitleyen uzaydaki noktadır. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen 3D nokta. Okunabilir/Yazılabilir Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Normal bir vektörü alır veya ayarlar. Daha kesin olarak, bu öznitelik backdrop düzleminin yüzeyine dik vektörü tanımlar. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen vektör. Okunabilir/Yazılabilir Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Yukarı yönü temsil eden bir vektörü alır veya ayarlar. Daha kesin olarak, bu öznitelik backdrop düzleminin yüzeyine göre yukarı yönü temsil eden vektörü tanımlar. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen vektör. Okunabilir/Yazılabilir Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 3D uzaydaki bir noktayı döndürür veya ayarlar. Bu nokta, arka plan düzlemini konumlandıran uzaydaki noktadır. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen 3D nokta. Read/write Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Normal bir vektörü döndürür veya ayarlar. Daha kesin olarak, bu özellik arka plan düzleminin yüzeyine dik bir vektörü tanımlar. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen vektör. Read/write Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Yukarı yönü temsil eden bir vektörü döndürür veya ayarlar. Daha kesin olarak, bu özellik arka plan düzleminin yüzeyine göre yukarı yönü temsil eden bir vektörü tanımlar. X, Y ve Z koordinatlarını tanımlayan 3 float değerinden oluşan diziyle temsil edilen vektör. Read/write Single[]. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
 ### Ayrıca Bakınız
 

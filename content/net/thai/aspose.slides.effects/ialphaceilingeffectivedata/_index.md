@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงผลของ Alpha Ceiling. ค่าความทึบของ Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. อีกนัยหนึ่ง สิ่งที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่าโปร่งแสง Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. กล่าวคือ สิ่งที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
 type: docs
 weight: 3050
 url: /th/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงผลของ Alpha Ceiling. ค่าความ Alpha (opacity) ที่มากกว่า ศูนย์จะถูกเปลี่ยนเป็น 100 %. อีกนัยหนึ่ง สิ่งที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่า Alpha (ความทึบ) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100%. กล่าวคือ ทุกอย่างที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

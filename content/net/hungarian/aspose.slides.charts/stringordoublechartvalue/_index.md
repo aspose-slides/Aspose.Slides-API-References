@@ -1,35 +1,35 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Reprezentálja a string vagy double értéket, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagrammal kapcsolt munkafüzet celláiban/celláiban, 2) literális értékként.
+second_title: Aspose.Sildes .NET API-referencia
+description: String vagy double értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban, 2) literális értékként.
 type: docs
-weight: 2400
+weight: 2420
 url: /hu/aspose.slides.charts/stringordoublechartvalue/
 ---
-
 ## StringOrDoubleChartValue osztály
 
-A string vagy double értéket képviseli, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literális értékként.
+String vagy double értéket képvisel, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
 ```
 
+
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Visszaadja vagy beállítja a diagram adatcelláját. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja az értéket literális double-ként. Olvasás/írás Double. |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | Visszaadja vagy beállítja a diagram adatcellát. Olvasás/írás [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | Visszaadja vagy beállítja az értéket literális doubleként. Olvasás/írás Double. |
 | [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | Visszaadja vagy beállítja az értéket literális stringként. Olvasás/írás String. |
 | override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Visszaadja vagy beállítja a Data objektumot. Olvasás/írás Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság a leszármazottakban aktuális-e. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság valós-e az leszármazottakban. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Átalakítja double típusra. |
+| [ToDouble](../../aspose.slides.charts/stringordoublechartvalue/todouble)() | Átalakítja double típusúvá. |
 
 ### Lásd még
 

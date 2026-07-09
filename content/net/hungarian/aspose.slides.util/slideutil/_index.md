@@ -1,35 +1,35 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes .NET API referencia
-description: Módszereket kínál, amelyek segítenek alakzatokat és szöveget keresni egy bemutatóban.
+second_title: Aspose.Sildes for .NET API Referencia
+description: Módszereket kínál, amelyek segítenek alakzatok és szövegek keresésében egy prezentációban.
 type: docs
-weight: 11500
+weight: 11520
 url: /hu/aspose.slides.util/slideutil/
 ---
 ## SlideUtil osztály
 
-Olyan metódusokat kínál, amelyek segítenek keresni alakzatokat és szöveget egy bemutatóban.
+Módszereket kínál, amelyek segítenek alakzatok és szövegek keresésében egy prezentációban.
 
 ```csharp
 public static class SlideUtil
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Módosítja az összes alakzat elhelyezését a dián. Igazítja az alakzatokat a margókhoz vagy a dia széléhez, vagy egymáshoz viszonyítva igazítja őket. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Módosítja az összes alakzat elhelyezését a csoport alakzaton belül. Igazítja az alakzatokat a margókhoz vagy a dia széléhez, vagy egymáshoz viszonyítva igazítja őket. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Módosítja a kijelölt alakzatok elhelyezését a dián. Igazítja az alakzatokat a margókhoz vagy a dia széléhez, vagy egymáshoz viszonyítva igazítja őket. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Módosítja a kijelölt alakzatok elhelyezését a csoport alakzaton belül. Igazítja az alakzatokat a margókhoz vagy a dia széléhez, vagy egymáshoz viszonyítva igazítja őket. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Megkeresi és cseréli a szöveget a bemutatóban a megadott formátummal |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Alakzatot keres alternatív szöveg alapján egy dián egy PPTX bemutatóban. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Alakzatot keres alternatív szöveg alapján egy PPTX bemutatóban. |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Keres minden alakzatot a megadott dián, amely megfelel a megadott helyőrző típusnak. |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Visszaadja az összes szövegkeretet egy dián egy PPTX bemutatóban. |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Visszaadja az összes szövegkeretet egy PPTX bemutatóban. |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Visszaadja az összes szövegkeretet a megadott dián, amely tartalmazza a megadott szöveget. |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Átalakít egy forrás fájlformátumot a megfelelő [`SaveFormat`](../../aspose.slides.export/saveformat)-ra. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Megváltoztatja az összes alakzat elhelyezését a dián. Az alakzatokat a margókhoz vagy a dia széléhez igazítja, vagy egymához képest igazítja őket. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Megváltoztatja az összes alakzat elhelyezését a dián. Az alakzatokat a margókhoz vagy a dia széléhez igazítja, vagy egymához képest igazítja őket. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Megváltoztatja az összes alakzat elhelyezését a dián. Az alakzatokat a margókhoz vagy a dia széléhez igazítja, vagy egymához képest igazítja őket. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Megváltoztatja az összes alakzat elhelyezését a dián. Az alakzatokat a margókhoz vagy a dia széléhez igazítja, vagy egymához képest igazítja őket. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Keres és helyettesít szöveget a prezentációban a megadott formátummal |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Alakzatot keres alternatív szöveg alapján egy dián egy PPTX prezentációban. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Alakzatot keres alternatív szöveg alapján egy PPTX prezentációban. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Az adott dián keres minden olyan alakzatot, amely megfelel a megadott helyőrző típusnak. |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Visszaadja az összes szövegkeretet egy dián egy PPTX prezentációban. |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Visszaadja az összes szövegkeretet egy PPTX prezentációban. |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Visszaadja az adott dián található összes szövegkeretet, amely a megadott szöveget tartalmazza. |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Átalakítja a forrásfájl formátumát a megfelelő [`SaveFormat`](../../aspose.slides.export/saveformat) formátumra. |
 
 ### Lásd még
 

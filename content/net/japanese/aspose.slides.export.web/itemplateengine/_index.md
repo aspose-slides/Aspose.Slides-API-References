@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テンプレートとデータのペアを変換して、通常は HTML の結果出力を生成するテンプレートエンジンを表します。
+description: テンプレートとデータのペアを変換し、結果として通常はHTMLの出力を生成するテンプレート エンジンを表します。
 type: docs
-weight: 4600
+weight: 4620
 url: /ja/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine インターフェイス
 
-テンプレートとデータのペアを変換して、結果の出力（通常はHTML）を生成するテンプレートエンジンを表します。
+テンプレートとデータのペアを変換し、結果の出力（通常は HTML）を生成するテンプレート エンジンを表します。
 
 ```csharp
 public interface ITemplateEngine
@@ -18,8 +18,8 @@ public interface ITemplateEngine
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | テンプレートをテンプレートコレクションに追加します。 |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | 指定されたキーとモデルオブジェクトを使用してテンプレートを出力に変換します。 |
+| [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | テンプレートをテンプレート コレクションに追加します。 |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | 指定されたキーとモデル オブジェクトを使用してテンプレートを出力に変換します。 |
 
 ### 参照
 

@@ -3,10 +3,10 @@ title: ColorType
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili berbagai mode warna.
 type: docs
-weight: 2560
+weight: 2580
 url: /id/aspose.slides/colortype/
 ---
-## ColorType enumerasi
+## enumerasi ColorType
 
 Mewakili berbagai mode warna.
 
@@ -24,7 +24,7 @@ public enum ColorType
 | HSL | `2` | Warna HSL definisi tinggi. |
 | Scheme | `3` | Warna skema. |
 | System | `4` | Warna sistem. |
-| Preset | `5` | Warna Preset. |
+| Preset | `5` | Warna prasetel. |
 
 ### Lihat Juga
 

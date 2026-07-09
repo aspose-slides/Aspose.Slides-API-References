@@ -1,12 +1,12 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes para .NET API Reference
+second_title: Referência da API Aspose.Sildes para .NET
 description: Permite criar instâncias de opções de salvamento
 type: docs
-weight: 4060
+weight: 4080
 url: /pt/aspose.slides.export/isaveoptionsfactory/
 ---
-## interface ISaveOptionsFactory
+## ISaveOptionsFactory interface
 
 Permite criar instâncias de opções de salvamento
 

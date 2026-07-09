@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định một hàm của một đối số.
+description: Chỉ định một hàm có một đối số.
 type: docs
 weight: 8270
 url: /vi/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction giao diện
 
-Specifies a function of an argument.
+Chỉ định một hàm có một đối số.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,13 +18,13 @@ public interface IMathFunction : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Cho phép lấy giao diện IMathElement cơ bản [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Đối số hàm |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Tên hàm. Ví dụ, các tên hàm là sin và cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Tên hàm Ví dụ, các tên hàm là sin và cos |
 
 ### Ví dụ
 
-Example:
+Ví dụ:
 
 ```csharp
 [C#]

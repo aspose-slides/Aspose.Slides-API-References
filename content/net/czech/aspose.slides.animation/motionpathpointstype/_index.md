@@ -1,12 +1,12 @@
 ---
 title: MotionPathPointsType
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typy bodů v animační dráze pohybu.
 type: docs
-weight: 690
+weight: 710
 url: /cs/aspose.slides.animation/motionpathpointstype/
 ---
-## MotionPathPointsType enumerace
+## MotionPathPointsType výčet
 
 Reprezentuje typy bodů v animační dráze pohybu.
 

@@ -3,7 +3,7 @@ title: LayoutSlideCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili kelas dasar untuk koleksi slide tata letak.
 type: docs
-weight: 7630
+weight: 7650
 url: /id/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection kelas
@@ -28,10 +28,10 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 | Nama | Deskripsi |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Mengembalikan slide tata letak pertama dengan tipe yang ditentukan. Tipe slide tata letak yang dicari.[`LayoutSlide`](../layoutslide) dengan tipe yang ditentukan atau null bila tidak ada tata letak yang ditemukan. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Mengembalikan slide tata letak pertama dari tipe yang ditentukan. Tipe slide tata letak yang ingin dicari.[`LayoutSlide`](../layoutslide) dengan tipe yang ditentukan atau null jika tidak ada tata letak yang ditemukan. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Menghapus tata letak dari koleksi. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus slide tata letak yang tidak terpakai (slide tata letak yang HasDependingSlides bernilai false). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Menghapus slide tata letak yang tidak terpakai (slide tata letak yang HasDependingSlides-nyanya false). |
 
 ### Lihat Juga
 

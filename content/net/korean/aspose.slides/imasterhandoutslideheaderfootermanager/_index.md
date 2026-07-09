@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 헤더 자리표시자를 포함한 마스터 핸드아웃 슬라이드 자리표시자의 동작을 보유하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 마스터 핸드아웃 슬라이드 자리표시자(헤더 자리표시자를 포함)의 동작을 보유하는 관리자를 나타냅니다.
 type: docs
 weight: 6360
 url: /ko/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager 인터페이스
 
-마스터 핸드아웃 슬라이드 자리표시자의 동작을 포함하여 헤더 자리표시자를 보유하는 관리자를 나타냅니다.
+마스터 핸드아웃 슬라이드 자리표시자(헤더 자리표시자를 포함)의 동작을 보유하는 관리자를 나타냅니다.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -20,7 +20,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | 반환합니다 IBaseHandoutNotesSlideHeaderFooterManag 인터페이스. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

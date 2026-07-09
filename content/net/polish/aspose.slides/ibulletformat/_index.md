@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje właściwości formatowania wypunktowania akapitu.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje właściwości formatowania punktów w akapicie.
 type: docs
-weight: 5370
+weight: 5390
 url: /pl/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interfejs
 
-Reprezentuje właściwości formatowania wypunktowania w akapicie.
+Reprezentuje właściwości formatowania punktów w akapicie.
 
 ```csharp
 public interface IBulletFormat
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Zwraca lub ustawia znak wypunktowania akapitu bez dziedziczenia. Read/write Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Zwraca format koloru wypunktowania akapitu bez dziedziczenia. Read-only [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Zwraca lub ustawia czcionkę wypunktowania akapitu bez dziedziczenia. Read/write [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Zwraca lub ustawia wysokość wypunktowania akapitu bez dziedziczenia. Wartość float.NaN określa, że wypunktowanie dziedziczy wysokość z pierwszej części w akapicie. Read/write Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Określa, czy wypunktowanie ma własny kolor, czy dziedziczy go z pierwszej części w akapicie. **NullableBool.True** jeśli wypunktowanie ma własny kolor i **NullableBool.False** jeśli wypunktowanie dziedziczy kolor z pierwszej części w akapicie. Read/write [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Określa, czy wypunktowanie ma własną czcionkę, czy dziedziczy ją z pierwszej części w akapicie. **NullableBool.True** jeśli wypunktowanie ma własną czcionkę i **NullableBool.False** jeśli wypunktowanie dziedziczy czcionkę z pierwszej części w akapicie. Read/write [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Zwraca lub ustawia pierwszą liczbę używaną dla grupy numerowanych wypunktowań bez dziedziczenia. Read/write Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Zwraca lub ustawia styl numerowanego wypunktowania bez dziedziczenia. Read/write [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Zwraca obraz używany jako wypunktowanie w akapicie bez dziedziczenia. Read-only [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Zwraca lub ustawia typ wypunktowania akapitu bez dziedziczenia. Read/write [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Zwraca lub ustawia znak punktu w akapicie bez dziedziczenia. Odczyt/zapis Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Zwraca format koloru punktu w akapicie bez dziedziczenia. Tylko do odczytu [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Zwraca lub ustawia czcionkę punktu w akapicie bez dziedziczenia. Odczyt/zapis [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Zwraca lub ustawia wysokość punktu w akapicie bez dziedziczenia. Wartość float.NaN określa, że punkt dziedziczy wysokość z pierwszej części w akapicie. Odczyt/zapis Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Określa, czy punkt ma własny kolor lub dziedziczy go z pierwszej części w akapicie. **NullableBool.True** jeśli punkt ma własny kolor i **NullableBool.False** jeśli punkt dziedziczy kolor z pierwszej części w akapicie. Odczyt/zapis [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Określa, czy punkt ma własną czcionkę lub dziedziczy ją z pierwszej części w akapicie. **NullableBool.True** jeśli punkt ma własną czcionkę i **NullableBool.False** jeśli punkt dziedziczy czcionkę z pierwszej części w akapicie. Odczyt/zapis [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Zwraca lub ustawia pierwszą liczbę używaną dla grupy numerowanych punktów bez dziedziczenia. Odczyt/zapis Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Zwraca lub ustawia styl numerowanego punktu bez dziedziczenia. Odczyt/zapis [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Zwraca obraz używany jako punkt w akapicie bez dziedziczenia. Tylko do odczytu [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Zwraca lub ustawia typ punktu w akapicie bez dziedziczenia. Odczyt/zapis [`BulletType`](../bullettype). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Ustawia domyślne przesunięcia różne od zera dla efektywnego wcięcia akapitu (Indent) i lewego marginesu (MarginLeft), gdy wypunktowanie jest włączone (tak jak PowerPoint robi, jeśli włączyć wypunktowanie/numerowanie akapitu). Jeśli wypunktowanie jest wyłączone, resetuje wcięcie akapitu i lewy margines (tak jak PowerPoint robi, jeśli wyłączyć wypunktowanie/numerowanie akapitu). Przesunięcia wcięć są stosowane względem bieżącego kontekstu wypunktowania – IBulletFormat.Type, .NumberedBulletStyle i FontHeight pierwszej części. Przesunięcia różne od zera są stosowane do efektywnego wcięcia (Indent) i lewego marginesu (MarginLeft) bieżącego akapitu (sprawiając, że wartości wynikowe są wartościami lokalnymi). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Pobiera efektywne dane formatowania wypunktowania z zastosowanym dziedziczeniem. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Ustawia domyślne niezerowe przesunięcia dla efektywnego wcięcia (Indent) i lewego marginesu (MarginLeft) akapitu, gdy punkty są włączone (tak jak PowerPoint robi to po włączeniu wypunktowania/numeracji w akapicie). Jeśli punkty są wyłączone, po prostu resetuje wcięcie (Indent) i lewy margines (MarginLeft) akapitu (tak jak PowerPoint robi to po wyłączeniu wypunktowania/numeracji). Przesunięcia wcięć są stosowane w odniesieniu do bieżącego kontekstu punktu – IBulletFormat.Type, .NumberedBulletStyle i FontHeight pierwszej części. Niezerowe przesunięcia wcięć są stosowane do efektywnego wcięcia (Indent) i lewego marginesu (MarginLeft) bieżącego akapitu (sprawiając, że wartości wynikowe są wartościami lokalnymi). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Pobiera efektywne dane formatowania punktu z zastosowaną dziedzicznością. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling punten voor die getekend moeten worden in de tweede taart of balk in een bar-of-pie of pie-of-pie grafiek met een aangepaste splitsing.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een verzameling punten voor die getekend moeten worden in de tweede taart of balk op een bar-of-pie of pie-of-pie diagram met een aangepaste splitsing.
 type: docs
 weight: 2190
 url: /nl/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
 ## IPieSplitCustomPointCollection interface
 
-Stelt een verzameling punten voor die getekend moeten worden in de tweede taart of balk in een bar-of-pie- of pie-of-pie-grafiek met een aangepaste splitsing.
+Stelt een verzameling punten voor die getekend moeten worden in de tweede taart of balk op een bar-of-pie of pie-of-pie diagram met een aangepaste splitsing.
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,15 +18,15 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Retourneert IEnumerable-interface. |
-| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Retourneert grafiekdatapunt op index. |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | Retourneert IEnumerable interface. |
+| [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | Retourneert diagramgegevenspunt op index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Voegt datapunt toe op basis van zijn index in de puntenverzameling van de bovenliggende serie. |
-| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Verwijdert item uit de verzameling op basis van zijn index in de puntenverzameling van de bovenliggende serie. |
+| [Add](../../aspose.slides.charts/ipiesplitcustompointcollection/add)(int) | Voegt een gegevenspunt toe op basis van zijn index in de bovenliggende serie punten collectie. |
+| [Remove](../../aspose.slides.charts/ipiesplitcustompointcollection/remove)(int) | Verwijdert een item uit de collectie op basis van zijn index in de bovenliggende serie punten collectie. |
 
 ### Zie ook
 

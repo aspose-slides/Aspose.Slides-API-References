@@ -1,9 +1,9 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes a .NET API Referenciához
+second_title: Aspose.Sildes .NET API referencia
 description: Visszaadja a kvartilis módszer típusát
 type: docs
-weight: 2370
+weight: 2390
 url: /hu/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType enumeráció

@@ -1,9 +1,9 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes pro .NET referenční příručku API
-description: Reprezentuje vlastnosti legendy grafu.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje vlastnosti legendy grafů.
 type: docs
-weight: 2110
+weight: 2130
 url: /cs/aspose.slides.charts/ilegend/
 ---
 ## ILegend rozhraní
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Název | Popis |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Pouze pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Umožňuje získat základní rozhraní ILayoutable. Pouze pro čtení [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Získá položky legendy. Pouze pro čtení [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Vrací formát legendy. Pouze pro čtení [`IFormat`](../iformat). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Umožňuje získat základní rozhraní IFormattedTextContainer. Jen pro čtení [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Umožňuje získat základní rozhraní ILayoutable. Jen pro čtení [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Získává položky legendy. Jen pro čtení [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Vrací formát legendy. Jen pro čtení [`IFormat`](../iformat). |
 | [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Určuje, zda mají být ostatní prvky grafu povoleny překrývat legendu. Čtení/zápis Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Určuje umístění legendy v grafu. Hodnoty X, Y, Width, Heigt, které nejsou NaN, přepisují účinek této vlastnosti. Čtení/zápis [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Určuje umístění legendy v grafu. Hodnoty X, Y, Width, Heigt, které nejsou NaN, v vlastnostech přebijí účinek této vlastnosti. Čtení/zápis [`LegendPositionType`](../legendpositiontype). |
 
 ### Viz také
 

@@ -1,20 +1,20 @@
 ---
 title: PdfImportOptions
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Biểu diễn các tùy chọn nhập PDF
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả các tùy chọn nhập PDF
 type: docs
 weight: 7500
 url: /vi/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions lớp
 
-Biểu diễn các tùy chọn nhập PDF
+Mô tả các tùy chọn nhập PDF
 
 ```csharp
 public class PdfImportOptions
 ```
 
-## Hàm tạo
+## Các hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -24,9 +24,9 @@ public class PdfImportOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Xác định xem có phát hiện bảng khi nhập tệp pdf hay không. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Xác định có phát hiện bảng khi nhập tệp pdf hay không. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Import](../../aspose.slides.import)
 * tập hợp [Aspose.Slides](../../)

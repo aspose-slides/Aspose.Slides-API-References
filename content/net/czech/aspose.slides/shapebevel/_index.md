@@ -3,10 +3,10 @@ title: ShapeBevel
 second_title: Aspose.Sildes pro .NET API Reference
 description: Obsahuje vlastnosti hlavního povrchu tvaru.
 type: docs
-weight: 9830
+weight: 9850
 url: /cs/aspose.slides/shapebevel/
 ---
-## ShapeBevel třída
+## ShapeBevel class
 
 Obsahuje vlastnosti hlavního povrchu tvaru.
 
@@ -24,7 +24,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
 | [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Typ zkosení. Čtení/zápis [`BevelPresetType`](../bevelpresettype). |
 | [Height](../../aspose.slides/shapebevel/height) { get; set; } | Výška zkosení. Čtení/zápis Double. |
 | [Width](../../aspose.slides/shapebevel/width) { get; set; } | Šířka zkosení. Čtení/zápis Double. |

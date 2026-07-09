@@ -1,24 +1,24 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุว่าตัวอักษรช่องว่างปกติที่ซ้ำกันควรได้รับการจัดการอย่างไรระหว่างการส่งออกเป็น Markdown
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ระบุวิธีการจัดการกับอักขระช่องว่างปกติที่ซ้ำกันเมื่อทำการส่งออกเป็น Markdown.
 type: docs
 weight: 3830
 url: /th/aspose.slides.export/handlerepeatedspaces/
 ---
-## HandleRepeatedSpaces การนับค่า
+## HandleRepeatedSpaces enumeration
 
-ระบุว่าตัวอักษรช่องว่างปกติที่ซ้ำกันควรได้รับการจัดการอย่างไรระหว่างการส่งออกเป็น Markdown
+Specifies how repeated regular space characters should be handled during Markdown export.
 
 ```csharp
 public enum HandleRepeatedSpaces
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| None | `0` | ช่องว่างทั้งหมดจะถูกเก็บไว้เป็นอักขระช่องว่างปกติโดยไม่มีการเปลี่ยนแปลง ไม่ได้ทำการแปลงใดๆ และช่องว่างต่อเนื่องหลายช่องจะถูกส่งออกตามที่เป็น |
+| None | `0` | ช่องว่างทั้งหมดจะถูกเก็บไว้เป็นอักขระช่องว่างแบบปกติโดยไม่มีการเปลี่ยนแปลง ไม่ได้ทำการแปลงใดๆ และช่องว่างที่ต่อเนื่องกันหลายตัวจะถูกส่งออกตามที่เป็น |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

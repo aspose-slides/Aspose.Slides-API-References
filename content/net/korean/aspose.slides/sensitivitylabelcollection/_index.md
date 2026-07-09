@@ -8,7 +8,7 @@ url: /ko/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection 클래스
 
-문서에 적용된 민감도 레이블의 컬렉션을 나타냅니다.
+문서에 적용된 민감도 레이블의 집합을 나타냅니다.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -30,7 +30,7 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 컬렉션 끝에 민감도 레이블을 추가합니다. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | 지정된 인덱스의 민감도 레이블을 제거합니다. |
 
 ### 참고

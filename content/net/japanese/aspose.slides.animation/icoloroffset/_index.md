@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
 second_title: Aspose.Sildes for .NET API リファレンス
-description: カラーオフセットを表します。
+description: 色オフセットを表します。
 type: docs
-weight: 450
+weight: 470
 url: /ja/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset インターフェイス
 
-カラーオフセットを表します。
+色オフセットを表します。
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | 名前 | 説明 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 最初のオフセット値を定義します。読み書き可能 Single。 |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 2番目のオフセット値を定義します。読み書き可能 Single。 |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 3番目のオフセット値を定義します。読み書き可能 Single。 |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | オフセットの最初の値を定義します。Read/write Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | オフセットの2番目の値を定義します。Read/write Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | オフセットの3番目の値を定義します。Read/write Single. |
 
 ### 参照
 

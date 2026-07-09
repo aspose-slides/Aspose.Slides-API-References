@@ -18,10 +18,10 @@ public interface IHyperlinkQueries
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Lấy tất cả các đối tượng con IHyperlinkContainer có HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Lấy tất cả các đối tượng con IHyperlinkContainer có HyperlinkClick không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Lấy tất cả các đối tượng con IHyperlinkContainer có HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Loại bỏ tất cả các siêu liên kết HyperlinkClick và HyperlinkMouseOver được chứa (trong tất cả các đối tượng con IHyperlinkContainer). |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | Lấy tất cả các đối tượng con IHyperlinkContainer mà chứa HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | Lấy tất cả các đối tượng con IHyperlinkContainer mà chứa HyperlinkClick không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | Lấy tất cả các đối tượng con IHyperlinkContainer mà chứa HyperlinkMouseOver không null. Với đối tượng IHyperlinkContainer đã cho, bạn có thể quản lý siêu liên kết của nó (đọc, cập nhật hoặc xóa). Xem giao diện IHyperlinkContainer. |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | Xóa tất cả các siêu liên kết HyperlinkClick và HyperlinkMouseOver được chứa (trong tất cả các đối tượng con IHyperlinkContainer). |
 
 ### Xem thêm
 

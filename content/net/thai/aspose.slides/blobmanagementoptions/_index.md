@@ -1,14 +1,14 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงตัวเลือกที่สามารถใช้จัดการกฎการจัดการ BLOB และการตั้งค่า BLOB อื่น ๆ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงตัวเลือกที่สามารถใช้ในการจัดการกฎการจัดการ BLOB และการตั้งค่า BLOB อื่น ๆ
 type: docs
 weight: 1030
 url: /th/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions คลาส
 
-แสดงตัวเลือกที่สามารถใช้จัดการกฎการจัดการ BLOB และการตั้งค่า BLOB อื่น ๆ
+แสดงตัวเลือกที่สามารถใช้ในการจัดการกฎการจัดการ BLOB และการตั้งค่า BLOB อื่น ๆ
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -18,16 +18,16 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | สร้างตัวเลือกการจัดการ blob ค่าเริ่มต้นใหม่ |
+| [BlobManagementOptions](blobmanagementoptions)() | สร้างตัวเลือกการจัดการ blob เริ่มต้นใหม่ |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | คุณสมบัตินี้กำหนดว่าภาพไฟล์ชั่วคราวสามารถสร้างได้หรือไม่ขณะทำงานกับ BLOBs ซึ่งช่วยลดการใช้หน่วยความจำอย่างมากแต่ต้องการสิทธิ์ในการสร้างไฟล์ ไฟล์ทั้งหมดจะถูกลบหลังจากการทำงานกับงานนำเสนอเสร็จสิ้น |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | กำหนดขนาดรวมสูงสุด (เป็นไบต์) ที่ BLOBs ทั้งหมดอาจใช้ในหน่วยความจำ โดยค่าเริ่มต้น BLOBs จะโหลดเข้าสู่หน่วยความจำทั้งหมด; เมื่อถึงขีดจำกัดนี้จึงใช้กลไกอื่น ๆ (เช่นไฟล์ชั่วคราว) การเก็บ BLOBs ในหน่วยความจำทำให้ประสิทธิภาพสูงสุดแต่อาจทำให้การใช้หน่วยความจำสูง ใช้คุณสมบัตินี้เพื่อปรับพฤติกรรมให้เหมาะกับสภาพแวดล้อมหรือความต้องการของคุณ |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | คุณสมบัตินี้กำหนดว่าตัวอย่างของคลาส Presentation สามารถเป็นเจ้าของไฟล์หรือสตรีมต้นทางระหว่างอายุการใช้งานของตัวอย่างได้หรือไม่ หากเป็นเจ้าของ จะทำการล็อกต้นทาง ซึ่งช่วยปรับปรุงการใช้หน่วยความจำและประสิทธิภาพขณะทำงานกับ BLOBs แต่ต้นทาง (สตรีมหรือไฟล์) ไม่สามารถเปลี่ยนแปลงได้ระหว่างอายุการใช้งานของ Presentation |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | เส้นทางรากที่ไฟล์ชั่วคราวจะถูกสร้าง จะใช้ไดเรกทอรีชั่วคราวของระบบเป็นค่าเริ่มต้น กระบวนการโฮสต์ต้องมีสิทธิ์ในการสร้างไฟล์และโฟลเดอร์ที่นั่น |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | คุณสมบัตินี้กำหนดว่าจะสร้างไฟล์ชั่วคราวได้หรือไม่ขณะทำงานกับ BLOBs ซึ่งจะลดการใช้หน่วยความจำอย่างมากแต่ต้องการสิทธิ์ในการสร้างไฟล์ ไฟล์ทั้งหมดจะถูกลบหลังจากการทำงานกับงานนำเสนอเสร็จสิ้น |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | กำหนดขนาดรวมสูงสุด (ในไบต์) ที่ BLOBs ทั้งหมดอาจใช้ในหน่วยความจำ โดยค่าเริ่มต้น BLOBs ทั้งหมดจะถูกโหลดเข้าในหน่วยความจำ; เมื่อถึงขีดจำกัดนี้จะใช้กลไกทางเลือก (เช่นไฟล์ชั่วคราว) การเก็บ BLOBs ในหน่วยความจำจะเพิ่มประสิทธิภาพสูงสุดแต่อาจทำให้ใช้หน่วยความจำมาก ใช้คุณสมบัตินี้เพื่อปรับพฤติกรรมให้สอดคล้องกับสภาพแวดล้อมหรือความต้องการของคุณ |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | คุณสมบัตินี้กำหนดว่าตัวอย่างของคลาส Presentation สามารถเป็นเจ้าของแหล่งข้อมูล - ไฟล์หรือสตรีม ระหว่างอายุของตัวอย่างได้หรือไม่ หากเป็นเจ้าของ ตัวอย่างจะล็อกแหล่งข้อมูล สิ่งนี้ช่วยปรับปรุงการใช้หน่วยความจำและประสิทธิภาพขณะทำงานกับ BLOBs แต่แหล่งข้อมูล (สตรีมหรือไฟล์) ไม่สามารถเปลี่ยนแปลงได้ระหว่างอายุของตัวอย่าง Presentation |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | เส้นทางรากที่ไฟล์ชั่วคราวจะถูกสร้าง ระบบไดเรกทอรีชั่วคราวจะใช้เป็นค่าเริ่มต้น กระบวนการโฮสติ้งควรมีสิทธิ์ในการสร้างไฟล์และโฟลเดอร์ที่นั่น |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MathFractionFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 분수를 만들 수 있습니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 수학 분수를 생성할 수 있습니다
 type: docs
 weight: 8700
 url: /ko/aspose.slides.mathtext/mathfractionfactory/
 ---
 ## MathFractionFactory 클래스
 
-수학 분수를 만들 수 있습니다
+수학 분수를 생성할 수 있습니다
 
 ```csharp
 public class MathFractionFactory : IMathFractionFactory
@@ -18,7 +18,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathFractionFactory](mathfractionfactory)() | 기본 생성자. |
+| [MathFractionFactory](mathfractionfactory)() | 기본 생성자입니다. |
 
 ## 메서드
 
@@ -31,7 +31,7 @@ public class MathFractionFactory : IMathFractionFactory
 
 COM 호환성을 위해
 
-### 추가 보기
+### 참조
 
 * 인터페이스 [IMathFractionFactory](../imathfractionfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

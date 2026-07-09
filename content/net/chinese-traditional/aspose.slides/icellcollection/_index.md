@@ -1,6 +1,6 @@
 ---
 title: ICellCollection
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示儲存格的集合。
 type: docs
 weight: 5460
@@ -19,9 +19,9 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 | 名稱 | 說明 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | 根據其位置返回儲存格。唯讀 [`ICell`](../icell)。 |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | 返回位於其位置的儲存格。唯讀 [`ICell`](../icell)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [ICell](../icell)

@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn giá trị điều chỉnh của hình dạng hình học. Những giá trị này ảnh hưởng đến hình dạng của các hình.
+description: Đại diện cho giá trị điều chỉnh của các hình dạng hình học. Các giá trị này ảnh hưởng đến hình dạng của các hình.
 type: docs
 weight: 90
 url: /vi/aspose.slides/adjustvalue/
 ---
 ## AdjustValue lớp
 
-Represents a geometry shape's adjustment value. These values affect shape's form.
+Đại diện cho giá trị điều chỉnh của hình dạng hình học. Những giá trị này ảnh hưởng đến hình dạng của đối tượng.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -18,10 +18,10 @@ public class AdjustValue : IAdjustValue
 
 | Tên | Mô tả |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Trả về hoặc đặt giá trị, diễn giải nó như góc tính bằng độ. Đọc/ghi Single. |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Trả về hoặc đặt giá trị, diễn giải nó như một góc tính bằng độ. Đọc/ghi Single. |
 | [Name](../../aspose.slides/adjustvalue/name) { get; } | Trả về tên của giá trị điều chỉnh này. Chỉ đọc String. |
 | [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Trả về hoặc đặt giá trị điều chỉnh "as is". Đọc/ghi Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Trả về kiểu của việc điều chỉnh hình dạng. Chỉ đọc [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Trả về loại của điều chỉnh hình dạng. Chỉ đọc [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Xem thêm
 

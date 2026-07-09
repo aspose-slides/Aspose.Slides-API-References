@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวัตถุตัวคั่นที่ประกอบด้วยอักขระเปิดและปิด เช่น วงเล็บ ปีกกา วงทันต และเส้นตั้ง พร้อมด้วยหนึ่งหรือหลายองค์ประกอบคณิตศาสตร์ภายในที่คั่นด้วยอักขระที่ระบุ ตัวอย่าง 2 2x7C2
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: ระบุอ็อบเจ็กต์ตัวคั่นที่ประกอบด้วยอักขระเปิดและปิด เช่น วงเล็บ, ก้ามปาก, วงเกลียว และบาร์แนวตั้ง พร้อมหนึ่งหรือหลายองค์ประกอบทางคณิตศาสตร์ภายในที่แยกด้วยอักขระที่กำหนด ตัวอย่าง 2 2x7C2
 type: docs
 weight: 8210
 url: /th/aspose.slides.mathtext/imathdelimiter/
 ---
-## IMathDelimiter ส่วนต่อประสาน
+## IMathDelimiter อินเทอร์เฟซ
 
-ระบุวัตถุตัวคั่นที่ประกอบด้วยอักขระเปิดและอักขระปิด (เช่น วงเล็บ, ปีกกา, วงทันต, และแท่งตั้ง) พร้อมด้วยหนึ่งหรือหลายองค์ประกอบคณิตศาสตร์ภายในที่คั่นด้วยอักขระที่กำหนด ตัวอย่าง: (𝑥2); [𝑥2&#x7C;𝑦2]
+Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -16,21 +16,21 @@ public interface IMathDelimiter : IMathElement
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | หนึ่งหรือหลายองค์ประกอบคณิตศาสตร์ที่คั่นด้วยอักขระตัวคั่น |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | อนุญาตให้รับส่วนต่อประสาน IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | อักขระเริ่มต้นของตัวคั่น (Delimiter Beginning Character) ระบุอักขระตัวคั่นที่เริ่มต้นหรือเปิด ตัวคั่นคณิตศาสตร์เป็นอักขระที่ล้อมรอบ เช่น วงเล็บ, วงทันต, และ ปีกกา ค่าเริ่มต้น: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | ระบุรูปทรงของตัวคั่นในวัตถุตัวคั่น เมื่อเป็น MathDelimiterShape.Centered ตัวคั่นจะถูกจัดศูนย์รอบแกนคณิตศาสตร์ของข้อความคณิตศาสตร์และยังคงทำให้พอดีกับความสูงทั้งหมดของเนื้อหา เมื่อเป็น MathDelimiterShape.Match ความสูงและรูปทรงจะถูกปรับให้ตรงกับเนื้อหา |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | อักขระปิดของตัวคั่น (Delimiter Ending Character) ระบุอักขระตัวคั่นที่สิ้นสุดหรือปิด ตัวคั่นคณิตศาสตร์เป็นอักขระที่ล้อมรอบ เช่น วงเล็บ, วงทันต, และ ปีกกา ค่าเริ่มต้น: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | ระบุการเติบโตของ BeginningCharacter, SeparatorCharacter, EndingCharacter เมื่อเป็น true ตัวคั่นจะขยายในแนวตั้งเพื่อให้ตรงกับความสูงของตัวดำเนินการ ค่าเริ่มต้นคือ true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | อักขระคั่นของตัวคั่น (Delimiter Separator Character) ระบุอักขระที่คั่นอาร์กิวเมนต์ในวัตถุตัวคั่น ค่าเริ่มต้น: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | หนึ่งหรือหลายองค์ประกอบทางคณิตศาสตร์ที่แยกด้วยอักขระตัวคั่น |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character ระบุอักขระตัวคั่นที่เริ่มต้นหรือเปิด ตัวคั่นทางคณิตศาสตร์เป็นอักขระที่ล้อมรอบเช่น วงเล็บ ก้ามปาก และวงเกลียว ค่าเริ่มต้น: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | ระบุรูปร่างของตัวคั่นในวัตถุตัวคั่น เมื่อเป็น MathDelimiterShape.Centered ตัวคั่นจะอยู่กึ่งกลางตามแกนคณิตศาสตร์ของข้อความและยังคงปรับให้พอดีกับความสูงทั้งหมดของเนื้อหา เมื่อเป็น MathDelimiterShape.Match ความสูงและรูปร่างของมันจะถูกปรับให้ตรงกับเนื้อหา |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character ระบุอักขระตัวคั่นที่สิ้นสุดหรือปิด ตัวคั่นทางคณิตศาสตร์เป็นอักขระที่ล้อมรอบเช่น วงเล็บ ก้ามปาก และวงเกลียว ค่าเริ่มต้น: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | ระบุการเติบโตของ BeginningCharacter, SeparatorCharacter, EndingCharacter เมื่อเป็น true ตัวคั่นจะเติบโตในแนวตั้งเพื่อให้ตรงกับความสูงของตัวดำเนินการ ค่าเริ่มต้นคือ true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character ระบุอักขระที่แยกอาร์กิวเมนต์ในวัตถุตัวคั่น ค่าเริ่มต้น: '&#x7C;' |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | คั่นอาร์กิวเมนต์โดยใช้ตัวอักษรตัวคั่นที่ระบุ |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | แยกอาร์กิวเมนต์โดยใช้ตัวคั่นที่ระบุ |
 
 ### ตัวอย่าง
 
@@ -44,7 +44,7 @@ IMathDelimiter delimiter = element.Enclose();
 
 ### ดูเพิ่มเติม
 
-* ส่วนต่อประสาน [IMathElement](../imathelement)
+* อินเทอร์เฟซ [IMathElement](../imathelement)
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)
 

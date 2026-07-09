@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính của khung hình dạng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các thuộc tính của khung hình dạng.
 type: docs
 weight: 7000
 url: /vi/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame giao diện
 
-Biểu diễn các thuộc tính của khung hình dạng.
+Đại diện cho các thuộc tính của khung hình dạng.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -18,16 +18,16 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | Tên | Mô tả |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Trả về tọa độ X của trung tâm khung. chỉ đọc Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Trả về tọa độ Y của trung tâm khung. chỉ đọc Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Xác định liệu khung có bị lật theo chiều ngang hay không. chỉ đọc [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Xác định liệu khung có bị lật theo chiều dọc hay không. chỉ đọc [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/ishapeframe/height) { get; } | Trả về chiều cao của khung. chỉ đọc Single. |
-| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Trả về các tọa độ của khung. chỉ đọc RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Trả về số độ mà khung được xoay quanh trục z. Giá trị dương cho biết quay theo chiều kim đồng hồ; giá trị âm cho biết quay ngược chiều kim đồng hồ. chỉ đọc Single. |
-| [Width](../../aspose.slides/ishapeframe/width) { get; } | Trả về chiều rộng của khung. chỉ đọc Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | Trả về tọa độ X của góc trên-trái của khung. chỉ đọc Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | Trả về tọa độ Y của góc trên-trái của khung. chỉ đọc Single. |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | Trả về tọa độ X của trung tâm khung. Chỉ đọc Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | Trả về tọa độ Y của trung tâm khung. Chỉ đọc Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | Xác định xem khung có bị lật ngang hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | Xác định xem khung có bị lật dọc hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/ishapeframe/height) { get; } | Trả về chiều cao của khung. Chỉ đọc Single. |
+| [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | Trả về tọa độ của khung. Chỉ đọc RectangleF. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | Trả về số độ mà khung được quay quanh trục z. Giá trị dương biểu thị quay theo chiều kim đồng hồ; giá trị âm biểu thị quay ngược chiều kim đồng hồ. Chỉ đọc Single. |
+| [Width](../../aspose.slides/ishapeframe/width) { get; } | Trả về chiều rộng của khung. Chỉ đọc Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | Trả về tọa độ X của góc trên-trái của khung. Chỉ đọc Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | Trả về tọa độ Y của góc trên-trái của khung. Chỉ đọc Single. |
 
 ### Xem thêm
 

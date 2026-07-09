@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表點陣圖或向量圖像。
+description: 表示點陣圖或向量圖像。
 type: docs
 weight: 6150
 url: /zh-hant/aspose.slides/iimage/
 ---
 ## IImage 介面
 
-代表點陣圖或向量圖像。
+表示點陣圖或向量圖像。
 
 ```csharp
 public interface IImage : IDisposable
@@ -18,25 +18,25 @@ public interface IImage : IDisposable
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | 取得圖像的高度（像素）。 |
+| [Height](../../aspose.slides/iimage/height) { get; } | 取得圖像的高度（以像素為單位）。 |
 | [Size](../../aspose.slides/iimage/size) { get; } | 取得圖像的大小。 |
-| [Width](../../aspose.slides/iimage/width) { get; } | 取得圖像的寬度（像素）。 |
+| [Width](../../aspose.slides/iimage/width) { get; } | 取得圖像的寬度（以像素為單位）。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [Save](../../aspose.slides/iimage/save#save_2)(string) | 將圖像儲存至檔案。 |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | 將圖像以指定格式儲存至串流。 |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | 將圖像以指定格式儲存至檔案。 |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | 將圖像以指定格式和品質儲存至串流。 |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | 將圖像以指定格式和品質儲存至檔案。 |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | 將圖像依指定格式儲存至串流。 |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | 將圖像依指定格式儲存至檔案。 |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | 將圖像依指定格式及品質儲存至串流。 |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | 將圖像依指定格式及品質儲存至檔案。 |
 
 ### 備註
 
-此介面提供用於處理點陣圖與向量圖的通用抽象。具體實作可能因底層圖像類型而異。
+此介面提供用於處理點陣圖與向量圖像的共同抽象。實作可能會因底層圖像類型而有所不同。
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

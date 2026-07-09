@@ -1,24 +1,24 @@
 ---
 title: CreateConversation
 second_title: Aspose.Sildes for .NET API 參考
-description: 建立會話實例。與一般的 AI 呼叫不同，會話會保留完整的上下文。
+description: 建立對話實例。與一般 AI 呼叫不同，對話會保留完整的上下文。
 type: docs
 weight: 30
 url: /zh-hant/aspose.slides.ai/asposeaiwebclient/createconversation/
 ---
 ## AsposeAIWebClient.CreateConversation 方法
 
-建立會話實例。與一般的 AI 呼叫不同，會話會保留完整的上下文。
+建立對話實例。與一般 AI 呼叫不同，對話會保留完整的上下文。
 
 ```csharp
 public IAIConversation CreateConversation()
 ```
 
-### 回傳值
+### 傳回值
 
 一個 [`IAIConversation`](../../iaiconversation) 實例。
 
-### 另請參閱
+### 另請參見
 
 * 介面 [IAIConversation](../../iaiconversation)
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)

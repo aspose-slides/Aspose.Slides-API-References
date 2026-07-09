@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Specifica le proprietà di IMathNaryOperator
 type: docs
-weight: 8360
+weight: 8380
 url: /it/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties interfaccia
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Il carattere operatore cresce verticalmente per corrispondere all'altezza del suo operando |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Il carattere dell'operatore cresce verticalmente per corrispondere all'altezza del suo operando |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Nascondi pedice |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Nascondi apice |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | La posizione dei limiti (pedice e apice) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Carattere operatore N-ario Per esempio: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Carattere dell'operatore N-ario. Ad esempio: '∑', '∫' |
 
 ### Vedi anche
 

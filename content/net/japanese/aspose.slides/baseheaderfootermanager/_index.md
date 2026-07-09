@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのスライドタイプに対して、フッター、日時、ページ番号のプレースホルダーの動作を保持するマネージャーを表します。
+description: すべてのスライドタイプに対して、フッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 940
+weight: 960
 url: /ja/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager クラス
 
-すべてのスライドタイプに対して、フッター、日時、ページ番号のプレースホルダーの動作を保持するマネージャーを表します。
+フッター、日時、ページ番号のプレースホルダーの動作を保持するマネージャーを表します（すべてのスライドタイプに対応）。
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager
@@ -16,7 +16,7 @@ public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager
 
 ### 参照
 
-* インターフェイス [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
+* インターフェース [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

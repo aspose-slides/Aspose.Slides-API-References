@@ -1,6 +1,6 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 내장 테이블 스타일을 나타냅니다.
 type: docs
 weight: 10880
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/tablestylepreset/
 ---
 ## TableStylePreset 열거형
 
-Table에 사용자 정의 스타일이 있습니다. This is return-only value.
+내장 테이블 스타일을 나타냅니다.
 
 ```csharp
 public enum TableStylePreset
@@ -18,8 +18,8 @@ public enum TableStylePreset
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Custom | `-1` | Table에 사용자 정의 스타일이 있습니다. 반환 전용 값입니다. |
-| None | `0` | 스타일 없음. |
+| Custom | `-1` | 테이블에 사용자 정의 스타일이 있습니다. 이는 반환 전용 값입니다. |
+| None | `0` | 스타일이 없습니다. |
 | MediumStyle2Accent1 | `1` | Medium Style 2 - Accent 1. |
 | MediumStyle2 | `2` | Medium Style 2. |
 | NoStyleNoGrid | `3` | 스타일 없음, 그리드 없음. |

@@ -20,7 +20,7 @@ public class PresentationText : IPresentationText
 | --- | --- |
 | [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | 一個 [`SlideText`](../islidetext) 陣列包含簡報的文字。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IPresentationText](../ipresentationtext)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

@@ -1,28 +1,28 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes برای .NET مرجع API
-description: موقعیت راهنما را در یک نمودار تعیین می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: موقعیت legend را در chart تعیین می‌کند.
 type: docs
 weight: 2320
 url: /fa/aspose.slides.charts/legendpositiontype/
 ---
-## شمارش LegendPositionType
+## LegendPositionType enum
 
-موقعیت راهنما را در یک نمودار تعیین می‌کند.
+موقعیت legend در chart را تعیین می‌کند.
 
 ```csharp
 public enum LegendPositionType
 ```
 
-### مقدارها
+### مقادیر
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Bottom | `0` | مشخص می‌کند که راهنما باید در پایین نمودار رسم شود. |
-| Left | `1` | مشخص می‌کند که راهنما باید در سمت چپ نمودار رسم شود. |
-| Right | `2` | مشخص می‌کند که راهنما باید در سمت راست نمودار رسم شود. |
-| Top | `3` | مشخص می‌کند که راهنما باید در بالای نمودار رسم شود. |
-| TopRight | `4` | مشخص می‌کند که راهنما باید در بالای راست نمودار رسم شود. |
+| Bottom | `0` | مشخص می‌کند که legend در پایین chart رسم شود. |
+| Left | `1` | مشخص می‌کند که legend در چپ chart رسم شود. |
+| Right | `2` | مشخص می‌کند که legend در راست chart رسم شود. |
+| Top | `3` | مشخص می‌کند که legend در بالا chart رسم شود. |
+| TopRight | `4` | مشخص می‌کند که legend در بالا-راست chart رسم شود. |
 
 ### موارد مرتبط
 

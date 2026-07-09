@@ -18,10 +18,10 @@ public interface ILegendEntryCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 取得實際包含於集合中的元素數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 取得圖例項目的屬性，該項目對應於 Chart.ChartData.Series[0].DataPoints[index]，當圖表類型屬於以下清單時：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或在其他圖表類型時對應於 Chart.ChartData.Series[index]。 |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | 取得圖例項目的屬性，該項目對應於 Chart.ChartData.Series[0].DataPoints[index]（當圖表類型屬於以下列表時）：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或對於其他圖表類型，對應於 Chart.ChartData.Series[index]。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

@@ -1,20 +1,20 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt het formaat waarin de slide afbeelding wordt opgeslagen voor weergave bij HTML export.
+description: Bepaalt het formaat waarin de slide-afbeelding wordt opgeslagen voor HTML-export van een presentatie.
 type: docs
 weight: 4470
 url: /nl/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat klasse
 
-Bepaalt het formaat waarin de slide-afbeelding wordt opgeslagen voor presentatie bij HTML-export.
+Bepaalt het formaat waarin de slide-afbeelding wordt opgeslagen voor HTML-export van een presentatie.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,8 +24,8 @@ public class SlideImageFormat : ISlideImageFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Slides moeten worden geconverteerd naar een rasterafbeelding. |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Slides moeten worden geconverteerd naar een SVG-formaat. |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | Dia's moeten worden geconverteerd naar een rasterafbeelding. |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | Dia's moeten worden geconverteerd naar een SVG-indeling. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 빛 프리셋 유형을 정의하는 상수.
+description: 광 프리셋 유형을 정의하는 상수입니다.
 type: docs
 weight: 7700
 url: /ko/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType 열거형
 
-빛 프리셋 유형을 정의하는 상수.
+광 프리셋 유형을 정의하는 상수입니다.
 
 ```csharp
 public enum LightRigPresetType

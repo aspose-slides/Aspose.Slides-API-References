@@ -1,6 +1,6 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản một bản trình chiếu ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions thuộc tính
 
-Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản một bản trình chiếu [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

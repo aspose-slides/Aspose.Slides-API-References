@@ -1,9 +1,9 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který představuje efekt Alpha Modulate Fixed. Hodnoty alfa (průhlednost) efektu jsou násobeny pevnou procentuální hodnotou.
 type: docs
-weight: 3110
+weight: 3130
 url: /cs/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData rozhraní

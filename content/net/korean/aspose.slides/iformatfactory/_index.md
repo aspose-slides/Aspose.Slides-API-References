@@ -8,7 +8,7 @@ url: /ko/aspose.slides/iformatfactory/
 ---
 ## IFormatFactory 인터페이스
 
-COM 인터페이스를 통해 형식을 생성합니다.
+COM 인터페이스를 통해 형식을 생성할 수 있습니다.
 
 ```csharp
 public interface IFormatFactory
@@ -18,9 +18,9 @@ public interface IFormatFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 새로운 [`IParagraphFormat`](../iparagraphformat)을 생성합니다. |
-| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 새로운 [`IPortionFormat`](../iportionformat)을 생성합니다. |
-| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 새로운 [`ITextFrameFormat`](../itextframeformat)을 생성합니다. |
+| [CreateParagraphFormat](../../aspose.slides/iformatfactory/createparagraphformat)() | 새 [`IParagraphFormat`](../iparagraphformat)을(를) 생성합니다. |
+| [CreatePortionFormat](../../aspose.slides/iformatfactory/createportionformat)() | 새 [`IPortionFormat`](../iportionformat)을(를) 생성합니다. |
+| [CreateTextFrameFormat](../../aspose.slides/iformatfactory/createtextframeformat)() | 새 [`ITextFrameFormat`](../itextframeformat)을(를) 생성합니다. |
 
 ### 참고
 

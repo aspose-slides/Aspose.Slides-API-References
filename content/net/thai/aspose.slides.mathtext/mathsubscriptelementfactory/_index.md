@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathsubscriptelementfactory/
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathSubscriptElementFactory](mathsubscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [MathSubscriptElementFactory](mathsubscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น |
 
 ## เมธอด
 

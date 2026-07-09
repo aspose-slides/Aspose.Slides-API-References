@@ -1,14 +1,14 @@
 ---
 title: MotionCmdPath
 second_title: Aspose.Sildes for .NET API リファレンス
-description: パスのコマンドを 1 つ表します。
+description: パスのコマンドを1つ表します。
 type: docs
-weight: 630
+weight: 650
 url: /ja/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath クラス
 
-パスのコマンドを 1 つ表します。
+パスのコマンドを表します。
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
@@ -18,12 +18,12 @@ public class MotionCmdPath : IMotionCmdPath
 
 | 名前 | 説明 |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | コマンドの種類を指定します。Read/write [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | コマンド座標が相対かどうかを決定します。Read/write Boolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | コマンドのポイントを指定します。Read/write PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | コマンドポイントのタイプを指定します。Read/write [`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | コマンドのタイプを指定します。読み取り/書き込み可能 [`MotionCommandPathType`](../motioncommandpathtype)。 |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | コマンド座標が相対かどうかを決定します。読み取り/書き込み可能 Boolean。 |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | コマンドのポイントを指定します。読み取り/書き込み可能 PointF[]。 |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | コマンドポイントのタイプを指定します。読み取り/書き込み可能 [`MotionPathPointsType`](../motionpathpointstype)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMotionCmdPath](../imotioncmdpath)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

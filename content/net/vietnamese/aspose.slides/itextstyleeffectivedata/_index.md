@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính kiểu văn bản hiệu quả.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đối tượng bất biến chứa các thuộc tính kiểu văn bản có hiệu lực.
 type: docs
 weight: 7320
 url: /vi/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính kiểu văn bản hiệu quả.
+Đối tượng bất biến chứa các thuộc tính kiểu văn bản có hiệu lực.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -16,19 +16,19 @@ public interface ITextStyleEffectiveData
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Trả về các thuộc tính đoạn văn mặc định hiệu quả. Chỉ đọc [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Trả về các thuộc tính đoạn văn mặc định có hiệu lực. Chỉ đọc [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Trả về cấp độ của kiểu hiệu quả. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Trả về mức độ của kiểu hiệu lực. |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`ITextStyle`](../itextstyle) để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`ITextStyle`](../itextstyle) để trả về các giá trị định dạng có hiệu lực với việc kế thừa được áp dụng.
 
 ### Xem thêm
 

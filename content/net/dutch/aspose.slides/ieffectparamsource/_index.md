@@ -1,14 +1,14 @@
 ---
 title: IEffectParamSource
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Interface voor hulpparameters van effect.
+description: Interface voor auxiliaire effectparameters.
 type: docs
 weight: 5760
 url: /nl/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource interface
 
-Hulpparameterinterface voor effect.
+Auxiliaire effectparameters interface.
 
 ```csharp
 public interface IEffectParamSource

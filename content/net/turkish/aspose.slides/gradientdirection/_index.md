@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Gradyan stilini temsil eder.
+description: Değişim stilini temsil eder.
 type: docs
-weight: 4970
+weight: 4990
 url: /tr/aspose.slides/gradientdirection/
 ---
 ## GradientDirection enum
 
-Gradyan stilini temsil eder.
+Değişim stilini temsil eder.
 
 ```csharp
 public enum GradientDirection
@@ -19,13 +19,13 @@ public enum GradientDirection
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Tanımlanmamış |
-| FromCorner1 | `0` | Üst Sol Köşeden |
-| FromCorner2 | `1` | Üst Sağ Köşeden |
-| FromCorner3 | `2` | Alt Sol Köşeden |
-| FromCorner4 | `3` | Alt Sağ Köşeden |
+| FromCorner1 | `0` | Sol Üst Köşeden |
+| FromCorner2 | `1` | Sağ Üst Köşeden |
+| FromCorner3 | `2` | Sol Alt Köşeden |
+| FromCorner4 | `3` | Sağ Alt Köşeden |
 | FromCenter | `4` | Merkezden |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

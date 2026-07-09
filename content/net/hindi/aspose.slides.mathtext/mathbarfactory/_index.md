@@ -1,20 +1,20 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: गणितीय बार बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: गणित बार बनाने की अनुमति देता है
 type: docs
 weight: 8580
 url: /hi/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory क्लास
 
-गणितीय बार बनाने की अनुमति देता है
+गणित बार बनाने की अनुमति देता है
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माताओं
 
 | नाम | विवरण |
 | --- | --- |
@@ -24,14 +24,14 @@ public class MathBarFactory : IMathBarFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | इलेमेंट पर लागू करके एक गणितीय बार बनाता है |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | इलेमेंट पर लागू करके एक गणितीय बार बनाता है |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | तत्व पर लागू करके एक गणित बार बनाता है |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | तत्व पर लागू करके एक गणित बार बनाता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
 COM संगतता के लिए
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IMathBarFactory](../imathbarfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

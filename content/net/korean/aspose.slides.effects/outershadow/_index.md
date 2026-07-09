@@ -1,6 +1,6 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 외부 그림자 효과를 나타냅니다.
 type: docs
 weight: 3620
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow 클래스
 
-Outer Shadow 효과를 나타냅니다.
+외부 그림자 효과를 나타냅니다.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -16,28 +16,28 @@ public sealed class OuterShadow : IOuterShadow
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 흐림 반경, 포인트 단위. 기본값 – 0 pt. 읽기/쓰기 Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 그림자 방향, 도 단위. 기본값 – 0 ° (왼쪽에서 오른쪽). 읽기/쓰기 Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 그림자가 객체로부터 떨어진 거리, 포인트 단위. 기본값 – 0 pt. 읽기/쓰기 Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | 흐림 반경, 포인트 단위입니다. 기본값 – 0 pt. 읽기/쓰기 Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | 그림자의 방향, 각도 단위입니다. 기본값 – 0 ° (왼쪽에서 오른쪽). 읽기/쓰기 Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | 그림자가 객체로부터 떨어진 거리, 포인트 단위입니다. 기본값 – 0 pt. 읽기/쓰기 Double. |
 | [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | 사각형 정렬. 기본값 – Bottom. 읽기/쓰기 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 그림자가 도형과 함께 회전하는지 여부. 기본값 – true. 읽기/쓰기 Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 가로 스케일링 팩터, 원본 크기의 퍼센트 단위. 음수 스케일링은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 세로 스케일링 팩터, 원본 크기의 퍼센트 단위. 음수 스케일링은 뒤집힘을 일으킵니다. 기본값 – 100 %. 읽기/쓰기 Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 그림자 색상. 기본값 – 자동 검정 (테마 종속). 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 가로 기울기 각도, 도 단위. 기본값 – 0 °. 읽기/쓰기 Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 세로 기울기 각도, 도 단위. 기본값 – 0 °. 읽기/쓰기 Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | 그림자가 도형과 함께 회전하는지 여부를 나타냅니다. 기본값 – true. 읽기/쓰기 Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | 원본 크기의 백분율로 표시된 수평 스케일링 계수입니다. 음수 스케일링은 뒤집힘을 초래합니다. 기본값 – 100 %. 읽기/쓰기 Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | 원본 크기의 백분율로 표시된 수직 스케일링 계수입니다. 음수 스케일링은 뒤집힘을 초래합니다. 기본값 – 100 %. 읽기/쓰기 Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | 그림자의 색상. 기본값 – 자동 검정(테마 의존). 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | 수평 기울기 각도, 각도 단위입니다. 기본값 – 0 °. 읽기/쓰기 Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | 수직 기울기 각도, 각도 단위입니다. 기본값 – 0 °. 읽기/쓰기 Double. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 지정된 [`OuterShadow`](../outershadow)가 현재 [`OuterShadow`](../outershadow)와 동일한지 확인합니다. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 상속이 적용된 효과적인 Outer Shadow 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 특정 타입에 대한 해시 함수 역할을 합니다. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | 지정된 [`OuterShadow`](../outershadow)가 현재 [`OuterShadow`](../outershadow)와 같은지 여부를 결정합니다. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | 상속이 적용된 유효한 Outer Shadow 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IOuterShadow](../ioutershadow)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

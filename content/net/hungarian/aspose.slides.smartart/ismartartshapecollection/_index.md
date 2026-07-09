@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes .NET API-referencia
-description: A SmartArt alakzatok gyűjteményét képviseli
+second_title: Aspose.Sildes .NET API referencia
+description: SmartArt alakzatok gyűjteményét képviseli
 type: docs
-weight: 10560
+weight: 10580
 url: /hu/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection interfész
 
-A SmartArt alakzatok gyűjteményét képviseli
+SmartArt alakzatok gyűjteményét képviseli
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Az adott indexű elemet adja vissza. Csak olvasható [`ISmartArtShape`](../ismartartshape). Az elem nulláról induló indexe |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | Megkapja a megadott indexű elemet. Csak olvasható [`ISmartArtShape`](../ismartartshape). Az elem nullától indexelt indexe |
 
 ### Lásd még
 

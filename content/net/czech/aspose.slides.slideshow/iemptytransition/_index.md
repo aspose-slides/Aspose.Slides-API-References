@@ -3,7 +3,7 @@ title: IEmptyTransition
 second_title: Aspose.Sildes pro .NET API Reference
 description: Prázdný efekt přechodu snímku.
 type: docs
-weight: 10060
+weight: 10080
 url: /cs/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition rozhraní

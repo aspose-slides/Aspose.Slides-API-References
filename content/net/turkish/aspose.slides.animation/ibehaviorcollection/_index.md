@@ -3,7 +3,7 @@ title: IBehaviorCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Davranış etkilerinin koleksiyonunu temsil eder.
 type: docs
-weight: 400
+weight: 420
 url: /tr/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection arayüzü
@@ -18,9 +18,9 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Koleksiyondaki IEnumerable arabirimini döndürür. Yalnızca okuma IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Koleksiyondaki davranış sayısını döndürür. Yalnızca okuma Int32. |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Belirtilen indeksde bir davranışı döndürür. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt okunur IEnumerable. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Bir koleksiyondaki davranışların sayısını döndürür. Salt okunur Int32. |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Belirtilen dizindeki bir davranışı döndürür. |
 
 ## Yöntemler
 
@@ -28,13 +28,13 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | Yeni bir davranışı koleksiyona ekler. |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Koleksiyondaki tüm davranışları kaldırır. |
-| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | ICollection'ın belirli bir değeri içerip içermediğini belirler. |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | IList'teki belirli bir öğenin indeksini belirler. |
+| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | ICollection öğesinin belirli bir değeri içerip içermediğini belirler. |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | IList içinde belirli bir öğenin indeksini belirler. |
 | [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Yeni bir davranışı belirtilen indeksde koleksiyona ekler. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Belirtilen davranışı koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Belirtilen indeksde koleksiyondan davranışı kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Belirtilen indeksdeki davranışı koleksiyondan kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

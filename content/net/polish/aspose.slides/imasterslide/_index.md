@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje slajd wzorcowy w prezentacji.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje slajd nadrzędny w prezentacji.
 type: docs
-weight: 6400
+weight: 6420
 url: /pl/aspose.slides/imasterslide/
 ---
 ## IMasterSlide interfejs
 
-Reprezentuje slajd wzorcowy w prezentacji.
+Reprezentuje slajd nadrzędny w prezentacji.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,23 +18,23 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Umożliwia uzyskanie bazowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseSlide. Tylko do odczytu [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Zwraca interfejs IMasterThemeable. Tylko do odczytu [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
 | [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Zwraca styl tekstu głównego. Tylko do odczytu [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Zwraca kolekcję prowadnic rysowania dla slajdu wzorcowego. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Zwraca true, jeśli istnieje co najmniej jeden slajd zależący od tego slajdu wzorcowego. Tylko do odczytu Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter slajdu wzorcowego. Tylko do odczytu [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Zwraca kolekcję slajdów układu podrzędnych dla tego slajdu wzorcowego. Tylko do odczytu [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Zwraca kolekcję prowadnic rysowania dla slajdu nadrzędnego. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Zwraca true, jeśli istnieje co najmniej jeden slajd zależny od tego slajdu nadrzędnego. Tylko do odczytu Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter slajdu nadrzędnego. Tylko do odczytu [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Zwraca kolekcję podrzędnych slajdów układu dla tego slajdu nadrzędnego. Tylko do odczytu [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Zwraca styl innego tekstu. Tylko do odczytu [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Określa, czy odpowiedni master zostaje usunięty, gdy wszystkie slajdy podążające za tym masterem zostaną usunięte. Uwaga: Aspose.Slides nigdy nie usuwa samodzielnie żadnego nieużywanego mastera; aby faktycznie usunąć nieużywane mastery, wywołaj [`RemoveUnused`](../imasterslidecollection/removeunused) Odczyt/zapis Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Określa, czy odpowiadający slajd nadrzędny jest usuwany, gdy wszystkie slajdy podążające po tym nadrzędnym zostaną usunięte. Uwaga: Aspose.Slides nigdy samodzielnie nie usuwa nieużywanych slajdów nadrzędnych; aby faktycznie usunąć nieużywane slajdy nadrzędne, wywołaj [`RemoveUnused`](../imasterslidecollection/removeunused). Odczyt/zapis Boolean. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Zwraca styl tekstu tytułu. Tylko do odczytu [`ITextStyle`](../itextstyle). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Tworzy nowy slajd wzorcowy na podstawie bieżącego, stosując do niego zewnętrzny motyw i stosuje utworzony slajd wzorcowy do wszystkich zależnych slajdów. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Zwraca tablicę ze wszystkimi slajdami, które zależą od tego slajdu wzorcowego. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Tworzy nowy slajd nadrzędny na podstawie bieżącego, stosując do niego zewnętrzny motyw i nakłada utworzony slajd nadrzędny na wszystkie slajdy zależne. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Zwraca tablicę ze wszystkimi slajdami zależnymi od tego slajdu nadrzędnego. |
 
 ### Zobacz także
 

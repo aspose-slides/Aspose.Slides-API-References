@@ -1,14 +1,14 @@
 ---
 title: IExternalResourceResolver
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อินเทอร์เฟซการเรียกกลับที่ใช้ในการแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html Svg.
+description: อินเทอร์เฟซเรียกกลับที่ใช้ในการแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html และ Svg.
 type: docs
 weight: 7490
 url: /th/aspose.slides.import/iexternalresourceresolver/
 ---
 ## IExternalResourceResolver อินเทอร์เฟซ
 
-อินเทอร์เฟซการเรียกกลับที่ใช้ในการแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร Html, Svg.
+อินเทอร์เฟซเรียกกลับที่ใช้ในการแก้ไขทรัพยากรภายนอกในระหว่างการนำเข้าเอกสาร Html, Svg
 
 ```csharp
 public interface IExternalResourceResolver
@@ -16,10 +16,10 @@ public interface IExternalResourceResolver
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | แมป URI ไปยังอ็อบเจกต์ที่มีทรัพยากรจริง |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | แก้ไขหา URI แบบเต็มจาก URI ฐานและ URI สัมพัทธ์ |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | แมป URI ไปยังอ็อบเจ็กต์ที่มีทรัพยากรจริง |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | แก้ไข URI สมบูรณ์จาก URI ฐานและ URI สัมพัทธ์ |
 
 ### ดูเพิ่มเติม
 

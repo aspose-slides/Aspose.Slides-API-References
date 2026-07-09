@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 근호를 생성할 수 있습니다
+description: 수학 근호를 만들 수 있습니다
 type: docs
 weight: 8950
 url: /ko/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory 클래스
 
-수학 근호를 생성할 수 있습니다
+수학 근호를 만들 수 있습니다
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory

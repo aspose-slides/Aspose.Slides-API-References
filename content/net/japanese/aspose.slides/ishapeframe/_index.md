@@ -1,9 +1,9 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Slides for .NET API リファレンス
 description: シェイプフレームのプロパティを表します。
 type: docs
-weight: 6980
+weight: 7000
 url: /ja/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame インターフェイス
@@ -20,11 +20,11 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 | --- | --- |
 | [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | フレームの中心の X 座標を返します。読み取り専用 Single。 |
 | [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | フレームの中心の Y 座標を返します。読み取り専用 Single。 |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | フレームが水平方向に反転しているかどうかを判断します。読み取り専用 [`NullableBool`](../nullablebool)。 |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | フレームが垂直方向に反転しているかどうかを判断します。読み取り専用 [`NullableBool`](../nullablebool)。 |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | フレームが水平に反転しているかどうかを判定します。読み取り専用 [`NullableBool`](../nullablebool)。 |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | フレームが垂直に反転しているかどうかを判定します。読み取り専用 [`NullableBool`](../nullablebool)。 |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | フレームの高さを返します。読み取り専用 Single。 |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | フレームの座標を返します。読み取り専用 RectangleF。 |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | フレームが Z 軸周りに回転した角度（度数）を返します。正の値は時計回りの回転を示し、負の値は反時計回りの回転を示します。読み取り専用 Single。 |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | フレームが z 軸まわりに回転した角度（度数）を返します。正の値は時計回り、負の値は反時計回りを示します。読み取り専用 Single。 |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | フレームの幅を返します。読み取り専用 Single。 |
 | [X](../../aspose.slides/ishapeframe/x) { get; } | フレームの左上隅の X 座標を返します。読み取り専用 Single。 |
 | [Y](../../aspose.slides/ishapeframe/y) { get; } | フレームの左上隅の Y 座標を返します。読み取り専用 Single。 |

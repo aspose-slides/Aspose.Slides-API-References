@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes .NET API 參考文件
-description: 表示可以指派給投影片的其他顏色配色方案。
+second_title: Aspose.Sildes .NET API 參考
+description: 代表一個可指派給投影片的額外色彩方案。
 type: docs
 weight: 11100
 url: /zh-hant/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme 類別
 
-表示可以指派給投影片的其他顏色配色方案。
+代表一個可指派給投影片的額外色彩方案。
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme
@@ -18,8 +18,8 @@ public class ExtraColorScheme : IExtraColorScheme
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | 傳回顏色配色方案。唯讀 [`IColorScheme`](../icolorscheme)。 |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | 傳回此配色方案的名稱。唯讀 String。 |
+| [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | 傳回色彩方案。唯讀 [`IColorScheme`](../icolorscheme)。 |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | 傳回此方案的名稱。唯讀 String。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 基本的な IImageTransformOperation インターフェイスを表します。
+description: IImageTransformOperation インターフェイスの基本を表します。
 type: docs
-weight: 3120
+weight: 3140
 url: /ja/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace インターフェイス
 
-基底 IImageTransformOperation インターフェイスを表します。
+IImageTransformOperation インターフェイスの基本を表します。
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | 基底 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | 基底 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | IAccessiblePVIObject インターフェイスの基本を取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | IImageTransformOperation インターフェイスの基本を取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงตัวสร้างของการเคลื่อนไหวใน Presentation../aspose.slides/presentation.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวสร้างของแอนิเมชันใน Presentation../aspose.slides/presentation.
 type: docs
 weight: 4380
 url: /th/aspose.slides.export/presentationanimationsgenerator/
 ---
-## PresentationAnimationsGenerator คลาส
+## คลาส PresentationAnimationsGenerator
 
-เป็นตัวสร้างของการเคลื่อนไหวใน [`Presentation`](../../aspose.slides/presentation).
+เป็นตัวสร้างของแอนิเมชันใน [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -25,17 +25,17 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | รับหรือกำหนดค่าเวลาหน่วงเวลามาตรฐาน [ms]. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | รับหรือกำหนดเวลาเลื่อนต้นแบบ [ms]. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | รับจำนวนสไลด์ที่ส่งออก. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | รับหรือกำหนดว่าควรรวมสไลด์ที่ซ่อนไว้หรือไม่. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | รับหรือกำหนดว่าควรรวมสไลด์ที่ซ่อนอยู่หรือไม่. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | ทำลายอินสแตนซ์ของ [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | ดำเนินการสร้างเหตุการณ์การเคลื่อนไหวสำหรับแต่ละสไลด์. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | ดำเนินการสร้างเหตุการณ์การเคลื่อนไหวสำหรับแต่ละสไลด์. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | สร้างเหตุการณ์แอนิเมชันสำหรับแต่ละสไลด์. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | สร้างเหตุการณ์แอนิเมชันสำหรับแต่ละสไลด์. |
 
 ## ฟิลด์
 
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | เหตุการณ์แสดงว่าการเคลื่อนไหวใหม่ได้ถูกสร้างขึ้น. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | เหตุการณ์นี้แสดงว่ามีการสร้างแอนิเมชันใหม่. |
 
 ### ตัวอย่าง
 

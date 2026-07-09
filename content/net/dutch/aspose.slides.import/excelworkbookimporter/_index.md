@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt functionaliteit voor het importeren van inhoud uit een Excel-werkboek in een presentatie.
+description: Biedt functionaliteit om inhoud van een Excel-werkmap te importeren in een presentatie.
 type: docs
 weight: 7470
 url: /nl/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter klasse
 
-Biedt functionaliteit voor het importeren van inhoud uit een Excel-werkboek in een presentatie.
+Biedt functionaliteit voor het importeren van inhoud uit een Excel-werkmap in een presentatie.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | Naam | Beschrijving |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Haalt een grafiek op uit het opgegeven Excel-werkboek en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Haalt een grafiek op uit het opgegeven Excel-werkboek en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Haalt een grafiek op uit het opgegeven Excel-werkboek en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Haalt een grafiek op uit het opgegeven Excel-werkboek en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Haalt een tabel op uit het opgegeven Excel-werkboek en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Haalt een tabel op uit het opgegeven Excel-werkboekbestand en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Haalt een tabel op uit het opgegeven Excel-werkboekbestand en voegt deze toe aan het einde van de opgegeven vormverzameling op de opgegeven coördinaten. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Haalt een diagram op uit de opgegeven Excel-werkmap en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Haalt een diagram op uit de opgegeven Excel-werkmap en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Haalt een diagram op uit de opgegeven Excel-werkmap en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Haalt een diagram op uit de opgegeven Excel-werkmap en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Haalt een tabel op uit de opgegeven Excel-werkmap en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Haalt een tabel op uit het opgegeven Excel-werkmapbestand en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Haalt een tabel op uit het opgegeven Excel-werkmapbestand en voegt het toe aan het einde van de opgegeven shape-collectie op de gespecificeerde coördinaten. |
 
 ### Zie ook
 

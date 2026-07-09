@@ -1,14 +1,14 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 내부 그림자 효과를 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 내부 그림자 효과를 나타내는 불변 객체.
 type: docs
 weight: 3430
 url: /ko/aspose.slides.effects/iinnershadoweffectivedata/
 ---
 ## IInnerShadowEffectiveData 인터페이스
 
-내부 그림자 효과를 나타내는 불변 객체입니다.
+내부 그림자 효과를 나타내는 불변 객체.
 
 ```csharp
 public interface IInnerShadowEffectiveData : IEffectEffectiveData
@@ -24,7 +24,7 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | 그림자 거리. 읽기 전용 Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | 그림자 색상. 읽기 전용 Color. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

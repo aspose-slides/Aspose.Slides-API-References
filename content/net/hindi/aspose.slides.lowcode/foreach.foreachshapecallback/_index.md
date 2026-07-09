@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes .NET API संदर्भ
-description: प्रत्येक Shape के लिए Presentation में बुलाया जाने वाला कॉलबैक। /foreach/shape ..aspose.slides/presentation.
+description: Callback जो Presentation में प्रत्येक Shape./foreach/shape के लिए बुलाया जाएगा../aspose.slides/presentation.
 type: docs
 weight: 7950
 url: /hi/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
-## ForEach.ForEachShapeCallback प्रतिनिधि
+## ForEach.ForEachShapeCallback delegate
 
-प्रत्येक [`Shape`](../foreach/shape) के लिए बुलाया जाने वाला कॉलबैक [`Presentation`](../../aspose.slides/presentation) में।
+Callback जो [`Presentation`](../../aspose.slides/presentation) में प्रत्येक [`Shape`](../foreach/shape) के लिए बुलाया जाएगा।
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
@@ -21,9 +21,9 @@ public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int inde
 
 ### संबंधित देखें
 
-* वर्ग [Shape](../../aspose.slides/shape)
-* वर्ग [BaseSlide](../../aspose.slides/baseslide)
-* वर्ग [ForEach](../foreach)
+* क्लास [Shape](../../aspose.slides/shape)
+* क्लास [BaseSlide](../../aspose.slides/baseslide)
+* क्लास [ForEach](../foreach)
 * नामस्थान [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * असेंबली [Aspose.Slides](../../)
 

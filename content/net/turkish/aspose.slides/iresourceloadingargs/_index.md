@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes .NET API Referansı
-description: Harici kaynak yükleme argümanları için arayüz.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Harici kaynak yükleme argümanları için arabirim.
 type: docs
-weight: 6810
+weight: 6830
 url: /tr/aspose.slides/iresourceloadingargs/
 ---
-## IResourceLoadingArgs arayüzü
+## IResourceLoadingArgs arabirimi
 
-Dış kaynak yükleme argümanları için arayüz.
+Harici kaynak yükleme argümanları için arabirim.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -18,14 +18,14 @@ public interface IResourceLoadingArgs
 
 | Ad | Açıklama |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | İçe aktarılan sunumda belirtildiği gibi kaynağın özgün URI'si. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) varsayılanı döndürürse, indirme için kullanılan kaynağın URI'si. Başlangıçta kaynakların özgün URI'sine ayarlanır, ancak herhangi bir değere yeniden tanımlanabilir. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | İçeri aktarılan sunumda belirtildiği gibi kaynağın orijinal URI'si. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) varsayılan döndürdüğünde indirme için kullanılan kaynağın URI'si. Başlangıçta kaynağın orijinal URI'sine ayarlanır, ancak herhangi bir değere yeniden tanımlanabilir. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | Kaynağın, [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided döndürdüğünde kullanılan, kullanıcı tarafından sağlanan verileri ayarlar. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) kullanıcı tarafından sağlananı döndürdüğünde kullanılacak kaynağın kullanıcı sağladığı verilerini ayarlar. |
 
 ### Ayrıca Bakınız
 

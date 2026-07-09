@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: ノート用のマスタースライドを表します。
 type: docs
-weight: 6370
+weight: 6390
 url: /ja/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide インターフェイス
@@ -18,11 +18,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | ベースIBaseSlideインターフェイスを取得できます。読み取り専用[`IBaseSlide`](../ibaseslide)。 |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeableインターフェイスを返します。読み取り専用[`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)。 |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | マスターノートスライドの描画ガイドのコレクションを返します。読み取り専用[`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | マスターノートスライドの HeaderFooter マネージャーを返します。読み取り専用[`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager)。 |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | ノートテキストのスタイルを返します。読み取り専用[`ITextStyle`](../itextstyle)。 |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | ベースのIBaseSlideインターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | IMasterThemeableインターフェイスを返します。読み取り専用 [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | マスターノートスライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | マスターノートスライドのHeaderFooterマネージャーを返します。読み取り専用 [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | ノートテキストのスタイルを返します。読み取り専用 [`ITextStyle`](../itextstyle). |
 
 ### 参照
 

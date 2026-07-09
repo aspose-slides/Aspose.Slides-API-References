@@ -1,6 +1,6 @@
 ---
 title: Picture
-second_title: Aspose.Slides 用於 .NET 的 API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示簡報中的圖片。
 type: docs
 weight: 9380
@@ -16,23 +16,23 @@ public sealed class Picture : ISlidesPicture
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Image](../../aspose.slides/picture/image) { get; set; } | 返回或設定嵌入的圖像。可讀寫 [`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 返回影像變換效果的集合。唯讀 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 返回或設定已連結圖像的 URL。可讀寫 String。 |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | 返回簡報。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/picture/slide) { get; } | 返回圖片的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [Image](../../aspose.slides/picture/image) { get; set; } | 傳回或設置嵌入的影像。可讀寫 [`IPPImage`](../ippimage)。 |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | 傳回影像變換效果的集合。唯讀 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | 傳回或設定已連結影像的 URL。可讀寫 String。 |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | 傳回簡報。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Slide](../../aspose.slides/picture/slide) { get; } | 傳回圖片的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/picture/equals)(object) | 與指定的物件比較。 |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | 返回雜湊值。 |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | 傳回雜湊值。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ISlidesPicture](../islidespicture)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

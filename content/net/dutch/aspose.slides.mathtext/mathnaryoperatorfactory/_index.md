@@ -1,6 +1,6 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes for .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Staat toe om IMathNaryOperator te maken
 type: docs
 weight: 8880

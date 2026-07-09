@@ -3,10 +3,10 @@ title: MaterialPresetType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Costanti che definiscono il materiale della forma.
 type: docs
-weight: 8040
+weight: 8060
 url: /it/aspose.slides/materialpresettype/
 ---
-## enumerazione MaterialPresetType
+## MaterialPresetType enumerazione
 
 Costanti che definiscono il materiale della forma.
 

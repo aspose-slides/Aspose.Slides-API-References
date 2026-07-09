@@ -27,14 +27,14 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | 從位元組陣列建立並將音訊加入簡報。 |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | 從另一個簡報加入音訊檔案的副本。 |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | 從串流建立並將音訊加入簡報。 |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 從串流建立並將音訊加入簡報。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | 從位元組陣列建立並將音訊新增至簡報。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | 從另一個簡報新增音訊檔案的副本。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | 從串流建立並將音訊新增至簡報。 |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 從串流建立並將音訊新增至簡報。 |
 | [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | 將音訊複製到指定的陣列，從指定的索引開始。 |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | 返回用於遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Presentation](../presentation)

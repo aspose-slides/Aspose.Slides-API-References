@@ -1,14 +1,14 @@
 ---
 title: ChartData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta i dati utilizzati per il tracciamento di un grafico.
+description: Rappresenta i dati utilizzati per la creazione di un grafico.
 type: docs
-weight: 1290
+weight: 1310
 url: /it/aspose.slides.charts/chartdata/
 ---
 ## ChartData classe
 
-Rappresenta i dati utilizzati per il tracciamento di un grafico.
+Rappresenta i dati utilizzati per la creazione di un grafico.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,29 +18,29 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Restituisce le categorie principali (o sia le categorie principali che quelle secondarie se la proprietà [`UseSecondaryCategories`](./usesecondarycategories) è false). Sola lettura [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Restituisce la fabbrica di celle per creare le celle utilizzate per le serie o le categorie del grafico. Sola lettura [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Rappresenta il percorso della cartella di lavoro esterna se la fonte dei dati è esterna, null altrimenti |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Restituisce il tipo della cartella di lavoro incorporata. Restituisce NotDefined se [`DataSourceType`](./datasourcetype) è ExternalWorkbook. Sola lettura [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Rappresenta la fonte dei dati del grafico |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Restituisce le categorie secondarie se la proprietà [`UseSecondaryCategories`](./usesecondarycategories) è true. Sola lettura [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Restituisce le serie. Sola lettura [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Restituisce i gruppi di serie. Sola lettura [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Se false, la proprietà [`SecondaryCategories`](./secondarycategories) restituisce null e i dati nella proprietà [`Categories`](./categories) vengono usati sia per le serie principali che per quelle secondarie. Se true, i dati nella proprietà [`SecondaryCategories`](./secondarycategories) vengono usati per le serie secondarie e i dati nella proprietà [`Categories`](./categories) per le serie principali. Lettura/scrittura Boolean. |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Ottiene le categorie primarie (o sia le categorie primarie che secondarie se la proprietà [`UseSecondaryCategories`](./usesecondarycategories) è false). Sola lettura [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Ottiene la fabbrica di celle per creare celle utilizzate per le serie o le categorie del grafico. Sola lettura [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Rappresenta il percorso della cartella di lavoro esterna se la fonte di dati è esterna, null altrimenti. |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Ottiene il tipo della cartella di lavoro incorporata. Restituisce NotDefined se [`DataSourceType`](./datasourcetype) è ExternalWorkbook. Sola lettura [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Rappresenta la fonte dati del grafico. |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Ottiene le categorie secondarie se la proprietà [`UseSecondaryCategories`](./usesecondarycategories) è true. Sola lettura [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Ottiene le serie. Sola lettura [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Ottiene i gruppi di serie. Sola lettura [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Se false allora la proprietà [`SecondaryCategories`](./secondarycategories) restituisce null e i dati nella proprietà [`Categories`](./categories) sono usati sia per le serie primarie che secondarie. Se true allora i dati nella proprietà [`SecondaryCategories`](./secondarycategories) sono usati per le serie secondarie e i dati nella proprietà [`Categories`](./categories) sono usati per le serie primarie. Lettura/scrittura Booleano. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Restituisce l'intervallo dei dati del grafico. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Scrive la cartella di lavoro Excel incorporata in un flusso in memoria. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Imposta la cartella di lavoro esterna come fonte dei dati per il grafico. I dati del grafico saranno aggiornati dalla cartella di lavoro di destinazione. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Imposta la cartella di lavoro esterna come fonte dei dati per il grafico. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Imposta l'intervallo dei dati del grafico. Le serie e le categorie saranno aggiornate in base al nuovo intervallo. Se il numero di serie nell'intervallo è maggiore del conteggio delle serie nei dati del grafico, verranno aggiunte serie aggiuntive con lo stesso tipo dell'ultima serie della collezione corrente alla fine della collezione. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Scambia i dati sull'asse. I dati tracciati sull'asse X saranno spostati sull'asse Y e viceversa. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Inizializza la cartella di lavoro Excel incorporata con il valore specificato dall'utente. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Ottiene l'intervallo dei dati del grafico. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Scrive la cartella di lavoro Excel contenuta internamente in uno stream in memoria. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Imposta la cartella di lavoro esterna come fonte dati per il grafico. I dati del grafico saranno aggiornati dalla cartella di lavoro di destinazione. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Imposta la cartella di lavoro esterna come fonte dati per il grafico. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Imposta l'intervallo dei dati del grafico. Le serie e le categorie saranno aggiornate in base al nuovo intervallo dei dati. Se il numero di serie nell'intervallo dei dati è maggiore del conteggio delle serie nei dati del grafico, verranno aggiunte serie aggiuntive con lo stesso tipo dell'ultima serie nella collezione corrente alla fine della collezione. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Scambia i dati sull'asse. I dati tracciati sull'asse X verranno spostati sull'asse Y e viceversa. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Inizializza la cartella di lavoro Excel contenuta internamente con il valore specificato dall'utente. |
 
-### Vedere anche
+### Vedi anche
 
 * classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * classe [Chart](../chart)

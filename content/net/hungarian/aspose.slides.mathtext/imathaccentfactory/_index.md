@@ -1,29 +1,29 @@
 ---
 title: IMathAccentFactory
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi, hogy matematikai ékezetet hozzon létre
+second_title: Aspose.Sildes .NET API-referencia
+description: Lehetővé teszi matematikai ékezet létrehozását
 type: docs
-weight: 8070
+weight: 8090
 url: /hu/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory interfész
 
-Lehetővé teszi, hogy matematikai ékezetet hozzon létre
+Lehetővé teszi matematikai ékezet létrehozását
 
 ```csharp
 public interface IMathAccentFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Létrehozza a megadott matematikai elemhez tartozó matematikai ékezetet az alapértelmezett ékezet karakterértékkel |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Létrehozza a megadott matematikai elemhez tartozó matematikai ékezetet |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | Létrehoz egy matematikai ékezetet egy megadott matematikai elemre az alapértelmezett ékezetkarakter értékével |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | Létrehoz egy matematikai ékezetet egy megadott matematikai elemre |
 
 ### Megjegyzések
 
-A COM kompatibilitáshoz
+COM kompatibilitáshoz
 
 ### Lásd még
 

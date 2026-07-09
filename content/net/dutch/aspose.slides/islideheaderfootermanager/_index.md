@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van de dia-voettekst, datum-tijd en paginanummer-plaatsaanduidingen bevat.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Stelt de manager voor die het gedrag van de slide-voettekst, datum-tijd en paginanummer-plaatsaanduidingen bevat.
 type: docs
 weight: 7070
 url: /nl/aspose.slides/islideheaderfootermanager/
 ---
 ## ISlideHeaderFooterManager interface
 
-Stelt een manager voor die het gedrag van de dia-voettekst, datum-tijd en paginanummer-plaatsaanduidingen bevat.
+Stelt manager voor die het gedrag van de slide-voettekst, datum-tijd en paginanummer-plaatsaanduidingen bevat.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,7 +18,7 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retourneert de IBaseSlideHeaderFooterManager interface. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Retourneert IBaseSlideHeaderFooterManager interface. |
 
 ### Zie ook
 

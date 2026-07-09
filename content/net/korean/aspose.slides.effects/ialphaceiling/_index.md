@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes for .NET API 참조
-description: Alpha Ceiling 효과를 나타냅니다. Alpha 불투명도 값이 0보다 큰 경우 100으로 변경됩니다. 즉, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Alpha Ceiling 효과를 나타냅니다. 알파 불투명도 값이 0보다 큰 경우 100으로 변경됩니다. 즉, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
 type: docs
 weight: 3040
 url: /ko/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling 인터페이스
 
-Alpha Ceiling 효과를 나타냅니다. Alpha(불투명도) 값이 0보다 큰 경우 100%로 변경됩니다. 즉, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
+Alpha Ceiling 효과를 나타냅니다. 알파(불투명도) 값이 0보다 큰 경우 100%로 변경됩니다. 즉, 부분적으로 불투명한 모든 요소가 완전히 불투명해집니다.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 

@@ -16,14 +16,14 @@ public abstract class Behavior : IBehavior
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示是否累積動畫行為。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他正在執行的動畫合併。可讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他執行中的動畫結合。可讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行為的屬性。唯讀 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 表示效果行為的時間屬性。可讀寫 [`ITiming`](../itiming)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IBehavior](../ibehavior)
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

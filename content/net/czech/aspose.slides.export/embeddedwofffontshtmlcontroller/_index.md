@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
 second_title: Aspose.Sildes pro .NET API Reference
-description: Formátovací řadičová třída určená k vkládání písem ve formátu WOFF
+description: Řídící třída formátování určená pro vkládání písem ve formátu WOFF
 type: docs
-weight: 3770
+weight: 3790
 url: /cs/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController třída
 
-Formátovací řadičová třída určená k vkládání písem ve formátu WOFF
+Řídící třída formátování určená pro vkládání písem ve formátu WOFF
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController

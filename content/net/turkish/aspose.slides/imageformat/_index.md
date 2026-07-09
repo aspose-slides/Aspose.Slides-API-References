@@ -3,12 +3,12 @@ title: ImageFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Görselin dosya formatını temsil eder.
 type: docs
-weight: 7410
+weight: 7430
 url: /tr/aspose.slides/imageformat/
 ---
-## ImageFormat enumerasyonu
+## ImageFormat enum
 
-Görselin dosya formatını temsil eder.
+Görüntünün dosya biçimini temsil eder.
 
 ```csharp
 public enum ImageFormat
@@ -18,16 +18,16 @@ public enum ImageFormat
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| MemoryBmp | `0` | Bellekteki bir bitmap'in formatını temsil eder. |
-| Bmp | `1` | Bitmap (BMP) görüntü formatını temsil eder. |
-| Emf | `2` | Geliştirilmiş metafile (EMF) görüntü formatını temsil eder. |
-| Wmf | `3` | Windows metafile (WMF) görüntü formatını temsil eder. |
-| Gif | `4` | Grafik Değişim Formatı (GIF) görüntü formatını temsil eder. |
-| Jpeg | `5` | Ortak Fotoğraf Uzmanları Grubu (JPEG) görüntü formatını temsil eder. |
-| Png | `6` | W3C Taşınabilir Ağ Grafikleri (PNG) görüntü formatını temsil eder. |
-| Tiff | `7` | Etiketli Görüntü Dosyası Formatı (TIFF) görüntü formatını temsil eder. |
-| Exif | `8` | Değiştirilebilir Görüntü Dosyası (Exif) formatını temsil eder. |
-| Icon | `9` | Windows simge görüntü formatını temsil eder. |
+| MemoryBmp | `0` | Bellekteki bir bitmap'in biçimini temsil eder. |
+| Bmp | `1` | Bitmap (BMP) görüntü biçimini temsil eder. |
+| Emf | `2` | Gelişmiş metafile (EMF) görüntü biçimini temsil eder. |
+| Wmf | `3` | Windows metafile (WMF) görüntü biçimini temsil eder. |
+| Gif | `4` | Graphics Interchange Format (GIF) görüntü biçimini temsil eder. |
+| Jpeg | `5` | Joint Photographic Experts Group (JPEG) görüntü biçimini temsil eder. |
+| Png | `6` | W3C Portable Network Graphics (PNG) görüntü biçimini temsil eder. |
+| Tiff | `7` | Tagged Image File Format (TIFF) görüntü biçimini temsil eder. |
+| Exif | `8` | Exchangeable Image File (Exif) biçimini temsil eder. |
+| Icon | `9` | Windows ikon görüntü biçimini temsil eder. |
 
 ### Ayrıca Bakınız
 

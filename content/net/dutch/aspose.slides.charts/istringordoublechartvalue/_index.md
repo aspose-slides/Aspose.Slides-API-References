@@ -1,32 +1,32 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die bij de grafiek hoort; 2) als letterlijke waarde.
+description: Stelt een string- of double-waarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel(len) van een werkmap die aan een grafiek is gerelateerd; 2) als letterlijke waarde.
 type: docs
 weight: 2230
 url: /nl/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interface
 
-Stelt een string- of double-waarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van een werkmap die bij de grafiek hoort; 2) als letterlijke waarde.
+Vertegenwoordigt een string of double-waarde die op twee manieren kan worden opgeslagen in een pptx-presentatiedocument: 1) in cel(len) van een werkmap die aan een grafiek is gerelateerd; 2) als letterlijke waarde.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Staat toe de basis-ISingleCellChartValue-interface op te halen. Alleen-lezen [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Geeft de letterlijke double terug of stelt deze in als de DataSourceType-eigenschap DataSourceType.DoubleLiterals is. Lezen/schrijven Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Geeft de letterlijke string terug of stelt deze in als de DataSourceType-eigenschap DataSourceType.StringLiterals is. Lezen/schrijven String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Staat toe om de basis ISingleCellChartValue interface op te halen. Alleen-lezen [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Geeft de letterlijke double terug of stelt deze in als de DataSourceType-eigenschap gelijk is aan DataSourceType.DoubleLiterals. Lezen/schrijven Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Geeft de letterlijke string terug of stelt deze in als de DataSourceType-eigenschap gelijk is aan DataSourceType.StringLiterals. Lezen/schrijven String. |
 
-## Methoden
+## Methods
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Converteert waarde naar double. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Converteert de waarde naar double. |
 
 ### Zie ook
 

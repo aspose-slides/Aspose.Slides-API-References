@@ -1,14 +1,14 @@
 ---
 title: IImageTransformOperation
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn hiệu ứng biến đổi hình ảnh trừu tượng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn hiệu ứng biến đổi ảnh trừu tượng.
 type: docs
 weight: 3390
 url: /vi/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation giao diện
 
-Biểu diễn hiệu ứng biến đổi hình ảnh trừu tượng.
+Biểu diễn hiệu ứng biến đổi ảnh trừu tượng.
 
 ```csharp
 public interface IImageTransformOperation

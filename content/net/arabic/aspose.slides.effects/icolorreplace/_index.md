@@ -1,6 +1,6 @@
 ---
 title: IColorReplace
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير استبدال اللون.
 type: docs
 weight: 3240
@@ -8,7 +8,7 @@ url: /ar/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace واجهة
 
-يمثّل تأثير استبدال اللون.
+يمثل تأثير استبدال اللون.
 
 ```csharp
 public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData>, 
@@ -19,11 +19,11 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | يعيد تنسيق اللون الذي سيستبدل لون كل بكسل. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | يسمح بالحصول على الواجهة الأساسية IAccessiblePVIObject. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | يسمح بالحصول على الواجهة الأساسية IImageTransformOperation. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | يعيد تنسيق اللون الذي سيستبدل لون كل بيكسل. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * واجهة [IColorReplaceEffectiveData](../icolorreplaceeffectivedata)

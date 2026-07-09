@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes for .NET API 참조
-description: Shred 슬라이드 전환 효과.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 슬라이드 전환 효과를 분할합니다.
 type: docs
 weight: 10180
 url: /ko/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition 인터페이스
 
-Shred slide transition effect.
+슬라이드 전환 효과를 분할합니다.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -22,7 +22,7 @@ public interface IShredTransition : ITransitionValueBase
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | 전환 중에 사용되는 비주얼의 형태를 지정합니다. 읽기/쓰기 [`TransitionShredPattern`](../transitionshredpattern). |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -3,7 +3,7 @@ title: IVbaModuleCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av VBA-projektmoduler.
 type: docs
-weight: 11520
+weight: 11540
 url: /sv/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection gränssnitt
@@ -16,18 +16,18 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | Hämtar elementet på det angivna indexet. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Lägger till en ny tom modul i VBA-projektet. |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * gränssnitt [IVbaModule](../ivbamodule)

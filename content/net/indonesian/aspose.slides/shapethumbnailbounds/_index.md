@@ -1,12 +1,12 @@
 ---
 title: ShapeThumbnailBounds
-second_title: Aspose.Sildes untuk .NET API Referensi
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Enumerasi tipe batas thumbnail bentuk.
 type: docs
-weight: 9900
+weight: 9920
 url: /id/aspose.slides/shapethumbnailbounds/
 ---
-## Enumerasi ShapeThumbnailBounds
+## enumerasi ShapeThumbnailBounds
 
 Enumerasi tipe batas thumbnail bentuk.
 
@@ -19,8 +19,8 @@ public enum ShapeThumbnailBounds
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Slide | `0` | Thumbnail bentuk akan memiliki ukuran yang sama dengan ukuran slide. Posisi bentuk akan disimpan. |
-| Shape | `1` | Thumbnail bentuk akan memiliki ukuran yang sama dengan persegi panjang batas bentuk dengan memperhitungkan pengaturan outline bentuk. |
-| Appearance | `2` | Thumbnail bentuk akan memiliki ukuran yang sama dengan tampilan bentuk (dalam batas slide). Bisa terjadi kasus di mana tampilan bentuk tidak muat dalam batas bentuk. Misalnya rotasi, sambungan miter pada sudut tajam, efek 3D, dll. |
+| Shape | `1` | Thumbnail bentuk akan memiliki ukuran yang sama dengan persegi batas bentuk dengan memperhitungkan pengaturan garis tepi bentuk. |
+| Appearance | `2` | Thumbnail bentuk akan memiliki ukuran yang sama dengan tampilan bentuk (dalam batas slide). Bisa jadi ada kasus dimana tampilan bentuk tidak sesuai dengan batas bentuk. Misalnya rotasi, sambungan mitre pada sudut tajam, efek 3D, dll. |
 
 ### Lihat Juga
 

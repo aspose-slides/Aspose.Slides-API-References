@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu ở định dạng SWF.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới định dạng SWF.
 type: docs
 weight: 4150
 url: /vi/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions giao diện
 
-Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu ở định dạng SWF.
+Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới dạng SWF.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -19,27 +19,27 @@ public interface ISwfOptions : ISaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Xác định xem tài liệu SWF được tạo có nên được nén hay không. Mặc định là `true`. |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Bật/tắt menu ngữ cảnh. Mặc định là true. |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | Xác định liệu tài liệu SWF được tạo có được nén hay không. Mặc định là `true`. |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | Bật/tắt menu ngữ cảnh. Mặc định là `true`. |
 | [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | Xác định chất lượng của hình ảnh JPEG. Mặc định là 95. |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Hình ảnh sẽ được hiển thị làm logo ở góc trên bên phải của trình xem. Hình ảnh nên là PNG kích thước 32x64 pixel, nếu không logo có thể hiển thị không đúng. |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Lấy hoặc đặt địa chỉ siêu liên kết đầy đủ cho logo. Chỉ có hiệu lực nếu một [`LogoImageBytes`](./logoimagebytes) được chỉ định. |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Hiển thị/ẩn khung dưới. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Hiển thị/ẩn nút toàn màn hình. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Xác định xem tài liệu được tạo có bao gồm các slide ẩn hay không. Mặc định là `false`. |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Hiển thị/ẩn khung bên trái. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Xác định xem viền quanh các trang có được hiển thị hay không. Mặc định là true. |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Hiển thị/ẩn bộ điều khiển trang. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Hiển thị/ẩn phần tìm kiếm. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Hiển thị/ẩn toàn bộ khung trên. Có thể được ghi đè trong flashvars. Mặc định là true. |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ sắp xếp slide trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). Thuộc tính này không hỗ trợ gán các đối tượng kiểu `Aspose.Slides.Export.HandoutLayoutingOptions`. |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Bắt đầu với khung bên trái mở. Có thể được ghi đè trong flashvars. Mặc định là false. |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Xác định xem tài liệu SWF được tạo có bao gồm trình xem tài liệu tích hợp hay không. Mặc định là `true`. |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | Hình ảnh sẽ được hiển thị dưới dạng logo ở góc trên bên phải của trình xem. Hình ảnh nên là PNG có kích thước 32x64 pixel, nếu không logo có thể hiển thị không đúng. |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | Nhận hoặc đặt địa chỉ siêu liên kết đầy đủ cho logo. Chỉ có hiệu lực nếu một [`LogoImageBytes`](./logoimagebytes) được chỉ định. |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | Hiển thị/ẩn khung dưới. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | Hiển thị/ẩn nút toàn màn hình. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | Xác định liệu tài liệu được tạo có bao gồm các slide ẩn hay không. Mặc định là `false`. |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | Hiển thị/ẩn khung bên trái. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | Xác định liệu viền quanh các trang có được hiển thị hay không. Mặc định là `true`. |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | Hiển thị/ẩn công cụ chuyển trang. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | Hiển thị/ẩn phần tìm kiếm. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | Hiển thị/ẩn toàn bộ khung trên. Có thể bị ghi đè trong flashvars. Mặc định là `true`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | Nhận hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). Thuộc tính này không hỗ trợ gán các đối tượng kiểu `Aspose.Slides.Export.HandoutLayoutingOptions` |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | Bắt đầu với khung bên trái mở. Có thể bị ghi đè trong flashvars. Mặc định là `false`. |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | Xác định liệu tài liệu SWF được tạo có bao gồm trình xem tài liệu tích hợp hay không. Mặc định là `true`. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ISaveOptions](../isaveoptions)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
-* tập hợp [Aspose.Slides](../../)
+* tập tin [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

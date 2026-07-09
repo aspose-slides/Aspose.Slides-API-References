@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes for .NET API 參考
-description: 定義形狀 3D 倒角的常數。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 定義形狀 3D 斜角的常數。
 type: docs
 weight: 1010
 url: /zh-hant/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType 列舉
 
-定義形狀的 3D 倒角的常數。
+定義形狀 3D 斜角的常數。
 
 ```csharp
 public enum BevelPresetType
@@ -32,7 +32,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

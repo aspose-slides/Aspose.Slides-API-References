@@ -1,6 +1,6 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 回應式 HTML 控制器
 type: docs
 weight: 4050
@@ -16,9 +16,9 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | 返回 IHtmlFormattingController 介面。 |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | 傳回 IHtmlFormattingController 介面。 |
 
 ### 另請參閱
 

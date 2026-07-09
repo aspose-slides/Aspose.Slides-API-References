@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Serinin eksen bileşimi, grafikteki mevcut eksen bileşimiyle birleştirilemez olduğunda atılan istisna.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Serinin eksen birleşimi, grafikteki mevcut eksen birleşimiyle birleştirilemediğinde atılan istisna.
 type: docs
-weight: 1140
+weight: 1160
 url: /tr/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException sınıfı
 
-Serinin eksen bileşimi, grafikteki mevcut eksen bileşimiyle birleştirilemez olduğunda atılan Exception.
+Serinin eksen birleşimi, grafikteki mevcut eksen birleşimiyle birleşebilir olmadığında atılan istisna.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -19,8 +19,8 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | Ad | Açıklama |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Varsayılan yapıcı. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Bu Exception'a bir mesaj eklenmesine izin veren yapıcı. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Bir mesaj ve gömülü bir Exception içeren Exception için yapıcı. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Bu istisnaya bir ileti eklenmesini sağlayan yapıcı. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Bir ileti ve gömülü bir istisna içeren bir istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

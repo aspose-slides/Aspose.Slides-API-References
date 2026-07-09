@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: डेटा के साथ कोशिकाओं का संग्रह दर्शाता है।
+description: डेटा के साथ कोशिकाओं के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 1780
 url: /hi/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection इंटरफ़ेस
 
-डेटा के साथ कोशिकाओं का संग्रह दर्शाता है।
+डेटा के साथ कोशिकाओं के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -16,7 +16,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | ICollection इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | संग्रह में कोशिकाओं की गिनती प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
@@ -24,12 +24,12 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | संग्रह में नई कोशिका जोड़ें। |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | निर्दिष्ट मान से [`IChartDataCell`](../ichartdatacell) बनाता है और इसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | संग्रह में नई कोशिका जोड़ता है। |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | निर्दिष्ट मान से [`IChartDataCell`](../ichartdatacell) बनाता है और उसे संग्रह में जोड़ता है। |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | वर्कबुक में कोशिकाओं के सेट का पता लौटाता है। |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | सभी कोशिकाओं के स्ट्रिंग मानों से संयोजन स्ट्रिंग बनाता है। |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | सभी कोशिकाओं के स्ट्रिंग मानों से संयोजन स्ट्रिंग देता है। |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | इंडेक्स द्वारा संग्रह से एक कोशिका हटाता है। |
 
 ### संबंधित देखें

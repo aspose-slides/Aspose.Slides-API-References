@@ -8,24 +8,24 @@ url: /nl/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo klasse
 
-Deze structuur vertegenwoordigt de informatie over de lettertypevervanging wanneer deze wordt gerenderd.
+Deze structuur vertegenwoordigt de informatie over de fontvervanging wanneer deze wordt gerenderd.
 
 ```csharp
 public class FontSubstitutionInfo
 ```
 
-## Constructors
+## Constructeurs
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Maak een instantie van de klasse [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Maakt een instantie van [`FontSubstitutionInfo`](../fontsubstitutioninfo) klasse. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Geeft de naam van het bronlettertype in de presentatie aan. Alleen-lezen String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Geeft de vervangende lettertype naam voor het oorspronkelijke lettertype aan. Alleen-lezen String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Geeft de bronlettertype-naam in de presentatie aan. Alleen-lezen String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Geeft de vervangende lettertype-naam voor het oorspronkelijke lettertype aan. Alleen-lezen String |
 
 ### Voorbeelden
 

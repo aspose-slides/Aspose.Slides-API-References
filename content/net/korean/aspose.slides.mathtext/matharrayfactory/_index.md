@@ -1,6 +1,6 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수학 배열을 생성할 수 있습니다
 type: docs
 weight: 8560
@@ -18,7 +18,7 @@ public class MathArrayFactory : IMathArrayFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathArrayFactory](matharrayfactory)() | 기본 생성자입니다. |
+| [MathArrayFactory](matharrayfactory)() | 기본 생성자. |
 
 ## 메서드
 

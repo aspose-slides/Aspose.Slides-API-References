@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
-second_title: Aspose.Sildes .NET API Referenciája
-description: Meghatároz egy síkot, amelyen a ragyogás és az árnyék hatásai az alkalmazott alakzathoz viszonyítva kerülnek alkalmazásra.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatároz egy síkot, amelyben a ragyogás és az árnyék hatásai a formához viszonyítva kerülnek alkalmazásra.
 type: docs
-weight: 900
+weight: 920
 url: /hu/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene osztály
 
-Meghatároz egy síkot, amelyben a hatások, mint például a ragyogás és az árnyék, a rájuk alkalmazott alakzathoz viszonyítva kerülnek alkalmazásra.
+Meghatároz egy síkot, amelyben hatások, például ragyogás és árnyék, a formához viszonyítva kerülnek alkalmazásra.
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -18,16 +18,16 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | Név | Leírás |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Visszaad vagy beállít egy pontot a 3D térben. Ez a pont az a pont a térben, amely a háttér síkot rögzíti. 3D pont egy 3 lebegőpontos értékből álló tömb által van képviselve, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Visszaad vagy beállít egy normál vektort. Pontosabban, ez az attribútum egy a háttér sík felületére merőleges vektort határoz meg. Vektor egy 3 lebegőpontos értékből álló tömb által van képviselve, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Visszaad vagy beállít egy felfelé mutató vektort. Pontosabban, ez az attribútum egy a háttér sík felületéhez viszonyítva felfelé mutató vektort határoz meg. Vektor egy 3 lebegőpontos értékből álló tömb által van képviselve, amely meghatározza az X, Y és Z koordinátákat. Olvasás/írás Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | Visszaad vagy beállít egy pontot 3D térben. Ez a pont a háttér sík rögzítési pontja. 3D pont, amelyet 3 darab float értékű tömb határoz meg, és X, Y, Z koordinátákat ad meg. Olvasás/írás Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | Visszaad vagy beállít egy normálvektort. Pontosabban, ez az attribútum egy a háttér sík felületére merőleges vektort határoz meg. A vektor 3 darab float értékű tömb által van ábrázolva, amely X, Y és Z koordinátákat definiál. Olvasás/írás Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | Visszaad vagy beállít egy felfelé irányuló vektort. Pontosabban, ez az attribútum egy felfelé irányuló vektort definiál a háttér sík felületéhez viszonyítva. A vektor 3 darab float értékű tömb által van ábrázolva, amely X, Y és Z koordinátákat definiál. Olvasás/írás Single[]. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott object-t. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
 ### Lásd még

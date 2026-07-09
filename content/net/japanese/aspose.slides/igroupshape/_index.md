@@ -1,9 +1,9 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: スライド上のシェイプのグループを表します。
 type: docs
-weight: 6060
+weight: 6080
 url: /ja/aspose.slides/igroupshape/
 ---
 ## IGroupShape インターフェイス
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | ベース IShape インターフェイスを取得できます。 読み取り専用 [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | シェイプのロックを返します。 読み取り専用 [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | シェイプのロックを返します。 読み取り専用 [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | グループ内のシェイプコレクションを返します。 読み取り専用 [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | ベース IShape インターフェイスを取得できます。読み取り専用 [`IShape`](../ishape)。 |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | シェイプのロックを返します。読み取り専用 [`IGroupShapeLock`](../igroupshapelock)。 |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | シェイプのロックを返します。読み取り専用 [`IGroupShapeLock`](../igroupshapelock)。 |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | グループ内のシェイプコレクションを返します。読み取り専用 [`IShapeCollection`](../ishapecollection)。 |
 
 ### 参照
 

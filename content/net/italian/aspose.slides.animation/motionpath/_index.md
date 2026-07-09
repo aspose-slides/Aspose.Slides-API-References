@@ -3,10 +3,10 @@ title: MotionPath
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il percorso di movimento.
 type: docs
-weight: 670
+weight: 690
 url: /it/aspose.slides.animation/motionpath/
 ---
-## MotionPath classe
+## classe MotionPath
 
 Rappresenta il percorso di movimento.
 
@@ -24,7 +24,7 @@ public class MotionPath : IMotionPath
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Restituisce il numero di percorsi nella collezione. Solo lettura Int32. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Restituisce il numero di percorsi nella raccolta. Solo lettura Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | Restituisce un comando all'indice specificato. |
 
 ## Metodi
@@ -32,10 +32,10 @@ public class MotionPath : IMotionPath
 | Nome | Descrizione |
 | --- | --- |
 | [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Aggiunge un nuovo comando al percorso |
-| [Clear](../../aspose.slides.animation/motionpath/clear)() | Rimuove tutti i comandi dalla collezione. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [Clear](../../aspose.slides.animation/motionpath/clear)() | Rimuove tutti i comandi dalla raccolta. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Inserisce un nuovo comando al percorso |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Rimuove i comandi specificati dalla collezione. |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Rimuove i comandi specificati dalla raccolta. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Rimuove un comando all'indice specificato. |
 
 ### Vedi anche

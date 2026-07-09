@@ -1,6 +1,6 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示圖例集合。
 type: docs
 weight: 2300
@@ -19,7 +19,7 @@ public class LegendEntryCollection : ILegendEntryCollection
 | 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | 取得圖例項目的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 取得圖例項目的屬性，對應於以下列表中的圖表類型時，對應於 Chart.ChartData.Series[0].DataPoints[index]：ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie；或對於其他圖表類型，對應於 Chart.ChartData.Series[index]。 |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | 取得與圖例項目對應的屬性，該圖例項目對應於 Chart.ChartData.Series[0].DataPoints[index]（當圖表類型為以下列表之一時）：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie；或對於其他圖表類型，對應於 Chart.ChartData.Series[index]。 |
 
 ### 另請參閱
 

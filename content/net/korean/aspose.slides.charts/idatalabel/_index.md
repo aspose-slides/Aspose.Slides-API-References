@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel 인터페이스
 
-Represents a series labels.
+시리즈 레이블을 나타냅니다.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,17 +22,17 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | ILayoutable 인터페이스를 반환합니다. 읽기 전용 [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | IOverridableText 인터페이스를 반환합니다. 읽기 전용 [`IOverridableText`](../ioverridabletext). |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | 데이터 레이블의 형식을 반환합니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False는 데이터 레이블이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue, ...)가 false입니다). 읽기 전용 Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다. |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False는 데이터 레이블이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue 등)가 false가 됩니다). 읽기 전용 Boolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값을 기반으로 실제 레이블 텍스트를 반환합니다. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 모든 Show*-플래그(ShowValue, ...)를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이후 IsVisible는 false가 됩니다. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 모든 Show*-플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이후 IsVisible는 false가 됩니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IActualLayout](../iactuallayout)
 * 인터페이스 [ILayoutable](../ilayoutable)

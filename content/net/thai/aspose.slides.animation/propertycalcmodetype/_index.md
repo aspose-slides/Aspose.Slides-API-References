@@ -1,20 +1,20 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงโหมดการคำนวณสำหรับคุณสมบัติการเคลื่อนไหวของแอนิเมชัน.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงโหมดการคำนวณสำหรับคุณสมบัติการเคลื่อนไหว
 type: docs
 weight: 740
 url: /th/aspose.slides.animation/propertycalcmodetype/
 ---
 ## PropertyCalcModeType enumeration
 
-แสดงโหมดการคำนวณสำหรับคุณสมบัติการเคลื่อนไหวของแอนิเมชัน.
+แสดงโหมดการคำนวณสำหรับคุณสมบัติการเคลื่อนไหว
 
 ```csharp
 public enum PropertyCalcModeType
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

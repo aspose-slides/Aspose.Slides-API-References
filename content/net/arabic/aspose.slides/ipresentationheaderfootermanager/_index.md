@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثّل المدير الذي يتحكم في سلوك جميع عناصر النص التذييل، التاريخ-الوقت ورقم الصفحة في العرض التقديمي.
+second_title: دليل API لـ Aspose.Sildes لـ .NET
+description: يمثل مديرًا يتحكم في سلوك جميع عناصر النائب للتذييل وتاريخ-الوقت ورقم الصفحة في العرض التقديمي.
 type: docs
 weight: 6780
 url: /ar/aspose.slides/ipresentationheaderfootermanager/
 ---
-## واجهة IPresentationHeaderFooterManager
+## IPresentationHeaderFooterManager واجهة
 
-يمثل المُدير الذي يتحكم في سلوك جميع عناصر النص التذييل، التاريخ-الوقت ورقم الصفحة في العرض التقديمي.
+يمثل مديرًا يتحكم في سلوك جميع عناصر النائب للتذييل وتاريخ-الوقت ورقم الصفحة في العرض التقديمي.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -18,25 +18,25 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | يعيد IBaseHeaderFooterManager interface. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | يرجع واجهة IBaseHeaderFooterManager. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | يضبط النص لجميع نواحي التاريخ-الوقت، بما في ذلك الشرائح الرئيسية، شرائح التخطيط والشرائح. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | يغيّر رؤية جميع نواحي التاريخ-الوقت، بما في ذلك الشرائح الرئيسية، شرائح التخطيط والشرائح. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | يضبط النص لجميع نواحي التذييل، بما في ذلك الشرائح الرئيسية، شرائح التخطيط والشرائح. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | يغيّر رؤية جميع نواحي التذييل، بما في ذلك الشرائح الرئيسية، شرائح التخطيط والشرائح. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | يضبط النص لجميع نواحي الرأس، بما في ذلك ملاحظات الرئيس، شرائح الملاحظات والنسخة الرئيسية للملف الموزع. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | يغيّر رؤية جميع نواحي الرأس، بما في ذلك ملاحظات الرئيس، شرائح الملاحظات والنسخة الرئيسية للملف الموزع. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | يغيّر رؤية جميع نواحي رقم الصفحة، بما في ذلك الشرائح الرئيسية، شرائح التخطيط والشرائح. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | يغيّر رؤية نواحي التذييل، التاريخ-الوقت ورقم الصفحة لجميع الشرائح العنوانية ولأول شريحة تخطيط. الشرائح العنوانية – الشرائح المستندة إلى أول شريحة تخطيط (بغض النظر عن نوع هذا التخطيط الأول). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | يضبط النص لجميع عناصر النائب لتاريخ-الوقت، بما في ذلك الشرائح الرئيسة، شرائح التخطيط، والشرائح. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | يغيّر رؤية جميع عناصر النائب لتاريخ-الوقت، بما في ذلك الشرائح الرئيسة، شرائح التخطيط، والشرائح. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | يضبط النص لجميع عناصر النائب للتذييل، بما في ذلك الشرائح الرئيسة، شرائح التخطيط، والشرائح. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | يغيّر رؤية جميع عناصر النائب للتذييل، بما في ذلك الشرائح الرئيسة، شرائح التخطيط، والشرائح. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | يضبط النص لجميع عناصر النائب للترويسة، بما في ذلك الملاحظات الرئيسة، شرائح الملاحظات، والرئيسية للمنشورات. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | يغيّر رؤية جميع عناصر النائب للترويسة، بما في ذلك الملاحظات الرئيسة، شرائح الملاحظات، والرئيسية للمنشورات. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | يغيّر رؤية جميع عناصر النائب لأرقام الصفحات، بما في ذلك الشرائح الرئيسة، شرائح التخطيط، والشرائح. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | يغيّر رؤية عناصر النائب للتذييل وتاريخ-الوقت وأرقام الصفحات لجميع شرائح العنوان وللشريحة التخطيطية الأولى. شرائح العنوان – الشرائح المستندة إلى الشريحة التخطيطية الأولى (بغض النظر عن نوع هذه التخطيطية الأولى). |
 
 ### انظر أيضًا
 
-* الواجهة [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
-* نطاق الأسماء [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

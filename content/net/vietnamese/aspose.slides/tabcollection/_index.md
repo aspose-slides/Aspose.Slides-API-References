@@ -1,14 +1,14 @@
 ---
 title: TabCollection
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một tập hợp các tab.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một bộ sưu tập các tab.
 type: docs
 weight: 10840
 url: /vi/aspose.slides/tabcollection/
 ---
 ## TabCollection lớp
 
-Biểu diễn một tập hợp các tab.
+Biểu thị một bộ sưu tập các Tab.
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -16,27 +16,27 @@ public sealed class TabCollection : ITabCollection
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | Lấy số lượng phần tử thực sự chứa trong tập hợp. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu truy cập vào tập hợp có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | Lấy số phần tử thực tế chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập bộ sưu tập có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`Tab`](../tab). |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Thêm một Tab vào tập hợp. |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Thêm một Tab vào tập hợp. |
-| [Clear](../../aspose.slides/tabcollection/clear)() | Xóa tất cả các phần tử khỏi tập hợp. |
-| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng được chỉ định. |
-| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Xác định xem hai đối tượng TabsEx có bằng nhau hay không. |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | Thêm một Tab vào bộ sưu tập. |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | Thêm một Tab vào bộ sưu tập. |
+| [Clear](../../aspose.slides/tabcollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
+| [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập sang mảng đã chỉ định. |
+| override [Equals](../../aspose.slides/tabcollection/equals)(object) | Xác định xem hai thể hiện TabsEx có bằng nhau hay không. |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | Trả về mã băm cho đối tượng này. |
-| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong tập hợp. |
+| [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định trong bộ sưu tập. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ITabCollection](../itabcollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)

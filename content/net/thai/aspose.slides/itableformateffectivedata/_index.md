@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบตารางที่มีประสิทธิภาพ
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
 type: docs
 weight: 7250
 url: /th/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบตารางที่มีประสิทธิภาพ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบตารางที่มีผล
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseTableFormatEffectiveData พื้นฐานได้ อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | รับความโปร่งใสของสีเติม. อ่าน Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseTableFormatEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | รับค่าความโปร่งแสงของสีเติม. อ่าน Single. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITableFormat`](../itableformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพพร้อมกับการสืบทอดและสไตล์ตารางที่นำไปใช้.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITableFormat`](../itableformat) เพื่อส่งค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดและสไตล์ตารางที่นำไปใช้
 
 ### ดูเพิ่มเติม
 

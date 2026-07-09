@@ -18,7 +18,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Staat toe de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Staat toe de base ISlideComponent interface te verkrijgen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
 | [Item](../../aspose.slides/icellcollection/item) { get; } | Retourneert een cel op basis van zijn positie. Alleen-lezen [`ICell`](../icell). |
 
 ### Zie ook

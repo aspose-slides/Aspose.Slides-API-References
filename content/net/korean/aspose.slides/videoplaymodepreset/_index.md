@@ -1,6 +1,6 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 비디오가 재생되는 방식을 정의하는 상수입니다.
 type: docs
 weight: 11730
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | 자동으로 재생됩니다. |
-| OnClick | `1` | 비디오 프레임을 클릭했을 때만 재생됩니다. |
-| AllSlides | `2` | 모든 슬라이드에서 재생됩니다. |
-| InClickSequence | `3` | 클릭과 함께 자동으로 재생됩니다. |
+| Auto | `0` | 자동으로 재생합니다. |
+| OnClick | `1` | 비디오 프레임을 클릭했을 때만 재생합니다. |
+| AllSlides | `2` | 모든 슬라이드에서 재생합니다. |
+| InClickSequence | `3` | 클릭과 함께 자동으로 재생합니다. |
 
 ### 참조
 

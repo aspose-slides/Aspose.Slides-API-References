@@ -3,12 +3,12 @@ title: TransitionInOutDirectionType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar övergångstyper för in- eller utgående riktning.
 type: docs
-weight: 10350
+weight: 10370
 url: /sv/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType enumeration
 
-Representerar övergångstyper för in eller utgående riktning.
+Representerar övergångstyper för in- eller utgående riktning.
 
 ```csharp
 public enum TransitionInOutDirectionType

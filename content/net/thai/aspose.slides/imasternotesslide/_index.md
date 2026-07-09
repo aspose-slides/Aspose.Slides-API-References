@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของสไลด์หลักสำหรับโน้ต
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงสไลด์มาสเตอร์สำหรับบันทึก.
 type: docs
 weight: 6390
 url: /th/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide อินเทอร์เฟซ
 
-เป็นตัวแทนของสไลด์หลักสำหรับโน้ต.
+แสดงสไลด์มาสเตอร์สำหรับบันทึก.
 
 ```csharp
 public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
@@ -18,11 +18,11 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซพื้นฐาน IBaseSlide. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | ส่งคืนอินเทอร์เฟซ IMasterThemeable. อ่านอย่างเดียว [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | ส่งคืนคอลเลกชันของแนวทางการวาดสำหรับสไลด์โน้ตหลัก. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | ส่งคืนผู้จัดการ HeaderFooter ของสไลด์โน้ตหลัก. อ่านอย่างเดียว [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
-| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | ส่งคืนสไตล์ของข้อความโน้ต. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
+| [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IBaseSlide พื้นฐานได้. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | คืนค่าอินเทอร์เฟซ IMasterThemeable. อ่านอย่างเดียว [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | คืนค่าคอลเลกชันของแนวการวาดสำหรับ master notes slide. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | คืนค่า HeaderFooter manager ของ master notes slide. อ่านอย่างเดียว [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
+| [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | คืนค่าสไตล์ของข้อความโน้ต. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
 
 ### ดูเพิ่มเติม
 

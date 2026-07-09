@@ -3,7 +3,7 @@ title: ISlidesPicture
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje obraz w prezentacji.
 type: docs
-weight: 7090
+weight: 7110
 url: /pl/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture interfejs
@@ -18,12 +18,12 @@ public interface ISlidesPicture : ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Umożliwia pobranie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Umożliwia uzyskanie podstawowego interfejsu ISlideComponent. Tylko do odczytu [`ISlideComponent`](../islidecomponent). |
 | [Image](../../aspose.slides/islidespicture/image) { get; set; } | Zwraca lub ustawia osadzony obraz. Odczyt/zapis [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Zwraca kolekcję efektów transformacji obrazu. Tylko do odczytu [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Zwraca lub ustawia adres URL powiązanego obrazu. Odczyt/zapis String. |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Zwraca lub ustawia URL połączonego obrazu. Odczyt/zapis String. |
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [ISlideComponent](../islidecomponent)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

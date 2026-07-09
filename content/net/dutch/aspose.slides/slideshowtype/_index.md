@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Basisinstellingen voor diavoorstelling. Voorouders vertegenwoordigen typen van de diavoorstelling PresentedBySpeaker./presentedbyspeaker Gevoerd door een spreker volledig scherm BrowsedByIndividual./browsedbyindividual Bekeken door een individu venster BrowsedAtKiosk./browsedatkiosk Bekeken op een kiosk volledig scherm
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Basisinstellingen voor diavoorstelling. Ancestors represent types of the slide show PresentedBySpeaker./presentedbyspeaker Gepresenteerd door een spreker volledig scherm BrowsedByIndividual./browsedbyindividual Bekeken door een individu venster BrowsedAtKiosk./browsedatkiosk Bekeken bij een kiosk volledig scherm
 type: docs
 weight: 10490
 url: /nl/aspose.slides/slideshowtype/
 ---
 ## SlideShowType klasse
 
-Basisinstellingen voor diavoorstelling. Voorouders vertegenwoordigen typen van de diavoorstelling: [`PresentedBySpeaker`](../presentedbyspeaker) Gevoerd door een spreker (volledig scherm) [`BrowsedByIndividual`](../browsedbyindividual) Bekeken door een individu (venster) [`BrowsedAtKiosk`](../browsedatkiosk) Bekeken op een kiosk (volledig scherm)
+Basisinstellingen voor diavoorstelling. Ancestors represent types of the slide show: [`PresentedBySpeaker`](../presentedbyspeaker) Gepresenteerd door een spreker (volledig scherm) [`BrowsedByIndividual`](../browsedbyindividual) Bekeken door een individu (venster) [`BrowsedAtKiosk`](../browsedatkiosk) Bekeken bij een kiosk (volledig scherm)
 
 ```csharp
 public abstract class SlideShowType

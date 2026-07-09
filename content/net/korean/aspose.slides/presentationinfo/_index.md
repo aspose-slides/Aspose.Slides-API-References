@@ -1,6 +1,6 @@
 ---
 title: PresentationInfo
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션 파일에 대한 정보
 type: docs
 weight: 9620
@@ -27,14 +27,14 @@ public sealed class PresentationInfo : IPresentationInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | 열기 암호로 보호된 프레젠테이션에 대한 비밀번호가 정확한지 확인합니다. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | 쓰기 보호된 프레젠테이션에 대한 수정 비밀번호가 정확한지 확인합니다. |
+| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | 열기 암호로 보호된 프레젠테이션에 대해 비밀번호가 올바른지 확인합니다. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | 쓰기 보호된 프레젠테이션에 대해 수정 비밀번호가 올바른지 확인합니다. |
 | [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | 바인딩된 프레젠테이션의 문서 속성을 반환합니다. |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | 바인딩된 프레젠테이션의 속성을 업데이트합니다. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | 바인딩된 프레젠테이션을 스트림에 씁니다. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | 바인딩된 프레젠테이션을 파일에 씁니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IPresentationInfo](../ipresentationinfo)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

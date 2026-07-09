@@ -3,7 +3,7 @@ title: IBrightnessContrastEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en BrightnessContrast-effekt. Justerar ljusstyrka och kontrast
 type: docs
-weight: 3190
+weight: 3210
 url: /sv/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData gränssnitt
@@ -18,8 +18,8 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Returnerar ljusstyrka. Skrivskyddad Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Returnerar kontrast. Skrivskyddad Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Returnerar ljusstyrka. Endast läsning Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Returnerar kontrast. Endast läsning Single. |
 
 ### Se även
 

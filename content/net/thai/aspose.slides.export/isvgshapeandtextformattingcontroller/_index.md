@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ควบคุมการสร้างรูปแบบ SVG และข้อความ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ควบคุมการสร้างรูปทรง SVG และข้อความ
 type: docs
 weight: 4120
 url: /th/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController อินเทอร์เฟซ
 
-ควบคุมการสร้างรูปแบบ SVG และข้อความ
+ควบคุมการสร้างรูปทรง SVG และข้อความ
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -18,17 +18,17 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | คืนค่า ISvgShapeFormattingController อินเทอร์เฟซ. |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | ส่งคืนอินเทอร์เฟซ ISvgShapeFormattingController. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | ฟังก์ชันนี้ถูกเรียกก่อนการเรนเดอร์ส่วนข้อความเป็น SVG เพื่อให้ผู้ใช้สามารถควบคุม SVG ที่ได้ |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | ฟังก์ชันนี้ถูกเรียกก่อนการเรนเดอร์ส่วนของข้อความไปยัง SVG เพื่อให้ผู้ใช้ควบคุม SVG ที่ได้. |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
 second_title: Aspose.Sildes .NET API referenciája
-description: Alap osztály dia áttűnési hatásokhoz.
+description: Alaposztály a diaátmeneti effektusokhoz.
 type: docs
-weight: 10440
+weight: 10460
 url: /hu/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase osztály
 
-Alap osztály a dia áttűnési hatásokhoz.
+Alaposztály a diaátmeneti effektusokhoz.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és adatstruktúrákban, például egy hash táblában való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash-függvényként szolgál egy adott típushoz, amely alkalmas hash-algoritmusokban és adatstruktúrákban, például hash-táblában való használatra. |
 
 ### Lásd még
 

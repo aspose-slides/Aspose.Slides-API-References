@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Stelt toe om de basis IBaseTableFormatEffectiveData interface op te halen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Maakt het mogelijk om de basis IBaseTableFormatEffectiveData interface op te halen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`IRowFormat`](../irowformat) interface gebruikt om effectieve opmaakwaarden terug te geven met overerving en toegevoegde tabelstijlen.
+Deze interface wordt samen met de [`IRowFormat`](../irowformat) interface gebruikt om effectieve opmaakwaarden terug te geven met overerving en toegepaste tabelstijlen.
 
 ### Zie ook
 

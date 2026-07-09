@@ -1,12 +1,12 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đối tượng bất biến chứa các thuộc tính định dạng phần văn bản hiệu quả.
 type: docs
 weight: 6740
 url: /vi/aspose.slides/iportionformateffectivedata/
 ---
-## giao diện IPortionFormatEffectiveData
+## IPortionFormatEffectiveData giao diện
 
 Đối tượng bất biến chứa các thuộc tính định dạng phần văn bản hiệu quả.
 
@@ -19,9 +19,9 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Tên | Mô tả |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Trả về giao diện IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Trả về định danh đánh dấu. Chỉ đọc String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Trả về siêu liên kết được xác định cho nhấp chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Trả về siêu liên kết được xác định cho rê chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Trả về định danh dấu trang. Chỉ đọc String. |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Trả về siêu liên kết được định nghĩa cho nhấp chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Trả về siêu liên kết được định nghĩa cho di chuột. Chỉ đọc [`IHyperlink`](../ihyperlink). |
 
 ### Ghi chú
 

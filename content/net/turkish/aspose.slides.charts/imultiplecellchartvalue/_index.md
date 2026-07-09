@@ -1,9 +1,9 @@
 ---
 title: IMultipleCellChartValue
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Grafik hücrelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 2150
+weight: 2170
 url: /tr/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue arayüz
@@ -18,8 +18,8 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Grafik hücrelerinin koleksiyonunu alır veya ayarlar. Okuma/yazma [`IChartCellCollection`](../ichartcellcollection). |
-| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Temel IBaseChartValue arayüzünü almayı sağlar. Salt okunur [`IBaseChartValue`](../ibasechartvalue). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | Grafik hücrelerinin koleksiyonunu döndürür veya ayarlar. Okunabilir/Yazılabilir [`IChartCellCollection`](../ichartcellcollection). |
+| [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | Temel IBaseChartValue arayüzünü almasına izin verir. Salt okunur [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Ayrıca Bakınız
 

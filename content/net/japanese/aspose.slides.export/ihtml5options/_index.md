@@ -1,9 +1,9 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes の .NET API リファレンス
-description: HTML5 エクスポート オプションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: HTML5 のエクスポート オプションを表します。
 type: docs
-weight: 3910
+weight: 3930
 url: /ja/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options インターフェイス
@@ -18,13 +18,14 @@ public interface IHtml5Options : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | シェイプのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | トランジションのアニメーションオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions インターフェイスを取得します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | テキストがリガチャを使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリングされた出力でリガチャが無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 画像の埋め込みオプションを取得または設定します。読み取り/書き込み Boolean。 |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 外部リソースの保存場所を決定します。読み取り/書き込み String。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | シェイプのアニメーションオプションを取得または設定します。読み書き可能な Boolean。 |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | トランジションのアニメーションオプションを取得または設定します。読み書き可能な Boolean。 |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | テキストがリガチャを使用せずにレンダリングされるかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力でリガチャが無効になります。既定では、このプロパティは `false` に設定されています。 |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 画像の埋め込みオプションを取得または設定します。読み書き可能な Boolean。 |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 外部リソースの保存場所を決定します。読み書き可能な String。 |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | 画像の圧縮レベルを表します。読み書き可能な [`PicturesCompression`](./picturescompression)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
 ### 例
 

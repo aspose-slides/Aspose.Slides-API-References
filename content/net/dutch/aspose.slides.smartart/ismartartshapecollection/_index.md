@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
-second_title: Aspose.Sildes for .NET API-referentie
-description: Vertegenwoordigt een collectie van SmartArt-vormen
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een verzameling SmartArt-vormen voor
 type: docs
 weight: 10580
 url: /nl/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection interface
 
-Representeert een collectie van SmartArt-vormen
+Stelt een verzameling SmartArt-vormen voor
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>

@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Thuộc tính xem toàn bộ bản trình chiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Thuộc tính chế độ xem trên toàn bộ bản trình chiếu.
 type: docs
 weight: 11740
 url: /vi/aspose.slides/viewproperties/
 ---
-## ViewProperties lớp
+## Lớp ViewProperties
 
-Thuộc tính xem toàn bộ bản trình chiếu.
+Thuộc tính hiển thị rộng khắp bản trình chiếu.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -18,14 +18,14 @@ public class ViewProperties : IViewProperties
 
 | Tên | Mô tả |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Trả về hoặc thiết lập khoảng cách lưới sẽ được sử dụng cho lưới nền của tài liệu bản trình chiếu, tính bằng điểm. Đọc/ghi Single. |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Trả về hoặc đặt khoảng cách lưới sẽ được sử dụng cho lưới nền của tài liệu bản trình chiếu, tính bằng điểm. Đọc/ghi Single. |
 | [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | Xác định chế độ xem đã được sử dụng khi tài liệu bản trình chiếu được lưu lần cuối. Đọc/ghi [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Biểu diễn các thuộc tính chế độ xem bình thường. Chế độ xem bình thường bao gồm ba vùng nội dung: bản trình chiếu tự nó, một vùng nội dung bên, và một vùng nội dung phía dưới. Chỉ đọc [`INormalViewProperties`](../inormalviewproperties). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | Biểu diễn các thuộc tính chế độ xem bình thường. Chế độ xem bình thường bao gồm ba khu vực nội dung: bản trình chiếu tự nó, một khu vực nội dung bên, và một khu vực nội dung phía dưới. Chỉ đọc [`INormalViewProperties`](../inormalviewproperties). |
 | [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | Xác định các thuộc tính chung của chế độ xem ghi chú. Chỉ đọc [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Xác định liệu bình luận bản trình chiếu có được hiển thị hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | Xác định xem các bình luận của bản trình chiếu có nên hiển thị hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
 | [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | Xác định các thuộc tính chung của chế độ xem bản trình chiếu. Chỉ đọc [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IViewProperties](../iviewproperties)
 * không gian tên [Aspose.Slides](../../aspose.slides)

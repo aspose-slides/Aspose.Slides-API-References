@@ -1,12 +1,12 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje styl zakończenia linii.
 type: docs
-weight: 7740
+weight: 7760
 url: /pl/aspose.slides/linecapstyle/
 ---
-## Wyliczenie LineCapStyle
+## LineCapStyle enumeracja
 
 Reprezentuje styl zakończenia linii.
 

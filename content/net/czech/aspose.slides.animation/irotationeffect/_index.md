@@ -1,14 +1,14 @@
 ---
 title: IRotationEffect
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje chování rotace efektu.
+description: Reprezentuje chování otáčení efektu.
 type: docs
-weight: 550
+weight: 570
 url: /cs/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect rozhraní
 
-Reprezentuje chování rotace efektu.
+Reprezentuje chování otáčení efektu.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | Název | Popis |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze ke čtení [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci. Čtení/zápis Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Popisuje počáteční hodnotu pro animaci. Čtení/zápis Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Popisuje koncovou hodnotu pro animaci. Čtení/zápis Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | Umožňuje získat základní rozhraní IBehavior. Pouze pro čtení [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci. Čtení/Zápis Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | Popisuje počáteční hodnotu pro animaci. Čtení/Zápis Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | Popisuje koncovou hodnotu pro animaci. Čtení/Zápis Single. |
 
 ### Viz také
 

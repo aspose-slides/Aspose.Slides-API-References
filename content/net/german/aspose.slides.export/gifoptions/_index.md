@@ -1,15 +1,14 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes für .NET API Referenz
-description: Stellt GIF-Exportoptionen dar.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Optionen für den GIF-Export dar.
 type: docs
-weight: 3650
+weight: 3820
 url: /de/aspose.slides.export/gifoptions/
 ---
+## GifOptions Klasse
 
-## GifOptions-Klasse
-
-Stellt GIF-Exportoptionen dar.
+Stellt Optionen für den GIF-Export dar.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -25,19 +24,19 @@ public class GifOptions : SaveOptions, IGifOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Ruft die Standardverzögerungszeit [ms] ab oder legt sie fest. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nicht gesetzt ist. Der Standardwert beträgt 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder legt sie fest, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Schreib-/Lesbarer String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Ruft die Größe des Rahmens ab oder legt sie fest. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder legt ihn fest. Schreib-/Lesbarer [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für die Speicherung von Fortschrittsaktualisierungen in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Schreib-/Lesbares Boolean. Der Standardwert ist **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Ruft die Übergangs-FPS [Bilder/Sekunde] ab oder legt sie fest. Der Standardwert beträgt 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder legt es fest, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Schreib-/Lesbares [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Liest oder setzt die Standardverzögerungszeit [ms]. Dieser Wert wird verwendet, wenn [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nicht gesetzt ist. Der Standardwert ist 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Gibt die Schriftart zurück oder setzt sie, die verwendet wird, wenn die Quellschriftart nicht gefunden wird. Lese-/schreibender String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bestimmt, ob versteckte Folien exportiert werden. Der Standardwert ist false. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Liest oder setzt die Frame-Größe. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Gibt den visuellen Stil des Farbverlaufs zurück oder setzt ihn. Lese-/schreibend [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stellt ein Callback-Objekt für das Speichern von Fortschrittsupdates in Prozent dar. Siehe [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Gibt an, ob Hyperlinks mit JavaScript-Aufrufen beim Speichern der Präsentation übersprungen werden sollen. Lese-/schreibendes Boolean. Der Standardwert ist **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Liest oder setzt die Übergangs-FPS [frames/sec]. Der Standardwert ist 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Gibt ein Objekt zurück oder setzt es, das Warnungen empfängt und entscheidet, ob der Ladevorgang fortgesetzt oder abgebrochen wird. Lese-/schreibend [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Beispiele
 
-Das folgende Beispiel zeigt, wie Präsentationen mit benutzerdefinierten Einstellungen in animierte GIFs konvertiert werden.
+Das folgende Beispiel zeigt, wie Präsentationen mit benutzerdefinierten Einstellungen in ein animiertes GIF konvertiert werden.
 
 ```csharp
 [C#]
@@ -45,18 +44,18 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // die Größe des resultierenden GIF
+        FrameSize = new Size(960, 720), // die Größe des resultierenden GIFs
         DefaultDelay = 2000, // wie lange jede Folie angezeigt wird, bis sie zur nächsten wechselt
-        TransitionFps = 35 // erhöhe die FPS für eine bessere Übergangsanimationsqualität
+        TransitionFps = 35 // FPS erhöhen, um die Qualität der Übergangsanimation zu verbessern
     });
 }
 ```
 
 ### Siehe auch
 
-* Klasse [SaveOptions](../saveoptions)
-* Schnittstelle [IGifOptions](../igifoptions)
-* Namespace [Aspose.Slides.Export](../../aspose.slides.export)
-* Assembly [Aspose.Slides](../../)
+* Klasse [SaveOptions](../saveoptions)
+* Schnittstelle [IGifOptions](../igifoptions)
+* Namensraum [Aspose.Slides.Export](../../aspose.slides.export)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

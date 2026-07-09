@@ -1,6 +1,6 @@
 ---
 title: IMathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 允許建立 IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 8460
@@ -16,13 +16,13 @@ public interface IMathRightSubSuperscriptElementFactory
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [CreateMathRightSubSuperscriptElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement)(IMathElement, IMathElement, IMathElement) | 建立 IMathRightSubSuperscriptElementFactory |
 
 ### 備註
 
-供 COM 相容性
+用於 COM 相容性
 
 ### 另請參閱
 

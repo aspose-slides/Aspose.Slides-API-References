@@ -1,14 +1,14 @@
 ---
 title: BuildType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje, jak se text na tvaru během animace zobrazí.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Určuje, jak se text během animace zobrazí na tvaru.
 type: docs
-weight: 190
+weight: 210
 url: /cs/aspose.slides.animation/buildtype/
 ---
 ## Výčet BuildType
 
-Určuje, jak se text na tvaru během animace zobrazí.
+Určuje, jak se text bude během animace zobrazovat na tvaru.
 
 ```csharp
 public enum BuildType
@@ -18,8 +18,8 @@ public enum BuildType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| AsOneObject | `0` | S obsahujícím tvarem. |
-| AllParagraphsAtOnce | `1` | Všechny odstavce. |
+| AsOneObject | `0` | S obsaženým tvarem. |
+| AllParagraphsAtOnce | `1` | Všechny odstavce najednou. |
 | ByLevelParagraphs1 | `2` | Podle skupin odstavců hloubky 1. |
 | ByLevelParagraphs2 | `3` | Podle skupin odstavců hloubky 2. |
 | ByLevelParagraphs3 | `4` | Podle skupin odstavců hloubky 3. |

@@ -1,14 +1,14 @@
 ---
 title: ViewType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Tipi di visualizzazione della presentazione
+description: Tipi di vista della presentazione
 type: docs
-weight: 11730
+weight: 11750
 url: /it/aspose.slides/viewtype/
 ---
-## ViewType enumerazione
+## Enumerazione ViewType
 
-Tipi di visualizzazione della presentazione
+Tipi di vista della presentazione
 
 ```csharp
 public enum ViewType
@@ -22,11 +22,11 @@ public enum ViewType
 | SlideView | `1` | Vista diapositiva normale |
 | SlideMasterView | `2` | Vista master diapositiva |
 | NotesView | `3` | Vista note |
-| HandoutView | `4` | Vista opuscolo |
+| HandoutView | `4` | Vista riferimenti |
 | NotesMasterView | `5` | Vista master note |
-| OutlineView | `6` | Vista struttura |
+| OutlineView | `6` | Vista scaletta |
 | SlideSorterView | `7` | Vista ordinatore diapositive |
-| SlideThumbnailView | `8` | Vista miniatura diapositiva |
+| SlideThumbnailView | `8` | Vista miniature diapositive |
 
 ### Vedi anche
 

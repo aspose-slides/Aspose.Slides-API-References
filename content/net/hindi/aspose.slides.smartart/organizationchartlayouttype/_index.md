@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
-second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
-description: एक संगठन चार्ट में चाइल्ड नोड्स के लिए फॉर्मेटिंग प्रकार का प्रतिनिधित्व करता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: संगठन चार्ट में चाइल्ड नोड्स के फ़ॉर्मेटिंग प्रकार का प्रतिनिधित्व करता है
 type: docs
 weight: 10590
 url: /hi/aspose.slides.smartart/organizationchartlayouttype/
 ---
-## OrganizationChartLayoutType एन्यूमरेशन
+## OrganizationChartLayoutType एनीमरेशन
 
-एक संगठन चार्ट में चाइल्ड नोड्स के लिए फॉर्मेटिंग प्रकार का प्रतिनिधित्व करता है
+एक संगठन चार्ट में चाइल्ड नोड्स के फ़ॉर्मेटिंग प्रकार का प्रतिनिधित्व करता है
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -18,13 +18,13 @@ public enum OrganizationChartLayoutType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Initial | `0` | प्रारंभिक लेआउट प्रकार |
-| Standart | `1` | चाइल्ड नोड्स को पेरेंट नोड के नीचे क्षैतिज रूप से रखता है। |
-| BothHanging | `2` | चाइल्ड नोड्स को पेरेंट नोड के नीचे दोनों बाएँ और दाएँ पक्षों पर लंबवत रूप से रखता है। |
-| LeftHanging | `3` | चाइल्ड नोड्स को पेरेंट नोड के बाएँ पक्ष पर लंबवत रूप से रखता है। |
-| RightHanging | `4` | चाइल्ड नोड्स को पेरेंट नोड के दाएँ पक्ष पर लंबवत रूप से रखता है। |
+| Initial | `0` | Initial लेआउट प्रकार |
+| Standart | `1` | पैरेंट नोड के नीचे क्षैतिज रूप से चाइल्ड नोड्स को रखता है। |
+| BothHanging | `2` | पैरेंट नोड के दोनों बाएं और दाएं पक्षों पर चाइल्ड नोड्स को लंबवत रूपसे रखता है। |
+| LeftHanging | `3` | पैरेंट नोड के बाईं ओर चाइल्ड नोड्स को लंबवत रूपसे रखता है। |
+| RightHanging | `4` | पैरेंट नोड के दाईं ओर चाइल्ड नोड्स को लंबवत रूपसे रखता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * असेंबली [Aspose.Slides](../../)

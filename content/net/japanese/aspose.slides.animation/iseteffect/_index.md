@@ -3,7 +3,7 @@ title: ISetEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション動作のセット効果を表します。
 type: docs
-weight: 590
+weight: 610
 url: /ja/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect インターフェイス
@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | ベース IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | アニメーション効果の後の効果の特定属性を指定します。ポイント値を表します。対象: bool, ColorFormat, float, int, string。読み書き可能 Object。 |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | 基本 IBehavior インターフェイスを取得できます。読み取り専用 [`IBehavior`](../ibehavior)。 |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | アニメーション効果後の特定の属性を指定します。ポイント値を表します。対象: bool, ColorFormat, float, int, string. 読み書き可能 Object。 |
 
 ### 参照
 

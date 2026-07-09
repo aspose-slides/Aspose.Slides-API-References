@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يوفر وصولًا إلى أنواع مختلفة من الثيمات المتجاوزة.
+second_title: Aspose.Sildes ل .NET مرجع API
+description: يوفر إمكانية الوصول إلى أنواع مختلفة من السمات المتجاوزة.
 type: docs
 weight: 11350
 url: /ar/aspose.slides.theme/ioverridethememanager/
 ---
 ## واجهة IOverrideThemeManager
 
-يوفر الوصول إلى أنواع مختلفة من الثيمات المتجاوزة.
+يُوفر إمكانية الوصول إلى أنواع مختلفة من السمات المتجاوزة.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -16,13 +16,13 @@ public interface IOverrideThemeManager : IThemeManager
 
 ## الخصائص
 
-| Name | Description |
+| الاسم | الوصف |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | يسمح بالحصول على واجهة IThemeManager الأساسية. للقراءة فقط [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | يحدد ما إذا كانت OverrideTheme تتجاوز الثيم الفعال الموروث أم لا. لتمكين OverrideTheme من التجاوز استخدم أساليب OverrideTheme.Init*(). لتعطيل OverrideTheme من التجاوز استخدم طريقة OverrideTheme.Clear(). Boolean للقراءة فقط. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | يعيد كائن الثيم المتجاوز. قراءة/كتابة [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | يسمح بالحصول على واجهة IThemeManager الأساسية. قراءة فقط [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | يحدد ما إذا كانت OverrideTheme تتجاوز السمة الفعّالة المتوارثة أم لا. لتمكين OverrideTheme من التجاوز استخدم طرق OverrideTheme.Init*(). لتعطيل OverrideTheme من التجاوز استخدم طريقة OverrideTheme.Clear(). قراءة فقط Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | يُرجع كائن السمة المتجاوزة. قراءة/كتابة [`IOverrideTheme`](../ioverridetheme). |
 
-### انظر أيضا
+### انظر أيضًا
 
 * واجهة [IThemeManager](../ithememanager)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes için .NET API Referansı
-description: Şekil kilidi devre dışı bırakılmış işlemi temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Şekil kilidinin devre dışı bırakılmış işlemini temsil eder.
 type: docs
-weight: 5310
+weight: 5330
 url: /tr/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock arayüz
 
-Şekil kilidini (devre dışı bırakılmış işlem) temsil eder.
+Shape kilidini (devre dışı bırakılmış işlem) temsil eder.
 
 ```csharp
 public interface IBaseShapeLock

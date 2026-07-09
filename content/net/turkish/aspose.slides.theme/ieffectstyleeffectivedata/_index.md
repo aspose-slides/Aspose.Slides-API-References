@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Etkili efekt stil özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 11180
+weight: 11200
 url: /tr/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## IEffectStyleEffectiveData interface
+## IEffectStyleEffectiveData arayüz
 
-Etkili efekt stil özelliklerini içeren değiştirilemez bir nesnedir.
+Etkili efekt stil özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -16,16 +16,16 @@ public interface IEffectStyleEffectiveData
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Bir efekt biçimi döndürür. Salt okunur [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Bir 3d biçimi döndürür. Salt okunur [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Döndürür bir efekt biçimi. Salt okunur [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Döndürür bir 3d biçimi. Salt okunur [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) parçasının bir bölümü olarak kullanılır.
+Bu arayüz [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) parçası olarak kullanılır.
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

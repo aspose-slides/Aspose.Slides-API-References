@@ -3,7 +3,7 @@ title: LineAlignment
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili jenis perataan baris.
 type: docs
-weight: 7700
+weight: 7720
 url: /id/aspose.slides/linealignment/
 ---
 ## enumerasi LineAlignment

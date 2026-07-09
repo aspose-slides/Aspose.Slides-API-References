@@ -1,14 +1,14 @@
 ---
 title: ChartTextFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định định dạng văn bản mặc định cho các phần tử văn bản biểu đồ.
+second_title: Aspose.Sildes cho .NET API Tham chiếu
+description: Xác định định dạng văn bản mặc định cho các thành phần văn bản biểu đồ.
 type: docs
 weight: 1480
 url: /vi/aspose.slides.charts/charttextformat/
 ---
 ## ChartTextFormat lớp
 
-Xác định định dạng văn bản mặc định cho các phần tử văn bản biểu đồ.
+Xác định định dạng văn bản mặc định cho các thành phần văn bản biểu đồ.
 
 ```csharp
 public class ChartTextFormat : IChartTextFormat
@@ -29,7 +29,7 @@ public class ChartTextFormat : IChartTextFormat
 | [CopyFrom](../../aspose.slides.charts/charttextformat/copyfrom)(ITextFrame) | Sao chép định dạng văn bản từ khung văn bản được chỉ định. |
 | [CopyTo](../../aspose.slides.charts/charttextformat/copyto)(ITextFrame) | Sao chép định dạng văn bản tới khung văn bản được chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IChartTextFormat](../icharttextformat)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,6 +1,6 @@
 ---
 title: ISpreadsheetOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 추가 스프레드시트 동작을 지정하는 데 사용할 수 있는 옵션을 나타냅니다.
 type: docs
 weight: 7120
@@ -18,10 +18,10 @@ public interface ISpreadsheetOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | 일부 함수의 계산에 사용되는 선호 문화 정보를 가져오거나 설정합니다. 이 함수는 더블 바이트 문자 집합(DBCS)을 사용하는 언어와 함께 사용하도록 설계되었습니다. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | 문화별 문자 집합(DBCS)을 사용하는 언어용 함수 계산에 필요한 기본 문화 정보를 가져오거나 설정합니다. |
 | [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 차트의 데이터 소스가 외부 워크북이고 사용할 수 없는 경우 차트 캐시에서 복구됩니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

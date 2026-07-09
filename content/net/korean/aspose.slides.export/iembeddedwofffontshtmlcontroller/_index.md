@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for .NET API 참조
-description: 임베디드 woff 폰트 HTML 컨트롤러.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 임베드된 woff 폰트 html 컨트롤러.
 type: docs
 weight: 3910
 url: /ko/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController 인터페이스
 
-Embedded woff fonts html controller.
+임베드된 woff 폰트 HTML 컨트롤러.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController

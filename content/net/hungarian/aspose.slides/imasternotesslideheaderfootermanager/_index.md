@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy menedzsert képvisel, amely a master notes slide lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermekhelyőrzőnek a viselkedését tartja. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek.
+second_title: Aspose.Sildes .NET API referencia
+description: A menedzsert képviseli, amely a mester jegyzet dia lábléc, dátum-idő és oldalszám helyőrzőinek, valamint az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzet diákon találhatók. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek.
 type: docs
-weight: 6380
+weight: 6400
 url: /hu/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager interfész
 
-A menedzser, amely a master notes slide lábléc, dátum-idő és oldal szám helyőrzőinek, valamint az összes gyermekhelyőrzőnek a viselkedését tartja. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek.
+A menedzsert képviseli, amely a mester jegyzet dia láblécének, dátum-idő, oldalszám helyőrzőinek és az összes gyermek helyőrzőnek a viselkedését kezeli. A gyermek helyőrzők olyan helyőrzők, amelyek a függő jegyzet diákon találhatók. A függő jegyzet diák a mester jegyzet diát használják és tőle függenek.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,21 +16,21 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja az IBaseHandoutNotesSlideHeaderFooterManag interfész. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Visszaadja az IBaseHandoutNotesSlideHeaderFooterManag interfészt. |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a master notes slide date-time helyőrzőbe és az összes gyermek date-time helyőrzőbe. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a master notes slide date-time helyőrző és az összes gyermek date-time helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a master notes slide lábléc helyőrzőbe és az összes gyermek lábléc helyőrzőbe. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a master notes slide lábléc helyőrző és az összes gyermek lábléc helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Beállítja a szöveget a master notes slide fejléc helyőrzőbe és az összes gyermek fejléc helyőrzőbe. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Módosítja a master notes slide fejléc helyőrző és az összes gyermek fejléc helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a master notes slide oldalszám helyőrző és az összes gyermek oldalszám helyőrző láthatóságát. A gyermekhelyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a master notes slide-et használják és tőle függenek. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Beállítja a szöveget a mester jegyzet dia dátum-idő helyőrzőjére és az összes gyermek dátum-idő helyőrzőre. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Módosítja a mester jegyzet dia dátum-idő helyőrzőjének és az összes gyermek dátum-idő helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Beállítja a szöveget a mester jegyzet dia lábléc helyőrzőjére és az összes gyermek lábléc helyőrzőre. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Módosítja a mester jegyzet dia lábléc helyőrzőjének és az összes gyermek lábléc helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Beállítja a szöveget a mester jegyzet dia fejléc helyőrzőjére és az összes gyermek fejléc helyőrzőre. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Módosítja a mester jegyzet dia fejléc helyőrzőjének és az összes gyermek fejléc helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Módosítja a mester jegyzet dia oldalszám helyőrzőjének és az összes gyermek oldalszám helyőrzőnek a láthatóságát. A gyermek helyőrzők azt jelentik, hogy a helyőrzők a függő jegyzet diákon vannak. A függő jegyzet diák a mester jegyzet diát használják és tőlük függenek. |
 
 ### Lásd még
 

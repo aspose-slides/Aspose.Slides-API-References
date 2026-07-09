@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: रंग परिवर्तन ऑपरेशन्स के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: रंग रूपांतरण संचालन के एक संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 2540
 url: /hi/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection क्लास
 
-एक रंग परिवर्तन ऑपरेशन्स के संग्रह का प्रतिनिधित्व करता है।
+रंग रूपांतरण संचालन के एक संग्रह को दर्शाता है।
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,25 +18,25 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | कलेक्शन में ऑपरेशन्स की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | यह दर्शाता है कि कलेक्शन तक पहुँच समकाली (थ्रेड-सेफ) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | निर्दिष्ट इंडेक्स पर ऑपरेशन को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | एक समकालिक रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | एक संग्रह में संचालन की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | एक मान लौटाता है जो यह दर्शाता है कि क्या संग्रह तक पहुंच समकालिक (थ्रेड-सुरक्षित) है। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | निर्दिष्ट इंडेक्स पर संचालन को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | एक समकालिक मूल लौटाता है। केवल पढ़ने योग्य Object. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | कलेक्शन के अंत में एक नया ऑपरेशन जोड़ता है। |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | कलेक्शन के अंत में एक नया ऑपरेशन जोड़ता है। |
-| [Clear](../../aspose.slides/coloroperationcollection/clear)() | सभी रंग ऑपरेशन्स को हटाता है। |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | एक ColorOperationCollection कलेक्शन की कॉपी बनाता है। |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | वर्तमान वस्तु को क्लोन करता है |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | कलेक्शन से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | एक इटेरेटर लौटाता है जो कलेक्शन के माध्यम से इटेरेट करता है। |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | नए ऑपरेशन को कलेक्शन में सम्मिलित करता है। |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | नए ऑपरेशन को कलेक्शन में सम्मिलित करता है। |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | कलेक्शन से रंग ऑपरेशन को हटाता है। |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | संग्रह के अंत में एक नया संचालन जोड़ता है। |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | संग्रह के अंत में एक नया संचालन जोड़ता है। |
+| [Clear](../../aspose.slides/coloroperationcollection/clear)() | सभी रंग संचालन हटाता है। |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | एक ColorOperationCollection संग्रह की प्रति बनाता है। |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | वर्तमान ऑब्जेक्ट को क्लोन करता है। |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | संग्रह से सभी तत्व निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटरटे करता है। |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | एक संग्रह में नया संचालन डालता है। |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | एक संग्रह में नया संचालन डालता है। |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | एक संग्रह से रंग संचालन हटाता है। |
 
 ### संबंधित देखें
 

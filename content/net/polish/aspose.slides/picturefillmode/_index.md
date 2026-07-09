@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, w jaki sposób obraz wypełni obszar.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Określa, w jaki sposób obraz będzie wypełniał obszar.
 type: docs
-weight: 9380
+weight: 9400
 url: /pl/aspose.slides/picturefillmode/
 ---
-## PictureFillMode enumeracja
+## Wyliczenie PictureFillMode
 
-Określa, w jaki sposób obraz wypełni obszar.
+Określa, w jaki sposób obraz będzie wypełniał obszar.
 
 ```csharp
 public enum PictureFillMode

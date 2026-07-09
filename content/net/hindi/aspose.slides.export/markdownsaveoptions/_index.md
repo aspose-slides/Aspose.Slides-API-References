@@ -1,45 +1,45 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति को मार्कडाउन में सहेजने के तरीके को नियंत्रित करने वाले विकल्पों का प्रतिनिधित्व करता है।
+description: प्रेज़ेंटेशन को मार्कडाउन में सहेजने के तरीके को नियंत्रित करने वाले विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 4250
 url: /hi/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions क्लास
 
-प्रस्तुति को मार्कडाउन में सहेजने के तरीके को नियंत्रित करने वाले विकल्पों का प्रतिनिधित्व करता है।
+प्रेज़ेंटेशन को मार्कडाउन में सहेजने के तरीके को नियंत्रित करने वाले विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
 ```
 
-## निर्माता
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | निर्माता |
+| [MarkdownSaveOptions](markdownsaveoptions)() | कंस्ट्रक्टर। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | दस्तावेज़ के साथ संसाधन जहाँ सहेजे जाएंगे, उसके बेस पथ को निर्दिष्ट करता है। डिफ़ॉल्ट एप्लीकेशन की वर्तमान निर्देशिका है। |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | जब स्रोत फ़ॉन्ट नहीं मिलता है तो उपयोग होने वाले फ़ॉन्ट को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | प्रस्तुति को परिवर्तित करने के लिए मार्कडाउन विनिर्देशन को निर्दिष्ट करता है। डिफ़ॉल्ट `TextOnly` है। |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | प्रस्तुति को परिवर्तित करने के लिए मार्कडाउन विनिर्देशन को निर्दिष्ट करता है। डिफ़ॉल्ट `Multi-markdown` है। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle)। |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | दस्तावेज़ और उसके संसाधनों को सहेजने के लिए आधार पथ निर्दिष्ट करता है। डिफ़ॉल्ट रूप से यह एप्लिकेशन की वर्तमान डायरेक्टरी होती है। |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | यदि स्रोत फ़ॉन्ट नहीं मिला तो उपयोग किए जाने वाले फ़ॉन्ट को प्राप्त करता है या सेट करता है। पढ़ें-लिखें String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | प्रेज़ेंटेशन को परिवर्तित करने के लिए मार्कडाउन विनिर्देश निर्दिष्ट करता है। डिफ़ॉल्ट `TextOnly` है। |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | प्रेज़ेंटेशन को परिवर्तित करने के लिए मार्कडाउन विनिर्देश निर्दिष्ट करता है। डिफ़ॉल्ट `Multi-markdown` है। |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | छवियों को सहेजने के लिए फ़ोल्डर का नाम निर्दिष्ट करता है। डिफ़ॉल्ट `Images` है। |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में नई पंक्तियों \\r(Macintosh) या \\n(Unix) या \\r\\n(Windows) होनी चाहिए या नहीं। डिफ़ॉल्ट `Unix` है। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रतिशत में सहेजने की प्रगति अद्यतन के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | यदि `true` पर सेट किया जाता है, तो अंतिम मार्कडाउन आउटपुट से खाली या केवल व्हाइटस्पेस वाली पंक्तियों को हटा देता है। डिफ़ॉल्ट `false` है। |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में टिप्पणी दिखाई दें या नहीं। डिफ़ॉल्ट `false` है। |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में छिपे स्लाइड शामिल हों या नहीं। डिफ़ॉल्ट `false` है। |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में प्रत्येक स्लाइड का नंबर दिखाया जाए या नहीं। डिफ़ॉल्ट `false` है। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, यह निर्धारित करता है। पढ़ने/लिखने योग्य बूलियन। डिफ़ॉल्ट मान **false** है। |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | मार्कडाउन आउटपुट में स्लाइड नंबर हेडर के लिए उपयोग किए जाने वाले फ़ॉर्मेट स्ट्रिंग को प्राप्त या सेट करता है। फ़ॉर्मेट में \"{0}\" प्लेसहोल्डर शामिल होना चाहिए, जिसे निर्यात के दौरान स्लाइड इंडेक्स से बदला जाएगा। उदाहरण: \"# Slide {0}\" से \"# Slide 1\", \"# Slide 2\" आदि उत्पन्न होंगे। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | चेतावनियों को प्राप्त करने और यह तय करने वाला ऑब्जेक्ट लौटाता या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द हो जाएगी। पढ़ने/लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | छवियों को सहेजने के लिए फ़ोल्डर नाम निर्दिष्ट करता है। डिफ़ॉल्ट `Images` है। |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में नई पंक्तियाँ \\r(Macintosh) या \\n(Unix) या \\r\\n(Windows) होनी चाहिए या नहीं। डिफ़ॉल्ट `Unix` है। |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति प्रतिशत में अपडेट सहेजने के लिए कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | यदि `true` सेट किया जाता है, तो अंतिम Markdown आउटपुट से खाली या केवल whitespace वाली पंक्तियों को हटा देता है। डिफ़ॉल्ट `false` है। |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में टिप्पणी दिखानी है या नहीं। डिफ़ॉल्ट `false` है। |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइडें शामिल करनी हैं या नहीं। डिफ़ॉल्ट `false` है। |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में प्रत्येक स्लाइड का क्रमांक दिखाना है या नहीं। डिफ़ॉल्ट `false` है। |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रेज़ेंटेशन सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना है या नहीं, निर्धारित करता है। पढ़ें/लिखें Boolean। डिफ़ॉल्ट मान **false** है। |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Markdown आउटपुट में स्लाइड नंबर हेडर के लिए उपयोग किए जाने वाले फ़ॉर्मेट स्ट्रिंग को प्राप्त करता है या सेट करता है। फ़ॉर्मेट में "{0}" प्लेसहोल्डर होना आवश्यक है, जिसे निर्यात के दौरान स्लाइड इंडेक्स से बदल दिया जाएगा। उदाहरण: "# Slide {0}" का परिणाम "# Slide 1", "# Slide 2" आदि होगा। |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | एक ऑब्जेक्ट लौटाता या सेट करता है जो चेतावनियों को प्राप्त करता है और तय करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### उदाहरण
 
@@ -62,7 +62,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * क्लास [SaveOptions](../saveoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

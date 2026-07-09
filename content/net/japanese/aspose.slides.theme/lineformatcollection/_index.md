@@ -1,14 +1,14 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ライン スタイルのコレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 線スタイルのコレクションを表します。
 type: docs
-weight: 11400
+weight: 11420
 url: /ja/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection クラス
 
-ライン スタイルのコレクションを表します。
+線スタイルのコレクションを表します。
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -18,8 +18,8 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド安全）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | コレクションに実際に含まれている要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
@@ -28,9 +28,9 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 | Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [FormatScheme](../formatscheme)

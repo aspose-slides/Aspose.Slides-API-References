@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 提供控制投影片/簡報呈現方式的選項。
+description: 提供控制簡報/投影片渲染方式的選項。
 type: docs
 weight: 4040
 url: /zh-hant/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions 介面
 
-提供控制投影片/簡報呈現方式的選項。
+提供控制簡報/投影片渲染方式的選項。
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -19,11 +19,11 @@ public interface IRenderingOptions : ISaveOptions
 | 名稱 | 說明 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | 傳回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 取得或設定指示文字是否在不使用連字的情況下呈現的值。設定為 `true` 時，連字將在輸出中被停用。預設情況下，此屬性設定為 `false`。 |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 取得或設定指示文字是否在渲染時不使用連字的值。設定為 `true` 時，連字將在渲染輸出中被停用。預設情況下，此屬性設定為 `false`。 |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
-### 範例
+### 示例
 
 ```csharp
 [C#]

@@ -1,12 +1,12 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Oggetto immutabile che contiene le proprietà di formattazione della tabella effettive.
 type: docs
-weight: 7230
+weight: 7250
 url: /it/aspose.slides/itableformateffectivedata/
 ---
-## Interfaccia ITableFormatEffectiveData
+## ITableFormatEffectiveData interfaccia
 
 Oggetto immutabile che contiene le proprietà di formattazione della tabella effettive.
 
@@ -18,12 +18,12 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Sola lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Ottiene la trasparenza del colore di riempimento. Leggi Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Consente di ottenere l'interfaccia base IBaseTableFormatEffectiveData. Solo lettura [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Restituisce la trasparenza del colore di riempimento. Leggi Single. |
 
-### Note
+### Osservazioni
 
-Questa interfaccia è utilizzata insieme all'interfaccia [`ITableFormat`](../itableformat) per restituire i valori di formattazione effettivi con ereditarietà e stili di tabella applicati.
+Questa interfaccia è usata insieme all'interfaccia [`ITableFormat`](../itableformat) per restituire i valori di formattazione effettivi con ereditarietà e stili di tabella applicati.
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: EmbeddedEotFontsHtmlController
-second_title: Aspose.Sildes pro .NET referenci API
-description: Třída řadiče formátování určená pro vkládání fontů ve formátu EOT
+second_title: Aspose.Sildes pro .NET API referenci
+description: Formátovací řadičová třída určená k vkládání písem ve formátu EOT
 type: docs
-weight: 3760
+weight: 3780
 url: /cs/aspose.slides.export/embeddedeotfontshtmlcontroller/
 ---
 ## EmbeddedEotFontsHtmlController třída
 
-Řadič formátování používaný pro vložení fontů ve formátu EOT
+Formátovací řadičová třída pro vkládání písem ve formátu EOT
 
 ```csharp
 public class EmbeddedEotFontsHtmlController : IEmbeddedEotFontsHtmlController

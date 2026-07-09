@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Stelt een SVG-afbeelding voor.
 type: docs
 weight: 10800
@@ -16,18 +16,18 @@ public class SvgImage : ISvgImage
 
 ## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [SvgImage](svgimage#constructor)(byte[]) | Maakt een nieuw SvgImage-object. |
-| [SvgImage](svgimage#constructor_2)(Stream) | Maakt een nieuw SvgImage-object. |
-| [SvgImage](svgimage#constructor_4)(string) | Maakt een nieuw SvgImage-object. |
-| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object. |
-| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object. |
-| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object. |
+| [SvgImage](svgimage#constructor)(byte[]) | Maakt een nieuw SvgImage-object aan. |
+| [SvgImage](svgimage#constructor_2)(Stream) | Maakt een nieuw SvgImage-object aan. |
+| [SvgImage](svgimage#constructor_4)(string) | Maakt een nieuw SvgImage-object aan. |
+| [SvgImage](svgimage#constructor_1)(byte[], IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object aan. |
+| [SvgImage](svgimage#constructor_3)(Stream, IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object aan. |
+| [SvgImage](svgimage#constructor_5)(string, IExternalResourceResolver, string) | Maakt een nieuw SvgImage-object aan. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Geeft de basis-URI van de opgegeven Svg terug. Wordt gebruikt om relatieve koppelingen op te lossen. Alleen-lezen String. |
 | [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Retourneert callback-interface die wordt gebruikt om externe bronnen op te lossen tijdens het importeren van Svg-documenten. Alleen-lezen [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
@@ -36,7 +36,7 @@ public class SvgImage : ISvgImage
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Slaat de SVG-afbeelding op als een EMF-bestand. |
 

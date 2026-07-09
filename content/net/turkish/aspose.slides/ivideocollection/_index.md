@@ -1,12 +1,12 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Video nesnelerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 7350
+weight: 7370
 url: /tr/aspose.slides/ivideocollection/
 ---
-## IVideoCollection arayüzü
+## IVideoCollection arayüz
 
 Video nesnelerinin bir koleksiyonunu temsil eder.
 
@@ -18,17 +18,17 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt okunur [`IVideo`](../ivideo). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Bayt dizisinden bir sunuma video oluşturur ve ekler. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | Bayt dizisinden bir videoyu oluşturur ve sunuma ekler. |
 | [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | Başka bir sunumdan bir video dosyasının kopyasını ekler. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Akıştan bir sunuma video oluşturur ve ekler. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Akıştan bir videoyu oluşturur ve sunuma ekler. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * arayüz [IVideo](../ivideo)

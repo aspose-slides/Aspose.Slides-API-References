@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Slides dla .NET - Dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Umożliwia dostęp do różnych typów nadpisanych motywów.
 type: docs
-weight: 11330
+weight: 11350
 url: /pl/aspose.slides.theme/ioverridethememanager/
 ---
-## IOverrideThemeManager interface
+## IOverrideThemeManager interfejs
 
-Zapewnia dostęp do różnych typów nadpisanych motywów.
+Umożliwia dostęp do różnych typów nadpisanych motywów.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -19,7 +19,7 @@ public interface IOverrideThemeManager : IThemeManager
 | Nazwa | Opis |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Umożliwia pobranie podstawowego interfejsu IThemeManager. Tylko do odczytu [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć nadpisywanie OverrideTheme, użyj metod OverrideTheme.Init*(). Aby wyłączyć nadpisywanie OverrideTheme, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć nadpisywanie przez OverrideTheme, użyj metod OverrideTheme.Init*(). Aby wyłączyć nadpisywanie przez OverrideTheme, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
 
 ### Zobacz także

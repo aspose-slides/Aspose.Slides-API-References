@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi gaya efek.
 type: docs
-weight: 11070
+weight: 11090
 url: /id/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection kelas
 
-Mewakili koleksi gaya efek.
+Mewakili kumpulan gaya efek.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -19,7 +19,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Mengembalikan jumlah elemen dalam koleksi. Hanya-baca Int32, Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Mengembalikan elemen pada posisi yang ditentukan. Hanya-baca [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
 

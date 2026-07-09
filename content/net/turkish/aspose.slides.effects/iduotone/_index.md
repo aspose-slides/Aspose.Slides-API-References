@@ -1,14 +1,14 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Duotone etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Duotone etkisini temsil eder.
 type: docs
-weight: 3240
+weight: 3260
 url: /tr/aspose.slides.effects/iduotone/
 ---
-## IDuotone arayüz
+## IDuotone arabirim
 
-Bir Duotone etkisini temsil eder.
+Duotone etkisini temsil eder.
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -18,16 +18,16 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Karanlık pikseller için hedef renk formatını döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Açık pikseller için hedef renk formatını döndürür. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arabirimini almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arabirimini almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | Koyu pikseller için hedef renk formatını döndürür. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | Açık pikseller için hedef renk formatını döndürür. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ayrıca bakınız
+### Diğer Bağlantılar
 
-* arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* arayüz [IDuotoneEffectiveData](../iduotoneeffectivedata)
-* arayüz [IImageTransformOperation](../iimagetransformoperation)
+* arabirim [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* arabirim [IDuotoneEffectiveData](../iduotoneeffectivedata)
+* arabirim [IImageTransformOperation](../iimagetransformoperation)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)
 * derleme [Aspose.Slides](../../)
 

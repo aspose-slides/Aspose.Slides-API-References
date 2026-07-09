@@ -1,14 +1,14 @@
 ---
 title: Storage
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un archivio temporaneo di dati per WebDocument./webdocument.
+second_title: Aspose.Sildes per la documentazione di riferimento API .NET
+description: Rappresenta un archivio dati temporaneo per WebDocument./webdocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /it/aspose.slides.export.web/storage/
 ---
 ## Classe di archiviazione
 
-Rappresenta un archivio temporaneo di dati per [`WebDocument`](../webdocument).
+Rappresenta un archivio di dati temporaneo per [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage
@@ -25,7 +25,7 @@ public sealed class Storage
 | Nome | Descrizione |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Determina se l'archivio contiene un elemento con la chiave specificata. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Ottiene i dati dall'archivio. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Recupera i dati dall'archivio. |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Inserisce il valore nell'archivio. |
 
 ### Vedi anche

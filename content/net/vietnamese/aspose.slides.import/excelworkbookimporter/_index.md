@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cung cấp chức năng nhập nội dung từ một workbook Excel vào bản trình chiếu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Cung cấp chức năng nhập nội dung từ một sổ Excel vào một bản trình chiếu.
 type: docs
 weight: 7470
 url: /vi/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter lớp
 
-Cung cấp chức năng nhập nội dung từ một workbook Excel vào bản trình chiếu.
+Cung cấp chức năng nhập nội dung từ một sổ Excel vào một bản trình chiếu.
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,17 +18,17 @@ public static class ExcelWorkbookImporter
 
 | Tên | Mô tả |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Trích xuất một biểu đồ từ workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Trích xuất một biểu đồ từ workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Trích xuất một biểu đồ từ workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Trích xuất một biểu đồ từ workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Trích xuất một bảng từ workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Trích xuất một bảng từ tệp workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Trích xuất một bảng từ tệp workbook Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại tọa độ đã chỉ định. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | Lấy một biểu đồ từ sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | Lấy một biểu đồ từ sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | Lấy một biểu đồ từ sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | Lấy một biểu đồ từ sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | Lấy một bảng từ sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | Lấy một bảng từ tệp sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | Lấy một bảng từ tệp sổ Excel đã chỉ định và thêm nó vào cuối bộ sưu tập shape đã cho tại các tọa độ được chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
-* namespace [Aspose.Slides.Import](../../aspose.slides.import)
+* không gian tên [Aspose.Slides.Import](../../aspose.slides.import)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

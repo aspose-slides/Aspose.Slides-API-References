@@ -1,14 +1,14 @@
 ---
 title: MarkdownExportType
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: نوع مستند العرض.
+description: نوع وثيقة العرض.
 type: docs
 weight: 4240
 url: /ar/aspose.slides.export/markdownexporttype/
 ---
-## MarkdownExportType التعداد
+## MarkdownExportType تعداد
 
-نوع مستند العرض.
+نوع وثيقة العرض.
 
 ```csharp
 public enum MarkdownExportType
@@ -20,9 +20,9 @@ public enum MarkdownExportType
 | --- | --- | --- |
 | Sequential | `0` | عرض جميع العناصر بشكل منفصل. واحدًا تلو الآخر. |
 | TextOnly | `1` | عرض النص فقط. |
-| Visual | `2` | عرض جميع العناصر، والعناصر التي تم تجميعها - عرض معًا. |
+| Visual | `2` | عرض جميع العناصر، العناصر التي تم تجميعها - تُعرض معًا. |
 
-### الأمثلة
+### أمثلة
 
 مثال:
 

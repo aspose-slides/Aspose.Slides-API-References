@@ -3,7 +3,7 @@ title: IColumn
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coluna em uma tabela.
 type: docs
-weight: 5500
+weight: 5520
 url: /pt/aspose.slides/icolumn/
 ---
 ## IColumn interface
@@ -23,7 +23,7 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Retorna o objeto ColumnFormat que contém propriedades de formatação para esta coluna. Somente leitura [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | Retorna ou define a largura de uma coluna. Leitura/Gravação Double. |
 
-### Veja Também
+### Ver também
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [ICellCollection](../icellcollection)

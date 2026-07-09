@@ -3,10 +3,10 @@ title: NotesSlideManager
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ノートスライドマネージャー。
 type: docs
-weight: 9140
+weight: 9160
 url: /ja/aspose.slides/notesslidemanager/
 ---
-## NotesSlideManager class
+## NotesSlideManager クラス
 
 ノートスライドマネージャー。
 
@@ -18,7 +18,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドがない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/notesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドが存在しない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide)。 |
 
 ## メソッド
 
@@ -29,11 +29,11 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ### 例
 
-特定の PowerPoint Presentation スライドにノートを追加する例を示します。
+次の例は、特定の PowerPoint プレゼンテーション スライドにノートを追加する方法を示しています。
 
 ```csharp
 [C#]
-	// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
+	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化します
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // 最初のスライドにノートを追加します
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
@@ -44,11 +44,11 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-PowerPoint Presentation の特定のスライドからノートを削除する例を示します。
+次の例は、PowerPoint プレゼンテーションの特定のスライドからノートを削除する方法を示しています。
 
 ```csharp
 [C#]
-	// プレゼンテーション ファイルを表す Presentation オブジェクトをインスタンス化します
+	// プレゼンテーションファイルを表す Presentation オブジェクトをインスタンス化します
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
 	  // 最初のスライドのノートを削除します
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;

@@ -1,14 +1,14 @@
 ---
 title: DataTable
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả các thuộc tính của bảng dữ liệu.
+description: Biểu thị các thuộc tính của bảng dữ liệu.
 type: docs
 weight: 1600
 url: /vi/aspose.slides.charts/datatable/
 ---
 ## DataTable lớp
 
-Mô tả các thuộc tính của bảng dữ liệu.
+Biểu thị các thuộc tính của bảng dữ liệu.
 
 ```csharp
 public class DataTable : DomObject<Chart>, IDataTable
@@ -19,10 +19,10 @@ public class DataTable : DomObject<Chart>, IDataTable
 | Tên | Mô tả |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Trả về biểu đồ. Chỉ đọc [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Trả về các kiểu đường, màu nền và hiệu ứng của một đối tượng. Chỉ đọc [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có đường viền ô ngang. Đọc/ghi Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có đường viền bao quanh. Đọc/ghi Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có đường viền ô dọc. Đọc/ghi Boolean. |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Trả về các kiểu đường, tô và hiệu ứng của một đối tượng. Chỉ đọc [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có viền ô ngang. Đọc/ghi Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có viền bao quanh. Đọc/ghi Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Đúng nếu bảng dữ liệu biểu đồ có viền ô dọc. Đọc/ghi Boolean. |
 | [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Đúng nếu khóa chú giải nhãn dữ liệu hiển thị. Đọc/ghi Boolean. |
 | [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Trả về định dạng văn bản. Chỉ đọc [`IChartTextFormat`](../icharttextformat). |
 

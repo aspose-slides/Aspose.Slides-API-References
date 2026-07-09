@@ -6,9 +6,9 @@ type: docs
 weight: 810
 url: /hi/aspose.slides.animation/seteffect/
 ---
-## SetEffect क्लास
+## SetEffect वर्ग
 
-एक एनिमेशन व्यवहार के लिए सेट प्रभाव का प्रतिनिधित्व करता है।
+एक एनीमेशन व्यवहार के लिए सेट प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
@@ -24,15 +24,15 @@ public class SetEffect : Behavior, ISetEffect
 
 | नाम | विवरण |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | एनीमेशन व्यवहारों के संचित होने को दर्शाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | वर्तमान एनीमेशन व्यवहार को अन्य चल रहे एनीमेशन के साथ संयोजित होने को दर्शाता है। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype)। |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | व्यवहार के गुणों को दर्शाता है। केवल-पढ़नेयोग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)। |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | प्रभाव व्यवहार की टाइमिंग गुणों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming)। |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | एक एनीमेशन प्रभाव के बाद प्रभाव की एक निश्चित विशेषता निर्दिष्ट करता है। पॉइंट मान का प्रतिनिधित्व करता है। केवल: bool, ColorFormat, float, int, string। पढ़ें/लिखें Object। |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | यह दर्शाता है कि एनीमेशन व्यवहार संचित होते हैं या नहीं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | यह दर्शाता है कि वर्तमान एनीमेशन व्यवहार अन्य चल रहे एनीमेशन के साथ संयुक्त है या नहीं। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype)। |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | यह व्यवहार के गुणों को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)। |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | यह इफ़ेक्ट व्यवहार के समय संबंधी गुणों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming)। |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | यह एनीमेशन प्रभाव के बाद किसी प्रभाव का विशिष्ट गुण निर्दिष्ट करता है। यह बिंदु मान को दर्शाता है। केवल: bool, ColorFormat, float, int, string. पढ़ें/लिखें Object. |
 
-### देखें भी
+### देखें
 
-* क्लास [Behavior](../behavior)
+* वर्ग [Behavior](../behavior)
 * इंटरफ़ेस [ISetEffect](../iseteffect)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

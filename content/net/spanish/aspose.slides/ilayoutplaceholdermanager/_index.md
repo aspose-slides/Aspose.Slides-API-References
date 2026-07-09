@@ -1,15 +1,14 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Slides para .NET Referencia de la API
-description: Representa un gestor que permite añadir marcadores de posición a la diapositiva de diseño.
+second_title: Referencia de API de Aspose.Sildes para .NET
+description: Representa un administrador que permite agregar marcadores de posición a la diapositiva de diseño.
 type: docs
-weight: 6010
+weight: 6210
 url: /es/aspose.slides/ilayoutplaceholdermanager/
 ---
+## ILayoutPlaceholderManager interfaz
 
-## Interfaz ILayoutPlaceholderManager
-
-Representa un gestor que permite añadir marcadores de posición a la diapositiva de diseño.
+Representa un administrador que permite agregar marcadores de posición a la diapositiva de diseño.
 
 ```csharp
 public interface ILayoutPlaceholderManager
@@ -19,20 +18,20 @@ public interface ILayoutPlaceholderManager
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener un gráfico. |
-| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, medios o texto. |
-| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener un objeto multimedia. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener una imagen en línea. |
-| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener una imagen. |
-| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama de SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener una tabla. |
-| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido de texto. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, medios o texto en dirección vertical. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Añade una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido de texto en dirección vertical. |
+| [AddChartPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un gráfico. |
+| [AddContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, medio o texto. |
+| [AddMediaPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un objeto multimedia. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener una imagen en línea. |
+| [AddPicturePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener una imagen. |
+| [AddSmartArtPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener un diagrama SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener una tabla. |
+| [AddTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido de texto. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido, como una imagen, tabla, medio o texto, en dirección vertical. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Agrega una nueva forma de marcador de posición a la diapositiva de diseño para contener contenido de texto en dirección vertical. |
 
-### Ver También
+### Ver también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

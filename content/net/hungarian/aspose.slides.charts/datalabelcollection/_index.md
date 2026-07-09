@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: A sorozat címkéit képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy sor címkéit ábrázolja.
 type: docs
-weight: 1540
+weight: 1560
 url: /hu/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection osztály
 
-Represents a series labels.
+Egy sor címkéit ábrázolja.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -16,23 +16,23 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Visszaadja a szülő diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Megkapja az összes adatcímke számát a gyűjteményben. Csak olvasható Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Megkapja a látható adatcímkék számát a gyűjteményben. Csak olvasható Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Megkapja az alapértelmezett adatcímke formátumot. Csak olvasható [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | A hamis azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és így a DefaultDataLabelFormat tulajdonság összes Show*-jelzője (ShowValue, ...) hamis). Csak olvasható Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Megkapja a megadott indexű adatpont adatcímkéjét. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Ábrázolja az adatcímkék vezető vonalainak formátumát. Csak olvasható [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Megkapja a szülő sorozatot. Csak olvasható [`IChartSeries`](../ichartseries). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Lekéri a gyűjteményben lévő összes adatcímke számát. Csak olvasható Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Lekéri a gyűjteményben látható adatcímkék számát. Csak olvasható Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Lekéri az alapértelmezett adatcímke formátumot. Csak olvasható [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | A False azt jelenti, hogy az adatcímke alapértelmezés szerint nem látható (és ezért az összes Show*-flag (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban hamis). Csak olvasható Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Lekéri az adott indexű adatpont adatcímkéjét. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Az adatcímkék vezetővonalainak formátuma. Csak olvasható [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Visszaadja a szülő sorozatot. Csak olvasható [`IChartSeries`](../ichartseries). |
 
 ## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Visszaad egy felsorolót, amely végigiterál a gyűjteményen. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Az adatcímkét alapértelmezés szerint rejtetté teszi, ha a DefaultDataLabelFormat tulajdonság összes Show*-jelzőjét (ShowValue, ...) hamis állapotra állítja. Az IsVisible ezután hamis lesz. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Alapértelmezés szerint rejtetté teszi az adatcímkét az összes Show*-flag (ShowValue, ...) a DefaultDataLabelFormat tulajdonságban false állapotra állításával. Az IsVisible hamis lesz ezután. |
 | [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Visszaadja a megadott DataLabel indexét a gyűjteményben. |
 
 ### Lásd még

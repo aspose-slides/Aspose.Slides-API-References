@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: ระบุวัตถุเศษส่วนที่ประกอบด้วยตัวเศษและตัวส่วนซึ่งแยกจากกันด้วยแถบเศษส่วน แถบเศษส่วนสามารถเป็นแนวนอนหรือแนวทแยงตามคุณสมบัติของเศษส่วน วัตถุเศษส่วนยังใช้แทนฟังก์ชันสแต็กที่วางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบโดยไม่มีแถบเศษส่วน
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: ระบุวัตถุส่วนที่ประกอบด้วยตัวเศษและตัวหารที่แยกกันด้วยเส้นส่วน เส้นส่วนอาจเป็นแนวนอนหรือแนวทแยงมุมขึ้นอยู่กับคุณสมบัติของส่วน วัตถุส่วนนี้ยังใช้เพื่อแทนฟังก์ชันสแตกที่วางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นส่วน
 type: docs
 weight: 8250
 url: /th/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction อินเทอร์เฟซ
 
-ระบุวัตถุเศษส่วน ประกอบด้วยตัวเศษและตัวส่วนที่แยกจากกันด้วยแถบเศษส่วน แถบเศษส่วนสามารถเป็นแนวนอนหรือแนวทแยงตามคุณสมบัติของเศษส่วน วัตถุเศษส่วนยังใช้แทนฟังก์ชันสแต็ก ซึ่งวางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบโดยไม่มีแถบเศษส่วน.
+ระบุวัตถุส่วนที่ประกอบด้วยตัวเศษและตัวหารที่แยกกันด้วยเส้นส่วน เส้นส่วนอาจเป็นแนวนอนหรือแนวทแยงมมาขึ้นอยู่กับคุณสมบัติของส่วน วัตถุส่วนนี้ยังใช้เพื่อแทนฟังก์ชันสแตก ซึ่งวางองค์ประกอบหนึ่งเหนืออีกองค์ประกอบหนึ่งโดยไม่มีเส้นส่วน
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -19,13 +19,13 @@ public interface IMathFraction : IMathElement
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement พื้นฐาน [`IMathElement`](../imathelement) |
-| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | ตัวส่วน |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | ประเภทเศษส่วน ค่าเริ่มต้น: Bar |
+| [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | ตัวหาร |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | ประเภทส่วน ค่าเริ่มต้น: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | ตัวเศษ |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

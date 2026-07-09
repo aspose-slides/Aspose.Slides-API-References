@@ -3,7 +3,7 @@ title: InterruptionTokenSource
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar källan till InterruptionToken./interruptiontoken.
 type: docs
-weight: 7590
+weight: 7610
 url: /sv/aspose.slides/interruptiontokensource/
 ---
 ## InterruptionTokenSource klass
@@ -33,7 +33,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | Initierar begäran om avbrott. |
 
-### Se även
+### Se också
 
 * gränssnitt [IInterruptionTokenSource](../iinterruptiontokensource)
 * namnrymd [Aspose.Slides](../../aspose.slides)

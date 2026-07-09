@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과 스타일의 컬렉션을 나타냅니다.
+description: 효과 스타일 컬렉션을 나타냅니다.
 type: docs
 weight: 11090
 url: /ko/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection 클래스
 
-효과 스타일의 컬렉션을 나타냅니다.
+효과 스타일 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -18,8 +18,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 컬렉션의 요소 개수를 반환합니다. 읽기 전용 Int32, 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 컬렉션에 있는 요소의 수를 반환합니다. 읽기 전용 Int32, 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 지정된 위치의 요소를 반환합니다. 읽기 전용 [`EffectStyle`](../effectstyle). |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -28,7 +28,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | 이름 | 설명 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
 ### 참조
 

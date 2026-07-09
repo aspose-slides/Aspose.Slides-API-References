@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
 second_title: Aspose.Sildes för .NET API-referens
-description: Återanrop som kommer att anropas för varje Slide./foreach/slide i Presentation../aspose.slides/presentation.
+description: Återuppringning som kommer att anropas för varje Slide./foreach/slide i Presentation../aspose.slides/presentation.
 type: docs
-weight: 7940
+weight: 7960
 url: /sv/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback delegate
+## ForEach.ForEachSlideCallback delegat
 
-Återanrop som kommer att anropas för varje [`Slide`](../foreach/slide) i [`Presentation`](../../aspose.slides/presentation).
+Återuppringning som kommer att anropas för varje [`Slide`](../foreach/slide) i [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 | slide | Slide | Aktuell itererad bild |
 | index | Int32 | Index för den aktuella bilden |
 
-### Se också
+### Se även
 
 * klass [Slide](../../aspose.slides/slide)
 * klass [ForEach](../foreach)

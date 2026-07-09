@@ -16,7 +16,7 @@ public enum TextCapType : sbyte
 
 ### 值
 
-| Name | Value | Description |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

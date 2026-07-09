@@ -1,15 +1,14 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes for .NET API Reference
-description: Представляет подтипы анимационного эффекта.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет подтипы эффекта анимации.
 type: docs
-weight: 260
+weight: 340
 url: /ru/aspose.slides.animation/effectsubtype/
 ---
-
 ## Перечисление EffectSubtype
 
-Представляет подтипы анимационного эффекта.
+Представляет подтипы эффекта анимации.
 
 ```csharp
 public enum EffectSubtype
@@ -72,7 +71,7 @@ public enum EffectSubtype
 | Wheel4 | `50` |  |
 | Wheel8 | `51` |  |
 
-### См. Также
+### См. также
 
 * пространство имён [Aspose.Slides.Animation](../../aspose.slides.animation)
 * сборка [Aspose.Slides](../../)

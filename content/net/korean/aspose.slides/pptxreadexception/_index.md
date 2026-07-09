@@ -19,10 +19,10 @@ public class PptxReadException : PptxException
 | 이름 | 설명 |
 | --- | --- |
 | [PptxReadException](pptxreadexception#constructor)() | 기본 생성자. |
-| [PptxReadException](pptxreadexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외에 대한 생성자. |
+| [PptxReadException](pptxreadexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptxReadException](pptxreadexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외의 생성자. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [PptxException](../pptxexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

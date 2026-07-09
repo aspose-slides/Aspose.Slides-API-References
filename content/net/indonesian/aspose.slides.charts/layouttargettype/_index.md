@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Jika tata letak area plot ditentukan secara manual, properti ini menentukan apakah tata letak area plot menggunakan bagian dalamnya yang tidak termasuk sumbu dan label sumbu, atau bagian luar yang termasuk sumbu dan label sumbu.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Jika tata letak area plot ditentukan secara manual properti ini menentukan apakah tata letak area plot menggunakan bagian dalamnya tanpa menyertakan sumbu dan label sumbu atau bagian luar termasuk sumbu dan label sumbu.
 type: docs
-weight: 2250
+weight: 2270
 url: /id/aspose.slides.charts/layouttargettype/
 ---
 ## LayoutTargetType enumerasi
 
-Jika tata letak area plot ditentukan secara manual, properti ini menentukan apakah tata letak area plot menggunakan bagian dalamnya (tidak termasuk sumbu dan label sumbu) atau bagian luarnya (termasuk sumbu dan label sumbu).
+Jika tata letak area plot ditentukan secara manual, properti ini menentukan apakah tata letak area plot menggunakan bagian dalamnya (tidak termasuk sumbu dan label sumbu) atau bagian luar (termasuk sumbu dan label sumbu).
 
 ```csharp
 public enum LayoutTargetType

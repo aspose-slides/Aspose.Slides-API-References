@@ -1,7 +1,7 @@
 ---
 title: BlobManagementOptions
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示可用於管理 BLOB 處理規則和其他 BLOB 設定的選項。
+description: 代表可用於管理 BLOB 處理規則和其他 BLOB 設定的選項。
 type: docs
 weight: 1030
 url: /zh-hant/aspose.slides/blobmanagementoptions/
@@ -18,18 +18,18 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | 建立新的預設 BLOB 管理選項。 |
+| [BlobManagementOptions](blobmanagementoptions)() | 建立新的預設 blob 管理選項。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此屬性定義在處理 BLOB 時是否可以建立暫存檔案，這會大幅減少記憶體使用量，但需要具有建立檔案的權限。所有檔案在完成簡報工作後都會被刪除。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定義所有 BLOB 在記憶體中可能佔用的最大總大小（以位元組為單位）。預設情況下，所有 BLOB 皆會載入記憶體；僅當達到此上限時，才會使用替代機制（例如暫存檔案）。將 BLOB 保留在記憶體中可提升效能，但可能導致高記憶體使用量。使用此屬性可依據您的環境或需求調整行為。 |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | 此屬性定義 Presentation 類別的實例在其生命週期內是否可以成為來源（檔案或串流）的擁有者。若實例為擁有者，則會鎖定來源。這有助於在處理 BLOB 時改善記憶體使用與效能，但在 Presentation 實例的生命週期內，來源（串流或檔案）無法變更。 |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 暫存檔案將建立的根路徑。預設會使用系統暫存目錄。主機程序必須具備在該位置建立檔案和資料夾的權限。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | 此屬性定義在使用 BLOB 時是否可以建立暫存檔，這會大幅降低記憶體使用量，但需要建立檔案的權限。所有檔案將在簡報工作完成後刪除。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | 定義所有 BLOB 在記憶體中可能佔用的最大總大小（以位元組為單位）。預設情況下，所有 BLOB 會載入記憶體；僅當達到此限制時，才會使用替代機制（例如暫存檔）。將 BLOB 保持在記憶體中可最大化效能，但可能導致高記憶體使用量。使用此屬性可根據您的環境或需求調整行為。 |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | 此屬性定義 Presentation 類別的實例在其生命週期內是否可以成為來源（檔案或串流）的擁有者。若實例是擁有者，則會鎖定來源。這有助於在使用 BLOB 時改善記憶體使用量和效能，但在 Presentation 實例的生命週期內，來源（串流或檔案）無法變更。 |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 將建立暫存檔的根目錄路徑。預設使用系統暫存目錄。主機程序應具備在該處建立檔案和資料夾的權限。 |
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IBlobManagementOptions](../iblobmanagementoptions)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

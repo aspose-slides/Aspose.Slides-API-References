@@ -1,9 +1,9 @@
 ---
 title: ShapeElement
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una parte della forma con le stesse proprietà di contorno e riempimento.
+second_title: Aspose.Sildes per il riferimento API .NET
+description: Rappresenta una parte della forma con le stesse proprietà di contorno e di riempimento.
 type: docs
-weight: 9850
+weight: 9870
 url: /it/aspose.slides/shapeelement/
 ---
 ## ShapeElement classe
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Restituisce informazioni su come riempire un elemento. Solo lettura [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Restituisce un Shape_PPT per il quale è stato creato l'elemento. Solo lettura [`Shape`](../shape). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Restituisce informazioni su come riempire un elemento. Sola lettura [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Restituisce un Shape_PPT per il quale è stato creato l'elemento. Sola lettura [`Shape`](../shape). |
 | [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Ottiene un array di punti che definiscono la geometria del percorso dell'elemento. |
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Ottiene un array di valori byte che specificano il tipo di ogni punto nel percorso dell'elemento. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Restituisce informazioni su come disegnare un elemento. Solo lettura [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Restituisce informazioni su come tracciare un elemento. Sola lettura [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Vedi anche
 

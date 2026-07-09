@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling masterbilder.
+description: Representerar en samling av masterbilder.
 type: docs
-weight: 6410
+weight: 6430
 url: /sv/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection gränssnitt
 
-Representerar en samling masterbilder.
+Representerar en samling av masterbilder.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -24,11 +24,11 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en angiven master-bild i slutet av samlingen. Länkade layout-bilder kopieras också. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en angiven master-bild på en specificerad position i samlingen. Länkade layout-bilder kopieras också. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Lägger till en kopia av en specificerad masterbild i slutet av samlingen. Länkade layoutbilder kopieras också. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Infogar en kopia av en specificerad masterbild på en angiven position i samlingen. Länkade layoutbilder kopieras också. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Tar bort den första förekomsten av ett specifikt objekt från samlingen. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Tar bort elementet på det angivna indexet i samlingen. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Tar bort oanvända master-bilder. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Tar bort oanvända masterbilder. |
 
 ### Se även
 

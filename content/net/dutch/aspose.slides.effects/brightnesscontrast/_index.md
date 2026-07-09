@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een BrightnessContrast effect. Past helderheid en contrast aan
+description: Stelt een BrightnessContrast-effect voor. Past helderheid en contrast aan
 type: docs
 weight: 2930
 url: /nl/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast klasse
 
-Representeert een BrightnessContrast-effect. Past helderheid en contrast aan.
+Stelt een BrightnessContrast-effect voor. Past helderheid en contrast aan
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -18,15 +18,15 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Bepaalt of de opgegeven [`BrightnessContrast`](../brightnesscontrast) gelijk is aan de huidige [`BrightnessContrast`](../brightnesscontrast). |
-| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Haalt effectieve BrightnessContrast-effectgegevens op met de geërfde instellingen toegepast. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Dient als hashfunctie voor een specifiek type. |
+| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Haalt de effectieve BrightnessContrast-effectgegevens op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Dient als hash-functie voor een specifiek type. |
 
 ### Zie ook
 

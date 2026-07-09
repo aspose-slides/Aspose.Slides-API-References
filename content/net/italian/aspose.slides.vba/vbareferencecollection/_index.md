@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di riferimenti di un progetto VBA.
+description: Rappresenta una collezione di riferimenti a un progetto VBA.
 type: docs
-weight: 11650
+weight: 11670
 url: /it/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection classe
@@ -16,19 +16,19 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
 | [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla collezione è sincronizzato (thread-safe). Solo lettura Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Ottiene l'elemento all'indice specificato. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Aggiunge il nuovo riferimento alla collezione di riferimenti |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione all'array specificato. |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Copia tutti gli elementi dalla collezione nell'array specificato. |
 | [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 
 ### Vedi anche

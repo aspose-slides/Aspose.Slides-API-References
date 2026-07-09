@@ -1,9 +1,9 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta una collezione di sostituzione dei caratteri.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Rappresenta una collezione di sostituzioni di caratteri.
 type: docs
-weight: 5870
+weight: 5890
 url: /it/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection interfaccia
@@ -18,7 +18,7 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Ottiene l'elemento all'indice specificato. |
+| [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | Restituisce l'elemento all'indice specificato. |
 
 ## Metodi
 

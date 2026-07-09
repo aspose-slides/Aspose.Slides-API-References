@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مجموعة من إيقافات التدرج.
+second_title: دليل مرجع Aspose.Sildes لـ .NET
+description: يمثل مجموعة من نقاط التدرج.
 type: docs
 weight: 5030
 url: /ar/aspose.slides/gradientstopcollection/
 ---
-## فئة GradientStopCollection
+## GradientStopCollection فئة
 
-يمثل مجموعة من إيقافيات التدرج.
+يمثل مجموعة من نقاط التدرج.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,34 +18,34 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | يعيد عدد إيقافيات التدرج في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | يعيد قيمة تشير ما إذا كان الوصول إلى المجموعة متزامناً (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | يعيد إيقافية التدرج حسب الفهرس. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. للقراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | يعيد عدد نقاط التدرج في المجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن عبر الخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | يعيد نقطة التدرج حسب الفهرس. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | يعيد جذر التزامن. للقراءة فقط Object. |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | ينشئ إيقافية التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | ينشئ إيقافية التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | ينشئ إيقافية التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | يزيل جميع إيقافيات التدرج من مجموعة. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | ينشئ نقطة التدرج الجديدة ويضيفها إلى نهاية المجموعة. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | يزيل جميع نقاط التدرج من مجموعة. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | يعيد كائن تعداد يتنقل عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | يعيد عدادًا يتجول عبر المجموعة. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يعيد قيمة التجزئة. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | ينشئ إيقافية التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | ينشئ إيقافية التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | ينشئ إيقافية التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | يزيل إيقافية التدرج في الفهرس المحدد. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | ينشئ نقطة التدرج الجديدة ويُدرجها في الفهرس المحدد داخل المجموعة. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | يزيل نقطة التدرج في الفهرس المحدد. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * فئة [PVIObject](../pviobject)
 * واجهة [IGradientStopCollection](../igradientstopcollection)
-* نطاق [Aspose.Slides](../../aspose.slides)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

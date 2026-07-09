@@ -1,14 +1,14 @@
 ---
 title: IColorOperation
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thao tác màu sắc khác nhau được sử dụng cho việc chuyển đổi màu.
+description: Biểu thị các thao tác màu khác nhau được sử dụng cho các chuyển đổi màu.
 type: docs
 weight: 5500
 url: /vi/aspose.slides/icoloroperation/
 ---
 ## IColorOperation giao diện
 
-Represents different color operations used for color transformations.
+Biểu thị các thao tác màu khác nhau được sử dụng cho các chuyển đổi màu.
 
 ```csharp
 public interface IColorOperation
@@ -18,7 +18,7 @@ public interface IColorOperation
 
 | Tên | Mô tả |
 | --- | --- |
-| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Trả về hoặc đặt loại của một thao tác. Chỉ đọc [`ColorTransformOperation`](../colortransformoperation). |
+| [OperationType](../../aspose.slides/icoloroperation/operationtype) { get; } | Trả về hoặc thiết lập loại của một thao tác. Chỉ đọc [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/icoloroperation/parameter) { get; } | Trả về một tham số của một thao tác. Chỉ đọc Single. |
 
 ### Xem thêm

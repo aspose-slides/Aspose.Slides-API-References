@@ -1,14 +1,14 @@
 ---
 title: PictureFillMode
-second_title: Aspose.Sildes لمرجع API .NET
-description: يحدد كيف ستمتلئ الصورة المنطقة.
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يحدد كيفية ملء الصورة للمساحة.
 type: docs
 weight: 9400
 url: /ar/aspose.slides/picturefillmode/
 ---
-## PictureFillMode تعداد
+## PictureFillMode التعداد
 
-يحدد كيف ستملأ الصورة المنطقة.
+يحدد كيف ستملأ الصورة المساحة.
 
 ```csharp
 public enum PictureFillMode

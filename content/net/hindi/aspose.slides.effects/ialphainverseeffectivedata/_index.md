@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Inverse प्रभाव का प्रतिनिधित्व करता है। Alpha अपारदर्शिता मानों को 100 से घटाकर उलटा जाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो Alpha Inverse प्रभाव का प्रतिनिधित्व करती है। Alpha अपारदर्शिता मानों को 100% से घटाकर उलटा जाता है।
 type: docs
 weight: 3090
 url: /hi/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय ऑब्जेक्ट जो Alpha Inverse प्रभाव का प्रतिनिधित्व करता है। Alpha (अस्पष्टता) मानों को 100 % से घटाकर उलटा जाता है।
+एक अपरिवर्तनीय वस्तु जो Alpha Inverse प्रभाव का प्रतिनिधित्व करती है। Alpha (अस्पष्टता) मानों को 100% से घटाकर उलटा जाता है।
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### संबंधित
+### देखें भी
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नेमस्पेस [Aspose.Slides.Effects](../../aspose.slides.effects)

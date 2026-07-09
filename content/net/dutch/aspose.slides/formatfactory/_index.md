@@ -1,20 +1,20 @@
 ---
 title: FormatFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om indelingen via de COM-interface te maken.
+description: Staat toe om formaten te maken via de COM-interface.
 type: docs
 weight: 4950
 url: /nl/aspose.slides/formatfactory/
 ---
 ## FormatFactory klasse
 
-Staat toe om indelingen via de COM-interface te maken.
+Staat toe om formaten te maken via de COM-interface.
 
 ```csharp
 public class FormatFactory : IFormatFactory
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,7 +24,7 @@ public class FormatFactory : IFormatFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Statische instantie van de formatenfabriek. Alleen-lezen [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format factory static instance. Alleen-lezen [`FormatFactory`](../formatfactory). |
 
 ## Methoden
 

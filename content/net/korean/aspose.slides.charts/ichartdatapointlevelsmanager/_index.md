@@ -21,7 +21,7 @@ public interface IChartDataPointLevelsManager
 | [Count](../../aspose.slides.charts/ichartdatapointlevelsmanager/count) { get; } | 데이터 포인트 레벨 수를 반환합니다. |
 | [Item](../../aspose.slides.charts/ichartdatapointlevelsmanager/item) { get; } | 정의된 레벨에 대한 IChartDataPointLevel 객체를 반환합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

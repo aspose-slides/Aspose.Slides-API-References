@@ -1,6 +1,6 @@
 ---
 title: Conformance
-second_title: Aspose.Sildes .NET용 API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: PresentationML 문서가 준수하는 호환성 클래스를 지정합니다.
 type: docs
 weight: 3750
@@ -22,7 +22,7 @@ public enum Conformance
 | Iso29500_2008_Transitional | `1` | 문서가 ISO/IEC 29500:2008 Transitional 호환성 클래스를 준수함을 지정합니다. |
 | Iso29500_2008_Strict | `2` | 문서가 ISO/IEC 29500:2008 Strict 호환성 클래스를 준수함을 지정합니다. |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

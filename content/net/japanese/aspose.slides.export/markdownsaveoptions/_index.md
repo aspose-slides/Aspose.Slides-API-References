@@ -1,49 +1,49 @@
 ---
 title: MarkdownSaveOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを markdown に保存する方法を制御するオプションを表します。
+description: プレゼンテーションを Markdown に保存する方法を制御するオプションを表します。
 type: docs
-weight: 4230
+weight: 4250
 url: /ja/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions クラス
 
-プレゼンテーションを markdown に保存する方法を制御するオプションを表します。
+プレゼンテーションを Markdown に保存する方法を制御するオプションを表します。
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | コンストラクタ。 |
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | リソースを含むドキュメントが保存されるベースパスを指定します。デフォルトはアプリケーションの現在のディレクトリです。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | プレゼンテーションを変換するための markdown 仕様を指定します。デフォルトは `TextOnly` です。 |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | プレゼンテーションを変換するための markdown 仕様を指定します。デフォルトは `Multi-markdown` です。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアルスタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | リソースを含むドキュメントが保存される基底パスを指定します。既定値はアプリケーションの現在のディレクトリです。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 元のフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | プレゼンテーションを変換するための Markdown 仕様を指定します。既定値は `TextOnly` です。 |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | プレゼンテーションを変換するための Markdown 仕様を指定します。既定値は `Multi-markdown` です。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 画像を保存するフォルダー名を指定します。デフォルトは `Images` です。 |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 生成されたドキュメントが改行コード \\r（Macintosh）か \\n（Unix）または \\r\\n（Windows）を使用するかを指定します。デフォルトは `Unix` です。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 保存進捗をパーセンテージで更新するコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | `true` に設定すると、最終的な Markdown 出力から空行または空白のみの行を削除します。デフォルトは `false` です。 |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | 生成されたドキュメントでコメントを表示するかどうかを指定します。デフォルトは `false` です。 |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | 生成されたドキュメントで各スライドの番号を表示するかどうかを指定します。デフォルトは `false` です。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Markdown 出力でスライド番号ヘッダーに使用される書式文字列を取得または設定します。書式には "{0}" プレースホルダーを含める必要があり、エクスポート時にスライドインデックスに置き換えられます。例: "# Slide {0}" は "# Slide 1", "# Slide 2" などを生成します。 |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 画像を保存するフォルダー名を指定します。既定値は `Images` です。 |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 生成されたドキュメントが新しい行として \\r（Macintosh）や \\n（Unix）または \\r\\n（Windows）を使用するかどうかを指定します。既定値は `Unix` です。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進捗のパーセンテージ更新を保存するためのコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback)を参照してください。 |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | `true` に設定すると、最終的な Markdown 出力から空行または空白のみの行を削除します。既定値は `false` です。 |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | 生成されたドキュメントがコメントを表示するかどうかを指定します。既定値は `false` です。 |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。既定値は `false` です。 |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | 生成されたドキュメントが各スライドの番号を表示するかどうかを指定します。既定値は `false` です。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。既定値は **false** です。 |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Markdown 出力のスライド番号ヘッダーに使用される書式文字列を取得または設定します。書式には "{0}" プレースホルダーを含める必要があり、エクスポート時にスライドインデックスに置き換えられます。例: "# Slide {0}" は "# Slide 1"、"# Slide 2" などを生成します。 |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 
-Example:
+例:
 
 ```csharp
 [C#]

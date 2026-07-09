@@ -1,14 +1,14 @@
 ---
 title: ISlideComponent
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir slayt bileşenini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir slaytın bileşenini temsil eder.
 type: docs
-weight: 7040
+weight: 7060
 url: /tr/aspose.slides/islidecomponent/
 ---
-## ISlideComponent arayüzü
+## ISlideComponent arayüz
 
-Bir slayt bileşenini temsil eder.
+Bir slaytın bileşenini temsil eder.
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -18,8 +18,8 @@ public interface ISlideComponent : IPresentationComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Temel slaytı döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Yalnızca okuma [`IPresentationComponent`](../ipresentationcomponent). |
+| [Slide](../../aspose.slides/islidecomponent/slide) { get; } | Temel slaytı döndürür. Yalnızca okuma [`IBaseSlide`](../ibaseslide). |
 
 ### Ayrıca Bakınız
 

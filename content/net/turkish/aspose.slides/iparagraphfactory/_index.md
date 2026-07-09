@@ -1,14 +1,14 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes .NET için API Referansı
-description: Paragrafları oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: Paragraflar oluşturulmasını sağlar
 type: docs
-weight: 6560
+weight: 6580
 url: /tr/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory arayüzü
 
-Paragrafları oluşturmayı sağlar
+Paragraflar oluşturulmasını sağlar
 
 ```csharp
 public interface IParagraphFactory
@@ -16,12 +16,12 @@ public interface IParagraphFactory
 
 ## Yöntemler
 
-| Name | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph)() | Yeni boş bir paragraf oluşturur. |
-| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Belirtilen paragraf verisiyle yeni bir paragraf oluşturur. |
+| [CreateParagraph](../../aspose.slides/iparagraphfactory/createparagraph#createparagraph_1)(IParagraph) | Belirtilen paragraf verileri kullanılarak yeni bir paragraf oluşturur. |
 
-### Notlar
+### Açıklamalar
 
 COM uyumluluğu için.
 

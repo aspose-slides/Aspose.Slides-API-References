@@ -1,14 +1,14 @@
 ---
 title: ISoftEdgeEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een soft edge-effect voorstelt. De randen van de vorm zijn vervaagd, terwijl de vulling niet wordt beïnvloed.
+description: Onveranderbaar object dat een zacht rand-effect vertegenwoordigt. De randen van de vorm zijn vervaagd terwijl de vulling niet wordt beïnvloed.
 type: docs
 weight: 3530
 url: /nl/aspose.slides.effects/isoftedgeeffectivedata/
 ---
 ## ISoftEdgeEffectiveData interface
 
-Onveranderlijk object dat een soft-edge-effect voorstelt. De randen van de vorm zijn vervaagd, terwijl de vulling niet wordt beïnvloed.
+Onveranderbaar object dat een zacht rand-effect vertegenwoordigt. De randen van de vorm zijn vervaagd, terwijl de vulling niet wordt beïnvloed.
 
 ```csharp
 public interface ISoftEdgeEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ISoftEdgeEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basistoegang IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Bepaalt de straal van de vervaging die op de randen wordt toegepast. Alleen-lezen Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/isoftedgeeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Radius](../../aspose.slides.effects/isoftedgeeffectivedata/radius) { get; } | Specificeert de straal van de vaging die op de randen wordt toegepast. Alleen-lezen Double. |
 
 ### Zie ook
 

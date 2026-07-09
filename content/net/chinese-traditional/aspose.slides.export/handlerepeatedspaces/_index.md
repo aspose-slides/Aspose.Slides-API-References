@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
 second_title: Aspose.Sildes for .NET API 參考
-description: 指定在 Markdown 匯出過程中如何處理重複的普通空格字元。
+description: 指定在 Markdown 匯出期間，如何處理重複的普通空格字元。
 type: docs
 weight: 3830
 url: /zh-hant/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces 列舉
 
-指定在 Markdown 匯出過程中如何處理重複的普通空格字元。
+指定在 Markdown 匯出期間，如何處理重複的普通空格字元。
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -18,11 +18,11 @@ public enum HandleRepeatedSpaces
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| None | `0` | 所有空格均以一般空格字元保留，未做任何變更。未套用任何轉換，且多個連續空格將原樣匯出。 |
+| None | `0` | 所有空格均保留為普通空格字元，未做任何變更。未套用轉換，且連續的多個空格會如原樣匯出。 |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

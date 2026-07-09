@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti skema font yang efektif.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Objek tak dapat diubah yang berisi properti skema font efektif.
 type: docs
-weight: 11240
+weight: 11260
 url: /id/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti skema font yang efektif.
+Objek tak dapat diubah yang berisi properti skema font efektif.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,8 +18,8 @@ public interface IFontSchemeEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Mengembalikan koleksi font untuk bagian "judul" slide. Hanya-baca [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Mengembalikan koleksi font untuk bagian "isi" slide. Hanya-baca [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Mengembalikan koleksi font untuk bagian "heading" dari slide. Hanya-baca [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Mengembalikan koleksi font untuk bagian "body" dari slide. Hanya-baca [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
 | [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Mengembalikan nama skema font. Hanya-baca String. |
 
 ### Catatan

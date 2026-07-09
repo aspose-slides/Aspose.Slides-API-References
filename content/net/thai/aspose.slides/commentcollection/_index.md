@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของความคิดเห็นของผู้เขียนหนึ่งคน.
+description: เป็นคอลเลกชันของความคิดเห็นจากผู้เขียนหนึ่งคน
 type: docs
 weight: 2650
 url: /th/aspose.slides/commentcollection/
 ---
 ## CommentCollection คลาส
 
-แสดงคอลเลกชันของความคิดเห็นของผู้เขียนหนึ่งคน.
+เป็นคอลเลกชันของความคิดเห็นจากผู้เขียนหนึ่งคน
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,10 +18,10 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ อยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | คืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | ดึงจำนวนขององค์ประกอบที่บรรจุอยู่ในคอลเลกชันจริง ๆ อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันมีการประสานกัน (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | คืนค่ารากการประสานกัน อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
@@ -31,14 +31,14 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | เพิ่มความคิดเห็นสมัยใหม่ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | ลบความคิดเห็นทั้งหมดออกจากคอลเลกชัน. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | ค้นหาความคิดเห็นในคอลเลกชันด้วยตำแหน่ง. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | คืน enumerator ที่วนผ่านคอลเลกชัน. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | แทรกความคิดเห็นใหม่ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | แทรกความคิดเห็นสมัยใหม่ใหม่ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | ลบการพบครั้งแรกของความคิดเห็นที่ระบุในคอลเลกชัน. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | ค้นหาความคิดเห็นในคอลเลกชันตามดัชนี. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนผ่านคอลเลกชัน. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | แทรกความคิดเห็นใหม่เข้าสู่คอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | แทรกความคิดเห็นสมัยใหม่ใหม่เข้าสู่คอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | ลบการปรากฏตัวครั้งแรกของความคิดเห็นที่ระบุในคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | สร้างและคืนอาร์เรย์ที่มีความคิดเห็นทั้งหมด. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | สร้างและคืนอาร์เรย์ที่มีความคิดเห็นทั้งหมดจากช่วงที่ระบุ. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | สร้างและคืนค่าอาร์เรย์ที่มีความคิดเห็นทั้งหมด. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | สร้างและคืนค่าอาร์เรย์ที่มีความคิดเห็นทั้งหมดจากช่วงที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

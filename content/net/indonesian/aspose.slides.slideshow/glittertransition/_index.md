@@ -3,10 +3,10 @@ title: GlitterTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide berkilau.
 type: docs
-weight: 10030
+weight: 10050
 url: /id/aspose.slides.slideshow/glittertransition/
 ---
-## GlitterTransition kelas
+## Kelas GlitterTransition
 
 Efek transisi slide berkilau.
 
@@ -16,14 +16,14 @@ public class GlitterTransition : TransitionValueBase, IGlitterTransition
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/glittertransition/direction) { get; set; } | Arah transisi. Baca/tulis [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 | [Pattern](../../aspose.slides.slideshow/glittertransition/pattern) { get; set; } | Menentukan bentuk visual yang digunakan selama transisi. Baca/tulis [`TransitionPattern`](../transitionpattern). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Menentukan apakah dua instance TransitionValueBase sama. |
 | override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu, cocok untuk digunakan dalam algoritma hashing dan struktur data seperti tabel hash. |

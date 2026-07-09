@@ -1,9 +1,9 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes para a referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um formato de gradiente.
 type: docs
-weight: 4980
+weight: 5000
 url: /pt/aspose.slides/gradientformat/
 ---
 ## GradientFormat classe
@@ -18,12 +18,12 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface IPresentationComponent base. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | Retorna ou define o estilo de um gradiente. Leitura/gravação [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | Retorna ou define a forma de um gradiente. Leitura/gravação [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Retorna a coleção de pontos de parada do gradiente. Somente leitura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | Retorna a coleção de pontos de gradiente. Somente leitura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | Retorna ou define o ângulo de um gradiente. Leitura/gravação Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Determina se um gradiente está dimensionado. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | Determina se um gradiente é dimensionado. Leitura/gravação [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | Retorna ou define o modo de inversão para um gradiente. Leitura/gravação [`TileFlip`](../tileflip). |
 
 ## Métodos

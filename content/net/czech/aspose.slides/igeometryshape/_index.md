@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje nadřazenou třídu pro všechny geometrické tvary.
+description: Reprezentuje nadtřídu pro všechny geometrické tvary.
 type: docs
-weight: 5960
+weight: 5980
 url: /cs/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape rozhraní
 
-Represents the parent class for all geometric shapes.
+Reprezentuje nadtřídu pro všechny geometrické tvary.
 
 ```csharp
 public interface IGeometryShape : IShape

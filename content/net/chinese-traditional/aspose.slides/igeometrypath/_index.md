@@ -16,35 +16,35 @@ public interface IGeometryPath
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | 設定填充模式 |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | 傳回 GeometryShape 的幾何路徑，作為路徑段的陣列。 |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | 傳回 GeometryShape 的幾何路徑，作為路徑片段的陣列。 |
 | [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | 設定筆畫外觀 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | 將指定的弧形附加到路徑。 |
 | [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | 關閉此路徑的當前圖形 |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路徑末端新增三次貝茲曲線 |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 在路徑的指定位置新增三次貝茲曲線 |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路徑末端新增三次貝茲曲線 |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 在路徑的指定位置新增三次貝茲曲線 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 在路徑末端新增直線 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 在路徑末端新增直線 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 在路徑的指定位置新增直線 |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 在路徑的指定位置新增直線 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 在路徑的末端加入立方貝塞爾曲線。 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 在路徑的指定位置加入立方貝塞爾曲線。 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 在路徑的末端加入立方貝塞爾曲線。 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 在路徑的指定位置加入立方貝塞爾曲線。 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 在路徑的末端加入直線。 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 在路徑的末端加入直線。 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 在路徑的指定位置加入直線。 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 在路徑的指定位置加入直線。 |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | 設定下一個點的位置。 |
 | [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | 設定下一個點的位置。 |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路徑末端新增二次貝茲曲線 |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路徑的指定位置新增二次貝茲曲線 |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路徑末端新增二次貝茲曲線 |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路徑的指定位置新增二次貝茲曲線 |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 移除幾何路徑中指定索引的段。 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 在路徑的末端加入二次貝塞爾曲線。 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 在路徑的指定位置加入二次貝塞爾曲線。 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 在路徑的末端加入二次貝塞爾曲線。 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 在路徑的指定位置加入二次貝塞爾曲線。 |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 移除幾何路徑中指定索引的片段。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

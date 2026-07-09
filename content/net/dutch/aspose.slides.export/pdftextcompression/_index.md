@@ -19,7 +19,7 @@ public enum PdfTextCompression
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | None | `0` | Geen compressie. |
-| Flate | `1` | Flate (ZIP) compressie. |
+| Flate | `1` | Flate (ZIP)-compressie. |
 
 ### Zie ook
 

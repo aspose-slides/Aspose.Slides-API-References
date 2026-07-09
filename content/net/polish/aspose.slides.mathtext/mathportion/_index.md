@@ -1,14 +1,14 @@
 ---
 title: MathPortion
-second_title: Aspose.Sildes dla .NET - referencja API
-description: Reprezentuje fragment z kontekstem matematycznym wewnątrz.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje fragment z kontekstem matematycznym.
 type: docs
-weight: 8910
+weight: 8930
 url: /pl/aspose.slides.mathtext/mathportion/
 ---
-## Klasa MathPortion
+## MathPortion klasa
 
-Reprezentuje fragment z kontekstem matematycznym wewnątrz.
+Reprezentuje fragment z kontekstem matematycznym.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -26,7 +26,7 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [Field](../../aspose.slides/portion/field) { get; } | Zwraca pole tego fragmentu. Tylko do odczytu [`IField`](../../aspose.slides/ifield). |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Akapit matematyczny |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Zwraca obiekt formatowania, który zawiera explicite ustawione właściwości formatowania fragmentu tekstu bez dziedziczenia. Tylko do odczytu [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Zwraca obiekt formatowania, który zawiera explicite ustawione właściwości formatowania fragmentu tekstu bez zastosowania dziedziczenia. Tylko do odczytu [`IPortionFormat`](../../aspose.slides/iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | Pobiera lub ustawia zwykły tekst fragmentu. Odczyt/zapis String. |
 
 ## Metody
@@ -35,8 +35,8 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Konwertuje ten fragment na automatycznie aktualizowane pole. |
 | [AddField](../../aspose.slides/portion/addfield)(string) | Konwertuje ten fragment na automatycznie aktualizowane pole. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Pobiera współrzędne początku fragmentu. Współrzędna X punktu reprezentuje początek fragmentu od pierwszego znaku, uwzględniając lewy odsadek. Współrzędna Y obejmuje górny odsadek. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Pobiera współrzędne prostokąta obejmującego fragment. Prostokąt zawiera wszystkie wiersze tekstu w fragmencie, w tym puste. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Pobiera współrzędne początku fragmentu. Współrzędna X punktu reprezentuje początek fragmentu od pierwszego znaku, łącznie z lewym odstępem. Współrzędna Y obejmuje górny odstęp. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Pobiera współrzędne prostokąta obejmującego fragment. Prostokąt zawiera wszystkie linie tekstu w fragmencie, w tym puste. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Konwertuje ten fragment pola na prosty fragment. |
 
 ### Przykłady

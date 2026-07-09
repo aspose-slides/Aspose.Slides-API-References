@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ 2 เป็นค่าตัวอักษรโดยตรง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงค่าชนิด string หรือ double ที่สามารถเก็บไว้ในเอกสารการนำเสนอ pptx ได้สองวิธี คือ 1) ในเซลล์/หลายเซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ 2) เป็นค่าลิเทรัล.
 type: docs
 weight: 2420
 url: /th/aspose.slides.charts/stringordoublechartvalue/
 ---
-## คลาส StringOrDoubleChartValue
+## StringOrDoubleChartValue คลาส
 
-แสดงค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารพรีเซนเทชัน pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าตัวอักษรโดยตรง.
+แสดงค่า string หรือ double ที่สามารถเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/หลายเซลล์ของสมุดงานที่เกี่ยวข้องกับแผนภูมิ; 2) เป็นค่าลิเทรัล.
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -18,13 +18,13 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | Name | Description |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | คืนค่า หรือ ตั้งค่าเซลล์ข้อมูลแผนภูมิ อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือ ตั้งค่าค่าเป็น double โดยตรง อ่าน/เขียน Double. |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | คืนค่า หรือ ตั้งค่าค่าเป็น string โดยตรง อ่าน/เขียน String. |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | คืนค่า หรือ ตั้งค่าอ็อบเจกต์ Data อ่าน/เขียน Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า property AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble เป็นจริงในคลาสลูกหรือไม่  ในความหมายอื่น ๆ มันระบุประเภทของค่าของ property Data อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | คืนหรือกำหนดเซลล์ข้อมูลของแผนภูมิ. อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | คืนหรือกำหนดค่าเป็น double ลิเทรัล. อ่าน/เขียน Double. |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | คืนหรือกำหนดค่าเป็นสตริงลิเทรัล. อ่าน/เขียน String. |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | คืนหรือกำหนดอ็อบเจ็กต์ Data. อ่าน/เขียน Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | ระบุว่า คุณสมบัติ AsCell, AsCells, AsLiteralString หรือ AsLiteralDouble เป็นจริงในคลาสลูกหรือไม่. อีกนัยหนึ่ง มันระบุประเภทของค่าของ คุณสมบัติ Data. อ่าน/เขียน [`DataSourceType`](../datasourcetype). |
 
-## วิธีการ
+## เมธอด
 
 | Name | Description |
 | --- | --- |

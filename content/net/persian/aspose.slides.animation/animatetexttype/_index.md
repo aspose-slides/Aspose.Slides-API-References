@@ -1,14 +1,14 @@
 ---
 title: AnimateTextType
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نوع متن انیمیشن یک اثر انیمیشن را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر نوع متن متحرک یک اثر انیمیشن است.
 type: docs
 weight: 120
 url: /fa/aspose.slides.animation/animatetexttype/
 ---
-## AnimateTextType شمارش
+## شمارش AnimateTextType
 
-نوع متن انیمیشن یک اثر انیمیشن را نشان می‌دهد.
+نمایانگر نوع متن متحرک یک اثر انیمیشن است.
 
 ```csharp
 public enum AnimateTextType
@@ -16,13 +16,13 @@ public enum AnimateTextType
 
 ### مقادیر
 
-| نام | مقدار | توضیحات |
+| نام | مقدار | توضیح |
 | --- | --- | --- |
-| AllAtOnce | `0` | متن را به‌صورت یکبار انیمیشن کنید. |
-| ByWord | `1` | متن را به‌صورت کلمه به کلمه انیمیشن کنید. |
-| ByLetter | `2` | متن را به‌صورت حرف به حرف انیمیشن کنید. |
+| AllAtOnce | `0` | تمام متن را به‌صورت یکجا متحرک می‌کند. |
+| ByWord | `1` | متن را به‌صورت کلمه به کلمه متحرک می‌کند. |
+| ByLetter | `2` | متن را به‌صورت حرف به حرف متحرک می‌کند. |
 
-### همچنین ببینید
+### مراجع
 
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

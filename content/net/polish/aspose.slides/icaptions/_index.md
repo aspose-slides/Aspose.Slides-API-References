@@ -1,14 +1,14 @@
 ---
 title: ICaptions
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje zamknięte napisy WebVTT.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Reprezentuje napisy zamknięte w formacie WebVTT.
 type: docs
-weight: 5410
+weight: 5430
 url: /pl/aspose.slides/icaptions/
 ---
 ## ICaptions interfejs
 
-Reprezentuje napisy zamknięte WebVTT.
+Reprezentuje napisy zamknięte w formacie WebVTT.
 
 ```csharp
 public interface ICaptions
@@ -20,7 +20,7 @@ public interface ICaptions
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | Zwraca dane binarne napisów zamkniętych. Tylko do odczytu Byte[]. |
 | [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | Zwraca globalnie unikalny identyfikator (GUID) napisów zamkniętych. Tylko do odczytu Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Zwraca dane napisów zamkniętych jako ciąg znaków zakodowany w UTF-8. Tylko do odczytu String. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | Zwraca dane napisów zamkniętych jako tekst zakodowany w UTF-8. Tylko do odczytu String. |
 | [Label](../../aspose.slides/icaptions/label) { get; set; } | Zwraca lub ustawia etykietę napisów zamkniętych. Odczyt/zapis String. |
 
 ### Zobacz także

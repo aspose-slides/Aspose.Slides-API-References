@@ -1,14 +1,14 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Sildes for .NET API 參考
-description: 建立 OpenAI 相容的 Web 客戶端實例。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 建立 OpenAI 相容的網路用戶端實例。
 type: docs
 weight: 10
 url: /zh-hant/aspose.slides.ai/openaicompatiblewebclient/openaicompatiblewebclient/
 ---
 ## OpenAICompatibleWebClient(string, string, string) {#constructor}
 
-建立 OpenAI 相容的 Web 客戶端實例。
+建立 OpenAI 相容的網路用戶端實例。
 
 ```csharp
 public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
@@ -16,17 +16,17 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| model | String | LLM 提供者支援的模型名稱。 |
+| model | String | 由 LLM 供應商支援的模型名稱。 |
 | apiKey | String | API 金鑰（令牌）。 |
 | baseUrl | String | OpenAI 相容 LLM 的基礎 URL。 |
 
-### 例外
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentException | API 金鑰的值不能為 null 或空值。 |
-| ArgumentException | 文字模型的值不能為 null 或空值。 |
-| ArgumentException | 基礎 URL 的值不能為 null 或空值。 |
+| ArgumentException | API 金鑰值不能為 null 或空。 |
+| ArgumentException | 文字模型值不能為 null 或空。 |
+| ArgumentException | Base URL 值不能為 null 或空。 |
 
 ### 另請參閱
 
@@ -38,7 +38,7 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 
 ## OpenAICompatibleWebClient(string, string, string, HttpClient) {#constructor_1}
 
-建立使用外部管理的 HttpClient 的 OpenAI 相容 Web 客戶端實例。此實例不會釋放所提供的 HttpClient，且其所有權仍屬於呼叫端。
+建立使用外部管理 HttpClient 的 OpenAI 相容網路用戶端實例。提供的 HttpClient 不會在此實例中被釋放，仍由呼叫端擁有。
 
 ```csharp
 public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl, HttpClient httpClient)
@@ -46,18 +46,18 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl, Ht
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| model | String | LLM 提供者支援的模型名稱。 |
+| model | String | 由 LLM 供應商支援的模型名稱。 |
 | apiKey | String | API 金鑰（令牌）。 |
 | baseUrl | String | OpenAI 相容 LLM 的基礎 URL。 |
 | httpClient | HttpClient | 外部管理的 HttpClient 實例。 |
 
-### 例外
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentException | API 金鑰的值不能為 null 或空值。 |
-| ArgumentException | 文字模型的值不能為 null 或空值。 |
-| ArgumentException | 基礎 URL 的值不能為 null 或空值。 |
+| ArgumentException | API 金鑰值不能為 null 或空。 |
+| ArgumentException | 文字模型值不能為 null 或空。 |
+| ArgumentException | Base URL 值不能為 null 或空。 |
 | ArgumentNullException | HttpClient 不能為 null。 |
 
 ### 另請參閱

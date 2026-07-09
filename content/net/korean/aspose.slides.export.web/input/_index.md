@@ -6,7 +6,7 @@ type: docs
 weight: 4630
 url: /ko/aspose.slides.export.web/input/
 ---
-## 입력 클래스
+## Input 클래스
 
 입력 요소(템플릿) 컬렉션을 나타냅니다.
 
@@ -20,7 +20,7 @@ public sealed class Input
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | 컬렉션에 템플릿을 추가합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,27 +1,27 @@
 ---
 title: IAlphaModulateFixedEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो Alpha Modulate Fixed प्रभाव का प्रतिनिधित्व करती है। प्रभाव का अल्फा अपारदर्शिता मान एक निश्चित प्रतिशत से गुणा किया जाता है।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Modulate Fixed प्रभाव का प्रतिनिधित्व करता है। प्रभाव के अल्फा अपारदर्शिता मान को एक निश्चित प्रतिशत से गुणा किया जाता है।
 type: docs
 weight: 3130
 url: /hi/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो Alpha Modulate Fixed प्रभाव का प्रतिनिधित्व करती है। प्रभाव अल्फा (अपारदर्शिता) मानों को एक निश्चित प्रतिशत से गुणा किया जाता है।
+Immutable object which represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | प्रभाव की मात्रा प्रतिशत में लौटाता है। केवल पढ़ने योग्य Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | प्रभाव के प्रतिशत में मात्रा लौटाता है। केवल-पढ़ने योग्य Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

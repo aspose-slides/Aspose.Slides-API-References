@@ -1,6 +1,6 @@
 ---
 title: MathLimitFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo IMathLimit
 type: docs
 weight: 8830
@@ -14,22 +14,22 @@ Cho phép tạo IMathLimit
 public class MathLimitFactory : IMathLimitFactory
 ```
 
-## Các hàm tạo
+## Hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [MathLimitFactory](mathlimitfactory)() | Hàm tạo mặc định. |
+| [MathLimitFactory](mathlimitfactory)() | Hàm khởi tạo mặc định. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Tạo IMathLimit với giới hạn ở phía dưới |
 | [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | Tạo IMathLimit |
 
 ### Ghi chú
 
-Đối với khả năng tương thích COM
+Để tương thích COM
 
 ### Xem thêm
 

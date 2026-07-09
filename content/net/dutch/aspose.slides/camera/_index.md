@@ -18,19 +18,19 @@ public sealed class Camera : PVIObject, ICamera
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen lezen [`IPresentationComponent`](../ipresentationcomponent). |
-| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Cameratype. Lezen/Schrijven [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera-FOV (0-180 graden, gezichtsveld). Lezen/Schrijven Single. |
-| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera-zoom (positieve waarde in procenten). Lezen/Schrijven Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Cameratype. Lezen/schrijven [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera FOV (0-180 deg, gezichtsveld). Lezen/schrijven Single. |
+| [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera-zoom (positieve waarde in procent). Lezen/schrijven Single. |
 
-## Methodes
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met gespecificeerd object. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met opgegeven object. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert hashcode. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedte- en lengtegraadcoördinaten. Het eerste element in teruggeefarray - breedtegraad, het tweede - lengtegraad, het derde - omwenteling. Retourneert null als er geen rotatie is gedefinieerd. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedte- en lengtegraadcoördinaten. Als een van de coördinaatwaarden float.NaN is, is alle rotatie onbepaald. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | Een rotatie wordt gedefinieerd door gebruik te maken van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedtegraad- en lengtegraadcoördinaten. eerste element in het geretourneerde array - breedtegraad, tweede - lengtegraad, derde - omwenteling. Retourneert null als geen rotatie gedefinieerd is. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door gebruik te maken van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedtegraad- en lengtegraadcoördinaten. Als een van de coördinaatwaarden float.NaN is, is de gehele rotatie onbepaald. |
 
 ### Zie ook
 

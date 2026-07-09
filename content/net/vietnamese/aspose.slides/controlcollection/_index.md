@@ -1,6 +1,6 @@
 ---
 title: ControlCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes for .NET Tham chiếu API
 description: Một bộ sưu tập các điều khiển ActiveX.
 type: docs
 weight: 2700
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/controlcollection/
 ---
 ## ControlCollection lớp
 
-Một bộ sưu tập các điều khiển ActiveX.
+A collection of ActiveX controls.
 
 ```csharp
 public class ControlCollection : IControlCollection
@@ -18,10 +18,10 @@ public class ControlCollection : IControlCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | Trả về số lượng đối tượng trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào bộ sưu tập có được đồng bộ hoá (an toàn với luồng) không. Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | Trả về số lượng đối tượng trong bộ sưu tập. Chỉ-đọc Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ-đọc Boolean. |
 | [Item](../../aspose.slides/controlcollection/item) { get; } | Trả về một điều khiển tại vị trí được chỉ định. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ đọc Object. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ-đọc Object. |
 
 ## Phương thức
 
@@ -30,7 +30,7 @@ public class ControlCollection : IControlCollection
 | [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | Tạo và thêm một điều khiển mới vào bộ sưu tập. |
 | [Clear](../../aspose.slides/controlcollection/clear)() | Xóa tất cả các điều khiển khỏi bộ sưu tập. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | Sao chép toàn bộ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Trả về một enumerator để duyệt qua bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | Trả về một enumerator cho phép lặp qua bộ sưu tập. |
 | [Remove](../../aspose.slides/controlcollection/remove)(IControl) | Xóa một điều khiển ActiveX khỏi bộ sưu tập. |
 | [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | Xóa một điều khiển ActiveX được lưu tại vị trí chỉ định khỏi bộ sưu tập. |
 

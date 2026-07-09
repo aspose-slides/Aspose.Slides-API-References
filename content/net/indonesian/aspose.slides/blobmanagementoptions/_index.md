@@ -3,7 +3,7 @@ title: BlobManagementOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili opsi yang dapat digunakan untuk mengelola aturan penanganan BLOB dan pengaturan BLOB lainnya.
 type: docs
-weight: 1010
+weight: 1030
 url: /id/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions kelas
@@ -24,10 +24,10 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Properti ini menentukan apakah file sementara dapat dibuat saat bekerja dengan BLOB, yang secara signifikan mengurangi konsumsi memori namun memerlukan izin untuk membuat file. Semua file akan dihapus setelah pekerjaan dengan presentasi selesai. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Menentukan ukuran total maksimum (dalam byte) yang dapat ditempati semua BLOB di memori. Secara default, semua BLOB dimuat ke memori; hanya setelah batas ini tercapai mekanisme alternatif (seperti file sementara) akan digunakan. Menyimpan BLOB di memori memaksimalkan kinerja tetapi dapat menyebabkan penggunaan memori yang tinggi. Gunakan properti ini untuk menyesuaikan perilaku dengan lingkungan atau kebutuhan Anda. |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Properti ini menentukan apakah sebuah instance dari kelas Presentation dapat menjadi pemilik sumber – file atau aliran selama masa hidup instance. Jika instance menjadi pemilik, ia mengunci sumber. Hal ini membantu meningkatkan konsumsi memori dan kinerja saat bekerja dengan BLOB, tetapi sumber (aliran atau file) tidak dapat diubah selama masa hidup instance Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Path root tempat file sementara akan dibuat. Direktori sementara sistem akan digunakan secara default. Proses hosting harus memiliki izin untuk membuat file dan folder di sana. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Properti ini menentukan apakah file sementara dapat dibuat saat bekerja dengan BLOB, yang secara signifikan mengurangi konsumsi memori tetapi memerlukan izin untuk membuat file. Semua file akan dihapus setelah pekerjaan dengan presentasi selesai. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Mendefinisikan ukuran total maksimum (dalam byte) yang dapat ditempati semua BLOB dalam memori. Secara default, semua BLOB dimuat ke memori; hanya setelah batas ini tercapai mekanisme alternatif (seperti file sementara) akan digunakan. Menyimpan BLOB dalam memori memaksimalkan kinerja tetapi dapat menyebabkan penggunaan memori yang tinggi. Gunakan properti ini untuk menyesuaikan perilaku dengan lingkungan atau kebutuhan Anda. |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Properti ini menentukan apakah sebuah instance dari kelas Presentation dapat menjadi pemilik sumber – file atau stream selama masa hidup instance tersebut. Jika instance menjadi pemilik, ia mengunci sumber. Hal ini membantu meningkatkan konsumsi memori dan kinerja saat bekerja dengan BLOB, tetapi sumber (stream atau file) tidak dapat diubah selama masa hidup instance Presentation. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Jalur root tempat file sementara akan dibuat. Direktori sementara sistem akan digunakan secara default. Proses hosting harus memiliki izin untuk membuat file dan folder di sana. |
 
 ### Lihat Juga
 

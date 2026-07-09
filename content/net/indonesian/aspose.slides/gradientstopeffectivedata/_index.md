@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tidak dapat diubah yang merepresentasikan gradient stop.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tak dapat diubah yang mewakili sebuah gradient stop.
 type: docs
-weight: 5030
+weight: 5050
 url: /id/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData kelas
 
-Objek tidak dapat diubah yang merepresentasikan sebuah gradient stop.
+Objek tak dapat diubah yang mewakili sebuah gradient stop.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -25,7 +25,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Menentukan apakah [`GradientStopEffectiveData`](../gradientstopeffectivedata) yang ditentukan sama dengan [`GradientStopEffectiveData`](../gradientstopeffectivedata) saat ini. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Menentukan apakah [`GradientStopEffectiveData`](../gradientstopeffectivedata) yang ditentukan sama dengan [`GradientStopEffectiveData`](../gradientstopeffectivedata) yang saat ini. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Lihat Juga

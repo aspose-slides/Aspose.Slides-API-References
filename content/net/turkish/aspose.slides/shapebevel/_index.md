@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Sildes için .NET API Referansı
 description: Şekillerin ana yüzey kabartısının özelliklerini içerir.
 type: docs
-weight: 9830
+weight: 9850
 url: /tr/aspose.slides/shapebevel/
 ---
 ## ShapeBevel sınıfı
@@ -24,19 +24,19 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Köşe tipi. Okunabilir/Yazılabilir [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Köşe yüksekliği. Okunabilir/Yazılabilir Double. |
-| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Köşe genişliği. Okunabilir/Yazılabilir Double. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişim sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [BevelType](../../aspose.slides/shapebevel/beveltype) { get; set; } | Bevel tipi. Okunur/Yazılabilir [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/shapebevel/height) { get; set; } | Bevel yüksekliği. Okunur/Yazılabilir Double. |
+| [Width](../../aspose.slides/shapebevel/width) { get; set; } | Bevel genişliği. Okunur/Yazılabilir Double. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IShapeBevel](../ishapebevel)

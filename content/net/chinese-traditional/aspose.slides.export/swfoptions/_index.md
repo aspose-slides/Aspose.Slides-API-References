@@ -1,6 +1,6 @@
 ---
 title: SwfOptions
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 提供控制簡報以 Swf 格式儲存方式的選項。
 type: docs
 weight: 4530
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.export/swfoptions/
 ---
 ## SwfOptions 類別
 
-提供控制簡報以 Swf 格式儲存方式的選項。
+提供控制簡報如何以 Swf 格式儲存的選項。
 
 ```csharp
 public class SwfOptions : SaveOptions, ISwfOptions
@@ -25,26 +25,26 @@ public class SwfOptions : SaveOptions, ISwfOptions
 | 名稱 | 說明 |
 | --- | --- |
 | [Compressed](../../aspose.slides.export/swfoptions/compressed) { get; set; } | 指定產生的 SWF 文件是否應壓縮。預設為 `true`。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到原始字型時使用的字型。可讀寫 String。 |
-| [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | 啟用/停用右鍵功能表。預設為 true。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定當找不到原始字型時使用的字型。可讀寫 String。 |
+| [EnableContextMenu](../../aspose.slides.export/swfoptions/enablecontextmenu) { get; set; } | 啟用或停用右鍵功能表。預設為 true。 |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | 指定 JPEG 圖片的品質。預設為 95。 |
+| [JpegQuality](../../aspose.slides.export/swfoptions/jpegquality) { get; set; } | 指定 JPEG 圖像的品質。預設為 95。 |
 | [LogoImageBytes](../../aspose.slides.export/swfoptions/logoimagebytes) { get; set; } | 在檢視器右上角顯示為標誌的影像。影像應為 32x64 像素的 PNG 圖片，否則標誌可能顯示不正確。 |
-| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 取得或設定標誌的完整超連結位址。僅在已指定 [`LogoImageBytes`](./logoimagebytes) 時才會生效。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表一個以百分比方式提供儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 顯示/隱藏底部窗格。可在 flashvars 中覆寫。預設為 true。 |
+| [LogoLink](../../aspose.slides.export/swfoptions/logolink) { get; set; } | 取得或設定標誌的完整超連結位址。僅在指定了 [`LogoImageBytes`](./logoimagebytes) 時有效。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表一個用於以百分比方式取得儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [ShowBottomPane](../../aspose.slides.export/swfoptions/showbottompane) { get; set; } | 顯示/隱藏底部面板。可在 flashvars 中覆寫。預設為 true。 |
 | [ShowFullScreen](../../aspose.slides.export/swfoptions/showfullscreen) { get; set; } | 顯示/隱藏全螢幕按鈕。可在 flashvars 中覆寫。預設為 true。 |
 | [ShowHiddenSlides](../../aspose.slides.export/swfoptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 顯示/隱藏左側窗格。可在 flashvars 中覆寫。預設為 true。 |
+| [ShowLeftPane](../../aspose.slides.export/swfoptions/showleftpane) { get; set; } | 顯示/隱藏左側面板。可在 flashvars 中覆寫。預設為 true。 |
 | [ShowPageBorder](../../aspose.slides.export/swfoptions/showpageborder) { get; set; } | 指定是否顯示頁面周圍的邊框。預設為 true。 |
 | [ShowPageStepper](../../aspose.slides.export/swfoptions/showpagestepper) { get; set; } | 顯示/隱藏頁面步進器。可在 flashvars 中覆寫。預設為 true。 |
 | [ShowSearch](../../aspose.slides.export/swfoptions/showsearch) { get; set; } | 顯示/隱藏搜尋區段。可在 flashvars 中覆寫。預設為 true。 |
-| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 顯示/隱藏整個頂部窗格。可在 flashvars 中覆寫。預設為 true。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過帶有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報 [`ISlidesLayoutOptions`](../islideslayoutoptions) 時投影片在頁面上的排列模式。此屬性不支援指派類型為 [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 的物件。 |
-| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 開啟時左側窗格為展開狀態。可在 flashvars 中覆寫。預設為 false。 |
+| [ShowTopPane](../../aspose.slides.export/swfoptions/showtoppane) { get; set; } | 顯示/隱藏整個頂部面板。可在 flashvars 中覆寫。預設為 true。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/swfoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報 [`ISlidesLayoutOptions`](../islideslayoutoptions) 時投影片在頁面上的排列模式。此屬性不支援指派 [`HandoutLayoutingOptions`](../handoutlayoutingoptions) 類型的物件。 |
+| [StartOpenLeftPane](../../aspose.slides.export/swfoptions/startopenleftpane) { get; set; } | 以已開啟的左側面板開始。可在 flashvars 中覆寫。預設為 false。 |
 | [ViewerIncluded](../../aspose.slides.export/swfoptions/viewerincluded) { get; set; } | 指定產生的 SWF 文件是否應包含整合的文件檢視器。預設為 `true`。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入過程是繼續還是中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定一個接收警告並決定載入過程是繼續還是中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 範例
 
@@ -52,25 +52,25 @@ public class SwfOptions : SaveOptions, ISwfOptions
 
 ```csharp
 [C#]
-// 實例化一個代表簡報檔案的 Presentation 物件
+// 建立代表簡報檔案的 Presentation 物件
 using (Presentation presentation = new Presentation("HelloWorld.pptx"))
 {
     SwfOptions swfOptions = new SwfOptions();
-    swvOptions.ViewerIncluded = false;
+    swfOptions.ViewerIncluded = false;
     INotesCommentsLayoutingOptions notesOptions = swfOptions.NotesCommentsLayouting;
     notesOptions.NotesPosition = NotesPositions.BottomFull;
-    // 儲存簡報與註解頁面
+    // 儲存簡報及註解頁面
     presentation.Save("SaveAsSwf_out.swf", SaveFormat.Swf, swfOptions);
     swfOptions.ViewerIncluded = true;
     presentation.Save("SaveNotes_out.swf", SaveFormat.Swf, swfOptions);
 }
 ```
 
-### 相關參考
+### 另請參閱
 
 * 類別 [SaveOptions](../saveoptions)
 * 介面 [ISwfOptions](../iswfoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,6 +1,6 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Ngoại lệ được ném khi cố gắng kết hợp các loại biểu đồ 2D và 3D.
 type: docs
 weight: 1240

@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes a .NET API referencia
-description: Az opciók a szöveg keresésére használhatók egy Presentation Slide vagy TextFrame esetén.
+second_title: Aspose.Sildes .NET API referencia
+description: Olyan beállításokat képvisel, amelyeket a prezentáció diájában vagy TextFrame-ben történő szövegkereséshez lehet használni.
 type: docs
-weight: 7280
+weight: 7300
 url: /hu/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions interfész
 
-Az opciókat a szöveg keresésére használhatja egy Presentation, Slide vagy TextFrame esetén.
+A prezentációban, dián vagy TextFrame-ben szöveg keresésére használható beállítások.
 
 ```csharp
 public interface ITextSearchOptions
@@ -18,9 +18,9 @@ public interface ITextSearchOptions
 
 | Név | Leírás |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Állítsa true-ra, ha kis- és nagybetűk megkülönböztetését szeretné használni, különben false. Olvasás/írás Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Állítsa `true`-ra, ha szeretné belefoglalni a diák jegyzeteiben található szöveget a szövegkeresés, csere vagy kiemelés műveletek során. Az alapértelmezett érték `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Állítsa true-ra, ha csak teljes szavakat szeretne egyezésnek tekinteni, különben false. Olvasás/írás Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Állítsa true-ra a kis- és nagybetű érzékeny kereséshez, false-ra egyébként. Olvasható/írható Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Állítsa `true`-ra, hogy a diák jegyzeteiben található szöveget is belefoglalja a szövegkeresésbe, csere- vagy kiemelési műveletek során. Az alapértelmezett érték `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Állítsa true-ra, hogy csak teljes szavakat egyeztesen, false-ra egyébként. Olvasható/írható Boolean. |
 
 ### Lásd még
 

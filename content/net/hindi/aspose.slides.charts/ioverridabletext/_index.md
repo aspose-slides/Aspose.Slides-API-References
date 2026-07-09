@@ -1,6 +1,6 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक चार्ट के लिए ओवरराइडेबल टेक्स्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 2180
@@ -16,18 +16,18 @@ public interface IOverridableText : IFormattedTextContainer
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer)। |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | रिच फ़ॉर्मेटेड टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह फ़ॉर्मेटेड टेक्स्ट वैल्यू ऑटो-जेनरेटेड टेक्स्ट को ओवरराइड करता है। ऑटो-जेनरेटेड टेक्स्ट डेटा लेबल, वैल्यू एक्सिस के डिस्प्ले यूनिट लेबल, एक्सिस टाइटल, चार्ट टाइटल, ट्रेंडलाइन के लेबल की एक इम्प्लिसिट प्रॉपर्टी है। ऑटो-जेनरेटेड टेक्स्ट IFormattedTextContainer.TextFormat प्रॉपर्टी से फ़ॉर्मेट किया जाता है। केवल-पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe)। |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | रिच फ़ॉर्मेटेड टेक्स्ट रख सकता है। यदि यह प्रॉपर्टी null नहीं है तो यह फ़ॉर्मेटेड टेक्स्ट मूल्य स्वचालित रूप से उत्पन्न टेक्स्ट को ओवरराइड करता है। स्वचालित रूप से उत्पन्न टेक्स्ट डेटा लेबल, वैल्यू एक्सिस के डिस्प्ले यूनिट लेबल, एक्सिस टाइटल, चार्ट टाइटल, ट्रेंडलाइन लेबल की एक निहित प्रॉपर्टी है। स्वचालित रूप से उत्पन्न टेक्स्ट IFormattedTextContainer.TextFormat प्रॉपर्टी के साथ फॉर्मेट किया जाता है। केवल पढ़ने योग्य [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | TextFrameForOverriding को पैरामीटर "text" में टेक्स्ट के साथ इनिशियलाइज़ करता है। यदि TextFrameForOverriding पहले से इनिशियलाइज़ है तो बस उसका टेक्स्ट बदल देता है। |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | पैरामीटर "text" में दिए गए टेक्स्ट के साथ TextFrameForOverriding को प्रारंभ करें। यदि TextFrameForOverriding पहले से प्रारंभ हो चुका है तो बस इसका टेक्स्ट बदल देता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IFormattedTextContainer](../iformattedtextcontainer)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)

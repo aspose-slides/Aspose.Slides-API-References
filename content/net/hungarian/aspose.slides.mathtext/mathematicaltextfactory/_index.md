@@ -1,9 +1,9 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes for .NET API-referencia
-description: Lehetővé teszi a MathematicalText elem létrehozását
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi egy MathematicalText elem létrehozását
 type: docs
-weight: 9050
+weight: 9070
 url: /hu/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory osztály
@@ -24,14 +24,14 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres matematikai szöveg elemet hoz létre |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Létrehozza a megadott értékkel rendelkező matematikai szöveg elemet |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Üres matematikai szöveg elemet hoz létre a megadott értékkel |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Üres matematikai szöveg elemet hoz létre a megadott értékkel és formázási tulajdonságokkal |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres MathematicalText elemet hoz létre |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | A megadott értékkel rendelkező MathematicalText elemet hoz létre |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | A megadott értékkel rendelkező üres MathematicalText elemet hoz létre |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | A megadott értékkel és formázási tulajdonságokkal rendelkező üres MathematicalText elemet hoz létre |
 
-### Megjegyzések
+### Megjegyzés
 
-A COM kompatibilitáshoz
+COM kompatibilitás miatt
 
 ### Lásd még
 

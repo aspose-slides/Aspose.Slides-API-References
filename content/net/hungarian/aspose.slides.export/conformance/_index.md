@@ -1,14 +1,14 @@
 ---
 title: Conformance
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Megadja azt a megfelelőségi osztályt, amelyhez a PresentationML dokumentum tartozik.
+second_title: Aspose.Sildes .NET API referenciája
+description: Megadja, hogy a PresentationML dokumentum melyik megfelelőségi osztályhoz tartozik.
 type: docs
-weight: 3730
+weight: 3750
 url: /hu/aspose.slides.export/conformance/
 ---
-## Megfelelőség felsorolás
+## Megfelelőségi felsorolás
 
-Megadja azt a megfelelőségi osztályt, amelyhez a PresentationML dokumentum tartozik.
+Megadja, hogy a PresentationML dokumentum melyik megfelelőségi osztályhoz tartozik.
 
 ```csharp
 public enum Conformance

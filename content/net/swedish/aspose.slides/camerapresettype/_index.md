@@ -3,7 +3,7 @@ title: CameraPresetType
 second_title: Aspose.Sildes för .NET API-referens
 description: Konstanter som definierar kamerapresettyp.
 type: docs
-weight: 1080
+weight: 1100
 url: /sv/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType uppräkning
@@ -82,7 +82,7 @@ public enum CameraPresetType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

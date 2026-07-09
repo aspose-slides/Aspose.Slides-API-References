@@ -1,14 +1,14 @@
 ---
 title: TransitionEightDirectionType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 여덟 방향 전환 유형을 나타냅니다.
+description: 8가지 방향 전환 유형을 나타냅니다.
 type: docs
 weight: 10360
 url: /ko/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
 ## TransitionEightDirectionType 열거형
 
-여덟 방향 전환 유형을 나타냅니다.
+8가지 방향 전환 유형을 나타냅니다.
 
 ```csharp
 public enum TransitionEightDirectionType
@@ -27,7 +27,7 @@ public enum TransitionEightDirectionType
 | Down | `6` |  |
 | Right | `7` |  |
 
-### 관련 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

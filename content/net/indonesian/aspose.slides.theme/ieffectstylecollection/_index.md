@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kumpulan gaya efek.
+description: Mewakili sekumpulan gaya efek.
 type: docs
-weight: 11160
+weight: 11180
 url: /id/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection antarmuka
 
-Mewakili kumpulan gaya efek.
+Mewakili sekumpulan gaya efek.
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>

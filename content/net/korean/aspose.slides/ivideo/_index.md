@@ -18,16 +18,16 @@ public interface IVideo
 
 | 이름 | 설명 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 오디오 데이터의 복사본을 반환합니다. 대용량 데이터인 경우 [`GetStream`](./getstream) 메서드를 사용하여 비디오 데이터를 메모리로 불필요하게 로드하거나 OutOfMemoryException이 발생하는 것을 방지하십시오. 읽기 전용 Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | [`BinaryData`](./binarydata)에 인코딩된 비디오의 MIME 유형을 반환합니다. 읽기 전용 String. |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 오디오 데이터의 복사본을 반환합니다. 대용량 데이터의 경우 [`GetStream`](./getstream) 메서드를 사용하여 비디오 데이터를 메모리에 불필요하게 로드하거나 OutOfMemoryException이 발생하는 것을 방지하는 것을 고려하십시오. 읽기 전용 Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | 비디오의 MIME 유형을 [`BinaryData`](./binarydata)에 인코딩된 형태로 반환합니다. 읽기 전용 String. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | 읽기를 위한 Stream 스트림을 반환합니다. 'using'을 사용하거나 사용 후 스트림을 닫으세요. |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | 읽기용 Stream 스트림을 반환합니다. 'using'을 사용하거나 사용 후 스트림을 닫으십시오. |
 
-### 참고
+### 또한 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

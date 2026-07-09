@@ -1,14 +1,14 @@
 ---
 title: AutoShapeLock
-second_title: مرجع API Aspose.Sildes برای .NET
-description: مشخص می‌کند که کدام عملیات‌ها بر روی AutoshapeEx والد غیرفعال هستند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: مشخص می‌کند که کدام عملیات‌ها در AutoshapeEx والد غیرفعال هستند.
 type: docs
 weight: 910
 url: /fa/aspose.slides/autoshapelock/
 ---
-## AutoShapeLock کلاس
+## کلاس AutoShapeLock
 
-مشخص می‌کند چه عملیات‌هایی بر روی AutoshapeEx والد غیرفعال هستند.
+تعیین می‌کند که کدام عملیات‌ها در AutoshapeEx والد غیرفعال هستند.
 
 ```csharp
 public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
@@ -16,26 +16,26 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | مشخص می‌کند که آیا تغییر مقادیر تنظیم ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | مشخص می‌کند که آیا تغییر سرهای پیکان ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | مشخص می‌کند که آیا شکل باید نسبت ابعاد را هنگام تغییر اندازه حفظ کند. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | مشخص می‌کند که آیا تغییر مستقیم محدوده این شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | مشخص می‌کند که آیا افزودن این شکل به یک گروه ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | در صورت غیرفعال بودن تمام پرچم‌های قفل، مقدار true را برمی‌گرداند. Boolean فقط‌خواندنی. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | مشخص می‌کند که آیا جابه‌جایی این شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | مشخص می‌کند که آیا تغییر زاویه چرخش این شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | مشخص می‌کند که آیا انتخاب این شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | مشخص می‌کند که آیا تغییر نوع شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | مشخص می‌کند که آیا تغییر اندازه این شکل ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | مشخص می‌کند که آیا ویرایش متن ممنوع است. Boolean قابل‌خواندن/قابل‌نوشتن. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | تعیین می‌کند که تغییر مقادیر تنظیم ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | تعیین می‌کند که تغییر سرهای فلش ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | تعیین می‌کند که یک شکل برای تغییر اندازه باید نسبت عرض به ارتفاع را حفظ کند. قابل خواندن/نوشتن Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | تعیین می‌کند که تغییر مستقیم پیرامون این شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | تعیین می‌کند که افزودن این شکل به یک گروه ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | در صورت غیرفعال بودن تمام پرچم‌های قفل، true برمی‌گرداند. فقط خواندنی Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | تعیین می‌کند که جابه‌جایی این شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | تعیین می‌کند که تغییر زاویه چرخش این شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | تعیین می‌کند که انتخاب این شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | تعیین می‌کند که تغییر نوع شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | تعیین می‌کند که تغییر اندازه این شکل ممنوع است. قابل خواندن/نوشتن Boolean. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | تعیین می‌کند که ویرایش متن ممنوع است. قابل خواندن/نوشتن Boolean. |
 
-### مراجع
+### موارد مرتبط
 
 * کلاس [BaseShapeLock](../baseshapelock)
 * رابط [IAutoShapeLock](../iautoshapelock)
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

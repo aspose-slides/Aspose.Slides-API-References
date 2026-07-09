@@ -1,12 +1,12 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Konstanta yang mendefinisikan tingkat kepatuhan standar PDF.
 type: docs
-weight: 4300
+weight: 4320
 url: /id/aspose.slides.export/pdfcompliance/
 ---
-## Enumerasi PdfCompliance
+## enumerasi PdfCompliance
 
 Konstanta yang mendefinisikan tingkat kepatuhan standar PDF.
 
@@ -18,17 +18,17 @@ public enum PdfCompliance
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Pdf15 | `0` | File output akan mematuhi standar PDF 1.5. |
-| Pdf16 | `1` | File output akan mematuhi standar PDF 1.6. |
-| Pdf17 | `2` | File output akan mematuhi standar PDF 1.7. |
-| PdfA1b | `3` | File output akan mematuhi standar PDF/A-1b. |
-| PdfA1a | `4` | File output akan mematuhi standar PDF/A-1a. |
-| PdfA2b | `5` | File output akan mematuhi standar PDF/A-2b. |
-| PdfA2a | `6` | File output akan mematuhi standar PDF/A-2a. |
-| PdfA3b | `7` | File output akan mematuhi standar PDF/A-3b. |
-| PdfA3a | `8` | File output akan mematuhi standar PDF/A-3a. |
-| PdfUa | `9` | File output akan mematuhi standar PDF/UA. |
-| PdfA2u | `10` | File output akan mematuhi standar PDF/A-2u. |
+| Pdf15 | `0` | File keluaran akan mematuhi standar PDF 1.5. |
+| Pdf16 | `1` | File keluaran akan mematuhi standar PDF 1.6. |
+| Pdf17 | `2` | File keluaran akan mematuhi standar PDF 1.7. |
+| PdfA1b | `3` | File keluaran akan mematuhi standar PDF/A-1b. |
+| PdfA1a | `4` | File keluaran akan mematuhi standar PDF/A-1a. |
+| PdfA2b | `5` | File keluaran akan mematuhi standar PDF/A-2b. |
+| PdfA2a | `6` | File keluaran akan mematuhi standar PDF/A-2a. |
+| PdfA3b | `7` | File keluaran akan mematuhi standar PDF/A-3b. |
+| PdfA3a | `8` | File keluaran akan mematuhi standar PDF/A-3a. |
+| PdfUa | `9` | File keluaran akan mematuhi standar PDF/UA. |
+| PdfA2u | `10` | File keluaran akan mematuhi standar PDF/A-2u. |
 
 ### Lihat Juga
 

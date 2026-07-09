@@ -1,6 +1,6 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示一個評論作者的集合。
 type: docs
 weight: 2640
@@ -18,22 +18,22 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | 傳回指示集合存取是否已同步 (執行緒安全) 的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ICommentAuthor`](../icommentauthor)。 |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | 取得集合中實際包含的元素數量。 唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | 傳回指示對集合的存取是否已同步（執行緒安全）的值。 唯讀 Boolean。 |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`ICommentAuthor`](../icommentauthor)。 |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | 傳回同步根。 唯讀 Object。 |
 
 ## 方法
 
 | Name | Description |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | 在集合的末尾新增作者。 |
-| [Clear](../../aspose.slides/commentauthorcollection/clear)() | 從集合中移除所有作者。 |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | 在集合的末端新增作者。 |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | 移除集合中的所有作者。 |
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | 依名稱在集合中尋找作者。 |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | 依名稱與縮寫在集合中尋找作者。 |
 | [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | 移除集合中指定作者的第一次出現。 |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | 移除集合中首次出現的指定作者。 |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | 移除集合中指定索引處的作者。 |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | 建立並傳回包含所有作者的陣列。 |
 

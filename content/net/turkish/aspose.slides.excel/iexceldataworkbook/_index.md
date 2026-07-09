@@ -1,12 +1,12 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Genel kullanım için Excel verilerine erişim sağlayan bir çalışma kitabını temsil eder.
 type: docs
-weight: 3690
+weight: 3710
 url: /tr/aspose.slides.excel/iexceldataworkbook/
 ---
-## IExcelDataWorkbook arayüzü
+## IExcelDataWorkbook arayüz
 
 Genel kullanım için Excel verilerine erişim sağlayan bir çalışma kitabını temsil eder.
 
@@ -16,14 +16,14 @@ public interface IExcelDataWorkbook
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Belirtilen çalışma sayfasından, dizini ve Excel biçimindeki hücre adı (ör. "B2") kullanılarak bir hücre alır. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Belirtilen çalışma sayfasından, Excel biçimindeki hücre adı (ör. "B2") kullanılarak bir hücre alır. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Belirtilen çalışma sayfasından, dizini ve hücre koordinatlarını kullanarak bir hücre alır. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Belirtilen çalışma sayfasından, indeksini ve Excel biçimindeki hücre adını (ör. "B2") kullanarak bir hücre alır. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Belirtilen çalışma sayfasından Excel biçimindeki hücre adını (ör. "B2") kullanarak bir hücre alır. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Belirtilen çalışma sayfasından, indeksini ve hücre koordinatlarını kullanarak bir hücre alır. |
 | [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Belirtilen çalışma sayfasından, adını ve hücre koordinatlarını kullanarak bir hücre alır. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Belirtilen formülle eşleşen hücre koleksiyonunu çalışma kitabından alır. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Excel çalışma kitabının belirtilen çalışma sayfasındaki tüm grafiklerin dizinlerini ve adlarını içeren bir sözlük alır. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Çalışma kitabından, belirtilen formülle eşleşen hücrelerin bir koleksiyonunu alır. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Excel çalışma kitabının belirtilen çalışma sayfasındaki tüm grafiklerin indekslerini ve adlarını içeren bir sözlük alır. |
 | [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Excel çalışma kitabında bulunan tüm çalışma sayfalarının adlarını alır. |
 
 ### Ayrıca Bakınız

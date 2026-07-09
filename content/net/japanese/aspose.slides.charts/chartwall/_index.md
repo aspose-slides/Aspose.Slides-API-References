@@ -1,14 +1,14 @@
 ---
 title: ChartWall
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 3d チャート上の壁を表します。
+description: 3Dチャートの壁を表します。
 type: docs
-weight: 1500
+weight: 1520
 url: /ja/aspose.slides.charts/chartwall/
 ---
 ## ChartWall クラス
 
-3D チャート上の壁を表します。
+3Dチャートの壁を表します。
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | 名前 | 説明 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 壁の塗りつぶし、線、効果、3D スタイルを返します。読み取り専用 [`IFormat`](../iformat)。 |
-| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | 画像タイプを取得または設定します。読み書き [`PictureType`](../picturetype)。 |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | プロット領域の最大次元のパーセンテージとして壁の厚さを取得または設定します。読み書き Int32。 |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 壁の塗りつぶし、線、効果、3d スタイルを返します。読み取り専用 [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | 画像タイプを取得または設定します。読み書き可能 [`PictureType`](../picturetype). |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | プロット領域の最大寸法に対するパーセンテージとして、壁の厚さを取得または設定します。読み書き可能 Int32. |
 
 ### 参照
 

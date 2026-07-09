@@ -1,14 +1,14 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงคอลเลกชันของวัตถุ Video.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของอ็อบเจกต์ Video.
 type: docs
 weight: 11710
 url: /th/aspose.slides/videocollection/
 ---
-## VideoCollection คลาส
+## คลาส VideoCollection
 
-แสดงถึงคอลเลกชันของวัตถุ Video.
+แสดงถึงคอลเลกชันของออบเจกต์ Video
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,20 +18,20 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | คืนค่าจำนวนไฟล์วิดีโอในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | คืนค่ารากฐานการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | คืนจำนวนไฟล์วิดีโอในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | รับอิลิเมนต์ที่ตำแหน่งดัชนีที่ระบุ อ่านอย่างเดียว [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | คืนรากการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | สร้างและเพิ่มวิดีโอไปยังการนำเสนอจากอาร์เรย์ของไบต์. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | เพิ่มสำเนาของไฟล์วิดีโอจากการนำเสนออื่น. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มวิดีโอไปยังการนำเสนอจากสตรีม. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | คัดลอกวิดีโอไปยังอาร์เรย์ที่ระบุเริ่มจากตำแหน่งที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | สร้างและเพิ่มวิดีโอลงในงานนำเสนอจากอาร์เรย์ของไบต์. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | เพิ่มสำเนาของไฟล์วิดีโอจากงานนำเสนออื่น. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มวิดีโอลงในงานนำเสนอจากสตรีม. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | คัดลอกวิดีโอไปยังอาร์เรย์ที่ระบุเริ่มต้นจากดัชนีที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

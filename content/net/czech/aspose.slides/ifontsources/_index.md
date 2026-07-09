@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Sildes pro .NET - referenční příručka API
-description: Poskytuje souborové a paměťové zdroje pro externí fonty.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Poskytuje souborové a paměťové zdroje pro externí písma.
 type: docs
-weight: 5850
+weight: 5870
 url: /cs/aspose.slides/ifontsources/
 ---
 ## IFontSources rozhraní
 
-Poskytuje souborové a paměťové zdroje pro externí fonty.
+Poskytuje souborové a paměťové zdroje pro externí písma.
 
 ```csharp
 public interface IFontSources
@@ -18,8 +18,8 @@ public interface IFontSources
 
 | Název | Popis |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Složky obsahující soubory fontů. Všechny soubory fontů umístěné v těchto složkách jsou zahrnuty do kolekce. Složky jsou prohledávány rekurzivně. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Kolekce fontů reprezentovaných jako pole bajtů. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Složky obsahující soubory písem. Všechny soubory písem umístěné v těchto složkách jsou zahrnuty do kolekce. Složky, které jsou prohledávány rekurzivně. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | Kolekce písem reprezentovaných jako pole bajtů. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu thị nguồn màu siêu liên kết.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn nguồn của màu siêu liên kết.
 type: docs
 weight: 5140
 url: /vi/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource liệt kê
 
-Biểu thị nguồn màu siêu liên kết.
+Biểu diễn nguồn của màu siêu liên kết.
 
 ```csharp
 public enum HyperlinkColorSource

@@ -1,9 +1,9 @@
 ---
 title: IAudio
-second_title: Aspose.Slides untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili file audio yang disematkan.
 type: docs
-weight: 5190
+weight: 5210
 url: /id/aspose.slides/iaudio/
 ---
 ## IAudio antarmuka
@@ -18,14 +18,14 @@ public interface IAudio
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Mengembalikan salinan data audio. Jika data berjumlah besar, pertimbangkan penggunaan [`GetStream`](./getstream) method untuk mencegah pemuatan data audio yang tidak diperlukan ke memori atau bahkan OutOfMemoryException. Hanya-baca Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Mengembalikan tipe MIME audio, yang dikodekan dalam [`BinaryData`](./binarydata). Hanya-baca String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | Mengembalikan salinan data audio. Jika terdapat jumlah data yang besar, pertimbangkan penggunaan metode [`GetStream`](./getstream) untuk mencegah pemuatan data audio yang tidak perlu ke memori atau bahkan OutOfMemoryException. Baca-saja Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | Mengembalikan tipe MIME dari audio, yang dienkode dalam [`BinaryData`](./binarydata). Baca-saja String. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | Mengembalikan Stream untuk membaca. Gunakan 'using' atau tutup stream setelah digunakan. |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | Mengembalikan Stream stream untuk membaca. Gunakan 'using' atau tutup stream setelah penggunaan. |
 
 ### Lihat Juga
 

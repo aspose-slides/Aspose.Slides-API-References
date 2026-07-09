@@ -1,14 +1,14 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes .NET API referenciája
-description: ActiveX vezérlők gyűjteménye.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az ActiveX vezérlők gyűjteménye.
 type: docs
-weight: 5620
+weight: 5640
 url: /hu/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection interfész
 
-ActiveX vezérlők gyűjteménye.
+Az ActiveX vezérlők gyűjteménye.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>
@@ -24,10 +24,10 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | Név | Leírás |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Létrehozza és hozzáadja az új vezérlőt a gyűjteményhez. |
-| [Clear](../../aspose.slides/icontrolcollection/clear)() | Eltávolítja az összes vezérlőt a gyűjteményből. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Létrehozza és hozzáad egy új vezérlőt a gyűjteményhez. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | Eltávolít minden vezérlőt a gyűjteményből. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Eltávolít egy ActiveX vezérlőt a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Eltávolít egy megadott pozícióban tárolt ActiveX vezérlőt a gyűjteményből. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Eltávolít egy a megadott pozíción tárolt ActiveX vezérlőt a gyűjteményből. |
 
 ### Lásd még
 

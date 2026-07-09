@@ -1,6 +1,6 @@
 ---
 title: MathBlockFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 수학 블록을 생성할 수 있습니다
 type: docs
 weight: 8600
@@ -9,6 +9,7 @@ url: /ko/aspose.slides.mathtext/mathblockfactory/
 ## MathBlockFactory 클래스
 
 수학 블록을 만들 수 있습니다
+
 ```csharp
 public class MathBlockFactory : IMathBlockFactory
 ```

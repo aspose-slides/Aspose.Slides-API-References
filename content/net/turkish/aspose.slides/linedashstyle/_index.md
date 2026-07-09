@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
 second_title: Aspose.Sildes için .NET API Referansı
-description: Satır çizgi stilini temsil eder.
+description: Satır kesik stilini temsil eder.
 type: docs
-weight: 7750
+weight: 7770
 url: /tr/aspose.slides/linedashstyle/
 ---
-## LineDashStyle enum
+## LineDashStyle enumeration
 
-Satır çizgi stilini temsil eder.
+Satır kesik stilini temsil eder.
 
 ```csharp
 public enum LineDashStyle : sbyte
@@ -32,7 +32,7 @@ public enum LineDashStyle : sbyte
 | SystemDashDotDot | `10` |  |
 | Custom | `11` |  |
 
-### Ayrıca Bakınız
+### Bkz
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

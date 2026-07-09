@@ -1,9 +1,9 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje kolekci řádků tabulky.
 type: docs
-weight: 6840
+weight: 6860
 url: /cs/aspose.slides/irowcollection/
 ---
 ## IRowCollection rozhraní
@@ -26,7 +26,7 @@ public interface IRowCollection : IGenericCollection<IRow>
 | --- | --- |
 | [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Vytvoří kopii zadaného řádku šablony a vloží ji na konec tabulky. |
 | [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Vytvoří kopii zadaného řádku šablony a vloží ji na určenou pozici v tabulce. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Odstraní řádek na určené pozici z tabulky. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Odstraní řádek na zadané pozici z tabulky. |
 
 ### Viz také
 

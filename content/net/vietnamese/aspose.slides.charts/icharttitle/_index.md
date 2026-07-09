@@ -20,10 +20,10 @@ public interface IChartTitle : IActualLayout, ILayoutable, IOverridableText
 | --- | --- |
 | [AsILayoutable](../../aspose.slides.charts/icharttitle/asilayoutable) { get; } | Cho phép lấy giao diện ILayoutable cơ bản. Chỉ đọc [`ILayoutable`](../ilayoutable). |
 | [AsIOverridableText](../../aspose.slides.charts/icharttitle/asioverridabletext) { get; } | Cho phép lấy giao diện IOverridableText cơ bản. Chỉ đọc [`IOverridableText`](../ioverridabletext). |
-| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Trả về các kiểu tô màu, đường viền, hiệu ứng của tiêu đề. Chỉ đọc [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Xác định liệu các thành phần biểu đồ khác có được phép chồng lên tiêu đề hay không. Đọc/ghi Boolean. |
+| [Format](../../aspose.slides.charts/icharttitle/format) { get; } | Trả về các kiểu fill, line, effect của tiêu đề. Chỉ đọc [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/icharttitle/overlay) { get; set; } | Xác định liệu các phần tử biểu đồ khác có được phép chồng lên tiêu đề hay không. Đọc/ghi Boolean. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IActualLayout](../iactuallayout)
 * giao diện [ILayoutable](../ilayoutable)

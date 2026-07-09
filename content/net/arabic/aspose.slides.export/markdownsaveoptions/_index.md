@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes ل .NET مرجع API
-description: يمثل الخيارات التي تتحكم في كيفية حفظ العرض التقديمي بتنسيق markdown.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل الخيارات التي تتحكم في كيفية حفظ العرض التقديمي إلى markdown.
 type: docs
 weight: 4250
 url: /ar/aspose.slides.export/markdownsaveoptions/
 ---
 ## فئة MarkdownSaveOptions
 
-يمثل الخيارات التي تتحكم في كيفية حفظ العرض التقديمي بتنسيق markdown.
+يمثل الخيارات التي تتحكم في كيفية حفظ العرض التقديمي إلى markdown.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -18,30 +18,30 @@ public class MarkdownSaveOptions : SaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | منشئ. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
 | [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | يحدد المسار الأساسي حيث سيتم حفظ المستند مع الموارد. الافتراضي هو الدليل الحالي للتطبيق. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يرجع أو يضبط الخط المستخدم في حالة عدم العثور على الخط المصدر. قراءة-كتابة String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | إرجاع أو تعيين الخط المستخدم في حال عدم العثور على الخط الأصلي. قراءة-كتابة String. |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | يحدد مواصفات markdown لتحويل العرض التقديمي. الافتراضي هو `TextOnly`. |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | يحدد مواصفات markdown لتحويل العرض التقديمي. الافتراضي هو `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يرجع أو يضبط النمط البصري للتدرج. قراءة/كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | إرجاع أو تعيين النمط البصري للتدرج. قراءة/كتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | يحدد اسم المجلد لحفظ الصور. الافتراضي هو `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يحتوي على أسطر جديدة \\r(Macintosh) أو \\n(Unix) أو \\r\\n(Windows). الافتراضي هو `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن رد الاتصال لتحديثات تقدم الحفظ كنسبة مئوية. راجع [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | إذا تم تعيينه إلى `true`, يزيل الأسطر الفارغة أو التي تحتوي على مسافات فقط من المخرجات النهائية للـ Markdown. الافتراضي هو `false`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يحتوي على سطور جديدة \\r(Macintosh) أو \\n(Unix) أو \\r\\n(Windows). الافتراضي هو `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن استدعاء رد للمتابعة لحفظ تحديثات التقدم كنسبة مئوية. راجع [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | إذا تم تعيينه إلى `true`، يزيل السطور الفارغة أو التي تحتوي على مسافات فقط من الناتج النهائي للـ Markdown. الافتراضي هو `false`. |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يعرض التعليقات أم لا. الافتراضي هو `false`. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يتضمن الشرائح المخفية أم لا. الافتراضي هو `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يعرض رقم كل شريحة أم لا. الافتراضي هو `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. قراءة/كتابة Boolean. القيمة الافتراضية هي **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | يحصل أو يضبط سلسلة التنسيق المستخدمة لرؤوس أرقام الشرائح في مخرجات Markdown. يجب أن يتضمن التنسيق العنصر النائب "{0}"، والذي سيُستبدل بفهرس الشريحة أثناء التصدير. مثال: "# Slide {0}" سينتج "# Slide 1", "# Slide 2", إلخ. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يرجع أو يضبط كائنًا يستقبل التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم ستُوقف. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يُظهر رقم كل شريحة أم لا. الافتراضي هو `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط الفائقة التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. قراءة/كتابة Boolean. القيمة الافتراضية هي **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | جلب أو تعيين سلسلة التنسيق المستخدمة لرؤوس أرقام الشرائح في ناتج الـ Markdown. يجب أن يحتوي التنسيق على العنصر النائب \"{0}\"، والذي سيتم استبداله برقم الشريحة أثناء التصدير. مثال: \"# Slide {0}\" سينتج \"# Slide 1\"، \"# Slide 2\"، إلخ. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | إرجاع أو تعيين كائن يستقبل التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم ستُجهض. قراءة/كتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### الأمثلة
+### أمثلة
 
 مثال:
 
@@ -62,9 +62,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### انظر أيضاً
+### انظر أيضًا
 
-* الفئة [SaveOptions](../saveoptions)
+* فئة [SaveOptions](../saveoptions)
 * مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
 * التجميع [Aspose.Slides](../../)
 

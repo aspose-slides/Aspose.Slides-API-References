@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een basisklasse voor voor een verzameling lay-outdia's.
+description: Stelt een basisklasse voor de collectie van lay-outdia's.
 type: docs
 weight: 6230
 url: /nl/aspose.slides/ilayoutslidecollection/
 ---
 ## ILayoutSlideCollection interface
 
-Stelt een basisklasse voor voor een verzameling lay-outdia's.
+Stelt een basisklasse voor de collectie van lay-outdia's.
 
 ```csharp
 public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
@@ -25,8 +25,8 @@ public interface ILayoutSlideCollection : IGenericCollection<ILayoutSlide>
 | Naam | Beschrijving |
 | --- | --- |
 | [GetByType](../../aspose.slides/ilayoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste lay-outdia van het opgegeven type. |
-| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Verwijdert een lay-out uit de verzameling. |
-| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outdia's (lay-outdia's waarvan HasDependingSlides false is). |
+| [Remove](../../aspose.slides/ilayoutslidecollection/remove)(ILayoutSlide) | Verwijdert een lay-out uit de collectie. |
+| [RemoveUnused](../../aspose.slides/ilayoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outdia's (lay-outdia's waarvan HasDependingSlides onwaar is). |
 
 ### Zie ook
 

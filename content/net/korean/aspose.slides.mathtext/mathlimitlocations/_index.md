@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: n-항 연산자에서 제한(아래첨자/위첨자)의 위치.
+description: n항 연산자에서 제한(아래첨자/위첨자)의 위치.
 type: docs
 weight: 8840
 url: /ko/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations 열거형
 
-n-항 연산자에서 제한(아래첨자/위첨자)의 위치.
+n항 연산자에서 제한(아래첨자/위첨자)의 위치.
 
 ```csharp
 public enum MathLimitLocations

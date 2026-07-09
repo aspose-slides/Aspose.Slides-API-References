@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Hue/Saturation/Luminance エフェクトを表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
 type: docs
-weight: 3350
+weight: 3370
 url: /ja/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData インターフェイス
 
-Hue/Saturation/Luminance エフェクトを表します。色相、彩度、輝度はそれぞれ現在の値に対して相対的に調整できます。
+Hue/Saturation/Luminance エフェクトを表します。hue、saturation、luminance はそれぞれ現在の値に対して相対的に調整できます。
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | 基本 IEffectEffectiveData インターフェイスを取得できます。 読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | 色相のパーセンテージを返します。 読み取り専用 Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | 輝度のパーセンテージを返します。 読み取り専用 Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | 彩度のパーセンテージを返します。 読み取り専用 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | hue のパーセンテージを返します。読み取り専用 Single。 |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | luminance のパーセンテージを返します。読み取り専用 Single。 |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | saturation のパーセンテージを返します。読み取り専用 Single。 |
 
 ### 参照
 

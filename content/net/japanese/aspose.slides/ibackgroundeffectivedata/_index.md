@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果的な背景プロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 有効な背景プロパティを含む不変オブジェクトです。
 type: docs
-weight: 5260
+weight: 5280
 url: /ja/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData インターフェイス
 
-効果的な背景プロパティを含む不変オブジェクトです。
+有効な背景プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -19,14 +19,14 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | 名前 | 説明 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | IFillParamSource インターフェイスを返します。 |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 効果的なエフェクト形式を返します。読み取り専用 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 効果的な塗りの書式を返します。読み取り専用 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | 有効な効果の書式を返します。 読み取り専用 [`IEffectFormatEffectiveData`](../ieffectformateffectivedata)。 |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | 有効な塗りつぶしの書式を返します。 読み取り専用 [`IFillFormatEffectiveData`](../ifillformateffectivedata)。 |
 
 ### 備考
 
-このインターフェイスは、[`IBackground`](../ibackground) インターフェイスと併せて使用され、継承が適用された効果的な書式設定値を返します。
+このインターフェイスは [`IBackground`](../ibackground) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFillParamSource](../ifillparamsource)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

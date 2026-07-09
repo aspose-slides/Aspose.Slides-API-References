@@ -6,9 +6,9 @@ type: docs
 weight: 340
 url: /fa/aspose.slides.animation/effectsubtype/
 ---
-## شمارش EffectSubtype
+## EffectSubtype شمارش
 
-زیرنوع‌های افکت انیمیشن را نشان می‌دهد.
+Represents subtypes of animation effect.
 
 ```csharp
 public enum EffectSubtype
@@ -71,7 +71,7 @@ public enum EffectSubtype
 | Wheel4 | `50` |  |
 | Wheel8 | `51` |  |
 
-### مراجع
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
 * مجوعه [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà dello schema di colori effettivi.
+description: Oggetto immutabile che contiene le proprietà effettive dello schema di colori.
 type: docs
-weight: 11140
+weight: 11160
 url: /it/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà del schema di colori effettivi.
+Oggetto immutabile che contiene le proprietà effettive dello schema di colori.
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -16,7 +16,7 @@ public interface IColorSchemeEffectiveData
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
 | [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | Primo colore di accento nello schema. Solo lettura Color. |
 | [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | Secondo colore di accento nello schema. Solo lettura Color. |
@@ -34,7 +34,7 @@ public interface IColorSchemeEffectiveData
 
 ### Osservazioni
 
-Questa classe è usata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
+Questa classe è utilizzata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Vedi anche
 

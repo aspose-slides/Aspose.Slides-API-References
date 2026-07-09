@@ -1,14 +1,14 @@
 ---
 title: Merger
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje skupinu metod pro sloučení PowerPoint prezentací stejného formátu do jednoho souboru.
+description: Reprezentuje skupinu metod pro sloučení prezentací PowerPoint ve stejném formátu do jednoho souboru.
 type: docs
-weight: 7950
+weight: 7970
 url: /cs/aspose.slides.lowcode/merger/
 ---
-## Třída Merger
+## třída Merger
 
-Představuje skupinu metod pro sloučení PowerPoint prezentací stejného formátu do jednoho souboru.
+Reprezentuje skupinu metod pro sloučení prezentací PowerPoint ve stejném formátu do jednoho souboru.
 
 ```csharp
 public static class Merger
@@ -18,10 +18,10 @@ public static class Merger
 
 | Název | Popis |
 | --- | --- |
-| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Sloučí několik PowerPoint prezentací stejného formátu do jednoho souboru prezentace. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Sloučí několik PowerPoint prezentací stejného formátu do jednoho souboru prezentace. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Sloučí několik PowerPoint prezentací stejného formátu do jednoho souboru prezentace. |
-| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Sloučí několik PowerPoint prezentací stejného formátu do jednoho souboru prezentace. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process)(string[], Stream) | Sloučí více prezentací PowerPoint ve stejném formátu do jednoho souboru prezentace. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_2)(string[], string) | Sloučí více prezentací PowerPoint ve stejném formátu do jednoho souboru prezentace. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_1)(string[], Stream, ISaveOptions) | Sloučí více prezentací PowerPoint ve stejném formátu do jednoho souboru prezentace. |
+| static [Process](../../aspose.slides.lowcode/merger/process#process_3)(string[], string, ISaveOptions) | Sloučí více prezentací PowerPoint ve stejném formátu do jednoho souboru prezentace. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes dla .NET API Reference
-description: Reprezentuje różne operacje kolorów używane do transformacji kolorów. Obiekt niemutowalny.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Reprezentuje różne operacje kolorów używane do transformacji kolorów. Obiekt niezmienny.
 type: docs
-weight: 2510
+weight: 2530
 url: /pl/aspose.slides/coloroperation/
 ---
 ## ColorOperation klasa
 
-Reprezentuje różne operacje kolorów używane do transformacji kolorów. Obiekt niemutowalny.
+Represents different color operations used for color transformations. Immutable object.
 
 ```csharp
 public class ColorOperation : IColorOperation
@@ -32,8 +32,8 @@ public class ColorOperation : IColorOperation
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Określa, czy dwie instancje ColorOperation są równe. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica hash. |
+| override [Equals](../../aspose.slides/coloroperation/equals)(object) | Określa, czy dwa wystąpienia ColorOperation są równe. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica mieszająca. |
 
 ### Zobacz także
 

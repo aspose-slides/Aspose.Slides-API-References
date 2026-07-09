@@ -1,29 +1,29 @@
 ---
 title: ShapeElementFillSource
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงว่าควรเติมส่วนของรูปร่างอย่างไร.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงวิธีการเติม shape element.
 type: docs
 weight: 9880
 url: /th/aspose.slides/shapeelementfillsource/
 ---
-## การนับ ShapeElementFillSource
+## ShapeElementFillSource enumeration
 
-อธิบายว่าควรเติมส่วนของรูปร่างอย่างไร
+Represents how shape element should be filled.
 
 ```csharp
 public enum ShapeElementFillSource : byte
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NoFill | `0` | ไม่เติม primitive. |
 | Shape | `1` | ใช้การเติมของ shape. |
-| Lighten | `2` | ใช้การเติมของ shape ที่ทำให้สว่างขึ้น. |
-| LightenLess | `3` | ใช้การเติมของ shape ที่สว่างน้อยลง. |
-| Darken | `4` | ใช้การเติมของ shape ที่ทำให้มืดลง. |
-| DarkenLess | `5` | ใช้การเติมของ shape ที่มืดน้อยลง. |
+| Lighten | `2` | ใช้การเติมแบบ lighten ของ shape. |
+| LightenLess | `3` | ใช้การเติมแบบ less lighten ของ shape. |
+| Darken | `4` | ใช้การเติมแบบ darken ของ shape. |
+| DarkenLess | `5` | ใช้การเติมแบบ less darken ของ shape. |
 
 ### ดูเพิ่มเติม
 

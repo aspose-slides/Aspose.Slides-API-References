@@ -1,7 +1,7 @@
 ---
 title: IConnectorLock
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: निर्धारित करता है कि पैरेंट कनेक्टर पर किन ऑपरेशनों को निष्क्रिय किया गया है।
+description: पैरेंट Connector पर कौन-से ऑपरेशन अक्षम हैं, यह निर्धारित करता है।
 type: docs
 weight: 5620
 url: /hi/aspose.slides/iconnectorlock/
@@ -18,19 +18,19 @@ public interface IConnectorLock : IBaseShapeLock
 
 | नाम | विवरण |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | निर्धारित करता है कि बदलते समायोजन मानों को बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | निर्धारित करता है कि तीर सिरे बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | बेस IBaseShapeLock इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseShapeLock`](../ibaseshapelock)। |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार का आकार बदलते समय अनुपात बनाए रखना आवश्यक है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | निर्धारित करता है कि इस आकार की रूपरेखा को सीधे बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | निर्धारित करता है कि इस आकार को ले जाना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | निर्धारित करता है कि इस आकार का घूर्णन कोण बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन करना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | निर्धारित करता है कि आकार प्रकार को बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का आकार बदलना निषिद्ध है या नहीं। पढ़ने/लिखने योग्य Boolean। |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | निर्धारित करता है कि बदलते समायोजन मानों को प्रतिबंधित किया गया है या नहीं। पढ़ने/लिखने Boolean। |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | निर्धारित करता है कि बदलते तीर सिरों को प्रतिबंधित किया गया है या नहीं। पढ़ने/लिखने Boolean। |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | आधार IBaseShapeLock इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseShapeLock`](../ibaseshapelock)। |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को आकार बदलने पर अनुपात संरक्षित करना होगा या नहीं। पढ़ने/लिखने Boolean। |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | निर्धारित करता है कि इस आकार की रूपरेखा में सीधा परिवर्तन प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | निर्धारित करता है कि इस आकार को ले जाना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | निर्धारित करता है कि इस आकार के घूर्णन कोण को बदलना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन करना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | निर्धारित करता है कि आकार प्रकार को बदलना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का पुनः आकार देना प्रतिबंधित है या नहीं। पढ़ने/लिखने Boolean। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IBaseShapeLock](../ibaseshapelock)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

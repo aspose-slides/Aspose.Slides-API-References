@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Grafiklerde kullanılan grafik dilimi biçimlendirme özelliklerini temsil eder.
+description: Grafiklerde kullanılan grafik bölümü biçimlendirme özelliklerini temsil eder.
 type: docs
-weight: 1900
+weight: 1920
 url: /tr/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat arayüz
 
-Grafiklerde kullanılan grafik dilimi biçimlendirme özelliklerini temsil eder.
+Grafiklerde kullanılan grafik bölümü biçimlendirme özelliklerini temsil eder.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat
@@ -18,7 +18,7 @@ public interface IChartPortionFormat : IBasePortionFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | Döndürür IBasePortionFormat arayüz. |
+| [AsIBasePortionFormat](../../aspose.slides.charts/ichartportionformat/asibaseportionformat) { get; } | IBasePortionFormat arayüzünü döndürür. |
 
 ### Ayrıca Bakınız
 

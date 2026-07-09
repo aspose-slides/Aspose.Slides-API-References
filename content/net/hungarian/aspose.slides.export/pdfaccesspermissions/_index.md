@@ -1,14 +1,14 @@
 ---
 title: PdfAccessPermissions
-second_title: Aspose.Sildes .NET API referencia
-description: Készlet zászlókat tartalmaz, amelyek meghatározzák, hogy milyen hozzáférési jogosultságokat kell megadni a dokumentum felhasználói hozzáféréssel történő megnyitásakor.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A dokumentum felhasználói hozzáférésével történő megnyitásakor megadandó hozzáférési jogosultságokat meghatározó jelzők halmazát tartalmazza.
 type: docs
-weight: 4290
+weight: 4310
 url: /hu/aspose.slides.export/pdfaccesspermissions/
 ---
-## PdfAccessPermissions felsorolás
+## PdfAccessPermissions enumeráció
 
-A dokumentum felhasználói hozzáférésével megnyitásakor megadandó hozzáférési jogosultságok flagjeinek halmazát tartalmazza.
+A dokumentum felhasználóként történő megnyitásakor megadandó hozzáférési jogosultságokat meghatározó jelzők halmazát tartalmazza.
 
 ```csharp
 [Flags]
@@ -17,17 +17,17 @@ public enum PdfAccessPermissions
 
 ### Értékek
 
-| Név | Érték | Leírás |
+| Name | Value | Description |
 | --- | --- | --- |
 | None | `0` | Megadja, hogy a felhasználó nem rendelkezik hozzáférési jogosultságokkal. |
-| PrintDocument | `4` | Megadja, hogy a felhasználó nyomtathatja-e a dokumentumot (esetleg nem a legmagasabb minőségi szinten, attól függően, hogy a HighQualityPrint bit is be van-e állítva). |
-| ModifyContent | `8` | Megadja, hogy a felhasználó módosíthatja-e a dokumentum tartalmát olyan műveletekkel, amelyek nem a AddOrModifyFields, FillExistingFields, AssembleDocument bitek által vezéreltek. |
-| CopyTextAndGraphics | `10` | Megadja, hogy a felhasználó másolhat-e vagy egyébként kinyerheti-e a szöveget és a grafikát a dokumentumból olyan műveletekkel, amelyek nem az ExtractTextAndGraphics bit által vezéreltek. |
-| AddOrModifyFields | `20` | Megadja, hogy a felhasználó hozzáadhat-e vagy módosíthat-e szöveges megjegyzéseket, kitölthet-e interaktív űrlapmezőket, és ha a ModifyContent bit is be van állítva, létrehozhat-e vagy módosíthat-e interaktív űrlapmezőket (beleértve az aláírásmezőket). |
-| FillExistingFields | `100` | Megadja, hogy a felhasználó kitölthet-e meglévő interaktív űrlapmezőket (beleértve az aláírásmezőket), még ha az AddOrModifyFields bit nincs beállítva. |
-| ExtractTextAndGraphics | `200` | Megadja, hogy a felhasználó kinyerheti-e a szöveget és a grafikát a fogyatékkal élő felhasználók hozzáférhetőségének támogatása vagy más célok érdekében. |
-| AssembleDocument | `400` | Megadja, hogy a felhasználó összeállíthat-e a dokumentumot (oldalak beszúrása, forgatása vagy törlése, valamint könyvjelzők vagy bélyegkép létrehozása), még ha a ModifyContent bit nincs beállítva. |
-| HighQualityPrint | `800` | Megadja, hogy a felhasználó nyomtathatja-e a dokumentumot olyan ábrázolásra, amelyből a PDF tartalom hűséges digitális másolata előállítható. Ha ez a bit nincs beállítva (és a PrintDocument bit be van állítva), a nyomtatás alacsony szintű megjelenítési ábrázolásra korlátozódik, esetleg gyengébb minőségben. |
+| PrintDocument | `4` | Megadja, hogy a felhasználó nyomtathatja-e a dokumentumot (esetleg nem a legmagasabb minőségi szinten, attól függően, hogy a HighQualityPrint jelző is be van-e állítva). |
+| ModifyContent | `8` | Megadja, hogy a felhasználó módosíthatja-e a dokumentum tartalmát olyan műveletekkel, amelyek nem az AddOrModifyFields, FillExistingFields, AssembleDocument jelzők által vezéreltek. |
+| CopyTextAndGraphics | `10` | Megadja, hogy a felhasználó másolhatja-e vagy egyéb módon kinyerheti a szöveget és grafikákat a dokumentumból olyan műveletekkel, amelyek nem az ExtractTextAndGraphics jelző által szabályozottak. |
+| AddOrModifyFields | `20` | Megadja, hogy a felhasználó hozzáadhat-e vagy módosíthat-e szöveges megjegyzéseket, kitöltheti-e az interaktív űrlapmezőket, és ha a ModifyContent jelző is be van állítva, létrehozhat-e vagy módosíthat-e interaktív űrlapmezőket (beleértve az aláírásmezőket). |
+| FillExistingFields | `100` | Megadja, hogy a felhasználó kitöltheti-e a meglévő interaktív űrlapmezőket (beleértve az aláírásmezőket), még ha az AddOrModifyFields jelző nincs beállítva is. |
+| ExtractTextAndGraphics | `200` | Megadja, hogy a felhasználó kinyerheti-e a szöveget és grafikákat a fogyatékkal élő felhasználók hozzáférhetőségének támogatására vagy más célokra. |
+| AssembleDocument | `400` | Megadja, hogy a felhasználó összeállíthatja-e a dokumentumot (oldalak beszúrása, forgatása vagy törlése, valamint könyvjelzők vagy bélyegkép létrehozása), még ha a ModifyContent jelző nincs beállítva is. |
+| HighQualityPrint | `800` | Megadja, hogy a felhasználó nyomtathatja-e a dokumentumot olyan ábrázolásra, amelyből hű digitális másolat készíthető a PDF tartalomból. Ha ez a jelző nincs beállítva (és a PrintDocument jelző be van állítva), a nyomtatás alacsony szintű megjelenítési ábrázolásra korlátozódik, esetleg romlott minőségben. |
 
 ### Lásd még
 

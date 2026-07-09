@@ -18,10 +18,10 @@ public class ExcelDataCell : IExcelDataCell
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Haalt de nulgebaseerde index van de kolom op in het werkblad waar de cel zich bevindt. Alleen-lezen Int32. |
-| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Haalt de naam van de grafiekdatacel op. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Haalt de nulgebaseerde index van de rij op in het werkblad waar de cel zich bevindt. Alleen-lezen Int32. |
-| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Haalt de waarde op die in de Excel-cel staat. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Haalt de nul-gebaseerde index van de kolom in het werkblad op waar de cel zich bevindt. Alleen-lezen Int32. |
+| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Haalt de naam van de grafiekgegevenscel op. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Haalt de nul-gebaseerde index van de rij in het werkblad op waar de cel zich bevindt. Alleen-lezen Int32. |
+| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Haalt de waarde op die in de Excel-cel is opgeslagen. |
 
 ### Zie ook
 

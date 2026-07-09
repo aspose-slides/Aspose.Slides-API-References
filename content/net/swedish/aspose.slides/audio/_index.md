@@ -3,7 +3,7 @@ title: Audio
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en inbäddad ljudfil.
 type: docs
-weight: 830
+weight: 850
 url: /sv/aspose.slides/audio/
 ---
 ## Audio klass
@@ -18,14 +18,14 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Returnerar en kopia av ett ljuds data. Vid stora mängder data bör du överväga att använda [`GetStream`](./getstream)-metoden för att förhindra onödig laddning av ljudets data i minnet eller till och med OutOfMemoryException. Skrivskyddad Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Returnerar en MIME-typ för ett ljud, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Returnerar en kopia av en audios data. Vid stora mängder data bör du överväga att använda [`GetStream`](./getstream)-metoden för att förhindra onödig inläsning av audios data till minnet eller till och med OutOfMemoryException. Skrivskyddad Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Returnerar en MIME-typ för en audio, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | Returnerar en Stream för läsning. Använd 'using' eller stäng stream efter användning. |
+| [GetStream](../../aspose.slides/audio/getstream)() | Returnerar en Stream för läsning. Använd 'using' eller stäng streamen efter användning. |
 
 ### Se även
 

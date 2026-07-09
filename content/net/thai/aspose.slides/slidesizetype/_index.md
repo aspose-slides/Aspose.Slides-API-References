@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงค่าตั้งล่วงหน้าของขนาดสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงการกำหนดขนาดสไลด์ล่วงหน้า.
 type: docs
 weight: 10520
 url: /th/aspose.slides/slidesizetype/
 ---
-## SlideSizeType การกำหนดค่า
+## SlideSizeType enumeration
 
-Represents the slide size preset. → แสดงถึงค่าตั้งล่วงหน้าของขนาดสไลด์
+แสดงถึงการตั้งค่าขนาดสไลด์ล่วงหน้า.
 
 ```csharp
 public enum SlideSizeType
@@ -19,9 +19,9 @@ public enum SlideSizeType
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | OnScreen | `0` | บนหน้าจอ 4x3 |
-| LetterPaper | `1` | จดหมาย |
+| LetterPaper | `1` | Letter |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | สไลด์ 35มม. |
+| Slide35mm | `3` | สไลด์ 35mm |
 | Overhead | `4` | Overhead |
 | Banner | `5` | แบนเนอร์ |
 | Custom | `6` | ขนาดกำหนดเอง |
@@ -34,7 +34,7 @@ public enum SlideSizeType
 | HagakiCard | `13` | บัตร Hagaki |
 | OnScreen16x9 | `14` | บนหน้าจอ 16x9 |
 | OnScreen16x10 | `15` | บนหน้าจอ 16x10 |
-| Widescreen | `16` | กว้าง |
+| Widescreen | `16` | จอแนกกว้าง |
 
 ### ดูเพิ่มเติม
 

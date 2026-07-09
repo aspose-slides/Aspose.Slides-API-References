@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แสดงถึงรูปแบบการแปลงของการนำเสนอสำหรับการบันทึกเป็นรูปแบบเว็บ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นรูปแบบการแปลงของการนำเสนอเพื่อบันทึกเป็นรูปแบบเว็บ.
 type: docs
 weight: 4680
 url: /th/aspose.slides.export.web/webdocument/
 ---
-## คลาส WebDocument
+## WebDocument คลาส
 
-แสดงถึงรูปแบบการแปลงของการนำเสนอสำหรับการบันทึกเป็นรูปแบบเว็บ
+เป็นรูปแบบการแปลงของงานนำเสนอสำหรับบันทึกเป็นรูปแบบเว็บ.
 
 ```csharp
 public class WebDocument
@@ -18,15 +18,15 @@ public class WebDocument
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) ตัวสร้าง. |
+| [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) คอนสตรัคเตอร์. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | ส่งคืนที่เก็บข้อมูลทั่วโลกของเอกสาร. อ่านอย่างเดียว [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | คืนค่าที่เก็บข้อมูลทั่วโลกของเอกสาร. อ่านอย่างเดียว [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | ส่งคืนคอลเลกชันขององค์ประกอบผลลัพธ์ของเอกสาร. อ่านอย่างเดียว [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | คืนค่าคอลเลกชันขององค์ประกอบผลลัพธ์ของเอกสาร. อ่านอย่างเดียว [`Output`](./output). |
 
 ## เมธอด
 

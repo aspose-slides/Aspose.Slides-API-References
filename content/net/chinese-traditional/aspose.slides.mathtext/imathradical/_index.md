@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
 second_title: Aspose.Sildes for .NET API 參考
-description: 指定由底數和可選次方組成的根號函式。根號物件的範例為。
+description: 指定由基底和可選次方組成的根號函數。根號物件的範例是。
 type: docs
 weight: 8430
 url: /zh-hant/aspose.slides.mathtext/imathradical/
 ---
 ## IMathRadical 介面
 
-指定根號函式，由底數和可選的次方組成。根號物件的範例為 √𝑥。
+指定根號函數，由基底和可選的次方組成。根號物件的範例是 √𝑥。
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -19,13 +19,13 @@ public interface IMathRadical : IMathElement
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | 底數參數 |
+| [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | 基礎參數 |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | 次方參數 |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | 隱藏次方。當為 true 時，不會顯示次方，例如 √𝑥 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | 隱藏次方 當為 true 時，不會顯示次方，例如 √𝑥 |
 
 ### 範例
 
-Example:
+範例：
 
 ```csharp
 [C#]

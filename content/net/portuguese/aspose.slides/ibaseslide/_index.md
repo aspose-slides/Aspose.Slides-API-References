@@ -3,7 +3,7 @@ title: IBaseSlide
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa dados comuns para todos os tipos de slide.
 type: docs
-weight: 5320
+weight: 5340
 url: /pt/aspose.slides/ibaseslide/
 ---
 ## interface IBaseSlide
@@ -18,30 +18,30 @@ public interface IBaseSlide : IThemeable
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permite obter a interface base IThemeable. Apenas leitura [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | Retorna o plano de fundo do slide. Apenas leitura [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Retorna a coleção de controles ActiveX em um slide. Apenas leitura [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Retorna os dados personalizados do slide. Apenas leitura [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Fornece acesso fácil a hyperlinks contidos. Apenas leitura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Permite obter a interface IThemeable base. Somente leitura [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | Retorna o plano de fundo do slide. Somente leitura [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Retorna a coleção de controles ActiveX em um slide. Somente leitura [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Retorna os dados personalizados do slide. Somente leitura [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Fornece acesso fácil aos hyperlinks contidos. Somente leitura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Retorna ou define o nome de um slide. Leitura/gravação String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Retorna as formas de um slide. Apenas leitura [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser mostradas nos slides ou não. Para o próprio slide mestre esta propriedade sempre retorna `false`. Leitura/gravação Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Retorna o ID de um slide. Apenas leitura UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Retorna o objeto TransitionEx que contém informações sobre como o slide especificado avança durante a apresentação. Apenas leitura [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Retorna o objeto da linha do tempo de animação. Apenas leitura [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Retorna as formas de um slide. Somente leitura [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser exibidas nos slides ou não. Para o próprio slide mestre esta propriedade sempre retorna `false`. Leitura/gravação Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Retorna o ID de um slide. Somente leitura UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Retorna o objeto TransitionEx que contém informações sobre como o slide especificado avança durante a apresentação. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Retorna o objeto linha do tempo de animação. Somente leitura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Determina se duas instâncias de IBaseSlide são iguais. O valor de retorno é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., forem iguais. A comparação não considera valores de identificadores únicos, como SlideId, nem conteúdo dinâmico, como o valor de data atual em um Placeholder de Data. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Determina se duas instâncias de IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações etc. forem iguais. A comparação não leva em conta valores de identificadores únicos, por exemplo SlideId, e conteúdo dinâmico, por exemplo o valor da data atual no Marcador de data. |
 | [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Encontra a primeira ocorrência de uma forma com o texto alternativo especificado. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Une execuções com a mesma formatação em todos os parágrafos em todas as formas aceitáveis. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Mescla execuções com a mesma formatação em todos os parágrafos em todas as formas aceitáveis. |
 
-### Ver também
+### Veja Também
 
 * interface [IThemeable](../../aspose.slides.theme/ithemeable)
-* espaço de nomes [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

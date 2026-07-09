@@ -1,14 +1,14 @@
 ---
 title: IImageCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันของ PPImage.
+description: เป็นตัวแทนของชุดของ PPImage.
 type: docs
 weight: 6160
 url: /th/aspose.slides/iimagecollection/
 ---
 ## IImageCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของคอลเลกชันของ PPImage.
+เป็นตัวแทนของชุดของ PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -20,17 +20,17 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 | --- | --- |
 | [Item](../../aspose.slides/iimagecollection/item) { get; } | คืนค่าภาพตามดัชนีของมัน. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | เพิ่มภาพไปยังการนำเสนอจากบัฟเฟอร์ที่ระบุ. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | เพิ่มภาพไปยังการนำเสนอ. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | เพิ่มสำเนาภาพจากการนำเสนออื่น. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | เพิ่มภาพไปยังการนำเสนอจากอ็อบเจ็กต์ SVG. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | เพิ่มภาพไปยังงานนำเสนอจากบัฟเฟอร์ที่ระบุ. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | เพิ่มภาพไปยังงานนำเสนอ. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | เพิ่มสำเนาภาพจากงานนำเสนออื่น. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | เพิ่มภาพไปยังงานนำเสนอจากอ็อบเจ็กต์ SVG. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | เพิ่มภาพจากสตรีมหน่วยความจำ. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | เพิ่มภาพไปยังการนำเสนอจากสตรีม. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มภาพไปยังการนำเสนอจากสตรีม. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | เพิ่มภาพไปยังงานนำเสนอจากสตรีม. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มภาพไปยังงานนำเสนอจากสตรีม. |
 
 ### ดูเพิ่มเติม
 

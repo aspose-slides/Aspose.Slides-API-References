@@ -1,9 +1,9 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーションのマスターテーマへのアクセスを提供します。
 type: docs
-weight: 11420
+weight: 11440
 url: /ja/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager クラス
@@ -18,8 +18,8 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme が継承された有効なテーマ (Presentation.MasterTheme) を上書きするかどうかを決定します。読み取り/書き込み Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 上書きテーマオブジェクトを返します。読み取り/書き込み [`IMasterTheme`](../imastertheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | OverrideTheme が継承された有効なテーマ (Presentation.MasterTheme) を上書きするかどうかを決定します。読み書き Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 上書きテーマオブジェクトを返します。読み書き [`IMasterTheme`](../imastertheme)。 |
 
 ## メソッド
 

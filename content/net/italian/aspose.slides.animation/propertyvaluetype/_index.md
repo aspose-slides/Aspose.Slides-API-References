@@ -1,9 +1,9 @@
 ---
 title: PropertyValueType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta i tipi di valore della proprietà.
 type: docs
-weight: 740
+weight: 760
 url: /it/aspose.slides.animation/propertyvaluetype/
 ---
 ## PropertyValueType enumerazione

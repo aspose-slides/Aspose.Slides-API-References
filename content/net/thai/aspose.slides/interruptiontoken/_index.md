@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: คลาสนี้แสดงถึงโทเค็นที่ใช้ในการสื่อสัญญาณให้กับงานที่ดำเนินการเป็นเวลานานว่ามีการร้องขอการขัดจังหวะหรือไม่
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสนี้แทน token ที่ใช้สื่อสัญญาณให้งานที่ทำงานระยะยาวทราบว่ามีการร้องขอการหยุดชั่วคราวหรือไม่
 type: docs
 weight: 7600
 url: /th/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken คลาส
 
-คลาสนี้แสดงถึงโทเค็นที่ใช้ในการสื่อสัญญาณให้กับงานที่ดำเนินการเป็นเวลานานว่ามีการร้องขอการขัดจังหวะหรือไม่
+คลาสนี้แสดงถึง token ที่ใช้สื่อสัญญาณให้งานที่ทำงานระยะยาวทราบว่ามีการร้องขอการหยุดชั่วคราวหรือไม่
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,14 +18,14 @@ public class InterruptionToken : IInterruptionToken
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | แสดงถึงโทเค็นการขัดจังหวะที่ว่างเปล่า การดำเนินการที่ใช้เวลานานจะไม่ถูกขัดจังหวะผ่าน [`Interrupt`](../interruptiontokensource/interrupt) เมื่ใช้โทเค็นนี้ |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | ส่งกลับค่า Boolean.true หากมีการขัดจังหวะถูกร้องขอ |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | แสดงถึง token การหยุดชั่วคราวที่ว่างเปล่า การทำงานที่ใช้เวลานานจะไม่มีการหยุดโดยใช้ [`Interrupt`](../interruptiontokensource/interrupt) เมื่อใช้ token นี้ |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | คืนค่า Boolean.true หากมีการร้องขอการหยุดชั่วคราว |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | ทำการโยน OperationCanceledException หากมีการขัดจังหวะถูกร้องขอ |
+| [ThrowIfInterruptionRequested](../../aspose.slides/interruptiontoken/throwifinterruptionrequested)() | ทำให้เกิด OperationCanceledException หากมีการร้องขอการหยุดชั่วคราว |
 
 ### ดูเพิ่มเติม
 

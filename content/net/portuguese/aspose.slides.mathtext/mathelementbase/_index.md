@@ -1,14 +1,14 @@
 ---
 title: MathElementBase
 second_title: Referência da API Aspose.Sildes para .NET
-description: Classe base para IMathElement com a implementação de alguns métodos que são comuns a todas as classes herdadas. Apenas para uso interno. A classe herdada deve ser IMathElement.
+description: Classe base para IMathElement com a implementação de alguns métodos que são comuns a todas as classes herdadas. Uso interno apenas. A classe herdada deve ser IMathElement.
 type: docs
-weight: 8660
+weight: 8680
 url: /pt/aspose.slides.mathtext/mathelementbase/
 ---
 ## MathElementBase classe
 
-Classe base para IMathElement com a implementação de alguns métodos que são comuns a todas as classes herdadas. Somente para uso interno. A classe herdada deve ser IMathElement.
+Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.
 
 ```csharp
 public abstract class MathElementBase : IMathElement
@@ -18,53 +18,53 @@ public abstract class MathElementBase : IMathElement
 
 | Nome | Descrição |
 | --- | --- |
-| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Define uma marca de acento (um caractere no topo deste elemento) |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction)(IMathElement) | Aplica a função especificada usando esta instância como argumento |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Aplica a função especificada usando esta instância como argumento |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_4)(string) | Aplica a função especificada usando esta instância como argumento |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Aplica a função especificada usando esta instância como argumento e argumento adicional especificado |
-| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Aplica a função especificada usando esta instância como argumento e argumento adicional especificado |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide)(IMathElement) | Cria uma fração com este numerador e denominador especificado |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_2)(string) | Cria uma fração com este numerador e denominador especificado |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_1)(IMathElement, MathFractionTypes) | Cria uma fração do tipo especificado com este numerador e denominador especificado |
-| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_3)(string, MathFractionTypes) | Cria uma fração do tipo especificado com este numerador e denominador especificado |
-| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose)() | Envolve um elemento matemático em parênteses |
-| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose_1)(char, char) | Envolve um elemento matemático em caracteres especificados, como parênteses ou outros caracteres como moldura |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function#function)(IMathElement) | Aplica uma função de um argumento usando esta instância como nome da função |
-| [Function](../../aspose.slides.mathtext/mathelementbase/function#function_1)(string) | Aplica uma função de um argumento usando esta instância como nome da função |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group#group)() | Coloca este elemento em um grupo usando uma chave inferior |
-| [Group](../../aspose.slides.mathtext/mathelementbase/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | Coloca este elemento em um grupo usando um caractere de agrupamento, como chave inferior ou outro |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral)(MathIntegralTypes) | Aplica a integral sem limites |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Aplica a integral |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_3)(MathIntegralTypes, string, string) | Aplica a integral |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Aplica a integral |
-| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Aplica a integral |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join)(IMathElement) | Une um elemento matemático e forma um bloco matemático |
-| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join_1)(string) | Une um texto matemático e forma um bloco matemático |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Cria um operador N-ário |
-| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary_1)(MathNaryOperatorTypes, string, string) | Cria um operador N-ário |
-| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Define uma barra no topo deste elemento |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical)(IMathElement) | Especifica a raiz matemática do grau indicado a partir do argumento especificado. |
-| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical_1)(string) | Especifica a raiz matemática do grau indicado a partir do argumento especificado. |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit)(IMathElement) | Define limite inferior |
-| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit_1)(string) | Define limite inferior |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript)(IMathElement) | Cria subscrito |
-| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript_1)(string) | Cria subscrito |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Cria subscrito e sobrescrito à esquerda |
-| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Cria subscrito e sobrescrito à esquerda |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Cria subscrito e sobrescrito à direita |
-| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Cria subscrito e sobrescrito à direita |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript)(IMathElement) | Cria sobrescrito |
-| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript_1)(string) | Cria sobrescrito |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit)(IMathElement) | Define limite superior |
-| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit_1)(string) | Define limite superior |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox)() | Coloca este elemento em uma caixa de borda |
-| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Coloca este elemento em uma caixa de borda |
-| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Coloca este elemento em uma caixa não visual (agrupamento lógico) que é usada para agrupar componentes de uma equação ou outra instância de texto matemático. Um objeto em caixa pode (por exemplo) servir como um emulador de operador com ou sem ponto de alinhamento, servir como ponto de quebra de linha ou ser agrupado de modo a não permitir quebras de linha internamente. |
-| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Coloca em um array vertical |
-| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Define uma barra na parte inferior deste elemento |
+| [Accent](../../aspose.slides.mathtext/mathelementbase/accent)(char) | Sets an accent mark (a character on the top of this element) |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction)(IMathElement) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_1)(MathFunctionsOfOneArgument) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_4)(string) | Takes specified function using this instance as the argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_2)(MathFunctionsOfTwoArguments, IMathElement) | Takes specified function using this instance as the argument and specified additional argument |
+| [AsArgumentOfFunction](../../aspose.slides.mathtext/mathelementbase/asargumentoffunction#asargumentoffunction_3)(MathFunctionsOfTwoArguments, string) | Takes specified function using this instance as the argument and specified additional argument |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide)(IMathElement) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_2)(string) | Creates a fraction with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_1)(IMathElement, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Divide](../../aspose.slides.mathtext/mathelementbase/divide#divide_3)(string, MathFractionTypes) | Creates a fraction of the specified type with this numerator and specified denominator |
+| [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose)() | Encloses a math element in parenthesis |
+| virtual [Enclose](../../aspose.slides.mathtext/mathelementbase/enclose#enclose_1)(char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function#function)(IMathElement) | Takes a function of an argument using this instance as the function name |
+| [Function](../../aspose.slides.mathtext/mathelementbase/function#function_1)(string) | Takes a function of an argument using this instance as the function name |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group#group)() | Places this element in a group using a bottom curly bracket |
+| [Group](../../aspose.slides.mathtext/mathelementbase/group#group_1)(char, MathTopBotPositions, MathTopBotPositions) | Places this element in a group using a grouping character such as bottom curly bracket or another |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral)(MathIntegralTypes) | Takes the integral without limits |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_1)(MathIntegralTypes, IMathElement, IMathElement) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_3)(MathIntegralTypes, string, string) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_2)(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) | Takes the integral |
+| [Integral](../../aspose.slides.mathtext/mathelementbase/integral#integral_4)(MathIntegralTypes, string, string, MathLimitLocations) | Takes the integral |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join)(IMathElement) | Joins a mathematical element and forms a mathematical block |
+| virtual [Join](../../aspose.slides.mathtext/mathelementbase/join#join_1)(string) | Joins a mathematical text and forms a mathematical block |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary)(MathNaryOperatorTypes, IMathElement, IMathElement) | Creates a N-ary operator |
+| [Nary](../../aspose.slides.mathtext/mathelementbase/nary#nary_1)(MathNaryOperatorTypes, string, string) | Creates a N-ary operator |
+| [Overbar](../../aspose.slides.mathtext/mathelementbase/overbar)() | Sets a bar on the top of this element |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical)(IMathElement) | Specifies the mathematical root of the given degree from the specified argument. |
+| [Radical](../../aspose.slides.mathtext/mathelementbase/radical#radical_1)(string) | Specifies the mathematical root of the given degree from the specified argument. |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit)(IMathElement) | Takes lower limit |
+| [SetLowerLimit](../../aspose.slides.mathtext/mathelementbase/setlowerlimit#setlowerlimit_1)(string) | Takes lower limit |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript)(IMathElement) | Creates subscript |
+| [SetSubscript](../../aspose.slides.mathtext/mathelementbase/setsubscript#setsubscript_1)(string) | Creates subscript |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft)(IMathElement, IMathElement) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheLeft](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft#setsubsuperscriptontheleft_1)(string, string) | Creates subscript and superscript on the left |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright)(IMathElement, IMathElement) | Creates subscript and superscript on the right |
+| [SetSubSuperscriptOnTheRight](../../aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright#setsubsuperscriptontheright_1)(string, string) | Creates subscript and superscript on the right |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript)(IMathElement) | Creates superscript |
+| [SetSuperscript](../../aspose.slides.mathtext/mathelementbase/setsuperscript#setsuperscript_1)(string) | Creates superscript |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit)(IMathElement) | Takes upper limit |
+| [SetUpperLimit](../../aspose.slides.mathtext/mathelementbase/setupperlimit#setupperlimit_1)(string) | Takes upper limit |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox)() | Places this element in a border-box |
+| [ToBorderBox](../../aspose.slides.mathtext/mathelementbase/toborderbox#toborderbox_1)(bool, bool, bool, bool, bool, bool, bool, bool) | Places this element in a border-box |
+| [ToBox](../../aspose.slides.mathtext/mathelementbase/tobox)() | Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. |
+| virtual [ToMathArray](../../aspose.slides.mathtext/mathelementbase/tomatharray)() | Puts in a vertical array |
+| [Underbar](../../aspose.slides.mathtext/mathelementbase/underbar)() | Sets a bar on the bottom of this element |
 
-### Veja também
+### Ver Também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

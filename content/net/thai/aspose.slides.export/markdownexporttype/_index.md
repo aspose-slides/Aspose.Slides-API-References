@@ -1,26 +1,26 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ประเภทของการเรนเดอร์เอกสาร
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ประเภทของเอกสารการแสดงผล.
 type: docs
 weight: 4240
 url: /th/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType enumeration
 
-ประเภทของการเรนเดอร์เอกสาร
+ประเภทของเอกสารการแสดงผล
 
 ```csharp
 public enum MarkdownExportType
 ```
 
-### ค่าต่าง ๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Sequential | `0` | แสดงผลทุกรายการแยกกัน ทีละรายการ |
 | TextOnly | `1` | แสดงผลเฉพาะข้อความ |
-| Visual | `2` | แสดงผลทุกรายการ รายการที่ถูกจัดกลุ่มจะถูกแสดงร่วมกัน |
+| Visual | `2` | แสดงผลทุกรายการ รายการที่ถูกจัดกลุ่ม - แสดงร่วมกัน |
 
 ### ตัวอย่าง
 

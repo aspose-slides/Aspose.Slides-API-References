@@ -1,14 +1,14 @@
 ---
 title: WarningType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en varningstyp.
+description: Representerar en typ av varning.
 type: docs
-weight: 11810
+weight: 11830
 url: /sv/aspose.slides.warnings/warningtype/
 ---
-## WarningType uppräkning
+## WarningType-enumeration
 
-Representerar en varningstyp.
+Representerar en typ av varning.
 
 ```csharp
 public enum WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Ett problem har upptäckts i källdokumentet som gör det mycket sannolikt att dokumentet inte kan öppnas om det sparas i sitt originalformat. |
+| SourceFileCorruption | `0` | Ett problem har upptäckts i källdokumentet som gör det mycket sannolikt att dokumentet inte kan öppnas om det sparas i sitt ursprungliga format. |
 | DataLoss | `1` | Text/diagram/bild eller annan data kommer att saknas helt från antingen dokumentträdet efter inläsning, eller det skapade dokumentet efter sparning. |
-| MajorFormattingLoss | `2` | Stor formatförlust. |
-| MinorFormattingLoss | `3` | Mindre formatförlust. |
-| CompatibilityIssue | `4` | Detta är ett känt problem som förhindrar att dokumentet kan öppnas av vissa användaragenter eller tidigare versioner av användaragenter. |
-| UnexpectedContent | `99` | Viss innehåll i källdokumentet kunde inte identifieras (dvs. stöds inte), detta kan eventuellt orsaka problem eller leda till data-/formatförlust. |
+| MajorFormattingLoss | `2` | Stor formateringsförlust. |
+| MinorFormattingLoss | `3` | Mindre formateringsförlust. |
+| CompatibilityIssue | `4` | Detta är ett känt problem som kommer att förhindra att dokumentet öppnas av vissa användaragenter eller tidigare versioner av användaragenter. |
+| UnexpectedContent | `99` | Viss innehåll i källdokumentet kunde inte kännas igen (dvs. stöds inte), detta kan eventuellt orsaka problem eller leda till data-/formateringsförlust. |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: Section
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของส่วนของสไลด์.
+description: แทนส่วนของสไลด์.
 type: docs
 weight: 9750
 url: /th/aspose.slides/section/
 ---
-## คลาส Section
+## ส่วน คลาส
 
-เป็นตัวแทนของส่วนของสไลด์.
+แทนส่วนของสไลด์
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
@@ -16,23 +16,23 @@ public class Section : DomObject<SectionCollection>, ISection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | ชื่อของส่วน |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | Id ของส่วน |
-| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | คืนสไลด์แรกของส่วน |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | คืนค่าสไลด์แรกของส่วน |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | คืนรายการสไลด์ในส่วน |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | คืนค่ารายการสไลด์ในส่วน |
 
 ### ดูเพิ่มเติม
 
 * คลาส [DomObject&lt;TParent&gt;](../domobject-1)
 * คลาส [SectionCollection](../sectioncollection)
-* อินเทอร์เฟซ [ISection](../isection)
+* อินเตอร์เฟส [ISection](../isection)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

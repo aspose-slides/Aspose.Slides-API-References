@@ -1,7 +1,7 @@
 ---
 title: FontData
-second_title: Aspose.Sildes for .NET API 참조
-description: 글꼴 정의를 나타냅니다. 불변입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 폰트 정의를 나타냅니다. 불변입니다.
 type: docs
 weight: 4820
 url: /ko/aspose.slides/fontdata/
@@ -18,21 +18,21 @@ public sealed class FontData : IFontData
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontData](fontdata)(string) | 지정된 글꼴 이름으로 새로운 FontData 객체를 생성합니다. |
+| [FontData](fontdata)(string) | 지정된 폰트 이름으로 새로운 FontData 객체를 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 글꼴 이름을 반환합니다. 읽기/쓰기 String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 폰트 이름을 반환합니다. 읽기/쓰기 문자열. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | 두 FontData 인스턴스가 같은지 여부를 결정합니다. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | 글꼴 이름을 반환하며, 테마 참조를 실제 사용된 글꼴로 교체합니다. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에 사용하기에 적합합니다. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | 테마 참조를 실제 사용된 폰트로 교체하여 폰트 이름을 반환합니다. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | 특정 유형에 대한 해시 함수를 제공하며, 해싱 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | 문자열 표현을 반환합니다. |
 
 ### 참조

@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Chart は制限されたテキスト書式プロパティのセットで動作します。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat インターフェイスはこの制限されたセットを記述します。
+description: Chart は制限されたテキスト形式プロパティのセットで操作されます。 IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat インターフェイスはこの制限されたセットを説明します。
 type: docs
-weight: 1970
+weight: 1990
 url: /ja/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat インターフェイス
 
-Chart は制限されたテキスト書式プロパティのセットで動作します。IChartTextFormat、IChartTextBlockFormat、IChartParagraphFormat、IChartPortionFormat インターフェイスはこの制限されたセットを記述します。
+Chart operate with restricted set of text format properties. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat interfaces describe this restricted set.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,18 +18,18 @@ public interface IChartTextFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | 段落の書式を返します。読み取り専用 [`IChartParagraphFormat`](../ichartparagraphformat)。 |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | 部分の書式を返します。読み取り専用 [`IChartPortionFormat`](../ichartportionformat)。 |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | チャートテキスト要素の書式を返します。読み取り専用 [`IChartTextBlockFormat`](../icharttextblockformat)。 |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | 段落形式を返します。 読み取り専用 [`IChartParagraphFormat`](../ichartparagraphformat)。 |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | 部分形式を返します。 読み取り専用 [`IChartPortionFormat`](../ichartportionformat)。 |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | チャート テキスト要素の形式を返します。 読み取り専用 [`IChartTextBlockFormat`](../icharttextblockformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 指定されたテキストフレームからテキスト書式をコピーします。 |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 指定されたテキストフレームへテキスト書式をコピーします。 |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 指定されたテキスト フレームからテキスト形式をコピーします。 |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 指定されたテキスト フレームへテキスト形式をコピーします。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

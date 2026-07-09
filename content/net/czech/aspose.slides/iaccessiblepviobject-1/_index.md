@@ -1,14 +1,14 @@
 ---
 title: IAccessiblePVIObjectT
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje typ, který může vrátit odpovídající efektivní data s použitým děděním.
+description: Reprezentuje typ, který může vrátit odpovídající efektivní data s aplikovaným děděním.
 type: docs
-weight: 5150
+weight: 5170
 url: /cs/aspose.slides/iaccessiblepviobject-1/
 ---
 ## IAccessiblePVIObject<T> rozhraní
 
-Representuje typ, který může vrátit odpovídající efektivní data s použitým děděním.
+Reprezentuje typ, který může vrátit odpovídající efektivní data s aplikovaným děděním.
 
 ```csharp
 public interface IAccessiblePVIObject<T>
@@ -23,7 +23,7 @@ public interface IAccessiblePVIObject<T>
 
 | Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Získá efektivní data s použitým děděním. |
+| [GetEffective](../../aspose.slides/iaccessiblepviobject`1/geteffective)() | Získá efektivní data s aplikovaným děděním. |
 
 ### Viz také
 

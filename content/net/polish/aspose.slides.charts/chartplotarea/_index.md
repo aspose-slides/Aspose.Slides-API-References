@@ -1,9 +1,9 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje prostokąt, w którym powinien być rysowany wykres.
 type: docs
-weight: 1400
+weight: 1420
 url: /pl/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea klasa
@@ -18,27 +18,27 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Nazwa | Opis |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Określa rzeczywistą pozycję x (lewy) elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Określa rzeczywistą górną pozycję elementu wykresu względem lewego górnego rogu wykresu. Wywołaj metodę IChart.ValidateChartLayout() wcześniej, aby uzyskać rzeczywiste wartości. Odczyt Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Określa rzeczywistą wysokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Określa rzeczywistą szerokość elementu wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Read Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Określa rzeczywistą pozycję x (lewo) elementu wykresu względem lewego górnego narożnika wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Read Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Określa rzeczywistą górną pozycję elementu wykresu względem lewego górnego narożnika wykresu. Wywołaj metodę IChart.ValidateChartLayout() przed uzyskaniem rzeczywistych wartości. Read Single. |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Dół. Tylko do odczytu Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Wykres. Tylko do odczytu [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Zwraca format obszaru rysowania. Tylko do odczytu [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Zwraca lub ustawia wysokość ramki ograniczającej obszar rysowania jako ułamek wysokości wykresu (od 0 do 1). Odczyt/zapis Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Określa, jak powinna być obliczana pozycja: true – obliczana automatycznie; określona przez właściwości X, Y, Width, Height. Tylko do odczytu Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Jeśli układ obszaru rysowania jest definiowany ręcznie, właściwość ta określa, czy układać obszar rysowania według wnętrza (bez osi i etykiet osi) czy zewnętrza (z osiami i etykietami osi). Odczyt/zapis [`LayoutTargetType`](./layouttargettype). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Zwraca format obszaru wykresu. Tylko do odczytu [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Zwraca lub ustawia wysokość ramki ograniczającej obszar wykresu jako ułamek wysokości wykresu (od 0 do 1). Read/write Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Określa, jak powinna być obliczana pozycja: true – obliczana automatycznie; określana przez właściwości X, Y, Width, Height. Tylko do odczytu Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Jeśli układ obszaru wykresu jest definiowany ręcznie, ta właściwość określa, czy układać obszar wykresu od wewnątrz (bez osi i etykiet osi) czy od zewnątrz (z uwzględnieniem osi i etykiet osi). Read/write [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Prawo. Tylko do odczytu Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Zwraca lub ustawia szerokość ramki ograniczającej obszar rysowania jako ułamek szerokości wykresu (od 0 do 1). Odczyt/zapis Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Zwraca lub ustawia współrzędną x lewego górnego rogu ramki ograniczającej obszar rysowania jako ułamek szerokości wykresu (od 0 do 1). Odczyt/zapis Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Zwraca lub ustawia współrzędną y lewego górnego rogu ramki ograniczającej obszar rysowania jako ułamek wysokości wykresu (od 0 do 1). Odczyt/zapis Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Zwraca lub ustawia szerokość ramki ograniczającej obszar wykresu jako ułamek szerokości wykresu (od 0 do 1). Read/write Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Zwraca lub ustawia współrzędną x lewego górnego rogu ramki ograniczającej obszar wykresu jako ułamek szerokości wykresu (od 0 do 1). Read/write Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Zwraca lub ustawia współrzędną y lewego górnego rogu ramki ograniczającej obszar wykresu jako ułamek wysokości wykresu (od 0 do 1). Read/write Single. |
 
-### Zobacz też
+### Zobacz także
 
 * klasa [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasa [Chart](../chart)
 * interfejs [IChartPlotArea](../ichartplotarea)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

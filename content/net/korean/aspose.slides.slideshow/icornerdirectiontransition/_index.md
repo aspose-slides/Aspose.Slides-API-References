@@ -21,7 +21,7 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 | [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

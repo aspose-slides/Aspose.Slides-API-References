@@ -1,9 +1,9 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes a .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Matematikai integrál típusok
 type: docs
-weight: 8770
+weight: 8790
 url: /hu/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes enumeráció
@@ -18,12 +18,12 @@ public enum MathIntegralTypes
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Simple | `0` | Integrál: '∫' |
-| Double | `1` | Kettős integrál: '∬' |
-| Triple | `2` | Háromszoros integrál: '∭' |
-| Contour | `3` | Kontúrintegrál: '∮' |
-| Surface | `4` | Felszíni integrál: '∯' |
-| Volume | `5` | Térfogatintegrál: '∰' |
+| Simple | `0` | Integral: '∫' |
+| Double | `1` | Double Integral: '⌬' |
+| Triple | `2` | Triple Integral: '∭' |
+| Contour | `3` | Contour Integral: '∮' |
+| Surface | `4` | Surface Integral: '∯' |
+| Volume | `5` | VolumeIntegral: '∰' |
 
 ### Lásd még
 

@@ -3,7 +3,7 @@ title: IMotionCmdPath
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um comando de um caminho.
 type: docs
-weight: 490
+weight: 510
 url: /pt/aspose.slides.animation/imotioncmdpath/
 ---
 ## IMotionCmdPath interface

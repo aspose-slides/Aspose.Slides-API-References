@@ -1,9 +1,9 @@
 ---
 title: TextFrame
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un TextFrame.
 type: docs
-weight: 10930
+weight: 10950
 url: /it/aspose.slides/textframe/
 ---
 ## TextFrame classe
@@ -18,12 +18,12 @@ public sealed class TextFrame : ITextFrame
 
 | Nome | Descrizione |
 | --- | --- |
-| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Fornisce un accesso facile ai collegamenti ipertestuali contenuti. Solo lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | Fornisce un facile accesso ai collegamenti ipertestuali contenuti. Solo lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | Restituisce l'elenco di tutti i paragrafi in un frame. Solo lettura [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Restituisce la cella padre o null se l'oggetto padre non implementa l'interfaccia ICell. Solo lettura [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Restituisce la forma padre o null se l'oggetto padre non implementa l'interfaccia IShape. Solo lettura [`IShape`](../ishape). |
-| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Restituisce la presentazione padre di un TextFrame. Solo lettura [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/textframe/slide) { get; } | Restituisce la diapositiva padre di un TextFrame. Solo lettura [`IBaseSlide`](../ibaseslide). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | Restituisce la cella genitore o null se l'oggetto genitore non implementa l'interfaccia ICell. Solo lettura [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | Restituisce la forma genitore o null se l'oggetto genitore non implementa l'interfaccia IShape. Solo lettura [`IShape`](../ishape). |
+| [Presentation](../../aspose.slides/textframe/presentation) { get; } | Restituisce la presentazione genitore di un TextFrame. Solo lettura [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/textframe/slide) { get; } | Restituisce la diapositiva genitore di un TextFrame. Solo lettura [`IBaseSlide`](../ibaseslide). |
 | [Text](../../aspose.slides/textframe/text) { get; set; } | Ottiene o imposta il testo semplice per un TextFrame. Lettura/scrittura String. |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | Restituisce l'oggetto di formattazione per questo oggetto TextFrame. Solo lettura [`ITextFrameFormat`](../itextframeformat). |
 
@@ -34,10 +34,10 @@ public sealed class TextFrame : ITextFrame
 | [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Evidenzia tutte le corrispondenze dell'espressione regolare con il colore specificato. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
 | [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Evidenzia tutte le corrispondenze del testo di esempio con il colore specificato. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Unisce i run con la stessa formattazione in tutti i paragrafi. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | Unisce le sequenze con la stessa formattazione in tutti i paragrafi. |
 | [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | Sostituisce tutte le corrispondenze dell'espressione regolare con la stringa specificata. |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Sostituisce tutte le occorrenze del testo specificato con un altro testo specificato. |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Dividi il contenuto testuale del [`ITextFrame`](../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame. |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | Divide il contenuto di testo del [`ITextFrame`](../itextframe) in un array di stringhe, dove ogni elemento corrisponde a una colonna di testo separata all'interno del frame. |
 
 ### Vedi anche
 

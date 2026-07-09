@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: अपरिवर्तनीय वस्तु जो BrightnessContrast प्रभाव का प्रतिनिधित्व करती है। चमक और कंट्रास्ट को समायोजित करती है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक अपरिवर्तनीय वस्तु जो BrightnessContrast प्रभाव का प्रतिनिधित्व करती है। चमक और कंट्रास्ट को समायोजित करती है।
 type: docs
 weight: 3210
 url: /hi/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो BrightnessContrast प्रभाव का प्रतिनिधित्व करती है। चमक और कंट्रास्ट को समायोजित करता है
+अपरिवर्तनीय वस्तु जो BrightnessContrast प्रभाव का प्रतिनिधित्व करती है। चमक और कंट्रास्ट को समायोजित करती है।
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | चमक लौटाता है। केवल-पढ़ने योग्य Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | कंट्रास्ट लौटाता है। केवल-पढ़ने योग्य Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | चमक लौटाता है। केवल-पढ़ने योग्य Single। |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | कॉन्ट्रास्ट लौटाता है। केवल-पढ़ने योग्य Single। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

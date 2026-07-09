@@ -1,6 +1,6 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 VBA 專案模組的集合。
 type: docs
 weight: 11640
@@ -19,7 +19,7 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbamodulecollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 傳回一個值，表示是否同步存取集合（執行緒安全）。唯讀 Boolean。 |
+| [IsSynchronized](../../aspose.slides.vba/vbamodulecollection/issynchronized) { get; } | 傳回表示是否同步存取集合（執行緒安全）的值。唯讀 Boolean。 |
 | [Item](../../aspose.slides.vba/vbamodulecollection/item) { get; } | 取得指定索引處的元素。 |
 | [SyncRoot](../../aspose.slides.vba/vbamodulecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
@@ -28,9 +28,9 @@ public sealed class VbaModuleCollection : IVbaModuleCollection
 | 名稱 | 說明 |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/vbamodulecollection/addemptymodule)(string) | 將新的空白模組新增至 VBA 專案。 |
-| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
-| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | 從集合中移除特定物件的第一次出現。 |
+| [CopyTo](../../aspose.slides.vba/vbamodulecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的 Array。 |
+| [GetEnumerator](../../aspose.slides.vba/vbamodulecollection/getenumerator)() | 傳回一個遍歷集合的列舉器。 |
+| [Remove](../../aspose.slides.vba/vbamodulecollection/remove)(IVbaModule) | 從集合中移除特定物件的第一個出現項目。 |
 
 ### 另請參閱
 

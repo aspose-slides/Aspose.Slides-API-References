@@ -1,9 +1,9 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta una linea scritta a mano in un oggetto Ink.
 type: docs
-weight: 7520
+weight: 7540
 url: /it/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace interfaccia
@@ -18,8 +18,8 @@ public interface IInkTrace
 
 | Nome | Descrizione |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Ottiene Brush per l'IInkLine [`IInkBrush`](../iinkbrush) di sola lettura. |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Ottiene i punti per l'IInkLine PointF di sola lettura. |
+| [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Ottiene Brush per la IInkLine [`IInkBrush`](../iinkbrush) Solo lettura. |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Ottiene punti per la IInkLine PointF Solo lettura. |
 
 ### Vedi anche
 

@@ -18,20 +18,20 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | 이름 | 설명 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 변경 가능한 조정 값이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 변경 가능한 화살표 머리 모양이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | 기본 IBaseShapeLock 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | 크기 조절 시 모양이 가로 세로 비율을 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | 조정값 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | 화살표 모양 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | 기본 IBaseShapeLock 인터페이스를 가져올 수 있도록 합니다. 읽기 전용 [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | 크기 조정 시 형상의 가로 세로 비율을 유지해야 하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | 이미지 자르기가 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | 이 모양의 윤곽을 직접 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | 이 모양을 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | 이 모양을 이동하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | 이 모양의 회전 각도를 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | 이 모양을 선택하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 모양 유형을 변경하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | 이 모양의 크기 조정을 금지하는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | 이 형상의 외곽선 직접 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | 이 형상을 그룹에 추가하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | 이 형상을 이동하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | 이 형상의 회전 각도 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | 이 형상을 선택하는 것이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | 형식 변경이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | 이 형상의 크기 조정이 금지되는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IBaseShapeLock](../ibaseshapelock)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

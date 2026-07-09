@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một tập hợp các layout slide của master slide đã định nghĩa. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản layout slide trong ngữ cảnh của các tập hợp layout slide riêng của master.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một tập hợp của tất cả các slide bố cục của slide master đã định nghĩa. Kế thừa giao diện ILayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản slide bố cục trong bối cảnh của các tập hợp riêng lẻ của các slide bố cục của master.
 type: docs
 weight: 6380
 url: /vi/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection giao diện
 
-Đại diện cho một tập hợp các layout slides của master slide đã định nghĩa. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản các layout slides trong ngữ cảnh của các tập hợp layout slides riêng của master.
+Biểu diễn một tập hợp của tất cả các slide bố cục của slide master đã định nghĩa. Kế thừa giao diện ILayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản slide bố cục trong bối cảnh của các tập hợp riêng lẻ của các slide bố cục của master.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -24,14 +24,14 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Thêm một layout slide mới vào cuối tập hợp. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Thêm một bản sao của layout slide được chỉ định vào cuối tập hợp. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Chèn một layout slide mới vào vị trí chỉ định của tập hợp. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Chèn một bản sao của layout slide được chỉ định vào vị trí chỉ định của tập hợp. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Thêm một slide bố cục mới vào cuối tập hợp. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Thêm một bản sao của slide bố cục đã chỉ định vào cuối tập hợp. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Chèn một slide bố cục mới vào vị trí được chỉ định của tập hợp. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Chèn một bản sao của slide bố cục đã chỉ định vào vị trí được chỉ định của tập hợp. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của tập hợp. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Di chuyển layout slide từ tập hợp đến vị trí chỉ định. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Di chuyển slide bố cục từ tập hợp tới vị trí được chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ILayoutSlideCollection](../ilayoutslidecollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)

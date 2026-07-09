@@ -1,46 +1,46 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: مرجع API Aspose.Sildes برای .NET
-description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر پاراگراف است.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: شیء غیرقابل تغییر که شامل ویژگی‌های فرمت مؤثر پاراگراف است.
 type: docs
 weight: 6600
 url: /fa/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر پاراگراف است.
+شیء غیرقابل تغییر که شامل ویژگی‌های فرمت مؤثر پاراگراف است.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | تراز متن در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | یک قالب گلوله‌ای از یک پاراگراف را برمی‌گرداند. فقط‌خواندنی [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | قالب پیش‌فرض بخش یک پاراگراف را برمی‌گرداند. فقط‌خواندنی [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | اندازه پیش‌فرض تب را برمی‌گرداند. فقط‌خواندنی Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | عمق یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | تعیین می‌کند که آیا شکست خط شرق آسیا در یک پاراگراف استفاده می‌شود یا نه. فقط‌خواندنی Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | تراز قلم در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | تعیین می‌کند که آیا نقطه‌گذاری معلق در یک پاراگراف استفاده می‌شود یا نه. فقط‌خواندنی Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | تورفتگی خط اول/تورفتگی معلق پاراگراف را برمی‌گرداند. تورفتگی معلق می‌تواند با مقادیر منفی تعریف شود. فقط‌خواندنی Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | تعیین می‌کند که آیا شکست خط لاتین در یک پاراگراف استفاده می‌شود یا نه. فقط‌خواندنی Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | حاشیه چپ در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | حاشیه راست در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | تعیین می‌کند که آیا نوشتن از راست به چپ در یک پاراگراف استفاده می‌شود یا نه. فقط‌خواندنی Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | مقدار فاصله پس از خط آخر در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | مقدار فاصله قبل از خط اول در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | مقدار فاصله بین خطوط پایه در یک پاراگراف را برمی‌گرداند. فقط‌خواندنی Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | تب‌های یک پاراگراف را برمی‌گرداند. فقط‌خواندنی [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | ترازبندی متن در یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | قالب گلوله‌ای یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | قالب بخش پیش‌فرض یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | اندازه پیش‌فرض تب را برمی‌گرداند. فقط-خواندنی Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | عمق یک پاراگراف را برمی‌گرداند. فقط-خواندنی Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | مشخص می‌کند که آیا شکست خط شرق-آسایی در یک پاراگراف استفاده می‌شود یا نه. فقط-خواندنی Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | تراز قلم در یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | مشخص می‌کند که آیا نقطه‌گذاری معلق در یک پاراگراف استفاده می‌شود یا نه. فقط-خواندنی Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | تو رفتگی خط اول/تو رفتگی معلق پاراگراف را برمی‌گرداند. تو رفتگی معلق می‌تواند با مقادیر منفی تعریف شود. فقط-خواندنی Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | مشخص می‌کند که آیا شکست خط لاتین در یک پاراگراف استفاده می‌شود یا نه. فقط-خواندنی Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | حاشیهٔ چپ در یک پاراگراف را برمی‌گرداند. فقط-خواندنی Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | حاشیهٔ راست در یک پاراگراف را برمی‌گرداند. فقط-خواندنی Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | مشخص می‌کند که آیا نوشتن راست به چپ در یک پاراگراف استفاده می‌شود یا نه. فقط-خواندنی Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | مقدار فضای پس از آخرین خط در یک پاراگراف را برمی‌گرداند. فقط-خواندنی Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | مقدار فضای قبل از اولین خط در یک پاراگراف را برمی‌گرداند. فقط-خواندنی Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | مقدار فضای بین خطوط پایه در یک پاراگراف را برمی‌گرداند. فقط-خواندنی Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | تب‌های یک پاراگراف را برمی‌گرداند. فقط-خواندنی [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
-### توضیحات
+### یادداشت‌ها
 
-این رابط همراه با رابط [`IParagraphFormat`](../iparagraphformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال وراثت استفاده می‌شود.
+این رابط همراه با رابط [`IParagraphFormat`](../iparagraphformat) برای بازگرداندن مقادیر فرمت مؤثر با اعمال وراثت استفاده می‌شود.
 
-### مراجع
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

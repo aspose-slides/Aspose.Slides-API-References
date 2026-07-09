@@ -3,12 +3,12 @@ title: IConnector
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje łącznik.
 type: docs
-weight: 5590
+weight: 5610
 url: /pl/aspose.slides/iconnector/
 ---
 ## IConnector interfejs
 
-Represents a connector.
+Reprezentuje łącznik.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -20,17 +20,17 @@ public interface IConnector : IGeometryShape
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Umożliwia pobranie podstawowego interfejsu IGeometryShape. Tylko do odczytu [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Zwraca blokady Connectora. Tylko do odczytu [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Zwraca lub ustawia kształt, do którego ma być podłączony koniec łącznika. Odczyt/zapis [`IShape`](../ishape). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Zwraca lub ustawia kształt, do którego podłącza się koniec łącznika. Odczyt/zapis [`IShape`](../ishape). |
 | [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Zwraca lub ustawia indeks miejsca połączenia dla kształtu końcowego. Odczyt/zapis UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Zwraca blokady kształtu. Tylko do odczytu [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Zwraca lub ustawia kształt, do którego ma być podłączony początek łącznika. Odczyt/zapis [`IShape`](../ishape). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Zwraca lub ustawia kształt, do którego podłącza się początek łącznika. Odczyt/zapis [`IShape`](../ishape). |
 | [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Zwraca lub ustawia indeks miejsca połączenia dla kształtu początkowego. Odczyt/zapis UInt32. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Przekierowuje łącznik tak, aby wybrał najkrótszą możliwą ścieżkę pomiędzy kształtami, które łączy. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Przekierowuje łącznik tak, aby przyjął najkrótszą możliwą ścieżkę pomiędzy kształtami, które łączy. |
 
 ### Zobacz także
 

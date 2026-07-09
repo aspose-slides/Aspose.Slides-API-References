@@ -1,14 +1,14 @@
 ---
 title: OOXMLException
-second_title: Aspose.Sildes .NET API Referenciája
-description: Standard belső kivételtípust képvisel, amely az Office Open XML fájlformátummal kapcsolatos.
+second_title: Aspose.Sildes a .NET API referencia
+description: Szabványos belső kivételtípust képvisel, amely az Office Open XML fájlformátummal kapcsolatos.
 type: docs
-weight: 9180
+weight: 9200
 url: /hu/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException osztály
 
-A Office Open XML fájlformátummal kapcsolatos szabványos belső kivételtípust reprezentál.
+Az Office Open XML fájlformátummal kapcsolatos szabványos belső kivételtípust képviseli.
 
 ```csharp
 public class OOXMLException : Exception
@@ -19,8 +19,8 @@ public class OOXMLException : Exception
 | Név | Leírás |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Alapértelmezett konstruktor. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjunk ehhez a kivételhez. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor olyan kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Konstruktor, amely egy üzenetet és egy beágyazott kivételt tartalmazó kivételt hoz létre. |
 
 ### Lásd még
 

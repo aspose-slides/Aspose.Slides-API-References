@@ -1,14 +1,14 @@
 ---
 title: Portion
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά ένα τμήμα κειμένου μέσα σε μια παράγραφο κειμένου.
+second_title: Aspose.Sildes για .NET API Reference
+description: Αντιπροσωπεί ένα τμήμα κειμένου μέσα σε μια παράγραφο κειμένου.
 type: docs
-weight: 9440
+weight: 9460
 url: /el/aspose.slides/portion/
 ---
 ## Portion κλάση
 
-Αναπαριστά ένα τμήμα κειμένου μέσα σε μια παράγραφο κειμένου.
+Αντιπροσωπεύει ένα τμήμα κειμένου μέσα σε μια παράγραφο κειμένου.
 
 ```csharp
 public class Portion : IPortion
@@ -18,16 +18,16 @@ public class Portion : IPortion
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Portion](portion#constructor)() | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης Portion. |
-| [Portion](portion#constructor_1)(Portion) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης Portion. |
-| [Portion](portion#constructor_2)(string) | Αρχικοποιεί ένα νέο στιγμιότυπο της κλάσης Portion. |
+| [Portion](portion#constructor)() | Δημιουργεί ένα νέο στιγμιότυπο της κλάσης Portion. |
+| [Portion](portion#constructor_1)(Portion) | Δημιουργεί ένα νέο στιγμιότυπο της κλάσης Portion. |
+| [Portion](portion#constructor_2)(string) | Δημιουργεί ένα νέο στιγμιότυπο της κλάσης Portion. |
 
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Επιστρέφει ένα πεδίο αυτού του τμήματος. Μόνο για ανάγνωση [`IField`](../ifield). |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Επιστρέφει ένα αντικείμενο μορφοποίησης που περιέχει ρητά ορισμένες ιδιότητες μορφοποίησης του τμήματος κειμένου χωρίς κληρονομικότητα. Μόνο για ανάγνωση [`IPortionFormat`](../iportionformat). |
+| [Field](../../aspose.slides/portion/field) { get; } | Επιστρέφει ένα πεδίο αυτής της περιοχής. Μόνο για ανάγνωση [`IField`](../ifield). |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Επιστρέφει ένα αντικείμενο μορφοποίησης που περιέχει ρητά ορισμένες ιδιότητες μορφοποίησης του τμήματος κειμένου χωρίς κληρονομιά. Μόνο για ανάγνωση [`IPortionFormat`](../iportionformat). |
 | [Text](../../aspose.slides/portion/text) { get; set; } | Λαμβάνει ή ορίζει το απλό κείμενο ενός τμήματος. Ανάγνωση/εγγραφή String. |
 
 ## Μέθοδοι
@@ -36,8 +36,8 @@ public class Portion : IPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield#addfield)(IFieldType) | Μετατρέπει αυτό το τμήμα σε αυτόματα ενημερωμένο πεδίο. |
 | [AddField](../../aspose.slides/portion/addfield#addfield_1)(string) | Μετατρέπει αυτό το τμήμα σε αυτόματα ενημερωμένο πεδίο. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Λαμβάνει τις συντεταγμένες της αρχής του τμήματος. Η συντεταγμένη X του σημείου αντιπροσωπεύει την αρχή του τμήματος από τον πρώτο χαρακτήρα, συμπεριλαμβανομένου του αριστερού περιθώριου. Η συντεταγμένη Y περιλαμβάνει το πάνω περιθώριο. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Λαμβάνει τις συντεταγμένες του ορθογωνίου που περιορίζει το τμήμα. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές κειμένου στο τμήμα, συμπεριλαμβανομένων και των κενών. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Λαμβάνει τις συντεταγμένες της αρχής του τμήματος. Η συντεταγμένη X του σημείου αντιπροσωπεύει την αρχή του τμήματος από τον πρώτο χαρακτήρα, συμπεριλαμβανομένης της αριστερής πλευρικής απόστασης. Η συντεταγμένη Y περιλαμβάνει την άνω πλευρική απόσταση. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Λαμβάνει τις συντεταγμένες του ορθογωνίου που περικλείει το τμήμα. Το ορθογώνιο περιλαμβάνει όλες τις γραμμές κειμένου στο τμήμα, συμπεριλαμβανομένων των κενών. |
 | [RemoveField](../../aspose.slides/portion/removefield)() | Μετατρέπει αυτό το τμήμα πεδίου σε απλό τμήμα. |
 
 ### Δείτε επίσης

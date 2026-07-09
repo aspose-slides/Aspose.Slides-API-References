@@ -24,20 +24,20 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | 이름 | 설명 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지 여부를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지 여부를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | 모션 경로의 상대 각도를 설명합니다. 읽기/쓰기 Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | 애니메이션의 상대 오프셋 값을 설명합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | 애니메이션을 시작할 x/y 좌표를 지정합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | 모션 경로의 기준이 슬라이드 레이아웃이나 상위 개체와 같이 무엇에 상대적인지를 지정합니다. 읽기/쓰기 [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | 애니메이션 모션을 위한 좌표가 따라가는 경로 기본형을 지정합니다. 읽기/쓰기 [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | 형상이 이동될 때 모션 경로가 어떻게 움직이는지를 지정합니다. 읽기/쓰기 [`MotionPathEditMode`](../motionpatheditmode). |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | 애니메이션에 대한 상대 오프셋 값을 (백분율로) 설명합니다. 읽기/쓰기 PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | 애니메이션을 시작할 x/y 좌표를 (백분율로) 지정합니다. 읽기/쓰기 PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | 모션 경로의 원점이 슬라이드 레이아웃이나 상위 항목 등에 상대적인지를 지정합니다. 읽기/쓰기 [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | 애니메이션 동작을 위한 좌표와 함께 경로 기본 요소를 지정합니다. 읽기/쓰기 [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | 도형이 이동할 때 모션 경로가 어떻게 움직이는지를 지정합니다. 읽기/쓰기 [`MotionPathEditMode`](../motionpatheditmode). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 동작의 속성을 나타냅니다. 읽기 전용 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | X 각도로 모션 경로를 회전시키는 데 사용되는 회전 중심을 설명합니다. 읽기/쓰기 PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작의 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | 애니메이션 모션 효과의 목표 위치를 지정합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작에 대한 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | 애니메이션 모션 효과의 대상 위치를 (백분율로) 지정합니다. 읽기/쓰기 PointF. |
 
-### 참고
+### 참조
 
 * 클래스 [Behavior](../behavior)
 * 인터페이스 [IMotionEffect](../imotioneffect)

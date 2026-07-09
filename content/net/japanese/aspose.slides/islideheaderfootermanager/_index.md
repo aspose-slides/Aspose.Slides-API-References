@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライドのフッター、日付・時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+description: スライドのフッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 7050
+weight: 7070
 url: /ja/aspose.slides/islideheaderfootermanager/
 ---
-## ISlideHeaderFooterManager インターフェース
+## ISlideHeaderFooterManager インターフェイス
 
-スライドのフッター、日付・時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+スライドのフッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,11 +18,11 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager インターフェースを返します。 |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager インターフェイスを返します。 |
 
 ### 参照
 
-* インターフェース [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* インターフェイス [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)
 

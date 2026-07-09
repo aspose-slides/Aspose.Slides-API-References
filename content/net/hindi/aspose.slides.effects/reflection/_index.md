@@ -1,14 +1,14 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Reflection इफ़ेक्ट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक Reflection प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 3640
 url: /hi/aspose.slides.effects/reflection/
 ---
-## Reflection क्लास
+## Reflection वर्ग
 
-एक Reflection इफ़ेक्ट का प्रतिनिधित्व करता है।
+प्रतिबिंब प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -18,27 +18,27 @@ public sealed class Reflection : IReflection
 
 | नाम | विवरण |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | ब्लर त्रिज्या। पढ़ें/लिखें Double। |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | प्रतिबिंब की दिशा। पढ़ें/लिखें Single। |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | प्रतिबिंब की दूरी। पढ़ें/लिखें Double। |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | अंत अल्फा मान (प्रतिशत) की स्थिति (अल्फा ग्रेडिएंट रैंप के साथ) निर्धारित करता है। पढ़ें/लिखें Single। |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | अंत प्रतिबिंब अपारदर्शिता (प्रतिशत)। पढ़ें/लिखें Single। |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | प्रतिबिंब को ऑफ़सेट करने की दिशा निर्धारित करता है (कोण)। पढ़ें/लिखें Single। |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | ब्लर त्रिज्या। पढ़ें/लिखें Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | प्रतिबिंब की दिशा। पढ़ें/लिखें Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | प्रतिबिंब की दूरी। पढ़ें/लिखें Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | अंत अल्फा मान (percents) की अंत स्थिति (along the alpha gradient ramp) को निर्दिष्ट करता है। पढ़ें/लिखें Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | अंत प्रतिबिंब अपारदर्शिता। (percents). पढ़ें/लिखें Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | प्रतिबिंब को ऑफ़सेट करने की दिशा (angle) निर्दिष्ट करता है। पढ़ें/लिखें Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | आयत संरेखण। पढ़ें/लिखें [`RectangleAlignment`](../../aspose.slides/rectanglealignment)। |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | यदि आकार घुमाया गया है तो प्रतिबिंब को आकार के साथ घुमाने चाहिए या नहीं, यह निर्धारित करता है। पढ़ें/लिखें Boolean। |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | क्षैतिज स्केलिंग कारक निर्धारित करता है, नकारात्मक स्केलिंग फ़्लिप का कारण बनती है (प्रतिशत)। पढ़ें/लिखें Double। |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | लम्बवत स्केलिंग कारक निर्धारित करता है, नकारात्मक स्केलिंग फ़्लिप का कारण बनती है (प्रतिशत)। पढ़ें/लिखें Double। |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | क्षैतिज विकृति कोण निर्धारित करता है। पढ़ें/लिखें Double। |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | लम्बवत विकृति कोण निर्धारित करता है। पढ़ें/लिखें Double। |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | प्रारंभ अल्फा मान (प्रतिशत) की स्थिति (अल्फा ग्रेडिएंट रैंप के साथ) निर्धारित करता है। पढ़ें/लिखें Single। |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | प्रारंभिक प्रतिबिंब अपारदर्शिता (प्रतिशत)। पढ़ें/लिखें Single। |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | यह निर्दिष्ट करता है कि आकार घुमाया गया हो तो प्रतिबिंब आकार के साथ घूमें। पढ़ें/लिखें Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | क्षैतिज स्केलिंग कारक निर्दिष्ट करता है, नकारात्मक स्केलिंग फ्लिप का कारण बनती है। (percents) पढ़ें/लिखें Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | लंबवत स्केलिंग कारक निर्दिष्ट करता है, नकारात्मक स्केलिंग फ़्लिप का कारण बनती है। (percents) पढ़ें/लिखें Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | क्षैतिज विकृति कोण निर्दिष्ट करता है। पढ़ें/लिखें Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | लंबवत विकृति कोण निर्दिष्ट करता है। पढ़ें/लिखें Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | प्रारंभ अल्फा मान (percents) की प्रारंभ स्थिति (along the alpha gradient ramp) को निर्दिष्ट करता है। पढ़ें/लिखें Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | प्रारंभिक प्रतिबिंब अपारदर्शिता। (percents). पढ़ें/लिखें Single. |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`Reflection`](../reflection) वर्तमान [`Reflection`](../reflection) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | वंशानुगत लागू होने के साथ प्रभावी Reflection इफ़ेक्ट डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | विरासत लागू किए गए प्रभाव के साथ प्रभावी Reflection प्रभाव डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### देखें

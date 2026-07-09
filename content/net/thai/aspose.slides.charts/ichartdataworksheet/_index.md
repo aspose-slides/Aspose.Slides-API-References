@@ -1,7 +1,7 @@
 ---
 title: IChartDataWorksheet
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึง worksheet ที่เชื่อมโยงกับ IChartDataCell./ichartdatacell
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงแผ่นงานที่เชื่อมโยงกับ IChartDataCell./ichartdatacell
 type: docs
 weight: 1870
 url: /th/aspose.slides.charts/ichartdataworksheet/
@@ -18,8 +18,8 @@ public interface IChartDataWorksheet
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | รับค่า ดัชนี. อ่านอย่างเดียว Int32. |
-| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | รับค่า ชื่อ. อ่านอย่างเดียว String. |
+| [Index](../../aspose.slides.charts/ichartdataworksheet/index) { get; } | รับค่า index. อ่านอย่างเดียว Int32. |
+| [Name](../../aspose.slides.charts/ichartdataworksheet/name) { get; } | รับค่า name. อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

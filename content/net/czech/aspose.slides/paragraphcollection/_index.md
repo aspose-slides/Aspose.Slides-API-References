@@ -1,9 +1,9 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenční příručka
 description: Reprezentuje kolekci odstavců.
 type: docs
-weight: 9270
+weight: 9290
 url: /cs/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection třída
@@ -18,9 +18,9 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Získává počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Získává hodnotu určující, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Získává prvek na zadaném indexu. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Získá počet skutečně obsažených prvků v kolekci. Pouze pro čtení Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Získá hodnotu určující, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | Získá prvek na zadaném indexu. |
 
 ## Metody
 
@@ -32,9 +32,9 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 | [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Přidá text ze zadaného html řetězce do kolekce. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | Odstraní všechny prvky z kolekce. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopíruje prvky ICollection do pole, počínaje konkrétním indexem pole. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Převádí určené odstavce do HTML a vrátí je jako objekt String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Kopíruje prvky ICollection do pole, počínaje určeným indexem pole. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Převádí zadané odstavce na HTML a vrací jej jako objekt String. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
 | [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Určuje index konkrétní položky v IList. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Vloží Paragraph do kolekce na zadaném indexu. |
 | [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Vloží obsah ParagraphCollection do kolekce na zadaném indexu. |

@@ -1,6 +1,6 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示可用的漸層樣式。
 type: docs
 weight: 5060
@@ -19,9 +19,9 @@ public enum GradientStyle
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Default | `0` | 預設的漸層樣式。 |
-| PowerPointUI | `1` | 漸層樣式在 PowerPoint 使用者介面中的顯示方式。 |
+| PowerPointUI | `1` | 在 PowerPoint 使用者介面中顯示的漸層樣式。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

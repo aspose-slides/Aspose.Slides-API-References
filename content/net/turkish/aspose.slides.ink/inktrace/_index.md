@@ -1,14 +1,14 @@
 ---
 title: InkTrace
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir Trace nesnesini temsil eder. Bir Trace öğesi, dijitalleştirici tarafından yakalanan verileri kaydetmek için kullanılır. InkTraceFormat nesnesi tarafından verilen spesifikasyona göre kodlanmış bir nokta dizisi içerir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Trace nesnesini temsil eder. Bir Trace öğesi, dijital kesicinin yakaladığı verileri kaydetmek için kullanılır. InkTraceFormat nesnesi tarafından verilen özelliğe göre kodlanmış bir nokta dizisini içerir.
 type: docs
-weight: 7570
+weight: 7590
 url: /tr/aspose.slides.ink/inktrace/
 ---
 ## InkTrace sınıfı
 
-Bir Trace nesnesini temsil eder. Bir Trace öğesi, dijitalleştirici tarafından yakalanan verileri kaydetmek için kullanılır. InkTraceFormat nesnesi tarafından verilen spesifikasyona göre kodlanmış bir nokta dizisi içerir.
+Bir Trace nesnesini temsil eder. Bir Trace öğesi, dijital kesici tarafından yakalanan verileri kaydetmek için kullanılır. InkTraceFormat nesnesi tarafından verilen özelliklere göre kodlanmış bir nokta dizisini içerir.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | Ad | Açıklama |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush) için Brush alır. Yalnızca okunabilir. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | IInkLine PointF için noktaları alır. Yalnızca okunabilir. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | IInkLine için Brush alır [`IInkBrush`](../iinkbrush) Yalnızca okunur. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | IInkLine PointF için noktaları alır Yalnızca okunur. |
 
 ### Ayrıca Bakınız
 

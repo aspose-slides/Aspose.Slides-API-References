@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 提供對註解投影片佈景主題的覆寫存取。
+description: 提供對註腳投影片主題覆寫的存取。
 type: docs
 weight: 11450
 url: /zh-hant/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager 類別
 
-提供對註解投影片佈景主題的覆寫存取。
+提供對註腳投影片主題覆寫的存取。
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -16,17 +16,17 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 判斷 OverrideTheme 是否覆寫繼承的有效佈景主題。若要啟用 OverrideTheme 以進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 傳回覆寫佈景主題物件。可讀寫 [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 判斷 OverrideTheme 是否覆寫繼承的有效主題。若要啟用 OverrideTheme 進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫功能，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。可讀寫 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 將額外的色彩配置套用至投影片。 |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 傳回佈景主題物件。 |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 傳回主題物件。 |
 
 ### 另請參閱
 

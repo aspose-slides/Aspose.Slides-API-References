@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Paragrafo matematico che è un contenitore per blocchi matematici IMathBlock
+description: Paragrafo matematico che è un contenitore per i blocchi matematici IMathBlock
 type: docs
-weight: 8880
+weight: 8900
 url: /it/aspose.slides.mathtext/mathparagraph/
 ---
 ## classe MathParagraph
 
-Paragrafo matematico che è un contenitore per blocchi matematici (IMathBlock)
+Paragrafo matematico che è un contenitore per i blocchi matematici (IMathBlock)
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -25,22 +25,22 @@ public class MathParagraph : IMathParagraph
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Ottiene il numero di elementi effettivamente contenuti nella collezione. Solo lettura Int32. |
-| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Ottiene l'elemento all'indice specificato. Solo lettura [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Valore predefinito: CenteredAsGroup |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Restituisce il numero di elementi effettivamente contenuti nella raccolta. Sola lettura Int32. |
+| [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Restituisce l'elemento all'indice specificato. Sola lettura [`IMathBlock`](../imathblock). |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Allineamento del paragrafo Valore predefinito: CenteredAsGroup |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Aggiunge IMathBlock alla fine della collezione. |
-| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Rimuove tutti gli elementi dalla collezione. |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Determina se la collezione contiene un valore specifico. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Determina l'indice di un IMathBlock specifico nella collezione. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserisce IMathBlock nella collezione all'indice specificato. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Rimuove la prima occorrenza di un oggetto specifico dalla collezione/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Rimuove un elemento all'indice specificato della collezione. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Ottiene l'equazione matematica in formato LaTeX |
+| [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Aggiunge IMathBlock alla fine della raccolta. |
+| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Rimuove tutti gli elementi dalla raccolta. |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Determina se la raccolta contiene un valore specifico. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Determina l'indice di un IMathBlock specifico nella raccolta. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Inserisce IMathBlock nella raccolta all'indice specificato. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Rimuove la prima occorrenza di un oggetto specifico dalla raccolta/>. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Rimuove un elemento all'indice specificato della raccolta. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Restituisce l'equazione matematica in formato LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Salva il contenuto di questo [`MathParagraph`](../mathparagraph) come MathML |
 
 ### Esempi
@@ -54,7 +54,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Vedere anche
+### Vedi anche
 
 * interfaccia [IMathParagraph](../imathparagraph)
 * spazio dei nomi [Aspose.Slides.MathText](../../aspose.slides.mathtext)

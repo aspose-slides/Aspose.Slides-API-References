@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes .NET API Referansı
-description: Etkin yazı tipleri kümesini içeren değişmez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkin yazı tiplerini içeren değişmez nesne.
 type: docs
-weight: 5890
+weight: 5910
 url: /tr/aspose.slides/ifontseffectivedata/
 ---
-## IFontsEffectiveData arayüz
+## IFontsEffectiveData arabirimi
 
-Etkin yazı tipleri kümesini içeren değişmez nesne.
+Etkin yazı tiplerini içeren değişmez nesne.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -16,17 +16,17 @@ public interface IFontsEffectiveData
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Karmaşık betik yazı tipini döndürür. Yalnızca okuma [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Doğu Asya yazı tipini döndürür. Yalnızca okuma [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Latin yazı tipini döndürür. Yalnızca okuma [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Karmaşık betik yazı tipini döndürür. Salt okunur [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Doğu Asya yazı tipini döndürür. Salt okunur [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Latin yazı tipini döndürür. Salt okunur [`IFontData`](../ifontdata). |
 
 ### Açıklamalar
 
-Bu arayüz, [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) ve [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) arayüzlerinin bir parçası olarak kullanılır.
+Bu arabirim, [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) ve [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) arabirimlerinin bir parçası olarak kullanılır.
 
-### Bkz.
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

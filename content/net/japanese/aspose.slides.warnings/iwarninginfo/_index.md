@@ -1,14 +1,14 @@
 ---
 title: IWarningInfo
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべての警告の基本インターフェイスを表します。
+description: すべての警告のベースインターフェイスを表します。
 type: docs
-weight: 11790
+weight: 11810
 url: /ja/aspose.slides.warnings/iwarninginfo/
 ---
 ## IWarningInfo インターフェイス
 
-すべての警告の基本インターフェイスを表します。
+すべての警告のベースインターフェイスを表します。
 
 ```csharp
 public interface IWarningInfo
@@ -18,14 +18,14 @@ public interface IWarningInfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | この警告の人間が読みやすい説明を返します。読み取り専用 String。 |
-| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 警告の種類を返します。読み取り専用 [`WarningType`](./warningtype)。 |
+| [Description](../../aspose.slides.warnings/iwarninginfo/description) { get; } | この警告の人間が読める説明を返します。読み取り専用 String。 |
+| [WarningType](../../aspose.slides.warnings/iwarninginfo/warningtype) { get; } | 警告のタイプを返します。読み取り専用 [`WarningType`](./warningtype)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | receiver が null でない場合、指定された受信者に警告を終了し、受信者が操作の中止を決定した場合は AbortRequestedException をスローします。 |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | receiver が null でない場合、指定されたレシーバーに警告を終了し、レシーバーが操作の中止を決定した場合は AbortRequestedException をスローします。 |
 
 ### 参照
 

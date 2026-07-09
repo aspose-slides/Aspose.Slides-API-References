@@ -1,14 +1,14 @@
 ---
 title: IAdjustValue
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형의 기하학적 조정 값을 나타냅니다. 이러한 값은 도형의 형태에 영향을 줍니다.
+description: 기하학적 도형의 조정 값을 나타냅니다. 이러한 값은 도형의 형태에 영향을 줍니다.
 type: docs
 weight: 5180
 url: /ko/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue 인터페이스
 
-도형의 조정 값을 나타냅니다. 이 값들은 도형의 형태에 영향을 줍니다.
+기하학적 도형의 조정 값을 나타냅니다. 이러한 값은 도형의 형태에 영향을 줍니다.
 
 ```csharp
 public interface IAdjustValue
@@ -18,7 +18,7 @@ public interface IAdjustValue
 
 | 이름 | 설명 |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 값을 반환하거나 설정합니다. 값을 각도(도)로 해석합니다. 읽기/쓰기 Single. |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 값을 반환하거나 설정합니다. 각도(도)로 해석합니다. 읽기/쓰기 Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | 이 조정 값의 이름을 반환합니다. 읽기 전용 String. |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | 조정 값을 그대로 반환하거나 설정합니다. 읽기/쓰기 Int64. |
 | [Type](../../aspose.slides/iadjustvalue/type) { get; } | 도형 조정의 유형을 반환합니다. 읽기 전용 [`ShapeAdjustmentType`](../shapeadjustmenttype). |

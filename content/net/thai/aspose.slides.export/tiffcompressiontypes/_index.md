@@ -8,7 +8,7 @@ url: /th/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes enumeration
 
-ให้ตัวเลือกที่ควบคุมวิธีการบีบอัดการนำเสนอในรูปแบบ TIFF.
+ให้ตัวเลือกที่ควบคุมการบีบอัดการนำเสนอในรูปแบบ TIFF.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -18,12 +18,12 @@ public enum TiffCompressionTypes
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Default | `0` | ระบุโครงสร้างการบีบอัดเริ่มต้น (LZW). |
+| Default | `0` | ระบุโหมดการบีบอัดเริ่มต้น (LZW). |
 | None | `1` | ระบุว่าไม่มีการบีบอัด. |
-| CCITT3 | `2` | ระบุโครงสร้างการบีบอัด CCITT3. |
-| CCITT4 | `3` | ระบุโครงสร้างการบีบอัด CCITT4. |
-| LZW | `4` | ระบุโครงสร้างการบีบอัด LZW (ค่าเริ่มต้น). |
-| RLE | `5` | ระบุโครงสร้างการบีบอัด RLE. |
+| CCITT3 | `2` | ระบุโหมดการบีบอัด CCITT3. |
+| CCITT4 | `3` | ระบุโหมดการบีบอัด CCITT4. |
+| LZW | `4` | ระบุโหมดการบีบอัด LZW (Default). |
+| RLE | `5` | ระบุโหมดการบีบอัด RLE. |
 
 ### ดูเพิ่มเติม
 

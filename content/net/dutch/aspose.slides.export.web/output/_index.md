@@ -1,14 +1,14 @@
 ---
 title: Output
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een verzameling outputelementen voor IWebDocument.
+description: Stelt een verzameling uitvoerelementen voor IWebDocument voor.
 type: docs
 weight: 4640
 url: /nl/aspose.slides.export.web/output/
 ---
-## Outputklasse
+## Output klasse
 
-Vertegenwoordigt een verzameling outputelementen voor !:IWebDocument.
+Biedt een verzameling uitvoerelementen voor !:IWebDocument.
 
 ```csharp
 public sealed class Output
@@ -18,14 +18,14 @@ public sealed class Output
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Voegt een outputelement toe voor de afbeelding. |
-| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Voegt een outputelement toe voor de afbeelding. |
-| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Voegt een outputelement toe voor de video. |
-| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Voegt een outputelement toe voor de tekstinhoud. |
-| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Maakt een outputbestandselement aan en voegt dit toe voor het opgegeven lettertype. |
-| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Voegt een outputelement toe voor het contextobject. |
-| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Koppelt bron aan outputbestand. |
-| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Retourneert het pad voor een opgegeven bron. |
+| [Add](../../aspose.slides.export.web/output/add#add_1)(string, IImage) | Voegt een uitvoerelement toe voor de afbeelding. |
+| [Add](../../aspose.slides.export.web/output/add#add_2)(string, IPPImage) | Voegt een uitvoerelement toe voor de afbeelding. |
+| [Add](../../aspose.slides.export.web/output/add#add_3)(string, IVideo) | Voegt een uitvoerelement toe voor de video. |
+| [Add](../../aspose.slides.export.web/output/add#add_4)(string, string) | Voegt een uitvoerelement toe voor de tekstinhoud. |
+| [Add](../../aspose.slides.export.web/output/add#add)(string, IFontData, FontStyleType) | Maakt een uitvoerbestandselement aan en voegt dit toe voor het opgegeven lettertype. |
+| [Add&lt;TContextObject&gt;](../../aspose.slides.export.web/output/add#add_5)(string, string, TContextObject) | Voegt een uitvoerelement toe voor het contextobject. |
+| [BindResource](../../aspose.slides.export.web/output/bindresource)(IOutputFile, object) | Bindt resource aan uitvoerbestand. |
+| [GetResourcePath](../../aspose.slides.export.web/output/getresourcepath)(object) | Retourneert het pad voor een gegeven resource. |
 
 ### Zie ook
 

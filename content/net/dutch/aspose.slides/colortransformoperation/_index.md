@@ -1,14 +1,14 @@
 ---
 title: ColorTransformOperation
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Definieert kleurtransformatie-operatie.
+description: Definieert kleurtransformatieoperatie.
 type: docs
 weight: 2570
 url: /nl/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation enumeratie
 
-Definieert kleurtransformatie-operatie.
+Definieert kleurtransformatieoperatie.
 
 ```csharp
 public enum ColorTransformOperation
@@ -18,34 +18,34 @@ public enum ColorTransformOperation
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Tint | `0` | Past een tint toe op de kleur. Parameter ligt in het bereik tussen 0 (originele kleur) en 1 (wit). |
-| Shade | `1` | Verduistert de kleur. Parameter ligt in het bereik tussen 0 (originele kleur) en 1 (zwart). |
+| Tint | `0` | Past een tint toe op de kleur. Parameter ligt in bereik tussen 0 (originele kleur) en 1 (wit). |
+| Shade | `1` | Schaduwt de kleur. Parameter ligt in bereik tussen 0 (originele kleur) en 1 (zwart). |
 | Complement | `2` | Wijzigt de kleur naar een RGB complementaire kleur. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
 | Inverse | `3` | Wijzigt de kleur naar een omgekeerde kleur. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Wijzigt de kleur naar een grijze kleur met dezelfde helderheid. Parameter wordt genegeerd. |
-| SetAlpha | `5` | Definieert een alfa-component van de kleur. Parameter ligt in het bereik tussen 0 (transparant) en 1 (ondoorzichtig). |
-| AddAlpha | `6` | Voegt de waarde van een parameter toe aan een alfa-component van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
-| MultiplyAlpha | `7` | Vermenigvuldigt een alfa-component met de waarde van een parameter. |
-| SetHue | `8` | Wijzigt een tintcomponent van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 360. |
-| AddHue | `9` | Voegt de waarde van een parameter toe aan de tintcomponent van de kleur. Parameter ligt in het bereik tussen -360 en 360. |
+| Grayscale | `4` | Wijzigt de kleur naar een grijze tint met dezelfde lichtheid. Parameter wordt genegeerd. |
+| SetAlpha | `5` | Definieert een alfabestanddeel van de kleur. Parameter ligt in bereik tussen 0 (transparant) en 1 (ondoorzichtig). |
+| AddAlpha | `6` | Voegt de waarde van een parameter toe aan een alfabestanddeel van de kleur. Parameter ligt in bereik tussen -1 en 1. |
+| MultiplyAlpha | `7` | Vermenigvuldigt een alfabestanddeel met de waarde van een parameter. |
+| SetHue | `8` | Wijzigt een tintcomponent van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 360. |
+| AddHue | `9` | Voegt de waarde van een parameter toe aan de tintcomponent van de kleur. Parameter ligt in bereik tussen -360 en 360. |
 | MultiplyHue | `10` | Vermenigvuldigt een tintcomponent met de waarde van een parameter. |
-| SetSaturation | `11` | Wijzigt een verzadigingscomponent van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 1. |
-| AddSaturation | `12` | Voegt de waarde van een parameter toe aan een verzadigingscomponent van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
+| SetSaturation | `11` | Wijzigt een verzadigingscomponent van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 1. |
+| AddSaturation | `12` | Voegt de waarde van een parameter toe aan een verzadigingscomponent van de kleur. Parameter ligt in bereik tussen -1 en 1. |
 | MultiplySaturation | `13` | Vermenigvuldigt een verzadigingscomponent met de waarde van een parameter. |
-| SetLuminance | `14` | Wijzigt een luminantiecomponent van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 1. |
-| AddLuminance | `15` | Voegt de waarde van een parameter toe aan een luminantiecomponent van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
+| SetLuminance | `14` | Wijzigt een luminantiecomponent van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 1. |
+| AddLuminance | `15` | Voegt de waarde van een parameter toe aan een luminantiecomponent van de kleur. Parameter ligt in bereik tussen -1 en 1. |
 | MultiplyLuminance | `16` | Vermenigvuldigt een luminantiecomponent met de waarde van een parameter. |
-| SetRed | `17` | Wijzigt een rode component van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 1. |
-| AddRed | `18` | Voegt de waarde van een parameter toe aan een rode component van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
+| SetRed | `17` | Wijzigt een rode component van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 1. |
+| AddRed | `18` | Voegt de waarde van een parameter toe aan een rode component van de kleur. Parameter ligt in bereik tussen -1 en 1. |
 | MultiplyRed | `19` | Vermenigvuldigt een rode component met een parameter. |
-| SetGreen | `20` | Wijzigt een groene component van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 1. |
-| AddGreen | `21` | Voegt een parameter toe aan een groene component van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
+| SetGreen | `20` | Wijzigt een groene component van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 1. |
+| AddGreen | `21` | Voegt een parameter toe aan een groene component van de kleur. Parameter ligt in bereik tussen -1 en 1. |
 | MultiplyGreen | `22` | Vermenigvuldigt een groene component van de kleur met de waarde van een parameter. |
-| SetBlue | `23` | Wijzigt een blauwe component van de kleur naar de waarde van een parameter. Parameter ligt in het bereik tussen 0 en 360. |
-| AddBlue | `24` | Voegt de waarde van een parameter toe aan een blauwe component van de kleur. Parameter ligt in het bereik tussen -1 en 1. |
-| MultiplyBlue | `25` | Vermenigvuldigt een blauwe component met de waarde van een parameter. |
+| SetBlue | `23` | Wijzigt een blauwe component van de kleur naar de waarde van een parameter. Parameter ligt in bereik tussen 0 en 360. |
+| AddBlue | `24` | Voegt de waarde van een parameter toe aan een blauwe component van de kleur. Parameter ligt in bereik tussen -1 en 1. |
+| MultiplyBlue | `25` | Vermenigvuldigt een blauwe component van de kleur met de waarde van een parameter. |
 | Gamma | `26` | Gamma-correctie. Parameter wordt genegeerd. |
-| InverseGamma | `27` | Omgekeerde gamma-correctie. Parameter wordt genegeerd. |
+| InverseGamma | `27` | Inverse gamma-correctie. Parameter wordt genegeerd. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IChartPortionFormat
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa as propriedades de formatação de partes de gráfico usadas em gráficos.
+description: Representa as propriedades de formatação de porções de gráfico usadas em gráficos.
 type: docs
-weight: 1900
+weight: 1920
 url: /pt/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat interface
 
-Representa as propriedades de formatação de partes de gráfico usadas em gráficos.
+Representa as propriedades de formatação de porções de gráfico usadas em gráficos.
 
 ```csharp
 public interface IChartPortionFormat : IBasePortionFormat

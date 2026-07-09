@@ -1,9 +1,9 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje formát tabulky.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje formát tabulky.
 type: docs
-weight: 10850
+weight: 10870
 url: /cs/aspose.slides/tableformat/
 ---
 ## TableFormat třída
@@ -18,14 +18,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Název | Popis |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Vrací objekt vlastností výplně tabulky. Jen pro čtení [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Vrací objekt vlastností výplně tabulky. Pouze pro čtení [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Získá nebo nastaví průhlednost barvy výplně. Čtení/zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Získá efektivní vlastnosti formátování tabulky s děděním a aplikovanými styly tabulky. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Získá efektivní vlastnosti formátování tabulky s dědičností a aplikovanými styly tabulky. |
 
 ### Viz také
 

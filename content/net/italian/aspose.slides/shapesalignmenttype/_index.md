@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Definisce un modo per modificare il posizionamento delle forme selezionate nella diapositiva.
+description: Definisce un modo per modificare la posizione delle forme selezionate nella diapositiva.
 type: docs
-weight: 9920
+weight: 9940
 url: /it/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enumerazione
 
-Definisce un modo per modificare il posizionamento delle forme selezionate nella diapositiva.
+Definisce un modo per modificare la posizione delle forme selezionate nella diapositiva.
 
 ```csharp
 public enum ShapesAlignmentType

@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형의 3D 베벨을 정의하는 상수들.
+second_title: Aspose.Sildes for .NET API 참조
+description: 쉐이프의 3D 베벨을 정의하는 상수입니다.
 type: docs
 weight: 1010
 url: /ko/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType 열거형
 
-도형의 3D 베벨을 정의하는 상수들.
+쉐이프의 3D 베벨을 정의하는 상수입니다.
 
 ```csharp
 public enum BevelPresetType
@@ -32,7 +32,7 @@ public enum BevelPresetType
 | Slope | `10` |  |
 | SoftRound | `11` |  |
 
-### 참고
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

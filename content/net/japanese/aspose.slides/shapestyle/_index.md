@@ -1,9 +1,9 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: シェイプのスタイル参照を表します。
 type: docs
-weight: 9890
+weight: 9910
 url: /ja/aspose.slides/shapestyle/
 ---
 ## ShapeStyle クラス
@@ -19,13 +19,13 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 | 名前 | 説明 |
 | --- | --- |
 | [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | シェイプのエフェクトカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | スタイル行列内のシェイプのエフェクト列インデックスを取得または設定します。読み書き UInt32。 |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | シェイプのエフェクト列インデックスをスタイルマトリックスで取得または設定します。読み書き可能 UInt32。 |
 | [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | シェイプの塗りつぶしカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | スタイル行列内のシェイプの塗りつぶし列インデックスを取得または設定します。0 は塗りつぶしなし、正の値はテーマの塗りつぶしスタイルのインデックス、負の値はテーマの背景スタイルのインデックスを表します。読み書き Int16。 |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | フォントコレクション内のシェイプのフォントインデックスを取得または設定します。読み書き [`FontCollectionIndex`](../fontcollectionindex)。 |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | シェイプの塗りつぶし列インデックスをスタイルマトリックスで取得または設定します。0 は塗りつぶしなしを意味し、正の値はテーマの塗りつぶしスタイルのインデックス、負の値はテーマの背景スタイルのインデックスです。読み書き可能 Int16。 |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | シェイプのフォントインデックスをフォントコレクションで取得または設定します。読み書き可能 [`FontCollectionIndex`](../fontcollectionindex)。 |
 | [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | シェイプのフォントカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | シェイプの輪郭カラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | スタイル行列内の線の列インデックスを取得または設定します。読み書き UInt16。 |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | シェイプのアウトラインカラーを返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | ラインの列インデックスをスタイルマトリックスで取得または設定します。読み書き可能 UInt16。 |
 
 ### 参照
 

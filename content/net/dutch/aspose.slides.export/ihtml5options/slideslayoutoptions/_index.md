@@ -1,7 +1,7 @@
 ---
 title: SlidesLayoutOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Haalt op of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+description: Haalt of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
 url: /nl/aspose.slides.export/ihtml5options/slideslayoutoptions/

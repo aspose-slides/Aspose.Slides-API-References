@@ -19,11 +19,11 @@ public interface IRenderingOptions : ISaveOptions
 | 이름 | 설명 |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions 인터페이스를 반환합니다. 읽기 전용 [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 텍스트가 합자(ligature)를 사용하지 않고 렌더링되는지를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면 렌더링 출력에서 합자가 비활성화됩니다. 기본값은 `false` 입니다. |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | 텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면, 렌더링 출력에서 리가처가 비활성화됩니다. 기본값은 `false` 로 설정됩니다. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | 내보낸 문서에서 Ink 객체의 모양을 제어하는 옵션을 제공합니다. 읽기 전용 [`IInkOptions`](../iinkoptions) |
 | [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
-### 예시
+### 예제
 
 ```csharp
 [C#]
@@ -42,7 +42,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

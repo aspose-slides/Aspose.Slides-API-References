@@ -6,7 +6,7 @@ type: docs
 weight: 6260
 url: /vi/aspose.slides/ilicense/
 ---
-## giao diện ILicense
+## ILicense giao diện
 
 Cung cấp các phương thức để cấp phép cho thành phần.
 
@@ -16,12 +16,12 @@ public interface ILicense
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Kiểm tra xem giấy phép đã được áp dụng cho thành phần hay chưa |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Đặt lại giấy phép |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Cấp giấy phép cho thành phần. |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Cấp giấy phép cho thành phần. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Cấp phép cho thành phần. |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Cấp phép cho thành phần. |
 
 ### Ví dụ
 

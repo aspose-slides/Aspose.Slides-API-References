@@ -3,7 +3,7 @@ title: ILayoutSlide
 second_title: Aspose.Sildes for .NET API リファレンス
 description: レイアウト スライドを表します。
 type: docs
-weight: 6200
+weight: 6220
 url: /ja/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide インターフェイス
@@ -20,12 +20,12 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | ベースの IBaseSlide インターフェイスを取得できます。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | レイアウト スライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | このレイアウト スライドに依存するスライドが少なくとも1つ存在する場合は true を返します。読み取り専用 Boolean。 |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | レイアウト スライドの HeaderFooter マネージャを返します。読み取り専用 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | レイアウト スライドの描画ガイドのコレクションを返します。読み取り専用 [`IDrawingGuidesCollection`](../idrawingguidescollection)。 |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | このレイアウト スライドに依存するスライドが少なくとも1つ存在する場合に true を返します。読み取り専用 Boolean。 |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | レイアウト スライドの HeaderFooter マネージャーを返します。読み取り専用 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager)。 |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | このレイアウト スライドのレイアウト タイプを返します。読み取り専用 [`SlideLayoutType`](../slidelayouttype)。 |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | レイアウトのマスタースライドを取得または設定します。読み書き [`IMasterSlide`](../imasterslide)。 |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | レイアウト スライドのプレースホルダー マネージャを返します。読み取り専用 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | レイアウトのマスター スライドを取得または設定します。読み書き可能 [`IMasterSlide`](../imasterslide)。 |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | レイアウト スライドのプレースホルダー マネージャーを返します。読み取り専用 [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager)。 |
 
 ## メソッド
 

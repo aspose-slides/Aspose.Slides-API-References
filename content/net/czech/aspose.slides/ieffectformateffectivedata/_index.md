@@ -1,12 +1,12 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Sildes pro .NET - referenční příručka API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování efektů.
 type: docs
-weight: 5730
+weight: 5750
 url: /cs/aspose.slides/ieffectformateffectivedata/
 ---
-## Rozhraní IEffectFormatEffectiveData
+## IEffectFormatEffectiveData rozhraní
 
 Neměnný objekt, který obsahuje efektivní vlastnosti formátování efektů.
 
@@ -23,7 +23,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 | [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efekt překrytí výplní. Pouze pro čtení [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
 | [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efekt záře. Pouze pro čtení [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Vnitřní stín. Pouze pro čtení [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty zakázány (jako právě vytvořený výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Vrací true, pokud jsou všechny efekty zakázány (při novém vytvoření, výchozí objekt EffectFormat). Pouze pro čtení Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Vnější stín. Pouze pro čtení [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Přednastavený stín. Pouze pro čtení [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
 | [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Odraz. Pouze pro čtení [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
@@ -31,7 +31,7 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`IEffectFormat`](../ieffectformat) k vrácení efektivních hodnot formátování s použitím dědičnosti.
+Toto rozhraní se používá spolu s rozhraním [`IEffectFormat`](../ieffectformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

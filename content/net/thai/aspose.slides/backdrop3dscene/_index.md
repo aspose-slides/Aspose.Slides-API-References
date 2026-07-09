@@ -1,39 +1,39 @@
 ---
 title: Backdrop3DScene
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: กำหนดระนาบที่เอฟเฟกต์ เช่น แสงเรืองและเงา ถูกนำไปใช้สัมพันธ์กับรูปร่างที่กำลังนำไปใช้
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: กำหนดระนาบที่เอฟเฟกต์อย่างเช่นแสงเรืองและเงาถูกนำไปใช้สัมพันธ์กับรูปทรงที่กำลังนำไปใช้
 type: docs
 weight: 920
 url: /th/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene คลาส
 
-กำหนดระนาบที่เอฟเฟกต์ เช่น แสงเรืองรัตและเงา จะถูกนำไปใช้สัมพันธ์กับรูปร่างที่กำลังนำไปใช้
+กำหนดระนาบที่เอฟเฟกต์ต่าง ๆ เช่น แสงเรืองและเงา ถูกนำไปใช้สัมพันธ์กับรูปร่างที่กำลังนำไปใช้
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 ```
 
-## Properties
+## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | คืนค่าหรือกำหนดจุดในพื้นที่ 3D จุดนี้เป็นจุดในอวกาศที่เป็นฐานของระนาบแบ็คดรอป จุด 3D แทนด้วยอาร์เรย์ของค่า float 3 ตัวที่กำหนดพิกัด X, Y และ Z อ่าน/เขียน Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงส่วนต่อประสาน IPresentationComponent พื้นฐาน อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | คืนค่าหรือกำหนดเวกเตอร์ปกติ โดยละเอียด แอตทริบิวต์นี้กำหนดเวกเตอร์ที่ตั้งฉากต่อหน้าของระนาบแบ็คดรอป เวกเตอร์แทนด้วยอาร์เรย์ของค่า float 3 ตัวที่กำหนดพิกัด X, Y และ Z อ่าน/เขียน Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | คืนค่าหรือกำหนดเวกเตอร์ที่แสดงทิศทางขึ้น โดยละเอียด แอตทริบิวต์นี้กำหนดเวกเตอร์ที่แสดงทิศทางขึ้นสัมพันธ์กับหน้าของระนาบแบ็คดรอป เวกเตอร์แทนด้วยอาร์เรย์ของค่า float 3 ตัวที่กำหนดพิกัด X, Y และ Z อ่าน/เขียน Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | คืนหรือกำหนดจุดในพื้นที่ 3D. จุดนี้เป็นจุดในพื้นที่ที่เป็นจุดยึดของระนาบ backdrop. จุด 3D ถูกแทนด้วยอาร์เรย์ของค่า float 3 ค่า ที่กำหนดพิกัด X, Y และ Z. อ่าน/เขียน Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | คืนหรือกำหนดเวกเตอร์ปกติ. เพื่อความชัดเจน แอตริบิวต์นี้กำหนดเวกเตอร์ที่ตั้งฉากต่อพื้นผิวของระนาบ backdrop. เวกเตอร์แทนด้วยอาร์เรย์ของค่า float 3 ค่า ที่กำหนดพิกัด X, Y และ Z. อ่าน/เขียน Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | คืนหรือกำหนดเวกเตอร์ที่แทนทิศทางขึ้น. เพื่อความชัดเจน แอตริบิวต์นี้กำหนดเวกเตอร์ที่แทนทิศทางขึ้นสัมพันธ์กับพื้นผิวของระนาบ backdrop. เวกเตอร์แทนด้วยอาร์เรย์ของค่า float 3 ค่า ที่กำหนดพิกัด X, Y และ Z. อ่าน/เขียน Single[]. |
 
-## Methods
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่ระบุ |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code |
 
-### See Also
+### ดูเพิ่มเติม
 
 * คลาส [PVIObject](../pviobject)
-* ส่วนต่อประสาน [IBackdrop3DScene](../ibackdrop3dscene)
+* อินเทอร์เฟซ [IBackdrop3DScene](../ibackdrop3dscene)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

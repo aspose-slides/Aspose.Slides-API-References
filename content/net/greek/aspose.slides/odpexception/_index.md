@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes για .NET αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αντιπροσωπεύει έναν τυπικό εσωτερικό τύπο εξαίρεσης.
 type: docs
-weight: 9190
+weight: 9210
 url: /el/aspose.slides/odpexception/
 ---
 ## OdpException κλάση
@@ -19,7 +19,7 @@ public class OdpException : Exception
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Προεπιλεγμένος κατασκευαστής |
-| [OdpException](odpexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη μηνύματος σε αυτήν την εξαίρεση. |
+| [OdpException](odpexception#constructor_1)(string) | Κατασκευαστής που επιτρέπει την προσθήκη μηνύματος σε αυτή την εξαίρεση. |
 | [OdpException](odpexception#constructor_2)(string, Exception) | Κατασκευαστής για μια εξαίρεση που περιέχει μήνυμα και ενσωματωμένη εξαίρεση. |
 
 ### Δείτε επίσης

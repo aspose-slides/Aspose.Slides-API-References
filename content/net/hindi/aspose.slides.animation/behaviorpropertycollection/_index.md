@@ -1,14 +1,14 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: इफ़ेक्ट व्यवहार के लिए टाइमिंग प्रॉपर्टीज़ का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रभाव व्यवहार के लिए समय-संबंधी गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 200
 url: /hi/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection क्लास
 
-इफ़ेक्ट व्यवहार के लिए टाइमिंग प्रॉपर्टीज़ का प्रतिनिधित्व करता है।
+प्रभाव व्यवहार के लिए समय-संबंधी गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
@@ -18,28 +18,28 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | संग्रह में संग्रहीत प्रॉपर्टीज़ की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि ICollection केवल-पढ़ने योग्य है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | निर्दिष्ट इंडेक्स पर प्रॉपर्टी लौटाता है। |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | संग्रह में संग्रहीत गुणों की संख्या लौटाता है। पढ़ने-केवल Int32। |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि ICollection पढ़ने-केवल है या नहीं। पढ़ने-केवल Boolean। |
+| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | निर्धारित अनुक्रमांक पर गुण लौटाता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | संग्रह में एक नई प्रॉपर्टी जोड़ता है। |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | संग्रह में एक नई प्रॉपर्टी जोड़ता है। |
-| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | संग्रह से सभी प्रॉपर्टी हटाता है। |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | संग्रह में एक नया गुण जोड़ता है। |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | संग्रह में एक नया गुण जोड़ता है। |
+| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | संग्रह से सभी गुण हटाता है। |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान मौजूद है या नहीं। |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान मौजूद है या नहीं। |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection के तत्वों को एक एरे में कॉपी करता है, एक विशिष्ट एरे इंडेक्स से शुरू करते हुए। |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | एक एन्युमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList में किसी विशिष्ट आइटम का इंडेक्स निर्धारित करता है। |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList में प्रॉपर्टी मान द्वारा किसी विशिष्ट आइटम का इंडेक्स निर्धारित करता है। |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | निर्दिष्ट इंडेक्स पर संग्रह में एक नई प्रॉपर्टी डालता है। |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | निर्दिष्ट इंडेक्स पर संग्रह में एक नई प्रॉपर्टी (निर्दिष्ट प्रॉपर्टी मान के साथ) डालता है। |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | निर्दिष्ट प्रॉपर्टी को संग्रह से हटाता है। |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | निर्दिष्ट प्रॉपर्टी को संग्रह से हटाता है। |
-| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | निर्दिष्ट इंडेक्स पर प्रॉपर्टी हटाता है। |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, विशेष Array अनुक्रमांक से शुरू करते हुए। |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | एक Enumerator लौटाता है जो संग्रह में इटररेट करता है। |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | IList में किसी विशिष्ट आइटम का अनुक्रमांक निर्धारित करता है। |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | IList में गुण मान द्वारा किसी विशिष्ट आइटम का अनुक्रमांक निर्धारित करता है। |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | निर्धारित अनुक्रमांक पर संग्रह में एक नया गुण सम्मिलित करता है। |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | निर्धारित अनुक्रमांक पर संग्रह में एक नया गुण (निर्दिष्ट गुण मान के साथ) सम्मिलित करता है। |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | निर्दिष्ट गुण को संग्रह से हटाता है। |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | निर्दिष्ट गुण को संग्रह से हटाता है। |
+| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | निर्धारित अनुक्रमांक पर मौजूद गुण हटाता है। |
 
 ### देखें
 

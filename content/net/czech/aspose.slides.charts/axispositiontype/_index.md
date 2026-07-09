@@ -1,14 +1,14 @@
 ---
 title: AxisPositionType
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje pozici osy.
+description: Určuje polohu osy.
 type: docs
-weight: 1190
+weight: 1210
 url: /cs/aspose.slides.charts/axispositiontype/
 ---
-## výčet AxisPositionType
+## AxisPositionType enumerace
 
-Určuje pozici osy.
+Určuje polohu osy.
 
 ```csharp
 public enum AxisPositionType
@@ -19,8 +19,8 @@ public enum AxisPositionType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | Bottom | `0` | Určuje, že osa bude zobrazena ve spodní části vykreslovací oblasti. |
-| Left | `1` | Určuje, že osa bude zobrazena v levé části vykreslovací oblasti. |
-| Right | `2` | Určuje, že osa bude zobrazena v pravé části vykreslovací oblasti. |
+| Left | `1` | Určuje, že osa bude zobrazena na levé straně vykreslovací oblasti. |
+| Right | `2` | Určuje, že osa bude zobrazena na pravé straně vykreslovací oblasti. |
 | Top | `3` | Určuje, že osa bude zobrazena v horní části vykreslovací oblasti. |
 
 ### Viz také

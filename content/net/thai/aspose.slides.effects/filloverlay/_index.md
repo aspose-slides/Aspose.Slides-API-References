@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของเอฟเฟกต์ Fill Overlay. Fill Overlay อาจใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสมการเติมทั้งสองเข้าด้วยกัน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Fill Overlay. Fill Overlay สามารถใช้เพื่อระบุการเติมสีเพิ่มเติมให้กับวัตถุและผสานการเติมสีสองชั้นเข้าด้วยกัน.
 type: docs
 weight: 2980
 url: /th/aspose.slides.effects/filloverlay/
 ---
-## FillOverlay คลาส
+## FillOverlay class
 
-เป็นตัวแทนของเอฟเฟกต์ Fill Overlay. Fill Overlay อาจใช้เพื่อระบุการเติมเพิ่มเติมสำหรับวัตถุและผสมการเติมทั้งสองเข้าด้วยกัน.
+แสดงถึงเอฟเฟกต์ Fill Overlay. Fill Overlay สามารถใช้เพื่อระบุการเติมสีเพิ่มเติมให้กับวัตถุและผสานการเติมสีสองชั้นเข้าด้วยกัน.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -20,15 +20,15 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. อ่าน/เขียน [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill format. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | รูปแบบการเติมสี. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | กำหนดว่าตัว [`FillOverlay`](../filloverlay) ที่ระบุเท่ากับตัว [`FillOverlay`](../filloverlay) ปัจจุบันหรือไม่ |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | รับข้อมูลเอฟเฟกต์ Fill Overlay ที่มีผลพร้อมการสืบทอดที่นำมาใช้ |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | กำหนดว่าค่า [`FillOverlay`](../filloverlay) ที่ระบุเท่ากับ [`FillOverlay`](../filloverlay) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | รับข้อมูลเอฟเฟกต์ Fill Overlay ที่มีผลพร้อมด้วยการสืบทอดที่นำไปใช้. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่งโดยเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

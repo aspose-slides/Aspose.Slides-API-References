@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een vorm van chart.
+description: Stelt een vorm van diagram voor.
 type: docs
 weight: 1470
 url: /nl/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumeratie
 
-Stelt een vorm van chart voor.
+Stelt een vorm van diagram voor.
 
 ```csharp
 public enum ChartShapeType
@@ -18,13 +18,13 @@ public enum ChartShapeType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| NotDefined | `-1` | Chart shape is niet gedefinieerd. |
-| Box | `0` | Specificeert dat de chart moet worden getekend met een Box-vorm. |
-| Cone | `1` | Specificeert dat de chart moet worden getekend als een Cone, met de basis van de Cone op de vloer en de punt van de Cone bovenaan de data marker. |
-| ConeToMax | `2` | Specificeert dat de chart moet worden getekend met afgekorte Cone’s zodanig dat de punt van de Cone de maximale datawaarde zou zijn. |
-| Cylinder | `3` | Specificeert dat de chart moet worden getekend als een Cylinder. |
-| Pyramid | `4` | Specificeert dat de chart moet worden getekend als een rechthoekige Pyramid, met de basis van de Pyramid op de vloer en de punt van de Pyramid bovenaan de data marker. |
-| PyramidToMaximum | `5` | Specificeert dat de chart moet worden getekend met afgekorte Pyramid’s zodanig dat de punt van de Pyramid de maximale datawaarde zou zijn. |
+| NotDefined | `-1` | Diagramvorm is niet gedefinieerd. |
+| Box | `0` | Geeft aan dat het diagram getekend moet worden met een doosvorm. |
+| Cone | `1` | Geeft aan dat het diagram moet worden getekend als een kegel, met de basis van de kegel op de vloer en de punt van de kegel bovenaan de gegevensmarkering. |
+| ConeToMax | `2` | Geeft aan dat het diagram getekend moet worden met afgekorte kegels zodat de punt van de kegel de maximale gegevenswaarde zou zijn. |
+| Cylinder | `3` | Geeft aan dat het diagram moet worden getekend als een cilinder. |
+| Pyramid | `4` | Geeft aan dat het diagram moet worden getekend als een rechthoekige piramide, met de basis van de piramide op de vloer en de punt van de piramide bovenaan de gegevensmarkering. |
+| PyramidToMaximum | `5` | Geeft aan dat het diagram moet worden getekend met afgekorte kegels zodat de punt van de kegel de maximale gegevenswaarde zou zijn. |
 
 ### Zie ook
 

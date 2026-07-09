@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes .NET API referencia
-description: Hozzáférést biztosít a vonal- vagy tőzsde-diagram fel/le sávjaihoz.
+description: Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
 type: docs
-weight: 2240
+weight: 2260
 url: /hu/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interfész
 
-Hozzáférést biztosít a vonal- vagy tőzsde-diagram fel/le sávjaihoz.
+Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | Név | Leírás |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Visszaadja a lefelé mutató sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Visszaadja vagy beállítja a hézag szélességét. Olvasás/írás Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Megállapítja, hogy a diagram rendelkezik-e fel/le sávokkal. Olvasás/írás Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Visszaadja a felfelé mutató sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Visszaadja a le sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Visszaadja vagy beállítja a részszélességet. Olvasás/írás Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Meghatározza, hogy a diagram tartalmazza-e a fel/les sávokat. Olvasás/írás Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Visszaadja a fel sávok formátumát. Csak olvasható [`IFormat`](../iformat). |
 
 ### Lásd még
 

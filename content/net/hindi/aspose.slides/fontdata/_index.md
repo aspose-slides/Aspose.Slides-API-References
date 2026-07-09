@@ -1,7 +1,7 @@
 ---
 title: FontData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक फ़ॉन्ट परिभाषा को दर्शाता है। अपरिवर्तनीय।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: फ़ॉन्ट परिभाषा का प्रतिनिधित्व करता है। अपरिवर्तनीय।
 type: docs
 weight: 4820
 url: /hi/aspose.slides/fontdata/
@@ -14,28 +14,28 @@ url: /hi/aspose.slides/fontdata/
 public sealed class FontData : IFontData
 ```
 
-## निर्माणकर्ता
+## Constructors
 
 | Name | Description |
 | --- | --- |
 | [FontData](fontdata)(string) | निर्दिष्ट फ़ॉन्ट नाम के साथ एक नया FontData ऑब्जेक्ट बनाता है। |
 
-## गुण
+## Properties
 
 | Name | Description |
 | --- | --- |
 | [FontName](../../aspose.slides/fontdata/fontname) { get; } | फ़ॉन्ट नाम लौटाता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
 
-## विधियाँ
+## Methods
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/fontdata/equals)(object) | निर्धारित करता है कि दो FontData इंस्टेंसेस समान हैं या नहीं। |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | फ़ॉन्ट नाम लौटाता है, थीम संदर्भ को उपयोग किए गए वास्तविक फ़ॉन्ट से बदलते हुए। |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त। |
+| override [Equals](../../aspose.slides/fontdata/equals)(object) | निर्धारित करता है कि दो FontData इंस्टेंस समान हैं या नहीं। |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | फ़ॉन्ट नाम लौटाता है, थीम संदर्भ को वास्तविक उपयोग किए गए फ़ॉन्ट से बदलता है। |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन प्रदान करता है, जो हैशिंग एल्गोरिदम और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | स्ट्रिंग प्रतिनिधित्व लौटाता है। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IFontData](../ifontdata)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

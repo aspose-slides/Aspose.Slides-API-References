@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
 second_title: Aspose.Sildes için .NET API Referansı
-description: Animasyonun zaman çizelgesini temsil eder.
+description: Animasyon zaman çizelgesini temsil eder.
 type: docs
-weight: 5180
+weight: 5200
 url: /tr/aspose.slides/ianimationtimeline/
 ---
-## IAnimationTimeLine arayüz
+## IAnimationTimeLine arayüzü
 
-Animasyonun zaman çizelgesini temsil eder.
+Animasyon zaman çizelgesini temsil eder.
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,8 +18,8 @@ public interface IAnimationTimeLine
 
 | Ad | Açıklama |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Etkileşimli dizilerin koleksiyonunu döndürür. Bu diziler, yalnızca "click on shape" ile belirtilen hedef şekil üzerinden etkileri içerebilir. Salt okunur [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Ana diziyi döndürür. Bu dizi yalnızca ana etkiler koleksiyonunu içerebilir. Salt okunur [`ISequence`](../../aspose.slides.animation/isequence). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Etkileşimli sekansların koleksiyonunu döndürür. Bu sekanslar yalnızca "şekle tıklama" ile belirtilen hedef şekil üzerindeki efektleri içerebilir. Salt okunur [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Ana sekansı döndürür; bu sekans yalnızca ana efektler koleksiyonunu içerebilir. Salt okunur [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Metin animasyonlarının koleksiyonunu döndürür. Salt okunur [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Ayrıca Bakınız

@@ -14,12 +14,12 @@ Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document r
 public interface IInkOptions
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Toont of verbergt Ink-elementen in het geëxporteerde document. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Gebruikt ROP-bewerking of doorzichtigheid voor het renderen van de kwast. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Gebruikt ROP-operatie of Opacity voor het renderen van de brush. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: OpenAICompatibleWebClient
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: การทำงานของ IAIWebClient./iaiwebclient ที่สร้างไว้ในตัวซึ่งเชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่ระบุ.
+description: การทำงานที่ฝังอยู่ของ IAIWebClient./iaiwebclient ที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่ระบุ
 type: docs
 weight: 40
 url: /th/aspose.slides.ai/openaicompatiblewebclient/
 ---
 ## OpenAICompatibleWebClient คลาส
 
-การทำงานของ [`IAIWebClient`](../iaiwebclient) ที่สร้างขึ้นในตัวซึ่งเชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่กำหนด.
+การทำงานที่ฝังอยู่ของ [`IAIWebClient`](../iaiwebclient) ที่เชื่อมต่อกับผู้ให้บริการ LLM ที่เข้ากันได้กับ OpenAI ที่ URL ฐานที่ระบุ.
 
 ```csharp
 public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
@@ -18,16 +18,16 @@ public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | สร้างอินสแตนซ์ของเว็บไคลเอ็นต์ที่เข้ากันได้กับ OpenAI |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | สร้างอินสแตนซ์ของเว็บไคลเอ็นต์ที่เข้ากันได้กับ OpenAI ที่ใช้ HttpClient ที่จัดการจากภายนอก. HttpClient ที่ให้มาไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้ |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI. |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI ที่ใช้ HttpClient ที่จัดการจากภายนอก. HttpClient ที่ให้มาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และจะยังคงเป็นของผู้เรียกใช้. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ `HttpClient` ที่จัดการจากภายนอกและคืนข้อความตอบกลับให้กับคำสั่งที่กำหนด |
-| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | สร้างอินสแตนซ์ของการสนทนา. แตกต่างจากการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมด |
-| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | ปลดปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้ |
+| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ `HttpClient` ที่จัดการจากภายนอกและคืนข้อความตอบกลับให้กับคำสั่งที่ระบุ. |
+| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | สร้างอินสแตนซ์ของการสนทนา. แตกต่างจากการเรียก AI ปกติ การสนทนาจะรักษาบริบททั้งหมด. |
+| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | ปล่อยทรัพยากรที่ใช้โดยอินสแตนซ์นี้. |
 
 ### ดูเพิ่มเติม
 

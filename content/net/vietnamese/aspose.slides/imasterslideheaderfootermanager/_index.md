@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho trình quản lý nắm giữ hành vi của các placeholder chân trang, ngày-giờ, số trang của slide master và tất cả các placeholder con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master.
+description: Đại diện cho bộ quản lý chịu trách nhiệm hành vi của các trình giữ chỗ footer, ngày-giờ, số trang của slide chính và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính.
 type: docs
 weight: 6440
 url: /vi/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager giao diện
 
-Đại diện cho trình quản lý nắm giữ hành vi của placeholder chân trang slide master, placeholder ngày-giờ, placeholder số trang và tất cả các placeholder con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master.
+Đại diện cho bộ quản lý chịu trách nhiệm hành vi của trình giữ chỗ footer slide chính, trình giữ chỗ ngày-giờ, trình giữ chỗ số trang và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho placeholder ngày-giờ của slide master và tất cả các placeholder ngày-giờ con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder ngày-giờ của slide master và tất cả các placeholder ngày-giờ con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho placeholder chân trang của slide master và tất cả các placeholder chân trang con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder chân trang của slide master và tất cả các placeholder chân trang con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder số trang của slide master và tất cả các placeholder số trang con. Các placeholder con có nghĩa là các placeholder nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide phụ thuộc sử dụng và phụ thuộc vào slide master. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi hiển thị của trình giữ chỗ ngày-giờ slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho trình giữ chỗ footer của slide chính và tất cả các trình giữ chỗ footer con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi hiển thị của trình giữ chỗ footer slide chính và tất cả các trình giữ chỗ footer con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi hiển thị của trình giữ chỗ số trang slide chính và tất cả các trình giữ chỗ số trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ nằm trên các slide bố cục phụ thuộc và các slide phụ thuộc. Các slide bố cục phụ thuộc và các slide sử dụng và phụ thuộc vào slide chính. |
 
 ### Xem thêm
 

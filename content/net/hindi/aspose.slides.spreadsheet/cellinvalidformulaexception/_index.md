@@ -1,35 +1,35 @@
 ---
 title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: जब किसी गणना किए गए सूत्र में त्रुटि होती है या वह पार्स नहीं किया गया हो, तो फेंका जाने वाला अपवाद।
+description: एक गणना किया गया सूत्र गलत होने या पार्स न हो पाने पर फेंकी जाने वाली अपवाद।
 type: docs
 weight: 10710
 url: /hi/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException क्लास
 
-जब गणना किया गया सूत्र सही नहीं होता या पार्स नहीं किया गया हो, तब फेंकी जाने वाली अपवाद।
+जब गणना किया गया सूत्र सही नहीं होता या पार्स नहीं किया गया हो, तो फेंकी जाने वाली अपवाद।
 
 ```csharp
 public class CellInvalidFormulaException : PptxEditException
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | Name | Description |
 | --- | --- |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास का नया उदाहरण प्रारम्भ करता है। |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास का नया उदाहरण निर्दिष्ट त्रुटि संदेश के साथ प्रारम्भ करता है। |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास का नया उदाहरण निर्दिष्ट त्रुटि संदेश और इस अपवाद का कारण बनने वाली अंतर्निहित अपवाद का संदर्भ के साथ प्रारम्भ करता है। |
-| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास का नया उदाहरण निर्दिष्ट त्रुटि संदेश और अमान्य सूत्र वाली सेल संदर्भ के साथ प्रारम्भ करता है। |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor)() | [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास की नई इंस्टैंस को प्रारम्भ करता है। |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_1)(string) | निर्दिष्ट त्रुटि संदेश के साथ [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास की नई इंस्टैंस को प्रारम्भ करता है। |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_2)(string, Exception) | निर्दिष्ट त्रुटि संदेश और एक रेफ़रेंस के साथ [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास की नई इंस्टैंस को प्रारम्भ करता है, जहाँ भीतर की अपवाद इसका कारण है। |
+| [CellInvalidFormulaException](cellinvalidformulaexception#constructor_3)(string, string) | निर्दिष्ट त्रुटि संदेश और एक सेल रेफ़रेंस (जिसमें अमान्य सूत्र है) के साथ [`CellInvalidFormulaException`](../cellinvalidformulaexception) क्लास की नई इंस्टैंस को प्रारम्भ करता है। |
 
-## प्रॉपर्टीज़
+## गुण
 
 | Name | Description |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | अमान्य सूत्र वाली सेल संदर्भ प्राप्त करता है। |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidformulaexception/reference) { get; } | एक सेल रेफ़रेंस प्राप्त करता है जिसमें अमान्य सूत्र होता है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [PptxEditException](../../aspose.slides/pptxeditexception)
 * नेमस्पेस [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

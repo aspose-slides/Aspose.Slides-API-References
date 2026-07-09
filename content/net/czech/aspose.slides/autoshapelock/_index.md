@@ -1,12 +1,12 @@
 ---
 title: AutoShapeLock
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje, které operace jsou na nadřazeném AutoshapeEx zakázány.
 type: docs
-weight: 890
+weight: 910
 url: /cs/aspose.slides/autoshapelock/
 ---
-## AutoShapeLock třída
+## třída AutoShapeLock
 
 Určuje, které operace jsou na nadřazeném AutoshapeEx zakázány.
 
@@ -18,18 +18,18 @@ public class AutoShapeLock : BaseShapeLock, IAutoShapeLock
 
 | Název | Popis |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Určuje, zda je zakázáno měnit hodnoty úprav. Čtení/zápis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Určuje, zda je zakázáno měnit šipky. Čtení/zápis Boolean. |
-| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovat poměr stran při změně velikosti. Čtení/zápis Boolean. |
-| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Určuje, zda je zakázáno přímo měnit obrys tohoto tvaru. Čtení/zápis Boolean. |
-| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidávat tento tvar do skupiny. Čtení/zápis Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrací true, pokud jsou všechna zamykací příznaky zakázána. Pouze pro čtení Boolean. |
-| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Určuje, zda je zakázáno přesouvat tento tvar. Čtení/zápis Boolean. |
-| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Určuje, zda je zakázáno měnit úhel otočení tohoto tvaru. Čtení/zápis Boolean. |
-| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybírat tento tvar. Čtení/zápis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Určuje, zda je zakázáno měnit typ tvaru. Čtení/zápis Boolean. |
-| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Čtení/zápis Boolean. |
-| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Určuje, zda je zakázáno upravovat text. Čtení/zápis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/autoshapelock/adjusthandleslocked) { get; set; } | Určuje, zda je změna hodnot úpravy zakázána. Čtení/zápis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/autoshapelock/arrowheadslocked) { get; set; } | Určuje, zda je změna šipek zakázána. Čtení/zápis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/autoshapelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar při změně velikosti zachovat poměr stran. Čtení/zápis Boolean. |
+| [EditPointsLocked](../../aspose.slides/autoshapelock/editpointslocked) { get; set; } | Určuje, zda je přímá změna kontury tohoto tvaru zakázána. Čtení/zápis Boolean. |
+| [GroupingLocked](../../aspose.slides/autoshapelock/groupinglocked) { get; set; } | Určuje, zda je přidání tohoto tvaru do skupiny zakázáno. Čtení/zápis Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrátí true, pokud jsou všechny zámky vypnuty. Pouze pro čtení Boolean. |
+| [PositionLocked](../../aspose.slides/autoshapelock/positionlocked) { get; set; } | Určuje, zda je přesun tohoto tvaru zakázán. Čtení/zápis Boolean. |
+| [RotateLocked](../../aspose.slides/autoshapelock/rotatelocked) { get; set; } | Určuje, zda je změna úhlu otáčení tohoto tvaru zakázána. Čtení/zápis Boolean. |
+| [SelectLocked](../../aspose.slides/autoshapelock/selectlocked) { get; set; } | Určuje, zda je výběr tohoto tvaru zakázán. Čtení/zápis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/autoshapelock/shapetypelocked) { get; set; } | Určuje, zda je změna typu tvaru zakázána. Čtení/zápis Boolean. |
+| [SizeLocked](../../aspose.slides/autoshapelock/sizelocked) { get; set; } | Určuje, zda je změna velikosti tohoto tvaru zakázána. Čtení/zápis Boolean. |
+| [TextLocked](../../aspose.slides/autoshapelock/textlocked) { get; set; } | Určuje, zda je úprava textu zakázána. Čtení/zápis Boolean. |
 
 ### Viz také
 

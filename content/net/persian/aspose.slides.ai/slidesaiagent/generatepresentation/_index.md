@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
-second_title: مرجع API Aspose.Sildes برای .NET
-description: یک نمونهٔ ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل قول‌ها یا قطعات متنی را به زبان مورد نیاز ارائه دهید.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: یک نمونه ارائه را از توضیح متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متن را به زبان مورد نیاز ارائه دهید.
 type: docs
 weight: 20
 url: /fa/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-یک نمونهٔ ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل قول‌ها یا قطعات متنی را به زبان مورد نیاز ارائه دهید.
+یک نمونه ارائه را از توضیح متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متن را به زبان مورد نیاز ارائه دهید.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -17,36 +17,36 @@ public IPresentation GeneratePresentation(string description,
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| description | String | موضوع، ایده‌ها، نقل قول‌ها یا قطعات متنی. |
-| presentationContentAmount | PresentationContentAmountType | مقدار محتوای موجود در ارائهٔ تولیدی. |
+| description | String | موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متن. |
+| presentationContentAmount | PresentationContentAmountType | مقدار محتوای موجود در ارائهٔ حاصل. |
 
-### استثنائات
+### استثناها
 
 | استثنا | شرط |
 | --- | --- |
-| ArgumentException | دستورالعمل چت هوش مصنوعی نمی‌تواند خالی یا null باشد. |
+| ArgumentException | دستور گفت‌وگوی AI نمی‌تواند مقدار null یا خالی باشد. |
 
 ### توضیحات
 
-مثال زیر از پیش‌فرض [`AsposeAIWebClient`](../../asposeaiwebclient) استفاده می‌کند که توسط سازندهٔ بدون پارامتر [`SlidesAIAgent`](../slidesaiagent) ایجاد شده و به LLM داخلی Aspose متصل می‌شود. برای استفاده از فراهم‌کنندهٔ هوش مصنوعی متفاوت، LLM خود را فراهم کنید یا اتصال را سفارشی کنید (به عنوان مثال با ارائهٔ `HttpClient` خود)، یک پیاده‌سازی [`IAIWebClient`](../../iaiwebclient) را به سازندهٔ [`SlidesAIAgent`](../slidesaiagent) پاس بدهید. پیاده‌سازی‌های موجود شامل:
+مثال زیر از مقدار پیش‌فرض [`AsposeAIWebClient`](../../asposeaiwebclient) استفاده می‌کند که توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent) ایجاد شده و به LLM داخلی Aspose متصل می‌شود. برای استفاده از یک ارائه‌دهنده AI متفاوت، LLM خود را فراهم کنید یا اتصال را سفارشی کنید (به عنوان مثال، با ارائه `HttpClient` خود)، یک پیاده‌سازی [`IAIWebClient`](../../iaiwebclient) را به سازنده [`SlidesAIAgent`](../slidesaiagent) پاس دهید. پیاده‌سازی‌های موجود شامل:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### موارد مرتبط
+### مراجع
 
 * رابط [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* شمارش [PresentationContentAmountType](../../presentationcontentamounttype)
 * کلاس [SlidesAIAgent](../../slidesaiagent)
 * فضای‌نام [Aspose.Slides.AI](../../slidesaiagent)
-* اسمبلی [Aspose.Slides](../../../)
+* مجمع [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-یک نمونهٔ ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل قول‌ها یا قطعات متنی را به زبان مورد نیاز ارائه دهید.
+یک نمونه ارائه را از توضیح متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متن را به زبان مورد نیاز ارائه دهید.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -55,31 +55,31 @@ public IPresentation GeneratePresentation(string description,
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| description | String | موضوع، ایده‌ها، نقل قول‌ها یا قطعات متنی. |
-| presentationContentAmount | PresentationContentAmountType | مقدار محتوای موجود در ارائهٔ تولیدی. |
-| presentationTemplate | IPresentation | ارائه‌ای برای استفاده به‌عنوان قالب برای چینش و طراحی، که قالب پیش‌فرض را جایگزین می‌کند. |
+| description | String | موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متن. |
+| presentationContentAmount | PresentationContentAmountType | مقدار محتوای موجود در ارائهٔ حاصل. |
+| presentationTemplate | IPresentation | یک ارائه برای استفاده به عنوان قالب جهت چیدمان و طراحی، که قالب پیش‌فرض را جایگزین می‌کند. |
 
-### استثنائات
+### استثناها
 
 | استثنا | شرط |
 | --- | --- |
-| ArgumentNullException | قالب ارائه ارائه نشده است. |
-| ArgumentException | دستورالعمل چت هوش مصنوعی نمی‌تواند خالی یا null باشد. |
+| ArgumentNullException | قالب ارائه فراهم نشده است. |
+| ArgumentException | دستور گفت‌وگوی AI نمی‌تواند مقدار null یا خالی باشد. |
 
 ### توضیحات
 
-مثال زیر از پیش‌فرض [`AsposeAIWebClient`](../../asposeaiwebclient) استفاده می‌کند که توسط سازندهٔ بدون پارامتر [`SlidesAIAgent`](../slidesaiagent) ایجاد شده و به LLM داخلی Aspose متصل می‌شود. برای استفاده از فراهم‌کنندهٔ هوش مصنوعی متفاوت، LLM خود را فراهم کنید یا اتصال را سفارشی کنید (به عنوان مثال با ارائهٔ `HttpClient` خود)، یک پیاده‌سازی [`IAIWebClient`](../../iaiwebclient) را به سازندهٔ [`SlidesAIAgent`](../slidesaiagent) پاس بدهید. پیاده‌سازی‌های موجود شامل:
+مثال زیر از مقدار پیش‌فرض [`AsposeAIWebClient`](../../asposeaiwebclient) استفاده می‌کند که توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent) ایجاد شده و به LLM داخلی Aspose متصل می‌شود. برای استفاده از یک ارائه‌دهنده AI متفاوت، LLM خود را فراهم کنید یا اتصال را سفارشی کنید (به عنوان مثال، با ارائه `HttpClient` خود)، یک پیاده‌سازی [`IAIWebClient`](../../iaiwebclient) را به سازنده [`SlidesAIAgent`](../slidesaiagent) پاس دهید. پیاده‌سازی‌های موجود شامل:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### موارد مرتبط
+### مراجع
 
 * رابط [IPresentation](../../../aspose.slides/ipresentation)
-* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* شمارش [PresentationContentAmountType](../../presentationcontentamounttype)
 * کلاس [SlidesAIAgent](../../slidesaiagent)
 * فضای‌نام [Aspose.Slides.AI](../../slidesaiagent)
-* اسمبلی [Aspose.Slides](../../../)
+* مجمع [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

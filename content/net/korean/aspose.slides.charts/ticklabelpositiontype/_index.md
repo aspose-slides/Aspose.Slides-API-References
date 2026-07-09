@@ -1,14 +1,14 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes for .NET API 참조
-description: 지정된 축에 대한 눈금 라벨 위치 유형을 나타냅니다.
+description: 지정된 축에 있는 눈금 표시 라벨의 위치 유형을 나타냅니다.
 type: docs
 weight: 2440
 url: /ko/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType 열거형
 
-지정된 축에 대한 눈금 라벨의 위치 유형을 나타냅니다.
+지정된 축에 대한 눈금표시 라벨의 위치 유형을 나타냅니다.
 
 ```csharp
 public enum TickLabelPositionType
@@ -18,10 +18,10 @@ public enum TickLabelPositionType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| High | `0` | 축 레이블은 수직 축의 높은 쪽 끝에 있어야 합니다. |
-| Low | `1` | 축 레이블은 수직 축의 낮은 쪽 끝에 있어야 합니다. |
-| NextTo | `2` | 축 레이블은 축 옆에 있어야 합니다. |
-| None | `3` | 축 레이블은 그려지지 않습니다. |
+| High | `0` | 축 라벨이 수직 축의 높은 쪽 끝에 표시됩니다. |
+| Low | `1` | 축 라벨이 수직 축의 낮은 쪽 끝에 표시됩니다. |
+| NextTo | `2` | 축 라벨이 축 바로 옆에 표시됩니다. |
+| None | `3` | 축 라벨이 그려지지 않습니다. |
 
 ### 참고
 

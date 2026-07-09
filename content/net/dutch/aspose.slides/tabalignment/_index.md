@@ -1,14 +1,14 @@
 ---
 title: TabAlignment
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de tabuitlijning weer.
+description: Stelt de tabuitlijning voor.
 type: docs
 weight: 10830
 url: /nl/aspose.slides/tabalignment/
 ---
 ## TabAlignment enumeratie
 
-Geeft de tabuitlijning weer.
+Stelt de tabuitlijning voor.
 
 ```csharp
 public enum TabAlignment

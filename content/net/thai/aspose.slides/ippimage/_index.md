@@ -1,14 +1,14 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นตัวแทนของภาพในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนภาพในงานนำเสนอ
 type: docs
 weight: 6550
 url: /th/aspose.slides/ippimage/
 ---
 ## IPPImage อินเทอร์เฟซ
 
-เป็นตัวแทนของภาพในงานนำเสนอ.
+แทนภาพในงานนำเสนอ
 
 ```csharp
 public interface IPPImage
@@ -19,10 +19,10 @@ public interface IPPImage
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | ส่งคืนสำเนาของข้อมูลภาพ. อ่านอย่างเดียว Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | ส่งคืนประเภท MIME ของภาพ, ที่เข้ารหัสด้วย [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | ส่งคืน MIME type ของภาพที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | ส่งคืนความสูงของภาพ. อ่านอย่างเดียว Int32. |
 | [Image](../../aspose.slides/ippimage/image) { get; } | ส่งคืนสำเนาของภาพ. อ่านอย่างเดียว [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ส่งคืนหรือกำหนดอ็อบเจ็กต์ ISvgImage [`ISvgImage`](../isvgimage) |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ส่งคืนหรือกำหนดอ็อบเจกต์ ISvgImage [`ISvgImage`](../isvgimage) |
 | [Width](../../aspose.slides/ippimage/width) { get; } | ส่งคืนความกว้างของภาพ. อ่านอย่างเดียว Int32. |
 | [X](../../aspose.slides/ippimage/x) { get; } | ส่งคืนค่า X-offset ของภาพ. อ่านอย่างเดียว Int32. |
 | [Y](../../aspose.slides/ippimage/y) { get; } | ส่งคืนค่า Y-offset ของภาพ. อ่านอย่างเดียว Int32. |

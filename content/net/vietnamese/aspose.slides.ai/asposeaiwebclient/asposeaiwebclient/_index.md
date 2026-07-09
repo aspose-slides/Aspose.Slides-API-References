@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định. Đây là client được sử dụng bởi constructor không có tham số SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent, vì vậy việc tạo nó một cách tường minh chỉ cần thiết khi truyền client vào constructor SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent trực tiếp.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định. Đây là client được sử dụng bởi constructor không tham số SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent, vì vậy việc tạo nó một cách rõ ràng chỉ cần thiết khi truyền client trực tiếp cho constructor SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent.
 type: docs
 weight: 10
 url: /vi/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định. Đây là client được sử dụng bởi constructor không có tham số [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent), vì vậy việc tạo nó một cách tường minh chỉ cần thiết khi truyền client vào constructor [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) trực tiếp.
+Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định. Đây là client được sử dụng bởi constructor không tham số [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent), vì vậy việc tạo explicit chỉ cần thiết khi truyền client trực tiếp cho constructor [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent).
 
 ```csharp
 public AsposeAIWebClient()
@@ -24,7 +24,7 @@ public AsposeAIWebClient()
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định bằng cách sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp không bị giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi.
+Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định bằng cách sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không được giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi.
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
@@ -38,7 +38,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentNullException | Không cung cấp thể hiện HttpClient. |
+| ArgumentNullException | Không có thể hiện HttpClient được cung cấp. |
 
 ### Xem thêm
 
@@ -50,7 +50,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-Tạo một thể hiện của Aspose AI web client kết nối tới một URL điểm cuối tùy chỉnh. Sử dụng overload này khi bạn có URL do nhóm Aspose.Slides cung cấp; nếu không, sử dụng overload [`AsposeAIWebClient`](../asposeaiwebclient) với URL mặc định.
+Tạo một thể hiện của Aspose AI web client kết nối tới URL điểm cuối tùy chỉnh. Sử dụng overload này khi bạn có URL do đội ngũ Aspose.Slides cung cấp; nếu không, hãy sử dụng overload [`AsposeAIWebClient`](../asposeaiwebclient) với URL mặc định.
 
 ```csharp
 public AsposeAIWebClient(string url)
@@ -58,13 +58,13 @@ public AsposeAIWebClient(string url)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| url | String | URL điểm cuối của Aspose LLM, do nhóm Aspose.Slides cung cấp. |
+| url | String | URL điểm cuối của Aspose LLM, do đội ngũ Aspose.Slides cung cấp. |
 
 ### Ngoại lệ
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentNullException | URL không được để trống hoặc null. |
+| ArgumentNullException | URL không được null hoặc rỗng. |
 
 ### Xem thêm
 
@@ -76,7 +76,7 @@ public AsposeAIWebClient(string url)
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-Tạo một thể hiện của Aspose AI web client kết nối tới một URL điểm cuối tùy chỉnh bằng cách sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp không bị giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi. Sử dụng overload này khi bạn có URL do nhóm Aspose.Slides cung cấp và muốn cung cấp HttpClient của riêng bạn; nếu bạn chỉ cần HttpClient riêng với URL mặc định, hãy dùng overload [`AsposeAIWebClient`](../asposeaiwebclient) thay thế.
+Tạo một thể hiện của Aspose AI web client kết nối tới URL điểm cuối tùy chỉnh bằng cách sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không được giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi. Sử dụng overload này khi bạn có URL do đội ngũ Aspose.Slides cung cấp và muốn cung cấp HttpClient riêng; nếu chỉ cần HttpClient riêng với URL mặc định, hãy sử dụng overload [`AsposeAIWebClient`](../asposeaiwebclient).
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
@@ -84,15 +84,15 @@ public AsposeAIWebClient(string url, HttpClient httpClient)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| url | String | URL điểm cuối của Aspose LLM, do nhóm Aspose.Slides cung cấp. |
+| url | String | URL điểm cuối của Aspose LLM, do đội ngũ Aspose.Slides cung cấp. |
 | httpClient | HttpClient | Một thể hiện HttpClient được quản lý bên ngoài. |
 
 ### Ngoại lệ
 
 | ngoại lệ | điều kiện |
 | --- | --- |
-| ArgumentNullException | URL không được để trống hoặc null. |
-| ArgumentNullException | Không cung cấp thể hiện HttpClient. |
+| ArgumentNullException | URL không được null hoặc rỗng. |
+| ArgumentNullException | Không có thể hiện HttpClient được cung cấp. |
 
 ### Xem thêm
 

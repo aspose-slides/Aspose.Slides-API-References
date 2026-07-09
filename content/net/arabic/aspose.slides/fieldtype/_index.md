@@ -1,14 +1,14 @@
 ---
 title: FieldType
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل نوعًا من الحقول. تحدد هذه القيمة النص الذي سيُعيّن إلى جزء الحقل عندما يتم تحديثه.
+description: يمثّل نوعًا من الحقول. تحدد هذه القيمة النص الذي سيُضبط في جزء الحقل عند تحديثه.
 type: docs
 weight: 4760
 url: /ar/aspose.slides/fieldtype/
 ---
-## فئة FieldType
+## FieldType فئة
 
-يمثل نوعًا من الحقول. تحدد هذه القيمة النص الذي سيُعيّن إلى جزء الحقل عندما يتم تحديثه.
+يمثّل نوعًا من الحقول. تحدد هذه القيمة النص الذي سيُضبط في جزء الحقل عند تحديثه.
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -18,44 +18,44 @@ public sealed class FieldType : IFieldType
 
 | الاسم | الوصف |
 | --- | --- |
-| [FieldType](fieldtype)(string) | يهيئ نسخة جديدة من فئة FieldType. |
+| [FieldType](fieldtype)(string) | يقوم بإنشاء نسخة جديدة من فئة FieldType. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | التاريخ والوقت الحاليان بالصيغ الافتراضية لتطبيق العرض. للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | التاريخ والوقت الحاليان بأول صيغة معرفة مسبقًا (MM/DD/YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | التاريخ والوقت الحاليان بالصيفة العاشرة (hh:mm للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | التاريخ والوقت الحاليان بالصيفة الحادية عشرة (hh:mm:ss للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | التاريخ والوقت الحاليان بالصيفة الثانية عشرة (hh:mm ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | التاريخ والوقت الحاليان بالصيفة الثالثة عشرة (hh:mm:ss ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | التاريخ والوقت الحاليان بالصيفة الثانية (Day, Month DD, YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | التاريخ والوقت الحاليان بالصيفة الثالثة (DD Month YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | التاريخ والوقت الحاليان بالصيفة الرابعة (Month DD, YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | التاريخ والوقت الحاليان بالصيفة الخامسة (DD-Mon-YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | التاريخ والوقت الحاليان بالصيفة السادسة (Month YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | التاريخ والوقت الحاليان بالصيفة السابعة (Mon-YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | التاريخ والوقت الحاليان بالصيفة الثامنة (MM/DD/YYYY hh:mm ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | التاريخ والوقت الحاليان بالصيفة التاسعة (MM/DD/YYYY hh:mm:ss ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | تذييل الشريحة. للقراءة فقط [`FieldType`](../fieldtype). |
-| static [Header](../../aspose.slides/fieldtype/header) { get; } | رأس الشريحة. للقراءة فقط [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | رقم الشريحة الحالية. للقراءة فقط [`FieldType`](../fieldtype). |
-| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | يرجع الاسم الداخلي لهذا الكائن FieldType. للقراءة والكتابة String. |
+| ثابت [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | التاريخ والوقت الحاليان بالتنسيق الافتراضي للوقت والتاريخ لتطبيق العرض. للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الأول (MM/DD/YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد العاشر (hh:mm للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الحادي عشر (hh:mm:ss للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الثاني عشر (hh:mm ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الثالث عشر (hh:mm:ss ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الثاني (Day, Month DD, YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الثالث (DD Month YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الرابع (Month DD, YYYY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الخامس (DD-Mon-YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد السادس (Month YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد السابع (Mon-YY للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد الثامن (MM/DD/YYYY hh:mm ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | التاريخ والوقت الحاليان بالتنسيق المحدد التاسع (MM/DD/YYYY hh:mm:ss ص/م للإنجليزية). للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [Footer](../../aspose.slides/fieldtype/footer) { get; } | تذييل الشريحة. للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [Header](../../aspose.slides/fieldtype/header) { get; } | رأس الشريحة. للقراءة فقط [`FieldType`](../fieldtype). |
+| ثابت [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | رقم الشريحة الحالية. للقراءة فقط [`FieldType`](../fieldtype). |
+| [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | يرجع الاسم الداخلي لهذا الكائن من نوع FieldType. قابل للقراءة والكتابة String. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | يتحقق مما إذا كان هذا الحقل مساويًا لآخر. |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | يفحص ما إذا كان هذا الحقول مساويًا لآخر. |
 | override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | يرجع قيمة التجزئة لهذا الكائن. |
-| [operator ==](../../aspose.slides/fieldtype/op_equality) | يتحقق مما إذا كان كائني FieldType متساويين. |
-| [operator !=](../../aspose.slides/fieldtype/op_inequality) | يتحقق مما إذا كان كائني FieldType غير متساويين. |
+| [operator ==](../../aspose.slides/fieldtype/op_equality) | يفحص ما إذا كان كائنان من نوع FieldType متساويين. |
+| [operator !=](../../aspose.slides/fieldtype/op_inequality) | يفحص ما إذا كان كائنان من نوع FieldType غير متساويين. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
-* الواجهة [IFieldType](../ifieldtype)
-* نطاق الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IFieldType](../ifieldtype)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Alpha Modulate Fixed-effekt. Effektens alfa opacitetsvärden multipliceras med en fast procentsats.
+description: Representerar en Alpha Modulate Fixed-effekt. Effektens alfa-opacitetsvärden multipliceras med en fast procentsats.
 type: docs
-weight: 3100
+weight: 3120
 url: /sv/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed gränssnitt
@@ -20,10 +20,10 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 | Namn | Beskrivning |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Returnerar en mängd av effekt i procent. Läs/skriv Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-gränssnittet IAccessiblePVIObject. Endast läsning [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Tillåter att hämta bas-gränssnittet IImageTransformOperation. Endast läsning [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Läs-endast [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Läs-endast [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Se även
+### Se också
 
 * gränssnitt [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * gränssnitt [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

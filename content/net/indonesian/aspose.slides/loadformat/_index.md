@@ -1,12 +1,12 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menunjukkan format dokumen yang akan dimuat.
 type: docs
-weight: 7810
+weight: 7830
 url: /id/aspose.slides/loadformat/
 ---
-## Enumerasi LoadFormat
+## enumerasi LoadFormat
 
 Menunjukkan format dokumen yang akan dimuat.
 
@@ -18,21 +18,21 @@ public enum LoadFormat
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Auto | `0` | Memerintahkan Aspose.Slides untuk mengenali format secara otomatis. |
+| Auto | `0` | Mengarahkan Aspose.Slides untuk mengenali format secara otomatis. |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 Presentasi. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 SlideShow. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 Slideshow. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML Dokumen. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML SlideShow. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML Slideshow. |
 | Odp | `5` | OpenOffice ODF Presentasi. |
-| Potx | `6` | Microsoft Office Open XML PresentationML Template. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML Dokumen Makro. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML SlideShow Makro. |
-| Potm | `9` | Microsoft Office Open XML PresentationML Template Makro. |
-| Otp | `10` | OpenOffice OTP template Presentasi. |
+| Potx | `6` | Microsoft Office Open XML PresentationML Templat. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML Dokumen dengan Makro. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML Slideshow dengan Makro. |
+| Potm | `9` | Microsoft Office Open XML PresentationML Templat dengan Makro. |
+| Otp | `10` | OpenOffice OTP Presentasi templat. |
 | Ppt95 | `11` | Microsoft PowerPoint 95 Presentasi. |
-| Pot | `12` | Microsoft PowerPoint 97-2003 Template Presentasi. |
+| Pot | `12` | Microsoft PowerPoint 97-2003 Templat Presentasi. |
 | Fodp | `13` | Flat XML ODF Presentasi. |
-| Unknown | `255` | Format file tidak dikenal |
+| Unknown | `255` | Format file tidak dikenal. |
 
 ### Lihat Juga
 

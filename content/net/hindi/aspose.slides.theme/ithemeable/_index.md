@@ -1,14 +1,14 @@
 ---
 title: IThemeable
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ऐसे वस्तुओं को दर्शाता है जिन्हें ITheme./itheme के साथ थीम किया जा सकता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ऐसे वस्तुओं का प्रतिनिधित्व करता है जिन्हें ITheme./itheme के साथ थीम किया जा सकता है।
 type: docs
 weight: 11400
 url: /hi/aspose.slides.theme/ithemeable/
 ---
 ## IThemeable इंटरफ़ेस
 
-ऐसे वस्तुओं को दर्शाता है जिन्हें [`ITheme`](../itheme) के साथ थीम किया जा सकता है।
+वह वस्तुएँ जो [`ITheme`](../itheme) के साथ थीम की जा सकती हैं, उनका प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IThemeable : ISlideComponent
@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | वापस देता है ISlideComponent इंटरफ़ेस। केवल पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent)। |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | ISlideComponent इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | इस themeable वस्तु के लिए प्रभावी थीम वापस देता है। |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | इस थीमेबल वस्तु के लिए एक प्रभावी थीम को लौटाता है। |
 
 ### देखें
 

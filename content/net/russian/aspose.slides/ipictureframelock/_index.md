@@ -1,15 +1,14 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes для .NET API Reference
-description: Определяет, какие операции отключены на родительском PictureFrameEx.
+second_title: Справочник API Aspose.Sildes для .NET
+description: Определяет, какие операции отключены у родительского PictureFrameEx.
 type: docs
-weight: 6480
+weight: 6680
 url: /ru/aspose.slides/ipictureframelock/
 ---
+## IPictureFrameLock интерфейс
 
-## Интерфейс IPictureFrameLock
-
-Определяет, какие операции отключены на родительском PictureFrameEx.
+Определяет, какие операции отключены у родительского PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -17,25 +16,25 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 ## Свойства
 
-| Имя | Описание |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Определяет, запрещена ли смена значений регулировки. Читаемый/записываемый логический. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Определяет, запрещена ли смена стрелок. Читаемый/записываемый логический. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только для чтения [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Определяет, должен ли объект сохранять соотношение сторон при изменении размера. Читаемый/записываемый логический. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Определяет, запрещено ли кадрирование изображения. Читаемый/записываемый логический. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Определяет, запрещена ли прямая смена контура этого объекта. Читаемый/записываемый логический. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавление этого объекта в группу. Читаемый/записываемый логический. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещение этого объекта. Читаемый/записываемый логический. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Определяет, запрещена ли смена угла поворота этого объекта. Читаемый/записываемый логический. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Определяет, запрещено ли выделение этого объекта. Читаемый/записываемый логический. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Определяет, запрещена ли смена типа объекта. Читаемый/записываемый логический. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Определяет, запрещено ли изменение размера этого объекта. Читаемый/записываемый логический. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Определяет, запрещено ли изменение значений корректировки. Чтение/запись Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Определяет, запрещено ли изменение стрелок. Чтение/запись Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Позволяет получить базовый интерфейс IBaseShapeLock. Только чтение [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Определяет, должна ли фигура сохранять пропорции при изменении размеров. Чтение/запись Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Определяет, запрещено ли обрезать изображение. Чтение/запись Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Определяет, запрещено ли прямое изменение контура этой фигуры. Чтение/запись Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Определяет, запрещено ли добавлять эту фигуру в группу. Чтение/запись Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Определяет, запрещено ли перемещать эту фигуру. Чтение/запись Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Определяет, запрещено ли изменять угол поворота этой фигуры. Чтение/запись Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Определяет, запрещено ли выбирать эту фигуру. Чтение/запись Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Определяет, запрещено ли изменять тип фигуры. Чтение/запись Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Определяет, запрещено ли изменять размер этой фигуры. Чтение/запись Boolean. |
 
-### Дополнительно
+### См. также
 
-* интерфейс [IBaseShapeLock](../ibaseshapelock)
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IBaseShapeLock](../ibaseshapelock)
+* пространство имен [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

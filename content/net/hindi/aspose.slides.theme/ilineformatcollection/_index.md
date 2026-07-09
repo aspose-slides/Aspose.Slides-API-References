@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: रेखा शैलियों के संग्रह का प्रतिनिधित्व करता है।
+description: लाइन शैलियों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 11290
 url: /hi/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection इंटरफ़ेस
 
-रेखा शैलियों के संग्रह का प्रतिनिधित्व करता है।
+लाइन शैली के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>
@@ -18,9 +18,9 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat)। |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [ILineFormat](../../aspose.slides/ilineformat)

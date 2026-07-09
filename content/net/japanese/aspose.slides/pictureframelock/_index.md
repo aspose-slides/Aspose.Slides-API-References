@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 親 PictureFrame で無効になっている操作を決定します。
+description: 親の PictureFrame で無効になっている操作を決定します。
 type: docs
-weight: 9400
+weight: 9420
 url: /ja/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock クラス
 
-親 PictureFrame で無効になっている操作を決定します。
+親の PictureFrame で無効にされている操作を決定します。
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -18,20 +18,20 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | 名前 | 説明 |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | 矢じりの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | リサイズ時に形状がアスペクト比を保持する必要があるかどうかを決定します。読み書き可能な Boolean。 |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | 画像のクロッピングが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効になっている場合は true を返します。読み取り専用 Boolean。 |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み書き可能な Boolean。 |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | 調整値の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | 矢印ヘッドの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | サイズ変更時に形状が縦横比を維持する必要があるかどうかを決定します。読み取り/書き込み Boolean。 |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | 画像のクロッピングが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | この形状の輪郭の直接変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | この形状をグループに追加することが禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | すべてのロックフラグが無効になっている場合に true を返します。読み取り専用 Boolean。 |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | この形状の移動が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | この形状の回転角度の変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | この形状の選択が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | 形状タイプの変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | この形状のサイズ変更が禁止されているかどうかを決定します。読み取り/書き込み Boolean。 |
 
-### 関連項目
+### 参照
 
 * クラス [BaseShapeLock](../baseshapelock)
 * インターフェイス [IPictureFrameLock](../ipictureframelock)

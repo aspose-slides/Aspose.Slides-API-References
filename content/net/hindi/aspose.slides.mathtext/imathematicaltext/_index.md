@@ -1,6 +1,6 @@
 ---
 title: IMathematicalText
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: गणितीय पाठ
 type: docs
 weight: 8510
@@ -14,12 +14,12 @@ url: /hi/aspose.slides.mathtext/imathematicaltext/
 public interface IMathematicalText : IMathElement
 ```
 
-## गुण
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | पाठ स्वरूपण गुण |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस [`IMathElement`](../imathelement) प्राप्त करने की अनुमति देता है |
+| [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | पाठ स्वरूपण गुणधर्म |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | पाठ मान |
 
 ### उदाहरण

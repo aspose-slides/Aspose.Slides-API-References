@@ -1,12 +1,12 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: IMathNaryOperator öğesinin özelliklerini belirtir
 type: docs
-weight: 8360
+weight: 8380
 url: /tr/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
-## IMathNaryOperatorProperties arayüzü
+## IMathNaryOperatorProperties arayüz
 
 IMathNaryOperator öğesinin özelliklerini belirtir
 
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operatör karakteri, işlenen yüksekliğine göre dikey olarak büyür |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Alt simgeyi gizle |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Üst simgeyi gizle |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Sınırların (alt simge ve üst simge) konumu |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary operatör karakteri. Örneğin: '∑', '∫' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Operatör Karakteri, işlenenin yüksekliğine uyacak şekilde dikey olarak büyür |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Alt Bilgiyi Gizle |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Üst Bilgiyi Gizle |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Sınırların (altbilgi ve üstbilgi) konumu |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operatör Karakteri Örneğin: '∑', '∫' |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Presentation../aspose.slides/presentation 안의 애니메이션 생성기를 나타냅니다.
+description: Presentation의 애니메이션 생성기를 나타냅니다../aspose.slides/presentation.
 type: docs
 weight: 4380
 url: /ko/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator 클래스
 
-[`Presentation`](../../aspose.slides/presentation) 내에서 애니메이션 생성기를 나타냅니다.
+[`Presentation`](../../aspose.slides/presentation)의 애니메이션 생성기를 나타냅니다.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -18,14 +18,14 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | 새로운 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 인스턴스를 생성합니다. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | 새로운 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 인스턴스를 생성합니다. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 만듭니다. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)의 새 인스턴스를 만듭니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 기본 지연 시간(ms)을 가져오거나 설정합니다. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 기본 지연 시간 [ms]을 가져오거나 설정합니다. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 내보낸 슬라이드 수를 가져옵니다. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 숨겨진 슬라이드를 포함할지 여부를 가져오거나 설정합니다. |
 
@@ -34,8 +34,8 @@ public class PresentationAnimationsGenerator : IDisposable
 | 이름 | 설명 |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 인스턴스를 해제합니다. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 각 슬라이드에 대해 애니메이션 이벤트 생성을 실행합니다. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 각 슬라이드에 대해 애니메이션 이벤트 생성을 실행합니다. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 각 슬라이드에 대한 애니메이션 이벤트 생성을 실행합니다. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 각 슬라이드에 대한 애니메이션 이벤트 생성을 실행합니다. |
 
 ## 필드
 
@@ -52,7 +52,6 @@ public class PresentationAnimationsGenerator : IDisposable
 ### 예제
 
 ```csharp
-[C#]
 using (Presentation presentation = new Presentation("animated.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(presentation))
@@ -68,7 +67,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

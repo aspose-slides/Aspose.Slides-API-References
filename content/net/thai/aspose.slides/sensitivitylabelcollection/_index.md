@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงคอลเลกชันของ sensitivity labels ที่นำไปใช้กับเอกสาร.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของป้ายความละเอียดที่นำไปใช้กับเอกสาร.
 type: docs
 weight: 9810
 url: /th/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection คลาส
 
-แสดงถึงคอลเลกชันของ sensitivity labels ที่นำไปใช้กับเอกสาร
+แสดงถึงคอลเลกชันของป้ายความละเอียดที่นำไปใช้กับเอกสาร
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -17,21 +17,21 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | ส่งคืนจำนวนของสมาชิกในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | ส่งคืน sensitivity label ตามดัชนี. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | คืนจำนวนขององค์ประกอบในคอลเลกชัน อ่านได้เฉพาะ Int32. |
+| [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | คืนป้ายความละเอียดตามดัชนี. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | เพิ่ม SensitivityLabel ไปยังคอลเลกชัน. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | เพิ่ม sensitivity label ที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | ลบสมาชิกทั้งหมดออกจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | คัดลอกสมาชิกทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | ลบ sensitivity label ที่ตำแหน่งดัชนีที่ระบุ. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | เพิ่ม SensitivityLabel ลงในคอลเลกชัน. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | เพิ่มป้ายความละเอียดไปที่ท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | ลบองค์ประกอบทั้งหมดออกจากคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | คืน enumerator ที่วนผ่านคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | ลบป้ายความละเอียดที่ตำแหน่งดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes용 .NET API 참조
-description: 주석 작성자들의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 주석 작성자 컬렉션을 나타냅니다.
 type: docs
 weight: 5580
 url: /ko/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection 인터페이스
 
-주석 작성자들의 컬렉션을 나타냅니다.
+주석 작성자 컬렉션을 나타냅니다.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -24,15 +24,15 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | 컬렉션 끝에 새 작성자를 추가합니다. |
-| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | 컬렉션에서 모든 작성자를 제거합니다. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | 이름으로 컬렉션에서 작성자를 찾습니다. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 이름과 이니셜로 컬렉션에서 작성자를 찾습니다. |
-| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | 컬렉션에서 지정된 작성자의 첫 번째 항목을 제거합니다. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | 컬렉션에서 지정된 인덱스에 있는 작성자를 제거합니다. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | 모든 작성자를 포함하는 배열을 생성하고 반환합니다. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | 새 저자를 컬렉션 끝에 추가합니다. |
+| [Clear](../../aspose.slides/icommentauthorcollection/clear)() | 컬렉션에서 모든 저자를 제거합니다. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | 컬렉션에서 이름으로 저자를 찾습니다. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | 컬렉션에서 이름과 이니셜로 저자를 찾습니다. |
+| [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | 컬렉션에서 지정된 저자의 첫 번째 항목을 제거합니다. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | 컬렉션에서 지정된 인덱스에 있는 저자를 제거합니다. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | 모든 저자를 포함하는 배열을 만들고 반환합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ICommentAuthor](../icommentauthor)

@@ -1,6 +1,6 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho một kiểu hiệu ứng.
 type: docs
 weight: 11170
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle giao diện
 
-Đại diện cho một kiểu hiệu ứng.
+Represents an effect style.
 
 ```csharp
 public interface IEffectStyle

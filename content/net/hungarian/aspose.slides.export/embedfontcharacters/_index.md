@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes .NET API referencia
-description: A szabályt jelöli, amelyet az új beágyazott betűtípus hozzáadásához használnak az IPresentation-ban ../aspose.slides/ipresentation
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Az IPresentation új beágyazott betűtípus hozzáadásához használandó szabályt reprezentálja../aspose.slides/ipresentation
 type: docs
-weight: 3750
+weight: 3770
 url: /hu/aspose.slides.export/embedfontcharacters/
 ---
-## EmbedFontCharacters felsorolás
+## EmbedFontCharacters enumeráció
 
-A szabályt jelöli, amelyet az új beágyazott betűtípus hozzáadásához használnak a [`IPresentation`](../../aspose.slides/ipresentation)
+Az új beágyazott betűtípus hozzáadásához használandó szabályt reprezentálja a [`IPresentation`](../../aspose.slides/ipresentation)-ben.
 
 ```csharp
 public enum EmbedFontCharacters
@@ -18,10 +18,10 @@ public enum EmbedFontCharacters
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| OnlyUsed | `0` | Csak a prezentációban használt karaktereket ágyazza be (a legjobb a fájlméret csökkentéséhez). |
-| All | `1` | Minden karaktert beágyazza (a legjobb mások által történő szerkesztéshez). |
+| OnlyUsed | `0` | Csak a bemutatóban használt karaktereket ágyazza be (legjobb a fájlméret csökkentéséhez). |
+| All | `1` | Az összes karaktert beágyazza (legjobb mások általi szerkesztéshez). |
 
-### Lásd még
+### See Also
 
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
 * összeállítás [Aspose.Slides](../../)

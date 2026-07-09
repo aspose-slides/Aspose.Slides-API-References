@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes for .NET API 참조
-description: 텍스트 수직 오버플로 유형을 나타냅니다.
+description: 텍스트 수직 오버플로우 유형을 나타냅니다.
 type: docs
 weight: 11020
 url: /ko/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType 열거형
 
-텍스트 수직 오버플로 유형을 나타냅니다.
+텍스트 수직 오버플로우 유형을 나타냅니다.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje formát zdrojového souboru.
+description: Zastupuje formát zdrojového souboru.
 type: docs
-weight: 10660
+weight: 10680
 url: /cs/aspose.slides/sourceformat/
 ---
-## Výčet SourceFormat
+## Výčtový typ SourceFormat
 
-Representuje formát zdrojového souboru.
+Zastupuje formát zdrojového souboru.
 
 ```csharp
 public enum SourceFormat
@@ -18,19 +18,19 @@ public enum SourceFormat
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 prezentace (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML prezentace (*.pptx). |
-| Odp | `2` | OpenDocument prezentace (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML prezentace s makry (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML prezentace snímků (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML prezentace snímků s makry (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML šablona (*.potx). |
-| Potm | `7` | Microsoft Office Open XML šablona s makry (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 prezentace snímků (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 šablona (*.pot). |
-| Otp | `10` | OpenDocument šablona prezentace (*.otp). |
-| Fodp | `11` | Flat XML ODF prezentace (*.fodp). |
-| Xml | `12` | PowerPoint XML prezentace (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 Prezentace (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML Prezentace (*.pptx). |
+| Odp | `2` | OpenDocument Prezentace (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML Makro-povolená Prezentace (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML Prezentace (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML Makro-povolená Prezentace (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML Šablona (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Makro-povolená Šablona (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 Prezentace (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Šablona (*.pot). |
+| Otp | `10` | OpenDocument Prezentace Šablona (*.otp). |
+| Fodp | `11` | Flat XML ODF Prezentace (*.fodp). |
+| Xml | `12` | PowerPoint XML Prezentace (*.xml). |
 
 ### Viz také
 

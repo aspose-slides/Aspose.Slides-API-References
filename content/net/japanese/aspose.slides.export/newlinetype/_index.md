@@ -1,14 +1,14 @@
 ---
 title: NewLineType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 生成されたドキュメントで使用される改行の種類。
+description: 生成された文書で使用される改行の種類です。
 type: docs
-weight: 4260
+weight: 4280
 url: /ja/aspose.slides.export/newlinetype/
 ---
 ## NewLineType 列挙型
 
-生成されたドキュメントで使用される改行の種類。
+生成された文書で使用される改行の種類です。
 
 ```csharp
 public enum NewLineType
@@ -16,11 +16,11 @@ public enum NewLineType
 
 ### 値
 
-| 名前 | 値 | 説明 |
+| Name | Value | Description |
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) の改行 - \\r |
+| Mac | `2` | Mac (OS 9) 改行 - \\r |
 
 ### 例
 

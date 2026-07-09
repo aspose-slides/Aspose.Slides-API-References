@@ -1,9 +1,9 @@
 ---
 title: GraphicalObjectLock
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menentukan operasi mana yang dinonaktifkan pada GraphicalObject induk.
 type: docs
-weight: 5060
+weight: 5080
 url: /id/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock kelas
@@ -18,13 +18,13 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Menentukan apakah shape harus mempertahankan rasio aspek saat diubah ukuran. Baca/tulis Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Menentukan apakah pemilihan subshapes dari objek ini dilarang. Baca/tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Menentukan apakah penambahan shape ini ke grup dilarang. Baca/tulis Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flags dinonaktifkan. Baca-saja Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Menentukan apakah memindahkan shape ini dilarang. Baca/tulis Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Menentukan apakah memilih shape ini dilarang. Baca/tulis Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/tulis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | Menentukan apakah bentuk harus mempertahankan rasio aspek saat diubah ukuran. Read/write Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | Menentukan apakah pemilihan subbentuk dari objek ini dilarang. Read/write Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | Menentukan apakah menambahkan bentuk ini ke grup dilarang. Read/write Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Mengembalikan true jika semua flag kunci dinonaktifkan. Read-only Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | Menentukan apakah memindahkan bentuk ini dilarang. Read/write Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | Menentukan apakah memilih bentuk ini dilarang. Read/write Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Read/write Boolean. |
 
 ### Lihat Juga
 

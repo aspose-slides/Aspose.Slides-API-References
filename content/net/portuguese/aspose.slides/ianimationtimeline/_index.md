@@ -1,9 +1,9 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa a linha do tempo da animação.
 type: docs
-weight: 5180
+weight: 5200
 url: /pt/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interface
@@ -18,11 +18,11 @@ public interface IAnimationTimeLine
 
 | Nome | Descrição |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Retorna a coleção de sequências interativas. Essas sequências podem conter apenas efeitos por "clique na forma" com a forma de destino especificada. Somente leitura [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Retorna a coleção de sequências interativas. Essas sequências podem conter apenas efeitos de "click on shape" com a forma de destino especificada. Somente leitura [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
 | [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Retorna a sequência principal que pode conter apenas a coleção de efeitos principais. Somente leitura [`ISequence`](../../aspose.slides.animation/isequence). |
 | [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Retorna a coleção de animações de texto. Somente leitura [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
-### Veja Também
+### Ver também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

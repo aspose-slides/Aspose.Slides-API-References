@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | नाम | विवरण |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | यदि इस प्रस्तुति में कोई मास्टर मौजूद है तो सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल पढ़ने योग्य [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | यदि प्रस्तुतिकरण में एक मास्टर मौजूद है तो इस प्रस्तुति के सभी नोट्स स्लाइड्स के लिए एक मास्टर लौटाता है, अन्यथा null लौटाता है। केवल-पढ़ने योग्य [`IMasterNotesSlide`](../imasternotesslide)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | मास्टर नोट्स स्लाइड को हटाता है। |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | सेट करता है defalut मास्टर नोट्स स्लाइड संबंधित नोट्स स्लाइड के लिए। |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | संबंधित नोट्स स्लाइड के लिए डिफ़ॉल्ट मास्टर नोट्स स्लाइड सेट करता है। |
 
 ### देखें
 

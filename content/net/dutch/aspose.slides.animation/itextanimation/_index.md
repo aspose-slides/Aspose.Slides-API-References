@@ -1,14 +1,14 @@
 ---
 title: ITextAnimation
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt tekstanimatie voor.
+description: Vertegenwoordigt tekstanimatie.
 type: docs
 weight: 620
 url: /nl/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation interface
 
-Stelt tekstanimatie voor.
+Represent tekstanimatie.
 
 ```csharp
 public interface ITextAnimation
@@ -18,8 +18,8 @@ public interface ITextAnimation
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Lijst van opbouwtype (bijv. Paragraaf 1,2,3, Alles tegelijk) van tekstanimatie. Lezen/schrijven [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Gekoppeld vormeffect met groep of niet (null) Lezen/schrijven [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Lijst van opbouwtype (for exp. Paragraph 1,2,3, All at Once) van tekstanimatie. Lezen/schrijven [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Gelinkte vormeffect met groep of niet (null) Lezen/schrijven [`IEffect`](../ieffect). |
 
 ## Methoden
 

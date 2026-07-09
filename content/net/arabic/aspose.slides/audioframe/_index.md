@@ -1,12 +1,12 @@
 ---
 title: AudioFrame
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل مقطعًا صوتيًا على شريحة.
+second_title: مرجع API لـ Aspose.Sildes للـ .NET
+description: يمثل مقطع صوتي على شريحة.
 type: docs
 weight: 870
 url: /ar/aspose.slides/audioframe/
 ---
-## AudioFrame فئة
+## فئة AudioFrame
 
 يمثل مقطع صوتي على الشريحة.
 
@@ -18,115 +18,115 @@ public class AudioFrame : PictureFrame, IAudioFrame
 
 | الاسم | الوصف |
 | --- | --- |
-| [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | إرجاع مجموعة قيم تعديل الشكل. للقراءة فقط [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | إرجاع أو تعيين النص البديل المرتبط بالشكل. قابل للقراءة والكتابة String. |
-| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | إرجاع أو تعيين عنوان النص البديل المرتبط بالشكل. قابل للقراءة والكتابة String. |
-| [AudioCdEndTrack](../../aspose.slides/audioframe/audiocdendtrack) { get; set; } | إرجاع أو تعيين فهرس المسار الأخير. قابل للقراءة والكتابة Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/audioframe/audiocdendtracktime) { get; set; } | إرجاع أو تعيين زمن المسار الأخير. قابل للقراءة والكتابة Int32. |
-| [AudioCdStartTrack](../../aspose.slides/audioframe/audiocdstarttrack) { get; set; } | إرجاع أو تعيين فهرس مسار البداية. قابل للقراءة والكتابة Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/audioframe/audiocdstarttracktime) { get; set; } | إرجاع أو تعيين زمن مسار البداية. قابل للقراءة والكتابة Int32. |
-| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | تحدد الخاصية كيفية عرض الشكل في وضع العرض بالأبيض والأسود. قابل للقراءة والكتابة [`BlackWhiteMode`](../blackwhitemode). |
-| [CaptionTracks](../../aspose.slides/audioframe/captiontracks) { get; } | يجلب مجموعة الترجمات المغلقة المرتبطة بإطار الصوت. هذه الخاصية للقراءة فقط وتُرجع [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات الترجمات. |
-| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | إرجاع عدد مواقع الاتصال على الشكل. للقراءة فقط Int32. |
-| [CustomData](../../aspose.slides/shape/customdata) { get; } | إرجاع بيانات الشكل المخصصة. للقراءة فقط [`ICustomData`](../icustomdata). |
-| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | إرجاع كائن EffectFormat الذي يحتوي على تأثيرات البكسل المطبقة على الشكل. ملاحظة: قد يُرجع null لبعض أنواع الأشكال التي لا تمتلك خصائص تأثير. للقراءة فقط [`IEffectFormat`](../ieffectformat). |
-| [Embedded](../../aspose.slides/audioframe/embedded) { get; } | تحديد ما إذا كان الصوت مدمجًا في العرض التقديمي. للقراءة فقط Boolean. |
-| [EmbeddedAudio](../../aspose.slides/audioframe/embeddedaudio) { get; set; } | إرجاع أو تعيين كائن الصوت المدمج. قابل للقراءة والكتابة [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/audioframe/fadeinduration) { get; set; } | تحدد مدة الوقت للظهور التدريجي الأولي للوسائط بالمللي ثانية. قابل للقراءة والكتابة Single. |
-| [FadeOutDuration](../../aspose.slides/audioframe/fadeoutduration) { get; set; } | تحدد مدة الوقت للاندماج التدريجي النهائي للوسائط بالمللي ثانية. قابل للقراءة والكتابة Single. |
-| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | إرجاع كائن FillFormat الذي يحتوي على خصائص تنسيق التعبئة للشكل. ملاحظة: قد يُرجع null لبعض أنواع الأشكال التي لا تمتلك خصائص تعبئة. للقراءة فقط [`IFillFormat`](../ifillformat). |
-| [Frame](../../aspose.slides/shape/frame) { get; set; } | إرجاع أو تعيين خصائص إطار الشكل. قابل للقراءة والكتابة [`IShapeFrame`](../ishapeframe). |
-| [Height](../../aspose.slides/shape/height) { get; set; } | يُجلب أو يُعيّن ارتفاع الشكل، مقاسًا بالنقاط. قابل للقراءة والكتابة Single. |
-| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | تحديد ما إذا كان الشكل مخفيًا. قابل للقراءة والكتابة Boolean. |
-| [HideAtShowing](../../aspose.slides/audioframe/hideatshowing) { get; set; } | تحديد ما إذا كان AudioFrame مخفيًا. قابل للقراءة والكتابة Boolean. |
-| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | إرجاع أو تعيين الرابط التشعبي المعرفة للنقر بالماوس. قابل للقراءة والكتابة [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | إرجاع مدير الروابط التشعبية. للقراءة فقط [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | إرجاع أو تعيين الرابط التشعبي المعرفة للتقويم بالماوس. قابل للقراءة والكتابة [`IHyperlink`](../ihyperlink). |
-| [IsCameo](../../aspose.slides/pictureframe/iscameo) { get; } | تحديد ما إذا كان PictureFrame كائن Cameo أم لا. للقراءة فقط Boolean. |
-| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | يُجلب أو يُعيّن خيار 'وضع علامة كديكور'. قابل للقراءة والكتابة Boolean. |
-| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | تحديد ما إذا كان الشكل مجمعًا. للقراءة فقط Boolean. |
-| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | تحديد ما إذا كان الشكل TextHolder_PPT. للقراءة فقط Boolean. |
-| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | إرجاع كائن LineFormat الذي يحتوي على خصائص تنسيق الخط للشكل. ملاحظة: قد يُرجع null لبعض أنواع الأشكال التي لا تمتلك خصائص خط. للقراءة فقط [`ILineFormat`](../ilineformat). |
-| [LinkPathLong](../../aspose.slides/audioframe/linkpathlong) { get; set; } | إرجاع أو تعيين اسم ملف صوت مرتبط بـ AudioFrame. قابل للقراءة والكتابة String. |
-| [Name](../../aspose.slides/shape/name) { get; set; } | إرجاع أو تعيين اسم الشكل. يجب ألا يكون null. استخدم قيمة سلسلة فارغة إذا لزم الأمر. قابل للقراءة والكتابة String. |
-| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | إرجاع معرف فريد محصور بالعرض يُبقى ثابتًا طوال عمر الشكل ويسمح لــ PowerPoint أو شفرة interop بالإشارة إلى الشكل من أي مكان في المستند. للقراءة فقط UInt32. أنظر أيضًا [`UniqueId`](../shape/uniqueid). |
-| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | إرجاع كائن GroupShape الأب إذا كان الشكل مجمعًا. وإلا يُرجع null. للقراءة فقط [`IGroupShape`](../igroupshape). |
-| [PictureFormat](../../aspose.slides/pictureframe/pictureformat) { get; } | إرجاع كائن PictureFillFormat لإطار الصورة. للقراءة فقط [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/pictureframe/pictureframelock) { get; } | إرجاع أقفال الشكل. للقراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
-| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | إرجاع العنصر النائب للشكل. يُرجع null إذا لم يكن لل shape عنصر نائب. للقراءة فقط [`IPlaceholder`](../iplaceholder). |
-| [PlayAcrossSlides](../../aspose.slides/audioframe/playacrossslides) { get; set; } | تحديد ما إذا كان الصوت يُشغل عبر الشرائح. قابل للقراءة والكتابة Boolean. |
-| [PlayLoopMode](../../aspose.slides/audioframe/playloopmode) { get; set; } | تحديد ما إذا كان الصوت متكررًا. قابل للقراءة والكتابة Boolean. |
-| [PlayMode](../../aspose.slides/audioframe/playmode) { get; set; } | إرجاع أو تعيين وضع تشغيل الصوت. قابل للقراءة والكتابة [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [Presentation](../../aspose.slides/shape/presentation) { get; } | إرجاع العرض التقديمي الأب للشريحة. للقراءة فقط [`IPresentation`](../ipresentation). |
-| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | إرجاع أو تعيين خصائص إطار الشكل الخام. قابل للقراءة والكتابة [`IShapeFrame`](../ishapeframe). |
-| [RelativeScaleHeight](../../aspose.slides/pictureframe/relativescaleheight) { get; set; } | إرجاع أو تعيين مقياس الارتفاع (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تعادل 100٪. قابل للقراءة والكتابة Single. |
-| [RelativeScaleWidth](../../aspose.slides/pictureframe/relativescalewidth) { get; set; } | إرجاع أو تعيين مقياس العرض (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تعادل 100٪. قابل للقراءة والكتابة Single. |
-| [RewindAudio](../../aspose.slides/audioframe/rewindaudio) { get; set; } | تحديد ما إذا كان الصوت يُعيد تلقائيًا إلى البداية بعد التشغيل. قابل للقراءة والكتابة Boolean. |
-| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | إرجاع أو تعيين عدد الدرجات التي يدور بها الشكل المحدد حول المحور z. القيمة الموجبة تشير إلى دوران باتجاه عقارب الساعة؛ القيمة السالبة تشير إلى دوران عكس اتجاه العقارب. قابل للقراءة والكتابة Single. |
-| [ShapeLock](../../aspose.slides/pictureframe/shapelock) { get; } | إرجاع أقفال الشكل. للقراءة فقط [`IPictureFrameLock`](../ipictureframelock). (2 properties) |
-| [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | إرجاع كائن نمط الشكل. للقراءة فقط [`IShapeStyle`](../ishapestyle). |
-| override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | إرجاع أو تعيين نوع AutoShape لإطار الصورة. جميع العناصر المسموح بها في المجموعة [`ShapeType`](../shapetype)، ما عدا جميع أنواع الخطوط: |
-| [Slide](../../aspose.slides/shape/slide) { get; } | إرجاع الشريحة الأب للشكل. للقراءة فقط [`IBaseSlide`](../ibaseslide). |
-| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | إرجاع كائن ThreeDFormat الذي يحتوي على خصائص تأثير 3D للشكل. ملاحظة: قد يُرجع null لبعض أنواع الأشكال التي لا تمتلك خصائص 3D. للقراءة فقط [`IThreeDFormat`](../ithreedformat). |
-| [TrimFromEnd](../../aspose.slides/audioframe/trimfromend) { get; set; } | تحدد مدة الوقت لإزالة الجزء الأخير من الوسائط أثناء التشغيل، بالمللي ثانية. قابل للقراءة والكتابة Single. |
-| [TrimFromStart](../../aspose.slides/audioframe/trimfromstart) { get; set; } | تحدد مدة الوقت لإزالة الجزء الأول من الوسائط أثناء التشغيل، بالمللي ثانية. قابل للقراءة والكتابة Single. |
-| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | إرجاع معرف داخلي محصور بالعرض مخصص للاستخدام من قبل الإضافات أو شفرة أخرى. بما أن هذه القيمة يمكن أن يعيد المستخدم أو البرنامج تعيينها، لا يجب التعامل معها كمفتاح فريد دائم. للقراءة فقط UInt32. أنظر أيضًا [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
-| [Volume](../../aspose.slides/audioframe/volume) { get; set; } | إرجاع أو تعيين مستوى صوت الصوت. قابل للقراءة والكتابة [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/audioframe/volumevalue) { get; set; } | إرجاع أو تعيين مستوى صوت الصوت بالنسبة المئوية. قابل للقراءة والكتابة Single. |
-| [Width](../../aspose.slides/shape/width) { get; set; } | يُجلب أو يُعيّن عرض الشكل، مقاسًا بالنقاط. قابل للقراءة والكتابة Single. |
-| [X](../../aspose.slides/shape/x) { get; set; } | يُجلب أو يُعيّن الإحداثي السيني لزاوية الشكل العلوية اليسرى، مقاسًا بالنقاط. قابل للقراءة والكتابة Single. |
-| [Y](../../aspose.slides/shape/y) { get; set; } | يُجلب أو يُعيّن الإحداثي الصادي لزاوية الشكل العلوية اليسرى، مقاسًا بالنقاط. قابل للقراءة والكتابة Single. |
-| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | إرجاع موضع الشكل في ترتيب z. Shapes[0] تُرجع الشكل الخلفي في ترتيب z، وShapes[Shapes.Count - 1] تُرجع الشكل الأمامي في ترتيب z. للقراءة فقط Int32. |
+| [Adjustments](../../aspose.slides/geometryshape/adjustments) { get; } | تُرجع مجموعة قيم تعديل الشكل. قراءة فقط [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AlternativeText](../../aspose.slides/shape/alternativetext) { get; set; } | تُرجع أو تُعيّن النص البديل المرتبط بالشكل. قراءة/كتابة String. |
+| [AlternativeTextTitle](../../aspose.slides/shape/alternativetexttitle) { get; set; } | تُرجع أو تُعيّن عنوان النص البديل المرتبط بالشكل. قراءة/كتابة String. |
+| [AudioCdEndTrack](../../aspose.slides/audioframe/audiocdendtrack) { get; set; } | تُرجع أو تُعيّن فهرس المقطع الأخير. قراءة/كتابة Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/audioframe/audiocdendtracktime) { get; set; } | تُرجع أو تُعيّن وقت المقطع الأخير. قراءة/كتابة Int32. |
+| [AudioCdStartTrack](../../aspose.slides/audioframe/audiocdstarttrack) { get; set; } | تُرجع أو تُعيّن فهرس المقطع الابتدائي. قراءة/كتابة Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/audioframe/audiocdstarttracktime) { get; set; } | تُرجع أو تُعيّن وقت المقطع الابتدائي. قراءة/كتابة Int32. |
+| [BlackWhiteMode](../../aspose.slides/shape/blackwhitemode) { get; set; } | تحدد كيفية عرض الشكل في وضع العرض بالأبيض والأسود. قراءة/كتابة [`BlackWhiteMode`](../blackwhitemode). |
+| [CaptionTracks](../../aspose.slides/audioframe/captiontracks) { get; } | يحصل على مجموعة الشرح المغلق المرتبط بإطار الصوت. هذه الخاصية قراءة فقط وتُرجع [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات الترجمة. |
+| [ConnectionSiteCount](../../aspose.slides/shape/connectionsitecount) { get; } | تُرجع عدد مواقع الاتصال على الشكل. قراءة فقط Int32. |
+| [CustomData](../../aspose.slides/shape/customdata) { get; } | تُرجع بيانات الشكل المخصصة. قراءة فقط [`ICustomData`](../icustomdata). |
+| virtual [EffectFormat](../../aspose.slides/shape/effectformat) { get; } | تُرجع كائن EffectFormat الذي يحتوي على تأثيرات البكسل المطبقة على الشكل. ملاحظة: قد يُعيد null لبعض أنواع الأشكال التي لا تحتوي على خصائص تأثير. قراءة فقط [`IEffectFormat`](../ieffectformat). |
+| [Embedded](../../aspose.slides/audioframe/embedded) { get; } | تحدد ما إذا كان الصوت مدمجًا في العرض التقديمي. قراءة فقط Boolean. |
+| [EmbeddedAudio](../../aspose.slides/audioframe/embeddedaudio) { get; set; } | تُرجع أو تُعيّن كائن الصوت المدمج. قراءة/كتابة [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/audioframe/fadeinduration) { get; set; } | تُحدد مدة الإبهار الأولي للوسائط بالمللي ثانية. قراءة/كتابة Single. |
+| [FadeOutDuration](../../aspose.slides/audioframe/fadeoutduration) { get; set; } | تُحدد مدة التلاشي النهائي للوسائط بالمللي ثانية. قراءة/كتابة Single. |
+| virtual [FillFormat](../../aspose.slides/shape/fillformat) { get; } | تُرجع كائن FillFormat الذي يحتوي على خصائص تنسيق التعبئة للشكل. ملاحظة: قد يُعيد null لبعض أنواع الأشكال التي لا تحتوي على خصائص تعبئة. قراءة فقط [`IFillFormat`](../ifillformat). |
+| [Frame](../../aspose.slides/shape/frame) { get; set; } | تُرجع أو تُعيّن خصائص إطار الشكل. قراءة/كتابة [`IShapeFrame`](../ishapeframe). |
+| [Height](../../aspose.slides/shape/height) { get; set; } | يحصل أو يضبط ارتفاع الشكل بوحدات النقاط. قراءة/كتابة Single. |
+| [Hidden](../../aspose.slides/shape/hidden) { get; set; } | تحدد ما إذا كان الشكل مخفيًا. قراءة/كتابة Boolean. |
+| [HideAtShowing](../../aspose.slides/audioframe/hideatshowing) { get; set; } | تحدد ما إذا كان AudioFrame مخفيًا. قراءة/كتابة Boolean. |
+| [HyperlinkClick](../../aspose.slides/shape/hyperlinkclick) { get; set; } | تُرجع أو تُعيّن الارتباط التشعبي المحدد للنقر بالفأرة. قراءة/كتابة [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/shape/hyperlinkmanager) { get; } | تُرجع مدير الارتباط التشعبي. قراءة فقط [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/shape/hyperlinkmouseover) { get; set; } | تُرجع أو تُعيّن الارتباط التشعبي المحدد عند مرور الفأرة. قراءة/كتابة [`IHyperlink`](../ihyperlink). |
+| [IsCameo](../../aspose.slides/pictureframe/iscameo) { get; } | تحدد ما إذا كان PictureFrame كائن Cameo أم لا. قراءة فقط Boolean. |
+| [IsDecorative](../../aspose.slides/shape/isdecorative) { get; set; } | يحصل أو يضبط خيار "تمييم كزخرفة". قراءة/كتابة Boolean. |
+| [IsGrouped](../../aspose.slides/shape/isgrouped) { get; } | تحدد ما إذا كان الشكل مجموعة. قراءة فقط Boolean. |
+| [IsTextHolder](../../aspose.slides/shape/istextholder) { get; } | تحدد ما إذا كان الشكل TextHolder_PPT. قراءة فقط Boolean. |
+| virtual [LineFormat](../../aspose.slides/shape/lineformat) { get; } | تُرجع كائن LineFormat الذي يحتوي على خصائص تنسيق الخط للشكل. ملاحظة: قد يُعيد null لبعض أنواع الأشكال التي لا تحتوي على خصائص خط. قراءة فقط [`ILineFormat`](../ilineformat). |
+| [LinkPathLong](../../aspose.slides/audioframe/linkpathlong) { get; set; } | تُرجع أو تُعيّن اسم ملف الصوت المرتبط بـ AudioFrame. قراءة/كتابة String. |
+| [Name](../../aspose.slides/shape/name) { get; set; } | تُرجع أو تُعيّن اسم الشكل. يجب ألا يكون فارغًا. استخدم سلسلة فارغة إذا لزم الأمر. قراءة/كتابة String. |
+| [OfficeInteropShapeId](../../aspose.slides/shape/officeinteropshapeid) { get; } | تُرجع معرفًا فريدًا يمتد طوال عمر الشكل داخل الشريحة، ويسمح لـ PowerPoint أو كود التفاعل بالإشارة إلى الشكل من أي مكان في المستند. قراءة فقط UInt32. انظر أيضًا [`UniqueId`](../shape/uniqueid). |
+| [ParentGroup](../../aspose.slides/shape/parentgroup) { get; } | تُرجع كائن GroupShape الأصل إذا كان الشكل مجموعة. وإلا تُعيد null. قراءة فقط [`IGroupShape`](../igroupshape). |
+| [PictureFormat](../../aspose.slides/pictureframe/pictureformat) { get; } | تُرجع كائن PictureFillFormat لإطار الصورة. قراءة فقط [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/pictureframe/pictureframelock) { get; } | تُرجع أقفال الشكل. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). |
+| [Placeholder](../../aspose.slides/shape/placeholder) { get; } | تُرجع العنصر النائب للشكل. تُعيد null إذا كان الشكل لا يملك عنصرًا نائبًا. قراءة فقط [`IPlaceholder`](../iplaceholder). |
+| [PlayAcrossSlides](../../aspose.slides/audioframe/playacrossslides) { get; set; } | تحدد ما إذا كان الصوت يُشغّل عبر الشرائح. قراءة/كتابة Boolean. |
+| [PlayLoopMode](../../aspose.slides/audioframe/playloopmode) { get; set; } | تحدد ما إذا كان الصوت مكرّرًا. قراءة/كتابة Boolean. |
+| [PlayMode](../../aspose.slides/audioframe/playmode) { get; set; } | تُرجع أو تُعيّن وضع تشغيل الصوت. قراءة/كتابة [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [Presentation](../../aspose.slides/shape/presentation) { get; } | تُرجع العرض التقديمي الأصل للشرحة. قراءة فقط [`IPresentation`](../ipresentation). |
+| [RawFrame](../../aspose.slides/shape/rawframe) { get; set; } | تُرجع أو تُعيّن الخصائص الأولية لإطار الشكل. قراءة/كتابة [`IShapeFrame`](../ishapeframe). |
+| [RelativeScaleHeight](../../aspose.slides/pictureframe/relativescaleheight) { get; set; } | تُرجع أو تُعيّن مقياس الارتفاع (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تمثل 100٪. قراءة/كتابة Single. |
+| [RelativeScaleWidth](../../aspose.slides/pictureframe/relativescalewidth) { get; set; } | تُرجع أو تُعيّن مقياس العرض (نسبةً إلى حجم الصورة الأصلي) لإطار الصورة. القيمة 1.0 تمثل 100٪. قراءة/كتابة Single. |
+| [RewindAudio](../../aspose.slides/audioframe/rewindaudio) { get; set; } | تحدد ما إذا كان يتم إرجاع الصوت تلقائيًا إلى البداية بعد التشغيل. قراءة/كتابة Boolean. |
+| [Rotation](../../aspose.slides/shape/rotation) { get; set; } | تُرجع أو تُعيّن عدد درجات دوران الشكل حول المحور z. القيمة الموجبة تدل على دوران مع عقارب الساعة؛ السالبة تدل على دوران عكس عقارب الساعة. قراءة/كتابة Single. |
+| [ShapeLock](../../aspose.slides/pictureframe/shapelock) { get; } | تُرجع أقفال الشكل. قراءة فقط [`IPictureFrameLock`](../ipictureframelock). (خاصيتان) |
+| [ShapeStyle](../../aspose.slides/geometryshape/shapestyle) { get; } | تُرجع كائن نمط الشكل. قراءة فقط [`IShapeStyle`](../ishapestyle). |
+| override [ShapeType](../../aspose.slides/pictureframe/shapetype) { get; set; } | تُرجع أو تُعيّن نوع AutoShape لإطار الصورة. جميع العناصر المسموح بها من المجموعة [`ShapeType`](../shapetype) ما عدا جميع أنواع الخطوط: |
+| [Slide](../../aspose.slides/shape/slide) { get; } | تُرجع الشريحة الأصلية للشكل. قراءة فقط [`IBaseSlide`](../ibaseslide). |
+| virtual [ThreeDFormat](../../aspose.slides/shape/threedformat) { get; } | تُرجع كائن ThreeDFormat الذي يحتوي خصائص تأثير ثلاثية الأبعاد للشكل. ملاحظة: قد يُعيد null لبعض أنواع الأشكال التي لا تمتلك خصائص ثلاثية الأبعاد. قراءة فقط [`IThreeDFormat`](../ithreedformat). |
+| [TrimFromEnd](../../aspose.slides/audioframe/trimfromend) { get; set; } | تُحدد مدة الإزالة من نهاية الوسائط أثناء التشغيل، بالمللي ثانية. قراءة/كتابة Single. |
+| [TrimFromStart](../../aspose.slides/audioframe/trimfromstart) { get; set; } | تُحدد مدة الإزالة من بداية الوسائط أثناء التشغيل، بالمللي ثانية. قراءة/كتابة Single. |
+| [UniqueId](../../aspose.slides/shape/uniqueid) { get; } | تُرجع معرفًا داخليًا يمتد على مستوى العرض التقديمي مخصصًا للإضافات أو الكود الآخر. بما أن هذه القيمة يمكن إعادة تعيينها من قبل المستخدم أو برمجيًا، فلا ينبغي اعتبارها مفتاحًا فريدًا دائمًا. قراءة فقط UInt32. انظر أيضًا [`OfficeInteropShapeId`](../shape/officeinteropshapeid). |
+| [Volume](../../aspose.slides/audioframe/volume) { get; set; } | تُرجع أو تُعيّن مستوى صوت الصوت. قراءة/كتابة [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/audioframe/volumevalue) { get; set; } | تُرجع أو تُعيّن حجم صوت الصوت كنسبة مئوية. قراءة/كتابة Single. |
+| [Width](../../aspose.slides/shape/width) { get; set; } | يحصل أو يضبط عرض الشكل بوحدات النقاط. قراءة/كتابة Single. |
+| [X](../../aspose.slides/shape/x) { get; set; } | يحصل أو يضبط إحداثي x لزاوية الشكل العليا اليسرى بوحدات النقاط. قراءة/كتابة Single. |
+| [Y](../../aspose.slides/shape/y) { get; set; } | يحصل أو يضبط إحداثي y لزاوية الشكل العليا اليسرى بوحدات النقاط. قراءة/كتابة Single. |
+| virtual [ZOrderPosition](../../aspose.slides/shape/zorderposition) { get; } | تُرجع موضع الشكل في ترتيب z. Shapes[0] تُعيد الشكل الموجود في الخلف، وShapes[Shapes.Count - 1] تُعيد الشكل الموجود في المقدمة. قراءة فقط Int32. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | يضيف عنصر نائب جديد إذا لم يكن موجودًا ويعيّن خصائص العنصر النائب إلى العنصر المحدد. |
-| [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | ينشئ ويُرجع مصفوفة عناصر الشكل. |
-| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | يُرجع شكل عنصر نائب أساسي (شكل من التخطيط و/أو الشريحة الأساسية التي يُرث منها الشكل الحالي). يُرجع null إذا لم يكن الشكل الحالي مُرثًا. |
-| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | يُرجع نسخة من مسار الشكل الهندسي. الإحداثيات نسبية للزاوية العلوية اليسرى للشكل. |
-| [GetImage](../../aspose.slides/shape/getimage)() | يُرجع صورة مصغرة للشكل. النوع الافتراضي هو ShapeThumbnailBounds.Shape. |
+| [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | يضيف عنصر نائب جديد إذا لم يكن موجودًا ويضبط خصائص العنصر النائب إلى العنصر المحدد. |
+| [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | ينشئ ويُرجع مصفوفة من عناصر الشكل. |
+| [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | يُرجع شكل عنصر نائب أساسي (شكل من تخطيط أو شريحة رئيسية يُورث منها الشكل الحالي). يُعيد null إذا لم يكن الشكل الحالي موروثًا. |
+| [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | يُرجع نسخة من مسار الشكل الهندسي. الإحداثيات نسبية إلى الزاوية العُليا اليسرى للشكل. |
+| [GetImage](../../aspose.slides/shape/getimage)() | يُرجع صورة مصغرة للشكل. يُستخدم النوع ShapeThumbnailBounds.Shape كقائمة حدود الصورة المصغرة افتراضيًا. |
 | [GetImage](../../aspose.slides/shape/getimage)(ShapeThumbnailBounds, float, float) | يُرجع صورة مصغرة للشكل. |
-| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | يحصل على حدود الشكل البصرية محسوبة من المحتوى المرسوم. |
+| [GetVisualBounds](../../aspose.slides/shape/getvisualbounds)() | يحصل على الحدود البصرية للشكل المحسوبة من محتواه المُعرض. |
 | [RemovePlaceholder](../../aspose.slides/shape/removeplaceholder)() | يحدد أن هذا الشكل ليس عنصرًا نائبًا. |
-| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | يُحدّث هندسة الشكل من كائن [`IGeometryPath`](../igeometrypath). يجب أن تكون الإحداثيات نسبية للزاوية العلوية اليسرى للشكل. يغيّر نوع الشكل ([`ShapeType`](../geometryshape/shapetype)) إلى Custom. |
-| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | يُحدّث هندسة الشكل من مصفوفة [`IGeometryPath`](../igeometrypath). يجب أن تكون الإحداثيات نسبية للزاوية العلوية اليسرى للشكل. يغيّر نوع الشكل ([`ShapeType`](../geometryshape/shapetype)) إلى Custom. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | يحفظ محتوى Shape كملف SVG. |
-| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | يحفظ محتوى Shape كملف SVG. |
+| [SetGeometryPath](../../aspose.slides/geometryshape/setgeometrypath)(IGeometryPath) | يُحدّث هندسة الشكل من كائن [`IGeometryPath`](../igeometrypath). يجب أن تكون الإحداثيات نسبية إلى الزاوية العُليا اليسرى للشكل. يغيّر نوع الشكل ([`ShapeType`](../geometryshape/shapetype)) إلى Custom. |
+| [SetGeometryPaths](../../aspose.slides/geometryshape/setgeometrypaths)(IGeometryPath[]) | يُحدّث هندسة الشكل من مصفوفة [`IGeometryPath`](../igeometrypath). يجب أن تكون الإحداثيات نسبية إلى الزاوية العُليا اليسرى للشكل. يغيّر نوع الشكل ([`ShapeType`](../geometryshape/shapetype)) إلى Custom. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream) | يحفظ محتوى الشكل كملف SVG. |
+| [WriteAsSvg](../../aspose.slides/shape/writeassvg)(Stream, ISVGOptions) | يحفظ محتوى الشكل كملف SVG. |
 
 ### أمثلة
 
-المثال التالي يوضح كيفية تغيير خيارات تشغيل الصوت.
+توضح الأمثلة التالية كيفية تغيير خيارات تشغيل الصوت.
 
 ```csharp
 [C#]
 using (Presentation pres = new Presentation("AudioFrameEmbed_out.pptx"))
 {
-    // يجلب شكل AudioFrame
+    // يحصل على شكل AudioFrame
     AudioFrame audioFrame = (AudioFrame)pres.Slides[0].Shapes[0];
-    // يضبط وضع التشغيل لتشغيله عند النقر
+    // يحدد وضع التشغيل للتشغيل عند النقر
     audioFrame.PlayMode = AudioPlayModePreset.OnClick;
-    // يضبط مستوى الصوت إلى منخفض
+    // يحدد مستوى الصوت إلى منخفض
     audioFrame.Volume = AudioVolumeMode.Low;
-    // يضبط تشغيل الصوت عبر الشرائح
+    // يحدد تشغيل الصوت عبر الشرائح
     audioFrame.PlayAcrossSlides = true;
     // يعطل التكرار للصوت
     audioFrame.PlayLoopMode = false;
     // يخفي AudioFrame أثناء عرض الشرائح
     audioFrame.HideAtShowing = true;
-    // يعيد تشغيل الصوت إلى البداية بعد الانتهاء
+    // يعيد تشغيل الصوت إلى البداية بعد التشغيل
     audioFrame.RewindAudio = true;
     // يحفظ ملف PowerPoint على القرص
     pres.Save("AudioFrameEmbed_changed.pptx", SaveFormat.Pptx);
 }
 ```
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * فئة [PictureFrame](../pictureframe)
 * واجهة [IAudioFrame](../iaudioframe)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* نطاق [Aspose.Slides](../../aspose.slides)
 * تجميعة [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -6,9 +6,9 @@ type: docs
 weight: 9850
 url: /vi/aspose.slides/shapebevel/
 ---
-## Lớp ShapeBevel
+## ShapeBevel lớp
 
-Chứa các thuộc tính của relief mặt chính của hình dạng.
+Chứa các thuộc tính của relief bề mặt chính của hình dạng.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel

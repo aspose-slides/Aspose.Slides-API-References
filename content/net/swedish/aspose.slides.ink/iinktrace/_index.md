@@ -3,10 +3,10 @@ title: IInkTrace
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en handskriven linje i ett Ink-objekt.
 type: docs
-weight: 7520
+weight: 7540
 url: /sv/aspose.slides.ink/iinktrace/
 ---
-## IInkTrace gränssnitt
+## IInkTrace-gränssnitt
 
 Representerar en handskriven linje i ett Ink-objekt.
 
@@ -21,7 +21,7 @@ public interface IInkTrace
 | [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | Hämtar Brush för IInkLine [`IInkBrush`](../iinkbrush) Skrivskyddad. |
 | [Points](../../aspose.slides.ink/iinktrace/points) { get; } | Hämtar punkter för IInkLine PointF Skrivskyddad. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Ink](../../aspose.slides.ink)
 * samling [Aspose.Slides](../../)

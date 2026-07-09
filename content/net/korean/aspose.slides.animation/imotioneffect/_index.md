@@ -1,14 +1,14 @@
 ---
 title: IMotionEffect
-second_title: Aspose.Sildes for .NET API 참조
-description: 효과의 움직임 효과 동작을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 효과의 모션 효과 동작을 나타냅니다.
 type: docs
 weight: 520
 url: /ko/aspose.slides.animation/imotioneffect/
 ---
 ## IMotionEffect 인터페이스
 
-Represent motion effect behavior of effect.
+효과의 모션 효과 동작을 나타냅니다.
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -18,17 +18,17 @@ public interface IMotionEffect : IBehavior
 
 | 이름 | 설명 |
 | --- | --- |
-| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | 동작 경로의 상대 각도를 설명합니다. 읽기/쓰기 Single. |
+| [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | 모션 경로의 상대 각도를 설명합니다. 읽기/쓰기 Single. |
 | [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | 기본 IBehavior 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | 애니메이션에 대한 상대 오프셋 값을 설명합니다(퍼센트 단위). 읽기/쓰기 PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | 애니메이션이 시작되는 x/y 좌표를 지정합니다(퍼센트 단위). 읽기/쓰기 PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | 슬라이드 레이아웃이나 부모와 같이 동작 경로의 기준이 되는 원점을 지정합니다. 읽기/쓰기 [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | 애니메이션 동작을 위한 좌표가 따라가는 경로 기본 요소를 지정합니다. 읽기/쓰기 [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | 도형이 이동할 때 동작 경로가 어떻게 이동하는지 지정합니다. 읽기/쓰기 [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X 각도로 동작 경로를 회전시키는 데 사용되는 회전 중심을 설명합니다. 읽기/쓰기 PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | 애니메이션 동작 효과의 대상 위치를 지정합니다(퍼센트 단위). 읽기/쓰기 PointF. |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | 애니메이션에 대한 상대 오프셋 값을 설명합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | 애니메이션을 시작할 x/y 좌표를 지정합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | 슬라이드 레이아웃이나 상위 요소와 같은 기준에 대한 모션 경로의 원점을 지정합니다. 읽기/쓰기 [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | 애니메이션 움직임을 위한 좌표가 뒤따르는 경로 원시 요소를 지정합니다. 읽기/쓰기 [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | 도형이 이동될 때 모션 경로가 어떻게 이동하는지를 지정합니다. 읽기/쓰기 [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | X 각도로 모션 경로를 회전시키는 데 사용되는 회전 중심을 설명합니다. 읽기/쓰기 PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | 애니메이션 모션 효과의 목표 위치를 지정합니다 (퍼센트 단위). 읽기/쓰기 PointF. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IBehavior](../ibehavior)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

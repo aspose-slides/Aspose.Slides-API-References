@@ -1,14 +1,14 @@
 ---
 title: TileFlip
 second_title: Aspose.Sildes for .NET API リファレンス
-description: タイルのフリップモードを定義します。
+description: タイルの反転モードを定義します。
 type: docs
-weight: 11480
+weight: 11500
 url: /ja/aspose.slides/tileflip/
 ---
-## TileFlip 列挙体
+## TileFlip 列挙型
 
-タイルのフリップモードを定義します。
+タイルの反転モードを定義します。
 
 ```csharp
 public enum TileFlip

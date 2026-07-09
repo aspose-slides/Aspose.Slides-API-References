@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Aspose.Sildes pro .NET – referenční dokumentace
-description: Představuje upravený odkaz na knihovnu typů OLE Automation, ve které jsou všechny ovládací prvky označeny jako rozšiřitelné.
+second_title: Aspose.Sildes pro .NET - API reference
+description: Představuje upravenou referenci knihovny typů OLE Automation, ve které jsou všechny ovládací prvky označeny jako rozšiřitelné.
 type: docs
-weight: 11580
+weight: 11600
 url: /cs/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib rozhraní
 
-Představuje upravený odkaz na knihovnu typů OLE Automation, ve které jsou všechny ovládací prvky označeny jako rozšiřitelné.
+Představuje upravenou referenci knihovny typů OLE Automation, ve které jsou všechny ovládací prvky označeny jako rozšiřitelné.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference

@@ -1,15 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งบรรจุคุณสมบัติของ light rig ที่ใช้จริง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ light rig อย่างมีประสิทธิภาพ
 type: docs
 weight: 6280
 url: /th/aspose.slides/ilightrigeffectivedata/
 ---
-
 ## ILightRigEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งบรรจุคุณสมบัติของ light rig ที่ใช้จริง
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของ light rig อย่างมีประสิทธิภาพ
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -20,17 +19,17 @@ public interface ILightRigEffectiveData
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | ทิศทางของแสง. อ่านอย่างเดียว [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | แสดงถึงแสง preset ที่สามารถใช้กับรูปร่างได้. Light rig แสดงถึงกลุ่มของแสงที่จัดวางในลักษณะเฉพาะสัมพันธ์กับฉาก 3D. อ่านอย่างเดียว [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | แสดงถึง preset light right ที่สามารถนำไปใช้กับรูปทรงได้. light rig แสดงถึงกลุ่มของแสงที่จัดเรียงในรูปแบบเฉพาะสัมพันธ์กับฉาก 3D. อ่านอย่างเดียว [`LightRigPresetType`](../lightrigpresettype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | การหมุนกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาร์เรย์ผลลัพธ์ - ละติจูด, องค์ประกอบที่สอง - ลองจิจูด, องค์ประกอบที่สาม - การหมุน. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | การหมุนถูกกำหนดโดยการใช้พิกัดละติจูด, พิกัดลองจิจูด, และการหมุนรอบแกนตามพิกัดละติจูดและลองจิจูด. องค์ประกอบแรกในอาเรย์ผลลัพธ์ - latitude, องค์ประกอบที่สอง - longitude, องค์ประกอบที่สาม - revolution. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
+อินเทอร์เฟซนี้ถูกใช้เป็นส่วนหนึ่งของ [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
 ### ดูเพิ่มเติม
 

@@ -18,23 +18,23 @@ public sealed class Sequence : ISequence
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | 返回 sequense 中效果的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.animation/sequence/item) { get; } | 返回指定索引處的效果。 |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | 返回或設定 INTERACTIVE 序列的形狀目標。如果序列不是互動的，則返回 null。讀寫 [`IShape`](../../aspose.slides/ishape)。 |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | 傳回序列中的效果數量。唯讀 Int32。 |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | 傳回指定索引處的效果。 |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | 傳回或設定 INTERACTIVE 序列的形狀目標。若序列不是互動式則傳回 null。可讀寫 [`IShape`](../../aspose.slides/ishape)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 在序列末尾為段落新增動畫效果。 |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 在序列末尾新增效果。 |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列末尾為類別或系列新增圖表動畫效果。 |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列末尾為類別或系列中的元素新增圖表動畫效果。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 在序列的結尾為段落新增動畫效果。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 在序列的結尾新增效果。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列的結尾為類別或系列新增圖表動畫效果。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | 在序列的結尾為類別或系列中的元素新增圖表動畫效果。 |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | 從集合中移除所有效果。 |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | 返回指定形狀的效果數量。 |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | 返回指定段落的效果陣列。 |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | 返回指定形狀的效果陣列。 |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | 返回可遍歷集合的列舉器。 |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | 傳回指定形狀的效果計數。 |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | 傳回指定段落的效果陣列。 |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | 傳回指定形狀的效果陣列。 |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | 從集合中移除指定的效果。 |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | 從集合中移除一個效果。 |
 | [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | 移除指定形狀的效果。 |

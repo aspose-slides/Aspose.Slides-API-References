@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes برای .NET مرجع API
-description: سبک بولت‌های شماره‌دار را نشان می‌دهد.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: سبک گلوله‌های شماره‌دار را نشان می‌دهد.
 type: docs
 weight: 9180
 url: /fa/aspose.slides/numberedbulletstyle/
 ---
-## NumberedBulletStyle شمارش
+## NumberedBulletStyle enumeration
 
-سبک بولت‌های شماره‌دار را نشان می‌دهد.
+نمایش می‌دهد سبک گلوله‌های شماره‌دار.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -23,47 +23,47 @@ public enum NumberedBulletStyle : sbyte
 | BulletAlphaUCPeriod | `1` | حروف الفبای بزرگ با نقطه. نمونه: A., B., C., ... |
 | BulletArabicParenRight | `2` | اعداد عربی با پرانتز بسته. نمونه: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | اعداد عربی با نقطه. نمونه: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | اعداد رومی کوچک با هر دو پرانتز. نمونه: (i), (ii), (iii), ... |
+| BulletRomanLCParenBoth | `4` | اعداد رومی کوچک با دو پرانتز. نمونه: (i), (ii), (iii), ... |
 | BulletRomanLCParenRight | `5` | اعداد رومی کوچک با پرانتز بسته. نمونه: i), ii), iii), ... |
 | BulletRomanLCPeriod | `6` | اعداد رومی کوچک با نقطه. نمونه: i., ii., iii., ... |
 | BulletRomanUCPeriod | `7` | اعداد رومی بزرگ با نقطه. نمونه: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | حروف الفبای کوچک با هر دو پرانتز. نمونه: (a), (b), (c), ... |
+| BulletAlphaLCParenBoth | `8` | حروف الفبای کوچک با دو پرانتز. نمونه: (a), (b), (c), ... |
 | BulletAlphaLCParenRight | `9` | حروف الفبای کوچک با پرانتز بسته. نمونه: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | حروف الفبای بزرگ با هر دو پرانتز. نمونه: (A), (B), (C), ... |
+| BulletAlphaUCParenBoth | `10` | حروف الفبای بزرگ با دو پرانتز. نمونه: (A), (B), (C), ... |
 | BulletAlphaUCParenRight | `11` | حروف الفبای بزرگ با پرانتز بسته. نمونه: A), B), C), ... |
-| BulletArabicParenBoth | `12` | اعداد عربی با هر دو پرانتز. نمونه: (1), (2), (3), ... |
+| BulletArabicParenBoth | `12` | اعداد عربی با دو پرانتز. نمونه: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | اعداد عربی. نمونه: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | اعداد رومی بزرگ با هر دو پرانتز. نمونه: (I), (II), (III), ... |
+| BulletRomanUCParenBoth | `14` | اعداد رومی بزرگ با دو پرانتز. نمونه: (I), (II), (III), ... |
 | BulletRomanUCParenRight | `15` | اعداد رومی بزرگ با پرانتز بسته. نمونه: I), II), III), ... |
 | BulletSimpChinPlain | `16` | چینی ساده بدون نقطه. |
 | BulletSimpChinPeriod | `17` | چینی ساده با نقطه. |
 | BulletCircleNumDBPlain | `18` | عدد دایره‌ای دو بایتی برای مقادیر تا 10، از 11 به بعد اعداد عربی. |
-| BulletCircleNumWDWhitePlain | `19` | عدد رنگی متن با دایره همان رنگ اطراف آن (اعداد دایره سفید Wingdings). از 11 به بعد اعداد عربی. |
-| BulletCircleNumWDBlackPlain | `20` | عدد با رنگ سایه و پس‌زمینه دایره‌ای رنگ متن معمولی (اعداد دایره سیاه Wingdings). |
+| BulletCircleNumWDWhitePlain | `19` | عدد رنگی متن با دایره‌ای هم‌رنگ اطراف آن (اعداد دایره‌ای سفید Wingdings). از 11 به بعد اعداد عربی. |
+| BulletCircleNumWDBlackPlain | `20` | عدد با رنگ سایه و پس‌زمینه دایره‌ای رنگ متن معمولی (اعداد دایره‌ای سیاه Wingdings). |
 | BulletTradChinPlain | `21` | چینی سنتی بدون نقطه. |
 | BulletTradChinPeriod | `22` | چینی سنتی با نقطه. |
-| BulletArabicAlphaDash | `23` | حروف الفبای عربی با خط تیره. |
-| BulletArabicAbjadDash | `24` | الفبای عجم عربی با خط تیره. |
-| BulletHebrewAlphaDash | `25` | حروف الفبای عبری با خط تیره. |
+| BulletArabicAlphaDash | `23` | حروف الفبای زبان عربی با خط تیره. |
+| BulletArabicAbjadDash | `24` | حروف عبجد عربی با خط تیره. |
+| BulletHebrewAlphaDash | `25` | حروف الفبای زبان عبری با خط تیره. |
 | BulletKanjiKoreanPlain | `26` | اعداد ژاپنی/کره‌ای بدون نقطه. |
 | BulletKanjiKoreanPeriod | `27` | اعداد ژاپنی/کره‌ای با نقطه. |
-| BulletArabicDBPlain | `28` | سیستم شماره‌گذاری عربی دو بایتی (بدون نقطه‌گذاری). |
-| BulletArabicDBPeriod | `29` | سیستم شماره‌گذاری عربی دو بایتی با نقطه دو بایتی. |
-| BulletThaiAlphaPeriod | `30` | الفبای تایلندی با نقطه. |
-| BulletThaiAlphaParenRight | `31` | پرانتزهای الفبای تایلندی - راست. |
-| BulletThaiAlphaParenBoth | `32` | پرانتزهای الفبای تایلندی - هر دو. |
-| BulletThaiNumPeriod | `33` | عدد تایلندی با نقطه. |
+| BulletArabicDBPlain | `28` | طرح شماره‌گذاری عربی دو بایتی (بدون نقطه‌گذاری). |
+| BulletArabicDBPeriod | `29` | طرح شماره‌گذاری عربی دو بایتی با نقطه دو بایتی. |
+| BulletThaiAlphaPeriod | `30` | حروف الفبای تایلندی با نقطه. |
+| BulletThaiAlphaParenRight | `31` | پرانتزهای حروف الفبای تایلندی - راست. |
+| BulletThaiAlphaParenBoth | `32` | پرانتزهای حروف الفبای تایلندی - هر دو. |
+| BulletThaiNumPeriod | `33` | اعداد تایلندی با نقطه. |
 | BulletThaiNumParenRight | `34` | پرانتزهای عددی تایلندی - راست. |
 | BulletThaiNumParenBoth | `35` | پرانتزهای عددی تایلندی - هر دو. |
-| BulletHindiAlphaPeriod | `36` | الفبای هندی با نقطه - حروف صدا دار. |
-| BulletHindiNumPeriod | `37` | عدد هندی با نقطه. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji Simple Chinese DBPeriod. |
+| BulletHindiAlphaPeriod | `36` | حروف الفبای هندی با نقطه - حروف صدا دار. |
+| BulletHindiNumPeriod | `37` | اعداد هندی با نقطه. |
+| BulletKanjiSimpChinDBPeriod | `38` | کانجی چینی ساده DBPeriod. |
 | BulletHindiNumParenRight | `39` | پرانتزهای عددی هندی - راست. |
-| BulletHindiAlpha1Period | `40` | الفبای هندی با نقطه - هم‌صداها. |
+| BulletHindiAlpha1Period | `40` | حروف الفبای هندی با نقطه - حروف بی صدا. |
 
-### مراجعه
+### موارد مرتبط
 
-* فضای‌نامی [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

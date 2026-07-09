@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt opmaak-eigenschappen voor tekstelementen van een grafiek beschikbaar.
+description: Stelt opmaak-eigenschappen voor chart-tekstelementen voor.
 type: docs
 weight: 1980
 url: /nl/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat interface
 
-Stelt opmaak-eigenschappen voor tekstelementen van een grafiek beschikbaar.
+Stelt opmaak-eigenschappen voor chart-tekstelementen voor.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -18,20 +18,20 @@ public interface IChartTextBlockFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Geeft de verticale ankertekst in een TextFrame terug of stelt deze in. Lezen/Schrijven [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Geeft de autofit-modus van de tekst terug of stelt deze in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft dit geen effect op het weergeven). Lezen/Schrijven [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Als NullableBool.True dan moet de tekst horizontaal in de doos worden gecentreerd. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Geeft de ondermarge (punten) in een TextFrame terug of stelt deze in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft dit geen effect op het weergeven). Lezen/Schrijven Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Geeft de linkermarge (punten) in een TextFrame terug of stelt deze in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft dit geen effect op het weergeven). Lezen/Schrijven Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Geeft de rechtermarge (punten) in een TextFrame terug of stelt deze in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft dit geen effect op het weergeven). Lezen/Schrijven Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Geeft de bovemarge (punten) in een TextFrame terug of stelt deze in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft dit geen effect op het weergeven). Lezen/Schrijven Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Specificeert de aangepaste rotatie die op de tekst binnen de begrenzingsdoos wordt toegepast. Als deze niet is opgegeven, wordt de rotatie van de bijbehorende vorm gebruikt. Als deze wel is opgegeven, wordt deze onafhankelijk van de vorm toegepast. Dus de vorm kan een rotatie hebben naast de rotatie die op de tekst zelf wordt toegepast. De resulterende waarde van de visuele tekstrrotatie, samengevat uit deze eigenschap en het vooraf gedefinieerde verticale type in de eigenschap TextVerticalType. Lezen/Schrijven Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Bepaalt de tekstoriëntatie. De resulterende waarde van de visuele tekstrrotatie, samengevat uit deze eigenschap en de aangepaste hoek in de eigenschap RotationAngle. Lezen/Schrijven [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** als de tekst wordt afgebroken bij de marges van de TextFrame. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende grafiekonderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2007/2013). Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Retourneert of stelt verticale ankertekst in een TextFrame in. Lezen/schrijven [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Retourneert of stelt de autofit-modus van de tekst in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect bij het renderen). Lezen/schrijven [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Als NullableBool.True dan moet de tekst horizontaal gecentreerd worden in de box. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Retourneert of stelt de onderste marge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect bij het renderen). Lezen/schrijven Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Retourneert of stelt de linkermarge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect bij het renderen). Lezen/schrijven Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Retourneert of stelt de rechtermarge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect bij het renderen). Lezen/schrijven Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Retourneert of stelt de bovenste marge (punten) in een TextFrame in. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2013; in PowerPoint 2007 heeft het geen effect bij het renderen). Lezen/schrijven Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Specificeert de aangepaste rotatie die wordt toegepast op de tekst binnen de omvattende doos. Als dit niet is opgegeven, wordt de rotatie van de bijbehorende shape gebruikt. Als het wel is opgegeven, wordt dit onafhankelijk van de shape toegepast. Dat wil zeggen dat de shape een rotatie kan hebben naast de rotatie die op de tekst zelf wordt toegepast. De resulterende waarde van de visuele tekstrotatie, samengevat vanuit deze eigenschap en het vooraf gedefinieerde verticale type in de eigenschap TextVerticalType. Lezen/schrijven Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Bepaalt de tekstoriëntatie. De resulterende waarde van de visuele tekstrotatie, samengevat vanuit deze eigenschap en de aangepaste hoek in de eigenschap RotationAngle. Lezen/schrijven [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** als de tekst wordt afgebroken bij de marges van de TextFrame. Het wijzigen van deze eigenschap kan alleen invloed hebben op de volgende chart-onderdelen: DataLabel en DataLabelFormat (volledige ondersteuning in PowerPoint 2007/2013). Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

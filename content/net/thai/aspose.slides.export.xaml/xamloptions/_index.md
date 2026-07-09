@@ -1,6 +1,6 @@
 ---
 title: XamlOptions
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML.
 type: docs
 weight: 4720
@@ -8,13 +8,13 @@ url: /th/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions คลาส
 
-ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML.
+ตัวเลือกที่ควบคุมวิธีการบันทึกเอกสาร XAML
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## คอนสตรัคเตอร์
+## ผู้สร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -24,13 +24,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง อ่าน/เขียน String. |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | กำหนดว่าจะส่งออกสไลด์ที่ซ่อนหรือไม่. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดรูปแบบการแสดงผลของการไล่ระดับสี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | แสดงการใช้งานของอินเทอร์เฟซ IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจกต์ callback สำหรับอัปเดตความคืบหน้าในการบันทึกเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | กำหนดว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่าจะดำเนินกระบวนการโหลดต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ. อ่าน-เขียน String. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | กำหนดว่าหนานำเสนอที่ซ่อนไว้จะถูกส่งออกหรือไม่. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ภาพของการไล่ระดับสี. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | เป็นการแสดงการใช้งานของ IOutputSaver interface. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดวัตถุที่รับคำเตือนและตัดสินว่ากระบวนการโหลดจะดำเนินต่อหรือจะถูกยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 

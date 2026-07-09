@@ -1,14 +1,14 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रोग्राम में उपयोग की गई सभी markdown विशिष्टताएँ।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रोग्राम में उपयोग की गई सभी मार्कडाउन विशिष्टताएँ।
 type: docs
 weight: 3800
 url: /hi/aspose.slides.export/flavor/
 ---
-## स्वाद इनेमरेशन
+## फ़्लेवर एनीमरेशन
 
-प्रोग्राम में उपयोग किए गए सभी markdown विशिष्टताएँ।
+प्रोग्राम में उपयोग की गई सभी मार्कडाउन विशिष्टताएँ।
 
 ```csharp
 public enum Flavor
@@ -18,30 +18,30 @@ public enum Flavor
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Github | `0` | Github स्वाद। |
-| Gruber | `1` | Gruber स्वाद। |
-| MultiMarkdown | `2` | Multi markdown स्वाद। |
-| CommonMark | `3` | Common mark स्वाद। |
-| MarkdownExtra | `4` | Markdown extra स्वाद। |
-| Pandoc | `5` | Pandoc स्वाद। |
-| Kramdown | `6` | Kramdown स्वाद। |
-| Markua | `7` | Markua स्वाद। |
-| Maruku | `8` | Maruku स्वाद। |
-| Markdown2 | `9` | Markdown2 स्वाद। |
-| Remarkable | `10` | Remarkable स्वाद |
-| Showdown | `11` | Showdown स्वाद। |
-| Ghost | `12` | Ghost स्वाद। |
-| GitLab | `13` | Gitlab स्वाद। |
-| Haroopad | `14` | Haroopad स्वाद। |
-| IaWriter | `15` | IAWriter स्वाद। |
-| Redcarpet | `16` | Redcarpet स्वाद। |
-| ScholarlyMarkdown | `17` | Scholarly markdown स्वाद। |
-| Taiga | `18` | Taiga स्वाद। |
-| Trello | `19` | Trello स्वाद। |
-| S9ETextFormatter | `20` | S9E text formatter स्वाद। |
-| XWiki | `21` | XWiki स्वाद। |
-| StackOverflow | `22` | Stack overflow स्वाद। |
-| Default | `23` | Default markdown स्वाद। |
+| Github | `0` | Github फ़्लेवर। |
+| Gruber | `1` | Gruber फ़्लेवर। |
+| MultiMarkdown | `2` | Multi markdown फ़्लेवर। |
+| CommonMark | `3` | Common mark फ़्लेवर। |
+| MarkdownExtra | `4` | Markdown extra फ़्लेवर। |
+| Pandoc | `5` | Pandoc फ़्लेवर। |
+| Kramdown | `6` | Kramdown फ़्लेवर। |
+| Markua | `7` | Markua फ़्लेवर। |
+| Maruku | `8` | Maruku फ़्लेवर। |
+| Markdown2 | `9` | Markdown2 फ़्लेवर। |
+| Remarkable | `10` | Remarkable फ़्लेवर |
+| Showdown | `11` | Showdown फ़्लेवर। |
+| Ghost | `12` | Ghost फ़्लेवर। |
+| GitLab | `13` | Gitlab फ़्लेवर। |
+| Haroopad | `14` | Haroopad फ़्लेवर। |
+| IaWriter | `15` | IAWriter फ़्लेवर। |
+| Redcarpet | `16` | Redcarpet फ़्लेवर। |
+| ScholarlyMarkdown | `17` | Scholarly markdown फ़्लेवर। |
+| Taiga | `18` | Taiga फ़्लेवर। |
+| Trello | `19` | Trello फ़्लेवर। |
+| S9ETextFormatter | `20` | S9E text formatter फ़्लेवर। |
+| XWiki | `21` | XWiki फ़्लेवर। |
+| StackOverflow | `22` | Stack overflow फ़्लेवर। |
+| Default | `23` | Default markdown फ़्लेवर। |
 
 ### उदाहरण
 
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबंधित देखें
+### और देखें
 
 * नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

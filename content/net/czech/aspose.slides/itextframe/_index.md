@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje TextFrame.
+description: Reprezentuje TextFrame.
 type: docs
-weight: 7250
+weight: 7270
 url: /cs/aspose.slides/itextframe/
 ---
-## ITextFrame rozhraní
+## Rozhraní ITextFrame
 
-Představuje TextFrame.
+Representuje TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -16,27 +16,27 @@ public interface ITextFrame : ISlideComponent
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Umožňuje získat základní rozhraní ISlideComponent. Pouze pro čtení [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hypertextovým odkazům. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Vrací seznam všech odstavců v rámu. Pouze pro čtení [`IParagraphCollection`](../iparagraphcollection). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Poskytuje snadný přístup k obsaženým hyperodkazům. Pouze pro čtení [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Vrací seznam všech odstavců v rámci. Pouze pro čtení [`IParagraphCollection`](../iparagraphcollection). |
 | [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Vrací nadřazenou buňku nebo null, pokud nadřazený objekt neimplementuje rozhraní ICell. Pouze pro čtení [`ICell`](../icell). |
 | [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Vrací nadřazený tvar nebo null, pokud nadřazený objekt neimplementuje rozhraní IShape. Pouze pro čtení [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Získá nebo nastaví prostý text pro TextFrame. Čtení/zápis String. |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Získá nebo nastaví prostý text pro TextFrame. Čtení a zápis String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Vrací objekt formátování pro tento objekt TextFrame. Pouze pro čtení [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Zvýrazní všechny shody regulárního výrazu zvolenou barvou. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Zvýrazní všechny shody ukázkového textu zvolenou barvou. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Zvýrazní všechny shody ukázkového textu zvolenou barvou. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Zvýrazní všechny shody regulárního výrazu zadanou barvou. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Zvýrazní všechny shody vzorového textu zadanou barvou. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Zvýrazní všechny shody vzorového textu zadanou barvou. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Spojí běhy se stejným formátováním ve všech odstavcích. |
 | [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Nahradí všechny shody regulárního výrazu zadaným řetězcem. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Nahradí všechny výskyty zadaného textu jiným zadaným textem. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Rozdělí textový obsah [`ITextFrame`](../itextframe) na pole řetězců, kde každý prvek odpovídá samostatnému sloupci textu v rámci. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Rozdělí textový obsah [`ITextFrame`](../itextframe) na pole řetězců, přičemž každý prvek odpovídá samostatnému textovému sloupci v rámci rámce. |
 
 ### Viz také
 

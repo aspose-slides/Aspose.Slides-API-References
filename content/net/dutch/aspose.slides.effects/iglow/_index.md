@@ -1,14 +1,14 @@
 ---
 title: IGlow
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Glow-effect voor waarbij een gekleurde vervaagde omtrek buiten de randen van het object wordt toegevoegd.
+description: Stelt een gloed-effect voor waarbij een kleurvervage omtrek buiten de randen van het object wordt toegevoegd.
 type: docs
 weight: 3320
 url: /nl/aspose.slides.effects/iglow/
 ---
 ## IGlow interface
 
-Stelt een Glow-effect voor, waarbij een kleurvervagde omtrek buiten de randen van het object wordt toegevoegd.
+Stelt een gloed-effect voor, waarbij een wazige gekleurde contour aan de buitenkant van het object wordt toegevoegd.
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Staat toe de basis IAccessiblePVIObject-interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Staat toe de basis IImageTransformOperation-interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/iglow/color) { get; } | Kleurformaat. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lezen/schrijven Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | Stelt toe om de basis IAccessiblePVIObject-interface te verkrijgen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | Stelt toe om de basis IImageTransformOperation-interface te verkrijgen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/iglow/color) { get; } | Kleurindeling. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. Lezen/Schrijven Double. |
 
 ### Zie ook
 

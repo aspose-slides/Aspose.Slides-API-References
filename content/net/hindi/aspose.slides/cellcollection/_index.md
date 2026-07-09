@@ -1,14 +1,14 @@
 ---
 title: CellCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: सेलों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 1140
 url: /hi/aspose.slides/cellcollection/
 ---
-## CellCollection वर्ग
+## CellCollection क्लास
 
-सेल्स के संग्रह का प्रतिनिधित्व करता है।
+सेलों का एक संग्रह दर्शाता है।
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -16,23 +16,23 @@ public abstract class CellCollection : ICellCollection
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | कलेक्शन में सेल्स की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि कलेक्शन तक पहुँच समक्रमित (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | स्थिति के आधार पर एक सेल लौटाता है। केवल-पढ़ने योग्य [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection की पैरेंट प्रस्तुति लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection की पैरेंट स्लाइड लौटाता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | एक समक्रमण मूल लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | संग्रह में कोशिकाओं की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | यह दर्शाता है कि संग्रह तक पहुंच समन्वित (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | स्थिति द्वारा एक कोशिका लौटाता है। केवल-पढ़ने योग्य [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection की मूल प्रस्तुति लौटाता है। केवल-पढ़ने योग्य [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection की मूल स्लाइड लौटाता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | एक समन्वयन जड़ लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | सभी तत्वों को कलेक्शन से निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | एक इटरेटर लौटाता है जो कलेक्शन को पार करता है। |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट सरणी में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | एक इटरेटर लौटाता है जो संग्रह के माध्यम से चलता है। |
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [ICellCollection](../icellcollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

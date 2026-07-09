@@ -1,6 +1,6 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立數學方框
 type: docs
 weight: 8200
@@ -16,7 +16,7 @@ public interface IMathBoxFactory
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | 透過套用於元素來建立數學方框 |
 

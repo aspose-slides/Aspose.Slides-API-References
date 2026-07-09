@@ -1,9 +1,9 @@
 ---
 title: CellUnsupportedDataException
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スプレッドシートのセルでサポートされていないデータが検出されたときにスローされる例外です。
 type: docs
-weight: 10710
+weight: 10730
 url: /ja/aspose.slides.spreadsheet/cellunsupporteddataexception/
 ---
 ## CellUnsupportedDataException クラス
@@ -20,7 +20,7 @@ public class CellUnsupportedDataException : PptxEditException
 | --- | --- |
 | [CellUnsupportedDataException](cellunsupporteddataexception#constructor)() | [`CellUnsupportedDataException`](../cellunsupporteddataexception) クラスの新しいインスタンスを初期化します。 |
 | [CellUnsupportedDataException](cellunsupporteddataexception#constructor_1)(string) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) クラスの新しいインスタンスを、指定されたエラーメッセージで初期化します。 |
-| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) クラスの新しいインスタンスを、指定されたエラーメッセージとこの例外の原因となる内部例外への参照で初期化します。 |
+| [CellUnsupportedDataException](cellunsupporteddataexception#constructor_2)(string, Exception) | [`CellUnsupportedDataException`](../cellunsupporteddataexception) クラスの新しいインスタンスを、指定されたエラーメッセージと、この例外の原因となる内部例外への参照とともに初期化します。 |
 
 ### 参照
 

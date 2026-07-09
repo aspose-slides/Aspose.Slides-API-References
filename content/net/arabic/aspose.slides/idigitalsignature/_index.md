@@ -18,12 +18,12 @@ public interface IDigitalSignature
 
 | الاسم | الوصف |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | كائن الشهادة الذي تم استخدامه لتوقيع المستند. للقراءة فقط X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | غرض التوقيع. للقراءة والكتابة String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند، فستكون هذه القيمة true. للقراءة فقط Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | الوقت الذي تم فيه توقيع المستند. للقراءة فقط DateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | كائن الشهادة الذي تم استخدامه لتوقيع المستند. قراءة فقط X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | غرض التوقيع. قراءة/كتابة String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | إذا كان هذا التوقيع الرقمي صالحًا ولم يتم العبث بالمستند، فإن هذه القيمة ستكون true. قراءة فقط Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | الوقت الذي تم فيه توقيع المستند. قراءة فقط DateTime. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

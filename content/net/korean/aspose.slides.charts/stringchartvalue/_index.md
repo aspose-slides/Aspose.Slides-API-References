@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes for .NET API 참조
-description: pptx 프레젠테이션 문서에 문자열 값을 저장할 수 있는 두 가지 방법을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에 저장, 2) 리터럴 값으로 저장합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: pptx 프레젠테이션 문서에 저장될 수 있는 문자열 값을 두 가지 방법으로 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에, 2) 리터럴 값으로.
 type: docs
 weight: 2410
 url: /ko/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue 클래스
 
-pptx 프레젠테이션 문서에 문자열 값을 저장할 수 있는 두 가지 방법을 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀들에 저장; 2) 리터럴 값으로 저장.
+pptx 프레젠테이션 문서에 저장될 수 있는 문자열 값을 두 가지 방법으로 나타냅니다: 1) 차트와 관련된 워크북의 셀/셀에; 2) 리터럴 값으로.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,22 +16,22 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | null 값 할당은 허용되지 않습니다. 반환값은 항상 null이 아닙니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 값을 리터럴 문자열로 반환하거나 설정합니다. 읽기/쓰기 문자열. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data 객체를 반환하거나 설정합니다. 읽기/쓰기 객체. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 자손에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말해 Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | null 값을 할당할 수 없습니다. 반환값은 항상 null이 아닙니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | 값을 리터럴 문자열로 반환하거나 설정합니다. 읽기/쓰기 String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data 객체를 반환하거나 설정합니다. 읽기/쓰기 Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 자식 클래스에서 AsCell, AsCells, AsLiteralString 또는 AsLiteralDouble 속성이 실제로 사용되는지를 지정합니다. 즉, Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | DataSourceType 속성이 DataSourceType.Worksheet이면 이 메서드는 문자열 데이터를 나타내는 워크북의 셀 주소를 반환합니다. 그렇지 않으면 빈 문자열을 반환합니다. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | 지정된 셀에서 값을 설정합니다. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 문자열 값 데이터를 반환합니다. DataSourceType이 false이며 문자열 값이 할당되지 않은 경우 null을 반환합니다. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | 문자열 값 데이터를 반환합니다. DataSourceType이 false이고 문자열 값이 할당되지 않은 경우 null을 반환합니다. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [BaseChartValue](../basechartvalue)
 * 인터페이스 [IStringChartValue](../istringchartvalue)

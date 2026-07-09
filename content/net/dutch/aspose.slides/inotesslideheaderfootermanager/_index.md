@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de manager voor die het gedrag van de notitieslide-plaatsaanduidingen bevat, inclusief de header-plaatsaanduiding.
+description: Representeert de manager die het gedrag van de notitieslides-plaatsaanduidingen bevat, inclusief de koptekstplaatsaanduiding.
 type: docs
 weight: 6510
 url: /nl/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interface
 
-Stelt de manager voor die het gedrag van de notitieslide-plaatsaanduidingen bevat, inclusief de header-plaatsaanduiding.
+Representeert de manager die het gedrag van de notitieslides-plaatsaanduidingen bevat, inclusief de koptekstplaatsaanduiding.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retourneert IBaseHandoutNotesSlideHeaderFooterManag interface. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retourneert de interface IBaseHandoutNotesSlideHeaderFooterManag. |
 
 ### Zie ook
 

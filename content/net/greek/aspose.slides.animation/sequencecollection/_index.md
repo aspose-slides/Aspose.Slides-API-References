@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά μια συλλογή από διαδραστικές ακολουθίες.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αντιπροσωπεύει μια συλλογή διαδραστικών ακολουθιών.
 type: docs
-weight: 780
+weight: 800
 url: /el/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection κλάση
 
-Αναπαριστά μια συλλογή από διαδραστικές ακολουθίες.
+Represents collection of interactive sequences.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -18,8 +18,8 @@ public class SequenceCollection : ISequenceCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων σε μια συλλογή Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Επιστρέφει μια ακολουθία στο καθορισμένο δείκτη. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων σε μια συλλογή Μόνο-ανάγνωση Int32. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Επιστρέφει μια ακολουθία στο καθορισμένο ευρετήριο. |
 
 ## Μέθοδοι
 
@@ -27,13 +27,13 @@ public class SequenceCollection : ISequenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Προσθέτει νέα διαδραστική ακολουθία. Ανάγνωση/εγγραφή [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Αφαιρεί όλες τις ακολουθίες από μια συλλογή. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Επιστρέφει έναν αριθμητή που διατρέχει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Αφαιρεί την καθορισμένη ακολουθία από μια συλλογή. |
-| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Αφαιρεί την ακολουθία στο καθορισμένο δείκτη. |
+| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Αφαιρεί την ακολουθία στο καθορισμένο ευρετήριο. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [ISequenceCollection](../isequencecollection)
+* διεπαφή [ISequenceCollection](../isequencecollection)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συναρμολόγηση [Aspose.Slides](../../)
 

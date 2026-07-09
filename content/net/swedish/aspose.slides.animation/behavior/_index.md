@@ -1,14 +1,14 @@
 ---
 title: Behavior
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar basklassens beteende för effekt.
+description: Representerar basklassbeteende för en effekt.
 type: docs
-weight: 120
+weight: 140
 url: /sv/aspose.slides.animation/behavior/
 ---
-## Beteende-klass
+## Beteendeklass
 
-Representerar basklassens beteende för effekt.
+Representerar basklassbeteende för en effekt.
 
 ```csharp
 public abstract class Behavior : IBehavior

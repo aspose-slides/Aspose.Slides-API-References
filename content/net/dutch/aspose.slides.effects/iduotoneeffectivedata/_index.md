@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Duotone-effect vertegenwoordigt. Voor elke pixel combineert het clr1 en clr2 via een lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
+description: Onveranderlijk object dat een Duotone-effect vertegenwoordigt. Voor elke pixel combineert clr1 en clr2 via een lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
 type: docs
 weight: 3270
 url: /nl/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData interface
 
-Onveranderlijk object dat een Duotone-effect vertegenwoordigt. Voor elke pixel combineert het clr1 en clr2 via een lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
+Onveranderlijk object dat een Duotone-effect vertegenwoordigt. Voor elke pixel combineert clr1 en clr2 via een lineaire interpolatie om de nieuwe kleur voor die pixel te bepalen.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Stelt u in staat om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Retourneert het doelkleurformaat voor donkere pixels. Alleen-lezen Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Retourneert het doelkleurformaat voor lichte pixels. Alleen-lezen Color. |
 

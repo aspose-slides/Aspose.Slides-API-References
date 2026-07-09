@@ -1,14 +1,14 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET - referenční příručka API
 description: Reprezentuje SVG obrázek.
 type: docs
-weight: 10780
+weight: 10800
 url: /cs/aspose.slides/svgimage/
 ---
 ## SvgImage třída
 
-Reprezentuje SVG obrázek.
+Reprezentuje obrázek SVG.
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -29,8 +29,8 @@ public class SvgImage : ISvgImage
 
 | Název | Popis |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Vrací základní URI specifikovaného Svg. Používá se k řešení relativních odkazů. Pouze pro čtení String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Vrací rozhraní zpětného volání používané k řešení externích zdrojů během importu dokumentů Svg. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | Vrací základní URI specifikovaného SVG. Používá se k rozlišení relativních odkazů. Pouze pro čtení String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Vrátí rozhraní zpětného volání používané k řešení externích zdrojů během importu dokumentů SVG. Pouze pro čtení [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | Vrací obsah SVG. Pouze pro čtení String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | Vrací data SVG. Pouze pro čtení Byte[]. |
 
@@ -38,7 +38,7 @@ public class SvgImage : ISvgImage
 
 | Název | Popis |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Uloží SVG obrázek jako soubor EMF. |
+| [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Uloží obrázek SVG jako soubor EMF. |
 
 ### Viz také
 

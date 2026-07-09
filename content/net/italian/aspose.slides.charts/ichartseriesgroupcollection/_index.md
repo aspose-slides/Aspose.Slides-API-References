@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la raccolta di gruppi di serie combinabili.
 type: docs
-weight: 1940
+weight: 1960
 url: /it/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interfaccia
@@ -18,12 +18,11 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Recupera il gruppo di serie per serie. (2 indicizzatori) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Ottiene il gruppo di serie per serie. (2 indicizzatori) |
 
 ### Osservazioni
 
-1) Ogni gruppo di serie contiene serie con tipi combinabili. I gruppi di tipi di serie combinabili sono definiti e descritti con l’enumerazione **CombinableSeriesTypesGroup**. Inoltre, ciascun gruppo di serie contiene serie che vengono tracciate sia sugli assi primari sia su quelli secondari (non entrambi i casi nello stesso gruppo). Pertanto, il principio di raggruppamento delle serie è un raggruppamento per i tipi di gruppo sopra menzionati e per il tipo di tracciamento primario/secondario.  
-2) Il gruppo di serie contiene alcune proprietà di serie comuni a tutte le serie del gruppo (“proprietà del gruppo di serie”). Le “proprietà del gruppo di serie” nella classe **ChartSeriesGroup** sono leggibili/scrivibili. Ognuna di queste può avere una proiezione in sola lettura nella classe **ChartSeries**.
+1) Ogni gruppo di serie contiene serie con tipi combinabili. I gruppi di tipi di serie combinabili sono definiti e descritti con l'enum CombinableSeriesTypesGroup. Inoltre, ogni gruppo di serie contiene serie che vengono tracciate sia sugli assi primari sia sugli assi secondari (non entrambi i casi nello stesso gruppo). Quindi, il principio di raggruppamento delle serie è un raggruppamento per i gruppi di tipo sopra menzionati e per il tipo di tracciamento primario/secondario. 2) Il gruppo di serie contiene alcune proprietà delle serie che sono comuni a tutte le serie del gruppo ("proprietà del gruppo di serie"). Le "proprietà del gruppo di serie" nella classe ChartSeriesGroup sono read/write. Ciascuna delle "proprietà del gruppo di serie" può avere una proiezione read-only nella classe ChartSeries.
 
 ### Vedi anche
 

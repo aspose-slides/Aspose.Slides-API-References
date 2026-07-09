@@ -8,7 +8,7 @@ url: /ko/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine 클래스
 
-애니메이션 타임라인을 나타냅니다.
+애니메이션의 타임라인을 나타냅니다.
 
 ```csharp
 public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
@@ -18,11 +18,11 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Name | Description |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 대화형 시퀀스의 컬렉션을 반환합니다. 이 시퀀스는 지정된 대상 도형에 대한 "click on shape" 효과만 포함할 수 있습니다. 읽기 전용 [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 메인 효과 컬렉션만 포함할 수 있는 메인 시퀀스를 반환합니다. 읽기 전용 [`ISequence`](../isequence). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 대화형 시퀀스 컬렉션을 반환합니다. 이 시퀀스는 지정된 대상 도형에 대한 "도형 클릭" 효과만 포함할 수 있습니다. 읽기 전용 [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | 주 효과 컬렉션만 포함할 수 있는 기본 시퀀스를 반환합니다. 읽기 전용 [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | 텍스트 애니메이션 컬렉션을 반환합니다. 읽기 전용 [`ITextAnimationCollection`](../itextanimationcollection). |
 
-### 관련 항목
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [BaseSlide](../../aspose.slides/baseslide)

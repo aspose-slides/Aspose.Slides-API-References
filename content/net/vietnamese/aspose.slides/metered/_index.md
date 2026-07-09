@@ -1,12 +1,11 @@
 ---
 title: Metered
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cung cấp các phương pháp để thiết lập khóa metered.
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Cung cấp các phương thức để thiết lập khóa metered.
 type: docs
 weight: 9080
 url: /vi/aspose.slides/metered/
 ---
-
 ## Lớp Metered
 
 Cung cấp các phương thức để thiết lập khóa metered.
@@ -15,25 +14,25 @@ Cung cấp các phương thức để thiết lập khóa metered.
 public class Metered
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [Metered](metered)() | Khởi tạo một thể hiện mới của lớp này. |
+| [Metered](metered)() | Khởi tạo một thực thể mới của lớp này. |
 
-## Phương thức
+## Các phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Thiết lập khóa công khai và khóa riêng tư cho metered. Nếu bạn mua giấy phép metered, khi khởi động ứng dụng, API này nên được gọi; thường thì đủ. Tuy nhiên, nếu luôn thất bại trong việc tải lên dữ liệu tiêu thụ và vượt quá 24 giờ, giấy phép sẽ được chuyển sang trạng thái đánh giá; để tránh trường hợp này, bạn nên thường xuyên kiểm tra trạng thái giấy phép, nếu nó ở trạng thái đánh giá, gọi lại API này. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Thiết lập khóa công khai và riêng tư của metered. Nếu bạn mua giấy phép metered, khi khởi động ứng dụng, API này nên được gọi, thường thì đủ. Tuy nhiên, nếu luôn thất bại trong việc tải lên dữ liệu tiêu thụ và vượt quá 24 giờ, giấy phép sẽ được chuyển sang trạng thái đánh giá; để tránh trường hợp này, bạn nên thường xuyên kiểm tra trạng thái giấy phép, nếu nó ở trạng thái đánh giá, hãy gọi lại API này. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Lấy credit tiêu thụ |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Lấy kích thước tệp tiêu thụ |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Kiểm tra xem metered có được cấp phép hay không |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Kiểm tra liệu metered có được cấp phép hay không |
 
 ### Ví dụ
 
-Trong ví dụ này, sẽ cố gắng thiết lập khóa công khai và khóa riêng tư cho metered
+Trong ví dụ này, sẽ cố gắng thiết lập khóa công khai và riêng tư của metered
 
 ```csharp
 [C#]
@@ -48,7 +47,7 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-tệp jar của thành phần:
+tệp jar thành phần:
 
 ```csharp
 Metered matered = new Metered();

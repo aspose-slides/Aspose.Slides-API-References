@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل نوع مصدر البيانات للمخطط
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل نوعًا من مصدر البيانات للمخطط
 type: docs
 weight: 1370
 url: /ar/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType التعداد
+## تعداد ChartDataSourceType
 
-يمثل نوع مصدر البيانات للمخطط
+يمثل نوعًا لمصدر البيانات للمخطط
 
 ```csharp
 public enum ChartDataSourceType
@@ -21,7 +21,7 @@ public enum ChartDataSourceType
 | InternalWorkbook | `0` | مصدر بيانات داخلي. |
 | ExternalWorkbook | `1` | مصدر بيانات خارجي. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
 * التجميع [Aspose.Slides](../../)

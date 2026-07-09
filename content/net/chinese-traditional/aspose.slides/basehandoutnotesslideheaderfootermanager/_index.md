@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示管理器，負責保持占位符的行為，包括所有類型講義與備註投影片的標題占位符。
+description: 表示管理器，負責保存佔位符的行為，包括所有類型 handout 與 notes 投影片的標題佔位符。
 type: docs
 weight: 950
 url: /zh-hant/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager 類別
 
-表示管理器，負責保持占位符的行為，包括所有類型的講義與備註投影片的標題占位符。
+代表管理器，負責保存佔位符的行為，包括所有類型 handout 與 notes 投影片的標題佔位符。
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,24 +17,24 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示日期時間佔位符是否存在的值。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 取得指示頁腳佔位符是否存在的值。Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 取得指示標題佔位符是否存在的值。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示頁碼佔位符是否存在的值。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示是否存在日期時間佔位符的值。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 取得指示是否存在頁腳佔位符的值。Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 取得指示是否存在標題佔位符的值。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示是否存在頁碼佔位符的值。ReadBoolean. |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定文字至投影片日期時間佔位符。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可見性。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定文字至投影片頁腳佔位符。 |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可見性。 |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 設定文字至投影片標題佔位符。 |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 變更投影片標題佔位符的可見性。 |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可見性。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定投影片日期時間佔位符的文字。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可視性。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定投影片頁腳佔位符的文字。 |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可視性。 |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 設定投影片標題佔位符的文字。 |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 變更投影片標題佔位符的可視性。 |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可視性。 |
 
 ### 另請參閱
 

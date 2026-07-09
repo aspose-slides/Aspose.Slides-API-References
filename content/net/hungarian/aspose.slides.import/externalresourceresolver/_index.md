@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes .NET API referenciája
-description: Visszahívási osztály, amely a külső erőforrások feloldására szolgál a Html és Svg dokumentumok importálása során. Ennek a feloldónak a használata sebezhetőséget eredményezhet, ha a kliens által biztosított HTML vagy SVG fájl a szerver szoftvert helyi vagy hálózati fájl elérésére készteti. Óvatosan használja. Ajánlott, hogy ne adja meg az ExternalResourceResolver-t egyáltalán; csak a beágyazott objektumok lesznek beolvasva, vagy hozzon létre egy alosztályt, amely ellenőrzi, hogy a megadott uri érvényes-e.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Visszahívási osztály, amely a külső erőforrások feloldására szolgál HTML és SVG dokumentumok importálása során. Ennek a feloldónak a használata sebezhetőséget okozhat, ha a kliens által biztosított HTML vagy SVG fájl a szerver szoftvert helyi vagy hálózati fájl elérésére készteti. Óvatosan használja. Ajánlott, hogy ne adja meg az ExternalResourceResolver-t egyáltalán, csak a beágyazott objektumok lesznek beolvasva, vagy hozzon létre egy alosztályt, amely ellenőrzi, hogy a megadott uri érvényes-e.
 type: docs
-weight: 7460
+weight: 7480
 url: /hu/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver osztály
 
-Visszahívási osztály a külső erőforrások feloldására a Html, Svg dokumentumok importálása közben. Ennek a feloldónak a használata sebezhetőséget hozhat létre, ha a kliens által biztosított HTML vagy SVG fájl a szerver szoftvert helyi vagy hálózati fájl elérésére készteti. Használja óvatosan. Ajánlott, hogy egyáltalán ne adja meg az ExternalResourceResolver-t (csak a beágyazott objektumok lesznek beolvasva), vagy hozzon létre egy olyan alosztályt, amely ellenőrzi, hogy a megadott uri érvényes-e.
+Visszahívási osztály, amely a külső erőforrások feloldására szolgál Html és Svg dokumentumok importálása során. Ennek a feloldónak a használata sebezhetőséget okozhat, ha a kliens által biztosított HTML vagy SVG fájl a szerver szoftvert helyi vagy hálózati fájl elérésére készteti. Óvatosan használja. Ajánlott, hogy ne adja meg az ExternalResourceResolver-t egyáltalán (csak a beágyazott objektumok lesznek beolvasva), vagy hozzon létre egy olyan alosztályt, amely ellenőrzi, hogy a megadott URI érvényes-e.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -24,7 +24,7 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 | Név | Leírás |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Leképezi egy URI-t egy objektumra, amely a tényleges erőforrást tartalmazza. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Leképezi az URI-t egy olyan objektumra, amely a tényleges erőforrást tartalmazza. |
 | virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Feloldja a teljes URI-t az alap- és relatív URI-kból. |
 
 ### Lásd még

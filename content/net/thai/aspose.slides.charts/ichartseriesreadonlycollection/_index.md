@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคอลเลกชันแบบอ่านอย่างเดียวของ IChartSeries./ichartseries
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของ IChartSeries./ichartseries
 type: docs
 weight: 1970
 url: /th/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection อินเทอร์เฟซ
 
-Represents a readonly collection of [`IChartSeries`](../ichartseries)
+เป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของ [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | ดึงอิลิเมนต์ที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ |
 
 ### ดูเพิ่มเติม
 

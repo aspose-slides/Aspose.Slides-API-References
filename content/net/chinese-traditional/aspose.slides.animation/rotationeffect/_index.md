@@ -1,6 +1,6 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示效果的旋轉行為。
 type: docs
 weight: 770
@@ -16,16 +16,16 @@ public class RotationEffect : Behavior, IRotationEffect
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [RotationEffect](rotationeffect)() | 預設建構函式。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示是否累積動畫行為。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他正在執行的動畫結合。可讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 表示動畫行為是否累積。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 表示目前的動畫行為是否與其他執行中的動畫結合。可讀寫 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
 | [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | 描述動畫的相對偏移值。可讀寫 Single。 |
 | [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | 描述動畫的起始值。可讀寫 Single。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 表示行為的屬性。唯讀 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |

@@ -6,7 +6,7 @@ type: docs
 weight: 6920
 url: /hi/aspose.slides/isectionzoomframe/
 ---
-## ISectionZoomFrame इंटरफ़ेस
+## ISectionZoomFrame इंटरफेस
 
 एक स्लाइड में Section Zoom ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | वापस देता है IZoomObject इंटरफ़ेस। |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | प्राप्त करता है या सेट करता है वह सेक्शन ऑब्जेक्ट जिसका Section Zoom ऑब्जेक्ट लिंक किया गया है। पढ़ें/लिखें [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | IZoomObject इंटरफ़ेस लौटाता है। |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom ऑब्जेक्ट से जुड़ी सेक्शन ऑब्जेक्ट को प्राप्त करता है या सेट करता है। Read/write [`ISection`](../isection). |
 
 ### संबंधित देखें
 

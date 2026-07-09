@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプのテーマ定義されたフォーマットを格納します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: シェイプ用のテーマ定義フォーマットを格納します。
 type: docs
-weight: 11250
+weight: 11270
 url: /ja/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme インターフェイス
 
-シェイプのテーマ定義されたフォーマットを格納します。
+シェイプ用のテーマ定義フォーマットを格納します。
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -19,10 +19,10 @@ public interface IFormatScheme : ISlideComponent
 | 名前 | 説明 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../../aspose.slides/islidecomponent)。 |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | テーマで定義された背景塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | テーマで定義されたエフェクトスタイルのコレクションを返します。読み取り専用 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | テーマで定義された塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | テーマで定義されたラインスタイルのコレクションを返します。読み取り専用 [`ILineFormatCollection`](../ilineformatcollection)。 |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | テーマ定義の背景塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | テーマ定義の効果スタイルのコレクションを返します。読み取り専用 [`IEffectStyleCollection`](../ieffectstylecollection)。 |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | テーマ定義の塗りつぶしスタイルのコレクションを返します。読み取り専用 [`IFillFormatCollection`](../ifillformatcollection)。 |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | テーマ定義の線スタイルのコレクションを返します。読み取り専用 [`ILineFormatCollection`](../ilineformatcollection)。 |
 
 ### 参照
 

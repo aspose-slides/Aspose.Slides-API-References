@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر مجموعه‌ای از توالی‌های تعاملی است.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایشگر مجموعه‌ای از توالی‌های تعاملی.
 type: docs
 weight: 800
 url: /fa/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection کلاس
 
-کلکسی از توالی‌های تعاملی را نشان می‌دهد.
+نمایشگر مجموعه‌ای از توالی‌های تعاملی.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -16,18 +16,18 @@ public class SequenceCollection : ISequenceCollection
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | تعداد عناصر در یک مجموعه را باز می‌گرداند فقط‌خواندنی Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | دنباله‌ای را در اندیس مشخص شده باز می‌گرداند. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | تعداد عناصر موجود در یک مجموعه را به صورت فقط-خواندنی Int32 برمی‌گرداند. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | توالی‌ای را در اندیس مشخص شده برمی‌گرداند. |
 
 ## متدها
 
-| نام | توضیح |
+| نام | توضیحات |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | یک توالی تعاملی جدید اضافه می‌کند. قابل‌خواندن/قابل‌نوشتن [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | یک توالی تعاملی جدید اضافه می‌کند. خواندن/نوشتن [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | تمام توالی‌ها را از یک مجموعه حذف می‌کند. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | یک شمارنده برمی‌گرداند که از طریق مجموعه تکرار می‌کند. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | یک شمارنده را برمی‌گرداند که در کل مجموعه پیمایش می‌کند. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | توالی مشخص شده را از یک مجموعه حذف می‌کند. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | توالی را در اندیس مشخص شده حذف می‌کند. |
 

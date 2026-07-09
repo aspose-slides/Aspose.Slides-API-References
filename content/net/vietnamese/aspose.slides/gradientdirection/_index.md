@@ -1,31 +1,31 @@
 ---
 title: GradientDirection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Mô tả kiểu gradient.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho kiểu gradient.
 type: docs
 weight: 4990
 url: /vi/aspose.slides/gradientdirection/
 ---
-## liệt kê GradientDirection
+## GradientDirection liệt kê
 
-Mô tả kiểu gradient.
+Đại diện cho kiểu gradient.
 
 ```csharp
 public enum GradientDirection
 ```
 
-### Giá Trị
+### Các giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Chưa được định nghĩa |
+| NotDefined | `-1` | Không xác định |
 | FromCorner1 | `0` | Từ góc trên bên trái |
 | FromCorner2 | `1` | Từ góc trên bên phải |
 | FromCorner3 | `2` | Từ góc dưới bên trái |
 | FromCorner4 | `3` | Từ góc dưới bên phải |
 | FromCenter | `4` | Từ trung tâm |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

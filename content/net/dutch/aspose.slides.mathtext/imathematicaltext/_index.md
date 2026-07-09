@@ -14,11 +14,11 @@ Wiskundige tekst
 public interface IMathematicalText : IMathElement
 ```
 
-## Properties
+## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Staat toe de basis-IMathElement interface te verkrijgen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathematicaltext/asimathelement) { get; } | Stelt toe de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
 | [Format](../../aspose.slides.mathtext/imathematicaltext/format) { get; } | Tekstopmaak eigenschappen |
 | [Value](../../aspose.slides.mathtext/imathematicaltext/value) { get; set; } | Tekstwaarde |
 

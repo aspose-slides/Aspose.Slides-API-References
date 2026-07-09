@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho tập hợp của ChartSeries./chartseries
+second_title: Tham chiếu API .NET của Aspose.Sildes
+description: Biểu diễn tập hợp của ChartSeries./chartseries
 type: docs
 weight: 1450
 url: /vi/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection lớp
 
-Đại diện cho tập hợp của [`ChartSeries`](../chartseries)
+Biểu diễn tập hợp của [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -19,25 +19,25 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 | Tên | Mô tả |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Trả về số lượng đối tượng trong tập hợp. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (an toàn đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Tạo chuỗi biểu đồ mới và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Tạo chuỗi biểu đồ mới từ [`ChartCellCollection`](../chartcellcollection) và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Tạo chuỗi biểu đồ mới từ [`ChartDataCell`](../chartdatacell) và thêm nó vào tập hợp. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Tạo chuỗi biểu đồ mới từ giá trị và thêm nó vào tập hợp. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Tạo series biểu đồ mới và thêm nó vào tập hợp. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Tạo series biểu đồ mới từ [`ChartCellCollection`](../chartcellcollection) và thêm nó vào tập hợp. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Tạo series biểu đồ mới từ [`ChartDataCell`](../chartdatacell) và thêm nó vào tập hợp. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Tạo series biểu đồ mới từ giá trị và thêm nó vào tập hợp. |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Xóa tất cả các điều khiển khỏi tập hợp. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Sao chép toàn bộ tập hợp vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Tìm kiếm [`ChartSeries`](../chartseries) được chỉ định và trả về chỉ số bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ Collection |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Tạo chuỗi biểu đồ mới và chèn nó vào tập hợp. |
-| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Xóa giá trị được chỉ định. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Xóa một điều khiển ActiveX được lưu tại vị trí được chỉ định khỏi tập hợp. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Sao chép toàn bộ tập hợp vào mảng đã chỉ định. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Trả về một enumerator (bộ lặp) duyệt qua tập hợp. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Tìm kiếm [`ChartSeries`](../chartseries) đã chỉ định và trả về chỉ mục bắt đầu từ 0 của lần xuất hiện đầu tiên trong toàn bộ Collection |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Tạo series biểu đồ mới và chèn nó vào tập hợp. |
+| [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Xóa giá trị đã chỉ định. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Xóa một điều khiển ActiveX được lưu tại vị trí đã chỉ định khỏi tập hợp. |
 
 ### Xem thêm
 

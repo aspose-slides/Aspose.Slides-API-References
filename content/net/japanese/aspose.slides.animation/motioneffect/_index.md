@@ -1,14 +1,14 @@
 ---
 title: MotionEffect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトのモーション効果の振る舞いを表します。
+description: エフェクトのモーション効果の動作を表します。
 type: docs
-weight: 650
+weight: 670
 url: /ja/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect クラス
 
-エフェクトのモーション効果の振る舞いを表します。
+エフェクトのモーション効果の動作を表します。
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -18,24 +18,24 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [MotionEffect](motioneffect)() | デフォルト コンストラクターです。 |
+| [MotionEffect](motioneffect)() | デフォルトコンストラクターです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーションの動作が蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | モーションパスの相対角度を記述します。読み書き Single。 |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | アニメーションの相対オフセット値（パーセント）を記述します。読み書き PointF。 |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | アニメーションの開始位置となる x/y 座標を指定します（パーセント）。読み書き PointF。 |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | モーションパスの原点がスライドのレイアウトや親など、何に相対しているかを指定します。読み書き [`MotionOriginType`](../motionorigintype)。 |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | アニメーションの動作に対して座標で構成されたパスプリミティブを指定します。読み書き [`IMotionPath`](../imotionpath)。 |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | シェイプが移動したときのモーションパスの動き方を指定します。読み書き [`MotionPathEditMode`](../motionpatheditmode)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーションの動作が蓄積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | モーションパスの相対角度を記述します。読み取り/書き込み Single。 |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | アニメーションの相対オフセット値（パーセンテージ）を記述します。読み取り/書き込み PointF。 |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | アニメーション開始位置の x/y 座標（パーセンテージ）を指定します。読み取り/書き込み PointF。 |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | モーションパスの原点がスライドのレイアウトや親など、何に対して相対的であるかを指定します。読み取り/書き込み [`MotionOriginType`](../motionorigintype)。 |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | アニメーションの動作のために座標で構成されたパスプリミティブを指定します。読み取り/書き込み [`IMotionPath`](../imotionpath)。 |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | シェイプが移動したときにモーションパスがどのように動くかを指定します。読み取り/書き込み [`MotionPathEditMode`](../motionpatheditmode)。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | X 角度でモーションパスを回転させる際に使用する回転中心を記述します。読み書き PointF。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み書き [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | アニメーションモーション効果のターゲット位置を指定します（パーセント）。読み書き PointF。 |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | モーションパスを X 角度で回転させる際に使用される回転の中心を記述します。読み取り/書き込み PointF。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクトの動作に対するタイミングプロパティを表します。読み取り/書き込み [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | アニメーションモーション効果のターゲット位置（パーセンテージ）を指定します。読み取り/書き込み PointF。 |
 
 ### 参照
 

@@ -1,6 +1,6 @@
 ---
 title: IWarningInfo
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 모든 경고에 대한 기본 인터페이스를 나타냅니다.
 type: docs
 weight: 11810
@@ -25,9 +25,9 @@ public interface IWarningInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | 수신기가 null이 아니면 지정된 수신기로 경고를 종료하고, 수신기가 작업을 중단하기로 결정하면 AbortRequestedException을 발생시킵니다. |
+| [SendWarning](../../aspose.slides.warnings/iwarninginfo/sendwarning)(IWarningCallback) | receiver가 null이 아닌 경우 지정된 수신자에게 경고를 종료하고, 수신자가 작업 중단을 결정하면 AbortRequestedException을 발생시킵니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Warnings](../../aspose.slides.warnings)
 * 어셈블리 [Aspose.Slides](../../)

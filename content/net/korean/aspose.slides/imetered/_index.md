@@ -1,14 +1,14 @@
 ---
 title: IMetered
 second_title: Aspose.Sildes for .NET API 참조
-description: Metered 키를 설정하는 메서드를 제공합니다.
+description: 계량된 키를 설정하는 메서드를 제공합니다.
 type: docs
 weight: 6450
 url: /ko/aspose.slides/imetered/
 ---
 ## IMetered 인터페이스
 
-Metered 키를 설정하는 메서드를 제공합니다.
+계량된 키를 설정하는 메서드를 제공합니다.
 
 ```csharp
 public interface IMetered
@@ -18,9 +18,9 @@ public interface IMetered
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Metered 공개 및 개인 키를 설정합니다. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | 계량된 공개 및 개인 키를 설정합니다. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

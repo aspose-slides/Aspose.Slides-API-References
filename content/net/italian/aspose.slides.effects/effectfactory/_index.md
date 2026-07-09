@@ -1,9 +1,9 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Consente di creare effetti
 type: docs
-weight: 2950
+weight: 2970
 url: /it/aspose.slides.effects/effectfactory/
 ---
 ## EffectFactory classe
@@ -16,19 +16,19 @@ public class EffectFactory : IEffectFactory
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [EffectFactory](effectfactory)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Restituisce ImageTransformOperationFactory. Solo lettura [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | Restituisce ImageTransformOperationFactory. Sola lettura [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Crea l'effetto Glow. |
 | [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Crea l'effetto Inner shafow. |
@@ -37,7 +37,7 @@ public class EffectFactory : IEffectFactory
 | [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Crea l'effetto Reflection. |
 | [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Crea l'effetto Soft Edge. |
 
-### Osservazioni
+### Note
 
 Per compatibilità COM.
 

@@ -14,7 +14,7 @@ url: /hi/aspose.slides.export/islideslayoutoptions/
 public interface ISlidesLayoutOptions
 ```
 
-### संबंधित
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

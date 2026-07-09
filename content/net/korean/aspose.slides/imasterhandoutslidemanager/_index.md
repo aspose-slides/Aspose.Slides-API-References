@@ -6,7 +6,7 @@ type: docs
 weight: 6370
 url: /ko/aspose.slides/imasterhandoutslidemanager/
 ---
-## IMasterHandoutSlideManager interface
+## IMasterHandoutSlideManager 인터페이스
 
 마스터 핸드아웃 슬라이드 관리자.
 
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 이 프레젠테이션의 모든 노트 슬라이드에 대한 마스터가 있는 경우 반환하고, 없으면 null을 반환합니다. 읽기 전용 [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 이 프레젠테이션에 노트 슬라이드가 있는 경우 모든 노트 슬라이드의 마스터를 반환하고, 없으면 null을 반환합니다. 읽기 전용 [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## 메서드
 
@@ -27,7 +27,7 @@ public interface IMasterHandoutSlideManager
 | [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | 마스터 핸드아웃 슬라이드를 제거합니다. |
 | [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 기본 마스터 핸드아웃 슬라이드를 관련 핸드아웃 슬라이드로 설정합니다. |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

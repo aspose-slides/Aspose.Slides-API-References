@@ -19,14 +19,14 @@ public interface ITrendline : IOverridableText
 | 이름 | 설명 |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | IOverridableText 인터페이스를 반환합니다. 읽기 전용 [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | 트렌드 라인이 추세가 적용되는 시리즈 데이터 이전에 확장되는 카테고리(또는 산점도 차트의 단위) 수를 지정합니다. 산점도 및 비산점도 차트에서 값은 0 이상이어야 합니다. 읽기/쓰기 Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | 차트에 추세선 방정식이 표시되도록 지정합니다(Rsquaredvalue와 같은 레이블에). 읽기/쓰기 Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | 차트에 추세선의 R-제곱값이 방정식과 같은 레이블에 표시되도록 지정합니다. 읽기/쓰기 Boolean. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | 추세선이 트렌드가 적용되는 시리즈 데이터 이전에 연장되는 카테고리 수(또는 산점도 차트의 단위)를 지정합니다. 산점도 및 비산점도 차트에서 값은 음수가 아닌 값이어야 합니다. 읽기/쓰기 Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | 차트에 추세선 방정식이 표시되는지 지정합니다(Rsquaredvalue와 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | 차트에 추세선의 R-제곱 값이 표시되는지 지정합니다(방정식과 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | 추세선의 형식을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | 트렌드 라인이 추세가 적용되는 시리즈 데이터 이후에 확장되는 카테고리(또는 산점도 차트의 단위) 수를 지정합니다. 산점도 및 비산점도 차트에서 값은 0 이상이어야 합니다. 읽기/쓰기 Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | 추세선이 y축을 교차하는 값을 지정합니다. 이 속성은 추세선 유형이 exp, linear 또는 poly인 경우에만 지원됩니다. 읽기/쓰기 Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | 다항식 추세선의 차수를 지정합니다. 다른 추세선 유형에서는 무시됩니다. 값은 2에서 6 사이여야 합니다. 읽기/쓰기 Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | 이동 평균 추세선의 경우 추세선 기간을 지정합니다. 다른 추세선 변형에서는 무시됩니다. 값은 2에서 255 사이여야 합니다. 읽기/쓰기 Byte. |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | 추세선이 트렌드가 적용되는 시리즈 데이터 이후에 연장되는 카테고리 수(또는 산점도 차트의 단위)를 지정합니다. 산점도 및 비산점도 차트에서 값은 음수가 아닌 값이어야 합니다. 읽기/쓰기 Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | 추세선이 y축과 교차하는 값을 지정합니다. 이 속성은 추세선 유형이 exp, linear 또는 poly인 경우에만 지원됩니다. 읽기/쓰기 Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | 다항식 추세선의 차수를 지정합니다. 다른 추세선 유형에서는 무시됩니다. 값은 2와 6 사이여야 합니다. 읽기/쓰기 Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | 이동 평균 추세선의 기간을 지정합니다. 다른 추세선 변형에서는 무시됩니다. 값은 2와 255 사이여야 합니다. 읽기/쓰기 Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | 이 추세선과 관련된 범례 항목을 나타냅니다. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | 추세선의 이름을 가져오거나 설정합니다. 읽기/쓰기 String. |
 | [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | 추세선 유형을 가져오거나 설정합니다. 읽기/쓰기 [`TrendlineType`](./trendlinetype). |

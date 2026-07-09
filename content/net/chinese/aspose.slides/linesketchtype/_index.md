@@ -1,15 +1,14 @@
 ---
 title: LineSketchType
-second_title: Aspose.Slide for .NET API 参考
-description: 表示一个形状被分配的草图类型或效果。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示已分配给形状的草图类型或效果。
 type: docs
-weight: 7570
+weight: 7810
 url: /zh/aspose.slides/linesketchtype/
 ---
-
 ## LineSketchType 枚举
 
-表示一个形状被分配的草图类型或效果。
+表示已分配给形状的草图类型或效果。
 
 ```csharp
 public enum LineSketchType
@@ -19,11 +18,11 @@ public enum LineSketchType
 
 | 名称 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 指定一个形状的草图效果未定义。 |
-| None | `0` | 指定一个形状没有草图效果。这相当于该属性为空。 |
-| Curved | `1` | 指定一个形状具有曲线效果，将形状的每个边缘变成一个大的柔和曲线。 |
-| Freehand | `2` | 指定一个形状具有手绘效果，它最接近于描绘不完美的线条。 |
-| Scribble | `3` | 指定一个形状具有涂鸦效果，呈现夸张的振荡，仿佛故意画得很乱。 |
+| NotDefined | `-1` | 指定形状的 Sketch 效果未定义。 |
+| None | `0` | 指定形状没有 Sketch 效果。这相当于此属性为空。 |
+| Curved | `1` | 指定形状具有 Curved 效果，该效果将形状的每条边转化为一个大而柔和的曲线。 |
+| Freehand | `2` | 指定形状具有 Freehand 效果，该效果最接近手绘的、不完美的线条。 |
+| Scribble | `3` | 指定形状具有 Scribble 效果，该效果具有夸张的振荡，仿佛故意画得凌乱。 |
 
 ### 另见
 

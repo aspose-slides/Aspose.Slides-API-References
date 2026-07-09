@@ -1,9 +1,9 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili subtipe efek filter.
 type: docs
-weight: 370
+weight: 390
 url: /id/aspose.slides.animation/filtereffectsubtype/
 ---
 ## FilterEffectSubtype enumerasi

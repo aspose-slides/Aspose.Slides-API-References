@@ -1,20 +1,20 @@
 ---
 title: ColorOperation
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: रंग रूपांतरण के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
+description: रंग रूपांतरणों के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
 type: docs
 weight: 2530
 url: /hi/aspose.slides/coloroperation/
 ---
 ## ColorOperation क्लास
 
-रंग परिवर्तन के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु।
+रंग रूपांतरणों के लिए उपयोग किए जाने वाले विभिन्न रंग संचालन का प्रतिनिधित्व करता है। अपरिवर्तनीय वस्तु.
 
 ```csharp
 public class ColorOperation : IColorOperation
 ```
 
-## निर्माता
+## कन्स्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
@@ -25,17 +25,17 @@ public class ColorOperation : IColorOperation
 
 | नाम | विवरण |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | एक संचालन के प्रकार को लौटाता है या सेट करता है। केवल-पठन [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | एक संचालन के पैरामीटर को लौटाता है। केवल-पठन Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | ऑपरेशन के प्रकार को लौटाता है या सेट करता है। केवल-पढ़ने योग्य [`ColorTransformOperation`](../colortransformoperation)। |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | ऑपरेशन का पैरामीटर लौटाता है। केवल-पढ़ने योग्य Single। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | निर्धारित करता है कि दो ColorOperation उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिद्म और हैश तालिका जैसी डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के योग्य। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IColorOperation](../icoloroperation)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

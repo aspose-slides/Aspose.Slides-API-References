@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelAssignmentType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Duyarlılık etiketi için atama yöntemini temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Hassasiyet etiketi için atama yöntemini temsil eder.
 type: docs
-weight: 9780
+weight: 9800
 url: /tr/aspose.slides/sensitivitylabelassignmenttype/
 ---
-## SensitivityLabelAssignmentType enum
+## SensitivityLabelAssignmentType enumeration
 
-Duyarlılık etiketi için atama yöntemini temsil eder.
+Hassasiyet etiketi için atama yöntemini temsil eder.
 
 ```csharp
 public enum SensitivityLabelAssignmentType
@@ -18,8 +18,8 @@ public enum SensitivityLabelAssignmentType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Standard | `0` | Kullanıcı tarafından doğrudan uygulanmamış herhangi bir duyarlılık etiketi için kullanılır. Buna varsayılan etiketler ve otomatik olarak uygulanan etiketler dahil edilir. |
-| Privileged | `1` | Kullanıcı tarafından doğrudan uygulanan herhangi bir duyarlılık etiketi için kullanılır. Buna manuel olarak uygulanan duyarlılık etiketlerinin yanı sıra önerilen veya zorunlu etiketleme ve kullanıcının hangi duyarlılık etiketini uygulayacağını karar verdiği herhangi bir özellik de dahildir. |
+| Standard | `0` | Kullanıcı tarafından doğrudan uygulanmamış herhangi bir hassasiyet etiketi için kullanılır. Bu, varsayılan etiketler ve otomatik olarak uygulanan etiketleri içerir. |
+| Privileged | `1` | Kullanıcı tarafından doğrudan uygulanmış herhangi bir hassasiyet etiketi için kullanılır. Bu, manuel olarak uygulanan hassasiyet etiketlerini, önerilen veya zorunlu etiketlemeyi ve kullanıcının hangi hassasiyet etiketini uygulayacağını seçtiği herhangi bir özelliği içerir. |
 
 ### Ayrıca Bakınız
 

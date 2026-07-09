@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes için .NET API Referansı
-description: Aynı anahat ve doldurma özelliklerine sahip bir şeklin bir parçasını temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Aynı anahat ve dolgu özelliklerine sahip şeklin bir parçasını temsil eder.
 type: docs
-weight: 9850
+weight: 9870
 url: /tr/aspose.slides/shapeelement/
 ---
-## ShapeElement sınıf
+## ShapeElement sınıfı
 
-Bir şeklin aynı anahat ve doldurma özelliklerine sahip bir parçasını temsil eder.
+Aynı anahat ve dolgu özelliklerine sahip şeklin bir parçasını temsil eder.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -16,15 +16,15 @@ public class ShapeElement : IShapeElement
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Bir öğenin nasıl doldurulacağına ilişkin bilgileri döndürür. Salt okunur [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Öğenin oluşturulduğu Shape_PPT'yi döndürür. Salt okunur [`Shape`](../shape). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Bir öğenin nasıl doldurulacağına ilişkin bilgileri döndürür. Yalnızca okuma [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Öğenin oluşturulduğu Shape_PPT'yi döndürür. Yalnızca okuma [`Shape`](../shape). |
 | [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Öğenin yolunun geometrisini tanımlayan nokta dizisini alır. |
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Öğenin yolundaki her noktanın tipini belirten bayt değerleri dizisini alır. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Bir öğenin nasıl çizileceğine ilişkin bilgileri döndürür. Salt okunur [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Bir öğenin nasıl çizileceğine ilişkin bilgileri döndürür. Yalnızca okuma [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
-### İlgili
+### Ayrıca bakınız
 
 * arayüz [IShapeElement](../ishapeelement)
 * ad alanı [Aspose.Slides](../../aspose.slides)

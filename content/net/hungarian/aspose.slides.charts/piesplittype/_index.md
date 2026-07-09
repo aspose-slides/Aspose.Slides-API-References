@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes .NET API referenciája
-description: A kör-kör vagy sáv-kör diagram második körén vagy sávján lévő szétbontási pontok típusát jelöli.
+second_title: Aspose.Sildes .NET API referencia
+description: A pie-of-pie vagy bar-of-pie diagram második körének vagy sávjának szétválasztási pontjainak típusát reprezentálja.
 type: docs
-weight: 2360
+weight: 2380
 url: /hu/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enumeráció
 
-Olyan típust képvisel, amely a második kör vagy sáv szétbontási pontjait jelöli egy kör-kör vagy sáv-kör diagramon.
+A pie-of-pie vagy bar-of-pie diagram második kör vagy sáv szétválasztási pontjainak típusát reprezentálja.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Default | `0` | Megadja, hogy az adatpontok a diagram típusához tartozó alapértelmezett mechanizmus szerint legyenek szétbontva. |
-| Custom | `1` | Megadja, hogy az adatpontok a kör és a második diagram között a Custom Split értékek szerint legyenek szétbontva. |
-| ByPercentage | `2` | Megadja, hogy az adatpontok a kör és a második diagram között úgy legyenek szétbontva, hogy azokat a pontokat, amelyek százalékos aránya kisebb, mint a Split Position százalék, a második diagramba helyezzük. |
-| ByPos | `3` | Megadja, hogy az adatpontok a kör és a második diagram között úgy legyenek szétbontva, hogy az adatpontok utolsó Split Position értékét a második diagramba helyezzük. |
-| ByValue | `4` | Megadja, hogy az adatpontok a kör és a második diagram között úgy legyenek szétbontva, hogy az értéke a Split Position-nél kisebb adatpontokat a második diagramba helyezzük. |
+| Default | `0` | Megadja, hogy az adatpontok az alapértelmezett mechanizmus használatával legyenek szétválasztva erről a diagramtípusról. |
+| Custom | `1` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva a Custom Split értékek szerint. |
+| ByPercentage | `2` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy a Split Position százaléknál kevesebb százalékú pontok a második diagramba kerülnek. |
+| ByPos | `3` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy az adatpontok legutolsó Split Position értéke a második diagramba kerül. |
+| ByValue | `4` | Megadja, hogy az adatpontok a kör és a második diagram között legyenek szétválasztva úgy, hogy a Split Position-nál kisebb értékű adatpontok a második diagramba kerülnek. |
 
 ### Lásd még
 

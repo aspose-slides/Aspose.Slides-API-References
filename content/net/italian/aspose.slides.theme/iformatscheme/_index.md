@@ -1,9 +1,9 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes for .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Memorizza i formati definiti dal tema per le forme.
 type: docs
-weight: 11250
+weight: 11270
 url: /it/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interfaccia
@@ -19,7 +19,7 @@ public interface IFormatScheme : ISlideComponent
 | Nome | Descrizione |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Sola lettura [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Restituisce una collezione di stili di riempimento dello sfondo definiti dal tema. Sola lettura [`IFillFormatCollection`](../ifillformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | Restituisce una collezione di stili di riempimento di sfondo definiti dal tema. Sola lettura [`IFillFormatCollection`](../ifillformatcollection). |
 | [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | Restituisce una collezione di stili di effetto definiti dal tema. Sola lettura [`IEffectStyleCollection`](../ieffectstylecollection). |
 | [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | Restituisce una collezione di stili di riempimento definiti dal tema. Sola lettura [`IFillFormatCollection`](../ifillformatcollection). |
 | [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | Restituisce una collezione di stili di linea definiti dal tema. Sola lettura [`ILineFormatCollection`](../ilineformatcollection). |

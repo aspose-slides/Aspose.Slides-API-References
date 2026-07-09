@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Olyan opciókat képviseli, amelyekkel további táblázatkezelő viselkedést lehet megadni.
+description: Azokat az opciókat képviseli, amelyeket további táblázatkezelő viselkedés megadására lehet használni.
 type: docs
-weight: 7100
+weight: 7120
 url: /hu/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interfész
 
-Az opciókat képviseli, amelyekkel további táblázatkezelő viselkedést lehet megadni.
+Azokat a beállításokat képviseli, amelyekkel további táblázatkezelő viselkedést lehet megadni.
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Név | Leírás |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Lekéri vagy beállítja a preferált kultúra-információt olyan függvények számításához, amelyek olyan nyelvekhez készültek, amelyek kettős bájtú karakterkészletet (DBCS) használnak. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Ha a diagram adatforrása egy külső munkafüzet, és nem érhető el, akkor a diagram gyorsítótárából helyreállítják. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | A kettőbájtos karakterkészletet (DBCS) használó nyelvekhez szánt egyes függvények számításához használt preferált kultúra-információt kapja vagy állítja be. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Ha a diagram adatforrása egy külső munkafüzet, és nem érhető el, akkor a diagram gyorsítótárából áll helyre. |
 
 ### Lásd még
 

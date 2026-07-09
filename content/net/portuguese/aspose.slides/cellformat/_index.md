@@ -1,14 +1,14 @@
 ---
 title: CellFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa o formato de uma célula de tabela.
 type: docs
-weight: 1130
+weight: 1150
 url: /pt/aspose.slides/cellformat/
 ---
 ## CellFormat classe
 
-Representa o formato de uma célula de tabela.
+Represents format of a table cell.
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -16,27 +16,27 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Retorna um objeto de propriedades da linha de borda inferior. Somente leitura [`ILineFormat`](../ilineformat). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Retorna um objeto de propriedades da linha da borda inferior. Somente leitura [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Retorna um objeto de propriedades da linha diagonal de canto superior esquerdo para canto inferior direito. Somente leitura [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Retorna um objeto de propriedades da linha diagonal de canto inferior esquerdo para canto superior direito. Somente leitura [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Retorna um objeto de propriedades da linha da borda esquerda. Somente leitura [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Retorna um objeto de propriedades da linha da borda direita. Somente leitura [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Retorna um objeto de propriedades da linha da borda superior. Somente leitura [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Retorna um objeto de propriedades de preenchimento da célula. Somente leitura [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Obtém ou define a transparência da cor de preenchimento. Leitura/gravação Single. |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Obtém ou define a transparência da cor de preenchimento. Leitura/Gravação Single. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | [GetEffective](../../aspose.slides/cellformat/geteffective)() | Obtém as propriedades de formatação efetiva da célula da tabela com herança e estilos de tabela aplicados. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver também
+### Veja Também
 
 * classe [PVIObject](../pviobject)
 * interface [ICellFormat](../icellformat)

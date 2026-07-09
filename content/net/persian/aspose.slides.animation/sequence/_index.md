@@ -1,14 +1,14 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes برای مرجع API .NET
-description: دنباله‌ای که مجموعه‌ای از افکت‌ها را نمایندگی می‌کند.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر مجموعه‌ای از افکت‌ها به‌صورت توالی.
 type: docs
 weight: 790
 url: /fa/aspose.slides.animation/sequence/
 ---
-## Sequence کلاس
+## کلاس Sequence
 
-نمایشگر دنباله (مجموعه‌ای از افکت‌ها).
+نمایانگر یک توالی (مجموعه‌ای از افکت‌ها) است.
 
 ```csharp
 public sealed class Sequence : ISequence
@@ -18,31 +18,31 @@ public sealed class Sequence : ISequence
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | تعداد افکت‌ها در یک دنباله را برمی‌گرداند. فقط-خواندنی Int32. |
-| [Item](../../aspose.slides.animation/sequence/item) { get; } | افکتی را که در اندیس مشخص شده است برمی‌گرداند. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | هدف شکل را برای دنباله INTERACTIVE برمی‌گرداند یا تنظیم می‌کند. اگر دنباله تعاملی نباشد، null برمی‌گرداند. خواندنی/قابل‌نوشتن [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | تعداد افکت‌ها در توالی را برمی‌گرداند. فقط خواندنی Int32. |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | یک افکت را در اندیس مشخص برمی‌گرداند. |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | مقصد shape را برای توالی INTERACTIVE برمی‌گرداند یا تعیین می‌کند. اگر توالی تعاملی نباشد، null برمی‌گرداند. خواندنی/نوشتنی [`IShape`](../../aspose.slides/ishape). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدیدی برای پاراگراف به انتهای دنباله اضافه می‌کند. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | افکت جدیدی به انتهای دنباله اضافه می‌کند. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدید نمودار برای دسته یا سری را به انتهای دنباله اضافه می‌کند. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدید نمودار برای عناصر در دسته یا سری را به انتهای دنباله اضافه می‌کند. |
-| [Clear](../../aspose.slides.animation/sequence/clear)() | تمام افکت‌ها را از یک مجموعه حذف می‌کند. |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | تعداد افکت‌های شکل مشخص شده را برمی‌گرداند. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | آرایه‌ای از افکت‌های پاراگراف مشخص شده را برمی‌گرداند. |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | آرایه‌ای از افکت‌های شکل مشخص شده را برمی‌گرداند. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | یک شمارشگر که در مجموعه پیمایش می‌کند را برمی‌گرداند. |
-| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | افکت مشخص شده را از یک مجموعه حذف می‌کند. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدیدی برای پاراگراف به انتهای توالی اضافه می‌کند. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | افکت جدیدی به انتهای توالی اضافه می‌کند. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدید نمودار برای دسته یا سری به انتهای توالی اضافه می‌شود. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | افکت انیمیشن جدید نمودار برای عناصر در دسته یا سری به انتهای توالی اضافه می‌شود. |
+| [Clear](../../aspose.slides.animation/sequence/clear)() | همه افکت‌ها را از یک مجموعه حذف می‌کند. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | تعداد افکت‌ها برای shape مشخص‌شده را برمی‌گرداند. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | آرایه‌ای از افکت‌ها برای پاراگراف مشخص‌شده را برمی‌گرداند. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | آرایه‌ای از افکت‌ها برای shape مشخص‌شده را برمی‌گرداند. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | یک enumerator که در مجموعه تکرار می‌کند را برمی‌گرداند. |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | افکت مشخص‌شده را از یک مجموعه حذف می‌کند. |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | یک افکت را از یک مجموعه حذف می‌کند. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | افکت مربوط به شکل مشخص شده را حذف می‌کند. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | افکت مربوط به shape مشخص‌شده را حذف می‌کند. |
 
 ### موارد مرتبط
 
 * رابط [ISequence](../isequence)
 * فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
-* مجمع [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

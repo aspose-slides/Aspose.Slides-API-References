@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
 second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje efekt zewnętrznego cienia.
+description: Reprezentuje efekt cienia zewnętrznego.
 type: docs
-weight: 3440
+weight: 3460
 url: /pl/aspose.slides.effects/ioutershadow/
 ---
-## IOuterShadow interfejs
+## interfejs IOuterShadow
 
-Represents an Outer Shadow effect.
+Reprezentuje efekt cienia zewnętrznego.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -21,16 +21,16 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Promień rozmycia, w punktach. Wartość domyślna – 0 pt. Odczyt/zapis Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Kierunek cienia, w stopniach. Wartość domyślna – 0 ° (od lewej do prawej). Odczyt/zapis Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Odległość cienia od obiektu, w punktach. Wartość domyślna – 0 pt. Odczyt/zapis Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Wyrównanie prostokąta. Wartość domyślna – Bottom. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Wskazuje, czy cień obraca się razem z kształtem. Wartość domyślna – true. Odczyt/zapis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Czynnik skalowania poziomego, w procentach oryginalnego rozmiaru. Negatywne skalowanie powoduje odbicie. Wartość domyślna – 100 %. Odczyt/zapis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Czynnik skalowania pionowego, w procentach oryginalnego rozmiaru. Negatywne skalowanie powoduje odbicie. Wartość domyślna – 100 %. Odczyt/zapis Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kolor cienia. Wartość domyślna – automatyczna czerń (zależna od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Kąt pochylenia poziomego, w stopniach. Wartość domyślna – 0 °. Odczyt/zapis Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Kąt pochylenia pionowego, w stopniach. Wartość domyślna – 0 °. Odczyt/zapis Double. |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Promień rozmycia, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Kierunek cienia, w stopniach. Domyślna wartość – 0 ° (od lewej do prawej). Odczyt/zapis Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Odległość cienia od obiektu, w punktach. Domyślna wartość – 0 pt. Odczyt/zapis Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Wyrównanie prostokąta. Domyślna wartość – Bottom. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Określa, czy cień obraca się razem z kształtem. Domyślna wartość – true. Odczyt/zapis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Czynnika skalowania poziomego, w procentach oryginalnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Czynnika skalowania pionowego, w procentach oryginalnego rozmiaru. Ujemne skalowanie powoduje odbicie. Domyślna wartość – 100 %. Odczyt/zapis Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Kolor cienia. Domyślna wartość – automatyczna czerń (zależna od motywu). Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Kąt nachylenia poziomego, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Kąt nachylenia pionowego, w stopniach. Domyślna wartość – 0 °. Odczyt/zapis Double. |
 
 ### Zobacz także
 
@@ -38,6 +38,6 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 * interfejs [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
 * interfejs [IImageTransformOperation](../iimagetransformoperation)
 * przestrzeń nazw [Aspose.Slides.Effects](../../aspose.slides.effects)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

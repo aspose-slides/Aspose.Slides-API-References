@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheert de generatie van SVG-vormen en tekst.
+description: Regelt de generatie van SVG-vormen en tekst.
 type: docs
 weight: 4120
 url: /nl/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController interface
 
-Beheert de generatie van SVG-vormen en tekst.
+Regelt de generatie van SVG-vormen en tekst.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -18,13 +18,13 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Retourneert ISvgShapeFormattingController interface. |
+| [AsISvgShapeFormattingController](../../aspose.slides.export/isvgshapeandtextformattingcontroller/asisvgshapeformattingcontroller) { get; } | Retourneert de ISvgShapeFormattingController interface. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Deze functie wordt aangeroepen vóór het renderen van een tekstgedeelte naar SVG om de gebruiker toe te staan het resulterende SVG te controleren. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Deze functie wordt aangeroepen vóór het renderen van een tekstgedeelte naar SVG om de gebruiker de mogelijkheid te geven het resulterende SVG te regelen. |
 
 ### Voorbeelden
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
-second_title: Aspose.Sildes dla .NET – Referencja API
-description: Reprezentuje poziom punktu danych. Obowiązuje dla wykresów Treemap i Sunburst.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje poziom punktu danych. Dotyczy wykresów Treemap i Sunburst.
 type: docs
-weight: 1820
+weight: 1840
 url: /pl/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel interfejs
 
-Reprezentuje poziom punktu danych. Obowiązuje dla wykresów Treemap i Sunburst.
+Reprezentuje poziom punktu danych. Dotyczy wykresów Treemap i Sunburst.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -19,7 +19,7 @@ public interface IChartDataPointLevel
 | Nazwa | Opis |
 | --- | --- |
 | [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Reprezentuje właściwości formatowania poziomu punktu danych. Odczyt/zapis [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Reprezentuje etykietę danych poziomu punktu danych. Zastosowane dla typów serii Treemap i Sunburst. Tylko do odczytu [`IDataLabel`](../idatalabel). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Reprezentuje etykietę danych poziomu punktu danych. Zastosowany dla typów serii Treemap i Sunburst. Tylko do odczytu [`IDataLabel`](../idatalabel). |
 
 ### Zobacz także
 

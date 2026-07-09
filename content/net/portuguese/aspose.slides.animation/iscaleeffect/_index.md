@@ -1,14 +1,14 @@
 ---
 title: IScaleEffect
 second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o efeito de escala da animação.
+description: Representa o efeito de escala de animação.
 type: docs
-weight: 560
+weight: 580
 url: /pt/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect interface
 
-Representa o efeito de escala da animação.
+Representa o efeito de escala de animação.
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -19,9 +19,9 @@ public interface IScaleEffect : IBehavior
 | Nome | Descrição |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Permite obter a interface base IBehavior. Somente leitura [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | descreve o valor de deslocamento relativo para a animação (em porcentagem). Leitura/gravação PointF. |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação (em porcentagem). Leitura/gravação PointF. |
 | [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Especifica uma coordenada x/y para iniciar a animação (em porcentagem). Leitura/gravação PointF. |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Especifica a localização-alvo para um efeito de escala de animação (em porcentagem). Leitura/gravação PointF. |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Especifica a localização alvo para um efeito de escala de animação (em porcentagem). Leitura/gravação PointF. |
 | [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Determina se um conteúdo deve ser ampliado. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Veja Também

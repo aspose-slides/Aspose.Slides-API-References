@@ -1,14 +1,14 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: टाइल फ्लिपिंग मोड को परिभाषित करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: टाइल फ़्लिपिंग मोड को परिभाषित करता है।
 type: docs
 weight: 11500
 url: /hi/aspose.slides/tileflip/
 ---
-## TileFlip एन्यूमरेशन
+## TileFlip एन्नुमरेशन
 
-टाइल फ्लिपिंग मोड को परिभाषित करता है।
+टाइल फ़्लिपिंग मोड को परिभाषित करता है।
 
 ```csharp
 public enum TileFlip
@@ -24,7 +24,7 @@ public enum TileFlip
 | FlipY | `2` |  |
 | FlipBoth | `3` |  |
 
-### साथ में देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

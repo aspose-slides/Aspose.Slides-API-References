@@ -1,9 +1,9 @@
 ---
 title: IStreamWrapperFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Fabrik StreamWrappers. Untuk antarmuka COM.
 type: docs
-weight: 7120
+weight: 7140
 url: /id/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory antarmuka

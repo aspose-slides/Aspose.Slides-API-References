@@ -1,14 +1,14 @@
 ---
 title: IChartData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt gegevens voor die worden gebruikt voor het plotten van een grafiek.
+description: Stelt de gegevens voor die worden gebruikt voor het plotten van een diagram.
 type: docs
 weight: 1800
 url: /nl/aspose.slides.charts/ichartdata/
 ---
 ## IChartData interface
 
-Stelt gegevens voor die worden gebruikt voor het plotten van een grafiek.
+Stelt de gegevens voor die worden gebruikt voor het plotten van een diagram.
 
 ```csharp
 public interface IChartData
@@ -18,27 +18,27 @@ public interface IChartData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Haalt de primaire categorieën op (of zowel primaire als secundaire categorieën als de eigenschap [`UseSecondaryCategories`](./usesecondarycategories) false is). Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Haalt de cellenfabriek op om cellen te maken die worden gebruikt voor grafiekreeksen of categorieën. Alleen-lezen [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Stelt de gegevensbron van de grafiek voor |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Haalt het type van de ingebedde werkmap op. Retourneert NotDefined als [`DataSourceType`](./datasourcetype) ExternalWorkbook is. Alleen-lezen [`WorkbookType`](../workbooktype). |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Haalt de primaire categorieën op (of zowel primaire als secundaire categorieën als de eigenschap [`UseSecondaryCategories`](./usesecondarycategories) onwaar is). Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Haalt de cellenfabriek op om cellen te maken die worden gebruikt voor diagramreeksen of -categorieën. Alleen-lezen [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Stelt de gegevensbron van het diagram voor |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Haalt het type van de ingesloten werkmap op. Retourneert NotDefined als [`DataSourceType`](./datasourcetype) ExternalWorkbook is. Alleen-lezen [`WorkbookType`](../workbooktype). |
 | [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Stelt het pad naar de externe werkmap voor als de gegevensbron extern is, anders null |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Haalt de secundaire categorieën op als de eigenschap [`UseSecondaryCategories`](./usesecondarycategories) true is. Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Haalt de series op. Alleen-lezen [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Haalt de groepen van series op. Alleen-lezen [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Als false dan retourneert de eigenschap [`SecondaryCategories`](./secondarycategories) null en worden gegevens in de eigenschap [`Categories`](./categories) zowel voor primaire als secundaire series gebruikt. Als true dan worden gegevens in de eigenschap [`SecondaryCategories`](./secondarycategories) voor secundaire series gebruikt en gegevens in de eigenschap [`Categories`](./categories) voor primaire series gebruikt. Lezen/Schrijven Boolean. |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Haalt de secundaire categorieën op als de eigenschap [`UseSecondaryCategories`](./usesecondarycategories) waar is. Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Haalt de reeksen op. Alleen-lezen [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Haalt de groepen van reeksen op. Alleen-lezen [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Als onwaar, retourneert de eigenschap [`SecondaryCategories`](./secondarycategories) null en worden de gegevens in de eigenschap [`Categories`](./categories) gebruikt voor zowel primaire als secundaire reeksen. Als waar, worden de gegevens in de eigenschap [`SecondaryCategories`](./secondarycategories) gebruikt voor secundaire reeksen en de gegevens in de eigenschap [`Categories`](./categories) gebruikt voor primaire reeksen. Lezen/Schrijven Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Haalt het gegevensbereik van de grafiek op. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Schrijft de intern bevat Excel-werkmap naar een geheugenstroom. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Stelt een externe werkmap in als gegevensbron voor de grafiek. Grafiekgegevens worden bijgewerkt vanuit de doelwerkmap. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Stelt een externe werkmap in als gegevensbron voor de grafiek. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Stelt het gegevensbereik van de grafiek in. Series en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal series in het gegevensbereik groter is dan het aantal series in de grafiekgegevens, worden extra series met hetzelfde type als de laatste serie in de huidige collectie toegevoegd aan het einde van de collectie. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Wisselt de gegevens over de as. Gegevens die op de X-as worden weergegeven, worden verplaatst naar de Y-as en omgekeerd. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Initialiseert de intern bevat Excel-werkmap met door de gebruiker gespecificeerde waarde. |
+| [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Haalt het diagramgegevensbereik op. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Schrijft de intern opgeslagen Excel-werkmap naar een in-geheugenstream. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Stelt de externe werkmap in als gegevensbron voor het diagram. Diagramgegevens worden bijgewerkt vanuit de doelwerkmap. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Stelt de externe werkmap in als gegevensbron voor het diagram. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Stel het diagramgegevensbereik in. Reeksen en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal reeksen in het gegevensbereik groter is dan het aantal reeksen in de diagramgegevens, worden extra reeksen met hetzelfde type als de laatste reeks in de huidige collectie aan het einde van de collectie toegevoegd. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Wissel de gegevens over de as. Gegevens die op de X-as worden geplot, bewegen naar de Y-as en omgekeerd. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Initialiseert de intern opgeslagen Excel-werkmap met een door de gebruiker opgegeven waarde. |
 
 ### Zie ook
 

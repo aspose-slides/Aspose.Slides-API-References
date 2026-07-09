@@ -3,7 +3,7 @@ title: ITransitionValueBase
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar basklass för bildövergångseffekter.
 type: docs
-weight: 10190
+weight: 10210
 url: /sv/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase gränssnitt

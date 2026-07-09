@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 埋め込み woff フォント HTML コントローラ。
 type: docs
-weight: 3890
+weight: 3910
 url: /ja/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController インターフェイス
 
-埋め込み WOFF フォント HTML コントローラ。
+埋め込み woff フォント HTML コントローラ。
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
@@ -20,7 +20,7 @@ public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedwofffontshtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController インターフェイスを返します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

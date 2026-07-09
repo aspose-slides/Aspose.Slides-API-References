@@ -3,7 +3,7 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Summary Zoom Section オブジェクトのコレクションを表します。
 type: docs
-weight: 10770
+weight: 10790
 url: /ja/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSectionCollection クラス
@@ -19,10 +19,10 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか (スレッドセーフ) を示す値を取得します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISummaryZoomSection`](../isummaryzoomsection)。 |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 同期のルートオブジェクトを返します。読み取り専用 Object。 |
 
 ## メソッド
 

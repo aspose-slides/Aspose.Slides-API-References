@@ -1,14 +1,14 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Representuje stav moderního komentáře.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje stav moderního komentáře.
 type: docs
-weight: 9080
+weight: 9100
 url: /cs/aspose.slides/moderncommentstatus/
 ---
-## ModernCommentStatus enumerace
+## ModernCommentStatus výčtový typ
 
-Representuje stav moderního komentáře.
+Reprezentuje stav moderního komentáře.
 
 ```csharp
 public enum ModernCommentStatus : sbyte
@@ -18,7 +18,7 @@ public enum ModernCommentStatus : sbyte
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `0` | Není definováno. |
+| NotDefined | `0` | Nedefinováno. |
 | Active | `1` | Aktivní. |
 | Resolved | `2` | Vyřešeno. |
 | Closed | `3` | Uzavřeno. |

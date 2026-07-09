@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kolekcję autorów komentarzy.
 type: docs
-weight: 5560
+weight: 5580
 url: /pl/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfejs
@@ -18,7 +18,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Zwraca element o określonym indeksie. Tylko do odczytu [`ICommentAuthor`](../icommentauthor). |
 
 ## Metody
 
@@ -26,8 +26,8 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | --- | --- |
 | [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Dodaje nowego autora na końcu kolekcji. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Usuwa wszystkich autorów z kolekcji. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Znajduje autora w kolekcji według nazwy. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Znajduje autora w kolekcji według nazwy i inicjałów. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Znajduje autora w kolekcji po nazwie. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Znajduje autora w kolekcji po nazwie i inicjałach. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Usuwa pierwsze wystąpienie określonego autora w kolekcji. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Usuwa autora o określonym indeksie w kolekcji. |
 | [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tworzy i zwraca tablicę ze wszystkimi autorami. |

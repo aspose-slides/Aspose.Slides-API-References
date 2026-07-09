@@ -1,7 +1,7 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션에서 슬라이드를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션의 슬라이드를 나타냅니다.
 type: docs
 weight: 7040
 url: /ko/aspose.slides/islide/
@@ -16,35 +16,35 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | IBaseSlide 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | IOverrideThemeable 인터페이스를 반환합니다. 읽기 전용 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 지정된 슬라이드가 슬라이드 쇼 중에 숨겨지는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 지정된 슬라이드가 슬라이드 쇼 중에 숨겨져 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 현재 슬라이드의 레이아웃 슬라이드를 반환하거나 설정합니다. 읽기/쓰기 [`ILayoutSlide`](../ilayoutslide). |
 | [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | 노트 슬라이드에 접근하고, 추가 및 제거할 수 있습니다. 읽기 전용 [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | 슬라이드 번호를 반환합니다. [`Slides`](../ipresentation/slides) 컬렉션에서 슬라이드의 인덱스는 항상 SlideNumber - 1과 같습니다. 읽기/쓰기 Int32. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | 썸네일 이미지 객체를 반환합니다 (실제 크기의 20%). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | 썸네일 Bitmap 객체를 반환합니다. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 지정된 매개변수로 썸네일 TIFF bitmap 객체를 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | 실제 크기의 20%인 썸네일 이미지 객체를 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | 썸네일 비트맵 객체를 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 지정된 매개변수를 사용한 썸네일 TIFF 비트맵 객체를 반환합니다. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | 지정된 크기의 이미지 객체를 반환합니다. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | 사용자 지정 스케일링으로 이미지 객체를 반환합니다. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 지정된 크기의 썸네일 Bitmap 객체를 반환합니다. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | 사용자 지정 스케일링으로 썸네일 Bitmap 객체를 반환합니다. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | 특정 작성자가 추가한 모든 슬라이드 주석을 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | 사용자 지정 스케일링을 적용한 이미지 객체를 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 지정된 크기의 썸네일 비트맵 객체를 반환합니다. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | 사용자 지정 스케일링을 적용한 썸네일 비트맵 객체를 반환합니다. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | 특정 작성자가 추가한 모든 슬라이드 댓글을 반환합니다. |
 | [Remove](../../aspose.slides/islide/remove)() | 프레젠테이션에서 슬라이드를 제거합니다. |
-| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide에 프로토타입이 있는 모든 도형의 위치, 크기 및 서식을 재설정합니다. |
+| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide에 프로토타입이 있는 모든 도형의 위치, 크기 및 형식을 초기화합니다. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | 슬라이드 내용을 EMF 파일로 저장합니다. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | 슬라이드 내용을 SVG 파일로 저장합니다. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 슬라이드 내용을 SVG 파일로 저장합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IBaseSlide](../ibaseslide)
 * 인터페이스 [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

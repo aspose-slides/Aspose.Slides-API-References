@@ -1,9 +1,9 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes per .NET - Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina dove l'asse incrocerà.
 type: docs
-weight: 1520
+weight: 1540
 url: /it/aspose.slides.charts/crossestype/
 ---
 ## Enumerazione CrossesType
@@ -18,7 +18,7 @@ public enum CrossesType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | L'asse delle categorie incrocia il punto zero dell'asse dei valori (se possibile), oppure il valore minimo (se il minimo è maggiore di zero) o il valore massimo (se il massimo è inferiore a zero). |
+| AxisCrossesAtZero | `0` | L'asse delle categorie incrocia il punto zero dell'asse dei valori (se possibile), o il valore minimo (se il minimo è maggiore di zero) oppure il valore massimo (se il massimo è minore di zero). |
 | Maximum | `1` | L'asse incrocia il valore massimo. |
 | Custom | `2` | Valore personalizzato dalla proprietà CrossAt |
 

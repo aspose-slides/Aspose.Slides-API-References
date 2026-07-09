@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition 인터페이스
 
-Optional black slide transition effect.
+옵션 검은색 슬라이드 전환 효과.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 이 특성은 전환이 검은 화면에서 시작되는지 여부를 지정합니다(그런 다음 검은 화면 위에 새 슬라이드를 전환합니다). 읽기/쓰기 Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 이 속성은 전환이 검은 화면에서 시작할지 여부를 지정합니다 (그런 다음 검은 화면 위에 새 슬라이드가 전환됩니다). 읽기/쓰기 Boolean. |
 
 ### 참조
 

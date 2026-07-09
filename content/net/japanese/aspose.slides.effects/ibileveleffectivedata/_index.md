@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 二値（黒/白）効果を表す不変オブジェクトです。指定されたしきい値未満の輝度を持つ入力色は黒に変更され、しきい値以上の輝度を持つ入力色は白に設定されます。アルファ効果値はこの効果の影響を受けません。
+description: Bi-Level（白黒）効果を表すイミュータブルオブジェクトです。指定されたしきい値未満の輝度を持つ入力カラーは黒に変更されます。指定されたしきい値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果の値はこの効果の影響を受けません。
 type: docs
-weight: 3150
+weight: 3170
 url: /ja/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData インターフェイス
 
-不変オブジェクトで、二値（黒/白）効果を表します。指定されたしきい値未満の輝度を持つ入力色は黒に変更されます。指定されたしきい値以上の輝度を持つ入力色は白に設定されます。アルファ効果値はこの効果の影響を受けません。
+Bi-Level（白黒）効果を表すイミュータブルオブジェクトです。指定されたしきい値未満の輝度を持つ入力カラーは黒に変更されます。指定されたしきい値以上の輝度を持つ入力カラーは白に設定されます。アルファ効果の値はこの効果の影響を受けません。
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData

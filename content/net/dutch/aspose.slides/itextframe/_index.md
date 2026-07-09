@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een TextFrame voor.
+description: Vertegenwoordigt een TextFrame.
 type: docs
 weight: 7270
 url: /nl/aspose.slides/itextframe/
 ---
 ## ITextFrame interface
 
-Stelt een TextFrame voor.
+Represents a TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,13 +18,13 @@ public interface ITextFrame : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Stelt u in staat om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Staat toe om de basale ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
 | [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot ingesloten hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Geeft de lijst met alle alinea's in een frame terug. Alleen-lezen [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Geeft de bovenliggende cel terug of null als het bovenliggende object de ICell interface niet implementeert. Alleen-lezen [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Geeft de bovenliggende vorm terug of null als het bovenliggende object de IShape interface niet implementeert. Alleen-lezen [`IShape`](../ishape). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Retourneert de lijst met alle alinea's in een frame. Alleen-lezen [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Retourneert de bovenliggende cel of null als het bovenliggende object de ICell interface niet implementeert. Alleen-lezen [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Retourneert de bovenliggende vorm of null als het bovenliggende object de IShape interface niet implementeert. Alleen-lezen [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | Haalt de platte tekst op of stelt deze in voor een TextFrame. Lezen/Schrijven String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Geeft het opmaakobject voor dit TextFrame object terug. Alleen-lezen [`ITextFrameFormat`](../itextframeformat). |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Retourneert het opmaakobject voor dit TextFrame object. Alleen-lezen [`ITextFrameFormat`](../itextframeformat). |
 
 ## Methoden
 
@@ -34,9 +34,9 @@ public interface ITextFrame : ISlideComponent
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Markeert alle overeenkomsten van de voorbeeldtekst met de opgegeven kleur. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea's. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven string. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Vervangt alle overeenkomsten van de reguliere expressie door de opgegeven tekenreeks. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Vervangt alle voorkomens van de opgegeven tekst door een andere opgegeven tekst. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Splitst de tekstinhoud van de [`ITextFrame`](../itextframe) in een array van strings, waarbij elk element overeenkomt met een afzonderlijke tekstreeks binnen het frame. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Splitst de tekstinhoud van de [`ITextFrame`](../itextframe) in een array van tekenreeksen, waarbij elk element correspondeert met een afzonderlijke tekstkolom binnen het frame. |
 
 ### Zie ook
 

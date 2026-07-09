@@ -3,7 +3,7 @@ title: IDataLabelFormat
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje opcje formatowania dla DataLabel.
 type: docs
-weight: 2020
+weight: 2040
 url: /pl/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat interfejs
@@ -19,25 +19,25 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | Nazwa | Opis |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | Umożliwia pobranie podstawowego interfejsu IFormattedTextContainer. Tylko do odczytu [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Przedstawia format etykiety danych. Tylko do odczytu [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | Reprezentuje format etykiety danych. Tylko do odczytu [`IFormat`](../iformat). |
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Odczyt/zapis Boolean. |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Przedstawia łańcuch formatu dla obiektu DataLabels. Odczyt/zapis String. |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Przedstawia pozycję etykiety danych. Odczyt/zapis [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Reprezentuje ciąg formatowania dla obiektu DataLabels. Odczyt/zapis String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Reprezentuje pozycję etykiety danych. Odczyt/zapis [`LegendDataLabelPosition`](../legenddatalabelposition). |
 | [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Ustawia lub zwraca Variant reprezentujący separator używany dla etykiet danych na wykresie. Odczyt/zapis String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Przedstawia zachowanie wyświetlania wartości rozmiaru bąbla etykiety danych określonego wykresu. True wyświetla wartość rozmiaru bąbla. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Przedstawia zachowanie wyświetlania nazwy kategorii etykiety danych określonego wykresu. True wyświetla nazwę kategorii dla etykiet danych na wykresie. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Określa, czy etykieta danych określonego wykresu będzie wyświetlana jako odwołanie danych czy jako etykieta danych. Jeśli rodzicem tego obiektu DataLabelFormat jest kolekcja DataLabelCollection, własność ta pobiera lub ustawia domyślną wartość właściwości ShowLabelAsDataCallout dla nowych etykiet danych w kolekcji DataLabelCollection. Ustawienie tej własności z wartością ustawia tę samą wartość właściwości ShowLabelAsDataCallout dla wszystkich etykiet danych w kolekcji DataLabelCollection (np. „DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;” spowoduje, że wszystkie DataLabels[i].ShowLabelAsDataCallout będą równe val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Przedstawia zachowanie wyświetlania wartości komórki etykiety danych określonego wykresu. True wyświetla wartość komórki. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Przedstawia zachowanie wyświetlania linii prowadzących etykiety danych określonego wykresu. True wyświetla linie prowadzące. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Przedstawia zachowanie wyświetlania klucza legendy etykiety danych określonego wykresu. True, jeśli klucz legendy etykiety danych jest widoczny. Odczyt/zapis Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Przedstawia zachowanie wyświetlania wartości procentowej etykiety danych określonego wykresu. True wyświetla wartość procentową. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Zwraca lub ustawia Boolean wskazujący zachowanie wyświetlania nazwy serii dla etykiet danych na wykresie. True wyświetla nazwę serii. False aby ukryć. Odczyt/zapis Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Przedstawia zachowanie wyświetlania wartości procentowej etykiety danych określonego wykresu. True wyświetla wartość procentową. False aby ukryć. Odczyt/zapis Boolean. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Reprezentuje zachowanie wyświetlania wartości rozmiaru bąbelka etykiety danych w określonym wykresie. True wyświetla wartość rozmiaru bąbelka. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Reprezentuje zachowanie wyświetlania nazwy kategorii etykiety danych w określonym wykresie. True wyświetla nazwę kategorii dla etykiet danych na wykresie. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Określa, czy etykieta danych określonego wykresu będzie wyświetlana jako odnośnik danych czy jako etykieta danych. Jeśli rodzicem tego obiektu DataLabelFormat jest kolekcja DataLabelCollection etykiet danych, tę właściwość pobiera lub ustawia domyślną wartość właściwości ShowLabelAsDataCallout dla nowych etykiet danych w kolekcji DataLabelCollection. Ustawienie tej właściwości na określoną wartość ustawia także tę wartość w właściwości ShowLabelAsDataCallout dla wszystkich etykiet danych w kolekcji DataLabelCollection (np. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" powoduje, że wszystkie DataLabels[i].ShowLabelAsDataCallout są równe val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Reprezentuje zachowanie wyświetlania wartości komórki etykiety danych w określonym wykresie. True wyświetla wartość komórki. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Reprezentuje zachowanie wyświetlania linii prowadzących etykiety danych w określonym wykresie. True wyświetla linie prowadzące. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Reprezentuje zachowanie wyświetlania klucza legendy etykiety danych w określonym wykresie. True, gdy klucz legendy etykiety danych jest widoczny. Odczyt/zapis Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Reprezentuje zachowanie wyświetlania wartości procentowej etykiety danych w określonym wykresie. True wyświetla wartość procentową. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Zwraca lub ustawia Boolean określający zachowanie wyświetlania nazwy serii dla etykiet danych na wykresie. True wyświetla nazwę serii. False ukrywa. Odczyt/zapis Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Reprezentuje zachowanie wyświetlania wartości procentowej etykiety danych w określonym wykresie. True wyświetla wartość procentową. False ukrywa. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 
 * interfejs [IFormattedTextContainer](../iformattedtextcontainer)
 * przestrzeń nazw [Aspose.Slides.Charts](../../aspose.slides.charts)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

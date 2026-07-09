@@ -6,7 +6,7 @@ type: docs
 weight: 2730
 url: /hi/aspose.slides/customdata/
 ---
-## CustomData वर्ग
+## CustomData क्लास
 
 कस्टम डेटा के लिए कंटेनर का प्रतिनिधित्व करता है।
 
@@ -14,12 +14,12 @@ url: /hi/aspose.slides/customdata/
 public class CustomData : ICustomData
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | कस्टम xml भाग संग्रह को लौटाता है। केवल पढ़ने योग्य [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Customer Data Tags संग्रह को लौटाता है। केवल पढ़ने योग्य [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | कस्टम xml भाग संग्रह को लौटाता है। केवल-पढ़ने योग्य [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | कस्टमर डेटा टैग्स संग्रह को लौटाता है। केवल-पढ़ने योग्य [`ITagCollection`](../itagcollection). |
 
 ### संबंधित देखें
 

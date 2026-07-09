@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงการเปลี่ยนแปลงของการนำเสนอภาพสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงการเปลี่ยนสไลด์โชว์.
 type: docs
 weight: 7080
 url: /th/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition อินเทอร์เฟซ
 
-Represents slide show transition.
+แสดงถึงการเปลี่ยนภาพสไลด์โชว์.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | แอตทริบิวต์นี้ระบุว่าการนำเสนอภาพสไลด์จะเลื่อนไปยังสไลด์ถัดไปหลังจากเวลาที่กำหนดหรือไม่. อ่าน/เขียน Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | ระบุเวลาที่ต้องเริ่มการเปลี่ยนแปลงในหน่วยมิลลิวินาที การตั้งค่านี้อาจใช้ร่วมกับแอตทริบิวต์ advClick หากไม่ได้ระบุแอตทริบิวต์นี้จะถือว่าไม่มีการเลื่อนอัตโนมัติเกิดขึ้น. อ่าน/เขียน UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | ระบุว่าการคลิกเมาส์จะทำให้สไลด์ก้าวหน้าไปหรือไม่ หากไม่ได้ระบุแอตทริบิวต์นี้จะถือว่าเป็นค่า true. อ่าน/เขียน Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | รับหรือกำหนดระยะเวลาของเอฟเฟกต์การเปลี่ยนสไลด์เป็นมิลลิวินาที. อ่าน/เขียน Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | รับหรือกำหนดข้อมูลเสียงที่ฝังอยู่. อ่าน/เขียน [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | ระบุว่าสิ่งนี้เป็นเสียงที่มาพร้อมในโปรแกรมหรือไม่ หากแอตทริบิวต์นี้ตั้งค่าเป็น true โปรแกรมที่สร้างจะได้รับการแจ้งให้ตรวจสอบแอตทริบิวต์ name ที่ระบุสำหรับเสียงนี้ในรายการเสียงที่มาพร้อมและจากนั้นสามารถแสดงชื่อหรือ UI ที่กำหนดเองตามต้องการ. อ่าน/เขียน Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | แอตทริบิวต์นี้ระบุว่าเสียงจะวนซ้ำจนกว่าจะเกิดเหตุการณ์เสียงถัดไปในสไลด์โชว์หรือไม่. อ่าน/เขียน Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | ตั้งหรือรับโหมดเสียงสำหรับการเปลี่ยนสไลด์. อ่าน/เขียน [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | ระบุชื่อที่อ่านง่ายสำหรับเสียงของการเปลี่ยนแปลง ต้องกำหนดคุณสมบัติ [`Sound`](./sound) เพื่อรับหรือกำหนดชื่อเสียง. อ่าน/เขียน String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | ระบุความเร็วของการเปลี่ยนแปลงที่ใช้เมื่อเปลี่ยนจากสไลด์ปัจจุบันไปยังสไลด์ถัดไป. อ่าน/เขียน [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | ประเภทของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | ค่าการเปลี่ยนแปลงของสไลด์โชว์. อ่านอย่างเดียว [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | แอตทริบิวต์นี้ระบุว่าการแสดงสไลด์โชว์จะย้ายไปสไลด์ถัดไปหลังจากระยะเวลาที่กำหนดหรือไม่ อ่าน/เขียน Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | ระบุเวลาเป็นมิลลิวินาทีที่การเปลี่ยนภาพควรเริ่มต้น การตั้งค่านี้อาจใช้ร่วมกับแอตทริบิวต์ advClick หากแอตทริบิวต์นี้ไม่ได้ระบุจะถือว่าไม่มีการเลื่อนอัตโนมัติเกิดขึ้น อ่าน/เขียน UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | ระบุว่าการคลิกเมาส์จะทำให้สไลด์เลื่อนไปข้างหน้าหรือไม่ หากแอตทริบิวต์นี้ไม่ได้ระบุจะถือว่ามีค่าเป็น true อ่าน/เขียน Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | รับหรือกำหนดระยะเวลาของเอฟเฟกต์การเปลี่ยนสไลด์เป็นมิลลิวินาที อ่าน/เขียน Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | รับหรือกำหนดข้อมูลเสียงที่ฝังไว้ อ่าน/เขียน [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | ระบุว่าเสียงนี้เป็นเสียงในตัวหรือไม่ หากแอตทริบิวต์นี้ตั้งเป็น true แอปพลิเคชันที่สร้างจะได้รับการแจ้งให้ตรวจสอบแอตทริบิวต์ name ที่ระบุสำหรับเสียงนี้ในรายการเสียงในตัวของมันและสามารถแสดงชื่อหรือ UI ที่กำหนดเองตามต้องการ อ่าน/เขียน Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | แอตทริบิวต์นี้ระบุว่ามีการวนซ้ำเสียงจนกว่าจะมีเหตุการณ์เสียงต่อไปเกิดขึ้นในสไลด์โชว์ อ่าน/เขียน Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | กำหนดหรือรับโหมดเสียงสำหรับการเปลี่ยนสไลด์ อ่าน/เขียน [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | ระบุชื่อที่มนุษย์สามารถอ่านได้สำหรับเสียงของการเปลี่ยนสไลด์ คุณสมบัติ [`Sound`](./sound) ต้องถูกกำหนดเพื่อรับหรือกำหนดชื่อเสียง อ่าน/เขียน String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | ระบุความเร็วของการเปลี่ยนที่ใช้เมื่อเปลี่ยนจากสไลด์ปัจจุบันไปยังสไลด์ถัดไป อ่าน/เขียน [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | ประเภทของการเปลี่ยน อ่าน/เขียน [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | ค่าสไลด์โชว์การเปลี่ยน อ่านอย่างเดียว [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
+* เนมส페ซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

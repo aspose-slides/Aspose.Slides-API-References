@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar kommandoeffekttyp för kommandoeffektbeteende.
+description: Representerar kommandoeffekttyp för kommandoeffektens beteende.
 type: docs
-weight: 250
+weight: 270
 url: /sv/aspose.slides.animation/commandeffecttype/
 ---
-## CommandEffectType enum
+## CommandEffectType-enumeration
 
-Representerar kommandoeffekttyp för kommandoeffektbeteende.
+Representerar typ av kommandoeffekt för kommandoeffektens beteende.
 
 ```csharp
 public enum CommandEffectType : sbyte

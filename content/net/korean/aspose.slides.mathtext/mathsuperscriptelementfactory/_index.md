@@ -1,7 +1,7 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: IMathSuperscriptElement를 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: IMathSuperscriptElement을 생성할 수 있습니다
 type: docs
 weight: 9030
 url: /ko/aspose.slides.mathtext/mathsuperscriptelementfactory/

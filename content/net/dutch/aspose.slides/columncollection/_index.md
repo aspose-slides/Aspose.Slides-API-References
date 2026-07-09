@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling kolommen in een tabel voor.
+description: Stelt een collectie van kolommen in een tabel voor.
 type: docs
 weight: 2600
 url: /nl/aspose.slides/columncollection/
 ---
 ## ColumnCollection klasse
 
-Stelt een verzameling kolommen in een tabel voor.
+Stelt een collectie van kolommen in een tabel voor.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -16,22 +16,22 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | Retourneert het aantal kolommen in een verzameling. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/columncollection/item) { get; } | Retourneert de kolom op de opgegeven index. Alleen-lezen [`Column`](../column). |
-| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | Geeft het aantal kolommen in een collectie terug. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/columncollection/item) { get; } | Geeft de kolom terug op de opgegeven index. Alleen-lezen [`Column`](../column). |
+| [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Maakt een kopie van de opgegeven sjabloonrij en voegt deze onderaan een tabel in. |
-| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Kopieert alle elementen uit de verzameling naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereert. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Maakt een kopie van de opgegeven sjabloonkolom en voegt deze in op de opgegeven positie in een tabel. |
-| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Verwijdert een kolom op de opgegeven positie uit een tabel. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Maakt een kopie van de gespecificeerde sjabloonrij en voegt deze toe aan de onderkant van een tabel. |
+| [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de gespecificeerde array. |
+| [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Maakt een kopie van de gespecificeerde sjabloonkolom en voegt deze in op de gespecificeerde positie in een tabel. |
+| [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Verwijdert een kolom op de gespecificeerde positie uit een tabel. |
 
 ### Zie ook
 

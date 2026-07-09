@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้าง IMathNaryOperator
 type: docs
 weight: 8370

@@ -1,9 +1,9 @@
 ---
 title: IGraphicalObjectLock
-second_title: Aspose.Slides dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Określa, które operacje są wyłączone w nadrzędnym obiekcie GraphicalObjectEx.
 type: docs
-weight: 6050
+weight: 6070
 url: /pl/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock interfejs
@@ -20,10 +20,10 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 | --- | --- |
 | [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Umożliwia pobranie podstawowego interfejsu IBaseShapeLock. Tylko do odczytu [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Określa, czy kształt ma zachować proporcje przy zmianie rozmiaru. Odczyt/zapis Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Określa, czy wybór podkształtów tego obiektu jest zabroniony. Odczyt/zapis Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Określa, czy wybieranie podkształtów tego obiektu jest zabronione. Odczyt/zapis Boolean. |
 | [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Określa, czy dodawanie tego kształtu do grupy jest zabronione. Odczyt/zapis Boolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Określa, czy przenoszenie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Określa, czy wybór tego kształtu jest zabroniony. Odczyt/zapis Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Określa, czy przemieszczanie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Określa, czy wybieranie tego kształtu jest zabronione. Odczyt/zapis Boolean. |
 | [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Określa, czy zmiana rozmiaru tego kształtu jest zabroniona. Odczyt/zapis Boolean. |
 
 ### Zobacz także

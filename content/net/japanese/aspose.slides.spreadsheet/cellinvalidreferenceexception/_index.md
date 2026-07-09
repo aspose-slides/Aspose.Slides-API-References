@@ -1,9 +1,9 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes 用 .NET API リファレンス
 description: 無効なセル参照が検出されたときにスローされる例外です。
 type: docs
-weight: 10700
+weight: 10720
 url: /ja/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException クラス
@@ -19,9 +19,9 @@ public class CellInvalidReferenceException : PptxEditException
 | 名前 | 説明 |
 | --- | --- |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | 新しい [`CellInvalidReferenceException`](../cellinvalidreferenceexception) クラスのインスタンスを初期化します。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 指定されたエラーメッセージで、[`CellInvalidReferenceException`](../cellinvalidreferenceexception) クラスの新しいインスタンスを初期化します。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 指定されたエラーメッセージと、この例外の原因となる内部例外への参照を使用して、[`CellInvalidReferenceException`](../cellinvalidreferenceexception) クラスの新しいインスタンスを初期化します。 |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 指定されたエラーメッセージと無効なセル参照を使用して、[`CellCircularReferenceException`](../cellcircularreferenceexception) クラスの新しいインスタンスを初期化します。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | 指定されたエラーメッセージを使用して、新しい [`CellInvalidReferenceException`](../cellinvalidreferenceexception) クラスのインスタンスを初期化します。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | 指定されたエラーメッセージと、この例外の原因となる内部例外への参照を使用して、新しい [`CellInvalidReferenceException`](../cellinvalidreferenceexception) クラスのインスタンスを初期化します。 |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | 指定されたエラーメッセージと無効なセル参照を使用して、新しい [`CellCircularReferenceException`](../cellcircularreferenceexception) クラスのインスタンスを初期化します。 |
 
 ## プロパティ
 
@@ -29,7 +29,7 @@ public class CellInvalidReferenceException : PptxEditException
 | --- | --- |
 | [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | 無効なセル参照を取得します。 |
 
-### 関連項目
+### 参照
 
 * クラス [PptxEditException](../../aspose.slides/pptxeditexception)
 * 名前空間 [Aspose.Slides.Spreadsheet](../../aspose.slides.spreadsheet)

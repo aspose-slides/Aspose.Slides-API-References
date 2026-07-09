@@ -18,20 +18,20 @@ public class PptOptions : SaveOptions, IPptOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [PptOptions](pptoptions)() | 기본 생성자. |
+| [PptOptions](pptoptions)() | 기본 생성자입니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기-쓰기 String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기-쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 업데이트를 위한 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 루트 디렉터리 엔트리에 저장되는 객체 클래스 GUID (CLSID)를 나타냅니다. 문서 응용 프로그램의 COM 활성화에 사용할 수 있습니다. 기본값은 '64818D11-4F9B-11CF-86EA-00AA00B929E8'이며 이는 'Microsoft Powerpoint.Slide.8'에 해당합니다. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기-쓰기 Boolean. 기본값은 **false**입니다. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스가 계속될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기-쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 폰트를 찾을 수 없는 경우 사용되는 폰트를 가져오거나 설정합니다. 읽기/쓰기 String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | 루트 디렉터리 항목에 저장되는 객체 클래스 GUID(CLSID)를 나타냅니다. 문서 응용 프로그램의 COM 활성화에 사용할 수 있습니다. 기본 값은 '64818D11-4F9B-11CF-86EA-00AA00B929E8'이며, 이는 'Microsoft Powerpoint.Slide.8'에 해당합니다. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본 값은 **false**입니다. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스가 계속될지 중단될지를 결정하는 객체를 가져오거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### 참고
+### 참조
 
 * 클래스 [SaveOptions](../saveoptions)
 * 인터페이스 [IPptOptions](../ipptoptions)

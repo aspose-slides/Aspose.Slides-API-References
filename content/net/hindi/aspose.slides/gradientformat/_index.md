@@ -6,9 +6,9 @@ type: docs
 weight: 5000
 url: /hi/aspose.slides/gradientformat/
 ---
-## GradientFormat वर्ग
+## GradientFormat क्लास
 
-एक ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
+ग्रेडिएंट फ़ॉर्मेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class GradientFormat : PVIObject, IGradientFormat
@@ -18,15 +18,15 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | ग्रेडिएंट की शैली को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | ग्रेडिएंट के आकार को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IGradientStopCollection`](../igradientstopcollection). |
-| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | ग्रेडिएंट का कोण लौटाता या सेट करता है। पढ़ने/लिखने योग्य Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | ग्रेडिएंट के फ़्लिपिंग मोड को लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`TileFlip`](../tileflip). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
+| [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | ग्रेडिएंट की शैली को प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | ग्रेडिएंट का आकार प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स के संग्रह को प्राप्त करता है। केवल-पढ़ने योग्य [`IGradientStopCollection`](../igradientstopcollection). |
+| [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | ग्रेडिएंट का कोण प्राप्त करता है या सेट करता है। पढ़ना/लिखना Single. |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। पढ़ना/लिखना [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | ग्रेडिएंट के फ्लिपिंग मोड को प्राप्त करता है या सेट करता है। पढ़ना/लिखना [`TileFlip`](../tileflip). |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
@@ -35,7 +35,7 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 
 ### संबंधित देखें
 
-* वर्ग [PVIObject](../pviobject)
+* क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [IGradientFormat](../igradientformat)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

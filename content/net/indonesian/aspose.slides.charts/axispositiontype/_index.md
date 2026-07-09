@@ -1,9 +1,9 @@
 ---
 title: AxisPositionType
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Menentukan posisi sumbu.
 type: docs
-weight: 1190
+weight: 1210
 url: /id/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType enumerasi
@@ -19,8 +19,8 @@ public enum AxisPositionType
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
 | Bottom | `0` | Menentukan bahwa sumbu akan ditampilkan di bagian bawah area plot. |
-| Left | `1` | Menentukan bahwa sumbu akan ditampilkan di bagian kiri area plot. |
-| Right | `2` | Menentukan bahwa sumbu akan ditampilkan di bagian kanan area plot. |
+| Left | `1` | Menentukan bahwa sumbu akan ditampilkan di sebelah kiri area plot. |
+| Right | `2` | Menentukan bahwa sumbu akan ditampilkan di sebelah kanan area plot. |
 | Top | `3` | Menentukan bahwa sumbu akan ditampilkan di bagian atas area plot. |
 
 ### Lihat Juga

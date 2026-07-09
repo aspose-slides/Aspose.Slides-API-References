@@ -19,14 +19,14 @@ public interface IPropertyEffect : IBehavior
 | 이름 | 설명 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | 기본 IBehavior 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | 애니메이션 시작 전 위치에 대한 상대 오프셋 값을 지정합니다. 읽기/쓰기 String. |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | 애니메이션이 시작되기 전 위치에 대한 상대 오프셋 값을 지정합니다. 읽기/쓰기 String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | 애니메이션에 대한 보간 모드를 지정합니다. 읽기/쓰기 [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | 애니메이션의 시작 값을 지정합니다. 읽기/쓰기 String. |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | 애니메이션의 시작값을 지정합니다. 읽기/쓰기 String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | 애니메이션의 포인트를 지정합니다. 읽기/쓰기 [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | 애니메이션의 종료 값을 지정합니다. 읽기/쓰기 String. |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | 애니메이션의 종료값을 지정합니다. 읽기/쓰기 String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | 속성 값의 유형을 지정합니다. 읽기/쓰기 [`PropertyValueType`](../propertyvaluetype). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IBehavior](../ibehavior)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

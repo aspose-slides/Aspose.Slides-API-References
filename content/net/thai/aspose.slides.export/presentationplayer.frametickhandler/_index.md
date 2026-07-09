@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงตัวจัดการ frame tick ของเหตุการณ์ FrameTick./presentationplayer/frametick
+description: แสดงถึงตัวจัดการการทำเครื่องหมายเฟรมของเหตุการณ์ FrameTick./presentationplayer/frametick event.
 type: docs
 weight: 4400
 url: /th/aspose.slides.export/presentationplayer.frametickhandler/
 ---
-## PresentationPlayer.FrameTickHandler ตัวแทน
+## PresentationPlayer.FrameTickHandler delegate
 
-เป็นตัวแทนการจัดการ frame tick ของเหตุการณ์ [`FrameTick`](../presentationplayer/frametick).
+แสดงถึงตัวจัดการการทำเครื่องหมายเฟรมของเหตุการณ์ [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| sender | PresentationPlayer | ผู้ส่งของเหตุการณ์ frame tick. |
-| args | FrameTickEventArgs | อาร์กิวเมนต์ของ frame tick. |
+| sender | PresentationPlayer | ผู้ส่งของเหตุการณ์การทำเครื่องหมายเฟรม. |
+| args | FrameTickEventArgs | อาร์กิวเมนต์ของการทำเครื่องหมายเฟรม. |
 
 ### ดูเพิ่มเติม
 

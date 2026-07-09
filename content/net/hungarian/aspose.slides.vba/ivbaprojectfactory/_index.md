@@ -1,9 +1,9 @@
 ---
 title: IVbaProjectFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API hivatkozás
 description: Lehetővé teszi VBA projekt létrehozását COM interfészen keresztül
 type: docs
-weight: 11540
+weight: 11560
 url: /hu/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory interfész
@@ -18,8 +18,8 @@ public interface IVbaProjectFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Új VBA projekt létrehozása. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | VBA projekt beolvasása OLE konténerből. |
+| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Új VBA projektet hoz létre. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | VBA projektet olvas be OLE konténerből. |
 
 ### Lásd még
 

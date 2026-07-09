@@ -1,14 +1,14 @@
 ---
 title: IPdfOptions
-second_title: Aspose.Slides for .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションが PDF 形式で保存される方法を制御するオプションを提供します。
 type: docs
-weight: 3980
+weight: 4000
 url: /ja/aspose.slides.export/ipdfoptions/
 ---
 ## IPdfOptions インターフェイス
 
-プレゼンテーションが PDF 形式で保存される方法を制御するオプションを提供します。
+Provides options that control how a presentation is saved in Pdf format.
 
 ```csharp
 public interface IPdfOptions : ISaveOptions
@@ -18,26 +18,26 @@ public interface IPdfOptions : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | ユーザーがアクセスしてドキュメントを開く際に付与すべきアクセス許可を指定するフラグのセットを含みます。[`PdfAccessPermissions`](../pdfaccesspermissions) を参照してください。 |
-| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | ユーザー定義のフォント ファミリ名の配列を取得または設定します。Aspose.Slides が共通とみなすフォント ファミリです。読み書き可能な String[]。 |
-| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | `true` の場合、指定された透過色を画像に適用します。 |
-| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。[`ISaveOptions`](../isaveoptions) は読み取り専用です。 |
-| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 各画像に対してデフォルトではなく最も効果的な圧縮を自動的に選択するかどうかを示します。Boolean.true に設定すると、プレゼンテーション内のすべての画像に対して最適な圧縮アルゴリズムが選択され、結果として PDF ドキュメントのサイズが小さくなります。最適な画像圧縮率の選択は計算コストが高く、追加の RAM を使用します。このオプションはデフォルトで Boolean.false です。 |
-| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 生成された PDF ドキュメントの期待される準拠レベルです。[`PdfCompliance`](../pdfcompliance) は読み書き可能です。 |
-| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒い枠を描画する場合は true に設定します。Boolean は読み書き可能です。 |
-| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | フォントのすべての文字を埋め込むか、使用されたサブセットのみを埋め込むかを決定します。Boolean は読み書き可能です。 |
-| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | ASCII 文字 32-127 用に True Type フォントを埋め込む場合は true に設定します。文字コード 127 を超えるフォントは常に埋め込まれます。Boolean は読み書き可能です。 |
+| [AccessPermissions](../../aspose.slides.export/ipdfoptions/accesspermissions) { get; set; } | ドキュメントがユーザーアクセスで開かれたときに付与すべきアクセス許可を指定するフラグのセットを含みます。[`PdfAccessPermissions`](../pdfaccesspermissions) を参照してください。 |
+| [AdditionalCommonFontFamilies](../../aspose.slides.export/ipdfoptions/additionalcommonfontfamilies) { get; set; } | Aspose.Slides が共通と見なすべきフォントファミリのユーザー定義名の配列を取得または設定します。読み書き可能 String[]. |
+| [ApplyImageTransparent](../../aspose.slides.export/ipdfoptions/applyimagetransparent) { get; set; } | `true` の場合、画像に指定された透過色を適用します。 |
+| [AsISaveOptions](../../aspose.slides.export/ipdfoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [BestImagesCompressionRatio](../../aspose.slides.export/ipdfoptions/bestimagescompressionratio) { get; set; } | 最も効果的な圧縮（デフォルトではない）を各画像に対して自動的に選択すべきかどうかを示します。Boolean.true に設定すると、プレゼンテーション内の各画像に対して最適な圧縮アルゴリズムが選択され、結果の PDF ドキュメントのサイズが小さくなります。最適な画像圧縮率の選択は計算コストが高く、追加の RAM が必要であり、このオプションはデフォルトで Boolean.false です。 |
+| [Compliance](../../aspose.slides.export/ipdfoptions/compliance) { get; set; } | 生成される PDF ドキュメントの目的とする準拠レベルを指定します。読み書き可能 [`PdfCompliance`](../pdfcompliance)。 |
+| [DrawSlidesFrame](../../aspose.slides.export/ipdfoptions/drawslidesframe) { get; set; } | 各スライドの周囲に黒いフレームを描画するかどうかを指定します。読み書き可能 Boolean。 |
+| [EmbedFullFonts](../../aspose.slides.export/ipdfoptions/embedfullfonts) { get; set; } | フォントのすべての文字を埋め込むか、使用したサブセットのみを埋め込むかを決定します。読み書き可能 Boolean。 |
+| [EmbedTrueTypeFontsForASCII](../../aspose.slides.export/ipdfoptions/embedtruetypefontsforascii) { get; set; } | `true` の場合、ASCII 文字 32-127 用の TrueType フォントを埋め込みます。文字コード 127 より大きいフォントは常に埋め込まれます。読み書き可能 Boolean。 |
 | [ImageTransparentColor](../../aspose.slides.export/ipdfoptions/imagetransparentcolor) { get; set; } | 画像の透過色を取得または設定します。 |
-| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | プレゼンテーション内のすべての OLE データを、結果の PDF に埋め込みファイルとして変換する場合は true に設定します。Boolean は読み書き可能です。 |
-| [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | エクスポートされたドキュメント内のインク オブジェクトの外観を制御するオプションを提供します。[`IInkOptions`](../iinkoptions) は読み取り専用です。 |
-| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。Byte は読み書き可能です。 |
-| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | PDF ドキュメントを保護するためのユーザー パスワードを設定します。String は読み書き可能です。 |
-| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | フォントが太字スタイルをサポートしていない場合に、テキストをビットマップとしてラスタライズし PDF に保存するかどうかを示します。この方法は特定のフォントで結果の PDF のテキスト品質を向上させる可能性があります。Boolean は読み書き可能です。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | プレゼンテーションで使用されているすべてのメタファイルを PNG 画像に変換する場合は true に設定します。Boolean は読み書き可能です。 |
+| [IncludeOleData](../../aspose.slides.export/ipdfoptions/includeoledata) { get; set; } | `true` の場合、プレゼンテーション内のすべての OLE データを結果の PDF に埋め込みファイルとして変換します。読み書き可能 Boolean。 |
+| [InkOptions](../../aspose.slides.export/ipdfoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ipdfoptions/jpegquality) { get; set; } | PDF ドキュメント内の JPEG 画像の品質を決定する値を取得または設定します。読み書き可能 Byte。 |
+| [Password](../../aspose.slides.export/ipdfoptions/password) { get; set; } | PDF ドキュメントを保護するためのユーザーパスワードを設定します。読み書き可能 String。 |
+| [RasterizeUnsupportedFontStyles](../../aspose.slides.export/ipdfoptions/rasterizeunsupportedfontstyles) { get; set; } | フォントが太字スタイルをサポートしない場合に、テキストをビットマップとしてラスター化し PDF に保存するかどうかを示します。このアプローチは特定のフォントの場合、結果の PDF のテキスト品質を向上させることができます。読み書き可能 Boolean。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ipdfoptions/savemetafilesaspng) { get; set; } | `true` の場合、プレゼンテーションで使用されているすべてのメタファイルを PNG 画像に変換します。読み書き可能 Boolean。 |
 | [ShowHiddenSlides](../../aspose.slides.export/ipdfoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/ipdfoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページに配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 | [SufficientResolution](../../aspose.slides.export/ipdfoptions/sufficientresolution) { get; set; } | PDF ドキュメント内の画像の解像度を決定する値を取得または設定します。 |
-| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | ドキュメント内のすべてのテキスト コンテンツに使用する圧縮タイプを指定します。[`PdfTextCompression`](../pdftextcompression) は読み書き可能です。 |
+| [TextCompression](../../aspose.slides.export/ipdfoptions/textcompression) { get; set; } | 文書内のすべてのテキスト コンテンツに使用される圧縮タイプを指定します。読み書き可能 [`PdfTextCompression`](../pdftextcompression)。 |
 
 ### 参照
 

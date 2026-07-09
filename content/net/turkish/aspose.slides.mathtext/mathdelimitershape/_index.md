@@ -1,12 +1,12 @@
 ---
 title: MathDelimiterShape
 second_title: Aspose.Sildes için .NET API Referansı
-description: Operandların içeriğine göre sınırlayıcıların konumu ve boyutu
+description: Sınırlayıcıların konumu ve boyutu, operandların içeriğine göre
 type: docs
-weight: 8650
+weight: 8670
 url: /tr/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape enumerasyonu
+## MathDelimiterShape sayımı
 
 Sınırlayıcıların konumu ve boyutu, operandların içeriğine göre
 
@@ -19,9 +19,9 @@ public enum MathDelimiterShape
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Centered | `0` | Matematik eksenine ortalanmış |
-| Match | `1` | İçeriğe eşle |
+| Match | `1` | İçeriğe göre eşleşir |
 
-### İlgili
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

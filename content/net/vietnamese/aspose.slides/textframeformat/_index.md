@@ -1,6 +1,6 @@
 ---
 title: TextFrameFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Chứa các thuộc tính formatTextFrameFormatting của TextFrames.
 type: docs
 weight: 10960
@@ -8,45 +8,45 @@ url: /vi/aspose.slides/textframeformat/
 ---
 ## TextFrameFormat lớp
 
-Chứa các thuộc tính formatTextFrameFormatting của TextFrame.
+Contains the TextFrame's formatTextFrameFormatting properties.
 
 ```csharp
 public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [TextFrameFormat](textframeformat)() | Khởi tạo một thể hiện mới của lớp [`TextFrameFormat`](../textframeformat). |
+| [TextFrameFormat](textframeformat)() | Initializes a new instance of [`TextFrameFormat`](../textframeformat) class. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Trả về hoặc đặt văn bản neo dọc trong TextFrame. đọc/ghi [`TextAnchorType`](../textanchortype). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Trả về hoặc đặt chế độ autofit của văn bản. đọc/ghi [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | Nếu NullableBool.True thì văn bản nên được căn giữa theo chiều ngang trong hộp. đọc/ghi [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | Trả về hoặc đặt số cột trong vùng văn bản. Giá trị này phải là số dương. Nếu không, giá trị sẽ được đặt thành 0. Giá trị 0 có nghĩa là không xác định. đọc/ghi Int32. |
-| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Trả về hoặc đặt khoảng cách giữa các cột văn bản trong vùng văn bản (đơn vị điểm). Điều này chỉ áp dụng khi có nhiều hơn 1 cột. Giá trị này phải là số dương. Nếu không, giá trị sẽ được đặt thành 0. đọc/ghi Double. |
-| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | Lấy hoặc đặt việc giữ văn bản phẳng ngay cả khi đã áp dụng hiệu ứng Xoay 3-D. đọc/ghi Boolean. |
-| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | Trả về hoặc đặt lề dưới (điểm) trong TextFrame. đọc/ghi Double. |
-| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái (điểm) trong TextFrame. đọc/ghi Double. |
-| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | Trả về hoặc đặt lề phải (điểm) trong TextFrame. đọc/ghi Double. |
-| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | Trả về hoặc đặt lề trên (điểm) trong TextFrame. đọc/ghi Double. |
-| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Xác định góc xoay tùy chỉnh được áp dụng cho văn bản trong khung bao. Nếu không được chỉ định, sẽ sử dụng góc xoay của hình dạng đi kèm. Nếu được chỉ định, thì nó sẽ được áp dụng độc lập với hình dạng. Có nghĩa là hình dạng có thể có góc xoay riêng cộng với góc xoay của văn bản. Giá trị xoay trực quan của văn bản được tổng hợp từ thuộc tính này và loại dọc đã định trước trong thuộc tính TextVerticalType. đọc/ghi Single. |
-| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Xác định hướng văn bản. Giá trị xoay trực quan của văn bản được tổng hợp từ thuộc tính này và góc tùy chỉnh trong thuộc tính RotationAngle. đọc/ghi [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Trả về đối tượng ThreeDFormat đại diện cho các thuộc tính hiệu ứng 3D cho văn bản. chỉ đọc [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Lấy hoặc đặt hình dạng gói văn bản. đọc/ghi [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** nếu văn bản được gói tại các lề của TextFrame. đọc/ghi [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | Trả về hoặc đặt văn bản neo dọc trong một TextFrame. Đọc/ghi [`TextAnchorType`](../textanchortype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
+| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | Trả về hoặc đặt chế độ autofit của văn bản. Đọc/ghi [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | Nếu NullableBool.True thì văn bản sẽ được căn giữa trong hộp theo chiều ngang. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | Trả về hoặc đặt số cột trong khu vực văn bản. Giá trị này phải là số dương. Nếu không, giá trị sẽ được đặt thành 0. Giá trị 0 có nghĩa là giá trị không xác định. Đọc/ghi Int32. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | Trả về hoặc đặt khoảng cách giữa các cột văn bản trong khu vực văn bản (đơn vị điểm). Điều này chỉ áp dụng khi có hơn 1 cột. Giá trị này phải là số dương. Nếu không, giá trị sẽ được đặt thành 0. Đọc/ghi Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | Lấy hoặc đặt để giữ văn bản phẳng ngay cả khi hiệu ứng Xoay 3-D đã được áp dụng. Đọc/ghi Boolean. |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | Trả về hoặc đặt lề dưới (điểm) trong một TextFrame. Đọc/ghi Double. |
+| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái (điểm) trong một TextFrame. Đọc/ghi Double. |
+| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | Trả về hoặc đặt lề phải (điểm) trong một TextFrame. Đọc/ghi Double. |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | Trả về hoặc đặt lề trên (điểm) trong một TextFrame. Đọc/ghi Double. |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | Chỉ định góc xoay tùy chỉnh được áp dụng cho văn bản bên trong hộp giới hạn. Nếu không được chỉ định, sẽ sử dụng góc xoay của hình dạng đi kèm. Nếu được chỉ định, thì nó sẽ được áp dụng độc lập với hình dạng. Có nghĩa là hình dạng có thể có góc xoay được áp dụng cùng lúc với góc xoay của văn bản. Giá trị xoay trực quan của văn bản được tổng hợp từ thuộc tính này và loại dọc được định trước trong thuộc tính TextVerticalType. Đọc/ghi Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | Xác định hướng của văn bản. Giá trị xoay trực quan của văn bản được tổng hợp từ thuộc tính này và góc tùy chỉnh trong thuộc tính RotationAngle. Đọc/ghi [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | Trả về đối tượng ThreeDFormat đại diện cho các thuộc tính hiệu ứng 3D cho một văn bản. Chỉ đọc [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | Lấy hoặc đặt hình dạng bao quanh văn bản. Đọc/ghi [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** nếu văn bản được bọc ở các lề của TextFrame. Đọc/ghi [`NullableBool`](../nullablebool). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng đã chỉ định. |
-| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Lấy dữ liệu định dạng khung văn bản hiệu quả với kiểu kế thừa đã được áp dụng. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | So sánh với đối tượng được chỉ định. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | Lấy dữ liệu định dạng khung văn bản hiệu quả với kế thừa được áp dụng. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Trả về mã băm. |
 
 ### Xem thêm

@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
-second_title: Aspose.Sildes cho .NET API Reference
-description: Hiệu ứng chuyển tiếp slide dạng Fly-through.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Hiệu ứng chuyển tiếp slide kiểu bay qua.
 type: docs
 weight: 10090
 url: /vi/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition giao diện
 
-Hiệu ứng chuyển tiếp slide dạng Fly-through.
+Hiệu ứng chuyển tiếp slide kiểu bay qua.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -19,8 +19,8 @@ public interface IFlyThroughTransition : ITransitionValueBase
 | Tên | Mô tả |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Xác định rằng chuyển động của các slide trình chiếu trong quá trình chuyển tiếp bao gồm một độ nẩy. Đọc/ghi Boolean. |
+| [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Xác định rằng chuyển động của các slide trình chiếu trong quá trình chuyển đổi bao gồm một hiệu ứng nẩy. Đọc/ghi Boolean. |
 
 ### Xem thêm
 

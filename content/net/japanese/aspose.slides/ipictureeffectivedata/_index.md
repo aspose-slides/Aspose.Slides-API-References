@@ -1,9 +1,9 @@
 ---
 title: IPictureEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効な画像プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6620
+weight: 6640
 url: /ja/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData インターフェイス
@@ -16,7 +16,7 @@ public interface IPictureEffectiveData
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | 埋め込み画像を返します。読み取り専用 [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | 画像変換エフェクトのコレクションを返します。読み取り専用 [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |

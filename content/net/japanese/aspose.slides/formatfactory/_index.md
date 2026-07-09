@@ -1,24 +1,24 @@
 ---
 title: FormatFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: COM インターフェイスを介してフォーマットを作成できます。
+description: COM インターフェイスを使用してフォーマットを作成できます。
 type: docs
-weight: 4930
+weight: 4950
 url: /ja/aspose.slides/formatfactory/
 ---
 ## FormatFactory クラス
 
-COM インターフェイスを介してフォーマットを作成できます。
+COM インターフェイスを通じてフォーマットを作成できます。
 
 ```csharp
 public class FormatFactory : IFormatFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [FormatFactory](formatfactory)() | デフォルトコンストラクタです。 |
+| [FormatFactory](formatfactory)() | 既定のコンストラクターです。 |
 
 ## プロパティ
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een verzameling van VBA-projectmodules voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een verzameling van VBA Project-modules voor.
 type: docs
 weight: 11540
 url: /nl/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection interface
 
-Stelt een verzameling van VBA-projectmodules voor.
+Stelt een verzameling van VBA Project-modules voor.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -24,7 +24,7 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Voegt een nieuwe lege module toe aan het VBA-project. |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | Voegt een nieuwe lege module toe aan het VBA Project. |
 | [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | Verwijdert het eerste voorkomen van een specifiek object uit de collectie. |
 
 ### Zie ook

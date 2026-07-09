@@ -1,9 +1,9 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Referencja
 description: Reprezentuje kolekcję odwołań projektu VBA.
 type: docs
-weight: 11650
+weight: 11670
 url: /pl/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection klasa
@@ -18,9 +18,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Zwraca liczbę elementów faktycznie znajdujących się w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Zwraca element o podanym indeksie. |
+| [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Zwraca element o określonym indeksie. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
@@ -29,7 +29,7 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | Dodaje nowe odwołanie do kolekcji odwołań |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | Zwraca enumerator, który iteruje przez kolekcję. |
 
 ### Zobacz także
 

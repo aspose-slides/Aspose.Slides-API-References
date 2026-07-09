@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
 second_title: Aspose.Sildes の .NET API リファレンス
-description: フィルターのリベールタイプを表します。
+description: フィルターのリビール タイプを表します。
 type: docs
-weight: 360
+weight: 380
 url: /ja/aspose.slides.animation/filtereffectrevealtype/
 ---
-## FilterEffectRevealType 列挙体
+## FilterEffectRevealType 列挙型
 
-フィルターのリベールタイプを表します。
+フィルターのリビール タイプを表します。
 
 ```csharp
 public enum FilterEffectRevealType

@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đối tượng bất biến đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một lớp fill bổ sung cho một đối tượng và pha trộn hai lớp fill lại với nhau.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định một lớp phủ bổ sung cho một đối tượng và pha trộn hai lớp phủ lại với nhau.
 type: docs
 weight: 3310
 url: /vi/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## Giao diện IFillOverlayEffectiveData
 
-Đối tượng bất biến đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một lớp fill bổ sung cho một đối tượng và pha trộn hai lớp fill lại với nhau.
+Đối tượng bất biến đại diện cho hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định một lớp phủ bổ sung cho một đối tượng và pha trộn hai lớp phủ lại với nhau.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -16,13 +16,13 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện cơ bản IEffectEffectiveData. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Chỉ đọc [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Định dạng Fill. Chỉ đọc [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy dián lévő alakzatok csoportját képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy dián lévő alakzatcsoportot képvisel.
 type: docs
-weight: 6060
+weight: 6080
 url: /hu/aspose.slides/igroupshape/
 ---
 ## IGroupShape interfész
 
-Egy csoport alakzatot képvisel egy dián.
+Egy dián lévő alakzatcsoportot képvisel.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,7 +18,7 @@ public interface IGroupShape : IShape
 
 | Név | Leírás |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Lehetővé teszi az alap IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | Lehetővé teszi a bázis IShape interfész lekérését. Csak olvasható [`IShape`](../ishape). |
 | [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | Visszaadja az alakzat zárolásait. Csak olvasható [`IGroupShapeLock`](../igroupshapelock). |
 | [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | Visszaadja az alakzat zárolásait. Csak olvasható [`IGroupShapeLock`](../igroupshapelock). |
 | [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | Visszaadja a csoporton belüli alakzatok gyűjteményét. Csak olvasható [`IShapeCollection`](../ishapecollection). |

@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Aspose.Slides dla .NET API Reference
-description: Reprezentuje fantomowy obiekt matematyczny ltmphantgt, który wpływa na układ swojego elementu potomnego, niekoniecznie go wyświetlając. Fantom może ukrywać swoją podstawową wyrażenie, zachowując jednocześnie szerokość, wysokość lub głębokość, aby wyrównać formuły lub zarezerwować miejsce. Widoczność i zachowanie geometryczne są kontrolowane przez właściwości takie jak Show, ZeroWid, ZeroAsc, ZeroDesc i Transp.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Reprezentuje fantomowy obiekt matematyczny ltmphantgt, który wpływa na układ swojego elementu potomnego, niekoniecznie go wyświetlając. Fantom może ukrywać wyrażenie bazowe, zachowując jednocześnie swoją szerokość, wysokość lub głębokość, aby wyrównać formuły lub zarezerwować miejsce. Widoczność i zachowanie geometrii są kontrolowane przez właściwości takie jak Show ZeroWid ZeroAsc ZeroDesc i Transp.
 type: docs
-weight: 8390
+weight: 8410
 url: /pl/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interfejs
 
-Reprezentuje fantomowy obiekt matematyczny (<m:phant>), który wpływa na układ swojego elementu podrzędnego, niekoniecznie go wyświetlając. Fantom może ukrywać swoją podstawową wyrażenie, zachowując przy tym jej szerokość, wysokość lub głębokość, aby wyrównać formuły lub zarezerwować miejsce. Widoczność i zachowanie geometryczne są kontrolowane przez właściwości takie jak Show, ZeroWid, ZeroAsc, ZeroDesc i Transp.
+Reprezentuje fantomowy obiekt matematyczny (&lt;m:phant&gt;), który wpływa na układ swojego elementu potomnego, niekoniecznie go wyświetlając. Fantom może ukrywać wyrażenie bazowe, zachowując jednocześnie swoją szerokość, wysokość lub głębokość, aby wyrównać wzory lub zarezerwować miejsce. Widoczność i zachowanie geometrii są kontrolowane przez właściwości takie jak Show, ZeroWid, ZeroAsc, ZeroDesc i Transp.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -22,7 +22,7 @@ public interface IMathPhantom : IMathElement
 | [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Pobiera lub ustawia wartość określającą, czy element bazowy jest wyświetlany. |
 | [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Pobiera lub ustawia wartość określającą, czy fantom jest przezroczysty dla reguł odstępów opartych na klasach. |
 | [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Pobiera lub ustawia wartość określającą, czy wzniesienie (wysokość powyżej linii bazowej) elementu bazowego powinno być traktowane jako zero. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Pobiera lub ustawia wartość określającą, czy zniżka (głębokość poniżej linii bazowej) elementu bazowego powinna być traktowana jako zero. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Pobiera lub ustawia wartość określającą, czy opad (głębokość poniżej linii bazowej) elementu bazowego powinno być traktowane jako zero. |
 | [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Pobiera lub ustawia wartość określającą, czy szerokość elementu bazowego powinna być traktowana jako zero. |
 
 ### Przykłady

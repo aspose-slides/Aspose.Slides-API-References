@@ -1,14 +1,14 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Video 개체의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Video 객체의 컬렉션을 나타냅니다.
 type: docs
 weight: 11710
 url: /ko/aspose.slides/videocollection/
 ---
 ## VideoCollection 클래스
 
-Video 개체의 컬렉션을 나타냅니다.
+비디오 객체의 컬렉션을 나타냅니다.
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,8 +18,8 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | 컬렉션에 있는 비디오 파일 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | 컬렉션에 포함된 비디오 파일 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/videocollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IVideo`](../ivideo). |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -27,13 +27,13 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 바이트 배열에서 비디오를 생성하고 프레젠테이션에 추가합니다. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 바이트 배열에서 프레젠테이션에 비디오를 생성하고 추가합니다. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 다른 프레젠테이션에서 비디오 파일의 복사본을 추가합니다. |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 스트림에서 비디오를 생성하고 프레젠테이션에 추가합니다. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 지정된 인덱스부터 지정된 배열에 비디오를 복사합니다. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 스트림에서 프레젠테이션에 비디오를 생성하고 추가합니다. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 지정된 인덱스부터 시작하여 지정된 배열에 비디오를 복사합니다. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 
-### 또 보기
+### 참고
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Presentation](../presentation)

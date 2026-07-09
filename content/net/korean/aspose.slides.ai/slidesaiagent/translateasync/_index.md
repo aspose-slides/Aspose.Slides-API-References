@@ -1,34 +1,34 @@
 ---
 title: TranslateAsync
-second_title: Aspose.Sildes for .NET API 참조
-description: AI를 사용하여 프레젠테이션을 지정된 언어로 변환합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: AI를 사용하여 프레젠테이션을 지정된 언어로 번역합니다.
 type: docs
 weight: 50
 url: /ko/aspose.slides.ai/slidesaiagent/translateasync/
 ---
 ## SlidesAIAgent.TranslateAsync 메서드
 
-AI를 사용하여 프레젠테이션을 지정된 언어로 변환합니다.
+AI를 사용하여 프레젠테이션을 지정된 언어로 번역합니다.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| Parameter | Type | Description |
 | --- | --- | --- |
 | presentation | IPresentation | 대상 프레젠테이션 |
 | language | String | 대상 언어 |
 
 ### 예외
 
-| 예외 | 조건 |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | 프레젠테이션 인스턴스가 제공되지 않음 |
-| ArgumentException | 언어 값은 null이거나 비어 있을 수 없습니다 |
+| ArgumentNullException | Presentation 인스턴스가 제공되지 않음 |
+| ArgumentException | Language 값이 null 또는 비어 있을 수 없음 |
 
 ### 비고
 
-아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)을 사용합니다. 이 객체는 매개변수가 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 고유의 LLM에 연결됩니다. 다른 AI 제공자를 사용하거나 자체 LLM을 제공하거나 연결을 사용자 정의하려면(예: 자체 `HttpClient` 제공), [`IAIWebClient`](../../iaiwebclient) 구현을 [`SlidesAIAgent`](../slidesaiagent) 생성자에 전달하십시오. 사용 가능한 구현은 다음과 같습니다:
+아래 예제는 기본 [`AsposeAIWebClient`](../../asposeaiwebclient)을 사용합니다. 이 객체는 매개변수 없는 [`SlidesAIAgent`](../slidesaiagent) 생성자로 생성되며 Aspose 자체 LLM에 연결됩니다. 다른 AI 공급자를 사용하려면 자체 LLM을 제공하거나 연결을 사용자 지정하세요(예: 자체 `HttpClient` 제공). [`SlidesAIAgent`](../slidesaiagent) 생성자에 [`IAIWebClient`](../../iaiwebclient) 구현체를 전달합니다. 사용 가능한 구현체는 다음과 같습니다:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)

@@ -3,12 +3,12 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式配列を作成できます
 type: docs
-weight: 8090
+weight: 8110
 url: /ja/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory インターフェイス
 
-数式配列を作成できます
+数式配列を作成できるようにします
 
 ```csharp
 public interface IMathArrayFactory

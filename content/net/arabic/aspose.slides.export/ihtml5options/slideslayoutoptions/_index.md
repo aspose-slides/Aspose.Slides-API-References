@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحصل أو يضبط الوضع الذي تُوضَع فيه الشرائح على الصفحة عند تصدير عرض تقديمي ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+second_title: مرجع API لـ Aspose.Sildes for .NET
+description: يحصل أو يضبط الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
 url: /ar/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions خاصية
 
-يحصل أو يضبط الوضع الذي تُوضَع فيه الشرائح على الصفحة عند تصدير العرض التقديمي [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+تحصل أو تضبط الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

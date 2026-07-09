@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Alpha Floor-effekt. Alpha-opacitetsvärden mindre än 100 ändras till noll. Med andra ord blir allt delvis transparent helt transparent.
+description: Representerar en Alpha Floor-effekt. Alpha opacitetsvärden som är mindre än 100 ändras till noll. Med andra ord blir allt delvis genomskinligt helt genomskinligt.
 type: docs
-weight: 2840
+weight: 2860
 url: /sv/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor klass
 
-Representerar en Alpha Floor-effekt. Alpha (opacitet)-värden mindre än 100 % ändras till noll. Med andra ord blir allt delvis transparent helt transparent.
+Representerar en Alpha Floor-effekt. Alpha-värden (opacitet) som är mindre än 100 % ändras till noll. Med andra ord blir allt delvis genomskinligt helt genomskinligt.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,7 +18,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metoder
 
@@ -28,7 +28,7 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 | [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Hämtar effektiv Alpha Floor-effektsdata med arv tillämpat. |
 | override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Fungerar som en hash-funktion för en viss typ. |
 
-### Se även
+### Se också
 
 * klass [ImageTransformOperation](../imagetransformoperation)
 * gränssnitt [IAlphaFloor](../ialphafloor)

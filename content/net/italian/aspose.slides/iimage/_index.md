@@ -1,9 +1,9 @@
 ---
 title: IImage
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un'immagine raster o vettoriale.
 type: docs
-weight: 6130
+weight: 6150
 url: /it/aspose.slides/iimage/
 ---
 ## IImage interfaccia
@@ -16,25 +16,25 @@ public interface IImage : IDisposable
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Recupera l'altezza dell'immagine in pixel. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Recupera la dimensione dell'immagine. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Recupera la larghezza dell'immagine in pixel. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Restituisce l'altezza dell'immagine in pixel. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Restituisce la dimensione dell'immagine. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Restituisce la larghezza dell'immagine in pixel. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [Save](../../aspose.slides/iimage/save#save_2)(string) | Salva l'immagine in un file. |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Salva l'immagine in un Stream nel formato specificato. |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Salva l'immagine in un file nel formato specificato. |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Salva l'immagine in un Stream nel formato specificato e con la qualità indicata. |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Salva l'immagine in un file nel formato specificato e con la qualità indicata. |
+| [Save](../../aspose.slides/iimage/save#save_2)(string) | Salva l'immagine su un file. |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | Salva l'immagine su uno stream nel formato specificato. |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | Salva l'immagine su un file nel formato specificato. |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Salva l'immagine su uno stream nel formato e nella qualità specificati. |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Salva l'immagine su un file nel formato e nella qualità specificati. |
 
 ### Osservazioni
 
-Questa interfaccia fornisce un'astrazione comune per la gestione sia di immagini raster che vettoriali. Le implementazioni possono variare a seconda del tipo di immagine sottostante.
+Questa interfaccia fornisce un'astrazione comune per la gestione sia delle immagini raster che delle immagini vettoriali. Le implementazioni possono variare a seconda del tipo di immagine sottostante.
 
 ### Vedi anche
 

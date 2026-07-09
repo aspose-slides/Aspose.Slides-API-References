@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes برای .NET مرجع API
-description: دستور چت را با استفاده از نمونه HttpClient مدیریت شده به‌صورت خارجی به مدل هوش مصنوعی ارسال می‌کند و پیام پاسخ را برای دستور داده‌شده برمی‌گرداند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک دستور چت را به مدل هوش مصنوعی با استفاده از یک نمونه HttpClient که به‌صورت خارجی مدیریت می‌شود، ارسال می‌کند و پیام پاسخ را برای دستور داده شده برمی‌گرداند.
 type: docs
 weight: 20
 url: /fa/aspose.slides.ai/openaicompatiblewebclient/callchatasync/
 ---
 ## OpenAICompatibleWebClient.CallChatAsync متد
 
-یک دستور چت را با استفاده از نمونه `HttpClient` مدیریت شده به‌صورت خارجی به مدل هوش مصنوعی ارسال می‌کند و پیام پاسخ را برای دستور داده‌شده برمی‌گرداند.
+یک دستور چت را به مدل هوش مصنوعی با استفاده از یک نمونه `HttpClient` که به‌صورت خارجی مدیریت می‌شود، ارسال می‌کند و پیام پاسخ را برای دستور داده شده بازمی‌گرداند.
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -16,17 +16,17 @@ public Task<string> CallChatAsync(string instruction)
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| instruction | String | دستور یا پیام برای پردازش توسط مدل هوش مصنوعی. |
+| instruction | String | دستور یا پیغامی که باید توسط مدل هوش مصنوعی پردازش شود. |
 
-### مقدار بازگشت
+### مقدار بازگشتی
 
-پیامی که توسط مدل هوش مصنوعی در پاسخ به دستور داده‌شده تولید می‌شود.
+پیامی که توسط مدل هوش مصنوعی در پاسخ به دستور داده شده تولید می‌شود.
 
 ### استثناها
 
 | استثنا | شرط |
 | --- | --- |
-| ArgumentException | دستور چت سازگار با OpenAI نمی‌تواند null یا خالی باشد |
+| ArgumentException | دستور چت سازگار با OpenAI نمی‌تواند خالی یا null باشد |
 
 ### موارد مرتبط
 

@@ -1,14 +1,14 @@
 ---
 title: IFillOverlayEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Módosíthatatlan objektum, amely a Fill Overlay effektust képviseli. A Fill Overlay használható egy további kitöltés megadására egy objektumnál, és a két kitöltés összekeverésére.
+second_title: Aspose.Sildes .NET API referenciája
+description: Immutable objektum, amely egy Fill Overlay hatást képvisel. A fill overlay használható egy további kitöltés megadására egy objektumban, és a két kitöltés összekeverésére.
 type: docs
-weight: 3290
+weight: 3310
 url: /hu/aspose.slides.effects/ifilloverlayeffectivedata/
 ---
 ## IFillOverlayEffectiveData interfész
 
-Módosíthatatlan objektum, amely a Fill Overlay effektust képviseli. A Fill Overlay használható egy további kitöltés megadására egy objektumnál, és a két kitöltés összekeverésére.
+Immutable objektum, amely egy Fill Overlay effektet képvisel. A fill overlay használható egy további kitöltés megadására egy objektumhoz, és a két kitöltés összekeverésére.
 
 ```csharp
 public interface IFillOverlayEffectiveData : IEffectEffectiveData
@@ -20,9 +20,9 @@ public interface IFillOverlayEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ifilloverlayeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Blend](../../aspose.slides.effects/ifilloverlayeffectivedata/blend) { get; } | FillBlendMode. Csak olvasható [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Fill formátum. Csak olvasható [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlayeffectivedata/fillformat) { get; } | Kitöltés formátuma. Csak olvasható [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata). |
 
-### Lásd még
+### További hivatkozások
 
 * interfész [IEffectEffectiveData](../ieffecteffectivedata)
 * névtér [Aspose.Slides.Effects](../../aspose.slides.effects)

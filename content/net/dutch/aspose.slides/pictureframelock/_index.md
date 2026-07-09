@@ -1,14 +1,14 @@
 ---
 title: PictureFrameLock
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende PictureFrame.
+description: Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende PictureFrame.
 type: docs
 weight: 9420
 url: /nl/aspose.slides/pictureframelock/
 ---
 ## PictureFrameLock klasse
 
-Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende PictureFrame.
+Bepaalt welke bewerkingen zijn uitgeschakeld op het bovenliggende PictureFrame.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -16,20 +16,20 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen/schrijven Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpuntvormen verboden is. Lezen/schrijven Boolean. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij formaatwijziging. Lezen/schrijven Boolean. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Bepaalt of het bijsnijden van een afbeelding verboden is. Lezen/schrijven Boolean. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Bepaalt of directe wijziging van de contour van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/schrijven Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft true terug als alle lock-flags zijn uitgeschakeld. Alleen-lezen Boolean. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van een vormtype verboden is. Lezen/schrijven Boolean. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Lezen/schrijven Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen/Schrijven Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijpkoppen verboden is. Lezen/Schrijven Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Lezen/Schrijven Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Bepaalt of bijsnijden van een afbeelding verboden is. Lezen/Schrijven Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Bepaalt of een directe wijziging van de contour van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/Schrijven Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft waar terug als alle vergrendelingsvlaggen zijn uitgeschakeld. Alleen-lezen Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van een vormtype verboden is. Lezen/Schrijven Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Bepaalt of het schalen van deze vorm verboden is. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 

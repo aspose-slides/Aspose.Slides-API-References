@@ -1,14 +1,14 @@
 ---
 title: EmbedAllFontsHtmlController
 second_title: Aspose.Sildes の .NET API リファレンス
-description: WOFF 形式でプレゼンテーションのすべてのフォントを埋め込むために使用するフォーマット コントローラ クラスです。
+description: WOFF 形式でプレゼンテーションのすべてのフォントを埋め込むために使用するフォーマッティングコントローラ・クラスです。
 type: docs
-weight: 3740
+weight: 3760
 url: /ja/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController クラス
 
-WOFF 形式でプレゼンテーションのすべてのフォントを埋め込むために使用するフォーマット コントローラ クラスです。
+すべてのプレゼンテーションフォントをWOFF形式で埋め込むために使用するフォーマッティングコントローラ・クラスです。
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -25,16 +25,16 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | 名前 | 説明 |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation) に含まれるすべてのフォントを書き込みます。 |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML ドキュメントのフッターを書き込むために呼び出されます。プレゼンテーションの変換ごとに一度呼び出されます。 |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML ドキュメントのヘッダーを書き込むために呼び出されます。プレゼンテーションの変換ごとに一度呼び出されます。 |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | データを base64 として HTML ドキュメント自体に書き込みます |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | シェイプのレンダリング前に呼び出されます。シェイプごとに一度呼び出されます。この関数がジェネレータに何か書き込むと、現在のスライド画像の生成が完了し、追加された HTML フラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | シェイプのレンダリング前に呼び出されます。シェイプごとに一度呼び出されます。この関数がジェネレータに何か書き込むと、現在のスライド画像の生成が完了し、追加された HTML フラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML スライドのフッターを書き込むために呼び出されます。スライドごとに一度呼び出されます。 |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML スライドのヘッダーを書き込むために呼び出されます。スライドごとに一度呼び出されます。 |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation)に含まれるすべてのフォントを書き込みます。 |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTMLドキュメントのフッターを書き込むために呼び出されます。プレゼンテーション変換ごとに1回呼び出されます。 |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTMLドキュメントのヘッダーを書き込むために呼び出されます。プレゼンテーション変換ごとに1回呼び出されます。 |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | データをBase64としてHTMLドキュメント自体に書き込みます。 |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | シェイプの描画前に呼び出されます。各シェイプにつき1回呼び出されます。この関数がジェネレータに何か書き込むと、現在のスライド画像生成が終了し、追加されたHTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | シェイプの描画前に呼び出されます。各シェイプにつき1回呼び出されます。この関数がジェネレータに何か書き込むと、現在のスライド画像生成が終了し、追加されたHTMLフラグメントが挿入され、前の画像の上に新しい画像が開始されます。 |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTMLスライドのフッターを書き込むために呼び出されます。各スライドにつき1回呼び出されます。 |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTMLスライドのヘッダーを書き込むために呼び出されます。各スライドにつき1回呼び出されます。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

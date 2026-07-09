@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho thuộc tính Heading pair của tài liệu. Nó cho biết tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
+description: Biểu diễn thuộc tính Heading pair của tài liệu. Nó chỉ ra tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
 type: docs
 weight: 5110
 url: /vi/aspose.slides/headingpair/
 ---
 ## HeadingPair lớp
 
-Đại diện cho thuộc tính “Heading pair” của tài liệu. Nó chỉ ra tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
+Biểu diễn thuộc tính ‘Heading pair’ của tài liệu. Nó chỉ ra tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair

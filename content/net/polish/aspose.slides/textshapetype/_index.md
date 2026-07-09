@@ -1,14 +1,14 @@
 ---
 title: TextShapeType
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje kształt owijania tekstu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje kształt zawijania tekstu.
 type: docs
-weight: 10960
+weight: 10980
 url: /pl/aspose.slides/textshapetype/
 ---
-## TextShapeType wyliczenie
+## TextShapeType enumeracja
 
-Reprezentuje kształt owijania tekstu.
+Reprezentuje kształt zawijania tekstu.
 
 ```csharp
 public enum TextShapeType : sbyte
@@ -16,48 +16,48 @@ public enum TextShapeType : sbyte
 
 ### Wartości
 
-| Name | Value | Description |
+| Nazwa | Wartość | Opis |
 | --- | --- | --- |
 | NotDefined | `-1` | Nie określono |
 | None | `0` | Brak kształtu |
 | Plain | `1` | Zwykły |
-| Stop | `2` | Znak stop |
+| Stop | `2` | Znak Stop |
 | Triangle | `3` | Trójkąt |
 | TriangleInverted | `4` | Trójkąt odwrócony |
 | Chevron | `5` | Chevron |
 | ChevronInverted | `6` | Chevron odwrócony |
 | RingInside | `7` | Pierścień wewnętrzny |
 | RingOutside | `8` | Pierścień zewnętrzny |
-| ArchUp | `9` | Łuk skierowany w górę |
-| ArchDown | `10` | Łuk skierowany w dół |
-| Circle | `11` | Okrąg |
+| ArchUp | `9` | Łuk w górę |
+| ArchDown | `10` | Łuk w dół |
+| Circle | `11` | Koło |
 | Button | `12` | Przycisk |
 | ArchUpPour | `13` | Łuk wylewania w górę |
 | ArchDownPour | `14` | Łuk wylewania w dół |
-| CirclePour | `15` | Wylewanie koła |
-| ButtonPour | `16` | Wylewanie przycisku |
-| CurveUp | `17` | Krzywa skierowana w górę |
-| CurveDown | `18` | Krzywa skierowana w dół |
-| CanUp | `19` | Puszka skierowana w górę |
-| CanDown | `20` | Puszka skierowana w dół |
+| CirclePour | `15` | Koło wylewania |
+| ButtonPour | `16` | Przycisk wylewania |
+| CurveUp | `17` | Krzywa w górę |
+| CurveDown | `18` | Krzywa w dół |
+| CanUp | `19` | Puszka w górę |
+| CanDown | `20` | Puszka w dół |
 | Wave1 | `21` | Fala 1 |
 | Wave2 | `22` | Fala 2 |
 | DoubleWave1 | `23` | Podwójna fala 1 |
 | Wave4 | `24` | Fala 4 |
 | Inflate | `25` | Nadmuchanie |
 | Deflate | `26` | Opróżnianie |
-| InflateBottom | `27` | Nadmuchanie od dołu |
-| DeflateBottom | `28` | Opróżnianie od dołu |
-| InflateTop | `29` | Nadmuchanie od góry |
-| DeflateTop | `30` | Opróżnianie od góry |
-| DeflateInflate | `31` | Opróżnianie-nadmuchanie |
-| DeflateInflateDeflate | `32` | Opróżnianie-nadmuchanie-opróżnianie |
-| FadeRight | `33` | Zanik prawy |
-| FadeLeft | `34` | Zanik lewy |
+| InflateBottom | `27` | Dolne nadmuchanie |
+| DeflateBottom | `28` | Dolne opróżnianie |
+| InflateTop | `29` | Górne nadmuchanie |
+| DeflateTop | `30` | Górne opróżnianie |
+| DeflateInflate | `31` | Opróżnianie-nadmuchiwanie |
+| DeflateInflateDeflate | `32` | Opróżnianie-nadmuchiwanie-odprężanie |
+| FadeRight | `33` | Zanik w prawo |
+| FadeLeft | `34` | Zanik w lewo |
 | FadeUp | `35` | Zanik w górę |
 | FadeDown | `36` | Zanik w dół |
-| SlantUp | `37` | Skrzywienie w górę |
-| SlantDown | `38` | Skrzywienie w dół |
+| SlantUp | `37` | Skręt w górę |
+| SlantDown | `38` | Skręt w dół |
 | CascadeUp | `39` | Kaskada w górę |
 | CascadeDown | `40` | Kaskada w dół |
 | Custom | `41` | Niestandardowy |

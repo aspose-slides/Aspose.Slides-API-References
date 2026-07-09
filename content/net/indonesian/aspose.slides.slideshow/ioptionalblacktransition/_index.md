@@ -3,12 +3,12 @@ title: IOptionalBlackTransition
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Efek transisi slide hitam opsional.
 type: docs
-weight: 10120
+weight: 10140
 url: /id/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition antarmuka
 
-Efek transisi slide hitam opsional.
+Transisi slide hitam opsional.
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -16,10 +16,10 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Mengizinkan untuk mendapatkan antarmuka ITransitionValueBase dasar. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Atribut ini menentukan apakah transisi akan dimulai dari layar hitam (dan kemudian mentransisi slide baru di atas hitam). Baca/tulis Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | Memungkinkan mendapatkan antarmuka dasar ITransitionValueBase. Hanya-baca [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | Atribut ini menentukan apakah transisi akan dimulai dari layar hitam (dan kemudian transisi slide baru di atas hitam). Baca/tulis Boolean. |
 
 ### Lihat Juga
 

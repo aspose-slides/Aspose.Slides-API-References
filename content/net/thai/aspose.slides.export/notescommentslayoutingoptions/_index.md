@@ -1,14 +1,14 @@
 ---
 title: NotesCommentsLayoutingOptions
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: จัดหาตัวเลือกที่ควบคุมรูปลักษณ์ของการจัดวางโน้ตและคอมเมนต์ในเอกสารที่ส่งออก
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้ตัวเลือกที่ควบคุมลักษณะการจัดวางของบันทึกย่อและความคิดเห็นในเอกสารที่ส่งออก
 type: docs
 weight: 4290
 url: /th/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions คลาส
 
-จัดหาตัวเลือกที่ควบคุมรูปลักษณ์ของการจัดวางโน้ตและคอมเมนต์ในเอกสารที่ส่งออก
+ให้ตัวเลือกที่ควบคุมลักษณะการจัดวางของบันทึกย่อและความคิดเห็นในเอกสารที่ส่งออก
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
@@ -18,17 +18,17 @@ public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | คอนสตรักเตอร์เริ่มต้น |
+| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | ตัวสร้างเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | รับหรือกำหนดสีของพื้นที่คอมเมนต์ (ใช้ได้เฉพาะเมื่อคอมเมนต์แสดงทางขวา) |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | รับหรือกำหนดความกว้างของพื้นที่เอาต์พุตคอมเมนต์เป็นพิกเซล (ใช้ได้เฉพาะเมื่อคอมเมนต์แสดงทางขวา) |
-| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | รับหรือกำหนดตำแหน่งของคอมเมนต์บนหน้า |
-| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | รับหรือกำหนดตำแหน่งของโน้ตบนหน้า |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | รับหรือกำหนดความมองเห็นของคอมเมนต์ที่ไม่มีผู้เขียน หากเป็น true คอมเมนต์จะแสดง (ใช้ได้เฉพาะเมื่อคอมเมนต์แสดง) |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | รับหรือกำหนดสีของพื้นที่ความคิดเห็น (ใช้ได้เฉพาะเมื่อความคิดเห็นแสดงทางด้านขวา) |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | รับหรือกำหนดความกว้างของพื้นที่แสดงผลความคิดเห็นเป็นพิกเซล (ใช้ได้เฉพาะเมื่อความคิดเห็นแสดงทางด้านขวา) |
+| [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | รับหรือกำหนดตำแหน่งของความคิดเห็นบนหน้า |
+| [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | รับหรือกำหนดตำแหน่งของบันทึกย่อบนหน้า |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | รับหรือกำหนดการมองเห็นของความคิดเห็นที่ไม่มีผู้เขียน หากเป็น true จะทำให้ความคิดเห็นแสดงผล (ใช้ได้เฉพาะเมื่อความคิดเห็นถูกแสดง) |
 
 ### ดูเพิ่มเติม
 

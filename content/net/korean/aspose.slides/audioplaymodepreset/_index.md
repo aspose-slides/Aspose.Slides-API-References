@@ -1,14 +1,14 @@
 ---
 title: AudioPlayModePreset
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 사운드가 재생되는 방식을 정의하는 상수입니다.
+description: 소리가 재생되는 방식을 정의하는 상수입니다.
 type: docs
 weight: 880
 url: /ko/aspose.slides/audioplaymodepreset/
 ---
 ## AudioPlayModePreset 열거형
 
-사운드가 재생되는 방식을 정의하는 상수입니다.
+사운드가 재생되는 방식을 정의하는 상수.
 
 ```csharp
 public enum AudioPlayModePreset
@@ -19,10 +19,10 @@ public enum AudioPlayModePreset
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | 자동으로 재생됩니다. |
+| Auto | `0` | 자동으로 재생합니다. |
 | OnClick | `1` | 아이콘을 클릭했을 때만 재생됩니다. |
-| AllSlides | `2` | 모든 슬라이드에서 재생됩니다. 대신 [`PlayAcrossSlides`](../iaudioframe/playacrossslides) 속성을 사용하십시오. 이 요소는 PowerPoint 2013 이후로 더 이상 사용되지 않습니다. |
-| InClickSequence | `3` | 클릭과 함께 자동으로 재생됩니다. |
+| AllSlides | `2` | 모든 슬라이드에서 재생합니다. 대신 [`PlayAcrossSlides`](../iaudioframe/playacrossslides) 속성을 사용하십시오. 이 요소는 PowerPoint 2013 이후로 사용되지 않습니다. |
+| InClickSequence | `3` | 클릭과 함께 자동으로 재생합니다. |
 
 ### 참조
 

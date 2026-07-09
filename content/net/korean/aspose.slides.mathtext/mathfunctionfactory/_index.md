@@ -1,6 +1,6 @@
 ---
 title: MathFunctionFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 함수를 생성할 수 있습니다
 type: docs
 weight: 8730
@@ -18,7 +18,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathFunctionFactory](mathfunctionfactory)() | 기본 생성자. |
+| [MathFunctionFactory](mathfunctionfactory)() | 기본 생성자입니다. |
 
 ## 메서드
 
@@ -31,7 +31,7 @@ public class MathFunctionFactory : IMathFunctionFactory
 
 COM 호환성을 위해
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IMathFunctionFactory](../imathfunctionfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

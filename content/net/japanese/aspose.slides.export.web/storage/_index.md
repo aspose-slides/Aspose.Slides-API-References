@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Aspose.Sildes の .NET API リファレンス
-description: WebDocument 用の一時データストレージを表します。/webdocument.
+description: WebDocument 用の一時的なデータストレージを表します。./webdocument
 type: docs
-weight: 4640
+weight: 4660
 url: /ja/aspose.slides.export.web/storage/
 ---
 ## ストレージ クラス
 
-[`WebDocument`](../webdocument) の一時データストレージを表します。
+[`WebDocument`](../webdocument) 用の一時的なデータストレージを表します。
 
 ```csharp
 public sealed class Storage
@@ -18,13 +18,13 @@ public sealed class Storage
 
 | 名前 | 説明 |
 | --- | --- |
-| [Storage](storage)() | デフォルト コンストラクタ。 |
+| [Storage](storage)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | ストレージに指定されたキーを持つ要素が含まれているかどうかを判断します。 |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | ストレージに指定されたキーの要素が含まれているかどうかを判断します。 |
 | [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | ストレージからデータを取得します。 |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | 値をストレージに格納します。 |
 

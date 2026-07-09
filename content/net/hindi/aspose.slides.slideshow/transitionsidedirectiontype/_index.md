@@ -1,7 +1,7 @@
 ---
 title: TransitionSideDirectionType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: साइड दिशा संक्रमण प्रकारों का प्रतिनिधित्व करता है।
+description: साइड दिशा संक्रमण प्रकारों को दर्शाता है।
 type: docs
 weight: 10420
 url: /hi/aspose.slides.slideshow/transitionsidedirectiontype/
@@ -16,14 +16,14 @@ public enum TransitionSideDirectionType
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
 | Left | `0` |  |
 | Up | `1` |  |
 | Down | `2` |  |
 | Right | `3` |  |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

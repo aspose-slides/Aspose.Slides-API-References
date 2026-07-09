@@ -24,15 +24,15 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | 이름 | 설명 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | 애니메이션 동작이 누적되는지 여부를 나타냅니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 현재 애니메이션 동작이 다른 실행 중인 애니메이션과 결합되는지 여부를 나타냅니다. 읽기/쓰기 [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | 명령 문자열을 정의합니다. 읽기/쓰기 String. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 동작의 속성을 나타냅니다. 읽기 전용 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | 명령 효과의 대상 모양을 정의합니다. 읽기/쓰기 [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작의 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작에 대한 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | 동작의 명령 효과 유형을 정의합니다. 읽기/쓰기 [`CommandEffectType`](../commandeffecttype). |
 
-### 관련 항목
+### 참조
 
 * 클래스 [Behavior](../behavior)
 * 인터페이스 [ICommandEffect](../icommandeffect)

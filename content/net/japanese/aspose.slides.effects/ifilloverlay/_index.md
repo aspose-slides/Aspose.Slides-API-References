@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 塗りオーバーレイ効果を表します。塗りオーバーレイは、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: Fill Overlay エフェクトを表します。Fill Overlay は、オブジェクトに追加の塗りつぶしを指定し、2 つの塗りつぶしをブレンドするために使用できます。
 type: docs
-weight: 3280
+weight: 3300
 url: /ja/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay インターフェイス
 
-塗りオーバーレイ効果を表します。塗りオーバーレイは、オブジェクトに追加の塗りを指定し、2 つの塗りをブレンドするために使用できます。
+Fill Overlay エフェクトを表します。Fill Overlay は、オブジェクトの追加の塗りつぶしを指定し、2 つの塗りつぶしをブレンドするために使用できます。
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -17,14 +17,14 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。 読み書き可能 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 塗りの形式。 読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。読み取り/書き込み [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill format。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

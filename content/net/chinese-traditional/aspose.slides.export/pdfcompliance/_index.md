@@ -1,14 +1,14 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes .NET API 參考
-description: 定義 PDF 標準相容等級的常數。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 定義 PDF 標準符合等級的常數。
 type: docs
 weight: 4320
 url: /zh-hant/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance 列舉
 
-定義 PDF 標準相容等級的常數。
+定義 PDF 標準符合性等級的常數。
 
 ```csharp
 public enum PdfCompliance
@@ -16,7 +16,7 @@ public enum PdfCompliance
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 數值 | 說明 |
 | --- | --- | --- |
 | Pdf15 | `0` | 輸出檔案將符合 PDF 1.5 標準。 |
 | Pdf16 | `1` | 輸出檔案將符合 PDF 1.6 標準。 |

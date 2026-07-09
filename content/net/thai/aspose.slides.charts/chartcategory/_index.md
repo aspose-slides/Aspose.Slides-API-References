@@ -1,14 +1,14 @@
 ---
 title: ChartCategory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนหมวดหมู่ของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของประเภทแผนภูมิ.
 type: docs
 weight: 1270
 url: /th/aspose.slides.charts/chartcategory/
 ---
-## คลาส ChartCategory
+## ChartCategory คลาส
 
-แสดงถึงหมวดหมู่ของแผนภูมิ
+เป็นตัวแทนของประเภทแผนภูมิ
 
 ```csharp
 public class ChartCategory : IChartCategory
@@ -18,17 +18,17 @@ public class ChartCategory : IChartCategory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | คืนค่า หรือ ตั้งค่าอ็อบเจ็กต์ IChartDataCell. หากหมวดหมู่เป็นหลายระดับ จะใช้ IChartDataCell สำหรับระดับ "0". อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | คืนค่า หรือ ตั้งค่าอ็อบเจ็กต์ AsLiteral. อ่าน/เขียน Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | ตัวจัดการคอนเทนเนอร์ของค่าระดับการจัดกลุ่มหมวดหมู่แผนภูมิ. หมวดหมู่หลายระดับมีมากกว่าหนึ่งระดับการจัดกลุ่ม. ดัชนีระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | หากเป็น true แล้วคุณสมบัติ AsCell มีผลใช้งาน. อีกนัยหนึ่ง, worksheet จะถูกใช้เพื่อเก็บหมวดหมู่ (กรณีนี้รองรับหมวดหมู่หลายระดับ). หากเป็น false แล้วคุณสมบัติ AsLiteral มีผลใช้งาน. อีกนัยหนึ่ง, worksheet จะ **ไม่**ถูกใช้เพื่อเก็บหมวดหมู่ (และกรณีนี้ไม่รองรับหมวดหมู่หลายระดับ). อ่านอย่างเดียว Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | หาก UseCell เป็น true แล้วคุณสมบัตินี้แทนค่า AsCell.Value. หาก UseCell เป็น false แล้วคุณสมบัตินี้แทนค่า AsLiteral. อ่าน/เขียน Object. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | คืนหรือกำหนดอ็อบเจ็กต์ IChartDataCell. หากประเภทเป็นหลายระดับจะใช้ IChartDataCell สำหรับระดับ "0". อ่าน/เขียน [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | คืนหรือกำหนดอ็อบเจ็กต์ AsLiteral. อ่าน/เขียน Object. |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | คอนเทนเนอร์ที่จัดการค่าของระดับการจัดกลุ่มประเภทแผนภูมิ. ประเภทหลายระดับมีหลายระดับการจัดกลุ่ม. การกำหนดดัชนีระดับการจัดกลุ่มเริ่มจากศูนย์. อ่านอย่างเดียว [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | หากเป็น true แล้วคุณสมบัติ AsCell จะใช้งานได้. กล่าวคือ worksheet ถูกใช้เพื่อเก็บประเภท (กรณีนี้สนับสนุนประเภทหลายระดับ). หากเป็น false แล้วคุณสมบัติ AsLiteral จะใช้งานได้. กล่าวคือ worksheet ไม่ได้ถูกใช้เพื่อเก็บประเภท (และกรณีนี้ไม่สนับสนุนประเภทหลายระดับ). อ่านอย่างเดียว Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | หาก UseCell เป็น true แล้วคุณสมบัตินี้จะอ้างอิงคุณสมบัติ AsCell.Value. หาก UseCell เป็น false แล้วคุณสมบัตินี้จะอ้างอิงคุณสมบัติ AsLiteral. อ่าน/เขียน Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | ลบหมวดหมู่ออกจากแผนภูมิ |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | ลบประเภทออกจากแผนภูมิ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje kolekci stylů čar.
 type: docs
-weight: 11400
+weight: 11420
 url: /cs/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection třída
@@ -16,19 +16,19 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Získá počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Vrátí hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Získá počet skutečně obsažených prvků v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Vrátí hodnotu, která určuje, zda je přístup ke kolekci synchronizován (bezpečný pro vlákna). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`ILineFormat`](../../aspose.slides/ilineformat). |
 | [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Vrátí kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekci. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do určeného pole. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Vrátí enumerátor, který prochází kolekcí. |
 
 ### Viz také
 

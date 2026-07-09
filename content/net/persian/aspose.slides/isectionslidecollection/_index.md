@@ -1,14 +1,14 @@
 ---
 title: ISectionSlideCollection
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر مجموعه‌ای از اسلایدها در بخش است.
+description: یک مجموعه از اسلایدها در بخش را نشان می‌دهد.
 type: docs
 weight: 6910
 url: /fa/aspose.slides/isectionslidecollection/
 ---
 ## ISectionSlideCollection رابط
 
-نمایانگر مجموعه‌ای از اسلایدها در بخش است.
+نمایش یک مجموعه از اسلایدها در بخش.
 
 ```csharp
 public interface ISectionSlideCollection : IGenericCollection<ISlide>
@@ -18,9 +18,9 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | عنصری را در شاخص مشخص می‌گیرد. فقط-خواندنی [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | عنصری را که در اندیس مشخص شده است دریافت می‌کند. فقط-خواندنی [`ISlide`](../islide). |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * رابط [ISlide](../islide)

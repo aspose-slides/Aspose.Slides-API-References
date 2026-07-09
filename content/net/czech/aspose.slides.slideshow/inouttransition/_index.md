@@ -1,14 +1,14 @@
 ---
 title: InOutTransition
-second_title: Aspose.Sildes pro .NET referenční příručku API
-description: Přechodový efekt snímku In-Out.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Efekt přechodu snímku In-Out.
 type: docs
-weight: 10210
+weight: 10230
 url: /cs/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition třída
 
-Přechodový efekt snímku In-Out.
+In-Out efekt přechodu snímku.
 
 ```csharp
 public class InOutTransition : TransitionValueBase, IInOutTransition
@@ -24,8 +24,8 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashovací tabulka. |
 
 ### Viz také
 

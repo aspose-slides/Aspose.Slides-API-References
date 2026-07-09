@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Bi-Level zwart/wit-effect voorstelt. Invoerkleuren waarvan de luminantie lager is dan de gespecificeerde drempelwaarde, worden naar zwart veranderd. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de gespecificeerde waarde is, worden naar wit gezet. De alfa-effectwaarden blijven door dit effect onaangetast.
+description: Onveranderlijk object dat een Bi-Level zwart/wit effect vertegenwoordigt. Invoerkleuren waarvan de luminantie lager is dan de opgegeven drempelwaarde worden gewijzigd naar zwart. Invoerkleuren waarvan de luminantie groter of gelijk is aan de opgegeven waarde worden ingesteld op wit. De alfa-effectwaarden blijven door dit effect onveranderd.
 type: docs
 weight: 3170
 url: /nl/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData interface
 
-Onveranderlijk object dat een Bi-Level (zwart/wit) effect voorstelt. Invoerkleuren waarvan de luminantie lager is dan de gespecificeerde drempelwaarde, worden naar zwart veranderd. Invoerkleuren waarvan de luminantie groter dan of gelijk aan de gespecificeerde waarde is, worden naar wit gezet. De alpha-effectwaarden blijven door dit effect onaangetast.
+Onveranderlijk object die een Bi-Level (zwart/wit) effect vertegenwoordigt. Invoerkleuren waarvan de luminantie lager is dan de opgegeven drempelwaarde worden gewijzigd naar zwart. Invoerkleuren waarvan de luminantie groter of gelijk is aan de opgegeven waarde worden ingesteld op wit. De alfawaarde van het effect blijft onveranderd door dit effect.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Geeft de drempelwaarde terug. Alleen-lezen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | Stelt toe om de basis IEffectEffectiveData interface te krijgen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | Retourneert de drempelwaarde. Alleen-lezen Single. |
 
 ### Zie ook
 

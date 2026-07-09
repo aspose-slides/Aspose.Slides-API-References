@@ -1,31 +1,31 @@
 ---
 title: HandoutLayoutingOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงโหมดการจัดวางการนำเสนอแบบ handout สำหรับการส่งออก.
+description: แทนโหมดการจัดเรียงการนำเสนอแบบ Handout สำหรับการส่งออก.
 type: docs
 weight: 3840
 url: /th/aspose.slides.export/handoutlayoutingoptions/
 ---
-## HandoutLayoutingOptions คลาส
+## คลาส HandoutLayoutingOptions
 
-แสดงโหมดการจัดวางการนำเสนอแบบ handout สำหรับการส่งออก
+แทนโหมดการจัดเรียงการนำเสนอแบบ Handout สำหรับการส่งออก
 
 ```csharp
 public class HandoutLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HandoutLayoutingOptions](handoutlayoutingoptions)() | เริ่มต้นค่าตามค่าเริ่มต้น |
+| [HandoutLayoutingOptions](handoutlayoutingoptions)() | กำหนดค่าเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | ระบุจำนวนสไลด์และลำดับที่สไลด์จะถูกวางบนหน้า [`HandoutType`](../handouttype) |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | ระบุว่าจะให้แสดงคอมเมนต์บนสไลด์หรือไม่ |
+| [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | ระบุจำนวนสไลด์และลำดับที่จะแสดงบนหน้า [`HandoutType`](../handouttype) |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | ระบุว่าจะต้องแสดงความคิดเห็นบนสไลด์หรือไม่ |
 | [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | ระบุว่าจะวาดกรอบรอบสไลด์ที่แสดงหรือไม่ |
 | [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | ระบุว่าจะพิมพ์หมายเลขสไลด์ที่แสดงหรือไม่ |
 

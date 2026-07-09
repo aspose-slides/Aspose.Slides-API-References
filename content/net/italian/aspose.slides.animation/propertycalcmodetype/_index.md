@@ -3,7 +3,7 @@ title: PropertyCalcModeType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la modalità di calcolo per la proprietà di animazione.
 type: docs
-weight: 720
+weight: 740
 url: /it/aspose.slides.animation/propertycalcmodetype/
 ---
 ## enumerazione PropertyCalcModeType

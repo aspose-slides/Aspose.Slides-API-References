@@ -1,42 +1,42 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का एक संग्रह दर्शाता है
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का संग्रह दर्शाता है
 type: docs
 weight: 4850
 url: /hi/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection क्लास
 
-Represents a collection of FontFallBack rules, defined by user
+उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का संग्रह दर्शाता है।
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 ```
 
-## कंस्ट्रक्टर
+## निर्माता
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [FontFallBackRulesCollection](fontfallbackrulescollection)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [FontFallBackRulesCollection](fontfallbackrulescollection)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | संग्रह में वास्तविक रूप से शामिल नियमों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि क्या संग्रह तक पहुंच समकालिक (थ्रेड-सुरक्षित) है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर नियम प्राप्त करता है। केवल-पढ़ने योग्य [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | एक समकालिक मूल लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | संग्रह में वास्तव में सम्मिलित नियमों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच सिंक्रनाइज़ है (थ्रेड-सुरक्षित)। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | निर्दिष्ट सूचकांक पर नियम प्राप्त करता है। केवल-पढ़ने योग्य [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | सिंक्रनाइज़ेशन जड़ लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधियां
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | निर्दिष्ट FallBack नियम को संग्रह के अंत में जोड़ता है। |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट सरणी में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | एक एन्युमरेटर लौटाता है जो संग्रह को पार करता है। |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | संग्रह से विशिष्ट FallBack नियम की पहली उपस्थिति को हटाता है। |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | एक निर्दिष्ट FallBack नियम को संग्रह के अंत में जोड़ता है। |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | संग्रह से सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | संग्रह से एक विशिष्ट FallBack नियम की पहली घटना को हटाता है। |
 
 ### देखें
 

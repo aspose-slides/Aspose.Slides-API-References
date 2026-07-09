@@ -1,14 +1,14 @@
 ---
 title: BubbleSizeRepresentationType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de mogelijke manieren om gegevens weer te geven als bubbelformaatgroottes.
+description: Specificeert de mogelijke manieren om gegevens weer te geven als bubbeldiagramgroottes.
 type: docs
 weight: 1230
 url: /nl/aspose.slides.charts/bubblesizerepresentationtype/
 ---
 ## BubbleSizeRepresentationType enumeratie
 
-Specificeert de mogelijke manieren om gegevens weer te geven als bubbelformaatgroottes.
+Specificeert de mogelijke manieren om gegevens weer te geven als bubbeldiagramgroottes.
 
 ```csharp
 public enum BubbleSizeRepresentationType
@@ -18,8 +18,8 @@ public enum BubbleSizeRepresentationType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Area | `0` | Specificeert dat het oppervlak van de bellen evenredig moet zijn aan de bubbelformaatwaarde. |
-| Width | `1` | Specificeert dat de straal van de bellen evenredig moet zijn aan de bubbelformaatwaarde. |
+| Area | `0` | Specificeert dat het oppervlak van de bubbels evenredig moet zijn aan de bubble size-waarde. |
+| Width | `1` | Specificeert dat de radius van de bubbels evenredig moet zijn aan de bubble size-waarde. |
 
 ### Zie ook
 

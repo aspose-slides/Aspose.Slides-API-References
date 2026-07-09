@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な塗りつぶし形式の読み取り専用コレクションを表す不変オブジェクトです。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 効果的な塗りつぶしフォーマットの読み取り専用コレクションを表す不変オブジェクト。
 type: docs
-weight: 11220
+weight: 11240
 url: /ja/aspose.slides.theme/ifillformatcollectioneffectivedata/
 ---
 ## IFillFormatCollectionEffectiveData インターフェイス
 
-有効な塗りつぶし形式の読み取り専用コレクションを表す不変オブジェクト。
+変更できないオブジェクトで、効果的な塗りつぶしフォーマットの読み取り専用コレクションを表します。
 
 ```csharp
 public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface IFillFormatCollectionEffectiveData : IGenericCollection<IFillFo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
+| [Item](../../aspose.slides.theme/ifillformatcollectioneffectivedata/item) { get; } | 指定したインデックスの要素を取得します。 読み取り専用 [`IFillFormatEffectiveData`](../../aspose.slides/ifillformateffectivedata)。 |
 
 ### 備考
 

@@ -1,6 +1,6 @@
 ---
 title: ICellFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과적인 테이블 셀 서식 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 5480
@@ -19,13 +19,13 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 | 이름 | 설명 |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | 기본 IBaseTableFormatEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 채우기 색상의 투명도를 가져옵니다. 읽기 전용 Single. |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | 채우기 색상의 투명도를 가져옵니다. Single 형식으로 반환됩니다. |
 
-### 비고
+### 참고
 
 이 인터페이스는 [`ICellFormat`](../icellformat) 인터페이스와 함께 사용되어 상속 및 테이블 스타일이 적용된 효과적인 서식 값을 반환합니다.
 
-### 자세히 보기
+### 참고
 
 * 인터페이스 [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

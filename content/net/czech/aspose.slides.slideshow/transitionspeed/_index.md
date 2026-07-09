@@ -1,14 +1,14 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes pro .NET API Referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje typy rychlosti přechodu.
 type: docs
-weight: 10420
+weight: 10440
 url: /cs/aspose.slides.slideshow/transitionspeed/
 ---
-## TransitionSpeed enumerace
+## TransitionSpeed výčet
 
-Representuje typy rychlosti přechodu.
+Reprezentuje typy rychlosti přechodu.
 
 ```csharp
 public enum TransitionSpeed

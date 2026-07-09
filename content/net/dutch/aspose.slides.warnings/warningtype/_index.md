@@ -18,12 +18,12 @@ public enum WarningType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Er is een probleem geconstateerd in het brondocument waardoor het zeer waarschijnlijk is dat het document niet geopend kan worden als het in zijn oorspronkelijke formaat wordt opgeslagen. |
-| DataLoss | `1` | Tekst/diagram/afbeelding of andere gegevens zullen volledig ontbreken in de documentstructuur na het laden, of in het gemaakte document na het opslaan. |
-| MajorFormattingLoss | `2` | Groot formatteringsverlies. |
-| MinorFormattingLoss | `3` | Klein formatteringsverlies. |
-| CompatibilityIssue | `4` | Dit is een bekend probleem dat voorkomt dat het document wordt geopend door bepaalde gebruikersagents of eerdere versies van gebruikersagents. |
-| UnexpectedContent | `99` | Sommige inhoud in het brondocument kon niet worden herkend (d.w.z. wordt niet ondersteund); dit kan al dan niet problemen veroorzaken of leiden tot verlies van gegevens/opmaak. |
+| SourceFileCorruption | `0` | Er is een probleem gedetecteerd in het brondocument, waardoor het zeer waarschijnlijk is dat het document niet geopend kan worden als het wordt opgeslagen in het oorspronkelijke formaat. |
+| DataLoss | `1` | Tekst/diagram/afbeelding of andere gegevens zullen volledig ontbreken in de documentstructuur na het laden, of in het gecreëerde document na het opslaan. |
+| MajorFormattingLoss | `2` | Groot opmaakverlies. |
+| MinorFormattingLoss | `3` | Klein opmaakverlies. |
+| CompatibilityIssue | `4` | Dit is een bekend probleem dat verhindert dat het document wordt geopend door bepaalde gebruikersagenten, of door eerdere versies van gebruikersagenten. |
+| UnexpectedContent | `99` | Bepaalde inhoud in het brondocument kon niet worden herkend (d.w.z. wordt niet ondersteund); dit kan al dan niet problemen veroorzaken of leiden tot gegevens-/opmaakverlies. |
 
 ### Zie ook
 

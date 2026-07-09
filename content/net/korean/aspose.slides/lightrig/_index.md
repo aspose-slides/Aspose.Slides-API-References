@@ -1,14 +1,14 @@
 ---
 title: LightRig
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: LightRig를 나타냅니다.
+description: LightRig을 나타냅니다.
 type: docs
 weight: 7690
 url: /ko/aspose.slides/lightrig/
 ---
 ## LightRig 클래스
 
-LightRig를 나타냅니다.
+LightRig을 나타냅니다.
 
 ```csharp
 public sealed class LightRig : PVIObject, ILightRig
@@ -19,8 +19,8 @@ public sealed class LightRig : PVIObject, ILightRig
 | 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 빛 방향. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 모양에 적용할 수 있는 사전 설정된 라이트를 나타냅니다. LightRig는 3D 씬에 대해 특정 방식으로 정렬된 조명 그룹을 나타냅니다. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/lightrig/direction) { get; set; } | 조명 방향. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | 도형에 적용할 수 있는 미리 정의된 조명 오른쪽을 나타냅니다. LightRig은 3D 장면에 대해 특정 방식으로 배치된 조명 그룹을 나타냅니다. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
 
 ## 메서드
 
@@ -28,8 +28,8 @@ public sealed class LightRig : PVIObject, ILightRig
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 위도 좌표, 경도 좌표 및 축에 대한 회전을 사용하여 회전을 정의합니다. 반환 배열의 첫 번째 요소는 위도, 두 번째는 경도, 세 번째는 회전입니다. 회전이 정의되지 않은 경우 null을 반환합니다. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 위도 좌표, 경도 좌표 및 축에 대한 회전을 사용하여 회전을 정의합니다. 좌표 값 중 하나라도 float.NaN이면 모든 회전이 정의되지 않습니다. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | 위도 좌표, 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전을 정의합니다. 반환 배열의 첫 번째 요소는 위도, 두 번째는 경도, 세 번째는 회전입니다. 회전이 정의되지 않은 경우 null을 반환합니다. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | 위도 좌표, 경도 좌표 및 축을 중심으로 하는 회전을 사용하여 회전을 정의합니다. 좌표 값 중 하나라도 float.NaN이면 모든 회전이 정의되지 않은 것입니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
-second_title: Aspose.Sildes .NET API 參考
-description: 代表圖表文字元素的格式屬性。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示圖表文字元素的格式屬性。
 type: docs
 weight: 1980
 url: /zh-hant/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat 介面
 
-代表圖表文字元素的格式屬性。
+表示圖表文字元素的格式屬性。
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -18,20 +18,20 @@ public interface IChartTextBlockFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | 取得或設定 TextFrame 中的垂直錨點文字。可讀寫 [`TextAnchorType`](../../aspose.slides/textanchortype)。 |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 取得或設定文字的自動調整模式。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完整支援；在 PowerPoint 2007 中對渲染無效）。可讀寫 [`TextAutofitType`](../../aspose.slides/textautofittype)。 |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | 如果 NullableBool.True，則文字應水平置中於框內。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | 取得或設定 TextFrame 中的底部邊距（點）。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完整支援；在 PowerPoint 2007 中對渲染無效）。可讀寫 Double。 |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | 取得或設定 TextFrame 中的左側邊距（點）。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完整支援；在 PowerPoint 2007 中對渲染無效）。可讀寫 Double。 |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | 取得或設定 TextFrame 中的右側邊距（點）。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完整支援；在 PowerPoint 2007 中對渲染無效）。可讀寫 Double。 |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | 取得或設定 TextFrame 中的上部邊距（點）。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2013 中完整支援；在 PowerPoint 2007 中對渲染無效）。可讀寫 Double。 |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 指定套用於邊界框內文字的自訂旋轉。如果未指定，將使用伴隨圖形的旋轉。如果已指定，則此旋轉獨立於圖形。也就是說，圖形可以有旋轉，同時文字本身也可以有旋轉。此屬性與屬性 TextVerticalType 中的預定義垂直類型共同彙總為最終的視覺文字旋轉值。可讀寫 Single。 |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 決定文字的方向。此屬性與屬性 RotationAngle 中的自訂角度共同彙總為最終的視覺文字旋轉值。可讀寫 [`TextVerticalType`](../../aspose.slides/textverticaltype)。 |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** 若文字在 TextFrame 的邊緣換行。變更此屬性僅會對以下圖表部件產生影響：DataLabel 和 DataLabelFormat（在 PowerPoint 2007/2013 中完整支援）。可讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | 取得或設定 TextFrame 中的垂直錨點文字。讀寫 [`TextAnchorType`](../../aspose.slides/textanchortype)。 |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 取得或設定文字的自動適應模式。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2013 中提供完整支援；在 PowerPoint 2007 中對呈現無影響）。讀寫 [`TextAutofitType`](../../aspose.slides/textautofittype)。 |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | 如果 NullableBool.True，則文字應在盒子內水平置中。讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | 取得或設定 TextFrame 中的底部邊距（點）。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2013 中提供完整支援；在 PowerPoint 2007 中對呈現無影響）。讀寫 Double。 |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | 取得或設定 TextFrame 中的左側邊距（點）。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2013 中提供完整支援；在 PowerPoint 2007 中對呈現無影響）。讀寫 Double。 |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | 取得或設定 TextFrame 中的右側邊距（點）。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2013 中提供完整支援；在 PowerPoint 2007 中對呈現無影響）。讀寫 Double。 |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | 取得或設定 TextFrame 中的頂部邊距（點）。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2013 中提供完整支援；在 PowerPoint 2007 中對呈現無影響）。讀寫 Double。 |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 指定套用於文字的自訂旋轉角度。如果未指定，則使用伴隨圖形的旋轉；如果已指定，則與圖形的旋轉獨立。最終的視覺文字旋轉值為本屬性與 TextVerticalType 中預定義的垂直類型的綜合。讀寫 Single。 |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 決定文字方向。最終的視覺文字旋轉值為本屬性與 RotationAngle 中自訂角度的綜合。讀寫 [`TextVerticalType`](../../aspose.slides/textverticaltype)。 |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** 表示文字在 TextFrame 的邊距處自動換行。變更此屬性僅會對以下圖表部件產生特定影響：DataLabel 與 DataLabelFormat（在 PowerPoint 2007/2013 中提供完整支援）。讀寫 [`NullableBool`](../../aspose.slides/nullablebool)。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程式集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

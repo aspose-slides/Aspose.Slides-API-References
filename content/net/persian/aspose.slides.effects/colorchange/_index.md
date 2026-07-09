@@ -1,14 +1,14 @@
 ---
 title: ColorChange
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر یک اثر تغییر رنگ است. نمونه‌های FromColor با نمونه‌های ToColor جایگزین می‌شوند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایش یک اثر Color Change. نمونه‌های FromColor با نمونه‌های ToColor جایگزین می‌شوند.
 type: docs
 weight: 2940
 url: /fa/aspose.slides.effects/colorchange/
 ---
 ## ColorChange کلاس
 
-یک اثر تغییر رنگ را نمایش می‌دهد. نمونه‌های FromColor با نمونه‌های ToColor جایگزین می‌شوند.
+نمایش یک اثر Color Change. نمونه‌های FromColor با نمونه‌های ToColor جایگزین می‌شوند.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -18,17 +18,17 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 | Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | به‌دست آوردن رابط پایه IPresentationComponent را امکان‌پذیر می‌سازد. فقط-خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | رنگی که جایگزین خواهد شد. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | رنگی که جایگزین می‌کند. فقط-خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | به شما امکان دریافت رابط پایه IPresentationComponent را می‌دهد. فقط خواندنی [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | رنگی که جایگزین خواهد شد. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | رنگی که جایگزین می‌کند. فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## متدها
 
 | Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | تعیین می‌کند آیا [`ColorChange`](../colorchange) مشخص شده برابر با [`ColorChange`](../colorchange) فعلی است. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | داده‌های مؤثر اثر تغییر رنگ را با اعمال ارث‌بری دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | داده‌های مؤثر اثر Color Change را با اعمال وراثت دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
 ### موارد مرتبط
 

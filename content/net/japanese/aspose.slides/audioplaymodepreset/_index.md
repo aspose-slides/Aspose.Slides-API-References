@@ -1,12 +1,12 @@
 ---
 title: AudioPlayModePreset
 second_title: Aspose.Sildes for .NET API リファレンス
-description: サウンドの再生方法を定義する定数です。
+description: 音の再生方法を定義する定数です。
 type: docs
-weight: 860
+weight: 880
 url: /ja/aspose.slides/audioplaymodepreset/
 ---
-## AudioPlayModePreset 列挙型
+## AudioPlayModePreset 列挙体
 
 サウンドの再生方法を定義する定数です。
 
@@ -16,13 +16,13 @@ public enum AudioPlayModePreset
 
 ### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | 自動的に再生します。 |
 | OnClick | `1` | アイコンがクリックされたときだけ再生します。 |
-| AllSlides | `2` | すべてのスライドで再生します。代わりに [`PlayAcrossSlides`](../iaudioframe/playacrossslides) プロパティを使用してください。この要素は PowerPoint 2013 以降、廃止されています。 |
-| InClickSequence | `3` | クリックとともに自動的に再生します。 |
+| AllSlides | `2` | すべてのスライドで再生します。代わりに [`PlayAcrossSlides`](../iaudioframe/playacrossslides) プロパティを使用してください。この要素は PowerPoint 2013 以降廃止されています。 |
+| InClickSequence | `3` | クリックと同時に自動的に再生します。 |
 
 ### 参照
 

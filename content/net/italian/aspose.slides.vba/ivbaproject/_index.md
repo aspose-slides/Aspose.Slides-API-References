@@ -3,12 +3,12 @@ title: IVbaProject
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un progetto VBA con macro di presentazione.
 type: docs
-weight: 11530
+weight: 11550
 url: /it/aspose.slides.vba/ivbaproject/
 ---
-## IVbaProject interfaccia
+## Interfaccia IVbaProject
 
-Rappresenta un progetto VBA con macro di presentazione.
+Rappresenta un progetto VBA con macro della presentazione.
 
 ```csharp
 public interface IVbaProject

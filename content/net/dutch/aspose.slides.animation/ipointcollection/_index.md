@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van segmenten voor.
+description: Stelt een verzameling van delen voor.
 type: docs
 weight: 550
 url: /nl/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection interface
 
-Stelt een collectie van segmenten voor.
+Stelt een verzameling van delen voor.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -18,9 +18,9 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Staat toe de basise IEnumerable-interface op te halen. Alleen-lezen IEnumerable. |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Retourneert het aantal punten in de collectie. Alleen-lezen Int32. |
-| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Retourneert een punt op de gespecificeerde index. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Stelt in staat om de basis IEnumerable-interface op te halen. Alleen-lezen IEnumerable. |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Geeft het aantal punten in de collectie terug. Alleen-lezen Int32. |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Geeft een punt op de opgegeven index terug. |
 
 ### Zie ook
 

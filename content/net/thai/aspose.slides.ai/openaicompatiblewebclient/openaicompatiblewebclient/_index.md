@@ -1,34 +1,34 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: สร้างอินสแตนซ์ของเว็บไคลเอ็นต์ที่เข้ากันกับ OpenAI.
 type: docs
 weight: 10
 url: /th/aspose.slides.ai/openaicompatiblewebclient/openaicompatiblewebclient/
 ---
 ## OpenAICompatibleWebClient(string, string, string) {#constructor}
 
-สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI
+สร้างอินสแตนซ์ของเว็บไคลเอ็นต์ที่เข้ากันกับ OpenAI
 
 ```csharp
 public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| model | String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ. |
-| apiKey | String | คีย์ API (โทเค็น). |
-| baseUrl | String | Base URL ของ LLM ที่เข้ากันได้กับ OpenAI. |
+| model | String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ |
+| apiKey | String | คีย์ API (โทเคน) |
+| baseUrl | String | URL พื้นฐานของ LLM ที่เข้ากันกับ OpenAI |
 
-### ข้อยกเว้น
+### Exceptions
 
-| ข้อยกเว้น | เงื่อนไข |
+| exception | condition |
 | --- | --- |
-| ArgumentException | ค่า API key ไม่สามารถเป็นค่าว่างหรือ null ได้. |
-| ArgumentException | ค่า model ข้อความไม่สามารถเป็นค่าว่างหรือ null ได้. |
-| ArgumentException | ค่า Base URL ไม่สามารถเป็นค่าว่างหรือ null ได้. |
+| ArgumentException | ค่า API key ไม่สามารถเป็น null หรือว่างได้ |
+| ArgumentException | ค่า model ไม่สามารถเป็น null หรือว่างได้ |
+| ArgumentException | ค่า Base URL ไม่สามารถเป็น null หรือว่างได้ |
 
-### ดูเพิ่มเติม
+### See Also
 
 * คลาส [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * เนมสเปซ [Aspose.Slides.AI](../../openaicompatiblewebclient)
@@ -38,29 +38,29 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 
 ## OpenAICompatibleWebClient(string, string, string, HttpClient) {#constructor_1}
 
-สร้างอินสแตนซ์ของเว็บไคลเอนต์ที่เข้ากันได้กับ OpenAI ซึ่งใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ส่งเข้ามาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้
+สร้างอินสแตนซ์ของเว็บไคลเอ็นต์ที่เข้ากันกับ OpenAI ที่ใช้ HttpClient ที่จัดการโดยภายนอก HttpClient ที่ให้มาจะไม่ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้
 
 ```csharp
 public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl, HttpClient httpClient)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| model | String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ. |
-| apiKey | String | คีย์ API (โทเค็น). |
-| baseUrl | String | Base URL ของ LLM ที่เข้ากันได้กับ OpenAI. |
-| httpClient | HttpClient | อินสแตนซ์ HttpClient ที่จัดการจากภายนอก. |
+| model | String | ชื่อโมเดลที่ผู้ให้บริการ LLM รองรับ |
+| apiKey | String | คีย์ API (โทเคน) |
+| baseUrl | String | URL พื้นฐานของ LLM ที่เข้ากันกับ OpenAI |
+| httpClient | HttpClient | อินสแตนซ์ HttpClient ที่จัดการโดยภายนอก |
 
-### ข้อยกเว้น
+### Exceptions
 
-| ข้อยกเว้น | เงื่อนไข |
+| exception | condition |
 | --- | --- |
-| ArgumentException | ค่า API key ไม่สามารถเป็นค่าว่างหรือ null ได้. |
-| ArgumentException | ค่า model ข้อความไม่สามารถเป็นค่าว่างหรือ null ได้. |
-| ArgumentException | ค่า Base URL ไม่สามารถเป็นค่าว่างหรือ null ได้. |
-| ArgumentNullException | HttpClient ไม่สามารถเป็น null ได้. |
+| ArgumentException | ค่า API key ไม่สามารถเป็น null หรือว่างได้ |
+| ArgumentException | ค่า model ไม่สามารถเป็น null หรือว่างได้ |
+| ArgumentException | ค่า Base URL ไม่สามารถเป็น null หรือว่างได้ |
+| ArgumentNullException | HttpClient ไม่สามารถเป็น null ได้ |
 
-### ดูเพิ่มเติม
+### See Also
 
 * คลาส [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * เนมสเปซ [Aspose.Slides.AI](../../openaicompatiblewebclient)

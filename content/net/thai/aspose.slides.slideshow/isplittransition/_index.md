@@ -18,9 +18,9 @@ public interface ISplitTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | ทิศทางของการแยกการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | แนวตั้งของการแยกการเปลี่ยนแปลง. อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Allows to get base ITransitionValueBase interface. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Direction of transition split. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientation of transition split. อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
 
 ### ดูเพิ่มเติม
 

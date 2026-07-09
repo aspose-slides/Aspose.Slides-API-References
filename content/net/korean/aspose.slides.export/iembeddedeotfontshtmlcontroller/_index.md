@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Aspose.Slides for .NET API 레퍼런스
-description: 임베디드 Eot 폰트 HTML 컨트롤러.
+second_title: Aspose.Sildes for .NET API 참조
+description: 내장 Eot 글꼴 HTML 컨트롤러.
 type: docs
 weight: 3900
 url: /ko/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController 인터페이스
 
-임베디드 Eot 폰트 HTML 컨트롤러.
+내장 Eot 글꼴 HTML 컨트롤러.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
@@ -20,7 +20,7 @@ public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController 인터페이스를 반환합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

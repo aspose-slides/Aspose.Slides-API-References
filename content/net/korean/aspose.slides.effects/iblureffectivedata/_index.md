@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
-description: 전체 모양과 채우기에 적용되는 Blur 효과를 나타내는 불변 객체입니다. 알파를 포함한 모든 색상 채널이 영향을 받습니다.
+description: 채우기를 포함한 전체 모양에 적용되는 Blur 효과를 나타내는 불변 객체입니다. 알파를 포함한 모든 색상 채널이 영향을 받습니다.
 type: docs
 weight: 3190
 url: /ko/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData 인터페이스
 
-전체 모양에 적용되는 Blur 효과를 나타내는 불변 객체이며, 채우기 영역을 포함합니다. 알파를 포함한 모든 색상 채널이 영향을 받습니다.
+전체 모양에 적용되는 Blur 효과를 나타내는 불변 객체이며, 채우기까지 포함합니다. 알파 채널을 포함한 모든 색상 채널이 영향을 받습니다.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -16,13 +16,13 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## 속성
 
-| 이�름 | 설명 |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | 블러링 결과 객체의 경계가 확대되어야 하는지를 결정합니다. True는 경계가 확대됨을 나타내고 false는 그렇지 않음을 나타냅니다. 읽기 전용 Boolean. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | 블러링 결과 객체의 경계가 확장되어야 하는지 여부를 결정합니다. true는 경계가 확장됨을, false는 확장되지 않음을 나타냅니다. 읽기 전용 Boolean. |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | 블러 반경을 반환하거나 설정합니다. 읽기 전용 Double. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

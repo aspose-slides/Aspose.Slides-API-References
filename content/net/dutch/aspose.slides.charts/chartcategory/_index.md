@@ -1,14 +1,14 @@
 ---
 title: ChartCategory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt chartcategorieën voor.
+description: Stelt grafiekcategorieën voor.
 type: docs
 weight: 1270
 url: /nl/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory klasse
 
-Stelt chartcategorieën voor.
+Representeert grafiekcategorieën.
 
 ```csharp
 public class ChartCategory : IChartCategory
@@ -18,17 +18,17 @@ public class ChartCategory : IChartCategory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Retourneert of stelt IChartDataCell-object in. Als de categorie multi-level is, wordt IChartDataCell-object gebruikt voor niveau "0". Lezen/schrijven [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Retourneert of stelt AsLiteral-object in. Lezen/schrijven Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Beheerde container van de waarden van de chartcategorie-groeperingsniveaus. Multi-level categorie bevat meer dan één groeperingsniveau. Indexering van groeperingsniveaus begint bij nul. Alleen-lezen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Als true dan is de AsCell-eigenschap geldig. Met andere woorden, werkblad wordt gebruikt voor het opslaan van de categorie (dit geval ondersteunt een multi-level categorie). Als false dan is de AsLiteral-eigenschap geldig. Met andere woorden, werkblad wordt NIET gebruikt voor het opslaan van de categorie (en dit geval ondersteunt geen multi-level categorieën). Alleen-lezen Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Als UseCell true is, vertegenwoordigt deze eigenschap de AsCell.Value-eigenschap. Als UseCell false is, vertegenwoordigt deze eigenschap de AsLiteral-eigenschap. Lezen/schrijven Object. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | Geeft of stelt IChartDataCell object in. Als de categorie meerlagig is, wordt het IChartDataCell-object voor niveau "0" gebruikt. Lezen/Schrijven [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | Geeft of stelt AsLiteral object in. Lezen/Schrijven Object. |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Beheerde container van de waarden van de groeperingsniveaus van de grafiekcategorie. Meerlagige categorie bevat meer dan één groeperingsniveau. Indexering van groeperingsniveaus is nulgebaseerd. Alleen-lezen [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Als true dan is de AsCell-eigenschap actueel. Met andere woorden, werkblad wordt gebruikt voor het opslaan van de categorie (dit geval ondersteunt een meerlagige categorie). Als false dan is de AsLiteral-eigenschap actueel. Met andere woorden, werkblad wordt NIET gebruikt voor het opslaan van de categorie (en dit geval ondersteunt geen meerlagige categorieën). Alleen-lezen Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | Als UseCell true is, dan vertegenwoordigt deze eigenschap de AsCell.Value-eigenschap. Als UseCell false is, dan vertegenwoordigt deze eigenschap de AsLiteral-eigenschap. Lezen/Schrijven Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides.charts/chartcategory/remove)() | Verwijdert categorie uit de chart. |
+| [Remove](../../aspose.slides.charts/chartcategory/remove)() | Verwijdert de categorie van de grafiek. |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: IPortion
-second_title: Aspose.Slides for .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テキスト段落内のテキストの一部を表します。
 type: docs
-weight: 6680
+weight: 6700
 url: /ja/aspose.slides/iportion/
 ---
 ## IPortion インターフェイス
@@ -18,10 +18,10 @@ public interface IPortion : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。 読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
-| [Field](../../aspose.slides/iportion/field) { get; } | この部分のフィールドを返します。 読み取り専用 [`IField`](../ifield)。 |
-| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 継承が適用されない、テキスト部分に対して明示的に設定された書式プロパティを含む書式オブジェクトを返します。 読み取り専用 [`IPortionFormat`](../iportionformat)。 |
-| [Text](../../aspose.slides/iportion/text) { get; set; } | 部分のプレーンテキストを取得または設定します。 読み書き可能 String。 |
+| [AsISlideComponent](../../aspose.slides/iportion/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
+| [Field](../../aspose.slides/iportion/field) { get; } | この部分のフィールドを返します。読み取り専用 [`IField`](../ifield)。 |
+| [PortionFormat](../../aspose.slides/iportion/portionformat) { get; } | 継承が適用されていないテキスト部分の明示的に設定された書式プロパティを含む書式オブジェクトを返します。読み取り専用 [`IPortionFormat`](../iportionformat)。 |
+| [Text](../../aspose.slides/iportion/text) { get; set; } | 部分のプレーンテキストを取得または設定します。読み書き可能な String。 |
 
 ## メソッド
 
@@ -29,8 +29,8 @@ public interface IPortion : ISlideComponent
 | --- | --- |
 | [AddField](../../aspose.slides/iportion/addfield#addfield)(IFieldType) | この部分を自動的に更新されるフィールドに変換します。 |
 | [AddField](../../aspose.slides/iportion/addfield#addfield_1)(string) | この部分を自動的に更新されるフィールドに変換します。 |
-| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 部分の開始位置の座標を取得します。ポイントの X 座標は、左側ベアリングを含む最初の文字からの部分の開始を表します。Y 座標は上側ベアリングを含みます。 |
-| [GetRect](../../aspose.slides/iportion/getrect)() | 部分を囲む矩形の座標を取得します。矩形には、空行を含む部分のすべてのテキスト行が含まれます。 |
+| [GetCoordinates](../../aspose.slides/iportion/getcoordinates)() | 部分の開始位置の座標を取得します。ポイントの X 座標は左側ベアリングを含む最初の文字からの部分開始位置を表します。Y 座標は上側ベアリングを含みます。 |
+| [GetRect](../../aspose.slides/iportion/getrect)() | 部分を囲む矩形の座標を取得します。矩形は空行も含め、部分内のすべてのテキスト行を含みます。 |
 | [RemoveField](../../aspose.slides/iportion/removefield)() | このフィールド部分をシンプルな部分に変換します。 |
 
 ### 参照

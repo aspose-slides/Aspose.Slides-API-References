@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表資料活頁簿工作表的集合。
+description: 表示圖表資料工作簿的工作表集合。
 type: docs
 weight: 1880
 url: /zh-hant/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection 介面
 
-表示圖表資料活頁簿工作表的集合。
+表示圖表資料工作簿的工作表集合。
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -16,9 +16,9 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | 依索引傳回工作表。 |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | 依索引返回工作表。 |
 
 ### 範例
 

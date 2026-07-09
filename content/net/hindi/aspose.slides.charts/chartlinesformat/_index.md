@@ -1,25 +1,25 @@
 ---
 title: ChartLinesFormat
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ग्रिडलाइन स्वरूप गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ग्रिडलाइन फॉर्मेट गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 1410
 url: /hi/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat क्लास
 
-ग्रिडलाइन स्वरूप गुणों का प्रतिनिधित्व करता है।
+चार्ट लाइनों की ग्रिडलाइन फ़ॉर्मेट गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class ChartLinesFormat : IChartLinesFormat
 ```
 
-## गुण
+## प्रॉपर्टीज
 
 | नाम | विवरण |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | एक चार्ट लाइन के लिए उपयोग किए गए प्रभाव लौटाता है। केवल पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | एक चार्ट लाइन की रेखा शैली गुणों को लौटाता है। केवल पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/chartlinesformat/effect) { get; } | एक चार्ट लाइन के लिए उपयोग किए गए प्रभाव लौटाता है। केवल-पढ़ने योग्य [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/chartlinesformat/line) { get; } | एक चार्ट लाइन की लाइन शैली गुणों को लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### संबंधित देखें
 

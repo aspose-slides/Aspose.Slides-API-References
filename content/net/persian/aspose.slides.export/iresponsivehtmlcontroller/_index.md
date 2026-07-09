@@ -1,26 +1,26 @@
 ---
 title: IResponsiveHtmlController
 second_title: مرجع API Aspose.Sildes برای .NET
-description: کنترل‌کننده HTML واکنش‌گرا
+description: کنترلر HTML واکنش‌گرا
 type: docs
 weight: 4050
 url: /fa/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController رابط
 
-کنترل‌کننده HTML واکنش‌گرا
+کنترلر HTML واکنش‌گرا
 
 ```csharp
 public interface IResponsiveHtmlController : IHtmlFormattingController
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | باز می‌گرداند IHtmlFormattingController رابط. |
+| [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | باز می‌گرداند رابط IHtmlFormattingController. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IHtmlFormattingController](../ihtmlformattingcontroller)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)

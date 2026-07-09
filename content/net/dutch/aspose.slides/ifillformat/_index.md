@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt een vullingsopmaakoptie voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een vulopmaakoptie voor.
 type: docs
 weight: 5790
 url: /nl/aspose.slides/ifillformat/
 ---
 ## IFillFormat interface
 
-Represents a fill formatting options.
+Stelt een vulopmaakoptie voor.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -18,19 +18,19 @@ public interface IFillFormat : IFillParamSource
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Stelt toe om de basis IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Geeft het type vulling terug of stelt het in. Lezen/Schrijven [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Geeft het verloop vullingformaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Geeft het patroonvullingformaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Geeft het beeldvullingformaat terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling moet worden geroteerd met de vorm. Lezen/Schrijven [`NullableBool`](../nullablebool). |
+| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | Staat toe de basis-IFillParamSource-interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | Geeft het type vulling terug of stelt het in. Lezen/schrijven [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | Geeft het verloopvulformaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | Geeft het patroonvulformaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | Geeft het afbeeldingsvulformaat terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling moet worden geroteerd met de vorm. Lezen/schrijven [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | Geeft de vulkleur terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Haalt effectieve vullingsopmaakgegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | Haalt effectieve vulopmaakgegevens op met de toegepaste overerving. |
 
 ### Zie ook
 

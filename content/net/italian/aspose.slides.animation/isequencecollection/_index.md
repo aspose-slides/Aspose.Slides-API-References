@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una collezione di sequenze interattive.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di sequenze interattive.
 type: docs
-weight: 580
+weight: 600
 url: /it/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection interfaccia
 
-Rappresenta una collezione di sequenze interattive.
+Rappresenta una raccolta di sequenze interattive.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -18,8 +18,8 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable in sola lettura. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Restituisce il numero di elementi in una collezione. Int32 in sola lettura. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | Restituisce l'interfaccia IEnumerable. IEnumerable sola lettura. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | Restituisce il numero di elementi in una raccolta. Int32 sola lettura. |
 | [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | Restituisce una sequenza all'indice specificato. |
 
 ## Metodi
@@ -27,8 +27,8 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 | Nome | Descrizione |
 | --- | --- |
 | [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | Aggiunge una nuova sequenza interattiva. |
-| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Rimuove tutte le sequenze da una collezione. |
-| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Rimuove la sequenza specificata da una collezione. |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | Rimuove tutte le sequenze da una raccolta. |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | Rimuove la sequenza specificata da una raccolta. |
 | [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | Rimuove la sequenza all'indice specificato. |
 
 ### Vedi anche

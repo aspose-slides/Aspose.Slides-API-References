@@ -1,14 +1,14 @@
 ---
 title: MaterialPresetType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Các hằng số định nghĩa vật liệu của hình dạng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Các hằng số xác định vật liệu của hình dạng.
 type: docs
 weight: 8060
 url: /vi/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enum
 
-Các hằng số định nghĩa vật liệu của hình dạng.
+Các hằng số xác định vật liệu của hình dạng.
 
 ```csharp
 public enum MaterialPresetType
@@ -35,7 +35,7 @@ public enum MaterialPresetType
 | TranslucentPowder | `13` |  |
 | WarmMatte | `14` |  |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

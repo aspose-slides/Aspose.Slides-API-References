@@ -1,12 +1,12 @@
 ---
 title: CommentCollection
-second_title: Referência de API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de comentários de um autor.
 type: docs
-weight: 2630
+weight: 2650
 url: /pt/aspose.slides/commentcollection/
 ---
-## CommentCollection classe
+## CommentCollection class
 
 Representa uma coleção de comentários de um autor.
 
@@ -19,9 +19,9 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/commentcollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Retorna a raiz de sincronização. Somente leitura Object. |
 
 ## Métodos
 

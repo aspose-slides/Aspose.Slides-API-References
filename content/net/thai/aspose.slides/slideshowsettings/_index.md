@@ -1,31 +1,31 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงการตั้งค่าการแสดงสไลด์สำหรับงานนำเสนอ
+description: เป็นตัวแทนของการตั้งค่าสไลด์โชว์สำหรับการนำเสนอ.
 type: docs
 weight: 10480
 url: /th/aspose.slides/slideshowsettings/
 ---
-## คลาส SlideShowSettings
+## SlideShowSettings คลาส
 
-แสดงถึงการตั้งค่าการแสดงสไลด์สำหรับงานนำเสนอ
+เป็นตัวแทนของการตั้งค่าสไลด์โชว์สำหรับการนำเสนอ
 
 ```csharp
 public class SlideShowSettings
 ```
 
-## คุณสมบัติ
+## Properties
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | วนการแสดงสไลด์ |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | สีปากกา สำหรับการแสดงสไลด์ |
-| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | แสดงภาพเคลื่อนไหวในการแสดงสไลด์ |
-| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | แสดงตัวควบคุมสื่อ |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | แสดงบรรยายในการแสดงสไลด์ |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | วนลูปสไลด์โชว์ |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | สีปากกาสำหรับสไลด์โชว์ |
+| [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | แสดงการเคลื่อนไหวในสไลด์โชว์ |
+| [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | แสดงการควบคุมสื่อ |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | แสดงคำบรรยายในสไลด์โชว์ |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | ช่วงสไลด์ |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | รับหรือกำหนดประเภทการแสดงสไลด์ แสดงโดยบรรพบุรุษต่อไปนี้: [`SlideShowType`](./slideshowtype) [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) และ [`BrowsedByIndividual`](../browsedbyindividual) |
-| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | ใช้การกำหนดเวลาในการแสดงสไลด์ |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | รับหรือกำหนดประเภทสไลด์โชว์. แสดงโดยบรรพบุรุษต่อไปนี้: [`SlideShowType`](./slideshowtype) [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) และ [`BrowsedByIndividual`](../browsedbyindividual) |
+| [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | ใช้การตั้งเวลาในสไลด์โชว์ |
 
 ### ดูเพิ่มเติม
 

@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | 기본 IBulkTextFormattable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | 기본 ICellCollection 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ICellCollection`](../icellcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | IBulkTextFormattable 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | ICellCollection 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ICellCollection`](../icellcollection). |
 | [Height](../../aspose.slides/irow/height) { get; } | 행의 높이를 반환합니다. 읽기 전용 Double. |
 | [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | 행의 최소 가능한 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 이 행에 대한 서식 속성을 포함하는 RowFormat 객체를 반환합니다. 읽기 전용 [`IRowFormat`](../irowformat). |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | 이 행에 대한 형식 속성을 포함하는 RowFormat 객체를 반환합니다. 읽기 전용 [`IRowFormat`](../irowformat). |
 
 ### 참고
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorkbook
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Zapewnia dostęp do osadzonego skoroszytu Excel
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Zapewnia dostęp do wbudowanego skoroszytu Excel
 type: docs
-weight: 1840
+weight: 1860
 url: /pl/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interfejs
 
-Zapewnia dostęp do osadzonego skoroszytu Excel
+Zapewnia dostęp do wbudowanego skoroszytu Excel
 
 ```csharp
 public interface IChartDataWorkbook
@@ -25,12 +25,12 @@ public interface IChartDataWorkbook
 | Nazwa | Opis |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/ichartdataworkbook/calculateformulas)() | Oblicza wszystkie formuły w skoroszycie i aktualizuje odpowiadające wartości komórek. |
-| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Usuwa wszystkie wartości komórek w arkuszu. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii. |
-| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii. |
+| [Clear](../../aspose.slides.charts/ichartdataworkbook/clear)(int) | Czyści wszystkie wartości komórek w arkuszu |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_2)(int, string) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell)(int, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_3)(int, string, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_4)(string, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/ichartdataworkbook/getcell#getcell_1)(int, int, int, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
 | [GetCellCollection](../../aspose.slides.charts/ichartdataworkbook/getcellcollection)(string, bool) | Zwraca zestaw komórek. |
 
 ### Zobacz także

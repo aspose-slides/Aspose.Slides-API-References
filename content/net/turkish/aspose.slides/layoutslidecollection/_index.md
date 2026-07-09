@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Layout slaytları koleksiyonunun temel sınıfını temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Düzen slaytları koleksiyonu için temel bir sınıfı temsil eder.
 type: docs
-weight: 7630
+weight: 7650
 url: /tr/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection sınıfı
 
-Koleksiyonun bir layout slaytları temeli sınıfını temsil eder.
+Düzen slaytları koleksiyonu için temel bir sınıfı temsil eder.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -18,22 +18,22 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Koleksiyondaki layout slaytlarının sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Dizine göre layout slaytını döndürür. Salt okunur [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Bir koleksiyondaki düzen slaytlarının sayısını döndürür. Yalnızca okunan Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunan Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | İndexe göre düzen slaytını döndürür. Yalnızca okunan [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunan Object. |
 
-## Yöntemler
+## Metotlar
 
 | Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen tipteki ilk layout slaytı döndürür. Bulunacak layout slayt tipi.[`LayoutSlide`](../layoutslide) belirtilen tipte veya bulunamazsa null. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyondan geçerek yineleyebilen bir enumerator döndürür. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir layout kaldırır. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Kullanılmayan layout slaytlarını kaldırır (HasDependingSlides özelliği false olan layout slaytları). |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türdeki ilk düzen slaytını döndürür. Bulunacak düzen slaytının türü. [`LayoutSlide`](../layoutslide) belirtilen türle veya hiçbir düzen bulunamazsa null. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir düzeni kaldırır. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Kullanılmayan düzen slaytlarını kaldırır (HasDependingSlides özelliği false olan düzen slaytları). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [ILayoutSlideCollection](../ilayoutslidecollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

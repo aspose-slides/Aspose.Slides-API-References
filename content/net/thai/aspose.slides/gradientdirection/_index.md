@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไตล์การไล่สี.
+description: แสดงถึงสไตล์ของการไล่ระดับสี.
 type: docs
 weight: 4990
 url: /th/aspose.slides/gradientdirection/
 ---
-## GradientDirection การระบุค่า
+## GradientDirection enumeration
 
-แสดงสไตล์การไล่สี.
+แสดงถึงสไตล์ของการไล่ระดับสี.
 
 ```csharp
 public enum GradientDirection

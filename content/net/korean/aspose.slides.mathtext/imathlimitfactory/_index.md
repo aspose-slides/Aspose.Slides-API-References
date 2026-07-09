@@ -25,7 +25,7 @@ public interface IMathLimitFactory
 
 COM 호환성을 위해
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

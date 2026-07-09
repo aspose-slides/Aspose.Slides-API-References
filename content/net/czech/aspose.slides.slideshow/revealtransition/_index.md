@@ -1,9 +1,9 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Efekt přechodu snímku Reveal.
 type: docs
-weight: 10260
+weight: 10280
 url: /cs/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition třída
@@ -19,14 +19,14 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Název | Popis |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Směr přechodu. Čtení/Zápis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Určuje, zda přechod postupně mizí do černé. Čtení/Zápis Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Určuje, zda přechod zeslábne do černé. Čtení/Zápis Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase stejné. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hash funkce pro konkrétní typ, vhodná pro použití v hash algoritmech a datových strukturách, jako je hash tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase si rovny. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 

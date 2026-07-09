@@ -4,31 +4,32 @@ type: docs
 weight: 10
 url: /zh/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides 是 Microsoft PowerPoint® 管理 API，使软件应用能够读取和写入 PowerPoint® 文档，而无需使用 Microsoft PowerPoint®。
+description: Aspose.Slides 是 Microsoft PowerPoint® 管理 API，使软件应用程序能够在不使用 Microsoft PowerPoint® 的情况下读取和写入 PowerPoint® 文档。
 is_root: true
 ---
-
 ## 命名空间
 
 | 命名空间 | 描述 |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | 包含用于处理 Microsoft PowerPoint 演示文稿的类，而无需使用 Microsoft PowerPoint。 |
+| [Aspose.Slides](./aspose.slides) | 包含用于在不使用 Microsoft PowerPoint 的情况下处理 Microsoft PowerPoint 演示文稿的类。 |
+| [Aspose.Slides.AI](./aspose.slides.ai) | 包含提供基于 AI 的功能用于分析和处理 PowerPoint 演示文稿的类。 |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | 包含用于处理 Microsoft PowerPoint 演示文稿中动画的类。 |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | 包含用于处理 Microsoft PowerPoint 演示文稿中图表的类。 |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | 包含用于处理 Microsoft PowerPoint 演示文稿中 OLE 对象的类。 |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | 包含用于处理 Microsoft PowerPoint 演示文稿中各种效果的类。 |
-| [Aspose.Slides.Export](./aspose.slides.export) | 包含将 Microsoft PowerPoint 演示文稿导出为不同格式的类，如 Html、Pdf、Svg、Xps 等。 |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | 包含用于将 Microsoft PowerPoint 演示文稿导出为 Html 的类，附带扩展项目。 |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | 包含将 Microsoft PowerPoint 演示文稿导出为 XAML 的类。 |
-| [Aspose.Slides.Import](./aspose.slides.import) | 包含将数据导入 Microsoft PowerPoint 演示文稿的类。 |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | 包含用于处理外部 Microsoft Excel 电子表格的类。 |
+| [Aspose.Slides.Export](./aspose.slides.export) | 包含用于将 Microsoft PowerPoint 演示文稿导出为 Html、Pdf、Svg、Xps 等不同格式的类。 |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | 包含用于将 Microsoft PowerPoint 演示文稿导出为 Html 并带有扩展项目的类。 |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | 包含用于将 Microsoft PowerPoint 演示文稿导出为 XAML 的类。 |
+| [Aspose.Slides.Import](./aspose.slides.import) | 包含用于将数据导入 Microsoft PowerPoint 演示文稿的类。 |
 | [Aspose.Slides.Ink](./aspose.slides.ink) | 包含用于处理 Ink 的类。 |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | 包含处理复杂通用操作的类和方法，以低代码方式实现。 |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | 包含用于以低代码方式处理复杂通用操作的类和方法。 |
 | [Aspose.Slides.MathText](./aspose.slides.mathtext) | 包含用于处理 Microsoft PowerPoint 演示文稿中数学文本的类。 |
 | [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | 包含用于管理幻灯片放映和幻灯片切换的类 |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | 包含用于处理 SmartArt 对象的类 |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | 包含用于处理 Microsoft PowerPoint 演示文稿中的电子表格对象的类。 |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | 包含用于处理 Microsoft PowerPoint 演示文稿中电子表格对象的类。 |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | 包含用于处理不同类型主题的类。 |
-| [Aspose.Slides.Util](./aspose.slides.util) | 包含有助于处理演示文稿的工具类。 |
+| [Aspose.Slides.Util](./aspose.slides.util) | 包含帮助处理演示文稿的实用类。 |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | 包含用于处理 VBA 宏的类 |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | 包含表示各种警告的类 |
 

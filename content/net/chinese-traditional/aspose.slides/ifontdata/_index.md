@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示字型定義。
 type: docs
 weight: 5830
@@ -18,13 +18,13 @@ public interface IFontData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 傳回字型名稱。唯讀 String。 |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | 返回字型名稱。唯讀 String。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | 傳回字型名稱，將佈景主題參照取代為實際使用的字型。 |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | 返回字型名稱，將主題參照取代為實際使用的字型。 |
 
 ### 另請參閱
 

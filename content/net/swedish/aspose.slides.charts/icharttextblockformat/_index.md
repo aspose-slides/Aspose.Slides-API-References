@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar formateringsegenskaper för diagramtextelement.
+description: Representerar formateringsattribut för diagramtext-element.
 type: docs
-weight: 1960
+weight: 1980
 url: /sv/aspose.slides.charts/icharttextblockformat/
 ---
 ## IChartTextBlockFormat gränssnitt
 
-Representerar formateringsegenskaper för diagramtextelement.
+Representerar formateringsattribut för diagramtext-element.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -16,22 +16,22 @@ public interface IChartTextBlockFormat
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Returnerar eller anger vertikal förankringstext i en TextFrame. Läs/skriv [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Returnerar eller anger textens autofit-läge. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har det ingen effekt vid rendering). Läs/skriv [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Returnerar eller anger vertikal ankaretext i en TextFrame. Läs/skriv [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Returnerar eller anger textens autofit-läge. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har ingen effekt på rendering). Läs/skriv [`TextAutofitType`](../../aspose.slides/textautofittype). |
 | [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Om NullableBool.True ska texten centreras i rutan horisontellt. Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Returnerar eller anger den nedre marginalen (points) i en TextFrame. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har det ingen effekt vid rendering). Läs/skriv Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Returnerar eller anger den vänstra marginalen (points) i en TextFrame. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har det ingen effekt vid rendering). Läs/skriv Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Returnerar eller anger den högra marginalen (points) i en TextFrame. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har det ingen effekt vid rendering). Läs/skriv Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Returnerar eller anger den övre marginalen (points) i en TextFrame. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har det ingen effekt vid rendering). Läs/skriv Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Anger den anpassade rotation som tillämpas på texten inom den omgivande rutan. Om den inte anges används rotationen för den medföljande formen. Om den anges tillämpas den oberoende av formen. Det innebär att formen kan ha en rotation utöver att texten själv har en rotation. Det resulterande värdet för visuell textrotation sammanfattas från denna egenskap och den fördefinierade vertikala typen i egenskapen TextVerticalType. Läs/skriv Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Bestämmer textens orientering. Det resulterande värdet för visuell textrotation sammanfattas från denna egenskap och anpassad vinkel i egenskapen RotationAngle. Läs/skriv [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** om texten radbryts vid TextFrames marginaler. Ändring av denna egenskap kan ha viss påverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2007/2013). Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Returnerar eller anger den nedre marginalen (punkter) i en TextFrame. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har ingen effekt på rendering). Läs/skriv Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Returnerar eller anger den vänstra marginalen (punkter) i en TextFrame. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har ingen effekt på rendering). Läs/skriv Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Returnerar eller anger den högra marginalen (punkter) i en TextFrame. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har ingen effekt på rendering). Läs/skriv Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Returnerar eller anger den övre marginalen (punkter) i en TextFrame. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2013; i PowerPoint 2007 har ingen effekt på rendering). Läs/skriv Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Anger den anpassade rotation som tillämpas på texten inom den omgivande rutan. Om den inte anges används rotationen för den medföljande formen. Om den anges tillämpas den oberoende av formen. Det innebär att formen kan ha en rotation utöver att texten själv har en rotation. Det resulterande värdet för visuell textrotation summeras från denna egenskap och den fördefinierade vertikala typen i egenskapen TextVerticalType. Läs/skriv Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Bestämmer textorientering. Det resulterande värdet för visuell textrotation summeras från denna egenskap och den anpassade vinkeln i egenskapen RotationAngle. Läs/skriv [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** om texten omsluts vid TextFrames marginaler. Ändring av denna egenskap kan ha viss inverkan endast för dessa diagramdelar: DataLabel och DataLabelFormat (fullt stöd i PowerPoint 2007/2013). Läs/skriv [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Se också
+### Se även
 
-* namnutrymme [Aspose.Slides.Charts](../../aspose.slides.charts)
-* montering [Aspose.Slides](../../)
+* namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

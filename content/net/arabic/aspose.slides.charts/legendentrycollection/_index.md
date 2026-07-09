@@ -1,6 +1,6 @@
 ---
 title: LegendEntryCollection
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة الأساطير.
 type: docs
 weight: 2300
@@ -18,8 +18,8 @@ public class LegendEntryCollection : ILegendEntryCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | يحصل على عدد إدخالات الأسطورة. للقراءة فقط Int32. |
-| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | يحصل على خصائص إدخال الأسطورة المقابل لـ Chart.ChartData.Series[0].DataPoints[index] في حالة نوع المخطط من القائمة التالية: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie؛ أو المقابل لـ Chart.ChartData.Series[index] لأنواع المخططات الأخرى. |
+| [Count](../../aspose.slides.charts/legendentrycollection/count) { get; } | يحصل على عدد إدخالات الأسطورة. قراءة فقط Int32. |
+| [Item](../../aspose.slides.charts/legendentrycollection/item) { get; } | يحصل على خصائص مدخل الأسطورة المقابل لـ Chart.ChartData.Series[0].DataPoints[index] في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie؛ أو المقابل لـ Chart.ChartData.Series[index] للأنواع الأخرى من المخططات. |
 
 ### انظر أيضًا
 

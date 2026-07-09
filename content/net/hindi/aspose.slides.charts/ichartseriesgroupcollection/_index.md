@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: संयोज्य श्रृंखलाओं के समूहों के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: संयोज्य सीरीज़ के समूहों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 1960
 url: /hi/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection इंटरफ़ेस
 
-Represents the collection of groups of combinable series.
+सीरीज़ के संयोज्य समूहों के संग्रह का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -20,12 +20,11 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 | --- | --- |
 | [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | सीरीज़ द्वारा सीरीज़ समूह प्राप्त करता है। (2 इंडेक्सर) |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-1) प्रत्येक सीरीज़ समूह में संयोज्य प्रकार की सीरीज़ शामिल होती हैं। संयोज्य सीरीज़ प्रकार के समूह CombinableSeriesTypesGroup enum के साथ परिभाषित और वर्णित किए गए हैं। इसके अलावा, प्रत्येक सीरीज़ समूह में ऐसी सीरीज़ शामिल होती हैं जो प्राथमिक अक्षों या द्वितीयक अक्षों पर प्लॉट की जाती हैं (एक ही समूह में दोनों मामलों नहीं)। इस प्रकार, सीरीज़ समूह बनाने का सिद्धांत ऊपर उल्लिखित प्रकार समूहों और प्राथमिक/द्वितीयक प्लॉटिंग प्रकार द्वारा समूह बनाना है।  
-2) सीरीज़ समूह में कुछ सीरीज़ गुण होते हैं जो समूह की प्रत्येक सीरीज़ के लिए सामान्य होते हैं ("series group properties")। "Series group properties" ChartSeriesGroup क्लास में पढ़ने/लिखने योग्य है। प्रत्येक "series group properties" का ChartSeries क्लास में एक केवल-पढ़ने योग्य प्रोजेक्शन हो सकता है।
+1) प्रत्येक सीरीज़ समूह में संयोज्य प्रकार वाली सीरीज़ होती हैं। संयोज्य सीरीज़ प्रकारों के समूह CombinableSeriesTypesGroup enum द्वारा परिभाषित और वर्णित हैं। साथ ही प्रत्येक सीरीज़ समूह में ऐसी सीरीज़ होती हैं जो प्राथमिक अक्षों या द्वितीयक अक्षों पर प्लॉट की जाती हैं (एक ही समूह में दोनों मामलों को नहीं रखा जाता)। इसलिए, सीरीज़ समूह بندی का सिद्धांत ऊपर उल्लिखित प्रकार समूह और प्राथमिक/द्वितीयक प्लॉटिंग प्रकार के आधार पर समूह बनाना है। 2) सीरीज़ समूह में कुछ सीरीज़ प्रॉपर्टीज़ होती हैं जो समूह की प्रत्येक सीरीज़ के लिए सामान्य होती हैं ("series group properties")। ChartSeriesGroup class में "series group properties" पढ़ने/लिखने योग्य हैं। प्रत्येक "series group properties" का एक केवल-पढ़ने योग्य प्रोजेक्शन ChartSeries class में हो सकता है।
 
-### संबंधित
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IChartSeriesGroup](../ichartseriesgroup)

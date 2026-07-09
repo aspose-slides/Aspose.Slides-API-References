@@ -1,9 +1,9 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Etkinin döndürme davranışını temsil eder.
 type: docs
-weight: 750
+weight: 770
 url: /tr/aspose.slides.animation/rotationeffect/
 ---
 ## RotationEffect sınıfı
@@ -24,13 +24,13 @@ public class RotationEffect : Behavior, IRotationEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunur/yazılır [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okunur/yazılır [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Animasyon için göreli ofset değerini açıklar. Okunur/yazılır Single. |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Animasyon için başlangıç değerini açıklar. Okunur/yazılır Single. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikimli olup olmadığını temsil eder. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okuma/Yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | Animasyon için göreli ofset değerini tanımlar. Okuma/Yazma Single. |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | Animasyon için başlangıç değerini tanımlar. Okuma/Yazma Single. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okuma [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okunur/yazılır [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Animasyon için bitiş değerini açıklar. Okunur/yazılır Single. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okuma/Yazma [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | Animasyon için bitiş değerini tanımlar. Okuma/Yazma Single. |
 
 ### Ayrıca Bakınız
 

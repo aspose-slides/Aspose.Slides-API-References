@@ -1,14 +1,13 @@
 ---
 title: CommonSlideViewProperties
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Ortak slayt görünüm özelliklerini temsil eder.
 type: docs
-weight: 2640
+weight: 2660
 url: /tr/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties sınıf
-
-Ortak slayt görünümü özelliklerini temsil eder.
+Ortak slayt görünüm özelliklerini temsil eder.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,9 +17,9 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Yalnızca okuma [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirler. Okuma/yazma Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde otomatik olarak ölçeklenmesi gerektiğini belirler. Okuma/yazma Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Yalnızca okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirtir. Okunur/yazılabilir Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde sığacak şekilde otomatik olarak ölçeklenmesi gerektiğini belirtir. Okunur/yazılabilir Boolean. |
 
 ### Örnekler
 
@@ -28,7 +27,7 @@ Aşağıdaki örnek, PowerPoint Sunumu slaytı için yakınlaştırma değerinin
 
 ```csharp
 [C#]
-// Sunum dosyasını temsil eden bir Presentation nesnesi oluşturur
+// Bir sunum dosyasını temsil eden Presentation nesnesi oluşturur
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     // Sunumun Görünüm Özelliklerini ayarlama

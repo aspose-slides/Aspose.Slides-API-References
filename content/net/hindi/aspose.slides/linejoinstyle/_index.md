@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: लाइन जॉइन स्टाइल का प्रतिनिधित्व करता है।
+description: लाइन जॉइन शैली का प्रतिनिधित्व करता है।
 type: docs
 weight: 7800
 url: /hi/aspose.slides/linejoinstyle/
 ---
-## LineJoinStyle एन्यूमरेशन
+## LineJoinStyle एन्युमरेशन
 
-लाइन जॉइन स्टाइल का प्रतिनिधित्व करता है।
+लाइन जॉइन शैली का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum LineJoinStyle : sbyte
@@ -23,7 +23,7 @@ public enum LineJoinStyle : sbyte
 | Bevel | `1` |  |
 | Miter | `2` |  |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

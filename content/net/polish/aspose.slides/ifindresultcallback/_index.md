@@ -1,9 +1,9 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Interfejs wywołania zwrotnego używany do uzyskiwania wyników wyszukiwania tekstu.
 type: docs
-weight: 5800
+weight: 5820
 url: /pl/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback interfejs
@@ -18,7 +18,7 @@ public interface IFindResultCallback
 
 | Nazwa | Opis |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Metoda wywołania zwrotnego, która otrzymuje dane o znalezionym tekście. |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | Metoda wywołania zwrotnego, która odbiera dane o znalezionym tekście. |
 
 ### Zobacz także
 

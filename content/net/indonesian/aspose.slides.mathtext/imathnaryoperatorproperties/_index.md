@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan properti dari IMathNaryOperator
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan properti IMathNaryOperator
 type: docs
-weight: 8360
+weight: 8380
 url: /id/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
-## Antarmuka IMathNaryOperatorProperties
+## IMathNaryOperatorProperties antarmuka
 
-Menentukan properti dari IMathNaryOperator
+Specifies properties of IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Karakter Operator tumbuh secara vertikal untuk menyesuaikan tinggi operannya |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Karakter Operator tumbuh secara vertikal untuk cocok dengan tinggi operannya |
 | [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Sembunyikan Subskrip |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Sembunyikan Superskrip |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Lokasi batas (subskrip dan superskrip) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Karakter Operator N-ary. Misalnya: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Karakter Operator Nary Misalnya: '∑', '∫' |
 
 ### Lihat Juga
 

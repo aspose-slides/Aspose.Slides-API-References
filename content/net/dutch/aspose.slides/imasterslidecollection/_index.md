@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling masterdia's voor.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Representeert een verzameling masterdia's.
 type: docs
 weight: 6430
 url: /nl/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interface
 
-Stelt een verzameling masterdia's voor.
+Representeert een verzameling masterdia's.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -20,14 +20,14 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 | --- | --- |
 | [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`IMasterSlide`](../imasterslide). |
 
-## Methoden
+## Methodes
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Voegt een kopie van een opgegeven masterdia toe aan het einde van de collectie. Gekoppelde layoutdia's worden ook gekopieerd. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Voegt een kopie van een opgegeven masterdia in op een opgegeven positie in de collectie. Gekoppelde layoutdia's worden ook gekopieerd. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Verwijdert het eerste voorkomen van een specifiek object uit de collectie. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Voegt een kopie van een opgegeven masterdia toe aan het einde van de verzameling. Gekoppelde lay-outdia's worden ook gekopieerd. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Voegt een kopie van een opgegeven masterdia in op de opgegeven positie van de verzameling. Gekoppelde lay-outdia's worden ook gekopieerd. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Verwijdert de eerste instantie van een specifiek object uit de verzameling. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Verwijdert het element op de opgegeven index van de verzameling. |
 | [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Verwijdert ongebruikte masterdia's. |
 
 ### Zie ook

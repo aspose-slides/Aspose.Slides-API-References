@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType 列舉
 
-定義 Zoom 物件是使用投影片預覽或封面圖像。
+定義 Zoom 物件是使用投影片預覽還是封面圖像。
 
 ```csharp
 public enum ZoomImageType
@@ -16,12 +16,12 @@ public enum ZoomImageType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Preview | `1` | 使用投影片或章節的圖像。 |
+| Preview | `1` | 使用投影片或章節的影像。 |
 | Cover | `2` | 使用自訂圖像。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

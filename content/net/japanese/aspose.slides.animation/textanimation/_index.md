@@ -1,9 +1,9 @@
 ---
 title: TextAnimation
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テキスト アニメーションを表します。
 type: docs
-weight: 800
+weight: 820
 url: /ja/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation クラス
@@ -14,24 +14,24 @@ url: /ja/aspose.slides.animation/textanimation/
 public class TextAnimation : ITextAnimation
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [TextAnimation](textanimation)() | デフォルト コンストラクターです。 |
+| [TextAnimation](textanimation)() | デフォルト コンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | テキスト アニメーションのビルド タイプのリスト（例: Paragraph 1,2,3, All at Once）。読み書き [`BuildType`](../buildtype)。 |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | グループがあるかないかに関係するリンクされたシェイプ効果（null）。読み書き [`IEffect`](../ieffect)。 |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | テキスト アニメーションのビルド タイプの一覧 (例: Paragraph 1,2,3, All at Once)。読み書き [`BuildType`](../buildtype)。 |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | グループとリンクされたシェイプ効果、またはなし (null)。読み書き [`IEffect`](../ieffect)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 現在のシーケンスの末尾に新しい効果を追加し、グループ テキスト アニメーションの末尾に配置します。このグループの効果数と同じかそれ以上のテキスト段落数がある場合にのみ有効です！ |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | 現在のシーケンスの最後に新しい効果を追加し、グループ テキスト アニメーションの末尾に配置します。テキスト段落の数がこのグループの効果数と同じかそれ以上の場合にのみ有効です！ |
 
 ### 参照
 

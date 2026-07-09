@@ -1,6 +1,6 @@
 ---
 title: IFontFallBackRule
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Slides cho .NET
 description: Biểu diễn quy tắc dự phòng phông chữ
 type: docs
 weight: 5850
@@ -27,8 +27,8 @@ public interface IFontFallBackRule
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Thêm phông chữ mới vào danh sách các phông chữ FallBack. |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Thêm các phông chữ mới vào danh sách các phông chữ FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Thêm một (các) phông chữ mới vào danh sách phông chữ FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Thêm các phông chữ mới vào danh sách phông chữ FallBack. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Xóa tất cả các phông chữ khỏi danh sách. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Trả về chỉ mục của quy tắc được chỉ định trong bộ sưu tập. |
 | [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | Xóa lần xuất hiện đầu tiên của phông chữ FallBack cụ thể khỏi danh sách. |
@@ -36,7 +36,7 @@ public interface IFontFallBackRule
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | Tạo và trả về một mảng chứa tất cả các phông chữ FallBack cho quy tắc này. |
 | [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | Tạo và trả về một mảng chứa tất cả các phông chữ FallBack từ phạm vi được chỉ định trong danh sách. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

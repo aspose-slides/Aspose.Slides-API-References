@@ -1,26 +1,26 @@
 ---
 title: PptReadException
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แสดงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านพรีเซนเทชัน
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านการนำเสนอ
 type: docs
 weight: 9530
 url: /th/aspose.slides/pptreadexception/
 ---
-## PptReadException คลาส
+## คลาส PptReadException
 
-แสดงข้อยกเว้นที่เกิดขึ้นเมื่อเกิดข้อผิดพลาดในการอ่านพรีเซนเทชัน
+แสดงถึงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านการนำเสนอ
 
 ```csharp
 public class PptReadException : PptException
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [PptReadException](pptreadexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
-| [PptReadException](pptreadexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
-| [PptReadException](pptreadexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
+| [PptReadException](pptreadexception#constructor)() | ตัวสร้างเริ่มต้น |
+| [PptReadException](pptreadexception#constructor_1)(string) | ตัวสร้างที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้ |
+| [PptReadException](pptreadexception#constructor_2)(string, Exception) | ตัวสร้างสำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
 
 ### ดูเพิ่มเติม
 

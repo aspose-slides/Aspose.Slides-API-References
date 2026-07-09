@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes .NET API hivatkozási útmutató
+second_title: Aspose.Sildes .NET API referencia
 description: Egy dián lévő OLE objektumot képvisel.
 type: docs
-weight: 6520
+weight: 6540
 url: /hu/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame interfész
 
-Az OLE objektumot ábrázolja egy dián.
+Képviseli a dián lévő OLE objektumot.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,20 +18,20 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Név | Leírás |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Lehetővé teszi a base IGraphicalObject interface lekérését. Csak olvasható [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../igraphicalobject). |
 | [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Lekéri az OLE beágyazott adatokról szóló információkat. Csak olvasható [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Visszaadja a beágyazott OLE objektum fájlnevet |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Visszaadja a beágyazott OLE objektum fájlnevét |
 | [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Visszaadja a beágyazott OLE objektum útvonalát |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Meghatározza, hogy az objektum ikonként látható-e. Olvasás/írás Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Meghatározza, hogy az objektum külső fájlhoz van-e csatolva. Csak olvasható Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Visszaadja a csatolt fájl teljes útvonalát. Rövid fájlnév lesz használva. Csak olvasható String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Visszaadja a csatolt fájl teljes útvonalát. Hosszú fájlnév lesz használva. Olvasás/írás String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Visszaadja a csatolt fájl relatív útvonalát, ha létezik, egyébként üres karakterláncot ad vissza. Csak olvasható String. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Visszaadja vagy beállítja az objektum nevét. Olvasás/írás String. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Visszaadja az objektum ProgID-jét. Csak olvasható String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Visszaadja az OleObject képlet kitöltés tulajdonság objektumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Meghatározza, hogy egy objektum ikonként látható-e. Olvasás/írás Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Meghatározza, hogy egy objektum külső fájlhoz kapcsolódik-e. Csak olvasható Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Visszaadja a hivatkozott fájl teljes útvonalát. Rövid fájlnév lesz használva. Csak olvasható String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Visszaadja a hivatkozott fájl teljes útvonalát. Hosszú fájlnév lesz használva. Olvasás/írás String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Visszaadja a hivatkozott fájl relatív útvonalát, ha van, egyébként üres karakterláncot ad vissza. Csak olvasható String. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Visszaadja vagy beállítja egy objektum nevét. Olvasás/írás String. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Visszaadja egy objektum ProgID-jét. Csak olvasható String. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Visszaadja az OleObject képkitöltés tulajdonságok objektumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Visszaadja vagy beállítja az OleObject ikon címét. Olvasás/írás String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Meghatározza, hogy a csatolt beágyazott objektum automatikusan frissüljön-e a bemutató megnyitásakor vagy nyomtatásakor. Olvasás/írás Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Meghatározza, hogy a hivatkozott beágyazott objektum automatikusan frissüljön-e a prezentáció megnyitásakor vagy nyomtatásakor. Olvasás/írás Boolean. |
 
 ## Metódusok
 

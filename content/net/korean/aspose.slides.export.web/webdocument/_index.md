@@ -1,6 +1,6 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 프레젠테이션을 웹 형식으로 저장하기 위한 전환 형태를 나타냅니다.
 type: docs
 weight: 4680
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument 클래스
 
-프레젠테이션의 전환 형태를 나타내며 웹 형식으로 저장합니다.
+프레젠테이션을 웹 형식으로 저장하기 위한 전환 형태를 나타냅니다.
 
 ```csharp
 public class WebDocument
@@ -24,7 +24,7 @@ public class WebDocument
 
 | 이름 | 설명 |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 문서의 전역 스토리지를 반환합니다. 읽기 전용 [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 문서의 전역 저장소를 반환합니다. 읽기 전용 [`Storage`](../storage). |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
 | [Output](../../aspose.slides.export.web/webdocument/output) { get; } | 문서의 출력 요소 컬렉션을 반환합니다. 읽기 전용 [`Output`](./output). |
 
@@ -34,7 +34,7 @@ public class WebDocument
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | 문서 출력을 저장합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

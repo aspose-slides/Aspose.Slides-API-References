@@ -1,26 +1,26 @@
 ---
 title: IEmbeddedEotFontsHtmlController
-second_title: Referência da API Aspose.Sildes para .NET
-description: Controlador HTML para fontes Eot incorporadas.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Controlador HTML de fontes Eot incorporadas.
 type: docs
-weight: 3880
+weight: 3900
 url: /pt/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController interface
 
-Controlador HTML para fontes Eot incorporadas.
+Controlador HTML de fontes Eot incorporadas.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController
 ```
 
-## Propriedades
+## Properties
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iembeddedeotfontshtmlcontroller/asihtmlformattingcontroller) { get; } | Retorna a interface IHtmlFormattingController. |
 
-### Veja Também
+### See Also
 
 * interface [IHtmlFormattingController](../ihtmlformattingcontroller)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

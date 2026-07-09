@@ -1,14 +1,14 @@
 ---
 title: IMathBorderBox
 second_title: Aspose.Sildes for .NET API 參考
-description: 在 IMathElement 周圍繪製矩形或其他邊框。
+description: 在 IMathElement 周圍繪製矩形或其他形狀的邊框。
 type: docs
 weight: 8170
 url: /zh-hant/aspose.slides.mathtext/imathborderbox/
 ---
 ## IMathBorderBox 介面
 
-在 IMathElement 周圍繪製矩形或其他邊框。
+在 IMathElement 周圍繪製矩形或其他形狀的邊框。
 
 ```csharp
 public interface IMathBorderBox : IMathElement
@@ -16,18 +16,18 @@ public interface IMathBorderBox : IMathElement
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathborderbox/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathborderbox/base) { get; } | 基礎參數 |
-| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 隱藏底部邊緣（預設為 false）- 指定邊框盒底部邊緣的隱藏或顯示狀態。 |
-| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 隱藏左側邊緣（預設為 false）- 指定邊框盒左側邊緣的隱藏或顯示狀態。 |
-| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 隱藏右側邊緣（預設為 false）- 指定邊框盒右側邊緣的隱藏或顯示狀態。 |
-| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 隱藏頂部邊緣（預設為 false）- 指定邊框盒頂部邊緣的隱藏或顯示狀態。 |
-| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 從左下角到右上角的刪除線（預設為 false）。指定從左下角到右上角的對角刪除線的隱藏或顯示狀態。 |
-| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 水平刪除線（預設為 false）- 指定水平刪除線的隱藏或顯示狀態。 |
-| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 從左上角到右下角的刪除線（預設為 false）。指定從左上角到右下角的對角刪除線的隱藏或顯示狀態。 |
-| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 垂直刪除線（預設為 false）- 指定垂直刪除線的隱藏或顯示狀態。 |
+| [HideBottom](../../aspose.slides.mathtext/imathborderbox/hidebottom) { get; set; } | 隱藏底部邊緣（預設為 false） - 指定邊框盒底部邊緣的隱藏或顯示狀態。 |
+| [HideLeft](../../aspose.slides.mathtext/imathborderbox/hideleft) { get; set; } | 隱藏左側邊緣（預設為 false） - 指定邊框盒左側邊緣的隱藏或顯示狀態。 |
+| [HideRight](../../aspose.slides.mathtext/imathborderbox/hideright) { get; set; } | 隱藏右側邊緣（預設為 false） - 指定邊框盒右側邊緣的隱藏或顯示狀態。 |
+| [HideTop](../../aspose.slides.mathtext/imathborderbox/hidetop) { get; set; } | 隱藏頂部邊緣（預設為 false） - 指定邊框盒頂部邊緣的隱藏或顯示狀態。 |
+| [StrikethroughBottomLeftToTopRight](../../aspose.slides.mathtext/imathborderbox/strikethroughbottomlefttotopright) { get; set; } | 從左下至右上刪除線（預設為 false）。指定從邊框盒左下角到右上角的刪除對角線的隱藏或顯示狀態。 |
+| [StrikethroughHorizontal](../../aspose.slides.mathtext/imathborderbox/strikethroughhorizontal) { get; set; } | 水平刪除線（預設為 false） - 指定水平刪除線的隱藏或顯示狀態。 |
+| [StrikethroughTopLeftToBottomRight](../../aspose.slides.mathtext/imathborderbox/strikethroughtoplefttobottomright) { get; set; } | 從左上至右下刪除線（預設為 false）。指定從邊框盒左上角到右下角的刪除對角線的隱藏或顯示狀態。 |
+| [StrikethroughVertical](../../aspose.slides.mathtext/imathborderbox/strikethroughvertical) { get; set; } | 垂直刪除線（預設為 false） - 指定垂直刪除線的隱藏或顯示狀態。 |
 
 ### 範例
 
@@ -38,7 +38,7 @@ public interface IMathBorderBox : IMathElement
 IMathBorderBox borderBox = new MathematicalText("x+y+z").ToBorderBox();
 ```
 
-### 另請參閱
+### 另見
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

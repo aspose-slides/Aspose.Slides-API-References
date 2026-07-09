@@ -18,16 +18,16 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Haalt de dia-oriëntatie op of stelt deze in. |
+| [Orientation](../../aspose.slides/slidesize/orientation) { get; set; } | Haalt de oriëntatie van de dia op of stelt deze in. |
 | [Size](../../aspose.slides/slidesize/size) { get; } | Haalt de afmetingen van de dia op in punten. |
-| [Type](../../aspose.slides/slidesize/type) { get; } | Haalt het type van de dia-grootte op. |
+| [Type](../../aspose.slides/slidesize/type) { get; } | Haalt het type van de dia-afmeting op. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Stelt de dia-grootte in op basis van type en schaalt de bestaande inhoud. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Stelt de dia-afmetingen expliciet in en schaalt de bestaande inhoud. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Stelt de dia-afmeting in op basis van type en schaalt bestaande inhoud. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Stelt de dia-afmetingen expliciet in en schaalt bestaande inhoud. |
 
 ### Zie ook
 

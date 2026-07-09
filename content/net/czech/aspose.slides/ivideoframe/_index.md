@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje video klip na snímku.
+description: Představuje video klip na snímku.
 type: docs
-weight: 7360
+weight: 7380
 url: /cs/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame rozhraní
 
-Represents a video clip on a slide.
+Představuje video klip na snímku.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -19,17 +19,17 @@ public interface IVideoFrame : IPictureFrame
 | Název | Popis |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Umožňuje získat základní rozhraní IPictureFrame. Pouze pro čtení [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Získává kolekci uzavřených titulků spojených s audio snímkem. Toto vlastnost je pouze pro čtení a vrací [`ICaptionsCollection`](../icaptionscollection) obsahující všechny stopy titulků. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Vrací nebo nastavuje vložený video objekt. Čtení/Zápis [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Určuje, zda je video zobrazováno v režimu celé obrazovky. Čtení/Zápis Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Určuje, zda je VideoFrame skrytý. Čtení/Zápis Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Vrací nebo nastavuje název video souboru, který je propojen s VideoFrame. Čtení/Zápis String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Určuje, zda je video přehráváno ve smyčce. Čtení/Zápis Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Vrací nebo nastavuje režim přehrávání videa. Čtení/Zápis [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Určuje, zda se video automaticky přetočí na začátek, jakmile se přehrávání dokončí. Čtení/Zápis Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Oříznout konec [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Oříznout začátek [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Vrací nebo nastavuje hlasitost zvuku. Čtení/Zápis [`AudioVolumeMode`](../audiovolumemode). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Získává kolekci uzavřených titulků spojených s audio rámcem. Tato vlastnost je pouze pro čtení a vrací [`ICaptionsCollection`](../icaptionscollection) obsahující všechny stopy titulků. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Vrací nebo nastavuje vložený video objekt. Čtení/zápis [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Určuje, zda je video zobrazováno v režimu celé obrazovky. Čtení/zápis Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Určuje, zda je VideoFrame skrytý. Čtení/zápis Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Vrací nebo nastavuje název video souboru, který je propojen s VideoFrame. Čtení/zápis String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Určuje, zda je video opakováno. Čtení/zápis Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Vrací nebo nastavuje režim přehrávání videa. Čtení/zápis [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Určuje, zda je video automaticky přetočeno na začátek po dokončení přehrávání. Čtení/zápis Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Zkrátit konec [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Zkrátit začátek [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Vrací nebo nastavuje hlasitost zvuku. Čtení/zápis [`AudioVolumeMode`](../audiovolumemode). |
 
 ### Viz také
 

@@ -8,7 +8,7 @@ url: /nl/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource enumeratie
 
-Geeft de bron van hyperlink-kleur weer.
+Geeft de bron van hyperlinkkleur weer.
 
 ```csharp
 public enum HyperlinkColorSource
@@ -19,7 +19,7 @@ public enum HyperlinkColorSource
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Styles | `0` | Styles. |
-| PortionFormat | `1` | Portion format. |
+| PortionFormat | `1` | Portion-indeling. |
 
 ### Zie ook
 

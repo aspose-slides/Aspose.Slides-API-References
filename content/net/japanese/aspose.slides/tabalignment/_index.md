@@ -3,10 +3,10 @@ title: TabAlignment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: タブの配置を表します。
 type: docs
-weight: 10810
+weight: 10830
 url: /ja/aspose.slides/tabalignment/
 ---
-## TabAlignment 列挙体
+## TabAlignment 列挙型
 
 タブの配置を表します。
 
@@ -23,7 +23,7 @@ public enum TabAlignment
 | Right | `2` | 右揃え |
 | Decimal | `3` | 小数点揃え |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

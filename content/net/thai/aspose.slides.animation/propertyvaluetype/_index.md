@@ -1,14 +1,14 @@
 ---
 title: PropertyValueType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงประเภทค่าของคุณสมบัติ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทค่าคุณสมบัติ
 type: docs
 weight: 760
 url: /th/aspose.slides.animation/propertyvaluetype/
 ---
-## PropertyValueType การกำหนดค่า
+## PropertyValueType การนับค่า
 
-แสดงประเภทค่าของคุณสมบัติ
+แสดงประเภทค่าคุณสมบัติ.
 
 ```csharp
 public enum PropertyValueType

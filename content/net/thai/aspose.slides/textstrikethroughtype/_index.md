@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของการขีดฆ่าข้อความ.
+description: แสดงประเภทของการขีดเส้นข้อความ.
 type: docs
 weight: 10990
 url: /th/aspose.slides/textstrikethroughtype/
 ---
-## การกำหนดค่า TextStrikethroughType
+## enumeration ของ TextStrikethroughType
 
-แสดงประเภทของการขีดฆ่าข้อความ.
+แสดงประเภทของการขีดเส้นข้อความ
 
 ```csharp
 public enum TextStrikethroughType : sbyte

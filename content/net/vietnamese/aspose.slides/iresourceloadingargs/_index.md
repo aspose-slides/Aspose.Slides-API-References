@@ -1,6 +1,6 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Giao diện cho các đối số tải tài nguyên bên ngoài.
 type: docs
 weight: 6830
@@ -18,8 +18,8 @@ public interface IResourceLoadingArgs
 
 | Tên | Mô tả |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI gốc của tài nguyên như được chỉ định trong bản trình bày được nhập. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI của tài nguyên sẽ được sử dụng để tải xuống nếu [`ResourceLoading`](../iresourceloadingcallback/resourceloading) trả về Default. Ban đầu nó được đặt thành URI gốc của tài nguyên, nhưng có thể được định nghĩa lại thành bất kỳ giá trị nào. |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | URI gốc của tài nguyên như đã chỉ định trong bản trình bày đã nhập. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | URI của tài nguyên được sử dụng để tải xuống nếu [`ResourceLoading`](../iresourceloadingcallback/resourceloading) trả về Default. Ban đầu nó được đặt thành URI gốc của tài nguyên, nhưng có thể được định nghĩa lại thành bất kỳ giá trị nào. |
 
 ## Phương thức
 

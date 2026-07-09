@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
-second_title: Referência da API Aspose.Sildes para .NET
-description: Esta estrutura representa as informações sobre a substituição de fontes quando for renderizada.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Esta estrutura representa as informações sobre a substituição de fonte quando for renderizada.
 type: docs
-weight: 4890
+weight: 4910
 url: /pt/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo classe
 
-Esta estrutura representa as informações sobre a substituição de fontes quando for renderizada.
+Esta estrutura representa as informações sobre a substituição de fonte quando for renderizada.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -18,7 +18,7 @@ public class FontSubstitutionInfo
 
 | Nome | Descrição |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Cria uma instância da classe [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Cria uma instância de [`FontSubstitutionInfo`](../fontsubstitutioninfo) classe. |
 
 ## Propriedades
 
@@ -39,7 +39,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }        
 ```
 
-### Veja também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

@@ -21,7 +21,7 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable 인터페이스를 반환합니다. 읽기 전용 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | 노트 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 노트 텍스트가 있는 경우 TextFrame을 반환합니다. 읽기 전용 [`ITextFrame`](../itextframe). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | 노트 텍스트가 있으면 TextFrame을 반환합니다. 읽기 전용 [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide를 반환합니다. 읽기 전용 [`ISlide`](../islide). |
 
 ### 참조

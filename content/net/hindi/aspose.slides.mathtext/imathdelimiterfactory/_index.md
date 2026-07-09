@@ -1,31 +1,31 @@
 ---
 title: IMathDelimiterFactory
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: गणित विभाजक बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: गणित डिलीमीटर बनाने की अनुमति देता है
 type: docs
 weight: 8220
 url: /hi/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory इंटरफ़ेस
 
-गणित विभाजक बनाने की अनुमति देता है
+गणित डिलीमीटर बनाने की अनुमति देता है
 
 ```csharp
 public interface IMathDelimiterFactory
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | तत्व पर लागू करके एक गणित विभाजक बनाता है |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | तत्व पर लागू करके एक गणित विभाजक बनाता है |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Create a math delimiter by applying to the element |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Create a math delimiter by applying to the element |
 
 ### टिप्पणियाँ
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

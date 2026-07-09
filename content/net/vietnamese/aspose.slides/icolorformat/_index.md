@@ -1,14 +1,14 @@
 ---
 title: IColorFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một màu được sử dụng trong bản trình chiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một màu được sử dụng trong bài thuyết trình.
 type: docs
 weight: 5490
 url: /vi/aspose.slides/icolorformat/
 ---
 ## IColorFormat giao diện
 
-Đại diện cho một màu được sử dụng trong bản trình chiếu.
+Biểu diễn một màu được sử dụng trong bài thuyết trình.
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -19,19 +19,19 @@ public interface IColorFormat : IFillParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Trả về giao diện IFillParamSource. Chỉ đọc [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Trả về hoặc đặt thành phần màu xanh dương của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Trả về màu kết quả (với tất cả các biến đổi màu đã được áp dụng). Đặt các màu RGB và xóa mọi biến đổi màu. Đọc/ghi Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Trả về tập hợp các biến đổi màu đã được áp dụng cho một màu. Chỉ đọc [`IColorOperationCollection`](../icoloroperationcollection). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Trả về hoặc đặt thành phần màu xanh của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Trả về màu kết quả (với tất cả các biến đổi màu đã được áp dụng). Đặt màu RGB và xóa tất cả các biến đổi màu. Đọc/ghi Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Trả về bộ sưu tập các biến đổi màu được áp dụng cho một màu. Chỉ đọc [`IColorOperationCollection`](../icoloroperationcollection). |
 | [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Trả về hoặc đặt phương pháp xác định màu. Đọc/ghi [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Trả về hoặc đặt thành phần màu xanh dương của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Trả về hoặc đặt thành phần màu xanh của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
 | [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Trả về hoặc đặt thành phần màu xanh lá của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
 | [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Trả về hoặc đặt thành phần màu đỏ của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
 | [G](../../aspose.slides/icolorformat/g) { get; set; } | Trả về hoặc đặt thành phần màu xanh lá của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Byte. |
 | [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Trả về hoặc đặt thành phần hue của một màu trong biểu diễn HSL. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Trả về hoặc đặt thành phần luminance của một màu trong biểu diễn HSL. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Trả về hoặc đặt màu preset. Đọc/ghi [`PresetColor`](../presetcolor). |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Trả về hoặc đặt thành phần độ sáng của một màu trong biểu diễn HSL. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Trả về hoặc đặt màu đã định sẵn. Đọc/ghi [`PresetColor`](../presetcolor). |
 | [R](../../aspose.slides/icolorformat/r) { get; set; } | Trả về hoặc đặt thành phần màu đỏ của một màu. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Trả về hoặc đặt thành phần saturation của một màu trong biểu diễn HSL. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Trả về hoặc đặt thành phần độ bão hòa của một màu trong biểu diễn HSL. Tất cả các biến đổi màu đều bị bỏ qua. Đọc/ghi Single. |
 | [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Trả về hoặc đặt màu được xác định bởi một bảng màu. Đọc/ghi [`SchemeColor`](../schemecolor). |
 | [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Trả về hoặc đặt màu được xác định bởi bảng màu hệ thống. Đọc/ghi [`SystemColor`](../systemcolor). |
 
@@ -40,12 +40,12 @@ public interface IColorFormat : IFillParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Sao chép định dạng màu từ "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Trả về một String đại diện cho định dạng màu hiện tại. |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Trả về một String biểu diễn định dạng màu hiện tại. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IFillParamSource](../ifillparamsource)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,10 +3,10 @@ title: ICellFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablo hücresinin biçimini temsil eder.
 type: docs
-weight: 5450
+weight: 5470
 url: /tr/aspose.slides/icellformat/
 ---
-## ICellFormat arayüz
+## ICellFormat arayüzü
 
 Bir tablo hücresinin biçimini temsil eder.
 
@@ -20,14 +20,14 @@ public interface ICellFormat
 | --- | --- |
 | [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Alt kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
 | [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Sol üstten sağ alta çapraz çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Sol altten sağ üste çapraz çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Sol alttan sağ üste çapraz çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Sol kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Sağ kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Üst kenar çizgi özellikleri nesnesini döndürür. Salt-okunur [`ILineFormat`](../ilineformat). |
 | [FillFormat](../../aspose.slides/icellformat/fillformat) { get; } | Hücre dolgu özellikleri nesnesini döndürür. Salt-okunur [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Dolgu renginin şeffaflığını alır veya ayarlar. Okuma/yazma Single. |
+| [Transparency](../../aspose.slides/icellformat/transparency) { get; set; } | Dolgu renginin saydamlığını alır veya ayarlar. Okunur/Yazılabilir Single. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |

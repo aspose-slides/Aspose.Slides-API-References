@@ -1,6 +1,6 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立動畫效果
 type: docs
 weight: 430
@@ -29,7 +29,7 @@ public interface IBehaviorFactory
 
 ### 備註
 
-為相容 COM。
+供 COM 相容性使用。
 
 ### 另請參閱
 

@@ -1,6 +1,6 @@
 ---
 title: IEffectEffectiveData
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Basisklasse voor onveranderlijke objecten die een effect vertegenwoordigen.
 type: docs
 weight: 3280

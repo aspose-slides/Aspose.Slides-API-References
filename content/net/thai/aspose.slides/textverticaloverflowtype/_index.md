@@ -1,20 +1,20 @@
 ---
 title: TextVerticalOverflowType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทการ overflow แนวตั้งของข้อความ.
+description: แทนประเภทการล้นแนวตั้งของข้อความ.
 type: docs
 weight: 11020
 url: /th/aspose.slides/textverticaloverflowtype/
 ---
-## TextVerticalOverflowType enumeration
+## TextVerticalOverflowType enum
 
-แสดงประเภทการ overflow แนวตั้งของข้อความ.
+แทนประเภทการล้นแนวตั้งของข้อความ.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ public enum TextVerticalOverflowType : sbyte
 | Ellipsis | `1` |  |
 | Clip | `2` |  |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o estilo de extremidade da linha.
+second_title: Aspose.Sildes para Referência de API .NET
+description: Representa o estilo de terminação da linha.
 type: docs
-weight: 7740
+weight: 7760
 url: /pt/aspose.slides/linecapstyle/
 ---
-## Enumeração LineCapStyle
+## LineCapStyle enumeração
 
-Representa o estilo de extremidade da linha.
+Representa o estilo de terminação da linha.
 
 ```csharp
 public enum LineCapStyle : sbyte

@@ -3,10 +3,10 @@ title: WheelTransition
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Effetto di transizione della diapositiva a ruota.
 type: docs
-weight: 10450
+weight: 10470
 url: /it/aspose.slides.slideshow/wheeltransition/
 ---
-## WheelTransition classe
+## classe WheelTransition
 
 Effetto di transizione della diapositiva a ruota.
 
@@ -18,14 +18,14 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | Nome | Descrizione |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Numero di raggi della transizione a ruota. Lettura/scrittura UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Numero di raggi della transizione della ruota. Lettura/scrittura UInt32. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

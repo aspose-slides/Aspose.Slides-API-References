@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表 Summary Zoom Section 物件的集合。
+description: 表示 Summary Zoom Section 物件的集合。
 type: docs
 weight: 10790
 url: /zh-hant/aspose.slides/summaryzoomsectioncollection/
 ---
 ## SummaryZoomSection 類別
 
-代表一個 Summary Zoom Section 物件的集合。
+代表 Summary Zoom Section 物件的集合。
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -17,26 +17,26 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | 傳回一個值，指示是否同步存取集合 (執行緒安全)。唯讀 Boolean。 |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | 傳回一個指示集合存取是否已同步（執行緒安全）的值。唯讀 Boolean。 |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ISummaryZoomSection`](../isummaryzoomsection)。 |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 傳回同步根物件。唯讀 Object。 |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 建立新的 Summary Zoom Section 物件並將其加入集合 |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | 從集合中移除所有 SummaryZoomSection 物件。 |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | 將整個集合複製到指定的陣列。 |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | 為給定的 section 傳回 Summary Zoom Section 元素。 |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | 傳回給定區段的 Summary Zoom Section 元素。 |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 傳回指定 SummaryZoomSection 物件的索引。 |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 從集合中移除 Summary Zoom Section 物件。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [SummaryZoomFrame](../summaryzoomframe)

@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
-second_title: Aspose.Sildes dla .NET - Referencja API
-description: Udostępnia opcje kontrolujące sposób zapisu prezentacji w formacie XPS.
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
+description: Udostępnia opcje kontrolujące, jak prezentacja jest zapisywana w formacie XPS.
 type: docs
-weight: 4180
+weight: 4200
 url: /pl/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions interfejs
 
-Udostępnia opcje kontrolujące sposób zapisu prezentacji w formacie XPS.
+Udostępnia opcje kontrolujące, jak prezentacja jest zapisywana w formacie XPS.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -19,9 +19,9 @@ public interface IXpsOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True, aby narysować czarną ramkę wokół każdego slajdu. Odczyt/zapis Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True, aby przekonwertować wszystkie metafile użyte w prezentacji na obrazy PNG. Odczyt/zapis Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument ma zawierać ukryte slajdy, czy nie. Domyślnie jest `false`. |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | Prawda, aby narysować czarną ramkę wokół każdego slajdu. Odczyt/zapis Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | Prawda, aby konwertować wszystkie metafile użyte w prezentacji na obrazy PNG. Odczyt/zapis Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | Określa, czy wygenerowany dokument ma zawierać ukryte slajdy, czy nie. Domyślnie `false`. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IColorEffect
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Színhatást reprezentál egy animációs viselkedéshez.
+second_title: Aspose.Slides .NET API referencia
+description: Színhatást képvisel egy animációs viselkedéshez.
 type: docs
-weight: 440
+weight: 460
 url: /hu/aspose.slides.animation/icoloreffect/
 ---
 ## IColorEffect interfész
 
-Színhatást reprezentál egy animációs viselkedéshez.
+Színhatást képvisel egy animációs viselkedéshez.
 
 ```csharp
 public interface IColorEffect : IBehavior
@@ -18,12 +18,12 @@ public interface IColorEffect : IBehavior
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Lehetővé teszi az alap IBehavior interfész lekérdezését. Csak olvasható [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Leírja a színanimáció relatív eltolás értékét. Olvasható/írható [`IColorOffset`](../icoloroffset). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | Lehetővé teszi a base IBehavior interfész lekérését. Csak olvasható [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | Leírja a színanimáció relatív eltolási értékét. Olvasható/írható [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | A viselkedés színtérét reprezentálja. Olvasható/írható [`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Megadja, hogy melyik irányba ciklikusan változik a színárnyalat a színkeréken. Olvasható/írható [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Ez az érték a viselkedés kezdeti színének meghatározására szolgál. Olvasható/írható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Leírja a színváltozás animáció során keletkező színt. Olvasható/írható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | Megadja, hogy melyik irányban körözze a színárnyalatot a színkeréken. Olvasható/írható [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | Ez az érték a viselkedés kezdőszínének megadására szolgál. Olvasható/írható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | Leírja az animáció színváltozásának eredmény színét. Olvasható/írható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még
 

@@ -1,6 +1,6 @@
 ---
 title: IChartDataWorksheet
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考文件
 description: 表示與 IChartDataCell./ichartdatacell 相關聯的工作表
 type: docs
 weight: 1870

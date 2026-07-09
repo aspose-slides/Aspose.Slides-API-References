@@ -1,14 +1,14 @@
 ---
 title: IMathFunctionFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式関数を作成できます
+description: 数式関数を作成することを許可します
 type: docs
-weight: 8260
+weight: 8280
 url: /ja/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory インターフェイス
 
-数式関数を作成できます
+数式関数を作成することを許可します
 
 ```csharp
 public interface IMathFunctionFactory

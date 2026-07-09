@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một trang chiếu chủ trong một bài thuyết trình.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một slide chủ trong một bản trình chiếu.
 type: docs
 weight: 6420
 url: /vi/aspose.slides/imasterslide/
 ---
 ## IMasterSlide giao diện
 
-Đại diện cho một trang chiếu chủ trong một bài thuyết trình.
+Đại diện cho một slide chủ trong một bản trình chiếu.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -16,25 +16,25 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Cho phép lấy giao diện IBaseSlide cơ bản. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Trả về giao diện IMotterThemeable. Chỉ đọc [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Trả về kiểu dáng của văn bản thân. Chỉ đọc [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Trả về một bộ sưu tập các hướng dẫn vẽ cho trang chiếu chủ. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Trả về true nếu tồn tại ít nhất một trang chiếu phụ thuộc vào trang chiếu chủ này. Chỉ đọc Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của trang chiếu chủ. Chỉ đọc [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Trả về bộ sưu tập các bố cục con cho trang chiếu chủ này. Chỉ đọc [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Trả về kiểu dáng của văn bản khác. Chỉ đọc [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Xác định liệu trang chiếu chủ tương ứng có bị xóa khi tất cả các trang chiếu theo sau nó bị xóa hay không. Lưu ý: Aspose.Slides sẽ không tự động xóa bất kỳ trang chiếu chủ không dùng nào; để thực sự xóa các trang chiếu chủ không dùng, gọi [`RemoveUnused`](../imasterslidecollection/removeunused) Đọc/Ghi Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Trả về kiểu dáng của văn bản tiêu đề. Chỉ đọc [`ITextStyle`](../itextstyle). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Trả về giao diện IMasterThemeable. Chỉ đọc [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Trả về kiểu của văn bản nội dung. Chỉ đọc [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Trả về một bộ sưu tập các hướng dẫn vẽ cho slide chủ. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Trả về true nếu tồn tại ít nhất một slide phụ thuộc vào slide chủ này. Chỉ đọc Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide chủ. Chỉ đọc [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Trả về bộ sưu tập các slide bố cục con cho slide chủ này. Chỉ đọc [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Trả về kiểu của một văn bản khác. Chỉ đọc [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Xác định xem master tương ứng có bị xóa khi tất cả các slide kế tiếp master đó bị xóa hay không. Lưu ý: Aspose.Slides sẽ không bao giờ tự động xóa bất kỳ master không dùng nào, để thực sự xóa các master không dùng, gọi [`RemoveUnused`](../imasterslidecollection/removeunused). Đọc/ghi Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Trả về kiểu của văn bản tiêu đề. Chỉ đọc [`ITextStyle`](../itextstyle). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Tạo một trang chiếu chủ mới dựa trên trang hiện tại, áp dụng một chủ đề bên ngoài cho nó và áp dụng trang chiếu chủ đã tạo cho tất cả các trang chiếu phụ thuộc. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Trả về một mảng chứa tất cả các trang chiếu phụ thuộc vào trang chiếu chủ này. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Tạo một slide chủ mới dựa trên slide hiện tại, áp dụng một chủ đề bên ngoài cho nó và áp dụng slide chủ đã tạo cho tất cả các slide phụ thuộc. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Trả về một mảng chứa tất cả các slide, phụ thuộc vào slide chủ này. |
 
 ### Xem thêm
 

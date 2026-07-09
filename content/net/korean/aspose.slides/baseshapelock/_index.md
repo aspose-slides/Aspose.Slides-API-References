@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
 second_title: Aspose.Sildes for .NET API 참조
-description: 잠금이 비활성화된 작업을 위한 기본 클래스를 나타냅니다.
+description: 잠금 비활성화 작업을 위한 기본 클래스를 나타냅니다.
 type: docs
 weight: 980
 url: /ko/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock 클래스
 
-잠금(비활성화된 작업)을 위한 기본 클래스를 나타냅니다.
+잠금(작업 비활성화)을 위한 기본 클래스입니다.
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -16,11 +16,11 @@ public class BaseShapeLock : IBaseShapeLock
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 모든 잠금 플래그가 비활성화된 경우 true를 반환합니다. 읽기 전용 Boolean. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IBaseShapeLock](../ibaseshapelock)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

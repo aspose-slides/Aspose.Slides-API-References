@@ -1,20 +1,20 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงข้อมูลการแทนที่ฟอนต์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงข้อมูลการแทนที่แบบอักษร
 type: docs
 weight: 4890
 url: /th/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule คลาส
 
-แสดงข้อมูลการแทนที่ฟอนต์
+แสดงข้อมูลการแทนที่แบบอักษร
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
@@ -25,9 +25,9 @@ public class FontSubstRule : IFontSubstRule
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | ฟอนต์ที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | แบบอักษรที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
 | [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | กฎที่ใช้สำหรับการแทนที่. อ่านอย่างเดียว [`FontSubstCondition`](../fontsubstcondition) |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | ฟอนต์ที่จะแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | แบบอักษรเพื่อแทนที่. อ่านอย่างเดียว [`IFontData`](../ifontdata) |
 
 ### ดูเพิ่มเติม
 

@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/islide/
 ---
 ## ISlide 介面
 
-Represents a slide in a presentation.
+表示簡報中的投影片。
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -16,30 +16,30 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | 允許取得基礎 IBaseSlide 介面。唯讀 [`IBaseSlide`](../ibaseslide)。 |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | 傳回 IOverrideThemeable 介面。唯讀 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | 傳回投影片的 HeaderFooter 管理器。唯讀 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 決定指定投影片在投影時是否隱藏。可讀寫 Boolean。 |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 傳回或設定目前投影片的版面配置投影片。可讀寫 [`ILayoutSlide`](../ilayoutslide)。 |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | 允許存取備註投影片，新增及移除它。唯讀 [`INotesSlideManager`](../inotesslidemanager)。 |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | 傳回投影片的編號。[`Slides`](../ipresentation/slides) 集合中的投影片索引總是等於 SlideNumber - 1。可讀寫 Int32。 |
+| [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | 傳回投影片的 HeaderFooter 管理員。唯讀 [`ISlideHeaderFooterManager`](../islideheaderfootermanager)。 |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | 判斷指定的投影片在投影片放映期間是否隱藏。讀寫 Boolean。 |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | 傳回或設定目前投影片的版面配置投影片。讀寫 [`ILayoutSlide`](../ilayoutslide)。 |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | 允許存取備註投影片，並可新增或移除。唯讀 [`INotesSlideManager`](../inotesslidemanager)。 |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | 傳回投影片的編號。[`Slides`](../ipresentation/slides) 集合中的索引永遠等於 SlideNumber - 1。讀寫 Int32。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | 傳回 Thumbnail Image 物件（實際大小的 20%）。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | 傳回 Thumbnail Bitmap 物件。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 傳回具有指定參數的 Thumbnail tiff bitmap 物件。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | 傳回具有指定大小的圖像物件。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | 傳回具有自訂縮放的圖像物件。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 傳回具有指定大小的 Thumbnail Bitmap 物件。 |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | 傳回具有自訂縮放的 Thumbnail Bitmap 物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | 傳回縮圖影像物件（實際大小的 20%）。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | 傳回縮圖位圖物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | 傳回具有指定參數的縮圖 tiff 位圖物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | 傳回具有指定尺寸的影像物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | 傳回具有自訂縮放的影像物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | 傳回具有指定尺寸的縮圖位圖物件。 |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | 傳回具有自訂縮放的縮圖位圖物件。 |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | 傳回特定作者新增的所有投影片評論。 |
 | [Remove](../../aspose.slides/islide/remove)() | 從簡報中移除投影片。 |
-| [Reset](../../aspose.slides/islide/reset)() | 重設在 LayoutSlide 上有原型的每個圖形的位置、大小和格式設定。 |
+| [Reset](../../aspose.slides/islide/reset)() | 重設在 LayoutSlide 上具有原型的所有圖形之位置、大小和格式設定。 |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | 將投影片內容儲存為 EMF 檔案。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | 將投影片內容儲存為 SVG 檔案。 |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 將投影片內容儲存為 SVG 檔案。 |

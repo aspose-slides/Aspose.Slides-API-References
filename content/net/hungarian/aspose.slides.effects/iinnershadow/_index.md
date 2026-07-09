@@ -1,14 +1,14 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Sildes .NET API referencia
-description: Belső árnyék hatást képvisel.
+second_title: Aspose.Sildes for .NET API Referencia
+description: Belső árnyékhatást képvisel.
 type: docs
-weight: 3400
+weight: 3420
 url: /hu/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interfész
 
-Belső árnyék hatást képvisel.
+Represents a inner shadow effect.
 
 ```csharp
 public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>, 
@@ -19,14 +19,14 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérdezését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérdezését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Elmosási sugár. Olvasható/írható Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Az árnyék iránya. Olvasható/írható Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Az árnyék távolsága. Olvasható/írható Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész elérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész elérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Elmosódási sugár. Olvasás/írás Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Az árnyék iránya. Olvasás/írás Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Az árnyék távolsága. Olvasás/írás Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Az árnyék színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Kapcsolódó
+### Lásd még
 
 * interfész [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interfész [IInnerShadowEffectiveData](../iinnershadoweffectivedata)

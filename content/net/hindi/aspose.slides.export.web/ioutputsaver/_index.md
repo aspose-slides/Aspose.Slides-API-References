@@ -1,6 +1,6 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक आउटपुट सहेजने वाली सेवा का प्रतिनिधित्व करता है।
 type: docs
 weight: 4610
@@ -14,13 +14,13 @@ url: /hi/aspose.slides.export.web/ioutputsaver/
 public interface IOutputSaver
 ```
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | आउटपुट फ़ाइल को निर्दिष्ट पथ पर सहेजता है। |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | निर्दिष्ट पथ पर आउटपुट फ़ाइल को सहेजता है। |
 
-### संबंधित देखें
+### देखें
 
 * नेमस्पेस [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * असेंबली [Aspose.Slides](../../)

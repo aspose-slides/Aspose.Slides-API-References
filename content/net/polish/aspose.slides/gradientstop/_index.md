@@ -1,9 +1,9 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje format gradientu.
 type: docs
-weight: 5000
+weight: 5020
 url: /pl/aspose.slides/gradientstop/
 ---
 ## GradientStop klasa
@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Zwraca kolor punktu gradientu. tylko do odczytu [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Zwraca lub ustawia pozycję (0..1) punktu gradientu. odczyt/zapis Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Zwraca kolor punktu gradientu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Zwraca lub ustawia pozycję (0..1) punktu gradientu. Odczyt/zapis Single. |
 
 ## Metody
 

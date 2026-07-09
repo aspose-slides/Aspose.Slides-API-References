@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示管理器，用於保存母版註解投影片的頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示管理器，負責維持母筆記投影片頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是包含於相依筆記投影片上的佔位符。相依筆記投影片使用且依賴母筆記投影片。
 type: docs
 weight: 8020
 url: /zh-hant/aspose.slides/masternotesslideheaderfootermanager/
 ---
 ## MasterNotesSlideHeaderFooterManager 類別
 
-Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
+代表管理器，負責維護母筆記投影片頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是包含於相依筆記投影片上的佔位符。相依筆記投影片使用且依賴母筆記投影片。
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -17,33 +17,33 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示是否存在日期時間佔位符的值。ReadBoolean. |
 | [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 取得指示是否存在頁腳佔位符的值。Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 取得指示是否存在標頭佔位符的值。Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | 取得指示是否存在標題佔位符的值。Read Boolean. |
 | [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示是否存在頁碼佔位符的值。ReadBoolean. |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 設定文字至母版投影片的日期時間佔位符以及所有子日期時間佔位符。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更母版投影片的日期時間佔位符以及所有子日期時間佔位符的可見性。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定文字至投影片的日期時間佔位符。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片的日期時間佔位符的可見性。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 設定文字至母版投影片的頁腳佔位符以及所有子頁腳佔位符。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更母版投影片的頁腳佔位符以及所有子頁腳佔位符的可見性。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定文字至投影片的頁腳佔位符。 |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片的頁腳佔位符的可見性。 |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 設定文字至母版註解投影片的標頭佔位符以及所有子標頭佔位符。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 變更母版註解投影片的標頭佔位符以及所有子標頭佔位符的可見性。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 設定文字至投影片的標頭佔位符。 |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 變更投影片的標頭佔位符的可見性。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更母版投影片的頁碼佔位符以及所有子頁碼佔位符的可見性。子佔位符指的是包含於相依註解投影片中的佔位符。相依註解投影片使用且依賴於母版註解投影片。 |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片的頁碼佔位符的可見性。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 設定主投影片日期時間佔位符以及所有子日期時間佔位符的文字。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更主投影片日期時間佔位符以及所有子日期時間佔位符的可見性。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定投影片日期時間佔位符的文字。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可見性。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | 設定主投影片頁腳佔位符以及所有子頁腳佔位符的文字。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更主投影片頁腳佔位符以及所有子頁腳佔位符的可見性。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定投影片頁腳佔位符的文字。 |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可見性。 |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | 設定主筆記投影片標題佔位符以及所有子標題佔位符的文字。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | 變更主筆記投影片標題佔位符以及所有子標題佔位符的可見性。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | 設定投影片標題佔位符的文字。 |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | 變更投影片標題佔位符的可見性。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更主投影片頁碼佔位符以及所有子頁碼佔位符的可見性。子佔位符表示此佔位符位於相依筆記投影片上。相依筆記投影片使用且依賴主筆記投影片。 |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可見性。 |
 
-### 另見
+### 參閱
 
 * 類別 [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * 介面 [IMasterNotesSlideHeaderFooterManager](../imasternotesslideheaderfootermanager)

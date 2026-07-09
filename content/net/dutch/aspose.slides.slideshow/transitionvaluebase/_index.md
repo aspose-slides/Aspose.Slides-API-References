@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
-second_title: Aspose.Sildes for .NET API-referentie
-description: Basisklasse voor diaovergangseffecten.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Basis klasse voor dia-overgangseffecten.
 type: docs
 weight: 10460
 url: /nl/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase klasse
 
-Basisklasse voor diaovergangseffecten.
+Basis klasse voor dia-overgangseffecten.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase

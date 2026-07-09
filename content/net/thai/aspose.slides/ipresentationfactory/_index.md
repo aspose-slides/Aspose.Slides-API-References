@@ -1,6 +1,6 @@
 ---
 title: IPresentationFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้างการนำเสนอผ่านอินเทอร์เฟซ COM
 type: docs
 weight: 6770
@@ -8,7 +8,7 @@ url: /th/aspose.slides/ipresentationfactory/
 ---
 ## IPresentationFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างการนำเสนอผ่านอินเทอร์เฟซ COM
+อนุญาตให้สร้างการนำเสนอผ่าน COM อินเทอร์เฟซ
 
 ```csharp
 public interface IPresentationFactory
@@ -18,10 +18,10 @@ public interface IPresentationFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | สร้างการนำเสนอใหม่. |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | สร้างการนำเสนอใหม่พร้อมตัวเลือกการโหลดเพิ่มเติม |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | รับข้อมูลเกี่ยวกับการนำเสนอในสตรีมที่ระบุ. |
-| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | รับข้อมูลเกี่ยวกับการนำเสนอในไฟล์ที่ระบุ. |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | สร้างการนำเสนอใหม่ |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | สร้างการนำเสนอใหม่ด้วยตัวเลือกการโหลดเพิ่มเติม |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | รับข้อมูลเกี่ยวกับการนำเสนอในสตรีมที่ระบุ |
+| [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | รับข้อมูลเกี่ยวกับการนำเสนอในไฟล์ที่ระบุ |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | ดึงข้อความดิบจากสไลด์ |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | ดึงข้อความดิบจากสไลด์ |
 | [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | ดึงข้อความดิบจากสไลด์ |

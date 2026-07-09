@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक श्रृंखला लेबलों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक श्रृंखला लेबल का प्रतिनिधित्व करता है।
 type: docs
 weight: 2030
 url: /hi/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection इंटरफ़ेस
 
-एक श्रृंखला लेबलों का प्रतिनिधित्व करता है।
+एक श्रृंखला लेबल का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,24 +18,24 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | बेस IChartComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IChartComponent`](../ichartcomponent)। |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | बेस IEnumerable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | संग्रह में सभी डेटा लेबलों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | संग्रह में दिखाई देने वाले डेटा लेबलों की संख्या प्राप्त करता है। केवल पढ़ने योग्य Int32। |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | संग्रह में सभी डेटा लेबलों के डिफ़ॉल्ट फ़ॉर्मेट को लौटाता है। केवल पढ़ने योग्य [`IDataLabelFormat`](../idatalabelformat)। |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False का अर्थ है कि डेटा लेबल डिफ़ॉल्ट रूप से दृश्यमान नहीं है (और इसलिए DefaultDataLabelFormat गुण के सभी Show*-फ़्लैग (ShowValue, ...) false होते हैं)। केवल पढ़ने योग्य Boolean। |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | निर्दिष्ट अनुक्रमांक वाले डेटा पॉइंट के लिए डेटा लेबल प्राप्त करता है। |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | डेटा लेबलों के लीडर लाइन्स फ़ॉर्मेट का प्रतिनिधित्व करता है। केवल पढ़ने योग्य [`IChartLinesFormat`](../ichartlinesformat)। |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | पैरेंट चार्ट सीरीज़ को लौटाता है। केवल पढ़ने योग्य [`IChartSeries`](../ichartseries)। |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | आधार IChartComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IChartComponent`](../ichartcomponent)। |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | आधार IEnumerable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य IEnumerable। |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | संग्रह में सभी डेटा लेबल की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | संग्रह में दृश्यमान डेटा लेबल की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | संग्रह में सभी डेटा लेबल का डिफ़ॉल्ट फ़ॉर्मैट लौटाता है। केवल-पढ़ने योग्य [`IDataLabelFormat`](../idatalabelformat)। |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False का मतलब है कि डेटा लेबल डिफ़ॉल्ट रूप से दृश्यमान नहीं है (और इसलिए DefaultDataLabelFormat प्रॉपर्टी के सभी Show*-फ़्लैग्स (ShowValue, ...) गलत हैं)। केवल-पढ़ने योग्य Boolean। |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | निर्दिष्ट इंडेक्स वाले डेटा पॉइंट के लिए डेटा लेबल प्राप्त करता है। |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | डेटा लेबल लीडर लाइन्स फ़ॉर्मैट का प्रतिनिधित्व करता है। केवल-पढ़ने योग्य [`IChartLinesFormat`](../ichartlinesformat)। |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | पैरेंट चार्ट सीरीज़ लौटाता है। केवल-पढ़ने योग्य [`IChartSeries`](../ichartseries)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | सभी Show*-फ़्लैग (ShowValue, ...) को false स्थिति में सेट करके डेटा लेबल को डिफ़ॉल्ट रूप से छुपा दें। इस के बाद IsVisible false होगा। |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | संग्रह में निर्दिष्ट DataLabel का अनुक्रमांक लौटाता है। |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | डेटा लेबल को डिफ़ॉल्ट रूप से छिपा बनाने के लिए DefaultDataLabelFormat प्रॉपर्टी के सभी Show*-फ़्लैग्स (ShowValue, ...) को false स्थिति में सेट करता है। इस के बाद IsVisible false होगा। |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | संग्रह में निर्दिष्ट DataLabel का एक इंडेक्स लौटाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IChartComponent](../ichartcomponent)
 * इंटरफ़ेस [IDataLabel](../idatalabel)

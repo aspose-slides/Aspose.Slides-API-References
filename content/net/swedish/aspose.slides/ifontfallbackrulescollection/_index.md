@@ -1,9 +1,9 @@
 ---
 title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av FontFallBack-regler som definierats av användaren
+description: Representerar en samling av FontFallBack-regler definierade av användaren
 type: docs
-weight: 5840
+weight: 5860
 url: /sv/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection gränssnitt
@@ -24,10 +24,10 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Lägger till en ny FallBack-regel i slutet av samlingen. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Tar bort den första förekomsten av en specifik FallBack-regel från samlingen. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | Lägg till en ny FallBack-regel i slutet av samlingen. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | Tar bort det första förekomsten av en specifik FallBack-regel från samlingen. |
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * gränssnitt [IFontFallBackRule](../ifontfallbackrule)

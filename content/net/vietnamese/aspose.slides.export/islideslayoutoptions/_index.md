@@ -1,14 +1,14 @@
 ---
 title: ISlidesLayoutOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện chế độ bố cục bản trình chiếu khi xuất.
+description: Đại diện cho chế độ bố cục bản trình bày khi xuất.
 type: docs
 weight: 4100
 url: /vi/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions giao diện
 
-Biểu thị chế độ bố cục bản trình chiếu để xuất.
+Đại diện cho chế độ bố cục bản trình bày khi xuất.
 
 ```csharp
 public interface ISlidesLayoutOptions

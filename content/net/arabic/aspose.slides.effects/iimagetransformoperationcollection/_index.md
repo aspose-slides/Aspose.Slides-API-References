@@ -1,12 +1,12 @@
 ---
 title: IImageTransformOperationCollection
-second_title: مرجع API لـ Aspose.Sildes لل .NET
+second_title: مرجع API لـ Aspose.Sildes لنظام .NET
 description: يمثل مجموعة من التأثيرات المطبقة على صورة.
 type: docs
 weight: 3400
 url: /ar/aspose.slides.effects/iimagetransformoperationcollection/
 ---
-## IImageTransformOperationCollection واجهة
+## IImageTransformOperationCollection الواجهة
 
 يمثل مجموعة من التأثيرات المطبقة على صورة.
 
@@ -18,37 +18,37 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | يعيد واجهة IEnumerable. IEnumerable للقراءة فقط. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | يعيد [`IImageTransformOperation`](../iimagetransformoperation) من المجموعة حسب فهرسه. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | تُرجع واجهة IEnumerable. IEnumerable للقراءة فقط. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | تُرجع [`IImageTransformOperation`](../iimagetransformoperation) من المجموعة حسب الفهرس. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | يضيف تأثير Alpha Bi-Level الجديد إلى نهاية مجموعة. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | يضيف تأثير Alpha Ceiling الجديد إلى نهاية مجموعة. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | يضيف تأثير Alpha Floor الجديد إلى نهاية مجموعة. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | يضيف تأثير Alpha Inverse الجديد إلى نهاية مجموعة. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | يضيف تأثير Alpha Modulate الجديد إلى نهاية مجموعة. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | يضيف تأثير Alpha Modulate Fixed الجديد إلى نهاية مجموعة. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | يضيف تأثير Alpha Replace الجديد إلى نهاية مجموعة. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | يضيف تأثير Bi-Level (أسود/أبيض) الجديد إلى نهاية مجموعة. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | يضيف تأثير Blur الجديد إلى نهاية مجموعة. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | يضيف تأثير BrightnessContrast الجديد إلى نهاية مجموعة. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | يضيف تأثير Color Change الجديد إلى نهاية مجموعة. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | يضيف تأثير Color Replacement الجديد إلى نهاية مجموعة. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | يضيف تأثير Duotone الجديد إلى نهاية مجموعة. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | يضيف تأثير Fill Overlay الجديد إلى نهاية مجموعة. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | يضيف تأثير Gray Scale الجديد إلى نهاية مجموعة. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | يضيف التأثير Alpha Bi-Level الجديد إلى نهاية مجموعة. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | يضيف التأثير Alpha Ceiling الجديد إلى نهاية مجموعة. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | يضيف التأثير Alpha Floor الجديد إلى نهاية مجموعة. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | يضيف التأثير Alpha Inverse الجديد إلى نهاية مجموعة. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | يضيف التأثير Alpha Modulate الجديد إلى نهاية مجموعة. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | يضيف التأثير Alpha Modulate Fixed الجديد إلى نهاية مجموعة. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | يضيف التأثير Alpha Replace الجديد إلى نهاية مجموعة. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | يضيف التأثير Bi-Level (black/white) الجديد إلى نهاية مجموعة. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | يضيف التأثير Blur الجديد إلى نهاية مجموعة. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | يضيف التأثير BrightnessContrast الجديد إلى نهاية مجموعة. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | يضيف التأثير Color Change الجديد إلى نهاية مجموعة. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | يضيف التأثير Color Replacement الجديد إلى نهاية مجموعة. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | يضيف التأثير Duotone الجديد إلى نهاية مجموعة. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | يضيف التأثير Fill Overlay الجديد إلى نهاية مجموعة. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | يضيف التأثير Gray Scale الجديد إلى نهاية مجموعة. |
 | [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | يضيف تأثير Hue/Saturation/Luminance الجديد إلى نهاية مجموعة. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | يضيف تأثير Luminance الجديد إلى نهاية مجموعة. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | يضيف تأثير Tint الجديد إلى نهاية مجموعة. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | يزيل تأثير صورة من مجموعة عند الفهرس المحدد. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | يضيف التأثير Luminance الجديد إلى نهاية مجموعة. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | يضيف التأثير Tint الجديد إلى نهاية مجموعة. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | يزيل تأثير صورة من مجموعة في الفهرس المحدد. |
 
-### انظر أيضًا
+### انظر أيضا
 
-* واجهة [IImageTransformOperation](../iimagetransformoperation)
-* نطاق [Aspose.Slides.Effects](../../aspose.slides.effects)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [IImageTransformOperation](../iimagetransformoperation)
+* مساحة الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

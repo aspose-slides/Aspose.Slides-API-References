@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Sildes for .NET API Referansı
 description: Yorum yazarlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 2620
+weight: 2640
 url: /tr/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection sınıfı
@@ -18,24 +18,24 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize olup olmadığını (iş parçacığı güvenli) gösteren bir değer döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğe sayısını alır. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ICommentAuthor`](../icommentauthor). |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Koleksiyonun sonuna yeni bir yazar ekler. |
-| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Koleksiyondaki tüm yazarları kaldırır. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Bir koleksiyonun sonuna yeni yazar ekler. |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Bir koleksiyondaki tüm yazarları kaldırır. |
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Bir koleksiyonda yazarın adını bulur. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Bir koleksiyonda yazarın adını ve baş harflerini bulur. |
+| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Bir koleksiyonda adıyla yazar bulur. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Bir koleksiyonda adı ve baş harfleriyle yazar bulur. |
 | [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Koleksiyonda belirtilen yazarın ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Koleksiyonda belirtilen indeksteki yazarı kaldırır. |
-| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Tüm yazarlarla bir dizi oluşturur ve döndürür. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Bir koleksiyonda belirtilen yazarın ilk oluşumunu kaldırır. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki yazarı kaldırır. |
+| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Tüm yazarları içeren bir dizi oluşturur ve döndürür. |
 
 ### Ayrıca Bakınız
 

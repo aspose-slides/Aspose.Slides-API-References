@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: รับหรือกำหนดค่าโหมดที่สไลด์วางบนหน้าเมื่อส่งออกงานนำเสนอ ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+description: รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
 url: /th/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions คุณสมบัติ
 
-รับหรือกำหนดค่าโหมดที่สไลด์วางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+รับหรือกำหนดโหมดที่สไลด์จะถูกจัดวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

@@ -1,6 +1,6 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 2D 및 3D 차트 유형을 결합하려고 할 때 발생하는 예외입니다.
 type: docs
 weight: 1240
@@ -16,13 +16,13 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | 기본 생성자입니다. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자입니다. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외에 대한 생성자입니다. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | 기본 생성자. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외를 위한 생성자. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

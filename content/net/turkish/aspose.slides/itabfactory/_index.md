@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
-second_title: Aspose.Slides için .NET API Referansı
-description: ITab örnekleri oluşturmayı sağlar
+second_title: Aspose.Sildes için .NET API Referansı
+description: ITab örnekleri oluşturulmasına izin verir
 type: docs
-weight: 7200
+weight: 7220
 url: /tr/aspose.slides/itabfactory/
 ---
-## ITabFactory arayüz
+## ITabFactory interface
 
-ITab örnekleri oluşturmayı sağlar
+ITab örnekleri oluşturulmasına izin verir
 
 ```csharp
 public interface ITabFactory
@@ -24,7 +24,7 @@ public interface ITabFactory
 
 COM uyumluluğu için.
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

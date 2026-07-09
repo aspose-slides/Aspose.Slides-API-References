@@ -6,7 +6,7 @@ type: docs
 weight: 5050
 url: /vi/aspose.slides/gradientstopeffectivedata/
 ---
-## GradientStopEffectiveData lớp
+## GradientStopEffectiveData class
 
 Đối tượng bất biến đại diện cho một điểm dừng gradient.
 
@@ -25,10 +25,10 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Xác định xem [`GradientStopEffectiveData`](../gradientstopeffectivedata) được chỉ định có bằng với [`GradientStopEffectiveData`](../gradientstopeffectivedata) hiện tại hay không. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Xác định liệu [`GradientStopEffectiveData`](../gradientstopeffectivedata) đã chỉ định có bằng với [`GradientStopEffectiveData`](../gradientstopeffectivedata) hiện tại hay không. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * không gian tên [Aspose.Slides](../../aspose.slides)

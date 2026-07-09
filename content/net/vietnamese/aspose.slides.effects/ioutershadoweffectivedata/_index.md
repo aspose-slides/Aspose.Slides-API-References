@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đối tượng bất biến đại diện cho hiệu ứng Outer Shadow.
+second_title: Aspose.Sildes cho .NET - Tài liệu tham khảo API
+description: Đối tượng bất biến đại diện cho hiệu ứng Bóng ngoài.
 type: docs
 weight: 3470
 url: /vi/aspose.slides.effects/ioutershadoweffectivedata/
 ---
-## IOuterShadowEffectiveData giao diện
+## Giao diện IOuterShadowEffectiveData
 
-Đối tượng bất biến đại diện cho hiệu ứng Outer Shadow.
+Đối tượng bất biến đại diện cho hiệu ứng Bóng ngoài.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -18,17 +18,17 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện cơ bản IEffectEffectiveData. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Bán kính làm mờ. Chỉ đọc Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Hướng của bóng. Chỉ đọc Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Khoảng cách của bóng. Chỉ đọc Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Căn Rectangle. Chỉ đọc [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Chỉ định liệu bóng có nên quay cùng shape nếu shape được quay. Chỉ đọc Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Chỉ định hệ số tỷ lệ theo chiều ngang, tỷ lệ âm gây lật. Chỉ đọc Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Chỉ định hệ số tỷ lệ theo chiều dọc, tỷ lệ âm gây lật. Chỉ đọc Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Color của bóng. Chỉ đọc Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Chỉ định góc nghiêng ngang (tính bằng độ). Chỉ đọc Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Chỉ định góc nghiêng dọc (tính bằng độ). Chỉ đọc Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Căn hình chữ nhật. Chỉ đọc [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Xác định liệu bóng có nên xoay cùng với hình dạng nếu hình dạng được xoay hay không. Chỉ đọc Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Xác định hệ số tỷ lệ theo chiều ngang, tỷ lệ âm sẽ gây lật. Chỉ đọc Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Xác định hệ số tỷ lệ theo chiều dọc, tỷ lệ âm sẽ gây lật. Chỉ đọc Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Màu của bóng. Chỉ đọc Color. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Xác định góc nghiêng theo chiều ngang (độ). Chỉ đọc Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Xác định góc nghiêng theo chiều dọc (độ). Chỉ đọc Double. |
 
 ### Xem thêm
 

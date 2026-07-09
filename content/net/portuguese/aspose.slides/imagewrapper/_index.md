@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Referência da API Aspose.Sildes para .NET
-description: Invólucro de System.Drawing.Image para interface COM.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Wrapper de System.Drawing.Image para interface COM.
 type: docs
-weight: 7420
+weight: 7440
 url: /pt/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper classe
 
-Invólucro de System.Drawing.Image para interface COM.
+Wrapper de System.Drawing.Image para interface COM.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -27,10 +27,10 @@ public class ImageWrapper : IImageWrapper
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | Descarta ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Salva Image no arquivo especificado |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Salva a Image no stream especificado no formato especificado. |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Salva a Image no Stream especificado no formato PPImageFormat. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Salva a Image no arquivo especificado no formato especificado. |
 
-### Ver também
+### Veja Também
 
 * interface [IImageWrapper](../iimagewrapper)
 * namespace [Aspose.Slides](../../aspose.slides)

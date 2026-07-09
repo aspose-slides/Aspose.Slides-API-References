@@ -1,12 +1,12 @@
 ---
 title: IOverrideTheme
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar ett överskrivande tema.
 type: docs
-weight: 11320
+weight: 11340
 url: /sv/aspose.slides.theme/ioverridetheme/
 ---
-## IOverrideTheme gränssnitt
+## IOverrideTheme interface
 
 Representerar ett överskrivande tema.
 
@@ -18,25 +18,25 @@ public interface IOverrideTheme : ITheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Tillåter att hämta bas-ITheme-gränssnitt. Skrivskyddad [`ITheme`](../itheme). |
-| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Sant värde betyder att ColorScheme, FontScheme, FormatScheme är null och all överskrivning med detta temaattribut är inaktiverad. Skrivskyddad Boolean. |
+| [AsITheme](../../aspose.slides.theme/ioverridetheme/asitheme) { get; } | Tillåter att hämta bas-ITheme-gränssnittet. Skrivskyddad [`ITheme`](../itheme). |
+| [IsEmpty](../../aspose.slides.theme/ioverridetheme/isempty) { get; } | Sant värde betyder att ColorScheme, FontScheme, FormatScheme är null och alla överskrivningar med detta temaattribut är inaktiverade. Skrivskyddad Boolean. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Sätt ColorScheme, FontScheme, FormatScheme till null för att inaktivera all överskrivning med detta temaattribut. |
+| [Clear](../../aspose.slides.theme/ioverridetheme/clear)() | Sätt ColorScheme, FontScheme, FormatScheme till null för att inaktivera alla överskrivningar med detta temaattribut. |
 | [InitColorScheme](../../aspose.slides.theme/ioverridetheme/initcolorscheme)() | Initiera ColorScheme med ett nytt objekt för att överskriva ColorScheme i InheritedTheme. |
 | [InitColorSchemeFrom](../../aspose.slides.theme/ioverridetheme/initcolorschemefrom)(IColorScheme) | Initiera ColorScheme med ett nytt objekt för att överskriva ColorScheme i InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initiera ColorScheme med ett nytt objekt för att överskriva ColorScheme i InheritedTheme. Och initiera data för detta nya objekt med data från ColorScheme i InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initcolorschemefrominherited)() | Initiera ColorScheme med ett nytt objekt för att överskriva ColorScheme i InheritedTheme. Och initiera data i detta nya objekt med data från ColorScheme i InheritedTheme. |
 | [InitFontScheme](../../aspose.slides.theme/ioverridetheme/initfontscheme)() | Initiera FontScheme med ett nytt objekt för att överskriva FontScheme i InheritedTheme. |
 | [InitFontSchemeFrom](../../aspose.slides.theme/ioverridetheme/initfontschemefrom)(IFontScheme) | Initiera FontScheme med ett nytt objekt för att överskriva FontScheme i InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Initiera FontScheme med ett nytt objekt för att överskriva FontScheme i InheritedTheme. Och initiera data för detta nya objekt med data från FontScheme i InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initfontschemefrominherited)() | Initiera FontScheme med ett nytt objekt för att överskriva FontScheme i InheritedTheme. Och initiera data i detta nya objekt med data från FontScheme i InheritedTheme. |
 | [InitFormatScheme](../../aspose.slides.theme/ioverridetheme/initformatscheme)() | Initiera FormatScheme med ett nytt objekt för att överskriva FormatScheme i InheritedTheme. |
 | [InitFormatSchemeFrom](../../aspose.slides.theme/ioverridetheme/initformatschemefrom)(IFormatScheme) | Initiera FormatScheme med ett nytt objekt för att överskriva FormatScheme i InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Initiera FormatScheme med ett nytt objekt för att överskriva FormatScheme i InheritedTheme. Och initiera data för detta nya objekt med data från FormatScheme i InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/ioverridetheme/initformatschemefrominherited)() | Initiera FormatScheme med ett nytt objekt för att överskriva FormatScheme i InheritedTheme. Och initiera data i detta nya objekt med data från FormatScheme i InheritedTheme. |
 
-### Se också
+### Se även
 
 * gränssnitt [ITheme](../itheme)
 * namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)

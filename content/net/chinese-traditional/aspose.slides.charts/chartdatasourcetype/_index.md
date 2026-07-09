@@ -21,7 +21,7 @@ public enum ChartDataSourceType
 | InternalWorkbook | `0` | 內部資料來源。 |
 | ExternalWorkbook | `1` | 外部資料來源。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

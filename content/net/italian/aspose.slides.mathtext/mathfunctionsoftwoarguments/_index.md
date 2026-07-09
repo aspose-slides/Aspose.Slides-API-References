@@ -1,9 +1,9 @@
 ---
 title: MathFunctionsOfTwoArguments
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Funzioni matematiche comuni di due argomenti
 type: docs
-weight: 8730
+weight: 8750
 url: /it/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments enumerazione

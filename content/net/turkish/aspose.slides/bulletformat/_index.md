@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Paragraf bullet biçimlendirme özelliklerini temsil eder.
+description: Paragraf madde işareti biçimlendirme özelliklerini temsil eder.
 type: docs
-weight: 1050
+weight: 1070
 url: /tr/aspose.slides/bulletformat/
 ---
 ## BulletFormat sınıfı
 
-Paragraf bullet biçimlendirme özelliklerini temsil eder.
+Paragraf madde işareti biçimlendirme özelliklerini temsil eder.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -16,30 +16,30 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Yalnızca okuma [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Bir paragrafta kalıtsız bullet karakterini döndürür veya ayarlar. Okuma/yazma Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Bir paragrafta kalıtsız bullet renginin formatını döndürür. Yalnızca okuma [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Bir paragrafta kalıtsız bullet yazı tipini döndürür veya ayarlar. Okuma/yazma [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Bir paragrafta kalıtsız bullet yüksekliğini döndürür veya ayarlar. float.NaN değeri, bullet'in yüksekliğini paragraftaki ilk bölüme kalıttığını belirler. Okuma/yazma Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Bullet'in kendi renginin olup olmadığını ya da paragraftaki ilk bölüme kalıttığını belirler. Bullet'in kendi rengi varsa **NullableBool.True**, paragraftaki ilk bölümden renk kalıtıyorsa **NullableBool.False** olur. Okuma/yazma [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Bullet'in kendi yazı tipinin olup olmadığını ya da paragraftaki ilk bölüme kalıttığını belirler. Bullet'in kendi yazı tipi varsa **NullableBool.True**, paragraftaki ilk bölümden yazı tipi kalıtıyorsa **NullableBool.False** olur. Okuma/yazma [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Kalıtsız numaralı bullet grubunda kullanılan ilk sayıyı döndürür veya ayarlar. Okuma/yazma Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Kalıtsız numaralı bullet stilini döndürür veya ayarlar. Okuma/yazma [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Kalıtsız bir paragrafta bullet olarak kullanılan resmi döndürür. Yalnızca okuma [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Kalıtsız bir paragrafta bullet tipini döndürür veya ayarlar. Okuma/yazma [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Kalıtsız bir paragraftaki madde işareti karakterini döndürür veya ayarlar. Okunur/yazılabilir Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Kalıtsız bir paragraftaki madde işaretinin renk biçimini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Kalıtsız bir paragraftaki madde işareti yazı tipini döndürür veya ayarlar. Okunur/yazılabilir [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Kalıtsız bir paragraftaki madde işareti yüksekliğini döndürür veya ayarlar. float.NaN değeri, madde işaretinin yüksekliğin paragraftaki ilk bölüme kalıtıldığını belirler. Okunur/yazılabilir Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Madde işaretinin kendi renginin olup olmadığını veya paragraftaki ilk bölüme renk kalıtıp kalıtmadığını belirler. Madde işareti kendi rengindeyse **NullableBool.True**, paragraftaki ilk bölüme renk kalıtıyorsa **NullableBool.False**. Okunur/yazılabilir [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Madde işaretinin kendi yazı tipine sahip olup olmadığını veya paragraftaki ilk bölüme yazı tipi kalıtıp kalıtmadığını belirler. Madde işareti kendi yazı tipindeyse **NullableBool.True**, ilk bölüme yazı tipi kalıtıyorsa **NullableBool.False**. Okunur/yazılabilir [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Kalıtsız numaralı madde işareti grubunda kullanılan ilk sayıyı döndürür veya ayarlar. Okunur/yazılabilir Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Kalıtsız bir numaralı madde işaretinin stilini döndürür veya ayarlar. Okunur/yazılabilir [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Kalıtsız bir paragrafta madde işareti olarak kullanılan resmi döndürür. Salt okunur [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Kalıtsız bir paragraftaki madde işareti türünü döndürür veya ayarlar. Okunur/yazılabilir [`BulletType`](../bullettype). |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Bulletler etkin olduğunda (PowerPoint'te paragraf bullet/numaralandırma etkinleştirildiğinde olduğu gibi) etkili paragraf Indent ve MarginLeft için varsayılan sıfır olmayan kaydırmaları ayarlar. Bulletler devre dışı bırakıldığında sadece paragraf Indent ve MarginLeft sıfırlanır (PowerPoint'te paragraf bullet/numaralandırma devre dışı bırakıldığında olduğu gibi). Girinti kaydırmaları, mevcut bullet bağlamına – IBulletFormat.Type, .NumberedBulletStyle ve ilk bölümün FontHeight – göre uygulanır. Sıfır olmayan girinti kaydırmaları, mevcut paragrafın etkili Indent ve MarginLeft değerlerine uygulanır (sonuç değerler yerel değerler olur). |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Kalıtım uygulandıktan sonra etkili bullet biçimlendirme verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kod döndürür. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Maddeler etkin olduğunda etkili paragraf Indent ve MarginLeft için varsayılan sıfır olmayan kaymaları ayarlar (PowerPoint'in paragraf madde işareti/numaralandırması etkinleştirildiğinde yaptığı gibi). Maddeler devre dışı bırakıldığında sadece paragraf Indent ve MarginLeft'i sıfırlar (PowerPoint'in paragraf madde işareti/numaralandırması devre dışı bırakıldığında yaptığı gibi). Girinti kaymaları mevcut madde bağlamına - IBulletFormat.Type, .NumberedBulletStyle ve ilk bölümün FontHeight'ına göre uygulanır. Sıfır olmayan girinti kaymaları mevcut paragrafın etkili Indent ve MarginLeft'ine uygulanır (sonuç değerlerini yerel değerler yapar). |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Uygulanan kalıtımla etkili madde işareti biçimlendirme verilerini alır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [IBulletFormat](../ibulletformat)

@@ -1,14 +1,14 @@
 ---
 title: VbaProject
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum makroları içeren VBA projesini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Sunum makrolarıyla VBA projesini temsil eder.
 type: docs
-weight: 11630
+weight: 11650
 url: /tr/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject sınıfı
 
-Sunum makroları içeren VBA projesini temsil eder.
+VBA projesini sunum makrolarıyla temsil eder.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -18,14 +18,14 @@ public sealed class VbaProject : IVbaProject
 
 | Ad | Açıklama |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | Bu yapıcı, yeni bir VBA projesini baştan oluşturur. Proje, 1252 Windows Latin 1 (ANSI) kod sayfasında oluşturulacaktır. |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | Bu yapıcı, VBA projesini OLE konteynerinin ikili temsiliyetinden yükler. |
+| [VbaProject](vbaproject#constructor)() | Bu yapıcı, sıfırdan yeni bir VBA projesi oluşturur. Proje, 1252 Windows Latin 1 (ANSI) kod sayfasında oluşturulacaktır. |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | Bu yapıcı, OLE kapsayıcısının ikili temsili üzerinden VBA projesini yükler. |
 
 ## Özellikler
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | VBAProject'in proje özelliklerini görüntülemek için bir şifreyle korumalı olup olmadığını gösterir. Salt okunur Boolean. |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | VBAProject'in proje özelliklerini görüntülemek için bir şifre ile korunup korunmadığını gösterir. Salt okunur Boolean. |
 | [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | VBA projesinde bulunan tüm modüllerin listesini döndürür. Salt okunur [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/vbaproject/name) { get; } | VBA projesinin adını döndürür. Salt okunur String. |
 | [References](../../aspose.slides.vba/vbaproject/references) { get; } | VBA projesinde bulunan tüm referansların listesini döndürür. Salt okunur [`IVbaReferenceCollection`](../ivbareferencecollection). |
@@ -34,7 +34,7 @@ public sealed class VbaProject : IVbaProject
 
 | Ad | Açıklama |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | VBA projesinin ikili temsiliyetini OLE konteyneri olarak döndürür. |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | VBA projesinin ikili temsili OLE kapsayıcısı olarak döndürülür. |
 
 ### Ayrıca Bakınız
 

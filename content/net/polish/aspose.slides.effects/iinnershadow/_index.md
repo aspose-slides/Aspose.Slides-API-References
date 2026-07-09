@@ -1,9 +1,9 @@
 ---
 title: IInnerShadow
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje efekt wewnętrznego cienia.
 type: docs
-weight: 3400
+weight: 3420
 url: /pl/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interfejs
@@ -19,8 +19,8 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Promień rozmycia. Odczyt/zapis Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Kierunek cienia. Odczyt/zapis Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Odległość cienia. Odczyt/zapis Double. |

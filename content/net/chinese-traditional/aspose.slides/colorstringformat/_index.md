@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示超連結動作的類型。
+description: 表示超連結操作的類型。
 type: docs
 weight: 2560
 url: /zh-hant/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat 列舉
 
-表示超連結動作的類型。
+表示超連結操作的類型。
 
 ```csharp
 public enum ColorStringFormat

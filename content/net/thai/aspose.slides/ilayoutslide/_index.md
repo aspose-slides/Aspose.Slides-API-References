@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไลด์เค้าโครง.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เป็นตัวแทนของสไลด์เค้าโครง.
 type: docs
 weight: 6220
 url: /th/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide อินเทอร์เฟซ
 
-แสดงสไลด์เค้าโครง.
+แสดงสไลด์เค้าโครง
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -18,20 +18,20 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseSlide พื้นฐาน. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | ส่งคืนอินเทอร์เฟซ IOverrideThemeable. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | ส่งคืนคอลเลกชันของแนวทางการวาดสำหรับสไลด์เค้าโครง. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | ส่งคืนค่า true หากมีสไลด์อย่างน้อยหนึ่งสไลด์ที่ขึ้นอยู่กับสไลด์เค้าโครงนี้. อ่านอย่างเดียว Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | ส่งคืนผู้จัดการ HeaderFooter ของสไลด์เค้าโครง. อ่านอย่างเดียว [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | ส่งคืนประเภทเค้าโครงของสไลด์เค้าโครงนี้. อ่านอย่างเดียว [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | ส่งคืนหรือกำหนดสไลด์มาสเตอร์สำหรับเค้าโครง. อ่าน/เขียน [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | ส่งคืนผู้จัดการตำแหน่งเก็บของสไลด์เค้าโครง. อ่านอย่างเดียว [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseSlide พื้นฐานได้ อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | คืนค่าอินเทอร์เฟซ IOverrideThemeable. อ่านอย่างเดียว [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | คืนค่าคอลเล็กชันของไกด์การวาดสำหรับสไลด์เค้าโครง. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | คืนค่า true หากมีสไลด์อย่างน้อยหนึ่งสไลด์ที่ขึ้นกับสไลด์เค้าโครงนี้. อ่านอย่างเดียว Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | คืนค่า HeaderFooter manager ของสไลด์เค้าโครง. อ่านอย่างเดียว [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | คืนค่าชนิดเค้าโครงของสไลด์เค้าโครงนี้. อ่านอย่างเดียว [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | คืนค่าหรือกำหนดสไลด์หลักสำหรับเค้าโครง. อ่าน/เขียน [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | คืนค่า placeholder manager ของสไลด์เค้าโครง. อ่านอย่างเดียว [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | ส่งคืนอาเรย์ที่มีสไลด์ทั้งหมดที่ขึ้นอยู่กับสไลด์เค้าโครงนี้. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | คืนค่าอาเรย์ที่มีสไลด์ทั้งหมดที่ขึ้นกับสไลด์เค้าโครงนี้. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | ลบเค้าโครงออกจากการนำเสนอ. |
 
 ### ดูเพิ่มเติม

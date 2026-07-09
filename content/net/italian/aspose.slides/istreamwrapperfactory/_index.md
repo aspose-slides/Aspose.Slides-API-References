@@ -1,9 +1,9 @@
 ---
 title: IStreamWrapperFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per la documentazione API .NET
 description: Factory di StreamWrappers. Per interfaccia COM.
 type: docs
-weight: 7120
+weight: 7140
 url: /it/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interfaccia
@@ -18,10 +18,10 @@ public interface IStreamWrapperFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea un FileStream con il percorso specificato e la modalità di creazione. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea un FileStream con il percorso specificato, la modalità di creazione e i permessi di lettura/scrittura. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea un wrapper MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea un wrapper MemoryStream basato sull'array di byte specificato. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Crea FileStream con il percorso specificato e la modalità di creazione. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Crea FileStream con il percorso specificato, la modalità di creazione e il permesso di lettura/scrittura. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Crea wrapper MemoryStream. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Crea wrapper MemoryStream basato sull'array di byte specificato. |
 
 ### Vedi anche
 

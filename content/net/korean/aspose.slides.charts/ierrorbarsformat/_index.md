@@ -1,14 +1,14 @@
 ---
 title: IErrorBarsFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: 차트 시리즈의 오류 막대를 나타냅니다. ErrorBars 사용자 지정 값은 ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues 속성의 IChartDataPointCollection에 있습니다.
+description: 차트 시리즈의 오류 막대를 나타냅니다. ErrorBars 사용자 지정 값은 IChartDataPointCollection의 ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues 속성에 있습니다.
 type: docs
 weight: 2090
 url: /ko/aspose.slides.charts/ierrorbarsformat/
 ---
 ## IErrorBarsFormat 인터페이스
 
-차트 시리즈의 오류 막대를 나타냅니다. ErrorBars 사용자 지정 값은 IChartDataPointCollection에 있습니다 ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 속성).
+차트 시리즈의 오류 막대를 나타냅니다. ErrorBars 사용자 지정 값은 IChartDataPointCollection에 있습니다 ([`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 속성 내부).
 
 ```csharp
 public interface IErrorBarsFormat : IChartComponent
@@ -21,10 +21,10 @@ public interface IErrorBarsFormat : IChartComponent
 | [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | IChartComponent 인터페이스를 반환합니다. 읽기 전용 [`IChartComponent`](../ichartcomponent). |
 | [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | 오류 막대의 형식을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
 | [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | 오류 막대에 끝 캡이 그려지지 않도록 지정합니다. 읽기/쓰기 Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | 오류 막대의 가시성을 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Error Bars 가시성을 가져오거나 설정합니다. 읽기/쓰기 Boolean. |
 | [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | 오류 막대 유형을 가져오거나 설정합니다. 읽기/쓰기 [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Fixed, Percentage 및 StandardDeviation 값 유형과 함께 사용되어 오류 막대의 길이를 결정하는 값을 가져오거나 설정합니다. 읽기/쓰기 Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | 오류 막대의 길이를 결정하는 가능한 방법을 나타냅니다. 사용자 지정 값 유형의 경우, 값을 지정하려면 시리즈의 DataPoints 컬렉션에 있는 특정 데이터 포인트의 [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 속성을 사용합니다. 읽기/쓰기 [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | 오류 막대 길이를 결정하기 위해 Fixed, Percentage 및 StandardDeviation 값 유형과 함께 사용되는 값을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | 오류 막대 길이를 결정하는 가능한 방법을 나타냅니다. 사용자 지정 값 유형의 경우 값 지정에 시리즈의 DataPoints 컬렉션에 있는 특정 데이터 포인트의 [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) 속성을 사용합니다. 읽기/쓰기 [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### 참조
 

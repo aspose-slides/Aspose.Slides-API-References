@@ -1,14 +1,14 @@
 ---
 title: TextAnimation
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje textovou animaci.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Reprezentuje animaci textu.
 type: docs
-weight: 800
+weight: 820
 url: /cs/aspose.slides.animation/textanimation/
 ---
 ## TextAnimation třída
 
-Represent text animation.
+Reprezentuje animaci textu.
 
 ```csharp
 public class TextAnimation : ITextAnimation
@@ -24,14 +24,14 @@ public class TextAnimation : ITextAnimation
 
 | Název | Popis |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Seznam typů sestavení (např. Paragraph 1,2,3, All at Once) textové animace. Čtení/zápis [`BuildType`](../buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Propojený efekt tvaru se skupinou nebo ne (null). Čtení/zápis [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/textanimation/buildtype) { get; set; } | Seznam typu sestavení (např. Paragraph 1,2,3, All at Once) animace textu. Číst/zapisovat [`BuildType`](../buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/textanimation/effectanimatebackgroundshape) { get; set; } | Propojený efekt tvaru se skupinou nebo bez ní (null). Číst/zapisovat [`IEffect`](../ieffect). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Přidá nový efekt na konec aktuální sekvence do konce skupinových textových animací. Platí pouze, pokud počet textových odstavců je roven nebo větší než počet efektů této skupiny! |
+| [AddEffect](../../aspose.slides.animation/textanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Přidá nový efekt na konec aktuální sekvence skupinové animace textu. Platí pouze, pokud je počet odstavců textu roven nebo větší než počet efektů této skupiny! |
 
 ### Viz také
 

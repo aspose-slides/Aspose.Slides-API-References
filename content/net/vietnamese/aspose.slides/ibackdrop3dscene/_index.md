@@ -1,14 +1,14 @@
 ---
 title: IBackdrop3DScene
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định một mặt phẳng trong đó các hiệu ứng như hào quang và bóng đổ được áp dụng liên quan tới hình dạng mà chúng được áp dụng.
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Xác định một mặt phẳng trong đó các hiệu ứng như phát sáng và bóng được áp dụng liên quan đến hình dạng mà chúng được áp dụng.
 type: docs
 weight: 5260
 url: /vi/aspose.slides/ibackdrop3dscene/
 ---
-## Giao diện IBackdrop3DScene
+## IBackdrop3DScene giao diện
 
-Xác định một mặt phẳng mà trong đó các hiệu ứng, chẳng hạn như ánh hào quang và bóng đổ, được áp dụng liên quan tới hình dạng mà chúng được áp dụng.
+Xác định một mặt phẳng trong đó các hiệu ứng, chẳng hạn như phát sáng và bóng, được áp dụng liên quan đến hình dạng mà chúng được áp dụng.
 
 ```csharp
 public interface IBackdrop3DScene
@@ -18,9 +18,9 @@ public interface IBackdrop3DScene
 
 | Tên | Mô tả |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Trả về hoặc đặt một điểm trong không gian 3D. Điểm này là điểm trong không gian mà làm neo cho mặt phẳng nền. Điểm 3D được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Trả về hoặc đặt một vector pháp tuyến. Cụ thể hơn, thuộc tính này định nghĩa một vector vuông góc với mặt của mặt phẳng nền. Vector được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Trả về hoặc đặt một vector đại diện cho hướng lên. Cụ thể hơn, thuộc tính này định nghĩa một vector đại diện cho hướng lên liên quan đến mặt của mặt phẳng nền. Vector được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Trả về hoặc đặt một điểm trong không gian 3D. Điểm này là điểm trong không gian làm neo cho mặt phẳng backdrop. Điểm 3D được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Trả về hoặc đặt một vector pháp tuyến. Cụ thể hơn, thuộc tính này định nghĩa một vector pháp tuyến với mặt của mặt phẳng backdrop. Vector được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Trả về hoặc đặt một vector đại diện cho hướng lên. Cụ thể hơn, thuộc tính này định nghĩa một vector đại diện cho hướng lên so với mặt của mặt phẳng backdrop. Vector được biểu diễn bằng mảng gồm 3 giá trị float xác định tọa độ X, Y và Z. Đọc/ghi Single[]. |
 
 ### Xem thêm
 

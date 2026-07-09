@@ -1,14 +1,14 @@
 ---
 title: IObsoletePresLockingBehaviorWarningInfo
-second_title: Aspose.Sildes for .NET API 參考
-description: 此警告表示使用了過時的簡報鎖定行為。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 此警告表示使用了已過時的簡報鎖定行為。
 type: docs
 weight: 11780
 url: /zh-hant/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo 介面
 
-此警告表示使用了過時的簡報鎖定行為。
+此警告表示使用了已過時的簡報鎖定行為。
 
 ```csharp
 public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IObsoletePresLockingBehaviorWarningInfo : IWarningInfo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | 傳回 IWarningInfo 介面。唯讀 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 介面。唯讀 [`IWarningInfo`](../iwarninginfo)。 |
 
-### 另請參閱
+### 另請參見
 
 * 介面 [IWarningInfo](../iwarninginfo)
 * 命名空間 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

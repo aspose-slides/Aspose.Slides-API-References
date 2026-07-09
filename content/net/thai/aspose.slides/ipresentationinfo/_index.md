@@ -1,14 +1,14 @@
 ---
 title: IPresentationInfo
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ข้อมูลเกี่ยวกับไฟล์พรีเซนเทชัน
+description: ข้อมูลเกี่ยวกับไฟล์งานนำเสนอ
 type: docs
 weight: 6790
 url: /th/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo อินเทอร์เฟซ
 
-ข้อมูลเกี่ยวกับไฟล์พรีเซนเทชัน
+ข้อมูลเกี่ยวกับไฟล์งานนำเสนอ
 
 ```csharp
 public interface IPresentationInfo
@@ -16,23 +16,23 @@ public interface IPresentationInfo
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | รับค่า True หากพรีเซนเทชันที่เชื่อมต่อถูกเข้ารหัส, มิฉะนั้นจะเป็น False. อ่านอย่างเดียว Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | รับค่าแสดงว่าพรีเซนเทชันที่เชื่อมต่อได้รับการปกป้องด้วยรหัสผ่านเพื่อเปิดหรือไม่. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | รับค่าแสดงว่าพรีเซนเทชันที่เชื่อมต่อได้รับการป้องกันการเขียนหรือไม่. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | รับรูปแบบของพรีเซนเทชันที่เชื่อมต่อ. อ่านอย่างเดียว [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | คืนค่า True หากงานนำเสนอที่ผูกไว้ถูกเข้ารหัส, มิฉะนั้นคืนค่า False. อ่านอย่างเดียว Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | คืนค่าที่บ่งบอกว่าผลงานนำเสนอที่ผูกไว้ถูกป้องกันด้วยรหัสผ่านเพื่อเปิดหรือไม่. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | คืนค่าที่บ่งบอกว่าผลงานนำเสนอที่ผูกไว้ถูกป้องกันการเขียนหรือไม่. |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | คืนค่าฟอร์แมตของผลงานนำเสนอที่ผูกไว้. อ่านอย่างเดียว [`LoadFormat`](../loadformat). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | ตรวจสอบว่ารหัสผ่านถูกต้องสำหรับพรีเซนเทชันที่ได้รับการปกป้องด้วยรหัสผ่านเปิดหรือไม่. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | ตรวจสอบว่ารหัสผ่านเพื่อแก้ไขถูกต้องสำหรับพรีเซนเทชันที่ป้องกันการเขียนหรือไม่. |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | รับคุณสมบัติของเอกสารของพรีเซนเทชันที่เชื่อมต่อ. |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | อัปเดตคุณสมบัติของพรีเซนเทชันที่เชื่อมต่อ. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | เขียนพรีเซนเทชันที่เชื่อมต่อไปยังสตรีม. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | เขียนพรีเซนเทชันที่เชื่อมต่อไปยังไฟล์. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | ตรวจสอบว่ารหัสผ่านสำหรับงานนำเสนอที่ป้องกันด้วยรหัสผ่านเปิดนั้นถูกต้องหรือไม่. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | ตรวจสอบว่ารหัสผ่านเพื่อแก้ไขสำหรับงานนำเสนอที่ป้องกันการเขียนนั้นถูกต้องหรือไม่. |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | คืนคุณลักษณะเอกสารของงานนำเสนอที่ผูกไว้. |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | อัปเดตคุณสมบัติของงานนำเสนอที่ผูกไว้. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | เขียนงานนำเสนอที่ผูกไว้ไปยังสตรีม. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | เขียนงานนำเสนอที่ผูกไว้ลงไฟล์. |
 
 ### ดูเพิ่มเติม
 

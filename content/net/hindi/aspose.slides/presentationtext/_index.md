@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रेज़ेंटेशन से निकाले गए पाठ का प्रतिनिधित्व करता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रस्तुति से निकाले गए पाठ का प्रतिनिधित्व करता है
 type: docs
 weight: 9640
 url: /hi/aspose.slides/presentationtext/
 ---
-## PresentationText वर्ग
+## PresentationText क्लास
 
-प्रेज़ेंटेशन से निकाले गए टेक्स्ट का प्रतिनिधित्व करता है
+प्रस्तुति से निकाले गए पाठ का प्रतिनिधित्व करता है
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -16,9 +16,9 @@ public class PresentationText : IPresentationText
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | एक array जिसका प्रकार [`SlideText`](../islidetext) है, जिसमें प्रेज़ेंटेशन का टेक्स्ट होता है। |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | एक ऐरे जिसमें [`SlideText`](../islidetext) शामिल है, प्रस्तुति का पाठ रखता है। |
 
 ### देखें
 

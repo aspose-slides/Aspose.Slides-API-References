@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: HTML ファイルテンプレートを表します。
 type: docs
-weight: 3920
+weight: 3940
 url: /ja/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter インターフェイス
 
-HTML ファイルテンプレートを表します。
+HTMLファイルテンプレートを表します。
 
 ```csharp
 public interface IHtmlFormatter

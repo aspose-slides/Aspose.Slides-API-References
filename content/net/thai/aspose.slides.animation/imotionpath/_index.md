@@ -1,6 +1,6 @@
 ---
 title: IMotionPath
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงเส้นทางการเคลื่อนที่.
 type: docs
 weight: 530
@@ -8,7 +8,7 @@ url: /th/aspose.slides.animation/imotionpath/
 ---
 ## IMotionPath อินเทอร์เฟซ
 
-แสดงเส้นทางเคลื่อนที่
+แสดงเส้นทางการเคลื่อนที่.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -18,17 +18,17 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBehavior พื้นฐานได้. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | คืนค่าจำนวนเส้นทางในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | คืนค่าคำสั่งที่ตำแหน่งที่ระบุ. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior ฐาน. อ่านได้เท่านั้น IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | ส่งคืนจำนวนของ paths ในคอลเลกชัน. อ่านได้เท่านั้น Int32. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | ส่งคืนคำสั่งที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | เพิ่มคำสั่งใหม่ลงในเส้นทาง |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | เพิ่มคำสั่งใหม่ไปยังเส้นทาง |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | ลบคำสั่งทั้งหมดจากคอลเลกชัน. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | แทรกคำสั่งใหม่ลงในเส้นทาง |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | แทรกคำสั่งใหม่ไปยังเส้นทาง |
 | [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | ลบคำสั่งที่ระบุจากคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | ลบคำสั่งที่ตำแหน่งที่ระบุ. |
 

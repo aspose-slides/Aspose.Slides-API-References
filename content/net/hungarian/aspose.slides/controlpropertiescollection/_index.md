@@ -1,9 +1,9 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes a .NET API-referencia
-description: Az ActiveX tulajdonságok gyűjteménye.
+second_title: Aspose.Sildes .NET API Referencia
+description: Az AcitveX tulajdonságok gyűjteménye.
 type: docs
-weight: 2690
+weight: 2710
 url: /hu/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection osztály
@@ -19,17 +19,17 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | A gyűjteményben lévő tulajdonságok számát adja vissza. Csak olvasható Int32. |
-| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Tulajdonságot ad vissza vagy állít be. |
+| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Visszaadja vagy beállítja a tulajdonságot. |
 | [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | A tulajdonságnevek gyűjteményét adja vissza. Csak olvasható ICollection. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Tulajdonságot ad a gyűjteményhez. |
-| [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Az összes tulajdonságot eltávolítja. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
-| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Eltávolít egy megadott nevű tulajdonságot. |
+| [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Eltávolítja az összes tulajdonságot. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Enumerátort ad vissza, amely végig iterál a gyűjteményen. |
+| [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Eltávolít egy tulajdonságot a megadott névvel. |
 
 ### Lásd még
 

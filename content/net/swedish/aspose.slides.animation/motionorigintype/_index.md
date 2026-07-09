@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
 second_title: Aspose.Sildes för .NET API-referens
-description: Specificerar vad ursprunget för rörelsens bana är relativt till. Till exempel layouten på bilden eller föräldern.
+description: Anger vad ursprunget för rörelsespåret är relativt till. Till exempel layouten för bilden eller föräldern.
 type: docs
-weight: 660
+weight: 680
 url: /sv/aspose.slides.animation/motionorigintype/
 ---
-## MotionOriginType uppräkning
+## MotionOriginType-uppräkning
 
-Specificerar vad rörelsens ursprung är relativt till. Till exempel layouten på bilden eller föräldern.
+Anger vad ursprunget för rörelsespåret är relativt till. Till exempel layouten för bilden eller föräldern.
 
 ```csharp
 public enum MotionOriginType

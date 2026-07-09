@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Duotone. Για κάθε pixel συνδυάζει clr1 και clr2 μέσω γραμμικής παρεμβολής για να προσδιορίσει το νέο χρώμα του pixel.
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Duotone. Για κάθε pixel συνδυάζει τα clr1 και clr2 μέσω γραμμικής παρεμβολής για να προσδιορίσει το νέο χρώμα για αυτό το pixel.
 type: docs
-weight: 3250
+weight: 3270
 url: /el/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Duotone. Για κάθε pixel, συνδυάζει clr1 και clr2 μέσω γραμμικής παρεμβολής για να προσδιορίσει το νέο χρώμα του pixel.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Duotone. Για κάθε pixel, συνδυάζει τα clr1 και clr2 μέσω γραμμικής παρεμβολής για να προσδιορίσει το νέο χρώμα για αυτό το pixel.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Επιστρέφει το μορφότυπο χρώματος-στόχος για σκούρα pixels. Μόνο για ανάγνωση Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Επιστρέφει το μορφότυπο χρώματος-στόχος για φωτεινά pixels. Μόνο για ανάγνωση Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Διευκολύνει την λήψη της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Επιστρέφει τη μορφή χρώματος-στόχου για σκοτεινά pixels. Μόνο για ανάγνωση Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Επιστρέφει τη μορφή χρώματος-στόχου για ανοιχτά pixels. Μόνο για ανάγνωση Color. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IEffectEffectiveData](../ieffecteffectivedata)
+* διασύνδεση [IEffectEffectiveData](../ieffecteffectivedata)
 * χώρο ονομάτων [Aspose.Slides.Effects](../../aspose.slides.effects)
 * συναρμολόγηση [Aspose.Slides](../../)
 

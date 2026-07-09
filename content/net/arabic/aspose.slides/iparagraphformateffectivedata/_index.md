@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن ثابت غير قابل للتغيير يحتوي على خصائص تنسيق الفقرة الفعّالة.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: كائن غير قابل للتغيير يحتوي على خصائص تنسيق الفقرة الفعّالة.
 type: docs
 weight: 6600
 url: /ar/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData واجهة
+## واجهة IParagraphFormatEffectiveData
 
-كائن ثابت غير قابل للتغيير يحتوي على خصائص تنسيق الفقرة الفعّالة.
+كائن غير قابل للتغيير يحتوي على خصائص تنسيق الفقرة الفعّالة.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | يرجع محاذاة النص في الفقرة. قراءة فقط [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | يرجع تنسيق تعداد نقطي للفقرة. قراءة فقط [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | يرجع تنسيق الجزء الافتراضي للفقرة. قراءة فقط [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | يرجع حجم التبويب الافتراضي. قراءة فقط Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | يرجع عمق الفقرة. قراءة فقط Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | يحدد ما إذا كان يتم استخدام فاصل السطر شرق آسيوي في الفقرة. قراءة فقط Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | يرجع محاذاة الخط في الفقرة. قراءة فقط [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | يحدد ما إذا كان يتم استخدام ترقيم معلق في الفقرة. قراءة فقط Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | يرجع إزاحة السطر الأول/الإزاحة المتدلية للفقرة. يمكن تعريف الإزاحة المتدلية بقيم سلبية. قراءة فقط Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | يحدد ما إذا كان يتم استخدام فاصل السطر اللاتيني في الفقرة. قراءة فقط Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | يرجع الهامش الأيسر في الفقرة. قراءة فقط Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | يرجع الهامش الأيمن في الفقرة. قراءة فقط Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | يحدد ما إذا كان يتم استخدام الكتابة من اليمين إلى اليسار في الفقرة. قراءة فقط Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | يرجع مقدار المسافة بعد السطر الأخير في الفقرة. قراءة فقط Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | يرجع مقدار المسافة قبل السطر الأول في الفقرة. قراءة فقط Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | يرجع مقدار المسافة بين خطوط الأساس في الفقرة. قراءة فقط Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | يرجع تبويبات الفقرة. قراءة فقط [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | يُعيد محاذاة النص في الفقرة. للقراءة فقط [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | يُعيد تنسيق تعداد نقطي للفقرة. للقراءة فقط [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | يُعيد تنسيق الجزء الافتراضي للفقرة. للقراءة فقط [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | يُعيد حجم التبويب الافتراضي. للقراءة فقط Single. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | يُعيد عمق الفقرة. للقراءة فقط Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | يحدد ما إذا كان فاصل السطر شرق آسيا يُستخدم في الفقرة. للقراءة فقط Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | يُعيد محاذاة الخط في الفقرة. للقراءة فقط [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | يحدد ما إذا كان يُستخدم ترقيم معلق في الفقرة. للقراءة فقط Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | يُعيد مسافة إزاحة السطر الأول/الإزاحة المتدلية للفقرة. يمكن تعريف الإزاحة المتدلية بقيم سالبة. للقراءة فقط Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | يحدد ما إذا كان فاصل السطر اللاتيني يُستخدم في الفقرة. للقراءة فقط Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | يُعيد الهامش الأيسر في الفقرة. للقراءة فقط Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | يُعيد الهامش الأيمن في الفقرة. للقراءة فقط Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | يحدد ما إذا كان الكتابة من اليمين إلى اليسار تُستخدم في الفقرة. للقراءة فقط Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | يُعيد مقدار المسافة بعد السطر الأخير في الفقرة. للقراءة فقط Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | يُعيد مقدار المسافة قبل السطر الأول في الفقرة. للقراءة فقط Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | يُعيد مقدار المسافة بين الأسطر القاعدية في الفقرة. للقراءة فقط Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | يُعيد تبويبات الفقرة. للقراءة فقط [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### ملاحظات
 
-تُستخدم هذه الواجهة مع الواجهة [`IParagraphFormat`](../iparagraphformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
+تُستخدم هذه الواجهة مع واجهة [`IParagraphFormat`](../iparagraphformat) لإرجاع قيم التنسيق الفعّالة مع تطبيق الوراثة.
 
 ### انظر أيضًا
 
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* المجال [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Generator HTML.
 type: docs
-weight: 3940
+weight: 3960
 url: /pl/aspose.slides.export/ihtmlgenerator/
 ---
 ## IHtmlGenerator interfejs
@@ -18,11 +18,11 @@ public interface IHtmlGenerator
 
 | Nazwa | Opis |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Zwraca indeks slajdu, który zostanie wyrenderowany po bieżącym slajdzie lub -1, jeśli renderowany jest ostatni slajd. Tylko do odczytu Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Zwraca indeks poprzednio wyrenderowanego slajdu lub -1, jeśli renderowany jest pierwszy slajd. Tylko do odczytu Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Zwraca indeks slajdu, który zostanie wyrenderowany po bieżącym slajdzie lub -1, jeśli aktualnie renderowany jest ostatni slajd. Tylko do odczytu Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Zwraca indeks wcześniej wyrenderowanego slajdu lub -1, jeśli renderowany jest pierwszy slajd. Tylko do odczytu Int32. |
 | [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Zwraca rozmiar obrazu slajdu. Tylko do odczytu SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Zwraca jednostkę, w której określony jest rozmiar obrazu slajdu. Tylko do odczytu [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Zwraca kod CSS jednostki, w której określony jest rozmiar obrazu slajdu. Tylko do odczytu String. |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Zwraca kod css jednostki, w której określony jest rozmiar obrazu slajdu. Tylko do odczytu String. |
 | [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Zwraca indeks aktualnie renderowanego slajdu. Tylko do odczytu Int32. |
 
 ## Metody
@@ -35,9 +35,9 @@ public interface IHtmlGenerator
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Dodaje sformatowany tekst HTML. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Dodaje sformatowany tekst HTML. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Dodaje sformatowany tekst HTML. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Dodaje zwykły tekst do plików HTML, zastępując znaki specjalne encjami HTML. Znaki nowej linii i białe znaki nie są zastępowane. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Dodaje zwykły tekst do plików HTML, zastępując znaki specjalne encjami HTML. Znaki nowej linii i białe znaki nie są zastępowane. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Dodaje zwykły tekst do plików HTML, zastępując znaki specjalne encjami HTML. Znaki nowej linii i białe znaki nie są zastępowane. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Dodaje zwykły tekst do plików HTML, zamieniając specjalne znaki na encje HTML. Znaki nowej linii i białe znaki nie są zamieniane. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Dodaje zwykły tekst do plików HTML, zamieniając specjalne znaki na encje HTML. Znaki nowej linii i białe znaki nie są zamieniane. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Dodaje zwykły tekst do plików HTML, zamieniając specjalne znaki na encje HTML. Znaki nowej linii i białe znaki nie są zamieniane. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Niezmienny obiekt zawierający właściwości wypełnienia obrazem.
 type: docs
-weight: 6640
+weight: 6660
 url: /pl/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData interfejs
 
-Niezmienny obiekt zawierający właściwości wypełnienia obrazem.
+Obiekt niezmienny, który zawiera właściwości wypełnienia obrazem.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -19,13 +19,13 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Zwraca liczbę procent rzeczywistej wysokości obrazu przyciętej z dołu obrazu. Tylko do odczytu Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Zwraca liczbę procent rzeczywistej szerokości obrazu przyciętej z lewej strony obrazu. Tylko do odczytu Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Zwraca liczbę procent rzeczywistej szerokości obrazu przyciętej z prawej strony obrazu. Tylko do odczytu Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Zwraca liczbę procent rzeczywistej wysokości obrazu przyciętej z góry obrazu. Tylko do odczytu Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Zwraca dpi używane do wypełnienia obrazu. Tylko do odczytu Int32. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Zwraca liczbę procent rzeczywistej wysokości obrazu, które są obcięte od dołu obrazu. Tylko do odczytu Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Zwraca liczbę procent rzeczywistej szerokości obrazu, które są obcięte od lewej strony obrazu. Tylko do odczytu Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Zwraca liczbę procent rzeczywistej szerokości obrazu, które są obcięte od prawej strony obrazu. Tylko do odczytu Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Zwraca liczbę procent rzeczywistej wysokości obrazu, które są obcięte od góry obrazu. Tylko do odczytu Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Zwraca DPI używane do wypełniania obrazem. Tylko do odczytu Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Zwraca obraz. Tylko do odczytu [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Zwraca tryb wypełnienia obrazu. Tylko do odczytu [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Zwraca tryb wypełnienia obrazem. Tylko do odczytu [`PictureFillMode`](../picturefillmode). |
 
 ### Uwagi
 

@@ -3,7 +3,7 @@ title: IAxesManager
 second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje přístup k osám grafu.
 type: docs
-weight: 1680
+weight: 1700
 url: /cs/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager rozhraní
@@ -18,11 +18,11 @@ public interface IAxesManager
 
 | Název | Popis |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Vrací vodorovnou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Vrací sekundární vodorovnou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Vrací sekundární svislou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Vrací osu řady grafu. Pouze pro čtení [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Vrací svislou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Získá vodorovnou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Získá sekundární vodorovnou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Získá sekundární svislou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Získá osu sérií grafu. Pouze pro čtení [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Získá svislou osu grafu. Pouze pro čtení [`IAxis`](../iaxis). |
 
 ### Viz také
 

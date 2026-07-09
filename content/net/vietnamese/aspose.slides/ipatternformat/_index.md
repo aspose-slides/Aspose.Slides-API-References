@@ -1,7 +1,7 @@
 ---
 title: IPatternFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một mẫu để lấp đầy một hình dạng.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một mẫu để lấp đầy hình dạng.
 type: docs
 weight: 6620
 url: /vi/aspose.slides/ipatternformat/
@@ -18,18 +18,18 @@ public interface IPatternFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Trả về màu nền của mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Trả về màu nền phía trước của mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [BackColor](../../aspose.slides/ipatternformat/backcolor) { get; } | Trả về màu nền mẫu. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/ipatternformat/forecolor) { get; } | Trả về màu mẫu phía trước. Chỉ đọc [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/ipatternformat/patternstyle) { get; set; } | Trả về hoặc đặt kiểu mẫu. Đọc/ghi [`PatternStyle`](../patternstyle). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Tạo hình ảnh gạch lát cho mẫu lấp đầy. |
-| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Tạo hình ảnh gạch lát cho mẫu lấp đầy với các màu đã chỉ định. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile)(Color) | Tạo ảnh gạch lát cho việc lấp mẫu. |
+| [GetTile](../../aspose.slides/ipatternformat/gettile#gettile_1)(Color, Color) | Tạo ảnh gạch lát cho việc lấp mẫu với các màu đã chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

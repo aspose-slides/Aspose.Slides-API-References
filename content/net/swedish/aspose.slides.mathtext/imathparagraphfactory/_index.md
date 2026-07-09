@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa ett matematiskt stycke
 type: docs
-weight: 8380
+weight: 8400
 url: /sv/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory gränssnitt
@@ -25,7 +25,7 @@ public interface IMathParagraphFactory
 
 För COM-kompatibilitet
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * samling [Aspose.Slides](../../)

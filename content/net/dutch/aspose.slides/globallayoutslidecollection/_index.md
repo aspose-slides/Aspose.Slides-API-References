@@ -1,14 +1,14 @@
 ---
 title: GlobalLayoutSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van alle lay-outdia's in de presentatie voor. Breidt de LayoutSlideCollection-klasse uit met methoden voor het toevoegen/klonen van lay-outdia's in de context van het samenvoegen van de afzonderlijke collecties van master-lay-outdia's.
+description: Representeert een collectie van alle lay-outdia's in een presentatie. Breidt de LayoutSlideCollection class uit met methoden voor het toevoegen/kopiëren van lay-outdia's in de context van het samenvoegen van de individuele collecties van masters lay-outdia's.
 type: docs
 weight: 4980
 url: /nl/aspose.slides/globallayoutslidecollection/
 ---
 ## GlobalLayoutSlideCollection klasse
 
-Represents a collection of all layout slides in presentation. Extends LayoutSlideCollection class with methods for adding/cloning layout slides in context of uniting of the individual collections of master's layout slides.
+Vertegenwoordigt een collectie van alle lay-outdia's in een presentatie. Breidt de LayoutSlideCollection-klasse uit met methoden voor het toevoegen/kopiëren van lay-outdia's in de context van het samenvoegen van de individuele collecties van de master-lay-outdia's.
 
 ```csharp
 public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,9 +19,9 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retourneert het aantal layout-dia's in een collectie. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retourneert de layout-dia op index. Alleen-lezen [`LayoutSlide`](../layoutslide). |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Retourneert het aantal lay-outdia's in een collectie. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of toegang tot de collectie gesynchroniseerd is (thread-veilig). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Retourneert de lay-outdia op index. Alleen-lezen [`LayoutSlide`](../layoutslide). |
 | [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
@@ -29,19 +29,19 @@ public sealed class GlobalLayoutSlideCollection : LayoutSlideCollection,
 | Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/globallayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | Voegt een nieuwe lay-outdia toe aan de presentatie. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Voegt een kopie van een opgegeven lay-outdia toe aan de presentatie. |
-| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Voegt een kopie van een opgegeven lay-outdia toe aan de presentatie. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone)(ILayoutSlide) | Voegt een kopie van een gespecificeerde lay-outdia toe aan de presentatie. |
+| [AddClone](../../aspose.slides/globallayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Voegt een kopie van een gespecificeerde lay-outdia toe aan de presentatie. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste lay-outdia van het opgegeven type. Een type lay-outdia om te vinden.[`LayoutSlide`](../layoutslide) met het opgegeven type of null als er geen lay-outs zijn gevonden. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Retourneert de eerste lay-outdia van het opgegeven type. Een type lay-outdia om te vinden.[`LayoutSlide`](../layoutslide) met opgegeven type of null als er geen lay-outs zijn gevonden. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Verwijdert een lay-out uit de collectie. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outdia's (lay-outdia's waarvan HasDependingSlides false is). |
 
 ### Zie ook
 
-* klasse [LayoutSlideCollection](../layoutslidecollection)
+* class [LayoutSlideCollection](../layoutslidecollection)
 * interface [IGlobalLayoutSlideCollection](../igloballayoutslidecollection)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

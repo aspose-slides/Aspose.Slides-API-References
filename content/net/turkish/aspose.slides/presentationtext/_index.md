@@ -1,12 +1,12 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sunumdan çıkarılan metni temsil eder
 type: docs
-weight: 9620
+weight: 9640
 url: /tr/aspose.slides/presentationtext/
 ---
-## PresentationText sınıf
+## PresentationText sınıfı
 
 Sunumdan çıkarılan metni temsil eder
 
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | Ad | Açıklama |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Bir [`SlideText`](../islidetext) dizisi bir sunumun metnini içerir. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | Bir [`SlideText`](../islidetext) dizisi, sunumun metnini içerir. |
 
 ### Ayrıca Bakınız
 

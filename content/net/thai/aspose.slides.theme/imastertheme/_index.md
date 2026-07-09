@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงธีมหลัก.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงธีมหลัก.
 type: docs
 weight: 11310
 url: /th/aspose.slides.theme/imastertheme/
 ---
 ## IMasterTheme อินเทอร์เฟซ
 
-แสดงถึงธีมหลัก
+แสดงธีมหลัก
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -16,11 +16,11 @@ public interface IMasterTheme : ITheme
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITheme พื้นฐาน. อ่านอย่างเดียว [`ITheme`](../itheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | คืนค่าชุดสีเพิ่มเติม. ชุดสีเหล่านี้ไม่ส่งผลต่อรูปลักษณ์ของงานนำเสนอ, สามารถเลือกเป็นชุดสีหลักสำหรับสไลด์ได้. อ่านอย่างเดียว [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | คืนค่าชื่อของธีม. อ่าน/เขียน String. |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | ใช้เพื่อดึงอินเทอร์เฟซ ITheme พื้นฐาน. อ่านอย่างเดียว [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | ส่งคืนคอลเลกชันของโทนสีเพิ่มเติม. โทนสีเหล่านี้ไม่กระทบต่อรูปลักษณ์ของงานนำเสนอ, สามารถเลือกเป็นโทนสีหลักสำหรับสไลด์ได้. อ่านอย่างเดียว [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | ส่งคืนชื่อของธีม. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

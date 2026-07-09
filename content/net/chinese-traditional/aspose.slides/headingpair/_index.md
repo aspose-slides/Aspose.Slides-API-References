@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes .NET API 參考
-description: 表示文件的 Heading pair 屬性。它指示文件部件的群組名稱以及群組中的部件數量。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表文件的 Heading pair 屬性。它表示文件部件的群組名稱以及群組中部件的數量。
 type: docs
 weight: 5110
 url: /zh-hant/aspose.slides/headingpair/
 ---
 ## HeadingPair 類別
 
-表示文件的 'Heading pair' 屬性。它指示文件部件的群組名稱以及該群組中的部件數量。
+代表文件的「Heading pair」屬性。它表示文件部件的群組名稱以及群組中部件的數量。
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -21,7 +21,7 @@ public sealed class HeadingPair : IHeadingPair
 | [Count](../../aspose.slides/headingpair/count) { get; } | 返回群組中部件的數量。唯讀 Int32。 |
 | [Name](../../aspose.slides/headingpair/name) { get; } | 返回文件部件的群組名稱。唯讀 String。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IHeadingPair](../iheadingpair)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

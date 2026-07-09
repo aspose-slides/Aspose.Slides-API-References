@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示將資料傳輸至外部儲存裝置的輸出保存實作。
+description: 表示一個將資料傳輸到外部儲存的輸出保存器實作。
 type: docs
 weight: 4710
 url: /zh-hant/aspose.slides.export.xaml/ixamloutputsaver/
 ---
 ## IXamlOutputSaver 介面
 
-表示將資料傳輸到外部儲存裝置的輸出保存程序實作。
+表示一個將資料傳輸到外部儲存的輸出保存器實作。
 
 ```csharp
 public interface IXamlOutputSaver

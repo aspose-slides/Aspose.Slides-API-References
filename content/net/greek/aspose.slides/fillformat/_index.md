@@ -1,14 +1,14 @@
 ---
 title: FillFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά επιλογές μορφοποίησης γεμίσματος.
 type: docs
-weight: 4760
+weight: 4780
 url: /el/aspose.slides/fillformat/
 ---
 ## FillFormat κλάση
 
-Αναπαριστά επιλογές μορφοποίησης γεμίσματος.
+Represents a fill formatting options.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,12 +18,12 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Επιστρέφει ή ορίζει τον τύπο γεμίσματος. Ανάγνωση/Εγγραφή [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Επιστρέφει τη μορφή διαβάθμισης γεμίσματος. Μόνο για ανάγνωση [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Επιστρέφει τη μορφή μοτίβου γεμίσματος. Μόνο για ανάγνωση [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Επιστρέφει τη μορφή εικόνας γεμίσματος. Μόνο για ανάγνωση [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Καθορίζει αν το γέμισμα πρέπει να περιστραφεί με το σχήμα. Ανάγνωση/Εγγραφή [`NullableBool`](../nullablebool). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Επιστρέφει ή ορίζει τον τύπο γέμισης. Ανάγνωση/εγγραφή [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Επιστρέφει τη μορφή γεμίσματος διαβάθμισης. Μόνο για ανάγνωση [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Επιστρέφει τη μορφή γεμίσματος με μοτίβο. Μόνο για ανάγνωση [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος εικόνας. Μόνο για ανάγνωση [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | Καθορίζει αν το γέμισμα πρέπει να περιστρέφεται με το σχήμα. Ανάγνωση/εγγραφή [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | Επιστρέφει το χρώμα γεμίσματος. Μόνο για ανάγνωση [`IColorFormat`](../icolorformat). |
 
 ## Μέθοδοι
@@ -31,13 +31,13 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | Όνομα | Περιγραφή |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Συγκρίνει με το καθορισμένο αντικείμενο. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα μορφοποίησης γεμίσματος με την εφαρμόσιμη κληρονομικότητα. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα μορφοποίησης γεμίσματος με την κληρονομία εφαρμοσμένη. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
-* διεπαφή [IFillFormat](../ifillformat)
+* διασύνδεση [IFillFormat](../ifillformat)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

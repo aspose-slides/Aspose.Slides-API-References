@@ -1,14 +1,14 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Reprezentuje efekt vnějšího stínu.
 type: docs
-weight: 3440
+weight: 3460
 url: /cs/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow rozhraní
 
-Represents an Outer Shadow effect.
+Reprezentuje efekt vnějšího stínu.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -19,18 +19,18 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 
 | Název | Popis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Umožňuje získat základní IAccessiblePVIObject rozhraní. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Umožňuje získat základní IImageTransformOperation rozhraní. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Poloměr rozostření v bodech. Výchozí hodnota – 0 pt. Čtení/zápis Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Směr stínu ve stupních. Výchozí hodnota – 0 ° (zleva doprava). Čtení/zápis Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Vzdálenost stínu od objektu v bodech. Výchozí hodnota – 0 pt. Čtení/zápis Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Zarovnání obdélníku. Výchozí hodnota – Bottom. Čtení/zápis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Určuje, zda se stín otáčí spolu s tvarem. Výchozí hodnota – true. Čtení/zápis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Faktor horizontálního měřítka v procentech původní velikosti. Negativní měřítko způsobí převrácení. Výchozí hodnota – 100 %. Čtení/zápis Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Faktor vertikálního měřítka v procentech původní velikosti. Negativní měřítko způsobí převrácení. Výchozí hodnota – 100 %. Čtení/zápis Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Umožňuje získat základní rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Poloměr rozostření v bodech. Výchozí hodnota – 0 pt. Čtení/Zápis Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Směr stínu ve stupních. Výchozí hodnota – 0 ° (zleva doprava). Čtení/Zápis Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Vzdálenost stínu od objektu v bodech. Výchozí hodnota – 0 pt. Čtení/Zápis Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Zarovnání obdélníku. Výchozí hodnota – Bottom. Čtení/Zápis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Určuje, zda se stín otáčí spolu s tvarem. Výchozí hodnota – true. Čtení/Zápis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Horizontální faktor škálování v procentech původní velikosti. Negativní škálování provádí převrácení. Výchozí hodnota – 100 %. Čtení/Zápis Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Vertikální faktor škálování v procentech původní velikosti. Negativní škálování provádí převrácení. Výchozí hodnota – 100 %. Čtení/Zápis Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Barva stínu. Výchozí hodnota – automatická černá (závisí na motivu). Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Úhel horizontálního zkosení ve stupních. Výchozí hodnota – 0 °. Čtení/zápis Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Úhel vertikálního zkosení ve stupních. Výchozí hodnota – 0 °. Čtení/zápis Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Horizontální úhel zkosení ve stupních. Výchozí hodnota – 0 °. Čtení/Zápis Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Vertikální úhel zkosení ve stupních. Výchozí hodnota – 0 °. Čtení/Zápis Double. |
 
 ### Viz také
 

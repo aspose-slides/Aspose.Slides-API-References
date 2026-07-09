@@ -1,6 +1,6 @@
 ---
 title: OuterShadow
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير الظل الخارجي.
 type: docs
 weight: 3620
@@ -8,7 +8,7 @@ url: /ar/aspose.slides.effects/outershadow/
 ---
 ## OuterShadow فئة
 
-يمثل تأثير ظل خارجي.
+Represents an Outer Shadow effect.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
@@ -18,29 +18,29 @@ public sealed class OuterShadow : IOuterShadow
 
 | الاسم | الوصف |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | نصف قطر الضبابية، بالنقاط. القيمة الافتراضية – 0 pt. قراءة/كتابة Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | اتجاه الظل، بالدرجات. القيمة الافتراضية – 0 ° (من اليسار إلى اليمين). قراءة/كتابة Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | مسافة الظل عن الكائن، بالنقاط. القيمة الافتراضية – 0 pt. قراءة/كتابة Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | محاذاة المستطيل. القيمة الافتراضية – Bottom. قراءة/كتابة [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | يشير إلى ما إذا كان الظل يدور مع الشكل. القيمة الافتراضية – true. قراءة/كتابة Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | عامل التحجيم الأفقي، بالنسبة المئوية من الحجم الأصلي. التحجيم السلبي يؤدي إلى انعكاس. القيمة الافتراضية – 100 %. قراءة/كتابة Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | عامل التحجيم الرأسي، بالنسبة المئوية من الحجم الأصلي. التحجيم السلبي يؤدي إلى انعكاس. القيمة الافتراضية – 100 %. قراءة/كتابة Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | لون الظل. القيمة الافتراضية – أسود تلقائي (يعتمد على السمة). للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | زاوية الانحراف الأفقي، بالدرجات. القيمة الافتراضية – 0 °. قراءة/كتابة Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | زاوية الانحراف الرأسي، بالدرجات. القيمة الافتراضية – 0 °. قراءة/كتابة Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | نصف قطر التشويش، بالنقاط. القيمة الافتراضية – 0 نقطة. Read/write Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | اتجاه الظل، بالدرجات. القيمة الافتراضية – 0 ° (من اليسار إلى اليمين). Read/write Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | مسافة الظل عن الكائن، بالنقاط. القيمة الافتراضية – 0 نقطة. Read/write Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | محاذاة المستطيل. القيمة الافتراضية – Bottom. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | يشير إلى ما إذا كان الظل يدور مع الشكل. القيمة الافتراضية – true. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | عامل التحجيم الأفقي، بالنسبة المئوية للحجم الأصلي. التحجيم السلبي يؤدي إلى انعكاس. القيمة الافتراضية – 100 %. Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | عامل التحجيم العمودي، بالنسبة المئوية للحجم الأصلي. التحجيم السلبي يؤدي إلى انعكاس. القيمة الافتراضية – 100 %. Read/write Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | لون الظل. القيمة الافتراضية – أسود تلقائي (يعتمد على السمة). Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | زاوية الانحراف الأفقي، بالدرجات. القيمة الافتراضية – 0 °. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | زاوية الانحراف العمودي، بالدرجات. القيمة الافتراضية – 0 °. Read/write Double. |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | يحدد ما إذا كان [`OuterShadow`](../outershadow) المحدد يساوي [`OuterShadow`](../outershadow) الحالي. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | يحدّد ما إذا كان [`OuterShadow`](../outershadow) المحدد مساويًا لـ [`OuterShadow`](../outershadow) الحالي. |
 | [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | يحصل على بيانات تأثير الظل الخارجي الفعّال مع تطبيق الوراثة. |
 | override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### انظر أيضًا
 
-* الواجهة [IOuterShadow](../ioutershadow)
-* النطاق [Aspose.Slides.Effects](../../aspose.slides.effects)
-* التجميع [Aspose.Slides](../../)
+* واجهة [IOuterShadow](../ioutershadow)
+* نطاق [Aspose.Slides.Effects](../../aspose.slides.effects)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

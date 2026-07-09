@@ -1,12 +1,12 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odwołanie API
 description: Reprezentuje AutoShape.
 type: docs
-weight: 5220
+weight: 5240
 url: /pl/aspose.slides/iautoshape/
 ---
-## Interfejs IAutoShape
+## IAutoShape interfejs
 
 Reprezentuje AutoShape.
 
@@ -18,12 +18,12 @@ public interface IAutoShape : IGeometryShape
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Umożliwia pobranie interfejsu bazowego IGeometryShape. Tylko do odczytu [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Umożliwia pobranie podstawowego interfejsu IGeometryShape. Tylko do odczytu [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Zwraca blokady AutoShape. Tylko do odczytu [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Określa, czy kształt jest polem tekstowym. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Zwraca blokady kształtu. Tylko do odczytu [`IAutoShapeLock`](../iautoshapelock). |
 | [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Zwraca obiekt TextFrame dla AutoShape. Tylko do odczytu [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Określa, czy ten autoshape powinien być wypełniony tłem slajdu zamiast stylem lub formatem wypełnienia. Odczyt/zapis Boolean. |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Określa, czy ten autoshape powinien być wypełniony tłem slajdu zamiast określonego przez styl lub format wypełnienia. Odczyt/zapis Boolean. |
 
 ## Metody
 

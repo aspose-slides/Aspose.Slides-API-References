@@ -1,28 +1,28 @@
 ---
 title: SlideSizeScaleType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn loại tỉ lệ của nội dung slide.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Biểu thị kiểu tỷ lệ của nội dung slide.
 type: docs
 weight: 10510
 url: /vi/aspose.slides/slidesizescaletype/
 ---
 ## SlideSizeScaleType liệt kê
 
-Biểu diễn loại tỉ lệ của nội dung slide.
+Biểu thị kiểu tỷ lệ của nội dung slide.
 
 ```csharp
 public enum SlideSizeScaleType
 ```
 
-### Giá trị
+### Các Giá Trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| DoNotScale | `0` | Không co giãn. |
+| DoNotScale | `0` | Không thu phóng. |
 | EnsureFit | `1` | Thu phóng để đảm bảo vừa. |
-| Maximize | `2` | Tối đa hóa kích thước nội dung. |
+| Maximize | `2` | Tối đa hoá kích thước nội dung. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

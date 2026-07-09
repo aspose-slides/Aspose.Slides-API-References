@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 此警告表示正在讀取的簡報具有簽章，且該簽章將在處理過程中被移除。
+second_title: Aspose.Sildes for .NET API 參考
+description: 此警告表示正在讀取的簡報具有簽名，且該簽名將在處理過程中被移除。
 type: docs
 weight: 11790
 url: /zh-hant/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo 介面
 
-此警告表示正在讀取的簡報具有簽章，且該簽章將在處理過程中被移除。
+此警告表示正在讀取的簡報具有簽名，且該簽名將在處理過程中被移除。
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | 返回 IWarningInfo 介面。 唯讀 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | 傳回 IWarningInfo 介面。唯讀 [`IWarningInfo`](../iwarninginfo)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IWarningInfo](../iwarninginfo)
 * 命名空間 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

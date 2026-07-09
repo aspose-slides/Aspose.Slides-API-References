@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn độ lệch màu.
+description: Mô tả độ lệch màu.
 type: docs
 weight: 470
 url: /vi/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset giao diện
 
-Biểu diễn độ lệch màu.
+Mô tả độ lệch màu.
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | Tên | Mô tả |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Xác định giá trị đầu tiên của độ lệch. Đọc/ghi Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Xác định giá trị thứ hai của độ lệch. Đọc/ghi Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Xác định giá trị thứ ba của độ lệch. Đọc/ghi Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Xác định giá trị đầu tiên của độ dịch. Đọc/ghi Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Xác định giá trị thứ hai của độ dịch. Đọc/ghi Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Xác định giá trị thứ ba của độ dịch. Đọc/ghi Single. |
 
 ### Xem thêm
 

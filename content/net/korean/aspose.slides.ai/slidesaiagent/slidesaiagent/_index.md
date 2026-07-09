@@ -1,28 +1,28 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes for .NET API 참조
-description: SlidesAIAgentaspose.slides.ai/slidesaiagent의 새 인스턴스를 사용자 지정 AI 클라이언트와 함께 초기화합니다. 이 오버로드를 사용하여 AI 제공자를 지정하고 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 HttpClient를 제공하는 경우). IAIWebClientaspose.slides.ai/iaiwebclient의 모든 구현을 포함하여 사용할 수 있습니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: SlidesAIAgentaspose.slides.ai/slidesaiagent의 새 인스턴스를 사용자 지정 AI 클라이언트로 초기화합니다. 이 오버로드를 사용하면 AI 제공자를 지정하거나 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 HttpClient 제공). IAIWebClientaspose.slides.ai/iaiwebclient의 모든 구현을 사용할 수 있습니다.
 type: docs
 weight: 10
 url: /ko/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
 ## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-새로운 [`SlidesAIAgent`](../../slidesaiagent) 인스턴스를 사용자 지정 AI 클라이언트와 함께 초기화합니다. 이 오버로드를 사용하여 AI 공급자를 지정하고, 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 `HttpClient`를 제공하는 경우). [`IAIWebClient`](../../iaiwebclient)의 모든 구현을 사용할 수 있으며, 포함되는 예는 다음과 같습니다:
+사용자 지정 AI 클라이언트를 사용하여 [`SlidesAIAgent`](../../slidesaiagent)의 새 인스턴스를 초기화합니다. 이 오버로드를 사용하면 AI 제공자를 지정하거나 자체 LLM을 제공하거나 연결을 사용자 지정할 수 있습니다(예: 자체 `HttpClient` 제공). [`IAIWebClient`](../../iaiwebclient)의 모든 구현을 사용할 수 있으며, 다음을 포함합니다:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-기본 구성으로 제공되는 [`AsposeAIWebClient`](../../asposeaiwebclient)를 사용하려면 [`SlidesAIAgent`](../slidesaiagent) 오버로드를 대신 사용하십시오.
+내장 [`AsposeAIWebClient`](../../asposeaiwebclient)를 기본 구성으로 사용하려면, 대신 [`SlidesAIAgent`](../slidesaiagent) 오버로드를 사용하십시오.
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-| 매개변수 | 형식 | 설명 |
+| 매개변수 | 유형 | 설명 |
 | --- | --- | --- |
-| aiClient | IAIWebClient | AI 클라이언트 인스턴스. [`IAIWebClient`](../../iaiwebclient)의 모든 구현을 사용할 수 있습니다. |
+| aiClient | IIAIWebClient | AI 클라이언트 인스턴스. [`IAIWebClient`](../../iaiwebclient)의 모든 구현을 사용할 수 있습니다. |
 
 ### 예외
 
@@ -30,7 +30,7 @@ public SlidesAIAgent(IAIWebClient aiClient)
 | --- | --- |
 | ArgumentNullException | AI 클라이언트 인스턴스가 제공되지 않았습니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IAIWebClient](../../iaiwebclient)
 * 클래스 [SlidesAIAgent](../../slidesaiagent)
@@ -41,13 +41,13 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 ## SlidesAIAgent() {#constructor}
 
-새로운 [`SlidesAIAgent`](../../slidesaiagent) 인스턴스를 기본 구성의 [`AsposeAIWebClient`](../../asposeaiwebclient)와 함께 초기화합니다. 클라이언트는 Aspose 자체 LLM에 연결되며 추가 구성이 필요하지 않습니다. 다른 AI 클라이언트를 사용하려면 [`SlidesAIAgent`](../slidesaiagent) 오버로드를 사용하십시오.
+내장 [`AsposeAIWebClient`](../../asposeaiwebclient)를 기본 구성으로 사용하여 [`SlidesAIAgent`](../../slidesaiagent)의 새 인스턴스를 초기화합니다. 클라이언트는 Aspose 자체 LLM에 연결되며 추가 구성 없이 사용할 수 있습니다. 다른 AI 클라이언트를 사용하려면, 대신 [`SlidesAIAgent`](../slidesaiagent) 오버로드를 사용하십시오.
 
 ```csharp
 public SlidesAIAgent()
 ```
 
-### 참조
+### 관련 항목
 
 * 클래스 [SlidesAIAgent](../../slidesaiagent)
 * 네임스페이스 [Aspose.Slides.AI](../../slidesaiagent)

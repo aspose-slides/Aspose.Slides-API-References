@@ -1,14 +1,14 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示字型取代的集合。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示字型替代的集合。
 type: docs
 weight: 5890
 url: /zh-hant/aspose.slides/ifontsubstrulecollection/
 ---
 ## IFontSubstRuleCollection 介面
 
-表示字型取代的集合。
+表示字型替代的集合。
 
 ```csharp
 public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
@@ -16,18 +16,18 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Item](../../aspose.slides/ifontsubstrulecollection/item) { get; } | 取得指定索引處的元素。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 將新的字型取代規則新增到集合中 |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除第一個出現的特定物件。 |
+| [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | 將新的字型替代規則新增至集合。 |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | 從集合中移除特定物件的首次出現。 |
 
-### 另見
+### 參見
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IFontSubstRule](../ifontsubstrule)

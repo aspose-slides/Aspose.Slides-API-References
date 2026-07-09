@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een reflectie-effect voorstelt.
+description: Onveranderlijk object dat een reflectie-effect vertegenwoordigt.
 type: docs
 weight: 3510
 url: /nl/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData interface
 
-Onveranderlijk object dat een reflectie-effect voorstelt.
+Onveranderlijk object dat een reflectie-effect vertegenwoordigt.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -16,28 +16,28 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Maakt het mogelijk de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Vervaagstraal. Alleen-lezen Double. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Staat toe om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Vervagingsstraal. Alleen-lezen Double. |
 | [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Richting van de reflectie. Alleen-lezen Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Afstand van de reflectie. Alleen-lezen Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Specificeert de eindpositie (langs de alfa-gradientladder) van de eind-alphawaarde (procent). Alleen-lezen Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Eind-reflectie-opaciteit. (procent). Alleen-lezen Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Specificeert de eindpositie (langs de alfa-gradienthelling) van de eind-alfa-waarde (percenten). Alleen-lezen Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Eind-reflectie-ondoorzichtigheid. (percenten). Alleen-lezen Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Specificeert de richting om de reflectie te verschuiven. (hoek). Alleen-lezen Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rechthoekuitlijning. Alleen-lezen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Specificeert of de reflectie moet roteren met de vorm als de vorm wordt geroteerd. Alleen-lezen Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Specificeert de horizontale schaalfactor; negatieve schaaling veroorzaakt een omkering. (procent) Alleen-lezen Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Specificeert de verticale schaalfactor; negatieve schaaling veroorzaakt een omkering. (procent) Alleen-lezen Double. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Rectangle uitlijning. Alleen-lezen [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Specificeert of de reflectie moet roteren met de vorm indien de vorm wordt geroteerd. Alleen-lezen Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Specificeert de horizontale schaalfactor, negatieve schaling veroorzaakt een omkering. (percenten) Alleen-lezen Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Specificeert de verticale schaalfactor, negatieve schaling veroorzaakt een omkering. (percenten) Alleen-lezen Double. |
 | [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Specificeert de horizontale scheefhoek. Alleen-lezen Double. |
 | [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Specificeert de verticale scheefhoek. Alleen-lezen Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Specificeert de beginpositie (langs de alfa-gradientladder) van de begin-alphawaarde (procent). Alleen-lezen Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Beginnende reflectie-opaciteit. (procent). Alleen-lezen Single. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Specificeert de beginpositie (langs de alfa-gradienthelling) van de start-alfa-waarde (percenten). Alleen-lezen Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Beginreflectie-ondoorzichtigheid. (percenten). Alleen-lezen Single. |
 
 ### Zie ook
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
-* naamruimte [Aspose.Slides.Effects](../../aspose.slides.effects)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

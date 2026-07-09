@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Állandók, amelyek a forma 3D beveljét definiálják.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Állandók, amelyek meghatározzák a forma 3D peremét.
 type: docs
-weight: 990
+weight: 1010
 url: /hu/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType enumeráció
 
-Állandók, amelyek a forma 3D beveljét határozzák meg.
+A forma 3D peremét meghatározó konstansok.
 
 ```csharp
 public enum BevelPresetType

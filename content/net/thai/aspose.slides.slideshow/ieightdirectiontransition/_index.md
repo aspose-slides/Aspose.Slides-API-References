@@ -1,6 +1,6 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: เอฟเฟกต์การเปลี่ยนสไลด์แบบแปดทิศทาง.
 type: docs
 weight: 10070
@@ -8,7 +8,7 @@ url: /th/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบแปดทิศทาง
+เอฟเฟกต์การเปลี่ยนสไลด์แบบแปดทิศ.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ITransitionValueBase เบสแบบอ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### ดูเพิ่มเติม
 

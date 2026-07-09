@@ -1,6 +1,6 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة صفوف الجدول.
 type: docs
 weight: 9720
@@ -18,22 +18,22 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | يحصل على عدد الصفوف الموجودة فعليًا في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/rowcollection/item) { get; } | يعيد الصف في الفهرس المحدد. قراءة فقط [`Row`](../row). |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | يحصل على عدد الصفوف الموجودة فعليًا في المجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/rowcollection/item) { get; } | يعيد الصف في الفهرس المحدد. للقراءة فقط [`Row`](../row). |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | يعيد جذر التزامن. للقراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | ينشئ نسخة من صف القالب المحدد ويدرجها في أسفل الجدول. |
+| [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | ينشئ نسخة من صف القالب المحدد ويُدرجها في أسفل جدول. |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | يعيد كائن Enumerator يتجول عبر المجموعة. |
-| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | ينشئ نسخة من صف القالب المحدد ويدرجها في الموضع المحدد داخل جدول. |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | يعيد كائن تعداد يتجول عبر المجموعة. |
+| [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | ينشئ نسخة من صف القالب المحدد ويُدرجها في الموضع المحدد في جدول. |
 | [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | يزيل صفًا في الموضع المحدد من جدول. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../domobject-1)
 * فئة [Table](../table)

@@ -1,9 +1,9 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Renk dönüşüm işlemlerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 2520
+weight: 2540
 url: /tr/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection sınıfı
@@ -18,10 +18,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Koleksiyondaki işlem sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (çok iş parçacıklı) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Belirtilen dizindeki işlemi döndürür veya ayarlar. Okuma/yazma [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | Koleksiyondaki işlem sayısını döndürür. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | Erişimin senkronize olup olmadığını (iş parçacığı-güvenli) gösteren bir değer döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | Belirtilen indeksteki işlemi döndürür veya ayarlar. Okunur/yazılabilir [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
 ## Yöntemler
 
@@ -30,10 +30,10 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 | [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | Koleksiyonun sonuna yeni bir işlem ekler. |
 | [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | Koleksiyonun sonuna yeni bir işlem ekler. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | Tüm renk işlemlerini kaldırır. |
-| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Bir ColorOperationCollection koleksiyonunun bir kopyasını oluşturur. |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Mevcut nesneyi klonlar |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Koleksiyondaki tüm elemanları belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Koleksiyon içinde gezinmek için bir enumerator döndürür. |
+| [Clone](../../aspose.slides/coloroperationcollection/clone)() | Bir ColorOperationCollection koleksiyonunun kopyasını oluşturur. |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | Geçerli nesneyi klonlar |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | Yeni işlemi koleksiyona ekler. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Yeni işlemi koleksiyona ekler. |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | Koleksiyondan renk işlemini kaldırır. |

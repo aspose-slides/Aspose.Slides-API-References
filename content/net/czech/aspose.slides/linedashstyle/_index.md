@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje styl čáry s čárkováním.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje styl čáry.
 type: docs
-weight: 7750
+weight: 7770
 url: /cs/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle výčtový typ
 
-Reprezentuje styl čáry s čárkováním.
+Reprezentuje styl čáry.
 
 ```csharp
 public enum LineDashStyle : sbyte

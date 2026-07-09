@@ -1,14 +1,14 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงไทม์ไลน์ของแอนิเมชัน
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงไทม์ไลน์ของการเคลื่อนไหว.
 type: docs
 weight: 5200
 url: /th/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine อินเทอร์เฟซ
 
-แสดงถึงไทม์ไลน์ของแอนิเมชัน
+แสดงไทม์ไลน์ของการเคลื่อนไหว
 
 ```csharp
 public interface IAnimationTimeLine
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | คืนค่าคอลเลคชันของลำดับการโต้ตอบ. ลำดับนี้อาจประกอบด้วยเอฟเฟ็กต์ที่ทำโดย "คลิกที่รูปทรง" พร้อมระบุรูปทรงเป้าหมาย. อ่านอย่างเดียว [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | คืนค่าลำดับหลักที่อาจประกอบด้วยคอลเลคชันของเอฟเฟ็กต์หลักเท่านั้น. อ่านอย่างเดียว [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | คืนค่าคอลเลคชันของการเคลื่อนไหวข้อความ. อ่านอย่างเดียว [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | ส่งคืนคอลเลกชันของลำดับการโต้ตอบ ลำดับเหล่านี้อาจมีเฉพาะเอฟเฟกต์ที่เกิดจากการ "คลิกที่รูปทรง" พร้อมระบุรูปทรงเป้าหมาย อ่านอย่างเดียว [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | ส่งคืนลำดับหลักซึ่งอาจมีเฉพาะคอลเลกชันของเอฟเฟกต์หลัก อ่านอย่างเดียว [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | ส่งคืนคอลเลกชันของการเคลื่อนไหวข้อความ อ่านอย่างเดียว [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### ดูเพิ่มเติม
 

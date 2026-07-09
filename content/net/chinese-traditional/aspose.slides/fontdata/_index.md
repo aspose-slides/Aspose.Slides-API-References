@@ -1,39 +1,39 @@
 ---
 title: FontData
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示字型定義。不可變。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示字體定義。不可變。
 type: docs
 weight: 4820
 url: /zh-hant/aspose.slides/fontdata/
 ---
 ## FontData 類別
 
-表示字型定義。不可變。
+表示字體定義。不可變。
 
 ```csharp
 public sealed class FontData : IFontData
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontData](fontdata)(string) | 建立具有指定字型名稱的新 FontData 物件。 |
+| [FontData](fontdata)(string) | 建立具有指定字體名稱的新 FontData 物件。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 傳回字型名稱。讀寫 String。 |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | 返回字體名稱。讀寫 String。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/fontdata/equals)(object) | 判斷兩個 FontData 實例是否相等。 |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | 傳回字型名稱，將佈景主題參考取代為實際使用的字型。 |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和如雜湊表等資料結構。 |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | 傳回字串表示形式。 |
+| override [Equals](../../aspose.slides/fontdata/equals)(object) | 確定兩個 FontData 實例是否相等。 |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | 返回字體名稱，將主題參考替換為實際使用的字體。 |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和如雜湊表之類的資料結構。 |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | 返回字串表示形式。 |
 
 ### 另請參閱
 

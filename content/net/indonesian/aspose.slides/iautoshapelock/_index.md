@@ -1,9 +1,9 @@
 ---
 title: IAutoShapeLock
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan operasi mana yang dinonaktifkan pada AutoshapeEx induk.
 type: docs
-weight: 5230
+weight: 5250
 url: /id/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock antarmuka
@@ -18,18 +18,18 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Menentukan apakah perubahan nilai penyesuaian dilarang. Baca-tulis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Menentukan apakah perubahan kepala panah dilarang. Baca-tulis Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseShapeLock. Baca-saja [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Menentukan apakah sebuah bentuk harus mempertahankan rasio aspek saat mengubah ukuran. Baca-tulis Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Menentukan apakah perubahan langsung kontur bentuk ini dilarang. Baca-tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan bentuk ini ke grup dilarang. Baca-tulis Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Menentukan apakah memindahkan bentuk ini dilarang. Baca-tulis Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Menentukan apakah mengubah sudut rotasi bentuk ini dilarang. Baca-tulis Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Menentukan apakah memilih bentuk ini dilarang. Baca-tulis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Menentukan apakah mengubah jenis bentuk dilarang. Baca-tulis Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Baca-tulis Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Menentukan apakah penyuntingan teks dilarang. Baca-tulis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Menentukan apakah mengubah nilai penyesuaian dilarang. Boolean baca-tulis. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Menentukan apakah mengubah ujung panah dilarang. Boolean baca-tulis. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Memungkinkan mengambil antarmuka dasar IBaseShapeLock. Baca-saja [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Menentukan apakah bentuk harus mempertahankan rasio aspek saat mengubah ukuran. Boolean baca-tulis. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Menentukan apakah mengubah kontur bentuk ini secara langsung dilarang. Boolean baca-tulis. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan bentuk ini ke grup dilarang. Boolean baca-tulis. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Menentukan apakah memindahkan bentuk ini dilarang. Boolean baca-tulis. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Menentukan apakah mengubah sudut rotasi bentuk ini dilarang. Boolean baca-tulis. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Menentukan apakah memilih bentuk ini dilarang. Boolean baca-tulis. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Menentukan apakah mengubah jenis bentuk dilarang. Boolean baca-tulis. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Boolean baca-tulis. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Menentukan apakah penyuntingan teks dilarang. Boolean baca-tulis. |
 
 ### Lihat Juga
 

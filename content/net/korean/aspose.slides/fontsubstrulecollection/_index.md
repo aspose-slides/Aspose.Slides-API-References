@@ -1,14 +1,14 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 글꼴 대체 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 폰트 대체 컬렉션을 나타냅니다.
 type: docs
 weight: 4900
 url: /ko/aspose.slides/fontsubstrulecollection/
 ---
 ## FontSubstRuleCollection 클래스
 
-글꼴 대체 컬렉션을 나타냅니다.
+폰트 대체 컬렉션을 나타냅니다.
 
 ```csharp
 public class FontSubstRuleCollection : IFontSubstRuleCollection
@@ -25,16 +25,16 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화되었는지(스레드 안전) 여부를 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. |
 | [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 새 폰트 대체 규칙을 컬렉션에 추가합니다. |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | 새 폰트 대체 규칙을 컬렉션에 추가합니다 |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
 | [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다. |
 

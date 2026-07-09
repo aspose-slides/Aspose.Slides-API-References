@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: दो तर्कों के सामान्य गणितीय फलन
+description: दो तर्कों के सामान्य गणितीय फ़ंक्शन
 type: docs
 weight: 8750
 url: /hi/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
-## MathFunctionsOfTwoArguments एनीमरेशन
+## MathFunctionsOfTwoArguments एन्यूमेरेशन
 
-दो तर्कों के सामान्य गणितीय फलन
+दो तर्कों के सामान्य गणितीय फ़ंक्शन
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -18,12 +18,12 @@ public enum MathFunctionsOfTwoArguments
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Log | `0` | Log |
+| Log | `0` | लॉग |
 | Lim | `1` | सीमा |
 | Min | `2` | न्यूनतम |
 | Max | `3` | अधिकतम |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

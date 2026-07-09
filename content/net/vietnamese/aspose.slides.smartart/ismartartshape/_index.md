@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một hình dạng trong biểu đồ SmartArt
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho một hình dạng bên trong sơ đồ SmartArt
 type: docs
 weight: 10570
 url: /vi/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape giao diện
 
-Biểu diễn một hình dạng trong biểu đồ SmartArt
+Đại diện cho một hình dạng bên trong sơ đồ SmartArt
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape

@@ -1,14 +1,14 @@
 ---
 title: SaveOptions
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Lớp trừu tượng với các tùy chọn kiểm soát cách bản trình chiếu được lưu.
+second_title: Aspose.Sildes cho .NET - Tham chiếu API
+description: Lớp trừu tượng với các tùy chọn kiểm soát cách một bản trình chiếu được lưu.
 type: docs
 weight: 4450
 url: /vi/aspose.slides.export/saveoptions/
 ---
-## Lớp SaveOptions
+## SaveOptions lớp
 
-Lớp trừu tượng với các tùy chọn kiểm soát cách bản trình chiếu được lưu.
+Lớp trừu tượng với các tùy chọn kiểm soát cách một bản trình chiếu được lưu.
 
 ```csharp
 public abstract class SaveOptions : ISaveOptions
@@ -18,13 +18,13 @@ public abstract class SaveOptions : ISaveOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng trong trường hợp phông nguồn không được tìm thấy. Đọc-ghi String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị trực quan của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng trong trường hợp không tìm thấy phông chữ nguồn. Đọc-ghi String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Đọc-ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để cập nhật tiến độ lưu dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định xem có bỏ qua các liên kết siêu văn bản có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Chỉ định có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc-ghi Boolean. Giá trị mặc định là **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định việc quá trình tải sẽ tiếp tục hay bị hủy. Đọc-ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [ISaveOptions](../isaveoptions)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)

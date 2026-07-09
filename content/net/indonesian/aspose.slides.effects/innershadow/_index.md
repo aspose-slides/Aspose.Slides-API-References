@@ -3,10 +3,10 @@ title: InnerShadow
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili efek Inner Shadow.
 type: docs
-weight: 3580
+weight: 3600
 url: /id/aspose.slides.effects/innershadow/
 ---
-## Kelas InnerShadow
+## InnerShadow kelas
 
 Mewakili efek Inner Shadow.
 
@@ -21,14 +21,14 @@ public sealed class InnerShadow : IInnerShadow
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Radius blur. Baca/tulis Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | Arah bayangan. Baca/tulis Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | Jarak bayangan. Baca/tulis Double. |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Warna bayangan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | Color bayangan. Baca-saja [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | Menentukan apakah [`InnerShadow`](../innershadow) yang ditentukan sama dengan [`InnerShadow`](../innershadow) saat ini. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Mengambil data efek Inner Shadow yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | Mendapatkan data efek Inner Shadow yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

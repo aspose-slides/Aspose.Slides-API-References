@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مجموعة جميع شرائح التخطيط للماستَر سلايد المحدد. يمتد من فئة LayoutSlideCollection ويضيف طرقًا لإضافة/إدراج/إزالة/استنساخ/إعادة ترتيب شرائح التخطيط في سياق مجموعات شرائح التخطيط الخاصة بالماستَر.
+description: يمثل مجموعة من جميع شرائح التخطيط للشريحة الرئيسية المحددة. يمتد من فئة LayoutSlideCollection مع طرق لإضافة/إدراج/إزالة/استنساخ/إعادة ترتيب شرائح التخطيط في سياق المجموعات الفردية لشرائح التخطيط الخاصة بالماستر.
 type: docs
 weight: 8000
 url: /ar/aspose.slides/masterlayoutslidecollection/
 ---
-## فئة MasterLayoutSlideCollection
+## MasterLayoutSlideCollection فئة
 
-يمثل مجموعة جميع شرائح التخطيط للماستَر سلايد المحدد. يمتد من فئة LayoutSlideCollection ويضيف طرقًا لإضافة/إدراج/إزالة/استنساخ/إعادة ترتيب شرائح التخطيط في سياق مجموعات شرائح التخطيط الخاصة بالماستَر.
+يمثل مجموعة من جميع شرائح التخطيط للشريحة الرئيسية المحددة. يمتد من فئة LayoutSlideCollection مع طرق لإضافة/إدراج/إزالة/استنساخ/إعادة ترتيب شرائح التخطيط في سياق مجموعات شرائح التخطيط الخاصة بالماستر.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,25 +19,25 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | يرجّع عدد شرائح التخطيط في مجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | يرجّع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | يرجّع شريحة التخطيط بحسب الفهرس. قراءة فقط [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | يرجّع جذر التزامن. قراءة فقط Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | يعيد عدد شرائح التخطيط في مجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | يعيد شريحة التخطيط بحسب الفهرس. للقراءة فقط [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | يعيد جذر المزامنة. للقراءة فقط Object. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | يضيف شريحة تخطيط جديدة إلى نهاية المجموعة. |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | يضيف نسخة من شريحة التخطيط المحددة إلى نهاية المجموعة. |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | يرجّع أول شريحة تخطيط من النوع المحدد. نوع شريحة التخطيط للبحث. [`LayoutSlide`](../layoutslide) بالنوع المحدد أو null إذا لم تُعثر على أي تخطيطات. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | يرجّع عددًا يتيح التكرار عبر المجموعة. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | يدرج شريحة تخطيط جديدة في الموضع المحدد داخل المجموعة. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | يدرج نسخة من شريحة التخطيط المحددة في الموضع المحدد داخل المجموعة. |
-| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | يزيل شريحة تخطيط من المجموعة. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | يعيد أول شريحة تخطيط من النوع المحدد. نوع شريحة التخطيط للبحث عنه.[`LayoutSlide`](../layoutslide) بالنوع المحدد أو null إذا لم يتم العثور على أي تخطيطات. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | يعيد عدادًا يتجول عبر المجموعة. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | يدخل شريحة تخطيط جديدة في الموضع المحدد في المجموعة. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | يدخل نسخة من شريحة التخطيط المحددة في الموضع المحدد في المجموعة. |
+| [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | يزيل تخطيطًا من المجموعة. |
 | [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | يزيل العنصر في الفهرس المحدد من المجموعة. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | يزيل شرائح التخطيط غير المستخدمة (الشرائح التي تكون HasDependingSlides فيها false). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | يزيل شرائح التخطيط غير المستخدمة (شرائح التخطيط التي تكون HasDependingSlides فيها false). |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | ينقل شريحة التخطيط من المجموعة إلى الموضع المحدد. |
 
 ### انظر أيضًا

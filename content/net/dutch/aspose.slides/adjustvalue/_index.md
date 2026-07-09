@@ -1,7 +1,7 @@
 ---
 title: AdjustValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een aanpassingswaarde van een geometrische vorm voor. Deze waarden beïnvloeden de vorm van de vormen.
+description: Stelt een aanpassingswaarde van een geometrische vorm voor. Deze waarden beïnvloeden de vorm van de vorm.
 type: docs
 weight: 90
 url: /nl/aspose.slides/adjustvalue/
@@ -16,12 +16,12 @@ public class AdjustValue : IAdjustValue
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Retourneert of stelt de waarde in, waarbij deze wordt geïnterpreteerd als een hoek in graden. Lezen/schrijven Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | Retourneert een naam van deze aanpassingswaarde. Alleen-lezen String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Retourneert of stelt de aanpassingswaarde "zoals deze is" in. Lezen/schrijven Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | Retourneert het type van de vormaanpassing. Alleen-lezen [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | Geeft de waarde terug of stelt deze in, waarbij deze wordt geïnterpreteerd als een hoek in graden. Lezen/schrijven Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | Geeft een naam van deze aanpassingswaarde terug. Alleen-lezen String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | Geeft de aanpassingswaarde "zoals het is" terug of stelt deze in. Lezen/schrijven Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | Geeft het type van de vormaanpassing terug. Alleen-lezen [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Zie ook
 

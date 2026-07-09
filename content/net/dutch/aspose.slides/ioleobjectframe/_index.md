@@ -1,14 +1,14 @@
 ---
 title: IOleObjectFrame
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een OLE-object op een dia voor.
+description: Stelt een OLE-object voor op een dia.
 type: docs
 weight: 6540
 url: /nl/aspose.slides/ioleobjectframe/
 ---
 ## IOleObjectFrame interface
 
-Stelt een OLE object op een dia voor.
+Stelt een OLE-object voor op een dia.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
@@ -18,26 +18,26 @@ public interface IOleObjectFrame : IGraphicalObject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Staat toe de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Haalt informatie op over OLE ingesloten gegevens. Alleen-lezen [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Geeft de bestandsnaam van het ingesloten OLE object terug |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Geeft het pad van het ingesloten OLE object terug |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bepaalt of een object als pictogram zichtbaar is. Lezen/Schrijven Boolean. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bepaalt of een object is gekoppeld aan een extern bestand. Alleen-lezen Boolean. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Geeft het volledige pad naar een gekoppeld bestand terug. Er wordt een korte bestandsnaam gebruikt. Alleen-lezen String. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Geeft het volledige pad naar een gekoppeld bestand terug. Er wordt een lange bestandsnaam gebruikt. Lezen/Schrijven String. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Geeft het relatieve pad naar een gekoppeld bestand terug indien aanwezig, anders een lege string. Alleen-lezen String. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | Staat toe de basis IGraphicalObject interface te krijgen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | Haalt informatie op over OLE-embedded data. Alleen-lezen [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | Geeft de bestandsnaam van het embedded OLE-object terug |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | Geeft het pad van het embedded OLE-object terug |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | Bepaalt of een object zichtbaar is als pictogram. Lezen/Schrijven Boolean. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | Bepaalt of een object gekoppeld is aan een extern bestand. Alleen-lezen Boolean. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | Geeft het volledige pad naar een gekoppeld bestand terug. Korte bestandsnaam zal worden gebruikt. Alleen-lezen String. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | Geeft het volledige pad naar een gekoppeld bestand terug. Lange bestandsnaam zal worden gebruikt. Lezen/Schrijven String. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | Geeft het relatieve pad naar een gekoppeld bestand terug indien aanwezig, anders een lege tekenreeks. Alleen-lezen String. |
 | [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | Geeft de naam van een object terug of stelt deze in. Lezen/Schrijven String. |
 | [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | Geeft de ProgID van een object terug. Alleen-lezen String. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Geeft het OleObject afbeeldingvulling-eigenschappenobject terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | Geeft het OleObject-afbeeldingsvul-eigenschappenobject terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
 | [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | Geeft de titel voor het OleObject-pictogram terug of stelt deze in. Lezen/Schrijven String. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bepaalt of het gekoppelde ingesloten object automatisch wordt bijgewerkt wanneer de presentatie wordt geopend of afgedrukt. Lezen/Schrijven Boolean. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | Bepaalt of het gekoppelde embedded object automatisch wordt bijgewerkt wanneer de presentatie wordt geopend of afgedrukt. Lezen/Schrijven Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Stelt informatie over OLE ingesloten gegevens in. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | Stelt informatie in over OLE-embedded data. |
 
 ### Zie ook
 

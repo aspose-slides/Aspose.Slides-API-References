@@ -1,14 +1,14 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: दस्तावेज़ की Heading pair प्रॉपर्टी का प्रतिनिधित्व करता है। यह दस्तावेज़ भागों के समूह का नाम और समूह में भागों की संख्या दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: दस्तावेज़ की Heading pair विशेषता का प्रतिनिधित्व करता है। यह दस्तावेज़ भागों के समूह का नाम और समूह में भागों की संख्या दर्शाता है।
 type: docs
 weight: 5110
 url: /hi/aspose.slides/headingpair/
 ---
 ## HeadingPair क्लास
 
-दस्तावेज़ की 'Heading pair' प्रॉपर्टी का प्रतिनिधित्व करता है। यह दस्तावेज़ भागों के समूह का नाम और समूह में भागों की संख्या इंगित करता है।
+दस्तावेज़ की 'Heading pair' विशेषता का प्रतिनिधित्व करता है। यह दस्तावेज़ भागों के समूह का नाम और समूह में भागों की संख्या दर्शाता है।
 
 ```csharp
 public sealed class HeadingPair : IHeadingPair
@@ -18,10 +18,10 @@ public sealed class HeadingPair : IHeadingPair
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/headingpair/count) { get; } | समूह में भागों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
-| [Name](../../aspose.slides/headingpair/name) { get; } | दस्तावेज़ भागों के समूह का नाम लौटाता है। केवल पढ़ने योग्य String. |
+| [Count](../../aspose.slides/headingpair/count) { get; } | समूह में भागों की संख्या लौटाता है। केवल-पढ़ने-के-लिए Int32. |
+| [Name](../../aspose.slides/headingpair/name) { get; } | दस्तावेज़ भागों के समूह का नाम लौटाता है। केवल-पढ़ने-के-लिए String. |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IHeadingPair](../iheadingpair)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

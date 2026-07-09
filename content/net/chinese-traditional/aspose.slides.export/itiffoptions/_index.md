@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 提供控制簡報如何以 TIFF 格式儲存的選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供控制簡報以 TIFF 格式儲存的選項。
 type: docs
 weight: 4170
 url: /zh-hant/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions 介面
 
-提供控制如何將簡報儲存為 TIFF 格式的選項。
+Provides options that control how a presentation is saved in TIFF format.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -18,18 +18,18 @@ public interface ITiffOptions : ISaveOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | 返回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | 指定將彩色影像轉換為黑白影像的演算法。此選項僅在 [`CompressionType`](./compressiontype) 設為 CCITT4 或 CCITT3 時套用。讀寫 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。預設為 Default。 |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 指定壓縮類型。讀寫 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 指定水平解析度（每英吋點數）。讀寫 UInt32。 |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 指定垂直解析度（每英吋點數）。讀寫 UInt32。 |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 指定產生的 TIFF 影像的大小。預設值為 0x0，表示產生的影像大小將根據簡報投影片尺寸計算。讀寫 Size。 |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | 傳回 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | 指定將彩色圖像轉換為黑白圖像的演算法。僅當 [`CompressionType`](./compressiontype) 設為 CCITT4 或 CCITT3 時才套用此選項。可讀寫 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。預設為 Default。 |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 指定壓縮類型。可讀寫 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 指定每英吋點數的水平解析度。可讀寫 UInt32。 |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 指定每英吋點數的垂直解析度。可讀寫 UInt32。 |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 指定產生的 TIFF 圖像的大小。預設值為 0x0，表示產生的圖像大小將根據簡報投影片尺寸計算。可讀寫 Size。 |
 | [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 指定產生影像的像素格式。讀寫 [`ImagePixelFormat`](../imagepixelformat)。 |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 指定產生圖像的像素格式。可讀寫 [`ImagePixelFormat`](../imagepixelformat)。 |
 | [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的排列模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [ISaveOptions](../isaveoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,6 +1,6 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 전환 효과에 대한 기본 클래스를 나타냅니다.
 type: docs
 weight: 10210
@@ -8,13 +8,13 @@ url: /ko/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase 인터페이스
 
-슬라이드 전환 효과에 대한 기본 클래스를 나타냅니다.
+슬라이드 전환 효과에 대한 기본 클래스입니다.
 
 ```csharp
 public interface ITransitionValueBase
 ```
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

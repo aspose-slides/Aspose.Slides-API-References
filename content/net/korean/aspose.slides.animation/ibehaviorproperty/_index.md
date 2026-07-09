@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes for .NET API 참조
-description: 애니메이션 동작에 대한 속성 유형을 나타냅니다. https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 및 https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx에 있는 속성 목록을 따릅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 애니메이션 동작에 대한 속성 유형을 나타냅니다. https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 및 https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx의 속성 목록을 따릅니다.
 type: docs
 weight: 440
 url: /ko/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty 인터페이스
 
-애니메이션 동작에 대한 속성 유형을 나타냅니다. 다음 속성 목록을 따릅니다 https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 및 https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+애니메이션 동작에 대한 속성 유형을 나타냅니다. 다음 URL의 속성 목록을 따릅니다: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 및 https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -16,9 +16,9 @@ public interface IBehaviorProperty
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 이 속성이 사양의 미리 정의된 속성 목록에 포함되지 않는지 표시합니다: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 이 속성이 사양에 정의된 미리 정해진 속성 목록에 포함되지 않는 경우를 나타냅니다: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | 속성의 값 |
 
 ### 참조

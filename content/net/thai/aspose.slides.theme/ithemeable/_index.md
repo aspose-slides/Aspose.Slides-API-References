@@ -1,12 +1,12 @@
 ---
 title: IThemeable
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงอ็อบเจกต์ที่สามารถกำหนดธีมด้วย ITheme./itheme.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงวัตถุที่สามารถกำหนดธีมด้วย ITheme./itheme.
 type: docs
 weight: 11400
 url: /th/aspose.slides.theme/ithemeable/
 ---
-## IThemeable อินเทอร์เฟซ
+## IThemeable interface
 
 แสดงถึงวัตถุที่สามารถกำหนดธีมด้วย [`ITheme`](../itheme).
 
@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | คืนค่า ISlideComponent อินเทอร์เฟซ. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | คืนค่า ISlideComponent interface. อ่านอย่างเดียว [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | คืนค่าธีมที่มีผลสำหรับวัตถุที่สามารถกำหนดธีมนี้. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | คืนค่า theme ที่มีผลสำหรับวัตถุที่สามารถกำหนดธีมนี้ได้. |
 
 ### ดูเพิ่มเติม
 

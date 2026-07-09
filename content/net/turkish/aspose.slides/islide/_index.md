@@ -1,14 +1,14 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Bir sunumdaki slaytı temsil eder.
 type: docs
-weight: 7020
+weight: 7040
 url: /tr/aspose.slides/islide/
 ---
-## ISlide arayüzü
+## ISlide arayüz
 
-Bir sunumdaki slaytı temsil eder.
+Bir sunumda bir slaytı temsil eder.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -21,25 +21,25 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Temel IBaseSlide arayüzünü almayı sağlar. Salt okunur [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | IOverrideThemeable arayüzünü döndürür. Salt okunur [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Slaytın HeaderFooter yöneticisini döndürür. Salt okunur [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Belirtilen slaytın slayt gösterisi sırasında gizli olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Geçerli slayt için yerleşim slaytını döndürür veya ayarlar. Okunabilir/Yazılabilir [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Notlar slaytına erişim sağlar, ekler ve kaldırır. Salt okunur [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Slayt sayısını döndürür. [`Slides`](../ipresentation/slides) koleksiyonundaki slayt indeksi her zaman SlideNumber - 1'e eşittir. Okunabilir/Yazılabilir Int32. |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Belirtilen slaydın slayt gösterisi sırasında gizli olup olmadığını belirler. Okuma/yazma Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Mevcut slayt için düzen slaydını döndürür veya ayarlar. Okuma/yazma [`ILayoutSlide`](../ilayoutslide). |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Not slaytına erişim sağlar, ekleyip kaldırabilir. Salt okunur [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Slayt sayısını döndürür. [`Slides`](../ipresentation/slides) koleksiyonundaki slayt indeksi her zaman SlideNumber - 1’e eşittir. Okuma/yazma Int32. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Gerçek boyutunun %20'si kadar bir Thumbnail Image nesnesi döndürür. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Thumbnail Bitmap nesnesi döndürür. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Gerçek boyutun %20’si kadar bir Thumbnail Image nesnesi döndürür. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Bir Thumbnail Bitmap nesnesi döndürür. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Belirtilen parametrelerle bir Thumbnail tiff bitmap nesnesi döndürür. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Belirtilen boyutta bir görüntü nesnesi döndürür. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Özel ölçekleme ile bir görüntü nesnesi döndürür. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Özel ölçeklendirme ile bir görüntü nesnesi döndürür. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Belirtilen boyutta bir Thumbnail Bitmap nesnesi döndürür. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Özel ölçekleme ile bir Thumbnail Bitmap nesnesi döndürür. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Özel ölçeklendirme ile bir Thumbnail Bitmap nesnesi döndürür. |
 | [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Belirli bir yazar tarafından eklenen tüm slayt yorumlarını döndürür. |
 | [Remove](../../aspose.slides/islide/remove)() | Slaytı sunumdan kaldırır. |
-| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide üzerinde prototipi olan her şeklin konum, boyut ve biçimlendirmesini sıfırlar. |
+| [Reset](../../aspose.slides/islide/reset)() | LayoutSlide üzerinde bir prototip bulunan her şeklin konumunu, boyutunu ve biçimlendirmesini sıfırlar. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Slayt içeriğini EMF dosyası olarak kaydeder. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Slayt içeriğini SVG dosyası olarak kaydeder. |
 | [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Slayt içeriğini SVG dosyası olarak kaydeder. |

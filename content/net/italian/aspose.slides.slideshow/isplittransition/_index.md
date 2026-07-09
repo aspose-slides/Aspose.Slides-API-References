@@ -3,7 +3,7 @@ title: ISplitTransition
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Effetto di transizione a divisione della diapositiva.
 type: docs
-weight: 10180
+weight: 10200
 url: /it/aspose.slides.slideshow/isplittransition/
 ---
 ## ISplitTransition interfaccia
@@ -18,7 +18,7 @@ public interface ISplitTransition : ITransitionValueBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia di base ITransitionValueBase. Sola lettura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | Direzione della divisione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | Orientamento della divisione della transizione. Lettura/scrittura [`Orientation`](../../aspose.slides/orientation). |
 

@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes के लिए .NET एपीआई संदर्भ
-description: आठ दिशा स्लाइड ट्रांज़िशन प्रभाव।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: आठ दिशा स्लाइड संक्रमण प्रभाव।
 type: docs
 weight: 10070
 url: /hi/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition इंटरफ़ेस
 
-आठ दिशा स्लाइड ट्रांज़िशन प्रभाव।
+आठ दिशा स्लाइड संक्रमण प्रभाव।
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। रीड-ओनली [`ITransitionValueBase`](../itransitionvaluebase)। |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`TransitionEightDirectionType`](../transitioneightdirectiontype)। |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | संक्रमण की दिशा। पढ़ने/लिखने योग्य [`TransitionEightDirectionType`](../transitioneightdirectiontype)। |
 
 ### देखें
 

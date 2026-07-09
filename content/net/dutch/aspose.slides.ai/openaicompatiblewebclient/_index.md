@@ -1,7 +1,7 @@
 ---
 title: OpenAICompatibleWebClient
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Een ingebouwde IAIWebClient./iaiwebclient implementatie die verbinding maakt met een OpenAI-compatibele LLM-provider op een opgegeven basis-URL.
+description: Een ingebouwde IAIWebClient./iaiwebclient-implementatie die verbinding maakt met een OpenAI-compatibele LLM-provider op een opgegeven basis-URL.
 type: docs
 weight: 40
 url: /nl/aspose.slides.ai/openaicompatiblewebclient/
@@ -18,16 +18,16 @@ public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | Maak een instantie van de OpenAI-compatibele webclient. |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | Maak een instantie van de OpenAI-compatibele webclient die een extern beheerde HttpClient gebruikt. De geleverde HttpClient wordt niet door deze instantie vrijgegeven en blijft eigendom van de aanroeper. |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | Maakt een instantie van de OpenAI-compatibele webclient. |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | Maakt een instantie van de OpenAI-compatibele webclient die een extern beheerde HttpClient gebruikt. De meegeleverde HttpClient wordt niet verwerkt door deze instantie en blijft eigendom van de aanroeper. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | Verstuurt een chatinstructie naar het AI-model met behulp van een extern beheerde `HttpClient`-instantie en geeft het antwoordbericht op de gegeven instructie terug. |
-| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | Maakt een gesprek-instantie aan. In tegenstelling tot reguliere AI-aanroepen behouden gesprekken de volledige context. |
-| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | Vrijgeeft bronnen die door deze instantie worden gebruikt. |
+| [CallChatAsync](../../aspose.slides.ai/openaicompatiblewebclient/callchatasync)(string) | Verzendt een chatinstructie naar het AI-model met behulp van een extern beheerde `HttpClient`-instantie en retourneert het responsbericht op de gegeven instructie. |
+| [CreateConversation](../../aspose.slides.ai/openaicompatiblewebclient/createconversation)() | Maakt een gespreksinstantie. In tegenstelling tot reguliere AI-aanroepen behouden gesprekken de volledige context. |
+| [Dispose](../../aspose.slides.ai/openaicompatiblewebclient/dispose)() | Geeft de door deze instantie gebruikte resources vrij. |
 
 ### Zie ook
 

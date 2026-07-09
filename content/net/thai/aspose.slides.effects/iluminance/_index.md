@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟ็กต์ Luminance. ความสว่างเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. ความคอนทราสต์ปรับขนาดสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Luminance ความสว่างทำให้สีทั้งหมดเคลื่อนเข้าหาเนื้อสีขาวหรือสีดำอย่างเชิงเส้น คอนทราสต์ปรับสเกลสีทั้งหมดให้ห่างกันหรือเข้าใกล้กันมากขึ้นหรือน้อยลง
 type: docs
 weight: 3440
 url: /th/aspose.slides.effects/iluminance/
 ---
 ## ILuminance อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟ็กต์ Luminance. ความสว่างเลื่อนสีทั้งหมดอย่างเชิงเส้นให้ใกล้กับสีขาวหรือสีดำมากขึ้น. ความคอนทราสต์ปรับขนาดสีทั้งหมดให้ใกล้กันหรือห่างกันมากขึ้น.
+แสดงถึงเอฟเฟกต์ Luminance ความสว่างทำให้สีทั้งหมดเคลื่อนเข้าหาเนื้อสีขาวหรือสีดำอย่างเชิงเส้น คอนทราสต์ปรับสเกลสีทั้งหมดให้ห่างกันหรือเข้าใกล้กันมากขึ้นหรือน้อยลง
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | อนุญาตให้ได้รับฐาน IAccessiblePVIObject อินเทอร์เฟซ. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | อนุญาตให้ได้รับฐาน IImageTransformOperation อินเทอร์เฟซ. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | อนุญาตให้เรียกใช้ IAccessiblePVIObject อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | อนุญาตให้เรียกใช้ IImageTransformOperation อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

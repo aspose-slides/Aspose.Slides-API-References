@@ -1,6 +1,6 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 측면 방향 슬라이드 전환 효과.
 type: docs
 weight: 10310
@@ -24,8 +24,8 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수를 제공하며, 해시 테이블과 같은 해시 알고리즘 및 데이터 구조에 사용하기에 적합합니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 판단합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 형식에 대한 해시 함수를 제공하며, 해시 테이블과 같은 해싱 알고리즘 및 데이터 구조에서 사용하기에 적합합니다. |
 
 ### 참조
 

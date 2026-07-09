@@ -8,7 +8,7 @@ url: /hi/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition क्लास
 
-Optional black slide transition effect.
+वैकल्पिक काली स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -18,19 +18,19 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | नाम | विवरण |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | यह विशेषता निर्दिष्ट करती है कि क्या ट्रांज़िशन काली स्क्रीन से शुरू होगा (और फिर नई स्लाइड को काले पर ट्रांज़िशन करेगा)। पढ़ें/लिखें Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | यह एट्रिब्यूट निर्दिष्ट करता है कि क्या ट्रांज़िशन काली स्क्रीन से शुरू होगा (और फिर नई स्लाइड को काले पर ट्रांज़िशन किया जाएगा)। पढ़ने/लिखने योग्य Boolean। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determines whether the two TransitionValueBase instances are equal. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि क्या दो TransitionValueBase इंस्टेंसेज़ समान हैं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [TransitionValueBase](../transitionvaluebase)
-* इंटरफ़ेस [IOptionalBlackTransition](../ioptionalblacktransition)
+* इंटरफेस [IOptionalBlackTransition](../ioptionalblacktransition)
 * नेमस्पेस [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)
 

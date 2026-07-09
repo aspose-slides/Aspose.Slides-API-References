@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer
 second_title: Aspose.Sildes .NET API referencia
-description: A Presentation../aspose.slides/presentation-hez kapcsolódó animációk lejátszóját képviseli.
+description: Ábrázolja a Presentation../aspose.slides/presentation-hez kapcsolódó animációk lejátszóját.
 type: docs
-weight: 4370
+weight: 4390
 url: /hu/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer osztály
 
-Képviseli a [`Presentation`](../../aspose.slides/presentation)-hez kapcsolódó animációk lejátszóját.
+Ábrázolja a [`Presentation`](../../aspose.slides/presentation) animációihoz kapcsolódó lejátszót.
 
 ```csharp
 public class PresentationPlayer : IDisposable
@@ -24,7 +24,7 @@ public class PresentationPlayer : IDisposable
 
 | Név | Leírás |
 | --- | --- |
-| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Lekéri a képkocka indexet. |
+| [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Lekérdezi a keret indexét. |
 
 ## Metódusok
 
@@ -36,7 +36,7 @@ public class PresentationPlayer : IDisposable
 
 | Név | Leírás |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Képviseli a [`FrameTick`](./frametick) esemény képkocka-ütés kezelőjét. |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Ábrázolja a [`FrameTick`](./frametick) esemény keret-ütés kezelőjét. |
 
 ### Példák
 

@@ -1,6 +1,6 @@
 ---
 title: IParagraphFormat
-second_title: مرجع Aspose.Sildes لـ .NET API
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: هذه الفئة تحتوي على خصائص تنسيق الفقرة. على عكس IParagraphFormatEffectiveData./iparagraphformateffectivedata جميع خصائص هذه الفئة قابلة للكتابة.
 type: docs
 weight: 6590
@@ -18,35 +18,35 @@ public interface IParagraphFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | إرجاع أو تعيين محاذاة النص في الفقرة دون وراثة. قراءة/كتابة [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | إرجاع تنسيق الرصاص للفقرة. للقراءة فقط [`IBulletFormat`](../ibulletformat). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | إرجاع تنسيق الجزء الافتراضي للفقرة. لا يتم تطبيق وراثة. للقراءة فقط [`IPortionFormat`](../iportionformat). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | إرجاع أو تعيين حجم التبويب الافتراضي دون وراثة. قراءة/كتابة Single. |
-| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | إرجاع أو تعيين عمق الفقرة. القيمة 0 تعني قيمة غير معرفة. قراءة/كتابة Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | تحديد ما إذا كان يتم استخدام فاصل السطر شرق آسيوي في الفقرة. لا يتم تطبيق وراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | إرجاع أو تعيين محاذاة الخط في الفقرة دون وراثة. قراءة/كتابة [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | تحديد ما إذا كانت علامات الترقيم المعلقة تُستخدم في الفقرة. لا يتم تطبيق وراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | إرجاع أو تعيين إزاحة السطر الأول/الإزاحة المعلقة للفقرة دون وراثة. يمكن تعريف الإزاحة المعلقة بقيم سلبية. قراءة/كتابة Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | تحديد ما إذا كان يتم استخدام فاصل السطر اللاتيني في الفقرة. لا يتم تطبيق وراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | إرجاع أو تعيين الهامش الأيسر في الفقرة دون وراثة. قراءة/كتابة Single. |
-| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | إرجاع أو تعيين الهامش الأيمن في الفقرة دون وراثة. قراءة/كتابة Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | تحديد ما إذا كان الكتابة من اليمين إلى اليسار تُستخدم في الفقرة. لا يتم تطبيق وراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | إرجاع أو تعيين مقدار المسافة بعد السطر الأخير في الفقرة دون وراثة. القيمة الموجبة تحدد نسبة حجم الخط الذي يجب أن تكون به المسافة البيضاء. القيمة السلبية تحدد حجم المسافة البيضاء بوحدة النقاط. قراءة/كتابة Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | إرجاع أو تعيين مقدار المسافة قبل السطر الأول في الفقرة دون وراثة. القيمة الموجبة تحدد نسبة حجم الخط الذي يجب أن تكون به المسافة البيضاء. القيمة السلبية تحدد حجم المسافة البيضاء بوحدة النقاط. قراءة/كتابة Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | إرجاع أو تعيين مقدار المسافة بين الخطوط الأساس في الفقرة. القيمة الموجبة تعني نسبة مئوية، السلبية - حجم بالنقاط. لا يتم تطبيق وراثة. قراءة/كتابة Single. |
-| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | إرجاع تبويبات الفقرة. لا يتم تطبيق وراثة. للقراءة فقط [`ITabCollection`](../itabcollection). |
+| [Alignment](../../aspose.slides/iparagraphformat/alignment) { get; set; } | يعيد أو يحدد محاذاة النص في فقرة دون وراثة. قراءة/كتابة [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformat/bullet) { get; } | يعيد تنسيق الرصاص للفقرة. قراءة فقط [`IBulletFormat`](../ibulletformat). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformat/defaultportionformat) { get; } | يعيد تنسيق الجزء الافتراضي لفقرة. لا يتم تطبيق الوراثة. قراءة فقط [`IPortionFormat`](../iportionformat). |
+| [DefaultTabSize](../../aspose.slides/iparagraphformat/defaulttabsize) { get; set; } | يعيد أو يحدد حجم التبويب الافتراضي دون وراثة. قراءة/كتابة Single. |
+| [Depth](../../aspose.slides/iparagraphformat/depth) { get; set; } | يعيد أو يحدد عمق الفقرة. القيمة 0 تعني قيمة غير معرفة. قراءة/كتابة Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformat/eastasianlinebreak) { get; set; } | يحدد ما إذا كان يتم استخدام فاصل السطر شرق آسيوي في الفقرة. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [FontAlignment](../../aspose.slides/iparagraphformat/fontalignment) { get; set; } | يعيد أو يحدد محاذاة الخط في فقرة دون وراثة. قراءة/كتابة [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformat/hangingpunctuation) { get; set; } | يحدد ما إذا كان يتم استخدام علامات الترقيم المتدلية في الفقرة. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [Indent](../../aspose.slides/iparagraphformat/indent) { get; set; } | يعيد أو يحدد المسافة البادئة للسطر الأول/المسافة المتدلية للفقرة دون وراثة. يمكن تعريف المسافة المتدلية بقيم سالبة. قراءة/كتابة Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformat/latinlinebreak) { get; set; } | يحدد ما إذا كان يتم استخدام فاصل السطر اللاتيني في الفقرة. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [MarginLeft](../../aspose.slides/iparagraphformat/marginleft) { get; set; } | يعيد أو يحدد الهامش الأيسر في فقرة دون وراثة. قراءة/كتابة Single. |
+| [MarginRight](../../aspose.slides/iparagraphformat/marginright) { get; set; } | يعيد أو يحدد الهامش الأيمن في فقرة دون وراثة. قراءة/كتابة Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformat/righttoleft) { get; set; } | يحدد ما إذا كان الكتابة من اليمين إلى اليسار مستخدمة في الفقرة. لا يتم تطبيق الوراثة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [SpaceAfter](../../aspose.slides/iparagraphformat/spaceafter) { get; set; } | يعيد أو يحدد مقدار المسافة بعد السطر الأخير في فقرة دون وراثة. القيمة الإيجابية تحدد نسبة حجم الخط التي يجب أن تكون عليها المسافة البيضاء. القيمة السالبة تحدد حجم المسافة البيضاء بوحدة النقاط. قراءة/كتابة Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformat/spacebefore) { get; set; } | يعيد أو يحدد مقدار المسافة قبل السطر الأول في فقرة دون وراثة. القيمة الإيجابية تحدد نسبة حجم الخط التي يجب أن تكون عليها المسافة البيضاء. القيمة السالبة تحدد حجم المسافة البيضاء بوحدة النقاط. قراءة/كتابة Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformat/spacewithin) { get; set; } | يعيد أو يحدد مقدار المسافة بين الخطوط الأساسية في الفقرة. القيمة الإيجابية تعني نسبة، والسالبة تعني حجم بالنقاط. لا يتم تطبيق الوراثة. قراءة/كتابة Single. |
+| [Tabs](../../aspose.slides/iparagraphformat/tabs) { get; } | يعيد تبويبات الفقرة. لا يتم تطبيق الوراثة. قراءة فقط [`ITabCollection`](../itabcollection). |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | الحصول على بيانات تنسيق الفقرة الفعّالة مع تطبيق الوراثة. |
+| [GetEffective](../../aspose.slides/iparagraphformat/geteffective)() | يحصل على بيانات تنسيق الفقرة الفعّالة مع تطبيق الوراثة. |
 
 ### ملاحظات
 
-تُستخدم هذه الفئة لإرجاع وتعديل خصائص تنسيق الفقرة المحددة للفقرة المحددة. هذا يعني أنه لا يتم تطبيق وراثة عند الحصول على القيم، وبالتالي في معظم الحالات ستحصل على قيم تعني "غير معرف".
+تُستخدم هذه الفئة لإرجاع وتعديل خصائص تنسيق الفقرة المحددة للفقرة المعينة. هذا يعني أنه لا يتم تطبيق الوراثة عند الحصول على القيم، لذا في معظم الحالات ستحصل على قيم تعني "غير معرف".
 
-من أجل الحصول على قيم معلمات التنسيق الفعّالة بما في ذلك المُورَّثة، تحتاج إلى استخدام طريقة [`GetEffective`](./geteffective) التي تُعيد مثيل [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
+للحصول على قيم معلمات التنسيق الفعّالة بما في ذلك الموروثة، تحتاج إلى استخدام طريقة [`GetEffective`](./geteffective) التي تُعيد مثيلًا من [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata).
 
 ### انظر أيضًا
 

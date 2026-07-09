@@ -1,9 +1,9 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje skoroszyt zapewniający dostęp do danych Excel do ogólnego użytku.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Reprezentuje skoroszyt, który zapewnia dostęp do danych Excel do ogólnego użytku.
 type: docs
-weight: 3690
+weight: 3710
 url: /pl/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook interfejs
@@ -16,15 +16,15 @@ public interface IExcelDataWorkbook
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Pobiera komórkę z określonego arkusza przy użyciu jej indeksu oraz nazwy komórki w stylu Excel (np. "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Pobiera komórkę z określonego arkusza przy użyciu nazwy komórki w stylu Excel (np. "B2"). |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Pobiera komórkę z określonego arkusza przy użyciu jej indeksu oraz współrzędnych komórki. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Pobiera komórkę z określonego arkusza przy użyciu jej nazwy oraz współrzędnych komórki. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Pobiera kolekcję komórek z skoroszytu, które spełniają określoną formułę. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | Pobiera komórkę z określonego arkusza, używając jej indeksu i nazwy komórki w stylu Excel (np., "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | Pobiera komórkę z określonego arkusza, używając nazwy komórki w stylu Excel (np., "B2"). |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | Pobiera komórkę z określonego arkusza, używając jej indeksu oraz współrzędnych komórki. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | Pobiera komórkę z określonego arkusza, używając jej nazwy oraz współrzędnych komórki. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | Pobiera kolekcję komórek ze skoroszytu, które pasują do określonego wzoru. |
 | [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Pobiera słownik zawierający indeksy i nazwy wszystkich wykresów w określonym arkuszu skoroszytu Excel. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Pobiera nazwy wszystkich arkuszy zawartych w skoroszycie Excel. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Pobiera nazwy wszystkich arkuszy znajdujących się w skoroszycie Excel. |
 
 ### Zobacz także
 

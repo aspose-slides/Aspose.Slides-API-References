@@ -1,9 +1,9 @@
 ---
 title: HandoutLayoutingOptions
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili mode tata letak presentasi handout untuk ekspor.
 type: docs
-weight: 3820
+weight: 3840
 url: /id/aspose.slides.export/handoutlayoutingoptions/
 ---
 ## HandoutLayoutingOptions kelas
@@ -25,9 +25,9 @@ public class HandoutLayoutingOptions : ISlidesLayoutOptions
 | Nama | Deskripsi |
 | --- | --- |
 | [Handout](../../aspose.slides.export/handoutlayoutingoptions/handout) { get; set; } | Menentukan berapa banyak slide dan dalam urutan apa yang akan ditempatkan pada halaman [`HandoutType`](../handouttype). |
-| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Menentukan apakah menampilkan komentar pada slide atau tidak |
-| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Menentukan apakah menggambar bingkai di sekitar slide yang ditampilkan atau tidak. |
-| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Menentukan apakah mencetak nomor slide yang ditampilkan atau tidak. |
+| [PrintComments](../../aspose.slides.export/handoutlayoutingoptions/printcomments) { get; set; } | Menentukan apakah komentar akan ditampilkan pada slide atau tidak |
+| [PrintFrameSlide](../../aspose.slides.export/handoutlayoutingoptions/printframeslide) { get; set; } | Menentukan apakah akan menggambar bingkai di sekitar slide yang ditampilkan atau tidak. |
+| [PrintSlideNumbers](../../aspose.slides.export/handoutlayoutingoptions/printslidenumbers) { get; set; } | Menentukan apakah nomor slide yang ditampilkan akan dicetak atau tidak. |
 
 ### Lihat Juga
 

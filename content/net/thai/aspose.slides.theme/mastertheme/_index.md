@@ -1,14 +1,14 @@
 ---
 title: MasterTheme
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงธีมหลัก.
+description: เป็นตัวแทนของธีมหลัก.
 type: docs
 weight: 11430
 url: /th/aspose.slides.theme/mastertheme/
 ---
-## คลาส MasterTheme
+## MasterTheme คลาส
 
-แสดงถึงธีมหลัก
+เป็นตัวแทนของธีมหลัก.
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -18,18 +18,18 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | ส่งกลับชุดสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | ส่งกลับคอลเลกชันของชุดสีเพิ่มเติม. ชุดสีเหล่านี้ไม่ได้ส่งผลต่อรูปลักษณ์ของงานนำเสนอ, สามารถเลือกเป็นชุดสีหลักสำหรับสไลด์ได้. อ่านอย่างเดียว [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | ส่งกลับชุดแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | ส่งกลับชุดรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | ส่งกลับชื่อของธีม. อ่าน/เขียน String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งกลับงานนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | ส่งคืนโครงสร้างสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | ส่งคืนคอลเลกชันของโครงสร้างสีเพิ่มเติม. โครงสร้างสีเหล่านี้ไม่ส่งผลต่อรูปลักษณ์ของงานนำเสนอ, สามารถเลือกเป็นโครงสร้างสีหลักสำหรับสไลด์. อ่านอย่างเดียว [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | ส่งคืนโครงสร้างแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | ส่งคืนโครงสร้างรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | ส่งคืนชื่อของธีม. อ่าน/เขียน String. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งคืนงานนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | รับข้อมูลธีมที่มีประสิทธิภาพโดยใช้การสืบทอดแล้ว. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | ดึงข้อมูลธีมที่มีผลโดยใช้การสืบทอด. |
 
 ### ดูเพิ่มเติม
 

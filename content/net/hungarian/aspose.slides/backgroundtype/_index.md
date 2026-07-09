@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes .NET API-referencia
-description: Meghatározza a dia háttér kitöltés forrását.
+second_title: Aspose.Sildes a .NET API Referenciához
+description: Meghatározza a dia háttér kitöltésének forrását.
 type: docs
-weight: 920
+weight: 940
 url: /hu/aspose.slides/backgroundtype/
 ---
-## BackgroundType felsorlat
+## BackgroundType enumeráció
 
-Meghatározza a dia háttér kitöltés forrását.
+Meghatározza a dia háttér kitöltésének forrását.
 
 ```csharp
 public enum BackgroundType : sbyte

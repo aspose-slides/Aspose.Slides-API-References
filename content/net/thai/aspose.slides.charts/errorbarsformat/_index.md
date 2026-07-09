@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงแท่งความผิดพลาดของชุดข้อมูลแผนภูมิ. ค่าที่กำหนดเองของ ErrorBars อยู่ใน IChartDataPointCollection ในคุณสมบัติ ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงแท่งข้อผิดพลาดของชุดข้อมูลกราฟ. ErrorBars custom values are in IChartDataPointCollection in ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues property.
 type: docs
 weight: 1670
 url: /th/aspose.slides.charts/errorbarsformat/
 ---
-## คลาส ErrorBarsFormat
+## ErrorBarsFormat คลาส
 
-แสดงแท่งความผิดพลาดของชุดข้อมูลแผนภูมิ. ค่าที่กำหนดเองของ ErrorBars อยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+แสดงแท่งข้อผิดพลาดของชุดข้อมูลกราฟ ชื่อค่าแท่งข้อผิดพลาดที่กำหนดเองอยู่ใน IChartDataPointCollection (ในคุณสมบัติ [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues))
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -18,13 +18,13 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | คืนค่ากราฟแม่. อ่านอย่างเดียว [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | แสดงรูปแบบของแท่งความผิดพลาด. อ่าน/เขียน [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | ระบุว่าไม่วาดหัวปลายบนแท่งความผิดพลาด. อ่าน/เขียน Boolean. |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | คืนค่าแผนภูมิแม่แบบ. อ่านอย่างเดียว [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | แสดงรูปแบบของแท่งข้อผิดพลาด. อ่าน/เขียน [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | ระบุว่าปลายแคปจะไม่ถูกวาดบนแท่งข้อผิดพลาด. อ่าน/เขียน Boolean. |
 | [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | รับหรือกำหนดการมองเห็นของ Error Bars. อ่าน/เขียน Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | รับหรือกำหนดประเภทของแท่งความผิดพลาด. อ่าน/เขียน [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | รับหรือกำหนดค่าที่ใช้กับประเภทค่า Fixed, Percentage และ StandardDeviation เพื่อกำหนดความยาวของแท่งความผิดพลาด. ในกรณีอื่นจะคืนค่า NaN. อ่าน/เขียน Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | แสดงวิธีที่เป็นไปได้ในการกำหนดความยาวของแท่งความผิดพลาด. ในกรณีของประเภทค่าที่กำหนดเองเพื่อระบุค่าใช้คุณสมบัติ [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) ของจุดข้อมูลเฉพาะในคอลเลกชัน DataPoints ของชุดข้อมูล. ในกรณีของประเภทค่า Fixed, Percentage หรือ StandardDeviation ให้ใช้คุณสมบัติ Value เพื่อระบุค่า. อ่าน/เขียน [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | รับหรือกำหนดประเภทของ error bars. อ่าน/เขียน [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | รับหรือกำหนดค่าที่ใช้ร่วมกับประเภท Fixed, Percentage และ StandardDeviation เพื่อกำหนดความยาวของแท่งข้อผิดพลาด. ในกรณีอื่นจะคืนค่า NaN. อ่าน/เขียน Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | แสดงวิธีที่เป็นไปได้ในการกำหนดความยาวของแท่งข้อผิดพลาด. ในกรณีของค่าที่กำหนดเอง ให้ใช้คุณสมบัติ [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) ของจุดข้อมูลเฉพาะในคอลเลกชัน DataPoints ของชุดข้อมูล. ในกรณีของ Fixed, Percentage หรือ StandardDeviation ให้ใช้คุณสมบัติ Value เพื่อกำหนดค่า. อ่าน/เขียน [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### ดูเพิ่มเติม
 

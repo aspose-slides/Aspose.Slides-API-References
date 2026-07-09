@@ -3,7 +3,7 @@ title: IMathArrayFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa en matematisk array
 type: docs
-weight: 8090
+weight: 8110
 url: /sv/aspose.slides.mathtext/imatharrayfactory/
 ---
 ## IMathArrayFactory gränssnitt
@@ -18,14 +18,14 @@ public interface IMathArrayFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Skapar en matematisk array och placerar det specificerade elementet i den |
-| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Skapar en matematisk array och placerar specificerade element i den |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Skapar en matematisk array och placerar det angivna elementet i den |
+| [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Skapar en matematisk array och placerar angivna element i den |
 
 ### Anmärkningar
 
 För COM-kompatibilitet
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

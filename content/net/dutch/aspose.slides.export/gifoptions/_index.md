@@ -1,38 +1,38 @@
 ---
 title: GifOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft GIF-exportopties weer.
+description: Stelt GIF-exportopties voor.
 type: docs
 weight: 3820
 url: /nl/aspose.slides.export/gifoptions/
 ---
 ## GifOptions klasse
 
-Geeft GIF-exportopties weer.
+Represents GIF exporting options.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GifOptions](gifoptions)() | Initialiseert een nieuw exemplaar van de GifOptions klasse. |
+| [GifOptions](gifoptions)() | Initializes a new instance of the GifOptions class. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Geeft de standaard vertragingstijd [ms] terug of stelt deze in. Deze waarde wordt gebruikt als [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) niet is ingesteld. De standaardwaarde is 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft het lettertype terug of stelt het in voor het geval het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bepaalt of verborgen dia’s worden geëxporteerd. De standaardwaarde is false. |
-| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Geeft de framegrootte terug of stelt deze in. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft de visuele stijl van de gradiënt terug of stelt deze in. Lezen-schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor het opslaan van voortgangsupdates in percentages voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen worden overgeslagen bij het opslaan van de presentatie. Lezen-schrijven Boolean. De standaardwaarde is **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Geeft de overgang-FPS [frames/sec] terug of stelt deze in. De standaardwaarde is 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt het in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen-schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Haalt op of stelt de standaardvertragingstijd [ms] in. Deze waarde wordt gebruikt als [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) niet is ingesteld. De standaardwaarde is 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retourneert of stelt het lettertype in dat wordt gebruikt wanneer het bronlettertype niet wordt gevonden. Lezen/Schrijven String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Bepaalt of verborgen dia's worden geëxporteerd. De standaardwaarde is false. |
+| [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Haalt op of stelt de frame-grootte in. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retourneert of stelt de visuele stijl van de gradient in. Lezen/Schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor het opslaan van voortgangsupdates in procenten voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperkoppelingen met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen/Schrijven Boolean. De standaardwaarde is **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Haalt op of stelt overgangs-FPS [frames/sec] in. De standaardwaarde is 25. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retourneert of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen/Schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 
@@ -45,8 +45,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
         FrameSize = new Size(960, 720), // de grootte van de resulterende GIF
-        DefaultDelay = 2000, // hoe lang elke dia wordt getoond tot deze wordt veranderd naar de volgende
-        TransitionFps = 35 // verhoog FPS voor een betere overgangsanimatiekwaliteit
+        DefaultDelay = 2000, // hoelang elke dia wordt getoond tot hij wordt veranderd naar de volgende
+        TransitionFps = 35 // verhoog FPS voor betere kwaliteit van de overgangsanimatie
     });
 }
 ```
@@ -55,7 +55,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * klasse [SaveOptions](../saveoptions)
 * interface [IGifOptions](../igifoptions)
-* naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

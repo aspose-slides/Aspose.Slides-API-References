@@ -1,7 +1,7 @@
 ---
 title: ForEach.ForEachSlideCallback
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ Slide./foreach/slide ใน Presentation../aspose.slides/presentation.
+description: คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ Slide./foreach/slide ใน Presentation../aspose.slides/presentation.
 type: docs
 weight: 7960
 url: /th/aspose.slides.lowcode/foreach.foreachslidecallback/
@@ -14,9 +14,9 @@ url: /th/aspose.slides.lowcode/foreach.foreachslidecallback/
 public delegate void ForEachSlideCallback(Slide slide, int index);
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| slide | Slide | สไลด์ที่กำลังวนลูปอยู่ |
+| slide | Slide | สไลด์ที่ทำการวนซ้ำในปัจจุบัน |
 | index | Int32 | ดัชนีของสไลด์ปัจจุบัน |
 
 ### ดูเพิ่มเติม

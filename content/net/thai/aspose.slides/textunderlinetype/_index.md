@@ -6,7 +6,7 @@ type: docs
 weight: 11010
 url: /th/aspose.slides/textunderlinetype/
 ---
-## enumeration ของ TextUnderlineType
+## การกำหนดค่า TextUnderlineType
 
 แสดงประเภทของการขีดเส้นใต้ข้อความ
 
@@ -14,7 +14,7 @@ url: /th/aspose.slides/textunderlinetype/
 public enum TextUnderlineType : sbyte
 ```
 
-### ค่าที่เป็นไปได้
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

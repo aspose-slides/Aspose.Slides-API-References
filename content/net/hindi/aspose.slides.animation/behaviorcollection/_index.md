@@ -1,7 +1,7 @@
 ---
 title: BehaviorCollection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: व्यवहार प्रभावों के संग्रह को दर्शाता है।
+description: व्यवहार प्रभावों का संग्रह दर्शाता है।
 type: docs
 weight: 170
 url: /hi/aspose.slides.animation/behaviorcollection/
@@ -18,27 +18,27 @@ public class BehaviorCollection : IBehaviorCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | कलेक्शन में व्यवहारों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि ICollection केवल-पढ़ने योग्य है। केवल-पढ़ने योग्य Boolean. |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | एक संग्रह में व्यवहारों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि ICollection केवल-पढ़ने योग्य है या नहीं। केवल-पढ़ने योग्य Boolean. |
 | [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | निर्दिष्ट सूचकांक पर एक व्यवहार लौटाता है। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | एक संग्रह में नया व्यवहार जोड़ता है। |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | एक संग्रह से सभी व्यवहारों को हटाता है। |
-| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | निर्धारण करता है कि ICollection में कोई विशिष्ट मान मौजूद है या नहीं। |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, एक विशिष्ट Array सूचकांक से शुरू करके। |
-| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | एक एनेमरेटर लौटाता है जो संग्रह के माध्यम से इटरिट करता है। |
+| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान है या नहीं। |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, विशेष Array सूचकांक से शुरू करते हुए। |
+| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह पर इटरैट करता है। |
 | [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | IList में किसी विशिष्ट आइटम का सूचकांक निर्धारित करता है। |
 | [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | निर्दिष्ट सूचकांक पर एक संग्रह में नया व्यवहार सम्मिलित करता है। |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | एक संग्रह से निर्दिष्ट व्यवहार को हटाता है। |
-| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | निर्दिष्ट सूचकांक पर संग्रह से व्यवहार को हटाता है। |
+| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | निर्दिष्ट सूचकांक पर एक संग्रह से व्यवहार को हटाता है। |
 
 ### देखें
 
-* इंटरफेस [IBehaviorCollection](../ibehaviorcollection)
+* इंटरफ़ेस [IBehaviorCollection](../ibehaviorcollection)
 * नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)
 

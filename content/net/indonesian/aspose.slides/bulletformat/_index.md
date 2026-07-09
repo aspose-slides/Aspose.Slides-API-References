@@ -3,7 +3,7 @@ title: BulletFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti pemformatan bullet paragraf.
 type: docs
-weight: 1050
+weight: 1070
 url: /id/aspose.slides/bulletformat/
 ---
 ## BulletFormat kelas
@@ -14,27 +14,27 @@ Mewakili properti pemformatan bullet paragraf.
 public sealed class BulletFormat : PVIObject, IBulletFormat
 ```
 
-## Properties
+## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Mengembalikan atau mengatur karakter bullet dari paragraf tanpa pewarisan. Baca/tulis Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Mengembalikan format warna bullet dari paragraf tanpa pewarisan. Hanya-baca [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Mengembalikan atau mengatur font bullet dari paragraf tanpa pewarisan. Baca/tulis [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Mengembalikan atau mengatur tinggi bullet dari paragraf tanpa pewarisan. Nilai float.NaN menentukan bahwa bullet mewarisi tinggi dari bagian pertama dalam paragraf. Baca/tulis Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Menentukan apakah bullet memiliki warna sendiri atau mewarisinya dari bagian pertama dalam paragraf. **NullableBool.True** jika bullet memiliki warna sendiri dan **NullableBool.False** jika bullet mewarisi warna dari bagian pertama dalam paragraf. Baca/tulis [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Menentukan apakah bullet memiliki font sendiri atau mewarisinya dari bagian pertama dalam paragraf. **NullableBool.True** jika bullet memiliki font sendiri dan **NullableBool.False** jika bullet mewarisi font dari bagian pertama dalam paragraf. Baca/tulis [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Mengembalikan atau mengatur nomor pertama yang digunakan untuk grup bullet bernomor tanpa pewarisan. Baca/tulis Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Mengembalikan atau mengatur gaya bullet bernomor tanpa pewarisan. Baca/tulis [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Mengembalikan gambar yang digunakan sebagai bullet dalam paragraf tanpa pewarisan. Hanya-baca [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Mengembalikan atau mengatur tipe bullet dari paragraf tanpa pewarisan. Baca/tulis [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya Baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Mengembalikan atau mengatur karakter bullet dari paragraf tanpa pewarisan. Baca/Tulis Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Mengembalikan format warna bullet dari paragraf tanpa pewarisan. Hanya Baca [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Mengembalikan atau mengatur font bullet dari paragraf tanpa pewarisan. Baca/Tulis [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Mengembalikan atau mengatur tinggi bullet dari paragraf tanpa pewarisan. Nilai float.NaN menentukan bahwa bullet mewarisi tinggi dari bagian pertama dalam paragraf. Baca/Tulis Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Menentukan apakah bullet memiliki warna sendiri atau mewarisinya dari bagian pertama dalam paragraf. **NullableBool.True** jika bullet memiliki warna sendiri dan **NullableBool.False** jika bullet mewarisi warna dari bagian pertama dalam paragraf. Baca/Tulis [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Menentukan apakah bullet memiliki font sendiri atau mewarisinya dari bagian pertama dalam paragraf. **NullableBool.True** jika bullet memiliki font sendiri dan **NullableBool.False** jika bullet mewarisi font dari bagian pertama dalam paragraf. Baca/Tulis [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Mengembalikan atau mengatur nomor pertama yang digunakan untuk grup bullet bernomor tanpa pewarisan. Baca/Tulis Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Mengembalikan atau mengatur gaya bullet bernomor tanpa pewarisan. Baca/Tulis [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Mengembalikan gambar yang digunakan sebagai bullet dalam paragraf tanpa pewarisan. Hanya Baca [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Mengembalikan atau mengatur tipe bullet dalam paragraf tanpa pewarisan. Baca/Tulis [`BulletType`](../bullettype). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Mengatur pergeseran default non-zero untuk Indent dan MarginLeft paragraf yang efektif ketika bullet diaktifkan (seperti yang dilakukan PowerPoint jika mengaktifkan bullet/penomoran paragraf). Jika bullet dinonaktifkan maka hanya mereset Indent dan MarginLeft paragraf (seperti yang dilakukan PowerPoint jika menonaktifkan bullet/penomoran paragraf). Pergeseran indent diaplikasikan berdasarkan konteks bullet saat ini - IBulletFormat.Type, .NumberedBulletStyle dan FontHeight bagian pertama. Pergeseran indent non-zero diterapkan pada Indent dan MarginLeft paragraf yang efektif (menjadikan nilai hasil menjadi nilai lokal). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Mengatur pergeseran non-zero default untuk Indent dan MarginLeft paragraf yang efektif ketika bullet diaktifkan (seperti yang dilakukan PowerPoint jika mengaktifkan bullet/penomoran paragraf). Jika bullet dinonaktifkan, cukup mengatur ulang Indent dan MarginLeft paragraf (seperti yang dilakukan PowerPoint jika menonaktifkan bullet/penomoran paragraf). Pergeseran indentasi diterapkan berdasarkan konteks bullet saat ini - IBulletFormat.Type, .NumberedBulletStyle dan FontHeight dari bagian pertama. Pergeseran indentasi non-zero diterapkan pada Indent dan MarginLeft yang efektif dari paragraf saat ini (menjadikan nilai hasil menjadi nilai lokal). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
 | [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Mendapatkan data pemformatan bullet yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
@@ -43,7 +43,7 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 * kelas [PVIObject](../pviobject)
 * antarmuka [IBulletFormat](../ibulletformat)
-* ruang nama [Aspose.Slides](../../aspose.slides)
+* ruangnama [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

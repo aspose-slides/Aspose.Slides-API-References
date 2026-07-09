@@ -18,9 +18,9 @@ public interface IFindResultCallback
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 回呼方法，用於接收有關找到的文字之資料。 |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | 回呼方法，接收有關找到的文字之資料。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

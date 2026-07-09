@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes .NET API Referansı
-description: Yorum yazarlarından oluşan bir koleksiyonu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yorum yazarlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 5560
+weight: 5580
 url: /tr/aspose.slides/icommentauthorcollection/
 ---
-## ICommentAuthorCollection arayüz
+## ICommentAuthorCollection arayüzü
 
-Yorum yazarlarından oluşan bir koleksiyonu temsil eder.
+Yorum yazarlarının bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -20,7 +20,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | --- | --- |
 | [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ICommentAuthor`](../icommentauthor). |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
@@ -30,7 +30,7 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 | [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Bir koleksiyonda adı ve baş harfleriyle yazar bulur. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Bir koleksiyonda belirtilen yazarın ilk oluşumunu kaldırır. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Koleksiyonun belirtilen dizinindeki yazarı kaldırır. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tüm yazarları içeren bir dizi oluşturur ve döndürür. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Tüm yazarlarla bir dizi oluşturur ve döndürür. |
 
 ### Ayrıca Bakınız
 

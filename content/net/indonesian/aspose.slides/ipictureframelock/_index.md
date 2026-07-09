@@ -1,9 +1,9 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan operasi mana yang dinonaktifkan pada PictureFrameEx induk.
 type: docs
-weight: 6660
+weight: 6680
 url: /id/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock antarmuka
@@ -19,17 +19,17 @@ public interface IPictureFrameLock : IBaseShapeLock
 | Nama | Deskripsi |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Menentukan apakah mengubah nilai penyesuaian dilarang. Baca/tulis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Menentukan apakah mengubah kepala panah dilarang. Baca/tulis Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Memungkinkan mendapatkan antarmuka dasar IBaseShapeLock. Hanya-baca [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Menentukan apakah sebuah shape harus mempertahankan rasio aspek saat mengubah ukuran. Baca/tulis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Menentukan apakah mengubah ujung panah dilarang. Baca/tulis Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Mengizinkan mengambil antarmuka dasar IBaseShapeLock. Baca-saja [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Menentukan apakah bentuk harus menjaga rasio aspek saat mengubah ukuran. Baca/tulis Boolean. |
 | [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Menentukan apakah pemotongan gambar dilarang. Baca/tulis Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Menentukan apakah perubahan langsung kontur shape ini dilarang. Baca/tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan shape ini ke grup dilarang. Baca/tulis Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Menentukan apakah memindahkan shape ini dilarang. Baca/tulis Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Menentukan apakah mengubah sudut rotasi shape ini dilarang. Baca/tulis Boolean. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Menentukan apakah memilih shape ini dilarang. Baca/tulis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Menentukan apakah mengubah tipe shape dilarang. Baca/tulis Boolean. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/tulis Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Menentukan apakah mengubah kontur bentuk ini secara langsung dilarang. Baca/tulis Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Menentukan apakah menambahkan bentuk ini ke grup dilarang. Baca/tulis Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Menentukan apakah memindahkan bentuk ini dilarang. Baca/tulis Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Menentukan apakah mengubah sudut rotasi bentuk ini dilarang. Baca/tulis Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Menentukan apakah memilih bentuk ini dilarang. Baca/tulis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Menentukan apakah mengubah tipe bentuk dilarang. Baca/tulis Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

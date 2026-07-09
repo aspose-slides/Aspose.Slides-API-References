@@ -16,18 +16,18 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | 取得指定索引處的元素。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 向 VBA 專案中新增一個空白模組。 |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 從集合中移除首次出現的特定物件。 |
+| [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | 將新的空白模組新增至 VBA 專案。 |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | 從集合中移除第一次出現的特定物件。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 介面 [IVbaModule](../ivbamodule)

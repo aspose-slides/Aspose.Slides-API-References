@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje autora komentářů.
+description: Představuje autora komentářů.
 type: docs
-weight: 2610
+weight: 2630
 url: /cs/aspose.slides/commentauthor/
 ---
 ## CommentAuthor třída
 
-Reprezentuje autora komentářů.
+Představuje autora komentářů.
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,15 +18,15 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Název | Popis |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Vrací kolekci komentářů vytvořených tímto autorem. Pouze pro čtení [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Vrací nebo nastavuje iniciály autora. Čtení/zápis String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Vrací nebo nastavuje jméno autora. Čtení/zápis String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Vrací kolekci komentářů vytvořených tímto autorem. Read-only [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Vrací nebo nastavuje iniciály autora. Read/write String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Vrací nebo nastavuje jméno autora. Read/write String. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Remove](../../aspose.slides/commentauthor/remove)() | Odstraňuje autora z nadřazené kolekce. |
+| [Remove](../../aspose.slides/commentauthor/remove)() | Odstraní autora z nadřazené kolekce. |
 
 ### Viz také
 

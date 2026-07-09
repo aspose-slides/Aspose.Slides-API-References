@@ -1,7 +1,7 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนป้ายของชุดข้อมูล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงป้ายกำกับของซีรีส์
 type: docs
 weight: 2020
 url: /th/aspose.slides.charts/idatalabel/
@@ -18,19 +18,19 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | คืนค่า IActualLayout อินเทอร์เฟซ. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | คืนค่า ILayoutable อินเทอร์เฟซ. อ่านอย่างเดียว [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | คืนค่า IOverridableText อินเทอร์เฟซ. อ่านอย่างเดียว [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | คืนค่า รูปแบบของป้ายข้อมูล. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False หมายความว่าป้ายข้อมูลไม่แสดง (และดังนั้นแฟล็ก Show*-ทั้งหมด (ShowValue, ...) จะเป็น false). อ่านอย่างเดียว บูลีน. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | รับหรือกำหนดเซลล์ข้อมูลของ workbook. ใช้ถ้า property IDataLabelFormat.ShowLabelValueFromCell เท่ากับ true. |
+| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | ส่งคืน IActualLayout อินเทอร์เฟซ. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | ส่งคืน ILayoutable อินเทอร์เฟซ. อ่านอย่างเดียว [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | ส่งคืน IOverridableText อินเทอร์เฟซ. อ่านอย่างเดียว [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | ส่งคืนรูปแบบของป้ายข้อมูล. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False หมายความว่าป้ายข้อมูลไม่ปรากฏ (และดังนั้นทุกแฟล็ก Show*-flags (ShowValue, ...) จะเป็น false). อ่านอย่างเดียว Boolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | รับหรือกำหนดเซลล์ข้อมูลของสมุดงาน. ใช้หากคุณสมบัติ IDataLabelFormat.ShowLabelValueFromCell มีค่า true. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | คืนข้อความป้ายจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | ทำให้ป้ายข้อมูลซ่อนโดยตั้งค่าแฟล็ก Show*-ทั้งหมด (ShowValue, ...) เป็น false. IsVisible จะเป็น false หลังจากนี้. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | ส่งคืนข้อความป้ายจริงตามการตั้งค่า DataLabelFormat หรือค่าของ TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | ทำให้ป้ายข้อมูลถูกซ่อนโดยการตั้งค่าแฟล็ก Show*-flags ทั้งหมด (ShowValue, ...) เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション ファイル形式がサポートされていない場合にスローされる例外です。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: プレゼンテーション ファイルの形式がサポートされていない場合にスローされる例外です。
 type: docs
-weight: 9560
+weight: 9580
 url: /ja/aspose.slides/pptxunsupportedformatexception/
 ---
 ## PptxUnsupportedFormatException クラス
 
-Exception が、プレゼンテーション ファイル形式がサポートされていない場合にスローされます。
+プレゼンテーション ファイルの形式がサポートされていない場合にスローされる例外です。
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException
@@ -18,9 +18,9 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | デフォルト コンストラクタです。 |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | この exception にメッセージを追加できるコンストラクタです。 |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | メッセージと埋め込み例外を含む exception のコンストラクタです。 |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | デフォルトコンストラクタ。 |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
 
 ### 参照
 

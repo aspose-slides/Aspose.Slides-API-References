@@ -1,14 +1,14 @@
 ---
 title: IColorChange
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een kleurveranderingseffect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
+description: Stelt een Color Change-effect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
 type: docs
 weight: 3220
 url: /nl/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange interface
 
-Stelt een kleurveranderingseffect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
+Stelt een Color Change-effect voor. Instanties van FromColor worden vervangen door instanties van ToColor.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Staat toe de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Staat toe de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | Staat toe om de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | Staat toe om de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | Kleur die zal worden vervangen. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Kleur die zal vervangen worden. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | Kleur die zal vervangen. Alleen-lezen [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Zie ook
 

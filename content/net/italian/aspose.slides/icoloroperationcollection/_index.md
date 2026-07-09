@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di operazioni di trasformazione del colore.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta una collezione di operazioni di trasformazione del colore.
 type: docs
-weight: 5490
+weight: 5510
 url: /it/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection interfaccia
 
-Rappresenta una raccolta di operazioni di trasformazione del colore.
+Rappresenta una collezione di operazioni di trasformazione del colore.
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -19,7 +19,7 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Restituisce o imposta l'operazione all'indice specificato. Lettura/scrittura [`IColorOperation`](../icoloroperation). |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | Restituisce o imposta l'operazione all'indice specificato. Lettura/Scrittura [`IColorOperation`](../icoloroperation). |
 
 ## Metodi
 
@@ -28,9 +28,9 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 | [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | Aggiunge una nuova operazione alla fine della raccolta. |
 | [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | Aggiunge una nuova operazione alla fine della raccolta. |
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | Rimuove tutte le operazioni di colore. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Inserisce la nuova operazione in una raccolta. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Inserisce la nuova operazione in una raccolta. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Rimuove l'operazione di colore da una raccolta. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | Inserisce la nuova operazione nella raccolta. |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | Inserisce la nuova operazione nella raccolta. |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | Rimuove l'operazione di colore dalla raccolta. |
 
 ### Vedi anche
 

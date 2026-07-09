@@ -1,14 +1,14 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงประเภทการเปลี่ยนของการแสดงสไลด์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อธิบายประเภทการเปลี่ยนภาพนิ่งสำหรับการแสดงสไลด์
 type: docs
 weight: 10450
 url: /th/aspose.slides.slideshow/transitiontype/
 ---
-## TransitionType การนับ
+## TransitionType enumeration
 
-แสดงประเภทการเปลี่ยนของการแสดงสไลด์
+อธิบายประเภทการเปลี่ยนภาพนิ่งสำหรับการแสดงสไลด์
 
 ```csharp
 public enum TransitionType
@@ -21,60 +21,60 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | เกี่ยวข้องกับการเปลี่ยนแปลง Shape (ด้วยตัวเลือก Circle) ใน PowerPoint 2010. |
+| Circle | `3` |สัมพันธ์กับการเปลี่ยนแปลง Shape (พร้อมตัวเลือก Circle) ใน PowerPoint 2010. |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | เกี่ยวข้องกับการเปลี่ยนแปลง Shape (ด้วยตัวเลือก Diamond) ใน PowerPoint 2010. |
+| Diamond | `7` |สัมพันธ์กับการเปลี่ยนแปลง Shape (พร้อมตัวเลือก Diamond) ใน PowerPoint 2010. |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | เกี่ยวข้องกับการเปลี่ยนแปลง Shape (ด้วยตัวเลือก Plus) ใน PowerPoint 2010. |
+| Plus | `11` |สัมพันธ์กับการเปลี่ยนแปลง Shape (พร้อมตัวเลือก Plus) ใน PowerPoint 2010. |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | เทียบเท่ากับการเปลี่ยนแปลง Wipe ใน PowerPoint 2010. |
+| Split | `16` |เทียบเท่ากับการเปลี่ยนแปลง Wipe ใน PowerPoint 2010. |
 | Strips | `17` |  |
-| Wedge | `18` | เกี่ยวข้องกับการเปลี่ยนแปลง Clock (ด้วยตัวเลือก Wedge) ใน PowerPoint 2010. |
-| Wheel | `19` | เกี่ยวข้องกับการเปลี่ยนแปลง Clock (ด้วยตัวเลือก Clockwise) ใน PowerPoint 2010. |
+| Wedge | `18` |สัมพันธ์กับการเปลี่ยนแปลง Clock (พร้อมตัวเลือก Wedge) ใน PowerPoint 2010. |
+| Wheel | `19` |สัมพันธ์กับการเปลี่ยนแปลง Clock (พร้อมตัวเลือก Clockwise) ใน PowerPoint 2010. |
 | Wipe | `20` |  |
-| Zoom | `21` | เกี่ยวข้องกับการเปลี่ยนแปลง Shape (ด้วยตัวเลือก In/Out) ใน PowerPoint 2010. ดูเพิ่มเติม Warp ที่เกี่ยวข้องกับการเปลี่ยนแปลง Zoom ใน PowerPoint 2010. |
-| Vortex | `22` | พร้อมใช้ใน PowerPoint 2010. |
-| Switch | `23` | พร้อมใช้ใน PowerPoint 2010. |
-| Flip | `24` | พร้อมใช้ใน PowerPoint 2010. |
-| Ripple | `25` | พร้อมใช้ใน PowerPoint 2010. |
-| Honeycomb | `26` | พร้อมใช้ใน PowerPoint 2010. |
-| Cube | `27` | พร้อมใช้ใน PowerPoint 2010. |
-| Box | `28` | พร้อมใช้ใน PowerPoint 2010. |
-| Rotate | `29` | พร้อมใช้ใน PowerPoint 2010. |
-| Orbit | `30` | พร้อมใช้ใน PowerPoint 2010. |
-| Doors | `31` | พร้อมใช้ใน PowerPoint 2010. |
-| Window | `32` | พร้อมใช้ใน PowerPoint 2010. |
-| Ferris | `33` | พร้อมใช้ใน PowerPoint 2010. |
-| Gallery | `34` | พร้อมใช้ใน PowerPoint 2010. |
-| Conveyor | `35` | พร้อมใช้ใน PowerPoint 2010. |
-| Pan | `36` | พร้อมใช้ใน PowerPoint 2010. |
-| Glitter | `37` | พร้อมใช้ใน PowerPoint 2010. |
-| Warp | `38` | เกี่ยวข้องกับการเปลี่ยนแปลง Zoom ใน PowerPoint 2010. พร้อมใช้ใน PowerPoint 2010. |
-| Flythrough | `39` | พร้อมใช้ใน PowerPoint 2010. |
-| Flash | `40` | พร้อมใช้ใน PowerPoint 2010. |
-| Shred | `41` | พร้อมใช้ใน PowerPoint 2010. |
-| Reveal | `42` | พร้อมใช้ใน PowerPoint 2010. |
-| WheelReverse | `43` | เกี่ยวข้องกับการเปลี่ยนแปลง Clock (ด้วยตัวเลือก Counterclockwise) ใน PowerPoint 2010. พร้อมใช้ใน PowerPoint 2010. |
-| FallOver | `44` | พร้อมใช้ใน PowerPoint 2013. |
-| Drape | `45` | พร้อมใช้ใน PowerPoint 2013. |
-| Curtains | `46` | พร้อมใช้ใน PowerPoint 2013. |
-| Wind | `47` | พร้อมใช้ใน PowerPoint 2013. |
-| Prestige | `48` | พร้อมใช้ใน PowerPoint 2013. |
-| Fracture | `49` | พร้อมใช้ใน PowerPoint 2013. |
-| Crush | `50` | พร้อมใช้ใน PowerPoint 2013. |
-| PeelOff | `51` | พร้อมใช้ใน PowerPoint 2013. |
-| PageCurlDouble | `52` | พร้อมใช้ใน PowerPoint 2013. |
-| PageCurlSingle | `53` | พร้อมใช้ใน PowerPoint 2013. |
-| Airplane | `54` | พร้อมใช้ใน PowerPoint 2013. |
-| Origami | `55` | พร้อมใช้ใน PowerPoint 2013. |
-| Morph | `56` | เกี่ยวข้องกับการเปลี่ยนแปลง Morph (ด้วยตัวเลือก Type) ใน PowerPoint 2019. |
+| Zoom | `21` |สัมพันธ์กับการเปลี่ยนแปลง Shape (พร้อมตัวเลือก In/Out) ใน PowerPoint 2010. ดูเพิ่มเติม Warp ที่สัมพันธ์กับการเปลี่ยนแปลง Zoom ใน PowerPoint 2010. |
+| Vortex | `22` |มีใน PowerPoint 2010. |
+| Switch | `23` |มีใน PowerPoint 2010. |
+| Flip | `24` |มีใน PowerPoint 2010. |
+| Ripple | `25` |มีใน PowerPoint 2010. |
+| Honeycomb | `26` |มีใน PowerPoint 2010. |
+| Cube | `27` |มีใน PowerPoint 2010. |
+| Box | `28` |มีใน PowerPoint 2010. |
+| Rotate | `29` |มีใน PowerPoint 2010. |
+| Orbit | `30` |มีใน PowerPoint 2010. |
+| Doors | `31` |มีใน PowerPoint 2010. |
+| Window | `32` |มีใน PowerPoint 2010. |
+| Ferris | `33` |มีใน PowerPoint 2010. |
+| Gallery | `34` |มีใน PowerPoint 2010. |
+| Conveyor | `35` |มีใน PowerPoint 2010. |
+| Pan | `36` |มีใน PowerPoint 2010. |
+| Glitter | `37` |มีใน PowerPoint 2010. |
+| Warp | `38` |สัมพันธ์กับการเปลี่ยนแปลง Zoom ใน PowerPoint 2010. มีใน PowerPoint 2010. |
+| Flythrough | `39` |มีใน PowerPoint 2010. |
+| Flash | `40` |มีใน PowerPoint 2010. |
+| Shred | `41` |มีใน PowerPoint 2010. |
+| Reveal | `42` |มีใน PowerPoint 2010. |
+| WheelReverse | `43` |สัมพันธ์กับการเปลี่ยนแปลง Clock (พร้อมตัวเลือก Counterclockwise) ใน PowerPoint 2010. มีใน PowerPoint 2010. |
+| FallOver | `44` |มีใน PowerPoint 2013. |
+| Drape | `45` |มีใน PowerPoint 2013. |
+| Curtains | `46` |มีใน PowerPoint 2013. |
+| Wind | `47` |มีใน PowerPoint 2013. |
+| Prestige | `48` |มีใน PowerPoint 2013. |
+| Fracture | `49` |มีใน PowerPoint 2013. |
+| Crush | `50` |มีใน PowerPoint 2013. |
+| PeelOff | `51` |มีใน PowerPoint 2013. |
+| PageCurlDouble | `52` |มีใน PowerPoint 2013. |
+| PageCurlSingle | `53` |มีใน PowerPoint 2013. |
+| Airplane | `54` |มีใน PowerPoint 2013. |
+| Origami | `55` |มีใน PowerPoint 2013. |
+| Morph | `56` |สัมพันธ์กับการเปลี่ยนแปลง Morph (พร้อมตัวเลือก Type) ใน PowerPoint 2019. |
 
 ### ดูเพิ่มเติม
 

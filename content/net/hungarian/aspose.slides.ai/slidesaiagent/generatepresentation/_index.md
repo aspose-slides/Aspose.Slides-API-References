@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentation
 second_title: Aspose.Sildes .NET API referencia
-description: Létrehoz egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegdarabokat a szükséges nyelven.
+description: Előállít egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
 type: docs
 weight: 20
 url: /hu/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-Létrehoz egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegdarabokat a szükséges nyelven.
+Előállít egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -17,28 +17,36 @@ public IPresentation GeneratePresentation(string description,
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| description | String | A téma, ötletek, idézetek vagy szövegdarabok. |
-| presentationContentAmount | PresentationContentAmountType | Az eredményül kapott prezentáció tartalmának mennyisége. |
+| description | String | A téma, ötletek, idézetek vagy szövegrészletek. |
+| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrehozott prezentációban. |
 
 ### Kivételek
 
-| Kivétel | Feltétel |
+| kivétel | feltétel |
 | --- | --- |
-| ArgumentException | Az AI csevegési utasítás nem lehet null vagy üres. |
+| ArgumentException | AI chat utasítás nem lehet null vagy üres. |
+
+### Megjegyzések
+
+Az alábbi példa az alapértelmezett [`AsposeAIWebClient`](../../asposeaiwebclient)-t használja, amelyet a paraméter nélküli [`SlidesAIAgent`](../slidesaiagent) konstruktor hoz létre, és az Aspose saját LLM-jéhez kapcsolódik. Egy másik AI szolgáltató használatához, saját LLM biztosításához, vagy a kapcsolat testreszabásához (például a saját `HttpClient` megadásával), adjon át egy [`IAIWebClient`](../../iaiwebclient) implementációt a [`SlidesAIAgent`](../slidesaiagent) konstruktorba. Az elérhető implementációk:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lásd még
 
-* interfész [IPresentation](../../../aspose.slides/ipresentation)
-* enumeráció [PresentationContentAmountType](../../presentationcontentamounttype)
-* osztály [SlidesAIAgent](../../slidesaiagent)
-* névtér [Aspose.Slides.AI](../../slidesaiagent)
-* összeállítás [Aspose.Slides](../../../)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-Létrehoz egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegdarabokat a szükséges nyelven.
+Előállít egy prezentációpéldányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
@@ -47,23 +55,31 @@ public IPresentation GeneratePresentation(string description,
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| description | String | A téma, ötletek, idézetek vagy szövegdarabok. |
-| presentationContentAmount | PresentationContentAmountType | Az eredményül kapott prezentáció tartalmának mennyisége. |
-| presentationTemplate | IPresentation | Egy prezentáció, amelyet elrendezési és dizájn sablonként használnak, felváltva az alapértelmezett sablont. |
+| description | String | A téma, ötletek, idézetek vagy szövegrészletek. |
+| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrehozott prezentációban. |
+| presentationTemplate | IPresentation | Egy prezentáció, amely sablonként szolgál az elrendezéshez és a tervezéshez, felülírva az alapértelmezett sablont. |
 
 ### Kivételek
 
-| Kivétel | Feltétel |
+| kivétel | feltétel |
 | --- | --- |
 | ArgumentNullException | A prezentációs sablon nincs megadva. |
-| ArgumentException | Az AI csevegési utasítás nem lehet null vagy üres. |
+| ArgumentException | AI chat utasítás nem lehet null vagy üres. |
+
+### Megjegyzések
+
+Az alábbi példa az alapértelmezett [`AsposeAIWebClient`](../../asposeaiwebclient)-t használja, amelyet a paraméter nélküli [`SlidesAIAgent`](../slidesaiagent) konstruktor hoz létre, és az Aspose saját LLM-jéhez kapcsolódik. Egy másik AI szolgáltató használatához, saját LLM biztosításához, vagy a kapcsolat testreszabásához (például a saját `HttpClient` megadásával), adjon át egy [`IAIWebClient`](../../iaiwebclient) implementációt a [`SlidesAIAgent`](../slidesaiagent) konstruktorba. Az elérhető implementációk:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lásd még
 
-* interfész [IPresentation](../../../aspose.slides/ipresentation)
-* enumeráció [PresentationContentAmountType](../../presentationcontentamounttype)
-* osztály [SlidesAIAgent](../../slidesaiagent)
-* névtér [Aspose.Slides.AI](../../slidesaiagent)
-* összeállítás [Aspose.Slides](../../../)
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

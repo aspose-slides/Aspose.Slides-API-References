@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: Aspose.Sildes の .NET API リファレンス
-description: OLE Automation タイプ ライブラリ参照を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: OLE Automation 型ライブラリ参照を表します。
 type: docs
-weight: 11590
+weight: 11610
 url: /ja/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## IVbaReferenceOleTypeLib インターフェース
+## IVbaReferenceOleTypeLib インターフェイス
 
-OLE Automation タイプライブラリ参照を表します。
+OLE Automation 型ライブラリ参照を表します。
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -18,12 +18,12 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference インターフェースを返します。読み取り専用 [`IVbaReference`](../ivbareference)。 |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Automation タイプライブラリの識別子を表します。読み書き可能な String。 |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | IVbaReference インターフェイスを返します。読み取り専用 [`IVbaReference`](../ivbareference)。 |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | Automation 型ライブラリの識別子を表します。読み書き可能 String。 |
 
 ### 参照
 
-* インターフェース [IVbaReference](../ivbareference)
+* インターフェイス [IVbaReference](../ivbareference)
 * 名前空間 [Aspose.Slides.Vba](../../aspose.slides.vba)
 * アセンブリ [Aspose.Slides](../../)
 

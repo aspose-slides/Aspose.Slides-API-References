@@ -18,9 +18,9 @@ public interface IMarker
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | 取得標記填充。唯讀 [`IFormat`](../iformat)。 |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 表示線形圖、散點圖或雷達圖中的標記大小。讀寫 Int32。 |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 表示線形圖、散點圖或雷達圖中的標記樣式。讀寫 [`MarkerStyleType`](../markerstyletype)。 |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | 取得標記的填充。唯讀 [`IFormat`](../iformat)。 |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | 表示線圖、散點圖或雷達圖中的標記大小。可讀寫 Int32。 |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | 表示線圖、散點圖或雷達圖中的標記樣式。可讀寫 [`MarkerStyleType`](../markerstyletype)。 |
 
 ### 另見
 

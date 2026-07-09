@@ -3,32 +3,33 @@ title: Aspose.Slides for .NET
 type: docs
 weight: 10
 url: /de/
-keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Referenz."
-description: Aspose.Slides sind APIs zur Verwaltung von Microsoft PowerPoint®, die es Softwareanwendungen ermöglichen, PowerPoint®-Dokumente zu lesen und zu schreiben, ohne Microsoft PowerPoint® zu verwenden.
+keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
+description: Aspose.Slides sind Microsoft PowerPoint®-Verwaltungs-APIs, die es Softwareanwendungen ermöglichen, PowerPoint®-Dokumente zu lesen und zu schreiben, ohne Microsoft PowerPoint® zu verwenden.
 is_root: true
 ---
+## Namensräume
 
-## Namespaces
-
-| Namespace | Beschreibung |
+| Namensraum | Beschreibung |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | Enthält Klassen zur Arbeit mit Microsoft PowerPoint-Präsentationen, ohne Microsoft PowerPoint zu nutzen. |
+| [Aspose.Slides](./aspose.slides) | Enthält Klassen zur Arbeit mit Microsoft PowerPoint-Präsentationen ohne die Verwendung von Microsoft PowerPoint. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | Enthält Klassen, die KI-basierte Funktionen zum Analysieren und Verarbeiten von PowerPoint-Präsentationen bereitstellen. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Enthält Klassen zur Arbeit mit Animationen in Microsoft PowerPoint-Präsentationen. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Enthält Klassen zur Arbeit mit Diagrammen in Microsoft PowerPoint-Präsentationen. |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Enthält Klassen zur Arbeit mit OLE-Objekten in Microsoft PowerPoint-Präsentationen. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Enthält Klassen zur Arbeit mit verschiedenen Effekten in Microsoft PowerPoint-Präsentationen. |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | Enthält Klassen zur Arbeit mit externen Microsoft Excel-Tabellen. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Enthält Klassen zum Exportieren von Microsoft PowerPoint-Präsentationen in verschiedene Formate wie Html, Pdf, Svg, Xps und andere. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Enthält Klassen zum Exportieren von Microsoft PowerPoint-Präsentationen nach Html mit Erweiterungsprojekten. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Enthält Klassen zum Exportieren von Microsoft PowerPoint-Präsentationen nach XAML. |
 | [Aspose.Slides.Import](./aspose.slides.import) | Enthält Klassen zum Importieren von Daten in Microsoft PowerPoint-Präsentationen. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) | Enthält Klassen zur Arbeit mit Tinte. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Enthält Klassen und Methoden zur Durchführung komplexer allgemeiner Operationen auf eine Low-Code-Weise. |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Enthält Klassen zur Arbeit mit Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Enthält Klassen und Methoden zur Handhabung komplexer allgemeiner Vorgänge auf Low-Code-Weise. |
 | [Aspose.Slides.MathText](./aspose.slides.mathtext) | Enthält Klassen zur Arbeit mit mathematischem Text in Microsoft PowerPoint-Präsentationen. |
 | [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Enthält Klassen zur Verwaltung von Diashows und Folienübergängen |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Enthält Klassen zur Arbeit mit SmartArt-Objekten |
 | [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Enthält Klassen zur Arbeit mit Tabellenkalkulationsobjekten in Microsoft PowerPoint-Präsentationen. |
 | [Aspose.Slides.Theme](./aspose.slides.theme) | Enthält Klassen zur Arbeit mit verschiedenen Arten von Themen. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Enthält Hilfsklassen, die die Arbeit mit Präsentationen erleichtern. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Enthält Hilfsklassen, die bei der Arbeit mit Präsentationen helfen. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | Enthält Klassen zur Arbeit mit VBA-Makros |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Enthält Klassen, die verschiedene Arten von Warnungen darstellen |
 

@@ -1,12 +1,12 @@
 ---
 title: RevealTransition
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Effetto di transizione della diapositiva Reveal.
 type: docs
-weight: 10260
+weight: 10280
 url: /it/aspose.slides.slideshow/revealtransition/
 ---
-## Classe RevealTransition
+## RevealTransition classe
 
 Effetto di transizione della diapositiva Reveal.
 
@@ -18,15 +18,15 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | Nome | Descrizione |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Specifica se la transizione sfuma verso il nero. Lettura/scrittura Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direzione della transizione. Lettura/Scrittura [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Specifica se la transizione sfuma verso il nero. Lettura/Scrittura Boolean. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta all'uso in algoritmi di hash e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta all'uso negli algoritmi di hashing e nelle strutture dati come una tabella hash. |
 
 ### Vedi anche
 

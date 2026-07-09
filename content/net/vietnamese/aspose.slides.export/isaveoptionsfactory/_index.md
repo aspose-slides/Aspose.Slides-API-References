@@ -1,7 +1,7 @@
 ---
 title: ISaveOptionsFactory
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Cho phép tạo các thể hiện của tùy chọn lưu
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Cho phép tạo các thể hiện tùy chọn lưu
 type: docs
 weight: 4080
 url: /vi/aspose.slides.export/isaveoptionsfactory/

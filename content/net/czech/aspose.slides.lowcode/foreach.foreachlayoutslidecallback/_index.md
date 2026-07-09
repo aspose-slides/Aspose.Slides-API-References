@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes pro .NET API Reference
-description: Zpětné volání, které bude vyvoláno pro každou LayoutSlide./foreach/layoutslide v prezentaci../aspose.slides/presentation.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Callback, který bude vyvolán pro každý LayoutSlide./foreach/layoutslide v prezentaci../aspose.slides/presentation.
 type: docs
-weight: 7890
+weight: 7910
 url: /cs/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback delegate
 
-Zpětné volání, které bude vyvoláno pro každou [`LayoutSlide`](../foreach/layoutslide) v [`Presentation`](../../aspose.slides/presentation).
+Callback, který bude volán pro každý [`LayoutSlide`](../foreach/layoutslide) v [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Parametr | Typ | Popis |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Aktuální iterovaný layout slide |
-| index | Int32 | Index aktuálního layout slide |
+| layoutSlide | LayoutSlide | Aktuální iterovaný rozložení snímku |
+| index | Int32 | Index aktuálního rozložení snímku |
 
 ### Viz také
 

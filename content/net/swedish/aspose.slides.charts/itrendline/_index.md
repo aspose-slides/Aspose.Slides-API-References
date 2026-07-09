@@ -1,9 +1,9 @@
 ---
 title: ITrendline
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Klassen representerar trendlinjen för diagramserie
 type: docs
-weight: 2220
+weight: 2240
 url: /sv/aspose.slides.charts/itrendline/
 ---
 ## ITrendline gränssnitt
@@ -19,14 +19,14 @@ public interface ITrendline : IOverridableText
 | Namn | Beskrivning |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Returnerar IOverridableText-gränssnittet. Skrivskyddad [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Anger antalet kategorier (eller enheter i ett spridningsdiagram) som trendlinjen sträcker sig före data för serien som trendar. I spridnings- och icke-spridningsdiagram ska värdet vara ett icke-negativt värde. Läs/skriv Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Anger att ekvationen för trendlinjen visas på diagrammet (i samma etikett som Rsquaredvalue). Läs/skriv Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Anger att R-kvadratvärdet för trendlinjen visas på diagrammet (i samma etikett som ekvationen). Läs/skriv Boolean. |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Specificerar antalet kategorier (eller enheter på ett scatter-diagram) som trendlinjen sträcker sig före data för serien som trenderas. På scatter- och icke-scatter-diagram ska värdet vara ett icke-negativt tal. Läs/skriv Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Specificerar att ekvationen för trendlinjen visas på diagrammet (i samma etikett som Rsquaredvalue). Läs/skriv Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Specificerar att R-kvadrerat-värdet för trendlinjen visas på diagrammet (i samma etikett som ekvationen). Läs/skriv Boolean. |
 | [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Representerar formatet för trendlinjen. Läs/skriv [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Anger antalet kategorier (eller enheter i ett spridningsdiagram) som trendlinjen sträcker sig efter data för serien som trendar. I spridnings- och icke-spridningsdiagram ska värdet vara ett icke-negativt värde. Läs/skriv Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Anger värdet där trendlinjen ska korsa y-axeln. Denna egenskap ska endast stödjas när trendlinjetypen är exp, linear eller poly. Läs/skriv Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Anger ordningen för den polynomiska trendlinjen. Den ignoreras för andra trendlinjetyper. Värdet måste ligga mellan 2 och 6. Läs/skriv Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Anger perioden för trendlinjen i ett glidande medelvärde. Den ignoreras för andra trendlinjevarianter. Värdet måste ligga mellan 2 och 255. Läs/skriv Byte. |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Specificerar antalet kategorier (eller enheter på ett scatter-diagram) som trendlinjen sträcker sig efter data för serien som trenderas. På scatter- och icke-scatter-diagram ska värdet vara ett icke-negativt tal. Läs/skriv Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Specificerar värdet där trendlinjen ska korsa y-axeln. Denna egenskap stöds endast när trendlinjetypen är exp, linear eller poly. Läs/skriv Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Specificerar ordningen för den polynomiska trendlinjen. Den ignoreras för andra trendlinjetyper. Värdet måste ligga mellan 2 och 6. Läs/skriv Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Specificerar perioden för trendlinjen för ett glidande medelvärde. Den ignoreras för andra trendlinjevarianter. Värdet måste ligga mellan 2 och 255. Läs/skriv Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Representerar legendposten som är relaterad till denna trendlinje. Skrivskyddad [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Hämtar eller anger namn på trendlinjen. Läs/skriv String. |
 | [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Hämtar eller anger typ av trendlinje. Läs/skriv [`TrendlineType`](./trendlinetype). |
@@ -35,6 +35,6 @@ public interface ITrendline : IOverridableText
 
 * gränssnitt [IOverridableText](../ioverridabletext)
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
-* samling [Aspose.Slides](../../)
+* montering [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Egy dián található hangklipet képvisel.
 type: docs
-weight: 5210
+weight: 5230
 url: /hu/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame interfész
 
-Egy dián lévő hangklipet képvisel.
+Egy hangklipet képvisel egy dián.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,23 +18,23 @@ public interface IAudioFrame : IPictureFrame
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Lehetővé teszi a base IPictureFrame interfész lekérését. Csak olvasható [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Visszaadja vagy beállítja az utolsó sáv indexét. Olvasás/írás Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Visszaadja vagy beállítja az utolsó sáv időt. Olvasás/írás Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Visszaadja vagy beállítja a kezdő sáv indexét. Olvasás/írás Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Visszaadja vagy beállítja a kezdő sáv időt. Olvasás/írás Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Lekéri a hangkerethez kapcsolódó beszédfeliratok gyűjteményét. Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](../icaptionscollection)-t ad vissza, amely az összes felirat sávot tartalmazza. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Lehetővé teszi a base IPictureFrame interfész lekérdezését. Csak olvasható [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Visszaadja vagy beállítja az utolsó sáv indexet. Olvasás/írás Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Visszaadja vagy beállítja az utolsó sáv időpontját. Olvasás/írás Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Visszaadja vagy beállítja a kezdő sáv indexet. Olvasás/írás Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Visszaadja vagy beállítja a kezdő sáv időpontját. Olvasás/írás Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Lekéri a hangkerethez kapcsolódó lezárt feliratok gyűjteményét. Ez a tulajdonság csak olvasható, és egy [`ICaptionsCollection`](../icaptionscollection)-t ad vissza, amely az összes feliratsávot tartalmazza. |
 | [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Megállapítja, hogy a hang be van-e ágyazva a bemutatóba. Csak olvasható Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Visszaadja vagy beállítja a beágyazott hang objektumot. Olvasás/írás [`IAudio`](../iaudio). |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Visszaadja vagy beállítja a beágyazott hangobjektumot. Olvasás/írás [`IAudio`](../iaudio). |
 | [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Megadja a média kezdeti fade-in időtartamát ezredmásodpercben. Olvasás/írás Single. |
 | [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Megadja a média befejező fade-out időtartamát ezredmásodpercben. Olvasás/írás Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Megállapítja, hogy az AudioFrame rejtett-e. Olvasás/írás Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Visszaadja vagy beállítja az AudioFrame-hez kapcsolódó hangfájl nevét. Olvasás/írás String. |
-| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Megállapítja, hogy a hang a diákon át játszódik-e. Olvasás/írás Boolean. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Visszaadja vagy beállítja a hangfájl nevét, amely az AudioFrame-hez van kapcsolva. Olvasás/írás String. |
+| [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Megállapítja, hogy a hang a diákon keresztül játszódik-e. Olvasás/írás Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Megállapítja, hogy a hang ciklikusan ismétlődik-e. Olvasás/írás Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Visszaadja vagy beállítja a hang lejátszási módot. Olvasás/írás [`AudioPlayModePreset`](../audioplaymodepreset). |
-| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Megállapítja, hogy a hang automatikusan visszatekerődik-e a lejátszás után. Olvasás/írás Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Megadja a lejátszás során a média végéről eltávolítandó időtartamot ezredmásodpercben. Olvasás/írás Single. |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Visszaadja vagy beállítja a hang lejátszási módját. Olvasás/írás [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Megállapítja, hogy a hang automatikusan visszatekerődik-e az elejére lejátszás után. Olvasás/írás Boolean. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Megadja a lejátszás során a média végéből eltávolítandó időtartamot ezredmásodpercben. Olvasás/írás Single. |
 | [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Megadja a lejátszás során a média elejéről eltávolítandó időtartamot ezredmásodpercben. Olvasás/írás Single. |
 | [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Visszaadja vagy beállítja a hang hangerőt. Olvasás/írás [`AudioVolumeMode`](../audiovolumemode). |
 | [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Visszaadja vagy beállítja a hang hangerőt százalékban. Olvasás/írás Single. |

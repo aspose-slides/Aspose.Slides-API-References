@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो एक बाय-लेवल काला/सफेद प्रभाव का प्रतिनिधित्व करता है। इनपुट रंग जिनकी चमक निर्दिष्ट थ्रेशोल्ड मान से कम होती है, उन्हें काले में बदल दिया जाता है। इनपुट रंग जिनकी चमक निर्दिष्ट मान के बराबर या अधिक होती है, उन्हें सफेद में सेट किया जाता है। अल्फ़ा प्रभाव मान इस प्रभाव से अप्रभावित रहते हैं।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Bi-Level काले/सफ़ेद प्रभाव का प्रतिनिधित्व करता है। इनपुट रंग जिनकी चमक निर्दिष्ट थ्रेशहोल्ड मान से कम है, उन्हें काले में बदल दिया जाता है। इनपुट रंग जिनकी चमक निर्दिष्ट मान से बराबर या अधिक है, उन्हें सफ़ेद में सेट किया जाता है। अल्फा प्रभाव मान इस प्रभाव से अप्रभावित रहते हैं।
 type: docs
 weight: 3170
 url: /hi/aspose.slides.effects/ibileveleffectivedata/
 ---
-## IBiLevelEffectiveData इंटरफ़ेस
+## IBiLevelEffectiveData interface
 
-एक अपरिवर्तनीय वस्तु जो एक Bi-Level (काला/सफेद) प्रभाव का प्रतिनिधित्व करती है। प्रविष्ट रंग जिनकी ल्यूमिनेंस निर्दिष्ट थ्रेशोल्ड मान से कम है, उन्हें काले में बदल दिया जाता है। प्रविष्ट रंग जिनकी ल्यूमिनेंस निर्दिष्ट मान के बराबर या अधिक है, उन्हें सफेद में सेट किया जाता है। अल्फ़ा प्रभाव मान इस प्रभाव से प्रभावित नहीं होते।
+स्थिर अप्रिवर्तनीय ऑब्जेक्ट जो Bi-Level (काला/सफ़ेद) प्रभाव का प्रतिनिधित्व करता है। इनपुट रंग जिनकी चमक निर्दिष्ट थ्रेशहोल्ड मान से कम है, उन्हें काले में बदल दिया जाता है। इनपुट रंग जिनकी चमक निर्दिष्ट मान से बराबर या अधिक है, उन्हें सफ़ेद में सेट किया जाता है। इस प्रभाव से अल्फा प्रभाव मान अपरिवर्तित रहते हैं।
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | थ्रेशोल्ड मान लौटाता है। केवल-पढ़ने योग्य Single। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | थ्रेशहोल्ड मान लौटाता है। केवल-पढ़ने योग्य Single। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

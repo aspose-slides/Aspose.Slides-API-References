@@ -1,14 +1,14 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: चार्ट के लेजेंड गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: चार्ट की लेजेंड गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 2130
 url: /hi/aspose.slides.charts/ilegend/
 ---
 ## ILegend इंटरफ़ेस
 
-चार्ट के लेजेंड गुणों का प्रतिनिधित्व करता है।
+चार्ट की लेजेंड गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer)। |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | बेस ILayoutable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ILayoutable`](../ilayoutable)। |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | लेजेंड एंट्री प्राप्त करता है। केवल पढ़ने योग्य [`ILegendEntryCollection`](../ilegendentrycollection)। |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | लेजेंड का फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat)। |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | निर्धारित करता है कि क्या अन्य चार्ट तत्वों को लेजेंड के ऊपर ओवरलैप करने की अनुमति होनी चाहिए। पढ़ने/लिखने योग्य Boolean। |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | चार्ट पर लेजेंड की स्थिति निर्दिष्ट करता है। X, Y, Width, Heigt प्रॉपर्टियों के Non-NaN मान इस प्रॉपर्टी के प्रभाव को अधिलेखित करते हैं। पढ़ने/लिखने योग्य [`LegendPositionType`](../legendpositiontype)। |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | बेस ILayoutable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | लेजेंड प्रविष्टियों को प्राप्त करता है। केवल-पढ़ने योग्य [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | लेजेंड का स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | निर्धारित करता है कि क्या अन्य चार्ट तत्वों को लेजेंड के ऊपर ओवरलैप करने की अनुमति होनी चाहिए। पढ़ने/लिखने योग्य Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | चार्ट पर लेजेंड की स्थिति निर्दिष्ट करता है। X, Y, Width, Heigt प्रॉपर्टियों के Non-NaN मान इस प्रॉपर्टी के प्रभाव को ओवरराइड करते हैं। पढ़ने/लिखने योग्य [`LegendPositionType`](../legendpositiontype). |
 
 ### संबंधित देखें
 

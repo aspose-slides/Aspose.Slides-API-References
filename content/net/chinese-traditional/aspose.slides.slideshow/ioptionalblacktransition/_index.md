@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 可選的黑色投影片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 可選的黑色投影片轉場效果。
 type: docs
 weight: 10140
 url: /zh-hant/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition 介面
 
-可選的黑色投影片過渡效果。
+可選的黑色投影片轉場效果。
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 | 名稱 | 說明 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此屬性指定過渡是否會從黑色畫面開始（然後在黑色畫面上過渡到新投影片）。可讀寫 Boolean。 |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | 此屬性指定轉場是否會從黑色畫面開始（然後在黑色畫面上過渡至新投影片）。可讀寫 Boolean。 |
 
 ### 另請參閱
 

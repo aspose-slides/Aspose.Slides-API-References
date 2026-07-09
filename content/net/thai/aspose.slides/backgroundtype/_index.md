@@ -6,9 +6,9 @@ type: docs
 weight: 940
 url: /th/aspose.slides/backgroundtype/
 ---
-## BackgroundType การนับ
+## enum BackgroundType
 
-กำหนดแหล่งที่มาของการเติมพื้นหลังสไลด์
+กำหนดแหล่งที่มาของการเติมพื้นหลังสไลด์.
 
 ```csharp
 public enum BackgroundType : sbyte

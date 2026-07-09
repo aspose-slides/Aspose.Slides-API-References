@@ -1,9 +1,9 @@
 ---
 title: ICaptionsCollection
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta una raccolta dei sottotitoli chiusi.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di sottotitoli chiusi.
 type: docs
-weight: 5420
+weight: 5440
 url: /it/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interfaccia
@@ -18,18 +18,18 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Solo lettura Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Restituisce i sottotitoli chiusi all&#39;indice specificato. Solo lettura [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | Restituisce il numero di elementi nella raccolta. Sola lettura Int32. |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Restituisce i sottotitoli chiusi all'indice specificato. Sola lettura [`ICaptions`](../icaptions). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Aggiunge i sottotitoli chiusi WebVTT alla fine della raccolta da un flusso. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Aggiunge i sottotitoli chiusi WebVTT alla fine della raccolta da uno stream. |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Aggiunge i sottotitoli chiusi WebVTT alla fine della raccolta. |
 | [Clear](../../aspose.slides/icaptionscollection/clear)() | Rimuove tutti i sottotitoli chiusi dalla raccolta. |
 | [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Rimuove i sottotitoli chiusi specificati dalla raccolta. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Rimuove i sottotitoli chiusi all&#39;indice specificato. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Rimuove i sottotitoli chiusi all'indice specificato. |
 
 ### Vedi anche
 

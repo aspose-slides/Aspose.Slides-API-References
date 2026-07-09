@@ -18,9 +18,9 @@ public enum Conformance
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Ecma376_2006 | `0` | Specificeert dat het document voldoet aan de ECMA376:2006. |
-| Iso29500_2008_Transitional | `1` | Specificeert dat het document voldoet aan de ISO/IEC 29500:2008 Transitional conformiteitsklasse. |
-| Iso29500_2008_Strict | `2` | Specificeert dat het document voldoet aan de ISO/IEC 29500:2008 Strict conformiteitsklasse. |
+| Ecma376_2006 | `0` | Specificeert dat het document voldoet aan ECMA376:2006. |
+| Iso29500_2008_Transitional | `1` | Specificeert dat het document voldoet aan de ISO/IEC 29500:2008 Transitional-conformiteitsklasse. |
+| Iso29500_2008_Strict | `2` | Specificeert dat het document voldoet aan de ISO/IEC 29500:2008 Strict-conformiteitsklasse. |
 
 ### Zie ook
 

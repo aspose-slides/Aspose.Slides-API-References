@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha ถูกกลับโดยการลบจาก 100.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบของ Alpha จะถูกกลับโดยการลบจาก 100.
 type: docs
 weight: 3080
 url: /th/aspose.slides.effects/ialphainverse/
 ---
 ## IAlphaInverse อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบ (Alpha) ถูกกลับโดยการลบจาก 100%.
+แสดงถึงเอฟเฟกต์ Alpha Inverse. ค่าความทึบ (opacity) ของ Alpha จะถูกกลับโดยการลบจาก 100%.
 
 ```csharp
 public interface IAlphaInverse : IAccessiblePVIObject<IAlphaInverseEffectiveData>, 

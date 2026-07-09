@@ -1,6 +1,6 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示顏色轉換操作的集合。
 type: docs
 weight: 5510
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection 介面
 
-表示顏色轉換操作的集合。
+表示一個顏色轉換操作的集合。
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -17,19 +17,19 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 返回或設定指定索引處的操作。 讀/寫 [`IColorOperation`](../icoloroperation)。 |
+| [Item](../../aspose.slides/icoloroperationcollection/item) { get; set; } | 返回或設定指定索引處的操作。可讀寫 [`IColorOperation`](../icoloroperation)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 將新操作新增至集合的末端。 |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 將新操作新增至集合的末端。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 在集合的末尾新增一個操作。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 在集合的末尾新增一個操作。 |
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | 移除所有顏色操作。 |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 將新操作插入集合。 |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 將新操作插入集合。 |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 將新操作插入集合中。 |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 將新操作插入集合中。 |
 | [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | 從集合中移除顏色操作。 |
 
 ### 另見

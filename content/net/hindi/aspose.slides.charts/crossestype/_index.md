@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है कि अक्ष कहाँ पार होगा।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: निर्धारित करता है कि अक्ष कहाँ कटेगा।
 type: docs
 weight: 1540
 url: /hi/aspose.slides.charts/crossestype/
 ---
-## CrossesType एन्यूमरेशन
+## CrossesType एन्युमरेशन
 
-निर्धारित करता है कि अक्ष कहाँ पार होगा।
+निर्धारित करता है कि अक्ष कहाँ कटेगा।
 
 ```csharp
 public enum CrossesType
@@ -18,11 +18,11 @@ public enum CrossesType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | श्रेणी अक्ष शून्य बिंदु पर (यदि संभव हो) मान अक्ष को पार करता है, या न्यूनतम मान (यदि न्यूनतम शून्य से बड़ा है) या अधिकतम (यदि अधिकतम शून्य से कम है)। |
-| Maximum | `1` | अक्ष अधिकतम मान पर पार करता है। |
-| Custom | `2` | CrossAt संपत्ति से कस्टम मान |
+| AxisCrossesAtZero | `0` | यदि संभव हो तो मान अक्ष के शून्य बिंदु पर श्रेणी अक्ष कटता है, अन्यथा न्यूनतम मान (यदि न्यूनतम शून्य से बड़ा है) या अधिकतम (यदि अधिकतम शून्य से कम है)। |
+| Maximum | `1` | अक्ष अधिकतम मान पर कटता है। |
+| Custom | `2` | प्रॉपर्टी CrossAt से कस्टम मान |
 
-### संबंधित देखें
+### अधिक देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

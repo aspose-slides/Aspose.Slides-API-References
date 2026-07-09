@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de sombra predefinido.
 type: docs
-weight: 3460
+weight: 3480
 url: /pt/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow interface
 
-Representa um efeito de sombra predefinida.
+Representa um efeito de Sombra Predefinida.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -23,7 +23,7 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Direção da sombra. Leitura/gravação Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Distância da sombra. Leitura/gravação Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. Leitura/gravação [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Predefinição. Leitura/gravação [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Cor da sombra. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Ver também

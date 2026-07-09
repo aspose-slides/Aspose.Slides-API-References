@@ -1,9 +1,9 @@
 ---
 title: ISVGOptions
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili opsi SVG.
 type: docs
-weight: 4040
+weight: 4060
 url: /id/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions antarmuka
@@ -19,20 +19,20 @@ public interface ISVGOptions : ISaveOptions
 | Nama | Deskripsi |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Mengembalikan antarmuka ISaveOptions. Hanya-baca [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Bendera Boolean menunjukkan apakah bagian yang dipotong tetap menjadi bagian dari dokumen. Jika true bagian yang dipotong akan dihapus, jika false mereka akan diserialkan dalam dokumen (yang dapat menyebabkan file lebih besar) Baca/tulis Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Flag boolean yang menunjukkan apakah bagian yang dipotong tetap menjadi bagian dari dokumen. Jika true, bagian yang dipotong akan dihapus, jika false mereka akan diserialkan dalam dokumen (yang dapat menyebabkan file lebih besar) Baca/tulis Boolean. |
 | [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Menentukan apakah teks 3D dinonaktifkan dalam SVG. Baca/tulis Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Mendapatkan atau mengatur nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika diatur ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini diatur ke `false`. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Mendapatkan atau menetapkan nilai yang menunjukkan apakah teks dirender tanpa menggunakan ligatur. Ketika disetel ke `true`, ligatur akan dinonaktifkan dalam output yang dirender. Secara default, properti ini disetel ke `false`. |
 | [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Menonaktifkan pemisahan gradien FromCornerX dan FromCenter. Baca/tulis Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 tidak memiliki kemampuan untuk mendefinisikan inset untuk penanda. Mesin penulisan SVG Aspose.Slides memiliki solusi untuk masalah itu: ia memotong ujung garis dengan panah, sehingga garis tidak tumpang tindih dengan penanda. Opsi ini mematikan perilaku tersebut. Baca/tulis Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 tidak memiliki kemampuan untuk mendefinisikan inset untuk penanda. Mesin penulisan SVG Aspose.Slides memiliki solusi untuk masalah tersebut: ia memotong ujung garis dengan panah, sehingga garis tidak menimpa penanda. Opsi ini mematikan perilaku tersebut. Baca/tulis Boolean. |
 | [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Menentukan cara menangani font yang dimuat secara eksternal. Baca/tulis [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
 | [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Hanya-baca [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Menentukan kualitas enkoding JPEG. Baca/tulis Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Mengembalikan atau mengatur batas resolusi rendah untuk rasterisasi metafile. Baca/tulis Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Mewakili tingkat kompresi gambar Baca/tulis [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Mengembalikan dan mengatur antarmuka callback yang memungkinkan pengguna mengontrol konversi bentuk. Baca/tulis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Menentukan apakah melakukan rotasi yang ditentukan pada bentuk saat merender atau tidak. Baca/tulis Boolean. Nilai default adalah true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Menentukan apakah bingkai teks akan disertakan dalam area render atau tidak. Baca/tulis Boolean. Nilai default adalah false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Menentukan apakah teks pada slide akan disimpan sebagai grafik. Baca/tulis Boolean. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Mengembalikan atau menetapkan batas resolusi rendah untuk rasterisasi metafile. Baca/tulis Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Mewakili tingkat kompresi gambar. Baca/tulis [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Mengembalikan dan menetapkan antarmuka callback yang memungkinkan pengguna mengontrol konversi bentuk. Baca/tulis [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Menentukan apakah melakukan rotasi khusus pada bentuk saat merender atau tidak. Baca/tulis Boolean. Nilai default adalah true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Menentukan apakah bingkai teks akan disertakan dalam area perenderan atau tidak. Baca/tulis Boolean. Nilai default adalah false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Menentukan apakah teks pada slide akan disimpan sebagai grafis. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

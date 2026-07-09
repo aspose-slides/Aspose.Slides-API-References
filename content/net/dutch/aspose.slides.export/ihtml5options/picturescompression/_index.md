@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het compressieniveau van de afbeeldingen voor Lezen/schrijven PicturesCompressionaspose.slides.export/ihtml5options/picturescompression.
+description: Stelt het compressieniveau van afbeeldingen voor Lezen/Schrijven PicturesCompressionaspose.slides.export/ihtml5options/picturescompression.
 type: docs
 weight: 70
 url: /nl/aspose.slides.export/ihtml5options/picturescompression/
 ---
 ## IHtml5Options.PicturesCompression eigenschap
 
-Stelt het compressieniveau van de afbeeldingen voor Lezen/schrijven `PicturesCompression`.
+Stelt het compressieniveau van afbeeldingen voor Lezen/Schrijven `PicturesCompression`.
 
 ```csharp
 public PicturesCompression PicturesCompression { get; set; }

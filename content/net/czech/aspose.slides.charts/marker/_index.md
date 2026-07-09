@@ -3,10 +3,10 @@ title: Marker
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje značku grafu.
 type: docs
-weight: 2310
+weight: 2330
 url: /cs/aspose.slides.charts/marker/
 ---
-## Marker třída
+## Třída Marker
 
 Představuje značku grafu.
 
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Název | Popis |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Získá nebo nastaví výplň značky. Pouze ke čtení [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Reprezentuje velikost značky v čárovém grafu, bodovém grafu nebo radaru grafu. Čtení/zápis Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Reprezentuje styl značky v čárovém grafu, bodovém grafu nebo radaru grafu. Čtení/zápis [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Získává nebo nastavuje výplň značky. Pouze pro čtení [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Představuje velikost značky v čárovém grafu, rozptylovém grafu nebo radarovém grafu. Čtení/Zápis Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Představuje styl značky v čárovém grafu, rozptylovém grafu nebo radarovém grafu. Čtení/Zápis [`MarkerStyleType`](../markerstyletype). |
 
 ### Viz také
 

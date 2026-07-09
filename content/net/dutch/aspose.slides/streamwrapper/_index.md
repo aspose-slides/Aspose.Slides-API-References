@@ -1,7 +1,7 @@
 ---
 title: StreamWrapper
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Aspose.IO.Stream wrapper voor COM-interface.
+description: Aspose.IO.Stream wrapper voor de COM-interface.
 type: docs
 weight: 10750
 url: /nl/aspose.slides/streamwrapper/
@@ -18,12 +18,12 @@ public class StreamWrapper : IStreamWrapper
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Staat toe de basis IDisposable-interface op te halen. Alleen-lezen IDisposable. |
+| [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Staat toe om de basale IDisposable-interface op te halen. Alleen-lezen IDisposable. |
 | [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Haalt een waarde op die aangeeft of de huidige stream lezen ondersteunt. Alleen-lezen Boolean. |
 | [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Haalt een waarde op die aangeeft of de huidige stream zoeken ondersteunt. Alleen-lezen Boolean. |
 | [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Haalt een waarde op die aangeeft of de huidige stream schrijven ondersteunt. Alleen-lezen Boolean. |
 | [Length](../../aspose.slides/streamwrapper/length) { get; } | Haalt de lengte in bytes van de stream op. Alleen-lezen Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Haalt de positie binnen de huidige stream op of stelt deze in. Alleen-lezen Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Haalt of stelt de positie binnen de huidige stream in. Alleen-lezen Int64. |
 | [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Haalt een stream op. Alleen-lezen Stream. |
 
 ## Methoden
@@ -31,13 +31,13 @@ public class StreamWrapper : IStreamWrapper
 | Naam | Beschrijving |
 | --- | --- |
 | [Close](../../aspose.slides/streamwrapper/close)() | Sluit de huidige stream en geeft alle bronnen vrij. |
-| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Verwijdert het object. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Wis alle buffers voor deze stream en zorgt ervoor dat alle gebufferde gegevens naar het onderliggende apparaat worden geschreven. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Leest een reeks bytes uit de huidige stream en verplaatst de positie in de stream met het aantal gelezen bytes. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Leest een byte uit de stream en verplaatst de positie in de stream met één byte, of retourneert -1 indien het einde van de stream is bereikt. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Stelt de positie binnen de huidige stream in. |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Schrijft een reeks bytes naar de huidige stream en verplaatst de huidige positie in deze stream met het aantal geschreven bytes. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Schrijft een byte naar de huidige positie in de stream en verplaatst de positie in de stream met één byte. |
+| [Dispose](../../aspose.slides/streamwrapper/dispose)() | Disposeert het object. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Leegt alle buffers voor deze stream en zorgt ervoor dat alle gebufferde gegevens naar het onderliggende apparaat worden geschreven. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Leest een reeks bytes van de huidige stream en verhoogt de positie binnen de stream met het aantal gelezen bytes. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Leest een byte van de stream en verhoogt de positie binnen de stream met één byte, of retourneert -1 als het einde van de stream is bereikt. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Stelt de positie binnen de huidige stream in |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Schrijft een reeks bytes naar de huidige stream en verhoogt de huidige positie binnen deze stream met het aantal geschreven bytes. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Schrijft een byte naar de huidige positie in de stream en verhoogt de positie binnen de stream met één byte. |
 
 ### Zie ook
 

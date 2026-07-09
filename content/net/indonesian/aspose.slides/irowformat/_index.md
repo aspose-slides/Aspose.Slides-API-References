@@ -1,9 +1,9 @@
 ---
 title: IRowFormat
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili format baris tabel.
 type: docs
-weight: 6850
+weight: 6870
 url: /id/aspose.slides/irowformat/
 ---
 ## IRowFormat antarmuka
@@ -18,7 +18,7 @@ public interface IRowFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Mengambil properti pemformatan baris tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
+| [GetEffective](../../aspose.slides/irowformat/geteffective)() | Mendapatkan properti pemformatan baris tabel yang efektif dengan pewarisan dan gaya tabel yang diterapkan. |
 
 ### Lihat Juga
 

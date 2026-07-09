@@ -1,14 +1,14 @@
 ---
 title: ModernComment
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드의 댓글을 나타냅니다.
+description: 슬라이드에 대한 주석을 나타냅니다.
 type: docs
 weight: 9090
 url: /ko/aspose.slides/moderncomment/
 ---
 ## ModernComment 클래스
 
-슬라이드의 댓글을 나타냅니다.
+슬라이드에 대한 주석을 나타냅니다.
 
 ```csharp
 public sealed class ModernComment : Comment, IModernComment
@@ -18,22 +18,22 @@ public sealed class ModernComment : Comment, IModernComment
 
 | 이름 | 설명 |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 댓글의 작성자를 반환합니다. 읽기 전용 [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 댓글 작성 시간을 반환하거나 설정합니다. 이 속성을 MinValue 로 설정하면 댓글 시간이 설정되지 않은 것입니다. 읽기/쓰기 DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 상위 댓글을 가져오거나 설정합니다. 읽기/쓰기 [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | 슬라이드에서 댓글의 위치를 반환하거나 설정합니다. 읽기/쓰기 PointF. |
-| [Shape](../../aspose.slides/moderncomment/shape) { get; } | 댓글과 연결된 도형을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 댓글의 상위 슬라이드를 반환하거나 설정합니다. 읽기 전용 [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | 댓글의 상태를 가져오거나 설정합니다. 읽기/쓰기 [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | 슬라이드 댓글의 일반 텍스트를 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | 댓글이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 길이를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | 댓글이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 시작 위치를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
+| [Author](../../aspose.slides/comment/author) { get; } | 주석의 작성자를 반환합니다. 읽기 전용 [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 주석 작성 시간을 반환하거나 설정합니다. 이 속성을 MinValue로 설정하면 주석 시간이 설정되지 않은 것입니다. 읽기/쓰기 DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 부모 주석을 가져오거나 설정합니다. 읽기/쓰기 [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | 주석이 슬라이드에 표시되는 위치를 반환하거나 설정합니다. 읽기/쓰기 PointF. |
+| [Shape](../../aspose.slides/moderncomment/shape) { get; } | 주석과 연결된 도형을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | 주석의 상위 슬라이드를 반환하거나 설정합니다. 읽기 전용 [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | 주석의 상태를 가져오거나 설정합니다. 읽기/쓰기 [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | 슬라이드 주석의 일반 텍스트를 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | 주석이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 길이를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | 주석이 AutoShape와 연결된 경우 텍스트 프레임에서 텍스트 선택 시작 위치를 가져오거나 설정합니다. 읽기/쓰기 Int32. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 상위 컬렉션에서 댓글 및 해당 댓글의 모든 답글을 제거합니다. |
+| [Remove](../../aspose.slides/comment/remove)() | 주석과 해당 주석의 모든 회신을 상위 컬렉션에서 제거합니다. |
 
 ### 예제
 

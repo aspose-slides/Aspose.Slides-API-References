@@ -1,14 +1,14 @@
 ---
 title: IFontScheme
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tema tarafından tanımlanan yazı tiplerini depolar.
+description: Tema tanımlı yazı tiplerini depolar.
 type: docs
-weight: 11230
+weight: 11250
 url: /tr/aspose.slides.theme/ifontscheme/
 ---
-## IFontScheme arayüzü
+## IFontScheme interface
 
-Tema tarafından tanımlanan yazı tiplerini depolar.
+Tema tanımlı yazı tiplerini depolar.
 
 ```csharp
 public interface IFontScheme
@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | Ad | Açıklama |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Slaytın "heading" kısmı için yazı tipleri koleksiyonunu döndürür. Yalnızca okunabilir [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Slaytın "body" kısmı için yazı tipleri koleksiyonunu döndürür. Yalnızca okunabilir [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Yazı tipi şeması adını döndürür. Okunabilir/Yazılabilir String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | Slaytın "heading" bölümü için yazı tipleri koleksiyonunu döndürür. Yalnızca okuma [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | Slaytın "body" bölümü için yazı tipleri koleksiyonunu döndürür. Yalnızca okuma [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | Yazı tipi şeması adını döndürür. Okuma/yazma String. |
 
 ### Ayrıca Bakınız
 

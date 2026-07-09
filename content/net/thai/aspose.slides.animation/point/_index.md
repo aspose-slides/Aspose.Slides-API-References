@@ -1,33 +1,33 @@
 ---
 title: Point
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าจุดแอนิเมชัน.
+description: เป็นตัวแทนของจุดแอนิเมชัน.
 type: docs
 weight: 720
 url: /th/aspose.slides.animation/point/
 ---
 ## คลาส Point
 
-แทนค่าจุดแอนิเมชัน
+เป็นตัวแทนของจุดแอนิเมชัน.
 
 ```csharp
 public class Point : IPoint
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Point](point#constructor)() | ตัวสร้างเริ่มต้น. |
-| [Point](point#constructor_1)(float, object, string) | สร้างจุดแอนิเมชันด้วยเวลา, ค่าและสูตร. |
+| [Point](point#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [Point](point#constructor_1)(float, object, string) | สร้างจุดแอนิเมชันด้วยเวลา, ค่า และสูตร. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | สูตรภายในค่า, แอตทริบิวต์ from, to, by สามารถประกอบด้วยสิ่งต่อไปนี้: ตัวดำเนินการคณิตศาสตร์มาตรฐาน: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) ค่าคงที่: ‘pi’ ‘e’ ตัวดำเนินการเงื่อนไข: ‘abs’, ‘min’, ‘max’, ‘?’ (if) ตัวดำเนินการเปรียบเทียบ: '==', '&gt;=', '', '!=', '!' ตัวดำเนินการตรีโกณมิติ: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ ลอการิทึมธรรมชาติ ‘ln()’ การอ้างอิงคุณสมบัติ (คุณสมบัติที่โฮสต์สนับสนุน) ตัวอย่าง: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" อ่าน/เขียน String. |
-| [Time](../../aspose.slides.animation/point/time) { get; set; } | แทนค่าช่วงเวลา. อ่าน/เขียน Single. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | แทนค่าจุด. เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | สูตรภายใน values, from, to, by attributes สามารถประกอบด้วยสิ่งต่อไปนี้: ตัวดำเนินการคณิตศาสตร์มาตรฐาน: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) ค่าคงที่: ‘pi’ ‘e’ ตัวดำเนินการเงื่อนไข: ‘abs’, ‘min’, ‘max’, ‘?’ (if) ตัวดำเนินการเปรียบเทียบ: '==', '&gt;=', '', '!=', '!' ตัวดำเนินการตรีโกณมิติ: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ ลอการิทึมธรรมชาติ ‘ln()’ การอ้างอิงคุณสมบัติ (คุณสมบัติที่โฮสต์สนับสนุน) ตัวอย่างเช่น: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" อ่าน/เขียน String. |
+| [Time](../../aspose.slides.animation/point/time) { get; set; } | แสดงค่าของเวลา. อ่าน/เขียน Single. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | แสดงค่าจุด. ได้เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
 
 ### ดูเพิ่มเติม
 

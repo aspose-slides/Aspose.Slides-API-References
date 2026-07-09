@@ -1,6 +1,6 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 글리터 슬라이드 전환 효과.
 type: docs
 weight: 10100
@@ -20,9 +20,9 @@ public interface IGlitterTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | 전환 방향. 읽기/쓰기 [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 전환 중에 사용되는 시각 요소의 형태를 지정합니다. 읽기/쓰기 [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | 전환 중에 사용되는 시각 효과의 모양을 지정합니다. 읽기/쓰기 [`TransitionPattern`](../transitionpattern). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

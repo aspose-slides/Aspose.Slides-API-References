@@ -1,6 +1,6 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Aspose.Sildes cho .NET Tham chiếu API
 description: Các loại phân số
 type: docs
 weight: 8710
@@ -18,10 +18,10 @@ public enum MathFractionTypes
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Bar | `1` | Bar Phân số |
-| Skewed | `2` | Skewed |
-| Linear | `3` | Linear Phân số |
-| NoBar | `4` | No-Bar Phân số (Ngăn xếp) |
+| Bar | `1` | Phân số dạng thanh |
+| Skewed | `2` | Xiên |
+| Linear | `3` | Phân số tuyến tính |
+| NoBar | `4` | Phân số không có thanh (Stack) |
 
 ### Xem thêm
 

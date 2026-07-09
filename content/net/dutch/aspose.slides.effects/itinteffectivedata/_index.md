@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Tint-effect vertegenwoordigt. Verschuift de kleureffectwaarden naar of van de tint met de gespecificeerde hoeveelheid.
+description: Onveranderlijk object dat een Tint-effect vertegenwoordigt. Verschuift kleureffectwaarden naar/van de tint met de opgegeven hoeveelheid.
 type: docs
 weight: 3550
 url: /nl/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interface
 
-Onveranderbaar object dat een Tint-effect vertegenwoordigt. Verschuift de kleureffectwaarden naar of van de tint met de gespecificeerde hoeveelheid.
+Onveranderlijk object dat een Tint-effect vertegenwoordigt. Verschuift kleureffectwaarden naar/van de tint met de opgegeven hoeveelheid.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Retourneert de hoeveelheid van het effect. Alleen-lezen Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Retourneert tint. Alleen-lezen Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Geeft het effectbedrag terug. Alleen-lezen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Stelt u in staat de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Geeft kleurtoon terug. Alleen-lezen Single. |
 
 ### Zie ook
 

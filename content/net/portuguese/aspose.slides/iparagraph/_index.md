@@ -1,14 +1,14 @@
 ---
 title: IParagraph
-second_title: Aspose.Sildes para a Referência de API .NET
-description: Representa um parágrafo de um texto.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa um parágrafo de texto.
 type: docs
-weight: 6540
+weight: 6560
 url: /pt/aspose.slides/iparagraph/
 ---
 ## IParagraph interface
 
-Representa um parágrafo de um texto.
+Representa um parágrafo de texto.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -19,10 +19,10 @@ public interface IParagraph : ISlideComponent
 | Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | Permite obter a interface base ISlideComponent. Somente leitura [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Especifica as propriedades da porção que devem ser usadas se outra porção for inserida após a última. |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Retorna o objeto de formatação deste parágrafo. Somente leitura [`IParagraphFormat`](../iparagraphformat). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | Especifica as propriedades da porção que devem ser usadas se outra porção for inserida depois da última. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | Retorna o objeto de formatação para este parágrafo. Somente leitura [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | Retorna a coleção de porções de texto. Somente leitura [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Obtém ou define o texto simples de um parágrafo. Leitura/gravação String. |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | Obtém ou define o texto simples de um parágrafo. Leitura/Gravação String. |
 
 ## Métodos
 
@@ -30,9 +30,9 @@ public interface IParagraph : ISlideComponent
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | Obtém o número de linhas em um parágrafo. |
 | [GetRect](../../aspose.slides/iparagraph/getrect)() | Obtém as coordenadas do retângulo que delimita o parágrafo. O retângulo inclui todas as linhas de texto no parágrafo, incluindo as vazias. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Une execuções com a mesma formatação. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | Mescla sequências com a mesma formatação. |
 
-### Ver também
+### Veja Também
 
 * interface [ISlideComponent](../islidecomponent)
 * namespace [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een basisklasse voor een collectie van lay-outslides.
+description: Stelt een basisklasse voor voor een verzameling lay-outdia's.
 type: docs
 weight: 7650
 url: /nl/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection klasse
 
-Stelt een basisklasse voor een collectie van lay-outslides voor.
+Stelt een basisklasse voor voor een verzameling lay-outdia's.
 
 ```csharp
 public class LayoutSlideCollection : ILayoutSlideCollection
@@ -16,22 +16,22 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Geeft het aantal lay-outslides in een collectie terug. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Geeft het aantal lay-outdia's in een collectie terug. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Geeft de lay-outslide op index terug. Alleen-lezen [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Geeft een synchronisatieroot terug. Alleen-lezen Object. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Geeft de lay-outdia op index terug. Alleen-lezen [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
 
 ## Methoden
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Geeft de eerste lay-outslide van het opgegeven type terug. Een type van lay-outslide om te vinden.[`LayoutSlide`](../layoutslide) met het opgegeven type of null als er geen lay-outs gevonden zijn. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Geeft een enumerator terug die door de collectie itereert. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Geeft de eerste lay-outdia van het opgegeven type terug. Een type lay-outdia om te zoeken.[`LayoutSlide`](../layoutslide) met opgegeven type of null als er geen lay-outs gevonden zijn. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Geeft een enumerator terug die door de collectie iterereert. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Verwijdert een lay-out uit de collectie. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outslides (lay-outslides waarvan HasDependingSlides onwaar is). |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Verwijdert ongebruikte lay-outdia's (lay-outdia's waarvan HasDependingSlides false is). |
 
 ### Zie ook
 

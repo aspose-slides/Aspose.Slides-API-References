@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 組み合わせ可能なシリーズのグループのコレクションを表します。
+description: 結合可能なシリーズのグループのコレクションを表します。
 type: docs
-weight: 1940
+weight: 1960
 url: /ja/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection インターフェイス
 
-組み合わせ可能なシリーズのグループのコレクションを表します。
+結合可能なシリーズのグループのコレクションを表します。
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -18,11 +18,11 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 | 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | シリーズでシリーズ グループを取得します。（インデクサーが 2 つ） |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | シリーズでシリーズグループを取得します。(インデクサーが2つ) |
 
 ### 備考
 
-1) 各シリーズ グループは、組み合わせ可能なタイプのシリーズを含みます。組み合わせ可能なシリーズ タイプのグループは CombinableSeriesTypesGroup enum で定義および記述されています。また、各シリーズ グループは、一次軸または二次軸のいずれかにプロットされるシリーズを含みます（同一グループ内で両方にプロットされることはありません）。したがって、シリーズのグループ化の原則は、前述のタイプ グループと一次/二次プロット タイプによるグループ化です。2) シリーズ グループは、グループ内の各シリーズで共通のいくつかのシリーズ プロパティ（「シリーズ グループ プロパティ」）を含みます。ChartSeriesGroup クラスの「シリーズ グループ プロパティ」は読み書き可能です。「シリーズ グループ プロパティ」の各項目は、ChartSeries クラスで読み取り専用の投影を持つことができます。
+1) 各シリーズグループは、結合可能な型のシリーズを含みます。結合可能なシリーズ型のグループは、CombinableSeriesTypesGroup 列挙体で定義および記述されています。また、各シリーズグループは、一次軸または二次軸のいずれかにプロットされるシリーズを含みます（同一グループ内で両方のケースはありません）。したがって、シリーズのグルーピングの原則は、前述の型グループおよび一次/二次プロットタイプによるグルーピングです。 2) シリーズグループは、グループ内の各シリーズに共通するいくつかのシリーズプロパティ（「シリーズ グループ プロパティ」）を含みます。ChartSeriesGroup クラスの「シリーズ グループ プロパティ」は読み書き可能です。各「シリーズ グループ プロパティ」は、ChartSeries クラスで読み取り専用の投影を持つことができます。
 
 ### 参照
 

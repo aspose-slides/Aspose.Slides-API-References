@@ -1,6 +1,6 @@
 ---
 title: AlphaInverse
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير Alpha Inverse. يتم عكس قيم شفافية Alpha بطرحها من 100.
 type: docs
 weight: 2870
@@ -8,7 +8,7 @@ url: /ar/aspose.slides.effects/alphainverse/
 ---
 ## فئة AlphaInverse
 
-يمثل تأثير Alpha Inverse. يتم عكس قيم Alpha (الشفافية) بطرحها من 100%.
+يمثل تأثير Alpha Inverse. قيم Alpha (الشفافية) يتم عكسها بطرحها من 100%.
 
 ```csharp
 public sealed class AlphaInverse : ImageTransformOperation, IAlphaInverse

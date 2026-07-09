@@ -1,6 +1,6 @@
 ---
 title: SmartArtNodeCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Đại diện cho một bộ sưu tập các nút SmartArt.
 type: docs
 weight: 10640
@@ -16,21 +16,21 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Trả về số lượng nút trong bộ sưu tập. Chỉ-đọc Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào bộ sưu tập có được đồng bộ (an toàn đa luồng) hay không. Chỉ-đọc Boolean. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | Trả về số lượng nút trong bộ sưu tập. Chỉ đọc Int32. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | Trả về nút theo chỉ mục |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ-đọc Object. |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ đọc Object. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | Thêm nút smart art mới hoặc nút con. |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Thêm nút mới vào vị trí được chọn trong bộ sưu tập các nút |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | Thêm nút mới vào vị trí đã chọn trong bộ sưu tập các nút |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập sang mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | Xóa nút hoặc nút con theo chỉ mục |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | Xóa nút hoặc nút con |
 

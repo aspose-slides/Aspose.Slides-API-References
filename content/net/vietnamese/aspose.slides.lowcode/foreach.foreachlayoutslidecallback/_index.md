@@ -16,10 +16,10 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Slide bố trí hiện tại đang được lặp |
-| index | Int32 | Chỉ mục của slide bố trí hiện tại |
+| layoutSlide | LayoutSlide | Current iterated layout slide |
+| index | Int32 | Index of the current layout slide |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [LayoutSlide](../../aspose.slides/layoutslide)
 * lớp [ForEach](../foreach)

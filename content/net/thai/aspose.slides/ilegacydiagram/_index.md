@@ -1,14 +1,14 @@
 ---
 title: ILegacyDiagram
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงวัตถุไดอะแกรมแบบเก่า
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นอ็อบเจ็กต์แผนภูมิเก่า
 type: docs
 weight: 6250
 url: /th/aspose.slides/ilegacydiagram/
 ---
-## อินเทอร์เฟซ ILegacyDiagram
+## ILegacyDiagram อินเทอร์เฟซ
 
-แทนวัตถุไดอะแกรมแบบเก่า
+เป็นตัวแทนของออบเจ็กต์แผนภูมิเก่า
 
 ```csharp
 public interface ILegacyDiagram : IGraphicalObject
@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject พื้นฐานได้ อย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../igraphicalobject). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | แปลงไดอะแกรมแบบเก่าเป็นกลุ่มรูปร่างที่แก้ไขได้ วัตถุ GroupShape ที่สร้างขึ้นจะถูกเพิ่มไปยังกลุ่มรูปร่างแม่ในตำแหน่งเดียวกัน. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | แปลงไดอะแกรมแบบเก่าเป็นวัตถุ SmartArt ที่แก้ไขได้ วัตถุ SmartArt ที่สร้างขึ้นจะถูกเพิ่มไปยังกลุ่มรูปร่างแม่ในตำแหน่งเดียวกัน. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | แปลงแผนภูมิเก่าเป็นกลุ่มรูปทรงที่แก้ไขได้ วัตถุ GroupShape ที่สร้างขึ้นจะถูกเพิ่มไปยังกลุ่มรูปทรงแม่ในตำแหน่งเดียวกัน. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | แปลงแผนภูมิเก่าเป็นวัตถุ SmartArt ที่แก้ไขได้ วัตถุ SmartArt ที่สร้างขึ้นจะถูกเพิ่มไปยังกลุ่มรูปทรงแม่ในตำแหน่งเดียวกัน. |
 
 ### ดูเพิ่มเติม
 

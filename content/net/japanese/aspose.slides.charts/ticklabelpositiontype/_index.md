@@ -1,12 +1,12 @@
 ---
 title: TickLabelPositionType
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 指定された軸上の目盛りラベルの位置タイプを表します。
 type: docs
-weight: 2420
+weight: 2440
 url: /ja/aspose.slides.charts/ticklabelpositiontype/
 ---
-## TickLabelPositionType enumeration
+## TickLabelPositionType 列挙型
 
 指定された軸上の目盛りラベルの位置タイプを表します。
 
@@ -14,16 +14,16 @@ url: /ja/aspose.slides.charts/ticklabelpositiontype/
 public enum TickLabelPositionType
 ```
 
-### Values
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| High | `0` | 軸ラベルを垂直軸の上端に配置することを指定します。 |
-| Low | `1` | 軸ラベルを垂直軸の下端に配置することを指定します。 |
-| NextTo | `2` | 軸ラベルを軸の隣に配置することを指定します。 |
-| None | `3` | 軸ラベルを描画しないことを指定します。 |
+| High | `0` | 軸ラベルが垂直軸の上位端に配置されることを指定します。 |
+| Low | `1` | 軸ラベルが垂直軸の下位端に配置されることを指定します。 |
+| NextTo | `2` | 軸ラベルが軸の隣に配置されることを指定します。 |
+| None | `3` | 軸ラベルが描画されないことを指定します。 |
 
-### See Also
+### 参照
 
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)

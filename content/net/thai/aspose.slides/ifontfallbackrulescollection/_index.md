@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของกฎ FontFallBack ที่กำหนดโดยผู้ใช้
+description: แสดงถึงคอลเลกชันของกฎ FontFallBack ที่กำหนดโดยผู้ใช้
 type: docs
 weight: 5860
 url: /th/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection อินเทอร์เฟซ
 
-Represents a collection of FontFallBack rules, defined by user
+แสดงถึงคอลเลกชันของกฎ FontFallBack ที่กำหนดโดยผู้ใช้
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -18,14 +18,14 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | ดึงกฎที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | รับกฎที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการเกิดขึ้นครั้งแรกของกฎ FallBack เฉพาะจากคอลเลกชัน. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ใหม่ไปยังส่วนท้ายของคอลเลกชัน. |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการปรากฏครั้งแรกของกฎ FallBack เฉพาะจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

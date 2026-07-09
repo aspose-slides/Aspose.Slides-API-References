@@ -8,7 +8,7 @@ url: /nl/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock klasse
 
-Bepaalt welke bewerkingen uitgeschakeld zijn op de bovenliggende GroupShape.
+Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende GroupShape.
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Bepaalt of de vorm de beeldverhouding moet behouden bij het wijzigen van de grootte. Lezen/schrijven Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/schrijven Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retourneert true als alle vergrendelingsvlaggen uitgeschakeld zijn. Alleen-lezen Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Lezen/schrijven Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bepaalt of het splitsen van deze groupshape verboden is. Lezen/schrijven Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Read/write Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Read/write Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retourneert true als alle vergrendelingsvlaggen zijn uitgeschakeld. Read-only Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Read/write Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Read/write Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Read/write Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Read/write Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Bepaalt of het splitsen van deze groupshape verboden is. Read/write Boolean. |
 
 ### Zie ook
 

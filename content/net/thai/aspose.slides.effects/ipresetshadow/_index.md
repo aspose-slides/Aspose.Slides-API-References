@@ -1,7 +1,7 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงเอฟเฟกต์เงาที่กำหนดไว้ล่วงหน้า
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงเอฟเฟกต์เงาที่กำหนดล่วงหน้า.
 type: docs
 weight: 3480
 url: /th/aspose.slides.effects/ippresetshadow/
@@ -15,12 +15,13 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
     IImageTransformOperation
 ```
 
+
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IAccessiblePVIObject base. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IImageTransformOperation base. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | ทิศทางของเงา. อ่าน/เขียน Single. |
 | [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | ระยะของเงา. อ่าน/เขียน Double. |
 | [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. อ่าน/เขียน [`PresetShadowType`](../../aspose.slides/presetshadowtype). |

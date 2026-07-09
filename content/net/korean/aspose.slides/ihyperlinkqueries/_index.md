@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkQueries
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 포함된 하이퍼링크에 쉽게 액세스할 수 있습니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 포함된 하이퍼링크에 대한 손쉬운 접근을 제공합니다.
 type: docs
 weight: 6140
 url: /ko/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries 인터페이스
 
-포함된 하이퍼링크에 쉽게 액세스할 수 있습니다.
+포함된 하이퍼링크에 대한 손쉬운 접근을 제공합니다.
 
 ```csharp
 public interface IHyperlinkQueries
@@ -18,10 +18,10 @@ public interface IHyperlinkQueries
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | null이 아닌 HyperlinkMouseOver를 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 지정된 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | null이 아닌 HyperlinkClick을 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 지정된 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | null이 아닌 HyperlinkMouseOver를 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 지정된 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | 모든 포함된 HyperlinkClick 및 HyperlinkMouseOver 하이퍼링크를 제거합니다(모든 IHyperlinkContainer 하위 객체에서). |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | null이 아닌 HyperlinkMouseOver를 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 주어진 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | null이 아닌 HyperlinkClick를 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 주어진 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | null이 아닌 HyperlinkMouseOver를 포함하는 모든 IHyperlinkContainer 하위 객체를 가져옵니다. 주어진 IHyperlinkContainer 객체를 사용하여 해당 하이퍼링크를 관리할 수 있습니다(읽기, 업데이트 또는 제거). IHyperlinkContainer 인터페이스를 참조하십시오. |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | 모든 IHyperlinkContainer 하위 객체에 포함된 HyperlinkClick 및 HyperlinkMouseOver 하이퍼링크를 제거합니다. |
 
 ### 참조
 

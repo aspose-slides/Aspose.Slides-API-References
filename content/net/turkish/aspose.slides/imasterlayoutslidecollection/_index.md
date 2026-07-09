@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: Tanımlı ana slaydın tüm yerleşim slaytlarının bir koleksiyonunu temsil eder. ILayoutSlideCollection arayüzünü, ana slaydların yerleşim slaytlarının bireysel koleksiyonları bağlamında ekleme/yerleştirme/kaldırma/kopyalama yöntemleriyle genişletir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Tanımlı ana slaydın tüm yerleşim slaytlarını içeren bir koleksiyonu temsil eder. ILayoutSlideCollection arayüzünü, ana slaydların yerleşim slaytlarının bireysel koleksiyonları bağlamında ekleme/yerleştirme/kaldırma/kopyalama yöntemleriyle genişletir.
 type: docs
-weight: 6360
+weight: 6380
 url: /tr/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection arayüz
 
-Tanımlı ana slaydın tüm yerleşim slaytlarının bir koleksiyonunu temsil eder. ILayoutSlideCollection arayüzünü, ana slaydın yerleşim slaytlarının bireysel koleksiyonları bağlamında ekleme/ekleme/çıkarma/kopyalama yöntemleriyle genişletir.
+Tanımlı ana slaytın tüm yerleşim slaytlarını içeren bir koleksiyonu temsil eder. ILayoutSlideCollection arayüzünü, ana slaytların yerleşim slaytlarının bireysel koleksiyonları bağlamında ekleme/yerleştirme/kaldırma/kopyalama yöntemleriyle genişletir.
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,17 +18,17 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | Döndürür ILayoutSlideCollection arayüz. Yalnızca okuma [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection arayüzünü döndürür. Salt okunur [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Koleksiyonun sonuna yeni bir yerleşim slaydı ekler. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Belirtilen bir yerleşim slaydının bir kopyasını koleksiyonun sonuna ekler. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Koleksiyon içinde belirtilen konuma yeni bir yerleşim slaydı ekler. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Belirtilen bir yerleşim slaydının bir kopyasını koleksiyon içinde belirtilen konuma ekler. |
-| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Koleksiyonda belirtilen dizindeki öğeyi kaldırır. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Koleksiyonun sonuna yeni bir yerleşim slaytı ekler. |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Belirtilen yerleşim slaydının bir kopyasını koleksiyonun sonuna ekler. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Koleksiyonun belirtilen konumuna yeni bir yerleşim slaytı ekler. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Belirtilen yerleşim slaydının bir kopyasını koleksiyonun belirtilen konumuna ekler. |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
 | [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Yerleşim slaydını koleksiyondan belirtilen konuma taşır. |
 
 ### Ayrıca Bakınız

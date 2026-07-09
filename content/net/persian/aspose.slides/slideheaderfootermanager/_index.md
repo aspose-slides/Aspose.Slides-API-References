@@ -1,14 +1,14 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایندهٔ مدیری است که رفتار فوتر اسلاید، تاریخ-زمان و جایگزین‌های شماره صفحه را نگه می‌دارد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایشگری که رفتار فوتر اسلاید، جای‌گذاری تاریخ-زمان و شماره صفحه را نگه می‌دارد.
 type: docs
 weight: 9980
 url: /fa/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager کلاس
 
-نمایندهٔ مدیری است که رفتار فوتر اسلاید، تاریخ-زمان و جایگزین‌های شماره صفحه را نگه می‌دارد.
+نمایشگر (manager) که رفتار فوتر اسلاید، جای‌گذاری تاریخ-زمان و شماره صفحه را نگه می‌دارد.
 
 ```csharp
 public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,19 +19,19 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | نام | توضیح |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقدار را بر می‌گرداند که نشان می‌دهد یک جایگزین تاریخ-زمان وجود دارد. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقدار را بر می‌گرداند که نشان می‌دهد یک جایگزین فوتر وجود دارد. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقدار را بر می‌گرداند که نشان می‌دهد یک جایگزین شماره صفحه وجود دارد. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌گذاری تاریخ-زمان موجود است. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌گذاری فوتر موجود است. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌گذاری شماره صفحه موجود است. ReadBoolean. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را برای جایگزین تاریخ-زمان اسلاید تنظیم می‌کند. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت نمایش جایگزین تاریخ-زمان اسلاید را تغییر می‌دهد. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را برای جایگزین فوتر اسلاید تنظیم می‌کند. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت نمایش جایگزین فوتر اسلاید را تغییر می‌دهد. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت نمایش جایگزین شماره صفحه اسلاید را تغییر می‌دهد. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متنی را برای جای‌گذاری تاریخ-زمان اسلاید تنظیم می‌کند. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت نمایش جای‌گذاری تاریخ-زمان اسلاید را تغییر می‌دهد. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متنی را برای جای‌گذاری فوتر اسلاید تنظیم می‌کند. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت نمایش جای‌گذاری فوتر اسلاید را تغییر می‌دهد. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت نمایش جای‌گذاری شماره صفحه اسلاید را تغییر می‌دهد. |
 
 ### موارد مرتبط
 

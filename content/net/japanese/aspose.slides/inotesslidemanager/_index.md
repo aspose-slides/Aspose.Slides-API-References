@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ノートスライドマネージャー。
+description: ノートスライド マネージャー。
 type: docs
-weight: 6500
+weight: 6520
 url: /ja/aspose.slides/inotesslidemanager/
 ---
-## INotesSlideManager インターフェース
+## INotesSlideManager インターフェイス
 
-ノートスライドマネージャー。
+ノートスライド マネージャー。
 
 ```csharp
 public interface INotesSlideManager
@@ -18,13 +18,13 @@ public interface INotesSlideManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドがない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide)。 |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | 現在のスライドのノートスライドを返します。スライドにノートスライドがない場合は null を返します。読み取り専用 [`INotesSlide`](../inotesslide). |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | 現在のスライドのノートスライドを返します。存在しない場合は新しく作成します。 |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | 現在のスライドのノートスライドを返し、存在しない場合は作成します。 |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | 現在のスライドのノートスライドを削除します。 |
 
 ### 参照

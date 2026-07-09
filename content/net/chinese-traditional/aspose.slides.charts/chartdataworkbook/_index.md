@@ -1,6 +1,6 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 提供對嵌入式 Excel 工作簿的存取
 type: docs
 weight: 1380
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook 類別
 
-提供存取嵌入的 Excel 工作簿
+提供對嵌入式 Excel 工作簿的存取
 
 ```csharp
 public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
@@ -18,14 +18,14 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | 取得工作表集合。 |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | 取得工作表的集合。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | 計算工作簿中的所有公式並更新相應儲存格的值。 |
-| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | 清除工作表上所有儲存格的值 |
+| [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | 清除工作表中所有儲存格的值 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | 取得可用於圖表系列或類別的儲存格 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | 取得可用於圖表系列或類別的儲存格 |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | 取得可用於圖表系列或類別的儲存格 |
@@ -33,7 +33,7 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | 取得可用於圖表系列或類別的儲存格 |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | 取得儲存格集合。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [ChartData](../chartdata)

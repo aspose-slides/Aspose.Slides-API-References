@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 데이터가 포함된 셀들의 컬렉션을 나타냅니다.
+description: 데이터가 있는 셀들의 컬렉션을 나타냅니다.
 type: docs
 weight: 1300
 url: /ko/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection 클래스
 
-데이터가 포함된 셀들의 컬렉션을 나타냅니다.
+데이터가 있는 셀들의 컬렉션을 나타냅니다.
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -18,8 +18,8 @@ public class ChartCellCollection : IChartCellCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 컬렉션에 있는 셀 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 인덱스로 셀 (IChartDataCell)을 반환합니다. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | 컬렉션에 있는 셀의 개수를 가져옵니다. 읽기 전용 Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | 인덱스로 셀(IChartDataCell)을 반환합니다. |
 
 ## 메서드
 
@@ -27,7 +27,7 @@ public class ChartCellCollection : IChartCellCollection
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | 컬렉션에 새 셀을 추가합니다. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | 지정된 값으로 [`ChartDataCell`](../chartdatacell)를 생성하고 컬렉션에 추가합니다. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 워크북의 셀 집합 주소를 반환합니다. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | 워크북에 있는 셀 집합의 주소를 반환합니다. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | 모든 셀 문자열 값들을 연결한 문자열을 반환합니다. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | 인덱스로 컬렉션에서 셀을 제거합니다. |

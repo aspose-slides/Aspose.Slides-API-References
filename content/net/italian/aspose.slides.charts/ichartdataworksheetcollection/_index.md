@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta la raccolta di fogli di lavoro del workbook dei dati del grafico.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta la raccolta di fogli di lavoro della cartella di lavoro dei dati del grafico.
 type: docs
-weight: 1860
+weight: 1880
 url: /it/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection interfaccia
 
-Rappresenta la raccolta di fogli di lavoro del workbook dei dati del grafico.
+Rappresenta la raccolta di fogli di lavoro della cartella di lavoro dei dati del grafico.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>

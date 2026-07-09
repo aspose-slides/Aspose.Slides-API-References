@@ -1,9 +1,9 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes pro .NET – Referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje možnosti, které řídí vzhled objektů Ink v exportovaném dokumentu.
 type: docs
-weight: 3960
+weight: 3980
 url: /cs/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions rozhraní
@@ -18,8 +18,8 @@ public interface IInkOptions
 
 | Název | Popis |
 | --- | --- |
-| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Zobrazuje nebo skrývá Ink prvky v exportovaném dokumentu. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Používá operaci ROP nebo Opacity pro vykreslování štětce. |
+| [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Zobrazuje nebo skrývá elementy Ink v exportovaném dokumentu. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | Používá operaci ROP nebo průhlednost pro vykreslování štětce. |
 
 ### Viz také
 

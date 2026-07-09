@@ -1,14 +1,14 @@
 ---
 title: WebDocument
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを Web 形式で保存するための変換形態を表します。
+description: プレゼンテーションの遷移形式を表し、Web フォーマットで保存するために使用されます。
 type: docs
-weight: 4660
+weight: 4680
 url: /ja/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument クラス
 
-プレゼンテーションを Web 形式で保存するための変換形式を表します。
+プレゼンテーションの遷移形式を表し、Web フォーマットで保存するために使用されます。
 
 ```csharp
 public class WebDocument
@@ -16,25 +16,25 @@ public class WebDocument
 
 ## コンストラクター
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [WebDocument](webdocument)(WebDocumentOptions) | [`WebDocument`](../webdocument) コンストラクター。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | ドキュメントのグローバル ストレージを返します。読み取り専用 [`Storage`](../storage)。 |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | ドキュメントのグローバルストレージを返します。 読み取り専用 [`Storage`](../storage)。 |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | ドキュメントの出力要素のコレクションを返します。読み取り専用 [`Output`](./output)。 |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | ドキュメントの出力要素のコレクションを返します。 読み取り専用 [`Output`](./output)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Save](../../aspose.slides.export.web/webdocument/save)() | ドキュメントの出力を保存します。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IMathBoxFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Memungkinkan membuat kotak matematika
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mengizinkan membuat kotak matematika
 type: docs
-weight: 8180
+weight: 8200
 url: /id/aspose.slides.mathtext/imathboxfactory/
 ---
 ## IMathBoxFactory antarmuka
 
-Memungkinkan membuat kotak matematika
+Mengizinkan membuat kotak matematika
 
 ```csharp
 public interface IMathBoxFactory
@@ -18,7 +18,7 @@ public interface IMathBoxFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Membuat kotak matematika dengan menerapkannya ke elemen |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | Membuat kotak matematika dengan menerapkannya pada elemen |
 
 ### Catatan
 

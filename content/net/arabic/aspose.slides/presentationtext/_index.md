@@ -1,12 +1,12 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Sildes لـ .NET
 description: يمثل النص المستخرج من العرض التقديمي
 type: docs
 weight: 9640
 url: /ar/aspose.slides/presentationtext/
 ---
-## PresentationText فئة
+## فئة PresentationText
 
 يمثل النص المستخرج من العرض التقديمي
 

@@ -1,14 +1,14 @@
 ---
 title: ColorReplace
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक रंग प्रतिस्थापन प्रभाव का प्रतिनिधित्व करता है। सभी प्रभाव रंगों को एक निश्चित रंग में बदल दिया जाता है। अल्फा मान अपरिवर्तित रहते हैं।
 type: docs
 weight: 2950
 url: /hi/aspose.slides.effects/colorreplace/
 ---
-## ColorReplace वर्ग
+## ColorReplace क्लास
 
-एक रंग प्रतिस्थापन इफ़ेक्ट का प्रतिनिधित्व करता है। सभी इफ़ेक्ट रंग एक निश्चित रंग में बदल दिए जाते हैं। एल्फा मान अपरिवर्तित रहते हैं।
+एक रंग प्रतिस्थापन प्रभाव का प्रतिनिधित्व करता है। सभी प्रभाव रंगों को एक निश्चित रंग में बदल दिया जाता है। अल्फा मान अपरिवर्तित रहते हैं।
 
 ```csharp
 public sealed class ColorReplace : ImageTransformOperation, IColorReplace
@@ -18,20 +18,20 @@ public sealed class ColorReplace : ImageTransformOperation, IColorReplace
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
-| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | प्रत्येक पिक्सेल के रंग को प्रतिस्थापित करने वाले रंग फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधारभूत IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color](../../aspose.slides.effects/colorreplace/color) { get; } | वह रंग फ़ॉर्मेट लौटाता है जो प्रत्येक पिक्सेल के रंग को बदल देगा। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorreplace/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`ColorReplace`](../colorreplace) वर्तमान [`ColorReplace`](../colorreplace) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | इनहेरिटेंस लागू होने पर प्रभावी रंग प्रतिस्थापन इफ़ेक्ट डेटा प्राप्त करता है। |
+| [GetEffective](../../aspose.slides.effects/colorreplace/geteffective)() | विरासत लागू होने पर प्रभावी रंग प्रतिस्थापन प्रभाव डेटा प्राप्त करता है। |
 | override [GetHashCode](../../aspose.slides.effects/colorreplace/gethashcode)() | एक विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### देखें
+### संबंधित देखें
 
-* वर्ग [ImageTransformOperation](../imagetransformoperation)
+* क्लास [ImageTransformOperation](../imagetransformoperation)
 * इंटरफ़ेस [IColorReplace](../icolorreplace)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)

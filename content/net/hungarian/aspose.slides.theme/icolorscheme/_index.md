@@ -1,9 +1,9 @@
 ---
 title: IColorScheme
-second_title: Aspose.Sildes a .NET-hez API-referencia
-description: A téma által definiált színeket tárol.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Tárolja a téma által definiált színeket.
 type: docs
-weight: 11130
+weight: 11150
 url: /hu/aspose.slides.theme/icolorscheme/
 ---
 ## IColorScheme interfész
@@ -18,20 +18,20 @@ public interface IColorScheme : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Első kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | Második kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | Harmadik kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | Negyedik kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Ötödik kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | Hatodik kiemelt szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Visszaadja az ISlideComponent interfészt. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Első sötét szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | Második sötét szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | Az első akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | A második akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | A harmadik akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | A negyedik akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | Az ötödik akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | A hatodik akcentusszín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | Az ISlideComponent interfészt adja vissza. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | Az első sötét szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | A második sötét szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | A már meglátogatott hiperhivatkozások színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | A hiperhivatkozások színe. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Lekéri a megadott indexű elemet. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Első világos szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | Második világos szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | Az első világos szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | A második világos szín a sémában. Csak olvasható [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lásd még
 

@@ -1,25 +1,25 @@
 ---
 title: Convert.GetOutPathCallback
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Callback जो प्रत्येक Slide../aspose.slides/slide के लिए बुलाया जाएगा, अपेक्षित आउटपुट पथ लौटाने की आशा है।
+description: प्रत्येक Slide../aspose.slides/slide के लिए कॉल बैक को बुलाया जाएगा, और आउटपुट पथ वापस करने की अपेक्षा है।
 type: docs
 weight: 7890
 url: /hi/aspose.slides.lowcode/convert.getoutpathcallback/
 ---
 ## Convert.GetOutPathCallback डेलीगेट
 
-प्रत्येक [`Slide`](../../aspose.slides/slide) के लिए कॉलबैक को बुलाया जाएगा, अपेक्षित आउटपुट पथ लौटाया जाएगा।
+प्रत्येक [`Slide`](../../aspose.slides/slide) के लिए कॉलबैक को बुलाया जाएगा, और आउटपुट पथ लौटाया जाना अपेक्षित है।
 
 ```csharp
 public delegate string GetOutPathCallback(Slide slide, int index);
 ```
 
-| पैरामीटर | प्रकार | वर्णन |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| slide | Slide | वर्तमान इटरेटेड स्लाइड |
-| index | Int32 | वर्तमान स्लाइड का इंडेक्स |
+| slide | Slide | वर्तमान परिक्रमी स्लाइड |
+| index | Int32 | वर्तमान स्लाइड का सूचकांक |
 
-### देखें
+### See Also
 
 * क्लास [Slide](../../aspose.slides/slide)
 * क्लास [Convert](../convert)

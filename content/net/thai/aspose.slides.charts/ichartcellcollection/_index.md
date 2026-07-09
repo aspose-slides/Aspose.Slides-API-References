@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เป็นคอลเลกชันของเซลล์ที่มีข้อมูล
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นตัวแทนของคอลเลกชันของเซลล์ที่มีข้อมูล.
 type: docs
 weight: 1780
 url: /th/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection อินเทอร์เฟซ
 
-เป็นคอลเลกชันของเซลล์ที่มีข้อมูล
+เป็นตัวแทนของคอลเลกชันของเซลล์ที่บรรจุข้อมูล
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -18,17 +18,17 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ ICollection. IEnumerable แบบอ่านอย่างเดียว. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | รับจำนวนของเซลล์ในคอลเลกชัน. Int32 แบบอ่านอย่างเดียว. |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | คืนค่าเซลล์ (IChartDataCell) ตามดัชนี. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | ส่งคืนอินเทอร์เฟซ ICollection. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | รับจำนวนของเซลล์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | ส่งคืนเซลล์ (IChartDataCell) ตามดัชนี. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | เพิ่มเซลล์ใหม่ในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | สร้าง [`IChartDataCell`](../ichartdatacell) จากค่าที่ระบุและเพิ่มลงในคอลเลกชัน. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | คืนค่าที่อยู่ของชุดเซลล์ในเวิร์กบุ๊ก. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | เพิ่มเซลล์ใหม่เข้าไปในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | สร้าง [`IChartDataCell`](../ichartdatacell) จากค่าที่ระบุและเพิ่มเข้าไปในคอลเลกชัน. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | ส่งคืนที่อยู่ของชุดเซลล์ในสมุดงาน. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | สตริงการต่อจากค่าสตริงของเซลล์ทั้งหมด. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | ลบเซลล์ออกจากคอลเลกชันตามดัชนี. |
 

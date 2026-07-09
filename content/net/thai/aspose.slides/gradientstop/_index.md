@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เป็นรูปแบบการไล่สี.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แทนรูปแบบการไล่ระดับสี
 type: docs
 weight: 5020
 url: /th/aspose.slides/gradientstop/
 ---
-## GradientStop คลาส
+## คลาส GradientStop
 
-เป็นรูปแบบการไล่สี.
+แทนรูปแบบการไล่ระดับสี
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,16 +18,16 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | คืนค่าสีของจุดไล่สี. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | คืนค่าหรือกำหนดตำแหน่ง (0..1) ของจุดไล่สี. อ่าน/เขียน Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | คืนค่าสีของจุดหยุดไล่ระดับสี. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | คืนค่าหรือกำหนดตำแหน่ง (0..1) ของจุดหยุดไล่ระดับสี. อ่าน/เขียน Single. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับ object ที่ระบุ. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่ระบุ |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่า hash code |
 
 ### ดูเพิ่มเติม
 

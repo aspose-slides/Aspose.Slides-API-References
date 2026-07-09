@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なシェイプの面リリーフプロパティを含む不変オブジェクトです。
+description: 有効なシェイプの面のリリーフ プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6950
+weight: 6970
 url: /ja/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData インターフェイス
 
-有効なシェイプの面リリーフプロパティを含む不変オブジェクトです。
+有効なシェイプのフェイスリリーフ プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,9 +18,9 @@ public interface IShapeBevelEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | ベベルタイプ。 読み取り専用 [`BevelPresetType`](../bevelpresettype)。 |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | ベベル高さ。 読み取り専用 Double。 |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | ベベル幅。 読み取り専用 Double。 |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | ベベル タイプ。読み取り専用 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | ベベル 高さ。読み取り専用 Double。 |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | ベベル 幅。読み取り専用 Double。 |
 
 ### 備考
 

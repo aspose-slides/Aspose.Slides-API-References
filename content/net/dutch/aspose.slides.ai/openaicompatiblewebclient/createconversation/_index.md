@@ -1,14 +1,14 @@
 ---
 title: CreateConversation
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Maakt een conversatie-instantie. In tegenstelling tot gewone AI-oproepen behouden gesprekken de volledige context.
+description: Maakt een gespreksinstantie. In tegenstelling tot reguliere AI-aanroepen behouden gesprekken de volledige context.
 type: docs
 weight: 30
 url: /nl/aspose.slides.ai/openaicompatiblewebclient/createconversation/
 ---
 ## OpenAICompatibleWebClient.CreateConversation methode
 
-Maakt een conversatie-instantie. In tegenstelling tot gewone AI-oproepen behouden gesprekken de volledige context.
+Maakt een gespreksinstantie. In tegenstelling tot reguliere AI-aanroepen behouden gesprekken de volledige context.
 
 ```csharp
 public IAIConversation CreateConversation()

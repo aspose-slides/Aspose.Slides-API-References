@@ -1,6 +1,6 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo một thanh toán toán học
 type: docs
 weight: 8130
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory giao diện
 
-Cho phép tạo một thanh toán học
+Cho phép tạo một thanh toán toán học
 
 ```csharp
 public interface IMathBarFactory
@@ -18,8 +18,8 @@ public interface IMathBarFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Tạo một thanh toán học bằng cách áp dụng lên phần tử |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Tạo một thanh toán học bằng cách áp dụng lên phần tử |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Tạo một thanh toán toán học bằng cách áp dụng vào phần tử |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Tạo một thanh toán toán học bằng cách áp dụng vào phần tử |
 
 ### Ghi chú
 

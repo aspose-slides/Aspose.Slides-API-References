@@ -1,9 +1,9 @@
 ---
 title: IGrayScale
 second_title: Aspose.Sildes pro .NET API Reference
-description: Zastupuje rozhraní IImageTransformOperation.
+description: Představuje rozhraní IImageTransformOperation.
 type: docs
-weight: 3320
+weight: 3340
 url: /cs/aspose.slides.effects/igrayscale/
 ---
 ## IGrayScale rozhraní
@@ -15,6 +15,7 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
     IImageTransformOperation
 ```
 
+
 ## Vlastnosti
 
 | Název | Popis |
@@ -22,7 +23,7 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | Umožňuje získat základní rozhraní IAccessiblePVIObject. Pouze pro čtení [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | Vrací rozhraní IImageTransformOperation. Pouze pro čtení [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### See Also
+### Viz také
 
 * rozhraní [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * rozhraní [IGrayScaleEffectiveData](../igrayscaleeffectivedata)

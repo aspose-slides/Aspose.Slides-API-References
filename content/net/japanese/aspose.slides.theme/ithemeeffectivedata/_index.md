@@ -3,10 +3,10 @@ title: IThemeEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 効果的なテーマプロパティを含む不変オブジェクトです。
 type: docs
-weight: 11360
+weight: 11380
 url: /ja/aspose.slides.theme/ithemeeffectivedata/
 ---
-## IThemeEffectiveData インターフェイス
+## IThemeEffectiveData interface
 
 効果的なテーマプロパティを含む不変オブジェクトです。
 
@@ -29,7 +29,7 @@ public interface IThemeEffectiveData
 
 ### 備考
 
-このインターフェイスは [`ITheme`](../itheme) インターフェイスと共に使用され、継承が適用された効果的な書式設定値を返します。
+このインターフェイスは [`ITheme`](../itheme) インターフェイスと組み合わせて、継承が適用された効果的な書式設定値を返すために使用されます。
 
 ### 関連項目
 

@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes の .NET API リファレンス
-description: チャートのフォーマット プロパティを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: チャートの書式プロパティを表します。
 type: docs
-weight: 1660
+weight: 1680
 url: /ja/aspose.slides.charts/format/
 ---
 ## Format クラス
 
-チャートのフォーマット プロパティを表します。
+チャートの書式プロパティを表します。
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -16,22 +16,22 @@ public sealed class Format : PVIObject, IFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースのIPresentationComponentインターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | チャートで使用されるエフェクトを返します。読み取り専用 [`IEffectFormat`](../../aspose.slides/ieffectformat)。 |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | チャートの 3D フォーマットを返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | チャートの3D書式を返します。読み取り専用 [`IThreeDFormat`](../../aspose.slides/ithreedformat)。 |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | チャートの塗りつぶしスタイルプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/format/line) { get; } | チャートの線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
-### 関連項目
+### 参照
 
 * クラス [PVIObject](../../aspose.slides/pviobject)
 * インターフェイス [IFormat](../iformat)

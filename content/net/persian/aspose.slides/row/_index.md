@@ -1,14 +1,14 @@
 ---
 title: Row
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر یک ردیف در جدول.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر یک ردیف در یک جدول.
 type: docs
 weight: 9710
 url: /fa/aspose.slides/row/
 ---
-## Row کلاس
+## کلاس Row
 
-نمایانگر یک ردیف در جدول.
+نماد یک ردیف در یک جدول است.
 
 ```csharp
 public sealed class Row : CellCollection, IRow
@@ -18,31 +18,31 @@ public sealed class Row : CellCollection, IRow
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | تعداد سلول‌های موجود در مجموعه را برمی‌گرداند. فقط خواندنی Int32. |
-| [Height](../../aspose.slides/row/height) { get; } | ارتفاع یک ردیف را برمی‌گرداند. فقط خواندنی Double. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد دسترسی به مجموعه همگام‌سازی شده است (thread-safe). فقط خواندنی Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | یک سلول را بر اساس موقعیت آن برمی‌گرداند. فقط خواندنی [`Cell`](../cell). |
-| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | حداقل ارتفاع ممکن یک ردیف را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Double. |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ارائهٔ والد مجموعهٔ سلول‌ها (CellCollection) را برمی‌گرداند. فقط خواندنی [`IPresentation`](../ipresentation). |
-| [RowFormat](../../aspose.slides/row/rowformat) { get; } | شیء RowFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی برای این ردیف است. فقط خواندنی [`IRowFormat`](../irowformat). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | اسلاید والد مجموعهٔ سلول‌ها (CellCollection) را برمی‌گرداند. فقط خواندنی [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ریشهٔ همگام‌سازی را برمی‌گرداند. فقط خواندنی Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | تعداد cells در یک collection را برمی‌گرداند. فقط-خواندنی Int32. |
+| [Height](../../aspose.slides/row/height) { get; } | ارتفاع یک row را برمی‌گرداند. فقط-خواندنی Double. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | مقداری که نشان می‌دهد دسترسی به collection همگام است (thread-safe) را برمی‌گرداند. فقط-خواندنی Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | یک cell را بر اساس موقعیت آن برمی‌گرداند. فقط-خواندنی [`Cell`](../cell). |
+| [MinimalHeight](../../aspose.slides/row/minimalheight) { get; set; } | ارتفاع حداقل ممکن یک row را برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Double. |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ارائه والد CellCollection را برمی‌گرداند. فقط-خواندنی [`IPresentation`](../ipresentation). |
+| [RowFormat](../../aspose.slides/row/rowformat) { get; } | شیء RowFormat که شامل ویژگی‌های قالب‌بندی برای این row است را برمی‌گرداند. فقط-خواندنی [`IRowFormat`](../irowformat). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | اسلاید والد CellCollection را برمی‌گرداند. فقط-خواندنی [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ریشه‌ی همگام‌سازی را برمی‌گرداند. فقط-خواندنی Object. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | تمام عناصر را از مجموعه به آرایهٔ مشخص شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | یک enumerator که از طریق مجموعه تکرار می‌کند را برمی‌گرداند. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | ویژگی‌های قالب‌بندی پاراگراف تعریف‌شده را برای تمام پاراگراف‌های سلول‌های ردیف تنظیم می‌کند. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | ویژگی‌های قالب‌بندی بخش (portion) تعریف‌شده را برای تمام بخش‌های سلول‌های ردیف تنظیم می‌کند. |
-| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | ویژگی‌های قالب‌بندی قاب متن (text frame) تعریف‌شده را برای تمام قاب‌های متن سلول‌های ردیف تنظیم می‌کند. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | تمام عناصر را از collection به آرایهٔ مشخص‌شده کپی می‌کند. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | یک enumerator که از طریق collection تکرار می‌کند را برمی‌گرداند. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat)(IParagraphFormat) | ویژگی‌های قالب‌بندی پاراگراف تعریف‌شده را برای تمام پاراگراف‌های سلول‌های row تنظیم می‌کند. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_1)(IPortionFormat) | ویژگی‌های قالب‌بندی بخش تعریف‌شده را برای تمام بخش‌های سلول‌های row تنظیم می‌کند. |
+| [SetTextFormat](../../aspose.slides/row/settextformat#settextformat_2)(ITextFrameFormat) | ویژگی‌های قالب‌بندی فریم متن تعریف‌شده را برای تمام فریم‌های متنی سلول‌های row تنظیم می‌کند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * کلاس [CellCollection](../cellcollection)
 * رابط [IRow](../irow)
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

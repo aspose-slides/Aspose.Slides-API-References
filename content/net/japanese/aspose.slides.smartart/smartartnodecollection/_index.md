@@ -3,7 +3,7 @@ title: SmartArtNodeCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: SmartArt ノードのコレクションを表します。
 type: docs
-weight: 10620
+weight: 10640
 url: /ja/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection クラス
@@ -18,23 +18,23 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | コレクション内のノード数を返します 読み取り専用 Int32 読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | コレクション内のノード数を返します 読み取り専用 Int32 読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します 読み取り専用 Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | インデックスでノードを返します |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 同期ルートを返します 読み取り専用 Object. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | 新しい SmartArt ノードまたはサブノードを追加します。 |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | ノード コレクションの選択された位置に新しいノードを追加します。 |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | コレクションから指定された配列へすべての要素をコピーします。 |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | インデックスでノードまたはサブノードを削除します。 |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | ノードまたはサブノードを削除します。 |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | ノードコレクションの選択された位置に新しいノードを追加します |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | コレクションを反復する列挙子を返します。 |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | インデックスでノードまたはサブノードを削除します |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | ノードまたはサブノードを削除します |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISmartArtNodeCollection](../ismartartnodecollection)
 * 名前空間 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงผลการแปลงภาพแบบเชิงนามธรรม
+description: แสดงถึงเอฟเฟกต์การแปลงรูปภาพแบบนามธรรม
 type: docs
 weight: 3570
 url: /th/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation คลาส
 
-แสดงผลการแปลงภาพแบบเชิงนามธรรม
+แสดงถึงเอฟเฟกต์การแปลงรูปภาพแบบนามธรรม
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -16,13 +16,13 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้ แบบอ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮชโค้ด |

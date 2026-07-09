@@ -1,14 +1,14 @@
 ---
 title: IFontSources
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller fil- och minneskällor för externa teckensnitt.
 type: docs
-weight: 5850
+weight: 5870
 url: /sv/aspose.slides/ifontsources/
 ---
 ## IFontSources gränssnitt
 
-Tillhandahåller fil- och minneskällor för externa typsnitt.
+Tillhandahåller fil- och minneskällor för externa teckensnitt.
 
 ```csharp
 public interface IFontSources
@@ -19,7 +19,7 @@ public interface IFontSources
 | Namn | Beskrivning |
 | --- | --- |
 | [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | Mappar som innehåller teckensnittsfiler. Alla teckensnittsfiler som finns i dessa mappar ingår i samlingen. Mappar som söks rekursivt. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | En samling teckensnitt som representeras som byte-arrayer. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | En samling av teckensnitt som representeras som byte-arrayer. |
 
 ### Se även
 

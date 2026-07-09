@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes για .NET – Αναφορά API
-description: Αναπαριστά ένα κελί δεδομένων διαγράμματος.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ένα κελί δεδομένων διαγράμματος.
 type: docs
-weight: 2190
+weight: 2210
 url: /el/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue διασύνδεση
 
-Αναπαριστά ένα κελί δεδομένων διαγράμματος.
+Αντιπροσωπεύει ένα κελί δεδομένων διαγράμματος.
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -19,7 +19,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | Επιστρέφει ή ορίζει το κελί δεδομένων διαγράμματος. Ανάγνωση/εγγραφή [`IChartDataCell`](../ichartdatacell). |
-| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IBaseChartValue. Μόνο για ανάγνωση [`IBaseChartValue`](../ibasechartvalue). |
+| [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης IBaseChartValue. Μόνο ανάγνωση [`IBaseChartValue`](../ibasechartvalue). |
 
 ### Δείτε επίσης
 

@@ -1,14 +1,14 @@
 ---
 title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho một bộ sưu tập các đối tượng Summary Zoom Section.
+description: Biểu diễn một tập hợp các đối tượng Summary Zoom Section.
 type: docs
 weight: 10790
 url: /vi/aspose.slides/summaryzoomsectioncollection/
 ---
-## Lớp SummaryZoomSectionCollection
+## SummaryZoomSection lớp
 
-Đại diện cho một bộ sưu tập các đối tượng Summary Zoom Section.
+Biểu diễn một tập hợp các đối tượng Summary Zoom Section.
 
 ```csharp
 public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>, 
@@ -19,24 +19,24 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Lấy số phần tử thực tế chứa trong bộ sưu tập. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với đa luồng) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Lấy số phần tử thực sự có trong tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Lấy phần tử tại chỉ số được chỉ định. Chỉ đọc [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Tạo đối tượng Summary Zoom Section mới và thêm nó vào bộ sưu tập |
-| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Xóa mọi đối tượng SummaryZoomSection khỏi bộ sưu tập. |
-| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Sao chép toàn bộ bộ sưu tập vào mảng được chỉ định. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Tạo đối tượng Summary Zoom Section mới và thêm nó vào tập hợp |
+| [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Xóa tất cả các đối tượng SummaryZoomSection khỏi tập hợp. |
+| [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Sao chép toàn bộ tập hợp vào mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Trả về phần tử Summary Zoom Section cho phần đã cho. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Trả về chỉ mục của đối tượng SummaryZoomSection được chỉ định. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Xóa đối tượng Summary Zoom Section khỏi bộ sưu tập. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Trả về chỉ mục của đối tượng SummaryZoomSection đã chỉ định. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Xóa đối tượng Summary Zoom Section khỏi tập hợp. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DomObject&lt;TParent&gt;](../domobject-1)
 * lớp [SummaryZoomFrame](../summaryzoomframe)

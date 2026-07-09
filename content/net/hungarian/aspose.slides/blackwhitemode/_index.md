@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteMode
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes a .NET API referencia
 description: Meghatározza, hogyan kell a színes alakzatot fekete-fehérre átalakítani.
 type: docs
-weight: 1000
+weight: 1020
 url: /hu/aspose.slides/blackwhitemode/
 ---
-## BlackWhiteMode enumeráció
+## BlackWhiteMode felsorolás
 
-Meghatározza, hogy a színes alakzat hogyan alakul fekete-fehérre.
+Meghatározza, hogyan kell a színes alakzatot fekete-fehérre átalakítani.
 
 ```csharp
 public enum BlackWhiteMode : sbyte

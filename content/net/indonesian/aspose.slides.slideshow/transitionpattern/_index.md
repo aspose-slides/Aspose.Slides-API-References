@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan pola geometris yang digabungkan untuk mengisi area yang lebih besar.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan pola geometris yang menempel bersama untuk mengisi area yang lebih besar.
 type: docs
-weight: 10380
+weight: 10400
 url: /id/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumerasi
 
-Menentukan pola geometris yang digabungkan untuk mengisi area yang lebih besar.
+Menentukan pola geometris yang menempel bersama untuk mengisi area yang lebih besar.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| Diamond | `0` | Pola ubin Diamond |
-| Hexagon | `1` | Pola ubin Hexagon |
+| Diamond | `0` | pola ubin Diamond |
+| Hexagon | `1` | pola ubin Hexagon |
 
 ### Lihat Juga
 

@@ -1,19 +1,18 @@
 ---
 title: FontFallBackRule
-second_title: Aspose.Sildes .NET API referencia
-description: A betűtípus visszalépési szabályt képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A betűkészlet visszalépési szabályt képviseli
 type: docs
-weight: 4820
+weight: 4840
 url: /hu/aspose.slides/fontfallbackrule/
 ---
 ## FontFallBackRule osztály
 
-A betűtípus visszalépési szabályt képviseli.
+A betűkészlet visszalépési szabályát képviseli.
 
 ```csharp
 public class FontFallBackRule : IFontFallBackRule
 ```
-
 
 ## Konstruktorok
 
@@ -26,23 +25,23 @@ public class FontFallBackRule : IFontFallBackRule
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | A tartományban ténylegesen definiált betűtípusok számát adja vissza. Csak olvasható Int32. |
-| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | A megadott indexnél található betűtípus nevét adja vissza. Csak olvasható [`IFontFallBackRule`](../ifontfallbackrule). |
-| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Az egymást követő unicode tartomány utolsó indexét adja vissza. |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Az egymást követő unicode tartomány első indexét adja vissza. |
+| [Count](../../aspose.slides/fontfallbackrule/count) { get; } | A tartományhoz ténylegesen meghatározott betűkészletek számát adja vissza. Csak olvasható Int32. |
+| [Item](../../aspose.slides/fontfallbackrule/item) { get; } | A megadott indexnél szereplő betűkészlet nevét adja vissza. Csak olvasható [`IFontFallBackRule`](../ifontfallbackrule). |
+| [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | Az egymást követő Unicode tartomány utolsó indexét adja vissza. |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | Az egymást követő Unicode tartomány első indexét adja vissza. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Új betűtípust (betűtípusokat) ad a FallBack betűtípusok listájához. |
-| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Új betűtípusokat ad a FallBack betűtípusok listájához. |
-| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Eltávolítja az összes betűtípust a listáról. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Új betűkészlet(ek) hozzáadása a visszalépő betűkészletek listájához. |
+| [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Új betűkészletek hozzáadása a visszalépő betűkészletek listájához. |
+| [Clear](../../aspose.slides/fontfallbackrule/clear)() | Az összes betűkészlet eltávolítása a listáról. |
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | Visszaadja a megadott szabály indexét a gyűjteményben. |
-| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Eltávolítja a megadott FallBack betűtípus első előfordulását a listáról. |
-| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Eltávolítja a FallBack betűtípust a lista megadott indexén. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Létrehozza és visszaadja az összes FallBack betűtípust tartalmazó tömböt ehhez a szabályhoz. |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Létrehozza és visszaadja az összes FallBack betűtípust tartalmazó tömböt a lista megadott tartományából. |
+| [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | Eltávolítja egy adott visszalépő betűkészlet első előfordulását a listáról. |
+| [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | Eltávolítja a visszalépő betűkészletet a lista megadott indexén. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | Létrehozza és visszaadja az adott szabály összes visszalépő betűkészletét tartalmazó tömböt. |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | Létrehozza és visszaadja a listában a megadott tartományból származó összes visszalépő betűkészletet tartalmazó tömböt. |
 
 ### Lásd még
 

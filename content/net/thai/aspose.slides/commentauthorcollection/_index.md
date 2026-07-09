@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของผู้เขียนความคิดเห็น.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: แสดงถึงคอลเลกชันของผู้เขียนความคิดเห็น.
 type: docs
 weight: 2640
 url: /th/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection คลาส
 
-แสดงคอลเลกชันของผู้เขียนความคิดเห็น
+แสดงถึงคอลเลกชันของผู้เขียนความคิดเห็น.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -16,32 +16,32 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีจริงในคอลเลกชันนี้. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | ส่งค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้ถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | รับจำนวนขององค์ประกอบที่จริง ๆ แล้วอยู่ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันมีการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/commentauthorcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ICommentAuthor`](../icommentauthor). |
-| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | ส่งรากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | คืนค่ารากฐานของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | เพิ่มผู้เขียนใหม่ที่ท้ายของคอลเลกชัน. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | เพิ่มผู้เขียนใหม่ที่ตำแหน่งสุดท้ายของคอลเลกชัน. |
 | [Clear](../../aspose.slides/commentauthorcollection/clear)() | ลบผู้เขียนทั้งหมดจากคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | ค้นหาผู้เขียนในคอลเลกชันตามชื่อ. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | ค้นหาผู้เขียนในคอลเลกชันตามชื่อและชื่อย่อ. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | ส่ง enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | ลบการเกิดครั้งแรกของผู้เขียนที่ระบุในคอลเลกชัน. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | ค้นหาผู้เขียนในคอลเลกชันตามชื่อและอักษรย่อ. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | ลบการเกิดขึ้นครั้งแรกของผู้เขียนที่ระบุในคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | ลบผู้เขียนที่ตำแหน่งที่ระบุในคอลเลกชัน. |
-| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | สร้างและส่งอาร์เรย์ที่มีผู้เขียนทั้งหมด. |
+| [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | สร้างและคืนค่าอาเรย์ที่มีผู้เขียนทั้งหมด. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [DomObject&lt;TParent&gt;](../domobject-1)
 * คลาส [Presentation](../presentation)
-* อินเทอร์เฟส [ICommentAuthorCollection](../icommentauthorcollection)
+* อินเทอร์เฟซ [ICommentAuthorCollection](../icommentauthorcollection)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

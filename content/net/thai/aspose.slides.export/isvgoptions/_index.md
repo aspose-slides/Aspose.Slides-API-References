@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวเลือก SVG
+description: แสดงแทนตัวเลือก SVG.
 type: docs
 weight: 4060
 url: /th/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions อินเทอร์เฟซ
 
-เป็นตัวเลือก SVG
+แสดงแทนตัวเลือก SVG
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,20 +18,20 @@ public interface ISVGOptions : ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | ส่งกลับอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | แฟล็กบูลีนระบุว่าชุดส่วนที่ตัดออกยังคงอยู่เป็นส่วนหนึ่งของเอกสารหรือไม่. หากเป็น true ส่วนที่ตัดออกจะถูกลบ, หากเป็น false ส่วนเหล่านั้นจะถูกทำซีเรียลไลส์ในเอกสาร (ซึ่งอาจทำให้ไฟล์ใหญ่ขึ้น) อ่าน/เขียน Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | กำหนดว่าข้อความ 3D ถูกปิดการใช้งานใน SVG หรือไม่. อ่าน/เขียน Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่ระบุว่าข้อความถูกแสดงผลโดยไม่ใช้ลิการ์จหรือไม่. เมื่อกำหนดเป็น `true` ลิการ์จจะถูกปิดการใช้งานในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้น คุณสมบัตินี้ถูกตั้งเป็น `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | ปิดการแยกแยะสีไล่จาก FromCornerX และ FromCenter. อ่าน/เขียน Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 ไม่มีความสามารถในการกำหนดอินเซตสำหรับมาร์คเกอร์. เอนจิ้นการเขียน SVG ของ Aspose.Slides มีวิธีแก้ปัญหานี้: มันตัดส่วนปลายของเส้นพร้อมลูกศรเพื่อให้เส้นไม่ทับกับมาร์คเกอร์. ตัวเลือกนี้ปิดการทำงานดังกล่าว. อ่าน/เขียน Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | กำหนดวิธีการจัดการฟอนต์ที่โหลดจากภายนอก. อ่าน/เขียน [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | คืนค่าอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | ฟลักบูลีนที่บ่งชี้ว่าขั้นส่วนที่ถูกตัดยังคงเป็นส่วนหนึ่งของเอกสารหรือไม่ หากเป็น true ส่วนที่ถูกตัดจะถูกลบ หากเป็น false จะถูกจัดเก็บในเอกสาร (ซึ่งอาจทำให้ไฟล์ใหญ่ขึ้น) อ่าน/เขียน Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | กำหนดว่าข้อความ 3D จะถูกปิดการใช้งานใน SVG หรือไม่. อ่าน/เขียน Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลีเกเจอร์ หากตั้งค่าเป็น `true` จะปิดการใช้งานลีเกเจอร์ในผลลัพธ์ที่เรนเดอร์ โดยค่าเริ่มต้นคุณสมบัตินี้ตั้งเป็น `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | ปิดการแยก FromCornerX และ FromCenter gradients. อ่าน/เขียน Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 ไม่มีความสามารถในการกำหนดอินเซ็ตสำหรับมาร์กเกอร์ Aspose.Slides SVG writing engine มีวิธีแก้ไขปัญหานี้: มันตัดส่วนท้ายของเส้นที่มีลูกศรเพื่อให้เส้นไม่ทับมาร์กเกอร์ ตัวเลือกนี้จะปิดพฤติกรรมดังกล่าว. อ่าน/เขียน Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | กำหนดวิธีการจัดการฟอนท์ที่โหลดจากภายนอก. อ่าน/เขียน [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
 | [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | กำหนดคุณภาพการเข้ารหัส JPEG. อ่าน/เขียน Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | รับหรือกำหนดขีดจำกัดความละเอียดต่ำสุดสำหรับการเรสเตอร์ไทซ์เมตาฟายล์. อ่าน/เขียน Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | รับหรือกำหนดขีดจำกัดความละเอียดต่ำสุดสำหรับการเรสเตอร์ไทซ์เมตาฟไฟล์. อ่าน/เขียน Int32. |
 | [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | รับและกำหนดอินเทอร์เฟซคอลแบ็กที่อนุญาตให้ผู้ใช้ควบคุมการแปลงรูปทรง. อ่าน/เขียน [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | กำหนดว่าจะทำการหมุนที่ระบุของรูปทรงขณะเรนเดอร์หรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | กำหนดว่ากรอบข้อความจะรวมอยู่ในพื้นที่เรนเดอร์หรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ false. |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | รับและกำหนดอินเทอร์เฟซ callback ที่อนุญาตให้ผู้ใช้ควบคุมการแปลงรูปทรง. อ่าน/เขียน [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | กำหนดว่าจะทำการหมุนรูปทรงตามที่ระบุขณะเรนเดอร์หรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | กำหนดว่าจะรวม text frame ไว้ในพื้นที่เรนเดอร์หรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ false. |
 | [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | กำหนดว่าจะบันทึกข้อความบนสไลด์เป็นกราฟิกหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม

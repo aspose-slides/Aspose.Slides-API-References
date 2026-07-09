@@ -1,31 +1,31 @@
 ---
 title: ImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Niemutowalny obiekt reprezentujący kolekcję tylko do odczytu skutecznych efektów transformacji obrazu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Niezmienny obiekt, który reprezentuje kolekcję tylko do odczytu efektywnych transformacji obrazu.
 type: docs
-weight: 3540
+weight: 3560
 url: /pl/aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 ## ImageTransformOCollectionEffectiveData klasa
 
-Obiekt niemutowalny, który reprezentuje kolekcję tylko do odczytu skutecznych efektów transformacji obrazu.
+Niezmienny obiekt, który reprezentuje kolekcję tylko do odczytu efektywnych transformacji obrazu.
 
 ```csharp
 public class ImageTransformOCollectionEffectiveData : IImageTransformOCollectionEffectiveData
 ```
 
-## Konstruktorzy
+## Konstruktory
 
 | Nazwa | Opis |
 | --- | --- |
-| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Konstruktor domyślny. |
+| [ImageTransformOCollectionEffectiveData](imagetransformocollectioneffectivedata)() | Domyślny konstruktor. |
 
 ## Właściwości
 
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Zwraca liczbę efektów obrazu w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Zwraca element według indeksu. |
 | [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -36,11 +36,11 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 | [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Określa, czy podany obiekt jest równy bieżącemu obiektowi. |
 | [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszowania i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tablica haszująca. |
 
 ### Uwagi
 
-Nazwa IImageTransformOperationCollectionEffectiveData skrócona do IImageTransformOCollectionEffectiveData ze względu na limit długości nazw w COM, który nie może przekraczać 39 znaków.
+Nazwa IImageTransformOperationCollectionEffectiveData została skrócona do IImageTransformOCollectionEffectiveData z powodu ograniczenia długości nazw w COM, które nie mogą przekraczać 39 znaków.
 
 ### Zobacz także
 

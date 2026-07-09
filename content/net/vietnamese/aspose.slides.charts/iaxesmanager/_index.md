@@ -1,6 +1,6 @@
 ---
 title: IAxesManager
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Cung cấp quyền truy cập vào các trục biểu đồ.
 type: docs
 weight: 1700
@@ -24,7 +24,7 @@ public interface IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Lấy trục chuỗi của biểu đồ. Chỉ đọc [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Lấy trục dọc của biểu đồ. Chỉ đọc [`IAxis`](../iaxis). |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

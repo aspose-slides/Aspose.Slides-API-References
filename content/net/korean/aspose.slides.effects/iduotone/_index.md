@@ -1,6 +1,6 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참고
 description: Duotone 효과를 나타냅니다.
 type: docs
 weight: 3260
@@ -20,10 +20,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 어두운 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 밝은 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 다크 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 라이트 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IDuotoneEffectiveData](../iduotoneeffectivedata)

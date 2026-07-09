@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ออบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของคอลเลกชันแบบอ่านอย่างเดียวของฟอร์แมตเส้นที่มีประสิทธิภาพ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคอลเลกชันแบบอ่านอย่างเดียวของรูปแบบเส้นที่มีผล
 type: docs
 weight: 11300
 url: /th/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของคอลเลกชันที่อ่านอย่างเดียวของฟอร์แมตเส้นที่มีประสิทธิภาพ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงคอลเลกชันแบบอ่านอย่างเดียวของรูปแบบเส้นที่มีผล
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,7 +18,7 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. แบบอ่านอย่างเดียว [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | ดึงอีลเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### หมายเหตุ
 

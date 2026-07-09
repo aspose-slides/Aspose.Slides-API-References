@@ -1,9 +1,9 @@
 ---
 title: ICommentCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de comentários de um autor.
 type: docs
-weight: 5570
+weight: 5590
 url: /pt/aspose.slides/icommentcollection/
 ---
 ## ICommentCollection interface
@@ -31,8 +31,8 @@ public interface ICommentCollection : IGenericCollection<IComment>
 | [InsertModernComment](../../aspose.slides/icommentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Insere um novo comentário moderno em uma coleção no índice especificado. |
 | [Remove](../../aspose.slides/icommentcollection/remove)(IComment) | Remove a primeira ocorrência do comentário especificado em uma coleção. |
 | [RemoveAt](../../aspose.slides/icommentcollection/removeat)(int) | Remove o elemento no índice especificado em uma coleção. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Cria e devolve um array com todos os comentários. |
-| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Cria e devolve um array com todos os comentários do intervalo especificado. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray)() | Cria e retorna um array com todos os comentários. |
+| [ToArray](../../aspose.slides/icommentcollection/toarray#toarray_1)(int, int) | Cria e retorna um array com todos os comentários do intervalo especificado. |
 
 ### Veja Também
 

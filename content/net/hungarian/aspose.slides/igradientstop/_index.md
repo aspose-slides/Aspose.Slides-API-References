@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
-second_title: Aspose.Sildes .NET API-referencia
-description: Gradient formátumot képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Gradient formátumot ábrázol.
 type: docs
-weight: 6000
+weight: 6020
 url: /hu/aspose.slides/igradientstop/
 ---
 ## IGradientStop interfész
 
-A gradient formátumot képviseli.
+Egy gradient formátumot ábrázol.
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Név | Leírás |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Visszaadja egy gradient állomás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Visszaadja vagy beállítja egy gradient állomás pozícióját (0..1). Olvasható/írható Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Visszaadja egy gradientállomás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Visszaadja vagy beállítja egy gradientállomás pozícióját (0..1). Olvasható/írható Single. |
 
 ### Lásd még
 

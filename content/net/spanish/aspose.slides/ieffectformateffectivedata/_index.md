@@ -1,15 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
-second_title: Aspose.Slides para .NET Referencia de API
-description: Objeto inmutable que contiene propiedades de formateo de efecto efectivas.
+second_title: Referencia de la API de Aspose.Sildes para .NET
+description: Objeto inmutable que contiene propiedades de formato de efecto efectivas.
 type: docs
-weight: 5550
+weight: 5750
 url: /es/aspose.slides/ieffectformateffectivedata/
 ---
+## IEffectFormatEffectiveData interfaz
 
-## Interfaz IEffectFormatEffectiveData
-
-Objeto inmutable que contiene propiedades de formateo de efecto efectivas.
+Objeto inmutable que contiene propiedades de formato de efecto efectivas.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -19,25 +18,25 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | Nombre | Descripción |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Permite obtener la interfaz base IEffectParamSource. Solo lectura [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Efecto de desenfoque. Solo lectura [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efecto de superposición de relleno. Solo lectura [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efecto de resplandor. Solo lectura [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Sombra interna. Solo lectura [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Devuelve verdadero si todos los efectos están desactivados (como se creó, objeto EffectFormat por defecto). Solo lectura Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Sombra externa. Solo lectura [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Sombra preestablecida. Solo lectura [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflexión. Solo lectura [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Borde suave. Solo lectura [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | Permite obtener la interfaz base IEffectParamSource. Solo lectura [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | Efecto de desenfoque. Solo lectura [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | Efecto de superposición de relleno. Solo lectura [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | Efecto de brillo. Solo lectura [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | Sombra interna. Solo lectura [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | Devuelve true si todos los efectos están deshabilitados (como al crear, objeto EffectFormat predeterminado). Solo lectura Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | Sombra externa. Solo lectura [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | Sombra predefinida. Solo lectura [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | Reflexión. Solo lectura [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | Borde suave. Solo lectura [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### Observaciones
 
-Esta interfaz se utiliza junto con la interfaz [`IEffectFormat`](../ieffectformat) para devolver valores de formateo efectivos con la herencia aplicada.
+Esta interfaz se usa junto con la interfaz [`IEffectFormat`](../ieffectformat) para devolver valores de formato efectivos con la herencia aplicada.
 
 ### Véase también
 
-* interfaz [IEffectParamSource](../ieffectparamsource)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* interfaz [IEffectParamSource](../ieffectparamsource)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
-<!-- NO EDITAR: generado por xmldocmd para Aspose.Slides.dll -->
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

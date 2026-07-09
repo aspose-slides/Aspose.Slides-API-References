@@ -1,14 +1,14 @@
 ---
 title: IChartData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho dữ liệu được sử dụng cho việc vẽ biểu đồ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn dữ liệu được sử dụng để vẽ biểu đồ.
 type: docs
 weight: 1800
 url: /vi/aspose.slides.charts/ichartdata/
 ---
-## Giao diện IChartData
+## IChartData giao diện
 
-Represents data used for a chart plotting.
+Biểu diễn dữ liệu được sử dụng để vẽ biểu đồ.
 
 ```csharp
 public interface IChartData
@@ -18,31 +18,31 @@ public interface IChartData
 
 | Tên | Mô tả |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Lấy các danh mục chính (hoặc cả danh mục chính và phụ nếu thuộc tính [`UseSecondaryCategories`](./usesecondarycategories) là false). Chỉ đọc [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Lấy nhà máy ô để tạo các ô dùng cho chuỗi biểu đồ hoặc danh mục. Chỉ đọc [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Đại diện cho nguồn dữ liệu của biểu đồ |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Lấy kiểu của sổ làm việc nhúng. Trả về NotDefined nếu [`DataSourceType`](./datasourcetype) là ExternalWorkbook. Chỉ đọc [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Đại diện cho đường dẫn sổ làm việc bên ngoài nếu nguồn dữ liệu là external, ngược lại là null |
-| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Lấy các danh mục phụ nếu thuộc tính [`UseSecondaryCategories`](./usesecondarycategories) là true. Chỉ đọc [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Lấy các danh mục chính (hoặc cả danh mục chính và phụ nếu thuộc tính [`UseSecondaryCategories`](./usesecondarycategories) là sai). Chỉ đọc [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Lấy nhà máy ô để tạo các ô được sử dụng cho chuỗi biểu đồ hoặc danh mục. Chỉ đọc [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | Biểu diễn nguồn dữ liệu của biểu đồ |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Lấy kiểu của workbook được nhúng. Trả về NotDefined nếu [`DataSourceType`](./datasourcetype) là ExternalWorkbook. Chỉ đọc [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Biểu diễn đường dẫn workbook bên ngoài nếu nguồn dữ liệu là bên ngoài, ngược lại null |
+| [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Lấy các danh mục phụ nếu thuộc tính [`UseSecondaryCategories`](./usesecondarycategories) là đúng. Chỉ đọc [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Lấy các chuỗi. Chỉ đọc [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Lấy các nhóm chuỗi. Chỉ đọc [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Nếu false thì thuộc tính [`SecondaryCategories`](./secondarycategories) trả về null và dữ liệu trong thuộc tính [`Categories`](./categories) được sử dụng cho cả chuỗi chính và phụ. Nếu true thì dữ liệu trong thuộc tính [`SecondaryCategories`](./secondarycategories) được sử dụng cho chuỗi phụ và dữ liệu trong thuộc tính [`Categories`](./categories) được sử dụng cho chuỗi chính. Đọc/ghi Boolean. |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Lấy các nhóm của chuỗi. Chỉ đọc [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Nếu sai thì thuộc tính [`SecondaryCategories`](./secondarycategories) trả về null và dữ liệu trong thuộc tính [`Categories`](./categories) được sử dụng cho cả chuỗi chính và phụ. Nếu đúng thì dữ liệu trong thuộc tính [`SecondaryCategories`](./secondarycategories) được sử dụng cho chuỗi phụ và dữ liệu trong thuộc tính [`Categories`](./categories) được sử dụng cho chuỗi chính. Đọc/ghi Boolean. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Lấy phạm vi dữ liệu biểu đồ. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Ghi sổ Excel chứa bên trong vào một luồng bộ nhớ. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Đặt sổ làm việc bên ngoài làm nguồn dữ liệu cho biểu đồ. Dữ liệu biểu đồ sẽ được cập nhật từ sổ đích. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Đặt sổ làm việc bên ngoài làm nguồn dữ liệu cho biểu đồ. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Đặt phạm vi dữ liệu biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số chuỗi trong dữ liệu biểu đồ thì các chuỗi bổ sung có cùng kiểu với chuỗi cuối cùng trong bộ sưu tập hiện tại sẽ được thêm vào cuối bộ sưu tập. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Ghi workbook Excel được chứa nội bộ vào một luồng trong bộ nhớ. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Đặt workbook bên ngoài làm nguồn dữ liệu cho biểu đồ. Dữ liệu biểu đồ sẽ được cập nhật từ workbook đích. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Đặt workbook bên ngoài làm nguồn dữ liệu cho biểu đồ. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Đặt phạm vi dữ liệu biểu đồ. Các chuỗi và danh mục sẽ được cập nhật dựa trên phạm vi dữ liệu mới. Nếu số lượng chuỗi trong phạm vi dữ liệu lớn hơn số lượng chuỗi trong dữ liệu biểu đồ thì sẽ thêm các chuỗi bổ sung có cùng kiểu với chuỗi cuối cùng trong bộ sưu tập hiện tại vào cuối bộ sưu tập. |
 | [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Hoán đổi dữ liệu qua trục. Dữ liệu được vẽ trên trục X sẽ chuyển sang trục Y và ngược lại. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Khởi tạo sổ Excel chứa bên trong bằng giá trị do người dùng chỉ định. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Khởi tạo workbook Excel được chứa nội bộ bằng giá trị do người dùng chỉ định. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

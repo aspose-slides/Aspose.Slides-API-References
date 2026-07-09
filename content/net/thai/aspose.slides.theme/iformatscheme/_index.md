@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: จัดเก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง
 type: docs
 weight: 11270
 url: /th/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme อินเทอร์เฟซ
 
-จัดเก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่างต่าง ๆ.
+เก็บรูปแบบที่กำหนดโดยธีมสำหรับรูปร่าง
 
 ```csharp
 public interface IFormatScheme : ISlideComponent

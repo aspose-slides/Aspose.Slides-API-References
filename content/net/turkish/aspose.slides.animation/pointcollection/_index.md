@@ -1,9 +1,9 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Animasyon noktalarının koleksiyonunu temsil eder.
 type: docs
-weight: 710
+weight: 730
 url: /tr/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection sınıfı
@@ -25,13 +25,13 @@ public class PointCollection : IPointCollection
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Koleksiyondaki nokta sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Belirtilen indeksteki bir noktayı döndürür. |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Belirtilen dizindeki bir noktayı döndürür. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Koleksiyonun üzerinden yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
 
 ### Ayrıca Bakınız
 

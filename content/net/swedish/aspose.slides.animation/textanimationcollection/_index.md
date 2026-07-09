@@ -3,7 +3,7 @@ title: TextAnimationCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling textanimationer.
 type: docs
-weight: 810
+weight: 830
 url: /sv/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection klass
@@ -14,24 +14,24 @@ Representerar en samling textanimationer.
 public class TextAnimationCollection : ITextAnimationCollection
 ```
 
-## Konstruktörer
+## Konstruktorer
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [TextAnimationCollection](textanimationcollection)() | Standardkonstruktorn. |
+| [TextAnimationCollection](textanimationcollection)() | Standardkonstruktor. |
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | Returnerar antalet element i samlingen. Skrivskyddad Int32. |
 | [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Returnerar element efter index. (2 indexerare) |
+| [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | Returnerar element med index. (2 indexerare) |
 | [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides.animation/textanimationcollection/add)() | Lägger till en ny textanimation i samlingen. |
 | [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |

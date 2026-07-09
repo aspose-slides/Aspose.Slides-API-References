@@ -1,14 +1,14 @@
 ---
 title: IMathArrayFactory
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Bir matematik dizisi oluşturmayı sağlar
 type: docs
-weight: 8090
+weight: 8110
 url: /tr/aspose.slides.mathtext/imatharrayfactory/
 ---
-## IMathArrayFactory arayüz
+## IMathArrayFactory arayüzü
 
-Matematik dizisi oluşturmayı sağlar
+Bir matematik dizisi oluşturmayı sağlar
 
 ```csharp
 public interface IMathArrayFactory
@@ -16,7 +16,7 @@ public interface IMathArrayFactory
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray)(IMathElement) | Bir matematik dizisi oluşturur ve belirtilen öğeyi içine yerleştirir |
 | [CreateMathArray](../../aspose.slides.mathtext/imatharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Bir matematik dizisi oluşturur ve belirtilen öğeleri içine yerleştirir |

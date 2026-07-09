@@ -3,7 +3,7 @@ title: IFormat
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje właściwości formatu wykresu.
 type: docs
-weight: 2080
+weight: 2100
 url: /pl/aspose.slides.charts/iformat/
 ---
 ## IFormat interfejs
@@ -18,7 +18,7 @@ public interface IFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Zwraca efekty użyte w wykresie. Tylko do odczytu [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Zwraca efekty używane w wykresie. Tylko do odczytu [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Zwraca format 3D wykresu. Tylko do odczytu [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Zwraca właściwości stylu wypełnienia wykresu. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | Zwraca właściwości stylu linii wykresu. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |

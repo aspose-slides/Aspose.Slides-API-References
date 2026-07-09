@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Hue/Saturation/Luminance 효과를 나타냅니다. hue, saturation 및 luminance는 각각 현재 값에 비례하여 조정될 수 있습니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도는 각각 현재 값에 따라 조정될 수 있습니다.
 type: docs
 weight: 3370
 url: /ko/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData 인터페이스
 
-Hue/Saturation/Luminance 효과를 나타냅니다. hue, saturation 및 luminance는 각각 현재 값에 비례하여 조정될 수 있습니다.
+Hue/Saturation/Luminance 효과를 나타냅니다. 색조, 채도 및 명도는 현재 값에 상대적으로 각각 조정될 수 있습니다.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | hue 백분율을 반환합니다. 읽기 전용 Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | luminance 백분율을 반환합니다. 읽기 전용 Single. |
-| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | saturation 백분율을 반환합니다. 읽기 전용 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | IEffectEffectiveData 인터페이스의 기본을 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | 색조 백분율을 반환합니다. 읽기 전용 Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | 명도 백분율을 반환합니다. 읽기 전용 Single. |
+| [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | 채도 백분율을 반환합니다. 읽기 전용 Single. |
 
 ### 참고
 

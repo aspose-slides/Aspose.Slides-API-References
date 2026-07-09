@@ -1,9 +1,9 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Egy figyelmeztetés típusát képviseli.
 type: docs
-weight: 11810
+weight: 11830
 url: /hu/aspose.slides.warnings/warningtype/
 ---
 ## WarningType enumeráció
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | A forrásdokumentumban egy probléma észlelve lett, amely miatt nagy valószínűséggel a dokumentum nem nyitható meg, ha az eredeti formátumban van mentve. |
-| DataLoss | `1` | A szöveg/grafikon/kép vagy egyéb adatok teljesen hiányozni fognak akár a betöltés után a dokumentumfában, akár a mentés után a létrehozott dokumentumból. |
+| SourceFileCorruption | `0` | A forrásdokumentumban egy probléma észlelhető, amely miatt nagyon valószínű, hogy a dokumentum nem lesz megnyitható, ha eredeti formátumban van mentve. |
+| DataLoss | `1` | A szöveg/grafikon/kép vagy egyéb adatok teljesen hiányozni fognak a dokumentumfából betöltés után, vagy a mentés után létrehozott dokumentumból. |
 | MajorFormattingLoss | `2` | Jelentős formázásveszteség. |
 | MinorFormattingLoss | `3` | Kisebb formázásveszteség. |
 | CompatibilityIssue | `4` | Ez egy ismert probléma, amely megakadályozza a dokumentum megnyitását bizonyos felhasználói ügynökök vagy azok korábbi verziói által. |
-| UnexpectedContent | `99` | A forrásdokumentum egyes tartalma nem ismerhető fel (azaz nem támogatott), ez esetleg problémákat okozhat vagy adat-/formázásveszteséghez vezethet. |
+| UnexpectedContent | `99` | A forrásdokumentum egyes tartalma nem ismerhető fel (azaz nem támogatott), ez problémákat okozhat vagy akár adat- és formázásveszteséget eredményezhet. |
 
 ### Lásd még
 

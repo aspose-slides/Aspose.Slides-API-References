@@ -1,6 +1,6 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: स्लाइड का आकार और अभिविन्यास दर्शाता है।
 type: docs
 weight: 7090
@@ -18,18 +18,18 @@ public interface ISlideSize
 
 | नाम | विवरण |
 | --- | --- |
-| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | स्लाइड अभिविन्यास प्राप्त करता है या सेट करता है। |
-| [Size](../../aspose.slides/islidesize/size) { get; } | स्लाइड आयाम को पॉइंट में प्राप्त करता है। |
+| [Orientation](../../aspose.slides/islidesize/orientation) { get; set; } | स्लाइड अभिविन्यास को प्राप्त या सेट करता है। |
+| [Size](../../aspose.slides/islidesize/size) { get; } | स्लाइड के आयाम पॉइंट्स में प्राप्त करता है। |
 | [Type](../../aspose.slides/islidesize/type) { get; } | स्लाइड आकार प्रकार को प्राप्त करता है। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | प्रकार द्वारा स्लाइड आकार सेट करता है और मौजूदा सामग्री को स्केल करता है। |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | स्पष्ट रूप से स्लाइड आयाम सेट करता है और मौजूदा सामग्री को स्केल करता है। |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | प्रकार के आधार पर स्लाइड आकार सेट करता है और मौज़ूदा सामग्री को स्केल करता है। |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | स्लाइड आयाम स्पष्ट रूप से सेट करता है और मौज़ूदा सामग्री को स्केल करता है। |
 
-### देखें भी
+### देखिए
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes a .NET API Referenciához
-description: A SmartArt diagram színsémáját képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A SmartArt diagram színsémáját ábrázolja.
 type: docs
-weight: 10590
+weight: 10610
 url: /hu/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType enumeráció
+## SmartArtColorType felsorolás
 
-A SmartArt diagram színsémáját képviseli.
+A SmartArt diagram színsémáját ábrázolja.
 
 ```csharp
 public enum SmartArtColorType

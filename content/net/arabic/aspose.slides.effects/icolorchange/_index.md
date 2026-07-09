@@ -1,12 +1,12 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير تغيير اللون. يتم استبدال كائنات FromColor بكائنات ToColor.
 type: docs
 weight: 3220
 url: /ar/aspose.slides.effects/icolorchange/
 ---
-## واجهة IColorChange
+## IColorChange واجهة
 
 يمثل تأثير تغيير اللون. يتم استبدال كائنات FromColor بكائنات ToColor.
 
@@ -19,10 +19,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | يسمح بالحصول على الواجهة الأساسية IAccessiblePVIObject. قراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | يسمح بالحصول على الواجهة الأساسية IImageTransformOperation. قراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | اللون الذي سيتم استبداله. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | اللون الذي سيستبدل. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | يسمح بالحصول على واجهة IAccessiblePVIObject الأساسية. للقراءة فقط [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | يسمح بالحصول على واجهة IImageTransformOperation الأساسية. للقراءة فقط [`IImageTransformOperation`](../iimagetransformoperation). |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | اللون الذي سيتم استبداله. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | اللون الذي سيستبدل. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### انظر أيضًا
 

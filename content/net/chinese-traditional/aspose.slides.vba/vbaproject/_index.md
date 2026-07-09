@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示具有投影片巨集的 VBA 專案。
+description: 代表包含投影片巨集的 VBA 專案。
 type: docs
 weight: 11650
 url: /zh-hant/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject 類別
 
-表示具有投影片巨集的 VBA 專案。
+代表包含投影片巨集的 VBA 專案。
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -18,25 +18,25 @@ public sealed class VbaProject : IVbaProject
 
 | 名稱 | 說明 |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | 此建構函式從頭開始建立新的 VBA 專案。專案將使用 1252 Windows Latin 1 (ANSI) 代碼頁建立 |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | 此建構函式從 OLE 容器的二進位表示載入 VBA 專案。 |
+| [VbaProject](vbaproject#constructor)() | 此建構函式會從頭開始建立新的 VBA 專案。專案將使用 1252 Windows Latin 1 (ANSI) 代碼頁建立。 |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | 此建構函式會從 OLE 容器的二進位表示載入 VBA 專案。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | 指示 VBAProject 是否受密碼保護以檢視專案屬性。唯讀 Boolean。 |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 傳回 VBA 專案中包含的所有模組的清單。唯讀 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 傳回 VBA 專案的名稱。唯讀 String。 |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 傳回 VBA 專案中包含的所有參考的清單。唯讀 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | 指示 VBAProject 是否受到密碼保護以檢視專案屬性。唯讀 Boolean。 |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | 返回 VBA 專案中包含的所有模組的列表。唯讀 [`IVbaModuleCollection`](../ivbamodulecollection)。 |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | 返回 VBA 專案的名稱。唯讀 String。 |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | 返回 VBA 專案中包含的所有參考的列表。唯讀 [`IVbaReferenceCollection`](../ivbareferencecollection)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | 傳回 VBA 專案的二進位表示 (OLE 容器)。 |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | 返回 VBA 專案的二進位表示，作為 OLE 容器。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IVbaProject](../ivbaproject)
 * 命名空間 [Aspose.Slides.Vba](../../aspose.slides.vba)

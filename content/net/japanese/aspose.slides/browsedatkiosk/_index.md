@@ -1,20 +1,20 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes for .NET API リファレンス
-description: キオスクでフルスクリーン閲覧
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: キオスクで全画面閲覧
 type: docs
-weight: 1020
+weight: 1040
 url: /ja/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk クラス
 
-キオスクで閲覧（フルスクリーン）
+キオスクで閲覧（全画面）
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |

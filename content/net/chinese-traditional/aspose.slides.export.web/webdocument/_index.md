@@ -1,14 +1,14 @@
 ---
 title: WebDocument
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示簡報的過渡形式，可用於儲存為 Web 格式。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示簡報的過渡形式，可儲存為 Web 格式。
 type: docs
 weight: 4680
 url: /zh-hant/aspose.slides.export.web/webdocument/
 ---
 ## WebDocument 類別
 
-表示簡報的過渡形式，可用於儲存為 Web 格式。
+表示簡報的過渡形式，可儲存為 Web 格式。
 
 ```csharp
 public class WebDocument
@@ -24,9 +24,9 @@ public class WebDocument
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 返回文件的全域儲存區。唯讀 [`Storage`](../storage)。 |
+| [Global](../../aspose.slides.export.web/webdocument/global) { get; } | 傳回文件的全域儲存空間。唯讀 [`Storage`](../storage)。 |
 | [Input](../../aspose.slides.export.web/webdocument/input) { get; } |  |
-| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | 返回文件的輸出元素集合。唯讀 [`Output`](./output)。 |
+| [Output](../../aspose.slides.export.web/webdocument/output) { get; } | 傳回文件的輸出元素集合。唯讀 [`Output`](./output)。 |
 
 ## 方法
 

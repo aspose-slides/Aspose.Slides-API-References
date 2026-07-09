@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Một triển khai IAIWebClient./iaiwebclient tích hợp sẵn kết nối tới LLM riêng của Aspose. Đây là client mặc định được sử dụng bởi hàm khởi tạo không tham số SlidesAIAgent./slidesaiagent/slidesaiagent.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Một triển khai IAIWebClient./iaiwebclient tích hợp sẵn kết nối tới LLM của riêng Asposes. Đây là client mặc định được sử dụng bởi hàm khởi tạo không tham số SlidesAIAgent./slidesaiagent/slidesaiagent.
 type: docs
 weight: 10
 url: /vi/aspose.slides.ai/asposeaiwebclient/
 ---
-## AsposeAIWebClient lớp
+## Lớp AsposeAIWebClient
 
-Một triển khai [`IAIWebClient`](../iaiwebclient) tích hợp sẵn kết nối tới LLM của Aspose. Đây là client mặc định được sử dụng bởi hàm khởi tạo không tham số [`SlidesAIAgent`](../slidesaiagent/slidesaiagent).
+Một triển khai [`IAIWebClient`](../iaiwebclient) được tích hợp sẵn kết nối tới LLM của riêng Aspose. Đây là client mặc định được sử dụng bởi hàm khởi tạo không tham số [`SlidesAIAgent`](../slidesaiagent/slidesaiagent).
 
 ```csharp
 public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
@@ -18,23 +18,23 @@ public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định. Đây là client được sử dụng bởi hàm khởi tạo không tham số [`SlidesAIAgent`](../slidesaiagent/slidesaiagent), do đó việc tạo nó một cách rõ ràng chỉ cần thiết khi truyền client trực tiếp vào hàm khởi tạo [`SlidesAIAgent`](../slidesaiagent/slidesaiagent). |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối Aspose LLM mặc định bằng cách sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không bị giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối LLM mặc định của Aspose. Đây là client được sử dụng bởi hàm khởi tạo không tham số [`SlidesAIAgent`](../slidesaiagent/slidesaiagent), vì vậy việc tạo nó một cách rõ ràng chỉ cần thiết khi truyền client trực tiếp tới hàm khởi tạo [`SlidesAIAgent`](../slidesaiagent/slidesaiagent). |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | Tạo một thể hiện của Aspose AI web client kết nối tới điểm cuối LLM mặc định của Aspose bằng một HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không bị hủy bởi thể hiện này và vẫn thuộc quyền sở hữu của người gọi. |
 | [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | Tạo một thể hiện của Aspose AI web client kết nối tới một URL điểm cuối tùy chỉnh. Sử dụng phương thức này khi bạn có URL do nhóm Aspose.Slides cung cấp; nếu không, hãy sử dụng phương thức [`AsposeAIWebClient`](./asposeaiwebclient) với URL mặc định. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | Tạo một thể hiện của Aspose AI web client kết nối tới một URL điểm cuối tùy chỉnh bằng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không bị giải phóng bởi thể hiện này và vẫn thuộc sở hữu của người gọi. Sử dụng phương thức này khi bạn có URL do nhóm Aspose.Slides cung cấp và muốn cung cấp HttpClient riêng; nếu bạn chỉ cần HttpClient riêng với URL mặc định, hãy sử dụng phương thức [`AsposeAIWebClient`](./asposeaiwebclient) thay thế. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | Tạo một thể hiện của Aspose AI web client kết nối tới một URL điểm cuối tùy chỉnh bằng một HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không bị hủy bởi thể hiện này và vẫn thuộc quyền sở hữu của người gọi. Sử dụng phương thức này khi bạn có URL do nhóm Aspose.Slides cung cấp và muốn cung cấp HttpClient riêng; nếu bạn chỉ cần HttpClient riêng với URL mặc định, hãy sử dụng phương thức [`AsposeAIWebClient`](./asposeaiwebclient) thay thế. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | Gửi một chỉ dẫn trò chuyện tới mô hình AI và trả về tin nhắn phản hồi cho chỉ dẫn đã cho. |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | Tạo một thể hiện cuộc hội thoại. Không giống các cuộc gọi AI thông thường, các cuộc hội thoại giữ lại toàn bộ ngữ cảnh. |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | Gửi một chỉ thị trò chuyện tới mô hình AI và trả về tin nhắn phản hồi cho chỉ thị đã cho. |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | Tạo một thể hiện cuộc trò chuyện. Khác với các cuộc gọi AI thông thường, các cuộc trò chuyện giữ lại toàn bộ ngữ cảnh. |
 | [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | Giải phóng các tài nguyên được sử dụng bởi thể hiện này. |
 
 ### Xem thêm
 
 * giao diện [IAIWebClient](../iaiwebclient)
 * không gian tên [Aspose.Slides.AI](../../aspose.slides.ai)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

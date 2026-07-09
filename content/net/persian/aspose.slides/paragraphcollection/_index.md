@@ -1,52 +1,52 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایشگر مجموعه‌ای از پاراگراف‌ها.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک مجموعه از پاراگراف‌ها را نشان می‌دهد.
 type: docs
 weight: 9290
 url: /fa/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection کلاس
 
-نمایشگر مجموعه‌ای از پاراگراف‌ها.
+یک مجموعه از پاراگراف‌ها را نشان می‌دهد.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را بر می‌گرداند. فقط‌خواندنی Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا ICollection فقط‌خواندنی است. فقط‌خواندنی Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | عنصری را در اندیس مشخص شده بر می‌گرداند. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | تعداد عناصری که واقعا در مجموعه موجود است را بر می‌گرداند. فقط-خواندنی Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد آیا ICollection فقط-خواندنی است. فقط-خواندنی Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | عنصر موجود در ایندکس مشخص را بر می‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
 | [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | یک Paragraph را به انتهای مجموعه اضافه می‌کند. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | محتویات ParagraphCollection را به انتهای مجموعه اضافه می‌کند. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | متن را از رشته HTML مشخص شده به مجموعه اضافه می‌کند. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | متن را از رشته HTML مشخص شده به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | محتوای ParagraphCollection را به انتهای مجموعه اضافه می‌کند. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | متن را از رشته html مشخص به مجموعه اضافه می‌کند. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | متن را از رشته html مشخص به مجموعه اضافه می‌کند. |
 | [Clear](../../aspose.slides/paragraphcollection/clear)() | تمام عناصر را از مجموعه حذف می‌کند. |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | تعیین می‌کند آیا ICollection شامل مقدار خاصی است یا نه. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | عناصر ICollection را به یک Array کپی می‌کند، شروع از یک اندیس خاص Array. |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | پاراگراف‌های مشخص شده را به HTML تبدیل می‌کند و به‌عنوان شیء String برمی‌گرداند. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | یک enumerator که در مجموعه پیمایش می‌کند را برمی‌گرداند. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | اندیس یک مورد خاص را در IList تعیین می‌کند. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | یک Paragraph را در اندیس مشخص شده به مجموعه وارد می‌کند. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | محتویات ParagraphCollection را در اندیس مشخص شده به مجموعه وارد می‌کند. |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | تعیین می‌کند که آیا ICollection شامل مقدار خاصی است یا نه. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | عناصر ICollection را به یک آرایه کپی می‌کند، شروع از یک ایندکس خاص آرایه. |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | پاراگراف‌های مشخص شده را به HTML تبدیل می‌کند و به‌صورت شیء String بر می‌گرداند. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | یک enumerator که از مجموعه عبور می‌کند را برمی‌گرداند. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | شاخص یک مورد خاص را در IList تعیین می‌کند. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | یک Paragraph را در ایندکس مشخص به مجموعه وارد می‌کند. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | محتوای ParagraphCollection را در ایندکس مشخص به مجموعه وارد می‌کند. |
 | [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | اولین رخداد یک شیء خاص را از ICollection حذف می‌کند. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | عنصر در اندیس مشخص شده از مجموعه را حذف می‌کند. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | عنصر موجود در ایندکس مشخص مجموعه را حذف می‌کند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * کلاس [DomObject&lt;TParent&gt;](../domobject-1)
 * کلاس [TextFrame](../textframe)
 * رابط [IParagraphCollection](../iparagraphcollection)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

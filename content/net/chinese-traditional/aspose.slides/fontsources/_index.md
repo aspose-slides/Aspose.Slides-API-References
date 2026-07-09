@@ -1,6 +1,6 @@
 ---
 title: FontSources
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 提供外部字型的檔案與記憶體來源。
 type: docs
 weight: 4860
@@ -24,10 +24,10 @@ public class FontSources : IFontSources
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | 包含字型檔案的資料夾。位於這些資料夾中的所有字型檔案都會被納入集合。會遞迴搜尋子資料夾。 |
-| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | 以位元組陣列形式表示的字型集合。 |
+| [FontFolders](../../aspose.slides/fontsources/fontfolders) { get; set; } | 包含字型檔案的資料夾。位於這些資料夾中的所有字型檔案皆會包含在集合中。遞迴搜尋的資料夾。 |
+| [MemoryFonts](../../aspose.slides/fontsources/memoryfonts) { get; set; } | 以位元組陣列表示的字型集合。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IFontSources](../ifontsources)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

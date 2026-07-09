@@ -1,14 +1,14 @@
 ---
 title: IFonts
-second_title: Aspose.Sildes .NET API referencia
-description: A betűkészletek gyűjteményét jelöli.
+second_title: Aspose.Sildes .NET API referenciája
+description: A betűtípusok gyűjteményét képviseli.
 type: docs
-weight: 5880
+weight: 5900
 url: /hu/aspose.slides/ifonts/
 ---
 ## IFonts interfész
 
-A betűkészletek gyűjteményét jelöli.
+A betűtípusok gyűjteményét képviseli.
 
 ```csharp
 public interface IFonts
@@ -18,18 +18,18 @@ public interface IFonts
 
 | Név | Leírás |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Visszaadja vagy beállítja a komplex írásrendszer betűtípusát. Olvasás/írás [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Visszaadja vagy beállítja a Kelet-ázsiai betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Visszaadja vagy beállítja a Latin betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | Visszaadja vagy beállítja a komplex szkript betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | Visszaadja vagy beállítja az kelet-ázsiai betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | Visszaadja vagy beállítja a latin betűtípust. Olvasás/írás [`IFontData`](../ifontdata). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | Lekéri a betűtípus nevét, amely egy adott szkript címkéhez kapcsolódik a prezentáció témájában. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Visszaad egy szótárt, amely tartalmazza az összes szkript betűtípus definíciót a prezentációban. |
-| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Eltávolítja a betűtípus beállítást, amely egy adott szkript címkéhez kapcsolódik a téma betűtípus-gyűjteményéből. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Hozzárendel egy betűtípus nevet egy adott szkript címkéhez, amely meghatározza, hogyan jelenik meg a szkript szövege a prezentációban. |
+| [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | A prezentáció témájából a megadott szkript címkéhez tartozó betűtípus nevet adja vissza. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | Visszaad egy szótárat, amely a prezentációban szereplő összes szkript betűtípusdefiníciót tartalmazza. |
+| [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | Eltávolítja a megadott szkript címkéhez tartozó betűtípusbeállítást a téma betűtípus-gyűjteményéből. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | Betűtípus nevet rendel egy adott szkript címkéhez, amely meghatározza, hogyan jelenjen meg a szkript szövege a prezentációban. |
 
 ### Lásd még
 

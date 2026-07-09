@@ -16,14 +16,14 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/icaptionscollection/count) { get; } | 컬렉션에 있는 요소의 수를 반환합니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/icaptionscollection/count) { get; } | 컬렉션에 있는 요소 수를 반환합니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides/icaptionscollection/item) { get; } | 지정된 인덱스에 있는 닫힌 캡션을 반환합니다. 읽기 전용 [`ICaptions`](../icaptions). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | 스트림에서 컬렉션 끝에 WebVTT 닫힌 캡션을 추가합니다. |
 | [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | 컬렉션 끝에 WebVTT 닫힌 캡션을 추가합니다. |

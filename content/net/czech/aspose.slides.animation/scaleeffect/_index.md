@@ -1,14 +1,14 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt škálování animace.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Reprezentuje efekt měřítka animace.
 type: docs
-weight: 760
+weight: 780
 url: /cs/aspose.slides.animation/scaleeffect/
 ---
-## ScaleEffect třída
+## Třída ScaleEffect
 
-Reprezentuje efekt škálování animace.
+Reprezentuje efekt měřítka animace.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -24,14 +24,14 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Název | Popis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou chování animace akumulována. Číst/zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální chování animace kombinováno s ostatními probíhajícími animacemi. Číst/zapisovat [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | popisuje relativní hodnotu offsetu pro animaci (v procentech). Číst/zapisovat PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Určuje souřadnici x/y, ze které se animace spustí (v procentech). Číst/zapisovat PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje vlastnosti chování. Pouze pro čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje časové vlastnosti chování efektu. Číst/zapisovat [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Určuje cílovou polohu pro efekt měřítka animace (v procentech). Číst/zapisovat PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Určuje, zda má být obsah přiblížen. Číst/zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Určuje, zda jsou animační chování akumulována. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Určuje, zda je aktuální animační chování kombinováno s dalšími probíhajícími animacemi. Číst/Zapisovat [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Popisuje relativní hodnotu posunu pro animaci (v procentech). Číst/Zapisovat PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Určuje souřadnici x/y, ze které má animace startovat (v procentech). Číst/Zapisovat PointF. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje vlastnosti chování. Pouze ke čtení [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje časové vlastnosti pro chování efektu. Číst/Zapisovat [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Určuje cílovou polohu pro efekt měřítka animace (v procentech). Číst/Zapisovat PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Určuje, zda by měl být obsah přiblížen. Číst/Zapisovat [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Viz také
 

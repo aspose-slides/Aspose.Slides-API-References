@@ -1,6 +1,6 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示 Presentation../aspose.slides/presentation 中動畫的產生器。
 type: docs
 weight: 4380
@@ -26,16 +26,16 @@ public class PresentationAnimationsGenerator : IDisposable
 | 名稱 | 說明 |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | 取得或設定預設延遲時間 [ms]。 |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 取得已匯出投影片的數量。 |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 取得或設定是否應包含隱藏投影片。 |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | 取得匯出投影片的數量。 |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | 取得或設定是否應包含隱藏的投影片。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | 釋放 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) 的執行個體。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 為每張投影片產生動畫事件。 |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 為每張投影片產生動畫事件。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | 為每張投影片執行動畫事件的產生。 |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | 為每張投影片執行動畫事件的產生。 |
 
 ## 欄位
 
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | 名稱 | 說明 |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 此事件表示已產生新動畫。 |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | 此事件表示已產生新的動畫。 |
 
 ### 範例
 

@@ -1,7 +1,7 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: GradientStopDataEx 객체의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: GradientStopDataEx 개체의 컬렉션을 나타냅니다.
 type: docs
 weight: 6040
 url: /ko/aspose.slides/igradientstopcollectioneffectivedata/
@@ -21,7 +21,7 @@ public interface IGradientStopCollectionEffectiveData :
 | --- | --- |
 | [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 인덱스로 그라디언트 스톱을 반환합니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IGradientStopEffectiveData](../igradientstopeffectivedata)

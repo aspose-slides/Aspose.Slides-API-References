@@ -1,14 +1,14 @@
 ---
 title: IFindResultCallback
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Giao diện callback được sử dụng để nhận kết quả tìm kiếm văn bản.
+description: Giao diện callback được sử dụng để lấy kết quả tìm kiếm văn bản.
 type: docs
 weight: 5820
 url: /vi/aspose.slides/ifindresultcallback/
 ---
 ## IFindResultCallback giao diện
 
-Giao diện callback được sử dụng để nhận kết quả tìm kiếm văn bản.
+Giao diện Callback được sử dụng để lấy kết quả tìm kiếm văn bản.
 
 ```csharp
 public interface IFindResultCallback

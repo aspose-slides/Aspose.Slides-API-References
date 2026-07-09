@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ippimage/
 ---
 ## IPPImage 인터페이스
 
-프레젠테이션의 이미지를 나타냅니다.
+프레젠테이션에서 이미지를 나타냅니다.
 
 ```csharp
 public interface IPPImage
@@ -19,13 +19,13 @@ public interface IPPImage
 | 이름 | 설명 |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | 이미지 데이터의 복사본을 반환합니다. 읽기 전용 Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | 이미지의 MIME 유형을 [`BinaryData`](./binarydata)에 인코딩된 형태로 반환합니다. 읽기 전용 String. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | [`BinaryData`](./binarydata)으로 인코딩된 이미지의 MIME 타입을 반환합니다. 읽기 전용 String. |
 | [Height](../../aspose.slides/ippimage/height) { get; } | 이미지의 높이를 반환합니다. 읽기 전용 Int32. |
 | [Image](../../aspose.slides/ippimage/image) { get; } | 이미지의 복사본을 반환합니다. 읽기 전용 [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage 객체 [`ISvgImage`](../isvgimage)를 반환하거나 설정합니다. |
 | [Width](../../aspose.slides/ippimage/width) { get; } | 이미지의 너비를 반환합니다. 읽기 전용 Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | 이미지의 X-오프셋을 반환합니다. 읽기 전용 Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | 이미지의 Y-오프셋을 반환합니다. 읽기 전용 Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | 이미지의 X 오프셋을 반환합니다. 읽기 전용 Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | 이미지의 Y 오프셋을 반환합니다. 읽기 전용 Int32. |
 
 ## 메서드
 

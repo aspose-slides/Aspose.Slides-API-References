@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje efekt Preset Shadow.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje efekt cienia Preset Shadow.
 type: docs
-weight: 3610
+weight: 3630
 url: /pl/aspose.slides.effects/presetshadow/
 ---
 ## PresetShadow klasa
 
-Reprezentuje efekt Preset Shadow.
+Reprezentuje efekt cienia Preset Shadow.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -16,20 +16,20 @@ public sealed class PresetShadow : IPresetShadow
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Kierunek cienia. Odczyt/zapis Single. |
-| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Odległość cienia. Odczyt/zapis Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Ustawienie wstępne. Odczyt/zapis [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Kolor cienia. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | Kierunek cienia. Read/write Single. |
+| [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | Odległość cienia. Read/write Double. |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | Ustawienie wstępne. Read/write [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | Kolor cienia. Read-only [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Określa, czy podany [`PresetShadow`](../presetshadow) jest równy bieżącemu [`PresetShadow`](../presetshadow). |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Pobiera efektywne dane efektu Preset Shadow z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | Określa, czy określony [`PresetShadow`](../presetshadow) jest równy bieżącemu [`PresetShadow`](../presetshadow). |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | Pobiera skuteczne dane efektu Preset Shadow po zastosowaniu dziedziczenia. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 

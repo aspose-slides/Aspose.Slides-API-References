@@ -1,9 +1,9 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje standardní interní typ výjimky.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Reprezentuje standardní interní typ výjimky.
 type: docs
-weight: 9190
+weight: 9210
 url: /cs/aspose.slides/odpexception/
 ---
 ## OdpException třída
@@ -19,8 +19,8 @@ public class OdpException : Exception
 | Název | Popis |
 | --- | --- |
 | [OdpException](odpexception#constructor)() | Výchozí konstruktor |
-| [OdpException](odpexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
-| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [OdpException](odpexception#constructor_1)(string) | Konstruktor umožňující přidání zprávy k této výjimce. |
+| [OdpException](odpexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vnořenou výjimku. |
 
 ### Viz také
 

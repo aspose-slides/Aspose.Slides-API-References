@@ -1,12 +1,12 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para referência de API .NET
 description: Representa opções que controlam como a apresentação deve ser salva em markdown.
 type: docs
-weight: 4230
+weight: 4250
 url: /pt/aspose.slides.export/markdownsaveoptions/
 ---
-## classe MarkdownSaveOptions
+## MarkdownSaveOptions classe
 
 Representa opções que controlam como a apresentação deve ser salva em markdown.
 
@@ -18,28 +18,28 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Construtor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## Propriedades
 
 | Name | Description |
 | --- | --- |
 | [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Especifica o caminho base onde o documento com recursos será salvo. O padrão é o diretório atual da aplicação. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtém ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura/Gravação String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtém ou define a fonte usada caso a fonte de origem não seja encontrada. String leitura/gravação. |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Especifica a especificação markdown para converter a apresentação. O padrão é `TextOnly`. |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Especifica a especificação markdown para converter a apresentação. O padrão é `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtém ou define o estilo visual do gradiente. Leitura/Gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtém ou define o estilo visual do gradiente. Leitura/gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Especifica o nome da pasta para salvar imagens. O padrão é `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Especifica se o documento gerado deve usar quebras de linha \\r(Macintosh), \\n(Unix) ou \\r\\n(Windows). O padrão é `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de callback para atualizações de progresso de salvamento em porcentagem. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Se definido como `true`, remove linhas vazias ou contendo apenas espaços do output final em Markdown. O padrão é `false`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Especifica se o documento gerado deve ter quebras de linha \\r (Macintosh), \\n (Unix) ou \\r\\n (Windows). O padrão é `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de retorno de chamada para atualizações de progresso de salvamento em porcentagem. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Se definido como `true`, remove linhas vazias ou contendo apenas espaços em branco da saída final de Markdown. O padrão é `false`. |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Especifica se o documento gerado deve exibir comentários ou não. O padrão é `false`. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. O padrão é `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Especifica se o documento gerado deve exibir o número de cada slide ou não. O padrão é `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se devem ser ignorados hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura/Gravação Boolean. O valor padrão é **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Obtém ou define a string de formato usada para cabeçalhos de número de slide na saída Markdown. O formato deve incluir o placeholder "{0}", que será substituído pelo índice do slide durante a exportação. Exemplo: "# Slide {0}" produzirá "# Slide 1", "# Slide 2", etc. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtém ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/Gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Especifica se o documento gerado deve mostrar o número de cada slide ou não. O padrão é `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve ignorar hyperlinks com chamadas JavaScript ao salvar a apresentação. Boolean leitura/gravação. O valor padrão é **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Obtém ou define a string de formato usada para cabeçalhos de número de slide na saída Markdown. O formato deve incluir o placeholder \"{0}\", que será substituído pelo índice do slide durante a exportação. Exemplo: \"# Slide {0}\" produzirá \"# Slide 1\", \"# Slide 2\", etc. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtém ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemplos
 

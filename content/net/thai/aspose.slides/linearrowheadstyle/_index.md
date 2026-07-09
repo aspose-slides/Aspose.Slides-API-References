@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงสไตล์ของหัวลูกศร.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงสไตล์ของหัวลูกศร
 type: docs
 weight: 7740
 url: /th/aspose.slides/linearrowheadstyle/
 ---
-## LineArrowheadStyle การระบุค่า
+## LineArrowheadStyle การนับค่า
 
-แสดงสไตล์ของหัวลูกศร
+แสดงสไตล์ของหัวลูกศร.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte

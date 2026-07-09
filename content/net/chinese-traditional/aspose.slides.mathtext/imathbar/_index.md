@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定由基礎參數以及上橫線或下橫線組成的條形函式
+second_title: Aspose.Sildes .NET API 參考
+description: 指定條形函式，由基礎參數和上橫線或下橫線組成
 type: docs
 weight: 8120
 url: /zh-hant/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar 介面
 
-指定條形函式，由基礎參數以及上橫線或下橫線組成
+指定條形函式，由基礎參數和上橫線或下橫線組成
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -16,11 +16,11 @@ public interface IMathBar : IMathElement
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | 基礎參數 |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | 條線的位置。預設: 上 |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | 條線的位置。預設：上方 |
 
 ### 範例
 
@@ -31,7 +31,7 @@ public interface IMathBar : IMathElement
 IMathBar mathBar = new MathBar(new MathematicalText("x"));
 ```
 
-### 另請參閱
+### 參見
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

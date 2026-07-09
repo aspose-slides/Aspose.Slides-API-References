@@ -1,14 +1,14 @@
 ---
 title: FormatFactory
-second_title: Aspose.Sildes .NET API Referenciája
-description: Lehetővé teszi a formátumok létrehozását COM interfészen keresztül.
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetővé teszi formátumok létrehozását COM interfészen keresztül.
 type: docs
-weight: 4930
+weight: 4950
 url: /hu/aspose.slides/formatfactory/
 ---
 ## FormatFactory osztály
 
-Lehetővé teszi a formátumok létrehozását COM interfészen keresztül.
+Lehetővé teszi formátumok létrehozását COM interfészen keresztül.
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -24,15 +24,15 @@ public class FormatFactory : IFormatFactory
 
 | Név | Leírás |
 | --- | --- |
-| statikus [Instance](../../aspose.slides/formatfactory/instance) { get; } | Formátumgyár statikus példánya. Csak olvasható [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Formátumgyári statikus példány. Csak olvasható [`FormatFactory`](../formatfactory). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Létrehoz egy új [`IParagraphFormat`](../iparagraphformat). |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Létrehoz egy új [`IPortionFormat`](../iportionformat). |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Létrehoz egy új [`ITextFrameFormat`](../itextframeformat). |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Új [`IParagraphFormat`](../iparagraphformat) hoz létre. |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Új [`IPortionFormat`](../iportionformat) hoz létre. |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Új [`ITextFrameFormat`](../itextframeformat) hoz létre. |
 
 ### Lásd még
 

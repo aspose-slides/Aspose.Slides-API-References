@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị loại của một placeholder.
+second_title: Aspose.Sildes cho .NET - Tham chiếu API
+description: Đại diện cho loại của một trình giữ chỗ.
 type: docs
 weight: 9450
 url: /vi/aspose.slides/placeholdertype/
 ---
-## PlaceholderType liệt kê
+## Liệt kê PlaceholderType
 
-Biểu thị loại của một placeholder.
+Đại diện cho loại của một trình giữ chỗ.
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -20,7 +20,7 @@ public enum PlaceholderType : sbyte
 | --- | --- | --- |
 | Title | `0` | Tiêu đề. |
 | Body | `1` | Nội dung. |
-| CenteredTitle | `2` | Tiêu đề căn giữa. |
+| CenteredTitle | `2` | Tiêu đề trung tâm. |
 | Subtitle | `3` | Phụ đề. |
 | DateAndTime | `4` | Ngày và Giờ. |
 | SlideNumber | `5` | Số slide. |

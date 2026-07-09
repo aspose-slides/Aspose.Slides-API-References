@@ -3,7 +3,7 @@ title: IGradientFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効なグラデーション塗りつぶしプロパティを含む不変オブジェクト。
 type: docs
-weight: 5990
+weight: 6010
 url: /ja/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData インターフェイス
@@ -18,13 +18,13 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | ベース IFillParamSource インターフェイスを取得できます。 読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | グラデーションのスタイルを返します。 読み取り専用 [`GradientDirection`](../gradientdirection)。 |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | グラデーションの形状を返します。 読み取り専用 [`GradientShape`](../gradientshape)。 |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | グラデーションのストップのコレクションを返します。 読み取り専用 [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)。 |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | グラデーションの角度を返します。 読み取り専用 Single。 |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | グラデーションがスケーリングされるかどうかを判断します。 読み取り専用 Boolean。 |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | グラデーションの反転モードを返します。 読み取り専用 [`TileFlip`](../tileflip)。 |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | ベース IFillParamSource インターフェイスを取得できます。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | グラデーションのスタイルを返します。読み取り専用 [`GradientDirection`](../gradientdirection)。 |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | グラデーションの形状を返します。読み取り専用 [`GradientShape`](../gradientshape)。 |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | グラデーション ストップのコレクションを返します。読み取り専用 [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)。 |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | グラデーションの角度を返します。読み取り専用 Single。 |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | グラデーションがスケーリングされているかどうかを判断します。読み取り専用 Boolean。 |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | グラデーションのフリッピングモードを返します。読み取り専用 [`TileFlip`](../tileflip)。 |
 
 ### 備考
 

@@ -1,9 +1,9 @@
 ---
 title: Paragraph
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência de API .NET
 description: Representa um parágrafo de texto.
 type: docs
-weight: 9260
+weight: 9280
 url: /pt/aspose.slides/paragraph/
 ---
 ## Paragraph classe
@@ -19,7 +19,7 @@ public sealed class Paragraph : IParagraph
 | Nome | Descrição |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | Inicializa uma nova instância da classe Paragraph com propriedades padrão. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Construtor de cópia que inicializa uma nova instância de uma classe Paragraph. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Construtor de cópia que inicializa uma nova instância da classe Paragraph. |
 
 ## Propriedades
 
@@ -36,7 +36,7 @@ public sealed class Paragraph : IParagraph
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Obtém o número de linhas em um parágrafo. |
 | [GetRect](../../aspose.slides/paragraph/getrect)() | Obtém as coordenadas do retângulo que delimita o parágrafo. O retângulo inclui todas as linhas de texto no parágrafo, incluindo as vazias. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Une execuções com a mesma formatação. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Junta trechos com a mesma formatação. |
 
 ### Veja Também
 

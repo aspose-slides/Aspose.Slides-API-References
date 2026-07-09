@@ -1,24 +1,24 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงประเภทของการกระทำไฮเปอร์ลิงก์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงประเภทของการกระทำ hyperlink.
 type: docs
 weight: 2560
 url: /th/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat enumeration
+## enum ColorStringFormat
 
-แสดงประเภทของการกระทำไฮเปอร์ลิงก์
+แสดงประเภทของการกระทำ hyperlink
 
 ```csharp
 public enum ColorStringFormat
 ```
 
-### ค่าต่างๆ
+### ค่า
 
-| ชื่อ | ค่า | รายละเอียด |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Vml | `0` | รูปแบบสตริงสี VML. |
+| Vml | `0` | รูปแบบสตริงสี VML |
 
 ### ดูเพิ่มเติม
 

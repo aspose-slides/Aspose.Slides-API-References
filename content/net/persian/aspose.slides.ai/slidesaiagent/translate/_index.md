@@ -1,14 +1,14 @@
 ---
 title: Translate
-second_title: مرجع API Aspose.Sildes برای .NET
-description: یک ارائه را به زبان مشخص شده با استفاده از هوش مصنوعی نسخهٔ همزمان ترجمه می‌کند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: یک ارائه را به زبان مشخص شده با استفاده از AI نسخهٔ همزمان ترجمه می‌کند.
 type: docs
 weight: 40
 url: /fa/aspose.slides.ai/slidesaiagent/translate/
 ---
 ## SlidesAIAgent.Translate متد
 
-یک ارائه را به زبان مشخص‌شده با استفاده از هوش مصنوعی ترجمه می‌کند (نسخهٔ همزمان).
+Translates a presentation to the specified language using AI (synchronous version).
 
 ```csharp
 public void Translate(IPresentation presentation, string language)
@@ -23,12 +23,12 @@ public void Translate(IPresentation presentation, string language)
 
 | استثنا | شرط |
 | --- | --- |
-| ArgumentNullException | نمونهٔ ارائه ارائه نشده است |
-| ArgumentException | مقدار زبان نمی‌تواند خالی یا null باشد |
+| ArgumentNullException | Presentation instance is not provided |
+| ArgumentException | Language value can't be null or empty |
 
-### نکات
+### توضیحات
 
-مثال زیر از [`AsposeAIWebClient`](../../asposeaiwebclient) پیش‌فرض استفاده می‌کند که توسط سازندهٔ بدون پارامتر [`SlidesAIAgent`](../slidesaiagent) ایجاد می‌شود و به LLM اختصاصی Aspose متصل می‌شود. برای استفاده از فراهم‌کنندهٔ هوش مصنوعی متفاوت، LLM خود را فراهم کنید یا اتصال را سفارشی کنید (به عنوان مثال، با ارائهٔ `HttpClient` خود)، پیاده‌سازی [`IAIWebClient`](../../iaiwebclient) را به سازندهٔ [`SlidesAIAgent`](../slidesaiagent) پاس بدهید. پیاده‌سازی‌های موجود شامل:
+The example below uses the default [`AsposeAIWebClient`](../../asposeaiwebclient), which is created by the parameterless [`SlidesAIAgent`](../slidesaiagent) constructor and connects to Aspose's own LLM. To use a different AI provider, supply your own LLM, or customize the connection (for example, by providing your own `HttpClient`), pass an [`IAIWebClient`](../../iaiwebclient) implementation to the [`SlidesAIAgent`](../slidesaiagent) constructor. Available implementations include:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)

@@ -1,14 +1,14 @@
 ---
 title: IAIWebClient
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อินเทอร์เฟซไคลเอนต์ AI Web. อินเทอร์เฟซนี้ทำให้สามารถเปลี่ยนโมเดลภาษาปัญญาประดิษฐ์ที่ต่างกันได้. คลาสที่ทำการใช้อินเทอร์เฟซนี้ควรใช้ร่วมกับ SlidesAIAgent.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ส่วนต่อประสาน AI Web client. ส่วนต่อประสานนี้ทำให้สามารถเปลี่ยนโมเดลภาษ AI ต่าง ๆ ได้. คลาสที่ใช้งานส่วนต่อประสานนี้ควรใช้ร่วมกับ SlidesAIAgent.
 type: docs
 weight: 30
 url: /th/aspose.slides.ai/iaiwebclient/
 ---
 ## IAIWebClient อินเทอร์เฟซ
 
-อินเทอร์เฟซไคลเอนต์ AI Web. อินเทอร์เฟซนี้ทำให้สามารถแทนที่โมเดลภาษาปัญญาประดิษฐ์ที่แตกต่างกันได้. คลาสที่ทำการใช้อินเทอร์เฟซนี้ควรใช้ร่วมกับ `SlidesAIAgent`.
+ส่วนต่อประสาน AI Web client. ส่วนต่อประสานนี้ช่วยให้สามารถแทนที่โมเดลภาษา AI ต่าง ๆ ได้. คลาสที่ทำการใช้งานส่วนต่อประสานนี้ควรใช้ร่วมกับ `SlidesAIAgent`.
 
 ```csharp
 public interface IAIWebClient
@@ -18,8 +18,8 @@ public interface IAIWebClient
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ `HttpClient` ที่กำหนดและคืนข้อความตอบกลับสำหรับคำสั่งที่ให้ไว้. |
-| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | สร้างอินสแตนซ์การสนทนา แตกต่างจากการเรียก AI ปกติ การสนทนาจะเก็บบริบททั้งหมด. |
+| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ `HttpClient` ที่ให้มาและส่งคืนข้อความตอบกลับสำหรับคำสั่งที่กำหนด. |
+| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | สร้างอินสแตนซ์การสนทนา โดยที่การสนทนาจะรักษาบริบททั้งหมดไว้ ต่างจากการเรียก AI ธรรมดา. |
 
 ### ดูเพิ่มเติม
 

@@ -1,27 +1,27 @@
 ---
 title: IBehavior
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: इफ़ेक्ट के बेस क्लास व्यवहार को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: इफ़ेक्ट की बेस क्लास व्यवहार को दर्शाता है।
 type: docs
 weight: 410
 url: /hi/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior इंटरफ़ेस
 
-इफ़ेक्ट के आधार वर्ग व्यवहार को प्रदर्शित करता है।
+प्रभाव की बेस क्लास व्यवहार का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IBehavior
 ```
 
-## गुणधर्म
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | यह दर्शाता है कि एनीमेशन व्यवहार संचित हैं या नहीं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | यह दर्शाता है कि वर्तमान एनीमेशन व्यवहार अन्य चल रहे एनीमेशन के साथ संयोजित है या नहीं। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | यह व्यवहार की गुणधर्मों को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | यह प्रभाव व्यवहार के लिए टाइमिंग गुणधर्मों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | एनीमेशन व्यवहारों के संग्रहित होने को दर्शाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | वर्तमान एनीमेशन व्यवहार को अन्य चल रही एनीमेशन के साथ मिलाया जाता है या नहीं को दर्शाता है। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | व्यवहार की प्रॉपर्टीज़ को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | प्रभाव व्यवहार के लिए टाइमिंग प्रॉपर्टीज़ को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming). |
 
 ### संबंधित देखें
 

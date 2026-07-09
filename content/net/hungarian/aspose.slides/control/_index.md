@@ -1,14 +1,14 @@
 ---
 title: Control
-second_title: Aspose.Sildes .NET API-referenciája
-description: ActiveX vezérlőt reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: ActiveX vezérlőt képviseli.
 type: docs
-weight: 2670
+weight: 2690
 url: /hu/aspose.slides/control/
 ---
 ## Control osztály
 
-Representálja az ActiveX vezérlőt.
+ActiveX vezérlőt képviseli.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Név | Leírás |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Meghatározza az ActiveX vezérlő állandóságát, amikor a mentéshez használt módszer a PersistStream, a PersistStreamInit vagy a PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Lekéri a vezérlő osztályazonosítóját. Csak olvasható Guid. |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Meghatározza az ActiveX vezérlő állandósságát, amikor a tartósítási módszer a PersistStream, PersistStreamInit vagy PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Visszaadja ennek a vezérlőnek az osztályazonosítóját. Csak olvasható Guid. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Visszaadja vagy beállítja a vezérlő keretét. Olvasás/írás [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Lekéri vagy beállítja a vezérlő nevét. Olvasás/írás String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Lekéri a módszert, amelyet az ActiveX vezérlő tulajdonságainak tárolásához használnak. Csak olvasható [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Visszaad egy gyűjteményt az ActiveX tulajdonságokról. Megjegyzés: az Aspose.Slides csak XML-alapú ActiveX tulajdonságokat támogat. Ha a tulajdonságok bináris formátumban vannak tárolva, ez a tulajdonság null értéket ad vissza. Csak olvasható [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Visszaadja a Control kép kitöltés tulajdonságok objektumát. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Visszaadja vagy beállítja ennek a vezérlőnek a nevét. Olvasás/írás String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Visszaadja az ActiveX vezérlő tulajdonságok tárolására használt módszert. Csak olvasható [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Visszaad egy gyűjteményt az ActiveX tulajdonságokról. Megjegyzés: az Aspose.Slides csak XML alapú ActiveX tulajdonságokat támogat. Ha a tulajdonságok bináris formátumban tárolódnak, ez a tulajdonság null értéket ad. Csak olvasható [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Visszaadja a Control képkitöltési tulajdonságobjektumot. Csak olvasható [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Lásd még
 

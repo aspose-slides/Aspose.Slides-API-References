@@ -20,7 +20,7 @@ public interface IVbaReference
 | --- | --- |
 | [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | Biểu thị tên của tham chiếu dự án VBA. Đọc/ghi String. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Vba](../../aspose.slides.vba)
 * tập hợp [Aspose.Slides](../../)

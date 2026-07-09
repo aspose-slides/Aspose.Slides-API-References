@@ -1,20 +1,20 @@
 ---
 title: TransitionEightDirectionType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทการเปลี่ยนแปลงในทิศทางแปดทิศ.
+description: แสดงประเภทการเปลี่ยนแปลงทิศทางแปดทิศทาง.
 type: docs
 weight: 10360
 url: /th/aspose.slides.slideshow/transitioneightdirectiontype/
 ---
-## TransitionEightDirectionType ประเภท
+## TransitionEightDirectionType การแสดงค่า
 
-แสดงประเภทการเปลี่ยนแปลงในทิศทางแปดทิศ.
+แสดงประเภทการเปลี่ยนทิศทางแปดทิศทาง.
 
 ```csharp
 public enum TransitionEightDirectionType
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

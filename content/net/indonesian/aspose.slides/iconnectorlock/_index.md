@@ -1,9 +1,9 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Sildes untuk .NET Referensi API
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan operasi mana yang dinonaktifkan pada Connector induk.
 type: docs
-weight: 5600
+weight: 5620
 url: /id/aspose.slides/iconnectorlock/
 ---
 ## IConnectorLock antarmuka
@@ -18,17 +18,17 @@ public interface IConnectorLock : IBaseShapeLock
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Menentukan apakah mengubah nilai penyesuaian dilarang. Baca/tulis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Menentukan apakah mengubah ujung panah dilarang. Baca/tulis Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseShapeLock. Baca-saja [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Menentukan apakah sebuah shape harus mempertahankan rasio aspek saat mengubah ukuran. Baca/tulis Boolean. |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Menentukan apakah mengubah kontur shape ini secara langsung dilarang. Baca/tulis Boolean. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Menentukan apakah menambahkan shape ini ke grup dilarang. Baca/tulis Boolean. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Menentukan apakah memindahkan shape ini dilarang. Baca/tulis Boolean. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Menentukan apakah mengubah sudut rotasi shape ini dilarang. Baca/tulis Boolean. |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Menentukan apakah memilih shape ini dilarang. Baca/tulis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Menentukan apakah mengubah tipe shape dilarang. Baca/tulis Boolean. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran shape ini dilarang. Baca/tulis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Menentukan apakah perubahan nilai penyesuaian dilarang. Baca/tulis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Menentukan apakah perubahan anak panah dilarang. Baca/tulis Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Mengizinkan mendapatkan antarmuka dasar IBaseShapeLock. Baca-saja [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Menentukan apakah bentuk harus mempertahankan rasio aspek saat diubah ukuran. Baca/tulis Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Menentukan apakah perubahan langsung kontur bentuk ini dilarang. Baca/tulis Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Menentukan apakah penambahan bentuk ini ke grup dilarang. Baca/tulis Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Menentukan apakah pemindahan bentuk ini dilarang. Baca/tulis Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Menentukan apakah perubahan sudut rotasi bentuk ini dilarang. Baca/tulis Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Menentukan apakah pemilihan bentuk ini dilarang. Baca/tulis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Menentukan apakah perubahan tipe bentuk dilarang. Baca/tulis Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Menentukan apakah mengubah ukuran bentuk ini dilarang. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

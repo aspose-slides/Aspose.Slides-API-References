@@ -1,9 +1,9 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes pro .NET referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvářet odstavce
 type: docs
-weight: 6560
+weight: 6580
 url: /cs/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory rozhraní

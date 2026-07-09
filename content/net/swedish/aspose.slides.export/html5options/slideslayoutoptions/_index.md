@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
 second_title: Aspose.Sildes för .NET API-referens
-description: Hämtar eller anger läget som bilder placeras på sidan när en presentation exporteras ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+description: Hämtar eller anger det läge som bilder placeras på sidan när en presentation exporteras ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /sv/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions egenskap
 
-Hämtar eller anger läget som bilder placeras på sidan när en presentation exporteras [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Hämtar eller anger det läge som bilder placeras på sidan i när en presentation exporteras [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlide
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示備註用的母片投影片。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示備註的母投影片。
 type: docs
 weight: 8010
 url: /zh-hant/aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide 類別
 
-表示備註用的母片投影片。
+表示備註的母投影片。
 
 ```csharp
 public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
@@ -21,34 +21,34 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | 傳回投影片的背景。唯讀 [`IBackground`](../ibackground)。 |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | 傳回投影片上 ActiveX 控制項的集合。唯讀 [`IControlCollection`](../icontrolcollection)。 |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | 傳回投影片的自訂資料。唯讀 [`ICustomData`](../icustomdata)。 |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | 傳回母片備註投影片的繪圖參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | 傳回母片備註投影片的 HeaderFooter 管理員。唯讀 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供對包含的超連結的簡易存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | 傳回母備註投影片的繪圖參考線集合。唯讀 [`IDrawingGuidesCollection`](../idrawingguidescollection)。 |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | 傳回母備註投影片的 HeaderFooter 管理器。唯讀 [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager)。 |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | 提供對內含超連結的簡易存取。唯讀 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | 傳回或設定投影片的名稱。可讀寫 String。 |
 | [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | 傳回備註文字的樣式。唯讀 [`ITextStyle`](../itextstyle)。 |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | 傳回 IPresentation 介面。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 傳回投影片的圖形集合。唯讀 [`IShapeCollection`](../ishapecollection)。 |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | 指定母片上的圖形是否應在投影片上顯示。對於母片本身，此屬性總是傳回 `false`。可讀寫 Boolean。 |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 傳回投影片的形狀。唯讀 [`IShapeCollection`](../ishapecollection)。 |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | 指定母投影片上的形狀是否應顯示在投影片上。對於母投影片本身，此屬性始終傳回 `false`。可讀寫 Boolean。 |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 傳回投影片的 ID。唯讀 UInt32。 |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 傳回 Transition 物件，該物件包含有關指定投影片在投影片放映期間如何前進的資訊。唯讀 [`ISlideShowTransition`](../islideshowtransition)。 |
-| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | 傳回佈景主題管理員。唯讀 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 傳回 Transition 物件，其中包含關於指定投影片在投影片放映期間如何前進的資訊。唯讀 [`ISlideShowTransition`](../islideshowtransition)。 |
+| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | 傳回主題管理器。唯讀 [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager)。 |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 傳回動畫時間軸物件。唯讀 [`IAnimationTimeLine`](../ianimationtimeline)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 傳回此投影片的有效佈景主題。 |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 判斷兩個 IBaseSlide 實例是否相等。回傳值根據投影片的結構與靜態內容計算。若所有圖形、樣式、文字、動畫及其他設定等皆相等，則兩張投影片相等。比較時不會考慮唯一識別值，例如 SlideId，或動態內容，例如日期佔位元中的目前日期值。 |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 尋找第一個具有指定替代文字的圖形。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 合併所有可接受圖形中所有段落內具有相同格式的文字執行序。 |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 合併所有可接受圖形中所有段落內具有相同格式的文字執行序。 |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 傳回此投影片的有效主題。 |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 判斷兩個 IBaseSlide 實例是否相等。回傳值根據投影片的結構與靜態內容計算。若所有形狀、樣式、文字、動畫及其他設定等全部相等，則兩個投影片相等。比較不會考慮唯一識別碼值，例如 SlideId，以及動態內容，例如日期佔位符中的目前日期值。 |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 尋找第一個具有指定替代文字的形狀。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 在所有可接受形狀的所有段落中合併具有相同格式的文字串。 |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 在所有可接受形狀的所有段落中合併具有相同格式的文字串。 |
 
-### 相關參考
+### 另請參閱
 
 * 類別 [BaseSlide](../baseslide)
 * 介面 [IMasterNotesSlide](../imasternotesslide)
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 程式集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

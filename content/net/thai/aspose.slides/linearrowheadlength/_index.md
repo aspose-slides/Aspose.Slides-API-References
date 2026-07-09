@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงความยาวของหัวลูกศร.
+description: แสดงถึงความยาวของหัวลูกศร.
 type: docs
 weight: 7730
 url: /th/aspose.slides/linearrowheadlength/
 ---
-## รายการกำหนดค่า LineArrowheadLength
+## LineArrowheadLength การนับ
 
-แสดงความยาวของหัวลูกศร.
+แสดงถึงความยาวของหัวลูกศร.
 
 ```csharp
 public enum LineArrowheadLength : sbyte
@@ -16,7 +16,7 @@ public enum LineArrowheadLength : sbyte
 
 ### ค่า
 
-| ชื่อ | ค่า | คำอธิบาย |
+| ชื่อ | ค่า | รายละเอียด |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Short | `0` |  |

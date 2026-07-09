@@ -3,10 +3,10 @@ title: WorkbookType
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje typ souboru sešitu Open XML.
 type: docs
-weight: 2490
+weight: 2510
 url: /cs/aspose.slides.charts/workbooktype/
 ---
-## výčet WorkbookType
+## WorkbookType výčet
 
 Určuje typ souboru sešitu Open XML.
 
@@ -20,10 +20,10 @@ public enum WorkbookType
 | --- | --- | --- |
 | NotDefined | `-1` | Typ sešitu není definován. |
 | Workbook | `0` | Excel sešit (*.xlsx). |
-| WorkbookMacro | `1` | Excel sešit s makry (*.xlsm). |
+| WorkbookMacro | `1` | Excel sešit s povolenými makry (*.xlsm). |
 | Template | `2` | Excel šablona (*.xltx). |
-| TemplateMacro | `3` | Excel šablona s makry (*.xltm). |
-| WorkbookBinaryMacro | `4` | Excel binární sešit s makry (*.xlsb). |
+| TemplateMacro | `3` | Excel šablona s povolenými makry (*.xltm). |
+| WorkbookBinaryMacro | `4` | Excel binární sešit s povolenými makry (*.xlsb). |
 
 ### Viz také
 

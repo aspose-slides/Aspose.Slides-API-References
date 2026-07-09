@@ -1,9 +1,9 @@
 ---
 title: IPoint
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta un punto di animazione.
 type: docs
-weight: 520
+weight: 540
 url: /it/aspose.slides.animation/ipoint/
 ---
 ## IPoint interfaccia
@@ -18,9 +18,9 @@ public interface IPoint
 
 | Nome | Descrizione |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Le formule all'interno dei valori, degli attributi from, to, by possono essere composte da: Operatori aritmetici standard: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Costanti: ‘pi’ ‘e’ Operatori condizionali: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operatori di confronto: '==', '&gt;=', '', '!=', '!' Operatori trigonometrici: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logaritmo naturale ‘ln()’ Riferimenti a proprietà (proprietà supportate dall'host) per esempio: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Stringa, lettura/scrittura. |
-| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Rappresenta il valore di tempo. Single, lettura/scrittura. |
-| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Rappresenta il valore del punto. Solo: bool, ColorFormat, float, int, string. Object, lettura/scrittura. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | Le formule nei valori degli attributi from, to, by possono essere composte da: Operatori aritmetici standard: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Costanti: ‘pi’ ‘e’ Operatori condizionali: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operatori di confronto: '==', '&gt;=', '', '!=', '!' Operatori trigonometrici: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logaritmo naturale ‘ln()’ Riferimenti a proprietà (proprietà supportate dall'host) per esempio: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Stringa di lettura/scrittura. |
+| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | Rappresenta il valore temporale. Single di lettura/scrittura. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | Rappresenta il valore del punto. Solo: bool, ColorFormat, float, int, string. Object di lettura/scrittura. |
 
 ### Vedi anche
 

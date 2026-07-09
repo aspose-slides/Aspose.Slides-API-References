@@ -23,7 +23,7 @@ public enum TextStrikethroughType : sbyte
 | Single | `1` |  |
 | Double | `2` |  |
 
-### 另請參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

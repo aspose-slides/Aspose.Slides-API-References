@@ -3,7 +3,7 @@ title: Behavior
 second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje zachowanie klasy bazowej efektu.
 type: docs
-weight: 120
+weight: 140
 url: /pl/aspose.slides.animation/behavior/
 ---
 ## Behavior klasa
@@ -18,10 +18,10 @@ public abstract class Behavior : IBehavior
 
 | Nazwa | Opis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Określa, czy zachowania animacji są kumulowane. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Określa, czy bieżące zachowanie animacji jest łączone z innymi uruchomionymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Określa właściwości zachowania. Tylko do odczytu [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Określa właściwości czasowe zachowania efektu. Odczyt/zapis [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Reprezentuje, czy zachowania animacji są gromadzone. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Reprezentuje, czy bieżące zachowanie animacji jest łączone z innymi trwającymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje właściwości zachowania. Tylko do odczytu [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje właściwości czasowe dla zachowania efektu. Odczyt/zapis [`ITiming`](../itiming). |
 
 ### Zobacz także
 

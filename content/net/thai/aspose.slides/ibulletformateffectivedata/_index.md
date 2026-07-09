@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่เปลี่ยนแปลงไม่ได้ซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบสัญลักษณ์หัวข้อย่อยของย่อหน้าที่มีผล
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: อ็อบเจ็กต์แบบไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบหัวข้อย่อยของย่อหน้าที่มีประสิทธิภาพ.
 type: docs
 weight: 5400
 url: /th/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบสัญลักษณ์หัวข้อย่อยของย่อหน้าที่มีผล
+อ็อบเจ็กต์แบบไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติการจัดรูปแบบหัวข้อย่อยของย่อหน้าที่มีประสิทธิภาพ.
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,16 +18,16 @@ public interface IBulletFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | ส่งกลับค่าจริงของสัญลักษณ์หัวข้อย่อยสำหรับย่อหน้าพาเรนท์. อ่านอย่างเดียว String. |
-| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | ส่งกลับอักขระสัญลักษณ์หัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว Char. |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | ส่งกลับรูปแบบการเติมสีของสัญลักษณ์หัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
-| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | ส่งกลับแบบอักษรของสัญลักษณ์หัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | ส่งกลับความสูงของสัญลักษณ์หัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | กำหนดว่ามีสีของสัญลักษณ์หัวข้อย่อยเป็นของตัวเองหรือสืบทอดจากส่วนแรกของย่อหน้าหรือไม่. ส่งกลับ **true** หากสัญลักษณ์หัวข้อย่อยมีสีของตัวเองและ **false** หากสัญลักษณ์หัวข้อย่อยสืบทอดสีจากส่วนแรกของย่อหน้า. อ่านอย่างเดียว Boolean. |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | กำหนดว่ามีแบบอักษรของสัญลักษณ์หัวข้อย่อยเป็นของตัวเองหรือสืบทอดจากส่วนแรกของย่อหน้าหรือไม่. ส่งกลับ **true** หากสัญลักษณ์หัวข้อย่อยมีแบบอักษรของตัวเองและ **true** หากสัญลักษณ์หัวข้อย่อยสืบทอดแบบอักษรจากส่วนแรกของย่อหน้า. อ่านอย่างเดียว Boolean. |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | ส่งกลับหมายเลขแรกที่ใช้สำหรับกลุ่มสัญลักษณ์หัวข้อย่อยแบบลำดับเลข. อ่านอย่างเดียว Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | ส่งกลับสไตล์ของสัญลักษณ์หัวข้อย่อยแบบลำดับเลข. อ่านอย่างเดียว [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | ส่งกลับประเภทของสัญลักษณ์หัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`BulletType`](../bullettype). |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | ส่งคืนค่าหัวข้อย่อยจริงสำหรับย่อหน้าพาเรนท์. อ่านอย่างเดียว String. |
+| [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | ส่งคืนอักษรหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว Char. |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | ส่งคืนรูปแบบการเติมสีของหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | ส่งคืนฟอนต์ของหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | ส่งคืนความสูงของหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | กำหนดว่าหัวข้อย่อยมีสีของตนเองหรือสืบทอดจากส่วนแรกของย่อหน้าหรือไม่. ส่งคืน **true** หากหัวข้อย่อยมีสีของตนเองและ **false** หากหัวข้อย่อยสืบทอดสีจากส่วนแรกของย่อหน้า. อ่านอย่างเดียว Boolean. |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | กำหนดว่าหัวข้อย่อยมีฟอนต์ของตนเองหรือสืบทอดจากส่วนแรกของย่อหน้าหรือไม่. ส่งคืน **true** หากหัวข้อย่อยมีฟอนต์ของตนเองและ **true** หากหัวข้อย่อยสืบทอดฟอนต์จากส่วนแรกของย่อหน้า. อ่านอย่างเดียว Boolean. |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | ส่งคืนตัวเลขแรกที่ใช้สำหรับกลุ่มหัวข้อย่อยที่มีหมายเลข. อ่านอย่างเดียว Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | ส่งคืนสไตล์ของหัวข้อย่อยที่มีหมายเลข. อ่านอย่างเดียว [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | ส่งคืนประเภทของหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`BulletType`](../bullettype). |
 
 ### หมายเหตุ
 
@@ -35,7 +35,7 @@ public interface IBulletFormatEffectiveData
 
 ### ดูเพิ่มเติม
 
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
+* เนมสเปส [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

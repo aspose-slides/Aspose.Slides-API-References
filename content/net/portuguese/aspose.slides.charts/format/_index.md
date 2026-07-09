@@ -3,12 +3,12 @@ title: Format
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades de formato do gráfico.
 type: docs
-weight: 1660
+weight: 1680
 url: /pt/aspose.slides.charts/format/
 ---
-## classe Format
+## Format classe
 
-Representa propriedades de formato de gráfico.
+Representa as propriedades de formato do gráfico.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -31,7 +31,7 @@ public sealed class Format : PVIObject, IFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Compara com o objeto especificado. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |
 
-### Ver Também
+### Veja também
 
 * classe [PVIObject](../../aspose.slides/pviobject)
 * interface [IFormat](../iformat)

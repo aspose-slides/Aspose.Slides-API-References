@@ -3,7 +3,7 @@ title: Timing
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar animationstiming.
 type: docs
-weight: 820
+weight: 840
 url: /sv/aspose.slides.animation/timing/
 ---
 ## Timing-klass
@@ -18,18 +18,18 @@ public class Timing : ITiming
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Beskriver procentandelen av varaktigheten för accelerationsbeteendeeffekten. Läs/skriv Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Beskriver om animationen ska spelas automatiskt i omvänd riktning efter att ha spelats i framåtriktning. Läs/skriv Boolean. |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Beskriver procentandelen av varaktigheten för decelerationsbeteendeeffekten. Läs/skriv Single. |
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Beskriver varaktigheten för animationseffekten. Läs/skriv Single. |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Beskriver procentsatsen av varaktigheten för accelerationsbeteendeeffekten. Läs/skriv Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Beskriver om animationen ska spelas automatiskt i omvänd ordning efter att ha spelats i framåtriktning. Läs/skriv Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Beskriver procentsatsen av varaktigheten för decelerationsbeteendeeffekten. Läs/skriv Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Beskriver varaktigheten av animationseffekten. Läs/skriv Single. |
 | [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Beskriver hur många gånger effekten ska upprepas. Läs/skriv Single. |
 | [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Beskriver hur många gånger effekten ska upprepas. Läs/skriv Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Detta attribut anger om effekten ska upprepas tills slutet av bilden. Läs/skriv Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Detta attribut anger om effekten ska upprepas tills nästa klick. Läs/skriv Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Anger om en effekt ska startas om efter att den är klar. Läs/skriv [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Detta attribut anger om effekten ska spola tillbaka när den är färdigspelad. Läs/skriv Boolean. |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Anger den procentandel med vilken tidsinställningen ska accelereras (eller bromsas). Läs/skriv Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Beskriver fördröjningstiden efter utlösare. Läs/skriv Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Det här attributet anger om effekten ska upprepas tills slutet av bilden. Läs/skriv Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Det här attributet anger om effekten ska upprepas tills nästa klick. Läs/skriv Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Anger om en effekt ska startas om efter avslutning. Läs/skriv [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Det här attributet anger om effekten ska spola tillbaka när den är färdigspelad. Läs/skriv Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Anger procentsatsen för att påskynda (eller sakta ner) tidtagningen. Läs/skriv Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Beskriver fördröjningstid efter utlösare. Läs/skriv Single. |
 | [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Beskriver utlösartyp. Läs/skriv [`EffectTriggerType`](../effecttriggertype). |
 
 ### Se även

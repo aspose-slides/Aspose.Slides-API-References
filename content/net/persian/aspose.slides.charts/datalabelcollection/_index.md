@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: برچسب‌های یک سری را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر برچسب‌های یک سری است.
 type: docs
 weight: 1560
 url: /fa/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection کلاس
 
-نمایش برچسب‌های یک سری.
+نمایانگر برچسب‌های یک سری داده است.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -18,29 +18,29 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 | نام | توضیح |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | نمودار والد را برمی‌گرداند. فقط-خواندنی [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | تعداد تمام برچسب‌های داده در مجموعه را دریافت می‌کند. فقط-خواندنی Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | تعداد برچسب‌های داده قابل مشاهده در مجموعه را دریافت می‌کند. فقط-خواندنی Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | قالب پیش‌فرض برچسب داده را دریافت می‌کند. فقط-خواندنی [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | مقدار False به این معنی است که برچسب داده به‌طور پیش‌فرض قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر false هستند). فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | برچسب داده برای نقطه داده با ایندکس مشخص را دریافت می‌کند. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | قالب خطوط راهنما برچسب‌های داده را نشان می‌دهد. فقط-خواندنی [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | دنباله والد را دریافت می‌کند. فقط-خواندنی [`IChartSeries`](../ichartseries). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | مقدار والد chart را برمی‌گرداند. فقط خواندنی [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | تعداد تمام برچسب‌های داده در مجموعه را برمی‌گرداند. فقط خواندنی Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | تعداد برچسب‌های داده قابل مشاهده در مجموعه را برمی‌گرداند. فقط خواندنی Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | قالب پیش‌فرض برچسب داده را برمی‌گرداند. فقط خواندنی [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | مقدار False به این معنی است که برچسب داده به‌صورت پیش‌فرض قابل مشاهده نیست (و بنابراین تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat برابر با false هستند). فقط خواندنی Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | برچسب داده را برای نقطه داده با ایندکس مشخص برمی‌گرداند. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | قالب خطوط راهنمای برچسب‌های داده را نشان می‌دهد. فقط خواندنی [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | سری والد را برمی‌گرداند. فقط خواندنی [`IChartSeries`](../ichartseries). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | یک شمارنده را برمی‌گرداند که از مجموعه عبور می‌کند. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | برچسب داده را به‌صورت پیش‌فرض مخفی می‌کند با تنظیم همه پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت false. پس از این IsVisible برابر false خواهد بود. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | یک ایندکس از DataLabel مشخص‌شده در مجموعه را برمی‌گرداند. |
+| [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | برگرداننده‌ای (enumerator) را برمی‌گرداند که از طریق مجموعه پیمایش می‌کند. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | با تنظیم تمام پرچم‌های Show* (ShowValue, ...) از ویژگی DefaultDataLabelFormat به حالت false، برچسب داده به‌صورت پیش‌فرض مخفی می‌شود. پس از این IsVisible برابر false خواهد بود. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | اندیس DataLabel مشخص‌شده را در مجموعه برمی‌گرداند. |
 
 ### موارد مرتبط
 
-* کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* کلاس [ChartSeries](../chartseries)
-* رابط [IDataLabelCollection](../idatalabelcollection)
-* فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* اسمبلی [Aspose.Slides](../../)
+* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* class [ChartSeries](../chartseries)
+* interface [IDataLabelCollection](../idatalabelcollection)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

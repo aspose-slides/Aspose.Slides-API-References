@@ -1,14 +1,14 @@
 ---
 title: MotionCommandPathType
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: एनिमेशन मोशन इफ़ेक्ट व्यवहार के लिये कमांड के प्रकार को दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एनिमेशन मोशन इफ़ेक्ट व्यवहार के लिए कमांड के प्रकार को दर्शाता है।
 type: docs
 weight: 660
 url: /hi/aspose.slides.animation/motioncommandpathtype/
 ---
-## MotionCommandPathType एन्यूमेरेशन
+## MotionCommandPathType एन्यूमरेशन
 
-एनिमेशन मोशन इफ़ेक्ट व्यवहार के लिए कमांड के प्रकारों को दर्शाता है।
+एनिमेशन मोशन इफ़ेक्ट व्यवहार के लिए कमांड के प्रकार को दर्शाता है।
 
 ```csharp
 public enum MotionCommandPathType
@@ -16,7 +16,7 @@ public enum MotionCommandPathType
 
 ### मान
 
-| नाम | मूल्य | विवरण |
+| नाम | मान | विवरण |
 | --- | --- | --- |
 | MoveTo | `0` |  |
 | LineTo | `1` |  |

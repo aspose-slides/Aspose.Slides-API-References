@@ -1,14 +1,14 @@
 ---
 title: ZoomImageType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Zoom nesnesinin slayt önizlemesini mi yoksa kapak resmini mi kullandığını tanımlar.
+description: Zoom nesnesinin slayt ön izlemesini mi yoksa bir kapak görüntüsü mü kullandığını tanımlar.
 type: docs
-weight: 11830
+weight: 11850
 url: /tr/aspose.slides/zoomimagetype/
 ---
-## ZoomImageType enum
+## ZoomImageType sayımı
 
-Zoom nesnesinin slayt önizlemesini mi yoksa kapak resmini mi kullandığını tanımlar.
+Zoom nesnesinin slayt ön izlemesini mi yoksa kapak resmini mi kullandığını tanımlar.
 
 ```csharp
 public enum ZoomImageType
@@ -18,7 +18,7 @@ public enum ZoomImageType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Preview | `1` | Slayt veya bölümün görüntüsünü kullan. |
+| Preview | `1` | Slaytın veya bölümün görüntüsünü kullan. |
 | Cover | `2` | Özel bir görüntü kullan. |
 
 ### Ayrıca Bakınız

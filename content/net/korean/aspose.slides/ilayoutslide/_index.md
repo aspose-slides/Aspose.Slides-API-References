@@ -1,6 +1,6 @@
 ---
 title: ILayoutSlide
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET용 API 참조
 description: 레이아웃 슬라이드를 나타냅니다.
 type: docs
 weight: 6220
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/ilayoutslide/
 ---
 ## ILayoutSlide 인터페이스
 
-Represents a layout slide.
+레이아웃 슬라이드를 나타냅니다.
 
 ```csharp
 public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
@@ -20,8 +20,8 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | 기본 IBaseSlide 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | IOverrideThemeable 인터페이스를 반환합니다. 읽기 전용 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 레이아웃 슬라이드에 대한 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 이 레이아웃 슬라이드에 의존하는 슬라이드가 하나라도 존재하면 true를 반환합니다. 읽기 전용 Boolean. |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | 레이아웃 슬라이드용 그리기 가이드 컬렉션을 반환합니다. 읽기 전용 [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | 이 레이아웃 슬라이드에 종속되는 슬라이드가 하나 이상 존재하면 true를 반환합니다. 읽기 전용 Boolean. |
 | [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | 레이아웃 슬라이드의 HeaderFooter 관리자를 반환합니다. 읽기 전용 [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
 | [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | 이 레이아웃 슬라이드의 레이아웃 유형을 반환합니다. 읽기 전용 [`SlideLayoutType`](../slidelayouttype). |
 | [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | 레이아웃의 마스터 슬라이드를 반환하거나 설정합니다. 읽기/쓰기 [`IMasterSlide`](../imasterslide). |
@@ -31,10 +31,10 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | 이 레이아웃 슬라이드에 의존하는 모든 슬라이드의 배열을 반환합니다. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | 이 레이아웃 슬라이드에 종속되는 모든 슬라이드의 배열을 반환합니다. |
 | [Remove](../../aspose.slides/ilayoutslide/remove)() | 프레젠테이션에서 레이아웃을 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBaseSlide](../ibaseslide)
 * 인터페이스 [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)

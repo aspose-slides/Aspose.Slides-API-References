@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes .NET API 參考
-description: 代表投影片上形狀的群組。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示投影片上形狀的群組。
 type: docs
 weight: 6080
 url: /zh-hant/aspose.slides/igroupshape/
 ---
 ## IGroupShape 介面
 
-表示投影片上的形狀群組。
+表示投影片上形狀的群組。
 
 ```csharp
 public interface IGroupShape : IShape
@@ -16,14 +16,14 @@ public interface IGroupShape : IShape
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允許取得基礎 IShape 介面。唯讀 [`IShape`](../ishape)。 |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 返回形狀的鎖定。唯讀 [`IGroupShapeLock`](../igroupshapelock)。 |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 返回形狀的鎖定。唯讀 [`IGroupShapeLock`](../igroupshapelock)。 |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 返回群組內的形狀集合。唯讀 [`IShapeCollection`](../ishapecollection)。 |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | 允許取得基礎 IShape 介面。唯讀 [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | 傳回形狀的鎖定。唯讀 [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | 傳回形狀的鎖定。唯讀 [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | 傳回群組內的形狀集合。唯讀 [`IShapeCollection`](../ishapecollection). |
 
-### 另見
+### 另請參閱
 
 * 介面 [IShape](../ishape)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

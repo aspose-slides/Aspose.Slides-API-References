@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes for .NET API Referansı
-description: Kaynak dosya biçimini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Kaynak dosya formatını temsil eder.
 type: docs
-weight: 10660
+weight: 10680
 url: /tr/aspose.slides/sourceformat/
 ---
-## SourceFormat sayımı
+## SourceFormat enum
 
-Kaynak dosya biçimini temsil eder.
+Kaynak dosya formatını temsil eder.
 
 ```csharp
 public enum SourceFormat
@@ -18,21 +18,21 @@ public enum SourceFormat
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Presentation (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Presentation (*.pptx). |
-| Odp | `2` | OpenDocument Presentation (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Macro-enabled Presentation (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML SlideShow (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Macro-enabled SlideShow (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Template (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Macro-enabled Template (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 SlideShow (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Template (*.pot). |
-| Otp | `10` | OpenDocument Presentation Template (*.otp). |
-| Fodp | `11` | Flat XML ODF Presentation (*.fodp). |
-| Xml | `12` | PowerPoint XML Presentation (*.xml). |
+| Ppt | `0` | Microsoft PowerPoint 97-2003 Sunumu (*.ppt). |
+| Pptx | `1` | Microsoft Office Open XML Sunumu (*.pptx). |
+| Odp | `2` | OpenDocument Sunumu (*.odp). |
+| Pptm | `3` | Microsoft Office Open XML Makro destekli Sunum (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML Slayt gösterisi (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML Makro destekli Slayt gösterisi (*.ppsm). |
+| Potx | `6` | Microsoft Office Open XML Şablonu (*.potx). |
+| Potm | `7` | Microsoft Office Open XML Makro destekli Şablon (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 Slayt gösterisi (*.pps). |
+| Pot | `9` | Microsoft PowerPoint 97-2003 Şablonu (*.pot). |
+| Otp | `10` | OpenDocument Sunum Şablonu (*.otp). |
+| Fodp | `11` | Düz XML ODF Sunumu (*.fodp). |
+| Xml | `12` | PowerPoint XML Sunumu (*.xml). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

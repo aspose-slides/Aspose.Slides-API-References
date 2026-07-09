@@ -1,14 +1,14 @@
 ---
 title: IInkTrace
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงเส้นที่เขียนด้วยมือในอ็อบเจ็กต์ Ink.
+description: แทนบรรทัดที่เขียนด้วยลายมือในวัตถุ Ink.
 type: docs
 weight: 7540
 url: /th/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace อินเทอร์เฟซ
 
-แสดงเส้นที่เขียนด้วยมือในอ็อบเจ็กต์ Ink.
+แทนบรรทัดที่เขียนด้วยลายมือในวัตถุ Ink.
 
 ```csharp
 public interface IInkTrace
@@ -19,7 +19,7 @@ public interface IInkTrace
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Brush](../../aspose.slides.ink/iinktrace/brush) { get; } | รับ Brush สำหรับ IInkLine [`IInkBrush`](../iinkbrush) อ่านอย่างเดียว. |
-| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | รับจุดสำหรับ IInkLine PointF อ่านอย่างเดียว. |
+| [Points](../../aspose.slides.ink/iinktrace/points) { get; } | รับ points สำหรับ IInkLine PointF อ่านอย่างเดียว. |
 
 ### ดูเพิ่มเติม
 

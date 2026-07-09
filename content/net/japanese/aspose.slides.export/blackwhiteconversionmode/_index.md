@@ -1,14 +1,14 @@
 ---
 title: BlackWhiteConversionMode
 second_title: Aspose.Sildes for .NET API リファレンス
-description: スライド画像がビトナル画像に変換される方法を制御するオプションを提供します。
+description: スライド画像をビトナール画像に変換する方法を制御するオプションを提供します。
 type: docs
-weight: 3700
+weight: 3720
 url: /ja/aspose.slides.export/blackwhiteconversionmode/
 ---
 ## BlackWhiteConversionMode 列挙型
 
-スライドの画像をビトナル画像に変換する方法を制御するオプションを提供します。
+スライドの画像をビトナール画像に変換する方法を制御するオプションを提供します。
 
 ```csharp
 public enum BlackWhiteConversionMode
@@ -18,14 +18,14 @@ public enum BlackWhiteConversionMode
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Default | `0` | 指定された変換アルゴリズムがありません。TIFFコーデックで実装されているアルゴリズムが使用されます。(Default) |
+| Default | `0` | 変換アルゴリズムを指定しません。TIFF コーデックで実装されたアルゴリズムが使用されます。(Default) |
 | Dithering | `1` | ディザリングアルゴリズム（Floyd-Steinberg）を指定します。 |
 | DitheringFloydSteinberg | `2` | Floyd-Steinberg ディザリングアルゴリズムを指定します。 |
-| Auto | `3` | 自動的に計算されたしきい値アルゴリズム（Otsu）を指定します。 |
-| AutoOtsu | `4` | 自動的に計算された Otsu のしきい値アルゴリズムを指定します。 |
-| Threshold25 | `5` | 静的なしきい値アルゴリズム（25%）を指定します。 |
-| Threshold50 | `6` | 静的なしきい値アルゴリズム（50%）を指定します。 |
-| Threshold75 | `7` | 静的なしきい値アルゴリズム（75%）を指定します。 |
+| Auto | `3` | 自動計算された閾値アルゴリズム（Otsu）を指定します。 |
+| AutoOtsu | `4` | 自動計算された Otsu の閾値アルゴリズムを指定します。 |
+| Threshold25 | `5` | 固定閾値アルゴリズム（25％）を指定します。 |
+| Threshold50 | `6` | 固定閾値アルゴリズム（50％）を指定します。 |
+| Threshold75 | `7` | 固定閾値アルゴリズム（75％）を指定します。 |
 
 ### 参照
 

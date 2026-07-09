@@ -1,14 +1,14 @@
 ---
 title: SlideOrientation
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงการวางแนวของสไลด์.
+description: แสดงถึงการจัดแนวสไลด์.
 type: docs
 weight: 10000
 url: /th/aspose.slides/slideorientation/
 ---
-## การ列舉 SlideOrientation
+## SlideOrientation enumeration
 
-แสดงการวางแนวของสไลด์.
+แสดงถึงการจัดแนวสไลด์
 
 ```csharp
 public enum SlideOrientation
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Landscape | `0` | การวางแนวแนวนอน |
-| Portrait | `1` | การวางแนวแนวตั้ง |
+| Landscape | `0` | Landscape แนวนอน. |
+| Portrait | `1` | Portrait แนวตั้ง. |
 
 ### ดูเพิ่มเติม
 

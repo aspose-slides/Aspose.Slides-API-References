@@ -1,14 +1,14 @@
 ---
 title: MarkerStyleType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 데이터 포인트의 마커 형태를 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 차트 데이터 포인트에 표시되는 마커 형태를 결정합니다.
 type: docs
 weight: 2340
 url: /ko/aspose.slides.charts/markerstyletype/
 ---
 ## MarkerStyleType 열거형
 
-차트 데이터 포인트의 마커 형태를 결정합니다.
+차트 데이터 포인트에 표시되는 마커의 형태를 결정합니다.
 
 ```csharp
 public enum MarkerStyleType
@@ -19,19 +19,19 @@ public enum MarkerStyleType
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
-| Circle | `0` | 각 데이터 포인트에 원이 그려짐을 지정합니다. |
-| Dash | `1` | 각 데이터 포인트에 대시가 그려짐을 지정합니다. |
-| Diamond | `2` | 각 데이터 포인트에 다이아몬드가 그려짐을 지정합니다. |
-| Dot | `3` | 각 데이터 포인트에 점이 그려짐을 지정합니다. |
-| None | `4` | 각 데이터 포인트에 아무 것도 그려지지 않음을 지정합니다. |
-| Picture | `5` | 각 데이터 포인트에 그림이 그려짐을 지정합니다. |
-| Plus | `6` | 각 데이터 포인트에 플러스가 그려짐을 지정합니다. |
-| Square | `7` | 각 데이터 포인트에 정사각형이 그려짐을 지정합니다. |
-| Star | `8` | 각 데이터 포인트에 별이 그려짐을 지정합니다. |
-| Triangle | `9` | 각 데이터 포인트에 삼각형이 그려짐을 지정합니다. |
-| X | `10` | 각 데이터 포인트에 X가 그려짐을 지정합니다. |
+| Circle | `0` | 각 데이터 포인트에 원이 그려지도록 지정합니다. |
+| Dash | `1` | 각 데이터 포인트에 대시가 그려지도록 지정합니다. |
+| Diamond | `2` | 각 데이터 포인트에 다이아몬드가 그려지도록 지정합니다. |
+| Dot | `3` | 각 데이터 포인트에 점이 그려지도록 지정합니다. |
+| None | `4` | 각 데이터 포인트에 아무 것도 그려지지 않도록 지정합니다. |
+| Picture | `5` | 각 데이터 포인트에 그림이 그려지도록 지정합니다. |
+| Plus | `6` | 각 데이터 포인트에 플러스가 그려지도록 지정합니다. |
+| Square | `7` | 각 데이터 포인트에 정사각형이 그려지도록 지정합니다. |
+| Star | `8` | 각 데이터 포인트에 별이 그려지도록 지정합니다. |
+| Triangle | `9` | 각 데이터 포인트에 삼각형이 그려지도록 지정합니다. |
+| X | `10` | 각 데이터 포인트에 X가 그려지도록 지정합니다. |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

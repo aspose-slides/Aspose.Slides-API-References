@@ -1,7 +1,7 @@
 ---
 title: EffectSubtype
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示動畫效果的子類型。
+description: 代表動畫效果的子類型。
 type: docs
 weight: 340
 url: /zh-hant/aspose.slides.animation/effectsubtype/
@@ -16,7 +16,7 @@ public enum EffectSubtype
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
 | None | `0` |  |
 | Across | `1` |  |
@@ -71,7 +71,7 @@ public enum EffectSubtype
 | Wheel4 | `50` |  |
 | Wheel8 | `51` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 組件 [Aspose.Slides](../../)

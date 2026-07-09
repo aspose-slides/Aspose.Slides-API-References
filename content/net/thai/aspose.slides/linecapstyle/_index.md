@@ -1,14 +1,14 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงสไตล์ของหัวเส้น.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงรูปแบบหัวเส้น.
 type: docs
 weight: 7760
 url: /th/aspose.slides/linecapstyle/
 ---
 ## LineCapStyle การกำหนดค่า
 
-แสดงถึงสไตล์ของหัวเส้น.
+แสดงถึงรูปแบบหัวเส้น.
 
 ```csharp
 public enum LineCapStyle : sbyte
@@ -16,7 +16,7 @@ public enum LineCapStyle : sbyte
 
 ### ค่า
 
-| ชื่อ | ค่า | รายละเอียด |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Round | `0` |  |

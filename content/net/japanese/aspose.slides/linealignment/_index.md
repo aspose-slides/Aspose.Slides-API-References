@@ -1,9 +1,9 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 行の配置タイプを表します。
 type: docs
-weight: 7700
+weight: 7720
 url: /ja/aspose.slides/linealignment/
 ---
 ## LineAlignment 列挙型
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

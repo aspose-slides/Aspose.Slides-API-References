@@ -1,9 +1,9 @@
 ---
 title: EffectRestartType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Zamanlama için yeniden başlatma türlerini temsil eder.
 type: docs
-weight: 310
+weight: 330
 url: /tr/aspose.slides.animation/effectrestarttype/
 ---
 ## EffectRestartType enum
@@ -16,7 +16,7 @@ public enum EffectRestartType
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Always | `0` |  |

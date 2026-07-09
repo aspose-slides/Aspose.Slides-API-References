@@ -1,9 +1,9 @@
 ---
 title: IRowCollection
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Tablo satır koleksiyonunu temsil eder.
 type: docs
-weight: 6840
+weight: 6860
 url: /tr/aspose.slides/irowcollection/
 ---
 ## IRowCollection arayüz
@@ -18,15 +18,15 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve bir tablonun altına ekler. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve bir tabloda belirtilen konuma ekler. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Bir tablodan belirtilen konumdaki satırı kaldırır. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tabloyun altına ekler. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Belirtilen şablon satırının bir kopyasını oluşturur ve tablo içinde belirtilen konuma ekler. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Bir tablo içindeki belirtilen konumdaki satırı kaldırır. |
 
 ### Ayrıca Bakınız
 

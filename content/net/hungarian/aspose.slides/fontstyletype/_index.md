@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Meghatározza a szövegre alkalmazható formázási stílusokat.
+second_title: Aspose.Sildes a .NET API referenciája
+description: Meghatározza azokat a formázási stílusokat, amelyeket a szövegre lehet alkalmazni.
 type: docs
-weight: 4850
+weight: 4870
 url: /hu/aspose.slides/fontstyletype/
 ---
 ## FontStyleType enumeráció
 
-Meghatározza a szövegre alkalmazható formázási stílusokat.
+Formázási stílusokat definiál, amelyeket a szövegre lehet alkalmazni.
 
 ```csharp
 [Flags]
@@ -19,11 +19,11 @@ public enum FontStyleType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Regular | `0` | Alapértelmezett szöveg. |
+| Regular | `0` | Standard szöveg. |
 | Bold | `1` | Félkövér szöveg. |
 | Italic | `2` | Dőlt szöveg. |
 | Underline | `4` | Aláhúzott szöveg. |
-| Strikeout | `8` | Vízszintes vonallal áthúzott szöveg. |
+| Strikeout | `8` | Szöveg, amelyet egy vízszintes vonallal áthúznak. |
 
 ### Lásd még
 

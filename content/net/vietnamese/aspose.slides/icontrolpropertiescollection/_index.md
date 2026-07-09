@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Một tập hợp các điều khiển ActiveX.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Một bộ sưu tập các điều khiển ActiveX.
 type: docs
 weight: 5650
 url: /vi/aspose.slides/icontrolpropertiescollection/
 ---
 ## IControlPropertiesCollection giao diện
 
-Một tập hợp các điều khiển ActiveX.
+Một bộ sưu tập các điều khiển ActiveX.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,20 +18,20 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Trả về giao diện IEnumerable. IEnumerable chỉ đọc. |
-| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Trả về số lượng thuộc tính trong tập hợp. Int32 chỉ đọc. |
-| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Trả về hoặc đặt thuộc tính. |
-| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Trả về số lượng thuộc tính trong tập hợp. ICollection chỉ đọc. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | Trả về giao diện IEnumerable. Chỉ đọc IEnumerable. |
+| [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Trả về số lượng thuộc tính trong bộ sưu tập. Chỉ đọc Int32. |
+| [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Trả về hoặc thiết lập thuộc tính. |
+| [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Trả về số lượng thuộc tính trong bộ sưu tập. Chỉ đọc ICollection. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Thêm một thuộc tính vào tập hợp. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Thêm một thuộc tính vào bộ sưu tập. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Xóa tất cả các thuộc tính. |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Xóa một thuộc tính có tên đã chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

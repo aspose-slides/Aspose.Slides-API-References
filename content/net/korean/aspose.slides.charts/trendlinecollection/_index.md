@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/trendlinecollection/
 ---
 ## TrendlineCollection 클래스
 
-Trendline 컬렉션을 나타냅니다.
+컬렉션에 포함된 Trendline을 나타냅니다.
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -16,20 +16,20 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`Trendline`](../trendline). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | 새 Trendline을 컬렉션 끝에 추가하고 반환합니다. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | 지정된 값을 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartSeries](../chartseries)

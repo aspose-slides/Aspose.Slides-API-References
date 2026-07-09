@@ -1,14 +1,14 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunum bileşenini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir sunumun bileşenini temsil eder.
 type: docs
-weight: 6740
+weight: 6760
 url: /tr/aspose.slides/ipresentationcomponent/
 ---
-## IPresentationComponent arabirim
+## IPresentationComponent arayüz
 
-Bir sunum bileşenini temsil eder.
+Bir sunumun bileşenini temsil eder.
 
 ```csharp
 public interface IPresentationComponent
@@ -18,9 +18,9 @@ public interface IPresentationComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Sunumu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | Sunumu döndürür. Yalnızca okunabilir [`IPresentation`](../ipresentation). |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

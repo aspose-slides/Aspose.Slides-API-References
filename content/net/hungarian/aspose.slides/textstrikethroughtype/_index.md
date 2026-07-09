@@ -1,14 +1,14 @@
 ---
 title: TextStrikethroughType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A szöveg áthúzásának típusát jelöli.
+second_title: Aspose.Sildes a .NET API referenciája
+description: A szöveg áthúzás típusát jelöli.
 type: docs
-weight: 10970
+weight: 10990
 url: /hu/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType enumeration
+## TextStrikethroughType enumeráció
 
-A szöveg áthúzásának típusát jelöli.
+Represents the type of text strikethrough.
 
 ```csharp
 public enum TextStrikethroughType : sbyte

@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่คงที่ซึ่งมีคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีผล
+description: อ็อบเจ็กต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งมีคุณสมบัติการจัดรูปแบบคอลัมน์ของตารางที่มีผล
 type: docs
 weight: 5550
 url: /th/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่คงที่ซึ่งมีคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติการจัดรูปแบบคอลัมน์ของตารางที่มีผล.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseTableFormatEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBaseTableFormatEffectiveData พื้นฐานได้. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IColumnFormat`](../icolumnformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลโดยมีการสืบทอดและสไตล์ตารางที่นำไปใช้
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IColumnFormat`](../icolumnformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลพร้อมกับการสืบทอดและสไตล์ตารางที่ถูกนำไปใช้.
 
 ### ดูเพิ่มเติม
 

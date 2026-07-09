@@ -1,14 +1,14 @@
 ---
 title: IStreamWrapperFactory
 second_title: Aspose.Sildes voor .NET API Referentie
-description: Fabriek van StreamWrappers. Voor COM-interface.
+description: Factory van StreamWrappers. Voor COM-interface.
 type: docs
 weight: 7140
 url: /nl/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interface
 
-Fabriek van StreamWrappers. Voor COM-interface.
+Factory van StreamWrappers. Voor COM-interface.
 
 ```csharp
 public interface IStreamWrapperFactory
@@ -18,10 +18,10 @@ public interface IStreamWrapperFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Maakt een FileStream met het opgegeven pad en de aanmaakmodus. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Maakt een FileStream met het opgegeven pad, de aanmaakmodus en de lees-/schrijfrechten. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Maakt een MemoryStream wrapper. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Maakt een MemoryStream wrapper op basis van de opgegeven byte-array. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Maakt een FileStream met het opgegeven pad en aanmaakmodus. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Maakt een FileStream met het opgegeven pad, aanmaakmodus en lees-/schrijfrechten. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Maakt een MemoryStream-wrapper. |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Maakt een MemoryStream-wrapper op basis van de opgegeven byte-array. |
 
 ### Zie ook
 

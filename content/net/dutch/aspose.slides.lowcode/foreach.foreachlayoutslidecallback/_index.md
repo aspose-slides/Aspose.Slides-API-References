@@ -16,8 +16,8 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | Huidige itereerde layout slide |
-| index | Int32 | Index van de huidige layout slide |
+| layoutSlide | LayoutSlide | Current iterated layout slide |
+| index | Int32 | Index of the current layout slide |
 
 ### Zie ook
 

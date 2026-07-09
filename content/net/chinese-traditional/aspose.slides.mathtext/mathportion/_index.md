@@ -1,20 +1,20 @@
 ---
 title: MathPortion
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示內含數學上下文的區段。
+description: 表示內部具有數學上下文的區段。
 type: docs
 weight: 8930
 url: /zh-hant/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion 類別
 
-表示內含數學上下文的區段。
+代表內部具有數學上下文的內容區段。
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
 ```
 
-## 建構式
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -24,9 +24,9 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | 返回此區段的欄位。唯讀 [`IField`](../../aspose.slides/ifield)。 |
+| [Field](../../aspose.slides/portion/field) { get; } | 傳回此區段的欄位。唯讀 [`IField`](../../aspose.slides/ifield)。 |
 | [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | 數學段落 |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 返回格式化物件，該物件包含未套用繼承的文字區段之明確設定格式屬性。唯讀 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | 傳回格式化物件，包含對文字區段明確設定的格式屬性，未套用繼承。唯讀 [`IPortionFormat`](../../aspose.slides/iportionformat)。 |
 | [Text](../../aspose.slides/portion/text) { get; set; } | 取得或設定區段的純文字。可讀寫 String。 |
 
 ## 方法
@@ -35,9 +35,9 @@ public sealed class MathPortion : Portion, IMathPortion
 | --- | --- |
 | [AddField](../../aspose.slides/portion/addfield)(IFieldType) | 將此區段轉換為自動更新的欄位。 |
 | [AddField](../../aspose.slides/portion/addfield)(string) | 將此區段轉換為自動更新的欄位。 |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 取得區段起點的座標。點的 X 座標表示從第一個字元開始的區段起點（包括左側間距）。Y 座標包括上側間距。 |
-| [GetRect](../../aspose.slides/portion/getrect)() | 取得界定區段的矩形座標。該矩形涵蓋區段內所有文字行，包括空行。 |
-| [RemoveField](../../aspose.slides/portion/removefield)() | 將此欄位區段轉換為簡易區段。 |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | 取得區段起始位置的座標。點的 X 座標表示從第一個字元開始、包含左側留白的區段起始。Y 座標包括上側留白。 |
+| [GetRect](../../aspose.slides/portion/getrect)() | 取得界定區段的矩形座標。該矩形包含區段內所有文字行，包括空白行。 |
+| [RemoveField](../../aspose.slides/portion/removefield)() | 將此欄位區段轉換為簡單區段。 |
 
 ### 範例
 

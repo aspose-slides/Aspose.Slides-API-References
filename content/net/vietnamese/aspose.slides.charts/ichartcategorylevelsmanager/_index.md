@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Bộ chứa được quản lý cho các giá trị của các mức danh mục biểu đồ.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Bộ chứa được quản lý của các giá trị ở các cấp độ danh mục biểu đồ.
 type: docs
 weight: 1770
 url: /vi/aspose.slides.charts/ichartcategorylevelsmanager/
 ---
 ## IChartCategoryLevelsManager giao diện
 
-Bộ chứa được quản lý cho các giá trị của các mức danh mục biểu đồ.
+Bộ chứa được quản lý của các giá trị ở các cấp độ danh mục biểu đồ.
 
 ```csharp
 public interface IChartCategoryLevelsManager
@@ -18,16 +18,16 @@ public interface IChartCategoryLevelsManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Trả về đối tượng IChartDataCell cho mức được xác định. |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | Trả về đối tượng IChartDataCell cho cấp độ được xác định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Xóa mục nhóm cho mức được xác định. |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Đặt mục nhóm cho mức được xác định. |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | Xóa mục nhóm cho cấp độ được xác định. |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | Đặt mục nhóm cho cấp độ được xác định. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

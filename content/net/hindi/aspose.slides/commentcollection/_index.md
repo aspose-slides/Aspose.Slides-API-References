@@ -8,7 +8,7 @@ url: /hi/aspose.slides/commentcollection/
 ---
 ## CommentCollection वर्ग
 
-एक लेखक के सभी टिप्पणियों का संग्रह दर्शाता है।
+Represents a collection of comments of one author.
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,34 +18,34 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | यह मान लौटाता है कि क्या संग्रह तक पहुँच समन्वित (थ्रेड-सेफ) है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | एक समन्वयन मूल (synchronization root) लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | संग्रह में वास्तविक रूप से शामिल तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि क्या संग्रह तक पहुंच समकालिक (थ्रेड-सुरक्षित) है। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | एक समकालिक मूल लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | संग्रह के अंत में नई टिप्पणी जोड़ता है। |
+| [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | संग्रह के अंत में नया टिप्पणी जोड़ता है। |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | संग्रह के अंत में नई आधुनिक टिप्पणी जोड़ता है। |
 | [Clear](../../aspose.slides/commentcollection/clear)() | संग्रह से सभी टिप्पणियों को हटाता है। |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट ऐरे में कॉपी करता है। |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | सूचकांक द्वारा संग्रह में टिप्पणी खोजता है। |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | एक इटरेटर (enumerator) लौटाता है जो संग्रह के माध्यम से चलता है। |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | निर्दिष्ट सूचकांक पर नई टिप्पणी सम्मिलित करता है। |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | निर्दिष्ट सूचकांक पर नई आधुनिक टिप्पणी सम्मिलित करता है। |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | संग्रह से सभी तत्वों को निर्दिष्ट सरणी में कॉपी करता है। |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | संग्रह में अनुक्रमणिका द्वारा टिप्पणी खोजता है। |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटरिट करता है। |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | निर्दिष्ट अनुक्रमणिका पर संग्रह में नई टिप्पणी सम्मिलित करता है। |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | निर्दिष्ट अनुक्रमणिका पर संग्रह में नई आधुनिक टिप्पणी सम्मिलित करता है। |
 | [Remove](../../aspose.slides/commentcollection/remove)(IComment) | संग्रह में निर्दिष्ट टिप्पणी की पहली उपस्थिति को हटाता है। |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | संग्रह में निर्दिष्ट सूचकांक पर तत्व को हटाता है। |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | सभी टिप्पणियों के साथ एक ऐरे बनाता और लौटाता है। |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | निर्दिष्ट सीमा से सभी टिप्पणियों के साथ एक ऐरे बनाता और लौटाता है। |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | संग्रह में निर्दिष्ट अनुक्रमणिका पर तत्व को हटाता है। |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | सभी टिप्पणियों के साथ एक सरणी बनाता है और लौटाता है। |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | निर्दिष्ट सीमा से सभी टिप्पणियों के साथ एक सरणी बनाता है और लौटाता है। |
 
 ### संबंधित देखें
 
 * वर्ग [DomObject&lt;TParent&gt;](../domobject-1)
 * वर्ग [CommentAuthor](../commentauthor)
 * इंटरफ़ेस [ICommentCollection](../icommentcollection)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho loại hiệu ứng hoạt ảnh cho phần tử biểu đồ.
+second_title: Aspose.Sildes cho .NET - Tham khảo API
+description: Biểu thị loại hiệu ứng hoạt hình cho phần tử biểu đồ.
 type: docs
 weight: 290
 url: /vi/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType enum
+## EffectChartMajorGroupingType liệt kê
 
-Đại diện cho loại hiệu ứng hoạt ảnh cho phần tử của biểu đồ.
+Biểu thị loại hiệu ứng hoạt hình cho phần tử của biểu đồ.
 
 ```csharp
 public enum EffectChartMajorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMajorGroupingType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| BySeries | `0` | Hoạt ảnh biểu đồ theo chuỗi |
-| ByCategory | `1` | Hoạt ảnh biểu đồ theo danh mục |
+| BySeries | `0` | Hoạt hình biểu đồ theo chuỗi |
+| ByCategory | `1` | Hoạt hình biểu đồ theo danh mục |
 
 ### Xem thêm
 

@@ -1,12 +1,12 @@
 ---
 title: ITextAnimation
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta l'animazione del testo.
 type: docs
-weight: 600
+weight: 620
 url: /it/aspose.slides.animation/itextanimation/
 ---
-## Interfaccia ITextAnimation
+## ITextAnimation interfaccia
 
 Rappresenta l'animazione del testo.
 
@@ -18,8 +18,8 @@ public interface ITextAnimation
 
 | Nome | Descrizione |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Elenco dei tipi di costruzione (ad es. Paragraph 1,2,3, All at Once) dell'animazione del testo. Lettura/Scrittura [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Effetto forma collegata con gruppo o meno (null) Lettura/Scrittura [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Elenco del tipo di costruzione (es. Paragrafo 1,2,3, Tutti insieme) dell'animazione del testo. Lettura/scrittura [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Effetto forma collegata al gruppo o meno (null). Lettura/scrittura [`IEffect`](../ieffect). |
 
 ## Metodi
 

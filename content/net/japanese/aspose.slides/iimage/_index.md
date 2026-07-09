@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ラスタ画像またはベクター画像を表します。
+description: ラスターまたはベクター画像を表します。
 type: docs
-weight: 6130
+weight: 6150
 url: /ja/aspose.slides/iimage/
 ---
 ## IImage インターフェイス
 
-ラスタ画像またはベクター画像を表します。
+ラスターまたはベクター画像を表します。
 
 ```csharp
 public interface IImage : IDisposable
@@ -34,7 +34,7 @@ public interface IImage : IDisposable
 
 ### 備考
 
-このインターフェイスは、ラスタ画像とベクター画像の両方を処理するための共通の抽象化を提供します。実装は基になる画像タイプに応じて異なる場合があります。
+このインターフェイスは、ラスター画像とベクター画像の両方を処理するための共通の抽象化を提供します。実装は基になる画像タイプに応じて異なる場合があります。
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Ábrázolja az animációs tulajdonság számítási módját.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Az animáció tulajdonságának számítási módját reprezentálja.
 type: docs
-weight: 720
+weight: 740
 url: /hu/aspose.slides.animation/propertycalcmodetype/
 ---
 ## PropertyCalcModeType enumeráció
 
-Az animációs tulajdonság számítási módját ábrázolja.
+Az animáció tulajdonságának számítási módját reprezentálja.
 
 ```csharp
 public enum PropertyCalcModeType

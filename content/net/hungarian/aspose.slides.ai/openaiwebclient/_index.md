@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Sildes .NET API referencia
-description: Beépített könnyűsúlyú OpenAI webkliens
+description: Beépített IAIWebClient./iaiwebclient megvalósítás, amely csatlakozik az OpenAI API-hoz.
 type: docs
-weight: 30
+weight: 50
 url: /hu/aspose.slides.ai/openaiwebclient/
 ---
 ## OpenAIWebClient osztály
 
-Beépített könnyűsúlyú OpenAI webkliens
+Beépített [`IAIWebClient`](../iaiwebclient) megvalósítás, amely csatlakozik az OpenAI API-hoz.
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -18,16 +18,16 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 
 | Név | Leírás |
 | --- | --- |
-| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | Létrehozza egy OpenAI Web kliens példányát. |
-| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Létrehozza egy OpenAI Web kliens példányát. |
+| [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | Létrehoz egy OpenAI web kliens példányt. |
+| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | Létrehoz egy OpenAI web kliens példányt, amely külsőleg kezelt HttpClient-et használ. A megadott HttpClient-et ez a példány nem zárja le, és a hívó továbbra is birtokolja. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | `HttpClient` példányt használva küld egy csevegési utasítást az AI modellnek, és visszaadja a válasz üzenetet a megadott utasításra. |
-| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Létrehozza a beszélgetés példányát. A rendszeres AI hívásokkal szemben a beszélgetések megtartják a teljes kontextust. |
-| [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Felszabadítja az ezen példány által használt erőforrásokat. |
+| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | Chat utasítást küld az AI modellnek egy külsőleg kezelt `HttpClient` példány használatával, és visszaadja a válaszüzenetet a megadott utasításra. |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | Létrehoz egy beszélgetés példányt. A szokásos AI hívásokkal ellentétben a beszélgetések megtartják a teljes kontextust. |
+| [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | Felszabadítja az e példány által használt erőforrásokat. |
 
 ### Lásd még
 

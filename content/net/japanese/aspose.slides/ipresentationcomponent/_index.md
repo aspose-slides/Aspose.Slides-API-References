@@ -1,12 +1,12 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: プレゼンテーションのコンポーネントを表します。
 type: docs
-weight: 6740
+weight: 6760
 url: /ja/aspose.slides/ipresentationcomponent/
 ---
-## IPresentationComponent インターフェイス
+## IPPresentationComponent インターフェイス
 
 プレゼンテーションのコンポーネントを表します。
 

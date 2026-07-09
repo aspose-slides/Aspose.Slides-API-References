@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge 介面
 
-表示 Soft Edge 效果。形狀的邊緣會被模糊，而填充則不受影響。
+表示 Soft Edge 效果。形狀的邊緣會被模糊，而填充不受影響。
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,11 +18,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | Allows to get base IAccessiblePVIObject interface. 唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | Allows to get base IImageTransformOperation interface. 唯讀 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | Specifies the radius of blur to apply to the edges. 可讀寫 Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | 指定套用於邊緣的模糊半徑。讀寫 Double。 |
 
-### 另見
+### 參見
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

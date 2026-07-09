@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงถึงออบเจ็กต์ Slide Zoom ในสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงอ็อบเจกต์ Slide Zoom ในสไลด์
 type: docs
 weight: 7400
 url: /th/aspose.slides/izoomframe/
 ---
 ## IZoomFrame อินเทอร์เฟซ
 
-แสดงถึงออบเจ็กต์ Slide Zoom ในสไลด์
+แสดงอ็อบเจกต์ Slide Zoom ในสไลด์
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -18,8 +18,8 @@ public interface IZoomFrame : IZoomObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | คืนค่า IZoomObject interface. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | รับหรือกำหนดออบเจ็กต์สไลด์ที่ออบเจ็กต์ Slide Zoom เชื่อมโยงถึง. อ่าน/เขียน [`ISlide`](../islide). |
+| [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | คืนค่า IZoomObject อินเทอร์เฟซ. |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | รับหรือกำหนดอ็อบเจกต์สไลด์ที่อ็อบเจกต์ Slide Zoom เชื่อมโยง. อ่าน/เขียน [`ISlide`](../islide). |
 
 ### ดูเพิ่มเติม
 

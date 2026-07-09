@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElementFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: IMathSuperscriptElement oluşturulmasını sağlar
+second_title: Aspose.Sildes for .NET API Referansı
+description: IMathSuperscriptElement oluşturmayı sağlar
 type: docs
-weight: 8480
+weight: 8500
 url: /tr/aspose.slides.mathtext/imathsuperscriptelementfactory/
 ---
 ## IMathSuperscriptElementFactory arayüz
 
-IMathSuperscriptElement oluşturulmasını sağlar
+IMathSuperscriptElement oluşturmayı sağlar
 
 ```csharp
 public interface IMathSuperscriptElementFactory

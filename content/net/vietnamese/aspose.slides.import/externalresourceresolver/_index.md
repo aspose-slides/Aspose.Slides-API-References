@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Lớp callback được sử dụng để giải quyết tài nguyên bên ngoài khi nhập tài liệu Html và Svg. Việc sử dụng resolver này có thể gây ra lỗ hổng khi tệp HTML hoặc SVG do khách hàng cung cấp khiến phần mềm máy chủ truy cập tệp cục bộ hoặc trên mạng. Hãy sử dụng cẩn thận. Khuyến nghị không chỉ định ExternalResourceResolver nào cả (chỉ các đối tượng được nhúng sẽ được đọc) hoặc tạo một lớp con để kiểm tra xem URI được chỉ định có hợp lệ hay không.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lớp callback được sử dụng để giải quyết các tài nguyên bên ngoài trong quá trình nhập tài liệu Html và Svg. Việc sử dụng resolver này có thể tạo ra lỗ hổng khi tệp HTML hoặc SVG do khách hàng cung cấp khiến phần mềm máy chủ truy cập tệp cục bộ hoặc trên mạng. Hãy sử dụng cẩn thận. Khuyến nghị không chỉ định ExternalResourceResolver; chỉ các đối tượng được nhúng sẽ được đọc hoặc tạo một lớp con để kiểm tra xem uri được chỉ định có hợp lệ hay không.
 type: docs
 weight: 7480
 url: /vi/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver lớp
 
-Callback class used to resolve external resources during Html, Svg documents import. Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid.
+Lớp callback được sử dụng để giải quyết các tài nguyên bên ngoài trong quá trình nhập tài liệu Html, Svg. Việc sử dụng resolver này có thể tạo ra lỗ hổng khi tệp HTML hoặc SVG do khách hàng cung cấp sẽ khiến phần mềm máy chủ truy cập tệp cục bộ hoặc trên mạng. Hãy sử dụng cẩn thận. Khuyến nghị không chỉ định ExternalResourceResolver (chỉ các đối tượng được nhúng sẽ được đọc) hoặc tạo một lớp con kiểm tra xem uri được chỉ định có hợp lệ hay không.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -16,16 +16,16 @@ public class ExternalResourceResolver : IExternalResourceResolver
 
 ## Hàm tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [ExternalResourceResolver](externalresourceresolver)() | Hàm tạo mặc định. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Ánh xạ một URI tới một đối tượng chứa tài nguyên thực tế. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Giải quyết URI tuyệt đối từ các URI gốc và tương đối. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Giải quyết URI tuyệt đối từ URI cơ sở và URI tương đối. |
 
 ### Xem thêm
 

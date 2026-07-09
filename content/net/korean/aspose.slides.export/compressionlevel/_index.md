@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Sildes for .NET API 참조
-description: OpenXML 파일에 대한 ZIP 압축 레벨을 지정합니다. 높은 레벨은 압축 효율은 높지만 처리 속도가 느려집니다.
+second_title: Aspose.Sildes용 .NET API 참조
+description: OpenXML 파일에 대한 ZIP 압축 수준을 지정합니다. 높은 수준은 압축률이 향상되지만 처리 속도가 느려집니다.
 type: docs
 weight: 3740
 url: /ko/aspose.slides.export/compressionlevel/
 ---
 ## CompressionLevel 열거형
 
-OpenXML 파일에 대한 ZIP 압축 수준을 지정합니다. 높은 수준일수록 압축 효율은 좋지만 처리 속도가 느려집니다.
+ZIP 압축 수준을 지정합니다. 높은 수준은 압축률이 향상되지만 처리 속도가 느려집니다.
 
 ```csharp
 public enum CompressionLevel
@@ -19,15 +19,15 @@ public enum CompressionLevel
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | None | `0` | 압축이 적용되지 않습니다. 파일은 그대로 저장됩니다. |
-| Level1 | `1` | 가장 빠른 압축이며 압축 비율이 가장 낮습니다. |
-| Level2 | `2` | Level1보다 약간 높은 압축 비율을 갖는 더 빠른 압축입니다. |
-| Level3 | `3` | Level2보다 더 나은 압축을 제공하지만 성능에 중간 정도의 영향을 미칩니다. |
+| Level1 | `1` | 가장 낮은 압축 비율로 가장 빠른 압축을 제공합니다. |
+| Level2 | `2` | Level1보다 약간 더 나은 압축 비율로 더 빠른 압축을 제공합니다. |
+| Level3 | `3` | 성능 영향을 중간 정도로 유지하면서 Level2보다 더 나은 압축을 제공합니다. |
 | Level4 | `4` | Level3보다 더 나은 압축을 제공합니다. |
-| Level5 | `5` | Level4보다 향상된 압축을 제공하지만 추가 처리 시간이 필요합니다. |
-| Level6 | `6` | 표준 압축으로, 압축 속도와 파일 크기 사이에 좋은 균형을 제공합니다. 기본 압축 수준입니다. |
+| Level5 | `5` | 추가 처리 시간을 소요하지만 Level4보다 개선된 압축을 제공합니다. |
+| Level6 | `6` | 표준 압축으로, 압축 속도와 파일 크기 사이의 좋은 균형을 제공합니다. 기본 압축 수준입니다. |
 | Level7 | `7` | Level6보다 높은 압축을 제공하지만 처리 속도가 느립니다. |
-| Level8 | `8` | Level7보다 더 높은 압축을 제공합니다. |
-| Level9 | `9` | 최대 압축으로, 가장 작은 파일 크기를 만들지만 처리 속도가 가장 느립니다. |
+| Level8 | `8` | Level7보다 높은 압축을 제공합니다. |
+| Level9 | `9` | 최대 압축으로, 가장 느린 처리 속도에서 가장 작은 파일 크기를 생성합니다. |
 
 ### 참조
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om VBA-projectreferenties te maken via COM-interface
+description: Staat toe VBA-projectreferenties te maken via COM-interface
 type: docs
 weight: 11590
 url: /nl/aspose.slides.vba/ivbareferencefactory/
 ---
 ## IVbaReferenceFactory interface
 
-Staat toe om VBA-projectreferenties te maken via COM-interface
+Staat toe VBA-projectreferenties te maken via COM-interface
 
 ```csharp
 public interface IVbaReferenceFactory
@@ -18,7 +18,7 @@ public interface IVbaReferenceFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Maakt een nieuwe OLE Automation-typebibliotheekreferentie. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Maakt een nieuwe OLE Automation-typebibliotheekreferentie aan. |
 
 ### Zie ook
 

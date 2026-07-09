@@ -1,14 +1,14 @@
 ---
 title: FilterEffectType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Filtre efekt türlerini temsil eder.
+description: Filtre etkisi türlerini temsil eder.
 type: docs
-weight: 380
+weight: 400
 url: /tr/aspose.slides.animation/filtereffecttype/
 ---
 ## FilterEffectType enum
 
-Filtre efekt türlerini temsil eder.
+Filtre etkisi türlerini temsil eder.
 
 ```csharp
 public enum FilterEffectType
@@ -38,7 +38,7 @@ public enum FilterEffectType
 | Wheel | `17` |  |
 | Wipe | `18` |  |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

@@ -1,49 +1,49 @@
 ---
 title: BulletFormat
-second_title: مرجع API Aspose.Sildes برای .NET
-description: خواص قالب‌بندی گلولهٔ پاراگراف را نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایش‌دهندهٔ خصوصیات قالب‌بندی گلولهٔ پاراگراف.
 type: docs
 weight: 1070
 url: /fa/aspose.slides/bulletformat/
 ---
 ## کلاس BulletFormat
 
-خواص قالب‌بندی گلولهٔ پاراگراف را نشان می‌دهد.
+نمایش‌دهندهٔ خصوصیات قالب‌بندی گلولهٔ پاراگراف.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | به‌دست آوردن رابط پایه IPresentationComponent اجازه می‌دهد. فقط-خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | کاراکتر گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | قالب رنگ گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند. فقط-خواندنی [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | قلم گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | ارتفاع گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. مقدار float.NaN تعیین می‌کند که ارتفاع گلوله از اولین بخش پاراگراف به ارث می‌رسد. خواندنی/نوشتنی Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | مشخص می‌کند آیا گلوله رنگ خود را دارد یا از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله رنگ خود را داشته باشد و **NullableBool.False** اگر رنگ را از اولین بخش پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | مشخص می‌کند آیا گلوله قلم خود را دارد یا از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله قلم خود را داشته باشد و **NullableBool.False** اگر قلم را از اولین بخش پاراگراف به ارث ببرد. خواندنی/نوشتنی [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | عدد اولی که برای گروهی از گلوله‌های شماره‌دار بدون وراثت استفاده می‌شود را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | سبک گلولهٔ شماره‌دار بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | تصویری که به‌عنوان گلوله در یک پاراگراف بدون وراثت استفاده می‌شود را برمی‌گرداند. فقط-خواندنی [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | نوع گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | اجازه می‌دهد رابط پایه IPresentationComponent را دریافت کند. فقط خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | مقدار یا تنظیم کاراکتر گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند. قابل خواندن/نوشتن Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | قالب رنگ گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند. فقط خواندنی [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | قلم گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | ارتفاع گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. مقدار float.NaN مشخص می‌کند که گلوله ارتفاع را از اولین بخش پاراگراف به ارث می‌برد. قابل خواندن/نوشتن Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | تعیین می‌کند آیا گلوله رنگ خود را دارد یا از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله رنگ خود را داشته باشد و **NullableBool.False** اگر رنگ را از اولین بخش پاراگراف به ارث ببرد. قابل خواندن/نوشتن [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | تعیین می‌کند آیا گلوله قلم خود را دارد یا از اولین بخش پاراگراف به ارث می‌برد. **NullableBool.True** اگر گلوله قلم خود را داشته باشد و **NullableBool.False** اگر قلم را از اولین بخش پاراگراف به ارث ببرد. قابل خواندن/نوشتن [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | عدد اولی را که برای گروهی از گلوله‌های شماره‌دار بدون وراثت استفاده می‌شود برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | سبک گلولهٔ شماره‌دار بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | عکس استفاده‌شده به عنوان گلوله در یک پاراگراف بدون وراثت را برمی‌گرداند. فقط خواندنی [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | نوع گلولهٔ یک پاراگراف بدون وراثت را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`BulletType`](../bullettype). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | مقدارهای پیش‌فرض غیر-صفر جابجایی برای Indent و MarginLeft مؤثر پاراگراف را وقتی گلوله‌ها فعال باشد تنظیم می‌کند (مانند کاری که PowerPoint انجام می‌دهد اگر در پاراگراف گلوله/شماره‌گذاری فعال شود). اگر گلوله‌ها غیرفعال باشد، فقط Indent و MarginLeft پاراگراف را بازنشانی می‌کند (مانند کاری که PowerPoint در صورت غیرفعال کردن گلوله/شماره‌گذاری پاراگراف انجام می‌دهد). جابجایی‌های تورفتگی نسبت به زمینهٔ فعلی گلوله — IBulletFormat.Type، .NumberedBulletStyle و FontHeight اولین بخش — اعمال می‌شوند. جابجایی‌های غیر-صفر به Indent و MarginLeft مؤثر پاراگراف فعلی اعمال می‌شوند (تا مقادیر نتیجه به‌صورت مقادیر محلی باشند). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | تغییرات پیش‌فرض غیر صفر برای Indent و MarginLeft مؤثر پاراگراف را تنظیم می‌کند وقتی گلوله‌ها فعال باشند (مانند PowerPoint هنگام فعال‌سازی بولت/شماره‌گذاری پاراگراف). اگر گلوله‌ها غیرفعال باشند فقط Indent و MarginLeft پاراگراف را بازنشانی می‌کند (مانند PowerPoint هنگام غیرفعال‌سازی بولت/شماره‌گذاری پاراگراف). تغییرات تورفتگی نسبت به زمینهٔ فعلی گلوله – IBulletFormat.Type، .NumberedBulletStyle و FontHeight اولین بخش اعمال می‌شود. تغییرات تورفتگی غیر صفر بر روی Indent و MarginLeft مؤثر پاراگراف جاری اعمال می‌شود (مقادیر نتیجه به‌صورت مقادیر محلی می‌شوند). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
 | [GetEffective](../../aspose.slides/bulletformat/geteffective)() | داده‌های قالب‌بندی مؤثر گلوله را با اعمال وراثت دریافت می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
 
-### موارد مرتبط
+### مراجع
 
 * کلاس [PVIObject](../pviobject)
-* رابط [IBulletFormat](../ibulletformat)
+* اینترفیس [IBulletFormat](../ibulletformat)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

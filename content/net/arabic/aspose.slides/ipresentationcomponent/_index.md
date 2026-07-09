@@ -1,12 +1,12 @@
 ---
 title: IPresentationComponent
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes .NET
 description: يمثل مكوّنًا من عرض تقديمي.
 type: docs
 weight: 6760
 url: /ar/aspose.slides/ipresentationcomponent/
 ---
-## واجهة IPresentationComponent
+## IPresentationComponent واجهة
 
 يمثل مكوّنًا من عرض تقديمي.
 
@@ -14,11 +14,11 @@ url: /ar/aspose.slides/ipresentationcomponent/
 public interface IPresentationComponent
 ```
 
-## الخصائص
+## خصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | يعيد العرض التقديمي. للقراءة فقط [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | يرجع العرض التقديمي. للقراءة فقط [`IPresentation`](../ipresentation). |
 
 ### انظر أيضًا
 

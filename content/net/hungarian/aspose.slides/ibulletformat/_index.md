@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A bekezdés bullet formázási tulajdonságait reprezentálja.
+second_title: Aspose.Sildes .NET API Referencia
+description: A bekezdés felsorolásformázási tulajdonságait képviseli.
 type: docs
-weight: 5370
+weight: 5390
 url: /hu/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat interfész
 
-A bekezdés bullet formázási tulajdonságait reprezentálja.
+A bekezdés felsorolásformázási tulajdonságait reprezentálja.
 
 ```csharp
 public interface IBulletFormat
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | Név | Leírás |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Visszaadja vagy beállítja a bekezdéshez tartozó, öröklődés nélküli bullet karaktert. Olvasás/írás Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Visszaadja egy bekezdéshez tartozó, öröklődés nélküli bullet színformátumát. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Visszaadja vagy beállítja a bekezdéshez tartozó, öröklődés nélküli bullet betűtípusát. Olvasás/írás [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Visszaadja vagy beállítja a bekezdéshez tartozó, öröklődés nélküli bullet magasságát. A float.NaN érték azt jelzi, hogy a bullet a bekezdés első részéből örökli a magasságot. Olvasás/írás Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Meghatározza, hogy a bullet saját színnel rendelkezik-e, vagy örökli azt a bekezdés első részéből. **NullableBool.True** ha a bullet saját színnel rendelkezik, és **NullableBool.False** ha a bullet a színt a bekezdés első részéből örökli. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Meghatározza, hogy a bullet saját betűtípussal rendelkezik-e, vagy örökli azt a bekezdés első részéből. **NullableBool.True** ha a bullet saját betűtípussal rendelkezik, és **NullableBool.False** ha a bullet a betűtípust a bekezdés első részéből örökli. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Visszaadja vagy beállítja az első számot, amely a számozott bullet csoporthoz használatos öröklődés nélkül. Olvasás/írás Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Visszaadja vagy beállítja a számozott bullet stílusát öröklődés nélkül. Olvasás/írás [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Visszaadja a bekezdésben bulletként használt képet öröklődés nélkül. Csak olvasható [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Visszaadja vagy beállítja a bekezdéshez tartozó, öröklődés nélküli bullet típusát. Olvasás/írás [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Visszaadja vagy beállítja a felsorolás karakterét egy bekezdésben öröklődés nélkül. Olvasás/írás Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Visszaadja a felsorolás színformátumát egy bekezdésben öröklődés nélkül. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Visszaadja vagy beállítja a felsorolás betűtípusát egy bekezdésben öröklődés nélkül. Olvasás/írás [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Visszaadja vagy beállítja a felsorolás magasságát egy bekezdésben öröklődés nélkül. A float.NaN érték azt jelzi, hogy a felsorolás a bekezdés első részétől örökli a magasságot. Olvasás/írás Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Megállapítja, hogy a felsorolás saját színnel rendelkezik-e, vagy a bekezdés első részétől örökli a színt. **NullableBool.True** ha a felsorolás saját színnel rendelkezik, és **NullableBool.False** ha a színt a bekezdés első részétől örökli. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Megállapítja, hogy a felsorolás saját betűtípussal rendelkezik-e, vagy a bekezdés első részétől örökli a betűtípust. **NullableBool.True** ha a felsorolás saját betűtípussal rendelkezik, és **NullableBool.False** ha a betűtípust a bekezdés első részétől örökli. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Visszaadja vagy beállítja az első számot, amely a számozott felsorolások csoportjában használatos öröklődés nélkül. Olvasás/írás Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Visszaadja vagy beállítja egy számozott felsorolás stílusát öröklődés nélkül. Olvasás/írás [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Visszaadja a bekezdésben felsorolásként használt képet öröklődés nélkül. Csak olvasható [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Visszaadja vagy beállítja a felsorolás típusát egy bekezdésben öröklődés nélkül. Olvasás/írás [`BulletType`](../bullettype). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | A bullet engedélyezve van, akkor alapértelmezett nem nulla eltolásokat állít be a hatékony bekezdés Indent és MarginLeft értékeire (akárcsak a PowerPoint teszi, ha engedélyezi a bekezdés bullet/ számozását). Ha a bullet le van tiltva, akkor csak visszaállítja a bekezdés Indent és MarginLeft értékeit (akárcsak a PowerPoint teszi, ha letiltja a bekezdés bullet/ számozását). Az eltolások a jelenlegi bullet kontextusra – IBulletFormat.Type, .NumberedBulletStyle és a első rész FontHeight – tekintettel kerülnek alkalmazásra. A nem nulla eltolások a jelenlegi bekezdés hatékony Indent és MarginLeft értékeire lesznek alkalmazva (az eredmény értékek helyi értékekké válnak). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Visszaadja a hatékony bullet formázási adatokat az öröklődés alkalmazásával. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Beállítja az alapértelmezett nem nulla eltolásokat a hatékony bekezdés Indent és MarginLeft értékekhez, amikor a felsorolás engedélyezve van (ahogyan a PowerPoint is teszi, ha a bekezdés felsorolását/ számozását engedélyezik benne). Ha a felsorolás le van tiltva, akkor csak visszaállítja a bekezdés Indent és MarginLeft értékeit (ahogyan a PowerPoint is teszi, ha letiltják a bekezdés felsorolását/ számozását). Az eltolások a jelenlegi felsorolási kontextusra – IBulletFormat.Type, .NumberedBulletStyle és FontHeight az első részre – vonatkoznak. A nem nulla eltolások a jelenlegi bekezdés hatékony Indent és MarginLeft értékeire kerülnek alkalmazásra (az eredményértékek helyi értékek lesznek). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Lekéri a hatékony felsorolásformázási adatokat az alkalmazott öröklődés figyelembevételével. |
 
 ### Lásd még
 

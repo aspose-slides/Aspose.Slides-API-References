@@ -1,6 +1,6 @@
 ---
 title: Behavior
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API Reference
 description: 효과의 기본 클래스 동작을 나타냅니다.
 type: docs
 weight: 140

@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
 second_title: Aspose.Sildes の .NET API リファレンス
-description: StreamWrapper のファクトリです。COM インターフェイス用です。
+description: StreamWrappers のファクトリ。COM インターフェイス用。
 type: docs
-weight: 10740
+weight: 10760
 url: /ja/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory クラス
 
-StreamWrapper のファクトリです。COM インターフェイス用です。
+StreamWrappers のファクトリ。COM インターフェイス用。
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -18,14 +18,14 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [StreamWrapperFactory](streamwrapperfactory)() | 既定のコンストラクタです。 |
+| [StreamWrapperFactory](streamwrapperfactory)() | デフォルトコンストラクタ。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | 指定されたパスと作成モードで FileStream を作成します。 |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 指定されたパス、作成モード、および読み書き許可で FileStream を作成します。 |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | 指定されたパス、作成モード、および読み取り/書き込み権限で FileStream を作成します。 |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | MemoryStream ラッパーを作成します。 |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | 指定されたバイト配列に基づいて MemoryStream ラッパーを作成します。 |
 

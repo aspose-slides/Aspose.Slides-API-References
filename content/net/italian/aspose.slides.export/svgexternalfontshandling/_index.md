@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un modo per gestire i font esterni utilizzati per il disegno del testo.
 type: docs
-weight: 4480
+weight: 4500
 url: /it/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling enumerazione
 
-Rappresenta un modo per gestire i font esterni utilizzati per il disegno del testo.
+Rappresenta un modo per gestire i font esterni usati per il disegno del testo.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,8 +18,8 @@ public enum SvgExternalFontsHandling
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Aggiunge collegamenti a file di font separati nella sezione style del file SVG. |
-| Embed | `1` | Salva i dati dei font direttamente nel file SVG. Si prega di verificare tutti gli accordi di licenza dei font esterni prima di utilizzare questa opzione. |
+| AddLinksToFontFiles | `0` | Aggiunge collegamenti a file di font separati alla sezione style del file SVG. |
+| Embed | `1` | Salva i dati dei font direttamente nel file SVG. Verifica tutti gli accordi di licenza dei font esterni prima di utilizzare questa opzione. |
 | Vectorize | `2` | Salva tutto il testo che utilizza font esterni come grafica. |
 
 ### Vedi anche

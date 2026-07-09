@@ -1,14 +1,14 @@
 ---
 title: IPptxOptions
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示用於儲存 OpenXml 簡報（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示用於儲存 OpenXml 簡報 (PPTX、PPSX、POTX、PPTM、PPSM、POTM) 的選項。
 type: docs
 weight: 4020
 url: /zh-hant/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions 介面
 
-表示用於儲存 OpenXml 簡報（PPTX、PPSX、POTX、PPTM、PPSM、POTM）的選項。
+表示用於儲存 OpenXml 簡報 (PPTX、PPSX、POTX、PPTM、PPSM、POTM) 的選項。
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -18,13 +18,13 @@ public interface IPptxOptions : ISaveOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允許取得基底 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | 允許取得基礎 ISaveOptions 介面。唯讀 [`ISaveOptions`](../isaveoptions)。 |
 | [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | 指定儲存簡報文件時使用的壓縮等級。預設值為 Level6。 |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | 指定簡報文件符合的相容等級。預設值為 Ecma376_2006。 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | 指定是否會重新整理簡報縮圖。可讀寫 Boolean。預設值為 **true**。 |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | 指定是否在簡報文件中使用 ZIP64 格式。預設值為 IfNecessary。 |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | 指定簡報文件符合的相容等級。預設值為 Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | 指定是否要重新整理簡報縮圖。讀寫布林值。預設值為 **true**。 |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | 指定簡報文件是否使用 ZIP64 格式。預設值為 IfNecessary |
 
-### 另請參閱
+### 另見
 
 * 介面 [ISaveOptions](../isaveoptions)
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)

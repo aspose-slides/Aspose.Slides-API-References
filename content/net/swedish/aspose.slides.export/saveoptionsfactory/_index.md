@@ -1,20 +1,20 @@
 ---
 title: SaveOptionsFactory
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillåter att skapa sparalternativinstanser
+description: Tillåter att skapa instanser av sparalternativ
 type: docs
-weight: 4440
+weight: 4460
 url: /sv/aspose.slides.export/saveoptionsfactory/
 ---
 ## SaveOptionsFactory klass
 
-Allows to create save options' instances
+Tillåter att skapa instanser av sparalternativ
 
 ```csharp
 public class SaveOptionsFactory : ISaveOptionsFactory
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -30,7 +30,7 @@ public class SaveOptionsFactory : ISaveOptionsFactory
 
 För COM-kompatibilitet.
 
-### Se också
+### Se även
 
 * gränssnitt [ISaveOptionsFactory](../isaveoptionsfactory)
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)

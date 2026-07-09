@@ -3,7 +3,7 @@ title: BaseChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの値を表します。
 type: docs
-weight: 1200
+weight: 1220
 url: /ja/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue クラス
@@ -18,8 +18,8 @@ public abstract class BaseChartValue : IBaseChartValue
 
 | 名前 | 説明 |
 | --- | --- |
-| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | データ。Read/write Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 継承先で AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されるかを指定します。言い換えれば、Data プロパティの値のタイプを指定します。Read/write [`DataSourceType`](../datasourcetype). |
+| abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. 読み取り/書き込み Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 子クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えれば、Data プロパティの値の型を指定します。読み取り/書き込み [`DataSourceType`](../datasourcetype). |
 
 ### 参照
 

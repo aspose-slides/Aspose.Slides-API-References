@@ -1,14 +1,14 @@
 ---
 title: IEmptyTransition
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์เปล่า.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เอฟเฟ็กต์การเปลี่ยนสไลด์เปล่า.
 type: docs
 weight: 10080
 url: /th/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์เปล่า.
+เอฟเฟกต์การเปลี่ยนสไลด์เปล่า
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ### ดูเพิ่มเติม
 

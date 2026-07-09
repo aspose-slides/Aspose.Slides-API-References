@@ -1,14 +1,14 @@
 ---
 title: BaseSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนผู้จัดการที่ควบคุมพฤติกรรมของส่วนท้าย วันที่-เวลา ตัวเลขหน้า ในตำแหน่งตัวเก็บสำหรับประเภทสไลด์ทั้งหมด.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นผู้จัดการที่ถือพฤติกรรมของ placeholder ส่วนท้าย วันที่-เวลา และหมายเลขหน้าสำหรับสไลด์ทุกประเภท
 type: docs
 weight: 1000
 url: /th/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager คลาส
 
-Represents manager which holds behavior of the footer, date-time, page number placeholders for all slide types.
+เป็นผู้จัดการที่ถือพฤติกรรมของ placeholder ของส่วนท้าย, วันที่-เวลา, และหมายเลขหน้า สำหรับสไลด์ทุกประเภท
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -18,19 +18,19 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวจัดเก็บตำแหน่งวันที่และเวลาปรากฏอยู่. อ่าน Boolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวจัดเก็บตำแหน่งส่วนท้ายอยู่. อ่าน Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าที่บ่งชี้ว่ามีตัวจัดเก็บตำแหน่งเลขหน้าปรากฏอยู่. อ่าน Boolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าแสดงว่า placeholder วันที่-เวลา ปรากฏอยู่. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าแสดงว่า placeholder ส่วนท้าย ปรากฏอยู่. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าแสดงว่า placeholder หมายเลขหน้า ปรากฏอยู่. ReadBoolean. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | กำหนดข้อความให้กับตัวจัดเก็บตำแหน่งวันที่และเวลาของสไลด์. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บตำแหน่งวันที่และเวลาของสไลด์. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | กำหนดข้อความให้กับตัวจัดเก็บตำแหน่งส่วนท้ายของสไลด์. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บตำแหน่งส่วนท้ายของสไลด์. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของตัวจัดเก็บตำแหน่งเลขหน้าของสไลด์. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งค่าข้อความให้กับ placeholder วันที่-เวลา ของสไลด์. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder วันที่-เวลา ของสไลด์. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งค่าข้อความให้กับ placeholder ส่วนท้าย ของสไลด์. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder ส่วนท้าย ของสไลด์. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของ placeholder หมายเลขหน้า ของสไลด์. |
 
 ### ดูเพิ่มเติม
 

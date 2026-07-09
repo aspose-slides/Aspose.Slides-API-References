@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Xác định gốc của đường chuyển động dựa trên gì. Ví dụ như bố cục của slide hoặc phần tử cha.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định nguồn gốc của đường chuyển động tương đối với gì. Ví dụ như bố cục của slide hoặc đối tượng cha.
 type: docs
 weight: 680
 url: /vi/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType liệt kê
 
-Xác định gốc của đường chuyển động so với gì. Ví dụ như bố cục của slide hoặc phần tử cha.
+Xác định nguồn gốc của đường chuyển động tương đối với gì. Ví dụ như bố cục của slide, hoặc đối tượng cha.
 
 ```csharp
 public enum MotionOriginType

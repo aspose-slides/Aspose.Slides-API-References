@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar effektiva 3-D formateringsegenskaper.
+second_title: Aspose.Slides för .NET API-referens
+description: Oföränderligt objekt som representerar effektiva 3-D-formateringsegenskaper.
 type: docs
-weight: 7320
+weight: 7340
 url: /sv/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som representerar effektiva 3-D formateringsegenskaper.
+Immutable object which represents effective 3-D formatting properties.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -26,7 +26,7 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Returnerar bredden på en 3D-kontur. Skrivskyddad Double. |
 | [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Returnerar djupet på en 3D-form. Skrivskyddad Double. |
 | [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Returnerar färgen på en extrudering. Skrivskyddad Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Returnerar höjden på en extruderingseffekt. Skrivskyddad Double. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Returnerar höjden på en extruderings-effekt. Skrivskyddad Double. |
 | [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Returnerar typen av ett ljus. Skrivskyddad [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
 | [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Returnerar typen av ett material. Skrivskyddad [`MaterialPresetType`](../materialpresettype). |
 

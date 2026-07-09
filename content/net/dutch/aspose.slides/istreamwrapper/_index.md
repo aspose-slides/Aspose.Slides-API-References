@@ -8,7 +8,7 @@ url: /nl/aspose.slides/istreamwrapper/
 ---
 ## IStreamWrapper interface
 
-Aspose.IO.Stream-wrapper voor COM-interface.
+Aspose.IO.Stream wrapper for COM interface.
 
 ```csharp
 public interface IStreamWrapper : IDisposable
@@ -18,7 +18,7 @@ public interface IStreamWrapper : IDisposable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Staat toe om de basis IDisposable-interface op te halen. Alleen-lezen IDisposable. |
+| [AsIDisposable](../../aspose.slides/istreamwrapper/asidisposable) { get; } | Staat toe om de basisklasse IDisposable interface op te halen. Alleen-lezen IDisposable. |
 | [CanRead](../../aspose.slides/istreamwrapper/canread) { get; } | Haalt een waarde op die aangeeft of de huidige stream lezen ondersteunt. Alleen-lezen Boolean. |
 | [CanSeek](../../aspose.slides/istreamwrapper/canseek) { get; } | Haalt een waarde op die aangeeft of de huidige stream zoeken ondersteunt. Alleen-lezen Boolean. |
 | [CanWrite](../../aspose.slides/istreamwrapper/canwrite) { get; } | Haalt een waarde op die aangeeft of de huidige stream schrijven ondersteunt. Alleen-lezen Boolean. |
@@ -31,12 +31,12 @@ public interface IStreamWrapper : IDisposable
 | Naam | Beschrijving |
 | --- | --- |
 | [Close](../../aspose.slides/istreamwrapper/close)() | Sluit de huidige stream en geeft alle bronnen vrij. |
-| [Flush](../../aspose.slides/istreamwrapper/flush)() | Leegt alle buffers voor deze stream en zorgt ervoor dat eventuele gebufferde gegevens naar het onderliggende apparaat worden geschreven. |
-| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Leest een reeks bytes van de huidige stream en verplaatst de positie binnen de stream met het aantal gelezen bytes. |
-| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Leest een byte uit de stream en verplaatst de positie binnen de stream met één byte, of retourneert -1 als het einde van de stream is bereikt. |
-| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Stelt de positie binnen de huidige stream in |
-| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | schrijft een reeks bytes naar de huidige stream en verplaatst de huidige positie binnen deze stream met het aantal geschreven bytes. |
-| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Schrijft een byte naar de huidige positie in de stream en verplaatst de positie binnen de stream met één byte. |
+| [Flush](../../aspose.slides/istreamwrapper/flush)() | Wis alle buffers voor deze stream en zorgt ervoor dat alle gebufferde gegevens naar het onderliggende apparaat worden geschreven. |
+| [Read](../../aspose.slides/istreamwrapper/read)(byte[], int, int) | Leest een reeks bytes van de huidige stream en verplaatst de positie in de stream met het aantal gelezen bytes. |
+| [ReadByte](../../aspose.slides/istreamwrapper/readbyte)() | Leest een byte uit de stream en verplaatst de positie in de stream met één byte, of retourneert -1 als het einde van de stream is bereikt. |
+| [Seek](../../aspose.slides/istreamwrapper/seek)(long, SeekOrigin) | Stelt de positie in de huidige stream in |
+| [Write](../../aspose.slides/istreamwrapper/write)(byte[], int, int) | schrijft een reeks bytes naar de huidige stream en verplaatst de huidige positie in deze stream met het aantal geschreven bytes. |
+| [WriteByte](../../aspose.slides/istreamwrapper/writebyte)(byte) | Schrijft een byte naar de huidige positie in de stream en verplaatst de positie in de stream met één byte. |
 
 ### Zie ook
 

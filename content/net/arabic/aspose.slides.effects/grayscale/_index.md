@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير تدرج الرمادي. يحول جميع قيم ألوان التأثير إلى ظل من الرمادي يتطابق مع إضاءتها. قيم ألفا (الشفافية) للتأثير لا تتأثر.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثّل تأثير Gray Scale. يحوّل جميع قيم ألوان التأثير إلى درجة من اللون الرمادي تتوافق مع إضائتها. لا تتأثر قيم شفافية alpha للتأثير.
 type: docs
 weight: 3000
 url: /ar/aspose.slides.effects/grayscale/
 ---
-## GrayScale فئة
+## فئة GrayScale
 
-يمثل تأثير Gray Scale. يحول جميع قيم ألوان التأثير إلى ظل من الرمادي، يتوافق مع إضاءتها. قيم ألفا (الشفافية) للتأثير لا تتأثر.
+يمثل تأثير Gray Scale. يحول جميع قيم لون التأثير إلى درجة من اللون الرمادي، وفقًا لإضاءةها. لا تتأثر قيم الشفافية (العلو) للتأثير.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -24,8 +24,8 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | يحدد ما إذا كان [`GrayScale`](../grayscale) المحدد يساوي الحالي [`GrayScale`](../grayscale). |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | يحصل على بيانات تأثير Gray Scale الفعّالة مع تطبيق الوراثة. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | يحدد ما إذا كان [`GrayScale`](../grayscale) المحدد مساويًا لـ [`GrayScale`](../grayscale) الحالي. |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | يحصل على بيانات تأثير Gray Scale الفعّال مع تطبيق وراثة الخصائص. |
 | override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### انظر أيضًا

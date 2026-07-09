@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị loại căn chỉnh dòng.
+description: Đại diện cho kiểu căn chỉnh dòng.
 type: docs
 weight: 7720
 url: /vi/aspose.slides/linealignment/
 ---
-## LineAlignment kiểu liệt kê
+## Liệt kê LineAlignment
 
-Biểu thị loại căn chỉnh dòng.
+Đại diện cho kiểu căn chỉnh dòng.
 
 ```csharp
 public enum LineAlignment : sbyte

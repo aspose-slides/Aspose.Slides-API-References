@@ -1,9 +1,9 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta una dimensione della diapositiva delle note.
 type: docs
-weight: 9110
+weight: 9130
 url: /it/aspose.slides/notessize/
 ---
 ## NotesSize classe

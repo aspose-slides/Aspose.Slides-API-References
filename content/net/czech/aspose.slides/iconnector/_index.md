@@ -1,14 +1,14 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje konektor.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Představuje spojku.
 type: docs
-weight: 5590
+weight: 5610
 url: /cs/aspose.slides/iconnector/
 ---
 ## IConnector rozhraní
 
-Reprezentuje konektor.
+Představuje spojku.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -18,19 +18,19 @@ public interface IConnector : IGeometryShape
 
 | Název | Popis |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Umožňuje získat základní rozhraní IGeometryShape. Pouze pro čtení [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Vrací zámky konektoru. Pouze pro čtení [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Vrací nebo nastavuje tvar, ke kterému se připojí konec konektoru. Čtení/Zápis [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Vrací nebo nastavuje index místa připojení pro koncový tvar. Čtení/Zápis UInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Vrací zámky tvaru. Pouze pro čtení [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Vrací nebo nastavuje tvar, ke kterému se připojí počátek konektoru. Čtení/Zápis [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Vrací nebo nastavuje index místa připojení pro počáteční tvar. Čtení/Zápis UInt32. |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Umožňuje získat základní rozhraní IGeometryShape. Pouze ke čtení [`IGeometryShape`](../igeometryshape). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Vrací zamky konektoru. Pouze ke čtení [`IConnectorLock`](../iconnectorlock). |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Vrací nebo nastavuje tvar, ke kterému se připojuje konec spojky. Čtení/zápis [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Vrací nebo nastavuje index místa připojení pro koncový tvar. Čtení/zápis UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Vrací zamky tvaru. Pouze ke čtení [`IConnectorLock`](../iconnectorlock). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Vrací nebo nastavuje tvar, ke kterému se připojuje začátek spojky. Čtení/zápis [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Vrací nebo nastavuje index místa připojení pro počáteční tvar. Čtení/zápis UInt32. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Přesměruje konektor tak, aby zvolil nejkratší možnou cestu mezi tvary, které spojuje. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Přesměruje spojku tak, aby zvolila nejkratší možnou cestu mezi tvary, které propojuje. |
 
 ### Viz také
 

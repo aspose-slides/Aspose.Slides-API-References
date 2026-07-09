@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 Alpha Modulate 效果。效果的 alpha 不透明度值會乘以固定百分比。效果容器指定包含要調變的 alpha 值的效果。
+description: 代表 Alpha Modulate 效果。效果的 Alpha 透明度值會乘以固定的百分比。效果容器指定包含要調變的 Alpha 值的效果。
 type: docs
 weight: 3100
 url: /zh-hant/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate 介面
 
-表示 Alpha Modulate 效果。效果的 alpha（不透明度）值會乘以固定百分比。效果容器指定包含要調變的 alpha 值的效果。
+代表 Alpha Modulate 效果。效果的 alpha（不透明度）值會乘以固定的百分比。效果容器指定包含要調變的 alpha 值的效果。
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -22,7 +22,7 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IAlphaModulateEffectiveData](../ialphamodulateeffectivedata)

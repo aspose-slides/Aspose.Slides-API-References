@@ -1,32 +1,32 @@
 ---
 title: Section
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش دهنده بخش اسلایدها.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: بخش اسلایدها را نشان می‌دهد.
 type: docs
 weight: 9750
 url: /fa/aspose.slides/section/
 ---
-## Section کلاس
+## کلاس بخش
 
-نمایش دهنده بخش اسلایدها.
+بخش اسلایدها را نشان می‌دهد.
 
 ```csharp
 public class Section : DomObject<SectionCollection>, ISection
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | نام بخش. |
 | [SectionId](../../aspose.slides/section/sectionid) { get; } | شناسه بخش. |
-| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | اسلاید اول بخش را برمی‌گرداند. |
+| [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | اسلاید اول بخش را باز می‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | فهرست اسلایدهای بخش را برمی‌گرداند. |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | فهرست اسلایدهای بخش را باز می‌گرداند. |
 
 ### موارد مرتبط
 

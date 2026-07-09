@@ -1,6 +1,6 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示動畫行為的指令效果。
 type: docs
 weight: 480
@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides.animation/icommandeffect/
 public interface ICommandEffect : IBehavior
 ```
 
-## Properties
+## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -23,7 +23,7 @@ public interface ICommandEffect : IBehavior
 | [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | 定義指令效果的形狀目標。可讀寫 [`IShape`](../../aspose.slides/ishape)。 |
 | [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | 定義行為的指令效果類型。可讀寫 [`CommandEffectType`](../commandeffecttype)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IBehavior](../ibehavior)
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

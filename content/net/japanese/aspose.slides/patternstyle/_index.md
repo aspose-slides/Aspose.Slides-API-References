@@ -3,10 +3,10 @@ title: PatternStyle
 second_title: Aspose.Sildes for .NET API リファレンス
 description: パターンスタイルを表します。
 type: docs
-weight: 9340
+weight: 9360
 url: /ja/aspose.slides/patternstyle/
 ---
-## PatternStyle 列挙型
+## PatternStyle 列挙体
 
 パターンスタイルを表します。
 

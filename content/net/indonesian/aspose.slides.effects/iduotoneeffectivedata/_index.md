@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak berubah yang mewakili efek Duotone. Untuk setiap piksel, menggabungkan clr1 dan clr2 melalui interpolasi linear untuk menentukan warna baru bagi piksel tersebut.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tidak dapat diubah yang mewakili efek Duotone. Untuk setiap piksel menggabungkan clr1 dan clr2 melalui interpolasi linier untuk menentukan warna baru bagi piksel tersebut.
 type: docs
-weight: 3250
+weight: 3270
 url: /id/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData antarmuka
 
-Objek tak berubah yang mewakili efek Duotone. Untuk setiap piksel, menggabungkan clr1 dan clr2 melalui interpolasi linear untuk menentukan warna baru bagi piksel tersebut.
+Objek tidak dapat diubah yang mewakili efek Duotone. Untuk setiap piksel, menggabungkan clr1 dan clr2 melalui interpolasi linier untuk menentukan warna baru bagi piksel tersebut.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IEffectEffectiveData. Hanya baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Mengembalikan format warna target untuk piksel gelap. Hanya baca Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Mengembalikan format warna target untuk piksel terang. Hanya baca Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Baca-saja [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | Mengembalikan format warna target untuk piksel gelap. Baca-saja Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | Mengembalikan format warna target untuk piksel terang. Baca-saja Color. |
 
 ### Lihat Juga
 

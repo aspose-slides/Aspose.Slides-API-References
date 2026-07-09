@@ -1,12 +1,12 @@
 ---
 title: ITextAnimation
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: نمایش انیمیشن متن.
 type: docs
 weight: 620
 url: /fa/aspose.slides.animation/itextanimation/
 ---
-## ITextAnimation interface
+## ITextAnimation رابط
 
 نمایش انیمیشن متن.
 
@@ -14,20 +14,20 @@ url: /fa/aspose.slides.animation/itextanimation/
 public interface ITextAnimation
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | فهرست انواع ساخت (برای مثال Paragraph 1,2,3, All at Once) انیمیشن متن. قابل خواندن/نوشتن [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | اثر شکل پیوند شده با گروه یا بدون آن (null) قابل خواندن/نوشتن [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | لیست نوع ساخت (به عنوان مثال پاراگراف 1،2،3، همه به‌صورت یکجا) از انیمیشن متن. خواند/نوشت [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | افکت شکل مرتبط با گروه یا بدون گروه (null) خواند/نوشت [`IEffect`](../ieffect). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | افزودن اثر جدید به انتهای توالی فعلی تا انتهای انیمیشن‌های متنی گروه. فقط زمانی معتبر است که تعداد پاراگراف‌های متنی برابر یا بیشتر از تعداد اثرهای این گروه باشد! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | افکت جدیدی را به انتهای توالی فعلی به انتهای گروه انیمیشن‌های متن اضافه می‌کند. فقط زمانی معتبر است که تعداد پاراگراف‌های متن برابر یا بیشتر از تعداد افکت‌های این گروه باشد! |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * فضای نام [Aspose.Slides.Animation](../../aspose.slides.animation)
 * مونتاژ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定一個方向，僅限於 left 和 right 的值。
+second_title: Aspose.Sildes .NET API 參考
+description: 指定方向，其值僅限於 Left 和 Right。
 type: docs
 weight: 10380
 url: /zh-hant/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType 列舉
 
-指定一個方向，僅限於 left 和 right 的值。
+指定方向，其值僅限於 Left 和 Right。
 
 ```csharp
 public enum TransitionLeftRightDirectionType
@@ -16,12 +16,12 @@ public enum TransitionLeftRightDirectionType
 
 ### 值
 
-| 名稱 | 數值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Left | `0` |  |
 | Right | `1` |  |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 組件 [Aspose.Slides](../../)

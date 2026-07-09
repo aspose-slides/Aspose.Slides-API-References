@@ -1,12 +1,12 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET API Reference
 description: Efeito de transição de slide Reveal.
 type: docs
-weight: 10260
+weight: 10280
 url: /pt/aspose.slides.slideshow/revealtransition/
 ---
-## classe RevealTransition
+## RevealTransition classe
 
 Efeito de transição de slide Reveal.
 
@@ -19,16 +19,16 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 | Nome | Descrição |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Especifica se a transição desaparece através do preto. Leitura/gravação Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | Especifica se a transição desvanece para preto. Leitura/gravação Boolean. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias TransitionValueBase são iguais. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como função hash para um tipo específico, adequada para uso em algoritmos de hashing e estruturas de dados como uma tabela hash. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se as duas instâncias de TransitionValueBase são iguais. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Serve como uma função de hash para um tipo específico, adequada para uso em algoritmos de hash e estruturas de dados como uma tabela de hash. |
 
-### Veja Também
+### Ver também
 
 * classe [TransitionValueBase](../transitionvaluebase)
 * interface [IRevealTransition](../irevealtransition)

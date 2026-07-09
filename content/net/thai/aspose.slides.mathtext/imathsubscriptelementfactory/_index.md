@@ -1,12 +1,12 @@
 ---
 title: IMathSubscriptElementFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: อนุญาตให้สร้าง IMathSubscriptElement
 type: docs
 weight: 8480
 url: /th/aspose.slides.mathtext/imathsubscriptelementfactory/
 ---
-## IMathSubscriptElementFactory อินเทอร์เฟซ
+## IMathSubscriptElementFactory ส่วนต่อประสาน
 
 อนุญาตให้สร้าง IMathSubscriptElement
 
@@ -18,11 +18,11 @@ public interface IMathSubscriptElementFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | สร้าง IMathSubscriptElement |
+| [CreateMathSubscriptElement](../../aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | สร้าง IMMathSubscriptElement |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้ของ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

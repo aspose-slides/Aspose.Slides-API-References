@@ -1,12 +1,12 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Slides for .NET API Referansı
+second_title: Aspose.Slides .NET API Referansı
 description: Şeklin efekt özelliklerini temsil eder.
 type: docs
-weight: 5720
+weight: 5740
 url: /tr/aspose.slides/ieffectformat/
 ---
-## IEffectFormat arayüzü
+## IEffectFormat arayüz
 
 Şeklin efekt özelliklerini temsil eder.
 
@@ -18,14 +18,14 @@ public interface IEffectFormat : IEffectParamSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Temel IEffectParamSource arabirimine erişim sağlar. Salt okunur [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Bulanık efekt. Okunur/yazılabilir [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Dolgu bindirme efekti. Okunur/yazılabilir [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Parıltı efekti. Okunur/yazılabilir [`IGlow`](../../aspose.slides.effects/iglow). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Temel IEffectParamSource arayüzünü almaya izin verir. Salt-okunur [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Bulanık efekti. Okunur/yazılabilir [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Dolgu bindirme efektini. Okunur/yazılabilir [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Parıltı efektini. Okunur/yazılabilir [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | İç gölge. Okunur/yazılabilir [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldığında (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi) true döndürür. Salt okunur Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Tüm efektler devre dışı bırakıldığında true döndürür (yeni oluşturulmuş, varsayılan EffectFormat nesnesi gibi). Salt-okunur Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Dış gölge. Okunur/yazılabilir [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Önceden ayarlanmış gölge. Okunur/yazılabilir [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Ön ayarlı gölge. Okunur/yazılabilir [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Yansıma. Okunur/yazılabilir [`IReflection`](../../aspose.slides.effects/ireflection). |
 | [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Yumuşak kenar. Okunur/yazılabilir [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
@@ -38,23 +38,23 @@ public interface IEffectFormat : IEffectParamSource
 | [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Parıltı efektini devre dışı bırakır. |
 | [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | İç gölge efektini devre dışı bırakır. |
 | [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Dış gölge efektini devre dışı bırakır. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Önceden ayarlanmış gölge efektini devre dışı bırakır. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Ön ayarlı gölge efektini devre dışı bırakır. |
 | [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Yansıma efektini devre dışı bırakır. |
 | [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Yumuşak kenar efektini devre dışı bırakır. |
 | [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Dolgu bindirme efektini etkinleştirir. |
 | [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Parıltı efektini etkinleştirir. |
 | [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | İç gölge efektini etkinleştirir. |
 | [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Dış gölge efektini etkinleştirir. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Önceden ayarlanmış gölgeleri etkinleştirir. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Ön ayarlı gölge efektlerini etkinleştirir. |
 | [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Yansıma efektini etkinleştirir. |
 | [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Yumuşak kenar efektini etkinleştirir. |
 | [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Kalıtım uygulanmış etkili efekt biçimlendirme verilerini alır. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Bulanık efekti ayarlar. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Bulanık efektini ayarlar. |
 
-### Diğer
+### Ayrıca Bakınız
 
-* interface [IEffectParamSource](../ieffectparamsource)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* arayüz [IEffectParamSource](../ieffectparamsource)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

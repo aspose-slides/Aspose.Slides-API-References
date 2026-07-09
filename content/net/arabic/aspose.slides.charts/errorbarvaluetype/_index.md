@@ -8,7 +8,7 @@ url: /ar/aspose.slides.charts/errorbarvaluetype/
 ---
 ## تعداد ErrorBarValueType
 
-يمثل نوع قيمة Error Bar Value
+يمثل نوع قيمة شريط الخطأ
 
 ```csharp
 public enum ErrorBarValueType
@@ -18,13 +18,13 @@ public enum ErrorBarValueType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Custom | `0` | يحدد أن طول أشرطة الخطأ يجب أن يتم تحديده بواسطة العناصر Plus و Minus. |
-| Fixed | `1` | يحدد أن طول أشرطة الخطأ يجب أن يكون القيمة الثابتة المحددة بواسطة Error Bar Value. |
-| Percentage | `2` | يحدد أن طول أشرطة الخطأ يجب أن يكون نسبة مئوية من البيانات بحسب Error Bar Value. |
-| StandardDeviation | `3` | يحدد أن طول أشرطة الخطأ يجب أن يكون عدد الانحرافات المعيارية للبيانات بحسب Error Bar Value. |
-| StandardError | `4` | يحدد أن طول أشرطة الخطأ يجب أن يكون الأخطاء المعيارية للبيانات بحسب Error Bar Value. |
+| Custom | `0` | يحدد أن طول أشرطة الخطأ سيُحدَّد بواسطة عناصر Plus وMinus. |
+| Fixed | `1` | يحدد أن طول أشرطة الخطأ سيكون القيمة الثابتة التي تم تحديدها بواسطة Error Bar Value. |
+| Percentage | `2` | يحدد أن طول أشرطة الخطأ سيكون نسبة مئوية من Error Bar Value للبيانات. |
+| StandardDeviation | `3` | يحدد أن طول أشرطة الخطأ سيكون الانحرافات المعيارية لـ Error Bar Value للبيانات. |
+| StandardError | `4` | يحدد أن طول أشرطة الخطأ سيكون الأخطاء المعيارية لـ Error Bar Value للبيانات. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * النطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
 * التجميع [Aspose.Slides](../../)

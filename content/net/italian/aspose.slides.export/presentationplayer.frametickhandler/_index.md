@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il gestore di frame tick dell'evento FrameTick./presentationplayer/frametick.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta il gestore del tick del frame dell'evento FrameTick./presentationplayer/frametick.
 type: docs
-weight: 4380
+weight: 4400
 url: /it/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler delegato
 
-Rappresenta il gestore di frame tick dell'evento [`FrameTick`](../presentationplayer/frametick).
+Rappresenta il gestore del tick del frame dell'evento [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
@@ -16,8 +16,8 @@ public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventA
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| sender | PresentationPlayer | Mittente dell'evento frame tick. |
-| args | FrameTickEventArgs | Argomenti del frame tick. |
+| sender | PresentationPlayer | Mittente dell'evento di tick del frame. |
+| args | FrameTickEventArgs | Argomenti del tick del frame. |
 
 ### Vedi anche
 

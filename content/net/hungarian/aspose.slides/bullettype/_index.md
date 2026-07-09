@@ -1,14 +1,14 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Ábrázolja a kiterjesztett felsorolások típusát.
+second_title: Aspose.Sildes .NET API Referencia
+description: A kiterjesztett felsorolásjelek típusát jelöli.
 type: docs
-weight: 1060
+weight: 1080
 url: /hu/aspose.slides/bullettype/
 ---
 ## BulletType enumeráció
 
-Az kiterjesztett felsorolások típusát reprezentálja.
+A kiterjesztett felsorolásjelek típusát jelöli.
 
 ```csharp
 public enum BulletType : sbyte
@@ -20,9 +20,9 @@ public enum BulletType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | Szimbólum felsorolások. |
-| Numbered | `2` | Számozott felsorolások. |
-| Picture | `3` | Képes felsorolások. |
+| Symbol | `1` | Szimbólum pontok. |
+| Numbered | `2` | Számozott pontok. |
+| Picture | `3` | Képes felsorolásjelek. |
 
 ### Lásd még
 

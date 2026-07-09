@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
-second_title: Aspose.Sildes cho Tham khảo API .NET
-description: Biểu thị slide chính cho tài liệu hướng dẫn.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho slide mẫu cho bản phát tay.
 type: docs
 weight: 6350
 url: /vi/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide giao diện
 
-Represents master slide for handouts.
+Đại diện cho slide mẫu cho bản phát tay.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -20,8 +20,8 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Cho phép lấy giao diện IBaseSlide cơ bản. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Trả về giao diện IMasterThemeable. Chỉ đọc [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Trả về một tập hợp các hướng dẫn vẽ cho slide tài liệu hướng dẫn chính. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide tài liệu hướng dẫn chính. Chỉ đọc [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Trả về một bộ sưu tập các hướng dẫn vẽ cho slide mẫu bản phát tay. Chỉ đọc [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide mẫu bản phát tay. Chỉ đọc [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Xem thêm
 

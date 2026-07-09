@@ -1,22 +1,22 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ค่าคงที่ที่กำหนดประเภทของกล้องพรีเซ็ท
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ค่าคงที่ที่กำหนดประเภทการตั้งค่ากล้องล่วงหน้า
 type: docs
 weight: 1100
 url: /th/aspose.slides/camerapresettype/
 ---
-## CameraPresetType การนับค่า
+## CameraPresetType enumeration
 
-ค่าคงที่ที่กำหนดประเภทของกล้องพรีเซ็ท
+ค่าคงที่ที่กำหนดประเภทการตั้งค่ากล้องล่วงหน้า
 
 ```csharp
 public enum CameraPresetType
 ```
 
-### ค่า
+### Values
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | IsometricBottomDown | `0` |  |
@@ -82,7 +82,7 @@ public enum CameraPresetType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

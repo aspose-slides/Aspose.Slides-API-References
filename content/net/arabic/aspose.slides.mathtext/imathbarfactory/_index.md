@@ -1,6 +1,6 @@
 ---
 title: IMathBarFactory
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET – مرجع API
 description: يسمح بإنشاء شريط رياضي
 type: docs
 weight: 8130
@@ -8,7 +8,7 @@ url: /ar/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory واجهة
 
-Allows to create a math bar
+يسمح بإنشاء شريط رياضي
 
 ```csharp
 public interface IMathBarFactory
@@ -23,7 +23,7 @@ public interface IMathBarFactory
 
 ### ملاحظات
 
-For COM comparibility
+للتوافق مع COM
 
 ### انظر أيضًا
 

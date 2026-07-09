@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathborderboxfactory/
 ---
 ## IMathBorderBoxFactory 인터페이스
 
-수학 경계 상자를 만들 수 있습니다
+수학 경계 상자를 생성할 수 있습니다
 
 ```csharp
 public interface IMathBorderBoxFactory
@@ -21,7 +21,7 @@ public interface IMathBorderBoxFactory
 | [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 요소에 적용하여 수학 경계 상자를 생성합니다 |
 | [CreateMathBorderBox](../../aspose.slides.mathtext/imathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 요소에 적용하여 수학 경계 상자를 생성합니다 |
 
-### 비고
+### 주의사항
 
 COM 호환성을 위해
 

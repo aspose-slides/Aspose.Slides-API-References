@@ -1,14 +1,14 @@
 ---
 title: IShapeFrame
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 쉐이프 프레임 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 모양 프레임 속성을 나타냅니다.
 type: docs
 weight: 7000
 url: /ko/aspose.slides/ishapeframe/
 ---
 ## IShapeFrame 인터페이스
 
-쉐이프 프레임의 속성을 나타냅니다.
+프레임 속성을 나타냅니다.
 
 ```csharp
 public interface IShapeFrame : IGenericCloneable<IShapeFrame>
@@ -18,18 +18,18 @@ public interface IShapeFrame : IGenericCloneable<IShapeFrame>
 
 | 이름 | 설명 |
 | --- | --- |
-| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | 프레임 중심점의 X 좌표를 반환합니다. 읽기 전용 Single. |
-| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | 프레임 중심점의 Y 좌표를 반환합니다. 읽기 전용 Single. |
-| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | 프레임이 가로 방향으로 뒤집혔는지 여부를 결정합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | 프레임이 세로 방향으로 뒤집혔는지 여부를 결정합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
+| [CenterX](../../aspose.slides/ishapeframe/centerx) { get; } | 프레임 중심의 X 좌표를 반환합니다. 읽기 전용 Single. |
+| [CenterY](../../aspose.slides/ishapeframe/centery) { get; } | 프레임 중심의 Y 좌표를 반환합니다. 읽기 전용 Single. |
+| [FlipH](../../aspose.slides/ishapeframe/fliph) { get; } | 프레임이 수평으로 뒤집혔는지 여부를 결정합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/ishapeframe/flipv) { get; } | 프레임이 수직으로 뒤집혔는지 여부를 결정합니다. 읽기 전용 [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/ishapeframe/height) { get; } | 프레임의 높이를 반환합니다. 읽기 전용 Single. |
 | [Rectangle](../../aspose.slides/ishapeframe/rectangle) { get; } | 프레임의 좌표를 반환합니다. 읽기 전용 RectangleF. |
-| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 프레임이 z축을 중심으로 회전된 각도를 반환합니다. 양수 값은 시계 방향 회전을 나타내며, 음수 값은 반시계 방향 회전을 나타냅니다. 읽기 전용 Single. |
+| [Rotation](../../aspose.slides/ishapeframe/rotation) { get; } | 프레임이 z축을 중심으로 회전한 각도를 반환합니다. 양수 값은 시계 방향 회전을, 음수 값은 반시계 방향 회전을 나타냅니다. 읽기 전용 Single. |
 | [Width](../../aspose.slides/ishapeframe/width) { get; } | 프레임의 너비를 반환합니다. 읽기 전용 Single. |
-| [X](../../aspose.slides/ishapeframe/x) { get; } | 프레임의 좌상단 모서리 X 좌표를 반환합니다. 읽기 전용 Single. |
-| [Y](../../aspose.slides/ishapeframe/y) { get; } | 프레임의 좌상단 모서리 Y 좌표를 반환합니다. 읽기 전용 Single. |
+| [X](../../aspose.slides/ishapeframe/x) { get; } | 프레임 좌측 상단 모서리의 X 좌표를 반환합니다. 읽기 전용 Single. |
+| [Y](../../aspose.slides/ishapeframe/y) { get; } | 프레임 좌측 상단 모서리의 Y 좌표를 반환합니다. 읽기 전용 Single. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IGenericCloneable&lt;T&gt;](../igenericcloneable-1)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

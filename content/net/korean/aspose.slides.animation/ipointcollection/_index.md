@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 구성 요소의 컬렉션을 나타냅니다.
+description: 부분들의 컬렉션을 나타냅니다.
 type: docs
 weight: 550
 url: /ko/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection 인터페이스
 
-구성 요소의 컬렉션을 나타냅니다.
+포인트 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -16,7 +16,7 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | 기본 IEnumerable 인터페이스를 가져올 수 있습니다. 읽기 전용 IEnumerable. |
 | [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | 컬렉션에 포함된 포인트 수를 반환합니다. 읽기 전용 Int32. |

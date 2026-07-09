@@ -1,9 +1,9 @@
 ---
 title: IChart
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: スライド上のグラフィックチャートを表します。
 type: docs
-weight: 1720
+weight: 1740
 url: /ja/aspose.slides.charts/ichart/
 ---
 ## IChart インターフェイス
@@ -16,44 +16,44 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | ベース IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer)。 |
-| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | ベース IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject)。 |
-| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
-| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | チャートの軸へのアクセスを提供します。読み取り専用 [`IAxesManager`](../iaxesmanager)。 |
-| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3D チャートの背面壁の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall)。 |
-| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | チャートに関連付けられたリンクまたは埋め込みデータの情報を返します。読み取り専用 [`IChartData`](../ichartdata)。 |
-| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | チャートのデータテーブルを返します。読み取り専用 [`IDataTable`](../idatatable)。 |
-| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | チャートのタイトルを取得または設定します。読み取り専用 [`IChartTitle`](../icharttitle)。 |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | 空白セルのプロット方法を取得または設定します。読み書き可能 [`DisplayBlanksAsType`](../displayblanksastype)。 |
-| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3D チャートの床の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall)。 |
-| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | チャートにデータテーブルがあるかどうかを決定します。読み書き可能 Boolean。 |
-| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | チャートに凡例があるかどうかを決定します。読み書き可能 Boolean。 |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | チャート領域に角丸を設定します。読み書き可能 Boolean。 |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | チャートに表示タイトルがあるかどうかを決定します。読み書き可能 Boolean。 |
-| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | チャートの凡例を取得または設定します。読み取り専用 [`ILegend`](../ilegend)。 |
-| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | チャートのプロット領域を表します。読み取り専用 [`IChartPlotArea`](../ichartplotarea)。 |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 表示セルのみをプロットするかどうかを決定します。false にすると表示セルと非表示セルの両方をプロットします。読み書き可能 Boolean。 |
-| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | チャートの 3D 回転を返します。読み取り専用 [`IRotation3D`](../irotation3d)。 |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | 最大値を超えるデータラベルを表示するかどうかを指定します。読み書き可能 Boolean。 |
-| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3D チャートの側面壁の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall)。 |
-| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | チャートのスタイルを取得または設定します。読み書き可能 [`StyleType`](../styletype)。 |
-| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | チャートの種類を取得または設定します。読み書き可能 [`ChartType`](../charttype)。 |
-| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | チャート上に描画される形状を指定します。読み取り専用 [`IGroupShape`](../../aspose.slides/igroupshape)。 |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | ベースの IFormattedTextContainer インターフェイスを取得できます。読み取り専用 [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | ベースの IGraphicalObject インターフェイスを取得できます。読み取り専用 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | IOverrideThemeable インターフェイスを返します。読み取り専用 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | チャートの軸へのアクセスを提供します。読み取り専用 [`IAxesManager`](../iaxesmanager). |
+| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3D チャートの背面壁の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall). |
+| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | チャートに関連付けられたリンクまたは埋め込みデータに関する情報を返します。読み取り専用 [`IChartData`](../ichartdata). |
+| [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | チャートのデータテーブルを返します。読み取り専用 [`IDataTable`](../idatatable). |
+| [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | チャートのタイトルを取得または設定します。読み取り専用 [`IChartTitle`](../icharttitle). |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | チャート上の空白セルのプロット方法を取得または設定します。読み書き可能 [`DisplayBlanksAsType`](../displayblanksastype). |
+| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3D チャートの床の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall). |
+| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | チャートにデータテーブルがあるかどうかを決定します。読み書き可能 Boolean. |
+| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | チャートに凡例があるかどうかを決定します。読み書き可能 Boolean. |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | チャート領域に角丸があるかどうかを指定します。読み書き可能 Boolean. |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | チャートに表示可能なタイトルがあるかどうかを決定します。読み書き可能 Boolean. |
+| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | チャートの凡例を取得または設定します。読み取り専用 [`ILegend`](../ilegend). |
+| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | チャートのプロット領域を表します。読み取り専用 [`IChartPlotArea`](../ichartplotarea). |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 表示されているセルのみをプロットするかどうかを決定します。false の場合、表示セルと非表示セルの両方をプロットします。読み書き可能 Boolean. |
+| [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | チャートの 3D 回転を返します。読み取り専用 [`IRotation3D`](../irotation3d). |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | チャートの最大値を超えるデータ ラベルを表示するかどうかを指定します。読み書き可能 Boolean. |
+| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3D チャートの側面壁の書式を変更できるオブジェクトを返します。読み取り専用 [`IChartWall`](../ichartwall). |
+| [Style](../../aspose.slides.charts/ichart/style) { get; set; } | チャートのスタイルを取得または設定します。読み書き可能 [`StyleType`](../styletype). |
+| [Type](../../aspose.slides.charts/ichart/type) { get; set; } | チャートの種類を取得または設定します。読み書き可能 [`ChartType`](../charttype). |
+| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | チャートの上に描画されるシェイプを指定します。読み取り専用 [`IGroupShape`](../../aspose.slides/igroupshape). |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | チャート要素の実際の値を計算します。実際の値には IActualLayout インターフェイスを実装する要素の位置 (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) と実軸の値 (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) が含まれます。 |
+| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | チャート要素の実際の値を計算します。実際の値には、IActualLayout インターフェイスを実装する要素の位置 (IActualLayout.ActualX、IActualLayout.ActualY、IActualLayout.ActualWidth、IActualLayout.ActualHeight) と実際の軸の値 (IAxis.ActualMaxValue、IAxis.ActualMinValue、IAxis.ActualMajorUnit、IAxis.ActualMinorUnit、IAxis.ActualMajorUnitScale、IAxis.ActualMinorUnitScale) が含まれます。 |
 
 ### 参照
 
-* interface [IFormattedTextContainer](../iformattedtextcontainer)
-* interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
-* interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* インターフェイス [IFormattedTextContainer](../iformattedtextcontainer)
+* インターフェイス [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* インターフェイス [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
+* アセンブリ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

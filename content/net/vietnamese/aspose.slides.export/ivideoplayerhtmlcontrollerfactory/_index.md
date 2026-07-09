@@ -18,11 +18,11 @@ public interface IVideoPlayerHtmlControllerFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Tạo bộ điều khiển HTML cho VideoPlayerHtmlController. |
+| [CreateVideoPlayerHtmlController](../../aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller)(string, string, string) | Tạo bộ điều khiển video player HTML. |
 
 ### Ghi chú
 
-Để tương thích COM.
+Để tương thích với COM.
 
 ### Xem thêm
 

@@ -8,7 +8,7 @@ url: /nl/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection klasse
 
-Represents a collection of slides in the section.
+Stelt een verzameling dia's in de sectie voor.
 
 ```csharp
 public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCollection
@@ -16,19 +16,19 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Geeft het aantal elementen dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Geeft een waarde terug die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Geeft het element op de opgegeven index terug. Alleen-lezen [`ISlide`](../islide). |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Geeft een synchronisatiewortel terug. Alleen-lezen Object. |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de verzameling aanwezig is. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/sectionslidecollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`ISlide`](../islide). |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopieert de volledige collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Geeft een enumerator terug die door de collectie itereert. |
+| [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | Kopieert de gehele collectie naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 
 ### Zie ook
 

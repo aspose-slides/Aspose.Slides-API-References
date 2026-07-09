@@ -16,16 +16,16 @@ public interface ITableFormat
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Geeft een tabelvullings-eigenschappenobject terug. Alleen-lezen [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Haalt de transparantie van de vulkleur op of stelt deze in. Lezen/Schrijven Single. |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | Retourneert een tabelvul-eigenschappenobject. Alleen-lezen [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | Haalt of stelt de transparantie van de vulkleur in. Lezen/schrijven Single. |
 
 ## Methoden
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Haalt de effectieve tabelopmaak-eigenschappen op met geërfde eigenschappen en toegepaste tabelstijlen. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | Haalt effectieve tabelopmaak-eigenschappen op met overerving en toegepaste tabelstijlen. |
 
 ### Zie ook
 

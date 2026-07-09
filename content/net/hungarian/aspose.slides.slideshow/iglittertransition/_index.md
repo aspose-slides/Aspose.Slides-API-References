@@ -1,14 +1,14 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes .NET API referencia
-description: Csillogó diaátmeneti hatás.
+second_title: Aspose.Sildes a .NET API referencia
+description: Csillámló diaátmeneti hatás.
 type: docs
-weight: 10080
+weight: 10100
 url: /hu/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition interfész
 
-Csillogó diaátmenet hatás.
+Csillámló diaátmeneti hatás.
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Lehetővé teszi az alap ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Az átmenet iránya. Olvasható/írható [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Megadja az átmenet során használt vizuális elemek alakját. Olvasható/írható [`TransitionPattern`](../transitionpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | Meghatározza az átmenet során használt vizuális elemek alakját. Olvasás/írás [`TransitionPattern`](../transitionpattern). |
 
 ### Lásd még
 

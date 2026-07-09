@@ -1,6 +1,6 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 提供 AI 驅動的功能以處理簡報。
 type: docs
 weight: 70
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.ai/slidesaiagent/
 ---
 ## SlidesAIAgent 類別
 
-提供 AI 驅動的功能來處理簡報。
+提供 AI 驅動的功能以處理簡報。
 
 ```csharp
 public class SlidesAIAgent
@@ -18,17 +18,17 @@ public class SlidesAIAgent
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent#constructor)() | 使用內建的 [`AsposeAIWebClient`](../asposeaiwebclient) 並採用其預設設定，初始化 [`SlidesAIAgent`](../slidesaiagent) 的新執行個體。此用戶端會連線至 Aspose 自己的 LLM，且不需要其他設定。若要使用其他 AI 用戶端，請改為使用 [`SlidesAIAgent`](./slidesaiagent) 的超載版本。 |
-| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | 使用自訂 AI 用戶端，初始化 [`SlidesAIAgent`](../slidesaiagent) 的新執行個體。使用此超載以指定 AI 供應者、提供您自己的 LLM，或自訂連線（例如，提供您自己的 `HttpClient`）。任何 [`IAIWebClient`](../iaiwebclient) 的實作都可使用，包括： |
+| [SlidesAIAgent](slidesaiagent#constructor)() | 初始化 [`SlidesAIAgent`](../slidesaiagent) 的新執行個體，使用內建的 [`AsposeAIWebClient`](../asposeaiwebclient) 及其預設設定。用戶端連線至 Aspose 自有的 LLM，無需額外設定。若要使用其他 AI 客戶端，請改用 [`SlidesAIAgent`](./slidesaiagent) 的重載。 |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | 初始化 [`SlidesAIAgent`](../slidesaiagent) 的新執行個體，使用自訂的 AI 客戶端。使用此重載可指定 AI 提供者、提供您自己的 LLM，或自訂連線（例如，提供您自己的 `HttpClient`）。任何 [`IAIWebClient`](../iaiwebclient) 的實作皆可使用，包括： |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | 根據文字描述產生簡報實例。請以所需語言提供主題、想法、引語或文字片段。 |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | 根據文字描述產生簡報實例。請以所需語言提供主題、想法、引語或文字片段。 |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | 根據文字描述產生簡報實例。請以所需語言提供主題、想法、引語或文字片段。 |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | 根據文字描述產生簡報實例。請以所需語言提供主題、想法、引語或文字片段。 |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | 從文字描述產生簡報實例。提供主題、想法、引語或所需語言的文字片段。 |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | 從文字描述產生簡報實例。提供主題、想法、引語或所需語言的文字片段。 |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | 從文字描述產生簡報實例。提供主題、想法、引語或所需語言的文字片段。 |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | 從文字描述產生簡報實例。提供主題、想法、引語或所需語言的文字片段。 |
 | [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | 使用 AI 將簡報翻譯成指定語言（同步版本）。 |
 | [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | 使用 AI 將簡報翻譯成指定語言。 |
 

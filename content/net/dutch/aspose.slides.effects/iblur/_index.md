@@ -1,14 +1,14 @@
 ---
 title: IBlur
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een vervagingseffect voor dat wordt toegepast op de gehele vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
+description: Stelt een vervageffect voor dat wordt toegepast op de gehele vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
 type: docs
 weight: 3180
 url: /nl/aspose.slides.effects/iblur/
 ---
 ## IBlur interface
 
-Stelt een vervagingseffect voor dat wordt toegepast op de gehele vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
+Stelt een vervageffect voor dat wordt toegepast op de gehele vorm, inclusief de vulling. Alle kleurkanalen, inclusief alfa, worden beïnvloed.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Staat toe om de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Staat toe om de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bepaalt of de grenzen van het object moeten worden vergroot als gevolg van de vervaging. True geeft aan dat de grenzen worden vergroot, terwijl false aangeeft dat dit niet het geval is. Lezen/Schrijven Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Geeft de vervagingsstraal terug of stelt deze in. Lezen/Schrijven Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | Staat toe om de basis IAccessiblePVIObject-interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | Staat toe om de basis IImageTransformOperation-interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | Bepaalt of de grenzen van het object moeten worden vergroot als gevolg van het vervagen. Waar geeft aan dat de grenzen worden vergroot, terwijl onwaar aangeeft dat ze dat niet doen. Lees/Schrijf Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | Geeft de vervagingsstraal terug of stelt deze in. Lees/Schrijf Double. |
 
 ### Zie ook
 

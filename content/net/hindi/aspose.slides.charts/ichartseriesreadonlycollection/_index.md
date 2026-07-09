@@ -1,7 +1,7 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: IChartSeries की एक केवल-पढ़ने योग्य संग्रह का प्रतिनिधित्व करता है./ichartseries
+description: IChartSeries./ichartseries का केवल-पढ़ने योग्य संग्रह दर्शाता है
 type: docs
 weight: 1970
 url: /hi/aspose.slides.charts/ichartseriesreadonlycollection/
@@ -18,9 +18,9 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व को प्राप्त करता है। |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IChartSeries](../ichartseries)

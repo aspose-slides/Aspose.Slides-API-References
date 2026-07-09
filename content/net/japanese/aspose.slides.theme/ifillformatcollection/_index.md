@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes の .NET API リファレンス
-description: フィルスタイルのコレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 塗りつぶしスタイルのコレクションを表します。
 type: docs
-weight: 11210
+weight: 11230
 url: /ja/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection インターフェイス
 
-フィルスタイルのコレクションを表します。
+塗りつぶしスタイルのコレクションを表します。
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>

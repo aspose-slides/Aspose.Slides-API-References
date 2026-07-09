@@ -1,14 +1,14 @@
 ---
 title: ITemplateEngine
-second_title: Aspose.Sildes .NET API referencia
-description: Olyan sablonmotor, amely a sablon- és adatpárt a kimeneti eredményre, általában HTML-re alakítja át.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Olyan sablonmotor, amely a sablon és adatpár átalakításával előállítja a kimenetet, általában HTML.
 type: docs
-weight: 4600
+weight: 4620
 url: /hu/aspose.slides.export.web/itemplateengine/
 ---
-## ITemplateEngine interfész
+## ITemplateEngine interface
 
-Olyan sablonmotor, amely a sablon-adat-párt átalakítja a kimeneti eredményre (általában HTML).
+Olyan sablonmotor, amely a sablon és adatpár átalakításával előállítja a kimenetet (általában HTML).
 
 ```csharp
 public interface ITemplateEngine
@@ -19,7 +19,7 @@ public interface ITemplateEngine
 | Név | Leírás |
 | --- | --- |
 | [AddTemplate](../../aspose.slides.export.web/itemplateengine/addtemplate)(string, string, Type) | Hozzáadja a sablont a sablongyűjteményhez. |
-| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Átalakítja a sablont a megadott kulcs és modellobjektum alapján a kimenetre. |
+| [Compile](../../aspose.slides.export.web/itemplateengine/compile)(string, object) | Átalakítja a sablont a megadott kulccsal és modellobjektummal a kimenetre. |
 
 ### Lásd még
 

@@ -1,6 +1,6 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างโครงการ VBA ผ่านอินเทอร์เฟซ COM
 type: docs
 weight: 11660
@@ -16,19 +16,19 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [VbaProjectFactory](vbaprojectfactory)() | คอนสตรัคเตอร์โดยค่าเริ่มต้น. |
+| [VbaProjectFactory](vbaprojectfactory)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | อินสแตนซ์ static ของโรงงานโครงการ VBA. อ่านอย่างเดียว [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | อินสแตนซ์ของโรงงานโครงการ VBA แบบ static. อ่านอย่างเดียว [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | สร้างโครงการ VBA ใหม่. |
 | [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | อ่านโครงการ VBA จากคอนเทนเนอร์ OLE. |

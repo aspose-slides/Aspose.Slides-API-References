@@ -1,14 +1,14 @@
 ---
 title: Picture
-second_title: Aspose.Sildes için .NET API Referansı
-description: Sunumda bir resmi temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir sunumdaki resmi temsil eder.
 type: docs
-weight: 9360
+weight: 9380
 url: /tr/aspose.slides/picture/
 ---
 ## Picture sınıfı
 
-Bir sunumdaki resmi temsil eder.
+Bir sunumda resmi temsil eder.
 
 ```csharp
 public sealed class Picture : ISlidesPicture
@@ -16,25 +16,25 @@ public sealed class Picture : ISlidesPicture
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimine erişime izin verir. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [Image](../../aspose.slides/picture/image) { get; set; } | Yerleşik görüntüyü döndürür veya ayarlar. Okunur/Yazılabilir [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Görüntü dönüşüm efektleri koleksiyonunu döndürür. Salt-okunur [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Bağlantılı görüntünün URL'sini döndürür veya ayarlar. Okunur/Yazılabilir String. |
-| [Presentation](../../aspose.slides/picture/presentation) { get; } | Sunumu döndürür. Salt-okunur [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/picture/slide) { get; } | Bir resmin üst slaytını döndürür. Salt-okunur [`IBaseSlide`](../ibaseslide). |
+| [AsIPresentationComponent](../../aspose.slides/picture/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [Image](../../aspose.slides/picture/image) { get; set; } | Gömülü resmi döndürür veya ayarlar. Okunur/yazılabilir [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/picture/imagetransform) { get; } | Görüntü dönüşüm efektlerinin koleksiyonunu döndürür. Salt okunur [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/picture/linkpathlong) { get; set; } | Bağlantılı resmin URL'sini döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [Presentation](../../aspose.slides/picture/presentation) { get; } | Sunumu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/picture/slide) { get; } | Resmin ebeveyn slaytını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
 
-## Yöntemler
+## Metotlar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/picture/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Karma değeri döndürür. |
+| override [Equals](../../aspose.slides/picture/equals)(object) | Belirtilen nesne ile karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/picture/gethashcode)() | Karma değerini döndürür. |
 
-### İlgili
+### Ayrıca Bakınız
 
-* arayüz [ISlidesPicture](../islidespicture)
+* arabirim [ISlidesPicture](../islidespicture)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

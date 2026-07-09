@@ -1,14 +1,14 @@
 ---
 title: IVideoFrame
-second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
-description: Mô tả một đoạn video trên một slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một đoạn video trên slide.
 type: docs
 weight: 7380
 url: /vi/aspose.slides/ivideoframe/
 ---
-## Giao diện IVideoFrame
+## IVideoFrame giao diện
 
-Mô tả một đoạn video trên một slide.
+Biểu diễn một đoạn video trên slide.
 
 ```csharp
 public interface IVideoFrame : IPictureFrame
@@ -18,18 +18,18 @@ public interface IVideoFrame : IPictureFrame
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Cho phép lấy giao diện cơ sở IPictureFrame. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên quan tới khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các track phụ đề. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Trả về hoặc thiết lập đối tượng video được nhúng. Đọc/ghi [`IVideo`](../ivideo). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Cho phép lấy giao diện IPictureFrame cơ bản. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên quan đến khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các đoạn phụ đề. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Trả về hoặc đặt đối tượng video nhúng. Đọc/ghi [`IVideo`](../ivideo). |
 | [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Xác định xem video có được hiển thị ở chế độ toàn màn hình hay không. Đọc/ghi Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Xác định xem VideoFrame có bị ẩn hay không. Đọc/ghi Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Trả về hoặc thiết lập tên của tệp video được liên kết tới VideoFrame. Đọc/ghi String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Xác định xem video có được lặp lại hay không. Đọc/ghi Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Trả về hoặc thiết lập chế độ phát video. Đọc/ghi [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Xác định xem video có tự động tua lại về đầu khi bộ phim kết thúc phát hay không. Đọc/ghi Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Cắt cuối [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Cắt đầu [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Trả về hoặc thiết lập âm lượng âm thanh. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Trả về hoặc đặt tên của tệp video được liên kết với VideoFrame. Đọc/ghi String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Xác định xem video có được lặp lại không. Đọc/ghi Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Trả về hoặc đặt chế độ phát video. Đọc/ghi [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Xác định xem video có tự động tua lại về đầu khi phim kết thúc phát không. Đọc/ghi Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Cắt phần cuối [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Cắt phần đầu [ms] |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Trả về hoặc đặt mức âm lượng. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
 
 ### Xem thêm
 

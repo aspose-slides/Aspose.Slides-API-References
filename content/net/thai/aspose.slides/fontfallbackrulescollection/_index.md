@@ -1,42 +1,42 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นการแทนชุดของกฎ FontFallBack ที่ผู้ใช้กำหนด
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เป็นตัวแทนของคอลเลกชันของกฎ FontFallBack ที่กำหนดโดยผู้ใช้
 type: docs
 weight: 4850
 url: /th/aspose.slides/fontfallbackrulescollection/
 ---
 ## FontFallBackRulesCollection คลาส
 
-แทนชุดของกฎ FontFallBack ที่ผู้ใช้กำหนด
+Represents a collection of FontFallBack rules, defined by user
 
 ```csharp
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontFallBackRulesCollection](fontfallbackrulescollection)() | คอนสตรักเตอร์เริ่มต้น. |
+| [FontFallBackRulesCollection](fontfallbackrulescollection)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | รับจำนวนของกฎที่มีอยู่ในคอลเลกชันจริง. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันนั้นซิงโครไนซ์ (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | ดึงจำนวนกฎที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | คืนค่าแสดงว่าการเข้าถึงคอลเลกชันเป็นแบบประสาน (thread-safe). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | ดึงกฎที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | คืนค่ารากการประสาน. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ที่ระบุไปที่ส่วนท้ายของคอลเลกชัน. |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | คัดลอกสมาชิกทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | เพิ่มกฎ FallBack ที่ระบุไว้ที่ส่วนท้ายของคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการเกิดครั้งแรกของกฎ FallBack เฉพาะจากคอลเลกชัน. |
+| [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | ลบการเกิดขึ้นครั้งแรกของกฎ FallBack ที่เฉพาะเจาะจงจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

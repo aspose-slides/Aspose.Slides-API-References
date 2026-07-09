@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili pengelola yang menampung perilaku semua placeholder footer, tanggal-waktu, dan nomor halaman pada presentasi.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili manajer yang menyimpan perilaku semua placeholder footer, tanggal-waktu, dan nomor halaman dalam presentasi.
 type: docs
-weight: 6760
+weight: 6780
 url: /id/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager antarmuka
 
-Mewakili pengelola yang menampung perilaku semua placeholder footer, tanggal-waktu, dan nomor halaman pada presentasi.
+Mewakili manajer yang menyimpan perilaku semua placeholder footer, tanggal-waktu, dan nomor halaman dalam presentasi.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -16,13 +16,13 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Mengembalikan antarmuka IBaseHeaderFooterManager. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Mengatur teks ke semua placeholder tanggal-waktu, termasuk master slide, layout slide, dan slide. |
 | [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Mengubah visibilitas semua placeholder tanggal-waktu, termasuk master slide, layout slide, dan slide. |
@@ -31,7 +31,7 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 | [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Mengatur teks ke semua placeholder header, termasuk notes master, notes slide, dan handout master. |
 | [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Mengubah visibilitas semua placeholder header, termasuk notes master, notes slide, dan handout master. |
 | [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Mengubah visibilitas semua placeholder nomor halaman, termasuk master slide, layout slide, dan slide. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Mengubah visibilitas placeholder footer, tanggal-waktu, dan nomor halaman untuk semua slide judul dan untuk slide layout pertama. Slide judul – slide yang berbasis pada slide layout pertama (tanpa mempedulikan tipe layout pertama tersebut). |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Mengubah visibilitas placeholder footer, tanggal-waktu, dan nomor halaman untuk semua slide judul dan untuk slide layout pertama. Slide judul – slide yang berbasis pada layout pertama (tanpa mempedulikan tipe layout pertama). |
 
 ### Lihat Juga
 

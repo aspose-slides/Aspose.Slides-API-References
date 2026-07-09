@@ -24,14 +24,14 @@ public class MathAccentFactory : IMathAccentFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | निर्दिष्ट गणित तत्व पर डिफ़ॉल्ट एक्सेंट कैरेक्टर मान के साथ एक गणित एक्सेंट बनाता है |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | निर्दिष्ट गणित तत्व पर एक गणित एक्सेंट बनाता है |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | डिफ़ॉल्ट एक्सेंट अक्षर मान के साथ निर्दिष्ट गणित तत्व पर लागू होने वाला एक गणित एक्सेंट बनाता है |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | निर्दिष्ट गणित तत्व पर लागू होने वाला एक गणित एक्सेंट बनाता है |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathAccentFactory](../imathaccentfactory)
 * नेमस्पेस [Aspose.Slides.MathText](../../aspose.slides.mathtext)

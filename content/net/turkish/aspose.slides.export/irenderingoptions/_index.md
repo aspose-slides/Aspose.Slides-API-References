@@ -1,14 +1,14 @@
 ---
 title: IRenderingOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir sunum/slaytın nasıl render edildiğini kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Sunum/slaytın nasıl işlendiğini kontrol eden seçenekler sağlar.
 type: docs
-weight: 4020
+weight: 4040
 url: /tr/aspose.slides.export/irenderingoptions/
 ---
-## IRenderingOptions interface
+## IRenderingOptions arayüz
 
-Sunum/slaytın nasıl render edildiğini kontrol eden seçenekler sağlar.
+Sunum/slayt nasıl işleneceğini kontrol eden seçenekler sağlar.
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
@@ -18,10 +18,10 @@ public interface IRenderingOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Metnin bağlamatikler kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, bağlamatikler render çıktısında devre dışı bırakılır. Varsayılan olarak, bu özellik `false` değerindedir. |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ISaveOptions arabirimi döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini belirten bir değeri alır veya ayarlar. `true` olarak ayarlandığında, işlenen çıktıda ligatürler devre dışı bırakılır. Varsayılan olarak, bu özellik `false` değerine sahiptir. |
 | [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfada yerleştiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfada yerleştirileceği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Örnekler
 

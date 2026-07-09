@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Merepresentasikan opsi yang mengontrol cara presentasi disimpan ke markdown.
+description: Mewakili opsi yang mengontrol bagaimana presentasi harus disimpan ke markdown.
 type: docs
-weight: 4230
+weight: 4250
 url: /id/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions kelas
 
-Merepresentasikan opsi yang mengontrol cara presentasi disimpan ke markdown.
+Mewakili opsi yang mengontrol bagaimana presentasi harus disimpan ke markdown.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -18,32 +18,30 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Konstruktor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Menentukan jalur dasar di mana dokumen dengan sumber daya akan disimpan. Default adalah direktori saat ini dari aplikasi. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan bila font sumber tidak ditemukan. Baca-tulis String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Menentukan spesifikasi markdown untuk mengonversi presentasi. Default adalah `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Menentukan spesifikasi markdown untuk mengonversi presentasi. Default adalah `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual dari gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Menentukan jalur dasar dimana dokumen dengan sumber daya akan disimpan. Defaultnya adalah direktori saat ini dari aplikasi. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan bila font sumber tidak ditemukan. Baca/tulis String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Menentukan spesifikasi markdown untuk mengonversi presentasi. Defaultnya adalah `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Menentukan spesifikasi markdown untuk mengonversi presentasi. Defaultnya adalah `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Menentukan nama folder untuk menyimpan gambar. Default adalah `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus memiliki baris baru \\r(Macintosh) atau \\n(Unix) atau \\r\\n(Windows). Default adalah `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Merepresentasikan objek callback untuk memperbarui kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Jika diatur ke `true`, menghapus baris kosong atau hanya spasi putih dari output Markdown akhir. Default adalah `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menampilkan komentar atau tidak. Default adalah `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Default adalah `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menampilkan nomor setiap slide atau tidak. Default adalah `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah harus melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Mengambil atau mengatur string format yang digunakan untuk header nomor slide dalam output Markdown. Format harus menyertakan placeholder \"{0}\", yang akan diganti dengan indeks slide selama ekspor. Contoh: \"# Slide {0}\" akan menghasilkan \"# Slide 1\", \"# Slide 2\", dll. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur sebuah objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Menentukan nama folder untuk menyimpan gambar. Defaultnya adalah `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus memiliki baris baru \r(Macintosh) atau \n(Unix) atau \r\n(Windows). Defaultnya adalah `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk pembaruan progres penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Jika disetel ke `true`, menghapus baris kosong atau hanya spasi dari output Markdown akhir. Defaultnya adalah `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menampilkan komentar atau tidak. Defaultnya adalah `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Defaultnya adalah `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menampilkan nomor setiap slide atau tidak. Defaultnya adalah `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewati hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai defaultnya adalah **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Mengambil atau mengatur string format yang digunakan untuk header nomor slide dalam output Markdown. Format harus menyertakan placeholder \"{0}\", yang akan digantikan dengan indeks slide selama ekspor. Contoh: \"# Slide {0}\" akan menghasilkan \"# Slide 1\", \"# Slide 2\", dll. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Contoh
-
-Contoh:
 
 ```csharp
 [C#]
@@ -66,6 +64,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * kelas [SaveOptions](../saveoptions)
 * ruang nama [Aspose.Slides.Export](../../aspose.slides.export)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes para .NET Referência da API
-description: Esta classe contém as propriedades de formatação da porção de texto. Ao contrário de IPortionFormatEffectiveData./iportionformateffectivedata, todas as propriedades desta classe são graváveis.
+description: Esta classe contém as propriedades de formatação da porção de texto. Ao contrário de IPortionFormatEffectiveData./iportionformateffectivedata todas as propriedades desta classe são graváveis.
 type: docs
-weight: 6710
+weight: 6730
 url: /pt/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interface
 
-Esta classe contém as propriedades de formatação de porção de texto. Ao contrário de [`IPortionFormatEffectiveData`](../iportionformateffectivedata), todas as propriedades desta classe são graváveis.
+Esta classe contém as propriedades de formatação da porção de texto. Ao contrário de [`IPortionFormatEffectiveData`](../iportionformateffectivedata), todas as propriedades desta classe são graváveis.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -27,15 +27,15 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtém os dados de formatação de porção efetivos com a herança aplicada. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Obtém os dados de formatação de porção efetiva com a herança aplicada. |
 
 ### Observações
 
-Esta classe é usada para retornar e manipular as propriedades de formatação de porção de texto definidas para a porção específica. Isso significa que nenhuma herança é aplicada ao obter valores, de modo que, na maioria dos casos, você receberá valores que significam “indefinido”.
+Esta classe é usada para retornar e manipular as propriedades de formatação de porção de texto definidas para a porção específica. Isso significa que nenhuma herança é aplicada ao obter valores, portanto, na maioria dos casos você receberá valores significando "indefinido".
 
-Para obter os valores dos parâmetros de formatação efetivos, incluindo os herdados, você precisa usar o método [`GetEffective`](./geteffective) que retorna uma instância [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
+Para obter os valores dos parâmetros de formatação efetiva, incluindo os herdados, você precisa usar o método [`GetEffective`](./geteffective) que retorna uma instância [`IPortionFormatEffectiveData`](../iportionformateffectivedata).
 
-### Ver Também
+### Ver também
 
 * interface [IBasePortionFormat](../ibaseportionformat)
 * interface [IHyperlinkContainer](../ihyperlinkcontainer)

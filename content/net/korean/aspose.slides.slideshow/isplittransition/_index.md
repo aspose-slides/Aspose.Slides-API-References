@@ -1,6 +1,6 @@
 ---
 title: ISplitTransition
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 분할 전환 효과.
 type: docs
 weight: 10200
@@ -18,11 +18,11 @@ public interface ISplitTransition : ITransitionValueBase
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | ITransitionValueBase 인터페이스 기반을 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/isplittransition/asitransitionvaluebase) { get; } | ITransitionValueBase 기본 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/isplittransition/direction) { get; set; } | 전환 분할의 방향. 읽기/쓰기 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 | [Orientation](../../aspose.slides.slideshow/isplittransition/orientation) { get; set; } | 전환 분할의 방향성. 읽기/쓰기 [`Orientation`](../../aspose.slides/orientation). |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

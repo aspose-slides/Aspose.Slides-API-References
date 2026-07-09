@@ -1,7 +1,7 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: จัดการไฮเปอร์ลิงก์ รวมถึงการเพิ่มและการลบ
+description: จัดการไฮเปอร์ลิงก์ การเพิ่มและการลบ
 type: docs
 weight: 5150
 url: /th/aspose.slides/hyperlinkmanager/
@@ -18,13 +18,13 @@ public sealed class HyperlinkManager : IHyperlinkManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | ลบไฮเปอร์ลิงก์เมื่อคลิก. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | ลบไฮเปอร์ลิงก์เมื่อเมาส์ชี้. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | ตั้งค่าไฮเปอร์ลิงก์ภายนอกเมื่อคลิก. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | ตั้งค่าไฮเปอร์ลิงก์ภายนอกเมื่อเมาส์ชี้. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | ตั้งค่าไฮเปอร์ลิงก์ภายในเมื่อคลิก. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | ตั้งค่าไฮเปอร์ลิงก์ภายในเมื่อเมาส์ชี้. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | ตั้งค่าไฮเปอร์ลิงก์แมโครเมื่อคลิก. |
+| [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | ลบไฮเปอร์ลิงก์เมื่อคลิก |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | ลบไฮเปอร์ลิงก์เมื่อเมาส์อยู่เหนือ |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | กำหนดไฮเปอร์ลิงก์ภายนอกเมื่อคลิก |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | กำหนดไฮเปอร์ลิงก์ภายนอกเมื่อเมาส์อยู่เหนือ |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | กำหนดไฮเปอร์ลิงก์ภายในเมื่อคลิก |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | กำหนดไฮเปอร์ลิงก์ภายในเมื่อเมาส์อยู่เหนือ |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | กำหนดไฮเปอร์ลิงก์มาโครเมื่อคลิก |
 
 ### ดูเพิ่มเติม
 

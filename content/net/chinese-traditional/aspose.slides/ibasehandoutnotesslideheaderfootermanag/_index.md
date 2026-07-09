@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表管理者，負責維持佔位符的行為，包括所有類型講義與備註投影片的標頭佔位符。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示管理員，負責持有佔位符的行為，包括所有類型講義與備註投影片的標題佔位符。
 type: docs
 weight: 5290
 url: /zh-hant/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag 介面
 
-代表管理者，負責保持佔位符的行為，包括所有類型講義與備註投影片的標頭佔位符。
+表示管理員，負責佔位符的行為，包括所有類型講義與備註投影片的標題佔位符。
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,20 +19,20 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | 傳回 IBaseSlideHeaderFooterManager 介面。 |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 取得指示是否存在標頭佔位符的值。讀取 Boolean。 |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 取得指示是否存在標題佔位符的值。讀取 Boolean。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 設定文字至投影片標頭佔位符。 |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 變更投影片標頭佔位符的可見性。 |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 設定文字至投影片標題佔位符。 |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 變更投影片標題佔位符的可見性。 |
 
 ### 備註
 
-原始介面名稱「IBaseHandoutNotesSlideHeaderFooterManager」已縮寫為「IBaseHandoutNotesSlideHeaderFooterManag」以符合 COM 相容性（類型名稱長度不得超過 39）。
+原始介面名稱 "IBaseHandoutNotesSlideHeaderFooterManager" 已截斷為 "IBaseHandoutNotesSlideHeaderFooterManag" 以符合 COM 相容性（類型名稱長度不得超過 39）。
 
-### 另請參閱
+### 另見
 
 * 介面 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

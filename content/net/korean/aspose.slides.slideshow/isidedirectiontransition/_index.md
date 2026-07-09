@@ -1,6 +1,6 @@
 ---
 title: ISideDirectionTransition
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 측면 방향 슬라이드 전환 효과.
 type: docs
 weight: 10190
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition 인터페이스
 
-측면 방향 슬라이드 전환 효과.
+슬라이드 전환 효과의 측면 방향.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase

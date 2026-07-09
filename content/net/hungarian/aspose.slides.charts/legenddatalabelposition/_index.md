@@ -1,9 +1,9 @@
 ---
 title: LegendDataLabelPosition
-second_title: Aspose.Sildes for .NET API Referenciája
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Meghatározza az adatcímkék pozícióját.
 type: docs
-weight: 2270
+weight: 2290
 url: /hu/aspose.slides.charts/legenddatalabelposition/
 ---
 ## LegendDataLabelPosition enumeráció
@@ -19,15 +19,15 @@ public enum LegendDataLabelPosition
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | NotDefined | `-1` | A pozíció nincs definiálva. |
-| Bottom | `0` | Megadja, hogy az adatcímkék az adatjelző alatt jelennek meg. |
-| BestFit | `1` | Megadja, hogy az adatcímkék a legmegfelelőbb pozícióban jelennek meg. |
-| Center | `2` | Megadja, hogy az adatcímkék középre, az adatjelző közepén jelennek meg. |
-| InsideBase | `3` | Megadja, hogy az adatcímkék az adatjelző alapján belül jelennek meg. |
-| InsideEnd | `4` | Megadja, hogy az adatcímkék az adatjelző végén belül jelennek meg. |
-| Left | `5` | Megadja, hogy az adatcímkék az adatjelző bal oldalán jelennek meg. |
-| OutsideEnd | `6` | Megadja, hogy az adatcímkék az adatjelző végén kívül jelennek meg. |
-| Right | `7` | Megadja, hogy az adatcímkék az adatjelző jobb oldalán jelennek meg. |
-| Top | `8` | Megadja, hogy az adatcímkék az adatjelző felett jelennek meg. |
+| Bottom | `0` | Megadja, hogy az adatcímkék az adatjelölő alatt jelenjenek meg. |
+| BestFit | `1` | Megadja, hogy az adatcímkék a legjobb pozícióban jelenjenek meg. |
+| Center | `2` | Megadja, hogy az adatcímkék az adatjelölő közepén jelenjenek meg. |
+| InsideBase | `3` | Megadja, hogy az adatcímkék az adatjelölő alapján belül jelenjenek meg. |
+| InsideEnd | `4` | Megadja, hogy az adatcímkék az adatjelölő végén belül jelenjenek meg. |
+| Left | `5` | Megadja, hogy az adatcímkék az adatjelölő bal oldalán jelenjenek meg. |
+| OutsideEnd | `6` | Megadja, hogy az adatcímkék az adatjelölő végén kívül jelenjenek meg. |
+| Right | `7` | Megadja, hogy az adatcímkék az adatjelölő jobb oldalán jelenjenek meg. |
+| Top | `8` | Megadja, hogy az adatcímkék az adatjelölő felett jelenjenek meg. |
 
 ### Lásd még
 

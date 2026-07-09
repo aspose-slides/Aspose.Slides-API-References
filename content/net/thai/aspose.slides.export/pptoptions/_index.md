@@ -1,35 +1,35 @@
 ---
 title: PptOptions
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ PPT
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ PPT.
 type: docs
 weight: 4360
 url: /th/aspose.slides.export/pptoptions/
 ---
 ## PptOptions คลาส
 
-ให้ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอในรูปแบบ PPT
+Provides options that control how a presentation is saved in PPT format.
 
 ```csharp
 public class PptOptions : SaveOptions, IPptOptions
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PptOptions](pptoptions)() | ตัวคอนสตรัคเตอร์เริ่มต้น |
+| [PptOptions](pptoptions)() | ตัวสร้างเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ส่งคืนหรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน-เขียน String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ส่งคืนหรือกำหนดสไตล์การแสดงผลของการไล่สี. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แทนวัตถุกลับสำหรับอัปเดตความคืบหน้าในการบันทึกเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | แทน GUID ของคลาสวัตถุ (CLSID) ที่จัดเก็บในรายการไดเรกทอรีราก. สามารถใช้สำหรับการเปิดใช้งาน COM ของแอปพลิเคชันเอกสาร. ค่าเริ่มต้นคือ '64818D11-4F9B-11CF-86EA-00AA00B929E8' ที่สอดคล้องกับ 'Microsoft Powerpoint.Slide.8'. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกงานนำเสนอหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | ส่งคืนหรือกำหนดวัตถุที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ. อ่าน-เขียน String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์การแสดงผลของการไล่สี. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงถึงอ็อบเจ็กต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RootDirectoryClsid](../../aspose.slides.export/pptoptions/rootdirectoryclsid) { get; set; } | แสดงถึง GUID ของคลาสอ็อบเจ็กต์ (CLSID) ที่ถูกจัดเก็บในรายการไดเรกทอรีราก. สามารถใช้สำหรับการเปิดใช้งาน COM ของแอปพลิเคชันเอกสาร. ค่าเริ่มต้นคือ '64818D11-4F9B-11CF-86EA-00AA00B929E8' ซึ่งสอดคล้องกับ 'Microsoft Powerpoint.Slide.8'. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกการนำเสนอ. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า หรือกำหนดอ็อบเจ็กต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ITextToHtmlConversionOptions
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Pptx 텍스트에서 HTML을 추출하기 위한 옵션.
+description: Pptx 텍스트에서 HTML을 추출하기 위한 옵션입니다.
 type: docs
 weight: 4160
 url: /ko/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions 인터페이스
 
-Pptx 텍스트에서 HTML을 추출하기 위한 옵션.
+Pptx 텍스트에서 HTML을 추출하기 위한 옵션입니다.
 
 ```csharp
 public interface ITextToHtmlConversionOptions
@@ -18,12 +18,12 @@ public interface ITextToHtmlConversionOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 값을 반환하거나 설정합니다. Clipboard 헤더를 추가해야 하는지 여부를 나타냅니다. 읽기/쓰기 Boolean. |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 값을 반환하거나 설정합니다. Clipboard 헤더를 추가할지 여부를 나타냅니다. 읽기/쓰기 Boolean. |
 | [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | HTML 인코딩 이름을 반환하거나 설정합니다. 이 값은 생성된 HTML 파일에 저장되지만, 파일이 해당 인코딩으로 저장되도록 보장하는 것은 호출자에게 달려 있습니다. 읽기/쓰기 String. |
 | [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 외부 객체가 저장되는 방식을 제어하는 콜백 객체를 반환하거나 설정합니다. 읽기/쓰기 [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 텍스트 속성에 대한 상속 깊이를 반환하거나 설정합니다. 읽기/쓰기 [`TextInheritanceLimit`](./textinheritancelimit). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 텍스트 속성에 대한 내부 깊이를 반환하거나 설정합니다. 읽기/쓰기 [`TextInheritanceLimit`](./textinheritancelimit). |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

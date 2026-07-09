@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एम्बेडेड ऑडियो फ़ाइलों के संग्रह का प्रतिनिधित्व करता है।
+description: एंबेडेड ऑडियो फ़ाइलों का संग्रह दर्शाता है।
 type: docs
 weight: 860
 url: /hi/aspose.slides/audiocollection/
 ---
 ## AudioCollection क्लास
 
-एंबेडेड ऑडियो फ़ाइलों के संग्रह का प्रतिनिधित्व करता है।
+एंबेडेड ऑडियो फ़ाइलों का संग्रह दर्शाता है।
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -18,23 +18,23 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | संग्रह में ऑडियो फ़ाइलों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | संग्रह तक पहुँच सिंक्रनाइज़्ड (थ्रेड-सेफ) है या नहीं, यह दर्शाता मान लौटाता है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | कलेक्शन में ऑडियो फ़ाइलों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | एक मान लौटाता है जो संकेत देता है कि संग्रह तक पहुंच समन्वित (थ्रेड-सेफ़) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | एक समन्वयन मूल (synchronization root) लौटाता है। केवल पढ़ने योग्य Object. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | बाइट एरे से ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | दूसरी प्रस्तुति से ऑडियो फ़ाइल की एक प्रति जोड़ता है। |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | स्ट्रीम से ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream,LoadingStreamBehavior) | स्ट्रीम से ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array,int) | निर्दिष्ट इंडेक्स से शुरू करके निर्दिष्ट एरे में ऑडियो कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | संग्रह के माध्यम से इटरेट करने वाला एन्यूमरेटर लौटाता है। |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | बाइट एरे से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | एक अन्य प्रस्तुति से एक ऑडियो फ़ाइल की प्रतिलिपि जोड़ता है। |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | स्ट्रीम से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | स्ट्रीम से एक ऑडियो बनाता है और प्रस्तुति में जोड़ता है। |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | निर्दिष्ट ऐरे में ऑडियो कॉपी करता है, निर्धारित इंडेक्स से शुरू करके। |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Presentation](../presentation)

@@ -1,9 +1,9 @@
 ---
 title: Paragraph
-second_title: Aspose.Sildes för .NET API-referens
+second_title: Aspose.Slides för .NET API-referens
 description: Representerar ett stycke text.
 type: docs
-weight: 9260
+weight: 9280
 url: /sv/aspose.slides/paragraph/
 ---
 ## Paragraph klass
@@ -18,25 +18,25 @@ public sealed class Paragraph : IParagraph
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Paragraph](paragraph#constructor)() | Initierar en ny instans av Paragraph klass med standardegenskaper. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Kopieringskonstruktor som initierar en ny instans av en Paragraph klass. |
+| [Paragraph](paragraph#constructor)() | Initierar en ny instans av Paragraph-klassen med standardegenskaper. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Kopieringskonstruktor som initierar en ny instans av en Paragraph-klass. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Anger de delsegenskaper som ska användas om en annan del infogas efter den sista. |
+| [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Anger del-egenskaperna som ska användas om en annan del infogas efter den sista. |
 | [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Returnerar formateringsobjektet för detta stycke. Skrivskyddad [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/paragraph/portions) { get; } | Returnerar samlingen av textdelar. Skrivskyddad [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Hämtar eller anger ren text för ett stycke. Läs/skriv String. |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Hämtar eller anger renodlad text för ett stycke. Läs/skriv String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Hämtar antalet rader i ett stycke. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Hämtar koordinaterna för den rektangel som omger stycket. Rektangeln inkluderar alla rader med text i stycket, inklusive tomma. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Sammanfogar körningar med samma formatering. |
+| [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Hämta antalet rader i ett stycke. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Hämta koordinaterna för den rektangel som omger stycket. Rektangeln inkluderar alla rader i texten i stycket, inklusive tomma. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Slår samman körningar med samma formatering. |
 
 ### Se även
 

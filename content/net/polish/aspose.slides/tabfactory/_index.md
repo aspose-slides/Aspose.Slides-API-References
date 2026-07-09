@@ -1,12 +1,12 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Umożliwia tworzenie instancji ITab
 type: docs
-weight: 10830
+weight: 10850
 url: /pl/aspose.slides/tabfactory/
 ---
-## Klasa TabFactory
+## TabFactory klasa
 
 Umożliwia tworzenie instancji ITab
 
@@ -18,7 +18,7 @@ public class TabFactory : ITabFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [TabFactory](tabfactory)() | Konstruktor domyślny. |
+| [TabFactory](tabfactory)() | Domyślny konstruktor. |
 
 ## Metody
 
@@ -28,7 +28,7 @@ public class TabFactory : ITabFactory
 
 ### Uwagi
 
-Dla kompatybilności z COM.
+Dla zgodności z COM.
 
 ### Zobacz także
 

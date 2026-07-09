@@ -1,6 +1,6 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 노트 슬라이드의 크기를 나타냅니다.
 type: docs
 weight: 6490

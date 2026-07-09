@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een masterslide voor hand-outs voor.
+description: Stelt de masterdia voor hand-outs voor.
 type: docs
 weight: 7980
 url: /nl/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide klasse
 
-Stelt een masterslide voor hand-outs voor.
+Stelt de masterdia voor hand-outs voor.
 
 ```csharp
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
@@ -18,36 +18,36 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 
 | Name | Description |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Geeft de achtergrond van de slide terug. Alleen-lezen [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Geeft de collectie van ActiveX-besturingselementen op een slide terug. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Geeft de aangepaste data van de slide terug. Alleen-lezen [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Geeft een collectie van teken-gidsen voor de master-handout-slide terug. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Geeft de HeaderFooter-manager van de master-handout-slide terug. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Retourneert de achtergrond van de dia. Alleen-lezen [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Retourneert de collectie van ActiveX-besturingselementen op een dia. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Retourneert de aangepaste gegevens van de dia. Alleen-lezen [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Retourneert een collectie van tekengidsen voor de masterhand-out-dia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Retourneert de HeaderFooter-beheerder van de masterhand-out-dia. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot de opgenomen hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Geeft de naam van een slide terug of stelt deze in. Lezen/schrijven String. |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Geeft de IPresentation-interface terug. Alleen-lezen [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Geeft de vormen van een slide terug. Alleen-lezen [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Specificeert of vormen op de masterslide moeten worden weergegeven op slides of niet. Voor de masterslide zelf geeft deze eigenschap altijd `false` terug. Lezen/schrijven Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Geeft de ID van een slide terug. Alleen-lezen UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Geeft het Transition-object terug dat informatie bevat over hoe de opgegeven slide wordt voortgezet tijdens een diavoorstelling. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Geeft de themabeheerder terug. Alleen-lezen [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Geeft het animatietijdlijnobject terug. Alleen-lezen [`IAnimationTimeLine`](../ianimationtimeline). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retourneert of stelt de naam van een dia in. Lezen/schrijven String. |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retourneert de IPresentation-interface. Alleen-lezen [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retourneert de vormen van een dia. Alleen-lezen [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Specificeert of vormen op de masterslide getoond moeten worden op dia’s of niet. Voor de masterslide zelf geeft deze eigenschap altijd `false` terug. Lezen/schrijven Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retourneert de ID van een dia. Alleen-lezen UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retourneert het Transition-object dat informatie bevat over hoe de gespecificeerde dia tijdens een diavoorstelling wordt gepresenteerd. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Retourneert de themabeheerder. Alleen-lezen [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retourneert het animatietijdlijnobject. Alleen-lezen [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Geeft een effectief thema voor deze slide terug. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De geretourneerde waarde wordt berekend op basis van de structuur en statische inhoud van de slide. Twee slides zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, enz., gelijk zijn. De vergelijking houdt geen rekening met unieke identificatiewaarden, bijv. SlideId, en dynamische inhoud, bijv. de huidige datumwaarde in de datum-placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Zoekt de eerste voorkoming van een vorm met de opgegeven alternatieve tekst. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea's van alle acceptabele vormen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt runs met dezelfde opmaak samen in alle alinea's van alle acceptabele vormen. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retourneert een effectief thema voor deze dia. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De geretourneerde waarde wordt berekend op basis van de structuur van de dia en statische inhoud. Twee dia’s zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, enz., gelijk zijn. De vergelijking houdt geen rekening met unieke identifier-waarden, zoals SlideId, en dynamische inhoud, zoals de huidige datumwaarde in een datum-placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Zoekt de eerste keer dat een vorm met de opgegeven alternatieve tekst voorkomt. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea’s van alle geschikte vormen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt runs met dezelfde opmaak samen in alle alinea’s van alle geschikte vormen. |
 
 ### Zie ook
 
-* klasse [BaseSlide](../baseslide)
+* class [BaseSlide](../baseslide)
 * interface [IMasterHandoutSlide](../imasterhandoutslide)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: NotesSlideManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Manajer slide catatan.
+description: Pengelola slide catatan.
 type: docs
-weight: 9140
+weight: 9160
 url: /id/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager kelas
 
-Manajer slide catatan.
+Pengelola slide catatan.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -29,17 +29,17 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ### Contoh
 
-Contoh berikut menunjukkan cara Menambahkan Catatan ke slide tertentu pada Presentasi PowerPoint.
+Contoh berikut menunjukkan cara Menambahkan Catatan ke slide Presentasi PowerPoint tertentu.
 
 ```csharp
 [C#]
-	// Instansiasi objek Presentation yang mewakili file presentasi
+	// Membuat objek Presentation yang mewakili file presentasi
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Tambahkan catatan ke slide pertama
+	  // Menambahkan catatan ke slide pertama
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  INotesSlide noteSlide = mgr.AddNotesSlide();
 	  noteSlide.NotesTextFrame.Text = "Your Notes";
-	  // Simpan presentasi ke disk
+	  // Menyimpan presentasi ke disk
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```
@@ -48,12 +48,12 @@ Contoh berikut menunjukkan cara menghapus Catatan dari slide tertentu pada Prese
 
 ```csharp
 [C#]
-	// Instansiasi objek Presentation yang mewakili file presentasi
+	// Membuat objek Presentation yang mewakili file presentasi
 	using(Presentation presentation = new Presentation(dataDir + "AccessSlides.pptx")) {
-	  // Menghapus catatan slide pertama
+	  // Menghapus catatan dari slide pertama
 	  INotesSlideManager mgr = presentation.Slides[0].NotesSlideManager;
 	  mgr.RemoveNotesSlide();
-	  // Simpan presentasi ke disk
+	  // Menyimpan presentasi ke disk
 	  presentation.Save(dataDir + "RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
 	}
 ```

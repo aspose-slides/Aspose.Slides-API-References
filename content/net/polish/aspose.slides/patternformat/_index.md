@@ -1,9 +1,9 @@
 ---
 title: PatternFormat
-second_title: Aspose.Sildes dla .NET referencja API
-description: Reprezentuje wzór używany do wypełniania kształtu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje wzorzec do wypełniania kształtu.
 type: docs
-weight: 9330
+weight: 9350
 url: /pl/aspose.slides/patternformat/
 ---
 ## PatternFormat klasa
@@ -18,7 +18,7 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia uzyskanie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Zwraca kolor tła wzoru. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Zwraca kolor pierwszego planu wzoru. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Zwraca lub ustawia styl wzoru. Odczyt/zapis [`PatternStyle`](../patternstyle). |

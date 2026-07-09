@@ -1,12 +1,12 @@
 ---
 title: Theme
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un tema.
 type: docs
-weight: 11460
+weight: 11480
 url: /it/aspose.slides.theme/theme/
 ---
-## Theme classe
+## classe Theme
 
 Rappresenta un tema.
 
@@ -18,10 +18,10 @@ public abstract class Theme : ITheme
 
 | Nome | Descrizione |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Restituisce lo schema di colori. Solo lettura [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Restituisce lo schema dei font. Solo lettura [`IFontScheme`](../ifontscheme). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | Restituisce lo schema dei colori. Solo lettura [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | Restituisce lo schema dei caratteri. Solo lettura [`IFontScheme`](../ifontscheme). |
 | abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | Restituisce lo schema del formato delle forme. Solo lettura [`IFormatScheme`](../iformatscheme). |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Restituisce la presentazione padre. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Restituisce la presentazione principale. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metodi
 

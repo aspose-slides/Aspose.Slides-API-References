@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
 second_title: Aspose.Sildes for .NET API 參考
-description: 揭示投影片過渡效果。
+description: 顯示投影片過場效果。
 type: docs
 weight: 10280
 url: /zh-hant/aspose.slides.slideshow/revealtransition/
 ---
 ## RevealTransition 類別
 
-揭示投影片過渡效果。
+顯示投影片過場效果。
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -16,19 +16,19 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 方向過渡。 可讀寫 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指定過渡是否淡入淡出至黑色。 可讀寫 Boolean。 |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | 過場的方向。可讀寫 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | 指定過場是否淡入淡出至黑色。可讀寫 Boolean。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和像雜湊表之類的資料結構。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法及雜湊表等資料結構。 |
 
-### 另見
+### 參見
 
 * 類別 [TransitionValueBase](../transitionvaluebase)
 * 介面 [IRevealTransition](../irevealtransition)

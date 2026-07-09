@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: व्हील स्लाइड ट्रांज़िशन प्रभाव।
+second_title: Aspose.Sildes .NET के लिए API रेफ़रेंस
+description: व्हील स्लाइड संक्रमण प्रभाव।
 type: docs
 weight: 10220
 url: /hi/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition इंटरफ़ेस
 
-व्हील स्लाइड ट्रांज़िशन प्रभाव।
+व्हील स्लाइड संक्रमण प्रभाव।
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IWheelTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | आधारभूत ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | व्हील ट्रांज़िशन के स्पोक की संख्या। पढ़ने/लिखने योग्य UInt32। |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | व्हील संक्रमण के स्पोक्स की संख्या। पढ़ें/लिखें UInt32। |
 
-### और देखें
+### देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

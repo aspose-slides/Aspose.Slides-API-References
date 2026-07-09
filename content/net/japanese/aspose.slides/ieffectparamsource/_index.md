@@ -1,14 +1,14 @@
 ---
 title: IEffectParamSource
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 補助エフェクトパラメータ インターフェイス。
+description: 補助エフェクトパラメーター インターフェイスです。
 type: docs
-weight: 5740
+weight: 5760
 url: /ja/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource インターフェイス
 
-補助エフェクトパラメータ インターフェイス。
+補助エフェクトパラメーター インターフェイスです。
 
 ```csharp
 public interface IEffectParamSource

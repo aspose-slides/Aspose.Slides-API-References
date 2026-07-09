@@ -1,14 +1,14 @@
 ---
 title: EffectChartMajorGroupingType
 second_title: Aspose.Sildes .NET API referencia
-description: A diagram elemének animációs hatásának típusát reprezentálja.
+description: A diagram elemének animációs effektus típusát képviseli.
 type: docs
-weight: 270
+weight: 290
 url: /hu/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 ## EffectChartMajorGroupingType enumeráció
 
-A diagram elemének animációs hatásának típusát reprezentálja.
+A diagram elemének animációs effektus típusát képviseli.
 
 ```csharp
 public enum EffectChartMajorGroupingType

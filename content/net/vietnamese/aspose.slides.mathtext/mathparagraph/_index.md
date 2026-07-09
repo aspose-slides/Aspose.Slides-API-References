@@ -1,12 +1,12 @@
 ---
 title: MathParagraph
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đoạn văn toán học là một container cho các khối toán học IMathBlock
+description: Đoạn văn toán học là một bộ chứa cho các khối toán học IMathBlock
 type: docs
 weight: 8900
 url: /vi/aspose.slides.mathtext/mathparagraph/
 ---
-## Lớp MathParagraph
+## MathParagraph lớp
 
 Đoạn văn toán học là một container cho các khối toán học (IMathBlock)
 
@@ -14,7 +14,7 @@ url: /vi/aspose.slides.mathtext/mathparagraph/
 public class MathParagraph : IMathParagraph
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -25,7 +25,7 @@ public class MathParagraph : IMathParagraph
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Lấy số phần tử thực tế chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Lấy số lượng phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Lấy mục tại chỉ mục đã chỉ định. Chỉ đọc [`IMathBlock`](../imathblock). |
 | [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Giá trị mặc định: CenteredAsGroup |
 
@@ -35,15 +35,15 @@ public class MathParagraph : IMathParagraph
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Thêm IMathBlock vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
-| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Xác định bộ sưu tập có chứa một giá trị cụ thể hay không. |
-| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Xác định chỉ mục của một IMMathBlock cụ thể trong bộ sưu tập. |
+| [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Xác định bộ sưu tập có chứa giá trị cụ thể hay không. |
+| [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Xác định chỉ mục của một IMathBlock cụ thể trong bộ sưu tập. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Chèn IMathBlock vào bộ sưu tập tại chỉ mục đã chỉ định. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập/>. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi bộ sưu tập. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Xóa một mục tại chỉ mục đã chỉ định của bộ sưu tập. |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Lấy phương trình toán học ở định dạng LaTeX |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Lưu nội dung của [`MathParagraph`](../mathparagraph) này dưới dạng MathML |
 
-### Ví dụ
+## Ví dụ
 
 Ví dụ:
 
@@ -54,7 +54,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### Xem thêm
+## Xem thêm
 
 * giao diện [IMathParagraph](../imathparagraph)
 * không gian tên [Aspose.Slides.MathText](../../aspose.slides.mathtext)

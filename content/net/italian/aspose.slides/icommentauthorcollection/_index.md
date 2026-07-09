@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthorCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta una raccolta di autori di commenti.
 type: docs
-weight: 5560
+weight: 5580
 url: /it/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfaccia

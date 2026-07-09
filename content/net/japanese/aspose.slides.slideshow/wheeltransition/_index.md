@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: Wheel スライドトランジション効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ホイール スライド遷移効果。
 type: docs
-weight: 10450
+weight: 10470
 url: /ja/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition クラス
 
-Wheel スライドトランジション効果。
+Wheel スライド遷移効果。
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,14 +18,14 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Wheel トランジションのスポーク数。読み取り/書き込み UInt32。 |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Wheel transition のスポーク数。読み取り/書き込み UInt32。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判定します。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造で使用できるようにします。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 2つの TransitionValueBase インスタンスが等しいかどうかを判断します。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 特定の型に対するハッシュ関数として機能し、ハッシュアルゴリズムやハッシュテーブルのようなデータ構造での使用に適しています。 |
 
 ### 参照
 

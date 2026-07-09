@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes for .NET API-referentie
-description: Onveranderlijk object dat een Alpha Modulate Fixed effect voorstelt. Alpha-ondoorzichtigheidswaarden worden vermenigvuldigd met een vast percentage.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Onveranderlijk object dat een Alpha Modulate Fixed effect vertegenwoordigt. Alpha-opaciteitwaarden van het effect worden vermenigvuldigd met een vast percentage.
 type: docs
 weight: 3130
 url: /nl/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData interface
 
-Onveranderlijk object dat een Alpha Modulate Fixed effect voorstelt. Effectalpha (ondoorzichtigheid) waarden worden vermenigvuldigd met een vast percentage.
+Onveranderlijk object dat een Alpha Modulate Fixed-effect vertegenwoordigt. Alpha-waarden (opaciteit) van het effect worden vermenigvuldigd met een vaste percentage.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | Retourneert een hoeveelheid effect in procenten. Alleen-lezen Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | Maakt het mogelijk om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Zie ook
 

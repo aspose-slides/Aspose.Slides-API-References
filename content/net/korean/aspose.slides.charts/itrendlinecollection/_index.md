@@ -8,25 +8,25 @@ url: /ko/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection 인터페이스
 
-Represents a collection of TrendlineEx
+TrendlineEx 컬렉션을 나타냅니다
 
 ```csharp
 public interface ITrendlineCollection : IEnumerable<ITrendline>
 ```
 
-## 속성
+## Properties
 
 | 이름 | 설명 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | 기본 IEnumerable 인터페이스를 가져올 수 있습니다. 읽기 전용 IEnumerable. |
 | [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ITrendline`](../itrendline). |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ITrendline`](../itrendline). |
 
-## 메서드
+## Methods
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 새 Trendline을 컬렉션 끝에 추가하고 반환합니다. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | 컬렉션 끝에 새로운 Trendline을 추가하고 반환합니다. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | 지정된 값을 제거합니다. |
 
 ### 참고

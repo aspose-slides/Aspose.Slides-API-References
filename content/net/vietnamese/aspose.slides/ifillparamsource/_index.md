@@ -1,20 +1,20 @@
 ---
 title: IFillParamSource
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Giao diện các tham số đổ phụ trợ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Giao diện các tham số điền phụ trợ.
 type: docs
 weight: 5810
 url: /vi/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource giao diện
 
-Giao diện phụ trợ cho các tham số đổ.
+Giao diện các tham số điền phụ trợ.
 
 ```csharp
 public interface IFillParamSource
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

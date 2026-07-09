@@ -3,7 +3,7 @@ title: LightingDirection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Konstanta yang mendefinisikan arah cahaya.
 type: docs
-weight: 7690
+weight: 7710
 url: /id/aspose.slides/lightingdirection/
 ---
 ## enumerasi LightingDirection

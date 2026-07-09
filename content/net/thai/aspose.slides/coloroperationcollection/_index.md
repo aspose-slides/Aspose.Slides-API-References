@@ -1,7 +1,7 @@
 ---
 title: ColorOperationCollection
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: แสดงถึงคอลเลกชันของการดำเนินการแปลงสี
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของการดำเนินการแปลงสี.
 type: docs
 weight: 2540
 url: /th/aspose.slides/coloroperationcollection/
@@ -18,25 +18,25 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | คืนค่าจำนวนของการดำเนินการในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | คืนค่าหรือกำหนดการดำเนินการที่ตำแหน่งที่ระบุ. อ่าน/เขียน [`ColorOperation`](../coloroperation). |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | ส่งคืนจำนวนของการดำเนินการในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันมีการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | ส่งคืนหรือกำหนดการดำเนินการที่ตำแหน่งที่ระบุ. อ่าน/เขียน [`ColorOperation`](../coloroperation). |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | เพิ่มการดำเนินการใหม่ไปที่ท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | เพิ่มการดำเนินการใหม่ไปที่ท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | เพิ่มการดำเนินการใหม่ที่ส่วนท้ายของคอลเลกชัน. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | เพิ่มการดำเนินการใหม่ที่ส่วนท้ายของคอลเลกชัน. |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | ลบการดำเนินการสีทั้งหมด. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | สร้างสำเนาของคอลเลกชัน ColorOperationCollection. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | ทำสำเนาวัตถุปัจจุบัน |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | คืนค่า enumerator ที่วนผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | ส่งคืนตัวอาเรเตอร์ที่วนผ่านคอลเลกชัน. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | แทรกการดำเนินการใหม่ลงในคอลเลกชัน. |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | แทรกการดำเนินการใหม่ลงในคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | ลบการดำเนินการสีออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | ลบการดำเนินการสีจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

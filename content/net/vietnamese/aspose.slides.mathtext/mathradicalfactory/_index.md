@@ -1,14 +1,14 @@
 ---
 title: MathRadicalFactory
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cho phép tạo gốc toán học
+description: Cho phép tạo radical toán học
 type: docs
 weight: 8950
 url: /vi/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory lớp
 
-Cho phép tạo gốc toán học
+Cho phép tạo radical toán học
 
 ```csharp
 public class MathRadicalFactory : IMathRadicalFactory
@@ -16,19 +16,19 @@ public class MathRadicalFactory : IMathRadicalFactory
 
 ## Hàm tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [MathRadicalFactory](mathradicalfactory)() | Bộ khởi tạo mặc định. |
+| [MathRadicalFactory](mathradicalfactory)() | Hàm tạo mặc định. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Tạo một gốc toán học |
+| [CreateMathRadical](../../aspose.slides.mathtext/mathradicalfactory/createmathradical)(IMathElement, IMathElement) | Tạo một radical toán học |
 
 ### Ghi chú
 
-Để tương thích với COM
+Để tương thích COM
 
 ### Xem thêm
 

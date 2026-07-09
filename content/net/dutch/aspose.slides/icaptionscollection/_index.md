@@ -8,7 +8,7 @@ url: /nl/aspose.slides/icaptionscollection/
 ---
 ## ICaptionsCollection interface
 
-Vertegenwoordigt een collectie van de gesloten ondertitels.
+Vertegenwoordigt een collectie van de ondertitels.
 
 ```csharp
 public interface ICaptionsCollection : IEnumerable<ICaptions>

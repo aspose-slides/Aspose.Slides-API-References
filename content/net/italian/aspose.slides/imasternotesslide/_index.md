@@ -1,9 +1,9 @@
 ---
 title: IMasterNotesSlide
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta la diapositiva master per le note.
 type: docs
-weight: 6370
+weight: 6390
 url: /it/aspose.slides/imasternotesslide/
 ---
 ## IMasterNotesSlide interfaccia
@@ -20,7 +20,7 @@ public interface IMasterNotesSlide : IBaseSlide, IMasterThemeable
 | --- | --- |
 | [AsIBaseSlide](../../aspose.slides/imasternotesslide/asibaseslide) { get; } | Consente di ottenere l'interfaccia base IBaseSlide. Sola lettura [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasternotesslide/asimasterthemeable) { get; } | Restituisce l'interfaccia IMasterThemeable. Sola lettura [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Restituisce una raccolta di guide di disegno per la diapositiva master delle note. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/imasternotesslide/drawingguides) { get; } | Restituisce una collezione di guide di disegno per la diapositiva master delle note. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HeaderFooterManager](../../aspose.slides/imasternotesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva master delle note. Sola lettura [`IMasterNotesSlideHeaderFooterManager`](../imasternotesslideheaderfootermanager). |
 | [NotesStyle](../../aspose.slides/imasternotesslide/notesstyle) { get; } | Restituisce lo stile di un testo delle note. Sola lettura [`ITextStyle`](../itextstyle). |
 

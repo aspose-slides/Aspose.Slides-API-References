@@ -1,14 +1,14 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes a .NET API-referenciához
-description: Megadja egy argumentum függvényét.
+second_title: Aspose.Sildes for .NET API Referencia
+description: Egy argumentummal rendelkező függvényt határoz meg.
 type: docs
-weight: 8250
+weight: 8270
 url: /hu/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction interfész
 
-Megadja egy argumentum függvényét.
+Megad egy argumentummal rendelkező függvényt.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,13 +18,13 @@ public interface IMathFunction : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Függvény argumentuma |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Függvény neve. Például a függvénynevek a sin és a cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | A függvény neve. Például a függvénynevek a sin és a cos |
 
 ### Példák
 
-Example:
+Példa:
 
 ```csharp
 [C#]

@@ -1,20 +1,20 @@
 ---
 title: Input
-second_title: Aspose.Sildes for .NET API Referansı
-description: Girdi öğeleri şablonlarından oluşan bir koleksiyonu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Girdi öğelerinin şablonlarından oluşan bir koleksiyonu temsil eder.
 type: docs
-weight: 4610
+weight: 4630
 url: /tr/aspose.slides.export.web/input/
 ---
-## Girdi sınıfı
+## Input sınıfı
 
-Templatelerden oluşan bir giriş öğesi koleksiyonunu temsil eder.
+Girdi öğelerinin (şablonların) bir koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class Input
 ```
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |

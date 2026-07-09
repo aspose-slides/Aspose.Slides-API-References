@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Slides for .NET API リファレンス
-description: 有効なカラースキームのプロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効なカラースキームプロパティを含む不変オブジェクト。
 type: docs
-weight: 11140
+weight: 11160
 url: /ja/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData インターフェイス
 
-有効なカラースキームのプロパティを含む不変オブジェクトです。
+有効なカラースキームプロパティを含む不変オブジェクト。
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -16,27 +16,27 @@ public interface IColorSchemeEffectiveData
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | スキームの最初のアクセントカラーです。読み取り専用 Color。 |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | スキームの2番目のアクセントカラーです。読み取り専用 Color。 |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | スキームの3番目のアクセントカラーです。読み取り専用 Color。 |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | スキームの4番目のアクセントカラーです。読み取り専用 Color。 |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | スキームの5番目のアクセントカラーです。読み取り専用 Color。 |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | スキームの6番目のアクセントカラーです。読み取り専用 Color。 |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | スキームの最初の暗色です。読み取り専用 Color。 |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | スキームの2番目の暗色です。読み取り専用 Color。 |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | 訪問済みハイパーリンクの色です。読み取り専用 Color。 |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | ハイパーリンクの色です。読み取り専用 Color。 |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 Color。 |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | スキームの最初の明色です。読み取り専用 Color。 |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | スキームの2番目の明色です。読み取り専用 Color。 |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | スキームの最初のアクセントカラー。 読み取り専用 Color。 |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | スキームの2番目のアクセントカラー。 読み取り専用 Color。 |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | スキームの3番目のアクセントカラー。 読み取り専用 Color。 |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | スキームの4番目のアクセントカラー。 読み取り専用 Color。 |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | スキームの5番目のアクセントカラー。 読み取り専用 Color。 |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | スキームの6番目のアクセントカラー。 読み取り専用 Color。 |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | スキームの最初の暗色カラー。 読み取り専用 Color。 |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | スキームの2番目の暗色カラー。 読み取り専用 Color。 |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | 訪問済みハイパーリンクのカラー。 読み取り専用 Color。 |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | ハイパーリンクのカラー。 読み取り専用 Color。 |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | 指定されたインデックスの要素を取得します。 読み取り専用 Color。 |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | スキームの最初の明るいカラー。 読み取り専用 Color。 |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | スキームの2番目の明るいカラー。 読み取り専用 Color。 |
 
 ### 備考
 
 このクラスは [`IThemeEffectiveData`](../ithemeeffectivedata) の一部として使用されます。
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

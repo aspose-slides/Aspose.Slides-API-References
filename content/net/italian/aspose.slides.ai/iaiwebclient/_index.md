@@ -1,14 +1,14 @@
 ---
 title: IAIWebClient
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Interfaccia client AI Web. Questa interfaccia consente di sostituire diversi modelli di linguaggio AI. Le classi che implementano questa interfaccia devono essere utilizzate insieme a SlidesAIAgent.
+description: Interfaccia client AI Web. Questa interfaccia consente di sostituire diversi modelli di linguaggio AI. Le classi che implementano questa interfaccia devono essere usate insieme a SlidesAIAgent.
 type: docs
-weight: 20
+weight: 30
 url: /it/aspose.slides.ai/iaiwebclient/
 ---
 ## IAIWebClient interfaccia
 
-Interfaccia client AI Web. Questa interfaccia consente di sostituire diversi modelli di linguaggio AI. Le classi che implementano questa interfaccia devono essere utilizzate insieme a `SlidesAIAgent`.
+Interfaccia client AI Web. Questa interfaccia consente di sostituire diversi modelli di linguaggio AI. Le classi che implementano questa interfaccia devono essere usate insieme a `SlidesAIAgent`.
 
 ```csharp
 public interface IAIWebClient
@@ -18,7 +18,7 @@ public interface IAIWebClient
 
 | Nome | Descrizione |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Invia un'istruzione di chat al modello AI usando un'istanza di `HttpClient` fornita e restituisce il messaggio di risposta all'istruzione fornita. |
+| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | Invita un'istruzione di chat al modello AI usando un'istanza `HttpClient` fornita e restituisce il messaggio di risposta all'istruzione data. |
 | [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | Crea un'istanza di conversazione. A differenza delle chiamate AI regolari, le conversazioni mantengono l'intero contesto. |
 
 ### Vedi anche

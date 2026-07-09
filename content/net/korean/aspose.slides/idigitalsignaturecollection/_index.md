@@ -24,11 +24,11 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 컬렉션 끝에 서명을 추가합니다. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | 컬렉션의 끝에 서명을 추가합니다. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | 컬렉션에서 모든 서명을 제거합니다. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | 지정된 인덱스의 서명을 제거합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IDigitalSignature](../idigitalsignature)

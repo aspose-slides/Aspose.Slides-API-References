@@ -1,12 +1,12 @@
 ---
 title: ISequence
-second_title: Aspose.Sildes の .NET API リファレンス
-description: エフェクトのシーケンス コレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: エフェクトのシーケンスコレクションを表します。
 type: docs
-weight: 570
+weight: 590
 url: /ja/aspose.slides.animation/isequence/
 ---
-## ISequence インターフェース
+## ISequence インターフェイス
 
 シーケンス（エフェクトのコレクション）を表します。
 
@@ -16,32 +16,32 @@ public interface ISequence : IEnumerable<IEffect>
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | ベースの IEnumerable インターフェースを取得できます。読み取り専用 IEnumerable。 |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | シーケンス内のエフェクト数を返します。読み取り専用 Int32。 |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | ベースの IEnumerable インターフェイスを取得できます。読み取り専用 IEnumerable。 |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | シーケンス内のエフェクトの数を返します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | 指定されたインデックスのエフェクトを返します。 |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE シーケンスのシェイプターゲットを取得または設定します。シーケンスがインタラクティブでない場合は null を返します。読み取り/書き込み [`IShape`](../../aspose.slides/ishape)。 |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE シーケンスのシェイプターゲットを取得または設定します。シーケンスがインタラクティブでない場合は null を返します。読み書き [`IShape`](../../aspose.slides/ishape)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | 説明 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 段落の新しいアニメーションエフェクトをシーケンスの末尾に追加します。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾に新しいエフェクトを追加します。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | カテゴリまたはシリーズ向けの新しいチャートアニメーションエフェクトをシーケンスの末尾に追加します。 |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | カテゴリまたはシリーズの要素向けの新しいチャートアニメーションエフェクトをシーケンスの末尾に追加します。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 段落に対する新しいアニメーション効果をシーケンスの末尾に追加します。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 新しいエフェクトをシーケンスの末尾に追加します。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | カテゴリまたはシリーズに対する新しいチャートアニメーション効果をシーケンスの末尾に追加します。 |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | カテゴリまたはシリーズ内の要素に対する新しいチャートアニメーション効果をシーケンスの末尾に追加します。 |
 | [Clear](../../aspose.slides.animation/isequence/clear)() | コレクションからすべてのエフェクトを削除します。 |
 | [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | 指定されたシェイプのエフェクト数を返します。 |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | 指定された段落のエフェクト配列を返します。 |
 | [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | 指定されたシェイプのエフェクト配列を返します。 |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | コレクションから指定されたエフェクトを削除します。 |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | コレクションからエフェクトを削除します。 |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | 指定されたエフェクトをコレクションから削除します。 |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | エフェクトをコレクションから削除します。 |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | 指定されたシェイプのエフェクトを削除します。 |
 
-### 参照
+### 関連項目
 
-* インターフェース [IEffect](../ieffect)
+* インターフェイス [IEffect](../ieffect)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)
 

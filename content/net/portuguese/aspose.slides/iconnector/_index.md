@@ -1,9 +1,9 @@
 ---
 title: IConnector
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Representa um conector.
 type: docs
-weight: 5590
+weight: 5610
 url: /pt/aspose.slides/iconnector/
 ---
 ## IConnector interface
@@ -20,17 +20,17 @@ public interface IConnector : IGeometryShape
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Permite obter a interface base IGeometryShape. Somente leitura [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Retorna os bloqueios do Connector. Somente leitura [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Retorna ou define a forma para a qual a extremidade do conector será conectada. Leitura/gravação [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Retorna ou define o índice do ponto de conexão para a forma final. Leitura/gravação UInt32. |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Retorna ou define a forma para anexar a extremidade do conector. Leitura/gravação [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Retorna ou define o índice do ponto de conexão para a forma de extremidade. Leitura/gravação UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Retorna os bloqueios da forma. Somente leitura [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Retorna ou define a forma para a qual o início do conector será conectado. Leitura/gravação [`IShape`](../ishape). |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Retorna ou define a forma para anexar o início do conector. Leitura/gravação [`IShape`](../ishape). |
 | [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Retorna ou define o índice do ponto de conexão para a forma inicial. Leitura/gravação UInt32. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Redireciona o conector para que ele siga o caminho mais curto possível entre as formas que conecta. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Redireciona o conector para que siga o caminho mais curto possível entre as formas que conecta. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Spravuje písma v celé prezentaci.
+second_title: Aspose.Sildes pro referenci .NET API
+description: Spravuje písma napříč prezentací.
 type: docs
-weight: 5910
+weight: 5930
 url: /cs/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager rozhraní
 
-Spravuje písma v celé prezentaci.
+Spravuje písma napříč prezentací.
 
 ```csharp
 public interface IFontsManager
@@ -18,22 +18,22 @@ public interface IFontsManager
 
 | Název | Popis |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Reprezentuje uživatelskou kolekci pravidel FontFallBack pro správu kolekcí písem a správné náhrady pomocí fallback funkce. Čtení/Zápis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Nahrazení písem používané při vykreslování. Čtení/Zápis [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Representuje kolekci pravidel FontFallBack uživatele pro správu kolekcí písem pro správné nahrazení pomocí fallback funkce Čtení/Zápis [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Substituce písem používané při vykreslování Čtení/Zápis [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Přidá vložené písmo. Mějte na paměti, že většina písem je chráněna autorským právem. Nejprve najděte licenci písma a ověřte, že jej lze volně přenést na jiný počítač. Může být vyhozena výjimka ArgumentException, pokud jsou data písma nulová nebo je toto písmo již vloženo. |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Přidá vložené písmo. Mějte na paměti, že většina písem je chráněna autorským právem. Nejprve najděte licenci písma a ověřte, že jej lze volně přenést na jiný počítač. Může být vyhozena výjimka ArgumentException, pokud jsou data písma nulová nebo je toto písmo již vloženo. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Přidá vložené písmo. Mějte na paměti, že většina písem je chráněna autorským právem. Nejdříve zjistěte licenci písma a ověřte, že může být volně přenesena na jiné zařízení. ArgumentException může být vyhozena, pokud jsou data písma null nebo je toto písmo již vloženo |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Přidá vložené písmo. Mějte na paměti při kopírování jakýchkoli písem, že většina písem je chráněna autorským právem. Nejdříve zjistěte licenci písma a ověřte, že může být volně přenesena na jiné zařízení. ArgumentException může být vyhozena, pokud jsou data písma null nebo je toto písmo již vloženo |
 | [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Vrací písma vložená v prezentaci |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Načte pole bajtů představující data písma pro zadaný styl písma a data písma. |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Určuje úroveň vložení písma z poskytnutého pole bajtů a názvu písma. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Získá pole bajtů představující data písma pro zadaný styl písma a data písma. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Určuje úroveň vložení písma z daného pole bajtů a názvu písma. |
 | [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Vrací písma použité v prezentaci |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Získá informace o písmenech, která budou nahrazena při vykreslování prezentace. |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Získá informace o písmenech, která budou nahrazena během vykreslování určených snímků. |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Odstraní vložené písmo |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Získá informace o písměch, která budou nahrazena při vykreslování prezentace. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Získá informace o písměch, která budou nahrazena při vykreslování specifikovaných snímků. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Odebere vložené písmo |
 | [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Nahradí písmo v prezentaci pomocí informací poskytnutých v [`IFontSubstRule`](../ifontsubstrule) |
 | [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Nahradí písmo v prezentaci pomocí informací poskytnutých v kolekci [`IFontSubstRule`](../ifontsubstrule) |
 | [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Nahradí písmo v prezentaci |

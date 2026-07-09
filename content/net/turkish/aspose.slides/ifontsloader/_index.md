@@ -1,9 +1,9 @@
 ---
 title: IFontsLoader
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Kullanıcı tarafından tanımlanan özel yazı tiplerini yüklemek için sınıf. Herhangi bir sunum nesnesi oluşturmadan önce kullanılmalıdır.
 type: docs
-weight: 5900
+weight: 5920
 url: /tr/aspose.slides/ifontsloader/
 ---
 ## IFontsLoader arayüzü
@@ -14,7 +14,7 @@ Kullanıcı tarafından tanımlanan özel yazı tiplerini yüklemek için sını
 public interface IFontsLoader
 ```
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

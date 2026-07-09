@@ -1,6 +1,6 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考文件
 description: 表示輸出檔案。
 type: docs
 weight: 4650
@@ -18,9 +18,9 @@ public abstract class OutputFile : IOutputFile
 
 | 名稱 | 說明 |
 | --- | --- |
-| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 將檔案內容寫入串流。 |
+| abstract [Write](../../aspose.slides.export.web/outputfile/write)(Stream) | 將檔案內容寫入至串流。 |
 
-### 另請參見
+### 另請參閱
 
 * 介面 [IOutputFile](../ioutputfile)
 * 命名空間 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)

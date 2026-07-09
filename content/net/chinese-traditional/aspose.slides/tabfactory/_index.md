@@ -1,6 +1,6 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考文件
 description: 允許建立 ITab 實例
 type: docs
 weight: 10850
@@ -14,23 +14,23 @@ url: /zh-hant/aspose.slides/tabfactory/
 public class TabFactory : ITabFactory
 ```
 
-## 建構式
+## 建構函式
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [TabFactory](tabfactory)() | 預設建構式。 |
+| [TabFactory](tabfactory)() | 預設建構函式。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | 建立新的 ITab 實例。 |
 
 ### 備註
 
-供 COM 相容性使用。
+用於 COM 相容性。
 
-### 參見
+### 另請參閱
 
 * 介面 [ITabFactory](../itabfactory)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

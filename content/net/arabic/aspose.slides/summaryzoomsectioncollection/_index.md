@@ -19,10 +19,10 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | يحصل على عدد العناصر الموجودة فعليًا في المجموعة. فقط للقراءة Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (thread-safe). فقط للقراءة Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. فقط للقراءة [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | يعيد جذر المزامنة. فقط للقراءة Object. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | يحصل على عدد العناصر الموجودة فعليًا في المجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (thread-safe). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | يحصل على العنصر عند الفهرس المحدد. للقراءة فقط [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | إرجاع جذر المزامنة. للقراءة فقط Object. |
 
 ## الطرق
 
@@ -31,10 +31,10 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | ينشئ كائن Summary Zoom Section جديد ويضيفه إلى المجموعة |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | يزيل جميع كائنات SummaryZoomSection من المجموعة. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | ينسخ المجموعة بأكملها إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | يعيد عدادًا يتكرر عبر المجموعة. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | يعيد عنصر Summary Zoom Section للقسم المعطى. |
-| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | يعيد فهرس كائن SummaryZoomSection المحدد. |
-| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | يزيل كائن Summary Zoom Section من المجموعة. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | إرجاع مُعدد يمر عبر المجموعة. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | إرجاع عنصر Summary Zoom Section للقسم المعطى. |
+| [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | إرجاع فهرس لكائن SummaryZoomSection المحدد. |
+| [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | إزالة كائن Summary Zoom Section من المجموعة. |
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: PropertyCalcModeType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar beräkningsläge för animeringsegenskap.
+description: Representerar calc-läge för animations-egenskapen.
 type: docs
-weight: 720
+weight: 740
 url: /sv/aspose.slides.animation/propertycalcmodetype/
 ---
-## PropertyCalcModeType uppräkning
+## PropertyCalcModeType enumeration
 
-Representerar beräkningsläge för animeringsegenskap.
+Representerar calc-läge för animations-egenskapen.
 
 ```csharp
 public enum PropertyCalcModeType
@@ -23,7 +23,7 @@ public enum PropertyCalcModeType
 | Linear | `1` |  |
 | Formula | `2` |  |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

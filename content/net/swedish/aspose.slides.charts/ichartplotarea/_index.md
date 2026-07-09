@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar egenskaper för diagramtitel.
+description: Representerar diagramtitelens egenskaper.
 type: docs
-weight: 1890
+weight: 1910
 url: /sv/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea gränssnitt
 
-Representerar egenskaper för diagramtitel.
+Representerar diagramtitelens egenskaper.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -18,10 +18,10 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Returnerar IActualLayout-gränssnittet. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Tillåter att hämta bas-ILayoutable-gränssnitt. Skrivskyddad [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Returnerar formatet för ett plot-område. Skrivskyddad [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Om layouten för plot-området definieras manuellt specificerar denna egenskap om plot-området ska layouteras efter dess insida (exklusive axlar och axelrubriker) eller utanför (inklusive axlar och axelrubriker). Läs/skriv [`LayoutTargetType`](./layouttargettype). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Returnerar IActualLayout gränssnitt. |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Tillåter att hämta bas-ILayoutable gränssnitt. Skrivskyddad [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Returnerar formatet för ett plotområde. Skrivskyddad [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Om layouten för plotområdet har definierats manuellt specificerar denna egenskap om plotområdet ska layoutas efter dess insida (exklusive axlar och axelrubriker) eller utsida (inklusive axlar och axelrubriker). Läs/skriv [`LayoutTargetType`](./layouttargettype). |
 
 ### Se även
 

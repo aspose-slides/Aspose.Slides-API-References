@@ -1,6 +1,6 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes용 .NET API 레퍼런스
 description: 효과 동작에 대한 덧셈 유형을 나타냅니다.
 type: docs
 weight: 160
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.animation/behavioradditivetype/
 ---
 ## BehaviorAdditiveType 열거형
 
-효과 동작에 대한 덧셈 유형을 나타냅니다.
+Effect 동작에 대한 덧셈 유형을 나타냅니다.
 
 ```csharp
 public enum BehaviorAdditiveType
@@ -25,7 +25,7 @@ public enum BehaviorAdditiveType
 | Replace | `3` |  |
 | Multiply | `4` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

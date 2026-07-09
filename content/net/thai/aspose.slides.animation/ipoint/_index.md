@@ -1,14 +1,14 @@
 ---
 title: IPoint
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของจุดแอนิเมชัน
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: แสดงจุดของแอนิเมชัน.
 type: docs
 weight: 540
 url: /th/aspose.slides.animation/ipoint/
 ---
 ## IPoint อินเทอร์เฟซ
 
-เป็นตัวแทนของจุดแอนิเมชัน
+แสดงจุดของแอนิเมชัน.
 
 ```csharp
 public interface IPoint
@@ -18,9 +18,9 @@ public interface IPoint
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | สูตรภายในค่า, แอตริบิวต์ from, to, by สามารถสร้างจากสิ่งต่อไปนี้: ตัวดำเนินการคณิตศาสตร์มาตฐาน: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) ค่าคงที่: ‘pi’ ‘e’ ตัวดำเนินการเงื่อนไข: ‘abs’, ‘min’, ‘max’, ‘?’ (if) ตัวดำเนินการเปรียบเทียบ: '==', '&gt;=', '', '!=', '!' ตัวดำเนินการตรีโกณมิติ: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ ลอการิทึมธรรมชาติ ‘ln()’ การอ้างอิงคุณสมบัติ (คุณสมบัติที่โฮสต์สนับสนุน) ตัวอย่างเช่น: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" อ่าน/เขียน String. |
-| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | เป็นตัวแทนของค่าเวลา. อ่าน/เขียน Single. |
-| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | เป็นตัวแทนของค่าจุด. ได้เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
+| [Formula](../../aspose.slides.animation/ipoint/formula) { get; set; } | สูตรภายในค่า, แอตทริบิวต์ from, to, by สามารถประกอบด้วยสิ่งต่อไปนี้: ตัวดำเนินการคณิตศาสตร์มาตรฐาน: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) ค่าคงที่: ‘pi’ ‘e’ ตัวดำเนินการเงื่อนไข: ‘abs’, ‘min’, ‘max’, ‘?’ (if) ตัวดำเนินการเปรียบเทียบ: '==', '&gt;=', '', '!=', '!' ตัวดำเนินการตรีโกณมิติ: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ ลอการิทึมธรรมชาติ ‘ln()’ การอ้างอิงคุณสมบัติ (คุณสมบัติที่โฮสต์สนับสนุน) เช่น: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" อ่าน/เขียน String. |
+| [Time](../../aspose.slides.animation/ipoint/time) { get; set; } | แสดงค่าเวลา. อ่าน/เขียน Single. |
+| [Value](../../aspose.slides.animation/ipoint/value) { get; set; } | แสดงค่า จุด. เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
 
 ### ดูเพิ่มเติม
 

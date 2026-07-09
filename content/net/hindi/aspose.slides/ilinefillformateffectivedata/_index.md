@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी लाइन भरने की विशेषताएँ रखता है।
+description: ऐसी अपरिवर्तनीय वस्तु जो प्रभावी लाइन भरने के गुण रखती है।
 type: docs
 weight: 6300
 url: /hi/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी लाइन भरने की विशेषताएँ रखता है।
+अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी लाइन भरने के गुण होते हैं।
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -16,18 +16,18 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | Returns IFillParamSource इंटरफ़ेस. केवल पढ़ने के लिए [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | भरण प्रकार लौटाता है। केवल पढ़ने के लिए [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | ग्रेडिएंट भरने का स्वरूप लौटाता है। केवल पढ़ने के लिए [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
-| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | पैटर्न भरने का स्वरूप लौटाता है। केवल पढ़ने के लिए [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | निर्धारित करता है कि भराव को आकार के साथ घुमाया जाना चाहिए या नहीं। केवल पढ़ने के लिए Boolean. |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | सॉलिड भराव का रंग लौटाता है। केवल पढ़ने के लिए Color. |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | IFillParamSource इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | भराव प्रकार को लौटाता है। केवल-पढ़ने योग्य [`FillType`](../filltype)। |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | ग्रेडिएंट भराव फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IGradientFormatEffectiveData`](../igradientformateffectivedata)। |
+| [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | पैटर्न भराव फ़ॉर्मेट को लौटाता है। केवल-पढ़ने योग्य [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)। |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | निर्धारित करता है कि भराव को आकार के साथ घुमाया जाना चाहिए या नहीं। केवल-पढ़ने योग्य Boolean। |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | सॉलिड भराव का रंग लौटाता है। केवल-पढ़ने योग्य Color। |
 
-### टिप्पणी
+### टिप्पणियाँ
 
-यह इंटरफ़ेस [`ILineFormatEffectiveData`](../ilineformateffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`ILineFormatEffectiveData`](../ilineformateffectivedata) का हिस्सा है।
 
 ### संबंधित देखें
 

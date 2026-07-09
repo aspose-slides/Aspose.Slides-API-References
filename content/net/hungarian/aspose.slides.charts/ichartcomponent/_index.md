@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A diagram egy komponensét képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy diagram komponensét reprezentálja.
 type: docs
-weight: 1770
+weight: 1790
 url: /hu/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent interfész
 
-A diagram egy komponensét képviseli.
+A diagram egy komponensét reprezentálja.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,7 +18,7 @@ public interface IChartComponent : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Lehetővé teszi a alap ISlideComponent interfész lekérését. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Lehetővé teszi az ISlideComponent alap interfész lekérdezését. Csak olvasható [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Visszaadja a diagramot. Csak olvasható [`IChart`](../ichart). |
 
 ### Lásd még

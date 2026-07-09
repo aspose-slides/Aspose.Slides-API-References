@@ -1,9 +1,9 @@
 ---
 title: LightRig
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje LightRig.
 type: docs
-weight: 7670
+weight: 7690
 url: /pl/aspose.slides/lightrig/
 ---
 ## LightRig klasa
@@ -16,20 +16,20 @@ public sealed class LightRig : PVIObject, ILightRig
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie interfejsu bazowego IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia uzyskanie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [Direction](../../aspose.slides/lightrig/direction) { get; set; } | Kierunek światła. Odczyt/zapis [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Reprezentuje wstępnie ustawione światło, które można zastosować do kształtu. Light rig reprezentuje grupę świateł ustawionych w określony sposób względem sceny 3D. Odczyt/zapis [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/lightrig/lighttype) { get; set; } | Reprezentuje wstępnie ustawione światło, które może być zastosowane do kształtu. Light rig reprezentuje grupę świateł ustawionych w określony sposób względem sceny 3D. Odczyt/zapis [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |
-| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Rotacja jest definiowana przy użyciu współrzędnej szerokości, współrzędnej długości oraz obrotu wokół osi jako współrzędne szerokości i długości. pierwszy element w zwracanej tablicy - szerokość, drugi - długość, trzeci - obrót. Zwraca null, jeśli nie zdefiniowano rotacji. |
-| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotacja jest definiowana przy użyciu współrzędnej szerokości, współrzędnej długości oraz obrotu wokół osi jako współrzędne szerokości i długości. Jeśli dowolna wartość współrzędnej jest float.NaN, cała rotacja jest niezdefiniowana. |
+| [GetRotation](../../aspose.slides/lightrig/getrotation)() | Rotacja jest definiowana przy użyciu współrzędnej szerokości geograficznej, współrzędnej długości geograficznej oraz obrotu wokół osi jako współrzędnych szerokości i długości. Pierwszy element w zwracanej tablicy – szerokość, drugi – długość, trzeci – obrót. Zwraca null, jeśli rotacja nie jest zdefiniowana. |
+| [SetRotation](../../aspose.slides/lightrig/setrotation)(float, float, float) | Rotacja jest definiowana przy użyciu współrzędnej szerokości geograficznej, współrzędnej długości geograficznej oraz obrotu wokół osi jako współrzędnych szerokości i długości. Jeśli dowolna wartość współrzędnej jest float.NaN, cała rotacja jest niezdefiniowana. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes .NET için API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: PPImage koleksiyonunu temsil eder.
 type: docs
-weight: 7400
+weight: 7420
 url: /tr/aspose.slides/imagecollection/
 ---
-## ImageCollection sınıfı
+## ImageCollection sınıf
 
-PPImage koleksiyonunu temsil eder.
+Represents collection of PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -18,8 +18,8 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | Koleksiyondaki görüntü sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | Koleksiyondaki resim sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IPPImage`](../ippimage). |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
@@ -27,17 +27,17 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Belirtilen tampondan bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Başka bir sunumdan bir görüntünün kopyasını ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Svg nesnesinden bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Akıştan bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Akıştan bir sunuma görüntü ekler. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Akıştan bir sunuma görüntü oluşturur ve ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | Belirtilen tampondan bir sunuma resim ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | Sunuma bir resim ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | Başka bir sunumdan bir resmin kopyasını ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Svg nesnesinden bir sunuma resim ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | Akıştan bir sunuma resim ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Akıştan bir sunuma resim ekler. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Akıştan bir sunuma resim oluşturur ve ekler. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Koleksiyon üzerinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Presentation](../presentation)

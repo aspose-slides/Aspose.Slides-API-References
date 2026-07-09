@@ -6,7 +6,7 @@ type: docs
 weight: 5960
 url: /zh-hant/aspose.slides/igenericcollection-1/
 ---
-## IGenericCollection&lt;T&gt; 介面
+## IGenericCollection<T> 介面
 
 輔助泛型集合介面。
 
@@ -25,7 +25,7 @@ public interface IGenericCollection<T> : ICollection, IEnumerable<T>
 | [AsICollection](../../aspose.slides/igenericcollection`1/asicollection) { get; } | 傳回 ICollection 介面。 |
 | [AsIEnumerable](../../aspose.slides/igenericcollection`1/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: CellCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個儲存格集合。
+description: 表示儲存格的集合。
 type: docs
 weight: 1140
 url: /zh-hant/aspose.slides/cellcollection/
 ---
 ## CellCollection 類別
 
-表示一個儲存格集合。
+表示儲存格的集合。
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -16,21 +16,21 @@ public abstract class CellCollection : ICellCollection
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | 傳回集合中儲存格的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 傳回表示是否同步存取集合 (執行緒安全) 的值。唯讀 Boolean。 |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | 依位置傳回儲存格。唯讀 [`Cell`](../cell)。 |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 傳回 CellCollection 的父級簡報。唯讀 [`IPresentation`](../ipresentation)。 |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 傳回 CellCollection 的父級投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | 傳回 CellCollection 的父簡報。唯讀 [`IPresentation`](../ipresentation)。 |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | 傳回 CellCollection 的父投影片。唯讀 [`IBaseSlide`](../ibaseslide)。 |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 將集合中所有元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
 
 ### 另請參閱
 

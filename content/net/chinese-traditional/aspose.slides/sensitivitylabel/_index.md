@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes for .NET API 參考
-description: 代表 Microsoft Purview Information Protection 的敏感度標籤。
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 表示來自 Microsoft Purview Information Protection 的敏感度標籤。
 type: docs
 weight: 9790
 url: /zh-hant/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel 類別
 
-代表 Microsoft Purview Information Protection 的敏感度標籤。
+代表來自 Microsoft Purview Information Protection 的敏感度標籤。
 
 ```csharp
 public sealed class SensitivityLabel : ISensitivityLabel
@@ -16,16 +16,16 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 取得或設定敏感度標籤的指派方法。可讀寫 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
-| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | 取得檔案應套用的內容標記類型清單。 |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 取得或設定敏感度標籤的 ID。可讀寫 String。 |
-| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 指示敏感度標籤是否已啟用。 |
-| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | 指示是否已移除敏感度標籤。 |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 取得或設定與說明此敏感度標籤之敏感度標籤原則相對應的 Azure Active Directory (Azure AD) 網站識別碼。可讀寫 Guid。 |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | 取得或設定敏感度標籤的指派方法。讀/寫 [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype)。 |
+| [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | 取得應套用於檔案的內容標記類型清單。 |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | 取得或設定敏感度標籤的 ID。讀/寫 String。 |
+| [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | 指示此敏感度標籤是否已啟用。 |
+| [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | 指示此敏感度標籤是否已移除。 |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | 取得或設定對應描述此敏感度標籤的敏感度標籤原則之 Azure Active Directory (Azure AD) 站點識別碼。讀/寫 Guid。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [ISensitivityLabel](../isensitivitylabel)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

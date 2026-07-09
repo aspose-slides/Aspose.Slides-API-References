@@ -1,14 +1,14 @@
 ---
 title: Zip64Mode
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger när ZIP64-formatutökningar ska användas för OpenXML-filen.
+description: Anger när ZIP64-formatutökningar ska användas för OpenXML-fil.
 type: docs
-weight: 4720
+weight: 4740
 url: /sv/aspose.slides.export/zip64mode/
 ---
-## Zip64Mode enumeration
+## Zip64Mode uppräkning
 
-Anger när ZIP64-formatutökningar ska användas för OpenXML-filen.
+Anger när ZIP64-formatutökningar ska användas för OpenXML-fil.
 
 ```csharp
 public enum Zip64Mode
@@ -24,9 +24,9 @@ public enum Zip64Mode
 
 ### Anmärkningar
 
-OpenXML-filen är ett ZIP-arkiv som har en gräns på 4 GB (2^32 byte) för okomprimerad filstorlek, komprimerad filstorlek och total arkivstorlek, samt en gräns på 65 535 (2^16-1) filer i arkivet. ZIP64-formatutökningar ökar gränserna till 2^64.
+OpenXML-filen är ett ZIP-arkiv som har en gräns på 4 GB (2^32 byte) för okomprimerad filstorlek, komprimerad filstorlek och total storlek på arkivet, samt en gräns på 65 535 (2^16-1) filer i arkivet. ZIP64-formatutökningar ökar gränserna till 2^64.
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)

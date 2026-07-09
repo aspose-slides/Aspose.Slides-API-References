@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
 second_title: Aspose.Sildes の .NET API リファレンス
-description: ユーザーが定義したカスタムフォントをロードするためのクラスです。プレゼンテーション オブジェクトを作成する前に使用する必要があります。
+description: ユーザーが定義したカスタムフォントを読み込むためのクラスです。プレゼンテーションオブジェクトを作成する前に使用する必要があります。
 type: docs
-weight: 4910
+weight: 4930
 url: /ja/aspose.slides/fontsloader/
 ---
 ## FontsLoader クラス
 
-ユーザーが定義したカスタムフォントをロードするためのクラスです。プレゼンテーションオブジェクトを作成する前に使用する必要があります。
+ユーザーが定義したカスタムフォントを読み込むためのクラスです。プレゼンテーションオブジェクトを作成する前に使用する必要があります。
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -19,11 +19,11 @@ public sealed class FontsLoader : IFontsLoader
 | 名前 | 説明 |
 | --- | --- |
 | static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | ユーザーが定義したすべてのカスタムフォントを解放します |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | フォント フォルダーを取得します。LoadExternalFonts メソッドで追加されたフォルダーとシステム フォント フォルダーの両方を返します |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | フォントフォルダーを取得します。LoadExternalFonts メソッドで追加されたフォルダーとシステムのフォントフォルダーを返します |
 | static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | バイナリ データからフォントを追加します |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | フォントを検索する追加フォルダーを追加します |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | フォントを検索する追加のフォルダーを追加します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IFontsLoader](../ifontsloader)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

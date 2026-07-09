@@ -1,14 +1,14 @@
 ---
 title: ShapeBevel
 second_title: Aspose.Sildes for .NET API 참조
-description: 도형의 주요 면 부조 속성을 포함합니다.
+description: 도형의 주요 면 부조에 대한 속성을 포함합니다.
 type: docs
 weight: 9850
 url: /ko/aspose.slides/shapebevel/
 ---
 ## ShapeBevel 클래스
 
-도형의 주요 면 부조 속성을 포함합니다.
+도형의 주요 면 부조에 대한 속성을 포함합니다.
 
 ```csharp
 public sealed class ShapeBevel : PVIObject, IShapeBevel
@@ -36,7 +36,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 | override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IShapeBevel](../ishapebevel)

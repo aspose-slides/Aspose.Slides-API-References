@@ -1,14 +1,14 @@
 ---
 title: IAutoShapeLock
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende AutoshapeEx.
+description: Bepaalt welke bewerkingen op de bovenliggende AutoshapeEx zijn uitgeschakeld.
 type: docs
 weight: 5250
 url: /nl/aspose.slides/iautoshapelock/
 ---
 ## IAutoShapeLock interface
 
-Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende AutoshapeEx.
+Bepaalt welke bewerkingen uitgeschakeld zijn voor de bovenliggende AutoshapeEx.
 
 ```csharp
 public interface IAutoShapeLock : IBaseShapeLock
@@ -18,23 +18,23 @@ public interface IAutoShapeLock : IBaseShapeLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lees-schrijven Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpuntjes verboden is. Lees-schrijven Boolean. |
-| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Maakt het mogelijk om de basis-IBaseShapeLock-interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Lees-schrijven Boolean. |
-| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bepaalt of directe wijziging van de contour van deze vorm verboden is. Lees-schrijven Boolean. |
-| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lees-schrijven Boolean. |
-| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lees-schrijven Boolean. |
-| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bepaalt of wijziging van de rotatiehoek van deze vorm verboden is. Lees-schrijven Boolean. |
-| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lees-schrijven Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bepaalt of wijziging van het type van een vorm verboden is. Lees-schrijven Boolean. |
-| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bepaalt of het schalen van deze vorm verboden is. Lees-schrijven Boolean. |
-| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bepaalt of bewerken van tekst verboden is. Lees-schrijven Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/iautoshapelock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen-schrijven Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iautoshapelock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpunten verboden is. Lezen-schrijven Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iautoshapelock/asibaseshapelock) { get; } | Staat toe de basis-IBaseShapeLock interface op te halen. Alleen-lezen [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iautoshapelock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Lezen-schrijven Boolean. |
+| [EditPointsLocked](../../aspose.slides/iautoshapelock/editpointslocked) { get; set; } | Bepaalt of het direct wijzigen van de contour van deze vorm verboden is. Lezen-schrijven Boolean. |
+| [GroupingLocked](../../aspose.slides/iautoshapelock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen-schrijven Boolean. |
+| [PositionLocked](../../aspose.slides/iautoshapelock/positionlocked) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen-schrijven Boolean. |
+| [RotateLocked](../../aspose.slides/iautoshapelock/rotatelocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen-schrijven Boolean. |
+| [SelectLocked](../../aspose.slides/iautoshapelock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen-schrijven Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iautoshapelock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van het vormtype verboden is. Lezen-schrijven Boolean. |
+| [SizeLocked](../../aspose.slides/iautoshapelock/sizelocked) { get; set; } | Bepaalt of het schalen van deze vorm verboden is. Lezen-schrijven Boolean. |
+| [TextLocked](../../aspose.slides/iautoshapelock/textlocked) { get; set; } | Bepaalt of het bewerken van tekst verboden is. Lezen-schrijven Boolean. |
 
 ### Zie ook
 
 * interface [IBaseShapeLock](../ibaseshapelock)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* naamruimte [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

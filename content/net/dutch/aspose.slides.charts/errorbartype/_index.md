@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het type foutbalk weer
+description: Geeft het type van foutbalk weer
 type: docs
 weight: 1640
 url: /nl/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType enumeratie
 
-Geeft het type foutbalk weer
+Geeft het type van foutbalk weer
 
 ```csharp
 public enum ErrorBarType
@@ -18,9 +18,9 @@ public enum ErrorBarType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Both | `0` | Specificeert dat foutbalken in zowel positieve als negatieve richtingen moeten worden weergegeven. |
-| Minus | `1` | Specificeert dat foutbalken alleen in de negatieve richting moeten worden weergegeven. |
-| Plus | `2` | Specificeert dat foutbalken alleen in de positieve richting moeten worden weergegeven. |
+| Both | `0` | Geeft aan dat foutbalken getoond moeten worden in de positieve en negatieve richtingen. |
+| Minus | `1` | Geeft aan dat foutbalken alleen in de negatieve richting getoond moeten worden. |
+| Plus | `2` | Geeft aan dat foutbalken alleen in de positieve richting getoond moeten worden. |
 
 ### Zie ook
 

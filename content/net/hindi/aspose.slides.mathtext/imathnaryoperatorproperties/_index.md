@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: IMathNaryOperator की गुण निर्दिष्ट करता है
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: IMathNaryOperator के गुण निर्दिष्ट करता है
 type: docs
 weight: 8380
 url: /hi/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties इंटरफ़ेस
 
-Specifies properties of IMathNaryOperator
+IMathNaryOperator के गुण निर्दिष्ट करता है
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | ऑपरेटर कैरैक्टर ऊँचाई में ऑपरेण्ड की ऊँचाई के अनुसार ऊर्ध्वाधर रूप से बढ़ता है |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | सबस्क्रिप्ट छिपाएँ |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | सुपरस्क्रिप्ट छिपाएँ |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | ऑपरेटर वर्ण लंबवत रूप से बढ़ता है ताकि उसके ऑपरेड की ऊँचाई के समान हो |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | सबस्क्रिप्ट छुपाएँ |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | सुपरस्क्रिप्ट छुपाएँ |
 | [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | सीमाओं (सबस्क्रिप्ट और सुपरस्क्रिप्ट) का स्थान |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary ऑपरेटर कैरैक्टर उदाहरण के लिए: '∑', '∫' |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary ऑपरेटर वर्ण उदाहरण के लिए: '∑', '∫' |
 
 ### संबंधित देखें
 

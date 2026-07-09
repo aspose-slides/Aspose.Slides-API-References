@@ -1,6 +1,6 @@
 ---
 title: AxisPositionType
-second_title: Aspose.Sildes .NET용 API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 축의 위치를 결정합니다.
 type: docs
 weight: 1210
@@ -18,12 +18,12 @@ public enum AxisPositionType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Bottom | `0` | 축이 플롯 영역의 하단에 표시되도록 지정합니다. |
-| Left | `1` | 축이 플롯 영역의 왼쪽에 표시되도록 지정합니다. |
-| Right | `2` | 축이 플롯 영역의 오른쪽에 표시되도록 지정합니다. |
-| Top | `3` | 축이 플롯 영역의 상단에 표시되도록 지정합니다. |
+| Bottom | `0` | 축이 플롯 영역의 아래쪽에 표시되어야 함을 지정합니다. |
+| Left | `1` | 축이 플롯 영역의 왼쪽에 표시되어야 함을 지정합니다. |
+| Right | `2` | 축이 플롯 영역의 오른쪽에 표시되어야 함을 지정합니다. |
+| Top | `3` | 축이 플롯 영역의 위쪽에 표시되어야 함을 지정합니다. |
 
-### 참조
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

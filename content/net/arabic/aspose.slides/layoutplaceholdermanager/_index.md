@@ -1,38 +1,38 @@
 ---
 title: LayoutPlaceholderManager
-second_title: مرجع Aspose.Sildes لـ .NET API
-description: يمثل مديرًا يسمح لك بإضافة عناصر نائبة إلى شريحة التخطيط.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مديرًا يتيح لك إضافة عناصر نائبة إلى شريحة التخطيط.
 type: docs
 weight: 7630
 url: /ar/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager فئة
 
-يمثل هذا المدير الذي يسمح لك بإضافة عناصر نائبة إلى شريحة التخطيط.
+يمثل مديرًا يتيح لك إضافة عناصر نائبة إلى شريحة التخطيط.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 ```
 
-## طرق
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ مخطط. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ محتوى، مثل صورة أو جدول أو وسائط أو نص. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ كائن وسائط. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ صورة عبر الإنترنت. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ صورة. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ مخطط SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ جدول. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ محتوى نصي. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ محتوى، مثل صورة أو جدول أو وسائط أو نص، في اتجاه عمودي. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | يضيف شكلاً عنصرًا نائبًا جديدًا إلى شريحة التخطيط لحفظ محتوى نصي في اتجاه عمودي. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء مخطط. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء محتوى مثل صورة أو جدول أو وسائط أو نص. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء كائن وسائط. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء صورة عبر الإنترنت. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء صورة. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء مخطط SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء جدول. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء محتوى نصي. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء محتوى مثل صورة أو جدول أو وسائط أو نص في اتجاه عمودي. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | يضيف شكل عنصر نائب جديد إلى شريحة التخطيط لاحتواء محتوى نصي في اتجاه عمودي. |
 
 ### انظر أيضًا
 
-* واجهة [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* نطاق [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

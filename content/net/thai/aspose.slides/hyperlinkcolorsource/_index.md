@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงแหล่งที่มาของสีของไฮเปอร์ลิงก์.
+description: แสดงแหล่งที่มาของสีไฮเปอร์ลิงก์.
 type: docs
 weight: 5140
 url: /th/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource enumeration
+## การนับค่า HyperlinkColorSource
 
-แสดงแหล่งที่มาของสีของไฮเปอร์ลิงก์.
+แสดงแหล่งที่มาของสีไฮเปอร์ลิงก์
 
 ```csharp
 public enum HyperlinkColorSource
@@ -18,8 +18,8 @@ public enum HyperlinkColorSource
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Styles | `0` | Styles. |
-| PortionFormat | `1` | Portion format. |
+| Styles | `0` | สไตล์. |
+| PortionFormat | `1` | รูปแบบส่วน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันของจุดไล่ระดับสี.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เป็นตัวแทนของคอลเลกชันของจุดหยุดการไล่สี
 type: docs
 weight: 6030
 url: /th/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของคอลเลกชันของจุดไล่ระดับสี
+เป็นตัวแทนของคอลเลกชันของจุดหยุดการไล่สี
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -16,22 +16,22 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | คืนจุดไล่ระดับสีตามดัชนี |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | ส่งคืนจุดหยุดการไล่สีตามดัชนี |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | สร้างจุดไล่ระดับสีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | สร้างจุดไล่ระดับสีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | สร้างจุดไล่ระดับสีใหม่และเพิ่มไปยังส่วนท้ายของคอลเลกชัน |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | ลบจุดไล่ระดับสีทั้งหมดจากคอลเลกชัน |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | สร้างจุดไล่ระดับสีใหม่และแทรกลงในดัชนีที่กำหนดในคอลเลกชัน |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | สร้างจุดไล่ระดับสีใหม่และแทรกลงในดัชนีที่กำหนดในคอลเลกชัน |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | สร้างจุดไล่ระดับสีใหม่และแทรกลงในดัชนีที่กำหนดในคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | ลบจุดไล่ระดับสีที่ดัชนีที่ระบุ |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | สร้างจุดหยุดการไล่สีใหม่และเพิ่มไปยังตำแหน่งสุดท้ายของคอลเลกชัน |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | สร้างจุดหยุดการไล่สีใหม่และเพิ่มไปยังตำแหน่งสุดท้ายของคอลเลกชัน |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | สร้างจุดหยุดการไล่สีใหม่และเพิ่มไปยังตำแหน่งสุดท้ายของคอลเลกชัน |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | ลบจุดหยุดการไล่สีทั้งหมดจากคอลเลกชัน |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | สร้างจุดหยุดการไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | สร้างจุดหยุดการไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | สร้างจุดหยุดการไล่สีใหม่และแทรกที่ดัชนีที่ระบุในคอลเลกชัน |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | ลบจุดหยุดการไล่สีที่ดัชนีที่ระบุ |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: IControlCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência da API .NET
 description: Uma coleção de controles ActiveX.
 type: docs
-weight: 5620
+weight: 5640
 url: /pt/aspose.slides/icontrolcollection/
 ---
-## IControlCollection interface
+## Interface IControlCollection
 
 Uma coleção de controles ActiveX.
 
@@ -16,20 +16,20 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Item](../../aspose.slides/icontrolcollection/item) { get; } | Retorna um controle na posição especificada. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | Cria e adiciona um novo controle à coleção. |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | Remove todos os controles da coleção. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | Remove um controle ActiveX da coleção. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | Remove um controle ActiveX armazenado na posição especificada da coleção. |
 
-### Ver também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IControl](../icontrol)

@@ -1,6 +1,6 @@
 ---
 title: SmartArtNodeCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 SmartArt 節點的集合。
 type: docs
 weight: 10640
@@ -18,23 +18,23 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 傳回集合中節點的計數 唯讀 Int32 唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（thread-safe）。 唯讀 Boolean。 |
-| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | 依索引傳回節點 |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 傳回同步根。 唯讀 Object。 |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | 返回集合中節點的計數，唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | 返回一個值，指示對集合的存取是否已同步（執行緒安全），唯讀 Boolean。 |
+| [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | 依索引返回節點。 |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | 返回同步根，唯讀 Object。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | 新增 SmartArt 節點或子節點。 |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | 在節點集合的選定位置新增節點 |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的 Array。 |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | 依索引移除節點或子節點 |
-| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | 移除節點或子節點 |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | 在節點集合的指定位置新增節點。 |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | 返回可遍歷集合的列舉器。 |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | 依索引移除節點或子節點。 |
+| [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | 移除節點或子節點。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [ISmartArtNodeCollection](../ismartartnodecollection)
 * 命名空間 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

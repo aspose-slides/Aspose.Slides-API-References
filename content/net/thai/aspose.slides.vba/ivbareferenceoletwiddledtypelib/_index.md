@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation ที่แก้ไขแล้วซึ่งคอนโทรลทั้งหมดถูกทำเครื่องหมายให้ขยายได้.
+second_title: Aspose.Sildes สำหรับอ้างอิง API .NET
+description: เป็นการอ้างอิงไลบรารีประเภท OLE Automation ที่แก้ไขแล้วซึ่งคอนโทรลทั้งหมดถูกทำเครื่องหมายว่าเป็น extensible.
 type: docs
 weight: 11600
 url: /th/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib อินเทอร์เฟซ
 
-แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation ที่แก้ไขแล้วซึ่งคอนโทรลทั้งหมดถูกทำเครื่องหมายให้ขยายได้.
+เป็นการอ้างอิงไลบรารีประเภท OLE Automation ที่แก้ไขแล้วซึ่งคอนโทรลทั้งหมดถูกทำเครื่องหมายว่าเป็น extensible
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
@@ -18,7 +18,7 @@ public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | ส่งกลับอินเทอร์เฟซ IVbaReference. อ่านอย่างเดียว [`IVbaReference`](../ivbareference). |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletwiddledtypelib/asivbareference) { get; } | คืนค่า IVbaReference อินเทอร์เฟซ. อ่านอย่างเดียว [`IVbaReference`](../ivbareference). |
 
 ### ดูเพิ่มเติม
 

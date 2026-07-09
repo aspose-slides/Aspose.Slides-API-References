@@ -3,10 +3,10 @@ title: VbaProjectFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat proyek VBA melalui antarmuka COM
 type: docs
-weight: 11640
+weight: 11660
 url: /id/aspose.slides.vba/vbaprojectfactory/
 ---
-## VbaProjectFactory kelas
+## Kelas VbaProjectFactory
 
 Memungkinkan membuat proyek VBA melalui antarmuka COM
 
@@ -16,19 +16,19 @@ public class VbaProjectFactory : IVbaProjectFactory
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [VbaProjectFactory](vbaprojectfactory)() | Konstruktor default. |
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Instansi statis pabrik proyek VBA. Hanya-baca [`VbaProjectFactory`](../vbaprojectfactory). |
+| static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Instansi statik pabrik proyek VBA. Hanya-baca [`VbaProjectFactory`](../vbaprojectfactory). |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Membuat proyek VBA baru. |
 | [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Membaca proyek VBA dari kontainer OLE. |

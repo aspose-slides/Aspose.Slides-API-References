@@ -6,7 +6,7 @@ type: docs
 weight: 7270
 url: /vi/aspose.slides/itextframe/
 ---
-## ITextFrame giao diện
+## Giao diện ITextFrame
 
 Biểu diễn một TextFrame.
 
@@ -16,27 +16,27 @@ public interface ITextFrame : ISlideComponent
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ-đọc [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng tới các siêu liên kết có trong. Chỉ-đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Trả về danh sách tất cả các đoạn văn trong một khung. Chỉ-đọc [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Trả về ô cha hoặc null nếu đối tượng cha không thực hiện giao diện ICell. Chỉ-đọc [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Trả về hình dạng cha hoặc null nếu đối tượng cha không thực hiện giao diện IShape. Chỉ-đọc [`IShape`](../ishape). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng tới các siêu liên kết được chứa. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Trả về danh sách tất cả các đoạn văn trong một khung. Chỉ đọc [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Trả về ô cha hoặc null nếu đối tượng cha không triển khai giao diện ICell. Chỉ đọc [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Trả về hình dạng cha hoặc null nếu đối tượng cha không triển khai giao diện IShape. Chỉ đọc [`IShape`](../ishape). |
 | [Text](../../aspose.slides/itextframe/text) { get; set; } | Lấy hoặc đặt văn bản thuần cho một TextFrame. Đọc/ghi String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Trả về đối tượng định dạng cho đối tượng TextFrame này. Chỉ-đọc [`ITextFrameFormat`](../itextframeformat). |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Trả về đối tượng định dạng cho đối tượng TextFrame này. Chỉ đọc [`ITextFrameFormat`](../itextframeformat). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Tô sáng tất cả các kết quả khớp của biểu thức chính quy với màu đã chỉ định. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Tô sáng tất cả các kết quả khớp của văn bản mẫu với màu đã chỉ định. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Tô sáng tất cả các kết quả khớp của văn bản mẫu với màu đã chỉ định. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Tô sáng tất cả các khớp của biểu thức chính quy với màu được chỉ định. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Tô sáng tất cả các khớp của văn bản mẫu với màu được chỉ định. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Tô sáng tất cả các khớp của văn bản mẫu với màu được chỉ định. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Nối các run có cùng định dạng trong tất cả các đoạn văn. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Thay thế tất cả các kết quả khớp của biểu thức chính quy bằng chuỗi đã chỉ định. |
-| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Thay thế tất cả các lần xuất hiện của văn bản đã chỉ định bằng một văn bản khác đã chỉ định. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Tách nội dung văn bản của [`ITextFrame`](../itextframe) thành một mảng các chuỗi, trong đó mỗi phần tử tương ứng với một cột văn bản riêng trong khung. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Thay thế tất cả các khớp của biểu thức chính quy bằng chuỗi được chỉ định. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Thay thế tất cả các lần xuất hiện của văn bản được chỉ định bằng một văn bản chỉ định khác. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Tách nội dung văn bản của [`ITextFrame`](../itextframe) thành một mảng các chuỗi, trong đó mỗi phần tử tương ứng với một cột văn bản riêng biệt trong khung. |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: BehaviorCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een collectie van gedragseffecten.
+description: Stelt een collectie van gedragseffecten voor.
 type: docs
 weight: 170
 url: /nl/aspose.slides.animation/behaviorcollection/
 ---
 ## BehaviorCollection klasse
 
-Vertegenwoordigt een collectie van gedragseffecten.
+Stelt een collectie van gedragseffecten voor.
 
 ```csharp
 public class BehaviorCollection : IBehaviorCollection
@@ -18,7 +18,7 @@ public class BehaviorCollection : IBehaviorCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Geeft het aantal gedragingen in een collectie terug. Alleen-lezen Int32. |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | Retourneert het aantal gedragingen in een collectie. Alleen-lezen Int32. |
 | [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | Haalt een waarde op die aangeeft of de ICollection alleen-lezen is. Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | Retourneert een gedrag op de opgegeven index. |
 
@@ -26,14 +26,14 @@ public class BehaviorCollection : IBehaviorCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Voegt een nieuw gedrag toe aan een collectie. |
+| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | Voeg een nieuw gedrag toe aan een collectie. |
 | [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | Verwijdert alle gedragingen uit een collectie. |
 | [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | Bepaalt of de ICollection een specifieke waarde bevat. |
 | [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend bij een specifieke Array-index. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
 | [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | Bepaalt de index van een specifiek item in de IList. |
-| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Voegt nieuw gedrag in een collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Verwijdert het opgegeven gedrag uit een collectie. |
+| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | Voegt nieuw gedrag toe aan een collectie op de opgegeven index. |
+| [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | Verwijdert opgegeven gedrag uit een collectie. |
 | [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | Verwijdert gedrag uit een collectie op de opgegeven index. |
 
 ### Zie ook

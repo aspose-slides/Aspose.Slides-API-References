@@ -1,32 +1,32 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Preset Shadow प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक प्रीसेट शैडो प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 3480
 url: /hi/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow इंटरफ़ेस
 
-एक Preset Shadow प्रभाव का प्रतिनिधित्व करता है।
+Represents a Preset Shadow effect.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
     IImageTransformOperation
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | छाया की दिशा। पढ़ने/लिखने योग्य Single। |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | छाया की दूरी। पढ़ने/लिखने योग्य Double। |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset. पढ़ने/लिखने योग्य [`PresetShadowType`](../../aspose.slides/presetshadowtype)। |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | छाया का रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | छाया की दिशा। पढ़ने/लिखने योग्य Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | छाया की दूरी। पढ़ने/लिखने योग्य Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Preset। पढ़ने/लिखने योग्य [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | छाया का रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)

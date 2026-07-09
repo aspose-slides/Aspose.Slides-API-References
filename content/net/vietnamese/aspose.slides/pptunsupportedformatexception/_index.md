@@ -1,12 +1,12 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Ngoại lệ được ném khi định dạng tệp trình chiếu không được hỗ trợ.
 type: docs
 weight: 9540
 url: /vi/aspose.slides/pptunsupportedformatexception/
 ---
-## PptUnsupportedFormatException lớp
+## Lớp PptUnsupportedFormatException
 
 Ngoại lệ được ném khi định dạng tệp trình chiếu không được hỗ trợ.
 
@@ -14,13 +14,13 @@ Ngoại lệ được ném khi định dạng tệp trình chiếu không đư�
 public class PptUnsupportedFormatException : PptReadException
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Hàm khởi tạo mặc định. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào ngoại lệ này. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Hàm tạo mặc định. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Hàm tạo cho phép thêm một thông điệp vào ngoại lệ này. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

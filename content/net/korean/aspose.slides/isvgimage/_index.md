@@ -16,20 +16,20 @@ public interface ISvgImage
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 지정된 SVG의 기본 URI를 반환합니다. 상대 링크를 확인하는 데 사용됩니다. 읽기 전용 String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG 문서 가져오기 중 외부 리소스를 확인하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | 지정된 SVG의 기본 URI를 반환합니다. 상대 링크를 해결하는 데 사용됩니다. 읽기 전용 String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | SVG 문서 가져오기 중 외부 리소스를 해결하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
 | [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | SVG 콘텐츠를 반환합니다. 읽기 전용 String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | SVG 데이터를 반환합니다. 읽기 전용 Byte[]. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | SVG 이미지를 EMF 파일로 저장합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: Comment
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET용 API 참조
 description: 슬라이드에 대한 주석을 나타냅니다.
 type: docs
 weight: 2620
@@ -18,57 +18,57 @@ public class Comment : IComment
 
 | 이름 | 설명 |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | 주석 작성자를 반환합니다. 읽기 전용 [`ICommentAuthor`](../icommentauthor). |
+| [Author](../../aspose.slides/comment/author) { get; } | 주석의 작성자를 반환합니다. 읽기 전용 [`ICommentAuthor`](../icommentauthor). |
 | [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | 주석 생성 시간을 반환하거나 설정합니다. 이 속성을 MinValue 로 설정하면 주석 시간이 설정되지 않은 것입니다. 읽기/쓰기 DateTime. |
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | 상위 주석을 가져오거나 설정합니다. 읽기/쓰기 [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | 슬라이드에서 주석의 위치를 반환하거나 설정합니다. 읽기/쓰기 PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | 주석이 달린 상위 슬라이드를 반환하거나 설정합니다. 읽기 전용 [`ISlide`](../islide). |
+| [Slide](../../aspose.slides/comment/slide) { get; } | 주석의 상위 슬라이드를 반환하거나 설정합니다. 읽기 전용 [`ISlide`](../islide). |
 | [Text](../../aspose.slides/comment/text) { get; set; } | 슬라이드 주석의 일반 텍스트를 반환하거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | 상위 컬렉션에서 주석 및 해당 모든 답글을 제거합니다. |
+| [Remove](../../aspose.slides/comment/remove)() | 주석과 해당 주석에 대한 모든 답글을 상위 컬렉션에서 제거합니다. |
 
 ### 예제
 
-이 예제는 PowerPoint 프레젠테이션에서 슬라이드에 주석을 추가하는 방법을 보여줍니다.
+이 예제에서는 PowerPoint 프레젠테이션의 슬라이드에 주석을 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-// Presentation 클래스 인스턴스화
+// Presentation 클래스를 인스턴스화합니다
 using (Presentation presentation = new Presentation())
 {
-    // 빈 슬라이드 추가
+    // 빈 슬라이드를 추가합니다
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
-    // 작성자 추가
+    // 작성자를 추가합니다
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // 주석 위치 설정
+    // 주석 위치를 설정합니다
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // 슬라이드 1에 작성자에 대한 슬라이드 주석 추가
+    // 작성자에 대한 슬라이드 1의 주석을 추가합니다
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // 슬라이드 2에 작성자에 대한 슬라이드 주석 추가
+    // 작성자에 대한 슬라이드 2의 주석을 추가합니다
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// PowerPoint 프레젠테이션 파일 저장
+	// PowerPoint 프레젠테이션 파일을 저장합니다
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-이 예제는 PowerPoint 프레젠테이션의 슬라이드에서 기존 주석에 접근하는 방법을 보여줍니다.
+이 예제에서는 PowerPoint 프레젠테이션의 슬라이드에 있는 기존 주석에 접근하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-// Presentation 클래스를 인스턴스화
+// Presentation 클래스를 인스턴스화합니다
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// CommentAuthors 순회
+	// CommentAuthors 를 순회합니다
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Comments 순회
+		// Comments 를 순회합니다
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -78,31 +78,31 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-이 예제는 주석을 추가하고 해당 답글을 가져오는 방법을 보여줍니다.
+이 예제에서는 주석을 추가하고 해당 주석에 대한 답글을 가져오는 방법을 보여줍니다.
 
 ```csharp
 [C#]
-// Presentation 클래스를 인스턴스화
+// Presentation 클래스를 인스턴스화합니다
 using (Presentation pres = new Presentation())
 {
-    // 주석 추가
+    // 주석을 추가합니다
     ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
     IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    // comment1에 대한 답글 추가
+    // comment1에 대한 답글을 추가합니다
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // comment1에 대한 또 다른 답글 추가
+    // comment1에 대한 또 다른 답글을 추가합니다
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
-    // 기존 답글에 대한 답글 추가
+    // 기존 답글에 대한 답글을 추가합니다
     IComment subReply = author1.Comments.AddComment("subreply 3 for reply 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     subReply.ParentComment = reply2;
     IComment comment2 = author2.Comments.AddComment("comment 2", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // 콘솔에 주석 계층 구조 표시
+    // 콘솔에 주석 계층 구조를 표시합니다
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)
@@ -117,13 +117,13 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // comment1 및 모든 답글 제거
+    // comment1과 해당 답글을 모두 제거합니다
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 관련
+### 참고
 
 * 인터페이스 [IComment](../icomment)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

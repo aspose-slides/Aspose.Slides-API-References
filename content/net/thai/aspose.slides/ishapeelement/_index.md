@@ -1,14 +1,14 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงส่วนของรูปร่างที่มีเส้นขอบและการเติมสีเดียวกัน.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงส่วนของรูปร่างที่มีขอบและการเติมสีเดียวกัน
 type: docs
 weight: 6990
 url: /th/aspose.slides/ishapeelement/
 ---
 ## IShapeElement อินเทอร์เฟซ
 
-แสดงถึงส่วนของรูปร่างที่มีเส้นขอบและการเติมสีเดียวกัน.
+แสดงถึงส่วนของรูปร่างที่มีขอบและการเติมสีเหมือนกัน
 
 ```csharp
 public interface IShapeElement

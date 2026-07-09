@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: प्रस्तुति में एक मास्टर स्लाइड को दर्शाता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: एक प्रस्तुति में मास्टर स्लाइड का प्रतिनिधित्व करता है।
 type: docs
 weight: 6420
 url: /hi/aspose.slides/imasterslide/
 ---
 ## IMasterSlide इंटरफ़ेस
 
-एक प्रस्तुति में मास्टर स्लाइड को दर्शाता है।
+एक प्रस्तुति में मास्टर स्लाइड का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,29 +18,29 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | IBaseSlide इंटरफ़ेस का बेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | बॉडी टेक्स्ट की शैली लौटाता है। केवल पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | मास्टर स्लाइड के लिए ड्राइंग गाइड्स का संग्रह लौटाता है। केवल पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | यदि इस मास्टर स्लाइड पर निर्भर कम से कम एक स्लाइड मौजूद है तो true लौटाता है। केवल पढ़ने योग्य Boolean। |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | मास्टर स्लाइड के HeaderFooter प्रबंधक को लौटाता है। केवल पढ़ने योग्य [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)। |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | इस मास्टर स्लाइड के चाइल्ड लेआउट स्लाइड्स का संग्रह लौटाता है। केवल पढ़ने योग्य [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)। |
-| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | अन्य टेक्स्ट की शैली लौटाता है। केवल पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | निर्धारित करता है कि सभी स्लाइड्स जो उस मास्टर के बाद आती हैं, हटाने पर संबंधित मास्टर हटाया जाए या नहीं। नोट: Aspose.Slides कभी भी स्वयं कोई अप्रयुक्त मास्टर नहीं हटाएगा, वास्तविक रूप से अप्रयुक्त मास्टर हटाने के लिए [`RemoveUnused`](../imasterslidecollection/removeunused) को कॉल करें। पढ़ने/लिखने योग्य Boolean। |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | टाइटल टेक्स्ट की शैली लौटाता है। केवल पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | बेस IBaseSlide इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide)। |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | IMasterThemeable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable)। |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | बॉडी टेक्स्ट की शैली लौटाता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | मास्टर स्लाइड के लिए ड्राइंग गाइड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection)। |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | यदि इस मास्टर स्लाइड पर निर्भर कम से कम एक स्लाइड मौजूद है तो true लौटाता है। केवल-पढ़ने योग्य Boolean। |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | मास्टर स्लाइड का HeaderFooter प्रबंधक लौटाता है। केवल-पढ़ने योग्य [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager)। |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | इस मास्टर स्लाइड के लिए चाइल्ड लेआउट स्लाइड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection)। |
+| [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | अन्य टेक्स्ट की शैली लौटाता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | निर्धारित करता है कि जब उस मास्टर के बाद सभी स्लाइड्स हटाए जाते हैं तो संबंधित मास्टर हटाया जाता है या नहीं। नोट: Aspose.Slides कभी भी स्वचालित रूप से किसी अनउपयोगित मास्टर को नहीं हटाएगा, अनउपयोगित मास्टर्स को वास्तव में हटाने के लिए [`RemoveUnused`](../imasterslidecollection/removeunused) को कॉल करें पढ़ें/लिखें Boolean। |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | शीर्षक टेक्स्ट की शैली लौटाता है। केवल-पढ़ने योग्य [`ITextStyle`](../itextstyle)। |
 
-## विधाएँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | वर्तमान स्लाइड के आधार पर एक नया मास्टर स्लाइड बनाता है, उस पर एक बाहरी थीम लागू करता है और बनाए गए मास्टर स्लाइड को सभी निर्भर स्लाइड्स पर लागू करता है। |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | इस मास्टर स्लाइड पर निर्भर सभी स्लाइड्स की एक एरे लौटाता है। |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | इस मास्टर स्लाइड पर निर्भर सभी स्लाइड्स के साथ एक एरे लौटाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IBaseSlide](../ibaseslide)
 * इंटरफ़ेस [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

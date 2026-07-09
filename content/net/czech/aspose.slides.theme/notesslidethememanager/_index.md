@@ -1,14 +1,14 @@
 ---
 title: NotesSlideThemeManager
-second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje přístup k přepsanému motivu snímku poznámek.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Poskytuje přístup ke přepsanému tématu poznámkového snímku.
 type: docs
-weight: 11430
+weight: 11450
 url: /cs/aspose.slides.theme/notesslidethememanager/
 ---
 ## NotesSlideThemeManager třída
 
-Poskytuje přístup k přepsanému motivu snímku poznámek.
+Provides access to notes slide theme overriden.
 
 ```csharp
 public class NotesSlideThemeManager : BaseOverrideThemeManager
@@ -16,17 +16,17 @@ public class NotesSlideThemeManager : BaseOverrideThemeManager
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděné účinné téma nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrátí přepisovací objekt tématu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděné efektivní téma, nebo ne. Pro povolení OverrideTheme pro přepisování použijte metody OverrideTheme.Init*(). Pro zakázání OverrideTheme přepisování použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisovaného tématu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije extra barevné schéma na snímek. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrátí objekt tématu. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije další barevné schéma na snímek. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrací objekt tématu. |
 
 ### Viz také
 

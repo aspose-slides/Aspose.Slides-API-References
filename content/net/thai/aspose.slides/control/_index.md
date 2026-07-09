@@ -1,7 +1,7 @@
 ---
 title: Control
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงคอนโทรล ActiveX.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงควบคุม ActiveX.
 type: docs
 weight: 2690
 url: /th/aspose.slides/control/
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | ระบุการคงสภาพของคอนโทรล ActiveX เมื่อวิธีการที่ใช้เพื่อคงสภาพเป็น PersistStream, PersistStreamInit หรือ PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | รับ class id ของคอนโทรลนี้ อ่านอย่างเดียว Guid. |
-| [Frame](../../aspose.slides/control/frame) { get; set; } | คืนค่า หรือกำหนดกรอบของคอนโทรล อ่าน/เขียน [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | รับหรือกำหนดชื่อของคอนโทรลนี้ อ่าน/เขียน String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | รับวิธีการที่ใช้เก็บคุณสมบัติของคอนโทรล ActiveX อ่านอย่างเดียว [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | คืนค่าคอลเลกชันของคุณสมบัติ ActiveX หมายเหตุ: Aspose.Slides รองรับเฉพาะคุณสมบัติ ActiveX ที่ใช้ XML หากคุณสมบัติเก็บในรูปแบบไบนารี property นี้จะคืนค่า null อ่านอย่างเดียว [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | คืนวัตถุคุณสมบัติการเติมภาพของ Control อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | ระบุการคงสภาพของ ActiveX control เมื่อวิธีที่ใช้ในการคงสภาพเป็น PersistStream, PersistStreamInit หรือ PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | รับค่า class id ของ control นี้ อ่านอย่างเดียว Guid. |
+| [Frame](../../aspose.slides/control/frame) { get; set; } | คืนค่า หรือ ตั้งค่า frame ของ control อ่าน/เขียน [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/control/name) { get; set; } | รับหรือกำหนดชื่อของ control นี้ อ่าน/เขียน String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | รับวิธีที่ใช้เก็บคุณสมบัติของ ActiveX control อ่านอย่างเดียว [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | คืนคอลเลกชันของคุณสมบัติ ActiveX หมายเหตุ: Aspose.Slides รองรับเฉพาะคุณสมบัติ ActiveX แบบ XML หากคุณสมบัติวางในรูปแบบไบนารี คุณสมบัตินี้จะคืนค่า null อ่านอย่างเดียว [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | คืนออบเจ็กต์คุณสมบัติกรอกำลังรูปภาพของ Control อ่านอย่างเดียว [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### ดูเพิ่มเติม
 

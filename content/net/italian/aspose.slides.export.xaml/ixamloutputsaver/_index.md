@@ -1,14 +1,14 @@
 ---
 title: IXamlOutputSaver
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un'implementazione di salvataggio dell'output per trasferire i dati nella memoria esterna.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un'implementazione di salvataggio dell'output per trasferire i dati all'archivio esterno.
 type: docs
-weight: 4690
+weight: 4710
 url: /it/aspose.slides.export.xaml/ixamloutputsaver/
 ---
-## interfaccia IXamlOutputSaver
+## IXamlOutputSaver interfaccia
 
-Rappresenta un'implementazione di salvataggio dell'output per trasferire i dati nella memoria esterna.
+Rappresenta un'implementazione di salvataggio dell'output per trasferire i dati all'archivio esterno.
 
 ```csharp
 public interface IXamlOutputSaver

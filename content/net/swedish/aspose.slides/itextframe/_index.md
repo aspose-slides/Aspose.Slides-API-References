@@ -1,9 +1,9 @@
 ---
 title: ITextFrame
-second_title: Aspose.Slides för .NET API-referens
+second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en TextFrame.
 type: docs
-weight: 7250
+weight: 7270
 url: /sv/aspose.slides/itextframe/
 ---
 ## ITextFrame gränssnitt
@@ -18,23 +18,23 @@ public interface ITextFrame : ISlideComponent
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Skrivskyddad [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till innehållna hyperlänkar. Skrivskyddad [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Returnerar listan över alla stycken i en ram. Skrivskyddad [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Returnerar den överordnade cellen eller null om det överordnade objektet inte implementerar ICell-gränssnittet. Skrivskyddad [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Returnerar den överordnade formen eller null om det överordnade objektet inte implementerar IShape-gränssnittet. Skrivskyddad [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Hämtar eller anger vanlig text för en TextFrame. Läs/skriv String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Returnerar formateringsobjektet för detta TextFrame-objekt. Skrivskyddad [`ITextFrameFormat`](../itextframeformat). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Tillåter att hämta bas-ISlideComponent-gränssnittet. Läs-endast [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Tillhandahåller enkel åtkomst till inbäddade hyperlänkar. Läs-endast [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Returnerar listan över alla stycken i en ram. Läs-endast [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Returnerar den överordnade cellen eller null om det överordnade objektet inte implementerar ICell-gränssnittet. Läs-endast [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Returnerar den överordnade formen eller null om det överordnade objektet inte implementerar IShape-gränssnittet. Läs-endast [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Hämtar eller anger vanlig text för en TextFrame. Läs-skriv String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Returnerar formateringsobjektet för detta TextFrame-objekt. Läs-endast [`ITextFrameFormat`](../itextframeformat). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Markerar alla matchningar av reguljära uttrycket med den angivna färgen. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Markerar alla matchningar av exempeltexten med den angivna färgen. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Markerar alla matchningar av exempeltexten med den angivna färgen. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Sammanfogar löp med samma formatering i alla stycken. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Ersätter alla matchningar av reguljära uttrycket med den angivna strängen. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Markerar alla träffar av reguljära uttrycket med den angivna färgen. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Markerar alla träffar av exempeltexten med den angivna färgen. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Markerar alla träffar av exempeltexten med den angivna färgen. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Slår ihop körningar med samma formatering i alla stycken. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Ersätter alla träffar av reguljära uttrycket med den angivna strängen. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Ersätter alla förekomster av den angivna texten med en annan angiven text. |
 | [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Delar upp textinnehållet i [`ITextFrame`](../itextframe) i en array av strängar, där varje element motsvarar en separat textkolumn inom ramen. |
 

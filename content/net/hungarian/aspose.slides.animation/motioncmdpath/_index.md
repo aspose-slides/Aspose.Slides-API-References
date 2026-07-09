@@ -1,9 +1,9 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API referencia
 description: Egy útvonal egy parancsát reprezentálja.
 type: docs
-weight: 630
+weight: 650
 url: /hu/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath osztály
@@ -18,10 +18,10 @@ public class MotionCmdPath : IMotionCmdPath
 
 | Név | Leírás |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Meghatározza a parancstípust. Olvasás/írás [`MotionCommandPathType`](../motioncommandpathtype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Meghatározza a parancs típusát. Olvasás/írás [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Meghatározza, hogy a parancs koordinátái relatívak-e vagy sem. Olvasás/írás Boolean. |
 | [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Meghatározza a parancs pontjait. Olvasás/írás PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Meghatározza a parancs pontok típusát. Olvasás/írás [`MotionPathPointsType`](../motionpathpointstype). |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Meghatározza a parancspontok típusát. Olvasás/írás [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Lásd még
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2330
 url: /ko/aspose.slides.charts/marker/
 ---
-## Marker 클래스
+## 마커 클래스
 
 차트의 마커를 나타냅니다.
 
@@ -19,10 +19,10 @@ public class Marker : IMarker
 | 이름 | 설명 |
 | --- | --- |
 | [Format](../../aspose.slides.charts/marker/format) { get; } | 마커 채우기를 가져오거나 설정합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 라인 차트, 스캐터 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 라인 차트, 스캐터 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | 선 차트, 산점도 차트 또는 레이더 차트에서 마커 크기를 나타냅니다. 읽기/쓰기 Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | 선 차트, 산점도 차트 또는 레이더 차트에서 마커 스타일을 나타냅니다. 읽기/쓰기 [`MarkerStyleType`](../markerstyletype). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IMarker](../imarker)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

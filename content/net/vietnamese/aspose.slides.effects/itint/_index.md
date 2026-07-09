@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc ra khỏi hue theo lượng được chỉ định.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn một hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc ra khỏi hue theo lượng được chỉ định.
 type: docs
 weight: 3540
 url: /vi/aspose.slides.effects/itint/
 ---
 ## ITint giao diện
 
-Đại diện cho hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc ra khỏi hue theo lượng được chỉ định.
+Biểu diễn một hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc ra khỏi hue theo lượng được chỉ định.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,8 +18,8 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện cơ sở IAccessiblePVIObject. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Cho phép lấy giao diện cơ sở IImageTransformOperation. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Xem thêm
 

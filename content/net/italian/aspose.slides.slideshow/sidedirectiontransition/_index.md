@@ -1,9 +1,9 @@
 ---
 title: SideDirectionTransition
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Effetto di transizione della diapositiva in direzione laterale.
 type: docs
-weight: 10290
+weight: 10310
 url: /it/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition classe
@@ -25,7 +25,7 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo particolare, adatta all'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

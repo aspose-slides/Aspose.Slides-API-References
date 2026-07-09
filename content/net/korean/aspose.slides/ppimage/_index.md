@@ -1,14 +1,14 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션에 포함된 이미지를 나타냅니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 프레젠테이션에 있는 이미지를 나타냅니다.
 type: docs
 weight: 9250
 url: /ko/aspose.slides/ppimage/
 ---
 ## PPImage 클래스
 
-프레젠테이션에 포함된 이미지를 나타냅니다.
+프레젠테이션에 있는 이미지를 나타냅니다.
 
 ```csharp
 public class PPImage : IDisposable, IPPImage
@@ -19,10 +19,10 @@ public class PPImage : IDisposable, IPPImage
 | 이름 | 설명 |
 | --- | --- |
 | [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | 이미지 데이터의 복사본을 반환합니다. 읽기 전용 Byte[]. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | [`BinaryData`](./binarydata)에 인코딩된 이미지의 MIME 유형을 반환합니다. 읽기 전용 String. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | 이미지의 MIME 유형을 [`BinaryData`](./binarydata)으로 인코딩하여 반환합니다. 읽기 전용 String. |
 | [Height](../../aspose.slides/ppimage/height) { get; } | 이미지의 높이를 반환합니다. 읽기 전용 Int32. |
 | [Image](../../aspose.slides/ppimage/image) { get; } | 이미지의 복사본을 반환합니다. 읽기 전용 [`IImage`](../iimage). |
-| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ISvgImage 객체를 반환하거나 설정합니다 [`ISvgImage`](../isvgimage) |
+| [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | ISvgImage 객체 [`ISvgImage`](../isvgimage)를 반환하거나 설정합니다. |
 | [Width](../../aspose.slides/ppimage/width) { get; } | 이미지의 너비를 반환합니다. 읽기 전용 Int32. |
 | [X](../../aspose.slides/ppimage/x) { get; } | 이미지의 X 오프셋을 반환합니다. 읽기 전용 Int32. |
 | [Y](../../aspose.slides/ppimage/y) { get; } | 이미지의 Y 오프셋을 반환합니다. 읽기 전용 Int32. |
@@ -33,11 +33,11 @@ public class PPImage : IDisposable, IPPImage
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | 객체를 해제합니다. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | 이미지의 해시 코드를 반환합니다. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | 이미지 데이터를 교체합니다. 새 이미지의 데이터. newImageData 매개변수가 null인 경우. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | 이미지 데이터를 교체합니다. 주의: Image가 메타파일인 경우 래스터화됩니다. 대신 ReplaceImage(byte[])를 사용하십시오. 새 이미지. newImage 매개변수가 null인 경우. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | 이미지 데이터를 교체합니다. 새 IPPImage. newImage 매개변수가 null인 경우. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | 이미지 데이터를 교체합니다. 새로운 이미지 데이터. newImageData 매개변수가 null인 경우. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | 이미지 데이터를 교체합니다. 주의: Image가 메타파일이면 래스터화됩니다. 대신 ReplaceImage(byte[])를 사용하십시오. 새로운 이미지. newImage 매개변수가 null인 경우. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | 이미지 데이터를 교체합니다. 새로운 IPPImage. newImage 매개변수가 null인 경우. |
 
-### 관련
+### 참고
 
 * 인터페이스 [IPPImage](../ippimage)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta le proprietà comuni della vista della diapositiva.
+description: Rappresenta le proprietà comuni della visualizzazione della diapositiva.
 type: docs
-weight: 2640
+weight: 2660
 url: /it/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties classe
 
-Rappresenta le proprietà comuni della vista della diapositiva.
+Rappresenta le proprietà comuni della visualizzazione della diapositiva.
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Nome | Descrizione |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Restituisce la collezione delle guide di disegno. Sola lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifica il rapporto di ridimensionamento della vista in percentuale. Lettura/Scrittura Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifica che il contenuto della vista dovrebbe ridimensionarsi automaticamente per adattarsi al meglio alle dimensioni della finestra corrente. Lettura/Scrittura Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Restituisce la raccolta delle guide di disegno. Solo lettura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Specifica il rapporto di scala della visualizzazione in percentuale. Lettura/Scrittura Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Specifica che il contenuto della visualizzazione deve ridimensionarsi automaticamente per adattarsi al meglio alle dimensioni della finestra corrente. Lettura/Scrittura Boolean. |
 
 ### Esempi
 

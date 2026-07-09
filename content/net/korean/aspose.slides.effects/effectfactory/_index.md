@@ -18,7 +18,7 @@ public class EffectFactory : IEffectFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [EffectFactory](effectfactory)() | 기본 생성자입니다. |
+| [EffectFactory](effectfactory)() | 기본 생성자. |
 
 ## 속성
 
@@ -31,17 +31,17 @@ public class EffectFactory : IEffectFactory
 | 이름 | 설명 |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow 효과를 생성합니다. |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Inner shadow 효과를 생성합니다. |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Outer shadow 효과를 생성합니다. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Preset shadow 효과를 생성합니다. |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Reflection 효과를 생성합니다. |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Soft Edge 효과를 생성합니다. |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | 내부 그림자 효과를 생성합니다. |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | 외부 그림자 효과를 생성합니다. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | 프리셋 그림자 효과를 생성합니다. |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | 반사 효과를 생성합니다. |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | 소프트 엣지 효과를 생성합니다. |
 
 ### 비고
 
 COM 호환성을 위해.
 
-### 참조
+### 참고
 
 * 인터페이스 [IEffectFactory](../ieffectfactory)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

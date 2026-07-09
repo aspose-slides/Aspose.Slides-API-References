@@ -3,12 +3,12 @@ title: IAIConversation
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili sebuah instance percakapan. Tidak seperti panggilan AI reguler, percakapan mempertahankan seluruh konteks.
 type: docs
-weight: 10
+weight: 20
 url: /id/aspose.slides.ai/iaiconversation/
 ---
 ## IAIConversation antarmuka
 
-Mewakili sebuah instance percakapan. Tidak seperti pemanggilan AI reguler, percakapan mempertahankan seluruh konteks.
+Mewakili sebuah instance percakapan. Tidak seperti panggilan AI reguler, percakapan mempertahankan seluruh konteks.
 
 ```csharp
 public interface IAIConversation

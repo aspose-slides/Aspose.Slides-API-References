@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟ็กต์ Tint. ปรับค่าความสีของเอฟเฟ็กต์ไปทางหรือห่างจากสีตามปริมาณที่ระบุ.
+description: แสดงถึงเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนที่ไปทาง/ห่างจากโทนสีตามจำนวนที่ระบุ.
 type: docs
 weight: 3660
 url: /th/aspose.slides.effects/tint/
 ---
-## คลาส Tint
+## Tint คลาส
 
-แสดงถึงเอฟเฟกต์ Tint ซึ่งเปลี่ยนค่าความสีของเอฟเฟกต์ไปทางหรือห่างจากสีโดยใช้ปริมาณที่ระบุ
+แสดงถึงเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนไปทาง/ห่างจากโทนสีตามจำนวนที่กำหนด.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,15 +18,15 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้ เป็นแบบอ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | ตรวจสอบว่าค่า [`Tint`](../tint) ที่ระบุเท่ากับ [`Tint`](../tint) ปัจจุบันหรือไม่ |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Tint ที่มีผลพร้อมกับการสืบทอดที่ใช้ |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | กำหนดว่ากลุ่ม [`Tint`](../tint) ที่ระบุเท่ากับ [`Tint`](../tint) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | รับข้อมูลเอฟเฟกต์ Tint ที่มีผลพร้อมการสืบทอดที่ใช้. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

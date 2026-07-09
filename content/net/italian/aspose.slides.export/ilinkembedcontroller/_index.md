@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Interfaccia di callback utilizzata per determinare come l'oggetto deve essere elaborato durante il salvataggio.
+description: Interfaccia di callback utilizzata per determinare come l'oggetto debba essere elaborato durante il salvataggio.
 type: docs
-weight: 3970
+weight: 3990
 url: /it/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController interfaccia
 
-Interfaccia di callback utilizzata per determinare come l'oggetto deve essere elaborato durante il salvataggio.
+Interfaccia di callback utilizzata per determinare come l'oggetto debba essere elaborato durante il salvataggio.
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,8 +18,8 @@ public interface ILinkEmbedController
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determina dove l'oggetto deve essere memorizzato. Questo metodo viene chiamato una volta per ciascun id dell'oggetto. Non è garantito che non ci siano due oggetti con gli stessi dati, semanticName e contentType ma con id diversi. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Restituisce un URL a un oggetto esterno. Questo metodo è sempre chiamato se [`GetObjectStoringLocation`](./getobjectstoringlocation) ha restituito Link e può essere chiamato se [`GetObjectStoringLocation`](./getobjectstoringlocation) ha restituito Embed ma l'incorporamento è impossibile. Può essere chiamato più volte per lo stesso id dell'oggetto. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | Determina dove l'oggetto debba essere memorizzato. Questo metodo è chiamato una volta per ogni ID oggetto. Non è garantito che non esistano due oggetti con gli stessi dati, semanticName e contentType ma con ID diversi. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | Restituisce un URL a un oggetto esterno. Questo metodo è sempre chiamato se [`GetObjectStoringLocation`](./getobjectstoringlocation) ha restituito Link e può essere chiamato se [`GetObjectStoringLocation`](./getobjectstoringlocation) ha restituito Embed ma l'incorporamento è impossibile. Può essere chiamato più volte per lo stesso ID oggetto. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | Salva l'oggetto esterno. |
 
 ### Vedi anche

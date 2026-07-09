@@ -1,9 +1,9 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta un tipo di avviso.
 type: docs
-weight: 11810
+weight: 11830
 url: /it/aspose.slides.warnings/warningtype/
 ---
 ## Enumerazione WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | È stato rilevato un problema nel documento sorgente che rende molto probabile che il documento non possa essere aperto se salvato nel suo formato originale. |
+| SourceFileCorruption | `0` | È stato rilevato un problema nel documento di origine che rende molto probabile che il documento non possa essere aperto se salvato nel suo formato originale. |
 | DataLoss | `1` | Testo/grafico/immagine o altri dati saranno completamente mancanti dall'albero del documento dopo il caricamento, o dal documento creato dopo il salvataggio. |
 | MajorFormattingLoss | `2` | Perdita di formattazione importante. |
 | MinorFormattingLoss | `3` | Perdita di formattazione minore. |
-| CompatibilityIssue | `4` | Questo è un problema noto che impedirà l'apertura del documento da parte di alcuni agenti utente, o versioni precedenti di agenti utente. |
-| UnexpectedContent | `99` | Alcuni contenuti nel documento sorgente non possono essere riconosciuti (cioè non sono supportati), questo può o meno causare problemi o provocare perdite di dati/formattazione. |
+| CompatibilityIssue | `4` | Questo è un problema noto che impedirà l'apertura del documento da parte di alcuni agenti utente o versioni precedenti di agenti utente. |
+| UnexpectedContent | `99` | Alcuni contenuti nel documento di origine non sono stati riconosciuti (cioè non sono supportati); ciò potrebbe o meno causare problemi o provocare perdite di dati/formattazione. |
 
 ### Vedi anche
 

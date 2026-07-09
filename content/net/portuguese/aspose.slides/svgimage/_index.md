@@ -1,9 +1,9 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma imagem SVG.
 type: docs
-weight: 10780
+weight: 10800
 url: /pt/aspose.slides/svgimage/
 ---
 ## SvgImage classe
@@ -40,7 +40,7 @@ public class SvgImage : ISvgImage
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | Salva a imagem SVG como um arquivo EMF. |
 
-### Veja também
+### Ver Também
 
 * interface [ISvgImage](../isvgimage)
 * namespace [Aspose.Slides](../../aspose.slides)

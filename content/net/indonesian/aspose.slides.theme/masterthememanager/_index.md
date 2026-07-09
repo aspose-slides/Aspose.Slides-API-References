@@ -3,7 +3,7 @@ title: MasterThemeManager
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan akses ke tema master presentasi.
 type: docs
-weight: 11420
+weight: 11440
 url: /id/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager kelas
@@ -18,8 +18,8 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Menentukan apakah OverrideTheme menimpa tema efektif yang diwarisi (Presentation.MasterTheme) atau tidak. Baca/tulis Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang menimpa. Baca/tulis [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Menentukan apakah OverrideTheme menggantikan tema efektif yang diwarisi (Presentation.MasterTheme) atau tidak. Baca/tulis Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Mengembalikan objek tema yang menggantikan. Baca/tulis [`IMasterTheme`](../imastertheme). |
 
 ## Metode
 

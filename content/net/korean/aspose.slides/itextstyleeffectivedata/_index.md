@@ -1,6 +1,6 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 효과적인 텍스트 스타일 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 7320
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData 인터페이스
 
-효과적인 텍스트 스타일 속성을 포함하는 불변 객체.
+효과적인 텍스트 스타일 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -30,7 +30,7 @@ public interface ITextStyleEffectiveData
 
 이 인터페이스는 [`ITextStyle`](../itextstyle) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: NormalViewProperties
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten samping, dan wilayah konten bawah.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili properti tampilan normal. Tampilan normal terdiri dari tiga wilayah konten: slide itu sendiri, wilayah konten samping, dan wilayah konten bagian bawah.
 type: docs
-weight: 9090
+weight: 9110
 url: /id/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties kelas
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Menentukan keadaan di mana bar pemisah horizontal harus ditampilkan. Bar pemisah horizontal memisahkan slide dari wilayah konten di bawah slide. |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Menentukan apakah pengguna lebih memilih melihat satu wilayah konten penuh jendela dibandingkan tampilan normal standar dengan tiga wilayah konten. Jika diaktifkan, aplikasi dapat memilih menampilkan salah satu wilayah konten dalam seluruh jendela. Baca/tulis Boolean. |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Elemen ini menentukan ukuran wilayah konten samping tampilan normal, ketika wilayah tersebut memiliki ukuran dipulihkan variabel (tidak diperkecil maupun diperbesar). Baca saja [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Elemen ini menentukan ukuran wilayah slide atas tampilan normal, ketika wilayah tersebut memiliki ukuran dipulihkan variabel (tidak diperkecil maupun diperbesar). Baca saja [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Menentukan apakah aplikasi harus menampilkan ikon bila menampilkan konten garis besar di salah satu wilayah konten mode tampilan normal. Baca/tulis Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Menentukan apakah pemisah vertikal harus menempel ke keadaan diperkecil ketika wilayah samping cukup kecil. Baca/tulis Boolean. |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Menentukan keadaan di mana bar pemisah vertikal harus ditampilkan. Bar pemisah vertikal memisahkan slide dari wilayah konten samping. |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | Menentukan keadaan di mana bilah pemisah horizontal harus ditampilkan. Bilah pemisah horizontal memisahkan slide dari wilayah konten di bawah slide. |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | Menentukan apakah pengguna lebih suka melihat wilayah konten tunggal layar penuh daripada tampilan normal standar dengan tiga wilayah konten. Jika diaktifkan, aplikasi dapat memilih untuk menampilkan salah satu wilayah konten pada seluruh jendela. Baca/tulis Boolean. |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | Elemen ini menentukan ukuran wilayah konten samping dari tampilan normal, ketika wilayah tersebut memiliki ukuran dipulihkan yang variabel (tidak diperkecil atau dimaksimalkan). Hanya baca [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | Elemen ini menentukan ukuran wilayah slide atas dari tampilan normal, ketika wilayah tersebut memiliki ukuran dipulihkan yang variabel (tidak diperkecil atau dimaksimalkan). Hanya baca [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | Menentukan apakah aplikasi harus menampilkan ikon jika menampilkan konten garis besar di salah satu wilayah konten mode tampilan normal. Baca/tulis Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | Menentukan apakah pemisah vertikal harus menempel pada keadaan diperkecil ketika wilayah samping cukup kecil. Baca/tulis Boolean. |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | Menentukan keadaan di mana bilah pemisah vertikal harus ditampilkan. Bilah pemisah vertikal memisahkan slide dari wilayah konten samping. |
 
 ### Contoh
 
-Contoh berikut menunjukkan cara mengonfigurasi properti ViewProperties.NormalViewProperties dari presentasi PowerPoint.
+Contoh berikut menunjukkan cara mengonfigurasi properti ViewProperties.NormalViewProperties dari sebuah Presentasi PowerPoint.
 
 ```csharp
 [C#]
-//Membuat objek presentasi yang mewakili file presentasi
+//Membuat objek presentasi yang mewakili sebuah file presentasi
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -46,8 +46,8 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 ### Lihat Juga
 
-* interface [INormalViewProperties](../inormalviewproperties)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* antarmuka [INormalViewProperties](../inormalviewproperties)
+* ruang nama [Aspose.Slides](../../aspose.slides)
+* perakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Đối tượng bất biến đại diện cho hiệu ứng Alpha Bi-Level. Các giá trị Alpha Opacity nhỏ hơn ngưỡng sẽ được đổi thành 0 hoàn toàn trong suốt và các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được đổi thành 100 hoàn toàn không trong suốt.
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+description: Đối tượng bất biến biểu thị hiệu ứng Alpha Bi-Level. Các giá trị Alpha Opacity thấp hơn ngưỡng sẽ được chuyển thành 0 (hoàn toàn trong suốt) và các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được chuyển thành 100 (hoàn toàn đục).
 type: docs
 weight: 3030
 url: /vi/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData giao diện
 
-Đối tượng không thể thay đổi đại diện cho hiệu ứng Alpha Bi-Level. Các giá trị Alpha (Opacity) nhỏ hơn ngưỡng sẽ được đổi thành 0 (hoàn toàn trong suốt) và các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được đổi thành 100% (hoàn toàn không trong suốt).
+Đối tượng bất biến biểu thị hiệu ứng Alpha Bi-Level. Các giá trị Alpha (Độ mờ) nhỏ hơn ngưỡng sẽ được chuyển thành 0 (hoàn toàn trong suốt) và các giá trị alpha lớn hơn hoặc bằng ngưỡng sẽ được chuyển thành 100% (hoàn toàn đục).
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện cơ sở IEffectEffectiveData. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Trả về ngưỡng hiệu ứng. Chỉ đọc Single. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

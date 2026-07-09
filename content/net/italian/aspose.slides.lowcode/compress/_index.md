@@ -3,10 +3,10 @@ title: Compress
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un gruppo di metodi destinati a comprimere Presentation../aspose.slides/presentation.
 type: docs
-weight: 7850
+weight: 7870
 url: /it/aspose.slides.lowcode/compress/
 ---
-## Classe Compress
+## Compress classe
 
 Rappresenta un gruppo di metodi destinati a comprimere [`Presentation`](../../aspose.slides/presentation).
 
@@ -18,7 +18,7 @@ public static class Compress
 
 | Nome | Descrizione |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Esegue la compressione del [`Presentation`](../../aspose.slides/presentation) rimuovendo i caratteri inutilizzati dai caratteri incorporati. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Esegue la compressione del [`Presentation`](../../aspose.slides/presentation) rimuovendo i caratteri inutilizzati dai font incorporati. |
 | static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Esegue la compressione del [`Presentation`](../../aspose.slides/presentation) rimuovendo le diapositive di layout inutilizzate. |
 | static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Esegue la compressione del [`Presentation`](../../aspose.slides/presentation) rimuovendo le diapositive master inutilizzate. |
 

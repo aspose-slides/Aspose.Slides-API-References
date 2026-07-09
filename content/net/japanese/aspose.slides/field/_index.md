@@ -1,12 +1,12 @@
 ---
 title: Field
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: フィールドを表します。
 type: docs
-weight: 4730
+weight: 4750
 url: /ja/aspose.slides/field/
 ---
-## フィールド クラス
+## Field クラス
 
 フィールドを表します。
 

@@ -1,9 +1,9 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Sildes a .NET API referencia számára
-description: A PDF szabványok megfelelőségi szintjét meghatározó konstansok.
+second_title: Aspose.Sildes .NET API referenciája
+description: Állandók, amelyek meghatározzák a PDF szabványok megfelelőségi szintjét.
 type: docs
-weight: 4300
+weight: 4320
 url: /hu/aspose.slides.export/pdfcompliance/
 ---
 ## PdfCompliance enumeráció

@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeFormattingController
 second_title: Aspose.Sildes for .NET API 參考
-description: 控制 SVG 形狀生成。
+description: 控制 SVG 形狀的產生。
 type: docs
 weight: 4130
 url: /zh-hant/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController 介面
 
-控制 SVG 形狀產生。
+控制 SVG 形狀的產生。
 
 ```csharp
 public interface ISvgShapeFormattingController
@@ -16,11 +16,11 @@ public interface ISvgShapeFormattingController
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | 此函式會在形狀渲染為 SVG 之前呼叫，以允許使用者控制產生的 SVG。 |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | 此函式會在形狀渲染為 SVG 之前呼叫，以允許使用者控制最終的 SVG。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

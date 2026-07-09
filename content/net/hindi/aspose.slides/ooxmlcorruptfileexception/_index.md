@@ -1,28 +1,28 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: जब Office Open XML फ़ाइल फ़ॉर्मेट भ्रष्ट हो जाता है तो फेंका जाने वाला अपवाद।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: जब Office Open XML फ़ाइल प्रारूप ख़राब हो जाता है तो फेंका जाने वाला अपवाद।
 type: docs
 weight: 9190
 url: /hi/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException क्लास
 
-जब Office Open XML फ़ाइल फ़ॉर्मेट भ्रष्ट हो जाता है तो फेंका जाने वाला अपवाद।
+जब Office Open XML फ़ाइल प्रारूप ख़राब हो जाता है तो फेंका जाने वाला अपवाद।
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
 ```
 
-## निर्माताएँ
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला कन्स्ट्रक्टर। |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | एक संदेश और एम्बेडेड अपवाद सहित अपवाद के लिए कन्स्ट्रक्टर। |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | इस अपवाद में संदेश जोड़ने की अनुमति देने वाला कन्स्ट्रक्टर। |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | एक संदेश और एम्बेडेड अपवाद वाले अपवाद के लिए कन्स्ट्रक्टर। |
 
-### सम्बंधित देखें
+### संबंधित देखें
 
 * क्लास [OOXMLException](../ooxmlexception)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

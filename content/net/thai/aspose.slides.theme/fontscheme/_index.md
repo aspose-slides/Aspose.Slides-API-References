@@ -1,14 +1,14 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: จัดเก็บแบบอักษรที่กำหนดโดยธีม.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เก็บแบบอักษรที่กำหนดโดยธีม
 type: docs
 weight: 11130
 url: /th/aspose.slides.theme/fontscheme/
 ---
 ## FontScheme คลาส
 
-จัดเก็บแบบอักษรที่กำหนดโดยธีม.
+เก็บแบบอักษรที่กำหนดโดยธีม
 
 ```csharp
 public class FontScheme : IFontScheme
@@ -18,9 +18,9 @@ public class FontScheme : IFontScheme
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | ส่งคืนคอลเลกชันแบบอักษรสำหรับส่วน "heading" ของสไลด์. อ่านอย่างเดียว [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | ส่งคืนคอลเลกชันแบบอักษรสำหรับส่วน "body" ของสไลด์. อ่านอย่างเดียว [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | ส่งคืนชื่อของแบบฟอนต์สกีม. อ่าน/เขียน String. |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | คืนค่าคอลเลกชันแบบอักษรสำหรับส่วน "heading" ของสไลด์. อ่านอย่างเดียว [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | คืนค่าคอลเลกชันแบบอักษรสำหรับส่วน "body" ของสไลด์. อ่านอย่างเดียว [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | คืนค่าชื่อของชุดแบบอักษร. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایشگر مجموعه افسانه‌ها.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایش‌دهندهٔ مجموعهٔ افسانه‌ها.
 type: docs
 weight: 2140
 url: /fa/aspose.slides.charts/ilegendentrycollection/
 ---
-## ILegendEntryCollection رابط
+## رابط ILegendEntryCollection
 
-نمایشگر مجموعه افسانه‌ها.
+مجموعه افسانه‌ها را نمایش می‌دهد.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -18,8 +18,8 @@ public interface ILegendEntryCollection
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | تعداد عناصری که در واقع در مجموعه موجود هستند را برمی‌گرداند. فقط خواندنی Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | ویژگی‌های ورودی افسانه که به Chart.ChartData.Series[0].DataPoints[index] مربوط می‌شود در صورتی که نوع نمودار از این فهرست باشد: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; یا به Chart.ChartData.Series[index] برای سایر انواع نمودارها مربوط می‌شود. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | تعداد عناصری که در واقع در مجموعه وجود دارند را برمی‌گرداند. فقط خواندنی Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | ویژگی‌های ورودی افسانه را که مربوط به Chart.ChartData.Series[0].DataPoints[index] در صورتی که نوع نمودار از این فهرست باشد: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie؛ یا مربوط به Chart.ChartData.Series[index] برای سایر انواع نمودارها برمی‌گرداند. |
 
 ### موارد مرتبط
 

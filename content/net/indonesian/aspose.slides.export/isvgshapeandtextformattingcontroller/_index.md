@@ -3,12 +3,12 @@ title: ISvgShapeAndTextFormattingController
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mengontrol pembuatan bentuk SVG dan teks.
 type: docs
-weight: 4100
+weight: 4120
 url: /id/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController antarmuka
 
-Mengontrol pembuatan bentuk SVG dan teks.
+Controls SVG shape and text generation.
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | Nama | Deskripsi |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Fungsi ini dipanggil sebelum merender bagian teks ke SVG untuk memungkinkan pengguna mengontrol SVG yang dihasilkan. |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | Fungsi ini dipanggil sebelum rendering bagian teks ke SVG untuk memungkinkan pengguna mengendalikan SVG yang dihasilkan. |
 
 ### Contoh
 

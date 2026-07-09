@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes for .NET API 참조
-description: 형상의 방향을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 도형의 방향을 나타냅니다.
 type: docs
 weight: 9240
 url: /ko/aspose.slides/orientation/
 ---
 ## Orientation 열거형
 
-형상의 방향을 나타냅니다.
+도형의 방향을 나타냅니다.
 
 ```csharp
 public enum Orientation : sbyte
@@ -18,8 +18,8 @@ public enum Orientation : sbyte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Horizontal | `0` | Horizontal. |
-| Vertical | `1` | Vertical. |
+| Horizontal | `0` | 수평. |
+| Vertical | `1` | 수직. |
 
 ### 참조
 

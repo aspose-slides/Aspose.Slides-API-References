@@ -1,20 +1,20 @@
 ---
 title: IInkTrace
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een handgeschreven lijn in een Ink-object voor.
+description: Stelt een handgeschreven lijn voor in een Ink-object.
 type: docs
 weight: 7540
 url: /nl/aspose.slides.ink/iinktrace/
 ---
 ## IInkTrace interface
 
-Stelt een handgeschreven lijn in een Ink-object voor.
+Stelt een handgeschreven lijn voor in een Ink-object.
 
 ```csharp
 public interface IInkTrace
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Sildes .NET API referenciája
-description: Megadja a ZIP tömörítési szinteket az OpenXML fájlhoz. A magasabb szintek jobb tömörítést biztosítanak a lassabb feldolgozás árán.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja a ZIP tömörítési szinteket az OpenXML fájlhoz. A magasabb szintek jobb tömörítést biztosítanak a lassabb feldolgozási idő áron.
 type: docs
-weight: 3720
+weight: 3740
 url: /hu/aspose.slides.export/compressionlevel/
 ---
 ## CompressionLevel enumeráció
 
-Meghatározza a ZIP tömörítési szinteket az OpenXML fájlhoz. A magasabb szintek jobb tömörítést biztosítanak a lassabb feldolgozási sebesség árán.
+Megadja a ZIP tömörítési szinteket az OpenXML fájlhoz. A magasabb szintek jobb tömörítést biztosítanak a lassabb feldolgozási idő áron.
 
 ```csharp
 public enum CompressionLevel
@@ -18,16 +18,16 @@ public enum CompressionLevel
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| None | `0` | Nem alkalmaznak tömörítést. A fájlok változatlanul tárolódnak. |
-| Level1 | `1` | Leggyorsabb tömörítés a legalacsonyabb tömörítési aránnyal. |
-| Level2 | `2` | Gyorsabb tömörítés, amely némileg jobb tömörítési arányt biztosít, mint a Level1. |
-| Level3 | `3` | Jobb tömörítést biztosít, mint a Level2, közepes teljesítményhatással. |
-| Level4 | `4` | Jobb tömörítést biztosít, mint a Level3. |
-| Level5 | `5` | Javított tömörítést kínál a Level4-hez képest, további feldolgozási idővel. |
+| None | `0` | Nem alkalmazható tömörítés. A fájlok változatlanul tárolódnak. |
+| Level1 | `1` | Leggyorsabb tömörítés a legkisebb tömörítési aránnyal. |
+| Level2 | `2` | Gyorsabb tömörítés, amely valamivel jobb tömörítési arányt biztosít, mint a Level1. |
+| Level3 | `3` | Jobb tömörítést nyújt a Level2-hez képest, közepes teljesítményhatással. |
+| Level4 | `4` | Jobb tömörítést nyújt a Level3-hoz képest. |
+| Level5 | `5` | Javított tömörítést biztosít a Level4-hez képest, plusz feldolgozási idővel. |
 | Level6 | `6` | Standard tömörítés, amely jó egyensúlyt nyújt a tömörítési sebesség és a fájlméret között. Az alapértelmezett tömörítési szint. |
-| Level7 | `7` | Magasabb tömörítést biztosít, mint a Level6, lassabb feldolgozással. |
-| Level8 | `8` | Magasabb tömörítést biztosít, mint a Level7. |
-| Level9 | `9` | Maximum tömörítés. A legkisebb fájlméretet eredményezi a leglassabb feldolgozási sebességgel. |
+| Level7 | `7` | Magasabb tömörítést biztosít a Level6-nál, lassabb feldolgozással. |
+| Level8 | `8` | Magasabb tömörítést biztosít a Level7-nél. |
+| Level9 | `9` | Legnagyobb tömörítés. A legkisebb fájlméretet eredményezi a leglassabb feldolgozási sebességgel. |
 
 ### Lásd még
 

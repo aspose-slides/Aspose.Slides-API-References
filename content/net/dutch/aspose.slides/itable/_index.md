@@ -18,18 +18,18 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Stelt in staat de basis-IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Stelt in staat de basis-IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
-| [Columns](../../aspose.slides/itable/columns) { get; } | Geeft de collectie van kolommen terug. Alleen-lezen [`IColumnCollection`](../icolumncollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Maakt het mogelijk de basis-IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Maakt het mogelijk de basis-IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
+| [Columns](../../aspose.slides/itable/columns) { get; } | Geeft de verzameling kolommen terug. Alleen-lezen [`IColumnCollection`](../icolumncollection). |
 | [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bepaalt of de eerste kolom van een tabel moet worden getekend met een speciale opmaak. Lezen/Schrijven Boolean. |
 | [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bepaalt of de eerste rij van een tabel moet worden getekend met een speciale opmaak. Lezen/Schrijven Boolean. |
 | [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Bepaalt of de even rijen moeten worden getekend met een andere opmaak. Lezen/Schrijven Boolean. |
 | [Item](../../aspose.slides/itable/item) { get; } | Geeft de cel terug op de opgegeven kolom- en rij-indexen. Alleen-lezen [`ICell`](../icell). |
 | [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bepaalt of de laatste kolom van een tabel moet worden getekend met een speciale opmaak. Lezen/Schrijven Boolean. |
 | [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bepaalt of de laatste rij van een tabel moet worden getekend met een speciale opmaak. Lezen/Schrijven Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bepaalt of de tabel een rechts-naar-links leessysteem heeft. Lezen-Schrijven Boolean. |
-| [Rows](../../aspose.slides/itable/rows) { get; } | Geeft de collectie van rijen terug. Alleen-lezen [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Haalt de ingebouwde tabelstijl op of stelt deze in. Lezen/Schrijven [`TableStylePreset`](../tablestylepreset). |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Bepaalt of de tabel van rechts-naar-links leesvolgorde heeft. Lees-schrijf Boolean. |
+| [Rows](../../aspose.slides/itable/rows) { get; } | Geeft de verzameling rijen terug. Alleen-lezen [`IRowCollection`](../irowcollection). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Haalt of stelt de ingebouwde tabelstijl in. Lezen/Schrijven [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Geeft het TableFormat-object terug dat opmaak-eigenschappen voor deze tabel bevat. Alleen-lezen [`ITableFormat`](../itableformat). |
 | [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Bepaalt of de even kolommen moeten worden getekend met een andere opmaak. Lezen/Schrijven Boolean. |
 
@@ -37,7 +37,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 | Name | Description |
 | --- | --- |
-| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Voegt naastliggende cellen samen. |
+| [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Voegt aangrenzende cellen samen. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: FontsManager
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: จัดการฟอนต์ทั่วการพรีเซนเทชัน.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: จัดการแบบอักษรทั่วทั้งงานนำเสนอ.
 type: docs
 weight: 4940
 url: /th/aspose.slides/fontsmanager/
 ---
-## คลาส FontsManager
+## FontsManager คลาส
 
-จัดการฟอนต์ทั่วพรีเซนเทชัน
+จัดการแบบอักษรทั่วทั้งงานนำเสนอ.
 
 ```csharp
 public class FontsManager : IFontsManager
@@ -18,36 +18,36 @@ public class FontsManager : IFontsManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | แสดงคอลเลกชันของกฎ FontFallBack ของผู้ใช้สำหรับการจัดการคอลเลกชันของฟอนต์เพื่อการแทนที่ที่เหมาะสมโดยฟังก์ชัน fallback อ่าน/เขียน [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | การแทนที่ฟอนต์ที่จะใช้เมื่อเรนเดอร์ อ่าน/เขียน [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | แสดงคอลเลกชันของผู้ใช้สำหรับกฎ FontFallBack เพื่อจัดการคอลเลกชันของแบบอักษรสำหรับการทดแทนที่เหมาะสมโดยฟังก์ชัน fallback อ่าน/เขียน [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | การทดแทนแบบอักษรที่ใช้ในการเรนเดอร์ อ่าน/เขียน [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | เพิ่มฟอนต์ที่ฝังไว้ โปรดจำว่าเมื่อคัดลอกฟอนต์ใด ๆ ฟอนต์ส่วนใหญ่มีลิขสิทธิ์ ก่อนอื่นให้ค้นหาใบอนุญาตของฟอนต์และตรวจสอบว่ามีสิทธิ์โอนย้ายได้อย่างอิสระไปยังเครื่องอื่น ArgumentException อาจถูกโยนถ้าข้อมูลฟอนต์เป็น null หรือฟอนต์นี้ได้ฝังไว้แล้ว |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | เพิ่มฟอนต์ที่ฝังไว้ โปรดจำว่าเมื่อคัดลอกฟอนต์ใด ๆ ฟอนต์ส่วนใหญ่มีลิขสิทธิ์ ก่อนอื่นให้ค้นหาใบอนุญาตของฟอนต์และตรวจสอบว่ามีสิทธิ์โอนย้ายได้อย่างอิสระไปยังเครื่องอื่น ArgumentException อาจถูกโยนถ้าข้อมูลฟอนต์เป็น null หรือฟอนต์นี้ได้ฝังไว้แล้ว |
-| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | คืนค่าฟอนต์ที่ฝังในพรีเซนเทชัน |
-| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | ดึงอาเรย์ไบต์ที่แสดงข้อมูลฟอนต์สำหรับสไตล์ฟอนต์และข้อมูลฟอนต์ที่ระบุ |
-| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | กำหนดระดับการฝังฟอนต์จากอาเรย์ไบต์และชื่อฟอนต์ที่ให้ |
-| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | คืนค่าฟอนต์ที่ใช้ในพรีเซนเทชัน |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | รับข้อมูลเกี่ยวกับฟอนต์ที่จะถูกแทนที่ในการเรนเดอร์ของพรีเซนเทชัน |
-| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | รับข้อมูลเกี่ยวกับฟอนต์ที่จะถูกแทนที่ระหว่างการเรนเดอร์ของสไลด์ที่ระบุ |
-| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | ลบฟอนต์ที่ฝังไว้ |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | แทนที่ฟอนต์ในพรีเซนเทชันโดยใช้ข้อมูลที่ให้ใน [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | แทนที่ฟอนต์ในพรีเซนเทชันโดยใช้ข้อมูลที่ให้ในคอลเลกชันของ [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | แทนที่ฟอนต์ในพรีเซนเทชัน |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | เพิ่มแบบอักษรที่ฝังไว้ โปรดจำไว้เมื่อคัดลอกแบบอักษรใด ๆ เนื่องจากแบบอักษรส่วนใหญ่มีลิขสิทธิ์ ควรค้นหาร่องรอบลิขสิทธิ์ของแบบอักษรก่อนและตรวจสอบว่ามันสามารถถ่ายโอนไปยังเครื่องอื่นได้อย่างอิสระ หากข้อมูลแบบอักษรเป็น null หรือแบบอักษรนี้ได้ถูกฝังไว้แล้ว จะมีการโยน ArgumentException |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | เพิ่มแบบอักษรที่ฝังไว้ โปรดจำไว้เมื่อคัดลอกแบบอักษรใด ๆ เนื่องจากแบบอักษรส่วนใหญ่มีลิขสิทธิ์ ควรค้นหาร่องรอบลิขสิทธิ์ของแบบอักษรก่อนและตรวจสอบว่ามันสามารถถ่ายโอนไปยังเครื่องอื่นได้อย่างอิสระ หากข้อมูลแบบอักษรเป็น null หรือแบบอักษรนี้ได้ถูกฝังไว้แล้ว จะมีการโยน ArgumentException |
+| [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | คืนค่าแบบอักษรที่ฝังไว้ในงานนำเสนอ |
+| [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | ดึงอาร์เรย์ไบต์ที่แสดงข้อมูลแบบอักษรสำหรับสไตล์แบบอักษรและข้อมูลแบบอักษรที่ระบุ |
+| [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | กำหนดระดับการฝังแบบอักษรจากอาร์เรย์ไบต์และชื่อแบบอักษรที่ให้มา |
+| [GetFonts](../../aspose.slides/fontsmanager/getfonts)() | คืนค่าแบบอักษรที่ใช้ในงานนำเสนอ |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ในการเรนเดอร์ของงานนำเสนอ |
+| [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | รับข้อมูลเกี่ยวกับแบบอักษรที่จะแทนที่ระหว่างการเรนเดอร์ของสไลด์ที่ระบุ |
+| [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | ลบแบบอักษรที่ฝังไว้ |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | แทนที่แบบอักษรในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ใน [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | แทนที่แบบอักษรในงานนำเสนอโดยใช้ข้อมูลที่ให้ไว้ในคอลเลกชันของ [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | แทนที่แบบอักษรในงานนำเสนอ |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีเพิ่มฟอนต์ที่ฝังไว้ใน PowerPoint Presentation
+ตัวอย่างต่อไปนี้แสดงวิธีการเพิ่มแบบอักษรที่ฝังไว้ใน PowerPoint Presentation.
 
 ```csharp
 [C#]
-// โหลดพรีเซนเทชัน
+// โหลดงานนำเสนอ
 using (Presentation presentation = new Presentation("Fonts.pptx"))
 {
-	// โหลดฟอนต์ต้นฉบับที่ต้องการแทนที่
+	// โหลดแบบอักษรต้นทางที่จะถูกแทนที่
 	IFontData sourceFont = new FontData("Arial");
 	IFontData[] allFonts = presentation.FontsManager.GetFonts();
 	IFontData[] embeddedFonts = presentation.FontsManager.GetEmbeddedFonts();
@@ -58,7 +58,7 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 			presentation.FontsManager.AddEmbeddedFont(font, EmbedFontCharacters.All);
 		}
 	}
-	// บันทึกพรีเซนเทชัน
+	// บันทึกงานนำเสนอ
 	presentation.Save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 }
 ```

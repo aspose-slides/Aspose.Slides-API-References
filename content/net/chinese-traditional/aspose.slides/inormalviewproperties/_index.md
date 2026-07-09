@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示普通檢視屬性。普通檢視由三個內容區域組成：投影片本身、側邊內容區以及底部內容區。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示常規檢視屬性。常規檢視由三個內容區域組成：投影片本身、一個側邊內容區域，以及一個底部內容區域。
 type: docs
 weight: 6470
 url: /zh-hant/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties 介面
 
-表示普通檢視屬性。普通檢視包含三個內容區域：投影片本身、側邊內容區以及底部內容區。
+表示常規檢視屬性。常規檢視由三個內容區域組成：投影片本身、一個側邊內容區域，以及一個底部內容區域。
 
 ```csharp
 public interface INormalViewProperties
@@ -18,13 +18,13 @@ public interface INormalViewProperties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 指定水平分割條應顯示的狀態。水平分割條將投影片與投影片下方的內容區分開。 |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 指定使用者是否偏好在完整視窗中顯示單一內容區，而非具有三個內容區的標準普通檢視。若啟用，應用程式可能會選擇將其中一個內容區顯示於整個視窗。讀寫 Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 此元素指定普通檢視中側邊內容區的尺寸，當該區域處於可變的還原大小（未最小化亦未最大化）時。Read opnly [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 此元素指定普通檢視中上方投影片區的尺寸，當該區域處於可變的還原大小（未最小化亦未最大化）時。唯讀 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 指定如果在普通檢視模式的任何內容區顯示大綱內容，應用程式是否應顯示圖示。讀寫 Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 指定當側邊區域足夠小時，垂直分割條是否應自動縮至最小化狀態。讀寫 Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 指定垂直分割條應顯示的狀態。垂直分割條將投影片與側邊內容區分開。 |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | 指定水平分割條應顯示的狀態。水平分割條將投影片與投影片下方的內容區域分開。 |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | 指定使用者是否偏好在全螢幕單一內容區域中取代具有三個內容區域的標準常規檢視。啟用後，應用程式可能會選擇在整個視窗中顯示其中一個內容區域。讀寫 Boolean。 |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | 此元素指定常規檢視側邊內容區域的大小，當該區域處於可變還原大小（既未最小化亦未最大化）時。唯讀 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | 此元素指定常規檢視頂部投影片區域的大小，當該區域處於可變還原大小（既未最小化亦未最大化）時。唯讀 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | 指定當在常規檢視模式的任何內容區域中顯示大綱內容時，應用程式是否應顯示圖示。讀寫 Boolean。 |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | 指定當側邊區域足夠小時，垂直分割條是否應自動貼齊至最小化狀態。讀寫 Boolean。 |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | 指定垂直分割條應顯示的狀態。垂直分割條將投影片與側邊內容區域分開。 |
 
 ### 另請參閱
 

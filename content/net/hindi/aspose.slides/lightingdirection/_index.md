@@ -6,7 +6,7 @@ type: docs
 weight: 7710
 url: /hi/aspose.slides/lightingdirection/
 ---
-## LightingDirection एन्‍युमरेशन
+## LightingDirection एन्यूमरेशन
 
 लाइट दिशाओं को परिभाषित करने वाले स्थिरांक।
 

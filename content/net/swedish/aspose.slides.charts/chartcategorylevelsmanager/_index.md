@@ -3,10 +3,10 @@ title: ChartCategoryLevelsManager
 second_title: Aspose.Sildes för .NET API-referens
 description: Hanterad behållare för värdena i diagrammets kategorinivåer.
 type: docs
-weight: 1270
+weight: 1290
 url: /sv/aspose.slides.charts/chartcategorylevelsmanager/
 ---
-## ChartCategoryLevelsManager klass
+## ChartCategoryLevelsManager-klass
 
 Hanterad behållare för värdena i diagrammets kategorinivåer.
 
@@ -24,7 +24,7 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Raderar grupperingselement för definierad nivå. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | Tar bort grupperingselement för definierad nivå. |
 | [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | Ställer in grupperingselement för definierad nivå. |
 
 ### Se även

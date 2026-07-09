@@ -1,14 +1,14 @@
 ---
 title: ShredTransition
-second_title: Aspose.Sildes برای مرجع API .NET
-description: اثر انتقال اسلاید به شکل پاره‌شدن.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: افکت انتقال اسلاید Shred.
 type: docs
 weight: 10300
 url: /fa/aspose.slides.slideshow/shredtransition/
 ---
-## ShredTransition کلاس
+## کلاس ShredTransition
 
-اثر انتقال اسلاید با حالت پاره‌شدن.
+افکت انتقال اسلاید Shred.
 
 ```csharp
 public class ShredTransition : TransitionValueBase, IShredTransition
@@ -16,17 +16,17 @@ public class ShredTransition : TransitionValueBase, IShredTransition
 
 ## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | جهت انتقال. خواندن/نوشتن [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | شکل گرافیک‌های استفاده‌شده در طول انتقال را مشخص می‌کند. خواندن/نوشتن [`TransitionShredPattern`](../transitionshredpattern). |
+| [Direction](../../aspose.slides.slideshow/shredtransition/direction) { get; set; } | جهت انتقال. قابل خواندن/نوشتن [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/shredtransition/pattern) { get; set; } | شکل بصری‌های مورد استفاده در طول انتقال را مشخص می‌کند. قابل خواندن/نوشتن [`TransitionShredPattern`](../transitionshredpattern). |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونهٔ TransitionValueBase برابر هستند یا خیر. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به‌عنوان یک تابع هش برای یک نوع خاص عمل می‌کند و برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند آیا دو نمونه TransitionValueBase برابر هستند یا خیر. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | یک تابع هش برای یک نوع خاص ارائه می‌دهد که برای الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
 ### موارد مرتبط
 

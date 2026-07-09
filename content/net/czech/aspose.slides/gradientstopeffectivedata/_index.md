@@ -1,9 +1,9 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který představuje zastavení gradientu.
 type: docs
-weight: 5030
+weight: 5050
 url: /cs/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData třída
@@ -25,7 +25,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Určuje, zda je zadaný [`GradientStopEffectiveData`](../gradientstopeffectivedata) roven aktuálnímu [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Určuje, zda je specifikovaný [`GradientStopEffectiveData`](../gradientstopeffectivedata) roven aktuálnímu [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Viz také

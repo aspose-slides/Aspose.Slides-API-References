@@ -1,9 +1,9 @@
 ---
 title: IComment
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα σχόλιο σε μια διαφάνεια.
 type: docs
-weight: 5540
+weight: 5560
 url: /el/aspose.slides/icomment/
 ---
 ## IComment διασύνδεση
@@ -19,7 +19,7 @@ public interface IComment
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Επιστρέφει τον συγγραφέα ενός σχολίου. Μόνο για ανάγνωση [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Επιστρέφει ή ορίζει την ώρα δημιουργίας ενός σχολίου. Ο καθορισμός αυτής της ιδιότητας σε MinValue σημαίνει ότι δεν έχει οριστεί ώρα σχολίου. Ανάγνωση/εγγραφή DateTime. |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Επιστρέφει ή ορίζει τον χρόνο δημιουργίας ενός σχολίου. Ο ορισμός αυτής της ιδιότητας σε MinValue σημαίνει ότι δεν έχει οριστεί χρόνος σχολίου. Ανάγνωση/εγγραφή DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Λαμβάνει ή ορίζει το γονικό σχόλιο. Ανάγνωση/εγγραφή [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Επιστρέφει ή ορίζει τη θέση ενός σχολίου σε μια διαφάνεια. Ανάγνωση/εγγραφή PointF. |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | Επιστρέφει ή ορίζει τη γονική διαφάνεια ενός σχολίου. Μόνο για ανάγνωση [`ISlide`](../islide). |
@@ -29,7 +29,7 @@ public interface IComment
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | Αφαιρεί το σχόλιο και όλες τις απαντήσεις του από τη συλλογή γονέα. |
+| [Remove](../../aspose.slides/icomment/remove)() | Αφαιρεί το σχόλιο και όλες τις απαντήσεις του από τη γονική συλλογή. |
 
 ### Δείτε επίσης
 

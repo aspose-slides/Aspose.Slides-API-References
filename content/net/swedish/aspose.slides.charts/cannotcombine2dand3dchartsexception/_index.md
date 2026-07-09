@@ -3,12 +3,12 @@ title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes för .NET API-referens
 description: Undantag som kastas när man försöker kombinera 2D- och 3D-diagramtyper.
 type: docs
-weight: 1220
+weight: 1240
 url: /sv/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException klass
 
-Exception som kastas när man försöker kombinera 2D- och 3D-diagramtyper.
+Undantag som kastas när man försöker kombinera 2D- och 3D-diagramtyper.
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -19,10 +19,10 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 | Namn | Beskrivning |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | Standardkonstruktor. |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | Konstruktor som möjliggör att ett meddelande läggs till detta undantag. |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * samling [Aspose.Slides](../../)

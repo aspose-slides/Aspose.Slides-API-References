@@ -1,7 +1,7 @@
 ---
 title: IPropertyEffect
-second_title: Aspose.Sildes .NET API 參考
-description: 表示屬性效果行為。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示屬性效果的行為。
 type: docs
 weight: 560
 url: /zh-hant/aspose.slides.animation/ipropertyeffect/
@@ -19,7 +19,7 @@ public interface IPropertyEffect : IBehavior
 | 名稱 | 描述 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | 允許取得基礎 IBehavior 介面。唯讀 [`IBehavior`](../ibehavior)。 |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | 指定相對於動畫開始前位置的動畫偏移值。可讀寫 String。 |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | 指定相對於動畫開始前位置的偏移值。可讀寫 String。 |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | 指定動畫的插值模式。可讀寫 [`PropertyCalcModeType`](../propertycalcmodetype)。 |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | 指定動畫的起始值。可讀寫 String。 |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | 指定動畫的點。可讀寫 [`IPointCollection`](../ipointcollection)。 |

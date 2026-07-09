@@ -1,9 +1,9 @@
 ---
 title: Camera
-second_title: Aspose.Sildes .NET API referencia
-description: Kamerát reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: Kamerát reprezentál.
 type: docs
-weight: 1070
+weight: 1090
 url: /hu/aspose.slides/camera/
 ---
 ## Camera osztály
@@ -20,17 +20,17 @@ public sealed class Camera : PVIObject, ICamera
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 | [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Camera típusa. Olvasható/írható [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera FOV (0-180 fok, látótér). Olvasható/írható Single. |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | Camera FOV (0-180 fok, látószög). Olvasható/írható Single. |
 | [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Camera zoom (pozitív érték százalékban). Olvasható/írható Single. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
-| [GetRotation](../../aspose.slides/camera/getrotation)() | A forgást a szélességi koordináta, a hosszúsági koordináta, valamint az tengely körüli forgás használatával definiáljuk a szélességi és hosszúsági koordinátáként. Az eredmény tömb első eleme – szélesség, a második – hosszúság, a harmadik – revolúció. Null értéket ad vissza, ha nincs definiált forgás. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | A forgást a szélességi koordináta, a hosszúsági koordináta, valamint az tengely körüli revolúció használatával definiáljuk. Ha bármely koordináta értéke float.NaN, a forgás teljesen nem definiált. |
+| [GetRotation](../../aspose.slides/camera/getrotation)() | A forgatás egy szélességi koordináta, egy hosszúsági koordináta és egy tengely körüli revolúció használatával van meghatározva a szélességi és hosszúsági koordináták alapján. Az első elem a visszatérő tömbben – szélesség, a második – hosszúság, a harmadik – revolúció. Null értéket ad vissza, ha nincs definiálva forgatás. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | A forgatás egy szélességi koordináta, egy hosszúsági koordináta és egy tengely körüli revolúció használatával van meghatározva a szélességi és hosszúsági koordináták alapján. Ha bármely koordinátáérték float.NaN, a forgatás nem definiált. |
 
 ### Lásd még
 

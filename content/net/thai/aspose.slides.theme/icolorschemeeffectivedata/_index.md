@@ -1,14 +1,14 @@
 ---
 title: IColorSchemeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของโครงสร้างสีที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุปัจจัยสีของสคีมที่ใช้งานจริง.
 type: docs
 weight: 11160
 url: /th/aspose.slides.theme/icolorschemeeffectivedata/
 ---
 ## IColorSchemeEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของโครงสร้างสีที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุปัจจัยสีของสคีมที่ใช้งานจริง
 
 ```csharp
 public interface IColorSchemeEffectiveData
@@ -16,21 +16,21 @@ public interface IColorSchemeEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | สีอักเซนท์แรกในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | สีอักเซนท์ที่สองในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | สีอักเซนท์ที่สามในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | สีอักเซนท์ที่สี่ในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | สีอักเซนท์ที่ห้าในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | สีอักเซนท์ที่หกในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | สีมืดแรกในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | สีมืดที่สองในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | สีสำหรับลิงก์ที่เข้าชมแล้ว. Color แบบอ่านอย่างเดียว. |
-| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | สีสำหรับลิงก์. Color แบบอ่านอย่างเดียว. |
-| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | ดึงเอาองค์ประกอบที่ตำแหน่งตามดัชนีที่ระบุ. Color แบบอ่านอย่างเดียว. |
-| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | สีสว่างแรกในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
-| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | สีสว่างที่สองในโครงสร้าง. Color แบบอ่านอย่างเดียว. |
+| [Accent1](../../aspose.slides.theme/icolorschemeeffectivedata/accent1) { get; } | สีสำเนียงแรกในสคีม. อ่านอย่างเดียว Color. |
+| [Accent2](../../aspose.slides.theme/icolorschemeeffectivedata/accent2) { get; } | สีสำเนียงที่สองในสคีม. อ่านอย่างเดียว Color. |
+| [Accent3](../../aspose.slides.theme/icolorschemeeffectivedata/accent3) { get; } | สีสำเนียงที่สามในสคีม. อ่านอย่างเดียว Color. |
+| [Accent4](../../aspose.slides.theme/icolorschemeeffectivedata/accent4) { get; } | สีสำเนียงที่สี่ในสคีม. อ่านอย่างเดียว Color. |
+| [Accent5](../../aspose.slides.theme/icolorschemeeffectivedata/accent5) { get; } | สีสำเนียงที่ห้าในสคีม. อ่านอย่างเดียว Color. |
+| [Accent6](../../aspose.slides.theme/icolorschemeeffectivedata/accent6) { get; } | สีสำเนียงที่หกในสคีม. อ่านอย่างเดียว Color. |
+| [Dark1](../../aspose.slides.theme/icolorschemeeffectivedata/dark1) { get; } | สีเข้มแรกในสคีม. อ่านอย่างเดียว Color. |
+| [Dark2](../../aspose.slides.theme/icolorschemeeffectivedata/dark2) { get; } | สีเข้มที่สองในสคีม. อ่านอย่างเดียว Color. |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/followedhyperlink) { get; } | สีสำหรับไฮเพอร์ลิงก์ที่เคยเยี่ยมชม. อ่านอย่างเดียว Color. |
+| [Hyperlink](../../aspose.slides.theme/icolorschemeeffectivedata/hyperlink) { get; } | สีสำหรับไฮเพอร์ลิงก์. อ่านอย่างเดียว Color. |
+| [Item](../../aspose.slides.theme/icolorschemeeffectivedata/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว Color. |
+| [Light1](../../aspose.slides.theme/icolorschemeeffectivedata/light1) { get; } | สีอ่อนแรกในสคีม. อ่านอย่างเดียว Color. |
+| [Light2](../../aspose.slides.theme/icolorschemeeffectivedata/light2) { get; } | สีอ่อนที่สองในสคีม. อ่านอย่างเดียว Color. |
 
 ### หมายเหตุ
 

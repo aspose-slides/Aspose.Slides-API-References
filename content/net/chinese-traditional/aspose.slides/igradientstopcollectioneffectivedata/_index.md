@@ -1,6 +1,6 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示 GradientStopDataEx 物件的集合。
 type: docs
 weight: 6040
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 依索引傳回漸層停止點。 |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | 依索引返回漸層停止點。 |
 
 ### 另請參閱
 

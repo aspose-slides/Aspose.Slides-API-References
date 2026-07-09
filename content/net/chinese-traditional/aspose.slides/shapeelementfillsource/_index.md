@@ -16,14 +16,14 @@ public enum ShapeElementFillSource : byte
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| NoFill | `0` | 不要填充原始物件。 |
+| NoFill | `0` | 不要填充基元。 |
 | Shape | `1` | 使用形狀的填充。 |
-| Lighten | `2` | 使用變亮的形狀填充。 |
-| LightenLess | `3` | 使用較少變亮的形狀填充。 |
-| Darken | `4` | 使用變暗的形狀填充。 |
-| DarkenLess | `5` | 使用較少變暗的形狀填充。 |
+| Lighten | `2` | 使用亮化形狀的填充。 |
+| LightenLess | `3` | 使用較少亮化的形狀填充。 |
+| Darken | `4` | 使用暗化形狀的填充。 |
+| DarkenLess | `5` | 使用較少暗化的形狀填充。 |
 
 ### 另請參閱
 

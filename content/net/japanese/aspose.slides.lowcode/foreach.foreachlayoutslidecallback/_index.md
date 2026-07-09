@@ -1,23 +1,23 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
 second_title: Aspose.Sildes の .NET API リファレンス
-description: Presentation の ./foreach/layoutslide にある各 LayoutSlide に対して呼び出されるコールバックです。../aspose.slides/presentation.
+description: 各 LayoutSlide./foreach/layoutslide に対して呼び出されるコールバックです（Presentation../aspose.slides/presentation の中）。
 type: docs
-weight: 7890
+weight: 7910
 url: /ja/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
 ## ForEach.ForEachLayoutSlideCallback デリゲート
 
-各 [`LayoutSlide`](../foreach/layoutslide) に対して [`Presentation`](../../aspose.slides/presentation) 内で呼び出されるコールバックです。
+[`Presentation`](../../aspose.slides/presentation) の中の各 [`LayoutSlide`](../foreach/layoutslide) に対して呼び出されるコールバックです。
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | 現在反復中の LayoutSlide |
-| index | Int32 | 現在の layout slide のインデックス |
+| layoutSlide | LayoutSlide | 現在反復中のレイアウトスライド |
+| index | Int32 | 現在のレイアウトスライドのインデックス |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: インタラクティブシーケンスのコレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 対話型シーケンスのコレクションを表します。
 type: docs
-weight: 580
+weight: 600
 url: /ja/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection インターフェイス
 
-インタラクティブシーケンスのコレクションを表します。
+対話型シーケンスのコレクションを表します。
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -26,7 +26,7 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 新しいインタラクティブシーケンスを追加します。 |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 新しい対話型シーケンスを追加します。 |
 | [Clear](../../aspose.slides.animation/isequencecollection/clear)() | コレクションからすべてのシーケンスを削除します。 |
 | [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | コレクションから指定されたシーケンスを削除します。 |
 | [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | 指定されたインデックスのシーケンスを削除します。 |

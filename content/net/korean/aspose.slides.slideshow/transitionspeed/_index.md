@@ -1,6 +1,6 @@
 ---
 title: TransitionSpeed
-second_title: Aspose.Sildes .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 전환 속도 유형을 나타냅니다.
 type: docs
 weight: 10440
@@ -22,7 +22,7 @@ public enum TransitionSpeed
 | Medium | `1` |  |
 | Slow | `2` |  |
 
-### 참조
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

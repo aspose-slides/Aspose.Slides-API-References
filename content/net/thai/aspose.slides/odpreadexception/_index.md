@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านการนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านงานนำเสนอ
 type: docs
 weight: 9220
 url: /th/aspose.slides/odpreadexception/
 ---
 ## OdpReadException คลาส
 
-แสดงถึงข้อยกเว้นที่เกิดขึ้นเมื่อมีข้อผิดพลาดในการอ่านการนำเสนอ
+เป็นข้อยกเว้นที่ถูกโยนเมื่อเกิดข้อผิดพลาดในการอ่านงานนำเสนอ
 
 ```csharp
 public class OdpReadException : OdpException
@@ -19,7 +19,7 @@ public class OdpReadException : OdpException
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [OdpReadException](odpreadexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น |
-| [OdpReadException](odpreadexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้ |
+| [OdpReadException](odpreadexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความลงในข้อยกเว้นนี้ |
 | [OdpReadException](odpreadexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
 
 ### ดูเพิ่มเติม

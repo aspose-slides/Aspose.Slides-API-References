@@ -14,18 +14,18 @@ Staat toe een wiskundige randvak te maken
 public class MathBorderBoxFactory : IMathBorderBoxFactory
 ```
 
-## Constructors
+## Constructoren
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [MathBorderBoxFactory](mathborderboxfactory)() | De standaardconstructor. |
 
-## Methods
+## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een wiskundige randvak door toe te passen op het element |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een wiskundige randvak door toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | Maak een wiskundige randvak door deze toe te passen op het element |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | Maak een wiskundige randvak door deze toe te passen op het element |
 
 ### Opmerkingen
 

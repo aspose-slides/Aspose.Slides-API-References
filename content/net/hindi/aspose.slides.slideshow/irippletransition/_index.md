@@ -18,10 +18,10 @@ public interface IRippleTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`ITransitionValueBase`](../itransitionvaluebase)। |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने-योग्य [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)। |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नेमस्पेस [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

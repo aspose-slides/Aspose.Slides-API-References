@@ -1,14 +1,14 @@
 ---
 title: BrowsedByIndividual
 second_title: Aspose.Sildes for .NET API 참조
-description: 개별 탐색 창
+description: 개별 창에서 탐색
 type: docs
 weight: 1050
 url: /ko/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual 클래스
 
-개별적으로 탐색 (윈도우)
+Browsed by individual (window)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -18,13 +18,13 @@ public class BrowsedByIndividual : SlideShowType
 
 | 이름 | 설명 |
 | --- | --- |
-| [BrowsedByIndividual](browsedbyindividual)() | 새로운 BrowsedByIndividual 클래스의 인스턴스를 초기화합니다. |
+| [BrowsedByIndividual](browsedbyindividual)() | BrowsedByIndividual 클래스의 새 인스턴스를 초기화합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | 창에 스크롤 막대 표시 |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | 창에서 스크롤 바 표시 |
 
 ### 예제
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 또 보기
 
 * 클래스 [SlideShowType](../slideshowtype)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

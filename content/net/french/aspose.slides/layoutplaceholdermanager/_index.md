@@ -1,15 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Slides pour la référence API .NET
-description: Représente un gestionnaire qui vous permet d'ajouter des espaces réservés à la diapositive de mise en page.
+second_title: Aspose.Sildes pour .NET Référence d'API
+description: Représente le gestionnaire qui vous permet d'ajouter des espaces réservés à la diapositive de disposition.
 type: docs
-weight: 7390
+weight: 7630
 url: /fr/aspose.slides/layoutplaceholdermanager/
 ---
+## LayoutPlaceholderManager classe
 
-## Classe LayoutPlaceholderManager
-
-Représente un gestionnaire qui vous permet d'ajouter des espaces réservés à la diapositive de mise en page.
+Représente le gestionnaire qui vous permet d’ajouter des espaces réservés à la diapositive de disposition.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -19,21 +18,21 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Nom | Description |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir un graphique. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu, comme une image, un tableau, un média ou du texte. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir un objet multimédia. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir une image en ligne. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir une image. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir un diagramme SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir un tableau. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu textuel. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu, comme une image, un tableau, un média ou du texte en direction verticale. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d'espace réservé à la diapositive de mise en page pour contenir du contenu textuel en direction verticale. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir un graphique. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir du contenu, tel qu’une image, un tableau, un média ou du texte. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir un objet média. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir une image en ligne. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir une image. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir un diagramme SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir un tableau. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir du texte. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir du contenu, tel qu’une image, un tableau, un média ou du texte, dans une direction verticale. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Ajoute une nouvelle forme d’espace réservé à la diapositive de disposition pour contenir du texte dans une direction verticale. |
 
 ### Voir aussi
 
-* interface [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

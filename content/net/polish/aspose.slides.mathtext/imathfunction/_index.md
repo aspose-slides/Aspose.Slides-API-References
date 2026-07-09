@@ -1,12 +1,12 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET dokumentacja API
 description: Określa funkcję argumentu.
 type: docs
-weight: 8250
+weight: 8270
 url: /pl/aspose.slides.mathtext/imathfunction/
 ---
-## IMathFunction interfejs
+## interfejs IMathFunction
 
 Określa funkcję argumentu.
 
@@ -20,7 +20,7 @@ public interface IMathFunction : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Argument funkcji |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nazwa funkcji. Przykładowo nazwy funkcji to sin i cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nazwa funkcji. Na przykład nazwy funkcji to sin i cos |
 
 ### Przykłady
 
@@ -31,7 +31,7 @@ Przykład:
 IMathFunction sinX = new MathematicalText("sin").Function("x");
 ```
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [IMathElement](../imathelement)
 * przestrzeń nazw [Aspose.Slides.MathText](../../aspose.slides.mathtext)

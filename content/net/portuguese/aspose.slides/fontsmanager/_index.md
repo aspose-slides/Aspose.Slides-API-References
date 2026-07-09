@@ -3,10 +3,10 @@ title: FontsManager
 second_title: Referência da API Aspose.Sildes para .NET
 description: Gerencia fontes em toda a apresentação.
 type: docs
-weight: 4920
+weight: 4940
 url: /pt/aspose.slides/fontsmanager/
 ---
-## classe FontsManager
+## FontsManager classe
 
 Gerencia fontes em toda a apresentação.
 
@@ -18,15 +18,15 @@ public class FontsManager : IFontsManager
 
 | Nome | Descrição |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Representa a coleção de regras FontFallBack de um usuário para gerenciamento de coleções de fontes para substituições adequadas por funcionalidade de fallback Leitura/gravação [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Substituições de fontes a serem usadas na renderização. Leitura/gravação [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/fontsmanager/fontfallbackrulescollection) { get; set; } | Representa a coleção de regras FontFallBack do usuário para gerenciamento de coleções de fontes para substituições adequadas pela funcionalidade de fallback. Leitura/gravação [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/fontsmanager/fontsubstrulelist) { get; set; } | Substituições de fontes a serem usadas ao renderizar. Leitura/gravação [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Adiciona a fonte incorporada. Tenha em mente ao copiar quaisquer fontes que a maioria delas é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada. |
-| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Adiciona a fonte incorporada. Tenha em mente ao copiar quaisquer fontes que a maioria delas é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Adiciona a fonte incorporada. Tenha em mente ao copiar quaisquer fontes que a maioria das fontes é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada. |
+| [AddEmbeddedFont](../../aspose.slides/fontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Adiciona a fonte incorporada. Tenha em mente ao copiar quaisquer fontes que a maioria das fontes é protegida por direitos autorais. Primeiro localize a licença de uma fonte com antecedência e verifique se ela pode ser transferida livremente para outra máquina. Uma ArgumentException pode ser lançada se os dados da fonte forem nulos ou se esta fonte já estiver incorporada. |
 | [GetEmbeddedFonts](../../aspose.slides/fontsmanager/getembeddedfonts)() | Retorna as fontes incorporadas na apresentação. |
 | [GetFontBytes](../../aspose.slides/fontsmanager/getfontbytes)(IFontData, FontStyleType) | Recupera o array de bytes que representa os dados da fonte para um estilo de fonte e dados de fonte especificados. |
 | [GetFontEmbeddingLevel](../../aspose.slides/fontsmanager/getfontembeddinglevel)(byte[], string) | Determina o nível de incorporação de uma fonte a partir do array de bytes fornecido e do nome da fonte. |
@@ -34,13 +34,13 @@ public class FontsManager : IFontsManager
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions)() | Obtém as informações sobre as fontes que serão substituídas na renderização da apresentação. |
 | [GetSubstitutions](../../aspose.slides/fontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Obtém as informações sobre as fontes que serão substituídas durante a renderização dos slides especificados. |
 | [RemoveEmbeddedFont](../../aspose.slides/fontsmanager/removeembeddedfont)(IFontData) | Remove a fonte incorporada. |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Substitui a fonte na apresentação usando as informações fornecidas em [`FontSubstRule`](../fontsubstrule) |
-| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Substitui a fonte na apresentação usando as informações fornecidas na coleção de [`FontSubstRule`](../fontsubstrule) |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Substitui a fonte na apresentação usando as informações fornecidas em [`FontSubstRule`](../fontsubstrule). |
+| [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Substitui a fonte na apresentação usando as informações fornecidas na coleção de [`FontSubstRule`](../fontsubstrule). |
 | [ReplaceFont](../../aspose.slides/fontsmanager/replacefont#replacefont)(IFontData, IFontData) | Substitui a fonte na apresentação. |
 
 ### Exemplos
 
-O exemplo a seguir mostra como adicionar fontes incorporadas ao PowerPoint Presentation.
+O exemplo a seguir demonstra como adicionar fontes incorporadas a uma apresentação do PowerPoint.
 
 ```csharp
 [C#]
@@ -63,7 +63,7 @@ using (Presentation presentation = new Presentation("Fonts.pptx"))
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IFontsManager](../ifontsmanager)
 * namespace [Aspose.Slides](../../aspose.slides)

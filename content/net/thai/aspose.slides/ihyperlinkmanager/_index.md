@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: จัดการไฮเปอร์ลิงก์ ทั้งการเพิ่มและการลบ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ให้การจัดการไฮเปอร์ลิงก์โดยการเพิ่มและลบ
 type: docs
 weight: 6130
 url: /th/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager อินเทอร์เฟซ
 
-จัดการไฮเปอร์ลิงก์ (การเพิ่ม, การลบ)
+ให้การจัดการไฮเปอร์ลิงก์ (การเพิ่ม, การลบ).
 
 ```csharp
 public interface IHyperlinkManager

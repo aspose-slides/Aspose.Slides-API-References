@@ -1,14 +1,14 @@
 ---
 title: NormalViewRestoredProperties
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje velikost oblasti snímku (šířka, když je podřízený restoredTop, výška, když je podřízený restoredLeft) normálního zobrazení, když je oblast proměnné obnovitelné velikosti, která není ani minimalizovaná, ani maximalizovaná.
+description: Určuje velikost oblasti snímku – šířku, když je potomkem restoredTop, a výšku, když je potomkem restoredLeft – v normálním zobrazení, když je oblast proměnné obnovitelné velikosti (ani minimalizovaná, ani maximalizovaná).
 type: docs
-weight: 9100
+weight: 9120
 url: /cs/aspose.slides/normalviewrestoredproperties/
 ---
 ## NormalViewRestoredProperties třída
 
-Určuje velikost oblasti snímku ((šířka, když je podřízený restoredTop, výška, když je podřízený restoredLeft) normálního zobrazení, když je oblast proměnné obnovitelné velikosti (ne minimalizovaná ani maximalizovaná)).
+Určuje velikost oblasti snímku ((šířka, když je potomkem restoredTop, výška, když je potomkem restoredLeft) v normálním zobrazení, když je oblast proměnné obnovitelné velikosti (ani minimalizovaná, ani maximalizovaná).
 
 ```csharp
 public class NormalViewRestoredProperties : INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public class NormalViewRestoredProperties : INormalViewRestoredProperties
 
 | Název | Popis |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Určuje, zda má velikost boční obsahové oblasti kompenzovat novou velikost při změně velikosti okna obsahujícího zobrazení v aplikaci Číst/zapsat Boolean. |
-| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Určuje velikost oblasti snímku (šířka, když je podřízený RestoredTop, výška, když je podřízený RestoredLeft). Číst/zapsat Single. |
+| [AutoAdjust](../../aspose.slides/normalviewrestoredproperties/autoadjust) { get; set; } | Určuje, zda má velikost boční oblasti obsahu kompenzovat novou velikost při změně velikosti okna obsahujícího pohled v aplikaci. Boolean čtení/zápis. |
+| [DimensionSize](../../aspose.slides/normalviewrestoredproperties/dimensionsize) { get; set; } | Určuje velikost oblasti snímku (šířka, když je potomkem RestoredTop, výška, když je potomkem RestoredLeft). Single čtení/zápis. |
 
 ### Viz také
 

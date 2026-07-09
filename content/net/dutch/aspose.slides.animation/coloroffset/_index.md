@@ -1,20 +1,20 @@
 ---
 title: ColorOffset
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een kleurverschuiving voor.
+description: Stelt kleuroffset voor.
 type: docs
 weight: 240
 url: /nl/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset klasse
 
-Stelt een kleurverschuiving voor.
+Represent color offset.
 
 ```csharp
 public class ColorOffset : IColorOffset
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |

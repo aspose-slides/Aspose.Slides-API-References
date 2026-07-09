@@ -1,14 +1,14 @@
 ---
 title: IColorChange
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示顏色變更效果。FromColor 的實例會被 ToColor 的實例取代。
+description: 表示顏色變換效果。FromColor 的實例將被 ToColor 的實例取代。
 type: docs
 weight: 3220
 url: /zh-hant/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange 介面
 
-表示顏色變更效果。FromColor 的實例會被 ToColor 的實例取代。
+表示 Color Change 效果。FromColor 的實例將被 ToColor 的實例取代。
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -21,10 +21,10 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorchange/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/icolorchange/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 會被取代的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 取代之顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 將被取代的 Color。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 將取代的 Color。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IColorChangeEffectiveData](../icolorchangeeffectivedata)

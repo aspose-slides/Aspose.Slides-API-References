@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: वैकल्पिक काली स्लाइड ट्रांज़िशन प्रभाव।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: वैकल्पिक काली स्लाइड संक्रमण प्रभाव।
 type: docs
 weight: 10140
 url: /hi/aspose.slides.slideshow/ioptionalblacktransition/
 ---
 ## IOptionalBlackTransition इंटरफ़ेस
 
-वैकल्पिक काली स्लाइड ट्रांज़िशन प्रभाव।
+वैकल्पिक काली स्लाइड संक्रमण प्रभाव।
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | यह गुण निर्दिष्ट करता है कि ट्रांज़िशन काली स्क्रीन से शुरू होगा (और फिर नई स्लाइड को काले पर ट्रांज़िशन करेगा)। पढ़ने/लिखने योग्य Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | यह गुण निर्धारित करता है कि क्या संक्रमण काली स्क्रीन से शुरू होगा (और फिर नई स्लाइड को काले पर संक्रमण करेगा)। पढ़ने/लिखने योग्य Boolean. |
 
 ### संबंधित देखें
 

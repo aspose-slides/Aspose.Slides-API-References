@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: किसी संग्रह में फ़ॉन्ट का सूचकांक दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: किसी संग्रह में फ़ॉन्ट्स के सूचकांक को दर्शाता है।
 type: docs
 weight: 4810
 url: /hi/aspose.slides/fontcollectionindex/
 ---
-## FontCollectionIndex एन्यूमरेशन
+## FontCollectionIndex enumeration
 
-फ़ॉन्ट का सूचकांक संग्रह में दर्शाता है।
+फ़ॉन्ट के संग्रह में सूचकांक को दर्शाता है।
 
 ```csharp
 public enum FontCollectionIndex : byte
@@ -22,7 +22,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### और देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

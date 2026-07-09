@@ -1,6 +1,6 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: Inner Shadow 효과를 나타냅니다.
 type: docs
 weight: 3600
@@ -18,7 +18,7 @@ public sealed class InnerShadow : IInnerShadow
 
 | 이름 | 설명 |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | 블러 반경. 읽기/쓰기 Double. |
+| [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | Blur 반경. 읽기/쓰기 Double. |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | 그림자 방향. 읽기/쓰기 Single. |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | 그림자 거리. 읽기/쓰기 Double. |
 | [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | 그림자 색상. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -28,10 +28,10 @@ public sealed class InnerShadow : IInnerShadow
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | 지정된 [`InnerShadow`](../innershadow)가 현재 [`InnerShadow`](../innershadow)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 상속이 적용된 효과적인 Inner Shadow 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 특정 유형에 대한 해시 함수를 제공합니다. |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | 상속이 적용된 유효한 Inner Shadow 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IInnerShadow](../iinnershadow)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

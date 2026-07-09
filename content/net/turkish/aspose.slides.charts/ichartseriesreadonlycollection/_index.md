@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: IChartSeries./ichartseries öğesinin yalnızca okunabilir bir koleksiyonunu temsil eder
+description: Yalnızca okunabilir bir IChartSeries./ichartseries koleksiyonunu temsil eder
 type: docs
-weight: 1950
+weight: 1970
 url: /tr/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
 ## IChartSeriesReadonlyCollection arayüz
 
-[`IChartSeries`](../ichartseries) öğesinin yalnızca okunabilir bir koleksiyonunu temsil eder
+Yalnızca okunabilir bir [`IChartSeries`](../ichartseries) koleksiyonunu temsil eder.
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,7 +18,7 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Belirtilen dizindeki öğeyi alır. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Belirtilen indeksteki öğeyi alır. |
 
 ### Ayrıca Bakınız
 

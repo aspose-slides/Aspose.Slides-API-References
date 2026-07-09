@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Biểu thị một slide ghi chú trong bài thuyết trình.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một slide ghi chú trong bản trình chiếu.
 type: docs
 weight: 9140
 url: /vi/aspose.slides/notesslide/
 ---
 ## Lớp NotesSlide
 
-Biểu thị một slide ghi chú trong bài thuyết trình.
+Biểu diễn một slide ghi chú trong một bản trình chiếu.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -22,7 +22,7 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Trả về bộ sưu tập các điều khiển ActiveX trên một slide. Chỉ đọc [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Trả về dữ liệu tùy chỉnh của slide. Chỉ đọc [`ICustomData`](../icustomdata). |
 | [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide ghi chú. Chỉ đọc [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Cung cấp quyền truy cập dễ dàng tới các siêu liên kết chứa trong slide. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng tới các hyperlink được chứa. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Trả về hoặc đặt tên của một slide. Đọc/ghi String. |
 | [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Trả về một TextFrame chứa văn bản ghi chú nếu có. Chỉ đọc [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Trả về slide cha. Chỉ đọc [`ISlide`](../islide). |
@@ -30,25 +30,25 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Trả về các shape của một slide. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
 | override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Xác định xem các shape trên master slide có được hiển thị trên slide hay không. Đọc/ghi Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Trả về ID của một slide. Chỉ đọc UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Trả về đối tượng Transition chứa thông tin về cách slide được chỉ định tiến triển trong buổi trình chiếu. Chỉ đọc [`ISlideShowTransition`](../islideshowtransition). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Trả về đối tượng Transition chứa thông tin về cách slide được chỉ định tiến hành trong một buổi trình chiếu. Chỉ đọc [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Trả về trình quản lý theme ghi đè. Chỉ đọc [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Trả về đối tượng timeline hoạt ảnh. Chỉ đọc [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Trả về đối tượng timeline animation. Chỉ đọc [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Trả về một theme hiệu quả cho slide này. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Xác định xem hai thể hiện IBaseSlide có bằng nhau hay không. Giá trị trả về được tính dựa trên cấu trúc slide và nội dung tĩnh. Hai slide bằng nhau nếu tất cả các shape, kiểu, văn bản, hoạt ảnh và các cài đặt khác, v.v. đều bằng nhau. So sánh không xét đến các giá trị định danh duy nhất, ví dụ SlideId và nội dung động, ví dụ giá trị ngày hiện tại trong Date Placeholder. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Xác định xem hai thể hiện IBaseSlide có bằng nhau hay không. Giá trị trả về được tính dựa trên cấu trúc và nội dung tĩnh của slide. Hai slide bằng nhau nếu tất cả các shape, style, văn bản, animation và các cài đặt khác, v.v. đều bằng nhau. So sánh không xét các giá trị định danh duy nhất, ví dụ SlideId và nội dung động, ví dụ giá trị ngày hiện tại trong Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Tìm lần xuất hiện đầu tiên của một shape có văn bản thay thế được chỉ định. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Ghép các run có cùng định dạng trong tất cả các đoạn văn và tất cả các shape chấp nhận được. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Ghép các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các shape chấp nhận được. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Ghép các run có định dạng giống nhau trong tất cả các đoạn văn của tất cả các shape chấp nhận được. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Ghép các run có định dạng giống nhau trong tất cả các đoạn văn của tất cả các shape chấp nhận được. |
 
 ### Xem thêm
 
 * lớp [BaseSlide](../baseslide)
 * giao diện [INotesSlide](../inotesslide)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* bộ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: AfterAnimationType
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o tipo de animação posterior de um efeito de animação.
 type: docs
-weight: 90
+weight: 110
 url: /pt/aspose.slides.animation/afteranimationtype/
 ---
 ## Enumeração AfterAnimationType
@@ -21,7 +21,7 @@ public enum AfterAnimationType
 | DoNotDim | `0` | Não escurecer após o tipo de animação. |
 | Color | `1` | Cor após o tipo de animação. |
 | HideAfterAnimation | `2` | Ocultar após o tipo de animação. |
-| HideOnNextMouseClick | `3` | Ocultar no próximo clique do mouse após o tipo de animação. |
+| HideOnNextMouseClick | `3` | Ocultar após o próximo clique do mouse após o tipo de animação. |
 
 ### Veja Também
 

@@ -1,14 +1,14 @@
 ---
 title: BiLevel
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta un effetto Bi-Level in bianco e nero. I colori di input la cui luminanza è inferiore al valore soglia specificato vengono cambiati in nero. I colori di input la cui luminanza è maggiore o uguale al valore specificato sono impostati a bianco. I valori di effetto alpha non sono influenzati da questo effetto.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Bi-Level in bianco e nero. I colori di input la cui luminanza è inferiore al valore soglia specificato vengono cambiati in nero. I colori di input la cui luminanza è maggiore o uguale al valore specificato vengono impostati a bianco. I valori dell'effetto alfa non sono influenzati da questo effetto.
 type: docs
-weight: 2890
+weight: 2910
 url: /it/aspose.slides.effects/bilevel/
 ---
 ## BiLevel classe
 
-Rappresenta un effetto Bi-Level (nero/bianco). I colori di input la cui luminanza è inferiore al valore soglia specificato vengono trasformati in nero. I colori di input la cui luminanza è maggiore o uguale al valore specificato vengono impostati a bianco. I valori di effetto alpha non sono influenzati da questo effetto.
+Rappresenta un effetto Bi-Level (nero/bianco). I colori di input la cui luminanza è inferiore al valore soglia specificato vengono cambiati in nero. I colori di input la cui luminanza è maggiore o uguale al valore specificato vengono impostati a bianco. I valori dell’effetto alfa non sono influenzati da questo effetto.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,14 +18,14 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Determina se il [`BiLevel`](../bilevel) specificato è uguale all'attuale [`BiLevel`](../bilevel). |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Ottiene i dati effettivi dell'effetto Bi-Level con l'ereditarietà applicata. |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Ottiene i dati dell'effetto Bi-Level efficace con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche

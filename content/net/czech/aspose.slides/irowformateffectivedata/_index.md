@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje efektivní vlastnosti formátování řádků tabulky.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Neměnný objekt, který obsahuje účinné vlastnosti formátování řádků tabulky.
 type: docs
-weight: 6860
+weight: 6880
 url: /cs/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní vlastnosti formátování řádku tabulky.
+Neměnný objekt, který obsahuje účinné vlastnosti formátování řádku tabulky.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,7 +22,7 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Poznámky
 
-Toto rozhraní se používá spolu s rozhraním [`IRowFormat`](../irowformat) k vrácení efektivních hodnot formátování s aplikovaným děděním a styly tabulky.
+Toto rozhraní se používá spolu s rozhraním [`IRowFormat`](../irowformat) k vrácení účinných hodnot formátování s použitím dědičnosti a stylů tabulky.
 
 ### Viz také
 

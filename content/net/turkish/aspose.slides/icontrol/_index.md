@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir ActiveX denetimini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir ActiveX kontrolünü temsil eder.
 type: docs
-weight: 5610
+weight: 5630
 url: /tr/aspose.slides/icontrol/
 ---
-## IControl arayüzü
+## IControl arayüz
 
-Bir ActiveX denetimini temsil eder.
+Bir ActiveX kontrolünü temsil eder.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -16,18 +16,18 @@ public interface IControl : ISlideComponent
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Bir ActiveX denetiminin kalıcılığını, kalıcılık için kullanılan yöntemin PersistStream, PersistStreamInit veya PersistStorage olduğu durumlarda belirtir. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Salt okunur [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Bu denetimin sınıf kimliğini alır. Salt okunur Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Denetimin çerçevesini döndürür veya ayarlar. Okunur/yazılabilir [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | Bu denetimin adını döndürür. Okunur/yazılabilir String. |
-| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ActiveX denetiminin özelliklerini depolamak için kullanılan yöntemi alır. Salt okunur [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | ActiveX özelliklerinin bir koleksiyonunu döndürür. Salt okunur [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ControlEx görüntü doldurma özellikleri nesnesini döndürür. Salt okunur [`IPictureFillFormat`](../ipicturefillformat). |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Bir ActiveX kontrolünün kalıcılığını, kalıcılık için kullanılan yöntem PersistStream, PersistStreamInit veya PersistStorage olduğunda belirtir. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Temel ISlideComponent arayüzünü almayı sağlar. Yalnızca okunabilir [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Bu kontrolün sınıf kimliğini alır. Yalnızca okunabilir Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Kontrolün çerçevesini döndürür veya ayarlar. Okunabilir/Yazılabilir [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | Bu kontrolün adını döndürür. Okunabilir/Yazılabilir String. |
+| [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ActiveX kontrolünün özelliklerini depolamak için kullanılan yöntemi alır. Yalnızca okunabilir [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | ActiveX özelliklerinin bir koleksiyonunu döndürür. Yalnızca okunabilir [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ControlEx görüntü doldurma özellikleri nesnesini döndürür. Yalnızca okunabilir [`IPictureFillFormat`](../ipicturefillformat). |
 
-### Diğer
+### Ayrıca Bakınız
 
 * arayüz [ISlideComponent](../islidecomponent)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -1,9 +1,9 @@
 ---
 title: SequenceCollection
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de sequências interativas.
 type: docs
-weight: 780
+weight: 800
 url: /pt/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection classe
@@ -16,18 +16,18 @@ public class SequenceCollection : ISequenceCollection
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Retorna o número de elementos em uma coleção Somente leitura Int32. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Retorna o número de elementos em uma coleção somente leitura Int32. |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Retorna uma sequência no índice especificado. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Adiciona nova sequência interativa. Leitura/gravação [`Sequence`](../sequence). |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Adiciona uma nova sequência interativa. Leitura/gravação [`Sequence`](../sequence). |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Remove todas as sequências de uma coleção. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Remove a sequência especificada de uma coleção. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Remove a sequência no índice especificado. |
 

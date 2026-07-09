@@ -1,14 +1,14 @@
 ---
 title: Audio
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili file audio yang disematkan.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili file audio tersemat.
 type: docs
-weight: 830
+weight: 850
 url: /id/aspose.slides/audio/
 ---
-## Kelas Audio
+## Audio kelas
 
-Mewakili file audio yang disematkan.
+Mewakili file audio tersemat.
 
 ```csharp
 public class Audio : DomObject<AudioCollection>, IAudio
@@ -18,14 +18,14 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Mengembalikan salinan data audio. Jika jumlah data besar, pertimbangkan penggunaan metode [`GetStream`](./getstream) untuk mencegah pemuatan data audio yang tidak perlu ke memori atau bahkan OutOfMemoryException. Hanya-baca Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Mengembalikan tipe MIME audio, yang dikodekan dalam [`BinaryData`](./binarydata). Hanya-baca String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | Mengembalikan salinan data audio. Jika terdapat sejumlah besar data, pertimbangkan penggunaan metode [`GetStream`](./getstream) untuk mencegah pemuatan data audio yang tidak perlu ke memori atau bahkan OutOfMemoryException. Hanya-baca Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | Mengembalikan tipe MIME audio, yang dienkode dalam [`BinaryData`](./binarydata). Hanya-baca String. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | Mengembalikan aliran Stream untuk membaca. Gunakan 'using' atau tutup aliran setelah digunakan. |
+| [GetStream](../../aspose.slides/audio/getstream)() | Mengembalikan stream Stream untuk membaca. Gunakan 'using' atau tutup stream setelah digunakan. |
 
 ### Lihat Juga
 

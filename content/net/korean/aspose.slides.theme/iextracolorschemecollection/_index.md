@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 추가 색 구성표 컬렉션을 나타냅니다.
+description: 추가 색 구성표의 컬렉션을 나타냅니다.
 type: docs
 weight: 11220
 url: /ko/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection 인터페이스
 
-추가 색 구성표 컬렉션을 나타냅니다.
+추가 색 구성표의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,9 +18,9 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 인덱스로 색 구성표를 반환합니다. 읽기 전용 [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | 색인으로 색 구성표를 반환합니다. 읽기 전용 [`IExtraColorScheme`](../iextracolorscheme). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IExtraColorScheme](../iextracolorscheme)

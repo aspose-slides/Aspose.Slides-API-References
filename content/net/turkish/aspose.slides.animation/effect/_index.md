@@ -1,14 +1,14 @@
 ---
 title: Effect
 second_title: Aspose.Sildes için .NET API Referansı
-description: Animasyon etkisini temsil eder.
+description: Animasyon efektini temsil eder.
 type: docs
-weight: 260
+weight: 280
 url: /tr/aspose.slides.animation/effect/
 ---
 ## Effect sınıfı
 
-Animasyon etkisini temsil eder.
+Efekti temsil eder.
 
 ```csharp
 public class Effect : IEffect
@@ -18,22 +18,22 @@ public class Effect : IEffect
 
 | Ad | Açıklama |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Etkisi için bir son animasyon rengi tanımlar. Okuma/Yazma [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Etkisi için bir son animasyon türü tanımlar. Okuma/Yazma [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Etkisi için bir metin animasyonu türü tanımlar. Şekil metni harfe, kelimeye veya tümüne birden animasyon uygulanabilir. Okuma/Yazma [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Etkisi için davranış koleksiyonunu döndürür. Okuma/Yazma [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Animasyonlu metin parçaları (kelimeler veya harfler) arasındaki gecikmeyi tanımlar. Pozitif bir değer, etki süresinin yüzdesini belirtir. Negatif bir değer ise saniye cinsinden gecikmeyi belirtir. Okuma/Yazma Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Etkisinin sınıfını tanımlar. Okuma/Yazma [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Bir etki için bir sıralama döndürür. Yalnızca okuma [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Etkisi için gömülü ses tanımlanmıştır. Okuma/Yazma [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Bu öznitelik, animasyon etkisinin önceki sesi durdurup durdurmayacağını belirtir. Okuma/Yazma Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Etkisinin alt türünü tanımlar. Okuma/Yazma [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Etkisi için hedef şekli döndürür. Yalnızca okuma [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Yalnızca okuma [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Etkisi için zamanlama değerini tanımlar. Okuma/Yazma [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Etkisinin türünü tanımlar. Okuma/Yazma [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Efekt için bir sonraki animasyon rengini tanımlar. Okunur/Yazılabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Efekt için bir sonraki animasyon tipini tanımlar. Okunur/Yazılabilir [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Efekt için bir metin animasyonu tipini tanımlar. Şekil metni harf, kelime veya tümü bir kerede animasyon yapılabilir. Okunur/Yazılabilir [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Efekt için davranış koleksiyonunu döndürür. Okunur/Yazılabilir [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Animasyonlu metin parçaları (kelimeler veya harfler) arasındaki gecikmeyi tanımlar. Pozitif bir değer, efekt süresinin yüzdesini belirtir. Negatif bir değer ise gecikmeyi saniye cinsinden belirtir. Okunur/Yazılabilir Single. |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Efekt sınıfını tanımlar. Okunur/Yazılabilir [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Efekt için bir sıra döndürür. Sadece okunur [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Efekt için gömülü ses tanımlanır. Okunur/Yazılabilir [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Bu öznitelik, animasyon etkisinin önceki sesi durdurup durdurmadığını belirtir. Okunur/Yazılabilir Boolean. |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Efektin alt tipini tanımlar. Okunur/Yazılabilir [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Efekt için hedef şekli döndürür. Sadece okunur [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Sadece okunur [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Efekt için zamanlama değerini tanımlar. Okunur/Yazılabilir [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | Efekt tipini tanımlar. Okunur/Yazılabilir [`EffectType`](../effecttype). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IEffect](../ieffect)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

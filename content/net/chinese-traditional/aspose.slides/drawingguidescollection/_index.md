@@ -1,6 +1,6 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示可調整的繪圖參考線集合。
 type: docs
 weight: 2820
@@ -18,16 +18,16 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | 傳回集合中元素的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | 依索引傳回繪圖參考線。唯讀 [`IDrawingGuide`](../idrawingguide)。 |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | 傳回集合中元素的數量。只讀 Int32。 |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | 傳回依索引取得的繪圖參考線。只讀 [`IDrawingGuide`](../idrawingguide)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | 在集合的末端加入繪圖參考線。 |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | 在集合末端新增繪圖參考線。 |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | 從集合中移除所有元素。 |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | 將集合中所有元素複製到指定的陣列。 |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | 將集合中的所有元素複製到指定的陣列。 |
 | [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | 移除指定索引處的繪圖參考線。 |
 

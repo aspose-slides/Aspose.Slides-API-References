@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il gestore che contiene il comportamento di tutti i segnaposto di piè di pagina, data-ora e numero di pagina della presentazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il gestore che contiene il comportamento di tutti i segnaposto di piè di pagina, data/ora e numero di pagina della presentazione.
 type: docs
-weight: 6760
+weight: 6780
 url: /it/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager interfaccia
 
-Rappresenta il gestore che contiene il comportamento di tutti i segnaposto di piè di pagina, data-ora e numero di pagina della presentazione.
+Rappresenta il gestore che contiene il comportamento di tutti i segnaposto di piè di pagina, data/ora e numero di pagina della presentazione.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -18,20 +18,20 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Restituisce l’interfaccia IBaseHeaderFooterManager. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | Restituisce l'interfaccia IBaseHeaderFooterManager. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Imposta il testo per tutti i segnaposto date-time, incluse le master slides, le layout slides e le slides. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Modifica la visibilità di tutti i segnaposto date-time, incluse le master slides, le layout slides e le slides. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Imposta il testo per tutti i segnaposto footer, incluse le master slides, le layout slides e le slides. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto footer, incluse le master slides, le layout slides e le slides. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Imposta il testo per tutti i segnaposto header, incluse notes master, notes slides e handout master. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto header, incluse notes master, notes slides e handout master. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto page number, incluse le master slides, le layout slides e le slides. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Modifica la visibilità dei segnaposto footer, date-time e page number per tutte le title slides e per la prima layout slide. Title slides – slides basate sulla prima layout slide (indipendentemente dal tipo di questo primo layout). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Imposta il testo per tutti i segnaposto data/ora, incluse le diapositive master, le diapositive layout e le diapositive. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Modifica la visibilità di tutti i segnaposto data/ora, incluse le diapositive master, le diapositive layout e le diapositive. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Imposta il testo per tutti i segnaposto piè di pagina, incluse le diapositive master, le diapositive layout e le diapositive. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto piè di pagina, incluse le diapositive master, le diapositive layout e le diapositive. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Imposta il testo per tutti i segnaposto intestazione, incluse le note master, le diapositive note e il master delle dispense. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto intestazione, incluse le note master, le diapositive note e il master delle dispense. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Modifica la visibilità di tutti i segnaposto numero di pagina, incluse le diapositive master, le diapositive layout e le diapositive. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Modifica la visibilità dei segnaposto piè di pagina, data/ora e numero di pagina per tutte le diapositive titolo e per la prima diapositiva layout. Diapositive titolo – diapositive basate sulla prima diapositiva layout (indipendentemente dal tipo di questa prima layout). |
 
 ### Vedi anche
 

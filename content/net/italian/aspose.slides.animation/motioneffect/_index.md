@@ -3,7 +3,7 @@ title: MotionEffect
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il comportamento dell'effetto di movimento.
 type: docs
-weight: 650
+weight: 670
 url: /it/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect classe
@@ -24,18 +24,18 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Nome | Descrizione |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/Scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/Scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Descrive l'angolo relativo del percorso di movimento. Lettura/Scrittura Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Descrive il valore di offset relativo per l'animazione (in percentuale). Lettura/Scrittura PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Specifica una coordinata x/y da cui avviare l'animazione (in percentuale). Lettura/Scrittura PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Specifica a cosa è relativo l'origine del percorso di movimento, ad esempio al layout della diapositiva o al genitore. Lettura/Scrittura [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Specifica il primitivo del percorso seguito dalle coordinate per il movimento dell'animazione. Lettura/Scrittura [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Specifica come si muove il percorso di movimento quando la forma viene spostata. Lettura/Scrittura [`MotionPathEditMode`](../motionpatheditmode). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Descrive l'angolo relativo del percorso di movimento. Lettura/scrittura Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Descrive il valore di offset relativo per l'animazione (in percentuale). Lettura/scrittura PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Specifica una coordinata x/y da cui avviare l'animazione (in percentuale). Lettura/scrittura PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Specifica l'origine del percorso di movimento relativa, ad esempio al layout della diapositiva o al genitore. Lettura/scrittura [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Specifica la primitiva del percorso seguita dalle coordinate per il movimento di animazione. Lettura/scrittura [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Specifica come il percorso di movimento si sposta quando la forma viene spostata. Lettura/scrittura [`MotionPathEditMode`](../motionpatheditmode). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Rappresenta le proprietà del comportamento. Solo lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Descrive il centro della rotazione utilizzato per ruotare un percorso di movimento di un angolo X. Lettura/Scrittura PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà temporali per il comportamento dell'effetto. Lettura/Scrittura [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Specifica la posizione di destinazione per un effetto di movimento dell'animazione (in percentuale). Lettura/Scrittura PointF. |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Descrive il centro di rotazione utilizzato per ruotare un percorso di movimento di X gradi. Lettura/scrittura PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto. Lettura/scrittura [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Specifica la posizione target per un effetto di movimento di animazione (in percentuale). Lettura/scrittura PointF. |
 
 ### Vedi anche
 

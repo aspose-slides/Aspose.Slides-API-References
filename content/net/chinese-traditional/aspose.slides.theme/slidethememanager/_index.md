@@ -18,17 +18,17 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 判斷 OverrideTheme 是否覆寫繼承的有效主題。若要啟用 OverrideTheme 進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 返回覆寫的主題物件。讀/寫 [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | 決定 OverrideTheme 是否覆寫繼承的有效主題。若要啟用 OverrideTheme 以進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。可讀寫 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 將額外的色彩配置套用到投影片。 |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 返回主題物件。 |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 將額外的配色方案套用到投影片。 |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 傳回主題物件。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [BaseOverrideThemeManager](../baseoverridethememanager)
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

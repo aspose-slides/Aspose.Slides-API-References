@@ -1,9 +1,9 @@
 ---
 title: ICell
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes for .NET API Reference
 description: Mewakili sebuah sel dalam tabel.
 type: docs
-weight: 5430
+weight: 5450
 url: /id/aspose.slides/icell/
 ---
 ## ICell antarmuka
@@ -16,35 +16,35 @@ public interface ICell : ISlideComponent
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Menentukan apakah kotak teks dipusatkan di dalam sel atau tidak. Baca/tulis Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Mengembalikan objek CellFormat yang berisi properti pemformatan untuk sel ini. Hanya-baca [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Mengembalikan jumlah kolom grid dalam grid tabel induk yang harus dicakup oleh sel saat ini. Properti ini memungkinkan sel memiliki tampilan seolah-olah digabungkan, karena mereka melintasi batas vertikal sel lain dalam tabel. Hanya-baca Int32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Mendapatkan kolom pertama sel. Hanya-baca [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Mengembalikan indeks kolom pertama yang dicakup oleh sel. Hanya-baca Int32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Mendapatkan baris pertama sel. Hanya-baca [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Mengembalikan indeks baris pertama yang dicakup oleh sel. Hanya-baca Int32. |
-| [Height](../../aspose.slides/icell/height) { get; } | Mengembalikan tinggi sel. Hanya-baca Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Mengembalikan true jika sel digabungkan dengan sel yang disesuaikan, false sebaliknya. Hanya-baca Boolean. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | Menentukan apakah kotak teks berada di tengah sel atau tidak. Baca/tulis Boolean. |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | Memungkinkan memperoleh antarmuka dasar ISlideComponent. Baca-saja [`ISlideComponent`](../islidecomponent). |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | Mengembalikan objek CellFormat yang berisi properti pemformatan untuk sel ini. Baca-saja [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | Mengembalikan jumlah kolom kisi dalam grid tabel induk yang harus dicakup oleh sel saat ini. Properti ini memungkinkan sel tampak digabung, karena mereka melintasi batas vertikal sel lain dalam tabel. Baca-saja Int32. |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | Mendapatkan kolom pertama dari sel. Baca-saja [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | Mengembalikan indeks kolom pertama yang dicakup oleh sel. Baca-saja Int32. |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | Mendapatkan baris pertama dari sel. Baca-saja [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | Mengembalikan indeks baris pertama yang dicakup oleh sel. Baca-saja Int32. |
+| [Height](../../aspose.slides/icell/height) { get; } | Mengembalikan tinggi sel. Baca-saja Double. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | Mengembalikan true jika sel digabung dengan sel lain yang disesuaikan, false jika tidak. Baca-saja Boolean. |
 | [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | Mengembalikan atau mengatur margin bawah dalam TextFrame. Baca/tulis Double. |
 | [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | Mengembalikan atau mengatur margin kiri dalam TextFrame. Baca/tulis Double. |
 | [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | Mengembalikan atau mengatur margin kanan dalam TextFrame. Baca/tulis Double. |
 | [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | Mengembalikan atau mengatur margin atas dalam TextFrame. Baca/tulis Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Mengembalikan tinggi minimum sel. Ini adalah jumlah tinggi minimal semua baris yang dicakup oleh sel. Hanya-baca Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Mengembalikan jarak dari sisi kiri tabel ke sisi kiri sel. Hanya-baca Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Mengembalikan jarak dari sisi atas tabel ke sisi atas sel. Hanya-baca Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Mengembalikan jumlah baris yang dicakup oleh sel yang digabungkan. Ini digunakan bersama atribut vMerge pada sel lain untuk menentukan sel awal penggabungan horizontal. Hanya-baca Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | Mengembalikan objek Table induk untuk sebuah sel. Hanya-baca [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Mengembalikan atau mengatur tipe jangkar teks. Baca/tulis [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Mengembalikan bingkai teks sel. Hanya-baca [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Mengembalikan atau mengatur tipe teks vertikal. Baca/tulis [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | Mengembalikan lebar sel. Hanya-baca Double. |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | Mengembalikan tinggi minimum sel. Ini adalah jumlah dari tinggi minimal semua baris yang ditutupi oleh sel. Baca-saja Double. |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | Mengembalikan jarak dari sisi kiri tabel ke sisi kiri sel. Baca-saja Double. |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | Mengembalikan jarak dari sisi atas tabel ke sisi atas sel. Baca-saja Double. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | Mengembalikan jumlah baris yang dicakup oleh sel yang digabung. Ini digunakan bersama atribut vMerge pada sel lain untuk menentukan sel awal penggabungan horizontal. Baca-saja Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | Mengembalikan objek Table induk untuk sebuah sel. Baca-saja [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | Mengembalikan atau mengatur jenis jangkar teks. Baca/tulis [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | Mengembalikan frame teks dari sebuah sel. Baca-saja [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | Mengembalikan atau mengatur jenis teks vertikal. Baca/tulis [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/icell/width) { get; } | Mengembalikan lebar sel. Baca-saja Double. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | Membagi sel menjadi dua sel berdasarkan indeks kolom. |
 | [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | Membagi sel berdasarkan tinggi. |
@@ -55,6 +55,6 @@ public interface ICell : ISlideComponent
 
 * antarmuka [ISlideComponent](../islidecomponent)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* perakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

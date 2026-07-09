@@ -1,12 +1,12 @@
 ---
 title: EffectPresetClassType
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τύπους κλάσεων εφέ.
 type: docs
-weight: 300
+weight: 320
 url: /el/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType απαρίθμηση
+## EffectPresetClassType απαριθμητικός τύπος
 
 Αναπαριστά τύπους κλάσεων εφέ.
 
@@ -18,12 +18,12 @@ public enum EffectPresetClassType
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| Entrance | `0` | Entrance κλάση εφέ. |
-| Exit | `1` | Exit κλάση εφέ. |
-| Emphasis | `2` | Emphasis κλάση εφέ. |
-| Path | `3` | κλάση διαδρομών κίνησης. |
-| MediaCall | `4` | Media κλάση εφέ. |
-| OLEActionVerbs | `5` | OLE Action Verbs κλάση. |
+| Entrance | `0` | Κλάση εφέ εισόδου. |
+| Exit | `1` | Κλάση εφέ εξόδου. |
+| Emphasis | `2` | Κλάση εφέ έμφασης. |
+| Path | `3` | Κλάση μονοπατιών κίνησης. |
+| MediaCall | `4` | Κλάση εφέ πολυμέσων. |
+| OLEActionVerbs | `5` | Κλάση OLE Action Verbs. |
 
 ### Δείτε επίσης
 

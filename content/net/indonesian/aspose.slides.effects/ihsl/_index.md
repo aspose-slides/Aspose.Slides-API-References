@@ -1,9 +1,9 @@
 ---
 title: IHSL
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Hue/Saturation/Luminance. Hue, saturation, dan luminance masing-masing dapat disesuaikan relatif terhadap nilai saat ini.
+description: Mewakili efek Hue/Saturation/Luminance. Hue, saturasi, dan luminance masing-masing dapat disesuaikan relatif terhadap nilai saat ini.
 type: docs
-weight: 3340
+weight: 3360
 url: /id/aspose.slides.effects/ihsl/
 ---
 ## IHSL antarmuka
@@ -18,8 +18,8 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Baca-saja [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Mengembalikan antarmuka IImageTransformOperation. Baca-saja [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | Memungkinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | Mengembalikan antarmuka IImageTransformOperation. Hanya baca [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lihat Juga
 

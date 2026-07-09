@@ -1,20 +1,20 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड रेंज
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: स्लाइड्स रेंज
 type: docs
 weight: 10530
 url: /hi/aspose.slides/slidesrange/
 ---
 ## SlidesRange क्लास
 
-स्लाइड रेंज
+स्लाइड्स रेंज
 
 ```csharp
 public class SlidesRange
 ```
 
-## कन्स्ट्रक्टर
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
@@ -24,10 +24,10 @@ public class SlidesRange
 
 | नाम | विवरण |
 | --- | --- |
-| [End](../../aspose.slides/slidesrange/end) { get; set; } | अंत |
+| [End](../../aspose.slides/slidesrange/end) { get; set; } | समाप्ति |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | प्रारंभ |
 
-### संबंधित देखें
+### अन्य देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

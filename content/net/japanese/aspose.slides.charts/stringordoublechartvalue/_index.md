@@ -1,14 +1,14 @@
 ---
 title: StringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API リファレンス
-description: pptx プレゼンテーション ドキュメントに、1) チャートに関連付けられたワークブックのセル/セル群、2) リテラル値の 2 つの方法で格納できる文字列または double 値を表します。
+description: pptx プレゼンテーション ドキュメントに保存できる文字列または double 値を表します。保存方法は 2 つあります：1) チャートに関連付けられたブックのセル/セル群に、2) リテラル値として。
 type: docs
-weight: 2400
+weight: 2420
 url: /ja/aspose.slides.charts/stringordoublechartvalue/
 ---
 ## StringOrDoubleChartValue クラス
 
-pptx プレゼンテーション ドキュメントに、1) チャートに関連付けられたワークブックのセル/セル群、2) リテラル値の 2 つの方法で格納できる文字列または double 値を表します。
+pptx プレゼンテーション ドキュメントに保存できる string または double 値を表します。保存方法は 2 つあります: 1) チャートに関連付けられたブックのセル/セル群に; 2) リテラル値として。
 
 ```csharp
 public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValue
@@ -18,11 +18,11 @@ public class StringOrDoubleChartValue : BaseChartValue, IStringOrDoubleChartValu
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | チャート データ セルを取得または設定します。 読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
-| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | リテラルの double 値を取得または設定します。 読み取り/書き込み Double。 |
-| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | リテラルの文字列値を取得または設定します。 読み取り/書き込み String。 |
-| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Data オブジェクトを取得または設定します。 読み取り/書き込み Object。 |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 子クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。 言い換えれば、Data プロパティの値の型を指定します。 読み取り/書き込み [`DataSourceType`](../datasourcetype)。 |
+| [AsCell](../../aspose.slides.charts/stringordoublechartvalue/ascell) { get; set; } | チャート データ セルを取得または設定します。読み取り/書き込み [`IChartDataCell`](../ichartdatacell)。 |
+| [AsLiteralDouble](../../aspose.slides.charts/stringordoublechartvalue/asliteraldouble) { get; set; } | リテラル double としての値を取得または設定します。読み取り/書き込み Double。 |
+| [AsLiteralString](../../aspose.slides.charts/stringordoublechartvalue/asliteralstring) { get; set; } | リテラル string としての値を取得または設定します。読み取り/書き込み String。 |
+| override [Data](../../aspose.slides.charts/stringordoublechartvalue/data) { get; set; } | Data オブジェクトを取得または設定します。読み取り/書き込み Object。 |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | 継承クラスで AsCell、AsCells、AsLiteralString、または AsLiteralDouble プロパティが実際に使用されているかを指定します。言い換えると、Data プロパティの値の型を指定します。読み取り/書き込み [`DataSourceType`](../datasourcetype)。 |
 
 ## メソッド
 

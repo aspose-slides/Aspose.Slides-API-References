@@ -1,27 +1,27 @@
 ---
 title: EffectType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho loại hiệu ứng hoạt ảnh.
+second_title: Aspose.Sildes dành cho Tham chiếu API .NET
+description: Biểu thị loại của một hiệu ứng hoạt ảnh.
 type: docs
 weight: 360
 url: /vi/aspose.slides.animation/effecttype/
 ---
-## EffectType liệt kê
+## EffectType enumeration
 
-Đại diện cho loại hiệu ứng hoạt ảnh.
+Represents the type of an animation effect.
 
 ```csharp
 public enum EffectType
 ```
 
-### Giá trị
+### Values
 
-| Tên | Giá trị | Mô tả |
+| Name | Value | Description |
 | --- | --- | --- |
-| Appear | `0` | Hiệu ứng Appear. Lớp **Entrance** hoặc **Exit**. |
+| Appear | `0` | Hiệu ứng Xuất hiện. Lớp **Entrance** hoặc **Exit**. |
 | CurveUpDown | `1` | Hiệu ứng CurveUpDown. Lớp **Entrance** hoặc **Exit**. |
 | Ascend | `2` | Hiệu ứng Ascend. Lớp **Entrance** hoặc **Exit**. |
-| FloatUp | `2` | Hiệu ứng Float với hướng Lên. Đây là tên khác cho loại Ascend. Lớp **Entrance** hoặc **Exit**. |
+| FloatUp | `2` | Hiệu ứng Float với hướng Lên. Đây là tên thay thế cho kiểu Ascend. Lớp **Entrance** hoặc **Exit**. |
 | Blast | `3` | Hiệu ứng Blast. Lớp **Emphasis**. |
 | Blinds | `4` | Hiệu ứng Blinds. Lớp **Entrance** hoặc **Exit**. |
 | Blink | `5` | Hiệu ứng Blink. Lớp **Emphasis**. |
@@ -54,7 +54,7 @@ public enum EffectType
 | Darken | `32` | Hiệu ứng Darken. Lớp **Emphasis**. |
 | Desaturate | `33` | Hiệu ứng Desaturate. Lớp **Emphasis**. |
 | Descend | `34` | Hiệu ứng Descend. Lớp **Entrance** hoặc **Exit**. |
-| FloatDown | `34` | Hiệu ứng Float với hướng Xuống. Đây là tên khác cho loại Descend. Lớp **Entrance** hoặc **Exit**. |
+| FloatDown | `34` | Hiệu ứng Float với hướng Xuống. Đây là tên thay thế cho kiểu Descend. Lớp **Entrance** hoặc **Exit**. |
 | Diamond | `35` | Hiệu ứng Diamond. Lớp **Entrance** hoặc **Exit**. |
 | Dissolve | `36` | Hiệu ứng Dissolve. Lớp **Entrance** hoặc **Exit**. |
 | EaseInOut | `37` | Hiệu ứng Dissolve. Lớp **Entrance** hoặc **Exit**. |

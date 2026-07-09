@@ -1,14 +1,14 @@
 ---
 title: PresentationHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar manager som hanterar beteendet för alla sidfot, datum-tid och sidnummer-platshållare i en presentation.
+description: Representerar en manager som innehåller beteendet för alla sidfot-, datum-tid- och sidnummer-platshållare i en presentation.
 type: docs
-weight: 9590
+weight: 9610
 url: /sv/aspose.slides/presentationheaderfootermanager/
 ---
 ## PresentationHeaderFooterManager klass
 
-Representerar manager som hanterar beteendet för alla sidfot-, datum-tid- och sidnummer-platshållare i en presentation.
+Representerar en manager som innehåller beteendet för alla sidfot-, datum-tid- och sidnummer-platshållare i en presentation.
 
 ```csharp
 public class PresentationHeaderFooterManager : BaseHeaderFooterManager, 
@@ -19,16 +19,16 @@ public class PresentationHeaderFooterManager : BaseHeaderFooterManager,
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Anger text för alla datum-tid-platshållare, inklusive masterbilder, layoutbilder, bilder, notes-master, notes-bilder och handouts-master. |
-| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändrar synligheten för alla datum-tid-platshållare, inklusive masterbilder, layoutbilder, bilder, notes-master, notes-bilder och handouts-master. |
-| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Anger text för alla sidfot-platshållare, inklusive masterbilder, layoutbilder, bilder, notes-master, notes-bilder och handouts-master. |
-| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Ändrar synligheten för alla sidfot-platshållare, inklusive masterbilder, layoutbilder, bilder, notes-master, notes-bilder och handouts-master. |
-| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Anger text för alla sidhuvud-platshållare, inklusive notes-master, notes-bilder och handouts-master. |
-| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Ändrar synligheten för alla sidhuvud-platshållare, inklusive notes-master, notes-bilder och handouts-master. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändrar synligheten för alla sidnumrerings-platshållare, inklusive masterbilder, layoutbilder, bilder, notes-master, notes-bilder och handouts-master. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändrar synligheten för sidfot-, datum-tid- och sidnumrerings-platshållare för alla titelsbilder och för den första layout-bilden. Titelsbilder – bilder baserade på den första layout-bilden (oavsett vilken typ den första layouten har). |
+| [SetAllDateTimesText](../../aspose.slides/presentationheaderfootermanager/setalldatetimestext)(string) | Tilldelar text till alla datum-tid-platshållare, inklusive master-bilder, layout-bilder, bilder, notes-master, notes-bilder och handout-master. |
+| [SetAllDateTimesVisibility](../../aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility)(bool) | Ändrar synligheten för alla datum-tid-platshållare, inklusive master-bilder, layout-bilder, bilder, notes-master, notes-bilder och handout-master. |
+| [SetAllFootersText](../../aspose.slides/presentationheaderfootermanager/setallfooterstext)(string) | Tilldelar text till alla sidfot-platshållare, inklusive master-bilder, layout-bilder, bilder, notes-master, notes-bilder och handout-master. |
+| [SetAllFootersVisibility](../../aspose.slides/presentationheaderfootermanager/setallfootersvisibility)(bool) | Ändrar synligheten för alla sidfot-platshållare, inklusive master-bilder, layout-bilder, bilder, notes-master, notes-bilder och handout-master. |
+| [SetAllHeadersText](../../aspose.slides/presentationheaderfootermanager/setallheaderstext)(string) | Tilldelar text till alla sidhuvud-platshållare, inklusive notes-master, notes-bilder och handout-master. |
+| [SetAllHeadersVisibility](../../aspose.slides/presentationheaderfootermanager/setallheadersvisibility)(bool) | Ändrar synligheten för alla sidhuvud-platshållare, inklusive notes-master, notes-bilder och handout-master. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/presentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Ändrar synligheten för alla sidnummer-platshållare, inklusive master-bilder, layout-bilder, bilder, notes-master, notes-bilder och handout-master. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/presentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Ändrar synligheten för sidfot-, datum-tid- och sidnummer-platshållare för alla titelslides och för den första layout-sliden. Titelslides - slides baserade på den första layout-sliden (oavsett vilken typ den första layouten har). |
 
-### Se även
+### Se också
 
 * klass [BaseHeaderFooterManager](../baseheaderfootermanager)
 * gränssnitt [IPresentationHeaderFooterManager](../ipresentationheaderfootermanager)

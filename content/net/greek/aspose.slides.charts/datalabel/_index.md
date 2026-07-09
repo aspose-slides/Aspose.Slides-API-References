@@ -1,14 +1,14 @@
 ---
 title: DataLabel
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει τις ετικέτες της σειράς.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει τις ετικέτες μιας σειράς.
 type: docs
-weight: 1530
+weight: 1550
 url: /el/aspose.slides.charts/datalabel/
 ---
 ## DataLabel κλάση
 
-Αντιπροσωπεύει τις ετικέτες σειράς.
+Αντιπροσωπεύει ετικέτες σειράς.
 
 ```csharp
 public class DataLabel : IDataLabel
@@ -18,41 +18,41 @@ public class DataLabel : IDataLabel
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | Creates a new instance of DataLabel class. |
+| [DataLabel](datalabel)(IChartDataPoint) | Δημιουργεί ένα νέο στιγμιότυπο της κλάσης DataLabel. |
 
 ## Ιδιότητες
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου διαγράμματος. Καλεί τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου διαγράμματος. Καλεί τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου διαγράμματος ως προς την αριστερή πάνω γωνία του διαγράμματος. Καλεί τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Καθορίζει το πραγματικό άνω μέρος του στοιχείου διαγράμματος ως προς την αριστερή πάνω γωνία του διαγράμματος. Καλεί τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Ανάγνωση Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Κάτω. Μόνο-ανάγνωση Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Επιστρέφει το γονικό διάγραμμα. Μόνο-ανάγνωση [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Επιστρέφει τη μορφή ετικέτας δεδομένων. Μόνο-ανάγνωση [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | Το False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλες οι σημαίες Show* (ShowValue, ...) είναι false). Μόνο-ανάγνωση Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Δεξιά. Μόνο-ανάγνωση Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο-ανάγνωση [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Μπορεί να περιέχει μορφοποιημένο πλούσιο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων. Το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, ... και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο-ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Ανακτά ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Ανάγνωση/εγγραφή Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Καθορίζει το πραγματικό ύψος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο ανάγνωση Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Καθορίζει το πραγματικό πλάτος του στοιχείου του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο ανάγνωση Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Καθορίζει την πραγματική θέση x (αριστερά) του στοιχείου του διαγράμματος σε σχέση με την αριστερά-πάνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο ανάγνωση Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Καθορίζει το πραγματικό πάνω μέρος του στοιχείου του διαγράμματος σε σχέση με την αριστερά-πάνω γωνία του διαγράμματος. Καλέστε τη μέθοδο IChart.ValidateChartLayout() πριν για να λάβετε τις πραγματικές τιμές. Μόνο ανάγνωση Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Κάτω. Μόνο ανάγνωση Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Επιστρέφει το γονικό διάγραμμα. Μόνο ανάγνωση [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Επιστρέφει τη μορφή ετικέτας δεδομένων. Μόνο ανάγνωση [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Επιστρέφει ή ορίζει το ύψος ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Αναγνώσιμο/εγγράψιμο Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή (και έτσι όλα τα Show*-flags (ShowValue, ...) είναι false). Μόνο ανάγνωση Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Δεξιά. Μόνο ανάγνωση Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Επιστρέφει τη μορφή κειμένου. Μόνο ανάγνωση [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων. Το αυτόματα παραγόμενο κείμενο της ετικέτας δεδομένων σημαίνει κείμενο που διαχειρίζεται από τις ιδιότητες ShowSeriesName, ShowValue, ... και μορφοποιείται με την ιδιότητα TextFormatManager.TextFormat. Μόνο ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Λαμβάνει ή ορίζει το κελί δεδομένων του βιβλίου εργασίας. Εφαρμόζεται εάν η ιδιότητα IDataLabelFormat.ShowLabelValueFromCell είναι true. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Αναγνώσιμο/εγγράψιμο Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη x ενός τίτλου ως κλάσμα του πλάτους του διαγράμματος. Αναγνώσιμο/εγγράψιμο Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Επιστρέφει ή ορίζει τη συντεταγμένη y ενός τίτλου ως κλάσμα του ύψους του διαγράμματος. Αναγνώσιμο/εγγράψιμο Single. |
 
-## Μεθόδοι
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Αρχικοποιεί το TextFrameForOverriding με το κείμενο στην παράμετρο "text". Εάν το TextFrameForOverriding είναι ήδη αρχικοποιημένο, τότε απλώς αλλάζει το κείμενό του. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Επιστρέφει το πραγματικό κείμενο ετικέτας με βάση τις ρυθμίσεις DataLabelFormat ή την τιμή TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) στην κατάσταση false. Το IsVisible θα είναι false μετά από αυτό. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Επιστρέφει το πραγματικό κείμενο ετικέτας βάσει των ρυθμίσεων DataLabelFormat ή της τιμής TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Κάνει την ετικέτα δεδομένων κρυφή ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) σε κατάσταση false. Το IsVisible θα είναι false μετά από αυτό. |
 
 ### Δείτε επίσης
 
 * διασύνδεση [IDataLabel](../idatalabel)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συναρμολόγηση [Aspose.Slides](../../)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

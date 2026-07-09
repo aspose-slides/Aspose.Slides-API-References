@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Shred diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Shred diaátmeneti effektus.
 type: docs
-weight: 10160
+weight: 10180
 url: /hu/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition interfész
 
-Shred diavetítés átmeneti hatás.
+Shred diaátmeneti effektus.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IShredTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Lehetővé teszi az alap ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Meghatározza az átmenet során használt vizuálok alakját. Olvasás/írás [`TransitionShredPattern`](../transitionshredpattern). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Meghatározza az átmenet során használt vizuális elemek alakját. Olvasás/írás [`TransitionShredPattern`](../transitionshredpattern). |
 
 ### Lásd még
 

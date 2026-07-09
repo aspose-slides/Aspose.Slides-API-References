@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
-second_title: Aspose.Sildes for .NET API 참조
-description: 형상 요소가 어떻게 그려져야 하는지를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 모양 요소가 어떻게 그려져야 하는지를 나타냅니다.
 type: docs
 weight: 9890
 url: /ko/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource 열거형
 
-형상 요소가 어떻게 그려져야 하는지를 나타냅니다.
+모양 요소가 어떻게 그려져야 하는지를 나타냅니다.
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,9 +18,9 @@ public enum ShapeElementStrokeSource : byte
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NoStroke | `0` | 기본 도형을 스트로크하지 않습니다. |
-| Shape | `1` | 형상의 LineFormat을 사용합니다. |
-| OwnStroke | `2` | 자체 스트로크를 사용합니다. |
+| NoStroke | `0` | 프리미티브에 스트로크를 적용하지 않습니다. |
+| Shape | `1` | shape의 LineFormat을 사용합니다. |
+| OwnStroke | `2` | 자신의 스트로크를 사용합니다. |
 
 ### 참고
 

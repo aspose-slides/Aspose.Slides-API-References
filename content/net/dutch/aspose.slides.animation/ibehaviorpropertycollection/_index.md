@@ -1,14 +1,14 @@
 ---
 title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt timing-eigenschappen voor het effectgedrag.
+description: Stelt timing-eigenschappen voor het effectgedrag voor.
 type: docs
 weight: 450
 url: /nl/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection interface
 
-Stelt timing-eigenschappen voor het effectgedrag.
+Stelt timingeigenschappen voor het effectgedrag voor.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
@@ -18,17 +18,17 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Geeft IEnumerable-interfaces terug. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorpropertycollection/asienumerable) { get; } | Retourneert IEnumerable interfaces. Alleen-lezen IEnumerable. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Voegt een nieuwe eigenschap toe aan de verzameling. |
+| [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | Voegt een nieuwe eigenschap toe aan de collectie. |
 | [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | Bepaalt of de ICollection een specifieke waarde bevat. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | Bepaalt de index van een specifiek item op basis van de eigenschapswaarde in de IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Voegt een nieuwe eigenschap (met de opgegeven eigenschapswaarde) toe aan de verzameling op de opgegeven index. |
-| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Verwijdert de opgegeven eigenschap uit de verzameling. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | Voegt een nieuwe eigenschap (met de opgegeven eigenschapswaarde) in de collectie in op de opgegeven index. |
+| [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | Verwijdert de opgegeven eigenschap uit de collectie. |
 
 ### Zie ook
 

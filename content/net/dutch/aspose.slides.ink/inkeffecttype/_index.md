@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert een reeks vooraf gedefinieerde visuele effecten voor inktweergave. Elk effect komt overeen met een textuur of afbeelding die een gestileerde inktuiterlijk simuleert. Deze waarden kunnen worden gebruikt om de visuele stijl van digitale inktstreken tijdens het renderen aan te passen.
+description: Specificeert een set vooraf gedefinieerde visuele effecten voor het renderen van inkt. Elk effect komt overeen met een textuur of afbeelding die een gestileerd inktuiterlijk simuleert. Deze waarden kunnen worden gebruikt om de visuele stijl van digitale inktstrepen tijdens het renderen aan te passen.
 type: docs
 weight: 7580
 url: /nl/aspose.slides.ink/inkeffecttype/
 ---
-## InkEffectType enumeratie
+## InkEffectType enumeration
 
-Specificeert een reeks vooraf gedefinieerde visuele effecten voor inktweergave. Elk effect komt overeen met een textuur of afbeelding die een gestileerde inktuiterlijk simuleert. Deze waarden kunnen worden gebruikt om de visuele stijl van digitale inktstreken tijdens het renderen aan te passen.
+Specificeert een set vooraf gedefinieerde visuele effecten voor het renderen van inkt. Elk effect komt overeen met een textuur of afbeelding die een gestileerde inktuiterlijk nabootst. Deze waarden kunnen worden gebruikt om de visuele stijl van digitale inktstrepen tijdens het renderen aan te passen.
 
 ```csharp
 public enum InkEffectType
@@ -18,15 +18,15 @@ public enum InkEffectType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| NotDefined | `-1` | Het effect is niet gedefinieerd of onbekend. Deze waarde kan worden gebruikt als standaard of alternatief. |
-| Bronze | `0` | Een warme, bruinachtige metallische textuur die lijkt op brons inkt. |
-| Galaxy | `1` | Een kleurrijke, glinsterende textuur die lijkt op een sterrenstelsel, met kosmische tinten. |
-| Gold | `2` | Een heldere, metallische gouden textuur die inktstreken een luxueuze uitstraling geeft. |
-| Lava | `3` | Een vlammenrijke textuur die lijkt op gesmolten lava, met rode en oranje tinten. |
-| Ocean | `4` | Een diepe blauwe, vloeistofachtige textuur die oceaangolven of watergebaseerde inkt nabootst. |
-| RainbowGlitter | `5` | Een kleurrijk, sprankelend regenboogglitters effect dat wordt gebruikt voor feestelijke of levendige inktstreken. |
-| RoseGold | `6` | Een zacht roze-gouden mengsel, vergelijkbaar met rozen goud, voor elegante inktstreken. |
-| Silver | `7` | Een koele, metallische zilveren textuur die klassieke zilveren inkt nabootst. |
+| NotDefined | `-1` | Het effect is niet gedefinieerd of onbekend. Deze waarde kan als standaard of fallback worden gebruikt. |
+| Bronze | `0` | Een warme, bruinachtige metaalachtige textuur die op bronzen inkt lijkt. |
+| Galaxy | `1` | Een kleurrijke, glinsterende textuur die op een galaxy lijkt, met kosmische tinten. |
+| Gold | `2` | Een heldere, metaalachtige gouden textuur die inktstrepen een luxueus uiterlijk geeft. |
+| Lava | `3` | Een vurige textuur die op gesmolten lava lijkt, met rode en oranje tinten. |
+| Ocean | `4` | Een diepblauwe, vloeistofachtige textuur die oceaangolven of watergebaseerde inkt nabootst. |
+| RainbowGlitter | `5` | Een kleurrijk, sprankelend regenboogglittereffect voor feestelijke of levendige inktstrepen. |
+| RoseGold | `6` | Een zacht roze-gouden mengsel, vergelijkbaar met rosegoud, voor elegante inktstrepen. |
+| Silver | `7` | Een koele, metaalachtige zilveren textuur die klassieke zilveren inkt simuleert. |
 
 ### Zie ook
 

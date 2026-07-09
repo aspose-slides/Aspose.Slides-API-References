@@ -1,9 +1,9 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes .NET API Referenciája
+second_title: Aspose.Sildes .NET API referencia
 description: Ez az interfész lehetővé teszi az IBitmapWrapper inicializálását.
 type: docs
-weight: 6160
+weight: 6180
 url: /hu/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory interfész
@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Inicializál egy új ImageWrapper osztálypéldányt a megadott meglévő képből. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Inicializál egy új ImageWrapper osztálypéldányt a megadott adatfolyamból. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Inicializál egy új ImageWrapper osztálypéldányt a megadott fájlból. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | Új példányt hoz létre az ImageWrapper osztályból a megadott meglévő képből. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | Új példányt hoz létre az ImageWrapper osztályból a megadott adatfolyamból. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | Új példányt hoz létre az ImageWrapper osztályból a megadott fájlból. |
 
 ### Lásd még
 

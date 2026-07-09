@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
-second_title: Aspose.Sildes pro .NET API referenci
+second_title: Aspose.Sildes pro .NET referenci API
 description: Umožňuje vytvářet instance ITab
 type: docs
-weight: 7200
+weight: 7220
 url: /cs/aspose.slides/itabfactory/
 ---
 ## ITabFactory rozhraní
 
-Umožňuje vytvořit instance ITab
+Umožňuje vytvářet instance ITab
 
 ```csharp
 public interface ITabFactory

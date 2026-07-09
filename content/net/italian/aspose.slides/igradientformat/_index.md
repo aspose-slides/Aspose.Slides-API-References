@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un formato di gradiente.
 type: docs
-weight: 5980
+weight: 6000
 url: /it/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interfaccia
@@ -21,10 +21,10 @@ public interface IGradientFormat : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Consente di ottenere l'interfaccia base IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Restituisce o imposta lo stile di un gradiente. Lettura/scrittura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Restituisce o imposta la forma di un gradiente. Lettura/scrittura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Restituisce la collezione dei punti di arresto del gradiente. Solo lettura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Restituisce la collezione di fermate del gradiente. Solo lettura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Restituisce o imposta l'angolo di un gradiente. Lettura/scrittura Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determina se un gradiente è scalato. Lettura/scrittura [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Restituisce o imposta la modalità di ribaltamento per un gradiente. Lettura/scrittura [`TileFlip`](../tileflip). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Restituisce o imposta la modalità di inversione per un gradiente. Lettura/scrittura [`TileFlip`](../tileflip). |
 
 ### Vedi anche
 

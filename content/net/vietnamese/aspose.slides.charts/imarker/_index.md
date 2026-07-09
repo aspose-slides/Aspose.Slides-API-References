@@ -14,13 +14,13 @@ Biểu diễn dấu hiệu của một chert.
 public interface IMarker
 ```
 
-## Thuộc tính
+## Properties
 
 | Tên | Mô tả |
 | --- | --- |
-| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lấy màu tô dấu hiệu. Chỉ-đọc [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Biểu diễn kích thước dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi Int32. |
-| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Biểu diễn kiểu dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/imarker/format) { get; } | Lấy phần tô của dấu hiệu. Chỉ đọc [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/imarker/size) { get; set; } | Biểu thị kích thước dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi Int32. |
+| [Symbol](../../aspose.slides.charts/imarker/symbol) { get; set; } | Biểu thị kiểu dấu hiệu trong biểu đồ đường, biểu đồ phân tán hoặc biểu đồ radar. Đọc/ghi [`MarkerStyleType`](../markerstyletype). |
 
 ### Xem Thêm
 

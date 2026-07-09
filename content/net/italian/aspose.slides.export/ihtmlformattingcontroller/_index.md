@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormattingController
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Controlla la generazione di un file html.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Controlla la generazione di un file HTML.
 type: docs
-weight: 3930
+weight: 3950
 url: /it/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interfaccia
 
-Controlla la generazione di un file html.
+Controlla la generazione di un file HTML.
 
 ```csharp
 public interface IHtmlFormattingController
@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | Nome | Descrizione |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Chiamato per scrivere il piè di pagina del documento html. Chiamato una volta per conversione della presentazione. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Chiamato per scrivere l'intestazione del documento html. Chiamato una volta per conversione della presentazione. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chiamato prima del rendering della forma. Chiamato una volta per ogni forma. Se questa funzione scrive qualcosa nel generatore, la generazione dell'immagine della diapositiva corrente verrà terminata, il frammento html aggiunto verrà inserito e una nuova immagine sarà avviata sopra la precedente. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chiamato prima del rendering della forma. Chiamato una volta per ogni forma. Se questa funzione scrive qualcosa nel generatore, la generazione dell'immagine della diapositiva corrente verrà terminata, il frammento html aggiunto verrà inserito e una nuova immagine sarà avviata sopra la precedente. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chiamato per scrivere il piè di pagina della diapositiva html. Chiamato una volta per ogni diapositiva. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chiamato per scrivere l'intestazione della diapositiva html. Chiamato una volta per ogni diapositiva. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Chiamato per scrivere il piè di pagina del documento HTML. Viene chiamato una volta per ogni conversione della presentazione. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Chiamato per scrivere l'intestazione del documento HTML. Viene chiamato una volta per ogni conversione della presentazione. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chiamato prima del rendering della forma. Viene chiamato una volta per ciascuna forma. Se questa funzione scrive qualcosa sul generatore, la generazione dell'immagine della diapositiva corrente verrà terminata, il frammento HTML aggiunto verrà inserito e una nuova immagine verrà avviata sopra la precedente. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chiamato prima del rendering della forma. Viene chiamato una volta per ciascuna forma. Se questa funzione scrive qualcosa sul generatore, la generazione dell'immagine della diapositiva corrente verrà terminata, il frammento HTML aggiunto verrà inserito e una nuova immagine verrà avviata sopra la precedente. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chiamato per scrivere il piè di pagina della diapositiva HTML. Viene chiamato una volta per ciascuna diapositiva. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chiamato per scrivere l'intestazione della diapositiva HTML. Viene chiamato una volta per ciascuna diapositiva. |
 
 ### Vedi anche
 

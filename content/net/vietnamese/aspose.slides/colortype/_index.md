@@ -1,14 +1,14 @@
 ---
 title: ColorType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn các chế độ màu khác nhau.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu thị các chế độ màu khác nhau.
 type: docs
 weight: 2580
 url: /vi/aspose.slides/colortype/
 ---
-## ColorType liệt kê
+## Kiểu liệt kê ColorType
 
-Biểu diễn các chế độ màu khác nhau.
+Biểu thị các chế độ màu khác nhau.
 
 ```csharp
 public enum ColorType
@@ -19,12 +19,12 @@ public enum ColorType
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | NotDefined | `-1` | Màu không được định nghĩa. |
-| RGB | `0` | Màu RGB chuẩn 24 bit. |
+| RGB | `0` | Màu RGB tiêu chuẩn 24bit. |
 | RGBPercentage | `1` | Màu RGB độ phân giải cao. |
 | HSL | `2` | Màu HSL độ phân giải cao. |
 | Scheme | `3` | Màu Scheme. |
 | System | `4` | Màu hệ thống. |
-| Preset | `5` | Màu Preset. |
+| Preset | `5` | Màu được đặt trước. |
 
 ### Xem thêm
 

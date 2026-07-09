@@ -8,7 +8,7 @@ url: /nl/aspose.slides/connectorlock/
 ---
 ## ConnectorLock klasse
 
-Bepaalt welke bewerkingen zijn uitgeschakeld op de bovenliggende Connector.
+Bepaalt welke bewerkingen op de bovenliggende Connector zijn uitgeschakeld.
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lees/Schrijf Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpuntjes verboden is. Lees/Schrijf Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het schalen. Lees/Schrijf Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Bepaalt of een directe wijziging van de contour van deze vorm verboden is. Lees/Schrijf Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lees/Schrijf Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft true terug als alle vergrendelingsvlaggen zijn uitgeschakeld. Alleen-lezen Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lees/Schrijf Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lees/Schrijf Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lees/Schrijf Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van een vormtype verboden is. Lees/Schrijf Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Bepaalt of het aanpassen van de grootte van deze vorm verboden is. Lees/Schrijf Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Bepaalt of het wijzigen van aanpassingswaarden verboden is. Lezen/Schrijven Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Bepaalt of het wijzigen van pijlpuntjes verboden is. Lezen/Schrijven Boolean. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Bepaalt of een vorm de beeldverhouding moet behouden bij het wijzigen van de grootte. Lezen/Schrijven Boolean. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Bepaalt of directe wijziging van de contour van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Bepaalt of het toevoegen van deze vorm aan een groep verboden is. Lezen/Schrijven Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Geeft true terug als alle vergrendelingsvlaggen uitgeschakeld zijn. Alleen-lezen Boolean. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Bepaalt of het verplaatsen van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Bepaalt of het wijzigen van de rotatiehoek van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Bepaalt of het selecteren van deze vorm verboden is. Lezen/Schrijven Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Bepaalt of het wijzigen van een vormtype verboden is. Lezen/Schrijven Boolean. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Bepaalt of het wijzigen van de grootte van deze vorm verboden is. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 

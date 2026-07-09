@@ -1,12 +1,12 @@
 ---
 title: ColorTransformOperation
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET - odwołanie API
 description: Definiuje operację transformacji koloru.
 type: docs
-weight: 2550
+weight: 2570
 url: /pl/aspose.slides/colortransformoperation/
 ---
-## ColorTransformOperation enumeracja
+## Wyliczenie ColorTransformOperation
 
 Definiuje operację transformacji koloru.
 
@@ -16,36 +16,36 @@ public enum ColorTransformOperation
 
 ### Wartości
 
-| Name | Value | Description |
+| Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Tint | `0` | Nakłada odcień na kolor. Parametr jest w zakresie od 0 (oryginalny kolor) do 1 (biały). |
-| Shade | `1` | Cieniuje kolor. Parametr jest w zakresie od 0 (oryginalny kolor) do 1 (czarny). |
-| Complement | `2` | Zamienia kolor na jego uzupełniający w RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
-| Inverse | `3` | Zamienia kolor na odwrócony. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Zamienia kolor na szary o tej samej jasności. Parametr jest ignorowany. |
-| SetAlpha | `5` | Definiuje składnik alfa koloru. Parametr jest w zakresie od 0 (przezroczysty) do 1 (nieprzezroczysty). |
-| AddAlpha | `6` | Dodaje wartość parametru do składnika alfa koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplyAlpha | `7` | Mnoży składnik alfa przez wartość parametru. |
-| SetHue | `8` | Zamienia składnik odcienia koloru na wartość parametru. Parametr jest w zakresie od 0 do 360. |
-| AddHue | `9` | Dodaje wartość parametru do składnika odcienia koloru. Parametr jest w zakresie od -360 do 360. |
-| MultiplyHue | `10` | Mnoży składnik odcienia przez wartość parametru. |
-| SetSaturation | `11` | Zamienia składnik nasycenia koloru na wartość parametru. Parametr jest w zakresie od 0 do 1. |
-| AddSaturation | `12` | Dodaje wartość parametru do składnika nasycenia koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplySaturation | `13` | Mnoży składnik nasycenia przez wartość parametru. |
-| SetLuminance | `14` | Zamienia składnik luminancji koloru na wartość parametru. Parametr jest w zakresie od 0 do 1. |
-| AddLuminance | `15` | Dodaje wartość parametru do składnika luminancji koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplyLuminance | `16` | Mnoży składnik luminancji przez wartość parametru. |
-| SetRed | `17` | Zamienia składnik czerwonego koloru na wartość parametru. Parametr jest w zakresie od 0 do 1. |
-| AddRed | `18` | Dodaje wartość parametru do składnika czerwonego koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplyRed | `19` | Mnoży składnik czerwonego koloru przez parametr. |
-| SetGreen | `20` | Zamienia składnik zielonego koloru na wartość parametru. Parametr jest w zakresie od 0 do 1. |
-| AddGreen | `21` | Dodaje parametr do składnika zielonego koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplyGreen | `22` | Mnoży składnik zielonego koloru przez wartość parametru. |
-| SetBlue | `23` | Zamienia składnik niebieskiego koloru na wartość parametru. Parametr jest w zakresie od 0 do 360. |
-| AddBlue | `24` | Dodaje wartość parametru do składnika niebieskiego koloru. Parametr jest w zakresie od -1 do 1. |
-| MultiplyBlue | `25` | Mnoży składnik niebieskiego koloru przez wartość parametru. |
+| Tint | `0` | Rozjaśnia kolor. Parametr znajduje się w przedziale od 0 (oryginalny kolor) do 1 (biały). |
+| Shade | `1` | Przyciemnia kolor. Parametr znajduje się w przedziale od 0 (oryginalny kolor) do 1 (czarny). |
+| Complement | `2` | Zmienia kolor na uzupełniający w systemie RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Inverse | `3` | Zmienia kolor na odwrócony. r = 1 - r; g = 1 - g; b = 1 - b; |
+| Grayscale | `4` | Zamiana koloru na szary o tej samej jasności. Parametr jest ignorowany. |
+| SetAlpha | `5` | Definiuje komponent alfa koloru. Parametr znajduje się w przedziale od 0 (przezroczysty) do 1 (nieprzezroczysty). |
+| AddAlpha | `6` | Dodaje wartość parametru do komponentu alfa koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplyAlpha | `7` | Mnoży komponent alfa przez wartość parametru. |
+| SetHue | `8` | Zmienia komponent odcienia (hue) koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 360. |
+| AddHue | `9` | Dodaje wartość parametru do komponentu odcienia koloru. Parametr znajduje się w przedziale od -360 do 360. |
+| MultiplyHue | `10` | Mnoży komponent odcienia przez wartość parametru. |
+| SetSaturation | `11` | Zmienia komponent nasycenia koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 1. |
+| AddSaturation | `12` | Dodaje wartość parametru do komponentu nasycenia koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplySaturation | `13` | Mnoży komponent nasycenia przez wartość parametru. |
+| SetLuminance | `14` | Zmienia komponent luminancji koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 1. |
+| AddLuminance | `15` | Dodaje wartość parametru do komponentu luminancji koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplyLuminance | `16` | Mnoży komponent luminancji przez wartość parametru. |
+| SetRed | `17` | Zmienia czerwony komponent koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 1. |
+| AddRed | `18` | Dodaje wartość parametru do czerwonego komponentu koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplyRed | `19` | Mnoży czerwony komponent przez parametr. |
+| SetGreen | `20` | Zmienia zielony komponent koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 1. |
+| AddGreen | `21` | Dodaje parametr do zielonego komponentu koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplyGreen | `22` | Mnoży zielony komponent przez wartość parametru. |
+| SetBlue | `23` | Zmienia niebieski komponent koloru na wartość parametru. Parametr znajduje się w przedziale od 0 do 360. |
+| AddBlue | `24` | Dodaje wartość parametru do niebieskiego komponentu koloru. Parametr znajduje się w przedziale od -1 do 1. |
+| MultiplyBlue | `25` | Mnoży niebieski komponent przez wartość parametru. |
 | Gamma | `26` | Korekcja gamma. Parametr jest ignorowany. |
-| InverseGamma | `27` | Korekcja odwrotnej gammy. Parametr jest ignorowany. |
+| InverseGamma | `27` | Odwrócona korekcja gamma. Parametr jest ignorowany. |
 
 ### Zobacz także
 

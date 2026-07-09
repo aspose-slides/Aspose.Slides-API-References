@@ -1,6 +1,6 @@
 ---
 title: EffectType
-second_title: Aspose.Sildes .NET용 API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 애니메이션 효과 유형을 나타냅니다.
 type: docs
 weight: 360
@@ -21,7 +21,7 @@ public enum EffectType
 | Appear | `0` | Appear 효과. 클래스 **Entrance** 또는 **Exit**. |
 | CurveUpDown | `1` | CurveUpDown 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Ascend | `2` | Ascend 효과. 클래스 **Entrance** 또는 **Exit**. |
-| FloatUp | `2` | 위 방향의 Float 효과. 이것은 Ascend 유형에 대한 별명입니다. 클래스 **Entrance** 또는 **Exit**. |
+| FloatUp | `2` | Float 효과 (방향 위). 이것은 Ascend 유형의 별칭입니다. 클래스 **Entrance** 또는 **Exit**. |
 | Blast | `3` | Blast 효과. 클래스 **Emphasis**. |
 | Blinds | `4` | Blinds 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Blink | `5` | Blink 효과. 클래스 **Emphasis**. |
@@ -54,14 +54,14 @@ public enum EffectType
 | Darken | `32` | Darken 효과. 클래스 **Emphasis**. |
 | Desaturate | `33` | Desaturate 효과. 클래스 **Emphasis**. |
 | Descend | `34` | Descend 효과. 클래스 **Entrance** 또는 **Exit**. |
-| FloatDown | `34` | 아래 방향의 Float 효과. 이것은 Descend 유형에 대한 별명입니다. 클래스 **Entrance** 또는 **Exit**. |
+| FloatDown | `34` | Float 효과 (방향 아래). 이것은 Descend 유형의 별칭입니다. 클래스 **Entrance** 또는 **Exit**. |
 | Diamond | `35` | Diamond 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Dissolve | `36` | Dissolve 효과. 클래스 **Entrance** 또는 **Exit**. |
 | EaseInOut | `37` | Dissolve 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Expand | `38` | Expand 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Fade | `39` | Fade 효과. 클래스 **Entrance** 또는 **Exit**. |
 | FadedSwivel | `40` | FadedSwivel 효과. 클래스 **Entrance** 또는 **Exit**. |
-| FadedZoom | `41` | FadedZoom 효과. 클래스 **Entrance** 및 **Exit**. |
+| FadedZoom | `41` | FadedZoom 효과. 클래스 **Entrance** 또는 **Exit**. |
 | FlashBulb | `42` | FlashBulb 효과. 클래스 **Emphasis**. |
 | FlashOnce | `43` | FlashOnce 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Flicker | `44` | Flicker 효과. 클래스 **Emphasis**. |
@@ -153,7 +153,7 @@ public enum EffectType
 | Sling | `130` | RandomEffects 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Spin | `131` | Spin 효과. 클래스 **Emphasis**. |
 | Spinner | `132` | Spinner 효과. 클래스 **Emphasis**. |
-| Spiral | `133` | Spiral 효과. 클래스 **Entrance** 또는 **Exit**. |
+| Spiral | `133` | Spiral 효과. 클래스 **Entrance** 및 **Exit**. |
 | Split | `134` | Split 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Stretch | `135` | Stretch 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Strips | `136` | Stretch 효과. 클래스 **Entrance** 또는 **Exit**. |
@@ -169,14 +169,14 @@ public enum EffectType
 | Wedge | `146` | Wedge 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Wheel | `147` | Wedge 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Whip | `148` | Whip 효과. 클래스 **Entrance** 또는 **Exit**. |
-| Wipe | `149` | Wedge 효과. 클래스 **Entrance** 및 **Exit**. |
+| Wipe | `149` | Wedge 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Magnify | `150` | Magnify 효과. 클래스 **Entrance** 또는 **Exit**. |
 | Zoom | `151` | Zoom 효과. 클래스 **Entrance** 또는 **Exit**. |
 | OLEObjectShow | `152` | OLEObjectShow 효과. 클래스 **OLEActionVerbs**. |
 | OLEObjectEdit | `153` | OLEObjectEdit 효과. 클래스 **OLEActionVerbs**. |
 | OLEObjectOpen | `154` | OLEObjectOpen 효과. 클래스 **OLEActionVerbs**. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

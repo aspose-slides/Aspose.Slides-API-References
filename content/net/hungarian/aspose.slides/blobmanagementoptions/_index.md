@@ -1,14 +1,14 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes .NET API Referencia
-description: Olyan beállításokat képvisel, amelyek a BLOB-kezelési szabályok és egyéb BLOB-beállítások kezelésére használhatók.
+second_title: Aspose.Sildes .NET API referencia
+description: Azok a beállítások, amelyekkel a BLOB-kezelési szabályok és egyéb BLOB-beállítások kezelhetők.
 type: docs
-weight: 1010
+weight: 1030
 url: /hu/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions osztály
 
-Olyan beállításokat képvisel, amelyek a BLOB-kezelési szabályok és egyéb BLOB-beállítások kezelésére használhatók.
+Ez a lehetőségek, amelyeket a BLOB kezelési szabályok és egyéb BLOB beállítások kezelésére lehet használni.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -18,16 +18,16 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Név | Leírás |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Új alapértelmezett blob-kezelési beállításokat hoz létre. |
+| [BlobManagementOptions](blobmanagementoptions)() | Létrehoz egy új alapértelmezett blob kezelési beállítást. |
 
 ## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Ez a tulajdonság meghatározza, hogy a BLOB-okkal való munka során létrehozhatók-e ideiglenes fájlok, ami jelentősen csökkenti a memóriafogyasztást, de fájlok létrehozásához szükséges jogosultságokat igényel. Minden fájl törlődik, miután a prezentációval való munka befejeződött. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Meghatározza a BLOB-ok által a memóriában elfoglalható maximális teljes méretet (bájtban). Alapértelmezés szerint minden BLOB a memóriába töltődik; csak amikor ez a határ elérkezik, alkalmaznak alternatív mechanizmusokat (például ideiglenes fájlokat). A BLOB-ok memóriában tartása maximalizálja a teljesítményt, de magas memóriahasználathoz vezethet. Használja ezt a tulajdonságot a viselkedés környezethez vagy követelményekhez való igazításához. |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Ez a tulajdonság meghatározza, hogy a Presentation osztály egy példánya lehet-e a forrás – fájl vagy adatfolyam – tulajdonosa az élettartama alatt. Ha a példány tulajdonos, lezárja a forrást. Ez segít javítani a memóriafogyasztást és a teljesítményt a BLOB-okkal való munka során, de a forrás (adatfolyam vagy fájl) nem változtatható meg a Presentation példány élettartama alatt. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | A gyökérútvonal, ahol az ideiglenes fájlok létrejönnek. Alapértelmezés szerint a rendszer ideiglenes könyvtára lesz használva. A fogadó folyamatnak rendelkeznie kell jogosultságokkal a fájlok és mappák létrehozásához ezen a helyen. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Ez a tulajdonság meghatározza, hogy a BLOB-kkal dolgozás során létrehozhatók-e ideiglenes fájlok, ami nagymértékben csökkenti a memóriafogyasztást, de a fájlok létrehozásához jogosultságok szükségesek. Minden fájl törlésre kerül, miután a prezentációval végzett munka befejeződött. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Meghatározza a maximális összméretet (bájtban), amelyet az összes BLOB elfoglalhat a memóriában. Alapértelmezés szerint az összes BLOB betöltődik a memóriába; csak amikor ez a határ elérődik, kerülnek alkalmazásra alternatív mechanizmusok (például ideiglenes fájlok). A BLOB-ok memóriában tartása maximalizálja a teljesítményt, de magas memóriahasználathoz vezethet. Használja ezt a tulajdonságot a viselkedés környezetéhez vagy követelményeihez igazításához. |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Ez a tulajdonság meghatározza, hogy a Presentation osztály egy példánya lehet-e a forrás – fájl vagy adatfolyam – tulajdonosa az életciklusa során. Ha a példány tulajdonos, zárolja a forrást. Ez segít javítani a memóriafogyasztást és a teljesítményt a BLOB-okkal való munka során, de a forrás (adatfolyam vagy fájl) nem változtatható meg a Presentation példány életciklusa alatt. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | Az a gyökérútvonal, ahol az ideiglenes fájlok létrejönnek. Alapértelmezés szerint a rendszer ideiglenes könyvtára lesz használva. A hosting folyamatnak megfelelő jogosultságokkal kell rendelkeznie a fájlok és mappák létrehozásához ezen a helyen. |
 
 ### Lásd még
 

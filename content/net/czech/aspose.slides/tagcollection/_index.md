@@ -1,14 +1,14 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje sbírku štítků, uživatelem definovaných dvojic řetězců
+description: Reprezentuje kolekci značek, uživatelem definovaných dvojic řetězců
 type: docs
-weight: 10870
+weight: 10890
 url: /cs/aspose.slides/tagcollection/
 ---
 ## TagCollection třída
 
-Representuje sbírku štítků (uživatelem definované páry řetězců)
+Reprezentuje kolekci značek (páry řetězců definované uživatelem)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -18,33 +18,32 @@ public sealed class TagCollection : ITagCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Vrací počet štítků ve sbírce. Pouze ke čtení Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Vrací hodnotu určující, zda je přístup ke sbírce synchronizován (thread-safe). Pouze ke čtení Boolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Vrací nebo nastavuje dvojici klíč a hodnota štítku. |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze ke čtení Object. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Vrací počet značek v kolekci. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Vrací hodnotu, která určuje, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Vrací nebo nastavuje dvojici klíč a hodnota značky. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | Přidá nový štítek do sbírky. |
-| [Clear](../../aspose.slides/tagcollection/clear)() | Odstraní všechny štítky ze sbírky. |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Určuje, zda sbírka obsahuje konkrétní název. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
-| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Vrací klíč štítku na zadaném indexu. |
-| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Vrací názvy štítků. |
-| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Vrací hodnotu štítku na zadaném indexu. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Vrací index začínající nulou pro zadaný klíč ve sbírce. |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | Odstraní štítek se zadaným názvem ze sbírky. |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Odstraní štítek na zadaném indexu. |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | Přidá novou značku do kolekce. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Odstraní všechny značky z kolekce. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Určuje, zda kolekce obsahuje konkrétní název. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Vrací klíč značky na zadaném indexu. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Vrací názvy značek. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Vrací hodnotu značky na zadaném indexu. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Vrací index (od nuly) zadaného klíče v kolekci. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Odstraní značku se zadaným názvem z kolekce. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Odstraní značku na zadaném indexu. |
 
 ### Příklady
 
-Následující příklad ukazuje, jak přidat štítek do prezentace PowerPoint.
+Následující příklad ukazuje, jak přidat značku do prezentace PowerPoint.
 
 ```csharp
-[C#]
 using (Presentation pres = new Presentation("pres.pptx"))
 {
    ITagCollection tags = pres.CustomData.Tags;

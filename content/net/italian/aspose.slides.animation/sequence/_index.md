@@ -1,9 +1,9 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una collezione di effetti di sequenza.
 type: docs
-weight: 770
+weight: 790
 url: /it/aspose.slides.animation/sequence/
 ---
 ## Sequence classe
@@ -18,9 +18,9 @@ public sealed class Sequence : ISequence
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | Restituisce il numero di effetti in una sequenza. Sola lettura Int32. |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | Restituisce il numero di effetti in una sequenza. Solo lettura Int32. |
 | [Item](../../aspose.slides.animation/sequence/item) { get; } | Restituisce un effetto all'indice specificato. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Restituisce o imposta il target della forma per la sequenza INTERACTIVE. Se la sequenza non è interattiva restituisce null. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Restituisce o imposta l'obiettivo shape per la sequenza INTERACTIVE. Se la sequenza non è interattiva allora restituisce null. Lettura/scrittura [`IShape`](../../aspose.slides/ishape). |
 
 ## Metodi
 
@@ -29,15 +29,15 @@ public sealed class Sequence : ISequence
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Aggiunge un nuovo effetto di animazione per il paragrafo alla fine della sequenza. |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Aggiunge un nuovo effetto alla fine della sequenza. |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Aggiunge il nuovo effetto di animazione del grafico per categoria o serie alla fine della sequenza. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Aggiunge il nuovo effetto di animazione del grafico per gli elementi nella categoria o nella serie alla fine della sequenza. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Aggiunge il nuovo effetto di animazione del grafico per gli elementi in categoria o serie alla fine della sequenza. |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | Rimuove tutti gli effetti da una collezione. |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Restituisce il conteggio degli effetti per la forma specificata. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Restituisce il conteggio degli effetti per lo shape specificato. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Restituisce un array di effetti per il paragrafo specificato. |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Restituisce un array di effetti per la forma specificata. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Restituisce un array di effetti per lo shape specificato. |
 | [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
 | [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Rimuove l'effetto specificato da una collezione. |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Rimuove un effetto da una collezione. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Rimuove l'effetto per la forma specificata. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Rimuove l'effetto per lo shape specificato. |
 
 ### Vedi anche
 

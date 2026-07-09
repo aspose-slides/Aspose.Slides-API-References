@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
 second_title: Aspose.Sildes for .NET API Referansı
-description: Etkileşimli dizilerin bir koleksiyonunu temsil eder.
+description: Etkileşimli dizilerin koleksiyonunu temsil eder.
 type: docs
-weight: 780
+weight: 800
 url: /tr/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection sınıfı
 
-Etkileşimli dizilerin bir koleksiyonunu temsil eder.
+Etkileşimli dizilerin koleksiyonunu temsil eder.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -18,20 +18,20 @@ public class SequenceCollection : ISequenceCollection
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Bir koleksiyondaki öğe sayısını döndürür Salt okunur Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Belirtilen indeksteki bir diziyi döndürür. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Bir koleksiyondaki öğe sayısını döndürür. Salt okunur Int32. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Belirtilen indeksteki diziyi döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Yeni etkileşimli bir dizi ekler. Okunur/yazılabilir [`Sequence`](../sequence). |
-| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Bir koleksiyondan tüm dizileri kaldırır. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Koleksiyonun üzerinden yineleme yapan bir dökümleyici döndürür. |
+| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Bir koleksiyondaki tüm dizileri kaldırır. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir yayaç döndürür. |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Belirtilen diziyi bir koleksiyondan kaldırır. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Belirtilen indeksteki diziyi kaldırır. |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * arayüz [ISequenceCollection](../isequencecollection)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

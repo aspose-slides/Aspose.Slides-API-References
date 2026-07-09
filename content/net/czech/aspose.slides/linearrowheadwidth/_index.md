@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje šířku hrotu šipky.
+description: Reprezentuje šířku hlavice šipky.
 type: docs
-weight: 7730
+weight: 7750
 url: /cs/aspose.slides/linearrowheadwidth/
 ---
-## LineArrowheadWidth výčet
+## LineArrowheadWidth enumerace
 
-Představuje šířku hrotu šipky.
+Představuje šířku šipky.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

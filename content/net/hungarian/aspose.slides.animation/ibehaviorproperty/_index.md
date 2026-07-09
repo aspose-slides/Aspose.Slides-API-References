@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
 second_title: Aspose.Sildes .NET API referencia
-description: Az animációs viselkedés tulajdonságtípusait ábrázolja. Követi a tulajdonságok listáját a https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx és a https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+description: Ábrázolja az animációs viselkedés tulajdonságtípusait. Követi a tulajdonságok listáját a https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx és a https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx oldalakról.
 type: docs
-weight: 420
+weight: 440
 url: /hu/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty interfész
 
-A animációs viselkedés tulajdonságtípusait képviseli. Követi a tulajdonságok listáját a https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx és https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx címekről.
+Az animációs viselkedés tulajdonságtípusait képviseli. A tulajdonságok listáját a https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx és a https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx határozza meg.
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,7 +18,7 @@ public interface IBehaviorProperty
 
 | Név | Leírás |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Megjeleníti, ha ez a tulajdonság nem tartozik a specifikáció előre definiált tulajdonságok listájához: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | Megjeleníti, ha ez a tulajdonság nem szerepel a specifikáció előre definiált tulajdonságlistájában: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | A tulajdonság értéke |
 
 ### Lásd még

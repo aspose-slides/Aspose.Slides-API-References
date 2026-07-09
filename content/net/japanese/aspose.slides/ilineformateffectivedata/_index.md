@@ -3,12 +3,12 @@ title: ILineFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効な線の書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6300
+weight: 6320
 url: /ja/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData インターフェイス
 
-Immutable object which contains effective line formatting properties.
+有効な線の書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -18,33 +18,33 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 行の配置を返します。読み取り専用 [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | ベースの ILineParamSource インターフェイスを取得できます。読み取り専用 [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 行の始点にある矢じりの長さを返します。読み取り専用 [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 行の始点にある矢じりのスタイルを返します。読み取り専用 [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 行の始点にある矢じりの幅を返します。読み取り専用 [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 行のキャップスタイルを返します。読み取り専用 [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | カスタムダッシュパターンを返します。読み取り専用 Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 行のダッシュスタイルを返します。読み取り専用 [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 行の終点にある矢じりの長さを返します。読み取り専用 [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 行の終点にある矢じりのスタイルを返します。読み取り専用 [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 行の終点にある矢じりの幅を返します。読み取り専用 [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 行の塗りつぶし形式を返します。読み取り専用 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 行の結合スタイルを返します。読み取り専用 [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 行のミターレベルを返します。読み取り専用 Single. |
-| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 行のスケッチ形式を返します。読み取り専用 [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
-| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 行のスタイルを返します。読み取り専用 [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 行の幅を返します。読み取り専用 Double. |
+| [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | ライン配置を返します。読み取り専用 [`LineAlignment`](../linealignment)。 |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | ベース ILineParamSource インターフェイスを取得できます。読み取り専用 [`ILineParamSource`](../ilineparamsource)。 |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | 線の始点にある矢尻の長さを返します。読み取り専用 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | 線の始点にある矢尻のスタイルを返します。読み取り専用 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | 線の始点にある矢尻の幅を返します。読み取り専用 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | 線の先端スタイルを返します。読み取り専用 [`LineCapStyle`](../linecapstyle)。 |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | カスタムダッシュ パターンを返します。読み取り専用 Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | 線のダッシュスタイルを返します。読み取り専用 [`LineDashStyle`](../linedashstyle)。 |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | 線の終点にある矢尻の長さを返します。読み取り専用 [`LineArrowheadLength`](../linearrowheadlength)。 |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 線の終点にある矢尻のスタイルを返します。読み取り専用 [`LineArrowheadStyle`](../linearrowheadstyle)。 |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 線の終点にある矢尻の幅を返します。読み取り専用 [`LineArrowheadWidth`](../linearrowheadwidth)。 |
+| [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 線の塗りつぶし形式を返します。読み取り専用 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata)。 |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 線の結合スタイルを返します。読み取り専用 [`LineJoinStyle`](../linejoinstyle)。 |
+| [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 線のマイターリミットを返します。読み取り専用 Single。 |
+| [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 線のスケッチ形式を返します。読み取り専用 [`ISketchFormatEffectiveData`](../isketchformateffectivedata)。 |
+| [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 線のスタイルを返します。読み取り専用 [`LineStyle`](../linestyle)。 |
+| [Width](../../aspose.slides/ilineformateffectivedata/width) { get; } | 線の幅を返します。読み取り専用 Double。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 2つの ILineFormatEffectiveData インスタンスが等しいかどうかを判断します。 |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 2つの ILineFormatEffectiveData インスタンスが等しいかどうかを判定します。 |
 
 ### 備考
 
-このインターフェイスは [`ILineFormat`](../ilineformat) インターフェイスと共に使用され、継承が適用された実効フォーマット値を返します。
+このインターフェイスは [`ILineFormat`](../ilineformat) インターフェイスと共に使用され、継承が適用された有効な書式設定値を返します。
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示將註釋渲染到匯出文件的規則
+description: 表示在匯出文件中呈現註釋的規則
 type: docs
 weight: 4300
 url: /zh-hant/aspose.slides.export/notespositions/
 ---
 ## NotesPositions 列舉
 
-表示將註釋渲染到匯出文件的規則
+表示在匯出文件中呈現註釋的規則
 
 ```csharp
 public enum NotesPositions
@@ -16,13 +16,13 @@ public enum NotesPositions
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| None | `0` | 指定不應顯示任何筆記。 |
-| BottomFull | `1` | 指定應使用額外頁面完整顯示筆記，視需求而定。 |
-| BottomTruncated | `2` | 指定應僅在單一頁面顯示筆記。 |
+| None | `0` | 指定不應顯示任何註釋。 |
+| BottomFull | `1` | 指定應根據需要使用額外頁面完整顯示註釋。 |
+| BottomTruncated | `2` | 指定註釋僅在單一頁面顯示。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

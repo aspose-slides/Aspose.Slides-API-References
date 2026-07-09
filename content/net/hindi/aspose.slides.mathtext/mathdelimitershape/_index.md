@@ -1,14 +1,14 @@
 ---
 title: MathDelimiterShape
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: ऑपरेण्ड्स की सामग्री के सापेक्ष डिलिमिटर का स्थान और आकार
+description: ऑपरेण्ड की सामग्री के सापेक्ष डिलिमिटरों का स्थान और आकार
 type: docs
 weight: 8670
 url: /hi/aspose.slides.mathtext/mathdelimitershape/
 ---
-## MathDelimiterShape एनेमरेशन
+## MathDelimiterShape एन्यूमरेशन
 
-ऑपरेण्ड्स की सामग्री के सापेक्ष डिलिमिटर के स्थान और आकार
+डिलिमिटरों का स्थान और आकार ऑपरेण्ड की सामग्री के सापेक्ष
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,10 +18,10 @@ public enum MathDelimiterShape
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Centered | `0` | गणितीय धुरी के सापेक्ष केंद्रित |
+| Centered | `0` | गणित अक्ष के अनुसार केंद्रित |
 | Match | `1` | सामग्री के अनुसार मेल |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

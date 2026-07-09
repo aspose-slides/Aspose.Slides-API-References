@@ -1,7 +1,7 @@
 ---
 title: IMathematicalTextFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een MathematicalText element te maken
+description: Staat toe een MathematicalText-element te maken
 type: docs
 weight: 8520
 url: /nl/aspose.slides.mathtext/imathematicaltextfactory/
@@ -16,12 +16,12 @@ public interface IMathematicalTextFactory
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Maak een leeg wiskundig-tekst-element |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Maak een wiskundig-tekst-element met de opgegeven waarde |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Maak een leeg wiskundig-tekst-element met de opgegeven waarde |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Maak een leeg wiskundig-tekst-element met de opgegeven waarde en opmaak-eigenschappen |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Maak een leeg MathematicalText-element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Maak een MathematicalText-element met de opgegeven waarde |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Maak een leeg MathematicalText-element met de opgegeven waarde |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Maak een leeg MathematicalText-element met de opgegeven waarde en opmaak-eigenschappen |
 
 ### Opmerkingen
 

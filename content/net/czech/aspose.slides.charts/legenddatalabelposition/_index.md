@@ -1,14 +1,14 @@
 ---
 title: LegendDataLabelPosition
 second_title: Aspose.Sildes pro .NET API Reference
-description: Určuje polohu popisků dat.
+description: Určuje pozici datových popisků.
 type: docs
-weight: 2270
+weight: 2290
 url: /cs/aspose.slides.charts/legenddatalabelposition/
 ---
-## LegendDataLabelPosition výčtový typ
+## Výčet LegendDataLabelPosition
 
-Určuje polohu popisků dat.
+Určuje pozici datových popisků.
 
 ```csharp
 public enum LegendDataLabelPosition
@@ -18,16 +18,16 @@ public enum LegendDataLabelPosition
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| NotDefined | `-1` | Pozice není definována. |
-| Bottom | `0` | Určuje, že popisky dat mají být zobrazeny pod značkou dat. |
-| BestFit | `1` | Určuje, že popisky dat mají být zobrazeny v nejlepší poloze. |
-| Center | `2` | Určuje, že popisky dat mají být zobrazeny vystředěně na značce dat. |
-| InsideBase | `3` | Určuje, že popisky dat mají být zobrazeny uvnitř základny značky dat. |
-| InsideEnd | `4` | Určuje, že popisky dat mají být zobrazeny uvnitř konce značky dat. |
-| Left | `5` | Určuje, že popisky dat mají být zobrazeny vlevo od značky dat. |
-| OutsideEnd | `6` | Určuje, že popisky dat mají být zobrazeny vně konce značky dat. |
-| Right | `7` | Určuje, že popisky dat mají být zobrazeny vpravo od značky dat. |
-| Top | `8` | Určuje, že popisky dat mají být zobrazeny nad značkou dat. |
+| NotDefined | `-1` | Pozice není určena. |
+| Bottom | `0` | Určuje, že datové popisky mají být zobrazeny pod datovým značkou. |
+| BestFit | `1` | Určuje, že datové popisky mají být zobrazeny v nejlepší pozici. |
+| Center | `2` | Určuje, že datové popisky mají být zobrazeny uprostřed datové značky. |
+| InsideBase | `3` | Určuje, že datové popisky mají být zobrazeny uvnitř základny datové značky. |
+| InsideEnd | `4` | Určuje, že datové popisky mají být zobrazeny uvnitř konce datové značky. |
+| Left | `5` | Určuje, že datové popisky mají být zobrazeny nalevo od datové značky. |
+| OutsideEnd | `6` | Určuje, že datové popisky mají být zobrazeny vně konce datové značky. |
+| Right | `7` | Určuje, že datové popisky mají být zobrazeny napravo od datové značky. |
+| Top | `8` | Určuje, že datové popisky mají být zobrazeny nad datovou značkou. |
 
 ### Viz také
 

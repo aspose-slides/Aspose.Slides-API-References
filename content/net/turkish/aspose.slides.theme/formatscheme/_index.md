@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes için .NET API Referansı
-description: Şekiller için tema tanımlı biçimleri depolar.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Şekiller için tema tarafından tanımlanan biçimleri depolar.
 type: docs
-weight: 11120
+weight: 11140
 url: /tr/aspose.slides.theme/formatscheme/
 ---
 ## FormatScheme sınıf
 
-Tema tarafından tanımlanan şekiller için biçimleri depolar.
+Şekiller için tema tarafından tanımlanan biçimleri depolar.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -25,7 +25,7 @@ public class FormatScheme : IFormatScheme
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Üst sunumu döndürür. Yalnızca okuma [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Üst slaytı döndürür. Yalnızca okuma [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
 * arayüz [IFormatScheme](../iformatscheme)
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)

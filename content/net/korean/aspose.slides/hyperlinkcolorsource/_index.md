@@ -1,14 +1,14 @@
 ---
 title: HyperlinkColorSource
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 하이퍼링크 색상의 출처를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 하이퍼링크 색상의 소스를 나타냅니다.
 type: docs
 weight: 5140
 url: /ko/aspose.slides/hyperlinkcolorsource/
 ---
 ## HyperlinkColorSource 열거형
 
-하이퍼링크 색상의 출처를 나타냅니다.
+하이퍼링크 색상의 소스를 나타냅니다.
 
 ```csharp
 public enum HyperlinkColorSource

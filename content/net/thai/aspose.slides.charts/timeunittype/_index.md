@@ -1,14 +1,14 @@
 ---
 title: TimeUnitType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของหน่วยฐานสำหรับแกนประเภท
+description: แสดงถึงหน่วยฐานสำหรับแกนประเภท
 type: docs
 weight: 2460
 url: /th/aspose.slides.charts/timeunittype/
 ---
-## TimeUnitType enumeration
+## enumeration TimeUnitType
 
-แทนหน่วยฐานสำหรับแกนประเภท
+แสดงถึงหน่วยฐานสำหรับแกนประเภท
 
 ```csharp
 public enum TimeUnitType

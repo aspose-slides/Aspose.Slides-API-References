@@ -1,6 +1,6 @@
 ---
 title: ExtraColorSchemeCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل مجموعة من مخططات الألوان الإضافية.
 type: docs
 weight: 11110
@@ -18,19 +18,19 @@ public class ExtraColorSchemeCollection : IExtraColorSchemeCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | تعيد عدد العناصر في المجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | تعيد قيمة تشير إلى ما إذا كان الوصول إلى ArrayList متزامنًا (آمن للخطوط). قراءة فقط Boolean. |
-| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | تعيد مخطط ألوان حسب الفهرس. قراءة فقط [`ExtraColorScheme`](../extracolorscheme). |
-| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | تعيد كائنًا يمكن استخدامه لمزامنة الوصول إلى المجموعة. قراءة فقط Object. |
+| [Count](../../aspose.slides.theme/extracolorschemecollection/count) { get; } | يعيد عدد العناصر في المجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides.theme/extracolorschemecollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى ArrayList متزامنًا (آمن خيوطياً). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides.theme/extracolorschemecollection/item) { get; } | يعيد مخطط ألوان وفق الفهرس. للقراءة فقط [`ExtraColorScheme`](../extracolorscheme). |
+| [SyncRoot](../../aspose.slides.theme/extracolorschemecollection/syncroot) { get; } | يعيد كائنًا يمكن استخدامه لمزامنة الوصول إلى المجموعة. للقراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/extracolorschemecollection/copyto)(Array, int) | ينسخ جميع عناصر المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | تعيد عدادًا يتجول عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides.theme/extracolorschemecollection/getenumerator)() | يعيد عدّادًا يتكرر عبر المجموعة. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * واجهة [IExtraColorSchemeCollection](../iextracolorschemecollection)
 * مساحة الاسم [Aspose.Slides.Theme](../../aspose.slides.theme)

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な 3-D 書式設定プロパティを表すイミュータブル オブジェクトです。
+description: 有効な3-D書式設定プロパティを表す不変オブジェクトです。
 type: docs
-weight: 7320
+weight: 7340
 url: /ja/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData インターフェイス
 
-有効な 3-D 書式設定プロパティを表すイミュータブル オブジェクトです。
+効果的な 3-D 書式設定プロパティを表す不変オブジェクトです。
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,23 +18,23 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | ベース IThreeDParamSource インターフェイスを取得できます。読み取り専用 [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | 底部の 3D ベベルのタイプを返します。読み取り専用 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | 上部の 3D ベベルのタイプを返します。読み取り専用 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | カメラの設定を返します。読み取り専用 [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | 輪郭の色を返します。読み取り専用 Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | 3D 輪郭の幅を返します。読み取り専用 Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | 3D 形状の深さを返します。読み取り専用 Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | 押し出しの色を返します。読み取り専用 Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | 押し出し効果の高さを返します。読み取り専用 Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | 光源のタイプを返します。読み取り専用 [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | マテリアルのタイプを返します。読み取り専用 [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | 基本 IThreeDParamSource インターフェイスを取得できます。読み取り専用 [`IThreeDParamSource`](../ithreedparamsource)。 |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | 底部 3D ベベルのタイプを返します。読み取り専用 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata)。 |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | 上部 3D ベベルのタイプを返します。読み取り専用 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata)。 |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | カメラの設定を返します。読み取り専用 [`ICameraEffectiveData`](../icameraeffectivedata)。 |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | 輪郭の色を返します。読み取り専用 Color。 |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | 3D 輪郭の幅を返します。読み取り専用 Double。 |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | 3D シェイプの奥行きを返します。読み取り専用 Double。 |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | 押し出しの色を返します。読み取り専用 Color。 |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | 押し出し効果の高さを返します。読み取り専用 Double。 |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | 光のタイプを返します。読み取り専用 [`ILightRigEffectiveData`](../ilightrigeffectivedata)。 |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | マテリアルのタイプを返します。読み取り専用 [`MaterialPresetType`](../materialpresettype)。 |
 
 ### 備考
 
 このインターフェイスは [`IThreeDFormat`](../ithreedformat) インターフェイスと組み合わせて、継承が適用された有効な書式設定値を返すために使用されます。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IThreeDParamSource](../ithreedparamsource)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

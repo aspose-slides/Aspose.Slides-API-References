@@ -14,11 +14,11 @@ url: /th/aspose.slides.mathtext/mathsuperscriptelementfactory/
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
 
-## ตัวสร้าง
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | คอนสตรักเตอร์เริ่มต้น |
 
 ## เมธอด
 
@@ -28,11 +28,11 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้ของ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
+* อินเตอร์เฟซ [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)
 

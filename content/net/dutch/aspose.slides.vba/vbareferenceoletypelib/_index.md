@@ -1,31 +1,31 @@
 ---
 title: VbaReferenceOleTypeLib
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een OLE Automation-typebibliotheekreferentie voor.
+description: Stelt een OLE Automation typebibliotheekverwijzing voor.
 type: docs
 weight: 11690
 url: /nl/aspose.slides.vba/vbareferenceoletypelib/
 ---
 ## VbaReferenceOleTypeLib klasse
 
-Stelt een OLE Automation-typebibliotheekreferentie voor.
+Stelt een OLE Automation typebibliotheekverwijzing voor.
 
 ```csharp
 public class VbaReferenceOleTypeLib : IVbaReferenceOleTypeLib
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
-| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Deze constructor maakt een nieuwe OLE Automation-typebibliotheekreferentie. |
+| [VbaReferenceOleTypeLib](vbareferenceoletypelib)(string, string) | Deze constructor maakt een nieuwe OLE Automation typebibliotheekverwijzing aan. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Stelt de identifier van een Automation typebibliotheek voor. Lezen/schrijven String. |
-| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Stelt de naam van de VBA-projectreferentie voor. Lezen/schrijven String. |
+| [Libid](../../aspose.slides.vba/vbareferenceoletypelib/libid) { get; set; } | Stelt de identificatie van een Automation typebibliotheek voor. Lezen/Schrijven String. |
+| [Name](../../aspose.slides.vba/vbareferenceoletypelib/name) { get; set; } | Stelt de naam van de VBA-projectverwijzing voor. Lezen/Schrijven String. |
 
 ### Zie ook
 

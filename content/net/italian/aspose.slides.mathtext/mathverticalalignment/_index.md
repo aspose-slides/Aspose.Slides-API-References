@@ -3,7 +3,7 @@ title: MathVerticalAlignment
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Allineamento verticale
 type: docs
-weight: 9030
+weight: 9050
 url: /it/aspose.slides.mathtext/mathverticalalignment/
 ---
 ## MathVerticalAlignment enumerazione
@@ -19,9 +19,9 @@ public enum MathVerticalAlignment
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `0` | Il valore non è definito |
-| Top | `1` | In alto |
-| Center | `2` | Centro |
-| Bottom | `3` | In basso |
+| Top | `1` | Top |
+| Center | `2` | Center |
+| Bottom | `3` | Bottom |
 
 ### Vedi anche
 

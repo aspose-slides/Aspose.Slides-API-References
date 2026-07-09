@@ -6,9 +6,9 @@ type: docs
 weight: 10610
 url: /hi/aspose.slides.smartart/smartartcolortype/
 ---
-## SmartArtColorType एन्यूमरेशन
+## SmartArtColorType एन्युमरेशन
 
-एक SmartArt आरेख की रंग योजना का प्रतिनिधित्व करता है।
+एक SmartArt डायग्राम की रंग योजना का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum SmartArtColorType
@@ -57,7 +57,7 @@ public enum SmartArtColorType
 | GradientLoopAccent6 | `36` | GradientLoopAccent6 |
 | TransparentGradientRangeAccent6 | `37` | TransparentGradientRangeAccent6 |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * असेंबली [Aspose.Slides](../../)

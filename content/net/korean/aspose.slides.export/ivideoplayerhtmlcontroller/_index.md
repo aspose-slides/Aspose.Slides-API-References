@@ -1,7 +1,7 @@
 ---
 title: IVideoPlayerHtmlController
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 클래스는 비디오 및 오디오 파일을 HTML로 내보낼 수 있게 합니다
+description: 이 클래스는 비디오 및 오디오 파일을 HTML로 내보낼 수 있게 합니다.
 type: docs
 weight: 4180
 url: /ko/aspose.slides.export/ivideoplayerhtmlcontroller/
@@ -23,7 +23,7 @@ public interface IVideoPlayerHtmlController : IHtmlFormattingController, ILinkEm
 | [AsILinkEmbedController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller) { get; } | 기본 ILinkEmbedController 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ILinkEmbedController`](../ilinkembedcontroller). |
 | [AsISvgShapeFormattingController](../../aspose.slides.export/ivideoplayerhtmlcontroller/asisvgshapeformattingcontroller) { get; } | 기본 ISvgShapeFormattingController 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
 
-### 참조
+### 관련
 
 * 인터페이스 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 인터페이스 [ILinkEmbedController](../ilinkembedcontroller)

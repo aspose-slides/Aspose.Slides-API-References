@@ -1,9 +1,9 @@
 ---
 title: IPointCollection
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de porções.
 type: docs
-weight: 530
+weight: 550
 url: /pt/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection interface
@@ -22,7 +22,7 @@ public interface IPointCollection : IEnumerable<IPoint>
 | [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Retorna o número de pontos na coleção. Int32 somente leitura. |
 | [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Retorna um ponto no índice especificado. |
 
-### Veja Também
+### Ver também
 
 * interface [IPoint](../ipoint)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

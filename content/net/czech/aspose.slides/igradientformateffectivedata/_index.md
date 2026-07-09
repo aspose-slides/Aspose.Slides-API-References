@@ -1,9 +1,9 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Neměnný objekt, který obsahuje efektivní vlastnosti výplně gradientem.
 type: docs
-weight: 5990
+weight: 6010
 url: /cs/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData rozhraní
@@ -18,17 +18,17 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | Název | Popis |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Vrací styl gradientu. Pouze pro čtení [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Vrací tvar gradientu. Pouze pro čtení [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Vrací kolekci zastávek gradientu. Pouze pro čtení [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Vrací úhel gradientu. Pouze pro čtení Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Určuje, zda je gradient škálován. Pouze pro čtení Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Vrací režim převrácení pro gradient. Pouze pro čtení [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Jen pro čtení [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Vrací styl gradientu. Jen pro čtení [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Vrací tvar gradientu. Jen pro čtení [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Vrací kolekci gradientových zarážek. Jen pro čtení [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Vrací úhel gradientu. Jen pro čtení Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Určuje, zda je gradient škálován. Jen pro čtení Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Vrací režim převrácení gradientu. Jen pro čtení [`TileFlip`](../tileflip). |
 
 ### Poznámky
 
-Toto rozhraní se používá jako součást [`IFillFormatEffectiveData`](../ifillformateffectivedata) a [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
+Toto rozhraní je používáno jako součást [`IFillFormatEffectiveData`](../ifillformateffectivedata) a [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### Viz také
 

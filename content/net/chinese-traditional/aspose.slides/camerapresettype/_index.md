@@ -1,6 +1,6 @@
 ---
 title: CameraPresetType
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 定義相機預設類型的常數。
 type: docs
 weight: 1100

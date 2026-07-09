@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes for .NET API रेफ़रेंस
-description: VBA प्रोजेक्ट रेफ़रेंसेस के संग्रह का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: VBA प्रोजेक्ट संदर्भों का संग्रह दर्शाता है।
 type: docs
 weight: 11580
 url: /hi/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection इंटरफ़ेस
 
-VBA प्रोजेक्ट रेफ़रेंसेस का संग्रह दर्शाता है।
+VBA प्रोजेक्ट संदर्भों का संग्रह दर्शाता है।
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -18,15 +18,15 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | नए रेफ़रेंस को रेफ़रेंसेस संग्रह में जोड़ता है |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | नया संदर्भ संग्रह में जोड़ता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IVbaReference](../ivbareference)

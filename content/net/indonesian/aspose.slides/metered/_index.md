@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan metode untuk mengatur kunci terukur.
+description: Menyediakan metode untuk mengatur kunci metered.
 type: docs
-weight: 9060
+weight: 9080
 url: /id/aspose.slides/metered/
 ---
 ## Metered kelas
 
-Menyediakan metode untuk mengatur kunci terukur.
+Menyediakan metode untuk mengatur kunci metered.
 
 ```csharp
 public class Metered
@@ -25,14 +25,14 @@ public class Metered
 | Nama | Deskripsi |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Mengatur kunci publik dan privat terukur. Jika Anda membeli lisensi terukur, saat memulai aplikasi, API ini harus dipanggil, biasanya, ini sudah cukup. Namun, jika selalu gagal mengunggah data konsumsi dan melebihi 24 jam, lisensi akan diatur ke status evaluasi; untuk menghindari hal tersebut, Anda harus secara rutin memeriksa status lisensi, jika berada dalam status evaluasi, panggil API ini lagi. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Mengatur kunci publik dan privat metered. Jika Anda membeli lisensi metered, saat memulai aplikasi, API ini harus dipanggil, biasanya, ini sudah cukup. Namun, jika selalu gagal mengunggah data konsumsi dan melebihi 24 jam, lisensi akan diubah menjadi status evaluasi; untuk menghindari hal tersebut, Anda harus secara teratur memeriksa status lisensi, jika berada dalam status evaluasi, panggil API ini lagi. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Mendapatkan kredit konsumsi |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Mendapatkan ukuran file konsumsi |
 | static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Memeriksa apakah metered berlisensi |
 
 ### Contoh
 
-Dalam contoh ini, akan dilakukan upaya untuk mengatur kunci publik dan privat terukur
+Dalam contoh ini, upaya akan dilakukan untuk mengatur kunci publik dan privat metered
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Chỉ ra định dạng của tài liệu sẽ được tải.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cho biết định dạng của tài liệu sẽ được tải.
 type: docs
 weight: 7830
 url: /vi/aspose.slides/loadformat/
 ---
-## LoadFormat liệt kê
+## Liệt kê LoadFormat
 
-Chỉ ra định dạng của tài liệu sẽ được tải.
+Cho biết định dạng của tài liệu sẽ được tải.
 
 ```csharp
 public enum LoadFormat
@@ -18,20 +18,20 @@ public enum LoadFormat
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Auto | `0` | Hướng dẫn Aspose.Slides nhận dạng định dạng một cách tự động. |
-| Ppt | `1` | Microsoft PowerPoint 97-2003 Presentation. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 SlideShow. |
-| Pptx | `3` | Microsoft Office Open XML PresentationML Document. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML SlideShow. |
-| Odp | `5` | OpenOffice ODF Presentation. |
-| Potx | `6` | Microsoft Office Open XML PresentationML Template. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML Macro-enabled Document. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML Macro-enabled SlideShow. |
-| Potm | `9` | Microsoft Office Open XML PresentationML Macro-enabled Template. |
-| Otp | `10` | OpenOffice OTP Presentation template. |
-| Ppt95 | `11` | Microsoft PowerPoint 95 Presentation. |
-| Pot | `12` | Microsoft PowerPoint 97-2003 Presentation Template. |
-| Fodp | `13` | Flat XML ODF Presentation. |
+| Auto | `0` | Chỉ dẫn Aspose.Slides nhận dạng định dạng một cách tự động. |
+| Ppt | `1` | Bản trình chiếu Microsoft PowerPoint 97-2003. |
+| Pps | `2` | Trình chiếu Microsoft PowerPoint 97-2003. |
+| Pptx | `3` | Tài liệu Microsoft Office Open XML PresentationML. |
+| Ppsx | `4` | Trình chiếu Microsoft Office Open XML PresentationML. |
+| Odp | `5` | Bản trình chiếu OpenOffice ODF. |
+| Potx | `6` | Mẫu Microsoft Office Open XML PresentationML. |
+| Pptm | `7` | Tài liệu Microsoft Office Open XML PresentationML có hỗ trợ macro. |
+| Ppsm | `8` | Trình chiếu Microsoft Office Open XML PresentationML có hỗ trợ macro. |
+| Potm | `9` | Mẫu Microsoft Office Open XML PresentationML có hỗ trợ macro. |
+| Otp | `10` | Mẫu trình chiếu OpenOffice OTP. |
+| Ppt95 | `11` | Bản trình chiếu Microsoft PowerPoint 95. |
+| Pot | `12` | Mẫu trình chiếu Microsoft PowerPoint 97-2003. |
+| Fodp | `13` | Bản trình chiếu Flat XML ODF. |
 | Unknown | `255` | Định dạng tệp không xác định |
 
 ### Xem thêm

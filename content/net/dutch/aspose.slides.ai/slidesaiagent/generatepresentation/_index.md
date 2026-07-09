@@ -1,6 +1,6 @@
 ---
 title: GeneratePresentation
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Genereert een presentatie-instantie vanuit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten op in de vereiste taal.
 type: docs
 weight: 20
@@ -17,18 +17,18 @@ public IPresentation GeneratePresentation(string description,
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| description | String | The topic, ideas, quotes, or text snippets. |
-| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
+| description | String | Het onderwerp, de ideeën, citaten of tekstfragmenten. |
+| presentationContentAmount | PresentationContentAmountType | De hoeveelheid inhoud in de resulterende presentatie. |
 
 ### Uitzonderingen
 
 | Uitzondering | Voorwaarde |
 | --- | --- |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentException | AI-chat-instructie mag niet null of leeg zijn. |
 
 ### Opmerkingen
 
-Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt gemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en maakt verbinding met de eigen LLM van Aspose. Om een andere AI-provider te gebruiken, lever uw eigen LLM, of pas de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geef een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties zijn:
+Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt aangemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en verbinding maakt met Aspose’s eigen LLM. Om een andere AI-provider te gebruiken, lever uw eigen LLM, of pas de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geef een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties omvatten:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
@@ -39,7 +39,7 @@ Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asp
 * interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
 * klasse [SlidesAIAgent](../../slidesaiagent)
-* naamruimte [Aspose.Slides.AI](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
 
 ---
@@ -55,20 +55,20 @@ public IPresentation GeneratePresentation(string description,
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| description | String | The topic, ideas, quotes, or text snippets. |
-| presentationContentAmount | PresentationContentAmountType | The amount of content in the resulting presentation. |
-| presentationTemplate | IPresentation | A presentation to use as a template for layout and design, replacing the default template. |
+| description | String | Het onderwerp, de ideeën, citaten of tekstfragmenten. |
+| presentationContentAmount | PresentationContentAmountType | De hoeveelheid inhoud in de resulterende presentatie. |
+| presentationTemplate | IPresentation | Een presentatie die als sjabloon wordt gebruikt voor lay-out en ontwerp, ter vervanging van het standaard sjabloon. |
 
 ### Uitzonderingen
 
 | Uitzondering | Voorwaarde |
 | --- | --- |
-| ArgumentNullException | Presentation template is not provided. |
-| ArgumentException | AI chat instruction can't be null or empty. |
+| ArgumentNullException | Presentatiesjabloon is niet opgegeven. |
+| ArgumentException | AI-chat-instructie mag niet null of leeg zijn. |
 
 ### Opmerkingen
 
-Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt gemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en maakt verbinding met de eigen LLM van Aspose. Om een andere AI-provider te gebruiken, lever uw eigen LLM, of pas de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geef een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties zijn:
+Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt aangemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en verbinding maakt met Aspose’s eigen LLM. Om een andere AI-provider te gebruiken, lever uw eigen LLM, of pas de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geef een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties omvatten:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
@@ -79,7 +79,7 @@ Het onderstaande voorbeeld gebruikt de standaard [`AsposeAIWebClient`](../../asp
 * interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
 * klasse [SlidesAIAgent](../../slidesaiagent)
-* naamruimte [Aspose.Slides.AI](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
 * assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

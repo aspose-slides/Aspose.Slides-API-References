@@ -1,12 +1,12 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Indica il formato del documento da caricare.
 type: docs
-weight: 7810
+weight: 7830
 url: /it/aspose.slides/loadformat/
 ---
-## Enumerazione LoadFormat
+## enumerazione LoadFormat
 
 Indica il formato del documento da caricare.
 
@@ -18,7 +18,7 @@ public enum LoadFormat
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Istruisce Aspose.Slides a riconoscere automaticamente il formato. |
+| Auto | `0` | Indica ad Aspose.Slides di riconoscere automaticamente il formato. |
 | Ppt | `1` | Presentazione Microsoft PowerPoint 97-2003. |
 | Pps | `2` | Presentazione Microsoft PowerPoint 97-2003 SlideShow. |
 | Pptx | `3` | Documento Microsoft Office Open XML PresentationML. |
@@ -31,7 +31,7 @@ public enum LoadFormat
 | Otp | `10` | Modello di presentazione OpenOffice OTP. |
 | Ppt95 | `11` | Presentazione Microsoft PowerPoint 95. |
 | Pot | `12` | Modello di presentazione Microsoft PowerPoint 97-2003. |
-| Fodp | `13` | Presentazione Flat XML ODF. |
+| Fodp | `13` | Presentazione ODF Flat XML. |
 | Unknown | `255` | Formato file sconosciuto |
 
 ### Vedi anche

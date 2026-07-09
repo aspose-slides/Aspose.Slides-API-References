@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
 second_title: Aspose.Sildes .NET API referencia
-description: Olyan string vagy double értéket reprezentál, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban, 2) literális értékként.
+description: String vagy double értéket képvisel, amely pptx prezentációs dokumentumban kétféleképpen tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban, 2) literális értékként.
 type: docs
-weight: 2210
+weight: 2230
 url: /hu/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue interfész
 
-A sztring vagy double értéket reprezentálja, amely a pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban; 2) literális értékként.
+String vagy double értéket képvisel, amely pptx prezentációs dokumentumban két módon tárolható: 1) a diagramhoz kapcsolódó munkafüzet celláiban/celláiban; 2) literális értékként.
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -26,7 +26,7 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Név | Leírás |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Átalakítja az értéket double típusúra. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | Átalakítja az értéket double típusra. |
 
 ### Lásd még
 

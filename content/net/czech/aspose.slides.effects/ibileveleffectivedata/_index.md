@@ -1,20 +1,20 @@
 ---
 title: IBiLevelEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt Bi-Level černobílý. Vstupní barvy, jejichž jas je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž jas je větší nebo roven zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu touto operací nejsou ovlivněny.
+description: Neměnný objekt, který představuje dvoustupňový černobílý efekt. Vstupní barvy, jejichž luminance je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž luminance je větší nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu nejsou tímto efektem ovlivněny.
 type: docs
-weight: 3150
+weight: 3170
 url: /cs/aspose.slides.effects/ibileveleffectivedata/
 ---
-## IBiLevelEffectiveData rozhraní
+## IBiLevelEffectiveData interface
 
-Neměnný objekt, který představuje efekt Bi-Level (black/white). Vstupní barvy, jejichž jas je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž jas je větší nebo roven zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu touto operací nejsou ovlivněny.
+Neměnný objekt, který představuje dvoustupňový (černobílý) efekt. Vstupní barvy, jejichž luminance je menší než zadaná prahová hodnota, jsou změněny na černou. Vstupní barvy, jejichž luminance je větší nebo rovna zadané hodnotě, jsou nastaveny na bílou. Hodnoty alfa efektu nejsou tímto efektem ovlivněny.
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
 ```
 
-## Properties
+## Vlastnosti
 
 | Název | Popis |
 | --- | --- |

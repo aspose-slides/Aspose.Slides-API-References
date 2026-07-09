@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αμετάβλητο αντικείμενο που περιέχει τις ιδιότητες ανάγλυφου προσώπου των αποτελεσματικών σχημάτων.
 type: docs
-weight: 6950
+weight: 6970
 url: /el/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που περιέχει τις ιδιότητες ανάγλυφου προσώπου του αποτελεσματικού σχήματος.
+Αμετάβλητο αντικείμενο που περιέχει τις ιδιότητες ανάγλυφου προσώπου του σχήματος.
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,11 +18,11 @@ public interface IShapeBevelEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Τύπος λοξότμησης. Μόνο ανάγνωση [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Ύψος λοξότμησης. Μόνο ανάγνωση Double. |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Πλάτος λοξότμησης. Μόνο ανάγνωση Double. |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Τύπος πλάγιας. Μόνο ανάγνωση [`BevelPresetType`](../bevelpresettype). |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Ύψος πλάγιας. Μόνο ανάγνωση Double. |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Πλάτος πλάγιας. Μόνο ανάγνωση Double. |
 
-### Σχόλια
+### Παρατηρήσεις
 
 Αυτή η διασύνδεση χρησιμοποιείται ως μέρος του [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 

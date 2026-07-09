@@ -1,39 +1,35 @@
 ---
 title: VbaReferenceFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om VBA-projectreferenties te maken via COM-interface
+description: Staat toe VBA-projectreferenties te maken via COM-interface
 type: docs
 weight: 11680
 url: /nl/aspose.slides.vba/vbareferencefactory/
 ---
 ## VbaReferenceFactory klasse
 
-Staat toe om VBA-projectreferenties te maken via COM-interface
+Staat toe VBA-projectreferenties te maken via COM-interface
 
 ```csharp
 public class VbaReferenceFactory : IVbaReferenceFactory
 ```
 
-## Constructoren
-
+## Constructors
 | Naam | Beschrijving |
 | --- | --- |
 | [VbaReferenceFactory](vbareferencefactory)() | De standaardconstructor. |
 
 ## Eigenschappen
-
 | Naam | Beschrijving |
 | --- | --- |
-| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | Statische instantie van VBA-projectreferenties-fabriek. Alleen-lezen [`VbaReferenceFactory`](../vbareferencefactory). |
+| static [Instance](../../aspose.slides.vba/vbareferencefactory/instance) { get; } | VBA-projectreferenties-fabriek statische instantie. Alleen-lezen [`VbaReferenceFactory`](../vbareferencefactory). |
 
 ## Methoden
-
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Maakt een nieuwe OLE Automation typebibliotheekreferentie. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/vbareferencefactory/createoletypelibreference)(string, string) | Maakt een nieuwe OLE Automation typebibliotheekreferentie aan. |
 
 ### Zie ook
-
 * interface [IVbaReferenceFactory](../ivbareferencefactory)
 * naamruimte [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

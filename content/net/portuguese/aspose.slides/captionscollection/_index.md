@@ -1,9 +1,9 @@
 ---
 title: CaptionsCollection
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência de API
 description: Representa uma coleção de legendas fechadas.
 type: docs
-weight: 1100
+weight: 1120
 url: /pt/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection classe
@@ -25,10 +25,10 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 | Nome | Descrição |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Adiciona legendas fechadas WebVTT ao final da coleção a partir de um Stream. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Adiciona legendas fechadas WebVTT ao final da coleção a partir de um fluxo. |
 | [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Adiciona legendas fechadas WebVTT ao final da coleção. |
 | [Clear](../../aspose.slides/captionscollection/clear)() | Remove todas as legendas fechadas da coleção. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Retorna um enumerador que percorre a coleção. |
 | [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Remove as legendas fechadas especificadas da coleção. |
 | [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Remove as legendas fechadas no índice especificado. |
 

@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
 second_title: Aspose.Sildes for .NET API 참조
-description: 지오메트릭 모양을 지정하며, 이를 결합하여 더 큰 영역을 채웁니다.
+description: 다른 도형을 겹쳐서 더 큰 영역을 채우는 기하학적 형태를 지정합니다.
 type: docs
 weight: 10410
 url: /ko/aspose.slides.slideshow/transitionshredpattern/
 ---
 ## TransitionShredPattern 열거형
 
-지오메트릭 모양을 지정하며, 이를 결합하여 더 큰 영역을 채웁니다.
+다른 도형을 겹쳐서 더 큰 영역을 채우는 기하학적 형태를 지정합니다.
 
 ```csharp
 public enum TransitionShredPattern
@@ -19,9 +19,9 @@ public enum TransitionShredPattern
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Strip | `0` | 수직 스트립 |
-| Rectangle | `1` | 작은 사각형 |
+| Rectangle | `1` | 작은 직사각형 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

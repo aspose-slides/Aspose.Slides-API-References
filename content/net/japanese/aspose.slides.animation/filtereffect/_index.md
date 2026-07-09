@@ -1,9 +1,9 @@
 ---
 title: FilterEffect
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 動作のフィルター効果を表します。
 type: docs
-weight: 350
+weight: 370
 url: /ja/aspose.slides.animation/filtereffect/
 ---
 ## FilterEffect クラス
@@ -18,18 +18,18 @@ public class FilterEffect : Behavior, IFilterEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [FilterEffect](filtereffect)() | デフォルト コンストラクタ。 |
+| [FilterEffect](filtereffect)() | デフォルトコンストラクタ。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション ビヘイビアが蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション ビヘイビアが他の実行中のアニメーションと組み合わされるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | ビヘイビアのプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | ビヘイビアとともに効果が明示される必要があるかどうか（in/out）を表します。読み書き [`FilterEffectRevealType`](../filtereffectrevealtype)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーションの動作が蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション動作が他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | 動作のプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | 動作に伴うエフェクトが（イン/アウト）で表示される必要があるかどうかを表します。読み書き [`FilterEffectRevealType`](../filtereffectrevealtype)。 |
 | [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | フィルター効果のサブタイプを表します。読み書き [`FilterEffectSubtype`](../filtereffectsubtype)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト ビヘイビアのタイミングプロパティを表します。読み書き [`ITiming`](../itiming)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト動作のタイミングプロパティを表します。読み書き [`ITiming`](../itiming)。 |
 | [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | フィルター効果のタイプを表します。読み書き [`FilterEffectType`](../filtereffecttype)。 |
 
 ### 参照

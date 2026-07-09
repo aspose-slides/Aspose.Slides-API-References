@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulate
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Alpha Modulate-effect voor. Effect alpha opaciteitswaarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alpha waarden bevat om te moduleren.
+description: Stelt een Alpha Modulate-effect voor. Effect alfa (dekkingsgraad) waarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden moduleert.
 type: docs
 weight: 3100
 url: /nl/aspose.slides.effects/ialphamodulate/
 ---
 ## IAlphaModulate interface
 
-Stelt een Alpha Modulate-effect voor. Effect alfa (opaciteit) waarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden bevat om te moduleren.
+Stelt een Alpha Modulate-effect voor. Effect-alfa (dekkingsgraad) waarden worden vermenigvuldigd met een vast percentage. De effectcontainer specificeert een effect dat alfa-waarden moet moduleren.
 
 ```csharp
 public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaModulate : IAccessiblePVIObject<IAlphaModulateEffectiveDa
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Maakt het mogelijk de basisklasse IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Maakt het mogelijk de basisklasse IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulate/asiaccessiblepviobject) { get; } | Staat toe om de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulate/asiimagetransformoperation) { get; } | Staat toe om de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Zie ook
 

@@ -1,15 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Aspose.Sildes for .NET API Reference
-description: 表示一个包含数据的单元格集合。
+second_title: Aspose.Sildes .NET API 参考
+description: 表示包含数据的单元格集合。
 type: docs
-weight: 1700
+weight: 1780
 url: /zh/aspose.slides.charts/ichartcellcollection/
 ---
-
 ## IChartCellCollection 接口
 
-表示一个包含数据的单元格集合。
+表示包含数据的单元格集合。
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -19,19 +18,19 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | 返回 ICollection 接口。只读 IEnumerable。 |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 获取集合中单元格的数量。只读 Int32。 |
-| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 根据索引返回一个单元格 (IChartDataCell)。 |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | 返回 ICollection 接口。只读 IEnumerable。 |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 获取集合中单元格的计数。只读 Int32。 |
+| [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 按索引返回单元格 (IChartDataCell)。 |
 
 ## 方法
 
 | 名称 | 描述 |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 向集合中添加新单元格。 |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 从指定的值创建 [`IChartDataCell`](../ichartdatacell) 并将其添加到集合中。 |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 根据指定值创建 [`IChartDataCell`](../ichartdatacell) 并将其添加到集合中。 |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | 返回工作簿中单元格集合的地址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 从所有单元格的字符串值中获取连接的字符串。 |
-| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | 根据索引从集合中删除一个单元格。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 将所有单元格的字符串值连接成一个字符串。 |
+| [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | 按索引从集合中移除单元格。 |
 
 ### 另见
 

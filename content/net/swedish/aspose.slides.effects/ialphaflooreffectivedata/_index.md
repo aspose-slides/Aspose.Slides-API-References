@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som representerar en Alpha Floor-effekt. Alfa-opacitetsvärden under 100 ändras till noll. Med andra ord blir allt delvis genomskinligt helt genomskinligt.
+description: Omuterbart objekt som representerar en Alpha Floor-effekt. Alpha-opacitetsvärden under 100 ändras till noll. Med andra ord blir allt som är delvis genomskinligt helt genomskinligt.
 type: docs
-weight: 3050
+weight: 3070
 url: /sv/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData gränssnitt
 
-Immutable object which represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.
+Omuterbart objekt som representerar en Alpha Floor-effekt. Alpha-värden (opacitet) under 100 % ändras till noll. Med andra ord blir allt som är delvis genomskinligt helt genomskinligt.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Tillåter att få bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Tillåter att hämta bas-IEffectEffectiveData-gränssnittet. Skrivskyddad [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Se även
 

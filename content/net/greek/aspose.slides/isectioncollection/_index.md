@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή ενοτήτων.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά μια συλλογή ενοτήτων.
 type: docs
-weight: 6880
+weight: 6900
 url: /el/aspose.slides/isectioncollection/
 ---
-## ISectionCollection διεπαφή
+## ISectionCollection διασύνδεση
 
-Αντιπροσωπεύει μια συλλογή ενοτήτων.
+Αναπαριστά μια συλλογή ενοτήτων.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -16,27 +16,27 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Παίρνει το στοιχείο στον καθορισμένο δείκτη. Μόνο για ανάγνωση [`ISection`](../isection). |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Προσθέτει κενή ενότητα στη καθορισμένη θέση της συλλογής. |
-| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Προσθέτει νέα ενότητα που ξεκινά από συγκεκριμένη διαφάνεια. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Προσθέτει κενή ενότητα στη συγκεκριμένη θέση της συλλογής. |
+| [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Προσθέτει νέα ενότητα που αρχίζει από συγκεκριμένη διαφάνεια. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Προσθέτει κενή ενότητα στο τέλος της συλλογής. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Αφαιρεί όλες τις ενότητες από τη συλλογή. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Επιστρέφει ένα δείκτη της καθορισμένης ενότητας στη συλλογή. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Αφαιρεί την ενότητα. Οι διαφάνειες που περιέχονται στην ενότητα θα συγχωνευτούν με την προηγούμενη ενότητα. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Επιστρέφει έναν δείκτη της καθορισμένης ενότητας στη συλλογή. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Αφαιρεί την ενότητα. Οι διαφάνειες που περιέχονται στην ενότητα θα ενωθούν με την προηγούμενη ενότητα. |
 | [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Αφαιρεί την ενότητα και τις διαφάνειες που περιέχονται στην ενότητα. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Μετακινεί την ενότητα και τις διαφάνειές της από τη συλλογή στη καθορισμένη θέση. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Μετακινεί την ενότητα και τις διαφάνειές της από τη συλλογή στη συγκεκριμένη θέση. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* διεπαφή [ISection](../isection)
+* διασύνδεση [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* διασύνδεση [ISection](../isection)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

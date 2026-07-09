@@ -1,14 +1,14 @@
 ---
 title: MathFunctionsOfTwoArguments
 second_title: Aspose.Sildes for .NET API 참조
-description: 두 인수에 대한 일반 수학 함수
+description: 두 인수에 대한 일반적인 수학 함수
 type: docs
 weight: 8750
 url: /ko/aspose.slides.mathtext/mathfunctionsoftwoarguments/
 ---
 ## MathFunctionsOfTwoArguments 열거형
 
-두 인수에 대한 일반 수학 함수
+두 인수에 대한 일반적인 수학 함수
 
 ```csharp
 public enum MathFunctionsOfTwoArguments
@@ -18,12 +18,12 @@ public enum MathFunctionsOfTwoArguments
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Log | `0` | Log |
+| Log | `0` | 로그 |
 | Lim | `1` | 제한 |
 | Min | `2` | 최소 |
 | Max | `3` | 최대 |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

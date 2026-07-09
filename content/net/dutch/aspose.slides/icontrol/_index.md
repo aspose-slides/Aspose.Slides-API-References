@@ -1,14 +1,14 @@
 ---
 title: IControl
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een ActiveX-besturingselement.
+description: Stelt een ActiveX-besturingselement voor.
 type: docs
 weight: 5630
 url: /nl/aspose.slides/icontrol/
 ---
 ## IControl interface
 
-Representeert een ActiveX-besturingselement.
+Stelt een ActiveX-besturingselement voor.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -18,14 +18,14 @@ public interface IControl : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de gebruikte methode om te bewaren PersistStream, PersistStreamInit of PersistStorage is. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Staat toe de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Haalt de klasse-id van dit besturingselement op. Alleen-lezen Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Geeft het frame van het besturingselement terug of stelt het in. Lezen/schrijven [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/icontrol/name) { get; set; } | Geeft de naam van dit besturingselement terug. Lezen/schrijven String. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Specificeert de persistentie van een ActiveX-besturingselement wanneer de gebruikte methode om te behouden PersistStream, PersistStreamInit of PersistStorage is. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Haalt de class-id van dit besturingselement op. Alleen-lezen Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Geeft het frame van het besturingselement terug of stelt het in. Lezen/Schrijven [`IShapeFrame`](../ishapeframe). |
+| [Name](../../aspose.slides/icontrol/name) { get; set; } | Geeft de naam van dit besturingselement terug. Lezen/Schrijven String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Haalt de methode op die wordt gebruikt om eigenschappen van het ActiveX-besturingselement op te slaan. Alleen-lezen [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | Geeft een collectie van ActiveX-eigenschappen terug. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Geeft het ControlEx-afbeeldingsvul-eigenschappenobject terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | Geeft een verzameling van ActiveX-eigenschappen terug. Alleen-lezen [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Geeft het ControlEx-afbeeldingsvulling-eigenschappenobject terug. Alleen-lezen [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Zie ook
 

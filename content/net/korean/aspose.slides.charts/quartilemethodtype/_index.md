@@ -6,9 +6,9 @@ type: docs
 weight: 2390
 url: /ko/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType enumeration
+## QuartileMethodType 열거형
 
-사분위수 방법의 유형을 반환합니다.
+사분위수 방법의 유형을 반환합니다
 
 ```csharp
 public enum QuartileMethodType
@@ -16,10 +16,10 @@ public enum QuartileMethodType
 
 ### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Exclusive | `0` | 배타적 사분위수 방법을 나타냅니다. |
-| Inclusive | `1` | 포괄적 사분위수 방법을 나타냅니다. |
+| Inclusive | `1` | 포함적 사분위수 방법을 나타냅니다. |
 
 ### 참고
 

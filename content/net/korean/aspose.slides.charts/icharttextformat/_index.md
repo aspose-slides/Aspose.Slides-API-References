@@ -1,7 +1,7 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes for .NET API 참조
-description: Chart는 제한된 텍스트 형식 속성 집합으로 작동합니다. IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat 인터페이스가 이 제한된 집합을 설명합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트는 제한된 텍스트 형식 속성 집합으로 작동합니다. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat 인터페이스는 이 제한된 집합을 설명합니다.
 type: docs
 weight: 1990
 url: /ko/aspose.slides.charts/icharttextformat/
@@ -27,9 +27,9 @@ public interface IChartTextFormat
 | 이름 | 설명 |
 | --- | --- |
 | [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | 지정된 텍스트 프레임에서 텍스트 형식을 복사합니다. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임으로 텍스트 형식을 복사합니다. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | 지정된 텍스트 프레임에 텍스트 형식을 복사합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

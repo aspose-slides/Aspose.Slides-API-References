@@ -3,12 +3,12 @@ title: IMotionPath
 second_title: Aspose.Sildes için .NET API Referansı
 description: Hareket yolunu temsil eder.
 type: docs
-weight: 510
+weight: 530
 url: /tr/aspose.slides.animation/imotionpath/
 ---
-## IMotionPath arabirimi
+## IMotionPath arayüz
 
-Temel hareket yolunu temsil eder.
+Hareket yolunu temsil eder.
 
 ```csharp
 public interface IMotionPath : IEnumerable<IMotionCmdPath>
@@ -18,21 +18,21 @@ public interface IMotionPath : IEnumerable<IMotionCmdPath>
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Temel IBehavior arabirimini almayı sağlar. Salt okunur IEnumerable. |
-| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Koleksiyondaki yol sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Belirtilen indeksdeki komutu döndürür. |
+| [AsIEnumerable](../../aspose.slides.animation/imotionpath/asienumerable) { get; } | Temel IBehavior arayüzünü almayı sağlar. Yalnızca okuma IEnumerable. |
+| [Count](../../aspose.slides.animation/imotionpath/count) { get; } | Koleksiyondaki yol sayısını döndürür. Yalnızca okuma Int32. |
+| [Item](../../aspose.slides.animation/imotionpath/item) { get; } | Belirtilen indeksteki komutu döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni bir komut ekle |
+| [Add](../../aspose.slides.animation/imotionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni komut ekle |
 | [Clear](../../aspose.slides.animation/imotionpath/clear)() | Koleksiyondaki tüm komutları kaldırır. |
-| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni bir komut ekler |
-| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Belirtilen komutları koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Belirtilen indekste bir komutu kaldırır. |
+| [Insert](../../aspose.slides.animation/imotionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Yola yeni komut ekle |
+| [Remove](../../aspose.slides.animation/imotionpath/remove)(IMotionCmdPath) | Koleksiyondan belirtilen komutları kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/imotionpath/removeat)(int) | Belirtilen indeksteki komutu kaldırır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IMotionCmdPath](../imotioncmdpath)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

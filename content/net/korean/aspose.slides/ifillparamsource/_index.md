@@ -1,20 +1,20 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes .NET API 참조
-description: 보조 채우기 매개변수 인터페이스.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 보조 채우기 매개변수 인터페이스입니다.
 type: docs
 weight: 5810
 url: /ko/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource 인터페이스
 
-보조 채우기 매개변수 인터페이스.
+보조 채우기 매개변수 인터페이스입니다.
 
 ```csharp
 public interface IFillParamSource
 ```
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

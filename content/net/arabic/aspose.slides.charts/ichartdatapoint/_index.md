@@ -1,6 +1,6 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes for .NET
 description: يمثل نقطة بيانات السلسلة.
 type: docs
 weight: 1820
@@ -19,32 +19,32 @@ public interface IChartDataPoint : IActualLayout
 | الاسم | الوصف |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | يعيد واجهة IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | يعيد حجم الفقاعة لنقطة بيانات المخطط. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | يعيد حجم الفقاعات لنقطة بيانات المخطط. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
 | [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | يعيد قيمة اللون لنقطة بيانات المخطط. يُستخدم مع مخططات الخريطة. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | يعيد حاوية مستويات نقطة البيانات. يُطبق على سلسلات Treeamp و Sunburst. فهرسة مستويات نقطة البيانات تبدأ من الصفر. |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | يعيد الحاوية لمستويات نقطة البيانات. يُطبق على سلاسل Treeamp و Sunburst. فهرسة مستويات نقطة البيانات تبدأ من الصفر. |
 | [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | يمثل قيم أشرطة الخطأ للسلسلة في حالة نوع القيمة Custom. للقراءة فقط [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
 | [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | يحدد مقدار تحريك نقطة البيانات من مركز الفطيرة. قراءة/كتابة Int32. |
 | [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | يمثل خصائص التنسيق. قراءة/كتابة [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | يحدد أي من مجموعة أبناء الوالد تنطبق عليها نقطة البيانات هذه. قراءة UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | يحدد ما إذا كانت نقطة البيانات تعكس ألوانها عندما تكون القيمة سلبية. قراءة/كتابة Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | يحدد أن الفقاعات لها تأثير ثلاثي الأبعاد مُطبّق. قراءة/كتابة Boolean. |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | يحدد إلى أي مجموعة من عناصر الأطفال للوالد تنطبق نقطة البيانات هذه. قراءة UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | يحدد أن نقطة البيانات ستعكس ألوانها إذا كانت القيمة سلبية. قراءة/كتابة Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | يحدد أن الفقاعات لديها تأثير ثلاثي الأبعاد مُطبق عليها. قراءة/كتابة Boolean. |
 | [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | يمثل تسمية نقطة بيانات المخطط. للقراءة فقط [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | يحدد علامة بيانات. للقراءة فقط [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | خصائص مدخل الأسطورة المقابل في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. للقراءة فقط [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | يحدد نقطة البيانات كإجمالي. يُطبق فقط على نوع سلسلة Waterfall. |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | خصائص الإدخال المقابل في الأسطورة في حالة نوع المخطط من هذه القائمة: ChartType.BarOfPie، ChartType.ExplodedPie، ChartType.ExplodedPie3D، ChartType.Pie، ChartType.Pie3D، ChartType.PieOfPie. للقراءة فقط [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | يضبط نقطة البيانات كإجمالٍ. يُطبق فقط على نوع السلسلة Waterfall. |
 | [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | يعيد قيمة الحجم لنقطة بيانات المخطط. يُستخدم مع مخططات Treemap و Sunburst. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | يعيد قيمة نقطة بيانات المخطط. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | يعيد القيمة x لنقطة بيانات المخطط. للقراءة فقط [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | يعيد القيمة y لنقطة بيانات المخطط. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | يعيد قيمة x لنقطة بيانات المخطط. للقراءة فقط [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | يعيد قيمة y لنقطة بيانات المخطط. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | يعيد لونًا تلقائيًا لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، الخاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون افتراضيًا إذا كان FillType يساوي NotDefined. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | يعيد لونًا تلقائيًا لنقطة البيانات بناءً على فهرس السلسلة، فهرس نقطة البيانات، خاصية ParentSeriesGroup.IsColorVaried ونمط المخطط. يُستخدم هذا اللون افتراضيًا إذا كان FillType يساوي NotDefined. |
 | [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | يزيل DataPoint من سلسلة المخطط. |
 
-### انظر أيضًا
+### راجع أيضًا
 
 * واجهة [IActualLayout](../iactuallayout)
 * مساحة الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,14 +1,14 @@
 ---
 title: MotionOriginType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Hareket yolunun kaynağının neye göre olduğunu belirtir. Örneğin slaytın yerleşimi veya ebeveyn.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Hareket yolunun kaynağının neye göre olduğunu belirtir. Örneğin slaytın yerleşimi veya üst nesne.
 type: docs
-weight: 660
+weight: 680
 url: /tr/aspose.slides.animation/motionorigintype/
 ---
 ## MotionOriginType enum
 
-Hareket yolunun kaynağının neye göre olduğunu belirtir. Örneğin slaytın yerleşimi ya da ebeveyn.
+Hareket yolunun kaynağının neye göre olduğunu belirtir. Örneğin slaytın yerleşimi veya üst nesne.
 
 ```csharp
 public enum MotionOriginType
@@ -22,7 +22,7 @@ public enum MotionOriginType
 | Parent | `0` |  |
 | Layout | `1` |  |
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

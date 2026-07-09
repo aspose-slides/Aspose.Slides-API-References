@@ -1,14 +1,14 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของสไตล์เส้น.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงคอลเลกชันของสไตล์เส้น
 type: docs
 weight: 11420
 url: /th/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection คลาส
 
-แสดงถึงคอลเลกชันของสไตล์เส้น.
+แสดงคอลเลกชันของสไตล์เส้น
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -18,17 +18,17 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | ดึงจำนวนของสมาชิกที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | ดึงสมาชิกที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | ดึงจำนวนของสมาชิกที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | คืนค่าแสดงว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | ดึงอิลเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | คัดลอกสมาชิกทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | คืนค่า enumerator ที่วนลูปรายการในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: SchemeColor
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn các màu trong một bảng màu.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu thị các màu trong một bảng màu.
 type: docs
 weight: 9740
 url: /vi/aspose.slides/schemecolor/
 ---
-## Định danh SchemeColor
+## SchemeColor liệt kê
 
-Biểu diễn các màu trong một bảng màu.
+Biểu thị các màu trong một bảng màu.
 
 ```csharp
 public enum SchemeColor

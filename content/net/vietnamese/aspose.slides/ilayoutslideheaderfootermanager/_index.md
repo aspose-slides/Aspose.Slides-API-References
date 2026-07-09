@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide bố cục và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide bố cục và tất cả các trình giữ chỗ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide bố cục.
 type: docs
 weight: 6240
 url: /vi/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## ILayoutSlideHeaderFooterManager giao diện
+## Giao diện ILayoutSlideHeaderFooterManager
 
-Đại diện cho trình quản lý giữ hành vi của trình giữ chỗ chân trang, ngày-giờ, số trang của slide bố cục và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục.
+Represent manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,11 +24,11 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ của slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho trình giữ chỗ chân trang của slide bố cục và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang của slide bố cục và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide chủ. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang của slide bố cục và tất cả các trình giữ chỗ số trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản vào trình giữ chỗ ngày-giờ của slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide bố cục. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi tính nhìn thấy của trình giữ chỗ ngày-giờ slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide bố cục. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản vào trình giữ chỗ chân trang của slide bố cục và tất cả các trình giữ chỗ chân trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide bố cục. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi tính nhìn thấy của trình giữ chỗ chân trang slide bố cục và tất cả các trình giữ chỗ chân trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide mẫu. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi tính nhìn thấy của trình giữ chỗ số trang của slide bố cục và tất cả các trình giữ chỗ số trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và dựa vào slide bố cục. |
 
 ### Xem thêm
 

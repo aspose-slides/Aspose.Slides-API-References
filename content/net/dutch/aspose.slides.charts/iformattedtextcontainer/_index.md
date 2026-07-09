@@ -1,14 +1,14 @@
 ---
 title: IFormattedTextContainer
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het tekstopmaak van de grafiek voor.
+description: Vertegenwoordigt de tekstopmaak van een grafiek.
 type: docs
 weight: 2110
 url: /nl/aspose.slides.charts/iformattedtextcontainer/
 ---
 ## IFormattedTextContainer interface
 
-Stelt het tekstopmaak van de grafiek voor.
+Vertegenwoordigt tekstopmaak van een grafiek.
 
 ```csharp
 public interface IFormattedTextContainer : IChartComponent
@@ -19,7 +19,7 @@ public interface IFormattedTextContainer : IChartComponent
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/iformattedtextcontainer/asichartcomponent) { get; } | Retourneert de IChartComponent interface. Alleen-lezen [`IChartComponent`](../ichartcomponent). |
-| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Retourneert het tekstopmaak van de grafiek. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
+| [TextFormat](../../aspose.slides.charts/iformattedtextcontainer/textformat) { get; } | Retourneert de tekstopmaak van de grafiek. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
 
 ### Zie ook
 

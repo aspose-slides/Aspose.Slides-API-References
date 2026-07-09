@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 그 안에 그림이 포함된 프레임을 나타냅니다.
+description: 그림이 포함된 프레임을 나타냅니다.
 type: docs
 weight: 6670
 url: /ko/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame 인터페이스
 
-그 안에 그림이 포함된 프레임을 나타냅니다.
+그림이 포함된 프레임을 나타냅니다.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -20,12 +20,12 @@ public interface IPictureFrame : IGeometryShape
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | 기본 IGeometryShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGeometryShape`](../igeometryshape). |
 | [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | 그림 프레임에 대한 PictureFillFormat 객체를 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame의 잠금을 반환합니다. 읽기 전용 [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 그림 프레임의 높이 비율(원본 그림 크기에 대한) 스케일을 반환하거나 설정합니다. 값 1.0은 100%에 해당합니다. 읽기/쓰기 Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 그림 프레임의 너비 비율(원본 그림 크기에 대한) 스케일을 반환하거나 설정합니다. 값 1.0은 100%에 해당합니다. 읽기/쓰기 Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | 형상의 잠금을 반환합니다. 읽기 전용 [`IPictureFrameLock`](../ipictureframelock). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame의 잠금 정보를 반환합니다. 읽기 전용 [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | 그림 프레임의 높이 비율(원본 그림 크기에 대한)을 반환하거나 설정합니다. 값 1.0은 100%에 해당합니다. 읽기/쓰기 Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | 그림 프레임의 너비 비율(원본 그림 크기에 대한)을 반환하거나 설정합니다. 값 1.0은 100%에 해당합니다. 읽기/쓰기 Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | shape의 잠금 정보를 반환합니다. 읽기 전용 [`IPictureFrameLock`](../ipictureframelock). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IGeometryShape](../igeometryshape)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

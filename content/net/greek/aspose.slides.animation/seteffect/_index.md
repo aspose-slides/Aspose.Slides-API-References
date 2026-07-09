@@ -1,14 +1,14 @@
 ---
 title: SetEffect
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά ένα εφέ συνόλου για μια συμπεριφορά κίνησης.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά ένα σύνολο εφέ για μια συμπεριφορά κίνησης.
 type: docs
-weight: 790
+weight: 810
 url: /el/aspose.slides.animation/seteffect/
 ---
 ## SetEffect κλάση
 
-Αναπαριστά ένα εφέ συνόλου για μια συμπεριφορά κίνησης.
+Αναπαριστά ένα σύνολο εφέ για μια συμπεριφορά κίνησης.
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
@@ -16,24 +16,24 @@ public class SetEffect : Behavior, ISetEffect
 
 ## Κατασκευαστές
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [SetEffect](seteffect)() | Ο προεπιλεγμένος κατασκευαστής. |
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αναπαριστά εάν οι συμπεριφορές animation συσσωρεύονται. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αναπαριστά εάν η τρέχουσα συμπεριφορά animation συνδυάζεται με άλλες εκτελούμενες κινήσεις. Ανάγνωση/εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αναπαριστά ιδιότητες της συμπεριφοράς. Μόνο ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αναπαριστά ιδιότητες χρονολόγησης για τη συμπεριφορά του εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Καθορίζει ένα συγκεκριμένο χαρακτηριστικό ενός εφέ μετά από ένα εφέ κίνησης. Αναπαριστά τιμή σημείου. Μόνο: bool, ColorFormat, float, int, string. Ανάγνωση/εγγραφή Object. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Αναπαριστά εάν οι συμπεριφορές κίνησης συσσωρεύονται. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Αναπαριστά εάν η τρέχουσα συμπεριφορά κίνησης συνδυάζεται με άλλες ενεργές κινήσεις. Ανάγνωση/εγγραφή [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Αναπαριστά ιδιότητες της συμπεριφοράς. Μόνο για ανάγνωση [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Αναπαριστά ιδιότητες χρονισμού για τη συμπεριφορά εφέ. Ανάγνωση/εγγραφή [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Καθορίζει ένα συγκεκριμένο χαρακτηριστικό ενός εφέ μετά από ένα εφέ κίνησης. Αναπαριστά την τιμή σημείου. Μόνο: bool, ColorFormat, float, int, string. Ανάγνωση/εγγραφή Object. |
 
 ### Δείτε επίσης
 
 * κλάση [Behavior](../behavior)
-* διασύνδεση [ISetEffect](../iseteffect)
+* διεπαφή [ISetEffect](../iseteffect)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συναρμολόγηση [Aspose.Slides](../../)
 

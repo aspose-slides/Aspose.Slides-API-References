@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes for .NET API 參考
-description: 此類別表示用於向長時間執行的工作指示是否已請求中斷的代幣。
+second_title: Aspose.Sildes .NET API 參考
+description: 此類別表示用於向長時間執行的工作表示是否已請求中斷的代幣。
 type: docs
 weight: 6190
 url: /zh-hant/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken 介面
 
-此類別表示用於向長時間執行的工作指示是否已請求中斷的代幣。
+此類別表示用於向長時間執行的工作表示是否已請求中斷的代幣。
 
 ```csharp
 public interface IInterruptionToken
@@ -18,15 +18,15 @@ public interface IInterruptionToken
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 如果已請求中斷，則回傳 Boolean.true。 |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | 如果已請求中斷，則返回 Boolean.true。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 如果已請求中斷，拋出 OperationCanceledException。已請求中斷時會拋出此例外。 |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | 如果已請求中斷，則拋出 OperationCanceledException。已請求中斷時拋出。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

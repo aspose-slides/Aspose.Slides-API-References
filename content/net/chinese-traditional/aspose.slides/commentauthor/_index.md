@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示評論的作者。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示註解的作者。
 type: docs
 weight: 2630
 url: /zh-hant/aspose.slides/commentauthor/
 ---
 ## CommentAuthor 類別
 
-表示評論的作者。
+表示註解的作者。
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 返回此作者所發表的評論集合。唯讀 [`ICommentCollection`](../icommentcollection)。 |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 返回或設定作者的縮寫。可讀寫 String。 |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 返回或設定作者的名稱。可讀寫 String。 |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | 傳回此作者所發表的註解集合。唯讀 [`ICommentCollection`](../icommentcollection)。 |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | 傳回或設定作者的縮寫。可讀寫 String。 |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | 傳回或設定作者的名稱。可讀寫 String。 |
 
 ## 方法
 

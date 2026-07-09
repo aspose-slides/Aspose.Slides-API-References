@@ -1,14 +1,14 @@
 ---
 title: SideDirectionTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Slide-overgangseffect in zijdelingse richting.
+description: Zijwaartse dia-overgangseffect.
 type: docs
 weight: 10310
 url: /nl/aspose.slides.slideshow/sidedirectiontransition/
 ---
 ## SideDirectionTransition klasse
 
-Slide-overgangseffect in de zijdelingse richting.
+Side direction slide transition effect.
 
 ```csharp
 public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransition
@@ -25,7 +25,7 @@ public class SideDirectionTransition : TransitionValueBase, ISideDirectionTransi
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hashing-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes .NET API 參考
-description: 指定每頁將放置多少投影片以及其排列順序。
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定每頁將放置多少張投影片以及以何種順序排列。
 type: docs
 weight: 3850
 url: /zh-hant/aspose.slides.export/handouttype/
 ---
 ## HandoutType 列舉
 
-指定每頁將放置多少投影片以及其排列順序。
+指定每頁將放置多少張投影片以及以何種順序排列。
 
 ```csharp
 public enum HandoutType
@@ -16,19 +16,19 @@ public enum HandoutType
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Handouts1 | `0` | 每頁一張投影片。 |
 | Handouts2 | `1` | 每頁兩張投影片。 |
 | Handouts3 | `2` | 每頁三張投影片。 |
-| Handouts4Horizontal | `3` | 每頁四張投影片，水平排列。 |
-| Handouts4Vertical | `4` | 每頁四張投影片，垂直排列。 |
-| Handouts6Horizontal | `5` | 每頁六張投影片，水平排列。 |
-| Handouts6Vertical | `6` | 每頁六張投影片，垂直排列。 |
-| Handouts9Horizontal | `7` | 每頁九張投影片，水平排列。 |
-| Handouts9Vertical | `8` | 每頁九張投影片，垂直排列。 |
+| Handouts4Horizontal | `3` | 每頁四張投影片，以水平順序排列。 |
+| Handouts4Vertical | `4` | 每頁四張投影片，以垂直順序排列。 |
+| Handouts6Horizontal | `5` | 每頁六張投影片，以水平順序排列。 |
+| Handouts6Vertical | `6` | 每頁六張投影片，以垂直順序排列。 |
+| Handouts9Horizontal | `7` | 每頁九張投影片，以水平順序排列。 |
+| Handouts9Vertical | `8` | 每頁九張投影片，以垂直順序排列。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

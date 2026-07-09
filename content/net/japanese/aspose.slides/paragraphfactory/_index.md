@@ -1,9 +1,9 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 段落を作成できます
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 段落の作成を可能にします
 type: docs
-weight: 9280
+weight: 9300
 url: /ja/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory クラス
@@ -18,7 +18,7 @@ public class ParagraphFactory : IParagraphFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [ParagraphFactory](paragraphfactory)() | デフォルトコンストラクタです。 |
+| [ParagraphFactory](paragraphfactory)() | 既定のコンストラクタです。 |
 
 ## メソッド
 

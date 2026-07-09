@@ -1,9 +1,9 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Oggetto immutabile che contiene le proprietà effettive dello schema dei caratteri.
+description: Oggetto immutabile che contiene le proprietà effettive dello schema di caratteri.
 type: docs
-weight: 11240
+weight: 11260
 url: /it/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData interfaccia
@@ -18,11 +18,11 @@ public interface IFontSchemeEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Restituisce la raccolta di caratteri per la parte "heading" della diapositiva. Solo lettura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Restituisce la raccolta di caratteri per la parte "body" della diapositiva. Solo lettura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Restituisce il nome dello schema di caratteri. Solo lettura String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Restituisce la collezione di caratteri per la parte "heading" della diapositiva. Sola lettura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Restituisce la collezione di caratteri per la parte "body" della diapositiva. Sola lettura [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Restituisce il nome dello schema di caratteri. Sola lettura String. |
 
-### Osservazioni
+### Note
 
 Questa interfaccia è usata come parte di [`IThemeEffectiveData`](../ithemeeffectivedata).
 

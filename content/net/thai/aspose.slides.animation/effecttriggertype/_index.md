@@ -1,20 +1,20 @@
 ---
 title: EffectTriggerType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของการกระตุ้นของเอฟเฟกต์.
+description: แสดงประเภทของทริกเกอร์ผลกระทบ.
 type: docs
 weight: 350
 url: /th/aspose.slides.animation/effecttriggertype/
 ---
-## EffectTriggerType enumeration
+## การกำหนดค่า EffectTriggerType
 
-แสดงประเภทของการกระตุ้นของเอฟเฟกต์.
+แสดงประเภทของทริกเกอร์ผลกระทบ.
 
 ```csharp
 public enum EffectTriggerType
 ```
 
-### ค่า
+### ค่าต่าง ๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

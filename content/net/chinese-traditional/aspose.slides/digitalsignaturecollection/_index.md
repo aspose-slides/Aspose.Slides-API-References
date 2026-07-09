@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示附加於文件的數位簽章集合。
+description: 代表附加於文件的數位簽章集合。
 type: docs
 weight: 2780
 url: /zh-hant/aspose.slides/digitalsignaturecollection/
@@ -18,19 +18,19 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | 傳回集合中元素的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | 依索引傳回簽章。 |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | 返回集合中的元素數量。唯讀 Int32. |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | 返回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean. |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | 依索引返回簽章。 |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 返回同步根。唯讀 Object. |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | 在集合的末端加入簽章。 |
+| [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | 在集合末尾添加簽章。 |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | 從集合中移除所有簽章。 |
-| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | 將所有元素從集合複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | 返回一個用於遍歷集合的列舉器。 |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | 移除指定索引處的簽章。 |
 
 ### 另請參閱

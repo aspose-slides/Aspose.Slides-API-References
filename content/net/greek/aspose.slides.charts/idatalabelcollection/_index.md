@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes για .NET API Reference
-description: Αντιπροσωπεύει ετικέτες σειράς.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τις ετικέτες μιας σειράς.
 type: docs
-weight: 2010
+weight: 2030
 url: /el/aspose.slides.charts/idatalabelcollection/
 ---
-## IDataLabelCollection διασύνδεση
+## IDataLabelCollection Διεπαφή
 
-Αντιπροσωπεύει ετικέτες σειράς.
+Αναπαριστά τις ετικέτες μιας σειράς.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -18,28 +18,28 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IChartComponent. Μόνο ανάγνωση [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IEnumerable. Μόνο ανάγνωση IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Επιστρέφει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή. Μόνο ανάγνωση Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Επιστρέφει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή. Μόνο ανάγνωση Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Επιστρέφει την προεπιλεγμένη μορφή όλων των ετικετών δεδομένων στη συλλογή. Μόνο ανάγνωση [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι προεπιλεγμένα ορατή (και έτσι όλες οι σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false). Μόνο ανάγνωση Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Επιστρέφει την ετικέτα δεδομένων για το σημείο δεδομένων με το συγκεκριμένο δείκτη. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Αντιπροσωπεύει τη μορφή γραμμών οδηγού ετικετών δεδομένων. Μόνο ανάγνωση [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Επιστρέφει τη γονική σειρά διαγράμματος. Μόνο ανάγνωση [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IChartComponent. Μόνο για ανάγνωση [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IEnumerable. Μόνο για ανάγνωση IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Επιστρέφει τον αριθμό όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Επιστρέφει τον αριθμό των ορατών ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Επιστρέφει το προεπιλεγμένο μορφότυπο όλων των ετικετών δεδομένων στη συλλογή. Μόνο για ανάγνωση [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False σημαίνει ότι η ετικέτα δεδομένων δεν είναι ορατή από προεπιλογή (και έτσι όλες οι σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat είναι false). Μόνο για ανάγνωση Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Επιστρέφει την ετικέτα δεδομένων για το σημείο δεδομένων με τον καθορισμένο δείκτη. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Αναπαριστά τη μορφή γραμμών οδηγού ετικετών δεδομένων. Μόνο για ανάγνωση [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Επιστρέφει τη γονική σειρά γραφήματος. Μόνο για ανάγνωση [`IChartSeries`](../ichartseries). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Καθιστά την ετικέτα δεδομένων κρυμμένη προεπιλογή ορίζοντας όλες τις σημαίες Show*-flags (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat σε κατάσταση false. Η IsVisible θα είναι false μετά από αυτό. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Επιστρέφει ένα δείκτη της καθορισμένης DataLabel στη συλλογή. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Κάνει την ετικέτα δεδομένων κρυφή από προεπιλογή ορίζοντας όλες τις σημαίες Show* (ShowValue, ...) της ιδιότητας DefaultDataLabelFormat στην κατάσταση false. Το IsVisible θα είναι false μετά από αυτό. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Επιστρέφει έναν δείκτη της καθορισμένης DataLabel στη συλλογή. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IChartComponent](../ichartcomponent)
-* διασύνδεση [IDataLabel](../idatalabel)
-* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότημα [Aspose.Slides](../../)
+* Διεπαφή [IChartComponent](../ichartcomponent)
+* Διεπαφή [IDataLabel](../idatalabel)
+* Χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

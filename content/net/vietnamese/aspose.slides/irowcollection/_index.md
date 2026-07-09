@@ -8,7 +8,7 @@ url: /vi/aspose.slides/irowcollection/
 ---
 ## IRowCollection giao diện
 
-Represents table row collection.
+Biểu diễn tập hợp các hàng của bảng.
 
 ```csharp
 public interface IRowCollection : IGenericCollection<IRow>
@@ -16,17 +16,17 @@ public interface IRowCollection : IGenericCollection<IRow>
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/irowcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
+| [Item](../../aspose.slides/irowcollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào cuối một bảng. |
-| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tạo một bản sao của hàng mẫu được chỉ định và chèn nó vào vị trí được chỉ định trong một bảng. |
-| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Xóa một hàng ở vị trí được chỉ định khỏi một bảng. |
+| [AddClone](../../aspose.slides/irowcollection/addclone)(IRow, bool) | Tạo một bản sao của hàng mẫu đã chỉ định và chèn nó vào cuối một bảng. |
+| [InsertClone](../../aspose.slides/irowcollection/insertclone)(int, IRow, bool) | Tạo một bản sao của hàng mẫu đã chỉ định và chèn nó vào vị trí đã chỉ định trong một bảng. |
+| [RemoveAt](../../aspose.slides/irowcollection/removeat)(int, bool) | Xóa một hàng ở vị trí đã chỉ định khỏi một bảng. |
 
 ### Xem thêm
 

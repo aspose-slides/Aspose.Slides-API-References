@@ -1,14 +1,14 @@
 ---
 title: IZoomObject
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक स्लाइड में ज़ूम ऑब्जेक्ट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक स्लाइड में Zoom ऑब्जेक्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 7410
 url: /hi/aspose.slides/izoomobject/
 ---
 ## IZoomObject इंटरफ़ेस
 
-एक स्लाइड में ज़ूम ऑब्जेक्ट का प्रतिनिधित्व करता है।
+एक स्लाइड में Zoom ऑब्जेक्ट का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IZoomObject : IGraphicalObject
@@ -19,13 +19,13 @@ public interface IZoomObject : IGraphicalObject
 | नाम | विवरण |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/izoomobject/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IGraphicalObject`](../igraphicalobject). |
-| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | जूम ऑब्जेक्ट की इमेज टाइप को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`ZoomImageType`](../zoomimagetype)। डिफ़ॉल्ट मान: Preview |
-| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | स्लाइडशो में नेविगेशन व्यवहार को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान: false |
-| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | जूम द्वारा गंतव्य स्लाइड की पृष्ठभूमि का उपयोग किया जाएगा या नहीं, यह निर्धारित करने वाला मान प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान: true |
-| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | जूम और स्लाइड के बीच संक्रमण की अवधि को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Single। डिफ़ॉल्ट मान: 1.0f |
-| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | जूम ऑब्जेक्ट के लिए छवि को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य [`IPPImage`](../ippimage)। |
+| [ImageType](../../aspose.slides/izoomobject/imagetype) { get; set; } | zoom ऑब्जेक्ट की इमेज प्रकार को प्राप्त या निर्धारित करता है। पढ़ने/लिखने योग्य [`ZoomImageType`](../zoomimagetype). डिफ़ॉल्ट मान: Preview |
+| [ReturnToParent](../../aspose.slides/izoomobject/returntoparent) { get; set; } | स्लाइडशो में नेविगेशन व्यवहार को प्राप्त या निर्धारित करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान: false |
+| [ShowBackground](../../aspose.slides/izoomobject/showbackground) { get; set; } | Zoom गंतव्य स्लाइड की पृष्ठभूमि का उपयोग करेगा या नहीं, यह निर्धारित करने वाला मान प्राप्त या निर्धारित करता है। पढ़ने/लिखने योग्य Boolean। डिफ़ॉल्ट मान: true |
+| [TransitionDuration](../../aspose.slides/izoomobject/transitionduration) { get; set; } | Zoom और स्लाइड के बीच ट्रांज़िशन की अवधि को प्राप्त या निर्धारित करता है। पढ़ने/लिखने योग्य Single। डिफ़ॉल्ट मान: 1.0f |
+| [ZoomImage](../../aspose.slides/izoomobject/zoomimage) { get; set; } | Zoom ऑब्जेक्ट के लिए इमेज को प्राप्त या निर्धारित करता है। पढ़ने/लिखने योग्य [`IPPImage`](../ippimage). |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGraphicalObject](../igraphicalobject)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

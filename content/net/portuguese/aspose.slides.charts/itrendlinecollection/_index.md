@@ -1,9 +1,9 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de TrendlineEx
 type: docs
-weight: 2230
+weight: 2250
 url: /pt/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection interface
@@ -18,18 +18,18 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Permite obter a interface base IEnumerable. Somente leitura IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`ITrendline`](../itrendline). |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Permite obter a interface base IEnumerable. IEnumerable somente leitura. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Int32 somente leitura. |
+| [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Obtém o elemento no índice especificado. [`ITrendline`](../itrendline) somente leitura. |
 
 ## Métodos
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Adiciona a nova Trendline ao final de uma coleção e a retorna. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Adiciona o novo Trendline ao final de uma coleção e o retorna. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Remove o valor especificado. |
 
-### Veja Também
+### Ver também
 
 * interface [ITrendline](../itrendline)
 * espaço de nomes [Aspose.Slides.Charts](../../aspose.slides.charts)

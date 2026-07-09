@@ -1,14 +1,14 @@
 ---
 title: DrawingGuidesCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một tập hợp các hướng dẫn vẽ có thể điều chỉnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một bộ sưu tập các hướng vẽ có thể điều chỉnh.
 type: docs
 weight: 2820
 url: /vi/aspose.slides/drawingguidescollection/
 ---
-## DrawingGuidesCollection lớp
+## Lớp DrawingGuidesCollection
 
-Biểu diễn một tập hợp các hướng dẫn vẽ có thể điều chỉnh.
+Đại diện cho một bộ sưu tập các hướng vẽ có thể điều chỉnh.
 
 ```csharp
 public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
@@ -18,18 +18,18 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Trả về số lượng phần tử trong tập hợp. Chỉ đọc Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Trả về hướng dẫn vẽ theo chỉ mục. Chỉ đọc [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Trả về số lượng phần tử trong bộ sưu tập. Chỉ đọc Int32. |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | Trả về hướng vẽ theo chỉ mục. Chỉ đọc [`IDrawingGuide`](../idrawingguide). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Thêm hướng dẫn vẽ vào cuối tập hợp. |
-| [Clear](../../aspose.slides/drawingguidescollection/clear)() | Xóa tất cả các phần tử khỏi tập hợp. |
-| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Sao chép tất cả các phần tử từ tập hợp vào mảng đã chỉ định. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Trả về một bộ liệt kê để duyệt qua tập hợp. |
-| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Xóa hướng dẫn vẽ tại chỉ mục đã chỉ định. |
+| [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Thêm hướng vẽ vào cuối bộ sưu tập. |
+| [Clear](../../aspose.slides/drawingguidescollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
+| [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Xóa hướng vẽ tại chỉ mục được chỉ định. |
 
 ### Xem thêm
 

@@ -3,10 +3,10 @@ title: BevelPresetType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Costanti che definiscono la smussatura 3D della forma.
 type: docs
-weight: 990
+weight: 1010
 url: /it/aspose.slides/bevelpresettype/
 ---
-## BevelPresetType enumerazione
+## Enumerazione BevelPresetType
 
 Costanti che definiscono la smussatura 3D della forma.
 

@@ -1,14 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes .NET API Referenciája
-description: Az Binary Large Object (BLOB) egy bináris adat, amely egyetlen entitásként van tárolva - vagyis a BLOB lehet maga a hang, videó vagy prezentáció. Számos technikát alkalmaznak a memóriafogyasztás optimalizálására a BLOB-ok kezelése során - amely már a prezentációban van tárolva vagy később programozottan hozzáadható. Az IBlobManagementOptions./iblobmanagementoptions használatával megváltoztathatja a BLOB-kezelés különböző viselkedési aspektusait az IPresentation./ipresentation példány élettartama alatt.
+second_title: Aspose.Sildes .NET API referencia
+description: Az Binary Large Object (BLOB) egy bináris adat, amely egyetlen entitásként van tárolva – vagyis a BLOB lehet audio, video vagy akár a bemutató maga. Számos technikát alkalmaznak a memóriahasználat optimalizálására a BLOB-okkal dolgozva – legyenek azok már a bemutatóban tárolva vagy később programozottan hozzáadva. Az IBlobManagementOptions./iblobmanagementoptions használatával megváltoztathatja a BLOB-kezelés különböző viselkedési aspektusait az IPresentation./ipresentation példány élettartama során.
 type: docs
-weight: 5350
+weight: 5370
 url: /hu/aspose.slides/iblobmanagementoptions/
 ---
 ## IBlobManagementOptions interfész
 
-A Binary Large Object (BLOB) egy bináris adat, amely egyetlen entitásként van tárolva – vagyis a BLOB lehet maga a hang, videó vagy prezentáció. Számos technikát alkalmaznak a memóriahasználat optimalizálására a BLOB-ok kezelése során – legyenek azok már a prezentációban tároltak vagy később programozottan hozzáadottak. A [`IBlobManagementOptions`](../iblobmanagementoptions) használatával változtathat a BLOB-kezelés különböző viselkedési aspektusain a [`IPresentation`](../ipresentation) példány élettartama alatt.
+A Binary Large Object (BLOB) egy bináris adat, amely egyetlen entitásként van tárolva – vagyis a BLOB lehet audio, video vagy akár egy bemutató maga. Számos technikát alkalmaznak a memóriahasználat optimalizálására a BLOB-okkal dolgozva – legyenek azok a bemutatóban már tárolt vagy később programozottan hozzáadott BLOB-ok. A [`IBlobManagementOptions`](../iblobmanagementoptions) használatával megváltoztathatja a BLOB-kezelés különböző viselkedési szempontjait a [`IPresentation`](../ipresentation) példány élettartama során.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -18,10 +18,10 @@ public interface IBlobManagementOptions
 
 | Név | Leírás |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Ez a tulajdonság meghatározza, hogy a BLOB-ok kezelése során létrehozhatók-e ideiglenes fájlok, ami nagymértékben csökkenti a memóriahasználatot, de fájlok létrehozásához engedélyeket igényel. Minden fájlt törölnek, miután a prezentációval végzett munka befejeződött. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Meghatározza a BLOB-ok memóriában elfoglalhatnak maximális összméretét (bájtban). Alapértelmezés szerint az összes BLOB a memóriába kerül; csak amikor ez a határ eléri, alternatív mechanizmusok (például ideiglenes fájlok) lépnek életbe. A BLOB-ok memóriában tartása maximalizálja a teljesítményt, de magas memóriahasználathoz vezethet. Használja ezt a tulajdonságot a viselkedés a környezetéhez vagy követelményeihez igazításához. |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Ez a tulajdonság meghatározza, hogy a Presentation osztály példánya lehet-e a forrás (fájl vagy adatfolyam) tulajdonosa a példány élettartama alatt. Ha a példány tulajdonos, akkor zárolja a forrást. Ez segít a memóriahasználat és a teljesítmény javításában a BLOB-ok kezelése során, de a forrás (adatfolyam vagy fájl) nem módosítható a Presentation példány életciklusa alatt. Ez egy példa: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Gyökérútvonal, ahol az ideiglenes fájlok létrejönnek. Alapértelmezés szerint a rendszer ideiglenes könyvtárát használja. A hosting folyamatnak engedélyekkel kell rendelkeznie a fájlok és mappák létrehozásához. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | Ez a tulajdonság meghatározza, hogy a BLOB-okkal dolgozva ideiglenes fájlok létrehozhatók-e, ami jelentősen csökkenti a memóriahasználatot, de fájlok létrehozásához szükséges engedélyeket igényel. Minden fájl törlésre kerül, miután a bemutatóval végzett munka befejeződik. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Meghatározza a BLOB-ok memóriában elfoglalhatók maximális összméretét (byte-ban). Alapértelmezés szerint minden BLOB a memóriába töltődik; csak a határ elérése után alkalmaznak alternatív mechanizmusokat (például ideiglenes fájlokat). A BLOB-ok memóriában tartása maximalizálja a teljesítményt, de magas memóriahasználathoz vezethet. Használja ezt a tulajdonságot a viselkedés környezetéhez vagy követelményeihez való igazításra. |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | Ez a tulajdonság meghatározza, hogy a Presentation osztály egy példánya lehet-e a forrás – fájl vagy adatfolyam – tulajdonosa az élettartama során. Ha a példány tulajdonos, zárolja a forrást. Ez elősegíti a memóriahasználat és a teljesítmény javítását a BLOB-okkal dolgozva, de a forrás (adatfolyam vagy fájl) nem változtatható a Presentation példány élettartama alatt. Íme egy példa: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | Az az alapút, ahol az ideiglenes fájlok létre lesznek hozva. Alapértelmezés szerint a rendszer ideiglenes könyvtára lesz használva. A gazda folyamatnak rendelkeznie kell jogosultságokkal a fájlok és mappák létrehozásához. |
 
 ### Lásd még
 

@@ -3,12 +3,12 @@ title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ユーザーが定義した FontFallBack ルールのコレクションを表します
 type: docs
-weight: 5840
+weight: 5860
 url: /ja/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection インターフェイス
 
-ユーザーにより定義された FontFallBack ルールのコレクションを表します
+ユーザーが定義した FontFallBack ルールのコレクションを表します
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -16,15 +16,15 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 指定されたインデックスのルールを取得します。読み取り専用 [`IFontFallBackRule`](../ifontfallbackrule). |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 指定したインデックスのルールを取得します。読み取り専用 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | コレクションの末尾に新しい FallBack ルールを追加します。 |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 新しい FallBack ルールをコレクションの末尾に追加します。 |
 | [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | コレクションから特定の FallBack ルールの最初の出現を削除します。 |
 
 ### 参照

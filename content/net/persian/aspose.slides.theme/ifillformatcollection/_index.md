@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر مجموعهٔ سبک‌های پرشدگی.
+description: نمایش مجموعه‌ای از سبک‌های پر.
 type: docs
 weight: 11230
 url: /fa/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection رابط
 
-نمادین‌کنندهٔ مجموعهٔ سبک‌های پرشدگی.
+نمایش مجموعه‌ای از سبک‌های پر.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,7 +18,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | عنصری را در اندیس مشخص شده دریافت می‌کند. فقط-خواندنی [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | عنصری را که در اندیس مشخص شده است دریافت می‌کند. فقط-خواندنی [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### موارد مرتبط
 

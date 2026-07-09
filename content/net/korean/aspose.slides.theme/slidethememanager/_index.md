@@ -1,14 +1,14 @@
 ---
 title: SlideThemeManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드 테마 재정의를 위한 액세스를 제공합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드 테마를 재정의하는 데 대한 액세스를 제공합니다.
 type: docs
 weight: 11470
 url: /ko/aspose.slides.theme/slidethememanager/
 ---
 ## SlideThemeManager 클래스
 
-슬라이드 테마를 재정의하는 기능에 대한 액세스를 제공합니다.
+슬라이드 테마를 재정의하는 데 대한 액세스를 제공합니다.
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -18,15 +18,15 @@ public class SlideThemeManager : BaseOverrideThemeManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 유효 테마를 재정의하는지 여부를 결정합니다. OverrideTheme를 재정의하도록 사용하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 재정의되지 않도록 하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 재정의된 테마 객체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 유효 테마를 재정의하는지 여부를 결정합니다. 재정의를 위해 OverrideTheme를 활성화하려면 OverrideTheme.Init*() 메서드를 사용하십시오. 재정의를 비활성화하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 재정의 테마 개체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | 슬라이드에 추가 색 구성표를 적용합니다. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 테마 객체를 반환합니다. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | 테마 개체를 반환합니다. |
 
 ### 참조
 

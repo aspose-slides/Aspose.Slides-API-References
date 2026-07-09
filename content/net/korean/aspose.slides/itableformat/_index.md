@@ -18,7 +18,7 @@ public interface ITableFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | 테이블 채우기 속성 객체를 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | 테이블 채우기 속성 개체를 반환합니다. 읽기 전용 [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | 채우기 색상의 투명도를 가져오거나 설정합니다. 읽기/쓰기 Single. |
 
 ## 메서드

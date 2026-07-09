@@ -1,14 +1,14 @@
 ---
 title: Tab
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: टेक्स्ट के लिए टैब्यूलेशन को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: टेक्स्ट के लिए एक टैबुलेशन का प्रतिनिधित्व करता है।
 type: docs
 weight: 10820
 url: /hi/aspose.slides/tab/
 ---
 ## Tab वर्ग
 
-टेक्स्ट के लिये एक टैबुलेशन को दर्शाता है।
+किसी टेक्स्ट के लिए एक टैबुलेशन का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -18,25 +18,25 @@ public sealed class Tab : PVIObject, ITab
 
 | नाम | विवरण |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | नया Tab बनाता है |
+| [Tab](tab)(double, TabAlignment) | एक नया Tab बनाता है |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | टैब की संरेखण शैली को लौटाता है या सेट करता है। पढ़ें/लिखें [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | टैब की स्थिति को लौटाता है या सेट करता है। इस गुण को असाइन करने से संग्रह में टैब का अनुक्रमण बदल सकता है और Enumerator अमान्य हो सकता है। पढ़ें/लिखें Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | एक टैब की संरेखण शैली को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | एक टैब की स्थिति को प्राप्त करता है या सेट करता है। इस गुण को असाइन करने से संग्रह में टैब का सूचकांक बदल सकता है और Enumerator अमान्य हो सकता है। पढ़ने/लिखने योग्य Double. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CompareTo](../../aspose.slides/tab/compareto)(object) | वर्तमान इंस्टेंस की तुलना उसी प्रकार की दूसरी वस्तु से करता है। |
+| [CompareTo](../../aspose.slides/tab/compareto)(object) | वर्तमान उदाहरण की तुलना समान प्रकार के अन्य वस्तु से करता है। |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट वस्तु से तुलना करता है। |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
-### संबंधित देखें
+### संबंधित
 
 * वर्ग [PVIObject](../pviobject)
 * इंटरफ़ेस [ITab](../itab)

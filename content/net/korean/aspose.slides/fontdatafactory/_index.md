@@ -1,6 +1,6 @@
 ---
 title: FontDataFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: FontData 팩터리
 type: docs
 weight: 4830
@@ -18,15 +18,15 @@ public class FontDataFactory : IFontDataFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontDataFactory](fontdatafactory)() | 기본 생성자입니다. |
+| [FontDataFactory](fontdatafactory)() | 기본 생성자. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 지정된 폰트 이름으로 FontData를 생성합니다. |
+| [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 지정된 글꼴 이름으로 FontData를 생성합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IFontDataFactory](../ifontdatafactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

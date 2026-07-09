@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili bingkai Summary Zoom dalam slide.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sebuah frame Summary Zoom dalam slide.
 type: docs
-weight: 7130
+weight: 7150
 url: /id/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame antarmuka
 
-Mewakili bingkai Summary Zoom dalam slide.
+Mewakili frame Summary Zoom dalam slide.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -19,7 +19,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Nama | Deskripsi |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Mengembalikan antarmuka IGraphicalObject. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Mendapatkan tata letak Summary Zoom Sections dalam bingkai. Nilai default adalah GridLayout. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Mendapatkan tata letak Summary Zoom Sections dalam frame. Nilai default adalah GridLayout. |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Mendapatkan [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) untuk objek Summary Zoom Frame. |
 
 ### Lihat Juga

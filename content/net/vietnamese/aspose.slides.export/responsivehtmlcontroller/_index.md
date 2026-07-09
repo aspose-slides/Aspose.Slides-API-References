@@ -1,6 +1,6 @@
 ---
 title: ResponsiveHtmlController
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Bộ điều khiển HTML đáp ứng
 type: docs
 weight: 4420
@@ -14,7 +14,7 @@ Bộ điều khiển HTML đáp ứng
 public class ResponsiveHtmlController : IResponsiveHtmlController
 ```
 
-## Các hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |

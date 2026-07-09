@@ -1,14 +1,14 @@
 ---
 title: EffectChartMinorGroupingType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typen av en animationseffekt för diagrammets element i serie eller kategori.
+description: Representerar typen av en animeringseffekt för diagrammets element i serie eller kategori.
 type: docs
-weight: 280
+weight: 300
 url: /sv/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType enumeration
 
-Representerar typen av en animationseffekt för diagrammets element i serie eller kategori.
+Representerar typen av en animeringseffekt för diagrammets element i serie eller kategori.
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -18,10 +18,10 @@ public enum EffectChartMinorGroupingType
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Animera diagrammet efter element i serie |
-| ByElementInCategory | `1` | Animera diagrammet efter element i kategori |
+| ByElementInSeries | `0` | Animera diagrammet per element i serie |
+| ByElementInCategory | `1` | Animera diagrammet per element i kategori |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

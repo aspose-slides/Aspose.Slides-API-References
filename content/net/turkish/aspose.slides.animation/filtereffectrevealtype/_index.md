@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Sildes .NET API Referansı
-description: Filtre ortaya çıkma tipini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Filtre gösterim tipini temsil eder.
 type: docs
-weight: 360
+weight: 380
 url: /tr/aspose.slides.animation/filtereffectrevealtype/
 ---
 ## FilterEffectRevealType enum
 
-Filtre ortaya çıkma tipini temsil eder.
+Filtre gösterim tipini temsil eder.
 
 ```csharp
 public enum FilterEffectRevealType
@@ -23,7 +23,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### Diğer
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)
 * derleme [Aspose.Slides](../../)

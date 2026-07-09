@@ -1,14 +1,14 @@
 ---
 title: TextUnderlineType
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili jenis garis bawah teks.
+description: Mewakili jenis underline teks.
 type: docs
-weight: 10990
+weight: 11010
 url: /id/aspose.slides/textunderlinetype/
 ---
-## enumerasi TextUnderlineType
+## Enumerasi TextUnderlineType
 
-Mewakili jenis garis bawah teks.
+Mewakili jenis underline teks.
 
 ```csharp
 public enum TextUnderlineType : sbyte

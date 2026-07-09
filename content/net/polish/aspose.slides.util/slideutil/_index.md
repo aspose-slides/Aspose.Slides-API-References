@@ -1,14 +1,14 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Udostępnia metody, które pomagają wyszukiwać kształty i tekst w prezentacji.
 type: docs
-weight: 11500
+weight: 11520
 url: /pl/aspose.slides.util/slideutil/
 ---
 ## SlideUtil klasa
 
-Udostępnia metody, które pomagają wyszukiwać kształty i tekst w prezentacji.
+Oferta metod, które pomagają wyszukiwać kształty i tekst w prezentacji.
 
 ```csharp
 public static class SlideUtil
@@ -18,20 +18,20 @@ public static class SlideUtil
 
 | Nazwa | Opis |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Zmienia położenie wszystkich kształtów na slajdzie. Wyrównuje kształty do marginesów lub krawędzi slajdu lub wyrównuje je względem siebie. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Zmienia położenie wszystkich kształtów wewnątrz grupy kształtów. Wyrównuje kształty do marginesów lub krawędzi slajdu lub wyrównuje je względem siebie. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Zmienia położenie wybranych kształtów na slajdzie. Wyrównuje kształty do marginesów lub krawędzi slajdu lub wyrównuje je względem siebie. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Zmienia położenie wybranych kształtów wewnątrz grupy kształtów. Wyrównuje kształty do marginesów lub krawędzi slajdu lub wyrównuje je względem siebie. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Znajduje i zamienia tekst w prezentacji przy użyciu podanego formatu |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Zmienia położenie wszystkich kształtów na slajdzie. Wyrównuje kształty do marginesów lub krawędzi slajdu albo wyrównuje je względem siebie. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Zmienia położenie wszystkich kształtów wewnątrz grupy kształtów. Wyrównuje kształty do marginesów lub krawędzi slajdu albo wyrównuje je względem siebie. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Zmienia położenie wybranych kształtów na slajdzie. Wyrównuje kształty do marginesów lub krawędzi slajdu albo wyrównuje je względem siebie. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Zmienia położenie wybranych kształtów wewnątrz grupy kształtów. Wyrównuje kształty do marginesów lub krawędzi slajdu albo wyrównuje je względem siebie. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Wyszukuje i zastępuje tekst w prezentacji przy użyciu podanego formatu |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | Znajduje kształt po alternatywnym tekście na slajdzie w prezentacji PPTX. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | Znajduje kształt po alternatywnym tekście w prezentacji PPTX. |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Wyszukuje wszystkie kształty na określonym slajdzie, które pasują do podanego typu placeholdera. |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Wyszukuje wszystkie kształty na określonym slajdzie, które pasują do podanego typu zastępnika. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | Zwraca wszystkie ramki tekstowe na slajdzie w prezentacji PPTX. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | Zwraca wszystkie ramki tekstowe w prezentacji PPTX. |
 | static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Zwraca wszystkie ramki tekstowe na określonym slajdzie, które zawierają podany tekst. |
 | static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Konwertuje format pliku źródłowego na odpowiadający [`SaveFormat`](../../aspose.slides.export/saveformat). |
 
-### Zobacz także
+### Zobacz również
 
 * przestrzeń nazw [Aspose.Slides.Util](../../aspose.slides.util)
 * zestaw [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Konstanta yang menentukan format presentasi yang disimpan.
 type: docs
-weight: 4420
+weight: 4440
 url: /id/aspose.slides.export/saveformat/
 ---
 ## enumerasi SaveFormat

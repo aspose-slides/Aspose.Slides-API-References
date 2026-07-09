@@ -1,6 +1,6 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드의 크기와 방향을 나타냅니다.
 type: docs
 weight: 10500
@@ -26,10 +26,10 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 유형에 따라 슬라이드 크기를 설정하고 기존 콘텐츠를 크기 조정합니다. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 슬라이드 차원을 명시적으로 설정하고 기존 콘텐츠를 크기 조정합니다. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | 슬라이드 크기를 유형별로 설정하고 기존 콘텐츠를 확대/축소합니다. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | 슬라이드 차원을 명시적으로 설정하고 기존 콘텐츠를 확대/축소합니다. |
 
-### 추가 참조
+### 관련 항목
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Presentation](../presentation)

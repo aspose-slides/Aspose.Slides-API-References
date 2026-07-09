@@ -1,9 +1,9 @@
 ---
 title: Comment
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um comentário em um slide.
 type: docs
-weight: 2600
+weight: 2620
 url: /pt/aspose.slides/comment/
 ---
 ## Comment classe
@@ -23,7 +23,7 @@ public class Comment : IComment
 | [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Obtém ou define o comentário pai. Leitura/gravação [`IComment`](../icomment). |
 | [Position](../../aspose.slides/comment/position) { get; set; } | Retorna ou define a posição de um comentário em um slide. Leitura/gravação PointF. |
 | [Slide](../../aspose.slides/comment/slide) { get; } | Retorna ou define o slide pai de um comentário. Somente leitura [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Retorna ou define o texto simples de um comentário de slide. Leitura/gravação String. |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Retorna ou define o texto simples de um comentário em um slide. Leitura/gravação String. |
 
 ## Métodos
 
@@ -33,7 +33,7 @@ public class Comment : IComment
 
 ### Exemplos
 
-Este exemplo mostra como adicionar um comentário a um slide em uma apresentação PowerPoint.
+Este exemplo mostra como adicionar um comentário a um slide em uma apresentação do PowerPoint.
 
 ```csharp
 [C#]
@@ -44,31 +44,31 @@ using (Presentation presentation = new Presentation())
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // Adiciona um autor
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // Define a posição dos comentários
+    // Define a posição para comentários
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // Adiciona um comentário de slide para um autor no slide 1
+    // Adiciona comentário de slide para um autor no slide 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // Adiciona um comentário de slide para um autor no slide 2
+    // Adiciona comentário de slide para um autor no slide 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// Salva o arquivo PowerPoint Presentation
+	// Salva o arquivo de apresentação PowerPoint
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-Este exemplo mostra como acessar um comentário existente em um slide em uma apresentação PowerPoint.
+Este exemplo mostra como acessar um comentário existente em um slide em uma apresentação do PowerPoint.
 
 ```csharp
 [C#]
 // Instancia a classe Presentation
 using (Presentation presentation = new Presentation("Comments1.pptx"))
 {
-	// Itera CommentAuthors
+	// Itera sobre CommentAuthors
     foreach (var commentAuthor in presentation.CommentAuthors)
     {
         var author = (CommentAuthor) commentAuthor;
-		// Itera Comments
+		// Itera sobre Comments
         foreach (var comment1 in author.Comments)
         {
             var comment = (Comment) comment1;
@@ -88,11 +88,11 @@ using (Presentation pres = new Presentation())
     // Adiciona um comentário
     ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
     IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
-    // Adiciona uma resposta ao comentário1
+    // Adiciona uma resposta ao comment1
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // Adiciona outra resposta ao comentário1
+    // Adiciona outra resposta ao comment1
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
     // Adiciona uma resposta a uma resposta existente
@@ -117,13 +117,13 @@ using (Presentation pres = new Presentation())
         Console.WriteLine();
     }
     pres.Save("parent_comment.pptx",SaveFormat.Pptx);
-    // Remove o comentário1 e todas as respostas a ele
+    // Remove o comment1 e todas as respostas a ele
     comment1.Remove();
     pres.Save("remove_comment.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IComment](../icomment)
 * namespace [Aspose.Slides](../../aspose.slides)

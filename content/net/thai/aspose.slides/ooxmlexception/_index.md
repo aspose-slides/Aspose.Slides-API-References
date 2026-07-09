@@ -1,14 +1,14 @@
 ---
 title: OOXMLException
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงชนิดข้อยกเว้นภายในมาตรฐานที่เกี่ยวข้องกับรูปแบบไฟล์ Office Open XML
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงประเภทข้อยกเว้นภายในมาตรฐานที่เกี่ยวข้องกับรูปแบบไฟล์ Office Open XML
 type: docs
 weight: 9200
 url: /th/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException คลาส
 
-แสดงถึงชนิดข้อยกเว้นภายในมาตรฐานที่เกี่ยวข้องกับรูปแบบไฟล์ Office Open XML
+แสดงถึงประเภทข้อยกเว้นภายในมาตรฐานที่เกี่ยวข้องกับรูปแบบไฟล์ Office Open XML
 
 ```csharp
 public class OOXMLException : Exception

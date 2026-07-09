@@ -3,10 +3,10 @@ title: IRippleTransition
 second_title: Referência da API Aspose.Sildes para .NET
 description: Efeito de transição de slide Ripple.
 type: docs
-weight: 10150
+weight: 10170
 url: /pt/aspose.slides.slideshow/irippletransition/
 ---
-## IRippleTransition interface
+## Interface IRippleTransition
 
 Efeito de transição de slide Ripple.
 
@@ -19,9 +19,9 @@ public interface IRippleTransition : ITransitionValueBase
 | Nome | Descrição |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irippletransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Direção da transição. Leitura/gravação [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/irippletransition/direction) { get; set; } | Direção da transição. Leitura/Gravação [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
-### Veja também
+### Veja Também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

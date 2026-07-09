@@ -1,9 +1,9 @@
 ---
 title: XamlOptions
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: XAML ドキュメントの保存方法を制御するオプションです。
 type: docs
-weight: 4700
+weight: 4720
 url: /ja/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions クラス
@@ -24,13 +24,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソース フォントが見つからない場合に使用されるフォントを取得または設定します。読み書き String。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | 非表示スライドをエクスポートするかどうかを決定します。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアル スタイルを取得または設定します。読み書き [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
 | [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | IOutputSaver インターフェイスの実装を表します。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進捗率の保存更新用コールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存するときに JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き Boolean。デフォルト値は **false** です。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロード プロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | パーセンテージで進行状況の更新を保存するためのコールバック オブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。既定値は **false** です。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、読み込みプロセスを継続するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 

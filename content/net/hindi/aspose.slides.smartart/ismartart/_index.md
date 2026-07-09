@@ -1,14 +1,14 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक SmartArt आरेख का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: SmartArt डायग्राम का प्रतिनिधित्व करता है।
 type: docs
 weight: 10540
 url: /hi/aspose.slides.smartart/ismartart/
 ---
-## ISmartArt इंटरफ़ेस
+## ISmartArt interface
 
-एक SmartArt आरेख का प्रतिनिधित्व करता है।
+SmartArt डायग्राम का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ISmartArt : IGraphicalObject
@@ -18,15 +18,15 @@ public interface ISmartArt : IGraphicalObject
 
 | नाम | विवरण |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | SmartArt ऑब्जेक्ट में सभी नोड्स के संग्रह लौटाता है। केवल- पढ़ने योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | आधार IGraphicalObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल- पढ़ने योग्य [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt ऑब्जेक्ट की रंग शैली को लौटाता है या सेट करता है। पढ़ें/लिखें [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | यदि आरेख उलटने का समर्थन करता है, तो SmartArt आरेख की स्थिति को (बाएँ-से-दाएँ) LTR या (दाएँ-से-बाएँ) RTL के संदर्भ में लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt ऑब्जेक्ट के लेआउट को लौटाता है या सेट करता है। पढ़ें/लिखें [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | SmartArt ऑब्जेक्ट में मूल नोड्स के संग्रह लौटाता है। केवल- पढ़ने योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt ऑब्जेक्ट की त्वरित शैली को लौटाता है या सेट करता है। पढ़ें/लिखें [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | SmartArt ऑब्जेक्ट में सभी नोड्स के संग्रह लौटाता है। केवल-पढ़ने-योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | बेस IGraphicalObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | SmartArt ऑब्जेक्ट की रंग शैली को रिटर्न या सेट करें। पढ़ें/लिखें [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | (left-to-right) LTR या (right-to-left) RTL के संबंध में SmartArt डायग्राम की स्थिति को रिटर्न या सेट करें, यदि डायग्राम उलटने का समर्थन करता है। पढ़ें/लिखें Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | SmartArt ऑब्जेक्ट का लेआउट रिटर्न या सेट करें। पढ़ें/लिखें [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | SmartArt ऑब्जेक्ट में रूट नोड्स के संग्रह लौटाता है। केवल-पढ़ने-योग्य [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | SmartArt ऑब्जेक्ट की शीघ्र शैली को रिटर्न या सेट करें। पढ़ें/लिखें [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * नामस्थान [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

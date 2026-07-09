@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά το στυλ των αριθμημένων κουκίδων.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά το στυλ των αριθμημένων σφαίρων.
 type: docs
-weight: 9160
+weight: 9180
 url: /el/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle αρίθμηση
 
-Αναπαριστά το στυλ των αριθμημένων κουκίδων.
+Αναπαριστά το στυλ των αριθμημένων σφαίρων.
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -19,51 +19,51 @@ public enum NumberedBulletStyle : sbyte
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
 | NotDefined | `-1` | Δεν ορίζεται. |
-| BulletAlphaLCPeriod | `0` | Πεζά αλφαβητικά γράμματα με τελεία. Παράδειγμα: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Κεφαλαία αλφαβητικά γράμματα με τελεία. Παράδειγμα: A., B., C., ... |
-| BulletArabicParenRight | `2` | Αραβικοί αριθμοί με κλειστό παρένθεμα. Παράδειγμα: 1), 2), 3), ... |
+| BulletAlphaLCPeriod | `0` | Χαρακτήρες αλφαβήτου πεζά με τελεία. Παράδειγμα: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Χαρακτήρες αλφαβήτου κεφαλαία με τελεία. Παράδειγμα: A., B., C., ... |
+| BulletArabicParenRight | `2` | Αραβικοί αριθμοί με κλείσιμο παρενθέσεων. Παράδειγμα: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Αραβικοί αριθμοί με τελεία. Παράδειγμα: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Πεζά ρωμαϊκά νούμερα με και τα δύο παρενθέσεις. Παράδειγμα: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Πεζά ρωμαϊκά νούμερα με κλειστό παρένθεμα. Παράδειγμα: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Πεζά ρωμαϊκά νούμερα με τελεία. Παράδειγμα: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Κεφαλαία ρωμαϊκά νούμερα με τελεία. Παράδειγμα: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Πεζά αλφαβητικά γράμματα με και τα δύο παρενθέσεις. Παράδειγμα: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Πεζά αλφαβητικά γράμματα με κλειστό παρένθεμα. Παράδειγμα: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Κεφαλαία αλφαβητικά γράμματα με και τα δύο παρενθέσεις. Παράδειγμα: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Κεφαλαία αλφαβητικά γράμματα με κλειστό παρένθεμα. Παράδειγμα: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Αραβικοί αριθμοί με και τα δύο παρενθέσεις. Παράδειγμα: (1), (2), (3), ... |
+| BulletRomanLCParenBoth | `4` | Ρωμαίοι αριθμοί πεζά με και τις δύο παρενθέσεις. Παράδειγμα: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | Ρωμαίοι αριθμοί πεζά με κλείσιμο παρενθέσεων. Παράδειγμα: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | Ρωμαίοι αριθμοί πεζά με τελεία. Παράδειγμα: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Ρωμαίοι αριθμοί κεφαλαία με τελεία. Παράδειγμα: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Χαρακτήρες αλφαβήτου πεζά με και τις δύο παρενθέσεις. Παράδειγμα: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Χαρακτήρες αλφαβήτου πεζά με κλείσιμο παρενθέσεων. Παράδειγμα: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Χαρακτήρες αλφαβήτου κεφαλαία με και τις δύο παρενθέσεις. Παράδειγμα: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Χαρακτήρες αλφαβήτου κεφαλαία με κλείσιμο παρενθέσεων. Παράδειγμα: A), B), C), ... |
+| BulletArabicParenBoth | `12` | Αραβικοί αριθμοί με και τις δύο παρενθέσεις. Παράδειγμα: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Αραβικοί αριθμοί. Παράδειγμα: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Κεφαλαία ρωμαϊκά νούμερα με και τα δύο παρενθέσεις. Παράδειγμα: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Κεφαλαία ρωμαϊκά νούμερα με κλειστό παρένθεμα. Παράδειγμα: I), II), III), ... |
+| BulletRomanUCParenBoth | `14` | Ρωμαίοι αριθμοί κεφαλαία με και τις δύο παρενθέσεις. Παράδειγμα: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | Ρωμαίοι αριθμοί κεφαλαία με κλείσιμο παρενθέσεων. Παράδειγμα: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Απλοποιημένα κινέζικα χωρίς τελεία. |
 | BulletSimpChinPeriod | `17` | Απλοποιημένα κινέζικα με τελεία. |
-| BulletCircleNumDBPlain | `18` | Διπλού byte αριθμοί σε κύκλο για τιμές έως 10, από 11 – αραβικοί αριθμοί. |
-| BulletCircleNumWDWhitePlain | `19` | Αριθμός χρωματισμένο με κείμενο με ίδιο χρώμα κύκλο γύρω του (Wingdings λευκοί κύκλοι). Από 11 – αραβικοί αριθμοί. |
-| BulletCircleNumWDBlackPlain | `20` | Αριθμός σε χρώμα σκιάς με κυκλικό φόντο το κανονικό χρώμα κειμένου (Wingdings μαύροι κύκλοι). |
+| BulletCircleNumDBPlain | `18` | Διπλό-byte περιγεγραμμένος αριθμός για τιμές μέχρι 10, από 11 – αραβικοί αριθμοί. |
+| BulletCircleNumWDWhitePlain | `19` | Αριθμός χρωματισμένος με κείμενο, με ίδιο χρώμα κύκλο γύρω του (Wingdings λευκοί κυκλικοί αριθμοί). Από 11 – αραβικοί αριθμοί. |
+| BulletCircleNumWDBlackPlain | `20` | Σκιασμένος αριθμός με κυκλικό φόντο κανονικού χρώματος κειμένου (Wingdings μαύροι κυκλικοί αριθμοί). |
 | BulletTradChinPlain | `21` | Παραδοσιακά κινέζικα χωρίς τελεία. |
 | BulletTradChinPeriod | `22` | Παραδοσιακά κινέζικα με τελεία. |
 | BulletArabicAlphaDash | `23` | Αραβικοί αλφαβητικοί χαρακτήρες με παύλα. |
-| BulletArabicAbjadDash | `24` | Αραβικά αλφάβητα Αμπτζάν με παύλα. |
+| BulletArabicAbjadDash | `24` | Αραβικά αλφαβητικά Abjad με παύλα. |
 | BulletHebrewAlphaDash | `25` | Εβραϊκοί αλφαβητικοί χαρακτήρες με παύλα. |
-| BulletKanjiKoreanPlain | `26` | Ιαπωνικοί/Κορεατικοί αριθμοί χωρίς τελεία. |
-| BulletKanjiKoreanPeriod | `27` | Ιαπωνικοί/Κορεατικοί αριθμοί με τελεία. |
-| BulletArabicDBPlain | `28` | Σχήμα αραβικής αρίθμησης διπλού byte (χωρίς στίξη). |
-| BulletArabicDBPeriod | `29` | Σχήμα αραβικής αρίθμησης διπλού byte με διπλό byte τελεία. |
-| BulletThaiAlphaPeriod | `30` | Τάι αλφάβητο με τελεία. |
-| BulletThaiAlphaParenRight | `31` | Τάι αλφάβητο παρενθέσεις - δεξιά. |
-| BulletThaiAlphaParenBoth | `32` | Τάι αλφάβητο παρενθέσεις - και τα δύο. |
-| BulletThaiNumPeriod | `33` | Τάι αριθμητική τελεία. |
-| BulletThaiNumParenRight | `34` | Τάι αριθμητική παρενθέσεις - δεξιά. |
-| BulletThaiNumParenBoth | `35` | Τάι αριθμητική παρενθέσεις - και τα δύο. |
-| BulletHindiAlphaPeriod | `36` | Χίντι αλφάβητο τελεία - φωνήεντα. |
-| BulletHindiNumPeriod | `37` | Χίντι αριθμητική τελεία. |
-| BulletKanjiSimpChinDBPeriod | `38` | Καντζι Απλό Κινέζικο DBPeriod. |
-| BulletHindiNumParenRight | `39` | Χίντι αριθμητική παρενθέσεις - δεξιά. |
-| BulletHindiAlpha1Period | `40` | Χίντι αλφάβητο τελεία - σύμφωνα. |
+| BulletKanjiKoreanPlain | `26` | Ιαπωνικοί/Κορεάτικοι αριθμοί χωρίς τελεία. |
+| BulletKanjiKoreanPeriod | `27` | Ιαπωνικοί/Κορεάτικοι αριθμοί με τελεία. |
+| BulletArabicDBPlain | `28` | Διπλό-Byte αραβικό σύστημα αρίθμησης (χωρίς σημεία στίξης). |
+| BulletArabicDBPeriod | `29` | Διπλό-Byte αραβικό σύστημα αρίθμησης με διπλό-Byte τελεία. |
+| BulletThaiAlphaPeriod | `30` | Περίοδος αλφαβήτου Thai. |
+| BulletThaiAlphaParenRight | `31` | Παρενθέσεις αλφαβήτου Thai – δεξιές. |
+| BulletThaiAlphaParenBoth | `32` | Παρενθέσεις αλφαβήτου Thai – και οι δύο. |
+| BulletThaiNumPeriod | `33` | Περίοδος αριθμητικών Thai. |
+| BulletThaiNumParenRight | `34` | Παρενθέσεις αριθμητικών Thai – δεξιές. |
+| BulletThaiNumParenBoth | `35` | Παρενθέσεις αριθμητικών Thai – και οι δύο. |
+| BulletHindiAlphaPeriod | `36` | Περίοδος αλφαβήτου Hindi – φωνήεντα. |
+| BulletHindiNumPeriod | `37` | Περίοδος αριθμητικών Hindi. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji απλό κινέζικο DBPeriod. |
+| BulletHindiNumParenRight | `39` | Παρενθέσεις αριθμητικών Hindi – δεξιές. |
+| BulletHindiAlpha1Period | `40` | Περίοδος αλφαβήτου Hindi – σύμφωνα. |
 
 ### Δείτε επίσης
 
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* μονάδα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

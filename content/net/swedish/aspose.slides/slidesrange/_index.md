@@ -1,14 +1,14 @@
 ---
 title: SlidesRange
 second_title: Aspose.Sildes för .NET API-referens
-description: Intervall för bildspel
+description: Bildspelsintervall
 type: docs
-weight: 10510
+weight: 10530
 url: /sv/aspose.slides/slidesrange/
 ---
 ## SlidesRange klass
 
-Slides range
+Bildspelsintervall
 
 ```csharp
 public class SlidesRange
@@ -27,7 +27,7 @@ public class SlidesRange
 | [End](../../aspose.slides/slidesrange/end) { get; set; } | Slut |
 | [Start](../../aspose.slides/slidesrange/start) { get; set; } | Start |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

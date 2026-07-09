@@ -1,14 +1,14 @@
 ---
 title: IProgressCallback
-second_title: Aspose.Sildes dla .NET Dokumentacja API
-description: Reprezentuje obiekt wywołania zwrotnego służący do aktualizacji postępu zapisu w procentach.
+second_title: Aspose.Sildes dla .NET odniesienie API
+description: Reprezentuje obiekt wywołania zwrotnego służący do zapisywania aktualizacji postępu w procentach.
 type: docs
-weight: 6790
+weight: 6810
 url: /pl/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback interfejs
 
-Reprezentuje obiekt wywołania zwrotnego służący do aktualizacji postępu zapisu w procentach.
+Reprezentuje obiekt wywołania zwrotnego służący do zapisywania aktualizacji postępu w procentach.
 
 ```csharp
 public interface IProgressCallback

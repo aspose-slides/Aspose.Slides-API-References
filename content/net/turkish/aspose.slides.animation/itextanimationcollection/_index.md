@@ -1,14 +1,14 @@
 ---
 title: ITextAnimationCollection
-second_title: Aspose.Sildes için .NET API Referansı
-description: Metin animasyonları koleksiyonunu temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Metin animasyonlarının koleksiyonunu temsil eder.
 type: docs
-weight: 610
+weight: 630
 url: /tr/aspose.slides.animation/itextanimationcollection/
 ---
-## ITextAnimationCollection interface
+## ITextAnimationCollection arayüz
 
-Metin animasyonları koleksiyonunu temsil eder.
+Metin animasyonlarının koleksiyonunu temsil eder.
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | İndeks ile öğeyi döndürür. (2 indeksleyici) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Dizine göre öğeyi döndürür. (2 dizinleyici) |
 
 ### Ayrıca Bakınız
 

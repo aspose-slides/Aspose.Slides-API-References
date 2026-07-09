@@ -1,14 +1,14 @@
 ---
 title: ProtectionManager
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति पासवर्ड सुरक्षा प्रबंधन।
+description: प्रेज़ेंटेशन पासवर्ड सुरक्षा प्रबंधन।
 type: docs
 weight: 9680
 url: /hi/aspose.slides/protectionmanager/
 ---
-## ProtectionManager कक्षा
+## ProtectionManager क्लास
 
-Presentation password protection management.
+प्रेज़ेंटेशन पासवर्ड सुरक्षा प्रबंधन।
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,27 +18,27 @@ public sealed class ProtectionManager : IProtectionManager
 
 | नाम | विवरण |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | यह प्रॉपर्टी तभी अर्थपूर्ण होती है जब प्रस्तुति पासवर्ड सुसंगत हो। यदि सत्य है तो दस्तावेज़ प्रॉपर्टीज़ प्रस्तुति फ़ाइल में एन्क्रिप्ट की जाती हैं। यदि असत्य है तो दस्तावेज़ प्रॉपर्टीज़ सार्वजनिक रहती हैं जबकि प्रस्तुति एन्क्रिप्ट की गई है। पढ़ें/लिखें Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | प्रस्तुति एन्क्रिप्शन के लिए उपयोग किया गया पासवर्ड प्राप्त करता है। केवल-पढ़ने-योग्य String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | यह मान प्राप्त करता है जो दर्शाता है कि यह इंस्टेंस एन्क्रिप्टेड है या नहीं। केवल-पढ़ने-योग्य Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | यह प्रॉपर्टी तभी अर्थपूर्ण होती है जब प्रस्तुति फ़ाइल पासवर्ड सुसंगत हो और इस फ़ाइल की दस्तावेज़ प्रॉपर्टीज़ सार्वजनिक हों। सत्य का मान मतलब है कि केवल दस्तावेज़ प्रॉपर्टीज़ एन्क्रिप्टेड प्रस्तुति फ़ाइल से पासवर्ड के बिना लोड की जाती हैं। असत्य का मान मतलब है कि पूरी एन्क्रिप्टेड प्रस्तुति सही पासवर्ड के उपयोग से लोड की जाती है, केवल दस्तावेज़ प्रॉपर्टीज़ नहीं। यदि प्रस्तुति एन्क्रिप्टेड नहीं है तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि एन्क्रिप्टेड फ़ाइल की दस्तावेज़ प्रॉपर्टीज़ सार्वजनिक नहीं हैं तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि Presentation.EncryptDocumentProperties सत्य है तो IsOnlyDocumentPropertiesLoaded प्रॉपर्टी मान हमेशा असत्य रहता है। केवल-पढ़ने-योग्य Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | यह मान प्राप्त करता है जो दर्शाता है कि यह प्रस्तुति लिखने से संरक्षित है या नहीं। केवल-पढ़ने-योग्य Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | केवल-पढ़ने-योग्य अनुशंसा प्राप्त करता है या सेट करता है। पढ़ें/लिखें Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रेज़ेंटेशन पासवर्ड से संरक्षित हो। यदि सत्य है तो दस्तावेज़ गुण प्रेज़ेंटेशन फ़ाइल में एन्क्रिप्टेड होते हैं। यदि असत्य है तो दस्तावेज़ गुण सार्वजनिक होते हैं जबकि प्रेज़ेंटेशन एन्क्रिप्टेड होता है। पढ़ने/लिखने योग्य Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | प्रेज़ेंटेशन एन्क्रिप्शन के लिए उपयोग किया जाने वाला पासवर्ड प्राप्त करता है। केवल-पढ़ने योग्य String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | यह दर्शाने वाला मान प्राप्त करता है कि यह इंस्टेंस एन्क्रिप्टेड है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | यह प्रॉपर्टी तभी अर्थपूर्ण है जब प्रेज़ेंटेशन फ़ाइल पासवर्ड से संरक्षित हो और इस फ़ाइल के दस्तावेज़ गुण सार्वजनिक हों। सत्य मान का अर्थ है कि केवल दस्तावेज़ गुण एन्क्रिप्टेड प्रेज़ेंटेशन फ़ाइल से पासवर्ड के बिना लोड होते हैं। असत्य मान का अर्थ है कि सही पासवर्ड के प्रयोग से संपूर्ण एन्क्रिप्टेड प्रेज़ेंटेशन लोड होता है, न कि केवल दस्तावेज़ गुण लोड होते हैं। यदि प्रेज़ेंटेशन एन्क्रिप्टेड नहीं है तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि एन्क्रिप्टेड फ़ाइल के दस्तावेज़ गुण सार्वजनिक नहीं हैं तो प्रॉपर्टी मान हमेशा असत्य रहता है। यदि Presentation.EncryptDocumentProperties सत्य है तो IsOnlyDocumentPropertiesLoaded प्रॉपर्टी मान हमेशा असत्य रहता है। केवल-पढ़ने योग्य Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | यह दर्शाने वाला मान प्राप्त करता है कि यह प्रेज़ेंटेशन लेखन-रक्षित है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | केवल-पढ़ने योग्य अनुशंसा प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Boolean. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | निर्धारित करता है कि क्या प्रस्तुति संशोधन के लिए पासवर्ड सुसंगत है। |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | निर्दिष्ट पासवर्ड के साथ प्रस्तुति को एन्क्रिप्ट करता है। |
-| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | एन्क्रिप्शन को हटाता है। |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | इस प्रस्तुति के लिए लिखने की सुरक्षा हटाता है। |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | निर्दिष्ट पासवर्ड के साथ इस प्रस्तुति के लिए लिखने की सुरक्षा सेट करता है। |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | निर्धारित करता है कि क्या प्रेज़ेंटेशन संशोधन हेतु पासवर्ड से संरक्षित है। |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | निर्दिष्ट पासवर्ड से प्रेज़ेंटेशन को एन्क्रिप्ट करता है। |
+| [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | एन्क्रिप्शन हटाता है। |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | इस प्रेज़ेंटेशन की लेखन-रक्षा हटाता है। |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | निर्दिष्ट पासवर्ड के साथ इस प्रेज़ेंटेशन के लिए लेखन-रक्षा सेट करता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IProtectionManager](../iprotectionmanager)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

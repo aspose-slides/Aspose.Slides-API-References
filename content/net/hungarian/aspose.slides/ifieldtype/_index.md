@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes a .NET API referenciához
-description: Egy mező típusát képviseli. Ez az érték határozza meg, hogy milyen szöveg lesz beállítva a mező részére, amikor frissítésre kerül.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy mező típusát reprezentálja. Ez az érték határozza meg, hogy melyik szöveg kerül beállításra a mező részhez, amikor frissítik.
 type: docs
-weight: 5760
+weight: 5780
 url: /hu/aspose.slides/ifieldtype/
 ---
 ## IFieldType interfész
 
-Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
+Egy mező típusát jeleníti meg. Ez az érték határozza meg, hogy melyik szöveg lesz beállítva a mező részhez, amikor frissítik.
 
 ```csharp
 public interface IFieldType
@@ -16,7 +16,7 @@ public interface IFieldType
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | Visszaadja ennek a FieldTypeEx objektumnak a belső nevét. Olvasás/írás String. |
 

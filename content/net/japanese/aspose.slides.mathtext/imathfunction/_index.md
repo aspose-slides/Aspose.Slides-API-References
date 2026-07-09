@@ -1,9 +1,9 @@
 ---
 title: IMathFunction
-second_title: Aspose.Sildes の .NET 用 API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 引数の関数を指定します。
 type: docs
-weight: 8250
+weight: 8270
 url: /ja/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction インターフェイス
@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | 関数の引数 |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 関数名 例として、関数名は sin と cos です |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | 関数名。例えば、関数名は sin と cos です |
 
 ### 例
 

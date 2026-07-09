@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: إعدادات عرض الشرائح الأساسية. الأجداد يمثلون أنواع عرض الشرائح PresentedBySpeaker./presentedbyspeaker مقدم من قبل المتحدث ملء الشاشة BrowsedByIndividual./browsedbyindividual تم التصفح من قبل فرد نافذة BrowsedAtKiosk./browsedatkiosk تم التصفح عند كشك ملء الشاشة
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: إعدادات عرض الشرائح الأساسية. تمثل الأسلاف أنواع عرض الشرائح PresentedBySpeaker./presentedbyspeaker تقديم بواسطة متحدث ملء الشاشة BrowsedByIndividual./browsedbyindividual تم التصفح من قبل فرد نافذة BrowsedAtKiosk./browsedatkiosk تم التصفح في كشك ملء الشاشة
 type: docs
 weight: 10490
 url: /ar/aspose.slides/slideshowtype/
 ---
 ## SlideShowType فئة
 
-إعدادات عرض الشرائح الأساسية. الأجداد يمثلون أنواع عرض الشرائح: [`PresentedBySpeaker`](../presentedbyspeaker) مقدم من قبل المتحدث (ملء الشاشة) [`BrowsedByIndividual`](../browsedbyindividual) يتم التصفح من قبل فرد (نافذة) [`BrowsedAtKiosk`](../browsedatkiosk) يتم التصفح عند كشك (ملء الشاشة)
+إعدادات عرض الشرائح الأساسية. يمثل الأسلاف أنواع عرض الشرائح: [`PresentedBySpeaker`](../presentedbyspeaker) يتم تقديمه بواسطة متحدث (ملء الشاشة) [`BrowsedByIndividual`](../browsedbyindividual) تم تصفحه من قبل فرد (نافذة) [`BrowsedAtKiosk`](../browsedatkiosk) تم تصفحه في كشك (ملء الشاشة)
 
 ```csharp
 public abstract class SlideShowType

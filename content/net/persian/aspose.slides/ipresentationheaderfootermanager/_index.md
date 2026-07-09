@@ -1,42 +1,42 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نماینده‌ای است که رفتار تمام متغیرهای نگهدارندهٔ پاورقی، تاریخ-زمان و شماره صفحه یک ارائه را در بر می‌گیرد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نماینده مدیری است که رفتار تمام نگهدارنده‌های پاورقی، تاریخ-زمان و شماره صفحه‌ی ارائه را نگه می‌دارد.
 type: docs
 weight: 6780
 url: /fa/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager رابط
 
-نماینده‌ای است که رفتار تمام متغیرهای نگهدارندهٔ پاورقی، تاریخ-زمان و شماره صفحه یک ارائه را در بر می‌گیرد.
+نمایش‌دهنده‌ی مدیری است که رفتار تمام نگهدارنده‌های پاورقی، تاریخ-زمان و شماره صفحه‌ی ارائه را نگه می‌دارد.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | باز می‌گرداند IBaseHeaderFooterManager رابط. |
+| [AsIBaseHeaderFooterManager](../../aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager) { get; } | رابط IBaseHeaderFooterManager را برمی‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | متن را برای تمام متغیرهای نگهدارندهٔ تاریخ-زمان تنظیم می‌کند، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | قابلیت مشاهده تمام متغیرهای نگهدارندهٔ تاریخ-زمان را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | متن را برای تمام متغیرهای نگهدارندهٔ پاورقی تنظیم می‌کند، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | قابلیت مشاهده تمام متغیرهای نگهدارندهٔ پاورقی را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | متن را برای تمام متغیرهای نگهدارندهٔ سرصفحه تنظیم می‌کند، شامل یادداشت اصلی، اسلایدهای یادداشت و نسخه اصلی توزیع. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | قابلیت مشاهده تمام متغیرهای نگهدارندهٔ سرصفحه را تغییر می‌دهد، شامل یادداشت اصلی، اسلایدهای یادداشت و نسخه اصلی توزیع. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | قابلیت مشاهده تمام متغیرهای نگهدارندهٔ شماره صفحه را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | قابلیت مشاهده متغیرهای نگهدارندهٔ پاورقی، تاریخ-زمان و شماره صفحه را برای تمام اسلایدهای عنوان و برای اولین اسلاید طرح‌بندی تغییر می‌دهد. اسلایدهای عنوان – اسلایدهایی هستند که بر پایه اولین اسلاید طرح‌بندی ساخته شده‌اند (صرف‌نظر از نوع این اولین طرح‌بندی). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | متن را برای تمام نگهدارنده‌های تاریخ-زمان تنظیم می‌کند، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | نمایش تمام نگهدارنده‌های تاریخ-زمان را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | متن را برای تمام نگهدارنده‌های پاورقی تنظیم می‌کند، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | نمایش تمام نگهدارنده‌های پاورقی را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | متن را برای تمام نگهدارنده‌های سرصفحه تنظیم می‌کند، شامل مستند اصلی یادداشت، اسلایدهای یادداشت و مستند اصلی توزیع. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | نمایش تمام نگهدارنده‌های سرصفحه را تغییر می‌دهد، شامل مستند اصلی یادداشت، اسلایدهای یادداشت و مستند اصلی توزیع. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | نمایش تمام نگهدارنده‌های شماره صفحه را تغییر می‌دهد، شامل اسلایدهای اصلی، اسلایدهای طرح‌بندی و اسلایدها. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | نمایش نگهدارنده‌های پاورقی، تاریخ-زمان و شماره صفحه را برای تمام اسلایدهای عنوان و اولین اسلاید طرح‌بندی تغییر می‌دهد. اسلایدهای عنوان – اسلایدهای مبتنی بر اولین اسلاید طرح‌بندی (بدون در نظر گرفتن نوع این طرح‌بندی). |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IBaseHeaderFooterManager](../ibaseheaderfootermanager)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

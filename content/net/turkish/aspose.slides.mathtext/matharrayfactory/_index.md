@@ -1,14 +1,14 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir matematik dizisi oluşturmayı sağlar
+second_title: Aspose.Sildes for .NET API Referansı
+description: Matematik dizisi oluşturmayı sağlar
 type: docs
-weight: 8540
+weight: 8560
 url: /tr/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory sınıf
 
-Bir matematik dizisi oluşturmayı sağlar
+Matematik dizisi oluşturmayı sağlar
 
 ```csharp
 public class MathArrayFactory : IMathArrayFactory
@@ -16,22 +16,22 @@ public class MathArrayFactory : IMathArrayFactory
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [MathArrayFactory](matharrayfactory)() | Varsayılan yapıcı. |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Bir matematik dizisi oluşturur ve belirtilen öğeyi içine yerleştirir |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Bir matematik dizisi oluşturur ve belirtilen öğeleri içine yerleştirir |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | Matematik dizisi oluşturur ve belirtilen öğeyi içine yerleştirir |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | Matematik dizisi oluşturur ve belirtilen öğeleri içine yerleştirir |
 
 ### Açıklamalar
 
 COM uyumluluğu için
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IMathArrayFactory](../imatharrayfactory)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

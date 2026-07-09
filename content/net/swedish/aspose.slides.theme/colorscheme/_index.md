@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Sildes för .NET API-referens
 description: Lagrar temadefinierade färger.
 type: docs
-weight: 11050
+weight: 11070
 url: /sv/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme klass
@@ -18,26 +18,26 @@ public class ColorScheme : IColorScheme
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Första accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Andra accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Tredje accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Fjärde accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Femte accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sjätte accentfärgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Första mörka färgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Andra mörka färgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Färg för de besökta hyperlänkarna. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Färg för hyperlänkarna. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Hämtar elementet vid det angivna indexet. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Första ljusa färgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Andra ljusa färgen i färgschemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Första accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Andra accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Tredje accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Fjärde accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Femte accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sjätte accentfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Första mörka färgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Andra mörka färgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Färg för besökta hyperlänkar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Färg för hyperlänkar. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Första ljusfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Andra ljusfärgen i schemat. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Returnerar den överordnade presentationen. Skrivskyddad [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Returnerar den överordnade bilden. Skrivskyddad [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
-### Se även
+### Se också
 
 * gränssnitt [IColorScheme](../icolorscheme)
-* namnrum [Aspose.Slides.Theme](../../aspose.slides.theme)
+* namnrymd [Aspose.Slides.Theme](../../aspose.slides.theme)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

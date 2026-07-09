@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de opmaak-eigenschappen van een alinea van een diagram voor.
+description: Stelt de alinea-opmaak eigenschappen van een diagram voor.
 type: docs
 weight: 1900
 url: /nl/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat interface
 
-Stelt de opmaak-eigenschappen van een alinea van een diagram voor.
+Stelt de alinea-opmaak eigenschappen van een diagram voor.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Retourneert of stelt de tekstuitlijning in een alinea in. Lezen/Schrijven [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Retourneert of stelt de standaard tabulatiegrootte in. Lezen/Schrijven Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bepaalt of de oost-Aziatische regeleinde wordt gebruikt in een alinea. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Retourneert of stelt een lettertype-uitlijning in een alinea in. Lezen/Schrijven [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bepaalt of hangende interpunctie wordt gebruikt in een alinea. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Retourneert of stelt de eerste regel insprong/hangende insprong van een alinea in. Hangende insprong kan worden gedefinieerd met negatieve waarden. Lezen/Schrijven Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bepaalt of de Latijnse regeleinde wordt gebruikt in een alinea. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Retourneert of stelt de linkermarge in een alinea in. Lezen/Schrijven Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Retourneert of stelt de rechtermarge in een alinea in. Lezen/Schrijven Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bepaalt of van rechts naar links schrijven wordt gebruikt in een alinea. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Retourneert of stelt de hoeveelheid ruimte na de laatste regel in een alinea in. Lezen/Schrijven Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Retourneert of stelt de hoeveelheid ruimte vóór de eerste regel in een alinea in. Lezen/Schrijven Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Retourneert of stelt de hoeveelheid ruimte tussen basisregels in een alinea in. Lezen/Schrijven Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Retourneert de tabulaties van een alinea. Alleen-lezen [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Geeft de tekstuitlijning in een alinea terug of stelt deze in. Lezen/schrijven [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Geeft de standaardtabulatiegrootte terug of stelt deze in. Lezen/schrijven Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bepaalt of de Oost-Aziatische regelafbreking in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Geeft de lettertype-uitlijning in een alinea terug of stelt deze in. Lezen/schrijven [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bepaalt of hangende interpunctie in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Geeft de eerste regel-insprong/Hangende insprong van een alinea terug of stelt deze in. Hangende insprong kan met negatieve waarden worden gedefinieerd. Lezen/schrijven Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bepaalt of de Latijnse regelafbreking in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Geeft de linkermarge in een alinea terug of stelt deze in. Lezen/schrijven Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Geeft de rechtermarge in een alinea terug of stelt deze in. Lezen/schrijven Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bepaalt of rechts-naar-links schrijven in een alinea wordt gebruikt. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Geeft de hoeveelheid ruimte na de laatste regel in een alinea terug of stelt deze in. Lezen/schrijven Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Geeft de hoeveelheid ruimte vóór de eerste regel in een alinea terug of stelt deze in. Lezen/schrijven Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Geeft de hoeveelheid ruimte tussen basisregels in een alinea terug of stelt deze in. Lezen/schrijven Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Geeft de tabulaties van een alinea terug. Alleen-lezen [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Zie ook
 

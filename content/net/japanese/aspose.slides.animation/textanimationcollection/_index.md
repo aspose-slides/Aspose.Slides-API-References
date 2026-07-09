@@ -1,9 +1,9 @@
 ---
 title: TextAnimationCollection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: テキスト アニメーションのコレクションを表します。
 type: docs
-weight: 810
+weight: 830
 url: /ja/aspose.slides.animation/textanimationcollection/
 ---
 ## TextAnimationCollection クラス
@@ -16,24 +16,24 @@ public class TextAnimationCollection : ITextAnimationCollection
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [TextAnimationCollection](textanimationcollection)() | 既定のコンストラクタです。 |
+| [TextAnimationCollection](textanimationcollection)() | デフォルトコンストラクタです。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides.animation/textanimationcollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides.animation/textanimationcollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean. |
 | [Item](../../aspose.slides.animation/textanimationcollection/item) { get; } | インデックスで要素を返します。(2 つのインデクサー) |
-| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | 同期のルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides.animation/textanimationcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object. |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/textanimationcollection/add)() | コレクションに新しいテキスト アニメーションを追加します。 |
+| [Add](../../aspose.slides.animation/textanimationcollection/add)() | 新しいテキスト アニメーションをコレクションに追加します。 |
 | [CopyTo](../../aspose.slides.animation/textanimationcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides.animation/textanimationcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 

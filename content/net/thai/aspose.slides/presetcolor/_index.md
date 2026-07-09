@@ -1,24 +1,24 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงพรีเซ็ตสีที่กำหนดไว้ล่วงหน้า
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนค่าชุดสีที่กำหนดไว้ล่วงหน้า.
 type: docs
 weight: 9660
 url: /th/aspose.slides/presetcolor/
 ---
-## PresetColor enumeration
+## การกำหนดค่า PresetColor
 
-แสดงพรีเซ็ตสีที่กำหนดไว้ล่วงหน้า
+แทนค่าชุดสีที่กำหนดไว้ล่วงหน้า
 
 ```csharp
 public enum PresetColor
 ```
 
-### ค่า
+### ค่าต่างๆ
 
-| Name | Value | Description |
+| ชื่อ | ค่า | รายละเอียด |
 | --- | --- | --- |
-| NotDefined | `-1` | พรีเซ็ตสีไม่ได้กำหนด |
+| NotDefined | `-1` | Color preset is not defined. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

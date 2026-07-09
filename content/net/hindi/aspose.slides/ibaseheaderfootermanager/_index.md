@@ -1,20 +1,20 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: सभी स्लाइड प्रकारों के लिए फ़ुटर, तारीख-समय, पृष्ठ संख्या प्लेसहोल्डर के व्यवहार को धारण करने वाले प्रबंधक को दर्शाता है।
+second_title: Aspose.Sildes .NET API रेफ़रेंस के लिए
+description: सभी स्लाइड प्रकारों के लिए फ़ूटर, दिनांक-समय, पृष्ठ संख्या प्लेसहोल्डर के व्यवहार को रखने वाला प्रबंधक प्रस्तुत करता है।
 type: docs
 weight: 5300
 url: /hi/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager इंटरफ़ेस
 
-सभी स्लाइड प्रकारों के लिए फ़ुटर, तारीख-समय, पृष्ठ संख्या प्लेसहोल्डर के व्यवहार को धारण करने वाले प्रबंधक को दर्शाता है।
+सभी स्लाइड प्रकारों के लिए फ़ूटर, दिनांक-समय, पृष्ठ संख्या प्लेसहोल्डर के व्यवहार को संभालने वाला प्रबंधक प्रदान करता है।
 
 ```csharp
 public interface IBaseHeaderFooterManager
 ```
 
-### संबंधित देखें
+### सम्बन्धित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

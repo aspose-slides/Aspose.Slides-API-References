@@ -1,14 +1,14 @@
 ---
 title: PointCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een collectie van animatiepunten.
+description: Stelt een verzameling animatiepunten voor.
 type: docs
 weight: 730
 url: /nl/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection klasse
 
-Vertegenwoordigt een verzameling animatiepunten.
+Stelt een verzameling animatiepunten voor.
 
 ```csharp
 public class PointCollection : IPointCollection

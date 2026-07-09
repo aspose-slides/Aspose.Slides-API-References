@@ -1,14 +1,14 @@
 ---
 title: IBaseTableFormatEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Giao diện cơ sở cho các đối tượng bất biến chứa các thuộc tính định dạng bảng có hiệu lực.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Giao diện cơ bản cho các đối tượng bất biến chứa các thuộc tính định dạng bảng hiệu lực.
 type: docs
 weight: 5360
 url: /vi/aspose.slides/ibasetableformateffectivedata/
 ---
 ## IBaseTableFormatEffectiveData giao diện
 
-Giao diện cơ sở cho các đối tượng bất biến chứa các thuộc tính định dạng bảng có hiệu lực.
+Giao diện cơ bản cho các đối tượng bất biến chứa các thuộc tính định dạng bảng hiệu lực.
 
 ```csharp
 public interface IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Trả về giá trị hiệu lực của định dạng đường viền dưới. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Trả về giá trị hiệu lực của định dạng đường chéo xuống. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Trả về giá trị hiệu lực của định dạng đường chéo lên. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Trả về giá trị hiệu lực của định dạng đường viền trái. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Trả về giá trị hiệu lực của định dạng đường viền phải. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Trả về giá trị hiệu lực của định dạng đường viền trên. Chỉ đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Trả về giá trị hiệu lực của định dạng tô đầy. Chỉ đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Trả về giá trị hiệu lực của định dạng đường viền dưới. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Trả về giá trị hiệu lực của định dạng đường chéo xuống. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Trả về giá trị hiệu lực của định dạng đường chéo lên. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Trả về giá trị hiệu lực của định dạng đường viền trái. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Trả về giá trị hiệu lực của định dạng đường viền phải. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Trả về giá trị hiệu lực của định dạng đường viền trên. Chỉ-đọc [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Trả về giá trị hiệu lực của định dạng tô đầy. Chỉ-đọc [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Xem thêm
 

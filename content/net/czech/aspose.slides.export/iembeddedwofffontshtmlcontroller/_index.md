@@ -1,14 +1,14 @@
 ---
 title: IEmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for .NET referenční příručka API
-description: Vestavěný ovladač HTML pro woff písma.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Vestavěný woff fontů html řadič.
 type: docs
-weight: 3890
+weight: 3910
 url: /cs/aspose.slides.export/iembeddedwofffontshtmlcontroller/
 ---
 ## IEmbeddedWoffFontsHtmlController rozhraní
 
-Vestavěný ovladač HTML pro woff písma.
+Vestavěný woff fontů html řadič.
 
 ```csharp
 public interface IEmbeddedWoffFontsHtmlController : IHtmlFormattingController

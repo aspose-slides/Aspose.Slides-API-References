@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคลาสแม่สำหรับรูปร่างเรขาคณิตทั้งหมด.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงคลาสแม่สำหรับรูปทรงเรขาคณิตย์ทั้งหมด.
 type: docs
 weight: 5980
 url: /th/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape อินเทอร์เฟซ
 
-แสดงถึงคลาสแม่สำหรับรูปร่างเรขาคณิตทั้งหมด.
+แสดงถึงคลาสแม่สำหรับรูปทรงเรขาคณิตทั้งหมด.
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -18,19 +18,19 @@ public interface IGeometryShape : IShape
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | คืนค่าชุดของค่าการปรับรูปของรูปร่าง. อ่านอย่างเดียว [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | อนุญาตให้รับ IShape อินเทอร์เฟซฐาน. อ่านอย่างเดียว [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | คืนค่าอ็อบเจกต์สไตล์ของรูปร่าง. อ่านอย่างเดียว [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | คืนค่าหรือกำหนดประเภท preset ของ geometry. หมายเหตุ: เมื่อค่าเปลี่ยนแปลง ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าเริ่มต้น. อ่านและเขียน [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | คืนค่าชุดของค่าการปรับรูปทรง. อ่านอย่างเดียว [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | อนุญาตให้รับอินเทอร์เฟซ IShape พื้นฐาน. อ่านอย่างเดียว [`IShape`](../ishape). |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | คืนอ็อบเจ็กต์สไตล์ของรูปทรง. อ่านอย่างเดียว [`IShapeStyle`](../ishapestyle). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | คืนหรือกำหนดประเภทพรีเซ็ทของเรขาคณิต. หมายเหตุ: เมื่อค่าเปลี่ยนแปลง ค่าการปรับทั้งหมดจะรีเซ็ตเป็นค่าดีฟอลต์. อ่าน/เขียน [`ShapeType`](../shapetype). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | สร้างและคืนค่าอาร์เรย์ขององค์ประกอบของรูปร่าง. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | คืนสำเนาของเส้นทางของรูปร่างเรขาคณิต. พิกัดอ้างอิงจากมุมซ้ายบนของรูปร่าง. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | อัปเดต geometry ของรูปร่างจากอ็อบเจกต์ [`IGeometryPath`](../igeometrypath). พิกัดต้องอ้างอิงจากมุมซ้ายบนของรูปร่าง. เปลี่ยนประเภทของรูปร่าง ([`ShapeType`](./shapetype)) เป็น Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | อัปเดต geometry ของรูปร่างจากอาร์เรย์ของ [`IGeometryPath`](../igeometrypath). พิกัดต้องอ้างอิงจากมุมซ้ายบนของรูปร่าง. เปลี่ยนประเภทของรูปร่าง ([`ShapeType`](./shapetype)) เป็น Custom. |
+| [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | สร้างและคืนค่าอาร์เรย์ขององค์ประกอบรูปทรง. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | คืนสำเนาของเส้นทางของรูปทรงเรขาคณิต. พิกัดอ้างอิงจากมุมซ้ายบนของรูปทรง. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | อัปเดตรูปทรงเรขาคณิตจากอ็อบเจ็กต์ [`IGeometryPath`](../igeometrypath). พิกัดต้องอ้างอิงจากมุมซ้ายบนของรูปทรง. เปลี่ยนประเภทของรูปทรง ([`ShapeType`](./shapetype)) เป็น Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | อัปเดตรูปทรงเรขาคณิตจากอาร์เรย์ของ [`IGeometryPath`](../igeometrypath). พิกัดต้องอ้างอิงจากมุมซ้ายบนของรูปทรง. เปลี่ยนประเภทของรูปทรง ([`ShapeType`](./shapetype)) เป็น Custom. |
 
 ### ดูเพิ่มเติม
 

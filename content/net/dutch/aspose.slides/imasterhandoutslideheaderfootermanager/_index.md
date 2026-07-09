@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een manager voor die het gedrag van de master-handout-slide-plaatsaanduidingen bevat, inclusief de header-plaatsaanduiding.
+description: Stelt manager voor die het gedrag van de master-handout-dia-plaatsaanduidingen bevat, inclusief koptekstplaatsaanduiding.
 type: docs
 weight: 6360
 url: /nl/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager interface
 
-Stelt een manager voor die het gedrag van de master-handout-slide-plaatsaanduidingen beheert, inclusief de header-plaatsaanduiding.
+Stelt manager voor die het gedrag van de master-handout-dia-plaatsaanduidingen bevat, inclusief koptekstplaatsaanduiding.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Geeft de interface IBaseHandoutNotesSlideHeaderFooterManag terug. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retourneert IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
 ### Zie ook
 

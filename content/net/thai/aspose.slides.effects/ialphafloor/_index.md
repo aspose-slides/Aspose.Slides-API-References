@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Alpha Floor. ค่า Alpha ความทึบที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งใส Alpha ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 type: docs
 weight: 3060
 url: /th/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Floor. ค่า Alpha (ความทึบ) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. พูดง่าย ๆ คือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+แสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งใส (Alpha) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. กล่าวคือ สิ่งใดที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject ฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation ฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | อนุญาตให้รับ interface IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | อนุญาตให้รับ interface IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

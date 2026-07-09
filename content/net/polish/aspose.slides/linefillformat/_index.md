@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje właściwości wypełniania linii.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje właściwości wypełnienia linii.
 type: docs
-weight: 7760
+weight: 7780
 url: /pl/aspose.slides/linefillformat/
 ---
 ## LineFillFormat klasa
 
-Reprezentuje właściwości wypełniania linii.
+Reprezentuje właściwości wypełnienia linii.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -21,8 +21,8 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Zwraca lub ustawia typ wypełnienia. Odczyt/zapis [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Zwraca format wypełnienia gradientowego. Tylko do odczytu [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Zwraca format wypełnienia wzorowego. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Określa, czy wypełnienie powinno być obracane razem z kształtem. Odczyt/zapis [`NullableBool`](../nullablebool). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Zwraca format wypełnienia wzorcowego. Tylko do odczytu [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Określa, czy wypełnienie powinno być obracane wraz z kształtem. Odczyt/zapis [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Zwraca kolor jednolitego wypełnienia. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 
 ## Metody

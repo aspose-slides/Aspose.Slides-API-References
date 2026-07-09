@@ -1,14 +1,14 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje možnosti exportu do HTML5.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Reprezentuje možnosti exportu do HTML5.
 type: docs
-weight: 3910
+weight: 3930
 url: /cs/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options rozhraní
 
-Představuje možnosti exportu do HTML5.
+Reprezentuje možnosti exportu do HTML5.
 
 ```csharp
 public interface IHtml5Options : ISaveOptions
@@ -18,13 +18,14 @@ public interface IHtml5Options : ISaveOptions
 
 | Název | Popis |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Vrací nebo nastavuje volbu animace tvarů. Čtení / zápis Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Vrací nebo nastavuje volbu animace přechodů. Čtení / zápis Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze ke čtení [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Získá nebo nastaví hodnotu určující, zda je text vykreslován bez použití ligatur. Když je nastaveno na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Vrací nebo nastavuje volbu vkládání obrázků. Čtení / zápis Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Určuje, kde by měly být uloženy externí zdroje. Čtení / zápis String. |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Získá nebo nastaví režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Vrací nebo nastavuje možnost animace tvarů. Čtení/zápis Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Vrací nebo nastavuje možnost animace přechodů. Čtení/zápis Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Vrací rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Získává nebo nastavuje hodnotu určující, zda je text vykreslován bez použití ligatur. Když je nastavena na `true`, ligatury budou ve výstupu zakázány. Ve výchozím nastavení je tato vlastnost nastavena na `false`. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Vrací nebo nastavuje možnost vkládání obrázků. Čtení/zápis Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Určuje, kde mají být uloženy externí zdroje. Čtení/zápis String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Reprezentuje úroveň komprese obrázků. Čtení/zápis [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Získává nebo nastavuje režim, ve kterém jsou snímky umístěny na stránce při exportu prezentace [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Příklady
 

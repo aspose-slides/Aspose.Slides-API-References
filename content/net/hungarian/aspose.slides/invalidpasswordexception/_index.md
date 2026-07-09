@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
-second_title: Aspose.Sildes .NET API referencia
-description: Kivétel, amely akkor dobódik, ha a prezentáció fájlformátuma nem támogatott.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Kivétel, amely akkor keletkezik, amikor a prezentáció fájlformátuma nem támogatott.
 type: docs
-weight: 7600
+weight: 7620
 url: /hu/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException osztály
 
-Exception, amely akkor dobódik, ha a prezentáció fájlformátuma nem támogatott.
+Kivétel, amely akkor keletkezik, amikor a prezentáció fájlformátuma nem támogatott.
 
 ```csharp
 public class InvalidPasswordException : Exception
@@ -19,7 +19,7 @@ public class InvalidPasswordException : Exception
 | Név | Leírás |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Alapértelmezett konstruktor. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi, hogy üzenetet adjunk hozzá ehhez a kivételhez. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez a kivételhez. |
 | [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még

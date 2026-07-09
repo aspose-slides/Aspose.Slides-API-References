@@ -1,6 +1,6 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: مرجع API لـ Aspose.Sildes لل.NET
+second_title: Aspose.Sildes لمرجع API .NET
 description: كائن غير قابل للتغيير يحتوي على خصائص تعبئة التدرج الفعّالة.
 type: docs
 weight: 6010
@@ -8,7 +8,7 @@ url: /ar/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData واجهة
 
-كائن غير قابل للتعديل يحتوي على خصائص تعبئة التدرج الفعّالة.
+كائن غير قابل للتغيير يحتوي على خصائص تعبئة التدرج الفعّالة.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -18,17 +18,17 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | يسمح بالحصول على واجهة IFillParamSource الأساسية. للقراءة فقط [`IFillParamSource`](../ifillparamsource). |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | يعيد نمط التدرج. للقراءة فقط [`GradientDirection`](../gradientdirection). |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | يعيد شكل التدرج. للقراءة فقط [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | يعيد مجموعة نقاط التدرج. للقراءة فقط [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | يعيد زاوية التدرج. للقراءة فقط Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | يحدد ما إذا كان التدرج مقياسًا. للقراءة فقط Boolean. |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | يعيد وضعية الانعكاس للتدرج. للقراءة فقط [`TileFlip`](../tileflip). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Allows to get base IFillParamSource interface. للقراءة فقط [`IFillParamSource`](../ifillparamsource). |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Returns the style of a gradient. للقراءة فقط [`GradientDirection`](../gradientdirection). |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Returns the shape of a gradient. للقراءة فقط [`GradientShape`](../gradientshape). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Returns the collection of gradient stops. للقراءة فقط [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Returns the angle of a gradient. للقراءة فقط Single. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determines whether a gradient is scaled. للقراءة فقط Boolean. |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Returns the flipping mode for a gradient. للقراءة فقط [`TileFlip`](../tileflip). |
 
 ### ملاحظات
 
-هذه الواجهة تُستخدم كجزء من [`IFillFormatEffectiveData`](../ifillformateffectivedata) و [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
+تُستخدم هذه الواجهة كجزء من [`IFillFormatEffectiveData`](../ifillformateffectivedata) و [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
 ### انظر أيضًا
 

@@ -1,14 +1,14 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार के किनारे धुंधले होते हैं जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक Soft Edge प्रभाव का प्रतिनिधित्व करता है। आकृति के किनारे धुंधले होते हैं जबकि भराव पर कोई असर नहीं पड़ता।
 type: docs
 weight: 3520
 url: /hi/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge इंटरफ़ेस
 
-एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार के किनारे धुंधले होते हैं, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+एक Soft Edge प्रभाव का प्रतिनिधित्व करता है। आकृति के किनारे धुंधले होते हैं, जबकि भराव पर कोई असर नहीं पड़ता।
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
@@ -18,11 +18,11 @@ public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImag
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | किनारों पर लागू करने के लिए धुंधलेपन की त्रिज्या निर्दिष्ट करता है। पढ़ने/लिखने योग्य Double। |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)। |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation)। |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | किनारों पर लागू करने के लिए ब्लर का त्रिज्या निर्दिष्ट करता है। पढ़ें/लिखें Double। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [ISoftEdgeEffectiveData](../isoftedgeeffectivedata)

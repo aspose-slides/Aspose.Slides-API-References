@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes cho Tham khảo API .NET
-description: Mô tả các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation, Slide hoặc TextFrame.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong một Presentation Slide hoặc TextFrame.
 type: docs
 weight: 7300
 url: /vi/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions giao diện
 
-Mô tả các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation, Slide hoặc TextFrame.
+Đại diện cho các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation, Slide hoặc TextFrame.
 
 ```csharp
 public interface ITextSearchOptions
@@ -19,7 +19,7 @@ public interface ITextSearchOptions
 | Tên | Mô tả |
 | --- | --- |
 | [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Đặt true để sử dụng tìm kiếm phân biệt chữ hoa chữ thường, false - ngược lại. Đọc/ghi Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Đặt `true` để bao gồm văn bản trong ghi chú slide khi thực hiện tìm kiếm, thay thế hoặc đánh dấu. Giá trị mặc định là `false`. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | Đặt `true` để bao gồm văn bản có trong ghi chú slide khi thực hiện các thao tác tìm kiếm văn bản, thay thế hoặc tô sáng. Giá trị mặc định là `false`. |
 | [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Đặt true để chỉ khớp toàn bộ từ, false - ngược lại. Đọc/ghi Boolean. |
 
 ### Xem Thêm

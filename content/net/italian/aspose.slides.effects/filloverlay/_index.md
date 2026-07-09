@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Fill Overlay. Un fill overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e mescolare i due riempimenti insieme.
+description: Rappresenta un effetto Fill Overlay. Un fill overlay può essere utilizzato per specificare un riempimento aggiuntivo per un oggetto e fondere i due riempimenti insieme.
 type: docs
-weight: 2960
+weight: 2980
 url: /it/aspose.slides.effects/filloverlay/
 ---
-## classe FillOverlay
+## FillOverlay classe
 
-Rappresenta un effetto Fill Overlay. Un Fill Overlay può essere usato per specificare un riempimento aggiuntivo per un oggetto e mescolare i due riempimenti insieme.
+Rappresenta un effetto Fill Overlay. Un fill overlay può essere utilizzato per specificare un riempimento aggiuntivo per un oggetto e fondere i due riempimenti insieme.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,17 +18,17 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lettura/scrittura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formato riempimento. Sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Lettura/Scrittura [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Formato di riempimento. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determina se il/la [`FillOverlay`](../filloverlay) specificato è uguale al/la corrente [`FillOverlay`](../filloverlay). |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determina se l'[`FillOverlay`](../filloverlay) specificato è uguale al [`FillOverlay`](../filloverlay) corrente. |
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Ottiene i dati dell'effetto Fill Overlay effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Funziona come funzione hash per un determinato tipo. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

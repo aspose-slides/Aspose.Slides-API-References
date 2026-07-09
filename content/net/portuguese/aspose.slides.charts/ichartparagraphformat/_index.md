@@ -1,12 +1,12 @@
 ---
 title: IChartParagraphFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Representa as propriedades de formatação de parágrafo de um gráfico.
 type: docs
-weight: 1880
+weight: 1900
 url: /pt/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interface
+## interface IChartParagraphFormat
 
 Representa as propriedades de formatação de parágrafo de um gráfico.
 
@@ -20,14 +20,14 @@ public interface IChartParagraphFormat
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Retorna ou define o alinhamento de texto em um parágrafo. Leitura/gravação [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Retorna ou define o tamanho de tabulação padrão. Leitura/gravação Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Determina se a quebra de linha leste-asiática é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Determina se a quebra de linha Leste-asiática é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 | [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Retorna ou define o alinhamento de fonte em um parágrafo. Leitura/gravação [`FontAlignment`](../../aspose.slides/fontalignment). |
 | [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Determina se a pontuação suspensa é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Retorna ou define o Recuo da Primeira Linha/Recuso Suspenso do parágrafo. O Recuso Suspenso pode ser definido com valores negativos. Leitura/gravação Single. |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Retorna ou define o recuo da primeira linha/rec uo pendente do parágrafo. O recuo pendente pode ser definido com valores negativos. Leitura/gravação Single. |
 | [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Determina se a quebra de linha latina é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 | [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Retorna ou define a margem esquerda em um parágrafo. Leitura/gravação Single. |
 | [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Retorna ou define a margem direita em um parágrafo. Leitura/gravação Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Determina se a escrita da Direita para Esquerda é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Determina se a escrita da direita para a esquerda é usada em um parágrafo. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 | [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Retorna ou define a quantidade de espaço após a última linha em um parágrafo. Leitura/gravação Single. |
 | [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Retorna ou define a quantidade de espaço antes da primeira linha em um parágrafo. Leitura/gravação Single. |
 | [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Retorna ou define a quantidade de espaço entre linhas base em um parágrafo. Leitura/gravação Single. |

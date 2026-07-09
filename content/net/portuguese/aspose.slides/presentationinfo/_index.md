@@ -1,9 +1,9 @@
 ---
 title: PresentationInfo
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Informações sobre o arquivo de apresentação
 type: docs
-weight: 9600
+weight: 9620
 url: /pt/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo classe
@@ -19,7 +19,7 @@ public sealed class PresentationInfo : IPresentationInfo
 | Nome | Descrição |
 | --- | --- |
 | [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Obtém True se a apresentação vinculada estiver criptografada, caso contrário False. Somente leitura Boolean. |
-| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por uma senha para abrir. |
+| [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida por senha para abrir. |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Obtém um valor que indica se a apresentação vinculada está protegida contra escrita. |
 | [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Obtém o formato da apresentação vinculada. Somente leitura [`LoadFormat`](../loadformat). |
 
@@ -34,7 +34,7 @@ public sealed class PresentationInfo : IPresentationInfo
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Grava a apresentação vinculada em um stream. |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Grava a apresentação vinculada em um arquivo. |
 
-### Veja também
+### Veja Também
 
 * interface [IPresentationInfo](../ipresentationinfo)
 * namespace [Aspose.Slides](../../aspose.slides)

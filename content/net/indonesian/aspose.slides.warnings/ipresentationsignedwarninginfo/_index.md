@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Peringatan ini menunjukkan bahwa presentasi yang sedang dibaca memiliki tanda tangan dan tanda tangan ini akan dihapus selama pemrosesan.
+second_title: Aspose.Sildes untuk .NET Referensi API
+description: Peringatan ini menunjukkan bahwa presentasi yang dibaca memiliki tanda tangan dan tanda tangan ini akan dihapus selama pemrosesan.
 type: docs
-weight: 11770
+weight: 11790
 url: /id/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
-## IPresentationSignedWarningInfo antarmuka
+## IPresentationSignedWarningInfo interface
 
-Peringatan ini menunjukkan bahwa presentasi yang sedang dibaca memiliki tanda tangan dan tanda tangan ini akan dihapus selama pemrosesan.
+Peringatan ini menunjukkan bahwa presentasi yang dibaca memiliki tanda tangan dan tanda tangan ini akan dihapus selama pemrosesan.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Mengembalikan antarmuka IWarningInfo. Hanya-baca [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Mengembalikan antarmuka IWarningInfo. Baca-saja [`IWarningInfo`](../iwarninginfo). |
 
 ### Lihat Juga
 

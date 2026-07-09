@@ -3,18 +3,18 @@ title: ColorEffect
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション ビヘイビアのカラー エフェクトを表します。
 type: docs
-weight: 210
+weight: 230
 url: /ja/aspose.slides.animation/coloreffect/
 ---
 ## ColorEffect クラス
 
-アニメーション ビヘイビアのカラー エフェクトを表します。
+アニメーション ビヘイビアのためのカラー エフェクトを表します。
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -24,15 +24,15 @@ public class ColorEffect : Behavior, IColorEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション ビヘイビアが蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション ビヘイビアが他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | カラー アニメーションの相対オフセット値を説明します。読み書き [`IColorOffset`](../icoloroffset)。 |
-| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | ビヘイビアのカラースペースを表します。読み書き [`ColorSpace`](../colorspace)。 |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | 色相をカラー ホイール上で循環させる方向を指定します。読み書き [`ColorDirection`](../colordirection)。 |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | この値はビヘイビアの開始色を指定するために使用されます。読み書き [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | アニメーション ビヘイビアが蓄積されるかどうかを表します。読み取り/書き込み [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | 現在のアニメーション ビヘイビアが他の実行中のアニメーションと結合されるかどうかを表します。読み取り/書き込み [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | カラー アニメーションの相対オフセット値を表します。読み取り/書き込み [`IColorOffset`](../icoloroffset)。 |
+| [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | ビヘイビアのカラースペースを表します。読み取り/書き込み [`ColorSpace`](../colorspace)。 |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | 色相を色相環上で循環させる方向を指定します。読み取り/書き込み [`ColorDirection`](../colordirection)。 |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | この値はビヘイビアの開始色を指定するために使用されます。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | ビヘイビアのプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト ビヘイビアのタイミング プロパティを表します。読み書き [`ITiming`](../itiming)。 |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | アニメーションの色変更における結果の色を説明します。読み書き [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | エフェクト ビヘイビアのタイミング プロパティを表します。読み取り/書き込み [`ITiming`](../itiming)。 |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | アニメーションのカラー変更の結果となる色を表します。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho chế độ được sử dụng trong quá trình trích xuất văn bản
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu thị chế độ được sử dụng trong quá trình trích xuất văn bản
 type: docs
 weight: 10940
 url: /vi/aspose.slides/textextractionarrangingmode/
 ---
-## Kiểu liệt kê TextExtractionArrangingMode
+## TextExtractionArrangingMode liệt kê
 
-Đại diện cho chế độ được sử dụng trong quá trình trích xuất văn bản
+Biểu thị chế độ được sử dụng trong quá trình trích xuất văn bản
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -19,7 +19,7 @@ public enum TextExtractionArrangingMode
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | Unarranged | `0` | Văn bản thô không quan tâm tới vị trí trên slide |
-| Arranged | `1` | Văn bản được đặt vị trí theo thứ tự giống như trên slide |
+| Arranged | `1` | Văn bản được sắp xếp theo cùng thứ tự như trên slide |
 
 ### Xem thêm
 

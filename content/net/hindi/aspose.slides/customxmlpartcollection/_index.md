@@ -1,6 +1,6 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: कस्टम XML भागों का संग्रह दर्शाता है।
 type: docs
 weight: 2750
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection क्लास
 
-कस्टम XML भागों का संग्रह दर्शाता है।
+Represents collection of custom xml parts.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -18,12 +18,12 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | संग्रह में कस्टम XML भागों की गिनती लौटाता है। केवल-पठन Int32। |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच समन्वयित है (थ्रेड-सुरक्षित)। केवल-पठन Boolean। |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व लौटाता है। |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | समन्वयन मूल लौटाता है। केवल-पठन Object। |
+| [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | संग्रह में कस्टम XML भागों की गिनती लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच समक्रमित (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व लौटाता है। |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | एक समक्रमण रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधियाँ
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
@@ -31,12 +31,12 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_1)(Stream) | नया कस्टम XML भाग जोड़ता है। |
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | नया कस्टम XML भाग जोड़ता है। |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | संग्रह से सभी आइटम हटाता है। |
-| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | एक एनीमरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
-| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | संग्रह से विशिष्ट वस्तु की पहली आवृत्ति हटाता है। |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | निर्दिष्ट अनुक्रमणिका पर कस्टम XML भाग हटाता है। |
+| [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | निर्दिष्ट सरणी में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | एक Enumerator लौटाता है जो संग्रह को आवर्तित करता है। |
+| [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | संग्रह से विशिष्ट वस्तु की पहली घटना हटाता है। |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | निर्दिष्ट सूचकांक पर कस्टम XML भाग हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

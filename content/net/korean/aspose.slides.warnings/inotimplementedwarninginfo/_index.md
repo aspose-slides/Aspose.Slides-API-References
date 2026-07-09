@@ -1,14 +1,14 @@
 ---
 title: INotImplementedWarningInfo
-second_title: Aspose.Sildes for .NET API 참조
-description: 알려진 구현되지 않은 기능에 대한 경고를 나타내며, 가까운 미래에 구현되지 않을 것입니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 가까운 시일 내에 구현되지 않을 것으로 알려진 구현되지 않은 기능에 대한 경고를 나타냅니다.
 type: docs
 weight: 11770
 url: /ko/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo 인터페이스
 
-알려진 구현되지 않은 기능에 대한 경고를 나타내며, 가까운 미래에 구현되지 않을 것입니다.
+알려진 구현되지 않은 기능에 대한 경고를 나타내며, 가까운 시일 내에 구현되지 않을 것입니다.
 
 ```csharp
 public interface INotImplementedWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo 인터페이스를 반환합니다. 읽기 전용 [`IWarningInfo`](../iwarninginfo). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IWarningInfo](../iwarninginfo)
 * 네임스페이스 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

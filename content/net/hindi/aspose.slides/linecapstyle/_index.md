@@ -1,12 +1,12 @@
 ---
 title: LineCapStyle
-second_title: Aspose.Sildes के लिए .NET API Reference
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: लाइन कैप शैली का प्रतिनिधित्व करता है।
 type: docs
 weight: 7760
 url: /hi/aspose.slides/linecapstyle/
 ---
-## LineCapStyle एन्यूमरेशन
+## LineCapStyle एनोमरेशन
 
 लाइन कैप शैली का प्रतिनिधित्व करता है।
 

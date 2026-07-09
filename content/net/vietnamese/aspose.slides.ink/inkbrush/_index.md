@@ -1,14 +1,14 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một đối tượng inkBrush.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một đối tượng inkBrush.
 type: docs
 weight: 7570
 url: /vi/aspose.slides.ink/inkbrush/
 ---
-## Lớp InkBrush
+## InkBrush lớp
 
-Biểu diễn một đối tượng inkBrush.
+Đại diện cho một đối tượng inkBrush.
 
 ```csharp
 public class InkBrush : IInkBrush
@@ -19,7 +19,7 @@ public class InkBrush : IInkBrush
 | Tên | Mô tả |
 | --- | --- |
 | [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Lấy hoặc đặt màu cọ cho một đường. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Lấy kiểu hiệu ứng mực (ví dụ: Galaxy, Gold, Silver) xác định phong cách hình ảnh của nét mực. Giá trị được phân tích từ thuộc tính brush "inkEffects". Nếu không có hiệu ứng được công nhận nào được chỉ định, NotDefined sẽ được trả về. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Lấy loại hiệu ứng mực (ví dụ: Galaxy, Gold, Silver) xác định kiểu dáng trực quan của nét mực. Giá trị được phân tích từ thuộc tính brush "inkEffects". Nếu không có hiệu ứng nào được công nhận, NotDefined được trả về. |
 | [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Lấy hoặc đặt kích thước cọ cho một đường tính bằng điểm. |
 
 ### Xem thêm

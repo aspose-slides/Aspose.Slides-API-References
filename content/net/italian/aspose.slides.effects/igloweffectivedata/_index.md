@@ -1,14 +1,14 @@
 ---
 title: IGlowEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Glow in cui un contorno sfocato di colore è aggiunto al di fuori dei bordi dell'oggetto.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Oggetto immutabile che rappresenta un effetto Glow, in cui un contorno sfocato di colore è aggiunto al di fuori dei bordi dell'oggetto.
 type: docs
-weight: 3310
+weight: 3330
 url: /it/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Glow, in cui un contorno sfocato di colore è aggiunto al di fuori dei bordi dell'oggetto.
+Oggetto immutabile che rappresenta un effetto Glow, nel quale un contorno sfocato di colore è aggiunto al di fuori dei bordi dell'oggetto.
 
 ```csharp
 public interface IGlowEffectiveData : IEffectEffectiveData
@@ -16,11 +16,11 @@ public interface IGlowEffectiveData : IEffectEffectiveData
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Permette di ottenere l'interfaccia di base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igloweffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Color](../../aspose.slides.effects/igloweffectivedata/color) { get; } | Color. Solo lettura Color. |
-| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Radius. Solo lettura Double. |
+| [Radius](../../aspose.slides.effects/igloweffectivedata/radius) { get; } | Raggio. Solo lettura Double. |
 
 ### Vedi anche
 

@@ -1,12 +1,12 @@
 ---
 title: TransitionSpeed
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API di .NET
 description: Rappresenta i tipi di velocità di transizione.
 type: docs
-weight: 10420
+weight: 10440
 url: /it/aspose.slides.slideshow/transitionspeed/
 ---
-## TransitionSpeed enumerazione
+## enumerazione TransitionSpeed
 
 Rappresenta i tipi di velocità di transizione.
 

@@ -1,12 +1,12 @@
 ---
 title: Duotone
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje efekt Duotone. Dla każdego piksela łączy Color1 i Color2 za pomocą liniowej interpolacji, aby określić nowy kolor tego piksela.
+second_title: Aspose.Sildes dla .NET – Odniesienie API
+description: Reprezentuje efekt Duotone. Dla każdego piksela łączy Color1 i Color2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
 type: docs
-weight: 2940
+weight: 2960
 url: /pl/aspose.slides.effects/duotone/
 ---
-## Duotone klasa
+## Klasa Duotone
 
 Reprezentuje efekt Duotone. Dla każdego piksela łączy Color1 i Color2 poprzez liniową interpolację, aby określić nowy kolor tego piksela.
 
@@ -16,7 +16,7 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Zwraca docelowy format koloru dla ciemnych pikseli. Tylko do odczytu [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -24,11 +24,11 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Określa, czy podany [`Duotone`](../duotone) jest równy bieżącemu [`Duotone`](../duotone). |
+| override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Określa, czy określony [`Duotone`](../duotone) jest równy bieżącemu [`Duotone`](../duotone). |
 | [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Pobiera efektywne dane efektu Duotone z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Służy jako funkcja skrótu dla konkretnego typu. |
 
 ### Zobacz także
 

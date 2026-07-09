@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Tint इफ़ेक्ट का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा द्वारा hue से रंग मानों को बढ़ाता/घटाता है।
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा से hue की ओर/से दूर प्रभाव रंग मानों को शिफ्ट करता है।
 type: docs
 weight: 3550
 url: /hi/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो Tint इफ़ेक्ट का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा द्वारा hue से रंग मानों को बढ़ाता/कम करता है।
+Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | इफ़ेक्ट की मात्रा लौटाता है। केवल-पढ़ने योग्य Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | hue लौटाता है। केवल-पढ़ने योग्य Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | इफ़ेक्ट मात्रा लौटाता है। केवल-पढ़ने योग्य Single। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | ह्यू लौटाता है। केवल-पढ़ने योग्य Single। |
 
 ### संबंधित देखें
 
-* 인터फ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
+* इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)
 

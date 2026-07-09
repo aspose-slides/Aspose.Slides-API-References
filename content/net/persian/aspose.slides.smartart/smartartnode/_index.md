@@ -1,12 +1,12 @@
 ---
 title: SmartArtNode
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: نمایانگر گره‌ای از یک شیء SmartArt
 type: docs
 weight: 10630
 url: /fa/aspose.slides.smartart/smartartnode/
 ---
-## کلاس SmartArtNode
+## SmartArtNode کلاس
 
 نمایانگر گره‌ای از یک شیء SmartArt
 
@@ -18,21 +18,21 @@ public sealed class SmartArtNode : ISmartArtNode
 
 | نام | توضیح |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | شی FillFormat را که شامل ویژگی‌های قالب‌بندی پر کردن برای نقطه‌چین گره است برمی‌گرداند. نکته: برای برخی انواع طرح‌بندی SmartArt که نقطه‌چین برای گره‌ها فراهم نمی‌کند، می‌تواند مقدار null برگرداند. فقط خواندنی [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | مجموعه‌ای از همه گره‌های فرزند گره جاری را برمی‌گرداند. فقط خواندنی [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/smartartnode/bulletfillformat) { get; } | شیء FillFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی پر کردن برای نقطه گلوله گره است. توجه: ممکن است برای برخی انواع طرح‌بندی SmartArt که گلوله برای گره‌ها ارائه نمی‌دهد، مقدار null برگرداند. فقط خواندنی [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/smartartnode/childnodes) { get; } | مجموعه‌ای از تمام گره‌های فرزند گره کنونی را برمی‌گرداند. فقط خواندنی [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/smartartnode/isassistant) { get; set; } | گره را به عنوان دستیار برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Boolean. |
-| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | اگر این گره در مدل داده یک گره مخفی باشد، مقدار true را برمی‌گرداند. فقط خواندنی Boolean. |
+| [IsHidden](../../aspose.slides.smartart/smartartnode/ishidden) { get; } | اگر این گره یک گره مخفی در مدل داده باشد، مقدار true را برمی‌گرداند. فقط خواندنی Boolean. |
 | [Level](../../aspose.slides.smartart/smartartnode/level) { get; } | سطح تو در توی گره را برمی‌گرداند. فقط خواندنی Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | نوع طرح‌بندی نمودار سازمانی مرتبط با گره جاری را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | موقعیت بر مبنای صفر گره در میان گره‌های هم‌سطح را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int32. |
-| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | مجموعه‌ای از همه اشکال مرتبط با گره را برمی‌گرداند. فقط خواندنی [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [OrganizationChartLayout](../../aspose.slides.smartart/smartartnode/organizationchartlayout) { get; set; } | نوع چیدمان نمودار سازمانی مرتبط با گره کنونی را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/smartartnode/position) { get; set; } | موقعیت صفر-پایه گره بین گره‌های خواهر-برادر را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Int32. |
+| [Shapes](../../aspose.slides.smartart/smartartnode/shapes) { get; } | مجموعه‌ای از تمام شکل‌های مرتبط با گره را برمی‌گرداند. فقط خواندنی [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/smartartnode/textframe) { get; } | قاب متن گره را برمی‌گرداند. فقط خواندنی [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | گره جاری را حذف می‌کند. |
+| [Remove](../../aspose.slides.smartart/smartartnode/remove)() | گره کنونی را حذف می‌کند. |
 
 ### موارد مرتبط
 

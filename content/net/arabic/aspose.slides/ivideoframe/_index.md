@@ -1,12 +1,12 @@
 ---
 title: IVideoFrame
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع Aspose.Sildes لـ .NET API
 description: يمثل مقطع فيديو على شريحة.
 type: docs
 weight: 7380
 url: /ar/aspose.slides/ivideoframe/
 ---
-## الواجهة IVideoFrame
+## IVideoFrame الواجهة
 
 يمثل مقطع فيديو على شريحة.
 
@@ -18,20 +18,20 @@ public interface IVideoFrame : IPictureFrame
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | يسمح بالحصول على الواجهة الأساسية IPictureFrame. للقراءة فقط [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | يحصل على مجموعة الترجمة المغلقة المرتبطة بإطار الصوت. هذه الخاصية للقراءة فقط وتُرجع [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات الترجمات. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | يعيد أو يضبط كائن الفيديو المضمن. قراءة/كتابة [`IVideo`](../ivideo). |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | يسمح بالحصول على واجهة IPictureFrame الأساسية. قراءة فقط [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | يحصل على مجموعة التسميات المغلقة المرتبطة بإطار الصوت. هذه الخاصية قراءة فقط وتعيد كائن [`ICaptionsCollection`](../icaptionscollection) يحتوي على جميع مسارات التسمية. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | يعيد أو يضبط كائن الفيديو المضمّن. قراءة/كتابة [`IVideo`](../ivideo). |
 | [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | يحدد ما إذا كان الفيديو يُعرض في وضع ملء الشاشة. قراءة/كتابة Boolean. |
 | [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | يحدد ما إذا كان VideoFrame مخفيًا. قراءة/كتابة Boolean. |
 | [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | يعيد أو يضبط اسم ملف الفيديو المرتبط بـ VideoFrame. قراءة/كتابة String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | يحدد ما إذا كان الفيديو يتم تشغيله بشكل متكرر. قراءة/كتابة Boolean. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | يحدد ما إذا كان الفيديو ملتفًا. قراءة/كتابة Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | يعيد أو يضبط وضع تشغيل الفيديو. قراءة/كتابة [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | يحدد ما إذا كان الفيديو يُعاد تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. قراءة/كتابة Boolean. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | تقليم النهاية [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | تقليم البداية [ms] |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | يحدد ما إذا كان الفيديو يُعيد تلقائيًا إلى البداية بمجرد انتهاء تشغيل الفيلم. قراءة/كتابة Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | قطع النهاية [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | قطع البداية [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | يعيد أو يضبط حجم الصوت. قراءة/كتابة [`AudioVolumeMode`](../audiovolumemode). |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * الواجهة [IPictureFrame](../ipictureframe)
 * النطاق [Aspose.Slides](../../aspose.slides)

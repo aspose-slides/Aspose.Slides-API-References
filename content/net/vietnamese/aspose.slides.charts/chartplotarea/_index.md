@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hình chữ nhật nơi biểu đồ sẽ được vẽ.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu thị hình chữ nhật nơi biểu đồ sẽ được vẽ.
 type: docs
 weight: 1420
 url: /vi/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea lớp
 
-Đại diện cho hình chữ nhật nơi biểu đồ sẽ được vẽ.
+Biểu diễn hình chữ nhật nơi biểu đồ nên được vẽ.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Xác định vị trí x thực tế (trái) của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trên bên trái của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Chỉ đọc Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Xác định chiều cao thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Xác định chiều rộng thực tế của phần tử biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Xác định vị trí x thực tế (bên trái) của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Xác định vị trí trên thực tế của phần tử biểu đồ so với góc trái trên của biểu đồ. Gọi phương thức IChart.ValidateChartLayout() trước để lấy giá trị thực tế. Đọc Single. |
 | [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Dưới. Chỉ đọc Single. |
 | [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Biểu đồ. Chỉ đọc [`IChart`](../ichart). |
 | [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Trả về định dạng của vùng vẽ. Chỉ đọc [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Trả về hoặc đặt chiều cao của hộp giới hạn vùng vẽ dưới dạng tỷ lệ phần trăm chiều cao của biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Xác định cách vị trí sẽ được tính toán: true – tính tự động; được xác định bởi các thuộc tính X, Y, Width, Height. Chỉ đọc Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Nếu bố trí vùng vẽ được định nghĩa thủ công, thuộc tính này xác định việc bố trí vùng vẽ theo bên trong (không bao gồm trục và nhãn trục) hay bên ngoài (bao gồm trục và nhãn trục). Đọc/ghi [`LayoutTargetType`](./layouttargettype). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Trả về hoặc đặt chiều cao của hộp giới hạn vùng vẽ dưới dạng tỷ lệ của chiều cao biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Xác định cách tính vị trí: true – tự động tính; được xác định bởi các thuộc tính X, Y, Width, Height. Chỉ đọc Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Nếu bố cục vùng vẽ được xác định thủ công, thuộc tính này chỉ định việc bố trí vùng vẽ theo bên trong (không bao gồm trục và nhãn trục) hoặc bên ngoài (bao gồm trục và nhãn trục). Đọc/ghi [`LayoutTargetType`](./layouttargettype). |
 | [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Phải. Chỉ đọc Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Trả về hoặc đặt chiều rộng của hộp giới hạn vùng vẽ dưới dạng tỷ lệ phần trăm chiều rộng của biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Trả về hoặc đặt tọa độ x của góc trên bên trái của hộp giới hạn vùng vẽ dưới dạng tỷ lệ phần trăm chiều rộng của biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Trả về hoặc đặt tọa độ y của góc trên bên trái của hộp giới hạn vùng vẽ dưới dạng tỷ lệ phần trăm chiều cao của biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Trả về hoặc đặt chiều rộng của hộp giới hạn vùng vẽ dưới dạng tỷ lệ của chiều rộng biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Trả về hoặc đặt tọa độ x của góc trên bên trái hộp giới hạn vùng vẽ dưới dạng tỷ lệ của chiều rộng biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Trả về hoặc đặt tọa độ y của góc trên bên trái hộp giới hạn vùng vẽ dưới dạng tỷ lệ của chiều cao biểu đồ (từ 0 đến 1). Đọc/ghi Single. |
 
 ### Xem thêm
 
@@ -39,6 +39,6 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 * lớp [Chart](../chart)
 * giao diện [IChartPlotArea](../ichartplotarea)
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

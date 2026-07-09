@@ -1,13 +1,12 @@
 ---
 title: DigitalSignature
-second_title: Referencia de API de Aspose.Slides para .NET
+second_title: Referencia de API de Aspose.Sildes para .NET
 description: Firma digital en archivo firmado.
 type: docs
-weight: 2680
+weight: 2770
 url: /es/aspose.slides/digitalsignature/
 ---
-
-## DigitalSignature class
+## Clase DigitalSignature
 
 Firma digital en archivo firmado.
 
@@ -20,20 +19,20 @@ public class DigitalSignature : IDigitalSignature
 | Nombre | Descripción |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Crea un nuevo objeto DigitalSignature con el certificado especificado. |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crea un nuevo objeto DigitalSignature con la ruta del archivo de certificado especificado y la contraseña. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crea un nuevo objeto DigitalSignature con la ruta de archivo del certificado y la contraseña especificados. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objeto de certificado que se utilizó para firmar el documento. Solo lectura X509Certificate2. |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | El propósito de la firma. Lectura/escritura String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si esta firma digital es válida y el documento no ha sido manipulado, este valor será verdadero. Solo lectura Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | El momento en que se firmó el documento. Solo lectura DateTime. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Objeto de certificado que se utilizó para firmar el documento. Solo lectura X509Certificate2. |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | El propósito de la firma. Lectura/escritura String. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Si esta firma digital es válida y el documento no ha sido alterado, este valor será verdadero. Solo lectura Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | La hora en que se firmó el documento. Solo lectura DateTime. |
 
 ### Ejemplos
 
-El siguiente ejemplo demuestra cómo agregar una firma digital desde un certificado PFX en una presentación de PowerPoint.
+El siguiente ejemplo muestra cómo agregar una firma digital a partir de un certificado PFX en una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -42,16 +41,16 @@ using (Presentation pres = new Presentation())
 {
     // Crear objeto DigitalSignature con archivo PFX y contraseña PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // Comentar nueva firma digital
-    signature.Comments = "Prueba de firma digital de Aspose.Slides.";
-    // Agregar firma digital a la presentación
+    // Comentario de la nueva firma digital
+    signature.Comments = "Aspose.Slides digital signing test.";
+    // Añadir firma digital a la presentación
     pres.DigitalSignatures.Add(signature);
     // Guardar presentación
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-El siguiente código de muestra demuestra cómo validar la firma digital de una presentación de PowerPoint.
+El siguiente código de ejemplo muestra cómo validar la firma digital de una presentación de PowerPoint.
 
 ```csharp
 [C#]
@@ -61,26 +60,26 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
     if (pres.DigitalSignatures.Count < 0)
     {
         bool allSignaturesAreValid = true;
-        Console.WriteLine("Firmas utilizadas para firmar la presentación: ");
+        Console.WriteLine("Signatures used to sign the presentation: ");
         // Verificar si todas las firmas digitales son válidas
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "
-                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VÁLIDO" : "INVÁLIDO"));
+                    + signature.SignTime.ToString("yyyy-MM-dd HH:mm") + " -- " + (signature.IsValid ? "VALID" : "INVALID"));
             allSignaturesAreValid &= signature.IsValid;
         }
         if (allSignaturesAreValid)
-            Console.WriteLine("La presentación es genuina, todas las firmas son válidas.");
+            Console.WriteLine("Presentation is genuine, all signatures are valid.");
         else
-            Console.WriteLine("La presentación ha sido modificada desde la firma.");
+            Console.WriteLine("Presentation has been modified since signing.");
     }
 }
 ```
 
-### Ver también
+### Véase también
 
-* interfaz [IDigitalSignature](../idigitalsignature)
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblaje [Aspose.Slides](../../)
+* interfaz [IDigitalSignature](../idigitalsignature)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

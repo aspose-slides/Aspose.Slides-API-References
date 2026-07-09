@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 그라디언트 스톱 컬렉션을 나타냅니다.
+description: 그라디언트 스톱의 컬렉션을 나타냅니다.
 type: docs
 weight: 6030
 url: /ko/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection 인터페이스
 
-그라디언트 스톱 컬렉션을 나타냅니다.
+그라디언트 스톱의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>

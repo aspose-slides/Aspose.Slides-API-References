@@ -1,14 +1,14 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje regulowaną linię pomocniczą.
+second_title: Aspose.Sildes dla .NET Dokumentacja API
+description: Reprezentuje regulowaną prowadnicę rysowania.
 type: docs
-weight: 2790
+weight: 2810
 url: /pl/aspose.slides/drawingguide/
 ---
-## Klasa DrawingGuide
+## DrawingGuide klasa
 
-Reprezentuje regulowaną linię pomocniczą.
+Reprezentuje regulowaną prowadnicę rysowania.
 
 ```csharp
 public sealed class DrawingGuide : IDrawingGuide
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | Nazwa | Opis |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Zwraca lub ustawia kolor linii pomocniczej. Odczyt/zapis Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Zwraca lub ustawia orientację linii pomocniczej. Odczyt/zapis [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Zwraca lub ustawia pozycję linii pomocniczej w punktach od górnego, lewego rogu slajdu. Odczyt/zapis Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | Zwraca lub ustawia kolor prowadnicy rysowania. Odczyt/zapis Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | Zwraca lub ustawia orientację prowadnicy rysowania. Odczyt/zapis [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | Zwraca lub ustawia pozycję prowadnicy rysowania w punktach od górnego, lewego rogu slajdu. Odczyt/zapis Single. |
 
 ### Zobacz także
 

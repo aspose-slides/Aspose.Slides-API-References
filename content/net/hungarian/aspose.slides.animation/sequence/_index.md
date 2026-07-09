@@ -1,43 +1,43 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes .NET-hez API Referencia
-description: A sorozat a hatások gyűjteményét képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: A szekvencia effektusok gyűjteményét képviseli.
 type: docs
-weight: 770
+weight: 790
 url: /hu/aspose.slides.animation/sequence/
 ---
 ## Sequence osztály
 
-Represents sequence (collection of effects).
+Képviseli a szekvenciát (az effektusok gyűjteménye).
 
 ```csharp
 public sealed class Sequence : ISequence
 ```
 
-## Tulajdonságok
+## Properties
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequence/count) { get; } | Returns the number of effects in a sequense. Read-only Int32. |
-| [Item](../../aspose.slides.animation/sequence/item) { get; } | Returns an effect at the specified index. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/sequence/count) { get; } | Visszaadja az effektusok számát egy szekvenciában. Csak olvasható Int32. |
+| [Item](../../aspose.slides.animation/sequence/item) { get; } | Visszaad egy effektust a megadott indexen. |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Visszaadja vagy beállítja a shape célt az INTERACTIVE szekvenciához. Ha a szekvencia nem interaktív, akkor null értéket ad vissza. Olvasás/írás [`IShape`](../../aspose.slides/ishape). |
 
-## Metódusok
+## Methods
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Add new animation effect for paragraph to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Add new effect to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for category or series to the end of sequence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
-| [Clear](../../aspose.slides.animation/sequence/clear)() | Removes all effects from a collection. |
-| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Returns count of effects for the specified shape. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Returns array of effects for the specified paragraph. |
-| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Returns array of effects for the specified shape. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Returns an enumerator that iterates through the collection. |
-| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Removes specified effect from a collection. |
-| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Removes an effect from a collection. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Remove effect for the specified shape. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Új animációs effektust ad a bekezdéshez a szekvencia végéhez. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Új effektust ad a szekvencia végéhez. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Új diagram animációs effektust ad egy kategóriához vagy sorozathoz a szekvencia végéhez. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Új diagram animációs effektust ad a kategória vagy sorozat elemeihez a szekvencia végéhez. |
+| [Clear](../../aspose.slides.animation/sequence/clear)() | Eltávolítja az összes effektust egy gyűjteményből. |
+| [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Visszaadja a megadott shape effektusainak számát. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Visszaadja a megadott bekezdés effektusainak tömbjét. |
+| [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Visszaadja a megadott shape effektusainak tömbjét. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Eltávolítja a megadott effektust egy gyűjteményből. |
+| [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Eltávolít egy effektust egy gyűjteményből. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Eltávolítja a megadott shape effektusát. |
 
 ### Lásd még
 

@@ -14,27 +14,27 @@ url: /hi/aspose.slides.charts/ichartdatacell/
 public interface IChartDataCell
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | वर्कशीट प्राप्त करता है। केवल-पढ़ने योग्य [`IChartDataWorksheet`](../ichartdataworksheet)। |
-| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | वर्कशीट में वह कॉलम इंडेक्स लौटाता है जिसमें सेल स्थित है। केवल-पढ़ने योग्य Int32। |
-| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | संख्याओं और तिथियों के कस्टम डिस्प्ले फ़ॉर्मैट को प्राप्त करता है या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग किया जाएगा। पढ़ने/लिखने योग्य String। |
-| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | A1-शैली में सूत्र को प्राप्त करता है या सेट करता है। |
-| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | निर्धारित करता है कि सेल छिपा है या नहीं। केवल-पढ़ने योग्य Boolean। |
-| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | संख्याओं और तिथियों के बिल्ट-इन डिस्प्ले फ़ॉर्मैट को प्राप्त करता है या सेट करता है। Preset number को [0..22] या [37..49] में होना चाहिए। पढ़ने/लिखने योग्य Byte। |
-| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | R1C1-शैली में सूत्र को प्राप्त करता है या सेट करता है। |
-| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | वर्कशीट में वह पंक्ति इंडेक्स लौटाता है जिसमें सेल स्थित है। केवल-पढ़ने योग्य Int32। |
-| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | सेल का मान प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Object। |
+| [ChartDataWorksheet](../../aspose.slides.charts/ichartdatacell/chartdataworksheet) { get; } | वर्कशीट को प्राप्त करता है। केवल पढ़ने योग्य [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/ichartdatacell/column) { get; } | वह कॉलम इंडेक्स लौटाता है जिसमें सेल स्थित है। केवल पढ़ने योग्य Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/ichartdatacell/customnumberformat) { get; set; } | संख्याओं और तिथि के लिये कस्टम डिस्प्ले फॉर्मेट प्राप्त या सेट करता है। यदि मान खाली है तो PresetNumberFormat मान उपयोग होगा। पढ़ने/लिखने योग्य String. |
+| [Formula](../../aspose.slides.charts/ichartdatacell/formula) { get; set; } | A1-शैली में सूत्र प्राप्त या सेट करता है। |
+| [IsHidden](../../aspose.slides.charts/ichartdatacell/ishidden) { get; } | निर्धारित करता है कि सेल छिपा हुआ है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [PresetNumberFormat](../../aspose.slides.charts/ichartdatacell/presetnumberformat) { get; set; } | संख्याओं और तिथि के निर्मित डिस्प्ले फॉर्मेट को प्राप्त या सेट करता है। Preset number को [0..22] या [37..49] में होना चाहिए। पढ़ने/लिखने योग्य Byte. |
+| [R1C1Formula](../../aspose.slides.charts/ichartdatacell/r1c1formula) { get; set; } | R1C1-शैली में सूत्र प्राप्त या सेट करता है। |
+| [Row](../../aspose.slides.charts/ichartdatacell/row) { get; } | वह रो इंडेक्स लौटाता है जिसमें सेल स्थित है। केवल पढ़ने योग्य Int32. |
+| [Value](../../aspose.slides.charts/ichartdatacell/value) { get; set; } | सेल का मान प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Object. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | यदि सेल में कोई सूत्र है, तो मान उस सूत्र के आधार पर अद्यतन किया जाएगा। |
+| [Calculate](../../aspose.slides.charts/ichartdatacell/calculate)(bool) | यदि सेल में सूत्र है, तो मान उस सूत्र के आधार पर अपडेट किया जाएगा। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

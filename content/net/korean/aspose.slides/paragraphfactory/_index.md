@@ -1,14 +1,14 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: 단락을 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 단락을 만들 수 있습니다
 type: docs
 weight: 9300
 url: /ko/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory 클래스
 
-단락을 생성할 수 있습니다
+Allows to create paragraphs
 
 ```csharp
 public class ParagraphFactory : IParagraphFactory
@@ -16,22 +16,22 @@ public class ParagraphFactory : IParagraphFactory
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [ParagraphFactory](paragraphfactory)() | 기본 생성자. |
+| [ParagraphFactory](paragraphfactory)() | 기본 생성자입니다. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | 새 빈 단락을 생성합니다. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | 새로운 빈 단락을 생성합니다. |
 | [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | 지정된 단락 데이터를 사용하여 새 단락을 생성합니다. |
 
 ### 비고
 
 COM 호환성을 위해.
 
-### 참조
+### 참고
 
 * 인터페이스 [IParagraphFactory](../iparagraphfactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

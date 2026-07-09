@@ -1,14 +1,14 @@
 ---
 title: FontCollectionIndex
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de index van lettertypen voor in een collectie.
+description: Geeft de index van lettertypen in een collectie weer.
 type: docs
 weight: 4810
 url: /nl/aspose.slides/fontcollectionindex/
 ---
 ## FontCollectionIndex enumeratie
 
-Stelt de index van een lettertype voor in een collectie.
+Geeft de index van een lettertype in een collectie weer.
 
 ```csharp
 public enum FontCollectionIndex : byte

@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili ışık düzeni özelliklerini içeren değişmez nesne.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Etkili ışık donanımı özelliklerini içeren değiştirilemez nesne.
 type: docs
-weight: 6260
+weight: 6280
 url: /tr/aspose.slides/ilightrigeffectivedata/
 ---
 ## ILightRigEffectiveData arayüz
 
-Etkili ışık düzeni özelliklerini içeren değişmez nesne.
+Etkili ışık donanımı özelliklerini içeren değiştirilemez nesne.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -16,22 +16,22 @@ public interface ILightRigEffectiveData
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | Işık yönü. Yalnızca okuma [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık yönünü temsil eder. Light rig, 3B sahneye göre belirli bir şekilde konumlandırılmış ışık grubunu temsil eder. Yalnızca okuma [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | Bir şekle uygulanabilen önceden ayarlanmış bir ışık hakkını temsil eder. Işık donanımı, 3D sahneye göre belirli bir şekilde konumlandırılmış ışık grubunu temsil eder. Yalnızca okuma [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Bir döndürme, enlem koordinatı, boylam koordinatı ve eksen etrafında dönüş ile tanımlanır. Dönüş değer dizisindeki ilk eleman - enlem, ikincisi - boylam, üçüncüsü - dönüş. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | Bir dönüş, enlem koordinatı, boylam koordinatı ve enlem ile boylam koordinatları olarak eksen etrafında bir devir kullanılarak tanımlanır. Dönüş dizisinin ilk öğesi - enlem, ikinci - boylam, üçüncü - devir. |
 
 ### Açıklamalar
 
-Bu arayüz, [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) parçası olarak kullanılır.
+Bu arayüz [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) parçası olarak kullanılır.
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta una diapositiva di note in una presentazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una diapositiva delle note in una presentazione.
 type: docs
-weight: 9120
+weight: 9140
 url: /it/aspose.slides/notesslide/
 ---
-## classe NotesSlide
+## NotesSlide classe
 
-Rappresenta una diapositiva di note in una presentazione.
+Rappresenta una diapositiva delle note in una presentazione.
 
 ```csharp
 public class NotesSlide : BaseSlide, INotesSlide
@@ -16,19 +16,19 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Restituisce lo sfondo della diapositiva. Sola lettura [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Restituisce la collezione di controlli ActiveX su una diapositiva. Sola lettura [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Restituisce la raccolta di controlli ActiveX su una diapositiva. Sola lettura [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Restituisce i dati personalizzati della diapositiva. Sola lettura [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva di note. Sola lettura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornisce un accesso semplice ai collegamenti ipertestuali contenuti. Sola lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Restituisce o imposta il nome di una diapositiva. Lettura/scrittura String. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Restituisce un TextFrame con il testo delle note, se presente. Sola lettura [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Restituisce la diapositiva genitore. Sola lettura [`ISlide`](../islide). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Restituisce il gestore HeaderFooter della diapositiva delle note. Sola lettura [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornisce un accesso facile ai collegamenti ipertestuali contenuti. Sola lettura [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Restituisce o imposta il nome di una diapositiva. Lettura/Scrittura String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Restituisce un TextFrame con il testo delle note se presente. Sola lettura [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Restituisce la diapositiva padre. Sola lettura [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Restituisce l'interfaccia IPresentation. Sola lettura [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Restituisce le forme di una diapositiva. Sola lettura [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Specifica se le forme sullo slide master devono essere mostrate sulle diapositive o no. Lettura/scrittura Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Specifica se le forme sulla diapositiva master devono essere visualizzate nelle diapositive o no. Lettura/Scrittura Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Restituisce l'ID di una diapositiva. Sola lettura UInt32. |
 | virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Restituisce l'oggetto Transition che contiene informazioni su come la diapositiva specificata avanza durante una presentazione. Sola lettura [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Restituisce il gestore del tema sovrascrivente. Sola lettura [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
@@ -36,19 +36,19 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Restituisce un tema efficace per questa diapositiva. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se le due istanze di IBaseSlide sono uguali. Il valore restituito è calcolato in base alla struttura della diapositiva e al contenuto statico. Due diapositive sono uguali se tutte le forme, gli stili, i testi, le animazioni e le altre impostazioni, ecc., sono uguali. Il confronto non tiene conto dei valori degli identificatori univoci, ad esempio SlideId, né del contenuto dinamico, ad esempio il valore della data corrente nel segnaposto Data. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Restituisce un tema effettivo per questa diapositiva. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se le due istanze di IBaseSlide sono uguali. Il valore restituito è calcolato in base alla struttura della diapositiva e al contenuto statico. Due diapositive sono uguali se tutte le forme, gli stili, i testi, le animazioni e altre impostazioni, ecc., sono uguali. Il confronto non tiene conto dei valori degli identificatori unici, ad esempio SlideId, né del contenuto dinamico, ad esempio il valore della data corrente nel Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Trova la prima occorrenza di una forma con il testo alternativo specificato. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Unisce le run con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Unisce le run con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Unisce i run con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Unisce i run con la stessa formattazione in tutti i paragrafi di tutte le forme accettabili. |
 
 ### Vedi anche
 
 * classe [BaseSlide](../baseslide)
 * interfaccia [INotesSlide](../inotesslide)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* spazio dei nomi [Aspose.Slides](../../aspose.slides)
+* assemblaggio [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

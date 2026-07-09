@@ -1,14 +1,14 @@
 ---
 title: ThreeDFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính 3-D.
+description: Đại diện các thuộc tính 3-D.
 type: docs
 weight: 11490
 url: /vi/aspose.slides/threedformat/
 ---
 ## ThreeDFormat lớp
 
-Represents 3-D properties.
+Biểu thị các thuộc tính 3-D.
 
 ```csharp
 public sealed class ThreeDFormat : PVIObject, IThreeDFormat
@@ -19,14 +19,14 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Tên | Mô tả |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../ipresentationcomponent). |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Trả về hoặc đặt kiểu của một góc 3D dưới. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Trả về hoặc đặt kiểu của một góc 3D trên. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/threedformat/camera) { get; } | Trả về hoặc đặt cài đặt của một camera. Chỉ đọc [`ICamera`](../icamera). |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Trả về hoặc đặt kiểu của một góc nghiêng 3D phía dưới. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Trả về hoặc đặt kiểu của một góc nghiêng 3D phía trên. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/threedformat/camera) { get; } | Trả về hoặc đặt cài đặt của một máy ảnh. Chỉ đọc [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | Trả về hoặc đặt màu của một đường viền. Chỉ đọc [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | Trả về hoặc đặt độ rộng của một đường viền 3D. Đọc/ghi Double. |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Trả về hoặc đặt độ sâu của một hình 3D. Đọc/ghi Double. |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | Trả về hoặc đặt độ sâu của một hình dạng 3D. Đọc/ghi Double. |
 | [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | Trả về hoặc đặt màu của một extrusion. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Trả về hoặc đặt chiều cao của một hiệu ứng extrusion. Đọc/ghi Double. |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | Trả về hoặc đặt chiều cao của hiệu ứng extrusion. Đọc/ghi Double. |
 | [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | Trả về hoặc đặt kiểu của một nguồn sáng. Chỉ đọc [`ILightRig`](../ilightrig). |
 | [Material](../../aspose.slides/threedformat/material) { get; set; } | Trả về hoặc đặt kiểu của một vật liệu. Đọc/ghi [`MaterialPresetType`](../materialpresettype). |
 
@@ -40,7 +40,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ### Ví dụ
 
-Ví dụ sau đây cho thấy cách thêm hình 3D vào PowerPoint Presentation.
+Ví dụ dưới đây cho thấy cách thêm hình dạng 3D trong PowerPoint Presentation.
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Ví dụ sau đây cho thấy cách áp dụng hiệu ứng Gradient lên hình 3D trong PowerPoint Presentation.
+Ví dụ dưới đây cho thấy cách áp dụng hiệu ứng Gradient cho hình dạng 3D trong PowerPoint Presentation.
 
 ```csharp
 [C#]
@@ -78,7 +78,7 @@ using (Presentation pres = new Presentation())
 	// Xác định TextFrame và các thuộc tính của nó
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Thiết lập FillFormat.FillType thành FillType.Gradient và xác định các thuộc tính gradient
+	// Cấu hình FillFormat.FillType là FillType.Gradient và xác định các thuộc tính gradient
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-Ví dụ sau đây cho thấy cách áp dụng hiệu ứng 3D lên văn bản. Để tạo văn bản 3D, có thể sử dụng hiệu ứng biến đổi WordArt.
+Ví dụ dưới đây cho thấy cách áp dụng hiệu ứng 3D lên văn bản. Để tạo văn bản 3D, có thể sử dụng hiệu ứng biến đổi WordArt.
 
 ```csharp
 [C#]
@@ -107,10 +107,10 @@ using (Presentation pres = new Presentation())
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
 	// Xác định TextFrame và các thuộc tính của nó
     shape.TextFrame.Text = "3D Text";
-	// Cấu hình FillFormat.FillType thành FillType.NoFill
+	// Cấu hình FillFormat.FillType là FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Cấu hình Portion của TextFrame và thiết lập các thuộc tính của PortionFormat
+	// Cấu hình Portion của TextFrame và cấu hình các thuộc tính của PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,7 +118,7 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // thiết lập hiệu ứng biến đổi WordArt "Arch Up"
+    // Thiết lập hiệu ứng biến đổi WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
 	// Xác định các thuộc tính ThreeDFormat của ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
@@ -134,7 +134,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [PVIObject](../pviobject)
 * giao diện [IThreeDFormat](../ithreedformat)

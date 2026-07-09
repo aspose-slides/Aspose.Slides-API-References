@@ -1,14 +1,14 @@
 ---
 title: ChartPlotArea
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر مستطیلی که نمودار باید در آن رسم شود.
+description: مستطیلی را نشان می‌دهد که نمودار باید در آن ترسیم شود.
 type: docs
 weight: 1420
 url: /fa/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea کلاس
 
-نمایشگر مستطیلی که نمودار در آن رسم می‌شود.
+مستطیلی را که نمودار باید در آن ترسیم شود، نشان می‌دهد.
 
 ```csharp
 public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
@@ -18,20 +18,20 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | نام | توضیح |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی دریافت شوند. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی دریافت شوند. Read Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | موقعیت x واقعی (چپ) عنصر نمودار نسبت به گوشهٔ بالا-چپ نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی دریافت شوند. Read Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | بالای واقعی عنصر نمودار نسبت به گوشهٔ بالا-چپ نمودار را مشخص می‌کند. قبل از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی دریافت شوند. Read Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | پایین. فقط خواندنی Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | نمودار. فقط خواندنی [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | قالب ناحیهٔ رسم را برمی‌گرداند. فقط خواندنی [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | ارتفاع جعبهٔ محدودکنندهٔ ناحیهٔ رسم را به عنوان کسری از ارتفاع نمودار (از 0 تا 1) برمی‌گرداند یا تعیین می‌کند. قابل خواندن/نوشتن Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | نحوهٔ محاسبه موقعیت را تعریف می‌کند: true – به‌صورت خودکار محاسبه می‌شود؛ توسط ویژگی‌های X، Y، Width، Height تعریف می‌شود. فقط خواندنی Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | اگر چیدمان ناحیهٔ رسم به‌صورت دستی تعریف شده باشد، این ویژگی مشخص می‌کند که ناحیهٔ رسم بر اساس داخل (بدون شامل محور و برچسب‌های محور) یا خارج (شامل محور و برچسب‌های محور) چیدمان شود. قابل خواندن/نوشتن [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | راست. فقط خواندنی Single. |
-| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | عرض جعبهٔ محدودکنندهٔ ناحیهٔ رسم را به عنوان کسری از عرض نمودار (از 0 تا 1) برمی‌گرداند یا تعیین می‌کند. قابل خواندن/نوشتن Single. |
-| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | مختصات x گوشهٔ بالای چپ جعبهٔ محدودکنندهٔ ناحیهٔ رسم را به عنوان کسری از عرض نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
-| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | مختصات y گوشهٔ بالای چپ جعبهٔ محدودکنندهٔ ناحیهٔ رسم را به عنوان کسری از ارتفاع نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن Single. |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | ارتفاع واقعی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | عرض واقعی عنصر نمودار را مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | موقعیت واقعی x (چپ) عنصر نمودار را نسبت به گوشهٔ بالایی چپ نمودار مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | بالای واقعی عنصر نمودار را نسبت به گوشهٔ بالایی چپ نمودار مشخص می‌کند. پیش از آن متد IChart.ValidateChartLayout() را فراخوانی کنید تا مقادیر واقعی به دست آید. فقط-خواندنی Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | پایین. فقط-خواندنی Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. فقط-خواندنی [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | قالب ناحیهٔ ترسیم را برمی‌گرداند. فقط-خواندنی [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | ارتفاع جعبهٔ محدودهٔ ناحیهٔ ترسیم را به‌عنوان یک کسر از ارتفاع نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. خواندنی/قابل-نوشتن Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | نحوه محاسبه موقعیت را تعریف می‌کند: true – به‌صورت خودکار محاسبه می‌شود؛ توسط ویژگی‌های X، Y، Width، Height تعیین می‌شود. فقط-خواندنی Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | اگر چینش ناحیهٔ ترسیم به‌صورت دستی تعریف شده باشد، این ویژگی مشخص می‌کند که ناحیهٔ ترسیم بر اساس داخل (بدون محور و برچسب‌های محور) یا خارج (شامل محور و برچسب‌های محور) چینش یابد. خواندنی/قابل-نوشتن [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | راست. فقط-خواندنی Single. |
+| [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | عرض جعبهٔ محدودهٔ ناحیهٔ ترسیم را به‌عنوان یک کسر از عرض نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. خواندنی/قابل-نوشتن Single. |
+| [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | مختصات x گوشهٔ بالایی چپ جعبهٔ محدودهٔ ناحیهٔ ترسیم را به‌عنوان یک کسر از عرض نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. خواندنی/قابل-نوشتن Single. |
+| [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | مختصات y گوشهٔ بالایی چپ جعبهٔ محدودهٔ ناحیهٔ ترسیم را به‌عنوان یک کسر از ارتفاع نمودار (از 0 تا 1) برمی‌گرداند یا تنظیم می‌کند. خواندنی/قابل-نوشتن Single. |
 
 ### موارد مرتبط
 
@@ -39,6 +39,6 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 * کلاس [Chart](../chart)
 * رابط [IChartPlotArea](../ichartplotarea)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* مجمع [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

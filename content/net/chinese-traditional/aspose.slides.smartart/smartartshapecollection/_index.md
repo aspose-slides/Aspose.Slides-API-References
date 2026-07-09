@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表 SmartArt 形狀的集合
+description: 表示一組 SmartArt 圖形的集合
 type: docs
 weight: 10670
 url: /zh-hant/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection 類別
 
-代表 SmartArt 形狀的集合
+表示一組 SmartArt 圖形的集合
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -16,16 +16,16 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | 傳回指示集合的存取是否已同步（執行緒安全）的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | 取得指定索引處的元素。唯讀 [`SmartArtShape`](../smartartshape).&gt;. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | 傳回一個指示是否對集合的存取已同步（執行緒安全）的值。唯讀 Boolean。 |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | 取得指定索引處的元素。唯讀 [`SmartArtShape`](../smartartshape).&gt;。 |
 | [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 | [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |

@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes for .NET API 참조
-description: Fill Overlay 효과를 나타냅니다. Fill Overlay는 개체에 추가 채우기를 지정하고 두 채우기를 함께 혼합하는 데 사용할 수 있습니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: Fill Overlay 효과를 나타냅니다. Fill overlay는 객체에 추가적인 채우기를 지정하고 두 채우기를 혼합하는 데 사용할 수 있습니다.
 type: docs
 weight: 3300
 url: /ko/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay 인터페이스
 
-Fill Overlay 효과를 나타냅니다. Fill Overlay는 개체에 추가 채우기를 지정하고 두 채우기를 함께 블렌드하는 데 사용할 수 있습니다.
+Fill Overlay 효과를 나타냅니다. Fill Overlay는 객체에 추가적인 채우기를 지정하고 두 채우기를 혼합하는 데 사용할 수 있습니다.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -22,9 +22,9 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. 읽기/쓰기 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 채우기 형식. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Fill 형식. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### 참조
+### 추가 정보
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

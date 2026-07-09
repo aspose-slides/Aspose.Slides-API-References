@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 알파 교체 효과를 나타냅니다. 효과 알파 불투명도 값이 고정 알파로 교체됩니다.
+description: Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 알파 값으로 대체됩니다.
 type: docs
 weight: 2900
 url: /ko/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace 클래스
 
-Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 알파로 대체됩니다.
+Alpha Replace 효과를 나타냅니다. 효과 알파(불투명도) 값이 고정 알파 값으로 대체됩니다.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -24,9 +24,9 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 지정된 [`AlphaReplace`](../alphareplace)가 현재 [`AlphaReplace`](../alphareplace)와 동일한지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 상속이 적용된 효과적인 Alpha Replace 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | 지정된 [`AlphaReplace`](../alphareplace)가 현재 [`AlphaReplace`](../alphareplace)와 같은지 여부를 확인합니다. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | 상속이 적용된 실제 Alpha Replace 효과 데이터를 가져옵니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
 
 ### 참조
 

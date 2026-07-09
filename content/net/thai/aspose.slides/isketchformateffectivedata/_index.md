@@ -1,14 +1,14 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่บรรจุคุณสมบัติการสเก็ตช์เส้นที่มีประสิทธิภาพ
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: อ็อบเจ็กต์ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติสเก็ตช์เส้นที่มีประสิทธิภาพ
 type: docs
 weight: 7030
 url: /th/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ไม่เปลี่ยนแปลงที่บรรจุคุณสมบัติการสเก็ตช์เส้นที่มีประสิทธิภาพ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติสเก็ตช์เส้นที่มีประสิทธิภาพ
 
 ```csharp
 public interface ISketchFormatEffectiveData
@@ -18,7 +18,7 @@ public interface ISketchFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | ส่งกลับประเภทสเก็ตช์. อ่านอย่างเดียว [`LineSketchType`](../linesketchtype). |
+| [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | ส่งคืนประเภทสเก็ตช์ อ่านอย่างเดียว [`LineSketchType`](../linesketchtype). |
 
 ### หมายเหตุ
 

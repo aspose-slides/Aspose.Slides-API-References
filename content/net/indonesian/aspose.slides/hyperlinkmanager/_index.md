@@ -1,14 +1,14 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menyediakan manajemen hyperlink penambahan dan penghapusan.
+description: Menyediakan manajemen hyperlink termasuk penambahan dan penghapusan.
 type: docs
-weight: 5130
+weight: 5150
 url: /id/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager kelas
 
-Menyediakan manajemen hyperlink (penambahan, penghapusan).
+Menyediakan manajemen hyperlink (menambah, menghapus).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -19,12 +19,12 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | Nama | Deskripsi |
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Menghapus hyperlink saat diklik. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Menghapus hyperlink saat mouse over. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Menghapus hyperlink saat mengarahkan mouse. |
 | [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Menetapkan hyperlink eksternal saat diklik. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Menetapkan hyperlink eksternal pada mouse over. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Menetapkan hyperlink eksternal saat mengarahkan mouse. |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Menetapkan hyperlink internal saat diklik. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Menetapkan hyperlink internal pada mouse over. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Menetapkan hyperlink Macro saat diklik. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Menetapkan hyperlink internal saat mengarahkan mouse. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Menetapkan hyperlink Makro saat diklik. |
 
 ### Lihat Juga
 

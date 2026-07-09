@@ -18,21 +18,21 @@ public sealed class Background : PVIObject, IBackground
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
-| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Geeft een EffectFormat terug voor BackgroundType.OwnBackground vulling. Alleen-lezen [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Geeft een FillFormat terug voor BackgroundType.OwnBackground vulling. Alleen-lezen [`IFillFormat`](../ifillformat). |
-| [Presentation](../../aspose.slides/background/presentation) { get; } | Geeft de bovenliggende presentatie van een dia terug. Alleen-lezen [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/background/slide) { get; } | Geeft de bovenliggende dia van een vorm terug. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Geeft een ColorFormat terug voor een BackgroundType.Themed vulling. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Geeft een index terug van BackgroundType.Themed vulling in de achtergrondthema collectie. 0 betekent geen vulling. 1..999 - index. Lezen/Schrijven UInt16. |
-| [Type](../../aspose.slides/background/type) { get; set; } | Geeft een type van achtergrondvulling terug. Lezen/Schrijven [`BackgroundType`](../backgroundtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Maakt toegang tot de basis IPresentationComponent-interface mogelijk. Alleen lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [EffectFormat](../../aspose.slides/background/effectformat) { get; } | Geeft een EffectFormat terug voor een BackgroundType.OwnBackground-vulling. Alleen lezen [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/background/fillformat) { get; } | Geeft een FillFormat terug voor een BackgroundType.OwnBackground-vulling. Alleen lezen [`IFillFormat`](../ifillformat). |
+| [Presentation](../../aspose.slides/background/presentation) { get; } | Geeft de bovenliggende presentatie van een dia terug. Alleen lezen [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/background/slide) { get; } | Geeft de bovenliggende dia van een vorm terug. Alleen lezen [`IBaseSlide`](../ibaseslide). |
+| [StyleColor](../../aspose.slides/background/stylecolor) { get; } | Geeft een ColorFormat terug voor een BackgroundType.Themed-vulling. Alleen lezen [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/background/styleindex) { get; set; } | Geeft een index van BackgroundType.Themed-vulling in de achtergrondthema-collectie terug. 0 betekent geen vulling. 1..999 - index. Lezen/schrijven UInt16. |
+| [Type](../../aspose.slides/background/type) { get; set; } | Geeft een type van achtergrondvulling terug. Lezen/schrijven [`BackgroundType`](../backgroundtype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
-| [GetEffective](../../aspose.slides/background/geteffective)() | Haalt de effectieve achtergrondgegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides/background/geteffective)() | Haalt effectieve achtergrondgegevens op met de toegepaste overerving. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft hashcode terug. |
 
 ### Zie ook

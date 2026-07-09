@@ -27,12 +27,12 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 지정된 버퍼에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 다른 프레젠테이션에서 이미지 복사본을 추가합니다. |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG 객체에서 프레젠테이션에 이미지를 추가합니다. |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | SVG 개체에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 메모리 스트림에서 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 스트림에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 스트림에서 이미지를 생성하고 프레젠테이션에 추가합니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IPPImage](../ippimage)

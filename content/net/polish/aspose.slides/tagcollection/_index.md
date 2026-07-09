@@ -1,14 +1,14 @@
 ---
 title: TagCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje kolekcję tagów – pary ciągów znaków definiowane przez użytkownika
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje kolekcję tagów będących parami ciągów znaków definiowanych przez użytkownika
 type: docs
-weight: 10870
+weight: 10890
 url: /pl/aspose.slides/tagcollection/
 ---
-## TagCollection klasa
+## Klasa TagCollection
 
-Reprezentuje kolekcję tagów (pary ciągów znaków definiowane przez użytkownika)
+Represents the collection of tags (user defined pairs of strings)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -16,26 +16,26 @@ public sealed class TagCollection : ITagCollection
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | Zwraca liczbę tagów w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest zsynchronizowany (wielowątkowy). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (thread-safe). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/tagcollection/item) { get; set; } | Zwraca lub ustawia parę klucz-wartość tagu. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Dodaje nowy tag do kolekcji. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Usuwa wszystkie tagi z kolekcji. |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Sprawdza, czy kolekcja zawiera określoną nazwę. |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Określa, czy kolekcja zawiera określoną nazwę. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Kopiuje wszystkie elementy kolekcji do określonej tablicy. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Zwraca klucz tagu pod wskazanym indeksem. |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Zwraca nazwy tagów. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Zwraca wartość tagu pod wskazanym indeksem. |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Zwraca indeks zerowy określonego klucza w kolekcji. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Zwraca indeks (zero-based) określonego klucza w kolekcji. |
 | [Remove](../../aspose.slides/tagcollection/remove)(string) | Usuwa tag o określonej nazwie z kolekcji. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Usuwa tag pod wskazanym indeksem. |
 

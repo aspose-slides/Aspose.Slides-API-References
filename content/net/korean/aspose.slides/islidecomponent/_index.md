@@ -1,6 +1,6 @@
 ---
 title: ISlideComponent
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 슬라이드 구성 요소를 나타냅니다.
 type: docs
 weight: 7060
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/islidecomponent/
 ---
 ## ISlideComponent 인터페이스
 
-슬라이드의 구성 요소를 나타냅니다.
+슬라이드 구성 요소를 나타냅니다.
 
 ```csharp
 public interface ISlideComponent : IPresentationComponent
@@ -21,7 +21,7 @@ public interface ISlideComponent : IPresentationComponent
 | [AsIPresentationComponent](../../aspose.slides/islidecomponent/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
 | [Slide](../../aspose.slides/islidecomponent/slide) { get; } | 기본 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IPresentationComponent](../ipresentationcomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

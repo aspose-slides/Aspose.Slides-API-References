@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: インタラクティブ シーケンスのコレクションを表します。
+description: インタラクティブシーケンスのコレクションを表します。
 type: docs
-weight: 780
+weight: 800
 url: /ja/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection クラス
 
-インタラクティブ シーケンスのコレクションを表します。
+インタラクティブシーケンスのコレクションを表します。
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -18,14 +18,14 @@ public class SequenceCollection : ISequenceCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | コレクション内の要素数を返します（読み取り専用）Int32。 |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | 指定されたインデックスのシーケンスを返します。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | 新しいインタラクティブ シーケンスを追加します。読み取り書き込み [`Sequence`](../sequence)。 |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | 新しいインタラクティブシーケンスを追加します。読み書き [`Sequence`](../sequence)。 |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | コレクションからすべてのシーケンスを削除します。 |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | コレクションから指定されたシーケンスを削除します。 |

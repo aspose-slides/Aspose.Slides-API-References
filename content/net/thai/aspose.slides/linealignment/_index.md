@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทการจัดเรียงบรรทัด.
+description: แสดงประเภทการจัดแนวบรรทัด
 type: docs
 weight: 7720
 url: /th/aspose.slides/linealignment/
 ---
-## การจัดเรียงบรรทัด LineAlignment
+## LineAlignment enum
 
-แสดงประเภทการจัดเรียงบรรทัด
+แสดงประเภทการจัดแนวบรรทัด
 
 ```csharp
 public enum LineAlignment : sbyte
@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

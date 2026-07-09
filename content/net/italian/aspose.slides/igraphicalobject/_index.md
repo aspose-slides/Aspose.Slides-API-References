@@ -1,12 +1,12 @@
 ---
 title: IGraphicalObject
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta un oggetto grafico astratto.
 type: docs
-weight: 6040
+weight: 6060
 url: /it/aspose.slides/igraphicalobject/
 ---
-## IGraphicalObject interfaccia
+## IGraphicalObject interface
 
 Rappresenta un oggetto grafico astratto.
 
@@ -18,9 +18,9 @@ public interface IGraphicalObject : IShape
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Consente di ottenere l'interfaccia IShape base. sola lettura [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Restituisce i blocchi della forma. sola lettura [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Restituisce i blocchi della forma. sola lettura [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Consente di ottenere l'interfaccia base IShape. Solamente lettura [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Restituisce i blocchi della forma. Solamente lettura [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Restituisce i blocchi della forma. Solamente lettura [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
 ### Vedi anche
 

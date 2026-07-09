@@ -1,14 +1,14 @@
 ---
 title: IFlyThroughTransition
 second_title: Riferimento API di Aspose.Sildes per .NET
-description: Effetto di transizione fly-through della diapositiva.
+description: Effetto di transizione diapositiva fly-through.
 type: docs
-weight: 10070
+weight: 10090
 url: /it/aspose.slides.slideshow/iflythroughtransition/
 ---
 ## IFlyThroughTransition interfaccia
 
-Effetto di transizione fly-through della diapositiva.
+Effetto di transizione diapositiva fly-through.
 
 ```csharp
 public interface IFlyThroughTransition : ITransitionValueBase
@@ -18,9 +18,9 @@ public interface IFlyThroughTransition : ITransitionValueBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Sola lettura [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iflythroughtransition/asitransitionvaluebase) { get; } | Consente di ottenere l'interfaccia base ITransitionValueBase. Solo lettura [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iflythroughtransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Specifica che il movimento delle diapositive della presentazione durante la transizione include un rimbalzo. Lettura/scrittura Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/iflythroughtransition/hasbounce) { get; set; } | Specifica che il movimento delle diapositive della presentazione durante la transizione includa un rimbalzo. Lettura/scrittura Boolean. |
 
 ### Vedi anche
 

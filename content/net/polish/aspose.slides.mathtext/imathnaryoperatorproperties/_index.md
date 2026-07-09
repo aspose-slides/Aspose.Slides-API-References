@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Określa właściwości IMathNaryOperator
 type: docs
-weight: 8360
+weight: 8380
 url: /pl/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties interfejs
 
-Specifies properties of IMathNaryOperator
+Określa właściwości IMathNaryOperator
 
 ```csharp
 public interface IMathNaryOperatorProperties
@@ -18,10 +18,10 @@ public interface IMathNaryOperatorProperties
 
 | Nazwa | Opis |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Znak operatora rozciąga się pionowo, aby dopasować się do wysokości operandów |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Ukryj indeks dolny |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Ukryj indeks górny |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Położenie limitów (indeks dolny i indeks górny) |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | Znak operatora rośnie pionowo, aby dopasować się do wysokości jego argumentu |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | Ukryj subskrypt |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | Ukryj superskrypt |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | Położenie limitów (subskrypt i superskrypt) |
 | [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Znak operatora Nary. Na przykład: '∑', '∫' |
 
 ### Zobacz także

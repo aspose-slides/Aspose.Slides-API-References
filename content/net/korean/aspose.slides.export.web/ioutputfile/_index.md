@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | 이름 | 설명 |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 스트림에 파일 내용을 씁니다. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | 파일 내용을 스트림에 씁니다. |
 
 ### 참고
 

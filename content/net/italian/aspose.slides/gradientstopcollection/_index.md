@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di gradient stop.
+description: Rappresenta una raccolta di fermate di gradiente.
 type: docs
-weight: 5010
+weight: 5030
 url: /it/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection classe
 
-Rappresenta una raccolta di gradient stop.
+Rappresenta una raccolta di fermate di gradiente.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,28 +18,28 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Restituisce il numero di gradient stop in una raccolta. Solo lettura Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Restituisce il gradient stop per indice. |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Restituisce una radice di sincronizzazione. Solo lettura Object. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia di base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Restituisce il numero di fermate di gradiente in una raccolta. Sola lettura Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Sola lettura Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Restituisce la fermata di gradiente per indice. |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Restituisce la radice di sincronizzazione. Sola lettura Object. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crea un nuovo gradient stop e lo aggiunge alla fine della raccolta. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crea un nuovo gradient stop e lo aggiunge alla fine della raccolta. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crea un nuovo gradient stop e lo aggiunge alla fine della raccolta. |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Rimuove tutti i gradient stop da una raccolta. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Crea una nuova fermata di gradiente e la aggiunge alla fine della raccolta. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Crea una nuova fermata di gradiente e la aggiunge alla fine della raccolta. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Crea una nuova fermata di gradiente e la aggiunge alla fine della raccolta. |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | Rimuove tutte le fermate di gradiente da una raccolta. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Confronta con l'oggetto specificato. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Restituisce un enumeratore che itera la raccolta. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Restituisce il codice hash. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crea un nuovo gradient stop e lo inserisce all'indice specificato nella raccolta. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crea un nuovo gradient stop e lo inserisce all'indice specificato nella raccolta. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea un nuovo gradient stop e lo inserisce all'indice specificato nella raccolta. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Rimuove un gradient stop all'indice specificato. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella raccolta. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella raccolta. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Crea una nuova fermata di gradiente e la inserisce all'indice specificato nella raccolta. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Rimuove una fermata di gradiente all'indice specificato. |
 
 ### Vedi anche
 

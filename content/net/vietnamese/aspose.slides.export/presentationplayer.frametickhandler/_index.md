@@ -1,14 +1,14 @@
 ---
 title: PresentationPlayer.FrameTickHandler
 second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho bộ xử lý tick khung của sự kiện FrameTick./presentationplayer/frametick.
+description: Đại diện cho trình xử lý tick khung của sự kiện FrameTick./presentationplayer/frametick.
 type: docs
 weight: 4400
 url: /vi/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler delegate
 
-Đại diện cho bộ xử lý tick khung của sự kiện [`FrameTick`](../presentationplayer/frametick).
+Đại diện cho trình xử lý tick khung của sự kiện [`FrameTick`](../presentationplayer/frametick).
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);

@@ -1,14 +1,14 @@
 ---
 title: DataLabelCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een reeks labels voor.
+description: Stelt labels van een serie voor.
 type: docs
 weight: 1560
 url: /nl/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection klasse
 
-Stelt een reeks labels voor.
+Represents a series labels.
 
 ```csharp
 public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
@@ -16,24 +16,24 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Retourneert de bovenliggende grafiek. Alleen-lezen [`IChart`](../ichart). |
-| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Haalt het aantal alle datalabels op in de collectie. Alleen-lezen Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Haalt het aantal zichtbare datalabels op in de collectie. Alleen-lezen Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Haalt het standaard datalabelformaat op. Alleen-lezen [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False betekent dat het datalabel standaard niet zichtbaar is (en dus alle Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat eigenschap false zijn). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Haalt het datalabel op voor het gegevenspunt met de opgegeven index. |
-| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Stelt het opmaak van de leidende lijnen van datalabels voor. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Haalt de bovenliggende serie op. Alleen-lezen [`IChartSeries`](../ichartseries). |
+| [Chart](../../aspose.slides.charts/datalabelcollection/chart) { get; } | Retourneert het bovenliggende diagram. Alleen-lezen [`IChart`](../ichart). |
+| [Count](../../aspose.slides.charts/datalabelcollection/count) { get; } | Haalt het aantal alle gegevenslabels in de collectie op. Alleen-lezen Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/datalabelcollection/countofvisibledatalabels) { get; } | Haalt het aantal zichtbare gegevenslabels in de collectie op. Alleen-lezen Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Haalt het standaardgegevenslabelformaat op. Alleen-lezen [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False betekent dat het gegevenslabel standaard niet zichtbaar is (en dus alle Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap false zijn). Alleen-lezen Boolean. |
+| [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Haalt het gegevenslabel op voor het gegevenspunt met de opgegeven index. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Stelt het opmaak van leiderslijnen van gegevenslabels voor. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Haalt de bovenliggende reeks op. Alleen-lezen [`IChartSeries`](../ichartseries). |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [GetEnumerator](../../aspose.slides.charts/datalabelcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
-| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Maakt het datalabel standaard verborgen door alle Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat eigenschap op false te zetten. IsVisible zal daarna false zijn. |
-| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Retourneert een index van het opgegeven DataLabel in de collectie. |
+| [Hide](../../aspose.slides.charts/datalabelcollection/hide)() | Maakt het gegevenslabel standaard verborgen door alle Show*-vlaggen (ShowValue, ...) van de DefaultDataLabelFormat-eigenschap op false te zetten. IsVisible zal daarna false zijn. |
+| [IndexOf](../../aspose.slides.charts/datalabelcollection/indexof)(IDataLabel) | Retourneert een index van de opgegeven DataLabel in de collectie. |
 
 ### Zie ook
 

@@ -1,9 +1,9 @@
 ---
 title: HyperlinkManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Tillhandahåller hantering av hyperlänkar för att lägga till och ta bort.
+description: Tillhandahåller hantering av hyperlänkar, lägga till och ta bort.
 type: docs
-weight: 5130
+weight: 5150
 url: /sv/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager klass
@@ -19,14 +19,14 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | Namn | Beskrivning |
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | Tar bort hyperlänk vid klick. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Tar bort hyperlänk när muspekaren är över. |
-| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Ställer in extern hyperlänk vid klick. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Ställer in extern hyperlänk när muspekaren är över. |
-| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Ställer in intern hyperlänk vid klick. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Ställer in intern hyperlänk när muspekaren är över. |
-| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Ställ in makrohyperlänk vid klick. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | Tar bort hyperlänk när musen hålls över. |
+| [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | Sätter extern hyperlänk vid klick. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | Sätter extern hyperlänk vid musöver. |
+| [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Sätter intern hyperlänk vid klick. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | Sätter intern hyperlänk när musen hålls över. |
+| [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | Sätter makrohyperlänk vid klick. |
 
-### Se även
+### Se också
 
 * gränssnitt [IHyperlinkManager](../ihyperlinkmanager)
 * namnrymd [Aspose.Slides](../../aspose.slides)

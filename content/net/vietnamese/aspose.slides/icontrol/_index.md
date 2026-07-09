@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một điều khiển ActiveX.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một điều khiển ActiveX.
 type: docs
 weight: 5630
 url: /vi/aspose.slides/icontrol/
 ---
 ## IControl giao diện
 
-Biểu diễn một điều khiển ActiveX.
+Đại diện cho một điều khiển ActiveX.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -18,16 +18,16 @@ public interface IControl : ISlideComponent
 
 | Tên | Mô tả |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Chỉ định tính bền vững của một điều khiển ActiveX khi phương thức được sử dụng để lưu trữ là PersistStream, PersistStreamInit hoặc PersistStorage. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Cho phép lấy giao diện cơ bản ISlideComponent. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Xác định tính duy trì của một điều khiển ActiveX khi phương thức được sử dụng để lưu trữ là PersistStream, PersistStreamInit hoặc PersistStorage. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
 | [ClassId](../../aspose.slides/icontrol/classid) { get; } | Lấy ID lớp của điều khiển này. Chỉ đọc Guid. |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Trả về hoặc đặt khung của điều khiển. Đọc/ghi [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Trả về tên của điều khiển này. Đọc/ghi String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Lấy phương thức được sử dụng để lưu trữ các thuộc tính của điều khiển ActiveX. Chỉ đọc [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Trả về một bộ sưu tập các thuộc tính ActiveX. Chỉ đọc [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Trả về đối tượng thuộc tính tô đầy ảnh ControlEx. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | Trả về đối tượng thuộc tính fill ảnh của ControlEx. Chỉ đọc [`IPictureFillFormat`](../ipicturefillformat). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ISlideComponent](../islidecomponent)
 * không gian tên [Aspose.Slides](../../aspose.slides)

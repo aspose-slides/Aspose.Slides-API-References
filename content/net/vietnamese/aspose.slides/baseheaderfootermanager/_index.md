@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày và giờ, số trang cho tất cả các loại slide.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý chịu trách nhiệm hành vi của các trình giữ chỗ chân trang, ngày-gio và số trang cho mọi loại slide.
 type: docs
 weight: 960
 url: /vi/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager lớp
 
-Biểu diễn trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang cho tất cả các loại slide.
+Đại diện cho trình quản lý chịu trách nhiệm hành vi của các trình giữ chỗ chân trang, ngày-gio và số trang cho mọi loại slide.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

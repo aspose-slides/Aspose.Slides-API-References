@@ -1,7 +1,7 @@
 ---
 title: IExternalResourceResolver
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Html और Svg दस्तावेज़ आयात के दौरान बाहरी संसाधनों को हल करने के लिए उपयोग किया जाने वाला कॉलबैक इंटरफ़ेस।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Html और Svg दस्तावेज़ इम्पोर्ट के दौरान बाहरी संसाधनों को हल करने के लिए उपयोग किया जाने वाला कॉलबैक इंटरफ़ेस।
 type: docs
 weight: 7490
 url: /hi/aspose.slides.import/iexternalresourceresolver/
@@ -14,14 +14,14 @@ Html, Svg दस्तावेज़ आयात के दौरान बा
 public interface IExternalResourceResolver
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | एक URI को वास्तविक संसाधन वाले वस्तु में मानचित्रित करता है। |
-| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | बेस और सापेक्ष URI से पूर्ण URI को हल करता है। |
+| [GetEntity](../../aspose.slides.import/iexternalresourceresolver/getentity)(string) | एक URI को वास्तविक संसाधन वाले ऑब्जेक्ट में मैप करता है। |
+| [ResolveUri](../../aspose.slides.import/iexternalresourceresolver/resolveuri)(string, string) | बेस और रिलेटिव URI से पूर्ण URI को हल करता है। |
 
-### देखें
+### संबंधित देखें
 
 * नेमस्पेस [Aspose.Slides.Import](../../aspose.slides.import)
 * असेंबली [Aspose.Slides](../../)

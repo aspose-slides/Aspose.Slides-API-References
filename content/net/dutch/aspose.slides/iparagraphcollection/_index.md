@@ -1,14 +1,14 @@
 ---
 title: IParagraphCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van paragrafen voor.
+description: Stelt een verzameling alinea's voor.
 type: docs
 weight: 6570
 url: /nl/aspose.slides/iparagraphcollection/
 ---
 ## IParagraphCollection interface
 
-Stelt een collectie van paragrafen voor.
+Stelt een verzameling alinea's voor.
 
 ```csharp
 public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
@@ -18,9 +18,9 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Geeft IEnumerable interface terug. Alleen-lezen IEnumerable. |
-| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Staat toe de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
+| [AsIEnumerable](../../aspose.slides/iparagraphcollection/asienumerable) { get; } | Retourneert de IEnumerable-interface. Alleen-lezen IEnumerable. |
+| [AsISlideComponent](../../aspose.slides/iparagraphcollection/asislidecomponent) { get; } | Staat toe de basis-ISlideComponent-interface te verkrijgen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [Count](../../aspose.slides/iparagraphcollection/count) { get; } | Haalt het daadwerkelijke aantal elementen op dat in de collectie zit. Alleen-lezen Int32. |
 | [Item](../../aspose.slides/iparagraphcollection/item) { get; } | Haalt het element op op de opgegeven index. |
 
 ## Methoden
@@ -32,10 +32,10 @@ public interface IParagraphCollection : IEnumerable<IParagraph>, ISlideComponent
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml)(string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
 | [AddFromHtml](../../aspose.slides/iparagraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Voegt tekst van de opgegeven html-string toe aan de collectie. |
 | [Clear](../../aspose.slides/iparagraphcollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert opgegeven paragrafen naar HTML en geeft het terug als String-object. |
+| [ExportToHtml](../../aspose.slides/iparagraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Converteert de opgegeven alinea's naar HTML en retourneert dit als een String-object. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert)(int, IParagraph) | Voegt een Paragraph in de collectie in op de opgegeven index. |
 | [Insert](../../aspose.slides/iparagraphcollection/insert#insert_1)(int, IParagraphCollection) | Voegt de inhoud van ParagraphCollection in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Verwijdert het eerste voorkomen van een specifieke paragraph. |
+| [Remove](../../aspose.slides/iparagraphcollection/remove)(IParagraph) | Verwijdert de eerste voorkoming van een specifieke alinea. |
 | [RemoveAt](../../aspose.slides/iparagraphcollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
 
 ### Zie ook

@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงการปิดการทำงานของการล็อค Shape.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงการดำเนินการที่ปิดใช้งาน Shape lock.
 type: docs
 weight: 5330
 url: /th/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock อินเทอร์เฟซ
 
-Represents Shape lock (disabled operation).
+แทน Shape lock (การดำเนินการที่ถูกปิดใช้งาน)
 
 ```csharp
 public interface IBaseShapeLock
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | ส่งคืน true หาก lock-flag ทั้งหมดถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | คืนค่าจริงหาก lock-flags ทั้งหมดถูกปิดใช้งาน. Boolean แบบอ่านอย่างเดียว. |
 
 ### ดูเพิ่มเติม
 

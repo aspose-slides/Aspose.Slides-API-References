@@ -1,12 +1,12 @@
 ---
 title: Compress
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um grupo de métodos destinados a comprimir Presentation../aspose.slides/presentation.
 type: docs
-weight: 7850
+weight: 7870
 url: /pt/aspose.slides.lowcode/compress/
 ---
-## Compress classe
+## classe Compress
 
 Representa um grupo de métodos destinados a comprimir [`Presentation`](../../aspose.slides/presentation).
 
@@ -18,9 +18,9 @@ public static class Compress
 
 | Nome | Descrição |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Realiza compressão do [`Presentation`](../../aspose.slides/presentation) removendo caracteres não utilizados de fontes incorporadas. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Realiza compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides de layout não utilizados. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Realiza compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides mestre não utilizados. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo caracteres não utilizados de fontes incorporadas. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides de layout não utilizados. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Realiza a compressão do [`Presentation`](../../aspose.slides/presentation) removendo slides mestre não utilizados. |
 
 ### Exemplos
 

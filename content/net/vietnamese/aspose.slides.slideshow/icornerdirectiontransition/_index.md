@@ -1,14 +1,14 @@
 ---
 title: ICornerDirectionTransition
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Hiệu ứng chuyển đổi slide theo hướng góc.
+description: Hiệu ứng chuyển slide theo hướng góc.
 type: docs
 weight: 10060
 url: /vi/aspose.slides.slideshow/icornerdirectiontransition/
 ---
 ## ICornerDirectionTransition giao diện
 
-Corner direction slide transition effect.
+Hiệu ứng chuyển slide theo hướng góc.
 
 ```csharp
 public interface ICornerDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ICornerDirectionTransition : ITransitionValueBase
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ sở. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Hướng chuyển đổi. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/icornerdirectiontransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/icornerdirectiontransition/direction) { get; set; } | Hướng của chuyển tiếp. Đọc/ghi [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ### Xem thêm
 

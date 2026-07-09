@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드에 할당될 수 있는 추가 색 구성표를 나타냅니다.
+description: 슬라이드에 지정할 수 있는 추가 색 구성표를 나타냅니다.
 type: docs
 weight: 11210
 url: /ko/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme 인터페이스
 
-슬라이드에 할당될 수 있는 추가 색 구성표를 나타냅니다.
+슬라이드에 지정할 수 있는 추가 색 구성표를 나타냅니다.
 
 ```csharp
 public interface IExtraColorScheme
@@ -19,9 +19,9 @@ public interface IExtraColorScheme
 | 이름 | 설명 |
 | --- | --- |
 | [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | 색 구성표를 반환합니다. 읽기 전용 [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | 이 스키마의 이름을 반환합니다. 읽기 전용 String. |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | 이 스키마의 이름을 반환합니다. 읽기 전용 문자열. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 어셈블리 [Aspose.Slides](../../)

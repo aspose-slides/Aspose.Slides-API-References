@@ -1,6 +1,6 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 라인 스케치 형식에 대한 속성을 나타냅니다.
 type: docs
 weight: 9950
@@ -28,7 +28,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [ISketchFormat](../isketchformat)

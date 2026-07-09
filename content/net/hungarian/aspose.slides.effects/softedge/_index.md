@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes .NET API Referenciája
-description: Soft edge hatást ábrázol. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
+second_title: Aspose.Sildes .NET API-referencia
+description: Lágy szegélyeffektust képvisel. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
 type: docs
-weight: 3630
+weight: 3650
 url: /hu/aspose.slides.effects/softedge/
 ---
 ## SoftEdge osztály
 
-Lágy szélhatású effektust képvisel. A alakzat szélét elmosódik, míg a kitöltés nem érintett.
+Egy lágy szegélyeffektust képvisel. Az alakzat szélei elmosódnak, míg a kitöltés nem érintett.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,14 +18,14 @@ public sealed class SoftEdge : ISoftEdge
 
 | Név | Leírás |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Megadja a szélre alkalmazandó elmosódási sugár értékét. Olvasás/írás Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Megadja a szélekre alkalmazandó elmosás sugárát. Olvasás/írás Double. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Meghatározza, hogy a megadott [`SoftEdge`](../softedge) egyenlő-e a jelenlegi [`SoftEdge`](../softedge). |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Lekéri a tényleges Soft Edge effektus adatokat az öröklődés alkalmazásával. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Megkapja a hatékony Soft Edge effektus adatait az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

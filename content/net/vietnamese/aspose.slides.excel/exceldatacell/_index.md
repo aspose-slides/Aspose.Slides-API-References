@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một ô duy nhất trong sổ làm việc Excel.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một ô duy nhất trong một workbook Excel.
 type: docs
 weight: 3680
 url: /vi/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell lớp
 
-Biểu diễn một ô duy nhất trong sổ làm việc Excel.
+Biểu diễn một ô duy nhất trong một workbook Excel.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -18,9 +18,9 @@ public class ExcelDataCell : IExcelDataCell
 
 | Tên | Mô tả |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Lấy chỉ mục dựa trên không của cột trong worksheet nơi ô được đặt. Chỉ-đọc Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Lấy chỉ mục dựa trên zero của cột trong worksheet nơi ô được đặt. Chỉ đọc Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Lấy tên của ô dữ liệu biểu đồ. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Lấy chỉ mục dựa trên không của hàng trong worksheet nơi ô được đặt. Chỉ-đọc Int32. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Lấy chỉ mục dựa trên zero của hàng trong worksheet nơi ô được đặt. Chỉ đọc Int32. |
 | [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Lấy giá trị chứa trong ô Excel. |
 
 ### Xem thêm

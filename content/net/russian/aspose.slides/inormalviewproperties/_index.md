@@ -1,15 +1,14 @@
 ---
 title: INormalViewProperties
-second_title: Aspose.Slides для .NET API Reference
-description: Представляет свойства нормального просмотра. Нормальный вид состоит из трех областей содержимого самого слайда, боковой области содержимого и нижней области содержимого.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет свойства обычного просмотра. Обычный просмотр состоит из трёх областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого.
 type: docs
-weight: 6270
+weight: 6470
 url: /ru/aspose.slides/inormalviewproperties/
 ---
+## INormalViewProperties интерфейс
 
-## Интерфейс INormalViewProperties
-
-Представляет свойства нормального просмотра. Нормальный вид состоит из трех областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого.
+Представляет свойства обычного просмотра. Обычный просмотр состоит из трёх областей содержимого: самого слайда, боковой области содержимого и нижней области содержимого.
 
 ```csharp
 public interface INormalViewProperties
@@ -17,19 +16,19 @@ public interface INormalViewProperties
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Указывает, в каком состоянии должна отображаться горизонтальная разделительная линия. Горизонтальная разделительная линия отделяет слайд от области содержимого ниже слайда. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Указывает, предпочитает ли пользователь видеть область содержимого во весь экран с одним содержимым вместо стандартного нормального вида с тремя областями содержимого. Если включено, приложение может выбрать отображение одной из областей содержимого во всем окне. Чтение/запись Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Этот элемент указывает размер боковой области содержимого нормального вида, когда область имеет переменный восстановленный размер (ни уменьшенный, ни увеличенный). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Этот элемент указывает размер верхней области слайда нормального вида, когда область имеет переменный восстановленный размер (ни уменьшенный, ни увеличенный). Только для чтения [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Указывает, должно ли приложение показывать значки при отображении контента с контурами в любой из областей содержимого режима нормального просмотра. Чтение/запись Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Указывает, должен ли вертикальный разделитель привязываться к минимизированному состоянию, когда боковая область достаточно мала. Чтение/запись Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Указывает, в каком состоянии должна отображаться вертикальная разделительная линия. Вертикальная разделительная линия отделяет слайд от боковой области содержимого. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Указывает состояние, в котором должна отображаться горизонтальная полоса разделения. Горизонтальная полоса разделения отделяет слайд от области содержимого под слайдом. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Указывает, предпочитает ли пользователь видеть полноэкранный регион с одним содержимым вместо стандартного обычного вида с тремя областями содержимого. Если включено, приложение может отобразить одну из областей содержимого на всём окне. Чтение/запись Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Этот элемент задает размер боковой области содержимого обычного вида, когда область имеет переменный восстановленный размер (ни минимизирована, ни развернута). Только чтение [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Этот элемент задает размер верхней области слайда обычного вида, когда область имеет переменный восстановленный размер (ни минимизирована, ни развернута). Только чтение [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Указывает, должна ли программа показывать значки при отображении содержимого конспекта в любой из областей содержимого режима обычного вида. Чтение/запись Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Указывает, должна ли вертикальная полоса разделения переходить в состояние минимизации, когда боковая область достаточно маленькая. Чтение/запись Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Указывает состояние, в котором должна отображаться вертикальная полоса разделения. Вертикальная полоса разделения отделяет слайд от боковой области содержимого. |
 
 ### См. также
 
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

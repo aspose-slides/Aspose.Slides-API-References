@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示互動序列的集合。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示交互式序列的集合。
 type: docs
 weight: 600
 url: /zh-hant/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection 介面
 
-表示互動序列的集合。
+代表交互式序列的集合。
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -16,7 +16,7 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
 | [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | 傳回集合中元素的數量。唯讀 Int32。 |
@@ -24,14 +24,14 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 ## 方法
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 新增互動序列。 |
-| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | 移除集合中所有序列。 |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | 新增互動式序列。 |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | 從集合中移除所有序列。 |
 | [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | 從集合中移除指定的序列。 |
 | [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | 移除指定索引處的序列。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [ISequence](../isequence)
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

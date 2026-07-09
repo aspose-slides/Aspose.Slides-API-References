@@ -1,26 +1,26 @@
 ---
 title: IProgressCallback
 second_title: Aspose.Sildes için .NET API Referansı
-description: Yüzde cinsinden ilerleme güncellemelerini kaydetmek için bir geri arama nesnesini temsil eder.
+description: Yüzde olarak kaydetme ilerleme güncellemelerini temsil eden bir geri çağırma nesnesi.
 type: docs
-weight: 6790
+weight: 6810
 url: /tr/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback arayüz
 
-Yüzde cinsinden ilerleme güncellemelerini kaydetmek için bir geri arama nesnesini temsil eder.
+Yüzde olarak kaydetme ilerlemesi güncellemelerini temsil eden bir geri çağırma nesnesi.
 
 ```csharp
 public interface IProgressCallback
 ```
 
-## Metotlar
+## Yöntemler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | İlerleme güncellemesini raporlar. |
+| [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | Bir ilerleme güncellemesi bildirir. |
 
-### Bakınız
+### Diğer Bilgiler
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

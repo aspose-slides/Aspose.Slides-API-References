@@ -1,14 +1,14 @@
 ---
 title: IFonts
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงคอลเลกชันของแบบอักษร.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันแบบอักษร.
 type: docs
 weight: 5900
 url: /th/aspose.slides/ifonts/
 ---
-## อินเทอร์เฟซ IFonts
+## IFonts อินเทอร์เฟซ
 
-แสดงชุดฟอนต์
+Represents fonts collection.
 
 ```csharp
 public interface IFonts
@@ -18,18 +18,18 @@ public interface IFonts
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรสคริปต์ซับซ้อน อ่าน/เขียน [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรเอเชียตะวันออก อ่าน/เขียน [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | คืนค่า หรือกำหนดแบบอักษรละติน อ่าน/เขียน [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifonts/complexscriptfont) { get; set; } | คืนค่า หรือ ตั้งค่าแบบอักษรสคริปต์ซับซ้อน. อ่าน/เขียน [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifonts/eastasianfont) { get; set; } | คืนค่า หรือ ตั้งค่าแบบอักษรเอเชียตะวันออก. อ่าน/เขียน [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifonts/latinfont) { get; set; } | คืนค่า หรือ ตั้งค่าแบบอักษรลาติน. อ่าน/เขียน [`IFontData`](../ifontdata). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [GetScriptFont](../../aspose.slides/ifonts/getscriptfont)(string) | รับชื่อแบบอักษรที่เชื่อมโยงกับแท็กสคริปต์เฉพาะจากธีมการนำเสนอ. |
-| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | คืนพจนานุกรมของการกำหนดแบบอักษรสคริปต์ทั้งหมดในการนำเสนอ. |
+| [GetScriptFontMap](../../aspose.slides/ifonts/getscriptfontmap)() | คืนพจนานุกรมของการกำหนดแบบอักษรสคริปต์ทั้งหมดในงานนำเสนอ. |
 | [RemoveScriptFont](../../aspose.slides/ifonts/removescriptfont)(string) | ลบการตั้งค่าแบบอักษรที่เชื่อมโยงกับแท็กสคริปต์เฉพาะจากคอลเลกชันแบบอักษรของธีม. |
-| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | กำหนดชื่อแบบอักษรให้กับแท็กสคริปต์เฉพาะ ซึ่งกำหนดวิธีที่ข้อความของสคริปต์นั้นจะถูกเรนเดอร์ในการนำเสนอ. |
+| [SetScriptFont](../../aspose.slides/ifonts/setscriptfont)(string, string) | กำหนดชื่อแบบอักษรให้กับแท็กสคริปต์เฉพาะ ซึ่งกำหนดวิธีการแสดงผลข้อความของสคริปต์นั้นในงานนำเสนอ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ不透明度の値は固定パーセンテージで乗算されます。
+description: Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。
 type: docs
-weight: 3100
+weight: 3120
 url: /ja/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed インターフェイス
 
-Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ（不透明度）値は固定パーセンテージで乗算されます。
+Alpha Modulate Fixed エフェクトを表します。エフェクトのアルファ (不透明度) 値は固定パーセンテージで乗算されます。
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -17,13 +17,13 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | 効果の量をパーセントで返します。読み取り/書き込み Single。 |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | エフェクトの量をパーセントで返します。読み書き可能 Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IAlphaModulateFixedEffectiveData](../ialphamodulatefixedeffectivedata)

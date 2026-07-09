@@ -1,12 +1,12 @@
 ---
 title: Reflection
-second_title: مرجع API لتقنية Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل تأثير Reflection.
 type: docs
 weight: 3640
 url: /ar/aspose.slides.effects/reflection/
 ---
-## Reflection فئة
+## فئة Reflection
 
 يمثل تأثير Reflection.
 
@@ -18,33 +18,33 @@ public sealed class Reflection : IReflection
 
 | الاسم | الوصف |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | نصف قطر الضبابية. قراءة/كتابة Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | اتجاه الانعكاس. قراءة/كتابة Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | مسافة الانعكاس. قراءة/كتابة Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | يحدد موقع النهاية (على منحدر تدرج ألفا) لقيمة ألفا النهائية (نسب مئوية). قراءة/كتابة Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | شفافية الانعكاس النهائية (نسب مئوية). قراءة/كتابة Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | يحدد الاتجاه لإزاحة الانعكاس. (زاوية). قراءة/كتابة Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | محاذاة المستطيل. قراءة/كتابة [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | يحدد ما إذا كان الانعكاس يجب أن يدور مع الشكل إذا تم تدوير الشكل. قراءة/كتابة Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | يحدد معامل التحجيم الأفقي، التحجيم السلبي يسبب انعكاسًا. (نسب مئوية) قراءة/كتابة Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | يحدد معامل التحجيم العمودي، التحجيم السلبي يسبب انعكاسًا. (نسب مئوية) قراءة/كتابة Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | يحدد زاوية الانحراف الأفقي. قراءة/كتابة Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | يحدد زاوية الانحراف العمودي. قراءة/كتابة Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | يحدد موقع البداية (على منحدر تدرج ألفا) لقيمة ألفا البداية (نسب مئوية). قراءة/كتابة Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | شفافية الانعكاس الابتدائية (نسب مئوية). قراءة/كتابة Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | نصف قطر الضبابية. Read/write Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | اتجاه الانعكاس. Read/write Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | مسافة الانعكاس. Read/write Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | يحدد موضع النهاية (على طول منحدر تدرج ألفا) لقيمة ألفا النهائية (نسب مئوية). Read/write Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | عتامة الانعكاس النهائية. (نسب مئوية). Read/write Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | يحدد الاتجاه لإزاحة الانعكاس. (زاوية). Read/write Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | محاذاة المستطيل. Read/write [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | يحدد ما إذا كان يجب أن يدور الانعكاس مع الشكل إذا تم تدوير الشكل. Read/write Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | يحدد معامل التحجيم الأفقي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) Read/write Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | يحدد معامل التحجيم العمودي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) Read/write Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | يحدد زاوية الانحراف الأفقي. Read/write Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | يحدد زاوية الانحراف العمودي. Read/write Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | يحدد موضع البداية (على طول منحدر تدرج ألفا) لقيمة ألفا البداية (نسب مئوية). Read/write Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | عتامة الانعكاس الابتدائية. (نسب مئوية). Read/write Single. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | يحدد ما إذا كان [`Reflection`](../reflection) المحدد يساوي [`Reflection`](../reflection) الحالي. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | يحدد ما إذا كان [`Reflection`](../reflection) المحدد يساوي الحالي [`Reflection`](../reflection). |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | يحصل على بيانات تأثير Reflection الفعّالة مع تطبيق الوراثة. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | يعمل كدالة تجزئة لنوع معين. |
 
 ### انظر أيضًا
 
-* واجهة [IReflection](../ireflection)
-* مساحة الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
-* تجميع [Aspose.Slides](../../)
+* الواجهة [IReflection](../ireflection)
+* نطاق الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

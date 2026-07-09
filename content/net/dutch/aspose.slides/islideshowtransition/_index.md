@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de diavoorstellingsovergang voor.
+description: Stelt een diavoorstellingovergang voor.
 type: docs
 weight: 7080
 url: /nl/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition interface
 
-Stelt de diavoorstellingsovergang voor.
+Stelt een diavoorstellingovergang voor.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Dit attribuut geeft aan of de diavoorstelling naar de volgende dia gaat na een bepaalde tijd. Lezen/schrijven Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Specificeert de tijd, in milliseconden, waarna de overgang moet starten. Deze instelling kan in combinatie met het advClick-attribuut worden gebruikt. Als dit attribuut niet is opgegeven, wordt aangenomen dat er geen automatische voortgang plaatsvindt. Lezen/schrijven UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Specificeert of een muisklik de dia zal voortzetten of niet. Als dit attribuut niet is opgegeven, wordt een waarde van true verondersteld. Lezen/schrijven Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Haalt of stelt de duur van het diaovergangseffect in milliseconden in. Lezen/schrijven Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Geeft terug of stelt de ingebedde audiogegevens in. Lezen/schrijven [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Specificeert of dit geluid een ingebouwd geluid is of niet. Als dit attribuut op true is gezet, wordt de genererende applicatie gealarmeerd om het naam-attribuut te controleren dat voor dit geluid in de lijst met ingebouwde geluiden is opgegeven, en kan vervolgens een aangepaste naam of UI tonen indien nodig. Lezen/schrijven Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Dit attribuut geeft aan of het geluid zal herhalen totdat het volgende geluidevenement in de diavoorstelling optreedt. Lezen/schrijven Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Stelt in of geeft de geluidsmodus voor de diaovergang terug. Lezen/schrijven [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Specificeert een menselijk leesbare naam voor het geluid van de overgang. De [`Sound`](./sound) eigenschap moet worden toegewezen om de geluidsnaam op te halen of in te stellen. Lezen/schrijven String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Specificeert de overgangssnelheid die moet worden gebruikt bij het overgaan van de huidige dia naar de volgende. Lezen/schrijven [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Type van overgang. Lezen/schrijven [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Diavoorstellingsovergangwaarde. Alleen-lezen [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Dit attribuut geeft aan of de diavoorstelling naar de volgende dia gaat na een bepaalde tijd. Lezen/Schrijven Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Specificeert de tijd, in milliseconden, waarna de overgang moet starten. Deze instelling kan worden gebruikt in combinatie met het advClick-attribuut. Als dit attribuut niet is gespecificeerd, wordt aangenomen dat er geen automatische voortgang plaatsvindt. Lezen/Schrijven UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Specificeert of een muisklik de dia zal voortzetten of niet. Als dit attribuut niet is gespecificeerd, wordt een waarde van true aangenomen. Lezen/Schrijven Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Leest of stelt de duur van het dia-overgangseffect in milliseconden in. Lezen/Schrijven Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Geeft de ingebedde audiogegevens terug of stelt ze in. Lezen/Schrijven [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Specificeert of dit geluid een ingebouwd geluid is of niet. Als dit attribuut true is, wordt de gegenereerde toepassing erop gewezen de name-attribuut voor dit geluid in de lijst met ingebouwde geluiden te controleren en kan vervolgens een aangepaste naam of UI tonen indien nodig. Lezen/Schrijven Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Dit attribuut geeft aan of het geluid zal blijven herhalen tot het volgende geluidsevenement in de diavoorstelling plaatsvindt. Lezen/Schrijven Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Stelt de geluidsmodus in voor de dia-overgang of geeft deze terug. Lezen/Schrijven [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Specificeert een menselijk leesbare naam voor het geluid van de overgang. De [`Sound`](./sound)-eigenschap moet worden toegewezen om de geluidsnaam te krijgen of in te stellen. Lezen/Schrijven String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Specificeert de overgangssnelheid die moet worden gebruikt bij het overgaan van de huidige dia naar de volgende. Lezen/Schrijven [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Type van overgang. Lezen/Schrijven [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Diavoorstelling-overgangswaarde. Alleen-lezen [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

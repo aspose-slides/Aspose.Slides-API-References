@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje właściwości 3D.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje właściwości 3-D.
 type: docs
-weight: 7310
+weight: 7330
 url: /pl/aspose.slides/ithreedformat/
 ---
-## IThreeDFormat interfejs
+## interfejs IThreeDFormat
 
-Represents 3-D properties.
+Reprezentuje właściwości 3-D.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -19,8 +19,8 @@ public interface IThreeDFormat : IThreeDParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IThreeDParamSource. Tylko do odczytu [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnego wypuklenia 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Zwraca lub ustawia typ górnego wypuklenia 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Zwraca lub ustawia typ dolnego fazowania 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Zwraca lub ustawia typ górnego fazowania 3D. Tylko do odczytu [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Zwraca lub ustawia ustawienia kamery. Tylko do odczytu [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Zwraca lub ustawia kolor konturu. Tylko do odczytu [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Zwraca lub ustawia szerokość konturu 3D. Odczyt/zapis Double. |
@@ -34,7 +34,7 @@ public interface IThreeDFormat : IThreeDParamSource
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Pobiera efektywne dane formatowania 3-D z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Pobiera skuteczne dane formatowania 3-D z zastosowanym dziedziczeniem. |
 
 ### Zobacz także
 

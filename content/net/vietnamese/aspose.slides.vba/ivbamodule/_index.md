@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho module được chứa trong dự án VBA.
+description: Đại diện cho mô-đun được chứa trong dự án VBA.
 type: docs
 weight: 11530
 url: /vi/aspose.slides.vba/ivbamodule/
 ---
-## IVbaModule giao diện
+## Giao diện IVbaModule
 
-Đại diện cho module được chứa trong dự án VBA.
+Đại diện cho mô-đun được chứa trong dự án VBA.
 
 ```csharp
 public interface IVbaModule
@@ -16,12 +16,12 @@ public interface IVbaModule
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Tên của module. Chỉ đọc String. |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Mã nguồn của module. Đọc/ghi String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | Tên của mô-đun. String chỉ đọc. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | Mã nguồn của mô-đun. String đọc/ghi. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Vba](../../aspose.slides.vba)
 * tập hợp [Aspose.Slides](../../)

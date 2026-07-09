@@ -1,14 +1,14 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị loại hiệu ứng hoạt ảnh cho phần tử biểu đồ trong chuỗi hoặc danh mục.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho loại hiệu ứng hoạt hình cho phần tử biểu đồ trong chuỗi hoặc danh mục.
 type: docs
 weight: 300
 url: /vi/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType liệt kê
 
-Biểu thị loại hiệu ứng hoạt ảnh cho phần tử biểu đồ trong chuỗi hoặc danh mục.
+Đại diện cho loại hiệu ứng hoạt hình cho phần tử biểu đồ trong chuỗi hoặc danh mục.
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMinorGroupingType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Hoạt ảnh biểu đồ theo phần tử trong chuỗi |
-| ByElementInCategory | `1` | Hoạt ảnh biểu đồ theo phần tử trong danh mục |
+| ByElementInSeries | `0` | Hoạt hình biểu đồ theo phần tử trong chuỗi |
+| ByElementInCategory | `1` | Hoạt hình biểu đồ theo phần tử trong danh mục |
 
 ### Xem thêm
 

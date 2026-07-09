@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一種預設陰影效果。
+description: 表示一個預設陰影效果。
 type: docs
 weight: 3480
 url: /zh-hant/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow 介面
 
-表示預設陰影效果。
+表示一個預設陰影效果。
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -19,14 +19,14 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 陰影的方向。可讀寫 Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 陰影的距離。可讀寫 Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 預設。可讀寫 [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 陰影的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | 陰影的方向。可寫 Single。 |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | 陰影的距離。可寫 Double。 |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | 預設。可寫 [`PresetShadowType`](../../aspose.slides/presetshadowtype)。 |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | 陰影的顏色。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)

@@ -3,7 +3,7 @@ title: BuildType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション中にシェイプ上のテキストがどのように表示されるかを決定します。
 type: docs
-weight: 190
+weight: 210
 url: /ja/aspose.slides.animation/buildtype/
 ---
 ## BuildType 列挙型
@@ -18,13 +18,13 @@ public enum BuildType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| AsOneObject | `0` | 含まれるシェイプ全体として。 |
-| AllParagraphsAtOnce | `1` | すべての段落を同時に。 |
-| ByLevelParagraphs1 | `2` | 深さ 1 の段落グループごとに。 |
-| ByLevelParagraphs2 | `3` | 深さ 2 の段落グループごとに。 |
-| ByLevelParagraphs3 | `4` | 深さ 3 の段落グループごとに。 |
-| ByLevelParagraphs4 | `5` | 深さ 4 の段落グループごとに。 |
-| ByLevelParagraphs5 | `6` | 深さ 5 の段落グループごとに。 |
+| AsOneObject | `0` | 包含するシェイプとともに。 |
+| AllParagraphsAtOnce | `1` | すべての段落。 |
+| ByLevelParagraphs1 | `2` | 深さ 1 の段落のグループごとに。 |
+| ByLevelParagraphs2 | `3` | 深さ 2 の段落のグループごとに。 |
+| ByLevelParagraphs3 | `4` | 深さ 3 の段落のグループごとに。 |
+| ByLevelParagraphs4 | `5` | 深さ 4 の段落のグループごとに。 |
+| ByLevelParagraphs5 | `6` | 深さ 5 の段落のグループごとに。 |
 
 ### 参照
 

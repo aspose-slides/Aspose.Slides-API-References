@@ -1,14 +1,14 @@
 ---
 title: Tint
 second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di base dell'ammontare specificato.
+description: Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso o lontano dalla tonalità di una quantità specificata.
 type: docs
-weight: 3640
+weight: 3660
 url: /it/aspose.slides.effects/tint/
 ---
 ## Classe Tint
 
-Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso/lontano dalla tonalità di base dell'ammontare specificato.
+Rappresenta un effetto Tint. Sposta i valori di colore dell'effetto verso o lontano dalla tinta di una quantità specificata.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,14 +18,14 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia di base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Determina se il [`Tint`](../tint) specificato è uguale all'attuale [`Tint`](../tint). |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Ottiene i dati dell'effetto Tint effettivo con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Determina se il [`Tint`](../tint) specificato è uguale al [`Tint`](../tint) corrente. |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Ottiene i dati effettivi dell'effetto Tint con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
 
 ### Vedi anche

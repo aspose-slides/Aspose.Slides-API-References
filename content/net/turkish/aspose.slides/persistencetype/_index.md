@@ -3,10 +3,10 @@ title: PersistenceType
 second_title: Aspose.Sildes için .NET API Referansı
 description: ActiveX denetiminin özelliklerini depolamak için kullanılan yöntemi belirtir.
 type: docs
-weight: 9350
+weight: 9370
 url: /tr/aspose.slides/persistencetype/
 ---
-## PersistenceType enumerasyonu
+## PersistenceType enum
 
 ActiveX denetiminin özelliklerini depolamak için kullanılan yöntemi belirtir.
 
@@ -19,10 +19,10 @@ public enum PersistenceType
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` | Persistans kimliği belirtilmemiş. |
-| PersistPropertyBag | `0` | ActiveX denetiminin özellik çantası tabanlı kalıcılık kullanılarak kalıcı olduğunu belirtir. Özellik çantası tabanlı kalıcılık, ActiveX denetiminin kalıcı olarak sakladığı verileri belirten ad ve değer çiftlerinden oluşan bir koleksiyon aracılığıyla bir ActiveX denetimini depolar. |
-| PersistStream | `1` | ActiveX denetiminin, varsayılan bir duruma başlatmayı desteklemeyen akış tabanlı bir kalıcılık kullanılarak kalıcı olduğunu belirtir. |
-| PersistStreamInit | `2` | ActiveX denetiminin, varsayılan bir duruma başlatmayı destekleyen akış tabanlı bir kalıcılık kullanılarak kalıcı olduğunu belirtir. |
-| PersistStorage | `3` | ActiveX denetiminin, depolama tabanlı bir kalıcılık kullanılarak kalıcı olduğunu belirtir. |
+| PersistPropertyBag | `0` | ActiveX denetiminin property-bag tabanlı kalıcılık kullanılarak kalıcılaştırıldığını belirtir. Property-bag tabanlı kalıcılık, ActiveX denetiminin kalıcılaştırdığı verileri belirten ad ve değer çiftlerinden oluşan bir koleksiyon aracılığıyla bir ActiveX denetimini depolar. |
+| PersistStream | `1` | ActiveX denetiminin, varsayılan bir duruma başlangıç yapılmasını desteklemeyen akış tabanlı kalıcılık kullanılarak kalıcılaştırıldığını belirtir. |
+| PersistStreamInit | `2` | ActiveX denetiminin, varsayılan bir duruma başlangıç yapılmasını destekleyen akış tabanlı kalıcılık kullanılarak kalıcılaştırıldığını belirtir. |
+| PersistStorage | `3` | ActiveX denetiminin, depolama tabanlı kalıcılık kullanılarak kalıcılaştırıldığını belirtir. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Sildes for .NET API 參考
-description: 決定在父 Connector 上哪些操作被禁用。
+second_title: Aspose.Slides for .NET API 參考
+description: 確定在父 Connector 上哪些操作被停用。
 type: docs
 weight: 2680
 url: /zh-hant/aspose.slides/connectorlock/
 ---
 ## ConnectorLock 類別
 
-決定在父 Connector 上哪種操作被禁用。
+決定在父 Connector 上被停用的作業。
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -16,14 +16,14 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | 判斷是否禁止變更調整值。可讀寫 Boolean。 |
 | [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | 判斷是否禁止變更箭頭。可讀寫 Boolean。 |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 判斷形狀在調整大小時是否必須保持長寬比。可讀寫 Boolean。 |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | 判斷形狀在調整大小時是否必須保持長寬比例。可讀寫 Boolean。 |
 | [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | 判斷是否禁止直接變更此形狀的輪廓。可讀寫 Boolean。 |
 | [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | 判斷是否禁止將此形狀加入群組。可讀寫 Boolean。 |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有鎖定旗標皆已停用，則傳回 true。唯讀 Boolean。 |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | 如果所有鎖定旗標均已停用，則返回 true。唯讀 Boolean。 |
 | [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | 判斷是否禁止移動此形狀。可讀寫 Boolean。 |
 | [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | 判斷是否禁止變更此形狀的旋轉角度。可讀寫 Boolean。 |
 | [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | 判斷是否禁止選取此形狀。可讀寫 Boolean。 |

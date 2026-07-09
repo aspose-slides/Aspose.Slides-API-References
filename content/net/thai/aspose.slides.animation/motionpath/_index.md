@@ -1,6 +1,6 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงเส้นทางการเคลื่อนที่.
 type: docs
 weight: 690
@@ -24,18 +24,18 @@ public class MotionPath : IMotionPath
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | คืนจำนวนเส้นทางในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | คืนจำนวนของเส้นทางในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | คืนคำสั่งที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | เพิ่มคำสั่งใหม่ไปยังเส้นทาง |
-| [Clear](../../aspose.slides.animation/motionpath/clear)() | ลบคำสั่งทั้งหมดออกจากคอลเลกชัน. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | คืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | แทรกคำสั่งใหม่ไปยังเส้นทาง |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | ลบคำสั่งที่ระบุออกจากคอลเลกชัน. |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | เพิ่มคำสั่งใหม่ลงในเส้นทาง |
+| [Clear](../../aspose.slides.animation/motionpath/clear)() | ลบคำสั่งทั้งหมดจากคอลเลกชัน. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | คืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | แทรกคำสั่งใหม่ลงในเส้นทาง |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | ลบคำสั่งที่ระบุจากคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | ลบคำสั่งที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม

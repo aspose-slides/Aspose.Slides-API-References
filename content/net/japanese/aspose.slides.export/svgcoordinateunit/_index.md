@@ -1,9 +1,9 @@
 ---
 title: SvgCoordinateUnit
 second_title: Aspose.Sildes for .NET API リファレンス
-description: SVG 座標の定義に使用される CSS2 座標単位を表します。
+description: CSS2 の座標単位を表し、SVG 座標の定義に使用されます。
 type: docs
-weight: 4460
+weight: 4480
 url: /ja/aspose.slides.export/svgcoordinateunit/
 ---
 ## SvgCoordinateUnit 列挙型
@@ -18,17 +18,17 @@ public enum SvgCoordinateUnit
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Inch | `0` | Inch |
-| Centimeter | `1` | Centimeter. |
-| Millimeter | `2` | Millimeter. |
-| Point | `3` | Point (1/72 of inch), |
-| Pica | `4` | Pica (1/6 of inch). |
-| Em | `5` | 含有要素のフォントの Em サイズ。 |
-| Ex | `6` | 含有要素のフォントの Ex サイズ（小文字の字母、通常は "x" のサイズ）。 |
+| Inch | `0` | インチ |
+| Centimeter | `1` | センチメートル。 |
+| Millimeter | `2` | ミリメートル。 |
+| Point | `3` | ポイント (インチの 1/72)、 |
+| Pica | `4` | パイカ (インチの 1/6)。 |
+| Em | `5` | 含む要素のフォントの Em サイズ。 |
+| Ex | `6` | Ex サイズ (小文字のサイズ、通常は "x")、含む要素のフォント。 |
 | Pixel | `7` | ピクセルサイズ。 |
 | Percent | `8` | パーセント。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: AxesManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp quyền truy cập vào các trục biểu đồ.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Cung cấp quyền truy cập tới các trục biểu đồ.
 type: docs
 weight: 1170
 url: /vi/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager lớp
 
-Cung cấp quyền truy cập vào các trục biểu đồ.
+Cung cấp quyền truy cập tới các trục biểu đồ.
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager

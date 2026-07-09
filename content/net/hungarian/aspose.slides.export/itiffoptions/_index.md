@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Sildes .NET API Referencia
-description: TIFF formátumban történő mentés módját szabályozó opciókat biztosít.
+second_title: Aspose.Sildes .NET API referencia
+description: Lehetőségeket biztosít, amelyek szabályozzák, hogy egy prezentáció hogyan kerül mentésre TIFF formátumban.
 type: docs
-weight: 4150
+weight: 4170
 url: /hu/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions interfész
 
-Megadja az opciókat, amelyek szabályozzák, hogyan mentődik a bemutató TIFF formátumban.
+Lehetőségeket biztosít, amelyek szabályozzák, hogy egy prezentáció hogyan kerül mentésre TIFF formátumban.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -19,15 +19,15 @@ public interface ITiffOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Megadja a színes kép fekete-fehér képpé konvertálásához használt algoritmust. Ez az opció csak akkor kerül alkalmazásra, ha a [`CompressionType`](./compressiontype) CCITT4 vagy CCITT3 értékre van beállítva. Olvasás/írás [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Alapértelmezett érték: Default. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Megadja a tömörítés típusát. Olvasás/írás [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Megadja a vízszintes felbontást pont per hüvelykben. Olvasás/írás UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Megadja a függőleges felbontást pont per hüvelykben. Olvasás/írás UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Megadja a létrehozott TIFF kép méretét. Az alapértelmezett érték 0x0, ami azt jelenti, hogy a kép mérete a bemutató diák mérete alapján kerül kiszámításra. Olvasás/írás Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Megadja a exportált dokumentumban az Ink objektumok megjelenését szabályzó opciókat. Csak olvasható [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Megadja a létrehozott képek pixel formátumát. Olvasás/írás [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Megadja, hogy a létrehozott dokumentum tartalmazzon-e rejtett diákot. Alapértelmezett érték: `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Beállítja vagy lekéri a diák oldalra helyezésének módját a bemutató exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Megadja a színes kép fekete-fehér képpé konvertálásának algoritmusát. Ez az opció csak akkor lesz alkalmazva, ha [`CompressionType`](./compressiontype) CCITT4 vagy CCITT3 értékre van beállítva. Olvasható/írható [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Alapértelmezett: Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Megadja a tömörítés típusát. Olvasható/írható [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Megadja a vízszintes felbontást pont per hüvelykben. Olvasható/írható UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Megadja a függőleges felbontást pont per hüvelykben. Olvasható/írható UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Megadja a generált TIFF kép méretét. Alapértelmezett érték 0x0, ami azt jelenti, hogy a generált kép mérete a prezentáció dia mérete alapján lesz kiszámítva. Olvasható/írható Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Megadja az opciókat, amelyek az exportált dokumentumban az Ink objektumok megjelenését szabályozzák. Csak olvasható [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Megadja a generált képek képpontformátumát. Olvasható/írható [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Megadja, hogy a generált dokumentum tartalmazzon-e rejtett diákot. Alapértelmezett: `false`. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Megkapja vagy beállítja azt a módot, amelyben a diák a lapra kerülnek egy prezentáció exportálásakor [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Lásd még
 

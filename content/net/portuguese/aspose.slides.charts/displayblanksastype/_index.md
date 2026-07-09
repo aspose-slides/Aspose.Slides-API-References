@@ -1,9 +1,9 @@
 ---
 title: DisplayBlanksAsType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência da API .NET
 description: Determina como os dados ausentes serão exibidos.
 type: docs
-weight: 1590
+weight: 1610
 url: /pt/aspose.slides.charts/displayblanksastype/
 ---
 ## Enumeração DisplayBlanksAsType
@@ -18,8 +18,8 @@ public enum DisplayBlanksAsType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Gap | `0` | Especifica que valores em branco devem ser deixados como um intervalo. |
-| Span | `1` | Especifica que valores em branco devem ser preenchidos com uma linha. |
+| Gap | `0` | Especifica que valores em branco devem ser deixados como um espaço. |
+| Span | `1` | Especifica que valores em branco devem ser estendidos com uma linha. |
 | Zero | `2` | Especifica que valores em branco devem ser tratados como zero. |
 
 ### Veja Também

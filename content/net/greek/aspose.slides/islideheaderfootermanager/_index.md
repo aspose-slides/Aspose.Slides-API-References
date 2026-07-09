@@ -1,14 +1,14 @@
 ---
 title: ISlideHeaderFooterManager
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει τον διαχειριστή που διακρατά τη συμπεριφορά των υποδεικτών υποσέλιδου διαφάνειας, ημερομηνίας-ώρας και αριθμού σελίδας.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά διαχειριστή που διατηρεί τη συμπεριφορά των στοιχείων κράτησης θέσης του υποσέλιδου της διαφάνειας, ημερομηνίας-ώρας και αριθμού σελίδας.
 type: docs
-weight: 7050
+weight: 7070
 url: /el/aspose.slides/islideheaderfootermanager/
 ---
-## ISlideHeaderFooterManager διασύνδεση
+## Διεπαφή ISlideHeaderFooterManager
 
-Αντιπροσωπεύει το διαχειριστή που διακρατά τη συμπεριφορά των κειμενοδοτών υποσέλιδου διαφάνειας, ημερομηνίας-ώρας, αριθμών σελίδας.
+Αναπαριστά διαχειριστή που διατηρεί τη συμπεριφορά των στοιχείων τοποθέτησης του υποσέλιδου διαφάνειας, ημερομηνίας-ώρας και αριθμού σελίδας.
 
 ```csharp
 public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,11 +18,11 @@ public interface ISlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Επιστρέφει το interface IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/islideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Επιστρέφει διεπαφή IBaseSlideHeaderFooterManager. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* διεπαφή [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συναρμολόγηση [Aspose.Slides](../../)
 

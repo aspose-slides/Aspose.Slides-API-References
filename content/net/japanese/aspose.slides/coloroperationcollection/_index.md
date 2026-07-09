@@ -3,12 +3,12 @@ title: ColorOperationCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: カラー変換操作のコレクションを表します。
 type: docs
-weight: 2520
+weight: 2540
 url: /ja/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection クラス
 
-コレクションのカラー変換操作を表します。
+カラー変換操作のコレクションを表します。
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,27 +18,27 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | コレクション内の操作数を返します。読み取り専用の Int32。 |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 指定したインデックスの操作を取得または設定します。読み書き [`ColorOperation`](../coloroperation)。 |
-| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | コレクション内の操作数を返します。 読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッド セーフ）されているかどうかを示す値を返します。 読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 指定したインデックスの操作を取得または設定します。 読み書き可能 [`ColorOperation`](../coloroperation)。 |
+| [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 同期ルートを返します。 読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | コレクションの末尾に新しい操作を追加します。 |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | コレクションの末尾に新しい操作を追加します。 |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | 新しい操作をコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | 新しい操作をコレクションの末尾に追加します。 |
 | [Clear](../../aspose.slides/coloroperationcollection/clear)() | すべてのカラー操作を削除します。 |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | ColorOperationCollection コレクションのコピーを作成します。 |
-| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | 現在のオブジェクトをクローンします |
-| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | 現在のオブジェクトをクローンします。 |
+| [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | コレクションからすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | 新しい操作をコレクションに挿入します。 |
 | [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 新しい操作をコレクションに挿入します。 |
 | [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | コレクションからカラー操作を削除します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IColorOperationCollection](../icoloroperationcollection)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

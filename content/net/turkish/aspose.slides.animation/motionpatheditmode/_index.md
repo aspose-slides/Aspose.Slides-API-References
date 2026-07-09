@@ -1,12 +1,12 @@
 ---
 title: MotionPathEditMode
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Hedef şekil hareket ettirildiğinde hareket yolunun nasıl hareket edeceğini belirtir
 type: docs
-weight: 680
+weight: 700
 url: /tr/aspose.slides.animation/motionpatheditmode/
 ---
-## MotionPathEditMode enumerasyonu
+## MotionPathEditMode enum
 
 Hedef şekil hareket ettirildiğinde hareket yolunun nasıl hareket edeceğini belirtir
 
@@ -16,7 +16,7 @@ public enum MotionPathEditMode
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Relative | `0` |  |

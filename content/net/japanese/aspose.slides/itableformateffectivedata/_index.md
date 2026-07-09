@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Slides for .NET API リファレンス
-description: 有効なテーブル書式プロパティを含む不変オブジェクト。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効なテーブル書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 7230
+weight: 7250
 url: /ja/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData インターフェイス
 
-有効なテーブル書式プロパティを含む不変オブジェクト。
+有効なテーブル書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -19,11 +19,11 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 | 名前 | 説明 |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | ベースの IBaseTableFormatEffectiveData インターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 塗りつぶしカラーの透明度を取得します。読み取り Single。 |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | 塗りつぶしカラーの透明度を取得します。Single を読み取ります。 |
 
 ### 備考
 
-このインターフェイスは [`ITableFormat`](../itableformat) インターフェイスと組み合わせて、継承およびテーブルスタイルが適用された有効な書式値を返すために使用されます。
+このインターフェイスは [`ITableFormat`](../itableformat) インターフェイスと共に使用され、継承およびテーブル スタイルが適用された有効な書式設定値を返します。
 
 ### 参照
 

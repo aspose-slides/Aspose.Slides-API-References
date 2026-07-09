@@ -1,7 +1,7 @@
 ---
 title: ISensitivityLabelCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: दस्तावेज़ पर लागू संवेदनशीलता लेबलों के संग्रह का प्रतिनिधित्व करता है।
+description: दस्तावेज़ पर लागू संवेदनशीलता लेबलों के संग्रह को दर्शाता है।
 type: docs
 weight: 6940
 url: /hi/aspose.slides/isensitivitylabelcollection/
@@ -18,19 +18,19 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | संग्रह में सभी तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | क्रमांक द्वारा संवेदनशीलता लेबल लौटाता है। केवल-पढ़ने योग्य [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | संग्रह में सभी तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | इंडेक्स द्वारा संवेदनशीलता लेबल लौटाता है। केवल-पढ़ने योग्य [`ISensitivityLabel`](../isensitivitylabel)। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | संग्रह में एक SensitivityLabel जोड़ता है। |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | संग्रह के अंत में संवेदनशीलता लेबल जोड़ता है। |
-| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | निर्दिष्ट क्रमांक पर संवेदनशीलता लेबल हटाता है। |
+| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | संग्रह से सभी तत्वों को हटा देता है। |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | निर्दिष्ट इंडेक्स पर संवेदनशीलता लेबल को हटा देता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ISensitivityLabel](../isensitivitylabel)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

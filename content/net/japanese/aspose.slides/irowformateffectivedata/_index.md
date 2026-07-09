@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効なテーブル行の書式設定プロパティを含む不変オブジェクトです。
+description: 効果的なテーブル行書式設定プロパティを含む不変オブジェクトです。
 type: docs
-weight: 6860
+weight: 6880
 url: /ja/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData インターフェイス
 
-有効なテーブル行の書式設定プロパティを含む不変オブジェクトです。
+効果的なテーブル行書式設定プロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | ベース IBaseTableFormatEffectiveData インターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata)。 |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | ベースのIBaseTableFormatEffectiveDataインターフェイスを取得できます。読み取り専用 [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### 備考
 
-このインターフェイスは [`IRowFormat`](../irowformat) インターフェイスと共に使用され、継承およびテーブルスタイルが適用された有効な書式設定値を返します。
+このインターフェイスは、[`IRowFormat`](../irowformat) インターフェイスと共に使用され、継承およびテーブルスタイルが適用された効果的な書式設定値を返します。
 
 ### 参照
 

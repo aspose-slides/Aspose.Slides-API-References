@@ -1,15 +1,14 @@
 ---
 title: Reflection
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt einen Reflexionseffekt dar.
 type: docs
-weight: 3520
+weight: 3640
 url: /de/aspose.slides.effects/reflection/
 ---
+## Reflection Klasse
 
-## Reflection-Klasse
-
-Stellt einen Reflexionseffekt dar.
+Represents a Reflection effect.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -17,35 +16,35 @@ public sealed class Reflection : IReflection
 
 ## Eigenschaften
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Verschwommene Radius. Lese-/Schreibzugriff Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Richtung der Reflexion. Lese-/Schreibzugriff Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Entfernung der Reflexion. Lese-/Schreibzugriff Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Gibt die Endposition (entlang des Alpha-Gradienten) des End-Alpha-Wertes (Prozentsatz) an. Lese-/Schreibzugriff Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Endreflexionsopazität. (Prozentsatz). Lese-/Schreibzugriff Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Gibt die Richtung an, um die Reflexion zu verschieben. (Grad). Lese-/Schreibzugriff Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rechteckausrichtung. Lese-/Schreibzugriff [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Gibt an, ob die Reflexion sich mit der Form drehen soll, wenn die Form gedreht wird. Lese-/Schreibzugriff Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. (Prozentsatz) Lese-/Schreibzugriff Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Umkehrung. (Prozentsatz) Lese-/Schreibzugriff Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Gibt den horizontalen Schrägungswinkel an. Lese-/Schreibzugriff Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Gibt den vertikalen Schrägungswinkel an. Lese-/Schreibzugriff Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Gibt die Startposition (entlang des Alpha-Gradienten) des Start-Alpha-Wertes (Prozentsatz) an. Lese-/Schreibzugriff Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Startreflexionsopazität. (Prozentsatz). Lese-/Schreibzugriff Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Unschärferadius. Lesen/Schreiben Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Richtung der Reflexion. Lesen/Schreiben Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Abstand der Reflexion. Lesen/Schreiben Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Gibt die Endposition (entlang der Alpha-Verlaufsrampe) des End-Alpha-Werts (Prozent) an. Lesen/Schreiben Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | End-Reflexions-Deckkraft. (Prozent). Lesen/Schreiben Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Gibt die Richtung an, um die die Reflexion verschoben wird. (Winkel). Lesen/Schreiben Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rechteckausrichtung. Lesen/Schreiben [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Gibt an, ob die Reflexion mit der Form rotiert werden soll, wenn die Form rotiert wird. Lesen/Schreiben Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Gibt den horizontalen Skalierungsfaktor an, negative Skalierung verursacht eine Spiegelung. (Prozent) Lesen/Schreiben Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Gibt den vertikalen Skalierungsfaktor an, negative Skalierung verursacht eine Spiegelung. (Prozent) Lesen/Schreiben Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Gibt den horizontalen Schrägwinkel an. Lesen/Schreiben Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Gibt den vertikalen Schrägwinkel an. Lesen/Schreiben Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Gibt die Startposition (entlang der Alpha-Verlaufsrampe) des Start-Alpha-Werts (Prozent) an. Lesen/Schreiben Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Startende Reflexions-Deckkraft. (Prozent). Lesen/Schreiben Single. |
 
 ## Methoden
 
-| Name | Beschreibung |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Bestimmt, ob die angegebene [`Reflection`](../reflection) gleich der aktuellen [`Reflection`](../reflection) ist. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Ruft die effektiven Reflexionseffektdaten mit der angewandten Vererbung ab. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Bestimmt, ob das angegebene [`Reflection`](../reflection) gleich dem aktuellen [`Reflection`](../reflection) ist. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Ruft die wirksamen Daten des Reflection-Effekts mit angewendeter Vererbung ab. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Dient als Hashfunktion für einen bestimmten Typ. |
 
 ### Siehe auch
 
-* Schnittstelle [IReflection](../ireflection)
-* Namensraum [Aspose.Slides.Effects](../../aspose.slides.effects)
-* Assembly [Aspose.Slides](../../)
+* interface [IReflection](../ireflection)
+* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

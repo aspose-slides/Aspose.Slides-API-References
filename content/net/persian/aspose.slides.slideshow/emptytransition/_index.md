@@ -1,14 +1,14 @@
 ---
 title: EmptyTransition
-second_title: مرجع API Aspose.Sildes برای .NET
-description: افکت انتقال اسلاید خالی.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: اثر انتقال اسلاید خالی.
 type: docs
 weight: 10030
 url: /fa/aspose.slides.slideshow/emptytransition/
 ---
-## EmptyTransition کلاس
+## کلاس EmptyTransition
 
-افکت انتقال اسلاید خالی.
+اثر انتقال اسلاید خالی.
 
 ```csharp
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
@@ -18,8 +18,8 @@ public class EmptyTransition : TransitionValueBase, IEmptyTransition
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونهٔ TransitionValueBase برابر هستند یا خیر. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند و برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند آیا دو نمونه TransitionValueBase برابر هستند یا نه. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
 ### موارد مرتبط
 

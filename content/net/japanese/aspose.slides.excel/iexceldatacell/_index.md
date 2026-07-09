@@ -3,12 +3,12 @@ title: IExcelDataCell
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Excel ワークブック内の単一セルを表します。
 type: docs
-weight: 3680
+weight: 3700
 url: /ja/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell インターフェイス
 
-Represents a single cell in an Excel workbook.
+Excel ワークブック内の単一セルを表します。
 
 ```csharp
 public interface IExcelDataCell
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | 名前 | 説明 |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | セルが位置するワークシートの列のゼロベースインデックスを取得します。読み取り専用 Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | チャート データ セルの名前を取得します。読み取り専用 String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | セルが位置するワークシートの行のゼロベースインデックスを取得します。読み取り専用 Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Excel セルに含まれる値を取得します。読み取り専用 Object. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | セルが配置されているワークシート内の列のゼロベースインデックスを取得します。読み取り専用 Int32。 |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | チャート データ セルの名前を取得します。読み取り専用 String。 |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | セルが配置されているワークシート内の行のゼロベースインデックスを取得します。読み取り専用 Int32。 |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Excel セルに含まれる値を取得します。読み取り専用 Object。 |
 
 ### 参照
 

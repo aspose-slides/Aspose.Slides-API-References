@@ -1,14 +1,14 @@
 ---
 title: ILuminanceEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een luminantie-effect voor. Helderheid verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij elkaar of verder van elkaar verwijderd zijn.
+description: Stelt een Luminance-effect voor. Brightness verschuift alle kleuren lineair dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij elkaar of verder uit elkaar liggen.
 type: docs
 weight: 3450
 url: /nl/aspose.slides.effects/iluminanceeffectivedata/
 ---
 ## ILuminanceEffectiveData interface
 
-Stelt een luminantie-effect voor. Helderheid verschuift lineair alle kleuren dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij elkaar of verder van elkaar verwijderd zijn.
+Stelt een Luminance-effect voor. Brightness verschuift alle kleuren lineair dichter naar wit of zwart. Contrast schaalt alle kleuren zodat ze dichter bij elkaar of verder uit elkaar liggen.
 
 ```csharp
 public interface ILuminanceEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ILuminanceEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Stelt toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Helderheid. Alleen-lezen Single. |
-| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. Alleen-lezen Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iluminanceeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis-IEffectEffectiveData interface op te halen. Alleen lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Brightness](../../aspose.slides.effects/iluminanceeffectivedata/brightness) { get; } | Brightness. Alleen lezen Single. |
+| [Contrast](../../aspose.slides.effects/iluminanceeffectivedata/contrast) { get; } | Contrast. Alleen lezen Single. |
 
 ### Zie ook
 

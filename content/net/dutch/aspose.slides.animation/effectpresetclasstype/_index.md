@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft effectklassetypen weer.
+description: Geeft effectklasse-typen weer.
 type: docs
 weight: 320
 url: /nl/aspose.slides.animation/effectpresetclasstype/
 ---
 ## EffectPresetClassType enumeratie
 
-Geeft effectklassetypen weer.
+Geeft effectklasse-typen weer.
 
 ```csharp
 public enum EffectPresetClassType
@@ -16,12 +16,12 @@ public enum EffectPresetClassType
 
 ### Waarden
 
-| Name | Value | Description |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Entrance | `0` | Entrance effectklasse. |
 | Exit | `1` | Exit effectklasse. |
 | Emphasis | `2` | Emphasis effectklasse. |
-| Path | `3` | Motion Paths class. |
+| Path | `3` | Motion Paths klasse. |
 | MediaCall | `4` | Media effectklasse. |
 | OLEActionVerbs | `5` | OLE Action Verbs klasse. |
 

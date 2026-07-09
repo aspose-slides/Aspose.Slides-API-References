@@ -1,25 +1,25 @@
 ---
 title: EmptyTransition
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Üres diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referenciája
+description: Üres diavetítés átmeneti hatása.
 type: docs
-weight: 10010
+weight: 10030
 url: /hu/aspose.slides.slideshow/emptytransition/
 ---
 ## EmptyTransition osztály
 
-Üres diaátmeneti hatás.
+Üres diavetítés átmeneti hatása.
 
 ```csharp
 public class EmptyTransition : TransitionValueBase, IEmptyTransition
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Meghatározza, hogy a két TransitionValueBase példány egyenlő-e. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla, való használatra. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Megállapítja, hogy a két TransitionValueBase példány egyenlő-e. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Hash függvényként szolgál egy adott típushoz, amely alkalmas hash algoritmusokban és olyan adatstruktúrákban, mint a hash tábla. |
 
 ### Lásd még
 

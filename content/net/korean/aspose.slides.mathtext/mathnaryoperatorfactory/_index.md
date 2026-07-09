@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 COM 호환성을 위해
 
-### 참고
+### 참조
 
 * 인터페이스 [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

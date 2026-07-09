@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một thành phần của biểu đồ.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một thành phần của biểu đồ.
 type: docs
 weight: 1790
 url: /vi/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent giao diện
 
-Biểu diễn một thành phần của biểu đồ.
+Đại diện cho một thành phần của biểu đồ.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,7 +18,7 @@ public interface IChartComponent : ISlideComponent
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ đọc [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Cho phép lấy giao diện cơ sở ISlideComponent. Chỉ đọc [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Trả về biểu đồ. Chỉ đọc [`IChart`](../ichart). |
 
 ### Xem thêm

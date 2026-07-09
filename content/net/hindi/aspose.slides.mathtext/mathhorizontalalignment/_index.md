@@ -1,14 +1,14 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: क्षैतिज अभिविन्यास
+second_title: Aspose.Sildes .NET के लिये API संदर्भ
+description: क्षैतिज संरेखण
 type: docs
 weight: 8780
 url: /hi/aspose.slides.mathtext/mathhorizontalalignment/
 ---
-## MathHorizontalAlignment एन्यूमरेशन
+## MathHorizontalAlignment एन्ह्यूमरेशन
 
-क्षैतिज अभिविन्यास
+क्षैतिज संरेखण
 
 ```csharp
 public enum MathHorizontalAlignment
@@ -16,14 +16,14 @@ public enum MathHorizontalAlignment
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
-| NotDefined | `0` | मान निर्धारित नहीं है |
+| NotDefined | `0` | मान परिभाषित नहीं है |
 | Left | `1` | बाएँ संरेखण |
-| Center | `2` | मध्य |
-| Right | `3` | दाएँ |
+| Center | `2` | केंद्र |
+| Right | `3` | दायाँ |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 불변 객체로 Alpha Ceiling 효과를 나타냅니다. Alpha 불투명도 값이 0보다 크면 100으로 변경됩니다. 다시 말해, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 알파 천장 효과를 나타내는 불변 객체입니다. 알파 불투명도 값이 0보다 큰 경우 100으로 변경됩니다. 다시 말해, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
 type: docs
 weight: 3050
 url: /ko/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
-## IAlphaCeilingEffectiveData interface
+## IAlphaCeilingEffectiveData 인터페이스
 
-불변 객체로, Alpha Ceiling 효과를 나타냅니다. Alpha(불투명도) 값이 0보다 큰 경우 100%로 변경됩니다. 다시 말해, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
+불변 객체로 Alpha Ceiling 효과를 나타냅니다. Alpha(불투명도) 값이 0보다 큰 경우 100%로 변경됩니다. 즉, 부분적으로 불투명한 모든 것이 완전히 불투명해집니다.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

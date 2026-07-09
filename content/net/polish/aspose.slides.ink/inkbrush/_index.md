@@ -1,9 +1,9 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje obiekt inkBrush.
 type: docs
-weight: 7550
+weight: 7570
 url: /pl/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush klasa
@@ -18,11 +18,11 @@ public class InkBrush : IInkBrush
 
 | Nazwa | Opis |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Pobiera lub ustawia kolor pędzla dla linii. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Pobiera typ efektu tuszu (e.g., Galaxy, Gold, Silver), który definiuje wizualny styl pociągnięcia tuszu. Wartość jest parsowana z właściwości pędzla "inkEffects". Jeśli nie określono rozpoznawanego efektu, zwracane jest NotDefined. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Pobiera lub ustawia rozmiar pędzla dla linii w punktach. |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Uzyskuje lub ustawia kolor pędzla dla linii. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Uzyskuje typ efektu atramentu (np. Galaxy, Gold, Silver), który definiuje wizualny styl pociągnięcia atramentu. Wartość jest analizowana z właściwości pędzla "inkEffects". Jeśli nie określono rozpoznawanego efektu, zwracany jest NotDefined. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Uzyskuje lub ustawia rozmiar pędzla dla linii w punktach. |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IInkBrush](../iinkbrush)
 * przestrzeń nazw [Aspose.Slides.Ink](../../aspose.slides.ink)

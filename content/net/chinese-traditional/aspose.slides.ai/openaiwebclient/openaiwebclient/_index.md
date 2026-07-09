@@ -16,18 +16,18 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| model | String | OpenAI 語言模型。可能的值有：- gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | OpenAI 語言模型。可能的值：- gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API 金鑰。 |
 | organizationId | String | 組織 ID（可選）。 |
 
-### 例外狀況
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentException | API 金鑰值不能為 null 或空。 |
-| ArgumentException | 文字模型值不能為 null 或空。 |
+| ArgumentException | API 金鑰的值不能為 null 或空字串。 |
+| ArgumentException | 文字模型的值不能為 null 或空字串。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [OpenAIWebClient](../../openaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../openaiwebclient)
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-建立使用外部管理的 HttpClient 的 OpenAI 網路用戶端實例。此實例不會處置所提供的 HttpClient，且該 HttpClient 仍由呼叫方所有。
+建立使用外部管理的 HttpClient 的 OpenAI 網路用戶端實例。提供的 HttpClient 不會在此實例中被釋放，仍由呼叫者擁有。
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -45,20 +45,20 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| model | String | OpenAI 語言模型。可能的值有：- gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | OpenAI 語言模型。可能的值：- gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | OpenAI API 金鑰 |
 | organizationId | String | 組織 ID（可選） |
-| httpClient | HttpClient | 外部管理的 `HttpClient` 實例 |
+| httpClient | HttpClient | 由外部管理的 `HttpClient` 實例 |
 
-### 例外狀況
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentException | API 金鑰值不能為 null 或空 |
-| ArgumentException | 文字模型值不能為 null 或空 |
+| ArgumentException | API 金鑰的值不能為 null 或空字串 |
+| ArgumentException | 文字模型的值不能為 null 或空字串 |
 | ArgumentNullException | HttpClient 不能為 null |
 
-### 參見
+### 另請參閱
 
 * 類別 [OpenAIWebClient](../../openaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../openaiwebclient)

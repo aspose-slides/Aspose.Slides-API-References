@@ -1,12 +1,12 @@
 ---
 title: IMasterThemeable
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il gestore del tema master.
 type: docs
-weight: 11310
+weight: 11330
 url: /it/aspose.slides.theme/imasterthemeable/
 ---
-## Interfaccia IMasterThemeable
+## interfaccia IMasterThemeable
 
 Rappresenta il gestore del tema master.
 

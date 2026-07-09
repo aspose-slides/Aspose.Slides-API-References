@@ -1,6 +1,6 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل البيانات العامة لجميع أنواع الشرائح.
 type: docs
 weight: 5340
@@ -8,7 +8,7 @@ url: /ar/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide واجهة
 
-يمثل البيانات المشتركة لجميع أنواع الشرائح.
+يمثل البيانات العامة لجميع أنواع الشرائح.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,30 +18,30 @@ public interface IBaseSlide : IThemeable
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | يسمح بالحصول على واجهة IThemeable الأساسية. للقراءة فقط [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | يعيد خلفية الشريحة. للقراءة فقط [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | يعيد مجموعة عناصر التحكم ActiveX الموجودة على الشريحة. للقراءة فقط [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | يعيد البيانات المخصصة للشريحة. للقراءة فقط [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | يوفر وصولاً سهلاً إلى الارتباطات التشعبية المحتواة. للقراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | يعيد أو يعيّن اسم الشريحة. قراءة/كتابة String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | يعيد أشكال الشريحة. للقراءة فقط [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | يوضح ما إذا كان يجب إظهار الأشكال على الشريحة الرئيسية في الشرائح أم لا. بالنسبة للشريحة الرئيسية نفسها، تُعيد هذه الخاصية دائمًا `false`. قراءة/كتابة Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | يعيد معرف الشريحة. للقراءة فقط UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | يعيد كائن TransitionEx الذي يحتوي على معلومات حول كيفية تقدم الشريحة المحددة أثناء عرض الشرائح. للقراءة فقط [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | يعيد كائن خط زمني للرسوم المتحركة. للقراءة فقط [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | يسمح بالحصول على واجهة IThemeable الأساسية. قراءة فقط [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | يعيد خلفية الشريحة. قراءة فقط [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | يعيد مجموعة عناصر التحكم ActiveX على الشريحة. قراءة فقط [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | يعيد البيانات المخصصة للشريحة. قراءة فقط [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | يوفر وصولًا سهلاً إلى الروابط التشعبية المحتواة. قراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | يعيد أو يحدد اسم الشريحة. قراءة/كتابة String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | يعيد أشكال الشريحة. قراءة فقط [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | يحدد ما إذا كان يجب عرض الأشكال على الشريحة الرئيسية في الشرائح أم لا. بالنسبة للشريحة الرئيسية نفسها، هذه الخاصية تُعيد دائمًا `false`. قراءة/كتابة Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | يعيد معرف الشريحة. قراءة فقط UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | يعيد كائن TransitionEx الذي يحتوي على معلومات حول كيفية تقدم الشريحة المحددة أثناء عرض الشرائح. قراءة فقط [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | يعيد كائن جدول زمنية الرسوم المتحركة. قراءة فقط [`IAnimationTimeLine`](../ianimationtimeline). |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | يحدد ما إذا كانت كائنات IBaseSlide الاثنين متساوية. يتم حساب القيمة المرجعة بناءً على بنية الشريحة والمحتوى الثابت. تكون الشرائح متساوية إذا كانت جميع الأشكال والأنماط والنصوص والرسوم المتحركة والإعدادات الأخرى، إلخ، متساوية. لا تأخذ المقارنة في الاعتبار قيم المعرف الفريدة، مثل SlideId والمحتوى الديناميكي، مثل قيمة التاريخ الحالية في العنصر النائب Date. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | يعثر على أول تكرار لشكل يحتوي على النص البديل المحدد. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | يجمع القطع النصية ذات التنسيق المتطابق في جميع الفقرات داخل جميع الأشكال المقبولة. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | يحدد ما إذا كان مثلي IBaseSlide متساويين. يتم حساب القيمة المرجعية بناءً على بنية الشريحة والمحتوى الثابت. تكون الشرائح متساوية إذا كانت جميع الأشكال والأنماط والنصوص والرسوم المتحركة والإعدادات الأخرى... متساوية. لا يأخذ المقارنة في الاعتبار قيم المعرف الفريد، مثل SlideId، والمحتوى الديناميكي، مثل قيمة التاريخ الحالي في Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | يعثر على أول حدوث لشكل مع النص البديل المحدد. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | يجمع المقاطع ذات التنسيق نفسه في جميع الفقرات في جميع الأشكال القابلة للقبول. |
 
 ### انظر أيضًا
 
 * واجهة [IThemeable](../../aspose.slides.theme/ithemeable)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

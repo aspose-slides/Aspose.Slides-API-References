@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes untuk .NET API Referensi
-description: Pengecualian yang dilemparkan ketika referensi sel yang tidak valid ditemui.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Pengecualian yang dilempar ketika referensi sel yang tidak valid ditemui.
 type: docs
-weight: 10700
+weight: 10720
 url: /id/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException kelas
 
-Pengecualian yang dilemparkan ketika referensi sel yang tidak valid ditemui.
+Pengecualian yang dilempar ketika referensi sel yang tidak valid ditemui.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -18,10 +18,10 @@ public class CellInvalidReferenceException : PptxEditException
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Menginisialisasi instance baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Menginisialisasi instance baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception) dengan pesan kesalahan yang ditentukan. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Menginisialisasi instance baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception) dengan pesan kesalahan yang ditentukan dan referensi ke pengecualian internal yang menjadi penyebab pengecualian ini. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Menginisialisasi instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan dan referensi sel yang tidak valid. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Menginisialisasi contoh baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Menginisialisasi contoh baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception) dengan pesan kesalahan tertentu. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Menginisialisasi contoh baru dari kelas [`CellInvalidReferenceException`](../cellinvalidreferenceexception) dengan pesan kesalahan tertentu dan referensi ke pengecualian dalam yang menjadi penyebab pengecualian ini. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Menginisialisasi contoh baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan tertentu dan referensi sel yang tidak valid. |
 
 ## Properti
 

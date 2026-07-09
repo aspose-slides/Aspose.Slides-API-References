@@ -1,7 +1,7 @@
 ---
 title: ISpreadsheetOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện các tùy chọn có thể được sử dụng để chỉ định hành vi bổ sung của bảng tính.
+description: Biểu diễn các tùy chọn có thể được sử dụng để chỉ định hành vi bổ sung của bảng tính.
 type: docs
 weight: 7120
 url: /vi/aspose.slides/ispreadsheetoptions/
@@ -18,10 +18,10 @@ public interface ISpreadsheetOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Lấy hoặc đặt thông tin văn hoá ưa thích để tính một số hàm được thiết kế cho các ngôn ngữ sử dụng bộ ký tự kép (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Nếu nguồn dữ liệu cho chart là một workbook ngoại vi và nó không khả dụng, nó sẽ được khôi phục từ cache của chart. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Lấy hoặc đặt thông tin văn hoá ưu tiên để tính một số hàm được thiết kế cho các ngôn ngữ sử dụng bộ ký tự hai byte (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Nếu nguồn dữ liệu cho biểu đồ là một sổ làm việc bên ngoài và không khả dụng, nó sẽ được khôi phục từ bộ nhớ cache của biểu đồ. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

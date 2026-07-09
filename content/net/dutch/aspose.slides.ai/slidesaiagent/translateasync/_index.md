@@ -1,14 +1,14 @@
 ---
 title: TranslateAsync
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertaal een presentatie naar de opgegeven taal met AI.
+description: Vertaal een presentatie naar de opgegeven taal met behulp van AI.
 type: docs
 weight: 50
 url: /nl/aspose.slides.ai/slidesaiagent/translateasync/
 ---
-## SlidesAIAgent.TranslateAsync-methode
+## SlidesAIAgent.TranslateAsync methode
 
-Vertaal een presentatie naar de opgegeven taal met AI.
+Vertaal een presentatie naar de opgegeven taal met behulp van AI.
 
 ```csharp
 public Task TranslateAsync(IPresentation presentation, string language)
@@ -19,16 +19,16 @@ public Task TranslateAsync(IPresentation presentation, string language)
 | presentation | IPresentation | Doelpresentatie |
 | language | String | Doeltaal |
 
-### Exceptions
+### Uitzonderingen
 
-| exceptie | conditie |
+| Uitzondering | Voorwaarde |
 | --- | --- |
 | ArgumentNullException | Presentatie-instantie is niet opgegeven |
 | ArgumentException | Taalwaarde mag niet null of leeg zijn |
 
 ### Opmerkingen
 
-Het voorbeeld hieronder gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt aangemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en verbinding maakt met de eigen LLM van Aspose. Om een andere AI-provider te gebruiken, lever uw eigen LLM, of pas de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geef een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties zijn:
+Het voorbeeld hieronder gebruikt de standaard [`AsposeAIWebClient`](../../asposeaiwebclient), die wordt aangemaakt door de parameterloze [`SlidesAIAgent`](../slidesaiagent) constructor en verbinding maakt met het eigen LLM van Aspose. Om een andere AI-provider te gebruiken, levert u uw eigen LLM, of past u de verbinding aan (bijvoorbeeld door uw eigen `HttpClient` te leveren), geeft u een [`IAIWebClient`](../../iaiwebclient) implementatie door aan de [`SlidesAIAgent`](../slidesaiagent) constructor. Beschikbare implementaties omvatten:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)

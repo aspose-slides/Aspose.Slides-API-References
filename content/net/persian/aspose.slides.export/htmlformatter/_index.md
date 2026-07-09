@@ -1,12 +1,12 @@
 ---
 title: HtmlFormatter
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: نمایانگر قالب فایل HTML است.
 type: docs
 weight: 3870
 url: /fa/aspose.slides.export/htmlformatter/
 ---
-## HtmlFormatter کلاس
+## کلاس HtmlFormatter
 
 نمایانگر قالب فایل HTML است.
 
@@ -18,11 +18,11 @@ public sealed class HtmlFormatter : IHtmlFormatter
 
 | نام | توضیح |
 | --- | --- |
-| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | یک قالب‌ساز HTML ایجاد می‌کند و بازمی‌گرداند برای تولید سفارشی HTML مبتنی بر فراخوانی بازگشتی. |
-| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | یک قالب‌ساز HTML ایجاد می‌کند و بازمی‌گرداند برای نمای ساده سند که شامل توالی اسلایدهای یکی زیر دیگری است. |
-| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | یک قالب‌ساز HTML ایجاد می‌کند و بازمی‌گرداند برای نمایش اسلاید ساده HTML که اسلایدها را یکی پس از دیگری نشان می‌دهد. |
+| static [CreateCustomFormatter](../../aspose.slides.export/htmlformatter/createcustomformatter)(IHtmlFormattingController) | یک فورمت‌کننده HTML ایجاد می‌کند و برمی‌گرداند برای تولید سفارشی با استفاده از کال‌بک. |
+| static [CreateDocumentFormatter](../../aspose.slides.export/htmlformatter/createdocumentformatter)(string, bool) | یک فورمت‌کننده HTML ایجاد می‌کند و برمی‌گرداند برای نمای ساده سند که شامل توالی اسلایدهایی به صورت یکی زیر دیگری است. |
+| static [CreateSlideShowFormatter](../../aspose.slides.export/htmlformatter/createslideshowformatter)(string, bool) | یک فورمت‌کننده HTML ایجاد می‌کند و برمی‌گرداند برای نمایش ساده اسلاید شو که اسلایدها را یکی پس از دیگری نمایش می‌دهد. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IHtmlFormatter](../ihtmlformatter)
 * فضای نام [Aspose.Slides.Export](../../aspose.slides.export)

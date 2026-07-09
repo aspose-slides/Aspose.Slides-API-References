@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表的形狀。
+description: 代表圖表的形狀。
 type: docs
 weight: 1470
 url: /zh-hant/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType 列舉
 
-Represents a shape of chart.
+代表圖表的形狀。
 
 ```csharp
 public enum ChartShapeType
@@ -16,17 +16,17 @@ public enum ChartShapeType
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | Chart shape 未定義。 |
-| Box | `0` | 指定 chart 應以盒狀形狀繪製。 |
-| Cone | `1` | 指定 chart 應以圓錐形繪製，圓錐的底部位於底部，圓錐的頂點位於資料標記的頂部。 |
-| ConeToMax | `2` | 指定 chart 應以截斷的圓錐形繪製，使圓錐的頂點對應最大資料值。 |
-| Cylinder | `3` | 指定 chart 應以圓柱體繪製。 |
-| Pyramid | `4` | 指定 chart 應以矩形金字塔形繪製，金字塔的底部位於底部，金字塔的頂點位於資料標記的頂部。 |
-| PyramidToMaximum | `5` | 指定 chart 應以截斷的圓錐形繪製，使圓錐的頂點對應最大資料值。 |
+| NotDefined | `-1` | 圖表形狀未定義。 |
+| Box | `0` | 指定圖表應以方塊形狀繪製。 |
+| Cone | `1` | 指定圖表應繪製為圓錐形，圓錐底部位於地面，圓錐尖端位於資料標記的頂部。 |
+| ConeToMax | `2` | 指定圖表應以截斷的圓錐形繪製，使圓錐的尖端為最大資料值。 |
+| Cylinder | `3` | 指定圖表應繪製為圓柱形。 |
+| Pyramid | `4` | 指定圖表應繪製為矩形金字塔，金字塔底部位於地面，金字塔尖端位於資料標記的頂部。 |
+| PyramidToMaximum | `5` | 指定圖表應以截斷的圓錐形繪製，使圓錐的尖端為最大資料值。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

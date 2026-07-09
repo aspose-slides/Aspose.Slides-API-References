@@ -1,9 +1,9 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes for .NET APIリファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャート上の凡例の位置を決定します。
 type: docs
-weight: 2300
+weight: 2320
 url: /ja/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType 列挙型
@@ -22,7 +22,7 @@ public enum LegendPositionType
 | Left | `1` | 凡例がチャートの左側に描画されることを指定します。 |
 | Right | `2` | 凡例がチャートの右側に描画されることを指定します。 |
 | Top | `3` | 凡例がチャートの上部に描画されることを指定します。 |
-| TopRight | `4` | 凡例がチャートの右上に描画されることを指定します。 |
+| TopRight | `4` | 凡例がチャートの右上部に描画されることを指定します。 |
 
 ### 参照
 

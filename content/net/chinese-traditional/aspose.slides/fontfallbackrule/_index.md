@@ -16,23 +16,23 @@ public class FontFallBackRule : IFontFallBackRule
 
 ## 建構函式
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | 建立新執行個體。 |
-| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | 建立新執行個體。 |
+| [FontFallBackRule](fontfallbackrule#constructor)(uint, uint, string) | 建立新實例。 |
+| [FontFallBackRule](fontfallbackrule#constructor_1)(uint, uint, string[]) | 建立新實例。 |
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides/fontfallbackrule/count) { get; } | 取得此範圍實際定義的字型數量。唯讀 Int32。 |
 | [Item](../../aspose.slides/fontfallbackrule/item) { get; } | 取得指定索引處的字型名稱。唯讀 [`IFontFallBackRule`](../ifontfallbackrule)。 |
 | [RangeEndIndex](../../aspose.slides/fontfallbackrule/rangeendindex) { get; set; } | 取得連續 Unicode 範圍的最後索引。 |
-| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 取得連續 Unicode 範圍的第一索引。 |
+| [RangeStartIndex](../../aspose.slides/fontfallbackrule/rangestartindex) { get; set; } | 取得連續 Unicode 範圍的第一個索引。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 將新的字型加入回退字型清單。 |
 | [AddFallBackFonts](../../aspose.slides/fontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 將新的字型加入回退字型清單。 |
@@ -40,10 +40,10 @@ public class FontFallBackRule : IFontFallBackRule
 | [IndexOf](../../aspose.slides/fontfallbackrule/indexof)(string) | 傳回集合中指定規則的索引。 |
 | [Remove](../../aspose.slides/fontfallbackrule/remove)(string) | 從清單中移除第一個出現的特定回退字型。 |
 | [RemoveAt](../../aspose.slides/fontfallbackrule/removeat)(int) | 從清單中移除指定索引處的回退字型。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 建立並傳回此規則的全部回退字型陣列。 |
-| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍的全部回退字型陣列。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray)() | 建立並傳回此規則的所有回退字型陣列。 |
+| [ToArray](../../aspose.slides/fontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍的所有回退字型陣列。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IFontFallBackRule](../ifontfallbackrule)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

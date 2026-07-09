@@ -1,12 +1,12 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يمثل نمط النمط.
 type: docs
 weight: 9360
 url: /ar/aspose.slides/patternstyle/
 ---
-## تعداد PatternStyle
+## PatternStyle تعداد
 
 يمثل نمط النمط.
 

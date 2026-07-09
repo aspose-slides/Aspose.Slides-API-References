@@ -1,9 +1,9 @@
 ---
 title: Flavor
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Programda kullanılan tüm markdown spesifikasyonları.
 type: docs
-weight: 3780
+weight: 3800
 url: /tr/aspose.slides.export/flavor/
 ---
 ## Flavor enumerasyonu
@@ -31,9 +31,9 @@ public enum Flavor
 | Remarkable | `10` | Remarkable çeşidi |
 | Showdown | `11` | Showdown çeşidi. |
 | Ghost | `12` | Ghost çeşidi. |
-| GitLab | `13` | Gitlab çeşidi. |
+| GitLab | `13` | GitLab çeşidi. |
 | Haroopad | `14` | Haroopad çeşidi. |
-| IaWriter | `15` | IAWriter çeşidi. |
+| IaWriter | `15` | IaWriter çeşidi. |
 | Redcarpet | `16` | Redcarpet çeşidi. |
 | ScholarlyMarkdown | `17` | Scholarly markdown çeşidi. |
 | Taiga | `18` | Taiga çeşidi. |
@@ -41,7 +41,7 @@ public enum Flavor
 | S9ETextFormatter | `20` | S9E text formatter çeşidi. |
 | XWiki | `21` | XWiki çeşidi. |
 | StackOverflow | `22` | Stack overflow çeşidi. |
-| Default | `23` | Varsayılan markdown çeşidi. |
+| Default | `23` | Default markdown çeşidi. |
 
 ### Örnekler
 
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)
 * derleme [Aspose.Slides](../../)

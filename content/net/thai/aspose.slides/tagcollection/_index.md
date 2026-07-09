@@ -1,14 +1,14 @@
 ---
 title: TagCollection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนความหมายของคอลเลกชันของแท็กที่เป็นคู่ของสตริงที่ผู้ใช้กำหนด
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนคอลเลกชันของแท็กที่เป็นคู่ของสตริงที่ผู้ใช้กำหนด
 type: docs
 weight: 10890
 url: /th/aspose.slides/tagcollection/
 ---
 ## TagCollection คลาส
 
-แทนความหมายของคอลเลกชันของแท็ก (คู่ของสตริงที่กำหนดโดยผู้ใช้)
+แทนกลุ่มของแท็ก (คู่ของสตริงที่ผู้ใช้กำหนด)
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -16,32 +16,32 @@ public sealed class TagCollection : ITagCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | ส่งคืนจำนวนของแท็กในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | ส่งคืนหรือกำหนดคู่คีย์และค่า ของแท็ก |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์ อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | ส่งคืนจำนวนของแท็กในคอลเล็กชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเล็กชันนั้นได้รับการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | ส่งคืนหรือกำหนดคู่ของคีย์และค่าของแท็ก. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | เพิ่มแท็กใหม่ลงในคอลเลกชัน |
-| [Clear](../../aspose.slides/tagcollection/clear)() | ลบแท็กทั้งหมดจากคอลเลกชัน |
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | ตรวจสอบว่าคอลเลกชันมีชื่อที่ระบุหรือไม่ |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | คัดลอทงค์ทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | ส่งคืน enumerator ที่วนผ่านคอลเลกชัน |
-| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | ส่งคืนคีย์ของแท็กที่ตำแหน่งดัชนีที่ระบุ |
-| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | ส่งคืนชื่อของแท็ก |
-| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | ส่งคืนค่าของแท็กที่ตำแหน่งดัชนีที่ระบุ |
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | ส่งคืนดัชนีฐานศูนย์ของคีย์ที่ระบุในคอลเลกชัน |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | ลบแท็กที่มีชื่อที่ระบุจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | ลบแท็กที่ตำแหน่งดัชนีที่ระบุ |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | เพิ่มแท็กใหม่ไปยังคอลเล็กชัน. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | ลบทุกแท็กออกจากคอลเล็กชัน. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | ตรวจสอบว่าคอลเล็กชันมีชื่อเฉพาะหรือไม่. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | คัดลอกรายการทั้งหมดจากคอลเล็กชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเล็กชัน. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | ส่งคืนคีย์ของแท็กที่ตำแหน่งที่ระบุ. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | ส่งคืนชื่อของแท็ก. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | ส่งคืนค่าของแท็กที่ตำแหน่งที่ระบุ. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | ส่งคืนตำแหน่งดัชนีเริ่มต้นจากศูนย์ของคีย์ที่ระบุในคอลเล็กชัน. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | ลบแท็กที่มีชื่อที่ระบุออกจากคอลเล็กชัน. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | ลบแท็กที่ตำแหน่งที่ระบุ. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีการเพิ่มแท็กไปยัง PowerPoint Presentation
+ตัวอย่างต่อไปนี้แสดงวิธีการเพิ่มแท็กลงในงานนำเสนอ PowerPoint.
 
 ```csharp
 [C#]

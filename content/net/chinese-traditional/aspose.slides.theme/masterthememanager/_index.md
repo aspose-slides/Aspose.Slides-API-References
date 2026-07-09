@@ -1,34 +1,34 @@
 ---
 title: MasterThemeManager
-second_title: Aspose.Sildes .NET API 參考
-description: 提供對簡報母版佈景主題的存取。
+second_title: Aspose.Sildes for .NET API 參考
+description: 提供存取簡報主題母版的功能。
 type: docs
 weight: 11440
 url: /zh-hant/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager 類別
 
-提供對簡報母版佈景主題的存取。
+提供存取簡報主題母版的功能。
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 ```
 
-## 屬性
+## Properties
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | 確定 OverrideTheme 是否覆寫繼承的有效佈景主題 (Presentation.MasterTheme) 或不覆寫。可讀寫 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 傳回覆寫的佈景主題物件。可讀寫 [`IMasterTheme`](../imastertheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | 判斷 OverrideTheme 是否覆寫繼承的有效主題 (Presentation.MasterTheme)。讀/寫 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。讀/寫 [`IMasterTheme`](../imastertheme)。 |
 
-## 方法
+## Methods
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | 將額外的配色方案套用至投影片。 |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | 傳回佈景主題物件。 |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | 將額外的色彩配置套用至投影片。 |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | 傳回主題物件。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [BaseThemeManager](../basethememanager)
 * 介面 [IMasterThemeManager](../imasterthememanager)

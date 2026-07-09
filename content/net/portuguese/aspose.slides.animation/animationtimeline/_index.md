@@ -1,12 +1,12 @@
 ---
 title: AnimationTimeLine
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa a linha do tempo da animação.
 type: docs
-weight: 110
+weight: 130
 url: /pt/aspose.slides.animation/animationtimeline/
 ---
-## AnimationTimeLine class
+## AnimationTimeLine classe
 
 Representa a linha do tempo da animação.
 
@@ -18,11 +18,11 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Nome | Descrição |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Retorna a coleção de sequências interativas. Estas sequências podem conter apenas efeitos por "click on shape" com forma alvo especificada. Somente leitura [`ISequenceCollection`](../isequencecollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Retorna a coleção de sequências interativas. Essas sequências podem conter apenas efeitos por "clique na forma" com forma alvo especificada. Somente leitura [`ISequenceCollection`](../isequencecollection). |
 | [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Retorna a sequência principal que pode conter apenas a coleção de efeitos principais. Somente leitura [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Retorna a coleção de animações de texto. Somente leitura [`ITextAnimationCollection`](../itextanimationcollection). |
 
-### Veja Também
+### Ver também
 
 * classe [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * classe [BaseSlide](../../aspose.slides/baseslide)

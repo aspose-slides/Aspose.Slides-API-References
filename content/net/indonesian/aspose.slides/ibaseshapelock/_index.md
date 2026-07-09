@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili operasi penguncian Shape yang dinonaktifkan.
+description: Mewakili operasi kunci Shape yang dinonaktifkan.
 type: docs
-weight: 5310
+weight: 5330
 url: /id/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock antarmuka
 
-Represents Shape lock (disabled operation).
+Mewakili kunci Shape (operasi dinonaktifkan).
 
 ```csharp
 public interface IBaseShapeLock
@@ -16,9 +16,9 @@ public interface IBaseShapeLock
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flag dinonaktifkan. Hanya-baca Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Mengembalikan true jika semua lock-flag dinonaktifkan. Boolean hanya-baca. |
 
 ### Lihat Juga
 

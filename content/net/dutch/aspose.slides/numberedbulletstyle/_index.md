@@ -19,51 +19,51 @@ public enum NumberedBulletStyle : sbyte
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `-1` | Niet gedefinieerd. |
-| BulletAlphaLCPeriod | `0` | Kleine letters alfabetisch met een punt. Voorbeeld: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | Hoofdletters alfabetisch met een punt. Voorbeeld: A., B., C., ... |
-| BulletArabicParenRight | `2` | Arabische cijfers met een sluitende haak. Voorbeeld: 1), 2), 3), ... |
+| BulletAlphaLCPeriod | `0` | Kleine letters alfabetische tekens met een punt. Voorbeeld: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | Hoofdletters alfabetische tekens met een punt. Voorbeeld: A., B., C., ... |
+| BulletArabicParenRight | `2` | Arabische cijfers met een afsluitende haak. Voorbeeld: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Arabische cijfers met een punt. Voorbeeld: 1., 2., 3., ... |
 | BulletRomanLCParenBoth | `4` | Kleine Romeinse cijfers met beide haakjes. Voorbeeld: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | Kleine Romeinse cijfers met een sluitende haak. Voorbeeld: i), ii), iii), ... |
+| BulletRomanLCParenRight | `5` | Kleine Romeinse cijfers met een afsluitende haak. Voorbeeld: i), ii), iii), ... |
 | BulletRomanLCPeriod | `6` | Kleine Romeinse cijfers met een punt. Voorbeeld: i., ii., iii., ... |
 | BulletRomanUCPeriod | `7` | Hoofdletters Romeinse cijfers met een punt. Voorbeeld: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Kleine letters alfabetisch met beide haakjes. Voorbeeld: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | Kleine letters alfabetisch met een sluitende haak. Voorbeeld: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Hoofdletters alfabetisch met beide haakjes. Voorbeeld: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | Hoofdletters alfabetisch met een sluitende haak. Voorbeeld: A), B), C), ... |
+| BulletAlphaLCParenBoth | `8` | Kleine letters alfabetische tekens met beide haakjes. Voorbeeld: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | Kleine letters alfabetische tekens met een afsluitende haak. Voorbeeld: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | Hoofdletters alfabetische tekens met beide haakjes. Voorbeeld: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | Hoofdletters alfabetische tekens met een afsluitende haak. Voorbeeld: A), B), C), ... |
 | BulletArabicParenBoth | `12` | Arabische cijfers met beide haakjes. Voorbeeld: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Arabische cijfers. Voorbeeld: 1, 2, 3, ... |
 | BulletRomanUCParenBoth | `14` | Hoofdletters Romeinse cijfers met beide haakjes. Voorbeeld: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | Hoofdletters Romeinse cijfers met een sluitende haak. Voorbeeld: I), II), III), ... |
+| BulletRomanUCParenRight | `15` | Hoofdletters Romeinse cijfers met een afsluitende haak. Voorbeeld: I), II), III), ... |
 | BulletSimpChinPlain | `16` | Vereenvoudigd Chinees zonder punt. |
 | BulletSimpChinPeriod | `17` | Vereenvoudigd Chinees met een punt. |
-| BulletCircleNumDBPlain | `18` | Dubbele-byte omcirkeld getal voor waarden tot 10, vanaf 11 - Arabische cijfers. |
-| BulletCircleNumWDWhitePlain | `19` | Tekstkleurig getal met dezelfde gekleurde cirkel eromheen (Wingdings witte cirkelnummers). Vanaf 11 - Arabische cijfers. |
-| BulletCircleNumWDBlackPlain | `20` | Schaduwkleurig getal met cirkelvormige achtergrond van normale tekstkleur (Wingdings zwarte cirkelnummers). |
+| BulletCircleNumDBPlain | `18` | Dubbel-byte omcirkeld nummer voor waarden tot 10, vanaf 11 - Arabische nummers. |
+| BulletCircleNumWDWhitePlain | `19` | Tekstkleurig nummer met dezelfde kleur cirkel eromheen (Wingdings witte cirkel nummers). Vanaf 11 - Arabische nummers. |
+| BulletCircleNumWDBlackPlain | `20` | Schaduwkleur nummer met cirkelvormige achtergrond van normale tekstkleur (Wingdings zwarte cirkel nummers). |
 | BulletTradChinPlain | `21` | Traditioneel Chinees zonder punt. |
 | BulletTradChinPeriod | `22` | Traditioneel Chinees met een punt. |
-| BulletArabicAlphaDash | `23` | Arabische alfabetische tekens met een koppelteken. |
-| BulletArabicAbjadDash | `24` | Arabische Abjad-alfabeten met een koppelteken. |
-| BulletHebrewAlphaDash | `25` | Hebreeuwse alfabetische tekens met een koppelteken. |
-| BulletKanjiKoreanPlain | `26` | Japanse/Koreaanse cijfers zonder punt. |
-| BulletKanjiKoreanPeriod | `27` | Japanse/Koreaanse cijfers met een punt. |
-| BulletArabicDBPlain | `28` | Dubbele-byte Arabisch talstelsel (geen interpunctie). |
-| BulletArabicDBPeriod | `29` | Dubbele-byte Arabisch talstelsel met dubbele-byte punt. |
-| BulletThaiAlphaPeriod | `30` | Thais alfabet met een punt. |
-| BulletThaiAlphaParenRight | `31` | Thais alfabet haakjes - rechts. |
-| BulletThaiAlphaParenBoth | `32` | Thais alfabet haakjes - beide. |
-| BulletThaiNumPeriod | `33` | Thais cijfer met een punt. |
-| BulletThaiNumParenRight | `34` | Thais cijfer haakjes - rechts. |
-| BulletThaiNumParenBoth | `35` | Thais cijfer haakjes - beide. |
-| BulletHindiAlphaPeriod | `36` | Hindi alfabet met een punt - klinkers. |
-| BulletHindiNumPeriod | `37` | Hindi cijfer met een punt. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji Simpel Chinees DBPeriod. |
-| BulletHindiNumParenRight | `39` | Hindi cijfer haakjes - rechts. |
-| BulletHindiAlpha1Period | `40` | Hindi alfabet met een punt - medeklinkers. |
+| BulletArabicAlphaDash | `23` | Arabisch alfabetische tekens met een streepje. |
+| BulletArabicAbjadDash | `24` | Arabische Abjad-alfabetten met een streepje. |
+| BulletHebrewAlphaDash | `25` | Hebreeuwse alfabetische tekens met een streepje. |
+| BulletKanjiKoreanPlain | `26` | Japanse/Koreaanse nummers zonder punt. |
+| BulletKanjiKoreanPeriod | `27` | Japanse/Koreaanse nummers met een punt. |
+| BulletArabicDBPlain | `28` | Dubbel-byte Arabische nummeringsschema (zonder interpunctie). |
+| BulletArabicDBPeriod | `29` | Dubbel-byte Arabische nummeringsschema met dubbel-byte punt. |
+| BulletThaiAlphaPeriod | `30` | Thaise alfabet punt. |
+| BulletThaiAlphaParenRight | `31` | Thaise alfabet haakjes - rechts. |
+| BulletThaiAlphaParenBoth | `32` | Thaise alfabet haakjes - beide. |
+| BulletThaiNumPeriod | `33` | Thaise numerieke punt. |
+| BulletThaiNumParenRight | `34` | Thaise numerieke haakjes - rechts. |
+| BulletThaiNumParenBoth | `35` | Thaise numerieke haakjes - beide. |
+| BulletHindiAlphaPeriod | `36` | Hindi alfabet punt - klinkers. |
+| BulletHindiNumPeriod | `37` | Hindi numerieke punt. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji Simpeler Chinees DBPeriod. |
+| BulletHindiNumParenRight | `39` | Hindi numerieke haakjes - rechts. |
+| BulletHindiAlpha1Period | `40` | Hindi alfabet punt - medeklinkers. |
 
 ### Zie ook
 
 * naamruimte [Aspose.Slides](../../aspose.slides)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 전체에 적용되는 보기 속성.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션 전체 보기 속성.
 type: docs
 weight: 11740
 url: /ko/aspose.slides/viewproperties/
 ---
 ## ViewProperties 클래스
 
-Presentation 전체 보기 속성.
+프레젠테이션 전체 보기 속성.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -18,14 +18,14 @@ public class ViewProperties : IViewProperties
 
 | 이름 | 설명 |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | Presentation 문서의 기본 그리드에 사용되는 그리드 간격을 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | 프레젠테이션 문서가 마지막으로 저장될 때 사용된 보기 모드를 지정합니다. 읽기/쓰기 [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 일반 보기 속성을 나타냅니다. 일반 보기는 세 개의 콘텐츠 영역으로 구성됩니다: 슬라이드 자체, 측면 콘텐츠 영역, 하단 콘텐츠 영역. 읽기 전용 [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | 노트 보기 모드와 연결된 일반 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | 프레젠테이션 문서의 기본 그리드에 사용되어야 하는 그리드 간격을 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | 마지막으로 프레젠테이션 문서가 저장될 때 사용된 보기 모드를 지정합니다. 읽기/쓰기 [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 일반 보기 속성을 나타냅니다. 일반 보기에는 슬라이드 자체, 측면 콘텐츠 영역, 하단 콘텐츠 영역의 세 개 영역이 포함됩니다. 읽기 전용 [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | 노트 보기 모드와 연관된 일반 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 | [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | 슬라이드 주석을 표시할지 여부를 지정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | 슬라이드 보기 모드와 연결된 일반 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | 슬라이드 보기 모드와 연관된 일반 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IViewProperties](../iviewproperties)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

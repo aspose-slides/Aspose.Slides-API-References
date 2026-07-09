@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa uma coleção de slides mestres.
+second_title: Aspose.Sildes para .NET - Referência da API
+description: Representa uma coleção de slides mestre.
 type: docs
-weight: 6410
+weight: 6430
 url: /pt/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interface
 
-Representa uma coleção de slides mestres.
+Representa uma coleção de slides mestre.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -25,12 +25,12 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 | Nome | Descrição |
 | --- | --- |
 | [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Adiciona uma cópia de um slide mestre especificado ao final da coleção. Slides de layout vinculados também serão copiados. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Insere uma cópia de um slide mestre especificado na posição indicada da coleção. Slides de layout vinculados também serão copiados. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Insere uma cópia de um slide mestre especificado na posição especificada da coleção. Slides de layout vinculados também serão copiados. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Remove a primeira ocorrência de um objeto específico da coleção. |
 | [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Remove o elemento no índice especificado da coleção. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Remove slides mestres não utilizados. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Remove slides mestre não utilizados. |
 
-### Veja também
+### Veja Também
 
 * interface [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * interface [IMasterSlide](../imasterslide)

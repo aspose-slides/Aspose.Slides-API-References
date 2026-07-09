@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 提供對不同類型已覆寫主題的存取。
+description: 提供存取不同類型的已覆寫主題。
 type: docs
 weight: 11350
 url: /zh-hant/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager 介面
 
-提供對不同類型的已覆寫主題的存取。
+Provides access to different types of overriden themes.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -19,8 +19,8 @@ public interface IOverrideThemeManager : IThemeManager
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 允許取得基礎 IThemeManager 介面。唯讀 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 判斷 OverrideTheme 是否覆寫繼承的有效主題。若要啟用 OverrideTheme 進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。可讀寫 [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | 決定 OverrideTheme 是否覆寫繼承的有效主題。若要啟用 OverrideTheme 進行覆寫，請使用 OverrideTheme.Init*() 方法。若要停用 OverrideTheme 的覆寫，請使用 OverrideTheme.Clear() 方法。唯讀 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 傳回覆寫的主題物件。讀寫 [`IOverrideTheme`](../ioverridetheme)。 |
 
 ### 另請參閱
 

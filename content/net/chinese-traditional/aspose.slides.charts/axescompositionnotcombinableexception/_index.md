@@ -1,14 +1,14 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 當系列的軸組合無法與圖表中現有的軸組合相容時拋出的例外。
+second_title: Aspose.Sildes for .NET API 參考
+description: 當序列的軸組合無法與圖表中現有的軸組合結合時所拋出的例外。
 type: docs
 weight: 1160
 url: /zh-hant/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException 類別
 
-當系列的軸組合無法與圖表中現有的軸組合相容時拋出的例外。
+Exception 在圖表中當序列的軸組合無法與現有軸組合結合時拋出。
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
@@ -19,8 +19,8 @@ public class AxesCompositionNotCombinableException : InvalidOperationException
 | 名稱 | 說明 |
 | --- | --- |
 | [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | 預設建構函式。 |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | 允許將訊息新增至此例外的建構函式。 |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | 包含訊息和內嵌例外的建構函式。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | 允許為此 Exception 加入訊息的建構函式。 |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | 包含訊息與嵌入例外的 Exception 建構函式。 |
 
 ### 另請參閱
 

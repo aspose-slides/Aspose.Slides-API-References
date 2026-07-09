@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes for .NET API Referenciája
-description: A parancs hatás típusát reprezentálja a parancs hatás viselkedéséhez.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A parancs hatás típusát képviseli a parancs hatás viselkedéséhez.
 type: docs
-weight: 250
+weight: 270
 url: /hu/aspose.slides.animation/commandeffecttype/
 ---
 ## CommandEffectType enumeráció
 
-A parancs hatás típusát reprezentálja a parancs hatás viselkedéséhez.
+A CommandEffectType a parancs-hatás típusát képviseli a parancs-hatás viselkedéséhez.
 
 ```csharp
 public enum CommandEffectType : sbyte

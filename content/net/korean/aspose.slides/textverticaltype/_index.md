@@ -1,6 +1,6 @@
 ---
 title: TextVerticalType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트의 수직 쓰기 모드를 결정합니다.
 type: docs
 weight: 11030
@@ -19,13 +19,13 @@ public enum TextVerticalType : sbyte
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | NotDefined | `-1` | 정의되지 않음. |
-| Horizontal | `0` | 수평 텍스트. |
-| Vertical | `1` | 수직 텍스트. |
-| Vertical270 | `2` | 수직 270도 텍스트. |
-| WordArtVertical | `3` | WordArt 수직 텍스트. |
-| EastAsianVertical | `4` | 동아시아 수직 텍스트. |
-| MongolianVertical | `5` | 몽골 수직 텍스트. |
-| WordArtVerticalRightToLeft | `6` | WordArt 수직 오른쪽에서 왼쪽으로 텍스트. |
+| Horizontal | `0` | 가로 텍스트. |
+| Vertical | `1` | 세로 텍스트. |
+| Vertical270 | `2` | 270도 세로 텍스트. |
+| WordArtVertical | `3` | 워드아트 세로 텍스트. |
+| EastAsianVertical | `4` | 동아시아 세로 텍스트. |
+| MongolianVertical | `5` | 몽골 세로 텍스트. |
+| WordArtVerticalRightToLeft | `6` | 워드아트 세로 오른쪽에서 왼쪽 텍스트. |
 
 ### 참조
 

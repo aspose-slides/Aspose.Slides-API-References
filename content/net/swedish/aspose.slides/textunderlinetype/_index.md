@@ -3,10 +3,10 @@ title: TextUnderlineType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar typen av textunderstrykning.
 type: docs
-weight: 10990
+weight: 11010
 url: /sv/aspose.slides/textunderlinetype/
 ---
-## TextUnderlineType enum
+## TextUnderlineType enumeration
 
 Representerar typen av textunderstrykning.
 
@@ -16,7 +16,7 @@ public enum TextUnderlineType : sbyte
 
 ### Värden
 
-| Namn | Värde | Beskrivning |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

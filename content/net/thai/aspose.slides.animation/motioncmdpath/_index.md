@@ -1,14 +1,14 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคำสั่งหนึ่งของเส้นทาง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนคำสั่งหนึ่งของเส้นทาง.
 type: docs
 weight: 650
 url: /th/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath คลาส
 
-แสดงคำสั่งหนึ่งของเส้นทาง.
+แทนคำสั่งหนึ่งของเส้นทาง.
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
@@ -19,7 +19,7 @@ public class MotionCmdPath : IMotionCmdPath
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | ระบุประเภทคำสั่ง. อ่าน/เขียน [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | กำหนดพิกัดคำสั่งว่าเป็นสัมพัทธ์หรือไม่. อ่าน/เขียน Boolean. |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | กำหนดพิกัดคำสั่งเป็นสัมพันธ์หรือไม่. อ่าน/เขียน Boolean. |
 | [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | ระบุจุดของคำสั่ง. อ่าน/เขียน PointF[]. |
 | [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | ระบุประเภทจุดคำสั่ง อ่าน/เขียน [`MotionPathPointsType`](../motionpathpointstype). |
 

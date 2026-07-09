@@ -1,14 +1,14 @@
 ---
 title: IPictureFrameLock
-second_title: Aspose.Sildes pro .NET – reference API
-description: Určuje, které operace jsou na nadřazeném PictureFrameEx zakázány.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Určuje, které operace jsou zakázány na nadřazeném objektu PictureFrameEx.
 type: docs
-weight: 6660
+weight: 6680
 url: /cs/aspose.slides/ipictureframelock/
 ---
 ## IPictureFrameLock rozhraní
 
-Určuje, které operace jsou na nadřazeném PictureFrameEx zakázány.
+Určuje, které operace jsou zakázány na nadřazeném objektu PictureFrameEx.
 
 ```csharp
 public interface IPictureFrameLock : IBaseShapeLock
@@ -18,18 +18,18 @@ public interface IPictureFrameLock : IBaseShapeLock
 
 | Název | Popis |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Určuje, zda je zakázáno měnit hodnoty úpravy. Čtení/zápis Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Určuje, zda je zakázáno měnit šipky. Čtení/zápis Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/ipictureframelock/adjusthandleslocked) { get; set; } | Určuje, zda je zakázáno měnit hodnoty úprav. Čtení/Zápis Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/ipictureframelock/arrowheadslocked) { get; set; } | Určuje, zda je zakázáno měnit šipky. Čtení/Zápis Boolean. |
 | [AsIBaseShapeLock](../../aspose.slides/ipictureframelock/asibaseshapelock) { get; } | Umožňuje získat základní rozhraní IBaseShapeLock. Pouze pro čtení [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovat poměr stran při změně velikosti. Čtení/zápis Boolean. |
-| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Určuje, zda je zakázáno ořezávat obrázek. Čtení/zápis Boolean. |
-| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Určuje, zda je zakázáno přímo měnit obrys tohoto tvaru. Čtení/zápis Boolean. |
-| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidávat tento tvar do skupiny. Čtení/zápis Boolean. |
-| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Určuje, zda je zakázáno přesouvat tento tvar. Čtení/zápis Boolean. |
-| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Určuje, zda je zakázáno měnit úhel otočení tohoto tvaru. Čtení/zápis Boolean. |
-| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybírat tento tvar. Čtení/zápis Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Určuje, zda je zakázáno měnit typ tvaru. Čtení/zápis Boolean. |
-| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Čtení/zápis Boolean. |
+| [AspectRatioLocked](../../aspose.slides/ipictureframelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovávat poměr stran při změně velikosti. Čtení/Zápis Boolean. |
+| [CropLocked](../../aspose.slides/ipictureframelock/croplocked) { get; set; } | Určuje, zda je zakázáno ořezávat obrázek. Čtení/Zápis Boolean. |
+| [EditPointsLocked](../../aspose.slides/ipictureframelock/editpointslocked) { get; set; } | Určuje, zda je zakázáno přímo měnit obrys tohoto tvaru. Čtení/Zápis Boolean. |
+| [GroupingLocked](../../aspose.slides/ipictureframelock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidat tento tvar do skupiny. Čtení/Zápis Boolean. |
+| [PositionLocked](../../aspose.slides/ipictureframelock/positionlocked) { get; set; } | Určuje, zda je zakázáno přesunout tento tvar. Čtení/Zápis Boolean. |
+| [RotationLocked](../../aspose.slides/ipictureframelock/rotationlocked) { get; set; } | Určuje, či je zakázáno měnit úhel otáčení tohoto tvaru. Čtení/Zápis Boolean. |
+| [SelectLocked](../../aspose.slides/ipictureframelock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybrat tento tvar. Čtení/Zápis Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/ipictureframelock/shapetypelocked) { get; set; } | Určuje, zda je zakázáno měnit typ tvaru. Čtení/Zápis Boolean. |
+| [SizeLocked](../../aspose.slides/ipictureframelock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Čtení/Zápis Boolean. |
 
 ### Viz také
 

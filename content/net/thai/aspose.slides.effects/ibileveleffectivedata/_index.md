@@ -1,14 +1,14 @@
 ---
 title: IBiLevelEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ออบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งแทนเอฟเฟกต์ระดับสองสีดำ/สีขาว สีที่ป้อนเข้าที่ความสว่างน้อยกว่าค่าธรณีที่ระบุจะถูกเปลี่ยนเป็นสีดำ สีที่ป้อนเข้าที่ความสว่างเท่ากับหรือมากกว่าค่าที่ระบุจะถูกตั้งเป็นสีขาว ค่าผลกระทบอัลฟาจะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Bi-Level ขาว/ดำ. รายการสีอินพุตที่ความสว่างน้อยกว่าค่าธรณีที่กำหนดจะถูกเปลี่ยนเป็นสีดำ. รายการสีอินพุตที่ความสว่างมากกว่าหรือเท่ากับค่าที่กำหนดจะถูกตั้งค่าเป็นสีขาว. ค่าผลกระทบ alpha จะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้.
 type: docs
 weight: 3170
 url: /th/aspose.slides.effects/ibileveleffectivedata/
 ---
 ## IBiLevelEffectiveData อินเทอร์เฟซ
 
-ออบเจกต์ที่ไม่เปลี่ยนแปลงได้ซึ่งแทนเอฟเฟกต์ระดับสอง (สีดำ/สีขาว) สีที่ป้อนเข้าที่ความสว่างน้อยกว่าค่าธรณีที่ระบุจะถูกเปลี่ยนเป็นสีดำ สีที่ป้อนเข้าที่ความสว่างเท่ากับหรือมากกว่าค่าที่ระบุจะถูกตั้งเป็นสีขาว ค่าผลกระทบอัลฟาจะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้.
+อ็อบเจกต์ไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Bi-Level (ดำ/ขาว) รายการสีอินพุตที่ความสว่างน้อยกว่าค่าธรณีที่กำหนดจะถูกเปลี่ยนเป็นสีดำ รายการสีอินพุตที่ความสว่างมากกว่าหรือเท่ากับค่าที่กำหนดจะถูกตั้งค่าเป็นสีขาว ค่าผลกระทบ alpha จะไม่ได้รับผลกระทบจากเอฟเฟกต์นี้
 
 ```csharp
 public interface IBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBiLevelEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | ส่งคืนค่าธรณี. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ibileveleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ibileveleffectivedata/threshold) { get; } | คืนค่าค่าธรณี. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

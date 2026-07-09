@@ -1,6 +1,6 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes ل .NET مرجع API
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يسمح بإنشاء أجزاء اختبار
 type: docs
 weight: 6720
@@ -14,19 +14,19 @@ url: /ar/aspose.slides/iportionfactory/
 public interface IPortionFactory
 ```
 
-## الطرق
+## طرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | ينشئ جزء نص فارغ. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | ينشئ جزءًا باستخدام بيانات جزء محدد. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | ينشئ جزء نص من سلسلة محددة. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | ينشئ جزء نصي فارغ. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | ينشئ جزءًا باستخدام بيانات جزء محددة. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | ينشئ جزء نصي من سلسلة محددة. |
 
 ### ملاحظات
 
-لتوافق COM
+للتوافق مع COM
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

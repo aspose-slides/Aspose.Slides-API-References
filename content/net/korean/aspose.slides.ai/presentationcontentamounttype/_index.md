@@ -1,14 +1,14 @@
 ---
 title: PresentationContentAmountType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 생성된 프레젠테이션에 포함되는 콘텐츠 양을 지정하며, 슬라이드 수와 슬라이드당 상세 수준 모두에 영향을 줍니다.
+description: 생성된 프레젠테이션에 포함된 콘텐츠 양을 지정하며, 슬라이드 수와 슬라이드당 상세 수준 모두에 영향을 줍니다.
 type: docs
 weight: 60
 url: /ko/aspose.slides.ai/presentationcontentamounttype/
 ---
 ## PresentationContentAmountType 열거형
 
-생성된 프레젠테이션에 포함되는 콘텐츠 양을 지정하며, 슬라이드 수와 슬라이드당 상세 수준 모두에 영향을 줍니다.
+생성된 프레젠테이션에 포함되는 콘텐츠 양을 지정하며, 슬라이드 수와 슬라이드당 자세한 수준 모두에 영향을 줍니다.
 
 ```csharp
 public enum PresentationContentAmountType
@@ -16,11 +16,11 @@ public enum PresentationContentAmountType
 
 ### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Brief | `0` | 짧고 기본적인 내용. |
-| Medium | `1` | 보통 수준의 내용. |
-| Detailed | `2` | 광범위한 텍스트가 포함된 가장 상세한 옵션. |
+| Medium | `1` | 보통 정도의 콘텐츠 양. |
+| Detailed | `2` | 광범위한 텍스트가 포함된 가장 자세한 옵션. |
 
 ### 참조
 

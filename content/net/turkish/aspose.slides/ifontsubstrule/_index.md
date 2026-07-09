@@ -1,12 +1,12 @@
 ---
 title: IFontSubstRule
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Yazı tipi değiştirme bilgilerini temsil eder
 type: docs
-weight: 5860
+weight: 5880
 url: /tr/aspose.slides/ifontsubstrule/
 ---
-## IFontSubstRule arayüzü
+## IFontSubstRule arayüz
 
 Yazı tipi değiştirme bilgilerini temsil eder
 
@@ -18,9 +18,9 @@ public interface IFontSubstRule
 
 | Ad | Açıklama |
 | --- | --- |
-| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Değiştirme için kullanılacak yazı tipi Yalnızca okuma [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Değiştirme için uygulanacak kural Yalnızca okuma [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Değiştirilecek yazı tipi Yalnızca okuma [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/ifontsubstrule/destfont) { get; } | Salt okunur [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/ifontsubstrule/replacefontcondition) { get; } | Salt okunur [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/ifontsubstrule/sourcefont) { get; } | Salt okunur [`IFontData`](../ifontdata). |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Sildes a .NET API hivatkozás
-description: Geometriai alakzatok módosító értékét reprezentálja. Ezek az értékek befolyásolják az alakzatok formáját.
+second_title: Aspose.Sildes .NET API referencia
+description: Geometriai alakzatok beállítási értékét képviseli. Ezek az értékek befolyásolják az alakzatok formáját.
 type: docs
-weight: 5160
+weight: 5180
 url: /hu/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue interfész
 
-A geometriai alakzat módosító értékét képviseli. Ezek az értékek befolyásolják az alakzat formáját.
+A geometriai alakzat beállítási értékét képviseli. Ezek az értékek befolyásolják az alakzat alakját.
 
 ```csharp
 public interface IAdjustValue
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | Név | Leírás |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Visszaadja vagy beállítja az értéket, fokban kifejezett szöget értelmezve. Olvasás/írás Single. |
-| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Visszaadja ennek a módosító értéknek a nevét. Csak olvasható String. |
-| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Visszaadja vagy beállítja a módosító értéket "ahogy van". Olvasás/írás Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Visszaadja az alakzat módosításának típusát. Csak olvasható [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | Visszaadja vagy beállítja az értéket, fokban lévő szögeként értelmezve. Olvasható/írható Single. |
+| [Name](../../aspose.slides/iadjustvalue/name) { get; } | Visszaadja ennek a beállítási értéknek a nevét. Csak olvasható String. |
+| [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | Visszaadja vagy beállítja a beállítási értéket "ahogy van". Olvasható/írható Int64. |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | Visszaadja a forma beállításának típusát. Csak olvasható [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### Lásd még
 

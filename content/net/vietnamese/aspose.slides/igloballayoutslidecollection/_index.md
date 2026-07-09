@@ -1,14 +1,14 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đ đại diện cho một bộ sưu tập của tất cả các slide bố cục trong bài thuyết trình. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/nhân bản slide bố cục trong ngữ cảnh hợp nhất các bộ sưu tập riêng lẻ của các slide bố cục của master.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một bộ sưu tập của tất cả các slide bố cục trong bài thuyết trình. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/nhân bản slide bố cục trong ngữ cảnh hợp nhất các bộ sưu tập riêng lẻ của các slide bố cục master.
 type: docs
 weight: 5990
 url: /vi/aspose.slides/igloballayoutslidecollection/
 ---
 ## IGlobalLayoutSlideCollection giao diện
 
-Đại diện cho một bộ sưu tập của tất cả các slide bố cục trong bài thuyết trình. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/nhân bản slide bố cục trong ngữ cảnh hợp nhất các bộ sưu tập riêng lẻ của các slide bố cục của master.
+Biểu diễn một bộ sưu tập của tất cả các slide bố cục trong bài thuyết trình. Mở rộng giao diện ILayoutSlideCollection với các phương thức để thêm/nhân bản slide bố cục trong ngữ cảnh hợp nhất các bộ sưu tập riêng lẻ của các slide bố cục của master.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
@@ -28,7 +28,7 @@ public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | Thêm một bản sao của slide bố cục được chỉ định vào bài thuyết trình. |
 | [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | Thêm một bản sao của slide bố cục được chỉ định vào bài thuyết trình. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ILayoutSlideCollection](../ilayoutslidecollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)

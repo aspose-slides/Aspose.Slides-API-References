@@ -1,6 +1,6 @@
 ---
 title: IResponsiveHtmlController
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 반응형 HTML 컨트롤러
 type: docs
 weight: 4050
@@ -20,7 +20,7 @@ public interface IResponsiveHtmlController : IHtmlFormattingController
 | --- | --- |
 | [AsIHtmlFormattingController](../../aspose.slides.export/iresponsivehtmlcontroller/asihtmlformattingcontroller) { get; } | IHtmlFormattingController 인터페이스를 반환합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

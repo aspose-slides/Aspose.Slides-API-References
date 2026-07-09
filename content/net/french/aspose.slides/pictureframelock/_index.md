@@ -1,15 +1,14 @@
 ---
 title: PictureFrameLock
-second_title: Référence de l'API Aspose.Slides pour .NET
-description: Détermine quelles opérations sont désactivées sur le PictureFrame parent.
+second_title: Aspose.Sildes pour la référence d'API .NET
+description: Détermine quelles opérations sont désactivées sur le parent PictureFrame.
 type: docs
-weight: 9150
+weight: 9420
 url: /fr/aspose.slides/pictureframelock/
 ---
+## PictureFrameLock classe
 
-## Classe PictureFrameLock
-
-Détermine quelles opérations sont désactivées sur le PictureFrame parent.
+Détermine quelles opérations sont désactivées sur le parent PictureFrame.
 
 ```csharp
 public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
@@ -19,24 +18,24 @@ public class PictureFrameLock : BaseShapeLock, IPictureFrameLock
 
 | Nom | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture. |
-| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Détermine si un changement des flèches est interdit. Booléen en lecture/écriture. |
-| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Détermine si une forme doit préserver le ratio d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
-| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Détermine si un recadrage d'image est interdit. Booléen en lecture/écriture. |
-| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture. |
-| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Retourne true si tous les indicateurs de verrouillage sont désactivés. Booléen en lecture seule. |
-| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture. |
-| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture. |
-| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture. |
-| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Détermine si un changement de type de forme est interdit. Booléen en lecture/écriture. |
-| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Booléen en lecture/écriture. |
+| [AdjustHandlesLocked](../../aspose.slides/pictureframelock/adjusthandleslocked) { get; set; } | Détermine si la modification des valeurs d’ajustement est interdite. Lecture/écriture Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/pictureframelock/arrowheadslocked) { get; set; } | Détermine si la modification des pointes de flèche est interdite. Lecture/écriture Boolean. |
+| [AspectRatioLocked](../../aspose.slides/pictureframelock/aspectratiolocked) { get; set; } | Détermine si une forme doit conserver le rapport d’aspect lors du redimensionnement. Lecture/écriture Boolean. |
+| [CropLocked](../../aspose.slides/pictureframelock/croplocked) { get; set; } | Détermine si le rognage d’image est interdit. Lecture/écriture Boolean. |
+| [EditPointsLocked](../../aspose.slides/pictureframelock/editpointslocked) { get; set; } | Détermine si la modification directe du contour de cette forme est interdite. Lecture/écriture Boolean. |
+| [GroupingLocked](../../aspose.slides/pictureframelock/groupinglocked) { get; set; } | Détermine si l’ajout de cette forme à un groupe est interdit. Lecture/écriture Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Renvoie vrai si tous les indicateurs de verrouillage sont désactivés. Lecture seule Boolean. |
+| [PositionLocked](../../aspose.slides/pictureframelock/positionlocked) { get; set; } | Détermine si le déplacement de cette forme est interdit. Lecture/écriture Boolean. |
+| [RotationLocked](../../aspose.slides/pictureframelock/rotationlocked) { get; set; } | Détermine si la modification de l’angle de rotation de cette forme est interdite. Lecture/écriture Boolean. |
+| [SelectLocked](../../aspose.slides/pictureframelock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Lecture/écriture Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/pictureframelock/shapetypelocked) { get; set; } | Détermine si la modification du type de forme est interdite. Lecture/écriture Boolean. |
+| [SizeLocked](../../aspose.slides/pictureframelock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Lecture/écriture Boolean. |
 
-### Voir Aussi
+### Voir aussi
 
-* classe [BaseShapeLock](../baseshapelock)
-* interface [IPictureFrameLock](../ipictureframelock)
-* espace de noms [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* classe [BaseShapeLock](../baseshapelock)
+* interface [IPictureFrameLock](../ipictureframelock)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

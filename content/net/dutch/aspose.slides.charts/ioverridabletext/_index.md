@@ -1,6 +1,6 @@
 ---
 title: IOverridableText
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt overschrijfbare tekst voor een diagram voor.
 type: docs
 weight: 2180
@@ -16,16 +16,16 @@ public interface IOverridableText : IFormattedTextContainer
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Staat toe de basis IFormattedTextContainer interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst. Automatisch gegenereerde tekst is een impliciete eigenschap van het gegevenslabel, het weergave-eenheidlabel van de waardenas, de as-titel, de diagramtitel, het label van de trendlijn. Automatisch gegenereerde tekst wordt opgemaakt met de IFormattedTextContainer.TextFormat eigenschap. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Staat toe om de basis IFormattedTextContainer-interface op te halen. Alleen-lezen [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Kan een rijk opgemaakte tekst bevatten. Als deze eigenschap niet null is, dan overschrijft deze opgemaakte tekstwaarde de automatisch gegenereerde tekst. Automatisch gegenereerde tekst is een impliciete eigenschap van het gegevenslabel, het weergave-eenheid-label van de waardenas, de as-titel, de diagram-titel, het label van de trendlijn. Automatisch gegenereerde tekst wordt opgemaakt met de IFormattedTextContainer.TextFormat-eigenschap. Alleen-lezen [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Initialiseer TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al is geïnitialiseerd, dan wijzigt eenvoudigweg de tekst. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Initialiseer TextFrameForOverriding met de tekst in parameter "text". Als TextFrameForOverriding al geïnitialiseerd is, wordt de tekst simpelweg gewijzigd. |
 
 ### Zie ook
 

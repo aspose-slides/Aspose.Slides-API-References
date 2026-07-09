@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل مجموعة أوراق العمل في دفتر بيانات المخطط.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل مجموعة أوراق العمل لدفتر بيانات المخطط.
 type: docs
 weight: 1880
 url: /ar/aspose.slides.charts/ichartdataworksheetcollection/
 ---
 ## IChartDataWorksheetCollection واجهة
 
-يمثل مجموعة أوراق العمل في دفتر بيانات المخطط.
+يمثل مجموعة أوراق العمل لدفتر بيانات المخطط.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,9 +18,9 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | الاسم | الوصف |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | تعيد ورقة العمل حسب الفهرس. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | يرجع ورقة العمل حسب الفهرس. |
 
-### الأمثلة
+### أمثلة
 
 مثال:
 
@@ -37,7 +37,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### انظر أيضا
+### انظر أيضًا
 
 * واجهة [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * واجهة [IChartDataWorksheet](../ichartdataworksheet)

@@ -1,6 +1,6 @@
 ---
 title: MathAccentFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 允許建立數學重音
 type: docs
 weight: 8540
@@ -24,14 +24,14 @@ public class MathAccentFactory : IMathAccentFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 建立套用於指定數學元素的數學重音，使用預設的重音字元值 |
-| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 建立套用於指定數學元素的數學重音 |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | 建立一個應用於指定數學元素的數學重音，使用預設的重音字元值 |
+| [CreateMathAccent](../../aspose.slides.mathtext/mathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | 建立一個應用於指定數學元素的數學重音 |
 
 ### 備註
 
-用於 COM 相容性
+供 COM 相容性使用
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IMathAccentFactory](../imathaccentfactory)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

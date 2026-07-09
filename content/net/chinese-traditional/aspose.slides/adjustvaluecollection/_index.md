@@ -1,6 +1,6 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes .NET API 參考
 description: 表示形狀調整的集合。
 type: docs
 weight: 100
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection 類別
 
-表示形狀調整的集合。
+代表形狀調整的集合。
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -18,10 +18,10 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 返回調整的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | 返回一個值，用於指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | 依索引返回調整。 |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 返回同步根。唯讀 Object。 |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | 傳回調整項的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | 傳回一個值，用來指示集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | 依索引傳回調整項。 |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
@@ -29,7 +29,7 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 | --- | --- |
 | [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [GeometryShape](../geometryshape)

@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideManager
 second_title: Aspose.Sildes para .NET Referência da API
-description: Gerenciador de slides de notas mestre.
+description: Gerenciador de slide de notas mestre.
 type: docs
-weight: 6390
+weight: 6410
 url: /pt/aspose.slides/imasternotesslidemanager/
 ---
-## IMasterNotesSlideManager interface
+## Interface IMasterNotesSlideManager
 
-Gerenciador de slides de notas mestre.
+Gerenciador de slide de notas mestre.
 
 ```csharp
 public interface IMasterNotesSlideManager
@@ -18,14 +18,14 @@ public interface IMasterNotesSlideManager
 
 | Name | Description |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação, se houver um; caso contrário, retorna nulo. Somente leitura [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | Retorna um mestre para todos os slides de notas desta apresentação, se existir; caso contrário, retorna null. Somente leitura [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## Métodos
 
 | Name | Description |
 | --- | --- |
 | [RemoveMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/removemasternotesslide)() | Remove o slide de notas mestre. |
-| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Define o slide de notas mestre padrão para o slide de notas relacionado. |
+| [SetDefaultMasterNotesSlide](../../aspose.slides/imasternotesslidemanager/setdefaultmasternotesslide)() | Define o slide mestre de notas padrão para o slide de notas relacionado. |
 
 ### Ver também
 

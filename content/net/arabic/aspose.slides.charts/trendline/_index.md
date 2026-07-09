@@ -18,18 +18,18 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | الاسم | الوصف |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | يحدد عدد الفئات (أو الوحدات في المخطط المنتثر) التي يمتد خط الاتجاه قبل البيانات للسلسلة التي يتم تتبعها. في المخططات المنتثرة وغير المنتثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد خط الاتجاه قبل البيانات الخاصة بالسلسلة التي يتم تتبعها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | يعيد المخطط الأب. قراءة فقط [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | يحدد أنه يتم عرض المعادلة لخط الاتجاه على المخطط (في نفس التسمية كما Rsquaredvalue). قراءة/كتابة Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | يحدد أنه يتم عرض قيمة R-squared لخط الاتجاه على المخطط (في نفس التسمية كما المعادلة). قراءة/كتابة Boolean. |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | يحدد أن المعادلة لخط الاتجاه تُعرض على المخطط (في التسمية نفسها التي تظهر قيمة R المربعة). قراءة/كتابة Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | يحدد أن قيمة R المربعة لخط الاتجاه تُعرض على المخطط (في التسمية نفسها التي تظهر المعادلة). قراءة/كتابة Boolean. |
 | [Format](../../aspose.slides.charts/trendline/format) { get; set; } | يمثل تنسيق خط الاتجاه. قراءة/كتابة [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | يحدد عدد الفئات (أو الوحدات في المخطط المنتثر) التي يمتد خط الاتجاه بعد البيانات للسلسلة التي يتم تتبعها. في المخططات المنتثرة وغير المنتثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | يحدد القيمة التي سيقطع فيها خط الاتجاه محور y. يجب أن تدعم هذه الخاصية فقط عندما يكون نوع خط الاتجاه exp أو linear أو poly. قراءة/كتابة Double. |
-| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | يحدد رتبة خط الاتجاه المتعدد الحدود. يتم تجاهلها لأنواع خطوط الاتجاه الأخرى. يجب أن تكون القيمة بين 2 و 6. قراءة/كتابة Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | يحدد فترة خط الاتجاه لخط الاتجاه المتوسط المتحرك. يتم تجاهلها للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 255. قراءة/كتابة Byte. |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | يحدد عدد الفئات (أو الوحدات في مخطط مبعثر) التي يمتد خط الاتجاه بعد البيانات الخاصة بالسلسلة التي يتم تتبعها. في المخططات المبعثرة وغير المبعثرة، يجب أن تكون القيمة أي قيمة غير سالبة. قراءة/كتابة Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | يحدد القيمة التي يقطع فيها خط الاتجاه محور y. يجب أن يدعم هذا الخصائص فقط عندما يكون نوع خط الاتجاه exp أو linear أو poly. قراءة/كتابة Double. |
+| [Order](../../aspose.slides.charts/trendline/order) { get; set; } | يحدد رتبة خط الاتجاه متعدد الحدود. يتم تجاهله للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 6. قراءة/كتابة Byte. |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | يحدد فترة خط الاتجاه للمتوسط المتحرك. يتم تجاهله للأنواع الأخرى من خطوط الاتجاه. يجب أن تكون القيمة بين 2 و 255. قراءة/كتابة Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | يمثل مدخل الأسطورة المتعلق بهذا خط الاتجاه. قراءة فقط [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | يعيد تنسيق النص. قراءة فقط [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم تكن هذه الخاصية null فإن قيمة النص المنسق تتجاوز النص المولد تلقائيًا لتسمية البيانات. النص المولد تلقائيًا لتسمية البيانات يعني النص الذي تُديره الخصائص ShowSeriesName و ShowValue ... ويتم تنسيقه باستخدام الخاصية TextFormatManager.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | يمكن أن يحتوي على نص منسق غني. إذا لم يكن هذا الخصائص فارغًا، فإن قيمة النص المنسق تتجاوز النص المُولد تلقائيًا لتسمية البيانات. النص المُولد تلقائيًا لتسمية البيانات يعني النص الذي يتم إدارته بواسطة الخصائص ShowSeriesName و ShowValue … ويتم تنسيقه بخصائص TextFormatManager.TextFormat. قراءة فقط [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | يحصل أو يضبط اسم خط الاتجاه. قراءة/كتابة String. |
 | [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | يحصل أو يضبط نوع خط الاتجاه. قراءة/كتابة [`TrendlineType`](../trendlinetype). |
 
@@ -37,14 +37,14 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | الاسم | الوصف |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص الموجود في المعامل "text". إذا كان TextFrameForOverriding مُهيئًا بالفعل فإنها ببساطة تغير نصه. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | تهيئة TextFrameForOverriding بالنص الموجود في المعامل "text". إذا كان TextFrameForOverriding مُهيأً بالفعل فسيتم ببساطة تغيير نصه. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [TrendlineCollection](../trendlinecollection)
 * واجهة [ITrendline](../itrendline)
-* مساحة اسم [Aspose.Slides.Charts](../../aspose.slides.charts)
+* نطاق الاسم [Aspose.Slides.Charts](../../aspose.slides.charts)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

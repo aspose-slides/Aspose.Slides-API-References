@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van VBA-projectreferenties voor.
+description: Stelt een verzameling van VBA Project-referenties voor.
 type: docs
 weight: 11580
 url: /nl/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection interface
 
-Stelt een collectie van VBA-projectreferenties voor.
+Stelt een verzameling van VBA Project-referenties voor.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -18,7 +18,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Haalt het element op op de opgegeven index. |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Haalt het element op bij de opgegeven index. |
 
 ## Methoden
 

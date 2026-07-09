@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 구조체는 렌더링 시 글꼴 교체에 대한 정보를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 이 구조체는 렌더링될 때 글꼴 교체에 대한 정보를 나타냅니다.
 type: docs
 weight: 4910
 url: /ko/aspose.slides/fontsubstitutioninfo/
@@ -18,7 +18,7 @@ public class FontSubstitutionInfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) 클래스의 인스턴스를 생성합니다. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) 클래스를 생성합니다. |
 
 ## 속성
 

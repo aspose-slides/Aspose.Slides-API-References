@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna klass representerar token som används för att signalera långvariga uppgifter om avbrottet har begärts.
+description: Denna klass representerar token som används för att signalera långvariga uppgifter om avbrott har begärts.
 type: docs
-weight: 6170
+weight: 6190
 url: /sv/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken gränssnitt
 
-Denna klass representerar token som används för att signalera långvariga uppgifter om avbrottet har begärts.
+Denna klass representerar token som används för att signalera långvariga uppgifter om avbrott har begärts.
 
 ```csharp
 public interface IInterruptionToken
@@ -16,17 +16,17 @@ public interface IInterruptionToken
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Returnerar Boolean.true om avbrottet har begärts. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Returnerar Boolean.true om avbrott begärdes. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Kastar ett OperationCanceledException om avbrottet har begärts. Kastas när avbrottet har begärts. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Kastar ett OperationCanceledException om avbrott begärdes. Kastas när avbrott begärdes. |
 
-### Se också
+### Se även
 
 * namnutrymme [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili slide master dalam sebuah presentasi.
+description: Mewakili slide master dalam presentasi.
 type: docs
-weight: 6400
+weight: 6420
 url: /id/aspose.slides/imasterslide/
 ---
 ## IMasterSlide antarmuka
 
-Mewakili slide master dalam sebuah presentasi.
+Mewakili slide master dalam presentasi.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,15 +18,15 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Mengizinkan untuk mendapatkan IBaseSlide antarmuka. Hanya-baca [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya-baca [`IBaseSlide`](../ibaseslide). |
 | [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Mengembalikan antarmuka IMasterThemeable. Hanya-baca [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
 | [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Mengembalikan gaya teks tubuh. Hanya-baca [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Mengembalikan koleksi panduan gambar untuk slide master. Hanya-baca [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Mengembalikan koleksi panduan menggambar untuk slide master. Hanya-baca [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Mengembalikan true jika terdapat setidaknya satu slide yang bergantung pada slide master ini. Hanya-baca Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide master. Hanya-baca [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Mengembalikan pengelola HeaderFooter dari slide master. Hanya-baca [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
 | [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Mengembalikan koleksi slide tata letak anak untuk slide master ini. Hanya-baca [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Mengembalikan gaya teks lain. Hanya-baca [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Menentukan apakah master yang bersangkutan dihapus ketika semua slide yang mengikuti master tersebut dihapus. Catatan: Aspose.Slides tidak akan pernah menghapus master yang tidak terpakai secara otomatis, untuk benar-benar menghapus master yang tidak terpakai panggil [`RemoveUnused`](../imasterslidecollection/removeunused) Baca/tulis Boolean. |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Menentukan apakah master yang bersangkutan dihapus ketika semua slide yang mengikuti master tersebut dihapus. Catatan: Aspose.Slides tidak akan pernah menghapus master yang tidak terpakai sendiri, untuk benar-benar menghapus master yang tidak terpakai panggil [`RemoveUnused`](../imasterslidecollection/removeunused) Baca/tulis Boolean. |
 | [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Mengembalikan gaya teks judul. Hanya-baca [`ITextStyle`](../itextstyle). |
 
 ## Metode
@@ -34,7 +34,7 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 | Nama | Deskripsi |
 | --- | --- |
 | [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Membuat slide master baru berdasarkan slide saat ini, menerapkan tema eksternal padanya dan menerapkan slide master yang dibuat ke semua slide yang bergantung. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Mengembalikan sebuah array dengan semua slide yang bergantung pada slide master ini. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Mengembalikan array dengan semua slide, yang bergantung pada slide master ini. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che contiene le proprietà del riempimento dell'immagine.
+description: Oggetto immutabile che contiene le proprietà del riempimento immagine.
 type: docs
-weight: 6640
+weight: 6660
 url: /it/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData interfaccia
 
-Oggetto immutabile che contiene le proprietà del riempimento dell'immagine.
+Oggetto immutabile che contiene le proprietà del riempimento immagine.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -18,16 +18,16 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Consente di ottenere l'interfaccia base IFillParamSource. Solo lettura [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Restituisce il numero di percentuali dell'altezza reale dell'immagine che viene ritagliata dalla parte inferiore dell'immagine. Solo lettura Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Restituisce il numero di percentuali della larghezza reale dell'immagine che viene ritagliata dalla parte sinistra dell'immagine. Solo lettura Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Restituisce il numero di percentuali della larghezza reale dell'immagine che viene ritagliata dalla parte destra dell'immagine. Solo lettura Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Restituisce il numero di percentuali dell'altezza reale dell'immagine che viene ritagliata dalla parte superiore dell'immagine. Solo lettura Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Restituisce i dpi utilizzati per riempire un'immagine. Solo lettura Int32. |
-| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Restituisce l'immagine. Solo lettura [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Restituisce la modalità di riempimento immagine. Solo lettura [`PictureFillMode`](../picturefillmode). |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Consente di ottenere l'interfaccia IFillParamSource di base. Sola lettura [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Restituisce il numero di percentuali dell'altezza reale dell'immagine che viene ritagliata dalla parte inferiore dell'immagine. Sola lettura Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Restituisce il numero di percentuali della larghezza reale dell'immagine che viene ritagliata dal lato sinistro dell'immagine. Sola lettura Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Restituisce il numero di percentuali della larghezza reale dell'immagine che viene ritagliata dal lato destro dell'immagine. Sola lettura Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Restituisce il numero di percentuali dell'altezza reale dell'immagine che viene ritagliata dalla parte superiore dell'immagine. Sola lettura Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Restituisce i dpi utilizzati per riempire un'immagine. Sola lettura Int32. |
+| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Restituisce l'immagine. Sola lettura [`IPictureEffectiveData`](../ipictureeffectivedata). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Restituisce la modalità di riempimento immagine. Sola lettura [`PictureFillMode`](../picturefillmode). |
 
-### Note
+### Osservazioni
 
 Questa interfaccia è usata come parte di [`IFillFormatEffectiveData`](../ifillformateffectivedata).
 

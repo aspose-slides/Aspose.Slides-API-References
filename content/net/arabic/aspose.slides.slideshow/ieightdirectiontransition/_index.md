@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
-second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
-description: تأثير انتقال الشريحة في ثمانية اتجاهات.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: تأثير انتقال شريحة بثمانية اتجاهات.
 type: docs
 weight: 10070
 url: /ar/aspose.slides.slideshow/ieightdirectiontransition/
 ---
-## IEightDirectionTransition واجهة
+## واجهة IEightDirectionTransition
 
-تأثير انتقال الشريحة في ثمانية اتجاهات.
+تأثير انتقال شريحة بثمانية اتجاهات.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | يسمح بالحصول على الواجهة الأساسية ITransitionValueBase. للقراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | اتجاه الانتقال. قابل للقراءة والكتابة [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | يسمح بالحصول على واجهة ITransitionValueBase الأساسية. قراءة فقط [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | اتجاه الانتقال. قراءة/كتابة [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
 ### انظر أيضًا
 

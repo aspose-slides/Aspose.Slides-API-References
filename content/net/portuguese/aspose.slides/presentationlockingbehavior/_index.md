@@ -1,15 +1,14 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o comportamento relativo ao tratamento do arquivo ou Stream de fonte IPresentation./ipresentation ao carregar e trabalhar com uma instância de IPresentation./ipresentation.
+second_title: Referência de API Aspose.Sildes para .NET
+description: Representa o comportamento ao tratar o arquivo ou Stream de origem IPresentation./ipresentation ao carregar e trabalhar com uma instância de IPresentation./ipresentation.
 type: docs
-weight: 9610
+weight: 9630
 url: /pt/aspose.slides/presentationlockingbehavior/
 ---
+## PresentationLockingBehavior enumeração
 
-## Enumeração PresentationLockingBehavior
-
-Representa o comportamento relacionado ao tratamento da fonte [`IPresentation`](../ipresentation) (arquivo ou Stream) ao carregar e trabalhar com uma instância de [`IPresentation`](../ipresentation).
+Representa o comportamento ao tratar a fonte [`IPresentation`](../ipresentation) (arquivo ou Stream) ao carregar e trabalhar com uma instância de [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -19,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| LoadAndRelease | `0` | A fonte será bloqueada apenas durante a execução do construtor [`IPresentation`](../ipresentation). Se [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) for definido como false, todos os BLOBs serão carregados na memória. Caso contrário, outros meios, como arquivos temporários, podem ser usados. Esse comportamento é mais lento que KeepLocked e, se for possível passar a propriedade da fonte para [`IPresentation`](../ipresentation), recomenda-se usar KeepLocked. |
-| KeepLocked | `1` | A fonte será bloqueada durante toda a vida útil da instância [`IPresentation`](../ipresentation), até que seja descartada. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) deve ser definido como true para usar este comportamento, caso contrário uma exceção será lançada. Esse comportamento é recomendado, pois é mais rápido e consome menos memória que LoadAndRelease. |
+| LoadAndRelease | `0` | A fonte será bloqueada somente durante a execução do construtor [`IPresentation`](../ipresentation). Se [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) for definido como false, todos os BLOBs serão carregados na memória. Caso contrário, outros meios, como arquivos temporários, podem ser usados. Esse comportamento é mais lento que KeepLocked e, se for possível transferir a propriedade da fonte para [`IPresentation`](../ipresentation), recomenda-se usar KeepLocked. |
+| KeepLocked | `1` | A fonte será bloqueada durante toda a vida útil da instância [`IPresentation`](../ipresentation), até que seja descartada. [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) deve ser definido como true para usar este comportamento, caso contrário será lançada uma exceção. Esse comportamento é recomendado, é mais rápido e consome menos memória que LoadAndRelease. |
 
 ### Observações
 
-A fonte é o parâmetro passado ao construtor [`IPresentation`](../ipresentation). No exemplo abaixo, a fonte é o arquivo "pres.pptx":
+A fonte é o parâmetro passado para o construtor [`IPresentation`](../ipresentation). No exemplo abaixo, a fonte é o arquivo "pres.pptx":
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -32,9 +31,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-Para este exemplo, a fonte (arquivo "pres.pptx") será bloqueada durante a vida útil da instância [`IPresentation`](../ipresentation), ou seja, não pode ser alterada ou excluída por outro processo.
+Para este exemplo, a fonte (arquivo "pres.pptx") será bloqueada por toda a vida útil da instância [`IPresentation`](../ipresentation), ou seja, não pode ser alterada ou excluída pelo outro processo.
 
-### Ver também
+### Ver Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

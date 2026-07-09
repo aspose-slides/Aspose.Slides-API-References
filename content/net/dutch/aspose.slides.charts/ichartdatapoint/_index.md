@@ -1,14 +1,14 @@
 ---
 title: IChartDataPoint
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een gegevenspunt van de serie voor.
+description: Stelt een seriedatapunt voor.
 type: docs
 weight: 1820
 url: /nl/aspose.slides.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
 
-Stelt een gegevenspunt van de serie voor.
+Stelt een seriedatapunt voor.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -18,36 +18,36 @@ public interface IChartDataPoint : IActualLayout
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Retourneert IActualLayout interface. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Retourneert de bubbelgrootte van chart data point. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Retourneert de kleurwaarde van chart data point. Wordt gebruikt met Map charts. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Retourneert container van data point levels. Toegepast voor Treeamp en Sunburst series. Indexering van data point levels begint bij nul. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Vertegenwoordigt de waarden van serie-foutbalken bij Custom value-type. Alleen-lezen [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Specificeert de hoeveelheid waarmee het gegevenspunt van het midden van de taart wordt verschoven. Lezen/schrijven Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Vertegenwoordigt de opmaak-eigenschappen. Lezen/schrijven [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bepaalt tot welke collectie van de ouder-kinderen dit gegevenspunt behoort. Lezen UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Specificeert dat het gegevenspunt zijn kleuren moet inverteren als de waarde negatief is. Lezen/schrijven Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Specificeert dat de bubbels een 3-D-effect hebben. Lezen/schrijven Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Vertegenwoordigt het label van chart data point. Alleen-lezen [`IDataLabel`](../idatalabel). |
-| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Specificeert een datamarker. Alleen-lezen [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Eigenschappen van het overeenkomstige legende-item voor chart-typen uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Stelt gegevenspunt in als totaal. Alleen van toepassing op Waterfall series. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Retourneert de grootte-waarde van chart data point. Wordt gebruikt met Treemap en Sunburst charts. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Retourneert de waarde van chart data point. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Retourneert de x-waarde van chart data point. Alleen-lezen [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Retourneert de y-waarde van chart data point. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | Retourneert de IActualLayout interface. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | Retourneert de bubbelgrootte van het diagramdatapunt. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | Retourneert de kleurwaarde van het diagramdatapunt. Wordt gebruikt met kaartdiagrammen. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | Retourneert container van datapuntniveaus. Toegepast voor Treeamp- en Sunburst-reeksen. Indexering van datapuntniveaus begint bij nul. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | Stelt waarden van serie-foutbalken voor in geval van een aangepast (Custom) waardetype. Alleen-lezen [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | Geeft de hoeveelheid aan waarmee het datapunt moet worden verschoven vanaf het middelpunt van de taart. Lees/Schrijf Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | Stelt de opmaak eigenschappen voor. Lees/Schrijf [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | Bepaalt tot welke collectie van de kinderen van de ouder dit datapunt behoort. Lees UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | Geeft aan dat het datapunt zijn kleuren moet omkeren als de waarde negatief is. Lees/Schrijf Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | Geeft aan dat de bubbels een 3-D effect hebben. Lees/Schrijf Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | Stelt het label van het diagramdatapunt voor. Alleen-lezen [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | Geeft een datamarker aan. Alleen-lezen [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | Eigenschappen van het overeenkomstige legendavermelding in het geval van een grafiektype uit deze lijst: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | Stelt het datapunt in als totaal. Alleen toegepast voor Waterfall-reekstypen. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | Retourneert de groottewaarde van het diagramdatapunt. Wordt gebruikt met Treemap- en Sunburst-diagrammen. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | Retourneert de waarde van het diagramdatapunt. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | Retourneert de x-waarde van het diagramdatapunt. Alleen-lezen [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | Retourneert de y-waarde van het diagramdatapunt. Alleen-lezen [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Retourneert een automatische kleur van het gegevenspunt gebaseerd op series-index, gegevenspunt-index, ParentSeriesGroup.IsColorVaried-eigenschap en chart-stijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Verwijdert DataPoint uit de chartserie. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | Retourneert een automatische kleur van het datapunt op basis van seriereeks-index, datapunt-index, ParentSeriesGroup.IsColorVaried eigenschap en diagramstijl. Deze kleur wordt standaard gebruikt als FillType gelijk is aan NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | Verwijdert DataPoint uit de diagramreeks. |
 
 ### Zie ook
 
 * interface [IActualLayout](../iactuallayout)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

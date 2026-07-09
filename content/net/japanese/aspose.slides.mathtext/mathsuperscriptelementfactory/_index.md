@@ -1,20 +1,20 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: IMathSuperscriptElement を作成できます
 type: docs
-weight: 9010
+weight: 9030
 url: /ja/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
 ## MathSuperscriptElementFactory クラス
 
-IMathSuperscriptElement の作成を可能にします
+IMathSuperscriptElement を作成できます
 
 ```csharp
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
@@ -28,7 +28,7 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 ### 備考
 
-COM 互換性のため。
+COM 互換性のため
 
 ### 参照
 

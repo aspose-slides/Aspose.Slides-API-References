@@ -1,14 +1,14 @@
 ---
 title: FilterEffectSubtype
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar undertyper av filtereffekter.
+description: Representerar filtereffektsubtyper.
 type: docs
-weight: 370
+weight: 390
 url: /sv/aspose.slides.animation/filtereffectsubtype/
 ---
-## FilterEffectSubtype-enumeration
+## FilterEffectSubtype enumeration
 
-Representerar undertyper av filtereffekter.
+Representerar filtereffektsubtyper.
 
 ```csharp
 public enum FilterEffectSubtype

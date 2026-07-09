@@ -1,14 +1,14 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एनिमेशन प्रभाव के उपप्रकारों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एनीमेशन प्रभाव के उपप्रकारों का प्रतिनिधित्व करता है।
 type: docs
 weight: 340
 url: /hi/aspose.slides.animation/effectsubtype/
 ---
-## EffectSubtype एन्यूमरेशन
+## EffectSubtype एन्यूमेरेशन
 
-Represents subtypes of animation effect.
+एनीमेशन प्रभाव के उपप्रकारों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum EffectSubtype
@@ -71,7 +71,7 @@ public enum EffectSubtype
 | Wheel4 | `50` |  |
 | Wheel8 | `51` |  |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

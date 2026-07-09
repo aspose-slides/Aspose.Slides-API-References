@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงการออฟเซ็ตของสี.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงการออฟเซ็ตสี.
 type: docs
 weight: 470
 url: /th/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset อินเทอร์เฟซ
 
-แสดงการออฟเซ็ตของสี.
+แสดงการออฟเซ็ตสี
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | กำหนดค่าที่หนึ่งของออฟเซ็ต. อ่าน/เขียน Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | กำหนดค่าที่สองของออฟเซ็ต. อ่าน/เขียน Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | กำหนดค่าที่สามของออฟเซ็ต. อ่าน/เขียน Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | กำหนดค่าตัวแรกของออฟเซ็ต. อ่าน/เขียน Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | กำหนดค่าตัวที่สองของออฟเซ็ต. อ่าน/เขียน Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | กำหนดค่าตัวที่สามของออฟเซ็ต. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

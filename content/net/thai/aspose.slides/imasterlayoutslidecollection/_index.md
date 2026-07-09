@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนดไว้ ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/คัดลอกสไลด์เลเอาต์ในบริบทของคอลเลกชันเลเอาต์ของมาสเตอร์แต่ละรายการ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนดไว้ ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/โคลนสไลด์เลย์เอาต์ในบริบทของคอลเลกชันแต่ละรายการของสไลด์เลย์เอาต์ของมาสเตอร์
 type: docs
 weight: 6380
 url: /th/aspose.slides/imasterlayoutslidecollection/
 ---
-## อินเทอร์เฟซ IMasterLayoutSlideCollection
+## IMasterLayoutSlideCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของสไลด์เลเอาต์ทั้งหมดของสไลด์มาสเตอร์ที่กำหนดไว้ ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/คล cloning สไลด์เลเอาต์ในบริบทของคอลเลกชันเลเอาต์ของมาสเตอร์แต่ละรายการ
+แสดงถึงคอลเลกชันของสไลด์เลย์เอาต์ทั้งหมดของมาสเตอร์สไลด์ที่กำหนดไว้ ขยายอินเทอร์เฟซ ILayoutSlideCollection ด้วยเมธอดสำหรับการเพิ่ม/แทรก/ลบ/โคลนสไลด์เลย์เอาต์ในบริบทของคอลเลกชันแต่ละรายการของสไลด์เลย์เอาต์ของมาสเตอร์
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -24,12 +24,12 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | เพิ่มสไลด์เลเอาต์ใหม่ไปยังตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลเอาต์ที่ระบุไปยังตำแหน่งสุดท้ายของคอลเลกชัน. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | แทรกสไลด์เลเอาต์ใหม่ในตำแหน่งที่ระบุของคอลเลกชัน. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | แทรกสำเนาของสไลด์เลเอาต์ที่ระบุในตำแหน่งที่ระบุของคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | ย้ายสไลด์เลเอาต์จากคอลเลกชันไปยังตำแหน่งที่ระบุ. |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | เพิ่มสไลด์เลย์เอาต์ใหม่ไปยังตำแหน่งสุดท้ายของคอลเลกชัน |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | เพิ่มสำเนาของสไลด์เลย์เอาต์ที่ระบุไปยังตำแหน่งสุดท้ายของคอลเลกชัน |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | แทรกสไลด์เลย์เอาต์ใหม่เข้าสู่ตำแหน่งที่ระบุของคอลเลกชัน |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | แทรกสำเนาของสไลด์เลย์เอาต์ที่ระบุเข้าสู่ตำแหน่งที่ระบุของคอลเลกชัน |
+| [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | ย้ายสไลด์เลย์เอาต์จากคอลเลกชันไปยังตำแหน่งที่ระบุ |
 
 ### ดูเพิ่มเติม
 

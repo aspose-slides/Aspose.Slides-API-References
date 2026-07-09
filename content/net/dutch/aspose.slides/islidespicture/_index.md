@@ -8,7 +8,7 @@ url: /nl/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture interface
 
-Stelt een afbeelding in een presentatie voor.
+Representeert een afbeelding in een presentatie.
 
 ```csharp
 public interface ISlidesPicture : ISlideComponent
@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Retourneert of stelt de ingebedde afbeelding in. Lezen/Schrijven [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Retourneert de collectie van beeldtransformatie-effecten. Alleen-lezen [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Retourneert of stelt de URL van de gekoppelde afbeelding in. Lezen/Schrijven String. |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Stelt toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | Geeft de ingesloten afbeelding terug of stelt deze in. Lezen/Schrijven [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Geeft de collectie van afbeeldings-transformatie-effecten terug. Alleen-lezen [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Geeft of stelt de URL van de gekoppelde afbeelding in. Lezen/Schrijven String. |
 
 ### Zie ook
 

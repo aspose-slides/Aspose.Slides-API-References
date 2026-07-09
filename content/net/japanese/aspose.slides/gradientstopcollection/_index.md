@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: グラデーション ストップのコレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 勾配ストップのコレクションを表します。
 type: docs
-weight: 5010
+weight: 5030
 url: /ja/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection クラス
 
-グラデーション ストップのコレクションを表します。
+勾配ストップのコレクションを表します。
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,30 +18,30 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | コレクション内のグラデーション ストップの数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | インデックスでグラデーション ストップを返します。 |
-| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent). |
+| [Count](../../aspose.slides/gradientstopcollection/count) { get; } | コレクション内の勾配ストップの数を返します。 読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。 読み取り専用 Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | インデックスで勾配ストップを返します。 |
+| [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | 同期のルートを返します。 読み取り専用 Object. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 新しいグラデーション ストップを作成し、コレクションの末尾に追加します。 |
-| [Clear](../../aspose.slides/gradientstopcollection/clear)() | コレクションからすべてのグラデーション ストップを削除します。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | 新しい勾配ストップを作成し、コレクションの末尾に追加します。 |
+| [Clear](../../aspose.slides/gradientstopcollection/clear)() | コレクションからすべての勾配ストップを削除します。 |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 新しいグラデーション ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 指定されたインデックスのグラデーション ストップを削除します。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | 新しい勾配ストップを作成し、指定されたインデックスにコレクションへ挿入します。 |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | 指定されたインデックスの勾配ストップを削除します。 |
 
-### 参照
+### 関連項目
 
 * クラス [PVIObject](../pviobject)
 * インターフェイス [IGradientStopCollection](../igradientstopcollection)

@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt eigenschappen voor het vullen van lijnen voor.
+description: Stelt eigenschappen weer voor het vullen van lijnen.
 type: docs
 weight: 7780
 url: /nl/aspose.slides/linefillformat/
 ---
 ## LineFillFormat klasse
 
-Stelt eigenschappen voor het vullen van lijnen voor.
+Stelt eigenschappen weer voor het vullen van lijnen.
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,11 +18,11 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis-IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | Geeft het vultype terug of stelt het in. Lezen/Schrijven [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Geeft het verloopvulformaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Geeft het patroonvulformaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling moet worden geroteerd met een vorm. Lezen/Schrijven [`NullableBool`](../nullablebool). |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | Geeft het verloop vulformaat terug. Alleen-lezen [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | Geeft het patroon vulformaat terug. Alleen-lezen [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | Bepaalt of de vulling gedraaid moet worden met een vorm. Lezen/Schrijven [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | Geeft de kleur van een effen vulling terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
 
 ## Methoden
@@ -30,7 +30,7 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft een hashcode terug. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft hashcode terug. |
 
 ### Zie ook
 

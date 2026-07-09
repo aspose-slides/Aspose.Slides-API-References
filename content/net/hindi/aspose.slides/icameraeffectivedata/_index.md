@@ -1,6 +1,6 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक अपरिवर्तनीय वस्तु जो प्रभावी कैमरा गुणों को सम्मिलित करती है।
 type: docs
 weight: 5420
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जिसमें प्रभावी कैमरा गुण होते हैं।
+अपरिवर्तनीय वस्तु जिसमें प्रभावी कैमरा गुण होते हैं।
 
 ```csharp
 public interface ICameraEffectiveData
@@ -19,20 +19,20 @@ public interface ICameraEffectiveData
 | नाम | विवरण |
 | --- | --- |
 | [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | कैमरा प्रकार। केवल पढ़ने योग्य [`CameraPresetType`](../camerapresettype)। |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | कैमरा FOV (0-180 डिग्री, दृश्य क्षेत्र)। केवल पढ़ने योग्य Single। |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | कैमरा जूम (प्रतिशत में सकारात्मक मान)। केवल पढ़ने योग्य Single। |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | कैमरा FOV (0-180 डिग्री, फ़ील्ड ऑफ़ व्यू)। केवल पढ़ने योग्य Single। |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | कैमरा ज़ूम (प्रतिशत में सकारात्मक मान)। केवल पढ़ने योग्य Single। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | एक घूर्णन को अक्षांश निर्देशांक, देशांतर निर्देशांक, और अक्ष के चारों ओर पुनरावर्तन का उपयोग करके परिभाषित किया जाता है। रिटर्न एरे का पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - पुनरावर्तन। यदि कोई घूर्णन परिभाषित नहीं है तो null लौटाता है। |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | एक घुमाव को अक्षांश निर्देशांक, देशांतर निर्देशांक और अक्ष के चारों ओर अक्षांश व देशांतर निर्देशांक के अनुसार क्रांति के उपयोग से परिभाषित किया जाता है। लौटाए गए array में पहला तत्व - अक्षांश, दूसरा - देशांतर, तीसरा - क्रांति। यदि कोई घुमाव परिभाषित नहीं है तो null लौटाता है। |
 
-## टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) का हिस्सा के रूप में उपयोग किया जाता है।
 
-## संबंधित देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

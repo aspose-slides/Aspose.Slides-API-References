@@ -3,10 +3,10 @@ title: HyperlinkColorSource
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar källan för hyperlänkens färg.
 type: docs
-weight: 5120
+weight: 5140
 url: /sv/aspose.slides/hyperlinkcolorsource/
 ---
-## HyperlinkColorSource uppräkning
+## HyperlinkColorSource enum
 
 Representerar källan för hyperlänkens färg.
 

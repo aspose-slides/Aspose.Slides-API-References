@@ -3,10 +3,10 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av Summary Zoom Section-objekt.
 type: docs
-weight: 10770
+weight: 10790
 url: /sv/aspose.slides/summaryzoomsectioncollection/
 ---
-## SummaryZoomSection klass
+## SummaryZoomSectionCollection klass
 
 Representerar en samling av Summary Zoom Section-objekt.
 
@@ -17,22 +17,22 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Läs-endast Int32. |
-| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Läs-endast Boolean. |
-| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Hämtar elementet på det angivna indexet. Läs-endast [`ISummaryZoomSection`](../isummaryzoomsection). |
-| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Läs-endast Object. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | Hämtar antalet element som faktiskt finns i samlingen. Skrivskyddad Int32. |
+| [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | Hämtar elementet på det angivna indexet. Skrivskyddad [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | Skapar ett nytt Summary Zoom Section-objekt och lägger till det i samlingen |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | Tar bort alla SummaryZoomSection-objekt från samlingen. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | Kopierar hela samlingen till den angivna arrayen. |
 | [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
-| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Returnerar Summary Zoom Section-element för den givna sektionen. |
+| [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | Returnerar Summary Zoom Section-elementet för den angivna sektionen. |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | Returnerar ett index för det angivna SummaryZoomSection-objektet. |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | Tar bort Summary Zoom Section-objektet från samlingen. |
 

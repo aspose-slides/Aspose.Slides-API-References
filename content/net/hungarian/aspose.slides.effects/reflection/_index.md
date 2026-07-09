@@ -1,14 +1,14 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy Reflection hatást reprezentál.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Egy Reflection hatást képvisel.
 type: docs
-weight: 3620
+weight: 3640
 url: /hu/aspose.slides.effects/reflection/
 ---
 ## Reflection osztály
 
-Egy Reflection hatást reprezentál.
+Representa egy Reflection hatást.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -16,29 +16,29 @@ public sealed class Reflection : IReflection
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Elmosódási sugár. Olvasás/írás Double. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Elmosási sugár. Olvasás/írás Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | A tükrözés iránya. Olvasás/írás Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | A tükrözés távolsága. Olvasás/írás Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Megadja a vég alpha érték (százalék) pozícióját (az alfa gradiens skálán). Olvasás/írás Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | A tükrözés végső átlátszatlansága. (százalék). Olvasás/írás Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Megadja a vég pozíciót (az alfa gradient lépcsőn) a vég alfa értékhez (százalék). Olvasás/írás Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | A tükrözés vég átlátszatlansága. (százalék). Olvasás/írás Single. |
 | [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Megadja a tükrözés eltolásának irányát. (szög). Olvasás/írás Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Téglalap igazítása. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Megadja, hogy a tükrözés a alakzattal együtt forgásra kerüljön-e, ha az alakzat el van forgatva. Olvasás/írás Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Megadja a vízszintes méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Megadja a függőleges méretezési tényezőt, a negatív méretezés tükrözést okoz. (százalék) Olvasás/írás Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Megadja a vízszintes ferde szöget. Olvasás/írás Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Megadja a függőleges ferde szöget. Olvasás/írás Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Megadja a kezdeti alpha érték (százalék) pozícióját (az alfa gradiens skálán). Olvasás/írás Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Kezdeti tükrözés átlátszatlansága. (százalék). Olvasás/írás Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Téglalap igazítás. Olvasás/írás [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Megadja, hogy a tükrözés forgásra kerüljön-e a alakzattal, ha az alakzat el van forgatva. Olvasás/írás Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Megadja a vízszintes skálázási tényezőt, a negatív skálázás tükrözést eredményez. (százalék) Olvasás/írás Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Megadja a függőleges skálázási tényezőt, a negatív skálázás tükrözést eredményez. (százalék) Olvasás/írás Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Megadja a vízszintes ferdítési szöget. Olvasás/írás Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Megadja a függőleges ferdítési szöget. Olvasás/írás Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Megadja a kezdő pozíciót (az alfa gradient lépcsőn) a kezdő alfa értékhez (százalék). Olvasás/írás Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | A tükrözés kezdő átlátszatlansága. (százalék). Olvasás/írás Single. |
 
-## Módszerek
+## Metódusok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Megállapítja, hogy a megadott [`Reflection`](../reflection) egyenlő-e a jelenlegi [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Lekéri a tényleges Reflection hatás adatokat az öröklődés alkalmazásával. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Meghatározza, hogy a megadott [`Reflection`](../reflection) egyenlő-e a jelenlegi [`Reflection`](../reflection). |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Lekéri a hatékony Reflection effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

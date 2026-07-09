@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo tham chiếu dự án VBA thông qua giao diện COM
 type: docs
 weight: 11590
@@ -18,7 +18,7 @@ public interface IVbaReferenceFactory
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Tạo tham chiếu thư viện loại OLE Automation mới. |
+| [CreateOleTypeLibReference](../../aspose.slides.vba/ivbareferencefactory/createoletypelibreference)(string, string) | Tạo tham chiếu thư viện kiểu OLE Automation mới. |
 
 ### Xem thêm
 

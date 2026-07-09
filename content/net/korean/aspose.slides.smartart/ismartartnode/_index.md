@@ -18,14 +18,14 @@ public interface ISmartArtNode
 
 | 이름 | 설명 |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | FillFormat 개체를 반환하며 노드 글머리표에 대한 채우기 서식 속성을 포함합니다. 참고: 특정 SmartArt 레이아웃 유형 중 노드에 글머리표를 제공하지 않는 경우 null을 반환할 수 있습니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | 현재 노드의 모든 하위 노드 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | 노드 글머리 기호에 대한 채우기 서식 속성을 포함하는 FillFormat 객체를 반환합니다. 참고: 노드에 글머리 기호를 제공하지 않는 특정 SmartArt 레이아웃의 경우 null을 반환할 수 있습니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | 현재 노드의 모든 자식 노드 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | 노드를 보조 노드로 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | 데이터 모델에서 이 노드가 숨겨진 노드인 경우 true를 반환합니다. 읽기 전용 Boolean. |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | 데이터 모델에서 이 노드가 숨김 노드인 경우 true를 반환합니다. 읽기 전용 Boolean. |
 | [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | 노드의 중첩 수준을 반환합니다. 읽기 전용 Int32. |
 | [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | 현재 노드와 연결된 조직도 레이아웃 유형을 반환하거나 설정합니다. 읽기/쓰기 [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 형제 노드 중에서 노드의 0부터 시작하는 위치를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | 노드와 연결된 모든 도형 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | 형제 노드 사이에서 노드의 0 기반 위치를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | 노드와 연관된 모든 도형 컬렉션을 반환합니다. 읽기 전용 [`ISmartArtShapeCollection`](../ismartartshapecollection). |
 | [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | 노드의 텍스트를 반환하거나 설정합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## 메서드
@@ -34,7 +34,7 @@ public interface ISmartArtNode
 | --- | --- |
 | [Remove](../../aspose.slides.smartart/ismartartnode/remove)() | 현재 노드를 제거합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IOptionalBlackTransition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกได้.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือก
 type: docs
 weight: 10140
 url: /th/aspose.slides.slideshow/ioptionalblacktransition/
 ---
-## IOptionalBlackTransition interface
+## IOptionalBlackTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกได้.
+เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือก
 
 ```csharp
 public interface IOptionalBlackTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IOptionalBlackTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ITransitionValueBase พื้นฐานได้. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | แอตทริบิวต์นี้ระบุว่าการเปลี่ยนสไลด์จะเริ่มจากหน้าจอสีดำ (และจากนั้นเปลี่ยนสไลด์ใหม่บนสีดำ) หรือไม่. อ่าน/เขียน Boolean. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ioptionalblacktransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [FromBlack](../../aspose.slides.slideshow/ioptionalblacktransition/fromblack) { get; set; } | แอตทริบิวต์นี้ระบุว่าการเปลี่ยนจะเริ่มจากหน้าจอสีดำ (แล้วจึงเปลี่ยนสไลด์ใหม่บนสีดำ). อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

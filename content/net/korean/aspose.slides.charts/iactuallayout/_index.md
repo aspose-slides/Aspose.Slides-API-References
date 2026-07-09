@@ -1,6 +1,6 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 요소의 실제 위치를 지정합니다.
 type: docs
 weight: 1690
@@ -18,12 +18,12 @@ public interface IActualLayout
 
 | Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻기 전에 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻기 전에 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 전에 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 전에 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 Single. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

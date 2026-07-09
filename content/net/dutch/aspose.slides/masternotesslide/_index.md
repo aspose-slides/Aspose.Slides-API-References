@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de masterdia voor notities weer.
+description: Stelt een masterdia voor notities weer.
 type: docs
 weight: 8010
 url: /nl/aspose.slides/masternotesslide/
 ---
 ## MasterNotesSlide klasse
 
-Stelt de masterdia voor notities weer.
+Geeft een master-dia voor notities weer.
 
 ```csharp
 public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
@@ -19,18 +19,18 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 | Naam | Beschrijving |
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Retourneert de achtergrond van de dia. Alleen-lezen [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Retourneert de verzameling ActiveX-besturingselementen op een dia. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Retourneert de verzameling van ActiveX-besturingselementen op een dia. Alleen-lezen [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Retourneert de aangepaste gegevens van de dia. Alleen-lezen [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Retourneert een verzameling tekengidsen voor de master-notitiedia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Retourneert de HeaderFooter-beheerder van de master-notitiedia. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot de opgenomen hyperlink-s. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retourneert of stelt de naam van een dia in. Lezen/schrijven String. |
-| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Retourneert de stijl van notitietekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retourneert IPresentation-interface. Alleen-lezen [`IPresentation`](../ipresentation). |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | Retourneert een verzameling tekenrichtlijnen voor de master-notitiesdia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | Retourneert de HeaderFooter-beheerder van de master-notitiesdia. Alleen-lezen [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Biedt gemakkelijke toegang tot de ingesloten hyperlinks. Alleen-lezen [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retourneert of stelt de naam van een dia in. Lezen/Schrijven String. |
+| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | Retourneert de stijl van een notitext. Alleen-lezen [`ITextStyle`](../itextstyle). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retourneert de IPresentation-interface. Alleen-lezen [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retourneert de vormen van een dia. Alleen-lezen [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Specificeert of vormen op de masterdia getoond moeten worden op dia's of niet. Voor de masterdia zelf retourneert deze eigenschap altijd `false`. Lezen/schrijven Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | Bepaalt of vormen op de master-dia getoond moeten worden op dia's of niet. Voor de master-dia zelf retourneert deze eigenschap altijd `false`. Lezen/Schrijven Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retourneert de ID van een dia. Alleen-lezen UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retourneert het Transition-object dat informatie bevat over hoe de opgegeven dia tijdens een diavoorstelling vordert. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retourneert het Transition-object dat informatie bevat over hoe de opgegeven dia voortschrijdt tijdens een diavoorstelling. Alleen-lezen [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | Retourneert de themabeheerder. Alleen-lezen [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retourneert het animatietijdlijnobject. Alleen-lezen [`IAnimationTimeLine`](../ianimationtimeline). |
 
@@ -39,16 +39,16 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 | Naam | Beschrijving |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retourneert een effectief thema voor deze dia. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De retourwaarde wordt berekend op basis van de structuur van de dia en statische inhoud. Twee dia's zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, enz., gelijk zijn. De vergelijking houdt geen rekening met unieke identificatiewaarden, bijvoorbeeld SlideId, en dynamische inhoud, zoals de huidige datumwaarde in Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Zoekt de eerste verschijning van een vorm met de opgegeven alternatieve tekst. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt runs samen met dezelfde opmaak in alle alinea's van alle toegestane vormen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt runs samen met dezelfde opmaak in alle alinea's van alle toegestane vormen. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bepaalt of de twee IBaseSlide-instanties gelijk zijn. De geretourneerde waarde wordt berekend op basis van de structuur en statische inhoud van de dia. Twee dia's zijn gelijk als alle vormen, stijlen, teksten, animaties en andere instellingen, enz., gelijk zijn. De vergelijking houdt geen rekening met unieke identifier-waarden, bijv. SlideId, en dynamische inhoud, bijv. de huidige datumwaarde in een Datum-plaatsaanduiding. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Vindt de eerste voorkoming van een vorm met de opgegeven alternatieve tekst. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Voegt runs met dezelfde opmaak samen in alle alinea's van alle toegestane vormen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Voegt runs met dezelfde opmaak samen in alle alinea's van alle toegestane vormen. |
 
 ### Zie ook
 
 * klasse [BaseSlide](../baseslide)
 * interface [IMasterNotesSlide](../imasternotesslide)
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

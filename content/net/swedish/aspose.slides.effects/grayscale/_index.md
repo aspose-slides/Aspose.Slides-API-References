@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en Gray Scale-effekt. Konverterar alla färgvärden i effekten till en nyans av grå som motsvarar deras luminans. Effektens alfa-opacitet påverkas inte.
+description: Representerar en Gray Scale-effekt. Konverterar alla färgvärden för effekten till en nyans av grå som motsvarar deras luminans. Effektens alfa-opacitet påverkas inte.
 type: docs
-weight: 2980
+weight: 3000
 url: /sv/aspose.slides.effects/grayscale/
 ---
 ## GrayScale klass
 
-Representerar en Gray Scale-effekt. Konverterar alla färgvärden i effekten till en gråskala som motsvarar deras luminans. Effekt-alpha (opacitet) påverkas inte.
+Representerar en Gray Scale-effekt. Konverterar alla färgvärden för effekten till en nyans av grå som motsvarar deras luminans. Effektens alfa (opacitet) påverkas inte.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -24,9 +24,9 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Bestämmer om den angivna [`GrayScale`](../grayscale) är lika med den aktuella [`GrayScale`](../grayscale). |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Hämtar effektiva Gray Scale-effektdatan med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Fungerar som en hash-funktion för en specifik typ. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Avgör om den angivna [`GrayScale`](../grayscale) är lika med den aktuella [`GrayScale`](../grayscale). |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Hämtar den effektiva Gray Scale-effektdatan med ärvd egenskap tillämpad. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Fungerar som en hashfunktion för en viss typ. |
 
 ### Se även
 

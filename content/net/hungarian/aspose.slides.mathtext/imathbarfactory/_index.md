@@ -1,27 +1,27 @@
 ---
 title: IMathBarFactory
-second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi egy matematikai sáv létrehozását
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Lehetővé teszi a matematikai vonal létrehozását
 type: docs
-weight: 8110
+weight: 8130
 url: /hu/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory interfész
 
-Lehetővé teszi egy matematikai sáv létrehozását
+Lehetővé teszi egy matematikai vonal létrehozását
 
 ```csharp
 public interface IMathBarFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Matematikai sáv létrehozása az elemhez alkalmazva |
-| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Matematikai sáv létrehozása az elemhez alkalmazva |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar)(IMathElement) | Létrehoz egy matematikai vonalat az elemre alkalmazva |
+| [CreateMathBar](../../aspose.slides.mathtext/imathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | Létrehoz egy matematikai vonalat az elemre alkalmazva |
 
-### Megjegyzés
+### Megjegyzések
 
 A COM kompatibilitáshoz
 

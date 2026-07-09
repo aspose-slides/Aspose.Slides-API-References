@@ -1,12 +1,12 @@
 ---
 title: GradientStyle
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta gli stili di gradiente disponibili.
 type: docs
-weight: 5040
+weight: 5060
 url: /it/aspose.slides/gradientstyle/
 ---
-## Enumerazione GradientStyle
+## enumerazione GradientStyle
 
 Rappresenta gli stili di gradiente disponibili.
 
@@ -19,7 +19,7 @@ public enum GradientStyle
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Default | `0` | Lo stile di gradiente predefinito. |
-| PowerPointUI | `1` | Lo stile di gradiente come appare nell'interfaccia utente di PowerPoint. |
+| PowerPointUI | `1` | Lo stile di gradiente così com'è visualizzato nell'interfaccia utente di PowerPoint. |
 
 ### Vedi anche
 

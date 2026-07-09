@@ -22,10 +22,10 @@ public enum FontStyleType
 | Regular | `0` | 표준 텍스트. |
 | Bold | `1` | 굵은 텍스트. |
 | Italic | `2` | 기울임 텍스트. |
-| Underline | `4` | 밑줄이 있는 텍스트. |
-| Strikeout | `8` | 가로선으로 취소선이 있는 텍스트. |
+| Underline | `4` | 밑줄이 그어진 텍스트. |
+| Strikeout | `8` | 수평선으로 가로줄이 그어진 텍스트. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

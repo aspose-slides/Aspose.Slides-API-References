@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes for .NET API 참조
-description: AI 모델에 채팅 지시를 전송하고 해당 지시에 대한 응답 메시지를 반환합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: AI 모델에 채팅 지시를 보내고, 해당 지시에 대한 응답 메시지를 반환합니다.
 type: docs
 weight: 20
 url: /ko/aspose.slides.ai/asposeaiwebclient/callchatasync/
 ---
 ## AsposeAIWebClient.CallChatAsync 메서드
 
-채팅 지시를 AI 모델에 전송하고 해당 지시에 대한 응답 메시지를 반환합니다.
+AI 모델에 채팅 지시를 보내고, 해당 지시에 대한 응답 메시지를 반환합니다.
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -16,19 +16,19 @@ public Task<string> CallChatAsync(string instruction)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| instruction | String | AI 모델에 의해 처리되는 지시 또는 메시지. |
+| instruction | String | AI 모델이 처리할 지시 또는 메시지입니다. |
 
-### 반환 값
+### 반환값
 
-주어진 지시에 대한 응답으로 AI 모델이 생성한 메시지.
+주어진 지시에 대한 응답으로 AI 모델이 생성한 메시지입니다.
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentException | AI 채팅 지시는 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | AI 채팅 지시문은 null이거나 비어 있을 수 없습니다 |
 
-### 참조
+### 또 보기
 
 * 클래스 [AsposeAIWebClient](../../asposeaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../asposeaiwebclient)

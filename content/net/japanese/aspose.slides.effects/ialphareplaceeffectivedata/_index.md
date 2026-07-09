@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 不変オブジェクトで、Alpha Replace エフェクトを表します。エフェクトのアルファ（不透明度）値は固定アルファに置き換えられます。
+description: 不変オブジェクトで、Alpha Replace 効果を表します。効果のアルファ不透明度の値は固定のアルファに置き換えられます。
 type: docs
-weight: 3130
+weight: 3150
 url: /ja/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
 ## IAlphaReplaceEffectiveData インターフェイス
 
-不変オブジェクトで、Alpha Replace エフェクトを表します。エフェクトのアルファ（不透明度）値は固定アルファに置き換えられます。
+不変オブジェクトで、Alpha Replace 効果を表します。効果のアルファ（不透明度）値は固定のアルファに置き換えられます。
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 間隔 [0..1] の新しいアルファ値を返します（読み取り専用） Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | ベースの IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 新しいアルファ値を [0..1] の範囲で返します。読み取り専用 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### 参照
 

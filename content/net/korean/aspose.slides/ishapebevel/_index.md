@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형의 주요 면 돌출에 대한 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 도형의 주요 면 양각에 대한 속성을 나타냅니다.
 type: docs
 weight: 6960
 url: /ko/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel 인터페이스
 
-도형의 주요 면 돌출에 대한 속성을 나타냅니다.
+도형의 주요 면 양각에 대한 속성을 나타냅니다.
 
 ```csharp
 public interface IShapeBevel
@@ -22,7 +22,7 @@ public interface IShapeBevel
 | [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 베벨 높이. 읽기/쓰기 Double. |
 | [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 베벨 너비. 읽기/쓰기 Double. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

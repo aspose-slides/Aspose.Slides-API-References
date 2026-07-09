@@ -1,14 +1,14 @@
 ---
 title: ShapeElementFillSource
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプ要素がどのように塗りつぶされるかを表します。
+description: シェイプ要素の塗りつぶし方法を表します。
 type: docs
-weight: 9860
+weight: 9880
 url: /ja/aspose.slides/shapeelementfillsource/
 ---
-## ShapeElementFillSource 列挙型
+## ShapeElementFillSource 列挙体
 
-シェイプ要素がどのように塗りつぶされるかを表します。
+シェイプ要素の塗りつぶし方法を表します。
 
 ```csharp
 public enum ShapeElementFillSource : byte
@@ -19,11 +19,11 @@ public enum ShapeElementFillSource : byte
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
 | NoFill | `0` | プリミティブを塗りつぶさない。 |
-| Shape | `1` | シェイプの塗りつぶしを使用する。 |
-| Lighten | `2` | シェイプの塗りつぶしを明るくする。 |
-| LightenLess | `3` | シェイプの塗りつぶしをやや明るくする。 |
-| Darken | `4` | シェイプの塗りつぶしを暗くする。 |
-| DarkenLess | `5` | シェイプの塗りつぶしをやや暗くする。 |
+| Shape | `1` | シェイプの塗りを使用します。 |
+| Lighten | `2` | シェイプの塗りを明るくします。 |
+| LightenLess | `3` | シェイプの塗りをやや明るくします。 |
+| Darken | `4` | シェイプの塗りを暗くします。 |
+| DarkenLess | `5` | シェイプの塗りをやや暗くします。 |
 
 ### 参照
 

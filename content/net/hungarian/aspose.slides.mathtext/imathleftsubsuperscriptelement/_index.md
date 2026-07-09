@@ -1,14 +1,14 @@
 ---
 title: IMathLeftSubSuperscriptElement
 second_title: Aspose.Sildes .NET API referencia
-description: Meghatározza a Sub-Superscript objektumot, amely egy alapból, valamint egy alsó és felső indexből áll, és az alap bal oldalán helyezkedik el.
+description: Meghatározza a Sub-Superscript objektumot, amely egy bázisból, valamint a bázis bal oldalára helyezett alsó- és felső indexből áll.
 type: docs
-weight: 8290
+weight: 8310
 url: /hu/aspose.slides.mathtext/imathleftsubsuperscriptelement/
 ---
 ## IMathLeftSubSuperscriptElement interfész
 
-Meghatározza a Sub-Superscript objektumot, amely egy alapból és egy alsó- illetve felső indexből áll, és az alap bal oldalán helyezkedik el.
+Meghatározza a Sub-Superscript objektumot, amely egy alapból, valamint az alap bal oldalára helyezett alsó- és felső indexből áll.
 
 ```csharp
 public interface IMathLeftSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathLeftSubSuperscriptElement : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/base) { get; } | Alap argumentum |
 | [Subscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/subscript) { get; } | Alsó index |
 | [Superscript](../../aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript) { get; } | Felső index |

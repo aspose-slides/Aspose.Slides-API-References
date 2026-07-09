@@ -3,10 +3,10 @@ title: SvgCoordinateUnit
 second_title: Aspose.Sildes .NET API Referansı
 description: SVG koordinatlarını tanımlamak için kullanılan CSS2 koordinat birimlerini temsil eder.
 type: docs
-weight: 4460
+weight: 4480
 url: /tr/aspose.slides.export/svgcoordinateunit/
 ---
-## SvgCoordinateUnit sayım türü
+## SvgCoordinateUnit enumu
 
 SVG koordinatlarını tanımlamak için kullanılan CSS2 koordinat birimlerini temsil eder.
 
@@ -21,10 +21,10 @@ public enum SvgCoordinateUnit
 | Inch | `0` | İnç |
 | Centimeter | `1` | Santimetre. |
 | Millimeter | `2` | Milimetre. |
-| Point | `3` | Nokta (inç'in 1/72'si), |
-| Pica | `4` | Pika (inç'in 1/6'sı). |
-| Em | `5` | İçeren elemanın yazı tipinin Em boyutu. |
-| Ex | `6` | İçeren elemanın yazı tipinin Ex boyutu (küçük harf boyutu, genellikle "x"). |
+| Point | `3` | Nokta (1/72 inç), |
+| Pica | `4` | Pika (1/6 inç). |
+| Em | `5` | İçeren elemanın fontunun Em boyutu. |
+| Ex | `6` | Ex boyutu (küçük harf boyutu, genellikle "x"), içeren elemanın fontunun. |
 | Pixel | `7` | Piksel boyutu. |
 | Percent | `8` | Yüzde. |
 

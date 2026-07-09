@@ -1,45 +1,45 @@
 ---
 title: HtmlOptions
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงตัวเลือกการส่งออก HTML
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นตัวเลือกการส่งออก HTML
 type: docs
 weight: 3890
 url: /th/aspose.slides.export/htmloptions/
 ---
 ## คลาส HtmlOptions
 
-เป็นตัวเลือกการส่งออก HTML
+เป็นตัวเลือกสำหรับการส่งออก HTML
 
 ```csharp
 public class HtmlOptions : SaveOptions, IHtmlOptions
 ```
 
-## ผู้สร้าง
+## คอนสตรักเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [HtmlOptions](htmloptions#constructor)() | สร้างอ็อบเจกต์ HtmlOptions ใหม่สำหรับบันทึกเป็นไฟล์ HTML เดียว |
-| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | สร้างอ็อบเจกต์ HtmlOptions ใหม่โดยระบุคอลแบ๊ก |
+| [HtmlOptions](htmloptions#constructor)() | สร้างอ็อบเจ็กต์ HtmlOptions ใหม่สำหรับการบันทึกเป็นไฟล์ HTML เดียว |
+| [HtmlOptions](htmloptions#constructor_1)(ILinkEmbedController) | สร้างอ็อบเจ็กต์ HtmlOptions ใหม่พร้อมระบุการเรียกกลับ |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ส่งคืนหรือกำหนดแบบอักษรที่ใช้เมื่อไม่พบแบบอักษรต้นทาง อ่าน-เขียน String |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | แฟล็กบูลีนที่บ่งบอกว่าตำแหน่งที่ถูกตัดจะคงอยู่เป็นส่วนหนึ่งของเอกสาร หากเป็น true ส่วนที่ถูกตัดจะถูกลบ หากเป็น false จะถูกจัดเก็บในเอกสาร (ซึ่งอาจทำให้ไฟล์ใหญ่ขึ้นได้) |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งบอกว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์ หากตั้งค่าเป็น `true` ลิเกเจอร์จะถูกปิดในผลลัพธ์ที่แสดง โดยค่าเริ่มต้นคุณสมบัตินี้ตั้งค่าเป็น `false` |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ส่งคืนหรือกำหนดรูปแบบภาพของการไล่ระดับสี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle) |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | ส่งคืนหรือกำหนดแม่แบบ HTML อ่าน/เขียน [`IHtmlFormatter`](../ihtmlformatter) |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของอ็อบเจกต์ Ink ในเอกสารที่ส่งออก อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | ส่งคืนหรือกำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ในเอกสาร PDF อ่าน/เขียน Byte |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | เป็นระดับการบีบอัดรูปภาพ |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นอ็อบเจกต์คอลแบ๊กสำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback) |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | ระบุว่าหนังสือเอกสารที่สร้างควรรวมสไลด์ที่ซ่อนหรือไม่ ค่าเริ่มต้นคือ `false` |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกการนำเสนอหรือไม่ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false** |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | ส่งคืนหรือกำหนดตัวเลือกรูปแบบภาพสไลด์ อ่าน/เขียน [`ISlideImageFormat`](../islideimageformat) |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกจัดวางบนหน้าเมื่อส่งออกการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions) |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True เพื่อยกเว้นแอตทริบิวต์ความกว้างและความสูงจากคอนเทนเนอร์ svg - จะทำให้การจัดวางตอบสนองได้ False ในกรณีอื่น ๆ อ่าน/เขียน Boolean |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | ส่งคืนหรือกำหนดอ็อบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือถูกยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | คืนค่าหรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นทาง. อ่าน-เขียน String. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | เป็นแฟล็กบูลีนที่ระบุว่าขั้นส่วนที่ถูกครอปจะคงอยู่เป็นส่วนของเอกสารหรือไม่. หากเป็น true ขั้นส่วนที่ถูกครอปจะถูกลบ, หากเป็น false จะถูกจัดเก็บในเอกสาร (ซึ่งอาจทำให้ไฟล์ใหญ่ขึ้น) |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกแสดงโดยไม่ใช้ลิเกเจอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิเกเจอร์จะถูกปิดในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้นคุณสมบัตินี้จะถูกตั้งเป็น `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | คืนค่า或กำหนดสไตล์การแสดงผลของกราเดียนท์. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | คืนค่า或กำหนดเทมเพลต HTML. อ่าน/เขียน [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | คืนค่า或กำหนดค่าที่กำหนดคุณภาพของภาพ JPEG ภายในเอกสาร PDF. อ่าน/เขียน Byte. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงอ็อบเจ็กต์การเรียกกลับสำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | ระบุว่าหากต้องการให้เอกสารที่สร้างรวมสไลด์ที่ซ่อนไว้หรือไม่. ค่าเริ่มต้นคือ `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | คืนค่า或กำหนดตัวเลือกรูปแบบภาพสไลด์. อ่าน/เขียน [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True เพื่อยกเว้นแอตทริบิวต์ความกว้างและความสูงจากคอนเทนเนอร์ svg - ซึ่งจะทำให้รูปแบบตอบสนอง. False - ในกรณีอื่น. อ่าน/เขียน Boolean. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | คืนค่า或กำหนดอ็อบเจ็กต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ดูเพิ่มเติม
 

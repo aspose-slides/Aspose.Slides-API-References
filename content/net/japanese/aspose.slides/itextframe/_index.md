@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: TextFrame を表します。
 type: docs
-weight: 7250
+weight: 7270
 url: /ja/aspose.slides/itextframe/
 ---
 ## ITextFrame インターフェイス
 
-TextFrame を表します。
+Represents a TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,27 +18,27 @@ public interface ITextFrame : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。 読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡単なアクセスを提供します。 読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | フレーム内のすべての段落のリストを返します。 読み取り専用 [`IParagraphCollection`](../iparagraphcollection)。 |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | 親セルを返します。親オブジェクトが ICell インターフェイスを実装していない場合は null を返します。 読み取り専用 [`ICell`](../icell)。 |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | 親シェイプを返します。親オブジェクトが IShape インターフェイスを実装していない場合は null を返します。 読み取り専用 [`IShape`](../ishape)。 |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | TextFrame のプレーンテキストを取得または設定します。 読み取り/書き込み String。 |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | ベース ISlideComponent インターフェイスを取得できます。 読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | 含まれるハイパーリンクへの簡易アクセスを提供します。 読み取り専用 [`IHyperlinkQueries`](../ihyperlinkqueries)。 |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | フレーム内のすべての段落の一覧を返します。 読み取り専用 [`IParagraphCollection`](../iparagraphcollection)。 |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | 親セルを返します。親オブジェクトが ICell インターフェイスを実装していない場合は null が返されます。 読み取り専用 [`ICell`](../icell)。 |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | 親シェイプを返します。親オブジェクトが IShape インターフェイスを実装していない場合は null が返されます。 読み取り専用 [`IShape`](../ishape)。 |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | TextFrame のプレーンテキストを取得または設定します。 読み書き String。 |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | この TextFrame オブジェクトの書式設定オブジェクトを返します。 読み取り専用 [`ITextFrameFormat`](../itextframeformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 指定した色で正規表現のすべての一致箇所を強調表示します。 |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | 指定した色でサンプルテキストのすべての一致箇所を強調表示します。 |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 指定した色でサンプルテキストのすべての一致箇所を強調表示します。 |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 正規表現のすべての一致箇所を指定された色でハイライトします。 |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | サンプルテキストのすべての一致箇所を指定された色でハイライトします。 |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | サンプルテキストのすべての一致箇所を指定された色でハイライトします。 |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | すべての段落で同じ書式のランを結合します。 |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | 正規表現のすべての一致箇所を指定した文字列に置換します。 |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | 正規表現のすべての一致箇所を指定された文字列に置換します。 |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 指定されたテキストのすべての出現箇所を別の指定テキストに置換します。 |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) のテキスト内容を文字列配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。 |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) のテキスト内容を文字列の配列に分割します。各要素はフレーム内の個別のテキスト列に対応します。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ISlideComponent](../islidecomponent)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

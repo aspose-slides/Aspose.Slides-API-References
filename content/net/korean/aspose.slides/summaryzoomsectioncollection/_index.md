@@ -1,6 +1,6 @@
 ---
 title: SummaryZoomSectionCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Summary Zoom Section 객체의 컬렉션을 나타냅니다.
 type: docs
 weight: 10790
@@ -19,7 +19,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 
 | Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides/summaryzoomsectioncollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides/summaryzoomsectioncollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/summaryzoomsectioncollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ISummaryZoomSection`](../isummaryzoomsection). |
 | [SyncRoot](../../aspose.slides/summaryzoomsectioncollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
@@ -31,7 +31,7 @@ public sealed class SummaryZoomSectionCollection : DomObject<SummaryZoomFrame>,
 | [AddSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 새 Summary Zoom Section 객체를 생성하고 컬렉션에 추가합니다. |
 | [Clear](../../aspose.slides/summaryzoomsectioncollection/clear)() | 컬렉션에서 모든 SummaryZoomSection 객체를 제거합니다. |
 | [CopyTo](../../aspose.slides/summaryzoomsectioncollection/copyto)(Array, int) | 전체 컬렉션을 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/summaryzoomsectioncollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 | [GetSummarySection](../../aspose.slides/summaryzoomsectioncollection/getsummarysection)(ISection) | 주어진 섹션에 대한 Summary Zoom Section 요소를 반환합니다. |
 | [IndexOf](../../aspose.slides/summaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 지정된 SummaryZoomSection 객체의 인덱스를 반환합니다. |
 | [RemoveSummaryZoomSection](../../aspose.slides/summaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 컬렉션에서 Summary Zoom Section 객체를 제거합니다. |

@@ -1,14 +1,14 @@
 ---
 title: AdjustValue
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงค่าการปรับของรูปทรงเชิงเรขาคณิต ค่าดังกล่าวมีผลต่อรูปแบบของรูปทรง
+description: เป็นค่าการปรับของรูปทรงเรขาคณิต ค่าดังกล่าวมีผลต่อรูปทรงของ shape.
 type: docs
 weight: 90
 url: /th/aspose.slides/adjustvalue/
 ---
 ## AdjustValue คลาส
 
-แสดงค่าการปรับของรูปร่างเชิงเรขาคณิต ค่าดังกล่าวมีผลต่อรูปแบบของรูปร่าง
+แทนค่าการปรับของรูปทรงเรขาคณิต. ค่าดังกล่าวมีผลต่อรูปทรงของ shape.
 
 ```csharp
 public class AdjustValue : IAdjustValue
@@ -18,10 +18,10 @@ public class AdjustValue : IAdjustValue
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | ส่งคืนหรือกำหนดค่า โดยตีความเป็นมุมหน่วยองศา อ่าน/เขียน Single. |
-| [Name](../../aspose.slides/adjustvalue/name) { get; } | ส่งคืนชื่อของค่าการปรับนี้ อ่านอย่างเดียว String. |
-| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | ส่งคืนหรือกำหนดค่าการปรับตามที่เป็นอยู่ อ่าน/เขียน Int64. |
-| [Type](../../aspose.slides/adjustvalue/type) { get; } | ส่งคืนประเภทของการปรับรูปทรง อ่านอย่างเดียว [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [AngleValue](../../aspose.slides/adjustvalue/anglevalue) { get; set; } | คืนค่า หรือ ตั้งค่าค่า โดยตีความเป็นมุมในหน่วยองศา. อ่าน/เขียน Single. |
+| [Name](../../aspose.slides/adjustvalue/name) { get; } | คืนค่าชื่อของค่าปรับนี้. อ่านอย่างเดียว String. |
+| [RawValue](../../aspose.slides/adjustvalue/rawvalue) { get; set; } | คืนค่า หรือ ตั้งค่าค่าปรับ “as is”. อ่าน/เขียน Int64. |
+| [Type](../../aspose.slides/adjustvalue/type) { get; } | คืนค่าชนิดของการปรับรูปทรง. อ่านอย่างเดียว [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Summation और Integral जैसे N-ary गणितीय वस्तु को निर्दिष्ट करता है। यह एक ऑपरेटर, एक बेस या operand, और वैकल्पिक ऊपरी और निचली सीमाओं से बना होता है। N-ary ऑपरेटरों के उदाहरण हैं Summation, Union, Intersection, Integral
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Summation और Integral जैसी N-ary गणितीय वस्तु को निर्दिष्ट करता है। इसमें एक ऑपरेटर, एक बेस या ऑपरेण्ड, और वैकल्पिक ऊपरी और निचली सीमाएँ शामिल हैं। N-ary ऑपरेटर्स के उदाहरण हैं Summation Union Intersection Integral
 type: docs
 weight: 8360
 url: /hi/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator इंटरफ़ेस
 
-N-ary गणितीय वस्तु, जैसे Summation और Integral, को निर्दिष्ट करता है। यह एक ऑपरेटर, एक बेस (या ऑपेरेंड), और वैकल्पिक ऊपरी और निचली सीमाओं से बना होता है। N-ary ऑपरेटरों के उदाहरण हैं: Summation, Union, Intersection, Integral
+N-ary गणितीय वस्तु को निर्दिष्ट करता है, जैसे Summation और Integral। इसमें एक ऑपरेटर, एक बेस (या ऑपरेण्ड), तथा वैकल्पिक ऊपरी और निचली सीमाएँ होती हैं। N-ary ऑपरेटर्स के उदाहरण हैं: Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -18,11 +18,11 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | बेस IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | बेस IMathNaryOperatorProperties इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
-| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | बेस तर्क |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | एक सबस्क्रिप्ट तर्क निर्दिष्ट करता है जो, उदाहरण के लिए, इंटेग्रल के मामले में, निचली सीमा निर्धारित करता है |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | एक सुपरस्क्रिप्ट तर्क निर्दिष्ट करता है जो, उदाहरण के लिए, इंटेग्रल के मामले में, ऊपरी सीमा निर्धारित करता है |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | आधार IMathElement इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | आधार IMathNaryOperatorProperties इंटरफ़ेस प्राप्त करने की अनुमति देता है [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | आधार तर्क |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | एक सबस्क्रिप्ट तर्क निर्दिष्ट करता है जो, उदाहरण के लिए, इंटीग्रल के मामले में, निचली सीमा निर्धारित करता है |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | एक सुपरसक्रिप्ट तर्क निर्दिष्ट करता है जो, उदाहरण के लिए, इंटीग्रल के मामले में, ऊपरी सीमा निर्धारित करता है |
 
 ### उदाहरण
 

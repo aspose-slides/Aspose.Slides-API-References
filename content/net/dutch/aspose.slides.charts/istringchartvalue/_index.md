@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een tekenreekswaarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde.
+description: Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel/cellen van een werkmap die gekoppeld is aan een diagram; 2) als letterlijke waarde.
 type: docs
 weight: 2220
 url: /nl/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue interface
 
-Stelt een tekenreekswaarde voor die in een pptx-presentatiedocument op twee manieren kan worden opgeslagen: 1) in cel/cellen van de werkmap die bij de grafiek hoort; 2) als letterlijke waarde.
+Stelt een tekenreekswaarde voor die op twee manieren in een pptx-presentatiedocument kan worden opgeslagen: 1) in cel/cellen van een werkmap die gekoppeld is aan een diagram; 2) als letterlijke waarde.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -18,16 +18,16 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Stelt u in staat de basis-IMultipleCellChartValue-interface op te halen. Alleen-lezen [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Retourneert of stelt de letterlijke tekenreeks in als de DataSourceType-eigenschap DataSourceType.StringLiterals is. Lezen/Schrijven String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Stelt toe om de basis-IMultipleCellChartValue interface op te halen. Alleen-lezen [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Geeft de letterlijke string terug of stelt deze in als de DataSourceType eigenschap DataSourceType.StringLiterals is. Lezen/schrijven String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Als de DataSourceType-eigenschap DataSourceType.Worksheet is, retourneert deze methode het adres van de cellen in de werkmap die de tekenreeksgegevens vertegenwoordigen. Anders wordt een lege tekenreeks geretourneerd. |
-| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Stelt de waarde in van de opgegeven cel. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Retourneert de tekenreeksrepresentatie. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Als de DataSourceType eigenschap DataSourceType.Worksheet is, geeft deze methode het adres van de cellen in de werkmap terug die de tekenreeksgegevens vertegenwoordigen. Anders wordt een lege tekenreeks geretourneerd. |
+| [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Stelt de waarde in vanuit de opgegeven cel. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Geeft de tekenreeksrepresentatie terug. |
 
 ### Zie ook
 

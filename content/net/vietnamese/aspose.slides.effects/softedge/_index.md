@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một hiệu ứng cạnh mềm. Các cạnh của hình được làm mờ trong khi phần tô không bị ảnh hưởng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một hiệu ứng viền mềm. Các cạnh của hình được làm mờ trong khi phần nền không bị ảnh hưởng.
 type: docs
 weight: 3650
 url: /vi/aspose.slides.effects/softedge/
 ---
-## Lớp SoftEdge
+## SoftEdge lớp
 
-Biểu diễn một hiệu ứng cạnh mềm. Các cạnh của hình được làm mờ, trong khi phần tô không bị ảnh hưởng.
+Biểu diễn một hiệu ứng viền mềm. Các cạnh của hình được làm mờ, trong khi phần nền không bị ảnh hưởng.
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,15 +18,15 @@ public sealed class SoftEdge : ISoftEdge
 
 | Tên | Mô tả |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Chỉ định bán kính làm mờ sẽ áp dụng cho các cạnh. Đọc/ghi Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | Xác định bán kính làm mờ sẽ áp dụng cho các cạnh. Đọc/ghi Double. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Xác định xem [`SoftEdge`](../softedge) được chỉ định có bằng với [`SoftEdge`](../softedge) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Lấy dữ liệu hiệu ứng Soft Edge thực tế với kế thừa đã được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | Xác định xem [`SoftEdge`](../softedge) có bằng với [`SoftEdge`](../softedge) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | Lấy dữ liệu hiệu ứng Soft Edge hiệu lực với tính kế thừa được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | Đóng vai trò là hàm băm cho một loại cụ thể. |
 
 ### Xem thêm
 

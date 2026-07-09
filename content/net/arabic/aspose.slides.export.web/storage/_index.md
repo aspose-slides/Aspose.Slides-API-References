@@ -1,14 +1,14 @@
 ---
 title: Storage
-second_title: Aspose.Sildes لمرجع API .NET
-description: يمثل تخزين بيانات مؤقتًا لـ WebDocument./webdocument.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل تخزينًا مؤقتًا للبيانات لـ WebDocument./webdocument.
 type: docs
 weight: 4660
 url: /ar/aspose.slides.export.web/storage/
 ---
 ## فئة التخزين
 
-يمثل تخزين بيانات مؤقتًا لـ [`WebDocument`](../webdocument).
+يمثل تخزينًا مؤقتًا للبيانات لـ [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage
@@ -16,15 +16,15 @@ public sealed class Storage
 
 ## المُنشئات
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [Storage](storage)() | المنشئ الافتراضي. |
+| [Storage](storage)() | المُنشئ الافتراضي. |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | يحدد ما إذا كان التخزين يحتوي على عنصر بالمفتاح المحدد. |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | يحدِّد ما إذا كان التخزين يحتوي على عنصر بالمفتاح المحدد. |
 | [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | يحصل على البيانات من التخزين. |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | يضع القيمة في التخزين. |
 

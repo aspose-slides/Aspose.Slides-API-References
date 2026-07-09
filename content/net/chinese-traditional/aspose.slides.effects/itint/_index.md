@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 Tint 效果。根據指定的量將效果的顏色值向色相方向或相反方向移動。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示 Tint 效果。根據指定的量，將效果的顏色值向或遠離色相偏移。
 type: docs
 weight: 3540
 url: /zh-hant/aspose.slides.effects/itint/
 ---
 ## ITint 介面
 
-表示 Tint 效果。根據指定的量將效果的顏色值向色相方向或相反方向移動。
+表示 Tint 效果。根據指定的量，將效果的顏色值向或遠離色相偏移。
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -21,7 +21,7 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 
-### 相關參考
+### 參見
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [ITintEffectiveData](../itinteffectivedata)

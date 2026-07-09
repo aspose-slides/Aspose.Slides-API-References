@@ -1,14 +1,14 @@
 ---
 title: VideoPlayModePreset
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Constante die definiëren hoe een video wordt afgespeeld.
+description: Constanten die bepalen hoe een video wordt afgespeeld.
 type: docs
 weight: 11730
 url: /nl/aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset enumeratie
 
-Constanten die definiëren hoe een video wordt afgespeeld.
+Constanten die bepalen hoe een video wordt afgespeeld.
 
 ```csharp
 public enum VideoPlayModePreset
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Speelt automatisch af. |
-| OnClick | `1` | Speelt alleen af wanneer op het videokader wordt geklikt. |
-| AllSlides | `2` | Speelt af op alle dia's. |
-| InClickSequence | `3` | Speelt automatisch af met een klik. |
+| Auto | `0` | Speel automatisch af. |
+| OnClick | `1` | Speel alleen af wanneer op het videoframe wordt geklikt. |
+| AllSlides | `2` | Speel af op alle dia's. |
+| InClickSequence | `3` | Speel automatisch af met een klik. |
 
 ### Zie ook
 

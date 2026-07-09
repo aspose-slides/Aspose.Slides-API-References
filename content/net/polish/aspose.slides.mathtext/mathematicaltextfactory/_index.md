@@ -1,14 +1,14 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Umożliwia tworzenie elementu MathematicalText
 type: docs
-weight: 9050
+weight: 9070
 url: /pl/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory klasa
 
-Umożliwia utworzenie elementu MathematicalText
+Umożliwia tworzenie elementu MathematicalText
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -24,14 +24,14 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Utwórz pusty element tekstowy matematyczny |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Utwórz element tekstowy matematyczny o określonej wartości |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Utwórz pusty element tekstowy matematyczny o określonej wartości |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Utwórz pusty element tekstowy matematyczny o określonej wartości i właściwościach formatowania |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Utwórz pusty element tekstu matematycznego |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Utwórz element tekstu matematycznego o podanej wartości |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Utwórz pusty element tekstu matematycznego o podanej wartości |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Utwórz pusty element tekstu matematycznego o podanej wartości i właściwościach formatowania |
 
 ### Uwagi
 
-Dla kompatybilności z COM
+Dla zgodności z COM
 
 ### Zobacz także
 

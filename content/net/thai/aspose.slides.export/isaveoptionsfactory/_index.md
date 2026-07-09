@@ -18,7 +18,7 @@ public interface ISaveOptionsFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | สร้างตัวเลือกการบันทึก PPTX |
 
 ### หมายเหตุ
 

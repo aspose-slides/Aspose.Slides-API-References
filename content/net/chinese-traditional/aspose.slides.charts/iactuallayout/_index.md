@@ -1,6 +1,6 @@
 ---
 title: IActualLayout
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 指定圖表元素的實際位置。
 type: docs
 weight: 1690
@@ -16,14 +16,14 @@ public interface IActualLayout
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 指定圖表元素的實際高度。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single. |
-| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 指定圖表元素的實際寬度。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single. |
-| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左）。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single. |
+| [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | 指定圖表元素的實際高度。呼叫方法 IChart.ValidateChartLayout() 之前以取得實際值。唯讀 Single。 |
+| [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | 指定圖表元素的實際寬度。呼叫方法 IChart.ValidateChartLayout() 之前以取得實際值。唯讀 Single。 |
+| [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左）。呼叫方法 IChart.ValidateChartLayout() 之前以取得實際值。唯讀 Single。 |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上方位置。呼叫方法 IChart.ValidateChartLayout() 之前以取得實際值。唯讀 Single。 |
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

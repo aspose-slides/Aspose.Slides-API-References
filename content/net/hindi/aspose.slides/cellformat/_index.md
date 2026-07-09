@@ -1,14 +1,14 @@
 ---
 title: CellFormat
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक तालिका सेल के स्वरूप का प्रतिनिधित्व करता है।
+description: एक तालिका सेल के स्वरूप को दर्शाता है।
 type: docs
 weight: 1150
 url: /hi/aspose.slides/cellformat/
 ---
-## CellFormat वर्ग
+## CellFormat क्लास
 
-एक तालिका सेल के स्वरूप का प्रतिनिधित्व करता है.
+एक तालिका सेल का स्वरूप प्रस्तुत करता है।
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -18,27 +18,27 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है. केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | नीचे की बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | ऊपर-बाएँ से नीचे-दाएँ विकर्ण लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | नीचे-बाएँ से ऊपर-दाएँ विकर्ण लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | बाएँ बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | दाएँ बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | ऊपर बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | सेल भराव प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है. केवल-पढ़ने योग्य [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | भरण रंग की पारदर्शिता प्राप्त करता है या सेट करता है. पढ़ने/लिखने योग्य Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../ipresentationcomponent)। |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | निचली बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | ऊपर-बाएँ से नीचे-दाएँ तक की विकर्ण रेखा प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | नीचे-बाएँ से ऊपर-दाएँ तक की विकर्ण रेखा प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | बाएँ बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | दाएँ बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | ऊपरी बॉर्डर लाइन प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ILineFormat`](../ilineformat)। |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | सेल फ़िल प्रॉपर्टीज़ ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IFillFormat`](../ifillformat)। |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | फ़िल रंग की पारदर्शिता को प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Single। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट से तुलना करता है. |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका सेल फ़ॉर्मेटिंग प्रॉपर्टीज़ प्राप्त करता है. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | निर्दिष्ट ऑब्जेक्ट के साथ तुलना करता है। |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका सेल फ़ॉर्मेटिंग प्रॉपर्टीज़ प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | हैश कोड लौटाता है। |
 
 ### देखें
 
-* वर्ग [PVIObject](../pviobject)
+* क्लास [PVIObject](../pviobject)
 * इंटरफ़ेस [ICellFormat](../icellformat)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

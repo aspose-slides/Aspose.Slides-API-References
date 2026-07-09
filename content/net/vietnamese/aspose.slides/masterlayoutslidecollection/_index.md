@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một tập hợp các layout slide của master slide đã định nghĩa. Kế thừa lớp LayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản/sắp xếp lại layout slide trong ngữ cảnh của các tập hợp riêng biệt của layout slide của master.
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp tất cả các layout slide của master slide đã định nghĩa. Kế thừa lớp LayoutSlideCollection với các phương thức để thêm/chèn/xóa/nhân bản/sắp xếp lại các layout slide trong ngữ cảnh của các tập hợp layout slide riêng của master.
 type: docs
 weight: 8000
 url: /vi/aspose.slides/masterlayoutslidecollection/
 ---
 ## MasterLayoutSlideCollection lớp
 
-Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides.
+Đại diện cho một tập hợp các layout slide của master slide đã định nghĩa. Kế thừa LayoutSlideCollection lớp với các phương thức để thêm/chèn/xóa/nhân bản/sắp xếp lại các layout slide trong ngữ cảnh của các tập hợp layout slide riêng của master.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,32 +19,32 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Trả về số lượng layout slides trong một collection. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào collection có được đồng bộ (thread-safe). Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Trả về số lượng layout slide trong một collection. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Trả về một giá trị cho biết việc truy cập vào collection có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/layoutslidecollection/item) { get; } | Trả về layout slide theo chỉ mục. Chỉ đọc [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Trả về một synchronization root. Chỉ đọc Object. |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Thêm một layout slide mới vào cuối collection. |
-| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Thêm một bản sao của layout slide đã chỉ định vào cuối collection. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ collection vào mảng đã chỉ định. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Trả về layout slide đầu tiên của loại đã chỉ định. Một loại layout slide để tìm.[`LayoutSlide`](../layoutslide) với loại đã chỉ định hoặc null nếu không tìm thấy layout nào. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Trả về một enumerator cho phép duyệt qua collection. |
-| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Chèn một layout slide mới vào vị trí đã chỉ định của collection. |
-| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Chèn một bản sao của layout slide đã chỉ định vào vị trí đã chỉ định của collection. |
+| [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Thêm một bản sao của một layout slide đã chỉ định vào cuối collection. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ collection sang mảng đã chỉ định. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Trả về layout slide đầu tiên của loại được chỉ định. Loại layout slide cần tìm.[`LayoutSlide`](../layoutslide) với loại được chỉ định hoặc null nếu không tìm thấy layout nào. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Trả về một enumerator cho phép lặp qua collection. |
+| [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Chèn một layout slide mới vào vị trí được chỉ định của collection. |
+| [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Chèn một bản sao của một layout slide đã chỉ định vào vị trí được chỉ định của collection. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Xóa một layout khỏi collection. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Xóa phần tử ở chỉ mục được chỉ định của collection. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Xóa các layout slide không được sử dụng (layout slides mà HasDependingSlides là false). |
-| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Di chuyển layout slide trong collection đến vị trí đã chỉ định. |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của collection. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Xóa các layout slide không được sử dụng (layout slide mà HasDependingSlides là false). |
+| [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Di chuyển layout slide từ collection đến vị trí được chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [LayoutSlideCollection](../layoutslidecollection)
 * giao diện [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

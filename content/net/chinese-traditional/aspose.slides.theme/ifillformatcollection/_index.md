@@ -1,6 +1,6 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示填充樣式的集合。
 type: docs
 weight: 11230
@@ -16,7 +16,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 

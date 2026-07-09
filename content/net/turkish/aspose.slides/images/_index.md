@@ -1,28 +1,28 @@
 ---
 title: Images
-second_title: Aspose.Sildes .NET API Referansı
-description: IImage./iimage ile bir nesne oluşturmak ve onunla çalışmak için yöntemler.
+second_title: Aspose.Sildes for .NET API Referansı
+description: IImage./iimage ile örnek oluşturmak ve çalışmak için metodlar.
 type: docs
-weight: 7440
+weight: 7460
 url: /tr/aspose.slides/images/
 ---
 ## Images sınıfı
 
-[`IImage`](../iimage) oluşturmak ve onunla çalışmak için yöntemler.
+[`IImage`](../iimage) oluşturmak ve onunla çalışmak için metodlar.
 
 ```csharp
 public static class Images
 ```
 
-## Yöntemler
+## Metodlar
 
 | Ad | Açıklama |
 | --- | --- |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Dosyadan bir görüntü oluşturur. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Dosyadan bir görüntü oluşturur. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Akıştan bir görüntü oluşturur. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Akıştan bir görüntü oluşturur. |
-| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Akıştan bir görüntü oluşturur. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | Dosyadan bir görüntü oluştur. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | Dosyadan bir görüntü oluştur. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | Akıştan bir görüntü oluştur. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | Akıştan bir görüntü oluştur. |
+| static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | Akıştan bir görüntü oluştur. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hodnotu typu double, která může být v dokumentu prezentace pptx uložena dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako literální hodnota.
+description: Reprezentuje hodnotu typu double, která může být uložena v dokumentu pptx prezentace dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako doslovná hodnota.
 type: docs
-weight: 2050
+weight: 2070
 url: /cs/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue rozhraní
 
-Reprezentuje hodnotu typu double, která může být v dokumentu prezentace pptx uložena dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako literální hodnota.
+Represent double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
@@ -19,7 +19,7 @@ public interface IDoubleChartValue : ISingleCellChartValue
 | Název | Popis |
 | --- | --- |
 | [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | Umožňuje získat základní rozhraní ISingleCellChartValue. Pouze pro čtení [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje literální hodnotu typu double, pokud DataSourceType = Charts.DataSourceType.DoubleLiterals. Čtení/Zápis Double. |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | Vrací nebo nastavuje doslovnou hodnotu typu double, pokud DataSourceType = Charts.DataSourceType.DoubleLiterals. Čtení/zápis Double. |
 
 ## Metody
 

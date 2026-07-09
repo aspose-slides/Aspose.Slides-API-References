@@ -1,6 +1,6 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: คอลเลกชันของคอนโทรล ActiveX.
 type: docs
 weight: 5640
@@ -8,7 +8,7 @@ url: /th/aspose.slides/icontrolcollection/
 ---
 ## IControlCollection อินเทอร์เฟซ
 
-คอลเลกชันของคอนโทรล ActiveX
+คอลเลกชันของคอนโทรล ActiveX.
 
 ```csharp
 public interface IControlCollection : IGenericCollection<IControl>
@@ -18,16 +18,16 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | คืนค่าคอนโทรลที่ตำแหน่งที่ระบุ |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | ส่งคืนคอนโทรลที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่ลงในคอลเลกชัน |
-| [Clear](../../aspose.slides/icontrolcollection/clear)() | ลบคอนโทรลทั้งหมดออกจากคอลเลกชัน |
-| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | ลบคอนโทรล ActiveX ออกจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | ลบคอนโทรล ActiveX ที่เก็บไว้ที่ตำแหน่งที่ระบุออกจากคอลเลกชัน |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่ลงในคอลเลกชัน. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | ลบคอนโทรลทั้งหมดออกจากคอลเลกชัน. |
+| [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | ลบคอนโทรล ActiveX ออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | ลบคอนโทรล ActiveX ที่จัดเก็บไว้ที่ตำแหน่งที่ระบุออกจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

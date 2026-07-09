@@ -3,7 +3,7 @@ title: IChartPortionFormat
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje vlastnosti formátování částí grafu používané v grafech.
 type: docs
-weight: 1900
+weight: 1920
 url: /cs/aspose.slides.charts/ichartportionformat/
 ---
 ## IChartPortionFormat rozhraní

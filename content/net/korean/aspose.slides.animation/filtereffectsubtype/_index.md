@@ -46,7 +46,7 @@ public enum FilterEffectSubtype
 | UpRight | `25` |  |
 | Vertical | `26` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un'AutoShape.
 type: docs
-weight: 5220
+weight: 5240
 url: /it/aspose.slides/iautoshape/
 ---
 ## IAutoShape interfaccia
@@ -18,12 +18,12 @@ public interface IAutoShape : IGeometryShape
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Consente di ottenere l'interfaccia IGeometryShape di base. Solo lettura [`IGeometryShape`](../igeometryshape). |
-| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Restituisce i blocchi di AutoShape. Solo lettura [`IAutoShapeLock`](../iautoshapelock). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Consente di ottenere l'interfaccia base IGeometryShape. Sola lettura [`IGeometryShape`](../igeometryshape). |
+| [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Restituisce i blocchi dell'AutoShape. Sola lettura [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Specifica se la forma è una casella di testo. |
-| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Restituisce i blocchi della forma. Solo lettura [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Restituisce l'oggetto TextFrame per l'AutoShape. Solo lettura [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina se questa autoshape deve essere riempita con il riempimento di sfondo della diapositiva anziché specificato dallo stile o dal formato di riempimento. Lettura/scrittura Boolean. |
+| [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Restituisce i blocchi della forma. Sola lettura [`IAutoShapeLock`](../iautoshapelock). |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Restituisce l'oggetto TextFrame per l'AutoShape. Sola lettura [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina se questa autoshape deve essere riempita con lo sfondo della diapositiva invece di quello specificato dallo stile o dal formato di riempimento. Lettura/scrittura Boolean. |
 
 ## Metodi
 

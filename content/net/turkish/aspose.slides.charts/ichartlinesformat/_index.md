@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
-second_title: Aspose.Sildes için .NET API Referansı
-description: Izgara çizgileri biçim özelliklerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Izgara çizgisi biçim özelliklerini temsil eder.
 type: docs
-weight: 1870
+weight: 1890
 url: /tr/aspose.slides.charts/ichartlinesformat/
 ---
-## IChartLinesFormat arayüz
+## IChartLinesFormat arayüzü
 
-Izgara çizgileri biçim özelliklerini temsil eder.
+Izgara çizgisi biçim özelliklerini temsil eder.
 
 ```csharp
 public interface IChartLinesFormat
@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Bir grafik çizgisinde kullanılan efektleri döndürür. Yalnızca okunabilir [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Bir grafik çizgisinin çizgi stili özelliklerini döndürür. Yalnızca okunabilir [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | Bir grafik çizgisi için kullanılan efektleri döndürür. Salt okunur [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | Bir grafik çizgisinin çizgi stil özelliklerini döndürür. Salt okunur [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Ayrıca Bakınız
 

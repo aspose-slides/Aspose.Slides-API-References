@@ -16,20 +16,20 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | 取得集合中所有元素的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 依索引返回繪圖參考線。唯讀 [`IDrawingGuide`](../idrawingguide)。 |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | 依索引傳回繪圖參考線。唯讀 [`IDrawingGuide`](../idrawingguide)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | 在集合的末端新增繪圖參考線。 |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | 在集合的末端加入繪圖參考線。 |
 | [Clear](../../aspose.slides/idrawingguidescollection/clear)() | 從集合中移除所有元素。 |
 | [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | 移除指定索引處的繪圖參考線。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IDrawingGuide](../idrawingguide)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

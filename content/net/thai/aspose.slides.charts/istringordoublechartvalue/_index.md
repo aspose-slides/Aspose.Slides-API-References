@@ -1,14 +1,14 @@
 ---
 title: IStringOrDoubleChartValue
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารการพรีเซนต์ pptx ได้สองวิธี 1 ใน cell/cells ของ workbook ที่เกี่ยวข้องกับ chart 2 เป็นค่าลิเทอรัล
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงค่า string หรือ double ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี 1 ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับชาร์ต 2 เป็นค่าลิเทอรัล
 type: docs
 weight: 2230
 url: /th/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue อินเทอร์เฟซ
 
-แทนค่าชนิด string หรือ double ที่สามารถจัดเก็บในเอกสารการพรีเซนต์ pptx ได้สองวิธี: 1) ใน cell/cells ของ workbook ที่เกี่ยวข้องกับ chart; 2) เป็นค่าลิเทอรัล.
+แสดงค่า string หรือ double ที่สามารถจัดเก็บในเอกสารการนำเสนอ pptx ได้สองวิธี: 1) ในเซลล์/เซลล์ของเวิร์กบุ๊กที่เกี่ยวข้องกับชาร์ต; 2) เป็นค่าลิเทอรัล
 
 ```csharp
 public interface IStringOrDoubleChartValue : ISingleCellChartValue
@@ -18,15 +18,15 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | อนุญาตให้ดึงอีเจนฐาน ISingleCellChartValue อินเทอร์เฟซ. อ่านอย่างเดียว [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | ส่งคืนหรือกำหนดค่าดับเบิลลิเทอรัลหากคุณสมบัติ DataSourceType มีค่าเป็น DataSourceType.DoubleLiterals. อ่าน/เขียน Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | ส่งคืนหรือกำหนดค่าสตริงลิเทอรัลหากคุณสมบัติ DataSourceType มีค่าเป็น DataSourceType.StringLiterals. อ่าน/เขียน String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | อนุญาตให้ดึง interface ISingleCellChartValue พื้นฐานได้ อ่านอย่างเดียว [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | คืนค่า หรือกำหนดค่า double ลิเทอรัล หากคุณสมบัติ DataSourceType เป็น DataSourceType.DoubleLiterals. อ่าน/เขียน Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | คืนค่า หรือกำหนดค่า string ลิเทอรัล หากคุณสมบัติ DataSourceType เป็น DataSourceType.StringLiterals. อ่าน/เขียน String. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | แปลงค่าเป็น double. |
+| [ToDouble](../../aspose.slides.charts/istringordoublechartvalue/todouble)() | แปลงค่าเป็น Double. |
 
 ### ดูเพิ่มเติม
 

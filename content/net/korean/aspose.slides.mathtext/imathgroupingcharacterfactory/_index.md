@@ -1,6 +1,6 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 그룹화 문자를 생성할 수 있습니다
 type: docs
 weight: 8300
@@ -21,11 +21,11 @@ public interface IMathGroupingCharacterFactory
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | 수학 그룹화 문자를 생성합니다 |
 | [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | 수학 그룹화 문자를 생성합니다 |
 
-### 참고
+### 비고
 
 COM 호환성을 위해
 
-### 관련
+### 참조
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

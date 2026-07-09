@@ -3,10 +3,10 @@ title: ICommonSlideViewProperties
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti tampilan slide umum.
 type: docs
-weight: 5580
+weight: 5600
 url: /id/aspose.slides/icommonslideviewproperties/
 ---
-## antarmuka ICommonSlideViewProperties
+## ICommonSlideViewProperties antarmuka
 
 Mewakili properti tampilan slide umum.
 
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Mengembalikan koleksi panduan gambar. Hanya baca [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Mengembalikan koleksi panduan gambar. Hanya-baca [`IDrawingGuidesCollection`](../idrawingguidescollection) |
 | [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Menentukan rasio skala tampilan dalam persentase. Baca/tulis Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Menentukan bahwa konten tampilan harus secara otomatis menyesuaikan ukuran terbaik dengan ukuran jendela saat ini. Baca/tulis Boolean. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Menentukan bahwa konten tampilan harus secara otomatis menyesuaikan skala agar paling cocok dengan ukuran jendela saat ini. Baca/tulis Boolean. |
 
 ### Lihat Juga
 

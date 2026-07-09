@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes a .NET API referencia
-description: A IChartDataCell/.ichartdatacell-hez kapcsolódó munkalapot képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A munkalapot képviseli, amely az IChartDataCell./ichartdatacell-hez kapcsolódik
 type: docs
-weight: 1370
+weight: 1390
 url: /hu/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet osztály
 
-A [`IChartDataCell`](../ichartdatacell)-hez kapcsolódó munkalapot képviseli.
+Képviseli azt a munkalapot, amely a [`IChartDataCell`](../ichartdatacell)-hez kapcsolódik
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,8 +18,8 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | Név | Leírás |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | A munkalap indexét adja vissza. Csak olvasható Int32. |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | A munkalap nevét adja vissza. Csak olvasható String. |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | Lekéri a munkalap indexét. Csak olvasható Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | Visszaadja a munkalap nevét. Csak olvasható String. |
 
 ### Lásd még
 

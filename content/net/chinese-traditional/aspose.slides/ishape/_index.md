@@ -1,14 +1,14 @@
 ---
 title: IShape
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示投影片上的一個形狀。
+description: 表示投影片上的形狀。
 type: docs
 weight: 6950
 url: /zh-hant/aspose.slides/ishape/
 ---
 ## IShape 介面
 
-代表投影片上的一個形狀。
+表示投影片上的形狀。
 
 ```csharp
 public interface IShape : IHyperlinkContainer, ISlideComponent
@@ -16,55 +16,55 @@ public interface IShape : IHyperlinkContainer, ISlideComponent
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [AlternativeText](../../aspose.slides/ishape/alternativetext) { get; set; } | 返回或設定與形狀相關聯的替代文字。讀/寫 String. |
-| [AlternativeTextTitle](../../aspose.slides/ishape/alternativetexttitle) { get; set; } | 返回或設定與形狀相關聯的替代文字標題。讀/寫 String. |
-| [AsIHyperlinkContainer](../../aspose.slides/ishape/asihyperlinkcontainer) { get; } | 允許取得基礎 IHyperlinkContainer 介面。唯讀 [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [AsISlideComponent](../../aspose.slides/ishape/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent). |
-| [BlackWhiteMode](../../aspose.slides/ishape/blackwhitemode) { get; set; } | 屬性指定形狀在黑白顯示模式下的呈現方式.. 讀/寫 [`BlackWhiteMode`](../blackwhitemode). |
-| [ConnectionSiteCount](../../aspose.slides/ishape/connectionsitecount) { get; } | 返回形狀上的連接點數量。唯讀 Int32. |
-| [CustomData](../../aspose.slides/ishape/customdata) { get; } | 返回形狀的自訂資料。唯讀 [`ICustomData`](../icustomdata). |
-| [EffectFormat](../../aspose.slides/ishape/effectformat) { get; } | 返回包含套用於形狀的像素效果的 EffectFormat 物件。唯讀 [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ishape/fillformat) { get; } | 返回包含形狀填充格式屬性的 FillFormat 物件。唯讀 [`IFillFormat`](../ifillformat). |
-| [Frame](../../aspose.slides/ishape/frame) { get; set; } | 返回或設定形狀框架的屬性。讀/寫 [`IShapeFrame`](../ishapeframe). |
-| [Height](../../aspose.slides/ishape/height) { get; set; } | 取得或設定形狀的高度，以點為單位。讀/寫 Single. |
-| [Hidden](../../aspose.slides/ishape/hidden) { get; set; } | 判斷形狀是否為隱藏。讀/寫 Boolean. |
-| [IsDecorative](../../aspose.slides/ishape/isdecorative) { get; set; } | 取得或設定「標記為裝飾」選項。讀/寫 Boolean. |
-| [IsGrouped](../../aspose.slides/ishape/isgrouped) { get; } | 判斷形狀是否已群組。唯讀 Boolean. |
-| [IsTextHolder](../../aspose.slides/ishape/istextholder) { get; } | 判斷形狀是否為 TextHolder。唯讀 Boolean. |
-| [LineFormat](../../aspose.slides/ishape/lineformat) { get; } | 返回包含形狀線條格式屬性的 LineFormat 物件。唯讀 [`ILineFormat`](../ilineformat). |
-| [Name](../../aspose.slides/ishape/name) { get; set; } | 返回或設定形狀的名稱。讀/寫 String. |
-| [OfficeInteropShapeId](../../aspose.slides/ishape/officeinteropshapeid) { get; } | 返回一個以投影片為範圍的唯一識別碼，在形狀的生命週期內保持不變，並讓 PowerPoint 或互操作程式碼能從文件中的任何位置可靠地參照該形狀。唯讀 UInt32。另請參閱 [`UniqueId`](./uniqueid). |
-| [ParentGroup](../../aspose.slides/ishape/parentgroup) { get; } | 如果形狀已群組，返回父級 GroupShape 物件。否則返回 null。唯讀 [`IGroupShape`](../igroupshape). |
-| [Placeholder](../../aspose.slides/ishape/placeholder) { get; } | 返回形狀的 placeholder。唯讀 [`IPlaceholder`](../iplaceholder). |
-| [RawFrame](../../aspose.slides/ishape/rawframe) { get; set; } | 返回或設定原始形狀框架的屬性。讀/寫 [`IShapeFrame`](../ishapeframe). |
-| [Rotation](../../aspose.slides/ishape/rotation) { get; set; } | 返回或設定指定形狀繞 z 軸旋轉的角度（以度為單位）。正值表示順時針旋轉；負值表示逆時針旋轉。讀/寫 Single. |
-| [ShapeLock](../../aspose.slides/ishape/shapelock) { get; } | 返回形狀的鎖定設定。唯讀 [`IBaseShapeLock`](../ibaseshapelock). |
-| [ThreeDFormat](../../aspose.slides/ishape/threedformat) { get; } | 返回包含形狀線條格式屬性的 ThreeDFormat 物件。唯讀 [`IThreeDFormat`](../ithreedformat). |
-| [UniqueId](../../aspose.slides/ishape/uniqueid) { get; } | 返回內部、以簡報為範圍的識別碼，供外掛程式或其他程式碼使用。由於此值可能被使用者或程式重新指派，不能視為永久唯一鍵。唯讀 UInt32。另請參閱 [`OfficeInteropShapeId`](./officeinteropshapeid). |
-| [Width](../../aspose.slides/ishape/width) { get; set; } | 取得或設定形狀的寬度，以點為單位。讀/寫 Single. |
-| [X](../../aspose.slides/ishape/x) { get; set; } | 取得或設定形狀左上角的 x 座標，以點為單位。讀/寫 Single. |
-| [Y](../../aspose.slides/ishape/y) { get; set; } | 取得或設定形狀左上角的 y 座標，以點為單位。讀/寫 Single. |
-| [ZOrderPosition](../../aspose.slides/ishape/zorderposition) { get; } | 返回形狀在 z 索引中的位置。Shapes[0] 返回位於 z 索引最背後的形狀，Shapes[Shapes.Count - 1] 返回位於最前面的形狀。唯讀 Int32. |
+| [AlternativeText](../../aspose.slides/ishape/alternativetext) { get; set; } | 取得或設定與形狀相關的替代文字。可讀寫 String。 |
+| [AlternativeTextTitle](../../aspose.slides/ishape/alternativetexttitle) { get; set; } | 取得或設定與形狀相關的替代文字標題。可讀寫 String。 |
+| [AsIHyperlinkContainer](../../aspose.slides/ishape/asihyperlinkcontainer) { get; } | 允許取得基礎 IHyperlinkContainer 介面。唯讀 [`IHyperlinkContainer`](../ihyperlinkcontainer)。 |
+| [AsISlideComponent](../../aspose.slides/ishape/asislidecomponent) { get; } | 允許取得基礎 ISlideComponent 介面。唯讀 [`ISlideComponent`](../islidecomponent)。 |
+| [BlackWhiteMode](../../aspose.slides/ishape/blackwhitemode) { get; set; } | 屬性指定形狀在黑白顯示模式下的渲染方式。可讀寫 [`BlackWhiteMode`](../blackwhitemode)。 |
+| [ConnectionSiteCount](../../aspose.slides/ishape/connectionsitecount) { get; } | 取得形狀的連接點數量。唯讀 Int32。 |
+| [CustomData](../../aspose.slides/ishape/customdata) { get; } | 取得形狀的自訂資料。唯讀 [`ICustomData`](../icustomdata)。 |
+| [EffectFormat](../../aspose.slides/ishape/effectformat) { get; } | 取得包含套用於形狀的像素效果的 EffectFormat 物件。唯讀 [`IEffectFormat`](../ieffectformat)。 |
+| [FillFormat](../../aspose.slides/ishape/fillformat) { get; } | 取得包含形狀填色屬性的 FillFormat 物件。唯讀 [`IFillFormat`](../ifillformat)。 |
+| [Frame](../../aspose.slides/ishape/frame) { get; set; } | 取得或設定形狀框架的屬性。可讀寫 [`IShapeFrame`](../ishapeframe)。 |
+| [Height](../../aspose.slides/ishape/height) { get; set; } | 取得或設定形狀的高度，單位為點。可讀寫 Single。 |
+| [Hidden](../../aspose.slides/ishape/hidden) { get; set; } | 判斷形狀是否被隱藏。可讀寫 Boolean。 |
+| [IsDecorative](../../aspose.slides/ishape/isdecorative) { get; set; } | 取得或設定「標示為裝飾」選項。可讀寫 Boolean。 |
+| [IsGrouped](../../aspose.slides/ishape/isgrouped) { get; } | 判斷形狀是否已群組。唯讀 Boolean。 |
+| [IsTextHolder](../../aspose.slides/ishape/istextholder) { get; } | 判斷形狀是否為 TextHolder。唯讀 Boolean。 |
+| [LineFormat](../../aspose.slides/ishape/lineformat) { get; } | 取得包含形狀線條格式屬性的 LineFormat 物件。唯讀 [`ILineFormat`](../ilineformat)。 |
+| [Name](../../aspose.slides/ishape/name) { get; set; } | 取得或設定形狀的名稱。可讀寫 String。 |
+| [OfficeInteropShapeId](../../aspose.slides/ishape/officeinteropshapeid) { get; } | 取得在投影片範圍內唯一且在形狀生命週期內保持不變的識別碼，可讓 PowerPoint 或 interop 程式碼從文件任何位置可靠地參照此形狀。唯讀 UInt32。另請參閱 [`UniqueId`](./uniqueid)。 |
+| [ParentGroup](../../aspose.slides/ishape/parentgroup) { get; } | 若形狀已群組，返回其父層 GroupShape 物件；否則返回 null。唯讀 [`IGroupShape`](../igroupshape)。 |
+| [Placeholder](../../aspose.slides/ishape/placeholder) { get; } | 取得形狀的佔位符。唯讀 [`IPlaceholder`](../iplaceholder)。 |
+| [RawFrame](../../aspose.slides/ishape/rawframe) { get; set; } | 取得或設定原始形狀框架的屬性。可讀寫 [`IShapeFrame`](../ishapeframe)。 |
+| [Rotation](../../aspose.slides/ishape/rotation) { get; set; } | 取得或設定指定形狀繞 z 軸旋轉的角度（度）。正值表示順時針旋轉；負值表示逆時針旋轉。可讀寫 Single。 |
+| [ShapeLock](../../aspose.slides/ishape/shapelock) { get; } | 取得形狀的鎖定設定。唯讀 [`IBaseShapeLock`](../ibaseshapelock)。 |
+| [ThreeDFormat](../../aspose.slides/ishape/threedformat) { get; } | 取得包含形狀線條格式屬性的 ThreeDFormat 物件。唯讀 [`IThreeDFormat`](../ithreedformat)。 |
+| [UniqueId](../../aspose.slides/ishape/uniqueid) { get; } | 取得用於外掛程式或其他程式碼的內部、投影片範圍內識別碼。因為此值可能被使用者或程式重新指派，不能視為永久唯一鍵。唯讀 UInt32。另請參閱 [`OfficeInteropShapeId`](./officeinteropshapeid)。 |
+| [Width](../../aspose.slides/ishape/width) { get; set; } | 取得或設定形狀的寬度，單位為點。可讀寫 Single。 |
+| [X](../../aspose.slides/ishape/x) { get; set; } | 取得或設定形狀左上角的 x 座標，單位為點。可讀寫 Single。 |
+| [Y](../../aspose.slides/ishape/y) { get; set; } | 取得或設定形狀左上角的 y 座標，單位為點。可讀寫 Single。 |
+| [ZOrderPosition](../../aspose.slides/ishape/zorderposition) { get; } | 取得形狀在 Z 序中的位置。Shapes[0] 返迴位於 Z 序最底層的形狀，Shapes[Shapes.Count - 1] 返迴位於 Z 序最前端的形狀。唯讀 Int32。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [AddPlaceholder](../../aspose.slides/ishape/addplaceholder)(IPlaceholder) | 若不存在，新增一個 placeholder，並將 placeholder 屬性設定為指定的。 |
-| [GetBasePlaceholder](../../aspose.slides/ishape/getbaseplaceholder)() | 返回一個基本的 placeholder 形狀（來自版面配置或母片且當前形狀繼承自該形狀的）。如果當前形狀未繼承，則返回 null。 |
+| [AddPlaceholder](../../aspose.slides/ishape/addplaceholder)(IPlaceholder) | 若不存在則新增佔位符，並將佔位符屬性設定為指定的佔位符。 |
+| [GetBasePlaceholder](../../aspose.slides/ishape/getbaseplaceholder)() | 返回基本佔位符形狀（從版面配置或母片投影片繼承而來的形狀）。若當前形狀未繼承則返回 null。 |
 | [GetImage](../../aspose.slides/ishape/getimage#getimage)() | 返回形狀縮圖。預設使用 ShapeThumbnailBounds.Shape 形狀縮圖邊界類型。 |
 | [GetImage](../../aspose.slides/ishape/getimage#getimage_1)(ShapeThumbnailBounds, float, float) | 返回形狀縮圖。 |
-| [RemovePlaceholder](../../aspose.slides/ishape/removeplaceholder)() | 定義此形狀不是 placeholder。 |
-| [WriteAsSvg](../../aspose.slides/ishape/writeassvg#writeassvg)(Stream) | 將 Shape 的內容儲存為 SVG 檔案。 |
-| [WriteAsSvg](../../aspose.slides/ishape/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 將 Shape 的內容儲存為 SVG 檔案。 |
+| [RemovePlaceholder](../../aspose.slides/ishape/removeplaceholder)() | 定義此形狀不是佔位符。 |
+| [WriteAsSvg](../../aspose.slides/ishape/writeassvg#writeassvg)(Stream) | 將 Shape 內容另存為 SVG 檔案。 |
+| [WriteAsSvg](../../aspose.slides/ishape/writeassvg#writeassvg_1)(Stream, ISVGOptions) | 將 Shape 內容另存為 SVG 檔案。 |
 
-### 另見
+### 參見
 
 * 介面 [IHyperlinkContainer](../ihyperlinkcontainer)
 * 介面 [ISlideComponent](../islidecomponent)
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

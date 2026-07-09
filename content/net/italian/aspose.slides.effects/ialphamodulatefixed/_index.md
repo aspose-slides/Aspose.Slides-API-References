@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alfa dell’effetto sono moltiplicati per una percentuale fissa.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta un effetto Alpha Modulate Fixed. I valori di opacità alfa dell'effetto vengono moltiplicati per una percentuale fissa.
 type: docs
-weight: 3100
+weight: 3120
 url: /it/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed interfaccia
 
-Rappresenta un effetto Alpha Modulate Fixed. I valori alfa (opacità) dell’effetto sono moltiplicati per una percentuale fissa.
+Rappresenta un effetto Alpha Modulate Fixed. I valori alfa (opacità) dell'effetto vengono moltiplicati per una percentuale fissa.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -20,8 +20,8 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 | Nome | Descrizione |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | Restituisce una quantità di effetto in percentuale. Lettura/scrittura Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Consente di ottenere l’interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Consente di ottenere l’interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

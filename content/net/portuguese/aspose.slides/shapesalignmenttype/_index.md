@@ -1,14 +1,14 @@
 ---
 title: ShapesAlignmentType
 second_title: Aspose.Sildes para .NET Referência da API
-description: Define uma maneira de alterar o posicionamento das formas selecionadas no slide.
+description: Define uma forma de alterar a posição das formas selecionadas no slide.
 type: docs
-weight: 9920
+weight: 9940
 url: /pt/aspose.slides/shapesalignmenttype/
 ---
-## enum ShapesAlignmentType
+## ShapesAlignmentType enumeração
 
-Define uma maneira de alterar o posicionamento das formas selecionadas no slide.
+Define uma forma de alterar a posição das formas selecionadas no slide.
 
 ```csharp
 public enum ShapesAlignmentType
@@ -16,7 +16,7 @@ public enum ShapesAlignmentType
 
 ### Valores
 
-| Name | Value | Description |
+| Nome | Valor | Descrição |
 | --- | --- | --- |
 | AlignLeft | `0` | Alinhar à esquerda |
 | AlignRight | `1` | Alinhar à direita |
@@ -27,7 +27,7 @@ public enum ShapesAlignmentType
 | DistributeHorizontally | `6` | Distribuir horizontalmente |
 | DistributeVertically | `7` | Distribuir verticalmente |
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

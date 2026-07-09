@@ -1,14 +1,14 @@
 ---
 title: IProtectionManager
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: การจัดการการป้องกันด้วยรหัสผ่านของการนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: การจัดการการป้องกันด้วยรหัสผ่านของงานนำเสนอ.
 type: docs
 weight: 6820
 url: /th/aspose.slides/iprotectionmanager/
 ---
 ## IProtectionManager อินเทอร์เฟซ
 
-การจัดการการป้องกันด้วยรหัสผ่านของการนำเสนอ
+จัดการการป้องกันด้วยรหัสผ่านของงานนำเสนอ.
 
 ```csharp
 public interface IProtectionManager
@@ -18,22 +18,22 @@ public interface IProtectionManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | คุณสมบัตินี้มีความหมายเมื่อการนำเสนอถูกป้องกันด้วยรหัสผ่าน หากเป็น true แล้วคุณสมบัติของเอกสารจะถูกเข้ารหัสในไฟล์การนำเสนอ หากเป็น false แล้วคุณสมบัติของเอกสารจะเป็นสาธารณะในขณะที่การนำเสนอถูกเข้ารหัส อ่าน/เขียน Boolean. |
-| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | ส่งคืนรหัสผ่านการเข้ารหัส อ่านอย่างเดียว String. |
-| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | รับค่าที่บ่งบอกว่าตัวอย่างนี้ถูกเข้ารหัสหรือไม่ อ่านอย่างเดียว Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | คุณสมบัตินี้มีความหมายเมื่อไฟล์การนำเสนอถูกป้องกันด้วยรหัสผ่านและคุณสมบัติของเอกสารในไฟล์นี้เป็นสาธารณะ ค่า true หมายถึงจะโหลดเฉพาะคุณสมบัติของเอกสารจากไฟล์การนำเสนอที่เข้ารหัสโดยไม่ใช้รหัสผ่าน ค่า false หมายถึงจะโหลดการนำเสนอทั้งหมดที่เข้ารหัสโดยใช้รหัสผ่านที่ถูกต้อง ไม่ได้โหลดเฉพาะคุณสมบัติของเอกสาร หากการนำเสนอไม่ได้เข้ารหัสค่าของคุณสมบัติจะแม้เสมอเป็น false หากคุณสมบัติของเอกสารในไฟล์ที่เข้ารหัสไม่ได้เป็นสาธารณะค่าของคุณสมบัติจะแม้เสมอเป็น false หาก PresentationEx.EncryptDocumentProperties เป็น true แล้วค่าของคุณสมบัติ IsOnlyDocumentPropertiesLoaded จะแม้เสมอเป็น false อ่านอย่างเดียว Boolean. |
-| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | รับค่าที่บ่งบอกว่าการนำเสนอใหม่นี้ถูกป้องกันการเขียนหรือไม่ อ่านอย่างเดียว Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | รับหรือกำหนดคำแนะนำแบบอ่านอย่างเดียว อ่าน/เขียน Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/iprotectionmanager/encryptdocumentproperties) { get; set; } | คุณสมบัตินี้มีความหมาย หากงานนำเสนอถูกป้องกันด้วยรหัสผ่าน หากเป็น true แล้วคุณสมบัติของเอกสารจะถูกเข้ารหัสในไฟล์งานนำเสนอ หากเป็น false แล้วคุณสมบัติของเอกสารจะเป็นสาธารณะขณะที่งานนำเสนอถูกเข้ารหัส อ่าน/เขียน Boolean. |
+| [EncryptionPassword](../../aspose.slides/iprotectionmanager/encryptionpassword) { get; } | คืนค่ารหัสผ่านการเข้ารหัส อ่านอย่างเดียว String. |
+| [IsEncrypted](../../aspose.slides/iprotectionmanager/isencrypted) { get; } | รับค่าที่บ่งชี้ว่าตัวอย่างนี้ถูกเข้ารหัสหรือไม่ อ่านอย่างเดียว Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/iprotectionmanager/isonlydocumentpropertiesloaded) { get; } | คุณสมบัตินี้มีความหมาย หากไฟล์งานนำเสนอถูกป้องกันด้วยรหัสผ่านและคุณสมบัติของเอกสารในไฟล์นี้เป็นสาธารณะ ค่า true หมายถึงจะโหลดเฉพาะคุณสมบัติของเอกสารจากไฟล์งานนำเสนอที่เข้ารหัสโดยไม่ต้องใช้รหัสผ่าน ค่า false หมายถึงจะโหลดงานนำเสนอที่เข้ารหัสทั้งหมดโดยใช้รหัสผ่านที่ถูกต้อง ไม่ใช่เฉพาะคุณสมบัติของเอกสารเท่านั้น หากงานนำเสนอไม่ได้ถูกเข้ารหัส ค่าคุณสมบัติจะแม่นำเป็น false เสมอ หากคุณสมบัติของเอกสารในไฟล์ที่เข้ารหัสไม่ได้เป็นสาธารณะ ค่าคุณสมบัติก็จะเป็น false เสมอ หาก PresentationEx.EncryptDocumentProperties เป็น true แล้วค่าคุณสมบัติ IsOnlyDocumentPropertiesLoaded จะเป็น false เสมอ อ่านอย่างเดียว Boolean. |
+| [IsWriteProtected](../../aspose.slides/iprotectionmanager/iswriteprotected) { get; } | รับค่าที่บ่งชี้ว่าการนำเสนอนี้ถูกป้องกันการเขียนหรือไม่ อ่านอย่างเดียว Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/iprotectionmanager/readonlyrecommended) { get; set; } | รับหรือกำหนดคำแนะนำการอ่านอย่างเดียว อ่าน/เขียน Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/iprotectionmanager/checkwriteprotection)(string) | กำหนดว่าการนำเสนอถูกป้องกันด้วยรหัสผ่านเพื่อการแก้ไขหรือไม่. |
-| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | เข้ารหัสการนำเสนอด้วยรหัสผ่านที่ระบุ. |
-| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | ลบการเข้ารหัส. |
-| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | ลบการป้องกันการเขียนสำหรับการนำเสนอนี้. |
-| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | ตั้งค่าการป้องกันการเขียนสำหรับการนำเสนอนี้ด้วยรหัสผ่านที่ระบุ. |
+| [Encrypt](../../aspose.slides/iprotectionmanager/encrypt)(string) | เข้ารหัสงานนำเสนอด้วยรหัสผ่านที่ระบุ. |
+| [RemoveEncryption](../../aspose.slides/iprotectionmanager/removeencryption)() | ลบการเข้ารหัสออก. |
+| [RemoveWriteProtection](../../aspose.slides/iprotectionmanager/removewriteprotection)() | ลบการป้องกันการเขียนสำหรับการนำเสนอนี้ออก. |
+| [SetWriteProtection](../../aspose.slides/iprotectionmanager/setwriteprotection)(string) | กำหนดการป้องกันการเขียนสำหรับการนำเสนอนี้ด้วยรหัสผ่านที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

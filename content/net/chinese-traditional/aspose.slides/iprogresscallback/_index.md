@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback 介面
 
-表示一個用於以百分比保存進度更新的回呼物件。
+表示用於以百分比保存進度更新的回呼物件。
 
 ```csharp
 public interface IProgressCallback

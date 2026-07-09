@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 Tint 效果。將效果的顏色值依指定的量向色相方向或相反方向偏移。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示 Tint 效果。根據指定的數量將效果顏色值向色相移動或遠離色相。
 type: docs
 weight: 3660
 url: /zh-hant/aspose.slides.effects/tint/
 ---
 ## Tint 類別
 
-表示 Tint 效果。將效果的顏色值依指定的數量向色相方向或相反方向偏移。
+表示 Tint 效果。根據指定的數量將效果顏色值向色相移動或遠離色相。
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint

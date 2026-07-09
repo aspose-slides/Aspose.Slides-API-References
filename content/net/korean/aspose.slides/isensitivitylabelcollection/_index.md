@@ -1,6 +1,6 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 문서에 적용된 민감도 레이블의 컬렉션을 나타냅니다.
 type: docs
 weight: 6940
@@ -27,10 +27,10 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 컬렉션에 SensitivityLabel을 추가합니다. |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 컬렉션 끝에 민감도 레이블을 추가합니다. |
-| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
-| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 지정된 인덱스의 민감도 레이블을 제거합니다. |
+| [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | 컬렉션에서 모든 요소를 제거합니다. |
+| [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 지정된 인덱스에서 민감도 레이블을 제거합니다. |
 
-### 참고
+### 관련
 
 * 인터페이스 [ISensitivityLabel](../isensitivitylabel)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,6 +1,6 @@
 ---
 title: SpreadsheetOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 추가 스프레드시트 동작을 지정하는 데 사용할 수 있는 옵션을 나타냅니다.
 type: docs
 weight: 10740
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/spreadsheetoptions/
 ---
 ## SpreadsheetOptions 클래스
 
-스프레드시트 동작을 추가로 지정하는 데 사용할 수 있는 옵션을 나타냅니다.
+추가 스프레드시트 동작을 지정하는 데 사용할 수 있는 옵션을 나타냅니다.
 
 ```csharp
 public class SpreadsheetOptions : ISpreadsheetOptions
@@ -24,8 +24,8 @@ public class SpreadsheetOptions : ISpreadsheetOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | 이중 바이트 문자 집합(DBCS)을 사용하는 언어용으로 설계된 일부 함수 계산에 사용되는 기본 문화 정보를 가져오거나 설정합니다. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 차트의 데이터 소스가 외부 워크북이고 사용할 수 없는 경우 차트 캐시에서 복구됩니다. |
+| [PreferredCulture](../../aspose.slides/spreadsheetoptions/preferredculture) { get; set; } | 일부 함수를 계산하기 위해 두 바이트 문자 집합(DBCS)을 사용하는 언어와 함께 사용하도록 설계된 문화 정보를 가져오거나 설정합니다. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/spreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | 차트의 데이터 원본이 외부 워크북이고 사용할 수 없는 경우 차트 캐시에서 복구됩니다. |
 
 ### 참고
 

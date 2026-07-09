@@ -3,12 +3,12 @@ title: SlideUtil
 second_title: Aspose.Sildes için .NET API Referansı
 description: Sunum içinde şekilleri ve metni aramaya yardımcı yöntemler sunar.
 type: docs
-weight: 11500
+weight: 11520
 url: /tr/aspose.slides.util/slideutil/
 ---
 ## SlideUtil sınıfı
 
-Sunum içinde şekilleri ve metni aramaya yardımcı yöntemler sunar.
+Sunum içinde şekilleri ve metni aramaya yardımcı olan yöntemler sunar.
 
 ```csharp
 public static class SlideUtil
@@ -18,18 +18,18 @@ public static class SlideUtil
 
 | Ad | Açıklama |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Slayttaki tüm şekillerin yerleşimini değiştirir. Şekilleri kenarlıklara veya slayt kenarına hizalar ya da birbirlerine göre hizalar. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Grup şekli içindeki tüm şekillerin yerleşimini değiştirir. Şekilleri kenarlıklara veya slayt kenarına hizalar ya da birbirlerine göre hizalar. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Slayttaki seçili şekillerin yerleşimini değiştirir. Şekilleri kenarlıklara veya slayt kenarına hizalar ya da birbirlerine göre hizalar. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Grup şekli içindeki seçili şekillerin yerleşimini değiştirir. Şekilleri kenarlıklara veya slayt kenarına hizalar ya da birbirlerine göre hizalar. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Sunumda verilen biçimle metni bulur ve değiştirir. |
-| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | PPTX sunumunda bir slaytta alternatif metne göre şekil bulur. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | Slayttaki tüm şekillerin yerleşimini değiştirir. Şekilleri kenar boşluklarına veya slayt kenarına hizalar veya birbirlerine göre hizalar. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | Grup şekli içindeki tüm şekillerin yerleşimini değiştirir. Şekilleri kenar boşluklarına veya slayt kenarına hizalar veya birbirlerine göre hizalar. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | Slayttaki seçili şekillerin yerleşimini değiştirir. Şekilleri kenar boşluklarına veya slayt kenarına hizalar veya birbirlerine göre hizalar. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | Grup şekli içindeki seçili şekillerin yerleşimini değiştirir. Şekilleri kenar boşluklarına veya slayt kenarına hizalar veya birbirlerine göre hizalar. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | Sunumdaki metni verilen biçimle bulur ve değiştirir. |
+| static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | PPTX sunumunda bir slayttaki alternatif metne göre şekil bulur. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | PPTX sunumunda alternatif metne göre şekil bulur. |
 | static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | Belirtilen slaytta verilen yer tutucu türüyle eşleşen tüm şekilleri arar. |
 | static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | PPTX sunumunda bir slayttaki tüm metin çerçevelerini döndürür. |
 | static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | PPTX sunumundaki tüm metin çerçevelerini döndürür. |
 | static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | Belirtilen slaytta verilen metni içeren tüm metin çerçevelerini döndürür. |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Kaynak dosya biçimini karşılık gelen [`SaveFormat`](../../aspose.slides.export/saveformat)'ye dönüştürür. |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | Bir kaynak dosya biçimini ilgili [`SaveFormat`](../../aspose.slides.export/saveformat)'e dönüştürür. |
 
 ### Ayrıca Bakınız
 

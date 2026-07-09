@@ -6,7 +6,7 @@ type: docs
 weight: 7500
 url: /th/aspose.slides.import/pdfimportoptions/
 ---
-## PdfImportOptions คลาส
+## คลาส PdfImportOptions
 
 แสดงตัวเลือกการนำเข้า PDF
 
@@ -14,17 +14,17 @@ url: /th/aspose.slides.import/pdfimportoptions/
 public class PdfImportOptions
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [PdfImportOptions](pdfimportoptions)() | คอนสตรัคเตอร์เริ่มต้น |
+| [PdfImportOptions](pdfimportoptions)() | ตัวสร้างเริ่มต้น |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | กำหนดว่าจะตรวจจับตารางหรือไม่เมื่อทำการนำเข้าไฟล์ pdf |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | กำหนดว่าจะตรวจจับตารางเมื่อทำการนำเข้าไฟล์ pdf หรือไม่ |
 
 ### ดูเพิ่มเติม
 

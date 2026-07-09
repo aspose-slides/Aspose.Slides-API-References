@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar ett strängvärde som kan lagras i pptx-presentationdokument på två sätt: 1) i cell/celler i arbetsboken som är relaterad till diagrammet 2) som ett bokstavligt värde.
+description: Representerar strängvärde som kan lagras i pptx-presentationsdokument på två sätt 1 i cell/celler i arbetsbok relaterad till diagram 2 som bokstavligt värde.
 type: docs
-weight: 2390
+weight: 2410
 url: /sv/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue klass
 
-Representerar ett strängvärde som kan lagras i en pptx-presentation på två sätt: 1) i cell/celler i arbetsboken som är relaterad till diagrammet; 2) som ett bokstavligt värde.
+Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -19,16 +19,16 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 | Namn | Beskrivning |
 | --- | --- |
 | [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Tilldelning av null-värde är inte tillåtet. Det returnerade värdet är alltid icke-null. Läs/skriv [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Returnerar eller sätter värdet som en bokstavlig sträng. Läs/skriv String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Returnerar eller sätter Data-objektet. Läs/skriv Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Anger om egenskapen AsCell, AsCells, AsLiteralString eller AsLiteralDouble är aktuell i avledda klasser. Med andra ord anger den typen av värde för Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Returnerar eller anger värdet som en bokstavlig sträng. Läs/skriv String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Returnerar eller anger Data-objektet. Läs/skriv Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Anger om AsCell, AsCells, AsLiteralString eller AsLiteralDouble är aktuell i avstammade klasser. Med andra ord specificerar den typen av värde för Data-egenskapen. Läs/skriv [`DataSourceType`](../datasourcetype). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Om egenskapen DataSourceType är DataSourceType.Worksheet så returnerar denna metod adressen till cellerna i arbetsboken som representerar strängdata. Annars returneras en tom sträng. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Sätter värdet från den angivna cellen. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Om DataSourceType-egenskapen är DataSourceType.Worksheet returnerar den här metoden adressen till cellerna i arbetsboken som representerar strängdata. Annars returneras en tom sträng. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Anger värdet från den specificerade cellen. |
 | override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Returnerar strängvärdedata. Returnerar null om DataSourceType är falskt och inget strängvärde har tilldelats. |
 
 ### Se även

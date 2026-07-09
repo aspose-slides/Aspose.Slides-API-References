@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示包含資料的儲存格集合。
+description: 表示含有資料的儲存格集合。
 type: docs
 weight: 1780
 url: /zh-hant/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection 介面
 
-表示包含資料的儲存格集合。
+表示含有資料的儲存格集合。
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -19,17 +19,17 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | 傳回 ICollection 介面。唯讀 IEnumerable。 |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 取得集合中儲存格的數量。唯讀 Int32。 |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | 取得集合中儲存格的計數。唯讀 Int32。 |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | 依索引傳回儲存格 (IChartDataCell)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 將新儲存格新增至集合。 |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 根據指定的值建立 [`IChartDataCell`](../ichartdatacell) 並將其加入集合。 |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | 將新儲存格加入集合。 |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | 從指定值建立 [`IChartDataCell`](../ichartdatacell)，並將其加入集合。 |
 | [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | 傳回工作簿中儲存格集合的位址。 |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 從所有儲存格的字串值串接成字串。 |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | 從所有儲存格的字串值串接成一個字串。 |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | 依索引從集合中移除儲存格。 |
 
 ### 另請參閱

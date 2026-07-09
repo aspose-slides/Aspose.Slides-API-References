@@ -19,20 +19,20 @@ public interface IPresentationFactory
 | 名稱 | 說明 |
 | --- | --- |
 | [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation)() | 建立新的簡報。 |
-| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 建立新的簡報，並使用額外的載入選項。 |
+| [CreatePresentation](../../aspose.slides/ipresentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | 建立帶有額外載入選項的新簡報 |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | 取得指定串流中簡報的資訊。 |
 | [GetPresentationInfo](../../aspose.slides/ipresentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | 取得指定檔案中簡報的資訊。 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 從投影片中擷取原始文字。 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 從投影片中擷取原始文字。 |
-| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 從投影片中擷取原始文字。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | 從陣列讀取現有的簡報。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | 從串流讀取現有的簡報。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | 從檔案讀取現有的簡報。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 從陣列讀取現有的簡報，並使用額外的載入選項。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 從串流讀取現有的簡報，並使用額外的載入選項。 |
-| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 從串流讀取現有的簡報，並使用額外的載入選項。 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | 從投影片中擷取原始文字 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | 從投影片中擷取原始文字 |
+| [GetPresentationText](../../aspose.slides/ipresentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | 從投影片中擷取原始文字 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation)(byte[]) | 從陣列讀取現有的簡報 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_2)(Stream) | 從串流讀取現有的簡報 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_4)(string) | 從檔案讀取現有的簡報 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | 從陣列讀取帶有額外載入選項的現有簡報 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | 從串流讀取帶有額外載入選項的現有簡報 |
+| [ReadPresentation](../../aspose.slides/ipresentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | 從檔案讀取帶有額外載入選項的現有簡報 |
 
-### 另請參閱
+### 參考
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

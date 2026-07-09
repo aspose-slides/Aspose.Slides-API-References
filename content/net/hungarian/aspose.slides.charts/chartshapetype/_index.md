@@ -1,14 +1,14 @@
 ---
 title: ChartShapeType
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: A diagram alakját jelöli.
 type: docs
-weight: 1450
+weight: 1470
 url: /hu/aspose.slides.charts/chartshapetype/
 ---
-## ChartShapeType felsorolás
+## ChartShapeType enumeráció
 
-A diagram formáját jelöli.
+A chart alakját képviseli.
 
 ```csharp
 public enum ChartShapeType
@@ -18,13 +18,13 @@ public enum ChartShapeType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | A diagram alakja nincs definiálva. |
-| Box | `0` | A diagramot doboz alakban rajzolja meg. |
-| Cone | `1` | A diagramot kúp formájában rajzolja meg, a kúp alapja a padlón, a csúcs a adatjelző tetején. |
-| ConeToMax | `2` | A diagramot levágott kúpként rajzolja meg, ahol a kúp csúcsa a maximális adatérték. |
-| Cylinder | `3` | A diagramot henger formájában rajzolja meg. |
-| Pyramid | `4` | A diagramot téglalap alakú piramis formájában rajzolja meg, a piramis alapja a padlón, a csúcs a adatjelző tetején. |
-| PyramidToMaximum | `5` | A diagramot levágott piramisként rajzolja meg, ahol a piramis csúcsa a maximális adatérték. |
+| NotDefined | `-1` | Chart shape nincs definiálva. |
+| Box | `0` | Megadja, hogy a chart Box alakban legyen megrajzolva. |
+| Cone | `1` | Megadja, hogy a chart Cone alakban legyen megrajzolva, a Cone alapja a talajon, a csúcs a data marker tetején. |
+| ConeToMax | `2` | Megadja, hogy a chart levágott Cone-okkal legyen megrajzolva úgy, hogy a csúcs a maximális adatérték legyen. |
+| Cylinder | `3` | Megadja, hogy a chart Cylinder alakban legyen megrajzolva. |
+| Pyramid | `4` | Megadja, hogy a chart Pyramid alakban legyen megrajzolva, a Pyramid alapja a talajon, a csúcs a data marker tetején. |
+| PyramidToMaximum | `5` | Megadja, hogy a chart levágott Pyramid-okkal legyen megrajzolva úgy, hogy a csúcs a maximális adatérték legyen. |
 
 ### Lásd még
 

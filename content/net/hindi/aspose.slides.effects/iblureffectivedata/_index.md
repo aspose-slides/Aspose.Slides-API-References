@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Blur प्रभाव को दर्शाता है जिसे पूरे आकार पर, उसके भराव सहित लागू किया जाता है। सभी रंग चैनल, जिसमें अल्फा भी शामिल है, प्रभावित होते हैं।
+description: अपरिवर्तनीय ऑब्जेक्ट जो पूरे आकार, उसके फ़िल सहित, पर लागू Blur प्रभाव का प्रतिनिधित्व करता है। सभी रंग चैनल, अल्फा सहित, प्रभावित होते हैं।
 type: docs
 weight: 3190
 url: /hi/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो Blur प्रभाव को दर्शाता है जिसे पूरे आकार पर, उसके भरण सहित लागू किया जाता है। सभी रंग चैनल, जिसमें अल्फा भी शामिल है, प्रभावित होते हैं।
+अपरिवर्तनीय ऑब्जेक्ट जो पूरे आकार, उसके फ़िल सहित, पर लागू Blur प्रभाव का प्रतिनिधित्व करता है। सभी रंग चैनल, अल्फा सहित, प्रभावित होते हैं।
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | निर्धारित करता है कि वस्तु की सीमाओं को ब्लरिंग के परिणामस्वरूप बढ़ाया जाना चाहिए या नहीं। true इंगित करता है कि सीमाएँ बढ़ी हैं जबकि false इंगित करता है कि वे नहीं बढ़ी हैं। केवल-पढ़ने योग्य Boolean। |
-| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | ब्लर त्रिज्या को लौटाता या सेट करता है। केवल-पढ़ने योग्य Double। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | मूल IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | निर्धारित करता है कि क्या ब्लरिंग के परिणामस्वरूप ऑब्जेक्ट की सीमाएं बढ़नी चाहिए। True संकेत देता है कि सीमाएं बढ़ी हैं जबकि false संकेत देता है कि वे नहीं बढ़ी हैं। केवल-पढ़ने योग्य Boolean. |
+| [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | blur radius को लौटाता है या सेट करता है। केवल-पढ़ने योग्य Double. |
 
 ### देखें
 

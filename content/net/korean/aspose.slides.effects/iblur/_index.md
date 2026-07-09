@@ -1,14 +1,14 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes for .NET API 참고
-description: 채우기를 포함한 전체 모양에 적용되는 Blur 효과를 나타냅니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 전체 도형(채우기 포함)에 적용되는 Blur 효과를 나타냅니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
 type: docs
 weight: 3180
 url: /ko/aspose.slides.effects/iblur/
 ---
 ## IBlur 인터페이스
 
-전체 모양에 적용되는 Blur 효과를 나타내며, 채우기를 포함합니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
+전체 도형과 그 채우기 전체에 적용되는 Blur 효과를 나타냅니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -18,12 +18,12 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | 블러링 결과 객체의 경계가 확대되어야 하는지 여부를 결정합니다. true는 경계가 확대됨을 의미하고 false는 확대되지 않음을 의미합니다. 읽기/쓰기 Boolean. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져옵니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져옵니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | 블러링 결과로 객체의 경계가 확대되어야 하는지 여부를 결정합니다. True이면 경계가 확대되고 false이면 확대되지 않습니다. 읽기/쓰기 Boolean. |
 | [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | 블러 반경을 반환하거나 설정합니다. 읽기/쓰기 Double. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IBlurEffectiveData](../iblureffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 異なるタイプのモデルオブジェクトを Presentation../aspose.slides/presentation から収集することを目的としたメソッドのグループを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: さまざまなタイプのモデルオブジェクトを Presentation../aspose.slides/presentation から収集することを目的としたメソッドのグループを表します。
 type: docs
-weight: 7840
+weight: 7860
 url: /ja/aspose.slides.lowcode/collect/
 ---
 ## Collect クラス
 
-さまざまな種類のモデルオブジェクトを [`Presentation`](../../aspose.slides/presentation) から収集することを目的としたメソッドのグループを表します。
+様々なタイプのモデルオブジェクトを [`Presentation`](../../aspose.slides/presentation) から収集することを目的としたメソッドのグループを表します。
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | 名前 | 説明 |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Shape`](../../aspose.slides/shape) のすべてのインスタンスを [`Presentation`](../../aspose.slides/presentation) 内で収集します。 |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Presentation`](../../aspose.slides/presentation)内の[`Shape`](../../aspose.slides/shape)のすべてのインスタンスを収集します。 |
 
 ### 例
 
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... 形状の書式設定やその他のプロパティを変更
+        // ... シェイプの書式設定やその他のプロパティを変更
     }
 }    
 ```

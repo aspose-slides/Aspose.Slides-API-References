@@ -1,12 +1,12 @@
 ---
 title: ICaptionsCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla platformy .NET – dokumentacja API
 description: Reprezentuje kolekcję napisów zamkniętych.
 type: docs
-weight: 5420
+weight: 5440
 url: /pl/aspose.slides/icaptionscollection/
 ---
-## ICaptionsCollection interfejs
+## Interfejs ICaptionsCollection
 
 Reprezentuje kolekcję napisów zamkniętych.
 
@@ -19,17 +19,17 @@ public interface ICaptionsCollection : IEnumerable<ICaptions>
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/icaptionscollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Zwraca napisy zamknięte pod podanym indeksem. Tylko do odczytu [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/icaptionscollection/item) { get; } | Zwraca napisy zamknięte pod określonym indeksem. Tylko do odczytu [`ICaptions`](../icaptions). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Dodaje napisy zamknięte WebVTT na koniec kolekcji ze strumienia. |
-| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Dodaje napisy zamknięte WebVTT na koniec kolekcji. |
+| [Add](../../aspose.slides/icaptionscollection/add#add)(string, Stream) | Dodaje napisy WebVTT zamknięte na koniec kolekcji z streamu. |
+| [Add](../../aspose.slides/icaptionscollection/add#add_1)(string, string) | Dodaje napisy WebVTT zamknięte na koniec kolekcji. |
 | [Clear](../../aspose.slides/icaptionscollection/clear)() | Usuwa wszystkie napisy zamknięte z kolekcji. |
 | [Remove](../../aspose.slides/icaptionscollection/remove)(ICaptions) | Usuwa określone napisy zamknięte z kolekcji. |
-| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Usuwa napisy zamknięte pod podanym indeksem. |
+| [RemoveAt](../../aspose.slides/icaptionscollection/removeat)(int) | Usuwa napisy zamknięte pod określonym indeksem. |
 
 ### Zobacz także
 

@@ -3,10 +3,10 @@ title: IOverridableText
 second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά κείμενο που μπορεί να παρακαμφθεί για ένα γράφημα.
 type: docs
-weight: 2160
+weight: 2180
 url: /el/aspose.slides.charts/ioverridabletext/
 ---
-## IOverridableText διασύνδεση
+## IOverridableText διεπαφή
 
 Αναπαριστά κείμενο που μπορεί να παρακαμφθεί για ένα γράφημα.
 
@@ -18,18 +18,18 @@ public interface IOverridableText : IFormattedTextContainer
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης IFormattedTextContainer. Μόνο για ανάγνωση [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε αυτή η μορφοποιημένη τιμή κειμένου αντικαθιστά το αυτόματα δημιουργημένο κείμενο. Το αυτόματα δημιουργημένο κείμενο είναι μια έμμεση ιδιότητα της ετικέτας δεδομένων, της ετικέτας μονάδας εμφάνισης του άξονα τιμών, του τίτλου άξονα, του τίτλου διαγράμματος, της ετικέτας της γραμμής τάσης. Το αυτόματα δημιουργημένο κείμενο μορφοποιείται με την IFormattedTextContainer.TextFormat ιδιότητα. Μόνο για ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IFormattedTextContainer. Μόνο για ανάγνωση [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | Μπορεί να περιέχει πλούσιο μορφοποιημένο κείμενο. Εάν αυτή η ιδιότητα δεν είναι null, τότε η τιμή του μορφοποιημένου κειμένου παρακάμπτει το αυτόματα παραγόμενο κείμενο. Το αυτόματα παραγόμενο κείμενο είναι μια έμμεση ιδιότητα της ετικέτας δεδομένων, της ετικέτας μονάδας εμφάνισης του άξονα τιμών, του τίτλου άξονα, του τίτλου γραφήματος, της ετικέτας της γραμμής τάσης. Το αυτόματα παραγόμενο κείμενο μορφοποιείται με την ιδιότητα IFormattedTextContainer.TextFormat. Μόνο για ανάγνωση [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Αρχικοποιεί το TextFrameForOverriding με το κείμενο στη παράμετρο "text". Εάν το TextFrameForOverriding είναι ήδη αρχικοποιημένο, τότε απλώς αλλάζει το κείμενό του. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | Αρχικοποιεί το TextFrameForOverriding με το κείμενο στην παράμετρο "text". Εάν το TextFrameForOverriding είναι ήδη αρχικοποιημένο, τότε απλώς αλλάζει το κείμενό του. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IFormattedTextContainer](../iformattedtextcontainer)
+* διεπαφή [IFormattedTextContainer](../iformattedtextcontainer)
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
 * συναρμολόγηση [Aspose.Slides](../../)
 

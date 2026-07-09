@@ -1,14 +1,14 @@
 ---
 title: Input
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een verzameling invoerelementen templates.
+description: Stelt een verzameling invoerelementen (sjablonen) voor.
 type: docs
 weight: 4630
 url: /nl/aspose.slides.export.web/input/
 ---
-## Input klasse
+## Invoerklasse
 
-Vertegenwoordigt een verzameling invoerelementen (templates).
+Stelt een verzameling invoerelementen (sjablonen) voor.
 
 ```csharp
 public sealed class Input

@@ -1,14 +1,14 @@
 ---
 title: IVbaProject
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของโครงการ VBA ที่มีมาโครการนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงโปรเจ็กต์ VBA ที่มีมาโครการนำเสนอ.
 type: docs
 weight: 11550
 url: /th/aspose.slides.vba/ivbaproject/
 ---
 ## อินเทอร์เฟซ IVbaProject
 
-เป็นตัวแทนของโครงการ VBA ที่มีมาโครการนำเสนอ.
+แสดงถึงโปรเจ็กต์ VBA ที่มีมาโครการนำเสนอ.
 
 ```csharp
 public interface IVbaProject
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | ระบุว่า VBAProject ถูกป้องกันด้วยรหัสผ่านเพื่อดูคุณสมบัติของโครงการหรือไม่. อ่านอย่างเดียว Boolean. |
-| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | คืนค่ารายการของโมดูลทั้งหมดที่อยู่ในโครงการ VBA. อ่านอย่างเดียว [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | คืนค่าชื่อของโครงการ VBA. อ่านอย่างเดียว String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | คืนค่ารายการของการอ้างอิงทั้งหมดที่อยู่ในโครงการ VBA. อ่านอย่างเดียว [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | ระบุว่า VBAProject ถูกป้องกันด้วยรหัสผ่านเพื่อดูคุณสมบัติของโปรเจ็กต์หรือไม่. อ่านอย่างเดียว Boolean. |
+| [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | คืนรายการของโมดูลทั้งหมดที่อยู่ในโปรเจ็กต์ VBA. อ่านอย่างเดียว [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | คืนชื่อของโปรเจ็กต์ VBA. อ่านอย่างเดียว String. |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | คืนรายการของอ้างอิงทั้งหมดที่อยู่ในโปรเจ็กต์ VBA. อ่านอย่างเดียว [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | คืนค่าการแทนค่าดิจิทัลของโครงการ VBA เป็นคอนเทนเนอร์ OLE. อ่านอย่างเดียว Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | คืนการแสดงผลไบนารีของโปรเจ็กต์ VBA ในรูปแบบ OLE container. อ่านอย่างเดียว Byte[]. |
 
 ### ดูเพิ่มเติม
 

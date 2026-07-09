@@ -1,14 +1,14 @@
 ---
 title: ExcelWorkbookImporter
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Excel ワークブックからコンテンツをインポートし、プレゼンテーションに追加する機能を提供します。
+description: Excel ワークブックからプレゼンテーションへコンテンツをインポートする機能を提供します。
 type: docs
-weight: 7450
+weight: 7470
 url: /ja/aspose.slides.import/excelworkbookimporter/
 ---
 ## ExcelWorkbookImporter クラス
 
-Excel ワークブックからコンテンツをインポートし、プレゼンテーションに追加する機能を提供します。
+Excel ワークブックからプレゼンテーションへコンテンツをインポートする機能を提供します。
 
 ```csharp
 public static class ExcelWorkbookImporter
@@ -18,13 +18,13 @@ public static class ExcelWorkbookImporter
 
 | 名前 | 説明 |
 | --- | --- |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | 指定された Excel ワークブックからテーブルを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | 指定された Excel ワークブック ファイルからテーブルを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
-| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | 指定された Excel ワークブック ファイルからテーブルを取得し、指定された座標にある対象のシェイプ コレクションの末尾に追加します。 |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, int, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_1)(IShapeCollection, float, float, IExcelDataWorkbook, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_2)(IShapeCollection, float, float, Stream, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddChartFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addchartfromworkbook#addchartfromworkbook_3)(IShapeCollection, float, float, string, string, string, bool) | 指定された Excel ワークブックからチャートを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook)(IShapeCollection, float, float, IExcelDataWorkbook, string, string) | 指定された Excel ワークブックからテーブルを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_1)(IShapeCollection, float, float, Stream, string, string) | 指定された Excel ワークブック ファイルからテーブルを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
+| static [AddTableFromWorkbook](../../aspose.slides.import/excelworkbookimporter/addtablefromworkbook#addtablefromworkbook_2)(IShapeCollection, float, float, string, string, string) | 指定された Excel ワークブック ファイルからテーブルを取得し、指定された座標にあるシェイプコレクションの末尾に追加します。 |
 
 ### 参照
 

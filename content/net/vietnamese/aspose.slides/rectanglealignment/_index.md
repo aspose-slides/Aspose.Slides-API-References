@@ -1,12 +1,12 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Xác định việc căn chỉnh 2 chiều.
 type: docs
 weight: 9690
 url: /vi/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment liệt kê
+## Kiểu liệt kê RectangleAlignment
 
 Xác định việc căn chỉnh 2 chiều.
 
@@ -29,7 +29,7 @@ public enum RectangleAlignment : sbyte
 | Bottom | `7` |  |
 | BottomRight | `8` |  |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

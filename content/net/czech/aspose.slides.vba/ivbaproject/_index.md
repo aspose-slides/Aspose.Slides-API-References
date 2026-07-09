@@ -3,7 +3,7 @@ title: IVbaProject
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje projekt VBA s makry prezentace.
 type: docs
-weight: 11530
+weight: 11550
 url: /cs/aspose.slides.vba/ivbaproject/
 ---
 ## IVbaProject rozhraní
@@ -18,16 +18,16 @@ public interface IVbaProject
 
 | Název | Popis |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Určuje, zda je VBAProject chráněn heslem pro zobrazení vlastností projektu. Pouze pro čtení Boolean. |
+| [IsPasswordProtected](../../aspose.slides.vba/ivbaproject/ispasswordprotected) { get; } | Indikuje, zda je VBAProject chráněn heslem pro zobrazení vlastností projektu. Pouze pro čtení Boolean. |
 | [Modules](../../aspose.slides.vba/ivbaproject/modules) { get; } | Vrací seznam všech modulů, které jsou obsaženy v projektu VBA. Pouze pro čtení [`IVbaModuleCollection`](../ivbamodulecollection). |
 | [Name](../../aspose.slides.vba/ivbaproject/name) { get; } | Vrací název projektu VBA. Pouze pro čtení String. |
-| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Vrací seznam všech odkazů, které jsou obsaženy v projektu VBA. Pouze pro čtení [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [References](../../aspose.slides.vba/ivbaproject/references) { get; } | Vrací seznam všech referencí, které jsou obsaženy v projektu VBA. Pouze pro čtení [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Vrací binární reprezentaci projektu VBA jako kontejner OLE. Pouze pro čtení Byte[]. |
+| [ToBinary](../../aspose.slides.vba/ivbaproject/tobinary)() | Vrací binární reprezentaci projektu VBA jako OLE kontejner. Pouze pro čtení Byte[]. |
 
 ### Viz také
 

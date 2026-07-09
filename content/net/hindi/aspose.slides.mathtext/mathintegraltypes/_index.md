@@ -1,14 +1,14 @@
 ---
 title: MathIntegralTypes
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: गणितीय समाकल प्रकार
+description: गणितीय इंटीग्रल प्रकार
 type: docs
 weight: 8790
 url: /hi/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes एन्यूमरेशन
 
-गणितीय समाकल प्रकार
+गणितीय इंटीग्रल प्रकार
 
 ```csharp
 public enum MathIntegralTypes
@@ -18,14 +18,14 @@ public enum MathIntegralTypes
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Simple | `0` | समाकल: '∫' |
-| Double | `1` | डबल समाकल: '∬' |
-| Triple | `2` | त्रिपल समाकल: '∭' |
-| Contour | `3` | कॉन्टूर समाकल: '∮' |
-| Surface | `4` | सतह समाकल: '∯' |
-| Volume | `5` | VolumeIntegral: '∰' |
+| Simple | `0` | इंटीग्रल: '∫' |
+| Double | `1` | डबल इंटीग्रल: '∬' |
+| Triple | `2` | ट्रिपल इंटीग्रल: '∭' |
+| Contour | `3` | कॉन्टूर इंटीग्रल: '∮' |
+| Surface | `4` | सतह इंटीग्रल: '∯' |
+| Volume | `5` | वॉल्यूम इंटीग्रल: '∰' |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi tanda tangan digital yang terlampir pada dokumen.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili kumpulan tanda tangan digital yang terlampir pada dokumen.
 type: docs
-weight: 5680
+weight: 5700
 url: /id/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection antarmuka
 
-Represents a collection of digital signatures attached to a document.
+Mewakili kumpulan tanda tangan digital yang terlampir pada dokumen.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>

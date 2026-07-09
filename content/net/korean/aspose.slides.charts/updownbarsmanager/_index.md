@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
 second_title: Aspose.Sildes for .NET API 참조
-description: Line 차트 또는 Stock 차트의 up/down 막대에 대한 액세스를 제공합니다.
+description: 라인 차트 또는 주식 차트의 up/down 바에 대한 액세스를 제공합니다.
 type: docs
 weight: 2500
 url: /ko/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager 클래스
 
-Line 차트 또는 Stock 차트의 up/down 막대에 대한 액세스를 제공합니다.
+Line- 또는 Stock- 차트의 up/down 바에 대한 액세스를 제공합니다.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
@@ -16,14 +16,14 @@ public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/updownbarsmanager/downbarsformat) { get; } | DownBars 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/updownbarsmanager/gapwidth) { get; set; } | GapWidth. 읽기/쓰기 Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/updownbarsmanager/hasupdownbars) { get; set; } | HasUpDownBars. 읽기/쓰기 Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/updownbarsmanager/upbarsformat) { get; } | UpBars 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 
-### 관련 항목
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartSeriesGroup](../chartseriesgroup)

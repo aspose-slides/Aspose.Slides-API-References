@@ -1,47 +1,47 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر Reflection است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایندهٔ یک اثر Reflection.
 type: docs
 weight: 3640
 url: /fa/aspose.slides.effects/reflection/
 ---
 ## کلاس Reflection
 
-نمایانگر یک اثر Reflection است.
+یک اثر Reflection را نمایان می‌سازد.
 
 ```csharp
 public sealed class Reflection : IReflection
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | شعاع تاری. قابل خواندن/نوشتن Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | جهت انعکاس. قابل خواندن/نوشتن Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | فاصله انعکاس. قابل خواندن/نوشتن Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | موقعیت انتهایی (در طول مسیر گرادیان آلفا) مقدار آلفای انتها (درصد) را مشخص می‌کند. قابل خواندن/نوشتن Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | شفافیت انتهایی انعکاس. (درصد). قابل خواندن/نوشتن Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | جهت جابجایی انعکاس را مشخص می‌کند. (زاویه). قابل خواندن/نوشتن Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | تطبیق مستطیل. قابل خواندن/نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | مشخص می‌کند که آیا انعکاس باید با شکل چرخانده شود اگر شکل چرخانده شده باشد. قابل خواندن/نوشتن Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | عامل مقیاس افقی را مشخص می‌کند، مقیاس منفی باعث وارونه شدن می‌شود. (درصد) قابل خواندن/نوشتن Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | عامل مقیاس عمودی را مشخص می‌کند، مقیاس منفی باعث وارونه شدن می‌شود. (درصد) قابل خواندن/نوشتن Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | زاویه شیب افقی را مشخص می‌کند. قابل خواندن/نوشتن Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | زاویه شیب عمودی را مشخص می‌کند. قابل خواندن/نوشتن Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | موقعیت شروع (در طول مسیر گرادیان آلفا) مقدار آلفای شروع (درصد) را مشخص می‌کند. قابل خواندن/نوشتن Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | شفافیت اولیه انعکاس. (درصد). قابل خواندن/نوشتن Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | شعاع تاری. خواندن/نوشتن Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | جهت انعکاس. خواندن/نوشتن Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | فاصله انعکاس. خواندن/نوشتن Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | موقعیت انتهایی (در امتداد مسیر گرادیان آلفا) مقدار آلفای انتهایی (درصد) را مشخص می‌کند. خواندن/نوشتن Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | شفافیت انتهای انعکاس. (درصد). خواندن/نوشتن Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | جهت جابجایی انعکاس را مشخص می‌کند. (زاویه). خواندن/نوشتن Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | تراز مستطیل. خواندن/نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | مشخص می‌کند که آیا انعکاس باید با شکل چرخیده شود یا نه اگر شکل چرخانده شود. خواندن/نوشتن Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | عامل مقیاس افقی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصد) خواندن/نوشتن Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | عامل مقیاس عمودی را مشخص می‌کند، مقیاس منفی باعث وارون شدن می‌شود. (درصد) خواندن/نوشتن Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | زاویه کج‌نمایی افقی را مشخص می‌کند. خواندن/نوشتن Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | زاویه کج‌نمایی عمودی را مشخص می‌کند. خواندن/نوشتن Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | موقعیت شروع (در امتداد مسیر گرادیان آلفا) مقدار آلفای شروع (درصد) را مشخص می‌کند. خواندن/نوشتن Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | شفافیت شروع انعکاس. (درصد). خواندن/نوشتن Single. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | تعیین می‌کند که آیا [`Reflection`](../reflection) مشخص‌شده برابر با [`Reflection`](../reflection) فعلی است یا خیر. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | داده‌های مؤثر افکت Reflection را با اعمال وراثت دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | تعیین می‌کند آیا [`Reflection`](../reflection) مشخص شده برابر با [`Reflection`](../reflection) فعلی است یا نه. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | داده‌های مؤثر اثر Reflection را با به‌کارگیری ارث‌بری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
 * رابط [IReflection](../ireflection)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)

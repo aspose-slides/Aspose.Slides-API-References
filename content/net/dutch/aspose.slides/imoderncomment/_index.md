@@ -19,10 +19,10 @@ public interface IModernComment : IComment
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Staat toe om de basis IComment interface op te halen. Alleen-lezen [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Retourneert een Shape die aan de opmerking is gekoppeld. Alleen-lezen [`IShape`](../ishape). |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Retourneert of stelt de status van de opmerking in. Lezen/Schrijven [`ModernCommentStatus`](../moderncommentstatus). |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Retourneert of stelt de lengte van de tekstreeksselectie in het tekstkader in als de opmerking is gekoppeld aan een AutoShape. Lezen/Schrijven Int32. |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Retourneert of stelt de startpositie van de tekstreeksselectie in het tekstkader in als de opmerking is gekoppeld aan een AutoShape. Lezen/Schrijven Int32. |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Retourneert een vorm die aan de opmerking is gekoppeld. Alleen-lezen [`IShape`](../ishape). |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Retourneert of stelt de status van de opmerking in. Lezen/schrijven [`ModernCommentStatus`](../moderncommentstatus). |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Retourneert of stelt de lengte van de tekstselectie in het tekstframe in als de opmerking is gekoppeld aan AutoShape. Lezen/schrijven Int32. |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Retourneert of stelt de startpositie van de tekstselectie in het tekstframe in als de opmerking is gekoppeld aan AutoShape. Lezen/schrijven Int32. |
 
 ### Voorbeelden
 

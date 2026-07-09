@@ -16,27 +16,27 @@ public interface IHyperlink
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx의 작업 유형을 반환합니다. 읽기 전용 [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 하이퍼링크 색상의 원본을 나타냅니다 - 스타일이나 부분 형식 중 하나입니다. 읽기/쓰기 [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 외부 URL을 지정합니다. 이 속성이 null이 아니면 TargetSlide 속성이 null이 됩니다. 읽기 전용 String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 해당 부분의 실제 내용과 관계없이 설정된 하이퍼링크를 나타냅니다. PowerPoint는 부분 내의 링크와 해당 텍스트에 대해 특별히 동작합니다. 실제 주소와 다른 유효한 URL 형태의 텍스트로 하이퍼링크를 생성할 수 있습니다. 이 경우 편집 창에서 링크를 볼 때 텍스트 부분에 맞게 변경됩니다. 이 속성은 하이퍼링크의 원래 값을 나타냅니다. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | HyperLinkEx의 동작 유형을 반환합니다. 읽기 전용 [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | 하이퍼링크 색상의 소스를 나타냅니다 – 스타일이거나 부분 서식입니다. 읽기/쓰기 [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | 외부 URL을 지정합니다. 이 속성이 null이 아니게 되면 TargetSlide 속성은 null이 됩니다. 읽기 전용 String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | 이 부분에 설정된 하이퍼링크를 실제 내용과 무관하게 나타냅니다. PowerPoint는 링크와 해당 텍스트를 별도로 처리합니다. 유효한 URL 형태의 텍스트를 하이퍼링크로 만들 수 있으며, 실제 주소와 다를 수 있습니다. 이 경우 편집 창에서 링크를 볼 때 텍스트에 맞게 변경됩니다. 이 속성은 하이퍼링크의 원래 값을 나타냅니다. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | 클릭 시 하이퍼링크를 강조 표시할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 부모 하이퍼링크의 대상이 호출될 때 본 보기 하이퍼링크 목록에 추가될지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 하이퍼링크의 재생 사운드를 나타냅니다. 읽기/쓰기 [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 하이퍼링크 클릭 시 사운드를 중지할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 존재하는 경우 부모 하이퍼링크의 대상에 대한 부모 HTML 프레임셋 내 프레임을 반환합니다. 읽기/쓰기 String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperlinkEx가 특정 슬라이드를 대상으로 할 경우 해당 슬라이드를 반환합니다. 이 속성이 null이 아니면 ExternalUrl 속성이 null이 됩니다. 읽기 전용 [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 사용자 인터페이스에 표시될 수 있는 문자열을 반환하며, 이는 부모 하이퍼링크와 연관됩니다. 읽기/쓰기 String. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | 부모 하이퍼링크가 호출될 때 해당 대상이 조회된 하이퍼링크 목록에 추가될지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | 하이퍼링크의 재생 소리를 나타냅니다. 읽기/쓰기 [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | 클릭 시 소리를 중지할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | 부모 하이퍼링크 대상이 존재할 경우 부모 HTML 프레임셋 내에서 해당 프레임을 반환합니다. 읽기/쓰기 String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | HyperlinkEx가 특정 슬라이드를 대상으로 하면 해당 슬라이드를 반환합니다. 이 속성이 null이 아니게 되면 ExternalUrl 속성은 null이 됩니다. 읽기 전용 [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | 부모 하이퍼링크와 연결된 사용자 인터페이스에 표시될 수 있는 문자열을 반환합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 두 Hyperlink 인스턴스가 같은지 여부를 결정합니다. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | 두 Hyperlink 인스턴스가 동일한지 여부를 판단합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

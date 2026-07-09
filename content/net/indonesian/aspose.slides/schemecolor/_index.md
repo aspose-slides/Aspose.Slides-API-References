@@ -3,7 +3,7 @@ title: SchemeColor
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili warna dalam skema warna.
 type: docs
-weight: 9720
+weight: 9740
 url: /id/aspose.slides/schemecolor/
 ---
 ## enumerasi SchemeColor
@@ -18,7 +18,7 @@ public enum SchemeColor
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| NotDefined | `-1` | Skema warna tidak didefinisikan. |
+| NotDefined | `-1` | Color scheme is not defined. |
 | Background1 | `0` |  |
 | Text1 | `1` |  |
 | Background2 | `2` |  |

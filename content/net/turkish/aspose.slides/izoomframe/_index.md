@@ -3,12 +3,12 @@ title: IZoomFrame
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir slaytta Slide Zoom nesnesini temsil eder.
 type: docs
-weight: 7380
+weight: 7400
 url: /tr/aspose.slides/izoomframe/
 ---
 ## IZoomFrame arayüzü
 
-Bir slaytta Slide Zoom nesnesini temsil eder.
+Represents a Slide Zoom object in a slide.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,9 +19,9 @@ public interface IZoomFrame : IZoomObject
 | Ad | Açıklama |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | IZoomObject arayüzünü döndürür. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom nesnesinin bağlandığı slayt nesnesini alır veya ayarlar. Okunur/yazılır [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom nesnesinin bağlandığı slayt nesnesini alır veya ayarlar. Okuma/yazma [`ISlide`](../islide). |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IZoomObject](../izoomobject)
 * ad alanı [Aspose.Slides](../../aspose.slides)

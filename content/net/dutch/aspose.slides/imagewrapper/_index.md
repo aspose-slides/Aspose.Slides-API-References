@@ -1,7 +1,7 @@
 ---
 title: ImageWrapper
 second_title: Aspose.Sildes voor .NET API-referentie
-description: System.Drawing.Image wrapper voor COM interface.
+description: System.Drawing.Image wrapper voor COM-interface.
 type: docs
 weight: 7440
 url: /nl/aspose.slides/imagewrapper/
@@ -18,14 +18,14 @@ public class ImageWrapper : IImageWrapper
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Haalt Image op. Alleen-lezen [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Haalt de breedte en hoogte, in pixels, van de Image op. Alleen-lezen [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Haal Image op. Alleen-lezen [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Haal de breedte en hoogte, in pixels, van de Image op. Alleen-lezen [`Size`](./size). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Dispose ImageWrapper |
+| [Dispose](../../aspose.slides/imagewrapper/dispose)() | Verwijder ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Slaat Image op in het opgegeven bestand |
 | [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Slaat de Image op in de opgegeven stream in het opgegeven formaat. |
 | [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Slaat de Image op in het opgegeven bestand in het opgegeven formaat. |

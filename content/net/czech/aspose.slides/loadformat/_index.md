@@ -1,12 +1,12 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – API reference
 description: Určuje formát dokumentu, který má být načten.
 type: docs
-weight: 7810
+weight: 7830
 url: /cs/aspose.slides/loadformat/
 ---
-## enumerace LoadFormat
+## Výčet LoadFormat
 
 Určuje formát dokumentu, který má být načten.
 
@@ -18,23 +18,23 @@ public enum LoadFormat
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Auto | `0` | Přikazuje Aspose.Slides rozpoznat formát automaticky. |
+| Auto | `0` | Nařizuje Aspose.Slides, aby rozpoznal formát automaticky. |
 | Ppt | `1` | Prezentace Microsoft PowerPoint 97-2003. |
-| Pps | `2` | Prezentace Microsoft PowerPoint 97-2003 SlideShow. |
+| Pps | `2` | Prezentace typu SlideShow Microsoft PowerPoint 97-2003. |
 | Pptx | `3` | Dokument Microsoft Office Open XML PresentationML. |
-| Ppsx | `4` | SlideShow Microsoft Office Open XML PresentationML. |
+| Ppsx | `4` | Prezentace typu SlideShow Microsoft Office Open XML PresentationML. |
 | Odp | `5` | Prezentace OpenOffice ODF. |
 | Potx | `6` | Šablona Microsoft Office Open XML PresentationML. |
-| Pptm | `7` | Makro-povolující dokument Microsoft Office Open XML PresentationML. |
-| Ppsm | `8` | Makro-povolující SlideShow Microsoft Office Open XML PresentationML. |
-| Potm | `9` | Makro-povolující šablona Microsoft Office Open XML PresentationML. |
+| Pptm | `7` | Dokument Microsoft Office Open XML PresentationML s makry. |
+| Ppsm | `8` | Prezentace typu SlideShow Microsoft Office Open XML PresentationML s makry. |
+| Potm | `9` | Šablona Microsoft Office Open XML PresentationML s makry. |
 | Otp | `10` | Šablona prezentace OpenOffice OTP. |
 | Ppt95 | `11` | Prezentace Microsoft PowerPoint 95. |
 | Pot | `12` | Šablona prezentace Microsoft PowerPoint 97-2003. |
 | Fodp | `13` | Prezentace Flat XML ODF. |
 | Unknown | `255` | Neznámý formát souboru |
 
-### Další informace
+### Viz také
 
 * jmenný prostor [Aspose.Slides](../../aspose.slides)
 * sestavení [Aspose.Slides](../../)

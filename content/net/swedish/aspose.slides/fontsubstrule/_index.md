@@ -1,20 +1,20 @@
 ---
 title: FontSubstRule
-second_title: Aspose.Sildes för .NET API-referens
-description: Representerar information om teckensnittsubstitution
+second_title: Aspose.Slides för .NET API-referens
+description: Representerar information om fontsubstitution
 type: docs
-weight: 4870
+weight: 4890
 url: /sv/aspose.slides/fontsubstrule/
 ---
 ## FontSubstRule klass
 
-Representerar information om teckensnittsubstitution
+Representerar information om fontsubstitution
 
 ```csharp
 public class FontSubstRule : IFontSubstRule
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -25,11 +25,11 @@ public class FontSubstRule : IFontSubstRule
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Teckensnitt att använda för substitution. Skrivskyddad [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Regel att tillämpa för substitution. Skrivskyddad [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Teckensnitt att ersätta. Skrivskyddad [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | Font att använda för ersättning. Skrivskyddad [`IFontData`](../ifontdata). |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | Regel som ska tillämpas för ersättning. Skrivskyddad [`FontSubstCondition`](../fontsubstcondition). |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | Font att ersätta. Skrivskyddad [`IFontData`](../ifontdata). |
 
-### Se också
+### Se även
 
 * gränssnitt [IFontSubstRule](../ifontsubstrule)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API 參考
-description: 取得或設定在匯出簡報時，投影片在頁面上放置的模式 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 取得或設定匯出簡報時投影片在頁面上放置的模式 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
 url: /zh-hant/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions 屬性
 
-取得或設定在匯出簡報時，投影片在頁面上放置的模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
+取得或設定匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../../islideslayoutoptions)。
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }

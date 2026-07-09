@@ -1,14 +1,14 @@
 ---
 title: PropertyValueType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de typen van eigenschapwaarden weer.
+description: Geeft de soorten eigenschapswaarden weer.
 type: docs
 weight: 760
 url: /nl/aspose.slides.animation/propertyvaluetype/
 ---
-## PropertyValueType enumeratie
+## PropertyValueType-enumeratie
 
-Geeft de typen van eigenschapwaarden weer.
+Geeft de soorten eigenschapswaarden weer.
 
 ```csharp
 public enum PropertyValueType

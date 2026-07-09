@@ -1,14 +1,14 @@
 ---
 title: SvgImage
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 SVG 圖像。
+description: 代表一個 SVG 圖像。
 type: docs
 weight: 10800
 url: /zh-hant/aspose.slides/svgimage/
 ---
 ## SvgImage 類別
 
-表示 SVG 圖像。
+代表一個 SVG 圖像。
 
 ```csharp
 public class SvgImage : ISvgImage
@@ -29,10 +29,10 @@ public class SvgImage : ISvgImage
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 傳回指定 Svg 的基礎 URI。用於解析相對連結。唯讀 String。 |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 傳回在 Svg 文件匯入期間用來解析外部資源的回呼介面。唯讀 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 傳回 SVG 內容。唯讀 String。 |
-| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 傳回 SVG 資料。唯讀 Byte[]。 |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 返回指定 Svg 的基礎 URI。用於解析相對連結。唯讀 String。 |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | 返回在 Svg 文件匯入期間用於解析外部資源的回呼介面。唯讀 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver)。 |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | 返回 SVG 內容。唯讀 String。 |
+| [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | 返回 SVG 資料。唯讀 Byte[]。 |
 
 ## 方法
 

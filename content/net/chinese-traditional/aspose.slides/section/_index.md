@@ -1,6 +1,6 @@
 ---
 title: Section
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示投影片的區段。
 type: docs
 weight: 9750
@@ -26,9 +26,9 @@ public class Section : DomObject<SectionCollection>, ISection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 傳回區段中的投影片清單。 |
+| [GetSlidesListOfSection](../../aspose.slides/section/getslideslistofsection)() | 傳回區段中投影片的清單。 |
 
-### 另請參閱
+### 另請參考
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [SectionCollection](../sectioncollection)

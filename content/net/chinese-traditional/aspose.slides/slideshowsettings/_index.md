@@ -16,15 +16,15 @@ public class SlideShowSettings
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | 迴圈投影片放映 |
-| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | 投影片放映的筆刷顏色 |
+| [Loop](../../aspose.slides/slideshowsettings/loop) { get; set; } | 循環投影片放映 |
+| [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | 投影片放映的筆跡顏色 |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | 在投影片放映中顯示動畫 |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | 顯示媒體控制項 |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | 在投影片放映中顯示旁白 |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | 投影片範圍 |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 取得或設定投影片放映類型。由以下 [`SlideShowType`](./slideshowtype) 祖先表示：[`BrowsedAtKiosk`](../browsedatkiosk)、[`PresentedBySpeaker`](../presentedbyspeaker) 與 [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 取得或設定投影片放映類型。由以下 [`SlideShowType`](./slideshowtype) 祖先表示：[`BrowsedAtKiosk`](../browsedatkiosk)、[`PresentedBySpeaker`](../presentedbyspeaker) 和 [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | 在投影片放映中使用計時 |
 
 ### 另請參閱

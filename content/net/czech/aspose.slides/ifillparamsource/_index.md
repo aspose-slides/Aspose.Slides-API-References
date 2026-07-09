@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Rozhraní pomocných parametrů výplně.
 type: docs
-weight: 5790
+weight: 5810
 url: /cs/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource rozhraní
 
-Pomocné rozhraní parametrů výplně.
+Rozhraní pomocných parametrů výplně.
 
 ```csharp
 public interface IFillParamSource

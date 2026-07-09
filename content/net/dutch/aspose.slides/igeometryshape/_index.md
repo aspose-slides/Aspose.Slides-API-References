@@ -16,21 +16,21 @@ public interface IGeometryShape : IShape
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Retourneert een verzameling van de aanpassingswaarden van de vorm. Alleen-lezen [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Staat toe om de basis IShape interface op te halen. Alleen-lezen [`IShape`](../ishape). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Retourneert een verzameling van aanpassingswaarden van de vorm. Alleen-lezen [`IAdjustValueCollection`](../iadjustvaluecollection). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Staat toe om de basise IShape interface op te halen. Alleen-lezen [`IShape`](../ishape). |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Retourneert het stijlobject van de vorm. Alleen-lezen [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Retourneert of stelt het vooraf ingestelde type van de geometrie in. Opmerking: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/schrijven [`ShapeType`](../shapetype). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Retourneert of stelt het geometry preset type in. Let op: bij het wijzigen van de waarde worden alle aanpassingswaarden teruggezet naar hun standaardwaarden. Lezen/Schrijven [`ShapeType`](../shapetype). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Maakt en retourneert een array van de elementen van de vorm. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Retourneert een kopie van het pad van de geometrische vorm. Coördinaten zijn relatief ten opzichte van de linkerbovenhoek van de vorm. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Werk de geometrie van de vorm bij vanuit het [`IGeometryPath`](../igeometrypath) object. Coördinaten moeten relatief ten opzichte van de linkerbovenhoek van de vorm zijn. Wijzigt het type van de vorm ([`ShapeType`](./shapetype)) naar Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Werk de geometrie van de vorm bij vanuit een array van [`IGeometryPath`](../igeometrypath). Coördinaten moeten relatief ten opzichte van de linkerbovenhoek van de vorm zijn. Wijzigt het type van de vorm ([`ShapeType`](./shapetype)) naar Custom. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Retourneert een kopie van het pad van de geometrische vorm. Coördinaten zijn relatief aan de linkerbovenhoek van de vorm. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Werkt de vormgeometrie bij vanuit [`IGeometryPath`](../igeometrypath) object. Coördinaten moeten relatief zijn aan de linkerbovenhoek van de vorm. Verandert het type van de vorm ([`ShapeType`](./shapetype)) naar Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Werkt de vormgeometrie bij vanuit een array van [`IGeometryPath`](../igeometrypath). Coördinaten moeten relatief zijn aan de linkerbovenhoek van de vorm. Verandert het type van de vorm ([`ShapeType`](./shapetype)) naar Custom. |
 
 ### Zie ook
 

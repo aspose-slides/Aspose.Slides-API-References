@@ -1,9 +1,9 @@
 ---
 title: LayoutSlideCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta una classe base per la raccolta di diapositive di layout.
 type: docs
-weight: 7630
+weight: 7650
 url: /it/aspose.slides/layoutslidecollection/
 ---
 ## LayoutSlideCollection classe
@@ -16,7 +16,7 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Restituisce il numero di diapositive di layout in una raccolta. Solo lettura Int32. |
 | [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Restituisce un valore che indica se l'accesso alla raccolta è sincronizzato (thread-safe). Solo lettura Boolean. |
@@ -25,10 +25,10 @@ public class LayoutSlideCollection : ILayoutSlideCollection
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Copia tutti gli elementi dalla raccolta nell'array specificato. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Restituisce la prima diapositiva di layout del tipo specificato. Un tipo di diapositiva di layout da trovare.[`LayoutSlide`](../layoutslide) con tipo specificato o null se nessun layout è stato trovato. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Restituisce la prima diapositiva di layout del tipo specificato. Un tipo di diapositiva di layout da trovare.[`LayoutSlide`](../layoutslide) con il tipo specificato o null se non sono state trovate diapositive. |
 | [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Rimuove un layout dalla raccolta. |
 | [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Rimuove le diapositive di layout inutilizzate (diapositive di layout il cui HasDependingSlides è false). |

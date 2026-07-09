@@ -6,9 +6,9 @@ type: docs
 weight: 8060
 url: /th/aspose.slides/materialpresettype/
 ---
-## การกำหนดค่า MaterialPresetType
+## MaterialPresetType การกำหนดค่า enum
 
-ค่าคงที่ที่กำหนดวัสดุของรูปร่าง.
+ค่าคงที่ที่กำหนดวัสดุของรูปทรง.
 
 ```csharp
 public enum MaterialPresetType

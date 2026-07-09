@@ -1,9 +1,9 @@
 ---
 title: IDrawingGuidesCollection
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta una raccolta delle guide di disegno regolabili.
 type: docs
-weight: 5710
+weight: 5730
 url: /it/aspose.slides/idrawingguidescollection/
 ---
 ## IDrawingGuidesCollection interfaccia
@@ -18,15 +18,15 @@ public interface IDrawingGuidesCollection : IEnumerable<IDrawingGuide>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Recupera il numero di tutti gli elementi nella collezione. Solo lettura Int32. |
-| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Restituisce la guida di disegno per indice. Solo lettura [`IDrawingGuide`](../idrawingguide). |
+| [Count](../../aspose.slides/idrawingguidescollection/count) { get; } | Ottiene il numero di tutti gli elementi nella raccolta. Sola lettura Int32. |
+| [Item](../../aspose.slides/idrawingguidescollection/item) { get; } | Restituisce la guida di disegno per indice. Sola lettura [`IDrawingGuide`](../idrawingguide). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Aggiunge la guida di disegno alla fine della collezione. |
-| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Rimuove tutti gli elementi dalla collezione. |
+| [Add](../../aspose.slides/idrawingguidescollection/add)(Orientation, float) | Aggiunge la guida di disegno alla fine della raccolta. |
+| [Clear](../../aspose.slides/idrawingguidescollection/clear)() | Rimuove tutti gli elementi dalla raccolta. |
 | [RemoveAt](../../aspose.slides/idrawingguidescollection/removeat)(int) | Rimuove la guida di disegno all'indice specificato. |
 
 ### Vedi anche

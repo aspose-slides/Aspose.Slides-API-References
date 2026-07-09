@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de sombra interna.
 type: docs
-weight: 3400
+weight: 3420
 url: /pt/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interface
@@ -21,12 +21,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Raio de desfoque. Leitura/gravação Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direção da sombra. Leitura/gravação Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distância da sombra. Leitura/gravação Double. |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Raio de desfoque. Leitura/Gravação Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direção da sombra. Leitura/Gravação Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distância da sombra. Leitura/Gravação Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Cor da sombra. Somente leitura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Veja Também
+### Ver também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IInnerShadowEffectiveData](../iinnershadoweffectivedata)

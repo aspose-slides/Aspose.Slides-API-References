@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy dián egy Slide Zoom objektumot képvisel.
+description: Egy Slide Zoom objektumot képvisel egy dián.
 type: docs
-weight: 7380
+weight: 7400
 url: /hu/aspose.slides/izoomframe/
 ---
 ## IZoomFrame interfész
 
-Egy Slide Zoom objektumot képvisel egy dián.
+Represents a Slide Zoom object in a slide.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -16,10 +16,10 @@ public interface IZoomFrame : IZoomObject
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | Visszaadja az IZoomObject interfészt. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Lekérdezi vagy beállítja a dia objektumot, amelyhez a Slide Zoom objektum kapcsolódik. Olvasás/írás [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | A diát objektumot adja vissza vagy állítja be, amelyre a Slide Zoom objektum hivatkozik. Olvasás/írás [`ISlide`](../islide). |
 
 ### Lásd még
 

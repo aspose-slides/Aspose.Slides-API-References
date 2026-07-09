@@ -1,34 +1,34 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เริ่มต้นอินสแตนซ์ใหม่ของ SlidesAIAgentaspose.slides.ai/slidesaiagent ด้วยไคลเอนต์ AI ที่กำหนดเอง. ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI, จัดหา LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ เช่น โดยให้ HttpClient ของคุณเอง. สามารถใช้การนำไปใช้ใดก็ได้ของ IAIWebClientaspose.slides.ai/iaiwebclient รวมถึง
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: สร้างอินสแตนซ์ใหม่ของ SlidesAIAgentaspose.slides.ai/slidesaiagent ด้วยคลไคลเอ็นต์ AI ที่กำหนดเอง ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI จัดหา LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ เช่นโดยการให้ HttpClient ของคุณเอง สามารถใช้การทำงานของ IAIWebClientaspose.slides.ai/iaiwebclient ใด ๆ ได้ รวมถึง
 type: docs
 weight: 10
 url: /th/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
 ## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../../slidesaiagent) ด้วยไคลเอนต์ AI ที่กำหนดเอง ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI, จัดหา LLM ของคุณเอง, หรือปรับแต่งการเชื่อมต่อ (เช่น โดยให้ `HttpClient` ของคุณเอง) การนำไปใช้ใดก็ได้ของ [`IAIWebClient`](../../iaiwebclient) สามารถใช้ได้, รวมถึง:
+เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../../slidesaiagent) ด้วยคลไคลเอ็นต์ AI ที่กำหนดเอง ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI, จัดหา LLM ของคุณเอง หรือปรับแต่งการเชื่อมต่อ (เช่น โดยการให้ `HttpClient` ของคุณเอง) การใช้งานใด ๆ ของ [`IAIWebClient`](../../iaiwebclient) สามารถใช้ได้ รวมถึง:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-หากต้องการใช้ [`AsposeAIWebClient`](../../asposeaiwebclient) ที่มาพร้อมกับการกำหนดค่าเริ่มต้น, ใช้ overload [`SlidesAIAgent`](../slidesaiagent) แทน
+เพื่อใช้ [`AsposeAIWebClient`](../../asposeaiwebclient) ที่มีมาในตัวด้วยการตั้งค่าเริ่มต้น ให้ใช้ overload [`SlidesAIAgent`](../slidesaiagent) แทน.
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| aiClient | IAIWebClient | อินสแตนซ์ของไคลเอนต์ AI. สามารถใช้การนำไปใช้ใดก็ได้ของ [`IAIWebClient`](../../iaiwebclient) |
+| aiClient | IAIWebClient | อินสแตนซ์ของคลไคลเอ็นต์ AI การใช้งานใด ๆ ของ [`IAIWebClient`](../../iaiwebclient) สามารถใช้ได้. |
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | ไม่ได้ระบุอินสแตนซ์ของไคลเอนต์ AI |
+| ArgumentNullException | ไม่ได้ระบุอินสแตนซ์ของคลไคลเอ็นต์ AI. |
 
 ### ดูเพิ่มเติม
 
@@ -41,7 +41,7 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 ## SlidesAIAgent() {#constructor}
 
-เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../../slidesaiagent) โดยใช้ [`AsposeAIWebClient`](../../asposeaiwebclient) ที่มาพร้อมกับการกำหนดค่าเริ่มต้น ไคลเอนต์จะเชื่อมต่อกับ LLM ของ Aspose เองและไม่ต้องการการกำหนดค่าเพิ่มเติม หากต้องการใช้ไคลเอนต์ AI ตัวอื่น, ให้ใช้ overload [`SlidesAIAgent`](../slidesaiagent) แทน
+เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../../slidesaiagent) โดยใช้ [`AsposeAIWebClient`](../../asposeaiwebclient) ที่มีมาในตัวด้วยการตั้งค่าเริ่มต้น ลูกค้าจะเชื่อมต่อกับ LLM ของ Aspose เองและไม่ต้องการการตั้งค่าเพิ่มเติม เพื่อใช้คลไคลเอ็นต์ AI ตัวอื่น ให้ใช้ overload [`SlidesAIAgent`](../slidesaiagent) แทน.
 
 ```csharp
 public SlidesAIAgent()

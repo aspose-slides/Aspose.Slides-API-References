@@ -6,27 +6,27 @@ type: docs
 weight: 240
 url: /hi/aspose.slides.animation/coloroffset/
 ---
-## ColorOffset वर्ग
+## ColorOffset क्लास
 
-रंग ऑफ़सेट को दर्शाता है।
+रंग ऑफ़सेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public class ColorOffset : IColorOffset
 ```
 
-## निर्माणकर्ता
+## कंस्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ColorOffset](coloroffset)() | डिफ़ॉल्ट निर्माणकर्ता। |
+| [ColorOffset](coloroffset)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | ऑफ़सेट का पहला मान निर्धारित करता है। पढ़ें/लिखें Single. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | ऑफ़सेट का दूसरा मान निर्धारित करता है। पढ़ें/लिखें Single. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | ऑफ़सेट का तीसरा मान निर्धारित करता है। पढ़ें/लिखें Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | ऑफ़सेट का पहला मान परिभाषित करता है। पढ़ें/लिखें Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | ऑफ़सेट का दूसरा मान परिभाषित करता है। पढ़ें/लिखें Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | ऑफ़सेट का तीसरा मान परिभाषित करता है। पढ़ें/लिखें Single. |
 
 ### देखें
 

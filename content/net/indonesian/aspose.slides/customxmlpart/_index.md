@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPart
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili bagian xml khusus.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili bagian XML khusus.
 type: docs
-weight: 2720
+weight: 2740
 url: /id/aspose.slides/customxmlpart/
 ---
 ## CustomXmlPart kelas
 
-Mewakili bagian xml khusus.
+Mewakili bagian XML khusus.
 
 ```csharp
 public class CustomXmlPart : ICustomXmlPart
@@ -18,10 +18,10 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Menentukan pengidentifikasi unik secara global (GUID) yang secara unik mengidentifikasi satu bagian XML khusus dalam dokumen Office Open XML. Hanya-baca Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Mengembalikan koleksi skema XML yang terkait dengan bagian XML khusus. Hanya-baca String[]. |
-| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Mengembalikan atau mengatur data xml sebagai string UTF-8. Baca/tulis String. nilai adalah `null`.nilai kosong atau data xml tidak valid. |
-| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Mengembalikan atau mengatur data xml. Baca/tulis Byte[]. nilai adalah `null`.nilai kosong atau data xml tidak valid. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Menentukan pengidentifikasi unik secara global (GUID) yang secara unik mengidentifikasi satu bagian XML khusus dalam dokumen Office Open XML. Read-only Guid. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Mengembalikan koleksi skema XML yang terkait dengan bagian XML khusus. Read-only String[]. |
+| [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Mengembalikan atau mengatur data xml sebagai string UTF-8. Read/write String. nilai adalah `null`.nilai kosong atau xml-data tidak valid. |
+| [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Mengembalikan atau mengatur data xml. Read/write Byte[]. nilai adalah `null`.nilai kosong atau xml-data tidak valid. |
 
 ## Metode
 

@@ -3,7 +3,7 @@ title: Glow
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Glow in cui un contorno sfocato di colore viene aggiunto al di fuori dei bordi dell'oggetto.
 type: docs
-weight: 2970
+weight: 2990
 url: /it/aspose.slides.effects/glow/
 ---
 ## Glow classe
@@ -18,16 +18,16 @@ public sealed class Glow : IGlow
 
 | Nome | Descrizione |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Formato colore. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Raggio. Lettura/Scrittura Double. |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Formato colore. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Raggio. Lettura/scrittura Double. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Determina se il [`Glow`](../glow) specificato è uguale al [`Glow`](../glow) corrente. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Ottiene i dati dell'effetto Glow effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Funziona come funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | Determina se il [`Glow`](../glow) specificato è uguale all'attuale [`Glow`](../glow). |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Recupera i dati dell'effetto Glow effettivo con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche
 

@@ -1,9 +1,9 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: スライド上のビデオクリップを表します。
 type: docs
-weight: 7360
+weight: 7380
 url: /ja/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame インターフェイス
@@ -18,20 +18,20 @@ public interface IVideoFrame : IPictureFrame
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | 基本的な IPictureFrame インターフェイスを取得できます。読み取り専用 [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | オーディオ フレームに関連付けられたクローズドキャプションのコレクションを取得します。このプロパティは読み取り専用で、すべてのキャプショントラックを含む [`ICaptionsCollection`](../icaptionscollection) を返します。 |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 埋め込みビデオオブジェクトを取得または設定します。読み書き [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | ビデオが全画面モードで表示されるかどうかを決定します。読み書き Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | VideoFrame が非表示かどうかを決定します。読み書き Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | VideoFrame にリンクされているビデオファイルの名前を取得または設定します。読み書き String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | ビデオがループ再生されるかどうかを決定します。読み書き Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | ビデオの再生モードを取得または設定します。読み書き [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 映像の再生が終了した直後に自動的に先頭に巻き戻すかどうかを決定します。読み書き Boolean. |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | ベースの IPictureFrame インターフェイスを取得できます。読み取り専用 [`IPictureFrame`](../ipictureframe)。 |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | オーディオフレームに関連付けられたクローズドキャプションのコレクションを取得します。このプロパティは読み取り専用で、すべてのキャプショントラックを含む [`ICaptionsCollection`](../icaptionscollection) を返します。 |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | 埋め込みビデオオブジェクトを取得または設定します。読み書き可能 [`IVideo`](../ivideo)。 |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | ビデオが全画面モードで表示されるかどうかを決定します。読み書き可能 Boolean。 |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | VideoFrame が非表示かどうかを決定します。読み書き可能 Boolean。 |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | VideoFrame にリンクされているビデオファイルの名前を取得または設定します。読み書き可能 String。 |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | ビデオがループ再生されるかどうかを決定します。読み書き可能 Boolean。 |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | ビデオ再生モードを取得または設定します。読み書き可能 [`VideoPlayModePreset`](../videoplaymodepreset)。 |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | 映画の再生が終了した直後にビデオが自動的に先頭に巻き戻されるかどうかを決定します。読み書き可能 Boolean。 |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | トリム終了 [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | トリム開始 [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | オーディオ ボリュームを取得または設定します。読み書き [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | オーディオボリュームを取得または設定します。読み書き可能 [`AudioVolumeMode`](../audiovolumemode)。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IPictureFrame](../ipictureframe)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

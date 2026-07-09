@@ -16,28 +16,28 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | 추세선이 해당 시리즈의 데이터보다 앞서 확장되는 범주의 수(또는 산점도 차트의 단위)를 지정합니다. 산점도 차트 및 비산점도 차트에서 이 값은 0 이상의 값을 가질 수 있습니다. 읽기/쓰기 Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | 추세선이 트렌드가 적용되는 시리즈의 데이터 이전에 확장되는 범주(또는 산점도 차트의 단위) 수를 지정합니다. 산점도 및 비산점도 차트에서는 값이 0 이상이어야 합니다. 읽기/쓰기 Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | 부모 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | 추세선의 방정식이 차트에 표시되는지 지정합니다(Rsquaredvalue와 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | 추세선의 R-squared 값이 차트에 표시되는지 지정합니다(방정식과 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | 추세선의 방정식이 차트에 표시되는지를 지정합니다(Rsquaredvalue와 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | 추세선의 R-squared 값이 차트에 표시되는지를 지정합니다(방정식과 동일한 레이블에 표시). 읽기/쓰기 Boolean. |
 | [Format](../../aspose.slides.charts/trendline/format) { get; set; } | 추세선의 형식을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | 추세선이 해당 시리즈의 데이터 이후에 확장되는 범주의 수(또는 산점도 차트의 단위)를 지정합니다. 산점도 차트 및 비산점도 차트에서 이 값은 0 이상의 값을 가질 수 있습니다. 읽기/쓰기 Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | 추세선이 y축과 교차하는 값을 지정합니다. 이 속성은 추세선 유형이 exp, linear 또는 poly인 경우에만 지원됩니다. 읽기/쓰기 Double. |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | 추세선이 트렌드가 적용되는 시리즈의 데이터 이후에 확장되는 범주(또는 산점도 차트의 단위) 수를 지정합니다. 산점도 및 비산점도 차트에서는 값이 0 이상이어야 합니다. 읽기/쓰기 Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | 추세선이 y 축과 교차하는 값을 지정합니다. 이 속성은 추세선 유형이 exp, linear, 또는 poly인 경우에만 지원됩니다. 읽기/쓰기 Double. |
 | [Order](../../aspose.slides.charts/trendline/order) { get; set; } | 다항식 추세선의 차수를 지정합니다. 다른 추세선 유형에서는 무시됩니다. 값은 2에서 6 사이여야 합니다. 읽기/쓰기 Byte. |
 | [Period](../../aspose.slides.charts/trendline/period) { get; set; } | 이동 평균 추세선의 기간을 지정합니다. 다른 추세선 변형에서는 무시됩니다. 값은 2에서 255 사이여야 합니다. 읽기/쓰기 Byte. |
 | [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | 이 추세선과 관련된 범례 항목을 나타냅니다. 읽기 전용 [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | 텍스트 형식을 반환합니다. 읽기 전용 [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | 풍부한 서식이 적용된 텍스트를 포함할 수 있습니다. 이 속성이 null이 아니면 이 서식이 적용된 텍스트 값이 데이터 레이블의 자동 생성 텍스트를 대체합니다. 자동 생성된 데이터 레이블 텍스트는 ShowSeriesName, ShowValue 등 속성에 의해 관리되며 TextFormatManager.TextFormat 속성으로 서식이 지정된 텍스트를 의미합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | 리치 포맷 텍스트를 포함할 수 있습니다. 이 속성이 null이 아니면 이 포맷된 텍스트 값이 데이터 레이블의 자동 생성 텍스트를 대체합니다. 자동 생성 텍스트는 ShowSeriesName, ShowValue 등 속성에 의해 관리되고 TextFormatManager.TextFormat 속성으로 포맷된 텍스트를 의미합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | 추세선의 이름을 가져오거나 설정합니다. 읽기/쓰기 String. |
 | [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | 추세선의 유형을 가져오거나 설정합니다. 읽기/쓰기 [`TrendlineType`](../trendlinetype). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | 텍스트 매개변수 "text"를 사용하여 TextFrameForOverriding을 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우에는 텍스트만 변경합니다. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/trendline/addtextframeforoverriding)(string) | TextFrameForOverriding을 매개변수 "text"의 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 텍스트만 변경합니다. |
 
 ### 참고
 

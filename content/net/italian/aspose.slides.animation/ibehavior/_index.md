@@ -1,14 +1,14 @@
 ---
 title: IBehavior
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta il comportamento di classe base dell'effetto.
+description: Rappresenta il comportamento di base della classe dell'effetto.
 type: docs
-weight: 390
+weight: 410
 url: /it/aspose.slides.animation/ibehavior/
 ---
-## IBehavior interfaccia
+## interfaccia IBehavior
 
-Rappresenta il comportamento di classe base dell'effetto.
+Rappresenta il comportamento di base della classe dell’effetto.
 
 ```csharp
 public interface IBehavior
@@ -18,10 +18,10 @@ public interface IBehavior
 
 | Nome | Descrizione |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in corso. Lettura/scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Rappresenta le proprietà del comportamento. Solo lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto. Lettura/scrittura [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/Scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/Scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | Rappresenta le proprietà del comportamento. Sola lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell’effetto. Lettura/Scrittura [`ITiming`](../itiming). |
 
 ### Vedi anche
 

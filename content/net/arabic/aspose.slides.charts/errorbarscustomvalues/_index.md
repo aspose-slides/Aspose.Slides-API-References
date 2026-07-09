@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Aspose.Sildes لمرجع API .NET
-description: يحدد قيم أشرطة الخطأ. يجب استخدامها فقط عندما يكون نوع قيمة أشرطة الخطأ هو Custom.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يحدد قيم أشرطة الأخطاء. يجب استخدامها فقط عندما يكون نوع قيمة أشرطة الأخطاء هو Custom.
 type: docs
 weight: 1660
 url: /ar/aspose.slides.charts/errorbarscustomvalues/
 ---
-## فئة ErrorBarsCustomValues
+## ErrorBarsCustomValues فئة
 
-يحدد قيم أشرطة الخطأ. يجب استخدامها فقط عندما يكون نوع قيمة أشرطة الخطأ هو Custom.
+يحدد قيم أشرطة الأخطاء. يجب استخدامها فقط عندما يكون نوع قيمة أشرطة الأخطاء هو Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -18,12 +18,12 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | الاسم | الوصف |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه السلبي. متاح إذا كان نوع قيمة أشرطة الخطأ هو Custom وتم السماح بـ ErrorBarsXFormat. في أي حالة أخرى تُعيد هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه الإيجابي. متاح إذا كان نوع قيمة أشرطة الخطأ هو Custom وتم السماح بـ ErrorBarsXFormat. في أي حالة أخرى تُعيد هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه السلبي. متاح إذا كان نوع قيمة أشرطة الخطأ هو Custom وتم السماح بـ ErrorBarsYFormat. في أي حالة أخرى تُعيد هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه الإيجابي. متاح إذا كان نوع قيمة أشرطة الخطأ هو Custom وتم السماح بـ ErrorBarsYFormat. في أي حالة أخرى تُعيد هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه السالب. متاح إذا كان نوع قيمة أشرطة الأخطاء هو Custom وErrorBarsXFormat مسموح. في أي حالة أخرى تُرجِع هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه الموجب. متاح إذا كان نوع قيمة أشرطة الأخطاء هو Custom وErrorBarsXFormat مسموح. في أي حالة أخرى تُرجِع هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه السالب. متاح إذا كان نوع قيمة أشرطة الأخطاء هو Custom وErrorBarsYFormat مسموح. في أي حالة أخرى تُرجِع هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | يحدد قيمة شريط الخطأ في الاتجاه الموجب. متاح إذا كان نوع قيمة أشرطة الأخطاء هو Custom وErrorBarsYFormat مسموح. في أي حالة أخرى تُرجِع هذه الخاصية null. للقراءة فقط [`IDoubleChartValue`](../idoublechartvalue). |
 
-### انظر أيضًا
+### انظر أيضا
 
 * فئة [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * فئة [ChartDataPoint](../chartdatapoint)

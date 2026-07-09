@@ -20,7 +20,7 @@ public interface ISketchFormat
 | --- | --- |
 | [SketchType](../../aspose.slides/isketchformat/sketchtype) { get; set; } | 스케치 유형을 반환하거나 설정합니다. 읽기/쓰기 [`LineSketchType`](../linesketchtype). |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

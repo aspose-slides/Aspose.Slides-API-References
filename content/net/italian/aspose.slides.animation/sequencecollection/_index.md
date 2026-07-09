@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una raccolta di sequenze interattive.
+description: Rappresenta una collezione di sequenze interattive.
 type: docs
-weight: 780
+weight: 800
 url: /it/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection classe
 
-Rappresenta una raccolta di sequenze interattive.
+Rappresenta una collezione di sequenze interattive.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -18,17 +18,17 @@ public class SequenceCollection : ISequenceCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Restituisce il numero di elementi in una raccolta. Solo lettura Int32. |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Restituisce il numero di elementi in una collezione Sola lettura Int32. |
 | [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Restituisce una sequenza all'indice specificato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Aggiunge una nuova sequenza interattiva. Leggi/scrivi [`Sequence`](../sequence). |
-| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Rimuove tutte le sequenze da una raccolta. |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
-| [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Rimuove la sequenza specificata da una raccolta. |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Aggiungi una nuova sequenza interattiva. Lettura/scrittura [`Sequence`](../sequence). |
+| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Rimuove tutte le sequenze da una collezione. |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Rimuove la sequenza specificata da una collezione. |
 | [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Rimuove la sequenza all'indice specificato. |
 
 ### Vedi anche

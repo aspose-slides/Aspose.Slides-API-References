@@ -1,7 +1,7 @@
 ---
 title: MotionCommandPathType
 second_title: Aspose.Sildes for .NET API 참조
-description: 애니메이션 모션 효과 동작에 대한 명령 유형을 나타냅니다.
+description: 애니메이션 모션 효과 동작을 위한 명령 유형을 나타냅니다.
 type: docs
 weight: 660
 url: /ko/aspose.slides.animation/motioncommandpathtype/
@@ -24,7 +24,7 @@ public enum MotionCommandPathType
 | CloseLoop | `3` |  |
 | End | `4` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

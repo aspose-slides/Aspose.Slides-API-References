@@ -1,14 +1,14 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes の .NET 用 API リファレンス
 description: 2 次元の配置を定義します。
 type: docs
-weight: 9670
+weight: 9690
 url: /ja/aspose.slides/rectanglealignment/
 ---
 ## RectangleAlignment 列挙体
 
-2 次元の配置を定義します。
+2次元の配置を定義します。
 
 ```csharp
 public enum RectangleAlignment : sbyte

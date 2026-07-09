@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta una collezione di schemi di colore aggiuntivi.
+description: Rappresenta una raccolta di schemi di colore aggiuntivi.
 type: docs
-weight: 11200
+weight: 11220
 url: /it/aspose.slides.theme/iextracolorschemecollection/
 ---
 ## IExtraColorSchemeCollection interfaccia
 
-Rappresenta una collezione di schemi di colore aggiuntivi.
+Rappresenta una raccolta di schemi di colore aggiuntivi.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -18,7 +18,7 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 | Nome | Descrizione |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Restituisce uno schema di colore per indice. Solo lettura [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | Restituisce uno schema di colori per indice. Sola lettura [`IExtraColorScheme`](../iextracolorscheme). |
 
 ### Vedi anche
 

@@ -1,9 +1,9 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir yolun bir komutunu temsil eder.
 type: docs
-weight: 630
+weight: 650
 url: /tr/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath sınıfı
@@ -16,14 +16,14 @@ public class MotionCmdPath : IMotionCmdPath
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Komut türünü belirtir. Okunur/Yazılır [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Komut koordinatlarının göreceli olup olmadığını belirler. Okunur/Yazılır Boolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Komut noktalarını belirtir. Okunur/Yazılır PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Komut noktaları türünü belirtir. Okunur/Yazılır [`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Komut tipini belirtir. Okuma/Yazma [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Komut koordinatlarının göreli olup olmadığını belirler. Okuma/Yazma Boolean. |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Komut noktalarını belirtir. Okuma/Yazma PointF[]. |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Komut noktaları tipini belirtir. Okuma/Yazma [`MotionPathPointsType`](../motionpathpointstype). |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IMotionCmdPath](../imotioncmdpath)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

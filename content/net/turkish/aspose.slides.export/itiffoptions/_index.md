@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 type: docs
-weight: 4150
+weight: 4170
 url: /tr/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions arayüzü
 
-Sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekler sağlar.
+Bir sunumun TIFF formatında nasıl kaydedileceğini kontrol eden seçenekleri sağlar.
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -19,15 +19,15 @@ public interface ITiffOptions : ISaveOptions
 | Ad | Açıklama |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Renkli bir resmi siyah beyaz bir resme dönüştürmek için algoritmayı belirtir. Bu seçenek yalnızca [`CompressionType`](./compressiontype) CCITT4 veya CCITT3 olarak ayarlandığında uygulanır. Okunur/Yazılabilir [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Varsayılan değer Varsayılan. |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Sıkıştırma türünü belirtir. Okunur/Yazılabilir [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | İnç başına nokta (dpi) cinsinden yatay çözünürlüğü belirtir. Okunur/Yazılabilir UInt32. |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | İnç başına nokta (dpi) cinsinden dikey çözünürlüğü belirtir. Okunur/Yazılabilir UInt32. |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Oluşturulan TIFF görüntüsünün boyutunu belirtir. Varsayılan değer 0x0'dır; bu, oluşturulan görüntü boyutlarının sunum slaytı boyut değerine göre hesaplanacağı anlamına gelir. Okunur/Yazılabilir Size. |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Oluşturulan görüntüler için piksel formatını belirtir. Okunur/Yazılabilir [`ImagePixelFormat`](../imagepixelformat). |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirtir. Varsayılan değer `false`. |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Sunum dışa aktarılırken slaytların sayfada yerleştirileceği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | Renkli bir resmi siyah beyaz bir resme dönüştürmek için kullanılan algoritmayı belirler. Bu seçenek yalnızca [`CompressionType`](./compressiontype) CCITT4 veya CCITT3 olarak ayarlandığında uygulanır. Okunur/Yazılır [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Varsayılan değer Default'tir. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | Sıkıştırma türünü belirtir. Okunur/Yazılır [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | Yatay çözünürlüğü inç başına nokta (dpi) olarak belirtir. Okunur/Yazılır UInt32. |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | Dikey çözünürlüğü inç başına nokta (dpi) olarak belirtir. Okunur/Yazılır UInt32. |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | Oluşturulan TIFF görüntüsünün boyutunu belirtir. Varsayılan değer 0x0'dır; bu, oluşturulan görüntü boyutlarının sunum slaytı boyutuna göre hesaplanacağı anlamına gelir. Okunur/Yazılır Size. |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekleri sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | Oluşturulan görüntüler için piksel biçimini belirtir. Okunur/Yazılır [`ImagePixelFormat`](../imagepixelformat). |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | Oluşturulan belgenin gizli slaytları içerip içermeyeceğini belirler. Varsayılan `false`'dır. |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | Sunumu dışa aktarırken slaytların sayfada yerleştirildiği modu alır veya ayarlar [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Ayrıca Bakınız
 

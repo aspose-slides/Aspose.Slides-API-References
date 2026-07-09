@@ -3,10 +3,10 @@ title: IBehaviorCollection
 second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje kolekcję efektów zachowań.
 type: docs
-weight: 400
+weight: 420
 url: /pl/aspose.slides.animation/ibehaviorcollection/
 ---
-## IBehaviorCollection interfejs
+## interfejs IBehaviorCollection
 
 Reprezentuje kolekcję efektów zachowań.
 
@@ -18,9 +18,9 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. Tylko do odczytu IEnumerable. |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Zwraca liczbę zachowań w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Zwraca zachowanie pod wskazanym indeksem. |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | Zwraca interfejs IEnumerable. IEnumerable tylko do odczytu. |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | Zwraca liczbę zachowań w kolekcji. Int32 tylko do odczytu. |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | Zwraca zachowanie pod określonym indeksem. |
 
 ## Metody
 
@@ -30,9 +30,9 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | Usuwa wszystkie zachowania z kolekcji. |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | Określa, czy ICollection zawiera określoną wartość. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | Określa indeks określonego elementu w IList. |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Wstawia nowe zachowanie do kolekcji pod wskazanym indeksem. |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | Wstawia nowe zachowanie do kolekcji pod określonym indeksem. |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | Usuwa określone zachowanie z kolekcji. |
-| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Usuwa zachowanie z kolekcji pod wskazanym indeksem. |
+| [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | Usuwa zachowanie z kolekcji pod określonym indeksem. |
 
 ### Zobacz także
 

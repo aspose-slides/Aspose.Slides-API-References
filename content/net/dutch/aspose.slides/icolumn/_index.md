@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Maakt het mogelijk de basis IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Maakt het mogelijk de basis ICellCollection interface op te halen. Alleen-lezen [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Geeft het ColumnFormat-object terug dat opmaak-eigenschappen voor deze kolom bevat. Alleen-lezen [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Geeft de breedte van een kolom terug of stelt deze in. Lezen/schrijven Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Staat toe om de basis IBulkTextFormattable interface op te halen. Alleen-lezen [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Staat toe om de basis ICellCollection interface op te halen. Alleen-lezen [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Geeft het ColumnFormat-object retour dat opmaakeigenschappen voor deze kolom bevat. Alleen-lezen [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Geeft de breedte van een kolom terug of stelt deze in. Lezen/Schrijven Double. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IParagraph
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트 단락을 나타냅니다.
+description: 텍스트의 단락을 나타냅니다.
 type: docs
 weight: 6560
 url: /ko/aspose.slides/iparagraph/
 ---
 ## IParagraph 인터페이스
 
-텍스트 단락을 나타냅니다.
+텍스트의 단락을 나타냅니다.
 
 ```csharp
 public interface IParagraph : ISlideComponent
@@ -16,21 +16,21 @@ public interface IParagraph : ISlideComponent
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/iparagraph/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
-| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 마지막 부분 뒤에 다른 부분이 삽입될 경우 사용될 부분 속성을 지정합니다. |
-| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 이 단락에 대한 서식 객체를 반환합니다. 읽기 전용 [`IParagraphFormat`](../iparagraphformat). |
+| [EndParagraphPortionFormat](../../aspose.slides/iparagraph/endparagraphportionformat) { get; set; } | 마지막 부분 뒤에 다른 부분이 삽입될 경우 사용할 부분 속성을 지정합니다. |
+| [ParagraphFormat](../../aspose.slides/iparagraph/paragraphformat) { get; } | 이 단락의 서식 개체를 반환합니다. 읽기 전용 [`IParagraphFormat`](../iparagraphformat). |
 | [Portions](../../aspose.slides/iparagraph/portions) { get; } | 텍스트 부분의 컬렉션을 반환합니다. 읽기 전용 [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 단락의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 String. |
+| [Text](../../aspose.slides/iparagraph/text) { get; set; } | 단락의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 문자열. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 단락의 라인 수를 가져옵니다. |
-| [GetRect](../../aspose.slides/iparagraph/getrect)() | 단락을 둘러싼 사각형의 좌표를 가져옵니다. 이 사각형에는 빈 라인을 포함한 모든 텍스트 라인이 포함됩니다. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 같은 서식을 가진 실행을 결합합니다. |
+| [GetLinesCount](../../aspose.slides/iparagraph/getlinescount)() | 단락의 줄 수를 가져옵니다. |
+| [GetRect](../../aspose.slides/iparagraph/getrect)() | 단락을 둘러싼 사각형의 좌표를 가져옵니다. 사각형에는 빈 줄을 포함한 단락의 모든 텍스트 줄이 포함됩니다. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/iparagraph/joinportionswithsameformatting)() | 동일한 서식을 가진 실행을 결합합니다. |
 
 ### 참조
 

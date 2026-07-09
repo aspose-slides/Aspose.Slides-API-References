@@ -14,18 +14,18 @@ Stelt HTML5-exportopties voor.
 public interface IHtml5Options : ISaveOptions
 ```
 
-## Eigenschappen
+## Properties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Geeft de animatie-optie voor shapes terug of stelt deze in. Lezen/schrijven Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Geeft de animatie-optie voor transitions terug of stelt deze in. Lezen/schrijven Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Retourneert ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Geeft een waarde terug of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde uitvoer. Standaard staat deze eigenschap ingesteld op `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Geeft de optie voor het insluiten van afbeeldingen terug of stelt deze in. Lezen/schrijven Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Bepaalt waar externe bronnen moeten worden opgeslagen. Lezen/schrijven String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor. Lezen/schrijven [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Geeft de modus terug of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Geeft de animatie-optie voor vormen terug of stelt deze in. Lezen/Schrijven Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Geeft de animatie-optie voor overgangen terug of stelt deze in. Lezen/Schrijven Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Geeft de ISaveOptions interface terug. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Haalt een waarde op of stelt deze in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde output. Standaard is deze eigenschap ingesteld op `false`. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Geeft de optie voor het insluiten van afbeeldingen terug of stelt deze in. Lezen/Schrijven Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Bepaalt waar externe bronnen moeten worden opgeslagen. Lezen/Schrijven String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor. Lezen/Schrijven [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Haalt de modus op of stelt deze in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Voorbeelden
 

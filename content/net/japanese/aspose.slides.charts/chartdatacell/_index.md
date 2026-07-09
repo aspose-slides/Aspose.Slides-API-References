@@ -1,9 +1,9 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: チャート データのセルを表します。
 type: docs
-weight: 1300
+weight: 1320
 url: /ja/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell クラス
@@ -19,20 +19,20 @@ public class ChartDataCell : IChartDataCell
 | 名前 | 説明 |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | ワークシートを取得します。読み取り専用 [`IChartDataWorksheet`](../ichartdataworksheet)。 |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | セルが配置されているワークシートの列のインデックスを返します。読み取り専用 Int32。 |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | 数値と日付のカスタム表示形式を取得または設定します。値が空の場合は PresetNumberFormat の値が使用されます。読み取り/書き込み String。 |
-| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1 スタイルの数式を取得または設定します。 |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | セルが位置するワークシートの列インデックスを返します。読み取り専用 Int32。 |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | 数値と日付のカスタム表示形式を取得または設定します。値が空の場合は PresetNumberFormat の値が使用されます。読み書き可能 String。 |
+| [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1 形式の数式を取得または設定します。 |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | セルが非表示かどうかを判定します。読み取り専用 Boolean。 |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 数値と日付の組み込み表示形式を取得または設定します。プリセット番号は [0..22] または [37..49] の範囲である必要があります。読み取り/書き込み Byte。 |
-| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1 スタイルの数式を取得または設定します。 |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | セルが配置されているワークシートの行のインデックスを返します。読み取り専用 Int32。 |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | セルの値を取得または設定します。読み取り/書き込み Object。 |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 数値と日付の組み込み表示形式を取得または設定します。プリセット番号は [0..22] または [37..49] の範囲でなければなりません。読み書き可能 Byte。 |
+| [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1 形式の数式を取得または設定します。 |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | セルが位置するワークシートの行インデックスを返します。読み取り専用 Int32。 |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | セルの値を取得または設定します。読み書き可能 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | セルに数式が含まれている場合、値はその数式に基づいて更新されます。 |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | セルに数式が含まれている場合、その数式に基づいて値が更新されます。 |
 
 ### 参照
 

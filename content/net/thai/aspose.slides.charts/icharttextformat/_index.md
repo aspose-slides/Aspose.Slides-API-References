@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แผนภูมิทำงานด้วยชุดคุณลักษณะรูปแบบข้อความที่จำกัด. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat อินเทอร์เฟซอธิบายชุดจำกัดนี้.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แผนภูมิดำเนินการด้วยชุดจำกัดของคุณสมบัติรูปแบบข้อความ. อินเทอร์เฟซ IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat อธิบายชุดจำกัดนี้.
 type: docs
 weight: 1990
 url: /th/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat อินเทอร์เฟซ
 
-Chart ทำงานด้วยชุดคุณลักษณะรูปแบบข้อความที่จำกัด. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat อินเทอร์เฟซอธิบายชุดจำกัดนี้.
+แผนภูมิจัดการด้วยชุดจำกัดของคุณสมบัติรูปแบบข้อความ. อินเทอร์เฟซ IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat อธิบายชุดจำกัดนี้.
 
 ```csharp
 public interface IChartTextFormat
@@ -22,7 +22,7 @@ public interface IChartTextFormat
 | [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | คืนค่ารูปแบบส่วน. อ่านอย่างเดียว [`IChartPortionFormat`](../ichartportionformat). |
 | [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | คืนค่ารูปแบบสำหรับองค์ประกอบข้อความของแผนภูมิ. อ่านอย่างเดียว [`IChartTextBlockFormat`](../icharttextblockformat). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

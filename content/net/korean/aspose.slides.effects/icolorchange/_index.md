@@ -1,14 +1,14 @@
 ---
 title: IColorChange
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 색상 변경 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Color Change 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
 type: docs
 weight: 3220
 url: /ko/aspose.slides.effects/icolorchange/
 ---
 ## IColorChange 인터페이스
 
-색상 변경 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
+Color Change 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
 
 ```csharp
 public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>, 
@@ -24,7 +24,7 @@ public interface IColorChange : IAccessiblePVIObject<IColorChangeEffectiveData>,
 | [FromColor](../../aspose.slides.effects/icolorchange/fromcolor) { get; } | 교체될 색상입니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](../../aspose.slides.effects/icolorchange/tocolor) { get; } | 교체할 색상입니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IColorChangeEffectiveData](../icolorchangeeffectivedata)

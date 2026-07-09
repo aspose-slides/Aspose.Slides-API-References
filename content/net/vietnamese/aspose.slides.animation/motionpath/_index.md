@@ -1,14 +1,14 @@
 ---
 title: MotionPath
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho đường chuyển động.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn đường di chuyển.
 type: docs
 weight: 690
 url: /vi/aspose.slides.animation/motionpath/
 ---
-## Lớp MotionPath
+## MotionPath lớp
 
-Đại diện cho đường chuyển động.
+Biểu diễn đường di chuyển.
 
 ```csharp
 public class MotionPath : IMotionPath
@@ -24,18 +24,18 @@ public class MotionPath : IMotionPath
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Trả về số lượng đường trong bộ sưu tập. Chỉ đọc Int32. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | Trả về số lượng đường dẫn trong bộ sưu tập. Chỉ đọc Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | Trả về một lệnh tại chỉ mục đã chỉ định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Thêm lệnh mới vào đường |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Thêm lệnh mới vào đường dẫn |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Xóa tất cả các lệnh khỏi bộ sưu tập. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Trả về một enumerator để duyệt qua bộ sưu tập. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Chèn lệnh mới vào đường |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Xóa các lệnh đã chỉ định khỏi bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Chèn lệnh mới vào đường dẫn |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Xóa các lệnh được chỉ định khỏi bộ sưu tập. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Xóa một lệnh tại chỉ mục đã chỉ định. |
 
 ### Xem thêm

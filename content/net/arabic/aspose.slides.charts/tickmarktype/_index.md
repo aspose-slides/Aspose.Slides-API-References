@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل نوع العلامة الفاصلة للمحور المحدد.
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يمثل نوع علامة التقطيع للمحور المحدد.
 type: docs
 weight: 2450
 url: /ar/aspose.slides.charts/tickmarktype/
 ---
-## TickMarkType تعداد
+## TickMarkType التعداد
 
-يمثل نوع العلامة الفاصلة للمحور المحدد.
+يمثّل نوع علامة التقطيع للمحور المحدد.
 
 ```csharp
 public enum TickMarkType
@@ -18,12 +18,12 @@ public enum TickMarkType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Cross | `0` | يحدد أن العلامات الفاصلة ستعبر المحور. |
-| Inside | `1` | يحدد أن العلامات الفاصلة ستكون داخل مساحة الرسم. |
-| None | `2` | يحدد أنه لا توجد علامات فاصلة. |
-| Outside | `3` | يحدد أن العلامات الفاصلة ستكون خارج مساحة الرسم. |
+| Cross | `0` | يحدد أن علامات التقطيع يجب أن تتقاطع مع المحور. |
+| Inside | `1` | يحدد أن علامات التقطيع يجب أن تكون داخل منطقة الرسم. |
+| None | `2` | يحدد عدم وجود أي علامات التقطيع. |
+| Outside | `3` | يحدد أن علامات التقطيع يجب أن تكون خارج منطقة الرسم. |
 
-### انظر أيضا
+### انظر أيضًا
 
 * النطاق [Aspose.Slides.Charts](../../aspose.slides.charts)
 * التجميع [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe een wiskundige wortel te maken
+description: Staat toe een wiskundige radical te maken
 type: docs
 weight: 8440
 url: /nl/aspose.slides.mathtext/imathradicalfactory/
 ---
 ## IMathRadicalFactory interface
 
-Staat toe een wiskundige wortel te maken
+Staat toe een wiskundige radical te maken
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,7 +18,7 @@ public interface IMathRadicalFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Maakt een wiskundige wortel |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Creëert een wiskundige radical |
 
 ### Opmerkingen
 

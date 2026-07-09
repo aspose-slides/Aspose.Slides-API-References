@@ -1,6 +1,6 @@
 ---
 title: FrameTickEventArgs
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 FrameTick./presentationplayer/frametick 事件的參數。
 type: docs
 weight: 3810
@@ -24,7 +24,7 @@ public class FrameTickEventArgs
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | 取得目前的 [`PresentationPlayer`](../presentationplayer) 框架。 |
+| [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | 取得目前的 [`PresentationPlayer`](../presentationplayer) 影格。 |
 
 ### 範例
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

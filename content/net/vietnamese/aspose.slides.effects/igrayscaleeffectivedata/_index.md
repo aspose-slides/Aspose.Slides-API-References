@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng sang một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đối tượng bất biến đại diện cho hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám tương ứng với độ sáng của chúng. Các giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 type: docs
 weight: 3350
 url: /vi/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho một hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng sang một sắc độ xám, tương ứng với độ sáng của chúng. Giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
+Đối tượng bất biến đại diện cho hiệu ứng Đen trắng. Chuyển đổi tất cả các giá trị màu của hiệu ứng thành một sắc độ xám, tương ứng với độ sáng của chúng. Giá trị alpha (độ trong suốt) của hiệu ứng không bị ảnh hưởng.
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData

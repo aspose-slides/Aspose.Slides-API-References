@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes için .NET API Referansı
-description: Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağlı düzen slaytlarında ve bağlı slaytlarda bulunan yer tutucular anlamına gelir. Bağlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Ana slayt altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır.
 type: docs
-weight: 6420
+weight: 6440
 url: /tr/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager arayüz
 
-Ana slayt altbilgi, tarih-saat, sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır.
+Ana slayt altbilgi, tarih-saat ve sayfa numarası yer tutucularının ve tüm alt yer tutucularının davranışını tutan yöneticiyi temsil eder. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,13 +24,13 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ana slayt tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana slayt tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ana slayt altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına metin ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana slayt altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana slayt sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağlıdır. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Metni ana slayt tarih-saat yer tutucusuna ve tüm alt tarih-saat yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Ana slayt tarih-saat yer tutucusunun ve tüm alt tarih-saat yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Metni ana slayt altbilgi yer tutucusuna ve tüm alt altbilgi yer tutucularına ayarlar. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Ana slayt altbilgi yer tutucusunun ve tüm alt altbilgi yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzen slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Ana slayt sayfa numarası yer tutucusunun ve tüm alt sayfa numarası yer tutucularının görünürlüğünü değiştirir. Alt yer tutucular, bağımlı düzene slaytları ve bağımlı slaytlarda bulunan yer tutucular anlamına gelir. Bağımlı düzen slaytları ve slaytlar ana slaytı kullanır ve ona bağımlıdır. |
 
-### Diğer Bağlantılar
+### İlgili
 
 * arayüz [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

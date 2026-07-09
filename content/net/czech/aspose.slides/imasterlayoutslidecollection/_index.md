@@ -1,9 +1,9 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje kolekci všech rozložení snímků definovaného hlavního snímku. Rozšiřuje rozhraní ILayoutSlideCollection metodami pro přidávání/vkládání/odstraňování/klonování rozložení snímků v kontextu jednotlivých kolekcí rozložení hlavních snímků.
+description: Reprezentuje kolekci všech rozložení snímků definovaného hlavního snímku. Rozšiřuje rozhraní ILayoutSlideCollection metodami pro přidávání, vkládání, odstraňování a klonování rozložení snímků v kontextu jednotlivých kolekcí rozložení hlavních snímků.
 type: docs
-weight: 6360
+weight: 6380
 url: /cs/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection rozhraní
@@ -26,10 +26,10 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 | --- | --- |
 | [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | Přidá nové rozložení snímku na konec kolekce. |
 | [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | Přidá kopii určeného rozložení snímku na konec kolekce. |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Vloží nové rozložení snímku do určené pozice v kolekci. |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Vloží kopii určeného rozložení snímku do určené pozice v kolekci. |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Vloží nové rozložení snímku na určenou pozici v kolekci. |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Vloží kopii určeného rozložení snímku na určenou pozici v kolekci. |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | Odstraní prvek na určeném indexu v kolekci. |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Přesune rozložení snímku z kolekce do určené pozice. |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | Přesune rozložení snímku v kolekci na určenou pozici. |
 
 ### Viz také
 

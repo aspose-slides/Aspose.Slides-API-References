@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar typer av punkter i en animations rörelsebana.
+description: Representerar typer av punkter i en animerad rörelsebana.
 type: docs
-weight: 690
+weight: 710
 url: /sv/aspose.slides.animation/motionpathpointstype/
 ---
-## MotionPathPointsType-enumeration
+## MotionPathPointsType enum
 
-Representerar typer av punkter i en animations rörelsebana.
+Representerar typer av punkter i en animerad rörelsebana.
 
 ```csharp
 public enum MotionPathPointsType
@@ -28,7 +28,7 @@ public enum MotionPathPointsType
 | CurveStraight | `7` |  |
 | CurveSmooth | `8` |  |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

@@ -1,20 +1,20 @@
 ---
 title: BrowsedByIndividual
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Blader per individu venster
+description: Individueel bekeken venster
 type: docs
 weight: 1050
 url: /nl/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual klasse
 
-Blader per individu (venster)
+Door individu bekeken (venster)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |

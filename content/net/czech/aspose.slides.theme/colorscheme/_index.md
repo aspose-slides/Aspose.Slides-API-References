@@ -3,12 +3,12 @@ title: ColorScheme
 second_title: Aspose.Sildes pro .NET API Reference
 description: Ukládá barvy definované motivem.
 type: docs
-weight: 11050
+weight: 11070
 url: /cs/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme třída
 
-Stores theme-defined colors.
+Ukládá barvy definované motivem.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -18,16 +18,16 @@ public class ColorScheme : IColorScheme
 
 | Název | Popis |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | První akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Druhá akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Třetí akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Čtvrtá akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Pátá akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Šestá akcentní barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | První akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Druhá akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Třetí akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Čtvrtá akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Pátá akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Šestá akcentová barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | První tmavá barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Druhá tmavá barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Barva pro navštívené hypertextové odkazy. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Barva pro hypertextové odkazy. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Barva navštívených hypertextových odkazů. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Barva hypertextových odkazů. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Získá prvek na zadaném indexu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | První světlá barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Druhá světlá barva ve schématu. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |

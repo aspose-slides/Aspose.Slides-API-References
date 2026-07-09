@@ -1,7 +1,7 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक TextFrame का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक TextFrame को दर्शाता है।
 type: docs
 weight: 7270
 url: /hi/aspose.slides/itextframe/
@@ -18,27 +18,27 @@ public interface ITextFrame : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ISlideComponent`](../islidecomponent)। |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | फ्रेम में शामिल हाइपरलिंक्स तक आसान पहुँच प्रदान करता है। केवल पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries)। |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | फ्रेम में सभी पैराग्राफ की सूची लौटाता है। केवल पढ़ने योग्य [`IParagraphCollection`](../iparagraphcollection)। |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | यदि पैरेंट ऑब्जेक्ट ICell इंटरफ़ेस को लागू नहीं करता है तो पैरेंट सेल या null लौटाता है। केवल पढ़ने योग्य [`ICell`](../icell)। |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | यदि पैरेंट ऑब्जेक्ट IShape इंटरफ़ेस को लागू नहीं करता है तो पैरेंट आकार या null लौटाता है। केवल पढ़ने योग्य [`IShape`](../ishape)। |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | TextFrame के लिए साधारण टेक्स्ट को प्राप्त या सेट करता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | इस TextFrame ऑब्जेक्ट के लिए फॉर्मेटिंग ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`ITextFrameFormat`](../itextframeformat)। |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | बेस ISlideComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | संलग्न हाइपरलिंक तक आसान पहुँच प्रदान करता है। केवल-पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | फ़्रेम में सभी पैराग्राफ़ों की सूची लौटाता है। केवल-पढ़ने योग्य [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | पैरेंट सेल लौटाता है या null यदि पैरेंट ऑब्जेक्ट ICell इंटरफ़ेस लागू नहीं करता। केवल-पढ़ने योग्य [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | पैरेंट शेड लौटाता है या null यदि पैरेंट ऑब्जेक्ट IShape इंटरफ़ेस लागू नहीं करता। केवल-पढ़ने योग्य [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | TextFrame के लिए साधारण पाठ प्राप्त या सेट करता है। पढ़ने/लिखने योग्य String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | इस TextFrame ऑब्जेक्ट के लिए फॉर्मेटिंग ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`ITextFrameFormat`](../itextframeformat). |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट रंग के साथ हाइलाइट करता है। |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | उदाहरण पाठ के सभी मिलानों को निर्दिष्ट रंग के साथ हाइलाइट करता है। |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | उदाहरण पाठ के सभी मिलानों को निर्दिष्ट रंग के साथ हाइलाइट करता है। |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | सभी पैराग्राफ में समान फ़ॉर्मेटिंग वाले रन को जोड़ता है। |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | नियमित अभिव्यक्ति के सभी मिलानों को निर्दिष्ट स्ट्रिंग से बदलता है। |
-| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | निर्दिष्ट टेक्स्ट की सभी उपस्थिति को दूसरे निर्दिष्ट टेक्स्ट से बदलता है। |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) की टेक्स्ट सामग्री को स्ट्रिंग्स की एक ऐरे में विभाजित करता है, जहाँ प्रत्येक तत्व फ्रेम के भीतर एक अलग टेक्स्ट कॉलम के अनुरूप होता है। |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | निर्दिष्ट रंग के साथ नियमित अभिव्यक्ति के सभी मिलान को हाइलाइट करता है। |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | नमूना पाठ के सभी मिलान को निर्दिष्ट रंग के साथ हाइलाइट करता है। |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | नमूना पाठ के सभी मिलान को निर्दिष्ट रंग के साथ हाइलाइट करता है। |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | सभी पैराग्राफ़ों में समान फॉर्मेटिंग वाले रन को जोड़ता है। |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | नियमित अभिव्यक्ति के सभी मिलान को निर्दिष्ट स्ट्रिंग से बदलता है। |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | निर्दिष्ट पाठ की सभी घटनाओं को दूसरी निर्दिष्ट पाठ से बदलता है। |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) की टेक्स्ट सामग्री को स्ट्रिंग्स की एक एरे में विभाजित करता है, जहाँ प्रत्येक तत्व फ्रेम के भीतर एक अलग टेक्स्ट कॉलम से मेल खाता है। |
 
-### देखें
+### देखें भी
 
 * इंटरफ़ेस [ISlideComponent](../islidecomponent)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

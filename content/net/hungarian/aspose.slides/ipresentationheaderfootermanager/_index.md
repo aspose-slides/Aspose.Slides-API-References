@@ -1,14 +1,14 @@
 ---
 title: IPresentationHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Referenciája
-description: Az a menedzser, amely a prezentáció összes lábléc-, dátum-idő- és oldalszám helyőrzőjének viselkedését tartalmazza.
+second_title: Aspose.Sildes .NET API Referencia
+description: A prezentáció összes lábléc-dátum-idő- és oldalszám-helyőrzőjének viselkedését kezelő menedzser.
 type: docs
-weight: 6760
+weight: 6780
 url: /hu/aspose.slides/ipresentationheaderfootermanager/
 ---
 ## IPresentationHeaderFooterManager interfész
 
-A prezentáció összes lábléc-, dátum-idő- és oldalszámhelyőrzőjének viselkedését tartalmazó menedzser.
+A prezentáció összes lábléc-, dátum-idő- és oldalszám-helyőrzőjének viselkedését kezelő menedzser.
 
 ```csharp
 public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
@@ -24,14 +24,14 @@ public interface IPresentationHeaderFooterManager : IBaseHeaderFooterManager
 
 | Név | Leírás |
 | --- | --- |
-| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Beállítja a szöveget az összes dátum-idő helyőrzőben, beleértve a mesterdiákat, az elrendezésdiákat és a diákat. |
-| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Megváltoztatja az összes dátum-idő helyőrző láthatóságát, beleértve a mesterdiákat, az elrendezésdiákat és a diákat. |
-| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Beállítja a szöveget az összes lábléc helyőrzőben, beleértve a mesterdiákat, az elrendezésdiákat és a diákat. |
-| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Megváltoztatja az összes lábléc helyőrző láthatóságát, beleértve a mesterdiákat, az elrendezésdiákat és a diákat. |
-| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Beállítja a szöveget az összes fejléc helyőrzőben, beleértve a jegyzetmester-diát, a jegyzetdiákat és a szórólapmester-diát. |
-| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Megváltoztatja az összes fejléc helyőrző láthatóságát, beleértve a jegyzetmester-diát, a jegyzetdiákat és a szórólapmester-diát. |
-| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Megváltoztatja az összes oldalszám helyőrző láthatóságát, beleértve a mesterdiákat, az elrendezésdiákat és a diákat. |
-| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Megváltoztatja a lábléc, dátum-idő és oldalszám helyőrzők láthatóságát az összes cím dia és az első elrendezés dia esetén. Cím dia – az első elrendezés diára épülő diák (függetlenül attól, hogy ez az első elrendezés milyen típusú). |
+| [SetAllDateTimesText](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimestext)(string) | Beállítja a szöveget az összes date-time helyőrzőre, beleértve a master slides-et, layout slides-et és slides-et. |
+| [SetAllDateTimesVisibility](../../aspose.slides/ipresentationheaderfootermanager/setalldatetimesvisibility)(bool) | Módosítja az összes date-time helyőrző láthatóságát, beleértve a master slides-et, layout slides-et és slides-et. |
+| [SetAllFootersText](../../aspose.slides/ipresentationheaderfootermanager/setallfooterstext)(string) | Beállítja a szöveget az összes footer helyőrzőre, beleértve a master slides-et, layout slides-et és slides-et. |
+| [SetAllFootersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility)(bool) | Módosítja az összes footer helyőrző láthatóságát, beleértve a master slides-et, layout slides-et és slides-et. |
+| [SetAllHeadersText](../../aspose.slides/ipresentationheaderfootermanager/setallheaderstext)(string) | Beállítja a szöveget az összes header helyőrzőre, beleértve a notes master-t, notes slides-et és handout master-t. |
+| [SetAllHeadersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallheadersvisibility)(bool) | Módosítja az összes header helyőrző láthatóságát, beleértve a notes master-t, notes slides-et és handout master-t. |
+| [SetAllSlideNumbersVisibility](../../aspose.slides/ipresentationheaderfootermanager/setallslidenumbersvisibility)(bool) | Módosítja az összes page number helyőrző láthatóságát, beleértve a master slides-et, layout slides-et és slides-et. |
+| [SetVisibilityOnAllTitleSlides](../../aspose.slides/ipresentationheaderfootermanager/setvisibilityonalltitleslides)(bool) | Módosítja a footer, date-time és page number helyőrzők láthatóságát minden title slide-nél és az első layout slide-nél. A title slide-k – azok a slide-ok, amelyek az első layout slide-on alapulnak (függetlenül az első layout típusától). |
 
 ### Lásd még
 

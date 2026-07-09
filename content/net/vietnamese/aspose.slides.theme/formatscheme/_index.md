@@ -1,14 +1,14 @@
 ---
 title: FormatScheme
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Lưu trữ các định dạng được xác định theo giao diện cho các hình dạng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Lưu trữ các định dạng được xác định bởi chủ đề cho các hình dạng.
 type: docs
 weight: 11140
 url: /vi/aspose.slides.theme/formatscheme/
 ---
-## lớp FormatScheme
+## FormatScheme lớp
 
-Lưu trữ các định dạng được xác định theo giao diện cho các hình dạng.
+Lưu trữ các định dạng được xác định bởi chủ đề cho các hình dạng.
 
 ```csharp
 public class FormatScheme : IFormatScheme
@@ -18,10 +18,10 @@ public class FormatScheme : IFormatScheme
 
 | Tên | Mô tả |
 | --- | --- |
-| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Trả về một bộ sưu tập các kiểu nền được định nghĩa theo giao diện. Chỉ đọc [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Trả về một bộ sưu tập các kiểu hiệu ứng được định nghĩa theo giao diện. Chỉ đọc [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Trả về một bộ sưu tập các kiểu tô màu được định nghĩa theo giao diện. Chỉ đọc [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Trả về một bộ sưu tập các kiểu đường được định nghĩa theo giao diện. Chỉ đọc [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/formatscheme/backgroundfillstyles) { get; } | Trả về một bộ sưu tập các kiểu nền được xác định bởi chủ đề. Chỉ đọc [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/formatscheme/effectstyles) { get; } | Trả về một bộ sưu tập các kiểu hiệu ứng được xác định bởi chủ đề. Chỉ đọc [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/formatscheme/fillstyles) { get; } | Trả về một bộ sưu tập các kiểu tô đầy được xác định bởi chủ đề. Chỉ đọc [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/formatscheme/linestyles) { get; } | Trả về một bộ sưu tập các kiểu đường được xác định bởi chủ đề. Chỉ đọc [`ILineFormatCollection`](../ilineformatcollection). |
 | [Presentation](../../aspose.slides.theme/formatscheme/presentation) { get; } | Trả về bản trình chiếu cha. Chỉ đọc [`IPresentation`](../../aspose.slides/ipresentation). |
 | [Slide](../../aspose.slides.theme/formatscheme/slide) { get; } | Trả về slide cha. Chỉ đọc [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 

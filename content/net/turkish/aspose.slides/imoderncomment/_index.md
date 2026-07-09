@@ -1,9 +1,9 @@
 ---
 title: IModernComment
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Bir slayttaki yorumu temsil eder.
 type: docs
-weight: 6440
+weight: 6460
 url: /tr/aspose.slides/imoderncomment/
 ---
 ## IModernComment arabirimi
@@ -18,8 +18,8 @@ public interface IModernComment : IComment
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Temel IComment arayüzünü almayı sağlar. Salt okunur [`IComment`](../icomment). |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Yorumla ilişkili bir şekli döndürür. Salt okunur [`IShape`](../ishape). |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | Temel IComment arayüzünü almayı sağlar. Salt-okunur [`IComment`](../icomment). |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | Yorumla ilişkili bir şekil döndürür. Salt-okunur [`IShape`](../ishape). |
 | [Status](../../aspose.slides/imoderncomment/status) { get; set; } | Yorumun durumunu döndürür veya ayarlar. Okunur/yazılabilir [`ModernCommentStatus`](../moderncommentstatus). |
 | [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | Yorum AutoShape ile ilişkiliyse, metin çerçevesindeki metin seçimi uzunluğunu döndürür veya ayarlar. Okunur/yazılabilir Int32. |
 | [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | Yorum AutoShape ile ilişkiliyse, metin çerçevesindeki metin seçiminin başlangıç konumunu döndürür veya ayarlar. Okunur/yazılabilir Int32. |
@@ -37,9 +37,9 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Ayrıca Bakınız
+### Diğer Bilgiler
 
-* arabirim [IComment](../icomment)
+* arayüz [IComment](../icomment)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

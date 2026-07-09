@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes の .NET API リファレンス
-description: 実効フォーマット スキーム プロパティを含む不変オブジェクトです。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: 有効な書式スキームプロパティを含む不変オブジェクトです。
 type: docs
-weight: 11260
+weight: 11280
 url: /ja/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData インターフェイス
 
-実効フォーマット スキーム プロパティを含む不変オブジェクトです。
+有効な書式スキームプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -19,7 +19,7 @@ public interface IFormatSchemeEffectiveData
 | 名前 | 説明 |
 | --- | --- |
 | [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | テーマで定義された背景塗りつぶしスタイルのコレクションを返します。 |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | テーマで定義された効果スタイルのコレクションを返します。 |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | テーマで定義されたエフェクトスタイルのコレクションを返します。 |
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | テーマで定義された塗りつぶしスタイルのコレクションを返します。 |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | テーマで定義された線スタイルのコレクションを返します。 |
 
@@ -27,7 +27,7 @@ public interface IFormatSchemeEffectiveData
 
 このインターフェイスは [`IThemeEffectiveData`](../ithemeeffectivedata) の一部として使用されます。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

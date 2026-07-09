@@ -3,7 +3,7 @@ title: IExcelDataCell
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una singola cella in una cartella di lavoro Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /it/aspose.slides.excel/iexceldatacell/
 ---
 ## IExcelDataCell interfaccia
@@ -18,9 +18,9 @@ public interface IExcelDataCell
 
 | Nome | Descrizione |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Restituisce l'indice basato su zero della colonna nel foglio di lavoro in cui è situata la cella. Solo lettura Int32. |
-| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Restituisce il nome della cella dei dati del grafico. Solo lettura String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Restituisce l'indice basato su zero della riga nel foglio di lavoro in cui è situata la cella. Solo lettura Int32. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Restituisce l'indice base zero della colonna nel foglio di lavoro in cui si trova la cella. Solo lettura Int32. |
+| [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Restituisce il nome della cella di dati del grafico. Solo lettura String. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Restituisce l'indice base zero della riga nel foglio di lavoro in cui si trova la cella. Solo lettura Int32. |
 | [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Restituisce il valore contenuto nella cella Excel. Solo lettura Object. |
 
 ### Vedi anche

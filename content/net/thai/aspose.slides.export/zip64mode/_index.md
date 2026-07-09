@@ -1,12 +1,12 @@
 ---
 title: Zip64Mode
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุว่าเมื่อใดควรใช้ส่วนขยายรูปแบบ ZIP64 สำหรับไฟล์ OpenXML
+description: ระบุว่าเมื่อใดควรใช้ส่วนขยายรูปแบบ ZIP64 สำหรับไฟล์ OpenXML.
 type: docs
 weight: 4740
 url: /th/aspose.slides.export/zip64mode/
 ---
-## Zip64Mode การระบุค่า
+## Zip64Mode enumeration
 
 ระบุว่าเมื่อใดควรใช้ส่วนขยายรูปแบบ ZIP64 สำหรับไฟล์ OpenXML
 
@@ -18,13 +18,13 @@ public enum Zip64Mode
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Never | `0` | Do not use ZIP64 format extensions. |
-| IfNecessary | `1` | Use ZIP64 format extensions if necessary. |
-| Always | `2` | Always use ZIP64 format extensions. |
+| Never | `0` | ไม่ใช้ส่วนขยายรูปแบบ ZIP64 |
+| IfNecessary | `1` | ใช้ส่วนขยายรูปแบบ ZIP64 หากจำเป็น |
+| Always | `2` | ใช้ส่วนขยายรูปแบบ ZIP64 เสมอ |
 
 ### หมายเหตุ
 
-ไฟล์ OpenXML เป็นไฟล์ ZIP-archive ที่มีขีดจำกัดขนาด 4 GB (2^32 ไบต์) สำหรับขนาดไฟล์ที่ไม่ได้บีบอัด, ขนาดไฟล์ที่บีบอัด, และขนาดรวมของไฟล์เก็บ, รวมถึงขีดจำกัดจำนวนไฟล์ในเก็บที่ 65,535 (2^16-1) ไฟล์. ส่วนขยายรูปแบบ ZIP64 จะเพิ่มขีดจำกัดเหล่านี้เป็น 2^64.
+ไฟล์ OpenXML เป็น ZIP-archive ที่มีขีดจำกัดขนาด 4 GB (2^32 ไบต์) สำหรับขนาดที่ไม่ได้บีบอัดของไฟล์, ขนาดที่บีบอัดของไฟล์, และขนาดรวมของคอมเพรสชัน, รวมถึงขีดจำกัดจำนวนไฟล์ในคอมเพรสชันที่ 65 535 (2^16-1) ไฟล์. ส่วนขยายรูปแบบ ZIP64 เพิ่มขีดจำกัดเหล่านี้เป็น 2^64
 
 ### ดูเพิ่มเติม
 

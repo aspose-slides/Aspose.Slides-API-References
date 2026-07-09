@@ -1,6 +1,6 @@
 ---
 title: GradientFormat
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET용 API 참조
 description: 그라디언트 형식을 나타냅니다.
 type: docs
 weight: 5000
@@ -21,19 +21,19 @@ public sealed class GradientFormat : PVIObject, IGradientFormat
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
 | [GradientDirection](../../aspose.slides/gradientformat/gradientdirection) { get; set; } | 그라디언트의 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/gradientformat/gradientshape) { get; set; } | 그라디언트의 모양을 반환하거나 설정합니다. 읽기/쓰기 [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | 그라디언트 스톱 컬렉션을 반환합니다. 읽기 전용 [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/gradientformat/gradientstops) { get; } | 그라디언트 정지점 컬렉션을 반환합니다. 읽기 전용 [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/gradientformat/lineargradientangle) { get; set; } | 그라디언트의 각도를 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 그라디언트가 스케일링되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 그라디언트의 뒤집기 모드를 반환하거나 설정합니다. 읽기/쓰기 [`TileFlip`](../tileflip). |
+| [LinearGradientScaled](../../aspose.slides/gradientformat/lineargradientscaled) { get; set; } | 그라디언트가 스케일링되는지를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/gradientformat/tileflip) { get; set; } | 그라디언트의 플리핑 모드를 반환하거나 설정합니다. 읽기/쓰기 [`TileFlip`](../tileflip). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 object와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참조
+### 참고
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IGradientFormat](../igradientformat)

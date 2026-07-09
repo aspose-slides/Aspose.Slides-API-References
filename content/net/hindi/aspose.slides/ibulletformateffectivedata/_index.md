@@ -1,14 +1,14 @@
 ---
 title: IBulletFormatEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो प्रभावी पैराग्राफ बुलेट फ़ॉर्मेटिंग गुणों को सम्मिलित करती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्थायी वस्तु जो प्रभावी पैराग्राफ बुलेट फ़ॉर्मेटिंग गुणों को सम्मिलित करती है।
 type: docs
 weight: 5400
 url: /hi/aspose.slides/ibulletformateffectivedata/
 ---
 ## IBulletFormatEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय वस्तु जो प्रभावी पैराग्राफ बुलेट फ़ॉर्मेटिंग गुणों को समाहित करती है।
+स्थायी वस्तु जो प्रभावी पैराग्राफ बुलेट फ़ॉर्मेटिंग गुणों को समाहित करती है।
 
 ```csharp
 public interface IBulletFormatEffectiveData
@@ -18,24 +18,24 @@ public interface IBulletFormatEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | माता पैराग्राफ के लिए वास्तविक बुलेट मान लौटाता है। केवल-पढ़ने योग्य String। |
+| [ActualBulletValue](../../aspose.slides/ibulletformateffectivedata/actualbulletvalue) { get; } | पैरेंट पैराग्राफ के लिए वास्तविक बुलेट मान लौटाता है। केवल-पढ़ने योग्य String। |
 | [Char](../../aspose.slides/ibulletformateffectivedata/char) { get; } | पैराग्राफ का बुलेट अक्षर लौटाता है। केवल-पढ़ने योग्य Char। |
-| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | पैराग्राफ का बुलेट फ़िल फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../ifillformateffectivedata)। |
+| [FillFormat](../../aspose.slides/ibulletformateffectivedata/fillformat) { get; } | पैराग्राफ का बुलेट फिल फॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IFillFormatEffectiveData`](../ifillformateffectivedata)। |
 | [Font](../../aspose.slides/ibulletformateffectivedata/font) { get; } | पैराग्राफ का बुलेट फ़ॉन्ट लौटाता है। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
-| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | पैराग्राफ का बुलेट ऊँचाई लौटाता है। केवल-पढ़ने योग्य Single। |
-| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | निर्धारित करता है कि बुलेट का अपना रंग है या पैराग्राफ के पहले भाग से विरासत में लेता है। यदि बुलेट का अपना रंग है तो **true** लौटाता है और यदि बुलेट पैराग्राफ के पहले भाग से रंग विरासत में लेता है तो **false** लौटाता है। केवल-पढ़ने योग्य Boolean। |
-| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | निर्धारित करता है कि बुलेट का अपना फ़ॉन्ट है या पैराग्राफ के पहले भाग से विरासत में लेता है। यदि बुलेट का अपना फ़ॉन्ट है तो **true** लौटाता है और यदि बुलेट पैराग्राफ के पहले भाग से फ़ॉन्ट विरासत में लेता है तो **true** लौटाता है। केवल-पढ़ने योग्य Boolean। |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | नंबर वाले बुलेट समूह के लिए उपयोग किया गया पहला संख्या लौटाता है। केवल-पढ़ने योग्य Int16। |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | नंबर वाले बुलेट की शैली लौटाता है। केवल-पढ़ने योग्य [`NumberedBulletStyle`](../numberedbulletstyle)। |
+| [Height](../../aspose.slides/ibulletformateffectivedata/height) { get; } | पैराग्राफ का बुलेट ऊंचाई लौटाता है। केवल-पढ़ने योग्य Single। |
+| [IsBulletHardColor](../../aspose.slides/ibulletformateffectivedata/isbullethardcolor) { get; } | निर्धारित करता है कि बुलेट के पास अपना रंग है या वह पैराग्राफ के पहले हिस्से से रंग विरासत में लेता है। यदि बुलेट के पास अपना रंग है तो **true** लौटाता है और यदि बुलेट पैराग्राफ के पहले हिस्से से रंग विरासत में लेता है तो **false** लौटाता है। केवल-पढ़ने योग्य Boolean। |
+| [IsBulletHardFont](../../aspose.slides/ibulletformateffectivedata/isbullethardfont) { get; } | निर्धारित करता है कि बुलेट के पास अपना फ़ॉन्ट है या वह पैराग्राफ के पहले हिस्से से फ़ॉन्ट विरासत में लेता है। यदि बुलेट के पास अपना फ़ॉन्ट है तो **true** लौटाता है और यदि बुलेट पैराग्राफ के पहले हिस्से से फ़ॉन्ट विरासत में लेता है तो **true** लौटाता है। केवल-पढ़ने योग्य Boolean। |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformateffectivedata/numberedbulletstartwith) { get; } | क्रमांकित बुलेट समूह के लिए उपयोग किए जाने वाला पहला संख्या लौटाता है। केवल-पढ़ने योग्य Int16। |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformateffectivedata/numberedbulletstyle) { get; } | क्रमांकित बुलेट की शैली लौटाता है। केवल-पढ़ने योग्य [`NumberedBulletStyle`](../numberedbulletstyle)। |
 | [Type](../../aspose.slides/ibulletformateffectivedata/type) { get; } | पैराग्राफ का बुलेट प्रकार लौटाता है। केवल-पढ़ने योग्य [`BulletType`](../bullettype)। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) के भाग के रूप में उपयोग किया जाता है।
 
-### संबंधित देखें
+### देखें
 
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

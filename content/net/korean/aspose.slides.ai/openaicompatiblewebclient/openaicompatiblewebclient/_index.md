@@ -1,6 +1,6 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Sildes의 .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다.
 type: docs
 weight: 10
@@ -16,19 +16,19 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| model | String | LLM 공급자가 지원하는 모델 이름입니다. |
-| apiKey | String | API 키(토큰)입니다. |
-| baseUrl | String | OpenAI 호환 LLM의 기본 URL입니다. |
+| model | String | LLM 공급자가 지원하는 모델 이름. |
+| apiKey | String | API 키(토큰). |
+| baseUrl | String | OpenAI 호환 LLM의 기본 URL. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentException | API 키 값이 null이거나 비어 있을 수 없습니다. |
-| ArgumentException | 텍스트 모델 값이 null이거나 비어 있을 수 없습니다. |
-| ArgumentException | Base URL 값이 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | API 키 값은 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | 텍스트 모델 값은 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | Base URL 값은 null이거나 비어 있을 수 없습니다. |
 
-### 참고
+### 참조
 
 * 클래스 [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../openaicompatiblewebclient)
@@ -38,7 +38,7 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl)
 
 ## OpenAICompatibleWebClient(string, string, string, HttpClient) {#constructor_1}
 
-외부에서 관리되는 HttpClient를 사용하는 OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 해제되지 않으며 호출자에게 소유됩니다.
+외부에서 관리되는 HttpClient를 사용하는 OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 해제되지 않으며 호출자에 의해 소유됩니다.
 
 ```csharp
 public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl, HttpClient httpClient)
@@ -46,21 +46,21 @@ public OpenAICompatibleWebClient(string model, string apiKey, string baseUrl, Ht
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| model | String | LLM 공급자가 지원하는 모델 이름입니다. |
-| apiKey | String | API 키(토큰)입니다. |
-| baseUrl | String | OpenAI 호환 LLM의 기본 URL입니다. |
-| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스입니다. |
+| model | String | LLM 공급자가 지원하는 모델 이름. |
+| apiKey | String | API 키(토큰). |
+| baseUrl | String | OpenAI 호환 LLM의 기본 URL. |
+| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentException | API 키 값이 null이거나 비어 있을 수 없습니다. |
-| ArgumentException | 텍스트 모델 값이 null이거나 비어 있을 수 없습니다. |
-| ArgumentException | Base URL 값이 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | API 키 값은 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | 텍스트 모델 값은 null이거나 비어 있을 수 없습니다. |
+| ArgumentException | Base URL 값은 null이거나 비어 있을 수 없습니다. |
 | ArgumentNullException | HttpClient는 null일 수 없습니다. |
 
-### 참고
+### 참조
 
 * 클래스 [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../openaicompatiblewebclient)

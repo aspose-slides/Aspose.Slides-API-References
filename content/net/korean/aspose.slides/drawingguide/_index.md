@@ -1,6 +1,6 @@
 ---
 title: DrawingGuide
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참고 자료
 description: 조정 가능한 그리기 가이드를 나타냅니다.
 type: docs
 weight: 2810
@@ -18,11 +18,11 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | 이름 | 설명 |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 그리기 가이드의 색상을 반환하거나 설정합니다. 읽기/쓰기 Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 그리기 가이드의 방향을 반환하거나 설정합니다. 읽기/쓰기 [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 그리기 가이드의 위치를 슬라이드의 왼쪽 위 코너에서 점 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 그리기 가이드의 색을 반환하거나 설정합니다. Read/write Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 그리기 가이드의 방향을 반환하거나 설정합니다. Read/write [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | 그리기 가이드를 슬라이드의 왼쪽 상단 모서리부터 포인트 단위로 위치를 반환하거나 설정합니다. Read/write Single. |
 
-### 참조
+### 또한 보기
 
 * 인터페이스 [IDrawingGuide](../idrawingguide)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

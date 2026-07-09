@@ -1,14 +1,14 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ HttpClient ที่จัดการโดยภายนอกและคืนข้อความตอบกลับสำหรับคำสั่งที่ระบุ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้ตัวอย่าง HttpClient ที่จัดการจากภายนอกและส่งคืนข้อความตอบกลับสำหรับคำสั่งที่ให้
 type: docs
 weight: 20
 url: /th/aspose.slides.ai/openaicompatiblewebclient/callchatasync/
 ---
 ## OpenAICompatibleWebClient.CallChatAsync เมธอด
 
-ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้อินสแตนซ์ `HttpClient` ที่จัดการโดยภายนอกและคืนข้อความตอบกลับสำหรับคำสั่งที่กำหนด
+ส่งคำสั่งแชทไปยังโมเดล AI โดยใช้ตัวอย่าง `HttpClient` ที่จัดการจากภายนอกและส่งคืนข้อความตอบกลับสำหรับคำสั่งที่ให้
 
 ```csharp
 public Task<string> CallChatAsync(string instruction)
@@ -16,17 +16,17 @@ public Task<string> CallChatAsync(string instruction)
 
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
-| instruction | String | คำสั่งหรือข้อความที่จะถูกประมวลผลโดยโมเดล AI |
+| instruction | String | คำสั่งหรือข้อความที่ต้องประมวลผลโดยโมเดล AI |
 
 ### ค่าที่ส่งกลับ
 
-ข้อความที่โมเดล AI สร้างขึ้นเป็นการตอบสนองต่อคำสั่งที่ระบุ
+ข้อความที่โมเดล AI สร้างขึ้นเพื่อตอบต่อคำสั่งที่ให้
 
 ### ข้อยกเว้น
 
 | ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentException | คำสั่งแชทที่เข้ากันได้กับ OpenAI ไม่สามารถเป็นค่า null หรือว่าง |
+| ArgumentException | คำสั่งแชทแบบเข้ากันได้กับ OpenAI ไม่สามารถเป็นค่า null หรือว่างเปล่า |
 
 ### ดูเพิ่มเติม
 

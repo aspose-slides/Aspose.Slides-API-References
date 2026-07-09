@@ -1,14 +1,14 @@
 ---
 title: MotionPathPointsType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các loại điểm trong đường chuyển động của hoạt ảnh.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn các loại điểm trong đường chuyển động của hoạt hình.
 type: docs
 weight: 710
 url: /vi/aspose.slides.animation/motionpathpointstype/
 ---
-## MotionPathPointsType liệt kê
+## Kiểu liệt kê MotionPathPointsType
 
-Biểu diễn các loại điểm trong đường chuyển động của hoạt ảnh.
+Biểu diễn các loại điểm trong đường chuyển động của hoạt hình.
 
 ```csharp
 public enum MotionPathPointsType

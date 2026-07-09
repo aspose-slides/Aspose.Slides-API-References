@@ -1,14 +1,14 @@
 ---
 title: IFormatScheme
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يخزن التنسيقات المعرفة بالثيم للأشكال.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يخزن التنسيقات المحددة بالثيم للأشكال.
 type: docs
 weight: 11270
 url: /ar/aspose.slides.theme/iformatscheme/
 ---
-## IFormatScheme واجهة
+## واجهة IFormatScheme
 
-يخزن التنسيقات المحددة بواسطة السمة للأشكال.
+يخزن التنسيقات المحددة بالثيم للأشكال.
 
 ```csharp
 public interface IFormatScheme : ISlideComponent
@@ -19,10 +19,10 @@ public interface IFormatScheme : ISlideComponent
 | الاسم | الوصف |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.theme/iformatscheme/asislidecomponent) { get; } | يسمح بالحصول على واجهة ISlideComponent الأساسية. للقراءة فقط [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | يرجع مجموعة من أنماط تعبئة الخلفية المحددة بواسطة السمة. للقراءة فقط [`IFillFormatCollection`](../ifillformatcollection). |
-| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | يرجع مجموعة من أنماط التأثير المحددة بواسطة السمة. للقراءة فقط [`IEffectStyleCollection`](../ieffectstylecollection). |
-| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | يرجع مجموعة من أنماط التعبئة المحددة بواسطة السمة. للقراءة فقط [`IFillFormatCollection`](../ifillformatcollection). |
-| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | يرجع مجموعة من أنماط الخط المحددة بواسطة السمة. للقراءة فقط [`ILineFormatCollection`](../ilineformatcollection). |
+| [BackgroundFillStyles](../../aspose.slides.theme/iformatscheme/backgroundfillstyles) { get; } | إرجاع مجموعة من أنماط تعبئة الخلفية المحددة بالثيم. للقراءة فقط [`IFillFormatCollection`](../ifillformatcollection). |
+| [EffectStyles](../../aspose.slides.theme/iformatscheme/effectstyles) { get; } | إرجاع مجموعة من أنماط التأثير المحددة بالثيم. للقراءة فقط [`IEffectStyleCollection`](../ieffectstylecollection). |
+| [FillStyles](../../aspose.slides.theme/iformatscheme/fillstyles) { get; } | إرجاع مجموعة من أنماط التعبئة المحددة بالثيم. للقراءة فقط [`IFillFormatCollection`](../ifillformatcollection). |
+| [LineStyles](../../aspose.slides.theme/iformatscheme/linestyles) { get; } | إرجاع مجموعة من أنماط الخط المحددة بالثيم. للقراءة فقط [`ILineFormatCollection`](../ilineformatcollection). |
 
 ### انظر أيضًا
 

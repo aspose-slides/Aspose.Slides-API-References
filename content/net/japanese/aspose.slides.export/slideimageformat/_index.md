@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを HTML にエクスポートする際に、スライド画像が保存される形式を決定します。
+description: プレゼンテーションの HTML エクスポート用にスライド画像が保存される形式を決定します。
 type: docs
-weight: 4450
+weight: 4470
 url: /ja/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat クラス
 
-プレゼンテーションを HTML にエクスポートする際に、スライド画像が保存される形式を決定します。
+プレゼンテーションの HTML エクスポート用にスライド画像が保存される形式を決定します。
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -24,10 +24,10 @@ public class SlideImageFormat : ISlideImageFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | スライドをラスター画像に変換します。 |
-| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | スライドを SVG 形式に変換します。 |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | スライドはラスタ画像に変換する必要があります。 |
+| static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | スライドは SVG 形式に変換する必要があります。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [ISlideImageFormat](../islideimageformat)
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,6 +1,6 @@
 ---
 title: FilterEffectRevealType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 필터 표시 유형을 나타냅니다.
 type: docs
 weight: 380
@@ -23,7 +23,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

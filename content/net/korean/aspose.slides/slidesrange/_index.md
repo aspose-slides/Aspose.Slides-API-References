@@ -18,7 +18,7 @@ public class SlidesRange
 
 | 이름 | 설명 |
 | --- | --- |
-| [SlidesRange](slidesrange)() | 기본 생성자. |
+| [SlidesRange](slidesrange)() | 기본 생성자입니다. |
 
 ## 속성
 

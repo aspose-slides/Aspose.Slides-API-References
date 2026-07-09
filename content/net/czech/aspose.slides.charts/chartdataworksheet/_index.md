@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes pro .NET API dokumentaci
-description: Představuje list spojený s IChartDataCell./ichartdatacell
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje list přidružený k IChartDataCell./ichartdatacell
 type: docs
-weight: 1370
+weight: 1390
 url: /cs/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet třída
 
-Představuje list spojený s [`IChartDataCell`](../ichartdatacell)
+Representuje list přidružený k [`IChartDataCell`](../ichartdatacell)
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet

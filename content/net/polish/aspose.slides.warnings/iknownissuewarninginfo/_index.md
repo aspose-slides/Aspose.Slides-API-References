@@ -1,9 +1,9 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla referencji API .NET
 description: Reprezentuje ostrzeżenie o znanym problemie, który nie zostanie naprawiony w najbliższej przyszłości.
 type: docs
-weight: 11740
+weight: 11760
 url: /pl/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo interfejs
@@ -18,7 +18,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Zwraca IWarningInfo interfejs. Tylko do odczytu [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | Zwraca interfejs IWarningInfo. Tylko do odczytu [`IWarningInfo`](../iwarninginfo). |
 
 ### Zobacz także
 

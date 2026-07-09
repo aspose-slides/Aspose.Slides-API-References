@@ -1,14 +1,14 @@
 ---
 title: IBehaviorCollection
-second_title: Aspose.Sildes for .NET API रेफ़रेंस
-description: व्यवहार प्रभावों का संग्रह दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: व्यवहार प्रभावों के संग्रह को दर्शाता है।
 type: docs
 weight: 420
 url: /hi/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection इंटरफ़ेस
 
-व्यवहार प्रभावों के संग्रह का प्रतिनिधित्व करता है।
+व्यवहार प्रभावों का संग्रह दर्शाता है।
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
@@ -18,17 +18,17 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | संग्रह में व्यवहारों की संख्या लौटाता है। केवल पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | निर्दिष्ट अनुक्रमांक पर व्यवहार लौटाता है। |
+| [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
+| [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | संग्रह में व्यवहारों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | निर्दिष्ट अनुक्रमांक पर एक व्यवहार लौटाता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | संग्रह में नया व्यवहार जोड़ता है। |
-| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | संग्रह से सभी व्यवहार हटाता है। |
-| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान मौजूद है या नहीं। |
+| [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | किसी संग्रह में नया व्यवहार जोड़ता है। |
+| [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | सभी व्यवहारों को संग्रह से हटाता है। |
+| [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान है या नहीं। |
 | [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | IList में किसी विशिष्ट आइटम का अनुक्रमांक निर्धारित करता है। |
 | [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | निर्दिष्ट अनुक्रमांक पर संग्रह में नया व्यवहार सम्मिलित करता है। |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | संग्रह से निर्दिष्ट व्यवहार हटाता है। |

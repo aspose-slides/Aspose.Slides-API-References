@@ -1,14 +1,14 @@
 ---
 title: ChartTitle
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti judul grafik.
+description: Mewakili properti judul diagram.
 type: docs
-weight: 1470
+weight: 1490
 url: /id/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle kelas
 
-Mewakili properti judul grafik.
+Mewakili properti judul diagram.
 
 ```csharp
 public class ChartTitle : IChartTitle
@@ -18,32 +18,32 @@ public class ChartTitle : IChartTitle
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Menentukan tinggi aktual elemen grafik. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Menentukan lebar aktual elemen grafik. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen grafik relatif terhadap sudut kiri atas grafik. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Menentukan bagian atas aktual elemen grafik relatif terhadap sudut kiri atas grafik. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Bagian bawah. Hanya-baca Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Mengembalikan grafik induk. Hanya-baca [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Mengembalikan gaya isi, garis, efek judul. Hanya-baca [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Mengembalikan atau mengatur tinggi judul sebagai fraksi tinggi grafik. Baca/tulis Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Menentukan apakah elemen grafik lain diizinkan menutupi judul. Baca/tulis Boolean. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Menentukan tinggi aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Menentukan lebar aktual elemen diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen diagram relatif ke sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Menentukan posisi atas aktual elemen diagram relatif ke sudut kiri atas diagram. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Baca Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Bawah. Hanya-baca Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Mengembalikan diagram induk. Hanya-baca [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Mengembalikan gaya isian, garis, efek judul. Hanya-baca [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Mengembalikan atau mengatur tinggi judul sebagai fraksi tinggi diagram. Baca/tulis Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Menentukan apakah elemen diagram lain diizinkan menimpa judul. Baca/tulis Boolean. |
 | [Right](../../aspose.slides.charts/charttitle/right) { get; } | Kanan. Hanya-baca Single. |
 | [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Mengembalikan format teks. Hanya-baca [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Dapat berisi teks berformat kaya. Jika properti ini tidak null maka nilai teks berformat ini menggantikan teks yang dihasilkan secara otomatis. Teks yang dihasilkan secara otomatis merupakan properti implisit dari label data, label unit tampilan sumbu nilai, judul sumbu, judul grafik, label garis tren. Teks yang dihasilkan secara otomatis diformat dengan properti IFormattedTextContainer.TextFormat. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Mengembalikan atau mengatur lebar judul sebagai fraksi lebar grafik. Baca/tulis Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Mengembalikan atau mengatur koordinat x judul sebagai fraksi lebar grafik. Baca/tulis Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Mengembalikan atau mengatur koordinat y judul sebagai fraksi tinggi grafik. Baca/tulis Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Dapat berisi teks berformat kaya. Jika properti ini tidak null maka nilai teks berformat ini menggantikan teks yang dihasilkan otomatis. Teks yang dihasilkan otomatis merupakan properti implisit label data, label unit tampilan sumbu nilai, judul sumbu, judul diagram, label garis tren. Teks yang dihasilkan otomatis diformat dengan properti IFormattedTextContainer.TextFormat. Hanya-baca [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Mengembalikan atau mengatur lebar judul sebagai fraksi lebar diagram. Baca/tulis Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Mengembalikan atau mengatur koordinat x judul sebagai fraksi lebar diagram. Baca/tulis Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Mengembalikan atau mengatur koordinat y judul sebagai fraksi tinggi diagram. Baca/tulis Single. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Inisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Menginisialisasi TextFrameForOverriding dengan teks pada parameter "text". Jika TextFrameForOverriding sudah diinisialisasi maka cukup mengubah teksnya. |
 
 ### Lihat Juga
 
 * antarmuka [IChartTitle](../icharttitle)
 * ruang nama [Aspose.Slides.Charts](../../aspose.slides.charts)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

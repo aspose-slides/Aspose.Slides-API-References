@@ -1,14 +1,14 @@
 ---
 title: AxisFormat
-second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงคุณสมบัติรูปแบบของแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงคุณสมบัติรูปแบบแผนภูมิ
 type: docs
 weight: 1200
 url: /th/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat คลาส
 
-แสดงถึงคุณสมบัติรูปแบบของแผนภูมิ.
+Represents chart format properties.
 
 ```csharp
 public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
@@ -18,9 +18,9 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | ส่งกลับเอฟเฟกต์ที่ใช้สำหรับแกน. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | ส่งกลับคุณสมบัติรูปแบบการเติมของแกน. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/axisformat/line) { get; } | ส่งกลับคุณสมบัติรูปแบบเส้นของแกน. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/axisformat/effect) { get; } | ส่งคืนเอฟเฟกต์ที่ใช้สำหรับแกน. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | ส่งคืนคุณสมบัติรูปแบบการเติมของแกน. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/axisformat/line) { get; } | ส่งคืนคุณสมบัติรูปแบบเส้นของแกน. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

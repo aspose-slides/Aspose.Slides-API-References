@@ -1,6 +1,6 @@
 ---
 title: IRotation3D
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트의 3D 회전을 나타냅니다.
 type: docs
 weight: 2200
@@ -19,13 +19,13 @@ public interface IRotation3D
 | 이름 | 설명 |
 | --- | --- |
 | [DepthPercents](../../aspose.slides.charts/irotation3d/depthpercents) { get; set; } | 3D 차트의 깊이를 차트 너비에 대한 백분율(20%에서 2000% 사이)로 반환하거나 설정합니다. 읽기/쓰기 UInt16. |
-| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 3D 차트의 높이를 차트 너비에 대한 백분율(5%에서 500% 사이)로 지정합니다. 읽기/쓰기 UInt16. |
+| [HeightPercents](../../aspose.slides.charts/irotation3d/heightpercents) { get; set; } | 3-D 차트의 높이를 차트 너비에 대한 백분율(5%에서 500% 사이)로 지정합니다. 읽기/쓰기 UInt16. |
 | [Perspective](../../aspose.slides.charts/irotation3d/perspective) { get; set; } | 3D 차트의 원근값(시야각)을 반환하거나 설정합니다(0에서 100 사이). RightAngleAxes 속성 값이 true인 경우 무시됩니다. 읽기/쓰기 Byte. |
-| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 차트 축이 원근으로 그려지는 대신 직각인지 여부를 결정합니다. 즉, 차트 축의 각도가 차트 회전 또는 고도와 독립적인지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 3D 차트에서 X축(즉, Y 방향)을 중심으로 회전 각도를 반환하거나 설정합니다(-90도에서 90도 사이). 이 속성은 ECMA-376의 21.2.2.157 rotX (X Rotation) 항목 및 PowerPoint 2007+의 "Y Rotation" 옵션과 일치합니다. 읽기/쓰기 SByte. |
-| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 3D 차트에서 Y축(즉, X 방향)을 중심으로 회전 각도를 반환하거나 설정합니다(0도에서 360도 사이). 이 속성은 ECMA-376의 21.2.2.158 rotY (Y Rotation) 항목 및 PowerPoint 2007+의 "X Rotation" 옵션과 일치합니다. 읽기/쓰기 UInt16. |
+| [RightAngleAxes](../../aspose.slides.charts/irotation3d/rightangleaxes) { get; set; } | 차트 축이 원근으로 그려지는 대신 직각인지 여부를 결정합니다. 즉, 차트 축의 각도가 차트 회전이나 고도와 무관하게 독립적인지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [RotationX](../../aspose.slides.charts/irotation3d/rotationx) { get; set; } | 3D 차트에서 X축(즉, Y 방향) 주위의 회전 각도를 반환하거나 설정합니다(-90도에서 90도 사이). 이 속성은 ECMA-376의 21.2.2.157 rotX (X Rotation) 항목 및 PowerPoint 2007+의 "Y Rotation" 옵션과 일치합니다. 읽기/쓰기 SByte. |
+| [RotationY](../../aspose.slides.charts/irotation3d/rotationy) { get; set; } | 3D 차트에서 Y축(즉, X 방향) 주위의 회전 각도를 반환하거나 설정합니다(0도에서 360도 사이). 이 속성은 ECMA-376의 21.2.2.158 rotY (Y Rotation) 항목 및 PowerPoint 2007+의 "X Rotation" 옵션과 일치합니다. 읽기/쓰기 UInt16. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,40 +1,40 @@
 ---
 title: GeneratePresentation
 second_title: Aspose.Sildes for .NET API 參考
-description: 從文字描述產生簡報實例。提供所需語言的主題、想法、引言或文字片段。
+description: 從文字描述產生簡報實例。請以所需語言提供主題、想法、引用或文字片段。
 type: docs
 weight: 20
 url: /zh-hant/aspose.slides.ai/slidesaiagent/generatepresentation/
 ---
 ## GeneratePresentation(string, PresentationContentAmountType) {#generatepresentation}
 
-從文字描述產生簡報實例。提供所需語言的主題、想法、引言或文字片段。
+從文字描述產生簡報實例。請以所需語言提供主題、想法、引用或文字片段。
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
     PresentationContentAmountType presentationContentAmount)
 ```
 
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| description | String | 主題、想法、引言或文字片段。 |
-| presentationContentAmount | PresentationContentAmountType | 產生的簡報中內容的數量。 |
+| description | String | 主題、想法、引用或文字片段。 |
+| presentationContentAmount | PresentationContentAmountType | 產生簡報的內容量。 |
 
 ### 例外
 
 | 例外 | 條件 |
 | --- | --- |
-| ArgumentException | AI chat instruction 不能為 null 或空。 |
+| ArgumentException | AI chat instruction 不能為 null 或空字串。 |
 
 ### 備註
 
-以下範例使用預設的 [`AsposeAIWebClient`](../../asposeaiwebclient)，它由無參數的 [`SlidesAIAgent`](../slidesaiagent) 建構子建立，並連接至 Aspose 自己的 LLM。若要使用其他 AI 供應商，提供您自己的 LLM，或自訂連接（例如，提供您自己的 `HttpClient`），將 [`IAIWebClient`](../../iaiwebclient) 實作傳遞給 [`SlidesAIAgent`](../slidesaiagent) 建構子。可用的實作包括：
+以下範例使用預設 [`AsposeAIWebClient`](../../asposeaiwebclient)，此實例由參數為空的 [`SlidesAIAgent`](../slidesaiagent) 建構式建立，並連接至 Aspose 自有的 LLM。若要使用其他 AI 提供者、提供自訂 LLM，或自訂連線（例如提供自訂的 `HttpClient`），請將 [`IAIWebClient`](../../iaiwebclient) 實作傳遞給 [`SlidesAIAgent`](../slidesaiagent) 建構式。可用的實作包括：
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### 另見
+### 另請參閱
 
 * 介面 [IPresentation](../../../aspose.slides/ipresentation)
 * 列舉 [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -46,35 +46,35 @@ public IPresentation GeneratePresentation(string description,
 
 ## GeneratePresentation(string, PresentationContentAmountType, IPresentation) {#generatepresentation_1}
 
-從文字描述產生簡報實例。提供所需語言的主題、想法、引言或文字片段。
+從文字描述產生簡報實例。請以所需語言提供主題、想法、引用或文字片段。
 
 ```csharp
 public IPresentation GeneratePresentation(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-| 參數 | 類型 | 說明 |
+| 參數 | 型別 | 說明 |
 | --- | --- | --- |
-| description | String | 主題、想法、引言或文字片段。 |
-| presentationContentAmount | PresentationContentAmountType | 產生的簡報中內容的數量。 |
-| presentationTemplate | IPresentation | 用作版面與設計範本的簡報，取代預設範本。 |
+| description | String | 主題、想法、引用或文字片段。 |
+| presentationContentAmount | PresentationContentAmountType | 產生簡報的內容量。 |
+| presentationTemplate | IPresentation | 用於版面與設計的簡報範本，取代預設範本。 |
 
 ### 例外
 
 | 例外 | 條件 |
 | --- | --- |
 | ArgumentNullException | 未提供簡報範本。 |
-| ArgumentException | AI chat instruction 不能為 null 或空。 |
+| ArgumentException | AI chat instruction 不能為 null 或空字串。 |
 
 ### 備註
 
-以下範例使用預設的 [`AsposeAIWebClient`](../../asposeaiwebclient)，它由無參數的 [`SlidesAIAgent`](../slidesaiagent) 建構子建立，並連接至 Aspose 自己的 LLM。若要使用其他 AI 供應商，提供您自己的 LLM，或自訂連接（例如，提供您自己的 `HttpClient`），將 [`IAIWebClient`](../../iaiwebclient) 實作傳遞給 [`SlidesAIAgent`](../slidesaiagent) 建構子。可用的實作包括：
+以下範例使用預設 [`AsposeAIWebClient`](../../asposeaiwebclient)，此實例由參數為空的 [`SlidesAIAgent`](../slidesaiagent) 建構式建立，並連接至 Aspose 自有的 LLM。若要使用其他 AI 提供者、提供自訂 LLM，或自訂連線（例如提供自訂的 `HttpClient`），請將 [`IAIWebClient`](../../iaiwebclient) 實作傳遞給 [`SlidesAIAgent`](../slidesaiagent) 建構式。可用的實作包括：
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### 另見
+### 另請參閱
 
 * 介面 [IPresentation](../../../aspose.slides/ipresentation)
 * 列舉 [PresentationContentAmountType](../../presentationcontentamounttype)

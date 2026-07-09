@@ -1,6 +1,6 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 색상 변경 효과를 나타내는 불변 객체입니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
 type: docs
 weight: 3230
@@ -23,7 +23,7 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | 교체할 색상입니다. 읽기 전용 Color. |
 | [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | 알파 구성 요소를 사용할지 여부를 결정하는 부울 값을 반환합니다. 읽기 전용 Boolean. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

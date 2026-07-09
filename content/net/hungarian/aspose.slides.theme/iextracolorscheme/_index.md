@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
-second_title: Aspose.Sildes .NET API referencia
-description: Egy további színsémát képvisel, amely egy diára hozzárendelhető.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Egy további színsémát képvisel, amely a diára rendelhető.
 type: docs
-weight: 11190
+weight: 11210
 url: /hu/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme interfész
 
-Egy további színsémát képvisel, amely egy diára hozzárendelhető.
+Egy további színsémát képvisel, amely a diára rendelhető.
 
 ```csharp
 public interface IExtraColorScheme

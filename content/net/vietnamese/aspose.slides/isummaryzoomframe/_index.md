@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomFrame
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một khung Summary Zoom trong một slide.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một khung Summary Zoom trong một slide.
 type: docs
 weight: 7150
 url: /vi/aspose.slides/isummaryzoomframe/
 ---
 ## ISummaryZoomFrame giao diện
 
-Đại diện cho một khung Summary Zoom trong một slide.
+Biểu diễn một khung Summary Zoom trong một slide.
 
 ```csharp
 public interface ISummaryZoomFrame : IGraphicalObject
@@ -19,7 +19,7 @@ public interface ISummaryZoomFrame : IGraphicalObject
 | Tên | Mô tả |
 | --- | --- |
 | [AsIGraphicalObject](../../aspose.slides/isummaryzoomframe/asigraphicalobject) { get; } | Trả về giao diện IGraphicalObject. |
-| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Lấy bố cục của Summary Zoom Sections trong khung. Giá trị mặc định là GridLayout. |
+| [Layout](../../aspose.slides/isummaryzoomframe/layout) { get; } | Lấy bố cục của các phần Summary Zoom trong khung. Giá trị mặc định là GridLayout. |
 | [SummaryZoomCollection](../../aspose.slides/isummaryzoomframe/summaryzoomcollection) { get; } | Lấy [`ISummaryZoomSectionCollection`](../isummaryzoomsectioncollection) cho đối tượng Summary Zoom Frame. |
 
 ### Xem thêm

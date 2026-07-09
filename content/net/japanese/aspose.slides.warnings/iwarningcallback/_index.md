@@ -1,14 +1,14 @@
 ---
 title: IWarningCallback
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 警告を受け取るクラス用のインターフェイス
+description: 警告を受け取るクラス向けのインターフェイス
 type: docs
-weight: 11780
+weight: 11800
 url: /ja/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback インターフェイス
 
-警告を受け取るクラス用のインターフェイス
+警告を受け取るクラス向けのインターフェイス
 
 ```csharp
 public interface IWarningCallback
@@ -18,7 +18,7 @@ public interface IWarningCallback
 
 | 名前 | 説明 |
 | --- | --- |
-| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | 警告を受け取り、操作を中止すべきかどうかを決定するコールバックメソッド。 |
+| [Warning](../../aspose.slides.warnings/iwarningcallback/warning)(IWarningInfo) | 警告を受信し、操作を中止すべきかを決定するコールバック メソッド。 |
 
 ### 参照
 

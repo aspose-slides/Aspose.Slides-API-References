@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het subscript-object dat bestaat uit een basis en een verkleind subscript dat onder en rechts wordt geplaatst.
+description: Specificeert het subscriptobject dat bestaat uit een basis en een verkleind subscript dat onder en rechts wordt geplaatst.
 type: docs
 weight: 8470
 url: /nl/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interface
 
-Specificeert het subscript-object, dat bestaat uit een basis en een verkleind subscript dat onder en rechts wordt geplaatst.
+Specificeert het subscriptobject, dat bestaat uit een basis en een verkleind subscript dat onder en rechts wordt geplaatst.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathSubscriptElement : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Stelt toe om de basis IMathElement interface [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Basisargument |
 | [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subscript |
 

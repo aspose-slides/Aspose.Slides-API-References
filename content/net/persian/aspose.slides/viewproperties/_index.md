@@ -1,33 +1,33 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes برای .NET مرجع API
-description: خواص نمای سراسری ارائه.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: ویژگی‌های نمای سراسری ارائه.
 type: docs
 weight: 11740
 url: /fa/aspose.slides/viewproperties/
 ---
-## ViewProperties کلاس
+## کلاس ViewProperties
 
-خواص نمای سراسری ارائه.
+ویژگی‌های نمای سراسری ارائه.
 
 ```csharp
 public class ViewProperties : IViewProperties
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | مشخصه یا تنظیم فاصله شبکه‌ای که باید برای شبکه زیرین سند ارائه استفاده شود، بر حسب نقطه. قابل خواندن/نوشتن Single. |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | حالت نمایش را که هنگام آخرین ذخیره‌سازی سند ارائه استفاده شده بود، مشخص می‌کند. قابل خواندن/نوشتن [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | خواص نمای عادی را نشان می‌دهد. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، ناحیه محتوای جانبی، و ناحیه محتوای زیرین. فقط خواندنی [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | خواص نمای مشترک مرتبط با حالت نمایش یادداشت‌ها را مشخص می‌کند. فقط خواندنی [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | مشخص می‌کند که آیا نظرات اسلاید باید نمایش داده شوند یا خیر. قابل خواندن/نوشتن [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | خواص نمای مشترک مرتبط با حالت نمایش اسلاید را مشخص می‌کند. فقط خواندنی [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | مقدار فاصله شبکه‌ای که باید برای شبکه زیرین سند ارائه استفاده شود، بر حسب نقطه. قابل خواندن/قابل نوشتن Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | حالت نمایی که هنگام آخرین ذخیرهٔ سند ارائه استفاده شده بود را مشخص می‌کند. قابل خواندن/قابل نوشتن [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | ویژگی‌های نمای عادی را نمایش می‌دهد. نمای عادی شامل سه ناحیه محتوا است: خود اسلاید، یک ناحیه محتوا در کنار و یک ناحیه محتوا در پایین. فقط قابل خواندن [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | ویژگی‌های نمای مشترک مرتبط با حالت نمای یادداشت‌ها را مشخص می‌کند. فقط قابل خواندن [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | مشخص می‌کند که آیا نظرات اسلاید باید نمایش داده شوند یا نه. قابل خواندن/قابل نوشتن [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | ویژگی‌های نمای مشترک مرتبط با حالت نمای اسلاید را مشخص می‌کند. فقط قابل خواندن [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
-### مراجعه
+### همچنین ببینید
 
-* رابط [IViewProperties](../iviewproperties)
+* اینترفیس [IViewProperties](../iviewproperties)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * اسمبل [Aspose.Slides](../../)
 

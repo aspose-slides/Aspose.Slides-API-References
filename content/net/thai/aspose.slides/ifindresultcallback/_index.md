@@ -1,24 +1,24 @@
 ---
 title: IFindResultCallback
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: ส่วนต่อประสานแบบเรียกกลับที่ใช้ในการรับผลการค้นหาข้อความ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อินเทอร์เฟซ callback ที่ใช้เพื่อรับผลการค้นหาข้อความ
 type: docs
 weight: 5820
 url: /th/aspose.slides/ifindresultcallback/
 ---
-## IFindResultCallback ส่วนต่อประสาน
+## IFindResultCallback อินเทอร์เฟซ
 
-ส่วนต่อประสานแบบเรียกกลับที่ใช้ในการรับผลการค้นหาข้อความ
+อินเทอร์เฟซ callback ที่ใช้เพื่อรับผลการค้นหาข้อความ
 
 ```csharp
 public interface IFindResultCallback
 ```
 
-## เมธอด
+## วิธีการ
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | เมธอดแบบเรียกกลับที่รับข้อมูลเกี่ยวกับข้อความที่พบ |
+| [FoundResult](../../aspose.slides/ifindresultcallback/foundresult)(ITextFrame, string, string, int) | เมธอด callback ที่รับข้อมูลเกี่ยวกับข้อความที่พบ |
 
 ### ดูเพิ่มเติม
 

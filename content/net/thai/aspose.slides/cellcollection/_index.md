@@ -1,14 +1,14 @@
 ---
 title: CellCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของเซลล์.
+description: แสดงถึงคอลเลกชันของเซลล์.
 type: docs
 weight: 1140
 url: /th/aspose.slides/cellcollection/
 ---
 ## CellCollection คลาส
 
-แสดงคอลเลกชันของเซลล์
+แสดงถึงคอลเลกชันของเซลล์.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -18,19 +18,19 @@ public abstract class CellCollection : ICellCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | คืนค่าจำนวนเซลล์ในคอลเลกชัน แบบอ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนั้นซิงโครไนซ์ (ปลอดภัยต่อเธรด) แบบอ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | คืนค่าเซลล์ตามตำแหน่งของมัน แบบอ่านอย่างเดียว [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | คืนค่า presentation พาเรนต์ของ CellCollection แบบอ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | คืนค่า slide พาเรนต์ของ CellCollection แบบอ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | คืนค่า root ของการซิงโครไนซ์แบบอ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | ส่งคืนจำนวนเซลล์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | ส่งคืนเซลล์ตามตำแหน่งของมัน. อ่านอย่างเดียว [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ส่งคืนการนำเสนอหลักของ CellCollection. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | ส่งคืนสไลด์แม่ของ CellCollection. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ส่งคืนรากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

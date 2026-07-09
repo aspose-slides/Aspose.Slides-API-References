@@ -50,7 +50,7 @@ public enum SystemColor
 | MenuHighlight | `29` |  |
 | MenuBar | `30` |  |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShape
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: SmartArt 다이어그램 내부의 모양을 나타냅니다
+description: SmartArt 다이어그램 내부의 모양을 나타냅니다.
 type: docs
 weight: 10570
 url: /ko/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape 인터페이스
 
-SmartArt 다이어그램 내부의 모양을 나타냅니다
+SmartArt 다이어그램 내부의 모양을 나타냅니다.
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape
@@ -18,10 +18,10 @@ public interface ISmartArtShape : IGeometryShape
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | 기본 IGeometryShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | IGeometryShape 인터페이스의 기본을 가져올 수 있습니다. 읽기 전용 [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | SmartArt 모양의 텍스트를 반환합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IGeometryShape](../../aspose.slides/igeometryshape)
 * 네임스페이스 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)

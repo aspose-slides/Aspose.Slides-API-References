@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje typ rozdělovacích bodů ve druhém koláči nebo sloupci v grafu typu koláč-v-koláč nebo sloupec-v-koláč.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-ve-koláči nebo sloupec-ve-koláči.
 type: docs
-weight: 2360
+weight: 2380
 url: /cs/aspose.slides.charts/piesplittype/
 ---
-## PieSplitType výčet
+## Výčet PieSplitType
 
-Representuje typ rozdělovacích bodů ve druhém koláči nebo sloupci v grafu typu koláč-v-koláči nebo sloupec-v-koláči.
+Representuje typ rozdělovacích bodů ve druhém výsečí nebo sloupci v grafu typu koláč-ve-koláči nebo sloupec-ve-koláči.
 
 ```csharp
 public enum PieSplitType
@@ -19,10 +19,10 @@ public enum PieSplitType
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | Default | `0` | Určuje, že datové body budou rozděleny pomocí výchozího mechanismu pro tento typ grafu. |
-| Custom | `1` | Určuje, že datové body budou rozděleny mezi koláč a druhý graf podle hodnot Custom Split. |
-| ByPercentage | `2` | Určuje, že datové body budou rozděleny mezi koláč a druhý graf tak, že body s procentem menším než Split Position budou umístěny ve druhém grafu. |
-| ByPos | `3` | Určuje, že datové body budou rozděleny mezi koláč a druhý graf tak, že poslední Split Position datových bodů bude umístěn ve druhém grafu. |
-| ByValue | `4` | Určuje, že datové body budou rozděleny mezi koláč a druhý graf tak, že datové body s hodnotou menší než Split Position budou umístěny ve druhém grafu. |
+| Custom | `1` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf podle hodnot Custom Split. |
+| ByPercentage | `2` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf tak, že body s procentem menším než Split Position procent budou umístěny do druhého grafu. |
+| ByPos | `3` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf umístěním poslední hodnoty Split Position datových bodů do druhého grafu. |
+| ByValue | `4` | Určuje, že datové body budou rozděleny mezi výseč a druhý graf umístěním datových bodů s hodnotou menší než Split Position do druhého grafu. |
 
 ### Viz také
 

@@ -16,23 +16,23 @@ public interface ILayoutSlide : IBaseSlide, IOverrideThemeable
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Staat toe de basisinterface IBaseSlide op te halen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Retourneert de IOverrideThemeable interface. Alleen-lezen [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Retourneert een collectie tekenrichtlijnen voor de layoutdia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Retourneert true als er ten minste één dia bestaat die afhankelijk is van deze layoutdia. Alleen-lezen Boolean. |
-| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Retourneert de HeaderFooter-beheerder van de layoutdia. Alleen-lezen [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
-| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Retourneert het layouttype van deze layoutdia. Alleen-lezen [`SlideLayoutType`](../slidelayouttype). |
-| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Retourneert of stelt de masterslide in voor een layout. Lezen/schrijven [`IMasterSlide`](../imasterslide). |
-| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Retourneert de placeholder-beheerder van de layoutdia. Alleen-lezen [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
+| [AsIBaseSlide](../../aspose.slides/ilayoutslide/asibaseslide) { get; } | Maakt het mogelijk de basis-IBaseSlide-interface op te halen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/ilayoutslide/asioverridethemeable) { get; } | Geeft IOverrideThemeable-interface terug. Alleen-lezen [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [DrawingGuides](../../aspose.slides/ilayoutslide/drawingguides) { get; } | Geeft een verzameling tekenrichtlijnen voor de layoutdia terug. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/ilayoutslide/hasdependingslides) { get; } | Geeft true terug als er ten minste één dia bestaat die van deze layoutdia afhankelijk is. Alleen-lezen Boolean. |
+| [HeaderFooterManager](../../aspose.slides/ilayoutslide/headerfootermanager) { get; } | Geeft de HeaderFooter-beheerder van de layoutdia terug. Alleen-lezen [`ILayoutSlideHeaderFooterManager`](../ilayoutslideheaderfootermanager). |
+| [LayoutType](../../aspose.slides/ilayoutslide/layouttype) { get; } | Geeft het layouttype van deze layoutdia terug. Alleen-lezen [`SlideLayoutType`](../slidelayouttype). |
+| [MasterSlide](../../aspose.slides/ilayoutslide/masterslide) { get; set; } | Geeft de masterdia voor een layout terug of stelt deze in. Lezen/schrijven [`IMasterSlide`](../imasterslide). |
+| [PlaceholderManager](../../aspose.slides/ilayoutslide/placeholdermanager) { get; } | Geeft de placeholder-beheerder van de layoutdia terug. Alleen-lezen [`ILayoutPlaceholderManager`](../ilayoutplaceholdermanager). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Retourneert een array met alle dia's die afhankelijk zijn van deze layoutdia. |
-| [Remove](../../aspose.slides/ilayoutslide/remove)() | Verwijdert de layout uit de presentatie. |
+| [GetDependingSlides](../../aspose.slides/ilayoutslide/getdependingslides)() | Geeft een array met alle dia’s terug die van deze layoutdia afhankelijk zijn. |
+| [Remove](../../aspose.slides/ilayoutslide/remove)() | Verwijdert layout uit presentatie. |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 경로의 단일 명령을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 경로의 하나의 명령을 나타냅니다.
 type: docs
 weight: 650
 url: /ko/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath 클래스
 
-경로의 한 명령을 나타냅니다.
+경로의 하나의 명령을 나타냅니다.
 
 ```csharp
 public class MotionCmdPath : IMotionCmdPath
@@ -20,10 +20,10 @@ public class MotionCmdPath : IMotionCmdPath
 | --- | --- |
 | [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | 명령 유형을 지정합니다. 읽기/쓰기 [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | 명령 좌표가 상대적인지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | 명령의 포인트를 지정합니다. 읽기/쓰기 PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | 명령 포인트 유형을 지정합니다. 읽기/쓰기 [`MotionPathPointsType`](../motionpathpointstype). |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | 명령의 점을 지정합니다. 읽기/쓰기 PointF[]. |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | 명령 점 유형을 지정합니다. 읽기/쓰기 [`MotionPathPointsType`](../motionpathpointstype). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IMotionCmdPath](../imotioncmdpath)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

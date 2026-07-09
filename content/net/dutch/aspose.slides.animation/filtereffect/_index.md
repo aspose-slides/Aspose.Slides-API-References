@@ -1,14 +1,14 @@
 ---
 title: FilterEffect
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het filtereffect van gedrag voor.
+description: Geeft filtereffect van gedrag weer.
 type: docs
 weight: 370
 url: /nl/aspose.slides.animation/filtereffect/
 ---
 ## FilterEffect klasse
 
-Stelt het filtereffect van gedrag voor.
+Represent filter effect of behavior.
 
 ```csharp
 public class FilterEffect : Behavior, IFilterEffect
@@ -16,21 +16,21 @@ public class FilterEffect : Behavior, IFilterEffect
 
 ## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [FilterEffect](filtereffect)() | Standaard-constructor. |
+| [FilterEffect](filtereffect)() | Standaardconstructor. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatie-behaviors worden opgeteld. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of het huidige animatie-behavior wordt gecombineerd met andere lopende animaties. Lezen/schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Geeft eigenschappen van het behavior weer. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Geeft aan dat effect met behavior moet onthullen (in/uit). Lezen/schrijven [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Geeft subtype van filtereffect weer. Lezen/schrijven [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timing-eigenschappen voor het effect-behavior weer. Lezen/schrijven [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Geeft type van filtereffect weer. Lezen/schrijven [`FilterEffectType`](../filtereffecttype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatiegedragingen worden opgeteld. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of de huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/Schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Geeft eigenschappen van gedrag weer. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Geeft aan dat het effect met gedrag moet onthullen (in/uit). Lezen/Schrijven [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Geeft subtype van filtereffect weer. Lezen/Schrijven [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timingeigenschappen voor het effectgedrag weer. Lezen/Schrijven [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Geeft type van filtereffect weer. Lezen/Schrijven [`FilterEffectType`](../filtereffecttype). |
 
 ### Zie ook
 

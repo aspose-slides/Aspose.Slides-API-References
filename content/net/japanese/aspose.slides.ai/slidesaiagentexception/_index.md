@@ -1,9 +1,9 @@
 ---
 title: SlidesAIAgentException
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: Slides AI Agent に関連する例外を表します。
 type: docs
-weight: 60
+weight: 80
 url: /ja/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException クラス
@@ -19,7 +19,7 @@ public class SlidesAIAgentException : Exception
 | 名前 | 説明 |
 | --- | --- |
 | [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | この例外にメッセージを追加できるコンストラクタです。 |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | メッセージと埋め込み例外を含む例外用のコンストラクタです。 |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタです。 |
 
 ### 参照
 

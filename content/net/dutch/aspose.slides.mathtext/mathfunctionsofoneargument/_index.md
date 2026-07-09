@@ -21,13 +21,13 @@ public enum MathFunctionsOfOneArgument
 | Sin | `0` | Sinus |
 | Cos | `1` | Cosinus |
 | Tan | `2` | Tangens |
-| Csc | `3` | Cosecans |
+| Csc | `3` | Co secans |
 | Sec | `4` | Secans |
 | Cot | `5` | Cotangens |
 | HyperbolicSin | `6` | Hyperbolische sinus |
 | HyperbolicCos | `7` | Hyperbolische cosinus |
 | HyperbolicTan | `8` | Hyperbolische tangens |
-| HyperbolicCsc | `9` | Hyperbolische cosecans |
+| HyperbolicCsc | `9` | Hyperbolische co secans |
 | HyperbolicSec | `10` | Hyperbolische secans |
 | HyperbolicCot | `11` | Hyperbolische cotangens |
 | Lg | `12` | Decimale logaritme |
@@ -35,15 +35,15 @@ public enum MathFunctionsOfOneArgument
 | ArcSin | `14` | Arcsinus |
 | ArcCos | `15` | Arccosinus |
 | ArcTan | `16` | Arctangens |
-| ArcCsc | `17` | Arccosecans |
+| ArcCsc | `17` | Arcco secans |
 | ArcSec | `18` | Arcsecans |
-| ArcCot | `19` | Arccotangens |
+| ArcCot | `19` | Arcotangens |
 | HyperbolicArcSin | `20` | Hyperbolische arcsinus |
 | HyperbolicArcCos | `21` | Hyperbolische arccosinus |
 | HyperbolicArcTan | `22` | Hyperbolische arctangens |
-| HyperbolicArcCsc | `23` | Hyperbolische arccosecans |
+| HyperbolicArcCsc | `23` | Hyperbolische arcco secans |
 | HyperbolicArcSec | `24` | Hyperbolische arcsecans |
-| HyperbolicArcCot | `25` | Hyperbolische arccotangens |
+| HyperbolicArcCot | `25` | Hyperbolische arcotangens |
 
 ### Zie ook
 

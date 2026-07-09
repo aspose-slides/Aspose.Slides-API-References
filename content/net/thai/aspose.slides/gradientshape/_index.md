@@ -1,20 +1,20 @@
 ---
 title: GradientShape
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงรูปแบบของการเติมสีไล่ระดับ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงรูปแบบของการเติมสีไล่ระดับ
 type: docs
 weight: 5010
 url: /th/aspose.slides/gradientshape/
 ---
-## GradientShape การกำหนดค่า
+## GradientShape ชนิด enum
 
-แสดงรูปแบบของการเติมสีไล่ระดับ
+Represents the shape of gradient fill.
 
 ```csharp
 public enum GradientShape : sbyte
 ```
 
-### ค่าต่าง ๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

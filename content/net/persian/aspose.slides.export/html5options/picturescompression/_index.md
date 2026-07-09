@@ -1,6 +1,6 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes برای مرجع API .NET
+second_title: مرجع API Aspose.Sildes برای .NET
 description: سطح فشرده‌سازی تصاویر را نشان می‌دهد
 type: docs
 weight: 70
@@ -16,7 +16,7 @@ public PicturesCompression PicturesCompression { get; set; }
 
 ### موارد مرتبط
 
-* شمارش [PicturesCompression](../../picturescompression)
+* enum [PicturesCompression](../../picturescompression)
 * کلاس [Html5Options](../../html5options)
 * فضای‌نام [Aspose.Slides.Export](../../html5options)
 * مجوعه [Aspose.Slides](../../../)

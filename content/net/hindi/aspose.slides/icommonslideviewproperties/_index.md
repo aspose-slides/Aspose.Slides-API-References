@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: सामान्य स्लाइड दृश्य गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: सामान्य स्लाइड व्यू प्रॉपर्टीज़ का प्रतिनिधित्व करता है।
 type: docs
 weight: 5600
 url: /hi/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties इंटरफ़ेस
 
-सामान्य स्लाइड दृश्य गुणों का प्रतिनिधित्व करता है।
+सामान्य स्लाइड व्यू प्रॉपर्टीज़ का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,11 +18,11 @@ public interface ICommonSlideViewProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | ड्रॉइंग गाइड्स का संग्रह लौटाता है। केवल- पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | दर्श्य स्केलिंग अनुपात को प्रतिशत में निर्दिष्ट करता है। पढ़ने/लिखने योग्य Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | निर्दिष्ट करता है कि दृश्य सामग्री वर्तमान विंडो आकार के अनुसार स्वतः स्केल हो। पढ़ने/लिखने योग्य Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | ड्राइंग गाइड्स का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | व्यू स्केलिंग अनुपात को प्रतिशत में निर्दिष्ट करता है। पढ़ें/लिखें Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | निर्दिष्ट करता है कि व्यू सामग्री को वर्तमान विंडो आकार में बेहतर फिट होने के लिए स्वचालित रूप से स्केल किया जाना चाहिए। पढ़ें/लिखें Boolean. |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

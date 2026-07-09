@@ -1,14 +1,14 @@
 ---
 title: Audio
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: เป็นตัวแทนของไฟล์เสียงที่ฝังอยู่
 type: docs
 weight: 850
 url: /th/aspose.slides/audio/
 ---
-## Audio คลาส
+## คลาส Audio
 
-Represents an embedded audio file.
+เป็นตัวแทนของไฟล์เสียงที่ฝังอยู่
 
 ```csharp
 public class Audio : DomObject<AudioCollection>, IAudio
@@ -18,14 +18,14 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | คืนสำเนาข้อมูลของออดิโอ. ในกรณีที่มีข้อมูลจำนวนมาก ควรพิจารณาใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลของออดิโอเข้าสู่หน่วยความจำโดยไม่จำเป็นหรือแม้กระทั่ง OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | คืนประเภท MIME ของออดิโอที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | ส่งคืนสำเนาของข้อมูลเสียง. ในกรณีที่มีข้อมูลจำนวนมาก ควรพิจารณาใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลเสียงเข้าสู่หน่วยความจำโดยไม่จำเป็น หรือแม้กระทั่งเกิด OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | ส่งคืนประเภท MIME ของเสียง ซึ่งเข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | คืน Stream สำหรับการอ่าน. ใช้ 'using' หรือปิด stream หลังการใช้งาน. |
+| [GetStream](../../aspose.slides/audio/getstream)() | ส่งคืน Stream สำหรับการอ่าน. ใช้ 'using' หรือปิด stream หลังการใช้งาน. |
 
 ### ดูเพิ่มเติม
 

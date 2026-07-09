@@ -1,6 +1,6 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示系列標籤。
 type: docs
 weight: 2020
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel 介面
 
-Represents a series labels.
+表示系列標籤。
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -22,15 +22,15 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 | [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | 傳回 ILayoutable 介面。唯讀 [`ILayoutable`](../ilayoutable)。 |
 | [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | 傳回 IOverridableText 介面。唯讀 [`IOverridableText`](../ioverridabletext)。 |
 | [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | 傳回資料標籤的格式。唯讀 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False 表示資料標籤不可見（因此所有 Show*-flags（如 ShowValue 等）皆為 false）。唯讀 Boolean。 |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 取得或設定工作簿資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性等於 true，則套用。 |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False 表示資料標籤不可見（因此所有 Show* 標誌 (ShowValue, ...) 為 false）。唯讀 Boolean。 |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | 取得或設定工作簿資料儲存格。如果 IDataLabelFormat.ShowLabelValueFromCell 屬性為 true，則套用。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | 傳回根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值的實際標籤文字。 |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 透過將所有 Show*-flags（如 ShowValue 等）設為 false，使資料標籤隱藏。之後 IsVisible 會為 false。 |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | 根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值傳回實際標籤文字。 |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | 將資料標籤隱藏，方法是將所有 Show* 標誌 (ShowValue, ...) 設為 false。之後 IsVisible 將為 false。 |
 
 ### 另見
 

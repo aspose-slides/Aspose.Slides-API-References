@@ -3,7 +3,7 @@ title: Metered
 second_title: Referência da API Aspose.Sildes para .NET
 description: Fornece métodos para definir a chave metered.
 type: docs
-weight: 9060
+weight: 9080
 url: /pt/aspose.slides/metered/
 ---
 ## Classe Metered
@@ -25,10 +25,10 @@ public class Metered
 | Nome | Descrição |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Define a chave pública e privada metered. Se você adquirir uma licença metered, ao iniciar a aplicação esta API deve ser chamada; normalmente isso basta. Contudo, se falhar sempre ao enviar dados de consumo e ultrapassar 24 horas, a licença será definida como avaliação; para evitar esse caso, verifique regularmente o status da licença e, se estiver em avaliação, chame esta API novamente. |
-| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Obtém o crédito de consumo |
-| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Obtém o tamanho do arquivo de consumo |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Verifica se o metered está licenciado |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | Define a chave pública e privada metered. Se você adquirir uma licença metered, ao iniciar a aplicação, esta API deve ser chamada; normalmente, isso é suficiente. Contudo, se falhar sempre ao enviar dados de consumo e exceder 24 horas, a licença será definida como status de avaliação; para evitar esse caso, você deve verificar regularmente o status da licença e, se estiver em status de avaliação, chamar esta API novamente. |
+| static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | Obtém crédito de consumo |
+| static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | Obtém tamanho do arquivo de consumo |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | Verifica se metered está licenciado |
 
 ### Exemplos
 
@@ -54,7 +54,7 @@ Metered matered = new Metered();
 matered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
-### Consulte Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

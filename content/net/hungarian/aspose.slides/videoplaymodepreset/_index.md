@@ -1,14 +1,14 @@
 ---
 title: VideoPlayModePreset
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Azok a konstansok, amelyek meghatározzák, hogyan játszódik le a videó.
+second_title: Aspose.Sildes .NET API referencia
+description: Állandók, amelyek meghatározzák, hogyan játszódik le egy videó.
 type: docs
-weight: 11710
+weight: 11730
 url: /hu/aspose.slides/videoplaymodepreset/
 ---
 ## VideoPlayModePreset enumeráció
 
-A konstansok, amelyek meghatározzák, hogyan játszódik le a videó.
+Állandók, amelyek meghatározzák, hogyan játszódik le egy videó.
 
 ```csharp
 public enum VideoPlayModePreset
@@ -19,10 +19,10 @@ public enum VideoPlayModePreset
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Auto | `0` | Automatikusan lejátszódik. |
-| OnClick | `1` | Csak akkor játszik le, ha a videókeretre kattintanak. |
-| AllSlides | `2` | Lejátszás minden dián. |
-| InClickSequence | `3` | Automatikusan lejátszódik egy kattintással. |
+| Auto | `0` | Automatikusan lejátszik. |
+| OnClick | `1` | Csak akkor játszik le, ha a videó keretére kattintanak. |
+| AllSlides | `2` | Az összes diára lejátszik. |
+| InClickSequence | `3` | Automatikusan lejátszik egy kattintással. |
 
 ### Lásd még
 

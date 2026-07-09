@@ -1,55 +1,54 @@
----  
+---
 title: ShapeFrame
-second_title: Référence de l'API Aspose.Slides pour .NET  
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les propriétés des cadres de forme.
 type: docs
-weight: 9590  
+weight: 9900
 url: /fr/aspose.slides/shapeframe/
----  
+---
+## classe ShapeFrame
 
-## Classe ShapeFrame  
+Représente les propriétés du cadre de forme.
 
-Représente les propriétés du cadre de forme.  
+```csharp
+public class ShapeFrame : IShapeFrame
+```
 
-```csharp  
-public class ShapeFrame : IShapeFrame  
-```  
+## Constructeurs
 
-## Constructeurs  
+| Nom | Description |
+| --- | --- |
+| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Crée de nouvelles propriétés du cadre de forme. |
 
-| Nom | Description |  
-| --- | --- |  
-| [ShapeFrame](shapeframe)(float, float, float, float, NullableBool, NullableBool, float) | Crée de nouvelles propriétés de cadre de forme. |  
+## Propriétés
 
-## Propriétés  
+| Nom | Description |
+| --- | --- |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Renvoie la coordonnée X du centre d'un cadre. Lecture seule Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Renvoie la coordonnée Y du centre d'un cadre. Lecture seule Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Détermine si un cadre est retourné horizontalement. Lecture seule [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Détermine si un cadre est retourné verticalement. Lecture seule [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Renvoie la hauteur d'un cadre. Lecture seule Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Renvoie les coordonnées d'un cadre. Lecture seule RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Renvoie le nombre de degrés selon lesquels un cadre est pivoté autour de l'axe z. Une valeur positive indique une rotation horaire ; une valeur négative indique une rotation antihoraire. Lecture seule Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Renvoie la largeur d'un cadre. Lecture seule Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Renvoie la coordonnée X du coin supérieur gauche d'un cadre. Lecture seule Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Renvoie la coordonnée Y du coin supérieur gauche d'un cadre. Lecture seule Single. |
 
-| Nom | Description |  
-| --- | --- |  
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Renvoie la coordonnée X du centre d'un cadre. En lecture seule Single. |  
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Renvoie la coordonnée Y du centre d'un cadre. En lecture seule Single. |  
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Détermine si un cadre est retourné horizontalement. En lecture seule [`NullableBool`](../nullablebool). |  
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Détermine si un cadre est retourné verticalement. En lecture seule [`NullableBool`](../nullablebool). |  
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Renvoie la hauteur d'un cadre. En lecture seule Single. |  
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Renvoie les coordonnées d'un cadre. En lecture seule RectangleF. |  
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Renvoie le nombre de degrés qu'un cadre est tourné autour de l'axe z. Une valeur positive indique une rotation dans le sens des aiguilles d'une montre ; une valeur négative indique une rotation dans le sens inverse. En lecture seule Single. |  
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Renvoie la largeur d'un cadre. En lecture seule Single. |  
-| [X](../../aspose.slides/shapeframe/x) { get; } | Renvoie la coordonnée X du coin supérieur gauche d'un cadre. En lecture seule Single. |  
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Renvoie la coordonnée Y du coin supérieur gauche d'un cadre. En lecture seule Single. |  
+## Méthodes
 
-## Méthodes  
+| Nom | Description |
+| --- | --- |
+| [Clone](../../aspose.slides/shapeframe/clone)() | Clone |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | Clone. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à un objet spécifié. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Renvoie une valeur indiquant si cette instance est égale à un objet spécifié. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Renvoie un code de hachage pour cet objet. |
 
-| Nom | Description |  
-| --- | --- |  
-| [Clone](../../aspose.slides/shapeframe/clone)() | Clone |  
-| [CloneT](../../aspose.slides/shapeframe/clonet)() | Clone. |  
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Renvoie une valeur indiquant si cette instance est égale à un objet spécifié. |  
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Renvoie une valeur indiquant si cette instance est égale à un objet spécifié. |  
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Renvoie un code de hachage pour cet objet. |  
+### Voir aussi
 
-### Voir aussi  
-
-* interface [IShapeFrame](../ishapeframe)  
-* namespace [Aspose.Slides](../../aspose.slides)  
-* assembly [Aspose.Slides](../../)  
+* interface [IShapeFrame](../ishapeframe)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: In-Out 슬라이드 전환 효과.
+description: 인-아웃 슬라이드 전환 효과.
 type: docs
 weight: 10110
 url: /ko/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition 인터페이스
 
-In-Out 슬라이드 전환 효과.
+인-아웃 슬라이드 전환 효과.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -16,7 +16,7 @@ public interface IInOutTransition : ITransitionValueBase
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | 전환 효과의 방향입니다. 읽기/쓰기 [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |

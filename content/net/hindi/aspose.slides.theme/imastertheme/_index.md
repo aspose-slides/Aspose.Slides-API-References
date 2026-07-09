@@ -1,6 +1,6 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: एक मास्टर थीम का प्रतिनिधित्व करता है।
 type: docs
 weight: 11310
@@ -18,9 +18,9 @@ public interface IMasterTheme : ITheme
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | बेस ITheme इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITheme`](../itheme)। |
-| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | अतिरिक्त रंग योजनाओं का संग्रह लौटाता है। ये योजनाएँ प्रस्तुति के रूप को प्रभावित नहीं करतीं, इन्हें स्लाइड के लिए मुख्य रंग योजना के रूप में चुना जा सकता है। केवल पढ़ने योग्य [`IExtraColorSchemeCollection`](../iextracolorschemecollection)। |
-| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | एक थीम का नाम लौटाता है। पढ़ने/लिखने योग्य String। |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | बेस ITheme इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITheme`](../itheme). |
+| [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | अतिरिक्त रंग योजनाओं का संग्रह लौटाता है। ये योजनाएँ प्रस्तुति की उपस्थिति को प्रभावित नहीं करतीं, इन्हें स्लाइड के लिए मुख्य रंग योजना के रूप में चुना जा सकता है। केवल पढ़ने योग्य [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
+| [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | थीम का नाम लौटाता है। पढ़ने/लिखने योग्य स्ट्रिंग. |
 
 ### देखें
 

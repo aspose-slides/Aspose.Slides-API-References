@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
 second_title: Referência da API Aspose.Sildes para .NET
-description: Objeto imutável que contém propriedades efetivas de preenchimento de gradiente.
+description: Objeto imutável que contém propriedades de preenchimento gradiente efetivas.
 type: docs
-weight: 5990
+weight: 6010
 url: /pt/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData interface
 
-Objeto imutável que contém propriedades efetivas de preenchimento de gradiente.
+Objeto imutável que contém propriedades de preenchimento gradiente efetivas.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -16,21 +16,21 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permite obter a interface IFillParamSource base. Somente leitura [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Permite obter a interface base IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Retorna o estilo de um gradiente. Somente leitura [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Retorna a forma de um gradiente. Somente leitura [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Retorna a coleção de paradas de gradiente. Somente leitura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Retorna a coleção de pontos de gradiente. Somente leitura [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Retorna o ângulo de um gradiente. Somente leitura Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determina se um gradiente é dimensionado. Somente leitura Boolean. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Determina se um gradiente é escalado. Somente leitura Boolean. |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Retorna o modo de inversão para um gradiente. Somente leitura [`TileFlip`](../tileflip). |
 
 ### Observações
 
 Esta interface é usada como parte de [`IFillFormatEffectiveData`](../ifillformateffectivedata) e [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata).
 
-### Ver também
+### Ver Também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

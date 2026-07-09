@@ -1,14 +1,14 @@
 ---
 title: IShapeBevel
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示形狀主要面紋理的屬性。
+description: 表示形狀主要面浮雕的屬性。
 type: docs
 weight: 6960
 url: /zh-hant/aspose.slides/ishapebevel/
 ---
 ## IShapeBevel 介面
 
-表示形狀主要面紋理的屬性。
+表示形狀主要面的浮雕屬性。
 
 ```csharp
 public interface IShapeBevel
@@ -16,11 +16,11 @@ public interface IShapeBevel
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 斜角類型。可讀寫 [`BevelPresetType`](../bevelpresettype). |
-| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 斜角高度。可讀寫 Double. |
-| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 斜角寬度。可讀寫 Double. |
+| [BevelType](../../aspose.slides/ishapebevel/beveltype) { get; set; } | 倒角類型。讀/寫 [`BevelPresetType`](../bevelpresettype)。 |
+| [Height](../../aspose.slides/ishapebevel/height) { get; set; } | 倒角高度。讀/寫 Double。 |
+| [Width](../../aspose.slides/ishapebevel/width) { get; set; } | 倒角寬度。讀/寫 Double。 |
 
 ### 另請參閱
 

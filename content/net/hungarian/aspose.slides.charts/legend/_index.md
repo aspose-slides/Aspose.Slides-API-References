@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A diagramok jelmagyarázatának tulajdonságait képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: A diagramok legendájának tulajdonságait képviseli.
 type: docs
-weight: 2260
+weight: 2280
 url: /hu/aspose.slides.charts/legend/
 ---
 ## Legend osztály
 
-A diagram jelmagyarázatának tulajdonságait képviseli.
+Represents chart's legend properties.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,29 +18,29 @@ public class Legend : DomObject<Chart>, ILegend
 
 | Név | Leírás |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Meghatározza a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Meghatározza a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Meghatározza a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához viszonyítva. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Meghatározza a diagram elem tényleges felső koordinátáját a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Csak olvasható Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Megadja a diagram elem tényleges magasságát. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Megadja a diagram elem tényleges szélességét. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Megadja a diagram elem tényleges x helyzetét (bal) a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Megadja a diagram elem tényleges felső szélét a diagram bal felső sarkához képest. Hívja meg az IChart.ValidateChartLayout() metódust előtte a tényleges értékek lekéréséhez. Olvasás Single. |
 | [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Alsó. Csak olvasható Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Visszaadja a diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lekéri a jelmagyarázat bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | Visszaadja a jelmagyarázat formátumát. Csak olvasható [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Visszaadja vagy beállítja a jelmagyarázat magasságát a diagram magasságának hányadosaként. Olvasás/írás Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Meghatározza, hogy a diagram többi eleme átfedheti-e a jelmagyarázatot. Olvasás/írás Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Meghatározza a jelmagyarázat pozícióját egy diagramon. A nem NaN X, Y, Width, Height tulajdonságok értékei felülírják ennek a tulajdonságnak a hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | Lekéri a legenda bejegyzéseit. Csak olvasható [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | Visszaadja a legenda formátumát. Csak olvasható [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | Visszaadja vagy beállítja a legenda magasságát a diagram magasságának tört részeként. Olvasás/írás Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | Meghatározza, hogy más diagram elemek átfedhetik-e a legendát. Olvasás/írás Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | Megadja a legenda pozícióját a diagramon. A X, Y, Width, Heigt tulajdonságok nem NaN értékei felülírják e tulajdonság hatását. Olvasás/írás [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | Jobb. Csak olvasható Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Szövegformátum. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Visszaadja vagy beállítja a jelmagyarázat szélességét a diagram szélességének hányadosaként. Olvasás/írás Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | Visszaadja vagy beállítja a jelmagyarázat x koordinátáját a diagram szélességének hányadosaként. Olvasás/írás Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Visszaadja vagy beállítja a jelmagyarázat y koordinátáját a diagram magasságának hányadosaként. Olvasás/írás Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | Szöveg formátum. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | Visszaadja vagy beállítja a legenda szélességét a diagram szélességének tört részeként. Olvasás/írás Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | Visszaadja vagy beállítja a legenda x koordinátáját a diagram szélességének tört részeként. Olvasás/írás Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | Visszaadja vagy beállítja a legenda y koordinátáját a diagram magasságának tört részeként. Olvasás/írás Single. |
 
 ### Lásd még
 
 * osztály [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * osztály [Chart](../chart)
 * interfész [ILegend](../ilegend)
-* névterület [Aspose.Slides.Charts](../../aspose.slides.charts)
+* névtér [Aspose.Slides.Charts](../../aspose.slides.charts)
 * összeállítás [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

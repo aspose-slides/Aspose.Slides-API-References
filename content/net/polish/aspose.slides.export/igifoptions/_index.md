@@ -1,14 +1,14 @@
 ---
 title: IGifOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje opcje eksportu GIF.
 type: docs
-weight: 3900
+weight: 3920
 url: /pl/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions interfejs
 
-Represents GIF exporting options.
+Reprezentuje opcje eksportu GIF.
 
 ```csharp
 public interface IGifOptions : ISaveOptions
@@ -19,10 +19,10 @@ public interface IGifOptions : ISaveOptions
 | Nazwa | Opis |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Zwraca interfejs ISaveOptions. Tylko do odczytu [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Pobiera lub ustawia domyślny czas opóźnienia [ms]. Ta wartość będzie użyta, jeśli [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nie jest ustawiona. Wartość domyślna wynosi 1000. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy będą eksportowane. Wartość domyślna to false. |
-| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Pobiera lub ustawia rozmiar klatki. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Pobiera lub ustawia FPS przejścia [frames/sec] Domyślna wartość to 25. |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Pobiera lub ustawia domyślny czas opóźnienia [ms]. Ta wartość będzie użyta, jeśli [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) nie jest ustawiona. Domyślna wartość to 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Określa, czy ukryte slajdy będą eksportowane. Domyślna wartość to false. |
+| [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Pobiera lub ustawia rozmiar ramki. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Pobiera lub ustawia FPS przejścia [frames/sec]. Domyślna wartość to 25. |
 
 ### Zobacz także
 

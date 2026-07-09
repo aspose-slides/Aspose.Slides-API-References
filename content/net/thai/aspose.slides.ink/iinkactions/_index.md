@@ -18,7 +18,7 @@ public interface IInkActions : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IGraphicalObject ฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iinkactions/asigraphicalobject) { get; } | อนุญาตให้ดึง IGraphicalObject อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 
 ### ดูเพิ่มเติม
 

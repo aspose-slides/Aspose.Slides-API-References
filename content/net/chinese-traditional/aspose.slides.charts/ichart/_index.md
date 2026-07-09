@@ -1,7 +1,7 @@
 ---
 title: IChart
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 代表投影片上的圖形圖表。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示投影片上的圖形圖表。
 type: docs
 weight: 1740
 url: /zh-hant/aspose.slides.charts/ichart/
@@ -23,20 +23,20 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 | [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | 傳回 IOverrideThemeable 介面。唯讀 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable)。 |
 | [Axes](../../aspose.slides.charts/ichart/axes) { get; } | 提供對圖表座標軸的存取。唯讀 [`IAxesManager`](../iaxesmanager)。 |
 | [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 傳回允許變更 3D 圖表背牆格式的物件。唯讀 [`IChartWall`](../ichartwall)。 |
-| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | 傳回關於圖表相關聯或內嵌資料的資訊。唯讀 [`IChartData`](../ichartdata)。 |
+| [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | 傳回與圖表相關聯的連結或嵌入資料資訊。唯讀 [`IChartData`](../ichartdata)。 |
 | [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | 傳回圖表的資料表。唯讀 [`IDataTable`](../idatatable)。 |
 | [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | 傳回或設定圖表標題。唯讀 [`IChartTitle`](../icharttitle)。 |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | 傳回或設定圖表中空白儲存格的描繪方式。可讀寫 [`DisplayBlanksAsType`](../displayblanksastype)。 |
-| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 傳回允許變更 3D 圖表底面格式的物件。唯讀 [`IChartWall`](../ichartwall)。 |
-| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | 判斷圖表是否具有資料表。可讀寫 Boolean。 |
-| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | 判斷圖表是否具有圖例。可讀寫 Boolean。 |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | 指定圖表區域應具有圓角。可讀寫 Boolean。 |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | 判斷圖表是否有可見的標題。可讀寫 Boolean。 |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | 傳回或設定在圖表上繪製空白儲存格的方式。可讀寫 [`DisplayBlanksAsType`](../displayblanksastype)。 |
+| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 傳回允許變更 3D 圖表底板格式的物件。唯讀 [`IChartWall`](../ichartwall)。 |
+| [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | 決定圖表是否具有資料表。可讀寫 Boolean。 |
+| [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | 決定圖表是否具有圖例。可讀寫 Boolean。 |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | 指定圖表區域是否應具有圓角。可讀寫 Boolean。 |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | 決定圖表是否顯示可見的標題。可讀寫 Boolean。 |
 | [Legend](../../aspose.slides.charts/ichart/legend) { get; } | 傳回或設定圖表的圖例。唯讀 [`ILegend`](../ilegend)。 |
-| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | 表示圖表的繪圖區域。唯讀 [`IChartPlotArea`](../ichartplotarea)。 |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 判斷是否僅繪製可見的儲存格。若為 false，則同時繪製可見與隱藏的儲存格。可讀寫 Boolean。 |
+| [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | 代表圖表的繪圖區域。唯讀 [`IChartPlotArea`](../ichartplotarea)。 |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 決定是否僅繪製可見儲存格。若為 False，則同時繪製可見與隱藏儲存格。可讀寫 Boolean。 |
 | [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | 傳回圖表的 3D 旋轉。唯讀 [`IRotation3D`](../irotation3d)。 |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | 指定是否顯示超過圖表最大值的資料標籤。可讀寫 Boolean。 |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | 指定是否顯示圖表上方的資料標籤。可讀寫 Boolean。 |
 | [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 傳回允許變更 3D 圖表側牆格式的物件。唯讀 [`IChartWall`](../ichartwall)。 |
 | [Style](../../aspose.slides.charts/ichart/style) { get; set; } | 傳回或設定圖表樣式。可讀寫 [`StyleType`](../styletype)。 |
 | [Type](../../aspose.slides.charts/ichart/type) { get; set; } | 傳回或設定圖表類型。可讀寫 [`ChartType`](../charttype)。 |
@@ -46,14 +46,14 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | 計算圖表元素的實際值。實際值包括實作 IActualLayout 介面的元素位置 (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) 以及實際座標軸值 (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale) |
+| [ValidateChartLayout](../../aspose.slides.charts/ichart/validatechartlayout)() | 計算圖表元素的實際值。實際值包括實作 IActualLayout 介面的元素位置 (IActualLayout.ActualX, IActualLayout.ActualY, IActualLayout.ActualWidth, IActualLayout.ActualHeight) 與實際座標軸值 (IAxis.ActualMaxValue, IAxis.ActualMinValue, IAxis.ActualMajorUnit, IAxis.ActualMinorUnit, IAxis.ActualMajorUnitScale, IAxis.ActualMinorUnitScale)。 |
 
 ### 另請參閱
 
-* 介面 [IFormattedTextContainer](../iformattedtextcontainer)
-* 介面 [IGraphicalObject](../../aspose.slides/igraphicalobject)
-* 介面 [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
-* 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程式集 [Aspose.Slides](../../)
+* interface [IFormattedTextContainer](../iformattedtextcontainer)
+* interface [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

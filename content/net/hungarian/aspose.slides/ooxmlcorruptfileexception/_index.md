@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes .NET API Referenciája
-description: Kivétel, amely akkor keletkezik, amikor az Office Open XML fájlformátum sérült.
+second_title: Aspose.Sildes a .NET API hivatkozásához
+description: Kivétel, amely akkor dobódik, amikor az Office Open XML fájlformátum sérült.
 type: docs
-weight: 9170
+weight: 9190
 url: /hu/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException osztály
 
-Kivétel, amelyet akkor dobunk, amikor az Office Open XML fájlformátum sérült.
+Kivétel, amely akkor dobódik, amikor az Office Open XML fájlformátum sérült.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -19,8 +19,8 @@ public class OOXMLCorruptFileException : OOXMLException
 | Név | Leírás |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | Alapértelmezett konstruktor. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Konstruktor egy olyan kivételhez, amely üzenetet és beágyazott kivételt tartalmaz. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi egy üzenet hozzáadását ehhez a kivételhez. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | Konstruktor egy kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
 
 ### Lásd még
 

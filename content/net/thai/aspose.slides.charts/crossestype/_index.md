@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: กำหนดว่ากราฟแกนจะตัดที่ตำแหน่งใด.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดตำแหน่งที่แกนจะตัดกัน.
 type: docs
 weight: 1540
 url: /th/aspose.slides.charts/crossestype/
 ---
-## การนับค่า CrossesType
+## การจำแนก CrossesType
 
-กำหนดว่ากราฟแกนจะตัดที่ใด
+กำหนดตำแหน่งที่แกนจะตัดกัน
 
 ```csharp
 public enum CrossesType
@@ -18,8 +18,8 @@ public enum CrossesType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | แกนประเภท (category axis) จะตัดที่จุดศูนย์ของแกนค่า (value axis) (หากเป็นไปได้) หรือค่าต่ำสุด (หากค่าต่ำสุดมากกว่าศูนย์) หรือค่าสูงสุด (หากค่าสูงสุดน้อยกว่าศูนย์). |
-| Maximum | `1` | แกนจะตัดที่ค่าสูงสุด. |
+| AxisCrossesAtZero | `0` | แกนประเภทตัดที่จุดศูนย์ของแกนค่า (หากเป็นไปได้) หรือค่าต่ำสุด (หากค่าต่ำสุดมากกว่าศูนย์) หรือค่าสูงสุด (หากค่าสูงสุดน้อยกว่าศูนย์) |
+| Maximum | `1` | แกนตัดที่ค่าสูงสุด |
 | Custom | `2` | ค่าที่กำหนดเองจากคุณสมบัติ CrossAt |
 
 ### ดูเพิ่มเติม

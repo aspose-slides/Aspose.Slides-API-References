@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan objek pembatas yang terdiri dari karakter pembuka dan penutup seperti tanda kurung, kurung kurawal, kurung siku, dan garis vertikal, serta satu atau lebih elemen matematika di dalamnya yang dipisahkan oleh karakter tertentu. Contoh 2 2x7C2
+description: Menentukan objek delimiter yang terdiri dari karakter pembuka dan penutup seperti kurung, kurung kurawal, tanda kurung siku, dan batang vertikal, serta satu atau lebih elemen matematika di dalamnya yang dipisahkan oleh karakter yang ditentukan. Contoh 2 2x7C2
 type: docs
-weight: 8190
+weight: 8210
 url: /id/aspose.slides.mathtext/imathdelimiter/
 ---
-## Antarmuka IMathDelimiter
+## IMathDelimiter antarmuka
 
-Menentukan objek pembatas, yang terdiri dari karakter pembuka dan penutup (seperti tanda kurung, kurung kurawal, kurung siku, dan garis vertikal), serta satu atau lebih elemen matematika di dalamnya, dipisahkan oleh karakter tertentu. Contoh: (𝑥2); [𝑥2&#x7C;𝑦2]
+Menentukan objek delimiter, yang terdiri dari karakter pembuka dan penutup (seperti kurung, kurung kurawal, tanda kurung siku, dan batang vertikal), serta satu atau lebih elemen matematika di dalamnya, dipisahkan oleh karakter yang ditentukan. Contoh: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -16,21 +16,21 @@ public interface IMathDelimiter : IMathElement
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Satu atau lebih elemen matematika yang dipisahkan oleh karakter pembatas |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Satu atau lebih elemen matematika yang dipisahkan oleh karakter pemisah |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Memungkinkan untuk mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character menentukan karakter pembatas awal, atau pembuka. Pembatas matematika adalah karakter penutup seperti tanda kurung, kurung siku, dan kurung kurawal. Nilai default: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Menentukan bentuk pembatas dalam objek pembatas. Ketika bernilai MathDelimiterShape.Centered, pembatas berada di tengah sumbu matematika dari teks matematika dan tetap disesuaikan untuk menampung seluruh tinggi kontennya. Ketika bernilai MathDelimiterShape.Match, tinggi dan bentuknya diubah agar tepat cocok dengan isi mereka. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character menentukan karakter pembatas akhir, atau penutup. Pembatas matematika adalah karakter penutup seperti tanda kurung, kurung siku, dan kurung kurawal. Nilai default: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Menentukan pertumbuhan BeginningCharacter, SeparatorCharacter, EndingCharacter. Ketika true, pembatas tumbuh secara vertikal untuk menyesuaikan tinggi operandnya. Nilai default adalah true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character menentukan karakter yang memisahkan argumen dalam objek pembatas. Nilai default: '&#x7C;'. |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character menentukan karakter pembuka, atau karakter delimiter awal. Delimiter matematika adalah karakter pembungkus seperti kurung, tanda kurung siku, dan kurung kurawal. Nilai default: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Menentukan bentuk delimiter dalam objek delimiter. Ketika bernilai MathDelimiterShape.Centered, delimiter diposisikan di tengah sumbu matematika dari teks matematika dan tetap dibuat agar sesuai dengan tinggi seluruh isi mereka. Ketika bernilai MathDelimiterShape.Match, tinggi dan bentuknya diubah agar tepat sesuai dengan isi mereka. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character menentukan karakter penutup, atau karakter delimiter akhir. Delimiter matematika adalah karakter pembungkus seperti kurung, tanda kurung siku, dan kurung kurawal. Nilai default: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Menentukan pertumbuhan BeginningCharacter, SeparatorCharacter, EndingCharacter. Ketika bernilai true, delimiter tumbuh secara vertikal untuk menyesuaikan tinggi operandnya. Nilai default adalah true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character menentukan karakter yang memisahkan argumen dalam objek delimiter. Nilai default: '&#x7C;' |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Membatasi argumen menggunakan karakter pembatas yang ditentukan |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Membatasi argumen menggunakan karakter delimiter yang ditentukan |
 
 ### Contoh
 
@@ -42,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-## Lihat Juga
+### Lihat Juga
 
 * antarmuka [IMathElement](../imathelement)
 * ruang nama [Aspose.Slides.MathText](../../aspose.slides.mathtext)

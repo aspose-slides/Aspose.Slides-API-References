@@ -1,6 +1,6 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 不可變的物件，代表一個漸層定位點。
 type: docs
 weight: 5050
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData 類別
 
-不可變的物件，代表一個漸層定位點。
+Immutable object which represents a gradient stop.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,8 +18,8 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | 傳回漸層定位點的顏色。唯讀 Color。 |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | 傳回漸層定位點的位置 (0..1)。唯讀 Single。 |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | 傳回漸層定位點的顏色。唯讀 Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | 傳回漸層定位點的位置 (0..1)。唯讀 Single. |
 
 ## 方法
 
@@ -28,7 +28,7 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 判斷指定的 [`GradientStopEffectiveData`](../gradientstopeffectivedata) 是否等於目前的 [`GradientStopEffectiveData`](../gradientstopeffectivedata)。 |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### 另請參閱
+### 相關參考
 
 * 介面 [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

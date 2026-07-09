@@ -1,14 +1,14 @@
 ---
 title: IEightDirectionTransition
 second_title: Aspose.Sildes för .NET API-referens
-description: Övergångseffekt för bildspel i åtta riktningar.
+description: Slide-övergångseffekt i åtta riktningar.
 type: docs
-weight: 10050
+weight: 10070
 url: /sv/aspose.slides.slideshow/ieightdirectiontransition/
 ---
 ## IEightDirectionTransition gränssnitt
 
-Övergångseffekt i åtta riktningar för bildspel.
+Slide-övergångseffekt i åtta riktningar.
 
 ```csharp
 public interface IEightDirectionTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IEightDirectionTransition : ITransitionValueBase
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Tillåter att hämta bas-ITransitionValueBase-gränssnittet. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Riktning för övergången. Läs/skriv [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ieightdirectiontransition/asitransitionvaluebase) { get; } | Möjliggör att hämta bas-ITransitionValueBase gränssnitt. Läs-endast [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ieightdirectiontransition/direction) { get; set; } | Riktning för övergången. Läs-skriv [`TransitionEightDirectionType`](../transitioneightdirectiontype). |
 
-### Se även
+### Se också
 
 * gränssnitt [ITransitionValueBase](../itransitionvaluebase)
 * namnrymd [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

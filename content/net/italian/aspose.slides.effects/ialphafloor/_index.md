@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Alpha Floor. I valori di opacità alpha inferiori a 100 vengono impostati a zero. In altre parole, qualsiasi elemento parzialmente trasparente diventa completamente trasparente.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta un effetto Alpha Floor. I valori di opacità Alpha inferiori a 100 vengono impostati a zero. In altre parole, tutto ciò che è parzialmente trasparente diventa completamente trasparente.
 type: docs
-weight: 3040
+weight: 3060
 url: /it/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor interfaccia
 
-Rappresenta un effetto Alpha Floor. I valori alfa (opacità) inferiori al 100% vengono impostati a zero. In altre parole, qualsiasi elemento parzialmente trasparente diventa completamente trasparente.
+Rappresenta un effetto Alpha Floor. I valori Alpha (opacità) inferiori al 100% vengono impostati a zero. In altre parole, qualsiasi elemento parzialmente trasparente diventa completamente trasparente.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Consente di ottenere l’interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Consente di ottenere l’interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Vedi anche
 

@@ -1,20 +1,20 @@
 ---
 title: BaseThemeManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: さまざまな種類のテーマへのアクセスを提供するクラスの基底クラスです。
+description: さまざまな種類のテーマへのアクセスを提供するクラスの基本クラスです。
 type: docs
-weight: 11030
+weight: 11050
 url: /ja/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager クラス
 
-さまざまな種類のテーマへのアクセスを提供するクラスの基底クラスです。
+さまざまな種類のテーマへのアクセスを提供するクラスの基本クラスです。
 
 ```csharp
 public abstract class BaseThemeManager
 ```
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

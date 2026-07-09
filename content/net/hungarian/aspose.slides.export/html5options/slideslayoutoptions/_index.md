@@ -1,14 +1,14 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes a .NET-hez API referencia
-description: A prezentáció exportálásakor a diák oldalra helyezésének módját adja vissza vagy állítja be ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Lekérdezi vagy állítja be azt a módot, ahogy a diák elhelyezkednek az oldalon egy bemutató exportálásakor ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /hu/aspose.slides.export/html5options/slideslayoutoptions/
 ---
 ## Html5Options.SlidesLayoutOptions tulajdonság
 
-A prezentáció exportálásakor a diák oldalra helyezésének módját adja vissza vagy állítja be [`ISlidesLayoutOptions`](../../islideslayoutoptions).
+Lekérdezi vagy beállítja azt a módot, ahogyan a diák az oldalon helyezkednek el egy bemutató exportálásakor [`ISlidesLayoutOptions`](../../islideslayoutoptions).
 
 ```csharp
 public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Kapcsolódó
+### Lásd még
 
 * interfész [ISlidesLayoutOptions](../../islideslayoutoptions)
 * osztály [Html5Options](../../html5options)

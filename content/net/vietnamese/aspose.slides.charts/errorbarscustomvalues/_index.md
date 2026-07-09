@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsCustomValues
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định các giá trị thanh lỗi. Nó chỉ được sử dụng khi kiểu giá trị thanh lỗi là Custom.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định các giá trị thanh lỗi. Nó chỉ được sử dụng khi kiểu giá trị của thanh lỗi là Custom.
 type: docs
 weight: 1660
 url: /vi/aspose.slides.charts/errorbarscustomvalues/
 ---
 ## ErrorBarsCustomValues lớp
 
-Xác định các giá trị thanh lỗi. Nó chỉ được sử dụng khi kiểu giá trị thanh lỗi là Custom.
+Xác định các giá trị của thanh lỗi. Nó chỉ được sử dụng khi kiểu giá trị của thanh lỗi là Custom.
 
 ```csharp
 public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustomValues
@@ -18,10 +18,10 @@ public class ErrorBarsCustomValues : DomObject<ChartDataPoint>, IErrorBarsCustom
 
 | Tên | Mô tả |
 | --- | --- |
-| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Xác định giá trị thanh lỗi theo hướng âm. Có sẵn nếu kiểu giá trị thanh lỗi là Custom và ErrorBarsXFormat được cho phép. Trong mọi trường hợp khác, thuộc tính này trả về null. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
-| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Xác định giá trị thanh lỗi theo hướng dương. Có sẵn nếu kiểu giá trị thanh lỗi là Custom và ErrorBarsXFormat được cho phép. Trong mọi trường hợp khác, thuộc tính này trả về null. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
-| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Xác định giá trị thanh lỗi theo hướng âm. Có sẵn nếu kiểu giá trị thanh lỗi là Custom và ErrorBarsYFormat được cho phép. Trong mọi trường hợp khác, thuộc tính này trả về null. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
-| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Xác định giá trị thanh lỗi theo hướng dương. Có sẵn nếu kiểu giá trị thanh lỗi là Custom và ErrorBarsYFormat được cho phép. Trong mọi trường hợp khác, thuộc tính này trả về null. Chỉ đọc [`IDoubleChartValue`](../idoublechartvalue). |
+| [XMinus](../../aspose.slides.charts/errorbarscustomvalues/xminus) { get; } | Xác định giá trị thanh lỗi theo hướng âm. Có sẵn nếu kiểu giá trị của thanh lỗi là Custom và ErrorBarsXFormat được phép. Trong bất kỳ trường hợp nào khác thuộc tính này trả về null. Chỉ-đọc [`IDoubleChartValue`](../idoublechartvalue). |
+| [XPlus](../../aspose.slides.charts/errorbarscustomvalues/xplus) { get; } | Xác định giá trị thanh lỗi theo hướng dương. Có sẵn nếu kiểu giá trị của thanh lỗi là Custom và ErrorBarsXFormat được phép. Trong bất kỳ trường hợp nào khác thuộc tính này trả về null. Chỉ-đọc [`IDoubleChartValue`](../idoublechartvalue). |
+| [YMinus](../../aspose.slides.charts/errorbarscustomvalues/yminus) { get; } | Xác định giá trị thanh lỗi theo hướng âm. Có sẵn nếu kiểu giá trị của thanh lỗi là Custom và ErrorBarsYFormat được phép. Trong bất kỳ trường hợp nào khác thuộc tính này trả về null. Chỉ-đọc [`IDoubleChartValue`](../idoublechartvalue). |
+| [YPlus](../../aspose.slides.charts/errorbarscustomvalues/yplus) { get; } | Xác định giá trị thanh lỗi theo hướng dương. Có sẵn nếu kiểu giá trị của thanh lỗi là Custom và ErrorBarsYFormat được phép. Trong bất kỳ trường hợp nào khác thuộc tính này trả về null. Chỉ-đọc [`IDoubleChartValue`](../idoublechartvalue). |
 
 ### Xem thêm
 

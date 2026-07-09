@@ -1,12 +1,12 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل عنصرًا نائبًا على شريحة.
 type: docs
 weight: 9430
 url: /ar/aspose.slides/placeholder/
 ---
-## فئة العنصر النائب
+## Placeholder فئة
 
 يمثل عنصرًا نائبًا على شريحة.
 
@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | الاسم | الوصف |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | يحصل أو يعيّن فهرس العنصر النائب. للقراءة فقط UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | يحصل أو يعيّن اتجاه العنصر النائب. للقراءة فقط [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | يحصل أو يعيّن حجم العنصر النائب. للقراءة فقط [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | يحصل أو يعيّن نوع العنصر النائب. للقراءة فقط [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | يحصل أو يضبط الفهرس لعنصر نائب. للقراءة فقط UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | يحصل أو يضبط الاتجاه لعنصر نائب. للقراءة فقط [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | يحصل أو يضبط الحجم لعنصر نائب. للقراءة فقط [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | يحصل أو يضبط النوع لعنصر نائب. للقراءة فقط [`PlaceholderType`](../placeholdertype). |
 
 ### انظر أيضًا
 

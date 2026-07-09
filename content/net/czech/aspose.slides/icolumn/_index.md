@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Slides pro .NET referenční příručka API
-description: Zastupuje sloupec v tabulce.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje sloupec v tabulce.
 type: docs
-weight: 5500
+weight: 5520
 url: /cs/aspose.slides/icolumn/
 ---
 ## IColumn rozhraní
 
-Zastupuje sloupec v tabulce.
+Představuje sloupec v tabulce.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -21,7 +21,7 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 | [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Umožňuje získat základní rozhraní IBulkTextFormattable. Pouze pro čtení [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Umožňuje získat základní rozhraní ICellCollection. Pouze pro čtení [`ICellCollection`](../icellcollection). |
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Vrací objekt ColumnFormat, který obsahuje vlastnosti formátování pro tento sloupec. Pouze pro čtení [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | Vrací nebo nastavuje šířku sloupce. Čtení/Zápis Double. |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | Vrací nebo nastavuje šířku sloupce. Čtení/zápis Double. |
 
 ### Viz také
 

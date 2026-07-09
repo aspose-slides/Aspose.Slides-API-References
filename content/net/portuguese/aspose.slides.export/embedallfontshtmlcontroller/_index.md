@@ -1,12 +1,12 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência da API .NET
 description: A classe de controlador de formatação a ser usada para incorporar todas as fontes da apresentação no formato WOFF.
 type: docs
-weight: 3740
+weight: 3760
 url: /pt/aspose.slides.export/embedallfontshtmlcontroller/
 ---
-## classe EmbedAllFontsHtmlController
+## EmbedAllFontsHtmlController classe
 
 A classe de controlador de formatação a ser usada para incorporar todas as fontes da apresentação no formato WOFF.
 
@@ -28,13 +28,13 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 | virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Escreve todas as fontes contidas em [`Presentation`](../../aspose.slides/presentation). |
 | virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Chamado para escrever o rodapé do documento html. Chamado uma vez por conversão de apresentação. |
 | virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Chamado para escrever o cabeçalho do documento html. Chamado uma vez por conversão de apresentação. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escreve dados como base64 no próprio documento HTML |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no generator, a geração da imagem do slide atual será concluída, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no generator, a geração da imagem do slide atual será concluída, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chamado para escrever o rodapé do slide html. Chamado uma vez para cada slide. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chamado para escrever o cabeçalho do slide html. Chamado uma vez para cada slide. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Escreve os dados como base64 no próprio documento HTML |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez por cada shape. Se esta função escrever algo no gerador, a geração da imagem do slide atual será concluída, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez por cada shape. Se esta função escrever algo no gerador, a geração da imagem do slide atual será concluída, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chamado para escrever o rodapé do slide html. Chamado uma vez por cada slide. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chamado para escrever o cabeçalho do slide html. Chamado uma vez por cada slide. |
 
-### Veja Também
+### Ver Também
 
 * interface [IHtmlFormattingController](../ihtmlformattingcontroller)
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)

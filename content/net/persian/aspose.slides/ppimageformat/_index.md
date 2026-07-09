@@ -1,6 +1,6 @@
 ---
 title: PPImageFormat
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: قالب‌های تصویر. این شمارش جایگزینی برای کلاس System.Drawing.Imaging.ImageFormat است. برای سازگاری با COM مورد نیاز است.
 type: docs
 weight: 9260
@@ -8,7 +8,7 @@ url: /fa/aspose.slides/ppimageformat/
 ---
 ## شمارش PPImageFormat
 
-قالب‌های تصویر. این شمارش جایگزینی برای کلاس `System.Drawing.Imaging.ImageFormat` است. برای سازگاری با COM مورد نیاز است.
+قالب‌های تصویر. این شمارش جایگزینی برای کلاس `System.Drawing.Imaging.ImageFormat` است. برای سازگاری با COM لازم است.
 
 ```csharp
 public enum PPImageFormat
@@ -24,12 +24,12 @@ public enum PPImageFormat
 | Gif | `3` | قالب Graphics Interchange Format (GIF) را دریافت می‌کند. |
 | Icon | `4` | قالب تصویر آیکون ویندوز را دریافت می‌کند. |
 | Jpeg | `5` | قالب Joint Photographic Experts Group (JPEG) را دریافت می‌کند. |
-| MemoryBmp | `6` | قالب یک bitmap در حافظه را دریافت می‌کند. |
+| MemoryBmp | `6` | قالب bitmap در حافظه را دریافت می‌کند. |
 | Png | `7` | قالب W3C Portable Network Graphics (PNG) را دریافت می‌کند. |
 | Tiff | `8` | قالب Tagged Image File Format (TIFF) را دریافت می‌کند. |
 | Wmf | `9` | قالب Windows metafile (WMF) را دریافت می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
 * فضای نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

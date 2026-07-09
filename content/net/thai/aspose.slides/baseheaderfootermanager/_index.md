@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้าย วันที่-เวลา และตัวยึดหมายเลขหน้าสำหรับทุกประเภทสไลด์
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: เป็นตัวจัดการที่เก็บพฤติกรรมของส่วนตารางด้านล่าง วันที่-เวลา ตัวแสดงเลขหน้า สำหรับสไลด์ทุกประเภท
 type: docs
 weight: 960
 url: /th/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager คลาส
 
-เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้าย, วันที่-เวลา, และตัวยึดหมายเลขหน้า สำหรับทุกประเภทสไลด์
+เป็นตัวจัดการที่เก็บพฤติกรรมของตารางด้านล่าง วันที่-เวลา ตัวแสดงเลขหน้า สำหรับสไลด์ทุกประเภท
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

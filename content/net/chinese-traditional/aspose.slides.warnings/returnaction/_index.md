@@ -1,6 +1,6 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示警告回呼決策選項。
 type: docs
 weight: 11820
@@ -18,8 +18,8 @@ public enum ReturnAction
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Continue | `0` | 操作應繼續。 |
-| Abort | `1` | 操作應中止。 |
+| Continue | `0` | 操作應該繼續。 |
+| Abort | `1` | 操作應該中止。 |
 
 ### 另請參閱
 

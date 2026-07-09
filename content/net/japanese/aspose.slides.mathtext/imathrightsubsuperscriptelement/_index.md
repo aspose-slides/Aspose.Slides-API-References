@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ベースの右側に配置された、ベースとサブスクリプトおよびスーパースクリプトから構成されるサブスクリプト/スーパースクリプト オブジェクトを指定します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ベースとベースの右側に配置された下付き文字と上付き文字からなるサブ・スーパースクリプトオブジェクトを指定します。
 type: docs
-weight: 8430
+weight: 8450
 url: /ja/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement インターフェイス
 
-ベースの右側に配置された、ベースとサブスクリプトおよびスーパースクリプトから構成されるサブスクリプト／スーパースクリプト オブジェクトを指定します。
+サブ・スーパースクリプト オブジェクトを指定します。このオブジェクトは、ベースとベースの右側に配置された下付き文字と上付き文字から構成されます。
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,11 +18,11 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | サブスクリプト/スーパースクリプトの配置を指定します。true の場合、サブスクリプトとスーパースクリプトは水平方向に揃えられます。false の場合、ベースの形状に合わせてカーニングされます。デフォルト値は false です。 |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | ベース IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できるようにします。 |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | 下付き文字/上付き文字の配置を指定します。true の場合、下付き文字と上付き文字は水平方向に揃えられます。false の場合、ベースの形状に合わせてカーニングされます。既定値は false です。 |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | ベース引数 |
-| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | サブスクリプト引数 |
-| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | スーパースクリプト引数 |
+| [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | 下付き文字引数 |
+| [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | 上付き文字引数 |
 
 ### 例
 

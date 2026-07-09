@@ -1,14 +1,14 @@
 ---
 title: ISection
-second_title: Aspose.Sildes cho .NET API Reference
-description: Biểu diễn một phần của slide.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho phần của các slide.
 type: docs
 weight: 6890
 url: /vi/aspose.slides/isection/
 ---
 ## ISection giao diện
 
-Biểu diễn một phần của slide.
+Đại diện cho phần của các slide.
 
 ```csharp
 public interface ISection

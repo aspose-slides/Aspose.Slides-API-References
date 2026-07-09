@@ -1,14 +1,14 @@
 ---
 title: ITint
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een Tint-effect. Verschuift de kleurwaarden van het effect naar of van de tint met de opgegeven hoeveelheid.
+description: Stelt een Tint-effect voor. Verschuift de kleurswaarden van het effect naar of van de tint met de opgegeven hoeveelheid.
 type: docs
 weight: 3540
 url: /nl/aspose.slides.effects/itint/
 ---
 ## ITint interface
 
-Vertegenwoordigt een Tint-effect. Verschuift de kleuwaarden van het effect naar of van de tint met de opgegeven hoeveelheid.
+Stelt een Tint-effect voor. Verschuift de kleurswaarden van het effect naar of van de tint, met de opgegeven hoeveelheid.
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -16,10 +16,10 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Staat toe de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Staat toe de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | Stelt toe de basis IAccessiblePVIObject interface op te halen. Alleen-lezen [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | Stelt toe de basis IImageTransformOperation interface op te halen. Alleen-lezen [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Zie ook
 

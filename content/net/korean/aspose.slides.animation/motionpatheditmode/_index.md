@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 대상 모양이 이동할 때 모션 경로가 이동하는 방식을 지정합니다
+description: 대상 도형이 이동될 때 모션 경로가 이동하는 방식을 지정합니다
 type: docs
 weight: 700
 url: /ko/aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode 열거형
 
-대상 모양이 이동할 때 모션 경로가 이동하는 방식을 지정합니다
+대상 모양이 이동될 때 모션 경로가 이동하는 방식을 지정합니다
 
 ```csharp
 public enum MotionPathEditMode

@@ -1,40 +1,40 @@
 ---
 title: MotionPath
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een bewegingspad voor.
+description: Representeert een bewegingspad.
 type: docs
 weight: 690
 url: /nl/aspose.slides.animation/motionpath/
 ---
 ## MotionPath klasse
 
-Geeft een bewegingspad weer.
+Representeer bewegingspad.
 
 ```csharp
 public class MotionPath : IMotionPath
 ```
 
-## Constructoren
+## Constructors
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [MotionPath](motionpath)() | De standaardconstructor. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | Geeft het aantal paden in de collectie terug. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.animation/motionpath/item) { get; } | Geeft een commando op de opgegeven index terug. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voeg een nieuw commando toe aan het pad |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voegt een nieuw commando toe aan het pad |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Verwijdert alle commando's uit de collectie. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Geeft een enumerator terug die door de collectie itereert. |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voeg een nieuw commando toe aan het pad |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Geeft een enumerator terug die door de collectie itereren. |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Voegt een nieuw commando in het pad in |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Verwijdert opgegeven commando's uit de collectie. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Verwijdert een commando op de opgegeven index. |
 

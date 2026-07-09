@@ -3,7 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 3-D プロパティを表します。
 type: docs
-weight: 11470
+weight: 11490
 url: /ja/aspose.slides/threedformat/
 ---
 ## ThreeDFormat クラス
@@ -18,17 +18,17 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | 底部 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
-| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | 上部 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | 底部の 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
+| [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | 上部の 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | カメラの設定を取得または設定します。読み取り専用 [`ICamera`](../icamera)。 |
 | [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | 輪郭の色を取得または設定します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 3D 輪郭の幅を取得または設定します。読み取り/書き込み Double。 |
-| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | 3D 形状の奥行きを取得または設定します。読み取り/書き込み Double。 |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 3D 輪郭の幅を取得または設定します。読み書き Double。 |
+| [Depth](../../aspose.slides/threedformat/depth) { get; set; } | 3D シェイプの深さを取得または設定します。読み書き Double。 |
 | [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | 押し出しの色を取得または設定します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 押し出し効果の高さを取得または設定します。読み取り/書き込み Double。 |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | 光源のタイプを取得または設定します。読み取り専用 [`ILightRig`](../ilightrig)。 |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | マテリアルのタイプを取得または設定します。読み取り/書き込み [`MaterialPresetType`](../materialpresettype)。 |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 押し出し効果の高さを取得または設定します。読み書き Double。 |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | ライトのタイプを取得または設定します。読み取り専用 [`ILightRig`](../ilightrig)。 |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | マテリアルのタイプを取得または設定します。読み書き [`MaterialPresetType`](../materialpresettype)。 |
 
 ## メソッド
 
@@ -40,7 +40,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ### 例
 
-以下の例は、PowerPoint プレゼンテーションに 3D 図形を追加する方法を示します。
+以下の例は、PowerPoint プレゼンテーションに 3D シェイプを追加する方法を示しています。
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation())
 	// TextFrame とそのプロパティを定義します。
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// ThreeDFormat のプロパティを定義します。
+	// ThreeDFormat プロパティを定義します。
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下の例は、PowerPoint プレゼンテーションの 3D 図形にグラデーション効果を適用する方法を示します。
+以下の例は、PowerPoint プレゼンテーションの 3D シェイプにグラデーション効果を適用する方法を示しています。
 
 ```csharp
 [C#]
@@ -82,7 +82,7 @@ using (Presentation pres = new Presentation())
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// ThreeDFormat のプロパティを定義します。
+	// ThreeDFormat プロパティを定義します。
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -96,7 +96,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-以下の例は、テキストに 3D 効果を適用する方法を示します。3D テキストを作成するには、WordArt の変形効果を使用できます。
+以下の例は、テキストに 3D 効果を適用する方法を示しています。3D テキストを作成するには、WordArt の変形効果を使用できます。
 
 ```csharp
 [C#]
@@ -110,7 +110,7 @@ using (Presentation pres = new Presentation())
 	// FillFormat.FillType を FillType.NoFill に設定します。
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// TextFrame の Portion を設定し、PortionFormat のプロパティを構成します。
+	// TextFrame の Portion を設定し、PortionFormat のプロパティを設定します。
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -134,7 +134,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 参照
+### 関連項目
 
 * クラス [PVIObject](../pviobject)
 * インターフェイス [IThreeDFormat](../ithreedformat)

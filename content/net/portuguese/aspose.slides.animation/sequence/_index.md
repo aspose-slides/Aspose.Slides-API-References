@@ -1,14 +1,14 @@
 ---
 title: Sequence
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma coleção de sequência de efeitos.
+description: Representa uma coleção de efeitos em sequência.
 type: docs
-weight: 770
+weight: 790
 url: /pt/aspose.slides.animation/sequence/
 ---
 ## Sequence classe
 
-Represents sequence (collection of effects).
+Representa uma sequência (coleção de efeitos).
 
 ```csharp
 public sealed class Sequence : ISequence
@@ -16,15 +16,15 @@ public sealed class Sequence : ISequence
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.animation/sequence/count) { get; } | Retorna o número de efeitos em uma sequência. Somente leitura Int32. |
 | [Item](../../aspose.slides.animation/sequence/item) { get; } | Retorna um efeito no índice especificado. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Retorna ou define o alvo de forma para a sequência INTERACTIVE. Se a sequência não for interativa, então retorna null. Leitura/gravação [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Retorna ou define o alvo da forma para sequência INTERACTIVE. Se a sequência não for interativa, retornará null. Leitura/gravação [`IShape`](../../aspose.slides/ishape). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Adiciona um novo efeito de animação para o parágrafo ao final da sequência. |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Adiciona um novo efeito ao final da sequência. |
@@ -34,12 +34,12 @@ public sealed class Sequence : ISequence
 | [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Retorna a contagem de efeitos para a forma especificada. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Retorna um array de efeitos para o parágrafo especificado. |
 | [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | Retorna um array de efeitos para a forma especificada. |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 | [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | Remove o efeito especificado de uma coleção. |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | Remove um efeito de uma coleção. |
-| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Remove o efeito para a forma especificada. |
+| [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | Remove o efeito da forma especificada. |
 
-### Ver Também
+### Veja Também
 
 * interface [ISequence](../isequence)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

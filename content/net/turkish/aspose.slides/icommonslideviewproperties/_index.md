@@ -1,12 +1,12 @@
 ---
 title: ICommonSlideViewProperties
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Ortak slayt görünüm özelliklerini temsil eder.
 type: docs
-weight: 5580
+weight: 5600
 url: /tr/aspose.slides/icommonslideviewproperties/
 ---
-## ICommonSlideViewProperties arabirimi
+## ICommonSlideViewProperties arayüz
 
 Ortak slayt görünüm özelliklerini temsil eder.
 
@@ -18,11 +18,11 @@ public interface ICommonSlideViewProperties
 
 | Ad | Açıklama |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Sadece okuma [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirler. Okunur/yazılır Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde sığacak şekilde otomatik olarak ölçeklenmesi gerektiğini belirler. Okunur/yazılır Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | Çizim kılavuzlarının koleksiyonunu döndürür. Salt okunur [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | Görünüm ölçekleme oranını yüzde olarak belirtir. Okuma/Yazma Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | Görünüm içeriğinin mevcut pencere boyutuna en iyi şekilde uyması için otomatik olarak ölçeklenmesi gerektiğini belirtir. Okuma/Yazma Boolean. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

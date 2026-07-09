@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili pola untuk mengisi sebuah bentuk.
 type: docs
-weight: 9330
+weight: 9350
 url: /id/aspose.slides/patternformat/
 ---
 ## PatternFormat kelas
@@ -16,21 +16,21 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya baca [`IPresentationComponent`](../ipresentationcomponent). |
-| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Mengembalikan warna pola latar belakang. Hanya baca [`IColorFormat`](../icolorformat). |
-| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Mengembalikan warna pola latar depan. Hanya baca [`IColorFormat`](../icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan memperoleh antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [BackColor](../../aspose.slides/patternformat/backcolor) { get; } | Mengembalikan warna pola latar belakang. Hanya-baca [`IColorFormat`](../icolorformat). |
+| [ForeColor](../../aspose.slides/patternformat/forecolor) { get; } | Mengembalikan warna pola latar depan. Hanya-baca [`IColorFormat`](../icolorformat). |
 | [PatternStyle](../../aspose.slides/patternformat/patternstyle) { get; set; } | Mengembalikan atau mengatur gaya pola. Baca/tulis [`PatternStyle`](../patternstyle). |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Membuat gambar ubin untuk isian pola. |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Membuat gambar ubin untuk isian pola dengan warna yang ditentukan. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | Membuat gambar ubin untuk pengisian pola. |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | Membuat gambar ubin untuk pengisian pola dengan warna yang ditentukan. |
 
 ### Lihat Juga
 

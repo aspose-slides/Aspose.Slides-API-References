@@ -1,6 +1,6 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: อนุญาตให้สร้าง IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 8970
@@ -18,7 +18,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | คอนสตรัคเตอร์เริ่มต้น |
+| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | คอนสตรัคเตอร์ค่าเริ่มต้น. |
 
 ## เมธอด
 

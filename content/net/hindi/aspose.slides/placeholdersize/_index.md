@@ -1,14 +1,14 @@
 ---
 title: PlaceholderSize
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक प्लेसहोल्डर का आकार दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एक प्लेसहोल्डर के आकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 9440
 url: /hi/aspose.slides/placeholdersize/
 ---
-## PlaceholderSize एन्यूमरेशन
+## PlaceholderSize एनेमरेशन
 
-एक प्लेसहोल्डर का आकार दर्शाता है।
+एक प्लेसहोल्डर के आकार का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum PlaceholderSize : sbyte
@@ -16,13 +16,13 @@ public enum PlaceholderSize : sbyte
 
 ### मान
 
-| नाम | मान | वर्णन |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| Full | `0` | पूर्ण। |
-| Half | `1` | आधा। |
-| Quarter | `2` | चौथाई। |
+| Full | `0` | Full. |
+| Half | `1` | Half. |
+| Quarter | `2` | Quarter. |
 
-### और देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

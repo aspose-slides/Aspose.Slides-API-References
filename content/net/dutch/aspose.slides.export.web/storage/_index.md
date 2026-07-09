@@ -1,14 +1,14 @@
 ---
 title: Storage
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een tijdelijke gegevensopslag voor voor WebDocument./webdocument.
+description: Stelt een tijdelijke gegevensopslag voor WebDocument./webdocument voor.
 type: docs
 weight: 4660
 url: /nl/aspose.slides.export.web/storage/
 ---
 ## Opslagklasse
 
-Stelt een tijdelijke gegevensopslag voor voor [`WebDocument`](../webdocument).
+Stelt een tijdelijke gegevensopslag voor [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage
@@ -25,7 +25,7 @@ public sealed class Storage
 | Naam | Beschrijving |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Bepaalt of de opslag een element bevat met de opgegeven sleutel. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Haalt de gegevens uit de opslag. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Haalt de gegevens op uit de opslag. |
 | [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Plaatst de waarde in de opslag. |
 
 ### Zie ook

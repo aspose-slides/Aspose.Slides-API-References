@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes .NET용 API 레퍼런스
-description: 로드할 문서의 형식을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 로드될 문서의 형식을 나타냅니다.
 type: docs
 weight: 7830
 url: /ko/aspose.slides/loadformat/
 ---
 ## LoadFormat 열거형
 
-로드할 문서의 형식을 나타냅니다.
+로드될 문서의 형식을 나타냅니다.
 
 ```csharp
 public enum LoadFormat
@@ -18,15 +18,15 @@ public enum LoadFormat
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Auto | `0` | Aspose.Slides가 형식을 자동으로 인식하도록 지시합니다. |
+| Auto | `0` | Aspose.Slides에 형식을 자동으로 인식하도록 지시합니다. |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 프레젠테이션. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 슬라이드 쇼. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 슬라이드쇼. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML 문서. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML 슬라이드 쇼. |
+| Ppsx | `4` | Microsoft Office Open XML PresentationML 슬라이드쇼. |
 | Odp | `5` | OpenOffice ODF 프레젠테이션. |
 | Potx | `6` | Microsoft Office Open XML PresentationML 템플릿. |
 | Pptm | `7` | Microsoft Office Open XML PresentationML 매크로 사용 문서. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML 매크로 사용 슬라이드 쇼. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML 매크로 사용 슬라이드쇼. |
 | Potm | `9` | Microsoft Office Open XML PresentationML 매크로 사용 템플릿. |
 | Otp | `10` | OpenOffice OTP 프레젠테이션 템플릿. |
 | Ppt95 | `11` | Microsoft PowerPoint 95 프레젠테이션. |

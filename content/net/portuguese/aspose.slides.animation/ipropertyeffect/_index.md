@@ -1,9 +1,9 @@
 ---
 title: IPropertyEffect
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o comportamento do efeito de propriedade.
 type: docs
-weight: 540
+weight: 560
 url: /pt/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect interface
@@ -18,7 +18,7 @@ public interface IPropertyEffect : IBehavior
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Permite obter a interface base IBehavior. Somente leitura [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Permite obter a interface IBehavior base. Somente leitura [`IBehavior`](../ibehavior). |
 | [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Especifica um valor de deslocamento relativo para a animação em relação à sua posição antes do início da animação. Leitura/gravação String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Especifica o modo de interpolação para a animação. Leitura/gravação [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Especifica o valor inicial da animação. Leitura/gravação String. |
@@ -26,7 +26,7 @@ public interface IPropertyEffect : IBehavior
 | [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | Especifica o valor final da animação. Leitura/gravação String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | Especifica o tipo de um valor de propriedade. Leitura/gravação [`PropertyValueType`](../propertyvaluetype). |
 
-### Ver também
+### Ver Também
 
 * interface [IBehavior](../ibehavior)
 * namespace [Aspose.Slides.Animation](../../aspose.slides.animation)

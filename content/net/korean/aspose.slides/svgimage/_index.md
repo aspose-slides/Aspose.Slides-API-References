@@ -1,6 +1,6 @@
 ---
 title: SvgImage
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: SVG 이미지를 나타냅니다.
 type: docs
 weight: 10800
@@ -16,7 +16,7 @@ public class SvgImage : ISvgImage
 
 ## 생성자
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [SvgImage](svgimage#constructor)(byte[]) | 새 SvgImage 객체를 생성합니다. |
 | [SvgImage](svgimage#constructor_2)(Stream) | 새 SvgImage 객체를 생성합니다. |
@@ -27,20 +27,20 @@ public class SvgImage : ISvgImage
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 지정된 Svg의 기본 URI를 반환합니다. 상대 링크를 해석하는 데 사용됩니다. 읽기 전용 String. |
-| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg 문서 가져오기 중 외부 리소스를 해석하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG 내용을 반환합니다. 읽기 전용 String. |
+| [BaseUri](../../aspose.slides/svgimage/baseuri) { get; } | 지정된 Svg의 기본 URI를 반환합니다. 상대 링크를 해결하는 데 사용됩니다. 읽기 전용 String. |
+| [ExternalResourceResolver](../../aspose.slides/svgimage/externalresourceresolver) { get; } | Svg 문서 가져오기 중 외부 리소스를 해결하는 데 사용되는 콜백 인터페이스를 반환합니다. 읽기 전용 [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/svgimage/svgcontent) { get; } | SVG 콘텐츠를 반환합니다. 읽기 전용 String. |
 | [SvgData](../../aspose.slides/svgimage/svgdata) { get; } | SVG 데이터를 반환합니다. 읽기 전용 Byte[]. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [WriteAsEmf](../../aspose.slides/svgimage/writeasemf)(Stream) | SVG 이미지를 EMF 파일로 저장합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ISvgImage](../isvgimage)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

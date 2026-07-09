@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
-second_title: مرجع API لـ Aspose.Sildes .NET
-description: تنسيقات الصور. هذا التعداد هو بديل لفئة System.Drawing.Imaging.ImageFormat. وهو مطلوب لتوافق COM.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: تنسيقات الصور. هذا التعداد هو بديل للفئة System.Drawing.Imaging.ImageFormat. وهو مطلوب لتوافق COM.
 type: docs
 weight: 9260
 url: /ar/aspose.slides/ppimageformat/
 ---
 ## تعداد PPImageFormat
 
-تنسيقات الصور. هذا التعداد هو بديل لفئة `System.Drawing.Imaging.ImageFormat`. وهو مطلوب لتوافق COM.
+تنسيقات الصور. هذا التعداد هو بديل للفئة `System.Drawing.Imaging.ImageFormat`. وهو مطلوب لتوافق COM.
 
 ```csharp
 public enum PPImageFormat
@@ -18,18 +18,18 @@ public enum PPImageFormat
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Bmp | `0` | يحصل على تنسيق الصورة bitmap (BMP). |
-| Emf | `1` | يحصل على تنسيق الصورة enhanced metafile (EMF). |
-| Exif | `2` | يحصل على تنسيق ملف الصورة القابل للتبادل (Exif). |
-| Gif | `3` | يحصل على تنسيق الصورة Graphics Interchange Format (GIF). |
-| Icon | `4` | يحصل على تنسيق صورة أيقونة Windows. |
-| Jpeg | `5` | يحصل على تنسيق الصورة Joint Photographic Experts Group (JPEG). |
-| MemoryBmp | `6` | يحصل على تنسيق صورة bitmap في الذاكرة. |
-| Png | `7` | يحصل على تنسيق الصورة W3C Portable Network Graphics (PNG). |
-| Tiff | `8` | يحصل على تنسيق الصورة Tagged Image File Format (TIFF). |
-| Wmf | `9` | يحصل على تنسيق صورة Windows metafile (WMF). |
+| Bmp | `0` | إرجاع تنسيق الصورة bitmap (BMP). |
+| Emf | `1` | إرجاع تنسيق الصورة enhanced metafile (EMF). |
+| Exif | `2` | إرجاع تنسيق الصورة Exchangeable Image File (Exif). |
+| Gif | `3` | إرجاع تنسيق الصورة Graphics Interchange Format (GIF). |
+| Icon | `4` | إرجاع تنسيق صورة أيقونة Windows. |
+| Jpeg | `5` | إرجاع تنسيق الصورة Joint Photographic Experts Group (JPEG). |
+| MemoryBmp | `6` | إرجاع تنسيق صورة bitmap في الذاكرة. |
+| Png | `7` | إرجاع تنسيق الصورة W3C Portable Network Graphics (PNG). |
+| Tiff | `8` | إرجاع تنسيق الصورة Tagged Image File Format (TIFF). |
+| Wmf | `9` | إرجاع تنسيق الصورة Windows metafile (WMF). |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

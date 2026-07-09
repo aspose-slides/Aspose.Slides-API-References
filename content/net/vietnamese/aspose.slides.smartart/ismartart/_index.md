@@ -1,14 +1,14 @@
 ---
 title: ISmartArt
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một sơ đồ SmartArt.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho một sơ đồ SmartArt.
 type: docs
 weight: 10540
 url: /vi/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt giao diện
 
-Biểu diễn một sơ đồ SmartArt.
+Đại diện cho một sơ đồ SmartArt.
 
 ```csharp
 public interface ISmartArt : IGraphicalObject
@@ -18,13 +18,13 @@ public interface ISmartArt : IGraphicalObject
 
 | Tên | Mô tả |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Trả về các tập hợp của tất cả các nút trong đối tượng SmartArt. Chỉ đọc [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Cho phép lấy giao diện cơ sở IGraphicalObject. Chỉ đọc [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Trả về hoặc đặt kiểu màu của đối tượng SmartArt. Đọc/ghi [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Trả về hoặc đặt trạng thái của sơ đồ SmartArt liên quan đến (trái sang phải) LTR hoặc (phải sang trái) RTL, nếu sơ đồ hỗ trợ đảo ngược. Đọc/ghi Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Trả về hoặc đặt bố cục của đối tượng SmartArt. Đọc/ghi [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Trả về các tập hợp của các nút gốc trong đối tượng SmartArt. Chỉ đọc [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Trả về hoặc đặt kiểu nhanh của đối tượng SmartArt. Đọc/ghi [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | Trả về tập hợp của tất cả các nút trong đối tượng SmartArt. Chỉ đọc [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | Cho phép lấy giao diện IGraphicalObject cơ bản. Chỉ đọc [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | Trả về hoặc thiết lập kiểu màu của đối tượng SmartArt. Đọc/ghi [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | Trả về hoặc thiết lập trạng thái của sơ đồ SmartArt liên quan đến (trái sang phải) LTR hoặc (phải sang trái) RTL, nếu sơ đồ hỗ trợ đảo ngược. Đọc/ghi Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | Trả về hoặc thiết lập bố cục của đối tượng SmartArt. Đọc/ghi [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | Trả về tập hợp các nút gốc trong đối tượng SmartArt. Chỉ đọc [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | Trả về hoặc thiết lập kiểu nhanh của đối tượng SmartArt. Đọc/ghi [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### Xem thêm
 

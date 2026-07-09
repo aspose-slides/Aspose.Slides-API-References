@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị tham chiếu thư viện kiểu OLE Automation đã được chỉnh sửa, trong đó tất cả các điều khiển được đánh dấu là có khả năng mở rộng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho tham chiếu thư viện loại OLE Automation đã được chỉnh sửa, trong đó mọi điều khiển đều được đánh dấu là có thể mở rộng.
 type: docs
 weight: 11600
 url: /vi/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib giao diện
 
-Biểu thị tham chiếu thư viện kiểu OLE Automation đã được chỉnh sửa, trong đó mọi điều khiển được đánh dấu là có khả năng mở rộng.
+Đại diện cho tham chiếu thư viện loại OLE Automation đã được chỉnh sửa, trong đó mọi điều khiển đều được đánh dấu là có thể mở rộng.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference

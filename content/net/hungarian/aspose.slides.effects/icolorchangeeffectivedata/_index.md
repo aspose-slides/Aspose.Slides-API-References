@@ -1,14 +1,14 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes .NET API referencia
-description: Változhatatlan objektum, amely egy Color Change effektust képvisel. A FromColor példányait a ToColor példányai helyettesítik.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Változtathatatlan objektum, amely egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
 type: docs
-weight: 3210
+weight: 3230
 url: /hu/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData interfész
 
-Változhatatlan objektum, amely a Color Change effektust képviseli. A FromColor példányait a ToColor példányai helyettesítik.
+Változtathatatlan objektum, amely egy Color Change hatást képvisel. A FromColor példányait a ToColor példányai helyettesítik.
 
 ```csharp
 public interface IColorChangeEffectiveData : IEffectEffectiveData
@@ -20,8 +20,8 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérdezését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | A helyettesítendő szín. Csak olvasható Color. |
-| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | A helyettesítő szín. Csak olvasható Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Visszatér egy logikai értékkel, amely meghatározza, hogy az alfa komponens használható-e. Csak olvasható Boolean. |
+| [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | A cserélendő szín. Csak olvasható Color. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Visszaad egy bool értéket, amely meghatározza, hogy az alfa komponens használható-e. Csak olvasható Boolean. |
 
 ### Lásd még
 

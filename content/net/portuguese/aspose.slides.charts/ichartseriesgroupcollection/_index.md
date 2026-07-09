@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes for .NET
 description: Representa a coleção de grupos de séries combináveis.
 type: docs
-weight: 1940
+weight: 1960
 url: /pt/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interface
@@ -22,7 +22,7 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ### Observações
 
-1) Cada grupo de séries contém séries com tipos combináveis. Grupos de tipos de séries combináveis são definidos e descritos com o enum CombinableSeriesTypesGroup. Também cada grupo de séries contém séries que são plotadas ou nos eixos principais ou nos eixos secundários (não ambos os casos em um mesmo grupo). Assim, o princípio de agrupamento de séries é um agrupamento pelos grupos de tipo mencionados acima e pelo tipo de plotagem principal/secundário. 2) O grupo de séries contém algumas propriedades de grupo de séries que são comuns a cada série no grupo (“propriedades de grupo de séries”). “Propriedades de grupo de séries” na classe ChartSeriesGroup é leitura/escrita. Cada “propriedade de grupo de séries” pode ter uma projeção somente-leitura na classe ChartSeries.
+1) Cada grupo de séries contém séries com tipos combináveis. Os grupos de tipos de séries combináveis são definidos e descritos com o enum CombinableSeriesTypesGroup. Também cada grupo de séries contém séries que são plotadas no eixo primário ou no eixo secundário (não ambos os casos em um mesmo grupo). Assim, o princípio de agrupamento de séries é um agrupamento pelos grupos de tipo mencionados acima e pelo tipo de plotagem primário/secundário. 2) O grupo de séries contém algumas propriedades de série que são comuns a todas as séries do grupo (“propriedades do grupo de séries”). As “propriedades do grupo de séries” na classe ChartSeriesGroup são leitura/gravação. Cada uma das “propriedades do grupo de séries” pode ter uma projeção somente-leitura na classe ChartSeries.
 
 ### Veja Também
 

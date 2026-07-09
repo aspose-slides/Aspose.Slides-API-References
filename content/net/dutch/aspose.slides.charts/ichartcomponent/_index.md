@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een component van een diagram voor.
+description: Stelt een component van een grafiek voor.
 type: docs
 weight: 1790
 url: /nl/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent interface
 
-Stelt een component van een diagram voor.
+Stelt een component van een grafiek voor.
 
 ```csharp
 public interface IChartComponent : ISlideComponent
@@ -18,7 +18,7 @@ public interface IChartComponent : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | Staat toe de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | Retourneert de grafiek. Alleen-lezen [`IChart`](../ichart). |
 
 ### Zie ook

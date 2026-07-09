@@ -1,14 +1,14 @@
 ---
 title: IHyperlink
 second_title: Aspose.Sildes برای .NET مرجع API
-description: یک پیوند را نشان می‌دهد.
+description: یک فراپیوند را نشان می‌دهد.
 type: docs
 weight: 6110
 url: /fa/aspose.slides/ihyperlink/
 ---
 ## IHyperlink رابط
 
-یک پیوند را نشان می‌دهد.
+یک فراپیوند را نشان می‌دهد.
 
 ```csharp
 public interface IHyperlink
@@ -18,27 +18,27 @@ public interface IHyperlink
 
 | نام | توضیح |
 | --- | --- |
-| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | نوع عمل HyperLinkEx را برمی‌گرداند. فقط‌خواندنی [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | منبع رنگ پیوند را نشان می‌دهد - یا سبک‌ها یا قالب بخش. قابل‌نوشتن [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | آدرس URL خارجی را مشخص می‌کند. اگر این ویژگی مقدار غیر‌خالی داشته باشد، ویژگی TargetSlide مقدار خالی می‌شود. فقط‌خواندنی String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | یک پیوند را که برای این بخش تنظیم شده است بدون توجه به محتوای واقعی بخش نشان می‌دهد. PowerPoint رفتار خاصی برای پیوندها و متن متناظر آنها در یک بخش دارد. این امکان را می‌دهد که متن پیوند را به صورت یک URL معتبر ایجاد کنید، که متفاوت از آدرس واقعی پیوند است. در این حالت، هنگامی که پیوند را در پنجره ویرایش مشاهده می‌کنید، به متن بخش تغییر می‌کند. این ویژگی مقدار اصلی پیوند را نشان می‌دهد. |
-| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | تعیین می‌کند که آیا پیوند در زمان کلیک باید برجسته شود یا نه. قابل‌نوشتن Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | تعیین می‌کند که آیا هدف پیوند والد هنگام فراخوانی به فهرست پیوندهای مشاهده‌شده اضافه شود یا نه. قابل‌نوشتن Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | صدای پخش‌شده توسط پیوند را نشان می‌دهد. قابل‌نوشتن [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | تعیین می‌کند که آیا صدا هنگام کلیک بر روی پیوند متوقف شود یا نه. قابل‌نوشتن Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | قاب داخل مجموعه‌فریم‌های HTML والد برای هدف پیوند والد را در صورت وجود برمی‌گرداند. قابل‌نوشتن String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | اگر HyperlinkEx به اسلاید خاصی اشاره کند، این اسلاید را برمی‌گرداند. اگر این ویژگی مقدار غیر‌خالی داشته باشد، ویژگی ExternalUrl مقدار خالی می‌شود. فقط‌خواندنی [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | رشته‌ای را برمی‌گرداند که می‌تواند در رابط کاربری به عنوان مرتبط با پیوند والد نمایش داده شود. قابل‌نوشتن String. |
+| [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | نوع عمل HyperLinkEx را باز می‌گرداند. فقط‌خواندنی [`HyperlinkActionType`](../hyperlinkactiontype). |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | منبع رنگ فراپیوند را نشان می‌دهد - یا استایل‌ها یا قالب بخش. قابل‌خواندن و نوشتن [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | آدرس URL خارجی را مشخص می‌کند. اگر این ویژگی مقدار غیر تهی بگیرد، ویژگی TargetSlide مقدار تهی می‌شود. فقط‌خواندنی String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | یک فراپیوند را که برای این بخش تنظیم شده است بدون در نظر گرفتن محتوی واقعی بخش نشان می‌دهد. PowerPoint رفتار خاصی برای پیوندها و متن متناظر آنها در یک بخش دارد. این امکان را می‌دهد که متن فراپیوند را به شکل یک URL معتبر ایجاد کنید که متفاوت از آدرس واقعی پیوند است. در این حالت، هنگامی که پیوند را در پنجره ویرایش مشاهده می‌کنید، به متن بخش تغییر خواهد کرد. این ویژگی مقدار اصلی فراپیوند را نشان می‌دهد. |
+| [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | تعیین می‌کند آیا فراپیوند در هنگام کلیک برجسته شود یا نه. قابل‌خواندن و نوشتن Boolean. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | تعیین می‌کند آیا هدف فراپیوند والد هنگام فراخوانی به فهرست فراپیوندهای مشاهده‌شده افزوده شود یا نه. قابل‌خواندن و نوشتن Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | صدای پخش‌ شده فراپیوند را نشان می‌دهد. قابل‌خواندن و نوشتن [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | تعیین می‌کند آیا صدا هنگام کلیک بر فراپیوند متوقف شود یا نه. قابل‌خواندن و نوشتن Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | قاب داخل مجموعه قاب‌های HTML والد برای هدف فراپیوند والد را در صورت وجود باز می‌گرداند. قابل‌خواندن و نوشتن String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | اگر HyperlinkEx به اسلاید خاصی هدف داشته باشد، این اسلاید را باز می‌گرداند. اگر این ویژگی مقدار غیر تهی بگیرد، ویژگی ExternalUrl مقدار تهی می‌شود. فقط‌خواندنی [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | رشته‌ای را که ممکن است در رابط کاربری به عنوان مرتبط با فراپیوند والد نمایش داده شود، باز می‌گرداند. قابل‌خواندن و نوشتن String. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | تعیین می‌کند که آیا دو نمونه Hyperlink برابر هستند یا نه. |
+| [Equals](../../aspose.slides/ihyperlink/equals)(IHyperlink) | تعیین می‌کند آیا دو نمونه Hyperlink برابر هستند یا نه. |
 
 ### موارد مرتبط
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

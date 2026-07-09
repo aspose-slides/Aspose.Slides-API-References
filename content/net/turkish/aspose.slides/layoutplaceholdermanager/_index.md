@@ -1,12 +1,12 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Düzen slaytına yer tutucular eklemenizi sağlayan yöneticiyi temsil eder.
 type: docs
-weight: 7610
+weight: 7630
 url: /tr/aspose.slides/layoutplaceholdermanager/
 ---
-## LayoutPlaceholderManager sınıf
+## LayoutPlaceholderManager sınıfı
 
 Yer tutucuları düzen slaytına eklemenizi sağlayan yöneticiyi temsil eder.
 
@@ -14,14 +14,14 @@ Yer tutucuları düzen slaytına eklemenizi sağlayan yöneticiyi temsil eder.
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 ```
 
-## Methods
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Düzen slaytına bir grafik tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Düzen slaytına bir resim, tablo, medya veya metin gibi içeriği tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Düzen slaytına bir medya nesnesi tutmak için yeni bir yer tutucu şekli ekler. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Düzen slaytına çevrimiçi bir görüntü tutmak için yeni bir yer tutucu şekli ekler. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Düzen slaytına çevrimiçi bir görsel tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Düzen slaytına bir resim tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Düzen slaytına bir SmartArt diyagramı tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Düzen slaytına bir tablo tutmak için yeni bir yer tutucu şekli ekler. |
@@ -29,7 +29,7 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 | [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Düzen slaytına dikey yönde bir resim, tablo, medya veya metin gibi içeriği tutmak için yeni bir yer tutucu şekli ekler. |
 | [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Düzen slaytına dikey yönde metin içeriği tutmak için yeni bir yer tutucu şekli ekler. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

@@ -8,7 +8,7 @@ url: /vi/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature giao diện
 
-Chữ ký số trong tệp đã ký.
+Digital signature in signed file.
 
 ```csharp
 public interface IDigitalSignature
@@ -18,9 +18,9 @@ public interface IDigitalSignature
 
 | Tên | Mô tả |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Đối tượng chứng chỉ được sử dụng để ký tài liệu. Chỉ đọc X509Certificate2. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Đối tượng Certificate được sử dụng để ký tài liệu. Chỉ đọc X509Certificate2. |
 | [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | Mục đích của chữ ký. Đọc/ghi String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Nếu chữ ký số này hợp lệ và tài liệu không bị làm giả, giá trị này sẽ là true. Chỉ đọc Boolean. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Nếu chữ ký số này hợp lệ và tài liệu không bị giả mạo, giá trị này sẽ là true. Chỉ đọc Boolean. |
 | [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | Thời gian tài liệu được ký. Chỉ đọc DateTime. |
 
 ### Xem thêm

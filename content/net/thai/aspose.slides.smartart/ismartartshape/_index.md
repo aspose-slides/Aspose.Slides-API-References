@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShape
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของรูปทรงภายในแผนภาพ SmartArt
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนรูปทรงที่อยู่ภายในไดอะแกรม SmartArt
 type: docs
 weight: 10570
 url: /th/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape อินเทอร์เฟซ
 
-เป็นตัวแทนของรูปทรงภายในแผนภาพ SmartArt
+แทนรูปทรงที่อยู่ภายในไดอะแกรม SmartArt
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape
@@ -18,8 +18,8 @@ public interface ISmartArtShape : IGeometryShape
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Allows to get base IGeometryShape interface. อ่านอย่างเดียว [`IGeometryShape`](../../aspose.slides/igeometryshape). |
-| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Returns text of the SmartArt shape. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | อนุญาตให้รับอินเทอร์เฟซ IGeometryShape พื้นฐาน อ่านอย่างเดียว [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | คืนข้อความของรูปทรง SmartArt. อ่านอย่างเดียว [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### ดูเพิ่มเติม
 

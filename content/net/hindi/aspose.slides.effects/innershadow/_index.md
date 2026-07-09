@@ -1,14 +1,14 @@
 ---
 title: InnerShadow
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: एक Inner Shadow प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Inner Shadow प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 3600
 url: /hi/aspose.slides.effects/innershadow/
 ---
 ## InnerShadow वर्ग
 
-Represents a Inner Shadow effect.
+Inner Shadow प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class InnerShadow : IInnerShadow
@@ -21,17 +21,17 @@ public sealed class InnerShadow : IInnerShadow
 | [BlurRadius](../../aspose.slides.effects/innershadow/blurradius) { get; set; } | ब्लर त्रिज्या। पढ़ें/लिखें Double। |
 | [Direction](../../aspose.slides.effects/innershadow/direction) { get; set; } | छाया की दिशा। पढ़ें/लिखें Single। |
 | [Distance](../../aspose.slides.effects/innershadow/distance) { get; set; } | छाया की दूरी। पढ़ें/लिखें Double। |
-| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ें [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [ShadowColor](../../aspose.slides.effects/innershadow/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/innershadow/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`InnerShadow`](../innershadow) वर्तमान [`InnerShadow`](../innershadow) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | विरासत लागू होने पर प्रभावी Inner Shadow इफ़ेक्ट डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| [GetEffective](../../aspose.slides.effects/innershadow/geteffective)() | प्रभावी Inner Shadow प्रभाव डेटा प्राप्त करता है जिसमें विरासत लागू की गई है। |
+| override [GetHashCode](../../aspose.slides.effects/innershadow/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IInnerShadow](../iinnershadow)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

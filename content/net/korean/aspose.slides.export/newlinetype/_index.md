@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes for .NET API 참조
-description: 생성된 문서에서 사용할 새 줄 유형입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 생성된 문서에서 사용될 새 줄 유형입니다.
 type: docs
 weight: 4280
 url: /ko/aspose.slides.export/newlinetype/
 ---
 ## NewLineType 열거형
 
-생성된 문서에서 사용할 새 줄 유형입니다.
+생성된 문서에서 사용될 새 줄 유형입니다.
 
 ```csharp
 public enum NewLineType
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: VbaProjectFactory
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo dự án VBA thông qua giao diện COM
 type: docs
 weight: 11660
@@ -14,26 +14,26 @@ Cho phép tạo dự án VBA thông qua giao diện COM
 public class VbaProjectFactory : IVbaProjectFactory
 ```
 
-## Constructors
+## Hàm khởi tạo
 
 | Name | Description |
 | --- | --- |
-| [VbaProjectFactory](vbaprojectfactory)() | Bộ khởi tạo mặc định. |
+| [VbaProjectFactory](vbaprojectfactory)() | Hàm khởi tạo mặc định. |
 
-## Properties
+## Thuộc tính
 
 | Name | Description |
 | --- | --- |
 | static [Instance](../../aspose.slides.vba/vbaprojectfactory/instance) { get; } | Thực thể tĩnh của nhà máy dự án VBA. Chỉ đọc [`VbaProjectFactory`](../vbaprojectfactory). |
 
-## Methods
+## Phương thức
 
 | Name | Description |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/vbaprojectfactory/createvbaproject)() | Tạo dự án VBA mới. |
-| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Đọc dự án VBA từ bộ chứa OLE. |
+| [ReadVbaProject](../../aspose.slides.vba/vbaprojectfactory/readvbaproject)(byte[]) | Đọc dự án VBA từ container OLE. |
 
-### See Also
+### Xem thêm
 
 * giao diện [IVbaProjectFactory](../ivbaprojectfactory)
 * không gian tên [Aspose.Slides.Vba](../../aspose.slides.vba)

@@ -1,14 +1,14 @@
 ---
 title: TransitionLeftRightDirectionType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 왼쪽과 오른쪽 값으로 제한되는 방향을 지정합니다.
+description: 왼쪽 및 오른쪽 값으로 제한된 방향을 지정합니다.
 type: docs
 weight: 10380
 url: /ko/aspose.slides.slideshow/transitionleftrightdirectiontype/
 ---
 ## TransitionLeftRightDirectionType 열거형
 
-왼쪽과 오른쪽 값으로 제한되는 방향을 지정합니다.
+왼쪽 및 오른쪽 값으로 제한된 방향을 지정합니다.
 
 ```csharp
 public enum TransitionLeftRightDirectionType
@@ -21,7 +21,7 @@ public enum TransitionLeftRightDirectionType
 | Left | `0` |  |
 | Right | `1` |  |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 어셈블리 [Aspose.Slides](../../)

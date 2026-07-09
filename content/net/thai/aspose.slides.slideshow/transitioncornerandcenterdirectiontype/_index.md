@@ -6,17 +6,17 @@ type: docs
 weight: 10340
 url: /th/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## TransitionCornerAndCenterDirectionType enumeration
+## TransitionCornerAndCenterDirectionType enum
 
-กำหนดทิศทางที่จำกัดอยู่ที่มุมและศูนย์กลาง.
+ระบุทิศทางที่จำกัดอยู่ที่มุมและศูนย์กลาง
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType
 ```
 
-### Values
+### ค่า
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | LeftDown | `0` |  |
 | LeftUp | `1` |  |
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * แอสเซมบลี [Aspose.Slides](../../)

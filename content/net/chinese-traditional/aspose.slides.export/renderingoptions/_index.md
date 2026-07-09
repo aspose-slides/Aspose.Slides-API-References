@@ -1,6 +1,6 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 提供控制簡報/投影片如何呈現的選項。
 type: docs
 weight: 4410
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到來源字型時使用的字型。可讀寫 String。 |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 取得或設定是否在渲染文字時不使用連字。設定為 `true` 時，渲染輸出將停用連字。預設為 `false`。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | 提供控制匯出文件中 Ink 物件外觀的選項。只讀 [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表以百分比保存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 返回或設定在找不到來源字型時使用的字型。可讀寫 String。 |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | 取得或設定指示文字是否在渲染時不使用連字的值。設定為 `true` 時，連字將在渲染輸出中被停用。預設情況下，此屬性設定為 `false`。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 返回或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | 提供控制匯出文件中墨跡物件外觀的選項。唯讀 [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於以百分比儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過帶有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報時投影片在頁面上的放置模式 [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 返回或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 範例
 

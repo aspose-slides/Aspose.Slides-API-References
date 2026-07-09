@@ -1,9 +1,9 @@
 ---
 title: ThreeDFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili properti 3-D.
 type: docs
-weight: 11470
+weight: 11490
 url: /id/aspose.slides/threedformat/
 ---
 ## ThreeDFormat kelas
@@ -18,7 +18,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
 | [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | Mengembalikan atau mengatur tipe bevel 3D bagian bawah. Hanya-baca [`IShapeBevel`](../ishapebevel). |
 | [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | Mengembalikan atau mengatur tipe bevel 3D bagian atas. Hanya-baca [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | Mengembalikan atau mengatur pengaturan kamera. Hanya-baca [`ICamera`](../icamera). |
@@ -35,7 +35,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
-| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Mendapatkan data pemformatan 3-D yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides/threedformat/geteffective)() | Mendapatkan data format 3-D yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 
 ### Contoh
@@ -44,15 +44,15 @@ Contoh berikut menunjukkan cara menambahkan bentuk 3D dalam Presentasi PowerPoin
 
 ```csharp
 [C#]
-// Buat instance kelas Presentation.
+// Membuat instance kelas Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Tambahkan shape menggunakan metode AddAutoShape
+	// Menambahkan bentuk menggunakan metode AddAutoShape
     IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 200, 200);
-	// Definisikan TextFrame dan propertinya
+	// Menetapkan TextFrame dan propertinya
     shape.TextFrame.Text = "3D";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Definisikan Properti ThreeDFormat
+	// Menetapkan Properti ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -61,7 +61,7 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Simpan file Presentation
+	// Menyimpan file Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
@@ -70,19 +70,19 @@ Contoh berikut menunjukkan cara menerapkan efek Gradien pada bentuk 3D dalam Pre
 
 ```csharp
 [C#]
-// Buat instance kelas Presentation.
+// Membuat instance kelas Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Tambahkan shape menggunakan metode AddAutoShape
+	// Menambahkan bentuk menggunakan metode AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Definisikan TextFrame dan propertinya
+	// Mendefinisikan TextFrame dan propertinya
     shape.TextFrame.Text = "3D Gradient";
     shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 64;
-	// Konfigurasikan FillFormat.FillType sebagai FillType.Gradient dan definisikan properti gradient
+	// Mengonfigurasi FillFormat.FillType sebagai FillType.Gradient dan mendefinisikan properti gradien
 	shape.FillFormat.FillType = FillType.Gradient;
     shape.FillFormat.GradientFormat.GradientStops.Add(0, Color.Blue);
     shape.FillFormat.GradientFormat.GradientStops.Add(100, Color.Orange);
-	// Definisikan Properti ThreeDFormat
+	// Mendefinisikan Properti ThreeDFormat
     shape.ThreeDFormat.Camera.CameraType = CameraPresetType.OrthographicFront;
     shape.ThreeDFormat.Camera.SetRotation(20, 30, 40);
     shape.ThreeDFormat.LightRig.LightType = LightRigPresetType.Flat;
@@ -91,26 +91,26 @@ using (Presentation pres = new Presentation())
     shape.ThreeDFormat.ExtrusionHeight = 100;
     shape.ThreeDFormat.ExtrusionColor.Color = Color.Blue;
     pres.Slides[0].GetThumbnail(2, 2).Save("sample_3d.png");
-	// Simpan file Presentation
+	// Menyimpan file Presentation
     pres.Save("sandbox_3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-Contoh berikut menunjukkan cara menerapkan efek 3D pada teks. Untuk membuat teks 3D, dapat menggunakan efek transformasi WordArt.
+Contoh berikut menunjukkan cara menerapkan efek 3D pada teks. Untuk membuat teks 3D dapat menggunakan efek transformasi WordArt.
 
 ```csharp
 [C#]
-// Buat instance kelas Presentation.
+// Membuat instance kelas Presentation.
 using (Presentation pres = new Presentation())
 {
-	// Tambahkan shape menggunakan metode AddAutoShape
+	// Menambahkan bentuk menggunakan metode AddAutoShape
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// Definisikan TextFrame dan propertinya
+	// Mendefinisikan TextFrame dan propertinya
     shape.TextFrame.Text = "3D Text";
-	// Konfigurasikan FillFormat.FillType sebagai FillType.NoFill
+	// Mengonfigurasi FillFormat.FillType sebagai FillType.NoFill
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// Konfigurasikan Portion dari TextFrame dan properti PortionFormat
+	// Mengonfigurasi Portion dari TextFrame dan mengatur properti PortionFormat
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,9 +118,9 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // siapkan efek transformasi WordArt "Arch Up"
+    // menyiapkan efek transformasi WordArt "Arch Up"
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// Definisikan Properti ThreeDFormat dari ITextFrame
+	// Mendefinisikan Properti ThreeDFormat dari ITextFrame
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
@@ -129,7 +129,7 @@ using (Presentation pres = new Presentation())
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
     pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
-	// Simpan file Presentation
+	// Menyimpan file Presentation
      pres.Save("text3d.pptx", SaveFormat.Pptx);
 }
 ```

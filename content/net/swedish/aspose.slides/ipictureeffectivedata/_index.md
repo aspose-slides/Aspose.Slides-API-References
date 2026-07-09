@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som innehåller effektiva bildegenskaper.
 type: docs
-weight: 6620
+weight: 6640
 url: /sv/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData gränssnitt
@@ -18,9 +18,9 @@ public interface IPictureEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Returnerar den inbäddade bilden. Endast läsning [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Returnerar samlingen av bildtransformeringseffekter. Endast läsning [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Returnerar länkad bilds URL. Endast läsning String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Returnerar den inbäddade bilden. Skrivskyddad [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Returnerar samlingen av bildtransformeringseffekter. Skrivskyddad [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Returnerar länkat bildens URL. Skrivskyddad String. |
 
 ### Anmärkningar
 

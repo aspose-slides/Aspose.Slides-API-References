@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um formato de gradiente.
 type: docs
-weight: 5980
+weight: 6000
 url: /pt/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interface
@@ -21,12 +21,12 @@ public interface IGradientFormat : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Permite obter a interface base IFillParamSource. Somente leitura [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Retorna ou define o estilo de um gradiente. Leitura/gravação [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Retorna ou define a forma de um gradiente. Leitura/gravação [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Retorna a coleção de paradas de gradiente. Somente leitura [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Retorna a coleção de pontos de gradiente. Somente leitura [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Retorna ou define o ângulo de um gradiente. Leitura/gravação Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determina se um gradiente está dimensionado. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Determina se um gradiente é dimensionado. Leitura/gravação [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Retorna ou define o modo de inversão para um gradiente. Leitura/gravação [`TileFlip`](../tileflip). |
 
-### Veja também
+### Veja Também
 
 * interface [IFillParamSource](../ifillparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

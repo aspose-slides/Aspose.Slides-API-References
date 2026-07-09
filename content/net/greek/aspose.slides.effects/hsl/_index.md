@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα εφέ Απόχρωσης/Κορεσμού/Φωτεινότητας. Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν ανάλογα με την τρέχουσα τιμή τους.
+description: Αναπαριστά ένα εφέ Hue/Saturation/Luminance. Το hue, το saturation και το luminance μπορούν να προσαρμοστούν αντίστοιχα σε σχέση με την τρέχουσα τιμή τους.
 type: docs
-weight: 2990
+weight: 3010
 url: /el/aspose.slides.effects/hsl/
 ---
 ## HSL κλάση
 
-Αναπαριστά ένα εφέ Απόχρωσης/Κορεσμού/Φωτεινότητας. Η απόχρωση, ο κορεσμός και η φωτεινότητα μπορούν να ρυθμιστούν ανάλογα με την τρέχουσα τιμή τους.
+Αναπαριστά ένα εφέ Hue/Saturation/Luminance. Το hue, το saturation και το luminance μπορούν να προσαρμοστούν αντίστοιχα σε σχέση με την τρέχουσα τιμή τους.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -24,8 +24,8 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Καθορίζει αν το συγκεκριμένο [`HSL`](../hsl) είναι ίσο με το τρέχον [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Αποκτά τα δεδομένα του αποτελεσματικού εφέ Απόχρωση/Κορεσμός/Φωτεινότητα με την κληρονομική εφαρμογή. |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Καθορίζει αν το καθορισμένο [`HSL`](../hsl) είναι ίσο με το τρέχον [`HSL`](../hsl). |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Λαμβάνει τα δεδομένα του αποτελεσματικού εφέ Hue/Saturation/Luminance με την εφαρμογή της κληρονομικότητας. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης

@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: IMathNaryOperator のプロパティを指定します
 type: docs
-weight: 8360
+weight: 8380
 url: /ja/aspose.slides.mathtext/imathnaryoperatorproperties/
 ---
 ## IMathNaryOperatorProperties インターフェイス
@@ -18,11 +18,11 @@ public interface IMathNaryOperatorProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 演算子文字は、オペランドの高さに合わせて縦方向に伸びます |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | 下付きを非表示にする |
-| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | 上付きを非表示にする |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 制限（下付きと上付き）の位置 |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary Operator Character の例: '∑', '∫' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | 演算子文字はオペランドの高さに合わせて垂直方向に伸長します |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | 下付き文字を非表示にする |
+| [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | 上付き文字を非表示にする |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | 下付き文字と上付き文字の位置 |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | Nary 演算子文字 例: '∑', '∫' |
 
 ### 参照
 

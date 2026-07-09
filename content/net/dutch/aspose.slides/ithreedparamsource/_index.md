@@ -1,14 +1,14 @@
 ---
 title: IThreeDParamSource
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Auxiliaire interface voor bron van 3D-eigenschappen
+description: auxiliaire interface voor bron van 3D-eigenschappen
 type: docs
 weight: 7350
 url: /nl/aspose.slides/ithreedparamsource/
 ---
 ## IThreeDParamSource interface
 
-Auxiliaire interface voor bron van 3D-eigenschappen
+auxiliaire interface voor 3D-eigenschappenbron
 
 ```csharp
 public interface IThreeDParamSource

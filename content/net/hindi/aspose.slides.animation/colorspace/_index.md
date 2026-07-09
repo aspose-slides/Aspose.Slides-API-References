@@ -1,12 +1,12 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: रंग प्रभाव व्यवहार के लिए रंग स्थान का प्रतिनिधित्व करता है।
 type: docs
 weight: 250
 url: /hi/aspose.slides.animation/colorspace/
 ---
-## ColorSpace एन्यूमरेशन
+## ColorSpace enumeration
 
 रंग प्रभाव व्यवहार के लिए रंग स्थान का प्रतिनिधित्व करता है।
 

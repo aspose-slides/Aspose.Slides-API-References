@@ -1,14 +1,14 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Özel xml parçalarının koleksiyonunu temsil eder.
 type: docs
-weight: 2730
+weight: 2750
 url: /tr/aspose.slides/customxmlpartcollection/
 ---
-## CustomXmlPartCollection sınıfı
+## CustomXmlPartCollection sınıf
 
-Koleksiyondaki özel xml parçalarını temsil eder.
+Özel xml parçalarının koleksiyonunu temsil eder.
 
 ```csharp
 public class CustomXmlPartCollection : ICustomXmlPartCollection
@@ -19,9 +19,9 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/customxmlpartcollection/count) { get; } | Koleksiyondaki özel xml parçalarının sayısını döndürür. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Belirtilen indeksdeki öğeyi döndürür. |
-| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Bir eşzamanlama kökü döndürür. Salt okunur Object. |
+| [IsSynchronized](../../aspose.slides/customxmlpartcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değeri döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/customxmlpartcollection/item) { get; } | Belirtilen indeksteki öğeyi döndürür. |
+| [SyncRoot](../../aspose.slides/customxmlpartcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
@@ -32,11 +32,11 @@ public class CustomXmlPartCollection : ICustomXmlPartCollection
 | [Add](../../aspose.slides/customxmlpartcollection/add#add_2)(string) | Yeni bir özel xml parçası ekler. |
 | [Clear](../../aspose.slides/customxmlpartcollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [CopyTo](../../aspose.slides/customxmlpartcollection/copyto)(Array, int) | Belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides/customxmlpartcollection/getenumerator)() | Koleksiyonun içinde dolaşan bir yineleyici döndürür. |
 | [Remove](../../aspose.slides/customxmlpartcollection/remove)(ICustomXmlPart) | Koleksiyondan belirli bir nesnenin ilk oluşumunu kaldırır. |
-| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Belirtilen indeksteki özel xml parçayı kaldırır. |
+| [RemoveAt](../../aspose.slides/customxmlpartcollection/removeat)(int) | Belirtilen indeksteki özel xml parçasını kaldırır. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * arayüz [ICustomXmlPartCollection](../icustomxmlpartcollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)

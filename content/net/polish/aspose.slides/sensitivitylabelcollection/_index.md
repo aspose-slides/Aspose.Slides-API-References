@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET - dokumentacja API
 description: Reprezentuje kolekcję etykiet wrażliwości zastosowanych w dokumencie.
 type: docs
-weight: 9790
+weight: 9810
 url: /pl/aspose.slides/sensitivitylabelcollection/
 ---
 ## SensitivityLabelCollection klasa
 
-Reprezentuje kolekcję etykiet wrażliwości zastosowanych do dokumentu.
+Reprezentuje kolekcję etykiet wrażliwości zastosowanych w dokumencie.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -27,11 +27,11 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 | Nazwa | Opis |
 | --- | --- |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Dodaje SensitivityLabel do kolekcji. |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Dodaje etykietę wrażliwości na końcu kolekcji. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Dodaje etykietę wrażliwości na koniec kolekcji. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Kopiuje wszystkie elementy z kolekcji do określonej tablicy. |
 | [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
-| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Usuwa etykietę wrażliwości pod określonym indeksem. |
+| [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Usuwa etykietę wrażliwości podanym indeksem. |
 
 ### Zobacz także
 

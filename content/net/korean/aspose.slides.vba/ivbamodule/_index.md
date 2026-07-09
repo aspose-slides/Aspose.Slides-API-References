@@ -1,6 +1,6 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: VBA 프로젝트에 포함된 모듈을 나타냅니다.
 type: docs
 weight: 11530
@@ -18,8 +18,8 @@ public interface IVbaModule
 
 | 이름 | 설명 |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | 모듈의 이름. 읽기 전용 String. |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | 모듈의 소스 코드. 읽기/쓰기 String. |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | 모듈의 이름입니다. 읽기 전용 String. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | 모듈의 소스 코드입니다. 읽기/쓰기 String. |
 
 ### 참조
 

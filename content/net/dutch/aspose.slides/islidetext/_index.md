@@ -18,7 +18,7 @@ public interface ISlideText
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | De tekst van de opmerkingen van de dia |
+| [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | De tekst van de diaopmerkingen |
 | [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | De tekst op de vormen van de lay-outpagina voor deze dia |
 | [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | De tekst op de vormen van de masterpagina voor deze dia |
 | [NotesText](../../aspose.slides/islidetext/notestext) { get; } | De tekst op de vormen van de notitiepagina voor deze dia |

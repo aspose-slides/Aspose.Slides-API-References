@@ -1,39 +1,39 @@
 ---
 title: FontData
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Vertegenwoordigt een fontdefinitie. Onveranderlijk.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een lettertype-definitie voor. Onveranderlijk.
 type: docs
 weight: 4820
 url: /nl/aspose.slides/fontdata/
 ---
 ## FontData klasse
 
-Vertegenwoordigt een fontdefinitie. Onveranderlijk.
+Stelt een lettertype-definitie voor. Onveranderlijk.
 
 ```csharp
 public sealed class FontData : IFontData
 ```
 
-## Constructors
+## Constructeurs
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [FontData](fontdata)(string) | Maakt een nieuw FontData-object met de opgegeven fontnaam. |
+| [FontData](fontdata)(string) | Maakt een nieuw FontData-object met de opgegeven lettertype-naam. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Geeft de fontnaam terug. Lees/schrijf String. |
+| [FontName](../../aspose.slides/fontdata/fontname) { get; } | Retourneert de lettertype-naam. Lezen/Schrijven String. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/fontdata/equals)(object) | Bepaalt of twee FontData-instanties gelijk zijn. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Geeft de fontnaam terug, waarbij de themaverwijzing wordt vervangen door een daadwerkelijk gebruikte font. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Retourneert de lettertype-naam, waarbij de themaverwijzing wordt vervangen door een daadwerkelijk gebruikt lettertype. |
 | override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
-| override [ToString](../../aspose.slides/fontdata/tostring)() | Geeft de tekenreeksrepresentatie terug. |
+| override [ToString](../../aspose.slides/fontdata/tostring)() | Retourneert de tekenreeksrepresentatie. |
 
 ### Zie ook
 

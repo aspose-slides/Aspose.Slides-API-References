@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/iimagecollection/
 ---
 ## IImageCollection 介面
 
-表示 PPImage 的集合。
+Represents collection of PPImage.
 
 ```csharp
 public interface IImageCollection : IGenericCollection<IPPImage>
@@ -18,19 +18,19 @@ public interface IImageCollection : IGenericCollection<IPPImage>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/iimagecollection/item) { get; } | 依索引傳回圖像。 |
+| [Item](../../aspose.slides/iimagecollection/item) { get; } | 根據索引傳回影像。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報加入圖像的副本。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | 從 SVG 物件將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 從記憶體串流加入圖像。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 從串流將圖像新增至簡報。 |
-| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並將圖像新增至簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_3)(byte[]) | 從指定的緩衝區將影像加入簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage)(IImage) | 將影像加入簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_1)(IPPImage) | 從另一個簡報新增影像的副本。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_2)(ISvgImage) | 從 SVG 物件將影像加入簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_4)(MemoryStream) | 從記憶體串流加入影像。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_5)(Stream) | 從串流將影像加入簡報。 |
+| [AddImage](../../aspose.slides/iimagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 從串流建立並將影像加入簡報。 |
 
 ### 參見
 

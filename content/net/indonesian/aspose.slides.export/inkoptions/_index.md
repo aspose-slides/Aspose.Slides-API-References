@@ -3,7 +3,7 @@ title: InkOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor.
 type: docs
-weight: 4200
+weight: 4220
 url: /id/aspose.slides.export/inkoptions/
 ---
 ## InkOptions kelas

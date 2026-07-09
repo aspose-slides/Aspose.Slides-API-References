@@ -1,14 +1,14 @@
 ---
 title: IAdjustValue
-second_title: Aspose.Sildes for .NET API リファレンス
-description: ジオメトリ シェイプの調整値を表します。これらの値はシェイプの形状に影響します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: ジオメトリ形状の調整値を表します。これらの値は形状の形に影響します。
 type: docs
-weight: 5160
+weight: 5180
 url: /ja/aspose.slides/iadjustvalue/
 ---
 ## IAdjustValue インターフェイス
 
-ジオメトリ シェイプの調整値を表します。これらの値はシェイプの形状に影響します。
+ジオメトリ形状の調整値を表します。これらの値は形状の形に影響します。
 
 ```csharp
 public interface IAdjustValue
@@ -18,10 +18,10 @@ public interface IAdjustValue
 
 | 名前 | 説明 |
 | --- | --- |
-| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 値を取得または設定します。角度（度）として解釈されます。読み取り/書き込み Single. |
+| [AngleValue](../../aspose.slides/iadjustvalue/anglevalue) { get; set; } | 値を取得または設定します。角度（度）として解釈します。読み取り/書き込み Single. |
 | [Name](../../aspose.slides/iadjustvalue/name) { get; } | この調整値の名前を取得します。読み取り専用 String. |
 | [RawValue](../../aspose.slides/iadjustvalue/rawvalue) { get; set; } | 調整値をそのまま取得または設定します。読み取り/書き込み Int64. |
-| [Type](../../aspose.slides/iadjustvalue/type) { get; } | シェイプの調整のタイプを取得します。読み取り専用 [`ShapeAdjustmentType`](../shapeadjustmenttype). |
+| [Type](../../aspose.slides/iadjustvalue/type) { get; } | 形状の調整タイプを取得します。読み取り専用 [`ShapeAdjustmentType`](../shapeadjustmenttype). |
 
 ### 参照
 

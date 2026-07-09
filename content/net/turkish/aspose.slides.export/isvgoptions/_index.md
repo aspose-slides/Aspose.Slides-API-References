@@ -1,12 +1,12 @@
 ---
 title: ISVGOptions
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir SVG seçeneğini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: SVG seçeneklerini temsil eder.
 type: docs
-weight: 4040
+weight: 4060
 url: /tr/aspose.slides.export/isvgoptions/
 ---
-## ISVGOptions arayüzü
+## ISVGOptions arabirimi
 
 SVG seçeneklerini temsil eder.
 
@@ -19,22 +19,22 @@ public interface ISVGOptions : ISaveOptions
 | Ad | Açıklama |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Salt okunur [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Kesilmiş parçaların belge içinde kalıp kalmayacağını gösteren bir Boolean bayrağı. true ise kesilmiş parçalar kaldırılır, false ise belge içinde serileştirilir (bu daha büyük bir dosyaya neden olabilir) Okunur/yazılabilir Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | SVG'de 3D metnin devre dışı bırakılıp bırakılmayacağını belirler. Okunur/yazılabilir Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Metnin ligatürler kullanılmadan işlenip işlenmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında, ligatürler çıktıda devre dışı bırakılacaktır. Varsayılan olarak bu özellik `false` değerindedir. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | FromCornerX ve FromCenter gradyanlarının bölünmesini devre dışı bırakır. Okunur/yazılabilir Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1, işaretçiler için boşluk tanımlama yeteneğine sahip değildir. Aspose.Slides SVG yazma motoru bu soruna bir geçici çözüm sunar: oklu çizginin ucunu kırpar, böylece çizgi işaretçilerin üzerine binmez. Bu seçenek bu davranışı kapatır. Okunur/yazılabilir Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Dışarıdan yüklenen yazı tiplerinin işlenme biçimini belirler. Okunur/yazılabilir [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekleri sağlar. Salt okunur [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | JPEG kodlama kalitesini belirler. Okunur/yazılabilir Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Metafile rasterleştirme için alt çözünürlük sınırını döndürür veya ayarlar. Okunur/yazılabilir Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Resim sıkıştırma seviyesini temsil eder. Okunur/yazılabilir [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Kullanıcının şekil dönüştürmeyi kontrol etmesine izin veren bir geri çağırma arayüzünü döndürür ve ayarlar. Okunur/yazılabilir [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Render işlemi sırasında şeklin belirtilen dönüşünün uygulanıp uygulanmayacağını belirler. Okunur/yazılabilir Boolean. Varsayılan değer true'tur. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Metin çerçevesinin render alanına dahil edilip edilmeyeceğini belirler. Okunur/yazılabilir Boolean. Varsayılan değer false'tur. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Slayttaki metnin grafik olarak kaydedilip kaydedilmeyeceğini belirler. Okunur/yazılabilir Boolean. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Kesilen parçaların belge içinde kalıp kalmayacağını gösteren bir Boolean işareti. true ise kesilen parçalar kaldırılır, false ise belge içinde serileştirilecektir (bu daha büyük bir dosyaya yol açabilir) Okuma/Yazma Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | SVG'de 3D metnin devre dışı bırakılıp bırakılmayacağını belirler. Okuma/Yazma Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Metnin ligaturalar kullanılmadan render edilip edilmediğini gösteren bir değeri alır veya ayarlar. `true` olarak ayarlandığında ligaturalar render çıktısında devre dışı bırakılır. Varsayılan olarak bu özellik `false` değerindedir. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | FromCornerX ve FromCenter gradyanların bölünmesini devre dışı bırakır. Okuma/Yazma Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1, işaretçiler için öteler tanımlama yeteneğine sahip değildir. Aspose.Slides SVG yazma motoru bu sorun için bir geçici çözüm sağlar: oklu satırın ucunu kırpar, böylece satır işaretçilerin üzerine çıkmaz. Bu seçenek bu davranışı kapatır. Okuma/Yazma Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Harici yüklenen yazı tiplerinin işlenme şeklini belirler. Okuma/Yazma [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Dışa aktarılan belgede Ink nesnelerinin görünümünü kontrol eden seçenekler sunar. Salt okunur [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | JPEG kodlama kalitesini belirler. Okuma/Yazma Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Metafile rasterleştirme için alt çözünürlük limitini alır veya ayarlar. Okuma/Yazma Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Resim sıkıştırma seviyesini temsil eder. Okuma/Yazma [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Kullanıcının şekil dönüşümünü kontrol etmesine izin veren bir geri çağırma arayüzünü alır ve ayarlar. Okuma/Yazma [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Render sırasında şeklin belirtilen döndürülmesinin uygulanıp uygulanmayacağını belirler. Okuma/Yazma Boolean. Varsayılan değer true'tir. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Metin çerçevesinin render alanına dahil edilip edilmeyeceğini belirler. Okuma/Yazma Boolean. Varsayılan değer false'tir. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Slayttaki metnin grafik olarak kaydedilip kaydedilmeyeceğini belirler. Okuma/Yazma Boolean. |
 
-### Ayrıca Bakınız
+### Diğer Bilgiler
 
 * arayüz [ISaveOptions](../isaveoptions)
 * ad alanı [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: ColorEffect
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์สีสำหรับพฤติกรรมแอนิเมชัน.
+description: แสดงถึงเอฟเฟกต์สีสำหรับพฤติกรรมแอนิเมชัน
 type: docs
 weight: 230
 url: /th/aspose.slides.animation/coloreffect/
 ---
-## ColorEffect คลาส
+## คลาส ColorEffect
 
-แสดงเอฟเฟกต์สีสำหรับพฤติกรรมแอนิเมชัน.
+แสดงถึงเอฟเฟกต์สีสำหรับพฤติกรรมแอนิเมชัน
 
 ```csharp
 public class ColorEffect : Behavior, IColorEffect
@@ -16,23 +16,23 @@ public class ColorEffect : Behavior, IColorEffect
 
 ## ตัวสร้าง
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ColorEffect](coloreffect)() | สร้างอินสแตนซ์ใหม่. |
+| [ColorEffect](coloreffect)() | สร้างอินสแตนซ์ใหม่ |
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | แสดงว่าพฤติกรรมแอนิเมชันถูกสะสมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | แสดงว่าพฤติกรรมแอนิเมชันปัจจุบันถูกรวมกับแอนิเมชันที่กำลังทำงานอื่น ๆ หรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | อธิบายค่าการชดเชยเชิงสัมพัทธ์สำหรับการแอนิเมชันสี. อ่าน/เขียน [`IColorOffset`](../icoloroffset). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | บ่งบอกว่าพฤติกรรมแอนิเมชั่นถูกรวบรวมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | บ่งบอกว่าพฤติกรรมแอนิเมชั่นปัจจุบันถูกผสานกับแอนิเมชั่นอื่นที่กำลังทำงานอยู่หรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/coloreffect/by) { get; set; } | อธิบายค่าการชดเชยเชิงสัมพัทธ์สำหรับแอนิเมชั่นสี. อ่าน/เขียน [`IColorOffset`](../icoloroffset). |
 | [ColorSpace](../../aspose.slides.animation/coloreffect/colorspace) { get; set; } | แสดงพื้นที่สีของพฤติกรรม. อ่าน/เขียน [`ColorSpace`](../colorspace). |
-| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | ระบุทิศทางที่วนค่า hue รอบล้อสี. อ่าน/เขียน [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | ค่านี้ใช้สำหรับระบุสีเริ่มต้นของพฤติกรรม. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | แสดงคุณสมบัติของพฤติกรรม. อ่านเท่านั้น [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงคุณสมบัติการตั้งเวลาสำหรับพฤติกรรมเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | อธิบายสีผลลัพธ์สำหรับการเปลี่ยนสีของแอนิเมชัน. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Direction](../../aspose.slides.animation/coloreffect/direction) { get; set; } | ระบุทิศทางที่สีจะหมุนรอบวงล้อสี. อ่าน/เขียน [`ColorDirection`](../colordirection). |
+| [From](../../aspose.slides.animation/coloreffect/from) { get; set; } | ค่านี้ใช้เพื่อระบุสีเริ่มต้นของพฤติกรรม. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | แสดงคุณสมบัติของพฤติกรรม. อ่านอย่างเดียว [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงคุณสมบัติเวลา สำหรับพฤติกรรมเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/coloreffect/to) { get; set; } | อธิบายสีที่ได้จากการเปลี่ยนสีของแอนิเมชั่น. อ่าน/เขียน [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### ดูเพิ่มเติม
 

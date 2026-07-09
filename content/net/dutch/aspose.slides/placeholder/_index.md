@@ -6,7 +6,7 @@ type: docs
 weight: 9430
 url: /nl/aspose.slides/placeholder/
 ---
-## Placeholderklasse
+## Placeholder klasse
 
 Stelt een placeholder op een dia voor.
 
@@ -18,10 +18,10 @@ public class Placeholder : IPlaceholder
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | Haalt op of stelt de index van een placeholder in. Alleen-lezen UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Haalt op of stelt de oriëntatie van een placeholder in. Alleen-lezen [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | Haalt op of stelt de grootte van een placeholder in. Alleen-lezen [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | Haalt op of stelt het type van een placeholder in. Alleen-lezen [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | Haalt de index van een placeholder op of stelt deze in. Alleen-lezen UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | Haalt de oriëntatie van een placeholder op of stelt deze in. Alleen-lezen [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | Haalt de grootte van een placeholder op of stelt deze in. Alleen-lezen [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | Haalt het type van een placeholder op of stelt dit in. Alleen-lezen [`PlaceholderType`](../placeholdertype). |
 
 ### Zie ook
 

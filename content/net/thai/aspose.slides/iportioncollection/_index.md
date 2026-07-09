@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของส่วน
+description: แสดงคอลเลกชันของ Portion.
 type: docs
 weight: 6710
 url: /th/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของส่วน
+แสดงคอลเลกชันของ Portion.
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -16,23 +16,23 @@ public interface IPortionCollection : IEnumerable<IPortion>
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | คืนค่า IEnumerable interface. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริง ๆ. อ่านอย่างเดียว Int32. |
+| [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | เพิ่ม Portion ไปยังตำแหน่งท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/iportioncollection/clear)() | ลบทุกองค์ประกอบจากคอลเลกชัน. |
-| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | ตรวจสอบว่า ICollection มีค่าที่ระบุหรือไม่. |
-| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | หาตำแหน่งของ Portion ที่ระบุในคอลเลกชัน. |
-| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | แทรก Portion ลงในคอลเลกชันที่ตำแหน่งที่ระบุ. |
-| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ลบการเกิดขึ้นแรกของอ็อบเจกต์ที่ระบุจาก ICollection. |
-| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุในคอลเลกชัน. |
+| [Add](../../aspose.slides/iportioncollection/add)(IPortion) | เพิ่ม Portion ไปที่ส่วนท้ายของคอลเลกชัน. |
+| [Clear](../../aspose.slides/iportioncollection/clear)() | ลบทุกองค์ประกอบออกจากคอลเลกชัน. |
+| [Contains](../../aspose.slides/iportioncollection/contains)(IPortion) | กำหนดว่า ICollection มีค่าที่ระบุหรือไม่. |
+| [IndexOf](../../aspose.slides/iportioncollection/indexof)(IPortion) | กำหนดดัชนีของ Portion ที่ระบุในคอลเลกชัน. |
+| [Insert](../../aspose.slides/iportioncollection/insert)(int, IPortion) | แทรก Portion เข้าไปในคอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [Remove](../../aspose.slides/iportioncollection/remove)(IPortion) | ลบการปรากฏครั้งแรกของอ็อบเจ็กต์ที่ระบุจาก ICollection. |
+| [RemoveAt](../../aspose.slides/iportioncollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

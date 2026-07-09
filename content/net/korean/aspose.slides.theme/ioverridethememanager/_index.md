@@ -19,10 +19,10 @@ public interface IOverrideThemeManager : IThemeManager
 | 이름 | 설명 |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | 기본 IThemeManager 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 효과적인 테마를 재정의하는지 여부를 결정합니다. 재정의를 위해 OverrideTheme를 활성화하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 재정의를 하지 않도록 비활성화하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 실제 테마를 재정의하는지 여부를 결정합니다. OverrideTheme를 재정의하도록 활성화하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 재정의하지 않도록 하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 재정의 테마 객체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IThemeManager](../ithememanager)
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)

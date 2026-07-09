@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt de kleurruimte voor het gedrag van kleureffecten.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Geeft de kleurruimte voor het gedrag van kleureffecten weer.
 type: docs
 weight: 250
 url: /nl/aspose.slides.animation/colorspace/
 ---
 ## ColorSpace enumeratie
 
-Stelt de kleurruimte voor het gedrag van kleureffecten.
+Geeft de kleurruimte voor het gedrag van kleureffecten weer.
 
 ```csharp
 public enum ColorSpace

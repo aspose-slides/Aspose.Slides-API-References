@@ -1,6 +1,6 @@
 ---
 title: ControlCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: คอลเลกชันของคอนโทรล ActiveX.
 type: docs
 weight: 2700
@@ -16,23 +16,23 @@ public class ControlCollection : IControlCollection
 
 ## คุณสมบัติ
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/controlcollection/count) { get; } | คืนค่าจำนวนวัตถุในคอลเลกชัน อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันเป็นแบบประสาน (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/controlcollection/item) { get; } | คืนค่าคอนโทรลที่ตำแหน่งที่ระบุ. |
-| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | คืนค่ารากของการประสาน อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides/controlcollection/count) { get; } | คืนค่าจำนวนวัตถุในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/controlcollection/issynchronized) { get; } | คืนค่าที่ระบุว่าการเข้าถึงคอลเลกชันได้รับการประสาน (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides/controlcollection/item) { get; } | คืนค่าคอนโทรลที่ตำแหน่งที่กำหนด. |
+| [SyncRoot](../../aspose.slides/controlcollection/syncroot) { get; } | คืนค่ารากฐานการประสาน. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
-| Name | คำอธิบาย |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่ลงในคอลเลกชัน. |
-| [Clear](../../aspose.slides/controlcollection/clear)() | ลบคอนโทรลทั้งหมดจากคอลเลกชัน. |
+| [AddControl](../../aspose.slides/controlcollection/addcontrol)(ControlType, float, float, float, float) | สร้างและเพิ่มคอนโทรลใหม่เข้าสู่คอลเลกชัน. |
+| [Clear](../../aspose.slides/controlcollection/clear)() | ลบคอนโทรลทั้งหมดออกจากคอลเลกชัน. |
 | [CopyTo](../../aspose.slides/controlcollection/copyto)(Array, int) | คัดลอกคอลเลกชันทั้งหมดไปยังอาเรย์ที่ระบุ. |
 | [GetEnumerator](../../aspose.slides/controlcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | ลบ ActiveX control ออกจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | ลบ ActiveX control ที่เก็บไว้ที่ตำแหน่งที่ระบุจากคอลเลกชัน. |
+| [Remove](../../aspose.slides/controlcollection/remove)(IControl) | ลบคอนโทรล ActiveX ออกจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/controlcollection/removeat)(int) | ลบคอนโทรล ActiveX ที่จัดเก็บไว้ที่ตำแหน่งที่ระบุออกจากคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar samlingen av taggar, användardefinierade par av strängar
+description: Representerar samlingen av taggar som är användardefinierade par av strängar
 type: docs
-weight: 10870
+weight: 10890
 url: /sv/aspose.slides/tagcollection/
 ---
-## TagCollection klass
+## TagCollection-klass
 
 Representerar samlingen av taggar (användardefinierade par av strängar)
 
@@ -16,16 +16,16 @@ public sealed class TagCollection : ITagCollection
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.slides/tagcollection/count) { get; } | Returnerar antalet taggar i samlingen. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomsten till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Returnerar eller sätter ett nyckel- och värdepar för en tagg. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Returnerar eller anger ett nyckel- och värdepar för en tagg. |
 | [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | Lägger till en ny tagg i samlingen. |
 | [Clear](../../aspose.slides/tagcollection/clear)() | Tar bort alla taggar från samlingen. |
@@ -36,7 +36,7 @@ public sealed class TagCollection : ITagCollection
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Returnerar namn på taggar. |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Returnerar värdet för en tagg på det angivna indexet. |
 | [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Returnerar det nollbaserade indexet för den angivna nyckeln i samlingen. |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | Tar bort taggen med ett angivet namn från samlingen. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Tar bort taggen med ett specificerat namn från samlingen. |
 | [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Tar bort taggen på det angivna indexet. |
 
 ### Exempel

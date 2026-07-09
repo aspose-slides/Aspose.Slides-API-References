@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Effect van gesplitste diaovergang.
+description: Split dia overgangseffect.
 type: docs
 weight: 10330
 url: /nl/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition klasse
 
-Effect van gesplitste diaovergang.
+Split dia overgangseffect.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Richting van de gesplitste overgang. Lezen/Schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Oriëntatie van de gesplitste overgang. Lezen/Schrijven [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | Richting van overgangssplit. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | Oriëntatie van overgangssplit. Lezen/schrijven [`Orientation`](../../aspose.slides/orientation). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

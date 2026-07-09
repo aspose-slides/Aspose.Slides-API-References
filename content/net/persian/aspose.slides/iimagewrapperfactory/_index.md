@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes برای مرجع API .NET
-description: این رابط امکان مقداردهی اولیه IBitmapWrapper را فراهم می‌کند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: این رابط امکان مقداردهی اولیه به IBitmapWrapper را فراهم می‌کند.
 type: docs
 weight: 6180
 url: /fa/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory رابط
 
-این رابط امکان مقداردهی اولیه IBitmapWrapper را فراهم می‌کند.
+این رابط امکان مقداردهی اولیه به IBitmapWrapper را فراهم می‌کند.
 
 ```csharp
 public interface IImageWrapperFactory
@@ -18,11 +18,11 @@ public interface IImageWrapperFactory
 
 | نام | توضیح |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | یک نمونه جدید از کلاس ImageWrapper را از تصویر موجود مشخص‌شده ایجاد می‌کند. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | یک نمونه جدید از کلاس ImageWrapper را از جریان دادهٔ مشخص‌شده ایجاد می‌کند. |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | یک نمونه جدید از کلاس ImageWrapper را از فایل مشخص‌شده ایجاد می‌کند. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | یک نمونه جدید از کلاس ImageWrapper را از تصویر موجود مشخص‌شده مقداردهی اولیه می‌کند. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | یک نمونه جدید از کلاس ImageWrapper را از جریان داده مشخص‌شده مقداردهی اولیه می‌کند. |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | یک نمونه جدید از کلاس ImageWrapper را از فایل مشخص‌شده مقداردهی اولیه می‌کند. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجوعه [Aspose.Slides](../../)

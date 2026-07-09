@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho loại hiệu ứng lệnh cho hành vi hiệu ứng lệnh.
+description: Biểu thị kiểu hiệu ứng lệnh cho hành vi hiệu ứng lệnh.
 type: docs
 weight: 270
 url: /vi/aspose.slides.animation/commandeffecttype/
 ---
-## CommandEffectType liệt kê
+## Liệt kê CommandEffectType
 
-Đại diện cho loại hiệu ứng lệnh cho hành vi hiệu ứng lệnh.
+Biểu thị kiểu hiệu ứng lệnh cho hành vi hiệu ứng lệnh.
 
 ```csharp
 public enum CommandEffectType : sbyte

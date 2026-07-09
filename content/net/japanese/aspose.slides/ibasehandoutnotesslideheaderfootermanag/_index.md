@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレースホルダーの動作を保持するマネージャーを表します。すべてのタイプのハンドアウトおよびノートスライドのヘッダープレースホルダーを含みます。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: すべての種類のハンドアウトおよびノートスライドのヘッダープレースホルダーを含む、プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 5270
+weight: 5290
 url: /ja/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag インターフェイス
 
-プレースホルダーの動作を保持するマネージャーを表します。すべての種類のハンドアウトおよびノートスライドのヘッダープレースホルダーを含みます。
+プレースホルダーの動作を保持するマネージャーを表します。これには、すべての種類のハンドアウトおよびノートスライドのヘッダープレースホルダーが含まれます。
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -30,7 +30,7 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ### 備考
 
-元のインターフェイス名 "IBaseHandoutNotesSlideHeaderFooterManager" は、COM 互換性のために "IBaseHandoutNotesSlideHeaderFooterManag" に切り詰められています（型名の長さは 39 文字以内でなければなりません）。
+COM 互換性のため、元のインターフェイス名 "IBaseHandoutNotesSlideHeaderFooterManager" は "IBaseHandoutNotesSlideHeaderFooterManag" に切り詰められます（型名の長さは 39 文字以下である必要があります）。
 
 ### 参照
 

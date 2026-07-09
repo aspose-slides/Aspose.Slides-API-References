@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
 second_title: Aspose.Sildes .NET용 API 참조
-description: 효과적인 라인 서식 속성을 포함하는 불변 객체입니다.
+description: 유효한 라인 서식 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 6320
 url: /ko/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData 인터페이스
 
-상속이 적용된 라인 서식 속성을 포함하는 불변 객체입니다.
+유효한 라인 서식 속성을 포함하는 불변 객체.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -16,7 +16,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | 라인 정렬을 반환합니다. 읽기 전용 [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | 기본 ILineParamSource 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ILineParamSource`](../ilineparamsource). |
@@ -30,7 +30,7 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | 라인 끝 부분의 화살표 머리 스타일을 반환합니다. 읽기 전용 [`LineArrowheadStyle`](../linearrowheadstyle). |
 | [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | 라인 끝 부분의 화살표 머리 너비를 반환합니다. 읽기 전용 [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | 라인의 채우기 형식을 반환합니다. 읽기 전용 [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
-| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 라인 연결 스타일을 반환합니다. 읽기 전용 [`LineJoinStyle`](../linejoinstyle). |
+| [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | 라인 결합 스타일을 반환합니다. 읽기 전용 [`LineJoinStyle`](../linejoinstyle). |
 | [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | 라인의 마이터 제한을 반환합니다. 읽기 전용 Single. |
 | [SketchFormat](../../aspose.slides/ilineformateffectivedata/sketchformat) { get; } | 라인의 스케치 형식을 반환합니다. 읽기 전용 [`ISketchFormatEffectiveData`](../isketchformateffectivedata). |
 | [Style](../../aspose.slides/ilineformateffectivedata/style) { get; } | 라인 스타일을 반환합니다. 읽기 전용 [`LineStyle`](../linestyle). |
@@ -38,15 +38,15 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 두 ILineFormatEffectiveData 인스턴스가 동일한지 여부를 결정합니다. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | 두 ILineFormatEffectiveData 인스턴스가 같은지 여부를 결정합니다. |
 
 ### 비고
 
-이 인터페이스는 [`ILineFormat`](../ilineformat) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
+이 인터페이스는 [`ILineFormat`](../ilineformat) 인터페이스와 함께 사용되어 상속이 적용된 유효한 서식 값을 반환합니다.
 
-### 참조
+### 참고
 
 * 인터페이스 [ILineParamSource](../ilineparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

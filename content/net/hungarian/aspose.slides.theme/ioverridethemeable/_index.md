@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: Aspose.Sildes .NET API referencia
-description: Felülbírja a téma-kezelőt.
+second_title: Aspose.Sildes a .NET API referencia
+description: Felülírt téma kezelőt képviseli.
 type: docs
-weight: 11340
+weight: 11360
 url: /hu/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable interfész
 
-Felülbírja a téma-kezelőt.
+Az felülírt téma kezelőt képviseli.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IOverrideThemeable : IThemeable
 | Név | Leírás |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | Visszaadja az IThemeable interfészt. Csak olvasható [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Visszaadja a felülbíráló téma-kezelőt. Csak olvasható [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | Visszaadja a felülírt téma kezelőt. Csak olvasható [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### Lásd még
 

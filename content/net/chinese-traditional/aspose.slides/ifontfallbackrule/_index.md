@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示字型備援規則
+description: 代表字型回退規則
 type: docs
 weight: 5850
 url: /zh-hant/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule 介面
 
-代表字型備援規則
+代表字型回退規則
 
 ```csharp
 public interface IFontFallBackRule
@@ -18,7 +18,7 @@ public interface IFontFallBackRule
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | 取得在範圍內實際定義的字型數量。 |
+| [Count](../../aspose.slides/ifontfallbackrule/count) { get; } | 取得範圍實際定義的字型數量。 |
 | [Item](../../aspose.slides/ifontfallbackrule/item) { get; } | 取得指定索引處的字型名稱。 |
 | [RangeEndIndex](../../aspose.slides/ifontfallbackrule/rangeendindex) { get; } | 取得連續 Unicode 範圍的最後索引。 |
 | [RangeStartIndex](../../aspose.slides/ifontfallbackrule/rangestartindex) { get; } | 取得連續 Unicode 範圍的第一索引。 |
@@ -27,16 +27,16 @@ public interface IFontFallBackRule
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 將新的字型 (或字型群) 新增至備援字型清單。 |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 將新的字型新增至備援字型清單。 |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | 將新的字型（或多個字型）新增至回退字型清單。 |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | 將新的字型新增至回退字型清單。 |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | 從清單中移除所有字型。 |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | 傳回集合中指定規則的索引。 |
-| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 從清單中移除第一個出現的特定備援字型。 |
-| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | 從清單中移除指定索引處的備援字型。 |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | 建立並傳回包含此規則所有備援字型的陣列。 |
-| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍的所有備援字型陣列。 |
+| [Remove](../../aspose.slides/ifontfallbackrule/remove)(string) | 從清單中移除第一次出現的特定回退字型。 |
+| [RemoveAt](../../aspose.slides/ifontfallbackrule/removeat)(int) | 從清單中移除指定索引處的回退字型。 |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray)() | 建立並傳回此規則的所有回退字型陣列。 |
+| [ToArray](../../aspose.slides/ifontfallbackrule/toarray#toarray_1)(int, int) | 建立並傳回清單中指定範圍內的所有回退字型陣列。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

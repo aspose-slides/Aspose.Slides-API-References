@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes .NET API Referenciája
-description: Beágyazott adatinformációkat képviseli OLE-objektumhoz.
+second_title: Aspose.Sildes .NET API referencia
+description: Az OLE-objektum beágyazott adatainak információját képviseli.
 type: docs
-weight: 6510
+weight: 6530
 url: /hu/aspose.slides/ioleembeddeddatainfo/
 ---
 ## IOleEmbeddedDataInfo interfész
 
-Az OLE-objektum beágyazott adatainak információit képviseli.
+Az OLE-objektum beágyazott adatainak információját képviseli.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | Név | Leírás |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Visszaadja a beágyazott OLE objektum fájladatait csak olvasható Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Visszaadja a jelenlegi beágyazott OLE objektum fájlkiterjesztését csak olvasható String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | Visszaadja a beágyazott OLE-objektum fájladatát csak olvasható Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | Visszaadja a jelenlegi beágyazott OLE-objektum fájlkiterjesztését csak olvasható String. |
 
 ### Lásd még
 

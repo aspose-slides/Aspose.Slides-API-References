@@ -1,14 +1,14 @@
 ---
 title: IZoomFrame
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 슬라이드 내에서 Slide Zoom 객체를 나타냅니다.
+description: 슬라이드에서 Slide Zoom 객체를 나타냅니다.
 type: docs
 weight: 7400
 url: /ko/aspose.slides/izoomframe/
 ---
 ## IZoomFrame 인터페이스
 
-슬라이드 내의 Slide Zoom 객체를 나타냅니다.
+슬라이드에 있는 Slide Zoom 객체를 나타냅니다.
 
 ```csharp
 public interface IZoomFrame : IZoomObject
@@ -19,7 +19,7 @@ public interface IZoomFrame : IZoomObject
 | 이름 | 설명 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/izoomframe/asizoomobject) { get; } | IZoomObject 인터페이스를 반환합니다. |
-| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom 객체가 연결되는 슬라이드 개체를 가져오거나 설정합니다. 읽기/쓰기 [`ISlide`](../islide). |
+| [TargetSlide](../../aspose.slides/izoomframe/targetslide) { get; set; } | Slide Zoom 객체가 연결하는 슬라이드 개체를 가져오거나 설정합니다. 읽기/쓰기 [`ISlide`](../islide). |
 
 ### 참고
 

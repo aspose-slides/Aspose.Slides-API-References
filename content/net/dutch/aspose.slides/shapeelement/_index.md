@@ -1,14 +1,14 @@
 ---
 title: ShapeElement
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een deel van een vorm voor met dezelfde omtrek- en vul-eigenschappen.
+description: Stelt een deel van een vorm voor met dezelfde contour- en vul-eigenschappen.
 type: docs
 weight: 9870
 url: /nl/aspose.slides/shapeelement/
 ---
 ## ShapeElement klasse
 
-Stelt een deel van een vorm voor met dezelfde omtrek- en vul-eigenschappen.
+Stelt een deel van een vorm voor met dezelfde contour- en opvullingseigenschappen.
 
 ```csharp
 public class ShapeElement : IShapeElement
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Geeft informatie over hoe een element moet worden gevuld. Alleen-lezen [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Geeft een Shape_PPT terug waarvoor het element is gemaakt. Alleen-lezen [`Shape`](../shape). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Retourneert informatie over hoe een element moet worden gevuld. Alleen-lezen [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Retourneert een Shape_PPT waarvoor het element is gemaakt. Alleen-lezen [`Shape`](../shape). |
 | [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Haalt een array van punten op die de geometrie van het pad van het element definiëren. |
 | [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Haalt een array van byte-waarden op die het type van elk punt in het pad van het element specificeren. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Geeft informatie over hoe een element moet worden getekend. Alleen-lezen [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Retourneert informatie over hoe een element moet worden getekend. Alleen-lezen [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Zie ook
 

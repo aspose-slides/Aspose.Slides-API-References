@@ -1,14 +1,14 @@
 ---
 title: IMathPhantom
-second_title: Aspose.Sildes .NET API referenciája
-description: Representál egy fantom matematikai objektumot ltmphantgt, amely befolyásolja gyermekeleme elrendezését anélkül, hogy kötelezően megjelenítené azt. A fantom elrejtheti az alapkifejezését, miközben megőrzi szélességét, magasságát vagy mélységét a képletek igazításához vagy hely lefoglalásához. A láthatóságot és a geometriai viselkedést a Show, ZeroWid, ZeroAsc, ZeroDesc és Transp tulajdonságok szabályozzák.
+second_title: Aspose.Sildes .NET API-referencia
+description: Phantom matematikai objektumot (ltmphantgt) reprezentál, amely befolyásolja a gyermekelem elrendezését anélkül, hogy feltétlenül megjelenítené azt. A fantom elrejtheti az alapkifejezését, miközben megtartja a szélességét, magasságát vagy mélységét a képletek igazításához vagy hely lefoglalásához. A láthatóságot és a geometriai viselkedést a Show ZeroWid ZeroAsc ZeroDesc and Transp tulajdonságok szabályozzák.
 type: docs
-weight: 8390
+weight: 8410
 url: /hu/aspose.slides.mathtext/imathphantom/
 ---
 ## IMathPhantom interfész
 
-Representál egy fantom matematikai objektumot (&lt;m:phant&gt;), amely a gyermekeleme elrendezését befolyásolja anélkül, hogy kötelezően megjelenítené azt. A fantom elrejtheti az alapkifejezését, miközben megőrzi a szélességét, magasságát vagy mélységét a képletek igazításához vagy hely lefoglalásához. A láthatóságot és a geometriai viselkedést a Show, ZeroWid, ZeroAsc, ZeroDesc és Transp tulajdonságok szabályozzák.
+A phantom math object (&lt;m:phant&gt;) ábrázolása, amely befolyásolja a gyermekelem elrendezését anélkül, hogy feltétlenül megjelenítené azt. A fantom elrejtheti az alapkifejezését, miközben megtartja a szélességét, magasságát vagy mélységét a képletek igazításához vagy hely lefoglalásához. A láthatóságot és a geometriai viselkedést a Show, ZeroWid, ZeroAsc, ZeroDesc és Transp tulajdonságok szabályozzák.
 
 ```csharp
 public interface IMathPhantom : IMathElement
@@ -18,12 +18,12 @@ public interface IMathPhantom : IMathElement
 
 | Név | Leírás |
 | --- | --- |
-| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Alapargumentum |
-| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a báziselem megjelenik-e. |
-| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a fantom átlátszó-e az osztályalapú távolság szabályoknál. |
-| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a báziselem emelkedése (az alapvonal fölötti magasság) nullaként legyen kezelve. |
-| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a báziselem süllyedése (az alapvonal alatti mélység) nullaként legyen kezelve. |
-| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Értéket ad vissza vagy állít be, amely azt jelzi, hogy a báziselem szélessége nullaként legyen kezelve. |
+| [Base](../../aspose.slides.mathtext/imathphantom/base) { get; } | Alap argumentum |
+| [Show](../../aspose.slides.mathtext/imathphantom/show) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely azt jelzi, hogy az alap elem megjelenik-e. |
+| [Transp](../../aspose.slides.mathtext/imathphantom/transp) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely azt jelzi, hogy a fantom átlátszó-e az osztály alapú távolságszabályoknál. |
+| [ZeroAsc](../../aspose.slides.mathtext/imathphantom/zeroasc) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely azt jelzi, hogy az alap elem felemelkedése (a vonal fölötti magasság) nulla értékként kezelendő-e. |
+| [ZeroDesc](../../aspose.slides.mathtext/imathphantom/zerodesc) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely azt jelzi, hogy az alap elem süllyedése (a vonal alatti mélység) nulla értékként kezelendő-e. |
+| [ZeroWidth](../../aspose.slides.mathtext/imathphantom/zerowidth) { get; set; } | Azt az értéket adja vissza vagy állítja be, amely azt jelzi, hogy az alap elem szélessége nulla értékként kezelendő-e. |
 
 ### Példák
 
@@ -32,8 +32,8 @@ Példa:
 ```csharp
 [C#]
 IMathPhantom phantom = new MathPhantom(new MathematicalText("1/2"));
-phantom.Show = false;          // Elrejti a tartalmat
-phantom.ZeroWidth = false;     // Megtartja a szélességet
+phantom.Show = false;          // A tartalom elrejtése
+phantom.ZeroWidth = false;     // A szélesség megtartása
 ```
 
 ### Lásd még

@@ -18,7 +18,7 @@ public interface ISection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Name](../../aspose.slides/isection/name) { get; set; } | 섹션의 이름. |
+| [Name](../../aspose.slides/isection/name) { get; set; } | 섹션 이름. |
 | [SectionId](../../aspose.slides/isection/sectionid) { get; } | 섹션 ID. |
 | [StartedFromSlide](../../aspose.slides/isection/startedfromslide) { get; } | 섹션의 첫 번째 슬라이드를 반환합니다. |
 
@@ -26,9 +26,9 @@ public interface ISection
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | 섹션의 슬라이드 목록을 반환합니다. |
+| [GetSlidesListOfSection](../../aspose.slides/isection/getslideslistofsection)() | 섹션에 포함된 슬라이드 목록을 반환합니다. |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

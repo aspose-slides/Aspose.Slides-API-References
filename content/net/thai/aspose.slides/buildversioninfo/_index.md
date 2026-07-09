@@ -1,14 +1,14 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: มีข้อมูลเกี่ยวกับเวอร์ชันของ Aspose.Slides.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: มีข้อมูลเกี่ยวกับรุ่นของ Aspose.Slides.
 type: docs
 weight: 1060
 url: /th/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo คลาส
 
-มีข้อมูลเกี่ยวกับเวอร์ชันของ Aspose.Slides.
+มีข้อมูลเกี่ยวกับรุ่นของ Aspose.Slides.
 
 ```csharp
 public static class BuildVersionInfo
@@ -18,12 +18,12 @@ public static class BuildVersionInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | เวอร์ชันของแอสเซมบลี Aspose.Slides. |
-| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | เวอร์ชันของไฟล์แอสเซมบลี. |
+| const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | รุ่นของแอสเซมบลี Aspose.Slides. |
+| const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | รุ่นของไฟล์แอสเซมบลี. |
 | const [Product](../../aspose.slides/buildversioninfo/product) | ชื่อผลิตภัณฑ์ของ Aspose.Slides |
-| const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | หมายเลขเวอร์ชันหลัก. |
-| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | หมายเลขเวอร์ชันย่อย. |
-| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | วันที่ปล่อยของแอสเซมบลี. |
+| const [ProductMajor](../../aspose.slides/buildversioninfo/productmajor) | เลขเวอร์ชันหลัก. |
+| const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | เลขเวอร์ชันรอง. |
+| static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | วันปล่อยของแอสเซมบลี. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MasterLayoutSlideCollection
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tanımlı ana slaytın tüm yerleşim slaytlarını içeren bir koleksiyonu temsil eder. LayoutSlideCollection sınıfını, ana slaytların yerleşim slaytlarının bireysel koleksiyonları bağlamında yerleşim slaytlarını ekleme/ekleme/çıkarma/kopyalama/yeniden sıralama yöntemleriyle genişletir.
+description: Tanımlı ana slaytın tüm yerleşim slaytlarının bir koleksiyonunu temsil eder. LayoutSlideCollection sınıfını, ana slaytların yerleşim slaytlarının bireysel koleksiyonları bağlamında yerleşim slaytlarını ekleme/yerleştirme/kaldırma/kopyalama/yeniden sıralama yöntemleriyle genişletir.
 type: docs
-weight: 7980
+weight: 8000
 url: /tr/aspose.slides/masterlayoutslidecollection/
 ---
-## MasterLayoutSlideCollection sınıf
+## MasterLayoutSlideCollection sınıfı
 
-Belirtilen ana slaytın tüm yerleşim slaytlarını içeren bir koleksiyonu temsil eder. LayoutSlideCollection sınıfını, ana slaytın yerleşim slaytlarının bireysel koleksiyonları bağlamında yerleşim slaytlarını ekleme/ekleme/çıkarma/kopyalama/yeniden sıralama yöntemleriyle genişletir.
+Represents a collections of all layout slides of defined master slide. Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering layout slides in context of the individual collections of master's layout slides.
 
 ```csharp
 public sealed class MasterLayoutSlideCollection : LayoutSlideCollection, 
@@ -19,10 +19,10 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Bir koleksiyondaki yerleşim slaytlarının sayısını döndürür. Yalnızca okuma Int32. |
-| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okuma Boolean. |
-| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | İndeksine göre yerleşim slaytını döndürür. Yalnızca okuma [`LayoutSlide`](../layoutslide). |
-| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
+| [Count](../../aspose.slides/layoutslidecollection/count) { get; } | Bir koleksiyondaki yerleşim slaytlarının sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/layoutslidecollection/issynchronized) { get; } | Koleksiyona erişimin eşzamanlı (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/layoutslidecollection/item) { get; } | İndekse göre yerleşim slaytını döndürür. Salt okunur [`LayoutSlide`](../layoutslide). |
+| [SyncRoot](../../aspose.slides/layoutslidecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 
@@ -30,20 +30,20 @@ public sealed class MasterLayoutSlideCollection : LayoutSlideCollection,
 | --- | --- |
 | [Add](../../aspose.slides/masterlayoutslidecollection/add)(SlideLayoutType, string) | Koleksiyonun sonuna yeni bir yerleşim slaytı ekler. |
 | [AddClone](../../aspose.slides/masterlayoutslidecollection/addclone)(ILayoutSlide) | Belirtilen yerleşim slaytının bir kopyasını koleksiyonun sonuna ekler. |
-| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türdeki ilk yerleşim slaytını döndürür. Bulunacak yerleşim slaytı türü. [`LayoutSlide`](../layoutslide) belirtilen türde veya hiçbir yerleşim bulunamazsa null. |
-| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyonda gezinmek için bir enumerator döndürür. |
+| [CopyTo](../../aspose.slides/layoutslidecollection/copyto)(Array, int) | Tüm öğeleri koleksiyondan belirtilen diziye kopyalar. |
+| [GetByType](../../aspose.slides/layoutslidecollection/getbytype)(SlideLayoutType) | Belirtilen türdeki ilk yerleşim slaytını döndürür. Bulunacak yerleşim slaytı türü.[`LayoutSlide`](../layoutslide) belirtilen türle veya bulunamazsa null döndürür. |
+| [GetEnumerator](../../aspose.slides/layoutslidecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [Insert](../../aspose.slides/masterlayoutslidecollection/insert)(int, SlideLayoutType, string) | Koleksiyonun belirtilen konumuna yeni bir yerleşim slaytı ekler. |
 | [InsertClone](../../aspose.slides/masterlayoutslidecollection/insertclone)(int, ILayoutSlide) | Belirtilen yerleşim slaytının bir kopyasını koleksiyonun belirtilen konumuna ekler. |
 | [Remove](../../aspose.slides/layoutslidecollection/remove)(ILayoutSlide) | Koleksiyondan bir yerleşimi kaldırır. |
-| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Koleksiyonun belirtilen indeksindeki öğeyi kaldırır. |
-| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Kullanılmayan yerleşim slaytlarını kaldırır (HasDependingSlides değeri false olan yerleşim slaytları). |
+| [RemoveAt](../../aspose.slides/masterlayoutslidecollection/removeat)(int) | Koleksiyondaki belirtilen indeksteki öğeyi kaldırır. |
+| [RemoveUnused](../../aspose.slides/layoutslidecollection/removeunused)() | Kullanılmayan yerleşim slaytlarını kaldırır (HasDependingSlides özelliği false olan yerleşim slaytları). |
 | [Reorder](../../aspose.slides/masterlayoutslidecollection/reorder)(int, ILayoutSlide) | Yerleşim slaytını koleksiyondan belirtilen konuma taşır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [LayoutSlideCollection](../layoutslidecollection)
-* arayüz [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
+* arabirim [IMasterLayoutSlideCollection](../imasterlayoutslidecollection)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

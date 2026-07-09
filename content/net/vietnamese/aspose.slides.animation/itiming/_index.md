@@ -1,14 +1,14 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn thời gian hoạt ảnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả thời gian hoạt ảnh.
 type: docs
 weight: 640
 url: /vi/aspose.slides.animation/itiming/
 ---
 ## Giao diện ITiming
 
-Biểu diễn thời gian hoạt ảnh.
+Mô tả thời gian hoạt ảnh.
 
 ```csharp
 public interface ITiming
@@ -18,17 +18,17 @@ public interface ITiming
 
 | Tên | Mô tả |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Mô tả phần trăm thời lượng của hiệu ứng tăng tốc. Đọc/ghi Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Mô tả việc có tự động phát hoạt ảnh ngược lại sau khi phát theo hướng tiến không. Đọc/ghi Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Mô tả phần trăm thời lượng của hiệu ứng giảm tốc. Đọc/ghi Single. |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Mô tả tỷ lệ phần trăm của hiệu ứng hành vi tăng tốc thời lượng. Đọc/ghi Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Mô tả việc có tự động phát hoạt ảnh ngược lại sau khi đã phát nó theo chiều thuận hay không. Đọc/ghi Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Mô tả tỷ lệ phần trăm của hiệu ứng hành vi giảm tốc thời lượng. Đọc/ghi Single. |
 | [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Mô tả thời lượng của hiệu ứng hoạt ảnh. Đọc/ghi Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Mô tả số lần hiệu ứng nên lặp lại. Đọc/ghi Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Mô tả số lần hiệu ứng nên lặp lại. Đọc/ghi Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Thuộc tính này chỉ định liệu hiệu ứng có lặp lại cho tới cuối slide không. Đọc/ghi Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Thuộc tính này chỉ định liệu hiệu ứng có lặp lại cho tới lần nhấp tiếp theo không. Đọc/ghi Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Chỉ định liệu một hiệu ứng có được khởi động lại sau khi hoàn thành không. Đọc/ghi [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Thuộc tính này chỉ định liệu hiệu ứng có tua lại khi phát xong không. Đọc/ghi Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Chỉ định phần trăm tăng tốc (hoặc giảm tốc) thời gian. Đọc/ghi Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Mô tả số lần hiệu ứng cần lặp lại. Đọc/ghi Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Mô tả số lần hiệu ứng cần lặp lại. Đọc/ghi Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Thuộc tính này xác định liệu hiệu ứng có lặp lại cho đến cuối slide hay không. Đọc/ghi Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Thuộc tính này xác định liệu hiệu ứng có lặp lại cho đến cú nhấp tiếp theo hay không. Đọc/ghi Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Xác định liệu một hiệu ứng có được khởi động lại sau khi hoàn thành hay không. Đọc/ghi [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Thuộc tính này xác định liệu hiệu ứng sẽ quay lại khi phát xong hay không. Đọc/ghi Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Xác định tỷ lệ phần trăm tăng tốc (hoặc giảm tốc) thời gian. Đọc/ghi Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Mô tả thời gian trễ sau khi kích hoạt. Đọc/ghi Single. |
 | [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Mô tả loại kích hoạt. Đọc/ghi [`EffectTriggerType`](../effecttriggertype). |
 

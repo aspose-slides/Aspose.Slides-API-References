@@ -1,14 +1,14 @@
 ---
 title: Blur
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 塗りつぶしを含むシェイプ全体に適用されるぼかし効果を表します。アルファを含むすべてのカラーチャネルが影響を受けます。
+description: 形全体（塗りつぶしを含む）に適用される Blur エフェクトを表します。アルファを含むすべてのカラーチャンネルが影響を受けます。
 type: docs
-weight: 2900
+weight: 2920
 url: /ja/aspose.slides.effects/blur/
 ---
 ## Blur クラス
 
-塗りつぶしを含むシェイプ全体に適用されるぼかし効果を表します。アルファを含むすべてのカラーチャネルが影響を受けます。
+形全体（塗りつぶしを含む）に適用される Blur エフェクトを表します。アルファを含むすべてのカラーチャンネルが影響を受けます。
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -16,18 +16,18 @@ public sealed class Blur : ImageTransformOperation, IBlur
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベース IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | ブラー処理の結果としてオブジェクトの境界を拡大すべきかどうかを決定します。true は境界が拡大されることを示し、false は拡大されないことを示します。読み書き可能な Boolean。 |
-| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | ぼかし半径を取得または設定します。読み書き可能な Double。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | ブラー処理の結果としてオブジェクトの境界を拡大するかどうかを決定します。true は境界が拡大されることを示し、false は拡大されないことを示します。読み書き可能な Boolean。 |
+| [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | ブラー半径を取得または設定します。読み書き可能な Double。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | 指定された [`Blur`](../blur) が現在の [`Blur`](../blur) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | 継承が適用された有効な Blur 効果データを取得します。 |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | 継承が適用された有効な Blur エフェクトデータを取得します。 |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
 
 ### 参照

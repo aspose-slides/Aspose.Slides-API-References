@@ -1,14 +1,14 @@
 ---
 title: IGeometryShape
-second_title: Aspose.Sildes for .NET API リファレンス
-description: すべての幾何学的形状の親クラスを表します。
+second_title: Aspose.Sildes の .NET 用 API リファレンス
+description: すべての幾何学シェイプの親クラスを表します。
 type: docs
-weight: 5960
+weight: 5980
 url: /ja/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape インターフェイス
 
-すべての幾何学的形状の親クラスを表します。
+すべての幾何学シェイプの親クラスを表します。
 
 ```csharp
 public interface IGeometryShape : IShape
@@ -16,21 +16,21 @@ public interface IGeometryShape : IShape
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | シェイプの調整値のコレクションを返します。読み取り専用 [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | ベース IShape インターフェイスを取得できます。読み取り専用 [`IShape`](../ishape). |
-| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | シェイプのスタイルオブジェクトを返します。読み取り専用 [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | ジオメトリプリセットタイプを取得または設定します。注: 値が変更されると、すべての調整値は既定値にリセットされます。読み書き可能 [`ShapeType`](../shapetype). |
+| [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | シェイプの調整値のコレクションを返します。読み取り専用 [`IAdjustValueCollection`](../iadjustvaluecollection)。 |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | ベース IShape インターフェイスの取得を許可します。読み取り専用 [`IShape`](../ishape)。 |
+| [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | シェイプのスタイルオブジェクトを返します。読み取り専用 [`IShapeStyle`](../ishapestyle)。 |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | ジオメトリのプリセットタイプを取得または設定します。注：値が変更されると、すべての調整値は既定値にリセットされます。読み書き [`ShapeType`](../shapetype)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | シェイプの要素の配列を作成して返します。 |
 | [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | ジオメトリシェイプのパスのコピーを返します。座標はシェイプの左上隅を基準とします。 |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | [`IGeometryPath`](../igeometrypath) オブジェクトからシェイプのジオメトリを更新します。座標はシェイプの左上隅を基準とする必要があります。シェイプのタイプ（[`ShapeType`](./shapetype)）を Custom に変更します。 |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | [`IGeometryPath`](../igeometrypath) 配列からシェイプのジオメトリを更新します。座標はシェイプの左上隅を基準とする必要があります。シェイプのタイプ（[`ShapeType`](./shapetype)）を Custom に変更します。 |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | [`IGeometryPath`](../igeometrypath) オブジェクトからシェイプのジオメトリを更新します。座標はシェイプの左上隅を基準とする必要があります。シェイプのタイプ ([`ShapeType`](./shapetype)) を Custom に変更します。 |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | [`IGeometryPath`](../igeometrypath) の配列からシェイプのジオメトリを更新します。座標はシェイプの左上隅を基準とする必要があります。シェイプのタイプ ([`ShapeType`](./shapetype)) を Custom に変更します。 |
 
 ### 参照
 

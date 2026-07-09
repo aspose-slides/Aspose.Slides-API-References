@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แทนคำสั่งเส้นทางกราฟิก
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงคำสั่งเส้นทางกราฟิก
 type: docs
 weight: 9320
 url: /th/aspose.slides/pathcommandtype/
 ---
-## การระบุประเภท PathCommandType
+## PathCommandType enum
 
-แทนคำสั่งเส้นทางกราฟิก
+แสดงคำสั่งเส้นทางกราฟิก
 
 ```csharp
 public enum PathCommandType : byte
@@ -20,10 +20,10 @@ public enum PathCommandType : byte
 | --- | --- | --- |
 | Close | `0` | ปิดเส้นทางเรขาคณิต |
 | MoveTo | `1` | กำหนดตำแหน่งจุดถัดไปของเส้นทางเรขาคณิต |
-| LineTo | `2` | เพิ่มเส้นเข้าไปในเส้นทางเรขาคณิต |
-| ArcTo | `3` | เพิ่มโค้งที่ระบุเข้าไปในเส้นทางเรขาคณิต |
-| QuadBezierTo | `4` | เพิ่มโค้งเบเซียร์กำลังสองเข้าไปในเส้นทางเรขาคณิต |
-| CubicBezierTo | `5` | เพิ่มโค้งเบเซียร์กำลังสามเข้าไปในเส้นทางเรขาคณิต |
+| LineTo | `2` | เพิ่มเส้นให้กับเส้นทางเรขาคณิต |
+| ArcTo | `3` | เพิ่มส่วนโค้งที่ระบุให้กับเส้นทางเรขาคณิต. |
+| QuadBezierTo | `4` | เพิ่มเส้นโค้ง Bezier ระดับควอดราติกให้กับเส้นทางเรขาคณิต |
+| CubicBezierTo | `5` | เพิ่มเส้นโค้ง Bezier ระดับคิวบิกให้กับเส้นทางเรขาคณิต |
 
 ### ดูเพิ่มเติม
 

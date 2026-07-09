@@ -1,7 +1,7 @@
 ---
 title: PptCorruptFileException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Exception die wordt gegooid wanneer het presentatiebestand waarschijnlijk corrupt is.
+description: Exception die wordt gegooid wanneer het presentatiedocument waarschijnlijk corrupt is.
 type: docs
 weight: 9500
 url: /nl/aspose.slides/pptcorruptfileexception/
@@ -14,13 +14,13 @@ Exception die wordt gegooid wanneer het presentatiebestand waarschijnlijk corrup
 public class PptCorruptFileException : PptReadException
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Standaardconstructor. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Constructor die een bericht aan deze Exception kan toevoegen. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Constructor voor een Exception die een bericht en een ingebedde Exception bevat. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Constructor die een bericht kan toevoegen aan deze exception. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Constructor voor een exception die een bericht en een ingebedde exception bevat. |
 
 ### Zie ook
 

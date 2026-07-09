@@ -1,14 +1,14 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET API เอกสารอ้างอิง
 description: แสดงประเภทการบวกสำหรับพฤติกรรมของเอฟเฟกต์.
 type: docs
 weight: 160
 url: /th/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType enumeration
+## BehaviorAdditiveType การระบุค่า
 
-แสดงประเภทการบวกสำหรับพฤติกรรมของเอฟเฟกต์
+แสดงประเภทการเพิ่มสำหรับพฤติกรรมของเอฟเฟกต์.
 
 ```csharp
 public enum BehaviorAdditiveType

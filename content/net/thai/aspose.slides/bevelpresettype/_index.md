@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ค่าคอนสแตนท์ที่กำหนด bevel 3 มิติของรูปร่าง
+description: ค่าคงที่ที่กำหนด bevel 3 มิติของรูปทรง
 type: docs
 weight: 1010
 url: /th/aspose.slides/bevelpresettype/
 ---
-## BevelPresetType การกำหนดค่า
+## BevelPresetType enumeration
 
-ค่าคงที่ที่กำหนด bevel 3 มิติของรูปร่าง.
+ค่าคงที่ที่กำหนด bevel 3 มิติของรูปร่าง
 
 ```csharp
 public enum BevelPresetType

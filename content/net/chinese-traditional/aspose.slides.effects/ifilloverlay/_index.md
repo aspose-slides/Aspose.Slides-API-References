@@ -1,6 +1,6 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示填充覆蓋效果。填充覆蓋可用於為物件指定額外的填充，並將兩個填充混合在一起。
 type: docs
 weight: 3300
@@ -19,12 +19,12 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. 可讀寫 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 填充格式。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode。可讀寫 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | 填充格式。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IFillOverlayEffectiveData](../ifilloverlayeffectivedata)

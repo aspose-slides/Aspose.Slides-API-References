@@ -1,9 +1,9 @@
 ---
 title: IRow
-second_title: Aspose.Sildes per la documentazione API di .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta una riga in una tabella.
 type: docs
-weight: 6830
+weight: 6850
 url: /it/aspose.slides/irow/
 ---
 ## IRow interfaccia
@@ -18,11 +18,11 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Consente di ottenere l'interfaccia base IBulkTextFormattable. Sola lettura [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Consente di ottenere l'interfaccia base ICellCollection. Sola lettura [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | Restituisce l'altezza di una riga. Sola lettura Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | Consente di ottenere l'interfaccia base IBulkTextFormattable. Solo lettura [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | Consente di ottenere l'interfaccia base ICellCollection. Solo lettura [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | Restituisce l'altezza di una riga. Solo lettura Double. |
 | [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | Restituisce o imposta l'altezza minima possibile di una riga. Lettura/scrittura Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Restituisce l'oggetto RowFormat che contiene le proprietà di formattazione per questa riga. Sola lettura [`IRowFormat`](../irowformat). |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | Restituisce l'oggetto RowFormat che contiene le proprietà di formattazione per questa riga. Solo lettura [`IRowFormat`](../irowformat). |
 
 ### Vedi anche
 

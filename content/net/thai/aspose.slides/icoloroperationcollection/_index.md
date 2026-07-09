@@ -1,14 +1,14 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของการดำเนินการแปลงสี.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงคอลเลกชันของการแปลงสี
 type: docs
 weight: 5510
 url: /th/aspose.slides/icoloroperationcollection/
 ---
 ## IColorOperationCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของการดำเนินการแปลงสี.
+แสดงถึงคอลเลกชันของการแปลงสี
 
 ```csharp
 public interface IColorOperationCollection : IGenericCloneable<IColorOperationCollection>, 
@@ -25,12 +25,12 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | เพิ่มการดำเนินการใหม่ไปยังส่วนท้ายของคอลเลกชัน. |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | เพิ่มการดำเนินการใหม่ไปยังส่วนท้ายของคอลเลกชัน. |
-| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | ลบการดำเนินการสีทั้งหมด. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | แทรกการดำเนินการใหม่ลงในคอลเลกชัน. |
-| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | แทรกการดำเนินการใหม่ลงในคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | ลบการดำเนินการสีออกจากคอลเลกชัน. |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | เพิ่มการดำเนินการใหม่ไปยังท้ายคอลเลกชัน |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | เพิ่มการดำเนินการใหม่ไปยังท้ายคอลเลกชัน |
+| [Clear](../../aspose.slides/icoloroperationcollection/clear)() | ลบการดำเนินการสีทั้งหมด |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | แทรกการดำเนินการใหม่ไปยังคอลเลกชัน |
+| [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | แทรกการดำเนินการใหม่ไปยังคอลเลกชัน |
+| [RemoveAt](../../aspose.slides/icoloroperationcollection/removeat)(int) | ลบการดำเนินการสีออกจากคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

@@ -6,7 +6,7 @@ type: docs
 weight: 2680
 url: /vi/aspose.slides/connectorlock/
 ---
-## ConnectorLock lớp
+## Lớp ConnectorLock
 
 Xác định các thao tác nào bị vô hiệu hoá trên Connector cha.
 
@@ -18,17 +18,17 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 | Tên | Mô tả |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Xác định việc thay đổi giá trị điều chỉnh có bị cấm hay không. Đọc/ghi Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Xác định việc thay đổi đầu mũi tên có bị cấm hay không. Đọc/ghi Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Xác định hình dạng có phải duy trì tỷ lệ khung khi thay đổi kích thước hay không. Đọc/ghi Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Xác định việc thay đổi trực tiếp đường viền của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Xác định việc thêm hình dạng này vào một nhóm có bị cấm hay không. Đọc/ghi Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Trả về true nếu tất cả các cờ khóa đều bị tắt. Chỉ-đọc Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Xác định việc di chuyển hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Xác định việc thay đổi góc quay của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Xác định việc chọn hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Xác định việc thay đổi loại hình dạng có bị cấm hay không. Đọc/ghi Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Xác định việc thay đổi kích thước của hình dạng này có bị cấm hay không. Đọc/ghi Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | Xác định liệu việc thay đổi các giá trị điều chỉnh có bị cấm hay không. Boolean đọc/ghi. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | Xác định liệu việc thay đổi mũi tên có bị cấm hay không. Boolean đọc/ghi. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | Xác định liệu hình dạng có phải bảo toàn tỷ lệ khung hình khi thay đổi kích thước hay không. Boolean đọc/ghi. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | Xác định liệu việc thay đổi trực tiếp đường viền của hình dạng này có bị cấm hay không. Boolean đọc/ghi. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | Xác định liệu việc thêm hình dạng này vào một nhóm có bị cấm hay không. Boolean đọc/ghi. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Trả về true nếu tất cả các cờ khóa đều bị vô hiệu hoá. Boolean chỉ đọc. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | Xác định liệu việc di chuyển hình dạng này có bị cấm hay không. Boolean đọc/ghi. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | Xác định liệu việc thay đổi góc quay của hình dạng này có bị cấm hay không. Boolean đọc/ghi. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | Xác định liệu việc chọn hình dạng này có bị cấm hay không. Boolean đọc/ghi. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | Xác định liệu việc thay đổi kiểu hình dạng có bị cấm hay không. Boolean đọc/ghi. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | Xác định liệu việc thay đổi kích thước hình dạng này có bị cấm hay không. Boolean đọc/ghi. |
 
 ### Xem Thêm
 

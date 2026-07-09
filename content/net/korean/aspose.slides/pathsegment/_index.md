@@ -1,6 +1,6 @@
 ---
 title: PathSegment
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: GeometryShape의 그래픽 경로 세그먼트를 나타냅니다
 type: docs
 weight: 9340
@@ -16,12 +16,12 @@ public sealed class PathSegment : IPathSegment
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [PathCommand](../../aspose.slides/pathsegment/pathcommand) { get; } | 세그먼트의 경로 유형 |
 | [SegmentData](../../aspose.slides/pathsegment/segmentdata) { get; } | 세그먼트의 경로 데이터 |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IPathSegment](../ipathsegment)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

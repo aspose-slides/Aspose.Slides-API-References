@@ -1,14 +1,14 @@
 ---
 title: OrganizationChartLayoutType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het opmaaktype van de kindknopen in een organigram weer
+description: Geeft het opmaaktype van de kindknooppunten in een organisatieschema weer
 type: docs
 weight: 10590
 url: /nl/aspose.slides.smartart/organizationchartlayouttype/
 ---
 ## OrganizationChartLayoutType enumeratie
 
-Geeft het opmaaktype van de kindknopen in een organigram weer
+Geeft het opmaaktype van de kindknooppunten in een organisatieschema weer
 
 ```csharp
 public enum OrganizationChartLayoutType
@@ -18,11 +18,11 @@ public enum OrganizationChartLayoutType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Initial | `0` | Initieel indelingstype |
-| Standart | `1` | Plaatst kindknopen horizontaal onder het bovenliggende knooppunt. |
-| BothHanging | `2` | Plaatst kindknopen verticaal onder het bovenliggende knooppunt aan zowel de linker- als de rechterkant. |
-| LeftHanging | `3` | Plaatst kindknopen verticaal onder het bovenliggende knooppunt aan de linkerkant. |
-| RightHanging | `4` | Plaatst kindknopen verticaal onder het bovenliggende knooppunt aan de rechterkant. |
+| Initial | `0` | Initieel lay-outtype |
+| Standart | `1` | Plaatst kindknooppunten horizontaal onder het bovenliggende knooppunt. |
+| BothHanging | `2` | Plaatst kindknooppunten verticaal onder het bovenliggende knooppunt, zowel aan de linker- als aan de rechterkant. |
+| LeftHanging | `3` | Plaatst kindknooppunten verticaal onder het bovenliggende knooppunt aan de linkerkant. |
+| RightHanging | `4` | Plaatst kindknooppunten verticaal onder het bovenliggende knooppunt aan de rechterkant. |
 
 ### Zie ook
 

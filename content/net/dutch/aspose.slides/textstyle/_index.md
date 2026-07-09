@@ -1,14 +1,14 @@
 ---
 title: TextStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Deze klasse bevat de tekststijl-opmaakeigenschappen.
+description: Deze klasse bevat de tekststijl-opmaak eigenschappen.
 type: docs
 weight: 11000
 url: /nl/aspose.slides/textstyle/
 ---
 ## TextStyle klasse
 
-Deze klasse bevat de tekststijl-opmaakeigenschappen.
+Deze klasse bevat de tekststijl-opmaak-eigenschappen.
 
 ```csharp
 public sealed class TextStyle : PVIObject, ITextStyle
@@ -16,19 +16,19 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Stelt in staat om de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Standaard alinea-eigenschappen. Alleen-lezen [`IParagraphFormat`](../iparagraphformat). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Haalt de effectieve tekststijl-opmaakgegevens op met de toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert een hash-code. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Als het stijlniveau bestaat, wordt het geretourneerd, anders wordt null geretourneerd. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Haalt de effectieve tekststijl-opmaakinformatie op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retourneert hashcode. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Als het niveau van de stijl bestaat, retourneert het; anders retourneert het null. |
 
 ### Zie ook
 

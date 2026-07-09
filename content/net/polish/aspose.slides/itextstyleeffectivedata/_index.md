@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes dla .NET API Reference
-description: Niezmienny obiekt, który zawiera efektywne właściwości stylu tekstu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Niemutowalny obiekt, który zawiera skuteczne właściwości stylu tekstu.
 type: docs
-weight: 7300
+weight: 7320
 url: /pl/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData interfejs
 
-Nieodmienny obiekt zawierający efektywne właściwości stylu tekstu.
+Obiekt niemutowalny, który zawiera skuteczne właściwości stylu tekstu.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -16,19 +16,19 @@ public interface ITextStyleEffectiveData
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Zwraca efektywne domyślne właściwości akapitu. Tylko do odczytu [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Zwraca skuteczne domyślne właściwości akapitu. Tylko do odczytu [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Zwraca poziom efektywnego stylu. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Zwraca poziom skutecznego stylu. |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`ITextStyle`](../itextstyle) w celu zwrócenia efektywnych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z [`ITextStyle`](../itextstyle) interfejsem, aby zwrócić skuteczne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

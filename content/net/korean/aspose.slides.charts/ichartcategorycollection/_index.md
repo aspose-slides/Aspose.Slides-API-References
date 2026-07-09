@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryCollection
-second_title: Aspose.Sildes .NET용 API 참조
-description: IChartCategory 컬렉션을 나타냅니다./ichartcategory
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: IChartCategory의 컬렉션을 나타냅니다./ichartcategory
 type: docs
 weight: 1760
 url: /ko/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection 인터페이스
 
-[`IChartCategory`](../ichartcategory) 컬렉션을 나타냅니다.
+컬렉션을 나타냅니다 [`IChartCategory`](../ichartcategory)
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
@@ -16,24 +16,24 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 사용된 카테고리 그룹화 수준의 개수를 반환합니다. 다중 수준 카테고리의 경우 하나보다 많습니다. 읽기 전용 Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | 사용된 카테고리 그룹화 레벨의 개수를 반환합니다. 다중 레벨 카테고리의 경우 하나보다 많습니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | true이면 워크시트를 카테고리를 저장하는 데 사용합니다(이 경우 다중 수준 카테고리를 지원합니다). false이면 워크시트를 값을 저장하는 데 사용하지 않습니다(이 경우 다중 수준 카테고리를 지원하지 않습니다). 읽기/쓰기 Boolean. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | true이면 워크시트가 카테고리를 저장하는 데 사용됩니다(이 경우 다중 레벨 카테고리를 지원합니다). false이면 워크시트가 값을 저장하는 데 사용되지 않습니다(이 경우 다중 레벨 카테고리를 지원하지 않습니다). 읽기/쓰기 Boolean. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 컬렉션에 카테고리가 존재하면 반환합니다. 그렇지 않으면 [`IChartDataCell`](../ichartdatacell)에서 새 차트 카테고리를 생성하고 컬렉션에 추가합니다. |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 값에서 새 [`IChartCategory`](../ichartcategory)를 생성하고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | 컬렉션에 카테고리가 존재하면 반환합니다. 그렇지 않으면 [`IChartDataCell`](../ichartdatacell)에서 새로운 차트 카테고리를 생성하고 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | 값으로부터 새로운 [`IChartCategory`](../ichartcategory)을 생성하고 컬렉션에 추가합니다. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 지정된 [`IChartCategory`](../ichartcategory)를 검색하고 전체 컬렉션 내 첫 번째 발생의 0 기반 인덱스를 반환합니다. |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | 지정된 [`IChartCategory`](../ichartcategory)를 검색하고 전체 컬렉션에서 첫 번째 발생 위치의 0부터 시작하는 인덱스를 반환합니다. |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | 지정된 값을 제거합니다. |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | 주어진 인덱스의 요소를 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IChartCategory](../ichartcategory)

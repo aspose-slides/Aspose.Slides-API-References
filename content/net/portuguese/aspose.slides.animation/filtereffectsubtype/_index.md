@@ -1,14 +1,14 @@
 ---
 title: FilterEffectSubtype
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa subtipos de efeito de filtro.
 type: docs
-weight: 370
+weight: 390
 url: /pt/aspose.slides.animation/filtereffectsubtype/
 ---
-## Enumeração FilterEffectSubtype
+## enumeração FilterEffectSubtype
 
-Representa os subtipos de efeito de filtro.
+Representa subtipos de efeito de filtro.
 
 ```csharp
 public enum FilterEffectSubtype
@@ -46,7 +46,7 @@ public enum FilterEffectSubtype
 | UpRight | `25` |  |
 | Vertical | `26` |  |
 
-### Ver também
+### Ver Também
 
 * espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)

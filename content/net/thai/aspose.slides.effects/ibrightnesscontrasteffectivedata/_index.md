@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความคอนทราสต์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ BrightnessContrast ปรับความสว่างและความคอนทราสต์
 type: docs
 weight: 3210
 url: /th/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ BrightnessContrast. ปรับความสว่างและความคอนทราสต์
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ BrightnessContrast ปรับความสว่างและความคอนทราสต์
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | ส่งคืนค่าความสว่าง. อ่านอย่างเดียว Single. |
-| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | ส่งคืนค่าความคอนทราสต์. อ่านอย่างเดียว Single. |
+| [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | คืนค่า brightness. อ่าน-อย่างเดียว Single. |
+| [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | คืนค่า contrast. อ่าน-อย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

@@ -3,7 +3,7 @@ title: IPPImage
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en bild i en presentation.
 type: docs
-weight: 6530
+weight: 6550
 url: /sv/aspose.slides/ippimage/
 ---
 ## IPPImage gränssnitt
@@ -16,20 +16,20 @@ public interface IPPImage
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Returnerar en kopia av en bilds data. Skrivskyddad Byte[]. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Returnerar en kopia av bildens data. Skrivskyddad Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Returnerar en MIME-typ för en bild, kodad i [`BinaryData`](./binarydata). Skrivskyddad String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Returnerar bildens höjd. Skrivskyddad Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | Returnerar en kopia av bilden. Skrivskyddad [`Image`](./image). |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Returnerar en höjd för en bild. Skrivskyddad Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | Returnerar en kopia av en bild. Skrivskyddad [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Returnerar eller anger ISvgImage-objekt [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Returnerar bildens bredd. Skrivskyddad Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | Returnerar bildens X-förskjutning. Skrivskyddad Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | Returnerar bildens Y-förskjutning. Skrivskyddad Int32. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Returnerar en bredd för en bild. Skrivskyddad Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | Returnerar en X-förskjutning för en bild. Skrivskyddad Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | Returnerar en Y-förskjutning för en bild. Skrivskyddad Int32. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_2)(byte[]) | Ersätter bilddata. |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | Ersätter bild. |

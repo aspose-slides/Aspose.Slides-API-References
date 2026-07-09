@@ -1,42 +1,42 @@
 ---
 title: GifOptions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวเลือกการส่งออก GIF.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงตัวเลือกการส่งออก GIF.
 type: docs
 weight: 3820
 url: /th/aspose.slides.export/gifoptions/
 ---
 ## GifOptions คลาส
 
-เป็นตัวเลือกการส่งออก GIF.
+แสดงตัวเลือกการส่งออก GIF.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GifOptions](gifoptions)() | สร้างอินสแตนซ์ใหม่ของคลาส GifOptions. |
+| [GifOptions](gifoptions)() | เริ่มต้นอินสแตนซ์ใหม่ของคลาส GifOptions. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | รับหรือกำหนดเวลาหน่วงโดยค่าเริ่มต้น [ms] ค่านี้จะถูกใช้หาก [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ไม่ได้ตั้งค่า ค่าเริ่มต้นคือ 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | รับหรือกำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ อ่าน-เขียน String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | ระบุว่าจะส่งออกสไลด์ที่ซ่อนไว้หรือไม่ ค่าเริ่มต้นคือ false. |
+| [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | รับหรือกำหนดเวลาหน่วงเวลามาตรฐาน [ms]. ค่าดังกล่าวจะถูกใช้หาก [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) ไม่ได้ตั้งค่า ค่าเริ่มต้นคือ 1000. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | รับหรือกำหนดแบบอักขระที่ใช้ในกรณีที่ไม่พบแบบอักขระต้นฉบับ. อ่าน-เขียน String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | กำหนดว่าจะส่งออกสไลด์ที่ซ่อนไว้หรือไม่. ค่าเริ่มต้นคือ false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | รับหรือกำหนดขนาดเฟรม. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | รับหรือกำหนดสไตล์การแสดงผลของการไล่สี อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | เป็นออบเจกต์ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false**. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | รับหรือกำหนดสไตล์ภาพของการไล่สี. อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | แสดงวัตถุ callback สำหรับบันทึกการอัปเดตความคืบหน้าเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript เมื่อบันทึกการนำเสนอหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
 | [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | รับหรือกำหนด FPS ของการเปลี่ยนภาพ [frames/sec] ค่าเริ่มต้นคือ 25. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | รับหรือกำหนดออบเจกต์ที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | รับหรือกำหนดวัตถุที่รับคำเตือนและตัดสินใจว่าจะดำเนินกระบวนการโหลดต่อหรือยกเลิก. อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีแปลงงานนำเสนอเป็น GIF เคลื่อนไหวโดยใช้การตั้งค่าที่กำหนดเอง.
+ตัวอย่างต่อไปนี้แสดงวิธีการแปลงการนำเสนอเป็น GIF แบบเคลื่อนไหวโดยใช้การตั้งค่าที่กำหนดเอง.
 
 ```csharp
 [C#]
@@ -44,9 +44,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // ขนาดของ GIF ที่ได้ผลลัพธ์
-        DefaultDelay = 2000, // ระยะเวลาที่แต่ละสไลด์จะแสดงจนกว่าจะเปลี่ยนเป็นสไลด์ถัดไป
-        TransitionFps = 35 // เพิ่ม FPS เพื่อคุณภาพการเปลี่ยนภาพที่ดีขึ้น
+        FrameSize = new Size(960, 720), // ขนาดของ GIF ที่สร้าง
+        DefaultDelay = 2000, // ระยะเวลาที่แต่ละสไลด์จะแสดงจนกว่าจะเปลี่ยนเป็นสไลด์ต่อไป
+        TransitionFps = 35 // เพิ่ม FPS เพื่อคุณภาพการเปลี่ยนภาพที่ดียิ่งขึ้น
     });
 }
 ```

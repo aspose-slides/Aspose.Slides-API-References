@@ -1,9 +1,9 @@
 ---
 title: ILoadOptions
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi további opciók megadását, például a formátum vagy az alapértelmezett betűtípus megadását a prezentáció betöltésekor.
+description: Lehetővé teszi további beállítások megadását, például formátum vagy alapértelmezett betűtípus megadását a prezentáció betöltésekor.
 type: docs
-weight: 6320
+weight: 6340
 url: /hu/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions interfész
@@ -16,22 +16,22 @@ public interface ILoadOptions
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Az opciókat képviseli, amelyek a Binary Large Objects (BLOB) kezelésének viselkedését szabályozzák, például az ideiglenes fájlok használatát vagy a memóriában tárolható maximális BLOB bájtok számát. Ezeket az opciókat a legjobb teljesítmény-memória felhasználási arány elérésére tervezték adott környezet vagy követelmények esetén. A Binary Large Object (BLOB) egy bináris adat, amely egyetlen egységként van tárolva – például a BLOB lehet audio, video vagy maga a prezentáció. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Visszaadja vagy beállítja az ázsiai betűtípust, amely akkor kerül felhasználásra, ha a forrásbetűtípus nem található. Olvasható/írható String. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a normál betűtípust, amely akkor kerül felhasználásra, ha a forrásbetűtípus nem található. Olvasható/írható String. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Visszaadja vagy beállítja a szimbólum betűtípust, amely akkor kerül felhasználásra, ha a forrásbetűtípus nem található. Olvasható/írható String. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Visszaadja vagy beállítja a prezentáció szövegének alapértelmezett nyelvét. Olvasható/írható String. |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | A lehetőségek, amelyek a Binary Large Objects (BLOB-ok) kezelésének viselkedését szabályozzák, például ideiglenes fájlok használatát vagy a memóriában tárolható BLOB-ok maximális bájtértékét. Ezek a beállítások a legjobb teljesítmény-memória fogyasztási arányt biztosítják egy adott környezet vagy követelmény esetén. A Binary Large Object (BLOB) egy bináris adat, amely egyetlen entitásként tárolódik – például a BLOB lehet hang, videó vagy maga a prezentáció. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Visszaadja vagy beállítja az ázsiai betűtípust, amely akkor kerül felhasználásra, ha a forrás betűtípust nem találja. Olvasás-írás String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Visszaadja vagy beállítja a normál betűtípust, amely akkor kerül felhasználásra, ha a forrás betűtípust nem találja. Olvasás-írás String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Visszaadja vagy beállítja a szimbólum betűtípust, amely akkor kerül felhasználásra, ha a forrás betűtípust nem találja. Olvasás-írás String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Visszaadja vagy beállítja a prezentáció szövegének alapértelmezett nyelvét. Olvasás/írás String. |
 | [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Meghatározza, hogy az Aspose.Slides törli-e az összes beágyazott bináris objektumot a prezentáció betöltése közben. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Megadja a külső betűtípusok forrásait, amelyeket a prezentáció használ. Ezek a betűtípusok a prezentáció teljes élettartama alatt elérhetők, és nem osztoznak más prezentációkkal. |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Az a token, amelyet az megszakítási kérések nyomon követésére használnak. Ez a token kezeli a teljes [`IPresentation`](../ipresentation) példány életciklusát. Bármely hosszú ideig futó művelet, például a prezentáció betöltése vagy mentése, az [`Interrupt`](../iinterruptiontokensource/interrupt) metódus hívásával lesz megszakítva a [`IInterruptionTokenSource`](../iinterruptiontokensource) esetében. |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Visszaadja vagy beállítja a betöltendő prezentáció formátumát. Olvasható/írható [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Ez a tulajdonság akkor értelmes, ha a prezentáció fájl jelszóval védett. A true érték azt jelenti, hogy csak a dokumentumtulajdonságokat kell betölteni a titkosított prezentációból, és a jelszót figyelmen kívül kell hagyni. A false érték azt jelenti, hogy a teljes titkosított prezentációt a megfelelő jelszó használatával kell betölteni. Ha a prezentáció nincs titkosítva, a tulajdonság értéke mindig figyelmen kívül marad. Ha egy titkosított fájl dokumentumtulajdonságai nem nyilvánosak és a tulajdonság értéke true, akkor a dokumentumtulajdonságok nem tölthetők be, és kivétel lesz dobva. Olvasható/írható Boolean. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Visszaadja vagy beállítja a jelszót. Olvasható/írható String. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Visszaadja vagy beállítja a visszahívási interfészt, amely a külső erőforrások betöltését kezeli. Olvasható/írható [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Azokat az opciókat képviseli, amelyek további táblázatkezelő viselkedés megadására használhatók. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasható/írható [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Megadja a külső betűtípusok forrásait, amelyeket a prezentáció használ. Ezek a betűtípusok a prezentáció teljes élettartama alatt elérhetők, és nem oszthatók meg más prezentációkkal. |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | A token, amely a megszakítási kérések figyelésére szolgál. Ez a token kezeli a teljes [`IPresentation`](../ipresentation) példány életciklusát. Bármely hosszú művelet, például a prezentáció betöltése vagy mentése, a [`Interrupt`](../iinterruptiontokensource/interrupt) metódus meghívásával lesz megszakítva a [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Visszaadja vagy beállítja a betöltendő prezentáció formátumát. Olvasás/írás [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Ez a tulajdonság akkor értelmezhető, ha a prezentáció fájl jelszóval védett. A true érték azt jelenti, hogy csak a dokumentum tulajdonságait kell betölteni a titkosított prezentációból, és a jelszót figyelmen kívül kell hagyni. A false érték azt jelenti, hogy a teljes titkosított prezentációt a megfelelő jelszó használatával kell betölteni. Ha a prezentáció nincs titkosítva, akkor a tulajdonság értéke mindig figyelmen kívül marad. Ha egy titkosított fájl dokumentum tulajdonságai nem nyilvánosak és a tulajdonság értéke true, akkor a dokumentum tulajdonságok nem tölthetők be, és kivétel keletkezik. Olvasás-írás Boolean. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Visszaadja vagy beállítja a jelszót. Olvasás-írás String. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Visszaadja vagy beállítja a visszahívási interfészt, amely a külső erőforrások betöltését kezeli. Olvasás/írás [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | A lehetőségek, amelyek a táblázatok további viselkedésének meghatározására használhatók. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Visszaadja vagy beállítja azt az objektumot, amely figyelmeztetéseket kap, és eldönti, hogy a betöltési folyamat folytatódjon-e vagy megszakadjon. Olvasás/írás [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lásd még
 

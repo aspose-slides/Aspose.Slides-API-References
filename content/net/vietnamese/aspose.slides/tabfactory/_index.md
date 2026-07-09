@@ -14,7 +14,7 @@ Cho phép tạo các thể hiện ITab
 public class TabFactory : ITabFactory
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -28,7 +28,7 @@ public class TabFactory : ITabFactory
 
 ### Ghi chú
 
-Để tương thích với COM.
+Cho tương thích COM.
 
 ### Xem thêm
 

@@ -1,6 +1,6 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع واجهة برمجة تطبيقات Aspose.Sildes لـ .NET
 description: يمثل حجم شريحة الملاحظات.
 type: docs
 weight: 9130

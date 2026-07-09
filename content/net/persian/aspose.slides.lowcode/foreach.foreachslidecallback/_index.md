@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: مرجع API Aspose.Sildes برای .NET
-description: کال‌بکی که برای هر Slide./foreach/slide در Presentation../aspose.slides/presentation فراخوانی می‌شود.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: بازگشت‌تماسی که برای هر Slide./foreach/slide در Presentation../aspose.slides/presentation فراخوانی می‌شود.
 type: docs
 weight: 7960
 url: /fa/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
-## ForEach.ForEachSlideCallback نماینده
+## ForEach.ForEachSlideCallback delegate
 
-کال‌بکی که برای هر [`Slide`](../foreach/slide) در [`Presentation`](../../aspose.slides/presentation) فراخوانی می‌شود.
+بازگشت‌تماسی که برای هر [`Slide`](../foreach/slide) در [`Presentation`](../../aspose.slides/presentation) صدا زده می‌شود.
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -16,10 +16,10 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | پارامتر | نوع | توضیح |
 | --- | --- | --- |
-| slide | Slide | اسلاید جاری که در حال تکرار است |
-| index | Int32 | اندیس اسلاید جاری |
+| slide | Slide | اسلاید فعلی که در حال پیمایش است |
+| index | Int32 | شاخص اسلاید فعلی |
 
-### مراجع مرتبط
+### موارد مرتبط
 
 * کلاس [Slide](../../aspose.slides/slide)
 * کلاس [ForEach](../foreach)

@@ -1,14 +1,14 @@
 ---
 title: ITrendline
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: คลาสแทนเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: คลาสที่แสดงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
 type: docs
 weight: 2240
 url: /th/aspose.slides.charts/itrendline/
 ---
 ## ITrendline อินเทอร์เฟซ
 
-คลาสแทนเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
+คลาส แสดงเส้นแนวโน้มของชุดข้อมูลแผนภูมิ
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -19,15 +19,15 @@ public interface ITrendline : IOverridableText
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | คืนค่า IOverridableText อินเทอร์เฟซ. อ่านอย่างเดียว [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | ระบุจำนวนประเภท (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปก่อนข้อมูลของชุดข้อมูลที่กำลังทำแนวโน้ม. บนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าอาจเป็นค่าที่ไม่เป็นลบใด ๆ. อ่าน/เขียน Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | ระบุว่าสมการของเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายเดียวกับค่า Rsquaredvalue). อ่าน/เขียน Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | ระบุว่าค่า R-squared ของเส้นแนวโน้มจะแสดงบนแผนภูมิ (ในป้ายเดียวกับสมการ). อ่าน/เขียน Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | แทนรูปแบบของเส้นแนวโน้ม. อ่าน/เขียน [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | ระบุจำนวนประเภท (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปหลังข้อมูลของชุดข้อมูลที่กำลังทำแนวโน้ม. บนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่าอาจเป็นค่าที่ไม่เป็นลบใด ๆ. อ่าน/เขียน Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | ระบุค่าที่เส้นแนวโน้มจะตัดแกน y. คุณสมบัตินี้รองรับเฉพาะเมื่อประเภทเส้นแนวโน้มเป็น exp, linear หรือ poly. อ่าน/เขียน Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | ระบุลำดับของเส้นแนวโน้มเชิงพหุนาม. จะถูกละเว้นสำหรับประเภทเส้นแนวโน้มอื่น. ค่าต้องอยู่ระหว่าง 2 ถึง 6. อ่าน/เขียน Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | ระบุรอบของเส้นแนวโน้มสำหรับเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่. จะถูกละเว้นสำหรับรูปแบบเส้นแนวโน้มอื่น. ค่าต้องอยู่ระหว่าง 2 ถึง 255. อ่าน/เขียน Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | แทนรายการคำอธิบายที่เกี่ยวข้องกับเส้นแนวโน้มนี้ อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | กำหนดจำนวนหมวด (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปก่อนข้อมูลของชุดที่กำลังทำแนวโน้ม. บนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่า จะต้องเป็นค่าที่ไม่เป็นลบ. อ่าน/เขียน Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | กำหนดให้สมการของเส้นแนวโน้มแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับค่า Rsquaredvalue). อ่าน/เขียน Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | กำหนดให้ค่า R-squared ของเส้นแนวโน้มแสดงบนแผนภูมิ (ในป้ายกำกับเดียวกับสมการ). อ่าน/เขียน Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | แสดงรูปแบบของเส้นแนวโน้ม. อ่าน/เขียน [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | กำหนดจำนวนหมวด (หรือหน่วยบนแผนภูมิกระจาย) ที่เส้นแนวโน้มขยายออกไปหลังข้อมูลของชุดที่กำลังทำแนวโน้ม. บนแผนภูมิกระจายและแผนภูมิที่ไม่ใช่กระจาย ค่า จะต้องเป็นค่าที่ไม่เป็นลบ. อ่าน/เขียน Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | กำหนดค่าที่เส้นแนวโน้มตัดแกน y. คุณสมบัตินี้จะสนับสนุนเฉพาะเมื่อประเภทเส้นแนวโน้มเป็น exp, linear หรือ poly. อ่าน/เขียน Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | กำหนดลำดับของเส้นแนวโน้มพหุนาม. จะถูกละเลยสำหรับประเภทเส้นแนวโน้มอื่น. ค่าต้องอยู่ระหว่าง 2 ถึง 6. อ่าน/เขียน Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | กำหนดช่วงของเส้นแนวโน้มสำหรับเส้นแนวโน้มค่าเฉลี่ยเคลื่อนที่. จะถูกละเลยสำหรับแบบเส้นแนวโน้มอื่น. ค่าต้องอยู่ระหว่าง 2 ถึง 255. อ่าน/เขียน Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | แสดงรายการคำอธิบายในตารางที่เกี่ยวข้องกับเส้นแนวโน้มนี้ อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | รับหรือกำหนดชื่อของเส้นแนวโน้ม. อ่าน/เขียน String. |
 | [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | รับหรือกำหนดประเภทของเส้นแนวโน้ม. อ่าน/เขียน [`TrendlineType`](./trendlinetype). |
 
@@ -35,6 +35,6 @@ public interface ITrendline : IOverridableText
 
 * อินเทอร์เฟซ [IOverridableText](../ioverridabletext)
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
-* แอสเซมบลี [Aspose.Slides](../../)
+* อสมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

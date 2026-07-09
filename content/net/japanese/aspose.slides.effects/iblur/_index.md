@@ -1,14 +1,14 @@
 ---
 title: IBlur
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプ全体（塗りつぶしを含む）に適用されるぼかし効果を表します。アルファを含むすべてのカラーチャンネルが影響を受けます。
+description: 塗りつぶしを含むシェイプ全体に適用されるブラー効果を表します。アルファを含むすべてのカラーチャンネルが影響を受けます。
 type: docs
-weight: 3160
+weight: 3180
 url: /ja/aspose.slides.effects/iblur/
 ---
 ## IBlur インターフェイス
 
-シェイプ全体（塗りつぶしを含む）に適用されるぼかし効果を表します。アルファを含むすべてのカラーチャンネルが影響を受けます。
+Blur エフェクトを表します。このエフェクトはシェイプ全体に適用され、塗りつぶしも含まれます。アルファを含むすべてのカラーチャンネルが影響を受けます。
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
@@ -16,12 +16,12 @@ public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransfo
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | ブラー処理の結果としてオブジェクトの境界を拡大するかどうかを決定します。True は境界が拡大されることを示し、false は拡大されないことを示します。読み書き Boolean。 |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | ぼかし半径を取得または設定します。読み書き Double。 |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | ブラー処理の結果としてオブジェクトの境界を拡張するかどうかを決定します。true は境界が拡張されることを示し、false は拡張されないことを示します。読み書き可能な Boolean。 |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | ぼかし半径を取得または設定します。読み書き可能な Double。 |
 
 ### 参照
 

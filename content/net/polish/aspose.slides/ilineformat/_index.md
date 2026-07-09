@@ -1,12 +1,12 @@
 ---
 title: ILineFormat
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes – dokumentacja API dla .NET
 description: Reprezentuje format linii.
 type: docs
-weight: 6290
+weight: 6310
 url: /pl/aspose.slides/ilineformat/
 ---
-## ILineFormat interfejs
+## interfejs ILineFormat
 
 Reprezentuje format linii.
 
@@ -19,19 +19,19 @@ public interface ILineFormat : ILineParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Zwraca lub ustawia wyrównanie linii. Odczyt/zapis [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Umożliwia uzyskanie podstawowego interfejsu ILineParamSource. Tylko do odczytu [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotka strzały na początku linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotka strzały na początku linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotka strzały na początku linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu ILineParamSource. Tylko do odczytu [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzałki na początku linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Zwraca lub ustawia styl zakończenia linii. Odczyt/zapis [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Zwraca lub ustawia niestandardowy wzorzec kreski. Odczyt/zapis Single[]. |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Zwraca lub ustawia niestandardowy wzór kreski. Odczyt/zapis Single[]. |
 | [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Zwraca lub ustawia styl kreski linii. Odczyt/zapis [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotka strzały na końcu linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotka strzały na końcu linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotka strzały na końcu linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Zwraca lub ustawia długość grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Zwraca lub ustawia styl grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Zwraca lub ustawia szerokość grotu strzałki na końcu linii. Odczyt/zapis [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Zwraca format wypełnienia linii. Tylko do odczytu [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Zwraca true, jeśli format linii nie jest zdefiniowany (tak jak zaraz po utworzeniu, domyślnie). Tylko do odczytu Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Zwraca lub ustawia styl połączenia linii. Odczyt/zapis [`LineJoinStyle`](../linejoinstyle). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Zwraca wartość true, jeśli format linii nie jest zdefiniowany (jako właśnie utworzony, domyślny). Tylko do odczytu Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Zwraca lub ustawia styl łączenia linii. Odczyt/zapis [`LineJoinStyle`](../linejoinstyle). |
 | [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Zwraca lub ustawia limit ścięcia linii. Odczyt/zapis Single. |
 | [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Zwraca format szkicu linii. Tylko do odczytu [`ISketchFormat`](../isketchformat). |
 | [Style](../../aspose.slides/ilineformat/style) { get; set; } | Zwraca lub ustawia styl linii. Odczyt/zapis [`LineStyle`](../linestyle). |
@@ -41,10 +41,10 @@ public interface ILineFormat : ILineParamSource
 
 | Nazwa | Opis |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Określa, czy dwie instancje LineFormat są równe. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Pobiera efektywne dane formatowania linii z zastosowanym dziedziczeniem. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Określa, czy dwa wystąpienia LineFormat są równe. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Pobiera skuteczne dane formatowania linii z zastosowanym dziedziczeniem. |
 
-### Zobacz także
+### Zobacz również
 
 * interfejs [ILineParamSource](../ilineparamsource)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

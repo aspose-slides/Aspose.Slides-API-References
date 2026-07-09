@@ -14,20 +14,20 @@ url: /hi/aspose.slides/iaudio/
 public interface IAudio
 ```
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | ऑडियो डेटा की प्रतिलिपि लौटाता है। बड़ी मात्रा में डेटा के मामले में अनावश्यक रूप से ऑडियो डेटा को मेमोरी में लोड करने या यहाँ तक कि OutOfMemoryException से बचने के लिए [`GetStream`](./getstream) मेथड का उपयोग करने पर विचार करें। केवल-पढ़ने योग्य Byte[]. |
-| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | ऑडियो का MIME प्रकार लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोडेड है। केवल-पढ़ने योग्य String. |
+| [BinaryData](../../aspose.slides/iaudio/binarydata) { get; } | ऑडियो डेटा की कॉपी लौटाता है। बड़े डेटा की मात्रा के मामले में अनावश्यक रूप से ऑडियो डेटा को मेमोरी में लोड करने या यहाँ तक कि OutOfMemoryException से बचने के लिये [`GetStream`](./getstream) मेथड के उपयोग पर विचार करें। केवल पढ़ने योग्य Byte[]. |
+| [ContentType](../../aspose.slides/iaudio/contenttype) { get; } | ऑडियो का MIME टाइप लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोडेड है। केवल पढ़ने योग्य String. |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetStream](../../aspose.slides/iaudio/getstream)() | पढ़ने के लिए Stream स्ट्रीम लौटाता है। 'using' का उपयोग करें या उपयोग के बाद स्ट्रीम को बंद करें। |
+| [GetStream](../../aspose.slides/iaudio/getstream)() | पढ़ने के लिये Stream स्ट्रीम लौटाता है। 'using' का प्रयोग करें या उपयोग के बाद स्ट्रीम बंद करें। |
 
-### संबंधित देखें
+### देखें साथ में
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

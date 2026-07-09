@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta un effetto BrightnessContrast. Regola luminosità e contrasto
+description: Rappresenta un effetto BrightnessContrast. Regola la luminosità e il contrasto
 type: docs
-weight: 2910
+weight: 2930
 url: /it/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast classe
 
-Rappresenta un effetto BrightnessContrast. Regola luminosità e contrasto
+Rappresenta un effetto BrightnessContrast. Regola la luminosità e il contrasto
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -24,8 +24,8 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Determina se il [`BrightnessContrast`](../brightnesscontrast) specificato è uguale all'attuale [`BrightnessContrast`](../brightnesscontrast). |
-| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Ottiene i dati effettivi dell'effetto BrightnessContrast con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | Determina se lo [`BrightnessContrast`](../brightnesscontrast) specificato è uguale all'attuale [`BrightnessContrast`](../brightnesscontrast). |
+| [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | Ottiene i dati dell'effetto BrightnessContrast effettivo con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche

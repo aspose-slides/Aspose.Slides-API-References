@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: 단락의 글머리표 서식 속성을 나타냅니다.
+description: 문단 글머리 기호 서식 속성을 나타냅니다.
 type: docs
 weight: 1070
 url: /ko/aspose.slides/bulletformat/
 ---
 ## BulletFormat 클래스
 
-단락 글머리표 서식 속성을 나타냅니다.
+문단 글머리 기호 서식 속성을 나타냅니다.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,25 +18,25 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | 상속되지 않은 단락의 글머리표 문자를 반환하거나 설정합니다. 읽기/쓰기 Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | 상속되지 않은 단락의 글머리표 색 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | 상속되지 않은 단락의 글머리표 폰트를 반환하거나 설정합니다. 읽기/쓰기 [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | 상속되지 않은 단락의 글머리표 높이를 반환하거나 설정합니다. 값 float.NaN은 글머리표가 단락의 첫 번째 부분에서 높이를 상속함을 의미합니다. 읽기/쓰기 Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | 글머리표가 자체 색상을 가지고 있는지 또는 단락의 첫 번째 부분에서 색상을 상속하는지 결정합니다. 글머리표가 자체 색상을 가지고 있으면 **NullableBool.True**, 단락의 첫 번째 부분에서 색상을 상속하면 **NullableBool.False** 입니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | 글머리표가 자체 폰트를 가지고 있는지 또는 단락의 첫 번째 부분에서 폰트를 상속하는지 결정합니다. 글머리표가 자체 폰트를 가지고 있으면 **NullableBool.True**, 단락의 첫 번째 부분에서 폰트를 상속하면 **NullableBool.False** 입니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | 상속되지 않은 번호 매기기 글머리표 그룹에 사용되는 첫 번째 번호를 반환하거나 설정합니다. 읽기/쓰기 Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | 상속되지 않은 번호 매기기 글머리표의 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | 상속되지 않은 단락에서 글머리표로 사용되는 그림을 반환합니다. 읽기 전용 [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | 상속되지 않은 단락의 글머리표 유형을 반환하거나 설정합니다. 읽기/쓰기 [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기초 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | 상속이 없는 문단의 글머리 문자를 반환하거나 설정합니다. 읽기/쓰기 Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | 상속이 없는 문단의 글머리 색상 형식을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | 상속이 없는 문단의 글머리 글꼴을 반환하거나 설정합니다. 읽기/쓰기 [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | 상속이 없는 문단의 글머리 높이를 반환하거나 설정합니다. 값 float.NaN 은 글머리 높이가 문단의 첫 번째 부분에서 상속된다는 것을 의미합니다. 읽기/쓰기 Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | 글머리의 색상이 자체 색상인지 첫 번째 부분에서 상속되는지 결정합니다. 글머리의 자체 색상이 있으면 **NullableBool.True**, 첫 번째 부분에서 색상이 상속되면 **NullableBool.False**. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | 글머리의 글꼴이 자체 글꼴인지 첫 번째 부분에서 상속되는지 결정합니다. 글머리의 자체 글꼴이 있으면 **NullableBool.True**, 첫 번째 부분에서 글꼴이 상속되면 **NullableBool.False**. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | 상속이 없는 번호 매기기 글머리 그룹에 사용할 첫 번째 번호를 반환하거나 설정합니다. 읽기/쓰기 Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | 상속이 없는 번호 매기기 글머리의 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | 상속이 없는 문단에서 글머리로 사용되는 그림을 반환합니다. 읽기 전용 [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | 상속이 없는 문단의 글머리 유형을 반환하거나 설정합니다. 읽기/쓰기 [`BulletType`](../bullettype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | 글머리표가 활성화된 경우(예: PowerPoint에서 단락 글머리표/번호 매기기를 활성화하면) 유효한 단락 Indent와 MarginLeft에 대한 기본값이 아닌 비제로 이동을 설정합니다. 글머리표가 비활성화된 경우에는 단락 Indent와 MarginLeft를 재설정합니다(예: PowerPoint에서 단락 글머리표/번호 매기기를 비활성화하면). 이동값은 현재 글머리표 컨텍스트인 IBulletFormat.Type, .NumberedBulletStyle 및 첫 번째 부분의 FontHeight를 기준으로 적용됩니다. 비제로 이동은 현재 단락의 유효한 Indent와 MarginLeft에 적용되어 결과값이 로컬 값이 됩니다. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | 글머리 기호가 활성화된 경우(예: PowerPoint에서 단락 글머리 기호/번호 매기기를 활성화하면) 효과적인 단락 Indent와 MarginLeft에 기본이 아닌 이동을 설정합니다. 글머리 기호가 비활성화된 경우 단락 Indent와 MarginLeft를 재설정합니다(예: PowerPoint에서 단락 글머리 기호/번호 매기기를 비활성화하면). Indent 이동은 현재 글머리 컨텍스트인 IBulletFormat.Type, .NumberedBulletStyle 및 첫 번째 부분의 FontHeight를 기준으로 적용됩니다. 비-0 Indent 이동은 현재 단락의 효과적인 Indent와 MarginLeft에 적용되어 결과값이 로컬 값이 됩니다. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | 상속이 적용된 유효한 글머리표 서식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | 상속이 적용된 효과적인 글머리 서식 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
 ### 참조

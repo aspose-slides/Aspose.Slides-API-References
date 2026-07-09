@@ -1,9 +1,9 @@
 ---
 title: CustomData
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en behållare för anpassade data.
+description: Representerar behållare för anpassade data.
 type: docs
-weight: 2710
+weight: 2730
 url: /sv/aspose.slides/customdata/
 ---
 ## CustomData klass
@@ -18,8 +18,8 @@ public class CustomData : ICustomData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Returnerar samlingen av anpassade xml-delar. Endast läsning [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
-| [Tags](../../aspose.slides/customdata/tags) { get; } | Returnerar samlingen av kunddata-taggar. Endast läsning [`ITagCollection`](../itagcollection). |
+| [CustomXmlParts](../../aspose.slides/customdata/customxmlparts) { get; } | Returnerar samlingen med anpassade xml-delar. Skrivskyddad [`ICustomXmlPartCollection`](../icustomxmlpartcollection). |
+| [Tags](../../aspose.slides/customdata/tags) { get; } | Returnerar samlingen med kunddatataggar. Skrivskyddad [`ITagCollection`](../itagcollection). |
 
 ### Se även
 

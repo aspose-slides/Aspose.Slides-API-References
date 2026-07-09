@@ -1,14 +1,14 @@
 ---
 title: IRowFormatEffectiveData
-second_title: Aspose.Sildes a .NET API referencia
-description: Nem módosítható objektum, amely a hatékony táblasor formázási tulajdonságokat tartalmazza.
+second_title: Aspose.Sildes .NET API-referencia
+description: Változatlan objektum, amely tartalmazza a hatékony táblázatsor formázási tulajdonságait.
 type: docs
-weight: 6860
+weight: 6880
 url: /hu/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interfész
 
-Nem módosítható objektum, amely a hatékony táblasor formázási tulajdonságokat tartalmazza.
+A változatlan objektum, amely tartalmazza a hatékony táblázatsor-formázási tulajdonságokat.
 
 ```csharp
 public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,11 +18,11 @@ public interface IRowFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az IBaseTableFormatEffectiveData alap interfész lekérdezését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/irowformateffectivedata/asibasetableformateffectivedata) { get; } | Lehetővé teszi az alap IBaseTableFormatEffectiveData interfész lekérését. Csak olvasható [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Megjegyzések
 
-Ez az interfész a [`IRowFormat`](../irowformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához öröklődéssel és táblastílussal alkalmazva.
+Ez az interfész a(z) [`IRowFormat`](../irowformat) interfészzel együtt használható a hatékony formázási értékek visszaadására, öröklődéssel és alkalmazott táblastílusokkal.
 
 ### Lásd még
 

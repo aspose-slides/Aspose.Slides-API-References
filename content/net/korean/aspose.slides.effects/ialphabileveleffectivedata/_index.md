@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 임계값보다 작은 Alpha Opacity 값을 0(완전 투명)으로, 임계값 이상인 alpha 값을 100(완전 불투명)으로 변환하는 Alpha Bi-Level 효과를 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 임계값보다 작은 알파 불투명도 값은 0(완전 투명)으로, 임계값 이상인 알파 값은 100(완전 불투명)으로 변경되는 알파 바이레벨 효과를 나타내는 불변 객체입니다.
 type: docs
 weight: 3030
 url: /ko/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData 인터페이스
 
-Alpha Bi-Level 효과를 나타내는 불변 객체입니다. 임계값보다 작은 알파(불투명도) 값은 0(완전히 투명)으로, 임계값 이상인 알파 값은 100%(완전히 불투명)으로 변경됩니다.
+임계값보다 작은 Alpha(불투명도) 값은 0(완전 투명)으로, 임계값 이상인 Alpha 값은 100%(완전 불투명)으로 변경되는 Alpha Bi-Level 효과를 나타내는 불변 객체입니다.
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -21,7 +21,7 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | 효과 임계값을 반환합니다. 읽기 전용 Single. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

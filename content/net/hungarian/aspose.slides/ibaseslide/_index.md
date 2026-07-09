@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes .NET API referencia
-description: Az összes diatípus közös adatait képviseli.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Közös adatokat képvisel az összes diatípushoz.
 type: docs
-weight: 5320
+weight: 5340
 url: /hu/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide interfész
 
-Az összes diatípus közös adatait képviseli.
+Közös adatokat képvisel az összes diatípushoz.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | Név | Leírás |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Lehetővé teszi a base IThemeable interfész lekérését. Csak olvasható [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | Lehetővé teszi az alap IThemeable interfész lekérését. Csak olvasható [`IThemeable`](../../aspose.slides.theme/ithemeable). |
 | [Background](../../aspose.slides/ibaseslide/background) { get; } | Visszaadja a dia háttérét. Csak olvasható [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Visszaadja egy dia ActiveX vezérlők gyűjteményét. Csak olvasható [`IControlCollection`](../icontrolcollection). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | Visszaadja a dián lévő ActiveX vezérlőelemek gyűjteményét. Csak olvasható [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | Visszaadja a dia egyéni adatait. Csak olvasható [`ICustomData`](../icustomdata). |
 | [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | Könnyű hozzáférést biztosít a tartalmazott hiperhivatkozásokhoz. Csak olvasható [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Visszaadja vagy beállítja egy dia nevét. Olvasás/írás String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Visszaadja egy dia alakjait. Csak olvasható [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Megadja, hogy a mesterdia alakjai megjelenjenek-e a diákon vagy sem. A mesterdia esetén ez a tulajdonság mindig `false` értéket ad vissza. Olvasás/írás Boolean. |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | Visszaadja vagy beállítja a dia nevét. Olvasás/írás String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | Visszaadja egy dia alakzatát. Csak olvasható [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | Megadja, hogy a mesterdia alakzatai megjelenjenek-e a diákon vagy sem. A mesterdia esetében ez a tulajdonság mindig `false` értéket ad vissza. Olvasás/írás Boolean. |
 | [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | Visszaadja egy dia azonosítóját. Csak olvasható UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Visszaadja a TransitionEx objektumot, amely információkat tartalmaz arról, hogyan lép előre a megadott dia a diavetítés során. Csak olvasható [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Visszaadja az animáció idővonal objektumát. Csak olvasható [`IAnimationTimeLine`](../ianimationtimeline). |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | Visszaadja a TransitionEx objektumot, amely információkat tartalmaz arról, hogyan halad tovább a megadott dia a diavetítés során. Csak olvasható [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | Visszaadja az animáció idővonal objektumot. Csak olvasható [`IAnimationTimeLine`](../ianimationtimeline). |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Megállapítja, hogy a két IBaseSlide példány egyenlő-e. A visszatérő értéket a dia szerkezete és statikus tartalma alapján számítják ki. Két dia akkor egyenlő, ha minden alakzat, stílus, szöveg, animáció és egyéb beállítások stb. egyenlőek. Az összehasonlítás nem veszi figyelembe az egyedi azonosító értékeket, például a SlideId-t és a dinamikus tartalmat, például a Date Placeholder-ben lévő aktuális dátumértéket. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Megkeresi a megadott alternatív szöveggel rendelkező alakzat első előfordulását. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Összevonja az azonos formázású futásokat az összes bekezdésben az összes elfogadható alakzatban. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | Meghatározza, hogy a két IBaseSlide példány egyenlő-e. Visszatérési értéke a dia szerkezete és statikus tartalma alapján kerül kiszámításra. Két dia akkor egyenlő, ha az összes alakzat, stílus, szöveg, animáció és egyéb beállítás stb. egyenlő. Az összehasonlítás nem veszi figyelembe az egyedi azonosító értékeket, például a SlideId-t és a dinamikus tartalmat, például a Dátum helyőrzőben lévő aktuális dátumértéket. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | Megkeresi az első előfordulását annak az alakzatnak, amelyik a megadott alternatív szöveggel rendelkezik. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | Összefűzi a formázásban azonos futamokat az összes bekezdésben az összes megfelelő alakzatban. |
 
 ### Lásd még
 

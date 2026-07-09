@@ -1,6 +1,6 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Biedt AI-ondersteunde functies voor het verwerken van presentaties.
 type: docs
 weight: 70
@@ -14,27 +14,27 @@ Biedt AI-ondersteunde functies voor het verwerken van presentaties.
 public class SlidesAIAgent
 ```
 
-## Constructeurs
+## Constructoren
 
 | Name | Description |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent#constructor)() | Initialiseert een nieuw exemplaar van [`SlidesAIAgent`](../slidesaiagent) met behulp van de ingebouwde [`AsposeAIWebClient`](../asposeaiwebclient) met de standaardconfiguratie. De client maakt verbinding met de eigen LLM van Aspose en vereist geen extra configuratie. Om een andere AI-client te gebruiken, gebruikt u de overload [`SlidesAIAgent`](./slidesaiagent). |
-| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | Initialiseert een nieuw exemplaar van [`SlidesAIAgent`](../slidesaiagent) met een aangepaste AI-client. Gebruik deze overload om de AI-provider op te geven, uw eigen LLM te leveren, of de verbinding aan te passen (bijvoorbeeld door uw eigen `HttpClient` te geven). Elke implementatie van [`IAIWebClient`](../iaiwebclient) kan worden gebruikt, inclusief: |
+| [SlidesAIAgent](slidesaiagent#constructor)() | Initialiseert een nieuw exemplaar van [`SlidesAIAgent`](../slidesaiagent) met de ingebouwde [`AsposeAIWebClient`](../asposeaiwebclient) met de standaardconfiguratie. De client maakt verbinding met de eigen LLM van Aspose en vereist geen extra configuratie. Om een andere AI-client te gebruiken, gebruik in plaats daarvan de overload [`SlidesAIAgent`](./slidesaiagent). |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | Initialiseert een nieuw exemplaar van [`SlidesAIAgent`](../slidesaiagent) met een aangepaste AI-client. Gebruik deze overload om de AI-provider te specificeren, uw eigen LLM te leveren, of de verbinding aan te passen (bijvoorbeeld door uw eigen `HttpClient` te voorzien). Elke implementatie van [`IAIWebClient`](../iaiwebclient) kan worden gebruikt, inclusief: |
 
 ## Methoden
 
 | Name | Description |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Genereert een presentatie-exemplaar uit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten in de vereiste taal. |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Genereert een presentatie-exemplaar uit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten in de vereiste taal. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Genereert een presentatie-exemplaar uit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten in de vereiste taal. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Genereert een presentatie-exemplaar uit een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstfragmenten in de vereiste taal. |
-| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | Vertaal een presentatie naar de opgegeven taal met AI (synchrone versie). |
-| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | Vertaal een presentatie naar de opgegeven taal met AI. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | Genereert een presentatie-exemplaar op basis van een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstdelen op in de vereiste taal. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | Genereert een presentatie-exemplaar op basis van een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstdelen op in de vereiste taal. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | Genereert een presentatie-exemplaar op basis van een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstdelen op in de vereiste taal. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | Genereert een presentatie-exemplaar op basis van een tekstbeschrijving. Geef een onderwerp, ideeën, citaten of tekstdelen op in de vereiste taal. |
+| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | Vertalt een presentatie naar de opgegeven taal met behulp van AI (synchrone versie). |
+| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | Vertalt een presentatie naar de opgegeven taal met behulp van AI. |
 
 ### Zie ook
 
 * naamruimte [Aspose.Slides.AI](../../aspose.slides.ai)
-* assemblage [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

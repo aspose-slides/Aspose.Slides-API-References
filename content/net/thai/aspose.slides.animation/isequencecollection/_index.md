@@ -1,14 +1,14 @@
 ---
 title: ISequenceCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันของลำดับเชื่อมต่อที่โต้ตอบ.
+description: แสดงคอลเลกชันของลำดับเชิงโต้ตอบ.
 type: docs
 weight: 600
 url: /th/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection อินเทอร์เฟซ
 
-Represents collection of interactive sequences.
+แสดงคอลเลกชันของลำดับเชิงโต้ตอบ.
 
 ```csharp
 public interface ISequenceCollection : IEnumerable<ISequence>
@@ -18,17 +18,17 @@ public interface ISequenceCollection : IEnumerable<ISequence>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. IEnumerable แบบอ่านอย่างเดียว. |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | คืนค่าจำนวนขององค์ประกอบในคอลเล็กชัน Int32 แบบอ่านอย่างเดียว. |
-| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | คืนค่าลำดับที่ตำแหน่งที่ระบุ. |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | ส่งคืนอินเทอร์เฟซ IEnumerable. แบบอ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | ส่งคืนจำนวนขององค์ประกอบในคอลเลกชัน. แบบอ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | ส่งคืนลำดับที่ตำแหน่งที่ระบุ. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | เพิ่มลำดับเชื่อมโต้ตอบใหม่. |
-| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | ลบลำดับทั้งหมดออกจากคอลเล็กชัน. |
-| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | ลบลำดับที่ระบุออกจากคอลเล็กชัน. |
+| [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | เพิ่มลำดับเชิงโต้ตอบใหม่. |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | ลบลำดับทั้งหมดออกจากคอลเลกชัน. |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | ลบลำดับที่ระบุออกจากคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | ลบลำดับที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม

@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: ハイパーリンクの管理（追加・削除）を提供します。
+description: ハイパーリンクの管理（追加および削除）を提供します。
 type: docs
-weight: 6110
+weight: 6130
 url: /ja/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager インターフェイス
 
-ハイパーリンクの管理（追加、削除）を提供します。
+ハイパーリンクの管理（追加および削除）を提供します。
 
 ```csharp
 public interface IHyperlinkManager

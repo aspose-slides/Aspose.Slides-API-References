@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes for .NET API 參考
-description: 代表用於圖表繪製的資料。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示用於圖表繪製的資料。
 type: docs
 weight: 1310
 url: /zh-hant/aspose.slides.charts/chartdata/
 ---
 ## ChartData 類別
 
-Represents data used for a chart plotting.
+表示用於圖表繪製的資料。
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -18,29 +18,29 @@ public class ChartData : DomObject<Chart>, IChartData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | 取得主要類別（如果 [`UseSecondaryCategories`](./usesecondarycategories) 屬性為 false，則同時取得主要與次要類別）。唯讀 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | 取得用於建立圖表系列或類別之儲存格工廠。唯讀 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | 若為外部資料來源，則表示外部工作簿路徑，否則為 null |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | 取得主要類別（如果 [`UseSecondaryCategories`](./usesecondarycategories) 屬性為 false，則取得主要和次要類別）。唯讀 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | 取得用於圖表系列或類別的儲存格工廠以建立儲存格。唯讀 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | 表示外部資料來源的外部工作簿路徑，否則為 null |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | 取得嵌入式工作簿的類型。如果 [`DataSourceType`](./datasourcetype) 為 ExternalWorkbook，則回傳 NotDefined。唯讀 [`WorkbookType`](../workbooktype)。 |
 | [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | 表示圖表的資料來源 |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | 若 [`UseSecondaryCategories`](./usesecondarycategories) 屬性為 true，則取得次要類別。唯讀 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | 如果 [`UseSecondaryCategories`](./usesecondarycategories) 屬性為 true，則取得次要類別。唯讀 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
 | [Series](../../aspose.slides.charts/chartdata/series) { get; } | 取得系列。唯讀 [`IChartSeriesCollection`](../ichartseriescollection)。 |
 | [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | 取得系列的群組。唯讀 [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)。 |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | 若為 false，則 [`SecondaryCategories`](./secondarycategories) 屬性傳回 null，且 [`Categories`](./categories) 屬性的資料同時用於主要與次要系列。若為 true，則 [`SecondaryCategories`](./secondarycategories) 屬性的資料用於次要系列，[`Categories`](./categories) 屬性的資料用於主要系列。可讀寫 Boolean。 |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | 如果為 false，則 [`SecondaryCategories`](./secondarycategories) 屬性返回 null，且 [`Categories`](./categories) 屬性的資料同時用於主要與次要系列。如果為 true，則 [`SecondaryCategories`](./secondarycategories) 屬性的資料用於次要系列，[`Categories`](./categories) 屬性的資料用於主要系列。可讀寫 Boolean。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | 取得圖表資料範圍。 |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | 將內部包含的 Excel 工作簿寫入記憶體串流。 |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | 設定外部工作簿為圖表的資料來源。圖表資料將自目標工作簿更新。 |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | 將內部包含的 Excel 工作簿寫入記憶體流。 |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | 設定外部工作簿為圖表的資料來源。圖表資料將從目標工作簿更新。 |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 設定外部工作簿為圖表的資料來源。 |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | 設定圖表資料範圍。系列與類別將根據新資料範圍更新。若資料範圍中的系列數量大於圖表資料中的系列計數，則會在集合末端新增與目前最後一個系列相同類型的系列。 |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | 在軸上交換資料。原本繪製於 X 軸的資料將移至 Y 軸，反之亦然。 |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | 使用使用者指定的值初始化內部包含的 Excel 工作簿。 |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | 設定圖表資料範圍。系列和類別將根據新資料範圍更新。如果資料範圍中的系列數量大於圖表資料中的系列計數，則會在集合末端加入與目前最後一個系列相同類型的額外系列。 |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | 交換軸向上的資料。原在 X 軸繪製的資料將移至 Y 軸，反之亦然。 |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | 以使用者指定的值初始化內部包含的 Excel 工作簿。 |
 
-### 另請參閱
+### 另見
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [Chart](../chart)

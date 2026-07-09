@@ -1,12 +1,12 @@
 ---
 title: TextAlignment
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các kiểu căn chỉnh văn bản khác nhau.
+description: Biểu thị các kiểu căn chỉnh văn bản khác nhau.
 type: docs
 weight: 10900
 url: /vi/aspose.slides/textalignment/
 ---
-## TextAlignment liệt kê
+## Liệt kê TextAlignment
 
 Biểu thị các kiểu căn chỉnh văn bản khác nhau.
 
@@ -19,12 +19,12 @@ public enum TextAlignment
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | NotDefined | `-1` | Căn chỉnh mặc định. |
-| Left | `0` | Căn trái. |
-| Center | `1` | Căn giữa. |
-| Right | `2` | Căn phải. |
-| Justify | `3` | Căn đều. |
-| JustifyLow | `4` | Căn đều kiểu Kashida thấp. |
-| Distributed | `5` | Căn phân tán. |
+| Left | `0` | Căn chỉnh trái. |
+| Center | `1` | Căn chỉnh giữa. |
+| Right | `2` | Căn chỉnh phải. |
+| Justify | `3` | Căn chỉnh đều. |
+| JustifyLow | `4` | Căn chỉnh Kashida thấp. |
+| Distributed | `5` | Căn chỉnh phân phối. |
 
 ### Xem thêm
 

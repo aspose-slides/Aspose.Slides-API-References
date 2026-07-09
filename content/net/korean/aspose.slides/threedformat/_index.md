@@ -22,13 +22,13 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 | [BevelBottom](../../aspose.slides/threedformat/bevelbottom) { get; } | 하단 3D 베벨의 유형을 반환하거나 설정합니다. 읽기 전용 [`IShapeBevel`](../ishapebevel). |
 | [BevelTop](../../aspose.slides/threedformat/beveltop) { get; } | 상단 3D 베벨의 유형을 반환하거나 설정합니다. 읽기 전용 [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/threedformat/camera) { get; } | 카메라 설정을 반환하거나 설정합니다. 읽기 전용 [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | 윤곽의 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 3D 윤곽의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [ContourColor](../../aspose.slides/threedformat/contourcolor) { get; } | 윤곽선 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/threedformat/contourwidth) { get; set; } | 3D 윤곽선의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [Depth](../../aspose.slides/threedformat/depth) { get; set; } | 3D 형태의 깊이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | 압출의 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 압출 효과의 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | 조명의 유형을 반환하거나 설정합니다. 읽기 전용 [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/threedformat/material) { get; set; } | 재료의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`MaterialPresetType`](../materialpresettype). |
+| [ExtrusionColor](../../aspose.slides/threedformat/extrusioncolor) { get; } | 돌출 형상의 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/threedformat/extrusionheight) { get; set; } | 돌출 효과의 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [LightRig](../../aspose.slides/threedformat/lightrig) { get; } | 광원의 유형을 반환하거나 설정합니다. 읽기 전용 [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/threedformat/material) { get; set; } | 재질의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`MaterialPresetType`](../materialpresettype). |
 
 ## 메서드
 
@@ -40,7 +40,7 @@ public sealed class ThreeDFormat : PVIObject, IThreeDFormat
 
 ### 예제
 
-다음 예제는 PowerPoint 프레젠테이션에 3D 도형을 추가하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션에 3D 형태를 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-다음 예제는 PowerPoint 프레젠테이션에 3D 도형에 그라디언트 효과를 적용하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션에서 3D 형태에 그라디언트 효과를 적용하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -96,21 +96,21 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-다음 예제는 텍스트에 3D 효과를 적용하는 방법을 보여줍니다. 3D 텍스트를 만들기 위해 WordArt 변환 효과를 사용할 수 있습니다.
+다음 예제는 텍스트에 3D 효과를 적용하는 방법을 보여줍니다. 3D 텍스트를 만들려면 WordArt 변환 효과를 사용할 수 있습니다.
 
 ```csharp
 [C#]
 // Presentation 클래스의 인스턴스를 생성합니다.
 using (Presentation pres = new Presentation())
 {
-	// AddAutoShape 메서드를 사용하여 도형을 추가합니다.
+	// AddAutoShape 메서드를 사용하여 도형을 추가합니다
      IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 200, 150, 250, 250);
-	// TextFrame 및 해당 속성을 정의합니다.
+	// TextFrame 및 해당 속성을 정의합니다
     shape.TextFrame.Text = "3D Text";
-	// FillFormat.FillType을 FillType.NoFill로 설정합니다.
+	// FillFormat.FillType을 FillType.NoFill로 설정합니다
 	shape.FillFormat.FillType = FillType.NoFill;
     shape.LineFormat.FillFormat.FillType = FillType.NoFill;
-	// TextFrame의 Portion을 구성하고 PortionFormat 속성을 설정합니다.
+	// TextFrame의 Portion을 구성하고 PortionFormat 속성을 설정합니다
 	Portion portion = (Portion)shape.TextFrame.Paragraphs[0].Portions[0];
     portion.PortionFormat.FillFormat.FillType = FillType.Pattern;
     portion.PortionFormat.FillFormat.PatternFormat.ForeColor.Color = Color.DarkOrange;
@@ -118,9 +118,9 @@ using (Presentation pres = new Presentation())
     portion.PortionFormat.FillFormat.PatternFormat.PatternStyle = PatternStyle.LargeGrid;
 	shape.TextFrame.Paragraphs[0].ParagraphFormat.DefaultPortionFormat.FontHeight = 128;
     ITextFrame textFrame = shape.TextFrame;
-    // "Arch Up" WordArt 변환 효과를 설정합니다.
+    // "Arch Up" WordArt 변환 효과를 설정합니다
     textFrame.TextFrameFormat.Transform = TextShapeType.ArchUp;
-	// ITextFrame의 ThreeDFormat 속성을 정의합니다.
+	// ITextFrame의 ThreeDFormat 속성을 정의합니다
 	textFrame.TextFrameFormat.ThreeDFormat.ExtrusionHeight = 3.5f;
     textFrame.TextFrameFormat.ThreeDFormat.Depth = 3;
     textFrame.TextFrameFormat.ThreeDFormat.Material = MaterialPresetType.Plastic;
@@ -129,12 +129,12 @@ using (Presentation pres = new Presentation())
     textFrame.TextFrameFormat.ThreeDFormat.LightRig.SetRotation(0, 0, 40);
     textFrame.TextFrameFormat.ThreeDFormat.Camera.CameraType = CameraPresetType.PerspectiveContrastingRightFacing;
     pres.Slides[0].GetThumbnail(2, 2).Save("text3d.png");
-	// Presentation 파일을 저장합니다.
+	// Presentation 파일을 저장합니다
      pres.Save("text3d.pptx", SaveFormat.Pptx);
 }
 ```
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IThreeDFormat](../ithreedformat)

@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot verschillende typen overschreven thema's.
+description: Biedt toegang tot verschillende soorten overschreven thema's.
 type: docs
 weight: 11350
 url: /nl/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interface
 
-Biedt toegang tot verschillende typen overschreven thema's.
+Biedt toegang tot verschillende soorten overschreven thema's.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Stelt u in staat om de basise IThemeManager interface op te vragen. Alleen-lezen [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft al dan niet. Om OverrideTheme voor overschrijven in te schakelen, gebruik OverrideTheme.Init*() methoden. Om OverrideTheme van overschrijven uit te schakelen, gebruik OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende thema-object. Lezen/schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Staat toe de basis IThemeManager interface op te halen. Alleen-lezen [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme voor overschrijven in te schakelen, gebruik OverrideTheme.Init*() methoden. Om OverrideTheme te voorkomen te overschrijven, gebruik OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende themobject. Lezen/Schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει ένα πλαίσιο με μια εικόνα μέσα.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά ένα πλαίσιο με μια εικόνα μέσα.
 type: docs
-weight: 6650
+weight: 6670
 url: /el/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame διασύνδεση
 
-Αντιπροσωπεύει ένα πλαίσιο με μια εικόνα μέσα.
+Αναπαριστά ένα πλαίσιο με μια εικόνα μέσα.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,12 +18,12 @@ public interface IPictureFrame : IGeometryShape
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IGeometryShape. Μόνο για ανάγνωση [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IGeometryShape. Μόνο για ανάγνωση [`IGeometryShape`](../igeometryshape). |
 | [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Επιστρέφει το αντικείμενο PictureFillFormat για ένα πλαίσιο εικόνας. Μόνο για ανάγνωση [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Επιστρέφει τις κλειδώσεις του PictureFrame. Μόνο για ανάγνωση [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Επιστρέφει ή ορίζει την κλίμακα του ύψους (σε σχέση με το αρχικό μέγεθος της εικόνας) του πλαισίου εικόνας. Η τιμή 1.0 αντιστοιχεί στο 100%. Ανάγνωση/εγγραφή Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Επιστρέφει ή ορίζει την κλίμακα του πλάτους (σε σχέση με το αρχικό μέγεθος της εικόνας) του πλαισίου εικόνας. Η τιμή 1.0 αντιστοιχεί στο 100%. Ανάγνωση/εγγραφή Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Επιστρέφει τις κλειδώσεις του σχήματος. Μόνο για ανάγνωση [`IPictureFrameLock`](../ipictureframelock). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | Επιστρέφει τα κλειδώματα του PictureFrame. Μόνο για ανάγνωση [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Επιστρέφει ή ορίζει την κλίμακα του ύψους (σχετικό με το αρχικό μέγεθος εικόνας) του πλαισίου εικόνας. Η τιμή 1.0 αντιστοιχεί στο 100%. Ανάγνωση/εγγραφή Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Επιστρέφει ή ορίζει την κλίμακα του πλάτους (σχετικό με το αρχικό μέγεθος εικόνας) του πλαισίου εικόνας. Η τιμή 1.0 αντιστοιχεί στο 100%. Ανάγνωση/εγγραφή Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Επιστρέφει τα κλειδώματα του σχήματος. Μόνο για ανάγνωση [`IPictureFrameLock`](../ipictureframelock). |
 
 ### Δείτε επίσης
 

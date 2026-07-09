@@ -1,14 +1,14 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 애니메이션 속성의 계산 모드를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 애니메이션 속성에 대한 calc 모드를 나타냅니다.
 type: docs
 weight: 740
 url: /ko/aspose.slides.animation/propertycalcmodetype/
 ---
 ## PropertyCalcModeType 열거형
 
-애니메이션 속성의 계산 모드를 나타냅니다.
+애니메이션 속성에 대한 계산 모드를 나타냅니다.
 
 ```csharp
 public enum PropertyCalcModeType

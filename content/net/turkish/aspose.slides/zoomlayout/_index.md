@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes for .NET API Referansı
-description: Özet zoom düzenini belirtir.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Özet yakınlaştırma düzenini belirtir.
 type: docs
-weight: 11840
+weight: 11860
 url: /tr/aspose.slides/zoomlayout/
 ---
 ## ZoomLayout enum
 
-Özet zoom düzenini belirtir.
+Özet yakınlaştırma düzenini belirtir.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| GridLayout | `0` | Nesneler listesinin ızgara düzeni olarak düzeni belirtir. |
-| FixedLayout | `1` | Kullanıcı tanımlı Zoom konumlandırmasıyla düzeni belirtir. |
+| GridLayout | `0` | Nesneler listesi için düzeni ızgara düzeni olarak belirtir. |
+| FixedLayout | `1` | Kullanıcı tanımlı Yakınlaştırma konumlandırması ile düzeni belirtir. |
 
 ### Ayrıca Bakınız
 

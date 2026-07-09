@@ -1,9 +1,9 @@
 ---
 title: IResourceLoadingCallback
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Interfaccia di callback utilizzata per gestire il caricamento di risorse esterne.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Interfaccia di callback utilizzata per gestire il caricamento delle risorse esterne.
 type: docs
-weight: 6820
+weight: 6840
 url: /it/aspose.slides/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interfaccia

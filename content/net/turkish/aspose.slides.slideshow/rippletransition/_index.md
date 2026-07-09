@@ -3,7 +3,7 @@ title: RippleTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Ripple slayt geçiş efekti.
 type: docs
-weight: 10270
+weight: 10290
 url: /tr/aspose.slides.slideshow/rippletransition/
 ---
 ## RippleTransition sınıfı
@@ -18,14 +18,14 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 
 | Ad | Açıklama |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | Geçişin yönü. Okunur/yazılabilir [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir karma (hash) işlevi olarak hizmet eder; karma tabloları gibi karma algoritmaları ve veri yapılarına uygun. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için bir hash işlevi sağlar; hash tablosu gibi veri yapılarında ve hashleme algoritmalarında kullanılmaya uygundur. |
 
 ### Ayrıca Bakınız
 

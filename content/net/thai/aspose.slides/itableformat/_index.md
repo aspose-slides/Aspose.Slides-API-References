@@ -1,14 +1,14 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของรูปแบบของตาราง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงรูปแบบของตาราง.
 type: docs
 weight: 7240
 url: /th/aspose.slides/itableformat/
 ---
 ## ITableFormat อินเทอร์เฟซ
 
-เป็นตัวแทนของรูปแบบของตาราง.
+แสดงรูปแบบของตาราง.
 
 ```csharp
 public interface ITableFormat
@@ -16,16 +16,16 @@ public interface ITableFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | คืนค่าอ็อบเจ็กต์คุณสมบัติการเติมของตาราง. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติการเติมของตาราง. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
 | [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | รับหรือกำหนดความโปร่งใสของสีเติม. อ่าน/เขียน Single. |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบของตารางที่มีประสิทธิภาพพร้อมการสืบทอดและสไตล์ตารางที่ใช้. |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบตารางที่มีผลพร้อมการสืบทอดและสไตล์ตารางที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 

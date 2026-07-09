@@ -1,14 +1,14 @@
 ---
 title: PicturesCompression
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนระดับการบีบอัดรูปภาพ
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงระดับการบีบอัดรูปภาพ
 type: docs
 weight: 4350
 url: /th/aspose.slides.export/picturescompression/
 ---
-## PicturesCompression enumeration
+## PicturesCompression enum
 
-เป็นตัวแทนระดับการบีบอัดรูปภาพ
+แสดงระดับการบีบอัดรูปภาพ
 
 ```csharp
 public enum PicturesCompression
@@ -19,11 +19,11 @@ public enum PicturesCompression
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
 | Dpi330 | `0` | คุณภาพดีสำหรับจอแสดงผลความละเอียดสูง (HD) |
-| Dpi220 | `1` | คุณภาพยอดเยี่ยมบนเครื่องพิมพ์และจอภาพส่วนใหญ่ |
+| Dpi220 | `1` | คุณภาพยอดเยี่ยมบนเครื่องพิมพ์และหน้าจอส่วนใหญ่ |
 | Dpi150 | `2` | เหมาะสำหรับหน้าเว็บและโปรเจคเตอร์ |
-| Dpi96 | `3` | ลดขนาดเอกสารเพื่อแชร์ |
+| Dpi96 | `3` | ลดขนาดเอกสารเพื่อการแชร์ |
 | Dpi72 | `4` | ระดับการบีบอัดค่าเริ่มต้น |
-| DocumentResolution | `5` | ใช้ความละเอียดของเอกสาร - รูปภาพจะไม่ถูกบีบอัดและจะใช้ในเอกสารตามเดิม |
+| DocumentResolution | `5` | ใช้ความละเอียดของเอกสาร - รูปภาพจะไม่ถูกบีบอัดและใช้ในเอกสารตามเดิม |
 
 ### ดูเพิ่มเติม
 

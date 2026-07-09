@@ -6,9 +6,9 @@ type: docs
 weight: 490
 url: /ar/aspose.slides.animation/ieffect/
 ---
-## IEffect واجهة
+## واجهة IEffect
 
-Represents animation effect.
+يمثل تأثير الرسوم المتحركة.
 
 ```csharp
 public interface IEffect
@@ -18,24 +18,24 @@ public interface IEffect
 
 | الاسم | الوصف |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | يحدد لون ما بعد الرسوم المتحركة للتأثير. قراءة/كتابة [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | يحدد نوع ما بعد الرسوم المتحركة للتأثير. قراءة/كتابة [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | يحدد نوع نص متحرك للتأثير. يمكن أن يتم تحريك نص الشكل حرفاً بحرف، كلمة بكلمة أو كله مرة واحدة. قراءة/كتابة [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | إرجاع مجموعة من السلوكيات للتأثير. قراءة/كتابة [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | يحدد تأخيرًا بين أجزاء النص المتحرك (كلمات أو أحرف). قيمة موجبة تحدد النسبة المئوية لمدة التأثير. قيمة سالبة تحدد التأخير بالثواني. قراءة/كتابة Single. |
-| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | يحدد فئة التأثير. قراءة/كتابة [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | إرجاع تسلسل للتأثير. للقراءة فقط [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | يحدد الصوت المدمج للتأثير. قراءة/كتابة [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | يحدد ما إذا كان تأثير الرسوم المتحركة يوقف الصوت السابق. قراءة/كتابة Boolean. |
-| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | يحدد النوع الفرعي للتأثير. قراءة/كتابة [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | إرجاع الشكل المستهدف للتأثير. للقراءة فقط [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | إرجاع تحريك النص. للقراءة فقط [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | يحدد قيمة التوقيت للتأثير. قراءة/كتابة [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | يحدد نوع التأثير. قراءة/كتابة [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | يعرف لونًا بعد الرسوم المتحركة للتأثير. قراءة/كتابة [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | يعرف نوعًا بعد الرسوم المتحركة للتأثير. قراءة/كتابة [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | يعرف نوعًا لنص متحرك للتأثير. يمكن تحريك نص الشكل بالحرف، أو بالكلمة، أو بالكامل مرة واحدة. قراءة/كتابة [`AnimateTextType`](./animatetexttype). |
+| [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | يعيد مجموعة من السلوك للتأثير. قراءة/كتابة [`IBehaviorCollection`](../ibehaviorcollection). |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | يعرف تأخيرًا بين أجزاء النص المتحرك (كلمات أو أحرف). القيمة الموجبة تحدد نسبة مدة التأثير. القيمة السالبة تحدد التأخير بالثواني. قراءة/كتابة Single. |
+| [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | يعرف فئة التأثير. قراءة/كتابة [`EffectPresetClassType`](../effectpresetclasstype). |
+| [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | يعيد تسلسلاً للتأثير. قراءة فقط [`ISequence`](../isequence). |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | يعرف صوتًا مدمجًا للتأثير. قراءة/كتابة [`IAudio`](../../aspose.slides/iaudio). |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | تحدد هذه الخاصية ما إذا كان تأثير الرسوم المتحركة يوقف الصوت السابق. قراءة/كتابة Boolean. |
+| [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | يعرف نوعًا فرعيًا للتأثير. قراءة/كتابة [`EffectSubtype`](../effectsubtype). |
+| [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | يعيد الشكل الهدف للتأثير. قراءة فقط [`IShape`](../../aspose.slides/ishape). |
+| [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | يعيد تحريك النص. قراءة فقط [`ITextAnimation`](../itextanimation). |
+| [Timing](../../aspose.slides.animation/ieffect/timing) { get; set; } | يعرف قيمة التوقيت للتأثير. قراءة/كتابة [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/ieffect/type) { get; set; } | يعرف نوع التأثير. قراءة/كتابة [`EffectType`](../effecttype). |
 
 ### انظر أيضًا
 
-* نطاق [Aspose.Slides.Animation](../../aspose.slides.animation)
+* النطاق [Aspose.Slides.Animation](../../aspose.slides.animation)
 * التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

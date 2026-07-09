@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ग्रेडिएंट स्टॉप्स का एक संग्रह प्रस्तुत करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: ग्रेडिएंट स्टॉप्स का एक संग्रह दर्शाता है।
 type: docs
 weight: 6030
 url: /hi/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection इंटरफ़ेस
 
-ग्रेडिएंट स्टॉप्स का एक संग्रह प्रस्तुत करता है।
+ग्रेडिएंट स्टॉप्स का संग्रह दर्शाता है।
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -16,24 +16,24 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 ## गुण
 
-| नाम | विवरण |
+| Name | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | इन्डेक्स द्वारा ग्रेडिएंट स्टॉप लौटाता है। |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | इंडेक्स द्वारा ग्रेडिएंट स्टॉप लौटाता है। |
 
-## विधाएँ
+## विधियां
 
-| नाम | विवरण |
+| Name | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह के अंत में जोड़ता है। |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह के अंत में जोड़ता है। |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह के अंत में जोड़ता है। |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | संग्रह से सभी ग्रेडिएंट स्टॉप्स हटाता है। |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | नया ग्रेडिएंट स्टॉप बनाता है और उसे निर्दिष्ट इंडेक्स पर संग्रह में सम्मिलित करता है। |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे निर्दिष्ट इंडेक्स पर संग्रह में सम्मिलित करता है। |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे निर्दिष्ट इंडेक्स पर संग्रह में सम्मिलित करता है। |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | नया ग्रेडिएंट स्टॉप बनाता है और संग्रह के अंत में जोड़ता है। |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | नया ग्रेडिएंट स्टॉप बनाता है और संग्रह के अंत में जोड़ता है। |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | नया ग्रेडिएंट स्टॉप बनाता है और संग्रह के अंत में जोड़ता है। |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | संग्रह से सभी ग्रेडिएंट स्टॉप हटाता है। |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है। |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है। |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | नया ग्रेडिएंट स्टॉप बनाता है और उसे संग्रह में निर्दिष्ट इंडेक्स पर सम्मिलित करता है। |
 | [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | निर्दिष्ट इंडेक्स पर ग्रेडिएंट स्टॉप हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IGradientStop](../igradientstop)

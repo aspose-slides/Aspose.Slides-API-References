@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een SVG-optie voor.
+description: Stelt SVG-opties voor.
 type: docs
 weight: 4060
 url: /nl/aspose.slides.export/isvgoptions/
 ---
 ## ISVGOptions interface
 
-Stelt een SVG-optie voor.
+Stelt SVG-opties voor.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -19,25 +19,25 @@ public interface ISVGOptions : ISaveOptions
 | Naam | Beschrijving |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | Retourneert ISaveOptions interface. Alleen-lezen [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Een boolean-vlag geeft aan of de bijgesneden delen deel uitmaken van het document. Als true worden de bijgesneden delen verwijderd, als false worden ze geserialiseerd in het document (wat eventueel kan leiden tot een groter bestand) Lezen/schrijven Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Bepaalt of de 3D-tekst is uitgeschakeld in SVG. Lezen/schrijven Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Haalt een waarde op of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true` worden ligaturen uitgeschakeld in de gerenderde output. Standaard is deze eigenschap ingesteld op `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Schakelt het splitsen van FromCornerX- en FromCenter-gradients uit. Lezen/schrijven Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 mist de mogelijkheid om insets voor markers te definiëren. De SVG-schrijfmotor van Aspose.Slides heeft een oplossing voor dat probleem: hij cropt het uiteinde van een lijn met een pijl, zodat de lijn markers niet overlapt. Deze optie schakelt dergelijk gedrag uit. Lezen/schrijven Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Bepaalt een manier om extern geladen lettertypen af te handelen. Lezen/schrijven [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | Een booleaanse vlag geeft aan of de bijgesneden delen deel blijven uitmaken van het document. Als true worden de bijgesneden delen verwijderd, als false worden ze geserialiseerd in het document (wat mogelijk kan leiden tot een groter bestand) Lezen/Schrijven Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | Bepaalt of 3D-tekst is uitgeschakeld in SVG. Lezen/Schrijven Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | Kent of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde uitvoer. Standaard is deze eigenschap ingesteld op `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | Schakelt het splitsen van FromCornerX- en FromCenter-gradients uit. Lezen/Schrijven Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 kan geen inspringingen voor markers definiëren. De SVG-schrijfmotor van Aspose.Slides heeft een oplossing voor dat probleem: hij bijsnijdt het einde van een lijn met een pijl, zodat de lijn de markers niet overlapt. Deze optie schakelt dergelijk gedrag uit. Lezen/Schrijven Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | Bepaalt een manier om extern geladen lettertypen te verwerken. Lezen/Schrijven [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
 | [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Bepaalt de JPEG-coderingskwaliteit. Lezen/schrijven Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Retourneert of stelt de ondergrens voor resolutie bij metafile-rasterisatie in. Lezen/schrijven Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Vertegenwoordigt het compressieniveau van afbeeldingen. Lezen/schrijven [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Retourneert en stelt een callback-interface in waarmee de gebruiker de vormconversie kan beheren. Lezen/schrijven [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Bepaalt of de opgegeven rotatie van de vorm wordt toegepast bij het renderen al dan niet. Lezen/schrijven Boolean. Standaardwaarde is true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Bepaalt of het tekstframe wordt opgenomen in een rendergebied al dan niet. Lezen/schrijven Boolean. Standaardwaarde is false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Bepaalt of de tekst op een dia wordt opgeslagen als grafische elementen. Lezen/schrijven Boolean. |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | Bepaalt de JPEG-coderingskwaliteit. Lezen/Schrijven Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | Retourneert of stelt de ondergrens voor resolutie bij metafile rasterisatie in. Lezen/Schrijven Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | Stelt het compressieniveau van afbeeldingen voor. Lezen/Schrijven [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | Retourneert en stelt een callback-interface in die de gebruiker in staat stelt de vormconversie te controleren. Lezen/Schrijven [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | Bepaalt of de opgegeven rotatie van de vorm moet worden uitgevoerd tijdens het renderen of niet. Lezen/Schrijven Boolean. Standaardwaarde is true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | Bepaalt of het tekstframe al dan niet wordt opgenomen in een rendergebied. Lezen/Schrijven Boolean. Standaardwaarde is false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | Bepaalt of de tekst op een dia wordt opgeslagen als grafische afbeeldingen. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 
 * interface [ISaveOptions](../isaveoptions)
-* naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

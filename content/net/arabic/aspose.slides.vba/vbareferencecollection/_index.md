@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل مجموعة من مراجع مشروع VBA.
 type: docs
 weight: 11670
@@ -19,9 +19,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | الاسم | الوصف |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | يحصل على عدد العناصر الفعلية الموجودة في المجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للمؤشرات). للقراءة فقط Boolean. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | يرجع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للخيوط). للقراءة فقط Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | يحصل على العنصر في الفهرس المحدد. |
-| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | إرجاع جذر التزامن. للقراءة فقط Object. |
+| [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | يرجع جذر المزامنة. للقراءة فقط Object. |
 
 ## الطرق
 
@@ -29,9 +29,9 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | يضيف المرجع الجديد إلى مجموعة المراجع |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | إرجاع مُكرّر يتنقل عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | يرجع عدادًا يكرر عبر المجموعة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * واجهة [IVbaReferenceCollection](../ivbareferencecollection)
 * مساحة الاسم [Aspose.Slides.Vba](../../aspose.slides.vba)

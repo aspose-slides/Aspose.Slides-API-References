@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของตัวเลือกสำหรับรูปทรง SVG.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงตัวเลือกสำหรับรูปทรง SVG.
 type: docs
 weight: 4110
 url: /th/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape อินเทอร์เฟซ
 
-เป็นตัวแทนของตัวเลือกสำหรับรูปทรง SVG.
+แสดงตัวเลือกสำหรับรูปทรง SVG.
 
 ```csharp
 public interface ISvgShape
@@ -18,7 +18,7 @@ public interface ISvgShape
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | กำหนดหรือดึง id ของรูปทรง |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | กำหนดหรือรับค่า id ของรูปทรง |
 
 ## เมธอด
 
@@ -26,7 +26,7 @@ public interface ISvgShape
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | กำหนดตัวจัดการเหตุการณ์สำหรับรูปทรง |
 
-### ดูเพิ่ม
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)

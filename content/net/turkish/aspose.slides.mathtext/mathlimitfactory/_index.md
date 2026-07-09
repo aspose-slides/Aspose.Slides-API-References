@@ -1,9 +1,9 @@
 ---
 title: MathLimitFactory
-second_title: Aspose.Sildes .NET API Referansı için
+second_title: Aspose.Sildes için .NET API Referansı
 description: IMathLimit oluşturulmasına izin verir
 type: docs
-weight: 8810
+weight: 8830
 url: /tr/aspose.slides.mathtext/mathlimitfactory/
 ---
 ## MathLimitFactory sınıfı
@@ -24,8 +24,8 @@ public class MathLimitFactory : IMathLimitFactory
 
 | Ad | Açıklama |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Alt sınırda limit ile IMathLimit oluşturur |
-| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMathLimit oluşturur |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | Alt tarafta limit ile IMathLimit oluşturur |
+| [CreateMathLimit](../../aspose.slides.mathtext/mathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | IMMathLimit oluşturur |
 
 ### Açıklamalar
 

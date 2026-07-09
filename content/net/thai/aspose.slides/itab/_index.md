@@ -1,14 +1,14 @@
 ---
 title: ITab
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงการจัดแท็บสำหรับข้อความ.
 type: docs
 weight: 7190
 url: /th/aspose.slides/itab/
 ---
-## อินเทอร์เฟซ ITab
+## ITab อินเทอร์เฟซ
 
-แสดงการจัดแท็บสำหรับข้อความ.
+แทนการจัดแท็บสำหรับข้อความ
 
 ```csharp
 public interface ITab : IComparable
@@ -18,9 +18,9 @@ public interface ITab : IComparable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | คืนค่า หรือกำหนดสไตล์การจัดแนวของแท็บ. อ่าน/เขียน [`TabAlignment`](../tabalignment). |
+| [Alignment](../../aspose.slides/itab/alignment) { get; set; } | คืนค่าหรือกำหนดสไตล์การจัดแนวของแท็บ อ่าน/เขียน [`TabAlignment`](../tabalignment). |
 | [AsIComparable](../../aspose.slides/itab/asicomparable) { get; } | คืนค่าอินเทอร์เฟซ IComparable. อ่านอย่างเดียว IComparable. |
-| [Position](../../aspose.slides/itab/position) { get; set; } | คืนค่า หรือกำหนดตำแหน่งของแท็บ. การกำหนดค่าคุณสมบัตินี้อาจเปลี่ยนดัชนีของแท็บในคอลเลกชันและทำให้ Enumerator ไม่ถูกต้อง. อ่าน/เขียน Double. |
+| [Position](../../aspose.slides/itab/position) { get; set; } | คืนค่าหรือกำหนดตำแหน่งของแท็บ การกำหนดค่าคุณสมบัตินี้อาจเปลี่ยนดัชนีของแท็บในคอลเลกชันและทำให้ Enumerator ไม่สามารถใช้งานได้. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

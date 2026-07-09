@@ -1,7 +1,7 @@
 ---
 title: LineFillFormat
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於線條填充的屬性。
+description: 表示線條填充的屬性。
 type: docs
 weight: 7780
 url: /zh-hant/aspose.slides/linefillformat/
@@ -16,21 +16,21 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 取得或設定填充類型。可讀寫 [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | 取得漸層填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | 取得圖案填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 判斷填充是否應隨形狀旋轉。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 取得純色填充的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 返回或設定填充類型。可讀寫 [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | 返回漸層填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | 返回圖案填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 決定填充是否應隨形狀旋轉。可讀寫 [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 返回實心填充的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定物件比較。 |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 返回雜湊碼。 |
 
 ### 另請參閱
 

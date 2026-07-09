@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τον διαχειριστή που διατηρεί τη συμπεριφορά των υποδοχών υποσέλιδου, ημερομηνίας-ώρας, αριθμού σελίδας και όλων των θυγατρικών υποδοχών διάταξης διαφάνειας. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης.
+description: Αντιπροσωπεύει έναν διαχειριστή που καθορίζει τη συμπεριφορά των δεσμευτών θέσης υποσέλιδου, ημερομηνίας-ώρας, αριθμού σελίδας της διαφάνειας διάταξης και όλων των υποδεικτών. Οι υποδεικτες σημαίνουν ότι οι δεσμευτές θέσης περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης.
 type: docs
-weight: 6220
+weight: 6240
 url: /el/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager διασύνδεση
 
-Αντιπροσωπεύει το διαχειριστή που διατηρεί τη συμπεριφορά των υποδοχών υποσέλιδου διάταξης διαφάνειας, ημερομηνίας-ώρας, αριθμού σελίδας και όλων των θυγατρικών υποδοχών. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης.
+Αντιπροσωπεύει έναν διαχειριστή που διαμορφώνει τη συμπεριφορά του υποσέλιδου διαφάνειας διάταξης, του δείκτη ημερομηνίας-ώρας, του αριθμού σελίδας και όλων των υποπολεμοτήρων. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,22 +18,22 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Επιστρέφει τη διασύνδεση IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Επιστρέφει το διασύνδεση IBaseSlideHeaderFooterManager. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ορίζει το κείμενο στην υποδοχή ημερομηνίας-ώρας της διαφάνειας διάταξης και σε όλες τις θυγατρικές υποδοχές ημερομηνίας-ώρας. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Αλλάζει την ορατότητα της υποδοχής ημερομηνίας-ώρας της διαφάνειας διάταξης και όλων των θυγατρικών υποδοχών ημερομηνίας-ώρας. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ορίζει το κείμενο στην υποδοχή υποσέλιδου της διαφάνειας διάταξης και σε όλες τις θυγατρικές υποδοχές υποσέλιδου. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Αλλάζει την ορατότητα της υποδοχής υποσέλιδου της διαφάνειας διάταξης και όλων των θυγατρικών υποδοχών υποσέλιδου. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη κύρια διαφάνεια. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Αλλάζει την ορατότητα της υποδοχής αριθμού σελίδας της διαφάνειας διάταξης και όλων των θυγατρικών υποδοχών αριθμού σελίδας. Οι θυγατρικές υποδοχές σημαίνουν ότι οι υποδοχές περιέχονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ορίζει κείμενο στον δείκτη ημερομηνίας-ώρας της διαφάνειας διάταξης και σε όλους τους υποπολεμότες δείκτη ημερομηνίας-ώρας. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Αλλάζει την ορατότητα του δείκτη ημερομηνίας-ώρας της διαφάνειας διάταξης και όλων των υποπολεμοτών δείκτη ημερομηνίας-ώρας. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ορίζει κείμενο στον δείκτη υποσέλιδου της διαφάνειας διάταξης και σε όλους τους υποπολεμότες υποσέλιδου. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Αλλάζει την ορατότητα του δείκτη υποσέλιδου της διαφάνειας διάταξης και όλων των υποπολεμοτών υποσέλιδου. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια κύριου πρότυπου. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Αλλάζει την ορατότητα του δείκτη αριθμού σελίδας της διαφάνειας διάταξης και όλων των υποπολεμοτών δείκτη αριθμού σελίδας. Οι υποπολεμότες σημαίνουν ότι οι δείκτες περιλαμβάνονται σε εξαρτημένες διαφάνειες. Οι εξαρτημένες διαφάνειες χρησιμοποιούν και εξαρτώνται από τη διαφάνεια διάταξης. |
 
 ### Δείτε επίσης
 
 * διασύνδεση [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
 * συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,22 +3,22 @@ title: ColumnFormat
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablo sütununun biçimini temsil eder.
 type: docs
-weight: 2590
+weight: 2610
 url: /tr/aspose.slides/columnformat/
 ---
-## ColumnFormat sınıfı
+## ColumnFormat sınıf
 
-Tablo sütunu biçiminin temsilcisidir.
+Bir tablo sütununun biçimini temsil eder.
 
 ```csharp
 public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 ```
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Kalıtım ve tablo stilleri uygulanmış etkili tablo sütunu biçimlendirme özelliklerini alır. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | Kalıtım ve tablo stillerinin uygulandığı etkili tablo sütunu biçimlendirme özelliklerini alır. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Questa interfaccia consente di inizializzare IBitmapWrapper.
 type: docs
-weight: 6160
+weight: 6180
 url: /it/aspose.slides/iimagewrapperfactory/
 ---
 ## IImageWrapperFactory interfaccia
 
-Questa interfaccia consente di inizializzare IBitmapWrapper.
+This interface allows to initialize IBitmapWrapper.
 
 ```csharp
 public interface IImageWrapperFactory

@@ -1,14 +1,14 @@
 ---
 title: IBehaviorFactory
 second_title: Aspose.Sildes for .NET API 참조
-description: 애니메이션 효과를 생성할 수 있습니다.
+description: 애니메이션 효과를 만들 수 있습니다.
 type: docs
 weight: 430
 url: /ko/aspose.slides.animation/ibehaviorfactory/
 ---
 ## IBehaviorFactory 인터페이스
 
-애니메이션 효과를 생성합니다.
+애니메이션 효과를 만들 수 있습니다.
 
 ```csharp
 public interface IBehaviorFactory
@@ -29,7 +29,7 @@ public interface IBehaviorFactory
 
 ### 비고
 
-COM 호환성을 위해 제공합니다.
+COM 호환성을 위해.
 
 ### 참조
 

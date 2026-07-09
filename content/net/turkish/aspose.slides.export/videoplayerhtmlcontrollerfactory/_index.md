@@ -3,12 +3,12 @@ title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Sildes için .NET API Referansı
 description: VideoPlayerHtmlController oluşturulmasını sağlar.
 type: docs
-weight: 4570
+weight: 4590
 url: /tr/aspose.slides.export/videoplayerhtmlcontrollerfactory/
 ---
 ## VideoPlayerHtmlControllerFactory sınıfı
 
-VideoPlayerHtmlController oluşturmayı sağlar.
+VideoPlayerHtmlController oluşturulmasını sağlar.
 
 ```csharp
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
@@ -20,7 +20,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 | --- | --- |
 | [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | Varsayılan yapıcı. |
 
-## Yöntemler
+## Metotlar
 
 | Ad | Açıklama |
 | --- | --- |

@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: रिपल स्लाइड संक्रमण प्रभाव।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Ripple स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10250
 url: /hi/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition क्लास
 
-रिपल स्लाइड संक्रमण प्रभाव।
+Ripple slide transition effect.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -16,18 +16,18 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph संक्रमण का प्रकार। पढ़ें/लिखें [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Type of morph transition. पढ़ें/लिखें [`TransitionMorphType`](../transitionmorphtype). |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिद्म और डेटा संरचनाओं जैसे हैश टेबल में उपयोग के लिए उपयुक्त है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंस बराबर हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IMorphTransition](../imorphtransition)

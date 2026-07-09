@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheetCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของเวิร์กชีตของสมุดงานข้อมูลแผนภูมิ.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของ worksheets ของ chart data workbook.
 type: docs
 weight: 1400
 url: /th/aspose.slides.charts/chartdataworksheetcollection/
 ---
 ## ChartDataWorksheetCollection คลาส
 
-Represents the collection of worksheets of chart data workbook.
+แสดงถึงคอลเลกชันของ worksheets ของ chart data workbook.
 
 ```csharp
 public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
@@ -18,17 +18,17 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | ส่งคืนจำนวน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันนี้เป็นแบบซิงโครไนส์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | ส่งคืนเวิร์กชีทตามดัชนี. |
-| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนส์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | คืนค่าจำนวน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้เป็นแบบ synchronized (thread-safe). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | คืนค่า worksheet ตามดัชนี. |
+| [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | คืนค่ารากการประสาน. อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | คัดลอกไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.charts/chartdataworksheetcollection/copyto)(Array, int) | คัดลอกไปยัง array ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.charts/chartdataworksheetcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 
 ### ตัวอย่าง
 

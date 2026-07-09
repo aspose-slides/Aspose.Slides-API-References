@@ -1,6 +1,6 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: सहायक रेखा पैरामीटर इंटरफ़ेस।
 type: docs
 weight: 6330
@@ -14,7 +14,7 @@ url: /hi/aspose.slides/ilineparamsource/
 public interface ILineParamSource
 ```
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

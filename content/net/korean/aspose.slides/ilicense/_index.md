@@ -1,14 +1,14 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 구성 요소에 라이선스를 적용하는 메서드를 제공합니다.
+description: 구성 요소에 대한 라이선스를 부여하는 메서드를 제공합니다.
 type: docs
 weight: 6260
 url: /ko/aspose.slides/ilicense/
 ---
 ## ILicense 인터페이스
 
-구성 요소에 라이선스를 적용하기 위한 메서드를 제공합니다.
+컴포넌트에 대한 라이선스를 부여하는 메서드를 제공합니다.
 
 ```csharp
 public interface ILicense
@@ -18,14 +18,14 @@ public interface ILicense
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 라이선스가 구성 요소에 적용되었는지 확인합니다 |
-| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | 라이선스를 재설정합니다 |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | 구성 요소에 라이선스를 적용합니다. |
-| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | 구성 요소에 라이선스를 적용합니다. |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | 라이선스가 컴포넌트에 적용되었는지 확인 |
+| [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | 라이선스를 재설정 |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | 컴포넌트에 라이선스를 적용 |
+| [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | 컴포넌트에 라이선스를 적용 |
 
 ### 예제
 
-이 예제에서는 MyLicense.lic이라는 라이선스 파일을 찾기 위해 구성 요소가 포함된 폴더, 호출 어셈블리가 포함된 폴더, 진입 어셈블리 폴더 및 호출 어셈블리의 임베디드 리소스에서 차례로 시도합니다.
+이 예제에서는 MyLicense.lic이라는 라이선스 파일을 찾기 위해 다음 순서로 검색합니다. 컴포넌트를 포함하는 폴더, 호출 어셈블리를 포함하는 폴더, 엔트리 어셈블리 폴더, 그리고 호출 어셈블리의 임베디드 리소스 순으로 검색합니다.
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนระดับจุดข้อมูล ใช้สำหรับแผนภูมิ Treemap และ Sunburst
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงระดับจุดข้อมูล ใช้กับแผนภูมิ Treemap และ Sunburst
 type: docs
 weight: 1350
 url: /th/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel คลาส
 
-แทนระดับจุดข้อมูล ใช้สำหรับแผนภูมิ Treemap และ Sunburst
+แสดงระดับจุดข้อมูล ใช้กับแผนภูมิ Treemap และ Sunburst
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -18,8 +18,8 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | เป็นตัวแทนของคุณสมบัติการจัดรูปแบบของระดับจุดข้อมูล. อ่าน/เขียน [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | เป็นตัวแทนของป้ายข้อมูลของระดับจุดข้อมูล. ใช้กับประเภทซีรีส์ Treemap และ Sunburst. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | แสดงคุณสมบัติการจัดรูปแบบของระดับจุดข้อมูล อ่าน/เขียน [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | แสดงป้ายกำกับข้อมูลของระดับจุดข้อมูล ใช้กับประเภทซีรีส์ Treemap และ Sunburst อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
 
 ### ดูเพิ่มเติม
 

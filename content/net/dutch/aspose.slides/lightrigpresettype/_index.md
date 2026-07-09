@@ -16,7 +16,7 @@ public enum LightRigPresetType
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Balanced | `0` |  |

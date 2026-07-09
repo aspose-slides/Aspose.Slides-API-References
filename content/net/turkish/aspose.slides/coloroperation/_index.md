@@ -1,9 +1,9 @@
 ---
 title: ColorOperation
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Renk dönüşümleri için kullanılan farklı renk işlemlerini temsil eder. Değiştirilemez nesne.
 type: docs
-weight: 2510
+weight: 2530
 url: /tr/aspose.slides/coloroperation/
 ---
 ## ColorOperation sınıfı
@@ -25,17 +25,17 @@ public class ColorOperation : IColorOperation
 
 | Ad | Açıklama |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Bir işlemin tipini döndürür veya ayarlar. Salt okunur [`ColorTransformOperation`](../colortransformoperation). |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | Bir işlemin türünü döndürür veya ayarlar. Salt okunur [`ColorTransformOperation`](../colortransformoperation). |
 | [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | Bir işlemin parametresini döndürür. Salt okunur Single. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | İki ColorOperation örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Belirli bir tip için bir hash fonksiyonu görevi görür, hash algoritmaları ve hash tablosu gibi veri yapılarını kullanmak için uygundur. |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder; karma algoritmaları ve bir hash tablosu gibi veri yapılarını kullanmak için uygundur. |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IColorOperation](../icoloroperation)
 * ad alanı [Aspose.Slides](../../aspose.slides)

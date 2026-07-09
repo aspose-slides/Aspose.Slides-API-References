@@ -1,14 +1,14 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบเปิดเผย
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบเปิดเผย.
 type: docs
 weight: 10160
 url: /th/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบเปิดเผย
+เอฟเฟกต์การเปลี่ยนสไลด์แบบเปิดเผย.
 
 ```csharp
 public interface IRevealTransition : ITransitionValueBase
@@ -19,8 +19,8 @@ public interface IRevealTransition : ITransitionValueBase
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | ระบุว่าการเปลี่ยนภาพจะค่อยๆ มืดลงเป็นสีดำหรือไม่. อ่าน/เขียน Boolean. |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | ระบุว่าการเปลี่ยนแปลงจะค่อยๆ หายไปในสีดำหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

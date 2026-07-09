@@ -1,24 +1,24 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Lớp này cho phép xuất các tệp video và âm thanh thành HTML
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Lớp này cho phép xuất các tệp video và âm thanh sang HTML
 type: docs
 weight: 4580
 url: /vi/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController lớp
 
-Lớp này cho phép xuất các tệp video và âm thanh thành HTML
+Lớp này cho phép xuất tệp video và âm thanh sang HTML
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 ```
 
-## Các hàm tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Tạo một thể hiện mới của bộ điều khiển |
+| [VideoPlayerHtmlController](videoplayerhtmlcontroller)(string, string, string) | Tạo một thể hiện mới của controller |
 
 ### Xem thêm
 

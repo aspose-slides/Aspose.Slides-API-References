@@ -1,36 +1,36 @@
 ---
 title: XamlOptions
 second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Các tùy chọn kiểm soát cách một tài liệu XAML được lưu.
+description: Các tùy chọn điều khiển cách lưu tài liệu XAML.
 type: docs
 weight: 4720
 url: /vi/aspose.slides.export.xaml/xamloptions/
 ---
-## XamlOptions lớp
+## Lớp XamlOptions
 
-Các tùy chọn kiểm soát cách một tài liệu XAML được lưu.
+Các tùy chọn điều khiển cách lưu tài liệu XAML.
 
 ```csharp
 public class XamlOptions : SaveOptions, IXamlOptions
 ```
 
-## Hàm tạo
+## Các hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [XamlOptions](xamloptions)() | Tạo một thể hiện của XamlOptions. |
+| [XamlOptions](xamloptions)() | Tạo một thể hiện XamlOptions. |
 
-## Thuộc tính
+## Các thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng trong trường hợp phông chữ nguồn không được tìm thấy. Read-write String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ được sử dụng khi không tìm thấy phông chữ nguồn. Đọc-ghi String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Xác định xem các slide ẩn có được xuất hay không. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Read/write [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Thể hiện một triển khai của giao diện IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Thể hiện một đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Chỉ định việc có bỏ qua siêu liên kết có lệnh JavaScript khi lưu bản trình chiếu hay không. Read/write Boolean. Giá trị mặc định là **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định việc quá trình tải sẽ tiếp tục hay bị hủy. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Trả về hoặc đặt kiểu hiển thị của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Đại diện cho một triển khai của giao diện IOutputSaver. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định xem có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ví dụ
 

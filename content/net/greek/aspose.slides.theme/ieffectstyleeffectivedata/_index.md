@@ -3,10 +3,10 @@ title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του στυλ εφέ.
 type: docs
-weight: 11180
+weight: 11200
 url: /el/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
-## IEffectStyleEffectiveData διασύνδεση
+## IEffectStyleEffectiveData διεπαφή
 
 Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του στυλ εφέ.
 
@@ -19,11 +19,11 @@ public interface IEffectStyleEffectiveData
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Επιστρέφει μια μορφή εφέ. Μόνο για ανάγνωση [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Επιστρέφει μια μορφή 3Δ. Μόνο για ανάγνωση [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Επιστρέφει μια 3Δ μορφή. Μόνο για ανάγνωση [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
-### Σχόλια
+### Παρατηρήσεις
 
-Αυτή η διασύνδεση χρησιμοποιείται ως μέρος του [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
+Αυτή η διεπαφή χρησιμοποιείται ως μέρος του [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata).
 
 ### Δείτε επίσης
 

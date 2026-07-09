@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes برای .NET مرجع API
-description: قالب سندی را که باید بارگذاری شود نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: قالب سندی که باید بارگذاری شود را نشان می‌دهد.
 type: docs
 weight: 7830
 url: /fa/aspose.slides/loadformat/
 ---
-## LoadFormat شمارش
+## شمارنده LoadFormat
 
-قالب سندی که باید بارگذاری شود را مشخص می‌کند.
+قالب سندی را که باید بارگذاری شود، نشان می‌دهد.
 
 ```csharp
 public enum LoadFormat
@@ -16,25 +16,25 @@ public enum LoadFormat
 
 ### مقادیر
 
-| Name | Value | Description |
+| نام | مقدار | توضیح |
 | --- | --- | --- |
-| Auto | `0` | به Aspose.Slides می‌گوید که قالب را به صورت خودکار شناسایی کند. |
-| Ppt | `1` | Microsoft PowerPoint 97-2003 ارائه. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 نمایش اسلاید. |
-| Pptx | `3` | Microsoft Office Open XML PresentationML سند. |
-| Ppsx | `4` | Microsoft Office Open XML PresentationML نمایش اسلاید. |
-| Odp | `5` | OpenOffice ODF ارائه. |
-| Potx | `6` | Microsoft Office Open XML PresentationML قالب. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML سند ماکرو-پذیر. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML نمایش اسلاید ماکرو-پذیر. |
-| Potm | `9` | Microsoft Office Open XML PresentationML قالب ماکرو-پذیر. |
-| Otp | `10` | OpenOffice OTP قالب ارائه. |
-| Ppt95 | `11` | Microsoft PowerPoint 95 ارائه. |
-| Pot | `12` | Microsoft PowerPoint 97-2003 قالب ارائه. |
-| Fodp | `13` | Flat XML ODF ارائه. |
-| Unknown | `255` | قالب فایل نامشخص |
+| Auto | `0` | به Aspose.Slides می‌گوید قالب را به‌صورت خودکار شناسایی کند. |
+| Ppt | `1` | ارائه Microsoft PowerPoint 97-2003. |
+| Pps | `2` | نمایش اسلاید Microsoft PowerPoint 97-2003. |
+| Pptx | `3` | سند PresentationML با فرمت Microsoft Office Open XML. |
+| Ppsx | `4` | نمایش اسلاید PresentationML با فرمت Microsoft Office Open XML. |
+| Odp | `5` | ارائه ODF OpenOffice. |
+| Potx | `6` | قالب PresentationML با فرمت Microsoft Office Open XML. |
+| Pptm | `7` | سند PresentationML با قابلیت ماکرو در Microsoft Office Open XML. |
+| Ppsm | `8` | نمایش اسلاید PresentationML با قابلیت ماکرو در Microsoft Office Open XML. |
+| Potm | `9` | قالب PresentationML با قابلیت ماکرو در Microsoft Office Open XML. |
+| Otp | `10` | قالب ارائه OTP OpenOffice. |
+| Ppt95 | `11` | ارائه Microsoft PowerPoint 95. |
+| Pot | `12` | قالب ارائه Microsoft PowerPoint 97-2003. |
+| Fodp | `13` | ارائه ODF Flat XML. |
+| Unknown | `255` | قالب فایل ناشناخته |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * فضای نام [Aspose.Slides](../../aspose.slides)
 * مونتاژ [Aspose.Slides](../../)

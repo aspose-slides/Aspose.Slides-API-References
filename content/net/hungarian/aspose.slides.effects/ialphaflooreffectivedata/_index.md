@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes .NET API referencia
-description: Változtathatatlan objektum, amely egy Alpha Floor hatást képvisel. Az 100-nál kisebb alfa átlátszósági értékek nullára változnak. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+description: Megváltozhatatlan objektum, amely egy Alpha Floor hatást képvisel. Az 100-nál kisebb Alpha átlátszósági értékek nullára változnak. Más szóval, minden részben átlátszó elem teljesen átlátszóvá válik.
 type: docs
-weight: 3050
+weight: 3070
 url: /hu/aspose.slides.effects/ialphaflooreffectivedata/
 ---
-## IAlphaFloorEffectiveData interface
+## IAlphaFloorEffectiveData interfész
 
-Változtathatatlan objektum, amely egy Alpha Floor hatást képvisel. Az 100%-nál kisebb alfa (átlátszóság) értékek nullára kerülnek. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+Megváltozhatatlan objektum, amely egy Alpha Floor hatást reprezentál. Az 100%-nál kisebb Alpha (átlátszóság) értékek nullára változnak. Más szóval, minden részben átlátszó elem teljesen átlátszóvá válik.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interface lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész elérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lásd még
 

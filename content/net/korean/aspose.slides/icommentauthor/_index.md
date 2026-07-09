@@ -8,7 +8,7 @@ url: /ko/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor 인터페이스
 
-주석 작성자를 나타냅니다.
+주석의 작성자를 나타냅니다.
 
 ```csharp
 public interface ICommentAuthor
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | 이름 | 설명 |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 이 작성자가 만든 주석 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 작성자 이니셜을 반환하거나 설정합니다. 읽기/쓰기 String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 작성자 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 이 작성자가 만든 주석의 컬렉션을 반환합니다. 읽기 전용 [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 작성자의 이니셜을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 작성자의 이름을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
 ## 메서드
 
@@ -28,7 +28,7 @@ public interface ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | 작성자를 상위 컬렉션에서 제거합니다. |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: PdfImportOptions
 second_title: Aspose.Sildes .NET API referencia
 description: A PDF importálási beállításokat képviseli
 type: docs
-weight: 7480
+weight: 7500
 url: /hu/aspose.slides.import/pdfimportoptions/
 ---
 ## PdfImportOptions osztály
 
-PDF importálási beállításokat képviseli
+A PDF importálási beállításokat képviseli
 
 ```csharp
 public class PdfImportOptions
@@ -24,7 +24,7 @@ public class PdfImportOptions
 
 | Név | Leírás |
 | --- | --- |
-| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Meghatározza, hogy a PDF-fájl importálásakor észlelje-e a táblázatokat. |
+| [DetectTables](../../aspose.slides.import/pdfimportoptions/detecttables) { get; set; } | Megadja, hogy a PDF fájl importálásakor észleljen-e táblázatokat. |
 
 ### Lásd még
 

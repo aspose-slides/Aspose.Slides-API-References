@@ -3,12 +3,12 @@ title: ISummaryZoomSection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili objek Summary Zoom Section dalam sebuah frame Summary Zoom.
 type: docs
-weight: 7140
+weight: 7160
 url: /id/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection antarmuka
 
-Mewakili objek Summary Zoom Section dalam frame Summary Zoom.
+Mewakili objek Summary Zoom Section dalam sebuah frame Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame

@@ -3,12 +3,12 @@ title: ISlideSize
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje velikost a orientaci snímku.
 type: docs
-weight: 7070
+weight: 7090
 url: /cs/aspose.slides/islidesize/
 ---
 ## ISlideSize rozhraní
 
-Reprezentuje velikost a orientaci snímku.
+Representuje velikost a orientaci snímku.
 
 ```csharp
 public interface ISlideSize
@@ -26,8 +26,8 @@ public interface ISlideSize
 
 | Název | Popis |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Nastaví velikost snímku podle typu a přizpůsobí existující obsah. |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Nastaví rozměry snímku explicitně a přizpůsobí existující obsah. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Nastaví velikost snímku podle typu a přepočítá existující obsah. |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Nastaví rozměry snímku explicitně a přepočítá existující obsah. |
 
 ### Viz také
 

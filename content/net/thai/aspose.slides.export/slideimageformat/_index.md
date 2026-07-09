@@ -1,14 +1,14 @@
 ---
 title: SlideImageFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการนำเสนอในการส่งออกเป็น HTML.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการนำเสนอเพื่อการส่งออกเป็น HTML.
 type: docs
 weight: 4470
 url: /th/aspose.slides.export/slideimageformat/
 ---
 ## SlideImageFormat คลาส
 
-กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการนำเสนอในการส่งออกเป็น HTML.
+กำหนดรูปแบบที่ภาพสไลด์จะถูกบันทึกสำหรับการนำเสนอเพื่อการส่งออกเป็น HTML.
 
 ```csharp
 public class SlideImageFormat : ISlideImageFormat
@@ -16,15 +16,15 @@ public class SlideImageFormat : ISlideImageFormat
 
 ## คอนสตรัคเตอร์
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SlideImageFormat](slideimageformat)() | คอนสตรัคเตอร์เริ่มต้น. |
+| [SlideImageFormat](slideimageformat)() | คอนสตรัคเตอร์ค่าเริ่มต้น. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | สไลด์ควรแปลงเป็นรูปภาพเรสเตอร์. |
+| static [Bitmap](../../aspose.slides.export/slideimageformat/bitmap)(float, ImageFormat) | สไลด์ควรแปลงเป็นภาพแรสเตอร์. |
 | static [Svg](../../aspose.slides.export/slideimageformat/svg)(SVGOptions) | สไลด์ควรแปลงเป็นรูปแบบ SVG. |
 
 ### ดูเพิ่มเติม

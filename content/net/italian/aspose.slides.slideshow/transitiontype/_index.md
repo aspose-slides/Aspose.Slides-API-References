@@ -1,20 +1,20 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta il tipo di transizione dello slideshow.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Rappresenta il tipo di transizione della presentazione.
 type: docs
-weight: 10430
+weight: 10450
 url: /it/aspose.slides.slideshow/transitiontype/
 ---
-## TransitionType enumeration
+## Enumerazione TransitionType
 
-Rappresenta il tipo di transizione dello slideshow.
+Rappresenta il tipo di transizione della presentazione.
 
 ```csharp
 public enum TransitionType
 ```
 
-### Values
+### Valori
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |

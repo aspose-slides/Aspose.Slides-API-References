@@ -1,27 +1,27 @@
 ---
 title: IBlur
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक Blur प्रभाव का प्रतिनिधित्व करता है जो पूरी आकृति पर, उसके भराव सहित, लागू होता है। सभी रंग चैनल, जिसमें अल्फा शामिल है, प्रभावित होते हैं।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: पूरे आकार पर लागू ब्लर प्रभाव को दर्शाता है, जिसमें उसकी भराव शामिल है। अल्फा सहित सभी रंग चैनल प्रभावित होते हैं।
 type: docs
 weight: 3180
 url: /hi/aspose.slides.effects/iblur/
 ---
 ## IBlur इंटरफ़ेस
 
-एक Blur प्रभाव का प्रतिनिधित्व करता है जो पूरे आकृति पर लागू होता है, जिसमें उसका भराव भी शामिल है। सभी रंग चैनल, जिसमें अल्फा भी शामिल है, प्रभावित होते हैं।
+पूरे आकार पर लागू ब्लर प्रभाव को दर्शाता है, जिसमें उसकी भराव शामिल है। सभी रंग चैनल, अल्फा सहित, प्रभावित होते हैं।
 
 ```csharp
 public interface IBlur : IAccessiblePVIObject<IBlurEffectiveData>, IImageTransformOperation
 ```
 
-## गुण
+## प्रॉपर्टीज
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | निर्धारित करता है कि ब्लर का परिणामस्वरूप ऑब्जेक्ट की सीमाएँ बढ़नी चाहिए या नहीं। True दर्शाता है कि सीमाएँ बढ़ती हैं जबकि false दर्शाता है कि वे नहीं बढ़तीं। पढ़ें/लिखें Boolean. |
-| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | blur radius को वापस देता है या सेट करता है। पढ़ें/लिखें Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iblur/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़नीय [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iblur/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़नीय [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Grow](../../aspose.slides.effects/iblur/grow) { get; set; } | निर्धारित करता है कि ब्लरिंग के परिणामस्वरूप वस्तु की सीमाएँ बढ़नी चाहिए। true संकेत करता है कि सीमाएँ बढ़ाई गई हैं जबकि false संकेत करता है कि नहीं। पढ़ें/लिखें Boolean. |
+| [Radius](../../aspose.slides.effects/iblur/radius) { get; set; } | ब्लर त्रिज्या लौटाता है या सेट करता है। पढ़ें/लिखें Double. |
 
 ### संबंधित देखें
 

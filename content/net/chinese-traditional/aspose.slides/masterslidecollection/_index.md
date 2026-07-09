@@ -1,14 +1,14 @@
 ---
 title: MasterSlideCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示主投影片的集合。
+second_title: Aspose.Sildes .NET API 參考
+description: 代表一個母片集合。
 type: docs
 weight: 8040
 url: /zh-hant/aspose.slides/masterslidecollection/
 ---
 ## MasterSlideCollection 類別
 
-Represent  a collection of master slides.
+代表一個母片集合。
 
 ```csharp
 public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlideCollection
@@ -18,8 +18,8 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/masterslidecollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | 傳回指示集合存取是否同步（執行緒安全）的值。唯讀 Boolean。 |
+| [Count](../../aspose.slides/masterslidecollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/masterslidecollection/issynchronized) { get; } | 傳回一個值，指示是否已同步存取集合（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides/masterslidecollection/item) { get; } | 取得指定索引處的元素。唯讀 [`MasterSlide`](../masterslide)。 |
 | [SyncRoot](../../aspose.slides/masterslidecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
@@ -27,15 +27,15 @@ public sealed class MasterSlideCollection : DomObject<Presentation>, IMasterSlid
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | 將指定 master slide 的副本新增至集合的末端。相關的版面配置投影片也會一起被複製。 |
-| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
-| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 將指定 master slide 的副本插入集合的指定位置。相關的版面配置投影片也會一起被複製。 |
+| [AddClone](../../aspose.slides/masterslidecollection/addclone)(IMasterSlide) | 將指定的母片副本新增至集合的尾端。已連結的版面配置投影片也會被複製。 |
+| [CopyTo](../../aspose.slides/masterslidecollection/copyto)(Array, int) | 將集合中所有元素複製到指定的陣列。 |
+| [GetEnumerator](../../aspose.slides/masterslidecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [InsertClone](../../aspose.slides/masterslidecollection/insertclone)(int, IMasterSlide) | 在集合的指定位置插入指定的母片副本。已連結的版面配置投影片也會被複製。 |
 | [Remove](../../aspose.slides/masterslidecollection/remove)(IMasterSlide) | 從集合中移除第一次出現的特定物件。 |
 | [RemoveAt](../../aspose.slides/masterslidecollection/removeat)(int) | 移除集合中指定索引處的元素。 |
-| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | 移除未使用的 master slides。 |
+| [RemoveUnused](../../aspose.slides/masterslidecollection/removeunused)(bool) | 移除未使用的母片。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Presentation](../presentation)

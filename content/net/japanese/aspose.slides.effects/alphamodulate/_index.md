@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Modulate エフェクトを表します。エフェクトのアルファ（不透明度）値は固定のパーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: Alpha Modulate 効果を表します。効果のアルファ不透明度の値は固定パーセンテージで乗算されます。効果コンテナは、アルファ値を変調する効果を指定します。
 type: docs
-weight: 2860
+weight: 2880
 url: /ja/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate クラス
 
-Alpha Modulate エフェクトを表します。エフェクトのアルファ（不透明度）値は固定のパーセンテージで乗算されます。エフェクト コンテナは、アルファ値を変調するエフェクトを指定します。
+Alpha Modulate 効果を表します。効果のアルファ (不透明度) 値は固定パーセンテージで乗算されます。効果コンテナは、アルファ値を変調する効果を指定します。
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -25,8 +25,8 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 | 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | 指定された [`AlphaModulate`](../alphamodulate) が現在の [`AlphaModulate`](../alphamodulate) と等しいかどうかを判断します。 |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 継承が適用された有効な Alpha Modulate エフェクト データを取得します。 |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 特定の型に対するハッシュ関数として機能します。 |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | 継承が適用された効果的な Alpha Modulate 効果データを取得します。 |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | 特定の型のハッシュ関数として機能します。 |
 
 ### 参照
 

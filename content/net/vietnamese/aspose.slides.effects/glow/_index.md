@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị hiệu ứng Glow, trong đó một đường viền mờ màu được thêm vào bên ngoài các cạnh của đối tượng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một hiệu ứng Glow, trong đó một đường viền màu mờ được thêm bên ngoài các cạnh của đối tượng.
 type: docs
 weight: 2990
 url: /vi/aspose.slides.effects/glow/
 ---
-## Glow lớp
+## Lớp Glow
 
-Biểu thị hiệu ứng Glow, trong đó một đường viền mờ màu được thêm vào bên ngoài các cạnh của đối tượng.
+Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -26,8 +26,8 @@ public sealed class Glow : IGlow
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Xác định xem [`Glow`](../glow) được chỉ định có bằng với [`Glow`](../glow) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Lấy dữ liệu hiệu ứng Glow thực tế với kế thừa đã được áp dụng. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Lấy dữ liệu hiệu ứng Glow đã áp dụng kế thừa. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Đóng vai trò như hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

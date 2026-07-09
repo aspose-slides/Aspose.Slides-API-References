@@ -1,6 +1,6 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes 的 .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 用於管理外部資源載入的回呼介面。
 type: docs
 weight: 6840
@@ -18,7 +18,7 @@ public interface IResourceLoadingCallback
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 調節外部資源載入的回呼方法。 |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 回呼方法，用於調整外部資源的載入。 |
 
 ### 另見
 

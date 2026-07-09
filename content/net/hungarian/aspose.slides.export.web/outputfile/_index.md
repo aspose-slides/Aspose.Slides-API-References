@@ -1,9 +1,9 @@
 ---
 title: OutputFile
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API-referenciája
 description: Kimeneti fájlt képvisel.
 type: docs
-weight: 4630
+weight: 4650
 url: /hu/aspose.slides.export.web/outputfile/
 ---
 ## OutputFile osztály

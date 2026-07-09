@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes برای .NET API Reference
-description: نمایندهٔ ویژگی Heading pair سند است. این ویژگی نام گروه بخش‌های سند و تعداد بخش‌های موجود در گروه را نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایش می‌دهد ویژگی Heading pair سند. این ویژگی نام گروه بخش‌های سند و تعداد بخش‌ها در گروه را نشان می‌دهد.
 type: docs
 weight: 6100
 url: /fa/aspose.slides/iheadingpair/
 ---
-## رابط IHeadingPair
+## IHeadingPair رابط
 
-نمایش‌دهندهٔ ویژگی «Heading pair» سند است. این ویژگی نام گروه بخش‌های سند و تعداد بخش‌های موجود در گروه را نشان می‌دهد.
+نمایش می‌دهد که ویژگی 'Heading pair' سند چیست. این ویژگی نام گروه بخش‌های سند و تعداد بخش‌ها در گروه را نشان می‌دهد.
 
 ```csharp
 public interface IHeadingPair
@@ -18,8 +18,8 @@ public interface IHeadingPair
 
 | نام | توضیحات |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | تعداد بخش‌های موجود در گروه را برمی‌گرداند. فقط-خواندنی Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | نام گروه بخش‌های سند را برمی‌گرداند. فقط-خواندنی String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | تعداد بخش‌ها در گروه را بر می‌گرداند. فقط خواندنی Int32. |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | نام گروه بخش‌های سند را بر می‌گرداند. فقط خواندنی String. |
 
 ### موارد مرتبط
 

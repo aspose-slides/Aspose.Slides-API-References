@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir bağlayıcıyı temsil eder.
 type: docs
-weight: 5590
+weight: 5610
 url: /tr/aspose.slides/iconnector/
 ---
 ## IConnector arayüzü
@@ -16,21 +16,21 @@ public interface IConnector : IGeometryShape
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | IGeometryShape temel arayüzünü almaya izin verir. Salt okunur [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | Temel IGeometryShape arayüzüne erişim sağlar. Salt okunur [`IGeometryShape`](../igeometryshape). |
 | [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector'ın kilitlerini döndürür. Salt okunur [`IConnectorLock`](../iconnectorlock). |
-| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Connector'ın sonunu eklemek için biçimi döndürür veya ayarlar. Okunur/yazılabilir [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Son şekil için bağlantı noktasının dizinini döndürür veya ayarlar. Okunur/yazılabilir UInt32. |
+| [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | Bağlayıcının ucunu eklemek için şekli döndürür veya ayarlar. Okunur/yazılabilir [`IShape`](../ishape). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | Uç şekil için bağlama noktasının dizinini döndürür veya ayarlar. Okunur/yazılabilir UInt32. |
 | [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IConnectorLock`](../iconnectorlock). |
-| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Connector'ın başlangıcını eklemek için biçimi döndürür veya ayarlar. Okunur/yazılabilir [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Başlangıç şekli için bağlantı noktasının dizinini döndürür veya ayarlar. Okunur/yazılabilir UInt32. |
+| [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | Bağlayıcının başlangıcını eklemek için şekli döndürür veya ayarlar. Okunur/yazılabilir [`IShape`](../ishape). |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | Başlangıç şekli için bağlama noktasının dizinini döndürür veya ayarlar. Okunur/yazılabilir UInt32. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | Connector'ı, bağladığı şekiller arasında mümkün olan en kısa yolu alacak şekilde yeniden yönlendirir. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | Bağlayıcıyı, bağladığı şekiller arasındaki mümkün olan en kısa yolu alacak şekilde yeniden yönlendirir. |
 
 ### Ayrıca Bakınız
 

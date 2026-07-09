@@ -1,14 +1,14 @@
 ---
 title: PieSplitType
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een type splitsingspunten in de tweede taart of staaf op een taart-in-taart of staaf-in-taart diagram.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt een type splitsingspunten voor in de tweede taart of balk op een taart-op-taart of balk-op-taart diagram.
 type: docs
 weight: 2380
 url: /nl/aspose.slides.charts/piesplittype/
 ---
 ## PieSplitType enumeratie
 
-Geeft een type splitsingspunten weer in de tweede taart of staaf van een taart-in-taart- of staaf-in-taart-diagram.
+Stelt een type splitsingspunten voor in de tweede taart of balk op een taart-op-taart- of balk-op-taartdiagram.
 
 ```csharp
 public enum PieSplitType
@@ -18,11 +18,11 @@ public enum PieSplitType
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Default | `0` | Geeft aan dat de gegevenspunten moeten worden gesplitst met behulp van het standaardmechanisme voor dit diagramtype. |
-| Custom | `1` | Geeft aan dat de gegevenspunten moeten worden gesplitst tussen de taart en het tweede diagram volgens de Custom Split waarden. |
-| ByPercentage | `2` | Geeft aan dat de gegevenspunten moeten worden gesplitst tussen de taart en het tweede diagram door de punten met een percentage lager dan Split Position procent in het tweede diagram te plaatsen. |
-| ByPos | `3` | Geeft aan dat de gegevenspunten moeten worden gesplitst tussen de taart en het tweede diagram door de laatste Split Position van de gegevenspunten in het tweede diagram te plaatsen. |
-| ByValue | `4` | Geeft aan dat de gegevenspunten moeten worden gesplitst tussen de taart en het tweede diagram door de gegevenspunten met een waarde lager dan Split Position in het tweede diagram te plaatsen. |
+| Default | `0` | Geeft aan dat de gegevenspunten gesplitst moeten worden met behulp van het standaardmechanisme voor dit grafiektype. |
+| Custom | `1` | Geeft aan dat de gegevenspunten gesplitst moeten worden tussen de taart en het tweede diagram volgens de aangepaste splitsingswaarden. |
+| ByPercentage | `2` | Geeft aan dat de gegevenspunten gesplitst moeten worden tussen de taart en het tweede diagram door de punten met een percentage lager dan Split Position procent in het tweede diagram te plaatsen. |
+| ByPos | `3` | Geeft aan dat de gegevenspunten gesplitst moeten worden tussen de taart en het tweede diagram door de laatste Split Position van de gegevenspunten in het tweede diagram te plaatsen. |
+| ByValue | `4` | Geeft aan dat de gegevenspunten gesplitst moeten worden tussen de taart en het tweede diagram door de gegevenspunten met een waarde lager dan Split Position in het tweede diagram te plaatsen. |
 
 ### Zie ook
 

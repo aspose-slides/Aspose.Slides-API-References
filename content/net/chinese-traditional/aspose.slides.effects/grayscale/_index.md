@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示灰階效果。將所有效果顏色值轉換為對應其亮度的灰色陰影。效果的 alpha 不透明度值不受影響。
+second_title: Aspose.Sildes .NET API 參考文件
+description: 代表 Gray Scale 效果。將所有效果顏色值轉換為與其亮度相對應的灰階。效果的 Alpha 不透明度值不受影響。
 type: docs
 weight: 3000
 url: /zh-hant/aspose.slides.effects/grayscale/
 ---
 ## GrayScale 類別
 
-表示灰階效果。將所有效果顏色值轉換為對應其亮度的灰階陰影。效果的 alpha（不透明度）值不受影響。
+代表 Gray Scale 效果。將所有效果顏色值轉換為與其亮度相對應的灰階。效果的 Alpha（不透明度）值不受影響。
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -26,7 +26,7 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | 判斷指定的 [`GrayScale`](../grayscale) 是否等於目前的 [`GrayScale`](../grayscale)。 |
 | [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | 取得套用繼承後的有效 Gray Scale 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 作為特定類型的雜湊函數。 |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | 用作特定類型的雜湊函式。 |
 
 ### 另請參閱
 

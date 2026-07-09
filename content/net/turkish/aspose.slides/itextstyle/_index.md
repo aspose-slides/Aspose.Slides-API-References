@@ -1,12 +1,12 @@
 ---
 title: ITextStyle
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Metin stili biçimlendirme özellikleri.
 type: docs
-weight: 7290
+weight: 7310
 url: /tr/aspose.slides/itextstyle/
 ---
-## ITextStyle arayüz
+## ITextStyle arabirimi
 
 Metin stili biçimlendirme özellikleri.
 
@@ -18,13 +18,13 @@ public interface ITextStyle
 
 | Ad | Açıklama |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Varsayılan paragraf özellikleri. Yalnızca okunabilir [`IParagraphFormat`](../iparagraphformat). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyle/defaultparagraphformat) { get; } | Varsayılan paragraf özellikleri. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Miras uygulanan etkili metin stili biçimlendirme verilerini alır. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Kalıtım uygulanmış etkili metin stili biçimlendirme verilerini alır. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Stil seviyesi mevcutsa onu döndürür, aksi takdirde null döndürür. |
 
 ### Ayrıca Bakınız

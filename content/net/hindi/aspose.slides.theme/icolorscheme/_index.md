@@ -18,22 +18,22 @@ public interface IColorScheme : ISlideComponent
 
 | नाम | विवरण |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | स्कीम में पहला एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | स्कीम में दूसरा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | स्कीम में तीसरा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | स्कीम में चौथा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | स्कीम में पाँचवाँ एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | स्कीम में छठा एक्सेंट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | ISlideComponent इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent). |
-| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | स्कीम में पहला डार्क रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | स्कीम में दूसरा डार्क रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | भ्रमण किए गए हाइपरलिंक का रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | हाइपरलिंक का रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | स्कीम में पहला लाइट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | स्कीम में दूसरा लाइट रंग। केवल पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent1](../../aspose.slides.theme/icolorscheme/accent1) { get; } | स्कीम में पहला एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Accent2](../../aspose.slides.theme/icolorscheme/accent2) { get; } | स्कीम में दूसरा एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Accent3](../../aspose.slides.theme/icolorscheme/accent3) { get; } | स्कीम में तीसरा एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Accent4](../../aspose.slides.theme/icolorscheme/accent4) { get; } | स्कीम में चौथा एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Accent5](../../aspose.slides.theme/icolorscheme/accent5) { get; } | स्कीम में पाँचवाँ एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Accent6](../../aspose.slides.theme/icolorscheme/accent6) { get; } | स्कीम में छठा एक्सेंट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [AsISlideComponent](../../aspose.slides.theme/icolorscheme/asislidecomponent) { get; } | ISlideComponent इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`ISlideComponent`](../../aspose.slides/islidecomponent)। |
+| [Dark1](../../aspose.slides.theme/icolorscheme/dark1) { get; } | स्कीम में पहला डार्क रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Dark2](../../aspose.slides.theme/icolorscheme/dark2) { get; } | स्कीम में दूसरा डार्क रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [FollowedHyperlink](../../aspose.slides.theme/icolorscheme/followedhyperlink) { get; } | देखे गए हाइपरलिंक के लिए रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Hyperlink](../../aspose.slides.theme/icolorscheme/hyperlink) { get; } | हाइपरलिंक के लिए रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Item](../../aspose.slides.theme/icolorscheme/item) { get; } | निर्धारित सूचकांक पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Light1](../../aspose.slides.theme/icolorscheme/light1) { get; } | स्कीम में पहला लाइट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [Light2](../../aspose.slides.theme/icolorscheme/light2) { get; } | स्कीम में दूसरा लाइट रंग। केवल-पढ़ने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
 
-### देखें
+### और देखें
 
 * इंटरफ़ेस [ISlideComponent](../../aspose.slides/islidecomponent)
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)

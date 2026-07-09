@@ -1,6 +1,6 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: एक आउटपुट फ़ाइल का प्रतिनिधित्व करता है।
 type: docs
 weight: 4600
@@ -14,13 +14,13 @@ url: /hi/aspose.slides.export.web/ioutputfile/
 public interface IOutputFile
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | फ़ाइल सामग्री को स्ट्रीम पर लिखता है। |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | फ़ाइल सामग्री को स्ट्रीम में लिखता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * असेंबली [Aspose.Slides](../../)

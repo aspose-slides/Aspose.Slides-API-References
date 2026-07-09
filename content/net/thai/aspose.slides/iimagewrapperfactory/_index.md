@@ -1,6 +1,6 @@
 ---
 title: IImageWrapperFactory
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อินเทอร์เฟซนี้อนุญาตให้เริ่มต้น IBitmapWrapper.
 type: docs
 weight: 6180
@@ -18,9 +18,9 @@ public interface IImageWrapperFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | สร้างอินสแตนซ์ใหม่ของ ImageWrapper คลาส จากภาพที่มีอยู่ที่กำหนด |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | สร้างอินสแตนซ์ใหม่ของ ImageWrapper คลาส จากสตรีมข้อมูลที่กำหนด |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | สร้างอินสแตนซ์ใหม่ของ ImageWrapper คลาส จากไฟล์ที่กำหนด |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | สร้างอินสแตนซ์ใหม่ของคลาส ImageWrapper จากภาพที่ระบุ |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | สร้างอินสแตนซ์ใหม่ของคลาส ImageWrapper จากสตรีมข้อมูลที่ระบุ |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | สร้างอินสแตนซ์ใหม่ของคลาส ImageWrapper จากไฟล์ที่ระบุ |
 
 ### ดูเพิ่มเติม
 

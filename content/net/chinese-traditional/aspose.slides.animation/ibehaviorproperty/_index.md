@@ -1,14 +1,14 @@
 ---
 title: IBehaviorProperty
-second_title: Aspose.Sildes 用於 .NET API 參考
-description: 表示動畫行為的屬性類型。根據以下屬性清單：https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 以及 https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes 的 .NET API 參考
+description: 表示動畫行為的屬性類型。遵循來自 https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx 和 https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx 的屬性清單
 type: docs
 weight: 440
 url: /zh-hant/aspose.slides.animation/ibehaviorproperty/
 ---
 ## IBehaviorProperty 介面
 
-表示動畫行為的屬性類型。根據以下屬性清單：https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+表示動畫行為的屬性類型。遵循以下清單中的屬性：https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx 和 https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public interface IBehaviorProperty
@@ -18,10 +18,10 @@ public interface IBehaviorProperty
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 顯示此屬性是否不屬於規範中的預定義屬性清單：https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/ibehaviorproperty/iscustom) { get; } | 顯示此屬性是否不屬於規範中的預定義屬性清單: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/ibehaviorproperty/value) { get; } | 屬性的值 |
 
-### 另請參閱
+### 相關參考
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 程序集 [Aspose.Slides](../../)

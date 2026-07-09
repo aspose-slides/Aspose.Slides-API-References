@@ -1,9 +1,9 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: コーナー方向の遷移タイプを表します。
 type: docs
-weight: 10330
+weight: 10350
 url: /ja/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
 ## TransitionCornerDirectionType 列挙型

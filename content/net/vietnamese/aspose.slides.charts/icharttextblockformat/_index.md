@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các thuộc tính định dạng cho các phần tử văn bản biểu đồ.
+description: Biểu diễn các thuộc tính định dạng cho các phần tử văn bản biểu đồ.
 type: docs
 weight: 1980
 url: /vi/aspose.slides.charts/icharttextblockformat/
 ---
-## Giao diện IChartTextBlockFormat
+## IChartTextBlockFormat giao diện
 
-Đại diện cho các thuộc tính định dạng cho các phần tử văn bản biểu đồ.
+Biểu diễn các thuộc tính định dạng cho các phần tử văn bản biểu đồ.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -19,19 +19,19 @@ public interface IChartTextBlockFormat
 | Tên | Mô tả |
 | --- | --- |
 | [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Trả về hoặc đặt văn bản neo dọc trong một TextFrame. Đọc/ghi [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Trả về hoặc đặt chế độ tự động vừa vặn của văn bản. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị). Đọc/ghi [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Nếu NullableBool.True thì văn bản sẽ được căn giữa trong hộp theo chiều ngang. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Trả về hoặc đặt lề dưới (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị). Đọc/ghi Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị). Đọc/ghi Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Trả về hoặc đặt lề phải (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị). Đọc/ghi Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Trả về hoặc đặt lề trên (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có hiệu ứng khi hiển thị). Đọc/ghi Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Xác định góc quay tùy chỉnh được áp dụng cho văn bản bên trong hộp bao quanh. Nếu không chỉ định, góc quay của hình dạng đi kèm sẽ được sử dụng. Nếu được chỉ định, thì giá trị này được áp dụng độc lập với hình dạng. Nghĩa là hình dạng có thể có góc quay riêng thêm vào góc quay của văn bản. Giá trị quay trực quan của văn bản được tính tổng hợp từ thuộc tính này và kiểu dọc đã định nghĩa trước trong thuộc tính TextVerticalType. Đọc/ghi Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Xác định hướng văn bản. Giá trị quay trực quan của văn bản được tính tổng hợp từ thuộc tính này và góc tùy chỉnh trong thuộc tính RotationAngle. Đọc/ghi [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** nếu văn bản được bọc tại các lề của TextFrame. Thay đổi thuộc tính này có thể gây ảnh hưởng nhất định chỉ đối với các phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2007/2013). Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Trả về hoặc đặt chế độ tự động vừa vặn của văn bản. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Nếu NullableBool.True thì văn bản nên được căn giữa theo chiều ngang trong hộp. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Trả về hoặc đặt lề dưới (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Trả về hoặc đặt lề trái (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Trả về hoặc đặt lề phải (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Trả về hoặc đặt lề trên (điểm) trong một TextFrame. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2013; trong PowerPoint 2007 không có ảnh hưởng đến việc hiển thị). Đọc/ghi Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Xác định góc xoay tùy chỉnh được áp dụng cho văn bản trong hộp giới hạn. Nếu không được chỉ định, sẽ sử dụng góc xoay của hình dạng đi kèm. Nếu được chỉ định, thì nó được áp dụng độc lập với hình dạng. Nghĩa là hình dạng có thể có góc xoay được áp dụng ngoài ra văn bản cũng có góc xoay riêng. Giá trị kết quả của góc xoay trực quan của văn bản được tổng hợp từ thuộc tính này và kiểu dọc định trước trong thuộc tính TextVerticalType. Đọc/ghi Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Xác định định hướng văn bản. Giá trị kết quả của góc xoay trực quan của văn bản được tổng hợp từ thuộc tính này và góc tùy chỉnh trong thuộc tính RotationAngle. Đọc/ghi [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** nếu văn bản được ngắt dòng tại các lề của TextFrame. Thay đổi thuộc tính này có thể chỉ ảnh hưởng nhất định cho các thành phần biểu đồ sau: DataLabel và DataLabelFormat (hỗ trợ đầy đủ trong PowerPoint 2007/2013). Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
-* tập hợp [Aspose.Slides](../../)
+* bộ lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

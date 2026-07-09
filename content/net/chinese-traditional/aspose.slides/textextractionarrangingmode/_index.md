@@ -1,14 +1,14 @@
 ---
 title: TextExtractionArrangingMode
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示在文字擷取過程中使用的模式
+description: 表示在文字擷取期間使用的模式
 type: docs
 weight: 10940
 url: /zh-hant/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode 列舉
 
-表示在文字擷取過程中使用的模式
+表示在文字擷取期間使用的模式
 
 ```csharp
 public enum TextExtractionArrangingMode
@@ -18,8 +18,8 @@ public enum TextExtractionArrangingMode
 
 | 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| Unarranged | `0` | 原始文字，未考慮在投影片上的位置 |
-| Arranged | `1` | 文字的排列順序與投影片上的相同 |
+| Unarranged | `0` | 原始文字，不考慮在投影片上的位置 |
+| Arranged | `1` | 文字依照在投影片上的相同順序排列 |
 
 ### 另請參閱
 

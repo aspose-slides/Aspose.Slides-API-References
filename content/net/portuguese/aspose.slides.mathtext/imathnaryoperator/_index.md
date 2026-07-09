@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperator
-second_title: Aspose.Sildes para .NET Referência da API
-description: Especifica um objeto matemático N-ário, como Somatório e Integral. Consiste em um operador, uma base ou operando e limites superiores e inferiores opcionais. Exemplos de operadores N-ários são Somatório, União, Interseção e Integral
+second_title: Aspose.Sildes para a Referência da API .NET
+description: Especifica um objeto matemático N-ário, como Somatório e Integral. Consiste em um operador, uma base ou operando e limites superiores e inferiores opcionais. Exemplos de operadores N-ários são Somatório, União, Interseção, Integral
 type: docs
-weight: 8340
+weight: 8360
 url: /pt/aspose.slides.mathtext/imathnaryoperator/
 ---
 ## IMathNaryOperator interface
@@ -21,8 +21,8 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 | [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | Permite obter a interface base IMathElement [`IMathElement`](../imathelement) |
 | [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | Permite obter a interface base IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | Argumento base |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Especifica um argumento subscrito que, por exemplo, no caso de uma integral, define o limite inferior |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Especifica um argumento sobrescrito que, por exemplo, no caso de uma integral, define o limite superior |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | Especifica um argumento de subscrito que, por exemplo, no caso de uma integral, define o limite inferior |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | Especifica um argumento de sobrescrito que, por exemplo, no caso de uma integral, define o limite superior |
 
 ### Exemplos
 
@@ -33,7 +33,7 @@ Exemplo:
 IMathNaryOperator naryOperator = new MathematicalText("x").Nary(MathNaryOperatorTypes.Summation, "x=1", "100");
 ```
 
-### Ver Também
+### Veja Também
 
 * interface [IMathElement](../imathelement)
 * interface [IMathNaryOperatorProperties](../imathnaryoperatorproperties)

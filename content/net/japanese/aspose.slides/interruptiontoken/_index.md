@@ -1,14 +1,14 @@
 ---
 title: InterruptionToken
 second_title: Aspose.Sildes for .NET API リファレンス
-description: このクラスは、割り込みが要求されたかどうかを長時間実行タスクに通知するために使用するトークンを表します。
+description: このクラスは、長時間実行されるタスクに対して割り込みが要求されたかどうかを通知するために使用するトークンを表します。
 type: docs
-weight: 7580
+weight: 7600
 url: /ja/aspose.slides/interruptiontoken/
 ---
 ## InterruptionToken クラス
 
-このクラスは、割り込みが要求されたかどうかを長時間実行タスクに通知するために使用するトークンを表します。
+このクラスは、長時間実行されるタスクに対して割り込みが要求されたかどうかを通知するために使用するトークンを表します。
 
 ```csharp
 public class InterruptionToken : IInterruptionToken
@@ -18,8 +18,8 @@ public class InterruptionToken : IInterruptionToken
 
 | 名前 | 説明 |
 | --- | --- |
-| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 空の割り込みトークンを表します。このトークンを使用する場合、長時間実行操作は [`Interrupt`](../interruptiontokensource/interrupt) を介して中断されることはありません。 |
-| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 割り込みが要求された場合は Boolean.true を返します。 |
+| static [None](../../aspose.slides/interruptiontoken/none) { get; } | 空の割り込みトークンを表します。このトークンを使用する場合、長時間実行される操作は [`Interrupt`](../interruptiontokensource/interrupt) によって中断されることはありません。 |
+| [IsInterruptionRequested](../../aspose.slides/interruptiontoken/isinterruptionrequested) { get; } | 割り込みが要求された場合、Boolean.true を返します。 |
 
 ## メソッド
 

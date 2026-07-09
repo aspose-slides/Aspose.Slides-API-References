@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabelCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสาร.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงคอลเลกชันของป้ายความอ่อนไหวที่ถูกนำไปใช้กับเอกสาร
 type: docs
 weight: 6940
 url: /th/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection อินเทอร์เฟซ
 
-แสดงคอลเลกชันของป้ายความอ่อนไหวที่ใช้กับเอกสาร
+แสดงถึงคอลเลกชันของป้ายความอ่อนไหวที่ถูกใช้กับเอกสาร
 
 ```csharp
 public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
@@ -18,8 +18,8 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | รับจำนวนของทุกองค์ประกอบในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | ส่งคืนป้ายความอ่อนไหวโดยดัชนี. อ่านอย่างเดียว [`ISensitivityLabel`](../isensitivitylabel). |
+| [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | รับจำนวนทั้งหมดขององค์ประกอบในคอลเลกชัน การอ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | ส่งคืนป้ายความอ่อนไหวตามดัชนี การอ่านอย่างเดียว [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## เมธอด
 

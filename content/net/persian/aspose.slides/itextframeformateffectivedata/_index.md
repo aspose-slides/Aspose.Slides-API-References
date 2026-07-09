@@ -1,43 +1,43 @@
 ---
 title: ITextFrameFormatEffectiveData
-second_title: مرجع API Aspose.Sildes برای .NET
-description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر قاب متن است.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: شیء تغییرناپذیری که شامل خصوصیات قالب‌بندی مؤثر قاب متن است.
 type: docs
 weight: 7290
 url: /fa/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی مؤثر قاب متن است.
+Immutable object which contains effective text frame formatting properties.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | متن لنگر عمودی را در یک TextFrame برمی‌گرداند. فقط‌خواندنی [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | حالت خودتنظیم متن را برمی‌گرداند. فقط‌خواندنی [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | مشخص می‌کند که آیا متن باید به صورت افقی در جعبه مرکز شود یا نه. فقط‌خواندنی Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | تعداد ستون‌های متن در مستطیل مرزی را مشخص می‌کند. فقط‌خواندنی Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | فاصله بین ستون‌های متن در ناحیه متن (به نقطه) را مشخص می‌کند. فقط‌خواندنی Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | حاشیه پایین (به نقطه) در یک TextFrame را برمی‌گرداند. فقط‌خواندنی Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | حاشیه چپ (به نقطه) در یک TextFrame را برمی‌گرداند. فقط‌خواندنی Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | حاشیه راست (به نقطه) در یک TextFrame را برمی‌گرداند. فقط‌خواندنی Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | حاشیه بالا (به نقطه) در یک TextFrame را برمی‌گرداند. فقط‌خواندنی Double. |
-| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | قالب مؤثر متن را برمی‌گرداند. فقط‌خواندنی [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
-| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | جهت متن را برمی‌گرداند. فقط‌خواندنی [`TextVerticalType`](../textverticaltype). |
-| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | مشخص می‌کند که آیا متن در حاشیه‌های TextFrame پیچیده می‌شود یا نه. فقط‌خواندنی Boolean. |
+| [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | متن لنگر عمودی در یک TextFrame را برمی‌گرداند. فقط خواندنی [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | حالت خودتنظیم متن را برمی‌گرداند. فقط خواندنی [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | برمی‌گرداند که آیا متن باید به صورت افقی در جعبه مرکز شود یا خیر. فقط خواندنی Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | تعداد ستون‌های متن در مستطیل محاط را برمی‌گرداند. فقط خواندنی Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | فضای بین ستون‌های متن در ناحیه متن (به نقطه) را مشخص می‌کند. فقط خواندنی Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | مارژین پایین (به نقطه) در یک TextFrame را برمی‌گرداند. فقط خواندنی Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | مارژین چپ (به نقطه) در یک TextFrame را برمی‌گرداند. فقط خواندنی Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | مارژین راست (به نقطه) در یک TextFrame را برمی‌گرداند. فقط خواندنی Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | مارژین بالا (به نقطه) در یک TextFrame را برمی‌گرداند. فقط خواندنی Double. |
+| [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | سبک متن مؤثر را برمی‌گرداند. فقط خواندنی [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
+| [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | جهت متن را برمی‌گرداند. فقط خواندنی [`TextVerticalType`](../textverticaltype). |
+| [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | برمی‌گرداند که آیا متن در مرزهای TextFrame بسته‌بندی می‌شود یا خیر. فقط خواندنی Boolean. |
 
 ### توضیحات
 
-این رابط همراه با رابط [`ITextFrameFormat`](../itextframeformat) برای برگرداندن مقادیر قالب‌بندی مؤثر با به‌کارگیری ارث‌بری استفاده می‌شود.
+این رابط همراه با رابط [`ITextFrameFormat`](../itextframeformat) برای بازگرداندن مقادیر قالب‌بندی مؤثر با اعمال وراثت استفاده می‌شود.
 
-### موارد مرتبط
+### مراجع
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

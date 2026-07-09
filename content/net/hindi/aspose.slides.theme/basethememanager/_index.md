@@ -1,14 +1,14 @@
 ---
 title: BaseThemeManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विभिन्न प्रकार के थीम तक पहुंच प्रदान करने वाली कक्षाओं के लिए बेस वर्ग।
+description: विभिन्न प्रकार के थीम तक पहुँच प्रदान करने वाली क्लासों के लिए बेस क्लास।
 type: docs
 weight: 11050
 url: /hi/aspose.slides.theme/basethememanager/
 ---
-## BaseThemeManager वर्ग
+## BaseThemeManager क्लास
 
-विभिन्न प्रकार के थीम तक पहुंच प्रदान करने वाली कक्षाओं के लिए बेस वर्ग।
+विभिन्न प्रकार के थीम तक पहुंच प्रदान करने वाली क्लासों के लिए बेस क्लास।
 
 ```csharp
 public abstract class BaseThemeManager

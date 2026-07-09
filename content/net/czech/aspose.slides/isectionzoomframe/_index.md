@@ -3,12 +3,12 @@ title: ISectionZoomFrame
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje objekt Section Zoom na snímku.
 type: docs
-weight: 6900
+weight: 6920
 url: /cs/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame rozhraní
 
-Reprezentuje objekt Section Zoom na snímku.
+Represents a Section Zoom object in a slide.
 
 ```csharp
 public interface ISectionZoomFrame : IZoomObject
@@ -18,8 +18,8 @@ public interface ISectionZoomFrame : IZoomObject
 
 | Název | Popis |
 | --- | --- |
-| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Vrací rozhraní IZoomObject. |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Získá nebo nastaví objekt sekce, ke kterému je objekt Section Zoom připojen. Read/write [`ISection`](../isection). |
+| [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | Vrací IZoomObject interface. |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Získává nebo nastavuje objekt sekce, na který je objekt Section Zoom napojen. Čtení/zápis [`ISection`](../isection). |
 
 ### Viz také
 

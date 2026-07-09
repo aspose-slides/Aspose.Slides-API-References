@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプのエフェクト プロパティを表します。
+description: シェイプのエフェクトプロパティを表します。
 type: docs
-weight: 2810
+weight: 2830
 url: /ja/aspose.slides/effectformat/
 ---
 ## EffectFormat クラス
 
-シェイプのエフェクト プロパティを表します。
+シェイプのエフェクトプロパティを表します。
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -18,36 +18,36 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | ぼかしエフェクト。読み書き可能 [`IBlur`](../../aspose.slides.effects/iblur)。 |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | 塗りつぶしオーバーレイ エフェクト。読み書き可能 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | 発光エフェクト。読み書き可能 [`IGlow`](../../aspose.slides.effects/iglow)。 |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | 内部シャドウ。読み書き可能 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | すべてのエフェクトが無効化されている場合（作成直後のデフォルト EffectFormat オブジェクト）に true を返します。読み取り専用 Boolean。 |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | 外部シャドウ。読み書き可能 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | プリセットシャドウ。読み書き可能 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | リフレクション。読み書き可能 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | ソフトエッジ。読み書き可能 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | ぼかしエフェクト。 読み書き可能 [`IBlur`](../../aspose.slides.effects/iblur)。 |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | 塗りつぶしオーバーレイエフェクト。 読み書き可能 [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay)。 |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | グローエフェクト。 読み書き可能 [`IGlow`](../../aspose.slides.effects/iglow)。 |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | インナーシャドウ。 読み書き可能 [`IInnerShadow`](../../aspose.slides.effects/iinnershadow)。 |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | すべてのエフェクトが無効になっている場合に true を返します (新規作成時のデフォルト EffectFormat オブジェクト)。 読み取り専用 Boolean。 |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | アウトサイドシャドウ。 読み書き可能 [`IOuterShadow`](../../aspose.slides.effects/ioutershadow)。 |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | プリセットシャドウ。 読み書き可能 [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow)。 |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | リフレクション。 読み書き可能 [`IReflection`](../../aspose.slides.effects/ireflection)。 |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | ソフトエッジ。 読み書き可能 [`ISoftEdge`](../../aspose.slides.effects/isoftedge)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | ぼかしエフェクトを無効にします。 |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | 塗りつぶしオーバーレイ エフェクトを無効にします。 |
-| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | 発光エフェクトを無効にします。 |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | 内部シャドウ エフェクトを無効にします。 |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | 外部シャドウ エフェクトを無効にします。 |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | プリセットシャドウ エフェクトを無効にします。 |
-| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | リフレクション エフェクトを無効にします。 |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | ソフトエッジ エフェクトを無効にします。 |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | 塗りつぶしオーバーレイ エフェクトを有効にします。 |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | 発光エフェクトを有効にします。 |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | 内部シャドウ エフェクトを有効にします。 |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | 外部シャドウ エフェクトを有効にします。 |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | プリセットシャドウ エフェクトを有効にします。 |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | リフレクション エフェクトを有効にします。 |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | ソフトエッジ エフェクトを有効にします。 |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | 塗りつぶしオーバーレイエフェクトを無効にします。 |
+| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | グローエフェクトを無効にします。 |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | インナーシャドウエフェクトを無効にします。 |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | アウトサイドシャドウエフェクトを無効にします。 |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | プリセットシャドウエフェクトを無効にします。 |
+| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | リフレクションエフェクトを無効にします。 |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | ソフトエッジエフェクトを無効にします。 |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | 塗りつぶしオーバーレイエフェクトを有効にします。 |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | グローエフェクトを有効にします。 |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | インナーシャドウエフェクトを有効にします。 |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | アウトサイドシャドウエフェクトを有効にします。 |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | プリセットシャドウエフェクトを有効にします。 |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | リフレクションエフェクトを有効にします。 |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | ソフトエッジエフェクトを有効にします。 |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
 | [GetEffective](../../aspose.slides/effectformat/geteffective)() | 継承が適用された有効なエフェクト書式データを取得します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |

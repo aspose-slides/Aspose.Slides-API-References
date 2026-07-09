@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Memberikan akses ke batang naik/turun pada grafik Line atau Stock-chart.
+description: Menyediakan akses ke bar naik/turun pada diagram Garis atau Saham.
 type: docs
-weight: 2480
+weight: 2500
 url: /id/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager kelas
 
-Memberikan akses ke batang naik/turun pada grafik Line atau Stock-chart.
+Menyediakan akses ke bar naik/turun pada diagram Garis atau Saham.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

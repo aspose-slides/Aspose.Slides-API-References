@@ -3,7 +3,7 @@ title: DataLabel
 second_title: Aspose.Sildes for .NET API リファレンス
 description: シリーズのラベルを表します。
 type: docs
-weight: 1530
+weight: 1550
 url: /ja/aspose.slides.charts/datalabel/
 ---
 ## DataLabel クラス
@@ -24,30 +24,30 @@ public class DataLabel : IDataLabel
 
 | 名前 | 説明 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、先に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、先に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | チャート要素の実際の X 位置（左）を、チャートの左上隅を基準に指定します。実際の値を取得するには、先に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | チャート要素の実際の上位置を、チャートの左上隅を基準に指定します。実際の値を取得するには、先に IChart.ValidateChartLayout() メソッドを呼び出してください。読み取り専用 Single。 |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 下端。読み取り専用 Single。 |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart)。 |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | データラベルの形式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat)。 |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | チャートの高さに対する比率として、タイトルの高さを取得または設定します。読み書き可能 Single。 |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False はデータラベルが表示されないことを意味し（それに伴いすべての Show*-フラグ（ShowValue など）は false になります）。読み取り専用 Boolean。 |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右端。読み取り専用 Single。 |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | テキスト形式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat)。 |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | リッチテキストを含めることができます。このプロパティが null でない場合、このフォーマットされたテキストはデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName、ShowValue などのプロパティで管理され、TextFormatManager.TextFormat プロパティでフォーマットされたテキストを指します。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | チャート要素の実際の高さを指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Read Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | チャート要素の実際の幅を指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Read Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | チャート要素の実際の x 座標（左）を、チャートの左上隅に対して指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Read Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | チャート要素の実際の上位置を、チャートの左上隅に対して指定します。実際の値を取得するには、事前に IChart.ValidateChartLayout() メソッドを呼び出してください。Read Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 下端。読み取り専用 Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 親チャートを返します。読み取り専用 [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | データラベルの書式を返します。読み取り専用 [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | タイトルの高さをチャートの高さの割合として取得または設定します。読み書き可能 Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False はデータラベルが表示されないことを意味し（したがってすべての Show* フラグ（ShowValue など）が false になります）。読み取り専用 Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右端。読み取り専用 Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | テキスト書式を返します。読み取り専用 [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | リッチな書式テキストを含めることができます。このプロパティが null でない場合、この書式テキストはデータラベルの自動生成テキストを上書きします。データラベルの自動生成テキストとは、ShowSeriesName、ShowValue などのプロパティで管理され、TextFormatManager.TextFormat プロパティで書式設定されたテキストです。読み取り専用 [`ITextFrame`](../../aspose.slides/itextframe). |
 | [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | ワークブックのデータセルを取得または設定します。IDataLabelFormat.ShowLabelValueFromCell プロパティが true の場合に適用されます。 |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | チャートの幅に対する比率として、タイトルの幅を取得または設定します。読み書き可能 Single。 |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | チャートの幅に対する比率として、タイトルの X 座標を取得または設定します。読み書き可能 Single。 |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | チャートの高さに対する比率として、タイトルの Y 座標を取得または設定します。読み書き可能 Single。 |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | タイトルの幅をチャートの幅の割合として取得または設定します。読み書き可能 Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | タイトルの x 座標をチャートの幅の割合として取得または設定します。読み書き可能 Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | タイトルの y 座標をチャートの高さの割合として取得または設定します。読み書き可能 Single. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | パラメーター "text" のテキストで TextFrameForOverriding を初期化します。すでに TextFrameForOverriding が初期化されている場合は、そのテキストを単に変更します。 |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat 設定または TextFrameForOverriding.Text の値に基づいて、実際のラベルテキストを返します。 |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | すべての Show*-フラグ（ShowValue など）を false に設定してデータラベルを非表示にします。これ以降 IsVisible は false になります。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | パラメータ "text" のテキストで TextFrameForOverriding を初期化します。すでに TextFrameForOverriding が初期化されている場合は、テキストを単に変更します。 |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat の設定または TextFrameForOverriding.Text の値に基づいて実際のラベルテキストを返します。 |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | すべての Show* フラグ（ShowValue など）を false に設定してデータラベルを非表示にします。この操作の後、IsVisible は false になります。 |
 
 ### 参照
 

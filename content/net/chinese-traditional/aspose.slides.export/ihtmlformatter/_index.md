@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 代表 HTML 檔案範本。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示 HTML 檔案範本。
 type: docs
 weight: 3940
 url: /zh-hant/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter 介面
 
-代表 HTML 檔案範本。
+表示 HTML 檔案範本。
 
 ```csharp
 public interface IHtmlFormatter

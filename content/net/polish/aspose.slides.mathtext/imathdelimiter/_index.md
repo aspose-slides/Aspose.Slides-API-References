@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes dla .NET - Referencja API
-description: Określa obiekt separatora składający się z znaków otwierających i zamykających, takich jak nawiasy okrągłe, klamry, nawiasy kwadratowe i pionowe kreski, oraz jednego lub więcej elementów matematycznych wewnątrz, oddzielonych określonym znakiem. Przykłady: 2 2x7C2
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Określa obiekt delimiteru składający się z znaków otwierających i zamykających, takich jak nawiasy okrągłe, klamry, nawiasy kwadratowe i pionowe kreski, oraz jednego lub więcej elementów matematycznych wewnątrz, oddzielonych określonym znakiem. Przykłady 2 2x7C2
 type: docs
-weight: 8190
+weight: 8210
 url: /pl/aspose.slides.mathtext/imathdelimiter/
 ---
 ## interfejs IMathDelimiter
 
-Określa obiekt separatora, składający się z znaków otwierających i zamykających (takich jak nawiasy okrągłe, klamry, nawiasy kwadratowe i pionowe kreski) oraz jednego lub więcej elementów matematycznych wewnątrz, oddzielonych określonym znakiem. Przykłady: (𝑥2); [𝑥2&#x7C;𝑦2]
+Określa obiekt separatora, składający się z znaków otwierających i zamykających (takich jak nawiasy okrągłe, klamrowe, kwadratowe i pionowe kreski) oraz jednego lub więcej elementów matematycznych wewnątrz, oddzielonych określonym znakiem. Przykłady: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -20,17 +20,17 @@ public interface IMathDelimiter : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Jeden lub więcej elementów matematycznych oddzielonych znakami separatora |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character określa początkowy, czyli otwierający, znak separatora. Separatory matematyczne są znakami otaczającymi, takimi jak nawiasy okrągłe, kwadratowe i klamry. Wartość domyślna: '(' |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Określa kształt separatorów w obiekcie separatora. Gdy wartość jest MathDelimiterShape.Centered, separatory są wyśrodkowane względem osi matematycznej tekstu i nadal mogą być dopasowane do całkowitej wysokości ich zawartości. Gdy wartość jest MathDelimiterShape.Match, ich wysokość i kształt są zmieniane tak, aby dokładnie odpowiadały zawartości. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character określa znak końcowy, czyli zamykający, separatora. Separatory matematyczne są znakami otaczającymi, takimi jak nawiasy okrągłe, kwadratowe i klamry. Domyślnie: ')' |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter. Gdy true, separatory rosną pionowo, aby dopasować się do wysokości ich operandów. Wartość domyślna to true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character określa znak, który oddziela argumenty w obiekcie separatora. Domyślnie: '&#x7C;' |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Określa początkowy, czyli otwierający, znak delimitera. Matematyczne delimitery są znakami otaczającymi, takimi jak nawiasy okrągłe, kwadratowe i klamrowe. Wartość domyślna: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Określa kształt delimiterów w obiekcie delimiter. Gdy wartość to MathDelimiterShape.Centered, delimitery są wyśrodkowane wokół osi matematycznej tekstu i dopasowywane tak, aby obejmowały całą wysokość ich zawartości. Gdy wartość to MathDelimiterShape.Match, ich wysokość i kształt są zmieniane, aby dokładnie pasowały do zawartości. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Określa końcowy, czyli zamykający, znak delimitera. Matematyczne delimitery są znakami otaczającymi, takimi jak nawiasy okrągłe, kwadratowe i klamrowe. Domyślnie: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Określa, czy rosną początkowy znak, znak separatora i znak końcowy. Gdy true, delimitery rosną pionowo, aby dopasować się do wysokości ich operandów. Domyślna wartość to true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Określa znak separatora delimitera, który oddziela argumenty w obiekcie delimiter. Domyślnie: '&#x7C;' |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Oddziela argumenty przy użyciu określonego znaku separatora |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Oddziela argumenty przy użyciu określonego znaku delimitera |
 
 ### Przykłady
 

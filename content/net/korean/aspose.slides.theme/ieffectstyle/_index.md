@@ -19,7 +19,7 @@ public interface IEffectStyle
 | 이름 | 설명 |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | 3D 형식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | 3d 형식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### 참조
 

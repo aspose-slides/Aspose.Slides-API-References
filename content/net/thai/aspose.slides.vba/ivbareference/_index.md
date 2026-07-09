@@ -1,14 +1,14 @@
 ---
 title: IVbaReference
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงชื่อของการอ้างอิงโครงการ VBA.
+description: แสดงถึงชื่อของการอ้างอิงโครงการ VBA.
 type: docs
 weight: 11570
 url: /th/aspose.slides.vba/ivbareference/
 ---
 ## IVbaReference อินเทอร์เฟซ
 
-แสดงชื่อของการอ้างอิงโครงการ VBA.
+แสดงถึงชื่อของการอ้างอิงโครงการ VBA.
 
 ```csharp
 public interface IVbaReference
@@ -18,7 +18,7 @@ public interface IVbaReference
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | แสดงชื่อของการอ้างอิงโครงการ VBA. อ่าน/เขียน String. |
+| [Name](../../aspose.slides.vba/ivbareference/name) { get; set; } | แสดงถึงชื่อของการอ้างอิงโครงการ VBA. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

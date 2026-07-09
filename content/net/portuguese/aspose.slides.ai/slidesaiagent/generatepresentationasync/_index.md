@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentationAsync
 second_title: Referência da API Aspose.Sildes para .NET
-description: Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário.
+description: Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma requerido.
 type: docs
 weight: 30
 url: /pt/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário.
+Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma desejado.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -26,7 +26,15 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | --- | --- |
 | ArgumentException | A instrução de chat de IA não pode ser nula ou vazia. |
 
-### Ver Também
+### Observações
+
+O exemplo abaixo usa o [`AsposeAIWebClient`](../../asposeaiwebclient) padrão, que é criado pelo construtor sem parâmetros [`SlidesAIAgent`](../slidesaiagent) e se conecta ao LLM próprio da Aspose. Para usar outro provedor de IA, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio `HttpClient`), passe uma implementação [`IAIWebClient`](../../iaiwebclient) ao construtor [`SlidesAIAgent`](../slidesaiagent). Implementações disponíveis incluem:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Veja Também
 
 * interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -38,7 +46,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma necessário.
+Gera uma instância de apresentação a partir de uma descrição de texto. Forneça um tópico, ideias, citações ou trechos de texto no idioma desejado.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -49,7 +57,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | --- | --- | --- |
 | description | String | O tópico, ideias, citações ou trechos de texto. |
 | presentationContentAmount | PresentationContentAmountType | A quantidade de conteúdo na apresentação resultante. |
-| presentationTemplate | IPresentation | Uma apresentação a ser usada como modelo para layout e design, substituindo o modelo padrão. |
+| presentationTemplate | IPresentation | Uma apresentação a ser usada como modelo de layout e design, substituindo o modelo padrão. |
 
 ### Exceções
 
@@ -58,7 +66,15 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | ArgumentNullException | O modelo de apresentação não foi fornecido. |
 | ArgumentException | A instrução de chat de IA não pode ser nula ou vazia. |
 
-### Ver Também
+### Observações
+
+O exemplo abaixo usa o [`AsposeAIWebClient`](../../asposeaiwebclient) padrão, que é criado pelo construtor sem parâmetros [`SlidesAIAgent`](../slidesaiagent) e se conecta ao LLM próprio da Aspose. Para usar outro provedor de IA, fornecer seu próprio LLM ou personalizar a conexão (por exemplo, fornecendo seu próprio `HttpClient`), passe uma implementação [`IAIWebClient`](../../iaiwebclient) ao construtor [`SlidesAIAgent`](../slidesaiagent). Implementações disponíveis incluem:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Veja Também
 
 * interface [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)

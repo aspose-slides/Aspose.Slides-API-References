@@ -1,14 +1,14 @@
 ---
 title: FillType
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa wewnętrzny typ wypełnienia różnych obiektów wizualnych.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa typ wypełnienia wewnętrznego różnych obiektów wizualnych.
 type: docs
-weight: 4770
+weight: 4790
 url: /pl/aspose.slides/filltype/
 ---
-## enumeracja FillType
+## Wyliczenie FillType
 
-Określa wewnętrzny typ wypełnienia różnych obiektów wizualnych.
+Określa typ wypełnienia wewnętrznego różnych obiektów wizualnych.
 
 ```csharp
 public enum FillType : sbyte
@@ -18,11 +18,11 @@ public enum FillType : sbyte
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| NotDefined | `-1` | Typ wypełnienia nie jest określony. |
+| NotDefined | `-1` | Typ wypełnienia nie jest zdefiniowany. |
 | NoFill | `0` | Nie zastosowano wypełnienia. |
 | Solid | `1` | Wypełnione jednolitym kolorem. |
-| Gradient | `2` | Wypełnienie jest gradientowe. |
-| Pattern | `3` | Do wypełnienia obiektu używany jest powtarzający się wzorzec. |
+| Gradient | `2` | Wypełnienie jest gradientem. |
+| Pattern | `3` | Do wypełnienia obiektu używany jest powtarzający się wzór. |
 | Picture | `4` | Do wypełnienia obiektu używany jest pojedynczy obraz. |
 | Group | `5` | Obiekt wizualny dziedziczy właściwości wypełnienia z grupy. |
 

@@ -1,9 +1,9 @@
 ---
 title: IGeometryShape
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει την γονική κλάση για όλα τα γεωμετρικά σχήματα.
+description: Αποπροσωπεύει την γονική κλάση για όλα τα γεωμετρικά σχήματα.
 type: docs
-weight: 5960
+weight: 5980
 url: /el/aspose.slides/igeometryshape/
 ---
 ## IGeometryShape διασύνδεση
@@ -19,18 +19,18 @@ public interface IGeometryShape : IShape
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Adjustments](../../aspose.slides/igeometryshape/adjustments) { get; } | Επιστρέφει μια συλλογή τιμών προσαρμογής του σχήματος. Μόνο για ανάγνωση [`IAdjustValueCollection`](../iadjustvaluecollection). |
-| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IShape. Μόνο για ανάγνωση [`IShape`](../ishape). |
+| [AsIShape](../../aspose.slides/igeometryshape/asishape) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IShape. Μόνο για ανάγνωση [`IShape`](../ishape). |
 | [ShapeStyle](../../aspose.slides/igeometryshape/shapestyle) { get; } | Επιστρέφει το αντικείμενο στυλ του σχήματος. Μόνο για ανάγνωση [`IShapeStyle`](../ishapestyle). |
-| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Επιστρέφει ή ορίζει τον τύπο προεπιλογής γεωμετρίας. Σημείωση: κατά την αλλαγή της τιμής όλες οι τιμές προσαρμογής θα επανέλθουν στις προεπιλεγμένες τιμές τους. Ανάγνωση/εγγραφή [`ShapeType`](../shapetype). |
+| [ShapeType](../../aspose.slides/igeometryshape/shapetype) { get; set; } | Επιστρέφει ή ορίζει τον τύπο προεπιλογής γεωμετρίας. Σημείωση: κατά την αλλαγή της τιμής όλες οι τιμές προσαρμογής επανεγκαθίστανται στις προεπιλεγμένες τιμές τους. Ανάγνωση/εγγραφή [`ShapeType`](../shapetype). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [CreateShapeElements](../../aspose.slides/igeometryshape/createshapeelements)() | Δημιουργεί και επιστρέφει έναν πίνακα των στοιχείων του σχήματος. |
-| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Επιστρέφει το αντίγραφο της διαδρομής του γεωμετρικού σχήματος. Οι συντεταγμένες είναι σχετικές με την αριστερή πάνω γωνία του σχήματος. |
-| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Ενημερώνει τη γεωμετρία του σχήματος από το αντικείμενο [`IGeometryPath`](../igeometrypath). Οι συντεταγμένες πρέπει να είναι σχετικές με την αριστερή πάνω γωνία του σχήματος. Αλλάζει τον τύπο του σχήματος ([`ShapeType`](./shapetype)) σε Custom. |
-| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Ενημερώνει τη γεωμετρία του σχήματος από πίνακα του [`IGeometryPath`](../igeometrypath). Οι συντεταγμένες πρέπει να είναι σχετικές με την αριστερή πάνω γωνία του σχήματος. Αλλάζει τον τύπο του σχήματος ([`ShapeType`](./shapetype)) σε Custom. |
+| [GetGeometryPaths](../../aspose.slides/igeometryshape/getgeometrypaths)() | Επιστρέφει το αντίγραφο της διαδρομής του γεωμετρικού σχήματος. Οι συντεταγμένες είναι σχετικές με το πάνω αριστερό άκρο του σχήματος. |
+| [SetGeometryPath](../../aspose.slides/igeometryshape/setgeometrypath)(IGeometryPath) | Ενημερώνει τη γεωμετρία του σχήματος από το αντικείμενο [`IGeometryPath`](../igeometrypath). Οι συντεταγμένες πρέπει να είναι σχετικές με το πάνω αριστερό άκρο του σχήματος. Αλλάζει τον τύπο του σχήματος ([`ShapeType`](./shapetype)) σε Custom. |
+| [SetGeometryPaths](../../aspose.slides/igeometryshape/setgeometrypaths)(IGeometryPath[]) | Ενημερώνει τη γεωμετρία του σχήματος από έναν πίνακα των [`IGeometryPath`](../igeometrypath). Οι συντεταγμένες πρέπει να είναι σχετικές με το πάνω αριστερό άκρο του σχήματος. Αλλάζει τον τύπο του σ Shape ([`ShapeType`](./shapetype)) σε Custom. |
 
 ### Δείτε επίσης
 

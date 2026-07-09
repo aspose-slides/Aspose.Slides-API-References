@@ -1,14 +1,14 @@
 ---
 title: AxisAggregationType
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o tipo de agregação do eixo de categorias. Usado apenas com séries Histogram ou HistogramPareto.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa o tipo de agregação do eixo de categoria. Usado apenas com séries Histogram ou HistogramPareto.
 type: docs
-weight: 1170
+weight: 1190
 url: /pt/aspose.slides.charts/axisaggregationtype/
 ---
-## AxisAggregationType enumeração
+## Enumeração AxisAggregationType
 
-Representa o tipo de agregação do eixo de categorias. Usado somente com séries Histogram ou HistogramPareto.
+Representa o tipo de agregação do eixo de categoria. Usado apenas com séries Histogram ou HistogramPareto.
 
 ```csharp
 public enum AxisAggregationType
@@ -18,10 +18,10 @@ public enum AxisAggregationType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| ByCategory | `0` | Agrupar por categorias |
-| Automatic | `1` | Agrupar categorias automaticamente. |
-| ByBinWidth | `2` | Agrupar categorias por largura do intervalo. A propriedade IAxis.BinWidth deve ser definida. |
-| ByNumberOfBins | `3` | Agrupar categorias por número de intervalos. A propriedade IAxis.NumberOfBins deve ser definida. |
+| ByCategory | `0` | Agregar por categorias |
+| Automatic | `1` | Agrega categorias automaticamente. |
+| ByBinWidth | `2` | Agrega categorias por largura do intervalo. A propriedade IAxis.BinWidth deve ser definida. |
+| ByNumberOfBins | `3` | Agrega categorias por número de intervalos. A propriedade IAxis.NumberOfBins deve ser definida. |
 
 ### Veja Também
 

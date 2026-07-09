@@ -1,14 +1,14 @@
 ---
 title: IBulkTextFormattable
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho một đối tượng có khả năng thiết lập hàng loạt định dạng các phần tử văn bản con.
+description: Đại diện cho một đối tượng có khả năng thiết lập hàng loạt định dạng cho các phần tử văn bản con.
 type: docs
 weight: 5380
 url: /vi/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable giao diện
 
-Đại diện cho một đối tượng có khả năng thiết lập hàng loạt định dạng các phần tử văn bản con.
+Đại diện cho một đối tượng có khả năng thiết lập hàng loạt định dạng cho các phần tử văn bản con.
 
 ```csharp
 public interface IBulkTextFormattable
@@ -18,7 +18,7 @@ public interface IBulkTextFormattable
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Đặt các thuộc tính định dạng đoạn văn đã xác định cho tất cả các đoạn văn của phần tử. |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | Đặt các thuộc tính định dạng đoạn văn đã xác định cho tất cả các đoạn của phần tử. |
 | [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | Đặt các thuộc tính định dạng phần đã xác định cho tất cả các phần của phần tử. |
 | [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | Đặt các thuộc tính định dạng khung văn bản đã xác định cho tất cả các khung văn bản của phần tử. |
 

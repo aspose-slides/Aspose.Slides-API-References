@@ -1,6 +1,6 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Cho phép tạo IMathLimit
 type: docs
 weight: 8330

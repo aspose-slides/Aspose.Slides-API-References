@@ -1,14 +1,14 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Slides .NET API hivatkozás
 description: SVG képet reprezentál.
 type: docs
-weight: 7160
+weight: 7180
 url: /hu/aspose.slides/isvgimage/
 ---
 ## ISvgImage interfész
 
-Az SVG képet reprezentálja.
+SVG képet reprezentál.
 
 ```csharp
 public interface ISvgImage
@@ -18,16 +18,16 @@ public interface ISvgImage
 
 | Név | Leírás |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Visszaadja a megadott SVG alap URI-ját. Relatív hivatkozások feloldásához használható. Csak olvasható String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Visszaadja a visszahívási interfészt, amelyet a SVG dokumentumok importálása során külső erőforrások feloldásához használnak. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Visszaadja az SVG tartalmat. Csak olvasható String. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | Visszaadja a megadott SVG alap URI-ját. Relatív hivatkozások feloldására használható. Csak olvasható String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | Visszaadja a SVG dokumentumok importálása során a külső erőforrások feloldásához használt visszahívási interfészt. Csak olvasható [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | Visszaadja az SVG tartalmát. Csak olvasható String. |
 | [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | Visszaadja az SVG adatokat. Csak olvasható Byte[]. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Az SVG képet EMF fájlként menti. |
+| [WriteAsEmf](../../aspose.slides/isvgimage/writeasemf)(Stream) | Elmenti az SVG képet EMF fájlként. |
 
 ### Lásd még
 

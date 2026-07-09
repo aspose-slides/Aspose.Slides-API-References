@@ -1,12 +1,12 @@
 ---
 title: ISmartArtNode
-second_title: Aspose.Slides per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un nodo di un diagramma SmartArt.
 type: docs
-weight: 10530
+weight: 10550
 url: /it/aspose.slides.smartart/ismartartnode/
 ---
-## Interfaccia ISmartArtNode
+## ISmartArtNode interfaccia
 
 Rappresenta un nodo di un diagramma SmartArt.
 
@@ -18,15 +18,15 @@ public interface ISmartArtNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Restituisce l'oggetto FillFormat che contiene le proprietà di formattazione di riempimento per un bullet del nodo. Nota: può restituire null per alcuni tipi di layout SmartArt che non forniscono bullet per i nodi. Sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Restituisce le collezioni di tutti i nodi figli del nodo corrente. Sola lettura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [BulletFillFormat](../../aspose.slides.smartart/ismartartnode/bulletfillformat) { get; } | Restituisce l'oggetto FillFormat che contiene le proprietà di formattazione del riempimento per il pallino del nodo. Nota: può restituire null per alcuni tipi di layout SmartArt che non forniscono pallini per i nodi. Di sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [ChildNodes](../../aspose.slides.smartart/ismartartnode/childnodes) { get; } | Restituisce le collezioni di tutti i nodi figlio del nodo corrente. Di sola lettura [`ISmartArtNodeCollection`](../ismartartnodecollection). |
 | [IsAssistant](../../aspose.slides.smartart/ismartartnode/isassistant) { get; set; } | Restituisce o imposta il nodo come assistente. Lettura/scrittura Boolean. |
-| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Restituisce true se questo nodo è un nodo nascosto nel modello dati. Sola lettura Boolean. |
-| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Restituisce il livello di nidificazione del nodo. Sola lettura Int32. |
-| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Restituisce o imposta il tipo di layout dell'organigramma associato al nodo corrente. Lettura/scrittura [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
-| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Restituisce o imposta la posizione zero-based del nodo tra i nodi fratelli. Lettura/scrittura Int32. |
-| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Restituisce le collezioni di tutte le forme associate al nodo. Sola lettura [`ISmartArtShapeCollection`](../ismartartshapecollection). |
-| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Restituisce o imposta il testo del nodo. Sola lettura [`ITextFrame`](../../aspose.slides/itextframe). |
+| [IsHidden](../../aspose.slides.smartart/ismartartnode/ishidden) { get; } | Restituisce true se questo nodo è un nodo nascosto nel modello dati. Di sola lettura Boolean. |
+| [Level](../../aspose.slides.smartart/ismartartnode/level) { get; } | Restituisce il livello di nidificazione del nodo. Di sola lettura Int32. |
+| [OrganizationChartLayout](../../aspose.slides.smartart/ismartartnode/organizationchartlayout) { get; set; } | Restituisce o imposta il tipo di layout del diagramma organizzativo associato al nodo corrente. Lettura/scrittura [`OrganizationChartLayoutType`](../organizationchartlayouttype). |
+| [Position](../../aspose.slides.smartart/ismartartnode/position) { get; set; } | Restituisce o imposta la posizione a base zero del nodo tra i nodi fratelli. Lettura/scrittura Int32. |
+| [Shapes](../../aspose.slides.smartart/ismartartnode/shapes) { get; } | Restituisce le collezioni di tutte le forme associate al nodo. Di sola lettura [`ISmartArtShapeCollection`](../ismartartshapecollection). |
+| [TextFrame](../../aspose.slides.smartart/ismartartnode/textframe) { get; } | Restituisce o imposta il testo del nodo. Di sola lettura [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## Metodi
 

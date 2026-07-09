@@ -1,14 +1,20 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes .NET API referencia
-description: SlidesAIAgent konstruktor
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy új SlidesAIAgentaspose.slides.ai/slidesaiagent példányt hoz létre egy egyedi AI klienssel. Használja ezt a túlterhelést az AI szolgáltató megadásához, saját LLM biztosításához, vagy a kapcsolat testreszabásához, például saját HttpClient megadásával. Az IAIWebClientaspose.slides.ai/iaiwebclient bármely megvalósítása használható, beleértve
 type: docs
 weight: 10
 url: /hu/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
-## SlidesAIAgent konstruktor
+## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-SlidesAIAgent konstruktor
+Egy új példányt hoz létre a [`SlidesAIAgent`](../../slidesaiagent) számára egy egyedi AI klienssel. Használja ezt a túlterhelést az AI szolgáltató megadásához, saját LLM biztosításához, vagy a kapcsolat testreszabásához (például saját `HttpClient` megadásával). A [`IAIWebClient`](../../iaiwebclient) bármely megvalósítása használható, többek között:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+A beépített [`AsposeAIWebClient`](../../asposeaiwebclient) alapértelmezett konfigurációjának használatához használja a [`SlidesAIAgent`](../slidesaiagent) túlterhelést.
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
@@ -16,17 +22,33 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
-| aiClient | IAIWebClient |  |
+| aiClient | IAIWebClient | AI kliens példány. A [`IAIWebClient`](../../iaiwebclient) bármely megvalósítása használható. |
 
 ### Kivételek
 
 | kivétel | feltétel |
 | --- | --- |
-| ArgumentNullException | AI kliens példány nincs megadva |
+| ArgumentNullException | Az AI kliens példány nincs megadva. |
 
 ### Lásd még
 
 * interfész [IAIWebClient](../../iaiwebclient)
+* osztály [SlidesAIAgent](../../slidesaiagent)
+* névtér [Aspose.Slides.AI](../../slidesaiagent)
+* összeállítás [Aspose.Slides](../../../)
+
+---
+
+## SlidesAIAgent() {#constructor}
+
+Egy új példányt hoz létre a [`SlidesAIAgent`](../../slidesaiagent) számára a beépített [`AsposeAIWebClient`](../../asposeaiwebclient) alapértelmezett konfigurációjával. A kliens az Aspose saját LLM-jéhez csatlakozik, és nem igényel további konfigurációt. Egy másik AI kliens használatához használja a [`SlidesAIAgent`](../slidesaiagent) túlterhelést.
+
+```csharp
+public SlidesAIAgent()
+```
+
+### Lásd még
+
 * osztály [SlidesAIAgent](../../slidesaiagent)
 * névtér [Aspose.Slides.AI](../../slidesaiagent)
 * összeállítás [Aspose.Slides](../../../)

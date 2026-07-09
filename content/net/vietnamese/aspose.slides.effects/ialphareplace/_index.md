@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplace
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn giao diện IImageTransformOperation cơ bản.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho giao diện IImageTransformOperation cơ bản.
 type: docs
 weight: 3140
 url: /vi/aspose.slides.effects/ialphareplace/
 ---
-## IAlphaReplace interface
+## giao diện IAlphaReplace
 
-Biểu diễn giao diện IImageTransformOperation cơ bản.
+Đại diện cho giao diện IImageTransformOperation cơ bản.
 
 ```csharp
 public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ sở. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ sở. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Xem thêm
 

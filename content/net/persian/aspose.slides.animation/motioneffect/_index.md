@@ -1,14 +1,14 @@
 ---
 title: MotionEffect
-second_title: مرجع API Aspose.Sildes برای .NET
-description: رفتار افکت حرکت را نشان می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش رفتار اثر حرکت.
 type: docs
 weight: 670
 url: /fa/aspose.slides.animation/motioneffect/
 ---
-## MotionEffect کلاس
+## کلاس MotionEffect
 
-رفتار افکت حرکت را نشان می‌دهد.
+نمایش رفتار اثر حرکت.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -24,20 +24,20 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | نام | توضیح |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | نشان می‌دهد که آیا رفتارهای انیمیشن تجمع می‌یابند یا خیر. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | نشان می‌دهد که آیا رفتار انیمیشن جاری با انیمیشن‌های دیگر در حال اجرا ترکیب می‌شود یا خیر. قابل خواندن/نوشتن [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | زاویه نسبی مسیر حرکت را توصیف می‌کند. قابل خواندن/نوشتن Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | مقدار جابجایی نسبی برای انیمیشن را (برحسب درصد) توصیف می‌کند. قابل خواندن/نوشتن PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | مختصات x/y برای شروع انیمیشن را (برحسب درصد) مشخص می‌کند. قابل خواندن/نوشتن PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | مشخص می‌کند مبدأ مسیر حرکت نسبت به چه چیزی است، مانند چیدمان اسلاید یا والد. قابل خواندن/نوشتن [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | عنصر مسیر را که با مختصات برای حرکت انیمیشن دنبال می‌شود، مشخص می‌کند. قابل خواندن/نوشتن [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | نحوه حرکت مسیر حرکت هنگام جابه‌جایی شکل را مشخص می‌کند. قابل خواندن/نوشتن [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | خواص رفتار را نشان می‌دهد. فقط خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | مرکز چرخش مورد استفاده برای چرخاندن مسیر حرکت به زاویه X را توصیف می‌کند. قابل خواندن/نوشتن PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | خواص زمان‌بندی برای رفتار اثر را نشان می‌دهد. قابل خواندن/نوشتن [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | موقعیت هدف برای اثر حرکت انیمیشن را (برحسب درصد) مشخص می‌کند. قابل خواندن/نوشتن PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | نمایانگر این است که آیا رفتارهای انیمیشن جمع می‌شوند. خواندنی/نوشتنی [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | نمایانگر این است که آیا رفتار فعلی انیمیشن با سایر انیمیشن‌های در حال اجرا ترکیب می‌شود. خواندنی/نوشتنی [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | زاویه نسبی مسیر حرکت را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | مقدار جابجایی نسبی انیمیشن (به درصد) را توصیف می‌کند. خواندنی/نوشتنی PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | مختصات x/y برای شروع انیمیشن (به درصد) را مشخص می‌کند. خواندنی/نوشتنی PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | مشخص می‌کند منبع مسیر حرکت نسبت به چه چیزی است، مانند طرح اسلاید یا والد. خواندنی/نوشتنی [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | پریمیوی مسیر که به‌همراه مختصات برای حرکت انیمیشن دنبال می‌شود را مشخص می‌کند. خواندنی/نوشتنی [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | نحوه حرکت مسیر حرکتی هنگام جابه‌جایی شکل را مشخص می‌کند. خواندنی/نوشتنی [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | ویژگی‌های رفتار را نمایان می‌کند. فقط خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | مرکز چرخش استفاده‌شده برای چرخاندن مسیر حرکتی به‌وسیلۀ زاویه X را توصیف می‌کند. خواندنی/نوشتنی PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | ویژگی‌های زمان‌بندی برای رفتار اثر را نمایان می‌کند. خواندنی/نوشتنی [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | محل هدف برای اثر حرکتی انیمیشن (به درصد) را مشخص می‌کند. خواندنی/نوشتنی PointF. |
 
-### موارد مرتبط
+### مراجع
 
 * کلاس [Behavior](../behavior)
 * رابط [IMotionEffect](../imotioneffect)

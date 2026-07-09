@@ -1,14 +1,14 @@
 ---
 title: BulletType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het type van de uitgebreide opsommingstekens weer.
+description: Stelt het type van de uitgebreide opsommingstekens voor.
 type: docs
 weight: 1080
 url: /nl/aspose.slides/bullettype/
 ---
-## BulletType-enumeratie
+## BulletType enumeratie
 
-Geeft het type van de uitgebreide opsommingstekens weer.
+Stelt het type van de uitgebreide opsommingstekens voor.
 
 ```csharp
 public enum BulletType : sbyte
@@ -22,7 +22,7 @@ public enum BulletType : sbyte
 | None | `0` |  |
 | Symbol | `1` | Symbool opsommingstekens. |
 | Numbered | `2` | Genummerde opsommingstekens. |
-| Picture | `3` | Afbeeldingsopsommingstekens. |
+| Picture | `3` | Afbeeldings opsommingstekens. |
 
 ### Zie ook
 

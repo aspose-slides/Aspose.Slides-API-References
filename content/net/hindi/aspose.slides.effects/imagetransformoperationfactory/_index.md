@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperationFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: इमेज ट्रांसफ़ॉर्म ऑपरेशन्स बनाने की अनुमति देता है
+description: छवि रूपांतरण कार्यों को बनाने की अनुमति देता है
 type: docs
 weight: 3590
 url: /hi/aspose.slides.effects/imagetransformoperationfactory/
 ---
-## ImageTransformOperationFactory वर्ग
+## ImageTransformOperationFactory क्लास
 
-इमेज ट्रांसफ़ॉर्म ऑपरेशन्स बनाने की अनुमति देता है
+छवि रूपांतरण कार्यों को बनाने की अनुमति देता है।
 
 ```csharp
 public class ImageTransformOperationFactory : IImageTransformOperationFactory
@@ -18,38 +18,38 @@ public class ImageTransformOperationFactory : IImageTransformOperationFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [ImageTransformOperationFactory](imagetransformoperationfactory)() | डिफ़ॉल्ट निर्माता। |
+| [ImageTransformOperationFactory](imagetransformoperationfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel इफ़ेक्ट बनाता है। |
-| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Alpha floor इफ़ेक्ट बनाता है। |
-| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Alpha inverse इफ़ेक्ट बनाता है। |
-| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Alpha modulate इफ़ेक्ट बनाता है। |
-| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed इफ़ेक्ट बनाता है। |
-| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Alpha replace इफ़ेक्ट बनाता है। |
-| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Alpha Ceiling इफ़ेक्ट बनाता है। |
-| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | BiLevel इफ़ेक्ट बनाता है। |
-| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Blur इफ़ेक्ट बनाता है। |
-| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Color change इफ़ेक्ट बनाता है। |
-| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Color replace इफ़ेक्ट बनाता है। |
-| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Duotone इफ़ेक्ट बनाता है। |
-| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Fill overlay इफ़ेक्ट बनाता है। |
-| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Gray scale इफ़ेक्ट बनाता है। |
-| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance इफ़ेक्ट बनाता है। |
-| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Luminance इफ़ेक्ट बनाता है। |
-| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Tint इफ़ेक्ट बनाता है। |
+| [CreateAlphaBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createalphabilevel)(float) | Alpha BiLevel प्रभाव बनाता है। |
+| [CreateAlphaFloor](../../aspose.slides.effects/imagetransformoperationfactory/createalphafloor)() | Alpha floor प्रभाव बनाता है। |
+| [CreateAlphaInverse](../../aspose.slides.effects/imagetransformoperationfactory/createalphainverse)() | Alpha inverse प्रभाव बनाता है। |
+| [CreateAlphaModulate](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulate)() | Alpha modulate प्रभाव बनाता है। |
+| [CreateAlphaModulateFixed](../../aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed)(float) | Alpha modulate fixed प्रभाव बनाता है। |
+| [CreateAlphaReplace](../../aspose.slides.effects/imagetransformoperationfactory/createalphareplace)(float) | Alpha replace प्रभाव बनाता है। |
+| [CreateAlphCeiling](../../aspose.slides.effects/imagetransformoperationfactory/createalphceiling)() | Alpha Ceiling प्रभाव बनाता है। |
+| [CreateBiLevel](../../aspose.slides.effects/imagetransformoperationfactory/createbilevel)(float) | BiLevel प्रभाव बनाता है। |
+| [CreateBlur](../../aspose.slides.effects/imagetransformoperationfactory/createblur)(double, bool) | Blur प्रभाव बनाता है। |
+| [CreateColorChange](../../aspose.slides.effects/imagetransformoperationfactory/createcolorchange)() | Color change प्रभाव बनाता है। |
+| [CreateColorReplace](../../aspose.slides.effects/imagetransformoperationfactory/createcolorreplace)() | Color replace प्रभाव बनाता है। |
+| [CreateDuotone](../../aspose.slides.effects/imagetransformoperationfactory/createduotone)() | Duotone प्रभाव बनाता है। |
+| [CreateFillOverlay](../../aspose.slides.effects/imagetransformoperationfactory/createfilloverlay)() | Fill overlay प्रभाव बनाता है। |
+| [CreateGrayScale](../../aspose.slides.effects/imagetransformoperationfactory/creategrayscale)() | Gray scale प्रभाव बनाता है। |
+| [CreateHSL](../../aspose.slides.effects/imagetransformoperationfactory/createhsl)(float, float, float) | Hue Saturation Luminance प्रभाव बनाता है। |
+| [CreateLuminance](../../aspose.slides.effects/imagetransformoperationfactory/createluminance)(float, float) | Luminance प्रभाव बनाता है। |
+| [CreateTint](../../aspose.slides.effects/imagetransformoperationfactory/createtint)(float, float) | Tint प्रभाव बनाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए।
 
 ### संबंधित देखें
 
 * इंटरफ़ेस [IImageTransformOperationFactory](../iimagetransformoperationfactory)
-* नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)
+* नेमस्पेस [Aspose.Slides.Effects](../../aspose.slides.effects)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

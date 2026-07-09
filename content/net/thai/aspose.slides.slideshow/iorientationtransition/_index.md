@@ -1,14 +1,14 @@
 ---
 title: IOrientationTransition
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์ตามการวางแนว.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เอฟเฟกต์การเปลี่ยนสไลด์ตามแนว
 type: docs
 weight: 10150
 url: /th/aspose.slides.slideshow/iorientationtransition/
 ---
 ## IOrientationTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์ตามการวางแนว
+เอฟเฟกต์การเปลี่ยนสไลด์ตามแนว
 
 ```csharp
 public interface IOrientationTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐานได้ อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนแปลง อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนสไลด์. อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
 
 ### ดูเพิ่มเติม
 

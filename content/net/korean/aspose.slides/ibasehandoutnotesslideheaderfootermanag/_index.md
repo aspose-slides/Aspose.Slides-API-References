@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes for .NET API 참조
-description: 플레이스홀더의 동작을 포함하는 관리자를 나타내며, 모든 유형의 유인물 및 노트 슬라이드에 대한 헤더 자리 표시자를 포함합니다.
+description: 플레이스홀더의 동작을 보유하는 관리자를 나타내며, 모든 유형의 배포 및 노트 슬라이드에 대한 헤더 플레이스홀더를 포함합니다.
 type: docs
 weight: 5290
 url: /ko/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag 인터페이스
 
-플레이스홀더의 동작을 포함하는 관리자를 나타내며, 모든 유형의 유인물 및 노트 슬라이드에 대한 헤더 자리 표시자를 포함합니다.
+플레이스홀더의 동작을 보유하는 관리자를 나타내며, 모든 유형의 배포 및 노트 슬라이드에 대한 헤더 플레이스홀더를 포함합니다.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -19,20 +19,20 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 | 이름 | 설명 |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager 인터페이스를 반환합니다. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 헤더 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Boolean을 읽습니다. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | 헤더 플레이스홀더가 존재함을 나타내는 값을 가져옵니다. 읽기 전용 Boolean. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 슬라이드 헤더 자리 표시자에 텍스트를 설정합니다. |
-| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 슬라이드 헤더 자리 표시자의 가시성을 변경합니다. |
+| [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | 슬라이드 헤더 플레이스홀더에 텍스트를 설정합니다. |
+| [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | 슬라이드 헤더 플레이스홀더 가시성을 변경합니다. |
 
 ### 비고
 
-원래 인터페이스 이름 "IBaseHandoutNotesSlideHeaderFooterManager"는 COM 호환성을 위해 "IBaseHandoutNotesSlideHeaderFooterManag"로 잘렸습니다 (형식 이름 길이는 39자를 초과할 수 없습니다).
+원래 인터페이스 이름 "IBaseHandoutNotesSlideHeaderFooterManager"는 COM 호환성을 위해 "IBaseHandoutNotesSlideHeaderFooterManag"로 축약되었습니다 (형식 이름 길이는 39자를 초과할 수 없습니다).
 
-### 참조
+### 또보기
 
 * 인터페이스 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

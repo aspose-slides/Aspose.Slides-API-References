@@ -1,14 +1,14 @@
 ---
 title: Blur
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 전체 도형에 적용되는 Blur 효과를 나타내며, 채우기 영역도 포함합니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 전체 모양(채우기를 포함)에 적용되는 Blur 효과를 나타냅니다. 알파를 포함한 모든 색 채널에 영향을 줍니다.
 type: docs
 weight: 2920
 url: /ko/aspose.slides.effects/blur/
 ---
 ## Blur 클래스
 
-전체 도형에 적용되는 Blur 효과를 나타내며, 채우기 영역도 포함합니다. 알파를 포함한 모든 색상 채널에 영향을 줍니다.
+전체 모양에 적용되는 Blur 효과를 나타내며, 채우기 영역도 포함됩니다. 알파를 포함한 모든 색 채널에 영향을 줍니다.
 
 ```csharp
 public sealed class Blur : ImageTransformOperation, IBlur
@@ -19,7 +19,7 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | 블러 처리 결과 객체의 경계가 확대될지 여부를 결정합니다. true는 경계가 확대됨을, false는 확대되지 않음을 나타냅니다. 읽기/쓰기 Boolean. |
+| [Grow](../../aspose.slides.effects/blur/grow) { get; set; } | 블러링 결과 객체의 경계가 확대되어야 하는지 여부를 결정합니다. true는 경계가 확대됨을 나타내고 false는 그렇지 않음을 나타냅니다. 읽기/쓰기 Boolean. |
 | [Radius](../../aspose.slides.effects/blur/radius) { get; set; } | 블러 반경을 반환하거나 설정합니다. 읽기/쓰기 Double. |
 
 ## 메서드
@@ -27,7 +27,7 @@ public sealed class Blur : ImageTransformOperation, IBlur
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/blur/equals)(object) | 지정된 [`Blur`](../blur)가 현재 [`Blur`](../blur)와 같은지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | 상속이 적용된 효과적인 Blur 효과 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides.effects/blur/geteffective)() | 상속이 적용된 유효한 Blur 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/blur/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
 ### 참조

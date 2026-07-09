@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathdelimiterfactory/
 ---
 ## IMathDelimiterFactory 인터페이스
 
-수학 구분자를 생성합니다
+수학 구분자를 만들 수 있습니다
 
 ```csharp
 public interface IMathDelimiterFactory

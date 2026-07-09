@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل علامة في مخطط.
+second_title: Aspose.Sildes ل .NET مرجع API
+description: يمثل علامة من نوع chert.
 type: docs
 weight: 2330
 url: /ar/aspose.slides.charts/marker/
 ---
 ## فئة Marker
 
-يمثل علامة في المخطط.
+يمثل علامة من نوع chert.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | الاسم | الوصف |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | يحصل أو يعيّن تعبئة العلامة. للقراءة فقط [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | يمثل حجم العلامة في مخطط خطي، مخطط مبعثر، أو مخطط راداري. قراءة/كتابة Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | يمثل نمط العلامة في مخطط خطي، مخطط مبعثر، أو مخطط راداري. قراءة/كتابة [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | يحصل على أو يضبط ملء العلامة. قراءة فقط [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | يمثل حجم العلامة في مخطط خطي، مخطط تبثري، أو مخطط راداري. قراءة/كتابة Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | يمثل نمط العلامة في مخطط خطي، مخطط تبثري، أو مخطط راداري. قراءة/كتابة [`MarkerStyleType`](../markerstyletype). |
 
 ### انظر أيضًا
 

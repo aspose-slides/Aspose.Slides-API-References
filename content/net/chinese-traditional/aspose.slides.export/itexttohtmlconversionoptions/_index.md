@@ -1,6 +1,6 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 從 Pptx 文字提取 HTML 的選項。
 type: docs
 weight: 4160
@@ -19,11 +19,11 @@ public interface ITextToHtmlConversionOptions
 | 名稱 | 說明 |
 | --- | --- |
 | [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | 取得或設定值，指示是否應加入 Clipboard 標頭。讀寫 Boolean。 |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 取得或設定 html 編碼名稱。此值將儲存至產生的 HTML 檔案，但由呼叫端確保檔案以此編碼儲存。讀寫 String。 |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 取得或設定控制外部物件如何儲存的回呼物件。讀寫 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | 取得或設定 HTML 編碼名稱。此值將儲存至產生的 HTML 檔案，但由呼叫端確保此檔案以此編碼儲存。讀寫 String。 |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | 取得或設定回呼物件，控制外部物件的儲存方式。讀寫 [`ILinkEmbedController`](../ilinkembedcontroller)。 |
 | [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | 取得或設定文字屬性的繼承深度。讀寫 [`TextInheritanceLimit`](./textinheritancelimit)。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

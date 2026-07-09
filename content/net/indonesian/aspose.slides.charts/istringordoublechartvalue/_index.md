@@ -3,7 +3,7 @@ title: IStringOrDoubleChartValue
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili nilai string atau double yang dapat disimpan dalam dokumen presentasi pptx dengan dua cara: 1) di sel/sel-sel workbook yang terkait dengan chart; 2) sebagai nilai literal.
 type: docs
-weight: 2210
+weight: 2230
 url: /id/aspose.slides.charts/istringordoublechartvalue/
 ---
 ## IStringOrDoubleChartValue antarmuka
@@ -18,9 +18,9 @@ public interface IStringOrDoubleChartValue : ISingleCellChartValue
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ISingleCellChartValue. Hanya-baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Mengembalikan atau menetapkan double literal jika properti DataSourceType adalah DataSourceType.DoubleLiterals. Baca/tulis Double. |
-| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Mengembalikan atau menetapkan string literal jika properti DataSourceType adalah DataSourceType.StringLiterals. Baca/tulis String. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar ISingleCellChartValue. Hanya-baca [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/istringordoublechartvalue/asliteraldouble) { get; set; } | Mengembalikan atau mengatur double literal jika properti DataSourceType adalah DataSourceType.DoubleLiterals. Baca/tulis Double. |
+| [AsLiteralString](../../aspose.slides.charts/istringordoublechartvalue/asliteralstring) { get; set; } | Mengembalikan atau mengatur string literal jika properti DataSourceType adalah DataSourceType.StringLiterals. Baca/tulis String. |
 
 ## Metode
 

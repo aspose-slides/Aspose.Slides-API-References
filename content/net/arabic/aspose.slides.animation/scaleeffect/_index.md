@@ -1,20 +1,20 @@
 ---
 title: ScaleEffect
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل تأثير تحجيم الرسوم المتحركة.
+description: يمثل تأثير مقياس الرسوم المتحركة.
 type: docs
 weight: 780
 url: /ar/aspose.slides.animation/scaleeffect/
 ---
-## فئة ScaleEffect
+## ScaleEffect فئة
 
-يمثل تأثير التحجيم للرسوم المتحركة.
+يمثل تأثير مقياس الرسوم المتحركة.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
 ```
 
-## المنشئون
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
@@ -24,16 +24,16 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | الاسم | الوصف |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | يمثل ما إذا كانت سلوكيات الرسوم المتحركة متراكمة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | يمثل ما إذا كان سلوك الرسوم المتحركة الحالي مدمجًا مع رسوم متحركة أخرى قيد التشغيل. قراءة/كتابة [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | يصف قيمة الإزاحة النسبية للرسوم المتحركة (بالنسبة المئوية). قراءة/كتابة PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | يحدد إحداثيات x/y لبدء الرسوم المتحركة من (بالنسبة المئوية). قراءة/كتابة PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | يمثل ما إذا تم تجميع سلوكيات الرسوم المتحركة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | يمثل ما إذا تم دمج سلوك الرسوم المتحركة الحالي مع رسومات متحركة أخرى قيد التشغيل. قراءة/كتابة [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | يصف القيمة النسبية للإزاحة للرسوم المتحركة (بنسبة مئوية). قراءة/كتابة PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | يحدد إحداثية س/ص لبدء الرسوم المتحركة من (بنسبة مئوية). قراءة/كتابة PointF. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | يمثل خصائص السلوك. قراءة فقط [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | يمثل خصائص التوقيت لسلوك التأثير. قراءة/كتابة [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | يحدد الموقع الهدف لتأثير تحجيم الرسوم المتحركة (بالنسبة المئوية). قراءة/كتابة PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | يحدد ما إذا كان يجب تكبير المحتوى. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | يحدد الموقع المستهدف لتأثير مقياس الرسوم المتحركة (بنسبة مئوية). قراءة/كتابة PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | يحدد ما إذا يجب تكبير المحتوى. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### انظر أيضاً
+### انظر أيضًا
 
 * فئة [Behavior](../behavior)
 * واجهة [IScaleEffect](../iscaleeffect)

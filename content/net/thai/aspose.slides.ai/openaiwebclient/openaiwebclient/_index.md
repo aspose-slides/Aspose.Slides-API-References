@@ -1,31 +1,31 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: สร้างอินสแตนซ์ของไคลเอนท์เว็บ OpenAI.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: สร้างอินสแตนซ์ของไคลเอนต์เว็บ OpenAI.
 type: docs
 weight: 10
 url: /th/aspose.slides.ai/openaiwebclient/openaiwebclient/
 ---
 ## OpenAIWebClient(string, string, string) {#constructor}
 
-สร้างอินสแตนซ์ของไคลเอนท์เว็บ OpenAI
+สร้างอินสแตนซ์ของไคลเอนต์เว็บ OpenAI
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| model | String | โมเดลภาษา OpenAI ค่าที่เป็นไปได้: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | โมเดลภาษาของ OpenAI. ค่าที่เป็นไปได้: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | คีย์ API ของ OpenAI |
-| organizationId | String | รหัสองค์กร (ไม่จำเป็น) |
+| organizationId | String | รหัสองค์กร (ไม่บังคับ) |
 
 ### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentException | ค่า API key ไม่สามารถเป็นค่าว่างหรือ null ได้ |
-| ArgumentException | ค่าโมเดลข้อความไม่สามารถเป็นค่าว่างหรือ null ได้ |
+| ArgumentException | ค่า API key ไม่สามารถเป็น null หรือว่างเปล่าได้ |
+| ArgumentException | ค่า model ของข้อความไม่สามารถเป็น null หรือว่างเปล่าได้ |
 
 ### ดูเพิ่มเติม
 
@@ -37,25 +37,25 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-สร้างอินสแตนซ์ของไคลเอนท์เว็บ OpenAI ที่ใช้ HttpClient ที่จัดการโดยภายนอก HttpClient ที่ให้มาจะไม่ถูกทำลายโดยออบเจกต์นี้และยังคงเป็นของผู้เรียกใช้งาน
+สร้างอินสแตนซ์ของไคลเอนต์เว็บ OpenAI ที่ใช้ HttpClient ที่จัดการภายนอก โดย HttpClient ที่ให้มาไม่ได้ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
 ```
 
-| Parameter | Type | Description |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| model | String | โมเดลภาษา OpenAI ค่าที่เป็นไปได้: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | โมเดลภาษาของ OpenAI. ค่าที่เป็นไปได้: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | คีย์ API ของ OpenAI |
-| organizationId | String | รหัสองค์กร (ไม่จำเป็น) |
-| httpClient | HttpClient | อินสแตนซ์ `HttpClient` ที่จัดการโดยภายนอก |
+| organizationId | String | รหัสองค์กร (ไม่บังคับ) |
+| httpClient | HttpClient | อินสแตนซ์ `HttpClient` ที่จัดการภายนอก |
 
 ### ข้อยกเว้น
 
-| exception | condition |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentException | ค่า API key ไม่สามารถเป็นค่าว่างหรือ null ได้ |
-| ArgumentException | ค่าโมเดลข้อความไม่สามารถเป็นค่าว่างหรือ null ได้ |
+| ArgumentException | ค่า API key ไม่สามารถเป็น null หรือว่างเปล่าได้ |
+| ArgumentException | ค่า model ของข้อความไม่สามารถเป็น null หรือว่างเปล่าได้ |
 | ArgumentNullException | HttpClient ไม่สามารถเป็น null ได้ |
 
 ### ดูเพิ่มเติม

@@ -1,12 +1,12 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes için .NET API Referansı
-description: IInterruptionToken./iinterruptiontoken kaynağını temsil eder.
+second_title: Aspose.Sildes .NET API Referansı
+description: IInterruptionToken kaynağını temsil eder./iinterruptiontoken.
 type: docs
-weight: 6180
+weight: 6200
 url: /tr/aspose.slides/iinterruptiontokensource/
 ---
-## IInterruptionTokenSource arayüzü
+## IInterruptionTokenSource arabirimi
 
 [`IInterruptionToken`](../iinterruptiontoken) kaynağını temsil eder.
 
@@ -18,16 +18,16 @@ public interface IInterruptionTokenSource
 
 | Ad | Açıklama |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Kesintinin talep edilip edilmediğini true döndürür, aksi takdirde false. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Bu [`IInterruptionTokenSource`](../iinterruptiontokensource) ile bağlanmış yeni token döndürür. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Kesinti istenmişse true, aksi takdirde false döndürür. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Bu [`IInterruptionTokenSource`](../iinterruptiontokensource) ile bağlanmış yeni belirteci döndürür. |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Kesinti talebini başlatır. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Kesinti isteğini başlatır. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

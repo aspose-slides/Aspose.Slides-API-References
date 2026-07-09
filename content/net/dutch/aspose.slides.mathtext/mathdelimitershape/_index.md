@@ -8,7 +8,7 @@ url: /nl/aspose.slides.mathtext/mathdelimitershape/
 ---
 ## MathDelimiterShape enumeratie
 
-De locatie en grootte van de scheidingstekens ten opzichte van de inhoud van de operands
+De locatie en grootte van de scheidingstekens ten opzichte van de inhoud van de operanden
 
 ```csharp
 public enum MathDelimiterShape
@@ -18,8 +18,8 @@ public enum MathDelimiterShape
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Centered | `0` | Centered op wiskunde-as |
-| Match | `1` | Match aan inhoud |
+| Centered | `0` | Gecentreerd op wiskundige as |
+| Match | `1` | Gelijk aan inhoud |
 
 ### Zie ook
 

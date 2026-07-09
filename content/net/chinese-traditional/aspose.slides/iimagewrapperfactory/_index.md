@@ -16,10 +16,10 @@ public interface IImageWrapperFactory
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | 從指定的現有圖像初始化 ImageWrapper 類別的新執行個體。 |
-| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 從指定的資料串流初始化 ImageWrapper 類別的新執行個體。 |
+| [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | 從指定的資料流初始化 ImageWrapper 類別的新執行個體。 |
 | [CreateImageWrapper](../../aspose.slides/iimagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | 從指定的檔案初始化 ImageWrapper 類別的新執行個體。 |
 
 ### 另請參閱

@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
 second_title: Aspose.Sildes pro .NET API Reference
-description: Tato struktura představuje informace o nahrazení písma, které bude vykresleno.
+description: Tato struktura představuje informace o nahrazení písma při jeho vykreslování.
 type: docs
-weight: 4890
+weight: 4910
 url: /cs/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo třída
 
-Tato struktura představuje informace o nahrazení písma, které bude vykresleno.
+Tato struktura představuje informace o nahrazení písma při vykreslování.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -16,16 +16,16 @@ public class FontSubstitutionInfo
 
 ## Konstruktory
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Vytvoří instanci třídy [`FontSubstitutionInfo`](../fontsubstitutioninfo). |
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Uvádí název zdrojového písma v prezentaci. Pouze pro čtení String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Uvádí název náhradního písma pro originální písmo. Pouze pro čtení String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Udává název zdrojového písma v prezentaci. Pouze ke čtení String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Udává název náhradního písma pro původní písmo. Pouze ke čtení String |
 
 ### Příklady
 

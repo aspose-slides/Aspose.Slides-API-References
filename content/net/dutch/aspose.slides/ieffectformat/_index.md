@@ -1,14 +1,14 @@
 ---
 title: IEffectFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de effecteigenschappen van een vorm voor.
+description: Geeft de effecteigenschappen van een vorm weer.
 type: docs
 weight: 5740
 url: /nl/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat interface
 
-Stelt de effecteigenschappen van een vorm voor.
+Representeert effecteigenschappen van een vorm.
 
 ```csharp
 public interface IEffectFormat : IEffectParamSource
@@ -18,38 +18,38 @@ public interface IEffectFormat : IEffectParamSource
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Staat toe de basis IEffectParamSource interface op te halen. Alleen-lezen [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Vervagingseffect. Lezen/schrijven [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Vuloverlay-effect. Lezen/schrijven [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glooeffect. Lezen/schrijven [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Binnenste schaduw. Lezen/schrijven [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformat/asieffectparamsource) { get; } | Stelt het basale IEffectParamSource-interface beschikbaar. Alleen-lezen [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformat/blureffect) { get; set; } | Blur-effect. Lezen/Schrijven [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Fill-overlay-effect. Lezen/Schrijven [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Glow-effect. Lezen/Schrijven [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Inner-shadow. Lezen/Schrijven [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
 | [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Retourneert true als alle effecten zijn uitgeschakeld (zoals net aangemaakt, standaard EffectFormat-object). Alleen-lezen Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Buitenste schaduw. Lezen/schrijven [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Voorinstelling schaduw. Lezen/schrijven [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflectie. Lezen/schrijven [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Zachte rand. Lezen/schrijven [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Outer-shadow. Lezen/Schrijven [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Preset-shadow. Lezen/Schrijven [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflectie. Lezen/Schrijven [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformat/softedgeeffect) { get; set; } | Zachte rand. Lezen/Schrijven [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Schakelt vervagingseffect uit. |
-| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Schakelt vuloverlay-effect uit. |
-| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Schakelt glooeffect uit. |
-| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Schakelt binnenste schaduw uit. |
-| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Schakelt buitenste schaduw uit. |
-| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Schakelt voorinstelling schaduw uit. |
-| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Schakelt reflectie uit. |
-| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Schakelt zachte rand uit. |
-| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Schakelt vuloverlay-effect in. |
-| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Schakelt glooeffect in. |
-| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Schakelt binnenste schaduw in. |
-| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Schakelt buitenste schaduw in. |
-| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Schakelt voorinstelling schaduwen effect in. |
-| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Schakelt reflectie in. |
-| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Schakelt zachte rand in. |
-| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Haalt effectieve effectopmaakgegevens met de overerving toegepast. |
-| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Stelt vervagingseffect in. |
+| [DisableBlurEffect](../../aspose.slides/ieffectformat/disableblureffect)() | Schakelt blur-effect uit. |
+| [DisableFillOverlayEffect](../../aspose.slides/ieffectformat/disablefilloverlayeffect)() | Schakelt fill-overlay-effect uit. |
+| [DisableGlowEffect](../../aspose.slides/ieffectformat/disablegloweffect)() | Schakelt glow-effect uit. |
+| [DisableInnerShadowEffect](../../aspose.slides/ieffectformat/disableinnershadoweffect)() | Schakelt inner-shadow-effect uit. |
+| [DisableOuterShadowEffect](../../aspose.slides/ieffectformat/disableoutershadoweffect)() | Schakelt outer-shadow-effect uit. |
+| [DisablePresetShadowEffect](../../aspose.slides/ieffectformat/disablepresetshadoweffect)() | Schakelt preset-shadow-effect uit. |
+| [DisableReflectionEffect](../../aspose.slides/ieffectformat/disablereflectioneffect)() | Schakelt reflectie-effect uit. |
+| [DisableSoftEdgeEffect](../../aspose.slides/ieffectformat/disablesoftedgeeffect)() | Schakelt zachte-rand-effect uit. |
+| [EnableFillOverlayEffect](../../aspose.slides/ieffectformat/enablefilloverlayeffect)() | Schakelt fill-overlay-effect in. |
+| [EnableGlowEffect](../../aspose.slides/ieffectformat/enablegloweffect)() | Schakelt glow-effect in. |
+| [EnableInnerShadowEffect](../../aspose.slides/ieffectformat/enableinnershadoweffect)() | Schakelt inner-shadow-effect in. |
+| [EnableOuterShadowEffect](../../aspose.slides/ieffectformat/enableoutershadoweffect)() | Schakelt outer-shadow-effect in. |
+| [EnablePresetShadowEffect](../../aspose.slides/ieffectformat/enablepresetshadoweffect)() | Schakelt preset-shadows-effect in. |
+| [EnableReflectionEffect](../../aspose.slides/ieffectformat/enablereflectioneffect)() | Schakelt reflectie-effect in. |
+| [EnableSoftEdgeEffect](../../aspose.slides/ieffectformat/enablesoftedgeeffect)() | Schakelt zachte-rand-effect in. |
+| [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Haalt effectieve effectformatteringgegevens op met de toepasselijke overerving. |
+| [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Stelt blur-effect in. |
 
 ### Zie ook
 

@@ -8,7 +8,7 @@ url: /ko/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex 열거형
 
-색 구성표에서 색상의 인덱스를 나타냅니다.
+색 구성표에서 인덱스를 나타냅니다.
 
 ```csharp
 public enum ColorSchemeIndex : byte
@@ -22,14 +22,14 @@ public enum ColorSchemeIndex : byte
 | Light1 | `1` | 라이트 1. |
 | Dark2 | `2` | 다크 2. |
 | Light2 | `3` | 라이트 2. |
-| Accent1 | `4` | 악센트 1. |
-| Accent2 | `5` | 악센트 2. |
-| Accent3 | `6` | 악센트 3. |
-| Accent4 | `7` | 악센트 4. |
-| Accent5 | `8` | 악센트 5. |
-| Accent6 | `9` | 악센트 6. |
+| Accent1 | `4` | 강조 1. |
+| Accent2 | `5` | 강조 2. |
+| Accent3 | `6` | 강조 3. |
+| Accent4 | `7` | 강조 4. |
+| Accent5 | `8` | 강조 5. |
+| Accent6 | `9` | 강조 6. |
 | Hyperlink | `10` | 하이퍼링크. |
-| FollowedHyperlink | `11` | 클릭한 하이퍼링크. |
+| FollowedHyperlink | `11` | 방문한 하이퍼링크. |
 
 ### 참조
 

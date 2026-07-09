@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 그라디언트 스톱을 나타내는 불변 객체.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 그라디언트 스톱을 나타내는 불변 객체입니다.
 type: docs
 weight: 5050
 url: /ko/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData 클래스
 
-그라디언트 스톱을 나타내는 불변 객체.
+그라디언트 스톱을 나타내는 불변 객체입니다.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -25,10 +25,10 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 지정된 [`GradientStopEffectiveData`](../gradientstopeffectivedata)이 현재 [`GradientStopEffectiveData`](../gradientstopeffectivedata)와 동일한지 판단합니다. |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | 지정된 [`GradientStopEffectiveData`](../gradientstopeffectivedata)가 현재 [`GradientStopEffectiveData`](../gradientstopeffectivedata)와 같은지 여부를 결정합니다. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### 참고
+### 또 보기
 
 * 인터페이스 [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

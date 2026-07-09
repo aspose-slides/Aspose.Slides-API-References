@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Określa obiekt indeksu dolnego, który składa się z elementu bazowego i zmniejszonego indeksu umieszczonego poniżej i po prawej stronie.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Określa obiekt indeksu dolnego, który składa się z podstawy i zmniejszonego indeksu umieszczonego poniżej i po prawej stronie.
 type: docs
-weight: 8450
+weight: 8470
 url: /pl/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement interfejs
 
-Określa obiekt indeksu dolnego, który składa się z elementu bazowego i zmniejszonego indeksu umieszczonego poniżej i po prawej stronie.
+Określa obiekt indeksu dolnego, który składa się z podstawy i zmniejszonego indeksu umieszczonego poniżej i po prawej stronie.
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -18,9 +18,9 @@ public interface IMathSubscriptElement : IMathElement
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Umożliwia pobranie interfejsu bazowego IMathElement [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Argument bazowy |
-| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Subskrypt |
+| [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | Umożliwia pobranie podstawowego interfejsu IMathElement [`IMathElement`](../imathelement) |
+| [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | Argument podstawy |
+| [Subscript](../../aspose.slides.mathtext/imathsubscriptelement/subscript) { get; } | Indeks dolny |
 
 ### Przykłady
 

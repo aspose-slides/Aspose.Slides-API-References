@@ -1,14 +1,14 @@
 ---
 title: CommonSlideViewProperties
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคุณสมบัติการดูสไลด์ทั่วไป.
+description: แสดงคุณสมบัติการมองสไลด์ทั่วไป.
 type: docs
 weight: 2660
 url: /th/aspose.slides/commonslideviewproperties/
 ---
-## CommonSlideViewProperties คลาส
+## คลาส CommonSlideViewProperties
 
-เป็นตัวแทนของคุณสมบัติการดูสไลด์ทั่วไป.
+แสดงคุณสมบัติการมองสไลด์ทั่วไป
 
 ```csharp
 public class CommonSlideViewProperties : ICommonSlideViewProperties
@@ -18,22 +18,22 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | ส่งคืนชุดของไกด์การวาด. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | ระบุอัตราการขยายมุมมองเป็นเปอร์เซ็นต์. อ่าน/เขียน Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | ระบุว่าข้อมูลการมองควรปรับสเกลโดยอัตโนมัติเพื่อให้พอดีกับขนาดหน้าต่างปัจจุบัน. อ่าน/เขียน Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | คืนค่าคอลเลกชันของไกด์การวาด. อ่านอย่างเดียว [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | ระบุอัตราส่วนการขยายมุมมองเป็นเปอร์เซ็นต์. อ่าน/เขียน Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | ระบุว่าข้อมูลมุมมองควรปรับขนาดอัตโนมัติเพื่อให้พอดีกับขนาดหน้าต่างปัจจุบันที่สุด. อ่าน/เขียน Boolean. |
 
 ### ตัวอย่าง
 
-ตัวอย่างต่อไปนี้แสดงวิธีตั้งค่าค่าการซูมสำหรับสไลด์ของ PowerPoint Presentation.
+ตัวอย่างต่อไปนี้แสดงวิธีตั้งค่าระดับการซูมสำหรับสไลด์ของ PowerPoint Presentation.
 
 ```csharp
 [C#]
-// สร้างอ็อบเจกต์ Presentation ที่แทนไฟล์การนำเสนอ
+// สร้างอ็อบเจ็กต์ Presentation ที่แสดงไฟล์งานนำเสนอ
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
-    // ตั้งค่าคุณสมบัติการมองของ Presentation
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // ค่าซูมเป็นเปอร์เซ็นต์สำหรับการดูสไลด์
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // ค่าซูมเป็นเปอร์เซ็นต์สำหรับการดูโน้ต
+    // ตั้งค่าคุณสมบัติมุมมองของ Presentation
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // ค่าการซูมเป็นเปอร์เซนต์สำหรับมุมมองสไลด์
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // ค่าการซูมเป็นเปอร์เซนต์สำหรับมุมมองบันทึกย่อ
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```

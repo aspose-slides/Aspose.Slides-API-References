@@ -18,18 +18,18 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 在指定位置返回一個控制項。 |
+| [Item](../../aspose.slides/icontrolcollection/item) { get; } | 傳回指定位置的控制項。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 建立並將新控制項加入集合。 |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 建立並將新控制項新增至集合中。 |
 | [Clear](../../aspose.slides/icontrolcollection/clear)() | 從集合中移除所有控制項。 |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 從集合中移除 ActiveX 控制項。 |
-| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 從集合中移除位於指定位置的 ActiveX 控制項。 |
+| [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 從集合中移除儲存在指定位置的 ActiveX 控制項。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IControl](../icontrol)

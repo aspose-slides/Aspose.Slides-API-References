@@ -1,14 +1,14 @@
 ---
 title: InkOptions
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi olyan opciók megadását, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban.
+description: Lehetőségeket biztosít, amelyek szabályozzák az exportált dokumentumban lévő Ink objektumok megjelenését.
 type: docs
-weight: 4200
+weight: 4220
 url: /hu/aspose.slides.export/inkoptions/
 ---
 ## InkOptions osztály
 
-Lehetővé teszi opciók megadását, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban.
+Lehetőségeket biztosít, amelyek az exportált dokumentumban az Ink objektumok megjelenését irányítják.
 
 ```csharp
 public class InkOptions : IInkOptions
@@ -19,7 +19,7 @@ public class InkOptions : IInkOptions
 | Név | Leírás |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Megjeleníti vagy elrejti az Ink elemeket az exportált dokumentumban. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | ROP műveletet vagy átlátszatlanságot használ a rajzecset rendereléséhez. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | ROP műveletet vagy Opacity-t használ a festőecset rendereléséhez. |
 
 ### Lásd még
 

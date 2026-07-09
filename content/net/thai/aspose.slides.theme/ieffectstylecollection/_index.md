@@ -8,7 +8,7 @@ url: /th/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของสไตล์เอฟเฟกต์.
+แสดงถึงคอลเลกชันของสไตล์เอฟเฟกต์
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | ส่งกลับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IEffectStyle`](../ieffectstyle). |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | ส่งคืนอิลิเมนต์ในตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IEffectStyle`](../ieffectstyle). |
 
 ### ดูเพิ่มเติม
 

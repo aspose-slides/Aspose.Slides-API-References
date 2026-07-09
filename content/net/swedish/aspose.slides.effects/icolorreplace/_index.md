@@ -3,7 +3,7 @@ title: IColorReplace
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en färgbytes-effekt.
 type: docs
-weight: 3220
+weight: 3240
 url: /sv/aspose.slides.effects/icolorreplace/
 ---
 ## IColorReplace gränssnitt
@@ -17,11 +17,11 @@ public interface IColorReplace : IAccessiblePVIObject<IColorReplaceEffectiveData
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject-gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation-gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Returnerar färgformatet som kommer att ersätta färgen på varje pixel. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/icolorreplace/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-IAccessiblePVIObject gränssnittet. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/icolorreplace/asiimagetransformoperation) { get; } | Tillåter att hämta bas-IImageTransformOperation gränssnittet. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Color](../../aspose.slides.effects/icolorreplace/color) { get; } | Returnerar färgformat som kommer att ersätta färgen på varje pixel. Skrivskyddad [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Se även
 

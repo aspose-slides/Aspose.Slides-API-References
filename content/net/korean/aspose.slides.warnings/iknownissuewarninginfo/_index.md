@@ -1,14 +1,14 @@
 ---
 title: IKnownIssueWarningInfo
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 가까운 시일 내에 수정되지 않을 알려진 이슈에 대한 경고를 나타냅니다.
+description: 가까운 시일 내에 해결되지 않을 알려진 이슈에 대한 경고를 나타냅니다.
 type: docs
 weight: 11760
 url: /ko/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo 인터페이스
 
-알려진 문제에 대한 경고를 나타내며, 가까운 시일 내에 수정되지 않을 것입니다.
+알려진 이슈에 대한 경고를 나타내며, 가까운 시일 내에 해결되지 않을 것입니다.
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface IKnownIssueWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/iknownissuewarninginfo/asiwarninginfo) { get; } | IWarningInfo 인터페이스를 반환합니다. 읽기 전용 [`IWarningInfo`](../iwarninginfo). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IWarningInfo](../iwarninginfo)
 * 네임스페이스 [Aspose.Slides.Warnings](../../aspose.slides.warnings)

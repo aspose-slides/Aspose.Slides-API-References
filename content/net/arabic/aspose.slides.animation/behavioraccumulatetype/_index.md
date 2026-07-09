@@ -6,7 +6,7 @@ type: docs
 weight: 150
 url: /ar/aspose.slides.animation/behavioraccumulatetype/
 ---
-## تعداد BehaviorAccumulateType
+## BehaviorAccumulateType تعداد
 
 يمثل أنواع تراكم سلوكيات التأثير.
 

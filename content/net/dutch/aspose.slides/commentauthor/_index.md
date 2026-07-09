@@ -18,9 +18,9 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Geeft de verzameling opmerkingen terug die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Geeft de initialen van de auteur terug of stelt ze in. Lees/Schrijf String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Geeft de naam van de auteur terug of stelt deze in. Lees/Schrijf String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Retourneert de verzameling opmerkingen die door deze auteur zijn gemaakt. Alleen-lezen [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Retourneert of stelt de initialen van de auteur in. Lezen/schrijven String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Retourneert of stelt de naam van de auteur in. Lezen/schrijven String. |
 
 ## Methoden
 

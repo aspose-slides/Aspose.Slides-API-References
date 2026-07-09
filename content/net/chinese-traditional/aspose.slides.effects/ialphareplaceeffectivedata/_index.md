@@ -1,14 +1,14 @@
 ---
 title: IAlphaReplaceEffectiveData
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 不可變物件，表示 Alpha Replace 效果。效果的 alpha 透明度值將被固定的 alpha 取代。
+second_title: Aspose.Sildes for .NET API 參考
+description: 不可變的物件，代表 Alpha Replace 效果。效果的 alpha 不透明度值會被固定的 alpha 取代。
 type: docs
 weight: 3150
 url: /zh-hant/aspose.slides.effects/ialphareplaceeffectivedata/
 ---
-## IAlphaReplaceEffectiveData interface
+## IAlphaReplaceEffectiveData 介面
 
-不可變物件，表示 Alpha Replace 效果。效果的 alpha（不透明度）值將被固定的 alpha 取代。
+不可變物件，代表 Alpha Replace 效果。效果的 alpha（不透明度）值將被固定的 alpha 取代。
 
 ```csharp
 public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IAlphaReplaceEffectiveData : IEffectEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 返回在區間 [0..1] 內的新 alpha 值 唯讀 Single。 |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。 唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Alpha](../../aspose.slides.effects/ialphareplaceeffectivedata/alpha) { get; } | 返回區間 [0..1] 之新 alpha 值 唯讀 Single。 |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphareplaceeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

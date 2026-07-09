@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
-second_title: Aspose.Sildes pro .NET API referenci
-description: Kolekce vlastností AcitveX.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Sbírka vlastností AcitveX.
 type: docs
-weight: 2690
+weight: 2710
 url: /cs/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection třída
 
-Kolekce vlastností AcitveX.
+Sbírka vlastností AcitveX.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -16,19 +16,19 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Vrací počet vlastností v kolekci. Pouze pro čtení Int32. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Vrací počet vlastností ve sbírce. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Vrací nebo nastavuje vlastnost. |
-| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Vrací kolekci názvů vlastností. Pouze pro čtení ICollection. |
+| [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Vrací sbírku názvů vlastností. Pouze pro čtení ICollection. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Přidá vlastnost do kolekce. |
+| [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Přidá vlastnost do sbírky. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Odstraní všechny vlastnosti. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Vrací enumerátor, který iteruje přes kolekci. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Odstraní vlastnost se zadaným názvem. |
 
 ### Viz také

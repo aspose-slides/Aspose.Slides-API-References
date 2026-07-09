@@ -3,7 +3,7 @@ title: ITheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーマを表します。
 type: docs
-weight: 11350
+weight: 11370
 url: /ja/aspose.slides.theme/itheme/
 ---
 ## ITheme インターフェイス
@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | カラースキームを返します。読み取り専用 [`IColorScheme`](../icolorscheme)。 |
 | [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | フォントスキームを返します。読み取り専用 [`IFontScheme`](../ifontscheme)。 |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | シェイプフォーマットスキームを返します。読み取り専用 [`IFormatScheme`](../iformatscheme)。 |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | シェイプ フォーマット スキームを返します。読み取り専用 [`IFormatScheme`](../iformatscheme)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | 継承が適用された有効なテーマデータを取得します。 |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | 継承が適用された実効テーマ データを取得します。 |
 
 ### 参照
 

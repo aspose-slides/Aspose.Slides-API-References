@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดรูปแบบการจัดรูปแบบที่สามารถนำไปใช้กับข้อความได้.
+description: กำหนดสไตล์การจัดรูปแบบที่สามารถใช้กับข้อความได้.
 type: docs
 weight: 4870
 url: /th/aspose.slides/fontstyletype/
 ---
-## การนับค่า FontStyleType
+## FontStyleType enumeration
 
-กำหนดรูปแบบการจัดรูปแบบที่สามารถนำไปใช้กับข้อความได้.
+กำหนดสไตล์การจัดรูปแบบที่สามารถใช้กับข้อความได้.
 
 ```csharp
 [Flags]
@@ -17,13 +17,13 @@ public enum FontStyleType
 
 ### ค่า
 
-| ชื่อ | ค่า | คำอธิบาย |
+| Name | Value | Description |
 | --- | --- | --- |
 | Regular | `0` | ข้อความมาตรฐาน. |
-| Bold | `1` | ข้อความหนา. |
-| Italic | `2` | ข้อความเอียง. |
-| Underline | `4` | ข้อความขีดเส้นใต้. |
-| Strikeout | `8` | ข้อความที่ขีดฆ่าด้วยเส้นแนวนอน. |
+| Bold | `1` | ข้อความตัวหนา. |
+| Italic | `2` | ข้อความตัวเอียง. |
+| Underline | `4` | ข้อความที่มีเส้นใต้. |
+| Strikeout | `8` | ข้อความที่ขีดผ่านด้วยเส้นแนวนอน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: NotesSize
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงขนาดของสไลด์บันทึกย่อ.
+description: แทนขนาดของสไลด์บันทึกย่อ.
 type: docs
 weight: 9130
 url: /th/aspose.slides/notessize/
 ---
-## NotesSize คลาส
+## คลาส NotesSize
 
-แสดงขนาดของสไลด์บันทึกย่อ.
+แทนขนาดของสไลด์โน้ต.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -16,13 +16,13 @@ public class NotesSize : INotesSize
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [NotesSize](notessize)() | คอนสตรัคเตอร์เริ่มต้น. |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Size](../../aspose.slides/notessize/size) { get; set; } | คืนค่า หรือกำหนดขนาดเป็นจุด. อ่าน/เขียน SizeF. |
 

@@ -1,9 +1,9 @@
 ---
 title: IColorChangeEffectiveData
-second_title: Aspose.Sildes para a Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Objeto imutável que representa um efeito de alteração de cor. Instâncias de FromColor são substituídas por instâncias de ToColor.
 type: docs
-weight: 3210
+weight: 3230
 url: /pt/aspose.slides.effects/icolorchangeeffectivedata/
 ---
 ## IColorChangeEffectiveData interface
@@ -23,7 +23,7 @@ public interface IColorChangeEffectiveData : IEffectEffectiveData
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Cor que substituirá. Somente leitura Color. |
 | [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Retorna um valor booleano que determina se o componente alfa deve ser usado. Somente leitura Boolean. |
 
-### Ver Também
+### Veja também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

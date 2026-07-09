@@ -1,12 +1,12 @@
 ---
 title: MasterNotesSlide
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API Aspose.Sildes لـ .NET
 description: يمثل الشريحة الرئيسية للملاحظات.
 type: docs
 weight: 8010
 url: /ar/aspose.slides/masternotesslide/
 ---
-## MasterNotesSlide فئة
+## MasterNotesSlide الصنف
 
 يمثل الشريحة الرئيسية للملاحظات.
 
@@ -18,37 +18,37 @@ public class MasterNotesSlide : BaseSlide, IMasterNotesSlide
 
 | الاسم | الوصف |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | يرجع خلفية الشريحة. قراءة فقط [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | يرجع مجموعة عناصر تحكم ActiveX على الشريحة. قراءة فقط [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | يرجع البيانات المخصصة للشريحة. قراءة فقط [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | يرجع مجموعة من إرشادات الرسم لشريحة الملاحظات الرئيسية. قراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | يرجع مدير HeaderFooter لشريحة الملاحظات الرئيسية. قراءة فقط [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | يوفر وصولاً سهلاً إلى الروابط التشعبية المحتواة. قراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | يرجع أو يضبط اسم الشريحة. قراءة/كتابة String. |
-| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | يرجع نمط نص الملاحظات. قراءة فقط [`ITextStyle`](../itextstyle). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | يرجع واجهة IPresentation. قراءة فقط [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | يرجع أشكال الشريحة. قراءة فقط [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | يحدد ما إذا كان يجب عرض الأشكال على الشريحة الرئيسية في الشرائح أم لا. بالنسبة إلى الشريحة الرئيسية نفسها هذه الخاصية تُرجع دائمًا `false`. قراءة/كتابة Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | يرجع معرف الشريحة. قراءة فقط UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | يرجع كائن Transition الذي يحتوي على معلومات حول كيفية تقدم الشريحة المحددة خلال عرض الشرائح. قراءة فقط [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | يرجع مدير السمات. قراءة فقط [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | يرجع كائن خط الزمن للرسوم المتحركة. قراءة فقط [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | إرجاع خلفية الشريحة. قراءة فقط [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | إرجاع مجموعة أدوات ActiveX على الشريحة. قراءة فقط [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | إرجاع البيانات المخصصة للشريحة. قراءة فقط [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masternotesslide/drawingguides) { get; } | إرجاع مجموعة من أدلة الرسم لشريحة الملاحظات الرئيسية. قراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masternotesslide/headerfootermanager) { get; } | إرجاع مدير HeaderFooter لشريحة الملاحظات الرئيسية. قراءة فقط [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | يوفر وصولًا سهلاً إلى الروابط التشعبية المحتواة. قراءة فقط [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | إرجاع أو تعيين اسم الشريحة. قراءة/كتابة String. |
+| [NotesStyle](../../aspose.slides/masternotesslide/notesstyle) { get; } | إرجاع نمط نص الملاحظات. قراءة فقط [`ITextStyle`](../itextstyle). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | إرجاع واجهة IPresentation. قراءة فقط [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | إرجاع الأشكال في الشريحة. قراءة فقط [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/masternotesslide/showmastershapes) { get; set; } | يحدد ما إذا كان يجب عرض الأشكال على الشريحة الرئيسية على الشرائح أم لا. بالنسبة للشريحة الرئيسية نفسها، تُعيد هذه الخاصية دائمًا `false`. قراءة/كتابة Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | إرجاع معرف الشريحة. قراءة فقط UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | إرجاع كائن Transition الذي يحتوي على معلومات حول كيفية تقدم الشريحة المحددة أثناء عرض الشرائح. قراءة فقط [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masternotesslide/thememanager) { get; } | إرجاع مدير السمة. قراءة فقط [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | إرجاع كائن مخطط زمني للرسوم المتحركة. قراءة فقط [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | يرجع سمة فعلية لهذه الشريحة. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | يحدد ما إذا كانت مثيلتا IBaseSlide متساويتين. يتم حساب القيمة المرجعة بناءً على بنية الشريحة والمحتوى الثابت. تكون الشريحتان متساويتين إذا كانت جميع الأشكال والأنماط والنصوص والرسوم المتحركة والإعدادات الأخرى... متساوية. لا يأخذ المقارنة في الاعتبار قيم المعرف الفريدة، مثل SlideId، والمحتوى الديناميكي، مثل قيمة التاريخ الحالية في عنصر النائب Date. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | يعثر على أول ظهور لشكل بالنص البديل المحدد. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | ينضم إلى المقاطع ذات التنسيق نفسه في جميع الفقرات لجميع الأشكال القابلة للقبول. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | ينضم إلى المقاطع ذات التنسيق نفسه في جميع الفقرات في جميع الأشكال القابلة للقبول. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | إرجاع سمة فعالة لهذه الشريحة. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | يحدد ما إذا كانت المثلتان IBaseSlide متساويتين. تُحسب القيمة المرجعة بناءً على بنية الشريحة والمحتوى الثابت. تكون الشرائح متساوية إذا كانت جميع الأشكال والأنماط والنصوص والرسوم المتحركة والإعدادات الأخرى... متساوية. لا يأخذ المقارنة في الاعتبار قيم المعرف الفريدة، مثل SlideId والمحتوى الديناميكي، مثل قيمة التاريخ الحالية في عنصر نائب التاريخ. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | يعثر على أول ظهور لشكل يحتوي على النص البديل المحدد. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | يجمع المقاطع ذات التنسيق نفسه في جميع الفقرات لجميع الأشكال القابلة للقبول. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | يجمع المقاطع ذات التنسيق نفسه في جميع الفقرات في جميع الأشكال القابلة للقبول. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
-* فئة [BaseSlide](../baseslide)
-* واجهة [IMasterNotesSlide](../imasternotesslide)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
-* تجميع [Aspose.Slides](../../)
+* الصنف [BaseSlide](../baseslide)
+* الواجهة [IMasterNotesSlide](../imasternotesslide)
+* المجال [Aspose.Slides](../../aspose.slides)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

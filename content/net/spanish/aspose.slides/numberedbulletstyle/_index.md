@@ -3,10 +3,9 @@ title: NumberedBulletStyle
 second_title: Referencia de la API de Aspose.Sildes para .NET
 description: Representa el estilo de las viñetas numeradas.
 type: docs
-weight: 8910
+weight: 9180
 url: /es/aspose.slides/numberedbulletstyle/
 ---
-
 ## Enumeración NumberedBulletStyle
 
 Representa el estilo de las viñetas numeradas.
@@ -24,47 +23,47 @@ public enum NumberedBulletStyle : sbyte
 | BulletAlphaUCPeriod | `1` | Caracteres alfabéticos en mayúsculas con un punto. Ejemplo: A., B., C., ... |
 | BulletArabicParenRight | `2` | Números arábigos con paréntesis de cierre. Ejemplo: 1), 2), 3), ... |
 | BulletArabicPeriod | `3` | Números arábigos con un punto. Ejemplo: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | Números romanos en minúsculas con paréntesis en ambos lados. Ejemplo: (i), (ii), (iii), ... |
+| BulletRomanLCParenBoth | `4` | Números romanos en minúsculas con ambos paréntesis. Ejemplo: (i), (ii), (iii), ... |
 | BulletRomanLCParenRight | `5` | Números romanos en minúsculas con paréntesis de cierre. Ejemplo: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | Números romanos en minúsculas con un punto. Ejemplo: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | Números romanos en mayúsculas con un punto. Ejemplo: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | Caracteres alfabéticos en minúsculas con paréntesis en ambos lados. Ejemplo: (a), (b), (c), ... |
+| BulletRomanLCPeriod | `6` | Números romanos en minúsculas con punto. Ejemplo: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | Números romanos en mayúsculas con punto. Ejemplo: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | Caracteres alfabéticos en minúsculas con ambos paréntesis. Ejemplo: (a), (b), (c), ... |
 | BulletAlphaLCParenRight | `9` | Caracteres alfabéticos en minúsculas con paréntesis de cierre. Ejemplo: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | Caracteres alfabéticos en mayúsculas con paréntesis en ambos lados. Ejemplo: (A), (B), (C), ... |
+| BulletAlphaUCParenBoth | `10` | Caracteres alfabéticos en mayúsculas con ambos paréntesis. Ejemplo: (A), (B), (C), ... |
 | BulletAlphaUCParenRight | `11` | Caracteres alfabéticos en mayúsculas con paréntesis de cierre. Ejemplo: A), B), C), ... |
-| BulletArabicParenBoth | `12` | Números arábigos con paréntesis en ambos lados. Ejemplo: (1), (2), (3), ... |
+| BulletArabicParenBoth | `12` | Números arábigos con ambos paréntesis. Ejemplo: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | Números arábigos. Ejemplo: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | Números romanos en mayúsculas con paréntesis en ambos lados. Ejemplo: (I), (II), (III), ... |
+| BulletRomanUCParenBoth | `14` | Números romanos en mayúsculas con ambos paréntesis. Ejemplo: (I), (II), (III), ... |
 | BulletRomanUCParenRight | `15` | Números romanos en mayúsculas con paréntesis de cierre. Ejemplo: I), II), III), ... |
-| BulletSimpChinPlain | `16` | Chino simplificado sin un punto. |
-| BulletSimpChinPeriod | `17` | Chino simplificado con un punto. |
-| BulletCircleNumDBPlain | `18` | Número en círculo de doble byte para valores hasta 10, de 11 en adelante - números arábigos. |
-| BulletCircleNumWDWhitePlain | `19` | Número de texto coloreado con el mismo color de círculo dibujado alrededor (números de círculo blanco Wingdings). Desde 11 en adelante - números arábigos. |
-| BulletCircleNumWDBlackPlain | `20` | Número de color sombra con fondo circular del color normal del texto (números de círculo negro Wingdings). |
-| BulletTradChinPlain | `21` | Chino tradicional sin un punto. |
-| BulletTradChinPeriod | `22` | Chino tradicional con un punto. |
-| BulletArabicAlphaDash | `23` | Caracteres alfabéticos del idioma árabe con un guion. |
-| BulletArabicAbjadDash | `24` | Alfabetos árabes Abjad con un guion. |
-| BulletHebrewAlphaDash | `25` | Caracteres alfabéticos del idioma hebreo con un guion. |
-| BulletKanjiKoreanPlain | `26` | Números japoneses/coreanos sin un punto. |
-| BulletKanjiKoreanPeriod | `27` | Números japoneses/coreanos con un punto. |
-| BulletArabicDBPlain | `28` | Esquema de numeración árabe de doble byte (sin puntuación). |
-| BulletArabicDBPeriod | `29` | Esquema de numeración árabe de doble byte con un punto de doble byte. |
-| BulletThaiAlphaPeriod | `30` | Período del alfabeto tailandés. |
-| BulletThaiAlphaParenRight | `31` | Paréntesis del alfabeto tailandés - derecho. |
+| BulletSimpChinPlain | `16` | Chino simplificado sin punto. |
+| BulletSimpChinPeriod | `17` | Chino simplificado con punto. |
+| BulletCircleNumDBPlain | `18` | Número rodeado en doble byte para valores hasta 10, a partir de 11 - números arábigos. |
+| BulletCircleNumWDWhitePlain | `19` | Número coloreado con el mismo color del círculo dibujado alrededor (números de círculo blanco Wingdings). A partir de 11 - números arábigos. |
+| BulletCircleNumWDBlackPlain | `20` | Número con sombra y fondo circular del color de texto normal (números de círculo negro Wingdings). |
+| BulletTradChinPlain | `21` | Chino tradicional sin punto. |
+| BulletTradChinPeriod | `22` | Chino tradicional con punto. |
+| BulletArabicAlphaDash | `23` | Caracteres alfabéticos del idioma árabe con guion. |
+| BulletArabicAbjadDash | `24` | Alfabetos árabes Abjad con guion. |
+| BulletHebrewAlphaDash | `25` | Caracteres alfabéticos del idioma hebreo con guion. |
+| BulletKanjiKoreanPlain | `26` | Números japoneses/coreanos sin punto. |
+| BulletKanjiKoreanPeriod | `27` | Números japoneses/coreanos con punto. |
+| BulletArabicDBPlain | `28` | Sistema de numeración árabe de doble byte (sin puntuación). |
+| BulletArabicDBPeriod | `29` | Sistema de numeración árabe de doble byte con punto de doble byte. |
+| BulletThaiAlphaPeriod | `30` | Alfabeto tailandés con punto. |
+| BulletThaiAlphaParenRight | `31` | Paréntesis del alfabeto tailandés - derecha. |
 | BulletThaiAlphaParenBoth | `32` | Paréntesis del alfabeto tailandés - ambos. |
 | BulletThaiNumPeriod | `33` | Período numérico tailandés. |
-| BulletThaiNumParenRight | `34` | Paréntesis numérico tailandés - derecho. |
-| BulletThaiNumParenBoth | `35` | Paréntesis numérico tailandés - ambos. |
-| BulletHindiAlphaPeriod | `36` | Período del alfabeto hindi - vocales. |
+| BulletThaiNumParenRight | `34` | Paréntesis numéricos tailandeses - derecha. |
+| BulletThaiNumParenBoth | `35` | Paréntesis numéricos tailandeses - ambos. |
+| BulletHindiAlphaPeriod | `36` | Alfabeto hindi con punto - vocales. |
 | BulletHindiNumPeriod | `37` | Período numérico hindi. |
-| BulletKanjiSimpChinDBPeriod | `38` | Kanji Chino Simplificado DBPeriod. |
-| BulletHindiNumParenRight | `39` | Paréntesis numérico hindi - derecho. |
-| BulletHindiAlpha1Period | `40` | Período del alfabeto hindi - consonantes. |
+| BulletKanjiSimpChinDBPeriod | `38` | Kanji chino simplificado DBPeriod. |
+| BulletHindiNumParenRight | `39` | Paréntesis numéricos hindi - derecha. |
+| BulletHindiAlpha1Period | `40` | Alfabeto hindi con punto - consonantes. |
 
-### Ver También
+### Ver también
 
-* espacio de nombres [Aspose.Slides](../../aspose.slides)
-* ensamblado [Aspose.Slides](../../)
+* espacio de nombres [Aspose.Slides](../../aspose.slides)
+* ensamblado [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

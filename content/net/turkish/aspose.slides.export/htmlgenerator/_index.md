@@ -1,14 +1,14 @@
 ---
 title: HtmlGenerator
-second_title: Aspose.Sildes için .NET API Referansı
-description: Html oluşturucu.
+second_title: Aspose.Sildes .NET API Referansı
+description: Html üreticisi.
 type: docs
-weight: 3860
+weight: 3880
 url: /tr/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator sınıfı
 
-Html generator.
+Html üreticisi.
 
 ```csharp
 public sealed class HtmlGenerator : IHtmlGenerator
@@ -16,28 +16,28 @@ public sealed class HtmlGenerator : IHtmlGenerator
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Geçerli slayttan sonra renderlanacak slaytın dizinini döndürür; mevcut slayt son slayt ise -1 döndürür. Salt okunur Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Daha önce renderlanmış slaytın dizinini döndürür veya ilk slayt renderlanıyorsa -1 döndürür. Salt okunur Int32. |
+| [NextSlideIndex](../../aspose.slides.export/htmlgenerator/nextslideindex) { get; } | Geçerli slayttan sonra renderlanacak bir slaydın dizinini döndürür veya son slaytı renderlıyorsanız -1 döndürür. Salt okunur Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/htmlgenerator/previousslideindex) { get; } | Önceden renderlanmış slaydın dizinini döndürür veya ilk slayt renderlanıyorsa -1 döndürür. Salt okunur Int32. |
 | [SlideImageSize](../../aspose.slides.export/htmlgenerator/slideimagesize) { get; } | Slayt görüntüsü boyutunu döndürür. Salt okunur SizeF. |
 | [SlideImageSizeUnit](../../aspose.slides.export/htmlgenerator/slideimagesizeunit) { get; } | Slayt görüntüsü boyutunun belirtildiği birimi döndürür. Salt okunur [`SvgCoordinateUnit`](../svgcoordinateunit). |
 | [SlideImageSizeUnitCode](../../aspose.slides.export/htmlgenerator/slideimagesizeunitcode) { get; } | Slayt görüntüsü boyutunun belirtildiği birimin css kodunu döndürür. Salt okunur String. |
-| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Şu anda renderlanmakta olan slaytın dizinini döndürür. Salt okunur Int32. |
+| [SlideIndex](../../aspose.slides.export/htmlgenerator/slideindex) { get; } | Şu anda renderlanmakta olan slaydın dizinini döndürür. Salt okunur Int32. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Öznitelik değerini tırnak içine alır ve html dosyasına ekler. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Öznitelik değerini tırnak içine alır ve html dosyasına ekler. |
-| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Öznitelik değerini tırnak içine alır ve html dosyasına ekler. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Biçimlendirilmiş HTML metni ekler. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Biçimlendirilmiş HTML metni ekler. |
-| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Biçimlendirilmiş HTML metni ekler. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | HTML dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | HTML dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
-| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | HTML dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue)(char[]) | Özellik değerini tırnak içine alır ve html dosyasına ekler. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_2)(string) | Özellik değerini tırnak içine alır ve html dosyasına ekler. |
+| [AddAttributeValue](../../aspose.slides.export/htmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Özellik değerini tırnak içine alır ve html dosyasına ekler. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml)(char[]) | Biçimlendirilmiş HTML metnini ekler. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_2)(string) | Biçimlendirilmiş HTML metnini ekler. |
+| [AddHtml](../../aspose.slides.export/htmlgenerator/addhtml#addhtml_1)(char[], int, int) | Biçimlendirilmiş HTML metnini ekler. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext)(char[]) | Html dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_2)(string) | Html dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
+| [AddText](../../aspose.slides.export/htmlgenerator/addtext#addtext_1)(char[], int, int) | Html dosyalarına düz metin ekler, özel karakterleri html varlıklarıyla değiştirir. Satır sonları ve boşluk karakterleri değiştirilmez. |
 
 ### Ayrıca Bakınız
 

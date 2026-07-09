@@ -1,9 +1,9 @@
 ---
 title: Camera
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili Camera.
 type: docs
-weight: 1070
+weight: 1090
 url: /id/aspose.slides/camera/
 ---
 ## Kelas Camera
@@ -18,9 +18,9 @@ public sealed class Camera : PVIObject, ICamera
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan mendapatkan antarmuka dasar IPresentationComponent. Hanya baca [`IPresentationComponent`](../ipresentationcomponent). |
 | [CameraType](../../aspose.slides/camera/cameratype) { get; set; } | Tipe kamera. Baca/tulis [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV Kamera (0-180 derajat, bidang pandang). Baca/tulis Single. |
+| [FieldOfViewAngle](../../aspose.slides/camera/fieldofviewangle) { get; set; } | FOV kamera (0-180 derajat, bidang pandang). Baca/tulis Single. |
 | [Zoom](../../aspose.slides/camera/zoom) { get; set; } | Zoom kamera (nilai positif dalam persentase). Baca/tulis Single. |
 
 ## Metode
@@ -30,7 +30,7 @@ public sealed class Camera : PVIObject, ICamera
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Membandingkan dengan objek yang ditentukan. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Mengembalikan kode hash. |
 | [GetRotation](../../aspose.slides/camera/getrotation)() | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. elemen pertama dalam array hasil - lintang, kedua - bujur, ketiga - revolusi. Mengembalikan null jika tidak ada rotasi yang didefinisikan. |
-| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. Jika salah satu nilai koordinat adalah float.NaN, semua rotasi tidak terdefinisi. |
+| [SetRotation](../../aspose.slides/camera/setrotation)(float, float, float) | Rotasi didefinisikan melalui penggunaan koordinat lintang, koordinat bujur, dan revolusi sekitar sumbu sebagai koordinat lintang dan bujur. Jika nilai koordinat mana pun adalah float.NaN, semua rotasi tidak terdefinisi. |
 
 ### Lihat Juga
 

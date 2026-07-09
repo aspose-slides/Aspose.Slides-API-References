@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bölümlerin bir koleksiyonunu temsil eder.
 type: docs
-weight: 6880
+weight: 6900
 url: /tr/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection arayüzü
 
-Bölümler koleksiyonunu temsil eder.
+Bölümlerin bir koleksiyonunu temsil eder.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -18,7 +18,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/isectioncollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Yalnızca okuma [`ISection`](../isection). |
+| [Item](../../aspose.slides/isectioncollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`ISection`](../isection). |
 
 ## Yöntemler
 
@@ -30,7 +30,7 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Koleksiyondaki tüm bölümleri kaldırır. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Koleksiyondaki belirtilen bölümün dizinini döndürür. |
 | [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Bölümü kaldırır. Bölümdeki slaytlar önceki bölüme birleştirilecektir. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Bölümü ve içinde bulunan slaytları kaldırır. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Bölümü ve bölümdeki slaytları kaldırır. |
 | [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Bölümü ve slaytlarını koleksiyondan belirtilen konuma taşır. |
 
 ### Ayrıca Bakınız

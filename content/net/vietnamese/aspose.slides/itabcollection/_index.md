@@ -1,14 +1,14 @@
 ---
 title: ITabCollection
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu thị một tập hợp các tab.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một tập hợp các tab.
 type: docs
 weight: 7200
 url: /vi/aspose.slides/itabcollection/
 ---
 ## ITabCollection giao diện
 
-Biểu thị một tập hợp các tab.
+Biểu diễn một tập hợp các tab.
 
 ```csharp
 public interface ITabCollection : IGenericCollection<ITab>
@@ -16,13 +16,13 @@ public interface ITabCollection : IGenericCollection<ITab>
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [Item](../../aspose.slides/itabcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ITab`](../itab). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [Add](../../aspose.slides/itabcollection/add#add_1)(ITab) | Thêm một Tab vào tập hợp. |
 | [Add](../../aspose.slides/itabcollection/add#add)(double, TabAlignment) | Thêm một Tab vào tập hợp. |

@@ -1,14 +1,15 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes .NET API Referenciája
-description: Megadja a MathParagraphon belül található, saját sorban kezdődő matematikai szöveg példányát. Az összes matematikai zóna, beleértve az egyenleteket, kifejezéseket, egyenletek vagy kifejezések tömbjeit és képleteket, a math block által van reprezentálva.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja a MathParagraphon belül elhelyezkedő, saját sorban kezdődő matematikai szöveg egy példányát. Minden matematikai terület, beleértve az egyenleteket, kifejezéseket, egyenletek vagy kifejezések tömbjeit és képleteket, egy matematikai blokk által van képviselve.
 type: docs
-weight: 8120
+weight: 8140
 url: /hu/aspose.slides.mathtext/imathblock/
 ---
+
 ## IMathBlock interfész
 
-Megadja a matematikai szöveg egy példányát, amely egy MathParagraphon belül található, és saját sorban kezdődik. Az összes matematikai zóna, beleértve az egyenleteket, kifejezéseket, egyenletek vagy kifejezések tömbjeit, valamint a képleteket, a math block-kal van reprezentálva.
+Meghatározza a MathParagraphon belül elhelyezkedő, saját sorban kezdődő matematikai szöveg példányát. Minden matematikai zóna, beleértve az egyenleteket, kifejezéseket, egyenletek vagy kifejezések tömbjeit és képleteket, egy matematikai blokk képviseli.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,17 +19,17 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Lehetővé teszi a bázis IMathElement interfész elérését [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Lehetővé teszi a bázis IMathElementCollection interfész elérését [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | Lehetővé teszi az alap IMathElement interfész lekérdezését [`IMathElement`](../imathelement) |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | Lehetővé teszi az alap IMathElementCollection interfész lekérdezését [`IMathElementCollection`](../imathelementcollection) |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Elválasztja az összes gyermekelemet a szeparátor karakterrel (a zárójelek nélkül) |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | A blokkjának gyermekelemeit a megadott karakterekkel, például zárójelekkel, keretezi, és szeparátor karakterrel választja el |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Egy másik matematikai blokkot összekapcsol ezzel |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | A [`IMathBlock`](../imathblock) tartalmát MathML formátumban menti |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | Az összes gyermekelemet elválasztó karakterrel (zárójelek nélkül) határolja |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | A blokk gyermekelemeit megadott karakterekkel (például zárójelek vagy más keret) veszi körül, és elválasztó karakterrel határolja |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | Egy másik matematikai blokkot csatlakoztat ehhez |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | Ennek a [`IMathBlock`](../imathblock) tartalmát MathML formátumban menti |
 
 ### Példák
 

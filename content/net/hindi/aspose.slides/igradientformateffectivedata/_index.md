@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: अपरिवर्तनीय वस्तु जो प्रभावी ग्रेडिएंट भरने गुणों को रखती है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी ग्रेडिएंट भरने की विशेषताएं रखती है।
 type: docs
 weight: 6010
 url: /hi/aspose.slides/igradientformateffectivedata/
 ---
 ## IGradientFormatEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो प्रभावी ग्रेडिएंट भरने गुणों को रखती है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी ग्रेडिएंट भरने की विशेषताएं रखती है।
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -16,21 +16,21 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
-| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | ग्रेडिएंट की शैली लौटाता है। केवल पढ़ने योग्य [`GradientDirection`](../gradientdirection)। |
-| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | ग्रेडिएंट का आकार लौटाता है। केवल पढ़ने योग्य [`GradientShape`](../gradientshape)। |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स का संग्रह लौटाता है। केवल पढ़ने योग्य [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)। |
-| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | ग्रेडिएंट का कोण लौटाता है। केवल पढ़ने योग्य Single। |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। केवल पढ़ने योग्य Boolean। |
-| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | ग्रेडिएंट के फ़्लिपिंग मोड को लौटाता है। केवल पढ़ने योग्य [`TileFlip`](../tileflip)। |
+| [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | बेस IFillParamSource इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-रेड [`IFillParamSource`](../ifillparamsource)। |
+| [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | एक ग्रेडिएंट की शैली लौटाता है। केवल-रेड [`GradientDirection`](../gradientdirection)। |
+| [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | एक ग्रेडिएंट का आकार लौटाता है। केवल-रेड [`GradientShape`](../gradientshape)। |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | ग्रेडिएंट स्टॉप्स का संग्रह लौटाता है। केवल-रेड [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata)। |
+| [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | एक ग्रेडिएंट का कोण लौटाता है। केवल-रेड Single। |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | निर्धारित करता है कि ग्रेडिएंट स्केल किया गया है या नहीं। केवल-रेड Boolean। |
+| [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | एक ग्रेडिएंट के फ़्लिपिंग मोड को लौटाता है। केवल-रेड [`TileFlip`](../tileflip)। |
 
-### टिप्पणी
+### टिप्पणियां
 
 यह इंटरफ़ेस [`IFillFormatEffectiveData`](../ifillformateffectivedata) और [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata) का हिस्सा के रूप में उपयोग किया जाता है।
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IFillParamSource](../ifillparamsource)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

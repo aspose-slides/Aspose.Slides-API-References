@@ -1,14 +1,14 @@
 ---
 title: ILegendEntryCollection
-second_title: Aspose.Sildes for .NET API Referansı
-description: Legend koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Lejant koleksiyonunu temsil eder.
 type: docs
-weight: 2120
+weight: 2140
 url: /tr/aspose.slides.charts/ilegendentrycollection/
 ---
-## ILegendEntryCollection arayüzü
+## ILegendEntryCollection arayüz
 
-Legend koleksiyonunu temsil eder.
+Grafik açıklama koleksiyonunu temsil eder.
 
 ```csharp
 public interface ILegendEntryCollection
@@ -16,10 +16,10 @@ public interface ILegendEntryCollection
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt-okunur Int32. |
-| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Bu listedeki bir grafik türü için Chart.ChartData.Series[0].DataPoints[index] öğesine karşılık gelen legend girişinin özelliklerini alır: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; ya da diğer grafik türleri için Chart.ChartData.Series[index] öğesine karşılık gelen. |
+| [Count](../../aspose.slides.charts/ilegendentrycollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt okunur Int32. |
+| [Item](../../aspose.slides.charts/ilegendentrycollection/item) { get; } | Grafiğin tipi bu listeden birisi olduğunda Chart.ChartData.Series[0].DataPoints[index] öğesine karşılık gelen legend girdisinin özelliklerini alır: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie; ya da diğer grafik türleri için Chart.ChartData.Series[index] öğesine karşılık gelen özellikleri alır. |
 
 ### Ayrıca Bakınız
 

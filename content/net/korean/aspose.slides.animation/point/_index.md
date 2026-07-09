@@ -19,17 +19,17 @@ public class Point : IPoint
 | 이름 | 설명 |
 | --- | --- |
 | [Point](point#constructor)() | 기본 생성자. |
-| [Point](point#constructor_1)(float, object, string) | 시간, 값 및 수식을 사용하여 애니메이션 포인트를 생성합니다. |
+| [Point](point#constructor_1)(float, object, string) | 시간, 값 및 수식으로 애니메이션 포인트를 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 값, from, to, by 속성 내의 수식은 다음과 같이 구성할 수 있습니다: 표준 산술 연산자: ‘+’, ‘-’, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 상수: ‘pi’, ‘e’ 조건 연산자: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 비교 연산자: '==', '&gt;=', '', '!=', '!' 삼각함수 연산자: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 자연 로그 ‘ln()’ 속성 참조(호스트가 지원하는 속성) 예시: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 읽기/쓰기 String. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | 값, from, to, by 속성 내 수식은 다음으로 구성될 수 있습니다: 표준 산술 연산자: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) 상수: ‘pi’ ‘e’ 조건 연산자: ‘abs’, ‘min’, ‘max’, ‘?’ (if) 비교 연산자: '==', '&gt;=', '', '!=', '!' 삼각 연산자: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ 자연 로그 ‘ln()’ 속성 참조(호스트 지원 속성) 예: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" 읽기/쓰기 String. |
 | [Time](../../aspose.slides.animation/point/time) { get; set; } | 시간 값을 나타냅니다. 읽기/쓰기 Single. |
-| [Value](../../aspose.slides.animation/point/value) { get; set; } | 포인트 값을 나타냅니다. 허용 형식: bool, ColorFormat, float, int, string. 읽기/쓰기 Object. |
+| [Value](../../aspose.slides.animation/point/value) { get; set; } | 포인트 값을 나타냅니다. Only: bool, ColorFormat, float, int, string. 읽기/쓰기 Object. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IPoint](../ipoint)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

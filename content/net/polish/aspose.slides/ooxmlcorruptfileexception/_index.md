@@ -1,9 +1,9 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes dla .NET - odniesienie API
-description: Wyjątek rzucany, gdy format pliku Office Open XML jest uszkodzony.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Wyjątek, który jest rzucany, gdy format pliku Office Open XML jest uszkodzony.
 type: docs
-weight: 9170
+weight: 9190
 url: /pl/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException klasa

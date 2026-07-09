@@ -1,12 +1,12 @@
 ---
 title: Trendline
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Klasa reprezentuje linię trendu serii wykresu
 type: docs
-weight: 2450
+weight: 2470
 url: /pl/aspose.slides.charts/trendline/
 ---
-## Klasa Trendline
+## Trendline klasa
 
 Klasa reprezentuje linię trendu serii wykresu
 
@@ -18,18 +18,18 @@ public class Trendline : DomObject<TrendlineCollection>, ITrendline
 
 | Nazwa | Opis |
 | --- | --- |
-| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Określa liczbę kategorii (lub jednostek na wykresie punktowym), które linia trendu rozciąga przed danymi serii, której trend jest wyznaczany. Na wykresach punktowych i niepunktowych wartość musi być nieujemna. Odczyt/zapis Double. |
+| [Backward](../../aspose.slides.charts/trendline/backward) { get; set; } | Określa liczbę kategorii (lub jednostek na wykresie punktowym), które linia trendu rozciąga przed danymi serii, które są prognozowane. Na wykresach punktowych i niepunktowych wartość może być dowolną nieujemną wartością. Odczyt/zapis Double. |
 | [Chart](../../aspose.slides.charts/trendline/chart) { get; } | Zwraca wykres nadrzędny. Tylko do odczytu [`IChart`](../ichart). |
-| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Określa, że równanie linii trendu jest wyświetlane na wykresie (w tej samej etykiecie co wartość Rsquared). Odczyt/zapis Boolean. |
+| [DisplayEquation](../../aspose.slides.charts/trendline/displayequation) { get; set; } | Określa, że równanie linii trendu jest wyświetlane na wykresie (w tej samej etykiecie co Rsquaredvalue). Odczyt/zapis Boolean. |
 | [DisplayRSquaredValue](../../aspose.slides.charts/trendline/displayrsquaredvalue) { get; set; } | Określa, że wartość R-kwadrat linii trendu jest wyświetlana na wykresie (w tej samej etykiecie co równanie). Odczyt/zapis Boolean. |
 | [Format](../../aspose.slides.charts/trendline/format) { get; set; } | Reprezentuje format linii trendu. Odczyt/zapis [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Określa liczbę kategorii (lub jednostek na wykresie punktowym), które linia trendu rozciąga po danych serii, której trend jest wyznaczany. Na wykresach punktowych i niepunktowych wartość musi być nieujemna. Odczyt/zapis Double. |
-| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Określa wartość, w której linia trendu przecina oś y. Właściwość ta jest obsługiwana wyłącznie, gdy typ linii trendu to exp, linear lub poly. Odczyt/zapis Double. |
+| [Forward](../../aspose.slides.charts/trendline/forward) { get; set; } | Określa liczbę kategorii (lub jednostek na wykresie punktowym), które linia trendu rozciąga po danych serii, które są prognozowane. Na wykresach punktowych i niepunktowych wartość może być dowolną nieujemną wartością. Odczyt/zapis Double. |
+| [Intercept](../../aspose.slides.charts/trendline/intercept) { get; set; } | Określa wartość, w której linia trendu przecina oś y. Właściwość jest obsługiwana tylko wtedy, gdy typ linii trendu to exp, linear lub poly. Odczyt/zapis Double. |
 | [Order](../../aspose.slides.charts/trendline/order) { get; set; } | Określa stopień wielomianowej linii trendu. Jest ignorowane dla innych typów linii trendu. Wartość musi mieścić się w przedziale od 2 do 6. Odczyt/zapis Byte. |
-| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Określa okres linii trendu dla linii trendu średniej kroczącej. Jest ignorowane dla innych wariantów linii trendu. Wartość musi być w przedziale od 2 do 255. Odczyt/zapis Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Reprezentuje wpis legendy związany z tą linią trendu. Tylko do odczytu [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [Period](../../aspose.slides.charts/trendline/period) { get; set; } | Określa okres linii trendu dla linii trendu średniej kroczącej. Jest ignorowane dla innych wariantów linii trendu. Wartość musi mieścić się w przedziale od 2 do 255. Odczyt/zapis Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/trendline/relatedlegendentry) { get; } | Reprezentuje pozycję legendy związaną z tą linią trendu. Tylko do odczytu [`ILegendEntryProperties`](../ilegendentryproperties). |
 | [TextFormat](../../aspose.slides.charts/trendline/textformat) { get; } | Zwraca format tekstu. Tylko do odczytu [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Może zawierać tekst sformatowany bogatym formatowaniem. Jeśli ta właściwość nie jest nullem, to wartość tego sformatowanego tekstu nadpisuje automatycznie wygenerowany tekst etykiety danych. Automatycznie wygenerowany tekst etykiety danych oznacza tekst zarządzany przez właściwości ShowSeriesName, ShowValue, … i formatowany przy użyciu właściwości TextFormatManager.TextFormat. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/trendline/textframeforoverriding) { get; } | Może zawierać tekst sformatowany bogato. Jeśli ta właściwość nie jest nullem, wartość tego sformatowanego tekstu zastępuje automatycznie generowany tekst etykiety danych. Automatycznie generowany tekst etykiety danych oznacza tekst zarządzany przez właściwości ShowSeriesName, ShowValue, ... i formatowany przy użyciu właściwości TextFormatManager.TextFormat. Tylko do odczytu [`ITextFrame`](../../aspose.slides/itextframe). |
 | [TrendlineName](../../aspose.slides.charts/trendline/trendlinename) { get; set; } | Pobiera lub ustawia nazwę linii trendu. Odczyt/zapis String. |
 | [TrendlineType](../../aspose.slides.charts/trendline/trendlinetype) { get; set; } | Pobiera lub ustawia typ linii trendu. Odczyt/zapis [`TrendlineType`](../trendlinetype). |
 

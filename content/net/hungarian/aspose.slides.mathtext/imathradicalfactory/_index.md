@@ -1,14 +1,14 @@
 ---
 title: IMathRadicalFactory
 second_title: Aspose.Sildes .NET API referencia
-description: Lehetővé teszi matematikai gyök létrehozását
+description: Lehetővé teszi a matematikai gyök létrehozását
 type: docs
-weight: 8420
+weight: 8440
 url: /hu/aspose.slides.mathtext/imathradicalfactory/
 ---
-## IMathRadicalFactory interfész
+## IMMathRadialFactory interfész
 
-Lehetővé teszi egy matematikai gyök létrehozását
+Lehetővé teszi a matematikai gyök létrehozását
 
 ```csharp
 public interface IMathRadicalFactory
@@ -18,11 +18,11 @@ public interface IMathRadicalFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Létrehoz egy matematikai gyököt |
+| [CreateMathRadical](../../aspose.slides.mathtext/imathradicalfactory/createmathradical)(IMathElement, IMathElement) | Létrehozza a matematikai gyököt |
 
 ### Megjegyzés
 
-A COM kompatibilitás érdekében
+COM-kompatibilitáshoz
 
 ### Lásd még
 

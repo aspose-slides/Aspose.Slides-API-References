@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes för .NET API-referens
-description: Denna varning indikerar att den presentation som läses har signaturen och att signaturen kommer att tas bort under bearbetning.
+description: Denna varning indikerar att presentationen som läses har signaturen och att denna signatur kommer att tas bort under bearbetning.
 type: docs
-weight: 11770
+weight: 11790
 url: /sv/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo gränssnitt
 
-Denna varning indikerar att den presentation som läses har signaturen och att signaturen kommer att tas bort under bearbetning.
+Denna varning indikerar att presentationen som läses har signaturen och att denna signatur kommer att tas bort under bearbetning.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,9 +18,9 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Returnerar IWarningInfo gränssnitt. Skrivskyddad [`IWarningInfo`](../iwarninginfo). |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Returnerar IWarningInfo gränssnitt. Endast läsning [`IWarningInfo`](../iwarninginfo). |
 
-### Se även
+### Se också
 
 * gränssnitt [IWarningInfo](../iwarninginfo)
 * namnrymd [Aspose.Slides.Warnings](../../aspose.slides.warnings)

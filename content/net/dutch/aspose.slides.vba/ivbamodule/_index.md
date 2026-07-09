@@ -1,14 +1,14 @@
 ---
 title: IVbaModule
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een module voor die zich bevindt in een VBA-project.
+description: Stelt de module voor die is opgenomen in een VBA-project.
 type: docs
 weight: 11530
 url: /nl/aspose.slides.vba/ivbamodule/
 ---
 ## IVbaModule interface
 
-Stelt een module voor die zich bevindt in een VBA-project.
+Representeert module die is opgenomen in VBA-project.
 
 ```csharp
 public interface IVbaModule

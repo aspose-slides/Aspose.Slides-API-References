@@ -1,14 +1,14 @@
 ---
 title: ITable
-second_title: Aspose.Sildes .NET için API Referansı
-description: Bir slayttaki tabloyu temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Bir slayt üzerindeki tabloyu temsil eder.
 type: docs
-weight: 7210
+weight: 7230
 url: /tr/aspose.slides/itable/
 ---
-## ITable arabirimi
+## ITable arayüz
 
-Bir slayttaki tabloyu temsil eder.
+Represents a table on a slide.
 
 ```csharp
 public interface ITable : IBulkTextFormattable, IGraphicalObject
@@ -16,33 +16,33 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Temel IBulkTextFormattable arabirimine erişim sağlar. Salt okunur [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Temel IGraphicalObject arabirimine erişim sağlar. Salt okunur [`IGraphicalObject`](../igraphicalobject). |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Temel IBulkTextFormattable arayüzünü almayı sağlar. Salt okunur [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Temel IGraphicalObject arayüzünü almayı sağlar. Salt okunur [`IGraphicalObject`](../igraphicalobject). |
 | [Columns](../../aspose.slides/itable/columns) { get; } | Sütunların koleksiyonunu döndürür. Salt okunur [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bir tablonun ilk sütununun özel bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bir tablonun ilk satırının özel bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Çift satırların farklı bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Belirtilen sütun ve satır indekslerindeki hücreyi döndürür. Salt okunur [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bir tablonun son sütununun özel bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bir tablonun son satırının özel bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Tablonun sağdan sola okuma düzenine sahip olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Bir tablonun ilk sütununun özel biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Bir tablonun ilk satırının özel biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Çift satırların farklı bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Belirtilen sütun ve satır dizinlerindeki hücreyi döndürür. Salt okunur [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Bir tablonun son sütununun özel biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Bir tablonun son satırının özel biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Tablonun sağdan sola okuma sırasına sahip olup olmadığını belirler. Okunur/Yazılabilir Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Satırların koleksiyonunu döndürür. Salt okunur [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Yerleşik tablo stilini alır veya ayarlar. Okunabilir/Yazılabilir [`TableStylePreset`](../tablestylepreset). |
-| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Bu tablo için biçimlendirme özelliklerini içeren TableFormat nesnesini döndürür. Salt okunur [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Çift sütunların farklı bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunabilir/Yazılabilir Boolean. |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Yerleşik tablo stilini alır veya ayarlar. Okunur/Yazılabilir [`TableStylePreset`](../tablestylepreset). |
+| [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Bu tablo için biçimleme özelliklerini içeren TableFormat nesnesini döndürür. Salt okunur [`ITableFormat`](../itableformat). |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Çift sütunların farklı bir biçimlendirme ile çizilip çizilmeyeceğini belirler. Okunur/Yazılabilir Boolean. |
 
 ## Yöntemler
 
-| İsim | Açıklama |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Komşu hücreleri birleştirir. |
 
 ### Ayrıca Bakınız
 
-* arabirim [IBulkTextFormattable](../ibulktextformattable)
-* arabirim [IGraphicalObject](../igraphicalobject)
+* arayüz [IBulkTextFormattable](../ibulktextformattable)
+* arayüz [IGraphicalObject](../igraphicalobject)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

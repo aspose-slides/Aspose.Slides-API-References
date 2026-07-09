@@ -1,14 +1,14 @@
 ---
 title: IGroupShape
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงกลุ่มของรูปทรงบนสไลด์หนึ่ง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงกลุ่มของรูปร่างบนสไลด์.
 type: docs
 weight: 6080
 url: /th/aspose.slides/igroupshape/
 ---
 ## IGroupShape อินเทอร์เฟซ
 
-แสดงถึงกลุ่มของรูปทรงบนสไลด์หนึ่ง.
+แสดงกลุ่มของรูปร่างบนสไลด์.
 
 ```csharp
 public interface IGroupShape : IShape
@@ -18,10 +18,10 @@ public interface IGroupShape : IShape
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | อนุญาตให้รับอินเทอร์เฟซ IShape พื้นฐานได้. อ่านอย่างเดียว [`IShape`](../ishape). |
-| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | คืนค่าการล็อกของรูปทรง. อ่านอย่างเดียว [`IGroupShapeLock`](../igroupshapelock). |
-| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | คืนค่าการล็อกของรูปทรง. อ่านอย่างเดียว [`IGroupShapeLock`](../igroupshapelock). |
-| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | คืนค่าคอลเลกชันของรูปทรงภายในกลุ่ม. อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
+| [AsIShape](../../aspose.slides/igroupshape/asishape) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IShape พื้นฐาน. อ่านอย่างเดียว [`IShape`](../ishape). |
+| [GroupShapeLock](../../aspose.slides/igroupshape/groupshapelock) { get; } | คืนค่าการล็อกของรูปร่าง. อ่านอย่างเดียว [`IGroupShapeLock`](../igroupshapelock). |
+| [ShapeLock](../../aspose.slides/igroupshape/shapelock) { get; } | คืนค่าการล็อกของรูปร่าง. อ่านอย่างเดียว [`IGroupShapeLock`](../igroupshapelock). |
+| [Shapes](../../aspose.slides/igroupshape/shapes) { get; } | คืนค่าคอลเลกชันของรูปร่างภายในกลุ่ม. อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
 
 ### ดูเพิ่มเติม
 

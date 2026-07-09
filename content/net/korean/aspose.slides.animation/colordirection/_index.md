@@ -1,14 +1,14 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes for .NET API 참조
-description: 색상 효과 동작에 대한 색상 방향을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 색 효과 동작에 대한 색 방향을 나타냅니다.
 type: docs
 weight: 220
 url: /ko/aspose.slides.animation/colordirection/
 ---
 ## ColorDirection 열거형
 
-색상 효과 동작에 대한 색상 방향을 나타냅니다.
+색 효과 동작에 대한 색 방향을 나타냅니다.
 
 ```csharp
 public enum ColorDirection
@@ -22,7 +22,7 @@ public enum ColorDirection
 | Clockwise | `0` |  |
 | CounterClockwise | `1` |  |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

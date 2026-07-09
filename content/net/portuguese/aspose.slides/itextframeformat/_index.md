@@ -1,12 +1,12 @@
 ---
 title: ITextFrameFormat
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Contém as propriedades de formatação dos TextFrames.
 type: docs
-weight: 7260
+weight: 7280
 url: /pt/aspose.slides/itextframeformat/
 ---
-## ITextFrameFormat interface
+## Interface ITextFrameFormat
 
 Contém as propriedades de formatação do TextFrame.
 
@@ -18,28 +18,28 @@ public interface ITextFrameFormat
 
 | Nome | Descrição |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Retorna ou define o texto de âncora vertical em um TextFrame. Leitura/gravação [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Retorna ou define o modo de ajuste automático do texto. Leitura/gravação [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Se NullableBool.True, então o texto deve ser centralizado horizontalmente na caixa. Leitura/gravação [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Retorna ou define o número de colunas na área de texto. Este valor deve ser um número positivo. Caso contrário, o valor será definido como zero. Valor 0 significa valor indefinido. Leitura/gravação Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Retorna ou define o espaço entre as colunas de texto na área de texto (em pontos). Isto deve ser aplicado apenas quando houver mais de 1 coluna presente. Este valor deve ser um número positivo. Caso contrário, o valor será definido como zero. Leitura/gravação Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Retorna ou define manter o texto fora da cena 3D completamente. Leitura/gravação Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Retorna ou define a margem inferior (pontos) em um TextFrame. Leitura/gravação Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Retorna ou define a margem esquerda (pontos) em um TextFrame. Leitura/gravação Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Retorna ou define a margem direita (pontos) em um TextFrame. Leitura/gravação Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Retorna ou define a margem superior (pontos) em um TextFrame. Leitura/gravação Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Especifica a rotação personalizada que está sendo aplicada ao texto dentro da caixa delimitadora. Se não for especificada, a rotação da forma associada é usada. Se for especificada, então esta é aplicada independentemente da forma. Ou seja, a forma pode ter uma rotação aplicada além da rotação do próprio texto. O valor resultante da rotação visual do texto resumido a partir desta propriedade e do tipo vertical predefinido na propriedade TextVerticalType. Leitura/gravação Single. |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Retorna ou define o texto de ancoragem vertical em um TextFrame. Leitura/Gravação [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Retorna ou define o modo de ajuste automático do texto. Leitura/Gravação [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Se NullableBool.True, o texto deve ser centralizado horizontalmente na caixa. Leitura/Gravação [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Retorna ou define o número de colunas na área de texto. Este valor deve ser um número positivo. Caso contrário, o valor será definido como zero. Valor 0 significa valor indefinido. Leitura/Gravação Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Retorna ou define o espaço entre colunas de texto na área de texto (em pontos). Isso só deve ser aplicado quando houver mais de 1 coluna presente. Este valor deve ser um número positivo. Caso contrário, o valor será definido como zero. Leitura/Gravação Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Retorna ou define a exclusão do texto da cena 3D completamente. Leitura/Gravação Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Retorna ou define a margem inferior (pontos) em um TextFrame. Leitura/Gravação Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Retorna ou define a margem esquerda (pontos) em um TextFrame. Leitura/Gravação Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Retorna ou define a margem direita (pontos) em um TextFrame. Leitura/Gravação Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Retorna ou define a margem superior (pontos) em um TextFrame. Leitura/Gravação Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Especifica a rotação personalizada aplicada ao texto dentro da caixa delimitadora. Se não for especificado, a rotação da forma associada é usada. Se especificado, então isso é aplicado independentemente da forma. Ou seja, a forma pode ter uma rotação aplicada além da rotação do próprio texto. O valor resultante da rotação visual do texto resumido a partir desta propriedade e do tipo vertical pré-definido na propriedade TextVerticalType. Leitura/Gravação Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Retorna o estilo do texto. Somente leitura [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Determina a orientação do texto. O valor resultante da rotação visual do texto resumido a partir desta propriedade e do ângulo personalizado na propriedade RotationAngle. Leitura/gravação [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Retorna o objeto ThreeDFormat que representa as propriedades de efeito 3d para um texto. Somente leitura [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Obtém ou define a forma de quebra de texto. Leitura/gravação [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** se o texto for quebrado nas margens do TextFrame. Leitura/gravação [`NullableBool`](../nullablebool). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Determina a orientação do texto. O valor resultante da rotação visual do texto resumido a partir desta propriedade e do ângulo personalizado na propriedade RotationAngle. Leitura/Gravação [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Retorna o objeto ThreeDFormat que representa as propriedades de efeito 3D para um texto. Somente leitura [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Obtém ou define a forma de ajuste de texto. Leitura/Gravação [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** se o texto for ajustado nas margens do TextFrame. Leitura/Gravação [`NullableBool`](../nullablebool). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Obtém os dados efetivos de formatação do frame de texto com a herança aplicada. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Obtém os dados de formatação efetiva do frame de texto com a herança aplicada. |
 
 ### Veja Também
 

@@ -25,11 +25,11 @@ public interface ISmartArtNodeCollection : IGenericCollection<ISmartArtNode>
 | 이름 | 설명 |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/ismartartnodecollection/addnode)() | 새 노드 또는 하위 노드를 추가합니다. |
-| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | 노드 컬렉션에서 선택한 위치에 새 노드를 추가합니다. |
+| [AddNodeByPosition](../../aspose.slides.smartart/ismartartnodecollection/addnodebyposition)(int) | 노드 컬렉션의 선택된 위치에 새 노드를 추가합니다. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode_1)(int) | 인덱스로 노드 또는 하위 노드를 제거합니다. |
 | [RemoveNode](../../aspose.slides.smartart/ismartartnodecollection/removenode#removenode)(ISmartArtNode) | 노드 또는 하위 노드를 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [ISmartArtNode](../ismartartnode)

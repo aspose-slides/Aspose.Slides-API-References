@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các tường trên biểu đồ 3d.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn các tường trên biểu đồ 3D.
 type: docs
 weight: 2010
 url: /vi/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall giao diện
 
-Đại diện cho các tường trên biểu đồ 3d.
+Biểu diễn các tường trên biểu đồ 3D.
 
 ```csharp
 public interface IChartWall
@@ -18,11 +18,11 @@ public interface IChartWall
 
 | Tên | Mô tả |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Trả về màu nền, đường viền, hiệu ứng, kiểu 3d của tường. Chỉ đọc [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Trả về hoặc thiết lập loại ảnh. Đọc/ghi [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Trả về hoặc thiết lập độ dày tường dưới dạng phần trăm của kích thước lớn nhất của thể tích biểu đồ. Đọc/ghi Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | Trả về màu nền, đường viền, hiệu ứng, kiểu 3D của tường. Chỉ đọc [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | Trả về hoặc đặt loại hình ảnh. Đọc/ghi [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | Trả về hoặc đặt độ dày của tường dưới dạng phần trăm của kích thước lớn nhất của thể tích biểu đồ. Đọc/ghi Int32. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

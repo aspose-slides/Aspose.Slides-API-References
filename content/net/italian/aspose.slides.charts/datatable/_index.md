@@ -1,9 +1,9 @@
 ---
 title: DataTable
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta le proprietà della tabella dati.
 type: docs
-weight: 1580
+weight: 1600
 url: /it/aspose.slides.charts/datatable/
 ---
 ## DataTable classe
@@ -18,13 +18,13 @@ public class DataTable : DomObject<Chart>, IDataTable
 
 | Nome | Descrizione |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Restituisce il grafico. Sola lettura [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/datatable/format) { get; } | Restituisce gli stili di linea, riempimento ed effetto di un oggetto. Sola lettura [`IFormat`](../iformat). |
-| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Vero se la tabella dati del grafico ha bordi di cella orizzontali. Lettura/scrittura Boolean. |
-| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Vero se la tabella dati del grafico ha bordi esterni. Lettura/scrittura Boolean. |
-| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Vero se la tabella dati del grafico ha bordi di cella verticali. Lettura/scrittura Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Vero se la chiave della legenda dell'etichetta dati è visibile. Lettura/scrittura Boolean. |
-| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Restituisce il formato testo. Sola lettura [`IChartTextFormat`](../icharttextformat). |
+| [Chart](../../aspose.slides.charts/datatable/chart) { get; } | Restituisce chart. Solo lettura [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/datatable/format) { get; } | Restituisce gli stili di linea, riempimento e effetto di un oggetto. Solo lettura [`IFormat`](../iformat). |
+| [HasBorderHorizontal](../../aspose.slides.charts/datatable/hasborderhorizontal) { get; set; } | Vero se la tabella dati del chart ha bordi di cella orizzontali. Lettura/Scrittura Boolean. |
+| [HasBorderOutline](../../aspose.slides.charts/datatable/hasborderoutline) { get; set; } | Vero se la tabella dati del chart ha bordi di contorno. Lettura/Scrittura Boolean. |
+| [HasBorderVertical](../../aspose.slides.charts/datatable/hasbordervertical) { get; set; } | Vero se la tabella dati del chart ha bordi di cella verticali. Lettura/Scrittura Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/datatable/showlegendkey) { get; set; } | Vero se la chiave della legenda delle etichette dati è visibile. Lettura/Scrittura Boolean. |
+| [TextFormat](../../aspose.slides.charts/datatable/textformat) { get; } | Restituisce il formato testo. Solo lettura [`IChartTextFormat`](../icharttextformat). |
 
 ### Vedi anche
 

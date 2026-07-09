@@ -1,14 +1,14 @@
 ---
 title: TableStylePreset
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงสไตล์ตารางในตัว.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงสไตล์ตารางที่มีมาให้
 type: docs
 weight: 10880
 url: /th/aspose.slides/tablestylepreset/
 ---
-## การระบุประเภท TableStylePreset
+## TableStylePreset enumeration
 
-แสดงสไตล์ตารางในตัว
+แสดงสไตล์ตารางที่มีมาให้
 
 ```csharp
 public enum TableStylePreset
@@ -18,86 +18,86 @@ public enum TableStylePreset
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Custom | `-1` | Table มีสไตล์ที่กำหนดเอง ค่านี้เป็นค่าแบบอ่านอย่างเดียว. |
-| None | `0` | ไม่มีสไตล์. |
-| MediumStyle2Accent1 | `1` | สไตล์ระดับกลาง 2 - เน้น 1. |
-| MediumStyle2 | `2` | สไตล์ระดับกลาง 2. |
-| NoStyleNoGrid | `3` | ไม่มีสไตล์, ไม่มีกริด. |
-| ThemedStyle1Accent1 | `4` | สไตล์ธีม 1 - เน้น 1. |
-| ThemedStyle1Accent2 | `5` | สไตล์ธีม 1 - เน้น 2. |
-| ThemedStyle1Accent3 | `6` | สไตล์ธีม 1 - เน้น 3. |
-| ThemedStyle1Accent4 | `7` | สไตล์ธีม 1 - เน้น 4. |
-| ThemedStyle1Accent5 | `8` | สไตล์ธีม 1 - เน้น 5. |
-| ThemedStyle1Accent6 | `9` | สไตล์ธีม 1 - เน้น 6. |
-| NoStyleTableGrid | `10` | ไม่มีสไตล์, ตารางกริด. |
-| ThemedStyle2Accent1 | `11` | สไตล์ธีม 2 - เน้น 1. |
-| ThemedStyle2Accent2 | `12` | สไตล์ธีม 2 - เน้น 2. |
-| ThemedStyle2Accent3 | `13` | สไตล์ธีม 2 - เน้น 3. |
-| ThemedStyle2Accent4 | `14` | สไตล์ธีม 2 - เน้น 4. |
-| ThemedStyle2Accent5 | `15` | สไตล์ธีม 2 - เน้น 5. |
-| ThemedStyle2Accent6 | `16` | สไตล์ธีม 2 - เน้น 6. |
-| LightStyle1 | `17` | สไตล์อ่อน 1 |
-| LightStyle1Accent1 | `18` | สไตล์อ่อน 1 - เน้น 1. |
-| LightStyle1Accent2 | `19` | สไตล์อ่อน 1 - เน้น 2. |
-| LightStyle1Accent3 | `20` | สไตล์อ่อน 1 - เน้น 3. |
-| LightStyle1Accent4 | `21` | สไตล์อ่อน 1 - เน้น 4. |
-| LightStyle2Accent5 | `22` | สไตล์อ่อน 2 - เน้น 5. |
-| LightStyle1Accent6 | `23` | สไตล์อ่อน 1 - เน้น 6. |
-| LightStyle2 | `24` | สไตล์อ่อน 2. |
-| LightStyle2Accent1 | `25` | สไตล์อ่อน 2 - เน้น 1. |
-| LightStyle2Accent2 | `26` | สไตล์อ่อน 2 - เน้น 2. |
-| LightStyle2Accent3 | `27` | สไตล์อ่อน 2 - เน้น 3. |
-| MediumStyle2Accent3 | `28` | สไตล์ระดับกลาง 2 - เน้น 3. |
-| MediumStyle2Accent4 | `29` | สไตล์ระดับกลาง 2 - เน้น 4. |
-| MediumStyle2Accent5 | `30` | สไตล์ระดับกลาง 2 - เน้น 5. |
-| LightStyle2Accent6 | `31` | สไตล์อ่อน 2 - เน้น 6. |
-| LightStyle2Accent4 | `32` | สไตล์อ่อน 2 - เน้น 4. |
-| LightStyle3 | `33` | สไตล์อ่อน 3. |
-| LightStyle3Accent1 | `34` | สไตล์อ่อน 3 - เน้น 1. |
-| MediumStyle2Accent2 | `35` | สไตล์ระดับกลาง 2 - เน้น 2. |
-| LightStyle3Accent2 | `36` | สไตล์อ่อน 3 - เน้น 2. |
-| LightStyle3Accent3 | `37` | สไตล์อ่อน 3 - เน้น 3. |
-| LightStyle3Accent4 | `38` | สไตล์อ่อน 3 - เน้น 4. |
-| LightStyle3Accent5 | `39` | สไตล์อ่อน 3 - เน้น 5. |
-| LightStyle3Accent6 | `40` | สไตล์อ่อน 3 - เน้น 6. |
-| MediumStyle1 | `41` | สไตล์ระดับกลาง 1. |
-| MediumStyle1Accent1 | `42` | สไตล์ระดับกลาง 1 - เน้น 1. |
-| MediumStyle1Accent2 | `43` | สไตล์ระดับกลาง 1 - เน้น 2. |
-| MediumStyle1Accent3 | `44` | สไตล์ระดับกลาง 1 - เน้น 3. |
-| MediumStyle1Accent4 | `45` | สไตล์ระดับกลาง 1 - เน้น 4. |
-| MediumStyle1Accent5 | `46` | สไตล์ระดับกลาง 1 - เน้น 5. |
-| MediumStyle1Accent6 | `47` | สไตล์ระดับกลาง 1 - เน้น 6. |
-| MediumStyle2Accent6 | `48` | สไตล์ระดับกลาง 2 - เน้น 6. |
-| MediumStyle3 | `49` | สไตล์ระดับกลาง 3. |
-| MediumStyle3Accent1 | `50` | สไตล์ระดับกลาง 3 - เน้น 1. |
-| MediumStyle3Accent2 | `51` | สไตล์ระดับกลาง 3 - เน้น 2. |
-| MediumStyle3Accent3 | `52` | สไตล์ระดับกลาง 3 - เน้น 3. |
-| MediumStyle3Accent4 | `53` | สไตล์ระดับกลาง 3 - เน้น 4. |
-| MediumStyle3Accent5 | `54` | สไตล์ระดับกลาง 3 - เน้น 5. |
-| MediumStyle3Accent6 | `55` | สไตล์ระดับกลาง 3 - เน้น 6. |
-| MediumStyle4 | `56` | สไตล์ระดับกลาง 4. |
-| MediumStyle4Accent1 | `57` | สไตล์ระดับกลาง 4 - เน้น 1. |
-| MediumStyle4Accent2 | `58` | สไตล์ระดับกลาง 4 - เน้น 2. |
-| MediumStyle4Accent3 | `59` | สไตล์ระดับกลาง 4 - เน้น 3. |
-| MediumStyle4Accent4 | `60` | สไตล์ระดับกลาง 4 - เน้น 4. |
-| MediumStyle4Accent5 | `61` | สไตล์ระดับกลาง 4 - เน้น 5. |
-| MediumStyle4Accent6 | `62` | สไตล์ระดับกลาง 4 - เน้น 6. |
-| DarkStyle1 | `63` | สไตล์มืด 1. |
-| DarkStyle1Accent1 | `64` | สไตล์มืด 1 - เน้น 1. |
-| DarkStyle1Accent2 | `65` | สไตล์มืด 1 - เน้น 2. |
-| DarkStyle1Accent3 | `66` | สไตล์มืด 1 - เน้น 3. |
-| DarkStyle1Accent4 | `67` | สไตล์มืด 1 - เน้น 4. |
-| DarkStyle1Accent5 | `68` | สไตล์มืด 1 - เน้น 5. |
-| DarkStyle1Accent6 | `69` | สไตล์มืด 1 - เน้น 6. |
-| DarkStyle2 | `70` | สไตล์มืด 2. |
-| DarkStyle2Accent1Accent2 | `71` | สไตล์มืด 2 - เน้น 1/เน้น 2. |
-| DarkStyle2Accent3Accent4 | `72` | สไตล์มืด 2 - เน้น 3/เน้น 4. |
-| DarkStyle2Accent5Accent6 | `73` | สไตล์มืด 2 - เน้น 5/เน้น 6. |
-| LightStyle1Accent5 | `74` | สไตล์อ่อน 1 - เน้น 5. |
+| Custom | `-1` | ตารางใช้สไตล์แบบกำหนดเอง ซึ่งเป็นค่าแบบอ่าน-อย่างเดียว |
+| None | `0` | ไม่มีสไตล์ |
+| MediumStyle2Accent1 | `1` | Medium Style 2 - Accent 1 |
+| MediumStyle2 | `2` | Medium Style 2 |
+| NoStyleNoGrid | `3` | No Style, No Grid |
+| ThemedStyle1Accent1 | `4` | Themed Style 1 - Accent 1 |
+| ThemedStyle1Accent2 | `5` | Themed Style 1 - Accent 2 |
+| ThemedStyle1Accent3 | `6` | Themed Style 1 - Accent 3 |
+| ThemedStyle1Accent4 | `7` | Themed Style 1 - Accent 4 |
+| ThemedStyle1Accent5 | `8` | Themed Style 1 - Accent 5 |
+| ThemedStyle1Accent6 | `9` | Themed Style 1 - Accent 6 |
+| NoStyleTableGrid | `10` | No Style, Table Grid |
+| ThemedStyle2Accent1 | `11` | Themed Style 2 - Accent 1 |
+| ThemedStyle2Accent2 | `12` | Themed Style 2 - Accent 2 |
+| ThemedStyle2Accent3 | `13` | Themed Style 2 - Accent 3 |
+| ThemedStyle2Accent4 | `14` | Themed Style 2 - Accent 4 |
+| ThemedStyle2Accent5 | `15` | Themed Style 2 - Accent 5 |
+| ThemedStyle2Accent6 | `16` | Themed Style 2 - Accent 6 |
+| LightStyle1 | `17` | Light Style 1 |
+| LightStyle1Accent1 | `18` | Light Style 1 - Accent 1 |
+| LightStyle1Accent2 | `19` | Light Style 1 - Accent 2 |
+| LightStyle1Accent3 | `20` | Light Style 1 - Accent 3 |
+| LightStyle1Accent4 | `21` | Light Style 1 - Accent 4 |
+| LightStyle2Accent5 | `22` | Light Style 2 - Accent 5 |
+| LightStyle1Accent6 | `23` | Light Style 1 - Accent 6 |
+| LightStyle2 | `24` | Light Style 2 |
+| LightStyle2Accent1 | `25` | Light Style 2 - Accent 1 |
+| LightStyle2Accent2 | `26` | Light Style 2 - Accent 2 |
+| LightStyle2Accent3 | `27` | Light Style 2 - Accent 3 |
+| MediumStyle2Accent3 | `28` | Medium Style 2 - Accent 3 |
+| MediumStyle2Accent4 | `29` | Medium Style 2 - Accent 4 |
+| MediumStyle2Accent5 | `30` | Medium Style 2 - Accent 5 |
+| LightStyle2Accent6 | `31` | Light Style 2 - Accent 6 |
+| LightStyle2Accent4 | `32` | Light Style 2 - Accent 4 |
+| LightStyle3 | `33` | Light Style 3 |
+| LightStyle3Accent1 | `34` | Light Style 3 - Accent 1 |
+| MediumStyle2Accent2 | `35` | Medium Style 2 - Accent 2 |
+| LightStyle3Accent2 | `36` | Light Style 3 - Accent 2 |
+| LightStyle3Accent3 | `37` | Light Style 3 - Accent 3 |
+| LightStyle3Accent4 | `38` | Light Style 3 - Accent 4 |
+| LightStyle3Accent5 | `39` | Light Style 3 - Accent 5 |
+| LightStyle3Accent6 | `40` | Light Style 3 - Accent 6 |
+| MediumStyle1 | `41` | Medium Style 1 |
+| MediumStyle1Accent1 | `42` | Medium Style 1 - Accent 1 |
+| MediumStyle1Accent2 | `43` | Medium Style 1 - Accent 2 |
+| MediumStyle1Accent3 | `44` | Medium Style 1 - Accent 3 |
+| MediumStyle1Accent4 | `45` | Medium Style 1 - Accent 4 |
+| MediumStyle1Accent5 | `46` | Medium Style 1 - Accent 5 |
+| MediumStyle1Accent6 | `47` | Medium Style 1 - Accent 6 |
+| MediumStyle2Accent6 | `48` | Medium Style 2 - Accent 6 |
+| MediumStyle3 | `49` | Medium Style 3 |
+| MediumStyle3Accent1 | `50` | Medium Style 3 - Accent 1 |
+| MediumStyle3Accent2 | `51` | Medium Style 3 - Accent 2 |
+| MediumStyle3Accent3 | `52` | Medium Style 3 - Accent 3 |
+| MediumStyle3Accent4 | `53` | Medium Style 3 - Accent 4 |
+| MediumStyle3Accent5 | `54` | Medium Style 3 - Accent 5 |
+| MediumStyle3Accent6 | `55` | Medium Style 3 - Accent 6 |
+| MediumStyle4 | `56` | Medium Style 4 |
+| MediumStyle4Accent1 | `57` | Medium Style 4 - Accent 1 |
+| MediumStyle4Accent2 | `58` | Medium Style 4 - Accent 2 |
+| MediumStyle4Accent3 | `59` | Medium Style 4 - Accent 3 |
+| MediumStyle4Accent4 | `60` | Medium Style 4 - Accent 4 |
+| MediumStyle4Accent5 | `61` | Medium Style 4 - Accent 5 |
+| MediumStyle4Accent6 | `62` | Medium Style 4 - Accent 6 |
+| DarkStyle1 | `63` | Dark Style 1 |
+| DarkStyle1Accent1 | `64` | Dark Style 1 - Accent 1 |
+| DarkStyle1Accent2 | `65` | Dark Style 1 - Accent 2 |
+| DarkStyle1Accent3 | `66` | Dark Style 1 - Accent 3 |
+| DarkStyle1Accent4 | `67` | Dark Style 1 - Accent 4 |
+| DarkStyle1Accent5 | `68` | Dark Style 1 - Accent 5 |
+| DarkStyle1Accent6 | `69` | Dark Style 1 - Accent 6 |
+| DarkStyle2 | `70` | Dark Style 2 |
+| DarkStyle2Accent1Accent2 | `71` | Dark Style 2 - Accent 1/Accent 2 |
+| DarkStyle2Accent3Accent4 | `72` | Dark Style 2 - Accent 3/Accent 4 |
+| DarkStyle2Accent5Accent6 | `73` | Dark Style 2 - Accent 5/Accent 6 |
+| LightStyle1Accent5 | `74` | Light Style 1 - Accent 5 |
 
 ### ดูเพิ่มเติม
 
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

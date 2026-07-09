@@ -1,20 +1,20 @@
 ---
 title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مدیری را نمایندگی می‌کند که رفتار فوتر اسلاید طرح‌بندی، متغیرهای تاریخ زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند.
+description: نماینده‌ی مدیری است که رفتار متغیرهای فوتر اسلاید طرح، تاریخ-زمان، شماره صفحه و تمام متغیرهای فرزند را نگه می‌دارد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند.
 type: docs
 weight: 6240
 url: /fa/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## رابط ILayoutSlideHeaderFooterManager
+## ILayoutSlideHeaderFooterManager رابط
 
-مدیری را نمایش می‌دهد که رفتار فوتر اسلاید طرح‌بندی، متغیرهای تاریخ-زمان، شماره صفحه و تمام جای‌دارهای فرزند را نگه می‌دارد. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند.
+نماینده‌ی مدیری است که رفتار فوتر اسلاید طرح، متغیرهای تاریخ-زمان، شماره صفحه و تمام متغیرهای فرزند را نگه می‌دارد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
@@ -24,16 +24,16 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متن را در جای‌دار تاریخ-زمان اسلاید طرح‌بندی و تمام جای‌دارهای تاریخ-زمان فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | قابلیت مشاهده جای‌دار تاریخ-زمان اسلاید طرح‌بندی و تمام جای‌دارهای تاریخ-زمان فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | متن را در جای‌دار فوتر اسلاید طرح‌بندی و تمام جای‌دارهای فوتر فرزند تنظیم می‌کند. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | قابلیت مشاهده جای‌دار فوتر اسلاید طرح‌بندی و تمام جای‌دارهای فوتر فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید اصلی استفاده می‌کنند و به آن وابسته‌اند. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | قابلیت مشاهده جای‌دار شماره صفحه اسلاید طرح‌بندی و تمام جای‌دارهای شماره صفحه فرزند را تغییر می‌دهد. جای‌دارهای فرزند به این معنی‌اند که جای‌دارها در اسلایدهای وابسته موجود هستند. اسلایدهای وابسته از اسلاید طرح‌بندی استفاده می‌کنند و به آن وابسته‌اند. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | متنی را به متغیر تاریخ-زمان اسلاید طرح و تمام متغیرهای تاریخ-زمان فرزند اختصاص می‌دهد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | قابلیت مشاهده متغیر تاریخ-زمان اسلاید طرح و تمام متغیرهای تاریخ-زمان فرزند را تغییر می‌دهد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | متنی را به متغیر فوتر اسلاید طرح و تمام متغیرهای فوتر فرزند اختصاص می‌دهد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | قابلیت مشاهده متغیر فوتر اسلاید طرح و تمام متغیرهای فوتر فرزند را تغییر می‌دهد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید اصلی استفاده می‌کنند و به آن وابسته هستند. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | قابلیت مشاهده متغیر شماره صفحه اسلاید طرح و تمام متغیرهای شماره صفحه فرزند را تغییر می‌دهد. متغیرهای فرزند به این معناست که متغیرها در اسلایدهای وابسته قرار دارند. اسلایدهای وابسته از اسلاید طرح استفاده می‌کنند و به آن وابسته هستند. |
 
 ### موارد مرتبط
 
 * رابط [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجمع [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

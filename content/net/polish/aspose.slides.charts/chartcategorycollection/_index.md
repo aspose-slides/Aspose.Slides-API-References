@@ -1,9 +1,9 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje kolekcję ChartCategory./chartcategory
 type: docs
-weight: 1260
+weight: 1280
 url: /pl/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection klasa
@@ -18,12 +18,12 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 
 | Nazwa | Opis |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Zwraca liczbę poziomów grupowania kategorii używanych. Jest większa niż jeden dla kategorii wielopoziomowych. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do Listy jest zsynchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Pobiera element o podanym indeksie. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Zwraca liczbę elementów int w kolekcji. Tylko do odczytu Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Zwraca liczbę poziomów grupowania kategorii używanych. Jest większa niż jeden dla wielopoziomowych kategorii. Tylko do odczytu Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Zwraca wartość określającą, czy dostęp do listy jest synchronizowany (bezpieczny dla wątków). Tylko do odczytu Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Pobiera element o określonym indeksie. |
 | [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Zwraca obiekt, który może być użyty do synchronizacji dostępu do kolekcji. Tylko do odczytu Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Jeśli true, to arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje kategorie wielopoziomowe). Jeśli false, to arkusz nie jest używany do przechowywania wartości (i ten przypadek nie obsługuje kategorii wielopoziomowych). Do odczytu i zapisu Boolean. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Jeśli true, to arkusz jest używany do przechowywania kategorii (ten przypadek obsługuje wielopoziomowe kategorie). Jeśli false, to arkusz NIE jest używany do przechowywania wartości (i ten przypadek nie obsługuje wielopoziomowych kategorii). Odczyt/zapis Boolean. |
 
 ## Metody
 

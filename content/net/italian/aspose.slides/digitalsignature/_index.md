@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Firma digitale in file firmato.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Firma digitale in un file firmato.
 type: docs
-weight: 2750
+weight: 2770
 url: /it/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature classe
 
-Firma digitale nel file firmato.
+Firma digitale in un file firmato.
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -19,16 +19,16 @@ public class DigitalSignature : IDigitalSignature
 | Nome | Descrizione |
 | --- | --- |
 | [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | Crea un nuovo oggetto DigitalSignature con il certificato specificato. |
-| [DigitalSignature](digitalsignature#constructor_1)(string,string) | Crea un nuovo oggetto DigitalSignature con il percorso del file di certificato specificato e la password. |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | Crea un nuovo oggetto DigitalSignature con il percorso del file del certificato specificato e la password. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Oggetto Certificate che è stato usato per firmare il documento. Sola lettura X509Certificate2. |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | Oggetto certificato che è stato usato per firmare il documento. Solo lettura X509Certificate2. |
 | [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | Lo scopo della firma. Lettura/Scrittura String. |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Se questa firma digitale è valida e il documento non è stato manomesso, questo valore sarà true. Sola lettura Boolean. |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Il tempo in cui il documento è stato firmato. Sola lettura DateTime. |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | Se questa firma digitale è valida e il documento non è stato manomesso, questo valore sarà vero. Solo lettura Boolean. |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | Il tempo in cui il documento è stato firmato. Solo lettura DateTime. |
 
 ### Esempi
 
@@ -39,18 +39,18 @@ Il seguente esempio dimostra come aggiungere una firma digitale da un certificat
 // Inizializza l'istanza Presentation
 using (Presentation pres = new Presentation())
 {
-    // Crea l'oggetto DigitalSignature con file PFX e password PFX
+    // Crea un oggetto DigitalSignature con file PFX e password PFX
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
     // Commenta la nuova firma digitale
     signature.Comments = "Aspose.Slides digital signing test.";
-    // Aggiungi la firma digitale alla presentazione
+    // Aggiungi firma digitale alla presentazione
     pres.DigitalSignatures.Add(signature);
     // Salva la presentazione
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-Il codice di esempio seguente dimostra come convalidare la firma digitale di una presentazione PowerPoint.
+Il seguente codice di esempio dimostra come convalidare la firma digitale di una presentazione PowerPoint.
 
 ```csharp
 [C#]

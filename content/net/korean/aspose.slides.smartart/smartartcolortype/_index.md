@@ -1,6 +1,6 @@
 ---
 title: SmartArtColorType
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: SmartArt 다이어그램의 색 구성표를 나타냅니다.
 type: docs
 weight: 10610
@@ -57,7 +57,7 @@ public enum SmartArtColorType
 | GradientLoopAccent6 | `36` | GradientLoopAccent6 |
 | TransparentGradientRangeAccent6 | `37` | TransparentGradientRangeAccent6 |
 
-### 관련 항목
+### 또 보기
 
 * 네임스페이스 [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * 어셈블리 [Aspose.Slides](../../)

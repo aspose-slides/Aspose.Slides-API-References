@@ -3,10 +3,10 @@ title: IShredTransition
 second_title: Aspose.Sildes için .NET API Referansı
 description: Shred slayt geçiş efekti.
 type: docs
-weight: 10160
+weight: 10180
 url: /tr/aspose.slides.slideshow/ishredtransition/
 ---
-## IShredTransition arayüzü
+## IShredTransition arayüz
 
 Shred slayt geçiş efekti.
 
@@ -18,9 +18,9 @@ public interface IShredTransition : ITransitionValueBase
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arayüzünü almaya izin verir. Yalnızca okunabilir [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Geçiş yönü. Okunur/yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şekilini belirtir. Okunur/yazılabilir [`TransitionShredPattern`](../transitionshredpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | Temel ITransitionValueBase arabirimine erişim sağlar. Salt Okunur [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | Geçiş yönü. Okunur/Yazılabilir [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | Geçiş sırasında kullanılan görsellerin şeklini belirtir. Okunur/Yazılabilir [`TransitionShredPattern`](../transitionshredpattern). |
 
 ### Ayrıca Bakınız
 

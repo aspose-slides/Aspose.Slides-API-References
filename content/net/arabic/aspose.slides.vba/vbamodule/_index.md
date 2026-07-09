@@ -1,14 +1,14 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes للـ .NET مرجع API
-description: يمثل الوحدة الموجودة في مشروع VBA.
+second_title: Aspose.Sildes لمرجع API لـ .NET
+description: يمثل الوحدة التي توجد في مشروع VBA.
 type: docs
 weight: 11630
 url: /ar/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule فئة
 
-يمثل الوحدة الموجودة في مشروع VBA.
+يمثل الوحدة التي توجد في مشروع VBA.
 
 ```csharp
 public sealed class VbaModule : IVbaModule
@@ -18,8 +18,8 @@ public sealed class VbaModule : IVbaModule
 
 | الاسم | الوصف |
 | --- | --- |
-| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | يحصل على اسم الوحدة. String للقراءة فقط. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | يقوم بإرجاع أو تعيين الشيفرة المصدرية للوحدة. String للقراءة/الكتابة. |
+| [Name](../../aspose.slides.vba/vbamodule/name) { get; } | يحصل على اسم الوحدة. للقراءة فقط String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | يرجع أو يضبط شفرة المصدر للوحدة. قابل للقراءة والكتابة String. |
 
 ### انظر أيضًا
 

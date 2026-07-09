@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: نمایانگر یک TextFrame است.
 type: docs
 weight: 7270
 url: /fa/aspose.slides/itextframe/
 ---
-## ITextFrame interface
+## ITextFrame رابط
 
-نمایانگر یک TextFrame است.
+نمایانگر یک TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,27 +18,27 @@ public interface ITextFrame : ISlideComponent
 
 | نام | توضیح |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | اجازه می‌دهد رابط پایه ISlideComponent را دریافت کنید. فقط خواندنی [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | دسترسی آسان به هایپرلینک‌های موجود را فراهم می‌کند. فقط خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | فهرست تمام پاراگراف‌ها را در یک فریم برمی‌گرداند. فقط خواندنی [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | سلول والد را برمی‌گرداند یا null اگر شی والد رابط ICell را پیاده‌سازی نکرده باشد. فقط خواندنی [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | شکل والد را برمی‌گرداند یا null اگر شی والد رابط IShape را پیاده‌سازی نکرده باشد. فقط خواندنی [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | متن ساده یک TextFrame را دریافت یا تنظیم می‌کند. خواند/نوشتن String. |
-| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | شیء قالب‌بندی برای این شیء TextFrame را برمی‌گرداند. فقط خواندنی [`ITextFrameFormat`](../itextframeformat). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | امکان دریافت رابط پایه ISlideComponent را فراهم می‌کند. فقط-خواندنی [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | دسترسی آسان به پیوندهای موجود درون را ارائه می‌دهد. فقط-خواندنی [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | فهرست تمام پاراگراف‌های موجود در یک فریم را برمی‌گرداند. فقط-خواندنی [`IParagraphCollection`](../iparagraphcollection). |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | سلول مادر را برمی‌گرداند یا در صورت عدم پیاده‌سازی رابط ICell، مقدار null. فقط-خواندنی [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | شکل مادر را برمی‌گرداند یا در صورت عدم پیاده‌سازی رابط IShape، مقدار null. فقط-خواندنی [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | متن ساده‌ی یک TextFrame را دریافت یا تنظیم می‌کند. خواندنی/نوشتنی String. |
+| [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | شیء قالب‌بندی مربوط به این شیء TextFrame را برمی‌گرداند. فقط-خواندنی [`ITextFrameFormat`](../itextframeformat). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | تمام مطابقت‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | تمام مطابقت‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | تمام مطابقت‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | دست‌های متن با قالب‌بندی یکسان را در تمام پاراگراف‌ها به هم می‌پیوست. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | تمام مطابقت‌های عبارت منظم را با رشته مشخص شده جایگزین می‌کند. |
-| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | تمام رخدادهای متن مشخص شده را با متن دیگری که مشخص شده است جایگزین می‌کند. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | محتوای متنی [`ITextFrame`](../itextframe) را به یک آرایه رشته‌ها تقسیم می‌کند که هر عنصر متناظر با یک ستون متن جداگانه در داخل فریم است. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | تمام تطابق‌های عبارت منظم را با رنگ مشخص شده برجسته می‌کند. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | تمام تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | تمام تطابق‌های متن نمونه را با رنگ مشخص شده برجسته می‌کند. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | اجراهای متوالی با قالب‌بندی یکسان را در تمام پاراگراف‌ها ترکیب می‌کند. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | تمام تطابق‌های عبارت منظم را با رشته مشخص شده جایگزین می‌کند. |
+| [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | تمام رخدادهای متن مشخص شده را با متن دیگری جایگزین می‌کند. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | محتوای متنی [`ITextFrame`](../itextframe) را به آرایه‌ای از رشته‌ها تقسیم می‌کند که هر عنصر به یک ستون متنی جداگانه درون فریم corresponde می‌شود. |
 
-### مراجع
+### موارد مرتبط
 
 * رابط [ISlideComponent](../islidecomponent)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek bayangan dalam.
 type: docs
-weight: 3400
+weight: 3420
 url: /id/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow antarmuka
@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya baca [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Radius keburaman. Baca/tulis Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Mengizinkan untuk mendapatkan antarmuka IAccessiblePVIObject dasar. Hanya-baca [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Mengizinkan untuk mendapatkan antarmuka IImageTransformOperation dasar. Hanya-baca [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Radius blur. Baca/tulis Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Arah bayangan. Baca/tulis Single. |
 | [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Jarak bayangan. Baca/tulis Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Warna bayangan. Hanya baca [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Warna bayangan. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Lihat Juga
 

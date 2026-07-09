@@ -1,14 +1,14 @@
 ---
 title: IInOutTransition
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ In-Out
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ In-Out.
 type: docs
 weight: 10110
 url: /th/aspose.slides.slideshow/iinouttransition/
 ---
 ## IInOutTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบ In-Out
+In-Out slide transition effect.
 
 ```csharp
 public interface IInOutTransition : ITransitionValueBase
@@ -16,10 +16,10 @@ public interface IInOutTransition : ITransitionValueBase
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | ทิศทางของเอฟเฟกต์การเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iinouttransition/asitransitionvaluebase) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iinouttransition/direction) { get; set; } | ทิศทางของเอฟเฟกต์การเปลี่ยนสไลด์. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes cho .NET API Reference
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đối tượng bất biến đại diện cho hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc ra khỏi hue theo lượng đã chỉ định.
 type: docs
 weight: 3550
 url: /vi/aspose.slides.effects/itinteffectivedata/
 ---
-## Giao diện ITintEffectiveData
+## ITintEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Tint. Dịch chuyển các giá trị màu hiệu ứng về phía hoặc ra khỏi hue theo lượng đã chỉ định.
+Đối tượng bất biến biểu thị một hiệu ứng Tint. Dịch chuyển các giá trị màu của hiệu ứng về phía hoặc xa khỏi hue theo lượng đã chỉ định.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData

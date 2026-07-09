@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Odwołanie API Aspose.Sildes dla .NET
-description: Reprezentuje efekt Tint. Przesuwa wartości kolorów efektu w stronę lub od odcienia o określoną wartość.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Reprezentuje efekt Tint. Przesuwa wartości kolorów efektu w stronę lub z dala od odcienia o określoną wartość.
 type: docs
-weight: 3640
+weight: 3660
 url: /pl/aspose.slides.effects/tint/
 ---
-## Klasa Tint
+## Tint klasa
 
-Reprezentuje efekt Tint. Przesuwa wartości kolorów efektu w stronę lub od odcienia o określoną wartość.
+Reprezentuje efekt Tint. Przesuwa wartości kolorów efektu w stronę lub z dala od odcienia o określoną wartość.
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -24,9 +24,9 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Określa, czy określony [`Tint`](../tint) jest równy bieżącemu [`Tint`](../tint). |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Pobiera efektywne dane efektu Tint z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Służy jako funkcja mieszająca dla konkretnego typu. |
+| override [Equals](../../aspose.slides.effects/tint/equals)(object) | Określa, czy podany [`Tint`](../tint) jest równy bieżącemu [`Tint`](../tint). |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | Pobiera skuteczne dane efektu Tint z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 

@@ -14,7 +14,7 @@ url: /hi/aspose.slides/ieffectparamsource/
 public interface IEffectParamSource
 ```
 
-### अधिक देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

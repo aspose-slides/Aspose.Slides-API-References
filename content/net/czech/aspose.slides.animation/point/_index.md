@@ -1,14 +1,14 @@
 ---
 title: Point
-second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje animační bod.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje animační bod.
 type: docs
-weight: 700
+weight: 720
 url: /cs/aspose.slides.animation/point/
 ---
-## Třída Point
+## Point třída
 
-Představuje animační bod.
+Reprezentuje animační bod.
 
 ```csharp
 public class Point : IPoint
@@ -25,7 +25,7 @@ public class Point : IPoint
 
 | Název | Popis |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Vzorce v hodnotách, atributech from, to, by mohou být tvořeny následujícím: Standardní aritmetické operátory: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanty: ‘pi’ ‘e’ Podmínkové operátory: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Porovnávací operátory: '==', '&gt;=', '', '!=', '!' Trigonometrické operátory: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Přirozený logaritmus ‘ln()’ Odkazy na vlastnosti (vlastnosti podporované hostitelem) například: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Číst/Zapisovat řetězec. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Vzorce v hodnotách, attributách from, to, by mohou být složeny z následujících: Standardní aritmetické operátory: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Konstanty: ‘pi’ ‘e’ Podmínkové operátory: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Porovnávací operátory: '==', '&gt;=', '', '!=', '!' Trigonometrické operátory: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Přirozený logaritmus ‘ln()’ Reference na vlastnosti (vlastnosti podporované hostitelem) například: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Číst/Zapisovat String. |
 | [Time](../../aspose.slides.animation/point/time) { get; set; } | Reprezentuje časovou hodnotu. Číst/Zapisovat Single. |
 | [Value](../../aspose.slides.animation/point/value) { get; set; } | Reprezentuje hodnotu bodu. Pouze: bool, ColorFormat, float, int, string. Číst/Zapisovat Object. |
 

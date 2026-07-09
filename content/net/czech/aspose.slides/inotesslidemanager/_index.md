@@ -1,9 +1,9 @@
 ---
 title: INotesSlideManager
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API Reference
 description: Správce poznámkových snímků.
 type: docs
-weight: 6500
+weight: 6520
 url: /cs/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager rozhraní
@@ -16,13 +16,13 @@ public interface INotesSlideManager
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Vrací poznámkový snímek pro aktuální snímek. Vrací null, pokud snímek nemá poznámkový snímek. Pouze ke čtení [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Vrací poznámkový snímek pro aktuální snímek. Vrátí null, pokud snímek nemá poznámkový snímek. Pouze ke čtení [`INotesSlide`](../inotesslide). |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Vrací poznámkový snímek pro aktuální snímek, vytvoří jej, pokud neexistuje. |
 | [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Odstraní poznámkový snímek aktuálního snímku. |

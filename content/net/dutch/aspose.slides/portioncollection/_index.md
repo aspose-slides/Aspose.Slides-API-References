@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van Portion-objecten voor.
+description: Vertegenwoordigt een collectie van portions.
 type: docs
 weight: 9470
 url: /nl/aspose.slides/portioncollection/
 ---
 ## PortionCollection klasse
 
-Stelt een verzameling van Portion-objecten voor.
+Stelt een collectie van portions voor.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -16,24 +16,24 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/portioncollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/portioncollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie aanwezig is. Alleen-lezen Int32. |
 | [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Haalt een waarde op die aangeeft of de ICollection alleen-lezen is. Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/portioncollection/item) { get; set; } | Haalt het element op op de opgegeven index. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides/portioncollection/add)(IPortion) | Voegt een Portion toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Verwijdert alle elementen uit de collectie. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Bepaalt of de ICollection een specifieke waarde bevat. |
-| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend bij een bepaalde Array-index. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
+| [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Kopieert de elementen van de ICollection naar een Array, beginnend op een specifieke Array-index. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Bepaalt de index van een specifiek item in de IList. |
 | [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Voegt een Portion in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Verwijdert de eerste keer dat een specifiek object voorkomt uit de ICollection. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Verwijdert het eerste voorkomen van een specifiek object uit de ICollection. |
 | [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Verwijdert het element op de opgegeven index van de collectie. |
 
 ### Zie ook

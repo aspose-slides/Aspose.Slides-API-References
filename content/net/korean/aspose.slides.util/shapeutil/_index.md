@@ -1,20 +1,20 @@
 ---
 title: ShapeUtil
 second_title: Aspose.Sildes for .NET API 참조
-description: 도형 객체를 처리하는 데 도움이 되는 메서드를 제공합니다.
+description: 모양 객체를 처리하는 데 도움이 되는 메서드를 제공합니다.
 type: docs
 weight: 11510
 url: /ko/aspose.slides.util/shapeutil/
 ---
 ## ShapeUtil 클래스
 
-도형 객체를 처리하는 데 도움이 되는 메서드를 제공합니다.
+모양 개체를 처리하는 데 도움이 되는 메서드를 제공합니다.
 
 ```csharp
 public static class ShapeUtil
 ```
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Util](../../aspose.slides.util)
 * 어셈블리 [Aspose.Slides](../../)

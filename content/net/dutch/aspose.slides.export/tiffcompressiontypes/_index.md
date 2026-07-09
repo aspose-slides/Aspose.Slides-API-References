@@ -18,12 +18,12 @@ public enum TiffCompressionTypes
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Default | `0` | Specificeert het standaardcompressieschema (LZW). |
+| Default | `0` | Specificeert het standaard compressieschema (LZW). |
 | None | `1` | Specificeert geen compressie. |
-| CCITT3 | `2` | Specificeert het CCITT3-compressieschema. |
-| CCITT4 | `3` | Specificeert het CCITT4-compressieschema. |
-| LZW | `4` | Specificeert het LZW-compressieschema (Standaard). |
-| RLE | `5` | Specificeert het RLE-compressieschema. |
+| CCITT3 | `2` | Specificeert het CCITT3 compressieschema. |
+| CCITT4 | `3` | Specificeert het CCITT4 compressieschema. |
+| LZW | `4` | Specificeert het LZW compressieschema (Standaard). |
+| RLE | `5` | Specificeert het RLE compressieschema. |
 
 ### Zie ook
 

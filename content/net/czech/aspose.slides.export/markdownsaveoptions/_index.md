@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje možnosti, které řídí, jak má být prezentace uložena do formátu markdown.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje možnosti, které řídí, jak má být prezentace uložena do markdownu.
 type: docs
-weight: 4230
+weight: 4250
 url: /cs/aspose.slides.export/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions třída
 
-Reprezentuje možnosti, které řídí, jak má být prezentace uložena do formátu markdown.
+Represents options that control how presentation should be saved to markdown.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -18,32 +18,32 @@ public class MarkdownSaveOptions : SaveOptions
 
 | Název | Popis |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Konstruktor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Určuje základní cestu, kde bude dokument s prostředky uložen. Výchozí hodnota je aktuální adresář aplikace. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že není nalezeno zdrojové písmo. Čtení-zápis String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Určuje specifikaci markdownu pro převod prezentace. Výchozí hodnota je `TextOnly`. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Určuje specifikaci markdownu pro převod prezentace. Výchozí hodnota je `Multi-markdown`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení-zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | Určuje základní cestu, kam bude dokument s prostředky uložen. Výchozí je aktuální adresář aplikace. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Vrací nebo nastavuje písmo použité v případě, že není nalezeno výchozí písmo. Čtení/zápis String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | Určuje specifikaci markdownu pro převod prezentace. Výchozí je `TextOnly`. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | Určuje specifikaci markdownu pro převod prezentace. Výchozí je `Multi-markdown`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Vrací nebo nastavuje vizuální styl gradientu. Čtení/zápis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Určuje název složky pro uložení obrázků. Výchozí hodnota je `Images`. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Určuje, zda má vygenerovaný dokument používat konce řádků \r (Macintosh), \n (Unix) nebo \r\n (Windows). Výchozí hodnota je `Unix`. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje objekt zpětného volání pro aktualizace postupu ukládání v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Pokud je nastaveno na `true`, odstraňuje prázdné nebo obsahující pouze mezery řádky z konečného výstupu Markdownu. Výchozí hodnota je `false`. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Určuje, zda má vygenerovaný dokument zobrazovat komentáře. Výchozí hodnota je `false`. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Určuje, zda má vygenerovaný dokument zahrnovat skryté snímky. Výchozí hodnota je `false`. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Určuje, zda má vygenerovaný dokument zobrazovat číslo každého snímku. Výchozí hodnota je `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda při ukládání prezentace přeskočit hypertextové odkazy s JavaScriptovými voláními. Čtení-zápis Boolean. Výchozí hodnota je **false**. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Vrací nebo nastavuje formátovací řetězec používaný pro záhlaví číslování snímků ve výstupu Markdownu. Formát musí obsahovat zástupný znak "{0}", který bude během exportu nahrazen indexem snímku. Příklad: "# Slide {0}" vytvoří "# Slide 1", "# Slide 2" atd. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat, nebo bude přerušen. Čtení-zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | Určuje název složky pro ukládání obrázků. Výchozí je `Images`. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | Určuje, zda má vygenerovaný dokument mít nové řádky \\r(Macintosh), \\n(Unix) nebo \\r\\n(Windows). Výchozí je `Unix`. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representuje objekt zpětného volání pro ukládání průběžných aktualizací v procentech. Viz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | Pokud je nastaveno na `true`, odstraňuje prázdné řádky nebo řádky obsahující pouze mezery z konečného výstupu Markdownu. Výchozí je `false`. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | Určuje, zda má vygenerovaný dokument zobrazovat komentáře či ne. Výchozí je `false`. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | Určuje, zda má vygenerovaný dokument zahrnovat skryté snímky či ne. Výchozí je `false`. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | Určuje, zda má vygenerovaný dokument zobrazovat číslo každého snímku či ne. Výchozí je `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Určuje, zda přeskočit hypertextové odkazy s voláním JavaScriptu při ukládání prezentace. Čtení/zápis Boolean. Výchozí hodnota je **false**. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | Vrací nebo nastavuje řetězec formátu používaný pro hlavičky číslování snímků ve výstupu Markdownu. Formát musí obsahovat zástupný znak \"{0}\", který bude během exportu nahrazen indexem snímku. Příklad: \"# Slide {0}\" vytvoří \"# Slide 1\", \"# Slide 2\" atd. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Vrací nebo nastavuje objekt, který přijímá varování a rozhoduje, zda bude proces načítání pokračovat nebo bude přerušen. Čtení/zápis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Příklady
 
-Příklad:
+Example:
 
 ```csharp
 [C#]

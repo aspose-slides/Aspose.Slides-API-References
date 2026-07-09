@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelCollection
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci štítků citlivosti aplikovaných na dokument.
+second_title: Aspose.Sildes pro .NET referenční příručka API
+description: Představuje kolekci štítků citlivosti aplikovaných na dokument.
 type: docs
-weight: 9790
+weight: 9810
 url: /cs/aspose.slides/sensitivitylabelcollection/
 ---
-## Třída SensitivityLabelCollection
+## SensitivityLabelCollection class
 
-Reprezentuje sbírku štítků citlivosti použité na dokumentu.
+Představuje kolekci štítků citlivosti aplikovaných na dokument.
 
 ```csharp
 public sealed class SensitivityLabelCollection : DomObject<Presentation>, 
@@ -19,18 +19,18 @@ public sealed class SensitivityLabelCollection : DomObject<Presentation>,
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Vrací počet prvků ve sbírce. Pouze ke čtení Int32. |
+| [Count](../../aspose.slides/sensitivitylabelcollection/count) { get; } | Vrací počet prvků ve sbírce. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides/sensitivitylabelcollection/item) { get; } | Vrací štítek citlivosti podle indexu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Přidá objekt SensitivityLabel do sbírky. |
+| [Add](../../aspose.slides/sensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Přidá SensitivityLabel do sbírky. |
 | [Add](../../aspose.slides/sensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Přidá štítek citlivosti na konec sbírky. |
 | [Clear](../../aspose.slides/sensitivitylabelcollection/clear)() | Odstraní všechny prvky ze sbírky. |
 | [CopyTo](../../aspose.slides/sensitivitylabelcollection/copyto)(ISensitivityLabel[], int) | Zkopíruje všechny prvky ze sbírky do zadaného pole. |
-| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Vrací enumerátor, který prochází sbírkou. |
+| [GetEnumerator](../../aspose.slides/sensitivitylabelcollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
 | [RemoveAt](../../aspose.slides/sensitivitylabelcollection/removeat)(int) | Odstraní štítek citlivosti na zadaném indexu. |
 
 ### Viz také

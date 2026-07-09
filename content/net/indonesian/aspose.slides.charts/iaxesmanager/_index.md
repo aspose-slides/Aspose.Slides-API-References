@@ -1,9 +1,9 @@
 ---
 title: IAxesManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menyediakan akses ke sumbu diagram.
+description: Menyediakan akses ke sumbu bagan.
 type: docs
-weight: 1680
+weight: 1700
 url: /id/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager antarmuka
@@ -16,13 +16,13 @@ public interface IAxesManager
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Mendapatkan sumbu horizontal diagram. Hanya-baca [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Mendapatkan sumbu horizontal sekunder diagram. Hanya-baca [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Mendapatkan sumbu vertikal sekunder diagram. Hanya-baca [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Mendapatkan sumbu seri diagram. Hanya-baca [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Mendapatkan sumbu vertikal diagram. Hanya-baca [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Mengambil sumbu horizontal diagram. Hanya-baca [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Mengambil sumbu horizontal sekunder diagram. Hanya-baca [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Mengambil sumbu vertikal sekunder diagram. Hanya-baca [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Mengambil sumbu seri diagram. Hanya-baca [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Mengambil sumbu vertikal diagram. Hanya-baca [`IAxis`](../iaxis). |
 
 ### Lihat Juga
 

@@ -1,9 +1,9 @@
 ---
 title: IGradientStopCollectionEffectiveData
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje kolekcję obiektów GradientStopDataEx.
 type: docs
-weight: 6020
+weight: 6040
 url: /pl/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData interfejs
@@ -19,7 +19,7 @@ public interface IGradientStopCollectionEffectiveData :
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Zwraca punkt gradientu według indeksu. |
+| [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Zwraca zatrzymanie gradientu według indeksu. |
 
 ### Zobacz także
 

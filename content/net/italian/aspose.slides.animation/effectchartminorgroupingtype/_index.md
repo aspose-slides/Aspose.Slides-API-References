@@ -1,14 +1,14 @@
 ---
 title: EffectChartMinorGroupingType
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta il tipo di effetto di animazione per l'elemento del grafico in serie o in categoria.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta il tipo di effetto di animazione per l'elemento di un grafico in serie o categoria.
 type: docs
-weight: 280
+weight: 300
 url: /it/aspose.slides.animation/effectchartminorgroupingtype/
 ---
 ## EffectChartMinorGroupingType enumerazione
 
-Rappresenta il tipo di effetto di animazione per l'elemento del grafico in serie o in categoria.
+Rappresenta il tipo di effetto di animazione per l'elemento di un grafico in serie o categoria.
 
 ```csharp
 public enum EffectChartMinorGroupingType
@@ -18,8 +18,8 @@ public enum EffectChartMinorGroupingType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| ByElementInSeries | `0` | Animazione del grafico per elemento in serie |
-| ByElementInCategory | `1` | Animazione del grafico per elemento in categoria |
+| ByElementInSeries | `0` | Anima il grafico per elemento in serie |
+| ByElementInCategory | `1` | Anima il grafico per elemento in categoria |
 
 ### Vedi anche
 

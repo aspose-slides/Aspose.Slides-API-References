@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgent
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ให้คุณลักษณะที่ขับเคลียร์ด้วย AI สำหรับการประมวลผลการนำเสนอ
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: ให้คุณลักษณะที่ขับเคลื่อนด้วย AI สำหรับการประมวลผลงานนำเสนอ
 type: docs
 weight: 70
 url: /th/aspose.slides.ai/slidesaiagent/
 ---
 ## SlidesAIAgent คลาส
 
-ให้คุณลักษณะที่ขับเคลียร์ด้วย AI สำหรับการประมวลผลการนำเสนอ
+ให้คุณลักษณะที่ขับเคลื่อนด้วย AI สำหรับการประมวลผลงานนำเสนอ
 
 ```csharp
 public class SlidesAIAgent
@@ -18,23 +18,23 @@ public class SlidesAIAgent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../slidesaiagent) โดยใช้ [`AsposeAIWebClient`](../asposeaiwebclient) ในตัวกับการกำหนดค่าเริ่มต้น ลูกค้าจะเชื่อมต่อกับ LLM ของ Aspose เองและไม่ต้องการการกำหนดค่าเพิ่มเติม หากต้องการใช้ AI ลูกค้าอื่น ให้ใช้ overload [`SlidesAIAgent`](./slidesaiagent) แทน |
-| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../slidesaiagent) ด้วย AI ลูกค้าที่กำหนดเอง ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI, จัดหา LLM ของคุณเอง, หรือปรับแต่งการเชื่อมต่อ (เช่น โดยให้ `HttpClient` ของคุณ) การใช้งานใด ๆ ของ [`IAIWebClient`](../iaiwebclient) สามารถใช้ได้ รวมถึง: |
+| [SlidesAIAgent](slidesaiagent#constructor)() | เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../slidesaiagent) โดยใช้ [`AsposeAIWebClient`](../asposeaiwebclient) ที่มีมาในตัวพร้อมการกำหนดค่าเริ่มต้น ลูกค้าจะเชื่อมต่อกับ LLM ของ Aspose เองและไม่ต้องการการกำหนดค่าเพิ่มเติม หากต้องการใช้ไคลเอนต์ AI แบบอื่น ให้ใช้ overload [`SlidesAIAgent`](./slidesaiagent) แทน |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | เริ่มต้นอินสแตนซ์ใหม่ของ [`SlidesAIAgent`](../slidesaiagent) ด้วยไคลเอนต์ AI ที่กำหนดเอง ใช้ overload นี้เพื่อระบุผู้ให้บริการ AI, จัดหา LLM ของคุณเอง, หรือปรับแต่งการเชื่อมต่อ (เช่น โดยให้ `HttpClient` ของคุณเอง) สามารถใช้การดำเนินการใด ๆ ของ [`IAIWebClient`](../iaiwebclient) รวมถึง: |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | สร้างอินสแตนซ์การนำเสนอจากคำอธิบายข้อความ ให้หัวข้อ, ไอเดีย, คำพูด, หรือข้อความสั้นในภาษาที่ต้องการ |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | สร้างอินสแตนซ์การนำเสนอจากคำอธิบายข้อความ ให้หัวข้อ, ไอเดีย, คำพูด, หรือข้อความสั้นในภาษาที่ต้องการ |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | สร้างอินสแตนซ์การนำเสนอจากคำอธิบายข้อความ ให้หัวข้อ, ไอเดีย, คำพูด, หรือข้อความสั้นในภาษาที่ต้องการ |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | สร้างอินสแตนซ์การนำเสนอจากคำอธิบายข้อความ ให้หัวข้อ, ไอเดีย, คำพูด, หรือข้อความสั้นในภาษาที่ต้องการ |
-| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | แปลการนำเสนอเป็นภาษาที่ระบุโดยใช้ AI (รุ่น synchronous) |
-| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | แปลการนำเสนอเป็นภาษาที่ระบุโดยใช้ AI |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | สร้างอินสแตนซ์งานนำเสนอจากคำอธิบายด้วยข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือส่วนข้อความในภาษาที่ต้องการ |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | สร้างอินสแตนซ์งานนำเสนอจากคำอธิบายด้วยข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือส่วนข้อความในภาษาที่ต้องการ |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | สร้างอินสแตนซ์งานนำเสนอจากคำอธิบายด้วยข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือส่วนข้อความในภาษาที่ต้องการ |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | สร้างอินสแตนซ์งานนำเสนอจากคำอธิบายด้วยข้อความ ให้ระบุหัวข้อ, ไอเดีย, คำคม หรือส่วนข้อความในภาษาที่ต้องการ |
+| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | แปลงานนำเสนอเป็นภาษาที่ระบุโดยใช้ AI (รุ่นซิงโครนัส) |
+| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | แปลงานนำเสนอเป็นภาษาที่ระบุโดยใช้ AI |
 
 ### ดูเพิ่มเติม
 
-* เนมสเปส [Aspose.Slides.AI](../../aspose.slides.ai)
+* เนมสเปซ [Aspose.Slides.AI](../../aspose.slides.ai)
 * แอสเซมบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

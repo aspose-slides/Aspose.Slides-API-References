@@ -3,10 +3,10 @@ title: Reflection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili efek Reflection.
 type: docs
-weight: 3620
+weight: 3640
 url: /id/aspose.slides.effects/reflection/
 ---
-## Reflection kelas
+## Kelas Reflection
 
 Mewakili efek Reflection.
 
@@ -16,35 +16,35 @@ public sealed class Reflection : IReflection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Radius blur. Baca/tulis Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Arah refleksi. Baca/tulis Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Jarak refleksi. Baca/tulis Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Menentukan posisi akhir (sepanjang ramp gradien alfa) nilai alfa akhir (persen). Baca/tulis Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Kejernihan akhir refleksi. (persen). Baca/tulis Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Menentukan arah untuk menggeser refleksi. (sudut). Baca/tulis Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Penjajaran persegi panjang. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Menentukan apakah refleksi harus berputar bersama shape jika shape diputar. Baca/tulis Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan. (persen) Baca/tulis Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan. (persen) Baca/tulis Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Menentukan posisi akhir (sepanjang gradien alfa) nilai alfa akhir (persen). Baca/tulis Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opasitas akhir refleksi (persen). Baca/tulis Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Menentukan arah offset refleksi (sudut). Baca/tulis Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Perataan persegi panjang. Baca/tulis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Menentukan apakah refleksi harus berputar bersama bentuk bila bentuk diputar. Baca/tulis Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Menentukan faktor skala horizontal, skala negatif menyebabkan pembalikan (persen). Baca/tulis Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Menentukan faktor skala vertikal, skala negatif menyebabkan pembalikan (persen). Baca/tulis Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Menentukan sudut skew horizontal. Baca/tulis Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Menentukan sudut skew vertikal. Baca/tulis Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Menentukan posisi awal (sepanjang ramp gradien alfa) nilai alfa awal (persen). Baca/tulis Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Kejernihan awal refleksi. (persen). Baca/tulis Single. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Menentukan posisi awal (sepanjang gradien alfa) nilai alfa awal (persen). Baca/tulis Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Opasitas refleksi awal (persen). Baca/tulis Single. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Menentukan apakah [`Reflection`](../reflection) yang ditentukan sama dengan [`Reflection`](../reflection) saat ini. |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Mendapatkan data efek Reflection yang efektif dengan pewarisan yang diterapkan. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Mendapatkan data efek Reflection yang efektif dengan penerapan pewarisan. |
 | override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga
 
 * antarmuka [IReflection](../ireflection)
 * ruang nama [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

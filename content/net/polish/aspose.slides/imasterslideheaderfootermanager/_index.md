@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje menedżera, który przechowuje zachowanie znaczników stopki slajdu głównego, daty i czasu, numeru strony oraz wszystkich podrzędnych znaczników. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
+second_title: Aspose.Sildes dla .NET – referencja API
+description: Reprezentuje menedżera, który kontroluje zachowanie placeholderów stopki, daty i godziny, numeru strony slajdu głównego oraz wszystkich podrzędnych placeholderów. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
 type: docs
-weight: 6420
+weight: 6440
 url: /pl/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager interfejs
 
-Reprezentuje menedżer, który przechowuje zachowanie znacznika stopki slajdu głównego, daty i czasu, numeru strony oraz wszystkich podrzędnych znaczników. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
+Reprezentuje menedżera, który kontroluje zachowanie stopki, znacznika daty-czasu, numeru strony slajdu głównego oraz wszystkich podrzędnych znaczników. Podręczne znaczniki oznaczają, że znaczniki znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -24,16 +24,16 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w znaczniku daty i czasu slajdu głównego oraz we wszystkich podrzędnych znacznikach daty i czasu. Znaczniki podrzędne oznaczają znaczniki zawarte w zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność znacznika daty i czasu slajdu głównego oraz wszystkich podrzędnych znaczników daty i czasu. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w znaczniku stopki slajdu głównego oraz we wszystkich podrzędnych znacznikach stopki. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność znacznika stopki slajdu głównego oraz wszystkich podrzędnych znaczników stopki. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność znacznika numeru strony slajdu głównego oraz wszystkich podrzędnych znaczników numeru strony. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Ustawia tekst w placeholderze daty i godziny slajdu głównego oraz we wszystkich podrzędnych placeholderach daty i godziny. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Zmienia widoczność placeholdera daty i godziny slajdu głównego oraz wszystkich podrzędnych placeholderów daty i godziny. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | Ustawia tekst w placeholderze stopki slajdu głównego oraz we wszystkich podrzędnych placeholderach stopki. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Zmienia widoczność placeholdera stopki slajdu głównego oraz wszystkich podrzędnych placeholderów stopki. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Zmienia widoczność placeholdera numeru strony slajdu głównego oraz wszystkich podrzędnych placeholderów numeru strony. Podręczne placeholdery oznaczają, że placeholdery znajdują się na zależnych slajdach układu i zależnych slajdach. Zależne slajdy układu i slajdy używają i zależą od slajdu głównego. |
 
 ### Zobacz także
 
-* interface [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interfejs [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
+* przestrzeń nazw [Aspose.Slides](../../aspose.slides)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

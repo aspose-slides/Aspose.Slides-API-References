@@ -1,14 +1,14 @@
 ---
 title: PresentationText
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar texten som extraherats från presentationen
+description: Representerar den text som extraherats från presentationen
 type: docs
-weight: 9620
+weight: 9640
 url: /sv/aspose.slides/presentationtext/
 ---
 ## PresentationText klass
 
-Representerar texten som extraherats från presentationen
+Representerar den text som extraherats från presentationen
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,9 +18,9 @@ public class PresentationText : IPresentationText
 
 | Namn | Beskrivning |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | En array av [`SlideText`](../islidetext) innehåller en presentations text. |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | En matris av [`SlideText`](../islidetext) innehåller presentationens text. |
 
-### Se också
+### Se även
 
 * gränssnitt [IPresentationText](../ipresentationtext)
 * namnrymd [Aspose.Slides](../../aspose.slides)

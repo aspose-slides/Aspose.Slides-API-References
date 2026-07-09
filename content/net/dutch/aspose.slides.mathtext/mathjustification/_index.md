@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de uitlijning van de wiskundeparagraaf een reeks van aangrenzende instanties van wiskundige tekst binnen dezelfde paragraaf
+description: Specificeert de uitlijning van de wiskundige alinea, een reeks aangrenzende exemplaren van wiskundige tekst binnen dezelfde alinea
 type: docs
 weight: 8800
 url: /nl/aspose.slides.mathtext/mathjustification/
 ---
 ## MathJustification enumeratie
 
-Specificeert de uitlijning van de wiskundeparagraaf (een reeks van aangrenzende instanties van wiskundige tekst binnen dezelfde paragraaf)
+Specificeert de uitlijning van de wiskundige alinea (een reeks aangrenzende exemplaren van wiskundige tekst binnen dezelfde alinea)
 
 ```csharp
 public enum MathJustification
@@ -21,7 +21,7 @@ public enum MathJustification
 | LeftJustified | `1` | Lijnt wiskundige tekst links uit |
 | RightJustified | `2` | Lijnt wiskundige tekst rechts uit |
 | Centered | `3` | Lijnt wiskundige tekst in het midden uit |
-| CenteredAsGroup | `4` | Centreert op de pagina de volledige groep wiskundige blokken als één eenheid. Dit betekent dat de instanties van wiskundige tekst ten opzichte van elkaar uitgelijnd kunnen worden, maar de volledige groep wiskundige tekst als geheel gecentreerd wordt. |
+| CenteredAsGroup | `4` | Centreert op de pagina de volledige groep wiskundige blokken als één eenheid. Dit betekent dat de exemplaren van wiskundige tekst ten opzichte van elkaar kunnen worden uitgelijnd, maar dat de volledige groep wiskundige tekst als geheel gecentreerd is. |
 
 ### Zie ook
 

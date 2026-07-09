@@ -1,6 +1,6 @@
 ---
 title: INotesSlide
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Đại diện cho một slide ghi chú trong bản trình chiếu.
 type: docs
 weight: 6500
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/inotesslide/
 ---
 ## INotesSlide giao diện
 
-Đại diện cho một slide ghi chú trong bản trình chiếu.
+Đại diện cho một slide ghi chú trong một bản trình chiếu.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -21,7 +21,7 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Cho phép lấy giao diện IBaseSlide cơ bản. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Trả về giao diện IOverrideThemeable. Chỉ đọc [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide ghi chú. Chỉ đọc [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Trả về một TextFrame chứa văn bản ghi chú nếu có. Chỉ đọc [`ITextFrame`](../itextframe). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Trả về một TextFrame với văn bản ghi chú nếu có. Chỉ đọc [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | Trả về một ParentSlide. Chỉ đọc [`ISlide`](../islide). |
 
 ### Xem thêm

@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger en uppsättning fördefinierade visuella effekter för bläckrendering. Varje effekt motsvarar en textur eller bild som simulerar ett stiliserat bläckutseende. Dessa värden kan användas för att anpassa den visuella stilen på digitala bläckstift under rendering.
+description: Anger en uppsättning fördefinierade visuella effekter för bläckrendering. Varje effekt motsvarar en textur eller bild som simulerar ett stiliserat bläckutseende. Dessa värden kan användas för att anpassa den visuella stilen för digitala bläckstift under rendering.
 type: docs
-weight: 7560
+weight: 7580
 url: /sv/aspose.slides.ink/inkeffecttype/
 ---
-## InkEffectType enumeration
+## InkEffectType-uppräkning
 
-Anger en uppsättning fördefinierade visuella effekter för bläckrendering. Varje effekt motsvarar en textur eller bild som simulerar ett stiliserat bläckutseende. Dessa värden kan användas för att anpassa den visuella stilen på digitala bläckstift under rendering.
+Anger en uppsättning fördefinierade visuella effekter för bläckrendering. Varje effekt motsvarar en textur eller bild som simulerar ett stiliserat bläckutseende. Dessa värden kan användas för att anpassa den visuella stilen för digitala bläckstift under rendering.
 
 ```csharp
 public enum InkEffectType
@@ -20,13 +20,13 @@ public enum InkEffectType
 | --- | --- | --- |
 | NotDefined | `-1` | Effekten är inte definierad eller är okänd. Detta värde kan användas som standard eller reserv. |
 | Bronze | `0` | En varm, brunaktig metallisk textur som liknar bronsbläck. |
-| Galaxy | `1` | En färgrik, skimrande textur som liknar en galax, med kosmiska toner. |
+| Galaxy | `1` | En färgglad, skimrande textur som liknar en galax, med kosmiska toner. |
 | Gold | `2` | En ljus, metallisk guldtextur som ger bläckstift ett lyxigt utseende. |
-| Lava | `3` | En eldigt textur som liknar smält lava, med röda och orangea nyanser. |
-| Ocean | `4` | En djupblå, flytande textur som efterliknar havsvågor eller vattenbaserat bläck. |
-| RainbowGlitter | `5` | En färgrik, glittrande regnbågeeffekt som används för festliga eller livfulla bläckstift. |
-| RoseGold | `6` | En mjuk rosa-guldfärgblandning, liknande roséguld, för eleganta bläckstift. |
-| Silver | `7` | En sval, metallisk silvertextur som simulerar klassiskt silverbläck. |
+| Lava | `3` | En eldig textur som liknar smält lava, med röda och orange nyanser. |
+| Ocean | `4` | En djupblå, flytande liknande textur som efterliknar havsvågor eller vattenbaserat bläck. |
+| RainbowGlitter | `5` | En färgglad, glittrande regnbågsglittereffekt som används för festliga eller livfulla bläckstift. |
+| RoseGold | `6` | En mjuk rosa-guldblandning, liknande roséguld, för eleganta bläckstift. |
+| Silver | `7` | En kall, metallisk silvertextur som simulerar klassiskt silverbläck. |
 
 ### Se även
 

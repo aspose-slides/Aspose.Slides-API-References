@@ -1,62 +1,61 @@
----  
+---
 title: TagCollection
-second_title: Référence API Aspose.Slides pour .NET  
-description: Représente la collection d'étiquettes paires de chaînes définies par l'utilisateur
+second_title: Référence API Aspose.Sildes pour .NET
+description: Représente la collection d'étiquettes (paires de chaînes définies par l'utilisateur)
 type: docs
-weight: 10580  
+weight: 10890
 url: /fr/aspose.slides/tagcollection/
----  
+---
+## classe TagCollection
 
-## Classe TagCollection  
+Représente la collection d'étiquettes (paires de chaînes définies par l'utilisateur)
 
-Représente la collection d'étiquettes (paires de chaînes définies par l'utilisateur)  
+```csharp
+public sealed class TagCollection : ITagCollection
+```
 
-```csharp  
-public sealed class TagCollection : ITagCollection  
-```  
+## Propriétés
 
-## Propriétés  
+| Nom | Description |
+| --- | --- |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | Renvoie le nombre d'étiquettes dans la collection. Lecture seule Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (thread-safe). Lecture seule Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Renvoie ou définit une paire clé/valeur d'une étiquette. |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Renvoie la racine de synchronisation. Lecture seule Object. |
 
-| Nom | Description |  
-| --- | --- |  
-| [Count](../../aspose.slides/tagcollection/count) { get; } | Renvoie le nombre d'étiquettes dans la collection. Lecture seule Int32. |  
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | Renvoie une valeur indiquant si l'accès à la collection est synchronisé (sécurisé pour les threads). Lecture seule Boolean. |  
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | Renvoie ou définit une paire clé-valeur d'une étiquette. |  
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | Renvoie une racine de synchronisation. Lecture seule Object. |  
+## Méthodes
 
-## Méthodes  
+| Nom | Description |
+| --- | --- |
+| [Add](../../aspose.slides/tagcollection/add)(string, string) | Ajoute une nouvelle étiquette à la collection. |
+| [Clear](../../aspose.slides/tagcollection/clear)() | Supprime toutes les étiquettes de la collection. |
+| [Contains](../../aspose.slides/tagcollection/contains)(string) | Détermine si la collection contient un nom spécifique. |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Renvoie un énumérateur qui parcourt la collection. |
+| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Renvoie la clé d'une étiquette à l'index spécifié. |
+| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Renvoie les noms des étiquettes. |
+| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Renvoie la valeur d'une étiquette à l'index spécifié. |
+| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Renvoie l'index basé sur zéro de la clé spécifiée dans la collection. |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | Supprime l'étiquette avec le nom spécifié de la collection. |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Supprime l'étiquette à l'index spécifié. |
 
-| Nom | Description |  
-| --- | --- |  
-| [Add](../../aspose.slides/tagcollection/add)(string, string) | Ajoute une nouvelle étiquette à la collection. |  
-| [Clear](../../aspose.slides/tagcollection/clear)() | Supprime toutes les étiquettes de la collection. |  
-| [Contains](../../aspose.slides/tagcollection/contains)(string) | Détermine si la collection contient un nom spécifique. |  
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | Copie tous les éléments de la collection dans le tableau spécifié. |  
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | Renvoie un énumérateur qui itère à travers la collection. |  
-| [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | Renvoie la clé d'une étiquette à l'index spécifié. |  
-| [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | Renvoie les noms des étiquettes. |  
-| [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | Renvoie la valeur d'une étiquette à l'index spécifié. |  
-| [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | Renvoie l'index basé à zéro de la clé spécifiée dans la collection. |  
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | Supprime l'étiquette avec le nom spécifié de la collection. |  
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | Supprime l'étiquette à l'index spécifié. |  
+### Exemples
 
-### Exemples  
+L'exemple suivant montre comment ajouter une étiquette à une présentation PowerPoint.
 
-L'exemple suivant montre comment ajouter une étiquette à une présentation PowerPoint.  
+```csharp
+[C#]
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+   ITagCollection tags = pres.CustomData.Tags;
+   pres.CustomData.Tags["MyTag"] = "My Tag Value";
+}
+```
 
-```csharp  
-[C#]  
-using (Presentation pres = new Presentation("pres.pptx"))  
-{  
-   ITagCollection tags = pres.CustomData.Tags;  
-   pres.CustomData.Tags["MyTag"] = "My Tag Value";  
-}  
-```  
+### Voir aussi
 
-### Voir aussi  
+* interface [ITagCollection](../itagcollection)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
-* interface [ITagCollection](../itagcollection)  
-* namespace [Aspose.Slides](../../aspose.slides)  
-* assembly [Aspose.Slides](../../)  
-
-<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->  
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

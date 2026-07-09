@@ -1,9 +1,9 @@
 ---
 title: IAnimationTimeLine
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje oś czasu animacji.
 type: docs
-weight: 5180
+weight: 5200
 url: /pl/aspose.slides/ianimationtimeline/
 ---
 ## IAnimationTimeLine interfejs
@@ -18,9 +18,9 @@ public interface IAnimationTimeLine
 
 | Nazwa | Opis |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Zwraca kolekcję interaktywnych sekwencji. Te sekwencje mogą zawierać tylko efekty przez „kliknięcie na kształt” z określonym docelowym kształtem. Tylko do odczytu [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
-| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Zwraca główną sekwencję, która może zawierać tylko główną kolekcję efektów. Tylko do odczytu [`ISequence`](../../aspose.slides.animation/isequence). |
-| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Zwraca kolekcję animacji tekstu. Tylko do odczytu [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides/ianimationtimeline/interactivesequences) { get; } | Zwraca kolekcję interaktywnych sekwencji. Te sekwencje mogą zawierać tylko efekty wywoływane "click on shape" z określonym docelowym kształtem. Tylko do odczytu [`ISequenceCollection`](../../aspose.slides.animation/isequencecollection). |
+| [MainSequence](../../aspose.slides/ianimationtimeline/mainsequence) { get; } | Zwraca główną sekwencję, która może zawierać tylko kolekcję głównych efektów. Tylko do odczytu [`ISequence`](../../aspose.slides.animation/isequence). |
+| [TextAnimationCollection](../../aspose.slides/ianimationtimeline/textanimationcollection) { get; } | Zwraca kolekcję animacji tekstowych. Tylko do odczytu [`ITextAnimationCollection`](../../aspose.slides.animation/itextanimationcollection). |
 
 ### Zobacz także
 

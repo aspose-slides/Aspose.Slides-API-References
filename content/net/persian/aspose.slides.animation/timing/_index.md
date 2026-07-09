@@ -1,14 +1,14 @@
 ---
 title: Timing
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر زمان‌بندی انیمیشن است.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر زمان‌بندی انیمیشن.
 type: docs
 weight: 840
 url: /fa/aspose.slides.animation/timing/
 ---
 ## کلاس Timing
 
-نمایانگر زمان‌بندی انیمیشن است.
+نمایانگر زمان‌بندی انیمیشن.
 
 ```csharp
 public class Timing : ITiming
@@ -18,24 +18,24 @@ public class Timing : ITiming
 
 | نام | توضیح |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | درصد اثر رفتار شتاب‌دار مدت زمان را توصیف می‌کند. خواندن/نوشتن Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | توصیف می‌کند که آیا پس از پخش به سمت جلو، انیمیشن به‌صورت خودکار در جهت معکوس پخش شود یا نه. خواندن/نوشتن Boolean. |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | درصد اثر رفتار کاهش سرعت مدت زمان را توصیف می‌کند. خواندن/نوشتن Single. |
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | مدت زمان اثر انیمیشن را توصیف می‌کند. خواندن/نوشتن Single. |
-| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | تعداد دفعاتی که اثر باید تکرار شود را توصیف می‌کند. خواندن/نوشتن Single. |
-| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | تعداد دفعاتی که اثر باید تکرار شود را توصیف می‌کند. خواندن/نوشتن Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | این ویژگی مشخص می‌کند که آیا اثر تا پایان اسلاید تکرار شود یا خیر. خواندن/نوشتن Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | این ویژگی مشخص می‌کند که آیا اثر تا کلیک بعدی تکرار شود یا خیر. خواندن/نوشتن Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | مشخص می‌کند که آیا اثر پس از تکمیل دوباره راه‌اندازی شود. خواندن/نوشتن [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | این ویژگی مشخص می‌کند که آیا اثر پس از پایان پخش به عقب برگردد. خواندن/نوشتن Boolean. |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | درصدی که زمان‌بندی باید سرعت شود (یا کند شود) را مشخص می‌کند. خواندن/نوشتن Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | زمان تاخیر پس از محرّک را توصیف می‌کند. خواندن/نوشتن Single. |
-| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | نوع محرّک را توصیف می‌کند. خواندن/نوشتن [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | درصد اثر رفتار تسریع در مدت زمان را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | توضیح می‌دهد که آیا انیمیشن به‌صورت خودکار پس از پخش در جهت پیش به‌صورت معکوس پخش شود یا خیر. خواندنی/نوشتنی Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | درصد اثر رفتار کاهنده در مدت زمان را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | مدت زمان اثر انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | تعداد دفعاتی که اثر باید تکرار شود را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | تعداد دفعاتی که اثر باید تکرار شود را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | این ویژگی تعیین می‌کند که آیا اثر تا انتهای اسلاید تکرار شود یا نه. خواندنی/نوشتنی Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | این ویژگی تعیین می‌کند که آیا اثر تا کلیک بعدی تکرار شود یا نه. خواندنی/نوشتنی Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | تعیین می‌کند که آیا یک اثر پس از کامل شدن دوباره شروع شود یا خیر. خواندنی/نوشتنی [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | این ویژگی تعیین می‌کند که آیا اثر پس از پایان پخش به عقب برگردد یا نه. خواندنی/نوشتنی Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | درصدی که زمان‌بندی باید سریع‌تر (یا آهسته‌تر) شود را تعیین می‌کند. خواندنی/نوشتنی Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | زمان تأخیر پس از فعال‌کننده را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | نوع فعال‌کننده را توصیف می‌کند. خواندنی/نوشتنی [`EffectTriggerType`](../effecttriggertype). |
 
 ### موارد مرتبط
 
 * رابط [ITiming](../itiming)
-* فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
-* مجتمع [Aspose.Slides](../../)
+* فضای نام [Aspose.Slides.Animation](../../aspose.slides.animation)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

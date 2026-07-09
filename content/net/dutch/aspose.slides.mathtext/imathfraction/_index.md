@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het breukobject bestaande uit een teller en een noemer gescheiden door een breukstreep. De breukstreep kan horizontaal of diagonaal zijn, afhankelijk van de breukeigenschappen. Het breukobject wordt ook gebruikt om de stackfunctie te vertegenwoordigen, die één element boven een ander plaatst zonder breukstreep.
+description: Specificeert het breukobject bestaande uit een teller en een noemer die gescheiden worden door een breukstreep. De breukstreep kan horizontaal of diagonaal zijn, afhankelijk van de breukeigenschappen. Het breukobject wordt ook gebruikt om de stapelfunctie te vertegenwoordigen die één element boven een ander plaatst zonder breukstreep.
 type: docs
 weight: 8250
 url: /nl/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction interface
 
-Specificeert het breukobject, bestaande uit een teller en een noemer gescheiden door een breukstreep. De breukstreep kan horizontaal of diagonaal zijn, afhankelijk van de breukeigenschappen. Het breukobject wordt ook gebruikt om de stackfunctie weer te geven, die één element boven een ander plaatst, zonder breukstreep.
+Specificeert het breukobject, bestaande uit een teller en een noemer die gescheiden worden door een breukstreep. De breukstreep kan horizontaal of diagonaal zijn, afhankelijk van de breukeigenschappen. Het breukobject wordt ook gebruikt om de stapelfunctie te vertegenwoordigen, die één element boven een ander plaatst, zonder breukstreep.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFraction : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Stelt toe om de basis IMathElement interface te verkrijgen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | Noemer |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Frazietype Standaard: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | Fractietype Standaard: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | Teller |
 
 ### Voorbeelden

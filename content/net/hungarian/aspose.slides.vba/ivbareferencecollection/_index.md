@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API hivatkozás
 description: Egy VBA-projekt hivatkozásainak gyűjteményét képviseli.
 type: docs
-weight: 11560
+weight: 11580
 url: /hu/aspose.slides.vba/ivbareferencecollection/
 ---
 ## IVbaReferenceCollection interfész
 
-Egy VBA-projekt hivatkozásainak gyűjteményét képviseli.
+A VBA-projekt hivatkozásainak gyűjteménye.
 
 ```csharp
 public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
@@ -20,11 +20,11 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 | --- | --- |
 | [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | Visszaadja a megadott indexű elemet. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Hozzáadja az új hivatkozást a hivatkozások gyűjteményéhez |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | Új hivatkozást ad a hivatkozások gyűjteményéhez |
 
 ### Lásd még
 

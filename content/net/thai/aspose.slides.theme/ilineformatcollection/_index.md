@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคอลเลกชันของสไตล์เส้น.
+description: แสดงการรวบรวมรูปแบบเส้น.
 type: docs
 weight: 11290
 url: /th/aspose.slides.theme/ilineformatcollection/
 ---
 ## ILineFormatCollection อินเทอร์เฟซ
 
-แสดงคอลเล็กชันของสไตล์เส้น.
+แสดงการรวบรวมรูปแบบเส้น.
 
 ```csharp
 public interface ILineFormatCollection : IGenericCollection<ILineFormat>

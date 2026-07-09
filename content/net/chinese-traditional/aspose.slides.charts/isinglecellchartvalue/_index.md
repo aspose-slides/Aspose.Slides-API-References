@@ -1,14 +1,14 @@
 ---
 title: ISingleCellChartValue
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示圖表資料儲存格。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 代表圖表資料格。
 type: docs
 weight: 2210
 url: /zh-hant/aspose.slides.charts/isinglecellchartvalue/
 ---
 ## ISingleCellChartValue 介面
 
-表示圖表資料儲存格。
+代表圖表資料格。
 
 ```csharp
 public interface ISingleCellChartValue : IBaseChartValue
@@ -18,7 +18,7 @@ public interface ISingleCellChartValue : IBaseChartValue
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | 返回或設定圖表資料儲存格。可讀寫 [`IChartDataCell`](../ichartdatacell)。 |
+| [AsCell](../../aspose.slides.charts/isinglecellchartvalue/ascell) { get; set; } | 傳回或設定圖表資料格。讀寫 [`IChartDataCell`](../ichartdatacell)。 |
 | [AsIBaseChartValue](../../aspose.slides.charts/isinglecellchartvalue/asibasechartvalue) { get; } | 允許取得基礎 IBaseChartValue 介面。唯讀 [`IBaseChartValue`](../ibasechartvalue)。 |
 
 ### 另請參閱

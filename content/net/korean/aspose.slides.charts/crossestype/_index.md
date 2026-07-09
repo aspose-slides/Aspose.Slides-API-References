@@ -18,11 +18,11 @@ public enum CrossesType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | 범주 축은 값 축의 0 지점(가능한 경우)에서 교차하거나, 최소값(최소값이 0보다 큰 경우) 또는 최대값(최대값이 0보다 작은 경우)에서 교차합니다. |
-| Maximum | `1` | 축은 최대값에서 교차합니다. |
-| Custom | `2` | 속성 CrossAt에서 지정한 사용자 정의 값 |
+| AxisCrossesAtZero | `0` | 카테고리 축이 값 축의 0 지점(가능한 경우)에서 교차하거나, 최소값(최소값이 0보다 큰 경우) 또는 최대값(최대값이 0보다 작은 경우)에서 교차합니다. |
+| Maximum | `1` | 축이 최대값에서 교차합니다. |
+| Custom | `2` | CrossAt 속성의 사용자 지정 값 |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

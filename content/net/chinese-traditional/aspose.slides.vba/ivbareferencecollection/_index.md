@@ -26,7 +26,7 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 | --- | --- |
 | [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 將新的參考新增至參考集合 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 介面 [IVbaReference](../ivbareference)

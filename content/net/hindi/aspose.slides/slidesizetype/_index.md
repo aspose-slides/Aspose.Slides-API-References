@@ -1,14 +1,14 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: स्लाइड आकार के प्रीसेट को दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्लाइड आकार प्रीसेट का प्रतिनिधित्व करता है।
 type: docs
 weight: 10520
 url: /hi/aspose.slides/slidesizetype/
 ---
-## SlideSizeType एन्युमरेशन
+## SlideSizeType एनीमरेशन
 
-स्लाइड आकार के प्रीसेट को दर्शाता है।
+स्लाइड आकार प्रीसेट का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum SlideSizeType
@@ -31,12 +31,12 @@ public enum SlideSizeType
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
-| HagakiCard | `13` | हगाकी कार्ड |
+| HagakiCard | `13` | हागाकी कार्ड |
 | OnScreen16x9 | `14` | स्क्रीन पर 16x9 |
 | OnScreen16x10 | `15` | स्क्रीन पर 16x10 |
 | Widescreen | `16` | वाइडस्क्रीन |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

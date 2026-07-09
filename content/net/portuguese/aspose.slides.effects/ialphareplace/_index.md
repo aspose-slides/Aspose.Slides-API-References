@@ -1,9 +1,9 @@
 ---
 title: IAlphaReplace
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET API Reference
 description: Representa a interface base IImageTransformOperation.
 type: docs
-weight: 3120
+weight: 3140
 url: /pt/aspose.slides.effects/ialphareplace/
 ---
 ## IAlphaReplace interface
@@ -22,7 +22,7 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Permite obter a interface base IAccessiblePVIObject. Somente leitura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Permite obter a interface base IImageTransformOperation. Somente leitura [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Veja também
+### Veja Também
 
 * interface [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * interface [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

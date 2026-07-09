@@ -1,20 +1,20 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes cho Tham khảo API .NET
-description: Biểu diễn kiểu cộng cho hành vi hiệu ứng.
+second_title: Tham chiếu API .NET của Aspose.Sildes
+description: Biểu diễn loại cộng cho hành vi hiệu ứng.
 type: docs
 weight: 160
 url: /vi/aspose.slides.animation/behavioradditivetype/
 ---
-## BehaviorAdditiveType liệt kê
+## BehaviorAdditiveType enum
 
-Đại diện cho kiểu cộng cho hành vi hiệu ứng.
+Biểu diễn loại cộng cho hành vi hiệu ứng.
 
 ```csharp
 public enum BehaviorAdditiveType
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |

@@ -1,12 +1,12 @@
 ---
 title: MaterialPresetType
-second_title: Aspose.Sildes dla .NET - dokumentacja API
+second_title: Aspose.Sildes dla odniesienia API .NET
 description: Stałe określające materiał kształtu.
 type: docs
-weight: 8040
+weight: 8060
 url: /pl/aspose.slides/materialpresettype/
 ---
-## MaterialPresetType enumeracja
+## MaterialPresetType wyliczenie
 
 Stałe określające materiał kształtu.
 

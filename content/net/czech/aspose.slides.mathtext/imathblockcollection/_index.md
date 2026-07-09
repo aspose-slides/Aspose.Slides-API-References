@@ -1,9 +1,9 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET - referenční příručka API
 description: Kolekce matematických bloků IMathBlock
 type: docs
-weight: 8130
+weight: 8150
 url: /cs/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection rozhraní
@@ -19,24 +19,24 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | Název | Popis |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Umožňuje získat základní rozhraní IEnumerable |
-| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Získá počet skutečně obsažených prvků v kolekci. Pouze pro čtení Int32. |
-| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Získá položku na zadaném indexu. Pouze pro čtení [`IMathBlock`](../imathblock). |
+| [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Získává počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
+| [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Získává položku na zadaném indexu. Pouze pro čtení [`IMathBlock`](../imathblock). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Přidá IMathBlock na konec kolekce. |
-| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Odstraní všechny prvky ze sbírky. |
+| [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Odstraní všechny prvky z kolekce. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Určuje, zda kolekce obsahuje konkrétní hodnotu. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Určuje index konkrétního IMathBlock v kolekci. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Určuje index konkrétního IMMathBlock v kolekci. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Vloží IMathBlock do kolekce na zadaném indexu. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Odstraní první výskyt konkrétního objektu ze sbírky. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Odstraňuje první výskyt konkrétního objektu z kolekce/&gt;. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Odstraní položku na zadaném indexu v kolekci. |
 
 ### Příklady
 
-Example:
+Příklad:
 
 ```csharp
 [C#]

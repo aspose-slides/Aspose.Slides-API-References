@@ -18,8 +18,8 @@ public interface IEffectStyle
 
 | Naam | Beschrijving |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Retourneert een effectindeling. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Retourneert een 3D-indeling. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | Geeft een effectindeling terug. Alleen-lezen [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | Geeft een 3d-indeling terug. Alleen-lezen [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### Zie ook
 

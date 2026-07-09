@@ -1,20 +1,20 @@
 ---
 title: ISlideImageFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định định dạng mà ảnh slide sẽ được lưu để trình bày khi xuất sang HTML.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Xác định định dạng mà ảnh slide sẽ được lưu cho việc xuất bản trình chiếu sang HTML.
 type: docs
 weight: 4090
 url: /vi/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat giao diện
 
-Xác định định dạng mà ảnh slide sẽ được lưu để trình bày khi xuất sang HTML.
+Xác định định dạng mà ảnh slide sẽ được lưu cho việc xuất bản trình chiếu sang HTML.
 
 ```csharp
 public interface ISlideImageFormat
 ```
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
 * tập hợp [Aspose.Slides](../../)

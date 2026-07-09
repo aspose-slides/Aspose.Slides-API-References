@@ -1,26 +1,26 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes for .NET API referenciája
 description: Lehetővé teszi tesztrészek létrehozását
 type: docs
-weight: 6700
+weight: 6720
 url: /hu/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory interfész
 
-Lehetővé teszi tesztrészek létrehozását
+Lehetővé teszi tesztrészletek létrehozását
 
 ```csharp
 public interface IPortionFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Létrehoz egy üres szövegrészt. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Létrehozza a részt a megadott részadatok felhasználásával. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Létrehoz egy szövegrészt a megadott karakterláncból. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Üres szövegrészt hoz létre. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Létrehoz egy részt a megadott részadatok használatával. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Szövegrészt hoz létre a megadott karakterláncból. |
 
 ### Megjegyzések
 

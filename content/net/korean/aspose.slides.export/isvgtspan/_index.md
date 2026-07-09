@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/isvgtspan/
 ---
 ## ISvgTSpan 인터페이스
 
-Represents options for SVG text portion ("tspan").
+SVG 텍스트 부분("tspan")에 대한 옵션을 나타냅니다.
 
 ```csharp
 public interface ISvgTSpan
@@ -18,7 +18,7 @@ public interface ISvgTSpan
 
 | 이름 | 설명 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | "tspan" 요소의 id를 가져오거나 설정합니다 |
+| [Id](../../aspose.slides.export/isvgtspan/id) { get; set; } | “tspan” 요소의 id를 가져오거나 설정합니다. |
 
 ### 관련 항목
 

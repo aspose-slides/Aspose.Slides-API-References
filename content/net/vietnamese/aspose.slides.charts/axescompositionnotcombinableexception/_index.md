@@ -1,26 +1,26 @@
 ---
 title: AxesCompositionNotCombinableException
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Ngoại lệ được ném khi thành phần trục của series không thể kết hợp với thành phần trục hiện có trong biểu đồ.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Ngoại lệ được ném khi thành phần trục của chuỗi không thể kết hợp với thành phần trục hiện tại trong biểu đồ.
 type: docs
 weight: 1160
 url: /vi/aspose.slides.charts/axescompositionnotcombinableexception/
 ---
 ## AxesCompositionNotCombinableException lớp
 
-Exception được ném khi thành phần trục của series không thể kết hợp với thành phần trục hiện có trong chart.
+Exception được ném khi thành phần trục của chuỗi không thể kết hợp với thành phần trục hiện tại trong biểu đồ.
 
 ```csharp
 public class AxesCompositionNotCombinableException : InvalidOperationException
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Hàm khởi tạo mặc định. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào exception này. |
-| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một exception chứa thông điệp và một exception được nhúng. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor)() | Hàm tạo mặc định. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_1)(string) | Hàm tạo cho phép thêm một thông điệp vào ngoại lệ này. |
+| [AxesCompositionNotCombinableException](axescompositionnotcombinableexception#constructor_2)(string, Exception) | Hàm tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ nhúng. |
 
 ### Xem thêm
 

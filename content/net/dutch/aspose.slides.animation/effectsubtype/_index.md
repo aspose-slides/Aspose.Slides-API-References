@@ -1,7 +1,7 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt subtypen van animatie-effect voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt subtypes van animatie-effect voor.
 type: docs
 weight: 340
 url: /nl/aspose.slides.animation/effectsubtype/
@@ -16,7 +16,7 @@ public enum EffectSubtype
 
 ### Waarden
 
-| Name | Value | Description |
+| Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | None | `0` |  |
 | Across | `1` |  |

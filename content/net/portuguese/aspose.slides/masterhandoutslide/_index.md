@@ -1,9 +1,9 @@
 ---
 title: MasterHandoutSlide
-second_title: Aspose.Sildes para .NET – Referência da API
+second_title: Referência de API Aspose.Sildes para .NET
 description: Representa o slide mestre para folhetos.
 type: docs
-weight: 7960
+weight: 7980
 url: /pt/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide classe
@@ -21,16 +21,16 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | [Background](../../aspose.slides/baseslide/background) { get; } | Retorna o plano de fundo do slide. Somente leitura [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Retorna a coleção de controles ActiveX em um slide. Somente leitura [`IControlCollection`](../icontrolcollection). |
 | [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Retorna os dados personalizados do slide. Somente leitura [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Retorna uma coleção de guias de desenho para o slide mestre de folhetos. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre de folhetos. Somente leitura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Retorna uma coleção de guias de desenho para o slide mestre de folheto. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Retorna o gerenciador HeaderFooter do slide mestre de folheto. Somente leitura [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Fornece acesso fácil aos hyperlinks contidos. Somente leitura [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retorna ou define o nome de um slide. Leitura/Gravação String. |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Retorna ou define o nome de um slide. Leitura/gravação String. |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Retorna a interface IPresentation. Somente leitura [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Retorna as formas de um slide. Somente leitura [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser mostradas nos slides ou não. Para o próprio slide mestre, esta propriedade sempre retorna `false`. Leitura/Gravação Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Especifica se as formas no slide mestre devem ser mostradas nos slides ou não. Para o próprio slide mestre, esta propriedade sempre retorna `false`. Leitura/gravação Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Retorna o ID de um slide. Somente leitura UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retorna o objeto Transition que contém informações sobre como o slide especificado avança durante a apresentação. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Retorna o gerenciador de temas. Somente leitura [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Retorna o objeto Transition que contém informações sobre como o slide especificado avança durante uma apresentação. Somente leitura [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Retorna o gerenciador de tema. Somente leitura [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Retorna o objeto da linha do tempo de animação. Somente leitura [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Métodos
@@ -38,16 +38,16 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | Nome | Descrição |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Retorna um tema efetivo para este slide. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se as duas instâncias IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., forem iguais. A comparação não leva em consideração os valores de identificadores únicos, por exemplo SlideId, e conteúdo dinâmico, por exemplo o valor da data atual em Marcador de Data. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determina se as duas instâncias IBaseSlide são iguais. O valor retornado é calculado com base na estrutura do slide e no conteúdo estático. Dois slides são iguais se todas as formas, estilos, textos, animações e outras configurações, etc., são iguais. A comparação não leva em consideração valores de identificadores exclusivos, por exemplo SlideId, e conteúdo dinâmico, por exemplo o valor da data atual em Date Placeholder. |
 | [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Encontra a primeira ocorrência de uma forma com o texto alternativo especificado. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Mescla runs com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Mescla runs com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Mescla execuções com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Mescla execuções com a mesma formatação em todos os parágrafos de todas as formas aceitáveis. |
 
-### Veja Também
+### Ver também
 
 * classe [BaseSlide](../baseslide)
 * interface [IMasterHandoutSlide](../imasterhandoutslide)
-* namespace [Aspose.Slides](../../aspose.slides)
+* espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

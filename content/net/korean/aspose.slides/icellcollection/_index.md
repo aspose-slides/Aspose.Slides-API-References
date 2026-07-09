@@ -19,9 +19,9 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 | 이름 | 설명 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
-| [Item](../../aspose.slides/icellcollection/item) { get; } | 위치에 따라 셀을 반환합니다. 읽기 전용 [`ICell`](../icell). |
+| [Item](../../aspose.slides/icellcollection/item) { get; } | 위치를 기준으로 셀을 반환합니다. 읽기 전용 [`ICell`](../icell). |
 
-### 참조
+### 참고
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [ICell](../icell)

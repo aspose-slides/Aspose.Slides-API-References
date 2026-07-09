@@ -1,9 +1,9 @@
 ---
 title: ISvgShape
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API di Aspose.Sildes per .NET
 description: Rappresenta le opzioni per la forma SVG.
 type: docs
-weight: 4090
+weight: 4110
 url: /it/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape interfaccia

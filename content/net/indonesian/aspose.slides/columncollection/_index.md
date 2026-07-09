@@ -3,7 +3,7 @@ title: ColumnCollection
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi kolom dalam sebuah tabel.
 type: docs
-weight: 2580
+weight: 2600
 url: /id/aspose.slides/columncollection/
 ---
 ## ColumnCollection kelas
@@ -16,21 +16,21 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/columncollection/count) { get; } | Mengembalikan jumlah kolom dalam koleksi. Baca-saja Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman thread). Baca-saja Boolean. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Baca-saja Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | Mengembalikan kolom pada indeks yang ditentukan. Baca-saja [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Membuat salinan baris templat yang ditentukan dan memasukkannya di bagian bawah tabel. |
+| [AddClone](../../aspose.slides/columncollection/addclone)(IColumn, bool) | Membuat salinan baris templat yang ditentukan dan menyisipkannya di bagian bawah tabel. |
 | [CopyTo](../../aspose.slides/columncollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
 | [GetEnumerator](../../aspose.slides/columncollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
-| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Membuat salinan kolom templat yang ditentukan dan menyisipkannya pada posisi yang ditentukan dalam tabel. |
+| [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | Membuat salinan kolom templat yang ditentukan dan menyisipkannya pada posisi yang ditentukan di dalam tabel. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | Menghapus kolom pada posisi yang ditentukan dari tabel. |
 
 ### Lihat Juga

@@ -1,14 +1,14 @@
 ---
 title: Metered
 second_title: Aspose.Sildes برای .NET مرجع API
-description: متدهایی برای تنظیم کلید Metered فراهم می‌کند.
+description: متدهایی را برای تنظیم کلید metered فراهم می‌کند.
 type: docs
 weight: 9080
 url: /fa/aspose.slides/metered/
 ---
 ## کلاس Metered
 
-متدهایی برای تنظیم کلید Metered فراهم می‌کند.
+متدهایی را برای تنظیم کلید metered فراهم می‌کند.
 
 ```csharp
 public class Metered
@@ -25,14 +25,14 @@ public class Metered
 | نام | توضیح |
 | --- | --- |
 | [GetProductName](../../aspose.slides/metered/getproductname)() |  |
-| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | کلید عمومی و خصوصی Metered را تنظیم می‌کند. اگر مجوز Metered را خریداری کرده‌اید، هنگام شروع برنامه باید این API فراخوانی شود؛ معمولاً این کافی است. اما اگر همیشه بارگذاری داده‌های مصرف ناموفق باشد و بیش از ۲۴ ساعت طول بکشد، مجوز به حالت ارزیابی تغییر می‌یابد؛ برای جلوگیری از این حالت باید به‌طور منظم وضعیت مجوز را بررسی کنید، اگر در حالت ارزیابی باشد، این API را دوباره فراخوانی کنید. |
+| [SetMeteredKey](../../aspose.slides/metered/setmeteredkey)(string, string) | کلید عمومی و خصوصی metered را تنظیم می‌کند. اگر مجوز metered را خریداری کنید، هنگام شروع برنامه، این API باید فراخوانی شود؛ به طور معمول این کافی است. با این حال، اگر همیشه بارگذاری داده‌های مصرف ناموفق باشد و بیش از ۲۴ ساعت طول بکشد، مجوز به وضعیت ارزیابی تغییر می‌یابد؛ برای جلوگیری از این وضعیت، باید به‌صورت منظم وضعیت مجوز را بررسی کنید؛ اگر در وضعیت ارزیابی باشد، این API را دوباره فراخوانی کنید. |
 | static [GetConsumptionCredit](../../aspose.slides/metered/getconsumptioncredit)() | اعتبار مصرف را دریافت می‌کند |
 | static [GetConsumptionQuantity](../../aspose.slides/metered/getconsumptionquantity)() | اندازه فایل مصرف را دریافت می‌کند |
-| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | بررسی می‌کند که آیا Metered مجوز دارد |
+| static [IsMeteredLicensed](../../aspose.slides/metered/ismeteredlicensed)() | بررسی می‌کند آیا metered دارای مجوز است یا خیر |
 
 ### مثال‌ها
 
-در این مثال، سعی می‌شود کلید عمومی و خصوصی Metered تنظیم شود
+در این مثال، سعی می‌شود کلید عمومی و خصوصی metered تنظیم شود
 
 ```csharp
 [C#]
@@ -47,14 +47,14 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-فایل jar کامپوننت:
+فایل jar مؤلفه:
 
 ```csharp
 Metered matered = new Metered();
 matered.setMeteredKey("PublicKey", "PrivateKey");
 ```
 
-### همچنین بخوانید
+### موارد مرتبط
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

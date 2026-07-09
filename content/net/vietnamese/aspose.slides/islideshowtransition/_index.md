@@ -1,14 +1,14 @@
 ---
 title: ISlideShowTransition
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn chuyển đổi trình chiếu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho chuyển đổi trình chiếu.
 type: docs
 weight: 7080
 url: /vi/aspose.slides/islideshowtransition/
 ---
 ## ISlideShowTransition giao diện
 
-Represents slide show transition.
+Đại diện cho chuyển đổi trình chiếu.
 
 ```csharp
 public interface ISlideShowTransition
@@ -18,22 +18,22 @@ public interface ISlideShowTransition
 
 | Tên | Mô tả |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Thuộc tính này chỉ định liệu slideshow sẽ chuyển sang slide tiếp theo sau một khoảng thời gian nhất định hay không. Đọc/ghi Boolean. |
-| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Chỉ định thời gian, tính bằng mili giây, sau đó hiệu ứng chuyển tiếp sẽ bắt đầu. Cài đặt này có thể được sử dụng cùng với thuộc tính advClick. Nếu thuộc tính này không được chỉ định, thì giả định không có chuyển slide tự động. Đọc/ghi UInt32. |
-| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Chỉ định liệu một cú nhấp chuột chuột sẽ chuyển slide hay không. Nếu thuộc tính này không được chỉ định, thì giá trị true sẽ được giả định. Đọc/ghi Boolean. |
-| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Lấy hoặc đặt độ dài của hiệu ứng chuyển đổi slide tính bằng mili giây. Đọc/ghi Int32. |
-| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Trả về hoặc đặt dữ liệu âm thanh nhúng. Đọc/ghi [`IAudio`](../iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Chỉ định liệu âm thanh này có phải là âm thanh tích hợp sẵn hay không. Nếu thuộc tính này được đặt là true thì ứng dụng tạo ra sẽ được thông báo để kiểm tra thuộc tính name được chỉ định cho âm thanh này trong danh sách âm thanh tích hợp sẵn và sau đó có thể hiển thị tên tùy chỉnh hoặc giao diện người dùng nếu cần. Đọc/ghi Boolean. |
-| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Thuộc tính này chỉ định liệu âm thanh sẽ lặp lại cho đến khi sự kiện âm thanh tiếp theo xảy ra trong slideshow. Đọc/ghi Boolean. |
-| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Đặt hoặc trả về chế độ âm thanh cho chuyển tiếp slide. Đọc/ghi [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
-| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Chỉ định tên có thể đọc được cho âm thanh của chuyển tiếp. Thuộc tính [`Sound`](./sound) phải được gán để lấy hoặc đặt tên âm thanh. Đọc/ghi String. |
-| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Chỉ định tốc độ chuyển tiếp sẽ được sử dụng khi chuyển từ slide hiện tại sang slide tiếp theo. Đọc/ghi [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
-| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Kiểu chuyển tiếp. Đọc/ghi [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
-| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Giá trị chuyển tiếp slideshow. Chỉ đọc [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
+| [AdvanceAfter](../../aspose.slides/islideshowtransition/advanceafter) { get; set; } | Thuộc tính này xác định liệu trình chiếu có chuyển sang slide tiếp theo sau một khoảng thời gian nhất định hay không. Đọc/ghi Boolean. |
+| [AdvanceAfterTime](../../aspose.slides/islideshowtransition/advanceaftertime) { get; set; } | Xác định thời gian, tính bằng millisecond, sau đó chuyển đổi sẽ bắt đầu. Cài đặt này có thể được sử dụng cùng với thuộc tính advClick. Nếu không chỉ định thuộc tính này thì sẽ giả định không có tự động chuyển tiếp. Đọc-ghi UInt32. |
+| [AdvanceOnClick](../../aspose.slides/islideshowtransition/advanceonclick) { get; set; } | Xác định liệu một cú nhấp chuột chuột có chuyển slide hay không. Nếu không chỉ định thuộc tính này thì sẽ giả định giá trị true. Đọc-ghi Boolean. |
+| [Duration](../../aspose.slides/islideshowtransition/duration) { get; set; } | Lấy hoặc đặt độ dài của hiệu ứng chuyển đổi slide tính bằng millisecond. Đọc/ghi Int32. |
+| [Sound](../../aspose.slides/islideshowtransition/sound) { get; set; } | Lấy hoặc đặt dữ liệu âm thanh nhúng. Đọc-ghi [`IAudio`](../iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides/islideshowtransition/soundisbuiltin) { get; set; } | Xác định liệu âm thanh này có phải là âm thanh tích hợp sẵn hay không. Nếu thuộc tính này được đặt thành true thì ứng dụng tạo sẽ được thông báo để kiểm tra thuộc tính name được chỉ định cho âm thanh này trong danh sách âm thanh tích hợp sẵn và sau đó có thể hiển thị tên tùy chỉnh hoặc giao diện người dùng nếu cần. Đọc-ghi Boolean. |
+| [SoundLoop](../../aspose.slides/islideshowtransition/soundloop) { get; set; } | Thuộc tính này xác định liệu âm thanh có lặp lại cho đến khi sự kiện âm thanh tiếp theo xảy ra trong trình chiếu hay không. Đọc-ghi Boolean. |
+| [SoundMode](../../aspose.slides/islideshowtransition/soundmode) { get; set; } | Đặt hoặc lấy chế độ âm thanh cho chuyển đổi slide. Đọc-ghi [`TransitionSoundMode`](../../aspose.slides.slideshow/transitionsoundmode). |
+| [SoundName](../../aspose.slides/islideshowtransition/soundname) { get; set; } | Xác định một tên đọc được bởi con người cho âm thanh của chuyển đổi. Thuộc tính [`Sound`](./sound) phải được gán để lấy hoặc đặt tên âm thanh. Đọc-ghi String. |
+| [Speed](../../aspose.slides/islideshowtransition/speed) { get; set; } | Xác định tốc độ chuyển đổi sẽ được sử dụng khi chuyển từ slide hiện tại sang slide tiếp theo. Đọc-ghi [`TransitionSpeed`](../../aspose.slides.slideshow/transitionspeed). |
+| [Type](../../aspose.slides/islideshowtransition/type) { get; set; } | Kiểu chuyển đổi. Đọc-ghi [`TransitionType`](../../aspose.slides.slideshow/transitiontype). |
+| [Value](../../aspose.slides/islideshowtransition/value) { get; } | Giá trị chuyển đổi trình chiếu. Chỉ đọc [`ITransitionValueBase`](../../aspose.slides.slideshow/itransitionvaluebase). |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* bộ lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

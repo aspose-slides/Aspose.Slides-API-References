@@ -1,9 +1,9 @@
 ---
 title: ITextAnimation
-second_title: Aspose.Sildes a .NET API hivatkozása
-description: A szöveganimációt képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: Szöveganimációt ábrázol.
 type: docs
-weight: 600
+weight: 620
 url: /hu/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation interfész
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | Név | Leírás |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | A szöveganimáció építési típusainak listája (például Paragraph 1,2,3, All at Once). Olvasás/írás [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Csoportosított vagy nem csoportosított kapcsolt alakzateffektus (null) Olvasás/írás [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | A szöveganimáció építési típusainak (pl. Paragraph 1,2,3, All at Once) listája. Olvasás/írás [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Csoporttal vagy csoport nélkül (null) kapcsolt alakzateffektus. Olvasás/írás [`IEffect`](../ieffect). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Új effektust ad a jelenlegi sorozat végéhez a csoport szöveganimációinak végéhez. Csak akkor érvényes, ha a szövegbekezdések száma egyenlő vagy nagyobb, mint a csoport effektusainak száma! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Új effektust ad a jelenlegi sorozat végéhez a csoport szöveganimációinak végéhez. Csak akkor érvényes, ha a szöveges bekezdések száma egyenlő vagy nagyobb, mint a csoport effektusainak száma! |
 
 ### Lásd még
 

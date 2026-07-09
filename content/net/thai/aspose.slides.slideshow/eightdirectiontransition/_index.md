@@ -1,14 +1,14 @@
 ---
 title: EightDirectionTransition
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เอฟเฟ็กต์การเปลี่ยนสไลด์แปดทิศทาง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เอฟเฟกต์การเปลี่ยนสไลด์แปดทิศทาง.
 type: docs
 weight: 10020
 url: /th/aspose.slides.slideshow/eightdirectiontransition/
 ---
 ## คลาส EightDirectionTransition
 
-เอฟเฟ็กต์การเปลี่ยนสไลด์แปดทิศทาง.
+เอฟเฟกต์การเปลี่ยนสไลด์แบบแปดทิศทาง.
 
 ```csharp
 public class EightDirectionTransition : TransitionValueBase, IEightDirectionTransition
@@ -24,8 +24,8 @@ public class EightDirectionTransition : TransitionValueBase, IEightDirectionTran
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่ |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่กำหนด, ใช้ได้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสำหรับการใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

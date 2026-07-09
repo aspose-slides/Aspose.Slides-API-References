@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy Alpha Modulate hatást reprezentál. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó egy olyan hatást ad meg, amely alfa értékeket tartalmaz a moduláláshoz.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy Alpha Modulate effektust képvisel. Az effektus alfa (átlátszóság) értékei egy rögzített százalékkal szorozva vannak. Az effektus tároló meghatároz egy olyan effektust, amely alfa értékeket tartalmaz a moduláláshoz.
 type: docs
-weight: 2860
+weight: 2880
 url: /hu/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate osztály
 
-Az Alpha Modulate hatást reprezentálja. A hatás alfa (átlátszóság) értékeit egy rögzített százalékkal szorozzák. A hatástartó egy alfa értékeket tartalmazó hatást ad meg a moduláláshoz.
+Egy Alpha Modulate effektust képvisel. Az effektus alfa (átlátszóság) értékei egy rögzített százalékkal szorozva lesznek. Az effektus konténer egy olyan effektust ad meg, amely alfa értékeket tartalmaz a moduláláshoz.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,13 +18,13 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Meghatározza, hogy a megadott [`AlphaModulate`](../alphamodulate) egyenlő-e a jelenlegi [`AlphaModulate`](../alphamodulate). |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Megállapítja, hogy a megadott [`AlphaModulate`](../alphamodulate) egyenlő-e a jelenlegi [`AlphaModulate`](../alphamodulate). |
 | [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Lekéri a hatékony Alpha Modulate effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 

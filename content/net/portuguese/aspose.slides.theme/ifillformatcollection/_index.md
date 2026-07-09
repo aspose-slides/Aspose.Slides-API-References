@@ -1,9 +1,9 @@
 ---
 title: IFillFormatCollection
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa a coleção de estilos de preenchimento.
 type: docs
-weight: 11210
+weight: 11230
 url: /pt/aspose.slides.theme/ifillformatcollection/
 ---
 ## IFillFormatCollection interface
@@ -20,7 +20,7 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### Veja também
+### Ver também
 
 * interface [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interface [IFillFormat](../../aspose.slides/ifillformat)

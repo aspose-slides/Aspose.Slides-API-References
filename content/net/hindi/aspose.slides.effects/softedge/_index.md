@@ -1,14 +1,14 @@
 ---
 title: SoftEdge
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार की किनारें धुंधले होते हैं जबकि भराव पर कोई असर नहीं पड़ता।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार के किनारे धुंधले किए जाते हैं जबकि भराव पर कोई प्रभाव नहीं पड़ता।
 type: docs
 weight: 3650
 url: /hi/aspose.slides.effects/softedge/
 ---
-## SoftEdge क्लास
+## SoftEdge वर्ग
 
-एक सॉफ्ट एज प्रभाव का प्रतिनिधित्व करता है। आकार की किनारें धुंधली हो जाती हैं, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
+किसी soft edge प्रभाव को दर्शाता है। आकार के किनारों को धुंधला किया जाता है, जबकि भराव पर कोई प्रभाव नहीं पड़ता।
 
 ```csharp
 public sealed class SoftEdge : ISoftEdge
@@ -18,17 +18,17 @@ public sealed class SoftEdge : ISoftEdge
 
 | नाम | विवरण |
 | --- | --- |
-| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | किनारों पर लागू किए जाने वाले ब्लर की त्रिज्या निर्दिष्ट करता है। Read/write Double. |
+| [Radius](../../aspose.slides.effects/softedge/radius) { get; set; } | किनारों पर लागू करने के लिए ब्लर की त्रिज्या निर्दिष्ट करता है। पढ़ें/लिखें Double. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`SoftEdge`](../softedge) वर्तमान [`SoftEdge`](../softedge) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | प्रभावी Soft Edge प्रभाव डेटा प्राप्त करता है जिसमें विरासत लागू की गई है। |
-| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| override [Equals](../../aspose.slides.effects/softedge/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`SoftEdge`](../softedge) वर्तमान [`SoftEdge`](../softedge) के बराबर है। |
+| [GetEffective](../../aspose.slides.effects/softedge/geteffective)() | इनहेरिटेंस लागू होने के साथ प्रभावी Soft Edge प्रभाव डेटा प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/softedge/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ISoftEdge](../isoftedge)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

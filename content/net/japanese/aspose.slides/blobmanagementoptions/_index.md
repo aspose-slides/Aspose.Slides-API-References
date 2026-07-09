@@ -1,14 +1,14 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes for .NET API リファレンス
-description: BLOB の処理ルールやその他の BLOB 設定を管理するために使用できるオプションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: BLOB の取り扱いルールやその他の BLOB 設定を管理するために使用できるオプションを表します。
 type: docs
-weight: 1010
+weight: 1030
 url: /ja/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions クラス
 
-BLOB の処理ルールやその他の BLOB 設定を管理するために使用できるオプションを表します。
+Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 
 ```csharp
 public class BlobManagementOptions : IBlobManagementOptions
@@ -18,16 +18,16 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | 新しいデフォルトの BLOB 管理オプションを作成します。 |
+| [BlobManagementOptions](blobmanagementoptions)() | 新しいデフォルトの BlobManagementOptions を作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | このプロパティは、BLOB を操作中に一時ファイルを作成できるかどうかを定義します。これによりメモリ消費が大幅に減少しますが、ファイル作成の権限が必要です。プレゼンテーションの作業が完了した後、すべてのファイルは削除されます。 |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | すべての BLOB がメモリ上で占有できる最大合計サイズ（バイト単位）を定義します。既定では、すべての BLOB がメモリにロードされます。この制限に達した場合にのみ、一時ファイルなどの代替メカニズムが使用されます。BLOB をメモリに保持するとパフォーマンスが最大化されますが、メモリ使用量が増加する可能性があります。このプロパティを使用して、環境や要件に合わせて動作を調整してください。 |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | このプロパティは、Presentation クラスのインスタンスがインスタンスの存続期間中にソース（ファイルまたはストリーム）の所有者となれるかどうかを定義します。インスタンスが所有者である場合、ソースはロックされます。これにより BLOB を操作する際のメモリ消費とパフォーマンスが向上しますが、Presentation のインスタンス存続期間中はソース（ストリームまたはファイル）を変更できなくなります。 |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 一時ファイルが作成されるルート パス。既定ではシステムの一時ディレクトリが使用されます。ホスティングプロセスは、その場所にファイルやフォルダーを作成する権限を持っている必要があります。 |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | このプロパティは、BLOB を操作中に一時ファイルを作成できるかどうかを定義します。これによりメモリ使用量が大幅に減少しますが、ファイル作成の権限が必要です。作業が終了した後、すべてのファイルは削除されます。 |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | すべての BLOB がメモリ上で占有できる合計最大サイズ（バイト単位）を定義します。既定では、すべての BLOB がメモリに読み込まれます。この上限に達した場合にのみ、一時ファイルなどの代替手段が使用されます。BLOB をメモリに保持するとパフォーマンスが最大化されますが、メモリ使用量が増加する可能性があります。環境や要件に合わせてこのプロパティで動作を調整してください。 |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | このプロパティは、Presentation クラスのインスタンスがインスタンスの存続期間中にソース（ファイルまたはストリーム）の所有者となるかどうかを定義します。所有者である場合、ソースがロックされます。これにより BLOB を操作する際のメモリ使用量とパフォーマンスが向上しますが、Presentation のインスタンス存続期間中はソース（ストリームまたはファイル）を変更できなくなります。 |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | 一時ファイルが作成されるルートパスです。既定ではシステムの一時ディレクトリが使用されます。ホスティングプロセスは、その場所にファイルやフォルダーを作成する権限を持っている必要があります。 |
 
 ### 参照
 

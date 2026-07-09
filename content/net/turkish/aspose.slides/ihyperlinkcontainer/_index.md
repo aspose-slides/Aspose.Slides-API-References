@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkContainer
-second_title: Aspose.Sildes for .NET API Reference
-description: Hiperlink nesnesini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Köprü nesnesini temsil eder.
 type: docs
-weight: 6100
+weight: 6120
 url: /tr/aspose.slides/ihyperlinkcontainer/
 ---
-## IHyperlinkContainer arayüz
+## IHyperlinkContainer arayüzü
 
-Hiperlink nesnesini temsil eder.
+Köprü nesnesini temsil eder.
 
 ```csharp
 public interface IHyperlinkContainer
@@ -18,9 +18,9 @@ public interface IHyperlinkContainer
 
 | Ad | Açıklama |
 | --- | --- |
-| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Fare tıklaması için tanımlanan hiperlinki döndürür veya ayarlar. Okunur/yazılabilir [`IHyperlink`](../ihyperlink). |
-| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlinks yöneticisi sadece okunur [`IHyperlinkManager`](../ihyperlinkmanager). |
-| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Fare üzerine gelindiğinde tanımlanan hiperlinki döndürür veya ayarlar. Okunur/yazılabilir [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/ihyperlinkcontainer/hyperlinkclick) { get; set; } | Fare tıklaması için tanımlanan hyperlink'i döndürür veya ayarlar. Okuma/Yazma [`IHyperlink`](../ihyperlink). |
+| [HyperlinkManager](../../aspose.slides/ihyperlinkcontainer/hyperlinkmanager) { get; } | Hyperlink yöneticisi Sadece Okunur [`IHyperlinkManager`](../ihyperlinkmanager). |
+| [HyperlinkMouseOver](../../aspose.slides/ihyperlinkcontainer/hyperlinkmouseover) { get; set; } | Fare üstünde olduğunda tanımlanan hyperlink'i döndürür veya ayarlar. Okuma/Yazma [`IHyperlink`](../ihyperlink). |
 
 ### Ayrıca Bakınız
 

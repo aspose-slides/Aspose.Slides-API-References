@@ -1,12 +1,12 @@
 ---
 title: IHtmlGenerator
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Trình tạo HTML.
 type: docs
 weight: 3960
 url: /vi/aspose.slides.export/ihtmlgenerator/
 ---
-## IHtmlGenerator giao diện
+## Giao diện IHtmlGenerator
 
 Trình tạo HTML.
 
@@ -18,30 +18,30 @@ public interface IHtmlGenerator
 
 | Tên | Mô tả |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Trả về chỉ mục của một slide, sẽ được render sau slide hiện tại hoặc -1 nếu đang render slide cuối cùng. Chỉ đọc Int32. |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Trả về chỉ mục của slide đã được render trước đó hoặc -1 nếu đang render slide đầu tiên. Chỉ đọc Int32. |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Trả về kích thước ảnh slide. Chỉ đọc SizeF. |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Trả về đơn vị mà kích thước ảnh slide được chỉ định. Chỉ đọc [`SvgCoordinateUnit`](../svgcoordinateunit). |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Trả về mã css của đơn vị mà kích thước ảnh slide được chỉ định. Chỉ đọc String. |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Trả về chỉ mục của slide đang được render. Chỉ đọc Int32. |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | Trả về chỉ mục của một slide, sẽ được hiển thị sau slide hiện tại hoặc -1 nếu đang hiển thị slide cuối cùng. Chỉ đọc Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | Trả về chỉ mục của slide đã được hiển thị trước đó hoặc -1 nếu slide đầu tiên đang được hiển thị. Chỉ đọc Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | Trả về kích thước hình ảnh của slide. Chỉ đọc SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | Trả về đơn vị mà kích thước hình ảnh của slide được chỉ định. Chỉ đọc [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | Trả về mã CSS của đơn vị mà kích thước hình ảnh của slide được chỉ định. Chỉ đọc String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | Trả về chỉ mục của slide hiện đang được hiển thị. Chỉ đọc Int32. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Đặt giá trị thuộc tính trong dấu ngoặc kép và thêm vào tệp html. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Đặt giá trị thuộc tính trong dấu ngoặc kép và thêm vào tệp html. |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Đặt giá trị thuộc tính trong dấu ngoặc kép và thêm vào tệp html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | Thêm dấu ngoặc kép vào giá trị thuộc tính và chèn vào tệp html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | Thêm dấu ngoặc kép vào giá trị thuộc tính và chèn vào tệp html. |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | Thêm dấu ngoặc kép vào giá trị thuộc tính và chèn vào tệp html. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | Thêm văn bản HTML đã định dạng. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | Thêm văn bản HTML đã định dạng. |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | Thêm văn bản HTML đã định dạng. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Thêm văn bản thường vào các tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Dấu ngắt dòng và khoảng trắng không được thay thế. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Thêm văn bản thường vào các tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Dấu ngắt dòng và khoảng trắng không được thay thế. |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Thêm văn bản thường vào các tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Dấu ngắt dòng và khoảng trắng không được thay thế. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | Thêm văn bản thuần vào tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Các ký tự ngắt dòng và khoảng trắng không được thay thế. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | Thêm văn bản thuần vào tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Các ký tự ngắt dòng và khoảng trắng không được thay thế. |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | Thêm văn bản thuần vào tệp html, thay thế các ký tự đặc biệt bằng thực thể html. Các ký tự ngắt dòng và khoảng trắng không được thay thế. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
-* tập lệnh [Aspose.Slides](../../)
+* bộ lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

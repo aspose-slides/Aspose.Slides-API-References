@@ -1,14 +1,14 @@
 ---
 title: SequenceCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van interactieve sequenties voor.
+description: Vertegenwoordigt een collectie van interactieve reeksen.
 type: docs
 weight: 800
 url: /nl/aspose.slides.animation/sequencecollection/
 ---
 ## SequenceCollection klasse
 
-Representeert een collectie van interactieve sequenties.
+Representeert een collectie van interactieve reeksen.
 
 ```csharp
 public class SequenceCollection : ISequenceCollection
@@ -19,17 +19,17 @@ public class SequenceCollection : ISequenceCollection
 | Naam | Beschrijving |
 | --- | --- |
 | [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | Retourneert het aantal elementen in een collectie Alleen-lezen Int32. |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Retourneert een sequentie op de opgegeven index. |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | Retourneert een reeks op de opgegeven index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Voeg een nieuwe interactieve sequentie toe. Lezen/schrijven [`Sequence`](../sequence). |
-| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Verwijdert alle sequenties uit een collectie. |
+| [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | Voeg een nieuwe interactieve reeks toe. Lezen/Schrijven [`Sequence`](../sequence). |
+| [Clear](../../aspose.slides.animation/sequencecollection/clear)() | Verwijdert alle reeksen uit een collectie. |
 | [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
-| [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Verwijdert de opgegeven sequentie uit een collectie. |
-| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Verwijdert de sequentie op de opgegeven index. |
+| [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | Verwijdert de opgegeven reeks uit een collectie. |
+| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | Verwijdert reeks op de opgegeven index. |
 
 ### Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: ILineFormatCollection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示線條樣式的集合。
 type: docs
 weight: 11290
@@ -18,9 +18,9 @@ public interface ILineFormatCollection : IGenericCollection<ILineFormat>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 取得指定索引處的元素。 唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
+| [Item](../../aspose.slides.theme/ilineformatcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 介面 [ILineFormat](../../aspose.slides/ilineformat)

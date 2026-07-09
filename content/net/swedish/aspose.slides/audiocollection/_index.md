@@ -3,7 +3,7 @@ title: AudioCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling av inbäddade ljudfiler.
 type: docs
-weight: 840
+weight: 860
 url: /sv/aspose.slides/audiocollection/
 ---
 ## AudioCollection klass
@@ -31,10 +31,10 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Lägger till en kopia av en ljudfil från en annan presentation. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Skapar och lägger till ett ljud i en presentation från en ström. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Skapar och lägger till ett ljud i en presentation från en ström. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopierar ljud till angiven array med start från angivet index. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopierar ljud till specificerad array med start från specificerat index. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 
-### Se också
+### Se även
 
 * klass [DomObject&lt;TParent&gt;](../domobject-1)
 * klass [Presentation](../presentation)

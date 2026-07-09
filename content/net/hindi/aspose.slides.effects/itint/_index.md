@@ -1,14 +1,14 @@
 ---
 title: ITint
-second_title: Aspose.Sildes .NET API संदर्भ
-description: एक Tint प्रभाव का प्रतिनिधित्व करता है। प्रभाव के रंग मानों को निर्दिष्ट मात्रा के अनुसार hue की ओर/से दूर स्थानांतरित करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा द्वारा hue की ओर या उससे दूर प्रभाव के रंग मानों को शिफ्ट करता है।
 type: docs
 weight: 3540
 url: /hi/aspose.slides.effects/itint/
 ---
 ## ITint इंटरफ़ेस
 
-Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
+एक Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा द्वारा प्रभाव के रंग मानों को hue की ओर या उससे दूर शिफ्ट करता है।
 
 ```csharp
 public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface ITint : IAccessiblePVIObject<ITintEffectiveData>, IImageTransfo
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | बेस IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | बेस IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/itint/asiaccessiblepviobject) { get; } | आधार IAccessiblePVIObject इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/itint/asiimagetransformoperation) { get; } | आधार IImageTransformOperation इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * इंटरफ़ेस [ITintEffectiveData](../itinteffectivedata)

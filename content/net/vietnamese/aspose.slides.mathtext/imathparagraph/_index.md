@@ -1,6 +1,6 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đoạn văn toán học là một container cho các khối toán học IMathBlock
 type: docs
 weight: 8390
@@ -18,15 +18,15 @@ public interface IMathParagraph : IMathBlockCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Cho phép lấy giao diện cơ sở IMathBlockCollection [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Căn chỉnh đoạn văn Giá trị mặc định: CenteredAsGroup |
+| [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | Cho phép lấy giao diện IMathBlockCollection cơ bản [`IMathBlockCollection`](../imathblockcollection) |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Căn đoạn văn Giá trị mặc định: CenteredAsGroup |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
 | [ToLatex](../../aspose.slides.mathtext/imathparagraph/tolatex)() | Lấy phương trình toán học ở định dạng LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Lưu nội dung của [`IMathParagraph`](../imathparagraph) dưới dạng MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathparagraph/writeasmathml)(Stream) | Lưu nội dung của [`IMathParagraph`](../imathparagraph) này dưới dạng MathML |
 
 ### Ví dụ
 

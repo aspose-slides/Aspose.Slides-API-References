@@ -1,14 +1,14 @@
 ---
 title: IPieSplitCustomPointCollection
-second_title: Aspose.Slides for .NET API リファレンス
-description: カスタム スプリットを使用したバー オブ パイ または パイ オブ パイ チャートの第 2 のパイまたはバーに描画されるポイントのコレクションを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: カスタム スプリットを使用したバーオブパイまたはパイオブパイ チャートの第2のパイまたはバーに描画されるポイントのコレクションを表します。
 type: docs
-weight: 2170
+weight: 2190
 url: /ja/aspose.slides.charts/ipiesplitcustompointcollection/
 ---
-## IPieSplitCustomPointCollection インターフェース
+## IPieSplitCustomPointCollection インターフェイス
 
-カスタム スプリットを使用したバー オブ パイまたはパイ オブ パイ グラフの第 2 のパイまたはバーに描画されるポイントのコレクションを表します。
+カスタム スプリットを使用したバーオブパイまたはパイオブパイ グラフの第2のパイまたはバーに描画されるポイントのコレクションを表します。
 
 ```csharp
 public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
@@ -18,7 +18,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable インターフェースを返します。 |
+| [AsIEnumerable](../../aspose.slides.charts/ipiesplitcustompointcollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。 |
 | [Item](../../aspose.slides.charts/ipiesplitcustompointcollection/item) { get; } | インデックスでチャート データ ポイントを返します。 |
 
 ## メソッド
@@ -30,7 +30,7 @@ public interface IPieSplitCustomPointCollection : ICollection<IChartDataPoint>
 
 ### 参照
 
-* インターフェース [IChartDataPoint](../ichartdatapoint)
+* インターフェイス [IChartDataPoint](../ichartdatapoint)
 * 名前空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * アセンブリ [Aspose.Slides](../../)
 

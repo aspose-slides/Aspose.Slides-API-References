@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表管理器，負責處理主投影片頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。
+description: 代表管理器，該管理器保留母片投影片頁尾、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。
 type: docs
 weight: 8050
 url: /zh-hant/aspose.slides/masterslideheaderfootermanager/
 ---
 ## MasterSlideHeaderFooterManager 類別
 
-Represents manager which holds behavior of the master slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.
+代表管理器，該管理器保留母片投影片頁尾、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -17,32 +17,32 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示日期時間佔位符是否存在的值。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 取得指示頁腳佔位符是否存在的值。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示頁碼佔位符是否存在的值。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 取得指示是否存在日期時間佔位符的值。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 取得指示是否存在頁尾佔位符的值。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 取得指示是否存在頁碼佔位符的值。ReadBoolean. |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 將文字設定給主投影片日期時間佔位符以及所有子日期時間佔位符。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更主投影片日期時間佔位符以及所有子日期時間佔位符的可見性。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 將文字設定給投影片日期時間佔位符。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 設定文字至母片日期時間佔位符以及所有子日期時間佔位符。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更母片日期時間佔位符以及所有子日期時間佔位符的可見性。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 設定文字至投影片日期時間佔位符。 |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 變更投影片日期時間佔位符的可見性。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 將文字設定給主投影片頁腳佔位符以及所有子頁腳佔位符。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更主投影片頁腳佔位符以及所有子頁腳佔位符的可見性。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。 |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 將文字設定給投影片頁腳佔位符。 |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁腳佔位符的可見性。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更主投影片頁碼佔位符以及所有子頁碼佔位符的可見性。子佔位符指的是包含在相依版面配置投影片和相依投影片中的佔位符。相依版面配置投影片和投影片使用且依賴於主投影片。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 設定文字至母片頁尾佔位符以及所有子頁尾佔位符。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更母片頁尾佔位符以及所有子頁尾佔位符的可見性。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。 |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 設定文字至投影片頁尾佔位符。 |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 變更投影片頁尾佔位符的可見性。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更母片頁碼佔位符以及所有子頁碼佔位符的可見性。子佔位符表示佔位符位於相依的版面配置投影片和相依的投影片上。相依的版面配置投影片和投影片使用且依賴母片。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 變更投影片頁碼佔位符的可見性。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * 介面 [IMasterSlideHeaderFooterManager](../imasterslideheaderfootermanager)
 * 命名空間 [Aspose.Slides](../../aspose.slides)
-* 組件 [Aspose.Slides](../../)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

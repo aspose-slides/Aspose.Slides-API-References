@@ -1,14 +1,14 @@
 ---
 title: IChartWall
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนกำแพงบนแผนภูมิ 3 มิติ.
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แทนผนังบนแผนภูมิ 3 มิติ.
 type: docs
 weight: 2010
 url: /th/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall อินเทอร์เฟซ
 
-แทนกำแพงบนแผนภูมิ 3 มิติ
+แทนผนังบนแผนภูมิ 3 มิติ.
 
 ```csharp
 public interface IChartWall
@@ -18,9 +18,9 @@ public interface IChartWall
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | คืนค่าการเติมผนัง, เส้น, เอฟเฟกต์, สไตล์ 3 มิติ. อ่านได้อย่างเดียว [`IFormat`](../iformat). |
-| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | คืนค่าหรือกำหนดประเภทของรูปภาพ. อ่าน/เขียน [`PictureType`](./picturetype). |
-| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | คืนค่าหรือกำหนดความหนาของผนังเป็นเปอร์เซ็นต์ของมิติที่ใหญ่ที่สุดของปริมาณแผนภูมิ. อ่าน/เขียน Int32. |
+| [Format](../../aspose.slides.charts/ichartwall/format) { get; } | คืนค่าการเติมผนัง, เส้น, เอฟเฟกต์, สไตล์ 3 มิติ. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [PictureType](../../aspose.slides.charts/ichartwall/picturetype) { get; set; } | คืนค่าหรือกำหนดประเภทรูปภาพ. อ่าน/เขียน [`PictureType`](./picturetype). |
+| [Thickness](../../aspose.slides.charts/ichartwall/thickness) { get; set; } | คืนค่าหรือกำหนดความหนาของผนังเป็นเปอร์เซ็นต์ของมิติที่ใหญ่ที่สุดของปริมาณพล็อต. อ่าน/เขียน Int32. |
 
 ### ดูเพิ่มเติม
 

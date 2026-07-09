@@ -1,31 +1,31 @@
 ---
 title: FontSubstitutionInfo
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: โครงสร้างนี้แสดงข้อมูลเกี่ยวกับการแทนที่แบบอักษรเมื่อจะทำการเรนเดอร์.
+description: โครงสร้างนี้แสดงข้อมูลเกี่ยวกับการแทนที่แบบอักษรเมื่อจะทำการเรนเดอร์
 type: docs
 weight: 4910
 url: /th/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo คลาส
 
-โครงสร้างนี้แสดงข้อมูลเกี่ยวกับการแทนที่แบบอักษรเมื่อจะทำการเรนเดอร์.
+โครงสร้างนี้แสดงข้อมูลเกี่ยวกับการแทนที่แบบอักษรเมื่อจะทำการเรนเดอร์
 
 ```csharp
 public class FontSubstitutionInfo
 ```
 
-## คอนสตรัคเตอร์
+## ตัวสร้าง
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | สร้างอินสแตนซ์ของ [`FontSubstitutionInfo`](../fontsubstitutioninfo) คลาส. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | สร้างอินสแตนซ์ของ [`FontSubstitutionInfo`](../fontsubstitutioninfo) คลาส |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | ระบุชื่อแบบอักษรต้นฉบับในงานนำเสนอ. อ่านอย่างเดียว String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | ระบุชื่อแบบอักษรทดแทนสำหรับแบบอักษรต้นฉบับ. อ่านอย่างเดียว String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | แสดงชื่อแบบอักษรต้นทางในงานนำเสนอ อ่านอย่างเดียว String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | แสดงชื่อแบบอักษรทดแทนสำหรับแบบอักษรเดิม อ่านอย่างเดียว String |
 
 ### ตัวอย่าง
 

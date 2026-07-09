@@ -1,6 +1,6 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: टिप्पणियों के लेखक को दर्शाता है।
 type: docs
 weight: 5570
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor इंटरफ़ेस
 
-टिप्पणियों के लेखक को दर्शाता है।
+टिप्पणियों के लेखक का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ICommentAuthor
@@ -18,17 +18,17 @@ public interface ICommentAuthor
 
 | नाम | विवरण |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | इस लेखक द्वारा किए गए टिप्पणियों का संग्रह लौटाता है। केवल पढ़ने योग्य [`ICommentCollection`](../icommentcollection)। |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | लेखक के प्रारंभिक अक्षर लौटाता या सेट करता है। पढ़ें/लिखें String। |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | लेखक का नाम लौटाता या सेट करता है। पढ़ें/लिखें String। |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | इस लेखक द्वारा किए गए टिप्पणियों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | लेखक के प्रारम्भिक अक्षर लौटाता है या सेट करता है। पढ़ने-लिखने योग्य स्ट्रिंग। |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | लेखक का नाम लौटाता है या सेट करता है। पढ़ने-लिखने योग्य स्ट्रिंग। |
 
-## विधाएँ
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | लेखक को मूल संग्रह से हटाता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

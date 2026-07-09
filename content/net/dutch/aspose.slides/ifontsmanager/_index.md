@@ -1,14 +1,14 @@
 ---
 title: IFontsManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Beheert lettertypen in de gehele presentatie.
+description: Beheert lettertypen in de presentatie.
 type: docs
 weight: 5930
 url: /nl/aspose.slides/ifontsmanager/
 ---
 ## IFontsManager interface
 
-Beheert lettertypen in de gehele presentatie.
+Beheert lettertypen in de presentatie.
 
 ```csharp
 public interface IFontsManager
@@ -18,29 +18,29 @@ public interface IFontsManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Stelt een verzameling FontFallBack-regels van de gebruiker voor voor het beheren van verzamelingen lettertypen voor juiste substituties via fallback-functionaliteit Lezen/Schrijven [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
-| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Lettertype substituties die gebruikt moeten worden bij het renderen Lezen/Schrijven [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
+| [FontFallBackRulesCollection](../../aspose.slides/ifontsmanager/fontfallbackrulescollection) { get; set; } | Stelt een collectie van FontFallBack-regels van een gebruiker voor voor het beheren van verzamelingen van lettertypen voor juiste substituties via fallback-functionaliteit. Read/write [`IFontFallBackRulesCollection`](../ifontfallbackrulescollection). |
+| [FontSubstRuleList](../../aspose.slides/ifontsmanager/fontsubstrulelist) { get; set; } | Lettertypevervangingen die gebruikt worden bij het renderen. Read/write [`IFontSubstRuleCollection`](../ifontsubstrulecollection). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Voegt het ingesloten lettertype toe Houd er rekening mee dat de meeste lettertypen auteursrechtelijk beschermd zijn wanneer je lettertypen toevoegt. Zoek eerst de licentie van een lettertype op en controleer of ze vrij kunnen worden overgedragen naar een andere machine. Een ArgumentException kan worden gegooid als lettertypegegevens null zijn of dit lettertype al is ingesloten |
-| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Voegt het ingesloten lettertype toe. Houd er rekening mee dat de meeste lettertypen auteursrechtelijk beschermd zijn wanneer je lettertypen kopieert. Zoek eerst de licentie van een lettertype op en controleer of ze vrij kunnen worden overgedragen naar een andere machine. Een ArgumentException kan worden gegooid als lettertypegegevens null zijn of dit lettertype al is ingesloten |
-| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Geeft de ingesloten lettertypen in de presentatie terug |
-| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Haalt de byte-array op die de lettertypegegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertypegegevens |
-| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-array en lettertype-naam |
-| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Geeft de in de presentatie gebruikte lettertypen terug |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Haalt de informatie op over lettertypen die tijdens het renderen van de presentatie worden vervangen |
-| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia's worden vervangen |
-| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Verwijdert het ingesloten lettertype |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Vervangt lettertype in de presentatie met behulp van informatie verstrekt in [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Vervangt lettertype in de presentatie met behulp van informatie verstrekt in collectie van [`IFontSubstRule`](../ifontsubstrule) |
-| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Vervangt lettertype in de presentatie |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont_1)(byte[], EmbedFontCharacters) | Voegt het ingesloten lettertype toe. Houd er rekening mee dat de meeste lettertypen auteursrechtelijk beschermd zijn. Zoek eerst de licentie van een lettertype op en controleer of ze vrijelijk naar een andere machine kunnen worden overgedragen. Een ArgumentException kan worden gegooid als lettertypegegevens null zijn of dit lettertype al is ingebed. |
+| [AddEmbeddedFont](../../aspose.slides/ifontsmanager/addembeddedfont#addembeddedfont)(IFontData, EmbedFontCharacters) | Voegt het ingesloten lettertype toe. Houd er rekening mee dat de meeste lettertypen auteursrechtelijk beschermd zijn. Zoek eerst de licentie van een lettertype op en controleer of ze vrijelijk naar een andere machine kunnen worden overgedragen. Een ArgumentException kan worden gegooid als lettertypegegevens null zijn of dit lettertype al is ingebed. |
+| [GetEmbeddedFonts](../../aspose.slides/ifontsmanager/getembeddedfonts)() | Retourneert de ingesloten lettertypen in de presentatie. |
+| [GetFontBytes](../../aspose.slides/ifontsmanager/getfontbytes)(IFontData, FontStyleType) | Haalt de byte-array op die de lettertypegegevens vertegenwoordigt voor een opgegeven lettertype-stijl en lettertypegegevens. |
+| [GetFontEmbeddingLevel](../../aspose.slides/ifontsmanager/getfontembeddinglevel)(byte[], string) | Bepaalt het insluitingsniveau van een lettertype op basis van de gegeven byte-array en de lettertype-naam. |
+| [GetFonts](../../aspose.slides/ifontsmanager/getfonts)() | Retourneert de lettertypen die in de presentatie worden gebruikt. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions)() | Haalt de informatie op over lettertypen die tijdens het renderen van de presentatie zullen worden vervangen. |
+| [GetSubstitutions](../../aspose.slides/ifontsmanager/getsubstitutions#getsubstitutions_1)(int[]) | Haalt de informatie op over lettertypen die tijdens het renderen van de opgegeven dia's zullen worden vervangen. |
+| [RemoveEmbeddedFont](../../aspose.slides/ifontsmanager/removeembeddedfont)(IFontData) | Verwijdert het ingesloten lettertype. |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_1)(IFontSubstRule) | Vervangt het lettertype in de presentatie met behulp van de informatie die is opgegeven in [`IFontSubstRule`](../ifontsubstrule). |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont_2)(IFontSubstRuleCollection) | Vervangt het lettertype in de presentatie met behulp van de informatie die is opgegeven in de collectie van [`IFontSubstRule`](../ifontsubstrule). |
+| [ReplaceFont](../../aspose.slides/ifontsmanager/replacefont#replacefont)(IFontData, IFontData) | Vervangt het lettertype in de presentatie. |
 
 ### Zie ook
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* naamruimte [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

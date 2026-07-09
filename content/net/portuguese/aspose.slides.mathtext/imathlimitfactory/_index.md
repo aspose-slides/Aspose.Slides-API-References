@@ -1,9 +1,9 @@
 ---
 title: IMathLimitFactory
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET - Referência da API
 description: Permite criar IMathLimit
 type: docs
-weight: 8310
+weight: 8330
 url: /pt/aspose.slides.mathtext/imathlimitfactory/
 ---
 ## IMathLimitFactory interface
@@ -25,7 +25,7 @@ public interface IMathLimitFactory
 
 Para compatibilidade COM
 
-### Ver Também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

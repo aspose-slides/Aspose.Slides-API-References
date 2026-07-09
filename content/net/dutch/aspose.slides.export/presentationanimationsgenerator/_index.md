@@ -8,46 +8,46 @@ url: /nl/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator klasse
 
-Stelt een generator van de animaties in de [`Presentation`](../../aspose.slides/presentation) voor.
+Vertegenwoordigt een generator van de animaties in de [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
 ```
 
-## Constructoren
+## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Maakt een nieuw exemplaar van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Maakt een nieuw exemplaar van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Maakt een nieuw exemplaar van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) aan. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Maakt een nieuw exemplaar van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) aan. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Haalt op of stelt de standaardvertragingstijd [ms] in. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Haalt op of stelt de standaard vertragingstijd [ms] in. |
 | [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Haalt het aantal geëxporteerde dia's op. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Haalt op of stelt in of verborgen dia's moeten worden opgenomen. |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Verwijdert de instantie van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Voert de generatie van animatie-evenementen uit voor elke dia. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Voert de generatie van animatie-evenementen uit voor elke dia. |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Disposeert de instantie van de [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Voer de generatie van animatie-gebeurtenissen uit voor elke dia. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Voer de generatie van animatie-gebeurtenissen uit voor elke dia. |
 
 ## Velden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Haalt de frame-grootte op. |
+| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Haalt de framegrootte op. |
 
 ## Evenementen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Een evenement geeft aan dat een nieuwe animatie is gegenereerd. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Een gebeurtenis geeft aan dat er een nieuwe animatie is gegenereerd. |
 
 ### Voorbeelden
 

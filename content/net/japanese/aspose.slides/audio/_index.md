@@ -1,14 +1,14 @@
 ---
 title: Audio
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 埋め込みオーディオ ファイルを表します。
+description: 組み込みオーディオ ファイルを表します。
 type: docs
-weight: 830
+weight: 850
 url: /ja/aspose.slides/audio/
 ---
 ## Audio クラス
 
-埋め込みオーディオ ファイルを表します。
+組み込みオーディオ ファイルを表します。
 
 ```csharp
 public class Audio : DomObject<AudioCollection>, IAudio
@@ -16,16 +16,16 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | オーディオ データのコピーを返します。大量のデータの場合は、[`GetStream`](./getstream) メソッドの使用を検討し、オーディオ データの不要なメモリ読み込みや OutOfMemoryException を防止してください。読み取り専用 Byte[]. |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | オーディオの MIME タイプを [`BinaryData`](./binarydata) でエンコードされた形式で返します。読み取り専用 String. |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | オーディオ データのコピーを返します。大量のデータがある場合は、[`GetStream`](./getstream) メソッドの使用を検討して、オーディオ データをメモリに不要に読み込んだり、OutOfMemoryException が発生するのを防止してください。読み取り専用 Byte[]。 |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | オーディオの MIME タイプを返します。[`BinaryData`](./binarydata) でエンコードされています。読み取り専用 String。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | 読み取り用の Stream ストリームを返します。'using' を使用するか、使用後にストリームを閉じてください。 |
+| [GetStream](../../aspose.slides/audio/getstream)() | 読み取り用の Stream を返します。'using' を使用するか、使用後にストリームを閉じてください。 |
 
 ### 関連項目
 

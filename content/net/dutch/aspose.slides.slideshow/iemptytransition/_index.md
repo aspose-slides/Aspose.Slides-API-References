@@ -1,14 +1,14 @@
 ---
 title: IEmptyTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Lege dia overgangseffect.
+description: Leeg dia-overgangseffect.
 type: docs
 weight: 10080
 url: /nl/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition interface
 
-Lege dia overgangseffect.
+Leeg dia-overgangseffect.
 
 ```csharp
 public interface IEmptyTransition : ITransitionValueBase
@@ -18,7 +18,7 @@ public interface IEmptyTransition : ITransitionValueBase
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Staat toe om de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Stelt u in staat de basis ITransitionValueBase interface op te halen. Alleen-lezen [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ### Zie ook
 

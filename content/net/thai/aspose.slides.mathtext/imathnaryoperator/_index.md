@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperator
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุวัตถุคณิตศาสตร์แบบ N-ary เช่น Summation และ Integral. ประกอบด้วยตัวดำเนินการ, ฐานหรือ operand, และขอบล่างและบนที่เป็นตัวเลือก. ตัวอย่างของตัวดำเนินการ N-ary ได้แก่ Summation Union Intersection Integral
+description: กำหนดวัตถุทางคณิตศาสตร์แบบ N-ary เช่น Summation และ Integral. ประกอบด้วยตัวดำเนินการ ฐานหรือ operand และขอบบนและขอบล่างที่เป็นตัวเลือก. ตัวอย่างของตัวดำเนินการแบบ N-ary ได้แก่ Summation Union Intersection Integral
 type: docs
 weight: 8360
 url: /th/aspose.slides.mathtext/imathnaryoperator/
 ---
-## อินเทอร์เฟซ IMathNaryOperator
+## IMathNaryOperator อินเทอร์เฟซ
 
-ระบุวัตถุคณิตศาสตร์แบบ N-ary เช่น Summation และ Integral. ประกอบด้วยตัวดำเนินการ, ฐาน (หรือ operand), และขอบเขตบนและล่างที่เป็นตัวเลือก. ตัวอย่างของตัวดำเนินการ N-ary ได้แก่: Summation, Union, Intersection, Integral
+กำหนดวัตถุทางคณิตศาสตร์แบบ N-ary เช่น Summation และ Integral ประกอบด้วยตัวดำเนินการ ฐาน (หรือ operand) และขอบบนและขอบล่างที่เป็นตัวเลือก ตัวอย่างของตัวดำเนินการแบบ N-ary ได้แก่ Summation, Union, Intersection, Integral
 
 ```csharp
 public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
@@ -18,15 +18,15 @@ public interface IMathNaryOperator : IMathElement, IMathNaryOperatorProperties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | อนุญาตให้รับ interface IMathElement base [`IMathElement`](../imathelement) |
-| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | อนุญาตให้รับ interface IMathNaryOperatorProperties base [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathnaryoperator/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathNaryOperatorProperties](../../aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IMathNaryOperatorProperties [`IMathNaryOperatorProperties`](../imathnaryoperatorproperties) |
 | [Base](../../aspose.slides.mathtext/imathnaryoperator/base) { get; } | อาร์กิวเมนต์ฐาน |
-| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | ระบุอาร์กิวเมนต์ดัชนีย่อยที่ในกรณีของ integral จะตั้งค่าขอบล่าง |
-| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | ระบุอาร์กิวเมนต์ดัชนีเหนือที่ในกรณีของ integral จะตั้งค่าขอบบน |
+| [Subscript](../../aspose.slides.mathtext/imathnaryoperator/subscript) { get; } | ระบุอาร์กิวเมนต์ตัวห้อยที่เช่นในกรณีของ integral จะกำหนดขอบล่าง |
+| [Superscript](../../aspose.slides.mathtext/imathnaryoperator/superscript) { get; } | ระบุอาร์กิวเมนต์ตัวบนที่เช่นในกรณีของ integral จะกำหนดขอบบน |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]

@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
-second_title: Aspose.Sildes dla .NET - Referencja API
-description: Wykres operuje na ograniczonym zestawie właściwości formatu tekstu. Interfejsy IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat opisują ten ograniczony zestaw.
+second_title: Aspose.Slides dla .NET – dokumentacja API
+description: Wykres działa z ograniczonym zestawem właściwości formatowania tekstu. Interfejsy IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat i IChartPortionFormat opisują ten ograniczony zestaw.
 type: docs
-weight: 1970
+weight: 1990
 url: /pl/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat interfejs
 
-Wykres operuje na ograniczonym zestawie właściwości formatu tekstu. Interfejsy IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat opisują ten ograniczony zestaw.
+Wykres działa z ograniczonym zestawem właściwości formatowania tekstu. Interfejsy IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat i IChartPortionFormat opisują ten ograniczony zestaw.
 
 ```csharp
 public interface IChartTextFormat
@@ -19,8 +19,8 @@ public interface IChartTextFormat
 | Nazwa | Opis |
 | --- | --- |
 | [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Zwraca format akapitu. Tylko do odczytu [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Zwraca format części. Tylko do odczytu [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Zwraca format elementów tekstu wykresu. Tylko do odczytu [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Zwraca format fragmentu. Tylko do odczytu [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Zwraca format dla elementów tekstowych wykresu. Tylko do odczytu [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Metody
 

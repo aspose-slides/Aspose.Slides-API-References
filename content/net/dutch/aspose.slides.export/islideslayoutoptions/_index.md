@@ -1,15 +1,13 @@
 ---
 title: ISlidesLayoutOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de presentatielay-outmodus voor export weer.
+description: Geeft de lay-outmodus van de presentatie weer voor export.
 type: docs
 weight: 4100
 url: /nl/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions interface
-
-Geeft de presentatielay-outmodus voor export weer.
-
+Geeft de lay-outmodus van de presentatie weer voor export.
 ```csharp
 public interface ISlidesLayoutOptions
 ```

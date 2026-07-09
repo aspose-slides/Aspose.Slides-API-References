@@ -19,7 +19,7 @@ public interface IPortionFactory
 | Tên | Mô tả |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | Tạo một phần văn bản trống. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tạo một phần bằng cách sử dụng dữ liệu phần được chỉ định. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | Tạo một phần sử dụng dữ liệu phần đã chỉ định. |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | Tạo một phần văn bản từ chuỗi được chỉ định. |
 
 ### Ghi chú

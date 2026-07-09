@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定位於 MathParagraph 內且獨占一行的數學文字實例。所有數學區域，包括等式、表達式、等式或表達式陣列以及公式，皆以數學區塊表示。
+second_title: Aspose.Sildes 適用於 .NET 的 API 參考
+description: 指定位於 MathParagraph 內且自行佔據一行的數學文字實例。所有數學區域，包括等式、表達式、等式或表達式的陣列以及公式，都以數學區塊表示。
 type: docs
 weight: 8140
 url: /zh-hant/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock 介面
 
-指定一個位於 MathParagraph 內且獨占一行的數學文字實例。所有的數學區域，包括等式、表達式、等式或表達式陣列，以及公式，皆以數學區塊表示。
+指定位於 MathParagraph 內且自行佔據一行的數學文字實例。所有數學區域，包括等式、表達式、等式或表達式陣列，以及公式，都以數學區塊表示。
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -25,21 +25,21 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 使用分隔字元（不含括號）分隔所有子元素 |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 使用指定的字元（如括號或其他）將此區塊的子元素框住，並以分隔字元分隔 |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 以分隔字元（不含括號）界定所有子元素 |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 使用指定字元（如括號或其他）將此區塊的子元素框住，並以分隔字元分隔 |
 | [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 將另一個數學區塊與此區塊合併 |
 | [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | 將此 [`IMathBlock`](../imathblock) 的內容儲存為 MathML |
 
 ### 範例
 
-Example:
+範例：
 
 ```csharp
 [C#]
 IMathBlock mathBlock = new MathBlock();
 ```
 
-### 另請參閱
+### 參見
 
 * 介面 [IMathElement](../imathelement)
 * 介面 [IMathElementCollection](../imathelementcollection)

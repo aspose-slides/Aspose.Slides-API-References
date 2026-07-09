@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Referência da API Aspose.Sildes para .NET
-description: Objeto imutável que representa uma parada de gradiente.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Objeto imutável que representa um ponto de gradiente.
 type: docs
-weight: 5030
+weight: 5050
 url: /pt/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData classe
 
-Objeto imutável que representa uma parada de gradiente.
+Objeto imutável que representa um ponto de gradiente.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -16,19 +16,19 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Retorna a cor de uma parada de gradiente. Somente leitura Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Retorna a posição (0..1) de uma parada de gradiente. Somente leitura Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Retorna a cor de um ponto de gradiente. Somente leitura Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Retorna a posição (0..1) de um ponto de gradiente. Somente leitura Single. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina se o [`GradientStopEffectiveData`](../gradientstopeffectivedata) especificado é igual ao [`GradientStopEffectiveData`](../gradientstopeffectivedata) atual. |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
-### Veja Também
+### Ver Também
 
 * interface [IGradientStopEffectiveData](../igradientstopeffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

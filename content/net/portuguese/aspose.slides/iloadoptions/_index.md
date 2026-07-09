@@ -1,9 +1,9 @@
 ---
 title: ILoadOptions
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência de API .NET
 description: Permite especificar opções adicionais, como formato ou fonte padrão, ao carregar uma apresentação.
 type: docs
-weight: 6320
+weight: 6340
 url: /pt/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions interface
@@ -18,24 +18,24 @@ public interface ILoadOptions
 
 | Name | Description |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Representa as opções que podem ser usadas para gerenciar o comportamento de manipulação de Binary Large Objects (BLOBs), como o uso de arquivos temporários ou o número máximo de bytes de BLOBs na memória. Essas opções destinam-se a definir a melhor relação desempenho/consumo de memória para um ambiente ou requisito específico. Um Binary Large Object (BLOB) é um dado binário armazenado como uma única entidade – ou seja, BLOB pode ser um áudio, vídeo ou a própria apresentação. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Retorna ou define a fonte asiática usada caso a fonte de origem não seja encontrada. Leitura/gravação String. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Retorna ou define a fonte regular usada caso a fonte de origem não seja encontrada. Leitura/gravação String. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Retorna ou define a fonte Symbol usada caso a fonte de origem não seja encontrada. Leitura/gravação String. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Retorna ou define o idioma padrão para o texto da apresentação. Leitura/gravação String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Determina se Aspose.Slides excluirá todos os objetos binários incorporados ao carregar a apresentação. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Especifica as fontes externas a serem usadas pela apresentação. Essas fontes ficam disponíveis para a apresentação durante todo o seu ciclo de vida e não são compartilhadas com outras apresentações. |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | O token para monitorar solicitações de interrupção. Este token gerencia todo o ciclo de vida da instância [`IPresentation`](../ipresentation). Qualquer operação de longa duração, como carregamento ou gravação de apresentação, será interrompida ao chamar o método [`Interrupt`](../iinterruptiontokensource/interrupt) do [`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Retorna ou define o formato de uma apresentação a ser carregada. Leitura/gravação [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Esta propriedade faz sentido se o arquivo da apresentação estiver protegido por senha. Valor true significa que somente as propriedades do documento devem ser carregadas de um arquivo de apresentação criptografado e a senha deve ser ignorada. Valor false significa que toda a apresentação criptografada deve ser carregada usando a senha correta. Se a apresentação não estiver criptografada, o valor da propriedade será sempre ignorado. Se as propriedades do documento de um arquivo criptografado não forem públicas e o valor da propriedade for true, as propriedades do documento não poderão ser carregadas e uma exceção será lançada. Leitura/gravação Boolean. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Obtém ou define a senha. Leitura/gravação String. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Retorna ou define a interface de retorno de chamada que gerencia o carregamento de recursos externos. Leitura/gravação [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Representa opções que podem ser usadas para especificar o comportamento adicional de planilhas. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Retorna ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura/gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Representa as opções que podem ser usadas para gerenciar o comportamento de manipulação de Binary Large Objects (BLOBs), como o uso de arquivos temporários ou o número máximo de bytes de BLOBs na memória. Essas opções destinam-se a definir a melhor relação desempenho/consumo de memória para um ambiente ou requisitos específicos. Um Binary Large Object (BLOB) é um dado binário armazenado como uma única entidade – ou seja, um BLOB pode ser um áudio, vídeo ou a própria apresentação. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Obtém ou define a fonte asiática usada caso a fonte de origem não seja encontrada. String de leitura e gravação. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Obtém ou define a fonte regular usada caso a fonte de origem não seja encontrada. String de leitura e gravação. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Obtém ou define a fonte Symbol usada caso a fonte de origem não seja encontrada. String de leitura e gravação. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Obtém ou define o idioma padrão para o texto da apresentação. String de leitura e gravação. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Determina se o Aspose.Slides excluirá todos os objetos binários incorporados ao carregar a apresentação. |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Especifica as fontes externas a serem usadas pela apresentação. Essas fontes ficam disponíveis para a apresentação durante todo o seu ciclo de vida e não são compartilhadas com outras apresentações |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | O token para monitorar solicitações de interrupção. Esse token gerencia todo o tempo de vida da instância [`IPresentation`](../ipresentation). Qualquer operação de longa duração, como o carregamento ou a gravação da apresentação, será interrompida através da chamada do método [`Interrupt`](../iinterruptiontokensource/interrupt) do [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Obtém ou define o formato de uma apresentação a ser carregada. [`LoadFormat`](../loadformat) de leitura e gravação. |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Esta propriedade faz sentido se o arquivo de apresentação estiver protegido por senha. Valor true significa que apenas as propriedades do documento devem ser carregadas de um arquivo de apresentação criptografado e a senha deve ser ignorada. Valor false significa que toda a apresentação criptografada deve ser carregada usando a senha correta. Se a apresentação não estiver criptografada, o valor da propriedade é sempre ignorado. Se as propriedades do documento de um arquivo criptografado não forem públicas e o valor da propriedade for true, as propriedades do documento não poderão ser carregadas e uma exceção será lançada. Boolean de leitura e gravação. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Obtém ou define a senha. String de leitura e gravação. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Obtém ou define a interface de callback que gerencia o carregamento de recursos externos. [`IResourceLoadingCallback`](../iresourceloadingcallback) de leitura e gravação. |
+| [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Representa opções que podem ser usadas para especificar comportamento adicional de planilhas. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Obtém ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) de leitura e gravação. |
 
-### Ver também
+### Veja Também
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

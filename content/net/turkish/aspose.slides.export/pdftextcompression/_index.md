@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Sildes for .NET API Referansı
-description: Görüntüler hariç PDF dosyasındaki tüm içeriklere uygulanan sıkıştırma türünü tanımlayan sabitler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: PDF dosyasındaki görüntüler dışındaki tüm içeriklere uygulanan bir sıkıştırmanın türünü tanımlayan sabitler.
 type: docs
-weight: 4320
+weight: 4340
 url: /tr/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression enum
 
-PDF dosyasındaki tüm içeriklere (görüntüler hariç) uygulanan sıkıştırma türünü tanımlayan sabitler.
+PDF dosyasındaki görüntüler dışındaki tüm içeriklere uygulanan sıkıştırma türünü tanımlayan sabitler.
 
 ```csharp
 public enum PdfTextCompression
@@ -16,7 +16,7 @@ public enum PdfTextCompression
 
 ### Değerler
 
-| Name | Value | Description |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | None | `0` | Sıkıştırma yok. |
 | Flate | `1` | Flate (ZIP) sıkıştırma. |

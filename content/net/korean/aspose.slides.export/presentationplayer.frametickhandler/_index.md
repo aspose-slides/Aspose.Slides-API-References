@@ -1,6 +1,6 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: FrameTick./presentationplayer/frametick 이벤트의 프레임 틱 핸들러를 나타냅니다.
 type: docs
 weight: 4400

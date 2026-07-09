@@ -1,34 +1,34 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 OLE 物件的嵌入資料資訊。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示 OLE 物件的內嵌資料資訊。
 type: docs
 weight: 2760
 url: /zh-hant/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
 ## OleEmbeddedDataInfo 類別
 
-表示 OLE 物件的嵌入資料資訊。
+表示 OLE 物件的內嵌資料資訊。
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | 建立新的 OLE 物件嵌入資料資訊。 |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 建立 OLE 物件嵌入資料資訊的新實例。嵌入 OLE 物件的檔案資料 Byte[]。目前嵌入 OLE 物件的檔案副檔名 String。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | 建立新的 OLE 物件內嵌資料資訊。 |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | 建立 OLE 物件內嵌資料資訊的新執行個體。內嵌 OLE 物件的檔案資料 Byte[]。目前內嵌 OLE 物件的檔案副檔名 String。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 傳回嵌入 OLE 物件的檔案資料，唯讀 Byte[]。 |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 傳回目前嵌入 OLE 物件的檔案副檔名，唯讀 String。 |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | 傳回內嵌 OLE 物件的檔案資料，唯讀 Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | 傳回目前內嵌 OLE 物件的檔案副檔名，唯讀 String。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IOleEmbeddedDataInfo](../../aspose.slides/ioleembeddeddatainfo)
 * 命名空間 [Aspose.Slides.DOM.Ole](../../aspose.slides.dom.ole)

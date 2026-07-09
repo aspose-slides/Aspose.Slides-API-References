@@ -1,14 +1,14 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes ل .NET مرجع API
-description: يحدد أنماط التنسيق التي يمكن تطبيقها على النص.
+second_title: مرجع API لـ Aspose.Sildes على .NET
+description: يعرف أنماط التنسيق التي يمكن تطبيقها على النص.
 type: docs
 weight: 4870
 url: /ar/aspose.slides/fontstyletype/
 ---
-## FontStyleType تعداد
+## FontStyleType التعداد
 
-يحدد أنماط التنسيق التي يمكن تطبيقها على النص.
+يعرف أنماط التنسيق التي يمكن تطبيقها على النص.
 
 ```csharp
 [Flags]
@@ -19,10 +19,10 @@ public enum FontStyleType
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| Regular | `0` | نص قياسي. |
+| Regular | `0` | نص عادي. |
 | Bold | `1` | نص غامق. |
 | Italic | `2` | نص مائل. |
-| Underline | `4` | نص تحته خط. |
+| Underline | `4` | نص تحت خط. |
 | Strikeout | `8` | نص مشطوب بخط أفقي. |
 
 ### انظر أيضًا

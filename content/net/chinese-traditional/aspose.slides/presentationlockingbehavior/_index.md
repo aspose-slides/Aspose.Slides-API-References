@@ -1,29 +1,29 @@
 ---
 title: PresentationLockingBehavior
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示在載入和使用 IPresentation./ipresentation 實例時，對 IPresentation./ipresentation 來源檔案或 Stream 的處理行為。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示在載入並使用 IPresentation./ipresentation 實例時，對 IPresentation./ipresentation 來源檔案或 Stream 的處理行為。
 type: docs
 weight: 9630
 url: /zh-hant/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior 列舉
 
-表示在載入和使用 [`IPresentation`](../ipresentation) 實例時，對 [`IPresentation`](../ipresentation) 來源（檔案或 Stream）的處理行為。
+表示在載入並使用 [`IPresentation`](../ipresentation) 實例時，對 [`IPresentation`](../ipresentation) 來源（檔案或 Stream）的處理行為。
 
 ```csharp
 public enum PresentationLockingBehavior
 ```
 
-### Values
+### 值
 
 | 名稱 | 值 | 描述 |
 | --- | --- | --- |
-| LoadAndRelease | `0` | 來源僅在 [`IPresentation`](../ipresentation) 建構子執行期間被鎖定。如果 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 設為 false，所有 BLOB 會被載入記憶體。否則，可能會使用其他方式，例如暫存檔案。此行為比 KeepLocked 更慢，且如果可以將來源的所有權移交給 [`IPresentation`](../ipresentation)，建議使用 KeepLocked。 |
-| KeepLocked | `1` | 來源會在整個 [`IPresentation`](../ipresentation) 實例的生命週期內被鎖定，直到其被處置。必須將 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 設為 true 才能使用此行為，否則會拋出例外。此行為建議使用，因為它比 LoadAndRelease 更快且佔用較少記憶體。 |
+| LoadAndRelease | `0` | 來源僅在 [`IPresentation`](../ipresentation) 建構函式執行期間被鎖定。如果 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 設為 false，所有 BLOB 都會載入記憶體。否則，可能會使用其他方式，例如暫存檔。本行為比 KeepLocked 較慢，若可以將來源的所有權傳遞給 [`IPresentation`](../ipresentation)，建議使用 KeepLocked。 |
+| KeepLocked | `1` | 來源將在 [`IPresentation`](../ipresentation) 實例的整個生命週期內被鎖定，直至其被釋放。必須將 [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) 設為 true 才能使用此行為，否則將拋出例外。建議使用此行為，因為它比 LoadAndRelease 更快且佔用更少的記憶體。 |
 
-### Remarks
+### 備註
 
-來源是傳遞給 [`IPresentation`](../ipresentation) 建構子的參數。以下範例中，來源是 "pres.pptx" 檔案：
+來源是傳遞給 [`IPresentation`](../ipresentation) 建構函式的參數。在下方範例中，來源是 "pres.pptx" 檔案：
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,9 +31,9 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-在此範例中，來源（"pres.pptx" 檔案）將在 [`IPresentation`](../ipresentation) 實例的生命週期內被鎖定，也就是說其他程序無法變更或刪除它。
+對於此範例，來源（"pres.pptx" 檔案）將在 [`IPresentation`](../ipresentation) 實例的生命週期內被鎖定，也就是說其他程序無法變更或刪除它。
 
-### See Also
+### 相關參考
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

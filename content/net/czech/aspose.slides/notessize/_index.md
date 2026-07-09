@@ -1,14 +1,14 @@
 ---
 title: NotesSize
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje velikost snímku poznámek.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Představuje velikost snímku poznámek.
 type: docs
-weight: 9110
+weight: 9130
 url: /cs/aspose.slides/notessize/
 ---
-## NotesSize třída
+## třída NotesSize
 
-Reprezentuje velikost snímku poznámek.
+Představuje velikost snímku poznámek.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -24,7 +24,7 @@ public class NotesSize : INotesSize
 
 | Název | Popis |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | Vrací nebo nastavuje velikost v bodech. Čtení/Zápis SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | Vrací nebo nastavuje velikost v bodech. Čtení/zápis SizeF. |
 
 ### Viz také
 

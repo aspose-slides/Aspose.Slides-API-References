@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 有効な線の塗りつぶしプロパティを含む不変オブジェクトです。
+description: 実際の線の塗りつぶしプロパティを含む不変オブジェクトです。
 type: docs
-weight: 6280
+weight: 6300
 url: /ja/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData インターフェイス
 
-実効的な線の塗りつぶしプロパティを含む不変オブジェクトです。
+実際の線の塗りつぶしプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -19,17 +19,17 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | 名前 | 説明 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | IFillParamSource インターフェイスを返します。読み取り専用 [`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 塗りつぶしタイプを返します。読み取り専用 [`FillType`](../filltype)。 |
+| [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 塗りつぶしの種類を返します。読み取り専用 [`FillType`](../filltype)。 |
 | [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | グラデーション塗りつぶし形式を返します。読み取り専用 [`IGradientFormatEffectiveData`](../igradientformateffectivedata)。 |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | パターン塗りつぶし形式を返します。読み取り専用 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata)。 |
-| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 塗りつぶしがシェイプとともに回転するかどうかを決定します。読み取り専用 Boolean。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 均一塗りつぶしの色を返します。読み取り専用 Color。 |
+| [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 塗りつぶしをシェイプと共に回転させるかどうかを決定します。読み取り専用 Boolean。 |
+| [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 単色塗りつぶしの色を返します。読み取り専用 Color。 |
 
 ### 備考
 
 このインターフェイスは [`ILineFormatEffectiveData`](../ilineformateffectivedata) の一部として使用されます。
 
-### 参照
+### 関連項目
 
 * インターフェイス [IFillParamSource](../ifillparamsource)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

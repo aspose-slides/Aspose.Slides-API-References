@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: オーバーライドされたさまざまなタイプのテーマへのアクセスを提供します。
+description: オーバーライドされたテーマのさまざまなタイプにアクセスできます。
 type: docs
-weight: 11330
+weight: 11350
 url: /ja/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager インターフェイス
 
-さまざまなタイプのオーバーライドされたテーマへのアクセスを提供します。
+オーバーライドされたテーマのさまざまなタイプにアクセスできます。
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | ベースの IThemeManager インターフェイスを取得できます。読み取り専用 [`IThemeManager`](../ithememanager)。 |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。上書きを有効にするには OverrideTheme.Init*() メソッドを使用します。上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用 Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 上書きテーマオブジェクトを返します。読み取り/書き込み [`IOverrideTheme`](../ioverridetheme)。 |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | ベースの IThemeManager インターフェイスを取得できます。 読み取り専用 [`IThemeManager`](../ithememanager)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。上書きを有効にするには OverrideTheme.Init*() メソッドを使用します。上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。 読み取り専用 Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | 上書きされるテーマ オブジェクトを返します。 読み書き [`IOverrideTheme`](../ioverridetheme)。 |
 
 ### 参照
 

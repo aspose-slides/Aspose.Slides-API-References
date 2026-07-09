@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes for .NET API 參考
-description: 指定由基線上的文字以及緊接其上方或下方的縮小文字組成的 Limit 物件。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 指定 Limit 物件，包含基線上的文字以及緊接其上方或下方的縮小文字。
 type: docs
 weight: 8320
 url: /zh-hant/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit 介面
 
-指定 Limit 物件，由基線上的文字以及緊接其上方或下方的縮小文字組成。
+指定 Limit 物件，包含基線上的文字以及緊接其上方或下方的縮小文字。
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -32,7 +32,7 @@ public interface IMathLimit : IMathElement
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### 另見
+### 另請參閱
 
 * 介面 [IMathElement](../imathelement)
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

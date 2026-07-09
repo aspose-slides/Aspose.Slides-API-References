@@ -1,14 +1,14 @@
 ---
 title: ILayoutable
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafik öğesinin tam konumunu belirtir.
+description: Bir grafik öğesinin kesin konumunu belirtir.
 type: docs
-weight: 2100
+weight: 2120
 url: /tr/aspose.slides.charts/ilayoutable/
 ---
 ## ILayoutable arayüz
 
-Bir grafik öğesinin tam konumunu belirtir.
+Grafik öğesinin kesin konumunu belirler.
 
 ```csharp
 public interface ILayoutable : IChartComponent
@@ -18,15 +18,15 @@ public interface ILayoutable : IChartComponent
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Temel IChartComponent arayüzünü almaya izin verir. Salt okunur [`IChartComponent`](../ichartcomponent). |
-| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Grafik öğesinin üstünü, grafiğin yüksekliğinin bir kesri olarak alır. Salt okunur Single. |
-| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Grafik öğesinin yüksekliğini, grafiğin yüksekliğinin bir kesri olarak belirtir. Okunur/Yazılabilir Single. |
-| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Grafik öğesinin sağını, grafiğin genişliğinin bir kesri olarak alır. Salt okunur Single. |
-| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Grafik öğesinin genişliğini, grafiğin genişliğinin bir kesri olarak belirtir. Okunur/Yazılabilir Single. |
-| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Grafik öğesinin x konumunu (sol) grafiğin genişliğinin bir kesri olarak belirtir. Okunur/Yazılabilir Single. |
-| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Grafik öğesinin üstünü, grafiğin yüksekliğinin bir kesri olarak belirtir. Okunur/Yazılabilir Single. |
+| [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | Temel IChartComponent arayüzünü almayı sağlar. Salt okunur [`IChartComponent`](../ichartcomponent). |
+| [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | Grafiğin yüksekliğinin bir kesri olarak grafik öğesinin üstünü alır. Salt okunur Single. |
+| [Height](../../aspose.slides.charts/ilayoutable/height) { get; set; } | Grafiğin yüksekliğinin bir kesri olarak grafik öğesinin yüksekliğini belirtir. Okunur/Yazılabilir Single. |
+| [Right](../../aspose.slides.charts/ilayoutable/right) { get; } | Grafiğin genişliğinin bir kesri olarak grafik öğesinin sağını alır. Salt okunur Single. |
+| [Width](../../aspose.slides.charts/ilayoutable/width) { get; set; } | Grafiğin genişliğinin bir kesri olarak grafik öğesinin genişliğini belirtir. Okunur/Yazılabilir Single. |
+| [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | Grafiğin genişliğinin bir kesri olarak grafik öğesinin x konumunu (sol) belirtir. Okunur/Yazılabilir Single. |
+| [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | Grafiğin yüksekliğinin bir kesri olarak grafik öğesinin üstünü belirtir. Okunur/Yazılabilir Single. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IChartComponent](../ichartcomponent)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

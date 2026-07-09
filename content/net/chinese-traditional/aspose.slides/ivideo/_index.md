@@ -1,6 +1,6 @@
 ---
 title: IVideo
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes 適用於 .NET API 參考
 description: 表示嵌入於簡報中的影片。
 type: docs
 weight: 7360
@@ -18,16 +18,16 @@ public interface IVideo
 
 | 名稱 | 說明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 返回音訊資料的副本。若資料量很大，請考慮使用 [`GetStream`](./getstream) 方法，以防止不必要地將影片資料載入記憶體，甚至導致 OutOfMemoryException。唯讀 Byte[]. |
-| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | 返回影片的 MIME 類型，使用 [`BinaryData`](./binarydata) 編碼。唯讀 String。 |
+| [BinaryData](../../aspose.slides/ivideo/binarydata) { get; } | 取得音訊資料的副本。若資料量過大，請考慮使用 [`GetStream`](./getstream) 方法，以防止不必要將影片資料載入記憶體，甚至避免 OutOfMemoryException。唯讀 Byte[]. |
+| [ContentType](../../aspose.slides/ivideo/contenttype) { get; } | 取得影片的 MIME 類型，以 [`BinaryData`](./binarydata) 編碼。唯讀 String。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetStream](../../aspose.slides/ivideo/getstream)() | 返回用於讀取的 Stream 流。使用 'using' 或在使用後關閉流。 |
+| [GetStream](../../aspose.slides/ivideo/getstream)() | 取得用於讀取的 Stream。使用 'using' 或在使用完畢後關閉流。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

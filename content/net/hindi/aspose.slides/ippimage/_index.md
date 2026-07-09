@@ -1,6 +1,6 @@
 ---
 title: IPPImage
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: एक प्रस्तुति में छवि का प्रतिनिधित्व करता है।
 type: docs
 weight: 6550
@@ -18,16 +18,16 @@ public interface IPPImage
 
 | नाम | विवरण |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | एक छवि के डेटा की प्रति लौटाता है। केवल-रीड Byte[]. |
-| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | एक छवि का MIME प्रकार, [`BinaryData`](./binarydata) में एन्कोड किया हुआ, लौटाता है। केवल-रीड String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | एक छवि की ऊँचाई लौटाता है। केवल-रीड Int32. |
-| [Image](../../aspose.slides/ippimage/image) { get; } | एक छवि की प्रति लौटाता है। केवल-रीड [`Image`](./image). |
-| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage ऑब्जेक्ट [`ISvgImage`](../isvgimage) को लौटाता या सेट करता है। |
-| [Width](../../aspose.slides/ippimage/width) { get; } | एक छवि की चौड़ाई लौटाता है। केवल-रीड Int32. |
-| [X](../../aspose.slides/ippimage/x) { get; } | एक छवि का X-ऑफसेट लौटाता है। केवल-रीड Int32. |
-| [Y](../../aspose.slides/ippimage/y) { get; } | एक छवि का Y-ऑफसेट लौटाता है। केवल-रीड Int32. |
+| [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | एक छवि के डेटा की प्रति लौटाता है। केवल-पढ़ने योग्य Byte[]. |
+| [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | एक छवि का MIME प्रकार लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोड किया गया है। केवल-पढ़ने योग्य String. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | एक छवि की ऊँचाई लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [Image](../../aspose.slides/ippimage/image) { get; } | एक छवि की प्रति लौटाता है। केवल-पढ़ने योग्य [`Image`](./image). |
+| [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | ISvgImage ऑब्जेक्ट [`ISvgImage`](../isvgimage) लौटाता है या सेट करता है। |
+| [Width](../../aspose.slides/ippimage/width) { get; } | एक छवि की चौड़ाई लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [X](../../aspose.slides/ippimage/x) { get; } | एक छवि का X-ऑफ़सेट लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [Y](../../aspose.slides/ippimage/y) { get; } | एक छवि का Y-ऑफ़सेट लौटाता है। केवल-पढ़ने योग्य Int32. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
@@ -35,7 +35,7 @@ public interface IPPImage
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage)(IImage) | छवि को प्रतिस्थापित करता है। |
 | [ReplaceImage](../../aspose.slides/ippimage/replaceimage#replaceimage_1)(IPPImage) | छवि को प्रतिस्थापित करता है। |
 
-### देखें भी
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

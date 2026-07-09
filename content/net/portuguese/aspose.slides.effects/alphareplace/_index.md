@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito Alpha Replace. Os valores de opacidade alpha do efeito são substituídos por um alpha fixo.
+second_title: Aspose.Sildes para Referência da API .NET
+description: Representa um efeito Alpha Replace. Os valores de opacidade alfa do efeito são substituídos por um alfa fixo.
 type: docs
-weight: 2880
+weight: 2900
 url: /pt/aspose.slides.effects/alphareplace/
 ---
-## AlphaReplace classe
+## classe AlphaReplace
 
-Representa um efeito Alpha Replace. Os valores de alpha (opacidade) do efeito são substituídos por um alpha fixo.
+Representa um efeito Alpha Replace. Os valores de alfa (opacidade) do efeito são substituídos por um alfa fixo.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -18,7 +18,7 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface IPresentationComponent base. Somente leitura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Métodos
 
@@ -26,9 +26,9 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Determina se o [`AlphaReplace`](../alphareplace) especificado é igual ao [`AlphaReplace`](../alphareplace) atual. |
 | [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Obtém os dados efetivos do efeito Alpha Replace com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Serve como função de hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Serve como função hash para um tipo específico. |
 
-### Veja Também
+### Ver também
 
 * classe [ImageTransformOperation](../imagetransformoperation)
 * interface [IAlphaReplace](../ialphareplace)

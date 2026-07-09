@@ -1,9 +1,9 @@
 ---
 title: MotionCommandPathType
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Rappresenta i tipi di comando per il comportamento dell'effetto di movimento dell'animazione.
 type: docs
-weight: 640
+weight: 660
 url: /it/aspose.slides.animation/motioncommandpathtype/
 ---
 ## MotionCommandPathType enumerazione

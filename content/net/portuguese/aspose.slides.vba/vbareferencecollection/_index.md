@@ -1,14 +1,14 @@
 ---
 title: VbaReferenceCollection
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa uma coleção de referências de um projeto VBA.
+second_title: Referência de API Aspose.Sildes para .NET
+description: Representa uma coleção de referências de um Projeto VBA.
 type: docs
-weight: 11650
+weight: 11670
 url: /pt/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection classe
 
-Representa uma coleção de referências de um projeto VBA.
+Representa uma coleção de referências de um Projeto VBA.
 
 ```csharp
 public class VbaReferenceCollection : IVbaReferenceCollection
@@ -19,7 +19,7 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | Obtém o número de elementos realmente contidos na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção está sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | Obtém o elemento no índice especificado. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 

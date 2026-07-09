@@ -1,14 +1,14 @@
 ---
 title: LeftRightDirectionTransition
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 左至右方向的投影片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 左右方向的投影片過渡效果。
 type: docs
 weight: 10240
 url: /zh-hant/aspose.slides.slideshow/leftrightdirectiontransition/
 ---
 ## LeftRightDirectionTransition 類別
 
-左至右方向的投影片過渡效果。
+左右方向的投影片過渡效果。
 
 ```csharp
 public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirectionTransition
@@ -18,14 +18,14 @@ public class LeftRightDirectionTransition : TransitionValueBase, ILeftRightDirec
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 過渡方向。可讀寫 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/leftrightdirectiontransition/direction) { get; set; } | 方向的過渡。可讀寫 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適合用於雜湊演算法以及像雜湊表之類的資料結構。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 充當特定類型的雜湊函式，可用於雜湊演算法和類似雜湊表的資料結構。 |
 
 ### 另請參閱
 

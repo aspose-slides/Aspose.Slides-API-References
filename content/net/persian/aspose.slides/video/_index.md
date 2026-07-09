@@ -1,33 +1,33 @@
 ---
 title: Video
 second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر یک تصویر جاسازی شده در یک ارائه.
+description: نمایانگر یک تصویر که در یک ارائه جاسازی شده است.
 type: docs
 weight: 11700
 url: /fa/aspose.slides/video/
 ---
-## Video کلاس
+## کلاس Video
 
-یک تصویر که در یک ارائه جاسازی شده را نشان می‌دهد.
+یک تصویر جاسازی شده در ارائه را نشان می‌دهد.
 
 ```csharp
 public class Video : IVideo
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | یک کپی از داده‌های صوت را برمی‌گرداند. در صورت مقدار زیاد داده‌ها، استفاده از روش [`GetStream`](./getstream) را برای جلوگیری از بارگذاری غیرضروری داده‌های ویدیو در حافظه یا حتی OutOfMemoryException در نظر بگیرید. فقط خواندنی Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | یک نوع MIME برای ویدیو را برمی‌گرداند که در [`BinaryData`](./binarydata) کدگذاری شده است. فقط خواندنی String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | یک کپی از داده‌های صوتی را برمی‌گرداند. در صورت حجم زیاد داده‌ها، استفاده از متد [`GetStream`](./getstream) را برای جلوگیری از بارگذاری غیرضروری داده‌های ویدئو در حافظه یا حتی OutOfMemoryException در نظر بگیرید. فقط خواندنی Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | یک نوع MIME از ویدئو را برمی‌گرداند که در [`BinaryData`](./binarydata) کدگذاری شده است. فقط خواندنی String. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | یک Stream برای خواندن برمی‌گرداند. از 'using' استفاده کنید یا پس از استفاده، Stream را ببندید. |
+| [GetStream](../../aspose.slides/video/getstream)() | یک Stream برای خواندن برمی‌گرداند. از 'using' استفاده کنید یا پس از استفاده Stream را ببندید. |
 
-### همچنین
+### موارد مرتبط
 
 * رابط [IVideo](../ivideo)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

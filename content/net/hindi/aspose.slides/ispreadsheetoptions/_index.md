@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ऐसे विकल्पों का प्रतिनिधित्व करता है जो अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए उपयोग किए जा सकते हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: ऐसे विकल्पों का प्रतिनिधित्व करता है जिन्हें अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए उपयोग किया जा सकता है।
 type: docs
 weight: 7120
 url: /hi/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions इंटरफ़ेस
 
-विकल्पों का प्रतिनिधित्व करता है जिसका उपयोग अतिरिक्त स्प्रेडशीट व्यवहार को निर्दिष्ट करने के लिए किया जा सकता है।
+स्प्रेडशीट्स के अतिरिक्त व्यवहार को निर्दिष्ट करने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | पसंदीदा संस्कृति जानकारी को प्राप्त करता है या सेट करता है, जिसका उपयोग डबल-बाइट कैरेक्टर सेट (DBCS) का उपयोग करने वाली भाषाओं के लिए कुछ फ़ंक्शनों की गणना में किया जाता है। |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | यदि चार्ट के लिए डेटा स्रोत एक बाहरी वर्कबुक है और उपलब्ध नहीं है, तो इसे चार्ट कैश से पुनः प्राप्त किया जाएगा। |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | पसंदीदा संस्कृति जानकारी प्राप्त करता है या सेट करता है, जिसका उपयोग कुछ फ़ंक्शनों की गणना के लिए किया जाता है, जो डबल- बाइट कैरेक्टर सेट (DBCS) का उपयोग करने वाली भाषाओं के लिए अभिप्रेत हैं। |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | यदि चार्ट के लिए डेटा स्रोत बाहरी वर्कबुक है और वह उपलब्ध नहीं है, तो इसे चार्ट कैश से पुनः प्राप्त किया जाएगा। |
 
 ### संबंधित देखें
 

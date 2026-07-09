@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đại diện cho các tùy chọn xuất HTML5.
 type: docs
 weight: 3930
@@ -18,14 +18,14 @@ public interface IHtml5Options : ISaveOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Trả về hoặc đặt tùy chọn hoạt ảnh hình dạng. Đọc/ghi Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Trả về hoặc đặt tùy chọn hoạt ảnh chuyển đổi. Đọc/ghi Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Trả về ISaveOptions giao diện. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết liệu văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi đặt thành `true`, các ligature sẽ bị tắt trong đầu ra đã render. Mặc định, thuộc tính này được đặt thành `false`. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Trả về hoặc đặt tùy chọn nhúng hình ảnh. Đọc/ghi Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Trả về hoặc đặt tùy chọn hoạt hình cho shapes. Đọc/ghi Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Trả về hoặc đặt tùy chọn hoạt hình cho transitions. Đọc/ghi Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | Lấy hoặc đặt giá trị cho biết văn bản có được hiển thị mà không sử dụng ligatures hay không. Khi đặt thành `true`, ligatures sẽ bị vô hiệu hoá trong đầu ra được hiển thị. Mặc định, thuộc tính này được đặt thành `false`. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Trả về hoặc đặt tùy chọn nhúng images. Đọc/ghi Boolean. |
 | [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Xác định nơi các tài nguyên bên ngoài sẽ được lưu trữ. Đọc/ghi String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Đại diện cho mức nén hình ảnh Đọc/ghi [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ mà các slide được đặt trên trang khi xuất bản trình chiếu [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | Đại diện cho mức nén pictures. Đọc/ghi [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | Lấy hoặc đặt chế độ mà slides được đặt trên trang khi xuất một presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### Ví dụ
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [ISaveOptions](../isaveoptions)
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)

@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShapeCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นคอลเลกชันของรูปร่าง SmartArt
+description: แสดงถึงคอลเลกชันของรูปร่าง SmartArt
 type: docs
 weight: 10580
 url: /th/aspose.slides.smartart/ismartartshapecollection/
 ---
 ## ISmartArtShapeCollection อินเทอร์เฟซ
 
-เป็นคอลเลกชันของรูปร่าง SmartArt
+แสดงถึงคอลเลกชันของรูปร่าง SmartArt
 
 ```csharp
 public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
@@ -18,7 +18,7 @@ public interface ISmartArtShapeCollection : IGenericCollection<ISmartArtShape>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | รับรายการที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISmartArtShape`](../ismartartshape). ดัชนีเริ่มจากศูนย์ของรายการ |
+| [Item](../../aspose.slides.smartart/ismartartshapecollection/item) { get; } | รับอิลเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISmartArtShape`](../ismartartshape). ดัชนีเริ่มจากศูนย์ของอิลเมนต์ |
 
 ### ดูเพิ่มเติม
 

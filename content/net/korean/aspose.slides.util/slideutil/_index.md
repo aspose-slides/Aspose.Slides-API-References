@@ -1,6 +1,6 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션에서 도형과 텍스트를 검색하는 데 도움이 되는 메서드를 제공합니다.
 type: docs
 weight: 11520
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.util/slideutil/
 ---
 ## SlideUtil 클래스
 
-프레젠테이션에서 도형과 텍스트를 검색하는 데 도움이 되는 메서드를 제공합니다.
+프레젠테이션에서 도형 및 텍스트를 검색하는 데 도움이 되는 메서드를 제공합니다.
 
 ```csharp
 public static class SlideUtil
@@ -19,10 +19,10 @@ public static class SlideUtil
 | 이름 | 설명 |
 | --- | --- |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | 슬라이드에 있는 모든 도형의 배치를 변경합니다. 도형을 슬라이드의 여백이나 가장자리에 맞추거나 서로 상대적으로 정렬합니다. |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 그룹 도형 내의 모든 도형의 배치를 변경합니다. 도형을 슬라이드의 여백이나 가장자리에 맞추거나 서로 상대적으로 정렬합니다. |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 그룹 도형 내 모든 도형의 배치를 변경합니다. 도형을 슬라이드의 여백이나 가장자리에 맞추거나 서로 상대적으로 정렬합니다. |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 슬라이드에서 선택된 도형의 배치를 변경합니다. 도형을 슬라이드의 여백이나 가장자리에 맞추거나 서로 상대적으로 정렬합니다. |
 | static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | 그룹 도형 내에서 선택된 도형의 배치를 변경합니다. 도형을 슬라이드의 여백이나 가장자리에 맞추거나 서로 상대적으로 정렬합니다. |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 프레젠테이션에서 텍스트를 찾아 지정된 형식으로 교체합니다. |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 프레젠테이션에서 텍스트를 찾아 주어진 형식으로 교체합니다. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | PPTX 프레젠테이션의 슬라이드에서 대체 텍스트로 도형을 찾습니다. |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | PPTX 프레젠테이션에서 대체 텍스트로 도형을 찾습니다. |
 | static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 지정된 슬라이드에서 주어진 PlaceholderType과 일치하는 모든 도형을 검색합니다. |

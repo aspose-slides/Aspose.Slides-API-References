@@ -1,14 +1,14 @@
 ---
 title: ConnectorLock
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน Connector พาเรนต์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดว่าการทำงานใดบ้างถูกปิดการใช้งานบน Connector พาเรนท์.
 type: docs
 weight: 2680
 url: /th/aspose.slides/connectorlock/
 ---
 ## ConnectorLock คลาส
 
-กำหนดว่าการดำเนินการใดถูกปิดใช้งานบน Connector พ่อแม่
+กำหนดว่าการทำงานใดบ้างถูกปิดการใช้งานบน Connector พาเรนท์
 
 ```csharp
 public class ConnectorLock : BaseShapeLock, IConnectorLock
@@ -16,19 +16,19 @@ public class ConnectorLock : BaseShapeLock, IConnectorLock
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงค่าการปรับเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงหัวลูกศรเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงเส้นรอบรูปโดยตรงของรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าไปในกลุ่มเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | ส่งคืน true หากทุกแฟล็กล็อกถูกปิดใช้งาน. อ่านอย่างเดียว Boolean. |
-| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงมุมการหมุนของรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนแปลงประเภทของรูปร่างเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AdjustHandlesLocked](../../aspose.slides/connectorlock/adjusthandleslocked) { get; set; } | กำหนดว่าการเปลี่ยนค่า adjust values ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/connectorlock/arrowheadslocked) { get; set; } | กำหนดว่าการเปลี่ยน arrowheads ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AspectRatioLocked](../../aspose.slides/connectorlock/aspectratiolocked) { get; set; } | กำหนดว่า shape ต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
+| [EditPointsLocked](../../aspose.slides/connectorlock/editpointslocked) { get; set; } | กำหนดว่าการเปลี่ยนรูป contour ของ shape นี้โดยตรงถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/connectorlock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่ม shape นี้ลงในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หาก lock-flags ทั้งหมดถูกปิดการใช้งาน. อ่านอย่างเดียว Boolean. |
+| [PositionMove](../../aspose.slides/connectorlock/positionmove) { get; set; } | กำหนดว่าการย้าย shape นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [RotateLocked](../../aspose.slides/connectorlock/rotatelocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของ shape นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/connectorlock/selectlocked) { get; set; } | กำหนดว่าการเลือก shape นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/connectorlock/shapetypelocked) { get; set; } | กำหนดว่าการเปลี่ยนประเภทของ shape ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/connectorlock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาด shape นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

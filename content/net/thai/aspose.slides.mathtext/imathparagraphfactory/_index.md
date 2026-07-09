@@ -1,6 +1,6 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างย่อหน้าคณิตศาสตร์
 type: docs
 weight: 8400
@@ -14,16 +14,16 @@ url: /th/aspose.slides.mathtext/imathparagraphfactory/
 public interface IMathParagraphFactory
 ```
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | สร้างย่อหน้าคณิตศาสตร์เปล่า |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | สร้างย่อหน้าคณิตศาสตร์และใส่บล็อกคณิตศาสตร์ที่ระบุลงในนั้น |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | สร้างย่อหน้าคณิตศาสตร์และวางบล็อกคณิตศาสตร์ที่ระบุไว้ในนั้น |
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้ของ COM
 
 ### ดูเพิ่มเติม
 

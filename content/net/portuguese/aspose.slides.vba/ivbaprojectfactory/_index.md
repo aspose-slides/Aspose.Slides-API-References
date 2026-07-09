@@ -1,9 +1,9 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes para .NET Referência da API
-description: Permite criar projeto VBA via interface COM
+description: Permite criar um projeto VBA via interface COM
 type: docs
-weight: 11540
+weight: 11560
 url: /pt/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory interface
@@ -14,14 +14,14 @@ Permite criar um projeto VBA via interface COM
 public interface IVbaProjectFactory
 ```
 
-## Methods
+## Métodos
 
 | Nome | Descrição |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | Cria um novo projeto VBA. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Lê o projeto VBA a partir de um contêiner OLE. |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | Lê o projeto VBA a partir do contêiner OLE. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides.Vba](../../aspose.slides.vba)
 * assembly [Aspose.Slides](../../)

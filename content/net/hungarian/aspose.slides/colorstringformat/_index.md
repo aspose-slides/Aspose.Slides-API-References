@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
-second_title: Aspose.Sildes .NET API-referencia
-description: Egy hiperhivatkozás műveletének típusát reprezentálja.
+second_title: Aspose.Sildes a .NET API referencia
+description: Egy hiperhivatkozás művelet típusát reprezentálja.
 type: docs
-weight: 2540
+weight: 2560
 url: /hu/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumeráció
 
-Egy hiperhivatkozás műveletének típusát reprezentálja.
+Egy hiperhivatkozás művelet típusát reprezentálja.
 
 ```csharp
 public enum ColorStringFormat
@@ -18,7 +18,7 @@ public enum ColorStringFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Vml | `0` | VML színes karakterlánc formátum. |
+| Vml | `0` | VML színkarakterlánc formátum. |
 
 ### Lásd még
 

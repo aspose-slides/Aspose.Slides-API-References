@@ -1,14 +1,14 @@
 ---
 title: Input
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示一組輸入元素（範本）。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示輸入元素範本的集合。
 type: docs
 weight: 4630
 url: /zh-hant/aspose.slides.export.web/input/
 ---
-## Input 類別
+## 輸入類別
 
-代表一組輸入元件（範本）。
+表示輸入元素（範本）的集合。
 
 ```csharp
 public sealed class Input
@@ -16,7 +16,7 @@ public sealed class Input
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AddTemplate&lt;TContextObject&gt;](../../aspose.slides.export.web/input/addtemplate)(string, string) | 將範本新增至集合中。 |
 

@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft het gedrag van een eigenschapseffect weer.
+description: Geeft het gedrag van eigenschapseffect weer.
 type: docs
 weight: 560
 url: /nl/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect interface
 
-Geeft het gedrag van een eigenschapseffect weer.
+Geeft het gedrag van eigenschapseffect weer.
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -18,8 +18,8 @@ public interface IPropertyEffect : IBehavior
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Staat toe om de basise IBehavior interface op te halen. Alleen-lezen [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Specificeert een relatieve offsetwaarde voor de animatie met betrekking tot haar positie vóór de start van de animatie. Lezen/schrijven String. |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | Staat toe om de basis IBehavior interface op te halen. Alleen-lezen [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | Specificeert een relatieve offsetwaarde voor de animatie met betrekking tot zijn positie vóór het begin van de animatie. Lezen/schrijven String. |
 | [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | Specificeert de interpolatiemodus voor de animatie Lezen/schrijven [`PropertyCalcModeType`](../propertycalcmodetype). |
 | [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | Specificeert de startwaarde van de animatie. Lezen/schrijven String. |
 | [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | Specificeert de punten van de animatie. Lezen/schrijven [`IPointCollection`](../ipointcollection). |

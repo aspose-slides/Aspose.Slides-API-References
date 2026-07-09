@@ -1,6 +1,6 @@
 ---
 title: HyperlinkManager
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 하이퍼링크 관리(추가 및 제거)를 제공합니다.
 type: docs
 weight: 5150
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/hyperlinkmanager/
 ---
 ## HyperlinkManager 클래스
 
-하이퍼링크 관리(추가 및 제거)를 제공합니다.
+하이퍼링크 관리를 제공하며 (추가, 제거).
 
 ```csharp
 public sealed class HyperlinkManager : IHyperlinkManager
@@ -19,11 +19,11 @@ public sealed class HyperlinkManager : IHyperlinkManager
 | 이름 | 설명 |
 | --- | --- |
 | [RemoveHyperlinkClick](../../aspose.slides/hyperlinkmanager/removehyperlinkclick)() | 클릭 시 하이퍼링크를 제거합니다. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | 마우스 오버 시 하이퍼링크를 제거합니다. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/removehyperlinkmouseover)() | 마우스를 올렸을 때 하이퍼링크를 제거합니다. |
 | [SetExternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkclick)(string) | 클릭 시 외부 하이퍼링크를 설정합니다. |
-| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | 마우스 오버 시 외부 하이퍼링크를 설정합니다. |
+| [SetExternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setexternalhyperlinkmouseover)(string) | 마우스를 올렸을 때 외부 하이퍼링크를 설정합니다. |
 | [SetInternalHyperlinkClick](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkclick)(ISlide) | 클릭 시 내부 하이퍼링크를 설정합니다. |
-| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 마우스 오버 시 내부 하이퍼링크를 설정합니다. |
+| [SetInternalHyperlinkMouseOver](../../aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover)(ISlide) | 마우스를 올렸을 때 내부 하이퍼링크를 설정합니다. |
 | [SetMacroHyperlinkClick](../../aspose.slides/hyperlinkmanager/setmacrohyperlinkclick)(string) | 클릭 시 매크로 하이퍼링크를 설정합니다. |
 
 ### 참고

@@ -18,13 +18,13 @@ public interface IBaseTableFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Retourneert de effectieve waarde van de onderrandlijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Retourneert de effectieve waarde van de neerwaartse diagonale lijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Retourneert de effectieve waarde van de opwaartse diagonale lijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Retourneert de effectieve waarde van de linkerrandlijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Retourneert de effectieve waarde van de rechterrandlijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Retourneert de effectieve waarde van de bovenrandlijnopmaak. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
-| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Retourneert de effectieve waarde van de opvulopmaak. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
+| [BorderBottom](../../aspose.slides/ibasetableformateffectivedata/borderbottom) { get; } | Retourneert de effectieve waarde van het onderrandlijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalDown](../../aspose.slides/ibasetableformateffectivedata/borderdiagonaldown) { get; } | Retourneert de effectieve waarde van het neerwaartse diagonale lijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderDiagonalUp](../../aspose.slides/ibasetableformateffectivedata/borderdiagonalup) { get; } | Retourneert de effectieve waarde van het opwaartse diagonale lijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderLeft](../../aspose.slides/ibasetableformateffectivedata/borderleft) { get; } | Retourneert de effectieve waarde van het linkerrandlijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderRight](../../aspose.slides/ibasetableformateffectivedata/borderright) { get; } | Retourneert de effectieve waarde van het rechterrandlijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [BorderTop](../../aspose.slides/ibasetableformateffectivedata/bordertop) { get; } | Retourneert de effectieve waarde van het bovenrandlijnformaat. Alleen-lezen [`ILineFormatEffectiveData`](../ilineformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibasetableformateffectivedata/fillformat) { get; } | Retourneert de effectieve waarde van het vulformaat. Alleen-lezen [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### Zie ook
 

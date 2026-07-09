@@ -1,14 +1,14 @@
 ---
 title: IPointCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของส่วน
+description: แทนคอลเลกชันของส่วน.
 type: docs
 weight: 550
 url: /th/aspose.slides.animation/ipointcollection/
 ---
 ## IPointCollection อินเทอร์เฟซ
 
-Represents a collection of portions.
+แทนคอลเลกชันของส่วน.
 
 ```csharp
 public interface IPointCollection : IEnumerable<IPoint>
@@ -18,9 +18,9 @@ public interface IPointCollection : IEnumerable<IPoint>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | Allows to get base IEnumerable interface. Read-only IEnumerable. |
-| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | Returns the number of points in the collection. Read-only Int32. |
-| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | Returns a point at the specified index. |
+| [AsIEnumerable](../../aspose.slides.animation/ipointcollection/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEnumerable พื้นฐาน. อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.animation/ipointcollection/count) { get; } | ส่งกลับจำนวนจุดในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.animation/ipointcollection/item) { get; } | ส่งกลับจุดที่ตำแหน่งที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

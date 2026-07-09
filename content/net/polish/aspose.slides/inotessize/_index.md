@@ -1,14 +1,14 @@
 ---
 title: INotesSize
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje rozmiar slajdu z notatkami.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Reprezentuje rozmiar slajdu notatek.
 type: docs
-weight: 6470
+weight: 6490
 url: /pl/aspose.slides/inotessize/
 ---
 ## INotesSize interfejs
 
-Reprezentuje rozmiar slajdu z notatkami.
+Reprezentuje rozmiar slajdu notatek.
 
 ```csharp
 public interface INotesSize

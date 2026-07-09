@@ -3,12 +3,12 @@ title: Cell
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブルのセルを表します。
 type: docs
-weight: 1110
+weight: 1130
 url: /ja/aspose.slides/cell/
 ---
 ## Cell クラス
 
-テーブルのセルを表します。
+Represents a cell of a table.
 
 ```csharp
 public class Cell : ICell
@@ -16,40 +16,40 @@ public class Cell : ICell
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | セル内にテキスト ボックスがセンタリングされているかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | セル内にテキスト ボックスを中央揃えにするかどうかを決定します。読み書き Boolean。 |
 | [CellFormat](../../aspose.slides/cell/cellformat) { get; } | このセルの書式設定プロパティを含む CellFormat オブジェクトを返します。読み取り専用 [`ICellFormat`](../icellformat)。 |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | 現在のセルが跨ぐ、親テーブルのテーブル グリッド内の列数を返します。このプロパティにより、セルは他のセルの垂直境界を跨いで結合されたように見えます。読み取り専用 Int32。 |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | 現在のセルが跨ぐ、親テーブルのテーブル グリッド内の列数を返します。このプロパティにより、セルは他のセルの垂直境界を跨いで結合されたように見えるようになります。読み取り専用 Int32。 |
 | [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | セルの最初の列を取得します。読み取り専用 [`IColumn`](../icolumn)。 |
 | [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | セルがカバーする最初の列のインデックスを返します。読み取り専用 Int32。 |
 | [FirstRow](../../aspose.slides/cell/firstrow) { get; } | セルの最初の行を取得します。読み取り専用 [`IRow`](../irow)。 |
 | [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | セルがカバーする最初の行のインデックスを返します。読み取り専用 Int32。 |
 | [Height](../../aspose.slides/cell/height) { get; } | セルの高さを返します。読み取り専用 Double。 |
 | [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | セルが調整されたセルと結合されている場合は true、そうでない場合は false を返します。読み取り専用 Boolean。 |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | TextFrame の下部余白を取得または設定します。読み取り/書き込み Double。 |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | TextFrame の左余白を取得または設定します。読み取り/書き込み Double。 |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | TextFrame の右余白を取得または設定します。読み取り/書き込み Double。 |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | TextFrame の上部余白を取得または設定します。読み取り/書き込み Double。 |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | TextFrame の下余白を取得または設定します。読み書き Double。 |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | TextFrame の左余白を取得または設定します。読み書き Double。 |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | TextFrame の右余白を取得または設定します。読み書き Double。 |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | TextFrame の上余白を取得または設定します。読み書き Double。 |
 | [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | セルの最小高さを返します。これはセルがカバーするすべての行の最小高さの合計です。読み取り専用 Double。 |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | テーブル左側からセル左側までの距離を返します。読み取り専用 Double。 |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | テーブル上側からセル上側までの距離を返します。読み取り専用 Double。 |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | テーブルの左端からセルの左端までの距離を返します。読み取り専用 Double。 |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | テーブルの上端からセルの上端までの距離を返します。読み取り専用 Double。 |
 | [Presentation](../../aspose.slides/cell/presentation) { get; } | セルの親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [RowSpan](../../aspose.slides/cell/rowspan) { get; } | 結合されたセルが跨ぐ行数を返します。これは他のセルの vMerge 属性と組み合わせて、水平結合の開始セルを指定するために使用されます。読み取り専用 Int32。 |
 | [Slide](../../aspose.slides/cell/slide) { get; } | セルの親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
 | [Table](../../aspose.slides/cell/table) { get; } | セルの親 Table オブジェクトを返します。読み取り専用 [`ITable`](../itable)。 |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | テキスト アンカーのタイプを取得または設定します。読み取り/書き込み [`TextAnchorType`](../textanchortype)。 |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | テキスト アンカー タイプを取得または設定します。読み書き [`TextAnchorType`](../textanchortype)。 |
 | [TextFrame](../../aspose.slides/cell/textframe) { get; } | セルのテキスト フレームを返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | 縦書きテキストのタイプを取得または設定します。読み取り/書き込み [`TextVerticalType`](../textverticaltype)。 |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | 縦書きテキストのタイプを取得または設定します。読み書き [`TextVerticalType`](../textverticaltype)。 |
 | [Width](../../aspose.slides/cell/width) { get; } | セルの幅を返します。読み取り専用 Double。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | 列インデックスでセルを 2 つに分割します。 |
+| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | 列インデックスに基づいてセルを 2 つのセルに分割します。 |
 | [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | 高さでセルを分割します。 |
-| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | 行インデックスでセルを 2 つに分割します。 |
+| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | 行インデックスに基づいてセルを 2 つのセルに分割します。 |
 | [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | 幅でセルを分割します。 |
 
 ### 参照

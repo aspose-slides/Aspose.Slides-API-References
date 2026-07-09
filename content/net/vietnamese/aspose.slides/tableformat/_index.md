@@ -1,14 +1,14 @@
 ---
 title: TableFormat
-second_title: Aspose.Sildes cho .NET - Tham chiếu API
-description: Mô tả định dạng của một bảng.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Đại diện cho định dạng của một bảng.
 type: docs
 weight: 10870
 url: /vi/aspose.slides/tableformat/
 ---
 ## TableFormat lớp
 
-Mô tả định dạng của một bảng.
+Đại diện cho định dạng của một bảng.
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
@@ -18,14 +18,14 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Trả về một đối tượng thuộc tính tô đầy bảng. Chỉ đọc [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Lấy hoặc đặt độ trong suốt của màu tô đầy. Đọc/ghi Single. |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | Trả về một đối tượng thuộc tính tô màu bảng. Chỉ đọc [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | Lấy hoặc đặt mức trong suốt của màu tô. Đọc/ghi Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Lấy các thuộc tính định dạng bảng hiệu quả với việc kế thừa và áp dụng kiểu bảng. |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | Lấy các thuộc tính định dạng bảng hiệu quả với kế thừa và kiểu bảng đã áp dụng. |
 
 ### Xem thêm
 

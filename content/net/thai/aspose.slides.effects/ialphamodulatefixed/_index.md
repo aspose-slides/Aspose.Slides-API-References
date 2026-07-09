@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
+description: แทนผลกระทบ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
 type: docs
 weight: 3120
 url: /th/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
+แทนผลกระทบ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | ส่งคืนจำนวนของเอฟเฟกต์เป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | คืนค่าปริมาณของเอฟเฟกต์เป็นเปอร์เซ็นต์. อ่าน/เขียน Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IAccessiblePVIObject. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IImageTransformOperation. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

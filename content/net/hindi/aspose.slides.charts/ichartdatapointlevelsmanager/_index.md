@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevelsManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst श्रृंखला के लिए लागू किया गया। डेटा पॉइंट स्तरों की अनुक्रमणिका शून्य-आधारित है।
+description: डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst श्रृंखलाओं के लिए लागू किया गया है। डेटा पॉइंट स्तरों की अनुक्रमण शून्य-आधारित है।
 type: docs
 weight: 1850
 url: /hi/aspose.slides.charts/ichartdatapointlevelsmanager/
 ---
 ## IChartDataPointLevelsManager इंटरफ़ेस
 
-डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst सीरीज़ के लिए लागू किया गया। डेटा पॉइंट स्तरों की अनुक्रमणिका शून्य-आधारित है।
+डेटा पॉइंट स्तरों का कंटेनर। Treeamp और Sunburst सीरीज़ के लिए लागू किया गया है। डेटा पॉइंट स्तरों की अनुक्रमण शून्य-आधारित है।
 
 ```csharp
 public interface IChartDataPointLevelsManager

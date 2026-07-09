@@ -16,19 +16,19 @@ public interface ICommentAuthor
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [Comments](../../aspose.slides/icommentauthor/comments) { get; } | 傳回此作者所發表的評論集合。唯讀 [`ICommentCollection`](../icommentcollection)。 |
 | [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | 傳回或設定作者的縮寫。可讀寫 String。 |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 傳回或設定作者的姓名。可讀寫 String。 |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | 傳回或設定作者的名稱。可讀寫 String。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.slides/icommentauthor/remove)() | 從父集合中移除該作者。 |
+| [Remove](../../aspose.slides/icommentauthor/remove)() | 從父集合中移除作者。 |
 
-### 另見
+### 另請參考
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

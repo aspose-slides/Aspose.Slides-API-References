@@ -1,14 +1,14 @@
 ---
 title: LegendEntryProperties
-second_title: Aspose.Sildes .NET API referenciája
+second_title: Aspose.Sildes .NET API-referencia
 description: A diagram jelmagyarázatának tulajdonságait képviseli.
 type: docs
-weight: 2290
+weight: 2310
 url: /hu/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties osztály
 
-Represents legend properties of a chart.
+A diagram jelmagyarázatának tulajdonságait képviseli.
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -19,7 +19,7 @@ public class LegendEntryProperties : ILegendEntryProperties
 | Név | Leírás |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | Visszaadja a szülő diagramot. Csak olvasható [`IChart`](../ichart). |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Meghatározza, hogy a legendabejegyzés rejtett-e. Olvasás/írás Boolean. |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | Meghatározza, hogy a jelmagyarázat bejegyzése rejtett-e. Olvasás/írás Boolean. |
 | [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | Visszaadja a szövegformátumot. Csak olvasható [`IChartTextFormat`](../icharttextformat). |
 
 ### Lásd még

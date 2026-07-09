@@ -1,14 +1,14 @@
 ---
 title: IPortionFactory
 second_title: Aspose.Sildes برای .NET مرجع API
-description: به شما امکان ایجاد بخش‌های تست را می‌دهد
+description: امکان ایجاد بخش‌های تست را فراهم می‌کند
 type: docs
 weight: 6720
 url: /fa/aspose.slides/iportionfactory/
 ---
 ## IPortionFactory رابط
 
-به شما امکان می‌دهد بخش‌های تست را ایجاد کنید
+به ایجاد بخش‌های تست اجازه می‌دهد
 
 ```csharp
 public interface IPortionFactory
@@ -19,14 +19,14 @@ public interface IPortionFactory
 | نام | توضیح |
 | --- | --- |
 | [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | یک بخش متن خالی ایجاد می‌کند. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | یک بخش را با استفاده از داده‌های بخش مشخص شده ایجاد می‌کند. |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | یک بخش متن را از رشته مشخص شده ایجاد می‌کند. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | یک بخش را با استفاده از داده‌های بخش مشخصی ایجاد می‌کند. |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | یک بخش متن را از رشته مشخص ایجاد می‌کند. |
 
-### ملاحظات
+### نکات
 
 برای سازگاری COM
 
-### موارد دیگر
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجوعه [Aspose.Slides](../../)

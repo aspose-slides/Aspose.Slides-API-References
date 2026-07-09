@@ -1,6 +1,6 @@
 ---
 title: FontSources
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Cung cấp các nguồn tệp và bộ nhớ cho phông chữ bên ngoài.
 type: docs
 weight: 4860
@@ -14,11 +14,11 @@ Cung cấp các nguồn tệp và bộ nhớ cho phông chữ bên ngoài.
 public class FontSources : IFontSources
 ```
 
-## Các hàm tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [FontSources](fontsources)() | Tạo các tùy chọn phông chữ mặc định mới. |
+| [FontSources](fontsources)() | Tạo tùy chọn phông chữ mặc định mới. |
 
 ## Thuộc tính
 

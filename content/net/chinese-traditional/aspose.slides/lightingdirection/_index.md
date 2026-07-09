@@ -1,6 +1,6 @@
 ---
 title: LightingDirection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 定義光線方向的常數。
 type: docs
 weight: 7710
@@ -16,7 +16,7 @@ public enum LightingDirection
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | TopLeft | `0` |  |
@@ -28,7 +28,7 @@ public enum LightingDirection
 | BottomLeft | `6` |  |
 | Left | `7` |  |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: SvgExternalFontsHandling
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 텍스트 그리기에 사용되는 외부 글꼴을 처리하는 방법을 나타냅니다.
 type: docs
 weight: 4500
@@ -16,13 +16,13 @@ public enum SvgExternalFontsHandling
 
 ### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | SVG 파일의 스타일 섹션에 개별 글꼴 파일에 대한 링크를 추가합니다. |
+| AddLinksToFontFiles | `0` | SVG 파일의 스타일 섹션에 별도 글꼴 파일에 대한 링크를 추가합니다. |
 | Embed | `1` | 글꼴 데이터를 SVG 파일에 직접 저장합니다. 이 옵션을 사용하기 전에 모든 외부 글꼴 라이선스 계약을 확인하십시오. |
 | Vectorize | `2` | 외부 글꼴을 사용하는 모든 텍스트를 그래픽으로 저장합니다. |
 
-### 참조
+### 관련
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

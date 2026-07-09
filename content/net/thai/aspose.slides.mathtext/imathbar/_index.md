@@ -1,14 +1,14 @@
 ---
 title: IMathBar
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: ระบุฟังก์ชันบาร์ที่ประกอบด้วยอาร์กิวเมนต์ฐานและบาร์เหนือหรือบาร์ล่าง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ระบุฟังก์ชันบาร์ที่ประกอบด้วยอาร์กิวเมนต์ฐานและบาร์เหนือหรือบาร์ใต้
 type: docs
 weight: 8120
 url: /th/aspose.slides.mathtext/imathbar/
 ---
 ## IMathBar อินเทอร์เฟซ
 
-ระบุฟังก์ชันบาร์ ประกอบด้วยอาร์กิวเมนต์ฐานและบาร์เหนือหรือบาร์ล่าง
+ระบุฟังก์ชันบาร์ ซึ่งประกอบด้วยอาร์กิวเมนต์ฐานและบาร์เหนือหรือบาร์ใต้
 
 ```csharp
 public interface IMathBar : IMathElement
@@ -16,11 +16,11 @@ public interface IMathBar : IMathElement
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathElement ฐาน [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathbar/asimathelement) { get; } | อนุญาตให้รับอินเทอร์เฟซ IMathElement ฐาน [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbar/base) { get; } | อาร์กิวเมนต์ฐาน |
-| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | ตำแหน่งของเส้นบาร์ ค่าเริ่มต้น: Top |
+| [Position](../../aspose.slides.mathtext/imathbar/position) { get; set; } | ตำแหน่งของเส้นบาร์ ค่าเริ่มต้น: ด้านบน |
 
 ### ตัวอย่าง
 

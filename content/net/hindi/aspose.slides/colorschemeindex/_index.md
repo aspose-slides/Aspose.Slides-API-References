@@ -1,14 +1,14 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक colorscheme में एक इंडेक्स को दर्शाता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: रंग योजना में एक सूचकांक का प्रतिनिधित्व करता है।
 type: docs
 weight: 2550
 url: /hi/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex एन्यूमरेशन
 
-एक colorscheme में एक इंडेक्स को दर्शाता है।
+रंग योजना में एक सूचकांक का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum ColorSchemeIndex : byte
@@ -18,18 +18,18 @@ public enum ColorSchemeIndex : byte
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Dark1 | `0` | Dark 1. |
-| Light1 | `1` | Light 1. |
-| Dark2 | `2` | Dark 2. |
-| Light2 | `3` | Light 2. |
-| Accent1 | `4` | Accent 1. |
-| Accent2 | `5` | Accent 2. |
-| Accent3 | `6` | Accent 3. |
-| Accent4 | `7` | Accent 4. |
-| Accent5 | `8` | Accent 5. |
-| Accent6 | `9` | Accent 6. |
-| Hyperlink | `10` | Hyperlink. |
-| FollowedHyperlink | `11` | Followed Hyperlink. |
+| Dark1 | `0` | डार्क 1। |
+| Light1 | `1` | लाइट 1। |
+| Dark2 | `2` | डार्क 2। |
+| Light2 | `3` | लाइट 2। |
+| Accent1 | `4` | एक्सेंट 1। |
+| Accent2 | `5` | एक्सेंट 2। |
+| Accent3 | `6` | एक्सेंट 3। |
+| Accent4 | `7` | एक्सेंट 4। |
+| Accent5 | `8` | एक्सेंट 5। |
+| Accent6 | `9` | एक्सेंट 6। |
+| Hyperlink | `10` | हाइपरलिंक। |
+| FollowedHyperlink | `11` | फ़ॉलो किया गया हाइपरलिंक। |
 
 ### संबंधित देखें
 

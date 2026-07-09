@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes per .NET API Reference
-description: Effetto di transizione della diapositiva con direzione d'angolo.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Effetto di transizione diapositiva con direzione d'angolo.
 type: docs
-weight: 9990
+weight: 10010
 url: /it/aspose.slides.slideshow/cornerdirectiontransition/
 ---
-## Classe CornerDirectionTransition
+## CornerDirectionTransition classe
 
-Effetto di transizione della diapositiva con direzione d'angolo.
+Effetto di transizione diapositiva con direzione d'angolo.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | Nome | Descrizione |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Direzione della transizione. Lettura/Scrittura [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Direzione della transizione. Lettura/scrittura [`TransitionCornerDirectionType`](../transitioncornerdirectiontype). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze TransitionValueBase sono uguali. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funge da funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Determina se le due istanze di TransitionValueBase sono uguali. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Funziona come funzione hash per un tipo specifico, adatta per l'uso in algoritmi di hashing e strutture dati come una tabella hash. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: ILineFormat
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho định dạng của một đường.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Mô tả định dạng của một đường.
 type: docs
 weight: 6310
 url: /vi/aspose.slides/ilineformat/
 ---
 ## ILineFormat giao diện
 
-Đại diện cho định dạng của một đường.
+Represents format of a line.
 
 ```csharp
 public interface ILineFormat : ILineParamSource
@@ -18,36 +18,36 @@ public interface ILineFormat : ILineParamSource
 
 | Tên | Mô tả |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Trả về hoặc đặt căn chỉnh đường. Đọc/ghi [`LineAlignment`](../linealignment). |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | Trả về hoặc thiết lập căn chỉnh đường. Đọc/ghi [`LineAlignment`](../linealignment). |
 | [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | Cho phép lấy giao diện ILineParamSource cơ bản. Chỉ đọc [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Trả về hoặc đặt độ dài đầu mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Trả về hoặc đặt kiểu đầu mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Trả về hoặc đặt độ rộng đầu mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Trả về hoặc đặt kiểu đầu mút đường. Đọc/ghi [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Trả về hoặc đặt mẫu dash tùy chỉnh. Đọc/ghi Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Trả về hoặc đặt kiểu dash đường. Đọc/ghi [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Trả về hoặc đặt độ dài đầu mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Trả về hoặc đặt kiểu đầu mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Trả về hoặc đặt độ rộng đầu mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Trả về định dạng tô màu của một đường. Chỉ đọc [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Trả về true nếu định dạng đường chưa được định nghĩa (được tạo mới, mặc định). Chỉ đọc Boolean. |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Trả về hoặc đặt kiểu nối các đường. Đọc/ghi [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Trả về hoặc đặt giới hạn miter của một đường. Đọc/ghi Single. |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Trả về định dạng phác thảo của một đường. Chỉ đọc [`ISketchFormat`](../isketchformat). |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Trả về hoặc đặt kiểu đường. Đọc/ghi [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Trả về hoặc đặt độ rộng của một đường. Đọc/ghi Double. |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | Trả về hoặc thiết lập độ dài mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | Trả về hoặc thiết lập kiểu mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | Trả về hoặc thiết lập độ rộng mũi tên ở đầu đường. Đọc/ghi [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | Trả về hoặc thiết lập kiểu đầu mút đường. Đọc/ghi [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | Trả về hoặc thiết lập mẫu gạch tùy chỉnh. Đọc/ghi Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | Trả về hoặc thiết lập kiểu gạch đường. Đọc/ghi [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | Trả về hoặc thiết lập độ dài mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | Trả về hoặc thiết lập kiểu mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | Trả về hoặc thiết lập độ rộng mũi tên ở cuối đường. Đọc/ghi [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | Trả về định dạng tô bóng của đường. Chỉ đọc [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | Trả về true nếu định dạng đường chưa được định nghĩa (mới tạo, mặc định). Chỉ đọc Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | Trả về hoặc thiết lập kiểu nối các đường. Đọc/ghi [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | Trả về hoặc thiết lập giới hạn miter của đường. Đọc/ghi Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | Trả về định dạng phác thảo của đường. Chỉ đọc [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | Trả về hoặc thiết lập kiểu đường. Đọc/ghi [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | Trả về hoặc thiết lập độ rộng của đường. Đọc/ghi Double. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Xác định xem hai đối tượng LineFormat có bằng nhau hay không. |
-| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Lấy dữ liệu định dạng đường hiệu quả với kế thừa được áp dụng. |
+| [Equals](../../aspose.slides/ilineformat/equals)(ILineFormat) | Xác định xem hai thể hiện LineFormat có bằng nhau không. |
+| [GetEffective](../../aspose.slides/ilineformat/geteffective)() | Lấy dữ liệu định dạng đường thực tế với việc kế thừa đã được áp dụng. |
 
 ### Xem thêm
 
 * giao diện [ILineParamSource](../ilineparamsource)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* tập lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

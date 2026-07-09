@@ -1,20 +1,20 @@
 ---
 title: SystemColor
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 事前定義されたシステム色を表します。
+description: 事前定義されたシステムカラーを表します。
 type: docs
-weight: 10790
+weight: 10810
 url: /ja/aspose.slides/systemcolor/
 ---
-## SystemColor 列挙体
+## SystemColor 列挙型
 
-事前定義されたシステム色を表します。
+事前定義されたシステムカラーを表します。
 
 ```csharp
 public enum SystemColor
 ```
 
-### 値
+### Values
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |

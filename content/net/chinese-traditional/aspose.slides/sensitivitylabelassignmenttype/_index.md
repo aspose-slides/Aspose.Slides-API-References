@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelAssignmentType
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示敏感度標籤的指派方法。
+description: 代表敏感度標籤的指派方式。
 type: docs
 weight: 9800
 url: /zh-hant/aspose.slides/sensitivitylabelassignmenttype/
 ---
 ## SensitivityLabelAssignmentType 列舉
 
-表示敏感度標籤的指派方法。
+代表敏感度標籤的指派方式。
 
 ```csharp
 public enum SensitivityLabelAssignmentType
@@ -18,10 +18,10 @@ public enum SensitivityLabelAssignmentType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Standard | `0` | 用於未由使用者直接套用的任何敏感度標籤。包括任何預設標籤、以及自動套用的標籤。 |
-| Privileged | `1` | 用於由使用者直接套用的任何敏感度標籤。包括任何手動套用的敏感度標籤，以及建議性或強制性的標記，或任何讓使用者自行決定套用哪個敏感度標籤的功能。 |
+| Standard | `0` | 用於任何未由使用者直接套用的敏感度標籤。這包括任何預設標籤、會自動套用的標籤。 |
+| Privileged | `1` | 用於任何由使用者直接套用的敏感度標籤。這包括任何手動套用的敏感度標籤，以及建議或強制標記，或任何讓使用者自行決定套用哪個敏感度標籤的功能。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程式集 [Aspose.Slides](../../)

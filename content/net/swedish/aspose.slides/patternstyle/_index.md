@@ -3,10 +3,10 @@ title: PatternStyle
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar mönsterstilen.
 type: docs
-weight: 9340
+weight: 9360
 url: /sv/aspose.slides/patternstyle/
 ---
-## PatternStyle-enumeration
+## PatternStyle uppräkning
 
 Representerar mönsterstilen.
 

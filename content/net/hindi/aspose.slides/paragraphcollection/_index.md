@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: पैराग्राफ़ों का एक संग्रह दर्शाता है।
+description: एक पैराग्राफ़ का संग्रह दर्शाता है।
 type: docs
 weight: 9290
 url: /hi/aspose.slides/paragraphcollection/
 ---
-## ParagraphCollection वर्ग
+## ParagraphCollection क्लास
 
-एक पैराग्राफ के संग्रह का प्रतिनिधित्व करता है।
+एक पैराग्राफ़ का संग्रह दर्शाता है।
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,35 +18,35 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | संग्रह में वास्तविक रूप से मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
-| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि ICollection केवल-पढ़ने योग्य है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/paragraphcollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | कलेक्शन में वास्तव में मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | ICollection पढ़ने-के-लिए-केवल है या नहीं यह दर्शाने वाला मान प्राप्त करता है। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/paragraphcollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
 
-## मेथड्स
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | संग्रह के अंत में एक Paragraph जोड़ता है। |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | संग्रह के अंत में ParagraphCollection की सामग्री जोड़ता है। |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | निर्दिष्ट html स्ट्रिंग से पाठ को संग्रह में जोड़ता है। |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | निर्दिष्ट html स्ट्रिंग से पाठ को संग्रह में जोड़ता है। |
-| [Clear](../../aspose.slides/paragraphcollection/clear)() | संग्रह से सभी तत्वों को हटाता है। |
-| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | निर्धारित करता है कि ICollection में कोई विशिष्ट मान है या नहीं। |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, जो एक विशिष्ट Array सूचकांक से शुरू होता है। |
-| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | निर्दिष्ट पैराग्राफ को HTML में परिवर्तित करता है और इसे String ऑब्जेक्ट के रूप में वापस करता है। |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के भीतर इटरैट करता है। |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | IList में किसी विशिष्ट वस्तु का सूचकांक निर्धारित करता है। |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | निर्दिष्ट सूचकांक पर संग्रह में एक Paragraph डालता है। |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | निर्दिष्ट सूचकांक पर संग्रह में ParagraphCollection की सामग्री डालता है। |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ICollection से किसी विशिष्ट वस्तु की पहली घटना को हटाता है। |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | संग्रह के निर्दिष्ट सूचकांक पर तत्व को हटाता है। |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | कलेक्शन के अंत में एक Paragraph जोड़ता है। |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | कलेक्शन के अंत में ParagraphCollection की सामग्री जोड़ता है। |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | निर्दिष्ट html स्ट्रिंग से पाठ को कलेक्शन में जोड़ता है। |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | निर्दिष्ट html स्ट्रिंग से पाठ को कलेक्शन में जोड़ता है। |
+| [Clear](../../aspose.slides/paragraphcollection/clear)() | कलेक्शन से सभी तत्वों को हटाता है। |
+| [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | जाँचता है कि ICollection में विशिष्ट मान सम्मिलित है या नहीं। |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | ICollection के तत्वों को एक Array में कॉपी करता है, जो एक विशिष्ट Array अनुक्रमांक से शुरू होता है। |
+| [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | निर्दिष्ट पैराग्राफ़ को HTML में परिवर्तित करता है और उसे String ऑब्जेक्ट के रूप में लौटाता है। |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | एक enumerator लौटाता है जो कलेक्शन के माध्यम से इटररेट करता है। |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | IList में विशिष्ट आइटम का अनुक्रमांक निर्धारित करता है। |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | निर्दिष्ट अनुक्रमांक पर Paragraph को कलेक्शन में सम्मिलित करता है। |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | निर्दिष्ट अनुक्रमांक पर ParagraphCollection की सामग्री को कलेक्शन में सम्मिलित करता है। |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | ICollection से विशिष्ट ऑब्जेक्ट की पहली उपस्थिति को हटाता है। |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | कलेक्शन के निर्दिष्ट अनुक्रमांक पर तत्व को हटाता है। |
 
-### संबंधित देखें
+### देखें भी
 
-* वर्ग [DomObject&lt;TParent&gt;](../domobject-1)
-* वर्ग [TextFrame](../textframe)
+* क्लास [DomObject&lt;TParent&gt;](../domobject-1)
+* क्लास [TextFrame](../textframe)
 * इंटरफ़ेस [IParagraphCollection](../iparagraphcollection)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

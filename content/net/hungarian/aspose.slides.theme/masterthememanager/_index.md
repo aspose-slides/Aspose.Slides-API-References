@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
 second_title: Aspose.Sildes a .NET API referencia
-description: Hozzáférést biztosít a prezentáció mester témájához.
+description: Hozzáférést biztosít a bemutató mester témához.
 type: docs
-weight: 11420
+weight: 11440
 url: /hu/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager osztály
 
-Hozzáférést biztosít a prezentáció mester témájához.
+Hozzáférést biztosít a bemutató mester témához.
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -16,17 +16,17 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Megállapítja, hogy az OverrideTheme felülírja-e a örökölt hatékony témát (Presentation.MasterTheme), vagy sem. Olvasás/írás Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Visszaadja a felülíró témaobjektumot. Olvasás/írás [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | Meghatározza, hogy az OverrideTheme felülírja-e a örökölt hatékony témát (Presentation.MasterTheme) vagy sem. Olvasás/írás Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | Visszaadja a felülbíráló téma objektumot. Olvasás/írás [`IMasterTheme`](../imastertheme). |
 
 ## Módszerek
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | Alkalmaz egy extra színsémát a diára. |
-| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Visszaadja a témaobjektumot. |
+| [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | Visszaadja a téma objektumot. |
 
 ### Lásd még
 

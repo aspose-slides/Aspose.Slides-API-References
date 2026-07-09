@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/imultiplecellchartvalue/
 ---
 ## IMultipleCellChartValue 인터페이스
 
-차트 셀의 컬렉션을 나타냅니다.
+chart cells 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IMultipleCellChartValue : IBaseChartValue
@@ -18,7 +18,7 @@ public interface IMultipleCellChartValue : IBaseChartValue
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | 차트 셀 컬렉션을 가져오거나 설정합니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
+| [AsCells](../../aspose.slides.charts/imultiplecellchartvalue/ascells) { get; set; } | chart cells 컬렉션을 반환하거나 설정합니다. 읽기/쓰기 [`IChartCellCollection`](../ichartcellcollection). |
 | [AsIBaseChartValue](../../aspose.slides.charts/imultiplecellchartvalue/asibasechartvalue) { get; } | 기본 IBaseChartValue 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBaseChartValue`](../ibasechartvalue). |
 
 ### 참고

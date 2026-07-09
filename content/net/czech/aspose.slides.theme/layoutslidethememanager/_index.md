@@ -1,9 +1,9 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes pro .NET API reference
+second_title: Aspose.Sildes pro .NET API Reference
 description: Poskytuje přístup k přepsanému motivu rozložení snímku.
 type: docs
-weight: 11390
+weight: 11410
 url: /cs/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager třída
@@ -19,13 +19,13 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 | Název | Popis |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Určuje, zda OverrideTheme přepisuje zděděný účinný motiv nebo ne. Pro povolení přepisování OverrideTheme použijte metody OverrideTheme.Init*(). Pro zakázání přepisování OverrideTheme použijte metodu OverrideTheme.Clear(). Pouze pro čtení Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací přepisující objekt motivu. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Vrací objekt přepisující motiv. Čtení/zápis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Aplikuje extra barevné schéma na snímek. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Použije doplňkové schéma barev na snímek. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Vrací objekt motivu. |
 
 ### Viz také

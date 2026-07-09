@@ -1,14 +1,14 @@
 ---
 title: IBaseSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: すべてのスライドタイプに対して、フッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+description: すべてのスライドタイプに対してフッター、日付時刻、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
 type: docs
-weight: 5330
+weight: 5350
 url: /ja/aspose.slides/ibaseslideheaderfootermanager/
 ---
 ## IBaseSlideHeaderFooterManager インターフェイス
 
-すべてのスライドタイプに対してフッター、日時、ページ番号プレースホルダーの動作を保持するマネージャーを表します。
+すべてのスライドタイプに対してフッター、日付時刻、ページ番号のプレースホルダーの動作を保持するマネージャーを表します。
 
 ```csharp
 public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
@@ -27,8 +27,8 @@ public interface IBaseSlideHeaderFooterManager : IBaseHeaderFooterManager
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | スライドの日時プレースホルダーにテキストを設定します。 |
-| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日時プレースホルダーの表示状態を変更します。 |
+| [SetDateTimeText](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimetext)(string) | スライドの日付時刻プレースホルダーにテキストを設定します。 |
+| [SetDateTimeVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日付時刻プレースホルダーの表示状態を変更します。 |
 | [SetFooterText](../../aspose.slides/ibaseslideheaderfootermanager/setfootertext)(string) | スライドのフッタープレースホルダーにテキストを設定します。 |
 | [SetFooterVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setfootervisibility)(bool) | スライドのフッタープレースホルダーの表示状態を変更します。 |
 | [SetSlideNumberVisibility](../../aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility)(bool) | スライドのページ番号プレースホルダーの表示状態を変更します。 |

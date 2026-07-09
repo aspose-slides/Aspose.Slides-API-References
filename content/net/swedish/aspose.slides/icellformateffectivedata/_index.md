@@ -1,14 +1,14 @@
 ---
 title: ICellFormatEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva formateringsegenskaper för tabellceller.
+description: Oföränderligt objekt som innehåller effektiva formateringsattribut för tabellceller.
 type: docs
-weight: 5460
+weight: 5480
 url: /sv/aspose.slides/icellformateffectivedata/
 ---
 ## ICellFormatEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva tabellcellformaterings-egenskaper.
+Oföränderligt objekt som innehåller effektiva formaterings-egenskaper för tabellceller.
 
 ```csharp
 public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,14 +16,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## Egenskaper
 
-| Name | Description |
+| Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData-gränssnittet. Läs-endast [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Hämtar genomskinligheten för fyllningsfärgen. Läs Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | Tillåter att hämta bas-IBaseTableFormatEffectiveData-gränssnittet. Skrivskyddad [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | Hämtar genomskinligheten för fyllningsfärgen. Läser Single. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ICellFormat`](../icellformat) gränssnittet för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
+Detta gränssnitt används tillsammans med [`ICellFormat`](../icellformat)-gränssnittet för att returnera effektiva formateringsvärden med arv och tabellstilar tillämpade.
 
 ### Se även
 

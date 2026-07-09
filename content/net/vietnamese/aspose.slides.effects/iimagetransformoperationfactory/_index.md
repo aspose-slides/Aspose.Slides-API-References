@@ -26,19 +26,19 @@ public interface IImageTransformOperationFactory
 | [CreateAlphaReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createalphareplace)(float) | Tạo hiệu ứng Alpha replace. |
 | [CreateAlphCeiling](../../aspose.slides.effects/iimagetransformoperationfactory/createalphceiling)() | Tạo hiệu ứng Alpha Ceiling. |
 | [CreateBiLevel](../../aspose.slides.effects/iimagetransformoperationfactory/createbilevel)(float) | Tạo hiệu ứng BiLevel. |
-| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double,bool) | Tạo hiệu ứng Blur. |
+| [CreateBlur](../../aspose.slides.effects/iimagetransformoperationfactory/createblur)(double, bool) | Tạo hiệu ứng Blur. |
 | [CreateColorChange](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorchange)() | Tạo hiệu ứng Color change. |
 | [CreateColorReplace](../../aspose.slides.effects/iimagetransformoperationfactory/createcolorreplace)() | Tạo hiệu ứng Color replace. |
 | [CreateDuotone](../../aspose.slides.effects/iimagetransformoperationfactory/createduotone)() | Tạo hiệu ứng Duotone. |
 | [CreateFillOverlay](../../aspose.slides.effects/iimagetransformoperationfactory/createfilloverlay)() | Tạo hiệu ứng Fill overlay. |
 | [CreateGrayScale](../../aspose.slides.effects/iimagetransformoperationfactory/creategrayscale)() | Tạo hiệu ứng Gray scale. |
-| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float,float,float) | Tạo hiệu ứng Hue Saturation Luminance. |
-| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float,float) | Tạo hiệu ứng Luminance. |
-| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float,float) | Tạo hiệu ứng Tint. |
+| [CreateHSL](../../aspose.slides.effects/iimagetransformoperationfactory/createhsl)(float, float, float) | Tạo hiệu ứng Hue Saturation Luminance. |
+| [CreateLuminance](../../aspose.slides.effects/iimagetransformoperationfactory/createluminance)(float, float) | Tạo hiệu ứng Luminance. |
+| [CreateTint](../../aspose.slides.effects/iimagetransformoperationfactory/createtint)(float, float) | Tạo hiệu ứng Tint. |
 
 ### Ghi chú
 
-Đối với giao diện COM.
+Cho giao diện COM.
 
 ### Xem thêm
 

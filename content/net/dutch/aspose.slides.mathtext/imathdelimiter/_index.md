@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het delimiter-object bestaande uit opening- en sluittekens zoals haakjes, accolades, vierkante haken en verticale strepen, en één of meer wiskundige elementen daarin, gescheiden door een opgegeven teken. Voorbeelden 2 2x7C2
+description: Specificeert het scheidingstekenobject dat bestaat uit opening- en sluitingskarakters zoals haakjes, accolades, vierkante haken en verticale strepen, en één of meer wiskundige elementen erin, gescheiden door een opgegeven teken. Voorbeelden 2 2x7C2
 type: docs
 weight: 8210
 url: /nl/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter interface
 
-Specificeert het delimiter-object, bestaande uit open- en sluittekens (zoals haakjes, accolades, vierkante haken en verticale strepen), en één of meer wiskundige elementen daarin, gescheiden door een opgegeven teken. Voorbeelden: (𝑥2); [𝑥2&#x7C;𝑦2]
+Specificeert het scheidingstekenobject, bestaande uit openings- en sluitingstekens (zoals haakjes, accolades, vierkante haken en verticale strepen), en één of meer wiskundige elementen erin, gescheiden door een opgegeven teken. Voorbeelden: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -16,21 +16,21 @@ public interface IMathDelimiter : IMathElement
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Een of meer wiskundige elementen gescheiden door delimitertekens |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Staat toe om de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character specificeert het beginnende, oftewel opening, delimiter-teken. Wiskundige delimiters zijn omsluitende tekens zoals haakjes, vierkante haken en accolades. Standaardwaarde: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Specificeert de vorm van delimiters in het delimiter-object. Wanneer MathDelimiterShape.Centered, zijn delimiters gecentreerd rond de wiskunde-as van de wiskundige tekst en passen ze zich nog steeds aan om de volledige hoogte van hun inhoud te omvatten. Wanneer MathDelimiterShape.Match, worden hun hoogte en vorm aangepast om precies overeen te komen met hun inhoud. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character specificeert het eindende, oftewel sluitende, delimiter-teken. Wiskundige delimiters zijn omsluitende tekens zoals haakjes, vierkante haken en accolades. Standaard: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Specificeert de groei van BeginningCharacter, SeparatorCharacter, EndingCharacter. Wanneer true, groeien de delimiters verticaal om overeen te komen met de operand-hoogte. Standaardwaarde is true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character specificeert het teken dat argumenten scheidt in het delimiter-object. Standaard: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Een of meer wiskundige elementen gescheiden door scheidingstekens |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Staat toe de basis IMathElement interface op te halen [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character specificeert het beginnende, of opening, scheidingsteken-teken. Wiskundige scheidingstekens zijn omsluitende tekens zoals haakjes, vierkante haken en accolades. De standaardwaarde: '('. |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Specificeert de vorm van scheidingstekens in het scheidingstekenobject. Wanneer MathDelimiterShape.Centered, worden scheidingstekens gecentreerd rond de wiskundige as van de wiskundige tekst en passen ze zich aan om de volledige hoogte van hun inhoud te benutten. Wanneer MathDelimiterShape.Match, worden hun hoogte en vorm aangepast zodat ze precies overeenkomen met hun inhoud. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character specificeert het eindigende, of closing, scheidingsteken-teken. Wiskundige scheidingstekens zijn omsluitende tekens zoals haakjes, vierkante haken en accolades. Standaard: ')'. |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | Specificeert de groei van BeginningCharacter, SeparatorCharacter, EndingCharacter. Wanneer true, groeien de scheidingstekens verticaal om de hoogte van hun operand te evenaren. Standaardwaarde is true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character specificeert het teken dat argumenten scheidt in het scheidingstekenobject. Standaard: '&#x7C;'. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Begrenst argumenten met het opgegeven delimiter-teken |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Scheidt argumenten met behulp van het gespecificeerde scheidingsteken |
 
 ### Voorbeelden
 

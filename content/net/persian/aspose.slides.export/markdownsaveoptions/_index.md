@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions
 second_title: مرجع API Aspose.Sildes برای .NET
-description: گزینه‌هایی را نشان می‌دهد که نحوهٔ ذخیرهٔ ارائه به فرمت مارک‌داون را کنترل می‌کنند.
+description: نمایانگر گزینه‌هایی است که نحوه ذخیره‌سازی ارائه به markdown را کنترل می‌کند.
 type: docs
 weight: 4250
 url: /fa/aspose.slides.export/markdownsaveoptions/
 ---
-## MarkdownSaveOptions کلاس
+## کلاس MarkdownSaveOptions
 
-گزینه‌هایی را که نحوهٔ ذخیرهٔ ارائه به فرمت مارک‌داون را کنترل می‌کنند، نشان می‌دهد.
+نمایانگر گزینه‌هایی که نحوه ذخیره‌سازی ارائه به markdown را کنترل می‌کند.
 
 ```csharp
 public class MarkdownSaveOptions : SaveOptions
@@ -20,26 +20,26 @@ public class MarkdownSaveOptions : SaveOptions
 | --- | --- |
 | [MarkdownSaveOptions](markdownsaveoptions)() | سازنده. |
 
-## خصوصیات
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | مسیر پایه‌ای را که سند همراه با منابع در آن ذخیره می‌شود، مشخص می‌کند. مقدار پیش‌فرض، پوشهٔ فعلی برنامه است. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی را که در صورت عدم یافتن فونت منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. قابل خواندن و نوشتن String. |
-| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | مشخصات مارک‌داون را برای تبدیل ارائه تعیین می‌کند. مقدار پیش‌فرض `TextOnly` است. |
-| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | مشخصات مارک‌داون را برای تبدیل ارائه تعیین می‌کند. مقدار پیش‌فرض `Multi-markdown` است. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | مسیر پایه‌ای که سند همراه با منابع در آن ذخیره می‌شود را مشخص می‌کند. پیش‌فرض پوشهٔ جاری برنامه است. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | فونتی که در صورت عدم یافتن فونت منبع استفاده می‌شود را برمی‌گرداند یا تنظیم می‌کند. قابل‌نوشتن String. |
+| [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | مشخصات markdown برای تبدیل ارائه را تعیین می‌کند. پیش‌فرض `TextOnly` است. |
+| [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | مشخصات markdown برای تبدیل ارائه را تعیین می‌کند. پیش‌فرض `Multi-markdown` است. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. قابل‌نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
-| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | نام پوشه‌ای که تصاویر در آن ذخیره می‌شوند را تعیین می‌کند. مقدار پیش‌فرض `Images` است. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | مشخص می‌کند که آیا سند تولید شده باید خطوط جدید \\r (Macintosh) یا \\n (Unix) یا \\r\\n (Windows) داشته باشد. مقدار پیش‌فرض `Unix` است. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء فراخوانی برگشتی برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نمایندگی می‌کند. نگاه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | اگر به `true` تنظیم شود، خطوط خالی یا فقط شامل فاصله را از خروجی نهایی Markdown حذف می‌کند. مقدار پیش‌فرض `false` است. |
-| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | مشخص می‌کند که آیا سند تولید شده باید نظرات را نشان دهد یا خیر. مقدار پیش‌فرض `false` است. |
-| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | مشخص می‌کند که آیا سند تولید شده باید اسلایدهای مخفی را شامل شود یا خیر. مقدار پیش‌فرض `false` است. |
-| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | مشخص می‌کند که آیا سند تولید شده باید شماره هر اسلاید را نشان دهد یا خیر. مقدار پیش‌فرض `false` است. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیرهٔ ارائه، پیوندهای همیرا با فراخوانی‌های JavaScript نادیده گرفته شوند یا نه. قابل خواندن/نوشتن Boolean. مقدار پیش‌فرض **false** است. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | رشته قالبی را که برای سربرگ شماره اسلاید در خروجی Markdown استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. این قالب باید جای‌گذاری "{0}" را داشته باشد که در زمان خروجی با شاخص اسلاید جایگزین می‌شود. مثال: "# Slide {0}" منجر به "# Slide 1"، "# Slide 2" و غیره می‌شود. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود، برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | نام پوشه‌ای که تصاویر در آن ذخیره می‌شوند را مشخص می‌کند. پیش‌فرض `Images` است. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | تعیین می‌کند که سند تولید شده از خطوط جدید \\r(Macintosh) یا \\n(Unix) یا \\r\\n(Windows) استفاده کند. پیش‌فرض `Unix` است. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء callback برای به‌روزرسانی درصد پیشرفت ذخیره‌سازی را نشان می‌دهد. نگاه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | اگر به `true` تنظیم شود، خطوط خالی یا فقط شامل فضای سفید را از خروجی نهایی Markdown حذف می‌کند. پیش‌فرض `false` است. |
+| [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | تعیین می‌کند که سند تولید شده نظرات را نمایش دهد یا نه. پیش‌فرض `false` است. |
+| [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | تعیین می‌کند که سند تولید شده اسلایدهای پنهان را شامل شود یا نه. پیش‌فرض `false` است. |
+| [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | تعیین می‌کند که سند تولید شده شماره هر اسلاید را نشان دهد یا نه. پیش‌فرض `false` است. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | تعیین می‌کند که هنگام ذخیره‌سازی ارائه، لینک‌های فراخوانی JavaScript نادیده گرفته شوند یا نه. قابل‌نوشتن Boolean. مقدار پیش‌فرض **false** است. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | قالب رشته‌ای که برای سرعنوان شماره اسلاید در خروجی Markdown استفاده می‌شود را برمی‌گرداند یا تنظیم می‌کند. قالب باید متغیر «{0}» را شامل شود که در زمان صادرات با شماره اسلاید جایگزین می‌شود. مثال: «# Slide {0}» به «# Slide 1»، «# Slide 2» و غیره تبدیل می‌شود. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء که هشدارها را دریافت کرده و تصمیم می‌گیرد فرآیند بارگذاری ادامه یابد یا لغو شود را برمی‌گرداند یا تنظیم می‌کند. قابل‌نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
@@ -66,6 +66,6 @@ using (Presentation pres = new Presentation("pres.pptx"))
 
 * کلاس [SaveOptions](../saveoptions)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مجوعه [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

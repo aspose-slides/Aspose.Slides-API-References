@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Változtathatatlan objektum, amely egy csak olvasható hatékony vonalformátumok gyűjteményt képvisel.
+second_title: Aspose.Sildes .NET API referencia
+description: Változtathatatlan objektum, amely a hatékony vonalformátumok csak olvasható gyűjteményét képviseli.
 type: docs
-weight: 11280
+weight: 11300
 url: /hu/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData interfész
 
-Változtathatatlan objektum, amely egy csak olvasható hatékony vonalformátumok gyűjteményt képvisel.
+Változtathatatlan objektum, amely a hatékony vonalformátumok csak olvasható gyűjteményét képviseli.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,11 +18,11 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Lekéri az elemet a megadott indexnél. Csak olvasható [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) részeként használatos.
+Ez az interfész a(z) [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) részeként használatos.
 
 ### Lásd még
 

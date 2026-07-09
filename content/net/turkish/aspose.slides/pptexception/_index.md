@@ -1,14 +1,14 @@
 ---
 title: PptException
-second_title: Aspose.Sildes için .NET API Referansı
-description: Standart bir dahili istisna türünü temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Standart bir iç istisna türünü temsil eder.
 type: docs
-weight: 9500
+weight: 9520
 url: /tr/aspose.slides/pptexception/
 ---
-## PptException sınıfı
+## PptException sınıf
 
-Standart bir dahili istisna türünü temsil eder.
+Bir standart iç istisna türünü temsil eder.
 
 ```csharp
 public class PptException : Exception

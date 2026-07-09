@@ -1,14 +1,14 @@
 ---
 title: IEffectStyle
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของสไตล์เอฟเฟกต์.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: เป็นตัวแทนของสไตล์เอฟเฟ็กต์.
 type: docs
 weight: 11170
 url: /th/aspose.slides.theme/ieffectstyle/
 ---
 ## IEffectStyle อินเทอร์เฟซ
 
-เป็นตัวแทนของสไตล์เอฟเฟกต์.
+เป็นตัวแทนของสไตล์เอฟเฟ็กต์
 
 ```csharp
 public interface IEffectStyle
@@ -18,8 +18,8 @@ public interface IEffectStyle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | คืนค่าเป็นรูปแบบเอฟเฟกต์. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | คืนค่าเป็นรูปแบบ 3d. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyle/effectformat) { get; } | คืนค่าแบบฟอร์แมตเอฟเฟ็กต์. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyle/threedformat) { get; } | คืนค่าแบบฟอร์แมต 3d. อ่านอย่างเดียว [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 
 ### ดูเพิ่มเติม
 

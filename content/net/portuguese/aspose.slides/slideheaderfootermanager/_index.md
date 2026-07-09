@@ -1,9 +1,9 @@
 ---
 title: SlideHeaderFooterManager
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa o gerenciador que mantém o comportamento dos marcadores de rodapé, data/hora e número de página dos slides.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o gerenciador que contém o comportamento dos marcadores de rodapé, data/hora e número de página do slide.
 type: docs
-weight: 9960
+weight: 9980
 url: /pt/aspose.slides/slideheaderfootermanager/
 ---
 ## SlideHeaderFooterManager classe
@@ -27,13 +27,13 @@ public sealed class SlideHeaderFooterManager : BaseSlideHeaderFooterManager,
 
 | Nome | Descrição |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Define o texto para o marcador de data/hora do slide. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Define o texto no marcador de data/hora do slide. |
 | [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Altera a visibilidade do marcador de data/hora do slide. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Define o texto para o marcador de rodapé do slide. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Define o texto no marcador de rodapé do slide. |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Altera a visibilidade do marcador de rodapé do slide. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Altera a visibilidade do marcador de número de página do slide. |
 
-### Veja Também
+### Veja também
 
 * classe [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * interface [ISlideHeaderFooterManager](../islideheaderfootermanager)

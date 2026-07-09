@@ -1,14 +1,14 @@
 ---
 title: ReturnAction
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά επιλογές απόφασης κλήσης επιστροφής προειδοποίησης.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τις επιλογές λήψης απόφασης προειδοποίησης callback.
 type: docs
-weight: 11800
+weight: 11820
 url: /el/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction απαρίθμηση
 
-Αναπαριστά επιλογές απόφασης για την κλήση επιστροφής προειδοποίησης.
+Αναπαριστά τις επιλογές λήψης απόφασης για προειδοποίηση callback.
 
 ```csharp
 public enum ReturnAction
@@ -19,7 +19,7 @@ public enum ReturnAction
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
 | Continue | `0` | Η λειτουργία πρέπει να συνεχιστεί. |
-| Abort | `1` | Η λειτουργία πρέπει να ακυρωθεί. |
+| Abort | `1` | Η λειτουργία πρέπει να τερματιστεί. |
 
 ### Δείτε επίσης
 

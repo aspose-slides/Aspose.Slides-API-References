@@ -1,14 +1,14 @@
 ---
 title: ISpreadsheetOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft opties weer die kunnen worden gebruikt om aanvullend spreadsheet-gedrag op te geven.
+description: Stelt opties voor die kunnen worden gebruikt om extra spreadsheetgedrag op te geven.
 type: docs
 weight: 7120
 url: /nl/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions interface
 
-Vertegenwoordigt opties die gebruikt kunnen worden om extra spreadsheet-gedrag op te geven.
+Stelt opties voor die kunnen worden gebruikt om extra spreadsheetgedrag op te geven.
 
 ```csharp
 public interface ISpreadsheetOptions
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Haalt of stelt de gewenste cultuurinformatie in voor het berekenen van enkele functies die bedoeld zijn voor gebruik met talen die de dubbel-byte tekenset (DBCS) gebruiken. |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Als de gegevensbron voor de grafiek een extern werkboek is en deze niet beschikbaar is, wordt deze hersteld uit de grafiekcache. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Geeft de voorkeurscultuurinformatie op of stelt deze in voor het berekenen van sommige functies bedoeld voor gebruik met talen die de dubbelbyte-karakters set (DBCS) gebruiken. |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Als de gegevensbron voor de grafiek een extern werkboek is en deze niet beschikbaar is, wordt deze hersteld uit de cache van de grafiek. |
 
 ### Zie ook
 

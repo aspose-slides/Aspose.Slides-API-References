@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot layout slide theme overschreven.
+description: Biedt toegang tot het overschreven lay-out slide-thema.
 type: docs
 weight: 11410
 url: /nl/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager klasse
 
-Biedt toegang tot de layout slide theme overschreven.
+Biedt toegang tot het overschreven lay-out slide-thema.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,15 +18,15 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Naam | Beschrijving |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme de geërfde effectieve theme overschrijft al dan niet. Om OverrideTheme in te schakelen voor overschrijven, gebruik OverrideTheme.Init*() methoden. Om OverrideTheme uit te schakelen voor overschrijven, gebruik OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geeft het overschrijvende theme object terug. Lezen/schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme in te schakelen voor overschrijven, gebruik de OverrideTheme.Init*() methoden. Om OverrideTheme uit te schakelen voor overschrijven, gebruik de OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende thema-object. Lees/schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past extra color scheme toe op een slide. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Geeft het theme object terug. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenschema toe op een dia. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het thema-object. |
 
 ### Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: ITab इंस्टेंस बनाने की अनुमति देता है
 type: docs
 weight: 10850
@@ -8,19 +8,19 @@ url: /hi/aspose.slides/tabfactory/
 ---
 ## TabFactory क्लास
 
-ITab इंस्टेंस बनाने की अनुमति देता है
+ITab उदाहरण बनाने की अनुमति देता है
 
 ```csharp
 public class TabFactory : ITabFactory
 ```
 
-## निर्माताओं
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
 | [TabFactory](tabfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
@@ -30,7 +30,7 @@ public class TabFactory : ITabFactory
 
 COM संगतता के लिए।
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ITabFactory](../itabfactory)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

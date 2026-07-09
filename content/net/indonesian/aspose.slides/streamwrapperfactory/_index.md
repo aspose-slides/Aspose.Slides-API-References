@@ -3,7 +3,7 @@ title: StreamWrapperFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Fabrik StreamWrappers. Untuk antarmuka COM.
 type: docs
-weight: 10740
+weight: 10760
 url: /id/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory kelas
@@ -18,7 +18,7 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [StreamWrapperFactory](streamwrapperfactory)() | Konstruktor default. |
+| [StreamWrapperFactory](streamwrapperfactory)() | Konstruktor bawaan. |
 
 ## Metode
 

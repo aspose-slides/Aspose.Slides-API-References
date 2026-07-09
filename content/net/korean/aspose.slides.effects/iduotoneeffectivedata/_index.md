@@ -1,20 +1,20 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes for .NET API 참조
-description: Duotone 효과를 나타내는 불변 객체입니다. 각 픽셀에 대해 clr1과 clr2를 선형 보간하여 해당 픽셀의 새로운 색상을 결정합니다.
+description: Duotone 효과를 나타내는 불변 객체입니다. 각 픽셀에 대해 clr1와 clr2를 선형 보간하여 해당 픽셀의 새로운 색상을 결정합니다.
 type: docs
 weight: 3270
 url: /ko/aspose.slides.effects/iduotoneeffectivedata/
 ---
-## IDuotoneEffectiveData interface
+## IDuotoneEffectiveData 인터페이스
 
-Duotone 효과를 나타내는 불변 객체입니다. 각 픽셀에 대해 clr1과 clr2를 선형 보간하여 해당 픽셀의 새로운 색상을 결정합니다.
+불변 객체로서 Duotone 효과를 나타냅니다. 각 픽셀에 대해 clr1과 clr2를 선형 보간하여 해당 픽셀의 새로운 색상을 결정합니다.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
 ```
 
-## 속성
+## Properties
 
 | 이름 | 설명 |
 | --- | --- |
@@ -22,7 +22,7 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 어두운 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 Color. |
 | [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 밝은 픽셀에 대한 대상 색상 형식을 반환합니다. 읽기 전용 Color. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

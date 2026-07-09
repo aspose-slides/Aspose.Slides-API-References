@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
-description: Oföränderligt objekt som innehåller effektiva textstilsegenskaper.
+description: Omuterligt objekt som innehåller effektiva textstils-egenskaper.
 type: docs
-weight: 7300
+weight: 7320
 url: /sv/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData gränssnitt
 
-Oföränderligt objekt som innehåller effektiva textstilsegenskaper.
+Omuterligt objekt som innehåller effektiva textstilsegenskaper.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,17 +18,17 @@ public interface ITextStyleEffectiveData
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Returnerar effektiva standardparagrafsegenskaper. Skrivskyddad [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | Returnerar effektiva standardparagraf-egenskaper. Läs-endast [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Returnerar nivå för effektiv stil. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | Returnerar nivån för den effektiva stilen. |
 
 ### Anmärkningar
 
-Detta gränssnitt används tillsammans med [`ITextStyle`](../itextstyle) gränssnittet för att returnera effektiva formateringsvärden med arv tillämpat.
+Detta gränssnitt används tillsammans med [`ITextStyle`](../itextstyle) gränssnittet för att returnera effektiva formateringsvärden med ärftlighet tillämpad.
 
 ### Se även
 

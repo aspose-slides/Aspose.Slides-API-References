@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει ένα εφέ Alpha Modulate. Οι τιμές alpha (αδιαφάνειας) του εφέ πολλαπλασιάζονται με ένα σταθερό ποσοστό. Το κοντέινερ εφέ καθορίζει ένα εφέ που περιέχει τιμές alpha για διαμόρφωση.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει ένα εφέ Alpha Modulate. Οι τιμές αλφα (διαφάνειας) του εφέ πολλαπλασιάζονται με ένα σταθερό ποσοστό. Το δοχείο του εφέ καθορίζει ένα εφέ που περιέχει τιμές αλφα για διαμόρφωση.
 type: docs
-weight: 2860
+weight: 2880
 url: /el/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate κλάση
 
-Αντιπροσωπεύει ένα εφέ Alpha Modulate. Οι τιμές alpha (αδιαφάνειας) του εφέ πολλαπλασιάζονται με ένα σταθερό ποσοστό. Το κοντέινερ εφέ καθορίζει ένα εφέ που περιέχει τιμές alpha για διαμόρφωση.
+Αντιπροσωπεύει ένα εφέ Alpha Modulate. Οι τιμές αλφα (διαφάνειας) του εφέ πολλαπλασιάζονται με ένα σταθερό ποσοστό. Το δοχείο του εφέ καθορίζει ένα εφέ που περιέχει τιμές αλφα για διαμόρφωση.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,15 +18,15 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την απόκτηση της βασικής IPresentationComponent διεπαφής. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Καθορίζει εάν το συγκεκριμένο [`AlphaModulate`](../alphamodulate) είναι ίσο με το τρέχον [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα εφέ Alpha Modulate με την κληρονομική εφαρμογή. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Καθορίζει εάν το καθορισμένο [`AlphaModulate`](../alphamodulate) είναι ίσο με το τρέχον [`AlphaModulate`](../alphamodulate). |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα του εφέ Alpha Modulate με την εφαρμογή κληρονομικότητας. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 

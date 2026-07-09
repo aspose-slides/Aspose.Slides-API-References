@@ -3,7 +3,7 @@ title: Control
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en ActiveX-kontroll.
 type: docs
-weight: 2670
+weight: 2690
 url: /sv/aspose.slides/control/
 ---
 ## Kontrollklass
@@ -18,13 +18,13 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Anger beständigheten för en ActiveX-kontroll när metoden som används för att behålla är antingen PersistStream, PersistStreamInit eller PersistStorage. |
-| [ClassId](../../aspose.slides/control/classid) { get; set; } | Hämtar klass-ID för denna kontroll. Skrivskyddad Guid. |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | Anger beständigheten för en ActiveX-kontroll när metoden som används för att bestå är antingen PersistStream, PersistStreamInit eller PersistStorage. |
+| [ClassId](../../aspose.slides/control/classid) { get; set; } | Hämtar klass-id för den här kontrollen. Skrivskyddad Guid. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | Returnerar eller anger kontrollens ram. Läs/skriv [`IShapeFrame`](../ishapeframe). |
-| [Name](../../aspose.slides/control/name) { get; set; } | Hämtar eller anger namnet på denna kontroll. Läs/skriv String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | Hämtar metoden som används för att lagra egenskaper för ActiveX-kontrollen. Läs-endast [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | Returnerar en samling av ActiveX-egenskaper. Obs: Aspose.Slides stöder endast XML-baserade ActiveX-egenskaper. Om egenskaper lagras i binärt format kommer denna egenskap att returnera null. Skrivskyddad [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
-| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Returnerar Control-bildfyllnads-egenskaps-objekt. Skrivskyddad [`IPictureFillFormat`](../ipicturefillformat). |
+| [Name](../../aspose.slides/control/name) { get; set; } | Hämtar eller anger namnet på den här kontrollen. Läs/skriv String. |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | Hämtar metoden som används för att lagra egenskaperna för ActiveX-kontrollen. Skrivskyddad [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | Returnerar en samling av ActiveX-egenskaper. Obs: Aspose.Slides stödjer endast XML-baserade ActiveX-egenskaper. Om egenskaperna lagras i binärt format kommer denna egenskap att returnera null. Skrivskyddad [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Returnerar Control-bildfyllnings-egenskaps-objektet. Skrivskyddad [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### Se även
 

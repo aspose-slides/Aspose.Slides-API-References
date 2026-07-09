@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: लेआउट स्लाइड में प्लेसहोल्डर जोड़ने की अनुमति देने वाला प्रबंधक दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक प्रबंधक को दर्शाता है जो आपको लेआउट स्लाइड में प्लेसहोल्डर जोड़ने की अनुमति देता है।
 type: docs
 weight: 7630
 url: /hi/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager क्लास
 
-लेआउट स्लाइड में प्लेसहोल्डर जोड़ने के लिए अनुमति देने वाला मैनेजर दर्शाता है।
+एक प्रबंधक को दर्शाता है जो आपको लेआउट स्लाइड में प्लेसहोल्डर जोड़ने की अनुमति देता है।
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,21 +18,21 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | नाम | विवरण |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | लेआउट स्लाइड पर चार्ट रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | लेआउट स्लाइड पर चित्र, तालिका, मीडिया या पाठ जैसी सामग्री रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | लेआउट स्लाइड पर मीडिया ऑब्जेक्ट रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | लेआउट स्लाइड पर ऑनलाइन छवि रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | लेआउट स्लाइड पर चित्र रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | लेआउट स्लाइड पर SmartArt आरेख रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | लेआउट स्लाइड पर तालिका रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | लेआउट स्लाइड पर पाठ सामग्री रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | लेआउट स्लाइड पर चित्र, तालिका, मीडिया या पाठ जैसी सामग्री को ऊर्ध्वाधर दिशा में रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | लेआउट स्लाइड पर पाठ सामग्री को ऊर्ध्वाधर दिशा में रखने के लिए नया प्लेसहोल्डर आकार जोड़ता है। |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो चार्ट को रखता है। |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो सामग्री, जैसे चित्र, तालिका, मीडिया या पाठ को रखता है। |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो मीडिया ऑब्जेक्ट को रखता है। |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो ऑनलाइन छवि को रखता है। |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो चित्र को रखता है। |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो SmartArt डायग्राम को रखता है। |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो तालिका को रखता है। |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो पाठ सामग्री को रखता है। |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो सामग्री, जैसे चित्र, तालिका, मीडिया या पाठ को ऊर्ध्वाधर दिशा में रखता है। |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | लेआउट स्लाइड में एक नया प्लेसहोल्डर आकार जोड़ता है जो पाठ सामग्री को ऊर्ध्वाधर दिशा में रखता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

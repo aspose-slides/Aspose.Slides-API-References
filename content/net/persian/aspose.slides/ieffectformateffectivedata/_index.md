@@ -1,14 +1,14 @@
 ---
 title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء غیرقابل تغییر که شامل ویژگی‌های قالب‌بندی اثر مؤثر است.
+description: شیء غیرقابل تغییر که شامل ویژگی‌های فرمت‌بندی مؤثر اثر است.
 type: docs
 weight: 5750
 url: /fa/aspose.slides/ieffectformateffectivedata/
 ---
-## رابط IEffectFormatEffectiveData
+## IEffectFormatEffectiveData رابط
 
-شیء غیرقابل تغییر که شامل خصوصیات قالب‌بندی اثر موثر است.
+شیء غیرقابل تغییر که شامل ویژگی‌های فرمت‌بندی مؤثر اثر است.
 
 ```csharp
 public interface IEffectFormatEffectiveData : IEffectParamSource
@@ -18,25 +18,25 @@ public interface IEffectFormatEffectiveData : IEffectParamSource
 
 | نام | توضیح |
 | --- | --- |
-| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | اجازه می‌دهد تا رابط IEffectParamSource پایه را دریافت کند. فقط خواندنی [`IEffectParamSource`](../ieffectparamsource). |
-| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | اثر بلور. فقط خواندنی [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
-| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | اثر پوشش پر. فقط خواندنی [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
-| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | اثر درخشش. فقط خواندنی [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
-| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | سایه داخلی. فقط خواندنی [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
-| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | در صورتی که همهٔ اثرها غیرفعال باشند (مانند شیء EffectFormat پیش‌فرض که تازه ساخته شده است) مقدار true را باز می‌گرداند. فقط خواندنی Boolean. |
-| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | سایه خارجی. فقط خواندنی [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
-| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | سایه پیش‌تنظیم. فقط خواندنی [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
-| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | بازتاب. فقط خواندنی [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
-| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | لبه نرم. فقط خواندنی [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
+| [AsIEffectParamSource](../../aspose.slides/ieffectformateffectivedata/asieffectparamsource) { get; } | امکان دریافت رابط پایه IEffectParamSource را فراهم می‌کند. فقط-خواندنی [`IEffectParamSource`](../ieffectparamsource). |
+| [BlurEffect](../../aspose.slides/ieffectformateffectivedata/blureffect) { get; } | اثر تاری. فقط-خواندنی [`IBlurEffectiveData`](../../aspose.slides.effects/iblureffectivedata). |
+| [FillOverlayEffect](../../aspose.slides/ieffectformateffectivedata/filloverlayeffect) { get; } | اثر پوشش پر. فقط-خواندنی [`IFillOverlayEffectiveData`](../../aspose.slides.effects/ifilloverlayeffectivedata). |
+| [GlowEffect](../../aspose.slides/ieffectformateffectivedata/gloweffect) { get; } | اثر درخشش. فقط-خواندنی [`IGlowEffectiveData`](../../aspose.slides.effects/igloweffectivedata). |
+| [InnerShadowEffect](../../aspose.slides/ieffectformateffectivedata/innershadoweffect) { get; } | سایه داخلی. فقط-خواندنی [`IInnerShadowEffectiveData`](../../aspose.slides.effects/iinnershadoweffectivedata). |
+| [IsNoEffects](../../aspose.slides/ieffectformateffectivedata/isnoeffects) { get; } | در صورتی که تمام اثرها غیرفعال باشند (مانند شیء EffectFormat تازه‌ساخته، پیش‌فرض) مقدار true بر می‌گرداند. فقط-خواندنی Boolean. |
+| [OuterShadowEffect](../../aspose.slides/ieffectformateffectivedata/outershadoweffect) { get; } | سایه خارجی. فقط-خواندنی [`IOuterShadowEffectiveData`](../../aspose.slides.effects/ioutershadoweffectivedata). |
+| [PresetShadowEffect](../../aspose.slides/ieffectformateffectivedata/presetshadoweffect) { get; } | سایه پیش‌فرض. فقط-خواندنی [`IPresetShadowEffectiveData`](../../aspose.slides.effects/ipresetshadoweffectivedata). |
+| [ReflectionEffect](../../aspose.slides/ieffectformateffectivedata/reflectioneffect) { get; } | بازتاب. فقط-خواندنی [`IReflectionEffectiveData`](../../aspose.slides.effects/ireflectioneffectivedata). |
+| [SoftEdgeEffect](../../aspose.slides/ieffectformateffectivedata/softedgeeffect) { get; } | لبه نرم. فقط-خواندنی [`ISoftEdgeEffectiveData`](../../aspose.slides.effects/isoftedgeeffectivedata). |
 
 ### توضیحات
 
-این رابط همراه با رابط [`IEffectFormat`](../ieffectformat) استفاده می‌شود تا مقادیر قالب‌بندی مؤثر را با اعمال وراثت برگرداند.
+این رابط همراه با رابط [`IEffectFormat`](../ieffectformat) برای برگرداندن مقادیر فرمت‌بندی مؤثر با اعمال ارث‌بری استفاده می‌شود.
 
 ### موارد مرتبط
 
 * رابط [IEffectParamSource](../ieffectparamsource)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
-* مجوعه [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

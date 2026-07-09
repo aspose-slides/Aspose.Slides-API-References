@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Alpha Ceiling-effect vertegenwoordigt. Alpha-opaciteitswaarden groter dan nul worden gewijzigd naar 100. Met andere woorden wordt alles dat gedeeltelijk ondoorzichtig is volledig ondoorzichtig.
+description: Onveranderlijk object dat een Alpha Ceiling effect vertegenwoordigt. Alpha-opaciteitswaarden groter dan nul worden gewijzigd naar 100. Met andere woorden wordt alles wat gedeeltelijk ondoorzichtig is volledig ondoorzichtig.
 type: docs
 weight: 3050
 url: /nl/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData interface
 
-Onveranderlijk object dat een Alpha Ceiling-effect vertegenwoordigt. Alpha (opaciteit) waarden groter dan nul worden gewijzigd naar 100%. Met andere woorden, alles wat gedeeltelijk ondoorzichtig is, wordt volledig ondoorzichtig.
+Onveranderlijk object dat een Alpha Ceiling effect vertegenwoordigt. Alpha (opaciteit) waarden groter dan nul worden gewijzigd naar 100%. Met andere woorden: alles wat gedeeltelijk ondoorzichtig is, wordt volledig ondoorzichtig.
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | Stelt in staat om de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Zie ook
 

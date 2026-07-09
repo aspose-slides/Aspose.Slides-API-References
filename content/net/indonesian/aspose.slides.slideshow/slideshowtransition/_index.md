@@ -3,10 +3,10 @@ title: SlideShowTransition
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili transisi slide show.
 type: docs
-weight: 10300
+weight: 10320
 url: /id/aspose.slides.slideshow/slideshowtransition/
 ---
-## Kelas SlideShowTransition
+## SlideShowTransition kelas
 
 Mewakili transisi slide show.
 
@@ -18,18 +18,18 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Atribut ini menentukan apakah slideshow akan berpindah ke slide berikutnya setelah waktu tertentu. Baca/tulis Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Menentukan waktu, dalam milidetik, setelah itu transisi harus dimulai. Pengaturan ini dapat digunakan bersama dengan atribut advClick. Jika atribut ini tidak ditentukan maka diasumsikan tidak ada pergerakan otomatis. Baca/tulis UInt32. |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Menentukan apakah klik mouse akan melanjutkan slide atau tidak. Jika atribut ini tidak ditentukan maka nilai true diasumsikan. Baca/tulis Boolean. |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Mendapatkan atau mengatur durasi efek transisi slide dalam milidetik. Baca/tulis Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Mengembalikan atau mengatur data audio tersemat. Baca/tulis [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Menentukan apakah suara ini merupakan suara bawaan atau tidak. Jika atribut ini diatur ke true maka aplikasi pembuat akan diberi tahu untuk memeriksa atribut name yang ditentukan untuk suara ini dalam daftar suara bawaan dan dapat menampilkan nama khusus atau UI sesuai kebutuhan. Baca-tulis Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Atribut ini menentukan apakah suara akan berulang hingga peristiwa suara berikutnya terjadi dalam slideshow. Baca/tulis Boolean. |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Mengatur atau mengembalikan mode suara untuk transisi slide. Baca/tulis [`TransitionSoundMode`](../transitionsoundmode). |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Menentukan nama yang dapat dibaca manusia untuk suara transisi. Properti [`Sound`](./sound) harus diberikan untuk memperoleh atau mengatur nama suara. Baca-tulis String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Menentukan kecepatan transisi yang akan digunakan saat beralih dari slide saat ini ke slide berikutnya. Baca/tulis [`TransitionSpeed`](../transitionspeed). |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Atribut ini menentukan apakah slideshow akan beralih ke slide berikutnya setelah waktu tertentu. Baca/tulis Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Menentukan waktu, dalam milidetik, setelah mana transisi harus dimulai. Pengaturan ini dapat digunakan bersama atribut advClick. Jika atribut ini tidak ditentukan maka diasumsikan tidak ada auto-advance yang terjadi. Baca/tulis UInt32. |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Menentukan apakah klik mouse akan menggeser slide atau tidak. Jika atribut ini tidak ditentukan maka nilai true diasumsikan. Baca/tulis Boolean. |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Menampilkan atau mengatur durasi efek transisi slide dalam milidetik. Baca/tulis Int32. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Menampilkan atau mengatur data audio yang disematkan. Baca/tulis [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Menentukan apakah suara ini adalah suara bawaan atau tidak. Jika atribut ini diatur ke true maka aplikasi pembuat akan diberi tahu untuk memeriksa atribut name yang ditentukan untuk suara ini dalam daftar suara bawaan dan kemudian dapat menampilkan nama kustom atau UI sesuai kebutuhan. Baca/tulis Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Atribut ini menentukan apakah suara akan berulang sampai peristiwa suara berikutnya terjadi dalam slideshow. Baca/tulis Boolean. |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Mengatur atau menampilkan mode suara untuk transisi slide. Baca/tulis [`TransitionSoundMode`](../transitionsoundmode). |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Menentukan nama yang dapat dibaca manusia untuk suara transisi. Properti [`Sound`](./sound) harus ditetapkan untuk mendapatkan atau mengatur nama suara. Baca/tulis String. |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Menentukan kecepatan transisi yang akan digunakan saat berpindah dari slide saat ini ke slide berikutnya. Baca/tulis [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Jenis transisi. Baca/tulis [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Nilai transisi slide show. Baca-saja [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Nilai transisi slideshow. Baca-saja [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ## Metode
 
@@ -44,6 +44,6 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 * kelas [BaseSlide](../../aspose.slides/baseslide)
 * antarmuka [ISlideShowTransition](../../aspose.slides/islideshowtransition)
 * ruang nama [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
-* rakitan [Aspose.Slides](../../)
+* perakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनीमेशन के प्लेयर को दर्शाता है। एनीमेशन PresentationAnimationsGenerator./presentationanimationsgenerator द्वारा उसके NewAnimation./presentationanimationsgenerator/newanimation इवेंट के माध्यम से उत्पन्न किए जाते हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एनीमेशन का प्लेयर दर्शाता है।  एनीमेशन PresentationAnimationsGenerator./presentationanimationsgenerator द्वारा उसके NewAnimation./presentationanimationsgenerator/newanimation इवेंट के माध्यम से उत्पन्न किए जाते हैं।
 type: docs
 weight: 4030
 url: /hi/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer इंटरफ़ेस
 
-एनीमेशन के प्लेयर को दर्शाता है। एनीमेशन [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) द्वारा उसके [`NewAnimation`](../presentationanimationsgenerator/newanimation) इवेंट के माध्यम से जेनरेट किए जाते हैं।
+एनीमेशन का प्लेयर दर्शाता है।  एनीमेशन [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) द्वारा उसके [`NewAnimation`](../presentationanimationsgenerator/newanimation) इवेंट के माध्यम से उत्पन्न किया जाता है।
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -20,12 +20,12 @@ public interface IPresentationAnimationPlayer
 | --- | --- |
 | [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | एनीमेशन अवधि प्राप्त करें [ms] |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | [`SetTimePosition`](./settimeposition) मेथड के साथ पहले सेट की गई वर्तमान समय स्थिति के लिए फ्रेम प्राप्त करें |
-| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) के भीतर एनीमेशन समय स्थिति सेट करें |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | वर्तमान समय स्थिति के लिए फ्रेम प्राप्त करें जो पहले [`SetTimePosition`](./settimeposition) मेथड से सेट किया गया था। |
+| [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) के भीतर एनीमेशन समय स्थिति सेट करें। |
 
 ### उदाहरण
 
@@ -51,7 +51,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

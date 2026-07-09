@@ -1,12 +1,12 @@
 ---
 title: TextSearchOptions
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
+description: Bir Presentation Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
 type: docs
-weight: 10950
+weight: 10970
 url: /tr/aspose.slides/textsearchoptions/
 ---
-## TextSearchOptions sınıf
+## TextSearchOptions sınıfı
 
 Bir Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
 
@@ -24,9 +24,9 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Doğru olarak ayarlayın, büyük/küçük harfe duyarlı arama için; aksi takdirde yanlış. Okunur/yazılır Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Metin arama, değiştirme veya vurgulama işlemleri sırasında slayt notlarında ([`NotesSlide`](../notesslide)) bulunan metni dahil etmek için `true` ayarlayın. Varsayılan değer `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Yalnızca tam kelimelerle eşleşmesi için `true` ayarlayın, aksi takdirde `false`. Okunur/yazılır Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | `true` ayarlandığında büyük/küçük harfe duyarlı arama kullanılır, aksi takdirde `false`. Okunur/yazılır Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | `true` ayarlandığında slayt notlarında yer alan metin ([`NotesSlide`](../notesslide)) metin arama, değiştirme veya vurgulama işlemleri sırasında dahil edilir. Varsayılan değer `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | `true` ayarlandığında yalnızca tam kelimeler eşleşir, aksi takdirde `false`. Okunur/yazılır Boolean. |
 
 ### Ayrıca Bakınız
 

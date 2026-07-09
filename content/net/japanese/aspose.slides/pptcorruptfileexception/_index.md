@@ -3,7 +3,7 @@ title: PptCorruptFileException
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション ファイルが破損している可能性がある場合にスローされる例外です。
 type: docs
-weight: 9480
+weight: 9500
 url: /ja/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException クラス
@@ -18,11 +18,11 @@ public class PptCorruptFileException : PptReadException
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptCorruptFileException](pptcorruptfileexception#constructor)() | デフォルトコンストラクタ。 |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
+| [PptCorruptFileException](pptcorruptfileexception#constructor)() | デフォルト コンストラクタ。 |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | メッセージをこの例外に追加できるコンストラクタ。 |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
 
-### 関連項目
+### 参照
 
 * クラス [PptReadException](../pptreadexception)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

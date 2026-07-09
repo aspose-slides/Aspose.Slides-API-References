@@ -1,14 +1,14 @@
 ---
 title: WebDocumentOptions
-second_title: Aspose.Sildes .NET API referencia
-description: A WebDocument./webdocument mentéséhez tartozó beállításkészletet képviseli.
+second_title: Aspose.Sildes .NET API-referencia
+description: A WebDocument./webdocument mentéséhez használt beállítások halmazát képviseli.
 type: docs
-weight: 4670
+weight: 4690
 url: /hu/aspose.slides.export.web/webdocumentoptions/
 ---
 ## WebDocumentOptions osztály
 
-A [`WebDocument`](../webdocument) mentéséhez tartozó beállításkészletet képviseli.
+A [`WebDocument`](../webdocument) mentéséhez használt beállítások halmazát képviseli.
 
 ```csharp
 public class WebDocumentOptions
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | Név | Leírás |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | A alakzatok animációs beállítását adja vissza vagy állítja be. Olvasás/írás Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | A átmenetek animációs beállítását adja vissza vagy állítja be. Olvasás/írás Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | A képek beágyazási beállítását adja vissza vagy állítja be. Olvasás/írás Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Az output mentőjét adja vissza vagy állítja be. Olvasás/írás [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | A sablon motorját adja vissza vagy állítja be. Olvasás/írás [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | Visszaadja vagy beállítja a formák animációs beállítását. Olvasás/írás Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | Visszaadja vagy beállítja az áttűnések animációs beállítását. Olvasás/írás Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | Visszaadja vagy beállítja a képek beágyazási beállítását. Olvasás/írás Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | Visszaadja vagy beállítja a kimenet mentőjét. Olvasás/írás [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | Visszaadja vagy beállítja a sablonmotor-t. Olvasás/írás [`ITemplateEngine`](../itemplateengine). |
 
 ### Lásd még
 

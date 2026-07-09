@@ -1,14 +1,14 @@
 ---
 title: Axis
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Omvat het object dat een as van een diagram vertegenwoordigt.
+description: Omvat het object dat een as van een grafiek vertegenwoordigt.
 type: docs
 weight: 1180
 url: /nl/aspose.slides.charts/axis/
 ---
 ## Axis klasse
 
-Omvat het object dat een as van een diagram vertegenwoordigt.
+Encapsulates the object that represents a chart's axis.
 
 ```csharp
 public class Axis : DomObject<AxesManager>, IAxis
@@ -16,68 +16,68 @@ public class Axis : DomObject<AxesManager>, IAxis
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [ActualMajorUnit](../../aspose.slides.charts/axis/actualmajorunit) { get; } | Specificeert de werkelijke hoofdeenheid van de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [ActualMajorUnitScale](../../aspose.slides.charts/axis/actualmajorunitscale) { get; } | Specificeert de werkelijke schaal van de hoofdeenheid van de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [ActualMaxValue](../../aspose.slides.charts/axis/actualmaxvalue) { get; } | Specificeert de werkelijke maximale waarde op de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [ActualMinorUnit](../../aspose.slides.charts/axis/actualminorunit) { get; } | Specificeert de werkelijke ondereenheid van de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [ActualMinorUnitScale](../../aspose.slides.charts/axis/actualminorunitscale) { get; } | Specificeert de werkelijke schaal van de ondereenheid van de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [ActualMinValue](../../aspose.slides.charts/axis/actualminvalue) { get; } | Specificeert de werkelijke minimale waarde op de as. Roep de methode IChart.ValidateChartLayout() vooraf aan om de werkelijke waarde te verkrijgen. |
-| [AggregationType](../../aspose.slides.charts/axis/aggregationtype) { get; set; } | Stelt het aggregatietype van de categorie-as (binning) voor. Toegepast op de categorie. Alleen gebruikt met Histogram- of HistogramPareto-series. |
-| [AxisBetweenCategories](../../aspose.slides.charts/axis/axisbetweencategories) { get; set; } | Geeft aan of de waardenas de categorie-as tussen categorieën kruist. Deze eigenschap is alleen van toepassing op categorie-assen en geldt niet voor 3-D-diagrammen. Lezen/Schrijven Booleaans. |
-| [BaseUnitScale](../../aspose.slides.charts/axis/baseunitscale) { get; set; } | Specificeert de kleinste tijdseenheid die op de datum-as wordt weergegeven. Lezen/Schrijven [`TimeUnitType`](../timeunittype). |
-| [BinWidth](../../aspose.slides.charts/axis/binwidth) { get; set; } | Specificeert de bin-breedte wanneer de eigenschap AggregationType is ingesteld op AxisAggregationType.ByBinWidth. Toegepast op categorie-assen. Alleen gebruikt met Histogram- of HistogramPareto-series. |
-| [CategoryAxisType](../../aspose.slides.charts/axis/categoryaxistype) { get; set; } | Specificeert het type van de categorie-as. Lezen/Schrijven [`CategoryAxisType`](../categoryaxistype). |
-| [Chart](../../aspose.slides.charts/axis/chart) { get; } | Retourneert het bovenliggende diagram. Alleen-lezen [`IChart`](../ichart). |
-| [CrossAt](../../aspose.slides.charts/axis/crossat) { get; set; } | Stelt het punt op de as voor waar de loodrechte as deze kruist. Lezen/Schrijven Single. |
-| [CrossType](../../aspose.slides.charts/axis/crosstype) { get; set; } | Stelt het CrossType op de opgegeven as voor waar de andere as kruist. Lezen/Schrijven [`CrossesType`](../crossestype). |
-| [DisplayUnit](../../aspose.slides.charts/axis/displayunit) { get; set; } | Specificeert de schaalwaarde van de weergave-eenheden voor de waardenas. Lezen/Schrijven [`DisplayUnitType`](../displayunittype). |
-| [Format](../../aspose.slides.charts/axis/format) { get; } | Stelt het formaat van de as voor. Alleen-lezen [`IAxisFormat`](../iaxisformat). |
-| [HasTitle](../../aspose.slides.charts/axis/hastitle) { get; set; } | Bepaalt of een as een zichtbare titel heeft. Lezen/Schrijven Booleaans. |
-| [IsAutomaticMajorUnit](../../aspose.slides.charts/axis/isautomaticmajorunit) { get; set; } | Geeft aan of de hoofdeenheid van de as automatisch wordt toegewezen. Lezen/Schrijven Booleaans. |
-| [IsAutomaticMaxValue](../../aspose.slides.charts/axis/isautomaticmaxvalue) { get; set; } | Geeft aan of de maximale waarde automatisch wordt toegewezen. Lezen/Schrijven Booleaans. |
-| [IsAutomaticMinorUnit](../../aspose.slides.charts/axis/isautomaticminorunit) { get; set; } | Geeft aan of de ondereenheid van de as automatisch wordt toegewezen. Lezen/Schrijven Booleaans. |
-| [IsAutomaticMinValue](../../aspose.slides.charts/axis/isautomaticminvalue) { get; set; } | Geeft aan of de minimale waarde automatisch wordt toegewezen. Lezen/Schrijven Booleaans. |
-| [IsAutomaticOverflowBin](../../aspose.slides.charts/axis/isautomaticoverflowbin) { get; set; } | Specificeert de automatische overflow-bin-waarde. Indien false: gebruik de eigenschap OverflowBin. |
-| [IsAutomaticTickLabelSpacing](../../aspose.slides.charts/axis/isautomaticticklabelspacing) { get; set; } | Specificeert de automatische tussenruimte voor tick-labels. Indien false: gebruik de eigenschap TickLabelSpacing. Lezen/Schrijven Booleaans. |
-| [IsAutomaticTickMarksSpacing](../../aspose.slides.charts/axis/isautomatictickmarksspacing) { get; set; } | Specificeert de automatische tussenruimte voor tick-markeringen. Indien false: gebruik de eigenschap TickMarksSpacing. Lezen/Schrijven Booleaans. |
-| [IsAutomaticUnderflowBin](../../aspose.slides.charts/axis/isautomaticunderflowbin) { get; set; } | Specificeert de automatische underflow-bin-waarde. Indien false: gebruik de eigenschap UnderflowBin. |
-| [IsLogarithmic](../../aspose.slides.charts/axis/islogarithmic) { get; set; } | Geeft aan of het schaaltype van de waardenas logaritmisch is of niet. Lezen/Schrijven Booleaans. |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/axis/isnumberformatlinkedtosource) { get; set; } | Geeft aan of het formaat gekoppeld is aan brongegevens. Lezen/Schrijven Booleaans. |
-| [IsOverflowBin](../../aspose.slides.charts/axis/isoverflowbin) { get; set; } | Specificeert of overflow-bin wordt toegepast. Gebruik IsAutomaticOverflowBin en OverflowBin om de overflow-bin-waarde aan te passen. |
-| [IsPlotOrderReversed](../../aspose.slides.charts/axis/isplotorderreversed) { get; set; } | Geeft aan of MS PowerPoint gegevenspunten plot van laatste naar eerste. Lezen/Schrijven Booleaans. |
-| [IsUnderflowBin](../../aspose.slides.charts/axis/isunderflowbin) { get; set; } | Specificeert of underflow-bin wordt toegepast. Gebruik IsAutomaticUnderflowBin en UnderflowBin om de underflow-bin-waarde aan te passen. |
-| [IsVisible](../../aspose.slides.charts/axis/isvisible) { get; set; } | Geeft aan of de as zichtbaar is. Lezen/Schrijven Booleaans. |
-| [LabelOffset](../../aspose.slides.charts/axis/labeloffset) { get; set; } | Specificeert de afstand van labels tot de as. Toegepast op categorie- of datum-as. Waarde moet tussen 0% en 1000% liggen. Lezen/Schrijven UInt16. |
-| [LogBase](../../aspose.slides.charts/axis/logbase) { get; set; } | Stelt de logaritmische basis voor. Standaardwaarde is 10. Lezen/Schrijven Double. |
-| [MajorGridLinesFormat](../../aspose.slides.charts/axis/majorgridlinesformat) { get; } | Stelt het formaat van hoofdroosterlijnen op een diagram-as voor. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
-| [MajorTickMark](../../aspose.slides.charts/axis/majortickmark) { get; set; } | Stelt het type van de hoofd-tickmarkering voor op de opgegeven as. Lezen/Schrijven [`TickMarkType`](../tickmarktype). |
-| [MajorUnit](../../aspose.slides.charts/axis/majorunit) { get; set; } | Stelt de hoofd-eenheden voor de datum- of waardenas voor. Lezen/Schrijven Double. |
-| [MajorUnitScale](../../aspose.slides.charts/axis/majorunitscale) { get; set; } | Stelt de schaal van de hoofd-eenheid voor de datum-as voor. Lezen/Schrijven [`TimeUnitType`](../timeunittype). |
-| [MaxValue](../../aspose.slides.charts/axis/maxvalue) { get; set; } | Stelt de maximale waarde op de waardenas voor. Lezen/Schrijven Double. |
-| [MinorGridLinesFormat](../../aspose.slides.charts/axis/minorgridlinesformat) { get; } | Stelt het formaat van de minorroosterlijnen op een diagram-as voor. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
-| [MinorTickMark](../../aspose.slides.charts/axis/minortickmark) { get; set; } | Stelt het type van de minor-tickmarkering voor op de opgegeven as. Lezen/Schrijven [`TickMarkType`](../tickmarktype). |
-| [MinorUnit](../../aspose.slides.charts/axis/minorunit) { get; set; } | Stelt de minor-eenheden voor de datum- of waardenas voor. Lezen/Schrijven Double. |
-| [MinorUnitScale](../../aspose.slides.charts/axis/minorunitscale) { get; set; } | Stelt de schaal van de hoofd-eenheid voor de datum-as voor. Lezen/Schrijven [`TimeUnitType`](../timeunittype). |
-| [MinValue](../../aspose.slides.charts/axis/minvalue) { get; set; } | Stelt de minimale waarde op de waardenas voor. Lezen/Schrijven Double. |
-| [NumberFormat](../../aspose.slides.charts/axis/numberformat) { get; set; } | Stelt de opmaakstring voor de As-Labels voor. Lezen/Schrijven String. |
-| [NumberOfBins](../../aspose.slides.charts/axis/numberofbins) { get; set; } | Specificeert het aantal bins wanneer de eigenschap AggregationType is ingesteld op AxisAggregationType.ByNumberOfBins. Toegepast op categorie-assen. Alleen gebruikt met Histogram- of HistogramPareto-series. |
-| [OverflowBin](../../aspose.slides.charts/axis/overflowbin) { get; set; } | Specificeert een aangepaste overflow-bin-waarde. Toegepast wanneer de eigenschap IsAutomaticOverflowBin is ingesteld op false en de eigenschap IsOverflowBin true is. |
-| [Position](../../aspose.slides.charts/axis/position) { get; set; } | Stelt de positie van de as voor. Lezen/Schrijven [`AxisPositionType`](../axispositiontype). |
+| [ActualMajorUnit](../../aspose.slides.charts/axis/actualmajorunit) { get; } | Specificeert de werkelijke major-eenheid van de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [ActualMajorUnitScale](../../aspose.slides.charts/axis/actualmajorunitscale) { get; } | Specificeert de werkelijke schaal van de major-eenheid van de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [ActualMaxValue](../../aspose.slides.charts/axis/actualmaxvalue) { get; } | Specificeert de werkelijke maximumwaarde op de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [ActualMinorUnit](../../aspose.slides.charts/axis/actualminorunit) { get; } | Specificeert de werkelijke minor-eenheid van de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [ActualMinorUnitScale](../../aspose.slides.charts/axis/actualminorunitscale) { get; } | Specificeert de werkelijke schaal van de minor-eenheid van de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [ActualMinValue](../../aspose.slides.charts/axis/actualminvalue) { get; } | Specificeert de werkelijke minimumwaarde op de as. Roep eerder de methode IChart.ValidateChartLayout() aan om de werkelijke waarde te verkrijgen. |
+| [AggregationType](../../aspose.slides.charts/axis/aggregationtype) { get; set; } | Geeft het aggregatietype van de categoriasas (binning) weer. Toegepast op categorie. Alleen gebruikt met Histogram- of HistogramPareto-reeksen. |
+| [AxisBetweenCategories](../../aspose.slides.charts/axis/axisbetweencategories) { get; set; } | Geeft aan of de waarde-as de categoriasas tussen categorieën kruist. Deze eigenschap geldt alleen voor categoriasen en niet voor 3D-grafieken. Lezen/schrijven Boolean. |
+| [BaseUnitScale](../../aspose.slides.charts/axis/baseunitscale) { get; set; } | Specificeert de kleinste tijdseenheid die op de datum-as wordt weergegeven. Lezen/schrijven [`TimeUnitType`](../timeunittype). |
+| [BinWidth](../../aspose.slides.charts/axis/binwidth) { get; set; } | Specificeert de breedte van de bin wanneer de eigenschap AggregationType is ingesteld op AxisAggregationType.ByBinWidth. Toegepast op categoriasen. Alleen gebruikt met Histogram- of HistogramPareto-reeksen. |
+| [CategoryAxisType](../../aspose.slides.charts/axis/categoryaxistype) { get; set; } | Specificeert het type van de categoriasas. Lezen/schrijven [`CategoryAxisType`](../categoryaxistype). |
+| [Chart](../../aspose.slides.charts/axis/chart) { get; } | Retourneert de bovenliggende grafiek. Alleen-lezen [`IChart`](../ichart). |
+| [CrossAt](../../aspose.slides.charts/axis/crossat) { get; set; } | Geeft het punt op de as weer waar de loodrechte as deze kruist. Lezen/schrijven Single. |
+| [CrossType](../../aspose.slides.charts/axis/crosstype) { get; set; } | Geeft het CrossType op de opgegeven as weer waar de andere as deze kruist. Lezen/schrijven [`CrossesType`](../crossestype). |
+| [DisplayUnit](../../aspose.slides.charts/axis/displayunit) { get; set; } | Specificeert de schaalwaarde van de weergave-eenheden voor de waarde-as. Lezen/schrijven [`DisplayUnitType`](../displayunittype). |
+| [Format](../../aspose.slides.charts/axis/format) { get; } | Geeft het formaat van de as weer. Alleen-lezen [`IAxisFormat`](../iaxisformat). |
+| [HasTitle](../../aspose.slides.charts/axis/hastitle) { get; set; } | Bepaalt of een as een zichtbare titel heeft. Lezen/schrijven Boolean. |
+| [IsAutomaticMajorUnit](../../aspose.slides.charts/axis/isautomaticmajorunit) { get; set; } | Geeft aan of de major-eenheid van de as automatisch wordt toegewezen. Lezen/schrijven Boolean. |
+| [IsAutomaticMaxValue](../../aspose.slides.charts/axis/isautomaticmaxvalue) { get; set; } | Geeft aan of de maximumwaarde automatisch wordt toegewezen. Lezen/schrijven Boolean. |
+| [IsAutomaticMinorUnit](../../aspose.slides.charts/axis/isautomaticminorunit) { get; set; } | Geeft aan of de minor-eenheid van de as automatisch wordt toegewezen. Lezen/schrijven Boolean. |
+| [IsAutomaticMinValue](../../aspose.slides.charts/axis/isautomaticminvalue) { get; set; } | Geeft aan of de minimumwaarde automatisch wordt toegewezen. Lezen/schrijven Boolean. |
+| [IsAutomaticOverflowBin](../../aspose.slides.charts/axis/isautomaticoverflowbin) { get; set; } | Specificeert de automatische overflow-binwaarde. Indien false: gebruik OverflowBin eigenschap. |
+| [IsAutomaticTickLabelSpacing](../../aspose.slides.charts/axis/isautomaticticklabelspacing) { get; set; } | Specificeert de automatische afstand tussen tick-labels. Indien false: gebruik TickLabelSpacing eigenschap. Lezen/schrijven Boolean. |
+| [IsAutomaticTickMarksSpacing](../../aspose.slides.charts/axis/isautomatictickmarksspacing) { get; set; } | Specificeert de automatische afstand tussen tick-markeringen. Indien false: gebruik TickMarksSpacing eigenschap. Lezen/schrijven Boolean. |
+| [IsAutomaticUnderflowBin](../../aspose.slides.charts/axis/isautomaticunderflowbin) { get; set; } | Specificeert de automatische underflow-binwaarde. Indien false: gebruik UnderflowBin eigenschap. |
+| [IsLogarithmic](../../aspose.slides.charts/axis/islogarithmic) { get; set; } | Geeft aan of het schaaltype van de waarde-as logaritmisch is of niet. Lezen/schrijven Boolean. |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/axis/isnumberformatlinkedtosource) { get; set; } | Geeft aan of het formaat gekoppeld is aan brongegevens. Lezen/schrijven Boolean. |
+| [IsOverflowBin](../../aspose.slides.charts/axis/isoverflowbin) { get; set; } | Specificeert of overflow-bin wordt toegepast. Gebruik IsAutomaticOverflowBin en OverflowBin om de overflow-binwaarde aan te passen. |
+| [IsPlotOrderReversed](../../aspose.slides.charts/axis/isplotorderreversed) { get; set; } | Geeft aan of MS PowerPoint gegevenspunten van laatste naar eerste plot. Lezen/schrijven Boolean. |
+| [IsUnderflowBin](../../aspose.slides.charts/axis/isunderflowbin) { get; set; } | Specificeert of underflow-bin wordt toegepast. Gebruik IsAutomaticUnderflowBin en UnderflowBin om de underflow-binwaarde aan te passen. |
+| [IsVisible](../../aspose.slides.charts/axis/isvisible) { get; set; } | Geeft aan of de as zichtbaar is. Lezen/schrijven Boolean. |
+| [LabelOffset](../../aspose.slides.charts/axis/labeloffset) { get; set; } | Specificeert de afstand van labels tot de as. Toegepast op categorias- of datum-as. Waarde moet tussen 0% en 1000% liggen. Lezen/schrijven UInt16. |
+| [LogBase](../../aspose.slides.charts/axis/logbase) { get; set; } | Geeft de logaritmische basis weer. Standaardwaarde is 10. Lezen/schrijven Double. |
+| [MajorGridLinesFormat](../../aspose.slides.charts/axis/majorgridlinesformat) { get; } | Geeft het formaat van de hoofdroosterlijnen op een grafiek-as weer. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
+| [MajorTickMark](../../aspose.slides.charts/axis/majortickmark) { get; set; } | Geeft het type van de hoofd-tick-markering voor de opgegeven as weer. Lezen/schrijven [`TickMarkType`](../tickmarktype). |
+| [MajorUnit](../../aspose.slides.charts/axis/majorunit) { get; set; } | Geeft de hoofd-eenheden voor de datum- of waarde-as weer. Lezen/schrijven Double. |
+| [MajorUnitScale](../../aspose.slides.charts/axis/majorunitscale) { get; set; } | Geeft de schaal van de hoofd-eenheid voor de datum-as weer. Lezen/schrijven [`TimeUnitType`](../timeunittype). |
+| [MaxValue](../../aspose.slides.charts/axis/maxvalue) { get; set; } | Geeft de maximumwaarde op de waarde-as weer. Lezen/schrijven Double. |
+| [MinorGridLinesFormat](../../aspose.slides.charts/axis/minorgridlinesformat) { get; } | Geeft het formaat van de kleinere rasterlijnen op een grafiek-as weer. Alleen-lezen [`IChartLinesFormat`](../ichartlinesformat). |
+| [MinorTickMark](../../aspose.slides.charts/axis/minortickmark) { get; set; } | Geeft het type van de kleine tick-markering voor de opgegeven as weer. Lezen/schrijven [`TickMarkType`](../tickmarktype). |
+| [MinorUnit](../../aspose.slides.charts/axis/minorunit) { get; set; } | Geeft de kleine eenheden voor de datum- of waarde-as weer. Lezen/schrijven Double. |
+| [MinorUnitScale](../../aspose.slides.charts/axis/minorunitscale) { get; set; } | Geeft de schaal van de hoofd-eenheid voor de datum-as weer. Lezen/schrijven [`TimeUnitType`](../timeunittype). |
+| [MinValue](../../aspose.slides.charts/axis/minvalue) { get; set; } | Geeft de minimumwaarde op de waarde-as weer. Lezen/schrijven Double. |
+| [NumberFormat](../../aspose.slides.charts/axis/numberformat) { get; set; } | Geeft de opmaaktekenreeks voor de as-labels weer. Lezen/schrijven String. |
+| [NumberOfBins](../../aspose.slides.charts/axis/numberofbins) { get; set; } | Specificeert het aantal bins wanneer de eigenschap AggregationType is ingesteld op AxisAggregationType.ByNumberOfBins. Toegepast op categoriasen. Alleen gebruikt met Histogram- of HistogramPareto-reeksen. |
+| [OverflowBin](../../aspose.slides.charts/axis/overflowbin) { get; set; } | Specificeert de aangepaste waarde voor overflow-bin. Toegepast wanneer de eigenschap IsAutomaticOverflowBin is ingesteld op false en de eigenschap IsOverflowBin gelijk is aan true. |
+| [Position](../../aspose.slides.charts/axis/position) { get; set; } | Geeft de positie van de as weer. Lezen/schrijven [`AxisPositionType`](../axispositiontype). |
 | [ShowMajorGridLines](../../aspose.slides.charts/axis/showmajorgridlines) { get; } | Om de hoofdroosterlijn te verbergen, stel MajorGridLinesFormat.Line.FillFormat.FillType in op FillType.NoFill. Alleen-lezen Boolean. |
-| [ShowMinorGridLines](../../aspose.slides.charts/axis/showminorgridlines) { get; } | Om de minorroosterlijn te verbergen, stel MinorGridLinesFormat.Line.FillFormat.FillType in op FillType.NoFill. Alleen-lezen Boolean. |
-| [TextFormat](../../aspose.slides.charts/axis/textformat) { get; } | Stelt het formaat van tekst voor. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
-| [TickLabelPosition](../../aspose.slides.charts/axis/ticklabelposition) { get; set; } | Stelt de positie van tick-mark-labels op de opgegeven as voor. Lezen/Schrijven [`TickLabelPositionType`](../ticklabelpositiontype). |
-| [TickLabelRotationAngle](../../aspose.slides.charts/axis/ticklabelrotationangle) { get; set; } | Stelt de rotatiehoek van tick-labels voor. Lezen/Schrijven Single. |
-| [TickLabelSpacing](../../aspose.slides.charts/axis/ticklabelspacing) { get; set; } | Specificeert hoeveel tick-labels er worden overgeslagen tussen getekende labels. Toegepast op categorie- of series-as. Lezen/Schrijven UInt32. |
-| [TickMarksSpacing](../../aspose.slides.charts/axis/tickmarksspacing) { get; set; } | Specificeert hoeveel tick-markeringen moeten worden overgeslagen voordat de volgende wordt getekend. Toegepast op categorie- of series-as. Lezen/Schrijven UInt16. |
+| [ShowMinorGridLines](../../aspose.slides.charts/axis/showminorgridlines) { get; } | Om de kleinere roosterlijn te verbergen, stel MinorGridLinesFormat.Line.FillFormat.FillType in op FillType.NoFill. Alleen-lezen Boolean. |
+| [TextFormat](../../aspose.slides.charts/axis/textformat) { get; } | Geeft het formaat van tekst weer. Alleen-lezen [`IChartTextFormat`](../icharttextformat). |
+| [TickLabelPosition](../../aspose.slides.charts/axis/ticklabelposition) { get; set; } | Geeft de positie van tick-mark-labels op de opgegeven as weer. Lezen/schrijven [`TickLabelPositionType`](../ticklabelpositiontype). |
+| [TickLabelRotationAngle](../../aspose.slides.charts/axis/ticklabelrotationangle) { get; set; } | Geeft de rotatiehoek van tick-labels weer. Lezen/schrijven Single. |
+| [TickLabelSpacing](../../aspose.slides.charts/axis/ticklabelspacing) { get; set; } | Specificeert hoeveel tick-labels overgeslagen moeten worden tussen getekende labels. Toegepast op categorias- of serie-as. Lezen/schrijven UInt32. |
+| [TickMarksSpacing](../../aspose.slides.charts/axis/tickmarksspacing) { get; set; } | Specificeert hoeveel tick-markeringen overgeslagen moeten worden voordat de volgende wordt getekend. Toegepast op categorias- of serie-as. Lezen/schrijven UInt16. |
 | [Title](../../aspose.slides.charts/axis/title) { get; } | Haalt de titel van de as op. Alleen-lezen [`IChartTitle`](../icharttitle). |
-| [UnderflowBin](../../aspose.slides.charts/axis/underflowbin) { get; set; } | Specificeert een aangepaste underflow-bin-waarde. Toegepast wanneer de eigenschap IsAutomaticUnderflowBin is ingesteld op false en de eigenschap IsUnderflowBin true is. |
+| [UnderflowBin](../../aspose.slides.charts/axis/underflowbin) { get; set; } | Specificeert de aangepaste waarde voor underflow-bin. Toegepast wanneer de eigenschap IsAutomaticUnderflowBin is ingesteld op false en de eigenschap IsUnderflowBin gelijk is aan true. |
 
-## Methoden
+## Methodes
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [SetCategoryAxisTypeAutomatically](../../aspose.slides.charts/axis/setcategoryaxistypeautomatically)() | Stelt de eigenschap IAxis.CategoryAxisType in met een waarde die automatisch wordt bepaald op basis van as-gegevens. |
 
@@ -86,7 +86,7 @@ public class Axis : DomObject<AxesManager>, IAxis
 * klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasse [AxesManager](../axesmanager)
 * interface [IAxis](../iaxis)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

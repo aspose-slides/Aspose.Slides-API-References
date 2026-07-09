@@ -1,14 +1,14 @@
 ---
 title: INotesSlideHeaderFooterManager
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa o gerenciador que controla o comportamento dos marcadores de posição do slide de notas, incluindo o marcador de posição do cabeçalho.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa o gerenciador que mantém o comportamento dos marcadores de slide de notas, incluindo o marcador de cabeçalho.
 type: docs
-weight: 6490
+weight: 6510
 url: /pt/aspose.slides/inotesslideheaderfootermanager/
 ---
 ## INotesSlideHeaderFooterManager interface
 
-Representa o gerenciador que controla o comportamento dos marcadores de posição do slide de notas, incluindo o marcador de posição do cabeçalho.
+Representa o gerenciador que mantém o comportamento dos marcadores de slide de notas, incluindo o marcador de cabeçalho.
 
 ```csharp
 public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -20,7 +20,7 @@ public interface INotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFo
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Retorna IBaseHandoutNotesSlideHeaderFooterManag interface. |
 
-### Veja Também
+### Ver também
 
 * interface [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * namespace [Aspose.Slides](../../aspose.slides)

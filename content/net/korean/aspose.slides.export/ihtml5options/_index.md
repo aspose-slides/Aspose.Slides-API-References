@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: HTML5 내보내기 옵션을 나타냅니다.
 type: docs
 weight: 3930
@@ -18,18 +18,18 @@ public interface IHtml5Options : ISaveOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | shapes 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | transitions 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | 도형 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | 전환 애니메이션 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions 인터페이스를 반환합니다. 읽기 전용 [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | 텍스트가 합자를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면 렌더링된 출력에서 합자가 비활성화됩니다. 기본적으로 이 속성은 `false` 로 설정됩니다. |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 이미지 삽입 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 외부 리소스가 저장될 위치를 결정합니다. 읽기/쓰기 String. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | 텍스트가 리가처를 사용하지 않고 렌더링되는지 여부를 나타내는 값을 가져오거나 설정합니다. `true` 로 설정하면 렌더링된 출력에서 리가처가 비활성화됩니다. 기본적으로 이 속성은 `false` 로 설정됩니다. |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | 이미지 임베딩 옵션을 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | 외부 리소스를 저장할 위치를 결정합니다. 읽기/쓰기 String. |
 | [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | 그림 압축 수준을 나타냅니다. 읽기/쓰기 [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 방식을 가져오거나 설정합니다 [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [ISaveOptions](../isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

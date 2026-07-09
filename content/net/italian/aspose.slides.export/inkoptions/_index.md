@@ -1,9 +1,9 @@
 ---
 title: InkOptions
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Fornisce opzioni che controllano l'aspetto degli oggetti Ink nel documento esportato.
 type: docs
-weight: 4200
+weight: 4220
 url: /it/aspose.slides.export/inkoptions/
 ---
 ## InkOptions classe
@@ -19,7 +19,7 @@ public class InkOptions : IInkOptions
 | Nome | Descrizione |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/inkoptions/hideink) { get; set; } | Mostra o nasconde gli elementi Ink nel documento esportato. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Utilizza l'operazione ROP o l'opacità per il rendering del pennello. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/inkoptions/interpretmaskopasopacity) { get; set; } | Utilizza l'operazione ROP o Opacity per il rendering del pennello. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: MathParagraphFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 수학 단락을 만들 수 있습니다
+second_title: Aspose.Sildes .NET API 참조
+description: 수학 단락을 생성할 수 있습니다.
 type: docs
 weight: 8910
 url: /ko/aspose.slides.mathtext/mathparagraphfactory/
 ---
 ## MathParagraphFactory 클래스
 
-수학 단락을 생성할 수 있습니다
+수학 단락을 만들 수 있습니다.
 
 ```csharp
 public class MathParagraphFactory : IMathParagraphFactory
@@ -18,7 +18,7 @@ public class MathParagraphFactory : IMathParagraphFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathParagraphFactory](mathparagraphfactory)() | 기본 생성자. |
+| [MathParagraphFactory](mathparagraphfactory)() | 기본 생성자입니다. |
 
 ## 메서드
 

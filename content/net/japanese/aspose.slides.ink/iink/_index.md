@@ -3,7 +3,7 @@ title: IInk
 second_title: Aspose.Sildes の .NET API リファレンス
 description: スライド上のインク オブジェクトを表します。
 type: docs
-weight: 7490
+weight: 7510
 url: /ja/aspose.slides.ink/iink/
 ---
 ## IInk インターフェイス

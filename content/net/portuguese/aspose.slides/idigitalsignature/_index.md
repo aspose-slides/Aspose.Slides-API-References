@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignature
-second_title: Aspose.Sildes para .NET Referência da API
-description: Assinatura digital em arquivo assinado.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Assinatura digital no arquivo assinado.
 type: docs
-weight: 5670
+weight: 5690
 url: /pt/aspose.slides/idigitalsignature/
 ---
 ## IDigitalSignature interface
 
-Assinatura digital em arquivo assinado.
+Assinatura digital no arquivo assinado.
 
 ```csharp
 public interface IDigitalSignature
@@ -16,14 +16,14 @@ public interface IDigitalSignature
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objeto de certificado que foi usado para assinar o documento. Somente leitura X509Certificate2. |
-| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | O propósito da assinatura. Leitura/gravação String. |
-| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Se esta assinatura digital for válida e o documento não tiver sido adulterado, este valor será verdadeiro. Somente leitura Boolean. |
-| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | A hora em que o documento foi assinado. Somente leitura DateTime. |
+| [Certificate](../../aspose.slides/idigitalsignature/certificate) { get; } | Objeto de certificado usado para assinar o documento. Somente leitura X509Certificate2. |
+| [Comments](../../aspose.slides/idigitalsignature/comments) { get; set; } | O propósito da assinatura. Leitura/Gravação String. |
+| [IsValid](../../aspose.slides/idigitalsignature/isvalid) { get; } | Se esta assinatura digital for válida e o documento não foi adulterado, este valor será true. Somente leitura Boolean. |
+| [SignTime](../../aspose.slides/idigitalsignature/signtime) { get; } | O horário em que o documento foi assinado. Somente leitura DateTime. |
 
-### Ver também
+### Veja Também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

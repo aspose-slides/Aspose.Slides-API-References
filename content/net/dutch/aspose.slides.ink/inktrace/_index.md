@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Trace-object voor. Een Trace-element wordt gebruikt om de door de digitalisator vastgelegde gegevens te registreren. Het bevat een reeks punten die zijn gecodeerd volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
+description: Representeert een Trace-object. Een Trace-element wordt gebruikt om de door de digitizer vastgelegde gegevens op te nemen. Het bevat een reeks punten die gecodeerd zijn volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
 type: docs
 weight: 7590
 url: /nl/aspose.slides.ink/inktrace/
 ---
 ## InkTrace klasse
 
-Stelt een Trace-object voor. Een Trace-element wordt gebruikt om de door de digitalisator vastgelegde gegevens te registreren. Het bevat een reeks punten die zijn gecodeerd volgens de specificatie die wordt gegeven door het InkTraceFormat-object.
+Vertegenwoordigt een Trace-object. Een Trace-element wordt gebruikt om de door de digitizer vastgelegde gegevens op te nemen. Het bevat een reeks punten die gecodeerd zijn volgens de specificatie van het InkTraceFormat-object.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -18,8 +18,8 @@ public class InkTrace : IInkTrace
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Krijgt Brush voor de IInkLine [`IInkBrush`](../iinkbrush) Alleen-lezen. |
-| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Krijgt punten voor de IInkLine PointF Alleen-lezen. |
+| [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | Haalt Brush op voor de IInkLine [`IInkBrush`](../iinkbrush) Alleen-lezen. |
+| [Points](../../aspose.slides.ink/inktrace/points) { get; } | Haalt punten op voor de IInkLine PointF Alleen-lezen. |
 
 ### Zie ook
 

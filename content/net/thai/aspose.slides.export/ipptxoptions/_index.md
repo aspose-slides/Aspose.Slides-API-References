@@ -1,14 +1,14 @@
 ---
 title: IPptxOptions
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงตัวเลือกสำหรับการบันทึกงานนำเสนอ OpenXml ประเภท PPTX PPSX POTX PPTM PPSM POTM.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงตัวเลือกสำหรับการบันทึกงานนำเสนอ OpenXml รูปแบบ PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
 weight: 4020
 url: /th/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions อินเทอร์เฟซ
 
-แสดงตัวเลือกสำหรับการบันทึกงานนำเสนอ OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
+แสดงถึงตัวเลือกสำหรับการบันทึกงานนำเสนอ OpenXml (PPTX, PPSX, POTX, PPTM, PPSM, POTM).
 
 ```csharp
 public interface IPptxOptions : ISaveOptions
@@ -18,11 +18,11 @@ public interface IPptxOptions : ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ISaveOptions พื้นฐานได้. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | ระบุระดับการบีบอัดที่ใช้เมื่อบันทึกเอกสารการนำเสนอ. ค่าปริยายคือ Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | ระบุคลาสการปฏิบัติตามที่เอกสาร Presentation ปฏิบัติตาม. ค่าปริยายคือ Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | ระบุว่าภาพย่อของการนำเสนอจะได้รับการรีเฟรชหรือไม่. อ่าน/เขียน Boolean. ค่าปริยายคือ **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | ระบุว่ารูปแบบ ZIP64 จะใช้กับเอกสาร Presentation หรือไม่. ค่าปริยายคือ IfNecessary |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | ระบุระดับการบีบอัดที่ใช้เมื่อบันทึกเอกสารการนำเสนอ. ค่าเริ่มต้นคือ Level6. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | ระบุคลาสการทำให้สอดคล้องที่เอกสาร Presentation ปฏิบัติตาม. ค่าเริ่มต้นคือ Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | ระบุว่ารูปย่อของการนำเสนอจะได้รับการรีเฟรชหรือไม่. อ่าน/เขียน Boolean. ค่าเริ่มต้นคือ **true**. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | ระบุว่าจะใช้รูปแบบ ZIP64 สำหรับเอกสาร Presentation หรือไม่. ค่าเริ่มต้นคือ IfNecessary |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: BaseThemeManager
-second_title: Aspose.Sildes for .NET API 참조
-description: 다양한 유형의 테마에 대한 액세스를 제공하는 클래스의 기본 클래스.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 다양한 유형의 테마에 대한 액세스를 제공하는 클래스의 기본 클래스입니다.
 type: docs
 weight: 11050
 url: /ko/aspose.slides.theme/basethememanager/
 ---
 ## BaseThemeManager 클래스
 
-다양한 유형의 테마에 대한 액세스를 제공하는 클래스에 대한 기본 클래스.
+다양한 유형의 테마에 대한 액세스를 제공하는 클래스의 기본 클래스입니다.
 
 ```csharp
 public abstract class BaseThemeManager

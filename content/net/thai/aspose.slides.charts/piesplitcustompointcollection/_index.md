@@ -1,7 +1,7 @@
 ---
 title: PieSplitCustomPointCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของจุดสำหรับการแยกจุดในแผนภูมิ bar-of-pie หรือ pie-of-pie ด้วยการแยกแบบกำหนดเอง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงคอลเลกชันของจุดสำหรับการแยกจุดในแผนภูมิกระจานบาร์หรือแผนภูมิกระจานภายในกระจานด้วยการแยกแบบกำหนดเอง.
 type: docs
 weight: 2370
 url: /th/aspose.slides.charts/piesplitcustompointcollection/
@@ -18,24 +18,24 @@ public class PieSplitCustomPointCollection : IPieSplitCustomPointCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | คืนค่า หรือกำหนดจำนวนของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว Int32. |
-| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | รับค่าที่บ่งชี้ว่า ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
-| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันนี้ซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides.charts/piesplitcustompointcollection/count) { get; } | คืนค่า หรือกำหนดจำนวนของข้อมูลจุดแผนภูมิ. อ่านอย่างเดียว Int32. |
+| [IsReadOnly](../../aspose.slides.charts/piesplitcustompointcollection/isreadonly) { get; } | รับค่าที่บ่งบอกว่า ICollection เป็นแบบอ่านอย่างเดียว. อ่านอย่างเดียว Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/piesplitcustompointcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (thread-safe). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides.charts/piesplitcustompointcollection/item) { get; } | คืนค่าจุดข้อมูลแผนภูมิสำหรับดัชนีที่ระบุ. |
-| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | คืนค่ารากฐานการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides.charts/piesplitcustompointcollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add)(IChartDataPoint) | เพิ่มจุดข้อมูลลงในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | เพิ่มจุดข้อมูลโดยใช้ดัชนีของมันในคอลเลกชันจุดของซีรีส์แม่. |
-| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ลบรายการทั้งหมดออกจาก ICollection. |
-| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ตรวจสอบว่า ICollection มีค่าที่เฉพาะหรือไม่. |
-| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | คัดลอกองค์ประกอบของ ICollection ไปยังอาร์เรย์ โดยเริ่มที่ดัชนีอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | คืนค่าตัววนซ้ำที่วนผ่านคอลเลกชัน. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | ลบรายการจากคอลเลกชัน. |
-| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | ลบรายการจากคอลเลกชันโดยใช้ดัชนีของมันในคอลเลกชันจุดของซีรีส์แม่. |
+| [Add](../../aspose.slides.charts/piesplitcustompointcollection/add#add_1)(int) | เพิ่มจุดข้อมูลตามดัชนีของมันในคอลเลกชันจุดของชุดแม่. |
+| [Clear](../../aspose.slides.charts/piesplitcustompointcollection/clear)() | ลบทุกรายการออกจาก ICollection. |
+| [Contains](../../aspose.slides.charts/piesplitcustompointcollection/contains)(IChartDataPoint) | ตรวจสอบว่า ICollection มีค่าที่ระบุหรือไม่. |
+| [CopyTo](../../aspose.slides.charts/piesplitcustompointcollection/copyto)(IChartDataPoint[], int) | คัดลอกองค์ประกอบของ ICollection ไปยังอาเรย์ เริ่มจากดัชนีอาเรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.charts/piesplitcustompointcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove)(IChartDataPoint) | ลบรายการออกจากคอลเลกชัน. |
+| [Remove](../../aspose.slides.charts/piesplitcustompointcollection/remove#remove_1)(int) | ลบรายการออกจากคอลเลกชันตามดัชนีของมันในคอลเลกชันจุดของชุดแม่. |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para Referência de API .NET
 description: Define estilos de formatação que podem ser aplicados ao texto.
 type: docs
-weight: 4850
+weight: 4870
 url: /pt/aspose.slides/fontstyletype/
 ---
-## FontStyleType enumeração
+## Enumeração FontStyleType
 
 Define estilos de formatação que podem ser aplicados ao texto.
 
@@ -20,8 +20,8 @@ public enum FontStyleType
 | Nome | Valor | Descrição |
 | --- | --- | --- |
 | Regular | `0` | Texto padrão. |
-| Bold | `1` | Bold texto. |
-| Italic | `2` | Italic texto. |
+| Bold | `1` | Texto em negrito. |
+| Italic | `2` | Texto em itálico. |
 | Underline | `4` | Texto sublinhado. |
 | Strikeout | `8` | Texto riscado com uma linha horizontal. |
 

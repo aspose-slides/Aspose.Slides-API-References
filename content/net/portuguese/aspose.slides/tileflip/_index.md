@@ -1,14 +1,14 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes para .NET Referência da API
-description: Define o modo de inversão de bloco.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Define o modo de inversão de blocos.
 type: docs
-weight: 11480
+weight: 11500
 url: /pt/aspose.slides/tileflip/
 ---
-## TileFlip enumeração
+## Enumeração TileFlip
 
-Define o modo de inversão de bloco.
+Define o modo de inversão de blocos.
 
 ```csharp
 public enum TileFlip

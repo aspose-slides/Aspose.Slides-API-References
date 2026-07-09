@@ -1,13 +1,12 @@
 ---
 title: ColorScheme
-second_title: Référence de l'API Aspose.Slides pour .NET
+second_title: Référence de l'API Aspose.Sildes pour .NET
 description: Stocke les couleurs définies par le thème.
 type: docs
-weight: 10760
+weight: 11070
 url: /fr/aspose.slides.theme/colorscheme/
 ---
-
-## Classe ColorScheme
+## ColorScheme classe
 
 Stocke les couleurs définies par le thème.
 
@@ -19,26 +18,26 @@ public class ColorScheme : IColorScheme
 
 | Nom | Description |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Première couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Deuxième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Troisième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Quatrième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Cinquième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sixième couleur d'accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Première couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Deuxième couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Couleur pour les liens hypertextes visités. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Couleur pour les liens hypertextes. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Obtient l'élément à l'index spécifié. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Première couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Deuxième couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Renvoie la présentation parente. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Renvoie la diapositive parente. Lecture seule [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | Première couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | Deuxième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | Troisième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | Quatrième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | Cinquième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Sixième couleur d’accent dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Première couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Deuxième couleur sombre dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Couleur des hyperliens visités. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Couleur des hyperliens. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Obtient l’élément à l’indice spécifié. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Première couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Deuxième couleur claire dans le schéma. Lecture seule [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Renvoie la présentation parente. Lecture seule [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | Renvoie la diapositive parente. Lecture seule [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### Voir aussi
 
-* interface [IColorScheme](../icolorscheme)
-* namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
-* assembly [Aspose.Slides](../../)
+* interface [IColorScheme](../icolorscheme)
+* espace de noms [Aspose.Slides.Theme](../../aspose.slides.theme)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

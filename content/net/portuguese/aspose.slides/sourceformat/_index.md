@@ -1,12 +1,12 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o formato do arquivo de origem.
 type: docs
-weight: 10660
+weight: 10680
 url: /pt/aspose.slides/sourceformat/
 ---
-## SourceFormat enumeração
+## Enumeração SourceFormat
 
 Representa o formato do arquivo de origem.
 
@@ -18,19 +18,19 @@ public enum SourceFormat
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Ppt | `0` | Microsoft PowerPoint 97-2003 Apresentação (*.ppt). |
-| Pptx | `1` | Microsoft Office Open XML Apresentação (*.pptx). |
-| Odp | `2` | OpenDocument Apresentação (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML Apresentação com macro habilitada (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML Apresentação de Slides (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML Apresentação de Slides com macro habilitada (*.ppsm). |
-| Potx | `6` | Microsoft Office Open XML Modelo (*.potx). |
-| Potm | `7` | Microsoft Office Open XML Modelo com macro habilitada (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 Apresentação de Slides (*.pps). |
-| Pot | `9` | Microsoft PowerPoint 97-2003 Modelo (*.pot). |
-| Otp | `10` | OpenDocument Modelo de Apresentação (*.otp). |
-| Fodp | `11` | Flat XML ODF Apresentação (*.fodp). |
-| Xml | `12` | PowerPoint XML Apresentação (*.xml). |
+| Ppt | `0` | Apresentação Microsoft PowerPoint 97-2003 (*.ppt). |
+| Pptx | `1` | Apresentação Microsoft Office Open XML (*.pptx). |
+| Odp | `2` | Apresentação OpenDocument (*.odp). |
+| Pptm | `3` | Apresentação Microsoft Office Open XML com macros (*.pptm). |
+| Ppsx | `4` | Apresentação de Slides Microsoft Office Open XML (*.ppsx). |
+| Ppsm | `5` | Apresentação de Slides Microsoft Office Open XML com macros (*.ppsm). |
+| Potx | `6` | Modelo Microsoft Office Open XML (*.potx). |
+| Potm | `7` | Modelo Microsoft Office Open XML com macros (*.potm). |
+| Pps | `8` | Apresentação de Slides Microsoft PowerPoint 97-2003 (*.pps). |
+| Pot | `9` | Modelo Microsoft PowerPoint 97-2003 (*.pot). |
+| Otp | `10` | Modelo de Apresentação OpenDocument (*.otp). |
+| Fodp | `11` | Apresentação Flat XML ODF (*.fodp). |
+| Xml | `12` | Apresentação PowerPoint XML (*.xml). |
 
 ### Veja Também
 

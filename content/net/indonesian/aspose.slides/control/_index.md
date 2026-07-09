@@ -1,14 +1,14 @@
 ---
 title: Control
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili kontrol ActiveX.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili sebuah kontrol ActiveX.
 type: docs
-weight: 2670
+weight: 2690
 url: /id/aspose.slides/control/
 ---
 ## Kelas Control
 
-Mewakili kontrol ActiveX.
+Mewakili sebuah kontrol ActiveX.
 
 ```csharp
 public class Control : DomObject<ControlCollection>, IControl

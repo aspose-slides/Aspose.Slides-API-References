@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 내장된 오디오 파일 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 임베디드 오디오 파일의 컬렉션을 나타냅니다.
 type: docs
 weight: 860
 url: /ko/aspose.slides/audiocollection/
 ---
 ## AudioCollection 클래스
 
-내장된 오디오 파일 컬렉션을 나타냅니다.
+임베디드 오디오 파일의 컬렉션을 나타냅니다.
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -19,7 +19,7 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides/audiocollection/count) { get; } | 컬렉션에 포함된 오디오 파일 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/audiocollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IAudio`](../iaudio). |
 | [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -28,9 +28,9 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 | 이름 | 설명 |
 | --- | --- |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | 바이트 배열에서 오디오를 생성하고 프레젠테이션에 추가합니다. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | 다른 프레젠테이션에서 오디오 파일의 복사본을 추가합니다. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | 다른 프레젠테이션에서 오디오 파일 복사본을 추가합니다. |
 | [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | 스트림에서 오디오를 생성하고 프레젠테이션에 추가합니다. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 스트림에서 오디오를 생성하고 프레젠테이션에 추가합니다. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | 스트림 및 LoadingStreamBehavior를 사용하여 스트림에서 오디오를 생성하고 프레젠테이션에 추가합니다. |
 | [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | 지정된 인덱스부터 지정된 배열에 오디오를 복사합니다. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 

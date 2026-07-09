@@ -3,7 +3,7 @@ title: ILineFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 線の書式を表します。
 type: docs
-weight: 6290
+weight: 6310
 url: /ja/aspose.slides/ilineformat/
 ---
 ## ILineFormat インターフェイス
@@ -18,24 +18,24 @@ public interface ILineFormat : ILineParamSource
 
 | 名前 | 説明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | 線の配置を取得または設定します。読み書き [`LineAlignment`](../linealignment)。 |
-| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | ベース ILineParamSource インターフェイスを取得できます。読み取り専用 [`ILineParamSource`](../ilineparamsource)。 |
-| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | 線の先頭にある矢じりの長さを取得または設定します。読み書き [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | 線の先頭にある矢じりのスタイルを取得または設定します。読み書き [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | 線の先頭にある矢じりの幅を取得または設定します。読み書き [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | 線の端のスタイルを取得または設定します。読み書き [`LineCapStyle`](../linecapstyle)。 |
-| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | カスタム ダッシュ パターンを取得または設定します。読み書き Single[]. |
-| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | 線のダッシュ スタイルを取得または設定します。読み書き [`LineDashStyle`](../linedashstyle)。 |
-| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | 線の末尾にある矢じりの長さを取得または設定します。読み書き [`LineArrowheadLength`](../linearrowheadlength)。 |
-| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | 線の末尾にある矢じりのスタイルを取得または設定します。読み書き [`LineArrowheadStyle`](../linearrowheadstyle)。 |
-| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | 線の末尾にある矢じりの幅を取得または設定します。読み書き [`LineArrowheadWidth`](../linearrowheadwidth)。 |
-| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | 線の塗りつぶし書式を返します。読み取り専用 [`ILineFillFormat`](../ilinefillformat)。 |
-| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | 線の書式が未定義（作成直後のデフォルト）場合に true を返します。読み取り専用 Boolean。 |
-| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | 線の結合スタイルを取得または設定します。読み書き [`LineJoinStyle`](../linejoinstyle)。 |
-| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | 線のミタリミットを取得または設定します。読み書き Single。 |
-| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | 線のスケッチ書式を返します。読み取り専用 [`ISketchFormat`](../isketchformat)。 |
-| [Style](../../aspose.slides/ilineformat/style) { get; set; } | 線のスタイルを取得または設定します。読み書き [`LineStyle`](../linestyle)。 |
-| [Width](../../aspose.slides/ilineformat/width) { get; set; } | 線の幅を取得または設定します。読み書き Double。 |
+| [Alignment](../../aspose.slides/ilineformat/alignment) { get; set; } | 線の配置を取得または設定します。読み取り/書き込み [`LineAlignment`](../linealignment). |
+| [AsILineParamSource](../../aspose.slides/ilineformat/asilineparamsource) { get; } | 基本 ILineParamSource インターフェイスを取得できます。読み取り専用 [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformat/beginarrowheadlength) { get; set; } | 線の先端にある矢印ヘッドの長さを取得または設定します。読み取り/書き込み [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformat/beginarrowheadstyle) { get; set; } | 線の先端にある矢印ヘッドのスタイルを取得または設定します。読み取り/書き込み [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformat/beginarrowheadwidth) { get; set; } | 線の先端にある矢印ヘッドの幅を取得または設定します。読み取り/書き込み [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformat/capstyle) { get; set; } | 線の端（キャップ）スタイルを取得または設定します。読み取り/書き込み [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformat/customdashpattern) { get; set; } | カスタム破線パターンを取得または設定します。読み取り/書き込み Single[]. |
+| [DashStyle](../../aspose.slides/ilineformat/dashstyle) { get; set; } | 線の破線スタイルを取得または設定します。読み取り/書き込み [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformat/endarrowheadlength) { get; set; } | 線の終端にある矢印ヘッドの長さを取得または設定します。読み取り/書き込み [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformat/endarrowheadstyle) { get; set; } | 線の終端にある矢印ヘッドのスタイルを取得または設定します。読み取り/書き込み [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformat/endarrowheadwidth) { get; set; } | 線の終端にある矢印ヘッドの幅を取得または設定します。読み取り/書き込み [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/ilineformat/fillformat) { get; } | 線の塗りつぶし書式を取得します。読み取り専用 [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/ilineformat/isformatnotdefined) { get; } | ライン書式が未定義の場合（作成直後のデフォルト）に true を返します。読み取り専用 Boolean. |
+| [JoinStyle](../../aspose.slides/ilineformat/joinstyle) { get; set; } | 線の結合スタイルを取得または設定します。読み取り/書き込み [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/ilineformat/miterlimit) { get; set; } | 線のマイターリミットを取得または設定します。読み取り/書き込み Single. |
+| [SketchFormat](../../aspose.slides/ilineformat/sketchformat) { get; } | 線のスケッチ書式を取得します。読み取り専用 [`ISketchFormat`](../isketchformat). |
+| [Style](../../aspose.slides/ilineformat/style) { get; set; } | 線のスタイルを取得または設定します。読み取り/書き込み [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/ilineformat/width) { get; set; } | 線の幅を取得または設定します。読み取り/書き込み Double. |
 
 ## メソッド
 
@@ -46,8 +46,8 @@ public interface ILineFormat : ILineParamSource
 
 ### 参照
 
-* interface [ILineParamSource](../ilineparamsource)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* インターフェイス [ILineParamSource](../ilineparamsource)
+* 名前空間 [Aspose.Slides](../../aspose.slides)
+* アセンブリ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

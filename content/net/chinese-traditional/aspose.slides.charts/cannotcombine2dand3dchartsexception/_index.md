@@ -1,14 +1,14 @@
 ---
 title: CannotCombine2DAnd3DChartsException
-second_title: Aspose.Sildes .NET API 參考
-description: 當嘗試結合 2D 與 3D 圖表類型時拋出的 Exception。
+second_title: Aspose.Sildes for .NET API 參考
+description: 當嘗試結合 2D 與 3D 圖表類型時拋出的例外。
 type: docs
 weight: 1240
 url: /zh-hant/aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 ## CannotCombine2DAnd3DChartsException 類別
 
-在嘗試結合 2D 與 3D 圖表類型時拋出的 Exception。
+當嘗試結合 2D 與 3D 圖表類型時拋出的例外。
 
 ```csharp
 public class CannotCombine2DAnd3DChartsException : InvalidOperationException
@@ -16,13 +16,13 @@ public class CannotCombine2DAnd3DChartsException : InvalidOperationException
 
 ## 建構函式
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor)() | 預設建構函式。 |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 建構函式，允許在此 Exception 中加入訊息。 |
-| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | 建構函式，用於包含訊息與內嵌例外的例外。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_1)(string) | 允許將訊息加入此例外的建構函式。 |
+| [CannotCombine2DAnd3DChartsException](cannotcombine2dand3dchartsexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的例外建構函式。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

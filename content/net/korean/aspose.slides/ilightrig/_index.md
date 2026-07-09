@@ -1,14 +1,14 @@
 ---
 title: ILightRig
 second_title: Aspose.Sildes for .NET API 참조
-description: LightRig를 나타냅니다.
+description: LightRig을 나타냅니다.
 type: docs
 weight: 6270
 url: /ko/aspose.slides/ilightrig/
 ---
 ## ILightRig 인터페이스
 
-LightRig를 나타냅니다.
+LightRig을 나타냅니다.
 
 ```csharp
 public interface ILightRig
@@ -18,17 +18,17 @@ public interface ILightRig
 
 | 이름 | 설명 |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 빛의 방향. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 모양에 적용할 수 있는 사전 설정 조명 오른쪽을 나타냅니다. LightRig는 3D 장면에 대해 특정 방식으로 배치된 일련의 조명을 나타냅니다. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 광 방향. 읽기/쓰기 [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 도형에 적용할 수 있는 미리 설정된 라이트 오른쪽을 나타냅니다. 라이트 리그는 3D 씬에 대해 특정 방식으로 방향이 지정된 조명 그룹을 나타냅니다. 읽기/쓰기 [`LightRigPresetType`](../lightrigpresettype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 위도 좌표, 경도 좌표 및 축을 중심으로 한 회전을 사용하여 회전을 정의합니다. 반환 배열의 첫 번째 요소 - 위도, 두 번째 - 경도, 세 번째 - 회전. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 위도 좌표, 경도 좌표 및 축을 중심으로 한 회전을 사용하여 회전을 정의합니다. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 회전은 위도 좌표, 경도 좌표 및 위도와 경도 좌표를 축으로 하는 회전을 사용하여 정의됩니다. 반환 배열의 첫 번째 요소는 위도, 두 번째 요소는 경도, 세 번째 요소는 회전입니다. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 회전은 위도 좌표, 경도 좌표 및 위도와 경도 좌표를 축으로 하는 회전을 사용하여 정의됩니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: Cell
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: เป็นตัวแทนของเซลล์ในตาราง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเซลล์ของตาราง.
 type: docs
 weight: 1130
 url: /th/aspose.slides/cell/
 ---
 ## คลาส Cell
 
-เป็นตัวแทนของเซลล์ในตาราง.
+Represents a cell of a table.
 
 ```csharp
 public class Cell : ICell
@@ -18,44 +18,44 @@ public class Cell : ICell
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | กำหนดว่ากล่องข้อความจะถูกจัดกึ่งกลางภายในเซลล์หรือไม่ อ่าน/เขียน Boolean. |
-| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | ส่งคืนออบเจกต์ CellFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับเซลล์นี้ อ่านอย่างเดียว [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | ส่งคืนจำนวนคอลัมน์กริดในตารางแม่ของตารางที่เซลล์ปัจจุบันจะครอบคลุม คุณสมบัตินี้ทำให้เซลล์ดูเหมือนถูกรวมกัน เนื่องจากครอบขอบแนวตั้งของเซลล์อื่นในตาราง อ่านอย่างเดียว Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | รับคอลัมน์แรกของเซลล์ อ่านอย่างเดียว [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | ส่งคืนดัชนีของคอลัมน์แรกที่เซลล์ครอบคลุม อ่านอย่างเดียว Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | รับแถวแรกของเซลล์ อ่านอย่างเดียว [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | ส่งคืนดัชนีของแถวแรกที่เซลล์ครอบคลุม อ่านอย่างเดียว Int32. |
-| [Height](../../aspose.slides/cell/height) { get; } | ส่งคืนความสูงของเซลล์ อ่านอย่างเดียว Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | ส่งคืน true หากเซลล์ถูกรวมกับเซลล์ใดที่ปรับแล้ว มิฉะนั้นเป็น false อ่านอย่างเดียว Boolean. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | ส่งคืนหรือกำหนดระยะขอบล่างใน TextFrame อ่าน/เขียน Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | ส่งคืนหรือกำหนดระยะขอบซ้ายใน TextFrame อ่าน/เขียน Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | ส่งคืนหรือกำหนดระยะขอบขวาใน TextFrame อ่าน/เขียน Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | ส่งคืนหรือกำหนดระยะขอบบนใน TextFrame อ่าน/เขียน Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | ส่งคืนความสูงขั้นต่ำของเซลล์ นี่คือผลรวมของความสูงขั้นต่ำของแถวทั้งหมดที่เซลล์ครอบคลุม อ่านอย่างเดียว Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | ส่งคืนระยะจากด้านซ้ายของตารางถึงด้านซ้ายของเซลล์ อ่านอย่างเดียว Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | ส่งคืนระยะจากด้านบนของตารางถึงด้านบนของเซลล์ อ่านอย่างเดียว Double. |
-| [Presentation](../../aspose.slides/cell/presentation) { get; } | ส่งคืนการนำเสนอแม่ของเซลล์ อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | ส่งคืนจำนวนแถวที่เซลล์ที่ถูกรวมครอบคลุม ใช้ร่วมกับแอตทริบิวต์ vMerge บนเซลล์อื่นเพื่อระบุเซลล์เริ่มต้นของการรวมแนวนอน อ่านอย่างเดียว Int32. |
-| [Slide](../../aspose.slides/cell/slide) { get; } | ส่งคืนสไลด์แม่ของเซลล์ อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | ส่งคืนออบเจกต์ Table แม่สำหรับเซลล์ อ่านอย่างเดียว [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | ส่งคืนหรือกำหนดประเภทการยึดข้อความ อ่าน/เขียน [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | ส่งคืน TextFrame ของเซลล์ อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | ส่งคืนหรือกำหนดประเภทของข้อความแนวตั้ง อ่าน/เขียน [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/cell/width) { get; } | ส่งคืนความกว้างของเซลล์ อ่านอย่างเดียว Double. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | กำหนดว่ากล่องข้อความอยู่กึ่งกลางภายในเซลล์หรือไม่. อ่าน/เขียน Boolean. |
+| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | ส่งคืนอ็อบเจ็กต์ CellFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับเซลล์นี้. อ่านอย่างเดียว [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | ส่งคืนจำนวนคอลัมน์ในกริดของตารางแม่ที่เซลล์ปัจจุบันจะครอบคลุม. คุณสมบัตินี้ทำให้เซลล์ดูเหมือนถูกรวมเข้าด้วยกัน โดยที่เซลล์ขยายขอบแนวตั้งของเซลล์อื่นในตาราง. อ่านอย่างเดียว Int32. |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | รับคอลัมน์แรกของเซลล์. อ่านอย่างเดียว [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | ส่งคืนดัชนีของคอลัมน์แรกที่เซลล์ครอบคลุม. อ่านอย่างเดียว Int32. |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | รับแถวแรกของเซลล์. อ่านอย่างเดียว [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | ส่งคืนดัชนีของแถวแรกที่เซลล์ครอบคลุม. อ่านอย่างเดียว Int32. |
+| [Height](../../aspose.slides/cell/height) { get; } | ส่งคืนความสูงของเซลล์. อ่านอย่างเดียว Double. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | ส่งคืน true หากเซลล์ถูกรวมกับเซลล์ใดที่ถูกปรับ, false มิฉะนั้น. อ่านอย่างเดียว Boolean. |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | ส่งคืนหรือกำหนดระยะขอบล่างใน TextFrame. อ่าน/เขียน Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | ส่งคืนหรือกำหนดระยะขอบซ้ายใน TextFrame. อ่าน/เขียน Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | ส่งคืนหรือกำหนดระยะขอบขวาใน TextFrame. อ่าน/เขียน Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | ส่งคืนหรือกำหนดระยะขอบบนใน TextFrame. อ่าน/เขียน Double. |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | ส่งคืนความสูงต่ำสุดของเซลล์. นี่คือผลรวมของความสูงต่ำสุดของทุกแถวที่เซลล์ครอบคลุม. อ่านอย่างเดียว Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | ส่งคืนระยะทางจากด้านซ้ายของตารางถึงด้านซ้ายของเซลล์. อ่านอย่างเดียว Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | ส่งคืนระยะทางจากด้านบนของตารางถึงด้านบนของเซลล์. อ่านอย่างเดียว Double. |
+| [Presentation](../../aspose.slides/cell/presentation) { get; } | ส่งคืนการนำเสนอแม่ของเซลล์. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | ส่งคืนจำนวนแถวที่เซลล์ที่รวมเข้าด้วยกันครอบคลุม. ใช้ร่วมกับแอตริบิวต์ vMerge ในเซลล์อื่นเพื่อระบุเซลล์เริ่มต้นของการรวมแนวนอน. อ่านอย่างเดียว Int32. |
+| [Slide](../../aspose.slides/cell/slide) { get; } | ส่งคืนสไลด์แม่ของเซลล์. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [Table](../../aspose.slides/cell/table) { get; } | ส่งคืนอ็อบเจ็กต์ Table แม่ของเซลล์. อ่านอย่างเดียว [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | ส่งคืนหรือกำหนดประเภทของ text anchor. อ่าน/เขียน [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | ส่งคืน text frame ของเซลล์. อ่านอย่างเดียว [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | ส่งคืนหรือกำหนดประเภทของข้อความแนวตั้ง. อ่าน/เขียน [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/cell/width) { get; } | ส่งคืนความกว้างของเซลล์. อ่านอย่างเดียว Double. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | แยกเซลล์ออกเป็นสองเซลล์ตามดัชนีของคอลัมน์. |
-| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | แยกเซลล์ตามความสูง. |
-| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | แยกเซลล์ออกเป็นสองเซลล์ตามดัชนีของแถว. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | แยกเซลล์ตามความกว้าง. |
+| [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | แบ่งเซลล์ออกเป็นสองเซลล์โดยใช้ดัชนีของคอลัมน์. |
+| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | แบ่งเซลล์ตามความสูง. |
+| [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | แบ่งเซลล์ออกเป็นสองเซลล์โดยใช้ดัชนีของแถว. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | แบ่งเซลล์ตามความกว้าง. |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [ICell](../icell)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ChartSeriesCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt collectie van ChartSeries./chartseries
+description: Stelt een verzameling van ChartSeries./chartseries
 type: docs
 weight: 1450
 url: /nl/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection klasse
 
-Represents collection of [`ChartSeries`](../chartseries)
+Stelt een verzameling van [`ChartSeries`](../chartseries)
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -18,26 +18,26 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Retourneert het aantal objecten in de collectie. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | Retourneert een aantal objecten in de verzameling. Alleen-lezen Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | Haalt het element op op de opgegeven index. |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | Retourneert een synchronisatie-root. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Creëert een nieuwe grafiekserie en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Creëert een nieuwe grafiekserie vanuit [`ChartCellCollection`](../chartcellcollection) en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Creëert een nieuwe grafiekserie vanuit [`ChartDataCell`](../chartdatacell) en voegt deze toe aan de collectie. |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Creëert een nieuwe grafiekserie vanuit een waarde en voegt deze toe aan de collectie. |
-| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Verwijdert alle besturingselementen uit de collectie. |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Kopieert de gehele collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Zoekt naar de gespecificeerde [`ChartSeries`](../chartseries) en retourneert de nul-gebaseerde index van het eerste voorkomen binnen de volledige Collection |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Creëert een nieuwe grafiekserie en voegt deze in de collectie in. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | Maakt een nieuwe grafiekreeks aan en voegt deze toe aan de verzameling. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | Maakt een nieuwe grafiekreeks aan van [`ChartCellCollection`](../chartcellcollection) en voegt deze toe aan de verzameling. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | Maakt een nieuwe grafiekreeks aan van [`ChartDataCell`](../chartdatacell) en voegt deze toe aan de verzameling. |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | Maakt een nieuwe grafiekreeks aan van waarde en voegt deze toe aan de verzameling. |
+| [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | Verwijdert alle besturingselementen uit de verzameling. |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | Kopieert de volledige verzameling naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereren. |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | Zoekt naar de opgegeven [`ChartSeries`](../chartseries) en retourneert de nulgebaseerde index van de eerste vindplaats binnen de volledige collectie. |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | Maakt een nieuwe grafiekreeks aan en voegt het in de verzameling in. |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | Verwijdert de opgegeven waarde. |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Verwijdert een ActiveX-besturingselement dat op de opgegeven positie is opgeslagen uit de collectie. |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | Verwijdert een ActiveX-besturingselement dat op de opgegeven positie in de verzameling is opgeslagen. |
 
 ### Zie ook
 

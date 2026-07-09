@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果のトリガータイプを表します。
+description: エフェクトのトリガータイプを表します。
 type: docs
-weight: 330
+weight: 350
 url: /ja/aspose.slides.animation/effecttriggertype/
 ---
 ## EffectTriggerType 列挙体
 
-効果のトリガータイプを表します。
+エフェクトのトリガータイプを表します。
 
 ```csharp
 public enum EffectTriggerType

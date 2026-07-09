@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar datapunktnivå. Gäller för Treemap- och Sunburst-diagram.
+description: Representerar datapunkenivå. Gäller för Treemap- och Sunburst-diagram.
 type: docs
-weight: 1820
+weight: 1840
 url: /sv/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel gränssnitt
 
-Representerar datapunktnivå. Gäller för Treemap- och Sunburst-diagram.
+Representerar datapunkenivå. Gäller för Treemap- och Sunburst-diagram.
 
 ```csharp
 public interface IChartDataPointLevel
@@ -18,8 +18,8 @@ public interface IChartDataPointLevel
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Representerar formateringsegenskaper för datapunktnivå. Läs/skriv [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Representerar datapunktetikett för datapunktnivå. Tillämpas för Treemap- och Sunburst-serietyper. Skrivskyddad [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | Representerar formateringsegenskaper för datapunkenivå. Läs/skriv [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | Representerar datatagg för datapunkenivå. Tillämpas för Treemap- och Sunburst-serietyper. Skrivskyddad [`IDataLabel`](../idatalabel). |
 
 ### Se även
 

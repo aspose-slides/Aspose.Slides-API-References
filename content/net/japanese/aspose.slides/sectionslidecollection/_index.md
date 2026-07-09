@@ -3,7 +3,7 @@ title: SectionSlideCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: セクション内のスライドのコレクションを表します。
 type: docs
-weight: 9750
+weight: 9770
 url: /ja/aspose.slides/sectionslidecollection/
 ---
 ## SectionSlideCollection クラス
@@ -18,10 +18,10 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期化（スレッド セーフ）されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/sectionslidecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/sectionslidecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか (スレッド セーフ) を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/sectionslidecollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`ISlide`](../islide)。 |
-| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/sectionslidecollection/syncroot) { get; } | 同期のルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -30,7 +30,7 @@ public sealed class SectionSlideCollection : DomObject<Section>, ISectionSlideCo
 | [CopyTo](../../aspose.slides/sectionslidecollection/copyto)(Array, int) | コレクション全体を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/sectionslidecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Section](../section)

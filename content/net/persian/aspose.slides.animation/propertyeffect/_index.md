@@ -1,12 +1,12 @@
 ---
 title: PropertyEffect
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: رفتار اثر ویژگی را نمایش می‌دهد.
 type: docs
 weight: 750
 url: /fa/aspose.slides.animation/propertyeffect/
 ---
-## کلاس PropertyEffect
+## PropertyEffect کلاس
 
 رفتار اثر ویژگی را نمایش می‌دهد.
 
@@ -14,7 +14,7 @@ url: /fa/aspose.slides.animation/propertyeffect/
 public class PropertyEffect : Behavior, IPropertyEffect
 ```
 
-## سازندگان
+## سازنده‌ها
 
 | نام | توضیح |
 | --- | --- |
@@ -24,16 +24,16 @@ public class PropertyEffect : Behavior, IPropertyEffect
 
 | نام | توضیح |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | نمایانگر این که آیا رفتارهای انیمیشن جمع می‌شوند یا نه. قابل خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | نمایانگر این که آیا رفتار جاری انیمیشن با انیمیشن‌های دیگر در حال اجرا ترکیب می‌شود یا نه. قابل خواندن/نوشتن [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | مقدار جابجایی نسبی برای انیمیشن نسبت به موقعیت آن قبل از شروع انیمیشن را تعیین می‌کند. قابل خواندن/نوشتن String. |
-| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | حالت درون‌یابی برای انیمیشن را تعیین می‌کند. قابل خواندن/نوشتن [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | مقدار شروع انیمیشن را تعیین می‌کند. قابل خواندن/نوشتن String. |
-| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | نقاط انیمیشن را تعیین می‌کند. قابل خواندن/نوشتن [`IPointCollection`](../ipointcollection). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | ویژگی‌های رفتار را نمایش می‌دهد. فقط-خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | ویژگی‌های زمان‌بندی برای رفتار اثر را نمایش می‌دهد. قابل خواندن/نوشتن [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | مقدار پایان انیمیشن را تعیین می‌کند. قابل خواندن/نوشتن String. |
-| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | نوع مقدار یک ویژگی را تعیین می‌کند. قابل خواندن/نوشتن [`PropertyValueType`](../propertyvaluetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | مشخص می‌کند که آیا رفتارهای انیمیشن جمع می‌شوند. خواندن/نوشتن [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | مشخص می‌کند که آیا رفتار انیمیشن فعلی با سایر انیمیشن‌های در حال اجرا ترکیب می‌شود. خواندن/نوشتن [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/propertyeffect/by) { get; set; } | مقدار جابجایی نسبی برای انیمیشن نسبت به موقعیت آن قبل از شروع انیمیشن را مشخص می‌کند. خواندن/نوشتن String. |
+| [CalcMode](../../aspose.slides.animation/propertyeffect/calcmode) { get; set; } | حالت درونی‌سازی برای انیمیشن را مشخص می‌کند. خواندن/نوشتن [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/propertyeffect/from) { get; set; } | مقدار شروع انیمیشن را مشخص می‌کند. خواندن/نوشتن String. |
+| [Points](../../aspose.slides.animation/propertyeffect/points) { get; set; } | نقاط انیمیشن را مشخص می‌کند. خواندن/نوشتن [`IPointCollection`](../ipointcollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | خواص رفتار را نمایش می‌دهد. فقط خواندنی [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | خواص زمان‌بندی برای رفتار اثر را نمایش می‌دهد. خواندن/نوشتن [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/propertyeffect/to) { get; set; } | مقدار پایان انیمیشن را مشخص می‌کند. خواندن/نوشتن String. |
+| [ValueType](../../aspose.slides.animation/propertyeffect/valuetype) { get; set; } | نوع مقدار یک ویژگی را مشخص می‌کند. خواندن/نوشتن [`PropertyValueType`](../propertyvaluetype). |
 
 ### موارد مرتبط
 

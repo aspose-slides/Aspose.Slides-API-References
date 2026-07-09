@@ -1,14 +1,14 @@
 ---
 title: IMasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn trình quản lý giữ hành vi của các placeholder footer, ngày-giờ, số trang của slide ghi chú chính và tất cả các placeholder con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide ghi chú master và tất cả các trình giữ chỗ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master.
 type: docs
 weight: 6400
 url: /vi/aspose.slides/imasternotesslideheaderfootermanager/
 ---
 ## IMasterNotesSlideHeaderFooterManager giao diện
 
-Biểu diễn trình quản lý giữ hành vi của các placeholder footer, ngày-giờ, số trang của slide ghi chú chính và tất cả các placeholder con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính.
+Đại diện cho trình quản lý giữ hành vi của trình giữ chỗ chân trang, ngày-giờ, số trang của slide ghi chú master và tất cả các trình giữ chỗ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master.
 
 ```csharp
 public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -16,26 +16,26 @@ public interface IMasterNotesSlideHeaderFooterManager : IBaseHandoutNotesSlideHe
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasternotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Trả về giao diện IBaseHandoutNotesSlideHeaderFooterManag. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho placeholder ngày-giờ của slide ghi chú chính và tất cả các placeholder ngày-giờ con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder ngày-giờ của slide ghi chú chính và tất cả các placeholder ngày-giờ con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho placeholder footer của slide ghi chú chính và tất cả các placeholder footer con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder footer của slide ghi chú chính và tất cả các placeholder footer con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Đặt văn bản cho placeholder header của slide ghi chú chính và tất cả các placeholder header con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder header của slide ghi chú chính và tất cả các placeholder header con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của placeholder số trang của slide ghi chú chính và tất cả các placeholder số trang con. Các placeholder con có nghĩa là các placeholder được chứa trong các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản vào trình giữ chỗ ngày-giờ của slide ghi chú master và tất cả các trình giữ chỗ ngày-giờ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ của slide ghi chú master và tất cả các trình giữ chỗ ngày-giờ con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản vào trình giữ chỗ chân trang của slide ghi chú master và tất cả các trình giữ chỗ chân trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang của slide ghi chú master và tất cả các trình giữ chỗ chân trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Đặt văn bản vào trình giữ chỗ phần đầu của slide ghi chú master và tất cả các trình giữ chỗ phần đầu con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ phần đầu của slide ghi chú master và tất cả các trình giữ chỗ phần đầu con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang của slide ghi chú master và tất cả các trình giữ chỗ số trang con. Các trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú master. |
 
 ### Xem thêm
 
 * giao diện [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* tập lắp ráp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

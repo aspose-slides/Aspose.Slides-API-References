@@ -1,6 +1,6 @@
 ---
 title: ITextAnimation
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Biểu diễn hoạt ảnh văn bản.
 type: docs
 weight: 620
@@ -18,14 +18,14 @@ public interface ITextAnimation
 
 | Tên | Mô tả |
 | --- | --- |
-| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Danh sách kiểu xây dựng (ví dụ Paragraph 1,2,3, All at Once) của hoạt ảnh văn bản. Đọc/ghi [`BuildType`](./buildtype). |
-| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Hiệu ứng hình dạng liên kết với nhóm hoặc không (null) Đọc/ghi [`IEffect`](../ieffect). |
+| [BuildType](../../aspose.slides.animation/itextanimation/buildtype) { get; set; } | Danh sách kiểu xây dựng (ví dụ Paragraph 1,2,3, Tất cả một lúc) của hoạt ảnh văn bản. Đọc/ghi [`BuildType`](./buildtype). |
+| [EffectAnimateBackgroundShape](../../aspose.slides.animation/itextanimation/effectanimatebackgroundshape) { get; set; } | Hiệu ứng hình dạng liên kết có nhóm hoặc không (null) Đọc/ghi [`IEffect`](../ieffect). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng mới vào cuối chuỗi hiện tại đến cuối các hoạt ảnh văn bản của nhóm. Chỉ hợp lệ nếu số lượng đoạn văn bản bằng hoặc lớn hơn số lượng hiệu ứng của nhóm này! |
+| [AddEffect](../../aspose.slides.animation/itextanimation/addeffect)(EffectType, EffectSubtype, EffectTriggerType) | Thêm hiệu ứng mới vào cuối chuỗi hiện tại đến cuối nhóm hoạt ảnh văn bản. Chỉ hợp lệ nếu số lượng đoạn văn bằng hoặc lớn hơn số lượng hiệu ứng của nhóm này! |
 
 ### Xem thêm
 

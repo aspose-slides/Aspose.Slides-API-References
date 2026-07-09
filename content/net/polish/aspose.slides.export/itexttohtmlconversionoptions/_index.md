@@ -1,14 +1,14 @@
 ---
 title: ITextToHtmlConversionOptions
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Opcje wyodrębniania HTML z tekstu Pptx.
 type: docs
-weight: 4140
+weight: 4160
 url: /pl/aspose.slides.export/itexttohtmlconversionoptions/
 ---
 ## ITextToHtmlConversionOptions interfejs
 
-Opcje wyodrębniania HTML z tekstu Pptx.
+Opcje ekstrakcji HTML z tekstu Pptx.
 
 ```csharp
 public interface ITextToHtmlConversionOptions
@@ -18,10 +18,10 @@ public interface ITextToHtmlConversionOptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Zwraca lub ustawia wartość wskazującą, czy nagłówki schowka powinny być dodane. Odczyt/zapis Boolean. |
-| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Zwraca lub ustawia nazwę kodowania HTML. Ta wartość zostanie zapisana w wygenerowanym pliku HTML, ale to użytkownik musi zapewnić zapis pliku w tym kodowaniu. Odczyt/zapis String. |
-| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Zwraca lub ustawia obiekt zwrotny, który kontroluje sposób przechowywania obiektu zewnętrznego. Odczyt/zapis [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Zwraca lub ustawia głębokość dziedziczenia dla właściwości tekstu. Odczyt/zapis [`TextInheritanceLimit`](./textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/itexttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Zwraca lub ustawia wartość, wskazując, czy nagłówki schowka powinny być dodane. Odczyt/zapis Boolean. |
+| [EncodingName](../../aspose.slides.export/itexttohtmlconversionoptions/encodingname) { get; set; } | Zwraca lub ustawia nazwę kodowania html. Ta wartość zostanie zapisana do wygenerowanego pliku HTML, ale to od wywołującego zależy, aby plik został zapisany w tym kodowaniu. Odczyt/zapis String. |
+| [LinkEmbedController](../../aspose.slides.export/itexttohtmlconversionoptions/linkembedcontroller) { get; set; } | Zwraca lub ustawia obiekt wywołania zwrotnego, który kontroluje sposób przechowywania obiektu zewnętrznego. Odczyt/zapis [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/itexttohtmlconversionoptions/textinheritancelimit) { get; set; } | Zwraca lub ustawia wbudowaną głębokość dla właściwości tekstu. Odczyt/zapis [`TextInheritanceLimit`](./textinheritancelimit). |
 
 ### Zobacz także
 

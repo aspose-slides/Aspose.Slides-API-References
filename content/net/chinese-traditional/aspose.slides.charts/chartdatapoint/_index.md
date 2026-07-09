@@ -1,6 +1,6 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示系列資料點。
 type: docs
 weight: 1330
@@ -16,36 +16,36 @@ public class ChartDataPoint : IChartDataPoint
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | 指定圖表元素的實際高度。於取得實際值前，先呼叫方法 IChart.ValidateChartLayout()。讀取 Single。 |
-| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | 指定圖表元素的實際寬度。於取得實際值前，先呼叫方法 IChart.ValidateChartLayout()。讀取 Single。 |
-| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左）。於取得實際值前，先呼叫方法 IChart.ValidateChartLayout()。讀取 Single。 |
-| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。於取得實際值前，先呼叫方法 IChart.ValidateChartLayout()。讀取 Single。 |
-| [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | 返回圖表資料點的顏色值。用於地圖圖表。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | 返回資料點等級的容器。適用於 Treeamp 與 Sunburst 系列。資料點等級索引從零開始。 |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | 表示在自訂值類型情況下系列誤差棒的值。唯讀 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues)。 |
-| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | 指定資料點應從餅圖中心移動的距離。可讀寫 Int32。 |
-| [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | 表示格式屬性。可讀寫 [`IFormat`](../iformat)。 |
+| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | 指定圖表元素的實際高度。於取得實際值前請先呼叫 IChart.ValidateChartLayout() 方法。唯讀 Single. |
+| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | 指定圖表元素的實際寬度。於取得實際值前請先呼叫 IChart.ValidateChartLayout() 方法。唯讀 Single. |
+| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 x 位置（左側）。於取得實際值前請先呼叫 IChart.ValidateChartLayout() 方法。唯讀 Single. |
+| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。於取得實際值前請先呼叫 IChart.ValidateChartLayout() 方法。唯讀 Single. |
+| [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. 唯讀 [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | 傳回圖表資料點的顏色值。用於地圖圖表。唯讀 [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | 傳回資料點層級的容器。適用於 Treeamp 與 Sunburst 系列。資料點層級的索引從零開始. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | 表示自訂值類型情況下的系列誤差條值。唯讀 [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | 指定資料點應從餅圖中心移動的距離。可讀寫 Int32. |
+| [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | 表示格式屬性。可讀寫 [`IFormat`](../iformat). |
 | [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
-| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | 指定當值為負時，資料點應反轉其顏色。可讀寫 Boolean。 |
-| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | 指定對氣泡套用 3-D 效果。可讀寫 Boolean。 |
-| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Label。唯讀 [`IDataLabel`](../idatalabel)。 |
-| [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | 指定資料標記。唯讀 [`IMarker`](../imarker)。 |
-| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | 對於以下圖表類型的相應圖例項目的屬性：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。唯讀 [`ILegendEntryProperties`](../ilegendentryproperties)。 |
-| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | 將資料點設定為總計。僅適用於 Waterfall 系列類型。 |
-| [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | 返回圖表資料點的大小值。用於 Treemap 與 Sunburst 圖表。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | Value。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
-| [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue。唯讀 [`IStringOrDoubleChartValue`](../istringordoublechartvalue)。 |
-| [YValue](../../aspose.slides.charts/chartdatapoint/yvalue) { get; } | YValue。唯讀 [`IDoubleChartValue`](../idoublechartvalue)。 |
+| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | 指定若數值為負，資料點應反轉其顏色。可讀寫 Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | 指定泡泡套用 3-D 效果。可讀寫 Boolean. |
+| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | Label. 唯讀 [`IDataLabel`](../idatalabel). |
+| [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | 指定資料標記。唯讀 [`IMarker`](../imarker). |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | 對應圖例項目的屬性，適用於以下圖表類型：ChartType.BarOfPie、ChartType.ExplodedPie、ChartType.ExplodedPie3D、ChartType.Pie、ChartType.Pie3D、ChartType.PieOfPie。唯讀 [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | 將資料點設定為總計。僅適用於 Waterfall 系列類型. |
+| [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | 傳回圖表資料點的大小值。用於 Treemap 與 Sunburst 圖表。唯讀 [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | Value. 唯讀 [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue. 唯讀 [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/chartdatapoint/yvalue) { get; } | YValue. 唯讀 [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | 根據系列索引、資料點索引、ParentSeriesGroup.IsColorVaried 屬性和圖表樣式，返回資料點的自動顏色。如果 FillType 等於 NotDefined，則預設使用此顏色。 |
-| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | 從圖表系列中移除 DataPoint。 |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | 根據系列索引、資料點索引、ParentSeriesGroup.IsColorVaried 屬性與圖表樣式，傳回資料點的自動顏色。若 FillType 為 NotDefined，則預設使用此顏色. |
+| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | 從圖表系列中移除 DataPoint. |
 
 ### 另見
 

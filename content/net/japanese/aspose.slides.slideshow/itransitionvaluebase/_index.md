@@ -1,9 +1,9 @@
 ---
 title: ITransitionValueBase
-second_title: Aspose.Sildes の .NET API リファレンス
-description: スライド トランジション効果の基底クラスを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: スライドのトランジション効果の基底クラスを表します。
 type: docs
-weight: 10190
+weight: 10210
 url: /ja/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase インターフェイス

@@ -1,14 +1,14 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes pro .NET API Referenci
-description: Představuje kolekci efektů sekvence.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Representuje kolekci efektů sekvence.
 type: docs
-weight: 770
+weight: 790
 url: /cs/aspose.slides.animation/sequence/
 ---
 ## Sequence třída
 
-Represents sequence (collection of effects).
+Representuje sekvenci (kolekci efektů).
 
 ```csharp
 public sealed class Sequence : ISequence
@@ -20,7 +20,7 @@ public sealed class Sequence : ISequence
 | --- | --- |
 | [Count](../../aspose.slides.animation/sequence/count) { get; } | Vrací počet efektů v sekvenci. Pouze pro čtení Int32. |
 | [Item](../../aspose.slides.animation/sequence/item) { get; } | Vrací efekt na zadaném indexu. |
-| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Vrací nebo nastavuje cíl tvaru pro INTERACTIVE sekvenci. Pokud sekvence není interaktivní, vrátí null. Čtení/zápis [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/sequence/triggershape) { get; set; } | Vrací nebo nastavuje cílový tvar pro INTERACTIVE sekvenci. Pokud sekvence není interaktivní, vrací null. Čtení/zápis [`IShape`](../../aspose.slides/ishape). |
 
 ## Metody
 
@@ -28,8 +28,8 @@ public sealed class Sequence : ISequence
 | --- | --- |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový animační efekt pro odstavec na konec sekvence. |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový efekt na konec sekvence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový animační efekt diagramu pro kategorii nebo řadu na konec sekvence. |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový animační efekt diagramu pro elementy v kategorii nebo řadě na konec sekvence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový animační efekt grafu pro kategorii nebo řadu na konec sekvence. |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Přidá nový animační efekt grafu pro prvky v kategorii nebo řadě na konec sekvence. |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | Odstraní všechny efekty ze sbírky. |
 | [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | Vrací počet efektů pro zadaný tvar. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | Vrací pole efektů pro zadaný odstavec. |

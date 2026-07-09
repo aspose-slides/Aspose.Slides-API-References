@@ -1,14 +1,14 @@
 ---
 title: MotionCommandPathType
 second_title: Aspose.Sildes .NET API referencia
-description: Ábrázolja a parancsok típusait az animációs mozgáshatás viselkedéséhez.
+description: Ábrázolja a parancsok típusait az animációs mozgási hatás viselkedéséhez.
 type: docs
-weight: 640
+weight: 660
 url: /hu/aspose.slides.animation/motioncommandpathtype/
 ---
 ## MotionCommandPathType enumeráció
 
-Az animációs mozgáshatások parancstípusait képviseli.
+Az animációs mozgás hatás viselkedéséhez tartozó parancstípusokat képviseli.
 
 ```csharp
 public enum MotionCommandPathType
@@ -24,7 +24,7 @@ public enum MotionCommandPathType
 | CloseLoop | `3` |  |
 | End | `4` |  |
 
-### Lásd még
+### Továbbiak
 
 * névtér [Aspose.Slides.Animation](../../aspose.slides.animation)
 * összeállítás [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cung cấp các phương thức để đặt khóa đo được.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp các phương thức để thiết lập khóa được đo lường.
 type: docs
 weight: 6450
 url: /vi/aspose.slides/imetered/
 ---
 ## IMetered giao diện
 
-Cung cấp các phương thức để đặt khóa đo được.
+Cung cấp các phương thức để thiết lập khóa được đo lường.
 
 ```csharp
 public interface IMetered
@@ -18,9 +18,9 @@ public interface IMetered
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Đặt khóa công khai và riêng tư đã đo. |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | Thiết lập khóa công khai và riêng tư có đo lường. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

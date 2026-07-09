@@ -1,12 +1,12 @@
 ---
 title: IBehaviorFactory
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes for .NET Riferimento API
 description: Consente di creare effetti di animazione
 type: docs
-weight: 410
+weight: 430
 url: /it/aspose.slides.animation/ibehaviorfactory/
 ---
-## IBehaviorFactory interfaccia
+## Interfaccia IBehaviorFactory
 
 Consente di creare effetti di animazione
 
@@ -25,9 +25,9 @@ public interface IBehaviorFactory
 | [CreatePropertyEffect](../../aspose.slides.animation/ibehaviorfactory/createpropertyeffect)() | Crea effetto proprietà. |
 | [CreateRotationEffect](../../aspose.slides.animation/ibehaviorfactory/createrotationeffect)() | Crea effetto rotazione. |
 | [CreateScaleEffect](../../aspose.slides.animation/ibehaviorfactory/createscaleeffect)() | Crea effetto scala. |
-| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Crea effetto set. |
+| [CreateSetEffect](../../aspose.slides.animation/ibehaviorfactory/createseteffect)() | Crea effetto impostazione. |
 
-### Osservazioni
+### Note
 
 Per compatibilità COM.
 

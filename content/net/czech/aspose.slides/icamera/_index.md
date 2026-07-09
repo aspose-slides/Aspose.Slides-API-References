@@ -1,14 +1,14 @@
 ---
 title: ICamera
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje Camera.
+second_title: Aspose.Sildes pro .NET referenční příručku API
+description: Zastupuje kameru.
 type: docs
-weight: 5390
+weight: 5410
 url: /cs/aspose.slides/icamera/
 ---
 ## ICamera rozhraní
 
-Reprezentuje Camera.
+Zastupuje kameru.
 
 ```csharp
 public interface ICamera
@@ -18,16 +18,16 @@ public interface ICamera
 
 | Název | Popis |
 | --- | --- |
-| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Typ kamery čtení/zápis [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV kamery (0-180 deg, zorné pole) čtení/zápis Single. |
-| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Zoom kamery (kladná hodnota v procentech) čtení/zápis Single. |
+| [CameraType](../../aspose.slides/icamera/cameratype) { get; set; } | Typ kamery Čtení/Zápis [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icamera/fieldofviewangle) { get; set; } | FOV kamery (0-180 deg, zorné pole) Čtení/Zápis Single. |
+| [Zoom](../../aspose.slides/icamera/zoom) { get; set; } | Zoom kamery (kladná hodnota v procentech) Čtení/Zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icamera/getrotation)() | Rotace je definována pomocí souřadnice šířky, souřadnice délky a otáčení kolem osy jako souřadnice šířky a délky. první prvek v návratovém poli – šířka, druhý – délka, třetí – otočení. Vrací null, pokud není rotace definována. |
-| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Rotace je definována pomocí souřadnice šířky, souřadnice délky a otáčení kolem osy jako souřadnice šířky a délky. Pokud je některá hodnota souřadnice float.NaN, je rotace nedefinovaná. |
+| [GetRotation](../../aspose.slides/icamera/getrotation)() | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčení kolem osy jako souřadnice zeměpisné šířky a délky. První prvek v návratovém poli – zeměpisná šířka, druhý – zeměpisná délka, třetí – otáčení. Vrací null, pokud není definována žádná rotace. |
+| [SetRotation](../../aspose.slides/icamera/setrotation)(float, float, float) | Rotace je definována pomocí souřadnice zeměpisné šířky, souřadnice zeměpisné délky a otáčení kolem osy jako souřadnice zeměpisné šířky a délky. Pokud je jakákoli hodnota souřadnice float.NaN, je celá rotace nedefinovaná. |
 
 ### Viz také
 

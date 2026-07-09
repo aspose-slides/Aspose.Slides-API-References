@@ -1,6 +1,6 @@
 ---
 title: IImageTransformOCollectionEffectiveData
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham khảo API .NET
 description: Đối tượng bất biến đại diện cho một bộ sưu tập chỉ đọc của các hiệu ứng biến đổi hình ảnh hiệu quả.
 type: docs
 weight: 3380
@@ -22,7 +22,7 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 ### Ghi chú
 
-Tên IImageTransformOperationCollectionEffectiveData bị cắt ngắn thành IImageTransformOCollectionEffectiveData vì độ dài tên COM không được vượt quá 39.
+Tên IImageTransformOperationCollectionEffectiveData bị rút ngắn thành IImageTransformOCollectionEffectiveData vì độ dài tên COM không thể vượt quá 39.
 
 ### Xem thêm
 

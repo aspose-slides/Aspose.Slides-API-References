@@ -1,14 +1,14 @@
 ---
 title: Duotone
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir Duotone etkisini temsil eder. Her piksel için Color1 ve Color2'yi lineer bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Duotone etkisini temsil eder. Her piksel için Color1 ve Color2'yi doğrusal bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
 type: docs
-weight: 2940
+weight: 2960
 url: /tr/aspose.slides.effects/duotone/
 ---
 ## Duotone sınıfı
 
-Bir Duotone etkisini temsil eder. Her piksel için, Color1 ve Color2'yi lineer bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
+Bir Duotone etkisini temsil eder. Her bir piksel için, Color1 ve Color2'yi linear bir enterpolasyonla birleştirerek o pikselin yeni rengini belirler.
 
 ```csharp
 public sealed class Duotone : ImageTransformOperation, IDuotone
@@ -18,19 +18,19 @@ public sealed class Duotone : ImageTransformOperation, IDuotone
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Sadece okunabilir [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Karanlık pikseller için hedef renk biçimini döndürür. Sadece okunabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Açık pikseller için hedef renk biçimini döndürür. Sadece okunabilir [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almaya izin verir. Yalnızca okuma [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Color1](../../aspose.slides.effects/duotone/color1) { get; } | Koyu pikseller için hedef renk biçimini döndürür. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color2](../../aspose.slides.effects/duotone/color2) { get; } | Açık pikseller için hedef renk biçimini döndürür. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/duotone/equals)(object) | Belirtilen [`Duotone`](../duotone)'nin mevcut [`Duotone`](../duotone) ile eşit olup olmadığını belirler. |
-| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Kalıtım uygulanmış etkili Duotone efekt verilerini alır. |
-| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet verir. |
+| [GetEffective](../../aspose.slides.effects/duotone/geteffective)() | Uygulanan kalıtımla birlikte etkili Duotone efekt verilerini alır. |
+| override [GetHashCode](../../aspose.slides.effects/duotone/gethashcode)() | Belirli bir tip için bir karma işlevi olarak hizmet eder. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [ImageTransformOperation](../imagetransformoperation)
 * arayüz [IDuotone](../iduotone)

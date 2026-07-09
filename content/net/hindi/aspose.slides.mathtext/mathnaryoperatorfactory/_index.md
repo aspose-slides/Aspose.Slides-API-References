@@ -1,6 +1,6 @@
 ---
 title: MathNaryOperatorFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: IMathNaryOperator बनाने की अनुमति देता है
 type: docs
 weight: 8880
@@ -8,17 +8,17 @@ url: /hi/aspose.slides.mathtext/mathnaryoperatorfactory/
 ---
 ## MathNaryOperatorFactory क्लास
 
-IMathNaryOperator बनाने की अनुमति देता है
+IMathNaryOperator को बनाने की अनुमति देता है
 
 ```csharp
 public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 ```
 
-## कंस्ट्रक्टर्स
+## कन्स्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
+| [MathNaryOperatorFactory](mathnaryoperatorfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## मेथड्स
 
@@ -32,7 +32,7 @@ public class MathNaryOperatorFactory : IMathNaryOperatorFactory
 
 COM संगतता के लिए
 
-### देखें
+### देखिए
 
 * इंटरफ़ेस [IMathNaryOperatorFactory](../imathnaryoperatorfactory)
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)

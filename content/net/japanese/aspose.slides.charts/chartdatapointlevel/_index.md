@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
 second_title: Aspose.Sildes for .NET API リファレンス
-description: データポイントレベルを表します。Treemap と Sunburst チャートに適用されます。
+description: データ ポイント レベルを表します。Treemap と Sunburst のチャートに適用されます。
 type: docs
-weight: 1330
+weight: 1350
 url: /ja/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel クラス
 
-データポイントレベルを表します。Treemap と Sunburst チャートに適用されます。
+データ ポイント レベルを表します。Treemap と Sunburst のチャートに適用されます。
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -16,10 +16,10 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | データポイントレベルの書式設定プロパティを表します。読み取り/書き込み [`IFormat`](../iformat)。 |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | データポイントレベルのデータラベルを表します。Treemap と Sunburst シリーズタイプに適用されます。読み取り専用 [`IDataLabel`](../idatalabel)。 |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | データ ポイント レベルの書式プロパティを表します。Read/write [`IFormat`](../iformat)。 |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | データ ポイント レベルのデータ ラベルを表します。Treemap と Sunburst のシリーズタイプに適用されます。Read-only [`IDataLabel`](../idatalabel)。 |
 
 ### 参照
 

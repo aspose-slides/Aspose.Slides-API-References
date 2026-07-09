@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Alpha Floor. Οι τιμές διαφάνειας Alpha μικρότερες του 100 μετατρέπονται σε μηδέν. Με άλλα λόγια, ό,τι είναι μερικώς διαφανές γίνεται πλήρως διαφανές.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Alpha Floor. Οι τιμές διαφάνειας Alpha μικρότερες από 100 μετατρέπονται σε μηδέν. Με άλλα λόγια, ό,τι είναι μερικώς διαφανές γίνεται πλήρως διαφανές.
 type: docs
-weight: 3050
+weight: 3070
 url: /el/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Alpha Floor. Οι τιμές Alpha (διαφάνεια) μικρότερες του 100% μετατρέπονται σε μηδέν. Με άλλα λόγια, οτιδήποτε είναι μερικώς διαφανές γίνεται πλήρως διαφανές.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει ένα εφέ Alpha Floor. Οι τιμές Alpha (διαφάνεια) μικρότερες του 100% μετατρέπονται σε μηδέν. Με άλλα λόγια, οποιοδήποτε μέρος μερική διαφάνεια γίνεται πλήρως διαφανές.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διασύνδεσης IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IEffectEffectiveData. Μόνο για ανάγνωση [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Δείτε επίσης
 

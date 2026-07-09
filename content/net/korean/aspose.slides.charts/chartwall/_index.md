@@ -1,14 +1,14 @@
 ---
 title: ChartWall
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 3d 차트의 벽을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 3D 차트의 벽을 나타냅니다.
 type: docs
 weight: 1520
 url: /ko/aspose.slides.charts/chartwall/
 ---
 ## ChartWall 클래스
 
-3d 차트의 벽을 나타냅니다.
+3D 차트에서 벽을 나타냅니다.
 
 ```csharp
 public class ChartWall : DomObject<Chart>, IChartWall
@@ -18,9 +18,9 @@ public class ChartWall : DomObject<Chart>, IChartWall
 
 | 이름 | 설명 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 벽 채우기, 선, 효과, 3d 스타일을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
+| [Format](../../aspose.slides.charts/chartwall/format) { get; } | 벽 채우기, 선, 효과, 3D 스타일을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 | [PictureType](../../aspose.slides.charts/chartwall/picturetype) { get; set; } | 그림 유형을 반환하거나 설정합니다. 읽기/쓰기 [`PictureType`](../picturetype). |
-| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | 플롯 볼륨의 가장 큰 차원의 백분율로 벽 두께를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
+| [Thickness](../../aspose.slides.charts/chartwall/thickness) { get; set; } | 플롯 볼륨의 가장 큰 치수에 대한 백분율로 벽 두께를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
 
 ### 참고
 

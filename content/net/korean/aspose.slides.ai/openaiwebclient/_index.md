@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes for .NET API 참조
-description: OpenAI API에 연결되는 내장 IAIWebClient./iaiwebclient 구현입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: OpenAI API에 연결하는 내장 IAIWebClient./iaiwebclient 구현입니다.
 type: docs
 weight: 50
 url: /ko/aspose.slides.ai/openaiwebclient/
 ---
 ## OpenAIWebClient 클래스
 
-OpenAI API에 연결되는 내장 [`IAIWebClient`](../iaiwebclient) 구현입니다.
+OpenAI API에 연결하는 내장 [`IAIWebClient`](../iaiwebclient) 구현입니다.
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -25,8 +25,8 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 
 | 이름 | 설명 |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | `HttpClient` 인스턴스를 외부에서 관리하면서 AI 모델에 채팅 명령을 전송하고 주어진 명령에 대한 응답 메시지를 반환합니다. |
-| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | 대화 인스턴스를 생성합니다. 일반 AI 호출과 달리 대화는 전체 컨텍스트를 유지합니다. |
+| [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | 외부에서 관리되는 `HttpClient` 인스턴스를 사용하여 AI 모델에 채팅 지시를 보내고 해당 지시에 대한 응답 메시지를 반환합니다. |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | 대화 인스턴스를 생성합니다. 일반 AI 호출과 달리, 대화는 전체 컨텍스트를 유지합니다. |
 | [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | 이 인스턴스가 사용한 리소스를 해제합니다. |
 
 ### 참조

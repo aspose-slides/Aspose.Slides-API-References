@@ -3,7 +3,7 @@ title: IMathArray
 second_title: Aspose.Sildes för .NET API-referens
 description: Specificerar en vertikal matris av ekvationer eller andra matematiska objekt
 type: docs
-weight: 8080
+weight: 8100
 url: /sv/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray gränssnitt
@@ -20,11 +20,11 @@ public interface IMathArray : IMathElement
 | --- | --- |
 | [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | Mängden av element i matrisen |
 | [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | Tillåter att hämta bas-IMathElement-gränssnitt [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Anger justering av matrisen relativt omgivande text. Text utanför matrisen kan justeras med botten, toppen eller mitten av ett matrisobjekt. Standardvärde: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximal fördelning. När true, så är matrisen spridd till maximal bredd av det innehållande elementet (page, column, cell, etc.). |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Objektfördelning. När true, så sprids matrisens innehåll till maximal bredd av matrisobjektet. |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Mellanrum mellan rader i en matris. Det används endast när RowSpacingRule är satt till 3 Exactly i vilket fall måttenheten är points eller Multiple i vilket fall måttenheten är half-lines. Standard: 0 |
-| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Typen av vertikal mellanrum mellan matrisens element |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | Specificerar justering av matrisen i förhållande till omgivande text. Text utanför matrisen kan justeras med botten, toppen eller centrum av ett matrisobjekt. Standardvärde: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum Distribution När sant, matrisen placeras med maximal bredd av det omgivande elementet (sida, kolumn, cell, osv.). |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution När sant, innehållet i matrisen placeras med maximal bredd av matrisobjektet. |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | Mellanrum mellan rader i en matris. Används endast när RowSpacingRule är satt till 3 Exactly, i så fall är måttenheten punkter eller Multiple, i så fall är måttenheten halvlinjer. Standard: 0 |
+| [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | Typen av vertikalt mellanrum mellan matrisens element |
 
 ### Exempel
 

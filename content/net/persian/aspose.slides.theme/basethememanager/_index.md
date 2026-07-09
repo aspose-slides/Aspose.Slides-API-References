@@ -1,6 +1,6 @@
 ---
 title: BaseThemeManager
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: کلاس پایه برای کلاس‌هایی که دسترسی به انواع مختلف تم‌ها را فراهم می‌کنند.
 type: docs
 weight: 11050
@@ -14,7 +14,7 @@ url: /fa/aspose.slides.theme/basethememanager/
 public abstract class BaseThemeManager
 ```
 
-### موارد دیگر
+### موارد مرتبط
 
 * فضای نام [Aspose.Slides.Theme](../../aspose.slides.theme)
 * مجموعه [Aspose.Slides](../../)

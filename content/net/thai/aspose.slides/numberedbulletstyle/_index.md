@@ -1,67 +1,67 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงสไตล์ของหัวข้อแบบลำดับเลข
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงสไตล์ของสัญลักษณ์หัวข้อแบบเลขลำดับ
 type: docs
 weight: 9180
 url: /th/aspose.slides/numberedbulletstyle/
 ---
-## NumberedBulletStyle enumeration
+## Enumeration ของ NumberedBulletStyle
 
-แสดงสไตล์ของการแสดงหัวข้อแบบลำดับเลข
+แสดงสไตล์ของสัญลักษณ์หัวข้อแบบเลขลำดับ
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
 ```
 
-### Values
+### ค่า
 
-| Name | Value | Description |
+| ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | ไม่ได้กำหนด |
-| BulletAlphaLCPeriod | `0` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์เล็กพร้อมจุด ตัวอย่าง: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์ใหญ่พร้อมจุด ตัวอย่าง: A., B., C., ... |
-| BulletArabicParenRight | `2` | ตัวเลขอารบิกพร้อมวงเล็บปิด ตัวอย่าง: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | ตัวเลขอารบิกพร้อมจุด ตัวอย่าง: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | เลขโรมันตัวพิมพ์เล็กพร้อมวงเล็บคู่ ตัวอย่าง: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | เลขโรมันตัวพิมพ์เล็กพร้อมวงเล็บปิด ตัวอย่าง: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | เลขโรมันตัวพิมพ์เล็กพร้อมจุด ตัวอย่าง: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | เลขโรมันตัวพิมพ์ใหญ่พร้อมจุด ตัวอย่าง: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์เล็กพร้อมวงเล็บคู่ ตัวอย่าง: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์เล็กพร้อมวงเล็บปิด ตัวอย่าง: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์ใหญ่พร้อมวงเล็บคู่ ตัวอย่าง: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | อักขระตัวอักษรภาษาอังกฤษตัวพิมพ์ใหญ่พร้อมวงเล็บปิด ตัวอย่าง: A), B), C), ... |
-| BulletArabicParenBoth | `12` | ตัวเลขอารบิกพร้อมวงเล็บคู่ ตัวอย่าง: (1), (2), (3), ... |
-| BulletArabicPlain | `13` | ตัวเลขอารบิก ตัวอย่าง: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | เลขโรมันตัวพิมพ์ใหญ่พร้อมวงเล็บคู่ ตัวอย่าง: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | เลขโรมันตัวพิมพ์ใหญ่พร้อมวงเล็บปิด ตัวอย่าง: I), II), III), ... |
-| BulletSimpChinPlain | `16` | ภาษาจีนตัวย่อโดยไม่มีจุด |
-| BulletSimpChinPeriod | `17` | ภาษาจีนตัวย่อพร้อมจุด |
-| BulletCircleNumDBPlain | `18` | ตัวเลขวงกลมแบบสองไบต์สำหรับค่าถึง 10, ตั้งแต่ 11 เป็นตัวเลขอารบิก |
-| BulletCircleNumWDWhitePlain | `19` | ตัวเลขที่มีสีข้อความเดียวกับวงสีรอบ (ตัวเลขวงกลมสีขาวของ Wingdings). ตั้งแต่ 11 - ตัวเลขอารบิก |
-| BulletCircleNumWDBlackPlain | `20` | ตัวเลขสีเงาพร้อมพื้นหลังวงกลมสีข้อความปกติ (ตัวเลขวงกลมสีดำของ Wingdings) |
-| BulletTradChinPlain | `21` | ภาษาจีนดั้งเดิมโดยไม่มีจุด |
-| BulletTradChinPeriod | `22` | ภาษาจีนดั้งเดิมพร้อมจุด |
-| BulletArabicAlphaDash | `23` | อักขระตัวอักษรภาษาอาหรับพร้อมขีด |
-| BulletArabicAbjadDash | `24` | อักษรอับจาดภาษาอาหรับพร้อมขีด |
-| BulletHebrewAlphaDash | `25` | อักขระตัวอักษรภาษาฮีบรูพร้อมขีด |
-| BulletKanjiKoreanPlain | `26` | ตัวเลขญี่ปุ่น/เกาหลีโดยไม่มีจุด |
-| BulletKanjiKoreanPeriod | `27` | ตัวเลขญี่ปุ่น/เกาหลีพร้อมจุด |
-| BulletArabicDBPlain | `28` | ระบบนับอารบิกแบบสองไบต์ (ไม่มีเครื่องหมายวรรคตอน) |
-| BulletArabicDBPeriod | `29` | ระบบนับอารบิกแบบสองไบต์พร้อมจุดสองไบต์ |
-| BulletThaiAlphaPeriod | `30` | อักษรไทยพร้อมจุด |
-| BulletThaiAlphaParenRight | `31` | วงเล็บอักษรไทย - ด้านขวา |
-| BulletThaiAlphaParenBoth | `32` | วงเล็บอักษรไทย - ทั้งสองด้าน |
-| BulletThaiNumPeriod | `33` | ตัวเลขไทยพร้อมจุด |
-| BulletThaiNumParenRight | `34` | วงเล็บตัวเลขไทย - ด้านขวา |
-| BulletThaiNumParenBoth | `35` | วงเล็บตัวเลขไทย - ทั้งสองด้าน |
-| BulletHindiAlphaPeriod | `36` | อักษรฮินดีพร้อมจุด - สระ |
-| BulletHindiNumPeriod | `37` | ตัวเลขฮินดีพร้อมจุด |
-| BulletKanjiSimpChinDBPeriod | `38` | คันจิจีนตัวย่อแบบสองไบต์พร้อมจุด |
-| BulletHindiNumParenRight | `39` | วงเล็บตัวเลขฮินดี - ด้านขวา |
-| BulletHindiAlpha1Period | `40` | อักษรฮินดีพร้อมจุด - พยัญชนะ |
+| NotDefined | `-1` | ไม่ได้กำหนด. |
+| BulletAlphaLCPeriod | `0` | อักษรตัวพิมพ์เล็กตามลำดับตัวอักษรพร้อมเครื่องหมายจุด. ตัวอย่าง: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | อักษรตัวพิมพ์ใหญ่พร้อมเครื่องหมายจุด. ตัวอย่าง: A., B., C., ... |
+| BulletArabicParenRight | `2` | ตัวเลขแบบอาหรับพร้อมวงเล็บปิด. ตัวอย่าง: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | ตัวเลขแบบอาหรับพร้อมเครื่องหมายจุด. ตัวอย่าง: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | เลขโรมันแบบพิมพ์เล็กพร้อมวงเล็บทั้งสองด้าน. ตัวอย่าง: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | เลขโรมันแบบพิมพ์เล็กพร้อมวงเล็บปิด. ตัวอย่าง: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | เลขโรมันแบบพิมพ์เล็กพร้อมเครื่องหมายจุด. ตัวอย่าง: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | เลขโรมันแบบพิมพ์ใหญ่พร้อมเครื่องหมายจุด. ตัวอย่าง: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | อักษรตัวพิมพ์เล็กพร้อมวงเล็บทั้งสองด้าน. ตัวอย่าง: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | อักษรตัวพิมพ์เล็กพร้อมวงเล็บปิด. ตัวอย่าง: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | อักษรตัวพิมพ์ใหญ่พร้อมวงเล็บทั้งสองด้าน. ตัวอย่าง: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | อักษรตัวพิมพ์ใหญ่พร้อมวงเล็บปิด. ตัวอย่าง: A), B), C), ... |
+| BulletArabicParenBoth | `12` | ตัวเลขอาหรับพร้อมวงเล็บทั้งสองด้าน. ตัวอย่าง: (1), (2), (3), ... |
+| BulletArabicPlain | `13` | ตัวเลขอาหรับ. ตัวอย่าง: 1, 2, 3, ... |
+| BulletRomanUCParenBoth | `14` | เลขโรมันแบบพิมพ์ใหญ่พร้อมวงเล็บทั้งสองด้าน. ตัวอย่าง: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | เลขโรมันแบบพิมพ์ใหญ่พร้อมวงเล็บปิด. ตัวอย่าง: I), II), III), ... |
+| BulletSimpChinPlain | `16` | ภาษาจีนตัวย่อโดยไม่มีเครื่องหมายจุด. |
+| BulletSimpChinPeriod | `17` | ภาษาจีนตัวย่อพร้อมเครื่องหมายจุด. |
+| BulletCircleNumDBPlain | `18` | ตัวเลขวงกลมแบบ double-byte สำหรับค่าจนถึง 10, ตั้งแต่ 11 เป็นต้นไป - ตัวเลขอาหรับ. |
+| BulletCircleNumWDWhitePlain | `19` | ตัวเลขที่มีสีข้อความเดียวกับวงกลมสีเดียวกันที่วาดรอบ (ตัวเลขวงกลมสีขาวของ Wingdings). ตั้งแต่ 11 - ตัวเลขอาหรับ. |
+| BulletCircleNumWDBlackPlain | `20` | ตัวเลขสีเงาพร้อมพื้นหลังเป็นวงกลมสีข้อความปกติ (ตัวเลขวงกลมสีดำของ Wingdings). |
+| BulletTradChinPlain | `21` | ภาษาจีนดั้งเดิมโดยไม่มีเครื่องหมายจุด. |
+| BulletTradChinPeriod | `22` | ภาษาจีนดั้งเดิมพร้อมเครื่องหมายจุด. |
+| BulletArabicAlphaDash | `23` | อักษรภาษาอาหรับพร้อมเครื่องหมายขีด. |
+| BulletArabicAbjadDash | `24` | อักขระอาหรับแบบ Abjad พร้อมเครื่องหมายขีด. |
+| BulletHebrewAlphaDash | `25` | อักษรภาษาฮิบรูพร้อมเครื่องหมายขีด. |
+| BulletKanjiKoreanPlain | `26` | ตัวเลขญี่ปุ่น/เกาหลีโดยไม่มีเครื่องหมายจุด. |
+| BulletKanjiKoreanPeriod | `27` | ตัวเลขญี่ปุ่น/เกาหลีพร้อมเครื่องหมายจุด. |
+| BulletArabicDBPlain | `28` | ระบบการนับเลขอาหรับแบบ double-byte (ไม่มีเครื่องหมายวรรคตอน). |
+| BulletArabicDBPeriod | `29` | ระบบการนับเลขอาหรับแบบ double-byte พร้อมจุด double-byte. |
+| BulletThaiAlphaPeriod | `30` | ตัวอักษรไทยพร้อมจุด. |
+| BulletThaiAlphaParenRight | `31` | วงเล็บตัวอักษรไทย - ด้านขวา. |
+| BulletThaiAlphaParenBoth | `32` | วงเล็บตัวอักษรไทย - ทั้งสองด้าน. |
+| BulletThaiNumPeriod | `33` | ตัวเลขไทยพร้อมจุด. |
+| BulletThaiNumParenRight | `34` | วงเล็บตัวเลขไทย - ด้านขวา. |
+| BulletThaiNumParenBoth | `35` | วงเล็บตัวเลขไทย - ทั้งสองด้าน. |
+| BulletHindiAlphaPeriod | `36` | ตัวอักษรฮินดีพร้อมจุด - สระ. |
+| BulletHindiNumPeriod | `37` | ตัวเลขฮินดีพร้อมจุด. |
+| BulletKanjiSimpChinDBPeriod | `38` | คันจิจีนตัวย่อ DBPeriod. |
+| BulletHindiNumParenRight | `39` | วงเล็บตัวเลขฮินดี - ด้านขวา. |
+| BulletHindiAlpha1Period | `40` | ตัวอักษรฮินดีพร้อมจุด - พยัญชนะ. |
 
-### See Also
+### ดูเพิ่มเติม
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

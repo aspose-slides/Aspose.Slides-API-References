@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesGroupCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de verzameling van groepen van combineerbare series.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Stelt de collectie van groepen van combineerbare series voor.
 type: docs
 weight: 1960
 url: /nl/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interface
 
-Stelt de verzameling van groepen van combineerbare series voor.
+Stelt de collectie van groepen van combineerbare series voor.
 
 ```csharp
 public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGroup>
@@ -16,14 +16,13 @@ public interface IChartSeriesGroupCollection : IGenericCollection<IChartSeriesGr
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Haalt de seriesgroep op op basis van series. (2 indexers) |
+| [Item](../../aspose.slides.charts/ichartseriesgroupcollection/item) { get; } | Haalt de seriesgroep op op basis van een serie. (2 indexeerders) |
 
 ### Opmerkingen
 
-1) Elke groep van series bevat series met combineerbare types. Groepen van combineerbare serietypes worden gedefinieerd en beschreven met de enum CombinableSeriesTypesGroup. Ook bevat elke groep van series series die worden geplot op de primaire assen of op de secundaire assen (niet beide gevallen in één groep). Het principe van seriesgroepering is dus een groepering op basis van de hierboven genoemde typegroepen en op basis van het type plotten (primaire/secundaire).  
-2) Een groep van series bevat enkele serieseigenschappen die gemeenschappelijk zijn voor elke serie in de groep ("series group properties"). "Series group properties" in de klasse ChartSeriesGroup is read/write. Elke "series group properties" kan een read-only projectie hebben in de klasse ChartSeries.
+1) Elke groep van series bevat series met combineerbare types. Groepen van combineerbare serietypen worden gedefinieerd en beschreven met de enum CombinableSeriesTypesGroup. Ook bevat elke groep van series series die worden getekend op de primaire assen of op de secundaire assen (niet beide gevallen in één groep). Het principe van seriesgroepering is dus een groepering op basis van de hierboven genoemde typegroepen en op basis van het primaire/secundaire teken-type. 2) Een groep van series bevat enkele series-eigenschappen die gemeenschappelijk zijn voor elke serie in de groep (“series group properties”). “Series group properties” in de klasse ChartSeriesGroup is lees/schrijf. Elke “series group properties” kan een alleen-lees projectie hebben in de klasse ChartSeries.
 
 ### Zie ook
 

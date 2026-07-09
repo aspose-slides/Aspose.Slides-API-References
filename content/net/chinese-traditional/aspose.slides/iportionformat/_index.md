@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
-second_title: Aspose.Sildes .NET API 參考
-description: 此類別包含文字部分格式屬性。與 IPortionFormatEffectiveData./iportionformateffectivedata 不同，此類別的所有屬性皆可寫入。
+second_title: Aspose.Sildes for .NET API 參考
+description: 此類別包含文字段落格式屬性。不同於 IPortionFormatEffectiveData./iportionformateffectivedata，該類別的所有屬性皆可寫入。
 type: docs
 weight: 6730
 url: /zh-hant/aspose.slides/iportionformat/
 ---
 ## IPortionFormat 介面
 
-此類別包含文字部分格式屬性。與 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 不同，此類別的所有屬性皆可寫入。
+此 類別 包含文字段落格式屬性。與 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 不同，此 類別 的所有屬性皆可寫入。
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -20,20 +20,20 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | 傳回 IBasePortionFormat 介面。唯讀 [`IBasePortionFormat`](../ibaseportionformat)。 |
 | [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | 允許取得基礎 IHyperlinkContainer 介面。唯讀 [`IHyperlinkContainer`](../ihyperlinkcontainer)。 |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | 取得或設定書籤識別碼。可讀寫 String。 |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | 判斷是否應清除智慧標記。未套用繼承。可讀寫 Boolean。 |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | 傳回或設定書籤識別碼。可讀寫 String。 |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | 判斷是否要清除智慧標記。未套用繼承。可讀寫 Boolean。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | 取得套用繼承的有效文字部分格式資料。 |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | 取得套用繼承的有效段落格式資料。 |
 
 ### 備註
 
-此類別用於返回與操作針對特定文字部分定義的文字部分格式屬性。這表示在取得值時不會套用繼承，因此在大多數情況下您會取得意指「未定義」的值。
+此 類別 用於返回與操作針對特定段落所定義的文字段落格式屬性。這表示在取得值時不會套用繼承，因而在大多數情況下會得到「未定義」的值。
 
-若要取得包含繼承的有效格式參數值，必須使用 [`GetEffective`](./geteffective) 方法，該方法會傳回 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 實例。
+若要取得包括繼承在內的有效格式參數值，必須使用 [`GetEffective`](./geteffective) 方法，該方法會傳回 [`IPortionFormatEffectiveData`](../iportionformateffectivedata) 實例。
 
 ### 另見
 

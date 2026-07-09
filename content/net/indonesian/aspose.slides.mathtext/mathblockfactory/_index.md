@@ -1,9 +1,9 @@
 ---
 title: MathBlockFactory
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Memungkinkan membuat blok matematika
 type: docs
-weight: 8580
+weight: 8600
 url: /id/aspose.slides.mathtext/mathblockfactory/
 ---
 ## MathBlockFactory kelas

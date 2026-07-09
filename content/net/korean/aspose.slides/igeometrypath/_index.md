@@ -1,14 +1,14 @@
 ---
 title: IGeometryPath
-second_title: Aspose.Sildes for .NET API 참조
-description: GeometryShape의 기하학 경로를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: GeometryShape의 기하학 경로를 나타냅니다
 type: docs
 weight: 5970
 url: /ko/aspose.slides/igeometrypath/
 ---
 ## IGeometryPath 인터페이스
 
-GeometryShape의 기하학 경로를 나타냅니다.
+GeometryShape의 기하학 경로를 나타냅니다
 
 ```csharp
 public interface IGeometryPath
@@ -18,33 +18,33 @@ public interface IGeometryPath
 
 | 이름 | 설명 |
 | --- | --- |
-| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | 채우기 모드를 설정합니다. |
-| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | GeometryShape의 기하학 경로를 경로 세그먼트 배열로 반환합니다. |
-| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | 스트로크 모양을 설정합니다. |
+| [FillMode](../../aspose.slides/igeometrypath/fillmode) { get; set; } | 채우기 모드를 설정합니다 |
+| [PathData](../../aspose.slides/igeometrypath/pathdata) { get; } | GeometryShape의 기하학 경로를 경로 세그먼트 배열로 반환합니다 |
+| [Stroke](../../aspose.slides/igeometrypath/stroke) { get; set; } | 스트로크 외관을 설정합니다 |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | 지정된 호를 경로에 추가합니다. |
-| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | 이 경로의 현재 도형을 닫습니다. |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 경로 끝에 3차 베지어 곡선을 추가합니다. |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 경로의 지정된 위치에 3차 베지어 곡선을 추가합니다. |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 경로 끝에 3차 베지어 곡선을 추가합니다. |
-| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 경로의 지정된 위치에 3차 베지어 곡선을 추가합니다. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 경로 끝에 선을 추가합니다. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 경로 끝에 선을 추가합니다. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 경로의 지정된 위치에 선을 추가합니다. |
-| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 경로의 지정된 위치에 선을 추가합니다. |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | 다음 점 위치를 설정합니다. |
-| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | 다음 점 위치를 설정합니다. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 경로 끝에 2차 베지어 곡선을 추가합니다. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 경로의 지정된 위치에 2차 베지어 곡선을 추가합니다. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 경로 끝에 2차 베지어 곡선을 추가합니다. |
-| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 경로의 지정된 위치에 2차 베지어 곡선을 추가합니다. |
-| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 기하학 경로의 지정된 인덱스에 있는 세그먼트를 제거합니다. |
+| [ArcTo](../../aspose.slides/igeometrypath/arcto)(float, float, float, float) | 지정된 호를 경로에 추가합니다 |
+| [CloseFigure](../../aspose.slides/igeometrypath/closefigure)() | 이 경로의 현재 도형을 닫습니다 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | 경로 끝에 3차 베지어 곡선을 추가합니다 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | 경로의 지정된 위치에 3차 베지어 곡선을 추가합니다 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | 경로 끝에 3차 베지어 곡선을 추가합니다 |
+| [CubicBezierTo](../../aspose.slides/igeometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | 경로의 지정된 위치에 3차 베지어 곡선을 추가합니다 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_2)(PointF) | 경로 끝에 선을 추가합니다 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto)(float, float) | 경로 끝에 선을 추가합니다 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_3)(PointF, uint) | 경로의 지정된 위치에 선을 추가합니다 |
+| [LineTo](../../aspose.slides/igeometrypath/lineto#lineto_1)(float, float, uint) | 경로의 지정된 위치에 선을 추가합니다 |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto_1)(PointF) | 다음 점 위치를 설정합니다 |
+| [MoveTo](../../aspose.slides/igeometrypath/moveto#moveto)(float, float) | 다음 점 위치를 설정합니다 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | 경로 끝에 2차 베지어 곡선을 추가합니다 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | 경로의 지정된 위치에 2차 베지어 곡선을 추가합니다 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | 경로 끝에 2차 베지어 곡선을 추가합니다 |
+| [QuadraticBezierTo](../../aspose.slides/igeometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | 경로의 지정된 위치에 2차 베지어 곡선을 추가합니다 |
+| [RemoveAt](../../aspose.slides/igeometrypath/removeat)(int) | 지정된 인덱스의 기하 경로 세그먼트를 제거합니다 |
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

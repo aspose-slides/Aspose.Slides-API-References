@@ -18,26 +18,26 @@ public class DataLabel : IDataLabel
 
 | 이름 | 설명 |
 | --- | --- |
-| [DataLabel](datalabel)(IChartDataPoint) | DataLabel 클래스의 새 인스턴스를 생성합니다. |
+| [DataLabel](datalabel)(IChartDataPoint) | DataLabel 클래스를 새 인스턴스로 생성합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 차트 요소의 실제 top을 차트의 왼쪽 상단 모서를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 하단. 읽기 전용 Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 전용 Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 전용 Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리에 상대적으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 전용 Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 차트 요소의 실제 상단을 차트의 왼쪽 상단 모서리에 상대적으로 지정합니다. 실제 값을 얻으려면 IChart.ValidateChartLayout() 메서드를 먼저 호출하십시오. 읽기 전용 Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 아래쪽. 읽기 전용 Single. |
 | [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 부모 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
 | [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | 데이터 레이블 형식을 반환합니다. 읽기 전용 [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 차트 높이의 비율로 제목 높이를 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False는 데이터 레이블이 표시되지 않음을 의미합니다(따라서 모든 Show* 플래그(ShowValue 등)가 false입니다). 읽기 전용 Boolean. |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 차트 높이의 비율로 제목의 높이를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False는 데이터 레이블이 보이지 않음을 의미합니다(따라서 모든 Show*-플래그(ShowValue 등)가 false입니다). 읽기 전용 Boolean. |
 | [Right](../../aspose.slides.charts/datalabel/right) { get; } | 오른쪽. 읽기 전용 Single. |
 | [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | 텍스트 형식을 반환합니다. 읽기 전용 [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 리치 서식 텍스트를 포함할 수 있습니다. 이 속성이 null이 아니면 이 서식 텍스트 값이 데이터 레이블의 자동 생성 텍스트를 재정의합니다. 데이터 레이블의 자동 생성 텍스트란 ShowSeriesName, ShowValue 등 속성에 의해 관리되고 TextFormatManager.TextFormat 속성으로 서식 지정된 텍스트를 의미합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우 적용됩니다. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 차트 너비의 비율로 제목 너비를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 리치 형식 텍스트를 포함할 수 있습니다. 이 속성이 null이 아닌 경우, 이 형식이 지정된 텍스트 값이 데이터 레이블의 자동 생성 텍스트를 대체합니다. 데이터 레이블의 자동 생성 텍스트란 ShowSeriesName, ShowValue 등 속성에 의해 관리되고 TextFormatManager.TextFormat 속성으로 형식이 지정된 텍스트를 의미합니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 워크북 데이터 셀을 가져오거나 설정합니다. IDataLabelFormat.ShowLabelValueFromCell 속성이 true인 경우에 적용됩니다. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 차트 너비의 비율로 제목의 너비를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [X](../../aspose.slides.charts/datalabel/x) { get; set; } | 차트 너비의 비율로 제목의 x 좌표를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | 차트 높이의 비율로 제목의 y 좌표를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
@@ -45,14 +45,14 @@ public class DataLabel : IDataLabel
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | TextFrameForOverriding을 매개변수 "text"의 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 단순히 텍스트를 변경합니다. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat 설정 또는 TextFrameForOverriding.Text 값을 기반으로 실제 레이블 텍스트를 반환합니다. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | 모든 Show* 플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이후 IsVisible는 false가 됩니다. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | 매개변수 "text"의 텍스트로 TextFrameForOverriding을 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우에는 텍스트를 단순히 변경합니다. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat 설정이나 TextFrameForOverriding.Text 값에 따라 실제 레이블 텍스트를 반환합니다. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | 모든 Show*-플래그(ShowValue 등)를 false 상태로 설정하여 데이터 레이블을 숨깁니다. 이 후 IsVisible는 false가 됩니다. |
 
-### 참조
+### 참고
 
-* 인터페이스 [IDataLabel](../idatalabel)
-* 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 어셈블리 [Aspose.Slides](../../)
+* interface [IDataLabel](../idatalabel)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

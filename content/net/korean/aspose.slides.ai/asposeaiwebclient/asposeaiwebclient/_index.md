@@ -1,20 +1,20 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Aspose AI 웹 클라이언트의 인스턴스를 생성하며, 기본 Aspose LLM 엔드포인트에 연결합니다. 이 클라이언트는 매개변수가 없는 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 생성자에서 사용되며, SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 생성자에 클라이언트를 직접 전달할 때만 명시적으로 생성하면 됩니다.
+second_title: Aspose.Sildes용 .NET API 레퍼런스
+description: 기본 Aspose LLM 엔드포인트에 연결하는 Aspose AI 웹 클라이언트 인스턴스를 생성합니다. 이 클라이언트는 매개변수가 없는 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 생성자에서 사용되므로, 클라이언트를 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 생성자에 직접 전달할 때만 명시적으로 생성하면 됩니다.
 type: docs
 weight: 10
 url: /ko/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-기본 Aspose LLM 엔드포인트에 연결되는 Aspose AI 웹 클라이언트의 인스턴스를 생성합니다. 이 클라이언트는 매개변수가 없는 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 생성자에서 사용되며, [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 생성자에 클라이언트를 직접 전달할 때만 명시적으로 생성하면 됩니다.
+기본 Aspose LLM 엔드포인트에 연결하는 Aspose AI 웹 클라이언트 인스턴스를 생성합니다. 이것은 매개변수가 없는 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 생성자에서 사용되는 클라이언트이므로, 클라이언트를 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 생성자에 직접 전달할 때만 명시적으로 생성하면 됩니다.
 
 ```csharp
 public AsposeAIWebClient()
 ```
 
-### 참조
+### 관련 항목
 
 * 클래스 [AsposeAIWebClient](../../asposeaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -24,7 +24,7 @@ public AsposeAIWebClient()
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-외부에서 관리되는 HttpClient를 사용하여 기본 Aspose LLM 엔드포인트에 연결되는 Aspose AI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에서 해제되지 않으며 호출자에 의해 소유됩니다.
+외부에서 관리되는 HttpClient를 사용하여 기본 Aspose LLM 엔드포인트에 연결하는 Aspose AI 웹 클라이언트 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에서 해제되지 않으며 호출자에게 소유권이 유지됩니다.
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
@@ -32,7 +32,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스. |
+| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스입니다. |
 
 ### 예외
 
@@ -40,7 +40,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 | --- | --- |
 | ArgumentNullException | HttpClient 인스턴스가 제공되지 않았습니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [AsposeAIWebClient](../../asposeaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -50,7 +50,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-사용자 지정 엔드포인트 URL에 연결되는 Aspose AI 웹 클라이언트의 인스턴스를 생성합니다. Aspose.Slides 팀이 제공하는 URL이 있는 경우 이 오버로드를 사용하고, 그렇지 않으면 기본 URL을 사용하는 [`AsposeAIWebClient`](../asposeaiwebclient) 오버로드를 사용하십시오.
+사용자 지정 엔드포인트 URL에 연결하는 Aspose AI 웹 클라이언트 인스턴스를 생성합니다. Aspose.Slides 팀에서 제공한 URL이 있는 경우 이 오버로드를 사용하고, 그렇지 않으면 기본 URL이 적용된 [`AsposeAIWebClient`](../asposeaiwebclient) 오버로드를 사용하십시오.
 
 ```csharp
 public AsposeAIWebClient(string url)
@@ -58,15 +58,15 @@ public AsposeAIWebClient(string url)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| url | String | Aspose.Slides 팀이 제공하는 Aspose LLM의 엔드포인트 URL. |
+| url | String | Aspose.Slides 팀이 제공한 Aspose LLM의 엔드포인트 URL입니다. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | URL은 null이거나 비어 있을 수 없습니다. |
+| ArgumentNullException | URL이 null이거나 비어 있을 수 없습니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [AsposeAIWebClient](../../asposeaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -76,7 +76,7 @@ public AsposeAIWebClient(string url)
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-사용자 지정 엔드포인트 URL에 외부에서 관리되는 HttpClient를 사용하여 연결되는 Aspose AI 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에서 해제되지 않으며 호출자에 의해 소유됩니다. Aspose.Slides 팀이 제공하는 URL이 있는 경우 이 오버로드를 사용하고, 기본 URL에 대해 자체 HttpClient만 필요한 경우 [`AsposeAIWebClient`](../asposeaiwebclient) 오버로드를 사용하십시오.
+외부에서 관리되는 HttpClient를 사용하여 사용자 지정 엔드포인트 URL에 연결하는 Aspose AI 웹 클라이언트 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에서 해제되지 않으며 호출자에게 소유권이 유지됩니다. Aspose.Slides 팀이 제공한 URL이 있고 자체 HttpClient를 제공하려는 경우 이 오버로드를 사용하고, 기본 URL에 자체 HttpClient만 필요한 경우 [`AsposeAIWebClient`](../asposeaiwebclient) 오버로드를 사용하십시오.
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
@@ -84,17 +84,17 @@ public AsposeAIWebClient(string url, HttpClient httpClient)
 
 | 매개변수 | 형식 | 설명 |
 | --- | --- | --- |
-| url | String | Aspose.Slides 팀이 제공하는 Aspose LLM의 엔드포인트 URL. |
-| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스. |
+| url | String | Aspose.Slides 팀이 제공한 Aspose LLM의 엔드포인트 URL입니다. |
+| httpClient | HttpClient | 외부에서 관리되는 HttpClient 인스턴스입니다. |
 
 ### 예외
 
 | 예외 | 조건 |
 | --- | --- |
-| ArgumentNullException | URL은 null이거나 비어 있을 수 없습니다. |
+| ArgumentNullException | URL이 null이거나 비어 있을 수 없습니다. |
 | ArgumentNullException | HttpClient 인스턴스가 제공되지 않았습니다. |
 
-### 참조
+### 관련 항목
 
 * 클래스 [AsposeAIWebClient](../../asposeaiwebclient)
 * 네임스페이스 [Aspose.Slides.AI](../../asposeaiwebclient)

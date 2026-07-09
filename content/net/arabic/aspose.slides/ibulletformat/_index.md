@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes for .NET مرجع API
-description: يمثل خصائص تنسيق القوائم النقطية للفقرة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل خصائص تنسيق رصاصات الفقرة.
 type: docs
 weight: 5390
 url: /ar/aspose.slides/ibulletformat/
 ---
 ## واجهة IBulletFormat
 
-يمثل خصائص تنسيق القوائم النقطية للفقرة.
+يمثل خصائص تنسيق رصاصات الفقرة.
 
 ```csharp
 public interface IBulletFormat
@@ -18,27 +18,27 @@ public interface IBulletFormat
 
 | الاسم | الوصف |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | إرجاع أو تعيين حرف النقطة لفقرة دون وراثة. قابل للقراءة/الكتابة Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | إرجاع تنسيق اللون للنقطة في فقرة دون وراثة. للقراءة فقط [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | إرجاع أو تعيين خط النقطة لفقرة دون وراثة. قابل للقراءة/الكتابة [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | إرجاع أو تعيين ارتفاع النقطة لفقرة دون وراثة. القيمة float.NaN تحدد أن النقطة ترث الارتفاع من الجزء الأول في الفقرة. قابل للقراءة/الكتابة Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كانت النقطة لها لون خاص أو ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كان للنقطة لون خاص و**NullableBool.False** إذا كانت النقطة ترث اللون من الجزء الأول في الفقرة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كانت النقطة لها خط خاص أو ترثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كان للنقطة خط خاص و**NullableBool.False** إذا كانت النقطة ترث الخط من الجزء الأول في الفقرة. قابل للقراءة/الكتابة [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | إرجاع أو تعيين الرقم الأول المستخدم لمجموعة من النقاط المرقمة دون وراثة. قابل للقراءة/الكتابة Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | إرجاع أو تعيين نمط نقطة مرقمة دون وراثة. قابل للقراءة/الكتابة [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | إرجاع الصورة المستخدمة كنقطة في فقرة دون وراثة. للقراءة فقط [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | إرجاع أو تعيين نوع النقطة لفقرة دون وراثة. قابل للقراءة/الكتابة [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | يعيد أو يحدد حرف الرصاصة لفقرة بدون وراثة. قراءة/كتابة Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | يعيد تنسيق اللون لرصاصة فقرة بدون وراثة. قراءة فقط [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | يعيد أو يحدد خط الرصاصة لفقرة بدون وراثة. قراءة/كتابة [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | يعيد أو يحدد ارتفاع الرصاصة لفقرة بدون وراثة. القيمة float.NaN تحدد أن الرصاصة تورث الارتفاع من الجزء الأول في الفقرة. قراءة/كتابة Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | يحدد ما إذا كانت الرصاصة لها لون خاص أو تورثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها لون خاص و **NullableBool.False** إذا كانت الرصاصة تورث اللون من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | يحدد ما إذا كانت الرصاصة لها خط خاص أو تورثه من الجزء الأول في الفقرة. **NullableBool.True** إذا كانت الرصاصة لها خط خاص و **NullableBool.False** إذا كانت الرصاصة تورث الخط من الجزء الأول في الفقرة. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | يعيد أو يحدد الرقم الأول المستخدم لمجموعة من الرصاصات المرقمة بدون وراثة. قراءة/كتابة Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | يعيد أو يحدد نمط الرصاصة المرقمة بدون وراثة. قراءة/كتابة [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | يعيد الصورة المستخدمة كرصاصة في فقرة بدون وراثة. قراءة فقط [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | يعيد أو يحدد نوع الرصاصة لفقرة بدون وراثة. قراءة/كتابة [`BulletType`](../bullettype). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | يضبط التحولات الافتراضية غير الصفرية للمسافات الفعلية للفقرة (Indent و MarginLeft) عندما تكون النقاط مفعلة (كما يفعل PowerPoint إذا تم تفعيل نقاط/ترقيم الفقرات). إذا تم تعطيل النقاط، يتم فقط إعادة تعيين Indent و MarginLeft للفقرة (كما يفعل PowerPoint إذا تم تعطيل نقاط/ترقيم الفقرات). تُطبق تحولات المسافات بالنسبة لسياق النقطة الحالي - IBulletFormat.Type، .NumberedBulletStyle، و FontHeight للجزء الأول. تُطبق التحولات غير الصفرية على Indent و MarginLeft الفعليين للفقرة الحالية (لتكون القيم الناتجة قيمًا محلية). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | يحصل على بيانات تنسيق النقطة الفعلية مع تطبيق الوراثة. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | يضبط التحولات غير الصفرية الافتراضية للهوامش الفعلية للفقرة (Indent وMarginLeft) عندما تكون الرصاصات مفعلة (كما يفعل PowerPoint عند تمكين رصاصات/ترقيم الفقرات). إذا تم تعطيل الرصاصات يتم إعادة تعيين Indent وMarginLeft للفقرة فقط (كما يفعل PowerPoint عند تعطيل رصاصات/ترقيم الفقرات). تُطبق تحولات الهوامش بالنسبة إلى سياق الرصاصة الحالي - IBulletFormat.Type، .NumberedBulletStyle وFontHeight للجزء الأول. تُطبق التحولات غير الصفرية للهوامش على Indent وMarginLeft الفعليين للفقرة الحالية (لتصبح القيم الناتجة قيمًا محلية). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | يعيد بيانات تنسيق الرصاصة الفعّالة مع تطبيق الوراثة. |
 
-### انظر أيضاً
+### انظر أيضًا
 
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* نطاق [Aspose.Slides](../../aspose.slides)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

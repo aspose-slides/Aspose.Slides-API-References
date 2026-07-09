@@ -1,6 +1,6 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示表格儲存格的格式。
 type: docs
 weight: 1150
@@ -18,25 +18,25 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | 傳回底部邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | 傳回左上至右下對角線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | 傳回左下至右上對角線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | 傳回左側邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | 傳回右側邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | 傳回上部邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat)。 |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | 傳回儲存格填充屬性物件。唯讀 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | 取得或設定填充顏色的透明度。可讀寫 Single。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | 傳回底部邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | 傳回左上至右下對角線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | 傳回左下至右上對角線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | 傳回左側邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | 傳回右側邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | 傳回上側邊框線屬性物件。唯讀 [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | 傳回儲存格填滿屬性物件。唯讀 [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | 取得或設定填滿顏色的透明度。可讀寫 Single. |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | 取得套用繼承與表格樣式後的有效儲存格格式屬性。 |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | 取得套用繼承與表格樣式的有效表格儲存格格式屬性。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [ICellFormat](../icellformat)

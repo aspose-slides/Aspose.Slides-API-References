@@ -1,6 +1,6 @@
 ---
 title: IMathBlockFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้างบล็อกคณิตศาสตร์
 type: docs
 weight: 8160
@@ -14,13 +14,13 @@ url: /th/aspose.slides.mathtext/imathblockfactory/
 public interface IMathBlockFactory
 ```
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | สร้างบล็อกคณิตศาสตร์ |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | สร้างบล็อกคณิตศาสตร์และใส่เอเลเมนต์ลงในบล็อก |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | สร้างบล็อกคณิตศาสตร์และใส่เอเลเมนต์หลายรายการลงในบล็อก |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | สร้างบล็อกคณิตศาสตร์และวางองค์ประกอบในบล็อก |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | สร้างบล็อกคณิตศาสตร์และวางหลายองค์ประกอบในบล็อก |
 
 ### หมายเหตุ
 

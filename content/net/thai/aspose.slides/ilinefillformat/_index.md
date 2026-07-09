@@ -1,6 +1,6 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงคุณสมบัติสำหรับการเติมเส้น.
 type: docs
 weight: 6290
@@ -18,12 +18,12 @@ public interface ILineFillFormat : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFillParamSource พื้นฐานได้ อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | คืนค่า หรือกำหนดประเภทการเติม อ่าน/เขียน [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | คืนค่ารูปแบบการเติมแบบไล่ระดับสี อ่านอย่างเดียว [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | คืนค่ารูปแบบการเติมแบบลวดลาย อ่านอย่างเดียว [`IPatternFormat`](../ipatternformat). |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | กำหนดว่าการเติมควรหมุนตามรูปร่างหรือไม่ อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | คืนค่าสีของการเติมแบบทึบ อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | อนุญาตให้รับอินเทอร์เฟซ IFillParamSource พื้นฐาน. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | คืนค่าหรือกำหนดประเภทการเติม. อ่าน/เขียน [`FillType`](../filltype). |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | คืนรูปแบบการเติมแบบไล่สี. อ่านอย่างเดียว [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | คืนรูปแบบการเติมลวดลาย. อ่านอย่างเดียว [`IPatternFormat`](../ipatternformat). |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | ระบุว่าการเติมควรหมุนไปพร้อมกับรูปร่างหรือไม่. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | คืนสีของการเติมแบบสีทึบ. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
 
 ### ดูเพิ่มเติม
 

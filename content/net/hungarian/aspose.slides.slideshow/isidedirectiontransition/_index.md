@@ -1,14 +1,14 @@
 ---
 title: ISideDirectionTransition
 second_title: Aspose.Sildes .NET API Referencia
-description: Oldalirányú diaátmenet hatása.
+description: Oldalsó irányú diaátmeneti hatás.
 type: docs
-weight: 10170
+weight: 10190
 url: /hu/aspose.slides.slideshow/isidedirectiontransition/
 ---
 ## ISideDirectionTransition interfész
 
-Oldalirányú diaátmenet hatása.
+Oldalsó irányú diaátmeneti hatás.
 
 ```csharp
 public interface ISideDirectionTransition : ITransitionValueBase
@@ -19,7 +19,7 @@ public interface ISideDirectionTransition : ITransitionValueBase
 | Név | Leírás |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/isidedirectiontransition/asitransitionvaluebase) { get; } | Lehetővé teszi a bázis ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasható/írható [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
+| [Direction](../../aspose.slides.slideshow/isidedirectiontransition/direction) { get; set; } | Az átmenet iránya. Olvasás/írás [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
 
 ### Lásd még
 

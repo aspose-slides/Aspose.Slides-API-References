@@ -1,12 +1,12 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Sildes pro .NET – reference API
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Neměnný objekt, který obsahuje vlastnosti výplně obrázkem.
 type: docs
-weight: 6640
+weight: 6660
 url: /cs/aspose.slides/ipicturefillformateffectivedata/
 ---
-## IPictureFillFormatEffectiveData interface
+## IPictureFillFormatEffectiveData rozhraní
 
 Neměnný objekt, který obsahuje vlastnosti výplně obrázkem.
 
@@ -14,24 +14,24 @@ Neměnný objekt, který obsahuje vlastnosti výplně obrázkem.
 public interface IPictureFillFormatEffectiveData : IFillParamSource
 ```
 
-## Properties
+## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Umožňuje získat základní rozhraní IFillParamSource. Pouze pro čtení [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Vrací počet procent skutečné výšky obrazu, který je oříznut ze spodní části obrázku. Pouze pro čtení Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Vrací počet procent skutečné šířky obrazu, který je oříznut z levé části obrázku. Pouze pro čtení Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Vrací počet procent skutečné šířky obrazu, který je oříznut z pravé části obrázku. Pouze pro čtení Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Vrací počet procent skutečné výšky obrazu, který je oříznut z horní části obrázku. Pouze pro čtení Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Vrací dpi, které se používá k vyplnění obrázku. Pouze pro čtení Int32. |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Vrací počet procent skutečné výšky obrázku, který je oříznut ze spodní části obrázku. Pouze pro čtení Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Vrací počet procent skutečné šířky obrázku, který je oříznut z levé strany obrázku. Pouze pro čtení Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Vrací počet procent skutečné šířky obrázku, který je oříznut z pravé strany obrázku. Pouze pro čtení Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Vrací počet procent skutečné výšky obrázku, který je oříznut z horní části obrázku. Pouze pro čtení Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Vrací dpi, které je použito k vyplnění obrázku. Pouze pro čtení Int32. |
 | [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Vrací obrázek. Pouze pro čtení [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Vrací režim výplně obrázkem. Pouze pro čtení [`PictureFillMode`](../picturefillmode). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Vrací režim výplně obrázku. Pouze pro čtení [`PictureFillMode`](../picturefillmode). |
 
-### Remarks
+### Poznámky
 
-Toto rozhraní se používá jako součást [`IFillFormatEffectiveData`](../ifillformateffectivedata).
+Toto rozhraní je použito jako součást [`IFillFormatEffectiveData`](../ifillformateffectivedata).
 
-### See Also
+### Viz také
 
 * rozhraní [IFillParamSource](../ifillparamsource)
 * jmenný prostor [Aspose.Slides](../../aspose.slides)

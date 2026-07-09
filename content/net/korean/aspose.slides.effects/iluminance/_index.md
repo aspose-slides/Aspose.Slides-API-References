@@ -1,14 +1,14 @@
 ---
 title: ILuminance
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Luminance 효과를 나타냅니다. 밝기는 모든 색을 흰색 또는 검은색에 더 가깝게 선형적으로 이동시킵니다. 대비는 모든 색을 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일합니다.
+description: Luminance 효과를 나타냅니다. Brightness는 모든 색상을 선형으로 흰색이나 검은색에 더 가깝게 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
 type: docs
 weight: 3440
 url: /ko/aspose.slides.effects/iluminance/
 ---
 ## ILuminance 인터페이스
 
-Luminance 효과를 나타냅니다. 밝기는 모든 색을 흰색이나 검은색에 더 가깝게 선형적으로 이동시킵니다. 대비는 모든 색을 서로 더 가깝게 또는 더 멀리 떨어지게 스케일합니다.
+Luminance 효과를 나타냅니다. Brightness는 모든 색상을 선형으로 흰색이나 검은색에 가깝게 이동시킵니다. Contrast는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -22,7 +22,7 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [ILuminanceEffectiveData](../iluminanceeffectivedata)

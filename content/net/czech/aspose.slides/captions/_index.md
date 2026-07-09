@@ -1,14 +1,14 @@
 ---
 title: Captions
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje uzavřené titulky WebVTT.
+second_title: Aspose.Sildes pro .NET – referenční příručka API
+description: Představuje uzavřené titulky WebVTT.
 type: docs
-weight: 1090
+weight: 1110
 url: /cs/aspose.slides/captions/
 ---
 ## Captions třída
 
-Reprezentuje uzavřené titulky WebVTT.
+Představuje uzavřené titulky WebVTT.
 
 ```csharp
 public class Captions : ICaptions
@@ -18,10 +18,10 @@ public class Captions : ICaptions
 
 | Název | Popis |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Vrací binární data uzavřených titulků. Pouze ke čtení Byte[]. |
-| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Vrací globálně jedinečný identifikátor (GUID) uzavřených titulků. Pouze ke čtení Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Vrací data uzavřených titulků jako řetězec kódovaný UTF-8. Pouze ke čtení String. |
-| [Label](../../aspose.slides/captions/label) { get; set; } | Vrací nebo nastavuje štítek uzavřených titulků. Čtení/zápis String. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Vrací binární data uzavřených titulků. Pouze pro čtení Byte[]. |
+| [CaptionId](../../aspose.slides/captions/captionid) { get; } | Vrací globálně jedinečný identifikátor (GUID) uzavřených titulků. Pouze pro čtení Guid. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Vrací data uzavřených titulků jako řetězec kódovaný UTF-8. Pouze pro čtení String. |
+| [Label](../../aspose.slides/captions/label) { get; set; } | Vrací nebo nastavuje popisek uzavřených titulků. Čtení/zápis String. |
 
 ### Viz také
 

@@ -1,14 +1,14 @@
 ---
 title: IPathSegment
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho đoạn đường đồ họa của GeometryShape
+description: Biểu diễn đoạn của đường đồ họa của GeometryShape
 type: docs
 weight: 6610
 url: /vi/aspose.slides/ipathsegment/
 ---
 ## IPathSegment giao diện
 
-Đại diện cho đoạn đường đồ họa của GeometryShape
+Biểu diễn đoạn của đường đồ họa của GeometryShape
 
 ```csharp
 public interface IPathSegment
@@ -18,8 +18,8 @@ public interface IPathSegment
 
 | Tên | Mô tả |
 | --- | --- |
-| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Kiểu đường dẫn của đoạn |
-| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Dữ liệu đường dẫn của đoạn |
+| [PathCommand](../../aspose.slides/ipathsegment/pathcommand) { get; } | Kiểu đường của đoạn |
+| [SegmentData](../../aspose.slides/ipathsegment/segmentdata) { get; } | Dữ liệu đường của đoạn |
 
 ### Xem thêm
 

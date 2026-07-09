@@ -1,30 +1,30 @@
 ---
 title: PptxUnsupportedFormatException
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: जब प्रस्तुति फ़ाइल फ़ॉर्मेट समर्थित नहीं होता है तो यह अपवाद फेंका जाता है।
+description: जब प्रस्तुति फ़ाइल का स्वरूप असमर्थित हो तो फेंका गया अपवाद।
 type: docs
 weight: 9580
 url: /hi/aspose.slides/pptxunsupportedformatexception/
 ---
-## PptxUnsupportedFormatException क्लास
+## PptxUnsupportedFormatException कक्षा
 
-जब प्रस्तुति फ़ाइल फ़ॉर्मेट समर्थित नहीं हो तो यह अपवाद फेंका जाता है।
+जब प्रस्तुति फ़ाइल का स्वरूप असमर्थित हो तो यह अपवाद फेंका जाता है।
 
 ```csharp
 public class PptxUnsupportedFormatException : PptxReadException
 ```
 
-## कंस्ट्रक्टर्स
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | इस अपवाद में संदेश जोड़ने की अनुमति देने वाला कंस्ट्रक्टर। |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | संदेश और एम्बेडेड Exception युक्त अपवाद के लिए कंस्ट्रक्टर। |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | इस अपवाद में एक संदेश जोड़ने की अनुमति देने वाला कंस्ट्रक्टर। |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | एक संदेश और एक एम्बेडेड अपवाद युक्त अपवाद के लिए कंस्ट्रक्टर। |
 
-### देखें भी
+### संबंधित देखें
 
-* क्लास [PptxReadException](../pptxreadexception)
+* कक्षा [PptxReadException](../pptxreadexception)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 

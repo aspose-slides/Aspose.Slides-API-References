@@ -3,7 +3,7 @@ title: DrawingGuide
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 調整可能な描画ガイドを表します。
 type: docs
-weight: 2790
+weight: 2810
 url: /ja/aspose.slides/drawingguide/
 ---
 ## DrawingGuide クラス
@@ -18,9 +18,9 @@ public sealed class DrawingGuide : IDrawingGuide
 
 | 名前 | 説明 |
 | --- | --- |
-| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 描画ガイドの色を取得または設定します。 Read/write Color. |
-| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 描画ガイドの向きを取得または設定します。 Read/write [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/drawingguide/position) { get; set; } | スライドの左上隅からのポイント単位で、描画ガイドの位置を取得または設定します。 Read/write Single. |
+| [Color](../../aspose.slides/drawingguide/color) { get; set; } | 描画ガイドの色を取得または設定します。読み取り/書き込み Color. |
+| [Orientation](../../aspose.slides/drawingguide/orientation) { get; set; } | 描画ガイドの向きを取得または設定します。読み取り/書き込み [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/drawingguide/position) { get; set; } | スライドの左上隅からのポイント単位で描画ガイドの位置を取得または設定します。読み取り/書き込み Single. |
 
 ### 関連項目
 

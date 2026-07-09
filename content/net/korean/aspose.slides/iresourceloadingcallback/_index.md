@@ -1,6 +1,6 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 외부 리소스 로드를 관리하는 콜백 인터페이스입니다.
 type: docs
 weight: 6840
@@ -18,9 +18,9 @@ public interface IResourceLoadingCallback
 
 | 이름 | 설명 |
 | --- | --- |
-| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 외부 리소스 로드를 조절하는 콜백 메서드. |
+| [ResourceLoading](../../aspose.slides/iresourceloadingcallback/resourceloading)(IResourceLoadingArgs) | 외부 리소스 로드를 제어하는 콜백 메서드. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

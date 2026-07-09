@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | 이름 | 설명 |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | 그리기 가이드의 색상을 반환하거나 설정합니다. 읽기/쓰기 Color. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | 그리기 가이드의 색을 반환하거나 설정합니다. 읽기/쓰기 Color. |
 | [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | 그리기 가이드의 방향을 반환하거나 설정합니다. 읽기/쓰기 [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | 슬라이드의 왼쪽 위 모서리에서 포인트 단위로 그리기 가이드의 위치를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | 그리기 가이드의 위치를 슬라이드의 왼쪽 위 모서리에서 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
 ### 참조
 

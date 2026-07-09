@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Indikerar formatet för det dokument som ska laddas.
+description: Anger formatet på dokumentet som ska laddas.
 type: docs
-weight: 7810
+weight: 7830
 url: /sv/aspose.slides/loadformat/
 ---
 ## LoadFormat-uppräkning
 
-Anger formatet för det dokument som ska laddas.
+Anger formatet på dokumentet som ska laddas.
 
 ```csharp
 public enum LoadFormat
@@ -18,19 +18,19 @@ public enum LoadFormat
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Auto | `0` | Instruerar Aspose.Slides att automatiskt känna igen formatet. |
-| Ppt | `1` | Microsoft PowerPoint-presentation 97-2003. |
-| Pps | `2` | Microsoft PowerPoint-bildspel 97-2003. |
+| Auto | `0` | Instruerar Aspose.Slides att känna igen formatet automatiskt. |
+| Ppt | `1` | Microsoft PowerPoint 97-2003-presentation. |
+| Pps | `2` | Microsoft PowerPoint 97-2003-bildspel. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML-dokument. |
 | Ppsx | `4` | Microsoft Office Open XML PresentationML-bildspel. |
 | Odp | `5` | OpenOffice ODF-presentation. |
 | Potx | `6` | Microsoft Office Open XML PresentationML-mall. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML-dokument med makron. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML-bildspel med makron. |
-| Potm | `9` | Microsoft Office Open XML PresentationML-mall med makron. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML makroaktiverat dokument. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML makroaktiverat bildspel. |
+| Potm | `9` | Microsoft Office Open XML PresentationML makroaktiverad mall. |
 | Otp | `10` | OpenOffice OTP-presentationmall. |
-| Ppt95 | `11` | Microsoft PowerPoint-presentation 95. |
-| Pot | `12` | Microsoft PowerPoint-presentationmall 97-2003. |
+| Ppt95 | `11` | Microsoft PowerPoint 95-presentation. |
+| Pot | `12` | Microsoft PowerPoint 97-2003-presentationmall. |
 | Fodp | `13` | Flat XML ODF-presentation. |
 | Unknown | `255` | Okänt filformat |
 

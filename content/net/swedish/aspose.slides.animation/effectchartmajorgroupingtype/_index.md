@@ -3,10 +3,10 @@ title: EffectChartMajorGroupingType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar typen av en animeringseffekt för diagrammets element.
 type: docs
-weight: 270
+weight: 290
 url: /sv/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType enumeration
+## EffectChartMajorGroupingType-enumeration
 
 Representerar typen av en animeringseffekt för diagrammets element.
 
@@ -21,7 +21,7 @@ public enum EffectChartMajorGroupingType
 | BySeries | `0` | Animera diagram efter serie |
 | ByCategory | `1` | Animera diagram efter kategori |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

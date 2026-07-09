@@ -6,7 +6,7 @@ type: docs
 weight: 2290
 url: /vi/aspose.slides.charts/legenddatalabelposition/
 ---
-## LegendDataLabelPosition liệt kê
+## Liệt kê LegendDataLabelPosition
 
 Xác định vị trí của nhãn dữ liệu.
 
@@ -14,22 +14,22 @@ Xác định vị trí của nhãn dữ liệu.
 public enum LegendDataLabelPosition
 ```
 
-### Giá trị
+### Giá Trị
 
-| Tên | Giá trị | Mô tả |
+| Tên | Giá Trị | Mô Tả |
 | --- | --- | --- |
 | NotDefined | `-1` | Vị trí chưa được xác định. |
-| Bottom | `0` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên dưới đánh dấu dữ liệu. |
+| Bottom | `0` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị dưới dấu dữ liệu. |
 | BestFit | `1` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị ở vị trí tốt nhất. |
-| Center | `2` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị ở giữa đánh dấu dữ liệu. |
-| InsideBase | `3` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên trong phần đáy của đánh dấu dữ liệu. |
-| InsideEnd | `4` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên trong phần cuối của đánh dấu dữ liệu. |
-| Left | `5` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị phía bên trái của đánh dấu dữ liệu. |
-| OutsideEnd | `6` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên ngoài phần cuối của đánh dấu dữ liệu. |
-| Right | `7` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị phía bên phải của đánh dấu dữ liệu. |
-| Top | `8` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị ở phía trên của đánh dấu dữ liệu. |
+| Center | `2` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị ở giữa dấu dữ liệu. |
+| InsideBase | `3` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên trong đáy của dấu dữ liệu. |
+| InsideEnd | `4` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên trong đầu của dấu dữ liệu. |
+| Left | `5` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên trái dấu dữ liệu. |
+| OutsideEnd | `6` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên ngoài đầu của dấu dữ liệu. |
+| Right | `7` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị bên phải dấu dữ liệu. |
+| Top | `8` | Chỉ định rằng nhãn dữ liệu sẽ được hiển thị trên dấu dữ liệu. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

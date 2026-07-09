@@ -1,14 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các thanh lỗi của chuỗi biểu đồ. Giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection trong thuộc tính ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho các thanh lỗi của chuỗi biểu đồ. Các giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection trong thuộc tính ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
 weight: 1670
 url: /vi/aspose.slides.charts/errorbarsformat/
 ---
 ## ErrorBarsFormat lớp
 
-Đại diện cho các thanh lỗi của chuỗi biểu đồ. Giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection (trong thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
+Biểu diễn các thanh lỗi của chuỗi biểu đồ. Các giá trị tùy chỉnh của ErrorBars nằm trong IChartDataPointCollection (trong thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -16,15 +16,15 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Trả về biểu đồ cha. Chỉ đọc [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Đại diện cho định dạng của các thanh lỗi. Đọc/ghi [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Chỉ định rằng không vẽ đầu mũi trên các thanh lỗi. Đọc/ghi Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Lấy hoặc đặt khả năng hiển thị của các thanh lỗi. Đọc/ghi Boolean. |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Biểu diễn định dạng của các thanh lỗi. Đọc/ghi [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Chỉ định không vẽ chụp cuối trên các thanh lỗi. Đọc/ghi Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Lấy hoặc đặt khả năng hiển thị Error Bars. Đọc/ghi Boolean. |
 | [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Lấy hoặc đặt loại của các thanh lỗi. Đọc/ghi [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Lấy hoặc đặt giá trị được sử dụng với các kiểu giá trị Fixed, Percentage và StandardDeviation để xác định độ dài của các thanh lỗi. Trong bất kỳ trường hợp nào khác sẽ trả về NaN. Đọc/ghi Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Đại diện cho các cách có thể để xác định độ dài của các thanh lỗi. Trong trường hợp kiểu giá trị tùy chỉnh để chỉ định giá trị, sử dụng thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) của điểm dữ liệu cụ thể trong bộ sưu tập DataPoints của chuỗi. Trong trường hợp kiểu giá trị Fixed, Percentage hoặc StandardDeviation, sử dụng thuộc tính Value để chỉ định giá trị. Đọc/ghi [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Lấy hoặc đặt giá trị được sử dụng cùng các kiểu giá trị Fixed, Percentage và StandardDeviation để xác định độ dài của các thanh lỗi. Trong mọi trường hợp khác sẽ trả về NaN. Đọc/ghi Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Biểu diễn các cách có thể để xác định độ dài của các thanh lỗi. Trong trường hợp kiểu giá trị tùy chỉnh để chỉ định giá trị, sử dụng thuộc tính [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) của điểm dữ liệu cụ thể trong bộ sưu tập DataPoints của chuỗi. Trong trường hợp kiểu giá trị Fixed, Percentage hoặc StandardDeviation, sử dụng thuộc tính Value để chỉ định giá trị. Đọc/ghi [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Xem thêm
 

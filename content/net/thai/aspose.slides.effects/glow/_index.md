@@ -1,14 +1,14 @@
 ---
 title: Glow
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Glow ที่มีรูปล้อมสีเบลอเพิ่มไว้รอบขอบของวัตถุ.
+description: แสดงถึงเอฟเฟกต์ Glow ที่เส้นขอบสีเบลอถูกเพิ่มนอกขอบของวัตถุ
 type: docs
 weight: 2990
 url: /th/aspose.slides.effects/glow/
 ---
 ## Glow คลาส
 
-แสดงถึงเอฟเฟกต์ Glow ที่มีกรอบสีเบลอเพิ่มไว้รอบขอบของวัตถุ.
+แสดงถึงเอฟเฟกต์ Glow ซึ่งทำให้เส้นขอบสีเบลอเพิ่มขึ้นรอบขอบของวัตถุ.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -25,9 +25,9 @@ public sealed class Glow : IGlow
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/glow/equals)(object) | ตรวจสอบว่า [`Glow`](../glow) ที่ระบุเท่ากับ [`Glow`](../glow) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | รับข้อมูลเอฟเฟกต์ Glow ที่มีผลการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทโดยเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/glow/equals)(object) | กำหนดว่า [`Glow`](../glow) ที่ระบุเท่ากับ [`Glow`](../glow) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/glow/geteffective)() | รับข้อมูลเอฟเฟกต์ Glow ที่มีผลโดยมีการสืบทอดที่ใช้. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MotionPathEditMode
 second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica como o caminho de movimento se move quando a forma de destino é movida
+description: Especifica como o caminho de movimento se desloca quando a forma de destino é movida
 type: docs
-weight: 680
+weight: 700
 url: /pt/aspose.slides.animation/motionpatheditmode/
 ---
-## MotionPathEditMode enumeração
+## Enumeração MotionPathEditMode
 
-Especifica como o caminho de movimento se move quando a forma de destino é movida
+Especifica como o caminho de movimento se desloca quando a forma de destino é movimentada
 
 ```csharp
 public enum MotionPathEditMode

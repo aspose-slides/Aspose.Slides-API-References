@@ -1,14 +1,14 @@
 ---
 title: AxesManager
-second_title: Aspose.Sildes .NET için API Referansı
-description: Çizelge eksenlerine erişim sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Grafik eksenlerine erişim sağlar.
 type: docs
-weight: 1150
+weight: 1170
 url: /tr/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager sınıfı
 
-Çizelge eksenlerine erişim sağlar.
+Grafik eksenlerine erişim sağlar.
 
 ```csharp
 public class AxesManager : DomObject<Chart>, IAxesManager
@@ -18,11 +18,11 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Çizelgenin yatay eksenini alır. Yalnızca okuma [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Çizelgenin ikincil yatay eksenini alır. Yalnızca okuma [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Çizelgenin ikincil dikey eksenini alır. Yalnızca okuma [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Çizelgenin seri eksenini alır. Yalnızca okuma [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Çizelgenin dikey eksenini alır. Yalnızca okuma [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | Grafiğin yatay eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | Grafiğin ikincil yatay eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | Grafiğin ikincil dikey eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | Grafiğin seri eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | Grafiğin dikey eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
 
 ### Ayrıca Bakınız
 

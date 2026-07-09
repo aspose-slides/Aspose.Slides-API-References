@@ -1,14 +1,14 @@
 ---
 title: BaseSlideHeaderFooterManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de manager voor die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen voor alle dia-typen beheert.
+description: Stelt een manager voor die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen voor alle diatypes bevat.
 type: docs
 weight: 1000
 url: /nl/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager klasse
 
-Stelt de manager voor die het gedrag van de datum-tijd-, voettekst- en paginanummer-plaatsaanduidingen voor alle dia-typen beheert.
+Stelt een manager voor die het gedrag van de voettekst-, datum-tijd- en paginanummer-plaatsaanduidingen voor alle diatypes bevat.
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -32,7 +32,7 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Wijzigt de zichtbaarheid van de voettekst-plaatsaanduiding van de dia. |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Wijzigt de zichtbaarheid van de paginanummer-plaatsaanduiding van de dia. |
 
-### Zie Ook
+### Zie ook
 
 * klasse [BaseHeaderFooterManager](../baseheaderfootermanager)
 * naamruimte [Aspose.Slides](../../aspose.slides)

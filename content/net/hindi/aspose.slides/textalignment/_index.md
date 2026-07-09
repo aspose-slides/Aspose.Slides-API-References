@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विभिन्न टेक्स्ट अलाइनमेंट शैलियों का प्रतिनिधित्व करता है।
+description: विभिन्न टेक्स्ट संरेखण शैलियों का प्रतिनिधित्व करता है।
 type: docs
 weight: 10900
 url: /hi/aspose.slides/textalignment/
 ---
 ## TextAlignment एन्यूमरेशन
 
-विभिन्न टेक्स्ट अलाइनमेंट शैलियों का प्रतिनिधित्व करता है।
+विभिन्न टेक्स्ट संरेखण शैलियों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum TextAlignment
@@ -16,17 +16,17 @@ public enum TextAlignment
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मूल्य | विवरण |
 | --- | --- | --- |
-| NotDefined | `-1` | डिफॉल्ट अलाइनमेंट। |
-| Left | `0` | बाएँ अलाइनमेंट। |
-| Center | `1` | केंद्र अलाइनमेंट। |
-| Right | `2` | दाएँ अलाइनमेंट। |
-| Justify | `3` | जस्टिफ़ाई अलाइनमेंट। |
-| JustifyLow | `4` | कम स्तर का काशिदा जस्टिफ़ाई। |
-| Distributed | `5` | वितरित अलाइनमेंट। |
+| NotDefined | `-1` | डिफ़ॉल्ट संरेखण। |
+| Left | `0` | बाएँ संरेखण। |
+| Center | `1` | केंद्रीय संरेखण। |
+| Right | `2` | दाएँ संरेखण। |
+| Justify | `3` | जस्टिफ़ाइ संरेखण। |
+| JustifyLow | `4` | Kashida लो जस्टिफ़ाइ। |
+| Distributed | `5` | वितरित संरेखण। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

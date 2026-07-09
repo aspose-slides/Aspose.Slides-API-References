@@ -1,26 +1,26 @@
 ---
 title: ISoftEdge
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش یک اثر لبه نرم. لبه‌های شکل تار شده‌اند در حالی که پرشده تحت تأثیر قرار نمی‌گیرد.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: نمایانگر یک اثر لبه نرم است. لبه‌های شکل تاری می‌شوند در حالی که پرکننده تحت تأثیر قرار نمی‌گیرد.
 type: docs
 weight: 3520
 url: /fa/aspose.slides.effects/isoftedge/
 ---
 ## ISoftEdge رابط
 
-نمایش یک اثر لبه نرم. لبه‌های شکل تار می‌شوند، در حالی که پرشده تحت تأثیر قرار نمی‌گیرد.
+نمایانگر یک اثر لبه‌نرم است. لبه‌های شکل تاری می‌شوند، در حالی که پرکننده تحت تأثیر قرار نمی‌گیرد.
 
 ```csharp
 public interface ISoftEdge : IAccessiblePVIObject<ISoftEdgeEffectiveData>, IImageTransformOperation
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | اجازه می‌دهد تا رابط پایه IAccessiblePVIObject را دریافت کند. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | اجازه می‌دهد تا رابط پایه IImageTransformOperation را دریافت کند. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | شعاع تار شدن را که بر لبه‌ها اعمال می‌شود مشخص می‌کند. خواندنی/نوشتنی Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/isoftedge/asiaccessiblepviobject) { get; } | اجازۀ دریافت رابط پایه IAccessiblePVIObject. فقط-خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/isoftedge/asiimagetransformoperation) { get; } | اجازۀ دریافت رابط پایه IImageTransformOperation. فقط-خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Radius](../../aspose.slides.effects/isoftedge/radius) { get; set; } | شعاع تاری که بر لبه‌ها اعمال می‌شود را مشخص می‌کند. قابل‌خواندن/نوشتن Double. |
 
 ### مراجع
 

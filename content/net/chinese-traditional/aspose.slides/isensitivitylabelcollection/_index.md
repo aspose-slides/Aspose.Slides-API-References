@@ -25,12 +25,12 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 將 SensitivityLabel 新增至集合中。 |
-| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 將敏感性標籤新增至集合的末端。 |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | 将 SensitivityLabel 新增至集合。 |
+| [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | 在集合末端新增敏感性標籤。 |
 | [Clear](../../aspose.slides/isensitivitylabelcollection/clear)() | 從集合中移除所有元素。 |
 | [RemoveAt](../../aspose.slides/isensitivitylabelcollection/removeat)(int) | 移除指定索引處的敏感性標籤。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [ISensitivityLabel](../isensitivitylabel)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

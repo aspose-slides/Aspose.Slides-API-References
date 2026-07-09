@@ -1,24 +1,24 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes の .NET APIリファレンス
-description: IMathRightSubSuperscriptElementFactory の作成を可能にします
+second_title: Aspose.Sildes for .NET API リファレンス
+description: IMathRightSubSuperscriptElementFactory を作成できます
 type: docs
-weight: 8950
+weight: 8970
 url: /ja/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory クラス
 
-IMathRightSubSuperscriptElementFactory を作成できるようにします
+IMathRightSubSuperscriptElementFactory を作成することができます
 
 ```csharp
 public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptElementFactory
 ```
 
-## コンストラクタ
+## コンストラクター
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | デフォルトコンストラクタです。 |
+| [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | デフォルト コンストラクターです。 |
 
 ## メソッド
 
@@ -30,7 +30,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 COM 互換性のため
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathRightSubSuperscriptElementFactory](../imathrightsubsuperscriptelementfactory)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

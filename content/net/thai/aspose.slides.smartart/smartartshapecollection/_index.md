@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของรูปร่าง SmartArt
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนชุดของรูปร่าง SmartArt
 type: docs
 weight: 10670
 url: /th/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection คลาส
 
-แสดงถึงคอลเลกชันของรูปร่าง SmartArt
+แทนชุดของรูปร่าง SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -18,21 +18,21 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | คืนค่าแสดงว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (thread-safe). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | คืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | รับจำนวนของสมาชิกที่อยู่จริงในชุด. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | คืนค่าที่บ่งชี้ว่าการเข้าถึงชุดนี้ถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | รับสมาชิกที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`SmartArtShape`](../smartartshape).&gt;. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | คัดลอกสมาชิกทั้งหมดจากชุดไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | คืนค่า enumerator ที่ทำการวนซ้ำผ่านชุด. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟส [ISmartArtShapeCollection](../ismartartshapecollection)
+* อินเทอร์เฟซ [ISmartArtShapeCollection](../ismartartshapecollection)
 * เนมสเปซ [Aspose.Slides.SmartArt](../../aspose.slides.smartart)
 * แอสเซมบลี [Aspose.Slides](../../)
 

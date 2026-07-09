@@ -3,12 +3,12 @@ title: Compress
 second_title: Aspose.Sildes for .NET API Referansı
 description: Presentation../aspose.slides/presentation'ı sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
 type: docs
-weight: 7850
+weight: 7870
 url: /tr/aspose.slides.lowcode/compress/
 ---
-## Compress sınıfı
+## Compress sınıf
 
-Belirli [`Presentation`](../../aspose.slides/presentation) sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
+Belirtilen [`Presentation`](../../aspose.slides/presentation)'ı sıkıştırmak için tasarlanmış bir grup yöntemi temsil eder.
 
 ```csharp
 public static class Compress
@@ -16,11 +16,11 @@ public static class Compress
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Yerlileştirilmiş gömülü yazı tiplerindeki kullanılmayan karakterleri kaldırarak [`Presentation`](../../aspose.slides/presentation) sıkıştırmasını gerçekleştirir. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Kullanılmayan yerleşim slaytlarını kaldırarak [`Presentation`](../../aspose.slides/presentation) sıkıştırmasını gerçekleştirir. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Kullanılmayan ana slaytları kaldırarak [`Presentation`](../../aspose.slides/presentation) sıkıştırmasını gerçekleştirir. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Gömülü yazı tiplerinden kullanılmayan karakterleri kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Kullanılmayan düzen slaytlarını kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Kullanılmayan ana slaytları kaldırarak [`Presentation`](../../aspose.slides/presentation)'ın sıkıştırılmasını sağlar. |
 
 ### Örnekler
 
@@ -33,7 +33,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca bakınız
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * derleme [Aspose.Slides](../../)

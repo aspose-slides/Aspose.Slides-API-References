@@ -24,12 +24,12 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Maakt een FileStream met het opgegeven pad en creatiemodus. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Maakt een FileStream met het opgegeven pad, creatiemodus en lees-/schrijfrechten. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Maakt een FileStream met het opgegeven pad en de creatiemodus. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Maakt een FileStream met het opgegeven pad, de creatiemodus en lees-/schrijfrechten. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Maakt een MemoryStream-wrapper. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Maakt een MemoryStream-wrapper op basis van de opgegeven byte-array. |
 
-### Zie ook
+### See Also
 
 * interface [IStreamWrapperFactory](../istreamwrapperfactory)
 * naamruimte [Aspose.Slides](../../aspose.slides)

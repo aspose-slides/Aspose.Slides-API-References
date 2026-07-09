@@ -1,14 +1,14 @@
 ---
 title: HSL
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một hiệu ứng Hue/Saturation/Luminance. Hue, saturation và luminance mỗi cái có thể được điều chỉnh tương đối so với giá trị hiện tại của chúng.
+description: Biểu diễn một hiệu ứng Hue/Saturation/Luminance. Hue, saturation và luminance có thể được điều chỉnh riêng biệt so với giá trị hiện tại của chúng.
 type: docs
 weight: 3010
 url: /vi/aspose.slides.effects/hsl/
 ---
 ## HSL lớp
 
-Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.
+Biểu diễn một hiệu ứng Hue/Saturation/Luminance. Mỗi hue, saturation và luminance có thể được điều chỉnh tương đối với giá trị hiện tại của chúng.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -25,7 +25,7 @@ public sealed class HSL : ImageTransformOperation, IHSL
 | Tên | Mô tả |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Xác định xem [`HSL`](../hsl) được chỉ định có bằng với [`HSL`](../hsl) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Lấy dữ liệu hiệu ứng Hue/Saturation/Luminance đã áp dụng kế thừa. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Lấy dữ liệu hiệu ứng Hue/Saturation/Luminance hiệu lực với kế thừa đã được áp dụng. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm

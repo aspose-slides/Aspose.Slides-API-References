@@ -1,14 +1,14 @@
 ---
 title: ICellCollection
-second_title: Tham chiếu API Aspose.Slides cho .NET
-description: Biểu diễn một tập hợp các ô.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các ô.
 type: docs
 weight: 5460
 url: /vi/aspose.slides/icellcollection/
 ---
-## ICellCollection giao diện
+## Giao diện ICellCollection
 
-Biểu diễn một tập hợp các ô.
+Đại diện cho một tập hợp các ô.
 
 ```csharp
 public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
@@ -18,7 +18,7 @@ public interface ICellCollection : IGenericCollection<ICell>, ISlideComponent
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Cho phép lấy giao diện cơ sở ISlideComponent. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
+| [AsISlideComponent](../../aspose.slides/icellcollection/asislidecomponent) { get; } | Cho phép lấy giao diện ISlideComponent cơ bản. Chỉ đọc [`ISlideComponent`](../islidecomponent). |
 | [Item](../../aspose.slides/icellcollection/item) { get; } | Trả về một ô theo vị trí của nó. Chỉ đọc [`ICell`](../icell). |
 
 ### Xem thêm

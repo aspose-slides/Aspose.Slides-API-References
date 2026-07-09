@@ -1,6 +1,6 @@
 ---
 title: IInterruptionTokenSource
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 IInterruptionToken./iinterruptiontoken 的來源。
 type: docs
 weight: 6200
@@ -18,8 +18,8 @@ public interface IInterruptionTokenSource
 
 | 名稱 | 說明 |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | 若已請求中斷則返回 true，否則返回 false。 |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 返回新標記，綁定到此 [`IInterruptionTokenSource`](../iinterruptiontokensource)。 |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | 如果已請求中斷則返回 true，否則返回 false。 |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | 返回綁定到此 [`IInterruptionTokenSource`](../iinterruptiontokensource) 的新 token。 |
 
 ## 方法
 

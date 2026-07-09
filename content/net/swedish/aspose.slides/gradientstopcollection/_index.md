@@ -1,14 +1,14 @@
 ---
 title: GradientStopCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en samling av gradientstopp.
+description: Representerar en samling gradientstopp.
 type: docs
-weight: 5010
+weight: 5030
 url: /sv/aspose.slides/gradientstopcollection/
 ---
 ## GradientStopCollection klass
 
-Representerar en samling av gradientstopp.
+Representerar en samling gradientstopp.
 
 ```csharp
 public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
@@ -18,28 +18,28 @@ public sealed class GradientStopCollection : PVIObject, IGradientStopCollection
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att få bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [Count](../../aspose.slides/gradientstopcollection/count) { get; } | Returnerar antalet gradientstopp i en samling. Skrivskyddad Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Returnerar ett värde som anger om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
-| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Returnerar gradientstoppen med angivet index. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollection/issynchronized) { get; } | Returnerar ett värde som indikerar om åtkomst till samlingen är synkroniserad (trådsäker). Skrivskyddad Boolean. |
+| [Item](../../aspose.slides/gradientstopcollection/item) { get; } | Returnerar gradientstoppet efter index. |
 | [SyncRoot](../../aspose.slides/gradientstopcollection/syncroot) { get; } | Returnerar ett synkroniseringsrot. Skrivskyddad Object. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Skapar den nya gradientstoppen och lägger till den i slutet av samlingen. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Skapar den nya gradientstoppen och lägger till den i slutet av samlingen. |
-| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Skapar den nya gradientstoppen och lägger till den i slutet av samlingen. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_2)(float, Color) | Skapar ett nytt gradientstopp och lägger till det i samlingens slut. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add)(float, PresetColor) | Skapar ett nytt gradientstopp och lägger till det i samlingens slut. |
+| [Add](../../aspose.slides/gradientstopcollection/add#add_1)(float, SchemeColor) | Skapar ett nytt gradientstopp och lägger till det i samlingens slut. |
 | [Clear](../../aspose.slides/gradientstopcollection/clear)() | Tar bort alla gradientstopp från en samling. |
 | [CopyTo](../../aspose.slides/gradientstopcollection/copyto)(Array, int) | Kopierar alla element från samlingen till den angivna arrayen. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
 | [GetEnumerator](../../aspose.slides/gradientstopcollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Skapar den nya gradientstoppen och infogar den på det angivna indexet i samlingen. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Skapar den nya gradientstoppen och infogar den på det angivna indexet i samlingen. |
-| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Skapar den nya gradientstoppen och infogar den på det angivna indexet i samlingen. |
-| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Tar bort en gradientstopp på det angivna indexet. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_2)(int, float, Color) | Skapar ett nytt gradientstopp och infogar det på angivet index i samlingen. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert)(int, float, PresetColor) | Skapar ett nytt gradientstopp och infogar det på angivet index i samlingen. |
+| [Insert](../../aspose.slides/gradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Skapar ett nytt gradientstopp och infogar det på angivet index i samlingen. |
+| [RemoveAt](../../aspose.slides/gradientstopcollection/removeat)(int) | Tar bort ett gradientstopp på angivet index. |
 
 ### Se även
 

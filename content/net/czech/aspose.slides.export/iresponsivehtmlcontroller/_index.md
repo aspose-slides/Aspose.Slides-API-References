@@ -1,14 +1,14 @@
 ---
 title: IResponsiveHtmlController
 second_title: Aspose.Sildes pro .NET API Reference
-description: Responsivní HTML řadič
+description: Responzivní HTML řadič
 type: docs
-weight: 4030
+weight: 4050
 url: /cs/aspose.slides.export/iresponsivehtmlcontroller/
 ---
-## IResponsiveHtmlController rozhraní
+## IResponsiveHtmlController interface
 
-Responsivní HTML řadič
+Responzivní HTML řadič
 
 ```csharp
 public interface IResponsiveHtmlController : IHtmlFormattingController

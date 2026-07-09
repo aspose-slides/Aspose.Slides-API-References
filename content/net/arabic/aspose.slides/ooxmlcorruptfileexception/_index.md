@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: استثناء يُرمى عندما يكون تنسيق ملف Office Open XML تالفًا.
+second_title: Aspose.Sildes لواجهة برمجة التطبيقات .NET
+description: الاستثناء الذي يُرمى عندما يكون تنسيق ملف Office Open XML غير سليم.
 type: docs
 weight: 9190
 url: /ar/aspose.slides/ooxmlcorruptfileexception/
 ---
-## فئة OOXMLCorruptFileException
+## OOXMLCorruptFileException الفئة
 
-استثناء يُرمى عندما يكون تنسيق ملف Office Open XML تالفًا.
+الاستثناء الذي يُرمى عندما يكون تنسيق ملف Office Open XML غير سليم.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -18,8 +18,8 @@ public class OOXMLCorruptFileException : OOXMLException
 
 | الاسم | الوصف |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | المنشئ الافتراضي. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | منشئ يسمح بإضافة رسالة إلى هذا الاستثناء. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | منشئ افتراضي. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | منشئ يتيح إضافة رسالة إلى هذا الاستثناء. |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | منشئ لاستثناء يحتوي على رسالة واستثناء مضمّن. |
 
 ### انظر أيضًا

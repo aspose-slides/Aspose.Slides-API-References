@@ -1,14 +1,14 @@
 ---
 title: TextAutofitType
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar textautofit-läge.
+description: Representerar text autofit-läge.
 type: docs
-weight: 10900
+weight: 10920
 url: /sv/aspose.slides/textautofittype/
 ---
-## TextAutofitType enumeration
+## TextAutofitType-enumeration
 
-Representerar textautofit-läge.
+Representerar text autofit-läge.
 
 ```csharp
 public enum TextAutofitType : sbyte
@@ -18,7 +18,7 @@ public enum TextAutofitType : sbyte
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NotDefined | `-1` | Ej definierad. |
+| NotDefined | `-1` | Inte definierad. |
 | None | `0` | Ingen autofit. |
 | Normal | `1` | Normal autofit. Teckenstorlek och radavstånd kommer att minskas för att passa formen. |
 | Shape | `2` | Formautofit. Formens storlek kommer att ändras för att passa texten. |

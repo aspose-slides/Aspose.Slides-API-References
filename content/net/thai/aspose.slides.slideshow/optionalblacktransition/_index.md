@@ -1,31 +1,31 @@
 ---
 title: OptionalBlackTransition
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกได้.
+description: เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือก
 type: docs
 weight: 10260
 url: /th/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนสไลด์สีดำแบบเลือกได้.
+Optional black slide transition effect.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
 ```
 
-## คุณสมบัติ
+## ค่าคุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | คุณลักษณะนี้ระบุว่าการเปลี่ยนภาพจะเริ่มจากหน้าจอสีดำ (แล้วจึงเปลี่ยนสไลด์ใหม่บนพื้นสีดำ) อ่าน/เขียน Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | แอตทริบิวต์นี้กำหนดว่าการเปลี่ยนภาพจะเริ่มจากหน้าจอสีดำ (และจากนั้นเปลี่ยนสไลด์ใหม่บนสีดำ) อ่าน/เขียน Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่างสองตัวของ TransitionValueBase เท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ซึ่งเหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าอ็อบเจกต์สองตัวของ TransitionValueBase มีค่าเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่นตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

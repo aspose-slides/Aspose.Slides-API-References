@@ -3,10 +3,10 @@ title: Storage
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili penyimpanan data sementara untuk WebDocument./webdocument.
 type: docs
-weight: 4640
+weight: 4660
 url: /id/aspose.slides.export.web/storage/
 ---
-## Kelas penyimpanan
+## Kelas Penyimpanan
 
 Mewakili penyimpanan data sementara untuk [`WebDocument`](../webdocument).
 
@@ -25,8 +25,8 @@ public sealed class Storage
 | Nama | Deskripsi |
 | --- | --- |
 | [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | Menentukan apakah penyimpanan berisi elemen dengan kunci yang ditentukan. |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Mendapatkan data dari penyimpanan. |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Menempatkan nilai ke dalam penyimpanan. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | Mengambil data dari penyimpanan. |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | Menambahkan nilai ke dalam penyimpanan. |
 
 ### Lihat Juga
 

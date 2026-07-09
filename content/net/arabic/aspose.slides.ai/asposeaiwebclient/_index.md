@@ -1,40 +1,40 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes لمرجع API لـ .NET
-description: تنفيذ مدمج لـ IAIWebClient./iaiwebclient يتصل بـ LLM الخاص بـ Asposes. هذا هو العميل الافتراضي المستخدم بواسطة منشئ SlidesAIAgent./slidesaiagent/slidesaiagent بدون وسائط.
+second_title: Aspose.Sildes لمرجع API .NET
+description: تنفيذ مدمج لـ IAIWebClient./iaiwebclient يتصل بـ LLM الخاص بـ Aspose. هذا هو العميل الافتراضي المستخدم بواسطة المنشئ بدون معلمات SlidesAIAgent./slidesaiagent/slidesaiagent.
 type: docs
 weight: 10
 url: /ar/aspose.slides.ai/asposeaiwebclient/
 ---
 ## AsposeAIWebClient فئة
 
-تنفيذ مضمن من [`IAIWebClient`](../iaiwebclient) يتصل بـ LLM الخاص بـ Aspose. هذا هو العميل الافتراضي المستخدم بواسطة منشئ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) بدون وسائط.
+تنفيذ [`IAIWebClient`](../iaiwebclient) مدمج يتصل بنظام LLM الخاص بـ Aspose. هذا هو العميل الافتراضي المستخدم بواسطة المنشئ بدون معلمات [`SlidesAIAgent`](../slidesaiagent/slidesaiagent).
 
 ```csharp
 public sealed class AsposeAIWebClient : IIAWebClient, IDisposable
 ```
 
-## المُنشئات
+## المنشئون
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل المستخدم بواسطة منشئ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) بدون وسائط، لذا فإن إنشاؤه صراحةً مطلوب فقط عند تمرير العميل إلى منشئ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) مباشرةً. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM باستخدام HttpClient مُدار خارجيًا. الـ HttpClient المقدم لا يتم تحريره بواسطة هذا المثيل ويظل مملوكًا للمتصل. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بعنوان URL مخصص لنقطة النهاية. استخدم هذا التحميل الزائد عندما يكون لديك عنوان URL مقدم من فريق Aspose.Slides؛ وإلا، استخدم التحميل الزائد [`AsposeAIWebClient`](./asposeaiwebclient) مع العنوان الافتراضي. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | ينشئ مثيلاً من عميل الويب Aspose AI الذي يتصل بعنوان URL مخصص لنقطة النهاية باستخدام HttpClient مُدار خارجيًا. الـ HttpClient المقدم لا يتم تحريره بواسطة هذا المثيل ويظل مملوكًا للمتصل. استخدم هذا التحميل الزائد عندما يكون لديك عنوان URL مقدم من فريق Aspose.Slides وتريد تقديم HttpClient الخاص بك؛ إذا كنت تحتاج فقط إلى HttpClient الخاص بك مع العنوان الافتراضي، استخدم التحميل الزائد [`AsposeAIWebClient`](./asposeaiwebclient) بدلاً من ذلك. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | ينشئ نسخة من عميل Aspose AI الويب الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM. هذا هو العميل المستخدم بواسطة المنشئ بدون معلمات [`SlidesAIAgent`](../slidesaiagent/slidesaiagent)، لذا فإن إنشاءه صراحةً يكون مطلوبًا فقط عند تمرير العميل إلى المنشئ [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) مباشرة. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | ينشئ نسخة من عميل Aspose AI الويب الذي يتصل بنقطة النهاية الافتراضية لـ Aspose LLM باستخدام HttpClient يتم إدارته خارجيًا. HttpClient المقدم لا يتم تحريره بواسطة هذه النسخة ويظل مملوكًا للمتصل. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | ينشئ نسخة من عميل Aspose AI الويب الذي يتصل بعنوان URL مخصص لنقطة النهاية. استخدم هذا التحميل الزائد عندما يكون لديك عنوان URL مقدم من فريق Aspose.Slides؛ وإلا، استخدم التحميل الزائد [`AsposeAIWebClient`](./asposeaiwebclient) مع العنوان الافتراضي. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | ينشئ نسخة من عميل Aspose AI الويب الذي يتصل بعنوان URL مخصص لنقطة النهاية باستخدام HttpClient يتم إدارته خارجيًا. HttpClient المقدم لا يتم تحريره بواسطة هذه النسخة ويظل مملوكًا للمتصل. استخدم هذا التحميل الزائد عندما يكون لديك عنوان URL مقدم من فريق Aspose.Slides وتريد تزويد HttpClient الخاص بك؛ إذا كنت تحتاج فقط إلى HttpClient الخاص بك مع العنوان الافتراضي، استخدم التحميل الزائد [`AsposeAIWebClient`](./asposeaiwebclient) بدلاً من ذلك. |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | يرسل تعليمات دردشة إلى نموذج AI ويعيد رسالة الاستجابة إلى التعليمة المقدمة. |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | ينشئ مثيلاً من محادثة. على عكس مكالمات AI العادية، تحتفظ المحادثات بالسياق بالكامل. |
-| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | يطلق الموارد المستخدمة بواسطة هذا المثيل. |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | يرسل تعليمًا للدردشة إلى نموذج الذكاء الاصطناعي ويعيد رسالة الاستجابة إلى التعليم المقدم. |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | ينشئ نسخة من محادثة. على عكس مكالمات الذكاء الاصطناعي العادية، تحتفظ المحادثات بكامل السياق. |
+| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | يُفرج عن الموارد المستخدمة بواسطة هذه النسخة. |
 
 ### انظر أيضًا
 
 * واجهة [IAIWebClient](../iaiwebclient)
-* مساحة الاسم [Aspose.Slides.AI](../../aspose.slides.ai)
+* نطاق الاسم [Aspose.Slides.AI](../../aspose.slides.ai)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

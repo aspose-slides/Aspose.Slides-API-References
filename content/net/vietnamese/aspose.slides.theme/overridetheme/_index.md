@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một chủ đề ghi đè.
+description: Biểu diễn một theme ghi đè.
 type: docs
 weight: 11460
 url: /vi/aspose.slides.theme/overridetheme/
 ---
-## OverrideTheme lớp
+## Lớp OverrideTheme
 
-Đại diện cho một chủ đề ghi đè.
+Biểu diễn một theme ghi đè.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -18,29 +18,29 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 | Tên | Mô tả |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Trả về bảng màu. Chỉ đọc [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Trả về bảng phông chữ. Chỉ đọc [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Trả về bảng định dạng hình dạng. Chỉ đọc [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Giá trị true có nghĩa là ColorScheme, FontScheme, FormatScheme là null và bất kỳ việc ghi đè nào với đối tượng chủ đề này đều bị tắt. Chỉ đọc Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Trả về bản trình chiếu cha. Chỉ đọc [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Trả về ColorScheme. Chỉ đọc [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Trả về FontScheme. Chỉ đọc [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Trả về FormatScheme. Chỉ đọc [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Giá trị true có nghĩa là ColorScheme, FontScheme, FormatScheme là null và bất kỳ việc ghi đè nào với đối tượng theme này đều bị vô hiệu hoá. Chỉ đọc Boolean. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Trả về Presentation cha. Chỉ đọc [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Clear](../../aspose.slides.theme/overridetheme/clear)() | Đặt ColorScheme, FontScheme, FormatScheme thành null để tắt mọi việc ghi đè với đối tượng chủ đề này. |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lấy dữ liệu chủ đề hiệu quả với việc kế thừa được áp dụng. |
-| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | Khởi tạo ColorScheme bằng đối tượng mới để ghi đè ColorScheme của InheritedTheme. |
-| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | Khởi tạo ColorScheme bằng đối tượng mới để ghi đè ColorScheme của InheritedTheme. |
-| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | Khởi tạo ColorScheme bằng đối tượng mới để ghi đè ColorScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này bằng dữ liệu của ColorScheme của InheritedTheme. |
-| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | Khởi tạo FontScheme bằng đối tượng mới để ghi đè FontScheme của InheritedTheme. |
-| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | Khởi tạo FontScheme bằng đối tượng mới để ghi đè FontScheme của InheritedTheme. |
-| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | Khởi tạo FontScheme bằng đối tượng mới để ghi đè FontScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này bằng dữ liệu của FontScheme của InheritedTheme. |
-| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | Khởi tạo FormatScheme bằng đối tượng mới để ghi đè FormatScheme của InheritedTheme. |
-| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | Khởi tạo FormatScheme bằng đối tượng mới để ghi đè FormatScheme của InheritedTheme. |
-| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | Khởi tạo FormatScheme bằng đối tượng mới để ghi đè FormatScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này bằng dữ liệu của FormatScheme của InheritedTheme. |
+| [Clear](../../aspose.slides.theme/overridetheme/clear)() | Đặt ColorScheme, FontScheme, FormatScheme thành null để vô hiệu hoá mọi việc ghi đè với đối tượng theme này. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Lấy dữ liệu theme thực tế với tính kế thừa đã được áp dụng. |
+| [InitColorScheme](../../aspose.slides.theme/overridetheme/initcolorscheme)() | Khởi tạo ColorScheme với đối tượng mới để ghi đè ColorScheme của InheritedTheme. |
+| [InitColorSchemeFrom](../../aspose.slides.theme/overridetheme/initcolorschemefrom)(IColorScheme) | Khởi tạo ColorScheme với đối tượng mới để ghi đè ColorScheme của InheritedTheme. |
+| [InitColorSchemeFromInherited](../../aspose.slides.theme/overridetheme/initcolorschemefrominherited)() | Khởi tạo ColorScheme với đối tượng mới để ghi đè ColorScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này với dữ liệu của ColorScheme của InheritedTheme. |
+| [InitFontScheme](../../aspose.slides.theme/overridetheme/initfontscheme)() | Khởi tạo FontScheme với đối tượng mới để ghi đè FontScheme của InheritedTheme. |
+| [InitFontSchemeFrom](../../aspose.slides.theme/overridetheme/initfontschemefrom)(IFontScheme) | Khởi tạo FontScheme với đối tượng mới để ghi đè FontScheme của InheritedTheme. |
+| [InitFontSchemeFromInherited](../../aspose.slides.theme/overridetheme/initfontschemefrominherited)() | Khởi tạo FontScheme với đối tượng mới để ghi đè FontScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này với dữ liệu của FontScheme của InheritedTheme. |
+| [InitFormatScheme](../../aspose.slides.theme/overridetheme/initformatscheme)() | Khởi tạo FormatScheme với đối tượng mới để ghi đè FormatScheme của InheritedTheme. |
+| [InitFormatSchemeFrom](../../aspose.slides.theme/overridetheme/initformatschemefrom)(IFormatScheme) | Khởi tạo FormatScheme với đối tượng mới để ghi đè FormatScheme của InheritedTheme. |
+| [InitFormatSchemeFromInherited](../../aspose.slides.theme/overridetheme/initformatschemefrominherited)() | Khởi tạo FormatScheme với đối tượng mới để ghi đè FormatScheme của InheritedTheme. Và khởi tạo dữ liệu của đối tượng mới này với dữ liệu của FormatScheme của InheritedTheme. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [Theme](../theme)
 * giao diện [IOverrideTheme](../ioverridetheme)

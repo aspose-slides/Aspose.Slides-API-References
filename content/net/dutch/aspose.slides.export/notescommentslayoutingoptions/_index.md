@@ -1,34 +1,34 @@
 ---
 title: NotesCommentsLayoutingOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die het uiterlijk van de lay-out van notities en opmerkingen in een geëxporteerd document regelen.
+description: Biedt opties die de weergave van de opmaak van notities en opmerkingen in het geëxporteerde document regelen.
 type: docs
 weight: 4290
 url: /nl/aspose.slides.export/notescommentslayoutingoptions/
 ---
 ## NotesCommentsLayoutingOptions klasse
 
-Biedt opties die de weergave van de lay-out van notities en opmerkingen in geëxporteerde documenten regelen.
+Biedt opties die de weergave van de opmaak van notities en opmerkingen in het geëxporteerde document regelen.
 
 ```csharp
 public class NotesCommentsLayoutingOptions : ISlidesLayoutOptions
 ```
 
-## Constructoren
+## Constructors
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Standaardconstructor. |
+| [NotesCommentsLayoutingOptions](notescommentslayoutingoptions)() | Default constructor. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Haalt de kleur van het opmerkingengebied op of stelt deze in (Wordt alleen toegepast als opmerkingen aan de rechterkant worden weergegeven). |
-| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Haalt de breedte van het opmerkingen-uitvoergebied op in pixels of stelt deze in (Wordt alleen toegepast als opmerkingen aan de rechterkant worden weergegeven). |
+| [CommentsAreaColor](../../aspose.slides.export/notescommentslayoutingoptions/commentsareacolor) { get; set; } | Haalt de kleur van het opmerkingengebied op of stelt deze in (Geldt alleen als opmerkingen aan de rechterkant worden weergegeven). |
+| [CommentsAreaWidth](../../aspose.slides.export/notescommentslayoutingoptions/commentsareawidth) { get; set; } | Haalt de breedte van het opmerkingenoutputgebied op in pixels of stelt deze in (Geldt alleen als opmerkingen aan de rechterkant worden weergegeven). |
 | [CommentsPosition](../../aspose.slides.export/notescommentslayoutingoptions/commentsposition) { get; set; } | Haalt de positie van de opmerkingen op de pagina op of stelt deze in. |
 | [NotesPosition](../../aspose.slides.export/notescommentslayoutingoptions/notesposition) { get; set; } | Haalt de positie van de notities op de pagina op of stelt deze in. |
-| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Haalt de zichtbaarheid van opmerkingen zonder auteur op of stelt deze in. Indien true worden opmerkingen weergegeven. (Wordt alleen toegepast als opmerkingen worden weergegeven). |
+| [ShowCommentsByNoAuthor](../../aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor) { get; set; } | Haalt de zichtbaarheid van opmerkingen zonder auteur op of stelt deze in. Als true worden opmerkingen weergegeven. (Geldt alleen als opmerkingen worden weergegeven). |
 
 ### Zie ook
 

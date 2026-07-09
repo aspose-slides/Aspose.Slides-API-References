@@ -1,9 +1,9 @@
 ---
 title: IPresentationText
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: A diáról kinyert szöveget képviseli
 type: docs
-weight: 6780
+weight: 6800
 url: /hu/aspose.slides/ipresentationtext/
 ---
 ## IPresentationText interfész
@@ -18,7 +18,7 @@ public interface IPresentationText
 
 | Név | Leírás |
 | --- | --- |
-| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | A [`SlideText`](../islidetext) tömb egy bemutató szövegét tartalmazza. |
+| [SlidesText](../../aspose.slides/ipresentationtext/slidestext) { get; } | A(z) [`SlideText`](../islidetext) tömb tartalmazza a prezentáció szövegét. |
 
 ### Lásd még
 

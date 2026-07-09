@@ -3,12 +3,12 @@ title: GradientStop
 second_title: Aspose.Sildes pro .NET API Reference
 description: Representuje formát gradientu.
 type: docs
-weight: 5000
+weight: 5020
 url: /cs/aspose.slides/gradientstop/
 ---
 ## GradientStop třída
 
-Representuje formát gradientu.
+Reprezentuje formát gradientu.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,15 +18,15 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Vrací barvu gradientového bodu. Pouze ke čtení [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Vrací nebo nastavuje polohu (0..1) gradientového bodu. Čtení/zápis Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Vrací barvu gradientového zastavení. Pouze pro čtení [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Vrací nebo nastavuje pozici (0..1) gradientového zastavení. Čtení/Zápis Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se se zadaným objektem. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává se zadaným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

@@ -8,7 +8,7 @@ url: /ko/aspose.slides.effects/iimagetransformoperationfactory/
 ---
 ## IImageTransformOperationFactory 인터페이스
 
-이미지 효과 인스턴스를 생성할 수 있습니다
+이미지 효과의 인스턴스를 생성할 수 있습니다
 
 ```csharp
 public interface IImageTransformOperationFactory
@@ -38,9 +38,9 @@ public interface IImageTransformOperationFactory
 
 ### 비고
 
-COM 인터페이스용.
+COM 인터페이스용입니다.
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: ColorStringFormat
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili jenis tindakan hyperlink.
 type: docs
-weight: 2540
+weight: 2560
 url: /id/aspose.slides/colorstringformat/
 ---
 ## ColorStringFormat enumerasi

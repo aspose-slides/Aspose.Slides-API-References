@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表一個活頁簿，提供一般用途的 Excel 資料存取。
+description: 表示一個工作簿，可供一般用途存取 Excel 資料。
 type: docs
 weight: 3690
 url: /zh-hant/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook 類別
 
-代表一個活頁簿，可提供一般用於存取 Excel 資料的功能。
+表示一個工作簿，可供一般用途存取 Excel 資料。
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -18,20 +18,20 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | 使用提供的串流初始化類別的新執行個體。 |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | 使用提供的串流初始化此類別的新執行個體。 |
 | [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | 使用指定的檔案路徑初始化新執行個體。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 從指定的工作表中根據索引與 Excel 風格的儲存格名稱（例如 "B2"）取得儲存格。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 從指定的工作表中根據其索引和 Excel 風格的儲存格名稱（例如 "B2"）取得儲存格。 |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | 從指定的工作表中使用 Excel 風格的儲存格名稱（例如 "B2"）取得儲存格。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | 從指定的工作表中根據索引與儲存格座標取得儲存格。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | 從指定的工作表中根據名稱與儲存格座標取得儲存格。 |
-| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | 取得符合指定公式的活頁簿中儲存格集合。 |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | 取得 Excel 活頁簿中指定工作表內所有圖表的索引與名稱之字典。 |
-| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | 取得 Excel 活頁簿中所有工作表的名稱。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | 從指定的工作表中根據其索引和儲存格座標取得儲存格。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | 從指定的工作表中根據其名稱和儲存格座標取得儲存格。 |
+| [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | 從工作簿中取得符合指定公式的儲存格集合。 |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | 取得一個字典，包含 Excel 工作簿中指定工作表的所有圖表的索引和名稱。 |
+| [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | 取得 Excel 工作簿中所有工作表的名稱。 |
 
 ### 另請參閱
 

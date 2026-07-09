@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje format gradientu.
 type: docs
-weight: 5980
+weight: 6000
 url: /pl/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interfejs
@@ -16,7 +16,7 @@ public interface IGradientFormat : IFillParamSource
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu IFillParamSource. Tylko do odczytu [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Zwraca lub ustawia styl gradientu. Odczyt/zapis [`GradientDirection`](../gradientdirection). |

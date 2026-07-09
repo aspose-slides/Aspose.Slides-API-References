@@ -23,7 +23,7 @@ public interface IFormat
 | [Fill](../../aspose.slides.charts/iformat/fill) { get; } | 차트의 채우기 스타일 속성을 반환합니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/iformat/line) { get; } | 차트의 선 스타일 속성을 반환합니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

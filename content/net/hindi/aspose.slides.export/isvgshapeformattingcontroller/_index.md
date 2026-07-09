@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeFormattingController
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: SVG आकार उत्पन्न करने को नियंत्रित करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: SVG आकार निर्माण को नियंत्रित करता है।
 type: docs
 weight: 4130
 url: /hi/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController इंटरफ़ेस
 
-SVG आकार उत्पन्न करने को नियंत्रित करता है।
+Controls SVG shape generation.
 
 ```csharp
 public interface ISvgShapeFormattingController
@@ -18,9 +18,9 @@ public interface ISvgShapeFormattingController
 
 | नाम | विवरण |
 | --- | --- |
-| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | इस फ़ंक्शन को आकार को SVG में रेंडर करने से पहले बुलाया जाता है ताकि उपयोगकर्ता परिणामस्वरूप SVG को नियंत्रित कर सके। |
+| [FormatShape](../../aspose.slides.export/isvgshapeformattingcontroller/formatshape)(ISvgShape, IShape) | इस फ़ंक्शन को SVG में आकार को रेंडर करने से पहले बुलाया जाता है ताकि उपयोगकर्ता परिणामी SVG को नियंत्रित कर सके। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

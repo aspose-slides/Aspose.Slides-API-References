@@ -1,14 +1,14 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: मैथ मैट्रिक्स बनाने की अनुमति देता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: गणित मैट्रिक्स बनाने की अनुमति देता है
 type: docs
 weight: 8350
 url: /hi/aspose.slides.mathtext/imathmatrixfactory/
 ---
 ## IMathMatrixFactory इंटरफ़ेस
 
-मैथ मैट्रिक्स बनाने की अनुमति देता है
+गणित मैट्रिक्स बनाने की अनुमति देता है
 
 ```csharp
 public interface IMathMatrixFactory
@@ -18,13 +18,13 @@ public interface IMathMatrixFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | मैथ मैट्रिक्स बनाता है |
+| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | एक गणित मैट्रिक्स बनाता है |
 
-### टिप्पणी
+### टिप्पणियाँ
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

@@ -3,7 +3,7 @@ title: IMathFunctionFactory
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Consente di creare una funzione matematica
 type: docs
-weight: 8260
+weight: 8280
 url: /it/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory interfaccia
@@ -18,8 +18,8 @@ public interface IMathFunctionFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Crea una funzione matematica |
-| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Crea una funzione matematica |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Crea funzione matematica |
+| [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Crea funzione matematica |
 
 ### Osservazioni
 

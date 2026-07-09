@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes の .NET 用 API リファレンス
-description: リップル スライド遷移効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: リップルスライド遷移効果。
 type: docs
-weight: 10110
+weight: 10130
 url: /ja/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition インターフェイス
 
-リップル スライド遷移効果。
+Ripple slide transition effect.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IMorphTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 基本 ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 | [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | モーフ遷移のタイプ。読み取り/書き込み [`TransitionMorphType`](../transitionmorphtype)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [ITransitionValueBase](../itransitionvaluebase)
 * 名前空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -16,14 +16,14 @@ public interface ICaptions
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 傳回隱藏式字幕的二進位資料。唯讀 Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 傳回隱藏式字幕的全域唯一識別碼 (GUID)。唯讀 Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 傳回以 UTF-8 編碼的隱藏式字幕字串。唯讀 String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | 取得或設定隱藏式字幕的標籤。可讀寫 String. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | 傳回隱藏式字幕的全域唯一識別碼 (GUID)。唯讀 Guid。 |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | 傳回以 UTF-8 編碼的字串形式的隱藏式字幕資料。唯讀 String。 |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | 取得或設定隱藏式字幕的標籤。可讀寫 String。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

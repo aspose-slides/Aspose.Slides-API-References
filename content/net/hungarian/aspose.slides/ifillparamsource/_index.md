@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes .NET API referencia
-description: Segéd kitöltési paraméterek interfész.
+second_title: Aspose.Sildes .NET API-referencia
+description: Segéd kitöltési paraméterek interfésze.
 type: docs
-weight: 5790
+weight: 5810
 url: /hu/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource interfész
 
-Segéd kitöltési paraméterek interfész.
+Segéd kitöltési paraméterek interfésze.
 
 ```csharp
 public interface IFillParamSource

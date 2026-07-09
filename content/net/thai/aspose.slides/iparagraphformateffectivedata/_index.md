@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ออบเจ็กต์แบบไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติกำหนดรูปแบบย่อหน้าที่มีผล
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุตกลงคุณสมบัติการจัดรูปย่อหน้าอย่างมีประสิทธิภาพ.
 type: docs
 weight: 6600
 url: /th/aspose.slides/iparagraphformateffectivedata/
 ---
-## IParagraphFormatEffectiveData อินเทอร์เฟซ
+## IParagraphFormatEffectiveData interface
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติกำหนดรูปแบบย่อหน้าที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุตกลงคุณสมบัติการจัดรูปย่อหน้าอย่างมีประสิทธิภาพ.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,31 +18,31 @@ public interface IParagraphFormatEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | คืนค่าการจัดตำแหน่งข้อความในย่อหน้า. อ่านอย่างเดียว [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | คืนค่ารูปแบบหัวข้อย่อยของย่อหน้า. อ่านอย่างเดียว [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | คืนค่าการจัดแนวข้อความในย่อหน้า. อ่านอย่างเดียว [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | คืนค่าแบบสัญลักษณ์หัวข้อของย่อหน้า. อ่านอย่างเดียว [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
 | [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | คืนค่ารูปแบบส่วนเริ่มต้นของย่อหน้า. อ่านอย่างเดียว [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
-| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | คืนค่าขนาดการจัดแท็บเริ่มต้น. อ่านอย่างเดียว Single. |
+| [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | คืนค่าขนาดการตั้งแท็บเริ่มต้น. อ่านอย่างเดียว Single. |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | คืนค่าความลึกของย่อหน้า. อ่านอย่างเดียว Int16. |
 | [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | กำหนดว่าการตัดบรรทัดแบบเอเชียตะวันออกถูกใช้ในย่อหน้าหรือไม่. อ่านอย่างเดียว Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | คืนค่าการจัดตำแหน่งฟอนต์ในย่อหน้า. อ่านอย่างเดียว [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | กำหนดว่าการใช้เครื่องหมายวรรคตอนแบบห้อยถูกใช้ในย่อหน้าหรือไม่. อ่านอย่างเดียว Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | คืนค่า First Line Indent/Hanging Indent ของย่อหน้า. Hanging Indent สามารถกำหนดด้วยค่าลบ. อ่านอย่างเดียว Single. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | คืนค่าการจัดแนวฟอนต์ในย่อหน้า. อ่านอย่างเดียว [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | กำหนดว่าการใช้เครื่องหมายอากาศห้อยถูกใช้ในย่อหน้าหรือไม่. อ่านอย่างเดียว Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | คืนค่าการเยื้องบรรทัดแรก/เยื้องห้อยของย่อหน้า. การเยื้องห้อยสามารถกำหนดด้วยค่าติดลบได้. อ่านอย่างเดียว Single. |
 | [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | กำหนดว่าการตัดบรรทัดแบบละตินถูกใช้ในย่อหน้าหรือไม่. อ่านอย่างเดียว Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | คืนค่าระยะขอบซ้ายในย่อหน้า. อ่านอย่างเดียว Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | คืนค่าระยะขอบขวาในย่อหน้า. อ่านอย่างเดียว Single. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | คืนค่าขอบซ้ายในย่อหน้า. อ่านอย่างเดียว Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | คืนค่าขอบขวาในย่อหน้า. อ่านอย่างเดียว Single. |
 | [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | กำหนดว่าการเขียนจากขวาไปซ้ายถูกใช้ในย่อหน้าหรือไม่. อ่านอย่างเดียว Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | คืนค่าปริมาณพื้นที่หลังบรรทัดสุดท้ายในย่อหน้า. อ่านอย่างเดียว Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | คืนค่าปริมาณพื้นที่ก่อนบรรทัดแรกในย่อหน้า. อ่านอย่างเดียว Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | คืนค่าปริมาณพื้นที่ระหว่างบรรทัดฐานในย่อหน้า. อ่านอย่างเดียว Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | คืนค่าการจัดแท็บของย่อหน้า. อ่านอย่างเดียว [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | คืนค่าปริมาณช่องว่างหลังบรรทัดสุดท้ายในย่อหน้า. อ่านอย่างเดียว Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | คืนค่าปริมาณช่องว่างก่อนบรรทัดแรกในย่อหน้า. อ่านอย่างเดียว Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | คืนค่าปริมาณช่องว่างระหว่างเส้นฐานในย่อหน้า. อ่านอย่างเดียว Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | คืนค่าการตั้งแท็บของย่อหน้า. อ่านอย่างเดียว [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IParagraphFormat`](../iparagraphformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลพร้อมกับการสืบทอดที่นำไปใช้
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`IParagraphFormat`](../iparagraphformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพพร้อมการสืบทอดที่ใช้.
 
 ### ดูเพิ่มเติม
 
-* เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,9 +1,9 @@
 ---
 title: VbaModule
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje moduł, który znajduje się w projekcie VBA.
+second_title: Aspose.Sildes dla .NET – odwołanie API
+description: Reprezentuje moduł zawarty w projekcie VBA.
 type: docs
-weight: 11610
+weight: 11630
 url: /pl/aspose.slides.vba/vbamodule/
 ---
 ## VbaModule klasa
@@ -19,7 +19,7 @@ public sealed class VbaModule : IVbaModule
 | Nazwa | Opis |
 | --- | --- |
 | [Name](../../aspose.slides.vba/vbamodule/name) { get; } | Pobiera nazwę modułu. Tylko do odczytu String. |
-| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Zwraca lub ustawia kod źródłowy modułu. Odczyt/zapis String. |
+| [SourceCode](../../aspose.slides.vba/vbamodule/sourcecode) { get; set; } | Zwraca lub ustawia kod źródłowy modułu. Do odczytu i zapisu String. |
 
 ### Zobacz także
 

@@ -1,26 +1,26 @@
 ---
 title: PptUnsupportedFormatException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Uitzondering die wordt gegooid wanneer het bestandsformaat van de presentatie niet wordt ondersteund.
+description: Uitzondering die wordt gegooid wanneer het presentatiebestandformaat niet wordt ondersteund.
 type: docs
 weight: 9540
 url: /nl/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException klasse
 
-Uitzondering die wordt gegooid wanneer het bestandsformaat van de presentatie niet wordt ondersteund.
+Uitzondering die wordt gegooid wanneer het presentatiebestandformaat niet wordt ondersteund.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Standaardconstructor. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Constructor die een bericht aan deze uitzondering kan toevoegen. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Constructor voor een uitzondering die een bericht en een Exception bevat. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Constructor voor een uitzondering met een bericht en een ingebedde uitzondering. |
 
 ### Zie ook
 

@@ -1,6 +1,6 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: सभी स्लाइड प्रकारों के लिए सामान्य डेटा का प्रतिनिधित्व करता है।
 type: docs
 weight: 5340
@@ -8,7 +8,7 @@ url: /hi/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide इंटरफ़ेस
 
-सभी स्लाइड प्रकारों के लिए सामान्य डेटा को दर्शाता है।
+सभी स्लाइड प्रकारों के लिए सामान्य डेटा का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,25 +18,25 @@ public interface IBaseSlide : IThemeable
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | बेस IThemeable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। Read-only [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। Read-only [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों के संग्रह को लौटाता है। Read-only [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | स्लाइड के कस्टम डेटा को लौटाता है। Read-only [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक तक आसान पहुंच प्रदान करता है। Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | स्लाइड का नाम लौटाता या सेट करता है। Read/write String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | स्लाइड के आकारों को लौटाता है। Read-only [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | निर्दिष्ट करता है कि मास्टर स्लाइड पर आकार स्लाइड्स पर दिखाए जाने चाहिए या नहीं। मास्टर स्लाइड के लिए यह प्रॉपर्टी हमेशा `false` लौटाता है। Read/write Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | स्लाइड का ID लौटाता है। Read-only UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | TransitionEx ऑब्जेक्ट लौटाता है जिसमें निर्दिष्ट स्लाइड स्लाइड शो के दौरान कैसे आगे बढ़ती है, की जानकारी होती है। Read-only [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | एनिमेशन टाइमलाइन ऑब्जेक्ट लौटाता है। Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | बेस IThemeable इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IThemeable`](../../aspose.slides.theme/ithemeable)। |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | स्लाइड की पृष्ठभूमि लौटाता है। केवल पढ़ने योग्य [`IBackground`](../ibackground)। |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | स्लाइड पर ActiveX नियंत्रणों का संग्रह लौटाता है। केवल पढ़ने योग्य [`IControlCollection`](../icontrolcollection)। |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | स्लाइड का कस्टम डेटा लौटाता है। केवल पढ़ने योग्य [`ICustomData`](../icustomdata)। |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | समाहित हाइपरलिंक्स तक आसान पहुँच प्रदान करता है। केवल पढ़ने योग्य [`IHyperlinkQueries`](../ihyperlinkqueries)। |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | स्लाइड का नाम लौटाता या सेट करता है। पढ़ने/लिखने योग्य String। |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | स्लाइड के आकार लौटाता है। केवल पढ़ने योग्य [`IShapeCollection`](../ishapecollection)। |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | निर्दिष्ट करता है कि मास्टर स्लाइड पर आकार स्लाइडों पर दिखाए जाएँ या नहीं। मास्टर स्लाइड के लिए यह प्रॉपर्टी हमेशा `false` लौटाती है। पढ़ने/लिखने योग्य Boolean। |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | स्लाइड का ID लौटाता है। केवल पढ़ने योग्य UInt32। |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | TransitionEx ऑब्जेक्ट लौटाता है जिसमें निर्दिष्ट स्लाइड के स्लाइड शो के दौरान आगे बढ़ने की जानकारी होती है। केवल पढ़ने योग्य [`ISlideShowTransition`](../islideshowtransition)। |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | एनिमेशन टाइमलाइन ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IAnimationTimeLine`](../ianimationtimeline)। |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | निर्धारित करता है कि दो IBaseSlide उदाहरण समान हैं या नहीं। लौटाया गया मान स्लाइड की संरचना और स्थैतिक सामग्री के आधार पर गणना किया जाता है। दो स्लाइडें समान होती हैं यदि सभी आकार, शैलियां, टेक्स्ट, एनीमेशन और अन्य सेटिंग्स आदि समान हों। तुलना में अद्वितीय पहचानकर्ता मान जैसे SlideId और गतिशील सामग्री जैसे Date Placeholder में वर्तमान तिथि मान को ध्यान में नहीं रखा जाता। |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक पाठ वाले आकार की पहली घटना को खोजता है। |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | सभी स्वीकार्य आकारों में सभी पैराग्राफ़ में समान स्वरूपण वाले रन को जोड़ता है। |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | निर्धारित करता है कि दो IBaseSlide इंस्टैंसेज़ समान हैं या नहीं। लौटाया गया मान स्लाइड की संरचना और स्थैतिक सामग्री के आधार पर गणना किया जाता है। दो स्लाइड्स समान होती हैं यदि सभी आकार, शैलियाँ, पाठ, एनिमेशन और अन्य सेटिंग्स आदि समान हों। तुलना में यूनिक पहचानकर्ता मानों को ध्यान में नहीं रखा जाता, जैसे SlideId, और डायनेमिक सामग्री, जैसे डेट प्लेसहोल्डर में वर्तमान तिथि मान। |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | निर्दिष्ट वैकल्पिक टेक्स्ट वाले आकार की पहली उपस्थिति खोजता है। |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | सभी स्वीकृत आकारों में सभी पैराग्राफ़ में समान फॉर्मेटिंग वाले रन को मिलाता है। |
 
 ### देखें भी
 

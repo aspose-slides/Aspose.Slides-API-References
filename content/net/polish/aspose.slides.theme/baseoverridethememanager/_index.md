@@ -1,9 +1,9 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Klasa bazowa dla klas, które zapewniają dostęp do różnych typów nadpisanych motywów.
+second_title: Aspose.Sildes dla .NET – Referencja API
+description: Klasa bazowa dla klas zapewniających dostęp do różnych typów nadpisanych motywów.
 type: docs
-weight: 11020
+weight: 11040
 url: /pl/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager klasa
@@ -18,7 +18,7 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). Boolean tylko do odczytu. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
@@ -28,7 +28,7 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Stosuje dodatkowy schemat kolorów do slajdu. |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Zwraca obiekt motywu. |
 
-### Zobacz także
+### Patrz także
 
 * klasa [BaseThemeManager](../basethememanager)
 * interfejs [IOverrideThemeManager](../ioverridethememanager)

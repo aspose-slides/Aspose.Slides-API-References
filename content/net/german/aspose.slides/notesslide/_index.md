@@ -1,13 +1,12 @@
 ---
 title: NotesSlide
-second_title: Aspose.Slides für .NET API Referenz
+second_title: Aspose.Slides für .NET API-Referenz
 description: Stellt eine Notizfolie in einer Präsentation dar.
 type: docs
-weight: 8870
+weight: 9140
 url: /de/aspose.slides/notesslide/
 ---
-
-## NotesSlide-Klasse
+## NotesSlide Klasse
 
 Stellt eine Notizfolie in einer Präsentation dar.
 
@@ -19,37 +18,37 @@ public class NotesSlide : BaseSlide, INotesSlide
 
 | Name | Beschreibung |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Nur-lesbar [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur-lesbar [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Nur-lesbar [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Notizfolie zurück. Nur-lesbar [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Bietet einfachen Zugriff auf enthaltene Hyperlinks. Nur-lesbar [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder setzt ihn. Lese-/Schreibzeichenfolge. |
-| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Gibt ein TextFrame mit dem Notiztext zurück, falls vorhanden. Nur-lesbar [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Gibt die übergeordnete Folie zurück. Nur-lesbar [`ISlide`](../islide). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Gibt das IPresentation-Interface zurück. Nur-lesbar [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Nur-lesbar [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie auf Folien angezeigt werden sollen oder nicht. Lese-/Schreibbooleans. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Nur-lesbar UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Übergangsobjekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Diashow voranschreitet. Nur-lesbar [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Gibt den übergeordneten Themenmanager zurück. Nur-lesbar [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animations-Zeitlinienobjekt zurück. Nur-lesbar [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Gibt den Hintergrund der Folie zurück. Nur lesbar [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Gibt die Sammlung von ActiveX-Steuerelementen auf einer Folie zurück. Nur lesbar [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Gibt die benutzerdefinierten Daten der Folie zurück. Nur lesbar [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/notesslide/headerfootermanager) { get; } | Gibt den HeaderFooter-Manager der Notizfolie zurück. Nur lesbar [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Stellt einfachen Zugriff auf enthaltene Hyperlinks bereit. Nur lesbar [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Gibt den Namen einer Folie zurück oder setzt ihn. Lesen/Schreiben String. |
+| [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | Gibt ein TextFrame mit dem Notiztext zurück, falls vorhanden. Nur lesbar [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | Gibt die übergeordnete Folie zurück. Nur lesbar [`ISlide`](../islide). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Gibt die IPresentation-Schnittstelle zurück. Nur lesbar [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Gibt die Formen einer Folie zurück. Nur lesbar [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | Gibt an, ob Formen auf der Masterfolie in den Folien angezeigt werden sollen oder nicht. Lesen/Schreiben Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Gibt die ID einer Folie zurück. Nur lesbar UInt32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Gibt das Transition-Objekt zurück, das Informationen darüber enthält, wie die angegebene Folie während einer Bildschirmpräsentation fortschreitet. Nur lesbar [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | Gibt den überschreibenden Themenmanager zurück. Nur lesbar [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Gibt das Animationszeitachse-Objekt zurück. Nur lesbar [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Gibt ein effektives Thema für diese Folie zurück. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur der Folie und dem statischen Inhalt berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt keine eindeutigen Identifikatorwerte, z. B. SlideId und dynamische Inhalte, z. B. den aktuellen Datumswert im Datumsplatzhalter. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Findet die erste Vorkommen einer Form mit dem angegebenen Alternativtext. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Verbindet Absätze mit derselben Formatierung in allen akzeptablen Formen. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Verbindet Absätze mit derselben Formatierung in allen akzeptablen Formen. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Bestimmt, ob die beiden IBaseSlide-Instanzen gleich sind. Der Rückgabewert wird basierend auf der Struktur und dem statischen Inhalt der Folie berechnet. Zwei Folien sind gleich, wenn alle Formen, Stile, Texte, Animationen und andere Einstellungen usw. gleich sind. Der Vergleich berücksichtigt nicht eindeutige Identifikatorwerte, z. B. SlideId, und dynamische Inhalte, z. B. den aktuellen Datumswert im Datums-Platzhalter. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Findet das erste Vorkommen einer Form mit dem angegebenen Alternativtext. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Verbindet Lauftexte mit gleicher Formatierung in allen Absätzen aller zulässigen Formen. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Verbindet Lauftexte mit gleicher Formatierung in allen Absätzen in allen zulässigen Formen. |
 
 ### Siehe auch
 
-* Klasse [BaseSlide](../baseslide)
-* Schnittstelle [INotesSlide](../inotesslide)
-* Namespace [Aspose.Slides](../../aspose.slides)
-* Assembly [Aspose.Slides](../../)
+* Klasse [BaseSlide](../baseslide)
+* Schnittstelle [INotesSlide](../inotesslide)
+* Namensraum [Aspose.Slides](../../aspose.slides)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

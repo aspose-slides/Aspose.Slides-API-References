@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드 배경 채우기 원본을 정의합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드 배경 채우기 소스를 정의합니다.
 type: docs
 weight: 940
 url: /ko/aspose.slides/backgroundtype/
 ---
 ## BackgroundType 열거형
 
-슬라이드 배경 채우기 원본을 정의합니다.
+슬라이드 배경 채우기 소스를 정의합니다.
 
 ```csharp
 public enum BackgroundType : sbyte

@@ -1,14 +1,14 @@
 ---
 title: MathBorderBoxFactory
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式のボーダーボックスを作成することができます
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 数式境界ボックスを作成できます
 type: docs
-weight: 8600
+weight: 8620
 url: /ja/aspose.slides.mathtext/mathborderboxfactory/
 ---
 ## MathBorderBoxFactory クラス
 
-数式のボーダーボックスを作成することができます
+数式境界ボックスを作成できます。
 
 ```csharp
 public class MathBorderBoxFactory : IMathBorderBoxFactory
@@ -18,14 +18,14 @@ public class MathBorderBoxFactory : IMathBorderBoxFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathBorderBoxFactory](mathborderboxfactory)() | デフォルトコンストラクタです。 |
+| [MathBorderBoxFactory](mathborderboxfactory)() | 既定のコンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 要素に適用して数式のボーダーボックスを作成します |
-| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 要素に適用して数式のボーダーボックスを作成します |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox)(IMathElement) | 要素に適用して数式境界ボックスを作成します |
+| [CreateMathBorderBox](../../aspose.slides.mathtext/mathborderboxfactory/createmathborderbox#createmathborderbox_1)(IMathElement, bool, bool, bool, bool, bool, bool, bool, bool) | 要素に適用して数式境界ボックスを作成します |
 
 ### 備考
 

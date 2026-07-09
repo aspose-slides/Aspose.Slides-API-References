@@ -1,20 +1,20 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes .NET API referencia
-description: HTML-fájl sablonját reprezentálja.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: HTML-fájl sablont képviseli.
 type: docs
-weight: 3920
+weight: 3940
 url: /hu/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter interfész
 
-A HTML-fájl sablonját reprezentálja.
+HTML-fájl sablonját képviseli.
 
 ```csharp
 public interface IHtmlFormatter
 ```
 
-### Lásd még
+### További hivatkozások
 
 * névtér [Aspose.Slides.Export](../../aspose.slides.export)
 * összeállítás [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IPropertyEffect
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงพฤติกรรมเอฟเฟกต์คุณสมบัติ.
+description: แสดงพฤติกรรมของเอฟเฟกต์คุณสมบัติ.
 type: docs
 weight: 560
 url: /th/aspose.slides.animation/ipropertyeffect/
 ---
 ## IPropertyEffect อินเทอร์เฟซ
 
-แสดงพฤติกรรมเอฟเฟกต์คุณสมบัติ.
+แสดงพฤติกรรมของเอฟเฟกต์คุณสมบัติ
 
 ```csharp
 public interface IPropertyEffect : IBehavior
@@ -16,14 +16,14 @@ public interface IPropertyEffect : IBehavior
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBehavior พื้นฐานได้. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | ระบุค่าการเยื้องเชิงสัมพันธ์สำหรับการเคลื่อนไหวโดยอ้างอิงตำแหน่งก่อนเริ่มการเคลื่อนไหว. อ่าน/เขียน String. |
-| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | ระบุโหมดการประสานสำหรับการเคลื่อนไหว อ่าน/เขียน [`PropertyCalcModeType`](../propertycalcmodetype). |
-| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | ระบุค่าตั้งต้นของการเคลื่อนไหว. อ่าน/เขียน String. |
-| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | ระบุจุดของการเคลื่อนไหว. อ่าน/เขียน [`IPointCollection`](../ipointcollection). |
-| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | ระบุค่าปลายสำหรับการเคลื่อนไหว. อ่าน/เขียน String. |
+| [AsIBehavior](../../aspose.slides.animation/ipropertyeffect/asibehavior) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBehavior พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/ipropertyeffect/by) { get; set; } | ระบุค่าการเลื่อนตำแหน่งสัมพัทธ์สำหรับแอนิเมชันโดยอิงตำแหน่งก่อนเริ่มแอนิเมชัน. อ่าน/เขียน String. |
+| [CalcMode](../../aspose.slides.animation/ipropertyeffect/calcmode) { get; set; } | ระบุโหมดการแทรกค่าการเคลื่อนที่สำหรับแอนิเมชัน อ่าน/เขียน [`PropertyCalcModeType`](../propertycalcmodetype). |
+| [From](../../aspose.slides.animation/ipropertyeffect/from) { get; set; } | ระบุค่าที่เริ่มต้นของแอนิเมชัน. อ่าน/เขียน String. |
+| [Points](../../aspose.slides.animation/ipropertyeffect/points) { get; set; } | ระบุจุดของแอนิเมชัน. อ่าน/เขียน [`IPointCollection`](../ipointcollection). |
+| [To](../../aspose.slides.animation/ipropertyeffect/to) { get; set; } | ระบุค่าที่สิ้นสุดของแอนิเมชัน. อ่าน/เขียน String. |
 | [ValueType](../../aspose.slides.animation/ipropertyeffect/valuetype) { get; set; } | ระบุประเภทของค่าคุณสมบัติ. อ่าน/เขียน [`PropertyValueType`](../propertyvaluetype). |
 
 ### ดูเพิ่มเติม

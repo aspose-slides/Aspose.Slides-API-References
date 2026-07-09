@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes για την αναφορά API του .NET
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αντιπροσωπεύει μια συλλογή σχολίων ενός συγγραφέα.
 type: docs
-weight: 2630
+weight: 2650
 url: /el/aspose.slides/commentcollection/
 ---
-## CommentCollection κλάση
+## Κλάση CommentCollection
 
-Αντιπροσωπεύει μια συλλογή σχολίων ενός συγγραφέα.
+Αναπαριστά μια συλλογή σχολίων ενός συγγραφέα.
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,25 +18,25 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | Λαμβάνει τον αριθμό των στοιχείων που πραγματικά περιέχονται στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | Λαμβάνει το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`Comment`](../comment). |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | Επιστρέφει τον αριθμό των στοιχείων που περιέχονται στην συλλογή. Μόνο-ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Επιστρέφει τιμή που δείχνει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο-ανάγνωση Boolean. |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | Επιστρέφει το στοιχείο στον καθορισμένο δείκτη. Μόνο-ανάγνωση [`Comment`](../comment). |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο-ανάγνωση Object. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Προσθέτει νέο σχόλιο στο τέλος μιας συλλογής. |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Προσθέτει νέο μοντέρνο σχόλιο στο τέλος μιας συλλογής. |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Προσθέτει νέο σύγχρονο σχόλιο στο τέλος μιας συλλογής. |
 | [Clear](../../aspose.slides/commentcollection/clear)() | Αφαιρεί όλα τα σχόλια από μια συλλογή. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Εντοπίζει ένα σχόλιο στη συλλογή με βάση τη θέση. |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Βρίσκει ένα σχόλιο στη συλλογή με βάση τον δείκτη. |
 | [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Εισάγει νέο σχόλιο σε μια συλλογή στη συγκεκριμένη θέση. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Εισάγει νέο μοντέρνο σχόλιο σε μια συλλογή στη συγκεκριμένη θέση. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Εισάγει νέο σχόλιο σε μια συλλογή στον καθορισμένο δείκτη. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Εισάγει νέο σύγχρονο σχόλιο σε μια συλλογή στον καθορισμένο δείκτη. |
 | [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Αφαιρεί την πρώτη εμφάνιση του καθορισμένου σχολίου σε μια συλλογή. |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Αφαιρεί το στοιχείο στη συγκεκριμένη θέση σε μια συλλογή. |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Αφαιρεί το στοιχείο στον καθορισμένο δείκτη σε μια συλλογή. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Δημιουργεί και επιστρέφει έναν πίνακα με όλα τα σχόλια. |
 | [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Δημιουργεί και επιστρέφει έναν πίνακα με όλα τα σχόλια από το καθορισμένο εύρος. |
 
@@ -45,7 +45,7 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 * κλάση [DomObject&lt;TParent&gt;](../domobject-1)
 * κλάση [CommentAuthor](../commentauthor)
 * διασύνδεση [ICommentCollection](../icommentcollection)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότηση [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

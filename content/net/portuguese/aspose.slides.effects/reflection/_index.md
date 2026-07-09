@@ -1,14 +1,14 @@
 ---
 title: Reflection
 second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um efeito de Reflexão.
+description: Representa um efeito de Reflection.
 type: docs
-weight: 3620
+weight: 3640
 url: /pt/aspose.slides.effects/reflection/
 ---
-## Reflection classe
+## Classe Reflection
 
-Representa um efeito de Reflexão.
+Representa um efeito de Reflection.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -16,35 +16,35 @@ public sealed class Reflection : IReflection
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Raio de desfoque. Leitura/escrita Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direção da reflexão. Leitura/escrita Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distância da reflexão. Leitura/escrita Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Especifica a posição final (ao longo da rampa de gradiente alfa) do valor alfa final (porcentagem). Leitura/escrita Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opacidade final da reflexão. (porcentagem). Leitura/escrita Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Especifica a direção para deslocar a reflexão. (ângulo). Leitura/escrita Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Alinhamento do retângulo. Leitura/escrita [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Especifica se a reflexão deve girar com a forma quando a forma for rotacionada. Leitura/escrita Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Especifica o fator de escala horizontal, escala negativa causa inversão. (porcentagem) Leitura/escrita Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Especifica o fator de escala vertical, escala negativa causa inversão. (porcentagem) Leitura/escrita Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Especifica o ângulo de inclinação horizontal. Leitura/escrita Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Especifica o ângulo de inclinação vertical. Leitura/escrita Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Especifica a posição inicial (ao longo da rampa de gradiente alfa) do valor alfa inicial (porcentagem). Leitura/escrita Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Opacidade inicial da reflexão. (porcentagem). Leitura/escrita Single. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Raio de desfoque. Leitura/Gravação Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direção da reflexão. Leitura/Gravação Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distância da reflexão. Leitura/Gravação Double. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Especifica a posição final (ao longo da rampa de gradiente alfa) do valor alfa final (porcentagens). Leitura/Gravação Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opacidade final da reflexão. (porcentagens). Leitura/Gravação Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Especifica a direção para deslocar a reflexão. (ângulo). Leitura/Gravação Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Alinhamento do retângulo. Leitura/Gravação [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Especifica se a reflexão deve girar com a forma quando a forma for girada. Leitura/Gravação Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Especifica o fator de escala horizontal; escala negativa causa inversão. (porcentagens) Leitura/Gravação Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Especifica o fator de escala vertical; escala negativa causa inversão. (porcentagens) Leitura/Gravação Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Especifica o ângulo de inclinação horizontal. Leitura/Gravação Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Especifica o ângulo de inclinação vertical. Leitura/Gravação Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Especifica a posição inicial (ao longo da rampa de gradiente alfa) do valor alfa inicial (porcentagens). Leitura/Gravação Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Opacidade inicial da reflexão. (porcentagens). Leitura/Gravação Single. |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Determina se o [`Reflection`](../reflection) especificado é igual ao [`Reflection`](../reflection) atual. |
 | [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Obtém os dados efetivos do efeito Reflection com a herança aplicada. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Atua como função hash para um tipo específico. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Funciona como uma função hash para um tipo específico. |
 
-### Ver Também
+### Veja Também
 
 * interface [IReflection](../ireflection)
-* namespace [Aspose.Slides.Effects](../../aspose.slides.effects)
+* espaço de nomes [Aspose.Slides.Effects](../../aspose.slides.effects)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

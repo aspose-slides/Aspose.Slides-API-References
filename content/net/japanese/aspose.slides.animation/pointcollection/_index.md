@@ -3,7 +3,7 @@ title: PointCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションポイントのコレクションを表します。
 type: docs
-weight: 710
+weight: 730
 url: /ja/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection クラス
@@ -14,17 +14,17 @@ url: /ja/aspose.slides.animation/pointcollection/
 public class PointCollection : IPointCollection
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [PointCollection](pointcollection)() | デフォルト コンストラクタです。 |
+| [PointCollection](pointcollection)() | 既定のコンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | コレクション内のポイント数を返します。読み取り専用 Int32。 |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | コレクション内のポイントの数を返します。読み取り専用 Int32。 |
 | [Item](../../aspose.slides.animation/pointcollection/item) { get; } | 指定されたインデックスのポイントを返します。 |
 
 ## メソッド

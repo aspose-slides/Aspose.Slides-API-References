@@ -1,14 +1,14 @@
 ---
 title: LayoutPlaceholderManager
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa o gerenciador que permite adicionar marcadores de posição ao slide de layout.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o gerenciador que permite adicionar espaços reservados ao slide de layout.
 type: docs
-weight: 7610
+weight: 7630
 url: /pt/aspose.slides/layoutplaceholdermanager/
 ---
 ## LayoutPlaceholderManager classe
 
-Representa o gerenciador que permite adicionar marcadores de posição ao slide de layout.
+Representa o gerenciador que permite adicionar espaços reservados ao slide de layout.
 
 ```csharp
 public class LayoutPlaceholderManager : ILayoutPlaceholderManager
@@ -18,21 +18,21 @@ public class LayoutPlaceholderManager : ILayoutPlaceholderManager
 
 | Nome | Descrição |
 | --- | --- |
-| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter um gráfico. |
-| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo, como uma imagem, tabela, mídia ou texto. |
-| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter um objeto de mídia. |
-| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter uma imagem online. |
-| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter uma imagem. |
-| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter um diagrama SmartArt. |
-| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter uma tabela. |
-| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo de texto. |
-| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo, como uma imagem, tabela, mídia ou texto em uma direção vertical. |
-| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo de texto em uma direção vertical. |
+| [AddChartPlaceholder](../../aspose.slides/layoutplaceholdermanager/addchartplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter um gráfico. |
+| [AddContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addcontentplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter conteúdo, como uma imagem, tabela, mídia ou texto. |
+| [AddMediaPlaceholder](../../aspose.slides/layoutplaceholdermanager/addmediaplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter um objeto de mídia. |
+| [AddOnlineImagePlaceholder](../../aspose.slides/layoutplaceholdermanager/addonlineimageplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter uma imagem online. |
+| [AddPicturePlaceholder](../../aspose.slides/layoutplaceholdermanager/addpictureplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter uma imagem. |
+| [AddSmartArtPlaceholder](../../aspose.slides/layoutplaceholdermanager/addsmartartplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter um diagrama SmartArt. |
+| [AddTablePlaceholder](../../aspose.slides/layoutplaceholdermanager/addtableplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter uma tabela. |
+| [AddTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addtextplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter conteúdo de texto. |
+| [AddVerticalContentPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter conteúdo, como uma imagem, tabela, mídia ou texto em direção vertical. |
+| [AddVerticalTextPlaceholder](../../aspose.slides/layoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Adiciona uma nova forma de espaço reservado ao slide de layout para conter conteúdo de texto em direção vertical. |
 
-### Veja Também
+### Ver também
 
 * interface [ILayoutPlaceholderManager](../ilayoutplaceholdermanager)
-* namespace [Aspose.Slides](../../aspose.slides)
+* espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

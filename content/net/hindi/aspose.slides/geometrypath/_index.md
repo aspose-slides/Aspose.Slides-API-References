@@ -1,14 +1,14 @@
 ---
 title: GeometryPath
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: GeometryShape का ज्यामितीय पथ प्रतिनिधित्व करता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: GeometryShape का ज्यामितीय पथ दर्शाता है
 type: docs
 weight: 4960
 url: /hi/aspose.slides/geometrypath/
 ---
-## GeometryPath वर्ग
+## GeometryPath क्लास
 
-GeometryShape का ज्यामितीय पथ प्रतिनिधित्व करता है
+GeometryShape का ज्यामितीय पथ दर्शाता है
 
 ```csharp
 public sealed class GeometryPath : IGeometryPath
@@ -24,36 +24,36 @@ public sealed class GeometryPath : IGeometryPath
 
 | नाम | विवरण |
 | --- | --- |
-| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | भरण मोड सेट करता है |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | GeometryShape का ज्यामितीय पथ को पथ खंडों की ऐरे के रूप में लौटाता है। |
+| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | फ़िल मोड सेट करता है |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | GeometryShape का ज्यामितीय पथ को पाथ सेगमेंट के एरे के रूप में लौटाता है। |
 | [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | स्ट्रोक उपस्थिति सेट करता है |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | निर्दिष्ट चाप को पथ में जोड़ता है। |
+| [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | निर्दिष्ट आर्क को पथ में जोड़ता है। |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | इस पथ की वर्तमान आकृति को बंद करता है |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | पथ के अंत में क्यूबिक बीज़ियर वक्र जोड़ता है। |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | पथ में निर्दिष्ट स्थान पर क्यूबिक बीज़ियर वक्र जोड़ता है। |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | पथ के अंत में क्यूबिक बीज़ियर वक्र जोड़ता है। |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | पथ में निर्दिष्ट स्थान पर क्यूबिक बीज़ियर वक्र जोड़ता है। |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | पथ के अंत में रेखा जोड़ता है। |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | पथ के अंत में रेखा जोड़ता है। |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | पथ में निर्दिष्ट स्थान पर रेखा जोड़ता है। |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | पथ में निर्दिष्ट स्थान पर रेखा जोड़ता है। |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | पथ के अंत में क्यूबिक बीज़ीयर कर्व जोड़ता है |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | पथ के निर्दिष्ट स्थान पर क्यूबिक बीज़ीयर कर्व जोड़ता है |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | पथ के अंत में क्यूबिक बीज़ीयर कर्व जोड़ता है |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | पथ के निर्दिष्ट स्थान पर क्यूबिक बीज़ीयर कर्व जोड़ता है |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | पथ के अंत में रेखा जोड़ता है |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | पथ के अंत में रेखा जोड़ता है |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | पथ के निर्दिष्ट स्थान पर रेखा जोड़ता है |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | पथ के निर्दिष्ट स्थान पर रेखा जोड़ता है |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | अगले बिंदु की स्थिति सेट करता है। |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | अगले बिंदु की स्थिति सेट करता है। |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | पथ के अंत में द्विघात बीज़ियर वक्र जोड़ता है। |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | पथ में निर्दिष्ट स्थान पर द्विघात बीज़ियर वक्र जोड़ता है। |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | पथ के अंत में द्विघात बीज़ियर वक्र जोड़ता है। |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | पथ में निर्दिष्ट स्थान पर द्विघात बीज़ियर वक्र जोड़ता है। |
-| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ज्यामितीय पथ के निर्दिष्ट अनुक्रमांक पर खंड को हटाता है। |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | पथ के अंत में क्वाड्रेटिक बीज़ीयर कर्व जोड़ता है |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | पथ के निर्दिष्ट स्थान पर क्वाड्रेटिक बीज़ीयर कर्व जोड़ता है |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | पथ के अंत में क्वाड्रेटिक बीज़ीयर कर्व जोड़ता है |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | पथ के निर्दिष्ट स्थान पर क्वाड्रेटिक बीज़ीयर कर्व जोड़ता है |
+| [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | ज्यामितीय पथ के निर्दिष्ट इंडेक्स पर सेगमेंट हटाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IGeometryPath](../igeometrypath)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
-* एसेंबली [Aspose.Slides](../../)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

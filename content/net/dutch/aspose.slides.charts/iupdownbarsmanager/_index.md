@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Biedt toegang tot omhoog/omlaag-balken van een lijn- of aandelengrafiek.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Biedt toegang tot up/down-balken van een lijn- of aandelen-grafiek.
 type: docs
 weight: 2260
 url: /nl/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager interface
 
-Biedt toegang tot omhoog/omlaag-balken van een Lijn- of Aandelengrafiek.
+Biedt toegang tot up/down-balken van een Lijn- of Aandelen-grafiek.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -16,12 +16,12 @@ public interface IUpDownBarsManager
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Retourneert het formaat van de neerwaartse balken. Alleen-lezen [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retourneert of stelt de tussenruimtebreedte in. Lezen/Schrijven Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Bepaalt of de grafiek omhoog/omlaag-balken heeft. Lezen/Schrijven Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Retourneert het formaat van de omhoog-balken. Alleen-lezen [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Retourneert het formaat van de down-balken. Alleen-lezen [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retourneert of stelt de gap-breedte in. Lezen/Schrijven Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Bepaalt of de grafiek up/down-balken heeft. Lezen/Schrijven Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Retourneert het formaat van de up-balken. Alleen-lezen [`IFormat`](../iformat). |
 
 ### Zie ook
 

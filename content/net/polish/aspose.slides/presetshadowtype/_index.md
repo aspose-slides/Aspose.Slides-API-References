@@ -1,14 +1,14 @@
 ---
 title: PresetShadowType
-second_title: Aspose.Sildes dla referencji API .NET
-description: Reprezentuje ustawienie wstępne dla efektu cienia.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje zestaw ustawień dla efektu cienia.
 type: docs
-weight: 9650
+weight: 9670
 url: /pl/aspose.slides/presetshadowtype/
 ---
-## Typ wyliczeniowy PresetShadowType
+## Wyliczenie PresetShadowType
 
-Reprezentuje ustawienie wstępne dla efektu cienia.
+Reprezentuje zestaw ustawień dla efektu cienia.
 
 ```csharp
 public enum PresetShadowType
@@ -18,26 +18,26 @@ public enum PresetShadowType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | Reprezentuje cień zrzutu w lewym górnym rogu. |
-| TopLeftLargeDropShadow | `1` | Reprezentuje duży cień zrzutu w lewym górnym rogu. |
-| BackLeftLongPerspectiveShadow | `2` | Reprezentuje długi cień perspektywiczny z tyłu po lewej. |
-| BackRightLongPerspectiveShadow | `3` | Reprezentuje długi cień perspektywiczny z tyłu po prawej. |
-| TopLeftDoubleDropShadow | `4` | Reprezentuje podwójny cień zrzutu w lewym górnym rogu. |
-| BottomRightSmallDropShadow | `5` | Reprezentuje mały cień zrzutu w prawym dolnym rogu. |
-| FrontLeftLongPerspectiveShadow | `6` | Reprezentuje długi cień perspektywiczny z przodu po lewej. |
-| FrontRightLongPerspectiveShadow | `7` | Reprezentuje długi cień perspektywiczny z przodu po prawej. |
-| OuterBoxShadow3D | `8` | Reprezentuje zewnętrzny cień pudełka 3D. |
-| InnerBoxShadow3D | `9` | Reprezentuje wewnętrzny cień pudełka 3D. |
-| BackCenterPerspectiveShadow | `10` | Reprezentuje cień perspektywiczny w centrum od tyłu. |
-| TopRightDropShadow | `11` | Reprezentuje cień zrzutu w prawym górnym rogu. |
-| FrontBottomShadow | `12` | Reprezentuje cień z przodu na dole. |
-| BackLeftPerspectiveShadow | `13` | Reprezentuje cień perspektywiczny z tyłu po lewej. |
-| BackRightPerspectiveShadow | `14` | Reprezentuje cień perspektywiczny z tyłu po prawej. |
-| BottomLeftDropShadow | `15` | Reprezentuje cień zrzutu w lewym dolnym rogu. |
-| BottomRightDropShadow | `16` | Reprezentuje cień zrzutu w prawym dolnym rogu. |
-| FrontLeftPerspectiveShadow | `17` | Reprezentuje cień perspektywiczny z przodu po lewej. |
-| FrontRightPerspectiveShadow | `18` | Reprezentuje cień perspektywiczny z przodu po prawej. |
-| TopLeftSmallDropShadow | `19` | Reprezentuje mały cień zrzutu w lewym górnym rogu. |
+| TopLeftDropShadow | `0` | Reprezentuje Top Left Drop Shadow. |
+| TopLeftLargeDropShadow | `1` | Reprezentuje Top Left Large Drop Shadow. |
+| BackLeftLongPerspectiveShadow | `2` | Reprezentuje Back Left Long Perspective Shadow |
+| BackRightLongPerspectiveShadow | `3` | Reprezentuje Back Right Long Perspective Shadow |
+| TopLeftDoubleDropShadow | `4` | Reprezentuje Top Left Double Drop Shadow. |
+| BottomRightSmallDropShadow | `5` | Reprezentuje Bottom Right Small Drop Shadow. |
+| FrontLeftLongPerspectiveShadow | `6` | Reprezentuje Front Left Long Perspective Shadow. |
+| FrontRightLongPerspectiveShadow | `7` | Reprezentuje Front Right Long Perspective Shadow. |
+| OuterBoxShadow3D | `8` | Reprezentuje Outer Box Shadow 3D. |
+| InnerBoxShadow3D | `9` | Reprezentuje Inner Box Shadow 3D. |
+| BackCenterPerspectiveShadow | `10` | Reprezentuje Back Center Perspective Shadow. |
+| TopRightDropShadow | `11` | Reprezentuje Top Right Drop Shadow. |
+| FrontBottomShadow | `12` | Reprezentuje Front Bottom Shadow. |
+| BackLeftPerspectiveShadow | `13` | Reprezentuje Back Left Perspective Shadow. |
+| BackRightPerspectiveShadow | `14` | Reprezentuje Back Right Perspective Shadow. |
+| BottomLeftDropShadow | `15` | Reprezentuje Bottom Left Drop Shadow. |
+| BottomRightDropShadow | `16` | Reprezentuje Bottom Right Drop Shadow. |
+| FrontLeftPerspectiveShadow | `17` | Reprezentuje Front Left Perspective Shadow. |
+| FrontRightPerspectiveShadow | `18` | Reprezentuje Front Right Perspective Shadow. |
+| TopLeftSmallDropShadow | `19` | Reprezentuje Top Left Small Drop Shadow. |
 
 ### Zobacz także
 

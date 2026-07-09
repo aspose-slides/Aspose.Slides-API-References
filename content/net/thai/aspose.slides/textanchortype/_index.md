@@ -1,20 +1,20 @@
 ---
 title: TextAnchorType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: การจัดตำแหน่งของกล่องข้อความภายในพื้นที่ข้อความ.
+description: การจัดตำแหน่งกล่องข้อความภายในพื้นที่ข้อความ.
 type: docs
 weight: 10910
 url: /th/aspose.slides/textanchortype/
 ---
-## การกำหนดค่า TextAnchorType
+## TextAnchorType ประเภท
 
-การจัดตำแหน่งของกล่องข้อความภายในพื้นที่ข้อความ
+การจัดตำแหน่งกล่องข้อความภายในพื้นที่ข้อความ.
 
 ```csharp
 public enum TextAnchorType : sbyte
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

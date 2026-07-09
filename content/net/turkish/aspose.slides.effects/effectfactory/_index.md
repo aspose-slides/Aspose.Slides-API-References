@@ -1,14 +1,14 @@
 ---
 title: EffectFactory
 second_title: Aspose.Sildes için .NET API Referansı
-description: Efekt oluşturulmasını sağlar
+description: Efekt oluşturmayı sağlar
 type: docs
-weight: 2950
+weight: 2970
 url: /tr/aspose.slides.effects/effectfactory/
 ---
-## EffectFactory sınıfı
+## EffectFactory sınıf
 
-Efektler oluşturulmasını sağlar
+Efektler oluşturmayı sağlar
 
 ```csharp
 public class EffectFactory : IEffectFactory
@@ -16,24 +16,24 @@ public class EffectFactory : IEffectFactory
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [EffectFactory](effectfactory)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory döndürür. Yalnızca okuma [`IImageTransformOperationFactory`](../iimagetransformoperationfactory). |
 
-## Yöntemler
+## Metotlar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
 | [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow efektini oluşturur. |
 | [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | İç gölge efektini oluşturur. |
 | [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Dış gölge efektini oluşturur. |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Önceden ayarlanmış gölge efektini oluşturur. |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Ön ayarlı gölge efektini oluşturur. |
 | [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Yansıma efektini oluşturur. |
 | [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Yumuşak kenar efektini oluşturur. |
 
@@ -41,7 +41,7 @@ public class EffectFactory : IEffectFactory
 
 COM uyumluluğu için.
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IEffectFactory](../ieffectfactory)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

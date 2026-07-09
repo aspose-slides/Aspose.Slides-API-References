@@ -1,6 +1,6 @@
 ---
 title: IMathMatrixFactory
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 允許建立數學矩陣
 type: docs
 weight: 8350
@@ -18,11 +18,11 @@ public interface IMathMatrixFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | 建立數學矩陣 |
+| [CreateMathMatrix](../../aspose.slides.mathtext/imathmatrixfactory/createmathmatrix)(int, int) | 建立一個數學矩陣 |
 
 ### 備註
 
-供 COM 相容性使用
+用於 COM 相容性
 
 ### 另請參閱
 

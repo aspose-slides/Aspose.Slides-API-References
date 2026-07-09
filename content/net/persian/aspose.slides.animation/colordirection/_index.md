@@ -1,14 +1,14 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes برای .NET API مرجع
-description: جهت رنگ را برای رفتار اثر رنگ نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: جهت رنگ برای رفتار اثر رنگی را نشان می‌دهد.
 type: docs
 weight: 220
 url: /fa/aspose.slides.animation/colordirection/
 ---
-## ColorDirection شمارش
+## شمارش ColorDirection
 
-جهت رنگ برای رفتار اثر رنگ را نشان می‌دهد.
+جهت رنگ برای رفتار اثر رنگی را نشان می‌دهد.
 
 ```csharp
 public enum ColorDirection

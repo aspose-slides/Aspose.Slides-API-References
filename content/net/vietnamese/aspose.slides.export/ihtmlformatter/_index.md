@@ -1,14 +1,14 @@
 ---
 title: IHtmlFormatter
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho mẫu tệp HTML.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn mẫu tệp HTML.
 type: docs
 weight: 3940
 url: /vi/aspose.slides.export/ihtmlformatter/
 ---
 ## IHtmlFormatter giao diện
 
-Đại diện cho mẫu tệp HTML.
+Biểu diễn mẫu tệp HTML.
 
 ```csharp
 public interface IHtmlFormatter

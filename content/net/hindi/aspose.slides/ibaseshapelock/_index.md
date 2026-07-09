@@ -1,14 +1,14 @@
 ---
 title: IBaseShapeLock
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Shape lock अक्षम किए गए संचालन का प्रतिनिधित्व करता है।
+description: Shape लॉक अक्षम ऑपरेशन को दर्शाता है।
 type: docs
 weight: 5330
 url: /hi/aspose.slides/ibaseshapelock/
 ---
 ## IBaseShapeLock इंटरफ़ेस
 
-Shape lock का प्रतिनिधित्व करता है (अक्षम किया गया संचालन).
+Shape लॉक (असमर्थित ऑपरेशन) को दर्शाता है।
 
 ```csharp
 public interface IBaseShapeLock
@@ -18,9 +18,9 @@ public interface IBaseShapeLock
 
 | नाम | विवरण |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | यदि सभी lock-flags अक्षम हैं तो true लौटाएँ। केवल पढ़ने योग्य Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | यदि सभी लॉक-फ़्लैग अक्षम हैं तो true लौटाता है। केवल पढ़ने योग्य Boolean। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

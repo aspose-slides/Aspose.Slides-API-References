@@ -1,14 +1,14 @@
 ---
 title: CellCollection
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: تمثل مجموعة من الخلايا.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مجموعة من الخلايا.
 type: docs
 weight: 1140
 url: /ar/aspose.slides/cellcollection/
 ---
-## الفئة CellCollection
+## CellCollection فئة
 
-تمثل مجموعة من الخلايا.
+يمثل مجموعة من الخلايا.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -18,21 +18,21 @@ public abstract class CellCollection : ICellCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | يعيد عدد الخلايا في مجموعة. للقراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامناً (آمن للخيوط). للقراءة فقط Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | يعيد خلية وفق موقعها. للقراءة فقط [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | يعيد العرض الرئيسي لـ CellCollection. للقراءة فقط [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | يعيد الشريحة الأم لـ CellCollection. للقراءة فقط [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | يعيد جذر المزامنة. للقراءة فقط Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | يعيد عدد الخلايا في مجموعة. قراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | يعيد قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للمتعدد الخيوط). قراءة فقط Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | يعيد خلية حسب موقعها. قراءة فقط [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | يعيد العرض الرئيسي لـ CellCollection. قراءة فقط [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | يعيد الشريحة الأم لـ CellCollection. قراءة فقط [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | يعيد جذر المزامنة. قراءة فقط Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | يعيد enumerator يتكرر عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | يعيد مكرِّرًا يتنقل عبر المجموعة. |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * الواجهة [ICellCollection](../icellcollection)
 * النطاق [Aspose.Slides](../../aspose.slides)

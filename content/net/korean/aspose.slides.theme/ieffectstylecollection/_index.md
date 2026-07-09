@@ -20,7 +20,7 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 | --- | --- |
 | [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | 지정된 위치의 요소를 반환합니다. 읽기 전용 [`IEffectStyle`](../ieffectstyle). |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [IEffectStyle](../ieffectstyle)

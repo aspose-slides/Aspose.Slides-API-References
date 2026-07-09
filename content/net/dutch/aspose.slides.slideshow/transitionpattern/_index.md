@@ -1,14 +1,14 @@
 ---
 title: TransitionPattern
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert een geometrisch patroon dat samen tegels vormt om een groter gebied te vullen.
+description: Specificeert een geometrisch patroon dat samenlegt om een groter gebied te vullen.
 type: docs
 weight: 10400
 url: /nl/aspose.slides.slideshow/transitionpattern/
 ---
 ## TransitionPattern enumeratie
 
-Specificeert een geometrisch patroon dat samen tegels vormt om een groter gebied te vullen.
+Specificeert een geometrisch patroon dat samenlegt om een groter gebied te vullen.
 
 ```csharp
 public enum TransitionPattern
@@ -18,8 +18,8 @@ public enum TransitionPattern
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Diamond | `0` | Diamond tegelpatroon |
-| Hexagon | `1` | Hexagon tegelpatroon |
+| Diamond | `0` | Diamond-tegelpatroon |
+| Hexagon | `1` | Hexagon-tegelpatroon |
 
 ### Zie ook
 

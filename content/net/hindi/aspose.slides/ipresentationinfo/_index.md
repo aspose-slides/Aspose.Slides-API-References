@@ -1,14 +1,14 @@
 ---
 title: IPresentationInfo
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रस्तुति फ़ाइल के बारे में जानकारी
+description: प्रेज़ेंटेशन फ़ाइल के बारे में जानकारी
 type: docs
 weight: 6790
 url: /hi/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo इंटरफ़ेस
 
-प्रस्तुति फ़ाइल के बारे में जानकारी
+प्रेज़ेंटेशन फ़ाइल के बारे में जानकारी
 
 ```csharp
 public interface IPresentationInfo
@@ -18,23 +18,23 @@ public interface IPresentationInfo
 
 | नाम | विवरण |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | यदि बाइंडेड प्रस्तुति एन्क्रिप्टेड है तो True लौटाता है, अन्यथा False। केवल पढ़ने योग्य Boolean। |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | एक मान लौटाता है जो दर्शाता है कि बाइंडेड प्रस्तुति को खोलने के लिए पासवर्ड द्वारा संरक्षित है या नहीं। |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | एक मान लौटाता है जो दर्शाता है कि बाइंडेड प्रस्तुति लिखने से सुरक्षित है या नहीं। |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | बाइंडेड प्रस्तुति का फ़ॉर्मेट लौटाता है। केवल पढ़ने योग्य [`LoadFormat`](../loadformat)। |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | यदि बाइंडेड प्रेज़ेंटेशन एन्क्रिप्टेड है तो True प्राप्त करता है, अन्यथा False। केवल पढ़ने योग्य Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | बाइंडेड प्रेज़ेंटेशन को खोलने के लिए पासवर्ड द्वारा संरक्षित है या नहीं, यह दर्शाने वाला मान प्राप्त करता है. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | बाइंडेड प्रेज़ेंटेशन लिखने से संरक्षित है या नहीं, यह दर्शाने वाला मान प्राप्त करता है. |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | बाइंडेड प्रेज़ेंटेशन का फ़ॉर्मेट प्राप्त करता है. केवल पढ़ने योग्य [`LoadFormat`](../loadformat). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | जाँचता है कि खुलने वाले पासवर्ड से संरक्षित प्रस्तुति के लिए पासवर्ड सही है या नहीं। |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | जाँचता है कि लिखने से संरक्षित प्रस्तुति के लिए संशोधित करने का पासवर्ड सही है या नहीं। |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | बाइंडेड प्रस्तुति के दस्तावेज़ गुण लौटाता है। |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | बाइंडेड प्रस्तुति के गुण अपडेट करता है। |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | बाइंडेड प्रस्तुति को स्ट्रीम में लिखता है। |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | बाइंडेड प्रस्तुति को फ़ाइल में लिखता है। |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | यह जांचता है कि खुलने के पासवर्ड के साथ संरक्षित प्रेज़ेंटेशन के लिए पासवर्ड सही है या नहीं. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | यह जांचता है कि लिखने से संरक्षित प्रेज़ेंटेशन के लिए संशोधित करने का पासवर्ड सही है या नहीं. |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | बाइंडेड प्रेज़ेंटेशन की दस्तावेज़ गुण प्राप्त करता है. |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | बाइंडेड प्रेज़ेंटेशन के गुणों को अद्यतन करता है. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | बाइंडेड प्रेज़ेंटेशन को स्ट्रीम में लिखता है. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | बाइंडेड प्रेज़ेंटेशन को फ़ाइल में लिखता है. |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

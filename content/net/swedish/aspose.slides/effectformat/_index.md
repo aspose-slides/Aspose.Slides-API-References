@@ -1,14 +1,14 @@
 ---
 title: EffectFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar effekt-egenskaper för form.
+description: Representerar effektens egenskaper för en form.
 type: docs
-weight: 2810
+weight: 2830
 url: /sv/aspose.slides/effectformat/
 ---
 ## EffectFormat klass
 
-Representerar effekt-egenskaper för form.
+Representerar effektens egenskaper för en form.
 
 ```csharp
 public sealed class EffectFormat : PVIObject, IEffectFormat
@@ -18,12 +18,12 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas IPresentationComponent interface. Läs-endast [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Suddig effekt. Läs/skriv [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Fyllningsöverlappningseffekt. Läs/skriv [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Glödeffekt. Läs/skriv [`IGlow`](../../aspose.slides.effects/iglow). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | Blur-effekt. Läs/skriv [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | Fyllnadsöverlappnings-effekt. Läs/skriv [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | Glöd-effekt. Läs/skriv [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | Inre skugga. Läs/skriv [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Returnerar true om alla effekter är inaktiverade (som precis skapad, standard EffectFormat objekt). Läs-endast Boolean. |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | Returnerar true om alla effekter är inaktiverade (som just skapad, standard EffectFormat-objekt). Skrivskyddad Boolean. |
 | [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | Yttre skugga. Läs/skriv [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | Förinställd skugga. Läs/skriv [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | Reflektion. Läs/skriv [`IReflection`](../../aspose.slides.effects/ireflection). |
@@ -33,27 +33,27 @@ public sealed class EffectFormat : PVIObject, IEffectFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Inaktiverar suddig effekt. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Inaktiverar fyllningsöverlappningseffekt. |
-| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Inaktiverar glödeffekt. |
+| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | Inaktiverar blur-effekt. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | Inaktiverar fyllnadsöverlappnings-effekt. |
+| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | Inaktiverar glöd-effekt. |
 | [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | Inaktiverar inre skuggeffekt. |
 | [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | Inaktiverar yttre skuggeffekt. |
 | [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | Inaktiverar förinställd skuggeffekt. |
 | [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | Inaktiverar reflektionseffekt. |
 | [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | Inaktiverar mjuk kant-effekt. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Aktiverar fyllningsöverlappningseffekt. |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Aktiverar glödeffekt. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | Aktiverar fyllnadsöverlappnings-effekt. |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | Aktiverar glöd-effekt. |
 | [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | Aktiverar inre skuggeffekt. |
 | [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | Aktiverar yttre skuggeffekt. |
 | [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | Aktiverar förinställda skuggeffekter. |
 | [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | Aktiverar reflektionseffekt. |
 | [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | Aktiverar mjuk kant-effekt. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Hämtar effektformatdata med arv tillämpat. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
-| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Ställer in suddig effekt. |
+| [GetEffective](../../aspose.slides/effectformat/geteffective)() | Hämtar effektiv effektformateringsdata med ärftligheten tillämpad. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
+| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | Ställer in blur-effekt. |
 
-### Se även
+### Se också
 
 * klass [PVIObject](../pviobject)
 * gränssnitt [IEffectFormat](../ieffectformat)

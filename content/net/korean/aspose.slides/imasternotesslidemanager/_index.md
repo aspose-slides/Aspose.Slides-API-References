@@ -1,12 +1,12 @@
 ---
 title: IMasterNotesSlideManager
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 마스터 노트 슬라이드 관리자.
 type: docs
 weight: 6410
 url: /ko/aspose.slides/imasternotesslidemanager/
 ---
-## IMasterNotesSlideManager interface
+## IMasterNotesSlideManager 인터페이스
 
 마스터 노트 슬라이드 관리자.
 
@@ -18,7 +18,7 @@ public interface IMasterNotesSlideManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 이 프레젠테이션의 모든 노트 슬라이드에 대한 마스터가 존재하면 반환하고, 그렇지 않으면 null을 반환합니다. 읽기 전용 [`IMasterNotesSlide`](../imasternotesslide). |
+| [MasterNotesSlide](../../aspose.slides/imasternotesslidemanager/masternotesslide) { get; } | 프레젠테이션에 마스터 노트 슬라이드가 있으면 해당 마스터를 반환하고, 없으면 null을 반환합니다. 읽기 전용 [`IMasterNotesSlide`](../imasternotesslide). |
 
 ## 메서드
 

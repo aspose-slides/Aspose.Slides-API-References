@@ -1,14 +1,14 @@
 ---
 title: IPresentationInfo
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Thông tin về tệp bản trình bày
+description: Thông tin về file bản trình chiếu
 type: docs
 weight: 6790
 url: /vi/aspose.slides/ipresentationinfo/
 ---
 ## IPresentationInfo giao diện
 
-Thông tin về tệp bản trình bày
+Thông tin về file bản trình chiếu
 
 ```csharp
 public interface IPresentationInfo
@@ -18,21 +18,21 @@ public interface IPresentationInfo
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Trả về True nếu bản trình bày đã liên kết được mã hóa, nếu không trả về False. Chỉ đọc Boolean. |
-| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Trả về giá trị cho biết liệu bản trình bày đã liên kết có được bảo vệ bằng mật khẩu để mở hay không. |
-| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Trả về giá trị cho biết liệu bản trình bày đã liên kết có được bảo vệ ghi hay không. |
-| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Trả về định dạng của bản trình bày đã liên kết. Chỉ đọc [`LoadFormat`](../loadformat). |
+| [IsEncrypted](../../aspose.slides/ipresentationinfo/isencrypted) { get; } | Trả về True nếu bản trình chiếu được liên kết được mã hóa, nếu không thì False. Chỉ đọc Boolean. |
+| [IsPasswordProtected](../../aspose.slides/ipresentationinfo/ispasswordprotected) { get; } | Trả về giá trị cho biết bản trình chiếu được liên kết có được bảo vệ bằng mật khẩu để mở hay không. |
+| [IsWriteProtected](../../aspose.slides/ipresentationinfo/iswriteprotected) { get; } | Trả về giá trị cho biết bản trình chiếu được liên kết có bị bảo vệ ghi hay không. |
+| [LoadFormat](../../aspose.slides/ipresentationinfo/loadformat) { get; } | Trả về định dạng của bản trình chiếu được liên kết. Chỉ đọc [`LoadFormat`](../loadformat). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Kiểm tra xem mật khẩu có đúng cho bản trình bày được bảo vệ bằng mật khẩu mở hay không. |
-| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Kiểm tra xem mật khẩu chỉnh sửa có đúng cho bản trình bày được bảo vệ ghi hay không. |
-| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Trả về thuộc tính tài liệu của bản trình bày đã liên kết. |
-| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Cập nhật thuộc tính của bản trình bày đã liên kết. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Ghi bản trình bày đã liên kết vào luồng. |
-| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Ghi bản trình bày đã liên kết vào tệp. |
+| [CheckPassword](../../aspose.slides/ipresentationinfo/checkpassword)(string) | Kiểm tra xem mật khẩu có đúng cho bản trình chiếu được bảo vệ bằng mật khẩu mở hay không. |
+| [CheckWriteProtection](../../aspose.slides/ipresentationinfo/checkwriteprotection)(string) | Kiểm tra xem mật khẩu sửa đổi có đúng cho bản trình chiếu được bảo vệ ghi hay không. |
+| [ReadDocumentProperties](../../aspose.slides/ipresentationinfo/readdocumentproperties)() | Trả về thuộc tính tài liệu của bản trình chiếu được liên kết. |
+| [UpdateDocumentProperties](../../aspose.slides/ipresentationinfo/updatedocumentproperties)(IDocumentProperties) | Cập nhật thuộc tính của bản trình chiếu được liên kết. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Ghi bản trình chiếu được liên kết vào luồng. |
+| [WriteBindedPresentation](../../aspose.slides/ipresentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Ghi bản trình chiếu được liên kết vào tệp. |
 
 ### Xem thêm
 

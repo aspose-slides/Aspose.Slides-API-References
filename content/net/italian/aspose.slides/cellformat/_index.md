@@ -1,12 +1,12 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il formato di una cella di tabella.
 type: docs
-weight: 1130
+weight: 1150
 url: /it/aspose.slides/cellformat/
 ---
-## Classe CellFormat
+## classe CellFormat
 
 Rappresenta il formato di una cella di tabella.
 
@@ -18,15 +18,15 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Restituisce un oggetto proprietà della linea del bordo inferiore. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Restituisce un oggetto proprietà della linea diagonale dall'angolo superiore sinistro a quello inferiore destro. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Restituisce un oggetto proprietà della linea diagonale dall'angolo inferiore sinistro a quello superiore destro. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Restituisce un oggetto proprietà della linea del bordo sinistro. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Restituisce un oggetto proprietà della linea del bordo destro. Solo lettura [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Restituisce un oggetto proprietà della linea del bordo superiore. Solo lettura [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Restituisce un oggetto proprietà del riempimento della cella. Solo lettura [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Ottiene o imposta la trasparenza del colore di riempimento. Lettura/Scrittura Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permette di ottenere l'interfaccia base IPresentationComponent. Sola lettura [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | Restituisce un oggetto proprietà della linea di bordo inferiore. Sola lettura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | Restituisce un oggetto proprietà della linea diagonale dall'angolo in alto a sinistra a quello in basso a destra. Sola lettura [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | Restituisce un oggetto proprietà della linea diagonale dall'angolo in basso a sinistra a quello in alto a destra. Sola lettura [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | Restituisce un oggetto proprietà della linea del bordo sinistro. Sola lettura [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | Restituisce un oggetto proprietà della linea del bordo destro. Sola lettura [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | Restituisce un oggetto proprietà della linea del bordo superiore. Sola lettura [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | Restituisce un oggetto proprietà di riempimento della cella. Sola lettura [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | Ottiene o imposta la trasparenza del colore di riempimento. Lettura/scrittura Single. |
 
 ## Metodi
 

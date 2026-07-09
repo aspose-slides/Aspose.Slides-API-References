@@ -1,46 +1,46 @@
 ---
 title: OuterShadow
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر افکت سایهٔ بیرونی است.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک اثر سایه بیرونی را نشان می‌دهد.
 type: docs
 weight: 3620
 url: /fa/aspose.slides.effects/outershadow/
 ---
-## کلاس OuterShadow
+## OuterShadow کلاس
 
-نمایانگر افکت سایه‌ی بیرونی است.
+یک اثر سایه بیرونی را نشان می‌دهد.
 
 ```csharp
 public sealed class OuterShadow : IOuterShadow
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | شعاع تاری، به نقطه. مقدار پیش‌فرض – 0 pt. قابل خواندن/نوشتن Double. |
-| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | جهت سایه، به درجه. مقدار پیش‌فرض – 0 ° (چپ به راست). قابل خواندن/نوشتن Single. |
-| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | فاصله سایه از شیء، به نقطه. مقدار پیش‌فرض – 0 pt. قابل خواندن/نوشتن Double. |
-| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | تراز مستطیل. مقدار پیش‌فرض – Bottom. قابل خواندن/نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | نشان می‌دهد آیا سایه با شکل چرخش می‌کند یا نه. مقدار پیش‌فرض – true. قابل خواندن/نوشتن Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | فاکتور مقیاس افقی، به درصد اندازهٔ اصلی. مقیاس منفی باعث وارونه شدن می‌شود. مقدار پیش‌فرض – 100 %. قابل خواندن/نوشتن Double. |
-| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | فاکتور مقیاس عمودی، به درصد اندازهٔ اصلی. مقیاس منفی باعث وارونه شدن می‌شود. مقدار پیش‌فرض – 100 %. قابل خواندن/نوشتن Double. |
-| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | رنگ سایه. مقدار پیش‌فرض – سیاه خودکار (وابسته به تم). فقط‌خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | زاویه شیب افقی، به درجه. مقدار پیش‌فرض – 0 °. قابل خواندن/نوشتن Double. |
-| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | زاویه شیب عمودی، به درجه. مقدار پیش‌فرض – 0 °. قابل خواندن/نوشتن Double. |
+| [BlurRadius](../../aspose.slides.effects/outershadow/blurradius) { get; set; } | شعاع تاری، بر حسب نقطه. مقدار پیش‌فرض – ۰ pt. قابل خواندن/نوشتن Double. |
+| [Direction](../../aspose.slides.effects/outershadow/direction) { get; set; } | جهت سایه، بر حسب درجه. مقدار پیش‌فرض – ۰ ° (چپ به راست). قابل خواندن/نوشتن Single. |
+| [Distance](../../aspose.slides.effects/outershadow/distance) { get; set; } | فاصله سایه از شیء، بر حسب نقطه. مقدار پیش‌فرض – ۰ pt. قابل خواندن/نوشتن Double. |
+| [RectangleAlign](../../aspose.slides.effects/outershadow/rectanglealign) { get; set; } | ترازبندی مستطیل. مقدار پیش‌فرض – Bottom. قابل خواندن/نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/outershadow/rotateshadowwithshape) { get; set; } | نشان می‌دهد که آیا سایه همراه با شکل می‌چرخد یا نه. مقدار پیش‌فرض – true. قابل خواندن/نوشتن Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/outershadow/scalehorizontal) { get; set; } | عامل مقیاس افقی، به درصد اندازه اصلی. مقیاس منفی باعث وارون شدن می‌شود. مقدار پیش‌فرض – ۱۰۰ %. قابل خواندن/نوشتن Double. |
+| [ScaleVertical](../../aspose.slides.effects/outershadow/scalevertical) { get; set; } | عامل مقیاس عمودی، به درصد اندازه اصلی. مقیاس منفی باعث وارون شدن می‌شود. مقدار پیش‌فرض – ۱۰۰ %. قابل خواندن/نوشتن Double. |
+| [ShadowColor](../../aspose.slides.effects/outershadow/shadowcolor) { get; } | رنگ سایه. مقدار پیش‌فرض – سیاه خودکار (وابسته به تم). فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/outershadow/skewhorizontal) { get; set; } | زاویهٔ انعطاف افقی، بر حسب درجه. مقدار پیش‌فرض – ۰ °. قابل خواندن/نوشتن Double. |
+| [SkewVertical](../../aspose.slides.effects/outershadow/skewvertical) { get; set; } | زاویهٔ انعطاف عمودی، بر حسب درجه. مقدار پیش‌فرض – ۰ °. قابل خواندن/نوشتن Double. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | تعیین می‌کند آیا [`OuterShadow`](../outershadow) مشخص‌شده برابر با [`OuterShadow`](../outershadow) فعلی است یا خیر. |
-| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | داده‌های مؤثر افکت سایهٔ بیرونی را با اعمال وراثت دریافت می‌کند. |
-| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | به‌عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
+| override [Equals](../../aspose.slides.effects/outershadow/equals)(object) | تشخیص می‌دهد که آیا [`OuterShadow`](../outershadow) مشخص شده برابر با [`OuterShadow`](../outershadow) فعلی است. |
+| [GetEffective](../../aspose.slides.effects/outershadow/geteffective)() | داده‌های مؤثر افکت سایه بیرونی را با اعمال ارث‌برداری دریافت می‌کند. |
+| override [GetHashCode](../../aspose.slides.effects/outershadow/gethashcode)() | به عنوان تابع هش برای یک نوع خاص عمل می‌کند. |
 
-### مراجع
+### موارد مرتبط
 
-* اینترفیس [IOuterShadow](../ioutershadow)
+* رابط [IOuterShadow](../ioutershadow)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* اسمبلی [Aspose.Slides](../../)
+* مجموعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

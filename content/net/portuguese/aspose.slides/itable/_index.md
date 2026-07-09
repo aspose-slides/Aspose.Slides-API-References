@@ -3,10 +3,10 @@ title: ITable
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma tabela em um slide.
 type: docs
-weight: 7210
+weight: 7230
 url: /pt/aspose.slides/itable/
 ---
-## ITable interface
+## interface ITable
 
 Representa uma tabela em um slide.
 
@@ -21,17 +21,17 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Permite obter a interface base IBulkTextFormattable. Somente leitura [`IBulkTextFormattable`](../ibulktextformattable). |
 | [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Permite obter a interface base IGraphicalObject. Somente leitura [`IGraphicalObject`](../igraphicalobject). |
 | [Columns](../../aspose.slides/itable/columns) { get; } | Retorna a coleção de colunas. Somente leitura [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina se a primeira coluna de uma tabela deve ser desenhada com formatação especial. Leitura/gravação Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina se a primeira linha de uma tabela deve ser desenhada com formatação especial. Leitura/gravação Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina se as linhas pares devem ser desenhadas com formatação diferente. Leitura/gravação Boolean. |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Determina se a primeira coluna de uma tabela deve ser desenhada com formatação especial. Leitura/Gravação Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Determina se a primeira linha de uma tabela deve ser desenhada com formatação especial. Leitura/Gravação Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Determina se as linhas pares devem ser desenhadas com formatação diferente. Leitura/Gravação Boolean. |
 | [Item](../../aspose.slides/itable/item) { get; } | Retorna a célula nos índices de coluna e linha especificados. Somente leitura [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina se a última coluna de uma tabela deve ser desenhada com formatação especial. Leitura/gravação Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina se a última linha de uma tabela deve ser desenhada com formatação especial. Leitura/gravação Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina se a tabela tem ordem de leitura da direita para a esquerda. Leitura-gravação Boolean. |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Determina se a última coluna de uma tabela deve ser desenhada com formatação especial. Leitura/Gravação Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Determina se a última linha de uma tabela deve ser desenhada com formatação especial. Leitura/Gravação Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Determina se a tabela tem ordem de leitura da direita para a esquerda. Leitura/Gravação Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Retorna a coleção de linhas. Somente leitura [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtém ou define o estilo de tabela embutido. Leitura/gravação [`TableStylePreset`](../tablestylepreset). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Obtém ou define o estilo de tabela embutido. Leitura/Gravação [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Retorna o objeto TableFormat que contém propriedades de formatação para esta tabela. Somente leitura [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina se as colunas pares devem ser desenhadas com formatação diferente. Leitura/gravação Boolean. |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Determina se as colunas pares devem ser desenhadas com formatação diferente. Leitura/Gravação Boolean. |
 
 ## Métodos
 
@@ -39,7 +39,7 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Mescla células vizinhas. |
 
-### Ver também
+### Veja Também
 
 * interface [IBulkTextFormattable](../ibulktextformattable)
 * interface [IGraphicalObject](../igraphicalobject)

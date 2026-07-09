@@ -3,10 +3,10 @@ title: PictureType
 second_title: Aspose.Sildes .NET API referencia
 description: Meghatározza az oszlopkép kitöltésének módját.
 type: docs
-weight: 2340
+weight: 2360
 url: /hu/aspose.slides.charts/picturetype/
 ---
-## PictureType felsorolás
+## PictureType enumeráció
 
 Meghatározza az oszlopkép kitöltésének módját.
 
@@ -18,10 +18,10 @@ public enum PictureType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | Nincs definiálva. |
+| NotDefined | `-1` | Nem definiált. |
 | Stack | `0` | A kép úgy van méretezve, hogy a leghosszabb halmozott oszlopban legfeljebb 15-ször ismétlődjön. |
-| StackScale | `1` | A kép a megadott egységszámra van méretezve, és a teljes oszlophosszra ismétlődik. |
-| Stretch | `2` | A kép a halmozott oszlop teljes hosszára nyújtott. |
+| StackScale | `1` | A kép a megadott számú egységre van méretezve, és az oszlop hosszában ismétlődik. |
+| Stretch | `2` | A kép a halmozott oszlop teljes hosszára van nyújtva. |
 
 ### Lásd még
 

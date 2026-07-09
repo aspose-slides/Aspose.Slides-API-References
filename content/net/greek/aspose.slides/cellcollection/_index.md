@@ -1,14 +1,14 @@
 ---
 title: CellCollection
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά μια συλλογή κελιών.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει μια συλλογή κελιών.
 type: docs
-weight: 1120
+weight: 1140
 url: /el/aspose.slides/cellcollection/
 ---
 ## CellCollection κλάση
 
-Αναπαριστά μια συλλογή κελιών.
+Αντιπροσωπεύει μια συλλογή κελιών.
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -16,21 +16,21 @@ public abstract class CellCollection : ICellCollection
 
 ## Ιδιότητες
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Επιστρέφει τον αριθμό των κελιών σε μια συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Επιστρέφει ένα κελί με βάση τη θέση του. Μόνο για ανάγνωση [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Επιστρέφει τη γονική παρουσίαση ενός CellCollection. Μόνο για ανάγνωση [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Επιστρέφει τη γονική διαφάνεια ενός CellCollection. Μόνο για ανάγνωση [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Επιστρέφει τον αριθμό των κελιών σε μια συλλογή. Μόνο-ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Επιστρέφει μια τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο-ανάγνωση Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Επιστρέφει ένα κελί με τη θέση του. Μόνο-ανάγνωση [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Επιστρέφει την γονική παρουσίαση ενός CellCollection. Μόνο-ανάγνωση [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Επιστρέφει τη γονική διαφάνεια ενός CellCollection. Μόνο-ανάγνωση [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Επιστρέφει μια ρίζα συγχρονισμού. Μόνο-ανάγνωση Object. |
 
 ## Μέθοδοι
 
-| Name | Description |
+| Όνομα | Περιγραφή |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Αντιγράφει όλα τα στοιχεία από τη συλλογή στον καθορισμένο πίνακα. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διασχίζει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που διατρέχει τη συλλογή. |
 
 ### Δείτε επίσης
 

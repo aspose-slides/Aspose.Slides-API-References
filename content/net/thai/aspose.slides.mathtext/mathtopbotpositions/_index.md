@@ -1,20 +1,20 @@
 ---
 title: MathTopBotPositions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: การนับตำแหน่งบน/ล่าง
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: การระบุค่าตำแหน่งบน/ล่าง
 type: docs
 weight: 9040
 url: /th/aspose.slides.mathtext/mathtopbotpositions/
 ---
-## MathTopBotPositions การนับ
+## MathTopBotPositions enumeration
 
-การนับตำแหน่งบน/ล่าง
+การระบุค่าตำแหน่งบน/ล่าง
 
 ```csharp
 public enum MathTopBotPositions
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ public enum MathTopBotPositions
 | Top | `1` | บน |
 | Bottom | `2` | ล่าง |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * แอสเซมบลี [Aspose.Slides](../../)

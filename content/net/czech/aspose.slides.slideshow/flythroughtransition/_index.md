@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – reference API
 description: Efekt přechodu snímku fly-through.
 type: docs
-weight: 10020
+weight: 10040
 url: /cs/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition třída
 
-Efekt přechodu snímku fly-through.
+Efekt přechodu snímku typu Fly-through.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -25,8 +25,8 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase rovny. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hashová tabulka. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Určuje, zda jsou dvě instance TransitionValueBase si rovny. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ, vhodná pro použití v hashovacích algoritmech a datových strukturách, jako je hash tabulka. |
 
 ### Viz také
 

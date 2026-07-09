@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve kolomopmaak-eigenschappen van de tabel bevat.
+second_title: Aspose.Sildes voor .NET API Referentie
+description: Onveranderlijk object dat effectieve opmaak-eigenschappen van tabellencolommen bevat.
 type: docs
 weight: 5550
 url: /nl/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData interface
 
-Onveranderlijk object dat effectieve kolomopmaak-eigenschappen van de tabel bevat.
+Onveranderlijk object dat de effectieve opmaak-eigenschappen van tabellencolommen bevat.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -18,13 +18,13 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Staat toe om de basis-IBaseTableFormatEffectiveData-interface op te halen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata) { get; } | Staat toe om de basis-IBaseTableFormatEffectiveData-interface te verkrijgen. Alleen-lezen [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
 
 ### Opmerkingen
 
 Deze interface wordt samen met de [`IColumnFormat`](../icolumnformat) interface gebruikt om effectieve opmaakwaarden terug te geven met overerving en toegepaste tabelstijlen.
 
-### Zie Ook
+### Zie ook
 
 * interface [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

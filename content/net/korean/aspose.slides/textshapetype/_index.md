@@ -8,6 +8,8 @@ url: /ko/aspose.slides/textshapetype/
 ---
 ## TextShapeType 열거형
 
+텍스트 래핑 모양을 나타냅니다.
+
 ```csharp
 public enum TextShapeType : sbyte
 ```
@@ -21,35 +23,35 @@ public enum TextShapeType : sbyte
 | Plain | `1` | 일반 |
 | Stop | `2` | 정지 표지 |
 | Triangle | `3` | 삼각형 |
-| TriangleInverted | `4` | 뒤집힌 삼각형 |
-| Chevron | `5` | 시어본 |
-| ChevronInverted | `6` | 뒤집힌 시어본 |
+| TriangleInverted | `4` | 역삼각형 |
+| Chevron | `5` | 쉐브론 |
+| ChevronInverted | `6` | 역쉐브론 |
 | RingInside | `7` | 내부 링 |
 | RingOutside | `8` | 외부 링 |
 | ArchUp | `9` | 위쪽 아치 |
 | ArchDown | `10` | 아래쪽 아치 |
 | Circle | `11` | 원 |
 | Button | `12` | 버튼 |
-| ArchUpPour | `13` | 위쪽 부은 아치 |
-| ArchDownPour | `14` | 아래쪽 부은 아치 |
-| CirclePour | `15` | 원 부음 |
-| ButtonPour | `16` | 버튼 부음 |
+| ArchUpPour | `13` | 위쪽 쏟아지는 아치 |
+| ArchDownPour | `14` | 아래쪽 쏟아지는 아치 |
+| CirclePour | `15` | 원 쏟아짐 |
+| ButtonPour | `16` | 버튼 쏟아짐 |
 | CurveUp | `17` | 위쪽 곡선 |
 | CurveDown | `18` | 아래쪽 곡선 |
-| CanUp | `19` | 위쪽 캔 |
-| CanDown | `20` | 아래쪽 캔 |
+| CanUp | `19` | 위쪽 통 |
+| CanDown | `20` | 아래쪽 통 |
 | Wave1 | `21` | 파형 1 |
 | Wave2 | `22` | 파형 2 |
 | DoubleWave1 | `23` | 이중 파형 1 |
 | Wave4 | `24` | 파형 4 |
 | Inflate | `25` | 부풀리기 |
-| Deflate | `26` | 수축 |
-| InflateBottom | `27` | 하단 부풀리기 |
-| DeflateBottom | `28` | 하단 수축 |
-| InflateTop | `29` | 상단 부풀리기 |
-| DeflateTop | `30` | 상단 수축 |
-| DeflateInflate | `31` | 수축-부풀리기 |
-| DeflateInflateDeflate | `32` | 수축-부풀리기-수축 |
+| Deflate | `26` | 축소 |
+| InflateBottom | `27` | 아래쪽 부풀리기 |
+| DeflateBottom | `28` | 아래쪽 축소 |
+| InflateTop | `29` | 위쪽 부풀리기 |
+| DeflateTop | `30` | 위쪽 축소 |
+| DeflateInflate | `31` | 축소-부풀리기 |
+| DeflateInflateDeflate | `32` | 축소-부풀리기-축소 |
 | FadeRight | `33` | 오른쪽 페이드 |
 | FadeLeft | `34` | 왼쪽 페이드 |
 | FadeUp | `35` | 위쪽 페이드 |
@@ -60,7 +62,7 @@ public enum TextShapeType : sbyte
 | CascadeDown | `40` | 아래쪽 캐스케이드 |
 | Custom | `41` | 사용자 정의 |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

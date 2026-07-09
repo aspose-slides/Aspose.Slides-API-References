@@ -1,14 +1,14 @@
 ---
 title: WarningType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Uyarı türünü temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Bir uyarı türünü temsil eder.
 type: docs
-weight: 11810
+weight: 11830
 url: /tr/aspose.slides.warnings/warningtype/
 ---
-## WarningType enum
+## WarningType enum'ı
 
-Uyarı türünü temsil eder.
+Bir uyarı türünü temsil eder.
 
 ```csharp
 public enum WarningType
@@ -18,12 +18,12 @@ public enum WarningType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| SourceFileCorruption | `0` | Kaynak belgede bir sorun tespit edildi; bu, belgenin orijinal formatında kaydedilirse büyük olasılıkla açılamayacağı anlamına gelir. |
-| DataLoss | `1` | Metin/grafik/resim veya diğer veriler, yüklemeden sonra belge ağacında ya da kaydetme işleminden sonra oluşturulan belgede tamamen eksik olacaktır. |
-| MajorFormattingLoss | `2` | Önemli biçimlendirme kaybı. |
+| SourceFileCorruption | `0` | Kaynak belgede bir sorun tespit edildi; bu, belgenin özgün biçiminde kaydedildiğinde büyük olasılıkla açılamayacağını gösterir. |
+| DataLoss | `1` | Metin/grafik/resim veya diğer veriler, yükleme sonrasında belge ağacında ya da kaydetme sonrasında oluşturulan belgede tamamen eksik olacaktır. |
+| MajorFormattingLoss | `2` | Büyük biçimlendirme kaybı. |
 | MinorFormattingLoss | `3` | Küçük biçimlendirme kaybı. |
-| CompatibilityIssue | `4` | Bu, belgelerin belirli kullanıcı ajanları veya önceki sürüm kullanıcı ajanları tarafından açılamasını engelleyecek bilinen bir sorundur. |
-| UnexpectedContent | `99` | Kaynak belgede bazı içerikler tanınamadı (yani desteklenmiyor); bu, sorunlara yol açabilir veya veri/biçimlendirme kaybına neden olabilir. |
+| CompatibilityIssue | `4` | Bu bilinen sorun, belgenin belirli kullanıcı ajanları tarafından veya önceki sürüm kullanıcı ajanları tarafından açılmasını engelleyecektir. |
+| UnexpectedContent | `99` | Kaynak belgede tanınamayan (yani desteklenmeyen) bazı içerikler bulunuyor; bu durum sorunlara yol açabilir ya da veri/biçimlendirme kaybına neden olabilir. |
 
 ### Ayrıca Bakınız
 

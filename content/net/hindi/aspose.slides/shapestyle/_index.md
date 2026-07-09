@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: शेप्स की शैली संदर्भ का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: Shapes शैली संदर्भ का प्रतिनिधित्व करता है।
 type: docs
 weight: 9910
 url: /hi/aspose.slides/shapestyle/
 ---
 ## ShapeStyle क्लास
 
-शेप की शैली संदर्भ को प्रतिनिधित्व करता है।
+shape की शैली संदर्भ का प्रतिनिधित्व करता है।
 
 ```csharp
 public class ShapeStyle : DomObject<Shape>, IShapeStyle
@@ -16,18 +16,18 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | एक शेप के इफ़ेक्ट रंग को लौटाता है। केवल पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | शेप के इफ़ेक्ट कॉलम इंडेक्स को एक स्टाइल मैट्रिक्स में लौटाता या सेट करता है। पढ़ने/लिखने योग्य UInt32। |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | एक शेप के भराव रंग को लौटाता है। केवल पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | शेप के भराव कॉलम इंडेक्स को स्टाइल मैट्रिक्स में लौटाता या सेट करता है। 0 का अर्थ है कोई भराव नहीं, सकारात्मक मान - थीम के भराव शैलियों में इंडेक्स, नकारात्मक मान - थीम के बैकग्राउंड शैलियों में इंडेक्स। पढ़ने/लिखने योग्य Int16। |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | शेप के फ़ॉन्ट इंडेक्स को फ़ॉन्ट संग्रह में लौटाता या सेट करता है। पढ़ने/लिखने योग्य [`FontCollectionIndex`](../fontcollectionindex)। |
-| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | एक शेप के फ़ॉन्ट रंग को लौटाता है। केवल पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | एक शेप की रूपरेखा रंग को लौटाता है। केवल पढ़ने योग्य [`IColorFormat`](../icolorformat)। |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | लाइन के कॉलम इंडेक्स को एक स्टाइल मैट्रिक्स में लौटाता या सेट करता है। पढ़ने/लिखने योग्य UInt16। |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | एक shape का प्रभाव रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | shape के प्रभाव कॉलम सूचकांक को एक शैली मैट्रिक्स में लौटाता है या सेट करता है। पढ़ें/लिखें UInt32. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | एक shape का भराव रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | shape के भराव कॉलम सूचकांक को शैली मैट्रिक्स में लौटाता है या सेट करता है। 0 का मतलब कोई भराव नहीं, सकारात्मक मान - थीम की भराव शैलियों में सूचकांक, नकारात्मक मान - थीम की पृष्ठभूमि शैलियों में सूचकांक। पढ़ें/लिखें Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | shape के फ़ॉन्ट सूचकांक को फ़ॉन्ट संग्रह में लौटाता है या सेट करता है। पढ़ें/लिखें [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | एक shape का फ़ॉन्ट रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | एक shape की रूपरेखा रंग लौटाता है। केवल-पढ़ने योग्य [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | line के कॉलम सूचकांक को एक शैली मैट्रिक्स में लौटाता है या सेट करता है। पढ़ें/लिखें UInt16. |
 
-### संदर्भ देखें
+### देखें भी
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Shape](../shape)

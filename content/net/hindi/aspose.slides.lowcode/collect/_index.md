@@ -1,24 +1,24 @@
 ---
 title: Collect
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: विभिन्न प्रकार के मॉडल ऑब्जेक्ट्स को Presentation../aspose.slides/presentation से एकत्र करने के लिए निर्धारित विधियों के समूह को दर्शाता है।
+second_title: Aspose.Sildes .NET API रेफ़रेंस
+description: विभिन्न प्रकार के मॉडल ऑब्जेक्ट्स को Presentation../aspose.slides/presentation से एकत्र करने के लिए अभिप्रेत मेथड्स का समूह दर्शाता है।
 type: docs
 weight: 7860
 url: /hi/aspose.slides.lowcode/collect/
 ---
 ## Collect क्लास
 
-[`Presentation`](../../aspose.slides/presentation) से विभिन्न प्रकार के मॉडल ऑब्जेक्ट्स एकत्र करने के लिए निर्धारित विधियों का समूह दर्शाता है।
+[`Presentation`](../../aspose.slides/presentation) से विभिन्न प्रकार की मॉडल वस्तुओं को एकत्र करने के लिए अभिप्रेत मेथड्स के समूह का प्रतिनिधित्व करता है।
 
 ```csharp
 public static class Collect
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | सभी उदाहरणों को [`Shape`](../../aspose.slides/shape) के [`Presentation`](../../aspose.slides/presentation) में इकट्ठा करता है। |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Shape`](../../aspose.slides/shape) के सभी उदाहरणों को [`Presentation`](../../aspose.slides/presentation) में एकत्र करता है। |
 
 ### उदाहरण
 
@@ -27,12 +27,12 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... shape formatting या अन्य गुण बदलें
+        // ... shape formatting बदलें या अन्य गुण
     }
 }    
 ```
 
-### संबंधित देखें
+### देखे जाएँ
 
 * नामस्थान [Aspose.Slides.LowCode](../../aspose.slides.lowcode)
 * असेंबली [Aspose.Slides](../../)

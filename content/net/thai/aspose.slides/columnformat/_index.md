@@ -1,7 +1,7 @@
 ---
 title: ColumnFormat
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงรูปแบบของคอลัมน์ตาราง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงรูปแบบของคอลัมน์ตาราง
 type: docs
 weight: 2610
 url: /th/aspose.slides/columnformat/
@@ -16,9 +16,9 @@ public sealed class ColumnFormat : DomObject<Column>, IColumnFormat
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/columnformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีประสิทธิภาพรวมถึงการสืบทอดและสไตล์ตารางที่นำไปใช้. |
+| [GetEffective](../../aspose.slides/columnformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบคอลัมน์ตารางที่มีผลโดยคำนึงถึงการสืบทอดและสไตล์ของตารางที่ใช้ |
 
 ### ดูเพิ่มเติม
 

@@ -1,26 +1,27 @@
 ---
 title: IAlphaFloor
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị một hiệu ứng Alpha Floor. Các giá trị độ mờ Alpha dưới 100 sẽ được chuyển thành 0. Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho một hiệu ứng Alpha Floor. Các giá trị độ mờ Alpha dưới 100 được chuyển thành không. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 type: docs
 weight: 3060
 url: /vi/aspose.slides.effects/ialphafloor/
 ---
-## Giao diện IAlphaFloor
+## IAlphaFloor giao diện
 
-Biểu thị hiệu ứng Alpha Floor. Các giá trị Alpha (độ mờ) dưới 100% sẽ được chuyển thành 0. Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
+Đại diện cho một hiệu ứng Alpha Floor. Các giá trị Alpha (độ mờ) dưới 100% được đổi thành không. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
     IImageTransformOperation
 ```
 
+
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ sở. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ sở. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Xem thêm
 

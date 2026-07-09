@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachLayoutSlideCallback
-second_title: Aspose.Sildes 用於 .NET 的 API 參考
-description: 會在簡報中的每個 LayoutSlide./foreach/layoutslide 被呼叫的回呼../aspose.slides/presentation。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 此回呼會在 Presentation../aspose.slides/presentation 中的每個 LayoutSlide./foreach/layoutslide 被呼叫。
 type: docs
 weight: 7910
 url: /zh-hant/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback 委派
+## ForEach.ForEachLayoutSlideCallback delegate
 
-此回呼會在 [`Presentation`](../../aspose.slides/presentation) 中對每個 [`LayoutSlide`](../foreach/layoutslide) 進行呼叫。
+此回呼會在 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`LayoutSlide`](../foreach/layoutslide) 被呼叫。
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 | layoutSlide | LayoutSlide | 目前迭代的版面投影片 |
 | index | Int32 | 目前版面投影片的索引 |
 
-### 參見
+### 另請參閱
 
 * 類別 [LayoutSlide](../../aspose.slides/layoutslide)
 * 類別 [ForEach](../foreach)

@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de afmetingen van het diagebied, breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft, van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft, noch geminimaliseerd noch gemaximaliseerd.
+description: Specificeert de grootte van het slidegebied breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft, noch geminimaliseerd noch gemaximaliseerd.
 type: docs
 weight: 6480
 url: /nl/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties interface
 
-Specificeert de afmetingen van het diagebied ((breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft) van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd).
+Specificeert de grootte van het slidegebied ((breedte wanneer een kind van restoredTop, hoogte wanneer een kind van restoredLeft) van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Specificeert of de grootte van het zijinhoudgebied moet compenseren voor de nieuwe grootte bij het wijzigen van de grootte van het venster dat de weergave binnen de applicatie bevat Lees/schrijf Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Specificeert de grootte van het diagebied (breedte wanneer een kind van RestoredTop, hoogte wanneer een kind van RestoredLeft). Lees/schrijf Single. Gooit een uitzondering wanneer de waarde kleiner is dan 0 of groter dan 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Specificeert of de grootte van de zijinhoudsectie moet compenseren voor de nieuwe grootte bij het aanpassen van het venster dat de weergave binnen de toepassing bevat Lezen/schrijven Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Specificeert de grootte van het slidegebied (breedte wanneer een kind van RestoredTop, hoogte wanneer een kind van RestoredLeft). Lezen/schrijven Single. Gooit een uitzondering wanneer de waarde kleiner is dan 0 of groter dan 100. |
 
 ### Zie ook
 

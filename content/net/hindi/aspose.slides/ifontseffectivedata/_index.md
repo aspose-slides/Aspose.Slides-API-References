@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes के लिए .NET API संदर्श
-description: अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी फ़ॉन्ट सेट होते हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी फ़ॉन्ट सेट रखता है।
 type: docs
 weight: 5910
 url: /hi/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय ऑब्जेक्ट जिसमें प्रभावी फ़ॉन्ट सेट होते हैं।
+ऐसा अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी फ़ॉन्ट सेट रखता है।
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,15 +18,15 @@ public interface IFontsEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | जटिल स्क्रिप्ट फ़ॉन्ट लौटाता है। केवल-पढ़ने-के-लिए [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | पूर्वी एशियाई फ़ॉन्ट लौटाता है। केवल-पढ़ने-के-लिए [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | लैटिन फ़ॉन्ट लौटाता है। केवल-पढ़ने-के-लिए [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | जटिल स्क्रिप्ट फ़ॉन्ट लौटाता है। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | ईस्ट एशियन फ़ॉन्ट लौटाता है। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | लैटिन फ़ॉन्ट लौटाता है। केवल-पढ़ने योग्य [`IFontData`](../ifontdata)। |
 
 ### टिप्पणियाँ
 
-यह इंटरफ़ेस [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) और [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) इंटरफ़ेस का भाग है।
+यह इंटरफ़ेस [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) और [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) इंटरफ़ेसेस का हिस्सा के रूप में उपयोग किया जाता है।
 
-### संबंधित
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

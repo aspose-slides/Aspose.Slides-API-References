@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
-second_title: Aspose.Sildes cho Tài liệu tham khảo API .NET
-description: Biểu diễn các thuộc tính của khung hình dạng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho các thuộc tính của khung hình dạng.
 type: docs
 weight: 9900
 url: /vi/aspose.slides/shapeframe/
 ---
 ## ShapeFrame lớp
 
-Biểu diễn các thuộc tính của khung hình dạng.
+Đại diện cho các thuộc tính của khung hình dạng.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -26,11 +26,11 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Trả về tọa độ X của trung tâm khung. Chỉ đọc Single. |
 | [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Trả về tọa độ Y của trung tâm khung. Chỉ đọc Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Xác định khung có bị lật ngang hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Xác định khung có bị lật dọc hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Xác định xem khung có bị lật ngang hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Xác định xem khung có bị lật dọc hay không. Chỉ đọc [`NullableBool`](../nullablebool). |
 | [Height](../../aspose.slides/shapeframe/height) { get; } | Trả về chiều cao của khung. Chỉ đọc Single. |
 | [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Trả về tọa độ của khung. Chỉ đọc RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Trả về số độ mà khung được xoay quanh trục z. Giá trị dương cho biết quay theo chiều kim đồng hồ; giá trị âm cho biết quay ngược chiều kim đồng hồ. Chỉ đọc Single. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Trả về số độ mà khung được xoay quanh trục z. Giá trị dương biểu thị quay theo chiều kim đồng hồ; giá trị âm biểu thị quay ngược chiều kim đồng hồ. Chỉ đọc Single. |
 | [Width](../../aspose.slides/shapeframe/width) { get; } | Trả về chiều rộng của khung. Chỉ đọc Single. |
 | [X](../../aspose.slides/shapeframe/x) { get; } | Trả về tọa độ X của góc trên-trái của khung. Chỉ đọc Single. |
 | [Y](../../aspose.slides/shapeframe/y) { get; } | Trả về tọa độ Y của góc trên-trái của khung. Chỉ đọc Single. |
@@ -41,8 +41,8 @@ public class ShapeFrame : IShapeFrame
 | --- | --- |
 | [Clone](../../aspose.slides/shapeframe/clone)() | Sao chép |
 | [CloneT](../../aspose.slides/shapeframe/clonet)() | Sao chép. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Trả về giá trị cho biết liệu thể hiện này có bằng với một đối tượng được chỉ định hay không. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Trả về giá trị cho biết liệu thể hiện này có bằng với một đối tượng được chỉ định hay không. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Trả về giá trị cho biết liệu thể hiện này có bằng với một đối tượng đã chỉ định hay không. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Trả về giá trị cho biết liệu thể hiện này có bằng với một đối tượng đã chỉ định hay không. |
 | override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Trả về mã băm cho đối tượng này. |
 
 ### Xem thêm

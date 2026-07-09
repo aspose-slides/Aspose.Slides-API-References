@@ -1,14 +1,14 @@
 ---
 title: ParagraphCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một bộ sưu tập các đoạn văn.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho một tập hợp các đoạn văn.
 type: docs
 weight: 9290
 url: /vi/aspose.slides/paragraphcollection/
 ---
 ## ParagraphCollection lớp
 
-Đại diện cho một bộ sưu tập các đoạn văn.
+Đại diện cho một tập hợp các đoạn văn.
 
 ```csharp
 public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollection
@@ -18,7 +18,7 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Lấy số phần tử thực tế chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [Count](../../aspose.slides/paragraphcollection/count) { get; } | Lấy số lượng phần tử thực tế chứa trong tập hợp. Chỉ đọc Int32. |
 | [IsReadOnly](../../aspose.slides/paragraphcollection/isreadonly) { get; } | Lấy giá trị cho biết ICollection có phải là chỉ đọc hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/paragraphcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. |
 
@@ -26,27 +26,27 @@ public sealed class ParagraphCollection : DomObject<TextFrame>, IParagraphCollec
 
 | Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Thêm một Paragraph vào cuối bộ sưu tập. |
-| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Thêm nội dung của ParagraphCollection vào cuối bộ sưu tập. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Thêm văn bản từ chuỗi html đã chỉ định vào bộ sưu tập. |
-| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Thêm văn bản từ chuỗi html đã chỉ định vào bộ sưu tập. |
-| [Clear](../../aspose.slides/paragraphcollection/clear)() | Xóa tất cả các phần tử khỏi bộ sưu tập. |
+| [Add](../../aspose.slides/paragraphcollection/add#add_1)(IParagraph) | Thêm một Paragraph vào cuối tập hợp. |
+| [Add](../../aspose.slides/paragraphcollection/add#add)(IParagraphCollection) | Thêm nội dung của ParagraphCollection vào cuối tập hợp. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml)(string) | Thêm văn bản từ chuỗi html được chỉ định vào tập hợp. |
+| [AddFromHtml](../../aspose.slides/paragraphcollection/addfromhtml#addfromhtml_1)(string, IExternalResourceResolver, string) | Thêm văn bản từ chuỗi html được chỉ định vào tập hợp. |
+| [Clear](../../aspose.slides/paragraphcollection/clear)() | Xóa tất cả các phần tử khỏi tập hợp. |
 | [Contains](../../aspose.slides/paragraphcollection/contains)(IParagraph) | Xác định ICollection có chứa giá trị cụ thể hay không. |
-| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Sao chép các phần tử của ICollection vào một Array, bắt đầu tại một chỉ mục Array cụ thể. |
+| [CopyTo](../../aspose.slides/paragraphcollection/copyto)(IParagraph[], int) | Sao chép các phần tử của ICollection vào một Mảng, bắt đầu tại một chỉ mục Mảng cụ thể. |
 | [ExportToHtml](../../aspose.slides/paragraphcollection/exporttohtml)(int, int, ITextToHtmlConversionOptions) | Chuyển đổi các đoạn văn được chỉ định sang HTML và trả về dưới dạng đối tượng String. |
-| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
-| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Xác định chỉ mục của mục cụ thể trong IList. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Chèn một Paragraph vào bộ sưu tập tại chỉ mục được chỉ định. |
-| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Chèn nội dung của ParagraphCollection vào bộ sưu tập tại chỉ mục được chỉ định. |
-| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Xóa lần xuất hiện đầu tiên của đối tượng cụ thể khỏi ICollection. |
-| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của bộ sưu tập. |
+| [GetEnumerator](../../aspose.slides/paragraphcollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
+| [IndexOf](../../aspose.slides/paragraphcollection/indexof)(IParagraph) | Xác định chỉ mục của một mục cụ thể trong IList. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert)(int, IParagraph) | Chèn một Paragraph vào tập hợp tại chỉ mục được chỉ định. |
+| [Insert](../../aspose.slides/paragraphcollection/insert#insert_1)(int, IParagraphCollection) | Chèn nội dung của ParagraphCollection vào tập hợp tại chỉ mục được chỉ định. |
+| [Remove](../../aspose.slides/paragraphcollection/remove)(IParagraph) | Xóa lần xuất hiện đầu tiên của một đối tượng cụ thể khỏi ICollection. |
+| [RemoveAt](../../aspose.slides/paragraphcollection/removeat)(int) | Xóa phần tử tại chỉ mục được chỉ định của tập hợp. |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [DomObject&lt;TParent&gt;](../domobject-1)
 * lớp [TextFrame](../textframe)
 * giao diện [IParagraphCollection](../iparagraphcollection)
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: इफ़ेक्ट शैलियों का संग्रह दर्शाता है।
+description: इफ़ेक्ट शैलियों के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 11180
 url: /hi/aspose.slides.theme/ieffectstylecollection/
 ---
 ## IEffectStyleCollection इंटरफ़ेस
 
-इफ़ेक्ट शैलियों का संग्रह प्रतिनिधित्व करता है।
+इफ़ेक्ट शैलियों का एक संग्रह दर्शाता है।
 
 ```csharp
 public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
@@ -18,9 +18,9 @@ public interface IEffectStyleCollection : IGenericCollection<IEffectStyle>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | निर्दिष्ट स्थिति पर एक तत्व लौटाता है। केवल पढ़ने योग्य [`IEffectStyle`](../ieffectstyle)। |
+| [Item](../../aspose.slides.theme/ieffectstylecollection/item) { get; } | निर्दिष्ट स्थिति पर एक तत्व लौटाता है। केवल-पढ़ने योग्य [`IEffectStyle`](../ieffectstyle)। |
 
-### देखें भी
+### देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * इंटरफ़ेस [IEffectStyle](../ieffectstyle)

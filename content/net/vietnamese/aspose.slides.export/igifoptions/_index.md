@@ -1,14 +1,14 @@
 ---
 title: IGifOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các tùy chọn xuất GIF.
+description: Mô tả các tùy chọn xuất GIF.
 type: docs
 weight: 3920
 url: /vi/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions giao diện
 
-Biểu diễn các tùy chọn xuất GIF.
+Mô tả các tùy chọn xuất GIF.
 
 ```csharp
 public interface IGifOptions : ISaveOptions
@@ -19,10 +19,10 @@ public interface IGifOptions : ISaveOptions
 | Tên | Mô tả |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export/igifoptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Lấy hoặc đặt thời gian trì hoãn mặc định [ms]. Giá trị này sẽ được sử dụng nếu [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) chưa được đặt. Giá trị mặc định là 1000. |
-| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Xác định xem các slide ẩn có được xuất hay không. Giá trị mặc định là false. |
+| [DefaultDelay](../../aspose.slides.export/igifoptions/defaultdelay) { get; set; } | Lấy hoặc đặt thời gian trễ mặc định [ms]. Giá trị này sẽ được sử dụng nếu [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) chưa được đặt. Giá trị mặc định là 1000. |
+| [ExportHiddenSlides](../../aspose.slides.export/igifoptions/exporthiddenslides) { get; set; } | Xác định liệu các slide ẩn có được xuất hay không. Giá trị mặc định là false. |
 | [FrameSize](../../aspose.slides.export/igifoptions/framesize) { get; set; } | Lấy hoặc đặt kích thước khung. |
-| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Lấy hoặc đặt FPS chuyển đổi [frames/giây] Giá trị mặc định là 25. |
+| [TransitionFps](../../aspose.slides.export/igifoptions/transitionfps) { get; set; } | Lấy hoặc đặt FPS chuyển tiếp [khung/giây]. Giá trị mặc định là 25. |
 
 ### Xem thêm
 

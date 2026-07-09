@@ -1,14 +1,14 @@
 ---
 title: SplitterBarStateType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Xác định trạng thái mà thanh chia (splitter bar) sẽ được hiển thị. Thanh chia tách một khu vực chính và một khu vực phụ trong một vùng xem.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Xác định trạng thái mà thanh chia sẽ được hiển thị. Thanh chia tách một vùng chính và một vùng phụ trong khu vực xem.
 type: docs
 weight: 10690
 url: /vi/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType liệt kê
 
-Xác định trạng thái mà thanh chia (splitter bar) sẽ được hiển thị. Thanh chia tách một khu vực chính và một khu vực phụ trong một vùng xem.
+Xác định trạng thái mà thanh chia sẽ được hiển thị. Thanh chia tách một vùng chính và một vùng phụ trong khu vực xem.
 
 ```csharp
 public enum SplitterBarStateType
@@ -18,11 +18,11 @@ public enum SplitterBarStateType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Minimized | `0` | Khu vực chính chiếm ít không gian xem nhất được ứng dụng cho phép. |
-| Restored | `1` | Khu vực chính có kích thước trung gian cụ thể. |
-| Maximized | `2` | Khu vực chính chiếm nhiều không gian xem nhất được ứng dụng cho phép. |
+| Minimized | `0` | Vùng chính chiếm lượng không gian xem ít nhất mà ứng dụng cho phép. |
+| Restored | `1` | Vùng chính có kích thước trung gian cụ thể. |
+| Maximized | `2` | Vùng chính chiếm lượng không gian xem lớn nhất mà ứng dụng cho phép. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

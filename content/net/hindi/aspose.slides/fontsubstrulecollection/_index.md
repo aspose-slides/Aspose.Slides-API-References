@@ -1,7 +1,7 @@
 ---
 title: FontSubstRuleCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: फ़ॉन्ट प्रतिस्थापन के संग्रह को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: फ़ॉन्ट प्रतिस्थापन के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 4900
 url: /hi/aspose.slides/fontsubstrulecollection/
@@ -20,25 +20,25 @@ public class FontSubstRuleCollection : IFontSubstRuleCollection
 | --- | --- |
 | [FontSubstRuleCollection](fontsubstrulecollection)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## प्रॉपर्टी
+## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | संग्रह में वास्तविक रूप से मौजूद तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने-योग्य Int32। |
-| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि क्या संग्रह तक पहुँच synchronized (थ्रेड-सेफ़) है। केवल-पढ़ने-योग्य Boolean। |
-| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। |
-| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | एक synchronization root लौटाता है। केवल-पढ़ने-योग्य Object। |
+| [Count](../../aspose.slides/fontsubstrulecollection/count) { get; } | संग्रह में वास्तव में मौजूद तत्वों की संख्या देता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/fontsubstrulecollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुंच सिंक्रनाइज़्ड (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/fontsubstrulecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। |
+| [SyncRoot](../../aspose.slides/fontsubstrulecollection/syncroot) { get; } | एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | नया फ़ॉन्ट प्रतिस्थापन नियम संग्रह में जोड़ता है |
-| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट array में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
-| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | संग्रह से किसी विशिष्ट object की पहली उपस्थिति को हटाता है। |
+| [Add](../../aspose.slides/fontsubstrulecollection/add)(IFontSubstRule) | संग्रह में नया फ़ॉन्ट प्रतिस्थापन नियम जोड़ता है। |
+| [CopyTo](../../aspose.slides/fontsubstrulecollection/copyto)(Array, int) | संग्रह के सभी तत्वों को निर्दिष्ट एरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/fontsubstrulecollection/getenumerator)() | एक एन्यूमरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
+| [Remove](../../aspose.slides/fontsubstrulecollection/remove)(IFontSubstRule) | संग्रह से विशिष्ट ऑब्जेक्ट की पहली उपस्थिति को हटाता है। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IFontSubstRuleCollection](../ifontsubstrulecollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

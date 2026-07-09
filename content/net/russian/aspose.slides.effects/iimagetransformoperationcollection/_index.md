@@ -1,15 +1,14 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes для .NET Справочник по API
-description: Представляет коллекцию эффектов, примененных к изображению.
+second_title: Aspose.Sildes для .NET справочник API
+description: Представляет коллекцию эффектов, применяемых к изображению.
 type: docs
-weight: 3280
+weight: 3400
 url: /ru/aspose.slides.effects/iimagetransformoperationcollection/
 ---
+## IImageTransformOperationCollection интерфейс
 
-## Интерфейс IImageTransformOperationCollection
-
-Представляет коллекцию эффектов, примененных к изображению.
+Представляет коллекцию эффектов, применяемых к изображению.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -17,14 +16,14 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 ## Свойства
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Возвращает [`IImageTransformOperation`](../iimagetransformoperation) из коллекции по его индексу. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | Возвращает интерфейс IEnumerable. Только для чтения IEnumerable. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | Возвращает [`IImageTransformOperation`](../iimagetransformoperation) из коллекции по его индексу. |
 
 ## Методы
 
-| Название | Описание |
+| Имя | Описание |
 | --- | --- |
 | [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | Добавляет новый эффект Alpha Bi-Level в конец коллекции. |
 | [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | Добавляет новый эффект Alpha Ceiling в конец коллекции. |
@@ -33,22 +32,23 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 | [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | Добавляет новый эффект Alpha Modulate в конец коллекции. |
 | [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | Добавляет новый эффект Alpha Modulate Fixed в конец коллекции. |
 | [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | Добавляет новый эффект Alpha Replace в конец коллекции. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Добавляет новый эффект Bi-Level (черный/белый) в конец коллекции. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Добавляет новый эффект Blur в конец коллекции. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | Добавляет новый эффект Bi-Level (black/white) в конец коллекции. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | Добавляет новый эффект Blur в конец коллекции. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | Добавляет новый эффект BrightnessContrast в конец коллекции. |
 | [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | Добавляет новый эффект Color Change в конец коллекции. |
 | [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | Добавляет новый эффект Color Replacement в конец коллекции. |
 | [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | Добавляет новый эффект Duotone в конец коллекции. |
 | [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | Добавляет новый эффект Fill Overlay в конец коллекции. |
 | [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | Добавляет новый эффект Gray Scale в конец коллекции. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Добавляет новый эффект Hue/Saturation/Luminance в конец коллекции. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Добавляет новый эффект Luminance в конец коллекции. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Добавляет новый эффект Tint в конец коллекции. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | Добавляет новый эффект Hue/Saturation/Luminance в конец коллекции. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | Добавляет новый эффект Luminance в конец коллекции. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | Добавляет новый эффект Tint в конец коллекции. |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | Удаляет эффект изображения из коллекции по указанному индексу. |
 
 ### См. также
 
-* интерфейс [IImageTransformOperation](../iimagetransformoperation)
-* пространство имен [Aspose.Slides.Effects](../../aspose.slides.effects)
-* сборка [Aspose.Slides](../../)
+* интерфейс [IImageTransformOperation](../iimagetransformoperation)
+* пространство имён [Aspose.Slides.Effects](../../aspose.slides.effects)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

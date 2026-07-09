@@ -1,7 +1,7 @@
 ---
 title: GeneratePresentation
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Generuje instancję prezentacji na podstawie opisu tekstowego. Dostarcz temat, pomysły, cytaty lub fragmenty tekstu w wymaganym języku.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Generuje instancję prezentacji na podstawie opisu tekstowego. Podaj temat, pomysły, cytaty lub fragmenty tekstu w wymaganym języku.
 type: docs
 weight: 20
 url: /pl/aspose.slides.ai/slidesaiagent/generatepresentation/
@@ -24,9 +24,17 @@ public IPresentation GeneratePresentation(string description,
 
 | wyjątek | warunek |
 | --- | --- |
-| ArgumentException | Instrukcja czatu AI nie może być pusta ani null. |
+| ArgumentException | Instrukcja czatu AI nie może mieć wartości null ani być pusta. |
 
-### Zobacz również
+### Uwagi
+
+Przykład poniżej używa domyślnego [`AsposeAIWebClient`](../../asposeaiwebclient), który jest tworzony przez konstruktor bez parametrów [`SlidesAIAgent`](../slidesaiagent) i łączy się z własnym LLM firmy Aspose. Aby użyć innego dostawcy AI, dostarczyć własny LLM lub dostosować połączenie (na przykład, podając własny `HttpClient`), przekaż implementację [`IAIWebClient`](../../iaiwebclient) do konstruktora [`SlidesAIAgent`](../slidesaiagent). Dostępne implementacje obejmują:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Zobacz także
 
 * interfejs [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -55,10 +63,18 @@ public IPresentation GeneratePresentation(string description,
 
 | wyjątek | warunek |
 | --- | --- |
-| ArgumentNullException | Szablon prezentacji nie został dostarczony. |
-| ArgumentException | Instrukcja czatu AI nie może być pusta ani null. |
+| ArgumentNullException | Szablon prezentacji nie został podany. |
+| ArgumentException | Instrukcja czatu AI nie może mieć wartości null ani być pusta. |
 
-### Zobacz również
+### Uwagi
+
+Przykład poniżej używa domyślnego [`AsposeAIWebClient`](../../asposeaiwebclient), który jest tworzony przez konstruktor bez parametrów [`SlidesAIAgent`](../slidesaiagent) i łączy się z własnym LLM firmy Aspose. Aby użyć innego dostawcy AI, dostarczyć własny LLM lub dostosować połączenie (na przykład, podając własny `HttpClient`), przekaż implementację [`IAIWebClient`](../../iaiwebclient) do konstruktora [`SlidesAIAgent`](../slidesaiagent). Dostępne implementacje obejmują:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### Zobacz także
 
 * interfejs [IPresentation](../../../aspose.slides/ipresentation)
 * enum [PresentationContentAmountType](../../presentationcontentamounttype)

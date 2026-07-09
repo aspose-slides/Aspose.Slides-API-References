@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบแยก
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบแยก.
 type: docs
 weight: 10330
 url: /th/aspose.slides.slideshow/splittransition/
 ---
-## คลาส SplitTransition
+## SplitTransition คลาส
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบแยก
+เอฟเฟกต์การเปลี่ยนสไลด์แบบแยก.
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -16,17 +16,17 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | ทิศทางของการแบ่งการเปลี่ยนแปลง อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | การวางแนวของการแบ่งการเปลี่ยนแปลง อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | ทิศทางของการแยกการเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | ทิศทางการวางของการแยกการเปลี่ยน. อ่าน/เขียน [`Orientation`](../../aspose.slides/orientation). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่างของ TransitionValueBase ทั้งสองเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองอันเท่ากันหรือไม่. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่งที่เหมาะสำหรับการใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่นตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

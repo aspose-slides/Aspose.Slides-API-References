@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkin resim özelliklerini içeren değiştirilemez nesne.
+description: Etkin resim özelliklerini içeren değişmez nesne.
 type: docs
-weight: 6620
+weight: 6640
 url: /tr/aspose.slides/ipictureeffectivedata/
 ---
-## IPictureEffectiveData arayüz
+## IPictureEffectiveData arayüzü
 
-Etkin resim özelliklerini içeren değiştirilemez nesne.
+Etkin resim özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,13 +18,13 @@ public interface IPictureEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Gömülü resmi döndürür. Yalnızca okunabilir [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Resim dönüşüm etkileri koleksiyonunu döndürür. Yalnızca okunabilir [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Bağlantılı resmin URL'sini döndürür. Yalnızca okunabilir String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Gömülü resmi döndürür. Salt okunur [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Resim dönüşüm efektlerinin koleksiyonunu döndürür. Salt okunur [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Bağlantılı resmin URL'sini döndürür. Salt okunur String. |
 
 ### Açıklamalar
 
-Bu arayüz [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) ve [`IBulletFormatEffectiveData`](../ibulletformateffectivedata)'nin bir parçası olarak kullanılır.
+Bu arayüz [`IPictureFillFormatEffectiveData`](../ipicturefillformateffectivedata) ve [`IBulletFormatEffectiveData`](../ibulletformateffectivedata) bir parçası olarak kullanılır.
 
 ### Ayrıca Bakınız
 

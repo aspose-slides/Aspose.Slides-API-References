@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideHeaderFooterManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en hanterare som innehåller beteendet för master handout slide-platshållarna inklusive sidhuvud-platshållare.
+description: Representerar en hanterare som innehåller beteendet för master handout-slide-platshållare inklusive sidhuvud-platshållare.
 type: docs
-weight: 6340
+weight: 6360
 url: /sv/aspose.slides/imasterhandoutslideheaderfootermanager/
 ---
 ## IMasterHandoutSlideHeaderFooterManager gränssnitt
 
-Representerar en hanterare som innehåller beteendet för masterhandoutslidesplatshållarna, inklusive sidhuvudplatsshållare.
+Representerar en hanterare som innehåller beteendet för master handout-slide-platshållare, inklusive sidhuvud-platshållare.
 
 ```csharp
 public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlideHeaderFooterManag
@@ -18,9 +18,9 @@ public interface IMasterHandoutSlideHeaderFooterManager : IBaseHandoutNotesSlide
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Returnerar IBaseHandoutNotesSlideHeaderFooterManag gränssnitt. |
+| [AsIBaseHandoutNotesSlideHeaderFooterManag](../../aspose.slides/imasterhandoutslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag) { get; } | Returnerar gränssnittet IBaseHandoutNotesSlideHeaderFooterManag. |
 
-### Se också
+### Se även
 
 * gränssnitt [IBaseHandoutNotesSlideHeaderFooterManag](../ibasehandoutnotesslideheaderfootermanag)
 * namnrymd [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: MotionEffect
-second_title: Referência da API Aspose.Sildes for .NET
-description: Representa o comportamento do efeito de movimento do efeito.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o comportamento do efeito de movimento.
 type: docs
-weight: 650
+weight: 670
 url: /pt/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect classe
 
-Representa o comportamento do efeito de movimento do efeito.
+Representa o comportamento de efeito de movimento do efeito.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -27,21 +27,21 @@ public class MotionEffect : Behavior, IMotionEffect
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa se o comportamento de animação atual é combinado com outras animações em execução. Leitura/gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Descreve o ângulo relativo do caminho de movimento. Leitura/gravação Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação (em porcentagem). Leitura/gravação PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Especifica uma coordenada x/y para iniciar a animação (em porcentagem). Leitura/gravação PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Especifica qual é a origem do caminho de movimento em relação, por exemplo, ao layout do slide ou ao pai. Leitura/gravação [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Especifica o elemento primitivo do caminho seguido por coordenadas para o movimento da animação. Leitura/gravação [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Especifica como o caminho de movimento se desloca quando a forma é movida. Leitura/gravação [`MotionPathEditMode`](../motionpatheditmode). |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Descreve o valor de deslocamento relativo para a animação (em porcentagens). Leitura/gravação PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Especifica uma coordenada x/y para iniciar a animação (em porcentagens). Leitura/gravação PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Especifica qual é a origem do caminho de movimento em relação a algo como o layout do slide ou o elemento pai. Leitura/gravação [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Especifica o caminho primitivo seguido por coordenadas para o movimento da animação. Leitura/gravação [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Especifica como o caminho de movimento se comporta quando a forma é movida. Leitura/gravação [`MotionPathEditMode`](../motionpatheditmode). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Descreve o centro da rotação usado para girar um caminho de movimento em ângulo X. Leitura/gravação PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de temporização para o comportamento do efeito. Leitura/gravação [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Especifica a localização alvo para um efeito de movimento de animação (em porcentagem). Leitura/gravação PointF. |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Descreve o centro da rotação usado para girar um caminho de movimento por X ângulo. Leitura/gravação PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de tempo para o comportamento do efeito. Leitura/gravação [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Especifica a localização de destino para um efeito de movimento de animação (em porcentagens). Leitura/gravação PointF. |
 
 ### Veja Também
 
 * classe [Behavior](../behavior)
 * interface [IMotionEffect](../imotioneffect)
-* espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)
+* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

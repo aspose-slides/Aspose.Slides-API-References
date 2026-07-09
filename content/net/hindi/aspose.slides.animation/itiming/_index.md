@@ -1,14 +1,14 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनीमेशन टाइमिंग का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एनिमेशन टाइमिंग का प्रतिनिधित्व करता है।
 type: docs
 weight: 640
 url: /hi/aspose.slides.animation/itiming/
 ---
 ## ITiming इंटरफ़ेस
 
-एनीमेशन टाइमिंग का प्रतिनिधित्व करता है।
+Represents animation timing.
 
 ```csharp
 public interface ITiming
@@ -18,23 +18,23 @@ public interface ITiming
 
 | नाम | विवरण |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | अवधि में त्वरित व्यवहार प्रभाव के प्रतिशत का वर्णन करता है। पढ़ें/लिखें Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | यह बताता है कि क्या एनीमेशन को आगे की दिशा में चलाने के बाद स्वचालित रूप से उल्टे दिशा में चलना चाहिए। पढ़ें/लिखें Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | अवधि में मंद करने वाले व्यवहार प्रभाव के प्रतिशत का वर्णन करता है। पढ़ें/लिखें Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | एनीमेशन प्रभाव की अवधि का वर्णन करता है। पढ़ें/लिखें Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | प्रभाव को दोहराने की संख्या का वर्णन करता है। पढ़ें/लिखें Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | प्रभाव को दोहराने की संख्या का वर्णन करता है। पढ़ें/लिखें Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | यह विशेषता निर्धारित करती है कि प्रभाव स्लाइड के अंत तक दोहराया जाएगा या नहीं। पढ़ें/लिखें Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | यह विशेषता निर्धारित करती है कि प्रभाव अगली क्लिक तक दोहराया जाएगा या नहीं। पढ़ें/लिखें Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | निर्धारित करता है कि क्या प्रभाव पूर्ण होने के बाद पुनः शुरू होगा। पढ़ें/लिखें [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | यह विशेषता तय करती है कि प्रभाव समाप्त होने पर रिवाइंड होगा या नहीं। पढ़ें/लिखें Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | टाइमिंग को तेज़ (या धीमा) करने का प्रतिशत निर्दिष्ट करता है। पढ़ें/लिखें Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | ट्रिगर के बाद विलंब समय का वर्णन करता है। पढ़ें/लिखें Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | ट्रिगर प्रकार का वर्णन करता है। पढ़ें/लिखें [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | अवधि के तेज़ी व्यवहार प्रभाव का प्रतिशत बताता है। पढ़ें/लिखें Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | यह बताता है कि क्या एनीमेशन को आगे की दिशा में चलाने के बाद स्वतः उल्टा चलाया जाए। पढ़ें/लिखें Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | अवधि के मंदी व्यवहार प्रभाव का प्रतिशत बताता है। पढ़ें/लिखें Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | एनीमेशन प्रभाव की अवधि बताता है। पढ़ें/लिखें Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | प्रभाव के दोहराए जाने की संख्या बताता है। पढ़ें/लिखें Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | प्रभाव के दोहराए जाने की संख्या बताता है। पढ़ें/लिखें Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | यह गुण निर्दिष्ट करता है कि प्रभाव स्लाइड के अंत तक दोहराया जाएगा या नहीं। पढ़ें/लिखें Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | यह गुण निर्दिष्ट करता है कि प्रभाव अगले क्लिक तक दोहराया जाएगा या नहीं। पढ़ें/लिखें Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | यह निर्धारित करता है कि क्या प्रभाव पूर्ण होने के बाद पुनः शुरू होगा। पढ़ें/लिखें [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | यह गुण निर्दिष्ट करता है कि प्रभाव चलना समाप्त होने पर पुनः चलाया जाएगा या नहीं। पढ़ें/लिखें Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | समय को तेज़ (या धीमा) करने के प्रतिशत को निर्दिष्ट करता है। पढ़ें/लिखें Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | ट्रिगर के बाद विलंब समय बताता है। पढ़ें/लिखें Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | ट्रिगर प्रकार बताता है। पढ़ें/लिखें [`EffectTriggerType`](../effecttriggertype). |
 
-### देखें
+### संबंधित देखें
 
-* नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
+* नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

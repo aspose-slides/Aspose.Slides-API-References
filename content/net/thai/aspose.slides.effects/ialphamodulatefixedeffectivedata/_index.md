@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixedEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์ถูกคูณด้วยเปอร์เซ็นต์คงที่.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อ็อบเจกต์แบบไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed ค่าอัลฟ่าความทึบของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
 type: docs
 weight: 3130
 url: /th/aspose.slides.effects/ialphamodulatefixedeffectivedata/
 ---
 ## IAlphaModulateFixedEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์ถูกคูณด้วยเปอร์เซ็นต์คงที่.
+อ็อบเจกต์แบบไม่เปลี่ยนแปลงที่เป็นตัวแทนของเอฟเฟกต์ Alpha Modulate Fixed ค่า alpha (ความทึบ) ของเอฟเฟกต์จะถูกคูณด้วยเปอร์เซ็นต์คงที่.
 
 ```csharp
 public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaModulateFixedEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | ส่งคืนปริมาณของเอฟเฟกต์เป็นเปอร์เซ็นต์. อ่านอย่างเดียว Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/amount) { get; } | ส่งคืนจำนวนของเอฟเฟกต์เป็นเปอร์เซ็นต์ อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulatefixedeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับ IEffectEffectiveData อินเทอร์เฟซพื้นฐาน อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

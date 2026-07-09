@@ -1,6 +1,6 @@
 ---
 title: IOutputSaver
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 출력 저장 서비스를 나타냅니다.
 type: docs
 weight: 4610
@@ -18,9 +18,9 @@ public interface IOutputSaver
 
 | 이름 | 설명 |
 | --- | --- |
-| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 주어진 경로에 출력 파일을 저장합니다. |
+| [Save](../../aspose.slides.export.web/ioutputsaver/save)(string, IOutputFile) | 지정된 경로에 출력 파일을 저장합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: PresentationInfo
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Informatie over presentatiebestand
+description: Informatie over presentiebestand
 type: docs
 weight: 9620
 url: /nl/aspose.slides/presentationinfo/
@@ -20,7 +20,7 @@ public sealed class PresentationInfo : IPresentationInfo
 | --- | --- |
 | [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | Geeft True terug als de gekoppelde presentatie versleuteld is, anders False. Alleen-lezen Boolean. |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | Geeft een waarde die aangeeft of de gekoppelde presentatie beschermd is met een wachtwoord om te openen. |
-| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Geeft een waarde die aangeeft of de gekoppelde presentatie schrijfbeveiligd is. |
+| [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | Geeft een waarde die aangeeft of de gekoppelde presentatie schrijfbeschermd is. |
 | [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | Geeft het formaat van de gekoppelde presentatie. Alleen-lezen [`LoadFormat`](../loadformat). |
 
 ## Methoden
@@ -28,11 +28,11 @@ public sealed class PresentationInfo : IPresentationInfo
 | Naam | Beschrijving |
 | --- | --- |
 | [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | Controleert of een wachtwoord correct is voor een presentatie die beschermd is met een open wachtwoord. |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Controleert of een wijzigingswachtwoord correct is voor een schrijfbeveiligde presentatie. |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Geeft de documenteigenschappen van de gekoppelde presentatie. |
-| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Werkt de eigenschappen van de gekoppelde presentatie bij. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Schrijft de gekoppelde presentatie naar een stream. |
-| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Schrijft de gekoppelde presentatie naar een bestand. |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | Controleert of een wijzigingswachtwoord correct is voor een schrijfbeschermde presentatie. |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | Geeft documenteigenschappen van de gekoppelde presentatie. |
+| [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | Werkt eigenschappen van de gekoppelde presentatie bij. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | Schrijft gekoppelde presentatie naar stream. |
+| [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | Schrijft gekoppelde presentatie naar bestand. |
 
 ### Zie ook
 

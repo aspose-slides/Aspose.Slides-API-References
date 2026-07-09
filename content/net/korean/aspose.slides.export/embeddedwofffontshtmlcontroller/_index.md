@@ -1,14 +1,14 @@
 ---
 title: EmbeddedWoffFontsHtmlController
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: WOFF 형식으로 글꼴을 포함하기 위해 사용할 형식 지정 컨트롤러 클래스
+second_title: Aspose.Sildes for .NET API 참조
+description: WOFF 형식으로 글꼴을 삽입하기 위해 사용하는 포맷팅 컨트롤러 클래스
 type: docs
 weight: 3790
 url: /ko/aspose.slides.export/embeddedwofffontshtmlcontroller/
 ---
 ## EmbeddedWoffFontsHtmlController 클래스
 
-WOFF 형식으로 글꼴을 포함하기 위해 사용할 형식 지정 컨트롤러 클래스
+WOFF 형식으로 글꼴을 삽입하기 위해 사용하는 포맷팅 컨트롤러 클래스
 
 ```csharp
 public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
@@ -21,7 +21,7 @@ public class EmbeddedWoffFontsHtmlController : IEmbeddedWoffFontsHtmlController
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor)() | 새 인스턴스를 생성합니다. |
 | [EmbeddedWoffFontsHtmlController](embeddedwofffontshtmlcontroller#constructor_1)(IHtmlFormattingController) | 새 인스턴스를 생성합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IEmbeddedWoffFontsHtmlController](../iembeddedwofffontshtmlcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

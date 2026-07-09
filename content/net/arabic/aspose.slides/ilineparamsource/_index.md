@@ -1,6 +1,6 @@
 ---
 title: ILineParamSource
-second_title: Aspose.Sildes لمرجع API .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: واجهة معلمات الخط المساعدة.
 type: docs
 weight: 6330

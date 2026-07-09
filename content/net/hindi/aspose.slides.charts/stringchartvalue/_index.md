@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में 2) एक लिटरल मान के रूप में।
+description: pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहित किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में, 2) लिटरल मान के रूप में।
 type: docs
 weight: 2410
 url: /hi/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue क्लास
 
-pptx प्रस्तुति दस्तावेज़ में स्ट्रिंग मान को दो तरीकों से संग्रहीत किया जा सकता है: 1) चार्ट से संबंधित वर्कबुक की सेल/सेलों में; 2) एक लिटरल मान के रूप में।
+Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -18,20 +18,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 | नाम | विवरण |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Null मान असाइन करना अनुमत नहीं है। लौटाया गया मान हमेशा null नहीं होता। पढ़ें/लिखें [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | मान को लिटरल स्ट्रिंग के रूप में प्राप्त या सेट करता है। पढ़ें/लिखें String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data ऑब्जेक्ट को प्राप्त या सेट करता है। पढ़ें/लिखें Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | यह निर्धारित करता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी वंशजों में वास्तविक है या नहीं। अन्य शब्दों में यह Data प्रॉपर्टी के मान के प्रकार को निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | null मान का असाइनमेंट अनुमति नहीं है। वापसी मान हमेशा null नहीं होता। पढ़ें/लिखें [`IChartCellCollection`](../ichartcellcollection)। |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | मान को लिटरल स्ट्रिंग के रूप में लौटाता है या सेट करता है। पढ़ें/लिखें String। |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Data ऑब्जेक्ट को लौटाता है या सेट करता है। पढ़ें/लिखें Object। |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | बताता है कि AsCell, AsCells, AsLiteralString या AsLiteralDouble प्रॉपर्टी वंशजों में वास्तविक है या नहीं। दूसरे शब्दों में यह Data प्रॉपर्टी के मान का प्रकार निर्दिष्ट करता है। पढ़ें/लिखें [`DataSourceType`](../datasourcetype)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | यदि DataSourceType प्रॉपर्टी DataSourceType.Worksheet है तो यह मेथड वर्कबुक की उन सेल्स का पता लौटाता है जो स्ट्रिंग डेटा को दर्शाते हैं। अन्यथा खाली स्ट्रिंग लौटाता है। |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | निर्दिष्ट सेल से मान सेट करता है। |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | स्ट्रिंग मान डेटा लौटाता है। यदि DataSourceType false है और कोई स्ट्रिंग मान असाइन नहीं किया गया है तो null वापस करें। |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | यदि DataSourceType प्रॉपर्टी DataSourceType.Worksheet है तो यह विधि वर्कबुक में उन कोशिकाओं का पता लौटाती है जो स्ट्रिंग डेटा का प्रतिनिधित्व करती हैं। अन्यथा खाली स्ट्रिंग लौटाती है। |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | निर्दिष्ट कोशिका से मान सेट करता है। |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | स्ट्रिंग मान डेटा लौटाता है। यदि DataSourceType गलत है और कोई स्ट्रिंग मान असाइन नहीं किया गया है तो null लौटाता है। |
 
-### संबंधित देखें
+### संदर्भ देखें
 
 * क्लास [BaseChartValue](../basechartvalue)
 * इंटरफ़ेस [IStringChartValue](../istringchartvalue)

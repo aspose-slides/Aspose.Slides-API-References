@@ -3,7 +3,7 @@ title: IInnerShadow
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un effetto di ombra interna.
 type: docs
-weight: 3400
+weight: 3420
 url: /it/aspose.slides.effects/iinnershadow/
 ---
 ## IInnerShadow interfaccia
@@ -19,12 +19,12 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Consente di ottenere l'interfaccia base IAccessiblePVIObject. Sola lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Consente di ottenere l'interfaccia base IImageTransformOperation. Sola lettura [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Raggio sfocatura. Lettura/scrittura Double. |
-| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direzione dell'ombra. Lettura/scrittura Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distanza dell'ombra. Lettura/scrittura Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Colore dell'ombra. Sola lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | Consente di ottenere l’interfaccia base IAccessiblePVIObject. Solo lettura [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | Consente di ottenere l’interfaccia base IImageTransformOperation. Solo lettura [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | Raggio della sfocatura. Lettura/scrittura Double. |
+| [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | Direzione dell’ombra. Lettura/scrittura Single. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | Distanza dell’ombra. Lettura/scrittura Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | Colore dell’ombra. Solo lettura [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### Vedi anche
 

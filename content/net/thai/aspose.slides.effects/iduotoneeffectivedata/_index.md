@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแทนค่าผลกระทบ Duotone โดยสำหรับแต่ละพิกเซลจะผสม clr1 และ clr2 ผ่านการแทรกเชิงเส้นเพื่อกำหนดสีใหม่ของพิกเซลนั้น
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะผสม clr1 และ clr2 ผ่านการประมาณเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลดังกล่าว.
 type: docs
 weight: 3270
 url: /th/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งแทนค่าผลกระทบ Duotone. สำหรับแต่ละพิกเซล จะผสม clr1 และ clr2 ผ่านการแทรกเชิงเส้นเพื่อกำหนดสีใหม่ของพิกเซลนั้น
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงถึงเอฟเฟกต์ Duotone. สำหรับแต่ละพิกเซล จะรวม clr1 และ clr2 ผ่านการประมาณเชิงเส้นเพื่อกำหนดสีใหม่สำหรับพิกเซลดังกล่าว.
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐานได้. อ่านเท่านั้น [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | คืนค่ารูปแบบสีเป้าหมายสำหรับพิกเซลที่มืด. อ่านเท่านั้น Color. |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | คืนค่ารูปแบบสีเป้าหมายสำหรับพิกเซลที่สว่าง. อ่านเท่านั้น Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีเข้ม. อ่านอย่างเดียว Color. |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | ส่งคืนรูปแบบสีเป้าหมายสำหรับพิกเซลสีอ่อน. อ่านอย่างเดียว Color. |
 
 ### ดูเพิ่มเติม
 

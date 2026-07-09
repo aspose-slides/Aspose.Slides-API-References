@@ -1,14 +1,14 @@
 ---
 title: Behavior
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkinin temel sınıf davranışını temsil eder.
+description: Efektin temel sınıf davranışını temsil eder.
 type: docs
-weight: 120
+weight: 140
 url: /tr/aspose.slides.animation/behavior/
 ---
-## Behavior sınıfı
+## Davranış sınıfı
 
-Etkinin temel sınıf davranışını temsil eder.
+Efektin temel sınıf davranışını temsil eder.
 
 ```csharp
 public abstract class Behavior : IBehavior
@@ -18,12 +18,12 @@ public abstract class Behavior : IBehavior
 
 | Ad | Açıklama |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okuma/yazma [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okuma/yazma [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Salt okunur [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Etki davranışı için zamanlama özelliklerini temsil eder. Okuma/yazma [`ITiming`](../itiming). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Animasyon davranışlarının birikip birikmediğini temsil eder. Okunabilir/yazılabilir [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Mevcut animasyon davranışının diğer çalışan animasyonlarla birleştirilip birleştirilmediğini temsil eder. Okunabilir/yazılabilir [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Davranışın özelliklerini temsil eder. Yalnızca okunabilir [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Efekt davranışı için zamanlama özelliklerini temsil eder. Okunabilir/yazılabilir [`ITiming`](../itiming). |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * arayüz [IBehavior](../ibehavior)
 * ad alanı [Aspose.Slides.Animation](../../aspose.slides.animation)

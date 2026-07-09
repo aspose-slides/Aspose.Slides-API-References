@@ -1,9 +1,9 @@
 ---
 title: DataLabel
 second_title: Aspose.Sildes için .NET API Referansı
-description: Seri etiketlerini temsil eder.
+description: Bir serinin etiketlerini temsil eder.
 type: docs
-weight: 1530
+weight: 1550
 url: /tr/aspose.slides.charts/datalabel/
 ---
 ## DataLabel sınıfı
@@ -24,32 +24,32 @@ public class DataLabel : IDataLabel
 
 | Ad | Açıklama |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Grafik öğesinin sol üst köşeye göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Grafik öğesinin sol üst köşeye göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() yöntemini çağırın. Read Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Alt. Read-only Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Üst grafiği döndürür. Read-only [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Veri etiketi biçimini döndürür. Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Başlığın yüksekliğini, grafiğin yüksekliğine oran olarak döndürür veya ayarlar. Read/write Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False, veri etiketinin görünür olmadığını (ve dolayısıyla tüm Show*-bayrakları (ShowValue, ...) false olduğunu) ifade eder. Read-only Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Sağ. Read-only Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Metin biçimini döndürür. Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketinin otomatik oluşturulan metnini geçersiz kılar. Veri etiketinin otomatik oluşturulan metni, ShowSeriesName, ShowValue, ... özellikleriyle yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilen metindir. Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Belirtilen grafik öğesinin gerçek yüksekliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Belirtilen grafik öğesinin gerçek genişliğini belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Read Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Belirtilen grafik öğesinin sol üst köşeye göre gerçek x konumunu (sol) belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Read Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Belirtilen grafik öğesinin sol üst köşeye göre gerçek üst konumunu belirtir. Gerçek değerleri almak için önce IChart.ValidateChartLayout() metodunu çağırın. Read Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Alt. Salt okunur Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Üst grafiği döndürür. Salt okunur [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Veri etiketi biçimini döndürür. Salt okunur [`IDataLabelFormat`](../idatalabelformat). |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Bir başlığın yüksekliğini, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False, veri etiketinin görünür olmadığını (ve bu yüzden tüm Show*-bayraklarının (ShowValue, ...) false olduğunu) gösterir. Salt okunur Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Sağ. Salt okunur Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Metin biçimini döndürür. Salt okunur [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Zengin biçimlendirilmiş metin içerebilir. Bu özellik null değilse, bu biçimlendirilmiş metin değeri veri etiketinin otomatik oluşturulan metninin üzerine yazar. Veri etiketinin otomatik oluşturulan metni, ShowSeriesName, ShowValue, ... özellikleri tarafından yönetilen ve TextFormatManager.TextFormat özelliğiyle biçimlendirilmiş metni ifade eder. Salt okunur [`ITextFrame`](../../aspose.slides/itextframe). |
 | [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Çalışma kitabı veri hücresini alır veya ayarlar. IDataLabelFormat.ShowLabelValueFromCell özelliği true olduğunda uygulanır. |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Başlığın genişliğini, grafiğin genişliğine oran olarak döndürür veya ayarlar. Read/write Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Başlığın x koordinatını, grafiğin genişliğine oran olarak döndürür veya ayarlar. Read/write Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Başlığın y koordinatını, grafiğin yüksekliğine oran olarak döndürür veya ayarlar. Read/write Single. |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Bir başlığın genişliğini, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single. |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Bir başlığın x koordinatını, grafiğin genişliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single. |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Bir başlığın y koordinatını, grafiğin yüksekliğinin bir kesri olarak döndürür veya ayarlar. Okunur/Yazılabilir Single. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Parametre "text" içindeki metinle TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatılmışsa yalnızca metnini değiştirir. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat ayarları veya TextFrameForOverriding.Text değerine göre gerçek etiket metnini döndürür. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizler. Bu işlemden sonra IsVisible false olur. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Parametre "text" içindeki metinle TextFrameForOverriding'i başlatır. TextFrameForOverriding zaten başlatıldıysa, sadece metnini değiştirir. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | DataLabelFormat ayarlarına veya TextFrameForOverriding.Text değerine göre gerçek etiket metnini döndürür. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Tüm Show*-bayraklarını (ShowValue, ...) false durumuna ayarlayarak veri etiketini gizler. IsVisible bundan sonra false olur. |
 
-### Bkz.
+### Ayrıca Bakınız
 
 * arayüz [IDataLabel](../idatalabel)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

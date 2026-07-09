@@ -8,7 +8,7 @@ url: /nl/aspose.slides/iinterruptiontokensource/
 ---
 ## IInterruptionTokenSource interface
 
-Stelt de bron van [`IInterruptionToken`](../iinterruptiontoken) voor.
+Vertegenwoordigt de bron van [`IInterruptionToken`](../iinterruptiontoken).
 
 ```csharp
 public interface IInterruptionTokenSource
@@ -19,13 +19,13 @@ public interface IInterruptionTokenSource
 | Naam | Beschrijving |
 | --- | --- |
 | [IsInterruptionRequested](../../aspose.slides/iinterruptiontokensource/isinterruptionrequested) { get; } | Retourneert true als onderbreking is aangevraagd, anders false. |
-| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Retourneert een nieuw token dat aan deze [`IInterruptionTokenSource`](../iinterruptiontokensource) is gekoppeld. |
+| [Token](../../aspose.slides/iinterruptiontokensource/token) { get; } | Retourneert een nieuw token gekoppeld aan deze [`IInterruptionTokenSource`](../iinterruptiontokensource). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Intialize verzoek voor onderbreking. |
+| [Interrupt](../../aspose.slides/iinterruptiontokensource/interrupt)() | Initialiseer verzoek voor onderbreking. |
 
 ### Zie ook
 

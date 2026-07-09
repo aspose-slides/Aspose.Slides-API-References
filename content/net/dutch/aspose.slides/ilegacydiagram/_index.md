@@ -18,14 +18,14 @@ public interface ILegacyDiagram : IGraphicalObject
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Stelt toe om de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides/ilegacydiagram/asigraphicalobject) { get; } | Staat toe de basis IGraphicalObject interface op te halen. Alleen-lezen [`IGraphicalObject`](../igraphicalobject). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Converteert legacy-diagram naar een bewerkbare groepvorm. Het aangemaakte GroupShape-object wordt toegevoegd aan de bovenliggende groepvorm op dezelfde positie. |
-| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Converteert legacy-diagram naar een bewerkbaar SmartArt-object. Het aangemaakte SmartArt-object wordt toegevoegd aan de bovenliggende groepvorm op dezelfde positie. |
+| [ConvertToGroupShape](../../aspose.slides/ilegacydiagram/converttogroupshape)() | Converteert legacy diagram naar bewerkbare groepvorm. Het gemaakte GroupShape-object wordt toegevoegd aan de bovenliggende groepvorm op dezelfde positie. |
+| [ConvertToSmartArt](../../aspose.slides/ilegacydiagram/converttosmartart)() | Converteert legacy diagram naar bewerkbaar SmartArt-object. Het gemaakte SmartArt-object wordt toegevoegd aan de bovenliggende groepvorm op dezelfde positie. |
 
 ### Zie ook
 

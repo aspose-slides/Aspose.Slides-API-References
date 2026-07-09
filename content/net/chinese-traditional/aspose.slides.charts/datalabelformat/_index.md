@@ -1,14 +1,14 @@
 ---
 title: DataLabelFormat
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示 DataLabel 的格式選項。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示 DataLabel 的格式化選項。
 type: docs
 weight: 1570
 url: /zh-hant/aspose.slides.charts/datalabelformat/
 ---
 ## DataLabelFormat 類別
 
-Represents formatting options for DataLabel.
+代表 DataLabel 的格式化選項。
 
 ```csharp
 public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
@@ -16,38 +16,38 @@ public sealed class DataLabelFormat : PVIObject, IDataLabelFormat
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 | [Chart](../../aspose.slides.charts/datalabelformat/chart) { get; } | 傳回圖表。唯讀 [`IChart`](../ichart)。 |
-| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | 表示資料標籤的格式。唯讀 [`IFormat`](../iformat)。 |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 可讀寫布林值。 |
-| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | 表示 DataLabels 物件的格式字串。可讀寫 String。 |
-| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | 表示資料標籤的位置。可讀寫 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
-| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | 設定或傳回表示圖表上資料標籤所使用分隔符的 Variant。可讀寫 String。 |
-| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 表示指定圖表的資料標籤氣泡大小值的顯示行為。True 會顯示氣泡大小值；False 為隱藏。可讀寫 Boolean。 |
-| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 表示指定圖表的資料標籤類別名稱的顯示行為。True 以顯示類別名稱；False 為隱藏。可讀寫 Boolean。 |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 決定指定圖表的資料標籤是以資料呼叫框還是以資料標籤的形式顯示。若此 DataLabelFormat 物件的父項是 DataLabelCollection（資料標籤集合），則此屬性取得或設定 DataLabelCollection 中新資料標籤的 ShowLabelAsDataCallout 屬性的預設值。以此屬性設定值時，也會將相同值套用至 DataLabelCollection 中所有資料標籤的 ShowLabelAsDataCallout 屬性（例如 "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" 會使所有 DataLabels[i].ShowLabelAsDataCallout 等於 val）。 |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 表示指定圖表的資料標籤儲存格值的顯示行為。True 會顯示儲存格值；False 為隱藏。可讀寫 Boolean。 |
-| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 表示指定圖表的資料標籤指引線的顯示行為。True 會顯示指引線；False 為隱藏。可讀寫 Boolean。 |
-| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 表示指定圖表的資料標籤圖例鍵的顯示行為。True 表示圖例鍵可見。可讀寫 Boolean。 |
-| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 表示指定圖表的資料標籤百分比值的顯示行為。True 會顯示百分比值；False 為隱藏。可讀寫 Boolean。 |
-| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | 傳回或設定布林值以指示圖表上資料標籤的系列名稱顯示行為。True 會顯示系列名稱；False 為隱藏。可讀寫 Boolean。 |
-| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 表示指定圖表的資料標籤百分比值的顯示行為。True 會顯示百分比值；False 為隱藏。可讀寫 Boolean。 |
+| [Format](../../aspose.slides.charts/datalabelformat/format) { get; } | 代表資料標籤的格式。唯讀 [`IFormat`](../iformat)。 |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/datalabelformat/isnumberformatlinkedtosource) { get; set; } | 讀寫 Boolean。 |
+| [NumberFormat](../../aspose.slides.charts/datalabelformat/numberformat) { get; set; } | 代表 DataLabels 物件的格式字串。讀寫 String。 |
+| [Position](../../aspose.slides.charts/datalabelformat/position) { get; set; } | 代表資料標籤的位置。讀寫 [`LegendDataLabelPosition`](../legenddatalabelposition)。 |
+| [Separator](../../aspose.slides.charts/datalabelformat/separator) { get; set; } | 設定或傳回代表圖表上資料標籤使用的分隔符號的 Variant。讀寫 String。 |
+| [ShowBubbleSize](../../aspose.slides.charts/datalabelformat/showbubblesize) { get; set; } | 代表指定圖表的資料標籤氣泡尺寸值顯示行為。True 表示顯示氣泡尺寸值。False 表示隱藏。讀寫 Boolean。 |
+| [ShowCategoryName](../../aspose.slides.charts/datalabelformat/showcategoryname) { get; set; } | 代表指定圖表的資料標籤類別名稱顯示行為。True 表示在圖表的資料標籤上顯示類別名稱。False 表示隱藏。讀寫 Boolean。 |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/datalabelformat/showlabelasdatacallout) { get; set; } | 決定指定圖表的資料標籤是顯示為資料標註還是顯示為資料標籤。如果此 DataLabelFormat 物件的父項是 DataLabelCollection（資料標籤集合），則此屬性取得或設定 DataLabelCollection 中新資料標籤的 ShowLabelAsDataCallout 屬性的預設值。將此屬性設定為某個值時，亦會將此值設定給 DataLabelCollection 中所有資料標籤的 ShowLabelAsDataCallout 屬性（即「DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;」會導致所有 DataLabels[i].ShowLabelAsDataCallout 等於 val）。 |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/datalabelformat/showlabelvaluefromcell) { get; set; } | 代表指定圖表的資料標籤儲存格值顯示行為。True 表示顯示儲存格值。False 表示隱藏。讀寫 Boolean。 |
+| [ShowLeaderLines](../../aspose.slides.charts/datalabelformat/showleaderlines) { get; set; } | 代表指定圖表的資料標籤指引線顯示行為。True 表示顯示指引線。False 表示隱藏。讀寫 Boolean。 |
+| [ShowLegendKey](../../aspose.slides.charts/datalabelformat/showlegendkey) { get; set; } | 代表指定圖表的資料標籤圖例鍵顯示行為。如果圖例鍵可見則為 True。讀寫 Boolean。 |
+| [ShowPercentage](../../aspose.slides.charts/datalabelformat/showpercentage) { get; set; } | 代表指定圖表的資料標籤百分比值顯示行為。True 表示顯示百分比值。False 表示隱藏。讀寫 Boolean。 |
+| [ShowSeriesName](../../aspose.slides.charts/datalabelformat/showseriesname) { get; set; } | 傳回或設定一個 Boolean，以指示圖表上資料標籤的系列名稱顯示行為。True 表示顯示系列名稱。False 表示隱藏。讀寫 Boolean。 |
+| [ShowValue](../../aspose.slides.charts/datalabelformat/showvalue) { get; set; } | 代表指定圖表的資料標籤百分比值顯示行為。True 表示顯示百分比值。False 表示隱藏。讀寫 Boolean。 |
 | [TextFormat](../../aspose.slides.charts/datalabelformat/textformat) { get; } | 傳回圖表文字格式。唯讀 [`IChartTextFormat`](../icharttextformat)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 比較指定的物件。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
-### 另見
+### 參見
 
 * 類別 [PVIObject](../../aspose.slides/pviobject)
 * 介面 [IDataLabelFormat](../idatalabelformat)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
-* 程式集 [Aspose.Slides](../../)
+* 組件 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

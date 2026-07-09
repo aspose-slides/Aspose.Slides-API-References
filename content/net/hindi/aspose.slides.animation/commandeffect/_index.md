@@ -1,14 +1,14 @@
 ---
 title: CommandEffect
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक एनिमेशन व्यवहार के लिए कमांड प्रभाव का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक एनीमेशन व्यवहार के लिए कमांड इफ़ेक्ट का प्रतिनिधित्व करता है।
 type: docs
 weight: 260
 url: /hi/aspose.slides.animation/commandeffect/
 ---
-## CommandEffect वर्ग
+## CommandEffect क्लास
 
-एनिमेशन व्यवहार के लिए एक कमांड प्रभाव का प्रतिनिधित्व करता है।
+ऐनिमेशन व्यवहार के लिए एक कमांड इफ़ेक्ट को दर्शाता है।
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -18,23 +18,23 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | नाम | विवरण |
 | --- | --- |
-| [CommandEffect](commandeffect)() | नया इंस्टेंस बनाता है। |
+| [CommandEffect](commandeffect)() | नया उदाहरण बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | निर्देशित करता है कि एनिमेशन व्यवहारों को संग्रहीत किया गया है या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../../aspose.slides/nullablebool)। |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | निर्देशित करता है कि वर्तमान एनिमेशन व्यवहार अन्य चल रहे एनिमेशनों के साथ संयोजित है या नहीं। पढ़ने/लिखने योग्य [`BehaviorAdditiveType`](../behavioradditivetype)। |
-| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | कमांड स्ट्रिंग को परिभाषित करता है। पढ़ने/लिखने योग्य String। |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | व्यवहार की विशेषताओं को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)। |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | कमांड प्रभाव का आकार लक्ष्य परिभाषित करता है। पढ़ने/लिखने योग्य [`IShape`](../../aspose.slides/ishape)। |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | प्रभाव व्यवहार के लिए समय-संबंधी गुण दर्शाता है। पढ़ने/लिखने योग्य [`ITiming`](../itiming)। |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | व्यवहार के कमांड प्रभाव प्रकार को परिभाषित करता है। पढ़ने/लिखने योग्य [`CommandEffectType`](../commandeffecttype)। |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | यह दर्शाता है कि क्या एनीमेशन व्यवहार संग्रहीत होते हैं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | यह दर्शाता है कि वर्तमान एनीमेशन व्यवहार अन्य चल रहे एनीमेशन के साथ मिलाया जाता है। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | कमांड स्ट्रिंग को परिभाषित करता है। पढ़ें/लिखें String. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | व्यवहार की विशेषताओं को दर्शाता है। केवल पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | कमांड इफ़ेक्ट के आकार लक्ष्य को परिभाषित करता है। पढ़ें/लिखें [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | इफ़ेक्ट व्यवहार के लिए टाइमिंग गुणों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | व्यवहार के कमांड इफ़ेक्ट प्रकार को परिभाषित करता है। पढ़ें/लिखें [`CommandEffectType`](../commandeffecttype). |
 
 ### देखें
 
-* वर्ग [Behavior](../behavior)
+* क्लास [Behavior](../behavior)
 * इंटरफ़ेस [ICommandEffect](../icommandeffect)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IChartCellCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho tập hợp các ô chứa dữ liệu.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đại diện cho tập hợp các ô có dữ liệu.
 type: docs
 weight: 1780
 url: /vi/aspose.slides.charts/ichartcellcollection/
 ---
-## IChartCellCollection giao diện
+## Giao diện IChartCellCollection
 
-Đại diện cho tập hợp các ô chứa dữ liệu.
+Đại diện cho tập hợp các ô có dữ liệu.
 
 ```csharp
 public interface IChartCellCollection : IEnumerable<IChartDataCell>
@@ -18,8 +18,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Trả về giao diện ICollection. Chỉ đọc IEnumerable. |
-| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Lấy số lượng ô trong tập hợp. Chỉ đọc Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Trả về giao diện ICollection. IEnumerable chỉ đọc. |
+| [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Lấy số lượng ô trong tập hợp. Int32 chỉ đọc. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Trả về một ô (IChartDataCell) theo chỉ mục. |
 
 ## Phương thức
@@ -28,8 +28,8 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Thêm ô mới vào tập hợp. |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Tạo [`IChartDataCell`](../ichartdatacell) từ giá trị được chỉ định và thêm nó vào tập hợp. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Trả về địa chỉ của tập hợp các ô trong sổ làm việc. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Chuỗi nối từ tất cả các giá trị chuỗi của các ô. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Trả về địa chỉ của tập hợp các ô trong workbook. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | Chuỗi nối từ tất cả các giá trị chuỗi của ô. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Xóa một ô khỏi tập hợp theo chỉ mục. |
 
 ### Xem thêm

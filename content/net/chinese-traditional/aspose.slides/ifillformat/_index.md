@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
-second_title: Aspose.Sildes .NET API 參考
-description: 表示填充格式選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示填充格式的選項。
 type: docs
 weight: 5790
 url: /zh-hant/aspose.slides/ifillformat/
 ---
 ## IFillFormat 介面
 
-表示填充格式選項。
+表示填充格式的選項。
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -18,19 +18,19 @@ public interface IFillFormat : IFillParamSource
 
 | 名稱 | 描述 |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | 允許取得基本 IFillParamSource 介面。唯讀 [`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | 傳回或設定填充類型。可讀寫 [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | 傳回漸層填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | 傳回圖樣填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
-| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | 傳回圖片填充格式。唯讀 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | 判斷填充是否應隨形狀旋轉。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | 傳回填充顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [AsIFillParamSource](../../aspose.slides/ifillformat/asifillparamsource) { get; } | 允許取得基礎 IFillParamSource 介面。唯讀 [`IFillParamSource`](../ifillparamsource)。 |
+| [FillType](../../aspose.slides/ifillformat/filltype) { get; set; } | 返回或設定填充類型。讀寫 [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/ifillformat/gradientformat) { get; } | 返回漸層填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/ifillformat/patternformat) { get; } | 返回圖案填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
+| [PictureFillFormat](../../aspose.slides/ifillformat/picturefillformat) { get; } | 返回圖片填充格式。唯讀 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [RotateWithShape](../../aspose.slides/ifillformat/rotatewithshape) { get; set; } | 確定填充是否應隨形狀旋轉。讀寫 [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/ifillformat/solidfillcolor) { get; } | 返回填充顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
 
 ## 方法
 
 | 名稱 | 描述 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | 取得套用繼承的有效填充格式資料。 |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | 取得套用繼承後的有效填充格式資料。 |
 
 ### 另見
 

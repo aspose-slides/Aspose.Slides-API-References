@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: A megjegyzés szerzők gyűjteményét képviseli.
 type: docs
-weight: 5560
+weight: 5580
 url: /hu/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection interfész
 
-Represents a collection of comment authors.
+Egy megjegyzés szerzők gyűjteményét képviseli.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -18,19 +18,19 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | Lekéri az elemet a megadott indexen. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`ICommentAuthor`](../icommentauthor). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Új szerző hozzáadása a gyűjtemény végéhez. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | Új szerzőt ad a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | Eltávolítja az összes szerzőt a gyűjteményből. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Szerző keresése a gyűjteményben név alapján. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Szerző keresése a gyűjteményben név és kezdőbetűk alapján. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | Megkeresi a szerzőt a gyűjteményben név alapján. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | Megkeresi a szerzőt a gyűjteményben név és kezdőbetűk alapján. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | Eltávolítja a megadott szerző első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Eltávolítja a szerzőt a megadott indexen a gyűjteményből. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Létrehozza és visszaadja a szerzők tömbjét. |
+| [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | Eltávolítja a szerzőt a gyűjtemény megadott indexén. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | Létrehoz és visszaad egy tömböt az összes szerzővel. |
 
 ### Lásd még
 

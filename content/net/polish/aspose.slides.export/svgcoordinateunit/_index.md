@@ -1,12 +1,12 @@
 ---
 title: SvgCoordinateUnit
-second_title: Aspose.Sildes dla .NET – Odniesienie API
+second_title: Aspose.Sildes dla .NET API Reference
 description: Reprezentuje jednostki współrzędnych CSS2 używane do definiowania współrzędnych SVG.
 type: docs
-weight: 4460
+weight: 4480
 url: /pl/aspose.slides.export/svgcoordinateunit/
 ---
-## Enumeracja SvgCoordinateUnit
+## SvgCoordinateUnit wyliczenie
 
 Reprezentuje jednostki współrzędnych CSS2 używane do definiowania współrzędnych SVG.
 
@@ -18,14 +18,14 @@ public enum SvgCoordinateUnit
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Inch | `0` | Inch |
+| Inch | `0` | Cal |
 | Centimeter | `1` | Centymetr. |
 | Millimeter | `2` | Milimetr. |
 | Point | `3` | Punkt (1/72 cala), |
 | Pica | `4` | Pica (1/6 cala). |
 | Em | `5` | Rozmiar Em czcionki elementu zawierającego. |
-| Ex | `6` | Rozmiar Ex (rozmiar małej litery, zwykle "x") czcionki elementu zawierającego. |
-| Pixel | `7` | Rozmiar piksela. |
+| Ex | `6` | Rozmiar Ex (rozmiar małej litery, zazwyczaj „x”) czcionki elementu zawierającego. |
+| Pixel | `7` | Rozmiar w pikselach. |
 | Percent | `8` | Procent. |
 
 ### Zobacz także

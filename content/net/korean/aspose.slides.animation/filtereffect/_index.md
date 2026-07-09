@@ -32,7 +32,7 @@ public class FilterEffect : Behavior, IFilterEffect
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | 효과 동작의 타이밍 속성을 나타냅니다. 읽기/쓰기 [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | 필터 효과의 유형을 나타냅니다. 읽기/쓰기 [`FilterEffectType`](../filtereffecttype). |
 
-### 자세히 보기
+### 참고
 
 * 클래스 [Behavior](../behavior)
 * 인터페이스 [IFilterEffect](../ifiltereffect)

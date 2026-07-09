@@ -1,12 +1,12 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir grafiğin paragraf biçimlendirme özelliklerini temsil eder.
 type: docs
-weight: 1880
+weight: 1900
 url: /tr/aspose.slides.charts/ichartparagraphformat/
 ---
-## IChartParagraphFormat interface
+## IChartParagraphFormat arayüz
 
 Bir grafiğin paragraf biçimlendirme özelliklerini temsil eder.
 
@@ -18,20 +18,20 @@ public interface IChartParagraphFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Paragrafta metin hizalamasını döndürür veya ayarlar. Read/write [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Varsayılan sekme boyutunu döndürür veya ayarlar. Read/write Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Paragrafta Doğu Asya satır sonu kullanılıp kullanılmadığını belirler. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Paragrafta yazı tipi hizalamasını döndürür veya ayarlar. Read/write [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Paragrafta asılı noktalama işareti kullanılıp kullanılmadığını belirler. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Paragrafın İlk Satır Girintisi/Asılı Girintisini döndürür veya ayarlar. Asılı Girinti negatif değerlerle tanımlanabilir. Read/write Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Paragrafta Latin satır sonu kullanılıp kullanılmadığını belirler. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Paragrafta sol kenar boşluğunu döndürür veya ayarlar. Read/write Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Paragrafta sağ kenar boşluğunu döndürür veya ayarlar. Read/write Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Paragrafta Sağdan Sola yazımın kullanılıp kullanılmadığını belirler. Read/write [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Paragraftaki son satırdan sonraki boşluk miktarını döndürür veya ayarlar. Read/write Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Paragraftaki ilk satırdan önceki boşluk miktarını döndürür veya ayarlar. Read/write Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Paragraftaki temel satırlar arasındaki boşluk miktarını döndürür veya ayarlar. Read/write Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Paragrafın sekmelerini döndürür. Read-only [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Bir paragrafta metin hizalamasını alır veya ayarlar. Okuma/Yazma [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Varsayılan sekme boyutunu alır veya ayarlar. Okuma/Yazma Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Bir paragrafta Doğu Asya satır sonunun kullanılıp kullanılmayacağını belirler. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Bir paragrafta yazı tipi hizalamasını alır veya ayarlar. Okuma/Yazma [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Bir paragrafta sarkan noktalama işaretlerinin kullanılıp kullanılmayacağını belirler. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Paragrafın İlk Satır Girintisi/Sarkan Girintisini alır veya ayarlar. Sarkan Girinti negatif değerlerle tanımlanabilir. Okuma/Yazma Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Bir paragrafta Latin satır sonunun kullanılıp kullanılmayacağını belirler. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Paragrafta sol kenar boşluğunu alır veya ayarlar. Okuma/Yazma Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Paragrafta sağ kenar boşluğunu alır veya ayarlar. Okuma/Yazma Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Bir paragrafta Sağdan Sola yazımın kullanılıp kullanılmayacağını belirler. Okuma/Yazma [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Paragraftaki son satırın ardından gelen boşluk miktarını alır veya ayarlar. Okuma/Yazma Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Paragraftaki ilk satırdan önceki boşluk miktarını alır veya ayarlar. Okuma/Yazma Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Paragraftaki temel satırlar arasındaki boşluk miktarını alır veya ayarlar. Okuma/Yazma Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Paragraf sekmelerini alır. Salt-okunur [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Ayrıca Bakınız
 

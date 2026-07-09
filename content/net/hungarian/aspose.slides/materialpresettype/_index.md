@@ -3,7 +3,7 @@ title: MaterialPresetType
 second_title: Aspose.Sildes .NET API referencia
 description: Az alakzat anyagát meghatározó állandók.
 type: docs
-weight: 8040
+weight: 8060
 url: /hu/aspose.slides/materialpresettype/
 ---
 ## MaterialPresetType enumeráció

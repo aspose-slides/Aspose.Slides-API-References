@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนสีสเปซสำหรับพฤติกรรมเอฟเฟกต์สี
+second_title: Aspose.Sildes สำหรับเอกสารอ้างอิง API ของ .NET
+description: แทนค่าช่วงสีสำหรับพฤติกรรมของเอฟเฟกต์สี.
 type: docs
 weight: 250
 url: /th/aspose.slides.animation/colorspace/
 ---
-## การกำหนดของ ColorSpace
+## ColorSpace ประเภท
 
-แทนสีสเปซสำหรับพฤติกรรมเอฟเฟกต์สี
+แทนค่าช่วงสีสำหรับพฤติกรรมของเอฟเฟกต์สี
 
 ```csharp
 public enum ColorSpace

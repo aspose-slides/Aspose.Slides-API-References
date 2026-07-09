@@ -24,23 +24,23 @@ public class ImageTransformOCollectionEffectiveData : IImageTransformOCollection
 
 | Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Trả về số lượng hiệu ứng hình ảnh trong một bộ sưu tập. Int32 chỉ đọc. |
-| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập vào bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Boolean chỉ đọc. |
+| [Count](../../aspose.slides.effects/imagetransformocollectioneffectivedata/count) { get; } | Trả về số lượng hiệu ứng hình ảnh trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides.effects/imagetransformocollectioneffectivedata/issynchronized) { get; } | Trả về giá trị cho biết liệu truy cập vào bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides.effects/imagetransformocollectioneffectivedata/item) { get; } | Trả về phần tử theo chỉ mục. |
-| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Trả về gốc đồng bộ. Object chỉ đọc. |
+| [SyncRoot](../../aspose.slides.effects/imagetransformocollectioneffectivedata/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
+| [CopyTo](../../aspose.slides.effects/imagetransformocollectioneffectivedata/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng đã chỉ định. |
 | override [Equals](../../aspose.slides.effects/imagetransformocollectioneffectivedata/equals)(object) | Xác định liệu đối tượng được chỉ định có bằng với đối tượng hiện tại hay không. |
-| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Trả về một enumerator cho phép duyệt qua bộ sưu tập. |
-| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể, thích hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
+| [GetEnumerator](../../aspose.slides.effects/imagetransformocollectioneffectivedata/getenumerator)() | Trả về một enumerator cho phép lặp qua bộ sưu tập. |
+| override [GetHashCode](../../aspose.slides.effects/imagetransformocollectioneffectivedata/gethashcode)() | Đóng vai trò là hàm băm cho một loại cụ thể, phù hợp để sử dụng trong các thuật toán băm và cấu trúc dữ liệu như bảng băm. |
 
 ### Ghi chú
 
-Tên IImageTransformOperationCollectionEffectiveData đã bị cắt ngắn thành IImageTransformOCollectionEffectiveData vì độ dài tên COM không được vượt quá 39.
+Tên IImageTransformOperationCollectionEffectiveData bị rút ngắn thành IImageTransformOCollectionEffectiveData vì độ dài tên COM không được vượt quá 39.
 
 ### Xem thêm
 

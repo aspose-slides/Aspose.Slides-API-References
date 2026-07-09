@@ -14,24 +14,24 @@ url: /zh-hant/aspose.slides.animation/pointcollection/
 public class PointCollection : IPointCollection
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [PointCollection](pointcollection)() | 預設建構式。 |
+| [PointCollection](pointcollection)() | 預設建構函式。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | 返回集合中點的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | 返回指定索引處的點。 |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | 傳回集合中點的數量。唯讀 Int32。 |
+| [Item](../../aspose.slides.animation/pointcollection/item) { get; } | 傳回指定索引處的點。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | 返回遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | 傳回可遍歷此集合的列舉器。 |
 
 ### 另見
 

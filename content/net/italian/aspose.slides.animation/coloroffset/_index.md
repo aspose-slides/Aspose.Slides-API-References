@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
-second_title: Aspose.Sildes per .NET API Riferimento
-description: Rappresenta l'offset di colore.
+second_title: Aspose.Sildes per il Riferimento API .NET
+description: Rappresenta lo offset di colore.
 type: docs
-weight: 220
+weight: 240
 url: /it/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset classe
 
-Rappresenta l'offset di colore.
+Rappresenta lo offset di colore.
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -16,17 +16,17 @@ public class ColorOffset : IColorOffset
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [ColorOffset](coloroffset)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definisce il primo valore dell'offset. Lettura/scrittura Single. |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definisce il secondo valore dell'offset. Lettura/scrittura Single. |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definisce il terzo valore dell'offset. Lettura/scrittura Single. |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | Definisce il primo valore dello offset. Lettura/scrittura Single. |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | Definisce il secondo valore dello offset. Lettura/scrittura Single. |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | Definisce il terzo valore dello offset. Lettura/scrittura Single. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: Effect
 second_title: Aspose.Sildes for .NET API リファレンス
-description: アニメーションエフェクトを表します。
+description: アニメーション エフェクトを表します。
 type: docs
-weight: 260
+weight: 280
 url: /ja/aspose.slides.animation/effect/
 ---
 ## Effect クラス
 
-アニメーションエフェクトを表します。
+アニメーション エフェクトを表します。
 
 ```csharp
 public class Effect : IEffect
@@ -18,24 +18,24 @@ public class Effect : IEffect
 
 | 名前 | 説明 |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | エフェクトのアフターアニメーションカラーを定義します。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | エフェクトのアフターアニメーションタイプを定義します。読み取り/書き込み [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | エフェクトのテキストアニメーションタイプを定義します。シェイプのテキストは文字単位、単語単位、またはすべて同時にアニメーション化できます。読み取り/書き込み [`AnimateTextType`](./animatetexttype). |
-| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | エフェクトのビヘイビアコレクションを返します。読み取り/書き込み [`IBehaviorCollection`](../ibehaviorcollection). |
-| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | アニメーションテキストの部分（単語または文字）間の遅延を定義します。正の値はエフェクトの期間の割合を示し、負の値は秒単位の遅延を示します。読み取り/書き込み Single. |
-| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | エフェクトのクラスを定義します。読み取り/書き込み [`EffectPresetClassType`](../effectpresetclasstype). |
-| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | エフェクトのシーケンスを返します。読み取り専用 [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | エフェクトの埋め込みサウンドを定義します。読み取り/書き込み [`IAudio`](../../aspose.slides/iaudio). |
-| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | この属性は、アニメーションエフェクトが前のサウンドを停止するかどうかを指定します。読み取り/書き込み Boolean. |
-| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | エフェクトのサブタイプを定義します。読み取り/書き込み [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | エフェクトの対象シェイプを返します。読み取り専用 [`IShape`](../../aspose.slides/ishape). |
-| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation 読み取り専用 [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | エフェクトのタイミング値を定義します。読み取り/書き込み [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/effect/type) { get; set; } | エフェクトのタイプを定義します。読み取り/書き込み [`EffectType`](../effecttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | エフェクトの後続アニメーションカラーを定義します。読み取り/書き込み [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | エフェクトの後続アニメーションタイプを定義します。読み取り/書き込み [`AfterAnimationType`](./afteranimationtype)。 |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | エフェクトのテキストアニメーションタイプを定義します。シェイプのテキストは文字ごと、単語ごと、またはすべて一度にアニメーション化できます。読み取り/書き込み [`AnimateTextType`](./animatetexttype)。 |
+| [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | エフェクトのビヘイビアのコレクションを返します。読み取り/書き込み [`IBehaviorCollection`](../ibehaviorcollection)。 |
+| [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | アニメーション化されたテキスト部分（単語または文字）間の遅延を定義します。正の値はエフェクトの期間のパーセンテージを指定します。負の値は遅延を秒単位で指定します。読み取り/書き込み Single。 |
+| [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | エフェクトのクラスを定義します。読み取り/書き込み [`EffectPresetClassType`](../effectpresetclasstype)。 |
+| [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | エフェクトのシーケンスを返します。読み取り専用 [`ISequence`](../isequence)。 |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | エフェクトの埋め込みサウンドを定義します。読み取り/書き込み [`IAudio`](../../aspose.slides/iaudio)。 |
+| [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | この属性は、アニメーションエフェクトが前のサウンドを停止するかどうかを指定します。読み取り/書き込み Boolean。 |
+| [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | エフェクトのサブタイプを定義します。読み取り/書き込み [`EffectSubtype`](../effectsubtype)。 |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | エフェクトの対象シェイプを返します。読み取り専用 [`IShape`](../../aspose.slides/ishape)。 |
+| [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation 読み取り専用 [`ITextAnimation`](../itextanimation)。 |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | エフェクトのタイミング値を定義します。読み取り/書き込み [`ITiming`](../itiming)。 |
+| [Type](../../aspose.slides.animation/effect/type) { get; set; } | エフェクトのタイプを定義します。読み取り/書き込み [`EffectType`](../effecttype)。 |
 
 ### 参照
 
-* インターフェイス [IEffect](../ieffect)
+* インターフェース [IEffect](../ieffect)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)
 

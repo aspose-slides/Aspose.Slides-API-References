@@ -1,14 +1,14 @@
 ---
 title: IConnector
-second_title: Aspose.Sildes for .NET API 참고 문서
-description: 커넥터를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 연결자를 나타냅니다.
 type: docs
 weight: 5610
 url: /ko/aspose.slides/iconnector/
 ---
 ## IConnector 인터페이스
 
-커넥터를 나타냅니다.
+연결자를 나타냅니다.
 
 ```csharp
 public interface IConnector : IGeometryShape
@@ -19,18 +19,18 @@ public interface IConnector : IGeometryShape
 | 이름 | 설명 |
 | --- | --- |
 | [AsIGeometryShape](../../aspose.slides/iconnector/asigeometryshape) { get; } | 기본 IGeometryShape 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGeometryShape`](../igeometryshape). |
-| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | 연결기의 잠금을 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
+| [ConnectorLock](../../aspose.slides/iconnector/connectorlock) { get; } | Connector의 잠금 정보를 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
 | [EndShapeConnectedTo](../../aspose.slides/iconnector/endshapeconnectedto) { get; set; } | 연결기의 끝을 연결할 도형을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
-| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 시작 도형에 대한 연결 지점의 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
-| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 도형의 잠금을 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
+| [EndShapeConnectionSiteIndex](../../aspose.slides/iconnector/endshapeconnectionsiteindex) { get; set; } | 끝 도형의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
+| [ShapeLock](../../aspose.slides/iconnector/shapelock) { get; } | 도형의 잠금 정보를 반환합니다. 읽기 전용 [`IConnectorLock`](../iconnectorlock). |
 | [StartShapeConnectedTo](../../aspose.slides/iconnector/startshapeconnectedto) { get; set; } | 연결기의 시작을 연결할 도형을 반환하거나 설정합니다. 읽기/쓰기 [`IShape`](../ishape). |
-| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 시작 도형에 대한 연결 지점의 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
+| [StartShapeConnectionSiteIndex](../../aspose.slides/iconnector/startshapeconnectionsiteindex) { get; set; } | 시작 도형의 연결 지점 인덱스를 반환하거나 설정합니다. 읽기/쓰기 UInt32. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Reroute](../../aspose.slides/iconnector/reroute)() | 연결기가 연결된 도형들 사이에서 가능한 가장 짧은 경로를 따르도록 경로를 재설정합니다. |
+| [Reroute](../../aspose.slides/iconnector/reroute)() | 연결기를 재배치하여 연결된 도형들 사이의 가능한 가장 짧은 경로를 취하도록 합니다. |
 
 ### 참조
 

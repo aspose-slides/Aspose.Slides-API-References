@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory 인터페이스
 
-수학 함수를 생성할 수 있습니다
+수학 함수를 생성합니다
 
 ```csharp
 public interface IMathFunctionFactory
@@ -25,7 +25,7 @@ public interface IMathFunctionFactory
 
 COM 호환성을 위해
 
-### 참조
+### 추가 보기
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

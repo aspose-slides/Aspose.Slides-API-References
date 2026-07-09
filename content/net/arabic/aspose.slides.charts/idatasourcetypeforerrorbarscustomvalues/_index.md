@@ -1,6 +1,6 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes ل .NET مرجع API
 description: يحدد أنواع القيم في قائمة خصائص ChartDataPoint.ErrorBarsCustomValues
 type: docs
 weight: 2050
@@ -11,17 +11,17 @@ url: /ar/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 يحدد أنواع القيم في قائمة خصائص ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
-public interface IDataSourceForErrorBarsCustomValues
+public interface IDataSourceTypeForErrorBarsCustomValues
 ```
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية XMinus لنقاط البيانات لأشرطة الأخطاء القيم المخصصة. بعبارة أخرى يحدد نوع قيمة الخاصية ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية XPlus لنقاط البيانات لأشرطة الأخطاء القيم المخصصة. بعبارة أخرى يحدد نوع قيمة الخاصية ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية YMinus لنقاط البيانات لأشرطة الأخطاء القيم المخصصة. بعبارة أخرى يحدد نوع قيمة الخاصية ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية YPlus لنقاط البيانات لأشرطة الأخطاء القيم المخصصة. بعبارة أخرى يحدد نوع قيمة الخاصية ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية XMinus لنقاط البيانات لقيم الخطأ المخصصة. بعبارة أخرى، يحدد نوع قيمة الخاصية ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية XPlus لنقاط البيانات لقيم الخطأ المخصصة. بعبارة أخرى، يحدد نوع قيمة الخاصية ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية YMinus لنقاط البيانات لقيم الخطأ المخصصة. بعبارة أخرى، يحدد نوع قيمة الخاصية ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | يحدد ما إذا كانت الخاصية AsCell أو AsLiteralString أو AsLiteralDouble هي الفعلية في كائن خاصية YPlus لنقاط البيانات لقيم الخطأ المخصصة. بعبارة أخرى، يحدد نوع قيمة الخاصية ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. قراءة/كتابة [`DataSourceType`](../datasourcetype). |
 
 ### انظر أيضًا
 

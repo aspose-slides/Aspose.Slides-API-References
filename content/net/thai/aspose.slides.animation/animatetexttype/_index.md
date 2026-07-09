@@ -1,26 +1,26 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงประเภทข้อความที่เคลื่อนไหวของเอฟเฟกต์การเคลื่อนไหว.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: แสดงประเภทข้อความเคลื่อนไหวของเอฟเฟกต์การเคลื่อนไหว
 type: docs
 weight: 120
 url: /th/aspose.slides.animation/animatetexttype/
 ---
-## การนับค่า AnimateTextType
+## AnimateTextType enum
 
-แสดงประเภทข้อความที่เคลื่อนไหวของเอฟเฟกต์การเคลื่อนไหว.
+แสดงถึงประเภทของข้อความเคลื่อนไหวของเอฟเฟ็กต์การเคลื่อนไหว
 
 ```csharp
 public enum AnimateTextType
 ```
 
-### Values
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| AllAtOnce | `0` | เคลื่อนไหวข้อความทั้งหมดพร้อมกัน |
-| ByWord | `1` | เคลื่อนไหวข้อความตามคำ |
-| ByLetter | `2` | เคลื่อนไหวข้อความตามอักขระ |
+| AllAtOnce | `0` | ทำให้ข้อความทั้งหมดเคลื่อนที่พร้อมกัน |
+| ByWord | `1` | ทำให้ข้อความเคลื่อนที่ตามคำ |
+| ByLetter | `2` | ทำให้ข้อความเคลื่อนที่ตามอักษร |
 
 ### ดูเพิ่มเติม
 

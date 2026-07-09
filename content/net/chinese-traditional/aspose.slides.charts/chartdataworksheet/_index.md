@@ -1,6 +1,6 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示與 IChartDataCell./ichartdatacell 相關聯的工作表
 type: docs
 weight: 1390
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet 類別
 
-表示與 [`IChartDataCell`](../ichartdatacell) 相關聯的工作表。
+表示與 [`IChartDataCell`](../ichartdatacell) 相關聯的工作表
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -18,10 +18,10 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | 取得工作表的索引。唯讀 Int32。 |
-| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | 傳回工作表的名稱。唯讀 String。 |
+| [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | 取得工作表的索引。唯讀 Int32. |
+| [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | 傳回工作表的名稱。唯讀 String. |
 
-### 另見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [ChartDataWorksheetCollection](../chartdataworksheetcollection)

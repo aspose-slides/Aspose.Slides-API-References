@@ -1,14 +1,14 @@
 ---
 title: IBaseSlide
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงข้อมูลทั่วไปสำหรับทุกประเภทของสไลด์
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงข้อมูลทั่วไปสำหรับทุกประเภทของสไลด์.
 type: docs
 weight: 5340
 url: /th/aspose.slides/ibaseslide/
 ---
 ## IBaseSlide อินเทอร์เฟซ
 
-เป็นข้อมูลทั่วไปสำหรับทุกรูปแบบของสไลด์
+แสดงข้อมูลทั่วไปสำหรับทุกประเภทของสไลด์.
 
 ```csharp
 public interface IBaseSlide : IThemeable
@@ -18,30 +18,30 @@ public interface IBaseSlide : IThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IThemeable พื้นฐาน. อ่านอย่างเดียว [`IThemeable`](../../aspose.slides.theme/ithemeable). |
-| [Background](../../aspose.slides/ibaseslide/background) { get; } | ส่งกลับพื้นหลังของสไลด์. อ่านอย่างเดียว [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | ส่งกลับคอลเลกชันของควบคุม ActiveX บนสไลด์. อ่านอย่างเดียว [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | ส่งกลับข้อมูลกำหนดเองของสไลด์. อ่านอย่างเดียว [`ICustomData`](../icustomdata). |
-| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอยู่ได้อย่างง่ายดาย. อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | ส่งกลับหรือกำหนดชื่อของสไลด์. อ่าน/เขียน String. |
-| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | ส่งกลับรูปร่างของสไลด์. อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
-| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | ระบุว่ารูปร่างบนสไลด์แม่ควรแสดงบนสไลด์หรือไม่. สำหรับสไลด์แม่เองคุณสมบัตินี้จะส่งคืน `false` เสมอ. อ่าน/เขียน Boolean. |
-| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | ส่งกลับ ID ของสไลด์. อ่านอย่างเดียว UInt32. |
-| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | ส่งกลับอ็อบเจ็กต์ TransitionEx ซึ่งมีข้อมูลว่าการเปลี่ยนสไลด์ที่ระบุดำเนินการอย่างไรระหว่างการแสดงสไลด์. อ่านอย่างเดียว [`ISlideShowTransition`](../islideshowtransition). |
-| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | ส่งกลับอ็อบเจ็กต์ไทม์ไลน์ของภาพเคลื่อนไหว. อ่านอย่างเดียว [`IAnimationTimeLine`](../ianimationtimeline). |
+| [AsIThemeable](../../aspose.slides/ibaseslide/asithemeable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IThemeable พื้นฐานได้ อ่านอย่างเดียว [`IThemeable`](../../aspose.slides.theme/ithemeable). |
+| [Background](../../aspose.slides/ibaseslide/background) { get; } | ส่งคืนพื้นหลังของสไลด์ อ่านอย่างเดียว [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/ibaseslide/controls) { get; } | ส่งคืนคอลเลกชันของควบคุม ActiveX บนสไลด์ อ่านอย่างเดียว [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/ibaseslide/customdata) { get; } | ส่งคืนข้อมูลกำหนดเองของสไลด์ อ่านอย่างเดียว [`ICustomData`](../icustomdata). |
+| [HyperlinkQueries](../../aspose.slides/ibaseslide/hyperlinkqueries) { get; } | ให้การเข้าถึงไฮเปอร์ลิงก์ที่บรรจุอย่างง่ายดาย อ่านอย่างเดียว [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [Name](../../aspose.slides/ibaseslide/name) { get; set; } | ส่งคืนหรือกำหนดชื่อของสไลด์ อ่าน/เขียน String. |
+| [Shapes](../../aspose.slides/ibaseslide/shapes) { get; } | ส่งคืนรูปร่างของสไลด์ อ่านอย่างเดียว [`IShapeCollection`](../ishapecollection). |
+| [ShowMasterShapes](../../aspose.slides/ibaseslide/showmastershapes) { get; set; } | ระบุว่ารูปร่างบนสไลด์แม่ต้องแสดงบนสไลด์หรือไม่ สำหรับสไลด์แม่เองคุณสมบัตินี้จะคืนค่า `false` เสมอ อ่าน/เขียน Boolean. |
+| [SlideId](../../aspose.slides/ibaseslide/slideid) { get; } | ส่งคืน ID ของสไลด์ อ่านอย่างเดียว UInt32. |
+| [SlideShowTransition](../../aspose.slides/ibaseslide/slideshowtransition) { get; } | ส่งคืนอ็อบเจ็กต์ TransitionEx ที่มีข้อมูลเกี่ยวกับวิธีการที่สไลด์ที่ระบุก้าวหน้าในระหว่างการแสดงสไลด์ อ่านอย่างเดียว [`ISlideShowTransition`](../islideshowtransition). |
+| [Timeline](../../aspose.slides/ibaseslide/timeline) { get; } | ส่งคืนอ็อบเจ็กต์ไทม์ไลน์แอนิเมชัน อ่านอย่างเดียว [`IAnimationTimeLine`](../ianimationtimeline). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | กำหนดว่าตัวอย่าง IBaseSlide สองอันเท่ากันหรือไม่. ค่าที่ส่งคืนจะคำนวณตามโครงสร้างของสไลด์และเนื้อหาคงที่. สไลด์สองสไลด์เท่ากันหากรูปร่าง, สไตล์, ข้อความ, ภาพเคลื่อนไหวและการตั้งค่าอื่น ๆ ฯลฯ ทั้งหมดเท่ากัน. การเปรียบเทียบจะไม่พิจารณาค่าตัวระบุที่ไม่ซ้ำกัน เช่น SlideId และเนื้อหาแบบไดนามิก เช่น ค่าของวันที่ปัจจุบันในช่องเสียบวันที่. |
-| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | ค้นหาการปรากฏครั้งแรกของรูปร่างที่มีข้อความสำรองตามที่ระบุ. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | รวม runs ที่มีรูปแบบเดียวกันในทุกย่อหน้าในรูปร่างที่รับได้ทั้งหมด. |
+| [Equals](../../aspose.slides/ibaseslide/equals)(IBaseSlide) | กำหนดว่าตัวอย่าง IBaseSlide สองตัวเท่ากันหรือไม่ ค่าที่ส่งกลับจะคำนวณจากโครงสร้างและเนื้อหาคงที่ของสไลด์ สไลด์สองสไลด์เท่ากันหากรูปร่าง, สไตล์, ข้อความ, แอนิเมชันและการตั้งค่าอื่น ๆ ฯลฯ เท่ากัน การเปรียบเทียบจะไม่พิจารณาค่าตัวระบุที่เป็นเอกลักษณ์ เช่น SlideId และเนื้อหาแบบไดนามิก เช่น ค่า วันที่ปัจจุบันใน Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/ibaseslide/findshapebyalttext)(string) | ค้นหาการเกิดแรกของรูปร่างที่มีข้อความสำรองที่ระบุ. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/ibaseslide/joinportionswithsameformatting)() | รวม run ที่มีรูปแบบเดียวกันในทุกย่อหน้าของรูปร่างที่ยอมรับทั้งหมด. |
 
 ### ดูเพิ่มเติม
 
 * อินเทอร์เฟซ [IThemeable](../../aspose.slides.theme/ithemeable)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
-* แอสเซมบลี [Aspose.Slides](../../)
+* แอสเซ็มบลี [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

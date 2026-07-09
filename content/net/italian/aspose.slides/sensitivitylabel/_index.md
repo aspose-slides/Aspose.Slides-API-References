@@ -1,9 +1,9 @@
 ---
 title: SensitivityLabel
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta l'etichetta di sensibilità di Microsoft Purview Information Protection.
 type: docs
-weight: 9770
+weight: 9790
 url: /it/aspose.slides/sensitivitylabel/
 ---
 ## SensitivityLabel classe
@@ -18,12 +18,12 @@ public sealed class SensitivityLabel : ISensitivityLabel
 
 | Nome | Descrizione |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Restituisce o imposta il metodo di assegnazione per l'etichetta di sensibilità. Lettura/scrittura [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/sensitivitylabel/assignmentmethodtype) { get; set; } | Restituisce o imposta il metodo di assegnazione per l'etichetta di sensibilità. Lettura/Scrittura [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/sensitivitylabel/contentmarktypes) { get; } | Restituisce l'elenco dei tipi di marcatura del contenuto che dovrebbero essere applicati a un file. |
-| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Restituisce o imposta l'ID dell'etichetta di sensibilità. Lettura/scrittura String. |
+| [Id](../../aspose.slides/sensitivitylabel/id) { get; set; } | Restituisce o imposta l'id dell'etichetta di sensibilità. Lettura/Scrittura String. |
 | [IsEnabled](../../aspose.slides/sensitivitylabel/isenabled) { get; set; } | Indica se l'etichetta di sensibilità è abilitata. |
 | [IsRemoved](../../aspose.slides/sensitivitylabel/isremoved) { get; set; } | Indica se l'etichetta di sensibilità è stata rimossa. |
-| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Restituisce o imposta l'identificatore del sito Azure Active Directory (Azure AD) corrispondente alla policy dell'etichetta di sensibilità che descrive l'etichetta di sensibilità. Lettura/scrittura Guid. |
+| [SiteId](../../aspose.slides/sensitivitylabel/siteid) { get; set; } | Restituisce o imposta l'identificatore del sito Azure Active Directory (Azure AD) corrispondente alla policy dell'etichetta di sensibilità che descrive l'etichetta di sensibilità. Lettura/Scrittura Guid. |
 
 ### Vedi anche
 

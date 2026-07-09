@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes a .NET API referencia
-description: A mester diák gyűjteményét reprezentálja.
+second_title: Aspose.Sildes .NET API referenciája
+description: A mesterdiák gyűjteményét képviseli.
 type: docs
-weight: 6410
+weight: 6430
 url: /hu/aspose.slides/imasterslidecollection/
 ---
 ## IMasterSlideCollection interfész
 
-A mester diak gyűjteményét reprezentálja.
+A mesterdiák gyűjteményét képviseli.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | A megadott indexű elemet adja vissza. Csak olvasható [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | Visszaadja a megadott indexű elemet. Csak olvasható [`IMasterSlide`](../imasterslide). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Egy megadott mester dia másolatát a gyűjtemény végére adja hozzá. A kapcsolt elrendezési diák is másolásra kerülnek. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Egy megadott mester dia másolatát a gyűjtemény megadott pozíciójába illeszti. A kapcsolt elrendezési diák is másolásra kerülnek. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | Hozzáad egy megadott master slide másolatát a gyűjtemény végéhez. A kapcsolódó elrendezési diák is másolásra kerülnek. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | Beszúr egy megadott master slide másolatát a gyűjtemény megadott pozíciójába. A kapcsolódó elrendezési diák is másolásra kerülnek. |
 | [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | Eltávolítja a megadott objektum első előfordulását a gyűjteményből. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | A megadott indexű elemet távolítja el a gyűjteményből. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Eltávolítja a nem használt mester diákat. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | Eltávolítja a gyűjtemény megadott indexű elemét. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | Eltávolítja a nem használt master diákokat. |
 
 ### Lásd még
 

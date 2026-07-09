@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: Aspose.Sildes .NET API referencia
-description: Képviseli azt a kezelőt, amely a jegyzetdiák helyfoglalóinak viselkedését tartalmazza, beleértve a fejléc helyfoglalót is.
+second_title: Aspose.Sildes .NET API Referencia
+description: A menedzser, amely a jegyzetdia helyőrzőinek, beleértve a fejléc helyőrzőt, viselkedését tartalmazza.
 type: docs
-weight: 9130
+weight: 9150
 url: /hu/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager osztály
 
-A jegyzetdiák helyfoglalóinak viselkedését kezeli, beleértve a fejléc helyfoglalót is.
+Represents manager which holds behavior of the notes slide placeholders, including header placeholder.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -19,22 +19,22 @@ public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderF
 
 | Név | Leírás |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lekéri az értéket, amely jelzi, hogy dátum-idő helyfoglaló jelen van. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lekéri az értéket, amely jelzi, hogy lábléc helyfoglaló jelen van. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Lekéri az értéket, amely jelzi, hogy fejléc helyfoglaló jelen van. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lekéri az értéket, amely jelzi, hogy oldalszám helyfoglaló jelen van. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Visszaadja az értéket, amely jelzi, hogy a dátum-idő helyőrző jelen van. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Visszaadja az értéket, amely jelzi, hogy a lábléc helyőrző jelen van. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Visszaadja az értéket, amely jelzi, hogy a fejléc helyőrző jelen van. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Visszaadja az értéket, amely jelzi, hogy az oldalszám helyőrző jelen van. ReadBoolean. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Beállítja a szöveget a dián a dátum-idő helyfoglalóhoz. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Megváltoztatja a dián a dátum-idő helyfoglaló láthatóságát. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Beállítja a szöveget a dián a lábléc helyfoglalóhoz. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Megváltoztatja a dián a lábléc helyfoglaló láthatóságát. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Beállítja a szöveget a dián a fejléc helyfoglalóhoz. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Megváltoztatja a dián a fejléc helyfoglaló láthatóságát. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Megváltoztatja a dián az oldalszám helyfoglaló láthatóságát. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Beállítja a szöveget a dia dátum-idő helyőrzőjéhez. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Megváltoztatja a dia dátum-idő helyőrzőjének láthatóságát. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Beállítja a szöveget a dia lábléc helyőrzőjéhez. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Megváltoztatja a dia lábléc helyőrzőjének láthatóságát. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Beállítja a szöveget a dia fejléc helyőrzőjéhez. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Megváltoztatja a dia fejléc helyőrzőjének láthatóságát. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Megváltoztatja a dia oldalszám helyőrzőjének láthatóságát. |
 
 ### Lásd még
 

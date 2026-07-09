@@ -14,7 +14,7 @@ url: /th/aspose.slides/slidesrange/
 public class SlidesRange
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

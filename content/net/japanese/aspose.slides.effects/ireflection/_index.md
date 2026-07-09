@@ -1,14 +1,14 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 反射効果を表します。
 type: docs
-weight: 3480
+weight: 3500
 url: /ja/aspose.slides.effects/ireflection/
 ---
 ## IReflection インターフェイス
 
-反射効果を表します。
+Represents a reflection effect.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | 基底 IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | 基底 IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | ぼかし半径。読み書き Double。 |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | 反射の方向。読み書き Single。 |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | 反射の距離。読み書き Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | アルファ勾配ランプに沿った終了位置（パーセント）を指定します。読み書き Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | 終了反射の不透明度（パーセント）。読み書き Single。 |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | 反射のオフセット方向（角度）を指定します。読み書き Single。 |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | 矩形の配置。読み書き [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | シェイプが回転した場合に、反射もシェイプと共に回転するかどうかを指定します。読み書き Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み書き Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします（パーセント）。読み書き Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | 水平せん断角度を指定します。読み書き Double。 |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | 垂直せん断角度を指定します。読み書き Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | アルファ勾配ランプに沿った開始位置（パーセント）を指定します。読み書き Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | 開始反射の不透明度（パーセント）。読み書き Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。 読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。 読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | ぼかし半径。 読み書き可能 Double。 |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | 反射の方向。 読み書き可能 Single。 |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | 反射の距離。 読み書き可能 Double。 |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | 終了アルファ値（パーセンテージ）の終了位置（アルファグラデーションランプに沿って）を指定します。 読み書き可能 Single。 |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | 反射の終了不透明度。（パーセンテージ）。 読み書き可能 Single。 |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | 反射のオフセット方向を指定します。（角度）。 読み書き可能 Single。 |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | 矩形の配置。 読み書き可能 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | シェイプが回転した場合に、反射がシェイプとともに回転するかどうかを指定します。 読み書き可能 Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | 水平スケーリング係数を指定します。負のスケーリングは反転を引き起こします。（パーセンテージ） 読み書き可能 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | 垂直スケーリング係数を指定します。負のスケーリングは反転を引き起こします。（パーセンテージ） 読み書き可能 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | 水平せん断角度を指定します。 読み書き可能 Double。 |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | 垂直せん断角度を指定します。 読み書き可能 Double。 |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | 開始アルファ値（パーセンテージ）の開始位置（アルファグラデーションランプに沿って）を指定します。 読み書き可能 Single。 |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | 反射の開始不透明度。（パーセンテージ）。 読み書き可能 Single。 |
 
 ### 参照
 

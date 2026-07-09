@@ -1,9 +1,9 @@
 ---
 title: SetEffect
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um efeito de conjunto para um comportamento de animação.
 type: docs
-weight: 790
+weight: 810
 url: /pt/aspose.slides.animation/seteffect/
 ---
 ## SetEffect classe
@@ -27,10 +27,10 @@ public class SetEffect : Behavior, ISetEffect
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Representa se os comportamentos de animação são acumulados. Leitura/gravação [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Representa se o comportamento de animação atual é combinado com outras animações em execução. Leitura/gravação [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Representa propriedades do comportamento. Somente leitura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de tempo para o comportamento de efeito. Leitura/gravação [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Especifica o determinado atributo de um efeito após um efeito de animação. Representa valor de ponto. Apenas: bool, ColorFormat, float, int, string. Leitura/gravação Object. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Representa propriedades de temporização para o comportamento do efeito. Leitura/gravação [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Especifica o determinado atributo de um efeito após um efeito de animação. Representa valor pontual. Apenas: bool, ColorFormat, float, int, string. Leitura/gravação Object. |
 
-### Ver também
+### Veja Também
 
 * classe [Behavior](../behavior)
 * interface [ISetEffect](../iseteffect)

@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Pengecualian yang dilemparkan ketika satu atau lebih referensi sirkular terdeteksi di mana sebuah rumus merujuk ke selnya sendiri secara langsung atau tidak langsung.
+description: Pengecualian yang dilemparkan ketika satu atau lebih referensi melingkar terdeteksi, di mana sebuah formula merujuk ke selnya sendiri baik secara langsung maupun tidak langsung.
 type: docs
-weight: 10680
+weight: 10700
 url: /id/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException kelas
 
-Pengecualian yang dilemparkan ketika satu atau lebih referensi sirkular terdeteksi di mana sebuah rumus merujuk ke selnya sendiri secara langsung atau tidak langsung.
+Pengecualian yang dilemparkan ketika satu atau lebih referensi melingkar terdeteksi, di mana sebuah formula merujuk ke selnya sendiri baik secara langsung maupun tidak langsung.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -18,16 +18,16 @@ public class CellCircularReferenceException : PptxEditException
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Menginisialisasi sebuah instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception). |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Menginisialisasi sebuah instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Menginisialisasi sebuah instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan serta referensi ke pengecualian internal yang menjadi penyebab pengecualian ini. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Menginisialisasi sebuah instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan dan referensi sel sirkular. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Menginisialisasi instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception). |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Menginisialisasi instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Menginisialisasi instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan dan referensi ke pengecualian dalam yang menjadi penyebab pengecualian ini. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Menginisialisasi instance baru dari kelas [`CellCircularReferenceException`](../cellcircularreferenceexception) dengan pesan kesalahan yang ditentukan dan referensi sel melingkar. |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Mendapatkan referensi sel sirkular. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Mendapatkan referensi sel melingkar. |
 
 ### Lihat Juga
 

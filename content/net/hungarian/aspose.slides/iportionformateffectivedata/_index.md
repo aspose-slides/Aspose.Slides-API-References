@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes a .NET API hivatkozása
-description: Módosíthatatlan objektum, amely hatékony szövegrész formázási tulajdonságokat tartalmaz.
+second_title: Aspose.Sildes .NET API referencia
+description: Módosíthatatlan objektum, amely a szövegrész hatékony formázási tulajdonságait tartalmazza.
 type: docs
-weight: 6720
+weight: 6740
 url: /hu/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interfész
 
-Módosíthatatlan objektum, amely hatékony szövegrészformázási tulajdonságokat tartalmaz.
+Módosíthatatlan objektum, amely a szövegdarab hatékony formázási tulajdonságait tartalmazza.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -18,14 +18,14 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Visszaadja IBasePortionFormatEffectiveData interfész. |
+| [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Visszaadja az IBasePortionFormatEffectiveData interfészt. |
 | [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Visszaadja a könyvjelző azonosítót. Csak olvasható String. |
-| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Visszaadja az egérkattintáshoz definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Visszaadja az egér fölé mozgatásához definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
+| [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Visszaadja az egérkattintásra definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Visszaadja az egér fölé vitt eseményhez definiált hiperhivatkozást. Csak olvasható [`IHyperlink`](../ihyperlink). |
 
 ### Megjegyzés
 
-Ez az interfész a [`IPortionFormat`](../iportionformat) interfészzel együtt használható, hogy a öröklődéssel alkalmazott hatékony formázási értékeket visszaadja.
+Ez az interfész a [`IPortionFormat`](../iportionformat) interfésszel együtt használható a hatékony formázási értékek visszaadásához, öröklődéssel alkalmazva.
 
 ### Lásd még
 

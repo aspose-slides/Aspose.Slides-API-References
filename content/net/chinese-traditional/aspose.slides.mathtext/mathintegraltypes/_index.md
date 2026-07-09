@@ -6,7 +6,6 @@ type: docs
 weight: 8790
 url: /zh-hant/aspose.slides.mathtext/mathintegraltypes/
 ---
-
 ## MathIntegralTypes 列舉
 
 數學積分類型
@@ -15,9 +14,9 @@ url: /zh-hant/aspose.slides.mathtext/mathintegraltypes/
 public enum MathIntegralTypes
 ```
 
-### Values
+### 值
 
-| 名稱 | 數值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
 | Simple | `0` | 積分: '∫' |
 | Double | `1` | 雙重積分: '∬' |
@@ -26,7 +25,7 @@ public enum MathIntegralTypes
 | Surface | `4` | 曲面積分: '∯' |
 | Volume | `5` | 體積積分: '∰' |
 
-### See Also
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 組件 [Aspose.Slides](../../)

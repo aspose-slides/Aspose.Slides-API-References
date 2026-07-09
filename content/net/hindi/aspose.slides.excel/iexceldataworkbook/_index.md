@@ -1,32 +1,32 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक कार्यपुस्तिका का प्रतिनिधित्व करता है जो सामान्य उपयोग के लिए Excel डेटा तक पहुँच प्रदान करती है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक वर्कबुक का प्रतिनिधित्व करता है जो सामान्य उपयोग के लिए Excel डेटा तक पहुँच प्रदान करता है।
 type: docs
 weight: 3710
 url: /hi/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook इंटरफ़ेस
 
-एक कार्यपुस्तिका का प्रतिनिधित्व करता है जो सामान्य उपयोग के लिए Excel डेटा तक पहुँच प्रदान करती है।
+एक वर्कबुक का प्रतिनिधित्व करता है जो सामान्य उपयोग के लिए एक्सेल डेटा तक पहुँच प्रदान करता है।
 
 ```csharp
 public interface IExcelDataWorkbook
 ```
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | निर्दिष्ट कार्यपत्रक से उसकी अनुक्रमणिका और Excel-शैली सेल नाम (उदाहरण के लिये "B2") का उपयोग करके एक सेल प्राप्त करता है। |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | निर्दिष्ट कार्यपत्रक से Excel-शैली सेल नाम (उदाहरण के लिये "B2") का उपयोग करके एक सेल प्राप्त करता है। |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | निर्दिष्ट कार्यपत्रक से उसकी अनुक्रमणिका और सेल समन्वय का उपयोग करके एक सेल प्राप्त करता है। |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | निर्दिष्ट कार्यपत्रक से उसके नाम और सेल समन्वय का उपयोग करके एक सेल प्राप्त करता है। |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | निर्दिष्ट सूत्र से मेल खाती कार्यपुस्तिका से सेल्स का संग्रह प्राप्त करता है। |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | निर्दिष्ट Excel कार्यपुस्तिका के कार्यपत्रक में सभी चार्ट्स के अनुक्रमणिकाएँ और नामों को समाहित करने वाला शब्दकोश प्राप्त करता है। |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Excel कार्यपुस्तिका में सम्मिलित सभी कार्यपत्रकों के नाम प्राप्त करता है। |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | निर्दिष्ट वर्कशीट से उसकी इंडेक्स और एक्सेल-शैली सेल नाम (उदाहरण के लिए "B2") का उपयोग करके एक सेल प्राप्त करता है। |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | निर्दिष्ट वर्कशीट से एक्सेल-शैली सेल नाम (उदाहरण के लिए "B2") का उपयोग करके एक सेल प्राप्त करता है। |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | निर्दिष्ट वर्कशीट से उसकी इंडेक्स और सेल निर्देशांक का उपयोग करके एक सेल प्राप्त करता है। |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | निर्दिष्ट वर्कशीट से उसके नाम और सेल निर्देशांक का उपयोग करके एक सेल प्राप्त करता है। |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | वर्कबुक से उन सेलों का संग्रह प्राप्त करता है जो निर्दिष्ट सूत्र से मेल खाते हैं। |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | एक्सेल वर्कबुक की निर्दिष्ट वर्कशीट में सभी चार्टों के इंडेक्स और नाम शामिल करने वाला शब्दकोश प्राप्त करता है। |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | एक्सेल वर्कबुक में मौजूद सभी वर्कशीटों के नाम प्राप्त करता है। |
 
-### संबंधित देखें
+### संबंधित
 
 * नामस्थान [Aspose.Slides.Excel](../../aspose.slides.excel)
 * असेंबली [Aspose.Slides](../../)

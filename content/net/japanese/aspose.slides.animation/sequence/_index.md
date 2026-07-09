@@ -1,14 +1,14 @@
 ---
 title: Sequence
-second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクトのシーケンスコレクションを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: シーケンスはエフェクトのコレクションを表します。
 type: docs
-weight: 770
+weight: 790
 url: /ja/aspose.slides.animation/sequence/
 ---
 ## Sequence クラス
 
-シーケンス（エフェクトのコレクション）を表します。
+Sequence（エフェクトのコレクション）を表します。
 
 ```csharp
 public sealed class Sequence : ISequence
@@ -26,15 +26,15 @@ public sealed class Sequence : ISequence
 
 | 名前 | 説明 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾に段落用の新しいアニメーションエフェクトを追加します。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾に段落用の新しいアニメーション エフェクトを追加します。 |
 | [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾に新しいエフェクトを追加します。 |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾にカテゴリまたは系列用の新しいチャートアニメーションエフェクトを追加します。 |
-| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾にカテゴリまたは系列内の要素用の新しいチャートアニメーションエフェクトを追加します。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾にカテゴリまたはシリーズ用の新しいチャート アニメーション エフェクトを追加します。 |
+| [AddEffect](../../aspose.slides.animation/sequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | シーケンスの末尾にカテゴリまたはシリーズ内の要素用の新しいチャート アニメーション エフェクトを追加します。 |
 | [Clear](../../aspose.slides.animation/sequence/clear)() | コレクションからすべてのエフェクトを削除します。 |
 | [GetCount](../../aspose.slides.animation/sequence/getcount)(IShape) | 指定されたシェイプのエフェクト数を返します。 |
 | [GetEffectsByParagraph](../../aspose.slides.animation/sequence/geteffectsbyparagraph)(IParagraph) | 指定された段落のエフェクト配列を返します。 |
 | [GetEffectsByShape](../../aspose.slides.animation/sequence/geteffectsbyshape)(IShape) | 指定されたシェイプのエフェクト配列を返します。 |
-| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides.animation/sequence/getenumerator)() | コレクションを列挙する列挙子を返します。 |
 | [Remove](../../aspose.slides.animation/sequence/remove)(IEffect) | コレクションから指定されたエフェクトを削除します。 |
 | [RemoveAt](../../aspose.slides.animation/sequence/removeat)(int) | コレクションからエフェクトを削除します。 |
 | [RemoveByShape](../../aspose.slides.animation/sequence/removebyshape)(IShape) | 指定されたシェイプのエフェクトを削除します。 |

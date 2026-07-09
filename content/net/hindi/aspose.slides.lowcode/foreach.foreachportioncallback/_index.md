@@ -1,28 +1,28 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: कॉलबैक जो प्रत्येक Portion./foreach/portion के लिये Paragraph./foreach/paragraph में BaseSlide../aspose.slides/baseslide पर बुलाया जाएगा।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: Callback जो प्रत्येक Portion./foreach/portion के लिए Paragraph./foreach/paragraph में BaseSlide../aspose.slides/baseslide पर बुलाया जाएगा।
 type: docs
 weight: 7940
 url: /hi/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback डेलीगेट
+## ForEach.ForEachPortionCallback delegate
 
-प्रत्येक [`Portion`](../foreach/portion) के लिए इस कॉलबैक को [`Paragraph`](../foreach/paragraph) में [`BaseSlide`](../../aspose.slides/baseslide) पर बुलाया जाएगा।
+प्रत्येक [`Portion`](../foreach/portion) के लिए यह कॉलबैक [`Paragraph`](../foreach/paragraph) में [`BaseSlide`](../../aspose.slides/baseslide) पर बुलाया जाएगा।
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
     int index);
 ```
 
-| Parameter | Type | Description |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| portion | Portion | वर्तमान पुनरावृत्त Portion |
-| para | Paragraph | वर्तमान पुनरावृत्त Paragraph |
-| slide | BaseSlide | वर्तमान पुनरावृत्त BaseSlide |
-| index | Int32 | Paragraph में वर्तमान Portion का अनुक्रमणिका |
+| portion | Portion | वर्तमान पुनरावृत्त भाग |
+| para | Paragraph | वर्तमान पुनरावृत्त अनुच्छेद |
+| slide | BaseSlide | वर्तमान पुनरावृत्त स्लाइड |
+| index | Int32 | अनुच्छेद में वर्तमान भाग का अनुक्रमांक |
 
-### देखें भी
+### संबंधी देखें
 
 * क्लास [Portion](../../aspose.slides/portion)
 * क्लास [Paragraph](../../aspose.slides/paragraph)

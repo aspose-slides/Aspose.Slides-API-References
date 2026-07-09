@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Alpha Bi-Level 효과를 나타냅니다. 임계값보다 낮은 Alpha 불투명도 값은 0(완전 투명)으로, 임계값 이상인 알파 값은 100(완전 불투명)으로 변경됩니다.
+description: Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha 투명도 값은 0(완전히 투명)으로, 임계값보다 크거나 같은 Alpha 값은 100(완전히 불투명)으로 변경됩니다.
 type: docs
 weight: 3020
 url: /ko/aspose.slides.effects/ialphabilevel/
 ---
-## IAlphaBiLevel 인터페이스
+## IAlphaBiLevel interface
 
-Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(불투명도) 값은 0(완전 투명)으로, 임계값 이상인 Alpha 값은 100%(완전 불투명)으로 변경됩니다.
+Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(불투명도) 값은 0(완전히 투명)으로, 임계값보다 크거나 같은 Alpha 값은 100%(완전히 불투명)으로 변경됩니다.
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -23,11 +23,11 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 | [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 기본 IImageTransformOperation 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | 효과 임계값을 반환합니다. 읽기/쓰기 Single. |
 
-### 비고
+### 참고
 
 COM에서 인스턴스를 만들려면 ImageTransformOperationFactory를 사용하십시오.
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

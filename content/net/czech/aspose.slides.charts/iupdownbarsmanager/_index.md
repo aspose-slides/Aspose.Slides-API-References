@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes pro .NET API Reference
-description: Poskytuje přístup k horním/dolním pruhům u čárového nebo akciového grafu.
+description: Poskytuje přístup k pruhům nahoru/dolů v čárovém nebo akciovém grafu.
 type: docs
-weight: 2240
+weight: 2260
 url: /cs/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager rozhraní
 
-Poskytuje přístup k horním/dolním pruhům u čárového nebo akciového grafu.
+Poskytuje přístup k pruhům nahoru/dolů v čárovém nebo akciovém grafu.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -20,7 +20,7 @@ public interface IUpDownBarsManager
 | --- | --- |
 | [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Vrací formát dolních pruhů. Pouze pro čtení [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Vrací nebo nastavuje šířku mezery. Čtení/zápis Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Určuje, zda graf obsahuje horní/dolní pruhy. Čtení/zápis Boolean. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Určuje, zda graf má pruhy nahoru/dolů. Čtení/zápis Boolean. |
 | [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Vrací formát horních pruhů. Pouze pro čtení [`IFormat`](../iformat). |
 
 ### Viz také

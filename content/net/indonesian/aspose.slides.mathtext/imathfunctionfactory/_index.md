@@ -1,14 +1,14 @@
 ---
 title: IMathFunctionFactory
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mengizinkan membuat fungsi matematika
+description: Memungkinkan membuat fungsi matematika
 type: docs
-weight: 8260
+weight: 8280
 url: /id/aspose.slides.mathtext/imathfunctionfactory/
 ---
 ## IMathFunctionFactory antarmuka
 
-Mengizinkan membuat fungsi matematika
+Memungkinkan membuat fungsi matematika
 
 ```csharp
 public interface IMathFunctionFactory
@@ -21,7 +21,7 @@ public interface IMathFunctionFactory
 | [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction)(IMathElement, IMathElement) | Membuat fungsi matematika |
 | [CreateMathFunction](../../aspose.slides.mathtext/imathfunctionfactory/createmathfunction#createmathfunction_1)(string, IMathElement) | Membuat fungsi matematika |
 
-### Catatan
+### Keterangan
 
 Untuk kompatibilitas COM
 

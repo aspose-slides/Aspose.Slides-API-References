@@ -1,12 +1,12 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de PPImage.
 type: docs
-weight: 7400
+weight: 7420
 url: /pt/aspose.slides/imagecollection/
 ---
-## Classe ImageCollection
+## classe ImageCollection
 
 Representa uma coleção de PPImage.
 
@@ -19,7 +19,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/imagecollection/count) { get; } | Retorna o número de imagens na coleção. Somente leitura Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Retorna um valor que indica se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | Retorna um valor indicando se o acesso à coleção é sincronizado (thread-safe). Somente leitura Boolean. |
 | [Item](../../aspose.slides/imagecollection/item) { get; } | Obtém o elemento no índice especificado. Somente leitura [`IPPImage`](../ippimage). |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | Retorna uma raiz de sincronização. Somente leitura Object. |
 
@@ -35,7 +35,7 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | Adiciona uma imagem a uma apresentação a partir de um stream. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | Cria e adiciona uma imagem a uma apresentação a partir de um stream. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | Copia todos os elementos da coleção para a matriz especificada. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
 
 ### Veja também
 

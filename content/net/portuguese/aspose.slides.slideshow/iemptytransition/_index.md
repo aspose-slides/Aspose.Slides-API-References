@@ -3,7 +3,7 @@ title: IEmptyTransition
 second_title: Aspose.Sildes para .NET Referência da API
 description: Efeito de transição de slide vazio.
 type: docs
-weight: 10060
+weight: 10080
 url: /pt/aspose.slides.slideshow/iemptytransition/
 ---
 ## IEmptyTransition interface
@@ -20,7 +20,7 @@ public interface IEmptyTransition : ITransitionValueBase
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/iemptytransition/asitransitionvaluebase) { get; } | Permite obter a interface base ITransitionValueBase. Somente leitura [`ITransitionValueBase`](../itransitionvaluebase). |
 
-### Ver também
+### Veja Também
 
 * interface [ITransitionValueBase](../itransitionvaluebase)
 * namespace [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

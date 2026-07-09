@@ -1,14 +1,14 @@
 ---
 title: IGlow
 second_title: Aspose.Sildes for .NET API リファレンス
-description: オブジェクトのエッジの外側に、色のぼかしアウトラインが追加された Glow 効果を表します。
+description: オブジェクトのエッジの外側に、色がぼやけたアウトラインが追加される Glow エフェクトを表します。
 type: docs
-weight: 3300
+weight: 3320
 url: /ja/aspose.slides.effects/iglow/
 ---
 ## IGlow インターフェイス
 
-オブジェクトのエッジの外側に、色のぼかしアウトラインが追加された Glow 効果を表します。
+オブジェクトのエッジの外側に、色のぼかしアウトラインが追加される Glow エフェクトを表します。
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -18,10 +18,10 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | カラー形式。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径。読み書き Double。 |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | 半径。読み書き可能 Double。 |
 
 ### 参照
 

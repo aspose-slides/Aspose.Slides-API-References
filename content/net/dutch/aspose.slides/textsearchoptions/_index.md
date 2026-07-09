@@ -1,32 +1,33 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt opties voor die kunnen worden gebruikt om te zoeken naar tekst in een Presentation Slide of TextFrame.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt opties voor die kunnen worden gebruikt om te zoeken naar tekst in een Presentatie, Dia of Tekstframe.
 type: docs
 weight: 10970
 url: /nl/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions klasse
 
-Stelt opties voor die kunnen worden gebruikt om te zoeken naar tekst in een Presentation, Slide of TextFrame.
+Stelt opties voor die kunnen worden gebruikt om te zoeken naar tekst in een Presentatie, Dia of Tekstframe.
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
 ```
 
+
 ## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
-| [TextSearchOptions](textsearchoptions)() | Maakt een nieuwe standaardtekstzoekoptie aan. |
+| [TextSearchOptions](textsearchoptions)() | Creëert nieuwe standaard tekstzoekopties. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Stel true in om een hoofdlettergevoelige zoekopdracht te gebruiken, anders false. Lezen/schrijven Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Stel `true` in om tekst die in slide notes ([`NotesSlide`](../notesslide)) staat op te nemen bij het uitvoeren van tekstsearch, replacement, of highlighting bewerkingen. De standaardwaarde is `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Stel true in om alleen volledige woorden te matchen, anders false. Lezen/schrijven Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Stel true in om een hoofdlettergevoelige zoekopdracht te gebruiken, false - anders. Lezen/Schrijven Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Stel `true` in om tekst die in dia aantekeningen ([`NotesSlide`](../notesslide)) staat op te nemen bij het uitvoeren van tekst zoeken, vervangen of markeren. De standaardwaarde is `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Stel true in om alleen volledige woorden te matchen, false - anders. Lezen/Schrijven Boolean. |
 
 ### Zie ook
 

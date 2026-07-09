@@ -1,14 +1,14 @@
 ---
 title: ShapeElementStrokeSource
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示形狀元素應如何繪製。
+description: 表示應如何繪製形狀元素。
 type: docs
 weight: 9890
 url: /zh-hant/aspose.slides/shapeelementstrokesource/
 ---
 ## ShapeElementStrokeSource 列舉
 
-表示形狀元素應如何繪製。
+表示應如何繪製形狀元素。
 
 ```csharp
 public enum ShapeElementStrokeSource : byte
@@ -18,11 +18,11 @@ public enum ShapeElementStrokeSource : byte
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| NoStroke | `0` | 不要描邊原始圖形。 |
+| NoStroke | `0` | 不對基元描邊。 |
 | Shape | `1` | 使用形狀的 LineFormat。 |
-| OwnStroke | `2` | 使用自身描邊。 |
+| OwnStroke | `2` | 使用自訂描邊。 |
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 程序集 [Aspose.Slides](../../)

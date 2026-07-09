@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes a .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Az új sor típusa, amely a generált dokumentumban lesz használva.
 type: docs
-weight: 4260
+weight: 4280
 url: /hu/aspose.slides.export/newlinetype/
 ---
 ## NewLineType enumeráció
 
-Az új sor típusa, amely a létrehozott dokumentumban lesz használva.
+Az új sor típusa, amely a generált dokumentumban lesz használva.
 
 ```csharp
 public enum NewLineType

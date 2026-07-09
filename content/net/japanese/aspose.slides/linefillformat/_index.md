@@ -1,14 +1,14 @@
 ---
 title: LineFillFormat
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 線の塗りつぶしに関するプロパティを表します。
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: 線の塗りつぶしプロパティを表します。
 type: docs
-weight: 7760
+weight: 7780
 url: /ja/aspose.slides/linefillformat/
 ---
 ## LineFillFormat クラス
 
-線の塗りつぶしに関するプロパティを表します。
+線の塗りつぶしプロパティを表します。
 
 ```csharp
 public sealed class LineFillFormat : PVIObject, ILineFillFormat
@@ -18,12 +18,12 @@ public sealed class LineFillFormat : PVIObject, ILineFillFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | base IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 塗りつぶしタイプを取得または設定します。読み取り/書き込み [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | グラデーション塗りつぶし形式を取得します。読み取り専用 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | パターン塗りつぶし形式を取得します。読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
-| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 塗りつぶしがシェイプと共に回転するかどうかを決定します。読み取り/書き込み [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 単色塗りつぶしの色を取得します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [FillType](../../aspose.slides/linefillformat/filltype) { get; set; } | 塗りつぶしタイプを取得または設定します。 読み書き [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/linefillformat/gradientformat) { get; } | グラデーション塗りつぶし形式を取得します。 読み取り専用 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/linefillformat/patternformat) { get; } | パターン塗りつぶし形式を取得します。 読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
+| [RotateWithShape](../../aspose.slides/linefillformat/rotatewithshape) { get; set; } | 塗りつぶしがシェイプとともに回転すべきかを決定します。 読み書き [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/linefillformat/solidfillcolor) { get; } | 単色塗りつぶしの色を取得します。 読み取り専用 [`IColorFormat`](../icolorformat)。 |
 
 ## メソッド
 

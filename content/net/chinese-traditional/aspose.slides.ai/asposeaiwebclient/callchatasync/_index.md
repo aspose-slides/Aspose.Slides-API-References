@@ -1,7 +1,7 @@
 ---
 title: CallChatAsync
-second_title: Aspose.Sildes .NET API 參考文件
-description: 將聊天指令傳送至 AI 模型，並返回對給定指令的回應訊息。
+second_title: Aspose.Sildes for .NET API 參考
+description: 傳送聊天指令至 AI 模型，並返回對給定指令的回應訊息。
 type: docs
 weight: 20
 url: /zh-hant/aspose.slides.ai/asposeaiwebclient/callchatasync/
@@ -18,17 +18,17 @@ public Task<string> CallChatAsync(string instruction)
 | --- | --- | --- |
 | instruction | String | 要由 AI 模型處理的指令或訊息。 |
 
-### 返回值
+### 回傳值
 
-AI 模型根據給定指令產生的訊息。
+AI 模型對給定指令產生的訊息。
 
-### 例外狀況
+### 例外情況
 
 | 例外 | 條件 |
 | --- | --- |
 | ArgumentException | AI 聊天指令不能為 null 或空 |
 
-### 參見
+### 另請參閱
 
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../asposeaiwebclient)

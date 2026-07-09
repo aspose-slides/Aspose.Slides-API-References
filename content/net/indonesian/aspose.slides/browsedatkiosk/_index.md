@@ -1,14 +1,14 @@
 ---
 title: BrowsedAtKiosk
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Ditampilkan pada kiosk layar penuh
 type: docs
-weight: 1020
+weight: 1040
 url: /id/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk kelas
 
-Ditelusuri pada kiosk (layar penuh)
+Ditampilkan pada kiosk (layar penuh)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
@@ -16,7 +16,7 @@ public class BrowsedAtKiosk : SlideShowType
 
 ## Konstruktor
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [BrowsedAtKiosk](browsedatkiosk)() | Menginisialisasi instance baru dari kelas BrowsedAtKiosk. |
 

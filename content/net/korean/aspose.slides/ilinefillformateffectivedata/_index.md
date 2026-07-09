@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 참조
-description: 유효한 라인 채우기 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 실제 라인 채우기 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 6300
 url: /ko/aspose.slides/ilinefillformateffectivedata/
 ---
 ## ILineFillFormatEffectiveData 인터페이스
 
-유효한 라인 채우기 속성을 포함하는 불변 객체입니다.
+실제 라인 채우기 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface ILineFillFormatEffectiveData : IFillParamSource
@@ -20,7 +20,7 @@ public interface ILineFillFormatEffectiveData : IFillParamSource
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformateffectivedata/asifillparamsource) { get; } | IFillParamSource 인터페이스를 반환합니다. 읽기 전용 [`IFillParamSource`](../ifillparamsource). |
 | [FillType](../../aspose.slides/ilinefillformateffectivedata/filltype) { get; } | 채우기 유형을 반환합니다. 읽기 전용 [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 그라데이션 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
+| [GradientFormat](../../aspose.slides/ilinefillformateffectivedata/gradientformat) { get; } | 그라디언트 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormatEffectiveData`](../igradientformateffectivedata). |
 | [PatternFormat](../../aspose.slides/ilinefillformateffectivedata/patternformat) { get; } | 패턴 채우기 형식을 반환합니다. 읽기 전용 [`IPatternFormatEffectiveData`](../ipatternformateffectivedata). |
 | [RotateWithShape](../../aspose.slides/ilinefillformateffectivedata/rotatewithshape) { get; } | 채우기가 도형과 함께 회전해야 하는지 여부를 결정합니다. 읽기 전용 Boolean. |
 | [SolidFillColor](../../aspose.slides/ilinefillformateffectivedata/solidfillcolor) { get; } | 단색 채우기의 색상을 반환합니다. 읽기 전용 Color. |

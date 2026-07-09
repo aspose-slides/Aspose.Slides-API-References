@@ -1,6 +1,6 @@
 ---
 title: IGlitterTransition
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: Glitter स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10100
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.slideshow/iglittertransition/
 ---
 ## IGlitterTransition इंटरफ़ेस
 
-Glitter slide transition effect.
+Glitter स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public interface IGlitterTransition : ITransitionValueBase
@@ -18,11 +18,11 @@ public interface IGlitterTransition : ITransitionValueBase
 
 | नाम | विवरण |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | बेस ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iglittertransition/asitransitionvaluebase) { get; } | आधार ITransitionValueBase इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/iglittertransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ने/लिखने योग्य [`TransitionSideDirectionType`](../transitionsidedirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | ट्रांज़िशन के दौरान उपयोग किए जाने वाले विज़ुअल्स के आकार को निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`TransitionPattern`](../transitionpattern). |
+| [Pattern](../../aspose.slides.slideshow/iglittertransition/pattern) { get; set; } | ट्रांज़िशन के दौरान उपयोग किए गए विज़ुअल्स के आकार को निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`TransitionPattern`](../transitionpattern). |
 
-### और देखें
+### देखें
 
 * इंटरफ़ेस [ITransitionValueBase](../itransitionvaluebase)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

@@ -1,9 +1,9 @@
 ---
 title: ISketchFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Objek tak dapat diubah yang berisi properti sketsa garis yang efektif.
 type: docs
-weight: 7010
+weight: 7030
 url: /id/aspose.slides/isketchformateffectivedata/
 ---
 ## ISketchFormatEffectiveData antarmuka
@@ -20,7 +20,7 @@ public interface ISketchFormatEffectiveData
 | --- | --- |
 | [SketchType](../../aspose.slides/isketchformateffectivedata/sketchtype) { get; } | Mengembalikan tipe sketsa. Hanya baca [`LineSketchType`](../linesketchtype). |
 
-### Catatan
+### Keterangan
 
 Antarmuka ini digunakan sebagai bagian dari [`ILineFormatEffectiveData`](../ilineformateffectivedata).
 

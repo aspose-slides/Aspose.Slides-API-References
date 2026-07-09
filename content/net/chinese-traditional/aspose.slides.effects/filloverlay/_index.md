@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表一個 Fill Overlay 效果。Fill Overlay 可用於為物件指定額外的填色，並將兩個填色混合在一起。
+description: 代表一種填充覆蓋效果。填充覆蓋可用於為物件指定額外的填充，並將兩個填充混合在一起。
 type: docs
 weight: 2980
 url: /zh-hant/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay 類別
 
-代表一個 Fill Overlay 效果。Fill Overlay 可用於為物件指定額外的填色，並將兩個填色混合在一起。
+Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -16,19 +16,19 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## 屬性
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. 讀寫 [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | 填充格式. 唯讀 [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode。讀寫 [`FillBlendMode`](../../aspose.slides/fillblendmode)。 |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | 填色格式。唯讀 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | 判斷指定的 [`FillOverlay`](../filloverlay) 是否等於目前的 [`FillOverlay`](../filloverlay). |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | 判斷指定的 [`FillOverlay`](../filloverlay) 是否等於目前的 [`FillOverlay`](../filloverlay)。 |
 | [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | 取得套用繼承後的有效 Fill Overlay 效果資料。 |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | 作為特定類型的雜湊函式。 |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | 作為特定型別的雜湊函式。 |
 
 ### 另請參閱
 

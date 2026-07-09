@@ -1,7 +1,7 @@
 ---
 title: CreateConversation
-second_title: Aspose.Sildes .NET API 참조
-description: 대화 인스턴스를 생성합니다. 일반 AI 호출과 달리, 대화는 전체 컨텍스트를 유지합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 대화 인스턴스를 생성합니다. 일반 AI 호출과 달리 대화는 전체 컨텍스트를 유지합니다.
 type: docs
 weight: 30
 url: /ko/aspose.slides.ai/openaicompatiblewebclient/createconversation/
@@ -14,9 +14,9 @@ url: /ko/aspose.slides.ai/openaicompatiblewebclient/createconversation/
 public IAIConversation CreateConversation()
 ```
 
-### 반환 값
+### 반환값
 
-다음은 [`IAIConversation`](../../iaiconversation) 인스턴스입니다.
+[`IAIConversation`](../../iaiconversation) 인스턴스.
 
 ### 참고
 

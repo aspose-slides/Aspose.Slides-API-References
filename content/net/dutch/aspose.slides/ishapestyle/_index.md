@@ -1,14 +1,14 @@
 ---
 title: IShapeStyle
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt de stijlreferentie van vormen.
+description: Geeft een stijlreferentie van vormen weer.
 type: docs
 weight: 7010
 url: /nl/aspose.slides/ishapestyle/
 ---
 ## IShapeStyle interface
 
-Geeft de stijlreferentie van een vorm weer.
+Geeft een stijlreferentie van een vorm weer.
 
 ```csharp
 public interface IShapeStyle
@@ -18,14 +18,14 @@ public interface IShapeStyle
 
 | Naam | Beschrijving |
 | --- | --- |
-| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Retourneert de effectkleur van een vorm. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Retourneert of stelt de effectkolomindex van een vorm in een stijlmatrix in. Lezen/schrijven UInt32. |
-| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Retourneert de vullingskleur van een vorm. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Retourneert of stelt de vullingskolomindex van een vorm in stijlmatrices in. 0 betekent geen vulling, een positieve waarde – index in de vulstijlen van het thema, een negatieve waarde – index in de achtergrondstijlen van het thema. Lezen/schrijven Int16. |
-| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Retourneert of stelt de lettertype-index van een vorm in een lettertypecollectie in. Lezen/schrijven [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Retourneert de letterskleur van een vorm. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Retourneert de contourkleur van een vorm. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Retourneert of stelt de kolomindex van een lijn in een stijlmatrix in. Lezen/schrijven UInt16. |
+| [EffectColor](../../aspose.slides/ishapestyle/effectcolor) { get; } | Geeft de effectkleur van een vorm terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/ishapestyle/effectstyleindex) { get; set; } | Geeft de effectkolomindex van een vorm terug of stelt deze in een stijlmatrix in. Lezen/schrijven UInt32. |
+| [FillColor](../../aspose.slides/ishapestyle/fillcolor) { get; } | Geeft de vulkleur van een vorm terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/ishapestyle/fillstyleindex) { get; set; } | Geeft de vulkolomindex van een vorm terug of stelt deze in stijlmatrices in. 0 betekent geen vulling, een positieve waarde – index in de vulstijlen van het thema, een negatieve waarde – index in de achtergrondstijlen van het thema. Lezen/schrijven Int16. |
+| [FontCollectionIndex](../../aspose.slides/ishapestyle/fontcollectionindex) { get; set; } | Geeft de lettertype-index van een vorm terug of stelt deze in een lettertypecollectie in. Lezen/schrijven [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/ishapestyle/fontcolor) { get; } | Geeft de lettertypekleur van een vorm terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/ishapestyle/linecolor) { get; } | Geeft de contourkleur van een vorm terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/ishapestyle/linestyleindex) { get; set; } | Geeft de kolomindex van een lijn terug of stelt deze in een stijlmatrix in. Lezen/schrijven UInt16. |
 
 ### Zie ook
 

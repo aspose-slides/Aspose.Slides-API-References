@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn các nhãn của một chuỗi.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Đại diện cho các nhãn của một chuỗi.
 type: docs
 weight: 2030
 url: /vi/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection giao diện
 
-Biểu diễn các nhãn của một chuỗi.
+Đại diện cho các nhãn của một chuỗi.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -20,20 +20,20 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | Cho phép lấy giao diện IChartComponent cơ bản. Chỉ đọc [`IChartComponent`](../ichartcomponent). |
 | [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | Cho phép lấy giao diện IEnumerable cơ bản. Chỉ đọc IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Lấy số lượng tất cả nhãn dữ liệu trong bộ sưu tập. Chỉ đọc Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Lấy số lượng nhãn dữ liệu có thể hiển thị trong bộ sưu tập. Chỉ đọc Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Trả về định dạng mặc định của tất cả nhãn dữ liệu trong bộ sưu tập. Chỉ đọc [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị theo mặc định (vì vậy tất cả các cờ Show*- (ShowValue, ...) của thuộc tính DefaultDataLabelFormat đều là false). Chỉ đọc Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Lấy nhãn dữ liệu cho điểm dữ liệu có chỉ số được chỉ định. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Biểu diễn định dạng đường dẫn của nhãn dữ liệu. Chỉ đọc [`IChartLinesFormat`](../ichartlinesformat). |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Lấy số lượng tất cả các nhãn dữ liệu trong bộ sưu tập. Chỉ đọc Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Lấy số lượng các nhãn dữ liệu có thể hiển thị trong bộ sưu tập. Chỉ đọc Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Trả về định dạng mặc định của tất cả các nhãn dữ liệu trong bộ sưu tập. Chỉ đọc [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False có nghĩa là nhãn dữ liệu không hiển thị theo mặc định (và do đó tất cả các cờ Show* (ShowValue, ...) của thuộc tính DefaultDataLabelFormat đều là false). Chỉ đọc Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Lấy nhãn dữ liệu cho điểm dữ liệu có chỉ mục được chỉ định. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Đại diện cho định dạng các đường dẫn nhãn dữ liệu. Chỉ đọc [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Trả về chuỗi biểu đồ cha. Chỉ đọc [`IChartSeries`](../ichartseries). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Ẩn nhãn dữ liệu theo mặc định bằng cách đặt tất cả các cờ Show*- (ShowValue, ...) của thuộc tính DefaultDataLabelFormat thành trạng thái false. IsVisible sẽ là false sau thao tác này. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Trả về chỉ số của DataLabel được chỉ định trong bộ sưu tập. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Làm cho nhãn dữ liệu bị ẩn theo mặc định bằng cách đặt tất cả các cờ Show* (ShowValue, ...) của thuộc tính DefaultDataLabelFormat ở trạng thái false. IsVisible sẽ là false sau thao tác này. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Trả về chỉ mục của DataLabel được chỉ định trong bộ sưu tập. |
 
 ### Xem thêm
 

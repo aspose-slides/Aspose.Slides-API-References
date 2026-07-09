@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ห่อหุ้มโครงสร้างพื้นฐานของบริการพื้นฐานสำหรับอ็อบเจกต์ที่สามารถเป็นหัวข้อของการสืบทอดค่าคุณสมบัติ
+second_title: Aspose.Sildes สำหรับอ้างอิง API .NET
+description: ห่อหุ้มโครงสร้างพื้นฐานของบริการพื้นฐานสำหรับวัตถุที่อาจเป็นหัวข้อของการสืบทอดค่าคุณสมบัติ
 type: docs
 weight: 9270
 url: /th/aspose.slides/pviobject/
 ---
 ## PVIObject คลาส
 
-ห่อหุ้มโครงสร้างพื้นฐานของบริการพื้นฐานสำหรับอ็อบเจกต์ที่อาจเป็นหัวข้อของการสืบทอดค่าคุณสมบัติ
+ห่อหุ้มโครงสร้างพื้นฐานของบริการพื้นฐานสำหรับวัตถุที่อาจเป็นหัวข้อของการสืบทอดค่าคุณสมบัติ
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,14 +18,14 @@ public abstract class PVIObject : ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจกต์ที่ระบุ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด. |
 
 ### ดูเพิ่มเติม
 

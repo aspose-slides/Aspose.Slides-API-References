@@ -1,14 +1,14 @@
 ---
 title: ITextFrame
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά ένα TextFrame.
 type: docs
-weight: 7250
+weight: 7270
 url: /el/aspose.slides/itextframe/
 ---
-## ITextFrame διεπαφή
+## ITextFrame διασύνδεση
 
-Αναπαριστά ένα TextFrame.
+Represents a TextFrame.
 
 ```csharp
 public interface ITextFrame : ISlideComponent
@@ -18,30 +18,30 @@ public interface ITextFrame : ISlideComponent
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής ISlideComponent. Μόνο για ανάγνωση [`ISlideComponent`](../islidecomponent). |
-| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Παρέχει εύκολη πρόσβαση στους περιέχονται υπερσυνδέσμους. Μόνο για ανάγνωση [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [AsISlideComponent](../../aspose.slides/itextframe/asislidecomponent) { get; } | Επιτρέπει την λήψη της βασικής διασύνδεσης ISlideComponent. Μόνο για ανάγνωση [`ISlideComponent`](../islidecomponent). |
+| [HyperlinkQueries](../../aspose.slides/itextframe/hyperlinkqueries) { get; } | Παρέχει εύκολη πρόσβαση σε περιέχουσες υπερσυνδέσεις. Μόνο για ανάγνωση [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/itextframe/paragraphs) { get; } | Επιστρέφει τη λίστα όλων των παραγράφων σε ένα πλαίσιο. Μόνο για ανάγνωση [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή ICell. Μόνο για ανάγνωση [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διεπαφή IShape. Μόνο για ανάγνωση [`IShape`](../ishape). |
-| [Text](../../aspose.slides/itextframe/text) { get; set; } | Αποκτά ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/εγγραφή String. |
+| [ParentCell](../../aspose.slides/itextframe/parentcell) { get; } | Επιστρέφει το γονικό κελί ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διασύνδεση ICell. Μόνο για ανάγνωση [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/itextframe/parentshape) { get; } | Επιστρέφει το γονικό σχήμα ή null εάν το γονικό αντικείμενο δεν υλοποιεί τη διασύνδεση IShape. Μόνο για ανάγνωση [`IShape`](../ishape). |
+| [Text](../../aspose.slides/itextframe/text) { get; set; } | Ανακτά ή ορίζει το απλό κείμενο για ένα TextFrame. Ανάγνωση/εγγραφή String. |
 | [TextFrameFormat](../../aspose.slides/itextframe/textframeformat) { get; } | Επιστρέφει το αντικείμενο μορφοποίησης για αυτό το αντικείμενο TextFrame. Μόνο για ανάγνωση [`ITextFrameFormat`](../itextframeformat). |
 
-## Μεθόδοι
+## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Επισημαίνει όλα τα ταιριάσματα της κανονικής έκφρασης με το καθορισμένο χρώμα. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Επισημαίνει όλα τα ταιριάσματα του δείγματος κειμένου με το καθορισμένο χρώμα. |
-| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Επισημαίνει όλα τα ταιριάσματα του δείγματος κειμένου με το καθορισμένο χρώμα. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Συνδέει τις ακολουθίες με την ίδια μορφοποίηση σε όλες τις παραγράφους. |
-| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Αντικαθιστά όλα τα ταιριάσματα της κανονικής έκφρασης με το καθορισμένο συμβολοσειρά. |
+| [HighlightRegex](../../aspose.slides/itextframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | Επισημαίνει όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο χρώμα. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext)(string, Color) | Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα. |
+| [HighlightText](../../aspose.slides/itextframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | Επισημαίνει όλες τις αντιστοιχίες του δείγματος κειμένου με το καθορισμένο χρώμα. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/itextframe/joinportionswithsameformatting)() | Συνενώνει τμήματα με την ίδια μορφοποίηση σε όλες τις παραγράφους. |
+| [ReplaceRegex](../../aspose.slides/itextframe/replaceregex)(Regex, string, IFindResultCallback) | Αντικαθιστά όλες τις αντιστοιχίες της κανονικής έκφρασης με το καθορισμένο συμβολοσειρά. |
 | [ReplaceText](../../aspose.slides/itextframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | Αντικαθιστά όλες τις εμφανίσεις του καθορισμένου κειμένου με άλλο καθορισμένο κείμενο. |
-| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Διαιρεί το κείμενο του [`ITextFrame`](../itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε ξεχωριστή στήλη κειμένου μέσα στο πλαίσιο. |
+| [SplitTextByColumns](../../aspose.slides/itextframe/splittextbycolumns)() | Διαιρεί το κειμενικό περιεχόμενο του [`ITextFrame`](../itextframe) σε έναν πίνακα συμβολοσειρών, όπου κάθε στοιχείο αντιστοιχεί σε μια ξεχωριστή στήλη κειμένου εντός του πλαισίου. |
 
 ### Δείτε επίσης
 
-* διεπαφή [ISlideComponent](../islidecomponent)
-* χωρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* σύγκροτηση [Aspose.Slides](../../)
+* διασύνδεση [ISlideComponent](../islidecomponent)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

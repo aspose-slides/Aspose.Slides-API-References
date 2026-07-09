@@ -1,6 +1,6 @@
 ---
 title: IFontFallBackRulesCollection
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示使用者定義的 FontFallBack 規則集合
 type: docs
 weight: 5860
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection 介面
 
-表示由使用者定義的 FontFallBack 規則集合
+表示使用者定義的 FontFallBack 規則集合
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -25,9 +25,9 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 | 名稱 | 說明 |
 | --- | --- |
 | [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 在集合的末端新增一個 FallBack 規則。 |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | 從集合中移除特定 FallBack 規則的第一個出現。 |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | 從集合中移除第一個出現的特定 FallBack 規則。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [IFontFallBackRule](../ifontfallbackrule)

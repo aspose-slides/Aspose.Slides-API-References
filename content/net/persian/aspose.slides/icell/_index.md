@@ -1,14 +1,14 @@
 ---
 title: ICell
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نماینده یک سلول در جدول است.
+description: نمایانگر یک سلول در جدول است.
 type: docs
 weight: 5450
 url: /fa/aspose.slides/icell/
 ---
-## رابط ICell
+## ICell رابط
 
-نماینده یک سلول در جدول است.
+نمایانگر یک سلول در جدول است.
 
 ```csharp
 public interface ICell : ISlideComponent
@@ -18,43 +18,43 @@ public interface ICell : ISlideComponent
 
 | نام | توضیح |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | مشخص می‌کند که آیا جعبه متن درون یک سلول مرکزی شده است یا خیر. خواندنی/نوشتنی Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | امکان دریافت رابط پایه ISlideComponent را فراهم می‌کند. فقط-خواندنی [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | شیء CellFormat را برمی‌گرداند که شامل ویژگی‌های قالب‌بندی برای این سلول است. فقط-خواندنی [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | تعداد ستون‌های شبکه‌ای در جدول والد که توسط سلول جاری پوشش داده می‌شود را برمی‌گرداند. این ویژگی امکان ظاهر شدن سلول‌ها به‌صورت ادغام‌شده را می‌دهد، زیرا مرزهای عمودی سلول‌های دیگر را پوشش می‌دهد. فقط-خواندنی Int32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | ستون اول سلول را می‌گیرد. فقط-خواندنی [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | اندیس اولین ستونی که توسط سلول پوشش داده می‌شود را برمی‌گرداند. فقط-خواندنی Int32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | ردیف اول سلول را می‌گیرد. فقط-خواندنی [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | اندیس اولین ردیفی که توسط سلول پوشش داده می‌شود را برمی‌گرداند. فقط-خواندنی Int32. |
-| [Height](../../aspose.slides/icell/height) { get; } | ارتفاع سلول را برمی‌گرداند. فقط-خواندنی Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | اگر سلول با هر سلول تنظیم‌شده‌ای ادغام شده باشد true و در غیر این صورت false برمی‌گرداند. فقط-خواندنی Boolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | مارژین پایین در یک TextFrame را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Double. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | مارژین چپ در یک TextFrame را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Double. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | مارژین راست در یک TextFrame را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Double. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | مارژین بالا در یک TextFrame را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | حداقل ارتفاع سلول را برمی‌گرداند. این مجموع ارتفاع‌های حداقل تمام ردیف‌های پوشش‌داده‌شده توسط سلول است. فقط-خواندنی Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | فاصله از سمت چپ جدول تا سمت چپ سلول را برمی‌گرداند. فقط-خواندنی Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | فاصله از سمت بالای جدول تا سمت بالای سلول را برمی‌گرداند. فقط-خواندنی Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | تعداد ردیف‌هایی که یک سلول ادغام‌شده پوشش می‌دهد را برمی‌گرداند. این مقدار همراه با ویژگی vMerge در سلول‌های دیگر برای مشخص کردن سلول آغازگر ادغام افقی استفاده می‌شود. فقط-خواندنی Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | شیء Table والد برای یک سلول را برمی‌گرداند. فقط-خواندنی [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | نوع لنگر متن را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | فریم متن سلول را برمی‌گرداند. فقط-خواندنی [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | نوع متن عمودی را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | عرض سلول را برمی‌گرداند. فقط-خواندنی Double. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | مشخص می‌کند که آیا کادر متن درون یک سلول مرکز‌گذاری شده است یا نه. قابل‌نوشتن Boolean. |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | اجازه می‌دهد رابط پایه ISlideComponent را دریافت کند. فقط‌خواندنی [`ISlideComponent`](../islidecomponent). |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | شیء CellFormat را بر می‌گرداند که شامل ویژگی‌های قالب‌بندی برای این سلول است. فقط‌خواندنی [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | تعداد ستون‌های شبکه در جدول والد که توسط سلول جاری پوشیده می‌شود را بر می‌گرداند. این ویژگی امکان می‌دهد سلول‌ها ظاهر ادغام داشته باشند، زیرا مرزهای عمودی سلول‌های دیگر در جدول را می‌پوشانند. فقط‌خواندنی Int32. |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | ستون اول سلول را دریافت می‌کند. فقط‌خواندنی [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | اندیس اولین ستون پوشیده‌شده توسط سلول را بر می‌گرداند. فقط‌خواندنی Int32. |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | سطر اول سلول را دریافت می‌کند. فقط‌خواندنی [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | اندیس اولین سطر پوشیده‌شده توسط سلول را بر می‌گرداند. فقط‌خواندنی Int32. |
+| [Height](../../aspose.slides/icell/height) { get; } | ارتفاع سلول را بر می‌گرداند. فقط‌خواندنی Double. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | در صورتی که سلول با هر سلول تنظیم‌شده‌ای ادغام باشد true و در غیر این صورت false بر می‌گرداند. فقط‌خواندنی Boolean. |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | حاشیه پایین را در TextFrame بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Double. |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | حاشیه چپ را در TextFrame بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Double. |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | حاشیه راست را در TextFrame بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Double. |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | حاشیه بالایی را در TextFrame بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن Double. |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | حداقل ارتفاع سلول را بر می‌گرداند. این مجموع ارتفاع‌های حداقل تمام سطرهای پوشیده‌شده توسط سلول است. فقط‌خواندنی Double. |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | فاصله از سمت چپ جدول تا سمت چپ سلول را بر می‌گرداند. فقط‌خواندنی Double. |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | فاصله از سمت بالای جدول تا سمت بالای سلول را بر می‌گرداند. فقط‌خواندنی Double. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | تعداد سطرهایی که سلول ادغام‌شده پوشش می‌دهد را بر می‌گرداند. این مقدار همراه با ویژگی vMerge در سلول‌های دیگر برای مشخص کردن سلول آغازین ادغام افقی استفاده می‌شود. فقط‌خواندنی Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | شیء Table والد برای یک سلول را بر می‌گرداند. فقط‌خواندنی [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | نوع لنگر متن را بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | قاب متن سلول را بر می‌گرداند. فقط‌خواندنی [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | نوع متن عمودی را بر می‌گرداند یا تنظیم می‌کند. قابل‌نوشتن [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/icell/width) { get; } | عرض سلول را بر می‌گرداند. فقط‌خواندنی Double. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | سلول را به دو سلول بر اساس اندیس ستون تقسیم می‌کند. |
+| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | سلول را به دو سلول تقسیم می‌کند بر اساس اندیس ستون. |
 | [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | سلول را بر اساس ارتفاع تقسیم می‌کند. |
-| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | سلول را به دو سلول بر اساس اندیس ردیف تقسیم می‌کند. |
+| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | سلول را به دو سلول تقسیم می‌کند بر اساس اندیس سطر. |
 | [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | سلول را بر اساس عرض تقسیم می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
-* interface [ISlideComponent](../islidecomponent)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* واسط [ISlideComponent](../islidecomponent)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

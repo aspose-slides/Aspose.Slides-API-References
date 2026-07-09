@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes for .NET API 참조
-description: Line 차트 또는 Stock 차트의 상/하 막대에 대한 접근을 제공합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Line- 또는 Stock-차트의 상승/하강 바에 대한 접근을 제공합니다.
 type: docs
 weight: 2260
 url: /ko/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager 인터페이스
 
-Line 차트 또는 Stock 차트의 상/하 막대에 대한 접근을 제공합니다.
+Line- 또는 Stock-차트의 상승/하강 바에 대한 접근을 제공합니다.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,12 +18,12 @@ public interface IUpDownBarsManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 하향 막대의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | 다운 바의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 | [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | 갭 너비를 반환하거나 설정합니다. 읽기/쓰기 Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 차트에 상/하 막대가 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 상향 막대의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | 차트에 상승/하강 바가 있는지 결정합니다. 읽기/쓰기 Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | 상승 바의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

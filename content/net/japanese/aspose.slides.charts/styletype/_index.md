@@ -3,10 +3,10 @@ title: StyleType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートのスタイルを表します。
 type: docs
-weight: 2410
+weight: 2430
 url: /ja/aspose.slides.charts/styletype/
 ---
-## StyleType 列挙体
+## StyleType 列挙型
 
 チャートのスタイルを表します。
 

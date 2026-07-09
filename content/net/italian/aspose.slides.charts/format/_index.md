@@ -1,9 +1,9 @@
 ---
 title: Format
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta le proprietà di formato del grafico.
 type: docs
-weight: 1660
+weight: 1680
 url: /it/aspose.slides.charts/format/
 ---
 ## classe Format
@@ -18,11 +18,11 @@ public sealed class Format : PVIObject, IFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Effect](../../aspose.slides.charts/format/effect) { get; } | Restituisce gli effetti usati per un grafico. Solo lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Restituisce il formato 3D di un grafico. Solo lettura [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/format/fill) { get; } | Restituisce le proprietà di stile di riempimento di un grafico. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/format/line) { get; } | Restituisce le proprietà di stile di linea di un grafico. Solo lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Fill](../../aspose.slides.charts/format/fill) { get; } | Restituisce le proprietà dello stile di riempimento di un grafico. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/format/line) { get; } | Restituisce le proprietà dello stile di linea di un grafico. Solo lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Metodi
 

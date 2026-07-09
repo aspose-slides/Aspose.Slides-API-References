@@ -1,6 +1,6 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示標準的內部例外類型。
 type: docs
 weight: 9560
@@ -19,10 +19,10 @@ public class PptxException : OOXMLException
 | 名稱 | 說明 |
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | 預設建構函式。 |
-| [PptxException](pptxexception#constructor_1)(string) | 允許將訊息加入此例外的建構函式。 |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的例外建構函式。 |
+| [PptxException](pptxexception#constructor_1)(string) | 允許向此例外加入訊息的建構函式。 |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | 包含訊息及內嵌例外的例外建構函式。 |
 
-### 參見
+### 另請參閱
 
 * 類別 [OOXMLException](../ooxmlexception)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

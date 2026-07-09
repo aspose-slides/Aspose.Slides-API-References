@@ -1,6 +1,6 @@
 ---
 title: IGrayScale
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: IImageTransformOperation 인터페이스를 나타냅니다.
 type: docs
 weight: 3340
@@ -22,7 +22,7 @@ public interface IGrayScale : IAccessiblePVIObject<IGrayScaleEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/igrayscale/asiaccessiblepviobject) { get; } | 기본 IAccessiblePVIObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/igrayscale/asiimagetransformoperation) { get; } | IImageTransformOperation 인터페이스를 반환합니다. 읽기 전용 [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### 참고
+### 참조
 
 * 인터페이스 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 인터페이스 [IGrayScaleEffectiveData](../igrayscaleeffectivedata)

@@ -1,14 +1,14 @@
 ---
 title: MathArrayFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: गणितीय सरणी बनाने की अनुमति देता है
+description: गणितीय ऐरे बनाने की अनुमति देता है
 type: docs
 weight: 8560
 url: /hi/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory क्लास
 
-गणितीय सरणी बनाने की अनुमति देता है
+गणितीय ऐरे बनाने की अनुमति देता है
 
 ```csharp
 public class MathArrayFactory : IMathArrayFactory
@@ -24,14 +24,14 @@ public class MathArrayFactory : IMathArrayFactory
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | एक गणितीय सरणी बनाता है और निर्दिष्ट तत्व को उसमें रखता है |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | एक गणितीय सरणी बनाता है और निर्दिष्ट तत्वों को उसमें रखता है |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | एक गणितीय ऐरे बनाता है और निर्दिष्ट तत्व को उसमें रखता है |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | एक गणितीय ऐरे बनाता है और निर्दिष्ट तत्वों को उसमें रखता है |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IMathArrayFactory](../imatharrayfactory)
 * नेमस्पेस [Aspose.Slides.MathText](../../aspose.slides.mathtext)

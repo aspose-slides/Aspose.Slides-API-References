@@ -18,18 +18,18 @@ public interface IChartTextBlockFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | TextFrame에서 수직 기준선 텍스트를 가져오거나 설정합니다. 읽기/쓰기 [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 텍스트의 자동 맞춤 모드를 가져오거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 전체 지원; PowerPoint 2007에서는 렌더링에 영향을 주지 않음). 읽기/쓰기 [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True이면 텍스트가 상자 안에서 가로로 가운데 정렬되어야 합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | TextFrame에서 아래 여백(포인트)을 가져오거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 전체 지원; PowerPoint 2007에서는 렌더링에 영향을 주지 않음). 읽기/쓰기 Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | TextFrame에서 왼쪽 여백(포인트)을 가져오거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 전체 지원; PowerPoint 2007에서는 렌더링에 영향을 주지 않음). 읽기/쓰기 Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | TextFrame에서 오른쪽 여백(포인트)을 가져오거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 전체 지원; PowerPoint 2007에서는 렌더링에 영향을 주지 않음). 읽기/쓰기 Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | TextFrame에서 위쪽 여백(포인트)을 가져오거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 전체 지원; PowerPoint 2007에서는 렌더링에 영향을 주지 않음). 읽기/쓰기 Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 경계 상자 내 텍스트에 적용되는 사용자 지정 회전을 지정합니다. 지정되지 않으면, 함께 있는 도형의 회전이 사용됩니다. 지정된 경우, 도형과 별도로 적용됩니다. 즉, 도형에 회전이 적용될 수 있으며 텍스트 자체에도 회전이 적용됩니다. 이 속성과 속성 TextVerticalType에 정의된 수직 유형을 종합한 시각적 텍스트 회전 값이 결과로 제공됩니다. 읽기/쓰기 Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 텍스트 방향을 결정합니다. 이 속성과 속성 RotationAngle에 정의된 사용자 지정 각도를 종합한 시각적 텍스트 회전 값이 결과로 제공됩니다. 읽기/쓰기 [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | TextFrame의 여백에서 텍스트가 자동 줄 바꿈되는 경우 **True**입니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2007/2013에서 전체 지원). 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | TextFrame에서 수직 앵커 텍스트를 반환하거나 설정합니다. 읽기/쓰기 [`TextAnchorType`](../../aspose.slides/textanchortype). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | 텍스트의 자동 맞춤 모드를 반환하거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 완전 지원; PowerPoint 2007에서는 렌더링에 효과가 없습니다). 읽기/쓰기 [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | NullableBool.True이면 텍스트가 상자 안에서 수평으로 가운데 정렬되어야 합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | TextFrame의 아래쪽 여백(포인트)을 반환하거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 완전 지원; PowerPoint 2007에서는 렌더링에 효과가 없습니다). 읽기/쓰기 Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | TextFrame의 왼쪽 여백(포인트)을 반환하거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 완전 지원; PowerPoint 2007에서는 렌더링에 효과가 없습니다). 읽기/쓰기 Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | TextFrame의 오른쪽 여백(포인트)을 반환하거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 완전 지원; PowerPoint 2007에서는 렌더링에 효과가 없습니다). 읽기/쓰기 Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | TextFrame의 위쪽 여백(포인트)을 반환하거나 설정합니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2013에서 완전 지원; PowerPoint 2007에서는 렌더링에 효과가 없습니다). 읽기/쓰기 Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | 경계 상자 내 텍스트에 적용되는 사용자 정의 회전을 지정합니다. 지정되지 않은 경우, 해당 모양의 회전이 사용됩니다. 지정된 경우, 모양과 독립적으로 적용됩니다. 즉, 모양에 회전이 적용될 수 있으며 텍스트 자체에도 회전이 적용됩니다. 이 속성과 TextVerticalType 속성의 사전 정의된 수직 타입을 종합한 시각적 텍스트 회전값이 결과로 제공됩니다. 읽기/쓰기 Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | 텍스트 방향을 결정합니다. 이 속성과 RotationAngle 속성의 사용자 정의 각도를 종합한 시각적 텍스트 회전값이 결과로 제공됩니다. 읽기/쓰기 [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | 텍스트가 TextFrame의 여백에서 자동 줄바꿈되는 경우 **True**입니다. 이 속성을 변경하면 다음 차트 부분에만 특정 영향을 줄 수 있습니다: DataLabel 및 DataLabelFormat (PowerPoint 2007/2013에서 완전 지원). 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

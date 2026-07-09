@@ -1,7 +1,7 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션이 마크다운으로 저장되는 방식을 제어하는 옵션을 나타냅니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 프레젠테이션을 마크다운으로 저장하는 방식을 제어하는 옵션을 나타냅니다.
 type: docs
 weight: 4250
 url: /ko/aspose.slides.export/markdownsaveoptions/
@@ -18,30 +18,30 @@ public class MarkdownSaveOptions : SaveOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [MarkdownSaveOptions](markdownsaveoptions)() | Ctor. |
+| [MarkdownSaveOptions](markdownsaveoptions)() | 생성자. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 리소스를 포함한 문서가 저장될 기본 경로를 지정합니다. 기본값은 응용 프로그램의 현재 디렉터리입니다. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 원본 글꼴을 찾을 수 없을 때 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [BasePath](../../aspose.slides.export/markdownsaveoptions/basepath) { get; set; } | 리소스가 포함된 문서가 저장될 기본 경로를 지정합니다. 기본값은 애플리케이션의 현재 디렉터리입니다. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없을 때 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 문자열. |
 | [ExportType](../../aspose.slides.export/markdownsaveoptions/exporttype) { get; set; } | 프레젠테이션을 변환할 마크다운 사양을 지정합니다. 기본값은 `TextOnly`입니다. |
 | [Flavor](../../aspose.slides.export/markdownsaveoptions/flavor) { get; set; } | 프레젠테이션을 변환할 마크다운 사양을 지정합니다. 기본값은 `Multi-markdown`입니다. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [HandleRepeatedSpaces](../../aspose.slides.export/markdownsaveoptions/handlerepeatedspaces) { get; set; } |  |
 | [ImagesSaveFolderName](../../aspose.slides.export/markdownsaveoptions/imagessavefoldername) { get; set; } | 이미지를 저장할 폴더 이름을 지정합니다. 기본값은 `Images`입니다. |
-| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 생성된 문서에 새 줄 \r(Macintosh), \n(Unix) 또는 \r\n(Windows) 중 어떤 것이 포함될지 지정합니다. 기본값은 `Unix`입니다. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 위한 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)을(를) 참조하십시오. |
+| [NewLineType](../../aspose.slides.export/markdownsaveoptions/newlinetype) { get; set; } | 생성된 문서에 줄 바꿈 문자 \r(Macintosh), \n(Unix) 또는 \r\n(Windows) 중 어느 것을 사용할지 지정합니다. 기본값은 `Unix`입니다. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 업데이트를 제공하는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하십시오. |
 | [RemoveEmptyLines](../../aspose.slides.export/markdownsaveoptions/removeemptylines) { get; set; } | `true`로 설정하면 최종 마크다운 출력에서 빈 줄이나 공백만 있는 줄을 제거합니다. 기본값은 `false`입니다. |
 | [ShowComments](../../aspose.slides.export/markdownsaveoptions/showcomments) { get; set; } | 생성된 문서에 주석을 표시할지 여부를 지정합니다. 기본값은 `false`입니다. |
 | [ShowHiddenSlides](../../aspose.slides.export/markdownsaveoptions/showhiddenslides) { get; set; } | 생성된 문서에 숨겨진 슬라이드를 포함할지 여부를 지정합니다. 기본값은 `false`입니다. |
 | [ShowSlideNumber](../../aspose.slides.export/markdownsaveoptions/showslidenumber) { get; set; } | 생성된 문서에 각 슬라이드 번호를 표시할지 여부를 지정합니다. 기본값은 `false`입니다. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
-| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 마크다운 출력에서 슬라이드 번호 헤더에 사용되는 형식 문자열을 가져오거나 설정합니다. 형식에는 "{0}" 자리표시자를 포함해야 하며, 이는 내보내기 시 슬라이드 인덱스로 대체됩니다. 예시: "# Slide {0}"는 "# Slide 1", "# Slide 2" 등으로 출력됩니다. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 프로세스를 계속할지 중단할지 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 부울. 기본값은 **false**입니다. |
+| [SlideNumberFormat](../../aspose.slides.export/markdownsaveoptions/slidenumberformat) { get; set; } | 마크다운 출력에서 슬라이드 번호 헤더에 사용되는 형식 문자열을 가져오거나 설정합니다. 형식에는 반드시 \"{0}\" 자리표시자가 포함되어야 하며, 내보내기 시 슬라이드 인덱스로 대체됩니다. 예시: \"# Slide {0}\"는 \"# Slide 1\", \"# Slide 2\" 등으로 생성됩니다. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 과정이 계속될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### 예제
+### 예시
 
 예시:
 

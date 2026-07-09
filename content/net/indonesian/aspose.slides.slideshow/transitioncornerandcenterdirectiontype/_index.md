@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerAndCenterDirectionType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan arah yang dibatasi pada sudut-sudut dan pusat.
+second_title: Referensi API .NET Aspose.Sildes
+description: Menentukan arah yang dibatasi pada sudut-sudut dan tengah.
 type: docs
-weight: 10320
+weight: 10340
 url: /id/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
-## enumerasi TransitionCornerAndCenterDirectionType
+## TransitionCornerAndCenterDirectionType enumerasi
 
-Menentukan arah yang dibatasi pada sudut-sudut dan pusat.
+Menentukan arah yang dibatasi pada sudut-sudut dan tengah.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType

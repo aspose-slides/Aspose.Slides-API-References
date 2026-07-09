@@ -3,10 +3,10 @@ title: SvgCoordinateUnit
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa unidades de coordenadas CSS2 usadas para definir coordenadas SVG.
 type: docs
-weight: 4460
+weight: 4480
 url: /pt/aspose.slides.export/svgcoordinateunit/
 ---
-## enumeração SvgCoordinateUnit
+## Enumeração SvgCoordinateUnit
 
 Representa unidades de coordenadas CSS2 usadas para definir coordenadas SVG.
 
@@ -24,9 +24,9 @@ public enum SvgCoordinateUnit
 | Point | `3` | Ponto (1/72 de polegada), |
 | Pica | `4` | Pica (1/6 de polegada). |
 | Em | `5` | Tamanho Em de uma fonte do elemento contêiner. |
-| Ex | `6` | Tamanho Ex (tamanho da letra minúscula, geralmente "x") da fonte do elemento contêiner. |
-| Pixel | `7` | Tamanho pixel. |
-| Percent | `8` | Percentual. |
+| Ex | `6` | Tamanho Ex (tamanho da letra minúscula, normalmente "x") da fonte do elemento contêiner. |
+| Pixel | `7` | Tamanho do pixel. |
+| Percent | `8` | Porcentagem. |
 
 ### Veja Também
 

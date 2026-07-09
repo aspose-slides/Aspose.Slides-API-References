@@ -1,14 +1,14 @@
 ---
 title: ExternalResourceResolver
-second_title: Aspose.Sildes for .NET API Referansı
-description: Geri çağırma sınıfı, Html ve Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılır. Bu çözücünün kullanılması, istemci tarafından sağlanan HTML veya SVG dosyasının sunucu yazılımının yerel veya ağ dosyasına erişmesine neden olabilecek bir güvenlik açığı oluşturabilir. Dikkatli kullanın. ExternalResourceResolver’ın hiç belirtilmemesi önerilir; sadece gömülü nesneler okunur veya belirtilen uri’nin geçerli olup olmadığını kontrol eden bir alt sınıf oluşturulmalıdır.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Geri çağırma sınıfı, HTML ve SVG belgeleri içe aktarılırken harici kaynakları çözmek için kullanılır. Bu çözücü kullanıldığında, istemci tarafından sağlanan HTML veya SVG dosyası, sunucu yazılımının yerel veya ağ dosyasına erişmesine neden olabilecek bir güvenlik açığı oluşturabilir. Dikkatli kullanın. ExternalResourceResolver'ı hiç belirtmemek (yalnızca gömülü nesneler okunur) veya belirtilen uri'nin geçerli olup olmadığını kontrol eden bir alt sınıf oluşturmak önerilir.
 type: docs
-weight: 7460
+weight: 7480
 url: /tr/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver sınıfı
 
-Callback sınıfı, Html ve Svg belgelerinin içe aktarılması sırasında harici kaynakları çözmek için kullanılır. Bu çözücüyü kullanmak, istemci tarafından sağlanan HTML veya SVG dosyasının sunucu yazılımının yerel veya ağ dosyasına erişmesine neden olabilecek bir güvenlik açığı oluşturabilir. Dikkatli kullanın. ExternalResourceResolver’ın hiç belirtilmemesi (sadece gömülü nesneler okunur) veya belirtilen uri’nin geçerli olup olmadığını kontrol eden bir alt sınıf oluşturulması önerilir.
+Geri çağırma sınıfı, Html, Svg belgeleri içe aktarılırken harici kaynakları çözmek için kullanılır. Bu çözücü kullanıldığında, istemci tarafından sağlanan HTML veya SVG dosyası, sunucu yazılımının yerel veya ağ dosyasına erişmesine neden olabilecek bir güvenlik açığı oluşturabilir. Dikkatli kullanın. ExternalResourceResolver'ın hiç belirtilmemesi (yalnızca gömülü nesneler okunur) veya belirtilen uri'nın geçerli olup olmadığını kontrol eden bir alt sınıf oluşturulması önerilir.
 
 ```csharp
 public class ExternalResourceResolver : IExternalResourceResolver
@@ -20,12 +20,12 @@ public class ExternalResourceResolver : IExternalResourceResolver
 | --- | --- |
 | [ExternalResourceResolver](externalresourceresolver)() | Varsayılan yapıcı. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Gerçek kaynağı içeren bir nesneye bir URI eşler. |
-| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Temel ve göreceli URI’lerden mutlak URI’yi çözer. |
+| virtual [GetEntity](../../aspose.slides.import/externalresourceresolver/getentity)(string) | Gerçek kaynağı içeren bir nesneye bir URI'yi eşler. |
+| virtual [ResolveUri](../../aspose.slides.import/externalresourceresolver/resolveuri)(string, string) | Temel ve göreli URI'lardan mutlak URI'yi çözer. |
 
 ### Ayrıca Bakınız
 

@@ -1,14 +1,14 @@
 ---
 title: SmartArtShapeCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje kolekci tvarů SmartArt
+description: Představuje kolekci tvarů SmartArt
 type: docs
-weight: 10650
+weight: 10670
 url: /cs/aspose.slides.smartart/smartartshapecollection/
 ---
 ## SmartArtShapeCollection třída
 
-Representuje kolekci tvarů SmartArt
+Představuje kolekci tvarů SmartArt
 
 ```csharp
 public class SmartArtShapeCollection : ISmartArtShapeCollection
@@ -18,17 +18,17 @@ public class SmartArtShapeCollection : ISmartArtShapeCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Vrací počet prvků skutečně obsažených v kolekci. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Vrací hodnotu indikující, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Count](../../aspose.slides.smartart/smartartshapecollection/count) { get; } | Vrací počet prvků skutečně obsažených ve sbírce. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartshapecollection/issynchronized) { get; } | Vrací hodnotu udávající, zda je přístup ke kolekci synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.smartart/smartartshapecollection/item) { get; } | Vrací prvek na zadaném indexu. Pouze pro čtení [`SmartArtShape`](../smartartshape).&gt;. |
-| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Vrací synchronizační kořen. Pouze pro čtení Object. |
+| [SyncRoot](../../aspose.slides.smartart/smartartshapecollection/syncroot) { get; } | Vrací kořen synchronizace. Pouze pro čtení Object. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Zkopíruje všechny prvky z kolekce do zadaného pole. |
-| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
+| [CopyTo](../../aspose.slides.smartart/smartartshapecollection/copyto)(Array, int) | Zkopíruje všechny prvky ze sbírky do zadaného pole. |
+| [GetEnumerator](../../aspose.slides.smartart/smartartshapecollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
 
 ### Viz také
 

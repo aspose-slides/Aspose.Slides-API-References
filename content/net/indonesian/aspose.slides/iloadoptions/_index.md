@@ -1,14 +1,14 @@
 ---
 title: ILoadOptions
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Memungkinkan menentukan opsi tambahan seperti format atau font default saat memuat sebuah presentasi.
+description: Memungkinkan untuk menentukan opsi tambahan seperti format atau font default saat memuat presentasi.
 type: docs
-weight: 6320
+weight: 6340
 url: /id/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions antarmuka
 
-Memungkinkan untuk menentukan opsi tambahan (seperti format atau font default) saat memuat sebuah presentasi.
+Memungkinkan untuk menentukan opsi tambahan (seperti format atau font default) saat memuat presentasi.
 
 ```csharp
 public interface ILoadOptions
@@ -18,24 +18,24 @@ public interface ILoadOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Mewakili opsi yang dapat digunakan untuk mengelola perilaku penanganan Binary Large Objects (BLOBs), seperti penggunaan file sementara atau maksimum byte BLOBs di memori. Opsi-opsi ini dimaksudkan untuk mengatur rasio kinerja/konsumsi memori terbaik untuk lingkungan atau kebutuhan tertentu. Binary Large Object (BLOB) adalah data biner yang disimpan sebagai satu entitas - yaitu BLOB dapat berupa audio, video, atau presentasi itu sendiri. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Mengembalikan atau mengatur font Asia yang digunakan bila font sumber tidak ditemukan. String baca-tulis. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font Regular yang digunakan bila font sumber tidak ditemukan. String baca-tulis. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Mengembalikan atau mengatur font Symbol yang digunakan bila font sumber tidak ditemukan. String baca-tulis. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Mengembalikan atau mengatur bahasa default untuk teks presentasi. String baca/tulis. |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Mewakili opsi yang dapat digunakan untuk mengelola perilaku penanganan Binary Large Objects (BLOBs), seperti penggunaan file sementara atau maksimum byte BLOBs dalam memori. Opsi-opsi ini dimaksudkan untuk mengatur rasio kinerja/konsumsi memori yang terbaik untuk lingkungan atau persyaratan tertentu. Binary Large Object (BLOB) adalah data biner yang disimpan sebagai satu entitas - misalnya BLOB dapat berupa audio, video, atau presentasi itu sendiri. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Mengembalikan atau mengatur font Asia yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font Reguler yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Mengembalikan atau mengatur font Simbol yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Mengembalikan atau mengatur bahasa default untuk teks presentasi. Baca/tulis String. |
 | [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Menentukan apakah Aspose.Slides akan menghapus semua objek biner yang disematkan saat memuat presentasi. |
 | [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Menentukan sumber untuk font eksternal yang akan digunakan oleh presentasi. Font ini tersedia untuk presentasi selama masa hidupnya dan tidak dibagikan dengan presentasi lain |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token untuk memantau permintaan interupsi.  Token ini mengelola seluruh masa hidup instance [`IPresentation`](../ipresentation). Setiap operasi yang berjalan lama, seperti memuat atau menyimpan presentasi, akan diinterupsi dengan memanggil metode [`Interrupt`](../iinterruptiontokensource/interrupt) dari [`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Mengembalikan atau mengatur format presentasi yang akan dimuat. [`LoadFormat`](../loadformat) baca/tulis. |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Properti ini masuk akal jika file presentasi dilindungi kata sandi. Nilai true berarti hanya properti dokumen yang harus dimuat dari file presentasi yang terenkripsi dan kata sandi akan diabaikan. Nilai false berarti seluruh presentasi terenkripsi harus dimuat dengan menggunakan kata sandi yang benar. Jika presentasi tidak terenkripsi maka nilai properti ini selalu diabaikan. Jika properti dokumen dari file terenkripsi tidak publik dan nilai properti true maka properti dokumen tidak dapat dimuat dan akan dilemparkan pengecualian. Boolean dapat dibaca-tulis. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Mengambil atau mengatur kata sandi. String baca-tulis. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Mengembalikan atau mengatur antarmuka callback yang mengelola pemuatan sumber daya eksternal. [`IResourceLoadingCallback`](../iresourceloadingcallback) baca/tulis. |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token untuk memantau permintaan interupsi. Token ini mengelola seluruh masa hidup instance [`IPresentation`](../ipresentation). Setiap operasi yang berjalan lama, seperti pemuatan atau penyimpanan presentasi, akan diinterupsi melalui pemanggilan metode [`Interrupt`](../iinterruptiontokensource/interrupt) dari [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Mengembalikan atau mengatur format presentasi yang akan dimuat. Baca/tulis [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Properti ini berguna jika file presentasi dilindungi kata sandi. Nilai true berarti hanya properti dokumen yang harus dimuat dari file presentasi terenkripsi dan kata sandi harus diabaikan. Nilai false berarti seluruh presentasi terenkripsi harus dimuat dengan menggunakan kata sandi yang benar. Jika presentasi tidak terenkripsi, maka nilai properti selalu diabaikan. Jika properti dokumen dari file terenkripsi tidak bersifat publik dan nilai properti true, maka properti dokumen tidak dapat dimuat dan pengecualian akan dilemparkan. Baca-tulis Boolean. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Mengambil atau mengatur kata sandi. Baca-tulis String. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Mengembalikan atau mengatur antarmuka callback yang mengelola pemuatan sumber daya eksternal. Baca/tulis [`IResourceLoadingCallback`](../iresourceloadingcallback). |
 | [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Mewakili opsi yang dapat digunakan untuk menentukan perilaku spreadsheet tambahan. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) baca/tulis. |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Lihat Juga
 
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

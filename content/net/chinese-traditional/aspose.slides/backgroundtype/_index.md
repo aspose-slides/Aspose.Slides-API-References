@@ -16,7 +16,7 @@ public enum BackgroundType : sbyte
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Themed | `0` |  |

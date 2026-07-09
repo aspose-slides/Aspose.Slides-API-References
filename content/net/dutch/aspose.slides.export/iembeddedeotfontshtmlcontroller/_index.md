@@ -8,7 +8,7 @@ url: /nl/aspose.slides.export/iembeddedeotfontshtmlcontroller/
 ---
 ## IEmbeddedEotFontsHtmlController interface
 
-Ingebedde Eot-lettertypen HTML-controller.
+Embedded Eot-lettertypen HTML-controller.
 
 ```csharp
 public interface IEmbeddedEotFontsHtmlController : IHtmlFormattingController

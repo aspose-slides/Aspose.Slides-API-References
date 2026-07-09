@@ -1,7 +1,7 @@
 ---
 title: EffectStyleCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個效果樣式的集合。
+description: 表示效果樣式的集合。
 type: docs
 weight: 11090
 url: /zh-hant/aspose.slides.theme/effectstylecollection/
@@ -18,8 +18,8 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 傳回集合中的元素數量。唯讀 Int32，唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 傳回指示集合存取是否同步（執行緒安全）的值。唯讀 Boolean。 |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | 傳回集合中元素的數量。唯讀 Int32，唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否同步（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | 傳回指定位置的元素。唯讀 [`EffectStyle`](../effectstyle)。 |
 | [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
@@ -28,7 +28,7 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 | 名稱 | 說明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | 傳回一個遍歷集合的列舉器。 |
 
 ### 另見
 

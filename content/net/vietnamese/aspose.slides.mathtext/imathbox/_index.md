@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định việc đóng gói hộp logic của phần tử toán học. Ví dụ, một đối tượng đã được đóng hộp có thể hoạt động như một trình mô phỏng toán tử có hoặc không có điểm căn chỉnh, hoạt động như một điểm ngắt dòng hoặc được nhóm lại sao cho không cho phép ngắt dòng bên trong. Ví dụ, toán tử  nên được đóng hộp để ngăn ngừa việc ngắt dòng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Xác định việc đóng gói (boxing) logic của phần tử toán học. Ví dụ, một đối tượng được đóng hộp có thể hoạt động như một bộ mô phỏng toán tử có hoặc không có điểm căn chỉnh, có thể là điểm ngắt dòng hoặc được nhóm lại để không cho phép ngắt dòng bên trong. Ví dụ, toán tử nên được đóng hộp để ngăn ngắt dòng.
 type: docs
 weight: 8190
 url: /vi/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox giao diện
 
-Specifies the logical boxing (packaging) of mathematical element. For example, a boxed object can serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within. For example, the "==" operator should be boxed to prevent line breaks.
+Xác định việc đóng gói logic (boxing) của phần tử toán học. Ví dụ, một đối tượng được đóng hộp có thể đóng vai trò là bộ mô phỏng toán tử có hoặc không có điểm căn chỉnh, có thể là điểm ngắt dòng, hoặc được nhóm lại để không cho phép ngắt dòng bên trong. Ví dụ, toán tử "==" nên được đóng hộp để ngăn ngắt dòng.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,13 +18,13 @@ public interface IMathBox : IMathElement
 
 | Tên | Mô tả |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Khi đúng, trình mô phỏng toán tử này hoạt động như một điểm căn chỉnh; tức là, các điểm căn chỉnh được chỉ định trong các phương trình khác có thể được căn chỉnh với nó. Mặc định: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | Khi đúng, bộ mô phỏng toán tử này đóng vai trò là điểm căn chỉnh; tức là, các điểm căn chỉnh được chỉ định trong các phương trình khác có thể được căn chỉnh với nó. Mặc định: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | Cho phép lấy giao diện cơ sở IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | Đối số cơ sở |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Vi phân. Khi đúng, hộp hoạt động như một vi phân (ví dụ, 𝑑𝑥 trong một hàm tích phân), và nhận khoảng cách ngang thích hợp cho vi phân toán học. Mặc định: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Ngắt rõ ràng chỉ định liệu có ngắt dòng ở đầu đối tượng Box hay không, để dòng được ngắt ở đầu đối tượng hộp. Xác định số lượng toán tử trên dòng trước của văn bản toán học sẽ được sử dụng làm điểm căn chỉnh cho dòng hiện tại của văn bản toán học. Các giá trị khả dụng: 1..255 Mặc định: 0 (không có ngắt rõ ràng) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Không ngắt. Thuộc tính này chỉ định thuộc tính "không thể ngắt" trên hộp đối tượng. Khi đúng, không có ngắt dòng nào xảy ra bên trong hộp. Điều này có thể quan trọng đối với các trình mô phỏng toán tử bao gồm nhiều hơn một toán tử nhị phân. Khi phần tử này không được chỉ định, có thể xảy ra ngắt bên trong hộp. Mặc định: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Trình mô phỏng toán tử. Khi đúng, hộp và nội dung của nó hoạt động như một toán tử duy nhất và kế thừa các thuộc tính của một toán tử. Điều này có nghĩa, ví dụ, rằng ký tự có thể phục vụ như một điểm ngắt dòng và có thể được căn chỉnh với các toán tử khác. Trình mô phỏng toán tử thường được sử dụng khi một hoặc nhiều glyph kết hợp thành một toán tử, chẳng hạn như '=='. Giá trị mặc định: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | Vi phân. Khi đúng, hộp đóng vai trò là vi phân (ví dụ, 𝑑𝑥 trong một tích phân), và nhận khoảng cách ngang phù hợp cho vi phân toán học. Mặc định: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | Ngắt rõ ràng xác định có một ngắt dòng ở đầu đối tượng Box hay không, sao cho dòng được gói lại ở đầu đối tượng hộp. Xác định số của toán tử trên dòng trước của văn bản toán học sẽ được sử dụng làm điểm căn chỉnh cho dòng hiện tại của văn bản toán học. Giá trị khả dụng: 1..255 Mặc định: 0 (không có ngắt rõ ràng) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | Không ngắt. Thuộc tính này chỉ định tính "không thể ngắt" trên hộp đối tượng. Khi đúng, không có ngắt dòng nào có thể xảy ra bên trong hộp. Điều này có thể quan trọng đối với các bộ mô phỏng toán tử bao gồm hơn một toán tử nhị phân. Khi phần tử này không được chỉ định, các ngắt có thể xảy ra trong hộp. Mặc định: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | Bộ mô phỏng toán tử. Khi đúng, hộp và nội dung của nó hành xử như một toán tử duy nhất và thừa kế các thuộc tính của một toán tử. Điều này có nghĩa, ví dụ, ký tự có thể đóng vai trò là điểm ngắt dòng và có thể được căn chỉnh với các toán tử khác. Các bộ mô phỏng toán tử thường được sử dụng khi một hoặc nhiều glyph kết hợp để tạo thành một toán tử, chẳng hạn như '=='. Giá trị mặc định: false |
 
 ### Ví dụ
 

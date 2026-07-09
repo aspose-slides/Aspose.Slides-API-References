@@ -16,14 +16,14 @@ public interface ICellFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IBaseTableFormatEffectiveData. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | ดึงค่าความโปร่งใสของสีเติม. อ่าน Single. |
+| [AsIBaseTableFormatEffectiveData](../../aspose.slides/icellformateffectivedata/asibasetableformateffectivedata) { get; } | อนุญาตให้รับค่าฐานของอินเทอร์เฟซ IBaseTableFormatEffectiveData. อ่านอย่างเดียว [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
+| [Transparency](../../aspose.slides/icellformateffectivedata/transparency) { get; } | รับค่าความโปร่งใสของสีเติม. อ่าน Single. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ICellFormat`](../icellformat) เพื่อคืนค่าการจัดรูปแบบที่มีผลกับการสืบทอดและสไตล์ของตารางที่นำไปใช้.
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ICellFormat`](../icellformat) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอดและสไตล์ตารางที่นำไปใช้.
 
 ### ดูเพิ่มเติม
 

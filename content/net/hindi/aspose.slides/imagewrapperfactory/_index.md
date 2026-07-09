@@ -1,14 +1,14 @@
 ---
 title: ImageWrapperFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: यह कक्षा IBitmapWrapper को इनिशियलाइज़ करने की अनुमति देती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: यह क्लास IBitmapWrapper को प्रारंभ करने की अनुमति देती है।
 type: docs
 weight: 7450
 url: /hi/aspose.slides/imagewrapperfactory/
 ---
-## ImageWrapperFactory कक्षा
+## ImageWrapperFactory क्लास
 
-यह कक्षा IBitmapWrapper को इनिशियलाइज़ करने की अनुमति देती है।
+यह क्लास IBitmapWrapper को प्रारंभ करने की अनुमति देती है।
 
 ```csharp
 public class ImageWrapperFactory : IImageWrapperFactory
@@ -20,15 +20,15 @@ public class ImageWrapperFactory : IImageWrapperFactory
 | --- | --- |
 | [ImageWrapperFactory](imagewrapperfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | निर्दिष्ट मौजूदा इमेज से ImageWrapper कक्षा का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | निर्दिष्ट डेटा स्ट्रीम से BitmapWrapper कक्षा का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
-| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | निर्दिष्ट फाइल से BitmapWrapper कक्षा का एक नया इंस्टेंस इनिशियलाइज़ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper)(IImage) | निर्दिष्ट मौजूदा छवि से ImageWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_1)(Stream) | निर्दिष्ट डेटा स्ट्रीम से BitmapWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
+| [CreateImageWrapper](../../aspose.slides/imagewrapperfactory/createimagewrapper#createimagewrapper_2)(string) | निर्दिष्ट फ़ाइल से BitmapWrapper क्लास का नया इंस्टेंस प्रारंभ करता है। |
 
-### संबंधित देखें
+### और देखें
 
 * इंटरफ़ेस [IImageWrapperFactory](../iimagewrapperfactory)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

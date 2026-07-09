@@ -1,6 +1,6 @@
 ---
 title: IAlphaInverse
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: Alpha Inverse 효과를 나타냅니다. Alpha 불투명도 값은 100에서 빼서 반전됩니다.
 type: docs
 weight: 3080

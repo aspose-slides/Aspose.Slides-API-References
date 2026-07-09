@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat de effectieve lettertype-schema-eigenschappen bevat.
+description: Onveranderlijk object dat effectieve font-schema-eigenschappen bevat.
 type: docs
 weight: 11260
 url: /nl/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData interface
 
-Onveranderlijk object dat de effectieve lettertype-schema-eigenschappen bevat.
+Onveranderlijk object dat effectieve font-schemaakeigenschappen bevat.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,13 +18,13 @@ public interface IFontSchemeEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Retourneert de collectie met lettertypen voor het “heading”-deel van de dia. Alleen-lezen [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Retourneert de collectie met lettertypen voor het “body”-deel van de dia. Alleen-lezen [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Retourneert de naam van het lettertype-schema. Alleen-lezen String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Geeft de fonts-collectie voor een "heading"-gedeelte van de dia terug. Alleen-lezen [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Geeft de fonts-collectie voor een "body"-gedeelte van de dia terug. Alleen-lezen [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Geeft de naam van het fontschema terug. Alleen-lezen String. |
 
 ### Opmerkingen
 
-Dit interface wordt gebruikt als onderdeel van [`IThemeEffectiveData`](../ithemeeffectivedata).
+Deze interface wordt gebruikt als onderdeel van [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### Zie ook
 

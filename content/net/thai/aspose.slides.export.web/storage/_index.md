@@ -1,32 +1,32 @@
 ---
 title: Storage
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของการจัดเก็บข้อมูลชั่วคราวสำหรับ WebDocument./webdocument.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงการจัดเก็บข้อมูลชั่วคราวสำหรับ WebDocument./webdocument.
 type: docs
 weight: 4660
 url: /th/aspose.slides.export.web/storage/
 ---
-## คลาสการจัดเก็บ
+## Storage คลาส
 
-เป็นตัวแทนของการจัดเก็บข้อมูลชั่วคราวสำหรับ [`WebDocument`](../webdocument).
+แสดงถึงการจัดเก็บข้อมูลชั่วคราวสำหรับ [`WebDocument`](../webdocument).
 
 ```csharp
 public sealed class Storage
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Storage](storage)() | คอนสตรัคเตอร์เริ่มต้น |
+| [Storage](storage)() | คอนสตรัคเตอร์เริ่มต้น. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | ตรวจสอบว่าการจัดเก็บมีองค์ประกอบที่มีคีย์ที่ระบุหรือไม่ |
-| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | ดึงข้อมูลจากการจัดเก็บ |
-| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | ใส่ค่าไปยังการจัดเก็บ |
+| [ContainsKey](../../aspose.slides.export.web/storage/containskey)(string) | กำหนดว่าการจัดเก็บมีองค์ประกอบที่มีคีย์ที่ระบุหรือไม่. |
+| [Get&lt;TValue&gt;](../../aspose.slides.export.web/storage/get)(string) | ดึงข้อมูลจากการจัดเก็บ. |
+| [Put&lt;TValue&gt;](../../aspose.slides.export.web/storage/put)(string, TValue) | ใส่ค่าลงในการจัดเก็บ. |
 
 ### ดูเพิ่มเติม
 

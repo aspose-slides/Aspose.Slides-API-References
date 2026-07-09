@@ -1,9 +1,9 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 生成された画像のピクセル形式を指定します。
 type: docs
-weight: 4190
+weight: 4210
 url: /ja/aspose.slides.export/imagepixelformat/
 ---
 ## ImagePixelFormat 列挙型
@@ -18,13 +18,13 @@ public enum ImagePixelFormat
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Format1bppIndexed | `1` | 1 ビット/ピクセル、インデックス形式。 |
-| Format4bppIndexed | `4` | 4 ビット/ピクセル、インデックス形式。 |
-| Format8bppIndexed | `8` | 8 ビット/ピクセル、インデックス形式。 |
+| Format1bppIndexed | `1` | 1 ビット/ピクセル、インデックス化されています。 |
+| Format4bppIndexed | `4` | 4 ビット/ピクセル、インデックス化されています。 |
+| Format8bppIndexed | `8` | 8 ビット/ピクセル、インデックス化されています。 |
 | Format24bppRgb | `24` | 24 ビット/ピクセル、RGB。 |
 | Format32bppArgb | `32` | 32 ビット/ピクセル、ARGB。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * アセンブリ [Aspose.Slides](../../)

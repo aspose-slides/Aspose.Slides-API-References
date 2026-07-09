@@ -20,10 +20,10 @@ public interface IPPImage
 | --- | --- |
 | [BinaryData](../../aspose.slides/ippimage/binarydata) { get; } | Retourneert een kopie van de gegevens van een afbeelding. Alleen-lezen Byte[]. |
 | [ContentType](../../aspose.slides/ippimage/contenttype) { get; } | Retourneert een MIME-type van een afbeelding, gecodeerd in [`BinaryData`](./binarydata). Alleen-lezen String. |
-| [Height](../../aspose.slides/ippimage/height) { get; } | Retourneert de hoogte van een afbeelding. Alleen-lezen Int32. |
+| [Height](../../aspose.slides/ippimage/height) { get; } | Retourneert een hoogte van een afbeelding. Alleen-lezen Int32. |
 | [Image](../../aspose.slides/ippimage/image) { get; } | Retourneert een kopie van een afbeelding. Alleen-lezen [`Image`](./image). |
 | [SvgImage](../../aspose.slides/ippimage/svgimage) { get; set; } | Retourneert of stelt ISvgImage-object [`ISvgImage`](../isvgimage) in. |
-| [Width](../../aspose.slides/ippimage/width) { get; } | Retourneert de breedte van een afbeelding. Alleen-lezen Int32. |
+| [Width](../../aspose.slides/ippimage/width) { get; } | Retourneert een breedte van een afbeelding. Alleen-lezen Int32. |
 | [X](../../aspose.slides/ippimage/x) { get; } | Retourneert een X-offset van een afbeelding. Alleen-lezen Int32. |
 | [Y](../../aspose.slides/ippimage/y) { get; } | Retourneert een Y-offset van een afbeelding. Alleen-lezen Int32. |
 

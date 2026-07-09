@@ -1,14 +1,14 @@
 ---
 title: IChartCategoryCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een collectie van IChartCategory./ichartcategory
+description: Vertegenwoordigt collectie van IChartCategory./ichartcategory
 type: docs
 weight: 1760
 url: /nl/aspose.slides.charts/ichartcategorycollection/
 ---
 ## IChartCategoryCollection interface
 
-Representeert een verzameling van [`IChartCategory`](../ichartcategory)
+Vertegenwoordigt collectie van [`IChartCategory`](../ichartcategory)
 
 ```csharp
 public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
@@ -16,20 +16,20 @@ public interface IChartCategoryCollection : IGenericCollection<IChartCategory>
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Retourneert het aantal categoriegroeperingsniveaus dat wordt gebruikt. Is meer dan één voor meervoudige niveaus. Alleen-lezen Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/ichartcategorycollection/groupinglevelcount) { get; } | Retourneert het aantal categoriegroeperingsniveaus dat wordt gebruikt. Is meer dan één voor meerdelige categorieën. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.charts/ichartcategorycollection/item) { get; } | Haalt het element op op de opgegeven index. |
-| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Als true dan wordt het werkblad gebruikt voor het opslaan van categorieën (dit geval ondersteunt meerlagige categorieën). Als false wordt het werkblad NIET gebruikt voor het opslaan van waarden (en dit geval ondersteunt geen meerlagige categorieën). Lezen/Schrijven Boolean. |
+| [UseCells](../../aspose.slides.charts/ichartcategorycollection/usecells) { get; set; } | Indien true wordt het werkblad gebruikt voor het opslaan van categorieën (dit geval ondersteunt meerdelige categorieën). Indien false wordt het werkblad NIET gebruikt voor het opslaan van waarden (en dit geval ondersteunt geen meerdelige categorieën). Lees/Schrijf Boolean. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Als de categorie bestaat in de collectie, retourneer deze. Anders wordt een nieuwe grafiekcategorie gemaakt van [`IChartDataCell`](../ichartdatacell) en toegevoegd aan de collectie. |
+| [Add](../../aspose.slides.charts/ichartcategorycollection/add#add)(IChartDataCell) | Als de categorie bestaat in de collectie, retourneer deze. Anders wordt een nieuwe diagramcategorie gemaakt van [`IChartDataCell`](../ichartdatacell) en toegevoegd aan de collectie. |
 | [Add](../../aspose.slides.charts/ichartcategorycollection/add#add_1)(object) | Maakt een nieuwe [`IChartCategory`](../ichartcategory) van de waarde en voegt deze toe aan de collectie. |
 | [Clear](../../aspose.slides.charts/ichartcategorycollection/clear)() | Verwijdert alle elementen uit de collectie. |
-| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Zoekt naar de opgegeven [`IChartCategory`](../ichartcategory) en retourneert de nulgebaseerde index van de eerste vondst in de volledige collectie |
+| [IndexOf](../../aspose.slides.charts/ichartcategorycollection/indexof)(IChartCategory) | Zoekt naar de gespecificeerde [`IChartCategory`](../ichartcategory) en retourneert de nul-gebaseerde index van de eerste voorkomen binnen de gehele Collectie |
 | [Remove](../../aspose.slides.charts/ichartcategorycollection/remove)(IChartCategory) | Verwijdert de opgegeven waarde. |
 | [RemoveAt](../../aspose.slides.charts/ichartcategorycollection/removeat)(int) | Verwijdert het element op de opgegeven index. |
 

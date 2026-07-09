@@ -1,6 +1,6 @@
 ---
 title: TransitionPattern
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Xác định một mẫu hình học ghép lại để lấp đầy một khu vực lớn hơn.
 type: docs
 weight: 10400

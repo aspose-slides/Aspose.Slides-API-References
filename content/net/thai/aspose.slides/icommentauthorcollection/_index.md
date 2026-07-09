@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthorCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของผู้เขียนความคิดเห็น.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของคอลเลกชันของผู้เขียนความคิดเห็น.
 type: docs
 weight: 5580
 url: /th/aspose.slides/icommentauthorcollection/
 ---
 ## ICommentAuthorCollection อินเทอร์เฟซ
 
-เป็นคอลเลกชันของผู้เขียนความคิดเห็น.
+เป็นตัวแทนของคอลเลกชันของผู้เขียนความคิดเห็น.
 
 ```csharp
 public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
@@ -18,19 +18,19 @@ public interface ICommentAuthorCollection : IGenericCollection<ICommentAuthor>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | รับอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ICommentAuthor`](../icommentauthor). |
+| [Item](../../aspose.slides/icommentauthorcollection/item) { get; } | ดึงเอาอิลีเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ICommentAuthor`](../icommentauthor). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | เพิ่มผู้เขียนใหม่ที่ท้ายของคอลเลกชัน. |
+| [AddAuthor](../../aspose.slides/icommentauthorcollection/addauthor)(string, string) | เพิ่มผู้เขียนใหม่ที่ส่วนท้ายของคอลเลกชัน. |
 | [Clear](../../aspose.slides/icommentauthorcollection/clear)() | ลบผู้เขียนทั้งหมดออกจากคอลเลกชัน. |
-| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | ค้นหาผู้เขียนในคอลเลกชันโดยชื่อ. |
-| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | ค้นหาผู้เขียนในคอลเลกชันโดยชื่อและอักษรย่อ. |
+| [FindByName](../../aspose.slides/icommentauthorcollection/findbyname)(string) | ค้นหาผู้เขียนในคอลเลกชันโดยใช้ชื่อ. |
+| [FindByNameAndInitials](../../aspose.slides/icommentauthorcollection/findbynameandinitials)(string, string) | ค้นหาผู้เขียนในคอลเลกชันโดยใช้ชื่อและอักษรย่อ. |
 | [Remove](../../aspose.slides/icommentauthorcollection/remove)(ICommentAuthor) | ลบการพบครั้งแรกของผู้เขียนที่ระบุในคอลเลกชัน. |
 | [RemoveAt](../../aspose.slides/icommentauthorcollection/removeat)(int) | ลบผู้เขียนที่ตำแหน่งที่ระบุในคอลเลกชัน. |
-| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | สร้างและส่งคืนอาร์เรย์ที่มีผู้เขียนทั้งหมด. |
+| [ToArray](../../aspose.slides/icommentauthorcollection/toarray)() | สร้างและคืนค่าอาเรย์ที่มีผู้เขียนทั้งหมด. |
 
 ### ดูเพิ่มเติม
 

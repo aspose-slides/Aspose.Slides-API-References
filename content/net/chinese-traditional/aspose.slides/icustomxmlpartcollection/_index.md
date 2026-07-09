@@ -1,6 +1,6 @@
 ---
 title: ICustomXmlPartCollection
-second_title: 適用於 .NET 的 Aspose.Sildes API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示自訂 XML 部分的集合。
 type: docs
 weight: 5680
@@ -28,10 +28,10 @@ public interface ICustomXmlPartCollection : IGenericCollection<ICustomXmlPart>
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_1)(Stream) | 新增自訂 XML 部分。 |
 | [Add](../../aspose.slides/icustomxmlpartcollection/add#add_2)(string) | 新增自訂 XML 部分。 |
 | [Clear](../../aspose.slides/icustomxmlpartcollection/clear)() | 從集合中移除所有項目。 |
-| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 從集合中移除特定物件的第一次出現。 |
+| [Remove](../../aspose.slides/icustomxmlpartcollection/remove)(ICustomXmlPart) | 從集合中移除特定物件的第一個出現。 |
 | [RemoveAt](../../aspose.slides/icustomxmlpartcollection/removeat)(int) | 移除指定索引處的自訂 XML 部分。 |
 
-### 相關參考
+### 另請參閱
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [ICustomXmlPart](../icustomxmlpart)

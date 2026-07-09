@@ -8,7 +8,7 @@ url: /hi/aspose.slides.charts/legendentryproperties/
 ---
 ## LegendEntryProperties वर्ग
 
-चार्ट की लेजेंड विशेषताओं का प्रतिनिधित्व करता है।
+एक चार्ट की लेजेंड गुणों को दर्शाता है।
 
 ```csharp
 public class LegendEntryProperties : ILegendEntryProperties
@@ -18,11 +18,11 @@ public class LegendEntryProperties : ILegendEntryProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | पैरेंट चार्ट लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart)। |
-| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | निर्धारित करता है कि लेजेंड एंट्री छिपी हुई है या नहीं। पढ़ें/लिखें Boolean। |
-| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | टेक्स्ट फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat)। |
+| [Chart](../../aspose.slides.charts/legendentryproperties/chart) { get; } | पैरेंट चार्ट को लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [Hide](../../aspose.slides.charts/legendentryproperties/hide) { get; set; } | निर्धारित करता है कि लेजेंड एंट्री छिपी हुई है या नहीं। पढ़ें/लिखें Boolean. |
+| [TextFormat](../../aspose.slides.charts/legendentryproperties/textformat) { get; } | पाठ स्वरूप को लौटाता है। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
 
-### देखें भी
+### संबंधित
 
 * इंटरफ़ेस [ILegendEntryProperties](../ilegendentryproperties)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

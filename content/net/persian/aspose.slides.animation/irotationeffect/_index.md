@@ -1,7 +1,7 @@
 ---
 title: IRotationEffect
 second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایش رفتار چرخش اثر.
+description: رفتار چرخشی اثر را نشان می‌دهد.
 type: docs
 weight: 570
 url: /fa/aspose.slides.animation/irotationeffect/
@@ -14,14 +14,14 @@ url: /fa/aspose.slides.animation/irotationeffect/
 public interface IRotationEffect : IBehavior
 ```
 
-## ویژگی‌ها
+## خواص
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | دسترسی برای دریافت رابط پایه IBehavior را فراهم می‌کند. فقط-خواندنی [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | مقدار جابجایی نسبی برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | مقدار شروع برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | مقدار پایان برای انیمیشن را توصیف می‌کند. خواندنی/نوشتنی Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | به دست آوردن رابط پایه IBehavior اجازه می‌دهد. فقط-خواندنی [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | مقدار جابجایی نسبی برای انیمیشن را توضیح می‌دهد. خواندنی/نوشتنی Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | مقدار شروع برای انیمیشن را توضیح می‌دهد. خواندنی/نوشتنی Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | مقدار پایان برای انیمیشن را توضیح می‌دهد. خواندنی/نوشتنی Single. |
 
 ### موارد مرتبط
 

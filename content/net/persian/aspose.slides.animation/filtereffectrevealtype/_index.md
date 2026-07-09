@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر نوع فیلتر آشکارسازی است.
+description: نمایانگر نوع افشای فیلتر است.
 type: docs
 weight: 380
 url: /fa/aspose.slides.animation/filtereffectrevealtype/
 ---
-## FilterEffectRevealType شمارش
+## نوع فیلتر افشای FilterEffectRevealType
 
-نمایانگر نوع فیلتر آشکارسازی است.
+نمایانگر نوع افشای فیلتر.
 
 ```csharp
 public enum FilterEffectRevealType
@@ -23,7 +23,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
 * مجوعه [Aspose.Slides](../../)

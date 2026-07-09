@@ -1,14 +1,14 @@
 ---
 title: FormatFactory
-second_title: Aspose.Sildes .NET API Referansı
-description: COM arabirimi aracılığıyla biçimler oluşturmayı sağlar.
+second_title: Aspose.Sildes için .NET API Referansı
+description: COM arayüzü üzerinden biçimler oluşturmayı sağlar.
 type: docs
-weight: 4930
+weight: 4950
 url: /tr/aspose.slides/formatfactory/
 ---
 ## FormatFactory sınıfı
 
-COM arabirimi aracılığıyla biçimler oluşturmaya izin verir.
+COM arabirimi üzerinden biçimler oluşturmayı sağlar.
 
 ```csharp
 public class FormatFactory : IFormatFactory
@@ -16,25 +16,25 @@ public class FormatFactory : IFormatFactory
 
 ## Yapıcılar
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
 | [FormatFactory](formatfactory)() | Varsayılan yapıcı. |
 
 ## Özellikler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format fabrikası statik örnek. Yalnızca okunur [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Format fabrikası statik örnek. Salt okunur [`FormatFactory`](../formatfactory). |
 
 ## Yöntemler
 
-| Name | Description |
+| Ad | Açıklama |
 | --- | --- |
-| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Yeni [`IParagraphFormat`](../iparagraphformat) oluşturur. |
-| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Yeni [`IPortionFormat`](../iportionformat) oluşturur. |
-| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Yeni [`ITextFrameFormat`](../itextframeformat) oluşturur. |
+| [CreateParagraphFormat](../../aspose.slides/formatfactory/createparagraphformat)() | Yeni bir [`IParagraphFormat`](../iparagraphformat) oluşturur. |
+| [CreatePortionFormat](../../aspose.slides/formatfactory/createportionformat)() | Yeni bir [`IPortionFormat`](../iportionformat) oluşturur. |
+| [CreateTextFrameFormat](../../aspose.slides/formatfactory/createtextframeformat)() | Yeni bir [`ITextFrameFormat`](../itextframeformat) oluşturur. |
 
-### Ayrıca Bakınız
+### Ayrıca
 
 * arayüz [IFormatFactory](../iformatfactory)
 * ad alanı [Aspose.Slides](../../aspose.slides)

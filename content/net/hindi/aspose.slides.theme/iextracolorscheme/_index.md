@@ -1,14 +1,14 @@
 ---
 title: IExtraColorScheme
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अतिरिक्त रंग योजना को दर्शाता है जिसे स्लाइड को सौंपा जा सकता है।
+description: एक अतिरिक्त रंग योजना का प्रतिनिधित्व करता है जिसे स्लाइड को असाइन किया जा सकता है।
 type: docs
 weight: 11210
 url: /hi/aspose.slides.theme/iextracolorscheme/
 ---
 ## IExtraColorScheme इंटरफ़ेस
 
-एक अतिरिक्त रंग योजना को दर्शाता है जिसे स्लाइड को सौंपा जा सकता है।
+एक अतिरिक्त रंग योजना का प्रतिनिधित्व करता है जिसे स्लाइड में असाइन किया जा सकता है।
 
 ```csharp
 public interface IExtraColorScheme
@@ -18,10 +18,10 @@ public interface IExtraColorScheme
 
 | नाम | विवरण |
 | --- | --- |
-| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | एक रंग योजना लौटाता है। केवल-पढ़ने योग्य [`IColorScheme`](../icolorscheme)। |
-| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | इस योजना का नाम लौटाता है। केवल-pढ़ने योग्य String। |
+| [ColorScheme](../../aspose.slides.theme/iextracolorscheme/colorscheme) { get; } | एक रंग योजना लौटाता है। केवल-पढ़ने-योग्य [`IColorScheme`](../icolorscheme). |
+| [Name](../../aspose.slides.theme/iextracolorscheme/name) { get; } | इस योजना का नाम लौटाता है। केवल-पढ़ने-योग्य String. |
 
-### संबंधित देखें
+### अधिक देखें
 
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

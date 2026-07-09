@@ -18,8 +18,8 @@ public interface IField : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Staat toe de basisinterface ISlideComponent op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | Retourneert of stelt het type van het veld in. Lezen/Schrijven [`IFieldType`](../ifieldtype). |
+| [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | Staat toe om de basis ISlideComponent interface op te halen. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | Geeft het type van het veld terug of stelt het in. Lezen/schrijven [`IFieldType`](../ifieldtype). |
 
 ### Zie ook
 

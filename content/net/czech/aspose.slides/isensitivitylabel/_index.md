@@ -1,14 +1,14 @@
 ---
 title: ISensitivityLabel
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje štítek citlivosti ze služby Microsoft Purview Information Protection.
+description: Reprezentuje označení citlivosti z Microsoft Purview Information Protection.
 type: docs
-weight: 6910
+weight: 6930
 url: /cs/aspose.slides/isensitivitylabel/
 ---
 ## ISensitivityLabel rozhraní
 
-Represents the sensitivity label from Microsoft Purview Information Protection.
+Reprezentuje označení citlivosti z Microsoft Purview Information Protection.
 
 ```csharp
 public interface ISensitivityLabel
@@ -18,12 +18,12 @@ public interface ISensitivityLabel
 
 | Název | Popis |
 | --- | --- |
-| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Vrací nebo nastavuje způsob přiřazení pro sensitivity label. Čtení/zápis [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
+| [AssignmentMethodType](../../aspose.slides/isensitivitylabel/assignmentmethodtype) { get; set; } | Vrací nebo nastavuje metodu přiřazení pro označení citlivosti. Číst/zapsat [`SensitivityLabelAssignmentType`](../sensitivitylabelassignmenttype). |
 | [ContentMarkTypes](../../aspose.slides/isensitivitylabel/contentmarktypes) { get; } | Vrací seznam typů označování obsahu, které by měly být použity na soubor. |
-| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Vrací nebo nastavuje ID sensitivity label. Čtení/zápis String. |
-| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Udává, zda je sensitivity label povoleno. |
-| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Udává, zda bylo sensitivity label odstraněno. |
-| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Vrací nebo nastavuje identifikátor místa Azure Active Directory (Azure AD) odpovídající politice sensitivity label, která popisuje sensitivity label. Čtení/zápis Guid. |
+| [Id](../../aspose.slides/isensitivitylabel/id) { get; set; } | Vrací nebo nastavuje ID označení citlivosti. Číst/zapsat String. |
+| [IsEnabled](../../aspose.slides/isensitivitylabel/isenabled) { get; set; } | Indikuje, zda je označení citlivosti povoleno. |
+| [IsRemoved](../../aspose.slides/isensitivitylabel/isremoved) { get; set; } | Indikuje, zda bylo označení citlivosti odstraněno. |
+| [SiteId](../../aspose.slides/isensitivitylabel/siteid) { get; set; } | Vrací nebo nastavuje identifikátor Azure Active Directory (Azure AD) webu odpovídající politice označení citlivosti, která popisuje označení citlivosti. Číst/zapsat Guid. |
 
 ### Viz také
 

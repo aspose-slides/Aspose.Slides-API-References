@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l'oggetto Matrix costituito da elementi figlio disposti in una o più righe e colonne. È importante notare che le matrici non hanno delimitatori incorporati. Per inserire la matrice tra parentesi è necessario utilizzare l'oggetto delimitatore IMathDelimiter. Gli argomenti null possono essere usati per creare spazi vuoti nelle matrici.
+description: Specifica l'oggetto Matrix composto da elementi figli disposti in una o più righe e colonne. È importante notare che le matrici non hanno delimitatori incorporati. Per posizionare la matrice tra parentesi è necessario utilizzare l'oggetto delimitatore IMathDelimiter. Gli argomenti null possono essere usati per creare spazi vuoti nelle matrici.
 type: docs
-weight: 8320
+weight: 8340
 url: /it/aspose.slides.mathtext/imathmatrix/
 ---
-## IMathMatrix interfaccia
+## Interfaccia IMathMatrix
 
-Specifica l'oggetto Matrix, costituito da elementi figlio disposti in una o più righe e colonne. È importante notare che le matrici non hanno delimitatori incorporati. Per inserire la matrice tra parentesi è necessario utilizzare l'oggetto delimitatore (IMathDelimiter). Gli argomenti null possono essere usati per creare spazi vuoti nelle matrici.
+Specifica l'oggetto Matrix, composto da elementi figli disposti in una o più righe e colonne. È importante notare che le matrici non hanno delimitatori incorporati. Per inserire la matrice nelle parentesi è necessario utilizzare l'oggetto delimitatore (IMathDelimiter). Gli argomenti null possono essere usati per creare spazi vuoti nelle matrici.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -18,17 +18,17 @@ public interface IMathMatrix : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | Specifica l'allineamento verticale rispetto al testo circostante. I valori possibili sono top, bottom e center. Predefinito: Center |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | Consente di ottenere l'interfaccia IMathElement di base [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | Specifica la giustificazione verticale rispetto al testo circostante. I valori possibili sono top, bottom e center. Predefinito: Center |
 | [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | Numero di colonne nella matrice |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | Il valore della spaziatura orizzontale tra le colonne di una matrice; Se ColumnGapRule è impostato a 3 ("Exactly"), l'unità è interpretata come twip (1/20 di punto) Se ColumnGapRule è impostato a 4 ("Multiple"), l'unità è interpretata come numero di incrementi di 0,5 em. In altri casi ignorato. Predefinito: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | Il tipo di spaziatura orizzontale tra le colonne di una matrice; le unità di spaziatura orizzontale possono essere em o punti (memorizzati come twip). Predefinito: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Nascondi i segnaposto per gli elementi vuoti della matrice Predefinito: false |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | Il valore della spaziatura orizzontale tra le colonne di una matrice; se ColumnGapRule è impostato a 3 ("Exactly"), l'unità è interpretata come twip (1/20 di punto) Se ColumnGapRule è impostato a 4 ("Multiple"), l'unità è interpretata come numero di incrementi di 0,5 em. Negli altri casi ignorato. Predefinito: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | Il tipo di spaziatura orizzontale tra le colonne di una matrice; le unità di spaziatura orizzontale possono essere ems o points (memorizzati come twip). Predefinito: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | Nascondi i segnaposto per gli elementi vuoti della matrice. Predefinito: false |
 | [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | Elementi della matrice |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Larghezza minima della colonna in twip (1/20 di punto). La spaziatura del gap (nota anche come “Column Gap” o “Gap Width”) è aggiunta al MinColumnWidth per determinare la spaziatura totale della colonna della matrice (distanza tra gli stessi bordi di colonne diverse). Predefinito: 0. |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | Larghezza minima della colonna in twip (1/20 di punto). La spaziatura di interruzione (nota anche come “Column Gap” o “Gap Width”) viene aggiunta a MinColumnWidth per determinare la spaziatura totale delle colonne della matrice (distanza tra i bordi corrispondenti di colonne diverse). Predefinito: 0. |
 | [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | Numero di righe nella matrice |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | Il valore della spaziatura verticale tra le righe di una matrice; Se RowGapRule è impostato a 3 ("Exactly"), l'unità è interpretata come twip (1/20 di punto) Se RowGapRule è impostato a 4 ("Multiple"), l'unità è interpretata come mezze linee. Predefinito: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | Il tipo di spaziatura verticale tra le righe di una matrice; le unità di spaziatura verticale possono essere linee o punti (memorizzati come twip). Predefinito: SingleSpacingGap (0) |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | Il valore della spaziatura verticale tra le righe di una matrice; se RowGapRule è impostato a 3 ("Exactly"), l'unità è interpretata come twip (1/20 di punto) Se RowGapRule è impostato a 4 ("Multiple"), l'unità è interpretata come half-lines. Predefinito: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | Il tipo di spaziatura verticale tra le righe di una matrice; le unità di spaziatura verticale possono essere lines o points (memorizzati come twip). Predefinito: SingleSpacingGap (0) |
 
 ## Metodi
 
@@ -46,7 +46,7 @@ public interface IMathMatrix : IMathElement
 
 ### Esempi
 
-Esempio:
+Example:
 
 ```csharp
 [C#]
@@ -56,8 +56,8 @@ matrix[0, 0] = new MathematicalText("item.1.1");
 
 ### Vedi anche
 
-* interfaccia [IMathElement](../imathelement)
-* spazio dei nomi [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* interface [IMathElement](../imathelement)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

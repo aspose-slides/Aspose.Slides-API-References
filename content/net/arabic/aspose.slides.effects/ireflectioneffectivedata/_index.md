@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن ثابت لا يمكن تغييره يمثل تأثير الانعكاس.
+second_title: مرجع واجهة برمجة التطبيقات Aspose.Sildes لـ .NET
+description: كائن ثابت يمثل تأثير الانعكاس.
 type: docs
 weight: 3510
 url: /ar/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData واجهة
 
-كائن ثابت لا يمكن تغييره يمثل تأثير الانعكاس.
+كائن ثابت يمثل تأثير الانعكاس.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -18,26 +18,26 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | يسمح بالحصول على واجهة IEffectEffectiveData الأساسية. قراءة فقط [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | نصف قطر الضباب. قراءة فقط Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | اتجاه الانعكاس. قراءة فقط Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | مسافة الانعكاس. قراءة فقط Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | يحدد موضع النهاية (على طول منحدر تدرج ألفا) لقيمة ألفا النهاية (نسب مئوية). قراءة فقط Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | عتمة الانعكاس النهائية. (نسب مئوية). قراءة فقط Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | يحدد الاتجاه لإزاحة الانعكاس. (زاوية). قراءة فقط Single. |
-| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | محاذاة المستطيل. قراءة فقط [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | يحدد ما إذا كان يجب أن يدور الانعكاس مع الشكل إذا تم تدوير الشكل. قراءة فقط Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | يحدد معامل التحجيم الأفقي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) قراءة فقط Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | يحدد معامل التحجيم العمودي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) قراءة فقط Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | يحدد زاوية الانحراف الأفقي. قراءة فقط Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | يحدد زاوية الانحراف العمودي. قراءة فقط Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | يحدد موضع البداية (على طول منحدر تدرج ألفا) لقيمة ألفا البداية (نسب مئوية). قراءة فقط Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | عتمة الانعكاس الابتدائية. (نسب مئوية). قراءة فقط Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | يسمح بالحصول على واجهة IEffectEffectiveData الأساسية. للقراءة فقط [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | نصف قطر الضبابية. للقراءة فقط Double. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | اتجاه الانعكاس. للقراءة فقط Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | مسافة الانعكاس. للقراءة فقط Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | يحدد موضع النهاية (على طول منحدر تدرج ألفا) لقيمة ألفا النهاية (نسب مئوية). للقراءة فقط Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | شفافية الانعكاس النهائية. (نسب مئوية). للقراءة فقط Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | يحدد الاتجاه لإزاحة الانعكاس. (زاوية). للقراءة فقط Single. |
+| [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | محاذاة المستطيل. للقراءة فقط [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | يحدد ما إذا كان يجب أن يدور الانعكاس مع الشكل إذا تم تدوير الشكل. للقراءة فقط Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | يحدد معامل التحجيم الأفقي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) للقراءة فقط Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | يحدد معامل التحجيم العمودي، التحجيم السالب يسبب انعكاسًا. (نسب مئوية) للقراءة فقط Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | يحدد زاوية الانحراف الأفقي. للقراءة فقط Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | يحدد زاوية الانحراف العمودي. للقراءة فقط Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | يحدد موضع البداية (على طول منحدر تدرج ألفا) لقيمة ألفا البداية (نسب مئوية). للقراءة فقط Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | شفافية الانعكاس الابتدائية. (نسب مئوية). للقراءة فقط Single. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * واجهة [IEffectEffectiveData](../ieffecteffectivedata)
-* نطاق الاسم [Aspose.Slides.Effects](../../aspose.slides.effects)
+* مساحة اسم [Aspose.Slides.Effects](../../aspose.slides.effects)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

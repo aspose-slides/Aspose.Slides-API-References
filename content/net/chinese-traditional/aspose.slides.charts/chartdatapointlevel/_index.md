@@ -6,7 +6,7 @@ type: docs
 weight: 1350
 url: /zh-hant/aspose.slides.charts/chartdatapointlevel/
 ---
-## ChartDataPointLevel class
+## ChartDataPointLevel 類別
 
 表示資料點層級。適用於 Treemap 和 Sunburst 圖表。
 
@@ -18,7 +18,7 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | 表示資料點層級的格式屬性。讀/寫 [`IFormat`](../iformat)。 |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | 表示資料點層級的格式設定屬性。可讀寫 [`IFormat`](../iformat)。 |
 | [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | 表示資料點層級的資料標籤。適用於 Treemap 和 Sunburst 系列類型。唯讀 [`IDataLabel`](../idatalabel)。 |
 
 ### 另請參閱

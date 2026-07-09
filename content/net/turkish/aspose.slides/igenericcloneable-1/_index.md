@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes için .NET API Referansı
-description: ICloneable arayüzünün genel sürümünü temsil eder
+second_title: Aspose.Sildes for .NET API Referansı
+description: ICloneable'in genel bir sürümünü temsil eder
 type: docs
-weight: 5930
+weight: 5950
 url: /tr/aspose.slides/igenericcloneable-1/
 ---
-## IGenericCloneable<T> arayüz
+## IGenericCloneable<T> arayüzü
 
-ICloneable arayüzünün genel sürümünü temsil eder
+ICloneable'in genel bir sürümünü temsil eder
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable
@@ -30,7 +30,7 @@ public interface IGenericCloneable<T> : ICloneable
 | --- | --- |
 | [CloneT](../../aspose.slides/igenericcloneable`1/clonet)() | Geçerli örneğin bir kopyası olan yeni bir nesne oluşturur. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: PptxEditException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje výjimku vyvolanou, když je zjištěna chyba při úpravě prezentace.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Representuje výjimku vyhozenou při zjištění chyby úpravy prezentace.
 type: docs
-weight: 9530
+weight: 9550
 url: /cs/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException třída
 
-Representuje výjimku vyvolanou, když je zjištěna chyba při úpravě prezentace.
+Představuje výjimku vyhozenou při zjištění chyby úpravy prezentace.
 
 ```csharp
 public class PptxEditException : PptxException
@@ -19,8 +19,8 @@ public class PptxEditException : PptxException
 | Název | Popis |
 | --- | --- |
 | [PptxEditException](pptxeditexception#constructor)() | Výchozí konstruktor. |
-| [PptxEditException](pptxeditexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu do této výjimky. |
-| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Konstruktor pro výjimku obsahující zprávu a vloženou výjimku. |
+| [PptxEditException](pptxeditexception#constructor_1)(string) | Konstruktor umožňující přidat zprávu k této výjimce. |
+| [PptxEditException](pptxeditexception#constructor_2)(string, Exception) | Konstruktor výjimky obsahující zprávu a vloženou výjimku. |
 
 ### Viz také
 

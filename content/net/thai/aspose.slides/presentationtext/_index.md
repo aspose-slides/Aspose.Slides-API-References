@@ -1,14 +1,14 @@
 ---
 title: PresentationText
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงข้อความที่ดึงมาจากงานนำเสนอ
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: เป็นตัวแทนของข้อความที่ดึงมาจากการนำเสนอ
 type: docs
 weight: 9640
 url: /th/aspose.slides/presentationtext/
 ---
 ## PresentationText คลาส
 
-แสดงข้อความที่ดึงมาจากงานนำเสนอ
+เป็นตัวแทนของข้อความที่ดึงมาจากการนำเสนอ
 
 ```csharp
 public class PresentationText : IPresentationText
@@ -18,7 +18,7 @@ public class PresentationText : IPresentationText
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | อาเรย์ของ [`SlideText`](../islidetext) มีข้อความของงานนำเสนอ |
+| [SlidesText](../../aspose.slides/presentationtext/slidestext) { get; } | อาร์เรย์ของ [`SlideText`](../islidetext) มีข้อความของการนำเสนอ |
 
 ### ดูเพิ่มเติม
 

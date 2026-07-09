@@ -1,6 +1,6 @@
 ---
 title: IOuterShadow
-second_title: Aspose.Sildes cho .NET Tham khảo API
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Biểu diễn một hiệu ứng bóng ngoài.
 type: docs
 weight: 3460
@@ -8,7 +8,7 @@ url: /vi/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow giao diện
 
-Biểu diễn một hiệu ứng bóng ngoài.
+Represents an Outer Shadow effect.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
@@ -22,15 +22,15 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | Bán kính làm mờ, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Hướng của bóng, tính bằng độ. Giá trị mặc định – 0 ° (trái qua phải). Đọc/ghi Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Khoảng cách của bóng từ đối tượng, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Căn chữ nhật. Giá trị mặc định – Bottom. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Cho biết liệu bóng có quay cùng với hình dạng hay không. Giá trị mặc định – true. Đọc/ghi Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Hệ số tỷ lệ ngang, tính bằng phần trăm của kích thước gốc. Tỷ lệ âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Hệ số tỷ lệ dọc, tính bằng phần trăm của kích thước gốc. Tỷ lệ âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
-| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Màu của bóng. Giá trị mặc định – đen tự động (phụ thuộc vào giao diện). Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Góc nghiêng ngang, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Góc nghiêng dọc, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | Hướng của bóng, tính bằng độ. Giá trị mặc định – 0 ° (trái sang phải). Đọc/ghi Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | Khoảng cách của bóng so với đối tượng, tính bằng điểm. Giá trị mặc định – 0 pt. Đọc/ghi Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | Căn hình chữ nhật. Giá trị mặc định – Bottom. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | Cho biết bóng có xoay cùng với hình dạng hay không. Giá trị mặc định – true. Đọc/ghi Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | Hệ số co dọc chiều ngang, tính bằng phần trăm kích thước gốc. Tỷ lệ âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | Hệ số co dọc chiều dọc, tính bằng phần trăm kích thước gốc. Tỷ lệ âm gây lật. Giá trị mặc định – 100 %. Đọc/ghi Double. |
+| [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | Màu của bóng. Giá trị mặc định – màu đen tự động (phụ thuộc vào giao diện). Chỉ đọc [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | Góc nghiêng chiều ngang, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | Góc nghiêng chiều dọc, tính bằng độ. Giá trị mặc định – 0 °. Đọc/ghi Double. |
 
 ### Xem thêm
 

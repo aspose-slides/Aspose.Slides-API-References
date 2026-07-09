@@ -1,6 +1,6 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示運動路徑。
 type: docs
 weight: 690
@@ -14,31 +14,31 @@ url: /zh-hant/aspose.slides.animation/motionpath/
 public class MotionPath : IMotionPath
 ```
 
-## 建構式
+## 建構函式
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [MotionPath](motionpath)() | 預設建構式。 |
+| [MotionPath](motionpath)() | 預設建構函式。 |
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | 傳回集合中路徑的數量。唯讀 Int32。 |
-| [Item](../../aspose.slides.animation/motionpath/item) { get; } | 傳回指定索引處的指令。 |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | 在指定索引處傳回指令。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 新增指令至路徑 |
+| [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 將新指令新增至路徑。 |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | 從集合中移除所有指令。 |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
-| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 插入新指令至路徑 |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
+| [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 將新指令插入路徑。 |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 從集合中移除指定的指令。 |
-| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 從指定索引處移除指令。 |
+| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 移除指定索引處的指令。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IMotionPath](../imotionpath)
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)

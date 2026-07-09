@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του θέματος.
+description: Αμετάβλητο αντικείμενο που περιέχει τις ενεργές ιδιότητες θέματος.
 type: docs
-weight: 11360
+weight: 11380
 url: /el/aspose.slides.theme/ithemeeffectivedata/
 ---
-## IThemeEffectiveData διεπαφή
+## IThemeEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του θέματος.
+Αμετάβλητο αντικείμενο που περιέχει τις ενεργές ιδιότητες θέματος.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -25,11 +25,11 @@ public interface IThemeEffectiveData
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Επιστρέφει το σχήμα χρωμάτων. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Επιστρέφει το σχήμα χρώματος. |
 
 ### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ITheme`](../itheme) για την επιστροφή των αποτελεσματικών τιμών μορφοποίησης με εφαρμογή κληρονομικότητας.
+Αυτή η διασύνδεση χρησιμοποιείται μαζί με τη διασύνδεση [`ITheme`](../itheme) για την επιστροφή ενεργών τιμών μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
 
 ### Δείτε επίσης
 

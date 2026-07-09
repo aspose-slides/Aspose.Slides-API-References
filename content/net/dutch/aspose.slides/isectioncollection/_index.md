@@ -1,14 +1,14 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling secties voor.
+second_title: Aspose.Slides voor .NET API-referentie
+description: Stelt een collectie van secties voor.
 type: docs
 weight: 6900
 url: /nl/aspose.slides/isectioncollection/
 ---
 ## ISectionCollection interface
 
-Stelt een verzameling secties voor.
+Stelt een collectie van secties voor.
 
 ```csharp
 public interface ISectionCollection : IGenericCollection<ISection>
@@ -28,10 +28,10 @@ public interface ISectionCollection : IGenericCollection<ISection>
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Voegt een nieuwe sectie toe die begint vanaf een specifieke dia. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Voegt een lege sectie toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Verwijdert alle secties uit de collectie. |
-| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Retourneert de index van de opgegeven sectie in de collectie. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Verwijder sectie. Dia's die zich in de sectie bevinden, worden samengevoegd met de vorige sectie. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Verwijder sectie en de dia's die zich in de sectie bevinden. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Verplaatst sectie en de bijbehorende dia's van de collectie naar de opgegeven positie. |
+| [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Retourneert een index van de opgegeven sectie in de collectie. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Verwijdert sectie. Dia's die zich in de sectie bevinden, worden samengevoegd met de vorige sectie. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Verwijdert sectie en de daarin aanwezige dia's. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Verplaatst sectie en de bijbehorende dia's uit de collectie naar de opgegeven positie. |
 
 ### Zie ook
 

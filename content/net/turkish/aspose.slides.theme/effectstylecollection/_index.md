@@ -1,14 +1,14 @@
 ---
 title: EffectStyleCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Efekt stillerinin bir koleksiyonunu temsil eder.
 type: docs
-weight: 11070
+weight: 11090
 url: /tr/aspose.slides.theme/effectstylecollection/
 ---
 ## EffectStyleCollection sınıfı
 
-Efekt stillerinin bir koleksiyonunu temsil eder.
+Koleksiyon efekt stillerini temsil eder.
 
 ```csharp
 public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyleCollection
@@ -16,19 +16,19 @@ public sealed class EffectStyleCollection : DomObject<FormatScheme>, IEffectStyl
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32, Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize olup olmadığını (iş parçacığı güvenli) belirten bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Belirtilen konumdaki bir öğeyi döndürür. Salt okunur [`EffectStyle`](../effectstyle). |
-| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Senkronizasyon kökünü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.theme/effectstylecollection/count) { get; } | Koleksiyondaki öğe sayısını döndürür. Yalnızca okuma Int32, Yalnızca okuma Int32. |
+| [IsSynchronized](../../aspose.slides.theme/effectstylecollection/issynchronized) { get; } | Erişimin koleksiyona senkronize (thread-safe) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
+| [Item](../../aspose.slides.theme/effectstylecollection/item) { get; } | Belirtilen konumdaki bir öğeyi döndürür. Yalnızca okuma [`EffectStyle`](../effectstyle). |
+| [SyncRoot](../../aspose.slides.theme/effectstylecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
 
-## Yöntemler
+## Metotlar
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides.theme/effectstylecollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
+| [GetEnumerator](../../aspose.slides.theme/effectstylecollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratörü döndürür. |
 
 ### Ayrıca Bakınız
 

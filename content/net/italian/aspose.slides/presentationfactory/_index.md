@@ -1,14 +1,14 @@
 ---
 title: PresentationFactory
-second_title: Aspose.Sildes per .NET API Reference
-description: Consente di creare presentazioni tramite interfaccia COM
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Consente di creare una presentazione tramite interfaccia COM
 type: docs
-weight: 9580
+weight: 9600
 url: /it/aspose.slides/presentationfactory/
 ---
 ## PresentationFactory classe
 
-Consente di creare presentazioni tramite interfaccia COM
+Consente di creare una presentazione tramite interfaccia COM
 
 ```csharp
 public class PresentationFactory : IPresentationFactory
@@ -24,7 +24,7 @@ public class PresentationFactory : IPresentationFactory
 
 | Nome | Descrizione |
 | --- | --- |
-| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Istanza statica del factory di presentazione. Solo lettura [`PresentationFactory`](../presentationfactory). |
+| static [Instance](../../aspose.slides/presentationfactory/instance) { get; } | Istanza statica della factory di presentazione. Solo lettura [`PresentationFactory`](../presentationfactory). |
 
 ## Metodi
 
@@ -33,20 +33,20 @@ public class PresentationFactory : IPresentationFactory
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation)() | Crea una nuova presentazione. |
 | [CreatePresentation](../../aspose.slides/presentationfactory/createpresentation#createpresentation_1)(ILoadOptions) | Crea una nuova presentazione con opzioni di caricamento aggiuntive |
 | [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo)(Stream) | Crea un nuovo oggetto PresentationInfo dallo stream e associa la presentazione ad esso. Ottiene informazioni sulla presentazione nello stream specificato. |
-| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crea un nuovo oggetto PresentationInfo da file e associa la presentazione ad esso. |
+| [GetPresentationInfo](../../aspose.slides/presentationfactory/getpresentationinfo#getpresentationinfo_1)(string) | Crea un nuovo oggetto PresentationInfo dal file e associa la presentazione ad esso. |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext)(Stream, TextExtractionArrangingMode) | Recupera il testo grezzo dalle diapositive |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_2)(string, TextExtractionArrangingMode) | Recupera il testo grezzo dalle diapositive |
 | [GetPresentationText](../../aspose.slides/presentationfactory/getpresentationtext#getpresentationtext_1)(Stream, TextExtractionArrangingMode, ILoadOptions) | Recupera il testo grezzo dalle diapositive |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation)(byte[]) | Legge una presentazione esistente da un array |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_2)(Stream) | Legge una presentazione esistente dallo stream |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Legge una presentazione esistente da file |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_4)(string) | Legge una presentazione esistente dal file |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_1)(byte[], ILoadOptions) | Legge una presentazione esistente da un array con opzioni di caricamento aggiuntive |
 | [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_3)(Stream, ILoadOptions) | Legge una presentazione esistente dallo stream con opzioni di caricamento aggiuntive |
-| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Legge una presentazione esistente da stream con opzioni di caricamento aggiuntive |
+| [ReadPresentation](../../aspose.slides/presentationfactory/readpresentation#readpresentation_5)(string, ILoadOptions) | Legge una presentazione esistente dallo stream con opzioni di caricamento aggiuntive |
 
 ### Esempi
 
-Il seguente esempio mostra come verificare il formato di una presentazione.
+Il seguente esempio mostra come verificare un formato di presentazione.
 
 ```csharp
 [C#]

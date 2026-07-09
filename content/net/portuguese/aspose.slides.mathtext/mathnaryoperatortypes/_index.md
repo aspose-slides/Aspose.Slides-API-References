@@ -1,12 +1,12 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Aspose.Sildes para .NET – Referência da API
 description: Tipos de operador N-ário IMathNaryOperator excluindo integrais. Para integrais MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /pt/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## MathNaryOperatorTypes enumeração
+## Enumeração MathNaryOperatorTypes
 
 Tipos de operador N-ário IMathNaryOperator (excluindo integrais) Para integrais [`MathIntegralTypes`](../mathintegraltypes)
 
@@ -26,7 +26,7 @@ public enum MathNaryOperatorTypes
 | LogicalAnd | `5` | Logical And: '∧' |
 | LogicalOr | `6` | Logical Or: '∨' |
 
-### Veja Também
+### Ver também
 
 * espaço de nomes [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * assembly [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: IVbaReferenceCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 참조
 description: VBA 프로젝트 참조의 컬렉션을 나타냅니다.
 type: docs
 weight: 11580
@@ -18,13 +18,13 @@ public interface IVbaReferenceCollection : IGenericCollection<IVbaReference>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. |
+| [Item](../../aspose.slides.vba/ivbareferencecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 새 참조를 참조 컬렉션에 추가합니다. |
+| [Add](../../aspose.slides.vba/ivbareferencecollection/add)(IVbaReference) | 새로운 참조를 컬렉션에 추가합니다. |
 
 ### 참조
 

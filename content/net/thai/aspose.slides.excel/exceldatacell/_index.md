@@ -1,14 +1,14 @@
 ---
 title: ExcelDataCell
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเซลล์เดียวใน workbook ของ Excel.
+description: แสดงถึงเซลล์เดียวในเวิร์กบุ๊กของ Excel.
 type: docs
 weight: 3680
 url: /th/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell คลาส
 
-แสดงถึงเซลล์เดียวใน workbook ของ Excel
+แสดงถึงเซลล์เดียวในเวิร์กบุ๊กของ Excel.
 
 ```csharp
 public class ExcelDataCell : IExcelDataCell
@@ -16,12 +16,12 @@ public class ExcelDataCell : IExcelDataCell
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | รับดัชนีศูนย์ฐานของคอลัมน์ใน worksheet ที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
-| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | รับชื่อของ chart data cell. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | รับดัชนีศูนย์ฐานของแถวใน worksheet ที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
-| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | รับค่าที่อยู่ในเซลล์ Excel. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | ส่งคืนดัชนีแบบศูนย์ฐานของคอลัมน์ในแผ่นงานที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
+| [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | ส่งคืนชื่อของเซลล์ข้อมูลแผนภูมิ. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | ส่งคืนดัชนีแบบศูนย์ฐานของแถวในแผ่นงานที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
+| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | ส่งคืนค่าที่อยู่ในเซลล์ของ Excel. |
 
 ### ดูเพิ่มเติม
 

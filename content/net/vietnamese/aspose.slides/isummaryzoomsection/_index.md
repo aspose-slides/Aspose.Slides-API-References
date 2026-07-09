@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho một đối tượng Summary Zoom Section trong một khung Summary Zoom.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một đối tượng Summary Zoom Section trong một khung Summary Zoom.
 type: docs
 weight: 7160
 url: /vi/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection giao diện
 
-Đại diện cho một đối tượng Summary Zoom Section trong một khung Summary Zoom.
+Biểu diễn một đối tượng Summary Zoom Section trong một khung Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -22,7 +22,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Trả về mô tả văn bản của đối tượng Summary Zoom Section. |
 | [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Trả về tiêu đề văn bản của đối tượng Summary Zoom Section. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ISectionZoomFrame](../isectionzoomframe)
 * không gian tên [Aspose.Slides](../../aspose.slides)

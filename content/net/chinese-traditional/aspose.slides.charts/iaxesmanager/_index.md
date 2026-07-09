@@ -24,7 +24,7 @@ public interface IAxesManager
 | [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | 取得圖表的系列座標軸。唯讀 [`IAxis`](../iaxis)。 |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | 取得圖表的垂直座標軸。唯讀 [`IAxis`](../iaxis)。 |
 
-### 另請參閱
+### 相關參考
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 程式集 [Aspose.Slides](../../)

@@ -1,6 +1,6 @@
 ---
 title: IParagraphFactory
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: पैराग्राफ बनाने की अनुमति देता है
 type: docs
 weight: 6580
@@ -23,9 +23,9 @@ public interface IParagraphFactory
 
 ### टिप्पणी
 
-COM संगतता के लिए।
+COM संगतता के लिये।
 
-### और देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

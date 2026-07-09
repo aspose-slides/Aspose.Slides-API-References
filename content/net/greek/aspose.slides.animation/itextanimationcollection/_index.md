@@ -1,14 +1,14 @@
 ---
 title: ITextAnimationCollection
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει τη συλλογή κειμενικών κινήσεων.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αναπαριστά τη συλλογή των κινούμενων κειμένων.
 type: docs
-weight: 610
+weight: 630
 url: /el/aspose.slides.animation/itextanimationcollection/
 ---
 ## ITextAnimationCollection διεπαφή
 
-Αντιπροσωπεύει τη συλλογή των κειμενικών κινήσεων.
+Αναπαριστά τη συλλογή κειμενικών κινούμενων αντικειμένων.
 
 ```csharp
 public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Επιστρέφει το στοιχείο με δείκτη. (2 δείκτες) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | Επιστρέφει το στοιχείο κατά δείκτη. (2 δείκτες) |
 
 ### Δείτε επίσης
 

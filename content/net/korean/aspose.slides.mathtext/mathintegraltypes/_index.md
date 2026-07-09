@@ -1,6 +1,6 @@
 ---
 title: MathIntegralTypes
-second_title: Aspose.Sildes .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 적분 유형
 type: docs
 weight: 8790
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/mathintegraltypes/
 ---
 ## MathIntegralTypes 열거형
 
-수학적 적분 유형
+수학 적분 유형
 
 ```csharp
 public enum MathIntegralTypes
@@ -21,11 +21,11 @@ public enum MathIntegralTypes
 | Simple | `0` | 적분: '∫' |
 | Double | `1` | 이중 적분: '∬' |
 | Triple | `2` | 삼중 적분: '∭' |
-| Contour | `3` | 컨투어 적분: '∮' |
+| Contour | `3` | 곡선 적분: '∮' |
 | Surface | `4` | 표면 적분: '∯' |
-| Volume | `5` | 체적 적분: '∰' |
+| Volume | `5` | 부피 적분: '∰' |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

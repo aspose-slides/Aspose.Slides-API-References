@@ -1,14 +1,14 @@
 ---
 title: ISlideSize
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงขนาดและการวางแนวของสไลด์.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงขนาดและการวางแนวของสไลด์
 type: docs
 weight: 7090
 url: /th/aspose.slides/islidesize/
 ---
 ## ISlideSize อินเทอร์เฟซ
 
-แสดงถึงขนาดและการวางแนวของสไลด์
+อธิบายขนาดและการวางแนวของสไลด์
 
 ```csharp
 public interface ISlideSize
@@ -26,8 +26,8 @@ public interface ISlideSize
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์ตามประเภทและปรับสเกลเนื้อหาที่มีอยู่ |
-| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์โดยตรงและปรับสเกลเนื้อหาที่มีอยู่ |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์โดยประเภทและปรับสเกลเนื้อหาที่มีอยู่ |
+| [SetSize](../../aspose.slides/islidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | ตั้งค่าขนาดสไลด์โดยระบุอย่างชัดเจนและปรับสเกลเนื้อหาที่มีอยู่ |
 
 ### ดูเพิ่มเติม
 

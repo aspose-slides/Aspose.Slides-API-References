@@ -1,6 +1,6 @@
 ---
 title: ISectionSlideCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: सेक्शन में स्लाइड्स का एक संग्रह दर्शाता है।
 type: docs
 weight: 6910
@@ -18,7 +18,7 @@ public interface ISectionSlideCollection : IGenericCollection<ISlide>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व को प्राप्त करता है। केवल-पढ़ने योग्य [`ISlide`](../islide). |
+| [Item](../../aspose.slides/isectionslidecollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`ISlide`](../islide)। |
 
 ### संबंधित देखें
 

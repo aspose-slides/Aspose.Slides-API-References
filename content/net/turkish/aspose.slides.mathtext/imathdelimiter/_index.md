@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: Aspose.Sildes .NET için API Referansı
-description: Açılış ve kapanış karakterlerinden (parantez, süslü parantez, köşeli parantez ve dikey çubuk gibi) oluşan ve içinde bir veya daha fazla matematiksel öğe bulunan ayırıcı nesneyi belirtir; öğeler belirtilen bir karakterle ayrılır. Örnekler 2 2x7C2
+second_title: Aspose.Sildes için .NET API Referansı
+description: Parantez, süslü parantez, köşeli parantez ve dikey çubuk gibi açma ve kapama karakterlerinden oluşan ve içinde bir veya daha fazla matematiksel öğe bulunan sınırlayıcı nesneyi tanımlar; öğeler belirtilen bir karakterle ayrılır. Examples 2 2x7C2
 type: docs
-weight: 8190
+weight: 8210
 url: /tr/aspose.slides.mathtext/imathdelimiter/
 ---
-## IMathDelimiter arayüz
+## IMathDelimiter arayüzü
 
-Açılış ve kapanış karakterlerinden (parantez, süslü parantez, köşeli parantez ve dikey çubuk gibi) oluşan ve içinde bir veya daha fazla matematiksel öğe bulunan ayırıcı nesneyi tanımlar; öğeler belirtilen bir karakterle ayrılır. Örnekler: (𝑥2); [𝑥2&#x7C;𝑦2]
+Sınırlayıcı nesneyi tanımlar, açma ve kapama karakterlerinden (parantez, süslü parantez, köşeli parantez ve dikey çubuk gibi) oluşur ve içinde bir veya daha fazla matematiksel öğe bulunur; bu öğeler belirtilen bir karakterle ayrılır. Örnekler: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -18,21 +18,23 @@ public interface IMathDelimiter : IMathElement
 
 | Ad | Açıklama |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Ayırıcı karakterlerle ayrılmış bir veya daha fazla matematiksel öğe |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | Sınırlayıcı karakterlerle ayrılmış bir veya daha fazla matematiksel öğe |
 | [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | Temel IMathElement arayüzünü [`IMathElement`](../imathelement) almayı sağlar |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character, başlangıç ya da açılış ayırıcı karakterini belirtir. Matematiksel ayırıcılar, parantez, köşeli parantez ve süslü parantez gibi kapsayan karakterlerdir. Varsayılan değer: '(' |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Delimiter nesnesindeki ayırıcıların şeklini belirtir. MathDelimiterShape.Centered olduğunda, ayırıcılar matematik metninin matematik ekseni etrafında ortalanır ve içeriklerinin tam yüksekliğine sığacak şekilde ayarlanır. MathDelimiterShape.Match olduğunda ise, yükseklikleri ve şekilleri tam olarak içeriklerine uyacak şekilde değiştirilir. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character, bitiş ya da kapanış ayırıcı karakterini belirtir. Matematiksel ayırıcılar, parantez, köşeli parantez ve süslü parantez gibi kapsayan karakterlerdir. Varsayılan: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter, SeparatorCharacter, EndingCharacter öğelerinin büyümesini belirtir. true olduğunda, ayırıcılar işleç yüksekliğine uyacak şekilde dikey olarak büyür. Varsayılan değer true'tır. |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character, ayırıcı nesnesinde argümanları ayıran karakteri belirtir. Varsayılan: '&#x7C;'. |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | Delimiter Beginning Character başlangıç, yani açılış sınırlayıcı karakterini belirtir. Matematiksel sınırlayıcılar parantez, köşeli parantez ve süslü parantez gibi çevreleyen karakterlerdir. Varsayılan değer: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | Sınırlayıcı nesnedeki sınırlayıcıların şeklini belirtir. MathDelimiterShape.Centered olduğunda, sınırlayıcılar matematiksel metnin ekseni etrafında ortalanır ve içeriklerinin tamamının yüksekliğine uyması sağlanır. MathDelimiterShape.Match olduğunda ise yüksekliği ve şekli tam olarak içeriklerine uyması için değiştirilir. |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | Delimiter Ending Character bitiş, yani kapama sınırlayıcı karakterini belirtir. Matematiksel sınırlayıcılar parantez, köşeli parantez ve süslü parantez gibi çevreleyen karakterlerdir. Varsayılan: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | BeginningCharacter, SeparatorCharacter, EndingCharacter büyümesini belirtir. true olduğunda, sınırlayıcılar operant yüksekliğine eşitlenmek için dikey olarak büyür. Varsayılan değer true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | Delimiter Separator Character, sınırlayıcı nesnedeki bağımsız değişkenleri ayıran karakteri belirtir. Varsayılan: '&#x7C;' |
 
-## Yöntemler
+## Metodlar
 
 | Ad | Açıklama |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Belirtilen ayırıcı karakteri kullanarak argümanları sınırlar |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | Belirtilen sınırlayıcı karakteri kullanarak bağımsız değişkenleri sınırlar |
 
 ### Örnekler
+
+Örnek:
 
 ```csharp
 [C#]
@@ -40,7 +42,7 @@ IMathElement element = new MathematicalText("x");
 IMathDelimiter delimiter = element.Enclose();
 ```
 
-## Ayrıca Bakınız
+### Ayrıca Bakınız
 
 * arayüz [IMathElement](../imathelement)
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)

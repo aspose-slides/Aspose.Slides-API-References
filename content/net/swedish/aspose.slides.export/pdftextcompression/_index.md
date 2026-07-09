@@ -1,14 +1,14 @@
 ---
 title: PdfTextCompression
 second_title: Aspose.Sildes för .NET API-referens
-description: Konstanter som definierar typen av komprimering som tillämpas på allt innehåll i PDF-filen förutom bilder.
+description: Konstanter som definierar typen av kompression som tillämpas på allt innehåll i PDF-filen förutom bilder.
 type: docs
-weight: 4320
+weight: 4340
 url: /sv/aspose.slides.export/pdftextcompression/
 ---
 ## PdfTextCompression uppräkning
 
-Konstanter som definierar typen av komprimering som tillämpas på allt innehåll i PDF-filen förutom bilder.
+Konstanter som definierar typen av kompression som tillämpas på allt innehåll i PDF-filen förutom bilder.
 
 ```csharp
 public enum PdfTextCompression
@@ -18,10 +18,10 @@ public enum PdfTextCompression
 
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Ingen komprimering. |
-| Flate | `1` | Flate (ZIP) komprimering. |
+| None | `0` | Ingen kompression. |
+| Flate | `1` | Flate (ZIP)-kompression. |
 
-### Se också
+### Se även
 
 * namnrymd [Aspose.Slides.Export](../../aspose.slides.export)
 * samling [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Hue/Saturation/Luminance effektust képvisel. A hue, saturation és luminance minden esetben a jelenlegi értékéhez képest állítható be.
+second_title: Aspose.Sildes for .NET API-referencia
+description: Egy Hue/Saturation/Luminance effektust képvisel. A hue, a saturation és a luminance mindegyike a jelenlegi értékéhez képest állítható.
 type: docs
-weight: 2990
+weight: 3010
 url: /hu/aspose.slides.effects/hsl/
 ---
 ## HSL osztály
 
-A Hue/Saturation/Luminance effektust képviseli. A hue, saturation és luminance minden esetben a jelenlegi értékéhez képest állítható be.
+Egy Hue/Saturation/Luminance effektust képvisel. A hue, a saturation és a luminance mindegyike a jelenlegi értékéhez képest állítható.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -18,15 +18,15 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az IPresentationComponent alap interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Megállapítja, hogy a megadott [`HSL`](../hsl) egyenlő-e a jelenlegi [`HSL`](../hsl). |
-| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | A megfelelő öröklődés alkalmazásával lekéri a hatékony Hue/Saturation/Luminance effektus adatokat. |
-| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Hash függvényként szolgál egy adott típus számára. |
+| [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Lekéri a hatékony Hue/Saturation/Luminance effektus adatokat az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

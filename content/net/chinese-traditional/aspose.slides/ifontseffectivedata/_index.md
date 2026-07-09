@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
-second_title: Aspose.Sildes .NET API 參考文件
-description: 不可變的物件，包含有效字型集合。
+second_title: Aspose.Sildes for .NET API 參考
+description: 不可變的物件，包含有效的字體設定。
 type: docs
 weight: 5910
 url: /zh-hant/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData 介面
 
-不可變的物件，包含有效的字型集合。
+不可變物件，包含有效的字體設定。
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,15 +18,15 @@ public interface IFontsEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 傳回複雜腳本字型。唯讀 [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | 傳回東亞字型。唯讀 [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | 傳回拉丁字型。唯讀 [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | 返回複合文字字體。唯讀 [`IFontData`](../ifontdata)。 |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | 返回東亞字體。唯讀 [`IFontData`](../ifontdata)。 |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | 返回拉丁字體。唯讀 [`IFontData`](../ifontdata)。 |
 
 ### 備註
 
 此介面作為 [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) 與 [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata) 介面的一部分使用。
 
-### 相關資訊
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

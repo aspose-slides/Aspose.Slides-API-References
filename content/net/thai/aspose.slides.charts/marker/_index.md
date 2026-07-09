@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของมาร์คเกอร์ของแผนภูมิ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงเครื่องหมายของชาร์ต.
 type: docs
 weight: 2330
 url: /th/aspose.slides.charts/marker/
 ---
 ## Marker คลาส
 
-เป็นตัวแทนของมาร์คเกอร์ของ chert.
+แสดงเครื่องหมายของ chert.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | รับหรือกำหนดค่าเติมของมาร์คเกอร์. อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | เป็นตัวแทนของขนาดมาร์คเกอร์ในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิกระดานเรดาห์. อ่าน-เขียน Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | เป็นตัวแทนของสไตล์มาร์คเกอร์ในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิกระดานเรดาห์. อ่าน-เขียน [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | รับหรือกำหนดการเติมเครื่องหมาย. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | แสดงขนาดเครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิกลื่น. อ่าน/เขียน Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | แสดงสไตล์เครื่องหมายในแผนภูมิเส้น, แผนภูมิกระจาย, หรือแผนภูมิกลื่น. อ่าน/เขียน [`MarkerStyleType`](../markerstyletype). |
 
 ### ดูเพิ่มเติม
 

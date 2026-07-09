@@ -1,9 +1,9 @@
 ---
 title: ScaleEffect
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta l'effetto di scala dell'animazione.
 type: docs
-weight: 760
+weight: 780
 url: /it/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect classe
@@ -24,13 +24,13 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 | Nome | Descrizione |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione vengono accumulati. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Rappresenta se i comportamenti di animazione sono accumulati. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Rappresenta se il comportamento di animazione corrente è combinato con altre animazioni in esecuzione. Lettura/scrittura [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | descrive il valore di offset relativo per l'animazione (in percentuale). Lettura/scrittura PointF. |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Descrive il valore di offset relativo per l'animazione (in percentuale). Lettura/scrittura PointF. |
 | [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Specifica una coordinata x/y da cui avviare l'animazione (in percentuale). Lettura/scrittura PointF. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Rappresenta le proprietà del comportamento. Sola lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Rappresenta le proprietà del comportamento. Solo lettura [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Rappresenta le proprietà di temporizzazione per il comportamento dell'effetto. Lettura/scrittura [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Specifica la posizione di destinazione per un effetto di scala dell'animazione (in percentuale). Lettura/scrittura PointF. |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Specifica la posizione target per un effetto di scala dell'animazione (in percentuale). Lettura/scrittura PointF. |
 | [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Determina se un contenuto deve essere ingrandito. Lettura/scrittura [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Vedi anche

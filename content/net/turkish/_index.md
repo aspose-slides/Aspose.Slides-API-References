@@ -4,31 +4,31 @@ type: docs
 weight: 10
 url: /tr/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides, yazılım uygulamalarının Microsoft PowerPoint® belgelerini Microsoft PowerPoint® kullanmadan okuyup yazabilmesini sağlayan bir yönetim API'sidir.
+description: Aspose.Slides, Microsoft PowerPoint® belgelerini Microsoft PowerPoint® kullanmadan okuma ve yazma imkanı sağlayan Microsoft PowerPoint® yönetim API'leridir.
 is_root: true
 ---
 ## Ad alanları
 
 | Ad alanı | Açıklama |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | Microsoft PowerPoint sunumlarıyla çalışmak için sınıflar içerir, Microsoft PowerPoint kullanılmadan. |
-| [Aspose.Slides.AI](./aspose.slides.ai) | PowerPoint sunumlarını analiz etmek ve işlemek için AI tabanlı özellikler sağlayan sınıflar içerir. |
+| [Aspose.Slides](./aspose.slides) | Microsoft PowerPoint'i kullanmadan Microsoft PowerPoint sunumlarıyla çalışmak için sınıflar içerir. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | PowerPoint sunumlarını analiz etmek ve işlemek için yapay zeka tabanlı özellikler sağlayan sınıflar içerir. |
 | [Aspose.Slides.Animation](./aspose.slides.animation) | Microsoft PowerPoint sunumlarındaki animasyonlarla çalışmak için sınıflar içerir. |
 | [Aspose.Slides.Charts](./aspose.slides.charts) | Microsoft PowerPoint sunumlarındaki grafiklerle çalışmak için sınıflar içerir. |
 | [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Microsoft PowerPoint sunumlarındaki OLE nesneleriyle çalışmak için sınıflar içerir. |
 | [Aspose.Slides.Effects](./aspose.slides.effects) | Microsoft PowerPoint sunumlarındaki çeşitli efektlerle çalışmak için sınıflar içerir. |
-| [Aspose.Slides.Excel](./aspose.slides.excel) | Harici Microsoft Excel çalışma sayfalarıyla çalışmak için sınıflar içerir. |
-| [Aspose.Slides.Export](./aspose.slides.export) | Microsoft PowerPoint sunumlarını Html, Pdf, Svg, Xps ve diğer formatlara dışa aktarmak için sınıflar içerir. |
-| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Uzantı projeleriyle Html olarak Microsoft PowerPoint sunumlarını dışa aktarmak için sınıflar içerir. |
-| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Microsoft PowerPoint sunumlarını XAML olarak dışa aktarmak için sınıflar içerir. |
-| [Aspose.Slides.Import](./aspose.slides.import) | Microsoft PowerPoint sunumlarına veri içe aktarmak için sınıflar içerir. |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | Harici Microsoft Excel elektronik tablolarıyla çalışmak için sınıflar içerir. |
+| [Aspose.Slides.Export](./aspose.slides.export) | Microsoft PowerPoint sunumlarını Html, Pdf, Svg, Xps ve diğerleri gibi farklı formatlara dışa aktarmak için sınıflar içerir. |
+| [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Microsoft PowerPoint sunumlarını uzantı projeleriyle Html'e dışa aktarmak için sınıflar içerir. |
+| [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Microsoft PowerPoint sunumlarını XAML'e dışa aktarmak için sınıflar içerir. |
+| [Aspose.Slides.Import](./aspose.slides.import) | Microsoft PowerPoint sunumlarına veri aktarımı için sınıflar içerir. |
 | [Aspose.Slides.Ink](./aspose.slides.ink) | Ink ile çalışmak için sınıflar içerir. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Düşük kodlu bir şekilde karmaşık genel işlemleri ele almak için sınıflar ve yöntemler içerir. |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Microsoft PowerPoint sunumlarındaki matematiksel metinle çalışmak için sınıflar içerir. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Slayt gösterilerini ve slayt geçişlerini yönetmek için sınıflar içerir. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Düşük kodlu bir şekilde karmaşık genel işlemleri ele almak için sınıflar ve metodlar içerir. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Microsoft PowerPoint sunumlarındaki matematiksel metinlerle çalışmak için sınıflar içerir. |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Slayt gösterileri ve slayt geçişlerini yönetmek için sınıflar içerir. |
 | [Aspose.Slides.SmartArt](./aspose.slides.smartart) | SmartArt nesneleriyle çalışmak için sınıflar içerir. |
 | [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Microsoft PowerPoint sunumlarındaki elektronik tablo nesneleriyle çalışmak için sınıflar içerir. |
-| [Aspose.Slides.Theme](./aspose.slides.theme) | Farklı tema türleriyle çalışmak için sınıflar içerir. |
+| [Aspose.Slides.Theme](./aspose.slides.theme) | Farklı tema tipleriyle çalışmak için sınıflar içerir. |
 | [Aspose.Slides.Util](./aspose.slides.util) | Sunumlarla çalışmaya yardımcı olan yardımcı sınıflar içerir. |
 | [Aspose.Slides.Vba](./aspose.slides.vba) | VBA makrolarıyla çalışmak için sınıflar içerir. |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Çeşitli uyarı türlerini temsil eden sınıflar içerir. |

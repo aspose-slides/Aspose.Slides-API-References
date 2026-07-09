@@ -1,14 +1,14 @@
 ---
 title: LineDashStyle
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili gaya dash garis.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili gaya garis putus-putus.
 type: docs
-weight: 7750
+weight: 7770
 url: /id/aspose.slides/linedashstyle/
 ---
 ## enumerasi LineDashStyle
 
-Mewakili gaya dash garis.
+Mewakili gaya garis putus-putus.
 
 ```csharp
 public enum LineDashStyle : sbyte

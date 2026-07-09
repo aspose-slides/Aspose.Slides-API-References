@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
 second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر مجموعه‌ای از ماژول‌های پروژه VBA است.
+description: نمایش‌دهنده یک مجموعه از ماژول‌های پروژه VBA.
 type: docs
 weight: 11540
 url: /fa/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection رابط
 
-نمایانگر مجموعه‌ای از ماژول‌های پروژه VBA است.
+نمایش‌دهندهٔ مجموعه‌ای از ماژول‌های پروژه VBA.
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
@@ -16,18 +16,18 @@ public interface IVbaModuleCollection : IGenericCollection<IVbaModule>
 
 ## ویژگی‌ها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | عنصر را در شاخص مشخص‌شده دریافت می‌کند. |
+| [Item](../../aspose.slides.vba/ivbamodulecollection/item) { get; } | عنصر را در اندیس مشخص شده برمی‌گرداند. |
 
 ## متدها
 
-| Name | Description |
+| نام | توضیح |
 | --- | --- |
 | [AddEmptyModule](../../aspose.slides.vba/ivbamodulecollection/addemptymodule)(string) | یک ماژول خالی جدید به پروژه VBA اضافه می‌کند. |
-| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | اولین رخداد یک شیء خاص را از مجموعه حذف می‌کند. |
+| [Remove](../../aspose.slides.vba/ivbamodulecollection/remove)(IVbaModule) | اولین رخداد یک شی خاص را از مجموعه حذف می‌کند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * رابط [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * رابط [IVbaModule](../ivbamodule)

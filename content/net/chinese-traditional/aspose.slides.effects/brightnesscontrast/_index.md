@@ -1,14 +1,14 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 BrightnessContrast 效果。調整亮度和對比度
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示 BrightnessContrast 效果。調整亮度與對比度
 type: docs
 weight: 2930
 url: /zh-hant/aspose.slides.effects/brightnesscontrast/
 ---
 ## BrightnessContrast 類別
 
-表示 BrightnessContrast 效果。調整亮度和對比度
+表示 BrightnessContrast 效果。調整亮度與對比度
 
 ```csharp
 public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessContrast
@@ -16,13 +16,13 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。只讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | 判斷指定的 [`BrightnessContrast`](../brightnesscontrast) 是否等於目前的 [`BrightnessContrast`](../brightnesscontrast)。 |
 | [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | 取得套用繼承後的有效 BrightnessContrast 效果資料。 |

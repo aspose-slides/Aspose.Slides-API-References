@@ -1,14 +1,14 @@
 ---
 title: IOleEmbeddedDataInfo
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงข้อมูลที่ฝังไว้สำหรับวัตถุ OLE.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงข้อมูลฝังสำหรับอ็อบเจกต์ OLE.
 type: docs
 weight: 6530
 url: /th/aspose.slides/ioleembeddeddatainfo/
 ---
-## IOleEmbeddedDataInfo อินเทอร์เฟซ
+## IOleEmbeddedDataInfo อินเทอร์เฟส
 
-แสดงข้อมูลที่ฝังไว้สำหรับวัตถุ OLE.
+แสดงข้อมูลฝังสำหรับอ็อบเจกต์ OLE.
 
 ```csharp
 public interface IOleEmbeddedDataInfo
@@ -18,8 +18,8 @@ public interface IOleEmbeddedDataInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | ส่งคืนข้อมูลไฟล์ของวัตถุ OLE ที่ฝังไว้ อ่านได้อย่างเดียว Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | ส่งคืนส่วนขยายไฟล์สำหรับวัตถุ OLE ที่ฝังอยู่ในปัจจุบัน อ่านได้อย่างเดียว String. |
+| [EmbeddedFileData](../../aspose.slides/ioleembeddeddatainfo/embeddedfiledata) { get; } | ส่งคืนข้อมูลไฟล์ของอ็อบเจกต์ OLE ที่ฝังอยู่ แบบอ่านอย่างเดียว Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides/ioleembeddeddatainfo/embeddedfileextension) { get; } | ส่งคืนส่วนขยายไฟล์สำหรับอ็อบเจกต์ OLE ที่ฝังอยู่ในปัจจุบัน แบบอ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: BrowsedAtKiosk
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 키오스크 전체 화면 탐색
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 키오스크 전체 화면에서 탐색
 type: docs
 weight: 1040
 url: /ko/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk 클래스
 
-키오스크에서 전체 화면으로 탐색
+키오스크에서 탐색 (전체 화면)
 
 ```csharp
 public class BrowsedAtKiosk : SlideShowType
@@ -31,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### 참고
+### 관련 항목
 
 * 클래스 [SlideShowType](../slideshowtype)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: IThreeDFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các thuộc tính 3-D.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các thuộc tính 3-D.
 type: docs
 weight: 7330
 url: /vi/aspose.slides/ithreedformat/
 ---
-## IThreeDFormat giao diện
+## giao diện IThreeDFormat
 
-Represents 3-D properties.
+Đại diện cho các thuộc tính 3-D.
 
 ```csharp
 public interface IThreeDFormat : IThreeDParamSource
@@ -19,24 +19,24 @@ public interface IThreeDFormat : IThreeDParamSource
 | Tên | Mô tả |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Cho phép lấy giao diện IThreeDParamSource cơ bản. Chỉ đọc [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Trả về hoặc đặt loại của viền 3D phía dưới. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Trả về hoặc đặt loại của viền 3D phía trên. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Trả về hoặc đặt cài đặt của máy quay. Chỉ đọc [`ICamera`](../icamera). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Trả về hoặc đặt loại viền 3D dưới. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Trả về hoặc đặt loại viền 3D trên. Chỉ đọc [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Trả về hoặc đặt cài đặt của máy ảnh. Chỉ đọc [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Trả về hoặc đặt màu của đường viền. Chỉ đọc [`IColorFormat`](../icolorformat). |
 | [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Trả về hoặc đặt độ rộng của đường viền 3D. Đọc/ghi Double. |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Trả về hoặc đặt độ sâu của hình dạng 3D. Đọc/ghi Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Trả về hoặc đặt màu của phần đùn. Chỉ đọc [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Trả về hoặc đặt chiều cao của hiệu ứng đùn. Đọc/ghi Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Trả về hoặc đặt loại của ánh sáng. Chỉ đọc [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Trả về hoặc đặt loại của vật liệu. Đọc/ghi [`MaterialPresetType`](../materialpresettype). |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Trả về hoặc đặt màu của một extrusion. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Trả về hoặc đặt chiều cao của hiệu ứng extrusion. Đọc/ghi Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Trả về hoặc đặt loại ánh sáng. Chỉ đọc [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Trả về hoặc đặt loại vật liệu. Đọc/ghi [`MaterialPresetType`](../materialpresettype). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Lấy dữ liệu định dạng 3-D hiệu quả với kế thừa đã được áp dụng. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Lấy dữ liệu định dạng 3-D hiệu quả với tính kế thừa đã được áp dụng. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IThreeDParamSource](../ithreedparamsource)
 * không gian tên [Aspose.Slides](../../aspose.slides)

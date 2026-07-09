@@ -8,7 +8,7 @@ url: /nl/aspose.slides/isummaryzoomsection/
 ---
 ## ISummaryZoomSection interface
 
-Stelt een Summary Zoom Section-object voor in een Summary Zoom-frame.
+Stelt een Summary Zoom Section object voor in een Summary Zoom frame.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -16,11 +16,11 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Geeft ISectionZoomFrame interface terug. |
-| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Geeft de tekstbeschrijving van het Summary Zoom Section-object terug. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Geeft de tekstitel van het Summary Zoom Section-object terug. |
+| [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Retourneert ISectionZoomFrame interface. |
+| [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Retourneert de tekstbeschrijving van het Summary Zoom Section object. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Retourneert de teksttitel van het Summary Zoom Section object. |
 
 ### Zie ook
 

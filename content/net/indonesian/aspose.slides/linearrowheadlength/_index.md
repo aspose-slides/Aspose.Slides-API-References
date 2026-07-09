@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadLength
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili panjang kepala anak panah.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili panjang ujung panah.
 type: docs
-weight: 7710
+weight: 7730
 url: /id/aspose.slides/linearrowheadlength/
 ---
-## enumerasi LineArrowheadLength
+## LineArrowheadLength enumerasi
 
-Mewakili panjang kepala anak panah.
+Mewakili panjang ujung panah.
 
 ```csharp
 public enum LineArrowheadLength : sbyte

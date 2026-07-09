@@ -3,10 +3,10 @@ title: EffectTriggerType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar trigger-typ för effekt.
 type: docs
-weight: 330
+weight: 350
 url: /sv/aspose.slides.animation/effecttriggertype/
 ---
-## EffectTriggerType uppräkning
+## EffectTriggerType enumeration
 
 Representerar trigger-typ för effekt.
 
@@ -22,7 +22,7 @@ public enum EffectTriggerType
 | OnClick | `1` |  |
 | WithPrevious | `2` |  |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Animation](../../aspose.slides.animation)
 * samling [Aspose.Slides](../../)

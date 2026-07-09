@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSectionCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของอ็อบเจ็กต์ Summary Zoom Section
+description: แสดงถึงคอลเลกชันของวัตถุ Summary Zoom Section objects.
 type: docs
 weight: 7170
 url: /th/aspose.slides/isummaryzoomsectioncollection/
 ---
 ## ISummaryZoomSectionCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของอ็อบเจ็กต์ Summary Zoom Section
+แสดงถึงคอลเลกชันของวัตถุ Summary Zoom Section
 
 ```csharp
 public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoomSection>
@@ -18,17 +18,17 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | ดึงอิลเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`ISummaryZoomSection`](../isummaryzoomsection). |
+| [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | รับเอาอิลิเมนต์ที่ตำแหน่งที่ระบุ อ่านอย่างเดียว [`ISummaryZoomSection`](../isummaryzoomsection). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | สร้างอ็อบเจ็กต์ Summary Zoom Section ใหม่และเพิ่มเข้าไปในคอลเลกชัน |
-| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | ลบอ็อบเจ็กต์ SummaryZoomSection ทั้งหมดออกจากคอลเลกชัน |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | คืนค่าอิลเมนต์ Summary Zoom Section สำหรับเซคชันที่ให้มา |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | คืนค่าดัชนีของอ็อบเจ็กต์ SummaryZoomSection ที่ระบุ |
-| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | ลบอ็อบเจ็กต์ Summary Zoom Section ออกจากคอลเลกชัน |
+| [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | สร้างวัตถุ Summary Zoom Section ใหม่และเพิ่มลงในคอลเลกชัน |
+| [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | ลบวัตถุ SummaryZoomSection ทั้งหมดออกจากคอลเลกชัน |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | คืนค่าอีลีเมนต์ Summary Zoom Section สำหรับส่วนที่ระบุ |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | คืนค่าดัชนีของวัตถุ SummaryZoomSection ที่ระบุ |
+| [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | ลบวัตถุ Summary Zoom Section ออกจากคอลเลกชัน |
 
 ### ดูเพิ่มเติม
 

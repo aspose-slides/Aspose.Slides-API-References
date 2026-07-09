@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryCollection
-second_title: Aspose.Sildes pro .NET – API reference
-description: Reprezentuje kolekci ChartCategory./chartcategory
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje kolekci ChartCategory./chartcategory
 type: docs
-weight: 1260
+weight: 1280
 url: /cs/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection třída
 
-Reprezentuje kolekci [`ChartCategory`](../chartcategory)
+Představuje kolekci [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
@@ -19,24 +19,24 @@ public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryColle
 | Název | Popis |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | Vrací počet prvků v kolekci. Pouze pro čtení Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Vrací počet úrovní seskupování kategorií použitých. Je více než jedna pro víceúrovňové kategorie. Pouze pro čtení Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Vrací hodnotu označující, zda je přístup k seznamu synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Vrací prvek na zadaném indexu. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Vrací objekt, který lze použít k synchronizaci přístupu ke kolekci. Pouze pro čtení Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Pokud je true, pak se list používá k ukládání kategorií (tento případ podporuje víceúrovňové kategorie). Pokud je false, pak se list NEpoužívá k ukládání hodnot (a tento případ nepodporuje víceúrovňové kategorie). Čtení/zápis Boolean. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | Vrací počet úrovní seskupování kategorií. Je více než jedna pro víceúrovňové kategorie. Pouze pro čtení Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | Vrací hodnotu, která uvádí, zda je přístup k seznamu synchronizován (vláknově bezpečný). Pouze pro čtení Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | Získá prvek na zadaném indexu. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | Vrací objekt, který může být použit k synchronizaci přístupu ke kolekci. Pouze pro čtení Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | Pokud je true, pak list je použit pro ukládání kategorií (tento případ podporuje víceúrovňové kategorie). Pokud je false, pak list NENÍ použit pro ukládání hodnot (a tento případ nepodporuje víceúrovňové kategorie). Čtení/zápis Boolean. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | Pokud kategorie v kolekci existuje, vrátí ji. Jinak vytvoří novou kategorii grafu z [`IChartDataCell`](../ichartdatacell) a přidá ji do kolekce. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Vytvoří nový [`ChartCategory`](../chartcategory) z hodnoty a přidá jej do kolekce. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | Vytvoří nový [`ChartCategory`](../chartcategory) z hodnoty a přidá ho do kolekce. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | Odstraní všechny prvky z kolekce. |
 | [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | Zkopíruje všechny prvky kolekce do zadaného pole. |
 | [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Prohledá zadaný [`ChartCategory`](../chartcategory) a vrátí nulový index prvního výskytu v celé kolekci. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | Vyhledá zadaný [`ChartCategory`](../chartcategory) a vrátí nulový index první výskytu v celé kolekci. |
 | [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | Odstraní zadanou hodnotu. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Odstraní prvek na zadaném indexu. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | Odstraní prvek na daném indexu. |
 
 ### Viz také
 

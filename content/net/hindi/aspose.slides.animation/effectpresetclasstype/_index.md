@@ -1,14 +1,14 @@
 ---
 title: EffectPresetClassType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: इफ़ेक्ट क्लास प्रकारों का प्रतिनिधित्व करता है।
+description: इफ़ेक्ट वर्ग प्रकारों का प्रतिनिधित्व करता है।
 type: docs
 weight: 320
 url: /hi/aspose.slides.animation/effectpresetclasstype/
 ---
-## EffectPresetClassType एन्यूमेरेशन
+## EffectPresetClassType एन्यूमरेशन
 
-इफ़ेक्ट क्लास प्रकारों का प्रतिनिधित्व करता है।
+इफ़ेक्ट वर्ग प्रकारों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum EffectPresetClassType
@@ -16,7 +16,7 @@ public enum EffectPresetClassType
 
 ### मान
 
-| नाम | मान | विवरण |
+| नाम | मान | वर्णन |
 | --- | --- | --- |
 | Entrance | `0` | Entrance इफ़ेक्ट क्लास। |
 | Exit | `1` | Exit इफ़ेक्ट क्लास। |
@@ -25,7 +25,7 @@ public enum EffectPresetClassType
 | MediaCall | `4` | Media इफ़ेक्ट क्लास। |
 | OLEActionVerbs | `5` | OLE Action Verbs क्लास। |
 
-### और देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

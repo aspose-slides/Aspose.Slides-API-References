@@ -1,14 +1,14 @@
 ---
 title: ICommandEffect
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: Egy animációs viselkedéshez tartozó parancs hatást képviseli.
+second_title: Aspose.Sildes .NET API referenciája
+description: Parancshatást képvisel egy animációs viselkedéshez.
 type: docs
-weight: 460
+weight: 480
 url: /hu/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect interfész
 
-Képviseli egy animációs viselkedés parancs effektusát.
+Az animációs viselkedéshez tartozó parancshatást képviseli.
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -19,9 +19,9 @@ public interface ICommandEffect : IBehavior
 | Név | Leírás |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | Lehetővé teszi a base IBehavior interfész lekérését. Csak olvasható [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Meghatározza a parancssztringet. Olvasás/írás String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Meghatározza a parancs hatás célalakzatát. Olvasás/írás [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Meghatározza a viselkedés parancs hatás típusát. Olvasás/írás [`CommandEffectType`](../commandeffecttype). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | Meghatározza a parancs karakterláncot. Olvasás/írás String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | Meghatározza a parancshatás cél alakzatát. Olvasás/írás [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | Meghatározza a viselkedés parancshatás típusát. Olvasás/írás [`CommandEffectType`](../commandeffecttype). |
 
 ### Lásd még
 

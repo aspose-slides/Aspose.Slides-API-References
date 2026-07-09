@@ -1,14 +1,14 @@
 ---
 title: ColorTransformOperation
 second_title: Aspose.Sildes için .NET API Referansı
-description: Renk dönüşüm işlemini tanımlar.
+description: Renk dönüşüm operasyonunu tanımlar.
 type: docs
-weight: 2550
+weight: 2570
 url: /tr/aspose.slides/colortransformoperation/
 ---
 ## ColorTransformOperation enum
 
-Renk dönüşüm işlemini tanımlar.
+Renk dönüşüm operasyonunu tanımlar.
 
 ```csharp
 public enum ColorTransformOperation
@@ -20,36 +20,36 @@ public enum ColorTransformOperation
 | --- | --- | --- |
 | Tint | `0` | Rengi tonlandırır. Parametre 0 (orijinal renk) ile 1 (beyaz) arasında bir aralıktadır. |
 | Shade | `1` | Rengi gölgeler. Parametre 0 (orijinal renk) ile 1 (siyah) arasında bir aralıktadır. |
-| Complement | `2` | Rengi RGB tamamlayıcı bir renk haline değiştirir. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
-| Inverse | `3` | Rengi tersine çevirir. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Rengi aynı parlaklıkta gri bir renge değiştirir. Parametre yoksayılır. |
+| Complement | `2` | Rengi RGB tamamlayıcı bir renk haline getirir. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Inverse | `3` | Rengi ters bir renge dönüştürür. r = 1 - r; g = 1 - g; b = 1 - b; |
+| Grayscale | `4` | Rengi aynı parlaklıkta gri bir renk haline getirir. Parametre yoksayılır. |
 | SetAlpha | `5` | Rengin alfa bileşenini tanımlar. Parametre 0 (şeffaf) ile 1 (opak) arasında bir aralıktadır. |
 | AddAlpha | `6` | Parametrenin değerini rengin alfa bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplyAlpha | `7` | Alfa bileşenini parametrenin değeriyle çarpar. |
-| SetHue | `8` | Rengin renk tonu bileşenini parametrenin değerine değiştirir. Parametre 0 ile 360 arasında bir aralıktadır. |
-| AddHue | `9` | Parametrenin değerini rengin renk tonu bileşenine ekler. Parametre -360 ile 360 arasında bir aralıktadır. |
-| MultiplyHue | `10` | Renk tonu bileşenini parametrenin değeriyle çarpar. |
+| MultiplyAlpha | `7` | Alfa bileşenini bir parametrenin değeriyle çarpar. |
+| SetHue | `8` | Rengin hue bileşenini parametrenin değerine değiştirir. Parametre 0 ile 360 arasında bir aralıktadır. |
+| AddHue | `9` | Parametrenin değerini rengin hue bileşenine ekler. Parametre -360 ile 360 arasında bir aralıktadır. |
+| MultiplyHue | `10` | Hue bileşenini bir parametrenin değeriyle çarpar. |
 | SetSaturation | `11` | Rengin doygunluk bileşenini parametrenin değerine değiştirir. Parametre 0 ile 1 arasında bir aralıktadır. |
 | AddSaturation | `12` | Parametrenin değerini rengin doygunluk bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplySaturation | `13` | Doygunluk bileşenini parametrenin değeriyle çarpar. |
-| SetLuminance | `14` | Rengin parlaklık bileşenini parametrenin değerine değiştirir. Parametre 0 ile 1 arasında bir aralıktadır. |
-| AddLuminance | `15` | Parametrenin değerini rengin parlaklık bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplyLuminance | `16` | Parlaklık bileşenini parametrenin değeriyle çarpar. |
+| MultiplySaturation | `13` | Doygunluk bileşenini bir parametrenin değeriyle çarpar. |
+| SetLuminance | `14` | Rengin ışıklık bileşenini parametrenin değerine değiştirir. Parametre 0 ile 1 arasında bir aralıktadır. |
+| AddLuminance | `15` | Parametrenin değerini rengin ışıklık bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
+| MultiplyLuminance | `16` | Işıklık bileşenini bir parametrenin değeriyle çarpar. |
 | SetRed | `17` | Rengin kırmızı bileşenini parametrenin değerine değiştirir. Parametre 0 ile 1 arasında bir aralıktadır. |
 | AddRed | `18` | Parametrenin değerini rengin kırmızı bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplyRed | `19` | Kırmızı bileşeni parametreyle çarpar. |
+| MultiplyRed | `19` | Kırmızı bileşeni bir parametreyle çarpar. |
 | SetGreen | `20` | Rengin yeşil bileşenini parametrenin değerine değiştirir. Parametre 0 ile 1 arasında bir aralıktadır. |
 | AddGreen | `21` | Parametreyi rengin yeşil bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplyGreen | `22` | Yeşil bileşeni parametrenin değeriyle çarpar. |
+| MultiplyGreen | `22` | Yeşil bileşeni bir parametrenin değeriyle çarpar. |
 | SetBlue | `23` | Rengin mavi bileşenini parametrenin değerine değiştirir. Parametre 0 ile 360 arasında bir aralıktadır. |
 | AddBlue | `24` | Parametrenin değerini rengin mavi bileşenine ekler. Parametre -1 ile 1 arasında bir aralıktadır. |
-| MultiplyBlue | `25` | Mavi bileşeni parametrenin değeriyle çarpar. |
+| MultiplyBlue | `25` | Mavi bileşeni bir parametrenin değeriyle çarpar. |
 | Gamma | `26` | Gamma düzeltmesi. Parametre yoksayılır. |
 | InverseGamma | `27` | Ters gamma düzeltmesi. Parametre yoksayılır. |
 
 ### İlgili
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* ad alanı [Aspose.Slides](../../aspose.slides)
+* derleme [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

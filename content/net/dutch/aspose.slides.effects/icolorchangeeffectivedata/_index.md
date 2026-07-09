@@ -1,7 +1,7 @@
 ---
 title: IColorChangeEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Color Change-effect vertegenwoordigt. Instanties van FromColor worden vervangen door instanties van ToColor.
+description: Onveranderlijk object dat een Color Change effect vertegenwoordigt. Instanties van FromColor worden vervangen door instanties van ToColor.
 type: docs
 weight: 3230
 url: /nl/aspose.slides.effects/icolorchangeeffectivedata/
@@ -14,14 +14,14 @@ Onveranderlijk object dat een Color Change-effect vertegenwoordigt. Instanties v
 public interface IColorChangeEffectiveData : IEffectEffectiveData
 ```
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis-interface IEffectEffectiveData op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorchangeeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis IEffectEffectiveData interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [FromColor](../../aspose.slides.effects/icolorchangeeffectivedata/fromcolor) { get; } | Kleur die zal worden vervangen. Alleen-lezen Color. |
 | [ToColor](../../aspose.slides.effects/icolorchangeeffectivedata/tocolor) { get; } | Kleur die zal vervangen. Alleen-lezen Color. |
-| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Geeft een booleaanse waarde terug die bepaalt of de alpha-component moet worden gebruikt. Alleen-lezen Boolean. |
+| [UseAlpha](../../aspose.slides.effects/icolorchangeeffectivedata/usealpha) { get; } | Retourneert een booleaanse waarde die bepaalt of de alfacomponent moet worden gebruikt. Alleen-lezen Boolean. |
 
 ### Zie ook
 

@@ -19,9 +19,9 @@ public interface IField : ISlideComponent
 | 이름 | 설명 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/ifield/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
-| [Type](../../aspose.slides/ifield/type) { get; set; } | 필드의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`IFieldType`](../ifieldtype). |
+| [Type](../../aspose.slides/ifield/type) { get; set; } | 필드 유형을 반환하거나 설정합니다. 읽기/쓰기 [`IFieldType`](../ifieldtype). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

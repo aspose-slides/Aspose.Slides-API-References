@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงชุดของลายเซ็นดิจิทัลที่แนบกับเอกสาร
+description: แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบกับเอกสาร
 type: docs
 weight: 5700
 url: /th/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection อินเทอร์เฟซ
 
-แทนชุดของลายเซ็นดิจิทัลที่แนบกับเอกสาร
+แสดงถึงคอลเลกชันของลายเซ็นดิจิทัลที่แนบไปกับเอกสาร
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -26,7 +26,7 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 | --- | --- |
 | [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | เพิ่มลายเซ็นที่ส่วนท้ายของคอลเลกชัน |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | ลบลายเซ็นทั้งหมดจากคอลเลกชัน |
-| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | ลบลายเซ็นที่ดัชนีที่ระบุ |
+| [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | ลบลายเซ็นที่ตำแหน่งดัชนีที่ระบุ |
 
 ### ดูเพิ่มเติม
 

@@ -1,6 +1,6 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 3D 屬性來源輔助介面
 type: docs
 weight: 7350

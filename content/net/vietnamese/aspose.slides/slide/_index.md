@@ -1,7 +1,7 @@
 ---
 title: Slide
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn một slide trong bản trình chiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một slide trong một bài thuyết trình.
 type: docs
 weight: 9960
 url: /vi/aspose.slides/slide/
@@ -16,48 +16,48 @@ public sealed class Slide : BaseSlide, ISlide
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Background](../../aspose.slides/baseslide/background) { get; } | Trả về nền của slide. Chỉ đọc [`IBackground`](../ibackground). |
-| [Controls](../../aspose.slides/baseslide/controls) { get; } | Trả về bộ sưu tập các điều khiển ActiveX trên slide. Chỉ đọc [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Trả về dữ liệu tùy chỉnh của slide. Chỉ đọc [`ICustomData`](../icustomdata). |
-| [HeaderFooterManager](../../aspose.slides/slide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide. Chỉ đọc [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/slide/hidden) { get; set; } | Xác định liệu slide đã cho có bị ẩn trong buổi chiếu slide hay không. Đọc/ghi Boolean. |
-| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Cung cấp truy cập dễ dàng đến các hyperlink được chứa. Chỉ đọc [`IHyperlinkQueries`](../ihyperlinkqueries). |
-| [LayoutSlide](../../aspose.slides/slide/layoutslide) { get; set; } | Trả về hoặc đặt layout slide cho slide hiện tại. Đọc/ghi [`ILayoutSlide`](../ilayoutslide). |
-| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Trả về hoặc đặt tên của slide. Đọc/ghi String. |
-| [NotesSlideManager](../../aspose.slides/slide/notesslidemanager) { get; } | Cho phép truy cập slide ghi chú, thêm và xóa nó. Chỉ đọc [`INotesSlideManager`](../inotesslidemanager). |
-| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Trả về giao diện IPresentation. Chỉ đọc [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Trả về các shape của slide. Chỉ đọc [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/slide/showmastershapes) { get; set; } | Xác định xem các shape trên master slide có được hiển thị trên slide hay không. Đọc/ghi Boolean. |
-| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Trả về ID của slide. Chỉ đọc UInt32. |
-| [SlideNumber](../../aspose.slides/slide/slidenumber) { get; set; } | Trả về số thứ tự của slide. Chỉ số của slide trong bộ sưu tập [`Slides`](../presentation/slides) luôn bằng SlideNumber - Presentation.FirstSlideNumber. Đọc/ghi Int32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Trả về đối tượng Transition chứa thông tin về cách slide được tiến tới trong buổi chiếu slide. Chỉ đọc [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/slide/thememanager) { get; } | Trả về trình quản lý theme ghi đè. Chỉ đọc [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Trả về đối tượng timeline animation. Chỉ đọc [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Background](../../aspose.slides/baseslide/background) { get; } | Returns slide's background. Read-only [`IBackground`](../ibackground). |
+| [Controls](../../aspose.slides/baseslide/controls) { get; } | Returns the collection of ActiveX controls on a slide. Read-only [`IControlCollection`](../icontrolcollection). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Returns the slide's custom data. Read-only [`ICustomData`](../icustomdata). |
+| [HeaderFooterManager](../../aspose.slides/slide/headerfootermanager) { get; } | Returns HeaderFooter manager of the slide. Read-only [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
+| [Hidden](../../aspose.slides/slide/hidden) { get; set; } | Determines whether the specified slide is hidden during a slide show. Read/write Boolean. |
+| [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../ihyperlinkqueries). |
+| [LayoutSlide](../../aspose.slides/slide/layoutslide) { get; set; } | Returns or sets the layout slide for the current slide. Read/write [`ILayoutSlide`](../ilayoutslide). |
+| virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Returns or sets the name of a slide. Read/write String. |
+| [NotesSlideManager](../../aspose.slides/slide/notesslidemanager) { get; } | Allow to access notes slide, add and remove it. Read-only [`INotesSlideManager`](../inotesslidemanager). |
+| [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Returns IPresentation interface. Read-only [`IPresentation`](../ipresentation). |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Returns the shapes of a slide. Read-only [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/slide/showmastershapes) { get; set; } | Specifies if shapes on the master slide should be shown on slides or not. Read/write Boolean. |
+| [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Returns the ID of a slide. Read-only UInt32. |
+| [SlideNumber](../../aspose.slides/slide/slidenumber) { get; set; } | Returns a number of slide. Index of slide in [`Slides`](../presentation/slides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write Int32. |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/slide/thememanager) { get; } | Returns the overriding theme manager. Read-only [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Returns animation timeline object. Read-only [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Trả về theme hiệu quả cho slide này. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Xác định liệu hai đối tượng IBaseSlide có bằng nhau hay không. Giá trị trả về được tính dựa trên cấu trúc và nội dung tĩnh của slide. Hai slide bằng nhau nếu tất cả các shape, style, text, animation và các thiết lập khác, v.v. đều bằng nhau. So sánh không xét đến các giá trị định danh duy nhất, như SlideId và nội dung động, như giá trị ngày hiện tại trong Date Placeholder. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Tìm lần xuất hiện đầu tiên của một shape có văn bản thay thế được chỉ định. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage)() | Trả về đối tượng Thumbnail Image (20% kích thước thực). |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_1)(IRenderingOptions) | Trả về đối tượng Thumbnail Image. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_4)(ITiffOptions) | Trả về đối tượng hình ảnh tiff Thumbnail với các tham số được chỉ định. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_6)(Size) | Trả về đối tượng Thumbnail Image với kích thước được chỉ định. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_5)(float, float) | Trả về đối tượng Thumbnail Image với tỷ lệ tùy chỉnh. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_3)(IRenderingOptions, Size) | Trả về đối tượng Thumbnail Image với kích thước được chỉ định. |
-| [GetImage](../../aspose.slides/slide/getimage#getimage_2)(IRenderingOptions, float, float) | Trả về đối tượng Thumbnail Image với tỷ lệ tùy chỉnh. |
-| [GetSlideComments](../../aspose.slides/slide/getslidecomments)(ICommentAuthor) | Trả về tất cả các bình luận slide được thêm bởi tác giả cụ thể. |
-| override [JoinPortionsWithSameFormatting](../../aspose.slides/slide/joinportionswithsameformatting#joinportionswithsameformatting)() | Nối các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các shape chấp nhận được. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Nối các run có cùng định dạng trong tất cả các đoạn văn trong tất cả các shape chấp nhận được. |
-| [Remove](../../aspose.slides/slide/remove)() | Xóa slide khỏi bản trình chiếu. |
-| [Reset](../../aspose.slides/slide/reset)() | Đặt lại vị trí, kích thước và định dạng của mọi shape có mẫu trên LayoutSlide. |
-| [WriteAsEmf](../../aspose.slides/slide/writeasemf)(Stream) | Lưu nội dung slide dưới dạng tệp EMF. |
-| [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg)(Stream) | Lưu nội dung slide dưới dạng tệp SVG. |
-| [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Lưu nội dung slide dưới dạng tệp SVG. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Returns an effective theme for this slide. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Finds first occurrence of a shape with the specified alternative text. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage)() | Returns a Thumbnail Image object (20% of real size). |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_1)(IRenderingOptions) | Returns a Thumbnail Image object. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_4)(ITiffOptions) | Returns a Thumbnail tiff image object with specified parameters. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_6)(Size) | Returns a Thumbnail Image object with specified size. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_5)(float, float) | Returns a Thumbnail Image object with custom scaling. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_3)(IRenderingOptions, Size) | Returns a Thumbnail Image object with specified size. |
+| [GetImage](../../aspose.slides/slide/getimage#getimage_2)(IRenderingOptions, float, float) | Returns a Thumbnail Image object with custom scaling. |
+| [GetSlideComments](../../aspose.slides/slide/getslidecomments)(ICommentAuthor) | Returns all slide comments added by specific author. |
+| override [JoinPortionsWithSameFormatting](../../aspose.slides/slide/joinportionswithsameformatting#joinportionswithsameformatting)() | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [Remove](../../aspose.slides/slide/remove)() | Removes slide from presentation. |
+| [Reset](../../aspose.slides/slide/reset)() | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [WriteAsEmf](../../aspose.slides/slide/writeasemf)(Stream) | Saves the slide content as an EMF file. |
+| [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg)(Stream) | Saves the slide content as an SVG file. |
+| [WriteAsSvg](../../aspose.slides/slide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Saves the slide content as an SVG file. |
 
 ### Xem Thêm
 

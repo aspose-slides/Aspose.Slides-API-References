@@ -1,35 +1,35 @@
 ---
 title: Point
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एनिमेशन पॉइंट का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एनिमेशन बिंदु का प्रतिनिधित्व करता है।
 type: docs
 weight: 720
 url: /hi/aspose.slides.animation/point/
 ---
 ## Point वर्ग
 
-एनिमेशन पॉइंट का प्रतिनिधित्व करता है।
+एनिमेशन बिंदु का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Point : IPoint
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [Point](point#constructor)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
-| [Point](point#constructor_1)(float, object, string) | समय, मान और फ़ॉर्मूला के साथ एनिमेशन पॉइंट बनाता है। |
+| [Point](point#constructor)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
+| [Point](point#constructor_1)(float, object, string) | समय, मान और सूत्र के साथ एनिमेशन बिंदु बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | मानों, from, to, by एट्रीब्यूट्स के भीतर के फ़ॉर्मूले इनका उपयोग करके बनाए जा सकते हैं: मानक अंकगणितीय ऑपरेटर: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) कॉन्स्टेंट्स: ‘pi’ ‘e’ कंडीशनल ऑपरेटर: ‘abs’, ‘min’, ‘max’, ‘?’ (if) तुलना ऑपरेटर: '==', '&gt;=', '', '!=', '!' त्रिकोणमितीय ऑपरेटर: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ प्राकृतिक लघुगणक ‘ln()’ प्रॉपर्टी रेफ़रेंसेज़ (होस्ट समर्थित प्रॉपर्टीज़) उदाहरण के लिए: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" पढ़ने/लिखने योग्य String. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | values, from, to, by गुणधर्मों के भीतर सूत्र इनका उपयोग करके बनाए जा सकते हैं: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" पढ़ने/लिखने योग्य String. |
 | [Time](../../aspose.slides.animation/point/time) { get; set; } | समय मान का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य Single. |
 | [Value](../../aspose.slides.animation/point/value) { get; set; } | बिंदु मान का प्रतिनिधित्व करता है। केवल: bool, ColorFormat, float, int, string. पढ़ने/लिखने योग्य Object. |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IPoint](../ipoint)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)

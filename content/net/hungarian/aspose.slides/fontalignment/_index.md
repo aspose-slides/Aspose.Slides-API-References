@@ -1,14 +1,14 @@
 ---
 title: FontAlignment
-second_title: Aspose.Sildes .NET API referencia
-description: Függőleges betűtípus igazítást reprezentál.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A függőleges betűtípus igazítást képviseli.
 type: docs
-weight: 4780
+weight: 4800
 url: /hu/aspose.slides/fontalignment/
 ---
-## FontAlignment enumeráció
+## FontAlignment felsorolás
 
-Függőleges betűtípus igazítást reprezentál.
+A függőleges betűtípus igazítást képviseli.
 
 ```csharp
 public enum FontAlignment

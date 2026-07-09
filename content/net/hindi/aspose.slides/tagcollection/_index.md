@@ -1,14 +1,14 @@
 ---
 title: TagCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: टैगों के संग्रह का प्रतिनिधित्व करता है जो उपयोगकर्ता द्वारा परिभाषित स्ट्रिंग की जोड़े हैं
+description: उपयोगकर्ता परिभाषित स्ट्रिंग जोड़ों के टैगों का संग्रह दर्शाता है
 type: docs
 weight: 10890
 url: /hi/aspose.slides/tagcollection/
 ---
 ## TagCollection क्लास
 
-टैगों (उपयोगकर्ता द्वारा परिभाषित स्ट्रिंग की जोड़े) के संग्रह का प्रतिनिधित्व करता है।
+टैगों (उपयोगकर्ता द्वारा परिभाषित स्ट्रिंग जोड़े) का संग्रह दर्शाता है
 
 ```csharp
 public sealed class TagCollection : ITagCollection
@@ -18,30 +18,30 @@ public sealed class TagCollection : ITagCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/tagcollection/count) { get; } | संग्रह में टैग की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुँच समकालीन (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/tagcollection/item) { get; set; } | एक टैग की कुंजी और मान जोड़े को लौटाता है या सेट करता है। |
-| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | समकालीनता मूल लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/tagcollection/count) { get; } | संग्रह में टैगों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/tagcollection/issynchronized) { get; } | एक मान लौटाता है जो दर्शाता है कि संग्रह तक पहुँच समकालिक (थ्रेड-सुरक्षित) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/tagcollection/item) { get; set; } | टैग की कुंजी और मान जोड़ी को लौटाता या सेट करता है। |
+| [SyncRoot](../../aspose.slides/tagcollection/syncroot) { get; } | समकालिकता रूट लौटाता है। केवल-पढ़ने योग्य Object. |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/tagcollection/add)(string, string) | संग्रह में एक नया टैग जोड़ता है। |
 | [Clear](../../aspose.slides/tagcollection/clear)() | संग्रह से सभी टैग हटाता है। |
 | [Contains](../../aspose.slides/tagcollection/contains)(string) | निर्धारित करता है कि संग्रह में कोई विशिष्ट नाम मौजूद है या नहीं। |
-| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | संग्रह के माध्यम से इटररेट करने वाला एन्यूमरेटर लौटाता है। |
+| [CopyTo](../../aspose.slides/tagcollection/copyto)(Array, int) | सभी तत्वों को संग्रह से निर्दिष्ट ऐरे में कॉपी करता है। |
+| [GetEnumerator](../../aspose.slides/tagcollection/getenumerator)() | एक एन्यूमैरेटर लौटाता है जो संग्रह के माध्यम से इटरैट करता है। |
 | [GetNameByIndex](../../aspose.slides/tagcollection/getnamebyindex)(int) | निर्दिष्ट इंडेक्स पर टैग की कुंजी लौटाता है। |
 | [GetNamesOfTags](../../aspose.slides/tagcollection/getnamesoftags)() | टैगों के नाम लौटाता है। |
 | [GetValueByIndex](../../aspose.slides/tagcollection/getvaluebyindex)(int) | निर्दिष्ट इंडेक्स पर टैग का मान लौटाता है। |
 | [IndexOfName](../../aspose.slides/tagcollection/indexofname)(string) | संग्रह में निर्दिष्ट कुंजी का शून्य-आधारित इंडेक्स लौटाता है। |
-| [Remove](../../aspose.slides/tagcollection/remove)(string) | संग्रह से निर्दिष्ट नाम वाला टैग हटाता है। |
-| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | निर्दिष्ट इंडेक्स पर टैग हटाता है। |
+| [Remove](../../aspose.slides/tagcollection/remove)(string) | निर्दिष्ट नाम वाले टैग को संग्रह से हटाता है। |
+| [RemoveAt](../../aspose.slides/tagcollection/removeat)(int) | निर्दिष्ट इंडेक्स पर टैग को हटाता है। |
 
 ### उदाहरण
 
-निम्न उदाहरण दिखाता है कि PowerPoint प्रस्तुति में टैग कैसे जोड़ें।
+निम्नलिखित उदाहरण दर्शाता है कि PowerPoint प्रस्तुति में टैग कैसे जोड़ें।
 
 ```csharp
 [C#]
@@ -52,7 +52,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### संबद्ध देखें
+### देखें
 
 * इंटरफ़ेस [ITagCollection](../itagcollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

@@ -3,7 +3,7 @@ title: IMathematicalText
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Testo matematico
 type: docs
-weight: 8490
+weight: 8510
 url: /it/aspose.slides.mathtext/imathematicaltext/
 ---
 ## IMathematicalText interfaccia
@@ -24,14 +24,14 @@ public interface IMathematicalText : IMathElement
 
 ### Esempi
 
-Esempio:
+Example:
 
 ```csharp
 [C#]
 IMathematicalText mathText = new MathematicalText("x+y");
 ```
 
-### Vedere anche
+### Vedi anche
 
 * interfaccia [IMathElement](../imathelement)
 * spazio dei nomi [Aspose.Slides.MathText](../../aspose.slides.mathtext)

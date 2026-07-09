@@ -1,23 +1,23 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes の .NET API リファレンス
-description: FrameTick./presentationplayer/frametick イベントのフレームティック ハンドラを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: FrameTick./presentationplayer/frametick イベントのフレームティックハンドラを表します。
 type: docs
-weight: 4380
+weight: 4400
 url: /ja/aspose.slides.export/presentationplayer.frametickhandler/
 ---
 ## PresentationPlayer.FrameTickHandler デリゲート
 
-[`FrameTick`](../presentationplayer/frametick) イベントのフレームティック ハンドラを表します。
+[`FrameTick`](../presentationplayer/frametick) イベントのフレームティックハンドラを表します。
 
 ```csharp
 public delegate void FrameTickHandler(PresentationPlayer sender, FrameTickEventArgs args);
 ```
 
-| パラメータ | 型 | 説明 |
+| パラメーター | 型 | 説明 |
 | --- | --- | --- |
-| sender | PresentationPlayer | フレームティック イベントの送信元。 |
-| args | FrameTickEventArgs | フレームティック の引数。 |
+| sender | PresentationPlayer | フレームティックイベントの送信元。 |
+| args | FrameTickEventArgs | フレームティックの引数。 |
 
 ### 参照
 

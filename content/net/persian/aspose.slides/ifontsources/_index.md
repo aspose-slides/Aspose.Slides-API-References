@@ -1,14 +1,14 @@
 ---
 title: IFontSources
 second_title: Aspose.Sildes برای .NET مرجع API
-description: منابع فایل و حافظه برای فونت‌های خارجی را فراهم می‌کند.
+description: منابع فایل و حافظه برای قلم‌های خارجی را فراهم می‌کند.
 type: docs
 weight: 5870
 url: /fa/aspose.slides/ifontsources/
 ---
 ## IFontSources رابط
 
-منابع فایل و حافظه برای فونت‌های خارجی را فراهم می‌کند.
+منابع فایل و حافظه برای قلم‌های خارجی را فراهم می‌کند.
 
 ```csharp
 public interface IFontSources
@@ -18,10 +18,10 @@ public interface IFontSources
 
 | نام | توضیح |
 | --- | --- |
-| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | پوشه‌هایی حاوی فایل‌های فونت. تمام فایل‌های فونت موجود در این پوشه‌ها در مجموعه گنجانده می‌شوند. پوشه‌هایی که به‌صورت بازگشتی جستجو می‌شوند. |
-| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | مجموعه‌ای از فونت‌ها که به‌صورت آرایه‌های بایت نشان داده می‌شوند. |
+| [FontFolders](../../aspose.slides/ifontsources/fontfolders) { get; set; } | پوشه‌های حاوی فایل‌های قلم. تمام فایل‌های قلم موجود در این پوشه‌ها در مجموعه گنجانده می‌شوند. پوشه‌هایی که به‌صورت بازگشتی جستجو می‌شوند. |
+| [MemoryFonts](../../aspose.slides/ifontsources/memoryfonts) { get; set; } | مجموعه‌ای از قلم‌ها که به صورت آرایه‌های بایت نمایش داده می‌شوند. |
 
-### همچنین ببینید
+### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

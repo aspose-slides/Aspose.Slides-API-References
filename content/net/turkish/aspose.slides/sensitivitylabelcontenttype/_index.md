@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
-second_title: .NET API Referansı için Aspose.Sildes
+second_title: Aspose.Sildes for .NET API Referansı
 description: Bir belgeye uygulanması gereken içerik işaretleme türlerini temsil eder.
 type: docs
-weight: 9800
+weight: 9820
 url: /tr/aspose.slides/sensitivitylabelcontenttype/
 ---
-## SensitivityLabelContentType enum
+## SensitivityLabelContentType enumerasyon
 
-Belgeye uygulanması gereken içerik işaretleme türlerini temsil eder.
+Bir belgeye uygulanması gereken içerik işaretleme türlerini temsil eder.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -18,13 +18,15 @@ public enum SensitivityLabelContentType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| None | `0` | Etiketin varsayılan olarak veya otomatik şekilde uygulandığını gösterir. |
-| Header | `1` | Etiketin manuel olarak uygulandığını gösterir. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketi için kullanın. |
-| Footer | `2` | Etiketin manuel olarak uygulandığını gösterir. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketi için kullanın. |
-| Watermark | `4` | Etiketin manuel olarak uygulandığını gösterir. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketi için kullanın. |
-| Encryption | `8` | Etiketin manuel olarak uygulandığını gösterir. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketi için kullanın. |
+| None | `0` | Etiketin varsayılan olarak veya otomatik olarak uygulandığını ima eder. |
+| Header | `1` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
+| Footer | `2` | Etiketin manuel olarak uygulandığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
+| Watermark | `4` | Etiketin manuel olarak uygulan
+dığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
+| Encryption | `8` | Etiketin manuel olarak uygulan
+dığını ima eder. Kullanıcı tarafından doğrudan uygulanan herhangi bir hassasiyet etiketinde kullanılmalıdır. |
 
-### Ayrıca Bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

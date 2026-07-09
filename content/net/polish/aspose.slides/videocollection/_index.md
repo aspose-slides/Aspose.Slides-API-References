@@ -1,9 +1,9 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Referencja API
 description: Reprezentuje kolekcję obiektów Video.
 type: docs
-weight: 11690
+weight: 11710
 url: /pl/aspose.slides/videocollection/
 ---
 ## VideoCollection klasa
@@ -19,7 +19,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/videocollection/count) { get; } | Zwraca liczbę plików wideo w kolekcji. Tylko do odczytu Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo bezpieczny). Tylko do odczytu Boolean. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | Zwraca wartość wskazującą, czy dostęp do kolekcji jest synchronizowany (wątkowo-bezpieczny). Tylko do odczytu Boolean. |
 | [Item](../../aspose.slides/videocollection/item) { get; } | Pobiera element o określonym indeksie. Tylko do odczytu [`IVideo`](../ivideo). |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | Zwraca korzeń synchronizacji. Tylko do odczytu Object. |
 
@@ -30,7 +30,7 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | Tworzy i dodaje wideo do prezentacji z tablicy bajtów. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | Dodaje kopię pliku wideo z innej prezentacji. |
 | [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | Tworzy i dodaje wideo do prezentacji ze strumienia. |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopiuje wideo do określonej tablicy, zaczynając od podanego indeksu. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | Kopiuje wideo do określonej tablicy zaczynając od podanego indeksu. |
 | [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | Zwraca enumerator, który iteruje po kolekcji. |
 
 ### Zobacz także

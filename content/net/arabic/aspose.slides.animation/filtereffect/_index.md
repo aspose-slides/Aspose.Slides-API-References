@@ -1,6 +1,6 @@
 ---
 title: FilterEffect
-second_title: مرجع API ل Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: يمثل تأثير الفلتر للسلوك.
 type: docs
 weight: 370
@@ -14,21 +14,21 @@ url: /ar/aspose.slides.animation/filtereffect/
 public class FilterEffect : Behavior, IFilterEffect
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
-| [FilterEffect](filtereffect)() | المنشئ الافتراضي. |
+| [FilterEffect](filtereffect)() | المُنشئ الافتراضي. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | يمثل ما إذا كانت سلوكيات الرسوم المتحركة متراكمة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | يمثل ما إذا كان سلوك الرسوم المتحركة الحالي مدمجًا مع رسومات متحركة أخرى قيد التشغيل. قراءة/كتابة [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | يمثل خصائص السلوك. للقراءة فقط [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | يمثل أن التأثير مع السلوك يجب أن يكشف (دخول/خروج). قراءة/كتابة [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | يمثل النوع الفرعي لتأثير الفلتر. قراءة/كتابة [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | يمثل ما إذا كان يتم تجميع سلوكيات الرسوم المتحركة. قراءة/كتابة [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | يمثل ما إذا كان سلوك الرسوم المتحركة الحالي يتم دمجه مع رسومات متحركة أخرى قيد التشغيل. قراءة/كتابة [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | يمثل خصائص السلوك. قراءة فقط [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | يمثل أن التأثير مع السلوك يجب أن يُظهر (داخل/خارج). قراءة/كتابة [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | يمثل نوعًا فرعيًا من تأثير الفلتر. قراءة/كتابة [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | يمثل خصائص التوقيت لسلوك التأثير. قراءة/كتابة [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | يمثل نوع تأثير الفلتر. قراءة/كتابة [`FilterEffectType`](../filtereffecttype). |
 

@@ -1,14 +1,14 @@
 ---
 title: IFontScheme
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 테마에서 정의된 글꼴을 저장합니다.
+description: 테마에서 정의된 폰트를 저장합니다.
 type: docs
 weight: 11250
 url: /ko/aspose.slides.theme/ifontscheme/
 ---
 ## IFontScheme 인터페이스
 
-테마에서 정의한 글꼴을 저장합니다.
+테마에서 정의된 폰트를 저장합니다.
 
 ```csharp
 public interface IFontScheme
@@ -18,9 +18,9 @@ public interface IFontScheme
 
 | 이름 | 설명 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | 슬라이드의 "heading" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | 슬라이드의 "body" 부분에 대한 글꼴 컬렉션을 반환합니다. 읽기 전용 [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | 글꼴 스키마 이름을 반환합니다. 읽기/쓰기 String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | 슬라이드의 "heading" 부분에 대한 폰트 컬렉션을 반환합니다. 읽기 전용 [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | 슬라이드의 "body" 부분에 대한 폰트 컬렉션을 반환합니다. 읽기 전용 [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | 폰트 스키마 이름을 반환합니다. 읽기/쓰기 String. |
 
 ### 참고
 

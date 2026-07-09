@@ -1,14 +1,14 @@
 ---
 title: SvgEvent
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu thị các tùy chọn cho hình dạng SVG.
 type: docs
 weight: 4490
 url: /vi/aspose.slides.export/svgevent/
 ---
-## SvgEvent liệt kê
+## Liệt kê SvgEvent
 
-Đại diện cho các tùy chọn cho hình dạng SVG.
+Represents options for SVG shape.
 
 ```csharp
 public enum SvgEvent
@@ -20,23 +20,23 @@ public enum SvgEvent
 | --- | --- | --- |
 | OnFocusIn | `0` | Xảy ra khi một phần tử nhận được tiêu điểm, chẳng hạn khi một đoạn văn bản được chọn. |
 | OnFocusOut | `1` | Xảy ra khi một phần tử mất tiêu điểm, chẳng hạn khi một đoạn văn bản không còn được chọn. |
-| OnActivate | `2` | Xảy ra khi một phần tử được kích hoạt, ví dụ thông qua lần nhấp chuột hoặc nhấn phím. |
-| OnClick | `3` | Xảy ra khi nút thiết bị chỉ điểm được nhấp vào một phần tử. |
-| OnMouseDown | `4` | Xảy ra khi nút thiết bị chỉ điểm được nhấn vào một phần tử. |
-| OnMouseUp | `5` | Xảy ra khi nút thiết bị chỉ điểm được thả ra khỏi một phần tử. |
-| OnMouseOver | `6` | Xảy ra khi thiết bị chỉ điểm di chuyển tới một phần tử. |
-| OnMouseMove | `7` | Xảy ra khi thiết bị chỉ điểm di chuyển trong khi nó đang ở trên một phần tử. |
-| OnMouseOut | `8` | Xảy ra khi thiết bị chỉ điểm di chuyển ra khỏi một phần tử. |
-| OnLoad | `9` | Xảy ra khi trình duyệt người dùng đã phân tích cú pháp đầy đủ phần tử và các phần tử con của nó cùng tất cả các tài nguyên được tham chiếu, cần để hiển thị nó. |
-| OnUnload | `10` | Xảy ra khi triển khai DOM gỡ bỏ tài liệu khỏi một cửa sổ hoặc khung. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
-| OnAbort | `11` | Xảy ra khi việc tải trang bị dừng lại trước khi một phần tử được cho phép tải hoàn toàn. |
-| OnError | `12` | Xảy ra khi một phần tử không tải đúng cách hoặc khi có lỗi xảy ra trong quá trình thực thi script. |
-| OnResize | `13` | Xảy ra khi chế độ xem tài liệu được thay đổi kích thước. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
+| OnActivate | `2` | Xảy ra khi một phần tử được kích hoạt, ví dụ bằng một cú nhấp chuột hoặc một phím được nhấn. |
+| OnClick | `3` | Xảy ra khi nút của thiết bị trỏ được nhấn lên một phần tử. |
+| OnMouseDown | `4` | Xảy ra khi nút của thiết bị trỏ được nhấn xuống trên một phần tử. |
+| OnMouseUp | `5` | Xảy ra khi nút của thiết bị trỏ được thả ra trên một phần tử. |
+| OnMouseOver | `6` | Xảy ra khi thiết bị trỏ được di chuyển vào một phần tử. |
+| OnMouseMove | `7` | Xảy ra khi thiết bị trỏ di chuyển trong khi nó đang ở trên một phần tử. |
+| OnMouseOut | `8` | Xảy ra khi thiết bị trỏ di chuyển ra khỏi một phần tử. |
+| OnLoad | `9` | Xảy ra khi tác nhân người dùng đã phân tích hoàn toàn phần tử và các phần tử con của nó cũng như mọi tài nguyên được tham chiếu, cần thiết để hiển thị nó. |
+| OnUnload | `10` | Xảy ra khi triển khai DOM loại bỏ một tài liệu khỏi cửa sổ hoặc khung. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
+| OnAbort | `11` | Xảy ra khi việc tải trang bị dừng lại trước khi một phần tử được phép tải hoàn toàn. |
+| OnError | `12` | Xảy ra khi một phần tử không tải đúng cách hoặc khi xảy ra lỗi trong quá trình thực thi script. |
+| OnResize | `13` | Xảy ra khi chế độ xem tài liệu đang được thay đổi kích thước. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
 | OnScroll | `14` | Xảy ra khi chế độ xem tài liệu được di chuyển dọc theo trục X hoặc Y hoặc cả hai. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
-| OnZoom | `15` | Xảy ra khi mức thu phóng của chế độ xem tài liệu được thay đổi. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
-| OnBegin | `16` | Xảy ra khi một phần tử hoạt ảnh bắt đầu. |
-| OnEnd | `17` | Xảy ra khi một phần tử hoạt ảnh kết thúc. |
-| OnRepeat | `18` | Xảy ra khi một phần tử hoạt ảnh lặp lại. |
+| OnZoom | `15` | Xảy ra khi mức phóng đại của chế độ xem tài liệu được thay đổi. Chỉ áp dụng cho các phần tử svg ngoài cùng. |
+| OnBegin | `16` | Xảy ra khi một phần tử hoạt hình bắt đầu. |
+| OnEnd | `17` | Xảy ra khi một phần tử hoạt hình kết thúc. |
+| OnRepeat | `18` | Xảy ra khi một phần tử hoạt hình lặp lại. |
 
 ### Xem thêm
 

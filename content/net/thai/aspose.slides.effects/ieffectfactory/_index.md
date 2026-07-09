@@ -1,6 +1,6 @@
 ---
 title: IEffectFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: อนุญาตให้สร้างอินสแตนซ์ของเอฟเฟกต์
 type: docs
 weight: 3290
@@ -33,7 +33,7 @@ public interface IEffectFactory
 
 ### หมายเหตุ
 
-สำหรับความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้กับ COM.
 
 ### ดูเพิ่มเติม
 

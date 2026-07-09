@@ -1,14 +1,14 @@
 ---
 title: IDuotone
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 代表 Duotone 效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示雙調效果。
 type: docs
 weight: 3260
 url: /zh-hant/aspose.slides.effects/iduotone/
 ---
 ## IDuotone 介面
 
-代表 Duotone 效果。
+表示雙調效果。
 
 ```csharp
 public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageTransformOperation
@@ -20,10 +20,10 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
 | [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 傳回暗像素的目標顏色格式。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 傳回亮像素的目標顏色格式。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 傳回暗色像素的目標色彩格式。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 傳回亮色像素的目標色彩格式。唯讀 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IDuotoneEffectiveData](../iduotoneeffectivedata)

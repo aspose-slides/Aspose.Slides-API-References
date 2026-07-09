@@ -1,12 +1,12 @@
 ---
 title: CaptionsCollection
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje kolekcję zamkniętych napisów.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje kolekcję napisów zamkniętych.
 type: docs
-weight: 1100
+weight: 1120
 url: /pl/aspose.slides/captionscollection/
 ---
-## CaptionsCollection klasa
+## Klasa CaptionsCollection
 
 Reprezentuje kolekcję napisów zamkniętych.
 
@@ -16,23 +16,23 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides/captionscollection/count) { get; } | Zwraca liczbę elementów w kolekcji. Tylko do odczytu Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Zwraca napisy zamknięte pod wskazanym indeksem. Tylko do odczytu [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Zwraca napisy zamknięte pod określonym indeksem. Tylko do odczytu [`ICaptions`](../icaptions). |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Dodaje napisy zamknięte WebVTT na koniec kolekcji ze strumienia. |
 | [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Dodaje napisy zamknięte WebVTT na koniec kolekcji. |
 | [Clear](../../aspose.slides/captionscollection/clear)() | Usuwa wszystkie napisy zamknięte z kolekcji. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Zwraca enumerator iterujący po kolekcji. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Zwraca enumerator umożliwiający iterację po kolekcji. |
 | [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Usuwa określone napisy zamknięte z kolekcji. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Usuwa napisy zamknięte pod wskazanym indeksem. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Usuwa napisy zamknięte pod określonym indeksem. |
 
-### Zobacz też
+### Zobacz także
 
 * interfejs [ICaptionsCollection](../icaptionscollection)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

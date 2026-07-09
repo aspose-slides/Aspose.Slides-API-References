@@ -1,14 +1,14 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un generatore delle animazioni nella Presentazione../aspose.slides/presentation.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un generatore delle animazioni nella Presentation../aspose.slides/presentation.
 type: docs
-weight: 4360
+weight: 4380
 url: /it/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator classe
 
-Rappresenta un generatore delle animazioni nella [`Presentation`](../../aspose.slides/presentation).
+Rappresenta un generatore delle animazioni nel [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
@@ -25,8 +25,8 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Ottiene o imposta il tempo di ritardo predefinito [ms]. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Restituisce il numero delle diapositive esportate. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Ottiene o imposta il ritardo predefinito [ms]. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Ottiene il numero di diapositive esportate. |
 | [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Ottiene o imposta se le diapositive nascoste devono essere incluse. |
 
 ## Metodi
@@ -47,7 +47,7 @@ public class PresentationAnimationsGenerator : IDisposable
 
 | Nome | Descrizione |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Un evento indica che una nuova animazione è stata generata. |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Un evento indica che è stata generata una nuova animazione. |
 
 ### Esempi
 

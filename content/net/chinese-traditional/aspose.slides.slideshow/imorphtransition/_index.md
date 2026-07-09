@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
-second_title: Aspose.Sildes .NET API 參考
-description: 漣漪投影片轉場效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 波紋幻燈片轉場效果。
 type: docs
 weight: 10130
 url: /zh-hant/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition 介面
 
-漣漪投影片轉場效果。
+波紋幻燈片轉場效果。
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -18,10 +18,10 @@ public interface IMorphTransition : ITransitionValueBase
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 形態過渡的類型。可讀寫 [`TransitionMorphType`](../transitionmorphtype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 允許取得基礎 ITransitionValueBase 介面。只讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 形態轉場的類型。讀寫 [`TransitionMorphType`](../transitionmorphtype)。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [ITransitionValueBase](../itransitionvaluebase)
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

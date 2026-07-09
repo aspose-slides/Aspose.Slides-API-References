@@ -1,14 +1,14 @@
 ---
 title: IMathArray
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 方程式または任意の数式オブジェクトの垂直配列を指定します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: 方程式または任意の数学オブジェクトの垂直配列を指定します
 type: docs
-weight: 8080
+weight: 8100
 url: /ja/aspose.slides.mathtext/imatharray/
 ---
 ## IMathArray インターフェイス
 
-方程式または任意の数式オブジェクトの垂直配列を指定します
+方程式または任意の数学オブジェクトの垂直配列を指定します
 
 ```csharp
 public interface IMathArray : IMathElement
@@ -18,24 +18,24 @@ public interface IMathArray : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 配列の項目の集合 |
-| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | ベース IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できるようにします |
-| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 配列の周囲のテキストに対する配置を指定します。配列外のテキストは、配列オブジェクトの下部、上部、または中央に合わせて配置できます。デフォルト値: Center |
-| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | Maximum Distribution が true の場合、配列は包含要素（ページ、列、セルなど）の最大幅まで間隔が設定されます。 |
-| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | Object Distribution が true の場合、配列の内容は配列オブジェクトの最大幅まで間隔が設定されます。 |
-| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 配列の行間の間隔。RowSpacingRule が 3 に設定されている場合にのみ使用されます。その場合、単位はポイントです。また、Multiple に設定されている場合は単位が半行になります。デフォルト: 0 |
+| [Arguments](../../aspose.slides.mathtext/imatharray/arguments) { get; } | 配列の項目のセット |
+| [AsIMathElement](../../aspose.slides.mathtext/imatharray/asimathelement) { get; } | ベース IMathElement インターフェイスを取得できる [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imatharray/basejustification) { get; set; } | 配列の周囲テキストに対する配置を指定します。配列外のテキストは、配列オブジェクトの下部、上部、または中央に揃えることができます。デフォルト値: Center |
+| [MaximumDistribution](../../aspose.slides.mathtext/imatharray/maximumdistribution) { get; set; } | 最大分布: true の場合、配列は包含要素（ページ、列、セルなど）の最大幅に合わせて配置されます。 |
+| [ObjectDistribution](../../aspose.slides.mathtext/imatharray/objectdistribution) { get; set; } | オブジェクト分布: true の場合、配列の内容は配列オブジェクトの最大幅に合わせて配置されます。 |
+| [RowSpacing](../../aspose.slides.mathtext/imatharray/rowspacing) { get; set; } | 配列の行間の間隔。RowSpacingRule が 3 の Exactly に設定されている場合にのみ使用され、その場合の測定単位はポイントです。Multiple の場合は測定単位が半行です。デフォルト: 0 |
 | [RowSpacingRule](../../aspose.slides.mathtext/imatharray/rowspacingrule) { get; set; } | 配列要素間の垂直間隔のタイプ |
 
 ### 例
 
-Example:
+例:
 
 ```csharp
 [C#]
 IMathArray mathArray = new MathArray(new MathematicalText("item1"));
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

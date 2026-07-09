@@ -1,14 +1,14 @@
 ---
 title: ColorChange
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Color Change 효과를 나타냅니다. FromColor 인스턴스가 ToColor 인스턴스로 교체됩니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Color Change 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
 type: docs
 weight: 2940
 url: /ko/aspose.slides.effects/colorchange/
 ---
 ## ColorChange 클래스
 
-Color Change 효과를 나타냅니다. FromColor 인스턴스가 ToColor 인스턴스로 교체됩니다.
+Color Change 효과를 나타냅니다. FromColor 인스턴스는 ToColor 인스턴스로 교체됩니다.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -16,7 +16,7 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | 교체될 색상입니다. 읽기 전용 [`IColorFormat`](../../aspose.slides/icolorformat). |
@@ -24,13 +24,13 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 지정된 [`ColorChange`](../colorchange)가 현재 [`ColorChange`](../colorchange)와 동일한지 여부를 결정합니다. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 상속이 적용된 실제 Color Change 효과 데이터를 가져옵니다. |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | 지정된 [`ColorChange`](../colorchange)가 현재 [`ColorChange`](../colorchange)와 같은지 판단합니다. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | 상속이 적용된 유효한 Color Change 효과 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | 특정 형식에 대한 해시 함수를 제공합니다. |
 
-### 참고
+### 관련 보기
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IColorChange](../icolorchange)

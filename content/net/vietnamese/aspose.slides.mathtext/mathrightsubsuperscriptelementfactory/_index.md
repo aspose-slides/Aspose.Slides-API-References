@@ -1,6 +1,6 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Aspose.Sildes cho Tham khảo API .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Cho phép tạo IMathRightSubSuperscriptElementFactory
 type: docs
 weight: 8970
@@ -20,7 +20,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 | --- | --- |
 | [MathRightSubSuperscriptElementFactory](mathrightsubsuperscriptelementfactory)() | Hàm khởi tạo mặc định. |
 
-## Phương thức
+## Các phương thức
 
 | Tên | Mô tả |
 | --- | --- |
@@ -28,7 +28,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 ### Ghi chú
 
-Để tương thích COM
+Đối với tính tương thích COM
 
 ### Xem thêm
 

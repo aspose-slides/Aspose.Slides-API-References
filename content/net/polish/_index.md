@@ -4,34 +4,33 @@ type: docs
 weight: 10
 url: /pl/
 keywords: "Aspose.Slides for .NET, Aspose Slides, Aspose PowerPoint, Aspose PPT, Aspose API Reference."
-description: Aspose.Slides są interfejsami API do zarządzania Microsoft PowerPoint®, które umożliwiają aplikacjom programowym odczyt i zapis dokumentów PowerPoint® bez użycia Microsoft PowerPoint®.
+description: Aspose.Slides są interfejsami API zarządzania Microsoft PowerPoint® które umożliwiają aplikacjom programowym odczyt i zapis dokumentów PowerPoint® bez użycia Microsoft PowerPoint®.
 is_root: true
 ---
 ## Przestrzenie nazw
 
 | Przestrzeń nazw | Opis |
 | --- | --- |
-| [Aspose.Slides](./aspose.slides) | Zawiera klasy umożliwiające pracę z prezentacjami Microsoft PowerPoint bez użycia Microsoft PowerPoint. |
-| [Aspose.Slides.AI](./aspose.slides.ai) | Zawiera klasy udostępniające funkcje oparte na sztucznej inteligencji do analizowania i przetwarzania prezentacji PowerPoint. |
-| [Aspose.Slides.Animation](./aspose.slides.animation) | Zawiera klasy do pracy z animacją w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.Charts](./aspose.slides.charts) | Zawiera klasy do pracy z wykresami w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Zawiera klasy do pracy z obiektami OLE w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.Effects](./aspose.slides.effects) | Zawiera klasy do pracy z różnymi efektami w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.Excel](./aspose.slides.excel) | Zawiera klasy do pracy z zewnętrznymi arkuszami kalkulacyjnymi Microsoft Excel. |
+| [Aspose.Slides](./aspose.slides) | Zawiera klasy umożliwiające pracę z prezentacjami Microsoft PowerPoint bez korzystania z Microsoft PowerPoint. |
+| [Aspose.Slides.AI](./aspose.slides.ai) | Zawiera klasy oferujące funkcje oparte na sztucznej inteligencji do analizy i przetwarzania prezentacji PowerPoint. |
+| [Aspose.Slides.Animation](./aspose.slides.animation) | Zawiera klasy umożliwiające pracę z animacjami w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.Charts](./aspose.slides.charts) | Zawiera klasy umożliwiające pracę z wykresami w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.DOM.Ole](./aspose.slides.dom.ole) | Zawiera klasy umożliwiające pracę z obiektami OLE w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.Effects](./aspose.slides.effects) | Zawiera klasy umożliwiające pracę z różnymi efektami w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.Excel](./aspose.slides.excel) | Zawiera klasy umożliwiające pracę z zewnętrznymi arkuszami kalkulacyjnymi Microsoft Excel. |
 | [Aspose.Slides.Export](./aspose.slides.export) | Zawiera klasy umożliwiające eksportowanie prezentacji Microsoft PowerPoint do różnych formatów, takich jak Html, Pdf, Svg, Xps i inne. |
 | [Aspose.Slides.Export.Web](./aspose.slides.export.web) | Zawiera klasy umożliwiające eksportowanie prezentacji Microsoft PowerPoint do Html przy użyciu projektów rozszerzeń. |
 | [Aspose.Slides.Export.Xaml](./aspose.slides.export.xaml) | Zawiera klasy umożliwiające eksportowanie prezentacji Microsoft PowerPoint do XAML. |
 | [Aspose.Slides.Import](./aspose.slides.import) | Zawiera klasy importujące dane do prezentacji Microsoft PowerPoint. |
-| [Aspose.Slides.Ink](./aspose.slides.ink) | Zawiera klasy do pracy z Ink. |
-| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Zawiera klasy i metody umożliwiające obsługę złożonych operacji ogólnych w trybie low-code. |
-| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Zawiera klasy do pracy z tekstem matematycznym w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Zawiera klasy do zarządzania pokazami slajdów i przejściami slajdów |
-| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Zawiera klasy do pracy z obiektami SmartArt |
-| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Zawiera klasy do pracy z obiektami arkuszy kalkulacyjnych w prezentacjach Microsoft PowerPoint. |
-| [Aspose.Slides.Theme](./aspose.slides.theme) | Zawiera klasy do pracy z różnymi typami motywów. |
-| [Aspose.Slides.Util](./aspose.slides.util) | Zawiera klasy narzędziowe, które pomagają w pracy z prezentacjami. |
-| [Aspose.Slides.Vba](./aspose.slides.vba) | Zawiera klasy do pracy z makrami VBA |
+| [Aspose.Slides.Ink](./aspose.slides.ink) | Zawiera klasy umożliwiające pracę z Ink. |
+| [Aspose.Slides.LowCode](./aspose.slides.lowcode) | Zawiera klasy i metody umożliwiające obsługę złożonych ogólnych operacji w sposób low code. |
+| [Aspose.Slides.MathText](./aspose.slides.mathtext) | Zawiera klasy umożliwiające pracę z tekstem matematycznym w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.SlideShow](./aspose.slides.slideshow) | Zawiera klasy umożliwiające zarządzanie pokazami slajdów i przejściami slajdów |
+| [Aspose.Slides.SmartArt](./aspose.slides.smartart) | Zawiera klasy umożliwiające pracę z obiektami SmartArt |
+| [Aspose.Slides.Spreadsheet](./aspose.slides.spreadsheet) | Zawiera klasy umożliwiające pracę z obiektami arkuszy kalkulacyjnych w prezentacjach Microsoft PowerPoint. |
+| [Aspose.Slides.Theme](./aspose.slides.theme) | Zawiera klasy umożliwiające pracę z różnymi typami motywów. |
+| [Aspose.Slides.Util](./aspose.slides.util) | Zawiera klasy pomocnicze ułatwiające pracę z prezentacjami. |
+| [Aspose.Slides.Vba](./aspose.slides.vba) | Zawiera klasy umożliwiające pracę z makrami VBA |
 | [Aspose.Slides.Warnings](./aspose.slides.warnings) | Zawiera klasy reprezentujące różne rodzaje ostrzeżeń |
-
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

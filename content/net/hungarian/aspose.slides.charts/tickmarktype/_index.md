@@ -1,14 +1,14 @@
 ---
 title: TickMarkType
-second_title: Aspose.Sildes .NET API Referenciája
-description: A megadott tengelyhez tartozó jelölővonal típusát jelöli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A megadott tengelyhez tartozó jelölő típusát jelöli.
 type: docs
-weight: 2430
+weight: 2450
 url: /hu/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType enumeráció
 
-A megadott tengelyhez tartozó jelölővonal típusát jelöli.
+A megadott tengelyhez tartozó jelölő típusát képviseli.
 
 ```csharp
 public enum TickMarkType
@@ -18,10 +18,10 @@ public enum TickMarkType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Cross | `0` | Megadja, hogy a jelölővonalak keresztezzék a tengelyt. |
-| Inside | `1` | Megadja, hogy a jelölővonalak a diagram területén belül legyenek. |
-| None | `2` | Megadja, hogy ne legyenek jelölővonalak. |
-| Outside | `3` | Megadja, hogy a jelölővonalak a diagram területén kívül legyenek. |
+| Cross | `0` | A jelölők keresztezik a tengelyt. |
+| Inside | `1` | A jelölők a diagram területén belül helyezkednek el. |
+| None | `2` | Nem jelennek meg jelölők. |
+| Outside | `3` | A jelölők a diagram területén kívül helyezkednek el. |
 
 ### Lásd még
 

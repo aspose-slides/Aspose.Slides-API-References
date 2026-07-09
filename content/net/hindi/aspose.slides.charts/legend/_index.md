@@ -1,14 +1,14 @@
 ---
 title: Legend
-second_title: Aspose.Sildes .NET के लिये API संदर्भ
-description: चार्ट के लेजेंड गुणों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: चार्ट की लेजेंड गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 2280
 url: /hi/aspose.slides.charts/legend/
 ---
 ## Legend क्लास
 
-चार्ट के लेजेंड गुणों का प्रतिनिधित्व करता है।
+चार्ट की लेजेंड गुणों का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -18,29 +18,29 @@ public class Legend : DomObject<Chart>, ILegend
 
 | नाम | विवरण |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए IChart.ValidateChartLayout() मेथड को पहले कॉल करें। पढ़ने योग्य Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए IChart.ValidateChartLayout() मेथड को पहले कॉल करें। पढ़ने योग्य Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | चार्ट तत्व के बाएँ (x) स्थान को चार्ट के बाएँ-ऊपरी कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए IChart.ValidateChartLayout() मेथड को पहले कॉल करें। पढ़ने योग्य Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | चार्ट तत्व के शीर्ष को चार्ट के बाएँ-ऊपरी कोने के सापेक्ष निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए IChart.ValidateChartLayout() मेथड को पहले कॉल करें। पढ़ने योग्य Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | नीचे। केवल पढ़ने योग्य Single. |
-| [Chart](../../aspose.slides.charts/legend/chart) { get; } | चार्ट लौटाता है। केवल पढ़ने योग्य [`IChart`](../ichart). |
-| [Entries](../../aspose.slides.charts/legend/entries) { get; } | लेजेंड प्रविष्टियों को प्राप्त करता है। केवल पढ़ने योग्य [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/legend/format) { get; } | लेजेंड का प्रारूप लौटाता है। केवल पढ़ने योग्य [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/legend/height) { get; set; } | लेजेंड की ऊँचाई को चार्ट की ऊँचाई के एक अंश के रूप में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Single. |
-| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | निर्धारित करता है कि अन्य चार्ट तत्वों को लेजेंड के ऊपर ओवरलैप करने की अनुमति होनी चाहिए या नहीं। पढ़ने/लिखने योग्य Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | चार्ट पर लेजेंड की स्थिति निर्दिष्ट करता है। X, Y, Width, Heigt गुणों के Non-NaN मान इस प्रॉपर्टी के प्रभाव को ओवरराइड करते हैं। पढ़ने/लिखने योग्य [`LegendPositionType`](../legendpositiontype). |
-| [Right](../../aspose.slides.charts/legend/right) { get; } | दाएँ। केवल पढ़ने योग्य Single. |
-| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | पाठ प्रारूप। केवल पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
-| [Width](../../aspose.slides.charts/legend/width) { get; set; } | लेजेंड की चौड़ाई को चार्ट की चौड़ाई के एक अंश के रूप में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Single. |
-| [X](../../aspose.slides.charts/legend/x) { get; set; } | लेजेंड के x निर्देशांक को चार्ट की चौड़ाई के एक अंश के रूप में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Single. |
-| [Y](../../aspose.slides.charts/legend/y) { get; set; } | लेजेंड के y निर्देशांक को चार्ट की ऊँचाई के एक अंश के रूप में प्राप्त या सेट करता है। पढ़ने/लिखने योग्य Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | चार्ट तत्व की वास्तविक ऊँचाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | चार्ट तत्व की वास्तविक चौड़ाई निर्दिष्ट करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | चार्ट तत्व की वास्तविक x स्थिति (बाएँ) चार्ट के बाएँ शीर्ष कोने के सापेक्ष निर्धारित करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | चार्ट तत्व के वास्तविक शीर्ष को चार्ट के बाएँ शीर्ष कोने के सापेक्ष निर्धारित करता है। वास्तविक मान प्राप्त करने के लिए पहले IChart.ValidateChartLayout() मेथड को कॉल करें। पढ़ें Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | निचला। केवल-पढ़ने योग्य Single. |
+| [Chart](../../aspose.slides.charts/legend/chart) { get; } | चार्ट लौटाता है। केवल-पढ़ने योग्य [`IChart`](../ichart). |
+| [Entries](../../aspose.slides.charts/legend/entries) { get; } | लेजेंड प्रविष्टियाँ प्राप्त करता है। केवल-पढ़ने योग्य [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/legend/format) { get; } | लेजेंड का स्वरूप लौटाता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/legend/height) { get; set; } | लेजेंड की ऊँचाई को चार्ट की ऊँचाई के अनुपात में प्राप्त या सेट करता है। पढ़ें/लिखें Single. |
+| [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | निर्धारित करता है कि क्या अन्य चार्ट तत्वों को लेजेंड के ऊपर ओवरलैप करने की अनुमति है। पढ़ें/लिखें Boolean. |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | चार्ट पर लेजेंड की स्थिति निर्दिष्ट करता है। X, Y, Width, Heigt गुणों के Non-NaN मान इस गुण के प्रभाव को अधिलेखित करते हैं। पढ़ें/लिखें [`LegendPositionType`](../legendpositiontype). |
+| [Right](../../aspose.slides.charts/legend/right) { get; } | दाहिना। केवल-पढ़ने योग्य Single. |
+| [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | पाठ स्वरूप। केवल-पढ़ने योग्य [`IChartTextFormat`](../icharttextformat). |
+| [Width](../../aspose.slides.charts/legend/width) { get; set; } | लेजेंड की चौड़ाई को चार्ट की चौड़ाई के अनुपात में प्राप्त या सेट करता है। पढ़ें/लिखें Single. |
+| [X](../../aspose.slides.charts/legend/x) { get; set; } | लेजेंड के x निर्देशांक को चार्ट की चौड़ाई के अनुपात में प्राप्त या सेट करता है। पढ़ें/लिखें Single. |
+| [Y](../../aspose.slides.charts/legend/y) { get; set; } | लेजेंड के y निर्देशांक को चार्ट की ऊँचाई के अनुपात में प्राप्त या सेट करता है। पढ़ें/लिखें Single. |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [Chart](../chart)
 * इंटरफ़ेस [ILegend](../ilegend)
-* नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
+* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

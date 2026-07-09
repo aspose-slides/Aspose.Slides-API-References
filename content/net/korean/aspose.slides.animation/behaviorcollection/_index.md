@@ -26,17 +26,17 @@ public class BehaviorCollection : IBehaviorCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | 컬렉션에 새로운 동작을 추가합니다. |
-| [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | 컬렉션의 모든 동작을 제거합니다. |
+| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | 컬렉션에 새 동작을 추가합니다. |
+| [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | 컬렉션에서 모든 동작을 제거합니다. |
 | [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | ICollection에 특정 값이 포함되어 있는지 확인합니다. |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | ICollection의 요소를 지정된 배열 인덱스부터 Array에 복사합니다. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | ICollection의 요소를 지정된 배열 인덱스에서 시작하여 Array에 복사합니다. |
 | [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
-| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | IList에서 특정 항목의 인덱스를 결정합니다. |
-| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | 지정된 인덱스에 컬렉션에 새로운 동작을 삽입합니다. |
+| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | IList에서 특정 항목의 인덱스를 확인합니다. |
+| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | 지정된 인덱스에 새 동작을 삽입합니다. |
 | [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | 컬렉션에서 지정된 동작을 제거합니다. |
 | [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | 지정된 인덱스에서 컬렉션의 동작을 제거합니다. |
 
-### 다음 보기
+### 참고
 
 * 인터페이스 [IBehaviorCollection](../ibehaviorcollection)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -25,7 +25,7 @@ public enum WorkbookType
 | TemplateMacro | `3` | Excel 매크로 사용 템플릿 (*.xltm). |
 | WorkbookBinaryMacro | `4` | Excel 바이너리 매크로 사용 워크북 (*.xlsb). |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

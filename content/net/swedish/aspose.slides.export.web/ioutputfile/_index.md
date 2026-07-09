@@ -3,7 +3,7 @@ title: IOutputFile
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en utdatafil.
 type: docs
-weight: 4580
+weight: 4600
 url: /sv/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile gränssnitt
@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Skriver filens innehåll till stream. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | Skriver filens innehåll till strömmen. |
 
 ### Se även
 

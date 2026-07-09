@@ -1,14 +1,14 @@
 ---
 title: DigitalSignature
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 署名されたファイル内のデジタル署名です。
+description: 署名されたファイル内のデジタル署名。
 type: docs
-weight: 2750
+weight: 2770
 url: /ja/aspose.slides/digitalsignature/
 ---
 ## DigitalSignature クラス
 
-署名されたファイル内のデジタル署名です。
+署名されたファイル内のデジタル署名。
 
 ```csharp
 public class DigitalSignature : IDigitalSignature
@@ -18,50 +18,50 @@ public class DigitalSignature : IDigitalSignature
 
 | 名前 | 説明 |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 指定された証明書を使用して新しい DigitalSignature オブジェクトを作成します。 |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 指定された証明書ファイルパスとパスワードを使用して新しい DigitalSignature オブジェクトを作成します。 |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 指定された証明書で新しい DigitalSignature オブジェクトを作成します。 |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 指定された証明書ファイルパスとパスワードで新しい DigitalSignature オブジェクトを作成します。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | ドキュメントに署名するために使用された証明書オブジェクトです。読み取り専用 X509Certificate2。 |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 署名の目的です。読み書き可能 String。 |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | このデジタル署名が有効で、かつドキュメントが改ざんされていない場合、この値は true になります。読み取り専用 Boolean。 |
-| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | ドキュメントが署名された時刻です。読み取り専用 DateTime。 |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | ドキュメントの署名に使用された証明書オブジェクト。読み取り専用 X509Certificate2。 |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 署名の目的。読み書き可能 String。 |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | このデジタル署名が有効で、ドキュメントが改ざんされていない場合、この値は true になります。読み取り専用 Boolean。 |
+| [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | ドキュメントが署名された時間。読み取り専用 DateTime。 |
 
 ### 例
 
-以下の例は、PowerPoint プレゼンテーションに PFX 証明書からデジタル署名を追加する方法を示しています。
+以下の例は、PowerPoint プレゼンテーションに PFX 証明書からデジタル署名を追加する方法を示します。
 
 ```csharp
 [C#]
-// プレゼンテーション インスタンスを初期化
+// Presentation インスタンスを初期化します
 using (Presentation pres = new Presentation())
 {
-    // PFX ファイルと PFX パスワードで DigitalSignature オブジェクトを作成
+    // PFX ファイルと PFX パスワードで DigitalSignature オブジェクトを作成します
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // 新しいデジタル署名にコメントを設定
+    // 新しいデジタル署名にコメントを付けます
     signature.Comments = "Aspose.Slides digital signing test.";
-    // デジタル署名をプレゼンテーションに追加
+    // プレゼンテーションにデジタル署名を追加します
     pres.DigitalSignatures.Add(signature);
-    // プレゼンテーションを保存
+    // プレゼンテーションを保存します
     pres.Save("SomePresentationSigned.pptx", SaveFormat.Pptx);
 }
 ```
 
-以下のサンプルコードは、PowerPoint プレゼンテーションのデジタル署名を検証する方法を示しています。
+以下のサンプルコードは、PowerPoint プレゼンテーションのデジタル署名を検証する方法を示します。
 
 ```csharp
 [C#]
-// プレゼンテーション インスタンスを初期化
+// Presentation インスタンスを初期化します
 using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 {
     if (pres.DigitalSignatures.Count < 0)
     {
         bool allSignaturesAreValid = true;
         Console.WriteLine("Signatures used to sign the presentation: ");
-        // すべてのデジタル署名が有効かどうかを確認
+        // すべてのデジタル署名が有効かどうかを確認します
         foreach (DigitalSignature signature in pres.DigitalSignatures)
         {
             Console.WriteLine(signature.Certificate.SubjectName.Name + ", "

@@ -1,14 +1,14 @@
 ---
 title: FieldType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示欄位的類型。此值決定在更新時將設定到欄位部份的文字。
+description: 表示欄位的類型。此值決定在更新時會將哪段文字設定到欄位部分。
 type: docs
 weight: 4760
 url: /zh-hant/aspose.slides/fieldtype/
 ---
 ## FieldType 類別
 
-表示欄位的類型。此值決定在更新時將設定到欄位部份的文字。
+表示欄位的類型。此值決定在更新時會將哪段文字設定到欄位部分。
 
 ```csharp
 public sealed class FieldType : IFieldType
@@ -16,15 +16,15 @@ public sealed class FieldType : IFieldType
 
 ## 建構函式
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [FieldType](fieldtype)(string) | 初始化 FieldType 類別的新執行個體。 |
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | 目前日期與時間，使用呈現應用程式的預設日期時間格式。唯讀 [`FieldType`](../fieldtype)。 |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | 目前日期與時間，採用渲染應用程式的預設日期時間格式。唯讀 [`FieldType`](../fieldtype)。 |
 | static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | 目前日期與時間，使用第一個預定格式 (MM/DD/YYYY for english)。唯讀 [`FieldType`](../fieldtype)。 |
 | static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | 目前日期與時間，使用第十個預定格式 (hh:mm for english)。唯讀 [`FieldType`](../fieldtype)。 |
 | static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | 目前日期與時間，使用第十一個預定格式 (hh:mm:ss for english)。唯讀 [`FieldType`](../fieldtype)。 |
@@ -38,16 +38,16 @@ public sealed class FieldType : IFieldType
 | static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | 目前日期與時間，使用第七個預定格式 (Mon-YY for english)。唯讀 [`FieldType`](../fieldtype)。 |
 | static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | 目前日期與時間，使用第八個預定格式 (MM/DD/YYYY hh:mm AM/PM for english)。唯讀 [`FieldType`](../fieldtype)。 |
 | static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | 目前日期與時間，使用第九個預定格式 (MM/DD/YYYY hh:mm:ss AM/PM for english)。唯讀 [`FieldType`](../fieldtype)。 |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | 投影片的頁尾。唯讀 [`FieldType`](../fieldtype)。 |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | 投影片的頁腳。唯讀 [`FieldType`](../fieldtype)。 |
 | static [Header](../../aspose.slides/fieldtype/header) { get; } | 投影片的頁首。唯讀 [`FieldType`](../fieldtype)。 |
 | static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | 目前投影片的編號。唯讀 [`FieldType`](../fieldtype)。 |
 | [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | 傳回此 FieldType 物件的內部名稱。可讀寫 String。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/fieldtype/equals)(object) | 檢查此欄位是否與另一個相等。 |
+| override [Equals](../../aspose.slides/fieldtype/equals)(object) | 檢查此欄位是否等於另一個。 |
 | override [GetHashCode](../../aspose.slides/fieldtype/gethashcode)() | 傳回此物件的雜湊碼。 |
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | 檢查兩個 FieldType 物件是否相等。 |
 | [operator !=](../../aspose.slides/fieldtype/op_inequality) | 檢查兩個 FieldType 物件是否不相等。 |

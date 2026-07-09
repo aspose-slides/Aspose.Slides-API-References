@@ -1,6 +1,6 @@
 ---
 title: CommentsPositions
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 내보낸 문서에 주석을 렌더링하는 규칙을 나타냅니다
 type: docs
 weight: 3730
@@ -18,11 +18,11 @@ public enum CommentsPositions
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| None | `0` | 주석을 전혀 표시하지 않도록 지정합니다. |
+| None | `0` | 주석을 전혀 표시하지 않아야 함을 지정합니다. |
 | Bottom | `1` | 주석을 페이지 하단에 표시하도록 지정합니다. |
 | Right | `2` | 주석을 페이지 오른쪽에 표시하도록 지정합니다. |
 
-### 참조
+### 또보기
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

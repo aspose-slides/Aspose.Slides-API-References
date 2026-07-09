@@ -1,6 +1,6 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes for .NET API Referentie
 description: Staat toe ITab-instanties te maken
 type: docs
 weight: 10850

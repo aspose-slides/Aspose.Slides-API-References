@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Sildes for .NET API リファレンス
 description: テーブル内のセルを表します。
 type: docs
-weight: 5430
+weight: 5450
 url: /ja/aspose.slides/icell/
 ---
 ## ICell インターフェイス
@@ -16,39 +16,39 @@ public interface ICell : ISlideComponent
 
 ## プロパティ
 
-| 名称 | 説明 |
+| 名前 | 説明 |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | セル内にテキストボックスが中央揃えされているかどうかを決定します。読み書き Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | 基本 ISlideComponent インターフェイスを取得できるようにします。読み取り専用 [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | このセルの書式設定プロパティを含む CellFormat オブジェクトを返します。読み取り専用 [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 現在のセルが跨ぐ、親テーブルのテーブル グリッド内の列数を返します。このプロパティにより、セルは他のセルの垂直境界を跨ぐことで結合されたように見えます。読み取り専用 Int32. |
-| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | セルの最初の列を取得します。読み取り専用 [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | セルがカバーする最初の列のインデックスを返します。読み取り専用 Int32. |
-| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | セルの最初の行を取得します。読み取り専用 [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | セルがカバーする最初の行のインデックスを返します。読み取り専用 Int32. |
-| [Height](../../aspose.slides/icell/height) { get; } | セルの高さを返します。読み取り専用 Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | セルが調整されたセルと結合されている場合は true、そうでない場合は false を返します。読み取り専用 Boolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | TextFrame の下余白を取得または設定します。読み書き Double. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | TextFrame の左余白を取得または設定します。読み書き Double. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | TextFrame の右余白を取得または設定します。読み書き Double. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | TextFrame の上余白を取得または設定します。読み書き Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | セルの最小高さを返します。これはセルがカバーするすべての行の最小高さの合計です。読み取り専用 Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | テーブルの左側からセルの左側までの距離を返します。読み取り専用 Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | テーブルの上側からセルの上側までの距離を返します。読み取り専用 Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 結合されたセルが跨ぐ行数を返します。これは他のセルの vMerge 属性と組み合わせて、水平結合の開始セルを指定するために使用されます。読み取り専用 Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | セルの親 Table オブジェクトを返します。読み取り専用 [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | テキストアンカータイプを取得または設定します。読み書き [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | セルのテキストフレームを返します。読み取り専用 [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | 縦書きテキストのタイプを取得または設定します。読み書き [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | セルの幅を返します。読み取り専用 Double. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | セル内にテキストボックスを中央揃えにするかどうかを決定します。読み取り/書き込み Boolean。 |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | このセルの書式設定プロパティを含む CellFormat オブジェクトを返します。読み取り専用 [`ICellFormat`](../icellformat)。 |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | 現在のセルが跨ぐ、親テーブルのテーブルグリッド内の列数を返します。このプロパティにより、セルはテーブル内の他のセルの垂直境界を跨いで結合されたように見えるようになります。読み取り専用 Int32。 |
+| [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | セルの最初の列を取得します。読み取り専用 [`IColumn`](../icolumn)。 |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | セルがカバーする最初の列のインデックスを返します。読み取り専用 Int32。 |
+| [FirstRow](../../aspose.slides/icell/firstrow) { get; } | セルの最初の行を取得します。読み取り専用 [`IRow`](../irow)。 |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | セルがカバーする最初の行のインデックスを返します。読み取り専用 Int32。 |
+| [Height](../../aspose.slides/icell/height) { get; } | セルの高さを返します。読み取り専用 Double。 |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | セルが調整されたセルと結合されている場合は true、そうでない場合は false を返します。読み取り専用 Boolean。 |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | TextFrame の下マージンを取得または設定します。読み取り/書き込み Double。 |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | TextFrame の左マージンを取得または設定します。読み取り/書き込み Double。 |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | TextFrame の右マージンを取得または設定します。読み取り/書き込み Double。 |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | TextFrame の上マージンを取得または設定します。読み取り/書き込み Double。 |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | セルの最小高さを返します。これはセルがカバーするすべての行の最小高さの合計です。読み取り専用 Double。 |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | テーブルの左側からセルの左側までの距離を返します。読み取り専用 Double。 |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | テーブルの上側からセルの上側までの距離を返します。読み取り専用 Double。 |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | 結合されたセルが跨ぐ行数を返します。これは他のセルの vMerge 属性と組み合わせて、横方向の結合の開始セルを指定するために使用されます。読み取り専用 Int32。 |
+| [Table](../../aspose.slides/icell/table) { get; } | セルの親 Table オブジェクトを返します。読み取り専用 [`ITable`](../itable)。 |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | テキストアンカーのタイプを取得または設定します。読み取り/書き込み [`TextAnchorType`](../textanchortype)。 |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | セルのテキストフレームを返します。読み取り専用 [`ITextFrame`](../itextframe)。 |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | 縦書きテキストのタイプを取得または設定します。読み取り/書き込み [`TextVerticalType`](../textverticaltype)。 |
+| [Width](../../aspose.slides/icell/width) { get; } | セルの幅を返します。読み取り専用 Double。 |
 
 ## メソッド
 
-| 名称 | 説明 |
+| 名前 | 説明 |
 | --- | --- |
-| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 列インデックスでセルを2つに分割します。 |
+| [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | 列のインデックスでセルを2つに分割します。 |
 | [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | 高さでセルを分割します。 |
-| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | 行インデックスでセルを2つに分割します。 |
+| [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | 行のインデックスでセルを2つに分割します。 |
 | [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | 幅でセルを分割します。 |
 
 ### 参照

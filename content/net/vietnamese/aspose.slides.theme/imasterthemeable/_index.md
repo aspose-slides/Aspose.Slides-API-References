@@ -1,14 +1,14 @@
 ---
 title: IMasterThemeable
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả trình quản lý chủ đề master.
+description: Đại diện cho trình quản lý chủ đề chính.
 type: docs
 weight: 11330
 url: /vi/aspose.slides.theme/imasterthemeable/
 ---
 ## Giao diện IMasterThemeable
 
-Mô tả trình quản lý chủ đề master.
+Đại diện cho trình quản lý chủ đề chính.
 
 ```csharp
 public interface IMasterThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IMasterThemeable : IThemeable
 | Tên | Mô tả |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | Trả về giao diện IThemeable. Chỉ đọc [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Trả về trình quản lý chủ đề master. Chỉ đọc [`IMasterThemeManager`](../imasterthememanager). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | Trả về trình quản lý chủ đề chính. Chỉ đọc [`IMasterThemeManager`](../imasterthememanager). |
 
 ### Xem thêm
 

@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 參考
-description: 代表管理器，負責保存母投影片頁腳、日期時間、頁碼占位符以及所有子占位符的行為。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示管理員，負責控制母片頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。
 type: docs
 weight: 6440
 url: /zh-hant/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager 介面
 
-表示管理器，負責保存母投影片頁腳、日期時間、頁碼占位符以及所有子占位符的行為。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。
+表示管理員，負責控制母片頁腳、日期時間、頁碼佔位符以及所有子佔位符的行為。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,19 +18,19 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | 傳回 IBaseSlideHeaderFooterManager 介面。 |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Returns IBaseSlideHeaderFooterManager interface. |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 設定文字到母投影片日期時間占位符以及所有子日期時間占位符。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更母投影片日期時間占位符以及所有子日期時間占位符的可見性。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 設定文字到母投影片頁腳占位符以及所有子頁腳占位符。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更母投影片頁腳占位符以及所有子頁腳占位符的可見性。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更母投影片頁碼占位符以及所有子頁碼占位符的可見性。子占位符是指包含在相依版面投影片和相依投影片中的占位符。相依版面投影片和投影片使用且依賴於母投影片。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | 將文字設置到母片日期時間佔位符以及所有子日期時間佔位符。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | 變更母片日期時間佔位符以及所有子日期時間佔位符的可見性。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | 將文字設置到母片頁腳佔位符以及所有子頁腳佔位符。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | 變更母片頁腳佔位符以及所有子頁腳佔位符的可見性。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | 變更母片頁碼佔位符以及所有子頁碼佔位符的可見性。子佔位符指的是存在於相依版面配置投影片以及相依投影片中的佔位符。相依版面配置投影片和投影片會使用並依賴母片。 |
 
-### 另見
+### 另請參閱
 
 * 介面 [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

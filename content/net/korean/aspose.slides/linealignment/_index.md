@@ -22,7 +22,7 @@ public enum LineAlignment : sbyte
 | Center | `0` |  |
 | Inset | `1` |  |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

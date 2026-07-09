@@ -1,14 +1,14 @@
 ---
 title: CombinableSeriesTypesGroup
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 結合可能な系列タイプのグループの列挙です。各要素は、1つの ChartSeriesGroup 内で同時に保持できるチャート系列のタイプのグループに対応しています。例として、ChartType.PercentsStackedArea 系列は ChartType.StackedArea 系列と同じ ChartSeriesGroup に同時に存在できません。ただし、ChartType.PercentsStackedArea を 2 つ以上同時に同じ ChartSeriesGroup に配置することは可能です（CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea）。また、ChartType.Line 系列は ChartType.LineWithMarkers 系列と同時に同じ CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup に存在できます。
+description: 組み合わせ可能な系列タイプのグループを列挙した列挙体です。各要素は、1つの ChartSeriesGroup 内で同時に存在できるチャート系列のタイプのグループに対応します。たとえば、ChartType.PercentsStackedArea 系列は同じ ChartSeriesGroup 内で ChartType.StackedArea 系列と同時に存在できません。ただし、ChartType.PercentsStackedArea 系列が 2 つ以上あれば、1つの ChartSeriesGroup 内で同時に存在できます（CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea）。また、ChartType.Line 系列は ChartType.LineWithMarkers 系列と同時に 1つの CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup 内に配置できます。
 type: docs
-weight: 1510
+weight: 1530
 url: /ja/aspose.slides.charts/combinableseriestypesgroup/
 ---
 ## CombinableSeriesTypesGroup 列挙体
 
-結合可能な系列タイプのグループの列挙です。各要素は、1つの ChartSeriesGroup 内で同時に保持できるチャート系列のタイプのグループに対応しています。例として、ChartType.PercentsStackedArea 系列は ChartType.StackedArea 系列と同じ ChartSeriesGroup に同時に存在できません。ただし、ChartType.PercentsStackedArea を2つ以上同時に同じ ChartSeriesGroup に配置することは可能です（CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea）。また、ChartType.Line 系列は ChartType.LineWithMarkers 系列と同時に同じ CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup に存在できます。
+組み合わせ可能な系列タイプのグループの列挙です。各要素は、1つの ChartSeriesGroup 内で同時に存在できるチャート系列のタイプのグループに対応します。例えば、ChartType.PercentsStackedArea 系列は ChartType.StackedArea 系列と同じ ChartSeriesGroup に同時に配置できません。ただし、ChartType.PercentsStackedArea 系列は複数あれば同じ ChartSeriesGroup に同時に配置できます（CombinableSeriesTypesGroup.AreaChart_PercentsStackedArea）。また、ChartType.Line 系列は ChartType.LineWithMarkers 系列と同じ CombinableSeriesTypesGroup.LineChart_Line ChartSeriesGroup に同時に配置できます。
 
 ```csharp
 public enum CombinableSeriesTypesGroup

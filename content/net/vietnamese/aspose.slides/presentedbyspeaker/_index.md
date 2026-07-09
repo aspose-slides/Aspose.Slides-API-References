@@ -1,24 +1,24 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Được trình bày bởi một diễn giả ở chế độ toàn màn hình
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Được trình bày bởi một người nói ở chế độ toàn màn hình
 type: docs
 weight: 9650
 url: /vi/aspose.slides/presentedbyspeaker/
 ---
-## PresentedBySpeaker lớp
+## Lớp PresentedBySpeaker
 
-Presented by a speaker (full screen)
+Được trình bày bởi một người nói (toàn màn hình)
 
 ```csharp
 public class PresentedBySpeaker : SlideShowType
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | Khởi tạo một thực thể mới của lớp PresentedBySpeaker. |
+| [PresentedBySpeaker](presentedbyspeaker)() | Khởi tạo một thể hiện mới của lớp PresentedBySpeaker. |
 
 ### Ví dụ
 

@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert een groeperingssymbool boven of onder een expressie, meestal om de relatie tussen elementen te benadrukken
+second_title: Aspose.Sildes for .NET API-referentie
+description: Specificeert een groepssymbool boven of onder een expressie, meestal om de relatie tussen elementen te benadrukken.
 type: docs
 weight: 8290
 url: /nl/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter interface
 
-Specificeert een groeperingssymbool boven of onder een expressie, meestal om de relatie tussen elementen te benadrukken
+Specificeert een groepssymbool boven of onder een expressie, meestal om de relatie tussen elementen te benadrukken.
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,11 +18,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Staat toe de basis IMathElement interface te verkrijgen [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) op te halen |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | Basisargument |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Groepeerkarakter Standaardwaarde: U+23DF (onderste krulhaak) |
-| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Positie van het groepeerkarakter. Standaard: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Verticale uitlijning van het groepeerkarakter. Geeft de uitlijning van het object ten opzichte van de basislijn aan. Bijvoorbeeld, wanneer het groepeerkarakter boven het object staat, betekent VerticalJustification of Top dat de bovenkant van het object op de basislijn valt; wanneer VerticalJustification is ingesteld op Bottom, valt de onderkant van het object op de basislijn. Standaard: Bottom for Position=Top, and Top for Position=Bottom |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | Groepskarakter Standaardwaarde: U+23DF (onderste krullende haak) |
+| [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | Positie van groepskarakter. Standaard: Bottom |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | Verticale uitlijning van groepskarakter. Specificeert de uitlijning van het object ten opzichte van de basislijn. Bijvoorbeeld, wanneer het groepskarakter boven het object staat, betekent VerticalJustification van Top dat de bovenkant van het object op de basislijn valt; wanneer VerticalJustification is ingesteld op Bottom, ligt de onderkant van het object op de basislijn. Standaard: Bottom voor Position=Top, en Top voor Position=Bottom |
 
 ### Voorbeelden
 

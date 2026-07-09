@@ -1,14 +1,14 @@
 ---
 title: ILineFormatEffectiveData
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Niezmienny obiekt zawierający efektywne właściwości formatowania linii.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Niezmienny obiekt zawierający skuteczne właściwości formatowania linii.
 type: docs
-weight: 6300
+weight: 6320
 url: /pl/aspose.slides/ilineformateffectivedata/
 ---
 ## ILineFormatEffectiveData interfejs
 
-Niezmienny obiekt zawierający efektywne właściwości formatowania linii.
+Obiekt niezmienny zawierający skuteczne właściwości formatowania linii.
 
 ```csharp
 public interface ILineFormatEffectiveData : ILineParamSource
@@ -19,16 +19,16 @@ public interface ILineFormatEffectiveData : ILineParamSource
 | Nazwa | Opis |
 | --- | --- |
 | [Alignment](../../aspose.slides/ilineformateffectivedata/alignment) { get; } | Zwraca wyrównanie linii. Tylko do odczytu [`LineAlignment`](../linealignment). |
-| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Umożliwia uzyskanie podstawowego interfejsu ILineParamSource. Tylko do odczytu [`ILineParamSource`](../ilineparamsource). |
-| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Zwraca długość grotu strzałki na początku linii. Tylko do odczytu [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Zwraca styl grotu strzałki na początku linii. Tylko do odczytu [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Zwraca szerokość grotu strzałki na początku linii. Tylko do odczytu [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Zwraca styl zakończenia linii. Tylko do odczytu [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Zwraca niestandardowy wzorzec przerywania. Tylko do odczytu Single[]. |
-| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Zwraca styl kreski linii. Tylko do odczytu [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Zwraca długość grotu strzałki na końcu linii. Tylko do odczytu [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Zwraca styl grotu strzałki na końcu linii. Tylko do odczytu [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Zwraca szerokość grotu strzałki na końcu linii. Tylko do odczytu [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [AsILineParamSource](../../aspose.slides/ilineformateffectivedata/asilineparamsource) { get; } | Umożliwia pobranie podstawowego interfejsu ILineParamSource. Tylko do odczytu [`ILineParamSource`](../ilineparamsource). |
+| [BeginArrowheadLength](../../aspose.slides/ilineformateffectivedata/beginarrowheadlength) { get; } | Zwraca długość końcówki strzałki na początku linii. Tylko do odczytu [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/ilineformateffectivedata/beginarrowheadstyle) { get; } | Zwraca styl końcówki strzałki na początku linii. Tylko do odczytu [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/ilineformateffectivedata/beginarrowheadwidth) { get; } | Zwraca szerokość końcówki strzałki na początku linii. Tylko do odczytu [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/ilineformateffectivedata/capstyle) { get; } | Zwraca styl końcówki linii. Tylko do odczytu [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/ilineformateffectivedata/customdashpattern) { get; } | Zwraca niestandardowy wzorzec kreskowania. Tylko do odczytu Single[]. |
+| [DashStyle](../../aspose.slides/ilineformateffectivedata/dashstyle) { get; } | Zwraca styl kreskowania linii. Tylko do odczytu [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/ilineformateffectivedata/endarrowheadlength) { get; } | Zwraca długość końcówki strzałki na końcu linii. Tylko do odczytu [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/ilineformateffectivedata/endarrowheadstyle) { get; } | Zwraca styl końcówki strzałki na końcu linii. Tylko do odczytu [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/ilineformateffectivedata/endarrowheadwidth) { get; } | Zwraca szerokość końcówki strzałki na końcu linii. Tylko do odczytu [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/ilineformateffectivedata/fillformat) { get; } | Zwraca format wypełnienia linii. Tylko do odczytu [`ILineFillFormatEffectiveData`](../ilinefillformateffectivedata). |
 | [JoinStyle](../../aspose.slides/ilineformateffectivedata/joinstyle) { get; } | Zwraca styl łączenia linii. Tylko do odczytu [`LineJoinStyle`](../linejoinstyle). |
 | [MiterLimit](../../aspose.slides/ilineformateffectivedata/miterlimit) { get; } | Zwraca limit ścięcia linii. Tylko do odczytu Single. |
@@ -40,11 +40,11 @@ public interface ILineFormatEffectiveData : ILineParamSource
 
 | Nazwa | Opis |
 | --- | --- |
-| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Określa, czy dwie instancje ILineFormatEffectiveData są równe. |
+| [Equals](../../aspose.slides/ilineformateffectivedata/equals)(ILineFormatEffectiveData) | Określa, czy dwa wystąpienia ILineFormatEffectiveData są równe. |
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`ILineFormat`](../ilineformat) w celu zwrócenia efektywnych wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z interfejsem [`ILineFormat`](../ilineformat) do zwracania skutecznych wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

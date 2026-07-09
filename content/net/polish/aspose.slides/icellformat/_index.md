@@ -3,7 +3,7 @@ title: ICellFormat
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje format komórki tabeli.
 type: docs
-weight: 5450
+weight: 5470
 url: /pl/aspose.slides/icellformat/
 ---
 ## ICellFormat interfejs
@@ -19,8 +19,8 @@ public interface ICellFormat
 | Nazwa | Opis |
 | --- | --- |
 | [BorderBottom](../../aspose.slides/icellformat/borderbottom) { get; } | Zwraca obiekt właściwości dolnej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego górnego do prawego dolnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnej od lewego dolnego do prawego górnego. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/icellformat/borderdiagonaldown) { get; } | Zwraca obiekt właściwości linii przekątnych od góry-lewej do dołu-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/icellformat/borderdiagonalup) { get; } | Zwraca obiekt właściwości linii przekątnych od dołu-lewej do góry-prawej. Tylko do odczytu [`ILineFormat`](../ilineformat). |
 | [BorderLeft](../../aspose.slides/icellformat/borderleft) { get; } | Zwraca obiekt właściwości lewej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
 | [BorderRight](../../aspose.slides/icellformat/borderright) { get; } | Zwraca obiekt właściwości prawej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
 | [BorderTop](../../aspose.slides/icellformat/bordertop) { get; } | Zwraca obiekt właściwości górnej linii obramowania. Tylko do odczytu [`ILineFormat`](../ilineformat). |
@@ -31,7 +31,7 @@ public interface ICellFormat
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Pobiera efektywne właściwości formatowania komórki tabeli z zastosowaną dziedziczeniem i stylami tabel. |
+| [GetEffective](../../aspose.slides/icellformat/geteffective)() | Pobiera efektywne właściwości formatowania komórki tabeli z uwzględnieniem dziedziczenia i zastosowanych stylów tabeli. |
 
 ### Zobacz także
 

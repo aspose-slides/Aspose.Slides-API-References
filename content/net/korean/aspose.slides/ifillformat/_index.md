@@ -1,14 +1,14 @@
 ---
 title: IFillFormat
 second_title: Aspose.Sildes for .NET API 참조
-description: 채우기 형식 옵션을 나타냅니다.
+description: 채우기 서식 옵션을 나타냅니다.
 type: docs
 weight: 5790
 url: /ko/aspose.slides/ifillformat/
 ---
 ## IFillFormat 인터페이스
 
-채우기 형식 옵션을 나타냅니다.
+채우기 서식 옵션을 나타냅니다.
 
 ```csharp
 public interface IFillFormat : IFillParamSource
@@ -30,9 +30,9 @@ public interface IFillFormat : IFillParamSource
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | 상속이 적용된 효과적인 채우기 형식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/ifillformat/geteffective)() | 상속이 적용된 효과적인 채우기 서식 데이터를 가져옵니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IFillParamSource](../ifillparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: SplitTransition
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: स्लाइड ट्रांज़िशन प्रभाव को विभाजित करता है।
+description: स्प्लिट स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10330
 url: /hi/aspose.slides.slideshow/splittransition/
 ---
 ## SplitTransition क्लास
 
-स्लाइड ट्रांज़िशन इफ़ेक्ट को विभाजित करता है।
+स्प्लिट स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public class SplitTransition : TransitionValueBase, ISplitTransition
@@ -18,15 +18,15 @@ public class SplitTransition : TransitionValueBase, ISplitTransition
 
 | नाम | विवरण |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | ट्रांज़िशन विभाजन की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype)। |
-| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | ट्रांज़िशन विभाजन का अभिविन्यास। पढ़ें/लिखें [`Orientation`](../../aspose.slides/orientation)। |
+| [Direction](../../aspose.slides.slideshow/splittransition/direction) { get; set; } | ट्रांज़िशन स्प्लिट की दिशा। पढ़ें/लिखें [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Orientation](../../aspose.slides.slideshow/splittransition/orientation) { get; set; } | ट्रांज़िशन स्प्लिट की अभिविन्यास। पढ़ें/लिखें [`Orientation`](../../aspose.slides/orientation). |
 
 ## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase इंस्टेंस समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और डेटा स्ट्रक्चर जैसे हैश टेबल में उपयोग के उपयुक्त है। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
 ### संबंधित देखें
 

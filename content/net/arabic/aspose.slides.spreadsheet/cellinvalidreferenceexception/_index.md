@@ -1,6 +1,6 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes لـ .NET مرجع واجهة برمجة التطبيقات
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
 description: الاستثناء الذي يُرمى عندما يتم مواجهة إشارة خلية غير صالحة.
 type: docs
 weight: 10720
@@ -18,16 +18,16 @@ public class CellInvalidReferenceException : PptxEditException
 
 | الاسم | الوصف |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | ينشئ مثلاً جديدًا للفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | ينشئ مثلاً جديدًا للفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception) مع رسالة خطأ محددة. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | ينشئ مثلاً جديدًا للفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception) مع رسالة خطأ محددة وإشارة إلى الاستثناء الداخلي الذي هو سبب هذا الاستثناء. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | ينشئ مثلاً جديدًا للفئة [`CellCircularReferenceException`](../cellcircularreferenceexception) مع رسالة خطأ محددة وإشارة خلية غير صالحة. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | يُنشئ مثلاً جديداً من الفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | يُنشئ مثلاً جديداً من الفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception) برسالة خطأ محددة. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | يُنشئ مثلاً جديداً من الفئة [`CellInvalidReferenceException`](../cellinvalidreferenceexception) برسالة خطأ محددة وإشارة إلى الاستثناء الداخلي الذي هو سبب هذا الاستثناء. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | يُنشئ مثلاً جديداً من الفئة [`CellCircularReferenceException`](../cellcircularreferenceexception) برسالة خطأ محددة وإشارة خلية غير صالحة. |
 
 ## الخصائص
 
 | الاسم | الوصف |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | يعيد إشارة خلية غير صالحة. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | يحصل على إشارة خلية غير صالحة. |
 
 ### انظر أيضًا
 

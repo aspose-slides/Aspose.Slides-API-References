@@ -1,14 +1,14 @@
 ---
 title: TextVerticalOverflowType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho kiểu tràn dọc của văn bản.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu thị loại tràn dọc của văn bản.
 type: docs
 weight: 11020
 url: /vi/aspose.slides/textverticaloverflowtype/
 ---
 ## TextVerticalOverflowType liệt kê
 
-Đại diện cho kiểu tràn dọc của văn bản.
+Biểu thị loại tràn dọc của văn bản.
 
 ```csharp
 public enum TextVerticalOverflowType : sbyte

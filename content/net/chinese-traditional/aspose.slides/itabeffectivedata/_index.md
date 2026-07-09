@@ -1,14 +1,14 @@
 ---
 title: ITabEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 不可變的物件，包含有效文字的製表位屬性。
+description: 不可變的物件，包含有效文字的定位點屬性。
 type: docs
 weight: 7210
 url: /zh-hant/aspose.slides/itabeffectivedata/
 ---
 ## ITabEffectiveData 介面
 
-不可變物件，包含有效文字的製表位屬性。
+包含有效文字之定位點屬性的不可變物件。
 
 ```csharp
 public interface ITabEffectiveData : IComparable
@@ -18,15 +18,15 @@ public interface ITabEffectiveData : IComparable
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 傳回標籤的對齊樣式。唯讀 [`TabAlignment`](../tabalignment)。 |
+| [Alignment](../../aspose.slides/itabeffectivedata/alignment) { get; } | 傳回定位點的對齊樣式。唯讀 [`TabAlignment`](../tabalignment)。 |
 | [AsIComparable](../../aspose.slides/itabeffectivedata/asicomparable) { get; } | 傳回 IComparable 介面。唯讀 IComparable。 |
-| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 傳回標籤的位置。指派此屬性可能會變更集合中標籤的索引，且會使列舉器失效。唯讀 Double。 |
+| [Position](../../aspose.slides/itabeffectivedata/position) { get; } | 傳回定位點的位置。指派此屬性可能會變更集合中定位點的索引，且會使列舉器失效。唯讀 Double。 |
 
 ### 備註
 
-此介面用作 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 的一部分。
+此介面作為 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 的一部分使用。
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

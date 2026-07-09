@@ -1,14 +1,14 @@
 ---
 title: SlideThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot het overschreven slide thema.
+description: Biedt toegang tot een overschreven slide theme.
 type: docs
 weight: 11470
 url: /nl/aspose.slides.theme/slidethememanager/
 ---
 ## SlideThemeManager klasse
 
-Biedt toegang tot overschreven slide-thema.
+Biedt toegang tot overschreven slide theme.
 
 ```csharp
 public class SlideThemeManager : BaseOverrideThemeManager
@@ -19,14 +19,14 @@ public class SlideThemeManager : BaseOverrideThemeManager
 | Naam | Beschrijving |
 | --- | --- |
 | [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme voor overschrijven in te schakelen, gebruik OverrideTheme.Init*() methoden. Om OverrideTheme van overschrijven uit te schakelen, gebruik OverrideTheme.Clear() methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende themobject. Lezen/schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijvende thema-object. Lezen/Schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurenpalet toe op een dia. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het themobject. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past extra kleurenpalet toe op een dia. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het thema-object. |
 
 ### Zie ook
 

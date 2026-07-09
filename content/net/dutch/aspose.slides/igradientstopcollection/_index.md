@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling gradientstops voor.
+description: Stelt een verzameling van gradiëntstops voor.
 type: docs
 weight: 6030
 url: /nl/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection interface
 
-Stelt een verzameling gradientstops voor.
+Stelt een verzameling van gradiëntstops voor.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,20 +18,20 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Retourneert de gradientstop op basis van de index. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Retourneert de gradiëntstop op index. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Maakt een nieuwe gradientstop aan en voegt deze toe aan het einde van de collectie. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Maakt een nieuwe gradientstop aan en voegt deze toe aan het einde van de collectie. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Maakt een nieuwe gradientstop aan en voegt deze toe aan het einde van de collectie. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Verwijdert alle gradientstops uit een collectie. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Maakt een nieuwe gradientstop aan en voegt deze in op de opgegeven index in de collectie. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Maakt een nieuwe gradientstop aan en voegt deze in op de opgegeven index in de collectie. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Maakt een nieuwe gradientstop aan en voegt deze in op de opgegeven index in de collectie. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Verwijdert een gradientstop op de opgegeven index. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Maakt de nieuwe gradiëntstop en voegt deze toe aan het einde van de collectie. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Maakt de nieuwe gradiëntstop en voegt deze toe aan het einde van de collectie. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Maakt de nieuwe gradiëntstop en voegt deze toe aan het einde van de collectie. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Verwijdert alle gradiëntstops uit een collectie. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Maakt de nieuwe gradiëntstop en voegt deze in op de opgegeven index in de collectie. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Maakt de nieuwe gradiëntstop en voegt deze in op de opgegeven index in de collectie. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Maakt de nieuwe gradiëntstop en voegt deze in op de opgegeven index in de collectie. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Verwijdert een gradiëntstop op de opgegeven index. |
 
 ### Zie ook
 

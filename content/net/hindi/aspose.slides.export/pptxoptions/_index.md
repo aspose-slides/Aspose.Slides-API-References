@@ -1,7 +1,7 @@
 ---
 title: PptxOptions
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: OpenXml प्रस्तुतियों (PPTX, PPSX, POTX, PPTM, PPSM, POTM) को सहेजने के विकल्पों का प्रतिनिधित्व करता है।
+description: OpenXml प्रस्तुतियों PPTX PPSX POTX PPTM PPSM POTM को सहेजने के विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 4370
 url: /hi/aspose.slides.export/pptxoptions/
@@ -14,27 +14,27 @@ OpenXml प्रस्तुतियों (PPTX, PPSX, POTX, PPTM, PPSM, POTM
 public sealed class PptxOptions : SaveOptions, IPptxOptions
 ```
 
-## कंस्ट्रक्टर्स
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | PptxOptions का नया इंस्टेंस बनाता है |
+| [PptxOptions](pptxoptions)() | PptxOptions का नया उदाहरण बनाता है। |
 
 ## गुण
 
 | नाम | विवरण |
 | --- | --- |
-| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | प्रेजेंटेशन दस्तावेज़ को सहेजते समय उपयोग किए जाने वाले संपीड़न स्तर को निर्दिष्ट करता है। डिफ़ॉल्ट मान Level6 है। |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | प्रेजेंटेशन दस्तावेज़ के अनुरूप कन्फॉर्मेंस क्लास को निर्दिष्ट करता है। डिफ़ॉल्ट मान Ecma376_2006 है। |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | स्रोत फ़ॉन्ट नहीं मिलने पर उपयोग किया जाने वाला फ़ॉन्ट लौटाता है या सेट करता है। पढ़ें/लिखें String। |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट के दृश्य शैली को लौटाता है या सेट करता है। पढ़ें/लिखें [`GradientStyle`](../../aspose.slides/gradientstyle)। |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | सहेजने की प्रगति अपडेट को प्रतिशत में प्राप्त करने के लिए कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | निर्दिष्ट करता है कि प्रेजेंटेशन थंबनेल को रीफ़्रेश किया जाएगा या नहीं। पढ़ें/लिखें Boolean। डिफ़ॉल्ट मान **true** है। |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ने के बारे में निर्दिष्ट करता है। पढ़ें/लिखें Boolean। डिफ़ॉल्ट मान **false** है। |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | चेतावनियों को प्राप्त करने और यह तय करने के लिए एक ऑब्जेक्ट लौटाता या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या रद्द की जाएगी। पढ़ें/लिखें [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
-| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | प्रेजेंटेशन दस्तावेज़ के लिए ZIP64 फॉर्मेट उपयोग करने को निर्दिष्ट करता है। डिफ़ॉल्ट मान IfNecessary है। |
+| [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | प्रेजेंटेशन दस्तावेज़ को सहेजते समय उपयोग किया जाने वाला संपीड़न स्तर निर्दिष्ट करता है। डिफ़ॉल्ट मान Level6 है। |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | Presentation दस्तावेज़ जिस संगतता वर्ग का पालन करता है, उसे निर्दिष्ट करता है। डिफ़ॉल्ट मान Ecma376_2006 है। |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | स्रोत फ़ॉन्ट नहीं मिलने पर उपयोग किए जाने वाले फ़ॉन्ट को लौटाता है या सेट करता है। पढ़ने-लिखने योग्य String। |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | ग्रेडिएंट की दृश्य शैली को लौटाता है या सेट करता है। पढ़ने-लिखने योग्य [`GradientStyle`](../../aspose.slides/gradientstyle)। |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | प्रगति अपडेट को प्रतिशत में सहेजने के लिए एक कॉलबैक ऑब्जेक्ट का प्रतिनिधित्व करता है। देखें [`IProgressCallback`](../../aspose.slides/iprogresscallback)। |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | निर्दिष्ट करता है कि प्रस्तुति थंबनेल को रिफ़्रेश किया जाएगा या नहीं। पढ़ने-लिखने योग्य Boolean। डिफ़ॉल्ट मान **true** है। |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | प्रस्तुति को सहेजते समय JavaScript कॉल वाले हाइपरलिंक को छोड़ना चाहिए या नहीं, इसे निर्दिष्ट करता है। पढ़ने-लिखने योग्य Boolean। डिफ़ॉल्ट मान **false** है। |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | सूचनाएँ प्राप्त करने और यह निर्णय करने वाला वस्तु लौटाता या सेट करता है कि लोडिंग प्रक्रिया जारी रहेगी या समाप्त हो जाएगी। पढ़ने-लिखने योग्य [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)। |
+| [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | Presentation दस्तावेज़ के लिए ZIP64 स्वरूप का उपयोग किया गया है या नहीं, इसे निर्दिष्ट करता है। डिफ़ॉल्ट मान IfNecessary है। |
 
-### संबंधित
+### देखें
 
 * क्लास [SaveOptions](../saveoptions)
 * इंटरफ़ेस [IPptxOptions](../ipptxoptions)

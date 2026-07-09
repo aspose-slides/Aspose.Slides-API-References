@@ -1,14 +1,14 @@
 ---
 title: ISummaryZoomSection
-second_title: Aspose.Sildes pro .NET – referenční příručka API
+second_title: Aspose.Sildes pro .NET API referenci
 description: Reprezentuje objekt Summary Zoom Section v rámci Summary Zoom.
 type: docs
-weight: 7140
+weight: 7160
 url: /cs/aspose.slides/isummaryzoomsection/
 ---
-## ISummaryZoomSection rozhraní
+## Rozhraní ISummaryZoomSection
 
-Represents a Summary Zoom Section object in a Summary Zoom frame.
+Reprezentuje objekt Summary Zoom Section v rámku Summary Zoom.
 
 ```csharp
 public interface ISummaryZoomSection : ISectionZoomFrame
@@ -20,7 +20,7 @@ public interface ISummaryZoomSection : ISectionZoomFrame
 | --- | --- |
 | [AsISectionZoomFrame](../../aspose.slides/isummaryzoomsection/asisectionzoomframe) { get; } | Vrací rozhraní ISectionZoomFrame. |
 | [Description](../../aspose.slides/isummaryzoomsection/description) { get; set; } | Vrací textový popis objektu Summary Zoom Section. |
-| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Vrací textový nadpis objektu Summary Zoom Section. |
+| [Title](../../aspose.slides/isummaryzoomsection/title) { get; set; } | Vrací textový název objektu Summary Zoom Section. |
 
 ### Viz také
 

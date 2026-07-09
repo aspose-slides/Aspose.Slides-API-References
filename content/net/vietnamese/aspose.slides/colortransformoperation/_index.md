@@ -1,6 +1,6 @@
 ---
 title: ColorTransformOperation
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Xác định phép biến đổi màu.
 type: docs
 weight: 2570
@@ -18,38 +18,38 @@ public enum ColorTransformOperation
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Tint | `0` | Tô màu. Tham số nằm trong khoảng từ 0 (màu gốc) đến 1 (trắng). |
+| Tint | `0` | Tô màu sắc. Tham số nằm trong khoảng từ 0 (màu gốc) đến 1 (trắng). |
 | Shade | `1` | Làm tối màu. Tham số nằm trong khoảng từ 0 (màu gốc) đến 1 (đen). |
-| Complement | `2` | Đổi màu sang màu bù RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
-| Inverse | `3` | Đổi màu sang màu nghịch đảo. r = 1 - r; g = 1 - g; b = 1 - b; |
-| Grayscale | `4` | Đổi màu sang màu xám với độ sáng giống nhau. Tham số bị bỏ qua. |
-| SetAlpha | `5` | Xác định thành phần alpha của màu. Tham số nằm trong khoảng từ 0 (trong suốt) đến 1 (độ mờ). |
+| Complement | `2` | Thay đổi màu thành một màu bổ sung RGB. m = Max(r, g, b); r = m - r; g = m - g; b = m - b; |
+| Inverse | `3` | Thay đổi màu thành màu nghịch đảo. r = 1 - r; g = 1 - g; b = 1 - b; |
+| Grayscale | `4` | Thay đổi màu thành màu xám với độ sáng giống nhau. Tham số bị bỏ qua. |
+| SetAlpha | `5` | Xác định thành phần alpha của màu. Tham số nằm trong khoảng từ 0 (trong suốt) đến 1 (đông đặc). |
 | AddAlpha | `6` | Thêm giá trị của tham số vào thành phần alpha của màu. Tham số nằm trong khoảng từ -1 đến 1. |
 | MultiplyAlpha | `7` | Nhân thành phần alpha với giá trị của tham số. |
-| SetHue | `8` | Đặt thành phần hue của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 360. |
+| SetHue | `8` | Thay đổi thành phần hue của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 360. |
 | AddHue | `9` | Thêm giá trị của tham số vào thành phần hue của màu. Tham số nằm trong khoảng từ -360 đến 360. |
 | MultiplyHue | `10` | Nhân thành phần hue với giá trị của tham số. |
-| SetSaturation | `11` | Đặt thành phần saturation của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
-| AddSaturation | `12` | Thêm giá trị của tham số vào thành phần saturation của màu. Tham số nằm trong khoảng từ -1 đến 1. |
-| MultiplySaturation | `13` | Nhân thành phần saturation với giá trị của tham số. |
-| SetLuminance | `14` | Đặt thành phần luminance của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
-| AddLuminance | `15` | Thêm giá trị của tham số vào thành phần luminance của màu. Tham số nằm trong khoảng từ -1 đến 1. |
-| MultiplyLuminance | `16` | Nhân thành phần luminance với giá trị của tham số. |
-| SetRed | `17` | Đặt thành phần đỏ của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
-| AddRed | `18` | Thêm giá trị của tham số vào thành phần đỏ của màu. Tham số nằm trong khoảng từ -1 đến 1. |
-| MultiplyRed | `19` | Nhân thành phần đỏ với tham số. |
-| SetGreen | `20` | Đặt thành phần xanh lá của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
-| AddGreen | `21` | Thêm tham số vào thành phần xanh lá của màu. Tham số nằm trong khoảng từ -1 đến 1. |
-| MultiplyGreen | `22` | Nhân thành phần xanh lá với giá trị của tham số. |
-| SetBlue | `23` | Đặt thành phần xanh dương của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 360. |
-| AddBlue | `24` | Thêm giá trị của tham số vào thành phần xanh dương của màu. Tham số nằm trong khoảng từ -1 đến 1. |
-| MultiplyBlue | `25` | Nhân thành phần xanh dương với giá trị của tham số. |
+| SetSaturation | `11` | Thay đổi thành phần độ bão hòa của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
+| AddSaturation | `12` | Thêm giá trị của tham số vào thành phần độ bão hòa của màu. Tham số nằm trong khoảng từ -1 đến 1. |
+| MultiplySaturation | `13` | Nhân thành phần độ bão hòa với giá trị của tham số. |
+| SetLuminance | `14` | Thay đổi thành phần độ sáng của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
+| AddLuminance | `15` | Thêm giá trị của tham số vào thành phần độ sáng của màu. Tham số nằm trong khoảng từ -1 đến 1. |
+| MultiplyLuminance | `16` | Nhân thành phần độ sáng với giá trị của tham số. |
+| SetRed | `17` | Thay đổi thành phần màu đỏ của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
+| AddRed | `18` | Thêm giá trị của tham số vào thành phần màu đỏ của màu. Tham số nằm trong khoảng từ -1 đến 1. |
+| MultiplyRed | `19` | Nhân thành phần màu đỏ với một tham số. |
+| SetGreen | `20` | Thay đổi thành phần màu xanh của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 1. |
+| AddGreen | `21` | Thêm một tham số vào thành phần màu xanh của màu. Tham số nằm trong khoảng từ -1 đến 1. |
+| MultiplyGreen | `22` | Nhân thành phần màu xanh của màu với giá trị của tham số. |
+| SetBlue | `23` | Thay đổi thành phần màu xanh dương của màu thành giá trị của tham số. Tham số nằm trong khoảng từ 0 đến 360. |
+| AddBlue | `24` | Thêm giá trị của tham số vào thành phần màu xanh dương của màu. Tham số nằm trong khoảng từ -1 đến 1. |
+| MultiplyBlue | `25` | Nhân thành phần màu xanh dương của màu với giá trị của tham số. |
 | Gamma | `26` | Chỉnh sửa gamma. Tham số bị bỏ qua. |
 | InverseGamma | `27` | Chỉnh sửa gamma nghịch đảo. Tham số bị bỏ qua. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

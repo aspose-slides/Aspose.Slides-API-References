@@ -1,6 +1,6 @@
 ---
 title: ProtectionManager
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 簡報密碼保護管理。
 type: docs
 weight: 9680
@@ -18,10 +18,10 @@ public sealed class ProtectionManager : IProtectionManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 此屬性在簡報受到密碼保護時才有意義。若為 true，則文件屬性在簡報檔案中被加密。若為 false，則文件屬性為公開，而簡報則被加密。可讀寫 Boolean。 |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | 如果簡報受到密碼保護，此屬性才有意義。若為 true，則文件屬性在簡報檔案中被加密。若為 false，則文件屬性是公開的，同時簡報被加密。可讀寫 Boolean。 |
 | [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | 取得用於簡報加密的密碼。唯讀 String。 |
 | [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | 取得指示此實例是否已加密的值。唯讀 Boolean。 |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 此屬性在簡報檔案受到密碼保護且其文件屬性為公開時才有意義。true 表示僅從加密的簡報檔案中載入文件屬性而不使用密碼。false 表示使用正確的密碼載入整個加密的簡報，而不僅載入文件屬性。如果簡報未加密，則屬性值始終為 false。如果加密檔案的文件屬性不是公開的，則屬性值始終為 false。如果 Presentation.EncryptDocumentProperties 為 true，則 IsOnlyDocumentPropertiesLoaded 屬性值始終為 false。唯讀 Boolean。 |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | 如果簡報檔案受到密碼保護且此檔案的文件屬性是公開的，則此屬性才有意義。true 表示僅從加密的簡報檔案中載入文件屬性，且不使用密碼。false 表示使用正確的密碼載入整個加密的簡報，而不僅載入文件屬性。如果簡報未加密，則屬性值永遠為 false。如果加密檔案的文件屬性不是公開的，則屬性值永遠為 false。如果 Presentation.EncryptDocumentProperties 為 true，則 IsOnlyDocumentPropertiesLoaded 屬性值永遠為 false。唯讀 Boolean。 |
 | [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | 取得指示此簡報是否受到寫入保護的值。唯讀 Boolean。 |
 | [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | 取得或設定唯讀建議。可讀寫 Boolean。 |
 
@@ -29,7 +29,7 @@ public sealed class ProtectionManager : IProtectionManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | 判斷簡報是否受密碼保護以進行修改。 |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | 判斷簡報是否受到密碼保護以進行修改。 |
 | [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | 使用指定的密碼加密簡報。 |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | 移除加密。 |
 | [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | 移除此簡報的寫入保護。 |

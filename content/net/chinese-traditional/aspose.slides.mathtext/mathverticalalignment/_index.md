@@ -1,6 +1,6 @@
 ---
 title: MathVerticalAlignment
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 垂直對齊
 type: docs
 weight: 9050
@@ -18,10 +18,10 @@ public enum MathVerticalAlignment
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| NotDefined | `0` | 值未定義 |
-| Top | `1` | Top |
-| Center | `2` | Center |
-| Bottom | `3` | Bottom |
+| NotDefined | `0` | 未定義值 |
+| Top | `1` | 上 |
+| Center | `2` | 居中 |
+| Bottom | `3` | 底部 |
 
 ### 另見
 

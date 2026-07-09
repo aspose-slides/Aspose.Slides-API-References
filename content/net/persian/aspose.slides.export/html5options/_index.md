@@ -1,41 +1,41 @@
 ---
 title: Html5Options
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر گزینه‌های صادرات HTML5 است.
+description: نمایانگر گزینه‌های صادراتی HTML5 است.
 type: docs
 weight: 3860
 url: /fa/aspose.slides.export/html5options/
 ---
 ## Html5Options کلاس
 
-نمایانگر گزینه‌های صادرات HTML5 است.
+نمایانگر گزینه‌های صادراتی HTML5 است.
 
 ```csharp
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## سازنده‌ها
+## سازندگان
 
 | نام | توضیح |
 | --- | --- |
-| [Html5Options](html5options)() | سازنده پیش‌فرض. |
+| [Html5Options](html5options)() | سازندۀ پیش‌فرض. |
 
 ## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن اشکال. قابل‌خواندن/قابل‌نوشتن Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن انتقالات. قابل‌خواندن/قابل‌نوشتن Boolean. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | مقدار یا تنظیم قلم استفاده‌شده در صورتی که قلم منبع پیدا نشود. قابل‌خواندن/قابل‌نوشتن String. |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | مقدار یا تنظیم‌کننده‌ای که نشان می‌دهد آیا متن بدون استفاده از لیگچرها رندر شود. وقتی به مقدار `true` تنظیم شود، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
-| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | مقدار یا تنظیم گزینهٔ جاسازی تصاویر. قابل‌خواندن/قابل‌نوشتن Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | مقدار یا تنظیم سبک بصری گرادیان. قابل‌خواندن/قابل‌نوشتن [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | مشخص می‌کند که منابع خارجی کجا ذخیره شوند. قابل‌خواندن/قابل‌نوشتن String. |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | شیء بازگردانی برای دریافت به‌روزرسانی‌های پیشرفت ذخیره‌سازی به درصد. ببینید [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره ارائه، پیوندهای ابرمتنی با فراخوانی‌های JavaScript نادیده گرفته شوند یا نه. قابل‌خواندن/قابل‌نوشتن Boolean. مقدار پیش‌فرض **false** است. |
-| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | مقدار یا تنظیم حالت قرارگیری اسلایدها بر روی صفحه هنگام استخراج یک ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | مقدار یا تنظیم شیء‌ای که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود. قابل‌خواندن/قابل‌نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن اشکال. خواندنی/نوشتنی Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | مقدار یا تنظیم گزینهٔ انیمیشن انتقال‌ها. خواندنی/نوشتنی Boolean. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | مقدار یا تنظیم قلم استفاده‌شده در صورتی که قلم منبع یافت نشود. خواندنی/نوشتنی String. |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | مقدار یا تنظیم نشانه‌ای که نشان می‌دهد متن بدون استفاده از لیگیری‌ها رندر می‌شود. وقتی به `true` تنظیم شود، لیگیری‌ها در خروجی رندردهی غیرفعال می‌شوند. به طور پیش‌فرض، این ویژگی روی `false` تنظیم شده است. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | مقدار یا تنظیم گزینهٔ جاسازی تصاویر. خواندنی/نوشتنی Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | مقدار یا تنظیم سبک بصری گرادیان. خواندنی/نوشتنی [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | تعیین می‌کند که منابع خارجی در کجا ذخیره شوند. خواندنی/نوشتنی String. |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | نمایانگر سطح فشرده‌سازی تصاویر |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | نمایانگر یک شیء فراخوانی برای بروزرسانی پیشرفت ذخیره‌سازی به درصد. نگاه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره‌سازی ارائه، پیوندهای فراخوانی جاوااسکریپت رد شوند یا نه. خواندنی/نوشتنی Boolean. مقدار پیش‌فرض **false** است. |
+| [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | مقدار یا تنظیم حالت قرارگیری اسلایدها بر صفحه هنگام صادرات ارائه [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | مقدار یا تنظیم شیئی که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرایند بارگذاری ادامه یابد یا متوقف شود. خواندنی/نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### مثال‌ها
 
@@ -58,6 +58,6 @@ using (Presentation pres = new Presentation("demo.pptx"))
 * کلاس [SaveOptions](../saveoptions)
 * رابط [IHtml5Options](../ihtml5options)
 * فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
-* اسمبل [Aspose.Slides](../../)
+* اسمبلی [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

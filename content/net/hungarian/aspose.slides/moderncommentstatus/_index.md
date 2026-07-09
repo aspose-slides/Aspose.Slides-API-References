@@ -1,14 +1,14 @@
 ---
 title: ModernCommentStatus
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A modern megjegyzés állapotát ábrázolja.
+second_title: Aspose.Sildes .NET API referencia
+description: A modern megjegyzés állapotát reprezentálja.
 type: docs
-weight: 9080
+weight: 9100
 url: /hu/aspose.slides/moderncommentstatus/
 ---
 ## ModernCommentStatus enumeráció
 
-A modern megjegyzés állapotát képviseli.
+A modern megjegyzés állapotát reprezentálja.
 
 ```csharp
 public enum ModernCommentStatus : sbyte

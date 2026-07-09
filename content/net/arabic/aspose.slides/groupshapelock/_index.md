@@ -1,14 +1,14 @@
 ---
 title: GroupShapeLock
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يحدد أي العمليات تم تعطيلها على GroupShape الأصل.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد العمليات التي تم تعطيلها على الـ GroupShape الأصلي.
 type: docs
 weight: 5100
 url: /ar/aspose.slides/groupshapelock/
 ---
-## فئة GroupShapeLock
+## GroupShapeLock فئة
 
-يحدد أي العمليات معطلة على GroupShape الأصل.
+يحدد العمليات التي تم تعطيلها على الـ GroupShape الأصلي.
 
 ```csharp
 public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | الاسم | الوصف |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب الحفاظ على نسبة الأبعاد عند تغيير حجم الشكل. قابل للقراءة والكتابة Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورة. قابل للقراءة والكتابة Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | إرجاع true إذا كانت جميع أعلام القفل معطلة. قراءة فقط Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | يحدد ما إذا كان نقل هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | يحدد ما إذا كان تغيير زاوية دوران هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | يحدد ما إذا كان تحديد هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل محظورًا. قابل للقراءة والكتابة Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | يحدد ما إذا كان تقسيم مجموعة الأشكال هذه محظورًا. قابل للقراءة والكتابة Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة العرض إلى الارتفاع عند تغيير الحجم. قراءة/كتابة Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورًا. قراءة/كتابة Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | إرجاع true إذا تم تعطيل جميع علامات القفل. قراءة فقط Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | يحدد ما إذا كان نقل هذا الشكل محظورًا. قراءة/كتابة Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | يحدد ما إذا كان تغيير زاوية الدوران لهذا الشكل محظورًا. قراءة/كتابة Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | يحدد ما إذا كان تحديد هذا الشكل محظورًا. قراءة/كتابة Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل محظورًا. قراءة/كتابة Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | يحدد ما إذا كان تقسيم هذا groupshape محظورًا. قراءة/كتابة Boolean. |
 
 ### انظر أيضًا
 

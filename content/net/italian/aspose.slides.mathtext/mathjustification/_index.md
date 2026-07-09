@@ -1,14 +1,14 @@
 ---
 title: MathJustification
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Specifica l’allineamento del paragrafo matematico, una serie di istanze adiacenti di testo matematico all’interno dello stesso paragrafo
+description: Specifica la giustificazione del paragrafo matematico, una serie di istanze adiacenti di testo matematico all'interno dello stesso paragrafo
 type: docs
-weight: 8780
+weight: 8800
 url: /it/aspose.slides.mathtext/mathjustification/
 ---
 ## enumerazione MathJustification
 
-Specifica l’allineamento del paragrafo matematico (una serie di istanze adiacenti di testo matematico all’interno dello stesso paragrafo)
+Specifica la giustificazione del paragrafo matematico (una serie di istanze adiacenti di testo matematico all'interno dello stesso paragrafo)
 
 ```csharp
 public enum MathJustification
@@ -21,7 +21,7 @@ public enum MathJustification
 | LeftJustified | `1` | Allinea il testo matematico a sinistra |
 | RightJustified | `2` | Allinea il testo matematico a destra |
 | Centered | `3` | Allinea il testo matematico al centro |
-| CenteredAsGroup | `4` | Centra sulla pagina l’intero gruppo di blocchi matematici come un’unica unità. Ciò significa che le istanze di testo matematico possono essere allineate tra loro, ma l’intero gruppo di testo matematico è centrato nel suo complesso. |
+| CenteredAsGroup | `4` | Centra sulla pagina l'intero gruppo di blocchi matematici come unità singola. Ciò significa che le istanze di testo matematico possono essere allineate tra loro, ma l'intero gruppo di testo matematico è centrato nel suo complesso. |
 
 ### Vedi anche
 

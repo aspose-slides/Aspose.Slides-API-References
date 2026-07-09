@@ -3,12 +3,12 @@ title: CellCollection
 second_title: Aspose.Sildes の .NET API リファレンス
 description: セルのコレクションを表します。
 type: docs
-weight: 1120
+weight: 1140
 url: /ja/aspose.slides/cellcollection/
 ---
 ## CellCollection クラス
 
-コレクション内のセルを表します。
+セルのコレクションを表します。
 
 ```csharp
 public abstract class CellCollection : ICellCollection
@@ -16,10 +16,10 @@ public abstract class CellCollection : ICellCollection
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | コレクション内のセルの数を返します。読み取り専用 Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期 (スレッドセーフ) されているかどうかを示す値を返します。読み取り専用 Boolean. |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | コレクション内のセル数を返します。読み取り専用 Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか (スレッド安全) を示す値を返します。読み取り専用 Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | 位置でセルを返します。読み取り専用 [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection の親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection の親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide). |
@@ -27,9 +27,9 @@ public abstract class CellCollection : ICellCollection
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
 ### 参照

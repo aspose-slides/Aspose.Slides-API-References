@@ -1,12 +1,12 @@
 ---
 title: IFontSubstRuleCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi substitusi font.
 type: docs
-weight: 5870
+weight: 5890
 url: /id/aspose.slides/ifontsubstrulecollection/
 ---
-## IFontSubstRuleCollection interface
+## IFontSubstRuleCollection antarmuka
 
 Mewakili koleksi substitusi font.
 
@@ -25,7 +25,7 @@ public interface IFontSubstRuleCollection : IGenericCollection<IFontSubstRule>
 | Nama | Deskripsi |
 | --- | --- |
 | [Add](../../aspose.slides/ifontsubstrulecollection/add)(IFontSubstRule) | Menambahkan aturan substitusi font baru ke koleksi |
-| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Menghapus kemunculan pertama objek tertentu dari koleksi. |
+| [Remove](../../aspose.slides/ifontsubstrulecollection/remove)(IFontSubstRule) | Menghapus kemunculan pertama dari objek tertentu dari koleksi. |
 
 ### Lihat Juga
 

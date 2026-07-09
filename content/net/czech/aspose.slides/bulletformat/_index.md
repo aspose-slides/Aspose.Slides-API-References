@@ -1,14 +1,14 @@
 ---
 title: BulletFormat
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Reprezentuje vlastnosti formátování bulletu odstavce.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje vlastnosti formátování odrážek odstavce.
 type: docs
-weight: 1050
+weight: 1070
 url: /cs/aspose.slides/bulletformat/
 ---
 ## BulletFormat třída
 
-Reprezentuje vlastnosti formátování bulletu odstavce.
+Represents paragraph bullet formatting properties.
 
 ```csharp
 public sealed class BulletFormat : PVIObject, IBulletFormat
@@ -18,25 +18,25 @@ public sealed class BulletFormat : PVIObject, IBulletFormat
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Vrací nebo nastavuje znak bulletu odstavce bez dědičnosti. Čtení/Zápis Char. |
-| [Color](../../aspose.slides/bulletformat/color) { get; } | Vrací formát barvy bulletu odstavce bez dědičnosti. Pouze pro čtení [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Vrací nebo nastavuje písmo bulletu odstavce bez dědičnosti. Čtení/Zápis [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Vrací nebo nastavuje výšku bulletu odstavce bez dědičnosti. Hodnota float.NaN určuje, že bullet dědí výšku z první části odstavce. Čtení/Zápis Single. |
-| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Určuje, zda bullet má vlastní barvu nebo ji dědí z první části odstavce. **NullableBool.True** pokud bullet má vlastní barvu a **NullableBool.False** pokud bullet dědí barvu z první části odstavce. Čtení/Zápis [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Určuje, zda bullet má vlastní písmo nebo jej dědí z první části odstavce. **NullableBool.True** pokud bullet má vlastní písmo a **NullableBool.False** pokud bullet dědí písmo z první části odstavce. Čtení/Zápis [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Vrací nebo nastavuje první číslo, které se používá pro skupinu číslovaných bulletů bez dědičnosti. Čtení/Zápis Int16. |
-| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Vrací nebo nastavuje styl číslovaného bulletu bez dědičnosti. Čtení/Zápis [`NumberedBulletStyle`](../numberedbulletstyle). |
-| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Vrací obrázek použitý jako bullet v odstavci bez dědičnosti. Pouze pro čtení [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Vrací nebo nastavuje typ bulletu odstavce bez dědičnosti. Čtení/Zápis [`BulletType`](../bullettype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
+| [Char](../../aspose.slides/bulletformat/char) { get; set; } | Returns or sets the bullet char of a paragraph with no inheritance. Čtení a zápis Char. |
+| [Color](../../aspose.slides/bulletformat/color) { get; } | Returns the color format of a bullet of a paragraph with no inheritance. Pouze pro čtení [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/bulletformat/font) { get; set; } | Returns or sets the bullet font of a paragraph with no inheritance. Čtení a zápis [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/bulletformat/height) { get; set; } | Returns or sets the bullet height of a paragraph with no inheritance. Hodnota float.NaN determines that bullet inherits height from the first portion in the paragraph. Čtení a zápis Single. |
+| [IsBulletHardColor](../../aspose.slides/bulletformat/isbullethardcolor) { get; set; } | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own color and **NullableBool.False** if bullet inherits color from the first portion in the paragraph. Čtení a zápis [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/bulletformat/isbullethardfont) { get; set; } | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. **NullableBool.True** if bullet has own font and **NullableBool.False** if bullet inherits font from the first portion in the paragraph. Čtení a zápis [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/bulletformat/numberedbulletstartwith) { get; set; } | Returns or sets the first number which is used for group of numbered bullets with no inheritance. Čtení a zápis Int16. |
+| [NumberedBulletStyle](../../aspose.slides/bulletformat/numberedbulletstyle) { get; set; } | Returns or sets the style of a numbered bullet with no inheritance. Čtení a zápis [`NumberedBulletStyle`](../numberedbulletstyle). |
+| [Picture](../../aspose.slides/bulletformat/picture) { get; } | Returns the picture used as a bullet in a paragraph with no inheritance. Pouze pro čtení [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/bulletformat/type) { get; set; } | Returns or sets the bullet type of a paragraph with no inheritance. Čtení a zápis [`BulletType`](../bullettype). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Nastaví výchozí nenulové posuny pro efektivní odsazení odstavce (Indent) a levý okraj (MarginLeft), když jsou bullety povoleny (jako PowerPoint při povolení odstavcových bulletů/číslování). Pokud jsou bullety zakázány, pouze resetuje Indent a MarginLeft odstavce (jako PowerPoint při zakázání odstavcových bulletů/číslování). Posuny odsazení jsou aplikovány vzhledem k aktuálnímu kontextu bulletu – IBulletFormat.Type, .NumberedBulletStyle a FontHeight první části. Nenulové posuny odsazení jsou aplikovány na efektivní Indent a MarginLeft aktuálního odstavce (aby výsledné hodnoty byly lokální). |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/bulletformat/applydefaultparagraphindentsshifts)() | Sets default non-zero shifts for effective paragraph Indent and MarginLeft when bullets is enabled (like PowerPoint do if enable paragraph bullets/numbering in it). If bullets is disabled then just reset paragraph Indent and MarginLeft (like PowerPoint do if disable paragraph bullets/numbering in it). Indents shifts are applied in regard to current bullet context - IBulletFormat.Type, .NumberedBulletStyle and FontHeight of first portion. Non-zero indents shifts are applied to effective Indent and MarginLeft of current paragraph (make result values to be local values). |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovnává s určeným objektem. |
-| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Získá efektivní data formátování bulletu s aplikovanou dědičností. |
+| [GetEffective](../../aspose.slides/bulletformat/geteffective)() | Gets effective bullet formatting data with the inheritance applied. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

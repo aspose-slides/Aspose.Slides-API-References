@@ -1,14 +1,14 @@
 ---
 title: ISlideText
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示從投影片中擷取的文字
+second_title: Aspose.Sildes 適用於 .NET 的 API 參考
+description: 表示從投影片中提取的文字
 type: docs
 weight: 7100
 url: /zh-hant/aspose.slides/islidetext/
 ---
 ## ISlideText 介面
 
-表示從投影片中擷取的文字
+表示從投影片中提取的文字
 
 ```csharp
 public interface ISlideText
@@ -19,9 +19,9 @@ public interface ISlideText
 | 名稱 | 說明 |
 | --- | --- |
 | [CommentsText](../../aspose.slides/islidetext/commentstext) { get; } | 投影片註解的文字 |
-| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此投影片布局頁面形狀上的文字 |
-| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此投影片母版頁面形狀上的文字 |
-| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 此投影片備註頁面形狀上的文字 |
+| [LayoutText](../../aspose.slides/islidetext/layouttext) { get; } | 此投影片的版面配置頁形狀上的文字 |
+| [MasterText](../../aspose.slides/islidetext/mastertext) { get; } | 此投影片的母版頁形狀上的文字 |
+| [NotesText](../../aspose.slides/islidetext/notestext) { get; } | 此投影片的備註頁形狀上的文字 |
 | [Text](../../aspose.slides/islidetext/text) { get; } | 投影片形狀上的文字 |
 
 ### 另請參閱

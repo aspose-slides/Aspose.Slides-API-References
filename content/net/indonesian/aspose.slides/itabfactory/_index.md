@@ -1,14 +1,14 @@
 ---
 title: ITabFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengizinkan pembuatan instance ITab
+description: Mengizinkan membuat instance ITab
 type: docs
-weight: 7200
+weight: 7220
 url: /id/aspose.slides/itabfactory/
 ---
 ## ITabFactory antarmuka
 
-Mengizinkan pembuatan instance ITab
+Izinkan membuat instance ITab
 
 ```csharp
 public interface ITabFactory
@@ -18,7 +18,7 @@ public interface ITabFactory
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Membuat instance ITab baru. |
+| [CreateTab](../../aspose.slides/itabfactory/createtab)(double, TabAlignment) | Membuat sebuah instance ITab baru. |
 
 ### Catatan
 

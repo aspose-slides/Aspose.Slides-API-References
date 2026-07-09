@@ -1,14 +1,14 @@
 ---
 title: Legend
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta le proprietà della legenda dei grafici.
+description: Rappresenta le proprietà della leggenda dei grafici.
 type: docs
-weight: 2260
+weight: 2280
 url: /it/aspose.slides.charts/legend/
 ---
 ## Legend classe
 
-Rappresenta le proprietà della legenda del grafico.
+Rappresenta le proprietà della leggenda del grafico.
 
 ```csharp
 public class Legend : DomObject<Chart>, ILegend
@@ -16,13 +16,13 @@ public class Legend : DomObject<Chart>, ILegend
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Specifica l'altezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Specifica la larghezza effettiva dell'elemento del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Specifica la posizione x reale (sinistra) dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Specifica la parte superiore reale dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiamare il metodo IChart.ValidateChartLayout() prima per ottenere i valori effettivi. Solo lettura Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Base. Solo lettura Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | Specifica l'altezza effettiva dell'elemento del grafico. Chiama il metodo IChart.ValidateChartLayout() prima di ottenere i valori effettivi. Solo lettura Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | Specifica la larghezza effettiva dell'elemento del grafico. Chiama il metodo IChart.ValidateChartLayout() prima di ottenere i valori effettivi. Solo lettura Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | Specifica la posizione x effettiva (sinistra) dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiama il metodo IChart.ValidateChartLayout() prima di ottenere i valori effettivi. Solo lettura Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | Specifica la parte superiore effettiva dell'elemento del grafico rispetto all'angolo superiore sinistro del grafico. Chiama il metodo IChart.ValidateChartLayout() prima di ottenere i valori effettivi. Solo lettura Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | Inferiore. Solo lettura Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | Restituisce il grafico. Solo lettura [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | Ottiene le voci della legenda. Solo lettura [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | Restituisce il formato di una legenda. Solo lettura [`IFormat`](../iformat). |

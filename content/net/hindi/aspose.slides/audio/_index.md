@@ -1,14 +1,14 @@
 ---
 title: Audio
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक एम्बेडेड ऑडियो फ़ाइल को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक एम्बेडेड ऑडियो फ़ाइल का प्रतिनिधित्व करता है।
 type: docs
 weight: 850
 url: /hi/aspose.slides/audio/
 ---
-## Audio वर्ग
+## Audio क्लास
 
-एक एम्बेडेड ऑडियो फ़ाइल को दर्शाता है।
+एक एम्बेडेड ऑडियो फ़ाइल का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Audio : DomObject<AudioCollection>, IAudio
@@ -18,19 +18,19 @@ public class Audio : DomObject<AudioCollection>, IAudio
 
 | नाम | विवरण |
 | --- | --- |
-| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | ऑडियो डेटा की एक प्रतिलिपि लौटाता है। बड़ी मात्रा में डेटा के मामले में [`GetStream`](./getstream) मेथड का उपयोग करने पर विचार करें ताकि ऑडियो डेटा को मेमोरी में अनावश्यक रूप से लोड करने या यहाँ तक कि OutOfMemoryException से बचा जा सके। केवल-पढ़ने योग्य Byte[]। |
-| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | ऑडियो का MIME प्रकार लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोडेड है। केवल-पढ़ने योग्य String। |
+| [BinaryData](../../aspose.slides/audio/binarydata) { get; } | ऑडियो डेटा की प्रति वापस करता है। बड़े डेटा की मात्रा के मामले में [`GetStream`](./getstream) मेथड का उपयोग करने पर विचार करें ताकि ऑडियो डेटा को मेमोरी में अनावश्यक रूप से लोड होने या यहाँ तक कि OutOfMemoryException से बचा जा सके। केवल पढ़ने के लिए Byte[]. |
+| [ContentType](../../aspose.slides/audio/contenttype) { get; set; } | ऑडियो का MIME प्रकार लौटाता है, जो [`BinaryData`](./binarydata) में एन्कोड किया गया है। केवल पढ़ने के लिए String. |
 
-## विधियां
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetStream](../../aspose.slides/audio/getstream)() | पढ़ने के लिए Stream स्ट्रीम लौटाता है। 'using' का उपयोग करें या उपयोग के बाद स्ट्रीम को बंद करें। |
+| [GetStream](../../aspose.slides/audio/getstream)() | पढ़ने के लिए Stream स्ट्रीम लौटाता है। 'using' का उपयोग करें या उपयोग के बाद स्ट्रीम बंद करें। |
 
-### देखें
+### संबंधित देखें
 
-* वर्ग [DomObject&lt;TParent&gt;](../domobject-1)
-* वर्ग [AudioCollection](../audiocollection)
+* क्लास [DomObject&lt;TParent&gt;](../domobject-1)
+* क्लास [AudioCollection](../audiocollection)
 * इंटरफ़ेस [IAudio](../iaudio)
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

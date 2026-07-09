@@ -1,7 +1,7 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes for .NET API 참조
-description: 테이블의 열을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 테이블에서 열을 나타냅니다.
 type: docs
 weight: 5520
 url: /ko/aspose.slides/icolumn/
@@ -18,12 +18,12 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | IBulkTextFormattable 인터페이스의 기본을 가져올 수 있습니다. 읽기 전용 [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | ICellCollection 인터페이스의 기본을 가져올 수 있습니다. 읽기 전용 [`ICellCollection`](../icellcollection). |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | 기본 IBulkTextFormattable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | 기본 ICellCollection 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ICellCollection`](../icellcollection). |
 | [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | 이 열에 대한 서식 속성을 포함하는 ColumnFormat 개체를 반환합니다. 읽기 전용 [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | 열의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBulkTextFormattable](../ibulktextformattable)
 * 인터페이스 [ICellCollection](../icellcollection)

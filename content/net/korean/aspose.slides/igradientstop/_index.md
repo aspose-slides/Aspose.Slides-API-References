@@ -18,10 +18,10 @@ public interface IGradientStop
 
 | 이름 | 설명 |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | 그라디언트 스톱의 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 그라디언트 스톱의 위치(0..1)를 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | 그라디언트 중지점의 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | 그라디언트 중지점의 위치(0..1)를 반환하거나 설정합니다. 읽기/쓰기 Single. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

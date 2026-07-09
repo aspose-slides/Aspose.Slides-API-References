@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: अपरिवर्तनीय वस्तु जो Preset Shadow प्रभाव का प्रतिनिधित्व करती है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Preset Shadow प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 3490
 url: /hi/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो Preset Shadow प्रभाव का प्रतिनिधित्व करती है।
+Immutable object which represents a Preset Shadow effect.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | आधार IEffectEffectiveData इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | छाया की दिशा। केवल-पढ़ने-योग्य Single। |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | छाया की दूरी। केवल-पढ़ने-योग्य Double। |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | प्रिसेट। केवल-पढ़ने-योग्य [`PresetShadowType`](../../aspose.slides/presetshadowtype)। |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ने-योग्य Color। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | छाया की दिशा। केवल-पढ़ने योग्य Single। |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | छाया की दूरी। केवल-पढ़ने योग्य Double। |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | प्रीसेट। केवल-पढ़ने योग्य [`PresetShadowType`](../../aspose.slides/presetshadowtype)। |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | छाया का रंग। केवल-पढ़ने योग्य Color। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

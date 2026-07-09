@@ -1,14 +1,14 @@
 ---
 title: IFilterEffect
-second_title: Aspose.Sildes for .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของเอฟเฟ็กต์ฟิลเตอร์ของพฤติกรรม.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงเอฟเฟกต์ตัวกรองของพฤติกรรม.
 type: docs
 weight: 500
 url: /th/aspose.slides.animation/ifiltereffect/
 ---
 ## IFilterEffect อินเทอร์เฟซ
 
-เป็นตัวแทนของเอฟเฟ็กต์ฟิลเตอร์ของพฤติกรรม.
+แสดงเอฟเฟกต์ตัวกรองของพฤติกรรม.
 
 ```csharp
 public interface IFilterEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IFilterEffect : IBehavior
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior พื้นฐานได้. อ่านเท่านั้น [`IBehavior`](../ibehavior). |
+| [AsIBehavior](../../aspose.slides.animation/ifiltereffect/asibehavior) { get; } | อนุญาตให้รับ IBehavior interface พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
 | [Reveal](../../aspose.slides.animation/ifiltereffect/reveal) { get; set; } | แสดงว่าผลกระทบกับพฤติกรรมต้องเปิดเผย (in/out) อ่าน/เขียน [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | แทนประเภทย่อยของเอฟเฟ็กต์ฟิลเตอร์. อ่าน/เขียน [`FilterEffectSubtype`](../filtereffectsubtype). |
-| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | แทนประเภทของเอฟเฟ็กต์ฟิลเตอร์. อ่าน/เขียน [`FilterEffectType`](../filtereffecttype). |
+| [Subtype](../../aspose.slides.animation/ifiltereffect/subtype) { get; set; } | แสดงชนิดย่อยของ filter effect. อ่าน/เขียน [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Type](../../aspose.slides.animation/ifiltereffect/type) { get; set; } | แสดงประเภทของ filter effect. อ่าน/เขียน [`FilterEffectType`](../filtereffecttype). |
 
 ### ดูเพิ่มเติม
 

@@ -1,6 +1,6 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: XAML 문서가 저장되는 방식을 제어하는 옵션입니다.
 type: docs
 weight: 4700
@@ -32,7 +32,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 또 보기
+### 참조
 
 * 인터페이스 [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * 네임스페이스 [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)

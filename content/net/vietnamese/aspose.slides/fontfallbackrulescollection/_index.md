@@ -1,6 +1,6 @@
 ---
 title: FontFallBackRulesCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Biểu diễn một tập hợp các quy tắc FontFallBack được người dùng định nghĩa
 type: docs
 weight: 4850
@@ -14,27 +14,27 @@ Biểu diễn một tập hợp các quy tắc FontFallBack, được người d
 public class FontFallBackRulesCollection : IFontFallBackRulesCollection
 ```
 
-## Constructors
+## Hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [FontFallBackRulesCollection](fontfallbackrulescollection)() | Hàm khởi tạo mặc định. |
 
-## Properties
+## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Lấy số lượng quy tắc thực sự chứa trong tập hợp. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
-| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Lấy quy tắc tại chỉ mục đã chỉ định. Chỉ đọc [`IFontFallBackRule`](../ifontfallbackrule). |
-| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Trả về gốc đồng bộ hoá. Chỉ đọc Object. |
+| [Count](../../aspose.slides/fontfallbackrulescollection/count) { get; } | Lấy số lượng quy tắc thực tế có trong tập hợp. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/fontfallbackrulescollection/issynchronized) { get; } | Trả về giá trị cho biết việc truy cập vào tập hợp có được đồng bộ (an toàn luồng) hay không. Chỉ đọc Boolean. |
+| [Item](../../aspose.slides/fontfallbackrulescollection/item) { get; } | Lấy quy tắc tại chỉ mục được chỉ định. Chỉ đọc [`IFontFallBackRule`](../ifontfallbackrule). |
+| [SyncRoot](../../aspose.slides/fontfallbackrulescollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
-## Methods
+## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Thêm một quy tắc FallBack chỉ định vào cuối tập hợp. |
-| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Sao chép mọi phần tử từ tập hợp vào mảng đã chỉ định. |
+| [Add](../../aspose.slides/fontfallbackrulescollection/add)(IFontFallBackRule) | Thêm một quy tắc FallBack được chỉ định vào cuối tập hợp. |
+| [CopyTo](../../aspose.slides/fontfallbackrulescollection/copyto)(Array, int) | Sao chép mọi phần tử từ tập hợp vào mảng được chỉ định. |
 | [GetEnumerator](../../aspose.slides/fontfallbackrulescollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
 | [Remove](../../aspose.slides/fontfallbackrulescollection/remove)(IFontFallBackRule) | Xóa lần xuất hiện đầu tiên của một quy tắc FallBack cụ thể khỏi tập hợp. |
 

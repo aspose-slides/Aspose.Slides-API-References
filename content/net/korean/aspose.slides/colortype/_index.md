@@ -1,6 +1,6 @@
 ---
 title: ColorType
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 다양한 색상 모드를 나타냅니다.
 type: docs
 weight: 2580
@@ -26,7 +26,7 @@ public enum ColorType
 | System | `4` | 시스템 색상. |
 | Preset | `5` | 프리셋 색상. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

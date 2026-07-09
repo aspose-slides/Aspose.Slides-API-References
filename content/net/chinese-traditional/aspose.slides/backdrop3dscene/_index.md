@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 定義一個平面，於此平面上會根據所套用的形狀套用發光與陰影等效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 定義一個平面，在此平面上會相對於套用效果的形狀套用發光與陰影等效果。
 type: docs
 weight: 920
 url: /zh-hant/aspose.slides/backdrop3dscene/
 ---
 ## Backdrop3DScene 類別
 
-定義一個平面，於此平面上會根據所套用的形狀套用發光與陰影等效果。
+定義一個平面，在此平面上會相對於應用效果的形狀套用發光與陰影等效果。
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -18,10 +18,10 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 取得或設定 3D 空間中的點。此點是錨定背景平面的空間點。3D 點以包含 X、Y、Z 座標的 3 個浮點值陣列表示。可讀寫 Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 取得或設定法向量。更精確地說，此屬性定義一個垂直於背景平面面的向量。向量以包含 X、Y、Z 座標的 3 個浮點值陣列表示。可讀寫 Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 取得或設定表示向上的向量。更精確地說，此屬性定義相對於背景平面面的向上向量。向量以包含 X、Y、Z 座標的 3 個浮點值陣列表示。可讀寫 Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 取得或設定 3D 空間中的點。此點是錨定背景平面的空間點。3D 點以包含 X、Y、Z 座標的 3 個 float 值的陣列表示。可讀寫 Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../ipresentationcomponent). |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 取得或設定法向量。更精確地說，此屬性定義與背景平面面向垂直的向量。向量以包含 X、Y、Z 座標的 3 個 float 值的陣列表示。可讀寫 Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 取得或設定向上向量。更精確地說，此屬性定義相對於背景平面面的向上向量。向量以包含 X、Y、Z 座標的 3 個 float 值的陣列表示。可讀寫 Single[]. |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
 
-### 另見
+### 參見
 
 * 類別 [PVIObject](../pviobject)
 * 介面 [IBackdrop3DScene](../ibackdrop3dscene)

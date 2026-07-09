@@ -1,12 +1,12 @@
 ---
 title: IVideoFrame
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta una clip video su una diapositiva.
 type: docs
-weight: 7360
+weight: 7380
 url: /it/aspose.slides/ivideoframe/
 ---
-## Interfaccia IVideoFrame
+## IVideoFrame interfaccia
 
 Rappresenta una clip video su una diapositiva.
 
@@ -16,19 +16,19 @@ public interface IVideoFrame : IPictureFrame
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Consente di ottenere l'interfaccia base IPictureFrame. Solo lettura [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ottiene la collezione di didascalie chiuse associate al fotogramma audio. Questa proprietà è solo lettura e restituisce un [`ICaptionsCollection`](../icaptionscollection) contenente tutte le tracce di didascalia. |
+| [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Consente di ottenere l'interfaccia di base IPictureFrame. Solo lettura [`IPictureFrame`](../ipictureframe). |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Ottiene la raccolta di sottotitoli chiusi associati al frame audio. Questa proprietà è solo lettura e restituisce un [`ICaptionsCollection`](../icaptionscollection) contenente tutte le tracce di sottotitoli. |
 | [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Restituisce o imposta l'oggetto video incorporato. Lettura/scrittura [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se il video è visualizzato in modalità a schermo intero. Lettura/scrittura Booleano. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina se un VideoFrame è nascosto. Lettura/scrittura Booleano. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Restituisce o imposta il nome di un file video collegato a un VideoFrame. Lettura/scrittura Stringa. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina se il video è ripetuto in loop. Lettura/scrittura Booleano. |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se un video è mostrato a schermo intero. Lettura/scrittura Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina se un VideoFrame è nascosto. Lettura/scrittura Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Restituisce o imposta il nome di un file video collegato a un VideoFrame. Lettura/scrittura String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina se un video è ripetuto. Lettura/scrittura Boolean. |
 | [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Restituisce o imposta la modalità di riproduzione del video. Lettura/scrittura [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se il video viene automaticamente riavvolto all'inizio non appena il filmato ha terminato la riproduzione. Lettura/scrittura Booleano. |
-| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Taglio finale [ms] |
-| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Taglio iniziale [ms] |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se un video è riavvolto automaticamente all'inizio non appena il video termina la riproduzione. Lettura/scrittura Boolean. |
+| [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Fine taglio [ms] |
+| [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Inizio taglio [ms] |
 | [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Restituisce o imposta il volume audio. Lettura/scrittura [`AudioVolumeMode`](../audiovolumemode). |
 
 ### Vedi anche

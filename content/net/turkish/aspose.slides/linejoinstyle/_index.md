@@ -1,14 +1,14 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes için .NET API Referansı
-description: Satır birleştirme stilini temsil eder.
+second_title: Aspose.Slides .NET API Referansı
+description: Satır birleşim stilini temsil eder.
 type: docs
-weight: 7780
+weight: 7800
 url: /tr/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle enum
 
-Satır birleştirme stilini temsil eder.
+Satır birleşim stilini temsil eder.
 
 ```csharp
 public enum LineJoinStyle : sbyte

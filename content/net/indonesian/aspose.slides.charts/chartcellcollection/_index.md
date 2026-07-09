@@ -1,9 +1,9 @@
 ---
 title: ChartCellCollection
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi sel dengan data.
 type: docs
-weight: 1280
+weight: 1300
 url: /id/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection kelas
@@ -16,18 +16,18 @@ public class ChartCellCollection : IChartCellCollection
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Mendapatkan jumlah sel dalam koleksi. Read-only Int32. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | Mendapatkan jumlah sel dalam koleksi. Hanya-baca Int32. |
 | [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | Mengembalikan sel (IChartDataCell) berdasarkan indeks. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | Menambahkan sel baru ke koleksi. |
 | [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | Membuat [`ChartDataCell`](../chartdatacell) dari nilai yang ditentukan dan menambahkannya ke koleksi. |
-| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Mengembalikan alamat kumpulan sel dalam workbook. |
+| [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | Mengembalikan alamat kumpulan sel dalam buku kerja. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | String penggabungan dari semua nilai string sel. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
 | [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | Menghapus sel dari koleksi berdasarkan indeks. |

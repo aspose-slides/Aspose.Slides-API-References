@@ -1,14 +1,14 @@
 ---
 title: BehaviorAdditiveType
-second_title: Aspose.Sildes a .NET API referencia
-description: Az effektus viselkedéséhez tartozó adalék típust jelöli.
+second_title: Aspose.Sildes .NET API-referencia
+description: Az effektus viselkedésében használt adalék típust jelöli.
 type: docs
-weight: 140
+weight: 160
 url: /hu/aspose.slides.animation/behavioradditivetype/
 ---
 ## BehaviorAdditiveType enumeráció
 
-Az effektus viselkedéséhez tartozó adalék típusát jelöli.
+Az effektus viselkedésében használt adalék típust jelöli.
 
 ```csharp
 public enum BehaviorAdditiveType

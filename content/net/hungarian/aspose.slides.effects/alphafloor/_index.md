@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
-second_title: Aspose.Slides .NET API hivatkozás
-description: Képviseli az Alpha Floor hatást. A 100-nál kisebb alfa átlátszósági értékek nullára változnak. Más szóval, minden részben átlátható teljesen átlátszóvá válik.
+second_title: Aspose.Sildes .NET API referencia
+description: Az Alpha Floor effektust reprezentálja. Az Alpha átlátszósági értékek, amelyek kisebbek, mint 100, nullára változnak. Más szóval, minden részben átlátszó objektum teljesen átlátszóvá válik.
 type: docs
-weight: 2840
+weight: 2860
 url: /hu/aspose.slides.effects/alphafloor/
 ---
 ## AlphaFloor osztály
 
-Az Alpha Floor effektet reprezentálja. A 100 %-nál kisebb alfa (átlátszóság) értékek nullára lesznek állítva. Más szóval, minden részben átlátszó teljesen átlátszóvá válik.
+Az Alpha Floor effektust képviseli. A 100%-nál kisebb Alpha (átlátszóság) értékeket nullára állítja. Más szóval, minden részben átlátszó objektum teljesen átlátszóvá válik.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -18,15 +18,15 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Meghatározza, hogy a megadott [`AlphaFloor`](../alphafloor) egyenlő-e a jelenlegi [`AlphaFloor`](../alphafloor). |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Megkapja az Alpha Floor effekt hatékony adatait az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Megállapítja, hogy a megadott [`AlphaFloor`](../alphafloor) egyenlő-e az aktuális [`AlphaFloor`](../alphafloor)-val. |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Lekéri az alkalmazott öröklődéssel együtt a hatékony Alpha Floor effektus adatait. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Hash függvényként szolgál egy adott típus esetén. |
 
 ### Lásd még
 

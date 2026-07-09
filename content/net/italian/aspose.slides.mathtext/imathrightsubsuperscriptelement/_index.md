@@ -1,14 +1,14 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Specifica l'oggetto Sub-Superscript che è costituito da una base e da un pedice e un apice posizionati a destra della base.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Specifica l'oggetto Sub-Superscript che consiste in una base e un pedice e un apice posizionati a destra della base.
 type: docs
-weight: 8430
+weight: 8450
 url: /it/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement interfaccia
 
-Specifica l'oggetto Sub-Superscript, che è costituito da una base e da un pedice e un apice posizionati a destra della base.
+Specifica l'oggetto Sub-Superscript, che consiste in una base e un pedice e un apice posizionati a destra della base.
 
 ```csharp
 public interface IMathRightSubSuperscriptElement : IMathElement
@@ -18,7 +18,7 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 | Nome | Descrizione |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Specifica l'allineamento di pedice/apice. Quando true, pedice e apice sono allineati orizzontalmente l'uno rispetto all'altro. Quando false, sono adattati alla forma della base. Il valore predefinito è false. |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Specifica l'allineamento di pedice/apice. Quando true, pedice e apice sono allineati orizzontalmente tra loro. Quando false, sono adattati alla forma della base. Il valore predefinito è false. |
 | [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Consente di ottenere l'interfaccia base IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argomento base |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argomento pedice |

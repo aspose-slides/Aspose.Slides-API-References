@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션 슬라이드 또는 TextFrame에서 텍스트를 검색하는 데 사용할 수 있는 옵션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 프레젠테이션 슬라이드 또는 텍스트 프레임에서 텍스트를 검색하는 데 사용할 수 있는 옵션을 나타냅니다.
 type: docs
 weight: 7300
 url: /ko/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions 인터페이스
 
-프레젠테이션, 슬라이드 또는 TextFrame에서 텍스트를 검색하는 데 사용할 수 있는 옵션을 나타냅니다.
+프레젠테이션, 슬라이드 또는 텍스트 프레임에서 텍스트를 검색하는 데 사용할 수 있는 옵션을 나타냅니다.
 
 ```csharp
 public interface ITextSearchOptions
@@ -18,11 +18,11 @@ public interface ITextSearchOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 대소문자를 구분하는 검색을 사용하려면 true로 설정하고, 그렇지 않으면 false로 설정합니다. 읽기/쓰기 Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | 텍스트 검색, 교체 또는 강조 작업을 수행할 때 슬라이드 노트에 포함된 텍스트를 포함하려면 `true`로 설정합니다. 기본값은 `false`입니다. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 전체 단어만 일치시키려면 true로 설정하고, 그렇지 않으면 false로 설정합니다. 읽기/쓰기 Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | `true`를 설정하면 대소문자를 구분하는 검색을 사용하고, 그렇지 않으면 false를 설정합니다. 읽기/쓰기 Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true`를 설정하면 텍스트 검색, 교체 또는 강조 표시 작업을 수행할 때 슬라이드 노트에 포함된 텍스트를 포함합니다. 기본값은 `false`입니다. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | `true`를 설정하면 전체 단어만 일치하도록 하고, 그렇지 않으면 false를 설정합니다. 읽기/쓰기 Boolean. |
 
-### 참조
+### 또한 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

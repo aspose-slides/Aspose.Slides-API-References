@@ -3,7 +3,7 @@ title: IEffectParamSource
 second_title: Aspose.Sildes för .NET API-referens
 description: Gränssnitt för hjälpeffektparametrar.
 type: docs
-weight: 5740
+weight: 5760
 url: /sv/aspose.slides/ieffectparamsource/
 ---
 ## IEffectParamSource gränssnitt
@@ -14,7 +14,7 @@ Gränssnitt för hjälpeffektparametrar.
 public interface IEffectParamSource
 ```
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

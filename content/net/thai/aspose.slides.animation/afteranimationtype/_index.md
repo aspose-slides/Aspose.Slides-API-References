@@ -1,14 +1,14 @@
 ---
 title: AfterAnimationType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงประเภทการเคลื่อนไหวหลังจากเอฟเฟกต์การเคลื่อนไหว
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทการทำงานหลังจากเอฟเฟกต์การเคลื่อนไหว.
 type: docs
 weight: 110
 url: /th/aspose.slides.animation/afteranimationtype/
 ---
-## AfterAnimationType enumeration
+## การนับค่า AfterAnimationType
 
-แสดงถึงประเภทการเคลื่อนไหวหลังจากเอฟเฟกต์การเคลื่อนไหว
+แสดงประเภทการทำงานหลังจากเอฟเฟกต์การเคลื่อนไหว
 
 ```csharp
 public enum AfterAnimationType
@@ -18,10 +18,10 @@ public enum AfterAnimationType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| DoNotDim | `0` | ไม่ทำให้มืดหลังการเคลื่อนไหว |
-| Color | `1` | สีหลังการเคลื่อนไหว |
-| HideAfterAnimation | `2` | ซ่อนหลังการเคลื่อนไหว |
-| HideOnNextMouseClick | `3` | ซ่อนเมื่อคลิกเมาส์ครั้งถัดไปหลังการเคลื่อนไหว |
+| DoNotDim | `0` | ไม่ทำให้มืดหลังจากการเคลื่อนไหว |
+| Color | `1` | สีหลังจากการเคลื่อนไหว |
+| HideAfterAnimation | `2` | ซ่อนหลังจากการเคลื่อนไหว |
+| HideOnNextMouseClick | `3` | ซ่อนเมื่อคลิกเมาส์ครั้งต่อไปหลังจากการเคลื่อนไหว |
 
 ### ดูเพิ่มเติม
 

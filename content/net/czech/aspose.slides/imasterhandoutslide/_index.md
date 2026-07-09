@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlide
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje hlavní snímek pro podklady.
+description: Představuje hlavní snímek pro výstřižky.
 type: docs
-weight: 6330
+weight: 6350
 url: /cs/aspose.slides/imasterhandoutslide/
 ---
 ## IMasterHandoutSlide rozhraní
 
-Reprezentuje hlavní snímek pro podklady.
+Představuje hlavní snímek pro výstřižky.
 
 ```csharp
 public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
@@ -18,10 +18,10 @@ public interface IMasterHandoutSlide : IBaseSlide, IMasterThemeable
 
 | Název | Popis |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Vrací rozhraní IMasterThemeable. Pouze pro čtení [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Vrací kolekci kreslicích vodítek pro hlavní podkladový snímek. Pouze pro čtení [`IDrawingGuidesCollection`](../idrawingguidescollection). |
-| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Vrací správce HeaderFooter hlavního podkladového snímku. Pouze pro čtení [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [AsIBaseSlide](../../aspose.slides/imasterhandoutslide/asibaseslide) { get; } | Umožňuje získat základní rozhraní IBaseSlide. Pouze ke čtení [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterhandoutslide/asimasterthemeable) { get; } | Vrací rozhraní IMasterThemeable. Pouze ke čtení [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [DrawingGuides](../../aspose.slides/imasterhandoutslide/drawingguides) { get; } | Vrací kolekci kreslicích vodítek pro hlavní list výstřižků. Pouze ke čtení [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/imasterhandoutslide/headerfootermanager) { get; } | Vrací správce HeaderFooter hlavního listu výstřižků. Pouze ke čtení [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 
 ### Viz také
 

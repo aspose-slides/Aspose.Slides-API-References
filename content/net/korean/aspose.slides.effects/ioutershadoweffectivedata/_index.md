@@ -1,6 +1,6 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 외부 그림자 효과를 나타내는 불변 객체입니다.
 type: docs
 weight: 3470
@@ -24,11 +24,11 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | 그림자 거리. 읽기 전용 Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | 사각형 정렬. 읽기 전용 [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | 도형이 회전될 경우 그림자가 도형과 함께 회전해야 하는지 여부를 지정합니다. 읽기 전용 Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 수평 스케일링 계수를 지정하며, 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 수직 스케일링 계수를 지정하며, 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | 수평 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | 수직 스케일링 계수를 지정합니다. 음수 스케일링은 뒤집기를 발생시킵니다. 읽기 전용 Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | 그림자 색상. 읽기 전용 Color. |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 수평 왜곡 각도(도)를 지정합니다. 읽기 전용 Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 수직 왜곡 각도(도)를 지정합니다. 읽기 전용 Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | 수평 기울기 각도(도)를 지정합니다. 읽기 전용 Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | 수직 기울기 각도(도)를 지정합니다. 읽기 전용 Double. |
 
 ### 참고
 

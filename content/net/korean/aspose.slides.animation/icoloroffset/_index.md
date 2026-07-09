@@ -22,7 +22,7 @@ public interface IColorOffset
 | [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 오프셋의 두 번째 값을 정의합니다. 읽기/쓰기 Single. |
 | [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 오프셋의 세 번째 값을 정의합니다. 읽기/쓰기 Single. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

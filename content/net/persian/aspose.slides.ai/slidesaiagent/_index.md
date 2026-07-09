@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgent
 second_title: Aspose.Sildes برای مرجع API .NET
-description: ویژگی‌های مبتنی بر هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
+description: قابلیت‌های مجهز به هوش مصنوعی را برای پردازش ارائه‌ها فراهم می‌کند.
 type: docs
 weight: 70
 url: /fa/aspose.slides.ai/slidesaiagent/
 ---
 ## SlidesAIAgent کلاس
 
-ویژگی‌های مبتنی بر هوش مصنوعی برای پردازش ارائه‌ها را فراهم می‌کند.
+قابلیت‌های مجهز به هوش مصنوعی را برای پردازش ارائه‌ها فراهم می‌کند.
 
 ```csharp
 public class SlidesAIAgent
@@ -16,25 +16,25 @@ public class SlidesAIAgent
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [SlidesAIAgent](slidesaiagent#constructor)() | یک نمونه جدید از [`SlidesAIAgent`](../slidesaiagent) را با استفاده از [`AsposeAIWebClient`](../asposeaiwebclient) داخلی و با پیکربندی پیش‌فرض آن مقداردهی اولیه می‌کند. مشتری به LLM مخصوص Aspose وصل می‌شود و نیازی به پیکربندی اضافی ندارد. برای استفاده از یک مشتری AI متفاوت، به‌جای آن از بارگذاری [`SlidesAIAgent`](./slidesaiagent) استفاده کنید. |
-| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | یک نمونه جدید از [`SlidesAIAgent`](../slidesaiagent) را با یک مشتری AI سفارشی مقداردهی می‌کند. از این بارگذاری برای تعیین ارائه‌دهنده AI، فراهم کردن LLM خود یا سفارشی‌سازی اتصال استفاده کنید (به عنوان مثال، با ارائه `HttpClient` خود). هر پیاده‌سازی از [`IAIWebClient`](../iaiwebclient) می‌تواند استفاده شود، از جمله: |
+| [SlidesAIAgent](slidesaiagent#constructor)() | یک نمونه جدید از [`SlidesAIAgent`](../slidesaiagent) را با استفاده از [`AsposeAIWebClient`](../asposeaiwebclient) داخلی و پیکربندی پیش‌فرض آن مقداردهی اولیه می‌کند. این کارگزار به LLM داخلی Aspose متصل می‌شود و نیازی به پیکربندی اضافی ندارد. برای استفاده از کارگزار AI متفاوت، به‌جای آن باید overload [`SlidesAIAgent`](./slidesaiagent) را استفاده کنید. |
+| [SlidesAIAgent](slidesaiagent#constructor_1)(IAIWebClient) | یک نمونه جدید از [`SlidesAIAgent`](../slidesaiagent) را با کارگزار AI سفارشی مقداردهی می‌کند. از این overload برای مشخص کردن ارائه‌دهنده AI، ارائه LLM خود، یا سفارشی‌سازی اتصال (به عنوان مثال، با فراهم کردن `HttpClient` خود) استفاده کنید. هر پیاده‌سازی از [`IAIWebClient`](../iaiwebclient) می‌تواند استفاده شود، از جمله: |
 
 ## متدها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز فراهم کنید. |
-| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز فراهم کنید. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز فراهم کنید. |
-| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا قطعه‌های متنی را به زبان مورد نیاز فراهم کنید. |
-| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | یک ارائه را به زبان مشخص‌شده با استفاده از هوش مصنوعی ترجمه می‌کند (نسخه همزمان). |
-| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | یک ارائه را به زبان مشخص‌شده با استفاده از هوش مصنوعی ترجمه می‌کند. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation)(string, PresentationContentAmountType) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا بخش‌های متنی را به زبان مورد نیاز ارائه دهید. |
+| [GeneratePresentation](../../aspose.slides.ai/slidesaiagent/generatepresentation#generatepresentation_1)(string, PresentationContentAmountType, IPresentation) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا بخش‌های متنی را به زبان مورد نیاز ارائه دهید. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync)(string, PresentationContentAmountType) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا بخش‌های متنی را به زبان مورد نیاز ارائه دهید. |
+| [GeneratePresentationAsync](../../aspose.slides.ai/slidesaiagent/generatepresentationasync#generatepresentationasync_1)(string, PresentationContentAmountType, IPresentation) | یک نمونه ارائه را از توصیف متنی تولید می‌کند. یک موضوع، ایده‌ها، نقل‌قول‌ها یا بخش‌های متنی را به زبان مورد نیاز ارائه دهید. |
+| [Translate](../../aspose.slides.ai/slidesaiagent/translate)(IPresentation, string) | یک ارائه را به زبان مشخص شده با استفاده از AI ترجمه می‌کند (نسخه همزمان). |
+| [TranslateAsync](../../aspose.slides.ai/slidesaiagent/translateasync)(IPresentation, string) | یک ارائه را به زبان مشخص شده با استفاده از AI ترجمه می‌کند. |
 
 ### موارد مرتبط
 
 * فضای‌نام [Aspose.Slides.AI](../../aspose.slides.ai)
-* مجتمع [Aspose.Slides](../../)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

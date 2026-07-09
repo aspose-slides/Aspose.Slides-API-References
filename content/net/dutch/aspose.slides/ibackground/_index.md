@@ -18,19 +18,19 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Geeft de IFillParamSource interface terug. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Geeft de ISlideComponent interface terug. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Geeft een EffectFormat voor de BackgroundType.OwnBackground vulling terug. Alleen-lezen [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Geeft een FillFormat voor de BackgroundType.OwnBackground vulling terug. Alleen-lezen [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Geeft een ColorFormat voor een BackgroundType.Themed vulling terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Geeft een index van de BackgroundType.Themed vulling in de achtergrondthema-collectie terug. 0 betekent geen vulling. 1..999 - index. Lezen/Schrijven UInt16. |
-| [Type](../../aspose.slides/ibackground/type) { get; set; } | Geeft een type van achtergrondvulling terug. Lezen/Schrijven [`BackgroundType`](../backgroundtype). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | Retourneert IFillParamSource interface. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | Retourneert ISlideComponent interface. Alleen-lezen [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | Retourneert een EffectFormat voor de vulling van BackgroundType.OwnBackground. Alleen-lezen [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | Retourneert een FillFormat voor de vulling van BackgroundType.OwnBackground. Alleen-lezen [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | Retourneert een ColorFormat voor een BackgroundType.Themed vulling. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | Retourneert een index van de BackgroundType.Themed vulling in de achtergrondthema-collectie. 0 betekent geen vulling. 1..999 - index. Lezen/schrijven UInt16. |
+| [Type](../../aspose.slides/ibackground/type) { get; set; } | Retourneert een type van achtergrondvulling. Lezen/schrijven [`BackgroundType`](../backgroundtype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Haalt effectieve achtergrondgegevens op met de erfelijkheid toegepast. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Haalt effectieve achtergrondgegevens op met de toegepaste overerving. |
 
 ### Zie ook
 

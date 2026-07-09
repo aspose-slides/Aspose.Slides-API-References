@@ -1,9 +1,9 @@
 ---
 title: ITableFormat
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Slides for .NET API リファレンス
 description: テーブルの書式を表します。
 type: docs
-weight: 7220
+weight: 7240
 url: /ja/aspose.slides/itableformat/
 ---
 ## ITableFormat インターフェイス
@@ -18,14 +18,14 @@ public interface ITableFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | テーブルの塗りつぶしプロパティ オブジェクトを返します。読み取り専用 [`IFillFormat`](../ifillformat)。 |
-| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。読み取り/書き込み Single。 |
+| [FillFormat](../../aspose.slides/itableformat/fillformat) { get; } | テーブルの塗りつぶしプロパティ オブジェクトを返します。 読み取り専用 [`IFillFormat`](../ifillformat)。 |
+| [Transparency](../../aspose.slides/itableformat/transparency) { get; set; } | 塗りつぶし色の透明度を取得または設定します。 読み書き Single。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itableformat/geteffective)() | 継承とテーブルスタイルが適用された有効なテーブル書式設定プロパティを取得します。 |
+| [GetEffective](../../aspose.slides/itableformat/geteffective)() | 継承とテーブル スタイルが適用された有効なテーブル書式プロパティを取得します。 |
 
 ### 参照
 

@@ -14,7 +14,7 @@ url: /zh-hant/aspose.slides.ai/openaicompatiblewebclient/dispose/
 public void Dispose()
 ```
 
-### 相關參考
+### 另請參閱
 
 * 類別 [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * 命名空間 [Aspose.Slides.AI](../../openaicompatiblewebclient)

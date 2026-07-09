@@ -1,29 +1,29 @@
 ---
 title: FontStyleType
-second_title: Aspose.Sildes cho Tham khảo API .NET
-description: Xác định các kiểu định dạng có thể áp dụng cho văn bản.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định các kiểu định dạng có thể được áp dụng cho văn bản.
 type: docs
 weight: 4870
 url: /vi/aspose.slides/fontstyletype/
 ---
 ## FontStyleType liệt kê
 
-Xác định các kiểu định dạng có thể áp dụng cho văn bản.
+Xác định các kiểu định dạng có thể được áp dụng cho văn bản.
 
 ```csharp
 [Flags]
 public enum FontStyleType
 ```
 
-### Giá trị
+### Các giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | Regular | `0` | Văn bản chuẩn. |
 | Bold | `1` | Văn bản in đậm. |
 | Italic | `2` | Văn bản in nghiêng. |
-| Underline | `4` | Văn bản gạch chân. |
-| Strikeout | `8` | Văn bản bị gạch ngang. |
+| Underline | `4` | Văn bản gạch dưới. |
+| Strikeout | `8` | Văn bản bị gạch ngang bằng một đường ngang. |
 
 ### Xem thêm
 

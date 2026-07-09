@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes for .NET API 참조
-description: 기준선에 있는 텍스트와 바로 위 또는 아래에 있는 축소된 텍스트로 구성된 Limit 객체를 지정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 베이스라인에 있는 텍스트와 그 바로 위 또는 아래에 있는 축소된 크기의 텍스트로 구성된 Limit 개체를 지정합니다.
 type: docs
 weight: 8320
 url: /ko/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit 인터페이스
 
-제한 객체를 지정합니다. 기준선에 있는 텍스트와 그 바로 위 또는 아래에 있는 축소된 텍스트로 구성됩니다.
+베이스라인에 있는 텍스트와 그 바로 위나 아래에 있는 축소된 크기의 텍스트로 구성된 Limit 개체를 지정합니다.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -23,16 +23,16 @@ public interface IMathLimit : IMathElement
 | [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | 제한 인수 |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | 상한 또는 하한을 지정합니다 |
 
-### 예제
+### 예시
 
-예제:
+예시:
 
 ```csharp
 [C#]
 IMathLimit limitElement = new MathLimit(new MathematicalText("lim"), new MathematicalText("𝑛→∞"));
 ```
 
-### 참조
+### 추가 보기
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

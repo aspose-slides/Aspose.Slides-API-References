@@ -8,7 +8,7 @@ url: /ko/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode 열거형
 
-텍스트 추출 중에 사용할 모드를 나타냅니다
+텍스트 추출 중에 사용할 모드를 나타냅니다.
 
 ```csharp
 public enum TextExtractionArrangingMode

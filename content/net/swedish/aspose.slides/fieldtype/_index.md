@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en typ av fält. Detta värde bestämmer vilken text som kommer att sättas i fältdelen när den uppdateras.
 type: docs
-weight: 4740
+weight: 4760
 url: /sv/aspose.slides/fieldtype/
 ---
 ## FieldType klass
@@ -24,23 +24,23 @@ public sealed class FieldType : IFieldType
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Aktuellt datum och tid i standarddatumformat för renderingsapplikationen. Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Aktuellt datum och tid i ett första fördefinierat format (MM/DD/YYYY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Aktuellt datum och tid i ett tionde fördefinierat format (hh:mm för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Aktuellt datum och tid i ett elfte fördefinierat format (hh:mm:ss för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Aktuellt datum och tid i ett tolfte fördefinierat format (hh:mm AM/PM för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Aktuellt datum och tid i ett trettonde fördefinierat format (hh:mm:ss AM/PM för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Aktuellt datum och tid i ett andra fördefinierat format (Day, Month DD, YYYY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Aktuellt datum och tid i ett tredje fördefinierat format (DD Month YYYY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Aktuellt datum och tid i ett fjärde fördefinierat format (Month DD, YYYY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Aktuellt datum och tid i ett femte fördefinierat format (DD-Mon-YY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Aktuellt datum och tid i ett sjätte fördefinierat format (Month YY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Aktuellt datum och tid i ett sjunde fördefinierat format (Mon-YY för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Aktuellt datum och tid i ett åttonde fördefinierat format (MM/DD/YYYY hh:mm AM/PM för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Aktuellt datum och tid i ett nionde fördefinierat format (MM/DD/YYYY hh:mm:ss AM/PM för engelska). Skrivskyddad [`FieldType`](../fieldtype). |
-| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Slides sidfot. Skrivskyddad [`FieldType`](../fieldtype). |
-| static [Header](../../aspose.slides/fieldtype/header) { get; } | Slides rubrik. Skrivskyddad [`FieldType`](../fieldtype). |
-| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Aktuellt bildnummer. Skrivskyddad [`FieldType`](../fieldtype). |
+| static [DateTime](../../aspose.slides/fieldtype/datetime) { get; } | Aktuellt datum och tid i standard datum/tidsformat för renderingsapplikationen. Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime1](../../aspose.slides/fieldtype/datetime1) { get; } | Aktuellt datum och tid i ett första fördefinierat format (MM/DD/YYYY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime10](../../aspose.slides/fieldtype/datetime10) { get; } | Aktuellt datum och tid i ett tionde fördefinierat format (hh:mm för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime11](../../aspose.slides/fieldtype/datetime11) { get; } | Aktuellt datum och tid i ett elfte fördefinierat format (hh:mm:ss för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime12](../../aspose.slides/fieldtype/datetime12) { get; } | Aktuellt datum och tid i ett tolfte fördefinierat format (hh:mm AM/PM för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime13](../../aspose.slides/fieldtype/datetime13) { get; } | Aktuellt datum och tid i ett trettonde fördefinierat format (hh:mm:ss AM/PM för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime2](../../aspose.slides/fieldtype/datetime2) { get; } | Aktuellt datum och tid i ett andra fördefinierat format (Day, Month DD, YYYY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime3](../../aspose.slides/fieldtype/datetime3) { get; } | Aktuellt datum och tid i ett tredje fördefinierat format (DD Month YYYY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime4](../../aspose.slides/fieldtype/datetime4) { get; } | Aktuellt datum och tid i ett fjärde fördefinierat format (Month DD, YYYY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime5](../../aspose.slides/fieldtype/datetime5) { get; } | Aktuellt datum och tid i ett femte fördefinierat format (DD-Mon-YY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime6](../../aspose.slides/fieldtype/datetime6) { get; } | Aktuellt datum och tid i ett sjätte fördefinierat format (Month YY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime7](../../aspose.slides/fieldtype/datetime7) { get; } | Aktuellt datum och tid i ett sjunde fördefinierat format (Mon-YY för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime8](../../aspose.slides/fieldtype/datetime8) { get; } | Aktuellt datum och tid i ett åttonde fördefinierat format (MM/DD/YYYY hh:mm AM/PM för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [DateTime9](../../aspose.slides/fieldtype/datetime9) { get; } | Aktuellt datum och tid i ett nionde fördefinierat format (MM/DD/YYYY hh:mm:ss AM/PM för engelska). Endast läsning [`FieldType`](../fieldtype). |
+| static [Footer](../../aspose.slides/fieldtype/footer) { get; } | Bildens sidfot. Endast läsning [`FieldType`](../fieldtype). |
+| static [Header](../../aspose.slides/fieldtype/header) { get; } | Bildens sidhuvud. Endast läsning [`FieldType`](../fieldtype). |
+| static [SlideNumber](../../aspose.slides/fieldtype/slidenumber) { get; } | Aktuellt bildnummer. Endast läsning [`FieldType`](../fieldtype). |
 | [InternalString](../../aspose.slides/fieldtype/internalstring) { get; set; } | Returnerar det interna namnet på detta FieldType-objekt. Läs/skriv String. |
 
 ## Metoder
@@ -52,10 +52,10 @@ public sealed class FieldType : IFieldType
 | [operator ==](../../aspose.slides/fieldtype/op_equality) | Kontrollerar om två FieldType-objekt är lika. |
 | [operator !=](../../aspose.slides/fieldtype/op_inequality) | Kontrollerar om två FieldType-objekt är olika. |
 
-### Se även
+### Se också
 
 * gränssnitt [IFieldType](../ifieldtype)
 * namnrymd [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

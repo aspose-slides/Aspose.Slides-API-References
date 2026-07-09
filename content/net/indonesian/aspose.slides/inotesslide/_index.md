@@ -1,14 +1,14 @@
 ---
 title: INotesSlide
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili slide catatan dalam presentasi.
+description: Mewakili slide catatan dalam sebuah presentasi.
 type: docs
-weight: 6480
+weight: 6500
 url: /id/aspose.slides/inotesslide/
 ---
-## INotesSlide antarmuka
+## antarmuka INotesSlide
 
-Mewakili slide catatan dalam presentasi.
+Mewakili slide catatan dalam sebuah presentasi.
 
 ```csharp
 public interface INotesSlide : IBaseSlide, IOverrideThemeable
@@ -18,7 +18,7 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya-baca [`IBaseSlide`](../ibaseslide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IBaseSlide. Hanya-baca [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | Mengembalikan antarmuka IOverrideThemeable. Hanya-baca [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | Mengembalikan manajer HeaderFooter dari slide catatan. Hanya-baca [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
 | [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | Mengembalikan TextFrame dengan teks catatan jika ada. Hanya-baca [`ITextFrame`](../itextframe). |

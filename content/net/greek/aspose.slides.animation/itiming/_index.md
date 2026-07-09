@@ -1,14 +1,14 @@
 ---
 title: ITiming
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά το χρονισμό της κίνησης.
+description: Αναπαριστά το χρονοπλάνο της κίνησης.
 type: docs
-weight: 620
+weight: 640
 url: /el/aspose.slides.animation/itiming/
 ---
-## ITiming διασύνδεση
+## Διεπαφή ITiming
 
-Αναπαριστά το χρονισμό της κίνησης.
+Represents animation timing.
 
 ```csharp
 public interface ITiming
@@ -18,23 +18,23 @@ public interface ITiming
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Περιγράφει το ποσοστό της διάρκειας του εφέ επιτάχυνσης. Ανάγνωση/εγγραφή Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Περιγράφει αν θα αναπαράγεται αυτόματα η κίνηση προς το αντίστροφο μετά την αναπαραγωγή της προς το εμπρός. Ανάγνωση/εγγραφή Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Περιγράφει το ποσοστό της διάρκειας του εφέ επιβράδυνσης. Ανάγνωση/εγγραφή Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Περιγράφει τη διάρκεια του εφέ κίνησης. Ανάγνωση/εγγραφή Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Περιγράφει τον αριθμό των επαναλήψεων του εφέ. Ανάγνωση/εγγραφή Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Περιγράφει τον αριθμό των επαναλήψεων του εφέ. Ανάγνωση/εγγραφή Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν το εφέ θα επαναλαμβάνεται μέχρι το τέλος της διαφάνειας. Ανάγνωση/εγγραφή Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν το εφέ θα επαναλαμβάνεται μέχρι το επόμενο κλικ. Ανάγνωση/εγγραφή Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Καθορίζει αν ένα εφέ πρέπει να επανεκκινηθεί μετά την ολοκλήρωση. Ανάγνωση/εγγραφή [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει αν το εφέ θα επαναφερθεί όταν ολοκληρωθεί η αναπαραγωγή. Ανάγνωση/εγγραφή Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Καθορίζει το ποσοστό με το οποίο θα επιταχυνθεί (ή θα επιβραδυνθεί) ο χρονισμός. Ανάγνωση/εγγραφή Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Περιγράφει τον χρόνο καθυστέρησης μετά το έναυσμα. Ανάγνωση/εγγραφή Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Περιγράφει τον τύπο του ενεργοποιητή. Ανάγνωση/εγγραφή [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Περιγράφει το ποσοστό της διάρκειας της επιτάχυνσης της συμπεριφοράς του εφέ. Ανάγνωση/Εγγραφή Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Περιγράφει αν θα αναπαράγεται αυτόματα η κίνηση ανάποδα μετά την αναπαραγωγή της προς τα εμπρός. Ανάγνωση/Εγγραφή Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Περιγράφει το ποσοστό της διάρκειας της επιβράδυνσης της συμπεριφοράς του εφέ. Ανάγνωση/Εγγραφή Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Περιγράφει τη διάρκεια του εφέ κίνησης. Ανάγνωση/Εγγραφή Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Περιγράφει τον αριθμό των φορών που πρέπει να επαναληφθεί το εφέ. Ανάγνωση/Εγγραφή Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Περιγράφει τον αριθμό των φορών που πρέπει να επαναληφθεί το εφέ. Ανάγνωση/Εγγραφή Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει εάν το εφέ θα επαναληφθεί μέχρι το τέλος της διαφάνειας. Ανάγνωση/Εγγραφή Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει εάν το εφέ θα επαναληφθεί μέχρι το επόμενο κλικ. Ανάγνωση/Εγγραφή Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Καθορίζει εάν ένα εφέ θα επανεκκινήσει μετά την ολοκλήρωση. Ανάγνωση/Εγγραφή [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Αυτό το χαρακτηριστικό καθορίζει εάν το εφέ θα επανέλθει όταν ολοκληρωθεί η αναπαραγωγή. Ανάγνωση/Εγγραφή Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Καθορίζει το ποσοστό με το οποίο θα επιταχυνθεί (ή θα επιβραδυνθεί) το χρονικό διάστημα. Ανάγνωση/Εγγραφή Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Περιγράφει τον χρόνο καθυστέρησης μετά το trigger. Ανάγνωση/Εγγραφή Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Περιγράφει τον τύπο του trigger. Ανάγνωση/Εγγραφή [`EffectTriggerType`](../effecttriggertype). |
 
 ### Δείτε επίσης
 
-* χώρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
-* συγκρότημα [Aspose.Slides](../../)
+* χωρος ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
+* συλλογή [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

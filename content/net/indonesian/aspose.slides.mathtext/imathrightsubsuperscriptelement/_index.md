@@ -1,9 +1,9 @@
 ---
 title: IMathRightSubSuperscriptElement
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Menentukan objek Sub-Superscript yang terdiri dari basis dan subskrip serta superskrip yang ditempatkan di sebelah kanan basis.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menentukan objek Sub-Superscript yang terdiri dari basis serta subskrip dan superskrip yang ditempatkan di sebelah kanan basis.
 type: docs
-weight: 8430
+weight: 8450
 url: /id/aspose.slides.mathtext/imathrightsubsuperscriptelement/
 ---
 ## IMathRightSubSuperscriptElement antarmuka
@@ -16,10 +16,10 @@ public interface IMathRightSubSuperscriptElement : IMathElement
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Menentukan perataan subskrip/superskrip. Bila true, subskrip dan superskrip disejajarkan secara horizontal satu sama lain. Bila false, mereka disesuaikan dengan bentuk basis. Nilai default adalah false. |
-| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Mengizinkan mendapatkan antarmuka IMathElement dasar [`IMathElement`](../imathelement) |
+| [AlignScripts](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/alignscripts) { get; set; } | Menentukan perataan subskrip/superskrip. Ketika true, subskrip dan superskrip disejajarkan secara horizontal satu sama lain. Ketika false, mereka dipasangkan ke bentuk basis. Nilai default adalah false. |
+| [AsIMathElement](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/base) { get; } | Argumen basis |
 | [Subscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript) { get; } | Argumen subskrip |
 | [Superscript](../../aspose.slides.mathtext/imathrightsubsuperscriptelement/superscript) { get; } | Argumen superskrip |

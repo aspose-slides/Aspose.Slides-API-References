@@ -3,12 +3,12 @@ title: IReflection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en reflektionseffekt.
 type: docs
-weight: 3480
+weight: 3500
 url: /sv/aspose.slides.effects/ireflection/
 ---
 ## IReflection gränssnitt
 
-Representerar en reflektionseffekt.
+Representerar en refleksionseffekt.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
@@ -19,22 +19,22 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Tillåter att hämta bas-gränssnittet IAccessiblePVIObject. Endast läsning [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Tillåter att hämta bas-gränssnittet IImageTransformOperation. Endast läsning [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Suddighetens radie. Läs/skriv Double. |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Reflektionens riktning. Läs/skriv Single. |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Avstånd för reflektion. Läs/skriv Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Anger slutpositionen (längs alfa-gradientens ramp) för sluttvärdet för alfa (procent). Läs/skriv Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Slutlig reflektionsopacitet. (procent). Läs/skriv Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Anger riktningen för förskjutning av reflektionen. (vinkel). Läs/skriv Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Tillåter att hämta basgränssnittet IAccessiblePVIObject. Skrivskyddad [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Tillåter att hämta basgränssnittet IImageTransformOperation. Skrivskyddad [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | Suddighetsradie. Läs/skriv Double. |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Riktning för refleksion. Läs/skriv Single. |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Avstånd för refleksion. Läs/skriv Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Anger slutpositionen (längs den alfagraduerade rampen) för det avslutande alfavärdet (procent). Läs/skriv Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Slutlig refleksionsopacitet. (procent). Läs/skriv Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Anger riktningen för att förskjuta refleksionen. (vinkel). Läs/skriv Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Rektangeljustering. Läs/skriv [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Anger huruvida reflektionen ska rotera med formen om formen roteras. Läs/skriv Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Anger den horisontella skalningsfaktorn, negativ skalning orsakar en spegling. (procent) Läs/skriv Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Anger den vertikala skalningsfaktorn, negativ skalning orsakar en spegling. (procent) Läs/skriv Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Anger den horisontella skevningsvinkeln. Läs/skriv Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Anger den vertikala skevningsvinkeln. Läs/skriv Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Anger startpositionen (längs alfa-gradientens ramp) för startvärdet för alfa (procent). Läs/skriv Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Startande reflektionsopacitet. (procent). Läs/skriv Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Anger om refleksionen ska roteras med formen när formen roteras. Läs/skriv Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Anger den horisontella skalningsfaktorn, negativ skalning ger en spegling. (procent) Läs/skriv Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Anger den vertikala skalningsfaktorn, negativ skalning ger en spegling. (procent) Läs/skriv Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Anger horisontell skevningsvinkel. Läs/skriv Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Anger vertikal skevningsvinkel. Läs/skriv Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Anger startpositionen (längs den alfagraduerade rampen) för startalfavärdet (procent). Läs/skriv Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Startande refleksionsopacitet. (procent). Läs/skriv Single. |
 
 ### Se också
 

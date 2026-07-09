@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 控制 SVG 形狀與文字的產生。
+second_title: Aspose.Sildes for .NET API 參考
+description: 控制 SVG 形狀與文字產生。
 type: docs
 weight: 4120
 url: /zh-hant/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController 介面
 
-控制 SVG 形狀與文字的產生。
+控制 SVG 形狀和文字產生。
 
 ```csharp
 public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingController
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | 名稱 | 說明 |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 此函式在將文字部分渲染為 SVG 之前呼叫，以允許使用者控制產生的 SVG。 |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | 此功能在將文字部分渲染為 SVG 之前呼叫，以允許使用者控制產生的 SVG。 |
 
 ### 範例
 

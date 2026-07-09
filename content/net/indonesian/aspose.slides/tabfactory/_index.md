@@ -1,9 +1,9 @@
 ---
 title: TabFactory
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Memungkinkan membuat instance ITab
 type: docs
-weight: 10830
+weight: 10850
 url: /id/aspose.slides/tabfactory/
 ---
 ## TabFactory kelas
@@ -16,15 +16,15 @@ public class TabFactory : ITabFactory
 
 ## Konstruktor
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
 | [TabFactory](tabfactory)() | Konstruktor default. |
 
 ## Metode
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Membuat instance ITab baru. |
+| [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | Membuat sebuah instance ITab baru. |
 
 ### Catatan
 

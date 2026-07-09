@@ -1,14 +1,14 @@
 ---
 title: IShredTransition
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบฉีก
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred.
 type: docs
 weight: 10180
 url: /th/aspose.slides.slideshow/ishredtransition/
 ---
 ## IShredTransition อินเทอร์เฟซ
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบฉีก
+เอฟเฟกต์การเปลี่ยนสไลด์แบบ Shred.
 
 ```csharp
 public interface IShredTransition : ITransitionValueBase
@@ -16,13 +16,13 @@ public interface IShredTransition : ITransitionValueBase
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านอย่างเดียว [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | ระบุรูปทรงของภาพที่ใช้ระหว่างการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ishredtransition/asitransitionvaluebase) { get; } | อนุญาตให้รับอินเทอร์เฟซ ITransitionValueBase พื้นฐาน. อ่านได้เท่านั้น [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/ishredtransition/direction) { get; set; } | ทิศทางของการเปลี่ยน. อ่าน/เขียน [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Pattern](../../aspose.slides.slideshow/ishredtransition/pattern) { get; set; } | ระบุรูปร่างของภาพที่ใช้ระหว่างการเปลี่ยน. อ่าน/เขียน [`TransitionShredPattern`](../transitionshredpattern). |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
 * อินเทอร์เฟซ [ITransitionValueBase](../itransitionvaluebase)
 * เนมสเปซ [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

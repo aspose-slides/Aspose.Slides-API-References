@@ -1,36 +1,36 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 允許建立測試區段
+second_title: Aspose.Sildes for .NET API 參考
+description: 允許建立測試部分
 type: docs
 weight: 9480
 url: /zh-hant/aspose.slides/portionfactory/
 ---
 ## PortionFactory 類別
 
-允許建立測試區段
+允許建立測試部分
 
 ```csharp
 public class PortionFactory : IPortionFactory
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [PortionFactory](portionfactory)() | 預設建構子。 |
+| [PortionFactory](portionfactory)() | 預設建構函式。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | 建立空的文字區段。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定的區段資料建立區段。 |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 使用指定的字串建立文字區段。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | 建立空的文字部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分資料建立部分。 |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | 從指定的字串建立文字部分。 |
 
 ### 備註
 
-用於 COM 相容性
+供 COM 相容性使用
 
 ### 另請參閱
 

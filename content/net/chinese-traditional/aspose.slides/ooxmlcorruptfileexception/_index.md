@@ -1,7 +1,7 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes for .NET API 參考
-description: 當 Office Open XML 檔案格式受損時拋出的例外。
+second_title: Aspose.Sildes .NET API 參考
+description: 當 Office Open XML 檔案格式損壞時拋出的例外。
 type: docs
 weight: 9190
 url: /zh-hant/aspose.slides/ooxmlcorruptfileexception/
@@ -14,13 +14,13 @@ url: /zh-hant/aspose.slides/ooxmlcorruptfileexception/
 public class OOXMLCorruptFileException : OOXMLException
 ```
 
-## 建構函式
+## 建構式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | 預設建構函式。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 允許加入訊息的建構函式。 |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 包含訊息與內嵌例外的建構函式。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | 預設建構式。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 允許向此例外新增訊息的建構式。 |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 用於建立包含訊息及內部例外的例外的建構式。 |
 
 ### 另請參閱
 

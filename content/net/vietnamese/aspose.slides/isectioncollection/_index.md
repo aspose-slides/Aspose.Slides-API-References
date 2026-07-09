@@ -1,6 +1,6 @@
 ---
 title: ISectionCollection
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Đại diện cho một bộ sưu tập các phần.
 type: docs
 weight: 6900
@@ -24,14 +24,14 @@ public interface ISectionCollection : IGenericCollection<ISection>
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Thêm phần trống vào vị trí chỉ định trong bộ sưu tập. |
+| [AddEmptySection](../../aspose.slides/isectioncollection/addemptysection)(string, int) | Thêm một phần trống vào vị trí được chỉ định của bộ sưu tập. |
 | [AddSection](../../aspose.slides/isectioncollection/addsection)(string, ISlide) | Thêm phần mới bắt đầu từ slide cụ thể. |
 | [AppendEmptySection](../../aspose.slides/isectioncollection/appendemptysection)(string) | Thêm phần trống vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides/isectioncollection/clear)() | Xóa tất cả các phần khỏi bộ sưu tập. |
 | [IndexOf](../../aspose.slides/isectioncollection/indexof)(ISection) | Trả về chỉ mục của phần được chỉ định trong bộ sưu tập. |
-| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Xóa phần. Các slide nằm trong phần sẽ được hợp nhất vào phần trước. |
-| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Xóa phần và các slide nằm trong phần. |
-| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Di chuyển phần và các slide của nó từ bộ sưu tập tới vị trí chỉ định. |
+| [RemoveSection](../../aspose.slides/isectioncollection/removesection)(ISection) | Xóa phần. Các slide chứa trong phần sẽ được hợp nhất vào phần trước. |
+| [RemoveSectionWithSlides](../../aspose.slides/isectioncollection/removesectionwithslides)(ISection) | Xóa phần và các slide chứa trong phần. |
+| [ReorderSectionWithSlides](../../aspose.slides/isectioncollection/reordersectionwithslides)(ISection, int) | Di chuyển phần và các slide của nó từ bộ sưu tập tới vị trí được chỉ định. |
 
 ### Xem thêm
 

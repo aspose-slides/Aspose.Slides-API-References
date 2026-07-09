@@ -1,14 +1,14 @@
 ---
 title: AnimateTextType
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa o tipo de animação de texto de um efeito de animação.
+second_title: Aspose.Sildes para .NET Referência da API
+description: Representa o tipo de texto animado de um efeito de animação.
 type: docs
-weight: 100
+weight: 120
 url: /pt/aspose.slides.animation/animatetexttype/
 ---
-## Enumeração AnimateTextType
+## enumeração AnimateTextType
 
-Representa o tipo de animação de texto de um efeito de animação.
+Representa o tipo de texto animado de um efeito de animação.
 
 ```csharp
 public enum AnimateTextType

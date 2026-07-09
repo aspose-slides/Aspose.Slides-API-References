@@ -18,9 +18,9 @@ public enum DataSourceType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Worksheet | `0` | Sử dụng các đối tượng CellXls để lưu trữ XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu trong worksheet. |
-| StringLiterals | `1` | Sử dụng biến chuỗi truy cập nhanh để lưu trữ XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu. Worksheet KHÔNG được sử dụng để lưu trữ các giá trị. |
-| DoubleLiterals | `2` | Sử dụng biến double truy cập nhanh để lưu trữ XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu. Worksheet KHÔNG được sử dụng để lưu trữ các giá trị. |
+| Worksheet | `0` | Sử dụng các đối tượng CellXls để lưu XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu trong worksheet. |
+| StringLiterals | `1` | Sử dụng biến chuỗi truy cập nhanh để lưu XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu. Worksheet KHÔNG được sử dụng để lưu các giá trị. |
+| DoubleLiterals | `2` | Sử dụng biến double truy cập nhanh để lưu XValue, YValue, Value hoặc BubbleSize của điểm dữ liệu. Worksheet KHÔNG được sử dụng để lưu các giá trị. |
 
 ### Xem thêm
 

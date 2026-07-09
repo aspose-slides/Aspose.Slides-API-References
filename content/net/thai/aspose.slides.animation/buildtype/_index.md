@@ -1,14 +1,14 @@
 ---
 title: BuildType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดว่าข้อความจะปรากฏบนรูปร่างอย่างไรในระหว่างการเคลื่อนไหว.
+description: กำหนดว่าข้อความจะปรากฏบนรูปร่างอย่างไรระหว่างการทำแอนิเมชัน
 type: docs
 weight: 210
 url: /th/aspose.slides.animation/buildtype/
 ---
-## การกำหนดค่า BuildType
+## BuildType enumeration
 
-กำหนดว่าข้อความจะปรากฏบนรูปร่างอย่างไรในระหว่างการเคลื่อนที่
+กำหนดว่าข้อความจะปรากฏบนรูปร่างอย่างไรระหว่างการทำแอนิเมชัน
 
 ```csharp
 public enum BuildType
@@ -18,13 +18,13 @@ public enum BuildType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| AsOneObject | `0` | กับรูปร่างที่บรรจุ |
+| AsOneObject | `0` | กับรูปร่างที่บรรจุอยู่ |
 | AllParagraphsAtOnce | `1` | ทุกย่อหน้า |
-| ByLevelParagraphs1 | `2` | ตามกลุ่มของย่อหน้าในระดับความลึก 1 |
-| ByLevelParagraphs2 | `3` | ตามกลุ่มของย่อหน้าในระดับความลึก 2 |
-| ByLevelParagraphs3 | `4` | ตามกลุ่มของย่อหน้าในระดับความลึก 3 |
-| ByLevelParagraphs4 | `5` | ตามกลุ่มของย่อหน้าในระดับความลึก 4 |
-| ByLevelParagraphs5 | `6` | ตามกลุ่มของย่อหน้าในระดับความลึก 5 |
+| ByLevelParagraphs1 | `2` | ตามกลุ่มของย่อความระดับ 1 |
+| ByLevelParagraphs2 | `3` | ตามกลุ่มของย่อความระดับ 2 |
+| ByLevelParagraphs3 | `4` | ตามกลุ่มของย่อความระดับ 3 |
+| ByLevelParagraphs4 | `5` | ตามกลุ่มของย่อความระดับ 4 |
+| ByLevelParagraphs5 | `6` | ตามกลุ่มของย่อความระดับ 5 |
 
 ### ดูเพิ่มเติม
 

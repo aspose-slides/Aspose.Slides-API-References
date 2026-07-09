@@ -1,14 +1,14 @@
 ---
 title: IColorFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेजेंटेशन में उपयोग किए जाने वाले रंग का प्रतिनिधित्व करता है।
+description: एक प्रस्तुति में उपयोग किए जाने वाले रंग का प्रतिनिधित्व करता है।
 type: docs
 weight: 5490
 url: /hi/aspose.slides/icolorformat/
 ---
 ## IColorFormat इंटरफ़ेस
 
-प्रेजेंटेशन में उपयोग किए जाने वाले रंग का प्रतिनिधित्व करता है।
+एक प्रस्तुति में उपयोग किए जाने वाले रंग का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IColorFormat : IFillParamSource
@@ -18,34 +18,34 @@ public interface IColorFormat : IFillParamSource
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | वापस देता है IFillParamSource इंटरफ़ेस। केवल पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | वापस देता है या सेट करता है एक रंग का नीला घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Byte। |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | वापस देता है परिणामी रंग (सभी रंग परिवर्तन लागू होने पर)। RGB रंग सेट करता है और सभी रंग परिवर्तन साफ़ करता है। पढ़ने/लिखने योग्य Color। |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | वापस देता है रंग पर लागू किए गए रंग परिवर्तन संग्रह। केवल पढ़ने योग्य [`IColorOperationCollection`](../icoloroperationcollection)। |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | वापस देता है या सेट करता है रंग परिभाषा विधि। पढ़ने/लिखने योग्य [`ColorType`](../colortype)। |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | वापस देता है या सेट करता है एक रंग का नीला घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | वापस देता है या सेट करता है एक रंग का हरा घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | वापस देता है या सेट करता है एक रंग का लाल घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | वापस देता है या सेट करता है एक रंग का हरा घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Byte। |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | वापस देता है या सेट करता है HSL रिप्रेजेंटेशन में रंग का ह्यू घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | वापस देता है या सेट करता है HSL रिप्रेजेंटेशन में रंग का ल्यूमिनेंस घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | वापस देता है या सेट करता है रंग प्रीसेट। पढ़ने/लिखने योग्य [`PresetColor`](../presetcolor)। |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | वापस देता है या सेट करता है एक रंग का लाल घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Byte। |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | वापस देता है या सेट करता है HSL रिप्रेजेंटेशन में रंग का सैचुरेशन घटक। सभी रंग परिवर्तन को नजरअंदाज किया जाता है। पढ़ने/लिखने योग्य Single। |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | वापस देता है या सेट करता है रंग जो एक रंग योजना द्वारा पहचाना जाता है। पढ़ने/लिखने योग्य [`SchemeColor`](../schemecolor)। |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | वापस देता है या सेट करता है रंग जो सिस्टम कलर टेबल द्वारा पहचाना जाता है। पढ़ने/लिखने योग्य [`SystemColor`](../systemcolor)। |
+| [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | IFillParamSource इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IFillParamSource`](../ifillparamsource)। |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | रंग के नीले घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Byte। |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | परिणामी रंग लौटाता है (सभी रंग रूपांतरण लागू किए हुए)। RGB रंग सेट करता है और सभी रंग रूपांतरण साफ़ करता है। पढ़ने/लिखने योग्य Color। |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | रंग पर लागू किए गए रंग रूपांतरणों का संग्रह लौटाता है। केवल-पढ़ने योग्य [`IColorOperationCollection`](../icoloroperationcollection)। |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | रंग परिभाषा विधि को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`ColorType`](../colortype)। |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | रंग के नीले घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | रंग के हरे घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | रंग के लाल घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | रंग के हरे घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Byte। |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | HSL प्रतिनिधित्व में रंग के hue घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | HSL प्रतिनिधित्व में रंग के luminance घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | रंग प्रीसेट को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`PresetColor`](../presetcolor)। |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | रंग के लाल घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Byte। |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | HSL प्रतिनिधित्व में रंग के saturation घटक को लौटाता है या सेट करता है। सभी रंग रूपांतरणों को नजरअंदाज़ किया जाता है। पढ़ने/लिखने योग्य Single। |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | रंग योजना द्वारा पहचाने गये रंग को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`SchemeColor`](../schemecolor)। |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | सिस्टम कलर टेबल द्वारा पहचाने गये रंग को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य [`SystemColor`](../systemcolor)। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | कपी करता है रंग फ़ॉर्मेट को "color" से। |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | वापस देता है एक String जो वर्तमान रंग फ़ॉर्मेट का प्रतिनिधित्व करता है। |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | "color" से रंग स्वरूप कॉपी करें। |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | वर्तमान रंग स्वरूप का प्रतिनिधित्व करने वाली String लौटाता है। |
 
-### देखें
+### देखें भी
 
-* इंटरफ़ेस [IFillParamSource](../ifillparamsource)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* interface [IFillParamSource](../ifillparamsource)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

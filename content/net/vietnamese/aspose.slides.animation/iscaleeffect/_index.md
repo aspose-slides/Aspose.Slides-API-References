@@ -1,14 +1,14 @@
 ---
 title: IScaleEffect
-second_title: Aspose.Sildes cho .NET Tham khảo API
-description: Đại diện cho hiệu ứng thu phóng hoạt ảnh.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn hiệu ứng thu phóng của hoạt ảnh.
 type: docs
 weight: 580
 url: /vi/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect giao diện
 
-Đại diện cho hiệu ứng thu phóng hoạt ảnh.
+Biểu diễn hiệu ứng thu phóng của hoạt ảnh.
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -19,10 +19,10 @@ public interface IScaleEffect : IBehavior
 | Tên | Mô tả |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | Cho phép lấy giao diện IBehavior cơ bản. Chỉ đọc [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Mô tả giá trị độ lệch tương đối cho hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | Mô tả giá trị offset tương đối cho hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
 | [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | Xác định tọa độ x/y để bắt đầu hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
 | [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | Xác định vị trí mục tiêu cho hiệu ứng thu phóng hoạt ảnh (theo phần trăm). Đọc/ghi PointF. |
-| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Xác định xem nội dung có nên được phóng to hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | Xác định liệu nội dung có nên được phóng to hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Xem thêm
 

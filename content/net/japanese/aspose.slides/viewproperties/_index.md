@@ -1,14 +1,14 @@
 ---
 title: ViewProperties
-second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーション全体のビュー プロパティ。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: プレゼンテーション全体にわたるビュー プロパティ。
 type: docs
-weight: 11720
+weight: 11740
 url: /ja/aspose.slides/viewproperties/
 ---
 ## ViewProperties クラス
 
-プレゼンテーション全体のビュー プロパティ。
+Presentation wide view properties.
 
 ```csharp
 public class ViewProperties : IViewProperties
@@ -16,14 +16,14 @@ public class ViewProperties : IViewProperties
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | プレゼンテーション ドキュメントの基になるグリッドに使用すべきグリッド間隔（ポイント）を取得または設定します。 読み取り/書き込み Single。 |
-| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | プレゼンテーション ドキュメントが最後に保存されたときに使用されたビュー モードを指定します。 読み取り/書き込み [`ViewType`](../viewtype)。 |
-| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 標準ビューのプロパティを表します。 標準ビューは 3 つのコンテンツ領域で構成されます：スライド自体、サイド コンテンツ領域、下部コンテンツ領域。 読み取り専用 [`INormalViewProperties`](../inormalviewproperties)。 |
-| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | ノート ビュー モードに関連付けられた共通ビュー プロパティを指定します。 読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
-| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | スライド コメントを表示するかどうかを指定します。 読み取り/書き込み [`NullableBool`](../nullablebool)。 |
-| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | スライド ビュー モードに関連付けられた共通ビュー プロパティを指定します。 読み取り専用 [`ICommonSlideViewProperties`](../icommonslideviewproperties)。 |
+| [GridSpacing](../../aspose.slides/viewproperties/gridspacing) { get; set; } | プレゼンテーション ドキュメントの基になるグリッドに使用すべきグリッド間隔（ポイント単位）を取得または設定します。Read/write Single. |
+| [LastView](../../aspose.slides/viewproperties/lastview) { get; set; } | プレゼンテーション ドキュメントが最後に保存されたときに使用されたビュー モードを指定します。Read/write [`ViewType`](../viewtype). |
+| [NormalViewProperties](../../aspose.slides/viewproperties/normalviewproperties) { get; } | 標準ビュー プロパティを表します。標準ビューは、スライド自体、サイド コンテンツ領域、下部コンテンツ領域の 3 つのコンテンツ領域で構成されます。Read-only [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/viewproperties/notesviewproperties) { get; } | ノート ビュー モードに関連付けられた共通ビュー プロパティを指定します。Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [ShowComments](../../aspose.slides/viewproperties/showcomments) { get; set; } | スライド コメントを表示するかどうかを指定します。Read/write [`NullableBool`](../nullablebool). |
+| [SlideViewProperties](../../aspose.slides/viewproperties/slideviewproperties) { get; } | スライド ビュー モードに関連付けられた共通ビュー プロパティを指定します。Read-only [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### 参照
 

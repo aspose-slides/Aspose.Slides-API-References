@@ -1,9 +1,9 @@
 ---
 title: InkBrush
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Bir inkBrush nesnesini temsil eder.
 type: docs
-weight: 7550
+weight: 7570
 url: /tr/aspose.slides.ink/inkbrush/
 ---
 ## InkBrush sınıfı
@@ -18,9 +18,9 @@ public class InkBrush : IInkBrush
 
 | Ad | Açıklama |
 | --- | --- |
-| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Bir satır için fırça rengini alır veya ayarlar. |
-| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | Mürekkep efekti türünü (ör. Galaxy, Gold, Silver) alır; bu, mürekkep darbesinin görsel stilini tanımlar. Değer, brush özelliği "inkEffects" içinde ayrıştırılır. Tanınan bir efekt belirtilmezse NotDefined döndürülür. |
-| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Bir satır için fırça boyutunu puan cinsinden alır veya ayarlar. |
+| [Color](../../aspose.slides.ink/inkbrush/color) { get; set; } | Bir satırın fırça rengini alır veya ayarlar. |
+| [InkEffect](../../aspose.slides.ink/inkbrush/inkeffect) { get; } | İnki darbelerinin görsel stilini tanımlayan mürekkep etkisi türünü alır (ör. Galaxy, Gold, Silver). Değer, fırça özelliği "inkEffects" içinden ayrıştırılır. Tanımlı bir efekt belirtilmezse, NotDefined döndürülür. |
+| [Size](../../aspose.slides.ink/inkbrush/size) { get; set; } | Bir satır için fırça boyutunu nokta cinsinden alır veya ayarlar. |
 
 ### Ayrıca Bakınız
 

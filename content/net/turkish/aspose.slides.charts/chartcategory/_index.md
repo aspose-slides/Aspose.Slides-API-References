@@ -1,9 +1,9 @@
 ---
 title: ChartCategory
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Grafik kategorilerini temsil eder.
 type: docs
-weight: 1250
+weight: 1270
 url: /tr/aspose.slides.charts/chartcategory/
 ---
 ## ChartCategory sınıfı
@@ -18,11 +18,11 @@ public class ChartCategory : IChartCategory
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise, seviye "0" için IChartDataCell nesnesi kullanılır. Okunur/Yazılır [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | AsLiteral nesnesini döndürür veya ayarlar. Okunur/Yazılır Object. |
-| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Grafik kategori gruplama seviyelerinin değerlerinin yönetilen kapsayıcısı. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruplama seviyelerinin indekslemesi sıfır tabanlıdır. Salt okunur [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
-| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Doğru ise AsCell özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategoriyi depolamak için kullanılır (bu durumda çok seviyeli kategori desteklenir). Yanlış ise AsLiteral özelliği geçerlidir. Başka bir deyişle, çalışma sayfası kategori depolamak için kullanılmaz (ve bu durumda çok seviyeli kategori desteklenmez). Salt okunur Boolean. |
-| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | UseCell doğru ise bu özellik AsCell.Value özelliğini temsil eder. UseCell yanlış ise bu özellik AsLiteral özelliğini temsil eder. Okunur/Yazılır Object. |
+| [AsCell](../../aspose.slides.charts/chartcategory/ascell) { get; set; } | IChartDataCell nesnesini döndürür veya ayarlar. Kategori çok seviyeli ise seviyeye "0" için IChartDataCell nesnesi kullanılır. Okunur/Yazılabilir [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteral](../../aspose.slides.charts/chartcategory/asliteral) { get; set; } | AsLiteral nesnesini döndürür veya ayarlar. Okunur/Yazılabilir Object. |
+| [GroupingLevels](../../aspose.slides.charts/chartcategory/groupinglevels) { get; } | Grafik kategori gruplama seviyelerinin değerlerinin yönetilen konteyneri. Çok seviyeli kategori birden fazla gruplama seviyesi içerir. Gruptama seviyelerinin indekslemesi sıfır tabanlıdır. Sadece okunur [`IChartCategoryLevelsManager`](../ichartcategorylevelsmanager). |
+| [UseCell](../../aspose.slides.charts/chartcategory/usecell) { get; } | Doğru ise AsCell özelliği geçerlidir. Başka bir deyişle, kategori depolamak için çalışma sayfası kullanılır (bu durumda çok seviyeli kategori desteklenir). Yanlış ise AsLiteral özelliği geçerlidir. Başka bir deyişle, kategori depolamak için çalışma sayfası KULLANILMAZ (ve bu durumda çok seviyeli kategoriler desteklenmez). Sadece okunur Boolean. |
+| [Value](../../aspose.slides.charts/chartcategory/value) { get; set; } | UseCell doğru ise bu özellik AsCell.Value özelliğini temsil eder. UseCell yanlış ise bu özellik AsLiteral özelliğini temsil eder. Okunur/Yazılabilir Object. |
 
 ## Yöntemler
 
@@ -30,7 +30,7 @@ public class ChartCategory : IChartCategory
 | --- | --- |
 | [Remove](../../aspose.slides.charts/chartcategory/remove)() | Kategoriyi grafikten kaldırır. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IChartCategory](../ichartcategory)
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -1,39 +1,39 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
 description: แสดงประเภทของ placeholder.
 type: docs
 weight: 9450
 url: /th/aspose.slides/placeholdertype/
 ---
-## PlaceholderType การกำหนดค่าแบบ enum
+## PlaceholderType enumeration
 
-แสดงประเภทของ placeholder.
+Represents the type of a placeholder.
 
 ```csharp
 public enum PlaceholderType : sbyte
 ```
 
-### ค่า
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Title | `0` | ชื่อเรื่อง. |
-| Body | `1` | เนื้อหา. |
-| CenteredTitle | `2` | ชื่อเรื่องกึ่งกลาง. |
-| Subtitle | `3` | หัวเรื่องย่อย. |
-| DateAndTime | `4` | วันที่และเวลา. |
-| SlideNumber | `5` | หมายเลขสไลด์. |
-| Footer | `6` | ส่วนท้าย. |
-| Header | `7` | ส่วนหัว. |
-| Object | `8` | วัตถุ. |
-| Chart | `9` | แผนภูมิ. |
-| Table | `10` | ตาราง. |
-| ClipArt | `11` | คลิปอาร์ต. |
-| Diagram | `12` | ไดอะแกรม. |
-| Media | `13` | สื่อ. |
-| SlideImage | `14` | ภาพสไลด์. |
-| Picture | `15` | รูปภาพ. |
+| Title | `0` | Title. |
+| Body | `1` | Body. |
+| CenteredTitle | `2` | Centered Title. |
+| Subtitle | `3` | Subtitle. |
+| DateAndTime | `4` | Date and Time. |
+| SlideNumber | `5` | Slide Number. |
+| Footer | `6` | Footer. |
+| Header | `7` | Header. |
+| Object | `8` | Object. |
+| Chart | `9` | Chart. |
+| Table | `10` | Table. |
+| ClipArt | `11` | Clip Art. |
+| Diagram | `12` | Diagram. |
+| Media | `13` | Media. |
+| SlideImage | `14` | Slide Image. |
+| Picture | `15` | Picture. |
 
 ### ดูเพิ่มเติม
 

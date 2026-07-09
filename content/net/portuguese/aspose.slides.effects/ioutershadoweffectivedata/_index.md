@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Aspose.Sildes para .NET Referência de API
-description: Objeto imutável que representa um efeito de sombra externa.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que representa um efeito de Sombra Externa.
 type: docs
-weight: 3450
+weight: 3470
 url: /pt/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData interface
 
-Objeto imutável que representa um efeito de sombra externa.
+Objeto imutável que representa um efeito de Sombra Externa.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -30,7 +30,7 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Especifica o ângulo de inclinação horizontal (em graus). Somente leitura Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Especifica o ângulo de inclinação vertical (em graus). Somente leitura Double. |
 
-### Veja Também
+### Ver Também
 
 * interface [IEffectEffectiveData](../ieffecteffectivedata)
 * namespace [Aspose.Slides.Effects](../../aspose.slides.effects)

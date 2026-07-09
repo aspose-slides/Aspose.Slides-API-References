@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 不可變的物件，表示灰階效果。將所有效果顏色值轉換為與其亮度相對應的灰階陰影。效果的 alpha 不透明度值不受影響。
+second_title: Aspose.Sildes 用於 .NET 的 API 參考
+description: 不可變物件，代表灰階效果。將所有效果的顏色值轉換為與其亮度相對應的灰階色調。效果的 alpha 不透明度值不受影響。
 type: docs
 weight: 3350
 url: /zh-hant/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData 介面
 
-不可變的物件，表示灰階效果。將所有效果顏色值轉換為與其亮度相對應的灰階陰影。效果的 alpha（不透明度）值不受影響。
+不可變物件，代表灰階效果。將所有效果的顏色值轉換為與其亮度相對應的灰階色調。效果的 alpha（不透明度）值不受影響。
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData

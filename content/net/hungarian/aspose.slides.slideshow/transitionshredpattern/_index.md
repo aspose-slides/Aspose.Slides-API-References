@@ -1,14 +1,14 @@
 ---
 title: TransitionShredPattern
-second_title: Aspose.Sildes a .NET API referencia
-description: Megadja azt a geometriai alakzatot, amely egymásra illeszkedve kitölti a nagyobb területet.
+second_title: Aspose.Sildes a .NET API hivatkozása
+description: Megad egy geometriai alakzatot, amely egymásra illeszkedve kitölti a nagyobb területet.
 type: docs
-weight: 10390
+weight: 10410
 url: /hu/aspose.slides.slideshow/transitionshredpattern/
 ---
-## TransitionShredPattern felsorolás
+## TransitionShredPattern enumeráció
 
-Megadja azt a geometriai alakzatot, amely egymásra illeszkedve kitölti a nagyobb területet.
+Megad egy geometriai alakzatot, amely egymásra illeszkedve kitölti a nagyobb területet.
 
 ```csharp
 public enum TransitionShredPattern

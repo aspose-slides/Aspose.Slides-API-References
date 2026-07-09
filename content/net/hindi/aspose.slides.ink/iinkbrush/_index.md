@@ -1,6 +1,6 @@
 ---
 title: IInkBrush
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: ट्रेस ब्रश का प्रतिनिधित्व करता है।
 type: docs
 weight: 7530
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush इंटरफ़ेस
 
-ट्रेस ब्रश को दर्शाता है।
+ट्रेस ब्रश का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IInkBrush
@@ -19,8 +19,8 @@ public interface IInkBrush
 | नाम | विवरण |
 | --- | --- |
 | [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | रेखा के लिए ब्रश का रंग प्राप्त करता है या सेट करता है। |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | इंक प्रभाव प्रकार (जैसे Galaxy, Gold, Silver) प्राप्त करता है जो इंक स्ट्रोक की दृश्य शैली को परिभाषित करता है। मान ब्रश प्रॉपर्टी "inkEffects" से पार्स किया जाता है। यदि कोई मान्यता प्राप्त प्रभाव निर्दिष्ट नहीं है तो NotDefined 반환 किया जाता है। |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | रेखा के लिए पॉइंट्स में ब्रश का आकार प्राप्त करता है या सेट करता है। |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | इंक इफ़ेक्ट प्रकार (जैसे, Galaxy, Gold, Silver) प्राप्त करता है जो इंक स्ट्रोक की दृश्य शैली को परिभाषित करता है। यह मान ब्रश प्रॉपर्टी "inkEffects" से पार्स किया जाता है। यदि कोई मान्यता प्राप्त इफ़ेक्ट निर्दिष्ट नहीं है, तो NotDefined लौटाया जाता है। |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | रेखा के लिए बिंदुओं में ब्रश आकार प्राप्त करता है या सेट करता है। |
 
 ### संबंधित देखें
 

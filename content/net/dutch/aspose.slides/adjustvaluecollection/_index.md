@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van shape-aanpassingen voor.
+description: Stelt een collectie van aanpassingen van vormen voor.
 type: docs
 weight: 100
 url: /nl/aspose.slides/adjustvaluecollection/
 ---
 ## AdjustValueCollection klasse
 
-Stelt een collectie van shape-aanpassingen voor.
+Stelt een collectie van aanpassingen van een vorm voor.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -16,16 +16,16 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 ## Eigenschappen
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Retourneert een aantal aanpassingen. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Retourneert een aanpassing op basis van index. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd (thread-safe) is. Alleen-lezen Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | Retourneert de aanpassing op basis van de index. |
 | [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
-| Naam | Omschrijving |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/adjustvaluecollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
 

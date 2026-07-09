@@ -1,23 +1,24 @@
 ---
 title: IReflection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một hiệu ứng phản chiếu.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho hiệu ứng phản chiếu.
 type: docs
 weight: 3500
 url: /vi/aspose.slides.effects/ireflection/
 ---
-## Giao diện IReflection
+## giao diện IReflection
 
-Biểu diễn một hiệu ứng phản chiếu.
+Represents a reflection effect.
 
 ```csharp
 public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>, 
     IImageTransformOperation
 ```
 
+
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | Cho phép lấy giao diện IAccessiblePVIObject cơ bản. Chỉ đọc [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
 | [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | Cho phép lấy giao diện IImageTransformOperation cơ bản. Chỉ đọc [`IImageTransformOperation`](../iimagetransformoperation). |
@@ -25,16 +26,16 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 | [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | Hướng phản chiếu. Đọc/ghi Single. |
 | [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | Khoảng cách phản chiếu. Đọc/ghi Double. |
 | [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | Xác định vị trí cuối (trên dốc gradient alpha) của giá trị alpha cuối (phần trăm). Đọc/ghi Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Độ mờ cuối của phản chiếu (phần trăm). Đọc/ghi Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Xác định hướng để dịch phản chiếu (góc). Đọc/ghi Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | Độ mờ cuối của phản chiếu. (phần trăm). Đọc/ghi Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | Xác định hướng dịch phản chiếu. (góc). Đọc/ghi Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | Căn hình chữ nhật. Đọc/ghi [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Xác định liệu phản chiếu có quay cùng hình dạng khi hình dạng bị quay hay không. Đọc/ghi Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Xác định hệ số tỷ lệ ngang, tỷ lệ âm gây lật (phần trăm). Đọc/ghi Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Xác định hệ số tỷ lệ dọc, tỷ lệ âm gây lật (phần trăm). Đọc/ghi Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Xác định góc nghiêng ngang. Đọc/ghi Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Xác định góc nghiêng dọc. Đọc/ghi Double. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | Xác định xem phản chiếu có nên xoay cùng hình dạng khi hình dạng bị xoay hay không. Đọc/ghi Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | Xác định hệ số co dọc ngang, co âm gây lật. (phần trăm) Đọc/ghi Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | Xác định hệ số co dọc dọc, co âm gây lật. (phần trăm) Đọc/ghi Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | Xác định góc xiên dọc ngang. Đọc/ghi Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | Xác định góc xiên dọc đứng. Đọc/ghi Double. |
 | [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | Xác định vị trí bắt đầu (trên dốc gradient alpha) của giá trị alpha bắt đầu (phần trăm). Đọc/ghi Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Độ mờ bắt đầu của phản chiếu (phần trăm). Đọc/ghi Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | Độ mờ bắt đầu của phản chiếu. (phần trăm). Đọc/ghi Single. |
 
 ### Xem thêm
 
@@ -42,6 +43,6 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 * giao diện [IReflectionEffectiveData](../ireflectioneffectivedata)
 * giao diện [IImageTransformOperation](../iimagetransformoperation)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)
-* assembly [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: TextToHtmlConversionOptions
-second_title: Aspose.Sildes per .NET API Reference
-description: Opzioni per estrarre HTML dal testo Pptx.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Opzioni per l'estrazione di HTML dal testo Pptx.
 type: docs
-weight: 4530
+weight: 4550
 url: /it/aspose.slides.export/texttohtmlconversionoptions/
 ---
 ## TextToHtmlConversionOptions classe
 
-Opzioni per estrarre HTML dal testo Pptx.
+Opzioni per l'estrazione di HTML dal testo Pptx.
 
 ```csharp
 public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
@@ -24,10 +24,10 @@ public sealed class TextToHtmlConversionOptions : ITextToHtmlConversionOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Restituisce o imposta il valore, indicando se le intestazioni degli Appunti devono essere aggiunte. Lettura/scrittura Boolean. |
-| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Restituisce o imposta il nome della codifica HTML. Questo valore verrà salvato nel file HTML generato, ma spetta al chiamante assicurarsi che il file venga salvato con questa codifica. Lettura/scrittura String. |
-| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Restituisce o imposta un oggetto di callback che controlla come l'oggetto esterno verrà memorizzato. Lettura/scrittura [`ILinkEmbedController`](../ilinkembedcontroller). |
-| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Restituisce o imposta la profondità ereditata per le proprietà di testo. Lettura/scrittura [`TextInheritanceLimit`](../textinheritancelimit). |
+| [AddClipboardFragmentHeader](../../aspose.slides.export/texttohtmlconversionoptions/addclipboardfragmentheader) { get; set; } | Restituisce o imposta il valore, indicando se le intestazioni Clipboard devono essere aggiunte. Lettura/Scrittura Boolean. |
+| [EncodingName](../../aspose.slides.export/texttohtmlconversionoptions/encodingname) { get; set; } | Restituisce o imposta il nome della codifica html. Questo valore sarà salvato nel file HTML generato, ma spetta al chiamante assicurarsi che il file venga salvato con questa codifica. Lettura/Scrittura Stringa. |
+| [LinkEmbedController](../../aspose.slides.export/texttohtmlconversionoptions/linkembedcontroller) { get; set; } | Restituisce o imposta un oggetto di callback che controlla come l'oggetto esterno verrà memorizzato. Lettura/Scrittura [`ILinkEmbedController`](../ilinkembedcontroller). |
+| [TextInheritanceLimit](../../aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit) { get; set; } | Restituisce o imposta la profondità ereditata per le proprietà di testo. Lettura/Scrittura [`TextInheritanceLimit`](../textinheritancelimit). |
 
 ### Vedi anche
 

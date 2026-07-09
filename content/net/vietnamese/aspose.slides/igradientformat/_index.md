@@ -1,12 +1,12 @@
 ---
 title: IGradientFormat
-second_title: Aspose.Sildes cho .NET API Tham chiếu
-description: Biểu diễn định dạng gradient.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn một định dạng gradient.
 type: docs
 weight: 6000
 url: /vi/aspose.slides/igradientformat/
 ---
-## IGradientFormat giao diện
+## Giao diện IGradientFormat
 
 Biểu diễn định dạng gradient.
 
@@ -21,12 +21,12 @@ public interface IGradientFormat : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Cho phép lấy giao diện IFillParamSource cơ bản. Chỉ đọc [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Trả về hoặc đặt kiểu của gradient. Đọc/ghi [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Trả về hoặc đặt hình dạng của gradient. Đọc/ghi [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Trả về tập hợp các điểm dừng gradient. Chỉ đọc [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Trả về bộ sưu tập các điểm dừng gradient. Chỉ đọc [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Trả về hoặc đặt góc của gradient. Đọc/ghi Single. |
 | [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Xác định liệu gradient có được mở rộng hay không. Đọc/ghi [`NullableBool`](../nullablebool). |
 | [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Trả về hoặc đặt chế độ lật cho gradient. Đọc/ghi [`TileFlip`](../tileflip). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IFillParamSource](../ifillparamsource)
 * không gian tên [Aspose.Slides](../../aspose.slides)

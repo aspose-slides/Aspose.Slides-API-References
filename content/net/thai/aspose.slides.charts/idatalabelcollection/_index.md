@@ -1,14 +1,14 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: แสดงชุดป้ายกำกับของซีรีส์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของป้ายข้อมูลของซีรีส์.
 type: docs
 weight: 2030
 url: /th/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection อินเทอร์เฟซ
 
-Represents a series labels.
+แสดงป้ายข้อมูลของซีรีส์.
 
 ```csharp
 public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
@@ -16,24 +16,24 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IChartComponent พื้นฐาน. อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
-| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEnumerable พื้นฐาน. อ่านอย่างเดียว IEnumerable. |
-| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | รับจำนวนป้ายข้อมูลทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | รับจำนวนป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | คืนค่าฟอร์แมตเริ่มต้นของป้ายข้อมูลทั้งหมดในคอลเลกชัน. อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False หมายความว่าป้ายข้อมูลไม่มองเห็นได้โดยค่าเริ่มต้น (และดังนั้นแฟล็ก Show* ทั้งหมด (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | รับป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีระบุ. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | แสดงรูปแบบเส้นนำของป้ายข้อมูล. อ่านอย่างเดียว [`IChartLinesFormat`](../ichartlinesformat). |
-| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | คืนค่าซีรีส์แผนภูมิต้นแบบ. อ่านอย่างเดียว [`IChartSeries`](../ichartseries). |
+| [AsIChartComponent](../../aspose.slides.charts/idatalabelcollection/asichartcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IChartComponent พื้นฐาน อ่านอย่างเดียว [`IChartComponent`](../ichartcomponent). |
+| [AsIEnumerable](../../aspose.slides.charts/idatalabelcollection/asienumerable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEnumerable พื้นฐาน อ่านอย่างเดียว IEnumerable. |
+| [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | ดึงจำนวนของป้ายข้อมูลทั้งหมดในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | ดึงจำนวนของป้ายข้อมูลที่มองเห็นได้ในคอลเลกชัน อ่านอย่างเดียว Int32. |
+| [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | ส่งคืนรูปแบบเริ่มต้นของป้ายข้อมูลทั้งหมดในคอลเลกชัน อ่านอย่างเดียว [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False หมายความว่าป้ายข้อมูลจะไม่ปรากฏโดยค่าเริ่มต้น (และดังนั้นทุกค่า Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat จะเป็น false) อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | ดึงป้ายข้อมูลสำหรับจุดข้อมูลที่มีดัชนีที่ระบุ. |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | แทนรูปแบบเส้นนำของป้ายข้อมูล อ่านอย่างเดียว [`IChartLinesFormat`](../ichartlinesformat). |
+| [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | ส่งคืนซีรีส์แผนภูมิแม่อ่านอย่างเดียว [`IChartSeries`](../ichartseries). |
 
 ## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | ทำให้ป้ายข้อมูลถูกซ่อนโดยค่าเริ่มต้นโดยการตั้งค่าแฟล็ก Show* ทั้งหมด (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat ให้เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้. |
-| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | คืนค่าดัชนีของ DataLabel ที่ระบุในคอลเลกชัน. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | ทำให้ป้ายข้อมูลถูกซ่อนโดยค่าเริ่มต้นโดยตั้งค่าทั้งหมด Show*-flags (ShowValue, ...) ของคุณสมบัติ DefaultDataLabelFormat เป็นสถานะ false. IsVisible จะเป็น false หลังจากนี้. |
+| [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | ส่งคืนดัชนีของ DataLabel ที่ระบุในคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

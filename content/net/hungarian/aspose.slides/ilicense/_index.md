@@ -1,9 +1,9 @@
 ---
 title: ILicense
 second_title: Aspose.Sildes .NET API Referencia
-description: Módszereket biztosít a komponens licenceléséhez.
+description: Metódusokat biztosít a komponens licenceléséhez.
 type: docs
-weight: 6240
+weight: 6260
 url: /hu/aspose.slides/ilicense/
 ---
 ## ILicense interfész
@@ -14,18 +14,18 @@ Metódusokat biztosít a komponens licenceléséhez.
 public interface ILicense
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Ellenőrzi, hogy a licenc a komponensre alkalmazva van-e |
+| [IsLicensed](../../aspose.slides/ilicense/islicensed)() | Ellenőrzi, hogy a licenc alkalmazva van-e a komponensre |
 | [ResetLicense](../../aspose.slides/ilicense/resetlicense)() | Visszaállítja a licencet |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense)(Stream) | Licenceli a komponenst. |
 | [SetLicense](../../aspose.slides/ilicense/setlicense#setlicense_1)(string) | Licenceli a komponenst. |
 
 ### Példák
 
-Ebben a példában megpróbálja megtalálni a MyLicense.lic nevű licencfájlt a komponenst tartalmazó mappában, a hívó összeállítást tartalmazó mappában, a belépési összeállítás mappájában, majd a hívó összeállítás beágyazott erőforrásaiban.
+Ebben a példában megpróbálja megtalálni a MyLicense.lic nevű licencfájlt a komponenst tartalmazó mappában, a hívó összeállítást tartalmazó mappában, a belépő összeállítás mappájában, majd a hívó összeállítás beágyazott erőforrásaiban.
 
 ```csharp
 [C#]

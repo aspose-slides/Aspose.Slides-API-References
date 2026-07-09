@@ -1,9 +1,9 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Slides için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Animasyon etkisinin alt türlerini temsil eder.
 type: docs
-weight: 320
+weight: 340
 url: /tr/aspose.slides.animation/effectsubtype/
 ---
 ## EffectSubtype enum

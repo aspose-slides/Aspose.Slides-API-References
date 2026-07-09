@@ -1,9 +1,9 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili koleksi objek GradientStopData.
 type: docs
-weight: 5020
+weight: 5040
 url: /id/aspose.slides/gradientstopcollectioneffectivedata/
 ---
 ## GradientStopCollectionEffectiveData kelas
@@ -21,7 +21,7 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 | [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | Mengembalikan jumlah gradient stop dalam koleksi. Baca-saja Int32. |
 | [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Baca-saja Boolean. |
 | [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | Mengembalikan gradient stop berdasarkan indeks. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Mengembalikan akar sinkronisasi. Baca-saja Object. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | Mengembalikan root sinkronisasi. Baca-saja Object. |
 
 ## Metode
 

@@ -1,6 +1,6 @@
 ---
 title: Collect
-second_title: Aspose.Sildes .NET API 參考手冊
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示一組旨在從 Presentation../aspose.slides/presentation 收集不同類型模型物件的方法。
 type: docs
 weight: 7860
@@ -18,7 +18,7 @@ public static class Collect
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | 在 [`Presentation`](../../aspose.slides/presentation) 中收集所有 [`Shape`](../../aspose.slides/shape) 實例。 |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | 在 [`Presentation`](../../aspose.slides/presentation) 中收集 [`Shape`](../../aspose.slides/shape) 的所有實例。 |
 
 ### 範例
 

@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceProject
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: बाहरी VBA प्रोजेक्ट का संदर्भ दर्शाता है।
+description: बाहरी VBA प्रोजेक्ट के संदर्भ का प्रतिनिधित्व करता है।
 type: docs
 weight: 11620
 url: /hi/aspose.slides.vba/ivbareferenceproject/
 ---
 ## IVbaReferenceProject इंटरफ़ेस
 
-बाहरी VBA प्रोजेक्ट का संदर्भ दर्शाता है।
+बाहरी VBA प्रोजेक्ट के संदर्भ का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IVbaReferenceProject : IVbaReference
@@ -18,9 +18,9 @@ public interface IVbaReferenceProject : IVbaReference
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | IVbaReference इंटरफ़ेस को लौटाता है। केवल-पढ़नेयोग्य [`IVbaReference`](../ivbareference)। |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceproject/asivbareference) { get; } | IVbaReference इंटरफ़ेस को वापस देता है। केवल-पढ़ने योग्य [`IVbaReference`](../ivbareference)। |
 
-### अन्य देखें
+### देखें
 
 * इंटरफ़ेस [IVbaReference](../ivbareference)
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)

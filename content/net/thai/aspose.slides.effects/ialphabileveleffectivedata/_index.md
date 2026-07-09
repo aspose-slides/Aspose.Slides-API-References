@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level. ค่าของ Alpha Opacity ที่น้อยกว่าค่าธรณีจะถูกเปลี่ยนเป็น 0 โปร่งใสเต็มที่ และค่าของ alpha ที่มากกว่าหรือเท่ากับค่าธรณีจะถูกเปลี่ยนเป็น 100 ทึบเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level. ค่าความทึบ Alpha ที่น้อยกว่าขีดจำกัดจะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่าที่เท่ากับหรือมากกว่าขีดจำกัดจะถูกเปลี่ยนเป็น 100 (ทึบเต็มที่).
 type: docs
 weight: 3030
 url: /th/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level. ค่าของ Alpha (Opacity) ที่น้อยกว่าค่าธรณีจะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่าของ Alpha ที่มากกว่าหรือเท่ากับค่าธรณีจะถูกเปลี่ยนเป็น 100% (ทึบเต็มที่).
+อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Bi-Level ค่าของ Alpha (Opacity) ที่น้อยกว่าขีดจำกัดจะถูกเปลี่ยนเป็น 0 (โปร่งใสเต็มที่) และค่าที่เท่ากับหรือมากกว่าขีดจำกัดจะถูกเปลี่ยนเป็น 100% (ทึบเต็มที่)
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | คืนค่าธรณีของเอฟเฟกต์. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | ส่งกลับค่าขอบเขตของเอฟเฟกต์. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

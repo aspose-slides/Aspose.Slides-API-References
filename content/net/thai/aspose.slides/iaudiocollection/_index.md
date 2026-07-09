@@ -1,12 +1,12 @@
 ---
 title: IAudioCollection
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของคอลเลกชันไฟล์เสียงที่ฝังอยู่
+description: แสดงถึงคอลเลกชันของไฟล์เสียงที่ฝังอยู่
 type: docs
 weight: 5220
 url: /th/aspose.slides/iaudiocollection/
 ---
-## IAudioCollection อินเทอร์เฟซ
+## IAudioCollection ส่วนต่อประสาน
 
 Represents a collection of embedded audio files.
 
@@ -18,20 +18,20 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | ดึงองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Gets the element at the specified index. Read-only [`IAudio`](../iaudio). |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | สร้างและเพิ่มไฟล์เสียงไปยังงานนำเสนอจากอาร์เรย์ไบต์. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | เพิ่มสำเนาไฟล์เสียงจากงานนำเสนออื่น. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มไฟล์เสียงไปยังงานนำเสนอจากสตรีม. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | สร้างและเพิ่มไฟล์เสียงไปยังงานนำเสนอจากอาเรย์ไบต์ |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | เพิ่มสำเนาของไฟล์เสียงจากงานนำเสนออื่น |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มไฟล์เสียงไปยังงานนำเสนอจากสตรีม |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* อินเทอร์เฟซ [IAudio](../iaudio)
+* ส่วนต่อประสาน [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* ส่วนต่อประสาน [IAudio](../iaudio)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

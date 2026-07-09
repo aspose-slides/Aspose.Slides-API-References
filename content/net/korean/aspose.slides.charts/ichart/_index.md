@@ -1,14 +1,14 @@
 ---
 title: IChart
-second_title: Aspose.Sildes for .NET API 참조
-description: 슬라이드에 그래픽 차트를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 슬라이드의 그래픽 차트를 나타냅니다.
 type: docs
 weight: 1740
 url: /ko/aspose.slides.charts/ichart/
 ---
 ## IChart 인터페이스
 
-슬라이드에 그래픽 차트를 나타냅니다.
+슬라이드의 그래픽 차트를 나타냅니다.
 
 ```csharp
 public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideThemeable
@@ -21,26 +21,26 @@ public interface IChart : IFormattedTextContainer, IGraphicalObject, IOverrideTh
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ichart/asiformattedtextcontainer) { get; } | 기본 IFormattedTextContainer 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [AsIGraphicalObject](../../aspose.slides.charts/ichart/asigraphicalobject) { get; } | 기본 IGraphicalObject 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [AsIOverrideThemeable](../../aspose.slides.charts/ichart/asioverridethemeable) { get; } | IOverrideThemeable 인터페이스를 반환합니다. 읽기 전용 [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | 차트 축에 대한 접근을 제공합니다. 읽기 전용 [`IAxesManager`](../iaxesmanager). |
-| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3D 차트의 뒷면 벽 형식을 변경할 수 있는 개체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
+| [Axes](../../aspose.slides.charts/ichart/axes) { get; } | 차트 축에 대한 액세스를 제공합니다. 읽기 전용 [`IAxesManager`](../iaxesmanager). |
+| [BackWall](../../aspose.slides.charts/ichart/backwall) { get; } | 3D 차트의 뒷면 벽 서식을 변경할 수 있는 객체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
 | [ChartData](../../aspose.slides.charts/ichart/chartdata) { get; } | 차트와 연결되거나 포함된 데이터에 대한 정보를 반환합니다. 읽기 전용 [`IChartData`](../ichartdata). |
 | [ChartDataTable](../../aspose.slides.charts/ichart/chartdatatable) { get; } | 차트의 데이터 테이블을 반환합니다. 읽기 전용 [`IDataTable`](../idatatable). |
 | [ChartTitle](../../aspose.slides.charts/ichart/charttitle) { get; } | 차트 제목을 반환하거나 설정합니다. 읽기 전용 [`IChartTitle`](../icharttitle). |
-| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | 차트에서 빈 셀을 표시하는 방식을 반환하거나 설정합니다. 읽기/쓰기 [`DisplayBlanksAsType`](../displayblanksastype). |
-| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3D 차트의 바닥 형식을 변경할 수 있는 개체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
+| [DisplayBlanksAs](../../aspose.slides.charts/ichart/displayblanksas) { get; set; } | 차트에서 빈 셀을 플롯하는 방식을 반환하거나 설정합니다. 읽기/쓰기 [`DisplayBlanksAsType`](../displayblanksastype). |
+| [Floor](../../aspose.slides.charts/ichart/floor) { get; } | 3D 차트의 바닥 서식을 변경할 수 있는 객체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
 | [HasDataTable](../../aspose.slides.charts/ichart/hasdatatable) { get; set; } | 차트에 데이터 테이블이 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
 | [HasLegend](../../aspose.slides.charts/ichart/haslegend) { get; set; } | 차트에 범례가 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | 차트 영역에 둥근 모서리를 지정합니다. 읽기/쓰기 Boolean. |
-| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | 차트에 표시 가능한 제목이 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | 차트에 대한 범례를 반환하거나 설정합니다. 읽기 전용 [`ILegend`](../ilegend). |
+| [HasRoundedCorners](../../aspose.slides.charts/ichart/hasroundedcorners) { get; set; } | 차트 영역에 둥근 모서리가 있도록 지정합니다. 읽기/쓰기 Boolean. |
+| [HasTitle](../../aspose.slides.charts/ichart/hastitle) { get; set; } | 차트에 표시되는 제목이 있는지 여부를 결정합니다. 읽기/쓰기 Boolean. |
+| [Legend](../../aspose.slides.charts/ichart/legend) { get; } | 차트의 범례를 반환하거나 설정합니다. 읽기 전용 [`ILegend`](../ilegend). |
 | [PlotArea](../../aspose.slides.charts/ichart/plotarea) { get; } | 차트의 플롯 영역을 나타냅니다. 읽기 전용 [`IChartPlotArea`](../ichartplotarea). |
-| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 보이는 셀만 플롯할지 여부를 결정합니다. False이면 보이는 셀과 숨긴 셀 모두를 플롯합니다. 읽기/쓰기 Boolean. |
+| [PlotVisibleCellsOnly](../../aspose.slides.charts/ichart/plotvisiblecellsonly) { get; set; } | 보이는 셀만 플롯할지 여부를 결정합니다. False이면 보이는 셀과 숨겨진 셀 모두를 플롯합니다. 읽기/쓰기 Boolean. |
 | [Rotation3D](../../aspose.slides.charts/ichart/rotation3d) { get; } | 차트의 3D 회전을 반환합니다. 읽기 전용 [`IRotation3D`](../irotation3d). |
-| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | 차트의 최대값 위에 데이터 레이블을 표시하도록 지정합니다. 읽기/쓰기 Boolean. |
-| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3D 차트의 측면 벽 형식을 변경할 수 있는 개체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
+| [ShowDataLabelsOverMaximum](../../aspose.slides.charts/ichart/showdatalabelsovermaximum) { get; set; } | 차트의 최대값을 초과하는 데이터 레이블을 표시하도록 지정합니다. 읽기/쓰기 Boolean. |
+| [SideWall](../../aspose.slides.charts/ichart/sidewall) { get; } | 3D 차트의 측면 벽 서식을 변경할 수 있는 객체를 반환합니다. 읽기 전용 [`IChartWall`](../ichartwall). |
 | [Style](../../aspose.slides.charts/ichart/style) { get; set; } | 차트 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`StyleType`](../styletype). |
 | [Type](../../aspose.slides.charts/ichart/type) { get; set; } | 차트 유형을 반환하거나 설정합니다. 읽기/쓰기 [`ChartType`](../charttype). |
-| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | 차트 위에 그려지는 도형을 지정합니다. 읽기 전용 [`IGroupShape`](../../aspose.slides/igroupshape). |
+| [UserShapes](../../aspose.slides.charts/ichart/usershapes) { get; } | 차트 위에 그려지는 모양을 지정합니다. 읽기 전용 [`IGroupShape`](../../aspose.slides/igroupshape). |
 
 ## 메서드
 

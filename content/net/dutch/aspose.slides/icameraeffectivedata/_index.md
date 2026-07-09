@@ -1,6 +1,6 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes for .NET API-referentie
 description: Onveranderlijk object dat effectieve camera-eigenschappen bevat.
 type: docs
 weight: 5420
@@ -8,7 +8,7 @@ url: /nl/aspose.slides/icameraeffectivedata/
 ---
 ## ICameraEffectiveData interface
 
-Onveranderlijk object dat effectieve camera-eigenschappen bevat.
+Onveranderlijk object dat de effectieve camera-eigenschappen bevat.
 
 ```csharp
 public interface ICameraEffectiveData
@@ -26,7 +26,7 @@ public interface ICameraEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Een rotatie wordt gedefinieerd door een breedtegraadcoördinaat, een lengtegraadcoördinaat en een omwenteling rond de as als de breedte- en lengtegraadcoördinaten. eerste element in terugkeer-array – breedtegraad, tweede – lengtegraad, derde – omwenteling. Geeft null terug als er geen rotatie is gedefinieerd. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een revolutie rond de as van de breedte- en lengtegraadcoördinaten. eerste element in retourneerarray - breedtegraad, tweede - lengtegraad, derde - revolutie. Retourneert null als geen rotatie gedefinieerd is. |
 
 ### Opmerkingen
 

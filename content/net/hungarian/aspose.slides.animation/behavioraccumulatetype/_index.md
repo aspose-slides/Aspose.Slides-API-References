@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
-second_title: Aspose.Sildes a .NET API-referencia
-description: Képviseli az effektus viselkedéseinek felhalmozódásának típusait.
+second_title: Aspose.Sildes .NET API Referenciája
+description: A hatásviselkedések felhalmozásának típusait jelöli.
 type: docs
-weight: 130
+weight: 150
 url: /hu/aspose.slides.animation/behavioraccumulatetype/
 ---
-## BehaviorAccumulateType felsorolás
+## BehaviorAccumulateType enumeráció
 
-Az effektus viselkedésének felhalmozódásának típusait reprezentálja.
+A hatásviselkedések felhalmozási típusait jelöli.
 
 ```csharp
 public enum BehaviorAccumulateType

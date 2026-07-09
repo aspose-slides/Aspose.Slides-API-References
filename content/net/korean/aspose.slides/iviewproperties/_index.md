@@ -18,12 +18,12 @@ public interface IViewProperties
 
 | 이름 | 설명 |
 | --- | --- |
-| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | 프레젠테이션 문서를 기반으로 하는 그리드에 사용되어야 하는 그리드 간격을 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [GridSpacing](../../aspose.slides/iviewproperties/gridspacing) { get; set; } | 프레젠테이션 문서의 기본 그리드에 사용되어야 하는 그리드 간격을 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [LastView](../../aspose.slides/iviewproperties/lastview) { get; set; } | 프레젠테이션 문서가 마지막으로 저장될 때 사용된 보기 모드를 지정합니다. 읽기/쓰기 [`ViewType`](../viewtype). |
-| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 일반 보기 속성을 나타냅니다. 일반 보기에는 슬라이드 자체, 측면 콘텐츠 영역, 하단 콘텐츠 영역의 세 개 영역이 포함됩니다. 읽기 전용 [`INormalViewProperties`](../inormalviewproperties). |
-| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | 노트 보기 모드와 관련된 공통 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [NormalViewProperties](../../aspose.slides/iviewproperties/normalviewproperties) { get; } | 일반 보기 속성을 나타냅니다. 일반 보기에는 슬라이드 자체, 측면 콘텐츠 영역, 하단 콘텐츠 영역의 세 가지 콘텐츠 영역이 포함됩니다. 읽기 전용 [`INormalViewProperties`](../inormalviewproperties). |
+| [NotesViewProperties](../../aspose.slides/iviewproperties/notesviewproperties) { get; } | 노트 보기 모드와 연관된 공통 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 | [ShowComments](../../aspose.slides/iviewproperties/showcomments) { get; set; } | 슬라이드 주석을 표시할지 여부를 지정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | 슬라이드 보기 모드와 관련된 공통 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
+| [SlideViewProperties](../../aspose.slides/iviewproperties/slideviewproperties) { get; } | 슬라이드 보기 모드와 연관된 공통 보기 속성을 지정합니다. 읽기 전용 [`ICommonSlideViewProperties`](../icommonslideviewproperties). |
 
 ### 참조
 

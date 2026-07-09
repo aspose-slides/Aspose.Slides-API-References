@@ -1,9 +1,9 @@
 ---
 title: Captions
-second_title: Aspose.Sildes dla .NET API Reference
+second_title: Aspose.Sildes dla .NET odniesienie API
 description: Reprezentuje napisy zamknięte WebVTT.
 type: docs
-weight: 1090
+weight: 1110
 url: /pl/aspose.slides/captions/
 ---
 ## Captions klasa
@@ -18,9 +18,9 @@ public class Captions : ICaptions
 
 | Nazwa | Opis |
 | --- | --- |
-| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Zwraca dane binarne napisów zamkniętych. Tylko do odczytu Byte[]. |
+| [BinaryData](../../aspose.slides/captions/binarydata) { get; } | Zwraca binarne dane napisów zamkniętych. Tylko do odczytu Byte[]. |
 | [CaptionId](../../aspose.slides/captions/captionid) { get; } | Zwraca globalnie unikalny identyfikator (GUID) napisów zamkniętych. Tylko do odczytu Guid. |
-| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Zwraca dane napisów zamkniętych jako ciąg znaków kodowany w UTF-8. Tylko do odczytu String. |
+| [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | Zwraca dane napisów zamkniętych jako ciąg znaków zakodowany UTF-8. Tylko do odczytu String. |
 | [Label](../../aspose.slides/captions/label) { get; set; } | Zwraca lub ustawia etykietę napisów zamkniętych. Odczyt/zapis String. |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: EmbeddingLevel
-second_title: Aspose.Sildes .NET API-referencia
-description: A betűtípus beágyazásához kapcsolódó licencjogokat képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A betűtípus beágyazására vonatkozó licencjogokat jelöli.
 type: docs
-weight: 3650
+weight: 3670
 url: /hu/aspose.slides/embeddinglevel/
 ---
-## EmbeddingLevel felsorolás
+## EmbeddingLevel enumeráció
 
-A betűtípus beágyazásához kapcsolódó licencjogokat képviseli.
+A betűtípus beágyazására vonatkozó licencjogokat jelöli.
 
 ```csharp
 [Flags]
@@ -19,12 +19,12 @@ public enum EmbeddingLevel : ushort
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Installable | `0` | Ezzel a beállítással jelzett betűtípusok azt mutatják, hogy beágyazhatók, és az alkalmazás által a távoli rendszeren véglegesen telepíthetők. A távoli rendszer felhasználója azonos jogokat, kötelezettségeket és licenceket kap a betűtípusra vonatkozóan, mint az eredeti vásárló, és ugyanazt a végfelhasználói licencszerződést, szerzői jogot, formatervezési szabadalmat és/vagy védjegyet kell betartania, mint az eredeti vásárló. |
-| Restricted | `2` | Azok a betűtípusok, amelyeknél csak ez a bit van beállítva, nem módosíthatók, nem ágyazhatók be, és nem cserélhetők semmilyen módon a jogtulajdonos előzetes engedélye nélkül. |
-| PreviewPrint | `4` | Ha ez a bit be van állítva, a betűtípus beágyazható, és ideiglenesen betölthető a távoli rendszerre. A Preview &amp; Print betűtípusokat tartalmazó dokumentumokat csak „csak olvasható” módban lehet megnyitni; a dokumentumot nem lehet szerkeszteni. |
-| Editable | `8` | Ha ez a bit be van állítva, a betűtípus beágyazható, de csak ideiglenesen telepíthető más rendszerekre. A Preview &amp; Print betűtípusokkal szemben az Editable betűtípusokat tartalmazó dokumentumok olvasásra és szerkesztésre is megnyithatók, és a módosítások menthetők. |
-| NoSubsetting | `100` | Ha ez a bit be van állítva, a betűtípust a beágyazás előtt nem lehet alhalmazra szűkíteni. A 0-3 és 9 bites beállításokban meghatározott további beágyazási korlátozások is érvényesek. |
-| BitmapOnly | `200` | Ha ez a bit be van állítva, csak a betűtípusban található bitmap képek ágyazhatók be. Kontúradatok nem ágyazhatók be. Ha a betűtípus nem tartalmaz bitmap képeket, akkor a betűtípust beágyazhatatlannak tekintik, és a beágyazási szolgáltatás hibát fog eredményezni. |
+| Installable | `0` | A betűtípusok ezzel a beállítással jelzik, hogy beágyazhatók és tartósan telepíthetők a távoli rendszerre egy alkalmazás által. A távoli rendszer felhasználója ugyanazokat a jogokat, kötelezettségeket és licenceket kapja az adott betűtípusról, mint annak eredeti vásárlója, és ugyanazt a felhasználói licencszerződést, szerzői jogot, formatervezési szabadalmat és/vagy védjegyet kell betartania, mint az eredeti vásárló. |
+| Restricted | `2` | Azok a betűtípusok, amelyeknél csak ez a bit van beállítva, nem módosíthatók, beágyazhatók vagy cserélhetők semmilyen módon, anélkül, hogy előbb a jogtulajdonos engedélyét meg nem szereznék. |
+| PreviewPrint | `4` | Ha ez a bit be van állítva, a betűtípus beágyazható, és ideiglenesen betölthető a távoli rendszerre. A Preview &amp; Print betűtípusokat tartalmazó dokumentumokat csak "read-only" módban lehet megnyitni; a dokumentumot nem lehet módosítani. |
+| Editable | `8` | Ha ez a bit be van állítva, a betűtípus beágyazható, de csak ideiglenesen telepíthető más rendszerekre. A Preview &amp; Print betűtípusokkal ellentétben a Editable betűtípusokat tartalmazó dokumentumok megnyithatók olvasásra, a szerkesztés engedélyezett, és a módosítások menthetők. |
+| NoSubsetting | `100` | Ha ez a bit be van állítva, a betűtípust nem lehet részhalmazra korlátozni a beágyazás előtt. A 0-3 és 9 bitekben megadott egyéb beágyazási korlátozások szintén érvényesek. |
+| BitmapOnly | `200` | Ha ez a bit be van állítva, csak a betűtípusban található bitmapek ágyazhatók be. Kontúradatok nem ágyazhatók be. Ha a betűtípusban nincs elérhető bitmap, akkor a betűtípus nem beágyazható, és a beágyazási szolgáltatások hibával végződnek. |
 
 ### Lásd még
 

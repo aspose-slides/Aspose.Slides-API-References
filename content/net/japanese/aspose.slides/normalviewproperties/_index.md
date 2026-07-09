@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 標準ビュー プロパティを表します。標準ビューは、スライド自体、サイド コンテンツ領域、下部コンテンツ領域の 3 つのコンテンツ領域で構成されます。
+description: 通常ビューのプロパティを表します。通常ビューは 3 つのコンテンツ領域で構成されます：スライド自体、サイドコンテンツ領域、そしてボトムコンテンツ領域。
 type: docs
-weight: 9090
+weight: 9110
 url: /ja/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties クラス
 
-標準ビュー プロパティを表します。標準ビューは 3 つのコンテンツ領域で構成されます：スライド自体、サイド コンテンツ領域、および下部コンテンツ領域。
+通常ビューのプロパティを表します。通常ビューは 3 つのコンテンツ領域で構成されます: スライド自体、サイドコンテンツ領域、およびボトムコンテンツ領域。
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | 名前 | 説明 |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | 水平スプリッターバーの表示状態を指定します。水平スプリッターバーはスライドをスライド下部のコンテンツ領域から分離します。 |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | ユーザーが標準の 3 コンテンツ領域ビューではなく、フルウィンドウの単一コンテンツ領域を表示することを好むかどうかを指定します。有効にすると、アプリケーションはコンテンツ領域のいずれかをウィンドウ全体に表示することを選択できる場合があります。読み書き可能 Boolean。 |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | この要素は、標準ビューのサイドコンテンツ領域が可変の復元サイズ（最小化も最大化もされていない）である場合のサイズ設定を指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | この要素は、標準ビューの上部スライド領域が可変の復元サイズ（最小化も最大化もされていない）である場合のサイズ設定を指定します。読み取り専用 [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | 標準ビュー モードの任意のコンテンツ領域でアウトライン コンテンツを表示する場合に、アプリケーションがアイコンを表示すべきかどうかを指定します。読み書き可能 Boolean。 |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | サイド領域が十分に小さい場合に、垂直スプリッタが最小化状態にスナップするかどうかを指定します。読み書き可能 Boolean。 |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | 垂直スプリッターバーの表示状態を指定します。垂直スプリッターバーはスライドをサイドコンテンツ領域から分離します。 |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | 水平分割バーが表示される状態を指定します。水平分割バーはスライドをスライド下のコンテンツ領域から分離します。 |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | ユーザーが標準の 3 つのコンテンツ領域を持つ通常ビューよりも、ウィンドウ全体に単一のコンテンツ領域を表示することを好むかどうかを指定します。有効にすると、アプリケーションはコンテンツ領域の一つをウィンドウ全体に表示することを選択できる場合があります。Read/write Boolean。 |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | この要素は、領域が可変の復元サイズ（最小化も最大化もされていない）である場合の、通常ビューのサイドコンテンツ領域のサイズ設定を指定します。Read opnly [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | この要素は、領域が可変の復元サイズ（最小化も最大化もされていない）である場合の、通常ビューの上部スライド領域のサイズ設定を指定します。Read only [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)。 |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | アプリケーションが通常ビュー モードのコンテンツ領域のいずれかでアウトラインコンテンツを表示する場合に、アイコンを表示すべきかどうかを指定します。Read/write Boolean。 |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | サイド領域が十分に小さい場合に、垂直分割バーが最小化状態にスナップするかどうかを指定します。Read/write Boolean。 |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | 垂直分割バーが表示される状態を指定します。垂直分割バーはスライドをサイドコンテンツ領域から分離します。 |
 
 ### 例
 
-次の例は、PowerPoint プレゼンテーションの ViewProperties.NormalViewProperties プロパティを構成する方法を示しています。
+以下の例は、PowerPoint プレゼンテーションの ViewProperties.NormalViewProperties プロパティを構成する方法を示しています。
 
 ```csharp
 [C#]
-//プレゼンテーション ファイルを表すプレゼンテーション オブジェクトをインスタンス化します
+//プレゼンテーションファイルを表すプレゼンテーションオブジェクトをインスタンス化します
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;

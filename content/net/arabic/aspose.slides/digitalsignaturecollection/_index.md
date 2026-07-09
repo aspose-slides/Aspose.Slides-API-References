@@ -1,14 +1,14 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Sildes لـ .NET - مرجع API
-description: تمثل مجموعة من التوقيعات الرقمية المرفقة بمستند.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مجموعة من التوقيعات الرقمية المرفقة بوثيقة.
 type: docs
 weight: 2780
 url: /ar/aspose.slides/digitalsignaturecollection/
 ---
-## DigitalSignatureCollection فئة
+## فئة DigitalSignatureCollection
 
-يمثل مجموعة من التوقيعات الرقمية المرفقة بالمستند.
+يمثّل مجموعة من التوقيعات الرقمية المرفقة بوثيقة.
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -30,8 +30,8 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [Add](../../aspose.slides/digitalsignaturecollection/add)(IDigitalSignature) | يضيف التوقيع في نهاية المجموعة. |
 | [Clear](../../aspose.slides/digitalsignaturecollection/clear)() | يزيل جميع التوقيعات من المجموعة. |
 | [CopyTo](../../aspose.slides/digitalsignaturecollection/copyto)(Array, int) | ينسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | يعيد معدِّدًا يتكرر عبر المجموعة. |
-| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | يزيل التوقيع في الفهرس المحدد. |
+| [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | يعيد enumerator الذي يتنقل عبر المجموعة. |
+| [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | يزيل التوقيع عند الفهرس المحدد. |
 
 ### انظر أيضًا
 

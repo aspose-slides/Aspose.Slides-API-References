@@ -1,9 +1,9 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET Referencja API
 description: Reprezentuje kierunek koloru dla zachowania efektu koloru.
 type: docs
-weight: 200
+weight: 220
 url: /pl/aspose.slides.animation/colordirection/
 ---
 ## Wyliczenie ColorDirection

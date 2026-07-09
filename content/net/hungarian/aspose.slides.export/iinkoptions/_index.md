@@ -1,14 +1,14 @@
 ---
 title: IInkOptions
-second_title: Aspose.Sildes .NET API-referencia
-description: Lehetőségeket biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban.
+second_title: Aspose.Sildes .NET API Referencia
+description: Opciókat biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban.
 type: docs
-weight: 3960
+weight: 3980
 url: /hu/aspose.slides.export/iinkoptions/
 ---
 ## IInkOptions interfész
 
-Lehetőségeket biztosít az Ink objektumok megjelenésének szabályozásához az exportált dokumentumban.
+Opsziókat biztosít, amelyek szabályozzák az Ink objektumok megjelenését az exportált dokumentumban.
 
 ```csharp
 public interface IInkOptions
@@ -19,7 +19,7 @@ public interface IInkOptions
 | Név | Leírás |
 | --- | --- |
 | [HideInk](../../aspose.slides.export/iinkoptions/hideink) { get; set; } | Megjeleníti vagy elrejti az Ink elemeket az exportált dokumentumban. |
-| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | A ROP műveletet vagy az átlátszóságot használja az ecset rendereléséhez. |
+| [InterpretMaskOpAsOpacity](../../aspose.slides.export/iinkoptions/interpretmaskopasopacity) { get; set; } | ROP műveletet vagy átlátszóságot használ a ecset rendereléséhez. |
 
 ### Lásd még
 

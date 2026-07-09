@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachSlideCallback
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para referência da API .NET
 description: Callback que será invocado para cada Slide./foreach/slide na Presentation../aspose.slides/presentation.
 type: docs
-weight: 7940
+weight: 7960
 url: /pt/aspose.slides.lowcode/foreach.foreachslidecallback/
 ---
 ## ForEach.ForEachSlideCallback delegate
 
-Callback que será chamado para cada [`Slide`](../foreach/slide) no [`Presentation`](../../aspose.slides/presentation).
+Callback que será invocado para cada [`Slide`](../foreach/slide) no [`Presentation`](../../aspose.slides/presentation).
 
 ```csharp
 public delegate void ForEachSlideCallback(Slide slide, int index);
@@ -16,10 +16,10 @@ public delegate void ForEachSlideCallback(Slide slide, int index);
 
 | Parâmetro | Tipo | Descrição |
 | --- | --- | --- |
-| slide | Slide | Slide iterado atual |
+| slide | Slide | Slide atual iterado |
 | index | Int32 | Índice do slide atual |
 
-### Ver Também
+### Veja Também
 
 * classe [Slide](../../aspose.slides/slide)
 * classe [ForEach](../foreach)

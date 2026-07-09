@@ -1,14 +1,14 @@
 ---
 title: PatternFormat
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於填充形狀的圖案。
+description: 表示用於填滿形狀的圖案。
 type: docs
 weight: 9350
 url: /zh-hant/aspose.slides/patternformat/
 ---
 ## PatternFormat 類別
 
-Represents a pattern to fill a shape.
+表示用於填滿形狀的圖案。
 
 ```csharp
 public sealed class PatternFormat : PVIObject, IPatternFormat
@@ -27,10 +27,10 @@ public sealed class PatternFormat : PVIObject, IPatternFormat
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | 比較指定的物件。 |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | 建立圖案填充的圖塊影像。 |
-| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | 使用指定的顏色建立圖案填充的圖塊影像。 |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile)(Color) | 建立圖案填滿的圖磚影像。 |
+| [GetTile](../../aspose.slides/patternformat/gettile#gettile_1)(Color, Color) | 使用指定的顏色建立圖案填滿的圖磚影像。 |
 
 ### 另請參閱
 

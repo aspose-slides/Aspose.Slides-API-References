@@ -1,14 +1,14 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes لمرجع API الخاص بـ .NET
-description: يسمح بإنشاء كائنات خيارات الحفظ
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: يسمح بإنشاء مثيلات خيارات الحفظ
 type: docs
 weight: 4080
 url: /ar/aspose.slides.export/isaveoptionsfactory/
 ---
-## ISaveOptionsFactory الواجهة
+## واجهة ISaveOptionsFactory
 
-يسمح بإنشاء كائنات خيارات الحفظ
+يسمح بإنشاء مثيلات خيارات الحفظ
 
 ```csharp
 public interface ISaveOptionsFactory
@@ -18,11 +18,11 @@ public interface ISaveOptionsFactory
 
 | الاسم | الوصف |
 | --- | --- |
-| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | ينشئ خيارات حفظ PPTX. |
+| [CreatePptxOptions](../../aspose.slides.export/isaveoptionsfactory/createpptxoptions)() | يُنشئ خيارات حفظ PPTX. |
 
 ### ملاحظات
 
-للتوافق مع COM.
+لتوافق COM.
 
 ### انظر أيضًا
 

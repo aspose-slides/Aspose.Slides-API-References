@@ -8,7 +8,7 @@ url: /vi/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType liệt kê
 
-Xác định một cách để thay đổi vị trí của các hình dạng đã chọn trên slide.
+Xác định cách thay đổi vị trí của các hình dạng đã chọn trên slide.
 
 ```csharp
 public enum ShapesAlignmentType

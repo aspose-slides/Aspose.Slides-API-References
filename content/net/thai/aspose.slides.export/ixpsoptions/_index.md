@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: ให้ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอในรูปแบบ XPS.
 type: docs
 weight: 4200
 url: /th/aspose.slides.export/ixpsoptions/
 ---
-## IXpsOptions อินเทอร์เฟซ
+## อินเทอร์เฟซ IXpsOptions
 
-Provides options that control how a presentation is saved in XPS format.
+ให้ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอในรูปแบบ XPS.
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -16,12 +16,12 @@ public interface IXpsOptions : ISaveOptions
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | คืนค่า ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | ตั้งค่าเป็น True เพื่อวาดกรอบสีดำรอบสไลด์แต่ละสไลด์. อ่าน/เขียน Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | ตั้งค่าเป็น True เพื่อแปลงไฟล์เมตาทั้งหมดที่ใช้ในงานนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | ระบุว่าเอกสารที่สร้างควรรวมสไลด์ที่ซ่อนอยู่หรือไม่ ค่าเริ่มต้นคือ `false`. |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | คืนค่าอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | True เพื่อวาดเฟรมสีดำรอบแต่ละสไลด์. อ่าน/เขียน Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | True เพื่อแปลง metafile ทั้งหมดที่ใช้ในการนำเสนอเป็นภาพ PNG. อ่าน/เขียน Boolean. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | ระบุว่าจะให้เอกสารที่สร้างรวมสไลด์ที่ซ่อนอยู่หรือไม่. ค่าเริ่มต้นคือ `false`. |
 
 ### ดูเพิ่มเติม
 

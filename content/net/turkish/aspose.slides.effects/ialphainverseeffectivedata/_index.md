@@ -1,14 +1,14 @@
 ---
 title: IAlphaInverseEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alfa Ters etkisini temsil eden değişmez bir nesne. Alfa saydamlık değerleri %100'den çıkarılarak ters çevrilir.
+description: Alfa Inverse etkisini temsil eden değiştirilemez nesne. Alfa opaklık değerleri %100'den çıkarılarak tersine çevrilir.
 type: docs
-weight: 3070
+weight: 3090
 url: /tr/aspose.slides.effects/ialphainverseeffectivedata/
 ---
 ## IAlphaInverseEffectiveData arayüz
 
-Alfa ters etkisini temsil eden değişmez bir nesne. Alfa (saydamlık) değerleri %100'den çıkarılarak ters çevrilir.
+Değiştirilemez nesne, bir Alpha Inverse etkisini temsil eder. Alpha (opaklık) değerleri %100'den çıkarılarak tersine çevrilir.
 
 ```csharp
 public interface IAlphaInverseEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IAlphaInverseEffectiveData : IEffectEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almaya izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphainverseeffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almanıza izin verir. Salt okunur [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
-### Ayrıca Bakınız
+### İlgili
 
 * arayüz [IEffectEffectiveData](../ieffecteffectivedata)
 * ad alanı [Aspose.Slides.Effects](../../aspose.slides.effects)

@@ -1,14 +1,14 @@
 ---
 title: ColumnCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 테이블에서 열의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 테이블의 열 컬렉션을 나타냅니다.
 type: docs
 weight: 2600
 url: /ko/aspose.slides/columncollection/
 ---
 ## ColumnCollection 클래스
 
-테이블에서 열의 컬렉션을 나타냅니다.
+테이블의 열 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollection
@@ -18,8 +18,8 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/columncollection/count) { get; } | 컬렉션에 있는 열의 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Count](../../aspose.slides/columncollection/count) { get; } | 컬렉션에 포함된 열의 개수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/columncollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides/columncollection/item) { get; } | 지정된 인덱스에 있는 열을 반환합니다. 읽기 전용 [`Column`](../column). |
 | [SyncRoot](../../aspose.slides/columncollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -33,7 +33,7 @@ public sealed class ColumnCollection : DomObject<RowCollection>, IColumnCollecti
 | [InsertClone](../../aspose.slides/columncollection/insertclone)(int, IColumn, bool) | 지정된 템플릿 열의 복사본을 생성하고 테이블의 지정된 위치에 삽입합니다. |
 | [RemoveAt](../../aspose.slides/columncollection/removeat)(int, bool) | 테이블에서 지정된 위치에 있는 열을 제거합니다. |
 
-### 참고
+### 관련 항목
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [RowCollection](../rowcollection)

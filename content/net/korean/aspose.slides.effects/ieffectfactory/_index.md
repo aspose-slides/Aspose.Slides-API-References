@@ -33,7 +33,7 @@ public interface IEffectFactory
 
 ### 비고
 
-COM 호환성을 위해 제공합니다.
+COM 호환성을 위해.
 
 ### 참조
 

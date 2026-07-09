@@ -1,20 +1,20 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes .NET API referencia
-description: Egy kimeneti fájlt képvisel.
+second_title: Aspose.Sildes .NET API-referencia
+description: Kimeneti fájlt reprezentál.
 type: docs
-weight: 4580
+weight: 4600
 url: /hu/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile interfész
 
-Képviseli a kimeneti fájlt.
+Egy kimeneti fájlt reprezentál.
 
 ```csharp
 public interface IOutputFile
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

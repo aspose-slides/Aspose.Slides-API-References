@@ -1,14 +1,14 @@
 ---
 title: ErrorBarType
-second_title: Aspose.Sildes .NET API 參考
-description: 表示誤差線的類型
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示誤差棒的類型
 type: docs
 weight: 1640
 url: /zh-hant/aspose.slides.charts/errorbartype/
 ---
 ## ErrorBarType 列舉
 
-表示誤差線的類型
+表示誤差棒的類型
 
 ```csharp
 public enum ErrorBarType
@@ -18,11 +18,11 @@ public enum ErrorBarType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Both | `0` | 指定在正方向和負方向都顯示誤差線。 |
-| Minus | `1` | 指定僅在負方向顯示誤差線。 |
-| Plus | `2` | 指定僅在正方向顯示誤差線。 |
+| Both | `0` | 指定應在正向和負向方向顯示誤差棒。 |
+| Minus | `1` | 指定應僅在負向方向顯示誤差棒。 |
+| Plus | `2` | 指定應僅在正向方向顯示誤差棒。 |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

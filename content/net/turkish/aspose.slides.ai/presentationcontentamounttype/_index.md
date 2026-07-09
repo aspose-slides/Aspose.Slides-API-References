@@ -1,14 +1,14 @@
 ---
 title: PresentationContentAmountType
-second_title: Aspose.Slides .NET API Referansı
-description: Oluşturulan sunumda bulunan içerik miktarını belirler ve hem slayt sayısını hem de her slayttaki ayrıntı seviyesini etkiler.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Oluşturulan sunumda dahil edilen içerik miktarını belirler; bu, slayt sayısını ve her slayttaki detay seviyesini etkiler.
 type: docs
-weight: 40
+weight: 60
 url: /tr/aspose.slides.ai/presentationcontentamounttype/
 ---
 ## PresentationContentAmountType enum
 
-Oluşturulan sunumda bulunan içerik miktarını belirler; hem slayt sayısını hem de her slayttaki ayrıntı düzeyini etkiler.
+Oluşturulan sunumda dahil edilen içerik miktarını belirtir; bu, slayt sayısını ve her slayttaki detay seviyesini etkiler.
 
 ```csharp
 public enum PresentationContentAmountType
@@ -19,8 +19,8 @@ public enum PresentationContentAmountType
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
 | Brief | `0` | Kısa ve temel içerik. |
-| Medium | `1` | Orta miktarda içerik. |
-| Detailed | `2` | En ayrıntılı seçenek, geniş metinle. |
+| Medium | `1` | Orta seviyede içerik. |
+| Detailed | `2` | Geniş metinle en ayrıntılı seçenek. |
 
 ### Ayrıca Bakınız
 

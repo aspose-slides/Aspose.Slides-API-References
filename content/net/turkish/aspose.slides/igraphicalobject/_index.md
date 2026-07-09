@@ -3,7 +3,7 @@ title: IGraphicalObject
 second_title: Aspose.Sildes için .NET API Referansı
 description: Soyut grafik nesneyi temsil eder.
 type: docs
-weight: 6040
+weight: 6060
 url: /tr/aspose.slides/igraphicalobject/
 ---
 ## IGraphicalObject arayüz
@@ -18,11 +18,11 @@ public interface IGraphicalObject : IShape
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Temel IShape arayüzünü almayı sağlar. Yalnızca okuma [`IShape`](../ishape). |
-| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okuma [`IGraphicalObjectLock`](../igraphicalobjectlock). |
-| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okuma [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [AsIShape](../../aspose.slides/igraphicalobject/asishape) { get; } | Temel IShape arayüzünü almayı sağlar. Salt okunur [`IShape`](../ishape). |
+| [GraphicalObjectLock](../../aspose.slides/igraphicalobject/graphicalobjectlock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). |
+| [ShapeLock](../../aspose.slides/igraphicalobject/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IGraphicalObjectLock`](../igraphicalobjectlock). |
 
-### Bakınız
+### İlgili
 
 * arayüz [IShape](../ishape)
 * ad alanı [Aspose.Slides](../../aspose.slides)

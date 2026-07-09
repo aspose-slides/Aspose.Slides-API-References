@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili manajer yang menyimpan perilaku placeholder footer slide tata letak, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili manajer yang mengelola perilaku placeholder footer slide tata letak, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak.
 type: docs
-weight: 6220
+weight: 6240
 url: /id/aspose.slides/ilayoutslideheaderfootermanager/
 ---
 ## ILayoutSlideHeaderFooterManager antarmuka
 
-Mewakili manajer yang menyimpan perilaku placeholder footer slide tata letak, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak.
+Mewakili manajer yang mengelola perilaku placeholder footer slide tata letak, tanggal-waktu, nomor halaman, dan semua placeholder anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -16,24 +16,24 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | Mengembalikan antarmuka IBaseSlideHeaderFooterManager. |
 
 ## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Mengatur teks ke placeholder tanggal-waktu slide tata letak dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide tata letak dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Mengatur teks ke placeholder footer slide tata letak dan semua placeholder footer anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer slide tata letak dan semua placeholder footer anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada master slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide tata letak dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder yang berada pada slide tergantung. Slide tergantung menggunakan dan bergantung pada slide tata letak. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Mengatur teks ke placeholder tanggal-waktu slide tata letak dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Mengubah visibilitas placeholder tanggal-waktu slide tata letak dan semua placeholder tanggal-waktu anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Mengatur teks ke placeholder footer slide tata letak dan semua placeholder footer anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Mengubah visibilitas placeholder footer slide tata letak dan semua placeholder footer anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada master slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Mengubah visibilitas placeholder nomor halaman slide tata letak dan semua placeholder nomor halaman anak. Placeholder anak berarti placeholder yang terdapat pada slide yang bergantung. Slide yang bergantung menggunakan dan bergantung pada slide tata letak. |
 
 ### Lihat Juga
 
 * antarmuka [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

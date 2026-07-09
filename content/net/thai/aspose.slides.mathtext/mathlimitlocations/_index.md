@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ตำแหน่งของลิมิต subscript/superscript ในตัวดำเนินการ n-ary
+description: ตำแหน่งของลิมิตตัวห้อย/ตัวเหนือในตัวดำเนินการ n-ary
 type: docs
 weight: 8840
 url: /th/aspose.slides.mathtext/mathlimitlocations/
 ---
 ## MathLimitLocations enumeration
 
-ตำแหน่งของลิมิต (subscript/superscript) ในตัวดำเนินการ n-ary
+ตำแหน่งของลิมิต (ตัวห้อย/ตัวเหนือ) ในตัวดำเนินการ n-ary
 
 ```csharp
 public enum MathLimitLocations
@@ -20,7 +20,7 @@ public enum MathLimitLocations
 | --- | --- | --- |
 | NotDefined | `0` | ไม่ได้กำหนด |
 | UnderOver | `1` | ลิมิตแสดงที่ด้านบนและด้านล่างของสัญลักษณ์ตัวดำเนินการ |
-| SubscriptSuperscript | `2` | ลิมิตแสดงเป็น subscript และ superscript |
+| SubscriptSuperscript | `2` | ลิมิตแสดงเป็นตัวห้อยและตัวเหนือ |
 
 ### ดูเพิ่มเติม
 

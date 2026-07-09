@@ -1,6 +1,6 @@
 ---
 title: MathFractionTypes
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 分數類型
 type: docs
 weight: 8710
@@ -16,12 +16,12 @@ public enum MathFractionTypes
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | Bar | `1` | Bar 分數 |
 | Skewed | `2` | 斜形 |
-| Linear | `3` | 線性分數 |
-| NoBar | `4` | 無棒分數 (堆疊) |
+| Linear | `3` | Linear 分數 |
+| NoBar | `4` | No-Bar 分數 (Stack) |
 
 ### 另請參閱
 

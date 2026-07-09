@@ -1,6 +1,6 @@
 ---
 title: IImageTransformOperationCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 이미지에 적용된 효과들의 컬렉션을 나타냅니다.
 type: docs
 weight: 3400
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection 인터페이스
 
-이미지에 적용된 효과들의 컬렉션을 나타냅니다.
+이미지에 적용되는 효과들의 컬렉션을 나타냅니다.
 
 ```csharp
 public interface IImageTransformOperationCollection : ICollection<IImageTransformOperation>
@@ -25,27 +25,27 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | 컬렉션 끝에 새로운 Alpha Bi-Level 효과를 추가합니다. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | 컬렉션 끝에 새로운 Alpha Ceiling 효과를 추가합니다. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | 컬렉션 끝에 새로운 Alpha Floor 효과를 추가합니다. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | 컬렉션 끝에 새로운 Alpha Inverse 효과를 추가합니다. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 컬렉션 끝에 새로운 Alpha Modulate 효과를 추가합니다. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 컬렉션 끝에 새로운 Alpha Modulate Fixed 효과를 추가합니다. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 컬렉션 끝에 새로운 Alpha Replace 효과를 추가합니다. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 컬렉션 끝에 새로운 Bi-Level (black/white) 효과를 추가합니다. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 컬렉션 끝에 새로운 Blur 효과를 추가합니다. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | 컬렉션 끝에 새로운 BrightnessContrast 효과를 추가합니다. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 컬렉션 끝에 새로운 Color Change 효과를 추가합니다. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 컬렉션 끝에 새로운 Color Replacement 효과를 추가합니다. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | 컬렉션 끝에 새로운 Duotone 효과를 추가합니다. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | 컬렉션 끝에 새로운 Fill Overlay 효과를 추가합니다. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 컬렉션 끝에 새로운 Gray Scale 효과를 추가합니다. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 컬렉션 끝에 새로운 Hue/Saturation/Luminance 효과를 추가합니다. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 컬렉션 끝에 새로운 Luminance 효과를 추가합니다. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 컬렉션 끝에 새로운 Tint 효과를 추가합니다. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | 새 Alpha Bi-Level 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | 새 Alpha Ceiling 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | 새 Alpha Floor 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | 새 Alpha Inverse 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | 새 Alpha Modulate 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | 새 Alpha Modulate Fixed 효과를 컬렉션의 끝에 추가합니다. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | 새 Alpha Replace 효과를 컬렉션의 끝에 추가합니다. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | 새 Bi-Level (black/white) 효과를 컬렉션의 끝에 추가합니다. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | 새 Blur 효과를 컬렉션의 끝에 추가합니다. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | 새 BrightnessContrast 효과를 컬렉션의 끝에 추가합니다. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | 새 Color Change 효과를 컬렉션의 끝에 추가합니다. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | 새 Color Replacement 효과를 컬렉션의 끝에 추가합니다. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | 새 Duotone 효과를 컬렉션의 끝에 추가합니다. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | 새 Fill Overlay 효과를 컬렉션의 끝에 추가합니다. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | 새 Gray Scale 효과를 컬렉션의 끝에 추가합니다. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | 새 Hue/Saturation/Luminance 효과를 컬렉션의 끝에 추가합니다. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | 새 Luminance 효과를 컬렉션의 끝에 추가합니다. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | 새 Tint 효과를 컬렉션의 끝에 추가합니다. |
 | [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | 지정된 인덱스에서 컬렉션의 이미지 효과를 제거합니다. |
 
-### 관련 항목
+### 또 보기
 
 * 인터페이스 [IImageTransformOperation](../iimagetransformoperation)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

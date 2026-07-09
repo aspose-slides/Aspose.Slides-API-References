@@ -1,14 +1,14 @@
 ---
 title: Luminance
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Luminance 효과를 나타냅니다. 밝기는 모든 색을 선형적으로 흰색 또는 검정색에 더 가깝게 이동시킵니다. 대비는 모든 색을 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Luminance 효과를 나타냅니다. 밝기는 모든 색상을 선형으로 흰색 또는 검은색에 가깝게 이동시킵니다. 대비는 모든 색상이 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
 type: docs
 weight: 3610
 url: /ko/aspose.slides.effects/luminance/
 ---
 ## Luminance 클래스
 
-Luminance 효과를 나타냅니다. 밝기는 모든 색상을 선형적으로 흰색 또는 검정색에 더 가깝게 이동시킵니다. 대비는 모든 색상이 서로 더 가깝게 또는 더 멀리 떨어지도록 스케일링합니다.
+Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.
 
 ```csharp
 public sealed class Luminance : ImageTransformOperation, ILuminance
@@ -26,9 +26,9 @@ public sealed class Luminance : ImageTransformOperation, ILuminance
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/luminance/equals)(object) | 지정된 [`Luminance`](../luminance)가 현재 [`Luminance`](../luminance)와 같은지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/luminance/geteffective)() | 상속이 적용된 유효한 Luminance 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
+| override [GetHashCode](../../aspose.slides.effects/luminance/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 합니다. |
 
-### 참고
+### 관련 항목
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [ILuminance](../iluminance)

@@ -1,7 +1,7 @@
 ---
 title: MotionEffect
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: इफ़ेक्ट के गति प्रभाव व्यवहार का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: इफ़ेक्ट के मोशन इफ़ेक्ट व्यवहार को दर्शाता है।
 type: docs
 weight: 670
 url: /hi/aspose.slides.animation/motioneffect/
@@ -14,34 +14,34 @@ Represent motion effect behavior of effect.
 public class MotionEffect : Behavior, IMotionEffect
 ```
 
-## कन्स्ट्रक्टर्स
+## निर्माता
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [MotionEffect](motioneffect)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | बताता है कि एनीमेशन व्यवहार संचित हैं या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | बताता है कि वर्तमान एनीमेशन व्यवहार अन्य चल रही एनीमेशन के साथ संयुक्त है या नहीं। पढ़ने/लिखने योग्य [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | गति पथ के सापेक्ष कोण का विवरण देता है। पढ़ने/लिखने योग्य Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | एनीमेशन के लिए सापेक्ष ऑफसेट मान (प्रतिशत में) का विवरण देता है। पढ़ने/लिखने योग्य PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | एनीमेशन को शुरू करने के लिए x/y निर्देशांक (प्रतिशत में) निर्धारित करता है। पढ़ने/लिखने योग्य PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | निर्दिष्ट करता है कि गति पथ की मूल स्थिति किस relative से है, जैसे स्लाइड का लेआउट या पैरेंट। पढ़ने/लिखने योग्य [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | एनीमेशन गति के लिए निर्देशांक के साथ अनुसरण किया जाने वाला पथ प्रिमिटिव निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | जब आकृति को स्थानांतरित किया जाता है तो गति पथ कैसे चलता है, यह निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | व्यवहार के गुणों को दर्शाता है। केवल पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | एक X कोण द्वारा गति पथ को घुमाने के लिए उपयोग किए जाने वाले घूर्णन के केंद्र का विवरण देता है। पढ़ने/लिखने योग्य PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | इफ़ेक्ट व्यवहार के लिए समय संबंधी गुण दर्शाता है। पढ़ने/लिखने योग्य [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | एनीमेशन गति प्रभाव के लिए लक्षित स्थान (प्रतिशत में) निर्दिष्ट करता है। पढ़ने/लिखने योग्य PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | यह दर्शाता है कि एनीमेशन व्यवहार संचित होते हैं या नहीं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | यह दर्शाता है कि वर्तमान एनीमेशन व्यवहार अन्य चल रहे एनीमेेशनों के साथ संयोजित है या नहीं। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | यह गति पथ का सापेक्ष कोण वर्णन करता है। पढ़ें/लिखें Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | यह एनीमेशन के लिए सापेक्ष ऑफ़सेट मान (प्रतिशत में) वर्णन करता है। पढ़ें/लिखें PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | यह एनीमेशन को शुरू करने के लिए x/y निर्देशांक (प्रतिशत में) निर्दिष्ट करता है। पढ़ें/लिखें PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | यह गति पथ की उत्पत्ति को स्लाइड के लेआउट या पैरेंट जैसी वस्तु के सापेक्ष निर्दिष्ट करता है। पढ़ें/लिखें [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | यह एनीमेशन गति के लिए निर्देशांक के साथ अनुसरित पाथ प्रिमिटिव को निर्दिष्ट करता है। पढ़ें/लिखें [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | यह रूप (shape) के स्थानांतरित होने पर गति पथ कैसे चलता है, इसे निर्दिष्ट करता है। पढ़ें/लिखें [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | यह व्यवहार की गुणधर्मों को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | यह गति पथ को X कोण द्वारा घुमाने के लिए उपयोग किए जाने वाले घूर्णन के केंद्र को वर्णित करता है। पढ़ें/लिखें PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | यह प्रभाव व्यवहार के टाइमिंग गुणों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | यह एनीमेशन गति प्रभाव के लक्ष्य स्थान को (प्रतिशत में) निर्दिष्ट करता है। पढ़ें/लिखें PointF. |
 
-### देखें
+### संबंधित देखें
 
 * क्लास [Behavior](../behavior)
 * इंटरफ़ेस [IMotionEffect](../imotioneffect)
-* नेमस्पेस [Aspose.Slides.Animation](../../aspose.slides.animation)
+* नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

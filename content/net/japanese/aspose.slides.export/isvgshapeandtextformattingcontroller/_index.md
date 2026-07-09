@@ -1,9 +1,9 @@
 ---
 title: ISvgShapeAndTextFormattingController
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: SVG シェイプとテキストの生成を制御します。
 type: docs
-weight: 4100
+weight: 4120
 url: /ja/aspose.slides.export/isvgshapeandtextformattingcontroller/
 ---
 ## ISvgShapeAndTextFormattingController インターフェイス
@@ -24,7 +24,7 @@ public interface ISvgShapeAndTextFormattingController : ISvgShapeFormattingContr
 
 | 名前 | 説明 |
 | --- | --- |
-| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, Portion, ITextFrame) | テキスト部分を SVG にレンダリングする前に呼び出され、ユーザーが生成される SVG を制御できるようにします。 |
+| [FormatText](../../aspose.slides.export/isvgshapeandtextformattingcontroller/formattext)(ISvgTSpan, IPortion, ITextFrame) | この関数は、テキスト部分を SVG にレンダリングする前に呼び出され、ユーザーが生成される SVG を制御できるようにします。 |
 
 ### 例
 

@@ -1,6 +1,6 @@
 ---
 title: IThreeDParamSource
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: 3D गुण स्रोत सहायक इंटरफ़ेस
 type: docs
 weight: 7350
@@ -14,7 +14,7 @@ url: /hi/aspose.slides/ithreedparamsource/
 public interface IThreeDParamSource
 ```
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

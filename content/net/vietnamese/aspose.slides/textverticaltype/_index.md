@@ -1,14 +1,14 @@
 ---
 title: TextVerticalType
-second_title: Tham chiếu API .NET của Aspose.Sildes
-description: Xác định chế độ viết dọc cho văn bản.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định chế độ viết dọc cho một đoạn văn bản.
 type: docs
 weight: 11030
 url: /vi/aspose.slides/textverticaltype/
 ---
-## Liệt kê TextVerticalType
+## TextVerticalType liệt kê
 
-Xác định chế độ viết theo chiều dọc cho văn bản.
+Xác định chế độ viết dọc cho một đoạn văn bản.
 
 ```csharp
 public enum TextVerticalType : sbyte
@@ -18,7 +18,7 @@ public enum TextVerticalType : sbyte
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Chưa định nghĩa. |
+| NotDefined | `-1` | Chưa được định nghĩa. |
 | Horizontal | `0` | Văn bản ngang. |
 | Vertical | `1` | Văn bản dọc. |
 | Vertical270 | `2` | Văn bản dọc 270 độ. |
@@ -27,7 +27,7 @@ public enum TextVerticalType : sbyte
 | MongolianVertical | `5` | Văn bản dọc Mông Cổ. |
 | WordArtVerticalRightToLeft | `6` | Văn bản dọc WordArt từ phải sang trái. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

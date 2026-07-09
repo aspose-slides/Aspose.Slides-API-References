@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติภาพที่มีประสิทธิภาพ
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อ็อบเจกต์คงที่ที่มีคุณสมบัติโปรไฟล์ภาพที่มีผล.
 type: docs
 weight: 6640
 url: /th/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData อินเทอร์เฟซ
 
-Immutable object which contains effective picture properties.
+อ็อบเจกต์คงที่ที่มีคุณสมบัติโปรไฟล์ภาพที่มีผล.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -20,7 +20,7 @@ public interface IPictureEffectiveData
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | ส่งคืนภาพที่ฝังอยู่. อ่านอย่างเดียว [`IPPImage`](../ippimage). |
 | [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | ส่งคืนคอลเลกชันของเอฟเฟกต์การแปลงภาพ. อ่านอย่างเดียว [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | ส่งคืน URL ของภาพที่เชื่อมโยง. อ่านอย่างเดียว String. |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | ส่งคืน URL ของภาพที่เชื่อมต่อ. อ่านอย่างเดียว String. |
 
 ### หมายเหตุ
 

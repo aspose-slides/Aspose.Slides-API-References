@@ -1,14 +1,14 @@
 ---
 title: IXpsOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रेजेंटेशन को XPS फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: विकल्प प्रदान करता है जो यह नियंत्रित करते हैं कि प्रस्तुति XPS स्वरूप में कैसे सहेजी जाती है।
 type: docs
 weight: 4200
 url: /hi/aspose.slides.export/ixpsoptions/
 ---
 ## IXpsOptions इंटरफ़ेस
 
-एक प्रस्तुति को XPS प्रारूप में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+विकल्प प्रदान करता है जो यह नियंत्रित करते हैं कि प्रस्तुति XPS प्रारूप में कैसे सहेजी जाती है।
 
 ```csharp
 public interface IXpsOptions : ISaveOptions
@@ -18,12 +18,12 @@ public interface IXpsOptions : ISaveOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | वापस देता है ISaveOptions interface. केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions). |
-| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | हर स्लाइड के चारों ओर काली फ्रेम बनाने के लिए True. पढ़ने/लिखने योग्य Boolean. |
-| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | प्रेज़ेंटेशन में उपयोग किए गए सभी मैटाफाइल को PNG छवियों में बदलने के लिए True. पढ़ने/लिखने योग्य Boolean. |
-| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइड शामिल होनी चाहिए या नहीं। डिफ़ॉल्ट `false` है। |
+| [AsISaveOptions](../../aspose.slides.export/ixpsoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल-पठन [`ISaveOptions`](../isaveoptions). |
+| [DrawSlidesFrame](../../aspose.slides.export/ixpsoptions/drawslidesframe) { get; set; } | सत्य होने पर प्रत्येक स्लाइड के चारों ओर काला फ्रेम बनाता है। पढ़ने/लिखने योग्य बूलियन. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/ixpsoptions/savemetafilesaspng) { get; set; } | सत्य होने पर प्रस्तुति में उपयोग किए गए सभी मेटाफाइलों को PNG छवियों में परिवर्तित करता है। पढ़ने/लिखने योग्य बूलियन. |
+| [ShowHiddenSlides](../../aspose.slides.export/ixpsoptions/showhiddenslides) { get; set; } | निर्धारित करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइडें शामिल होंगी या नहीं। डिफ़ॉल्ट `false`. |
 
-### देखें भी
+### अन्य देखें
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

@@ -8,7 +8,7 @@ url: /nl/aspose.slides.export/svgtspan/
 ---
 ## SvgTSpan klasse
 
-Geeft opties weer voor het SVG-tekstgedeelte ("tspan").
+Vertegenwoordigt opties voor SVG-tekstgedeelte ("tspan").
 
 ```csharp
 public sealed class SvgTSpan : ISvgTSpan
@@ -18,7 +18,7 @@ public sealed class SvgTSpan : ISvgTSpan
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Haalt "tspan" element-id op |
+| [Id](../../aspose.slides.export/svgtspan/id) { get; set; } | Haalt de id van het "tspan"-element op |
 
 ### Zie ook
 

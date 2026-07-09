@@ -1,14 +1,14 @@
 ---
 title: IChartData
-second_title: Aspose.Slides .NET API-referencia
-description: A diagram ábrázolásához használt adatokat képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A diagramkészítéshez használt adatokat képviseli.
 type: docs
-weight: 1780
+weight: 1800
 url: /hu/aspose.slides.charts/ichartdata/
 ---
 ## IChartData interfész
 
-A diagram ábrázolásához használt adatokat képviseli.
+A diagram megjelenítéséhez használt adatokat képviseli.
 
 ```csharp
 public interface IChartData
@@ -18,27 +18,27 @@ public interface IChartData
 
 | Név | Leírás |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Lekéri az elsődleges kategóriákat (vagy az elsődleges és a másodlagos kategóriákat, ha a [`UseSecondaryCategories`](./usesecondarycategories) tulajdonság hamis). Csak olvasható [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Categories](../../aspose.slides.charts/ichartdata/categories) { get; } | Lekéri az elsődleges kategóriákat (vagy az elsődleges és másodlagos kategóriákat is, ha a [`UseSecondaryCategories`](./usesecondarycategories) tulajdonság hamis). Csak olvasható [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [ChartDataWorkbook](../../aspose.slides.charts/ichartdata/chartdataworkbook) { get; } | Lekéri a cellagyárat a diagram sorozatokhoz vagy kategóriákhoz használt cellák létrehozásához. Csak olvasható [`IChartDataWorkbook`](../ichartdataworkbook). |
 | [DataSourceType](../../aspose.slides.charts/ichartdata/datasourcetype) { get; } | A diagram adatforrását képviseli |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/ichartdata/embeddedworkbooktype) { get; } | Lekéri a beágyazott munkafüzet típusát. NotDefined értéket ad vissza, ha a [`DataSourceType`](./datasourcetype) ExternalWorkbook. Csak olvasható [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Külső munkafüzet útvonalát adja vissza, ha az adatforrás külső, egyébként null |
+| [ExternalWorkbookPath](../../aspose.slides.charts/ichartdata/externalworkbookpath) { get; } | Külső munkafüzet útvonalát képviseli, ha az adatforrás külső, egyébként null. |
 | [SecondaryCategories](../../aspose.slides.charts/ichartdata/secondarycategories) { get; } | Lekéri a másodlagos kategóriákat, ha a [`UseSecondaryCategories`](./usesecondarycategories) tulajdonság igaz. Csak olvasható [`IChartCategoryCollection`](../ichartcategorycollection). |
 | [Series](../../aspose.slides.charts/ichartdata/series) { get; } | Lekéri a sorozatokat. Csak olvasható [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Lekéri a sorozatcsoportokat. Csak olvasható [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Ha hamis, akkor a [`SecondaryCategories`](./secondarycategories) tulajdonság nullt ad vissza, és a [`Categories`](./categories) tulajdonság adatait használja mind az elsődleges, mind a másodlagos sorozathoz. Ha igaz, akkor a [`SecondaryCategories`](./secondarycategories) tulajdonság adatait használja a másodlagos sorozathoz, a [`Categories`](./categories) tulajdonság adatait pedig az elsődleges sorozathoz. Olvasás/írás Logikai. |
+| [SeriesGroups](../../aspose.slides.charts/ichartdata/seriesgroups) { get; } | Lekéri a sorozatok csoportjait. Csak olvasható [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/ichartdata/usesecondarycategories) { get; set; } | Ha hamis, akkor a [`SecondaryCategories`](./secondarycategories) tulajdonság null értéket ad vissza, és a [`Categories`](./categories) tulajdonság adatai mind az elsődleges, mind a másodlagos sorozatokhoz használhatók. Ha igaz, akkor a [`SecondaryCategories`](./secondarycategories) tulajdonság adatai a másodlagos sorozatokhoz, a [`Categories`](./categories) tulajdonság adatai pedig az elsődleges sorozatokhoz kerülnek felhasználásra. Olvasás/írás Bool típusú. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/ichartdata/getrange)() | Lekéri a diagram adat tartományát. |
-| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | A belső Excel munkafüzetet egy memóriában lévő adatfolyamba írja. |
-| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Beállítja a külső munkafüzetet a diagram adatforrásaként. A diagram adatai a célmunkafüzetből frissülnek. |
+| [ReadWorkbookStream](../../aspose.slides.charts/ichartdata/readworkbookstream)() | Az belső Excel munkafüzetet egy memóriában tárolt folyamra írja. |
+| [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook)(string) | Beállítja a külső munkafüzetet a diagram adatforrásaként. A diagram adatai a cél munkafüzetről lesznek frissítve. |
 | [SetExternalWorkbook](../../aspose.slides.charts/ichartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Beállítja a külső munkafüzetet a diagram adatforrásaként. |
-| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Beállítja a diagram adat tartományát. A sorozatok és kategóriák az új adat tartomány alapján frissülnek. Ha a sorozatok száma az adat tartományban nagyobb, mint a diagram adataiban lévő sorozatok száma, akkor további sorozatok, azonos típussal a jelenlegi gyűjtemény utolsó sorozatához, a gyűjtemény végére kerülnek. |
-| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Az adatot az tengelyek között cseréli. Az X tengelyen ábrázolt adatok az Y tengelyre kerülnek, és fordítva. |
-| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | A belső Excel munkafüzetet a felhasználó által megadott értékkel inicializálja. |
+| [SetRange](../../aspose.slides.charts/ichartdata/setrange)(string) | Beállítja a diagram adat tartományát. A sorozatok és kategóriák az új adat tartomány alapján frissülnek. Ha a sorozatok száma a tartományban nagyobb, mint a diagram adatban lévő sorozatok száma, akkor további sorozatok, a jelenlegi gyűjtemény utolsó sorozatának típusával megegyező típussal, a gyűjtemény végéhez kerülnek hozzáadva. |
+| [SwitchRowColumn](../../aspose.slides.charts/ichartdata/switchrowcolumn)() | Az adatcserét az tengelyek között végzi. A X tengelyen ábrázolt adatok a Y tengelyre kerülnek, és fordítva. |
+| [WriteWorkbookStream](../../aspose.slides.charts/ichartdata/writeworkbookstream)(MemoryStream) | Inicializálja az belső Excel munkafüzetet a felhasználó által megadott értékkel. |
 
 ### Lásd még
 

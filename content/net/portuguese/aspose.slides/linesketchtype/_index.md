@@ -1,9 +1,9 @@
 ---
 title: LineSketchType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa qual tipo de esboço ou efeito foi atribuído a uma forma.
 type: docs
-weight: 7790
+weight: 7810
 url: /pt/aspose.slides/linesketchtype/
 ---
 ## Enumeração LineSketchType
@@ -16,13 +16,13 @@ public enum LineSketchType
 
 ### Valores
 
-| Nome | Valor | Descrição |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | Especifica que o efeito Sketch de uma forma está indefinido. |
-| None | `0` | Especifica que uma forma não tem efeito Sketch. Isto equivale a esta propriedade estar vazia. |
+| None | `0` | Especifica que uma forma não tem efeito Sketch. Isso equivale a esta propriedade estar vazia. |
 | Curved | `1` | Especifica que uma forma tem o efeito Curved, que transforma cada borda da forma em uma grande curva suave. |
 | Freehand | `2` | Especifica que uma forma tem o efeito Freehand, que se assemelha mais a uma linha desenhada imperfeitamente. |
-| Scribble | `3` | Especifica que uma forma tem o efeito Scribble, que possui oscilações exageradas como se fosse desenhado propositalmente desordenado. |
+| Scribble | `3` | Especifica que uma forma tem o efeito Scribble, que apresenta oscilação exagerada como se fosse desenhada propositalmente bagunçada. |
 
 ### Veja Também
 

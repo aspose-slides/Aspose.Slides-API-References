@@ -1,14 +1,14 @@
 ---
 title: InkTrace
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Trace 개체를 나타냅니다. Trace 요소는 디지털라이저가 캡처한 데이터를 기록하는 데 사용됩니다. InkTraceFormat 개체가 제공하는 사양에 따라 인코딩된 포인트 시퀀스를 포함합니다.
+description: Trace 객체를 나타냅니다. Trace 요소는 디지타이저에 의해 캡처된 데이터를 기록하는 데 사용됩니다. InkTraceFormat 객체가 제공하는 사양에 따라 인코딩된 일련의 포인트를 포함합니다.
 type: docs
 weight: 7590
 url: /ko/aspose.slides.ink/inktrace/
 ---
 ## InkTrace 클래스
 
-Trace 개체를 나타냅니다. Trace 요소는 디지털라이저가 캡처한 데이터를 기록하는 데 사용됩니다. InkTraceFormat 개체가 제공하는 사양에 따라 인코딩된 포인트 시퀀스를 포함합니다.
+Trace 객체를 나타냅니다. Trace 요소는 디지타이저에 의해 캡처된 데이터를 기록하는 데 사용됩니다. InkTraceFormat 객체가 제공하는 사양에 따라 인코딩된 일련의 포인트를 포함합니다.
 
 ```csharp
 public class InkTrace : IInkTrace
@@ -21,7 +21,7 @@ public class InkTrace : IInkTrace
 | [Brush](../../aspose.slides.ink/inktrace/brush) { get; } | IInkLine [`IInkBrush`](../iinkbrush)에 대한 Brush를 가져옵니다. 읽기 전용. |
 | [Points](../../aspose.slides.ink/inktrace/points) { get; } | IInkLine PointF에 대한 포인트를 가져옵니다. 읽기 전용. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IInkTrace](../iinktrace)
 * 네임스페이스 [Aspose.Slides.Ink](../../aspose.slides.ink)

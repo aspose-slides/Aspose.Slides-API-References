@@ -1,14 +1,14 @@
 ---
 title: INormalViewRestoredProperties
 second_title: Aspose.Sildes för .NET API-referens
-description: Anger storleken på bildspelsregionen, bredd när ett barn till restoredTop, höjd när ett barn till restoredLeft i normalvyn när regionen har en variabel återställd storlek, varken minimerad eller maximerad.
+description: "Specificerar storleken på bildspelsområdet: bredd när den är ett underobjekt till restoredTop, höjd när den är ett underobjekt till restoredLeft i normalvyn när området har en variabel återställd storlek, varken minimerad eller maximerad."
 type: docs
-weight: 6460
+weight: 6480
 url: /sv/aspose.slides/inormalviewrestoredproperties/
 ---
 ## INormalViewRestoredProperties gränssnitt
 
-Specificerar storleken på bildspelsregionen ((bredd när ett barn till restoredTop, höjd när ett barn till restoredLeft) i normalvyn, när regionen har en variabel återställd storlek (varken minimerad eller maximerad).
+Anger storleken på bildspelsområdet ((bredd när den är ett underobjekt till restoredTop, höjd när den är ett underobjekt till restoredLeft) i normalvyn, när området har en variabel återställd storlek (varken minimerad eller maximerad).
 
 ```csharp
 public interface INormalViewRestoredProperties
@@ -18,8 +18,8 @@ public interface INormalViewRestoredProperties
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Anger om storleken på sidoinnehållsregionen ska kompensera för den nya storleken när fönstret som innehåller vyn i programmet ändras storlek Läs/skriv Boolean. |
-| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Anger storleken på bildspelsregionen (bredd när ett barn till RestoredTop, höjd när ett barn till RestoredLeft). Läs/skriv Single. Kastar när värdet är mindre än 0 eller större än 100. |
+| [AutoAdjust](../../aspose.slides/inormalviewrestoredproperties/autoadjust) { get; set; } | Anger huruvida storleken på sidoinnehållsområdet ska kompensera för den nya storleken när fönstret som innehåller vyn inom applikationen ändras storlek Läs/skriv Boolean. |
+| [DimensionSize](../../aspose.slides/inormalviewrestoredproperties/dimensionsize) { get; set; } | Anger storleken på bildspelsområdet (bredd när den är ett underobjekt till RestoredTop, höjd när den är ett underobjekt till RestoredLeft). Läs/skriv Single. Kastar när värdet är mindre än 0 eller större än 100. |
 
 ### Se även
 

@@ -1,14 +1,14 @@
 ---
 title: INotesSlideManager
 second_title: Aspose.Sildes för .NET API-referens
-description: Hanterare för noteringsbilder.
+description: Anteckningsbildshanterare.
 type: docs
-weight: 6500
+weight: 6520
 url: /sv/aspose.slides/inotesslidemanager/
 ---
 ## INotesSlideManager gränssnitt
 
-Hantera noteringsbilder.
+Anteckningsbildshanterare.
 
 ```csharp
 public interface INotesSlideManager
@@ -18,14 +18,14 @@ public interface INotesSlideManager
 
 | Namn | Beskrivning |
 | --- | --- |
-| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Returnerar noteringsbilden för den aktuella bilden. Returnerar null om bilden saknar noteringsbild. Skrivskyddad [`INotesSlide`](../inotesslide). |
+| [NotesSlide](../../aspose.slides/inotesslidemanager/notesslide) { get; } | Returnerar anteckningsbilden för den aktuella bilden. Returnerar null om bilden inte har en anteckningsbild. Skrivskyddad [`INotesSlide`](../inotesslide). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Returnerar noteringsbilden för den aktuella bilden och skapar en om den saknas. |
-| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Tar bort noteringsbilden för den aktuella bilden. |
+| [AddNotesSlide](../../aspose.slides/inotesslidemanager/addnotesslide)() | Returnerar anteckningsbilden för den aktuella bilden och skapar en om det inte finns någon. |
+| [RemoveNotesSlide](../../aspose.slides/inotesslidemanager/removenotesslide)() | Tar bort anteckningsbilden för den aktuella bilden. |
 
 ### Se även
 

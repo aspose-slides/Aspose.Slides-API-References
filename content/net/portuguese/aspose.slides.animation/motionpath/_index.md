@@ -1,14 +1,14 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o caminho de movimento.
 type: docs
-weight: 670
+weight: 690
 url: /pt/aspose.slides.animation/motionpath/
 ---
 ## MotionPath classe
 
-Represent motion path.
+Representa o caminho de movimento.
 
 ```csharp
 public class MotionPath : IMotionPath
@@ -33,7 +33,7 @@ public class MotionPath : IMotionPath
 | --- | --- |
 | [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Adiciona um novo comando ao caminho |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Remove todos os comandos da coleção. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Retorna um enumerador que itera sobre a coleção. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Retorna um enumerador que itera pela coleção. |
 | [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Insere um novo comando ao caminho |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Remove os comandos especificados da coleção. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Remove um comando no índice especificado. |

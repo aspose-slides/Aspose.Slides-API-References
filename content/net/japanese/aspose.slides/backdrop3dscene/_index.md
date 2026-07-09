@@ -1,14 +1,14 @@
 ---
 title: Backdrop3DScene
 second_title: Aspose.Sildes for .NET API リファレンス
-description: エフェクト（グローやシャドウなど）が適用対象のシェイプに対してどのように適用されるかを定義する平面です。
+description: グローやシャドウなどのエフェクトが適用される平面を定義し、これらのエフェクトは適用対象の形状に対して相対的に配置されます。
 type: docs
-weight: 900
+weight: 920
 url: /ja/aspose.slides/backdrop3dscene/
 ---
-## Backdrop3DScene クラス
+## Backdrop3DScene class
 
-エフェクト（グローやシャドウなど）が、適用対象のシェイプに対してどのように適用されるかを定義する平面です。
+効果（グローやシャドウなど）が適用される平面を定義します。この平面は効果が適用される形状に対して相対的に配置されます。
 
 ```csharp
 public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
@@ -18,10 +18,10 @@ public sealed class Backdrop3DScene : PVIObject, IBackdrop3DScene
 
 | 名前 | 説明 |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 3D 空間内の点を取得または設定します。この点はバックドロップ平面を基準付けする空間上の点です。X、Y、Z 座標を定義する 3 つの float 値の配列で表される 3D 点です。読み取り/書き込み Single[]. |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 法線ベクトルを取得または設定します。正確には、この属性はバックドロップ平面の面に対して直交するベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表されるベクトルです。読み取り/書き込み Single[]. |
-| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 上方向を表すベクトルを取得または設定します。正確には、この属性はバックドロップ平面の面に対して上方向を表すベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表されるベクトルです。読み取り/書き込み Single[]. |
+| [AnchorPoint](../../aspose.slides/backdrop3dscene/anchorpoint) { get; set; } | 3D 空間内の点を取得または設定します。この点はバックドロップ平面の基点となる空間上の点です。X、Y、Z 座標を定義する 3 つの float 値の配列で表現される 3D 点です。読み取り/書き込み Single[]. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 基本的な IPresentationComponent インターフェイスを取得します。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [NormalVector](../../aspose.slides/backdrop3dscene/normalvector) { get; set; } | 法線ベクトルを取得または設定します。より正確に言うと、この属性はバックドロップ平面の面に対して直交するベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表現されるベクトルです。読み取り/書き込み Single[]. |
+| [UpVector](../../aspose.slides/backdrop3dscene/upvector) { get; set; } | 上方向を表すベクトルを取得または設定します。より正確に言うと、この属性はバックドロップ平面の面に対して上向きのベクトルを定義します。X、Y、Z 座標を定義する 3 つの float 値の配列で表現されるベクトルです。読み取り/書き込み Single[]. |
 
 ## メソッド
 

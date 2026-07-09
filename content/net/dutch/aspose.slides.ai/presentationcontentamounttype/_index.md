@@ -1,14 +1,14 @@
 ---
 title: PresentationContentAmountType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert de hoeveelheid inhoud die in de gegenereerde presentatie is opgenomen, wat zowel het aantal dia's als het detailniveau per dia beïnvloedt.
+description: Specificeert de hoeveelheid inhoud die is opgenomen in de gegenereerde presentatie, waardoor zowel het aantal dia's als het detailniveau per dia worden beïnvloed.
 type: docs
 weight: 60
 url: /nl/aspose.slides.ai/presentationcontentamounttype/
 ---
 ## PresentationContentAmountType enumeratie
 
-Specificeert de hoeveelheid inhoud die in de gegenereerde presentatie is opgenomen, wat zowel het aantal dia's als het detailniveau per dia beïnvloedt.
+Geeft de hoeveelheid inhoud aan die is opgenomen in de gegenereerde presentatie, waarmee zowel het aantal dia's als het detailniveau per dia wordt beïnvloed.
 
 ```csharp
 public enum PresentationContentAmountType

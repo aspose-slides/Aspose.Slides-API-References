@@ -1,6 +1,6 @@
 ---
 title: Column
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงถึงคอลัมน์ในตาราง.
 type: docs
 weight: 2590
@@ -18,24 +18,24 @@ public sealed class Column : CellCollection, IColumn
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | ส่งคืนวัตถุ ColumnFormat ที่มีคุณสมบัติโครงร่างสำหรับคอลัมน์นี้. อ่านอย่างเดียว [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | ส่งคืนจำนวนของเซลในคอลเลกชัน. อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งชี้ว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | ส่งคืนเซลตามตำแหน่งของมัน. อ่านอย่างเดียว [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ส่งคืนการนำเสนอแม่ของ CellCollection. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | ส่งคืนสไลด์แม่ของ CellCollection. อ่านอย่างเดียว [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
-| [Width](../../aspose.slides/column/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของคอลัมน์. อ่าน/เขียน Double. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | ส่งคืนอ็อบเจ็กต์ ColumnFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับคอลัมน์นี้ อ่าน-อย่างเดียว [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | ส่งคืนจำนวนเซลล์ในคอลเลกชัน อ่าน-อย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | ส่งคืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันเป็นแบบซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่าน-อย่างเดียว Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | ส่งคืนเซลล์ตามตำแหน่งของมัน อ่าน-อย่างเดียว [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | ส่งคืนการนำเสนอแม่ของ CellCollection อ่าน-อย่างเดียว [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | ส่งคืนสไลด์แม่ของ CellCollection อ่าน-อย่างเดียว [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | ส่งคืนรากการซิงโครไนซ์ อ่าน-อย่างเดียว Object. |
+| [Width](../../aspose.slides/column/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของคอลัมน์ อ่าน/เขียน Double. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | ส่งคืน enumerator ที่ทำการวนซ้ำผ่านคอลเลกชัน. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | ตั้งค่าคุณสมบัติรูปแบบย่อหน้าที่กำหนดให้กับย่อหน้าของเซลในคอลัมน์ทั้งหมด. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | ตั้งค่าคุณสมบัติรูปแบบส่วนที่กำหนดให้กับส่วนของเซลในคอลัมน์ทั้งหมด. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | ตั้งค่าคุณสมบัติรูปแบบกรอบข้อความที่กำหนดให้กับกรอบข้อความของเซลในคอลัมน์ทั้งหมด. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | ส่งคืนอีเนูเมอเรเตอร์ที่วนซ้ำผ่านคอลเลกชัน. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | กำหนดคุณสมบัติรูปแบบย่อหน้าที่กำหนดไว้ให้กับย่อหน้าของเซลล์คอลัมน์ทั้งหมด. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | กำหนดคุณสมบัติรูปแบบส่วนที่กำหนดไว้ให้กับส่วนของเซลล์คอลัมน์ทั้งหมด. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | กำหนดคุณสมบัติรูปแบบกรอบข้อความที่กำหนดไว้ให้กับกรอบข้อความของเซลล์คอลัมน์ทั้งหมด. |
 
 ### ดูเพิ่มเติม
 

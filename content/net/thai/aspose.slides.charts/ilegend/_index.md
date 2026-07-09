@@ -1,35 +1,35 @@
 ---
 title: ILegend
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติของ legend ของแผนภูมิ.
+description: เป็นตัวแทนของคุณสมบัติ legend ของแผนภูมิ
 type: docs
 weight: 2130
 url: /th/aspose.slides.charts/ilegend/
 ---
-## ILegend อินเทอร์เฟซ
+## ส่วนต่อประสาน ILegend
 
-แสดงคุณสมบัติของ legend ของแผนภูมิ.
+เป็นตัวแทนของคุณสมบัติ legend ของแผนภูมิ
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 ```
 
-## คุณสมบัติ
+## Properties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IFormattedTextContainer พื้นฐาน. แบบอ่านอย่างเดียว [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ILayoutable พื้นฐาน. แบบอ่านอย่างเดียว [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | ดึงรายการ legend. แบบอ่านอย่างเดียว [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | คืนค่าฟอร์แมตของ legend. แบบอ่านอย่างเดียว [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | กำหนดว่าควรอนุญาตให้องค์ประกอบแผนภูมิอื่นทับ legend หรือไม่. อ่านเขียน Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | กำหนดตำแหน่งของ legend บนแผนภูมิ. ค่าที่ไม่เป็น NaN ของคุณสมบัติ X, Y, Width, Heigt จะทับผลของคุณสมบัตินี้. อ่านเขียน [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | อนุญาตให้รับส่วนต่อประสาน IFormattedTextContainer เบื้องต้น. อ่านอย่างเดียว [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | อนุญาตให้รับส่วนต่อประสาน ILayoutable เบื้องต้น. อ่านอย่างเดียว [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | รับรายการ legend. อ่านอย่างเดียว [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | ส่งคืนรูปแบบของ legend. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | กำหนดว่าตัวอื่นของแผนภูมิจะอนุญาตให้ทับกันกับ legend หรือไม่. อ่าน/เขียน Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | ระบุตำแหน่งของ legend บนแผนภูมิ. ค่าที่ไม่เป็น NaN ของคุณสมบัติ X, Y, Width, Heigt จะเขียนทับผลของคุณสมบัตินี้. อ่าน/เขียน [`LegendPositionType`](../legendpositiontype). |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IActualLayout](../iactuallayout)
-* อินเทอร์เฟซ [IFormattedTextContainer](../iformattedtextcontainer)
-* อินเทอร์เฟซ [ILayoutable](../ilayoutable)
+* ส่วนต่อประสาน [IActualLayout](../iactuallayout)
+* ส่วนต่อประสาน [IFormattedTextContainer](../iformattedtextcontainer)
+* ส่วนต่อประสาน [ILayoutable](../ilayoutable)
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: ColorFormat
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla dokumentacji API .NET
 description: Reprezentuje kolor używany w prezentacji.
 type: docs
-weight: 2500
+weight: 2520
 url: /pl/aspose.slides/colorformat/
 ---
 ## ColorFormat klasa
 
-Represents a color used in a presentation.
+Reprezentuje kolor używany w prezentacji.
 
 ```csharp
 public sealed class ColorFormat : PVIObject, IColorFormat
@@ -20,28 +20,28 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../ipresentationcomponent). |
 | [B](../../aspose.slides/colorformat/b) { get; set; } | Zwraca lub ustawia niebieski składnik koloru. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Byte. |
-| [Color](../../aspose.slides/colorformat/color) { get; set; } | Zwraca wynikowy kolor (z zastosowanymi wszystkimi transformacjami koloru). Ustawia kolory RGB i usuwa wszystkie transformacje koloru. Odczyt/zapis Color. |
-| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Zwraca kolekcję transformacji koloru zastosowanych do koloru. Tylko do odczytu [`IColorOperationCollection`](../icoloroperationcollection). |
+| [Color](../../aspose.slides/colorformat/color) { get; set; } | Zwraca wynikowy kolor (z uwzględnieniem wszystkich zastosowanych transformacji koloru). Ustawia kolory RGB i usuwa wszystkie transformacje koloru. Odczyt/zapis Color. |
+| [ColorTransform](../../aspose.slides/colorformat/colortransform) { get; } | Zwraca zestaw transformacji koloru zastosowanych do koloru. Tylko do odczytu [`IColorOperationCollection`](../icoloroperationcollection). |
 | [ColorType](../../aspose.slides/colorformat/colortype) { get; set; } | Zwraca lub ustawia metodę definiowania koloru. Odczyt/zapis [`ColorType`](../colortype). |
 | [FloatB](../../aspose.slides/colorformat/floatb) { get; set; } | Zwraca lub ustawia niebieski składnik koloru. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
 | [FloatG](../../aspose.slides/colorformat/floatg) { get; set; } | Zwraca lub ustawia zielony składnik koloru. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
 | [FloatR](../../aspose.slides/colorformat/floatr) { get; set; } | Zwraca lub ustawia czerwony składnik koloru. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
 | [G](../../aspose.slides/colorformat/g) { get; set; } | Zwraca lub ustawia zielony składnik koloru. Wszystkie transformacje koloru są ignorowane. |
-| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Zwraca lub ustawia składnik odcienia koloru w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
-| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Zwraca lub ustawia składnik luminancji koloru w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
-| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Zwraca lub ustawia preset koloru. Odczyt/zapis [`PresetColor`](../presetcolor). |
+| [Hue](../../aspose.slides/colorformat/hue) { get; set; } | Zwraca lub ustawia odcień (hue) w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
+| [Luminance](../../aspose.slides/colorformat/luminance) { get; set; } | Zwraca lub ustawia luminancję w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
+| [PresetColor](../../aspose.slides/colorformat/presetcolor) { get; set; } | Zwraca lub ustawia predefiniowany kolor. Odczyt/zapis [`PresetColor`](../presetcolor). |
 | [R](../../aspose.slides/colorformat/r) { get; set; } | Zwraca lub ustawia czerwony składnik koloru. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Byte. |
-| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Zwraca lub ustawia składnik nasycenia koloru w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
-| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Zwraca lub ustawia kolor określony przez schemat kolorów. Odczyt/zapis [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Zwraca lub ustawia kolor określony przez systemową tabelę kolorów. Odczyt/zapis [`SystemColor`](../systemcolor). |
+| [Saturation](../../aspose.slides/colorformat/saturation) { get; set; } | Zwraca lub ustawia nasycenie w reprezentacji HSL. Wszystkie transformacje koloru są ignorowane. Odczyt/zapis Single. |
+| [SchemeColor](../../aspose.slides/colorformat/schemecolor) { get; set; } | Zwraca lub ustawia kolor określony w schemacie kolorów. Odczyt/zapis [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/colorformat/systemcolor) { get; set; } | Zwraca lub ustawia kolor określony w systemowej tabeli kolorów. Odczyt/zapis [`SystemColor`](../systemcolor). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Kopiuje format koloru z "color". |
-| override [Equals](../../aspose.slides/colorformat/equals)(object) | Sprawdza równość z podanym obiektem. |
-| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Zwraca kod skrótu. |
+| [CopyFrom](../../aspose.slides/colorformat/copyfrom)(IColorFormat) | Kopiuje format koloru z „color”. |
+| override [Equals](../../aspose.slides/colorformat/equals)(object) | Sprawdza równość z określonym obiektem. |
+| override [GetHashCode](../../aspose.slides/colorformat/gethashcode)() | Zwraca kod hash. |
 | [ToString](../../aspose.slides/colorformat/tostring#tostring_1)(ColorStringFormat) | Zwraca ciąg znaków reprezentujący bieżący format koloru. |
 
 ### Zobacz także
@@ -49,6 +49,6 @@ public sealed class ColorFormat : PVIObject, IColorFormat
 * klasa [PVIObject](../pviobject)
 * interfejs [IColorFormat](../icolorformat)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)
-* zestaw [Aspose.Slides](../../)
+* zbiór [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

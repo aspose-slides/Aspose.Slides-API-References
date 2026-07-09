@@ -1,14 +1,14 @@
 ---
 title: IVbaModuleCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: VBA プロジェクトのモジュールのコレクションを表します。
+description: VBA プロジェクト モジュールのコレクションを表します。
 type: docs
-weight: 11520
+weight: 11540
 url: /ja/aspose.slides.vba/ivbamodulecollection/
 ---
 ## IVbaModuleCollection インターフェイス
 
-VBA プロジェクトのモジュールのコレクションを表します。
+VBA プロジェクト モジュールのコレクションを表します。
 
 ```csharp
 public interface IVbaModuleCollection : IGenericCollection<IVbaModule>

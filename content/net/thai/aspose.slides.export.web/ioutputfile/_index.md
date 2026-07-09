@@ -1,14 +1,14 @@
 ---
 title: IOutputFile
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: เป็นตัวแทนของไฟล์ผลลัพธ์.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: เป็นไฟล์ผลลัพธ์
 type: docs
 weight: 4600
 url: /th/aspose.slides.export.web/ioutputfile/
 ---
 ## IOutputFile อินเทอร์เฟซ
 
-เป็นตัวแทนของไฟล์ผลลัพธ์.
+เป็นไฟล์ผลลัพธ์
 
 ```csharp
 public interface IOutputFile
@@ -18,7 +18,7 @@ public interface IOutputFile
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | เขียนเนื้อหาไฟล์ไปยังสตรีม. |
+| [Write](../../aspose.slides.export.web/ioutputfile/write)(Stream) | เขียนเนื้อหาไฟล์ไปยังสตรีม |
 
 ### ดูเพิ่มเติม
 

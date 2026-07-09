@@ -16,13 +16,13 @@ public interface IRow : IBulkTextFormattable, ICellCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBulkTextFormattable พื้นฐาน. อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | อนุญาตให้รับอินเทอร์เฟซ ICellCollection พื้นฐาน. อ่านอย่างเดียว [`ICellCollection`](../icellcollection). |
-| [Height](../../aspose.slides/irow/height) { get; } | ส่งคืนความสูงของแถว. อ่านอย่างเดียว Double. |
-| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | ส่งคืนหรือกำหนดความสูงต่ำสุดที่เป็นไปได้ของแถว. อ่าน/เขียน Double. |
-| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | ส่งคืนอ็อบเจกต์ RowFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับแถวนี้. อ่านอย่างเดียว [`IRowFormat`](../irowformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/irow/asibulktextformattable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBulkTextFormattable พื้นฐานได้ อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/irow/asicellcollection) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ ICellCollection พื้นฐานได้ อ่านอย่างเดียว [`ICellCollection`](../icellcollection). |
+| [Height](../../aspose.slides/irow/height) { get; } | คืนค่าความสูงของแถว อ่านอย่างเดียว Double. |
+| [MinimalHeight](../../aspose.slides/irow/minimalheight) { get; set; } | คืนค่าหรือกำหนดความสูงต่ำสุดที่เป็นไปได้ของแถว อ่าน/เขียน Double. |
+| [RowFormat](../../aspose.slides/irow/rowformat) { get; } | คืนค่าอ็อบเจกต์ RowFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับแถวนี้ อ่านอย่างเดียว [`IRowFormat`](../irowformat). |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
-second_title: Aspose.Sildes برای مرجع API .NET
-description: به شما امکان می‌دهد گزینه‌های اضافی مانند فرمت یا قلم پیش‌فرض را هنگام بارگذاری یک ارائه مشخص کنید.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: اجازه می‌دهد تا گزینه‌های اضافی مانند قالب یا قلم پیش‌فرض را هنگام بارگذاری یک ارائه مشخص کنید.
 type: docs
 weight: 7840
 url: /fa/aspose.slides/loadoptions/
 ---
 ## LoadOptions کلاس
 
-اجازه می‌دهد تا گزینه‌های افزایشی (مانند فرمت یا قلم پیش‌فرض) را هنگام بارگذاری یک ارائه مشخص کنید.
+به شما امکان می‌دهد گزینه‌های اضافی (مانند قالب یا قلم پیش‌فرض) را هنگام بارگذاری یک ارائه مشخص کنید.
 
 ```csharp
 public class LoadOptions : ILoadOptions
@@ -16,34 +16,34 @@ public class LoadOptions : ILoadOptions
 
 ## سازنده‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | گزینه‌های بارگذاری پیش‌فرض جدیدی ایجاد می‌کند. |
-| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | گزینه‌های بارگذاری جدیدی ایجاد می‌کند. |
+| [LoadOptions](loadoptions#constructor)() | گزینه‌های بارگیری پیش‌فرض جدیدی ایجاد می‌کند. |
+| [LoadOptions](loadoptions#constructor_1)(LoadFormat) | گزینه‌های بارگیری جدیدی ایجاد می‌کند. |
 
 ## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | نمایانگر گزینه‌هایی است که می‌توان از آن‌ها برای مدیریت رفتار پردازش اشیاء بزرگ دودویی (BLOBها) استفاده کرد، مانند استفاده از فایل‌های موقت یا حداکثر بایت‌های BLOB در حافظه. این گزینه‌ها برای تنظیم بهترین نسبت عملکرد/مصرف حافظه برای یک محیط یا نیازهای خاص تنظیم می‌شوند. یک شیء بزرگ دودویی (BLOB) داده‌ای باینری است که به صورت یک موجودیت واحد ذخیره می‌شود - به عبارت دیگر BLOB می‌تواند یک صدا، ویدئو یا خود ارائه باشد. |
-| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | قلم آسیایی را که در صورت یافت نشدن قلم منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. Read/write String. |
-| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | قلم معمولی را که در صورت یافت نشدن قلم منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. Read/write String. |
-| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | قلم نماد را که در صورت یافت نشدن قلم منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. Read/write String. |
-| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | زبان پیش‌فرض متن ارائه را برمی‌گرداند یا تنظیم می‌کند. Read/write String. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | تعیین می‌کند که آیا Aspose.Slides تمام اشیاء باینری توکار را هنگام بارگذاری ارائه حذف خواهد کرد یا نه. |
-| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | منابع قلم‌های خارجی را که توسط ارائه استفاده می‌شوند، مشخص می‌کند. این قلم‌ها در طول عمر ارائه در دسترس هستند و با سایر ارائه‌ها به اشتراک گذاشته نمی‌شوند. |
-| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | توکنی برای نظارت بر درخواست‌های قطع. این توکن تمام طول عمر نمونه [`IPresentation`](../ipresentation) را مدیریت می‌کند. هر عملیات طولانی‌مدت، مانند بارگذاری یا ذخیره‌سازی ارائه، از طریق فراخوانی متد [`Interrupt`](../interruptiontokensource/interrupt) از [`InterruptionTokenSource`](../interruptiontokensource) قطع می‌شود. |
-| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | فرمت ارائه‌ای که باید بارگذاری شود را برمی‌گرداند یا تنظیم می‌کند. Read/write [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | این ویژگی زمانی معنا دارد که فایل ارائه با رمز عبور محافظت شده باشد. مقدار true به این معنی است که فقط ویژگی‌های سند از یک ارائه رمزگذاری‌شده بارگذاری شوند و رمز عبور نادیده گرفته شود. مقدار false به این معنی است که کل ارائه رمزگذاری‌شده با استفاده از رمز صحیح بارگذاری شود. اگر ارائه رمزگذاری نشده باشد این مقدار همیشه نادیده گرفته می‌شود. اگر ویژگی‌های سند یک فایل رمزگذاری‌شده عمومی نباشند و مقدار true باشد، ویژگی‌های سند بارگذاری نمی‌شوند و استثنا پرتاب می‌شود. Read/write Boolean. |
-| [Password](../../aspose.slides/loadoptions/password) { get; set; } | رمز عبور را دریافت یا تنظیم می‌کند. Read/write String. |
-| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | رابط فراخوانی بازگشتی که مدیریت بارگذاری منابع خارجی را بر عهده دارد را برمی‌گرداند یا تنظیم می‌کند. Read/write [`IResourceLoadingCallback`](../iresourceloadingcallback). |
-| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | گزینه‌های مربوط به صفحات گسترده را دریافت می‌کند. به عنوان مثال، این گزینه‌ها بر محاسبه فرمول‌ها برای نمودارها تأثیر می‌گذارند. |
-| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | شیئی که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه پیدا کند یا متوقف شود را برمی‌گرداند یا تنظیم می‌کند. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [BlobManagementOptions](../../aspose.slides/loadoptions/blobmanagementoptions) { get; set; } | گزینه‌هایی را که می‌توان برای مدیریت رفتار پردازش Binary Large Objects (BLOBs) استفاده کرد، نشان می‌دهد، مانند استفاده از فایل‌های موقت یا حداکثر بایت‌های BLOB در حافظه. این گزینه‌ها برای تنظیم بهترین نسبت عملکرد/مصرف حافظه برای محیط یا الزامات خاص طراحی شده‌اند. یک Binary Large Object (BLOB) داده باینری است که به‌صورت یک واحد ذخیره می‌شود - به‌عبارت دیگر BLOB می‌تواند یک صدا، ویدیو یا خود ارائه باشد. |
+| [DefaultAsianFont](../../aspose.slides/loadoptions/defaultasianfont) { get; set; } | قلم آسیایی را که در صورت عدم یافتن قلم منبع استفاده می‌شود، بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن رشته. |
+| [DefaultRegularFont](../../aspose.slides/loadoptions/defaultregularfont) { get; set; } | قلم معمولی را که در صورت عدم یافتن قلم منبع استفاده می‌شود، بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن رشته. |
+| [DefaultSymbolFont](../../aspose.slides/loadoptions/defaultsymbolfont) { get; set; } | قلم Symbol را که در صورت عدم یافتن قلم منبع استفاده می‌شود، بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن رشته. |
+| [DefaultTextLanguage](../../aspose.slides/loadoptions/defaulttextlanguage) { get; set; } | زبان پیش‌فرض برای متن ارائه را بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن رشته. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/loadoptions/deleteembeddedbinaryobjects) { get; set; } | تعیین می‌کند که آیا Aspose.Slides تمام اشیای باینری توکار را هنگام بارگذاری ارائه حذف خواهد کرد یا نه. |
+| [DocumentLevelFontSources](../../aspose.slides/loadoptions/documentlevelfontsources) { get; set; } | منابع قلم‌های خارجی را که توسط ارائه استفاده می‌شوند مشخص می‌کند. این قلم‌ها در طول عمر ارائه در دسترس هستند و با ارائه‌های دیگر به اشتراک گذاشته نمی‌شوند |
+| [InterruptionToken](../../aspose.slides/loadoptions/interruptiontoken) { get; set; } | توکنی برای نظارت بر درخواست‌های وقفه است. این توکن طول عمر کلی نمونه [`IPresentation`](../ipresentation) را مدیریت می‌کند. هر عملیات طولانی‌مدتی، مانند بارگذاری یا ذخیره‌سازی ارائه، از طریق فراخوانی روش [`Interrupt`](../interruptiontokensource/interrupt) از [`InterruptionTokenSource`](../interruptiontokensource) متوقف خواهد شد. |
+| [LoadFormat](../../aspose.slides/loadoptions/loadformat) { get; set; } | قالب یک ارائه برای بارگذاری را بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/loadoptions/onlyloaddocumentproperties) { get; set; } | این ویژگی زمانی معنا دارد که فایل ارائه با رمز عبور محافظت شده باشد. مقدار true به این معنی است که فقط ویژگی‌های سند باید از فایل ارائه رمزگذاری شده بارگذاری شوند و رمز عبور نادیده گرفته شود. مقدار false به این معنی است که کل ارائه رمزگذاری شده باید با استفاده از رمز عبور صحیح بارگذاری شود. اگر ارائه رمزگذاری نشده باشد، مقدار این ویژگی همواره نادیده گرفته می‌شود. اگر ویژگی‌های سند یک فایل رمزگذاری شده عمومی نباشند و مقدار ویژگی true باشد، ویژگی‌های سند نمی‌توانند بارگذاری شوند و استثنایی رخ خواهد داد. خواندنی/قابل نوشتن Boolean. |
+| [Password](../../aspose.slides/loadoptions/password) { get; set; } | رمز عبور را می‌گیرد یا تنظیم می‌کند. خواندنی/قابل نوشتن رشته. |
+| [ResourceLoadingCallback](../../aspose.slides/loadoptions/resourceloadingcallback) { get; set; } | رابط فراخوانی که بارگذاری منابع خارجی را مدیریت می‌کند را بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [SpreadsheetOptions](../../aspose.slides/loadoptions/spreadsheetoptions) { get; set; } | گزینه‌های مربوط به صفحات‌گسترده را دریافت می‌کند. به‌عنوان مثال، این گزینه‌ها بر محاسبه فرمول‌های نمودارها تأثیر می‌گذارند. |
+| [WarningCallback](../../aspose.slides/loadoptions/warningcallback) { get; set; } | یک شیء که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا لغو شود را بر می‌گرداند یا تنظیم می‌کند. خواندنی/قابل نوشتن [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### موارد مرتبط
 
 * رابط [ILoadOptions](../iloadoptions)
-* فضای نام [Aspose.Slides](../../aspose.slides)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

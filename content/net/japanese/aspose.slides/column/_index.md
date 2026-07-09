@@ -1,14 +1,14 @@
 ---
 title: Column
 second_title: Aspose.Sildes for .NET API リファレンス
-description: テーブル内の列を表します。
+description: テーブルの列を表します。
 type: docs
-weight: 2570
+weight: 2590
 url: /ja/aspose.slides/column/
 ---
 ## Column クラス
 
-このテーブルの列を表します。
+テーブルの列を表します。
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -20,22 +20,22 @@ public sealed class Column : CellCollection, IColumn
 | --- | --- |
 | [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | この列の書式設定プロパティを含む ColumnFormat オブジェクトを返します。読み取り専用 [`IColumnFormat`](../icolumnformat)。 |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | コレクション内のセル数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド安全）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | 位置でセルを返します。読み取り専用 [`Cell`](../cell)。 |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection の親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection の親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
-| [Width](../../aspose.slides/column/width) { get; set; } | 列の幅を取得または設定します。読み書き可能 Double。 |
+| [Width](../../aspose.slides/column/width) { get; set; } | 列の幅を取得または設定します。読み取り/書き込み Double。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | すべての列セルの段落に定義された段落書式プロパティを設定します。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | すべての列セルの部分に定義された部分書式プロパティを設定します。 |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | すべての列セルのテキストフレームに定義されたテキストフレーム書式プロパティを設定します。 |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | すべての列セルの段落に、定義された段落書式プロパティを設定します。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | すべての列セルの部分に、定義された部分書式プロパティを設定します。 |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | すべての列セルのテキストフレームに、定義されたテキストフレーム書式プロパティを設定します。 |
 
 ### 参照
 

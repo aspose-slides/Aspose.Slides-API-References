@@ -1,14 +1,14 @@
 ---
 title: IPresentationComponent
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นส่วนประกอบของการนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของส่วนประกอบของการนำเสนอ
 type: docs
 weight: 6760
 url: /th/aspose.slides/ipresentationcomponent/
 ---
 ## IPresentationComponent อินเทอร์เฟซ
 
-เป็นส่วนประกอบของการนำเสนอ.
+เป็นตัวแทนของส่วนประกอบของการนำเสนอ
 
 ```csharp
 public interface IPresentationComponent
@@ -18,7 +18,7 @@ public interface IPresentationComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | คืนค่าการนำเสนอ. อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
+| [Presentation](../../aspose.slides/ipresentationcomponent/presentation) { get; } | ส่งคืนการนำเสนอ อ่านอย่างเดียว [`IPresentation`](../ipresentation). |
 
 ### ดูเพิ่มเติม
 

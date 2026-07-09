@@ -1,14 +1,14 @@
 ---
 title: MotionEffect
-second_title: Aspose.Sildes .NET API referenciája
-description: Ábrázolja a mozgási effekt viselkedését.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A hatás mozgási effektusának viselkedését reprezentálja.
 type: docs
-weight: 650
+weight: 670
 url: /hu/aspose.slides.animation/motioneffect/
 ---
 ## MotionEffect osztály
 
-A mozgási effekt viselkedését ábrázolja.
+A mozgási hatás viselkedését reprezentálja.
 
 ```csharp
 public class MotionEffect : Behavior, IMotionEffect
@@ -24,18 +24,18 @@ public class MotionEffect : Behavior, IMotionEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Ablakozási viselkedések felhalmozódását jelöli. Olvasási/írási [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Megadja, hogy a jelenlegi animációs viselkedés más futó animációkkal kombinálódik-e. Olvasási/írási [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Leírja a mozgáspálya relatív szögét. Olvasási/írási Single. |
-| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét (százalékban). Olvasási/írási PointF. |
-| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Megadja az x/y koordinátát, ahonnan az animáció elindul (százalékban). Olvasási/írási PointF. |
-| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Megadja, hogy a mozgáspálya eredete mire vonatkozik, például a dia elrendezésére vagy a szülőre. Olvasási/írási [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Megadja a koordinátákat követő útvonal alapelemét az animáció mozgásához. Olvasási/írási [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Megadja, hogyan mozog a mozgáspálya, amikor az alakzat mozog. Olvasási/írási [`MotionPathEditMode`](../motionpatheditmode). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelöli. Csak olvasás [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Leírja a forgatás középpontját, amelyet X szög szerint a mozgáspálya forgatásához használnak. Olvasási/írási PointF. |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait jelöli. Olvasási/írási [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Megadja egy animációs mozgáseffektus célhelyét (százalékban). Olvasási/írási PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy a animációs viselkedések összeadódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy az aktuális animációs viselkedés más futó animációkkal kombinálódik-e. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Angle](../../aspose.slides.animation/motioneffect/angle) { get; set; } | Leírja a mozgási útvonal relatív szögét. Olvasás/írás Single. |
+| [By](../../aspose.slides.animation/motioneffect/by) { get; set; } | Leírja az animáció relatív eltolási értékét (százalékban). Olvasás/írás PointF. |
+| [From](../../aspose.slides.animation/motioneffect/from) { get; set; } | Megadja az x/y koordinátát, ahonnan az animáció indul (százalékban). Olvasás/írás PointF. |
+| [Origin](../../aspose.slides.animation/motioneffect/origin) { get; set; } | Megadja, hogy a mozgási útvonal eredete mihez viszonyul, például a dia elrendezéséhez vagy a szülőhöz. Olvasás/írás [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/motioneffect/path) { get; set; } | Megadja az animációs mozgás koordinátáit követő útvonal primitívát. Olvasás/írás [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/motioneffect/patheditmode) { get; set; } | Megadja, hogyan mozog a mozgási útvonal, amikor az alakzat elmozdul. Olvasás/írás [`MotionPathEditMode`](../motionpatheditmode). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait reprezentálja. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [RotationCenter](../../aspose.slides.animation/motioneffect/rotationcenter) { get; set; } | Leírja a forgatás középpontját, amelyet egy X szöggel forgatott mozgási útvonalhoz használnak. Olvasás/írás PointF. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Az effektus viselkedés időzítési tulajdonságait reprezentálja. Olvasás/írás [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/motioneffect/to) { get; set; } | Megadja egy animációs mozgási effektus célhelyét (százalékban). Olvasás/írás PointF. |
 
 ### Lásd még
 

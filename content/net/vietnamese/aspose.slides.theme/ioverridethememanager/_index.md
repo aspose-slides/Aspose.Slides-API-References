@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeManager
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp quyền truy cập vào các loại chủ đề đã được ghi đè khác nhau.
+description: Cung cấp quyền truy cập vào các loại chủ đề đã ghi đè khác nhau.
 type: docs
 weight: 11350
 url: /vi/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager giao diện
 
-Cung cấp quyền truy cập vào các loại chủ đề đã được ghi đè khác nhau.
+Cung cấp quyền truy cập vào các loại chủ đề đã ghi đè khác nhau.
 
 ```csharp
 public interface IOverrideThemeManager : IThemeManager
@@ -19,10 +19,10 @@ public interface IOverrideThemeManager : IThemeManager
 | Tên | Mô tả |
 | --- | --- |
 | [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Cho phép lấy giao diện IThemeManager cơ bản. Chỉ đọc [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Xác định liệu OverrideTheme có ghi đè chủ đề hiệu quả kế thừa hay không. Để bật OverrideTheme để ghi đè, sử dụng các phương thức OverrideTheme.Init*(). Để tắt OverrideTheme khỏi việc ghi đè, sử dụng phương thức OverrideTheme.Clear(). Boolean chỉ đọc. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Trả về đối tượng chủ đề đang ghi đè. Đọc/ghi [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Xác định xem OverrideTheme có ghi đè chủ đề hiệu lực thừa kế hay không. Để bật OverrideTheme cho việc ghi đè, sử dụng các phương thức OverrideTheme.Init*(). Để tắt OverrideTheme khỏi việc ghi đè, sử dụng phương thức OverrideTheme.Clear(). Boolean chỉ đọc. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Trả về đối tượng chủ đề ghi đè. Đọc/ghi [`IOverrideTheme`](../ioverridetheme). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IThemeManager](../ithememanager)
 * không gian tên [Aspose.Slides.Theme](../../aspose.slides.theme)

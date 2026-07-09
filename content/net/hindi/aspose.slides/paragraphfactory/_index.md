@@ -1,37 +1,37 @@
 ---
 title: ParagraphFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: पराग्राफ बनाने की अनुमति देता है
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: पैराग्राफ बनाने की अनुमति देता है
 type: docs
 weight: 9300
 url: /hi/aspose.slides/paragraphfactory/
 ---
 ## ParagraphFactory क्लास
 
-पराग्राफ बनाने की अनुमति देता है
+पैराग्राफ बनाने की अनुमति देता है
 
 ```csharp
 public class ParagraphFactory : IParagraphFactory
 ```
 
-## निर्माता
+## कंस्ट्रक्टर्स
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [ParagraphFactory](paragraphfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## विधियाँ
+## मेथड्स
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | एक नया खाली पराग्राफ बनाता है। |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | निर्दिष्ट पराग्राफ डेटा का उपयोग करके एक नया पराग्राफ बनाता है। |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | एक नया खाली पैराग्राफ बनाता है। |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | निर्दिष्ट पैराग्राफ डेटा का उपयोग करके एक नया पैराग्राफ बनाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
 COM संगतता के लिए।
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IParagraphFactory](../iparagraphfactory)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

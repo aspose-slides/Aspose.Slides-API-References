@@ -1,6 +1,6 @@
 ---
 title: CellFormat
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
 description: แสดงรูปแบบของเซลล์ตาราง.
 type: docs
 weight: 1150
@@ -8,7 +8,7 @@ url: /th/aspose.slides/cellformat/
 ---
 ## CellFormat คลาส
 
-แทนรูปแบบของเซลล์ตาราง.
+แสดงรูปแบบของเซลล์ตาราง.
 
 ```csharp
 public sealed class CellFormat : PVIObject, ICellFormat
@@ -16,25 +16,25 @@ public sealed class CellFormat : PVIObject, ICellFormat
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ให้เข้าถึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้แบบอ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
-| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นขอบล่างแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นทแยงมุมจากซ้ายบนไปขวาล่างแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นทแยงมุมจากซ้ายล่างไปขวาบนแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นขอบซ้ายแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นขอบขวาแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติเส้นขอบบนแบบอ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
-| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | ส่งคืนอ็อบเจ็กต์คุณสมบัติปริมาณสีของเซลล์แบบอ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
-| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | ได้หรือกำหนดค่าความโปร่งใสของสีเติม อ่าน/เขียน Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent เบสได้. อ่านอย่างเดียว [`IPresentationComponent`](../ipresentationcomponent). |
+| [BorderBottom](../../aspose.slides/cellformat/borderbottom) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นขอบล่าง. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalDown](../../aspose.slides/cellformat/borderdiagonaldown) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นทแยงมุมจากซ้ายบนไปขวาล่าง. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [BorderDiagonalUp](../../aspose.slides/cellformat/borderdiagonalup) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นทแยงมุมจากซ้ายล่างไปขวาบน. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [BorderLeft](../../aspose.slides/cellformat/borderleft) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นขอบซ้าย. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [BorderRight](../../aspose.slides/cellformat/borderright) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นขอบขวา. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [BorderTop](../../aspose.slides/cellformat/bordertop) { get; } | คืนอ็อบเจ็กต์คุณสมบัติของเส้นขอบบน. อ่านอย่างเดียว [`ILineFormat`](../ilineformat). |
+| [FillFormat](../../aspose.slides/cellformat/fillformat) { get; } | คืนอ็อบเจ็กต์คุณสมบัติการเติมเซลล์. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
+| [Transparency](../../aspose.slides/cellformat/transparency) { get; set; } | รับหรือกำหนดความโปร่งใสของสีเติม. อ่าน/เขียน Single. |
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ |
-| [GetEffective](../../aspose.slides/cellformat/geteffective)() | รับคุณสมบัติการฟอร์แมตของเซลล์ตารางที่มีผลโดยใช้การสืบทอดและสไตล์ตารางที่นำไปใช้ |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ส่งคืนค่าแฮชโค้ด |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | เปรียบเทียบกับอ็อบเจ็กต์ที่ระบุ. |
+| [GetEffective](../../aspose.slides/cellformat/geteffective)() | รับคุณสมบัติการจัดรูปแบบของเซลล์ตารางที่มีประสิทธิภาพพร้อมการสืบทอดและสไตล์ของตารางที่ใช้. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | คืนค่าแฮชโค้ด. |
 
 ### ดูเพิ่มเติม
 

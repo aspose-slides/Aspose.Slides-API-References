@@ -1,9 +1,9 @@
 ---
 title: IOverrideThemeManager
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Fornisce l'accesso a diversi tipi di temi sovrascritti.
 type: docs
-weight: 11330
+weight: 11350
 url: /it/aspose.slides.theme/ioverridethememanager/
 ---
 ## IOverrideThemeManager interfaccia
@@ -18,9 +18,9 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Consente di ottenere l'interfaccia IThemeManager di base. Solo lettura [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive il tema effettivo ereditato o no. Per abilitare OverrideTheme per la sovrascrittura, utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura, utilizzare il metodo OverrideTheme.Clear(). Solo lettura Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema di sovrascrittura. Lettura/Scrittura [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Consente di ottenere l'interfaccia base IThemeManager. Solo lettura [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | Determina se OverrideTheme sovrascrive o meno il tema effettivo ereditato. Per abilitare OverrideTheme alla sovrascrittura utilizzare i metodi OverrideTheme.Init*(). Per disabilitare OverrideTheme dalla sovrascrittura utilizzare il metodo OverrideTheme.Clear(). Solo lettura Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Restituisce l'oggetto tema sovrascritto. Lettura/scrittura [`IOverrideTheme`](../ioverridetheme). |
 
 ### Vedi anche
 

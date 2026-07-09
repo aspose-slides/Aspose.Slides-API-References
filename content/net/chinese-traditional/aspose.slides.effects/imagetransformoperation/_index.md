@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示抽象的圖像轉換效果。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示抽象的影像變換效果。
 type: docs
 weight: 3570
 url: /zh-hant/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation 類別
 
-表示抽象的圖像轉換效果。
+表示抽象的影像變換效果。
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -16,13 +16,13 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 允許取得基礎 IPresentationComponent 介面。唯讀 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 與指定的物件比較。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 傳回雜湊碼。 |

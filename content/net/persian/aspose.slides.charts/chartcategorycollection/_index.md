@@ -1,49 +1,49 @@
 ---
 title: ChartCategoryCollection
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایش‌دهندهٔ مجموعه‌ای از ChartCategory./chartcategory
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش مجموعه‌ای از ChartCategory./chartcategory
 type: docs
 weight: 1280
 url: /fa/aspose.slides.charts/chartcategorycollection/
 ---
 ## ChartCategoryCollection کلاس
 
-نمایش‌دهندهٔ مجموعهٔ [`ChartCategory`](../chartcategory)
+نمایش مجموعه‌ای از [`ChartCategory`](../chartcategory)
 
 ```csharp
 public class ChartCategoryCollection : DomObject<ChartData>, IChartCategoryCollection
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | تعداد عناصری که در مجموعه وجود دارند را برمی‌گرداند. فقط خواندنی Int32. |
-| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | تعداد سطوح گروه‌بندی دسته‌ها را برمی‌گرداند. برای دسته‌های چندسطحی بیشتر از یک است. فقط خواندنی Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | مقداری را که نشان می‌دهد دسترسی به List همگام‌سازی شده است (امنیت‌پذیر در چندنخی) برمی‌گرداند. فقط خواندنی Boolean. |
-| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | عنصر موجود در ایندکس مشخص‌شده را دریافت می‌کند. |
-| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | شیئی را برمی‌گرداند که می‌توان برای همگام‌سازی دسترسی به مجموعه استفاده کرد. فقط خواندنی Object. |
-| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | اگر مقدار true باشد، برگه‌کاری برای ذخیره‌سازی دسته‌ها استفاده می‌شود (این حالت از دسته‌های چندسطحی پشتیبانی می‌کند). اگر مقدار false باشد، برگه‌کاری برای ذخیره‌سازی مقادیر استفاده نمی‌شود (و این حالت از دسته‌های چندسطحی پشتیبانی نمی‌کند). خواندنی/نوشتنی Boolean. |
+| [Count](../../aspose.slides.charts/chartcategorycollection/count) { get; } | تعداد عناصری را که در مجموعه وجود دارد برمی‌گرداند. فقط‌خواندنی Int32. |
+| [GroupingLevelCount](../../aspose.slides.charts/chartcategorycollection/groupinglevelcount) { get; } | تعداد سطوح گروه‌بندی دسته‌ها را برمی‌گرداند. برای دسته‌های چندسطحی بیشتر از یک است. فقط‌خواندنی Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartcategorycollection/issynchronized) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد دسترسی به List همگام‌سازی شده است (Thread Safe). فقط‌خواندنی Boolean. |
+| [Item](../../aspose.slides.charts/chartcategorycollection/item) { get; } | عنصر را در اندیس مشخص شده دریافت می‌کند. |
+| [SyncRoot](../../aspose.slides.charts/chartcategorycollection/syncroot) { get; } | شیئی را برمی‌گرداند که می‌توان از آن برای هماهنگ‌سازی دسترسی به مجموعه استفاده کرد. فقط‌خواندنی Object. |
+| [UseCells](../../aspose.slides.charts/chartcategorycollection/usecells) { get; set; } | اگر true باشد، کاربرگ برای ذخیره‌سازی دسته‌ها استفاده می‌شود (این حالت از دسته‌های چندسطحی پشتیبانی می‌کند). اگر false باشد، کاربرگ برای ذخیره‌سازی مقادیر استفاده نمی‌شود (و این حالت از دسته‌های چندسطحی پشتیبانی نمی‌کند). خواندنی/نوشتنی Boolean. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | اگر دسته در مجموعه موجود باشد، آن را برمی‌گرداند. در غیر این صورت دسته نمودار جدیدی را از [`IChartDataCell`](../ichartdatacell) ایجاد کرده و به مجموعه اضافه می‌کند. |
-| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | یک [`ChartCategory`](../chartcategory) جدید از مقدار ایجاد کرده و به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add)(IChartDataCell) | اگر دسته در مجموعه وجود داشته باشد، آن را برمی‌گرداند. در غیر این صورت دسته نمودار جدیدی از [`IChartDataCell`](../ichartdatacell) ایجاد می‌کند و به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.charts/chartcategorycollection/add#add_1)(object) | یک [`ChartCategory`](../chartcategory) جدید از مقدار ایجاد می‌کند و به مجموعه اضافه می‌کند. |
 | [Clear](../../aspose.slides.charts/chartcategorycollection/clear)() | تمام عناصر مجموعه را حذف می‌کند. |
-| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | تمام عناصر مجموعه را به آرایه مشخص‌شده کپی می‌کند. |
-| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | یک enumerator که از طریق مجموعه تکرار می‌کند را برمی‌گرداند. |
-| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | عنصر [`ChartCategory`](../chartcategory) مشخص‌شده را جستجو می‌کند و ایندکس صفر-پایه اولین رخداد آن را در کل مجموعه برمی‌گرداند. |
-| [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | مقدار مشخص‌شده را حذف می‌کند. |
-| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | عنصر موجود در ایندکس داده‌شده را حذف می‌کند. |
+| [CopyTo](../../aspose.slides.charts/chartcategorycollection/copyto)(Array, int) | همه عناصر مجموعه را به آرایه مشخص شده کپی می‌کند. |
+| [GetEnumerator](../../aspose.slides.charts/chartcategorycollection/getenumerator)() | یک enumerator را برمی‌گرداند که در مجموعه پیمایش می‌کند. |
+| [IndexOf](../../aspose.slides.charts/chartcategorycollection/indexof)(IChartCategory) | برای [`ChartCategory`](../chartcategory) مشخص شده جستجو می‌کند و شاخص صفر-بنیاد اولین وقوع آن را در کل مجموعه برمی‌گرداند. |
+| [Remove](../../aspose.slides.charts/chartcategorycollection/remove)(IChartCategory) | مقدار مشخص شده را حذف می‌کند. |
+| [RemoveAt](../../aspose.slides.charts/chartcategorycollection/removeat)(int) | عنصر در اندیس داده شده را حذف می‌کند. |
 
 ### موارد مرتبط
 
 * کلاس [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * کلاس [ChartData](../chartdata)
-* اینترفیس [IChartCategoryCollection](../ichartcategorycollection)
+* رابط [IChartCategoryCollection](../ichartcategorycollection)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)
-* اسمبلی [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

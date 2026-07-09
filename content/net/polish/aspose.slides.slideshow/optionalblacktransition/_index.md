@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Opcjonalny czarny efekt przejścia slajdu.
+description: Opcjonalny efekt przejścia slajdu z czarnym ekranem.
 type: docs
-weight: 10240
+weight: 10260
 url: /pl/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## Klasa OptionalBlackTransition
 
-Opcjonalny czarny efekt przejścia slajdu.
+Opcjonalny efekt przejścia slajdu z czarnym ekranem.
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -16,16 +16,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przejdzie do nowego slajdu na czarnym tle). Odczyt/zapis Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Ten atrybut określa, czy przejście rozpocznie się od czarnego ekranu (a następnie przejdzie nowy slajd na czarnym). Odczyt/zapis Boolean. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Określa, czy dwie instancje TransitionValueBase są równe. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu, odpowiednia do użycia w algorytmach mieszania i strukturach danych, takich jak tablica mieszająca. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach haszujących i strukturach danych, takich jak tabela hash. |
 
 ### Zobacz także
 

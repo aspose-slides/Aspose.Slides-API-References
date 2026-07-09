@@ -3,12 +3,12 @@ title: Fonts
 second_title: Referência da API Aspose.Sildes para .NET
 description: Coleção de fontes.
 type: docs
-weight: 4900
+weight: 4920
 url: /pt/aspose.slides/fonts/
 ---
-## Fonts classe
+## Classe Fonts
 
-Fonts coleção.
+Coleção de fontes.
 
 ```csharp
 public class Fonts : IFonts
@@ -26,10 +26,10 @@ public class Fonts : IFonts
 
 | Nome | Descrição |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Obtém o nome da fonte associado a uma etiqueta de script específica do tema da apresentação. |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | Obtém o nome da fonte associado a uma tag de script específica do tema da apresentação. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | Retorna um dicionário de todas as definições de fontes de script na apresentação. |
-| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Remove a configuração de fonte associada a uma etiqueta de script específica da coleção de fontes do tema. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Atribui um nome de fonte a uma etiqueta de script específica, que define como o texto desse script será renderizado na apresentação. |
+| [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | Remove a configuração de fonte associada a uma tag de script específica da coleção de fontes do tema. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | Atribui um nome de fonte a uma tag de script específica, que define como o texto desse script será renderizado na apresentação. |
 
 ### Veja Também
 

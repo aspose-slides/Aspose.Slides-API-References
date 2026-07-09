@@ -6,7 +6,7 @@ type: docs
 weight: 10850
 url: /ko/aspose.slides/tabfactory/
 ---
-## TabFactory class
+## TabFactory 클래스
 
 ITab 인스턴스를 생성할 수 있습니다
 
@@ -26,11 +26,11 @@ public class TabFactory : ITabFactory
 | --- | --- |
 | [CreateTab](../../aspose.slides/tabfactory/createtab)(double, TabAlignment) | 새 ITab 인스턴스를 생성합니다. |
 
-### 비고
+### 참고
 
 COM 호환성을 위해.
 
-### 참고
+### 참조
 
 * 인터페이스 [ITabFactory](../itabfactory)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

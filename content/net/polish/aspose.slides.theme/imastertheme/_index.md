@@ -1,14 +1,14 @@
 ---
 title: IMasterTheme
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Reprezentuje motyw nadrzędny.
+second_title: Aspose.Sildes dla .NET – odwołanie API
+description: Reprezentuje motyw główny.
 type: docs
-weight: 11290
+weight: 11310
 url: /pl/aspose.slides.theme/imastertheme/
 ---
-## interfejs IMasterTheme
+## IMasterTheme interfejs
 
-Reprezentuje motyw nadrzędny.
+Reprezentuje motyw główny.
 
 ```csharp
 public interface IMasterTheme : ITheme
@@ -16,9 +16,9 @@ public interface IMasterTheme : ITheme
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
-| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Umożliwia pobranie bazowego interfejsu ITheme. Tylko do odczytu [`ITheme`](../itheme). |
+| [AsITheme](../../aspose.slides.theme/imastertheme/asitheme) { get; } | Umożliwia pobranie podstawowego interfejsu ITheme. Tylko do odczytu [`ITheme`](../itheme). |
 | [ExtraColorSchemes](../../aspose.slides.theme/imastertheme/extracolorschemes) { get; } | Zwraca kolekcję dodatkowych schematów kolorów. Schematy te nie wpływają na wygląd prezentacji, mogą być wybrane jako główny schemat kolorów dla slajdu. Tylko do odczytu [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
 | [Name](../../aspose.slides.theme/imastertheme/name) { get; set; } | Zwraca nazwę motywu. Odczyt/zapis String. |
 

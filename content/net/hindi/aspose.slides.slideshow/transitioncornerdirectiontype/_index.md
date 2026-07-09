@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: कोने की दिशा परिवर्तन प्रकारों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: कोने की दिशा संक्रमण प्रकारों का प्रतिनिधित्व करता है।
 type: docs
 weight: 10350
 url: /hi/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType एन्यूमरेशन
+## TransitionCornerDirectionType एन्हुमरेशन
 
-कोने की दिशा परिवर्तन प्रकारों का प्रतिनिधित्व करता है।
+कोने की दिशा संक्रमण प्रकारों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum TransitionCornerDirectionType
@@ -23,7 +23,7 @@ public enum TransitionCornerDirectionType
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### और देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

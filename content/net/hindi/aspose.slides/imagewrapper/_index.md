@@ -6,9 +6,9 @@ type: docs
 weight: 7440
 url: /hi/aspose.slides/imagewrapper/
 ---
-## ImageWrapper वर्ग
+## ImageWrapper कक्षा
 
-System.Drawing.Image का COM इंटरफ़ेस के लिए रैपर।
+System.Drawing.Image wrapper for COM interface.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,19 +18,19 @@ public class ImageWrapper : IImageWrapper
 
 | नाम | विवरण |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image प्राप्त करता है। केवल-पढ़ने योग्य [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image की चौड़ाई और ऊँचाई, पिक्सेल में प्राप्त करता है। केवल-पढ़ने योग्य [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image प्राप्त करता है। केवल-पढ़ने योग्य [`IImage`](../iimage)। |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image की चौड़ाई और ऊँचाई, पिक्सेल में, प्राप्त करता है। केवल-पढ़ने योग्य [`Size`](./size)। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper को नष्ट करें |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image को निर्दिष्ट फ़ाइल में सहेजता है |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image को निर्दिष्ट स्वरूप में निर्दिष्ट स्ट्रीम में सहेजता है। |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image को निर्दिष्ट स्वरूप में निर्दिष्ट फ़ाइल में सहेजता है। |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image को निर्दिष्ट प्रारूप में निर्दिष्ट स्ट्रीम में सहेजता है। |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image को निर्दिष्ट प्रारूप में निर्दिष्ट फ़ाइल में सहेजता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IImageWrapper](../iimagewrapper)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

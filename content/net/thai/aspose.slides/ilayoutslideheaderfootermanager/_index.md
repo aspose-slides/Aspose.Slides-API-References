@@ -1,14 +1,14 @@
 ---
 title: ILayoutSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวจับตำแหน่งส่วนท้ายของสไลด์เค้าโครง, วันที่-เวลา, ตัวเลขหน้า และตัวจับตำแหน่งลูกทั้งหมด. ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่. การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง.
+second_title: Aspose.Sildes สำหรับ .NET - อ้างอิง API
+description: แทนตัวผู้จัดการที่เก็บพฤติกรรมของตัวครอบส่วนท้ายสไลด์เค้าโครง วันที่-เวลา หมายเลขหน้า และตัวครอบทั้งหมดของลูก ตัวครอบลูกหมายถึงตัวครอบที่อยู่ในสไลด์ที่อิง การใช้สไลด์ที่อิงจะใช้และพึ่งพาสตูลเค้าโครงสไลด์
 type: docs
 weight: 6240
 url: /th/aspose.slides/ilayoutslideheaderfootermanager/
 ---
-## ILayoutSlideHeaderFooterManager อินเทอร์เฟซ
+## ILayoutSlideHeaderFooterManager interface
 
-แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวจับตำแหน่งส่วนท้ายของสไลด์เค้าโครง, วันที่-เวลา, ตัวเลขหน้า และตัวจับตำแหน่งลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง.
+เป็นตัวจัดการที่เก็บพฤติกรรมของตัวครอบข้อความส่วนท้ายสไลด์เค้าโครง, ตัวครอบวันที่-เวลา, ตัวครอบเลขหน้า และตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลเค้าโครงสไลด์.
 
 ```csharp
 public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,17 +18,17 @@ public interface ILayoutSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | ส่งคืน IBaseSlideHeaderFooterManager อินเทอร์เฟซ. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ilayoutslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่าอินเทอร์เฟซ IBaseSlideHeaderFooterManager. |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งข้อความให้กับตัวจับตำแหน่งวันที่-เวลาในสไลด์เค้าโครงและตัวจับตำแหน่งวันที่-เวลาลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจับตำแหน่งวันที่-เวลาในสไลด์เค้าโครงและตัวจับตำแหน่งวันที่-เวลาลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง. |
-| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งข้อความให้กับตัวจับตำแหน่งส่วนท้ายในสไลด์เค้าโครงและตัวจับตำแหน่งส่วนท้ายลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจับตำแหน่งส่วนท้ายในสไลด์เค้าโครงและตัวจับตำแหน่งส่วนท้ายลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพา สไลด์มาสเตอร์. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวจับตำแหน่งเลขหน้าในสไลด์เค้าโครงและตัวจับตำแหน่งเลขหน้าลูกทั้งหมด ตัวจับตำแหน่งลูกหมายถึงตัวจับตำแหน่งที่อยู่บนสไลด์ที่ขึ้นอยู่ การสไลด์ที่ขึ้นอยู่ใช้และพึ่งพาสไลด์เค้าโครง. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความให้กับตัวครอบวันที่-เวลาในสไลด์เค้าโครงและตัวครอบวันที่-เวลาในตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลเค้าโครงสไลด์. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการมองเห็นของตัวครอบวันที่-เวลาในสไลด์เค้าโครงและตัวครอบวันที่-เวลาในตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลเค้าโครงสไลด์. |
+| [SetFooterAndChildFootersText](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความให้กับตัวครอบส่วนท้ายสไลด์เค้าโครงและตัวครอบส่วนท้ายในตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลเค้าโครงสไลด์. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวครอบส่วนท้ายสไลด์เค้าโครงและตัวครอบส่วนท้ายในตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลมาสเตอร์สไลด์. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/ilayoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการมองเห็นของตัวครอบเลขหน้าสไลด์เค้าโครงและตัวครอบเลขหน้าในตัวครอบลูกทั้งหมด. ตัวครอบลูกหมายถึงตัวครอบที่อยู่บนสไลด์ที่อิงขึ้น. สไลด์ที่อิงใช้และพึ่งพาสตูลเค้าโครงสไลด์. |
 
 ### ดูเพิ่มเติม
 

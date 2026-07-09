@@ -1,14 +1,14 @@
 ---
 title: ColorType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta diverse modalità di colore.
+second_title: Aspose.Sildes per .NET API Reference
+description: Rappresenta diversi modi di colore.
 type: docs
-weight: 2560
+weight: 2580
 url: /it/aspose.slides/colortype/
 ---
 ## ColorType enumerazione
 
-Rappresenta diverse modalità di colore.
+Rappresenta diversi modi di colore.
 
 ```csharp
 public enum ColorType
@@ -18,13 +18,13 @@ public enum ColorType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| NotDefined | `-1` | Il colore non è definito. |
+| NotDefined | `-1` | Il colore non è definito affatto. |
 | RGB | `0` | Colore RGB standard a 24 bit. |
 | RGBPercentage | `1` | Colore RGB ad alta definizione. |
 | HSL | `2` | Colore HSL ad alta definizione. |
 | Scheme | `3` | Colore di schema. |
 | System | `4` | Colore di sistema. |
-| Preset | `5` | Colore preimpostato. |
+| Preset | `5` | Colore predefinito. |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: Merger
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een groep methoden beschikbaar voor het samenvoegen van PowerPoint-presentaties van hetzelfde formaat tot één bestand.
+description: Stelt een groep methoden voor die PowerPoint-presentaties van hetzelfde formaat samenvoegt tot één bestand.
 type: docs
 weight: 7970
 url: /nl/aspose.slides.lowcode/merger/
 ---
 ## Merger klasse
 
-Stelt een groep methoden beschikbaar voor het samenvoegen van PowerPoint-presentaties van hetzelfde formaat tot één bestand.
+Stelt een groep methoden voor die PowerPoint-presentaties van hetzelfde formaat samenvoegt tot één bestand.
 
 ```csharp
 public static class Merger

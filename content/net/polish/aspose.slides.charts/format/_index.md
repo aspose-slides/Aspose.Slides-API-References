@@ -1,12 +1,12 @@
 ---
 title: Format
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje właściwości formatu wykresu.
 type: docs
-weight: 1660
+weight: 1680
 url: /pl/aspose.slides.charts/format/
 ---
-## Klasa Format
+## Format klasa
 
 Reprezentuje właściwości formatu wykresu.
 
@@ -16,17 +16,17 @@ public sealed class Format : PVIObject, IFormat
 
 ## Właściwości
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umożliwia pobranie podstawowego interfejsu IPresentationComponent. Tylko do odczytu [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | Zwraca efekty użyte w wykresie. Tylko do odczytu [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | Zwraca efekty używane w wykresie. Tylko do odczytu [`IEffectFormat`](../../aspose.slides/ieffectformat). |
 | [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | Zwraca format 3D wykresu. Tylko do odczytu [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | Zwraca właściwości stylu wypełnienia wykresu. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/format/line) { get; } | Zwraca właściwości stylu linii wykresu. Tylko do odczytu [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ## Metody
 
-| Nazwa | Opis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Porównuje z określonym obiektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Zwraca kod skrótu. |

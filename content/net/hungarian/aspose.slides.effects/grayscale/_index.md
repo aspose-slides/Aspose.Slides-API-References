@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes a .NET API referencia
-description: Gray Scale hatást reprezentálja. Az összes hatás színértékét egy szürke árnyalatra konvertálja, amely a luminanciájuknak megfelelő. A hatás alfa átlátszósági értékei változatlanok.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy Gray Scale effektust reprezentál. Az összes effektus színértéket szürkeárnyalatba konvertálja, a fényességüknek megfelelően. Az effektus alfa átlátszósági értékek változatlanok.
 type: docs
-weight: 2980
+weight: 3000
 url: /hu/aspose.slides.effects/grayscale/
 ---
 ## GrayScale osztály
 
-A GrayScale hatást reprezentálja. Az összes hatás színértékét egy szürke árnyalatra konvertálja, amely a luminanciájuknak megfelelő. A hatás alfa (átlátszóság) értékei változatlanok.
+A Gray Scale effektust reprezentálja. Az összes effektus színértékét szürkeárnyalatra konvertálja, a fényességüknek megfelelően. Az effektus alfa (átlátszóság) értékei változatlanok.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,14 +18,14 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Megállapítja, hogy a megadott [`GrayScale`](../grayscale) egyenlő-e a jelenlegi [`GrayScale`](../grayscale)-val. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Lekéri a hatékony Gray Scale effektus adatot az öröklődés alkalmazásával. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | Meghatározza, hogy a megadott [`GrayScale`](../grayscale) megegyezik-e a jelenlegi [`GrayScale`](../grayscale). |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | Lekéri a hatékony Gray Scale effektus adatokat az öröklődés alkalmazásával. |
 | override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még

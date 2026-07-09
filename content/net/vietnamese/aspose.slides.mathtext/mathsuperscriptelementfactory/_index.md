@@ -6,7 +6,7 @@ type: docs
 weight: 9030
 url: /vi/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
-## MathSuperscriptElementFactory lớp
+## lớp MathSuperscriptElementFactory
 
 Cho phép tạo IMathSuperscriptElement
 
@@ -14,11 +14,11 @@ Cho phép tạo IMathSuperscriptElement
 public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | Hàm khởi tạo mặc định. |
+| [MathSuperscriptElementFactory](mathsuperscriptelementfactory)() | Hàm tạo mặc định. |
 
 ## Phương thức
 

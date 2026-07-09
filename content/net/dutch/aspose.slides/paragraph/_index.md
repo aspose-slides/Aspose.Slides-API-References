@@ -19,23 +19,23 @@ public sealed class Paragraph : IParagraph
 | Naam | Beschrijving |
 | --- | --- |
 | [Paragraph](paragraph#constructor)() | Initialiseert een nieuw exemplaar van de Paragraph klasse met standaardeigenschappen. |
-| [Paragraph](paragraph#constructor_1)(Paragraph) | Copy-constructor die een nieuw exemplaar van de Paragraph klasse initialiseert. |
+| [Paragraph](paragraph#constructor_1)(Paragraph) | Kopieerconstructor die een nieuw exemplaar van een Paragraph klasse initialiseert. |
 
 ## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
 | [EndParagraphPortionFormat](../../aspose.slides/paragraph/endparagraphportionformat) { get; set; } | Specificeert de gedeelte-eigenschappen die gebruikt moeten worden als een ander gedeelte wordt ingevoegd na het laatste. |
-| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Geeft het opmaakobject terug voor deze alinea. Alleen-lezen [`IParagraphFormat`](../iparagraphformat). |
-| [Portions](../../aspose.slides/paragraph/portions) { get; } | Geeft de collectie van tekstgedeelten terug. Alleen-lezen [`IPortionCollection`](../iportioncollection). |
-| [Text](../../aspose.slides/paragraph/text) { get; set; } | Leest of stelt de platte tekst van een alinea in. Lezen/Schrijven String. |
+| [ParagraphFormat](../../aspose.slides/paragraph/paragraphformat) { get; } | Geeft het opmaakobject voor deze alinea terug. Alleen-lezen [`IParagraphFormat`](../iparagraphformat). |
+| [Portions](../../aspose.slides/paragraph/portions) { get; } | Geeft de verzameling van tekstgedeelten terug. Alleen-lezen [`IPortionCollection`](../iportioncollection). |
+| [Text](../../aspose.slides/paragraph/text) { get; set; } | Haalt de platte tekst van een alinea op of stelt deze in. Lezen/schrijven String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [GetLinesCount](../../aspose.slides/paragraph/getlinescount)() | Haal het aantal regels in een alinea op. |
-| [GetRect](../../aspose.slides/paragraph/getrect)() | Haalt de coördinaten op van het rechthoek dat de alinea begrenst. Het rechthoek omvat alle regels tekst in de alinea, inclusief lege. |
+| [GetRect](../../aspose.slides/paragraph/getrect)() | Haal de coördinaten op van de rechthoek die de alinea begrenst. De rechthoek bevat alle regels tekst in de alinea, inclusief lege. |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/paragraph/joinportionswithsameformatting)() | Voegt runs samen met dezelfde opmaak. |
 
 ### Zie ook

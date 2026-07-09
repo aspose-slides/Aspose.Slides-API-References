@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Neměnný objekt, který představuje efektivní vlastnosti 3-D formátování.
 type: docs
-weight: 7320
+weight: 7340
 url: /cs/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData rozhraní
@@ -16,23 +16,23 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Jen pro čtení [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Vrací typ spodního 3D sklonu. Jen pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Vrací typ horního 3D sklonu. Jen pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Vrací nastavení kamery. Jen pro čtení [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Vrací barvu obrysu. Jen pro čtení Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Vrací šířku 3D obrysu. Jen pro čtení Double. |
-| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Vrací hloubku 3D útvaru. Jen pro čtení Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Vrací barvu extruze. Jen pro čtení Color. |
-| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Vrací výšku efektu extruze. Jen pro čtení Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Vrací typ světla. Jen pro čtení [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Vrací typ materiálu. Jen pro čtení [`MaterialPresetType`](../materialpresettype). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Umožňuje získat základní rozhraní IThreeDParamSource. Pouze pro čtení [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Vrací typ spodního 3D zkosení. Pouze pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Vrací typ horního 3D zkosení. Pouze pro čtení [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Vrací nastavení kamery. Pouze pro čtení [`ICameraEffectiveData`](../icameraeffectivedata). |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Vrací barvu obrysu. Pouze pro čtení Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Vrací šířku 3D obrysu. Pouze pro čtení Double. |
+| [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Vrací hloubku 3D tvaru. Pouze pro čtení Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Vrací barvu extruze. Pouze pro čtení Color. |
+| [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Vrací výšku efektu extruze. Pouze pro čtení Double. |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Vrací typ světla. Pouze pro čtení [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Vrací typ materiálu. Pouze pro čtení [`MaterialPresetType`](../materialpresettype). |
 
 ### Poznámky
 
-Toto rozhraní se používá společně s rozhraním [`IThreeDFormat`](../ithreedformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
+Toto rozhraní se používá spolu s rozhraním [`IThreeDFormat`](../ithreedformat) k vrácení efektivních hodnot formátování s aplikovaným děděním.
 
 ### Viz také
 

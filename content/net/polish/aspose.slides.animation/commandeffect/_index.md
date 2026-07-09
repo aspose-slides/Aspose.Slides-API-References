@@ -1,9 +1,9 @@
 ---
 title: CommandEffect
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Reprezentuje efekt polecenia dla zachowania animacji.
 type: docs
-weight: 240
+weight: 260
 url: /pl/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect klasa
@@ -24,12 +24,12 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Nazwa | Opis |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Reprezentuje, czy zachowania animacji są kumulowane. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Reprezentuje, czy bieżące zachowanie animacji jest łączone z innymi działającymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Określa, czy zachowania animacji są kumulowane. Odczyt/zapis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Określa, czy bieżące zachowanie animacji jest łączone z innymi uruchomionymi animacjami. Odczyt/zapis [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Definiuje ciąg polecenia. Odczyt/zapis String. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Reprezentuje właściwości zachowania. Tylko do odczytu [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definiuje cel kształtu efektu polecenia. Odczyt/zapis [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Reprezentuje właściwości timingu dla zachowania efektu. Odczyt/zapis [`ITiming`](../itiming). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Definiuje docelowy kształt efektu polecenia. Odczyt/zapis [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Określa właściwości czasowe dla zachowania efektu. Odczyt/zapis [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Definiuje typ efektu polecenia zachowania. Odczyt/zapis [`CommandEffectType`](../commandeffecttype). |
 
 ### Zobacz także

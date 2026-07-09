@@ -1,14 +1,14 @@
 ---
 title: IOverrideThemeable
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงตัวจัดการธีมที่แทนที่.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงตัวจัดการธีมทับ.
 type: docs
 weight: 11360
 url: /th/aspose.slides.theme/ioverridethemeable/
 ---
 ## IOverrideThemeable อินเทอร์เฟซ
 
-แสดงถึงตัวจัดการธีมที่แทนที่.
+แสดงถึงตัวจัดการธีมทับ.
 
 ```csharp
 public interface IOverrideThemeable : IThemeable
@@ -19,7 +19,7 @@ public interface IOverrideThemeable : IThemeable
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIThemeable](../../aspose.slides.theme/ioverridethemeable/asithemeable) { get; } | ส่งคืน IThemeable อินเทอร์เฟซ. อ่านอย่างเดียว [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | ส่งคืนตัวจัดการธีมที่แทนที่. อ่านอย่างเดียว [`IOverrideThemeManager`](../ioverridethememanager). |
+| [ThemeManager](../../aspose.slides.theme/ioverridethemeable/thememanager) { get; } | ส่งคืน ผู้จัดการธีมทับ. อ่านอย่างเดียว [`IOverrideThemeManager`](../ioverridethememanager). |
 
 ### ดูเพิ่มเติม
 

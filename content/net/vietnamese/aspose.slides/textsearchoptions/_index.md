@@ -1,20 +1,20 @@
 ---
 title: TextSearchOptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation Slide hoặc TextFrame.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Mô tả các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation Slide hoặc TextFrame.
 type: docs
 weight: 10970
 url: /vi/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions lớp
 
-Đại diện cho các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation, Slide hoặc TextFrame.
+Mô tả các tùy chọn có thể được sử dụng để tìm kiếm văn bản trong Presentation, Slide hoặc TextFrame.
 
 ```csharp
 public class TextSearchOptions : ITextSearchOptions
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
@@ -24,9 +24,9 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Đặt true để sử dụng tìm kiếm phân biệt chữ hoa/thường, false - ngược lại. Đọc/ghi Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Đặt `true` để bao gồm văn bản có trong ghi chú slide ([`NotesSlide`](../notesslide)) khi thực hiện các thao tác tìm kiếm văn bản, thay thế hoặc làm nổi bật. Giá trị mặc định là `false`. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Đặt true để chỉ khớp toàn bộ từ, false - ngược lại. Đọc/ghi Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Đặt true để sử dụng tìm kiếm phân biệt hoa thường, false - ngược lại. Đọc/ghi Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Đặt `true` để bao gồm văn bản trong ghi chú slide ([`NotesSlide`](../notesslide)) khi thực hiện tìm kiếm, thay thế hoặc làm nổi bật. Giá trị mặc định là `false`. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Đặt true để khớp chỉ các từ nguyên, false - ngược lại. Đọc/ghi Boolean. |
 
 ### Xem thêm
 

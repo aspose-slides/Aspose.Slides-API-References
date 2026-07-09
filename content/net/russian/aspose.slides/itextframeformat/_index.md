@@ -1,13 +1,12 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Slides для .NET API Ссылка
+second_title: Aspose.Sildes для .NET справочник API
 description: Содержит свойства форматирования TextFrames.
 type: docs
-weight: 7060
+weight: 7280
 url: /ru/aspose.slides/itextframeformat/
 ---
-
-## Интерфейс ITextFrameFormat
+## ITextFrameFormat интерфейс
 
 Содержит свойства форматирования TextFrame.
 
@@ -19,32 +18,32 @@ public interface ITextFrameFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Возвращает или устанавливает вертикальную привязку текста в TextFrame. Чтение/запись [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Возвращает или устанавливает режим автоматической подгонки текста. Чтение/запись [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Если NullableBool.True, текст должен быть центрирован в коробке по горизонтали. Чтение/запись [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Возвращает или устанавливает количество колонок в текстовом поле. Это значение должно быть положительным числом. В противном случае значение будет установлено на ноль. Значение 0 означает неопределенное значение. Чтение/запись Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Возвращает или устанавливает пространство между текстовыми колонками в текстовом поле (в пунктах). Это должно применяться только в случае, если присутствует более одной колонки. Это значение должно быть положительным числом. В противном случае значение будет установлено на ноль. Чтение/запись Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Возвращает или устанавливает, чтобы текст полностью оставался вне 3D-сцены. Чтение/запись Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Возвращает или устанавливает нижний край (пункты) в TextFrame. Чтение/запись Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Возвращает или устанавливает левый край (пункты) в TextFrame. Чтение/запись Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Возвращает или устанавливает правый край (пункты) в TextFrame. Чтение/запись Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Возвращает или устанавливает верхний край (пункты) в TextFrame. Чтение/запись Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Указывает пользовательский угол поворота, применяемый к тексту в пределах ограничивающего прямоугольника. Если он не указан, используется угол поворота сопутствующей формы. Если он указан, то это применяется независимо от формы. Это означает, что к форме может быть применён угол поворота в дополнение к самому тексту. Результирующее значение визуального поворота текста суммируется из этого свойства и предустановленного вертикального типа в свойстве TextVerticalType. Чтение/запись Single. |
-| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Возвращает стиль текста. Только для чтения [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Определяет ориентацию текста. Результирующее значение визуального поворота текста суммируется из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Возвращает объект ThreeDFormat, представляющий свойства 3D-эффекта для текста. Только для чтения [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Получает или устанавливает форму обтяжки текста. Чтение/запись [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True**, если текст обернут по краям TextFrame. Чтение/запись [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Возвращает или задаёт вертикальный якорный текст в TextFrame. Чтение/запись [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Возвращает или задаёт режим автоподгонки текста. Чтение/запись [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Если NullableBool.True, то текст должен быть центрирован по горизонтали в рамке. Чтение/запись [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Возвращает или задаёт количество столбцов в области текста. Это значение должно быть положительным числом. В противном случае оно будет установлено в ноль. Значение 0 означает неопределённое значение. Чтение/запись Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Возвращает или задаёт расстояние между столбцами текста в области текста (в пунктах). Это применяется только когда присутствует более 1 столбца. Это значение должно быть положительным числом. В противном случае оно будет установлено в ноль. Чтение/запись Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Возвращает или задаёт полное исключение текста из 3D-сцены. Чтение/запись Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Возвращает или задаёт нижнее поле (в пунктах) в TextFrame. Чтение/запись Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Возвращает или задаёт левое поле (в пунктах) в TextFrame. Чтение/запись Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Возвращает или задаёт правое поле (в пунктах) в TextFrame. Чтение/запись Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Возвращает или задаёт верхнее поле (в пунктах) в TextFrame. Чтение/запись Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Указывает пользовательский угол вращения, применяемый к тексту внутри ограничивающего прямоугольника. Если не указано, используется вращение соответствующей фигуры. Если указано, то оно применяется независимо от фигуры. Т.е. фигура может иметь собственное вращение, а текст – своё. Получаемое значение визуального вращения текста, суммируемое из этого свойства и предустановленного вертикального типа в свойстве TextVerticalType. Чтение/запись Single. |
+| [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Возвращает стиль текста. Только чтение [`ITextStyle`](../itextstyle). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Определяет ориентацию текста. Получаемое значение визуального вращения текста, суммируемое из этого свойства и пользовательского угла в свойстве RotationAngle. Чтение/запись [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Возвращает объект ThreeDFormat, представляющий свойства 3D-эффекта для текста. Только чтение [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Получает или задаёт форму обтекания текста. Чтение/запись [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True**, если текст обтекается по полям TextFrame. Чтение/запись [`NullableBool`](../nullablebool). |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Получает эффективные данные форматирования текстового кадра с применённым наследованием. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | Получает эффективные данные форматирования текстовой рамки с применённым наследованием. |
 
 ### См. также
 
-* пространство имен [Aspose.Slides](../../aspose.slides)
-* сборка [Aspose.Slides](../../)
+* пространство имён [Aspose.Slides](../../aspose.slides)
+* сборка [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

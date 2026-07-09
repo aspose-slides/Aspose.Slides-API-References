@@ -1,14 +1,14 @@
 ---
 title: LineSketchType
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 도형에 할당된 스케치 유형 또는 효과를 나타냅니다.
+description: 형태에 할당된 스케치 유형 또는 효과를 나타냅니다.
 type: docs
 weight: 7810
 url: /ko/aspose.slides/linesketchtype/
 ---
 ## LineSketchType 열거형
 
-도형에 할당된 스케치 유형 또는 효과를 나타냅니다.
+형태에 할당된 스케치 유형 또는 효과를 나타냅니다.
 
 ```csharp
 public enum LineSketchType
@@ -18,13 +18,13 @@ public enum LineSketchType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NotDefined | `-1` | 도형 스케치 효과가 정의되지 않았음을 지정합니다. |
-| None | `0` | 도형에 스케치 효과가 없음을 지정합니다. 이는 해당 속성이 비어있는 것과 동일합니다. |
-| Curved | `1` | 도형에 곡선 효과가 있음을 지정합니다. 이 효과는 도형의 각 가장자리를 하나의 부드러운 곡선으로 바꿉니다. |
-| Freehand | `2` | 도형에 자유형 효과가 있음을 지정합니다. 이는 불완전하게 그린 선과 가장 가깝게 닮았습니다. |
-| Scribble | `3` | 도형에 스크리블 효과가 있음을 지정합니다. 이는 고의로 지저분하게 그린 듯 과장된 진동을 가집니다. |
+| NotDefined | `-1` | 형태 스케치 효과가 정의되지 않았음을 지정합니다. |
+| None | `0` | 형태에 스케치 효과가 없음을 지정합니다. 이는 해당 속성이 비어 있는 것과 동일합니다. |
+| Curved | `1` | 형태의 각 가장자리를 하나의 부드러운 곡선으로 변환하는 Curved 효과를 지정합니다. |
+| Freehand | `2` | 형태에 Freehand 효과를 지정합니다. 이는 불완전하게 그린 선과 가장 가깝게 일치합니다. |
+| Scribble | `3` | 형태에 Scribble 효과를 지정합니다. 마치 의도적으로 지저분하게 그린 것처럼 과장된 진동을 가집니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

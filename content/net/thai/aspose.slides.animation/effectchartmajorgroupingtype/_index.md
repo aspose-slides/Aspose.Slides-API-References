@@ -1,25 +1,25 @@
 ---
 title: EffectChartMajorGroupingType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของเอฟเฟกต์การเคลื่อนไหวสำหรับองค์ประกอบของแผนภูมิ
+description: แสดงถึงประเภทของเอฟเฟกต์แอนิเมชันสำหรับองค์ประกอบของแผนภูมิ
 type: docs
 weight: 290
 url: /th/aspose.slides.animation/effectchartmajorgroupingtype/
 ---
-## EffectChartMajorGroupingType enumeration
+## EffectChartMajorGroupingType 列舉
 
-แสดงประเภทของเอฟเฟกต์การเคลื่อนไหวสำหรับองค์ประกอบของแผนภูมิ
+แสดงถึงประเภทของเอฟเฟกต์แอนิเมชันสำหรับองค์ประกอบของแผนภูมิ
 
 ```csharp
 public enum EffectChartMajorGroupingType
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| BySeries | `0` | ทำให้แผนภูมิเคลื่อนที่ตามซีรีส์ |
-| ByCategory | `1` | ทำให้แผนภูมิเคลื่อนที่ตามหมวดหมู่ |
+| BySeries | `0` | แอนิเมชันแผนภูมิตามซีรีส์ |
+| ByCategory | `1` | แอนิเมชันแผนภูมิตามประเภท |
 
 ### ดูเพิ่มเติม
 

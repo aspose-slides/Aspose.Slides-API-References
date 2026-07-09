@@ -1,14 +1,14 @@
 ---
 title: TextAnchorType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 텍스트 영역 내 텍스트 상자 정렬.
+second_title: Aspose.Sildes for .NET API 참조
+description: 텍스트 영역 내의 텍스트 상자 정렬.
 type: docs
 weight: 10910
 url: /ko/aspose.slides/textanchortype/
 ---
 ## TextAnchorType 열거형
 
-텍스트 영역 내 텍스트 상자 정렬.
+텍스트 영역 내의 텍스트 상자 정렬.
 
 ```csharp
 public enum TextAnchorType : sbyte
@@ -25,7 +25,7 @@ public enum TextAnchorType : sbyte
 | Justified | `3` |  |
 | Distributed | `4` |  |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

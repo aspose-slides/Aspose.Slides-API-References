@@ -1,6 +1,6 @@
 ---
 title: IMathBlockFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 블록을 생성할 수 있습니다
 type: docs
 weight: 8160
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory 인터페이스
 
-수학 블록을 생성합니다
+수학 블록을 생성할 수 있습니다
 
 ```csharp
 public interface IMathBlockFactory
@@ -19,14 +19,14 @@ public interface IMathBlockFactory
 | 이름 | 설명 |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | 수학 블록을 생성합니다 |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 수학 블록을 생성하고 요소를 그 안에 배치합니다 |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 수학 블록을 생성하고 요소들을 그 안에 배치합니다 |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | 수학 블록을 생성하고 그 안에 요소를 배치합니다 |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | 수학 블록을 생성하고 그 안에 요소들을 배치합니다 |
 
 ### 비고
 
 COM 호환성을 위해
 
-### 또 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * 어셈블리 [Aspose.Slides](../../)

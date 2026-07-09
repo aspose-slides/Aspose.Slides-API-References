@@ -1,20 +1,20 @@
 ---
 title: MathArrayFactory
-second_title: Aspose.Sildes .NET API 參考
-description: 允許建立一個數學陣列
+second_title: Aspose.Sildes for .NET API 參考
+description: 允許建立數學陣列
 type: docs
 weight: 8560
 url: /zh-hant/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory 類別
 
-允許建立一個數學陣列
+允許建立數學陣列
 
 ```csharp
 public class MathArrayFactory : IMathArrayFactory
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -24,8 +24,8 @@ public class MathArrayFactory : IMathArrayFactory
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | 建立一個數學陣列並將指定的元素放入其中 |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 建立一個數學陣列並將指定的元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | 建立數學陣列並將指定的元素放入其中 |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 建立數學陣列並將指定的元素放入其中 |
 
 ### 備註
 

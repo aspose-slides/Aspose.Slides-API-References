@@ -1,14 +1,14 @@
 ---
 title: IEffect
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示動畫效果。
+description: 代表動畫效果。
 type: docs
 weight: 490
 url: /zh-hant/aspose.slides.animation/ieffect/
 ---
 ## IEffect 介面
 
-表示動畫效果。
+Represents animation effect.
 
 ```csharp
 public interface IEffect
@@ -16,17 +16,17 @@ public interface IEffect
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | 定義效果之後動畫的顏色。可讀寫 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | 定義效果之後動畫的類型。可讀寫 [`AfterAnimationType`](./afteranimationtype)。 |
-| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | 定義效果的動畫文字類型。形狀文字可以依字母、依單詞或一次性全部動畫化。可讀寫 [`AnimateTextType`](./animatetexttype)。 |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | 定義效果的後置動畫顏色。可讀寫 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | 定義效果的後置動畫類型。可讀寫 [`AfterAnimationType`](./afteranimationtype)。 |
+| [AnimateTextType](../../aspose.slides.animation/ieffect/animatetexttype) { get; set; } | 定義效果的文字動畫類型。形狀文字可以按字元、按單字或一次全部動畫化。可讀寫 [`AnimateTextType`](./animatetexttype)。 |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | 傳回效果的行為集合。可讀寫 [`IBehaviorCollection`](../ibehaviorcollection)。 |
-| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | 定義動畫文字部件（單詞或字母）之間的延遲。正值指定效果持續時間的百分比。負值指定以秒為單位的延遲。可讀寫 Single。 |
+| [DelayBetweenTextParts](../../aspose.slides.animation/ieffect/delaybetweentextparts) { get; set; } | 定義動畫文字部件（單字或字元）之間的延遲。正值表示效果持續時間的百分比。負值表示以秒為單位的延遲。可讀寫 Single。 |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | 定義效果的類別。可讀寫 [`EffectPresetClassType`](../effectpresetclasstype)。 |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | 傳回效果的序列。唯讀 [`ISequence`](../isequence)。 |
-| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | 定義效果的嵌入音效。可讀寫 [`IAudio`](../../aspose.slides/iaudio)。 |
-| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | 此屬性指定動畫效果是否停止先前的音效。可讀寫 Boolean。 |
+| [Sound](../../aspose.slides.animation/ieffect/sound) { get; set; } | 定義效果的嵌入式聲音。可讀寫 [`IAudio`](../../aspose.slides/iaudio)。 |
+| [StopPreviousSound](../../aspose.slides.animation/ieffect/stopprevioussound) { get; set; } | 此屬性指定動畫效果是否停止先前的聲音。可讀寫 Boolean。 |
 | [Subtype](../../aspose.slides.animation/ieffect/subtype) { get; set; } | 定義效果的子類型。可讀寫 [`EffectSubtype`](../effectsubtype)。 |
 | [TargetShape](../../aspose.slides.animation/ieffect/targetshape) { get; } | 傳回效果的目標形狀。唯讀 [`IShape`](../../aspose.slides/ishape)。 |
 | [TextAnimation](../../aspose.slides.animation/ieffect/textanimation) { get; } | 傳回文字動畫。唯讀 [`ITextAnimation`](../itextanimation)。 |

@@ -1,14 +1,14 @@
 ---
 title: Comment
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอมเมนต์บนสไลด์
+description: แสดงถึงความคิดเห็นบนสไลด์.
 type: docs
 weight: 2620
 url: /th/aspose.slides/comment/
 ---
 ## คลาส Comment
 
-แสดงถึงคอมเมนต์บนสไลด์
+แสดงถึงความคิดเห็นบนสไลด์
 
 ```csharp
 public class Comment : IComment
@@ -18,22 +18,22 @@ public class Comment : IComment
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Author](../../aspose.slides/comment/author) { get; } | คืนค่าผู้เขียนของคอมเมนต์ อ่านอย่างเดียว [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | คืนค่า หรือ ตั้งค่าบันทึกเวลาการสร้างคอมเมนต์ การตั้งค่าคุณสมบัตินี้เป็น MinValue หมายถึงไม่มีเวลาคอมเมนต์ตั้งค่าไว้ อ่าน/เขียน DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | รับหรือกำหนดคอมเมนต์พาเรนท์ อ่าน/เขียน [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | คืนค่า หรือ ตั้งค่าตำแหน่งของคอมเมนต์บนสไลด์ อ่าน/เขียน PointF. |
-| [Slide](../../aspose.slides/comment/slide) { get; } | คืนค่าหรือกำหนดสไลด์พาเรนท์ของคอมเมนต์ อ่านอย่างเดียว [`ISlide`](../islide). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | คืนค่า หรือ ตั้งค่าข้อความธรรมดาของคอมเมนต์สไลด์ อ่าน/เขียน String. |
+| [Author](../../aspose.slides/comment/author) { get; } | คืนค่าผู้เขียนของความคิดเห็น อ่านอย่างเดียว [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | คืนค่า或กำหนดเวลาการสร้างความคิดเห็น การตั้งค่าคุณสมบัตินี้เป็น MinValue หมายความว่าไม่ได้กำหนดเวลาของความคิดเห็น อ่าน/เขียน DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | รับหรือกำหนดความคิดเห็นแม่ อ่าน/เขียน [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | คืนค่าหรือกำหนดตำแหน่งของความคิดเห็นบนสไลด์ อ่าน/เขียน PointF. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | คืนค่าหรือกำหนดสไลด์แม่ของความคิดเห็น อ่านอย่างเดียว [`ISlide`](../islide). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | คืนค่าหรือกำหนดข้อความธรรมดาของความคิดเห็นสไลด์ อ่าน/เขียน String. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | ลบคอมเมนต์และการตอบกลับทั้งหมดจากคอลเลกชันพาเรนท์. |
+| [Remove](../../aspose.slides/comment/remove)() | ลบความคิดเห็นและการตอบกลับทั้งหมดจากคอลเลกชันแม่. |
 
 ### ตัวอย่าง
 
-ตัวอย่างนี้แสดงวิธีการเพิ่มคอมเมนต์ลงในสไลด์หนึ่งในงานนำเสนอ PowerPoint.
+ตัวอย่างนี้แสดงวิธีเพิ่มความคิดเห็นไปยังสไลด์ในงานนำเสนอ PowerPoint.
 
 ```csharp
 [C#]
@@ -44,20 +44,20 @@ using (Presentation presentation = new Presentation())
     presentation.Slides.AddEmptySlide(presentation.LayoutSlides[0]);
     // เพิ่มผู้เขียน
     ICommentAuthor author = presentation.CommentAuthors.AddAuthor("Jawad", "MF");
-    // ตั้งค่าตำแหน่งสำหรับคอมเมนต์
+    // กำหนดตำแหน่งของความคิดเห็น
     PointF point = new PointF();
     point.X = 0.2f;
     point.Y = 0.2f;
-    // เพิ่มคอมเมนต์สไลด์สำหรับผู้เขียนบนสไลด์ 1
+    // เพิ่มความคิดเห็นสไลด์สำหรับผู้เขียนบนสไลด์ที่ 1
     author.Comments.AddComment("Hello Jawad, this is slide comment", presentation.Slides[0], point, DateTime.Now);
-    // เพิ่มคอมเมนต์สไลด์สำหรับผู้เขียนบนสไลด์ 2
+    // เพิ่มความคิดเห็นสไลด์สำหรับผู้เขียนบนสไลด์ที่ 2
     author.Comments.AddComment("Hello Jawad, this is second slide comment", presentation.Slides[1], point, DateTime.Now);
-	// บันทึกไฟล์พรีเซนเทชัน PowerPoint
+	// บันทึกไฟล์งานนำเสนอ PowerPoint
     presentation.Save("Comments_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-ตัวอย่างนี้แสดงวิธีการเข้าถึงคอมเมนต์ที่มีอยู่บนสไลด์ในงานนำเสนอ PowerPoint.
+ตัวอย่างนี้แสดงวิธีเข้าถึงความคิดเห็นที่มีอยู่บนสไลด์ในงานนำเสนอ PowerPoint.
 
 ```csharp
 [C#]
@@ -78,21 +78,21 @@ using (Presentation presentation = new Presentation("Comments1.pptx"))
 }
 ```
 
-ตัวอย่างนี้แสดงวิธีการเพิ่มคอมเมนต์และรับการตอบกลับต่อคอมเมนต์เหล่านั้น.
+ตัวอย่างนี้แสดงวิธีเพิ่มความคิดเห็นและรับการตอบกลับต่อความคิดเห็นเหล่านั้น.
 
 ```csharp
 [C#]
 // สร้างอินสแตนซ์ของคลาส Presentation
 using (Presentation pres = new Presentation())
 {
-    // เพิ่มคอมเมนต์
+    // เพิ่มความคิดเห็น
     ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1", "A.A.");
     IComment comment1 = author1.Comments.AddComment("comment1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     // เพิ่มการตอบกลับให้กับ comment1
     ICommentAuthor author2 = pres.CommentAuthors.AddAuthor("Autror_2", "B.B.");
     IComment reply1 = author2.Comments.AddComment("reply 1 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply1.ParentComment = comment1;
-    // เพิ่มการตอบกลับอื่นให้กับ comment1
+    // เพิ่มการตอบกลับอีกรายการให้กับ comment1
     IComment reply2 = author2.Comments.AddComment("reply 2 for comment 1", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply2.ParentComment = comment1;
     // เพิ่มการตอบกลับให้กับการตอบกลับที่มีอยู่
@@ -102,7 +102,7 @@ using (Presentation pres = new Presentation())
     IComment comment3 = author2.Comments.AddComment("comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     IComment reply3 = author1.Comments.AddComment("reply 4 for comment 3", pres.Slides[0], new PointF(10, 10), DateTime.Now);
     reply3.ParentComment = comment3;
-    // แสดงลำดับชั้นของคอมเมนต์บนคอนโซล
+    // แสดงลำดับชั้นของความคิดเห็นบนคอนโซล
     ISlide slide = pres.Slides[0];
     var comments = slide.GetSlideComments(null);
     for (int i = 0; i < comments.Length; i++)

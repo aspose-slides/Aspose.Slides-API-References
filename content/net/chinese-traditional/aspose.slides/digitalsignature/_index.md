@@ -16,32 +16,32 @@ public class DigitalSignature : IDigitalSignature
 
 ## 建構函式
 
-| Name | Description |
+| 名稱 | 描述 |
 | --- | --- |
-| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 使用指定的憑證建立新的 DigitalSignature 物件。 |
-| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 使用指定的憑證檔案路徑和密碼建立新的 DigitalSignature 物件。 |
+| [DigitalSignature](digitalsignature#constructor)(X509Certificate2) | 建立具有指定憑證的 DigitalSignature 物件。 |
+| [DigitalSignature](digitalsignature#constructor_1)(string, string) | 建立具有指定憑證檔案路徑與密碼的 DigitalSignature 物件。 |
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 描述 |
 | --- | --- |
-| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 用於簽署文件的證書物件。唯讀 X509Certificate2。 |
-| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 簽章的目的。可讀寫 String。 |
-| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | 如果此數位簽章有效且文件未被竄改，則此值為 true。唯讀 Boolean。 |
+| [Certificate](../../aspose.slides/digitalsignature/certificate) { get; } | 用於簽署文件的憑證物件。唯讀 X509Certificate2。 |
+| [Comments](../../aspose.slides/digitalsignature/comments) { get; set; } | 簽章的用途。可讀寫 String。 |
+| [IsValid](../../aspose.slides/digitalsignature/isvalid) { get; } | 如果此數位簽章有效且文件未被竄改，則此值會為 true。唯讀 Boolean。 |
 | [SignTime](../../aspose.slides/digitalsignature/signtime) { get; } | 文件簽署的時間。唯讀 DateTime。 |
 
 ### 範例
 
-以下範例示範如何在 PowerPoint 簡報中使用 PFX 憑證新增數位簽章。
+以下範例示範如何在 PowerPoint 簡報中使用 PFX 憑證加入數位簽章。
 
 ```csharp
 [C#]
 // 初始化 Presentation 實例
 using (Presentation pres = new Presentation())
 {
-    // 建立帶有 PFX 檔案和 PFX 密碼的 DigitalSignature 物件
+    // 使用 PFX 檔案和 PFX 密碼建立 DigitalSignature 物件
     DigitalSignature signature = new DigitalSignature("testsignature1.pfx", @"testpass1");
-    // 註解新的數位簽章
+    // 為新數位簽章添加註解
     signature.Comments = "Aspose.Slides digital signing test.";
     // 將數位簽章加入簡報
     pres.DigitalSignatures.Add(signature);
@@ -76,7 +76,7 @@ using (Presentation pres = new Presentation("SomePresentationSigned.pptx"))
 }
 ```
 
-### 參閱
+### 另請參閱
 
 * 介面 [IDigitalSignature](../idigitalsignature)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

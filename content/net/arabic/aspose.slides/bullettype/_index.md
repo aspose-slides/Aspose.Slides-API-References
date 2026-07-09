@@ -1,14 +1,14 @@
 ---
 title: BulletType
-second_title: مرجع API Aspose.Sildes لـ .NET
-description: يمثل نوع النقاط الموسعة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل نوع الرصاصات الموسَّعة.
 type: docs
 weight: 1080
 url: /ar/aspose.slides/bullettype/
 ---
-## تعداد BulletType
+## BulletType تعداد
 
-يمثل نوع النقاط الموسعة.
+يمثل نوع الرصاصات الموسعة.
 
 ```csharp
 public enum BulletType : sbyte
@@ -24,7 +24,7 @@ public enum BulletType : sbyte
 | Numbered | `2` | نقاط مرقمة. |
 | Picture | `3` | نقاط صورة. |
 
-### انظر أيضًا
+### انظر أيضاً
 
 * النطاق [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

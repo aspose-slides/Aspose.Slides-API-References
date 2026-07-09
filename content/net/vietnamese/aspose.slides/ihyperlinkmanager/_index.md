@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp quản lý siêu liên kết, thêm và xóa.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Cung cấp quản lý siêu liên kết, bao gồm thêm và xoá.
 type: docs
 weight: 6130
 url: /vi/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager giao diện
 
-Cung cấp quản lý siêu liên kết (thêm, xóa).
+Cung cấp quản lý siêu liên kết (thêm, xoá).
 
 ```csharp
 public interface IHyperlinkManager
@@ -18,8 +18,8 @@ public interface IHyperlinkManager
 
 | Tên | Mô tả |
 | --- | --- |
-| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Xóa siêu liên kết khi nhấp chuột. |
-| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Xóa siêu liên kết khi di chuột. |
+| [RemoveHyperlinkClick](../../aspose.slides/ihyperlinkmanager/removehyperlinkclick)() | Xoá siêu liên kết khi nhấp chuột. |
+| [RemoveHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/removehyperlinkmouseover)() | Xoá siêu liên kết khi di chuột. |
 | [SetExternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick)(string) | Đặt siêu liên kết ngoài khi nhấp chuột. |
 | [SetExternalHyperlinkMouseOver](../../aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover)(string) | Đặt siêu liên kết ngoài khi di chuột. |
 | [SetInternalHyperlinkClick](../../aspose.slides/ihyperlinkmanager/setinternalhyperlinkclick)(ISlide) | Đặt siêu liên kết nội bộ khi nhấp chuột. |

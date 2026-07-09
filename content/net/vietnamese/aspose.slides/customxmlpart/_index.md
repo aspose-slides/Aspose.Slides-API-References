@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn phần xml tùy chỉnh.
+description: Đại diện phần xml tùy chỉnh.
 type: docs
 weight: 2740
 url: /vi/aspose.slides/customxmlpart/
@@ -18,7 +18,7 @@ public class CustomXmlPart : ICustomXmlPart
 
 | Tên | Mô tả |
 | --- | --- |
-| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Xác định một định danh toàn cục duy nhất (GUID) dùng để nhận dạng duy nhất một phần XML tùy chỉnh trong tài liệu Office Open XML. Chỉ đọc Guid. |
+| [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Xác định một định danh toàn cầu duy nhất (GUID) dùng để nhận dạng duy nhất một phần XML tùy chỉnh trong tài liệu Office Open XML. Chỉ đọc Guid. |
 | [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Trả về tập hợp các sơ đồ XML được liên kết với phần XML tùy chỉnh. Chỉ đọc String[]. |
 | [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Trả về hoặc đặt dữ liệu xml dưới dạng chuỗi UTF-8. Đọc/ghi String. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
 | [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Trả về hoặc đặt dữ liệu xml. Đọc/ghi Byte[]. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
@@ -29,7 +29,7 @@ public class CustomXmlPart : ICustomXmlPart
 | --- | --- |
 | [Remove](../../aspose.slides/customxmlpart/remove)() | Xóa phần xml tùy chỉnh khỏi bản trình chiếu. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ICustomXmlPart](../icustomxmlpart)
 * không gian tên [Aspose.Slides](../../aspose.slides)

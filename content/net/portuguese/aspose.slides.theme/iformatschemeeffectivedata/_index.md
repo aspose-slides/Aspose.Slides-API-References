@@ -3,31 +3,31 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes para .NET Referência da API
 description: Objeto imutável que contém propriedades efetivas do esquema de formato.
 type: docs
-weight: 11260
+weight: 11280
 url: /pt/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData interface
 
-Objeto imutável que contém propriedades de esquema de formato efetivo.
+Objeto imutável que contém propriedades efetivas do esquema de formato.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## Métodos
+## Methods
 
 | Nome | Descrição |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Retorna uma coleção de estilos de preenchimento de plano de fundo definidos pelo tema. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | Retorna uma coleção de estilos de preenchimento de fundo definidos pelo tema. |
 | [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | Retorna uma coleção de estilos de efeito definidos pelo tema. |
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | Retorna uma coleção de estilos de preenchimento definidos pelo tema. |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | Retorna uma coleção de estilos de linha definidos pelo tema. |
 
-### Observações
+### Remarks
 
 Esta interface é usada como parte de [`IThemeEffectiveData`](../ithemeeffectivedata).
 
-### Ver Também
+### See Also
 
 * namespace [Aspose.Slides.Theme](../../aspose.slides.theme)
 * assembly [Aspose.Slides](../../)

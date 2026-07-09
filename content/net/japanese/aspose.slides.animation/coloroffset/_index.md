@@ -1,14 +1,14 @@
 ---
 title: ColorOffset
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 色のオフセットを表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: カラーオフセットを表します。
 type: docs
-weight: 220
+weight: 240
 url: /ja/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset クラス
 
-色のオフセットを表します。
+カラーオフセットを表します。
 
 ```csharp
 public class ColorOffset : IColorOffset
@@ -18,15 +18,15 @@ public class ColorOffset : IColorOffset
 
 | 名前 | 説明 |
 | --- | --- |
-| [ColorOffset](coloroffset)() | デフォルトコンストラクタ。 |
+| [ColorOffset](coloroffset)() | 既定のコンストラクタです。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | オフセットの最初の値を定義します。Read/write Single。 |
-| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | オフセットの 2 番目の値を定義します。Read/write Single。 |
-| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | オフセットの 3 番目の値を定義します。Read/write Single。 |
+| [Value0](../../aspose.slides.animation/coloroffset/value0) { get; set; } | オフセットの最初の値を定義します。読み取り/書き込み Single。 |
+| [Value1](../../aspose.slides.animation/coloroffset/value1) { get; set; } | オフセットの2番目の値を定義します。読み取り/書き込み Single。 |
+| [Value2](../../aspose.slides.animation/coloroffset/value2) { get; set; } | オフセットの3番目の値を定義します。読み取り/書き込み Single。 |
 
 ### 参照
 

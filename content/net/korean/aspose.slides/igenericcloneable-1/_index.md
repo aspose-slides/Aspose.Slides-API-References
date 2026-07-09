@@ -1,14 +1,14 @@
 ---
 title: IGenericCloneableT
-second_title: Aspose.Sildes for .NET API 참조
-description: ICloneable의 일반 버전을 나타냅니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: ICloneable의 일반화된 버전을 나타냅니다.
 type: docs
 weight: 5950
 url: /ko/aspose.slides/igenericcloneable-1/
 ---
 ## IGenericCloneable<T> 인터페이스
 
-ICloneable의 일반 버전을 나타냅니다
+ICloneable의 일반화된 버전을 나타냅니다.
 
 ```csharp
 public interface IGenericCloneable<T> : ICloneable

@@ -14,7 +14,7 @@ url: /ko/aspose.slides/ithreedparamsource/
 public interface IThreeDParamSource
 ```
 
-### 관련 항목
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

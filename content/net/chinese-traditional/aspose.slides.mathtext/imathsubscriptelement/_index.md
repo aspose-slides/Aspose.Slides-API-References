@@ -1,14 +1,14 @@
 ---
 title: IMathSubscriptElement
-second_title: Aspose.Sildes .NET API 參考
-description: 指定下標物件，該物件由基礎和位於其右下方且尺寸較小的下標組成。
+second_title: Aspose.Sildes for .NET API 參考
+description: 指定下標物件，該物件由基礎元素和位於右下方且尺寸較小的下標組成。
 type: docs
 weight: 8470
 url: /zh-hant/aspose.slides.mathtext/imathsubscriptelement/
 ---
 ## IMathSubscriptElement 介面
 
-指定下標物件，該物件由基礎和位於其右下方且尺寸較小的下標組成。
+指定下標物件，該物件由基礎元素和位於右下方且尺寸較小的下標組成。
 
 ```csharp
 public interface IMathSubscriptElement : IMathElement
@@ -16,7 +16,7 @@ public interface IMathSubscriptElement : IMathElement
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathsubscriptelement/asimathelement) { get; } | 允許取得基礎 IMathElement 介面 [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathsubscriptelement/base) { get; } | 基礎參數 |

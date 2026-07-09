@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: चतुर्थांश विधि का प्रकार लौटाता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: क्वार्टाइल मेथड का प्रकार लौटाता है
 type: docs
 weight: 2390
 url: /hi/aspose.slides.charts/quartilemethodtype/
 ---
-## QuartileMethodType एन्यूमरेशन
+## QuartileMethodType एन्न्यूमरेशन
 
-चतुर्थांश विधि का प्रकार लौटाता है
+क्वार्टाइल मेथड का प्रकार लौटाता है
 
 ```csharp
 public enum QuartileMethodType
@@ -18,8 +18,8 @@ public enum QuartileMethodType
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Exclusive | `0` | विशेष चतुर्थांश विधि को दर्शाता है. |
-| Inclusive | `1` | समावेशी चतुर्थांश विधि को दर्शाता है. |
+| Exclusive | `0` | एक्सक्लूसिव क्वार्टाइल मेथड को दर्शाता है। |
+| Inclusive | `1` | इनक्लूसिव क्वार्टाइल मेथड को दर्शाता है। |
 
 ### देखें
 

@@ -1,14 +1,14 @@
 ---
 title: IChartDataWorksheetCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของแผ่นงานในสมุดงานข้อมูลแผนภูมิ
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เป็นตัวแทนของคอลเลกชันของแผ่นงานของ workbook ข้อมูลแผนภูมิ.
 type: docs
 weight: 1880
 url: /th/aspose.slides.charts/ichartdataworksheetcollection/
 ---
-## IChartDataWorksheetCollection ส่วนต่อประสาน
+## IChartDataWorksheetCollection อินเทอร์เฟซ
 
-Represents the collection of worksheets of chart data workbook.
+เป็นตัวแทนของคอลเลกชันของ worksheets ของ chart data workbook.
 
 ```csharp
 public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWorksheet>
@@ -18,7 +18,7 @@ public interface IChartDataWorksheetCollection : IGenericCollection<IChartDataWo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | คืนค่าแผ่นงานตามดัชนี. |
+| [Item](../../aspose.slides.charts/ichartdataworksheetcollection/item) { get; } | ส่งคืน Worksheet ตามดัชนี. |
 
 ### ตัวอย่าง
 
@@ -39,8 +39,8 @@ using (Presentation pres = new Presentation())
 
 ### ดูเพิ่มเติม
 
-* ส่วนต่อประสาน [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* ส่วนต่อประสาน [IChartDataWorksheet](../ichartdataworksheet)
+* อินเทอร์เฟซ [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* อินเทอร์เฟซ [IChartDataWorksheet](../ichartdataworksheet)
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 

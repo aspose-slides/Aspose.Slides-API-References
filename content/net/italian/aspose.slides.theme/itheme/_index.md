@@ -1,9 +1,9 @@
 ---
 title: ITheme
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un tema.
 type: docs
-weight: 11350
+weight: 11370
 url: /it/aspose.slides.theme/itheme/
 ---
 ## ITheme interfaccia
@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Restituisce lo schema di colori. Solo lettura [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Restituisce lo schema di caratteri. Solo lettura [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Restituisce lo schema di formato delle forme. Solo lettura [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Sola lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | Restituisce lo schema dei colori. Sola lettura [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | Restituisce lo schema dei caratteri. Sola lettura [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | Restituisce lo schema di formattazione delle forme. Sola lettura [`IFormatScheme`](../iformatscheme). |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Ottiene i dati del tema effettivo con l'eredità applicata. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | Ottiene i dati del tema effettivo con l'ereditarietà applicata. |
 
 ### Vedi anche
 

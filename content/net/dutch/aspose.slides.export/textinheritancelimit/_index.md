@@ -1,14 +1,14 @@
 ---
 title: TextInheritanceLimit
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Bepaalt de diepte van de overerving van de teksteigenschappen.
+description: Beheert de diepte van de overerving van teksteigenschappen.
 type: docs
 weight: 4540
 url: /nl/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit enumeratie
 
-Bepaalt de diepte van de overerving van de teksteigenschappen.
+Beheert de diepte van de overerving van teksteigenschappen.
 
 ```csharp
 public enum TextInheritanceLimit
@@ -20,7 +20,7 @@ public enum TextInheritanceLimit
 | --- | --- | --- |
 | All | `0` | Erft alle teksteigenschappen. |
 | TextBox | `1` | Erft alleen van de stijl van TextFrame. |
-| ParagraphOnly | `2` | Gebruik alleen eigenschappen die zijn gedefinieerd voor alinea. |
+| ParagraphOnly | `2` | Gebruik alleen eigenschappen die gedefinieerd zijn voor alinea. |
 
 ### Zie ook
 

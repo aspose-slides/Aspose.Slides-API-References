@@ -1,14 +1,14 @@
 ---
 title: PresetColor
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Előre definiált szín előbeállításokat képviseli.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: Előre definiált színelőbeállításokat képvisel.
 type: docs
-weight: 9640
+weight: 9660
 url: /hu/aspose.slides/presetcolor/
 ---
-## PresetColor felsorolás
+## PresetColor enumeráció
 
-Előre definiált szín előbeállításokat képviseli.
+Előre definiált színelőbeállításokat képviseli.
 
 ```csharp
 public enum PresetColor
@@ -18,7 +18,7 @@ public enum PresetColor
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | A szín előbeállítás nincs definiálva. |
+| NotDefined | `-1` | A színelőbeállítás nincs definiálva. |
 | AliceBlue | `0` |  |
 | AntiqueWhite | `1` |  |
 | Aqua | `2` |  |

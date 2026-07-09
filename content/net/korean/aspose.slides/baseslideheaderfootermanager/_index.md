@@ -1,14 +1,14 @@
 ---
 title: BaseSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 모든 슬라이드 유형에 대해 바닥글, 날짜-시간 및 페이지 번호 자리 표시자의 동작을 관리하는 관리자를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 모든 슬라이드 유형에 대한 바닥글, 날짜-시간, 페이지 번호 자리표시자의 동작을 담당하는 관리자를 나타냅니다.
 type: docs
 weight: 1000
 url: /ko/aspose.slides/baseslideheaderfootermanager/
 ---
 ## BaseSlideHeaderFooterManager 클래스
 
-모든 슬라이드 유형에 대해 바닥글, 날짜-시간, 페이지 번호 자리 표시자의 동작을 관리하는 관리자를 나타냅니다.
+모든 슬라이드 유형에 대한 바닥글, 날짜-시간, 페이지 번호 자리표시자의 동작을 담당하는 관리자를 나타냅니다.
 
 ```csharp
 public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
@@ -18,21 +18,21 @@ public abstract class BaseSlideHeaderFooterManager : BaseHeaderFooterManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리 표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리 표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 날짜-시간 자리표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | 바닥글 자리표시자가 존재함을 나타내는 값을 가져옵니다. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | 페이지 번호 자리표시자가 존재함을 나타내는 값을 가져옵니다. ReadBoolean. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리 표시자에 텍스트를 설정합니다. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리 표시자의 가시성을 변경합니다. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리 표시자에 텍스트를 설정합니다. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리 표시자의 가시성을 변경합니다. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리 표시자의 가시성을 변경합니다. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | 슬라이드 날짜-시간 자리표시자에 텍스트를 설정합니다. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | 슬라이드 날짜-시간 자리표시자의 표시 여부를 변경합니다. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | 슬라이드 바닥글 자리표시자에 텍스트를 설정합니다. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | 슬라이드 바닥글 자리표시자의 표시 여부를 변경합니다. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | 슬라이드 페이지 번호 자리표시자의 표시 여부를 변경합니다. |
 
-### 관련
+### 참조
 
 * 클래스 [BaseHeaderFooterManager](../baseheaderfootermanager)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

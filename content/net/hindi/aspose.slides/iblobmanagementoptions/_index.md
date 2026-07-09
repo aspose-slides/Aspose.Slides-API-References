@@ -1,15 +1,14 @@
 ---
 title: IBlobManagementOptions
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक बाइनरी लार्ज ऑब्जेक्ट (BLOB) एक बाइनरी डेटा है जो एक इकाई के रूप में संग्रहीत किया जाता है - अर्थात् BLOB ऑडियो, वीडियो या प्रस्तुति स्वयं हो सकता है। BLOBs के साथ काम करते समय मेमोरी खपत को अनुकूलित करने के लिए कई तकनीकों का उपयोग किया जाता है - चाहे वह प्रस्तुति में पहले से संग्रहीत हो या बाद में प्रोग्रामेटिक रूप से जोड़ी जाए। IBlobManagementOptions./iblobmanagementoptions का उपयोग करके आप IPresentation./ipresentation उदाहरण की आयु अवधि के दौरान BLOBs हैंडलिंग से संबंधित विभिन्न व्यवहार पहलुओं को बदल सकते हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक बाइनरी लार्ज ऑब्जेक्ट (BLOB) एक बाइनरी डेटा है जो एक ही इकाई के रूप में संग्रहीत होता है - अर्थात् BLOB एक ऑडियो, वीडियो या स्वयं प्रस्तुति हो सकता है। BLOBs के साथ काम करते समय मेमोरी उपयोग को अनुकूलित करने के लिए कई तकनीकों का उपयोग किया जाता है - चाहे वह पहले से प्रस्तुति में संग्रहीत हो या बाद में प्रोग्रामेटिक रूप से जोड़ा जाए। IBlobManagementOptions./iblobmanagementoptions का उपयोग करके आप IPresentation./ipresentation इंस्टेंस के जीवनकाल के दौरान BLOBs हैंडलिंग के विभिन्न व्यवहार पहलुओं को बदल सकते हैं।
 type: docs
 weight: 5370
 url: /hi/aspose.slides/iblobmanagementoptions/
 ---
-
 ## IBlobManagementOptions इंटरफ़ेस
 
-एक बाइनरी लार्ज ऑब्जेक्ट (BLOB) एक बाइनरी डेटा है जो एक इकाई के रूप में संग्रहीत किया जाता है - अर्थात् BLOB एक ऑडियो, वीडियो या प्रस्तुति स्वयं हो सकता है। BLOBs के साथ काम करते समय मेमोरी खपत को अनुकूलित करने के लिये कई तकनीकों का उपयोग किया जाता है - चाहे वह प्रस्तुति में पहले से संग्रहीत हो या बाद में प्रोग्रामेटिक रूप से जोड़ा जाए। [`IBlobManagementOptions`](../iblobmanagementoptions) का उपयोग करके आप [`IPresentation`](../ipresentation) उदाहरण की आयु अवधि के लिए BLOBs हैंडलिंग से संबंधित विभिन्न व्यवहार पहलुओं को बदल सकते हैं।
+A Binary Large Object (BLOB) is a binary data stored as a single entity - i.e. BLOB can be an audio, video or presentation itself. A number of techniques are used to optimize memory consumption while working with BLOBs - which was already stored in the presentation or be added later programmatically. Using [`IBlobManagementOptions`](../iblobmanagementoptions) you can change a different behavior aspects regarding BLOBs handling for the [`IPresentation`](../ipresentation) instance lifetime.
 
 ```csharp
 public interface IBlobManagementOptions
@@ -19,14 +18,14 @@ public interface IBlobManagementOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | यह प्रॉपर्टी निर्धारित करती है कि BLOBs के साथ काम करते समय अस्थायी फ़ाइलें बनाई जा सकती हैं या नहीं, जिससे मेमोरी खपत बहुत कम हो जाती है लेकिन फ़ाइलें बनाने के लिये अनुमति आवश्यक होती है। सभी फ़ाइलें प्रस्तुति के साथ काम समाप्त होने पर डिलीट कर दी जाएँगी। |
-| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | यह परिभाषित करता है कि सभी BLOBs मेमोरी में कुल अधिकतम आकार (बाइट में) कितना ले सकते हैं। डिफ़ॉल्ट रूप से, सभी BLOBs मेमोरी में लोड किए जाते हैं; केवल जब यह सीमा पहुँच जाती है तब वैकल्पिक तंत्र (जैसे अस्थायी फ़ाइलें) उपयोग में लाए जाते हैं। BLOBs को मेमोरी में रखने से प्रदर्शन अधिकतम होता है लेकिन इससे उच्च मेमोरी उपयोग हो सकता है। अपनी पर्यावरण या आवश्यकताओं के अनुसार व्यवहार को अनुकूलित करने हेतु इस प्रॉपर्टी का उपयोग करें। |
-| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | यह प्रॉपर्टी निर्धारित करती है कि Presentation क्लास का एक उदाहरण स्रोत - फ़ाइल या स्ट्रीम का मालिक हो सकता है या नहीं, उदाहरण की आयु अवधि के दौरान। यदि उदाहरण मालिक है, तो यह स्रोत को लॉक कर देता है। यह BLOBs के साथ काम करते समय मेमोरी खपत और प्रदर्शन को बेहतर बनाने में मदद करता है, लेकिन स्रोत (स्ट्रीम या फ़ाइल) को Presentation के उदाहरण की आयु अवधि के दौरान बदल नहीं सकता। यह एक उदाहरण है: |
-| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | अस्थायी फ़ाइलों के निर्माण के लिये मूल पथ। डिफ़ॉल्ट रूप से सिस्टम अस्थायी निर्देशिका उपयोग की जाएगी। होस्टिंग प्रक्रिया को वहाँ फ़ाइलें और फ़ोल्डर बनाने की अनुमति होनी चाहिए। |
+| [IsTemporaryFilesAllowed](../../aspose.slides/iblobmanagementoptions/istemporaryfilesallowed) { get; set; } | यह प्रॉपर्टी निर्धारित करती है कि BLOBs के साथ काम करते समय अस्थायी फ़ाइलें बनाई जा सकती हैं या नहीं, जो मेमोरी उपयोग को काफी कम करता है लेकिन फ़ाइलें बनाने के लिए अनुमति की आवश्यकता होती है। सभी फ़ाइलें प्रस्तुति के साथ काम समाप्त होने के बाद हटा दी जाएँगी। |
+| [MaxBlobsBytesInMemory](../../aspose.slides/iblobmanagementoptions/maxblobsbytesinmemory) { get; set; } | सभी BLOBs द्वारा मेमोरी में लिये जा सकने वाले अधिकतम कुल आकार (बाइट में) को परिभाषित करता है। डिफ़ॉल्ट रूप से, सभी BLOBs मेमोरी में लोड होते हैं; केवल जब यह सीमा पहुँच जाती है तो वैकल्पिक तंत्र (जैसे अस्थायी फ़ाइलें) उपयोग किए जाते हैं। BLOBs को मेमोरी में रखने से प्रदर्शन अधिकतम होता है लेकिन उच्च मेमोरी उपयोग हो सकता है। इस प्रॉपर्टी का उपयोग अपने वातावरण या आवश्यकताओं के अनुसार व्यवहार को अनुकूलित करने के लिए करें। |
+| [PresentationLockingBehavior](../../aspose.slides/iblobmanagementoptions/presentationlockingbehavior) { get; set; } | यह प्रॉपर्टी निर्धारित करती है कि Presentation क्लास की एक इंस्टेंस जीवनकाल के दौरान स्रोत - फ़ाइल या स्ट्रीम - की मालिक हो सकती है या नहीं। यदि इंस्टेंस मालिक है, तो वह स्रोत को लॉक कर देता है। यह BLOBs के साथ काम करते समय मेमोरी उपयोग और प्रदर्शन को सुधारने में मदद करता है, लेकिन स्रोत (स्ट्रीम या फ़ाइल) को Presentation की इंस्टेंस जीवनकाल के दौरान बदला नहीं जा सकता। यह एक उदाहरण है: |
+| [TempFilesRootPath](../../aspose.slides/iblobmanagementoptions/tempfilesrootpath) { get; set; } | अस्थायी फ़ाइलों के निर्माण के लिए मूल पथ। डिफ़ॉल्ट रूप से सिस्टम अस्थायी निर्देशिका उपयोग की जाएगी। होस्टिंग प्रक्रिया को वहाँ फ़ाइलें और फ़ोल्डर बनाने की अनुमति होनी चाहिए। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

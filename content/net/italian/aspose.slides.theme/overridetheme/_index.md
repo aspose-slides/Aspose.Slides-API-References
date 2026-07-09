@@ -1,14 +1,14 @@
 ---
 title: OverrideTheme
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Rappresenta un tema di sovrascrittura.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un tema sovrascrivente.
 type: docs
-weight: 11440
+weight: 11460
 url: /it/aspose.slides.theme/overridetheme/
 ---
 ## OverrideTheme classe
 
-Rappresenta un tema di sovrascrittura.
+Rappresenta un tema sovrascrivente.
 
 ```csharp
 public sealed class OverrideTheme : Theme, IOverrideTheme
@@ -18,11 +18,11 @@ public sealed class OverrideTheme : Theme, IOverrideTheme
 
 | Nome | Descrizione |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Restituisce lo schema di colori. Sola lettura [`IColorScheme`](../icolorscheme). |
-| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Restituisce lo schema di caratteri. Sola lettura [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Restituisce lo schema di formato forma. Sola lettura [`IFormatScheme`](../iformatscheme). |
-| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme sono null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Sola lettura Boolean. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Restituisce la presentazione padre. Sola lettura [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/overridetheme/colorscheme) { get; } | Restituisce il ColorScheme. Solo lettura [`IColorScheme`](../icolorscheme). |
+| override [FontScheme](../../aspose.slides.theme/overridetheme/fontscheme) { get; } | Restituisce il FontScheme. Solo lettura [`IFontScheme`](../ifontscheme). |
+| override [FormatScheme](../../aspose.slides.theme/overridetheme/formatscheme) { get; } | Restituisce il FormatScheme. Solo lettura [`IFormatScheme`](../iformatscheme). |
+| [IsEmpty](../../aspose.slides.theme/overridetheme/isempty) { get; } | Il valore true indica che ColorScheme, FontScheme, FormatScheme è null e qualsiasi sovrascrittura con questo oggetto tema è disabilitata. Solo lettura Boolean. |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | Restituisce la presentazione padre. Solo lettura [`IPresentation`](../../aspose.slides/ipresentation). |
 
 ## Metodi
 

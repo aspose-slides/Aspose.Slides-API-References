@@ -1,14 +1,14 @@
 ---
 title: Video
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงถึงรูปภาพที่ฝังอยู่ในงานนำเสนอ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนภาพที่ฝังอยู่ในงานนำเสนอ
 type: docs
 weight: 11700
 url: /th/aspose.slides/video/
 ---
-## Video คลาส
+## คลาส Video
 
-แสดงถึงรูปภาพที่ฝังอยู่ในงานนำเสนอ.
+แทนภาพที่ฝังอยู่ในงานนำเสนอ
 
 ```csharp
 public class Video : IVideo
@@ -16,16 +16,16 @@ public class Video : IVideo
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | ส่งคืนสำเนาของข้อมูลเสียง. ในกรณีที่ข้อมูลมีจำนวนมาก ให้พิจารณาใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลวิดีโอเข้าสำรวจหน่วยความจำโดยไม่จำเป็นหรือแม้กระทั่ง OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | ส่งคืนประเภท MIME ของวิดีโอ ที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | คืนค่ากลุ่มสำเนาข้อมูลของเสียง หากข้อมูลมีขนาดใหญ่ควรใช้เมธอด [`GetStream`](./getstream) เพื่อป้องกันการโหลดข้อมูลของวิดีโอเข้าสัมพันธภาพโดยไม่จำเป็น หรือแม้กระทั่ง OutOfMemoryException. อ่านอย่างเดียว Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | คืนค่า MIME type ของวิดีโอที่เข้ารหัสใน [`BinaryData`](./binarydata). อ่านอย่างเดียว String. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | ส่งคืน Stream สำหรับการอ่าน. ใช้ 'using' หรือปิด stream หลังการใช้. |
+| [GetStream](../../aspose.slides/video/getstream)() | คืนค่า Stream สำหรับการอ่าน ใช้ 'using' หรือปิด stream หลังการใช้. |
 
 ### ดูเพิ่มเติม
 

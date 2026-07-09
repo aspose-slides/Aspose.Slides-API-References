@@ -1,14 +1,14 @@
 ---
 title: ILeftRightDirectionTransition
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 左左右方向のスライド遷移効果。
+description: 左から右への方向スライド遷移効果。
 type: docs
-weight: 10100
+weight: 10120
 url: /ja/aspose.slides.slideshow/ileftrightdirectiontransition/
 ---
 ## ILeftRightDirectionTransition インターフェイス
 
-左右方向のスライド遷移効果。
+左から右への方向スライド遷移効果。
 
 ```csharp
 public interface ILeftRightDirectionTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface ILeftRightDirectionTransition : ITransitionValueBase
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
-| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 遷移の方向。読み書き可能 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/ileftrightdirectiontransition/asitransitionvaluebase) { get; } | ベース ITransitionValueBase インターフェイスを取得できます。 読み取り専用 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [Direction](../../aspose.slides.slideshow/ileftrightdirectiontransition/direction) { get; set; } | 遷移の方向。 読み書き可能 [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype)。 |
 
 ### 参照
 

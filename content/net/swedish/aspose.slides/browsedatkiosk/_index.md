@@ -1,9 +1,9 @@
 ---
 title: BrowsedAtKiosk
 second_title: Aspose.Sildes för .NET API-referens
-description: Visas på en kiosk i fullskärm
+description: Visas på en kiosk i helskärm
 type: docs
-weight: 1020
+weight: 1040
 url: /sv/aspose.slides/browsedatkiosk/
 ---
 ## BrowsedAtKiosk klass
@@ -18,11 +18,12 @@ public class BrowsedAtKiosk : SlideShowType
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BrowsedAtKiosk](browsedatkiosk)() | Initialiserar en ny instans av BrowsedAtKiosk klass. |
+| [BrowsedAtKiosk](browsedatkiosk)() | Initierar en ny instans av BrowsedAtKiosk-klassen. |
 
 ### Exempel
 
 ```csharp
+[C#]
 using (Presentation pres = new Presentation())
 {
     pres.SlideShowSettings.SlideShowType = new BrowsedAtKiosk();
@@ -30,7 +31,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Se också
+### Se även
 
 * klass [SlideShowType](../slideshowtype)
 * namnrymd [Aspose.Slides](../../aspose.slides)

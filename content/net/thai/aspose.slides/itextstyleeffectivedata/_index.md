@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติสไตล์ข้อความที่มีประสิทธิผล.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติรูปแบบข้อความที่มีประสิทธิภาพ.
 type: docs
 weight: 7320
 url: /th/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติสไตล์ข้อความที่มีประสิทธิผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติรูปแบบข้อความที่มีประสิทธิภาพ
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -18,17 +18,17 @@ public interface ITextStyleEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | ส่งคืนคุณสมบัติย่อหน้าตั้งต้นที่มีประสิทธิผล. อ่านอย่างเดียว [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
+| [DefaultParagraphFormat](../../aspose.slides/itextstyleeffectivedata/defaultparagraphformat) { get; } | ส่งคืนคุณสมบัติย่อหน้าตั้งค่าเริ่มต้นที่มีประสิทธิภาพ. อ่านอย่างเดียว [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | ส่งคืนระดับของสไตล์ที่มีประสิทธิผล. |
+| [GetLevel](../../aspose.slides/itextstyleeffectivedata/getlevel)(int) | ส่งคืนระดับของสไตล์ที่มีประสิทธิภาพ. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้ร่วมกับ [`ITextStyle`](../itextstyle) อินเทอร์เฟซเพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิผลพร้อมการสืบทอดที่นำไปใช้
+อินเทอร์เฟซนี้ใช้ร่วมกับอินเทอร์เฟซ [`ITextStyle`](../itextstyle) เพื่อส่งคืนค่าการจัดรูปแบบที่มีประสิทธิภาพโดยนำการสืบทอดมาใช้.
 
 ### ดูเพิ่มเติม
 

@@ -1,9 +1,9 @@
 ---
 title: ChartPlotArea
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili persegi panjang tempat chart harus dipetakan.
 type: docs
-weight: 1400
+weight: 1420
 url: /id/aspose.slides.charts/chartplotarea/
 ---
 ## ChartPlotArea kelas
@@ -18,17 +18,17 @@ public class ChartPlotArea : DomObject<Chart>, IChartPlotArea
 
 | Nama | Deskripsi |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Menentukan tinggi aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Hanya-baca Single. |
-| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Menentukan lebar aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Hanya-baca Single. |
-| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Hanya-baca Single. |
-| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Menentukan bagian atas aktual elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai aktual. Hanya-baca Single. |
-| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Bawah. Hanya-baca Single. |
-| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. Hanya-baca [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Mengembalikan format area plot. Hanya-baca [`IFormat`](../iformat). |
+| [ActualHeight](../../aspose.slides.charts/chartplotarea/actualheight) { get; } | Menentukan tinggi aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
+| [ActualWidth](../../aspose.slides.charts/chartplotarea/actualwidth) { get; } | Menentukan lebar aktual elemen chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
+| [ActualX](../../aspose.slides.charts/chartplotarea/actualx) { get; } | Menentukan lokasi x aktual (kiri) elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
+| [ActualY](../../aspose.slides.charts/chartplotarea/actualy) { get; } | Menentukan posisi atas aktual elemen chart relatif terhadap sudut kiri atas chart. Panggil metode IChart.ValidateChartLayout() terlebih dahulu untuk mendapatkan nilai sebenarnya. Baca Single. |
+| [Bottom](../../aspose.slides.charts/chartplotarea/bottom) { get; } | Bawah. Baca-saja Single. |
+| [Chart](../../aspose.slides.charts/chartplotarea/chart) { get; } | Chart. Baca-saja [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/chartplotarea/format) { get; } | Mengembalikan format area plot. Baca-saja [`IFormat`](../iformat). |
 | [Height](../../aspose.slides.charts/chartplotarea/height) { get; set; } | Mengembalikan atau mengatur tinggi kotak pembatas area plot sebagai fraksi dari tinggi chart (dari 0 hingga 1). Baca/tulis Single. |
-| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Menentukan bagaimana lokasi harus dihitung: true – dihitung otomatis; ditentukan oleh properti X, Y, Width, Height. Hanya-baca Boolean. |
-| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Jika tata letak area plot didefinisikan secara manual, properti ini menentukan apakah menata area plot dari dalam (tidak termasuk sumbu dan label sumbu) atau luar (termasuk sumbu dan label sumbu). Baca/tulis [`LayoutTargetType`](./layouttargettype). |
-| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Kanan. Hanya-baca Single. |
+| [IsLocationAutocalculated](../../aspose.slides.charts/chartplotarea/islocationautocalculated) { get; } | Mendefinisikan bagaimana lokasi harus dihitung: true – dihitung otomatis; ditentukan oleh properti X, Y, Width, Height. Baca-saja Boolean. |
+| [LayoutTargetType](../../aspose.slides.charts/chartplotarea/layouttargettype) { get; set; } | Jika tata letak area plot ditentukan secara manual, properti ini menentukan apakah menata area plot dari dalamnya (tidak termasuk sumbu dan label sumbu) atau dari luarnya (termasuk sumbu dan label sumbu). Baca/tulis [`LayoutTargetType`](./layouttargettype). |
+| [Right](../../aspose.slides.charts/chartplotarea/right) { get; } | Kanan. Baca-saja Single. |
 | [Width](../../aspose.slides.charts/chartplotarea/width) { get; set; } | Mengembalikan atau mengatur lebar kotak pembatas area plot sebagai fraksi dari lebar chart (dari 0 hingga 1). Baca/tulis Single. |
 | [X](../../aspose.slides.charts/chartplotarea/x) { get; set; } | Mengembalikan atau mengatur koordinat x sudut kiri atas kotak pembatas area plot sebagai fraksi dari lebar chart (dari 0 hingga 1). Baca/tulis Single. |
 | [Y](../../aspose.slides.charts/chartplotarea/y) { get; set; } | Mengembalikan atau mengatur koordinat y sudut kiri atas kotak pembatas area plot sebagai fraksi dari tinggi chart (dari 0 hingga 1). Baca/tulis Single. |

@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng bóng đã định sẵn.
+second_title: Aspose.Sildes cho .NET Tham khảo API
+description: Đối tượng bất biến đại diện cho hiệu ứng Preset Shadow.
 type: docs
 weight: 3490
 url: /vi/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng bóng đã định sẵn.
+Đối tượng bất biến đại diện cho hiệu ứng Preset Shadow.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,13 +18,13 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ-đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Hướng của bóng. Chỉ-đọc Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Khoảng cách của bóng. Chỉ-đọc Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Cài đặt trước. Chỉ-đọc [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Màu của bóng. Chỉ-đọc Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | Hướng của bóng. Chỉ đọc Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | Khoảng cách của bóng. Chỉ đọc Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Bộ cài đặt trước. Chỉ đọc [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | Màu của bóng. Chỉ đọc Color. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IEffectEffectiveData](../ieffecteffectivedata)
 * không gian tên [Aspose.Slides.Effects](../../aspose.slides.effects)

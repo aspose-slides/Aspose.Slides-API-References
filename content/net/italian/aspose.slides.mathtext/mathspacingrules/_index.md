@@ -1,14 +1,14 @@
 ---
 title: MathSpacingRules
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Tipi di spaziatura orizzontale tra le colonne di una matrice
 type: docs
-weight: 8970
+weight: 8990
 url: /it/aspose.slides.mathtext/mathspacingrules/
 ---
-## enumerazione MathSpacingRules
+## MathSpacingRules enumerazione
 
-Tipi di spaziatura (spaziatura orizzontale) tra le colonne di una matrice
+Tipi di spazio (spaziatura orizzontale) tra le colonne di una matrice
 
 ```csharp
 public enum MathSpacingRules
@@ -18,11 +18,11 @@ public enum MathSpacingRules
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| SingleSpacingGap | `0` | Singolo (1 em per colonne o 1 linea per righe) |
-| OneAndHalfSpacingGap | `1` | Uno e mezzo (1,5 em per colonne o 1,5 linee per righe) |
-| DoubleSpacingGap | `2` | Doppio spaziamento (2 em per colonne o 2 linee per righe) |
-| Exactly | `3` | Valore esatto Per le colonne, si basa sul valore di ColumnGap, misurato in twip. Per le righe, si basa sul valore di RowGap, misurato in twip. |
-| Multiple | `4` | Multiplo Per le colonne, si basa sul valore di ColumnGap, misurato in incrementi di 0,5 em. Per le righe, si basa sul valore di RowGap, misurato in linee. |
+| SingleSpacingGap | `0` | Singolo (1 em per le colonne o 1 riga per le righe) |
+| OneAndHalfSpacingGap | `1` | Uno e mezzo (1.5 em per le colonne o 1.5 righe per le righe) |
+| DoubleSpacingGap | `2` | Doppio spazio (2 em per le colonne o 2 righe per le righe) |
+| Exactly | `3` | Valore esatto Per le colonne, si basa sul valore di ColumnGap, misurato in twips Per le righe, si basa sul valore di RowGap, misurato in twips |
+| Multiple | `4` | Multiplo Per le colonne, si basa sul valore di ColumnGap, misurato a incrementi di 0.5 em Per le righe, si basa sul valore di RowGap, misurato in righe |
 
 ### Vedi anche
 

@@ -1,14 +1,14 @@
 ---
 title: ITextStyle
 second_title: Aspose.Sildes for .NET API 參考
-description: 文字樣式格式化屬性。
+description: 文字樣式格式屬性。
 type: docs
 weight: 7310
 url: /zh-hant/aspose.slides/itextstyle/
 ---
 ## ITextStyle 介面
 
-文字樣式格式化屬性。
+文字樣式格式屬性。
 
 ```csharp
 public interface ITextStyle
@@ -24,10 +24,10 @@ public interface ITextStyle
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 取得套用繼承後的有效文字樣式格式化資料。 |
-| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 如果樣式層級存在則回傳，否則回傳 null。 |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | 取得套用繼承後的有效文字樣式格式資料。 |
+| [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | 如果樣式層級存在則返回它，否則返回 null。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

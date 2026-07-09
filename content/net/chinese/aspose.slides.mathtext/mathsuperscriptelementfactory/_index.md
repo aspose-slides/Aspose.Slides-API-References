@@ -1,12 +1,11 @@
 ---
 title: MathSuperscriptElementFactory
-second_title: Aspose.Slides for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 允许创建 IMathSuperscriptElement
 type: docs
-weight: 8760
+weight: 9030
 url: /zh/aspose.slides.mathtext/mathsuperscriptelementfactory/
 ---
-
 ## MathSuperscriptElementFactory 类
 
 允许创建 IMathSuperscriptElement
@@ -25,13 +24,13 @@ public class MathSuperscriptElementFactory : IMathSuperscriptElementFactory
 
 | 名称 | 描述 |
 | --- | --- |
-| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | 创建 IMathSuperscriptElement |
+| [CreateMathSuperscriptElement](../../aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement)(IMathElement, IMathElement) | 创建 IMathSuperscriptElement |
 
 ### 备注
 
 用于 COM 兼容性
 
-### 另见
+### 参见
 
 * 接口 [IMathSuperscriptElementFactory](../imathsuperscriptelementfactory)
 * 命名空间 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

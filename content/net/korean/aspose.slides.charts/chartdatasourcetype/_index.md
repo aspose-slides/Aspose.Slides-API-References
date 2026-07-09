@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트의 데이터 소스 유형을 나타냅니다
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트 데이터 원본 유형을 나타냅니다
 type: docs
 weight: 1370
 url: /ko/aspose.slides.charts/chartdatasourcetype/
 ---
 ## ChartDataSourceType 열거형
 
-차트의 데이터 소스 유형을 나타냅니다.
+차트의 데이터 원본 유형을 나타냅니다.
 
 ```csharp
 public enum ChartDataSourceType
@@ -18,10 +18,10 @@ public enum ChartDataSourceType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| InternalWorkbook | `0` | 내부 데이터 소스. |
-| ExternalWorkbook | `1` | 외부 데이터 소스. |
+| InternalWorkbook | `0` | 내부 데이터 원본. |
+| ExternalWorkbook | `1` | 외부 데이터 원본. |
 
-### 참고
+### 다음 보기
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

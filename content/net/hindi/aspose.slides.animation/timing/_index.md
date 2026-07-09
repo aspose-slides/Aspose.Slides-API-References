@@ -1,41 +1,41 @@
 ---
 title: Timing
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनिमेशन टाइमिंग का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एनीमेशन टाइमिंग का प्रतिनिधित्व करता है।
 type: docs
 weight: 840
 url: /hi/aspose.slides.animation/timing/
 ---
 ## Timing क्लास
 
-एनिमेशन टाइमिंग का प्रतिनिधित्व करता है।
+एनीमेशन टाइमिंग का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Timing : ITiming
 ```
 
-## प्रॉपर्टीज़
+## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | त्वरण व्यवहार प्रभाव की अवधि का प्रतिशत दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | आगे की दिशा में चलाने के बाद एनिॅमेशन को स्वचालित रूप से उल्टे दिशा में चलाने की स्थिति दर्शाता है। पढ़ने/लिखने योग्य Boolean. |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | धीमी गति व्यवहार प्रभाव की अवधि का प्रतिशत दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | एनिमेशन प्रभाव की अवधि दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | प्रभाव को कितनी बार दोहराया जाना चाहिए, दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | प्रभाव को कितनी बार दोहराया जाना चाहिए, दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | यह विशेषता निर्धारित करती है कि क्या प्रभाव स्लाइड के अंत तक दोहराया जाएगा। पढ़ने/लिखने योग्य Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | यह विशेषता निर्धारित करती है कि क्या प्रभाव अगली क्लिक तक दोहराया जाएगा। पढ़ने/लिखने योग्य Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | यह निर्दिष्ट करता है कि क्या प्रभाव पूर्ण होने के बाद पुनः शुरू होगा। पढ़ने/लिखने योग्य [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | यह विशेषता निर्धारित करती है कि क्या प्रभाव प्ले समाप्त होने पर पुनः चलाया जाएगा। पढ़ने/लिखने योग्य Boolean. |
-| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | टाइमिंग को तेज (या धीमा) करने के लिए प्रतिशत निर्दिष्ट करता है। पढ़ने/लिखने योग्य Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | ट्रिगर के बाद विलंब समय दर्शाता है। पढ़ने/लिखने योग्य Single. |
-| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | ट्रिगर प्रकार दर्शाता है। पढ़ने/लिखने योग्य [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | अवधि में त्वरण व्यवहार प्रभाव के प्रतिशत का वर्णन करता है। Read/write Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | अग्रिम दिशा में चलाने के बाद एनीमेशन को स्वचालित रूप से उल्टा चलाने का वर्णन करता है। Read/write Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | अवधि में मंदन व्यवहार प्रभाव के प्रतिशत का वर्णन करता है। Read/write Single. |
+| [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | एनीमेशन प्रभाव की अवधि का वर्णन करता है। Read/write Single. |
+| [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | प्रभाव को दोहराने की संख्या का वर्णन करता है। Read/write Single. |
+| [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | प्रभाव को दोहराने की संख्या का वर्णन करता है। Read/write Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | यह विशेषता निर्दिष्ट करती है कि प्रभाव स्लाइड के अंत तक दोहराया जाएगा या नहीं। Read/write Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | यह विशेषता निर्दिष्ट करती है कि प्रभाव अगले क्लिक तक दोहराया जाएगा या नहीं। Read/write Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | निर्दिष्ट करता है कि प्रभाव पूर्ण होने के बाद पुनः शुरू होगा या नहीं। Read/write [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | यह विशेषता निर्दिष्ट करती है कि प्रभाव चलाना समाप्त होने पर रीवाइंड होगा या नहीं। Read/write Boolean. |
+| [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | समय को तेज़ (या धीमा) करने के लिए प्रतिशत निर्दिष्ट करता है। Read/write Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | ट्रिगर के बाद विलंब समय का वर्णन करता है। Read/write Single. |
+| [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | ट्रिगर प्रकार का वर्णन करता है। Read/write [`EffectTriggerType`](../effecttriggertype). |
 
 ### संबंधित देखें
 
-* interface [ITiming](../itiming)
-* namespace [Aspose.Slides.Animation](../../aspose.slides.animation)
-* assembly [Aspose.Slides](../../)
+* इंटरफेस [ITiming](../itiming)
+* नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
+* असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

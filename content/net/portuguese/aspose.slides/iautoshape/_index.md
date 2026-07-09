@@ -1,14 +1,14 @@
 ---
 title: IAutoShape
-second_title: Aspose.Sildes para .NET - Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um AutoShape.
 type: docs
-weight: 5220
+weight: 5240
 url: /pt/aspose.slides/iautoshape/
 ---
 ## IAutoShape interface
 
-Representa um AutoShape.
+Represents an AutoShape.
 
 ```csharp
 public interface IAutoShape : IGeometryShape
@@ -18,18 +18,18 @@ public interface IAutoShape : IGeometryShape
 
 | Nome | Descrição |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Permite obter a interface base IGeometryShape. Somente leitura [`IGeometryShape`](../igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides/iautoshape/asigeometryshape) { get; } | Permite obter a interface IGeometryShape base. Somente leitura [`IGeometryShape`](../igeometryshape). |
 | [AutoShapeLock](../../aspose.slides/iautoshape/autoshapelock) { get; } | Retorna os bloqueios do AutoShape. Somente leitura [`IAutoShapeLock`](../iautoshapelock). |
 | [IsTextBox](../../aspose.slides/iautoshape/istextbox) { get; } | Especifica se a forma é uma caixa de texto. |
 | [ShapeLock](../../aspose.slides/iautoshape/shapelock) { get; } | Retorna os bloqueios da forma. Somente leitura [`IAutoShapeLock`](../iautoshapelock). |
-| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Retorna o objeto TextFrame do AutoShape. Somente leitura [`ITextFrame`](../itextframe). |
-| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina se este autoshape deve ser preenchido com o preenchimento de fundo do slide em vez do especificado por estilo ou formato de preenchimento. Leitura/Gravação Boolean. |
+| [TextFrame](../../aspose.slides/iautoshape/textframe) { get; } | Retorna o objeto TextFrame para o AutoShape. Somente leitura [`ITextFrame`](../itextframe). |
+| [UseBackgroundFill](../../aspose.slides/iautoshape/usebackgroundfill) { get; set; } | Determina se este autoshape deve ser preenchido com o fundo do slide em vez de especificado por estilo ou formato de preenchimento. Leitura/gravação Boolean. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Adiciona um novo TextFrame a uma forma. Se a forma já possui TextFrame, simplesmente altera seu texto. |
+| [AddTextFrame](../../aspose.slides/iautoshape/addtextframe)(string) | Adiciona um novo TextFrame a uma forma. Se a forma já possuir um TextFrame, simplesmente altera seu texto. |
 
 ### Veja Também
 

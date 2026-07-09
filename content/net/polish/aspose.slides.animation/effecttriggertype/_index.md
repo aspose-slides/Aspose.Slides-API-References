@@ -1,12 +1,12 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje typ wyzwalacza efektu.
 type: docs
-weight: 330
+weight: 350
 url: /pl/aspose.slides.animation/effecttriggertype/
 ---
-## Enumeracja EffectTriggerType
+## EffectTriggerType wyliczenie
 
 Reprezentuje typ wyzwalacza efektu.
 

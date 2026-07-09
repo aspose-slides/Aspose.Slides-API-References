@@ -27,7 +27,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../../aspose.slides/pviobject)
 * 인터페이스 [IImageTransformOperation](../iimagetransformoperation)

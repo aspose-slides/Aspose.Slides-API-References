@@ -1,14 +1,14 @@
 ---
 title: ISketchFormat
-second_title: Aspose.Sildes .NET API hivatkozás
-description: A vonalak vázlatformátumának tulajdonságait képviseli.
+second_title: Aspose.Sildes a .NET API referencia
+description: A vonalvázlat formátum tulajdonságait képviseli.
 type: docs
-weight: 7000
+weight: 7020
 url: /hu/aspose.slides/isketchformat/
 ---
 ## ISketchFormat interfész
 
-A vonalak vázlatformátumának tulajdonságait képviseli.
+A vonalvázlat formátum tulajdonságait képviseli.
 
 ```csharp
 public interface ISketchFormat

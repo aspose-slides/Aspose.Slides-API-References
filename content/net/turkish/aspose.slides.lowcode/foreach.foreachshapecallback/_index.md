@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachShapeCallback
 second_title: Aspose.Sildes .NET API Referansı
-description: Sunum içinde her Şekil için tetiklenecek geri arama./foreach/shape../aspose.slides/presentation.
+description: Presentation../aspose.slides/presentation içinde her Shape./foreach/shape için çağrılacak geri arama.
 type: docs
-weight: 7930
+weight: 7950
 url: /tr/aspose.slides.lowcode/foreach.foreachshapecallback/
 ---
 ## ForEach.ForEachShapeCallback delegate
 
-Her [`Shape`](../foreach/shape) için tetiklenecek geri arama, [`Presentation`](../../aspose.slides/presentation) içinde.
+Her [`Shape`](../foreach/shape) için çağrılacak geri arama, [`Presentation`](../../aspose.slides/presentation) içinde.
 
 ```csharp
 public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int index);
@@ -19,7 +19,7 @@ public delegate void ForEachShapeCallback(Shape shape, BaseSlide slide, int inde
 | slide |  |
 | index |  |
 
-### Ayrıca Bakınız
+### İlgili
 
 * sınıf [Shape](../../aspose.slides/shape)
 * sınıf [BaseSlide](../../aspose.slides/baseslide)

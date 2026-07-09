@@ -3,7 +3,7 @@ title: FrameTickEventArgs
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa os argumentos do evento FrameTick./presentationplayer/frametick.
 type: docs
-weight: 3790
+weight: 3810
 url: /pt/aspose.slides.export/frametickeventargs/
 ---
 ## FrameTickEventArgs classe
@@ -16,13 +16,13 @@ public class FrameTickEventArgs
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [Player](../../aspose.slides.export/frametickeventargs/player) { get; } | Obtém o reprodutor de apresentação |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
 | [GetFrame](../../aspose.slides.export/frametickeventargs/getframe)() | Obtém o quadro [`PresentationPlayer`](../presentationplayer) atual. |
 

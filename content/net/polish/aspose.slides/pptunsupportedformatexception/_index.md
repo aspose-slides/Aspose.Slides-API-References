@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
-second_title: Aspose.Sildes – referencja API dla .NET
-description: Wyjątek, który jest rzucany, gdy format pliku prezentacji jest nieobsługiwany.
+second_title: Aspose.Sildes dla .NET - referencja API
+description: Wyjątek rzucany, gdy format pliku prezentacji jest nieobsługiwany.
 type: docs
-weight: 9520
+weight: 9540
 url: /pl/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException klasa
 
-Wyjątek, który jest rzucany, gdy format pliku prezentacji jest nieobsługiwany.
+Wyjątek rzucany jest, gdy format pliku prezentacji jest nieobsługiwany.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -18,9 +18,9 @@ public class PptUnsupportedFormatException : PptReadException
 
 | Nazwa | Opis |
 | --- | --- |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Konstruktor domyślny. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Domyślny konstruktor. |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor dla wyjątku zawierającego komunikat i zagnieżdżony wyjątek. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i wbudowany wyjątek. |
 
 ### Zobacz także
 

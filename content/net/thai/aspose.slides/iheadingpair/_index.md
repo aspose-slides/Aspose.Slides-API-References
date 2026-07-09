@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงคุณสมบัติ Heading pair ของเอกสาร ซึ่งบ่งบอกชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
+description: แทนคุณสมบัติ 'Heading pair' ของเอกสาร โดยระบุชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม.
 type: docs
 weight: 6100
 url: /th/aspose.slides/iheadingpair/
 ---
 ## IHeadingPair อินเทอร์เฟซ
 
-แสดงถึงคุณสมบัติ 'Heading pair' ของเอกสาร โดยระบุชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
+แทนคุณสมบัติ 'Heading pair' ของเอกสาร โดยระบุชื่อกลุ่มของส่วนเอกสารและจำนวนส่วนในกลุ่ม
 
 ```csharp
 public interface IHeadingPair
@@ -18,8 +18,8 @@ public interface IHeadingPair
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides/iheadingpair/count) { get; } | คืนค่าจำนวนส่วนในกลุ่ม. อ่านอย่างเดียว Int32. |
-| [Name](../../aspose.slides/iheadingpair/name) { get; } | คืนค่าชื่อกลุ่มของส่วนเอกสาร. อ่านอย่างเดียว String. |
+| [Count](../../aspose.slides/iheadingpair/count) { get; } | ส่งคืนจำนวนส่วนในกลุ่ม. อ่านอย่างเดียว Int32. |
+| [Name](../../aspose.slides/iheadingpair/name) { get; } | ส่งคืนชื่อกลุ่มของส่วนเอกสาร. อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

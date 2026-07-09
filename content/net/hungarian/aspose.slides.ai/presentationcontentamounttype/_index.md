@@ -1,14 +1,14 @@
 ---
 title: PresentationContentAmountType
-second_title: Aspose.Sildes .NET API referencia
-description: Megadja a generált prezentációban szereplő tartalom mennyiségét, befolyásolva mind a diák számát, mind a diánkénti részletességi szintet.
+second_title: Aspose.Sildes .NET API referenciája
+description: Meghatározza a generált prezentációban szereplő tartalom mennyiségét, befolyásolva a diák számát és a diánkénti részletesség szintjét.
 type: docs
-weight: 40
+weight: 60
 url: /hu/aspose.slides.ai/presentationcontentamounttype/
 ---
 ## PresentationContentAmountType enumeráció
 
-Megadja a generált prezentációban szereplő tartalom mennyiségét, befolyásolva mind a diák számát, mind a diánkénti részletességi szintet.
+Megadja a generált prezentációban szereplő tartalom mennyiségét, befolyásolva a diák számát és a részletesség szintjét diánként.
 
 ```csharp
 public enum PresentationContentAmountType
@@ -19,8 +19,8 @@ public enum PresentationContentAmountType
 | Név | Érték | Leírás |
 | --- | --- | --- |
 | Brief | `0` | Rövid és alapvető tartalom. |
-| Medium | `1` | Közepes mennyiségű tartalom. |
-| Detailed | `2` | A leg részletesebb opció kiterjedt szöveggel. |
+| Medium | `1` | Mérsékelt mennyiségű tartalom. |
+| Detailed | `2` | A legrészletesebb lehetőség kiterjedt szöveggel. |
 
 ### Lásd még
 

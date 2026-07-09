@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API referencia
 description: Lehetővé teszi egy MathematicalText elem létrehozását
 type: docs
-weight: 8500
+weight: 8520
 url: /hu/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interfész
@@ -18,14 +18,14 @@ public interface IMathematicalTextFactory
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres matematikai szöveg elemet hoz létre |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Létrehoz egy matematikai szöveg elemet a megadott értékkel |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Létrehoz egy üres matematikai szöveg elemet a megadott értékkel |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Létrehoz egy üres matematikai szöveg elemet a megadott értékkel és formázási tulajdonságokkal |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Üres MathematicalText elemet hoz létre |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | MathematicalText elemet hoz létre a megadott értékkel |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Üres MathematicalText elemet hoz létre a megadott értékkel |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Üres MathematicalText elemet hoz létre a megadott értékkel és formázási tulajdonságokkal |
 
 ### Megjegyzés
 
-COM kompatibilitás érdekében
+COM kompatibilitáshoz
 
 ### Lásd még
 

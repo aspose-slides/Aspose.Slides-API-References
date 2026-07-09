@@ -1,14 +1,14 @@
 ---
 title: BehaviorProperty
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทของคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. ตามรายการคุณสมบัติตามจาก https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx และ https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนประเภทคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหวของแอนิเมชัน ปฏิบัติตามรายการคุณสมบัติจาก https//msdn.microsoft.com/en-us/library/dd949052voffice.15.aspx และ https//msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributenamevoffice.15.aspx
 type: docs
 weight: 190
 url: /th/aspose.slides.animation/behaviorproperty/
 ---
-## BehaviorProperty คลาส
+## คลาส BehaviorProperty
 
-แสดงประเภทคุณสมบัติสำหรับพฤติกรรมการเคลื่อนไหว. ตามรายการคุณสมบัติจาก https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx และ https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
+แสดงประเภทคุณสมบัติเพื่อการเคลื่อนไหวของแอนิเมชัน ตามรายการคุณสมบัติจาก https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx และ https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx
 
 ```csharp
 public class BehaviorProperty : IBehaviorProperty
@@ -139,16 +139,16 @@ public class BehaviorProperty : IBehaviorProperty
 | static [StyleVisibility](../../aspose.slides.animation/behaviorproperty/stylevisibility) { get; } | แสดงถึงคุณสมบัติ 'style.visibility' |
 | static [XShear](../../aspose.slides.animation/behaviorproperty/xshear) { get; } | แสดงถึงคุณสมบัติ 'xshear' |
 | static [YShear](../../aspose.slides.animation/behaviorproperty/yshear) { get; } | แสดงถึงคุณสมบัติ 'yshear' |
-| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | แสดงว่าคุณสมบัตินี้ไม่อยู่ในรายการคุณสมบัติกำหนดล่วงหน้าในข้อกำหนด: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [IsCustom](../../aspose.slides.animation/behaviorproperty/iscustom) { get; } | แสดงว่าคุณสมบัตินี้ไม่ได้อยู่ในรายการคุณสมบัติมาตรฐานตามข้อกำหนด: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
 | [Value](../../aspose.slides.animation/behaviorproperty/value) { get; } | ค่าของคุณสมบัติ |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | ค้นหาคุณสมบัติพฤติกรรมที่มีอยู่โดยค่า หรือสร้างใหม่ที่กำหนดเองด้วยค่าที่ระบุ |
-| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | ตรวจสอบว่าอ็อบเจกต์นี้เท่ากับอ็อบเจกต์อื่นหรือไม่ |
-| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | คำนวณและคืนค่ารหัสแฮชโดยอิงตามคุณสมบัติ [`Value`](./value) |
+| static [GetOrCreateByValue](../../aspose.slides.animation/behaviorproperty/getorcreatebyvalue)(string) | ค้นหาคุณสมบัติเพื่อพฤติกรรมที่มีอยู่ตามค่า หรือสร้างคุณสมบัติที่กำหนดเองใหม่โดยใช้ค่าที่ระบุ |
+| override [Equals](../../aspose.slides.animation/behaviorproperty/equals)(object) | ตรวจสอบว่าวัตถุนี้เท่ากับวัตถุอื่นหรือไม่ |
+| override [GetHashCode](../../aspose.slides.animation/behaviorproperty/gethashcode)() | คำนวณและคืนค่า hash code โดยอิงจากคุณสมบัติ [`Value`](./value) |
 
 ### ดูเพิ่มเติม
 

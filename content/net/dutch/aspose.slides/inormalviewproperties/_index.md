@@ -1,14 +1,14 @@
 ---
 title: INormalViewProperties
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de eigenschappen van de normale weergave voor. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zijinhoudsgebied en een onderste inhoudsgebied.
+description: Stelt normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhoudsregio’s: de dia zelf, een zij-inhoudsregio en een onder-inhoudsregio.
 type: docs
 weight: 6470
 url: /nl/aspose.slides/inormalviewproperties/
 ---
 ## INormalViewProperties interface
 
-Stelt de eigenschappen van de normale weergave voor. De normale weergave bestaat uit drie inhoudsgebieden: de dia zelf, een zijinhoudsgebied en een onderste inhoudsgebied.
+Stelt de normale weergave-eigenschappen voor. De normale weergave bestaat uit drie inhouds-regio’s: de dia zelf, een zij-inhoudsregio en een onder-inhoudsregio.
 
 ```csharp
 public interface INormalViewProperties
@@ -18,17 +18,17 @@ public interface INormalViewProperties
 
 | Naam | Beschrijving |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Specificeert de toestand waarin de horizontale splitsbalk moet worden weergegeven. Een horizontale splitsbalk scheidt de dia van het inhoudsgebied onder de dia. |
-| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Specificeert of de gebruiker de voorkeur geeft aan een enkelinhoudsgebied in volledig venster boven de standaard normale weergave met drie inhoudsgebieden. Indien ingeschakeld, kan de toepassing ervoor kiezen om een van de inhoudsgebieden in het volledige venster weer te geven. Lezen/Schrijven Boolean. |
-| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Dit element specificeert de grootte van het zijinhoudsgebied van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd). Alleen lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Dit element specificeert de grootte van het bovenste dia-gebied van de normale weergave, wanneer het gebied een variabele herstelde grootte heeft (niet geminimaliseerd of gemaximaliseerd). Alleen lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
-| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Specificeert of de toepassing pictogrammen moet tonen bij het weergeven van overzichtsinhoud in een van de inhoudsgebieden van de normale weergavemodus. Lezen/Schrijven Boolean. |
-| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Specificeert of de verticale splitsbalk moet vastklikken op een geminimaliseerde toestand wanneer het zijgebied voldoende klein is. Lezen/Schrijven Boolean. |
-| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Specificeert de toestand waarin de verticale splitsbalk moet worden weergegeven. Een verticale splitsbalk scheidt de dia van het zijinhoudsgebied. |
+| [HorizontalBarState](../../aspose.slides/inormalviewproperties/horizontalbarstate) { get; set; } | Specificeert de staat waarin de horizontale scheidingsbalk moet worden weergegeven. Een horizontale scheidingsbalk scheidt de dia van de inhoudsregio onder de dia. |
+| [PreferSingleView](../../aspose.slides/inormalviewproperties/prefersingleview) { get; set; } | Specificeert of de gebruiker de voorkeur geeft aan een enkel-inhoudsregio op volledig venster in plaats van de standaard normale weergave met drie inhoudsregio’s. Indien ingeschakeld, kan de toepassing ervoor kiezen om een van de inhoudsregio’s in het volledige venster weer te geven. Lees-schrijf Boolean. |
+| [RestoredLeft](../../aspose.slides/inormalviewproperties/restoredleft) { get; } | Dit element specificeert de grootte van de zij-inhoudsregio van de normale weergave, wanneer de regio een variabele herstelde grootte heeft (noch geminimaliseerd noch gemaximaliseerd). Alleen-lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/inormalviewproperties/restoredtop) { get; } | Dit element specificeert de grootte van de bovenste diaregio van de normale weergave, wanneer de regio een variabele herstelde grootte heeft (noch geminimaliseerd noch gemaximaliseerd). Alleen-lezen [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/inormalviewproperties/showoutlineicons) { get; set; } | Specificeert of de toepassing pictogrammen moet weergeven bij het tonen van outline-inhoud in een van de inhoudsregio’s van de normale weergavemodus. Lees-schrijf Boolean. |
+| [SnapVerticalSplitter](../../aspose.slides/inormalviewproperties/snapverticalsplitter) { get; set; } | Specificeert of de verticale scheidingsbalk moet vastklikken in een geminimaliseerde staat wanneer de zij-regio voldoende klein is. Lees-schrijf Boolean. |
+| [VerticalBarState](../../aspose.slides/inormalviewproperties/verticalbarstate) { get; set; } | Specificeert de staat waarin de verticale scheidingsbalk moet worden weergegeven. Een verticale scheidingsbalk scheidt de dia van de zij-inhoudsregio. |
 
 ### Zie ook
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* naamruimte [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

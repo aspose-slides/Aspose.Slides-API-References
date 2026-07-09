@@ -1,14 +1,14 @@
 ---
 title: IChartPlotArea
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt de eigenschappen van de diagramtitel voor.
+description: Geeft de eigenschappen van de grafiektitel weer.
 type: docs
 weight: 1910
 url: /nl/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interface
 
-Stelt de eigenschappen van de diagramtitel voor.
+Geeft de eigenschappen van de grafiektitel weer.
 
 ```csharp
 public interface IChartPlotArea : IActualLayout, ILayoutable
@@ -18,10 +18,10 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Geeft IActualLayout interface terug. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Staat toe de basis ILayoutable interface op te halen. Alleen-lezen [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Geeft het formaat van een plotgebied terug. Alleen-lezen [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Als de lay-out van het plotgebied handmatig is gedefinieerd, geeft deze eigenschap aan of het plotgebied binnen (exclusief assen en aslabels) of buiten (inclusief assen en aslabels) moet worden gelayout. Lezen/Schrijven [`LayoutTargetType`](./layouttargettype). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Retourneert IActualLayout interface. |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Staat toe om de basis ILayoutable interface te verkrijgen. Alleen-lezen [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Retourneert het formaat van een plotgebied. Alleen-lezen [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Als de lay-out van het plotgebied handmatig is gedefinieerd, bepaalt deze eigenschap of het plotgebied binnen (zonder assen en aslabels) of buiten (met assen en aslabels) wordt gelayout. Lezen/schrijven [`LayoutTargetType`](./layouttargettype). |
 
 ### Zie ook
 

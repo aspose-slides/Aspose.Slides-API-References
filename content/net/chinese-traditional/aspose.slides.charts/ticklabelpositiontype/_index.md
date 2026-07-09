@@ -1,7 +1,7 @@
 ---
 title: TickLabelPositionType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示指定軸上刻度標籤的位置類型。
+description: 表示在指定軸上刻度標籤的位置類型。
 type: docs
 weight: 2440
 url: /zh-hant/aspose.slides.charts/ticklabelpositiontype/
@@ -20,10 +20,10 @@ public enum TickLabelPositionType
 | --- | --- | --- |
 | High | `0` | 指定軸標籤應位於垂直軸的高端。 |
 | Low | `1` | 指定軸標籤應位於垂直軸的低端。 |
-| NextTo | `2` | 指定軸標籤應緊鄰坐標軸。 |
+| NextTo | `2` | 指定軸標籤應位於軸的旁邊。 |
 | None | `3` | 指定軸標籤不會被繪製。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

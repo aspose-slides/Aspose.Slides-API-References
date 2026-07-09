@@ -1,14 +1,14 @@
 ---
 title: SourceFormat
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
-description: แสดงรูปแบบไฟล์ต้นทาง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงรูปแบบไฟล์ต้นฉบับ.
 type: docs
 weight: 10680
 url: /th/aspose.slides/sourceformat/
 ---
-## SourceFormat ประเภท
+## enumeration SourceFormat
 
-แสดงรูปแบบไฟล์ต้นทาง.
+แสดงรูปแบบไฟล์ต้นฉบับ.
 
 ```csharp
 public enum SourceFormat
@@ -21,12 +21,12 @@ public enum SourceFormat
 | Ppt | `0` | Microsoft PowerPoint 97-2003 การนำเสนอ (*.ppt). |
 | Pptx | `1` | Microsoft Office Open XML การนำเสนอ (*.pptx). |
 | Odp | `2` | OpenDocument การนำเสนอ (*.odp). |
-| Pptm | `3` | Microsoft Office Open XML การนำเสนอที่เปิดใช้งานมาโคร (*.pptm). |
-| Ppsx | `4` | Microsoft Office Open XML การแสดงสไลด์ (*.ppsx). |
-| Ppsm | `5` | Microsoft Office Open XML การแสดงสไลด์ที่เปิดใช้งานมาโคร (*.ppsm). |
+| Pptm | `3` | Microsoft Office Open XML การนำเสนอที่มีแมโคร (*.pptm). |
+| Ppsx | `4` | Microsoft Office Open XML สไลด์โชว์ (*.ppsx). |
+| Ppsm | `5` | Microsoft Office Open XML สไลด์โชว์ที่มีแมโคร (*.ppsm). |
 | Potx | `6` | Microsoft Office Open XML แม่แบบ (*.potx). |
-| Potm | `7` | Microsoft Office Open XML แม่แบบที่เปิดใช้งานมาโคร (*.potm). |
-| Pps | `8` | Microsoft PowerPoint 97-2003 การแสดงสไลด์ (*.pps). |
+| Potm | `7` | Microsoft Office Open XML แม่แบบที่มีแมโคร (*.potm). |
+| Pps | `8` | Microsoft PowerPoint 97-2003 สไลด์โชว์ (*.pps). |
 | Pot | `9` | Microsoft PowerPoint 97-2003 แม่แบบ (*.pot). |
 | Otp | `10` | OpenDocument แม่แบบการนำเสนอ (*.otp). |
 | Fodp | `11` | Flat XML ODF การนำเสนอ (*.fodp). |

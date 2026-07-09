@@ -1,14 +1,14 @@
 ---
 title: Format
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 차트 서식 속성을 나타냅니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 차트 형식 속성을 나타냅니다.
 type: docs
 weight: 1680
 url: /ko/aspose.slides.charts/format/
 ---
 ## Format 클래스
 
-차트 서식 속성을 나타냅니다.
+차트 형식 속성을 나타냅니다.
 
 ```csharp
 public sealed class Format : PVIObject, IFormat
@@ -19,8 +19,8 @@ public sealed class Format : PVIObject, IFormat
 | 이름 | 설명 |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Effect](../../aspose.slides.charts/format/effect) { get; } | 차트에 사용되는 효과를 반환합니다. 읽기 전용 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | 차트의 3D 서식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Effect](../../aspose.slides.charts/format/effect) { get; } | 차트에 사용된 효과를 반환합니다. 읽기 전용 [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/format/effect3d) { get; } | 차트의 3D 형식을 반환합니다. 읽기 전용 [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
 | [Fill](../../aspose.slides.charts/format/fill) { get; } | 차트의 채우기 스타일 속성을 반환합니다. 읽기 전용 [`IFillFormat`](../../aspose.slides/ifillformat). |
 | [Line](../../aspose.slides.charts/format/line) { get; } | 차트의 선 스타일 속성을 반환합니다. 읽기 전용 [`ILineFormat`](../../aspose.slides/ilineformat). |
 
@@ -31,7 +31,7 @@ public sealed class Format : PVIObject, IFormat
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../../aspose.slides/pviobject)
 * 인터페이스 [IFormat](../iformat)

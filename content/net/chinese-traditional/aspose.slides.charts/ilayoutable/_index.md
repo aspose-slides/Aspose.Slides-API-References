@@ -16,7 +16,7 @@ public interface ILayoutable : IChartComponent
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ilayoutable/asichartcomponent) { get; } | 允許取得基礎 IChartComponent 介面。唯讀 [`IChartComponent`](../ichartcomponent)。 |
 | [Bottom](../../aspose.slides.charts/ilayoutable/bottom) { get; } | 取得圖表元素的上方，作為圖表高度的比例。唯讀 Single。 |
@@ -26,7 +26,7 @@ public interface ILayoutable : IChartComponent
 | [X](../../aspose.slides.charts/ilayoutable/x) { get; set; } | 指定圖表元素的 x 位置（左側），作為圖表寬度的比例。讀寫 Single。 |
 | [Y](../../aspose.slides.charts/ilayoutable/y) { get; set; } | 指定圖表元素的上方，作為圖表高度的比例。讀寫 Single。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IChartComponent](../ichartcomponent)
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)

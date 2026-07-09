@@ -1,6 +1,6 @@
 ---
 title: Video
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Stelt een afbeelding voor die in een presentatie is ingebed.
 type: docs
 weight: 11700
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Geeft een kopie van de gegevens van een audio terug. Bij een grote hoeveelheid gegevens overweeg het gebruik van de [`GetStream`](./getstream) methode om onnodig laden van videogegevens in het geheugen of zelfs een OutOfMemoryException te voorkomen. Alleen-lezen Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Geeft een MIME-type van een video terug, gecodeerd in [`BinaryData`](./binarydata). Alleen-lezen String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Retourneert een kopie van de gegevens van een audio. Bij een grote hoeveelheid gegevens overweeg het gebruik van de [`GetStream`](./getstream)-methode om onnodig laden van video-gegevens in het geheugen of zelfs een OutOfMemoryException te voorkomen. Alleen-lezen Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Retourneert een MIME-type van een video, gecodeerd in [`BinaryData`](./binarydata). Alleen-lezen String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Geeft een Stream terug voor lezen. Gebruik 'using' of sluit de stream na gebruik. |
+| [GetStream](../../aspose.slides/video/getstream)() | Retourneert een Stream-stream voor lezen. Gebruik 'using' of sluit de stream na gebruik. |
 
 ### Zie ook
 

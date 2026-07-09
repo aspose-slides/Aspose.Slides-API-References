@@ -1,12 +1,12 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: Aspose.Sildes برای مرجع API .NET
 description: یک نوع منبع داده برای نمودار را نشان می‌دهد
 type: docs
 weight: 1370
 url: /fa/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType شمارشی
+## ChartDataSourceType شمارش
 
 یک نوع منبع داده برای نمودار را نشان می‌دهد
 
@@ -16,12 +16,12 @@ public enum ChartDataSourceType
 
 ### مقادیر
 
-| Name | Value | Description |
+| نام | مقدار | توضیح |
 | --- | --- | --- |
 | InternalWorkbook | `0` | منبع داده داخلی. |
 | ExternalWorkbook | `1` | منبع داده خارجی. |
 
-### مراجع
+### موارد مرتبط
 
 * فضای نام [Aspose.Slides.Charts](../../aspose.slides.charts)
 * مجمع [Aspose.Slides](../../)

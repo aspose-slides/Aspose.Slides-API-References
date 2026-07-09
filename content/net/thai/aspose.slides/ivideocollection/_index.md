@@ -1,6 +1,6 @@
 ---
 title: IVideoCollection
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงคอลเลกชันของอ็อบเจ็กต์ Video.
 type: docs
 weight: 7370
@@ -8,7 +8,7 @@ url: /th/aspose.slides/ivideocollection/
 ---
 ## IVideoCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของวัตถุ Video
+แสดงถึงคอลเลกชันของอ็อบเจ็กต์ Video.
 
 ```csharp
 public interface IVideoCollection : IGenericCollection<IVideo>
@@ -18,15 +18,15 @@ public interface IVideoCollection : IGenericCollection<IVideo>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/ivideocollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IVideo`](../ivideo). |
+| [Item](../../aspose.slides/ivideocollection/item) { get; } | รับอีลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IVideo`](../ivideo). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | สร้างและเพิ่มวิดีโอไปยังการนำเสนอจากอาร์เรย์ไบต์. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | เพิ่มสำเนาของไฟล์วิดีโอจากการนำเสนออื่น. |
-| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มวิดีโอไปยังการนำเสนอจากสตรีม. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_1)(byte[]) | สร้างและเพิ่มวิดีโอไปยังงานนำเสนอจากอาร์เรย์ของไบต์. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo)(IVideo) | เพิ่มสำเนาของไฟล์วิดีโอจากงานนำเสนออื่น. |
+| [AddVideo](../../aspose.slides/ivideocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | สร้างและเพิ่มวิดีโอไปยังงานนำเสนอจากสตรีม. |
 
 ### ดูเพิ่มเติม
 

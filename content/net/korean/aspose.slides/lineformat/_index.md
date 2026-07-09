@@ -18,35 +18,35 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | 선 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`LineAlignment`](../linealignment). |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | 선 정렬을 가져오거나 설정합니다. 읽기/쓰기 [`LineAlignment`](../linealignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | 선 시작 부분의 화살촉 길이를 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | 선 시작 부분의 화살촉 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | 선 시작 부분의 화살촉 너비를 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | 선 캡 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | 사용자 정의 대시 패턴을 반환하거나 설정합니다. 읽기/쓰기 Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | 선 대시 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | 선 끝 부분의 화살촉 길이를 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | 선 끝 부분의 화살촉 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | 선 끝 부분의 화살촉 너비를 반환하거나 설정합니다. 읽기/쓰기 [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | 선 시작 부분의 화살촉 길이를 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | 선 시작 부분의 화살촉 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | 선 시작 부분의 화살촉 너비를 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | 선 캡 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | 사용자 지정 대시 패턴을 가져오거나 설정합니다. 읽기/쓰기 Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | 선 대시 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | 선 끝 부분의 화살촉 길이를 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | 선 끝 부분의 화살촉 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | 선 끝 부분의 화살촉 너비를 가져오거나 설정합니다. 읽기/쓰기 [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | 선의 채우기 형식을 반환합니다. 읽기 전용 [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | 선 형식이 정의되지 않은 경우(방금 생성된 기본값) true를 반환합니다. 읽기 전용 Boolean. |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | 선 결합 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | 선의 마이터 제한을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | 선 형식이 정의되지 않은 경우 true를 반환합니다 (방금 생성된 기본값). 읽기 전용 Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | 선 교차점 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | 선의 마이터 제한을 가져오거나 설정합니다. 읽기/쓰기 Single. |
 | [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | 선의 스케치 형식을 반환합니다. 읽기 전용 [`ILineFillFormat`](../ilinefillformat). |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | 선 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | 선의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | 선 스타일을 가져오거나 설정합니다. 읽기/쓰기 [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | 선의 너비를 가져오거나 설정합니다. 읽기/쓰기 Double. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | 두 LineFormat 인스턴스가 같은지 여부를 결정합니다. |
+| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | 두 LineFormat 인스턴스가 같은지 판단합니다. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
 | [GetEffective](../../aspose.slides/lineformat/geteffective)() | 상속이 적용된 실제 선 서식 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [ILineFormat](../ilineformat)

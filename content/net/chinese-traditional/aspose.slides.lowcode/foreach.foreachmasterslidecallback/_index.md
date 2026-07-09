@@ -1,14 +1,14 @@
 ---
 title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes .NET API 參考
-description: 在 Presentation../aspose.slides/presentation 中的每個 MasterSlide./foreach/masterslide 會被呼叫的回呼。
+description: 回呼將在 Presentation 中的每個 MasterSlide./foreach/masterslide 被呼叫../aspose.slides/presentation。
 type: docs
 weight: 7920
 url: /zh-hant/aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
 ## ForEach.ForEachMasterSlideCallback 委派
 
-此回呼會在 [`MasterSlide`](../foreach/masterslide) 於 [`Presentation`](../../aspose.slides/presentation) 中被呼叫。
+回呼將對 [`Presentation`](../../aspose.slides/presentation) 中的每個 [`MasterSlide`](../foreach/masterslide) 被呼叫。
 
 ```csharp
 public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int index);
@@ -16,8 +16,8 @@ public delegate void ForEachMasterSlideCallback(MasterSlide masterSlide, int ind
 
 | 參數 | 類型 | 說明 |
 | --- | --- | --- |
-| masterSlide | MasterSlide | 目前迭代的母版投影片 |
-| index | Int32 | 目前母版投影片的索引 |
+| masterSlide | MasterSlide | 目前迭代的母片投影片 |
+| index | Int32 | 目前母片投影片的索引 |
 
 ### 另請參閱
 

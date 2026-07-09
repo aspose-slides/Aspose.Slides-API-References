@@ -1,7 +1,7 @@
 ---
 title: INotesSlide
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक प्रस्तुति में नोट्स स्लाइड का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: प्रेजेंटेशन में एक नोट्स स्लाइड का प्रतिनिधित्व करता है।
 type: docs
 weight: 6500
 url: /hi/aspose.slides/inotesslide/
@@ -18,11 +18,11 @@ public interface INotesSlide : IBaseSlide, IOverrideThemeable
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | IBaseSlide बेस इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
-| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
-| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | नोट्स स्लाइड का HeaderFooter प्रबंधक लौटाता है। केवल-पढ़ने योग्य [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
-| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | यदि मौजूद हो तो नोट्स के पाठ के साथ TextFrame लौटाता है। केवल-पढ़ने योग्य [`ITextFrame`](../itextframe). |
-| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | ParentSlide लौटाता है। केवल-पढ़ने योग्य [`ISlide`](../islide). |
+| [AsIBaseSlide](../../aspose.slides/inotesslide/asibaseslide) { get; } | बेस IBaseSlide इंटरफ़ेस प्राप्त करने की अनुमति देता है. केवल पढ़ने योग्य [`IBaseSlide`](../ibaseslide). |
+| [AsIOverrideThemeable](../../aspose.slides/inotesslide/asioverridethemeable) { get; } | IOverrideThemeable इंटरफ़ेस लौटाता है. केवल पढ़ने योग्य [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
+| [HeaderFooterManager](../../aspose.slides/inotesslide/headerfootermanager) { get; } | नोट्स स्लाइड के HeaderFooter प्रबंधक को लौटाता है. केवल पढ़ने योग्य [`INotesSlideHeaderFooterManager`](../inotesslideheaderfootermanager). |
+| [NotesTextFrame](../../aspose.slides/inotesslide/notestextframe) { get; } | यदि उपलब्ध हो तो नोट्स के टेक्स्ट के साथ एक TextFrame लौटाता है. केवल पढ़ने योग्य [`ITextFrame`](../itextframe). |
+| [ParentSlide](../../aspose.slides/inotesslide/parentslide) { get; } | एक ParentSlide लौटाता है. केवल पढ़ने योग्य [`ISlide`](../islide). |
 
 ### देखें भी
 

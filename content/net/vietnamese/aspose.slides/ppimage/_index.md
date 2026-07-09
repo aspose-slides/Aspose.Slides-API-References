@@ -1,6 +1,6 @@
 ---
 title: PPImage
-second_title: Aspose.Sildes cho .NET - Tham khảo API
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Biểu diễn một hình ảnh trong bản trình chiếu.
 type: docs
 weight: 9250
@@ -16,25 +16,25 @@ public class PPImage : IDisposable, IPPImage
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Trả về bản sao dữ liệu của hình ảnh. Byte[] chỉ đọc. |
-| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Trả về kiểu MIME của hình ảnh, được mã hóa trong [`BinaryData`](./binarydata). String chỉ đọc. |
-| [Height](../../aspose.slides/ppimage/height) { get; } | Trả về chiều cao của hình ảnh. Int32 chỉ đọc. |
-| [Image](../../aspose.slides/ppimage/image) { get; } | Trả về bản sao của hình ảnh. [`IImage`](../iimage) chỉ đọc. |
+| [BinaryData](../../aspose.slides/ppimage/binarydata) { get; } | Trả về bản sao dữ liệu của hình ảnh. Chỉ đọc Byte[]. |
+| [ContentType](../../aspose.slides/ppimage/contenttype) { get; } | Trả về kiểu MIME của hình ảnh, được mã hoá trong [`BinaryData`](./binarydata). Chỉ đọc String. |
+| [Height](../../aspose.slides/ppimage/height) { get; } | Trả về chiều cao của hình ảnh. Chỉ đọc Int32. |
+| [Image](../../aspose.slides/ppimage/image) { get; } | Trả về bản sao của hình ảnh. Chỉ đọc [`IImage`](../iimage). |
 | [SvgImage](../../aspose.slides/ppimage/svgimage) { get; set; } | Trả về hoặc đặt đối tượng ISvgImage [`ISvgImage`](../isvgimage) |
-| [Width](../../aspose.slides/ppimage/width) { get; } | Trả về độ rộng của hình ảnh. Int32 chỉ đọc. |
-| [X](../../aspose.slides/ppimage/x) { get; } | Trả về độ dịch X của hình ảnh. Int32 chỉ đọc. |
-| [Y](../../aspose.slides/ppimage/y) { get; } | Trả về độ dịch Y của hình ảnh. Int32 chỉ đọc. |
+| [Width](../../aspose.slides/ppimage/width) { get; } | Trả về chiều rộng của hình ảnh. Chỉ đọc Int32. |
+| [X](../../aspose.slides/ppimage/x) { get; } | Trả về độ lệch X của hình ảnh. Chỉ đọc Int32. |
+| [Y](../../aspose.slides/ppimage/y) { get; } | Trả về độ lệch Y của hình ảnh. Chỉ đọc Int32. |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [Dispose](../../aspose.slides/ppimage/dispose)() | Giải phóng đối tượng. |
 | override [GetHashCode](../../aspose.slides/ppimage/gethashcode)() | Trả về mã băm của hình ảnh. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_2)(byte[]) | Thay thế dữ liệu hình ảnh. Dữ liệu của hình ảnh mới. Khi tham số newImageData là null. |
-| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Thay thế dữ liệu hình ảnh. Lưu ý: khi Image là metafile - nó sẽ được raster hoá. Sử dụng ReplaceImage(byte[]) thay thế. Hình ảnh mới. Khi tham số newImage là null. |
+| [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage)(IImage) | Thay thế dữ liệu hình ảnh. Lưu ý: khi Image là metafile - nó sẽ được raster hoá. Sử dụng ReplaceImage(byte[]) thay thế hình ảnh mới. Khi tham số newImage là null. |
 | [ReplaceImage](../../aspose.slides/ppimage/replaceimage#replaceimage_1)(IPPImage) | Thay thế dữ liệu hình ảnh. IPPImage mới. Khi tham số newImage là null. |
 
 ### Xem thêm

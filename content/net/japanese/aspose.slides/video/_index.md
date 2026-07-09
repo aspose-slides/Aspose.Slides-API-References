@@ -3,7 +3,7 @@ title: Video
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションに埋め込まれた画像を表します。
 type: docs
-weight: 11680
+weight: 11700
 url: /ja/aspose.slides/video/
 ---
 ## Video クラス
@@ -18,16 +18,16 @@ public class Video : IVideo
 
 | Name | Description |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | オーディオ データのコピーを返します。大量のデータの場合、[`GetStream`](./getstream) メソッドの使用を検討して、ビデオ データをメモリに不要にロードしたり、OutOfMemoryException が発生したりするのを防ぎます。読み取り専用 Byte[]。 |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | ビデオの MIME タイプを返します。[`BinaryData`](./binarydata) でエンコードされています。読み取り専用 String。 |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | オーディオ データのコピーを返します。データ量が多い場合は、[`GetStream`](./getstream) メソッドの使用を検討し、ビデオ データをメモリに不要にロードしたり、OutOfMemoryException が発生するのを防止してください。読み取り専用 Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | ビデオの MIME タイプを [`BinaryData`](./binarydata) でエンコードして返します。読み取り専用 String。 |
 
 ## メソッド
 
 | Name | Description |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | 読み取り用の Stream ストリームを返します。'using' を使用するか、使用後にストリームを閉じてください。 |
+| [GetStream](../../aspose.slides/video/getstream)() | 読み取り用の Stream を返します。'using' を使用するか、使用後にストリームを閉じてください。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IVideo](../ivideo)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

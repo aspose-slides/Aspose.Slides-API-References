@@ -1,32 +1,32 @@
 ---
 title: PortionFactory
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: परीक्षण भाग बनाने की अनुमति देता है
+description: टेस्ट भाग बनाने की अनुमति देता है
 type: docs
 weight: 9480
 url: /hi/aspose.slides/portionfactory/
 ---
 ## PortionFactory क्लास
 
-परीक्षण भाग बनाने की अनुमति देता है
+टेस्ट भाग बनाने की अनुमति देता है
 
 ```csharp
 public class PortionFactory : IPortionFactory
 ```
 
-## निर्माता
+## निर्माताओं
 
 | नाम | विवरण |
 | --- | --- |
 | [PortionFactory](portionfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | एक खाली पाठ भाग बनाता है। |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion)() | एक खाली टेक्स्ट भाग बनाता है। |
 | [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_1)(IPortion) | निर्दिष्ट भाग डेटा का उपयोग करके एक भाग बनाता है। |
-| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | निर्दिष्ट स्ट्रिंग से एक पाठ भाग बनाता है। |
+| [CreatePortion](../../aspose.slides/portionfactory/createportion#createportion_2)(string) | निर्दिष्ट स्ट्रिंग से एक टेक्स्ट भाग बनाता है। |
 
 ### टिप्पणियाँ
 

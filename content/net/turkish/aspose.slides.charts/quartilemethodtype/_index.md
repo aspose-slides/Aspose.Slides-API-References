@@ -1,14 +1,14 @@
 ---
 title: QuartileMethodType
 second_title: Aspose.Sildes for .NET API Referansı
-description: Dörtlük yönteminin tipini döndürür
+description: Çeyrek yöntemi tipini döndürür
 type: docs
-weight: 2370
+weight: 2390
 url: /tr/aspose.slides.charts/quartilemethodtype/
 ---
 ## QuartileMethodType enum
 
-Dörtlük yönteminin tipini döndürür
+Çeyrek yönteminin tipini döndürür
 
 ```csharp
 public enum QuartileMethodType
@@ -16,12 +16,12 @@ public enum QuartileMethodType
 
 ### Değerler
 
-| Ad | Değer | Açıklama |
+| İsim | Değer | Açıklama |
 | --- | --- | --- |
-| Exclusive | `0` | Exclusive dörtlük yöntemini temsil eder. |
-| Inclusive | `1` | Inclusive dörtlük yöntemini temsil eder. |
+| Exclusive | `0` | Özel çeyrek yöntemini temsil eder. |
+| Inclusive | `1` | Kapsamlı çeyrek yöntemini temsil eder. |
 
-### Ayrıca Bakınız
+### Ayrıca bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

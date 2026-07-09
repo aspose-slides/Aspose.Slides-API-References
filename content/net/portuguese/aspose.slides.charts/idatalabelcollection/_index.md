@@ -1,9 +1,9 @@
 ---
 title: IDataLabelCollection
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa os rótulos de uma série.
 type: docs
-weight: 2010
+weight: 2030
 url: /pt/aspose.slides.charts/idatalabelcollection/
 ---
 ## IDataLabelCollection interface
@@ -23,19 +23,19 @@ public interface IDataLabelCollection : IChartComponent, IEnumerable<IDataLabel>
 | [Count](../../aspose.slides.charts/idatalabelcollection/count) { get; } | Obtém o número de todos os rótulos de dados na coleção. Somente leitura Int32. |
 | [CountOfVisibleDataLabels](../../aspose.slides.charts/idatalabelcollection/countofvisibledatalabels) { get; } | Obtém o número de rótulos de dados visíveis na coleção. Somente leitura Int32. |
 | [DefaultDataLabelFormat](../../aspose.slides.charts/idatalabelcollection/defaultdatalabelformat) { get; } | Retorna o formato padrão de todos os rótulos de dados na coleção. Somente leitura [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | Falso indica que o rótulo de dados não está visível por padrão (e, portanto, todas as sinalizações Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat são falsas). Somente leitura Boolean. |
+| [IsVisible](../../aspose.slides.charts/idatalabelcollection/isvisible) { get; } | False significa que o rótulo de dados não está visível por padrão (e, portanto, todas as bandeiras Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat são falsas). Somente leitura Boolean. |
 | [Item](../../aspose.slides.charts/idatalabelcollection/item) { get; } | Obtém o rótulo de dados para o ponto de dados com o índice especificado. |
-| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Representa o formato das linhas de ligação dos rótulos de dados. Somente leitura [`IChartLinesFormat`](../ichartlinesformat). |
+| [LeaderLinesFormat](../../aspose.slides.charts/idatalabelcollection/leaderlinesformat) { get; } | Representa o formato das linhas guia dos rótulos de dados. Somente leitura [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/idatalabelcollection/parentseries) { get; } | Retorna a série de gráfico pai. Somente leitura [`IChartSeries`](../ichartseries). |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Oculta o rótulo de dados por padrão, configurando todas as sinalizações Show* (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado falso. IsVisible será falso após isso. |
+| [Hide](../../aspose.slides.charts/idatalabelcollection/hide)() | Torna o rótulo de dados oculto por padrão, definindo todas as bandeiras Show*-flags (ShowValue, ...) da propriedade DefaultDataLabelFormat para o estado falso. IsVisible será false após isso. |
 | [IndexOf](../../aspose.slides.charts/idatalabelcollection/indexof)(IDataLabel) | Retorna um índice do DataLabel especificado na coleção. |
 
-### Ver também
+### Veja Também
 
 * interface [IChartComponent](../ichartcomponent)
 * interface [IDataLabel](../idatalabel)

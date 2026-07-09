@@ -1,9 +1,9 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: Az effektus viselkedésének időzítési tulajdonságait képviseli.
 type: docs
-weight: 180
+weight: 200
 url: /hu/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection osztály
@@ -19,20 +19,20 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 | Név | Leírás |
 | --- | --- |
 | [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Visszaadja a gyűjteményben tárolt tulajdonságok számát. Csak olvasható Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Megkap egy értéket, amely jelzi, hogy a ICollection csak olvasható-e. Csak olvasható Boolean. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Visszaad egy értéket, amely jelzi, hogy a ICollection csak olvasható-e. Csak olvasható Boolean. |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Visszaad egy tulajdonságot a megadott indexen. |
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Új tulajdonságot ad a gyűjteményhez. |
 | [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Új tulajdonságot ad a gyűjteményhez. |
 | [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Eltávolítja az összes tulajdonságot a gyűjteményből. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Megállapítja, hogy a ICollection tartalmaz-e egy meghatározott értéket. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Megállapítja, hogy a ICollection tartalmaz-e egy meghatározott értéket. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Átmásolja az ICollection elemeit egy Array-be, egy adott Array-indexnél kezdve. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Megállapítja, hogy a ICollection tartalmaz-e egy adott értéket. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Megállapítja, hogy a ICollection tartalmaz-e egy adott értéket. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Átmásolja az ICollection elemeit egy tömbbe, egy adott tömbindexnél kezdve. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterálja a gyűjteményt. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Megállapítja egy adott elem indexét az IList-ben. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Megállapítja egy adott elem indexét a tulajdonságérték alapján az IList-ben. |
 | [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Új tulajdonságot szúr be a gyűjteménybe a megadott indexnél. |

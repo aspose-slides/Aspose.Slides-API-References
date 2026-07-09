@@ -1,14 +1,14 @@
 ---
 title: IGradientFormat
 second_title: Aspose.Sildes .NET API-referencia
-description: Gradient formátumot reprezentál.
+description: Egy gradient formátumot reprezentál.
 type: docs
-weight: 5980
+weight: 6000
 url: /hu/aspose.slides/igradientformat/
 ---
 ## IGradientFormat interfész
 
-Represent a gradient format.
+A gradient formátumot reprezentálja.
 
 ```csharp
 public interface IGradientFormat : IFillParamSource
@@ -18,13 +18,13 @@ public interface IGradientFormat : IFillParamSource
 
 | Név | Leírás |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Lehetővé teszi a base IFillParamSource interfész lekérését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
+| [AsIFillParamSource](../../aspose.slides/igradientformat/asifillparamsource) { get; } | Lehetővé teszi a bázis IFillParamSource interfész lekérését. Csak olvasható [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformat/gradientdirection) { get; set; } | Visszaadja vagy beállítja a gradient stílusát. Olvasás/írás [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformat/gradientshape) { get; set; } | Visszaadja vagy beállítja a gradient alakját. Olvasás/írás [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Visszaadja a gradient stopok gyűjteményét. Csak olvasható [`IGradientStopCollection`](../igradientstopcollection). |
+| [GradientStops](../../aspose.slides/igradientformat/gradientstops) { get; } | Visszaadja a gradient állomások gyűjteményét. Csak olvasható [`IGradientStopCollection`](../igradientstopcollection). |
 | [LinearGradientAngle](../../aspose.slides/igradientformat/lineargradientangle) { get; set; } | Visszaadja vagy beállítja a gradient szögét. Olvasás/írás Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Megállapítja, hogy a gradient méretezett-e. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Visszaadja vagy beállítja a gradient forgatási módját. Olvasás/írás [`TileFlip`](../tileflip). |
+| [LinearGradientScaled](../../aspose.slides/igradientformat/lineargradientscaled) { get; set; } | Meghatározza, hogy a gradient skálázott-e. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [TileFlip](../../aspose.slides/igradientformat/tileflip) { get; set; } | Visszaadja vagy beállítja a gradient tükrözési módját. Olvasás/írás [`TileFlip`](../tileflip). |
 
 ### Lásd még
 

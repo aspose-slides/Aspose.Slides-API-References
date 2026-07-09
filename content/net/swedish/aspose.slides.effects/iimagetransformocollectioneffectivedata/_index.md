@@ -3,7 +3,7 @@ title: IImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes för .NET API-referens
 description: Oföränderligt objekt som representerar en skrivskyddad samling av effektiva bildtransformeringseffekter.
 type: docs
-weight: 3360
+weight: 3380
 url: /sv/aspose.slides.effects/iimagetransformocollectioneffectivedata/
 ---
 ## IImageTransformOCollectionEffectiveData gränssnitt
@@ -18,13 +18,13 @@ public interface IImageTransformOCollectionEffectiveData : IGenericCollection<IE
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Returnerar element efter index. |
+| [Item](../../aspose.slides.effects/iimagetransformocollectioneffectivedata/item) { get; } | Returnerar elementet vid index. |
 
 ### Anmärkningar
 
-Namnet IImageTransformOperationCollectionEffectiveData trunkerades till IImageTransformOCollectionEffectiveData på grund av att COM-namnlängd inte får vara längre än 39.
+Namnet IImageTransformOperationCollectionEffectiveData trunkeras till IImageTransformOCollectionEffectiveData på grund av att COM-namn inte får vara längre än 39 tecken.
 
-### Se även
+### Se också
 
 * gränssnitt [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * gränssnitt [IEffectEffectiveData](../ieffecteffectivedata)

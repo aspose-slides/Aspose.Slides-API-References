@@ -3,62 +3,62 @@ title: IDocumentProperties
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili properti presentasi.
 type: docs
-weight: 5690
+weight: 5710
 url: /id/aspose.slides/idocumentproperties/
 ---
-## IDocumentProperties interface
+## antarmuka IDocumentProperties
 
-Mewakili properti dari sebuah presentasi.
+Mewakili properti presentasi.
 
 ```csharp
 public interface IDocumentProperties
 ```
 
-## Properties
+## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [ApplicationTemplate](../../aspose.slides/idocumentproperties/applicationtemplate) { get; set; } | Mengembalikan atau mengatur templat aplikasi. Baca/tulis String. |
-| [AppVersion](../../aspose.slides/idocumentproperties/appversion) { get; } | Mengembalikan versi aplikasi. Baca-saja String. |
+| [AppVersion](../../aspose.slides/idocumentproperties/appversion) { get; } | Mengembalikan versi aplikasi. Hanya-baca String. |
 | [Author](../../aspose.slides/idocumentproperties/author) { get; set; } | Mengembalikan atau mengatur penulis presentasi. Baca/tulis String. |
 | [Category](../../aspose.slides/idocumentproperties/category) { get; set; } | Mengembalikan atau mengatur kategori presentasi. Baca/tulis String. |
 | [Comments](../../aspose.slides/idocumentproperties/comments) { get; set; } | Mengembalikan atau mengatur komentar presentasi. Baca/tulis String. |
 | [Company](../../aspose.slides/idocumentproperties/company) { get; set; } | Mengembalikan atau mengatur properti perusahaan. Baca/tulis String. |
 | [ContentStatus](../../aspose.slides/idocumentproperties/contentstatus) { get; set; } | Mengembalikan atau mengatur status konten presentasi. Baca/tulis String. |
 | [ContentType](../../aspose.slides/idocumentproperties/contenttype) { get; set; } | Mengembalikan atau mengatur tipe konten presentasi. Baca/tulis String. |
-| [CountOfCustomProperties](../../aspose.slides/idocumentproperties/countofcustomproperties) { get; } | Mengembalikan jumlah properti khusus yang sebenarnya ada dalam koleksi. Baca-saja Int32. |
-| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Mengembalikan tanggal pembuatan presentasi. Nilai dalam UTC. Baca/tulis DateTime. |
-| [HeadingPairs](../../aspose.slides/idocumentproperties/headingpairs) { get; } | Menunjukkan pengelompokan bagian dokumen dan jumlah bagian dalam setiap grup. Baca-saja IHeadingPair[]. |
-| [HiddenSlides](../../aspose.slides/idocumentproperties/hiddenslides) { get; } | Menentukan jumlah slide tersembunyi dalam dokumen presentasi. Baca-saja Int32. |
+| [CountOfCustomProperties](../../aspose.slides/idocumentproperties/countofcustomproperties) { get; } | Mengembalikan jumlah properti khusus yang sebenarnya terdapat dalam koleksi. Hanya-baca Int32. |
+| [CreatedTime](../../aspose.slides/idocumentproperties/createdtime) { get; set; } | Mengembalikan tanggal pembuatan presentasi. Nilainya dalam UTC. Baca/tulis DateTime. |
+| [HeadingPairs](../../aspose.slides/idocumentproperties/headingpairs) { get; } | Menunjukkan pengelompokan bagian dokumen dan jumlah bagian dalam setiap grup. Hanya-baca IHeadingPair[]. |
+| [HiddenSlides](../../aspose.slides/idocumentproperties/hiddenslides) { get; } | Menentukan jumlah slide tersembunyi dalam dokumen presentasi. Hanya-baca Int32. |
 | [HyperlinkBase](../../aspose.slides/idocumentproperties/hyperlinkbase) { get; set; } | Mengembalikan atau mengatur properti dokumen HyperlinkBase. Baca/tulis String. |
-| [HyperlinksChanged](../../aspose.slides/idocumentproperties/hyperlinkschanged) { get; set; } | Menentukan bahwa satu atau lebih hyperlink dalam bagian ini hanya diperbarui dalam bagian ini oleh produsen. Produsen berikutnya yang membuka dokumen ini harus memperbarui hubungan hyperlink dengan hyperlink baru yang ditentukan dalam bagian ini. Baca/tulis Boolean. |
+| [HyperlinksChanged](../../aspose.slides/idocumentproperties/hyperlinkschanged) { get; set; } | Menentukan bahwa satu atau lebih tautan hyperlink di bagian ini diperbarui secara eksklusif di bagian ini oleh produsen. Produsen berikutnya yang membuka dokumen ini harus memperbarui hubungan hyperlink dengan tautan baru yang ditentukan di bagian ini. Baca/tulis Boolean. |
 | [Item](../../aspose.slides/idocumentproperties/item) { get; set; } | Mengembalikan atau mengatur properti khusus yang terkait dengan nama tertentu. Baca/tulis Object. |
 | [Keywords](../../aspose.slides/idocumentproperties/keywords) { get; set; } | Mengembalikan atau mengatur kata kunci presentasi. Baca/tulis String. |
-| [LastPrinted](../../aspose.slides/idocumentproperties/lastprinted) { get; set; } | Mengembalikan tanggal saat presentasi terakhir dicetak. Baca/tulis DateTime. |
-| [LastSavedBy](../../aspose.slides/idocumentproperties/lastsavedby) { get; set; } | Mengembalikan atau mengatur nama orang terakhir yang memodifikasi presentasi. Baca/tulis String. |
-| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Mengembalikan tanggal terakhir presentasi dimodifikasi. Nilai dalam UTC.P Baca-saja pada kasus Presentation.DocumentProperties (karena akan diperbarui secara internal saat proses penyimpanan objek IPresentation). Dapat diubah melalui instance DocumentProperties yang dikembalikan oleh metode [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Lihat contoh dalam ringkasan metode [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
-| [LinksUpToDate](../../aspose.slides/idocumentproperties/linksuptodate) { get; set; } | Menunjukkan apakah hyperlink dalam dokumen sudah up-to-date. Atur elemen ini ke **true** untuk menunjukkan bahwa hyperlink diperbarui. Atur elemen ini ke **false** untuk menunjukkan bahwa hyperlink sudah usang. Baca/tulis Boolean. |
+| [LastPrinted](../../aspose.slides/idocumentproperties/lastprinted) { get; set; } | Mengembalikan tanggal ketika presentasi terakhir dicetak. Baca/tulis DateTime. |
+| [LastSavedBy](../../aspose.slides/idocumentproperties/lastsavedby) { get; set; } | Mengembalikan atau mengatur nama orang terakhir yang mengubah presentasi. Baca/tulis String. |
+| [LastSavedTime](../../aspose.slides/idocumentproperties/lastsavedtime) { get; set; } | Mengembalikan tanggal terakhir presentasi diubah. Nilainya dalam UTC. Hanya-baca bila menggunakan Presentation.DocumentProperties (karena akan diperbarui secara internal selama proses penyimpanan objek IPresentation). Dapat diubah melalui instance DocumentProperties yang dikembalikan oleh metode [`ReadDocumentProperties`](../ipresentationinfo/readdocumentproperties). Silakan lihat contoh dalam ringkasan metode [`UpdateDocumentProperties`](../ipresentationinfo/updatedocumentproperties). |
+| [LinksUpToDate](../../aspose.slides/idocumentproperties/linksuptodate) { get; set; } | Menunjukkan apakah hyperlink dalam dokumen sudah terbaru. Atur elemen ini ke **true** untuk menandakan bahwa hyperlink telah diperbarui. Atur elemen ini ke **false** untuk menandakan bahwa hyperlink sudah usang. Baca/tulis Boolean. |
 | [Manager](../../aspose.slides/idocumentproperties/manager) { get; set; } | Mengembalikan atau mengatur properti manajer. Baca/tulis String. |
-| [MultimediaClips](../../aspose.slides/idocumentproperties/multimediaclips) { get; } | Menentukan total jumlah klip suara atau video yang ada dalam dokumen. Baca-saja Int32. |
+| [MultimediaClips](../../aspose.slides/idocumentproperties/multimediaclips) { get; } | Menentukan total jumlah klip suara atau video yang ada dalam dokumen. Hanya-baca Int32. |
 | [NameOfApplication](../../aspose.slides/idocumentproperties/nameofapplication) { get; set; } | Mengembalikan atau mengatur nama aplikasi. Baca/tulis String. |
-| [Notes](../../aspose.slides/idocumentproperties/notes) { get; } | Menentukan jumlah slide dalam presentasi yang berisi catatan. Baca-saja Int32. |
-| [Paragraphs](../../aspose.slides/idocumentproperties/paragraphs) { get; } | Menentukan total jumlah paragraf yang ditemukan dalam dokumen bila berlaku. Baca-saja Int32. |
+| [Notes](../../aspose.slides/idocumentproperties/notes) { get; } | Menentukan jumlah slide dalam presentasi yang berisi catatan. Hanya-baca Int32. |
+| [Paragraphs](../../aspose.slides/idocumentproperties/paragraphs) { get; } | Menentukan total jumlah paragraf yang ditemukan dalam dokumen bila berlaku. Hanya-baca Int32. |
 | [PresentationFormat](../../aspose.slides/idocumentproperties/presentationformat) { get; set; } | Mengembalikan atau mengatur format yang dimaksudkan untuk presentasi. Baca/tulis String. |
 | [RevisionNumber](../../aspose.slides/idocumentproperties/revisionnumber) { get; set; } | Mengembalikan atau mengatur nomor revisi presentasi. Baca/tulis Int32. |
-| [ScaleCrop](../../aspose.slides/idocumentproperties/scalecrop) { get; set; } | Menunjukkan mode tampilan thumbnail dokumen. Atur elemen ini ke **true** untuk mengaktifkan penskalaan thumbnail dokumen ke tampilan. Atur ke **false** untuk mengaktifkan pemotongan thumbnail dokumen agar hanya menampilkan bagian yang cocok dengan tampilan. Baca/tulis Boolean. |
-| [SharedDoc](../../aspose.slides/idocumentproperties/shareddoc) { get; set; } | Menentukan apakah presentasi dibagikan di antara banyak orang. Baca/tulis Boolean. |
-| [Slides](../../aspose.slides/idocumentproperties/slides) { get; } | Menentukan total jumlah slide dalam dokumen presentasi. Baca-saja Int32. |
+| [ScaleCrop](../../aspose.slides/idocumentproperties/scalecrop) { get; set; } | Menunjukkan mode tampilan thumbnail dokumen. Atur elemen ini ke **true** untuk mengaktifkan skala thumbnail dokumen ke tampilan. Atur elemen ini ke **false** untuk mengaktifkan pemotongan thumbnail dokumen sehingga hanya menampilkan bagian yang sesuai dengan tampilan. Baca/tulis Boolean. |
+| [SharedDoc](../../aspose.slides/idocumentproperties/shareddoc) { get; set; } | Menentukan apakah presentasi dibagikan di antara beberapa orang. Baca/tulis Boolean. |
+| [Slides](../../aspose.slides/idocumentproperties/slides) { get; } | Menentukan total jumlah slide dalam dokumen presentasi. Hanya-baca Int32. |
 | [Subject](../../aspose.slides/idocumentproperties/subject) { get; set; } | Mengembalikan atau mengatur subjek presentasi. Baca/tulis String. |
 | [Title](../../aspose.slides/idocumentproperties/title) { get; set; } | Mengembalikan atau mengatur judul presentasi. Baca/tulis String. |
-| [TitlesOfParts](../../aspose.slides/idocumentproperties/titlesofparts) { get; } | Menentukan judul setiap bagian dokumen. Bagian ini bukan bagian dokumen melainkan representasi konseptual dari seksi dokumen. Baca-saja string[]. |
+| [TitlesOfParts](../../aspose.slides/idocumentproperties/titlesofparts) { get; } | Menentukan judul setiap bagian dokumen. Bagian-bagian ini bukan bagian dokumen melainkan representasi konseptual dari bagian dokumen. Hanya-baca string[]. |
 | [TotalEditingTime](../../aspose.slides/idocumentproperties/totaleditingtime) { get; set; } | Total waktu penyuntingan presentasi. Baca/tulis TimeSpan. |
-| [Words](../../aspose.slides/idocumentproperties/words) { get; } | Menentukan total jumlah kata yang terdapat dalam dokumen. Baca-saja Int32. |
+| [Words](../../aspose.slides/idocumentproperties/words) { get; } | Menentukan total jumlah kata yang terdapat dalam dokumen. Hanya-baca Int32. |
 
-## Methods
+## Metode
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
-| [ClearBuiltInProperties](../../aspose.slides/idocumentproperties/clearbuiltinproperties)() | Menghapus dan mengatur nilai default untuk semua properti builtIn. |
+| [ClearBuiltInProperties](../../aspose.slides/idocumentproperties/clearbuiltinproperties)() | Membersihkan dan mengatur nilai default untuk semua properti bawaan. |
 | [ClearCustomProperties](../../aspose.slides/idocumentproperties/clearcustomproperties)() | Menghapus semua properti khusus. |
 | [ContainsCustomProperty](../../aspose.slides/idocumentproperties/containscustomproperty)(string) | Memeriksa keberadaan properti khusus dengan nama tertentu. |
 | [GetCustomPropertyName](../../aspose.slides/idocumentproperties/getcustompropertyname)(int) | Mengembalikan nama properti khusus pada indeks yang ditentukan. |
@@ -68,18 +68,18 @@ public interface IDocumentProperties
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_3)(string, out float) | Mendapatkan nilai float bernama dari properti khusus. |
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_2)(string, out int) | Mendapatkan nilai integer bernama dari properti khusus. |
 | [GetCustomPropertyValue](../../aspose.slides/idocumentproperties/getcustompropertyvalue#getcustompropertyvalue_5)(string, out string) | Mendapatkan nilai string bernama dari properti khusus. |
-| [GetSensitivityLabels](../../aspose.slides/idocumentproperties/getsensitivitylabels)() | Mendapatkan array label sensitivitas dari properti dokumen khusus (Microsoft Information Protection SDK Metadata). |
+| [GetSensitivityLabels](../../aspose.slides/idocumentproperties/getsensitivitylabels)() | Mendapatkan array label sensitivitas dari properti dokumen khusus (Metadata Microsoft Information Protection SDK). |
 | [RemoveCustomProperty](../../aspose.slides/idocumentproperties/removecustomproperty)(string) | Menghapus properti khusus yang terkait dengan nama tertentu. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Menetapkan properti khusus boolean bernama. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Menetapkan properti khusus DateTime bernama. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Menetapkan properti khusus double bernama. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Menetapkan properti khusus float bernama. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Menetapkan properti khusus integer bernama. |
-| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Menetapkan properti khusus string bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue)(string, bool) | Mengatur properti khusus boolean bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_4)(string, DateTime) | Mengatur properti khusus DateTime bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_1)(string, double) | Mengatur properti khusus double bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_3)(string, float) | Mengatur properti khusus float bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_2)(string, int) | Mengatur properti khusus integer bernama. |
+| [SetCustomPropertyValue](../../aspose.slides/idocumentproperties/setcustompropertyvalue#setcustompropertyvalue_5)(string, string) | Mengatur properti khusus string bernama. |
 
-### See Also
+### Lihat Juga
 
-* namespace [Aspose.Slides](../../aspose.slides)
+* ruang nama [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

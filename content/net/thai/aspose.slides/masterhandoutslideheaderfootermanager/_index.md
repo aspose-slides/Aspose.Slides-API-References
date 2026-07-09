@@ -1,40 +1,41 @@
 ---
 title: MasterHandoutSlideHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงตัวจัดการที่ควบคุมพฤติกรรมของตัวแทนที่สไลด์มาสเตอร์แฮนด์เอาต์รวมถึงตัวแทนที่ส่วนหัว
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงผู้จัดการที่เก็บพฤติกรรมของตัวเว้นสไลด์มาสเตอร์ฮันดเอาต์รวมถึงตัวเว้นส่วนหัว
 type: docs
 weight: 7990
 url: /th/aspose.slides/masterhandoutslideheaderfootermanager/
 ---
 ## MasterHandoutSlideHeaderFooterManager คลาส
 
-แสดงถึงตัวจัดการที่ควบคุมพฤติกรรมของตัวแทนที่สไลด์มาสเตอร์แฮนด์เอาต์ รวมถึงตัวแทนที่ส่วนหัว
+เป็นตัวจัดการที่ควบคุมพฤติกรรมของตัวเว้นที่วางสไลด์มาสเตอร์ฮันดเอาต์ รวมถึงตัวเว้นส่วนหัว
 
 ```csharp
 public class MasterHandoutSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
     IMasterHandoutSlideHeaderFooterManager
 ```
 
+
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | รับค่าซึ่งบ่งชี้ว่ามีตัวแทนที่วันที่และเวลาอยู่. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | รับค่าซึ่งบ่งชี้ว่ามีตัวแทนที่ส่วนท้ายอยู่. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | รับค่าซึ่งบ่งชี้ว่ามีตัวแทนที่ส่วนหัวอยู่. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | รับค่าซึ่งบ่งชี้ว่ามีตัวแทนที่หมายเลขหน้าอยู่. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | ดึงค่าที่ระบุว่ามีตัวเว้นวัน-เวลาอยู่. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | ดึงค่าที่ระบุว่ามีตัวเว้นส่วนท้ายอยู่. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | ดึงค่าที่ระบุว่ามีตัวเว้นส่วนหัวอยู่. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ดึงค่าที่ระบุว่ามีตัวเว้นเลขหน้ามีอยู่. ReadBoolean. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งข้อความให้กับตัวแทนที่วันที่และเวลาในสไลด์. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการแสดงผลของตัวแทนที่วันที่และเวลาในสไลด์. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งข้อความให้กับตัวแทนที่ส่วนท้ายในสไลด์. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการแสดงผลของตัวแทนที่ส่วนท้ายในสไลด์. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | ตั้งข้อความให้กับตัวแทนที่ส่วนหัวในสไลด์. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | เปลี่ยนการแสดงผลของตัวแทนที่ส่วนหัวในสไลด์. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการแสดงผลของตัวแทนที่หมายเลขหน้าสไลด์. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | ตั้งข้อความให้กับตัวเว้นวัน-เวลาในสไลด์. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | เปลี่ยนการมองเห็นของตัวเว้นวัน-เวลาในสไลด์. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | ตั้งข้อความให้กับตัวเว้นส่วนท้ายในสไลด์. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | เปลี่ยนการมองเห็นของตัวเว้นส่วนท้ายในสไลด์. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | ตั้งข้อความให้กับตัวเว้นส่วนหัวในสไลด์. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | เปลี่ยนการมองเห็นของตัวเว้นส่วนหัวในสไลด์. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | เปลี่ยนการมองเห็นของตัวเว้นเลขหน้าในสไลด์. |
 
 ### ดูเพิ่มเติม
 

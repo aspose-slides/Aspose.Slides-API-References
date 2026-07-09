@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megváltoztathatatlan objektum, amely a Tint hatást képviseli. Az effektus színértékeit a megadott mennyiségben a színtónus felé vagy attól elmozdítja.
+second_title: Aspose.Sildes a .NET API hivatkozáshoz
+description: Változtathatatlan objektum, amely egy Tint hatást képvisel. A hatás színértékeit a megadott mennyiségben a színárnyaló felé vagy attól távolítja.
 type: docs
-weight: 3530
+weight: 3550
 url: /hu/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely a Tint hatást képviseli. Az effektus színértékeit a megadott mennyiségben a színtónus felé vagy attól elmozdítja.
+A változtathatatlan objektum, amely egy Tint hatást képvisel. A hatás színértékeit a megadott mennyiségben a színárnyaló felé vagy attól távolítja.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -19,8 +19,8 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | Név | Leírás |
 | --- | --- |
 | [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Visszaadja a hatás mennyiségét. Csak olvasható Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Visszaadja az árnyalatot. Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi az alap IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Visszaadja a színárnyalatot. Csak olvasható Single. |
 
 ### Lásd még
 

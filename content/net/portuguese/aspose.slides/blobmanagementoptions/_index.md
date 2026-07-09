@@ -1,9 +1,9 @@
 ---
 title: BlobManagementOptions
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa opções que podem ser usadas para gerenciar regras de manipulação de BLOB e outras configurações de BLOB.
 type: docs
-weight: 1010
+weight: 1030
 url: /pt/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions classe
@@ -18,16 +18,16 @@ public class BlobManagementOptions : IBlobManagementOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [BlobManagementOptions](blobmanagementoptions)() | Cria novas opções padrão de gerenciamento de Blob. |
+| [BlobManagementOptions](blobmanagementoptions)() | Cria novas opções padrão de gerenciamento de blobs. |
 
 ## Propriedades
 
 | Nome | Descrição |
 | --- | --- |
-| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propriedade define se arquivos temporários podem ser criados ao trabalhar com BLOBs, o que diminui drasticamente o consumo de memória, mas requer permissões para criar arquivos. Todos os arquivos serão excluídos após a conclusão do trabalho com a apresentação. |
-| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define o tamanho total máximo (em bytes) que todos os BLOBs podem ocupar na memória. Por padrão, todos os BLOBs são carregados na memória; somente quando esse limite é atingido são empregados mecanismos alternativos (como arquivos temporários). Manter os BLOBs na memória maximiza o desempenho, mas pode gerar alto uso de memória. Use esta propriedade para adaptar o comportamento ao seu ambiente ou requisitos. |
-| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propriedade define se uma instância da classe Presentation pode ser proprietária da fonte – arquivo ou fluxo – durante a vida útil da instância. Se a instância for proprietária, ela bloqueia a fonte. Isso ajuda a melhorar o consumo de memória e o desempenho ao trabalhar com BLOBs, mas a fonte (fluxo ou arquivo) não pode ser alterada durante a vida útil da instância da Presentation. |
-| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | O caminho raiz onde os arquivos temporários serão criados. O diretório temporário do sistema será usado por padrão. O processo de hospedagem deve ter permissões para criar arquivos e pastas lá. |
+| [IsTemporaryFilesAllowed](../../aspose.slides/blobmanagementoptions/istemporaryfilesallowed) { get; set; } | Esta propriedade define se arquivos temporários podem ser criados ao trabalhar com BLOBs, o que diminui muito o consumo de memória, mas requer permissões para criar arquivos. Todos os arquivos serão excluídos após a conclusão do trabalho com a apresentação. |
+| [MaxBlobsBytesInMemory](../../aspose.slides/blobmanagementoptions/maxblobsbytesinmemory) { get; set; } | Define o tamanho total máximo (em bytes) que todos os BLOBs podem ocupar na memória. Por padrão, todos os BLOBs são carregados na memória; somente quando esse limite é atingido são empregados mecanismos alternativos (como arquivos temporários). Manter os BLOBs na memória maximiza o desempenho, mas pode levar a alto uso de memória. Use esta propriedade para ajustar o comportamento ao seu ambiente ou requisitos. |
+| [PresentationLockingBehavior](../../aspose.slides/blobmanagementoptions/presentationlockingbehavior) { get; set; } | Esta propriedade define se uma instância da classe Presentation pode ser proprietária da origem – arquivo ou fluxo – durante a vida útil da instância. Se a instância for proprietária, ela bloqueia a origem. Isso ajuda a melhorar o consumo de memória e o desempenho ao trabalhar com BLOBs, mas a origem (fluxo ou arquivo) não pode ser alterada durante a vida útil da instância da Presentation classe. |
+| [TempFilesRootPath](../../aspose.slides/blobmanagementoptions/tempfilesrootpath) { get; set; } | O caminho raiz onde arquivos temporários serão criados. O diretório temporário do System será usado por padrão. O processo de hospedagem deve ter permissões para criar arquivos e pastas lá. |
 
 ### Veja Também
 

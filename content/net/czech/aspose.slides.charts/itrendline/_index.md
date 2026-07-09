@@ -1,14 +1,14 @@
 ---
 title: ITrendline
 second_title: Aspose.Sildes pro .NET API Reference
-description: Třída představuje trendovou čáru řady grafu
+description: Třída představuje čáru trendu řady grafu
 type: docs
-weight: 2220
+weight: 2240
 url: /cs/aspose.slides.charts/itrendline/
 ---
 ## ITrendline rozhraní
 
-Třída představuje trendovou čáru řady grafu
+Třída představuje čáru trendu řady grafu
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -18,18 +18,18 @@ public interface ITrendline : IOverridableText
 
 | Název | Popis |
 | --- | --- |
-| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Vrací rozhraní IOverridableText. Pouze pro čtení [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Určuje počet kategorií (nebo jednotek v bodovém grafu), po které trendová čára pokračuje před daty řady, která je trendována. V bodových i nebodových grafech může být hodnota libovolná nezáporná. Čtení/zápis Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Určuje, že rovnice trendové čáry je zobrazena v grafu (ve stejném popisku jako hodnota R²). Čtení/zápis Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Určuje, že hodnota R-squared trendové čáry je zobrazena v grafu (ve stejném popisku jako rovnice). Čtení/zápis Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Reprezentuje formát trendové čáry. Čtení/zápis [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Určuje počet kategorií (nebo jednotek v bodovém grafu), po které trendová čára pokračuje za daty řady, která je trendována. V bodových i nebodových grafech může být hodnota libovolná nezáporná. Čtení/zápis Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Určuje hodnotu, kde trendová čára protne osu y. Toto vlastnost je podporována jen když je typ trendové čáry exp, linear nebo poly. Čtení/zápis Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Určuje řád polynomialní trendové čáry. Pro jiné typy trendových čar je ignorováno. Hodnota musí být mezi 2 a 6. Čtení/zápis Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Určuje periodu trendové čáry pro klouzavý průměr. Pro jiné varianty trendových čar je ignorováno. Hodnota musí být mezi 2 a 255. Čtení/zápis Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Reprezentuje položku legendy související s touto trendovou čarou. Pouze pro čtení [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Vrací nebo nastavuje název trendové čáry. Čtení/zápis String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Vrací nebo nastavuje typ trendové čáry. Čtení/zápis [`TrendlineType`](./trendlinetype). |
+| [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Vrací IOverridableText rozhraní. Pouze ke čtení [`IOverridableText`](../ioverridabletext). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Určuje počet kategorií (nebo jednotek v rozptylovém grafu), které čára trendu prodlužuje před údaji řady, která je trendována. V rozptylových a nerozptylových grafech může být hodnota libovolná nezáporná hodnota. Čtení/zápis Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Určuje, že rovnice pro čáru trendu je zobrazena v grafu (ve stejném popisku jako Rsquaredvalue). Čtení/zápis Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Určuje, že hodnota R-kvadrátu čáry trendu je zobrazena v grafu (ve stejném popisku jako rovnice). Čtení/zápis Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Představuje formát čáry trendu. Čtení/zápis [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Určuje počet kategorií (nebo jednotek v rozptylovém grafu), které čára trendu prodlužuje po údajích řady, která je trendována. V rozptylových a nerozptylových grafech může být hodnota libovolná nezáporná hodnota. Čtení/zápis Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Určuje hodnotu, kde čára trendu protne osu y. Tato vlastnost je podporována pouze, když je typ čáry trendu exp, linear nebo poly. Čtení/zápis Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Určuje řád polynomiální čáry trendu. Pro ostatní typy čar trendu se ignoruje. Hodnota musí být mezi 2 a 6. Čtení/zápis Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Určuje periodu čáry trendu pro čáru trendu s klouzavým průměrem. Pro jiné varianty čáry trendu se ignoruje. Hodnota musí být mezi 2 a 255. Čtení/zápis Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Představuje položku legendy související s touto čárou trendu Pouze ke čtení [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Získá nebo nastaví název čáry trendu. Čtení/zápis String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Získá nebo nastaví typ čáry trendu. Čtení/zápis [`TrendlineType`](./trendlinetype). |
 
 ### Viz také
 

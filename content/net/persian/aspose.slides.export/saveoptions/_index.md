@@ -1,12 +1,12 @@
 ---
 title: SaveOptions
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: کلاس انتزاعی با گزینه‌هایی که نحوه ذخیره‌سازی یک ارائه را کنترل می‌کند.
 type: docs
 weight: 4450
 url: /fa/aspose.slides.export/saveoptions/
 ---
-## کلاس SaveOptions
+## SaveOptions کلاس
 
 کلاس انتزاعی با گزینه‌هایی که نحوه ذخیره‌سازی یک ارائه را کنترل می‌کند.
 
@@ -14,15 +14,15 @@ url: /fa/aspose.slides.export/saveoptions/
 public abstract class SaveOptions : ISaveOptions
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | قلمی را که در صورت عدم یافتن قلم منبع استفاده می‌شود، برمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی String. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را برمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء callback برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد را نشان می‌دهد. ببینید [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره‌سازی ارائه، پیوندهای فراخوانی جاوااسکریپت را نادیده بگیرد یا نه. خواندنی-نوشتنی Boolean. مقدار پیش‌فرض **false** است. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | شیئی را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود، برمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | در صورت یافت نشدن فونت منبع، فونتی را که استفاده می‌شود بازمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی String. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | سبک بصری گرادیان را بازمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | یک شیء callback برای به‌روزرسانی پیشرفت ذخیره‌سازی به درصد نشان می‌دهد. مراجعه کنید به [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | مشخص می‌کند که آیا هنگام ذخیره‌سازی ارائه، پیوندهای Hyperlink با فراخوانی‌های JavaScript نادیده گرفته شوند یا نه. خواندنی-نوشتنی Boolean. مقدار پیش‌فرض **false** است. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | یک شیء را که هشدارها را دریافت می‌کند و تصمیم می‌گیرد آیا فرآیند بارگذاری ادامه یابد یا متوقف شود، بازمی‌گرداند یا تنظیم می‌کند. خواندنی-نوشتنی [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### موارد مرتبط
 

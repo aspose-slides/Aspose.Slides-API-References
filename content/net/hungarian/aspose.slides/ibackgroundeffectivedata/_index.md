@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Megváltoztathatatlan objektum, amely a hatékony háttér tulajdonságokat tartalmazza.
+second_title: Aspose.Sildes .NET API referencia
+description: Változtathatatlan objektum, amely a hatékony háttér tulajdonságokat tartalmaz.
 type: docs
-weight: 5260
+weight: 5280
 url: /hu/aspose.slides/ibackgroundeffectivedata/
 ---
 ## IBackgroundEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely a hatékony háttér tulajdonságokat tartalmazza.
+Változtatás nélküli objektum, amely a hatékony háttér tulajdonságokat tartalmazza.
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -22,9 +22,9 @@ public interface IBackgroundEffectiveData : IFillParamSource
 | [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | Visszaadja a hatékony effekt formátumot. Csak olvasható [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
 | [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | Visszaadja a hatékony kitöltési formátumot. Csak olvasható [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
-### Megjegyzések
+### Megjegyzés
 
-Ez az interfész együtt használható a [`IBackground`](../ibackground) interfésszel, hogy a származtatással alkalmazott hatékony formázási értékeket adja vissza.
+Ez az interfész a [`IBackground`](../ibackground) interfésszel együtt használható a hatékony formázási értékek visszaadásához, öröklődéssel alkalmazva.
 
 ### Lásd még
 

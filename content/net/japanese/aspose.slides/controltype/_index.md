@@ -1,14 +1,14 @@
 ---
 title: ControlType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: AddControl./icontrolcollection/addcontrol によって埋め込むべきコントロール タイプを定義します。
+description: AddControl./icontrolcollection/addcontrol によって埋め込むべきコントロールタイプを定義します。
 type: docs
-weight: 2700
+weight: 2720
 url: /ja/aspose.slides/controltype/
 ---
-## ControlType 列挙体
+## ControlType 列挙型
 
-[`AddControl`](../icontrolcollection/addcontrol) に埋め込むべきコントロール タイプを定義します。
+[`AddControl`](../icontrolcollection/addcontrol) に埋め込むべきコントロールタイプを定義します。
 
 ```csharp
 public enum ControlType
@@ -20,7 +20,7 @@ public enum ControlType
 | --- | --- | --- |
 | WindowsMediaPlayer | `0` | Windows Media Player コントロール。 |
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides](../../aspose.slides)
 * アセンブリ [Aspose.Slides](../../)

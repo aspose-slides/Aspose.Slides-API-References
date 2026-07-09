@@ -3,7 +3,7 @@ title: ILightRig
 second_title: Aspose.Sildes for .NET API リファレンス
 description: LightRig を表します。
 type: docs
-weight: 6250
+weight: 6270
 url: /ja/aspose.slides/ilightrig/
 ---
 ## ILightRig インターフェイス
@@ -16,17 +16,17 @@ public interface ILightRig
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光の方向。読み取り/書き込み [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 形状に適用できるプリセットのライト右を表します。ライトリグは、3D シーンに対して特定の方法で配置されたライトのグループを表します。読み取り/書き込み [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | 光の方向。読み取り/書き込み [`LightingDirection`](../lightingdirection)。 |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | 形状に適用できるプリセットのライトを表します。ライトリグは、3D シーンに対して特定の方向に配置された光のグループを表します。読み取り/書き込み [`LightRigPresetType`](../lightrigpresettype)。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 緯度座標、経度座標、および軸周りの回転を使用して回転が定義されます。戻り配列の最初の要素は緯度、2 番目は経度、3 番目は回転です。 |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 緯度座標、経度座標、および軸周りの回転を使用して回転が定義されます。 |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | 回転は、緯度座標、経度座標、および緯度と経度座標として軸まわりの回転を使用して定義されます。戻り配列の最初の要素は緯度、2番目は経度、3番目は回転です。 |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | 回転は、緯度座標、経度座標、および緯度と経度座標として軸まわりの回転を使用して定義されます。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IMathBlock
-second_title: Aspose.Sildes .NET용 API 참조
-description: 수학 텍스트 인스턴스를 지정합니다. 이 인스턴스는 MathParagraph에 포함되어 자체 라인에서 시작합니다. 방정식, 식, 방정식 또는 식 배열, 수식 등 모든 수학 영역은 수학 블록으로 표시됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: MathParagraph 내에 포함되고 자체 라인에서 시작하는 수학 텍스트 인스턴스를 지정합니다. 방정식, 표현식, 방정식 또는 표현식 배열 및 수식과 같은 모든 수학 영역은 수학 블록으로 표현됩니다.
 type: docs
 weight: 8140
 url: /ko/aspose.slides.mathtext/imathblock/
 ---
 ## IMathBlock 인터페이스
 
-수학 텍스트 인스턴스를 지정하며 MathParagraph에 포함되고 자체 라인에서 시작합니다. 방정식, 식, 방정식 또는 식 배열, 수식 등 모든 수학 영역은 수학 블록으로 표현됩니다.
+MathParagraph 내에 포함되고 자체 라인에서 시작하는 수학 텍스트 인스턴스를 지정합니다. 방정식, 표현식, 방정식 또는 표현식 배열 및 수식과 같은 모든 수학 영역은 수학 블록으로 표현됩니다.
 
 ```csharp
 public interface IMathBlock : IMathElement, IMathElementCollection
@@ -18,17 +18,17 @@ public interface IMathBlock : IMathElement, IMathElementCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
-| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | 기본 IMathElementCollection 인터페이스를 가져올 수 있습니다 [`IMathElementCollection`](../imathelementcollection) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathblock/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다. |
+| [AsIMathElementCollection](../../aspose.slides.mathtext/imathblock/asimathelementcollection) { get; } | 기본 IMathElementCollection 인터페이스 [`IMathElementCollection`](../imathelementcollection)를 가져올 수 있습니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 괄호 없이 구분자 문자로 모든 하위 요소를 구분합니다 |
-| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 지정된 문자(예: 괄호)로 이 블록의 하위 요소를 둘러싸고 구분자 문자로 구분합니다 |
-| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 다른 수학 블록을 현재 블록과 결합합니다 |
-| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | 이 [`IMathBlock`](../imathblock)의 내용을 MathML로 저장합니다 |
+| [Delimit](../../aspose.slides.mathtext/imathblock/delimit)(char) | 구분 문자(괄호 제외)를 사용하여 모든 하위 요소를 구분합니다. |
+| [Enclose](../../aspose.slides.mathtext/imathblock/enclose)(char, char, char) | 이 블록의 하위 요소를 괄호 등 지정된 문자로 둘러싸고 구분 문자로 구분합니다. |
+| [JoinBlock](../../aspose.slides.mathtext/imathblock/joinblock)(IMathBlock) | 다른 수학 블록을 이 블록과 결합합니다. |
+| [WriteAsMathMl](../../aspose.slides.mathtext/imathblock/writeasmathml)(Stream) | [`IMathBlock`](../imathblock)의 내용을 MathML 형식으로 저장합니다. |
 
 ### 예제
 

@@ -1,14 +1,14 @@
 ---
 title: IPresentationSignedWarningInfo
 second_title: Aspose.Sildes の .NET API リファレンス
-description: この警告は、読み取られているプレゼンテーションに署名が含まれており、その署名が処理中に削除されることを示します。
+description: この警告は、読み込んでいるプレゼンテーションに署名が含まれており、その署名は処理中に削除されます。
 type: docs
-weight: 11770
+weight: 11790
 url: /ja/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo インターフェイス
 
-この警告は、読み取られているプレゼンテーションに署名が含まれており、その署名が処理中に削除されることを示します。
+この警告は、読み込まれているプレゼンテーションに署名が含まれており、処理中にその署名が削除されることを示します。
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -18,7 +18,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。読み取り専用 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。 読み取り専用 [`IWarningInfo`](../iwarninginfo)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các thuộc tính định dạng dấu đầu dòng của đoạn văn.
+second_title: Aspose.Sildes for .NET Tham chiếu API
+description: Đại diện các thuộc tính định dạng bullet của đoạn văn.
 type: docs
 weight: 5390
 url: /vi/aspose.slides/ibulletformat/
 ---
-## Giao diện IBulletFormat
+## IBulletFormat giao diện
 
-Đại diện cho các thuộc tính định dạng dấu đầu dòng của đoạn văn.
+Biểu thị các thuộc tính định dạng bullet của đoạn văn.
 
 ```csharp
 public interface IBulletFormat
@@ -16,29 +16,29 @@ public interface IBulletFormat
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Trả về hoặc đặt ký tự dấu đầu dòng của một đoạn văn không kế thừa. Đọc/ghi Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Trả về định dạng màu của một dấu đầu dòng của một đoạn văn không kế thừa. Chỉ-đọc [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Trả về hoặc đặt phông chữ dấu đầu dòng của một đoạn văn không kế thừa. Đọc/ghi [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Trả về hoặc đặt chiều cao dấu đầu dòng của một đoạn văn không kế thừa. Giá trị float.NaN xác định rằng dấu đầu dòng kế thừa chiều cao từ phần đầu tiên trong đoạn văn. Đọc/ghi Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Xác định liệu dấu đầu dòng có màu riêng hay kế thừa từ phần đầu tiên trong đoạn văn. **NullableBool.True** nếu dấu đầu dòng có màu riêng và **NullableBool.False** nếu dấu đầu dòng kế thừa màu từ phần đầu tiên trong đoạn văn. Đọc/ghi [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Xác định liệu dấu đầu dòng có phông chữ riêng hay kế thừa từ phần đầu tiên trong đoạn văn. **NullableBool.True** nếu dấu đầu dòng có phông chữ riêng và **NullableBool.False** nếu dấu đầu dòng kế thừa phông chữ từ phần đầu tiên trong đoạn văn. Đọc/ghi [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Trả về hoặc đặt số đầu tiên được sử dụng cho nhóm các dấu đầu dòng có số thứ tự không kế thừa. Đọc/ghi Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Trả về hoặc đặt kiểu dáng của một dấu đầu dòng có số thứ tự không kế thừa. Đọc/ghi [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Trả về hình ảnh được sử dụng làm dấu đầu dòng trong một đoạn văn không kế thừa. Chỉ-đọc [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Trả về hoặc đặt loại dấu đầu dòng của một đoạn văn không kế thừa. Đọc/ghi [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Trả về hoặc đặt ký tự bullet của một đoạn văn không kế thừa. Đọc/ghi Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Trả về định dạng màu của bullet trong một đoạn văn không kế thừa. Chỉ đọc [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Trả về hoặc đặt phông chữ bullet của một đoạn văn không kế thừa. Đọc/ghi [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Trả về hoặc đặt chiều cao bullet của một đoạn văn không kế thừa. Giá trị float.NaN xác định rằng bullet kế thừa chiều cao từ phần đầu tiên trong đoạn văn. Đọc/ghi Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Xác định liệu bullet có màu riêng hay kế thừa từ phần đầu tiên trong đoạn văn. **NullableBool.True** nếu bullet có màu riêng và **NullableBool.False** nếu bullet kế thừa màu từ phần đầu tiên trong đoạn văn. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Xác định liệu bullet có phông chữ riêng hay kế thừa từ phần đầu tiên trong đoạn văn. **NullableBool.True** nếu bullet có phông chữ riêng và **NullableBool.False** nếu bullet kế thừa phông chữ từ phần đầu tiên trong đoạn văn. Đọc/ghi [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Trả về hoặc đặt số đầu tiên được sử dụng cho nhóm các bullet có số thứ tự không kế thừa. Đọc/ghi Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Trả về hoặc đặt kiểu của bullet có số thứ tự không kế thừa. Đọc/ghi [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Trả về hình ảnh được sử dụng làm bullet trong một đoạn văn không kế thừa. Chỉ đọc [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Trả về hoặc đặt loại bullet của một đoạn văn không kế thừa. Đọc/ghi [`BulletType`](../bullettype). |
 
 ## Phương thức
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Đặt các độ dịch không-zero mặc định cho Indent và MarginLeft của đoạn văn hiệu quả khi bật dấu đầu dòng (giống như PowerPoint làm khi bật dấu đầu dòng/đánh số đoạn văn). Nếu dấu đầu dòng bị tắt thì chỉ đặt lại Indent và MarginLeft của đoạn văn (giống như PowerPoint làm khi tắt dấu đầu dòng/đánh số đoạn văn). Các độ dịch thụt lề được áp dụng dựa trên ngữ cảnh dấu đầu dòng hiện tại - IBulletFormat.Type, .NumberedBulletStyle và FontHeight của phần đầu tiên. Các độ dịch thụt lề không-zero được áp dụng cho Indent và MarginLeft hiệu quả của đoạn văn hiện tại (để các giá trị kết quả trở thành giá trị cục bộ). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Lấy dữ liệu định dạng dấu đầu dòng hiệu quả với kế thừa đã được áp dụng. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Đặt các dịch chuyển mặc định khác không cho Indent và MarginLeft thực tế của đoạn văn khi bullet được bật (giống như PowerPoint làm khi bật bullet/đánh số đoạn văn). Nếu bullet bị tắt thì chỉ đặt lại Indent và MarginLeft của đoạn văn (giống như PowerPoint làm khi tắt bullet/đánh số đoạn văn). Các dịch chuyển thụt lề được áp dụng dựa trên ngữ cảnh bullet hiện tại - IBulletFormat.Type, .NumberedBulletStyle và FontHeight của phần đầu tiên. Các dịch chuyển thụt lề khác không được áp dụng cho Indent và MarginLeft thực tế của đoạn văn hiện tại (để giá trị kết quả là giá trị cục bộ). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Lấy dữ liệu định dạng bullet hiệu lực với việc kế thừa đã được áp dụng. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* bộ lắp ráp [Aspose.Slides](../../)
+* bộ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

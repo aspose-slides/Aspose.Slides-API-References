@@ -1,6 +1,6 @@
 ---
 title: Theme
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: เป็นตัวแทนของธีม.
 type: docs
 weight: 11480
@@ -8,7 +8,7 @@ url: /th/aspose.slides.theme/theme/
 ---
 ## Theme คลาส
 
-เป็นตัวแทนของธีม.
+เป็นตัวแทนของธีม
 
 ```csharp
 public abstract class Theme : ITheme
@@ -16,18 +16,18 @@ public abstract class Theme : ITheme
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | ส่งคืนโครงร่างสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | ส่งคืนโครงร่างแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
-| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | ส่งคืนโครงร่างรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
+| abstract [ColorScheme](../../aspose.slides.theme/theme/colorscheme) { get; } | ส่งคืนชุดสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
+| abstract [FontScheme](../../aspose.slides.theme/theme/fontscheme) { get; } | ส่งคืนชุดแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
+| abstract [FormatScheme](../../aspose.slides.theme/theme/formatscheme) { get; } | ส่งคืนชุดรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
 | [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | ส่งคืนการนำเสนอแม่. อ่านอย่างเดียว [`IPresentation`](../../aspose.slides/ipresentation). |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | รับข้อมูลธีมที่มีผลเมื่อใช้การสืบทอด. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | ดึงข้อมูลธีมที่มีประสิทธิภาพโดยใช้การสืบทอดที่นำไปใช้. |
 
 ### ดูเพิ่มเติม
 

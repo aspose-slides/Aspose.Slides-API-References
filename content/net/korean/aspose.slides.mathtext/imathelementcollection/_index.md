@@ -1,6 +1,6 @@
 ---
 title: IMathElementCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 수학 요소 MathElement의 컬렉션을 나타냅니다.
 type: docs
 weight: 8240
@@ -8,36 +8,34 @@ url: /ko/aspose.slides.mathtext/imathelementcollection/
 ---
 ## IMathElementCollection 인터페이스
 
-수학 요소 (MathElement)의 컬렉션을 나타냅니다.
-
 ```csharp
 public interface IMathElementCollection : IEnumerable<IMathElement>
 ```
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.mathtext/imathelementcollection/asienumerable) { get; } | IEnumerable 인터페이스를 반환합니다. 읽기 전용 IEnumerable. |
 | [Count](../../aspose.slides.mathtext/imathelementcollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IMathElement`](../imathelement). |
+| [Item](../../aspose.slides.mathtext/imathelementcollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`IMathElement`](../imathelement). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | 수학 요소를 컬렉션의 끝에 추가합니다. |
+| [Add](../../aspose.slides.mathtext/imathelementcollection/add)(IMathElement) | 수학 요소를 컬렉션 끝에 추가합니다. |
 | [Clear](../../aspose.slides.mathtext/imathelementcollection/clear)() | 컬렉션의 모든 요소를 제거합니다. |
 | [Contains](../../aspose.slides.mathtext/imathelementcollection/contains)(IMathElement) | 컬렉션에 특정 값이 포함되어 있는지 확인합니다. |
 | [CopyTo](../../aspose.slides.mathtext/imathelementcollection/copyto)(IMathElement[], int) | 지정된 배열에 복사합니다. |
-| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | 컬렉션에서 특정 수학 요소의 인덱스를 결정합니다. |
-| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | 지정된 인덱스에 수학 요소를 삽입합니다. |
+| [IndexOf](../../aspose.slides.mathtext/imathelementcollection/indexof)(IMathElement) | 컬렉션에서 특정 수학 요소의 인덱스를 확인합니다. |
+| [Insert](../../aspose.slides.mathtext/imathelementcollection/insert)(int, IMathElement) | 지정된 인덱스에 수학 요소를 컬렉션에 삽입합니다. |
 | [Remove](../../aspose.slides.mathtext/imathelementcollection/remove)(IMathElement) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다. |
 | [RemoveAt](../../aspose.slides.mathtext/imathelementcollection/removeat)(int) | 컬렉션의 지정된 인덱스에 있는 요소를 제거합니다. |
 
 ### 예제
 
-예제:
+예:
 
 ```csharp
 [C#]

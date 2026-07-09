@@ -1,12 +1,12 @@
 ---
 title: IMathematicalTextFactory
-second_title: Aspose.Sildes para .NET Referência de API
+second_title: Aspose.Sildes para .NET Referência da API
 description: Permite criar um elemento MathematicalText
 type: docs
-weight: 8500
+weight: 8520
 url: /pt/aspose.slides.mathtext/imathematicaltextfactory/
 ---
-## IMathematicalTextFactory interface
+## interface IMathematicalTextFactory
 
 Permite criar um elemento MathematicalText
 
@@ -18,10 +18,10 @@ public interface IMathematicalTextFactory
 
 | Nome | Descrição |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Cria um elemento de texto matemático vazio |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Cria um elemento de texto matemático com o valor especificado |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Cria um elemento de texto matemático vazio com o valor especificado |
-| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Cria um elemento de texto matemático vazio com o valor e propriedades de formatação especificados |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Create empty mathematical text element |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Create mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Create empty mathematical text element with the specified value |
+| [CreateMathematicalText](../../aspose.slides.mathtext/imathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Observações
 

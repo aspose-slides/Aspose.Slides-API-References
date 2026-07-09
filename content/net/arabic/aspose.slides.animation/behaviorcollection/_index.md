@@ -1,14 +1,14 @@
 ---
 title: BehaviorCollection
-second_title: مرجع API الخاص بـ Aspose.Sildes لـ .NET
-description: يمثل مجموعة من تأثيرات السلوك.
+second_title: Aspose.Sildes لمرجع API .NET
+description: تمثل مجموعة من تأثيرات السلوك.
 type: docs
 weight: 170
 url: /ar/aspose.slides.animation/behaviorcollection/
 ---
 ## BehaviorCollection فئة
 
-يمثل مجموعة من تأثيرات السلوك.
+تمثل مجموعة من التأثيرات السلوكية.
 
 ```csharp
 public class BehaviorCollection : IBehaviorCollection
@@ -18,23 +18,23 @@ public class BehaviorCollection : IBehaviorCollection
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | يعيد عدد السلوكيات في مجموعة. للقراءة فقط Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | يحصل على قيمة تشير إلى ما إذا كان ICollection للقراءة فقط. للقراءة فقط Boolean. |
-| [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | يعيد سلوكًا عند الفهرس المحدد. |
+| [Count](../../aspose.slides.animation/behaviorcollection/count) { get; } | إرجاع عدد السلوكيات في مجموعة. للقراءة فقط Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorcollection/isreadonly) { get; } | الحصول على قيمة تشير إلى ما إذا كان ICollection للقراءة فقط. للقراءة فقط Boolean. |
+| [Item](../../aspose.slides.animation/behaviorcollection/item) { get; set; } | إرجاع سلوك في الفهرس المحدد. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | يضيف سلوكًا جديدًا إلى مجموعة. |
-| [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | يزيل جميع السلوكيات من مجموعة. |
-| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | يحدد ما إذا كان ICollection يحتوي على قيمة معينة. |
-| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | ينسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | يعيد عدادًا يتجول عبر المجموعة. |
-| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | يحدد فهرس عنصر معين في IList. |
-| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | يدرج سلوكًا جديدًا إلى مجموعة عند الفهرس المحدد. |
-| [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | يزيل السلوك المحدد من مجموعة. |
-| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | يزيل سلوكًا من مجموعة عند الفهرس المحدد. |
+| [Add](../../aspose.slides.animation/behaviorcollection/add)(IBehavior) | إضافة سلوك جديد إلى مجموعة. |
+| [Clear](../../aspose.slides.animation/behaviorcollection/clear)() | إزالة جميع السلوكيات من مجموعة. |
+| [Contains](../../aspose.slides.animation/behaviorcollection/contains)(IBehavior) | تحديد ما إذا كان ICollection يحتوي على قيمة معينة. |
+| [CopyTo](../../aspose.slides.animation/behaviorcollection/copyto)(IBehavior[], int) | نسخ عناصر ICollection إلى مصفوفة، بدءًا من فهرس مصفوفة معين. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorcollection/getenumerator)() | إرجاع كائن Enumerator يتجول عبر المجموعة. |
+| [IndexOf](../../aspose.slides.animation/behaviorcollection/indexof)(IBehavior) | تحديد فهرس عنصر محدد في IList. |
+| [Insert](../../aspose.slides.animation/behaviorcollection/insert)(int, IBehavior) | إدراج سلوك جديد إلى مجموعة في الفهرس المحدد. |
+| [Remove](../../aspose.slides.animation/behaviorcollection/remove)(IBehavior) | إزالة السلوك المحدد من مجموعة. |
+| [RemoveAt](../../aspose.slides.animation/behaviorcollection/removeat)(int) | إزالة سلوك من مجموعة في الفهرس المحدد. |
 
 ### انظر أيضًا
 

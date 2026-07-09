@@ -1,6 +1,6 @@
 ---
 title: ILegendEntryProperties
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 차트의 범례 속성을 나타냅니다.
 type: docs
 weight: 2150
@@ -16,12 +16,12 @@ public interface ILegendEntryProperties : IFormattedTextContainer
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ilegendentryproperties/asiformattedtextcontainer) { get; } | 기본 IFormattedTextContainer 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IFormattedTextContainer`](../iformattedtextcontainer). |
 | [Hide](../../aspose.slides.charts/ilegendentryproperties/hide) { get; set; } | 범례 항목의 숨김 플래그를 반환하거나 설정합니다. 읽기/쓰기 Boolean. |
 
-### 또 보기
+### 참조
 
 * 인터페이스 [IFormattedTextContainer](../iformattedtextcontainer)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

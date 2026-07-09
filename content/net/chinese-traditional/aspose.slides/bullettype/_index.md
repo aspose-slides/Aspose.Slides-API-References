@@ -1,7 +1,7 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示擴充項目符號的類型。
+second_title: Aspose.Sildes for .NET API 參考
+description: 代表擴充項目符號的類型。
 type: docs
 weight: 1080
 url: /zh-hant/aspose.slides/bullettype/
@@ -16,7 +16,7 @@ public enum BulletType : sbyte
 
 ### 值
 
-| 名稱 | 值 | 說明 |
+| 名稱 | 值 | 描述 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |

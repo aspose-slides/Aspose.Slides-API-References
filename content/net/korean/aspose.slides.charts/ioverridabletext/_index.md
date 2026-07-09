@@ -19,13 +19,13 @@ public interface IOverridableText : IFormattedTextContainer
 | 이름 | 설명 |
 | --- | --- |
 | [AsIFormattedTextContainer](../../aspose.slides.charts/ioverridabletext/asiformattedtextcontainer) { get; } | 기본 IFormattedTextContainer 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 서식이 지정된 텍스트를 포함할 수 있습니다. 이 속성이 null이 아니면 해당 서식이 지정된 텍스트 값이 자동 생성 텍스트를 덮어씁니다. 자동 생성 텍스트는 데이터 레이블, 값 축의 표시 단위 레이블, 축 제목, 차트 제목, 추세선 레이블의 암시적 속성입니다. 자동 생성 텍스트는 IFormattedTextContainer.TextFormat 속성으로 서식이 지정됩니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
+| [TextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/textframeforoverriding) { get; } | 리치 서식 텍스트를 포함할 수 있습니다. 이 속성이 null이 아니면 이 서식 텍스트 값이 자동 생성된 텍스트를 대체합니다. 자동 생성된 텍스트는 데이터 레이블, 값 축의 표시 단위 레이블, 축 제목, 차트 제목, 추세선의 레이블에 대한 암시적 속성입니다. 자동 생성된 텍스트는 IFormattedTextContainer.TextFormat 속성을 사용해 서식이 지정됩니다. 읽기 전용 [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | 텍스트 매개변수 "text"를 사용하여 TextFrameForOverriding을 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 텍스트만 변경합니다. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/ioverridabletext/addtextframeforoverriding)(string) | TextFrameForOverriding을 매개변수 "text"의 텍스트로 초기화합니다. TextFrameForOverriding이 이미 초기화된 경우 텍스트만 변경합니다. |
 
 ### 관련 항목
 

@@ -1,69 +1,85 @@
 ---
 title: GeneratePresentationAsync
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Δημιουργεί ένα στιγμιότυπο παρουσίασης από μια περιγραφή κειμένου. Παρέχει ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
+description: Δημιουργεί μια παρουσίαση από περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, ρήτρες ή αποσπάσματα κειμένου στη ζητούμενη γλώσσα.
 type: docs
 weight: 30
 url: /el/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Δημιουργεί ένα στιγμιότυπο παρουσίασης από μια περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
+Δημιουργεί μια παρουσίαση από μια περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, ρήτρες ή αποσπάσματα κειμένου στη ζητούμενη γλώσσα.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount)
 ```
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| description | String | Το θέμα, οι ιδέες, οι παραθέσεις ή τα αποσπάσματα κειμένου. |
-| presentationContentAmount | PresentationContentAmountType | Η ποσότητα του περιεχομένου στην προκύπτουσα παρουσίαση. |
+| description | String | Το θέμα, οι ιδέες, οι ρήτρες ή τα αποσπάσματα κειμένου. |
+| presentationContentAmount | PresentationContentAmountType | Το ποσό του περιεχομένου στην προκύπτουσα παρουσίαση. |
 
-### Εξαιρέσεις
+### Exceptions
 
-| Εξαίρεση | Συνθήκη |
+| exception | condition |
 | --- | --- |
-| ArgumentException | Η οδηγία συνομιλίας AI δεν μπορεί να είναι κενή ή μηδενική. |
+| ArgumentException | Η οδηγία συνομιλίας AI δεν μπορεί να είναι κενή ή null. |
 
-### Δείτε επίσης
+### Remarks
 
-* διασύνδεση [IPresentation](../../../aspose.slides/ipresentation)
-* απαρίθμηση [PresentationContentAmountType](../../presentationcontentamounttype)
-* κλάση [SlidesAIAgent](../../slidesaiagent)
-* χώρος ονομάτων [Aspose.Slides.AI](../../slidesaiagent)
-* συγκρότηση [Aspose.Slides](../../../)
+Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [`AsposeAIWebClient`](../../asposeaiwebclient), το οποίο δημιουργείται από τον χωρίς-παραμέτρους [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή και συνδέεται με το δικό του LLM της Aspose. Για χρήση διαφορετικού παρόχου AI, παρέχετε το δικό σας LLM ή προσαρμόστε τη σύνδεση (π.χ. παρέχοντας το δικό σας `HttpClient`), περνώντας μια υλοποίηση [`IAIWebClient`](../../iaiwebclient) στον [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή. Διαθέσιμες υλοποιήσεις περιλαμβάνουν:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### See Also
+
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 ---
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Δημιουργεί ένα στιγμιότυπο παρουσίασης από μια περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, παραθέσεις ή αποσπάσματα κειμένου στην απαιτούμενη γλώσσα.
+Δημιουργεί μια παρουσίαση από μια περιγραφή κειμένου. Παρέχετε ένα θέμα, ιδέες, ρήτρες ή αποσπάσματα κειμένου στη ζητούμενη γλώσσα.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-| Παράμετρος | Τύπος | Περιγραφή |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| description | String | Το θέμα, οι ιδέες, οι παραθέσεις ή τα αποσπάσματα κειμένου. |
-| presentationContentAmount | PresentationContentAmountType | Η ποσότητα του περιεχομένου στην προκύπτουσα παρουσίαση. |
-| presentationTemplate | IPresentation | Μια παρουσίαση που θα χρησιμοποιηθεί ως πρότυπο για διάταξη και σχεδιασμό, αντικαθιστώντας το προεπιλεγμένο πρότυπο. |
+| description | String | Το θέμα, οι ιδέες, οι ρήτρες ή τα αποσπάσματα κειμένου. |
+| presentationContentAmount | PresentationContentAmountType | Το ποσό του περιεχομένου στην προκύπτουσα παρουσίαση. |
+| presentationTemplate | IPresentation | Μια παρουσίαση που θα χρησιμοποιηθεί ως πρότυπο για διάταξη και σχεδίαση, αντικαθιστώντας το προεπιλεγμένο πρότυπο. |
 
-### Εξαιρέσεις
+### Exceptions
 
-| Εξαίρεση | Συνθήκη |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | Δεν έχει δοθεί πρότυπο παρουσίασης. |
-| ArgumentException | Η οδηγία συνομιλίας AI δεν μπορεί να είναι κενή ή μηδενική. |
+| ArgumentNullException | Δεν παρέχεται το πρότυπο παρουσίασης. |
+| ArgumentException | Η οδηγία συνομιλίας AI δεν μπορεί να είναι κενή ή null. |
 
-### Δείτε επίσης
+### Remarks
 
-* διασύνδεση [IPresentation](../../../aspose.slides/ipresentation)
-* απαρίθμηση [PresentationContentAmountType](../../presentationcontentamounttype)
-* κλάση [SlidesAIAgent](../../slidesaiagent)
-* χώρος ονομάτων [Aspose.Slides.AI](../../slidesaiagent)
-* συγκρότηση [Aspose.Slides](../../../)
+Το παρακάτω παράδειγμα χρησιμοποιεί το προεπιλεγμένο [`AsposeAIWebClient`](../../asposeaiwebclient), το οποίο δημιουργείται από τον χωρίς-παραμέτρους [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή και συνδέεται με το δικό του LLM της Aspose. Για χρήση διαφορετικού παρόχου AI, παρέχετε το δικό σας LLM ή προσαρμόστε τη σύνδεση (π.χ. παρέχοντας το δικό σας `HttpClient`), περνώντας μια υλοποίηση [`IAIWebClient`](../../iaiwebclient) στον [`SlidesAIAgent`](../slidesaiagent) κατασκευαστή. Διαθέσιμες υλοποιήσεις περιλαμβάνουν:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+### See Also
+
+* interface [IPresentation](../../../aspose.slides/ipresentation)
+* enum [PresentationContentAmountType](../../presentationcontentamounttype)
+* class [SlidesAIAgent](../../slidesaiagent)
+* namespace [Aspose.Slides.AI](../../slidesaiagent)
+* assembly [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

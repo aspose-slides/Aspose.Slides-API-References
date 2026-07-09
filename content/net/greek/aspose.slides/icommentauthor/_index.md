@@ -1,12 +1,12 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes για .NET API Reference
-description: Αντιπροσωπεύει έναν συγγραφέα σχολίων.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά έναν συγγραφέα σχολίων.
 type: docs
-weight: 5550
+weight: 5570
 url: /el/aspose.slides/icommentauthor/
 ---
-## ICommentAuthor διασύνδεση
+## ICommentAuthor διεπαφή
 
 Αναπαριστά έναν συγγραφέα σχολίων.
 
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Επιστρέφει τη συλλογή των σχολίων που έχει κάνει αυτός ο συγγραφέας. Μόνο για ανάγνωση [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Επιστρέφει ή ορίζει τα αρχικά του συγγραφέα. Ανάγνωση/εγγραφή String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Επιστρέφει ή ορίζει το όνομα του συγγραφέα. Ανάγνωση/εγγραφή String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Επιστρέφει τη συλλογή των σχολίων που έγιναν από αυτόν τον συγγραφέα. Μόνο για ανάγνωση [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Επιστρέφει ή ορίζει τα αρχικά του συγγραφέα. Ανάγνωση/Εγγραφή String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Επιστρέφει ή ορίζει το όνομα του συγγραφέα. Ανάγνωση/Εγγραφή String. |
 
 ## Μέθοδοι
 

@@ -1,14 +1,14 @@
 ---
 title: TrendlineCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Trendline का संग्रह दर्शाता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: Trendline का एक संग्रह दर्शाता है
 type: docs
 weight: 2480
 url: /hi/aspose.slides.charts/trendlinecollection/
 ---
-## TrendlineCollection वर्ग
+## TrendlineCollection क्लास
 
-Represents a collection of Trendline
+Trendline का एक संग्रह दर्शाता है।
 
 ```csharp
 public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
@@ -18,21 +18,21 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | संग्रह में वास्तव में शामिल तत्वों की संख्या प्राप्त करता है। पढ़ने-के-लिए केवल Int32. |
-| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। पढ़ने-के-लिए केवल [`Trendline`](../trendline). |
+| [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | संग्रह में वास्तव में सम्मिलित तत्वों की संख्या प्राप्त करता है। केवल-पढ़ने योग्य Int32. |
+| [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`Trendline`](../trendline). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | एक संग्रह के अंत में नया Trendline जोड़ता है और उसे लौटाता है। |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | एक अनुक्रमकर्ता (enumerator) लौटाता है जो संग्रह के माध्यम से इटररेट करता है। |
-| [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | निर्धारित मान को हटाता है। |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | संग्रह के अंत में नया Trendline जोड़ता है और उसे लौटाता है। |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | एक enumerator लौटाता है जो संग्रह के माध्यम से पुनरावृति करता है। |
+| [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | निर्दिष्ट मान को हटाता है। |
 
 ### संबंधित देखें
 
-* वर्ग [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* वर्ग [ChartSeries](../chartseries)
+* क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* क्लास [ChartSeries](../chartseries)
 * इंटरफ़ेस [ITrendlineCollection](../itrendlinecollection)
 * नेमस्पेस [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

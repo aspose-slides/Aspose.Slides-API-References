@@ -16,23 +16,23 @@ public abstract class CellCollection : ICellCollection
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | 컬렉션에 포함된 셀의 수를 반환합니다. 읽기 전용 Int32. |
 | [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | 위치를 통해 셀을 반환합니다. 읽기 전용 [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection의 부모 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection의 부모 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | 위치에 따라 셀을 반환합니다. 읽기 전용 [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | CellCollection의 상위 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | CellCollection의 상위 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [ICellCollection](../icellcollection)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

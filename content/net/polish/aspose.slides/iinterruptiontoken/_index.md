@@ -1,14 +1,14 @@
 ---
 title: IInterruptionToken
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Ta klasa reprezentuje token używany do sygnalizowania długotrwałym zadaniom, czy żądane jest przerwanie.
 type: docs
-weight: 6170
+weight: 6190
 url: /pl/aspose.slides/iinterruptiontoken/
 ---
 ## IInterruptionToken interfejs
 
-Ta klasa reprezentuje token używany do sygnalizowania długotrwałym zadaniom, czy żądane jest przerwanie.
+This class represents the token to use for signaling long running tasks whether the interruption was requested.
 
 ```csharp
 public interface IInterruptionToken
@@ -18,13 +18,13 @@ public interface IInterruptionToken
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Zwraca Boolean.true jeśli przerwanie zostało zażądane. |
+| [IsInterruptionRequested](../../aspose.slides/iinterruptiontoken/isinterruptionrequested) { get; } | Zwraca Boolean.true, jeśli żądane jest przerwanie. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Rzuca OperationCanceledException jeśli przerwanie zostało zażądane. Rzucany, gdy przerwanie zostało zażądane. |
+| [ThrowIfInterruptionRequested](../../aspose.slides/iinterruptiontoken/throwifinterruptionrequested)() | Rzuca OperationCanceledException, jeśli żądane jest przerwanie. Rzucany, gdy żądane jest przerwanie. |
 
 ### Zobacz także
 

@@ -1,9 +1,9 @@
 ---
 title: MasterTheme
-second_title: Aspose.Sildes dla dokumentacji API .NET
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje motyw główny.
 type: docs
-weight: 11410
+weight: 11430
 url: /pl/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme klasa
@@ -29,9 +29,9 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Pobiera skuteczne dane motywu z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides.theme/theme/geteffective)() | Pobiera efektywne dane motywu z zastosowaną dziedzicznością. |
 
-### Zobacz też
+### Zobacz także
 
 * klasa [Theme](../theme)
 * interfejs [IMasterTheme](../imastertheme)

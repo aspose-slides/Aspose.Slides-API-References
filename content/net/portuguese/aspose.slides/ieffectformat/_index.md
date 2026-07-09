@@ -1,9 +1,9 @@
 ---
 title: IEffectFormat
-second_title: Aspose.Sildes para referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa as propriedades de efeito da forma.
 type: docs
-weight: 5720
+weight: 5740
 url: /pt/aspose.slides/ieffectformat/
 ---
 ## IEffectFormat interface
@@ -23,7 +23,7 @@ public interface IEffectFormat : IEffectParamSource
 | [FillOverlayEffect](../../aspose.slides/ieffectformat/filloverlayeffect) { get; set; } | Efeito de sobreposição de preenchimento. Leitura/gravação [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
 | [GlowEffect](../../aspose.slides/ieffectformat/gloweffect) { get; set; } | Efeito de brilho. Leitura/gravação [`IGlow`](../../aspose.slides.effects/iglow). |
 | [InnerShadowEffect](../../aspose.slides/ieffectformat/innershadoweffect) { get; set; } | Sombra interna. Leitura/gravação [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Retorna verdadeiro se todos os efeitos estiverem desativados (como recém-criado, objeto EffectFormat padrão). Somente leitura Boolean. |
+| [IsNoEffects](../../aspose.slides/ieffectformat/isnoeffects) { get; } | Retorna true se todos os efeitos estiverem desativados (como recém-criado, objeto EffectFormat padrão). Somente leitura Boolean. |
 | [OuterShadowEffect](../../aspose.slides/ieffectformat/outershadoweffect) { get; set; } | Sombra externa. Leitura/gravação [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
 | [PresetShadowEffect](../../aspose.slides/ieffectformat/presetshadoweffect) { get; set; } | Sombra predefinida. Leitura/gravação [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
 | [ReflectionEffect](../../aspose.slides/ieffectformat/reflectioneffect) { get; set; } | Reflexão. Leitura/gravação [`IReflection`](../../aspose.slides.effects/ireflection). |
@@ -51,7 +51,7 @@ public interface IEffectFormat : IEffectParamSource
 | [GetEffective](../../aspose.slides/ieffectformat/geteffective)() | Obtém os dados de formatação de efeito efetivo com a herança aplicada. |
 | [SetBlurEffect](../../aspose.slides/ieffectformat/setblureffect)(double, bool) | Define o efeito de desfoque. |
 
-### Veja também
+### Ver também
 
 * interface [IEffectParamSource](../ieffectparamsource)
 * namespace [Aspose.Slides](../../aspose.slides)

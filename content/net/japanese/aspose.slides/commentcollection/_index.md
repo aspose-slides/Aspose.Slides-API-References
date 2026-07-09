@@ -1,14 +1,14 @@
 ---
 title: CommentCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 1人の作者のコメントのコレクションを表します。
+description: 1人の作成者によるコメントのコレクションを表します。
 type: docs
-weight: 2630
+weight: 2650
 url: /ja/aspose.slides/commentcollection/
 ---
 ## CommentCollection クラス
 
-1 人の作者のコメントのコレクションを表します。
+1 人の作成者によるコメントのコレクションを表します。
 
 ```csharp
 public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollection
@@ -18,27 +18,27 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/commentcollection/count) { get; } | コレクションに実際に含まれる要素の数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/commentcollection/item) { get; } | 指定したインデックスの要素を取得します。読み取り専用 [`Comment`](../comment)。 |
-| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
+| [Count](../../aspose.slides/commentcollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | コレクションへのアクセスが同期化 (スレッド セーフ) されているかどうかを示す値を返します。読み取り専用 Boolean。 |
+| [Item](../../aspose.slides/commentcollection/item) { get; } | 指定されたインデックスの要素を取得します。読み取り専用 [`Comment`](../comment)。 |
+| [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | コレクションの末尾に新しいコメントを追加します。 |
-| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | コレクションの末尾に新しいモダンコメントを追加します。 |
+| [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | コレクションの末尾に新しいモダン コメントを追加します。 |
 | [Clear](../../aspose.slides/commentcollection/clear)() | コレクションからすべてのコメントを削除します。 |
-| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列へコピーします。 |
-| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | インデックスでコメントを検索します。 |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 指定したインデックスに新しいコメントを挿入します。 |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 指定したインデックスに新しいモダンコメントを挿入します。 |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | コレクション内の指定されたコメントの最初の出現を削除します。 |
-| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | コレクション内の指定されたインデックスの要素を削除します。 |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | すべてのコメントを含む配列を作成し返します。 |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | 指定した範囲のすべてのコメントを含む配列を作成し返します。 |
+| [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | インデックスでコレクション内のコメントを検索します。 |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | 指定されたインデックスに新しいコメントを挿入します。 |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | 指定されたインデックスに新しいモダン コメントを挿入します。 |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | コレクション内で指定されたコメントの最初の出現を削除します。 |
+| [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | 指定されたインデックスの要素をコレクションから削除します。 |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | すべてのコメントを含む配列を作成して返します。 |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | 指定された範囲のすべてのコメントを含む配列を作成して返します。 |
 
 ### 参照
 

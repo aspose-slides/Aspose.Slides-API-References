@@ -1,14 +1,14 @@
 ---
 title: PortionCollection
-second_title: Aspose.Sildes a .NET API referencia
-description: Egy részek gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Egy részekből álló gyűjteményt képvisel.
 type: docs
-weight: 9450
+weight: 9470
 url: /hu/aspose.slides/portioncollection/
 ---
 ## PortionCollection osztály
 
-Egy részek gyűjteményét képviseli.
+Egy részekből álló gyűjteményt képvisel.
 
 ```csharp
 public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
@@ -20,21 +20,21 @@ public sealed class PortionCollection : DomObject<Paragraph>, IPortionCollection
 | --- | --- |
 | [Count](../../aspose.slides/portioncollection/count) { get; } | A gyűjteményben ténylegesen lévő elemek számát adja vissza. Csak olvasható Int32. |
 | [IsReadOnly](../../aspose.slides/portioncollection/isreadonly) { get; } | Egy értéket ad vissza, amely jelzi, hogy az ICollection csak olvasható-e. Csak olvasható Boolean. |
-| [Item](../../aspose.slides/portioncollection/item) { get; set; } | A megadott indexnél lévő elemet adja vissza. |
+| [Item](../../aspose.slides/portioncollection/item) { get; set; } | A megadott indexű elemet adja vissza. |
 
 ## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Hozzáad egy Portion-t a gyűjtemény végéhez. |
+| [Add](../../aspose.slides/portioncollection/add)(IPortion) | Hozzáad egy Portion elemet a gyűjtemény végéhez. |
 | [Clear](../../aspose.slides/portioncollection/clear)() | Eltávolítja a gyűjtemény összes elemét. |
 | [Contains](../../aspose.slides/portioncollection/contains)(IPortion) | Megállapítja, hogy az ICollection tartalmaz-e egy adott értéket. |
 | [CopyTo](../../aspose.slides/portioncollection/copyto)(IPortion[], int) | Az ICollection elemeit egy tömbbe másolja, egy adott tömbindexnél kezdve. |
-| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
+| [GetEnumerator](../../aspose.slides/portioncollection/getenumerator)() | Visszaad egy enumerátort, amely végig iterál a gyűjteményen. |
 | [IndexOf](../../aspose.slides/portioncollection/indexof)(IPortion) | Megállapítja egy adott elem indexét az IList-ben. |
-| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Beszúr egy Portion-t a gyűjteménybe a megadott indexnél. |
-| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Eltávolítja a specifikus objektum első előfordulását az ICollection-ből. |
-| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexnél lévő elemet. |
+| [Insert](../../aspose.slides/portioncollection/insert)(int, IPortion) | Beszúr egy Portion elemet a gyűjteménybe a megadott indexnél. |
+| [Remove](../../aspose.slides/portioncollection/remove)(IPortion) | Eltávolítja a megadott objektum első előfordulását az ICollection-ből. |
+| [RemoveAt](../../aspose.slides/portioncollection/removeat)(int) | Eltávolítja a gyűjteményben a megadott indexű elemet. |
 
 ### Lásd még
 

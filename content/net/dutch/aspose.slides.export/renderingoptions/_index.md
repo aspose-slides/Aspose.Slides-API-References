@@ -1,20 +1,20 @@
 ---
 title: RenderingOptions
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt opties die bepalen hoe een presentatie/slide wordt gerenderd.
+description: Biedt opties die bepalen hoe een presentatie/dia wordt gerenderd.
 type: docs
 weight: 4410
 url: /nl/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions klasse
 
-Biedt opties die bepalen hoe een presentatie/slide wordt gerenderd.
+Biedt opties die bepalen hoe een presentatie/dia wordt gerenderd.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
 ```
 
-## Constructoren
+## Constructors
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -24,14 +24,14 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | Naam | Beschrijving |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft of stelt het lettertype in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Geeft of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Wanneer ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde output. Standaard is deze eigenschap ingesteld op `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft of stelt de visuele stijl van de gradiënt in. Lezen-schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Biedt opties die bepalen hoe Ink-objecten eruit zien in het geëxporteerde document. Alleen-lezen [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor het opslaan van voortgangsupdates in percentage voor. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen moeten worden overgeslagen bij het opslaan van de presentatie. Lezen-schrijven Boolean. De standaardwaarde is **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Geeft of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of wordt afgebroken. Lezen-schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Geeft het lettertype terug of stelt het in dat wordt gebruikt als het bronlettertype niet wordt gevonden. Lezen-schrijven String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Haalt een waarde op of stelt een waarde in die aangeeft of tekst wordt gerenderd zonder ligaturen te gebruiken. Indien ingesteld op `true`, worden ligaturen uitgeschakeld in de gerenderde uitvoer. Standaard staat deze eigenschap ingesteld op `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Geeft de visuele stijl van de gradient terug of stelt deze in. Lezen/schrijven [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Biedt opties die het uiterlijk van Ink-objecten in het geëxporteerde document regelen. Alleen-lezen [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Stelt een callback-object voor om voortgangsupdates op te slaan in percentage. Zie [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Specificeert of hyperlinks met JavaScript-aanroepen overgeslagen moeten worden bij het opslaan van de presentatie. Lezen/schrijven Boolean. De standaardwaarde is **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Haalt de modus op of stelt de modus in waarin dia's op de pagina worden geplaatst bij het exporteren van een presentatie [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Geeft een object terug of stelt een object in dat waarschuwingen ontvangt en beslist of het laadproces wordt voortgezet of afgebroken. Lezen/schrijven [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Voorbeelden
 

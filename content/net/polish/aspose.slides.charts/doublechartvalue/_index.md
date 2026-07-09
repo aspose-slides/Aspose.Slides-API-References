@@ -1,14 +1,14 @@
 ---
 title: DoubleChartValue
-second_title: Aspose.Sildes dla .NET – Dokumentacja API
-description: Reprezentuje wartość typu double, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem, 2) jako dosłowną wartość.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Reprezentuje wartość podwójną, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literał.
 type: docs
-weight: 1610
+weight: 1630
 url: /pl/aspose.slides.charts/doublechartvalue/
 ---
 ## DoubleChartValue klasa
 
-Reprezentuje wartość typu double, która może być przechowywana w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako dosłowna wartość.
+Reprezentuje wartość zmiennoprzecinkową podwójną, którą można przechowywać w dokumencie prezentacji pptx na dwa sposoby: 1) w komórce/komórkach skoroszytu powiązanego z wykresem; 2) jako wartość literał.
 
 ```csharp
 public class DoubleChartValue : BaseChartValue, IDoubleChartValue
@@ -18,10 +18,10 @@ public class DoubleChartValue : BaseChartValue, IDoubleChartValue
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Zwraca lub ustawia komórkę danych wykresu. Odczyt/zapis [`IChartDataCell`](../ichartdatacell). |
-| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Zwraca lub ustawia wartość jako dosłowny double. Odczyt/zapis Double. |
-| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Zwraca lub ustawia obiekt Data. Odczyt/zapis Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w klasach potomnych. Innymi słowy określa typ wartości właściwości Data. Odczyt/zapis [`DataSourceType`](../datasourcetype). |
+| [AsCell](../../aspose.slides.charts/doublechartvalue/ascell) { get; set; } | Zwraca lub ustawia komórkę danych wykresu. odczyt/zapis [`IChartDataCell`](../ichartdatacell). |
+| [AsLiteralDouble](../../aspose.slides.charts/doublechartvalue/asliteraldouble) { get; set; } | Zwraca lub ustawia wartość jako podwójną stałą. odczyt/zapis Double. |
+| override [Data](../../aspose.slides.charts/doublechartvalue/data) { get; set; } | Zwraca lub ustawia obiekt Data. odczyt/zapis Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Określa, czy właściwość AsCell, AsCells, AsLiteralString lub AsLiteralDouble jest aktualna w pochodnych. Innymi słowy określa typ wartości właściwości Data. odczyt/zapis [`DataSourceType`](../datasourcetype). |
 
 ## Metody
 

@@ -1,9 +1,9 @@
 ---
 title: IMathParagraphFactory
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Επιτρέπει τη δημιουργία παραγράφου μαθηματικών
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Επιτρέπει τη δημιουργία μιας παραγράφου μαθηματικών
 type: docs
-weight: 8380
+weight: 8400
 url: /el/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory διεπαφή

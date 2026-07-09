@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ระบุจำนวนสไลด์และลำดับที่จะวางบนหน้า.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ระบุจำนวนสไลด์และลำดับที่สไลด์จะถูกวางบนหน้า.
 type: docs
 weight: 3850
 url: /th/aspose.slides.export/handouttype/
 ---
-## HandoutType การนับค่า
+## การนับ HandoutType
 
-ระบุจำนวนสไลด์และลำดับที่จะวางบนหน้า
+ระบุจำนวนสไลด์และลำดับที่สไลด์จะวางบนหน้า
 
 ```csharp
 public enum HandoutType

@@ -3,12 +3,12 @@ title: IParagraphFormatEffectiveData
 second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Niezmienny obiekt zawierający skuteczne właściwości formatowania akapitu.
 type: docs
-weight: 6580
+weight: 6600
 url: /pl/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData interfejs
 
-Niezmienny obiekt zawierający skuteczne właściwości formatowania akapitu.
+Niezmienny obiekt zawierający skuteczne własności formatowania akapitu.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -19,15 +19,15 @@ public interface IParagraphFormatEffectiveData
 | Nazwa | Opis |
 | --- | --- |
 | [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | Zwraca wyrównanie tekstu w akapicie. Tylko do odczytu [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Zwraca format punktora w akapicie. Tylko do odczytu [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Zwraca domyślny format części w akapicie. Tylko do odczytu [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | Zwraca format wypunktowania akapitu. Tylko do odczytu [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | Zwraca domyślny format części akapitu. Tylko do odczytu [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
 | [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | Zwraca domyślny rozmiar tabulacji. Tylko do odczytu Single. |
 | [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | Zwraca głębokość akapitu. Tylko do odczytu Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Określa, czy przerwa linii w językach wschodnioazjatyckich jest używana w akapicie. Tylko do odczytu Boolean. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | Określa, czy w akapicie używany jest podział linii wschodnioazjatycki. Tylko do odczytu Boolean. |
 | [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | Zwraca wyrównanie czcionki w akapicie. Tylko do odczytu [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Określa, czy w akapicie używana jest zawieszona interpunkcja. Tylko do odczytu Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Zwraca First Line Indent/Hanging Indent akapitu. Hanging Indent może być zdefiniowany wartościami ujemnymi. Tylko do odczytu Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Określa, czy przerwa linii łacińskiej jest używana w akapicie. Tylko do odczytu Boolean. |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | Określa, czy w akapicie używana jest wisząca interpunkcja. Tylko do odczytu Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | Zwraca wcięcie pierwszej linii/wiśnięcie w akapicie. Wcięcie wiszące może być określone wartościami ujemnymi. Tylko do odczytu Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | Określa, czy w akapicie używany jest podział linii łaciński. Tylko do odczytu Boolean. |
 | [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | Zwraca lewy margines w akapicie. Tylko do odczytu Single. |
 | [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | Zwraca prawy margines w akapicie. Tylko do odczytu Single. |
 | [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | Określa, czy w akapicie używany jest zapis od prawej do lewej. Tylko do odczytu Boolean. |
@@ -38,7 +38,7 @@ public interface IParagraphFormatEffectiveData
 
 ### Uwagi
 
-Ten interfejs jest używany razem z interfejsem [`IParagraphFormat`](../iparagraphformat), aby zwrócić skuteczne wartości formatowania z zastosowanym dziedziczeniem.
+Ten interfejs jest używany razem z [`IParagraphFormat`](../iparagraphformat) interfejsem, aby zwrócić skuteczne wartości formatowania z zastosowanym dziedziczeniem.
 
 ### Zobacz także
 

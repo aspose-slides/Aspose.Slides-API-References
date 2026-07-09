@@ -1,14 +1,14 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta le opzioni per una forma SVG.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta le opzioni per la forma SVG.
 type: docs
-weight: 4470
+weight: 4490
 url: /it/aspose.slides.export/svgevent/
 ---
-## Enumerazione SvgEvent
+## SvgEvent enumerazione
 
-Rappresenta le opzioni per una forma SVG.
+Rappresenta le opzioni per la forma SVG.
 
 ```csharp
 public enum SvgEvent
@@ -18,22 +18,22 @@ public enum SvgEvent
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| OnFocusIn | `0` | Si verifica quando un elemento riceve il focus, ad esempio quando un testo viene selezionato. |
-| OnFocusOut | `1` | Si verifica quando un elemento perde il focus, ad esempio quando un testo non è più selezionato. |
-| OnActivate | `2` | Si verifica quando un elemento viene attivato, ad esempio tramite un clic del mouse o una pressione di tasto. |
+| OnFocusIn | `0` | Si verifica quando un elemento riceve il fuoco, ad esempio quando un testo viene selezionato. |
+| OnFocusOut | `1` | Si verifica quando un elemento perde il fuoco, ad esempio quando un testo non è più selezionato. |
+| OnActivate | `2` | Si verifica quando un elemento è attivato, ad esempio tramite un clic del mouse o una pressione di un tasto. |
 | OnClick | `3` | Si verifica quando il pulsante del dispositivo di puntamento viene cliccato su un elemento. |
 | OnMouseDown | `4` | Si verifica quando il pulsante del dispositivo di puntamento viene premuto su un elemento. |
 | OnMouseUp | `5` | Si verifica quando il pulsante del dispositivo di puntamento viene rilasciato su un elemento. |
 | OnMouseOver | `6` | Si verifica quando il dispositivo di puntamento viene spostato su un elemento. |
-| OnMouseMove | `7` | Si verifica quando il dispositivo di puntamento si muove mentre è sopra un elemento. |
-| OnMouseOut | `8` | Si verifica quando il dispositivo di puntamento si allontana da un elemento. |
-| OnLoad | `9` | Si verifica quando l'agente utente ha analizzato completamente l'elemento, i suoi discendenti e tutte le risorse riferite necessarie per renderizzarlo. |
-| OnUnload | `10` | Si verifica quando l'implementazione del DOM rimuove un documento da una finestra o da un frame. Applicabile solo agli elementi SVG più esterni. |
-| OnAbort | `11` | Si verifica quando il caricamento della pagina viene interrotto prima che un elemento abbia avuto la possibilità di caricarsi completamente. |
-| OnError | `12` | Si verifica quando un elemento non viene caricato correttamente o si verifica un errore durante l'esecuzione di uno script. |
-| OnResize | `13` | Si verifica quando la vista del documento viene ridimensionata. Applicabile solo agli elementi SVG più esterni. |
-| OnScroll | `14` | Si verifica quando la vista del documento viene spostata lungo l'asse X, Y o entrambi. Applicabile solo agli elementi SVG più esterni. |
-| OnZoom | `15` | Si verifica quando il livello di zoom di una vista del documento viene modificato. Applicabile solo agli elementi SVG più esterni. |
+| OnMouseMove | `7` | Si verifica quando il dispositivo di puntamento viene spostato mentre è su un elemento. |
+| OnMouseOut | `8` | Si verifica quando il dispositivo di puntamento si sposta via da un elemento. |
+| OnLoad | `9` | Si verifica quando l’agente utente ha analizzato completamente l’elemento e i suoi discendenti e tutte le risorse di riferimento necessarie per renderizzarlo. |
+| OnUnload | `10` | Si verifica quando l’implementazione DOM rimuove un documento da una finestra o da un frame. Applicabile solo agli elementi SVG più esterni. |
+| OnAbort | `11` | Si verifica quando il caricamento della pagina viene interrotto prima che un elemento possa caricarsi completamente. |
+| OnError | `12` | Si verifica quando un elemento non si carica correttamente o quando si verifica un errore durante l’esecuzione di uno script. |
+| OnResize | `13` | Si verifica quando la vista di un documento viene ridimensionata. Applicabile solo agli elementi SVG più esterni. |
+| OnScroll | `14` | Si verifica quando la vista di un documento viene spostata lungo l’asse X, Y o entrambi. Applicabile solo agli elementi SVG più esterni. |
+| OnZoom | `15` | Si verifica quando il livello di zoom della vista di un documento viene modificato. Applicabile solo agli elementi SVG più esterni. |
 | OnBegin | `16` | Si verifica quando un elemento di animazione inizia. |
 | OnEnd | `17` | Si verifica quando un elemento di animazione termina. |
 | OnRepeat | `18` | Si verifica quando un elemento di animazione si ripete. |

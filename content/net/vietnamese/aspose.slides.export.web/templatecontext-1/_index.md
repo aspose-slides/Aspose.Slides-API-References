@@ -1,14 +1,14 @@
 ---
 title: TemplateContextTObject
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn giao diện đối tượng mô hình cho một công cụ mẫu.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho giao diện đối tượng mô hình cho một công cụ mẫu.
 type: docs
 weight: 4670
 url: /vi/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext<TObject> lớp
 
-Biểu thị giao diện đối tượng mô hình cho một công cụ mẫu.
+Đại diện cho giao diện đối tượng mô hình cho một công cụ mẫu.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -18,10 +18,10 @@ public sealed class TemplateContext<TObject>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Trả về bộ nhớ toàn cục của tài liệu chủ. Chỉ đọc [`Storage`](../storage). |
-| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Trả về bộ nhớ cục bộ của ngữ cảnh mẫu hiện tại. Chỉ đọc [`Storage`](../storage). |
+| [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | Trả về bộ nhớ lưu trữ toàn cục của tài liệu chủ. Chỉ đọc [`Storage`](../storage). |
+| [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | Trả về bộ nhớ lưu trữ cục bộ của ngữ cảnh mẫu hiện tại. Chỉ đọc [`Storage`](../storage). |
 | [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | Trả về đối tượng mô hình. Chỉ đọc !:TObject. |
-| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Trả về bộ sưu tập các phần tử đầu ra của tài liệu chủ. Chỉ đọc [`Output`](./output). |
+| [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | Trả về tập hợp các phần tử đầu ra của tài liệu chủ. Chỉ đọc [`Output`](./output). |
 
 ## Phương thức
 

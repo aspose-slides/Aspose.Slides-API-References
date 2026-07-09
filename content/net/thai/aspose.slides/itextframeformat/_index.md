@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ประกอบด้วยคุณสมบัติการจัดรูปแบบของ TextFrames.
+second_title: Aspose.Sildes for .NET อ้างอิง API
+description: มีคุณสมบัติการจัดรูปแบบของ TextFrames.
 type: docs
 weight: 7280
 url: /th/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat อินเทอร์เฟซ
 
-ประกอบด้วยคุณสมบัติการจัดรูปแบบของ TextFrame.
+Contains the TextFrame's formatting properties.
 
 ```csharp
 public interface ITextFrameFormat
@@ -16,30 +16,30 @@ public interface ITextFrameFormat
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | คืนค่า หรือกำหนดข้อความยึดแนวตั้งใน TextFrame. อ่าน/เขียน [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | คืนค่า หรือกำหนดโหมดการปรับขนาดอัตโนมัติของข้อความ. อ่าน/เขียน [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | หาก NullableBool.True แล้วข้อความควรอยู่กึ่งกลางในกล่องแนวนอน. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | คืนค่า หรือกำหนดจำนวนคอลัมน์ในพื้นที่ข้อความ. ค่านี้ต้องเป็นจำนวนบวก. หากไม่เป็นเช่นนั้น ค่าจะถูกตั้งเป็นศูนย์. ค่า 0 หมายถึงค่าที่ไม่ได้กำหนด. อ่าน/เขียน Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | คืนค่า หรือกำหนดช่องว่างระหว่างคอลัมน์ข้อความในพื้นที่ข้อความ (หน่วยเป็นพอยต์). ค่านี้จะใช้เฉพาะเมื่อมีคอลัมน์มากกว่า 1. ค่านี้ต้องเป็นจำนวนบวก. หากไม่เป็นเช่นนั้น ค่าจะถูกตั้งเป็นศูนย์. อ่าน/เขียน Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | คืนค่า หรือกำหนดการเก็บข้อความให้อยู่นอกฉาก 3D ทั้งหมด. อ่าน/เขียน Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | คืนค่า หรือกำหนดระยะขอบล่าง (หน่วยพอยต์) ใน TextFrame. อ่าน/เขียน Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | คืนค่า หรือกำหนดระยะขอบซ้าย (หน่วยพอยต์) ใน TextFrame. อ่าน/เขียน Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | คืนค่า หรือกำหนดระยะขอบขวา (หน่วยพอยต์) ใน TextFrame. อ่าน/เขียน Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | คืนค่า หรือกำหนดระยะขอบบน (หน่วยพอยต์) ใน TextFrame. อ่าน/เขียน Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | ระบุการหมุนแบบกำหนดเองที่ใช้กับข้อความภายในกรอบ. หากไม่ได้ระบุ จะใช้การหมุนของรูปร่างที่แนบมา. หากระบุแล้ว การหมุนนี้จะถูกนำไปใช้แยกจากรูปร่าง. ซึ่งหมายความว่ารูปร่างสามารถมีการหมุนเพิ่มในขณะที่ข้อความเองก็มีการหมุนที่ทำให้เกิด. ค่าการหมุนที่แสดงผลของข้อความสรุปจากคุณลักษณะนี้และประเภทแนวตั้งที่กำหนดไว้ล่วงหน้าในคุณลักษณะ TextVerticalType. อ่าน/เขียน Single. |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | คืนค่า หรือกำหนดข้อความยึดตั้งแนวตั้งใน TextFrame. อ่าน/เขียน [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | คืนค่า หรือกำหนดโหมดการปรับอัตโนมัติของข้อความ. อ่าน/เขียน [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | หาก NullableBool.True แล้วข้อความควรอยู่กึ่งกลางในกล่องในแนวนอน. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | คืนค่า หรือกำหนดจำนวนคอลัมน์ในพื้นที่ข้อความ. ค่านี้ต้องเป็นจำนวนบวก. ถ้าไม่เป็น จะตั้งค่าเป็นศูนย์. ค่า 0 หมายถึงค่าว่าง. อ่าน/เขียน Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | คืนค่า หรือกำหนดระยะห่างระหว่างคอลัมน์ข้อความในพื้นที่ข้อความ (เป็นจุด). ควรใช้เฉพาะเมื่อมีมากกว่าหนึ่งคอลัมน์. ค่านี้ต้องเป็นจำนวนบวก. หากไม่เป็น จะตั้งเป็นศูนย์. อ่าน/เขียน Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | คืนค่า หรือกำหนดการทำให้ข้อความไม่อยู่ในฉาก 3 มิติเลย. อ่าน/เขียน Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | คืนค่า หรือกำหนดระยะขอบล่าง (จุด) ใน TextFrame. อ่าน/เขียน Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | คืนค่า หรือกำหนดระยะขอบซ้าย (จุด) ใน TextFrame. อ่าน/เขียน Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | คืนค่า หรือกำหนดระยะขอบขวา (จุด) ใน TextFrame. อ่าน/เขียน Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | คืนค่า หรือกำหนดระยะขอบบน (จุด) ใน TextFrame. อ่าน/เขียน Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | ระบุการหมุนแบบกำหนดเองที่นำไปใช้กับข้อความภายในกล่องขอบเขต. ถ้าไม่ได้ระบุ จะใช้การหมุนของรูปร่างที่แนบมา. หากระบุแล้ว การหมุนนี้จะถูกนำไปใช้แยกจากรูปร่าง. หมายความว่ารูปร่างอาจมีการหมุนเพิ่มนอกเหนือจากการหมุนของข้อความ. ค่าการหมุนของข้อความที่ได้สรุปจากคุณสมบัตินี้และประเภทแนวตั้งที่กำหนดไว้ล่วงหน้าในคุณสมบัติ TextVerticalType. อ่าน/เขียน Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | คืนสไตล์ของข้อความ. อ่านอย่างเดียว [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | กำหนดการวางแนวข้อความ. ค่าการหมุนที่แสดงผลของข้อความสรุปจากคุณลักษณะนี้และมุมกำหนดเองในคุณลักษณะ RotationAngle. อ่าน/เขียน [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | คืนอ็อบเจ็กต์ ThreeDFormat ที่เป็นตัวแทนของคุณสมบัติเสียง 3D สำหรับข้อความ. อ่านอย่างเดียว [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | รับหรือกำหนดรูปร่างการตัดบรรทัดข้อความ. อ่าน/เขียน [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** หากข้อความถูกตัดบรรทัดที่ขอบของ TextFrame. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | กำหนดทิศทางของข้อความ. ค่าการหมุนที่แสดงของข้อความที่สรุปจากคุณสมบัตินี้และมุมกำหนดเองในคุณสมบัติ RotationAngle. อ่าน/เขียน [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | คืนอ็อบเจ็กต์ ThreeDFormat ที่แสดงคุณลักษณะเอฟเฟกต์ 3 มิติสำหรับข้อความ. อ่านอย่างเดียว [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | รับหรือกำหนดรูปแบบการห่อหุ้มข้อความ. อ่าน/เขียน [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** หากข้อความถูกห่อหุ้มที่ขอบของ TextFrame. อ่าน/เขียน [`NullableBool`](../nullablebool). |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | รับข้อมูลการจัดรูปแบบ TextFrame อย่างมีประสิทธิภาพพร้อมการสืบทอดที่ใช้. |
+| [GetEffective](../../aspose.slides/itextframeformat/geteffective)() | รับข้อมูลการกำหนดรูปแบบของ text frame ที่มีผลโดยมีการสืบทอดการตั้งค่า. |
 
 ### ดูเพิ่มเติม
 

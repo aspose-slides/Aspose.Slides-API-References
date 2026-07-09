@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTypeLib
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แทนการอ้างอิงไลบรารีประเภท OLE Automation.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation.
 type: docs
 weight: 11610
 url: /th/aspose.slides.vba/ivbareferenceoletypelib/
 ---
 ## IVbaReferenceOleTypeLib อินเทอร์เฟซ
 
-แทนการอ้างอิงไลบรารีประเภท OLE Automation.
+แสดงถึงการอ้างอิงไลบรารีประเภท OLE Automation.
 
 ```csharp
 public interface IVbaReferenceOleTypeLib : IVbaReference
@@ -18,8 +18,8 @@ public interface IVbaReferenceOleTypeLib : IVbaReference
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | ส่งคืน IVbaReference อินเทอร์เฟซ. อ่านอย่างเดียว [`IVbaReference`](../ivbareference). |
-| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | แทนตัวระบุของไลบรารีประเภท Automation. อ่าน/เขียน String. |
+| [AsIVbaReference](../../aspose.slides.vba/ivbareferenceoletypelib/asivbareference) { get; } | ส่งคืนอินเทอร์เฟซ IVbaReference. อ่านอย่างเดียว [`IVbaReference`](../ivbareference). |
+| [Libid](../../aspose.slides.vba/ivbareferenceoletypelib/libid) { get; set; } | เป็นตัวระบุของไลบรารีชนิด Automation. อ่าน/เขียน String. |
 
 ### ดูเพิ่มเติม
 

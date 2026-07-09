@@ -1,14 +1,14 @@
 ---
 title: PortionFactory
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 테스트 부분을 생성할 수 있습니다
+second_title: Aspose.Sildes for .NET API 참조
+description: 테스트 부분을 만들 수 있습니다
 type: docs
 weight: 9480
 url: /ko/aspose.slides/portionfactory/
 ---
 ## PortionFactory 클래스
 
-테스트 부분을 생성할 수 있습니다
+테스트 부분을 만들 수 있습니다.
 
 ```csharp
 public class PortionFactory : IPortionFactory

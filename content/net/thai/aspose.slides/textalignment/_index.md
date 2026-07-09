@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงสไตล์การจัดแนวข้อความที่แตกต่างกัน
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงสไตล์การจัดแนวข้อความที่แตกต่างกัน.
 type: docs
 weight: 10900
 url: /th/aspose.slides/textalignment/
 ---
-## การนับประเภท TextAlignment
+## การนับค่า TextAlignment
 
-แทนสไตล์การจัดแนวข้อความที่ต่างกัน
+แสดงสไตล์การจัดแนวข้อความต่างๆ
 
 ```csharp
 public enum TextAlignment
@@ -18,13 +18,13 @@ public enum TextAlignment
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | การจัดแนวเริ่มต้น |
-| Left | `0` | การจัดแนวซ้าย |
-| Center | `1` | การจัดแนวศูนย์กลาง |
-| Right | `2` | การจัดแนวขวา |
-| Justify | `3` | การจัดแนวเต็มบรรทัด |
-| JustifyLow | `4` | การจัดแนวคาชิดาต่ำ |
-| Distributed | `5` | การจัดแนวแบบกระจาย |
+| NotDefined | `-1` | การจัดแนวเริ่มต้น. |
+| Left | `0` | การจัดแนวซ้าย. |
+| Center | `1` | การจัดแนวกึ่งกลาง. |
+| Right | `2` | การจัดแนวขวา. |
+| Justify | `3` | การจัดแนวเต็มบรรทัด. |
+| JustifyLow | `4` | การจัดแนว Kashida ต่ำ. |
+| Distributed | `5` | การจัดแนวกระจาย. |
 
 ### ดูเพิ่มเติม
 

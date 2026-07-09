@@ -1,26 +1,26 @@
 ---
 title: DisplayBlanksAsType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดวิธีที่จะแสดงข้อมูลที่ขาดหาย.
+description: กำหนดวิธีการแสดงข้อมูลที่ขาดหาย.
 type: docs
 weight: 1610
 url: /th/aspose.slides.charts/displayblanksastype/
 ---
-## DisplayBlanksAsType enum
+## enum DisplayBlanksAsType
 
-กำหนดวิธีการแสดงข้อมูลที่ขาดหาย
+กำหนดวิธีการแสดงข้อมูลที่ขาดหาย.
 
 ```csharp
 public enum DisplayBlanksAsType
 ```
 
-### ค่า
+### ค่าต่างๆ
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| Gap | `0` | ระบุว่าค่าที่ว่างเปล่าจะถูกทิ้งไว้เป็นช่องว่าง. |
-| Span | `1` | ระบุว่าค่าที่ว่างเปล่าจะถูกเชื่อมต่อด้วยเส้น. |
-| Zero | `2` | ระบุว่าค่าที่ว่างเปล่าจะถูกจัดเป็นศูนย์. |
+| Gap | `0` | ระบุว่าค่าที่ว่างควรปล่อยเป็นช่องว่าง |
+| Span | `1` | ระบุว่าค่าที่ว่างควรเชื่อมต่อด้วยเส้น |
+| Zero | `2` | ระบุว่าค่าที่ว่างควรถือเป็นศูนย์ |
 
 ### ดูเพิ่มเติม
 

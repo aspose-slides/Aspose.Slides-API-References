@@ -3,12 +3,12 @@ title: Column
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tabloda bir sütunu temsil eder.
 type: docs
-weight: 2570
+weight: 2590
 url: /tr/aspose.slides/column/
 ---
 ## Column sınıfı
 
-Bir tabloda bir sütunu temsil eder.
+Bir tablodaki sütunu temsil eder.
 
 ```csharp
 public sealed class Column : CellCollection, IColumn
@@ -16,25 +16,25 @@ public sealed class Column : CellCollection, IColumn
 
 ## Özellikler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
-| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Bu sütun için biçimlendirme özelliklerini içeren ColumnFormat nesnesini döndürür. Salt-okunur [`IColumnFormat`](../icolumnformat). |
-| [Count](../../aspose.slides/cellcollection/count) { get; } | Bir koleksiyondaki hücre sayısını döndürür. Salt-okunur Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değeri döndürür. Salt-okunur Boolean. |
-| [Item](../../aspose.slides/cellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Salt-okunur [`Cell`](../cell). |
-| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Bir CellCollection'ın ana sunumunu döndürür. Salt-okunur [`IPresentation`](../ipresentation). |
-| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Bir CellCollection'ın ana slaytını döndürür. Salt-okunur [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
+| [ColumnFormat](../../aspose.slides/column/columnformat) { get; } | Bu sütun için biçimlendirme özelliklerini içeren ColumnFormat nesnesini döndürür. Yalnızca okunur [`IColumnFormat`](../icolumnformat). |
+| [Count](../../aspose.slides/cellcollection/count) { get; } | Koleksiyondaki hücre sayısını döndürür. Yalnızca okunur Int32. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değeri döndürür. Yalnızca okunur Boolean. |
+| [Item](../../aspose.slides/cellcollection/item) { get; } | Pozisyonuna göre bir hücre döndürür. Yalnızca okunur [`Cell`](../cell). |
+| [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Bir CellCollection'ın üst sunumunu döndürür. Yalnızca okunur [`IPresentation`](../ipresentation). |
+| [Slide](../../aspose.slides/cellcollection/slide) { get; } | Bir CellCollection'ın üst slaytını döndürür. Yalnızca okunur [`IBaseSlide`](../ibaseslide). |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okunur Object. |
 | [Width](../../aspose.slides/column/width) { get; set; } | Bir sütunun genişliğini döndürür veya ayarlar. Okunur/yazılabilir Double. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| Name | Description |
 | --- | --- |
 | [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat)(IParagraphFormat) | Tanımlı paragraf biçim özelliklerini tüm sütun hücrelerinin paragraflarına ayarlar. |
-| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Tanımlı parça biçim özelliklerini tüm sütun hücrelerinin parçalarına ayarlar. |
+| [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_1)(IPortionFormat) | Tanımlı bölüm biçim özelliklerini tüm sütun hücrelerinin bölümlerine ayarlar. |
 | [SetTextFormat](../../aspose.slides/column/settextformat#settextformat_2)(ITextFrameFormat) | Tanımlı metin çerçevesi biçim özelliklerini tüm sütun hücrelerinin metin çerçevelerine ayarlar. |
 
 ### Ayrıca Bakınız

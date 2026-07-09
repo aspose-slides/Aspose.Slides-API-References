@@ -18,10 +18,10 @@ public enum EffectChartMinorGroupingType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| ByElementInSeries | `0` | 시리즈의 요소별로 차트를 애니메이션합니다 |
-| ByElementInCategory | `1` | 카테고리의 요소별로 차트를 애니메이션합니다 |
+| ByElementInSeries | `0` | 시리즈의 요소별 차트 애니메이션 |
+| ByElementInCategory | `1` | 카테고리의 요소별 차트 애니메이션 |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IScaleEffect
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एनिमेशन स्केल इफ़ेक्ट का प्रतिनिधित्व करता है।
+description: एनीमेशन स्केल प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 580
 url: /hi/aspose.slides.animation/iscaleeffect/
 ---
 ## IScaleEffect इंटरफ़ेस
 
-एनिमेशन स्केल इफ़ेक्ट का प्रतिनिधित्व करता है।
+एनीमेशन स्केल प्रभाव का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IScaleEffect : IBehavior
@@ -18,13 +18,13 @@ public interface IScaleEffect : IBehavior
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBehavior`](../ibehavior)। |
-| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | एनिमेशन के लिए सापेक्ष ऑफ़सेट मान (प्रतिशत में) का वर्णन करता है। पढ़ने/लिखने योग्य PointF। |
-| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | एनिमेशन शुरू करने के लिए x/y समन्वय (प्रतिशत में) निर्दिष्ट करता है। पढ़ने/लिखने योग्य PointF। |
-| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | एनिमेशन स्केल इफ़ेक्ट के लिए लक्ष्य स्थान (प्रतिशत में) निर्दिष्ट करता है। पढ़ने/लिखने योग्य PointF। |
+| [AsIBehavior](../../aspose.slides.animation/iscaleeffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IBehavior`](../ibehavior)। |
+| [By](../../aspose.slides.animation/iscaleeffect/by) { get; set; } | एनीमेशन के लिए सापेक्ष ऑफसेट मान का वर्णन करता है (प्रतिशतम में)। पढ़ने/लिखने योग्य PointF। |
+| [From](../../aspose.slides.animation/iscaleeffect/from) { get; set; } | एनीमेशन शुरू करने के लिए x/y समन्वय निर्दिष्ट करता है (प्रतिशतम में)। पढ़ने/लिखने योग्य PointF। |
+| [To](../../aspose.slides.animation/iscaleeffect/to) { get; set; } | एनीमेशन स्केल प्रभाव के लिए लक्ष्य स्थान को निर्दिष्ट करता है (प्रतिशतम में)। पढ़ने/लिखने योग्य PointF। |
 | [ZoomContent](../../aspose.slides.animation/iscaleeffect/zoomcontent) { get; set; } | निर्धारित करता है कि सामग्री को ज़ूम किया जाना चाहिए या नहीं। पढ़ने/लिखने योग्य [`NullableBool`](../../aspose.slides/nullablebool)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IBehavior](../ibehavior)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)

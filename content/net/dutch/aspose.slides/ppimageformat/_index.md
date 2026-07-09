@@ -1,14 +1,14 @@
 ---
 title: PPImageFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Afbeeldingsformaten. Deze enumeratie vervangt de System.Drawing.Imaging.ImageFormat klasse. Het is nodig voor COM-compatibiliteit.
+description: Afbeeldingsformaten. Deze enum is vervanging voor de System.Drawing.Imaging.ImageFormat klasse. Het is nodig voor COM-compatibiliteit.
 type: docs
 weight: 9260
 url: /nl/aspose.slides/ppimageformat/
 ---
-## PPImageFormat enumeration
+## PPImageFormat enumeratie
 
-Afbeeldingsformaten. Deze enumeratie is een vervanging voor de `System.Drawing.Imaging.ImageFormat` klasse. Het is nodig voor COM-compatibiliteit.
+Afbeeldingsformaten. Deze enum is vervanging voor `System.Drawing.Imaging.ImageFormat` klasse. Het is nodig voor COM-compatibiliteit.
 
 ```csharp
 public enum PPImageFormat
@@ -18,16 +18,16 @@ public enum PPImageFormat
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| Bmp | `0` | Haalt het bitmap (BMP) afbeeldingsformaat op. |
-| Emf | `1` | Haalt het enhanced metafile (EMF) afbeeldingsformaat op. |
-| Exif | `2` | Haalt het Exchangeable Image File (Exif) formaat op. |
-| Gif | `3` | Haalt het Graphics Interchange Format (GIF) afbeeldingsformaat op. |
-| Icon | `4` | Haalt het Windows-icoon afbeeldingsformaat op. |
-| Jpeg | `5` | Haalt het Joint Photographic Experts Group (JPEG) afbeeldingsformaat op. |
-| MemoryBmp | `6` | Haalt het formaat van een bitmap in het geheugen op. |
-| Png | `7` | Haalt het W3C Portable Network Graphics (PNG) afbeeldingsformaat op. |
-| Tiff | `8` | Haalt het Tagged Image File Format (TIFF) afbeeldingsformaat op. |
-| Wmf | `9` | Haalt het Windows-metafile (WMF) afbeeldingsformaat op. |
+| Bmp | `0` | Geeft het bitmap (BMP) afbeeldingsformaat. |
+| Emf | `1` | Geeft het verbeterde metafile (EMF) afbeeldingsformaat. |
+| Exif | `2` | Geeft het Exchangeable Image File (Exif) formaat. |
+| Gif | `3` | Geeft het Graphics Interchange Format (GIF) afbeeldingsformaat. |
+| Icon | `4` | Geeft het Windows-pictogram afbeeldingsformaat. |
+| Jpeg | `5` | Geeft het Joint Photographic Experts Group (JPEG) afbeeldingsformaat. |
+| MemoryBmp | `6` | Geeft het formaat van een bitmap in het geheugen. |
+| Png | `7` | Geeft het W3C Portable Network Graphics (PNG) afbeeldingsformaat. |
+| Tiff | `8` | Geeft het Tagged Image File Format (TIFF) afbeeldingsformaat. |
+| Wmf | `9` | Geeft het Windows-metafile (WMF) afbeeldingsformaat. |
 
 ### Zie ook
 

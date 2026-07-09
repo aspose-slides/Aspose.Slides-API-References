@@ -1,14 +1,14 @@
 ---
 title: IMathSuperscriptElement
-second_title: Referência da API Aspose.Sildes para .NET
-description: Especifica o objeto sobrescrito que consiste em uma base e um sobrescrito de tamanho reduzido posicionado acima e à direita
+second_title: Referência API Aspose.Sildes para .NET
+description: Especifica o objeto sobrescrito que consiste em uma base e um sobrescrito de tamanho reduzido colocado acima e à direita
 type: docs
-weight: 8470
+weight: 8490
 url: /pt/aspose.slides.mathtext/imathsuperscriptelement/
 ---
-## interface IMathSuperscriptElement
+## IMMathSuperscriptElement interface
 
-Especifica o objeto sobrescrito, que consiste em uma base e um sobrescrito de tamanho reduzido posicionado acima e à direita
+Especifica o objeto sobrescrito, que consiste em uma base e um sobrescrito de tamanho reduzido colocado acima e à direita
 
 ```csharp
 public interface IMathSuperscriptElement : IMathElement
@@ -31,7 +31,7 @@ Exemplo:
 IMathSuperscriptElement superscriptElement = new MathematicalText("N").SetSuperscript("i");
 ```
 
-### Veja Também
+### Ver também
 
 * interface [IMathElement](../imathelement)
 * namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)

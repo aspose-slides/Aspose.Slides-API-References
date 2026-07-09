@@ -1,14 +1,14 @@
 ---
 title: IHSLEffectiveData
 second_title: Aspose.Sildes .NET API hivatkozás
-description: Hue/Saturation/Luminance effektust ábrázol. A hue, saturation és luminance értékek mindegyike a jelenlegi értékhez képest állítható.
+description: Hue/Saturation/Luminance hatást reprezentál. Az árnyalat, a telítettség és a fényerő mindegyike a jelenlegi értékéhez képest állítható.
 type: docs
-weight: 3350
+weight: 3370
 url: /hu/aspose.slides.effects/ihsleffectivedata/
 ---
 ## IHSLEffectiveData interfész
 
-Egy Hue/Saturation/Luminance effektust ábrázol. A hue, saturation és luminance értékek mindegyike a jelenlegi értékhez képest állítható.
+Egy Hue/Saturation/Luminance hatást reprezentál. Az árnyalat, a telítettség és a fényerő mindegyike a jelenlegi értékéhez képest állítható.
 
 ```csharp
 public interface IHSLEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IHSLEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Visszaadja a hue százalékát. Csak olvasható Single. |
-| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Visszaadja a luminancia százalékát. Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ihsleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/ihsleffectivedata/hue) { get; } | Visszaadja az árnyalat százalékát. Csak olvasható Single. |
+| [Luminance](../../aspose.slides.effects/ihsleffectivedata/luminance) { get; } | Visszaadja a fényerő százalékát. Csak olvasható Single. |
 | [Saturation](../../aspose.slides.effects/ihsleffectivedata/saturation) { get; } | Visszaadja a telítettség százalékát. Csak olvasható Single. |
 
 ### Lásd még

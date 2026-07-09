@@ -1,6 +1,6 @@
 ---
 title: VbaReferenceCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: VBA 프로젝트 참조의 컬렉션을 나타냅니다.
 type: docs
 weight: 11670
@@ -16,22 +16,22 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 새로운 참조를 참조 컬렉션에 추가합니다 |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 새 참조를 참조 컬렉션에 추가합니다. |
 | [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 
-### 또 보기
+### 관련 항목
 
 * 인터페이스 [IVbaReferenceCollection](../ivbareferencecollection)
 * 네임스페이스 [Aspose.Slides.Vba](../../aspose.slides.vba)

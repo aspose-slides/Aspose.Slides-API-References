@@ -1,6 +1,6 @@
 ---
 title: IRotationEffect
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과의 회전 동작을 나타냅니다.
 type: docs
 weight: 570
@@ -19,9 +19,9 @@ public interface IRotationEffect : IBehavior
 | 이름 | 설명 |
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | 기본 IBehavior 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 애니메이션에 대한 상대적 오프셋 값을 설명합니다. 읽기/쓰기 Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 애니메이션 시작 값을 설명합니다. 읽기/쓰기 Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 애니메이션 종료 값을 설명합니다. 읽기/쓰기 Single. |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | 애니메이션에 대한 상대 오프셋 값을 설명합니다. 읽기/쓰기 Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | 애니메이션에 대한 시작 값을 설명합니다. 읽기/쓰기 Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | 애니메이션에 대한 종료 값을 설명합니다. 읽기/쓰기 Single. |
 
 ### 참고
 

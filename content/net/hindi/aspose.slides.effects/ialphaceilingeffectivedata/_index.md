@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeilingEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से अधिक Alpha अपारदर्शिता मानों को 100 में बदल दिया जाता है। दूसरे शब्दों में, कोई भी आंशिक रूप से अपारदर्शी चीज़ पूरी तरह अपारदर्शी हो जाती है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha opacity मान को 100 में बदल दिया जाता है। दूसरे शब्दों में, जो भी आंशिक रूप से अपारदर्शी है वह पूरी तरह से अपारदर्शी बन जाता है।
 type: docs
 weight: 3050
 url: /hi/aspose.slides.effects/ialphaceilingeffectivedata/
 ---
 ## IAlphaCeilingEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha (अस्पष्टता) मानों को 100% में परिवर्तित कर दिया जाता है। दूसरे शब्दों में, किसी भी आंशिक रूप से अपारदर्शी चीज़ को पूरी तरह अपारदर्शी बना दिया जाता है।
+एक अपरिवर्तनीय ऑब्जेक्ट जो Alpha Ceiling प्रभाव का प्रतिनिधित्व करता है। शून्य से बड़े Alpha (अस्पष्टता) मान को 100% में बदल दिया जाता है। दूसरे शब्दों में, जो भी आंशिक रूप से अपारदर्शी है वह पूरी तरह से अपारदर्शी बन जाता है।
 
 ```csharp
 public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface IAlphaCeilingEffectiveData : IEffectEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaceilingeffectivedata/asieffecteffectivedata) { get; } | बेस IEffectEffectiveData इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IEffectEffectiveData`](../ieffecteffectivedata)। |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectEffectiveData](../ieffecteffectivedata)
 * नामस्थान [Aspose.Slides.Effects](../../aspose.slides.effects)

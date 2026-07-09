@@ -1,26 +1,26 @@
 ---
 title: ForEach.ForEachPortionCallback
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ Portion./foreach/portion ใน Paragraph./foreach/paragraph บน BaseSlide../aspose.slides/baseslide.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ Portion./foreach/portion ใน Paragraph./foreach/paragraph บน BaseSlide../aspose.slides/baseslide.
 type: docs
 weight: 7940
 url: /th/aspose.slides.lowcode/foreach.foreachportioncallback/
 ---
-## ForEach.ForEachPortionCallback delegate
+## ForEach.ForEachPortionCallback ตัวแทน
 
-คอลแบ็กที่จะถูกเรียกสำหรับแต่ละ [`Portion`](../foreach/portion) ใน [`Paragraph`](../foreach/paragraph) บน [`BaseSlide`](../../aspose.slides/baseslide).
+คอลแบ็กที่จะถูกเรียกใช้สำหรับแต่ละ [`Portion`](../foreach/portion) ใน [`Paragraph`](../foreach/paragraph) บน [`BaseSlide`](../../aspose.slides/baseslide).
 
 ```csharp
 public delegate void ForEachPortionCallback(Portion portion, Paragraph para, BaseSlide slide, 
     int index);
 ```
 
-| พารามิเตอร์ | ประเภท | คำอธิบาย |
+| พารามิเตอร์ | ชนิด | คำอธิบาย |
 | --- | --- | --- |
-| portion | Portion | ส่วนที่กำลังวนซ้ำในปัจจุบัน |
-| para | Paragraph | ย่อหน้าที่กำลังวนซ้ำในปัจจุบัน |
-| slide | BaseSlide | สไลด์ที่กำลังวนซ้ำในปัจจุบัน |
-| index | Int32 | ดัชนีของส่วนที่กำลังวนซ้ำในย่อหน้า |
+| portion | Portion | ส่วนที่กำลังทำซ้ำปัจจุบัน |
+| para | Paragraph | ย่อหน้าที่กำลังทำซ้ำปัจจุบัน |
+| slide | BaseSlide | สไลด์ที่กำลังทำซ้ำปัจจุบัน |
+| index | Int32 | ดัชนีของส่วนที่กำลังทำซ้ำในย่อหน้า |
 
 ### ดูเพิ่มเติม
 

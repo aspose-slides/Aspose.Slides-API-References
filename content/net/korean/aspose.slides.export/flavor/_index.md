@@ -18,34 +18,34 @@ public enum Flavor
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Github | `0` | Github 플레버. |
-| Gruber | `1` | Gruber 플레버. |
-| MultiMarkdown | `2` | Multi markdown 플레버. |
-| CommonMark | `3` | Common mark 플레버. |
-| MarkdownExtra | `4` | Markdown extra 플레버. |
-| Pandoc | `5` | Pandoc 플레버. |
-| Kramdown | `6` | Kramdown 플레버. |
-| Markua | `7` | Markua 플레버. |
-| Maruku | `8` | Maruku 플레버. |
-| Markdown2 | `9` | Markdown2 플레버. |
-| Remarkable | `10` | Remarkable 플레버 |
-| Showdown | `11` | Showdown 플레버. |
-| Ghost | `12` | Ghost 플레버. |
-| GitLab | `13` | Gitlab 플레버. |
-| Haroopad | `14` | Haroopad 플레버. |
-| IaWriter | `15` | IAWriter 플레버. |
-| Redcarpet | `16` | Redcarpet 플레버. |
-| ScholarlyMarkdown | `17` | Scholarly markdown 플레버. |
-| Taiga | `18` | Taiga 플레버. |
-| Trello | `19` | Trello 플레버. |
-| S9ETextFormatter | `20` | S9E text formatter 플레버. |
-| XWiki | `21` | XWiki 플레버. |
-| StackOverflow | `22` | Stack overflow 플레버. |
-| Default | `23` | Default markdown 플레버. |
+| Github | `0` | Github 변형. |
+| Gruber | `1` | Gruber 변형. |
+| MultiMarkdown | `2` | Multi 마크다운 변형. |
+| CommonMark | `3` | Common mark 변형. |
+| MarkdownExtra | `4` | Markdown extra 변형. |
+| Pandoc | `5` | Pandoc 변형. |
+| Kramdown | `6` | Kramdown 변형. |
+| Markua | `7` | Markua 변형. |
+| Maruku | `8` | Maruku 변형. |
+| Markdown2 | `9` | Markdown2 변형. |
+| Remarkable | `10` | Remarkable 변형 |
+| Showdown | `11` | Showdown 변형. |
+| Ghost | `12` | Ghost 변형. |
+| GitLab | `13` | Gitlab 변형. |
+| Haroopad | `14` | Haroopad 변형. |
+| IaWriter | `15` | IAWriter 변형. |
+| Redcarpet | `16` | Redcarpet 변형. |
+| ScholarlyMarkdown | `17` | Scholarly 마크다운 변형. |
+| Taiga | `18` | Taiga 변형. |
+| Trello | `19` | Trello 변형. |
+| S9ETextFormatter | `20` | S9E text formatter 변형. |
+| XWiki | `21` | XWiki 변형. |
+| StackOverflow | `22` | Stack overflow 변형. |
+| Default | `23` | Default 마크다운 변형. |
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
@@ -66,7 +66,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,39 +1,39 @@
 ---
 title: ColorOperation
 second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนความดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี. วัตถุไม่เปลี่ยนแปลงค่า.
+description: แสดงถึงการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี เป็นอ็อบเจ็กต์ที่ไม่เปลี่ยนแปลง.
 type: docs
 weight: 2530
 url: /th/aspose.slides/coloroperation/
 ---
 ## ColorOperation คลาส
 
-แทนความดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี วัตถุไม่เปลี่ยนแปลงค่า
+แสดงถึงการดำเนินการสีต่าง ๆ ที่ใช้สำหรับการแปลงสี อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลง
 
 ```csharp
 public class ColorOperation : IColorOperation
 ```
 
-## คอนสตรักเตอร์
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | สร้างการแปลงสีใหม่ |
-| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | สร้างการแปลงสีใหม่ |
+| [ColorOperation](coloroperation#constructor)(ColorTransformOperation) | สร้างการดำเนินการแปลงสีใหม่ |
+| [ColorOperation](coloroperation#constructor_1)(ColorTransformOperation, float) | สร้างการดำเนินการแปลงสีใหม่ |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | คืนค่า หรือกำหนดประเภทของการดำเนินการ. อ่านอย่างเดียว [`ColorTransformOperation`](../colortransformoperation). |
-| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | คืนค่าพารามิเตอร์ของการดำเนินการ. อ่านอย่างเดียว Single. |
+| [OperationType](../../aspose.slides/coloroperation/operationtype) { get; } | คืนค่า หรือกำหนดประเภทของการดำเนินการ อ่านอย่างเดียว [`ColorTransformOperation`](../colortransformoperation) |
+| [Parameter](../../aspose.slides/coloroperation/parameter) { get; } | คืนค่าพารามิเตอร์ของการดำเนินการ อ่านอย่างเดียว Single |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides/coloroperation/equals)(object) | กำหนดว่าตัวอย่าง ColorOperation สองตัวเท่ากันหรือไม่ |
-| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ เหมาะสำหรับการใช้งานในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช |
+| override [GetHashCode](../../aspose.slides/coloroperation/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ ที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูล เช่น ตารางแฮช |
 
 ### ดูเพิ่มเติม
 

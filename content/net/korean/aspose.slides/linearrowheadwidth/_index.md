@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadWidth
-second_title: Aspose.Sildes for .NET API 참조
-description: 화살촉의 너비를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 화살표 머리의 너비를 나타냅니다.
 type: docs
 weight: 7750
 url: /ko/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth 열거형
 
-화살촉의 너비를 나타냅니다.
+화살표 머리의 너비를 나타냅니다.
 
 ```csharp
 public enum LineArrowheadWidth : sbyte

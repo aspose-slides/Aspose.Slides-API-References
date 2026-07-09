@@ -21,9 +21,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | IActualLayout 인터페이스를 반환합니다. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | 기본 ILayoutable 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | 플롯 영역의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 플롯 영역의 레이아웃이 수동으로 정의된 경우 이 속성은 플롯 영역을 내부(축 및 축 레이블 제외)로 레이아웃할지 외부(축 및 축 레이블 포함)로 레이아웃할지를 지정합니다. 읽기/쓰기 [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | 플롯 영역의 레이아웃을 수동으로 정의한 경우, 이 속성은 플롯 영역을 내부(축 및 축 레이블 제외)로 레이아웃할지 외부(축 및 축 레이블 포함)로 레이아웃할지를 지정합니다. 읽기/쓰기 [`LayoutTargetType`](./layouttargettype). |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IActualLayout](../iactuallayout)
 * 인터페이스 [ILayoutable](../ilayoutable)

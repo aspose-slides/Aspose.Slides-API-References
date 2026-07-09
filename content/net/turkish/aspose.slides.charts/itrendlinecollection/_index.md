@@ -1,9 +1,9 @@
 ---
 title: ITrendlineCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: TrendlineEx koleksiyonunu temsil eder
 type: docs
-weight: 2230
+weight: 2250
 url: /tr/aspose.slides.charts/itrendlinecollection/
 ---
 ## ITrendlineCollection arayüzü
@@ -18,15 +18,15 @@ public interface ITrendlineCollection : IEnumerable<ITrendline>
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Temel IEnumerable arabirimine erişim sağlar. Salt okunur IEnumerable. |
-| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt okunur Int32. |
+| [AsIEnumerable](../../aspose.slides.charts/itrendlinecollection/asienumerable) { get; } | Temel IEnumerable arayüzünü almayı sağlar. Salt okunur IEnumerable. |
+| [Count](../../aspose.slides.charts/itrendlinecollection/count) { get; } | Koleksiyonda gerçekte bulunan eleman sayısını alır. Salt okunur Int32. |
 | [Item](../../aspose.slides.charts/itrendlinecollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`ITrendline`](../itrendline). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Yeni Trendline'ı koleksiyonun sonuna ekler ve onu döndürür. |
+| [Add](../../aspose.slides.charts/itrendlinecollection/add)(TrendlineType) | Yeni Trendline'ı koleksiyonun sonuna ekler ve döndürür. |
 | [Remove](../../aspose.slides.charts/itrendlinecollection/remove)(ITrendline) | Belirtilen değeri kaldırır. |
 
 ### Ayrıca Bakınız

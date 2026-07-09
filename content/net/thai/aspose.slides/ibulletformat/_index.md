@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงคุณสมบัติการจัดรูปแบบสัญลักษณ์หัวข้อย่อยของย่อหน้า.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงคุณสมบัติการจัดรูปแบบ bullet ของย่อหน้า.
 type: docs
 weight: 5390
 url: /th/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติการจัดรูปแบบสัญลักษณ์หัวข้อย่อยของย่อหน้า.
+แสดงคุณสมบัติการจัดรูปแบบ bullet ของย่อหน้า.
 
 ```csharp
 public interface IBulletFormat
@@ -18,23 +18,23 @@ public interface IBulletFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | คืนค่า หรือกำหนดอักขระหัวข้อย่อยของย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | คืนค่า ฟอร์แมตสีของสัญลักษณ์หัวข้อย่อยของย่อหน้าโดยไม่มีการสืบทอด. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | คืนค่า หรือกำหนดฟอนต์ของสัญลักษณ์หัวข้อย่อยของย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | คืนค่า หรือกำหนดความสูงของสัญลักษณ์หัวข้อย่อยของย่อหน้าโดยไม่มีการสืบทอด. ค่า float.NaN ระบุว่าหัวข้อย่อยสืบทอดความสูงจากส่วนแรกในย่อหน้า. อ่าน/เขียน Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | กำหนดว่าหัวข้อย่อยมีสีของตนเองหรือสืบทอดจากส่วนแรกในย่อหน้า. **NullableBool.True** หากหัวข้อย่อยมีสีของตนเองและ **NullableBool.False** หากหัวข้อย่อยสืบทอดสีจากส่วนแรกในย่อหน้า. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | กำหนดว่าหัวข้อย่อยมีฟอนต์ของตนเองหรือสืบทอดจากส่วนแรกในย่อหน้า. **NullableBool.True** หากหัวข้อย่อยมีฟอนต์ของตนเองและ **NullableBool.False** หากหัวข้อย่อยสืบทอดฟอนต์จากส่วนแรกในย่อหน้า. อ่าน/เขียน [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | คืนค่า หรือกำหนดเลขแรกที่ใช้สำหรับกลุ่มสัญลักษณ์หัวข้อย่อยที่มีหมายเลขโดยไม่มีการสืบทอด. อ่าน/เขียน Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ของหัวข้อย่อยที่มีหมายเลขโดยไม่มีการสืบทอด. อ่าน/เขียน [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | คืนค่าภาพที่ใช้เป็นสัญลักษณ์หัวข้อย่อยในย่อหน้าโดยไม่มีการสืบทอด. อ่านอย่างเดียว [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | คืนค่า หรือกำหนดประเภทของสัญลักษณ์หัวข้อย่อยของย่อหน้าโดยไม่มีการสืบทอด. อ่าน/เขียน [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | คืนค่า หรือกำหนดอักขระสัญลักษณ์หัวข้อของย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | คืนค่าฟอร์แมตสีของสัญลักษณ์หัวข้อของย่อหน้าที่ไม่มีการสืบทอด. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | คืนค่า หรือกำหนดแบบอักษรสัญลักษณ์หัวข้อของย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | คืนค่า หรือกำหนดความสูงสัญลักษณ์หัวข้อของย่อหน้าที่ไม่มีการสืบทอด. ค่า float.NaN ระบุให้สัญลักษณ์หัวข้อสืบทอดความสูงจากส่วนแรกของย่อหน้า. อ่าน/เขียน Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | กำหนดว่าสัญลักษณ์หัวข้อมีสีของตัวเองหรือสืบทอดจากส่วนแรกของย่อหน้า. **NullableBool.True** หากสัญลักษณ์หัวข้อมีสีของตัวเองและ **NullableBool.False** หากสัญลักษณ์หัวข้อสืบทอดสีจากส่วนแรกของย่อหน้า. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | กำหนดว่าสัญลักษณ์หัวข้อมีแบบอักษรของตัวเองหรือสืบทอดจากส่วนแรกของย่อหน้า. **NullableBool.True** หากสัญลักษณ์หัวข้อมีแบบอักษรของตัวเองและ **NullableBool.False** หากสัญลักษณ์หัวข้อสืบทอดแบบอักษรจากส่วนแรกของย่อหน้า. อ่าน/เขียน [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | คืนค่า หรือกำหนดหมายเลขแรกที่ใช้สำหรับกลุ่ม bullet ลำดับเลขที่ไม่มีการสืบทอด. อ่าน/เขียน Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | คืนค่า หรือกำหนดสไตล์ของ bullet ลำดับเลขที่ไม่มีการสืบทอด. อ่าน/เขียน [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | คืนค่าภาพที่ใช้เป็นสัญลักษณ์หัวข้อในย่อหน้าที่ไม่มีการสืบทอด. อ่านอย่างเดียว [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | คืนค่า หรือกำหนดประเภทสัญลักษณ์หัวข้อของย่อหน้าที่ไม่มีการสืบทอด. อ่าน/เขียน [`BulletType`](../bullettype). |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | ตั้งค่าการเลื่อนค่าเริ่มต้นที่ไม่เป็นศูนย์สำหรับ Indent และ MarginLeft ของย่อหน้าที่มีผลเมื่อเปิดใช้งานสัญลักษณ์หัวข้อย่อย (เช่น PowerPoint ทำเมื่อเปิดใช้งานสัญลักษณ์หัวข้อย่อย/การนับเลขในย่อหน้า). หากปิดการใช้งานสัญลักษณ์หัวข้อย่อยจะรีเซ็ต Indent และ MarginLeft ของย่อหน้า (เช่น PowerPoint ทำเมื่อปิดการใช้งานสัญลักษณ์หัวข้อย่อย/การนับเลขในย่อหน้า). การเลื่อน Indent จะถูกนำไปใช้ตามบริบทของสัญลักษณ์หัวข้อย่อยปัจจุบัน - IBulletFormat.Type, .NumberedBulletStyle และ FontHeight ของส่วนแรก. การเลื่อนที่ไม่เป็นศูนย์จะถูกนำไปใช้กับ Indent และ MarginLeft ของย่อหน้าปัจจุบัน (ทำให้ค่าที่ได้เป็นค่าท้องถิ่น). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | รับข้อมูลการจัดรูปแบบสัญลักษณ์หัวข้อย่อยที่มีผลโดยมีการสืบทอดนำมาใช้. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | ตั้งค่าการเลื่อนที่ไม่เป็นศูนย์ค่าเริ่มต้นสำหรับ Indent และ MarginLeft ของย่อหน้าที่มีผลเมื่อเปิดใช้งาน bullet (เช่น PowerPoint ทำเมื่อเปิดใช้งาน bullet/numbering ของย่อหน้า). หากปิดใช้งาน bullet จะรีเซ็ต Indent และ MarginLeft ของย่อหน้า (เช่น PowerPoint ทำเมื่อปิดใช้งาน bullet/numbering). การเลื่อน Indent จะถูกนำไปใช้โดยอิงตามบริบท bullet ปัจจุบัน - IBulletFormat.Type, .NumberedBulletStyle และ FontHeight ของส่วนแรก. การเลื่อนที่ไม่เป็นศูนย์จะถูกนำไปใช้กับ Indent และ MarginLeft ที่มีผลของย่อหน้าปัจจุบัน (ทำให้ค่าที่ได้เป็นค่าเฉพาะในพื้นที่). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | รับข้อมูลการจัดรูปแบบ bullet ที่มีผลโดยใช้การสืบทอดที่นำมาใช้. |
 
 ### ดูเพิ่มเติม
 

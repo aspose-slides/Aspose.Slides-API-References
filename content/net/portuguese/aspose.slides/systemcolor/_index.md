@@ -1,14 +1,14 @@
 ---
 title: SystemColor
-second_title: Aspose.Sildes para .NET Referência da API
-description: Representa cores de sistema predefinidas.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa cores predefinidas do sistema.
 type: docs
-weight: 10790
+weight: 10810
 url: /pt/aspose.slides/systemcolor/
 ---
 ## SystemColor enumeração
 
-Representa cores de sistema predefinidas.
+Representa cores do sistema predefinidas.
 
 ```csharp
 public enum SystemColor

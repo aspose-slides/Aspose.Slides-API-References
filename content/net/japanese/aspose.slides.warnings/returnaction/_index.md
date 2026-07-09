@@ -3,7 +3,7 @@ title: ReturnAction
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 警告コールバックの決定オプションを表します。
 type: docs
-weight: 11800
+weight: 11820
 url: /ja/aspose.slides.warnings/returnaction/
 ---
 ## ReturnAction 列挙体
@@ -14,12 +14,12 @@ url: /ja/aspose.slides.warnings/returnaction/
 public enum ReturnAction
 ```
 
-### 値
+### 列挙値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Continue | `0` | 操作を続行すべきです。 |
-| Abort | `1` | 操作を中止すべきです。 |
+| Continue | `0` | 操作を続行する必要があります。 |
+| Abort | `1` | 操作を中止する必要があります。 |
 
 ### 参照
 

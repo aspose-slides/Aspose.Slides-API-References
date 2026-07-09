@@ -18,11 +18,11 @@ public enum DataSourceType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Worksheet | `0` | 使用 CellXls 物件在工作表中存儲資料點的 XValue、YValue、Value 或 BubbleSize。 |
-| StringLiterals | `1` | 使用快速存取的字串變數來存儲資料點的 XValue、YValue、Value 或 BubbleSize。工作表不會用於存儲值。 |
-| DoubleLiterals | `2` | 使用快速存取的 double 變數來存儲資料點的 XValue、YValue、Value 或 BubbleSize。工作表不會用於存儲值。 |
+| Worksheet | `0` | 使用 CellXls 物件來儲存資料點在工作表中的 XValue、YValue、Value 或 BubbleSize。 |
+| StringLiterals | `1` | 使用快速存取的字串變數來儲存資料點的 XValue、YValue、Value 或 BubbleSize。Worksheet 未用於儲存值。 |
+| DoubleLiterals | `2` | 使用快速存取的 double 變數來儲存資料點的 XValue、YValue、Value 或 BubbleSize。Worksheet 未用於儲存值。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 組件 [Aspose.Slides](../../)

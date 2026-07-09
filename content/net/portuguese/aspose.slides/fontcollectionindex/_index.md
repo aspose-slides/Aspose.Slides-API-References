@@ -1,12 +1,12 @@
 ---
 title: FontCollectionIndex
-second_title: Referência de API do Aspose.Sildes para .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o índice de fontes em uma coleção.
 type: docs
-weight: 4790
+weight: 4810
 url: /pt/aspose.slides/fontcollectionindex/
 ---
-## FontCollectionIndex enumeração
+## Enumeração FontCollectionIndex
 
 Representa o índice da fonte em uma coleção.
 
@@ -22,7 +22,7 @@ public enum FontCollectionIndex : byte
 | Minor | `1` |  |
 | Major | `2` |  |
 
-### Ver também
+### Veja Também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

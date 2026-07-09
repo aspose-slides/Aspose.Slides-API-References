@@ -1,6 +1,6 @@
 ---
 title: EffectSubtype
-second_title: Aspose.Sildes용 .NET API 참조
+second_title: Aspose.Sildes for .NET API 참조
 description: 애니메이션 효과의 하위 유형을 나타냅니다.
 type: docs
 weight: 340

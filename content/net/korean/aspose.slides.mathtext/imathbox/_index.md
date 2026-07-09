@@ -1,14 +1,14 @@
 ---
 title: IMathBox
-second_title: Aspose.Sildes for .NET API 참조
-description: 수학 요소의 논리적 박싱 및 패키징을 지정합니다. 예를 들어, 박스 처리된 객체는 정렬 지점이 있거나 없을 수 있는 연산자 에뮬레이터 역할을 하거나, 줄 바꿈 지점으로 사용되거나, 내부에서 줄 바꿈이 허용되지 않도록 그룹화될 수 있습니다. 예를 들어, 연산자를 박스 처리하여 줄 바꿈을 방지해야 합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 수학 요소의 논리적 박싱 및 패키징을 지정합니다. 예를 들어, 박스된 객체는 정렬 지점이 있거나 없을 수 있는 연산자 에뮬레이터로 작동하거나, 줄 바꿈 지점으로 작동하거나, 줄 바꿈이 허용되지 않도록 그룹화될 수 있습니다. 예를 들어, 연산자를 박스하여 줄 바꿈을 방지해야 합니다.
 type: docs
 weight: 8190
 url: /ko/aspose.slides.mathtext/imathbox/
 ---
 ## IMathBox 인터페이스
 
-수학 요소의 논리적 박싱(패키징)을 지정합니다. 예를 들어, 박스 처리된 객체는 정렬 지점을 가지고 있거나 없을 수 있는 연산자 에뮬레이터 역할을 하거나, 줄 바꿈 지점으로 사용되거나, 줄 바꿈이 허용되지 않도록 그룹화될 수 있습니다. 예를 들어, "==" 연산자는 줄 바꿈을 방지하기 위해 박스 처리되어야 합니다.
+수학 요소의 논리적 박싱(패키징)을 지정합니다. 예를 들어, 박스된 객체는 정렬 지점이 있거나 없을 수 있는 연산자 에뮬레이터로 작동하거나, 줄 바꿈 지점으로 작동하거나, 줄 바꿈이 허용되지 않도록 그룹화될 수 있습니다. 예를 들어, "==" 연산자는 줄 바꿈을 방지하기 위해 박스되어야 합니다.
 
 ```csharp
 public interface IMathBox : IMathElement
@@ -18,24 +18,24 @@ public interface IMathBox : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | true인 경우, 이 연산자 에뮬레이터는 정렬 지점으로 작동합니다. 즉, 다른 식에 지정된 정렬 지점들을 이와 정렬시킬 수 있습니다. 기본값: false |
+| [AlignmentPoint](../../aspose.slides.mathtext/imathbox/alignmentpoint) { get; set; } | true이면, 이 연산자 에뮬레이터는 정렬 지점으로 작동합니다; 즉, 다른 방정식에서 지정된 정렬 지점과 정렬될 수 있습니다. 기본값: false |
 | [AsIMathElement](../../aspose.slides.mathtext/imathbox/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다. |
 | [Base](../../aspose.slides.mathtext/imathbox/base) { get; } | 기본 인수 |
-| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 미분. true인 경우, 박스는 미분(예: 적분식의 𝑑𝑥)으로 작동하며 수학적 미분에 적합한 가로 간격을 받습니다. 기본값: false |
-| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 명시적 줄 바꿈은 Box 객체 시작 부분에 줄 바꿈이 있는지 여부를 지정합니다. 즉, 줄이 Box 객체 시작에서 래핑됩니다. 또한 현재 수학 텍스트 라인의 정렬 지점으로 사용될 이전 라인 수학 텍스트의 연산자 번호를 지정합니다. 가능한 값: 1..255 기본값: 0 (명시적 줄 바꿈 없음) |
-| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 줄 바꿈 안 함. 이 속성은 객체 박스의 "unbreakable" 속성을 지정합니다. true인 경우, 박스 내부에서 줄 바꿈이 발생하지 않습니다. 이는 둘 이상의 이항 연산자로 구성된 연산자 에뮬레이터에 중요할 수 있습니다. 이 요소가 지정되지 않으면 박스 내부에서 줄 바꿈이 발생할 수 있습니다. 기본값: true |
-| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 연산자 에뮬레이터. true인 경우, 박스와 그 내용물은 단일 연산자로 동작하며 연산자의 속성을 상속받습니다. 즉, 예를 들어 해당 문자는 줄 바꿈 지점으로 사용될 수 있고 다른 연산자와 정렬될 수 있습니다. 연산자 에뮬레이터는 '=='와 같이 하나 이상의 글리프가 결합하여 연산자를 형성할 때 자주 사용됩니다. 기본값: false |
+| [Differential](../../aspose.slides.mathtext/imathbox/differential) { get; set; } | 미분. true이면, 상자는 미분(예: 적분식의 𝑑𝑥)으로 작동하며 수학적 미분에 적절한 수평 간격을 받습니다. 기본값: false |
+| [ExplicitBreak](../../aspose.slides.mathtext/imathbox/explicitbreak) { get; set; } | 명시적 줄 바꿈은 Box 객체 시작 부분에 줄 바꿈이 있는지 지정합니다. 이렇게 하면 줄이 Box 객체 시작 부분에서 래핑됩니다. 또한 현재 수학 텍스트 라인의 정렬 지점으로 사용할 이전 라인 수학 텍스트의 연산자 번호를 지정합니다. 가능한 값: 1..255 기본값: 0 (명시적 줄 바꿈 없음) |
+| [NoBreak](../../aspose.slides.mathtext/imathbox/nobreak) { get; set; } | 줄 바꿈 없음. 이 속성은 객체 상자의 "깨지지 않음" 속성을 지정합니다. true이면, 상자 내부에서 줄 바꿈이 발생하지 않습니다. 이는 둘 이상의 이진 연산자로 구성된 연산자 에뮬레이터에 중요할 수 있습니다. 이 요소가 지정되지 않으면 상자 내부에서 줄 바꿈이 발생할 수 있습니다. 기본값: true |
+| [OperatorEmulator](../../aspose.slides.mathtext/imathbox/operatoremulator) { get; set; } | 연산자 에뮬레이터. true이면, 상자와 그 내용이 단일 연산자로 동작하며 연산자의 속성을 상속합니다. 예를 들어, 해당 문자를 줄 바꿈 지점으로 사용할 수 있고 다른 연산자와 정렬될 수 있습니다. 연산자 에뮬레이터는 '=='와 같이 하나 이상의 글리프가 결합해 연산자를 형성할 때 자주 사용됩니다. 기본값: false |
 
 ### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
 IMathBox box = new MathematicalText("==").ToBox();
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

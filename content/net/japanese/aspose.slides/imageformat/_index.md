@@ -1,9 +1,9 @@
 ---
 title: ImageFormat
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: 画像のファイル形式を表します。
 type: docs
-weight: 7410
+weight: 7430
 url: /ja/aspose.slides/imageformat/
 ---
 ## ImageFormat 列挙型
@@ -22,11 +22,11 @@ public enum ImageFormat
 | Bmp | `1` | ビットマップ (BMP) 画像形式を表します。 |
 | Emf | `2` | 拡張メタファイル (EMF) 画像形式を表します。 |
 | Wmf | `3` | Windows メタファイル (WMF) 画像形式を表します。 |
-| Gif | `4` | Graphics Interchange Format (GIF) 画像形式を表します。 |
+| Gif | `4` | グラフィックス・インターチェンジ・フォーマット (GIF) 画像形式を表します。 |
 | Jpeg | `5` | Joint Photographic Experts Group (JPEG) 画像形式を表します。 |
-| Png | `6` | W3C Portable Network Graphics (PNG) 画像形式を表します。 |
+| Png | `6` | W3C ポータブル・ネットワーク・グラフィックス (PNG) 画像形式を表します。 |
 | Tiff | `7` | Tagged Image File Format (TIFF) 画像形式を表します。 |
-| Exif | `8` | Exchangeable Image File (Exif) 形式を表します。 |
+| Exif | `8` | 交換可能画像ファイル (Exif) 形式を表します。 |
 | Icon | `9` | Windows アイコン画像形式を表します。 |
 
 ### 参照

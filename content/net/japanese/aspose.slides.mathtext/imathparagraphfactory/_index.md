@@ -1,14 +1,14 @@
 ---
 title: IMathParagraphFactory
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 数式段落の作成を可能にします
+description: 数式段落を作成できます
 type: docs
-weight: 8380
+weight: 8400
 url: /ja/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory インターフェイス
 
-数式段落の作成を可能にします
+Allows to create a math paragraph
 
 ```csharp
 public interface IMathParagraphFactory
@@ -18,14 +18,14 @@ public interface IMathParagraphFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | 空の数式段落を作成します |
+| [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph)() | 空の数式段落を作成 |
 | [CreateMathParagraph](../../aspose.slides.mathtext/imathparagraphfactory/createmathparagraph#createmathparagraph_1)(IMathBlock) | 数式段落を作成し、指定された数式ブロックをその中に配置します |
 
 ### 備考
 
 COM 互換性のため
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * アセンブリ [Aspose.Slides](../../)

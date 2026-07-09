@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje znacznik chertu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje znacznik wykresu.
 type: docs
-weight: 2310
+weight: 2330
 url: /pl/aspose.slides.charts/marker/
 ---
 ## Klasa Marker
 
-Reprezentuje znacznik chertu.
+Reprezentuje znacznik cherty.
 
 ```csharp
 public class Marker : IMarker
@@ -19,8 +19,8 @@ public class Marker : IMarker
 | Nazwa | Opis |
 | --- | --- |
 | [Format](../../aspose.slides.charts/marker/format) { get; } | Pobiera lub ustawia wypełnienie znacznika. Tylko do odczytu [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Reprezentuje rozmiar znacznika na wykresie liniowym, wykresie punktowym lub radarowym. Odczyt/zapis Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Reprezentuje styl znacznika na wykresie liniowym, wykresie punktowym lub radarowym. Odczyt/zapis [`MarkerStyleType`](../markerstyletype). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Reprezentuje rozmiar znacznika w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Reprezentuje styl znacznika w wykresie liniowym, wykresie punktowym lub wykresie radarowym. Odczyt/zapis [`MarkerStyleType`](../markerstyletype). |
 
 ### Zobacz także
 

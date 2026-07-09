@@ -1,6 +1,6 @@
 ---
 title: IMathBlockFactory
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: اجازه می‌دهد یک بلوک ریاضی ایجاد شود
 type: docs
 weight: 8160
@@ -8,7 +8,7 @@ url: /fa/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory رابط
 
-اجازه می‌دهد یک بلوک ریاضی ایجاد شود
+اجازه می‌دهد بلوک ریاضی ایجاد شود
 
 ```csharp
 public interface IMathBlockFactory
@@ -22,9 +22,9 @@ public interface IMathBlockFactory
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | یک بلوک ریاضی ایجاد می‌کند و عنصر را در آن قرار می‌دهد |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | یک بلوک ریاضی ایجاد می‌کند و عناصر را در آن قرار می‌دهد |
 
-### توضیحات
+### نکات
 
-برای سازگاری COM
+برای سازگاری با COM
 
 ### موارد مرتبط
 

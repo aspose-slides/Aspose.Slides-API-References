@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Objek yang tidak dapat diubah yang mewakili efek Alpha Modulate. Nilai opasitas alfa efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alfa untuk dimodulasi.
+description: Objek tidak dapat diubah yang mewakili efek Alpha Modulate. Nilai opasitas alpha efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alpha untuk dimodulasi.
 type: docs
-weight: 3090
+weight: 3110
 url: /id/aspose.slides.effects/ialphamodulateeffectivedata/
 ---
 ## IAlphaModulateEffectiveData antarmuka
 
-Objek tidak dapat diubah yang mewakili efek Alpha Modulate. Nilai alfa (opasitas) efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alfa untuk dimodulasi.
+Objek tidak dapat diubah yang mewakili efek Alpha Modulate. Nilai alpha (opasitas) efek dikalikan dengan persentase tetap. Kontainer efek menentukan efek yang berisi nilai alpha untuk dimodulasi.
 
 ```csharp
 public interface IAlphaModulateEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaModulateEffectiveData : IEffectEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Memungkinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphamodulateeffectivedata/asieffecteffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka IEffectEffectiveData dasar. Hanya-baca [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### Lihat Juga
 

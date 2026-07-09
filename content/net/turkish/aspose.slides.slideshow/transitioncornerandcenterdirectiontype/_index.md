@@ -3,12 +3,12 @@ title: TransitionCornerAndCenterDirectionType
 second_title: Aspose.Sildes için .NET API Referansı
 description: Köşeler ve merkeze sınırlı bir yön belirtir.
 type: docs
-weight: 10320
+weight: 10340
 url: /tr/aspose.slides.slideshow/transitioncornerandcenterdirectiontype/
 ---
 ## TransitionCornerAndCenterDirectionType enum
 
-Köşeler ve merkezin sınırlı olduğu bir yön belirtir.
+Köşeler ve merkeze sınırlı bir yön belirtir.
 
 ```csharp
 public enum TransitionCornerAndCenterDirectionType
@@ -24,7 +24,7 @@ public enum TransitionCornerAndCenterDirectionType
 | RightUp | `3` |  |
 | Center | `4` |  |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

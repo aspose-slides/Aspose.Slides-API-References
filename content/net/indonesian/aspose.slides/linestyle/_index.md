@@ -1,12 +1,12 @@
 ---
 title: LineStyle
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili gaya sebuah garis.
 type: docs
-weight: 7800
+weight: 7820
 url: /id/aspose.slides/linestyle/
 ---
-## Enumerasi LineStyle
+## LineStyle enumerasi
 
 Mewakili gaya sebuah garis.
 

@@ -3,7 +3,7 @@ title: Effect
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa um efeito de animação.
 type: docs
-weight: 260
+weight: 280
 url: /pt/aspose.slides.animation/effect/
 ---
 ## Effect classe
@@ -16,24 +16,24 @@ public class Effect : IEffect
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Define uma cor após a animação para o efeito. Leitura/gravação [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Define um tipo após a animação para o efeito. Leitura/gravação [`AfterAnimationType`](./afteranimationtype). |
-| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Define um tipo de animação de texto para o efeito. O texto da forma pode ser animado por letra, por palavra ou tudo de uma vez. Leitura/gravação [`AnimateTextType`](./animatetexttype). |
+| [AfterAnimationColor](../../aspose.slides.animation/effect/afteranimationcolor) { get; set; } | Define uma cor de animação posterior para o efeito. Leitura/gravação [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/effect/afteranimationtype) { get; set; } | Define um tipo de animação posterior para o efeito. Leitura/gravação [`AfterAnimationType`](./afteranimationtype). |
+| [AnimateTextType](../../aspose.slides.animation/effect/animatetexttype) { get; set; } | Define um tipo de animação de texto para o efeito. O texto da forma pode ser animado por letra, por palavra ou de uma vez. Leitura/gravação [`AnimateTextType`](./animatetexttype). |
 | [Behaviors](../../aspose.slides.animation/effect/behaviors) { get; set; } | Retorna a coleção de comportamentos para o efeito. Leitura/gravação [`IBehaviorCollection`](../ibehaviorcollection). |
 | [DelayBetweenTextParts](../../aspose.slides.animation/effect/delaybetweentextparts) { get; set; } | Define um atraso entre partes de texto animado (palavras ou letras). Um valor positivo especifica a porcentagem da duração do efeito. Um valor negativo especifica o atraso em segundos. Leitura/gravação Single. |
 | [PresetClassType](../../aspose.slides.animation/effect/presetclasstype) { get; set; } | Define a classe do efeito. Leitura/gravação [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/effect/sequence) { get; } | Retorna uma sequência para um efeito. Somente leitura [`ISequence`](../isequence). |
-| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Define o som incorporado para o efeito. Leitura/gravação [`IAudio`](../../aspose.slides/iaudio). |
+| [Sound](../../aspose.slides.animation/effect/sound) { get; set; } | Define som incorporado para o efeito. Leitura/gravação [`IAudio`](../../aspose.slides/iaudio). |
 | [StopPreviousSound](../../aspose.slides.animation/effect/stopprevioussound) { get; set; } | Este atributo especifica se o efeito de animação interrompe o som anterior. Leitura/gravação Boolean. |
 | [Subtype](../../aspose.slides.animation/effect/subtype) { get; set; } | Define o subtipo do efeito. Leitura/gravação [`EffectSubtype`](../effectsubtype). |
-| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Retorna a forma de destino para o efeito. Somente leitura [`IShape`](../../aspose.slides/ishape). |
+| [TargetShape](../../aspose.slides.animation/effect/targetshape) { get; } | Retorna a forma alvo para o efeito. Somente leitura [`IShape`](../../aspose.slides/ishape). |
 | [TextAnimation](../../aspose.slides.animation/effect/textanimation) { get; } | TextAnimation Somente leitura [`ITextAnimation`](../itextanimation). |
-| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Define o valor de temporização para o efeito. Leitura/gravação [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/effect/timing) { get; set; } | Define o valor de sincronização para o efeito. Leitura/gravação [`ITiming`](../itiming). |
 | [Type](../../aspose.slides.animation/effect/type) { get; set; } | Define o tipo do efeito. Leitura/gravação [`EffectType`](../effecttype). |
 
-### Veja também
+### Veja Também
 
 * interface [IEffect](../ieffect)
 * espaço de nomes [Aspose.Slides.Animation](../../aspose.slides.animation)

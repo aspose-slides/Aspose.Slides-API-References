@@ -1,14 +1,14 @@
 ---
 title: CellCircularReferenceException
-second_title: Aspose.Sildes for .NET API Referansı
-description: Bir formülün kendi hücresine doğrudan ya da dolaylı olarak başvurduğu durumlarda bir veya daha fazla döngüsel referans tespit edildiğinde fırlatılan istisna.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Formülün kendi hücresine doğrudan ya da dolaylı olarak atıfta bulunduğu durumlarda bir veya daha fazla dairesel referans tespit edildiğinde atılan istisna.
 type: docs
-weight: 10680
+weight: 10700
 url: /tr/aspose.slides.spreadsheet/cellcircularreferenceexception/
 ---
 ## CellCircularReferenceException sınıfı
 
-Bir formülün kendi hücresine doğrudan ya da dolaylı olarak başvurduğu durumlarda bir veya daha fazla döngüsel referans tespit edildiğinde fırlatılan istisna.
+Bir formülün kendi hücresine doğrudan ya da dolaylı olarak başvurduğu durumlarda bir veya daha fazla dairesel referans tespit edildiğinde fırlatılan istisna.
 
 ```csharp
 public class CellCircularReferenceException : PptxEditException
@@ -16,18 +16,18 @@ public class CellCircularReferenceException : PptxEditException
 
 ## Yapıcılar
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği başlatır. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Belirtilen bir hata mesajı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği başlatır. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Belirtilen hata mesajı ve bu istisnanın nedeni olan iç istisna referansı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği başlatır. |
-| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Belirtilen hata mesajı ve döngüsel hücre referansı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği başlatır. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor)() | Yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği oluşturur. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_1)(string) | Belirtilen hata mesajı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği oluşturur. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_2)(string, Exception) | Belirtilen hata mesajı ve bu istisnanın nedeni olan iç istisna referansı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği oluşturur. |
+| [CellCircularReferenceException](cellcircularreferenceexception#constructor_3)(string, string) | Belirtilen hata mesajı ve dairesel hücre referansı ile yeni bir [`CellCircularReferenceException`](../cellcircularreferenceexception) sınıfı örneği oluşturur. |
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Döngüsel hücre referansını alır. |
+| [Reference](../../aspose.slides.spreadsheet/cellcircularreferenceexception/reference) { get; } | Dairesel bir hücre referansını alır. |
 
 ### Ayrıca Bakınız
 

@@ -1,20 +1,20 @@
 ---
 title: DataLabel
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar serieetiketter.
+description: Representerar etiketter för en serie.
 type: docs
-weight: 1530
+weight: 1550
 url: /sv/aspose.slides.charts/datalabel/
 ---
 ## DataLabel-klass
 
-Representerar serieetiketter.
+Representerar etiketter för en serie.
 
 ```csharp
 public class DataLabel : IDataLabel
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
@@ -24,19 +24,19 @@ public class DataLabel : IDataLabel
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Anger den faktiska höjden för diagrammets element. Anropa metoden IChart.ValidateChartLayout() först för att få faktiska värden. Läs Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Anger den faktiska bredden för diagrammets element. Anropa metoden IChart.ValidateChartLayout() först för att få faktiska värden. Läs Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Anger den faktiska x-positionen (vänster) för diagrammets element relativt diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() först för att få faktiska värden. Läs Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Anger den faktiska top-positionen för diagrammets element relativt diagrammets vänstra övre hörn. Anropa metoden IChart.ValidateChartLayout() först för att få faktiska värden. Läs Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Botten. Endast läsning Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Returnerar det överordnade diagrammet. Endast läsning [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Returnerar dataetikettformat. Endast läsning [`IDataLabelFormat`](../idatalabelformat). |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | Specifies actual width of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | Specifies actual top of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single. |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | Bottom. Skrivskyddad Single. |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | Returnerar det överordnade diagrammet. Skrivskyddad [`IChart`](../ichart). |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | Returnerar dataetikettformat. Skrivskyddad [`IDataLabelFormat`](../idatalabelformat). |
 | [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | Returnerar eller anger höjden på en titel som en bråkdel av diagrammets höjd. Läs/skriv Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False betyder att dataetiketten inte är synlig (och därför är alla Show*-flaggor (ShowValue, …) falska). Endast läsning Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Höger. Endast läsning Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Returnerar textformat. Endast läsning [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Kan innehålla rikligt formaterad text. Om denna egenskap inte är null så åsidosätter det formaterade textvärdet den automatiskt genererade texten för dataetiketten. Automatgenererad text för dataetiketten betyder text som hanteras av egenskaperna ShowSeriesName, ShowValue, … och som formateras med TextFormatManager.TextFormat-egenskapen. Endast läsning [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Hämtar eller anger arbetsboksdatacell. Tillämpas om IDataLabelFormat.ShowLabelValueFromCell-egenskapen är true. |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False betyder att dataetiketten inte är synlig (och att alla Show*-flags (ShowValue, ...) är falska). Skrivskyddad Boolean. |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | Right. Skrivskyddad Single. |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | Returnerar textformat. Skrivskyddad [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | Kan innehålla en rik formaterad text. Om den här egenskapen inte är null så åsidosätter detta formaterade textvärde autogenererad text för dataetiketten. Autogenererad text för dataetiketten betyder text som hanteras av egenskaperna ShowSeriesName, ShowValue, ... och som formateras med egenskapen TextFormatManager.TextFormat. Skrivskyddad [`ITextFrame`](../../aspose.slides/itextframe). |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | Hämtar eller anger arbetsbokens datacell. Tillämpars om egenskapen IDataLabelFormat.ShowLabelValueFromCell är sann. |
 | [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | Returnerar eller anger bredden på en titel som en bråkdel av diagrammets bredd. Läs/skriv Single. |
 | [X](../../aspose.slides.charts/datalabel/x) { get; set; } | Returnerar eller anger x-koordinaten för en titel som en bråkdel av diagrammets bredd. Läs/skriv Single. |
 | [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | Returnerar eller anger y-koordinaten för en titel som en bråkdel av diagrammets höjd. Läs/skriv Single. |
@@ -45,9 +45,9 @@ public class DataLabel : IDataLabel
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Initierar TextFrameForOverriding med texten i parametern "text". Om TextFrameForOverriding redan är initierad ändras bara dess text. |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Returnerar den faktiska etiketttexten baserat på DataLabelFormat-inställningarna eller TextFrameForOverriding.Text-värdet. |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | Gör dataetiketten dold genom att sätta alla Show*-flaggor (ShowValue, …) till falskt. IsVisible blir falskt efter detta. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | Initierar TextFrameForOverriding med texten i parametern "text". Om TextFrameForOverriding redan är initierad ändras dess text helt enkelt. |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | Returnerar den faktiska etiketttexten baserat på inställningarna i DataLabelFormat eller värdet i TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | Gör dataetiketten dold genom att sätta alla Show*-flags (ShowValue, ...) till falskt läge. IsVisible blir falskt efter detta. |
 
 ### Se även
 

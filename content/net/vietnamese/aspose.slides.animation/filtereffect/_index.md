@@ -1,36 +1,36 @@
 ---
 title: FilterEffect
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn hiệu ứng lọc của hành vi.
+description: Đại diện cho hiệu ứng bộ lọc của hành vi.
 type: docs
 weight: 370
 url: /vi/aspose.slides.animation/filtereffect/
 ---
-## Lớp FilterEffect
+## FilterEffect lớp
 
-Represent filter effect of behavior.
+Đại diện cho hiệu ứng bộ lọc của hành vi.
 
 ```csharp
 public class FilterEffect : Behavior, IFilterEffect
 ```
 
-## Hàm tạo
+## Hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [FilterEffect](filtereffect)() | Hàm tạo mặc định. |
+| [FilterEffect](filtereffect)() | Hàm khởi tạo mặc định. |
 
 ## Thuộc tính
 
 | Tên | Mô tả |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu thị liệu các hành vi hoạt hình có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu thị liệu hành vi hoạt hình hiện tại có được kết hợp với các hoạt hình đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Biểu thị xem các hành vi hoạt hình có được tích lũy hay không. Đọc/ghi [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Biểu thị xem hành vi hoạt hình hiện tại có được kết hợp với các hoạt hình đang chạy khác hay không. Đọc/ghi [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Biểu thị các thuộc tính của hành vi. Chỉ đọc [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Biểu thị hiệu ứng với hành vi phải hiển thị (vào/ra). Đọc/ghi [`FilterEffectRevealType`](../filtereffectrevealtype). |
-| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Biểu thị kiểu phụ của hiệu ứng lọc. Đọc/ghi [`FilterEffectSubtype`](../filtereffectsubtype). |
+| [Reveal](../../aspose.slides.animation/filtereffect/reveal) { get; set; } | Biểu thị rằng hiệu ứng với hành vi phải được hiển thị (in/out). Đọc/ghi [`FilterEffectRevealType`](../filtereffectrevealtype). |
+| [Subtype](../../aspose.slides.animation/filtereffect/subtype) { get; set; } | Biểu thị kiểu phụ của hiệu ứng bộ lọc. Đọc/ghi [`FilterEffectSubtype`](../filtereffectsubtype). |
 | [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Biểu thị các thuộc tính thời gian cho hành vi hiệu ứng. Đọc/ghi [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Biểu thị loại của hiệu ứng lọc. Đọc/ghi [`FilterEffectType`](../filtereffecttype). |
+| [Type](../../aspose.slides.animation/filtereffect/type) { get; set; } | Biểu thị loại hiệu ứng bộ lọc. Đọc/ghi [`FilterEffectType`](../filtereffecttype). |
 
 ### Xem thêm
 

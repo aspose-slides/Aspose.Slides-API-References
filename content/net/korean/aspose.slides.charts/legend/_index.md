@@ -16,19 +16,19 @@ public class Legend : DomObject<Chart>, ILegend
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | 차트 요소의 실제 위쪽 위치를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻으려면 먼저 IChart.ValidateChartLayout() 메서드를 호출하십시오. 읽기 Single. |
-| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 아래. 읽기 전용 Single. |
+| [ActualHeight](../../aspose.slides.charts/legend/actualheight) { get; } | 차트 요소의 실제 높이를 지정합니다. 실제 값을 얻기 위해서는 IChart.ValidateChartLayout() 메서드를 먼저 호출하세요. 읽기 Single. |
+| [ActualWidth](../../aspose.slides.charts/legend/actualwidth) { get; } | 차트 요소의 실제 너비를 지정합니다. 실제 값을 얻기 위해서는 IChart.ValidateChartLayout() 메서드를 먼저 호출하세요. 읽기 Single. |
+| [ActualX](../../aspose.slides.charts/legend/actualx) { get; } | 차트 요소의 실제 x 위치(왼쪽)를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 위해서는 IChart.ValidateChartLayout() 메서드를 먼저 호출하세요. 읽기 Single. |
+| [ActualY](../../aspose.slides.charts/legend/actualy) { get; } | 차트 요소의 실제 위쪽 위치를 차트의 왼쪽 상단 모서리를 기준으로 지정합니다. 실제 값을 얻기 위해서는 IChart.ValidateChartLayout() 메서드를 먼저 호출하세요. 읽기 Single. |
+| [Bottom](../../aspose.slides.charts/legend/bottom) { get; } | 하단. 읽기 전용 Single. |
 | [Chart](../../aspose.slides.charts/legend/chart) { get; } | 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
 | [Entries](../../aspose.slides.charts/legend/entries) { get; } | 범례 항목을 가져옵니다. 읽기 전용 [`ILegendEntryCollection`](../ilegendentrycollection). |
 | [Format](../../aspose.slides.charts/legend/format) { get; } | 범례의 형식을 반환합니다. 읽기 전용 [`IFormat`](../iformat). |
 | [Height](../../aspose.slides.charts/legend/height) { get; set; } | 범례의 높이를 차트 높이의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single. |
 | [Overlay](../../aspose.slides.charts/legend/overlay) { get; set; } | 다른 차트 요소가 범례와 겹치도록 허용할지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 차트에서 범례의 위치를 지정합니다. X, Y, Width, Height 속성의 Non-NaN 값은 이 속성의 효과를 무시합니다. 읽기/쓰기 [`LegendPositionType`](../legendpositiontype). |
+| [Position](../../aspose.slides.charts/legend/position) { get; set; } | 차트에서 범례의 위치를 지정합니다. X, Y, Width, Heigt 속성의 NaN이 아닌 값은 이 속성의 효과를 재정의합니다. 읽기/쓰기 [`LegendPositionType`](../legendpositiontype). |
 | [Right](../../aspose.slides.charts/legend/right) { get; } | 오른쪽. 읽기 전용 Single. |
 | [TextFormat](../../aspose.slides.charts/legend/textformat) { get; } | 텍스트 형식. 읽기 전용 [`IChartTextFormat`](../icharttextformat). |
 | [Width](../../aspose.slides.charts/legend/width) { get; set; } | 범례의 너비를 차트 너비의 비율로 반환하거나 설정합니다. 읽기/쓰기 Single. |

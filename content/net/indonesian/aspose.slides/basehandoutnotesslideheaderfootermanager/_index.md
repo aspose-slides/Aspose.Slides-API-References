@@ -1,14 +1,14 @@
 ---
 title: BaseHandoutNotesSlideHeaderFooterManager
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili manajer yang menyimpan perilaku placeholder termasuk placeholder header untuk semua jenis handout dan slide catatan.
+description: Mewakili manajer yang menyimpan perilaku placeholder termasuk placeholder header untuk semua jenis slide handout dan catatan.
 type: docs
-weight: 930
+weight: 950
 url: /id/aspose.slides/basehandoutnotesslideheaderfootermanager/
 ---
 ## BaseHandoutNotesSlideHeaderFooterManager kelas
 
-Mewakili manajer yang menyimpan perilaku placeholder, termasuk placeholder header untuk semua tipe handout dan slide catatan.
+Mewakili manajer yang menyimpan perilaku placeholder, termasuk placeholder header untuk semua jenis slide handout dan catatan.
 
 ```csharp
 public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,10 +19,10 @@ public abstract class BaseHandoutNotesSlideHeaderFooterManager : BaseSlideHeader
 
 | Nama | Deskripsi |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder tanggal-waktu ada. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder footer ada. Baca Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder header ada. Baca Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mengambil nilai yang menunjukkan bahwa placeholder nomor halaman ada. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder tanggal-waktu hadir. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder footer hadir. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder header hadir. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Mendapatkan nilai yang menunjukkan bahwa placeholder nomor halaman hadir. ReadBoolean. |
 
 ## Metode
 

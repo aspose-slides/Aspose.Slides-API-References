@@ -1,9 +1,9 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje kolekcję IChartSeries./ichartseries
 type: docs
-weight: 1920
+weight: 1940
 url: /pl/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection interfejs
@@ -18,7 +18,7 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | Nazwa | Opis |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Pobiera element pod określonym indeksem. |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | Zwraca element o podanym indeksie. |
 
 ## Metody
 
@@ -29,12 +29,12 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | Tworzy nową serię wykresu z [`IChartDataCell`](../ichartdatacell) i dodaje ją do kolekcji. |
 | [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | Tworzy nową serię wykresu z wartości i dodaje ją do kolekcji. |
 | [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | Usuwa wszystkie elementy (w tym styl wykresu) z kolekcji. |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Wyszukuje określony [`IChartSeries`](../ichartseries) i zwraca indeks zerowy pierwszego wystąpienia w całej kolekcji. |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | Wyszukuje określony [`IChartSeries`](../ichartseries) i zwraca indeks zerowy pierwszego wystąpienia w całej kolekcji |
 | [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | Tworzy nową serię wykresu i wstawia ją do kolekcji. |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | Usuwa określoną wartość. |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Usuwa element pod określonym indeksem. |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | Usuwa element o podanym indeksie |
 
-### Zobacz również
+### Zobacz także
 
 * interfejs [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * interfejs [IChartSeries](../ichartseries)

@@ -1,12 +1,12 @@
 ---
 title: ISlidesPicture
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un'immagine in una presentazione.
 type: docs
-weight: 7090
+weight: 7110
 url: /it/aspose.slides/islidespicture/
 ---
-## ISlidesPicture interfaccia
+## Interfaccia ISlidesPicture
 
 Rappresenta un'immagine in una presentazione.
 
@@ -20,7 +20,7 @@ public interface ISlidesPicture : ISlideComponent
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | Consente di ottenere l'interfaccia base ISlideComponent. Solo lettura [`ISlideComponent`](../islidecomponent). |
 | [Image](../../aspose.slides/islidespicture/image) { get; set; } | Restituisce o imposta l'immagine incorporata. Lettura/scrittura [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Restituisce la raccolta di effetti di trasformazione dell'immagine. Solo lettura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | Restituisce la collezione di effetti di trasformazione dell'immagine. Solo lettura [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
 | [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | Restituisce o imposta l'URL dell'immagine collegata. Lettura/scrittura String. |
 
 ### Vedi anche

@@ -1,7 +1,7 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示可用於在 Presentation、Slide 或 TextFrame 中搜尋文字的選項。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示可用於在簡報投影片或文字框中搜尋文字的選項。
 type: docs
 weight: 7300
 url: /zh-hant/aspose.slides/itextsearchoptions/
@@ -18,11 +18,11 @@ public interface ITextSearchOptions
 
 | 名稱 | 說明 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 設定為 true 以使用區分大小寫的搜尋，false 為其他情況。可讀寫 Boolean。 |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | 設定 `true` 以在執行文字搜尋、取代或突顯操作時包含投影片備註中的文字。預設值為 `false`。 |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 設定為 true 以僅匹配完整的單詞，false 為其他情況。可讀寫 Boolean。 |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | 將 true 設為使用區分大小寫的搜尋，否則為 false。可讀寫 Boolean。 |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | 將 `true` 設為在執行文字搜尋、取代或突顯操作時包含投影片備註中的文字。預設值為 `false`。 |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | 將 true 設為僅匹配完整單字，否則為 false。可讀寫 Boolean。 |
 
-### 相關參考
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

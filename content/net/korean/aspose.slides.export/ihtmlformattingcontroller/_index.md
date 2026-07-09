@@ -1,6 +1,6 @@
 ---
 title: IHtmlFormattingController
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: HTML 파일 생성을 제어합니다.
 type: docs
 weight: 3950
@@ -18,12 +18,12 @@ public interface IHtmlFormattingController
 
 | 이름 | 설명 |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML 문서 푸터를 쓰기 위해 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML 문서 헤더를 쓰기 위해 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 모양 렌더링 전에 호출됩니다. 각 모양마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 쓰면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며, 새로운 이미지가 이전 이미지 위에 시작됩니다. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 모양 렌더링 전에 호출됩니다. 각 모양마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 쓰면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며, 새로운 이미지가 이전 이미지 위에 시작됩니다. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML 슬라이드 푸터를 쓰기 위해 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML 슬라이드 헤더를 쓰기 위해 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML 문서 푸터를 작성하기 위해 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML 문서 헤더를 작성하기 위해 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | 쉐이프 렌더링 전에 호출됩니다. 각 쉐이프마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 기록하면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며, 새로운 이미지가 이전 이미지 위에서 시작됩니다. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | 쉐이프 렌더링 전에 호출됩니다. 각 쉐이프마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 기록하면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며, 새로운 이미지가 이전 이미지 위에서 시작됩니다. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML 슬라이드 푸터를 작성하기 위해 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML 슬라이드 헤더를 작성하기 위해 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
 
 ### 참고
 

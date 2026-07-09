@@ -1,14 +1,14 @@
 ---
 title: HSL
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Reprezentuje efekt Hue/Saturation/Luminance. hue, saturation a luminance lze každou upravit relativně k její aktuální hodnotě.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Representuje efekt Hue/Saturation/Luminance. Hue, saturation a luminance mohou být každé upraveny relativně k jejich aktuální hodnotě.
 type: docs
-weight: 2990
+weight: 3010
 url: /cs/aspose.slides.effects/hsl/
 ---
-## třída HSL
+## HSL třída
 
-Reprezentuje efekt Hue/Saturation/Luminance. Hue, saturation a luminance lze každou upravit relativně k jejich aktuální hodnotě.
+Representuje efekt Hue/Saturation/Luminance. Hue, saturation a luminance mohou být každé upraveny relativně k jejich aktuální hodnotě.
 
 ```csharp
 public sealed class HSL : ImageTransformOperation, IHSL
@@ -24,7 +24,7 @@ public sealed class HSL : ImageTransformOperation, IHSL
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Určuje, zda je specifikovaný [`HSL`](../hsl) roven aktuálnímu [`HSL`](../hsl). |
+| override [Equals](../../aspose.slides.effects/hsl/equals)(object) | Určuje, zda je zadaný [`HSL`](../hsl) roven aktuálnímu [`HSL`](../hsl). |
 | [GetEffective](../../aspose.slides.effects/hsl/geteffective)() | Získá efektivní data efektu Hue/Saturation/Luminance s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/hsl/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

@@ -1,14 +1,14 @@
 ---
 title: AudioPlayModePreset
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: ध्वनि को कैसे बजाया जाता है, इसे परिभाषित करने वाले स्थिरांक।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: कॉन्स्टेंट्स जो निर्धारित करते हैं कि ध्वनि कैसे बजाई जाती है।
 type: docs
 weight: 880
 url: /hi/aspose.slides/audioplaymodepreset/
 ---
-## AudioPlayModePreset एन्यूमेरेशन
+## AudioPlayModePreset एन्यूमरेशन
 
-ध्वनि को कैसे बजाया जाता है, इसे निर्धारित करने वाले स्थिरांक।
+कॉन्स्टेंट्स जो निर्धारित करते हैं कि ध्वनि कैसे बजाई जाती है।
 
 ```csharp
 public enum AudioPlayModePreset
@@ -21,10 +21,10 @@ public enum AudioPlayModePreset
 | Mixed | `-1` |  |
 | Auto | `0` | स्वचालित रूप से चलाएँ। |
 | OnClick | `1` | केवल तब चलाएँ जब आइकन पर क्लिक किया जाए। |
-| AllSlides | `2` | सभी स्लाइड्स पर चलाएँ। कृपया [`PlayAcrossSlides`](../iaudioframe/playacrossslides) प्रॉपर्टी का उपयोग करें। यह तत्व PowerPoint 2013 से पुराना है। |
+| AllSlides | `2` | सभी स्लाइडों पर चलाएँ। कृपया [`PlayAcrossSlides`](../iaudioframe/playacrossslides) सम्पत्ति का उपयोग करें। यह तत्व PowerPoint 2013 से पुराना है। |
 | InClickSequence | `3` | क्लिक के साथ स्वचालित रूप से चलाएँ। |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

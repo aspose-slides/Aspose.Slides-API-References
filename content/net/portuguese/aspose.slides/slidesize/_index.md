@@ -1,12 +1,12 @@
 ---
 title: SlideSize
-second_title: Aspose.Sildes para Referência da API .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa o tamanho e a orientação de um slide.
 type: docs
-weight: 10480
+weight: 10500
 url: /pt/aspose.slides/slidesize/
 ---
-## classe SlideSize
+## SlideSize classe
 
 Representa o tamanho e a orientação de um slide.
 
@@ -26,10 +26,10 @@ public class SlideSize : DomObject<Presentation>, ISlideSize
 
 | Nome | Descrição |
 | --- | --- |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Define o tamanho do slide por tipo e redimensiona o conteúdo existente. |
-| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Define as dimensões do slide explicitamente e redimensiona o conteúdo existente. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize)(SlideSizeType, SlideSizeScaleType) | Define o tamanho do slide por tipo e dimensiona o conteúdo existente. |
+| [SetSize](../../aspose.slides/slidesize/setsize#setsize_1)(float, float, SlideSizeScaleType) | Define explicitamente as dimensões do slide e dimensiona o conteúdo existente. |
 
-### Ver também
+### Veja Também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Presentation](../presentation)

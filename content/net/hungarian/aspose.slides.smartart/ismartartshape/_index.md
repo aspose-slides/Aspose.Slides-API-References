@@ -1,14 +1,14 @@
 ---
 title: ISmartArtShape
 second_title: Aspose.Sildes .NET API referencia
-description: SmartArt diagramon belüli alakzatot képviseli
+description: Egy alakzatot képvisel a SmartArt diagramban
 type: docs
-weight: 10550
+weight: 10570
 url: /hu/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape interfész
 
-Represents a shape inside SmartArt diagram
+Egy alakzatot képvisel a SmartArt diagramban
 
 ```csharp
 public interface ISmartArtShape : IGeometryShape
@@ -18,7 +18,7 @@ public interface ISmartArtShape : IGeometryShape
 
 | Név | Leírás |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Lehetővé teszi a bázis IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Lehetővé teszi az alap IGeometryShape interfész lekérését. Csak olvasható [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Visszaadja a SmartArt alakzat szövegét. Csak olvasható [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Lásd még

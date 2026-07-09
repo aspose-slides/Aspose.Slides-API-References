@@ -1,6 +1,6 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes 的 .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 字型集合。
 type: docs
 weight: 4920
@@ -8,7 +8,7 @@ url: /zh-hant/aspose.slides/fonts/
 ---
 ## Fonts 類別
 
-Fonts 集合。
+Fonts collection.
 
 ```csharp
 public class Fonts : IFonts
@@ -18,18 +18,18 @@ public class Fonts : IFonts
 
 | 名稱 | 說明 |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | 返回或設定複雜文字腳本字型。可讀寫 [`IFontData`](../ifontdata)。 |
-| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 返回或設定東亞字型。可讀寫 [`IFontData`](../ifontdata)。 |
-| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | 返回或設定拉丁字型。可讀寫 [`IFontData`](../ifontdata)。 |
+| [ComplexScriptFont](../../aspose.slides/fonts/complexscriptfont) { get; set; } | 返回或設定複合文字腳本字型。讀寫 [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/fonts/eastasianfont) { get; set; } | 返回或設定東亞字型。讀寫 [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/fonts/latinfont) { get; set; } | 返回或設定拉丁字型。讀寫 [`IFontData`](../ifontdata). |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 取得與特定腳本標籤相關聯的字型名稱，來源自簡報主題。 |
+| [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 取得與簡報主題中特定腳本標籤相關聯的字型名稱。 |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | 返回簡報中所有腳本字型定義的字典。 |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | 從主題的字型集合中移除與特定腳本標籤相關聯的字型設定。 |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 為特定腳本標籤指派字型名稱，定義該腳本之文字在簡報中的呈現方式。 |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 為特定腳本標籤指派字型名稱，定義該腳本文字在簡報中的呈現方式。 |
 
 ### 另請參閱
 

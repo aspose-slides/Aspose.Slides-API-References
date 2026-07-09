@@ -3,12 +3,12 @@ title: ICustomXmlPart
 second_title: Aspose.Sildes for .NET API リファレンス
 description: カスタム XML パートを表します。
 type: docs
-weight: 5650
+weight: 5670
 url: /ja/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart インターフェイス
 
-カスタム XML パートを表します。
+Represents custom xml part.
 
 ```csharp
 public interface ICustomXmlPart
@@ -16,18 +16,18 @@ public interface ICustomXmlPart
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | グローバルに一意な識別子 (GUID) を指定し、Office Open XML ドキュメント内の単一のカスタム XML パートを一意に識別します。読み取り専用 Guid。 |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Office Open XML ドキュメント内で単一のカスタム XML パートを一意に識別するグローバルにユニークな識別子 (GUID) を指定します。読み取り専用 Guid。 |
 | [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | カスタム XML パートに関連付けられたコレクション XML スキーマを返します。読み取り専用 String[]。 |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML データを UTF-8 文字列として取得または設定します。読み書き可能 String。値は `null` です。値が空であるか XML データが無効です。 |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | XML データを取得または設定します。読み書き可能 Byte[]。値は `null` です。値が空であるか XML データが無効です。 |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | UTF-8 文字列として xml データを取得または設定します。読み書き可能 String。value は `null`。value が空または xml データが無効です。 |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | xml データを取得または設定します。読み書き可能 Byte[]。value は `null`。value が空または xml データが無効です。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | プレゼンテーションからカスタム XML パートを削除します。 |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | プレゼンテーションからカスタム xml パートを削除します。 |
 
 ### 参照
 

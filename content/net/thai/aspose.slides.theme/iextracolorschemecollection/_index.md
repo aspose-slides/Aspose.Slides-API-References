@@ -1,14 +1,14 @@
 ---
 title: IExtraColorSchemeCollection
 second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: เป็นการแทนคอลเลกชันของโครงร่างสีเพิ่มเติม
+description: เป็นคอลเลกชันของโครงร่างสีเพิ่มเติม.
 type: docs
 weight: 11220
 url: /th/aspose.slides.theme/iextracolorschemecollection/
 ---
-## IExtraColorSchemeCollection อินเตอร์เฟซ
+## IExtraColorSchemeCollection อินเทอร์เฟซ
 
-เป็นการแทนคอลเลกชันของโครงร่างสีเพิ่มเติม
+แสดงคอลเลกชันของโครงร่างสีเพิ่มเติม.
 
 ```csharp
 public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorScheme>
@@ -16,14 +16,14 @@ public interface IExtraColorSchemeCollection : IGenericCollection<IExtraColorSch
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | คืนค่าโครงร่างสีตามดัชนี. อ่านอย่างเดียว [`IExtraColorScheme`](../iextracolorscheme). |
+| [Item](../../aspose.slides.theme/iextracolorschemecollection/item) { get; } | คืนค่าโครงร่างสีตามดัชนี อ่านอย่างเดียว [`IExtraColorScheme`](../iextracolorscheme). |
 
-### ดูเพิ่มเติม
+### ดูเพิ่ม
 
-* อินเตอร์เฟซ [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
-* อินเตอร์เฟซ [IExtraColorScheme](../iextracolorscheme)
+* อินเทอร์เฟซ [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
+* อินเทอร์เฟซ [IExtraColorScheme](../iextracolorscheme)
 * เนมสเปซ [Aspose.Slides.Theme](../../aspose.slides.theme)
 * แอสเซมบลี [Aspose.Slides](../../)
 

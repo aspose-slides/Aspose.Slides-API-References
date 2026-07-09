@@ -1,14 +1,14 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एनिमेशन प्रॉपर्टी के लिए कैलक मोड का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: एनीमेशन प्रॉपर्टी के लिए कैल्क मोड का प्रतिनिधित्व करता है।
 type: docs
 weight: 740
 url: /hi/aspose.slides.animation/propertycalcmodetype/
 ---
-## PropertyCalcModeType एन्यूमरेशन
+## PropertyCalcModeType एन्यूमेरेशन
 
-एनिमेशन प्रॉपर्टी के लिए कैलक मोड का प्रतिनिधित्व करता है।
+एनीमेशन प्रॉपर्टी के लिए गणना मोड का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum PropertyCalcModeType
@@ -16,14 +16,14 @@ public enum PropertyCalcModeType
 
 ### मान
 
-| नाम | मान | विवरण |
-| --- | --- | --- |
-| NotDefined | `-1` |  |
-| Discrete | `0` |  |
-| Linear | `1` |  |
-| Formula | `2` |  |
+|नाम|मान|विवरण|
+|---|---|---|
+|NotDefined|`-1`| |
+|Discrete|`0`| |
+|Linear|`1`| |
+|Formula|`2`| |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

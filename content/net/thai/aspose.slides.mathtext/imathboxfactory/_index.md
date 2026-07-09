@@ -1,6 +1,6 @@
 ---
 title: IMathBoxFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: อนุญาตให้สร้างกล่องคณิตศาสตร์
 type: docs
 weight: 8200
@@ -18,11 +18,11 @@ public interface IMathBoxFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | สร้างกล่องคณิตศาสตร์โดยใช้กับองค์ประกอบ |
+| [CreateMathBox](../../aspose.slides.mathtext/imathboxfactory/createmathbox)(IMathElement) | สร้างกล่องคณิตศาสตร์โดยนำไปใช้กับองค์ประกอบ |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+สำหรับความเข้ากันได้กับ COM
 
 ### ดูเพิ่มเติม
 

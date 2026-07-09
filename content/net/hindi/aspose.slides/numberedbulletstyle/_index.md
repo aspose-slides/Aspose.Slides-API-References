@@ -1,14 +1,14 @@
 ---
 title: NumberedBulletStyle
-second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
-description: संख्याबद्ध बुलेट्स की शैली का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: संख्या बुलेट्स की शैली को दर्शाता है।
 type: docs
 weight: 9180
 url: /hi/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle एन्यूमरेशन
 
-संख्यित बुलेट्स की शैली का प्रतिनिधित्व करता है।
+संख्या बुलेट्स की शैली को दर्शाता है।
 
 ```csharp
 public enum NumberedBulletStyle : sbyte
@@ -19,51 +19,51 @@ public enum NumberedBulletStyle : sbyte
 | Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `-1` | परिभाषित नहीं है। |
-| BulletAlphaLCPeriod | `0` | निचले केस अक्षर जिसमें अंत में बिंदु हो। उदाहरण: a., b., c., ... |
-| BulletAlphaUCPeriod | `1` | ऊपरी केस अक्षर जिसमें अंत में बिंदु हो। उदाहरण: A., B., C., ... |
-| BulletArabicParenRight | `2` | अरबी अंक के साथ बंद कोष्ठक। उदाहरण: 1), 2), 3), ... |
-| BulletArabicPeriod | `3` | अरबी अंक के साथ बिंदु। उदाहरण: 1., 2., 3., ... |
-| BulletRomanLCParenBoth | `4` | निचले केस रोमन अंक दोनों कोष्ठकों के साथ। उदाहरण: (i), (ii), (iii), ... |
-| BulletRomanLCParenRight | `5` | निचले केस रोमन अंक बंद कोष्ठक के साथ। उदाहरण: i), ii), iii), ... |
-| BulletRomanLCPeriod | `6` | निचले केस रोमन अंक बिंदु के साथ। उदाहरण: i., ii., iii., ... |
-| BulletRomanUCPeriod | `7` | ऊपरी केस रोमन अंक बिंदु के साथ। उदाहरण: I., II., III., ... |
-| BulletAlphaLCParenBoth | `8` | निचले केस अक्षर दोनों कोष्ठकों के साथ। उदाहरण: (a), (b), (c), ... |
-| BulletAlphaLCParenRight | `9` | निचले केस अक्षर बंद कोष्ठक के साथ। उदाहरण: a), b), c), ... |
-| BulletAlphaUCParenBoth | `10` | ऊपरी केस अक्षर दोनों कोष्ठकों के साथ। उदाहरण: (A), (B), (C), ... |
-| BulletAlphaUCParenRight | `11` | ऊपरी केस अक्षर बंद कोष्ठक के साथ। उदाहरण: A), B), C), ... |
-| BulletArabicParenBoth | `12` | अरबी अंक दोनों कोष्ठकों के साथ। उदाहरण: (1), (2), (3), ... |
+| BulletAlphaLCPeriod | `0` | छोटे अक्षरात्मक वर्णों के साथ अवधि। उदाहरण: a., b., c., ... |
+| BulletAlphaUCPeriod | `1` | बड़े अक्षरात्मक वर्णों के साथ अवधि। उदाहरण: A., B., C., ... |
+| BulletArabicParenRight | `2` | अरबी अंकों के साथ बंद कोष्ठक। उदाहरण: 1), 2), 3), ... |
+| BulletArabicPeriod | `3` | अरबी अंकों के साथ अवधि। उदाहरण: 1., 2., 3., ... |
+| BulletRomanLCParenBoth | `4` | छोटे रोमन अंकों के साथ दोनों कोष्ठक। उदाहरण: (i), (ii), (iii), ... |
+| BulletRomanLCParenRight | `5` | छोटे रोमन अंकों के साथ बंद कोष्ठक। उदाहरण: i), ii), iii), ... |
+| BulletRomanLCPeriod | `6` | छोटे रोमन अंकों के साथ अवधि। उदाहरण: i., ii., iii., ... |
+| BulletRomanUCPeriod | `7` | बड़े रोमन अंकों के साथ अवधि। उदाहरण: I., II., III., ... |
+| BulletAlphaLCParenBoth | `8` | छोटे अक्षरात्मक वर्णों के साथ दोनों कोष्ठक। उदाहरण: (a), (b), (c), ... |
+| BulletAlphaLCParenRight | `9` | छोटे अक्षरात्मक वर्णों के साथ बंद कोष्ठक। उदाहरण: a), b), c), ... |
+| BulletAlphaUCParenBoth | `10` | बड़े अक्षरात्मक वर्णों के साथ दोनों कोष्ठक। उदाहरण: (A), (B), (C), ... |
+| BulletAlphaUCParenRight | `11` | बड़े अक्षरात्मक वर्णों के साथ बंद कोष्ठक। उदाहरण: A), B), C), ... |
+| BulletArabicParenBoth | `12` | अरबी अंकों के साथ दोनों कोष्ठक। उदाहरण: (1), (2), (3), ... |
 | BulletArabicPlain | `13` | अरबी अंक। उदाहरण: 1, 2, 3, ... |
-| BulletRomanUCParenBoth | `14` | ऊपरी केस रोमन अंक दोनों कोष्ठकों के साथ। उदाहरण: (I), (II), (III), ... |
-| BulletRomanUCParenRight | `15` | ऊपरी केस रोमन अंक बंद कोष्ठक के साथ। उदाहरण: I), II), III), ... |
-| BulletSimpChinPlain | `16` | सरलीकृत चीनी बिना बिंदु के। |
-| BulletSimpChinPeriod | `17` | सरलीकृत चीनी बिंदु के साथ। |
-| BulletCircleNumDBPlain | `18` | 10 तक के मानों के लिए दो-बाइट घेरित संख्या, 11 से आगे अरबी अंक। |
-| BulletCircleNumWDWhitePlain | `19` | टेक्स्ट के रंग से समान रंग का वृत्त के साथ संख्या (Wingdings सफेद वृत्त संख्याएँ)। 11 से आगे अरबी अंक। |
-| BulletCircleNumWDBlackPlain | `20` | छाया रंग संख्या जो सामान्य टेक्स्ट रंग के वृत्ताकार पृष्ठभूमि में हो (Wingdings काली वृत्त संख्याएँ)। |
-| BulletTradChinPlain | `21` | पारंपरिक चीनी बिना बिंदु के। |
-| BulletTradChinPeriod | `22` | पारंपरिक चीनी बिंदु के साथ। |
-| BulletArabicAlphaDash | `23` | अरबी भाषा के अक्षर डैश के साथ। |
-| BulletArabicAbjadDash | `24` | अरबी अबजद अल्फ़ाबेट डैश के साथ। |
-| BulletHebrewAlphaDash | `25` | हिब्रू भाषा के अक्षर डैश के साथ। |
-| BulletKanjiKoreanPlain | `26` | जापानी/कोरियाई संख्याएँ बिना बिंदु के। |
-| BulletKanjiKoreanPeriod | `27` | जापानी/कोरियाई संख्याएँ बिंदु के साथ। |
-| BulletArabicDBPlain | `28` | डबल-बाइट अरबी क्रमांकन योजना (कोई विराम चिह्न नहीं)। |
-| BulletArabicDBPeriod | `29` | डबल-बाइट अरबी क्रमांकन योजना डबल-बाइट बिंदु के साथ। |
-| BulletThaiAlphaPeriod | `30` | थाई अक्षर बिंदु। |
-| BulletThaiAlphaParenRight | `31` | थाई अक्षर कोष्ठक - दायाँ। |
-| BulletThaiAlphaParenBoth | `32` | थाई अक्षर कोष्ठक - दोनों। |
-| BulletThaiNumPeriod | `33` | थाई संख्यात्मक बिंदु। |
+| BulletRomanUCParenBoth | `14` | बड़े रोमन अंकों के साथ दोनों कोष्ठक। उदाहरण: (I), (II), (III), ... |
+| BulletRomanUCParenRight | `15` | बड़े रोमन अंकों के साथ बंद कोष्ठक। उदाहरण: I), II), III), ... |
+| BulletSimpChinPlain | `16` | सरलीकृत चीनी बिना अवधि के। |
+| BulletSimpChinPeriod | `17` | सरलीकृत चीनी के साथ अवधि। |
+| BulletCircleNumDBPlain | `18` | 10 तक के मानों के लिए द्वि-बाइट गोल संख्या, 11 से – अरबिक संख्या। |
+| BulletCircleNumWDWhitePlain | `19` | पाठ के रंग में संख्या और उसी रंग का घेरा (Wingdings सफेद वृत्त संख्या)। 11 से – अरबिक संख्या। |
+| BulletCircleNumWDBlackPlain | `20` | छाया रंग की संख्या, सामान्य पाठ रंग के गोल पृष्ठभूमि के साथ (Wingdings काली वृत्त संख्या)। |
+| BulletTradChinPlain | `21` | पारंपरिक चीनी बिना अवधि के। |
+| BulletTradChinPeriod | `22` | पारंपरिक चीनी के साथ अवधि। |
+| BulletArabicAlphaDash | `23` | अरबी भाषा के अक्षरात्मक वर्ण डैश के साथ। |
+| BulletArabicAbjadDash | `24` | अरबी अब्ज़ाद वर्ण डैश के साथ। |
+| BulletHebrewAlphaDash | `25` | हिब्रू भाषा के अक्षरात्मक वर्ण डैश के साथ। |
+| BulletKanjiKoreanPlain | `26` | जापानी/कोरियाई संख्याएँ बिना अवधि के। |
+| BulletKanjiKoreanPeriod | `27` | जापानी/कोरियाई संख्याएँ अवधि के साथ। |
+| BulletArabicDBPlain | `28` | डबल-बाइट अरबी क्रमांक योजना (कोई विराम नहीं)। |
+| BulletArabicDBPeriod | `29` | डबल-बाइट अरबी क्रमांक योजना में डबल-बाइट अवधि। |
+| BulletThaiAlphaPeriod | `30` | थाई अक्षर अवधि। |
+| BulletThaiAlphaParenRight | `31` | थाई अक्षर के कोष्ठक - दायाँ। |
+| BulletThaiAlphaParenBoth | `32` | थाई अक्षर के कोष्ठक - दोनों। |
+| BulletThaiNumPeriod | `33` | थाई संख्यात्मक अवधि। |
 | BulletThaiNumParenRight | `34` | थाई संख्यात्मक कोष्ठक - दायाँ। |
 | BulletThaiNumParenBoth | `35` | थाई संख्यात्मक कोष्ठक - दोनों। |
-| BulletHindiAlphaPeriod | `36` | हिंदी अक्षर बिंदु - स्वर। |
-| BulletHindiNumPeriod | `37` | हिंदी संख्यात्मक बिंदु। |
-| BulletKanjiSimpChinDBPeriod | `38` | कान्जी सरल चीनी DBPeriod। |
+| BulletHindiAlphaPeriod | `36` | हिंदी वर्ण अवधि - स्वर। |
+| BulletHindiNumPeriod | `37` | हिंदी संख्यात्मक अवधि। |
+| BulletKanjiSimpChinDBPeriod | `38` | कोंजी सरल चीनी DBPeriod। |
 | BulletHindiNumParenRight | `39` | हिंदी संख्यात्मक कोष्ठक - दायाँ। |
-| BulletHindiAlpha1Period | `40` | हिंदी अक्षर बिंदु - व्यंजन। |
+| BulletHindiAlpha1Period | `40` | हिंदी वर्ण अवधि - व्यंजन। |
 
-### देखें भी
+### देखें
 
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
-* असेंबली [Aspose.Slides](../../)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

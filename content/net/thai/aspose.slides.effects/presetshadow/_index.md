@@ -1,14 +1,14 @@
 ---
 title: PresetShadow
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงเอฟเฟกต์ Preset Shadow.
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงเอฟเฟกต์เงาที่กำหนดล่วงหน้า.
 type: docs
 weight: 3630
 url: /th/aspose.slides.effects/presetshadow/
 ---
-## คลาส PresetShadow
+## PresetShadow คลาส
 
-แสดงถึงเอฟเฟกต์ Preset Shadow
+Represents a Preset Shadow effect.
 
 ```csharp
 public sealed class PresetShadow : IPresetShadow
@@ -20,16 +20,16 @@ public sealed class PresetShadow : IPresetShadow
 | --- | --- |
 | [Direction](../../aspose.slides.effects/presetshadow/direction) { get; set; } | ทิศทางของเงา. อ่าน/เขียน Single. |
 | [Distance](../../aspose.slides.effects/presetshadow/distance) { get; set; } | ระยะของเงา. อ่าน/เขียน Double. |
-| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | ค่าที่กำหนดล่วงหน้า. อ่าน/เขียน [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [Preset](../../aspose.slides.effects/presetshadow/preset) { get; set; } | ค่ากำหนดล่วงหน้า. อ่าน/เขียน [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
 | [ShadowColor](../../aspose.slides.effects/presetshadow/shadowcolor) { get; } | สีของเงา. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | กำหนดว่าตัว [`PresetShadow`](../presetshadow) ที่ระบุเท่ากับ [`PresetShadow`](../presetshadow) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Preset Shadow ที่มีการสืบทอดแล้ว. |
-| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดใดชนิดหนึ่ง. |
+| override [Equals](../../aspose.slides.effects/presetshadow/equals)(object) | กำหนดว่าค่า [`PresetShadow`](../presetshadow) ที่ระบุเท่ากับค่าปัจจุบัน [`PresetShadow`](../presetshadow) หรือไม่. |
+| [GetEffective](../../aspose.slides.effects/presetshadow/geteffective)() | รับข้อมูลผลลัพธ์ของเอฟเฟกต์ Preset Shadow ที่ได้จากการนำการสืบทอดมาใช้. |
+| override [GetHashCode](../../aspose.slides.effects/presetshadow/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับชนิดเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

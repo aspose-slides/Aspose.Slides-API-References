@@ -1,6 +1,6 @@
 ---
 title: ISequenceCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: इंटरैक्टिव अनुक्रमों के संग्रह को दर्शाता है।
 type: docs
 weight: 600
@@ -14,24 +14,24 @@ url: /hi/aspose.slides.animation/isequencecollection/
 public interface ISequenceCollection : IEnumerable<ISequence>
 ```
 
-## गुण
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने योग्य IEnumerable। |
-| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | एक संग्रह में तत्वों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32। |
-| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | निर्दिष्ट सूचकांक पर एक अनुक्रम लौटाता है। |
+| [AsIEnumerable](../../aspose.slides.animation/isequencecollection/asienumerable) { get; } | IEnumerable इंटरफ़ेस लौटाता है। केवल-पढ़ने-योग्य IEnumerable। |
+| [Count](../../aspose.slides.animation/isequencecollection/count) { get; } | कलेक्शन में तत्वों की संख्या लौटाता है। केवल-पढ़ने-योग्य Int32। |
+| [Item](../../aspose.slides.animation/isequencecollection/item) { get; } | निर्दिष्ट इंडेक्स पर एक अनुक्रम लौटाता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides.animation/isequencecollection/add)(IShape) | नया इंटरैक्टिव अनुक्रम जोड़ें। |
-| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | सभी अनुक्रमों को संग्रह से हटाता है। |
-| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | निर्दिष्ट अनुक्रम को संग्रह से हटाता है। |
-| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | निर्दिष्ट सूचकांक पर अनुक्रम हटाता है। |
+| [Clear](../../aspose.slides.animation/isequencecollection/clear)() | कलेक्शन से सभी अनुक्रम हटा देता है। |
+| [Remove](../../aspose.slides.animation/isequencecollection/remove)(ISequence) | कलेक्शन से निर्दिष्ट अनुक्रम हटाता है। |
+| [RemoveAt](../../aspose.slides.animation/isequencecollection/removeat)(int) | निर्दिष्ट इंडेक्स पर अनुक्रम हटाता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [ISequence](../isequence)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)

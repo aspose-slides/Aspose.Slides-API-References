@@ -1,14 +1,14 @@
 ---
 title: Tint
-second_title: Aspose.Sildes .NET API संदर्भ
-description: एक Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा के अनुसार hue की ओर या उससे दूर प्रभाव के रंग मानों को बदलता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: एक Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा के अनुसार hue की ओर/से दूर प्रभाव रंग मानों को बदलता है।
 type: docs
 weight: 3660
 url: /hi/aspose.slides.effects/tint/
 ---
 ## Tint क्लास
 
-एक Tint प्रभाव का प्रतिनिधित्व करता है। निर्दिष्ट मात्रा के अनुसार hue की ओर या उससे दूर रंग मानों को बदलता है।
+Tint प्रभाव को दर्शाता है। निर्दिष्ट मात्रा के अनुसार hue की ओर/से दूर प्रभाव रंग मानों को बदलता है।
 
 ```csharp
 public sealed class Tint : ImageTransformOperation, ITint
@@ -18,15 +18,15 @@ public sealed class Tint : ImageTransformOperation, ITint
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | बेस IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | आधार IPresentationComponent इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल पढ़ने योग्य [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/tint/equals)(object) | निर्धारित करता है कि निर्दिष्ट [`Tint`](../tint) वर्तमान [`Tint`](../tint) के बराबर है या नहीं। |
-| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | विरासत लागू होते हुए प्रभावी Tint प्रभाव डेटा प्राप्त करता है। |
-| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | किसी विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
+| [GetEffective](../../aspose.slides.effects/tint/geteffective)() | विरासत लागू होने के साथ प्रभावी Tint इफ़ेक्ट डेटा को प्राप्त करता है। |
+| override [GetHashCode](../../aspose.slides.effects/tint/gethashcode)() | एक विशिष्ट प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है। |
 
 ### संबंधित देखें
 

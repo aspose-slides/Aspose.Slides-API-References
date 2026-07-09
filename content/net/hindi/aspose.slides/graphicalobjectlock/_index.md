@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: निर्धारित करता है कि पैरेंट GraphicalObject पर कौन सी क्रियाएँ अक्षम हैं।
+description: निर्धारित करता है कि पैरेंट GraphicalObject पर कौन-सी प्रक्रियाएँ अक्षम हैं।
 type: docs
 weight: 5080
 url: /hi/aspose.slides/graphicalobjectlock/
 ---
-## GraphicalObjectLock क्लास
+## GraphicalObjectLock वर्ग
 
-Determines which operations are disabled on the parent GraphicalObject.
+निर्धारित करता है कि कौन-सी प्रक्रियाएँ पैरेंट GraphicalObject पर अक्षम हैं।
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -18,17 +18,17 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | नाम | विवरण |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार परिवर्तन पर आकार को अनुपात बनाए रखना चाहिए या नहीं। पढ़ने/लिखने बूलियन। |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | निर्धारित करता है कि इस वस्तु के उप-आकारों का चयन प्रतिबंधित है या नहीं। पढ़ने/लिखने बूलियन। |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ने/लिखने बूलियन। |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | यदि सभी लॉक-फ़्लैग निष्क्रिय हैं तो सत्य लौटाता है। केवल पढ़ने योग्य बूलियन। |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को ले जाना प्रतिबंधित है या नहीं। पढ़ने/लिखने बूलियन। |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन प्रतिबंधित है या नहीं। पढ़ने/लिखने बूलियन। |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का आकार बदलना प्रतिबंधित है या नहीं। पढ़ने/लिखने बूलियन। |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | निर्धारित करता है कि आकार को रीस्केलिंग पर अनुपात बनाये रखना चाहिए या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | निर्धारित करता है कि इस ऑब्जेक्ट के सबशेप्स का चयन प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | निर्धारित करता है कि इस आकार को समूह में जोड़ना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | यदि सभी लॉक-फ़्लैग अक्षम हैं तो true लौटाता है। केवल-पढ़ने योग्य बूलियन। |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | निर्धारित करता है कि इस आकार को स्थानांतरित करना प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | निर्धारित करता है कि इस आकार का चयन प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | निर्धारित करता है कि इस आकार का आकार बदलना (रिसाइज़िंग) प्रतिबंधित है या नहीं। पढ़ने/लिखने योग्य बूलियन। |
 
 ### संबंधित देखें
 
-* क्लास [BaseShapeLock](../baseshapelock)
+* वर्ग [BaseShapeLock](../baseshapelock)
 * इंटरफ़ेस [IGraphicalObjectLock](../igraphicalobjectlock)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

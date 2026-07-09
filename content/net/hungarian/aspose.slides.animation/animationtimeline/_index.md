@@ -1,14 +1,14 @@
 ---
 title: AnimationTimeLine
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: Az animáció idővonalát képviseli.
 type: docs
-weight: 110
+weight: 130
 url: /hu/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine osztály
 
-Represents timeline of animation.
+Az animáció idővonalát képviseli.
 
 ```csharp
 public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
@@ -18,8 +18,8 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | Név | Leírás |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Visszaadja az interaktív sorozatok gyűjteményét. Ez a sorozat csak az "click on shape" hatásokat tartalmazhat a megadott cél alakzattal. Csak olvasható [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Visszaadja a fő sorozatot, amely csak a fő hatások gyűjteményét tartalmazhat. Csak olvasható [`ISequence`](../isequence). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | Visszaadja az interaktív szekvenciák gyűjteményét. Ezek a szekvenciák csak a "click on shape" hatásokat tartalmazhatják a megadott cél alakzattal. Csak olvasható [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | Visszaadja a fő szekvenciát, amely csak a fő hatások gyűjteményét tartalmazhatja. Csak olvasható [`ISequence`](../isequence). |
 | [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | Visszaadja a szöveganimációk gyűjteményét. Csak olvasható [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
-second_title: Aspose.Sildes a .NET API-referencia
-description: Módosíthatatlan objektum, amely egy Alpha két szintű hatást képvisel. Az alfa átlátszatlanság értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó), a küszögnél nagyobb vagy egyenlő alfa értékek 100-ra (teljesen átlátszatlan) változnak.
+second_title: Aspose.Sildes .NET API referenciája
+description: Változtathatatlan objektum, amely egy Alpha Bi-Level hatást képvisel. Az Alpha átlátszósági értékek, amelyek kisebbek a küszöbnél, 0-ra állnak (teljesen átlátszó), a küszöbnél nagyobb vagy egyenlő értékek pedig 100-ra (teljesen átlátszatlan).
 type: docs
-weight: 3010
+weight: 3030
 url: /hu/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interfész
 
-Módosíthatatlan objektum, amely egy Alpha két szintű hatást képvisel. Az Alpha (Átlátszatlanság) értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) változnak, míg a küszögnél nagyobb vagy egyenlő Alpha értékek 100%-ra (teljesen átlátszatlan) változnak.
+Változtathatatlan objektum, amely egy Alpha Bi-Level hatást képvisel. Az Alpha (Átlátszóság) értékek, amelyek kisebbek a küszöbnél, 0-ra (teljesen átlátszó) módosulnak, a küszöbnél nagyobb vagy egyenlő alpha értékek pedig 100%-ra (teljesen átlátszatlan) módosulnak.
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | Név | Leírás |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a bázis IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Visszaadja a hatás küszöbértékét. Csak olvasható Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | Lehetővé teszi a base IEffectEffectiveData interfész lekérését. Csak olvasható [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | Visszaadja a hatás küszöbét. Csak olvasható Single. |
 
 ### Lásd még
 

@@ -1,6 +1,6 @@
 ---
 title: IInnerShadow
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงถึงเอฟเฟกต์เงาภายใน
 type: docs
 weight: 3420
@@ -19,11 +19,11 @@ public interface IInnerShadow : IAccessiblePVIObject<IInnerShadowEffectiveData>,
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | รัศมีการเบลอ. อ่าน/เขียน Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iinnershadow/asiaccessiblepviobject) { get; } | อนุญาตให้รับอินเทอร์เฟซ IAccessiblePVIObject พื้นฐานได้. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iinnershadow/asiimagetransformoperation) { get; } | อนุญาตให้รับอินเทอร์เฟซ IImageTransformOperation พื้นฐานได้. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadow/blurradius) { get; set; } | รัศมีบลอร์. อ่าน/เขียน Double. |
 | [Direction](../../aspose.slides.effects/iinnershadow/direction) { get; set; } | ทิศทางของเงา. อ่าน/เขียน Single. |
-| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | ระยะของเงา. อ่าน/เขียน Double. |
+| [Distance](../../aspose.slides.effects/iinnershadow/distance) { get; set; } | ระยะห่างของเงา. อ่าน/เขียน Double. |
 | [ShadowColor](../../aspose.slides.effects/iinnershadow/shadowcolor) { get; } | สีของเงา. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
 ### ดูเพิ่มเติม

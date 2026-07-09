@@ -1,14 +1,14 @@
 ---
 title: IVbaProjectFactory
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างโครงการ VBA ผ่านอินเทอร์เฟซ COM
+description: อนุญาตให้สร้าง VBA project ผ่าน COM interface
 type: docs
 weight: 11560
 url: /th/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างโครงการ VBA ผ่านอินเทอร์เฟซ COM
+อนุญาตให้สร้าง VBA project ผ่าน COM อินเทอร์เฟซ
 
 ```csharp
 public interface IVbaProjectFactory
@@ -18,8 +18,8 @@ public interface IVbaProjectFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | สร้างโครงการ VBA ใหม่. |
-| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | อ่านโครงการ VBA จากคอนเทนเนอร์ OLE. |
+| [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | สร้าง VBA project ใหม่ |
+| [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | อ่าน VBA project จาก OLE container |
 
 ### ดูเพิ่มเติม
 

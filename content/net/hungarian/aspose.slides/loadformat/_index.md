@@ -1,14 +1,14 @@
 ---
 title: LoadFormat
-second_title: Aspose.Sildes a .NET API hivatkozáshoz
-description: A betöltendő dokumentum formátumát jelöli.
+second_title: Aspose.Sildes .NET API-referencia
+description: Megadja a betöltendő dokumentum formátumát.
 type: docs
-weight: 7810
+weight: 7830
 url: /hu/aspose.slides/loadformat/
 ---
 ## LoadFormat enumeráció
 
-A betöltendő dokumentum formátumát jelöli.
+Megadja a betöltendő dokumentum formátumát.
 
 ```csharp
 public enum LoadFormat
@@ -18,16 +18,16 @@ public enum LoadFormat
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| Auto | `0` | Az Aspose.Slides automatikusan felismeri a formátumot. |
+| Auto | `0` | Az Aspose.Slides számára automatikusan felismeri a formátumot. |
 | Ppt | `1` | Microsoft PowerPoint 97-2003 prezentáció. |
-| Pps | `2` | Microsoft PowerPoint 97-2003 diavetítés. |
+| Pps | `2` | Microsoft PowerPoint 97-2003 Diavetítés. |
 | Pptx | `3` | Microsoft Office Open XML PresentationML dokumentum. |
 | Ppsx | `4` | Microsoft Office Open XML PresentationML diavetítés. |
 | Odp | `5` | OpenOffice ODF prezentáció. |
 | Potx | `6` | Microsoft Office Open XML PresentationML sablon. |
-| Pptm | `7` | Microsoft Office Open XML PresentationML makróval rendelkező dokumentum. |
-| Ppsm | `8` | Microsoft Office Open XML PresentationML makróval rendelkező diavetítés. |
-| Potm | `9` | Microsoft Office Open XML PresentationML makróval rendelkező sablon. |
+| Pptm | `7` | Microsoft Office Open XML PresentationML makróval ellátott dokumentum. |
+| Ppsm | `8` | Microsoft Office Open XML PresentationML makróval ellátott diavetítés. |
+| Potm | `9` | Microsoft Office Open XML PresentationML makróval ellátott sablon. |
 | Otp | `10` | OpenOffice OTP prezentációs sablon. |
 | Ppt95 | `11` | Microsoft PowerPoint 95 prezentáció. |
 | Pot | `12` | Microsoft PowerPoint 97-2003 prezentációs sablon. |

@@ -16,17 +16,17 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides.charts/trendlinecollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.charts/trendlinecollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`Trendline`](../trendline). |
 
-## Methodes
+## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | Voegt de nieuwe Trendline toe aan het einde van een collectie en retourneert deze. |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | Retourneert een enumerator die door de collectie iterereert. |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | Verwijdert de opgegeven waarde. |
 
 ### Zie ook

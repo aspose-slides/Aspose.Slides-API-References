@@ -1,14 +1,14 @@
 ---
 title: FillFormatCollection
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: แสดงคอลเลกชันของสไตล์การเติม.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: เป็นตัวแทนของคอลเลกชันของสไตล์การเติม.
 type: docs
 weight: 11120
 url: /th/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection คลาส
 
-แสดงคอลเลกชันของสไตล์การเติม
+เป็นตัวแทนของคอลเลกชันของสไตล์การเติม
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -16,19 +16,19 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | รับจำนวนขององค์ประกอบที่อยู่ในคอลเลกชันจริง ๆ. อ่าน-อย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | ส่งคืนค่าแสดงว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อหลายเธรด). อ่าน-อย่างเดียว Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่าน-อย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | ส่งคืนรากของการซิงโครไนซ์. อ่าน-อย่างเดียว Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | รับจำนวนขององค์ประกอบที่มีอยู่จริงในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์. อ่านอย่างเดียว Object. |
 
-## เมธอด
+## วิธีการ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาเรย์ที่ระบุ. |
-| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | ส่งคืน enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
+| [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | คัดลอกทุกองค์ประกอบจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ. |
+| [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: MasterThemeManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้การเข้าถึงธีมหลักของการนำเสนอ
+description: ให้การเข้าถึงธีมหลักของงานนำเสนอ.
 type: docs
 weight: 11440
 url: /th/aspose.slides.theme/masterthememanager/
 ---
 ## MasterThemeManager คลาส
 
-ให้การเข้าถึงธีมหลักของการนำเสนอ
+ให้การเข้าถึงธีมหลักของงานนำเสนอ
 
 ```csharp
 public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
@@ -18,14 +18,14 @@ public class MasterThemeManager : BaseThemeManager, IMasterThemeManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | กำหนดว่า OverrideTheme จะเขียนทับธีมที่มีประสิทธิภาพสืบทอด (Presentation.MasterTheme) หรือไม่. อ่าน/เขียน Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | คืนค่าอ็อบเจ็กต์ธีมที่เขียนทับ. อ่าน/เขียน [`IMasterTheme`](../imastertheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/masterthememanager/isoverridethemeenabled) { get; set; } | กำหนดว่า OverrideTheme จะทับธีมที่มีประสิทธิภาพสืบทอด (Presentation.MasterTheme) หรือไม่ อ่าน/เขียน Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/masterthememanager/overridetheme) { get; set; } | คืนค่าอ็อบเจ็กต์ธีมที่ทับ อ่าน/เขียน [`IMasterTheme`](../imastertheme). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | ใช้โครงร่างสีเพิ่มเติมกับสไลด์. |
+| [ApplyColorScheme](../../aspose.slides.theme/masterthememanager/applycolorscheme)(IExtraColorScheme) | นำแบบสีเพิ่มเติมไปใช้กับสไลด์. |
 | [CreateThemeEffective](../../aspose.slides.theme/masterthememanager/createthemeeffective)() | คืนค่าอ็อบเจ็กต์ธีม. |
 
 ### ดูเพิ่มเติม

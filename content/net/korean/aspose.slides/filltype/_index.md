@@ -1,14 +1,14 @@
 ---
 title: FillType
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 다양한 시각 객체의 내부 채우기 유형을 지정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 다양한 시각 개체의 내부 채우기 유형을 지정합니다.
 type: docs
 weight: 4790
 url: /ko/aspose.slides/filltype/
 ---
 ## FillType 열거형
 
-다양한 시각 객체의 내부 채우기 유형을 지정합니다.
+다양한 시각 개체의 내부 채우기 유형을 지정합니다.
 
 ```csharp
 public enum FillType : sbyte
@@ -21,12 +21,12 @@ public enum FillType : sbyte
 | NotDefined | `-1` | 채우기 유형이 정의되지 않았습니다. |
 | NoFill | `0` | 채우기가 적용되지 않았습니다. |
 | Solid | `1` | 단색으로 채워집니다. |
-| Gradient | `2` | 채우기가 그라데이션입니다. |
-| Pattern | `3` | 반복 패턴이 객체를 채우는 데 사용됩니다. |
-| Picture | `4` | 단일 이미지를 사용하여 객체를 채웁니다. |
-| Group | `5` | 시각 객체가 그룹으로부터 채우기 속성을 상속합니다. |
+| Gradient | `2` | 채우기가 그라디언트입니다. |
+| Pattern | `3` | 반복 패턴을 사용하여 개체를 채웁니다. |
+| Picture | `4` | 단일 그림을 사용하여 개체를 채웁니다. |
+| Group | `5` | 시각 개체가 그룹으로부터 채우기 속성을 상속합니다. |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

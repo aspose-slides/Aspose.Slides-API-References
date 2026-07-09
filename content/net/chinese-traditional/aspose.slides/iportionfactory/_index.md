@@ -1,6 +1,6 @@
 ---
 title: IPortionFactory
-second_title: Aspose.Sildes for .NET API 參考手冊
+second_title: Aspose.Sildes for .NET API 參考
 description: 允許建立測試部分
 type: docs
 weight: 6720
@@ -16,15 +16,15 @@ public interface IPortionFactory
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | 建立空的文字部分。 |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分資料建立部分。 |
-| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | 根據指定的字串建立文字部分。 |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion)() | 建立一個空的文字部分。 |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_1)(IPortion) | 使用指定的部分資料建立一個部分。 |
+| [CreatePortion](../../aspose.slides/iportionfactory/createportion#createportion_2)(string) | 從指定的字串建立文字部分。 |
 
 ### 備註
 
-供 COM 相容性
+供 COM 相容性使用
 
 ### 另請參閱
 

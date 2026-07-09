@@ -1,14 +1,14 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje właściwości czasu dla zachowania efektu.
+second_title: Aspose.Sildes dla .NET - Dokumentacja API
+description: Reprezentuje właściwości czasowe zachowania efektu.
 type: docs
-weight: 430
+weight: 450
 url: /pl/aspose.slides.animation/ibehaviorpropertycollection/
 ---
 ## IBehaviorPropertyCollection interfejs
 
-Represents timing properties for the effect behavior.
+Reprezentuje właściwości czasowe zachowania efektu.
 
 ```csharp
 public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>

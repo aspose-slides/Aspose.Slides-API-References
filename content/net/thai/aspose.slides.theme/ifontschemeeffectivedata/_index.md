@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติของสกีมฟอนต์ที่มีผล.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติของโฟนต์สคีมที่มีผล
 type: docs
 weight: 11260
 url: /th/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่เปลี่ยนแปลงซึ่งบรรจุคุณสมบัติสกีมฟอนต์ที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติของโฟนต์สคีมาที่มีผล
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -18,13 +18,13 @@ public interface IFontSchemeEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | คืนค่าชุดฟอนต์สำหรับส่วน "heading" ของสไลด์ อ่านอย่างเดียว [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | คืนค่าชุดฟอนต์สำหรับส่วน "body" ของสไลด์ อ่านอย่างเดียว [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | คืนค่าชื่อฟอนต์สกีม อ่านอย่างเดียว String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | ส่งคืนคอลเลกชันของฟอนต์สำหรับส่วน "หัวเรื่อง" ของสไลด์. อ่านอย่างเดียว [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | ส่งคืนคอลเลกชันของฟอนต์สำหรับส่วน "เนื้อหา" ของสไลด์. อ่านอย่างเดียว [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | ส่งคืนชื่อของโฟนต์สคีม. อ่านอย่างเดียว String. |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ใช้เป็นส่วนหนึ่งของ [`IThemeEffectiveData`](../ithemeeffectivedata).
+อินเทอร์เฟซนี้ถูกใช้เป็นส่วนหนึ่งของ [`IThemeEffectiveData`](../ithemeeffectivedata).
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IColumnCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: เป็นตัวแทนของชุดคอลัมน์ในตาราง.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงคอลเลกชันของคอลัมน์ในตาราง.
 type: docs
 weight: 5530
 url: /th/aspose.slides/icolumncollection/
 ---
 ## IColumnCollection อินเทอร์เฟซ
 
-เป็นตัวแทนของชุดคอลัมน์ในตาราง.
+แสดงคอลเลกชันของคอลัมน์ในตาราง.
 
 ```csharp
 public interface IColumnCollection : IGenericCollection<IColumn>
@@ -18,14 +18,14 @@ public interface IColumnCollection : IGenericCollection<IColumn>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/icolumncollection/item) { get; } | ส่งคืนคอลัมน์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IColumn`](../icolumn). |
+| [Item](../../aspose.slides/icolumncollection/item) { get; } | คืนค่าคอลัมน์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IColumn`](../icolumn). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกลงที่ด้านล่างของตาราง. |
-| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | สร้างสำเนาของคอลัมน์แม่แบบที่ระบุและแทรกลงในตำแหน่งที่กำหนดในตาราง. |
+| [AddClone](../../aspose.slides/icolumncollection/addclone)(IColumn, bool) | สร้างสำเนาของแถวแม่แบบที่ระบุและแทรกที่ด้านล่างของตาราง. |
+| [InsertClone](../../aspose.slides/icolumncollection/insertclone)(int, IColumn, bool) | สร้างสำเนาของคอลัมน์แม่แบบที่ระบุและแทรกที่ตำแหน่งที่ระบุในตาราง. |
 | [RemoveAt](../../aspose.slides/icolumncollection/removeat)(int, bool) | ลบคอลัมน์ที่ตำแหน่งที่ระบุออกจากตาราง. |
 
 ### ดูเพิ่มเติม

@@ -1,9 +1,9 @@
 ---
 title: BehaviorPropertyCollection
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje časové vlastnosti pro chování efektu.
+description: Reprezentuje časové vlastnosti pro chování efektu.
 type: docs
-weight: 180
+weight: 200
 url: /cs/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection třída
@@ -18,27 +18,27 @@ public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 
 | Název | Popis |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Vrací počet vlastností uložených ve sbírce. Pouze ke čtení Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Získá hodnotu určující, zda je ICollection jen pro čtení. Pouze ke čtení Boolean. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | Vrací počet vlastností uložených v kolekci. Pouze pro čtení Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | Získá hodnotu, která udává, zda je ICollection pouze pro čtení. Pouze pro čtení Boolean. |
 | [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | Vrací vlastnost na zadaném indexu. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Přidá novou vlastnost do sbírky. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Přidá novou vlastnost do sbírky. |
-| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Odstraní všechny vlastnosti ze sbírky. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | Přidá novou vlastnost do kolekce. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | Přidá novou vlastnost do kolekce. |
+| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | Odstraní všechny vlastnosti z kolekce. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
 | [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | Určuje, zda ICollection obsahuje konkrétní hodnotu. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Zkopíruje prvky ICollection do pole Array, počínaje daným indexem pole. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Vrací enumerátor, který prochází sbírku. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | Kopíruje prvky ICollection do pole, počínaje konkrétním indexem pole. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | Vrací enumerátor, který prochází kolekcí. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | Určuje index konkrétní položky v IList. |
 | [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | Určuje index konkrétní položky podle hodnoty vlastnosti v IList. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Vloží novou vlastnost do sbírky na zadaném indexu. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Vloží novou vlastnost (s uvedenou hodnotou vlastnosti) do sbírky na zadaném indexu. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Odstraní zadanou vlastnost ze sbírky. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Odstraní zadanou vlastnost ze sbírky. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | Vloží novou vlastnost do kolekce na zadaném indexu. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | Vloží novou vlastnost (s určenou hodnotou vlastnosti) do kolekce na zadaném indexu. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | Odstraní určenou vlastnost z kolekce. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | Odstraní určenou vlastnost z kolekce. |
 | [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | Odstraní vlastnost na zadaném indexu. |
 
 ### Viz také

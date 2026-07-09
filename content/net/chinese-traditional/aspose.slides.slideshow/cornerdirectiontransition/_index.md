@@ -1,14 +1,14 @@
 ---
 title: CornerDirectionTransition
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 角落方向投影片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 角方向投影片過渡效果。
 type: docs
 weight: 10010
 url: /zh-hant/aspose.slides.slideshow/cornerdirectiontransition/
 ---
 ## CornerDirectionTransition 類別
 
-Corner direction slide transition effect. -> 角落方向投影片過渡效果。
+Corner direction slide transition effect.
 
 ```csharp
 public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTransition
@@ -18,14 +18,14 @@ public class CornerDirectionTransition : TransitionValueBase, ICornerDirectionTr
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | Transition 的方向。 可讀寫 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
+| [Direction](../../aspose.slides.slideshow/cornerdirectiontransition/direction) { get; set; } | 過渡的方向。可讀寫 [`TransitionCornerDirectionType`](../transitioncornerdirectiontype)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和資料結構，例如雜湊表。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和像雜湊表之類的資料結構。 |
 
 ### 另請參閱
 

@@ -1,14 +1,14 @@
 ---
 title: MathBarFactory
-second_title: Aspose.Sildes for .NET API 참조
-description: 수학 막대를 생성할 수 있습니다
+second_title: Aspose.Sildes .NET용 API 레퍼런스
+description: 수학 바를 생성할 수 있습니다
 type: docs
 weight: 8580
 url: /ko/aspose.slides.mathtext/mathbarfactory/
 ---
 ## MathBarFactory 클래스
 
-수학 막대를 생성할 수 있습니다
+수학 바를 생성할 수 있습니다
 
 ```csharp
 public class MathBarFactory : IMathBarFactory
@@ -24,8 +24,8 @@ public class MathBarFactory : IMathBarFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 요소에 적용하여 수학 막대를 생성합니다 |
-| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 요소에 적용하여 수학 막대를 생성합니다 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar)(IMathElement) | 요소에 적용하여 수학 바를 생성합니다 |
+| [CreateMathBar](../../aspose.slides.mathtext/mathbarfactory/createmathbar#createmathbar_1)(IMathElement, MathTopBotPositions) | 요소에 적용하여 수학 바를 생성합니다 |
 
 ### 비고
 

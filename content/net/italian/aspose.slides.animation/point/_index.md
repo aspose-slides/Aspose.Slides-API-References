@@ -1,9 +1,9 @@
 ---
 title: Point
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta un punto di animazione.
 type: docs
-weight: 700
+weight: 720
 url: /it/aspose.slides.animation/point/
 ---
 ## Point classe
@@ -16,16 +16,16 @@ public class Point : IPoint
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [Point](point#constructor)() | Costruttore predefinito. |
 | [Point](point#constructor_1)(float, object, string) | Crea un punto di animazione con tempo, valore e formula. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Formule all'interno di valori, attributi from, to, by possono essere composte da: Operatori aritmetici standard: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Costanti: ‘pi’ ‘e’ Operatori condizionali: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Operatori di confronto: '==', '&gt;=', '', '!=', '!' Operatori trigonometrici: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Logaritmo naturale ‘ln()’ Riferimenti alle proprietà (proprietà supportate dall'host) ad esempio: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lettura/Scrittura String. |
+| [Formula](../../aspose.slides.animation/point/formula) { get; set; } | Le formule all'interno di valori, dagli attributi from, to, by possono essere composte da questi: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Lettura/Scrittura String. |
 | [Time](../../aspose.slides.animation/point/time) { get; set; } | Rappresenta il valore del tempo. Lettura/Scrittura Single. |
 | [Value](../../aspose.slides.animation/point/value) { get; set; } | Rappresenta il valore del punto. Solo: bool, ColorFormat, float, int, string. Lettura/Scrittura Object. |
 

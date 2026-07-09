@@ -1,20 +1,20 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes 的 .NET API 參考
-description: 建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。這是由無參數的 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 建構函式使用的客戶端，因此僅在直接將客戶端傳遞給 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 建構函式時才需要明確建立它。
+second_title: Aspose.Sildes .NET API 參考
+description: 建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路用戶端實例。此用戶端是無參數 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 建構式所使用的，因此僅在直接將此用戶端傳遞給 SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent 建構式時才需要明確建立它。
 type: docs
 weight: 10
 url: /zh-hant/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。此客戶端是由無參數的 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 建構函式所使用，因此僅在直接將客戶端傳遞給 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 建構函式時才需要明確建立它。
+建立一個連接至預設 Aspose LLM 端點的 Aspose AI 網路用戶端實例。此用戶端是無參數 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 建構式所使用的，因此僅在直接將此用戶端傳遞給 [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) 建構式時才需要明確建立它。
 
 ```csharp
 public AsposeAIWebClient()
 ```
 
-### 另請參閱
+### 相關參考
 
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -24,7 +24,7 @@ public AsposeAIWebClient()
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-建立一個使用外部管理的 HttpClient，連接至預設 Aspose LLM 端點的 Aspose AI 網路客戶端實例。此實例不會處置所提供的 HttpClient，且其所有權仍屬於呼叫端。
+建立一個使用外部管理的 HttpClient 並連接至預設 Aspose LLM 端點的 Aspose AI 網路用戶端實例。此實例不會釋放所提供的 HttpClient，該 HttpClient 仍由呼叫端持有。
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
@@ -34,13 +34,13 @@ public AsposeAIWebClient(HttpClient httpClient)
 | --- | --- | --- |
 | httpClient | HttpClient | 外部管理的 HttpClient 實例。 |
 
-### 例外狀況
+### 例外
 
 | 例外 | 條件 |
 | --- | --- |
 | ArgumentNullException | 未提供 HttpClient 實例。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -50,7 +50,7 @@ public AsposeAIWebClient(HttpClient httpClient)
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-建立一個連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。當您擁有由 Aspose.Slides 團隊提供的 URL 時，請使用此多載；否則，請使用具有預設 URL 的 [`AsposeAIWebClient`](../asposeaiwebclient) 多載。
+建立一個連接至自訂端點 URL 的 Aspose AI 網路用戶端實例。當您擁有由 Aspose.Slides 團隊提供的 URL 時請使用此多載；否則，請使用帶有預設 URL 的 [`AsposeAIWebClient`](../asposeaiwebclient) 多載。
 
 ```csharp
 public AsposeAIWebClient(string url)
@@ -60,13 +60,13 @@ public AsposeAIWebClient(string url)
 | --- | --- | --- |
 | url | String | 由 Aspose.Slides 團隊提供的 Aspose LLM 端點 URL。 |
 
-### 例外狀況
+### 例外
 
 | 例外 | 條件 |
 | --- | --- |
 | ArgumentNullException | URL 不能為 null 或空字串。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../asposeaiwebclient)
@@ -76,7 +76,7 @@ public AsposeAIWebClient(string url)
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-建立一個使用外部管理的 HttpClient，連接至自訂端點 URL 的 Aspose AI 網路客戶端實例。此實例不會處置所提供的 HttpClient，且其所有權仍屬於呼叫端。當您擁有由 Aspose.Slides 團隊提供的 URL 且欲自行提供 HttpClient 時，請使用此多載；如果僅需要使用預設 URL 且自行提供 HttpClient，請改用 [`AsposeAIWebClient`](../asposeaiwebclient) 多載。
+建立一個使用外部管理的 HttpClient 並連接至自訂端點 URL 的 Aspose AI 網路用戶端實例。此實例不會釋放所提供的 HttpClient，該 HttpClient 仍由呼叫端持有。當您擁有由 Aspose.Slides 團隊提供的 URL 且想自行提供 HttpClient 時請使用此多載；如果只需要使用預設 URL 且自行提供 HttpClient，請改用 [`AsposeAIWebClient`](../asposeaiwebclient) 多載。
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
@@ -87,14 +87,14 @@ public AsposeAIWebClient(string url, HttpClient httpClient)
 | url | String | 由 Aspose.Slides 團隊提供的 Aspose LLM 端點 URL。 |
 | httpClient | HttpClient | 外部管理的 HttpClient 實例。 |
 
-### 例外狀況
+### 例外
 
 | 例外 | 條件 |
 | --- | --- |
 | ArgumentNullException | URL 不能為 null 或空字串。 |
 | ArgumentNullException | 未提供 HttpClient 實例。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [AsposeAIWebClient](../../asposeaiwebclient)
 * 命名空間 [Aspose.Slides.AI](../../asposeaiwebclient)

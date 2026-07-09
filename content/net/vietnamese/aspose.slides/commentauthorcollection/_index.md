@@ -1,14 +1,14 @@
 ---
 title: CommentAuthorCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một tập hợp các tác giả nhận xét.
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn một tập hợp các tác giả bình luận.
 type: docs
 weight: 2640
 url: /vi/aspose.slides/commentauthorcollection/
 ---
 ## CommentAuthorCollection lớp
 
-Đại diện cho một tập hợp các tác giả nhận xét.
+Biểu diễn một tập hợp các tác giả bình luận.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -16,25 +16,25 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Lấy số lượng phần tử thực sự chứa trong tập hợp. Chỉ đọc Int32. |
-| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Trả về giá trị cho biết liệu việc truy cập vào tập hợp có được đồng bộ (thread-safe) hay không. Chỉ đọc Boolean. |
+| [Count](../../aspose.slides/commentauthorcollection/count) { get; } | Lấy số phần tử thực sự chứa trong bộ sưu tập. Chỉ đọc Int32. |
+| [IsSynchronized](../../aspose.slides/commentauthorcollection/issynchronized) { get; } | Trả về một giá trị cho biết liệu việc truy cập bộ sưu tập có được đồng bộ (an toàn với luồng) hay không. Chỉ đọc Boolean. |
 | [Item](../../aspose.slides/commentauthorcollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`ICommentAuthor`](../icommentauthor). |
 | [SyncRoot](../../aspose.slides/commentauthorcollection/syncroot) { get; } | Trả về gốc đồng bộ. Chỉ đọc Object. |
 
 ## Phương thức
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Thêm tác giả mới vào cuối tập hợp. |
-| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Xóa tất cả các tác giả khỏi một tập hợp. |
-| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ tập hợp vào mảng được chỉ định. |
-| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Tìm tác giả trong tập hợp theo tên. |
-| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Tìm tác giả trong tập hợp theo tên và ký tự viết tắt. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Trả về một enumerator duyệt qua tập hợp. |
-| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Xóa lần xuất hiện đầu tiên của tác giả được chỉ định trong một tập hợp. |
-| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Xóa tác giả tại chỉ mục được chỉ định của tập hợp. |
+| [AddAuthor](../../aspose.slides/commentauthorcollection/addauthor)(string, string) | Thêm tác giả mới vào cuối bộ sưu tập. |
+| [Clear](../../aspose.slides/commentauthorcollection/clear)() | Xóa tất cả các tác giả khỏi bộ sưu tập. |
+| [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Sao chép tất cả các phần tử từ bộ sưu tập vào mảng được chỉ định. |
+| [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Tìm tác giả trong bộ sưu tập theo tên. |
+| [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Tìm tác giả trong bộ sưu tập theo tên và ký tự viết tắt. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Trả về một enumerator duyệt qua bộ sưu tập. |
+| [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Xóa lần xuất hiện đầu tiên của tác giả được chỉ định trong bộ sưu tập. |
+| [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Xóa tác giả tại chỉ mục được chỉ định trong bộ sưu tập. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Tạo và trả về một mảng chứa tất cả các tác giả. |
 
 ### Xem thêm

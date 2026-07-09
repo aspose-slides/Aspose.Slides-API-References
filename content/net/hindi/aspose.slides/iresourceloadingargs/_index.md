@@ -1,12 +1,12 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
 description: बाहरी संसाधन लोडिंग तर्कों के लिए इंटरफ़ेस।
 type: docs
 weight: 6830
 url: /hi/aspose.slides/iresourceloadingargs/
 ---
-## IResourceLoadingArgs इंटरफ़ेस
+## IResourceLoadingArgs interface
 
 बाहरी संसाधन लोडिंग तर्कों के लिए इंटरफ़ेस।
 
@@ -14,20 +14,20 @@ url: /hi/aspose.slides/iresourceloadingargs/
 public interface IResourceLoadingArgs
 ```
 
-## गुण
+## गुणधर्म
 
 | नाम | विवरण |
 | --- | --- |
-| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | आयातित प्रस्तुति में निर्दिष्ट संसाधन का मूल URI। |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | वह URI जिसका उपयोग संसाधन को डाउनलोड करने के लिए किया जाता है यदि [`ResourceLoading`](../iresourceloadingcallback/resourceloading) Default लौटाता है। प्रारंभ में इसे संसाधन के मूल URI पर सेट किया जाता है, लेकिन इसे किसी भी मान पर पुनः परिभाषित किया जा सकता है। |
+| [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | इम्पोर्ट किए गए प्रस्तुति में निर्दिष्ट संसाधन का मूल URI। |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | संसाधन का URI जो डाउनलोड करने के लिए उपयोग किया जाता है यदि [`ResourceLoading`](../iresourceloadingcallback/resourceloading) डिफ़ॉल्ट लौटाता है। प्रारंभ में इसे संसाधन के मूल URI पर सेट किया जाता है, लेकिन इसे किसी भी मान में पुनः परिभाषित किया जा सकता है। |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | यदि [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided लौटाता है तो संसाधन के उपयोगकर्ता-प्रदान किए गए डेटा को सेट करता है। |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | संसाधन का उपयोगकर्ता द्वारा प्रदान किया गया डेटा सेट करता है जो तब उपयोग किया जाता है जब [`ResourceLoading`](../iresourceloadingcallback/resourceloading) UserProvided लौटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

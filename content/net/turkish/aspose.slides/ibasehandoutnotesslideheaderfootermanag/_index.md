@@ -1,14 +1,14 @@
 ---
 title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes için .NET API Referansı
-description: Tüm türde el ilanı ve not slaytları için başlık yer tutucusu dahil olmak üzere yer tutucuların davranışını tutan yöneticiyi temsil eder.
+description: Tüm tipte el ilanı ve not slaytları için başlık yer tutucusunu da içeren yer tutucuların davranışını tutan yöneticiyi temsil eder.
 type: docs
-weight: 5270
+weight: 5290
 url: /tr/aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
 ## IBaseHandoutNotesSlideHeaderFooterManag arayüz
 
-Tüm türde el ilanı ve not slaytları için başlık yer tutucusu dahil, yer tutucuların davranışını tutan yöneticiyi temsil eder.
+Yer tutucuların davranışını tutan yöneticiyi temsil eder; tüm tipte el ilanı ve not slaytları için başlık yer tutucusunu da içerir.
 
 ```csharp
 public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFooterManager
@@ -16,23 +16,23 @@ public interface IBaseHandoutNotesSlideHeaderFooterManag : IBaseSlideHeaderFoote
 
 ## Özellikler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager arabirimini döndürür. |
-| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Bir başlık yer tutucusunun mevcut olduğunu gösteren değeri alır. Boolean okur. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/asibaseslideheaderfootermanager) { get; } | IBaseSlideHeaderFooterManager arayüzünü döndürür. |
+| [IsHeaderVisible](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible) { get; } | Bir başlık yer tutucusunun mevcut olduğunu belirten değeri alır. Boolean okur. |
 
 ## Yöntemler
 
-| Ad | Açıklama |
+| İsim | Açıklama |
 | --- | --- |
 | [SetHeaderText](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadertext)(string) | Slayt başlık yer tutucusuna metin ayarlar. |
 | [SetHeaderVisibility](../../aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility)(bool) | Slayt başlık yer tutucusunun görünürlüğünü değiştirir. |
 
-### Açıklamalar
+### Açıklama
 
-Orijinal arabirim adı "IBaseHandoutNotesSlideHeaderFooterManager" COM uyumluluğu için "IBaseHandoutNotesSlideHeaderFooterManag" olarak kısaltılmıştır (tip adı uzunluğu 39 karakteri aşmamalıdır).
+Orijinal arayüz adı "IBaseHandoutNotesSlideHeaderFooterManager" COM uyumluluğu için "IBaseHandoutNotesSlideHeaderFooterManag" olarak kısaltılmıştır (type adı uzunluğu 39'dan fazla olmamalıdır).
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
 * ad alanı [Aspose.Slides](../../aspose.slides)

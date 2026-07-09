@@ -1,6 +1,6 @@
 ---
 title: IImageTransformOperationCollection
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงคอลเลกชันของเอฟเฟกต์ที่ใช้กับภาพ
 type: docs
 weight: 3400
@@ -16,34 +16,34 @@ public interface IImageTransformOperationCollection : ICollection<IImageTransfor
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. อ่านอย่างเดียว IEnumerable. |
-| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | คืนค่า [`IImageTransformOperation`](../iimagetransformoperation) จากคอลเลกชันโดยดัชนี. |
+| [AsIEnumerable](../../aspose.slides.effects/iimagetransformoperationcollection/asienumerable) { get; } | คืนค่าอินเทอร์เฟซ IEnumerable. IEnumerable แบบอ่านอย่างเดียว. |
+| [Item](../../aspose.slides.effects/iimagetransformoperationcollection/item) { get; } | คืนค่า [`IImageTransformOperation`](../iimagetransformoperation) จากคอลเลกชันโดยใช้ดัชนีของมัน. |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| ชื่อ | รายละเอียด |
 | --- | --- |
-| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | เพิ่มเอฟเฟกต์ Alpha Bi-Level ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | เพิ่มเอฟเฟกต์ Alpha Ceiling ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | เพิ่มเอฟเฟกต์ Alpha Floor ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | เพิ่มเอฟเฟกต์ Alpha Inverse ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | เพิ่มเอฟเฟกต์ Alpha Modulate ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | เพิ่มเอฟเฟกต์ Alpha Modulate Fixed ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | เพิ่มเอฟเฟกต์ Alpha Replace ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | เพิ่มเอฟเฟกต์ Bi-Level (black/white) ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | เพิ่มเอฟเฟกต์ Blur ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | เพิ่มเอฟเฟกต์ BrightnessContrast ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | เพิ่มเอฟเฟกต์ Color Change ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | เพิ่มเอฟเฟกต์ Color Replacement ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | เพิ่มเอฟเฟกต์ Duotone ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | เพิ่มเอฟเฟกต์ Fill Overlay ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | เพิ่มเอฟเฟกต์ Gray Scale ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | เพิ่มเอฟเฟกต์ Hue/Saturation/Luminance ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | เพิ่มเอฟเฟกต์ Luminance ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | เพิ่มเอฟเฟกต์ Tint ใหม่ที่ส่วนท้ายของคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | ลบเอฟเฟกต์ภาพออกจากคอลเลกชันที่ตำแหน่งที่ระบุ. |
+| [AddAlphaBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphabileveleffect)(float) | เพิ่มเอฟเฟกต์ Alpha Bi-Level ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaCeilingEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaceilingeffect)() | เพิ่มเอฟเฟกต์ Alpha Ceiling ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaFloorEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphaflooreffect)() | เพิ่มเอฟเฟกต์ Alpha Floor ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaInverseEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphainverseeffect)() | เพิ่มเอฟเฟกต์ Alpha Inverse ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaModulateEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulateeffect)() | เพิ่มเอฟเฟกต์ Alpha Modulate ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaModulateFixedEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphamodulatefixedeffect)(float) | เพิ่มเอฟเฟกต์ Alpha Modulate Fixed ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddAlphaReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addalphareplaceeffect)(float) | เพิ่มเอฟเฟกต์ Alpha Replace ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddBiLevelEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect)(float) | เพิ่มเอฟเฟกต์ Bi-Level (black/white) ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddBlurEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addblureffect)(double, bool) | เพิ่มเอฟเฟกต์ Blur ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddBrightnessContrastEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addbrightnesscontrasteffect)(float, float) | เพิ่มเอฟเฟกต์ BrightnessContrast ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddColorChangeEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect)() | เพิ่มเอฟเฟกต์ Color Change ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddColorReplaceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addcolorreplaceeffect)() | เพิ่มเอฟเฟกต์ Color Replacement ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddDuotoneEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addduotoneeffect)() | เพิ่มเอฟเฟกต์ Duotone ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddFillOverlayEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addfilloverlayeffect)() | เพิ่มเอฟเฟกต์ Fill Overlay ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddGrayScaleEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addgrayscaleeffect)() | เพิ่มเอฟเฟกต์ Gray Scale ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddHSLEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addhsleffect)(float, float, float) | เพิ่มเอฟเฟกต์ Hue/Saturation/Luminance ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddLuminanceEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addluminanceeffect)(float, float) | เพิ่มเอฟเฟกต์ Luminance ใหม่ที่ท้ายคอลเลกชัน. |
+| [AddTintEffect](../../aspose.slides.effects/iimagetransformoperationcollection/addtinteffect)(float, float) | เพิ่มเอฟเฟกต์ Tint ใหม่ที่ท้ายคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides.effects/iimagetransformoperationcollection/removeat)(int) | ลบเอฟเฟกต์ภาพออกจากคอลเลกชันที่ดัชนีที่ระบุ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje efekt Alpha Modulate. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
+description: Reprezentuje efekt Alpha Modulate. Hodnoty alfa průhlednosti efektu jsou násobeny pevně stanoveným procentem. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
 type: docs
-weight: 2860
+weight: 2880
 url: /cs/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate třída
 
-Representuje efekt Alpha Modulate. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevnou procentuální hodnotou. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
+Reprezentuje efekt Alpha Modulate. Hodnoty alfa (průhlednosti) efektu jsou násobeny pevně daným procentem. Kontejner efektu určuje efekt obsahující alfa hodnoty k modulaci.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -25,7 +25,7 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 | Název | Popis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Určuje, zda je zadaný [`AlphaModulate`](../alphamodulate) roven aktuálnímu [`AlphaModulate`](../alphamodulate). |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Získá efektivní data efektu Alpha Modulate s aplikovaným děděním. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Získá efektivní data efektu Alpha Modulate s uplatněnou dědičností. |
 | override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také

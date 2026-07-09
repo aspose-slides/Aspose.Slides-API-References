@@ -1,28 +1,28 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Określa, jak powtarzające się zwykłe znaki spacji powinny być obsługiwane podczas eksportu Markdown.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Określa, w jaki sposób powtarzające się zwykłe znaki spacji powinny być obsługiwane podczas eksportu do Markdown.
 type: docs
-weight: 3810
+weight: 3830
 url: /pl/aspose.slides.export/handlerepeatedspaces/
 ---
 ## HandleRepeatedSpaces enumeracja
 
-Określa, jak powtarzające się zwykłe znaki spacji powinny być obsługiwane podczas eksportu Markdown.
+Określa, w jaki sposób powtarzające się zwykłe znaki spacji powinny być obsługiwane podczas eksportu do Markdown.
 
 ```csharp
 public enum HandleRepeatedSpaces
 ```
 
-### Wartości
+### Values
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| None | `0` | Wszystkie spacje są zachowane jako zwykłe znaki spacji bez żadnych zmian. Nie dokonuje się żadnej transformacji, a wielokrotne kolejne spacje są eksportowane w takiej formie. |
+| None | `0` | Wszystkie spacje są zachowywane jako zwykłe znaki spacji bez żadnych zmian. Nie zastosowano żadnej transformacji, a wiele kolejnych spacji jest eksportowanych w niezmienionej postaci. |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 
-### Zobacz także
+### See Also
 
 * przestrzeń nazw [Aspose.Slides.Export](../../aspose.slides.export)
 * zestaw [Aspose.Slides](../../)

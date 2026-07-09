@@ -19,29 +19,30 @@ public interface IChartSeriesGroup : IChartComponent
 | 이름 | 설명 |
 | --- | --- |
 | [AsIChartComponent](../../aspose.slides.charts/ichartseriesgroup/asichartcomponent) { get; } | 기본 IChartComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IChartComponent`](../ichartcomponent). |
-| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | 버블 차트에서 거품 크기 값이 표시되는 방식을 지정합니다. 읽기/쓰기 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
-| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | 버블 차트의 배율 인자를 지정합니다(기본 크기의 0%에서 300% 사이일 수 있습니다). 읽기/쓰기 Int32. |
-| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | 도넛 차트의 구멍 크기를 지정합니다(플롯 영역 크기의 10%에서 90% 사이일 수 있습니다). 읽기/쓰기 Byte. |
-| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | 첫 번째 파이 또는 도넛 차트 조각의 각도를 도(degree) 단위로 가져오거나 설정합니다(위에서 시계 방향으로, 0에서 360도). 읽기/쓰기 UInt16. |
-| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 3D 차트에서 데이터 시리즈 간의 거리(마커 너비의 백분율)를 반환하거나 설정합니다. 읽기/쓰기 UInt16. |
-| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | 막대 또는 열 클러스터 간의 간격을 막대 또는 열 너비의 백분율로 지정합니다. 읽기/쓰기 UInt16. |
+| [BubbleSizeRepresentation](../../aspose.slides.charts/ichartseriesgroup/bubblesizerepresentation) { get; set; } | 버블 차트에서 버블 크기 값이 표시되는 방식을 지정합니다. 읽기/쓰기 [`BubbleSizeRepresentationType`](../bubblesizerepresentationtype). |
+| [BubbleSizeScale](../../aspose.slides.charts/ichartseriesgroup/bubblesizescale) { get; set; } | 버블 차트에 대한 배율 인자를 지정합니다(기본 크기의 0%에서 300% 사이 가능). 읽기/쓰기 Int32. |
+| [DoughnutHoleSize](../../aspose.slides.charts/ichartseriesgroup/doughnutholesize) { get; set; } | 도넛 차트의 구멍 크기를 지정합니다(플롯 영역 크기의 10%에서 90% 사이 가능). 읽기/쓰기 Byte. |
+| [FirstSliceAngle](../../aspose.slides.charts/ichartseriesgroup/firstsliceangle) { get; set; } | 첫 번째 파이 또는 도넛 차트 슬라이스의 각도를 도(degree) 단위로 가져오거나 설정합니다(위쪽을 기준으로 시계 방향, 0~360도). 읽기/쓰기 UInt16. |
+| [GapDepth](../../aspose.slides.charts/ichartseriesgroup/gapdepth) { get; set; } | 3D 차트에서 데이터 시리즈 간의 거리(마커 너비의 백분율)를 가져오거나 설정합니다. 읽기/쓰기 UInt16. |
+| [GapWidth](../../aspose.slides.charts/ichartseriesgroup/gapwidth) { get; set; } | 막대 또는 열 클러스터 사이의 간격을 막대 또는 열 너비의 백분율로 지정합니다. 읽기/쓰기 UInt16. |
 | [HasSeriesLines](../../aspose.slides.charts/ichartseriesgroup/hasserieslines) { get; set; } | 차트에 시리즈 라인이 있는 경우 true입니다. 누적 막대 및 OfPie 차트에 적용됩니다. 읽기/쓰기 Boolean. |
 | [HiLowLinesFormat](../../aspose.slides.charts/ichartseriesgroup/hilowlinesformat) { get; } | HiLowLines 형식을 지정합니다. HiLowLines는 HiLowClose, OpenHiLowClose, VolumeHiLowClose 및 VolumeOpenHiLowClose 차트 유형에 적용됩니다. |
 | [IsColorVaried](../../aspose.slides.charts/ichartseriesgroup/iscolorvaried) { get; set; } | 시리즈의 각 데이터 마커가 서로 다른 색을 갖도록 지정합니다. 읽기/쓰기 Boolean. |
 | [Item](../../aspose.slides.charts/ichartseriesgroup/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. |
-| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 2D 차트에서 막대 및 열이 겹치는 정도를 백분율로 지정합니다(-100%에서 100%까지). - -100%: 최대 간격(막대가 완전히 분리됨). - 0%: 막대가 겹치거나 간격 없이 나란히 배치됨. - 100%: 최대 겹침(막대가 서로 완전히 겹침). 이 속성은 읽기/쓰기 SByte. |
+| [Overlap](../../aspose.slides.charts/ichartseriesgroup/overlap) { get; set; } | 2D 차트에서 막대와 열이 겹치는 정도를 백분율로 지정합니다(-100%~100%). - -100%: 최대 간격(막대가 완전히 분리됨). - 0%: 막대가 겹치지 않고 나란히 배치됨. - 100%: 최대 겹침(막대가 완전히 겹침). 이 속성은 읽기/쓰기 SByte. |
 | [PieSplitBy](../../aspose.slides.charts/ichartseriesgroup/piesplitby) { get; set; } | 파이-오브-파이 또는 바-오브-파이 차트에서 두 번째 파이 또는 바에 포함될 데이터 포인트를 결정하는 방법을 지정합니다. 읽기/쓰기 [`PieSplitType`](../piesplittype). |
-| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | 사용자 정의 분할이 있는 파이-오브-파이 또는 바-오브-파이 차트의 사용자 정의 분할 정보를 나타냅니다. 두 번째 파이 또는 바에 그려질 데이터 포인트를 포함합니다. 읽기 전용 [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
-| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | 파이-오브-파이 또는 바-오브-파이 차트에서 두 번째 파이 또는 바에 포함될 데이터 포인트를 결정하는 데 사용되는 값을 지정합니다. PieSplitBy 속성과 함께 사용됩니다. 읽기/쓰기 Double. |
+| [PieSplitCustomPoints](../../aspose.slides.charts/ichartseriesgroup/piesplitcustompoints) { get; } | 커스텀 분할이 있는 파이-오브-파이 또는 바-오브-파이 차트에 대한 사용자 정의 분할 정보입니다. 파이-오브-파이 또는 바-오브-파이 차트의 두 번째 파이 또는 바에 그려질 데이터 포인트를 포함합니다. 읽기 전용 [`IPieSplitCustomPointCollection`](../ipiesplitcustompointcollection). |
+| [PieSplitPosition](../../aspose.slides.charts/ichartseriesgroup/piesplitposition) { get; set; } | 파이-오브-파이 또는 바-오브-파이 차트에서 두 번째 파이 또는 바에 포함될 데이터 포인트를 결정하는 값을 지정합니다. PieSplitBy 속성과 함께 사용됩니다. 읽기/쓰기 Double. |
 | [PlotOnSecondAxis](../../aspose.slides.charts/ichartseriesgroup/plotonsecondaxis) { get; } | 이 그룹의 시리즈가 보조 축에 플롯되는지 여부를 나타냅니다. 읽기 전용 Boolean. |
-| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | 파이-오브-파이 차트 또는 바-오브-파이 차트의 두 번째 파이 또는 바의 크기를 첫 번째 파이 크기의 백분율로 지정합니다(5%에서 200% 사이 가능). 읽기/쓰기 UInt16. |
+| [SecondPieSize](../../aspose.slides.charts/ichartseriesgroup/secondpiesize) { get; set; } | 파이-오브-파이 차트 또는 바-오브-파이 차트에서 두 번째 파이 또는 바의 크기를 첫 번째 파이 크기의 백분율로 지정합니다(5%~200% 사이 가능). 읽기/쓰기 UInt16. |
 | [Series](../../aspose.slides.charts/ichartseriesgroup/series) { get; } | 차트 시리즈의 읽기 전용 컬렉션을 반환합니다. 읽기 전용 [`IChartSeriesReadonlyCollection`](../ichartseriesreadonlycollection). |
 | [Type](../../aspose.slides.charts/ichartseriesgroup/type) { get; } | 이 시리즈 그룹의 유형을 반환합니다. 읽기 전용 [`CombinableSeriesTypesGroup`](../combinableseriestypesgroup). |
-| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | Line- 또는 Stock- 차트의 상/하 막대에 대한 액세스를 제공합니다. 읽기 전용 [`IUpDownBarsManager`](../iupdownbarsmanager). |
+| [UpDownBars](../../aspose.slides.charts/ichartseriesgroup/updownbars) { get; } | 라인 또는 주식 차트의 상/하 바에 대한 접근을 제공합니다. 읽기 전용 [`IUpDownBarsManager`](../iupdownbarsmanager). |
 
 ### 비고
 
-1) ChartSeriesGroupCollection 클래스와 CombinableSeriesTypesGroup 열거형에 대한 요약 및 비고를 참조하십시오. 2) 시리즈 그룹은 그룹 내 각 시리즈에 공통적인 몇몇 시리즈 속성을 포함합니다("시리즈 그룹 속성"). ChartSeriesGroup 클래스의 "시리즈 그룹 속성"은 읽기/쓰기입니다. 각 "시리즈 그룹 속성"은 ChartSeries 클래스에서 읽기 전용 프로젝션을 가질 수 있습니다.
+1) ChartSeriesGroupCollection 클래스와 CombinableSeriesTypesGroup 열거형에 대한 요약 및 비고를 참조하십시오.  
+2) 시리즈 그룹은 그룹 내 각 시리즈에 공통적인 일부 시리즈 속성을 포함합니다("series group properties"). ChartSeriesGroup 클래스의 "series group properties"는 읽기/쓰기입니다. 각 "series group properties"는 ChartSeries 클래스에서 읽기 전용 프로젝션을 가질 수 있습니다.
 
 ### 참조
 

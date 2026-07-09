@@ -1,9 +1,9 @@
 ---
 title: ShapeElement
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili bagian dari bentuk dengan properti outline dan fill yang sama.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili bagian dari shape dengan properti outline dan fill yang sama.
 type: docs
-weight: 9850
+weight: 9870
 url: /id/aspose.slides/shapeelement/
 ---
 ## ShapeElement kelas
@@ -18,11 +18,11 @@ public class ShapeElement : IShapeElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Mengembalikan informasi tentang cara mengisi sebuah elemen. Baca-saja [`ShapeElementFillSource`](../shapeelementfillsource). |
-| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Mengembalikan Shape_PPT untuk elemen yang dibuat. Baca-saja [`Shape`](../shape). |
-| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Mendapatkan array titik yang menentukan geometri jalur elemen. |
-| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Mendapatkan array nilai byte yang menentukan tipe setiap titik dalam jalur elemen. |
-| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Mengembalikan informasi tentang cara menggambar garis pada sebuah elemen. Baca-saja [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
+| [FillSource](../../aspose.slides/shapeelement/fillsource) { get; } | Mengembalikan informasi tentang cara mengisi sebuah elemen. Hanya-baca [`ShapeElementFillSource`](../shapeelementfillsource). |
+| [ParentShape](../../aspose.slides/shapeelement/parentshape) { get; } | Mengembalikan sebuah Shape_PPT untuk mana elemen dibuat. Hanya-baca [`Shape`](../shape). |
+| [PathPoints](../../aspose.slides/shapeelement/pathpoints) { get; } | Mendapatkan array titik yang mendefinisikan geometri jalur elemen. |
+| [PathTypes](../../aspose.slides/shapeelement/pathtypes) { get; } | Mendapatkan array nilai byte yang menentukan tipe tiap titik dalam jalur elemen. |
+| [StrokeSource](../../aspose.slides/shapeelement/strokesource) { get; } | Mengembalikan informasi tentang cara memberi garis pada elemen. Hanya-baca [`ShapeElementStrokeSource`](../shapeelementstrokesource). |
 
 ### Lihat Juga
 

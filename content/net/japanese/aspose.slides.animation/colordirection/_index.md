@@ -1,20 +1,20 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes for .NET API リファレンス
-description: カラーエフェクトの動作に対するカラー方向を表します。
+second_title: Aspose.Sildes の .NET API リファレンス
+description: カラーエフェクトの動作における色の方向を表します。
 type: docs
-weight: 200
+weight: 220
 url: /ja/aspose.slides.animation/colordirection/
 ---
 ## ColorDirection 列挙型
 
-カラー エフェクトの動作に対するカラー方向を表します。
+色効果動作の方向を表します。
 
 ```csharp
 public enum ColorDirection
 ```
 
-### 列挙値
+### 値
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |

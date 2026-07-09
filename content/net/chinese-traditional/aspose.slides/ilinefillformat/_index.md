@@ -1,14 +1,14 @@
 ---
 title: ILineFillFormat
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示用於線條填充的屬性。
+second_title: Aspose.Sildes .NET API 參考
+description: 表示線條填充的屬性。
 type: docs
 weight: 6290
 url: /zh-hant/aspose.slides/ilinefillformat/
 ---
 ## ILineFillFormat 介面
 
-表示用於線條填充的屬性。
+表示線條填充的屬性。
 
 ```csharp
 public interface ILineFillFormat : IFillParamSource
@@ -19,13 +19,13 @@ public interface ILineFillFormat : IFillParamSource
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/ilinefillformat/asifillparamsource) { get; } | 允許取得基礎 IFillParamSource 介面。唯讀 [`IFillParamSource`](../ifillparamsource)。 |
-| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | 取得或設定填充類型。可讀寫 [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | 取得漸層填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | 取得圖案填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
-| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | 決定填充是否隨形狀旋轉。可讀寫 [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | 取得純色填充的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
+| [FillType](../../aspose.slides/ilinefillformat/filltype) { get; set; } | 返回或設定填充類型。可讀寫 [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/ilinefillformat/gradientformat) { get; } | 返回梯度填充格式。唯讀 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/ilinefillformat/patternformat) { get; } | 返回圖案填充格式。唯讀 [`IPatternFormat`](../ipatternformat)。 |
+| [RotateWithShape](../../aspose.slides/ilinefillformat/rotatewithshape) { get; set; } | 確定填充是否應隨形狀旋轉。可讀寫 [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/ilinefillformat/solidfillcolor) { get; } | 返回純色填充的顏色。唯讀 [`IColorFormat`](../icolorformat)。 |
 
-### 參見
+### 另請參閱
 
 * 介面 [IFillParamSource](../ifillparamsource)
 * 命名空間 [Aspose.Slides](../../aspose.slides)

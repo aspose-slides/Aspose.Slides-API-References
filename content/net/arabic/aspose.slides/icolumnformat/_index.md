@@ -1,7 +1,7 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes مرجع API لـ .NET
-description: يمثل تنسيق عمود جدول.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يمثل تنسيق عمود الجدول.
 type: docs
 weight: 5540
 url: /ar/aspose.slides/icolumnformat/
@@ -14,13 +14,13 @@ url: /ar/aspose.slides/icolumnformat/
 public interface IColumnFormat
 ```
 
-## الطرق
+## طرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | يجلب خصائص تنسيق عمود الجدول الفعّالة مع تطبيق الوراثة وأنماط الجدول. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | يحصل على خصائص تنسيق عمود الجدول الفعّالة مع تطبيق الورث وأنماط الجدول. |
 
-### أنظر أيضًا
+### انظر أيضًا
 
 * نطاق الاسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)

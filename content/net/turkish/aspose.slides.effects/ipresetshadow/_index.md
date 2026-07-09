@@ -1,14 +1,14 @@
 ---
 title: IPresetShadow
-second_title: Aspose.Sildes for .NET API Referansı
-description: Ön tanımlı gölge etkisini temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir Ön Ayarlı Gölge etkisini temsil eder.
 type: docs
-weight: 3460
+weight: 3480
 url: /tr/aspose.slides.effects/ippresetshadow/
 ---
 ## IPresetShadow arayüzü
 
-Represents a Preset Shadow effect.
+Ön ayarlı gölge etkisini temsil eder.
 
 ```csharp
 public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData>, 
@@ -19,14 +19,14 @@ public interface IPresetShadow : IAccessiblePVIObject<IPresetShadowEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Base IAccessiblePVIObject arabirimini almayı sağlar. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Base IImageTransformOperation arabirimini almayı sağlar. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Gölgenin yönü. Okuma/Yazma Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Gölgenin mesafesi. Okuma/Yazma Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Ön ayar. Okuma/Yazma [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Gölgenin rengi. Yalnızca okuma [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ipresetshadow/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ipresetshadow/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Direction](../../aspose.slides.effects/ipresetshadow/direction) { get; set; } | Gölgenin yönü. Okunabilir/Yazılabilir Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadow/distance) { get; set; } | Gölgenin mesafesi. Okunabilir/Yazılabilir Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadow/preset) { get; set; } | Önayar. Okunabilir/Yazılabilir [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadow/shadowcolor) { get; } | Gölgenin rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-### Ayrıca Bakınız
+### Diğerlerine Bak
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IPresetShadowEffectiveData](../ipresetshadoweffectivedata)

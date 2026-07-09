@@ -1,14 +1,14 @@
 ---
 title: CrossesType
-second_title: Aspose.Sildes .NET API Referenciája
-description: Meghatározza, hogy hol metszi az tengely.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Meghatározza, hogy az tengely hol metszi.
 type: docs
-weight: 1520
+weight: 1540
 url: /hu/aspose.slides.charts/crossestype/
 ---
 ## CrossesType enumeráció
 
-Meghatározza, hogy hol metszi az tengely.
+Meghatározza, hogy az tengely hol metszi.
 
 ```csharp
 public enum CrossesType
@@ -18,8 +18,8 @@ public enum CrossesType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| AxisCrossesAtZero | `0` | A kategória tengely a nullapontnál metszi az érték tengelyt (ha lehetséges), vagy a minimális értéknél (ha a minimum nagyobb, mint nulla), vagy a maximálisnál (ha a maximum kisebb, mint nulla). |
-| Maximum | `1` | A tengely a maximális értéknél metszi. |
+| AxisCrossesAtZero | `0` | A kategória-tengely a érték-tengely nullpontjánál metszi (ha lehetséges), vagy a minimum értéknél (ha a minimum nagyobb mint nulla), vagy a maximumnál (ha a maximum kisebb mint nulla). |
+| Maximum | `1` | A tengely a maximum értéknél metszi. |
 | Custom | `2` | Egyéni érték a CrossAt tulajdonságból |
 
 ### Lásd még

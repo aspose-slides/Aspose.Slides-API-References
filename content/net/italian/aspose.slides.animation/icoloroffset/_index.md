@@ -1,14 +1,14 @@
 ---
 title: IColorOffset
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Rappresenta l'offset del colore.
+description: Rappresenta lo scostamento del colore.
 type: docs
-weight: 450
+weight: 470
 url: /it/aspose.slides.animation/icoloroffset/
 ---
 ## IColorOffset interfaccia
 
-Rappresenta l'offset del colore.
+Rappresenta lo scostamento del colore.
 
 ```csharp
 public interface IColorOffset
@@ -18,9 +18,9 @@ public interface IColorOffset
 
 | Nome | Descrizione |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Definisce il primo valore dell'offset. Lettura/Scrittura Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Definisce il secondo valore dell'offset. Lettura/Scrittura Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Definisce il terzo valore dell'offset. Lettura/Scrittura Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | Definisce il primo valore dell'offset. Lettura/scrittura Single. |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | Definisce il secondo valore dell'offset. Lettura/scrittura Single. |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | Definisce il terzo valore dell'offset. Lettura/scrittura Single. |
 
 ### Vedi anche
 

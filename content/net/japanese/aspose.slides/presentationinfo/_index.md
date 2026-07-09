@@ -3,7 +3,7 @@ title: PresentationInfo
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション ファイルに関する情報
 type: docs
-weight: 9600
+weight: 9620
 url: /ja/aspose.slides/presentationinfo/
 ---
 ## PresentationInfo クラス
@@ -21,20 +21,20 @@ public sealed class PresentationInfo : IPresentationInfo
 | [IsEncrypted](../../aspose.slides/presentationinfo/isencrypted) { get; } | バインドされたプレゼンテーションが暗号化されている場合は True を取得し、そうでない場合は False を取得します。読み取り専用 Boolean。 |
 | [IsPasswordProtected](../../aspose.slides/presentationinfo/ispasswordprotected) { get; } | バインドされたプレゼンテーションが開くためのパスワードで保護されているかどうかを示す値を取得します。 |
 | [IsWriteProtected](../../aspose.slides/presentationinfo/iswriteprotected) { get; } | バインドされたプレゼンテーションが書き込み保護されているかどうかを示す値を取得します。 |
-| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | バインドされたプレゼンテーションの形式を取得します。読み取り専用 [`LoadFormat`](../loadformat)。 |
+| [LoadFormat](../../aspose.slides/presentationinfo/loadformat) { get; } | バインドされたプレゼンテーションのフォーマットを取得します。読み取り専用 [`LoadFormat`](../loadformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | 開くパスワードで保護されたプレゼンテーションに対して、パスワードが正しいかどうかをチェックします。 |
-| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | 書き込み保護されたプレゼンテーションに対して、変更用パスワードが正しいかどうかをチェックします。 |
-| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | バインドされたプレゼンテーションのドキュメントプロパティを取得します。 |
+| [CheckPassword](../../aspose.slides/presentationinfo/checkpassword)(string) | 開くためのパスワードで保護されたプレゼンテーションのパスワードが正しいかどうかを確認します。 |
+| [CheckWriteProtection](../../aspose.slides/presentationinfo/checkwriteprotection)(string) | 書き込み保護されたプレゼンテーションの変更用パスワードが正しいかどうかを確認します。 |
+| [ReadDocumentProperties](../../aspose.slides/presentationinfo/readdocumentproperties)() | バインドされたプレゼンテーションのドキュメント プロパティを取得します。 |
 | [UpdateDocumentProperties](../../aspose.slides/presentationinfo/updatedocumentproperties)(IDocumentProperties) | バインドされたプレゼンテーションのプロパティを更新します。 |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation)(Stream) | バインドされたプレゼンテーションをストリームに書き込みます。 |
 | [WriteBindedPresentation](../../aspose.slides/presentationinfo/writebindedpresentation#writebindedpresentation_1)(string) | バインドされたプレゼンテーションをファイルに書き込みます。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IPresentationInfo](../ipresentationinfo)
 * 名前空間 [Aspose.Slides](../../aspose.slides)

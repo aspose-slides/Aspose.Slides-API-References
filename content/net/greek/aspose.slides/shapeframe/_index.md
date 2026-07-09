@@ -1,14 +1,14 @@
 ---
 title: ShapeFrame
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεί τις ιδιότητες των πλαισίων σχήματος.
+description: Αντιπροσωπεύει τις ιδιότητες των πλαισίων σχήματος.
 type: docs
-weight: 9880
+weight: 9900
 url: /el/aspose.slides/shapeframe/
 ---
 ## ShapeFrame κλάση
 
-Αντιπροσωπεί τις ιδιότητες του πλαισίου σχήματος.
+Αντιπροσωπεύει τις ιδιότητες του πλαισίου σχήματος.
 
 ```csharp
 public class ShapeFrame : IShapeFrame
@@ -24,31 +24,31 @@ public class ShapeFrame : IShapeFrame
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Επιστρέφει την X συντεταγμένη του κεντρικού σημείου ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
-| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Επιστρέφει την Y συντεταγμένη του κεντρικού σημείου ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
-| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Καθορίζει αν ένα πλαίσιο είναι οριζόντια ανεστραμμένο. Μόνο-για-ανάγνωση [`NullableBool`](../nullablebool). |
-| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Καθορίζει αν ένα πλαίσιο είναι κάθετα ανεστραμμένο. Μόνο-για-ανάγνωση [`NullableBool`](../nullablebool). |
-| [Height](../../aspose.slides/shapeframe/height) { get; } | Επιστρέφει το ύψος ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
-| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Επιστρέφει τις συντεταγμένες ενός πλαισίου. Μόνο-για-ανάγνωση RectangleF. |
-| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Επιστρέφει τον αριθμό των μοιρών κατά τις οποίες ένα πλαίσιο είναι περιστραμμένο γύρω από τον άξονα z. Μια θετική τιμή δείχνει δεξιόστροφη περιστροφή· μια αρνητική τιμή δείχνει αριστοστροφή. Μόνο-για-ανάγνωση Single. |
-| [Width](../../aspose.slides/shapeframe/width) { get; } | Επιστρέφει το πλάτος ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
-| [X](../../aspose.slides/shapeframe/x) { get; } | Επιστρέφει την X συντεταγμένη της επάνω αριστερής γωνίας ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
-| [Y](../../aspose.slides/shapeframe/y) { get; } | Επιστρέφει την Y συντεταγμένη της επάνω αριστερής γωνίας ενός πλαισίου. Μόνο-για-ανάγνωση Single. |
+| [CenterX](../../aspose.slides/shapeframe/centerx) { get; } | Επιστρέφει το συντεταγμένο X του κέντρου ενός πλαισίου. Μόνο για ανάγνωση Single. |
+| [CenterY](../../aspose.slides/shapeframe/centery) { get; } | Επιστρέφει το συντεταγμένο Y του κέντρου ενός πλαισίου. Μόνο για ανάγνωση Single. |
+| [FlipH](../../aspose.slides/shapeframe/fliph) { get; } | Καθορίζει εάν το πλαίσιο είναι οριζόντια αντεστραμμένο. Μόνο για ανάγνωση [`NullableBool`](../nullablebool). |
+| [FlipV](../../aspose.slides/shapeframe/flipv) { get; } | Καθορίζει εάν το πλαίσιο είναι κάθετα αντεστραμμένο. Μόνο για ανάγνωση [`NullableBool`](../nullablebool). |
+| [Height](../../aspose.slides/shapeframe/height) { get; } | Επιστρέφει το ύψος ενός πλαισίου. Μόνο για ανάγνωση Single. |
+| [Rectangle](../../aspose.slides/shapeframe/rectangle) { get; } | Επιστρέφει τις συντεταγμένες ενός πλαισίου. Μόνο για ανάγνωση RectangleF. |
+| [Rotation](../../aspose.slides/shapeframe/rotation) { get; } | Επιστρέφει τον αριθμό των μοιρών κατά τις οποίες ένα πλαίσιο είναι περιστραμμένο γύρω από τον άξονα z. Μια θετική τιμή υποδηλώνει δεξιόστροφη περιστροφή· μια αρνητική τιμή υποδηλώνει αριστερόστροφη περιστροφή. Μόνο για ανάγνωση Single. |
+| [Width](../../aspose.slides/shapeframe/width) { get; } | Επιστρέφει το πλάτος ενός πλαισίου. Μόνο για ανάγνωση Single. |
+| [X](../../aspose.slides/shapeframe/x) { get; } | Επιστρέφει το συντεταγμένο X του επάνω αριστερού γωνίου ενός πλαισίου. Μόνο για ανάγνωση Single. |
+| [Y](../../aspose.slides/shapeframe/y) { get; } | Επιστρέφει το συντεταγμένο Y του επάνω αριστερού γωνίου ενός πλαισίου. Μόνο για ανάγνωση Single. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Clone](../../aspose.slides/shapeframe/clone)() | Κλωνοποιεί |
-| [CloneT](../../aspose.slides/shapeframe/clonet)() | Κλωνοποιεί. |
-| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με ένα καθορισμένο αντικείμενο. |
-| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Επιστρέφει τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με ένα καθορισμένο αντικείμενο. |
-| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Επιστρέφει έναν κωδικό κατακερματισμού για αυτό το αντικείμενο. |
+| [Clone](../../aspose.slides/shapeframe/clone)() | Δημιουργεί αντίγραφο |
+| [CloneT](../../aspose.slides/shapeframe/clonet)() | Δημιουργεί αντίγραφο. |
+| override [Equals](../../aspose.slides/shapeframe/equals#equals_1)(object) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με ένα καθορισμένο αντικείμενο. |
+| [Equals](../../aspose.slides/shapeframe/equals#equals)(ShapeFrame) | Επιστρέφει μια τιμή που υποδεικνύει εάν αυτή η παρουσία είναι ίση με ένα καθορισμένο αντικείμενο. |
+| override [GetHashCode](../../aspose.slides/shapeframe/gethashcode)() | Επιστρέφει κώδικα hash για αυτό το αντικείμενο. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IShapeFrame](../ishapeframe)
-* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
-* συγκρότημα [Aspose.Slides](../../)
+* interface [IShapeFrame](../ishapeframe)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

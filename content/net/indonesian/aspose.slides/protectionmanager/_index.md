@@ -3,12 +3,12 @@ title: ProtectionManager
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Manajemen perlindungan kata sandi presentasi.
 type: docs
-weight: 9660
+weight: 9680
 url: /id/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager kelas
 
-Presentation password protection management.
+Manajemen perlindungan kata sandi presentasi.
 
 ```csharp
 public sealed class ProtectionManager : IProtectionManager
@@ -18,19 +18,19 @@ public sealed class ProtectionManager : IProtectionManager
 
 | Nama | Deskripsi |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Properti ini relevan bila presentasi dilindungi dengan kata sandi. Jika true maka properti dokumen dienkripsi dalam file presentasi. Jika false maka properti dokumen bersifat publik sementara presentasi dienkripsi. Baca/tulis Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Mendapatkan kata sandi yang digunakan untuk enkripsi presentasi. Baca-saja String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Mendapatkan nilai yang menunjukkan apakah instance ini dienkripsi. Baca-saja Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Properti ini relevan bila file presentasi dilindungi dengan kata sandi dan properti dokumen dari file ini bersifat publik. Nilai true berarti hanya properti dokumen yang dimuat dari file presentasi yang terenkripsi tanpa menggunakan kata sandi. Nilai false berarti seluruh presentasi yang terenkripsi dimuat dengan menggunakan kata sandi yang benar, bukan hanya properti dokumen yang dimuat. Jika presentasi tidak terenkripsi maka nilai properti selalu false. Jika properti dokumen dari file terenkripsi tidak publik maka nilai properti selalu false. Jika Presentation.EncryptDocumentProperties bernilai true maka nilai properti IsOnlyDocumentPropertiesLoaded selalu false. Baca-saja Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Mendapatkan nilai yang menunjukkan apakah presentasi ini dilindungi penulisan. Baca-saja Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Mendapatkan atau mengatur rekomendasi baca-saja. Baca/tulis Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Properti ini masuk akal jika presentasi dilindungi kata sandi. Jika true maka properti dokumen dienkripsi dalam berkas presentasi. Jika false maka properti dokumen bersifat publik sementara presentasi dienkripsi. Read/write Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Mengambil kata sandi yang digunakan untuk enkripsi presentasi. Read-only String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Mengambil nilai yang menunjukkan apakah instance ini terenkripsi. Read-only Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Properti ini masuk akal, jika berkas presentasi dilindungi kata sandi dan properti dokumen berkas ini bersifat publik. Nilai true berarti hanya properti dokumen yang dimuat dari berkas presentasi terenkripsi tanpa menggunakan kata sandi. Nilai false berarti seluruh presentasi terenkripsi dimuat dengan menggunakan kata sandi yang benar, bukan hanya properti dokumen yang dimuat. Jika presentasi tidak terenkripsi maka nilai properti selalu false. Jika properti dokumen berkas terenkripsi tidak bersifat publik maka nilai properti selalu false. Jika Presentation.EncryptDocumentProperties bernilai true maka nilai properti IsOnlyDocumentPropertiesLoaded selalu false. Read-only Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Mengambil nilai yang menunjukkan apakah presentasi ini dilindungi penulisan. Read-only Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Mengambil atau mengatur rekomendasi read-only. Read/write Boolean. |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
 | [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Menentukan apakah sebuah presentasi dilindungi kata sandi untuk dimodifikasi. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Mengenkripsi Presentation dengan kata sandi yang ditentukan. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Mengenkripsi Presentasi dengan kata sandi yang ditentukan. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Menghapus enkripsi. |
 | [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Menghapus perlindungan penulisan untuk presentasi ini. |
 | [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Mengatur perlindungan penulisan untuk presentasi ini dengan kata sandi yang ditentukan. |
@@ -39,6 +39,6 @@ public sealed class ProtectionManager : IProtectionManager
 
 * antarmuka [IProtectionManager](../iprotectionmanager)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* rakitan [Aspose.Slides](../../)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

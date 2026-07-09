@@ -3,7 +3,7 @@ title: IDataLabelFormat
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar formateringsalternativ för DataLabel.
 type: docs
-weight: 2020
+weight: 2040
 url: /sv/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat gränssnitt
@@ -23,16 +23,16 @@ public interface IDataLabelFormat : IFormattedTextContainer
 | [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | Läs/skriv Boolean. |
 | [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | Representerar formatsträngen för DataLabels-objektet. Läs/skriv String. |
 | [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | Representerar positionen för dataetiketten. Läs/skriv [`LegendDataLabelPosition`](../legenddatalabelposition). |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Ställer in eller returnerar en Variant som representerar separatorn som används för dataetiketterna på ett diagram. Läs/skriv String. |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representerar hur ett specifikt diagram visar bubbelstorleksvärdet för dataetiketten. True visar bubbelstorleksvärdet. False döljer det. Läs/skriv Boolean. |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representerar hur ett specifikt diagram visar kategorinamnet för dataetiketterna. True visar kategorinamnet. False döljer det. Läs/skriv Boolean. |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Bestämmer om dataetiketten i ett specifikt diagram ska visas som dataöverskrift eller som dataetikett. Om föräldern till detta DataLabelFormat-objekt är en DataLabelCollection-samling av dataetiketter, får eller sätter denna egenskap standardvärdet för ShowLabelAsDataCallout-egenskapen för de nya dataetiketterna i DataLabelCollection-samlingen. Att sätta denna egenskap med ett värde sätter också detta värde för ShowLabelAsDataCallout-egenskapen för alla dataetiketter i DataLabelCollection-samlingen (t.ex. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" gör att alla DataLabels[i].ShowLabelAsDataCallout är lika med val). |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representerar hur ett specifikt diagram visar cellvärdet för dataetiketten. True visar cellvärdet. False döljer det. Läs/skriv Boolean. |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representerar hur ett specifikt diagram visar ledarlinjerna för dataetiketten. True visar ledarlinjerna. False döljer dem. Läs/skriv Boolean. |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representerar hur ett specifikt diagram visar legendnyckeln för dataetiketten. True om legendnyckeln är synlig. Läs/skriv Boolean. |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representerar hur ett specifikt diagram visar procentvärdet för dataetiketten. True visar procentvärdet. False döljer det. Läs/skriv Boolean. |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Returnerar eller anger ett Boolean-värde för att indikera hur serienamnet visas för dataetiketterna på ett diagram. True visar serienamnet. False döljer det. Läs/skriv Boolean. |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representerar hur ett specifikt diagram visar procentvärdet för dataetiketten. True visar procentvärdet. False döljer det. Läs/skriv Boolean. |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | Ställer in eller returnerar en Variant som representerar separatorn som används för dataetiketter i ett diagram. Läs/skriv String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | Representerar ett specificerat diagram's dataetikett bubbelförstorlekens värdevisningsbeteende. True visar bubbelförstorlekens värde. False för att dölja. Läs/skriv Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | Representerar ett specificerat diagram's dataetikett kategorinamnsvisningsbeteende. True för att visa kategorinamnet för dataetiketterna i ett diagram. False för att dölja. Läs/skriv Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | Bestämmer om en specificerad diagram-dataetikett ska visas som data-callout eller som dataetikett. Om föräldern till detta DataLabelFormat-objekt är en DataLabelCollection-samling av dataetiketter så hämtar eller sätter denna egenskap standardvärdet för egenskapen ShowLabelAsDataCallout för de nya dataetiketterna i DataLabelCollection-samlingen. Att sätta denna egenskap med ett värde sätter dessutom detta värde till egenskapen ShowLabelAsDataCallout för alla dataetiketter i DataLabelCollection-samlingen (dvs. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" vilket får att alla DataLabels[i].ShowLabelAsDataCallout är lika med val). |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | Representerar ett specificerat diagram's dataetikett cellvärdesvisningsbeteende. True visar cellvärdet. False för att dölja. Läs/skriv Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | Representerar ett specificerat diagram's dataetikett ledarlinjers visningsbeteende. True visar ledarlinjerna. False för att dölja. Läs/skriv Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | Representerar ett specificerat diagram's dataetikett legendnyckels visningsbeteende. True om legendnyckeln för dataetiketten är synlig. Läs/skriv Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | Representerar ett specificerat diagram's dataetikett procentvärdesvisningsbeteende. True visar procentvärdet. False för att dölja. Läs/skriv Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | Returnerar eller sätter ett Boolean för att ange serie namn visningsbeteende för dataetiketterna i ett diagram. True för att visa serienamnet. False för att dölja. Läs/skriv Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | Representerar ett specificerat diagram's dataetikett procentvärdesvisningsbeteende. True visar procentvärdet. False för att dölja. Läs/skriv Boolean. |
 
 ### Se även
 

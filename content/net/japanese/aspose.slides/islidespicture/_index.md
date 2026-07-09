@@ -3,7 +3,7 @@ title: ISlidesPicture
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション内の画像を表します。
 type: docs
-weight: 7090
+weight: 7110
 url: /ja/aspose.slides/islidespicture/
 ---
 ## ISlidesPicture インターフェイス
@@ -18,10 +18,10 @@ public interface ISlidesPicture : ISlideComponent
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | ベースの ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent)。 |
-| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 埋め込み画像を取得または設定します。読み取り/書き込み [`IPPImage`](../ippimage)。 |
-| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 画像変換エフェクトのコレクションを取得します。読み取り専用 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection)。 |
-| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | リンクされた画像の URL を取得または設定します。読み取り/書き込み String。 |
+| [AsISlideComponent](../../aspose.slides/islidespicture/asislidecomponent) { get; } | ベース ISlideComponent インターフェイスを取得できます。読み取り専用 [`ISlideComponent`](../islidecomponent). |
+| [Image](../../aspose.slides/islidespicture/image) { get; set; } | 埋め込み画像を取得または設定します。読み書き [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/islidespicture/imagetransform) { get; } | 画像変換エフェクトのコレクションを取得します。読み取り専用 [`IImageTransformOperationCollection`](../../aspose.slides.effects/iimagetransformoperationcollection). |
+| [LinkPathLong](../../aspose.slides/islidespicture/linkpathlong) { get; set; } | リンクされた画像の URL を取得または設定します。読み書き String. |
 
 ### 参照
 

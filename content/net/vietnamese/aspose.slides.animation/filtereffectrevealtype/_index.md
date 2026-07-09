@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đại diện cho kiểu hiển thị bộ lọc.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị kiểu hiển thị bộ lọc.
 type: docs
 weight: 380
 url: /vi/aspose.slides.animation/filtereffectrevealtype/
 ---
-## FilterEffectRevealType enum
+## Liệt kê FilterEffectRevealType
 
-Đại diện cho kiểu hiển thị bộ lọc.
+Biểu thị kiểu hiển thị bộ lọc.
 
 ```csharp
 public enum FilterEffectRevealType
@@ -23,7 +23,7 @@ public enum FilterEffectRevealType
 | In | `1` |  |
 | Out | `2` |  |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides.Animation](../../aspose.slides.animation)
 * tập hợp [Aspose.Slides](../../)

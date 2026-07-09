@@ -8,7 +8,7 @@ url: /ar/aspose.slides/ilightrig/
 ---
 ## ILightRig واجهة
 
-Represents LightRig.
+يمثل LightRig.
 
 ```csharp
 public interface ILightRig
@@ -19,13 +19,13 @@ public interface ILightRig
 | الاسم | الوصف |
 | --- | --- |
 | [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | اتجاه الضوء. قراءة/كتابة [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | يمثل إضاءة مسبقة يمكن تطبيقها على شكل. تمثل مجموعة إضاءة مجموعة من الأضواء موجهة بطريقة معينة بالنسبة لمشهد ثلاثي الأبعاد. قراءة/كتابة [`LightRigPresetType`](../lightrigpresettype). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | يمثل إعدادًا مسبقًا للضوء يمكن تطبيقه على شكل. يمثل light rig مجموعة من الأضواء الموجهة بطريقة محددة بالنسبة إلى مشهد ثلاثي الأبعاد. قراءة/كتابة [`LightRigPresetType`](../lightrigpresettype). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. العنصر الأول في مصفوفة الإرجاع - خط العرض، الثاني - خط الطول، الثالث - الثورة. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. العنصر الأول في مصفوفة النتيجة - خط العرض، الثاني - خط الطول، الثالث - الثورة. |
 | [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | يتم تعريف دوران من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثيات خط العرض وخط الطول. |
 
 ### انظر أيضًا

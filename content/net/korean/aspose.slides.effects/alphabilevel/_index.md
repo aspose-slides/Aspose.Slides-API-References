@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes for .NET API 참조
-description: Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(Opacity) 값은 0(완전히 투명)으로 변경되고, 임계값보다 크거나 같은 Alpha 값은 100(완전 불투명)으로 변경됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha 불투명도 값은 0(완전 투명)으로 변경되고, 임계값보다 크거나 같은 Alpha 값은 100(완전 불투명)으로 변경됩니다.
 type: docs
 weight: 2840
 url: /ko/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel 클래스
 
-Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(Opacity) 값은 0(완전히 투명)으로 변경되고, 임계값보다 크거나 같은 Alpha 값은 100%(완전 불투명)으로 변경됩니다.
+Alpha Bi-Level 효과를 나타냅니다. 임계값보다 작은 Alpha(불투명도) 값은 0(완전히 투명)으로 변경되고, 임계값보다 크거나 같은 Alpha 값은 100%(완전히 불투명)으로 변경됩니다.
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -27,9 +27,9 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | 지정된 [`AlphaBiLevel`](../alphabilevel)가 현재 [`AlphaBiLevel`](../alphabilevel)와 같은지 여부를 결정합니다. |
 | [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | 상속이 적용된 효과적인 Alpha Bi-Level 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
+| override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | 특정 형식에 대한 해시 함수 역할을 합니다. |
 
-### 참고
+### 또 보기
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IAlphaBiLevel](../ialphabilevel)

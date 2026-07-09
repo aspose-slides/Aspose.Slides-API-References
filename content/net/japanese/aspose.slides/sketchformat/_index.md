@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Sildes の .NET API リファレンス
-description: ライン スケッチ形式のプロパティを表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: ラインのスケッチ形式のプロパティを表します。
 type: docs
-weight: 9930
+weight: 9950
 url: /ja/aspose.slides/sketchformat/
 ---
 ## SketchFormat クラス
 
-ライン スケッチ形式のプロパティを表します。
+ラインのスケッチ形式のプロパティを表します。
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -18,7 +18,7 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得可能です。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
 | [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | スケッチタイプを取得または設定します。読み書き可能 [`LineSketchType`](../linesketchtype)。 |
 
 ## メソッド

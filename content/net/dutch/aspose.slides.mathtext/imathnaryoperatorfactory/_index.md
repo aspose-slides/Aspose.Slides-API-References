@@ -1,14 +1,14 @@
 ---
 title: IMathNaryOperatorFactory
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Staat toe om IMathNaryOperator te maken
+description: Staat toe een IMathNaryOperator te maken
 type: docs
 weight: 8370
 url: /nl/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory interface
 
-Staat toe om IMathNaryOperator te maken
+Staat toe een IMathNaryOperator te maken
 
 ```csharp
 public interface IMathNaryOperatorFactory

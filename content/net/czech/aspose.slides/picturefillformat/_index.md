@@ -1,14 +1,14 @@
 ---
 title: PictureFillFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Představuje styl výplně obrázkem.
+description: Reprezentuje styl vyplnění obrázkem.
 type: docs
-weight: 9370
+weight: 9390
 url: /cs/aspose.slides/picturefillformat/
 ---
 ## PictureFillFormat třída
 
-Representuje styl výplně obrázkem.
+Reprezentuje styl vyplnění obrázkem.
 
 ```csharp
 public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
@@ -19,32 +19,32 @@ public sealed class PictureFillFormat : PVIObject, IPictureFillFormat
 | Název | Popis |
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../ipresentationcomponent). |
-| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | Vrací nebo nastavuje počet procent skutečné výšky obrázku, které jsou oříznuty ze spodní části obrázku. Čtení/Zápis Single. |
-| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | Vrací nebo nastavuje počet procent skutečné šířky obrázku, které jsou oříznuty z levé strany obrázku. Čtení/Zápis Single. |
-| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | Vrací nebo nastavuje počet procent skutečné šířky obrázku, které jsou oříznuty z pravé strany obrázku. Čtení/Zápis Single. |
-| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | Vrací nebo nastavuje počet procent skutečné výšky obrázku, které jsou oříznuty z horní části obrázku. Čtení/Zápis Single. |
-| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | Vrací nebo nastavuje dpi, které se používá k výplni obrázkem. Čtení/Zápis Int32. |
+| [CropBottom](../../aspose.slides/picturefillformat/cropbottom) { get; set; } | Vrací nebo nastavuje počet procent skutečné výšky obrázku, které jsou oříznuty ze spodní části obrázku. Číst/Zapisovat Single. |
+| [CropLeft](../../aspose.slides/picturefillformat/cropleft) { get; set; } | Vrací nebo nastavuje počet procent skutečné šířky obrázku, které jsou oříznuty z levé strany obrázku. Číst/Zapisovat Single. |
+| [CropRight](../../aspose.slides/picturefillformat/cropright) { get; set; } | Vrací nebo nastavuje počet procent skutečné šířky obrázku, které jsou oříznuty z pravé strany obrázku. Číst/Zapisovat Single. |
+| [CropTop](../../aspose.slides/picturefillformat/croptop) { get; set; } | Vrací nebo nastavuje počet procent skutečné výšky obrázku, které jsou oříznuty z horní části obrázku. Číst/Zapisovat Single. |
+| [Dpi](../../aspose.slides/picturefillformat/dpi) { get; set; } | Vrací nebo nastavuje DPI, které se používá k vyplnění obrázku. Číst/Zapisovat Int32. |
 | [Picture](../../aspose.slides/picturefillformat/picture) { get; } | Vrací obrázek. Pouze pro čtení [`ISlidesPicture`](../islidespicture). |
-| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | Vrací nebo nastavuje režim výplně obrázkem. Čtení/Zápis [`PictureFillMode`](../picturefillmode). |
-| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | Vrací nebo nastavuje spodní okraj výplňového obdélníku, který je definován procentuálním posunem od spodního okraje ohraničujícího rámečku tvaru. Kladné procento určuje vnitřní odsazení, záporné procento určuje vnější odsazení. Čtení/Zápis Single. |
-| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | Vrací nebo nastavuje levý okraj výplňového obdélníku, který je definován procentuálním posunem od levého okraje ohraničujícího rámečku tvaru. Kladné procento určuje vnitřní odsazení, záporné procento určuje vnější odsazení. Čtení/Zápis Single. |
-| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | Vrací nebo nastavuje pravý okraj výplňového obdélníku, který je definován procentuálním posunem od pravého okraje ohraničujícího rámečku tvaru. Kladné procento určuje vnitřní odsazení, záporné procento určuje vnější odsazení. Čtení/Zápis Single. |
-| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | Vrací nebo nastavuje horní okraj výplňového obdélníku, který je definován procentuálním posunem od horního okraje ohraničujícího rámečku tvaru. Kladné procento určuje vnitřní odsazení, záporné procento určuje vnější odsazení. Čtení/Zápis Single. |
-| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | Vrací nebo nastavuje, jak je textura zarovnána uvnitř tvaru. Toto nastavení řídí výchozí bod vzoru textury a to, jak se opakuje po tvaru. Čtení/Zápis [`RectangleAlignment`](../rectanglealignment). |
-| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | Otáčí dlaždici textury kolem horizontální, vertikální nebo obou os. Čtení/Zápis [`TileFlip`](../tileflip). |
-| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | Vrací nebo nastavuje vodorovný posun textury od počátku tvaru v bodech. Kladná hodnota posune texturu doprava, záporná hodnota posune texturu doleva. Čtení/Zápis Single. |
-| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | Vrací nebo nastavuje svislý posun textury od počátku tvaru v bodech. Kladná hodnota posune texturu dolů, záporná hodnota posune texturu nahoru. Čtení/Zápis Single. |
-| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | Vrací nebo nastavuje vodorovné měřítko výplně textury v procentech. Čtení/Zápis Single. |
-| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | Vrací nebo nastavuje svislé měřítko výplně textury v procentech. Čtení/Zápis Single. |
+| [PictureFillMode](../../aspose.slides/picturefillformat/picturefillmode) { get; set; } | Vrací nebo nastavuje režim vyplnění obrázkem. Číst/Zapisovat [`PictureFillMode`](../picturefillmode). |
+| [StretchOffsetBottom](../../aspose.slides/picturefillformat/stretchoffsetbottom) { get; set; } | Vrací nebo nastavuje spodní okraj výplňového obdélníku definovaný procentuálním posunem od spodního okraje ohraničovacího rámce tvaru. Kladné procento udává vnitřní odsazení, záporné procento vnější odsazení. Číst/Zapisovat Single. |
+| [StretchOffsetLeft](../../aspose.slides/picturefillformat/stretchoffsetleft) { get; set; } | Vrací nebo nastavuje levý okraj výplňového obdélníku definovaný procentuálním posunem od levého okraje ohraničovacího rámce tvaru. Kladné procento udává vnitřní odsazení, záporné procento vnější odsazení. Číst/Zapisovat Single. |
+| [StretchOffsetRight](../../aspose.slides/picturefillformat/stretchoffsetright) { get; set; } | Vrací nebo nastavuje pravý okraj výplňového obdélníku definovaný procentuálním posunem od pravého okraje ohraničovacího rámce tvaru. Kladné procento udává vnitřní odsazení, záporné procento vnější odsazení. Číst/Zapisovat Single. |
+| [StretchOffsetTop](../../aspose.slides/picturefillformat/stretchoffsettop) { get; set; } | Vrací nebo nastavuje horní okraj výplňového obdélníku definovaný procentuálním posunem od horního okraje ohraničovacího rámce tvaru. Kladné procento udává vnitřní odsazení, záporné procento vnější odsazení. Číst/Zapisovat Single. |
+| [TileAlignment](../../aspose.slides/picturefillformat/tilealignment) { get; set; } | Vrací nebo nastavuje, jak je textura zarovnána uvnitř tvaru. Toto nastavení určuje výchozí bod vzoru textury a způsob, jakým se opakuje po celém tvaru. Číst/Zapisovat [`RectangleAlignment`](../rectanglealignment). |
+| [TileFlip](../../aspose.slides/picturefillformat/tileflip) { get; set; } | Otočí dlaždici textury kolem její vodorovné, svislé nebo obou osí. Číst/Zapisovat [`TileFlip`](../tileflip). |
+| [TileOffsetX](../../aspose.slides/picturefillformat/tileoffsetx) { get; set; } | Vrací nebo nastavuje vodorovný posun textury od počátku tvaru v bodech. Kladná hodnota posouvá texturu doprava, záporná hodnota doleva. Číst/Zapisovat Single. |
+| [TileOffsetY](../../aspose.slides/picturefillformat/tileoffsety) { get; set; } | Vrací nebo nastavuje svislý posun textury od počátku tvaru v bodech. Kladná hodnota posouvá texturu dolů, záporná hodnota nahoru. Číst/Zapisovat Single. |
+| [TileScaleX](../../aspose.slides/picturefillformat/tilescalex) { get; set; } | Vrací nebo nastavuje vodorovné měřítko pro výplň texturou jako procento. Číst/Zapisovat Single. |
+| [TileScaleY](../../aspose.slides/picturefillformat/tilescaley) { get; set; } | Vrací nebo nastavuje svislé měřítko pro výplň texturou jako procento. Číst/Zapisovat Single. |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | Komprimuje obrázek zmenšením jeho velikosti na základě velikosti tvaru a zadaného rozlišení. Volitelně také odstraňuje oříznuté oblasti. |
-| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Komprimuje obrázek zmenšením jeho velikosti na základě velikosti tvaru a zadaného rozlišení. Volitelně také odstraňuje oříznuté oblasti. |
-| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Odstraní oříznuté oblasti výplňového obrázku. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s určeným objektem. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage_1)(bool, float) | Komprimuje obrázek snížením jeho velikosti na základě velikosti tvaru a zadaného rozlišení. Volitelně také odstraňuje oříznuté oblasti. |
+| [CompressImage](../../aspose.slides/picturefillformat/compressimage#compressimage)(bool, PicturesCompression) | Komprimuje obrázek snížením jeho velikosti na základě velikosti tvaru a zadaného rozlišení. Volitelně také odstraňuje oříznuté oblasti. |
+| [DeletePictureCroppedAreas](../../aspose.slides/picturefillformat/deletepicturecroppedareas)() | Odstraní oříznuté oblasti vyplňovacího obrázku. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Porovná s uvedeným objektem. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Vrací hash kód. |
 
 ### Viz také

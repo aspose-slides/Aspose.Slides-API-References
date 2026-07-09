@@ -8,7 +8,7 @@ url: /hi/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType एन्यूमरेशन
 
-कैमरा प्रीसेट प्रकार को परिभाषित करने वाले स्थिरांक।
+कैमरा प्रीसेट टाइप को परिभाषित करने वाले स्थिरांक।
 
 ```csharp
 public enum CameraPresetType
@@ -82,7 +82,7 @@ public enum CameraPresetType
 | PerspectiveRelaxedModerately | `60` |  |
 | PerspectiveRight | `61` |  |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

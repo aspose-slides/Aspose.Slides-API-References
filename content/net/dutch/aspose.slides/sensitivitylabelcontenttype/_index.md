@@ -1,14 +1,14 @@
 ---
 title: SensitivityLabelContentType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft de typen inhoudsmarkering weer die op een document moeten worden toegepast.
+description: Geeft de typen markering van inhoud weer die op een document moeten worden toegepast.
 type: docs
 weight: 9820
 url: /nl/aspose.slides/sensitivitylabelcontenttype/
 ---
 ## SensitivityLabelContentType enumeratie
 
-Geeft de typen inhoudsmarkering aan die op een document moeten worden toegepast.
+Geeft de typen inhoudsmarkering weer die op een document moeten worden toegepast.
 
 ```csharp
 public enum SensitivityLabelContentType
@@ -19,10 +19,10 @@ public enum SensitivityLabelContentType
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | None | `0` | Geeft aan dat het label standaard of automatisch wordt toegepast. |
-| Header | `1` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat direct door de gebruiker is toegepast. |
-| Footer | `2` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat direct door de gebruiker is toegepast. |
-| Watermark | `4` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat direct door de gebruiker is toegepast. |
-| Encryption | `8` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat direct door de gebruiker is toegepast. |
+| Header | `1` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat rechtstreeks door de gebruiker is toegepast. |
+| Footer | `2` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat rechtstreeks door de gebruiker is toegepast. |
+| Watermark | `4` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat rechtstreeks door de gebruiker is toegepast. |
+| Encryption | `8` | Geeft aan dat het label handmatig is toegepast. Gebruik voor elk gevoeligheidslabel dat rechtstreeks door de gebruiker is toegepast. |
 
 ### Zie ook
 

@@ -1,33 +1,33 @@
 ---
 title: IDoubleChartValue
 second_title: Aspose.Sildes برای .NET مرجع API
-description: مقدار double را که می‌تواند به دو روش در سند ارائه pptx ذخیره شود، نشان می‌دهد: 1) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار 2) به عنوان مقدار ثابت.
+description: نمایش مقدار عددی دو برابر که می‌تواند به دو روش در سند ارائهٔ pptx ذخیره شود: ۱) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار ۲) به عنوان مقدار ثابت.
 type: docs
 weight: 2070
 url: /fa/aspose.slides.charts/idoublechartvalue/
 ---
 ## IDoubleChartValue رابط
 
-مقدار double را که می‌تواند به دو روش در سند ارائه pptx ذخیره شود، نشان می‌دهد: 1) در سلول/سلول‌های دفتر کار مرتبط با نمودار؛ 2) به عنوان مقدار ثابت.
+مقدار عددی دو برابر را که می‌تواند به دو شکل در سند ارائهٔ pptx ذخیره شود، نمایش می‌دهد: ۱) در سلول/سلول‌های کتاب‌کار مرتبط با نمودار؛ ۲) به عنوان مقدار ثابت.
 
 ```csharp
 public interface IDoubleChartValue : ISingleCellChartValue
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | اجازه می‌دهد تا رابط ISingleCellChartValue پایه را دریافت کند. فقط‌خواندنی [`ISingleCellChartValue`](../isinglecellchartvalue). |
-| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | مقدار double ثابت را برمی‌گرداند یا تنظیم می‌کند اگر DataSourceType = Charts.DataSourceType.DoubleLiterals. خواندنی/نوشتنی Double. |
+| [AsISingleCellChartValue](../../aspose.slides.charts/idoublechartvalue/asisinglecellchartvalue) { get; } | امکان دریافت رابط پایه ISingleCellChartValue را می‌دهد. فقط-خواندنی [`ISingleCellChartValue`](../isinglecellchartvalue). |
+| [AsLiteralDouble](../../aspose.slides.charts/idoublechartvalue/asliteraldouble) { get; set; } | مقدار عددی حقیقی را اگر DataSourceType = Charts.DataSourceType.DoubleLiterals برمی‌گرداند یا تنظیم می‌کند. خواندن/نوشتن Double. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | به double تبدیل می‌کند. |
+| [ToDouble](../../aspose.slides.charts/idoublechartvalue/todouble)() | به double تبدیل می‌شود. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [ISingleCellChartValue](../isinglecellchartvalue)
 * فضای‌نام [Aspose.Slides.Charts](../../aspose.slides.charts)

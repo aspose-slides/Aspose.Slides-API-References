@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का संग्रह प्रस्तुत करता है
+description: उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का संग्रह दर्शाता है
 type: docs
 weight: 5860
 url: /hi/aspose.slides/ifontfallbackrulescollection/
 ---
 ## IFontFallBackRulesCollection इंटरफ़ेस
 
-उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का एक संग्रह दर्शाता है।
+उपयोगकर्ता द्वारा परिभाषित FontFallBack नियमों का संग्रह दर्शाता है
 
 ```csharp
 public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBackRule>
@@ -18,16 +18,16 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर नियम प्राप्त करता है। केवल-पढ़ने योग्य [`IFontFallBackRule`](../ifontfallbackrule)। |
+| [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | निर्दिष्ट सूचकांक पर नियम प्राप्त करता है। केवल-पढ़ने योग्य [`IFontFallBackRule`](../ifontfallbackrule)। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | संग्रह के अंत में एक नया FallBack नियम जोड़ता है। |
-| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | संग्रह से निर्दिष्ट FallBack नियम की पहली घटना को हटाता है। |
+| [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | संग्रह से किसी विशिष्ट FallBack नियम की पहली उपस्थिति को हटाता है। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IFontFallBackRule](../ifontfallbackrule)

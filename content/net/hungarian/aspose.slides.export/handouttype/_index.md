@@ -1,14 +1,14 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes for .NET API-referencia
-description: Megadja, hogy hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
+second_title: Aspose.Sildes .NET API referencia
+description: Megadja, hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
 type: docs
-weight: 3830
+weight: 3850
 url: /hu/aspose.slides.export/handouttype/
 ---
 ## HandoutType enumeráció
 
-Megadja, hogy hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
+Megadja, hány dia és milyen sorrendben kerül elhelyezésre az oldalon.
 
 ```csharp
 public enum HandoutType

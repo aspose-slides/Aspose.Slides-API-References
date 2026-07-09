@@ -1,6 +1,6 @@
 ---
 title: IChartCategoryLevelsManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: คอนเทนเนอร์ที่จัดการค่าของระดับหมวดหมู่ของแผนภูมิ
 type: docs
 weight: 1770
@@ -18,14 +18,14 @@ public interface IChartCategoryLevelsManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | ส่งคืนอ็อบเจกต์ IChartDataCell สำหรับระดับที่กำหนด |
+| [Item](../../aspose.slides.charts/ichartcategorylevelsmanager/item) { get; } | ส่งคืนอ็อบเจ็กต์ IChartDataCell สำหรับระดับที่กำหนด |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | ลบรายการการจัดกลุ่มสำหรับระดับที่กำหนด |
-| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | ตั้งค่ารายการการจัดกลุ่มสำหรับระดับที่กำหนด |
+| [DeleteGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/deletegroupingitem)(int) | ลบรายการกลุ่มสำหรับระดับที่กำหนด |
+| [SetGroupingItem](../../aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem)(int, object) | ตั้งค่ารายการกลุ่มสำหรับระดับที่กำหนด |
 
 ### ดูเพิ่มเติม
 

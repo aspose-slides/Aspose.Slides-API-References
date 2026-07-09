@@ -25,11 +25,11 @@ public class TrendlineCollection : DomObject<ChartSeries>, ITrendlineCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | 在集合尾部加入新的 Trendline 並傳回它。 |
-| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
+| [Add](../../aspose.slides.charts/trendlinecollection/add)(TrendlineType) | 在集合的末端新增 Trendline，並傳回它。 |
+| [GetEnumerator](../../aspose.slides.charts/trendlinecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [Remove](../../aspose.slides.charts/trendlinecollection/remove)(ITrendline) | 移除指定的值。 |
 
-### 另見
+### 另請參閱
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [ChartSeries](../chartseries)

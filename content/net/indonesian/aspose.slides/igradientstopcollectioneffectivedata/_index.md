@@ -1,23 +1,24 @@
 ---
 title: IGradientStopCollectionEffectiveData
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili koleksi objek GradientStopDataEx.
+description: Mewakili kumpulan objek GradientStopDataEx.
 type: docs
-weight: 6020
+weight: 6040
 url: /id/aspose.slides/igradientstopcollectioneffectivedata/
 ---
 ## IGradientStopCollectionEffectiveData antarmuka
 
-Mewakili koleksi objek GradientStopDataEx.
+Mewakili kumpulan objek GradientStopDataEx.
 
 ```csharp
 public interface IGradientStopCollectionEffectiveData : 
     IGenericCollection<IGradientStopEffectiveData>
 ```
 
+
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [Item](../../aspose.slides/igradientstopcollectioneffectivedata/item) { get; } | Mengembalikan gradient stop berdasarkan indeks. |
 

@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση των αποτελεσματικών στυλ εφέ.
+description: Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση από αποτελεσματικά στυλ εφέ.
 type: docs
-weight: 11170
+weight: 11190
 url: /el/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData διασύνδεση
 
-Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση των αποτελεσματικών στυλ εφέ.
+Αμετάβλητο αντικείμενο που αντιπροσωπεύει μια συλλογή μόνο για ανάγνωση από αποτελεσματικά στυλ εφέ.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>
@@ -18,7 +18,7 @@ public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffec
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Παίρνει το στοιχείο στη συγκεκριμένη θέση. Μόνο για ανάγνωση [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
+| [Item](../../aspose.slides.theme/ieffectstylecollectioneffectivedata/item) { get; } | Λαμβάνει το στοιχείο στο καθορισμένο δείκτη. Μόνο για ανάγνωση [`IEffectStyleEffectiveData`](../ieffectstyleeffectivedata). |
 
 ### Σχόλια
 

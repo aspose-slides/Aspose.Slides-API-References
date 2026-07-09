@@ -1,9 +1,9 @@
 ---
 title: ISectionZoomFrame
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド内の Section Zoom オブジェクトを表します。
 type: docs
-weight: 6900
+weight: 6920
 url: /ja/aspose.slides/isectionzoomframe/
 ---
 ## ISectionZoomFrame インターフェイス
@@ -19,7 +19,7 @@ public interface ISectionZoomFrame : IZoomObject
 | 名前 | 説明 |
 | --- | --- |
 | [AsIZoomObject](../../aspose.slides/isectionzoomframe/asizoomobject) { get; } | IZoomObject インターフェイスを返します。 |
-| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom オブジェクトがリンクされているセクション オブジェクトを取得または設定します。読み取り/書き込み [`ISection`](../isection)。 |
+| [TargetSection](../../aspose.slides/isectionzoomframe/targetsection) { get; set; } | Section Zoom オブジェクトがリンクされているセクション オブジェクトを取得または設定します。 読み取り/書き込み [`ISection`](../isection)。 |
 
 ### 参照
 

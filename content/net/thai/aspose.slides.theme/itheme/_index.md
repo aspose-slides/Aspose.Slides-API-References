@@ -1,14 +1,14 @@
 ---
 title: ITheme
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของธีม.
+description: แสดงถึงธีม
 type: docs
 weight: 11370
 url: /th/aspose.slides.theme/itheme/
 ---
 ## ITheme อินเทอร์เฟซ
 
-เป็นตัวแทนของธีม.
+แสดงถึงธีมหนึ่ง.
 
 ```csharp
 public interface ITheme : IPresentationComponent
@@ -18,16 +18,16 @@ public interface ITheme : IPresentationComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซฐาน IPresentationComponent. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | ส่งคืนโครงร่างสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
-| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | ส่งคืนโครงร่างฟอนต์. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
-| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | ส่งคืนโครงร่างรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
+| [AsIPresentationComponent](../../aspose.slides.theme/itheme/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent ฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [ColorScheme](../../aspose.slides.theme/itheme/colorscheme) { get; } | คืนค่าโครงสี. อ่านอย่างเดียว [`IColorScheme`](../icolorscheme). |
+| [FontScheme](../../aspose.slides.theme/itheme/fontscheme) { get; } | คืนค่าโครงแบบอักษร. อ่านอย่างเดียว [`IFontScheme`](../ifontscheme). |
+| [FormatScheme](../../aspose.slides.theme/itheme/formatscheme) { get; } | คืนค่าโครงรูปแบบรูปร่าง. อ่านอย่างเดียว [`IFormatScheme`](../iformatscheme). |
 
-## วิธีการ
+## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | รับข้อมูลธีมที่มีผลโดยมีการใช้การสืบทอด. |
+| [GetEffective](../../aspose.slides.theme/itheme/geteffective)() | รับข้อมูลธีมที่มีผลพร้อมกับการสืบทอดที่ใช้. |
 
 ### ดูเพิ่มเติม
 

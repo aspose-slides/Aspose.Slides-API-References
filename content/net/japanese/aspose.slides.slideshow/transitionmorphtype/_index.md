@@ -3,10 +3,10 @@ title: TransitionMorphType
 second_title: Aspose.Sildes の .NET API リファレンス
 description: モーフ遷移のタイプを表します。
 type: docs
-weight: 10370
+weight: 10390
 url: /ja/aspose.slides.slideshow/transitionmorphtype/
 ---
-## TransitionMorphType 列挙体
+## TransitionMorphType 列挙型
 
 モーフ遷移のタイプを表します。
 
@@ -18,9 +18,9 @@ public enum TransitionMorphType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| ByObject | `0` | 形状を分割不可能なオブジェクトとして考慮してモーフ遷移が実行されます。 |
-| ByWord | `1` | 可能な限り単語単位でテキストを転送してモーフ遷移が実行されます。 |
-| ByChar | `2` | 可能な限り文字単位でテキストを転送してモーフ遷移が実行されます。 |
+| ByObject | `0` | 形状を不可分なオブジェクトとして考慮しながら、モーフ遷移が実行されます。 |
+| ByWord | `1` | 可能な限り単語単位でテキストを転送しながら、モーフ遷移が実行されます。 |
+| ByChar | `2` | 可能な限り文字単位でテキストを転送しながら、モーフ遷移が実行されます。 |
 
 ### 参照
 

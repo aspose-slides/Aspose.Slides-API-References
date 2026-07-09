@@ -1,9 +1,9 @@
 ---
 title: EffectType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Rappresenta il tipo di un effetto di animazione.
 type: docs
-weight: 340
+weight: 360
 url: /it/aspose.slides.animation/effecttype/
 ---
 ## EffectType enumerazione
@@ -21,7 +21,7 @@ public enum EffectType
 | Appear | `0` | Effetto Appear. Classe **Entrance** o **Exit**. |
 | CurveUpDown | `1` | Effetto CurveUpDown. Classe **Entrance** o **Exit**. |
 | Ascend | `2` | Effetto Ascend. Classe **Entrance** o **Exit**. |
-| FloatUp | `2` | Effetto Float con direzione Up. Questo è l'alias per il tipo Ascend. Classe **Entrance** o **Exit**. |
+| FloatUp | `2` | Effetto Float con direzione Su. Questo è l'alias per il tipo Ascend. Classe **Entrance** o **Exit**. |
 | Blast | `3` | Effetto Blast. Classe **Emphasis**. |
 | Blinds | `4` | Effetto Blinds. Classe **Entrance** o **Exit**. |
 | Blink | `5` | Effetto Blink. Classe **Emphasis**. |
@@ -54,7 +54,7 @@ public enum EffectType
 | Darken | `32` | Effetto Darken. Classe **Emphasis**. |
 | Desaturate | `33` | Effetto Desaturate. Classe **Emphasis**. |
 | Descend | `34` | Effetto Descend. Classe **Entrance** o **Exit**. |
-| FloatDown | `34` | Effetto Float con direzione Down. Questo è l'alias per il tipo Descend. Classe **Entrance** o **Exit**. |
+| FloatDown | `34` | Effetto Float con direzione Giù. Questo è l'alias per il tipo Descend. Classe **Entrance** o **Exit**. |
 | Diamond | `35` | Effetto Diamond. Classe **Entrance** o **Exit**. |
 | Dissolve | `36` | Effetto Dissolve. Classe **Entrance** o **Exit**. |
 | EaseInOut | `37` | Effetto Dissolve. Classe **Entrance** o **Exit**. |

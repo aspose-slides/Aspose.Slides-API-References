@@ -1,6 +1,6 @@
 ---
 title: ChartDataCell
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 차트 데이터에 대한 셀을 나타냅니다.
 type: docs
 weight: 1320
@@ -19,22 +19,22 @@ public class ChartDataCell : IChartDataCell
 | 이름 | 설명 |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | 워크시트를 가져옵니다. 읽기 전용 [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | 워크시트에서 셀이 위치한 열의 인덱스를 반환합니다. 읽기 전용 Int32. |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | 셀의 위치가 있는 워크시트 열의 인덱스를 반환합니다. 읽기 전용 Int32. |
 | [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | 숫자와 날짜의 사용자 지정 표시 형식을 가져오거나 설정합니다. 값이 비어 있으면 PresetNumberFormat 값을 사용합니다. 읽기/쓰기 String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | A1 스타일의 수식을 가져오거나 설정합니다. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | 셀의 숨김 여부를 결정합니다. 읽기 전용 Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 숫자와 날짜의 내장 표시 형식을 가져오거나 설정합니다. 사전 설정 번호는 [0..22] 또는 [37..49] 범위에 있어야 합니다. 읽기/쓰기 Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | 숫자와 날짜의 기본 제공 표시 형식을 가져오거나 설정합니다. 프리셋 번호는 [0..22] 또는 [37..49] 범위에 있어야 합니다. 읽기/쓰기 Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | R1C1 스타일의 수식을 가져오거나 설정합니다. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | 셀은 워크시트에서 위치한 행의 인덱스를 반환합니다. 읽기 전용 Int32. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | 셀의 위치가 있는 워크시트 행의 인덱스를 반환합니다. 읽기 전용 Int32. |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | 셀의 값을 가져오거나 설정합니다. 읽기/쓰기 Object. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | 셀이 수식을 포함하고 있는 경우 해당 수식을 기반으로 값이 업데이트됩니다. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | 셀에 수식이 포함된 경우, 해당 수식을 기반으로 값이 업데이트됩니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IChartDataCell](../ichartdatacell)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

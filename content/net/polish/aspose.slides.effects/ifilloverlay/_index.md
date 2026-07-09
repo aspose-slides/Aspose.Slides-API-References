@@ -1,14 +1,14 @@
 ---
 title: IFillOverlay
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje efekt Fill Overlay. Fill overlay może być użyty do określenia dodatkowego wypełnienia dla obiektu i połączenia obu wypełnień razem.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt wypełnienia nakładki. Nakładka wypełnienia może być użyta do określenia dodatkowego wypełnienia obiektu i połączenia obu wypełnień razem.
 type: docs
-weight: 3280
+weight: 3300
 url: /pl/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interfejs
 
-Reprezentuje efekt Fill Overlay. Fill overlay może być użyty do określenia dodatkowego wypełnienia dla obiektu i połączenia obu wypełnień razem.
+Reprezentuje efekt wypełnienia nakładki. Nakładka wypełnienia może być użyta do określenia dodatkowego wypełnienia obiektu i połączenia obu wypełnień razem.
 
 ```csharp
 public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>, 
@@ -19,10 +19,10 @@ public interface IFillOverlay : IAccessiblePVIObject<IFillOverlayEffectiveData>,
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Umożliwia pobranie bazowego interfejsu IAccessiblePVIObject. Tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Umożliwia pobranie bazowego interfejsu IImageTransformOperation. Tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
-| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. Odczyt/zapis [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format wypełnienia. Tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ifilloverlay/asiaccessiblepviobject) { get; } | Umożliwia pobranie podstawowego interfejsu IAccessiblePVIObject. tylko do odczytu [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ifilloverlay/asiimagetransformoperation) { get; } | Umożliwia pobranie podstawowego interfejsu IImageTransformOperation. tylko do odczytu [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Blend](../../aspose.slides.effects/ifilloverlay/blend) { get; set; } | FillBlendMode. odczyt/zapis [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/ifilloverlay/fillformat) { get; } | Format wypełnienia. tylko do odczytu [`IFillFormat`](../../aspose.slides/ifillformat). |
 
 ### Zobacz także
 

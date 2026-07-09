@@ -1,14 +1,14 @@
 ---
 title: GifOptions
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho các tùy chọn xuất GIF.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện các tùy chọn xuất GIF.
 type: docs
 weight: 3820
 url: /vi/aspose.slides.export/gifoptions/
 ---
 ## GifOptions lớp
 
-Đại diện cho các tùy chọn xuất GIF.
+Đại diện các tùy chọn xuất GIF.
 
 ```csharp
 public class GifOptions : SaveOptions, IGifOptions
@@ -16,27 +16,27 @@ public class GifOptions : SaveOptions, IGifOptions
 
 ## Các hàm khởi tạo
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [GifOptions](gifoptions)() | Khởi tạo một thể hiện mới của lớp GifOptions. |
 
 ## Thuộc tính
 
-| Name | Description |
+| Tên | Mô tả |
 | --- | --- |
 | [DefaultDelay](../../aspose.slides.export/gifoptions/defaultdelay) { get; set; } | Lấy hoặc đặt thời gian trễ mặc định [ms]. Giá trị này sẽ được sử dụng nếu [`AdvanceAfterTime`](../../aspose.slides/islideshowtransition/advanceaftertime) không được đặt. Giá trị mặc định là 1000. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Lấy hoặc đặt phông chữ được sử dụng khi không tìm thấy phông nguồn. Đọc-ghi String. |
-| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Xác định xem các slide ẩn có được xuất hay không. Giá trị mặc định là false. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Lấy hoặc đặt phông chữ được sử dụng khi không tìm thấy phông chữ nguồn. Đọc-ghi String. |
+| [ExportHiddenSlides](../../aspose.slides.export/gifoptions/exporthiddenslides) { get; set; } | Xác định liệu các slide ẩn có được xuất hay không. Giá trị mặc định là false. |
 | [FrameSize](../../aspose.slides.export/gifoptions/framesize) { get; set; } | Lấy hoặc đặt kích thước khung. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Lấy hoặc đặt kiểu hiển thị của gradient. Đọc/ghi [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho đối tượng callback để cập nhật tiến độ lưu dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Xác định có bỏ qua các siêu liên kết có lời gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
-| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Lấy hoặc đặt FPS chuyển tiếp [frames/sec]. Giá trị mặc định là 25. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Đại diện cho một đối tượng callback để lưu cập nhật tiến độ dưới dạng phần trăm. Xem [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Chỉ định liệu có bỏ qua các siêu liên kết có gọi JavaScript khi lưu bản trình chiếu hay không. Đọc/ghi Boolean. Giá trị mặc định là **false**. |
+| [TransitionFps](../../aspose.slides.export/gifoptions/transitionfps) { get; set; } | Lấy hoặc đặt FPS chuyển cảnh [frames/sec]. Giá trị mặc định là 25. |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Lấy hoặc đặt một đối tượng nhận cảnh báo và quyết định liệu quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Ví dụ
 
-Ví dụ sau cho thấy cách chuyển đổi bản trình chiếu thành GIF động bằng các cài đặt tùy chỉnh.
+Ví dụ sau đây cho thấy cách chuyển đổi bản trình chiếu sang GIF động bằng các cài đặt tùy chỉnh.
 
 ```csharp
 [C#]
@@ -44,8 +44,8 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     pres.Save("pres.gif", SaveFormat.Gif, new GifOptions
     {
-        FrameSize = new Size(960, 720), // kích thước của GIF được tạo
-        DefaultDelay = 2000, // thời gian hiển thị mỗi slide cho tới khi chuyển sang slide tiếp theo
+        FrameSize = new Size(960, 720), // kích thước của GIF đã tạo
+        DefaultDelay = 2000, // thời gian mỗi slide sẽ được hiển thị cho đến khi chuyển sang slide tiếp theo
         TransitionFps = 35 // tăng FPS để cải thiện chất lượng hoạt ảnh chuyển tiếp
     });
 }

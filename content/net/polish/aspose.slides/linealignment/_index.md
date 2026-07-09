@@ -1,12 +1,12 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET Dokumentacja API
 description: Reprezentuje typ wyrównania linii.
 type: docs
-weight: 7700
+weight: 7720
 url: /pl/aspose.slides/linealignment/
 ---
-## Wyliczenie LineAlignment
+## enumeracja LineAlignment
 
 Reprezentuje typ wyrównania linii.
 

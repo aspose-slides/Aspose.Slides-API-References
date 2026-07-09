@@ -3,10 +3,10 @@ title: AfterAnimationType
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di animazione successiva di un effetto di animazione.
 type: docs
-weight: 90
+weight: 110
 url: /it/aspose.slides.animation/afteranimationtype/
 ---
-## AfterAnimationType enumerazione
+## enumerazione AfterAnimationType
 
 Rappresenta il tipo di animazione successiva di un effetto di animazione.
 
@@ -18,10 +18,10 @@ public enum AfterAnimationType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| DoNotDim | `0` | Non attenua il tipo di animazione successiva. |
-| Color | `1` | Colore del tipo di animazione successiva. |
-| HideAfterAnimation | `2` | Nascondi il tipo di animazione successiva. |
-| HideOnNextMouseClick | `3` | Nascondi al prossimo clic del mouse del tipo di animazione successiva. |
+| DoNotDim | `0` | Non attenuare dopo il tipo di animazione. |
+| Color | `1` | Colore dopo il tipo di animazione. |
+| HideAfterAnimation | `2` | Nascondi dopo il tipo di animazione. |
+| HideOnNextMouseClick | `3` | Nascondi al prossimo clic del mouse dopo il tipo di animazione. |
 
 ### Vedi anche
 

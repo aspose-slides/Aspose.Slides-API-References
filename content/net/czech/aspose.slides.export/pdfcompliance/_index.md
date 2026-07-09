@@ -3,10 +3,10 @@ title: PdfCompliance
 second_title: Aspose.Sildes pro .NET API Reference
 description: Konstanty, které určují úroveň souladu s PDF standardy.
 type: docs
-weight: 4300
+weight: 4320
 url: /cs/aspose.slides.export/pdfcompliance/
 ---
-## Výčet PdfCompliance
+## PdfCompliance výčtový typ
 
 Konstanty, které určují úroveň souladu s PDF standardy.
 
@@ -18,17 +18,17 @@ public enum PdfCompliance
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Pdf15 | `0` | Výstupní soubor bude vyhovovat standardu PDF 1.5. |
-| Pdf16 | `1` | Výstupní soubor bude vyhovovat standardu PDF 1.6. |
-| Pdf17 | `2` | Výstupní soubor bude vyhovovat standardu PDF 1.7. |
-| PdfA1b | `3` | Výstupní soubor bude vyhovovat standardu PDF/A-1b. |
-| PdfA1a | `4` | Výstupní soubor bude vyhovovat standardu PDF/A-1a. |
-| PdfA2b | `5` | Výstupní soubor bude vyhovovat standardu PDF/A-2b. |
-| PdfA2a | `6` | Výstupní soubor bude vyhovovat standardu PDF/A-2a. |
-| PdfA3b | `7` | Výstupní soubor bude vyhovovat standardu PDF/A-3b. |
-| PdfA3a | `8` | Výstupní soubor bude vyhovovat standardu PDF/A-3a. |
-| PdfUa | `9` | Výstupní soubor bude vyhovovat standardu PDF/UA. |
-| PdfA2u | `10` | Výstupní soubor bude vyhovovat standardu PDF/A-2u. |
+| Pdf15 | `0` | Výstupní soubor bude odpovídat standardu PDF 1.5. |
+| Pdf16 | `1` | Výstupní soubor bude odpovídat standardu PDF 1.6. |
+| Pdf17 | `2` | Výstupní soubor bude odpovídat standardu PDF 1.7. |
+| PdfA1b | `3` | Výstupní soubor bude odpovídat standardu PDF/A-1b. |
+| PdfA1a | `4` | Výstupní soubor bude odpovídat standardu PDF/A-1a. |
+| PdfA2b | `5` | Výstupní soubor bude odpovídat standardu PDF/A-2b. |
+| PdfA2a | `6` | Výstupní soubor bude odpovídat standardu PDF/A-2a. |
+| PdfA3b | `7` | Výstupní soubor bude odpovídat standardu PDF/A-3b. |
+| PdfA3a | `8` | Výstupní soubor bude odpovídat standardu PDF/A-3a. |
+| PdfUa | `9` | Výstupní soubor bude odpovídat standardu PDF/UA. |
+| PdfA2u | `10` | Výstupní soubor bude odpovídat standardu PDF/A-2u. |
 
 ### Viz také
 

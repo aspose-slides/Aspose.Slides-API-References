@@ -14,33 +14,33 @@ Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
 public class MathParagraph : IMathParagraph
 ```
 
-## Constructoren
+## Constructors
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | Initialiseert een nieuw exemplaar van de MathParagraph klasse. |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Initialiseert een nieuw exemplaar van de MathParagraph klasse. |
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie aanwezig is. Alleen-lezen Int32. |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie is opgenomen. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Haalt het item op op de opgegeven index. Alleen-lezen [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Standaardwaarde: CenteredAsGroup |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Voegt IMathBlock toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Verwijdert alle elementen uit de collectie. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Bepaalt of de collectie een specifieke waarde bevat. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Bepaalt de index van een specifieke IMathBlock in de collectie. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Voegt IMathBlock in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Verwijdert het eerste voorkomen van een specifiek object uit de collectie. |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Verwijdert de eerste voorkomen van een specifiek object uit de collectie/>. |
 | [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Verwijdert een item op de opgegeven index van de collectie. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Haalt wiskundige vergelijking op in LaTeX-indeling |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Haalt wiskundige vergelijking op in LaTeX-formaat |
 | [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Slaat de inhoud van deze [`MathParagraph`](../mathparagraph) op als MathML |
 
 ### Voorbeelden

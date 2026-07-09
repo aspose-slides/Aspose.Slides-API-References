@@ -1,34 +1,34 @@
 ---
 title: IGlobalLayoutSlideCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: نمایانگر مجموعه‌ای از تمام اسلایدهای طرح در ارائه است. این رابط ILayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای طرح در زمینهٔ ادغام مجموعه‌های فردی اسلایدهای طرح مسترها گسترش می‌دهد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایانگر مجموعه‌ای از تمام اسلایدهای چیدمان در ارائه است. رابط ILayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای چیدمان در زمینه ترکیب مجموعه‌های جداگانه اسلایدهای چیدمان master گسترش می‌دهد.
 type: docs
 weight: 5990
 url: /fa/aspose.slides/igloballayoutslidecollection/
 ---
-## IGlobalLayoutSlideCollection رابط
+## رابط IGlobalLayoutSlideCollection
 
-نمایانگر مجموعه‌ای از تمام اسلایدهای طرح در ارائه است. این رابط ILayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای طرح در زمینهٔ ادغام مجموعه‌های فردی اسلایدهای طرح استاد گسترش می‌دهد.
+نمایانگر مجموعه‌ای از تمام اسلایدهای چیدمان در ارائه است. رابط ILayoutSlideCollection را با متدهایی برای افزودن/کلون کردن اسلایدهای چیدمان در زمینه ترکیب مجموعه‌های جداگانه اسلایدهای چیدمان استاد گسترش می‌دهد.
 
 ```csharp
 public interface IGlobalLayoutSlideCollection : ILayoutSlideCollection
 ```
 
-## ویژگی‌ها
+## خواص
 
 | نام | توضیح |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | یک رابط ILayoutSlideCollection را برمی‌گرداند. فقط-خواندنی [`ILayoutSlideCollection`](../ilayoutslidecollection). |
+| [AsILayoutSlideCollection](../../aspose.slides/igloballayoutslidecollection/asilayoutslidecollection) { get; } | برمی‌گرداند ILayoutSlideCollection رابط. فقط-خواندنی [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | یک اسلاید طرح جدید به ارائه اضافه می‌کند. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | یک نسخه از یک اسلاید طرح مشخص را به ارائه اضافه می‌کند. |
-| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | یک نسخه از یک اسلاید طرح مشخص را به ارائه اضافه می‌کند. |
+| [Add](../../aspose.slides/igloballayoutslidecollection/add)(IMasterSlide, SlideLayoutType, string) | یک اسلاید چیدمان جدید به ارائه اضافه می‌کند. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone)(ILayoutSlide) | یک نسخه از اسلاید چیدمان مشخص‌شده را به ارائه اضافه می‌کند. |
+| [AddClone](../../aspose.slides/igloballayoutslidecollection/addclone#addclone_1)(ILayoutSlide, IMasterSlide) | یک نسخه از اسلاید چیدمان مشخص‌شده را به ارائه اضافه می‌کند. |
 
-### موارد مرتبط
+### مراجع
 
 * رابط [ILayoutSlideCollection](../ilayoutslidecollection)
 * فضای‌نام [Aspose.Slides](../../aspose.slides)

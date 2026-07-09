@@ -1,12 +1,12 @@
 ---
 title: ChartShapeType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir grafik şekli temsil eder.
+description: Bir grafiğin şeklini temsil eder.
 type: docs
-weight: 1450
+weight: 1470
 url: /tr/aspose.slides.charts/chartshapetype/
 ---
-## ChartShapeType enum
+## ChartShapeType sayımı
 
 Bir grafik şekli temsil eder.
 
@@ -20,11 +20,11 @@ public enum ChartShapeType
 | --- | --- | --- |
 | NotDefined | `-1` | Grafik şekli tanımlanmamış. |
 | Box | `0` | Grafiğin kutu şekliyle çizileceğini belirtir. |
-| Cone | `1` | Grafiğin koni şeklinde çizileceğini, koninin tabanının zeminde ve koninin ucunun veri işaretçisinin üstünde olacağını belirtir. |
-| ConeToMax | `2` | Grafiğin koni ucunun en yüksek veri değeri olacağı şekilde kesikli konilerle çizileceğini belirtir. |
-| Cylinder | `3` | Grafiğin silindir şeklinde çizileceğini belirtir. |
-| Pyramid | `4` | Grafiğin dikdörtgen piramit şeklinde çizileceğini, piramidin tabanının zeminde ve piramidin ucunun veri işaretçisinin üstünde olacağını belirtir. |
-| PyramidToMaximum | `5` | Grafiğin koni ucunun en yüksek veri değeri olacağı şekilde kesikli konilerle çizileceğini belirtir. |
+| Cone | `1` | Grafiğin bir koni olarak çizileceğini, koninin tabanının zeminde ve koni ucunun veri işaretçisinin üstünde olacağını belirtir. |
+| ConeToMax | `2` | Grafiğin, koni ucunun en yüksek veri değerine denk gelecek şekilde kesik konilerle çizileceğini belirtir. |
+| Cylinder | `3` | Grafiğin bir silindir olarak çizileceğini belirtir. |
+| Pyramid | `4` | Grafiğin bir dikdörtgen piramit olarak çizileceğini, piramidin tabanının zeminde ve piramit ucunun veri işaretçisinin üstünde olacağını belirtir. |
+| PyramidToMaximum | `5` | Grafiğin, piramit ucunun en yüksek veri değerine denk gelecek şekilde kesik piramitlerle çizileceğini belirtir. |
 
 ### İlgili
 

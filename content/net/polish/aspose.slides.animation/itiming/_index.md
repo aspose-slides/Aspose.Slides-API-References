@@ -1,12 +1,12 @@
 ---
 title: ITiming
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Reprezentuje synchronizację animacji.
 type: docs
-weight: 620
+weight: 640
 url: /pl/aspose.slides.animation/itiming/
 ---
-## ITiming interfejs
+## interfejs ITiming
 
 Reprezentuje synchronizację animacji.
 
@@ -18,23 +18,23 @@ public interface ITiming
 
 | Nazwa | Opis |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Opisuje procent czasu trwania efektu przyspieszającego zachowanie. odczyt/zapis Single. |
-| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Opisuje, czy animacja ma być automatycznie odtwarzana w odwrotnym kierunku po odtworzeniu w kierunku do przodu. odczyt/zapis Boolean. |
-| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Opisuje procent czasu trwania efektu spowalniającego zachowanie. odczyt/zapis Single. |
-| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Opisuje czas trwania efektu animacji. odczyt/zapis Single. |
-| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Opisuje liczbę powtórzeń efektu. odczyt/zapis Single. |
-| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Opisuje liczbę powtórzeń efektu. odczyt/zapis Single. |
-| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Ten atrybut określa, czy efekt będzie powtarzany aż do końca slajdu. odczyt/zapis Boolean. |
-| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Ten atrybut określa, czy efekt będzie powtarzany do następnego kliknięcia. odczyt/zapis Boolean. |
-| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Określa, czy efekt ma zostać zrestartowany po zakończeniu. odczyt/zapis [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Ten atrybut określa, czy efekt zostanie przewinięty po zakończeniu odtwarzania. odczyt/zapis Boolean. |
-| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Określa procent, o jaki należy przyspieszyć (lub spowolnić) timing. odczyt/zapis Single. |
-| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Opisuje czas opóźnienia po wyzwalaczu. odczyt/zapis Single. |
-| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Opisuje typ wyzwalacza. odczyt/zapis [`EffectTriggerType`](../effecttriggertype). |
+| [Accelerate](../../aspose.slides.animation/itiming/accelerate) { get; set; } | Opisuje procent czasu trwania efektu przyspieszenia. Odczyt/zapis Single. |
+| [AutoReverse](../../aspose.slides.animation/itiming/autoreverse) { get; set; } | Opisuje, czy animację odtwarzać automatycznie w odwrotnej kolejności po odtworzeniu w kierunku normalnym. Odczyt/zapis Boolean. |
+| [Decelerate](../../aspose.slides.animation/itiming/decelerate) { get; set; } | Opisuje procent czasu trwania efektu zwolnienia. Odczyt/zapis Single. |
+| [Duration](../../aspose.slides.animation/itiming/duration) { get; set; } | Opisuje czas trwania efektu animacji. Odczyt/zapis Single. |
+| [RepeatCount](../../aspose.slides.animation/itiming/repeatcount) { get; set; } | Opisuje liczbę powtórzeń efektu. Odczyt/zapis Single. |
+| [RepeatDuration](../../aspose.slides.animation/itiming/repeatduration) { get; set; } | Opisuje liczbę powtórzeń efektu. Odczyt/zapis Single. |
+| [RepeatUntilEndSlide](../../aspose.slides.animation/itiming/repeatuntilendslide) { get; set; } | Ten atrybut określa, czy efekt będzie się powtarzał do końca slajdu. Odczyt/zapis Boolean. |
+| [RepeatUntilNextClick](../../aspose.slides.animation/itiming/repeatuntilnextclick) { get; set; } | Ten atrybut określa, czy efekt będzie się powtarzał do następnego kliknięcia. Odczyt/zapis Boolean. |
+| [Restart](../../aspose.slides.animation/itiming/restart) { get; set; } | Określa, czy efekt ma zostać uruchomiony ponownie po zakończeniu. Odczyt/zapis [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/itiming/rewind) { get; set; } | Ten atrybut określa, czy efekt zostanie przetoczony wstecz po zakończeniu odtwarzania. Odczyt/zapis Boolean. |
+| [Speed](../../aspose.slides.animation/itiming/speed) { get; set; } | Określa procent, o który należy przyspieszyć (lub spowolnić) synchronizację. Odczyt/zapis Single. |
+| [TriggerDelayTime](../../aspose.slides.animation/itiming/triggerdelaytime) { get; set; } | Opisuje czas opóźnienia po wyzwalaczu. Odczyt/zapis Single. |
+| [TriggerType](../../aspose.slides.animation/itiming/triggertype) { get; set; } | Opisuje typ wyzwalacza. Odczyt/zapis [`EffectTriggerType`](../effecttriggertype). |
 
-### Zobacz również
+### Zobacz także
 
 * przestrzeń nazw [Aspose.Slides.Animation](../../aspose.slides.animation)
-* zbiór [Aspose.Slides](../../)
+* zestaw [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

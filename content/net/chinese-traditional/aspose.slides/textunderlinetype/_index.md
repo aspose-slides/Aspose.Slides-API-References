@@ -1,6 +1,6 @@
 ---
 title: TextUnderlineType
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes 的 .NET API 參考
 description: 表示文字底線的類型。
 type: docs
 weight: 11010

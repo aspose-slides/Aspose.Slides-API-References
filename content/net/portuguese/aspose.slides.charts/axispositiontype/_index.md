@@ -1,9 +1,9 @@
 ---
 title: AxisPositionType
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Determina uma posição do eixo.
 type: docs
-weight: 1190
+weight: 1210
 url: /pt/aspose.slides.charts/axispositiontype/
 ---
 ## AxisPositionType enumeração
@@ -18,10 +18,10 @@ public enum AxisPositionType
 
 | Nome | Valor | Descrição |
 | --- | --- | --- |
-| Bottom | `0` | Especifica que o eixo deve ser exibido na parte inferior da área de plotagem. |
-| Left | `1` | Especifica que o eixo deve ser exibido à esquerda da área de plotagem. |
-| Right | `2` | Especifica que o eixo deve ser exibido à direita da área de plotagem. |
-| Top | `3` | Especifica que o eixo deve ser exibido na parte superior da área de plotagem. |
+| Bottom | `0` | Especifica que o eixo deve ser exibido na parte inferior da área do gráfico. |
+| Left | `1` | Especifica que o eixo deve ser exibido à esquerda da área do gráfico. |
+| Right | `2` | Especifica que o eixo deve ser exibido à direita da área do gráfico. |
+| Top | `3` | Especifica que o eixo deve ser exibido na parte superior da área do gráfico. |
 
 ### Veja Também
 

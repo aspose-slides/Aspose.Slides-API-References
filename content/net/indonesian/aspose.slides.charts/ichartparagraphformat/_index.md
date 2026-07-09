@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili properti pemformatan paragraf dari sebuah diagram.
+description: Mewakili properti pemformatan paragraf pada diagram.
 type: docs
-weight: 1880
+weight: 1900
 url: /id/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat antarmuka
 
-Mewakili properti pemformatan paragraf dari sebuah diagram.
+Mewakili properti pemformatan paragraf pada diagram.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -20,18 +20,18 @@ public interface IChartParagraphFormat
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Mengembalikan atau mengatur perataan teks dalam sebuah paragraf. Baca/tulis [`TextAlignment`](../../aspose.slides/textalignment). |
 | [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Mengembalikan atau mengatur ukuran tabulasi default. Baca/tulis Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Menentukan apakah pemutusan baris Asia Timur digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Menentukan apakah pemisah baris Asia Timur digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Mengembalikan atau mengatur perataan font dalam sebuah paragraf. Baca/tulis [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Menentukan apakah tanda baca gantung digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Mengembalikan atau mengatur Indent Baris Pertama/Indent Gantung paragraf. Indent Gantung dapat didefinisikan dengan nilai negatif. Baca/tulis Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Menentukan apakah pemutusan baris Latin digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Menentukan apakah tanda baca menggantung digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Mengembalikan atau mengatur Inden Baris Pertama/Inden Menggantung paragraf. Inden Menggantung dapat didefinisikan dengan nilai negatif. Baca/tulis Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Menentukan apakah pemisah baris Latin digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Mengembalikan atau mengatur margin kiri dalam sebuah paragraf. Baca/tulis Single. |
 | [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Mengembalikan atau mengatur margin kanan dalam sebuah paragraf. Baca/tulis Single. |
 | [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Menentukan apakah penulisan Dari Kanan ke Kiri digunakan dalam sebuah paragraf. Baca/tulis [`NullableBool`](../../aspose.slides/nullablebool). |
 | [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Mengembalikan atau mengatur jumlah ruang setelah baris terakhir dalam sebuah paragraf. Baca/tulis Single. |
 | [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Mengembalikan atau mengatur jumlah ruang sebelum baris pertama dalam sebuah paragraf. Baca/tulis Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Mengembalikan atau mengatur jumlah ruang antar baris dasar dalam sebuah paragraf. Baca/tulis Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Mengembalikan tabulasi sebuah paragraf. Baca-saja [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Mengembalikan atau mengatur jumlah ruang antara garis dasar dalam sebuah paragraf. Baca/tulis Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Mengembalikan tabulasi paragraf. Baca-saja [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Lihat Juga
 

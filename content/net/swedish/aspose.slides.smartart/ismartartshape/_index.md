@@ -3,7 +3,7 @@ title: ISmartArtShape
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en form i ett SmartArt-diagram
 type: docs
-weight: 10550
+weight: 10570
 url: /sv/aspose.slides.smartart/ismartartshape/
 ---
 ## ISmartArtShape gränssnitt
@@ -18,7 +18,7 @@ public interface ISmartArtShape : IGeometryShape
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Tillåter att hämta bas-IGeometryShape-gränssnittet. Skrivskyddad [`IGeometryShape`](../../aspose.slides/igeometryshape). |
+| [AsIGeometryShape](../../aspose.slides.smartart/ismartartshape/asigeometryshape) { get; } | Tillåter att hämta bas IGeometryShape-gränssnittet. Skrivskyddad [`IGeometryShape`](../../aspose.slides/igeometryshape). |
 | [TextFrame](../../aspose.slides.smartart/ismartartshape/textframe) { get; } | Returnerar texten för SmartArt-formen. Skrivskyddad [`ITextFrame`](../../aspose.slides/itextframe). |
 
 ### Se även

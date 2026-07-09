@@ -1,9 +1,9 @@
 ---
 title: IHtmlFormattingController
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Controla a geração de um arquivo html.
 type: docs
-weight: 3930
+weight: 3950
 url: /pt/aspose.slides.export/ihtmlformattingcontroller/
 ---
 ## IHtmlFormattingController interface
@@ -18,14 +18,14 @@ public interface IHtmlFormattingController
 
 | Nome | Descrição |
 | --- | --- |
-| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Chamado para escrever o rodapé do documento html. Chamado uma vez por conversão de apresentação. |
-| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Chamado para escrever o cabeçalho do documento html. Chamado uma vez por conversão de apresentação. |
-| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no generator, a geração da imagem do slide atual será finalizada, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
-| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no generator, a geração da imagem do slide atual será finalizada, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
-| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chamado para escrever o rodapé do slide html. Chamado uma vez para cada slide. |
-| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chamado para escrever o cabeçalho do slide html. Chamado uma vez para cada slide. |
+| [WriteDocumentEnd](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Chamado para gravar o rodapé do documento html. Chamado uma vez por conversão de apresentação. |
+| [WriteDocumentStart](../../aspose.slides.export/ihtmlformattingcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Chamado para gravar o cabeçalho do documento html. Chamado uma vez por conversão de apresentação. |
+| [WriteShapeEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeshapeend)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no gerador, a geração da imagem do slide atual será finalizada, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
+| [WriteShapeStart](../../aspose.slides.export/ihtmlformattingcontroller/writeshapestart)(IHtmlGenerator, IShape) | Chamado antes da renderização da shape. Chamado uma vez para cada shape. Se esta função escrever algo no gerador, a geração da imagem do slide atual será finalizada, o fragmento html adicionado será inserido e uma nova imagem será iniciada sobre a anterior. |
+| [WriteSlideEnd](../../aspose.slides.export/ihtmlformattingcontroller/writeslideend)(IHtmlGenerator, ISlide) | Chamado para gravar o rodapé do slide html. Chamado uma vez para cada slide. |
+| [WriteSlideStart](../../aspose.slides.export/ihtmlformattingcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Chamado para gravar o cabeçalho do slide html. Chamado uma vez para cada slide. |
 
-### Veja Também
+### Veja também
 
 * namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)

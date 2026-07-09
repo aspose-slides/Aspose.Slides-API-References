@@ -1,7 +1,7 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트 구성 요소를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트의 구성 요소를 나타냅니다.
 type: docs
 weight: 1790
 url: /ko/aspose.slides.charts/ichartcomponent/
@@ -16,12 +16,12 @@ public interface IChartComponent : ISlideComponent
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsISlideComponent](../../aspose.slides.charts/ichartcomponent/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 | [Chart](../../aspose.slides.charts/ichartcomponent/chart) { get; } | 차트를 반환합니다. 읽기 전용 [`IChart`](../ichart). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ISlideComponent](../../aspose.slides/islidecomponent)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

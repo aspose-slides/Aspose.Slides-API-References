@@ -1,51 +1,51 @@
 ---
 title: ChartData
-second_title: Aspose.Sildes for .NET API Reference
-description: 代表用于图表绘制的数据。
+second_title: Aspose.Sildes for .NET API 参考
+description: 表示用于图表绘制的数据。
 type: docs
-weight: 1230
+weight: 1310
 url: /zh/aspose.slides.charts/chartdata/
 ---
+## ChartData 类
 
-## ChartData class
-
-代表用于图表绘制的数据。
+表示用于图表绘制的数据。
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
 ```
 
-## Properties
+## 属性
 
 | Name | Description |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | 获取主要类别（如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 false，则获取主要类别和次要类别）。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | 获取创建图表系列或类别所用单元格的工厂。只读 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | 如果是外部数据源，则表示外部工作簿路径，否则为 null |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | 表示图表的数据源 |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | 如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 true，则获取次要类别。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | 获取系列。只读 [`IChartSeriesCollection`](../ichartseriescollection)。 |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | 获取系列组。只读 [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)。 |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | 如果为 false，则 [`SecondaryCategories`](./secondarycategories) 属性返回 null，并且 [`Categories`](./categories) 属性中的数据同时用于主要和次要系列。如果为 true，则 [`SecondaryCategories`](./secondarycategories) 属性中的数据用于次要系列，而 [`Categories`](./categories) 属性中的数据用于主要系列。可读写布尔值。 |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | 获取主要类别（如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 false，则获取主要和次要类别）。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | 获取用于创建图表系列或类别的单元格工厂。只读 [`IChartDataWorkbook`](../ichartdataworkbook)。 |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | 如果是外部数据源，则表示外部工作簿路径，否则为 null。 |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | 获取嵌入式工作簿的类型。如果 [`DataSourceType`](./datasourcetype) 为 ExternalWorkbook，则返回 NotDefined。只读 [`WorkbookType`](../workbooktype)。 |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | 表示图表的数据源。 |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | 如果 [`UseSecondaryCategories`](./usesecondarycategories) 属性为 true，则获取次要类别。只读 [`IChartCategoryCollection`](../ichartcategorycollection)。 |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | 获取系列。只读 [`IChartSeriesCollection`](../ichartseriescollection)。 |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | 获取系列的组。只读 [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection)。 |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | 如果为 false，则 [`SecondaryCategories`](./secondarycategories) 属性返回 null，且 [`Categories`](./categories) 属性中的数据同时用于主要和次要系列。如果为 true，则 [`SecondaryCategories`](./secondarycategories) 属性中的数据用于次要系列，[`Categories`](./categories) 属性中的数据用于主要系列。读写 Boolean。 |
 
-## Methods
+## 方法
 
 | Name | Description |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | 获取图表数据范围。 |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | 将内部包含的 Excel 工作簿写入内存流中。 |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | 将外部工作簿设置为图表的数据源。图表数据将从目标工作簿更新。 |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 将外部工作簿设置为图表的数据源。 |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | 设置图表数据范围。系列和类别将根据新的数据范围更新。如果数据范围中的系列数量大于图表数据中的系列数量，则将以当前集合中最后一系列的类型添加额外的系列到集合的末尾。 |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | 在轴上交换数据。图表中位于 X 轴的数据将移至 Y 轴，反之亦然。 |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | 用用户指定的值初始化内部包含的 Excel 工作簿。 |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | 将内部包含的 Excel 工作簿写入内存流。 |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | 将外部工作簿设为图表的数据源。图表数据将从目标工作簿更新。 |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | 将外部工作簿设为图表的数据源。 |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | 设置图表数据范围。系列和类别将根据新的数据范围进行更新。如果数据范围中的系列数量大于图表数据中的系列计数，则会在集合末尾添加与当前集合中最后一个系列相同类型的附加系列。 |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | 交换轴上的数据。绘制在 X 轴上的数据将移动到 Y 轴，反之亦然。 |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | 使用用户指定的值初始化内部包含的 Excel 工作簿。 |
 
-### See Also
+### 另请参见
 
-* class [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* class [Chart](../chart)
-* interface [IChartData](../ichartdata)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* 类 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* 类 [Chart](../chart)
+* 接口 [IChartData](../ichartdata)
+* 命名空间 [Aspose.Slides.Charts](../../aspose.slides.charts)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

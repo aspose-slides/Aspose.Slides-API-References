@@ -1,14 +1,14 @@
 ---
 title: TextFrame
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes for .NET APIリファレンス
 description: TextFrame を表します。
 type: docs
-weight: 10930
+weight: 10950
 url: /ja/aspose.slides/textframe/
 ---
 ## TextFrame クラス
 
-TextFrame を表します。
+Represents a TextFrame.
 
 ```csharp
 public sealed class TextFrame : ITextFrame
@@ -24,20 +24,20 @@ public sealed class TextFrame : ITextFrame
 | [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 親シェイプを返します。親オブジェクトが IShape インターフェイスを実装していない場合は null を返します。読み取り専用 [`IShape`](../ishape)。 |
 | [Presentation](../../aspose.slides/textframe/presentation) { get; } | TextFrame の親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../ipresentation)。 |
 | [Slide](../../aspose.slides/textframe/slide) { get; } | TextFrame の親スライドを返します。読み取り専用 [`IBaseSlide`](../ibaseslide)。 |
-| [Text](../../aspose.slides/textframe/text) { get; set; } | TextFrame のプレーンテキストを取得または設定します。読み書き可能 String. |
+| [Text](../../aspose.slides/textframe/text) { get; set; } | TextFrame のプレーンテキストを取得または設定します。読み書き String。 |
 | [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | この TextFrame オブジェクトの書式設定オブジェクトを返します。読み取り専用 [`ITextFrameFormat`](../itextframeformat)。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 指定された色で正規表現のすべての一致をハイライトします。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 指定された色でサンプルテキストのすべての一致をハイライトします。 |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 指定された色でサンプルテキストのすべての一致をハイライトします。 |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 正規表現のすべての一致箇所を指定された色でハイライトします。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | サンプルテキストのすべての一致箇所を指定された色でハイライトします。 |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | サンプルテキストのすべての一致箇所を指定された色でハイライトします。 |
 | [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | すべての段落で同じ書式のランを結合します。 |
-| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 正規表現のすべての一致を指定された文字列に置き換えます。 |
-| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 指定されたテキストのすべての出現を別の指定されたテキストに置き換えます。 |
-| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | [`ITextFrame`](../itextframe)のテキストコンテンツを文字列の配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。 |
+| [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 正規表現のすべての一致箇所を指定された文字列に置換します。 |
+| [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 指定されたテキストのすべての出現箇所を別の指定されたテキストに置換します。 |
+| [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | [`ITextFrame`](../itextframe) のテキストコンテンツを文字列配列に分割し、各要素はフレーム内の別々のテキスト列に対応します。 |
 
 ### 参照
 

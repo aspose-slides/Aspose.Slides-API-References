@@ -1,14 +1,14 @@
 ---
 title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een gewijzigde OLE Automation-typebibliotheekreferentie voor waarin alle besturingselementen als uitbreidbaar zijn gemarkeerd.
+description: Stelt een gewijzigde OLE Automation-typelib-referentie voor waarin alle besturingselementen als uitbreidbaar zijn gemarkeerd.
 type: docs
 weight: 11600
 url: /nl/aspose.slides.vba/ivbareferenceoletwiddledtypelib/
 ---
 ## IVbaReferenceOleTwiddledTypeLib interface
 
-Stelt een gewijzigde OLE Automation-typebibliotheekreferentie voor waarin alle besturingselementen als uitbreidbaar zijn gemarkeerd.
+Stelt een gewijzigde OLE Automation-typelib-referentie voor waarin alle besturingselementen als uitbreidbaar zijn gemarkeerd.
 
 ```csharp
 public interface IVbaReferenceOleTwiddledTypeLib : IVbaReference

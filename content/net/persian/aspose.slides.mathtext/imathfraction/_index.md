@@ -1,14 +1,14 @@
 ---
 title: IMathFraction
-second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء کسر را که شامل صورت و مخرج است و توسط یک خط کسری از هم جدا شده‌اند، مشخص می‌کند. خط کسری می‌تواند افقی یا قطری باشد بسته به ویژگی‌های کسر. همچنین از شیء کسر برای نمایش تابع پشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد بدون خط کسری.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: شیء کسر را تعریف می‌کند که شامل صورت و مخرج است و توسط یک نوار کسر از هم جدا شده‌اند. نوار کسر می‌تواند افقی یا قطری باشد بسته به ویژگی‌های کسر. همچنین این شیء کسر برای نمایش تابع stack استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد بدون نوار کسر.
 type: docs
 weight: 8250
 url: /fa/aspose.slides.mathtext/imathfraction/
 ---
 ## IMathFraction رابط
 
-شیء کسر را تعریف می‌کند که شامل صورت و مخرج است که توسط یک خط کسری از هم جدا شده‌اند. خط کسری می‌تواند افقی یا قطر باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نمایش تابع پشته استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد و خط کسری ندارد.
+شیء کسر را تعریف می‌کند که شامل صورت و مخرج است که توسط یک نوار کسر از هم جدا شده‌اند. نوار کسر می‌تواند افقی یا قطری باشد، بسته به ویژگی‌های کسر. شیء کسر همچنین برای نشان دادن تابع stack استفاده می‌شود که یک عنصر را بالای عنصر دیگر قرار می‌دهد، بدون نوار کسر.
 
 ```csharp
 public interface IMathFraction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFraction : IMathElement
 
 | نام | توضیح |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | امکان دریافت رابط پایه IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfraction/asimathelement) { get; } | دسترسی برای دریافت رابط پایه IMathElement [`IMathElement`](../imathelement) |
 | [Denominator](../../aspose.slides.mathtext/imathfraction/denominator) { get; } | مخرج |
-| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | نوع کسری پیش‌فرض: Bar |
+| [FractionType](../../aspose.slides.mathtext/imathfraction/fractiontype) { get; set; } | نوع کسر پیش‌فرض: Bar |
 | [Numerator](../../aspose.slides.mathtext/imathfraction/numerator) { get; } | صورت |
 
 ### مثال‌ها
@@ -33,7 +33,7 @@ IMathFraction mathFraction = new MathematicalText("x").Divide("y");
 IMathFraction mathFraction2 = new MathFraction(new MathematicalText("x"), new MathematicalText("y"), MathFractionTypes.Linear);
 ```
 
-### موارد مرتبط
+### همچنین ببینید
 
 * رابط [IMathElement](../imathelement)
 * فضای‌نام [Aspose.Slides.MathText](../../aspose.slides.mathtext)

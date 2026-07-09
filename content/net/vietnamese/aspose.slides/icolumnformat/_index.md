@@ -1,7 +1,7 @@
 ---
 title: IColumnFormat
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện định dạng của một cột bảng.
+second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
+description: Biểu diễn định dạng của một cột bảng.
 type: docs
 weight: 5540
 url: /vi/aspose.slides/icolumnformat/
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Lấy các thuộc tính định dạng cột bảng có hiệu lực với kế thừa và kiểu bảng được áp dụng. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Lấy các thuộc tính định dạng cột bảng hiệu lực với kế thừa và các kiểu bảng đã áp dụng. |
 
 ### Xem thêm
 

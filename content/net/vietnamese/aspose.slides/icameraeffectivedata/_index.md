@@ -1,12 +1,12 @@
 ---
 title: ICameraEffectiveData
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đối tượng bất biến chứa các thuộc tính máy ảnh hiệu quả.
 type: docs
 weight: 5420
 url: /vi/aspose.slides/icameraeffectivedata/
 ---
-## ICameraEffectiveData interface
+## ICameraEffectiveData giao diện
 
 Đối tượng bất biến chứa các thuộc tính máy ảnh hiệu quả.
 
@@ -18,15 +18,15 @@ public interface ICameraEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Kiểu máy ảnh. Chỉ đọc [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Camera FOV (0-180 độ, trường nhìn). Chỉ đọc Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom máy ảnh (giá trị dương dưới dạng phần trăm). Chỉ đọc Single. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | Loại camera. Chỉ đọc [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | Camera FOV (0-180 độ, field of View). Chỉ đọc Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | Zoom camera (giá trị dương tính theo phần trăm). Chỉ đọc Single. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Một phép quay được xác định bằng cách sử dụng tọa độ vĩ độ, tọa độ kinh độ và một vòng quay quanh trục theo các tọa độ vĩ độ và kinh độ. phần tử đầu tiên trong mảng trả về - vĩ độ, phần tử thứ hai - kinh độ, phần tử thứ ba - vòng quay. Trả về null nếu không có phép quay nào được định nghĩa. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | Quay được xác định bằng cách sử dụng tọa độ vĩ độ, tọa độ kinh độ và một vòng quay quanh trục như các tọa độ vĩ độ và kinh độ. phần tử đầu tiên trong mảng trả về - vĩ độ, phần tử thứ hai - kinh độ, phần tử thứ ba - vòng quay. Trả về null nếu không có quay nào được định nghĩa. |
 
 ### Ghi chú
 

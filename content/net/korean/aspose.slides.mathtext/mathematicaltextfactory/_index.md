@@ -1,6 +1,6 @@
 ---
 title: MathematicalTextFactory
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: MathematicalText 요소를 생성할 수 있습니다
 type: docs
 weight: 9070
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.mathtext/mathematicaltextfactory/
 ---
 ## MathematicalTextFactory 클래스
 
-MathematicalText 요소를 만들 수 있습니다
+MathematicalText 요소를 생성할 수 있습니다
 
 ```csharp
 public class MathematicalTextFactory : IMathematicalTextFactory
@@ -18,7 +18,7 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 
 | 이름 | 설명 |
 | --- | --- |
-| [MathematicalTextFactory](mathematicaltextfactory)() | 기본 생성자입니다. |
+| [MathematicalTextFactory](mathematicaltextfactory)() | 기본 생성자 |
 
 ## 메서드
 
@@ -27,13 +27,13 @@ public class MathematicalTextFactory : IMathematicalTextFactory
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | 빈 MathematicalText 요소를 생성합니다 |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | 지정된 값으로 MathematicalText 요소를 생성합니다 |
 | [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | 지정된 값으로 빈 MathematicalText 요소를 생성합니다 |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 지정된 값과 IPortionFormat 서식 속성을 사용하여 빈 MathematicalText 요소를 생성합니다 |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | 지정된 값과 서식 속성을 사용하여 빈 MathematicalText 요소를 생성합니다 |
 
 ### 비고
 
 COM 호환성을 위해
 
-### 참고
+### 참조
 
 * 인터페이스 [IMathematicalTextFactory](../imathematicaltextfactory)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

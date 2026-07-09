@@ -1,14 +1,14 @@
 ---
 title: SmartArtNodeCollection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงถึงคอลเลกชันของโหนด SmartArt.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: เป็นตัวแทนของชุดโหนด SmartArt.
 type: docs
 weight: 10640
 url: /th/aspose.slides.smartart/smartartnodecollection/
 ---
 ## SmartArtNodeCollection คลาส
 
-แสดงถึงคอลเลกชันของโหนด SmartArt
+แทนชุดของโหนด SmartArt
 
 ```csharp
 public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
@@ -18,19 +18,19 @@ public sealed class SmartArtNodeCollection : ISmartArtNodeCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | คืนค่าจำนวนโหนดในคอลเลกชัน อ่านอย่างเดียว Int32 อ่านอย่างเดียว Int32. |
-| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | คืนค่าที่บ่งบอกว่าการเข้าถึงคอลเลกชันถูกซิงโครไนซ์ (ปลอดภัยต่อเธรด) อ่านอย่างเดียว Boolean. |
+| [Count](../../aspose.slides.smartart/smartartnodecollection/count) { get; } | คืนค่าจำนวนโหนดในชุด อ่านอย่างเดียว Int32 อ่านอย่างเดียว Int32. |
+| [IsSynchronized](../../aspose.slides.smartart/smartartnodecollection/issynchronized) { get; } | คืนค่าที่ระบุว่าการเข้าถึงชุดได้รับการซิงโครไนซ์ (ปลอดภัยต่อเธรด). อ่านอย่างเดียว Boolean. |
 | [Item](../../aspose.slides.smartart/smartartnodecollection/item) { get; } | คืนค่าโหนดตามดัชนี |
-| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | คืนค่ารากของการซิงโครไนซ์ อ่านอย่างเดียว Object. |
+| [SyncRoot](../../aspose.slides.smartart/smartartnodecollection/syncroot) { get; } | คืนค่ารากการซิงโครไนซ์ อ่านอย่างเดียว Object. |
 
 ## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AddNode](../../aspose.slides.smartart/smartartnodecollection/addnode)() | เพิ่มโหนด SmartArt ใหม่หรือโหนดย่อย |
-| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | เพิ่มโหนดใหม่ในตำแหน่งที่เลือกของคอลเลกชันโหนด |
-| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากคอลเลกชันไปยังอาร์เรย์ที่ระบุ |
-| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | คืนค่าตัววนซ้ำที่วนผ่านคอลเลกชัน |
+| [AddNodeByPosition](../../aspose.slides.smartart/smartartnodecollection/addnodebyposition)(int) | เพิ่มโหนดใหม่ในตำแหน่งที่เลือกของชุดโหนด |
+| [CopyTo](../../aspose.slides.smartart/smartartnodecollection/copyto)(Array, int) | คัดลอกองค์ประกอบทั้งหมดจากชุดไปยังอาเรย์ที่ระบุ |
+| [GetEnumerator](../../aspose.slides.smartart/smartartnodecollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านชุด |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode_1)(int) | ลบโหนดหรือโหนดย่อยตามดัชนี |
 | [RemoveNode](../../aspose.slides.smartart/smartartnodecollection/removenode#removenode)(ISmartArtNode) | ลบโหนดหรือโหนดย่อย |
 

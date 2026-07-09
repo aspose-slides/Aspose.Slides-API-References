@@ -1,14 +1,14 @@
 ---
 title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 이 클래스는 문단 서식 속성을 포함합니다. IParagraphFormatEffectiveData./iparagraphformateffectivedata와 달리 이 클래스의 모든 속성은 쓰기 가능합니다.
+description: 이 클래스는 단락 서식 속성을 포함합니다. IParagraphFormatEffectiveData./iparagraphformateffectivedata와 달리 이 클래스의 모든 속성은 쓰기 가능합니다.
 type: docs
 weight: 9310
 url: /ko/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat 클래스
 
-이 클래스는 문단 서식 속성을 포함합니다. [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)와 달리, 이 클래스의 모든 속성은 쓸 수 있습니다.
+이 클래스는 단락 서식 속성을 포함합니다. [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata)와 달리, 이 클래스의 모든 속성은 쓰기 가능합니다.
 
 ```csharp
 public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
@@ -18,43 +18,43 @@ public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagra
 
 | 이름 | 설명 |
 | --- | --- |
-| [ParagraphFormat](paragraphformat)() | 새로운 [`ParagraphFormat`](../paragraphformat) 클래스의 인스턴스를 초기화합니다. |
+| [ParagraphFormat](paragraphformat)() | [`ParagraphFormat`](../paragraphformat) 클래스를 새로운 인스턴스로 초기화합니다. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 문단에서 상속 없이 텍스트 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`TextAlignment`](../textalignment). |
+| [Alignment](../../aspose.slides/paragraphformat/alignment) { get; set; } | 단락에 상속 없이 텍스트 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`TextAlignment`](../textalignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultTabSize](../../aspose.slides/paragraphformat/defaulttabsize) { get; set; } | 상속 없이 기본 탭 크기를 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 문단에서 동아시아 줄바꿈을 사용할지 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 문단에서 상속 없이 글꼴 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 문단에서 걸쳐 쓰는 구두점을 사용할지 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 상속 없이 문단의 첫 줄 들여쓰기/걸쳐 들여쓰기를 반환하거나 설정합니다. 걸쳐 들여쓰기는 음수 값으로 정의할 수 있습니다. 읽기/쓰기 Single. |
-| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 문단에서 라틴 줄바꿈을 사용할지 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 상속 없이 문단의 왼쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 상속 없이 문단의 오른쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 문단에서 오른쪽에서 왼쪽으로 쓰기를 사용할지 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
-| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 상속 없이 문단의 마지막 줄 뒤 여백 양을 반환하거나 설정합니다. 양수 값은 여백이 글꼴 크기의 백분율임을 나타내고, 음수 값은 여백이 포인트 크기임을 나타냅니다. 읽기/쓰기 Single. |
-| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 상속 없이 문단의 첫 줄 앞 여백 양을 반환하거나 설정합니다. 양수 값은 여백이 글꼴 크기의 백분율임을 나타내고, 음수 값은 여백이 포인트 크기임을 나타냅니다. 읽기/쓰기 Single. |
-| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 문단 내 기본 줄 사이의 여백 양을 반환하거나 설정합니다. 양수 값은 백분율을 의미하고, 음수 값은 포인트 단위 크기를 의미합니다. 상속이 적용되지 않습니다. 읽기/쓰기 Single. |
-| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 문단의 탭 설정을 반환합니다. 상속이 적용되지 않습니다. 읽기 전용 [`ITabCollection`](../itabcollection). |
+| [EastAsianLineBreak](../../aspose.slides/paragraphformat/eastasianlinebreak) { get; set; } | 단락에서 동아시아 줄 바꿈 사용 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [FontAlignment](../../aspose.slides/paragraphformat/fontalignment) { get; set; } | 단락에서 상속 없이 글꼴 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/paragraphformat/hangingpunctuation) { get; set; } | 단락에서 매달린 구두점 사용 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [Indent](../../aspose.slides/paragraphformat/indent) { get; set; } | 상속 없이 단락의 첫 줄 들여쓰기/매달린 들여쓰기를 반환하거나 설정합니다. 매달린 들여쓰기는 음수 값으로 정의할 수 있습니다. 읽기/쓰기 Single. |
+| [LatinLineBreak](../../aspose.slides/paragraphformat/latinlinebreak) { get; set; } | 단락에서 라틴 줄 바꿈 사용 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [MarginLeft](../../aspose.slides/paragraphformat/marginleft) { get; set; } | 상속 없이 단락의 왼쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [MarginRight](../../aspose.slides/paragraphformat/marginright) { get; set; } | 상속 없이 단락의 오른쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
+| [RightToLeft](../../aspose.slides/paragraphformat/righttoleft) { get; set; } | 단락에서 오른쪽에서 왼쪽으로 쓰기 사용 여부를 결정합니다. 상속이 적용되지 않습니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [SpaceAfter](../../aspose.slides/paragraphformat/spaceafter) { get; set; } | 상속없이 단락의 마지막 줄 뒤 공백 양을 반환하거나 설정합니다. 양수 값은 공백이 차지할 글꼴 크기의 백분율을 지정하고, 음수 값은 포인트 크기로 공백 크기를 지정합니다. 읽기/쓰기 Single. |
+| [SpaceBefore](../../aspose.slides/paragraphformat/spacebefore) { get; set; } | 상속 없이 단락의 첫 줄 앞 공백 양을 반환하거나 설정합니다. 양수 값은 공백이 차지할 글꼴 크기의 백분율을 지정하고, 음수 값은 포인트 크기로 공백 크기를 지정합니다. 읽기/쓰기 Single. |
+| [SpaceWithin](../../aspose.slides/paragraphformat/spacewithin) { get; set; } | 단락의 기준선 사이 공백 양을 반환하거나 설정합니다. 양수 값은 백분율을 의미하고, 음수 값은 포인트 단위 크기를 의미합니다. 상속이 적용되지 않습니다. 읽기/쓰기 Single. |
+| [Tabs](../../aspose.slides/paragraphformat/tabs) { get; } | 단락의 탭을 반환합니다. 상속이 적용되지 않습니다. 읽기 전용 [`ITabCollection`](../itabcollection). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 지정된 객체와 비교합니다. |
-| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 상속이 적용된 실제 문단 서식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/paragraphformat/geteffective)() | 상속이 적용된 실제 단락 서식 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
 ### 비고
 
-이 클래스는 특정 문단에 대해 정의된 문단 서식 속성을 반환하고 조작하는 데 사용됩니다. 이는 값들을 가져올 때 상속이 적용되지 않으므로 대부분의 경우 “정의되지 않음”을 의미하는 값을 얻게 됩니다.
+이 클래스는 특정 단락에 정의된 단락 서식 속성을 반환하고 조작하는 데 사용됩니다. 이는 값을 가져올 때 상속이 적용되지 않으며, 대부분의 경우 "정의되지 않음" 값을 얻게 됨을 의미합니다.
 
-상속된 값을 포함한 실제 서식 매개변수 값을 가져오려면 [`GetEffective`](./geteffective) 메서드를 사용해야 하며, 이 메서드는 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 인스턴스를 반환합니다.
+상속을 포함한 실제 서식 매개변수 값을 가져오려면 [`GetEffective`](./geteffective) 메서드를 사용해야 하며, 이 메서드는 [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata) 인스턴스를 반환합니다.
 
-## 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IChartParagraphFormat](../../aspose.slides.charts/ichartparagraphformat)

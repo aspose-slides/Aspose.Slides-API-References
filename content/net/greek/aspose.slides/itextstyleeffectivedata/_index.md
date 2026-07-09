@@ -1,14 +1,14 @@
 ---
 title: ITextStyleEffectiveData
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του στυλ κειμένου.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες στυλ κειμένου.
 type: docs
-weight: 7300
+weight: 7320
 url: /el/aspose.slides/itextstyleeffectivedata/
 ---
 ## ITextStyleEffectiveData διεπαφή
 
-Αμετάβλητο αντικείμενο που περιέχει τις αποτελεσματικές ιδιότητες του στυλ κειμένου.
+Αμετάβλητο αντικείμενο που περιέχει τις ιδιότητες του αποτελεσματικού στυλ κειμένου.
 
 ```csharp
 public interface ITextStyleEffectiveData
@@ -28,7 +28,7 @@ public interface ITextStyleEffectiveData
 
 ### Παρατηρήσεις
 
-Αυτή η διεπαφή χρησιμοποιείται μαζί με το [`ITextStyle`](../itextstyle) διεπαφή για την επιστροφή των αποτελεσματικών τιμών μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
+Αυτή η διεπαφή χρησιμοποιείται μαζί με τη διεπαφή [`ITextStyle`](../itextstyle) για να επιστρέψει τις αποτελεσματικές τιμές μορφοποίησης με εφαρμοσμένη κληρονομικότητα.
 
 ### Δείτε επίσης
 

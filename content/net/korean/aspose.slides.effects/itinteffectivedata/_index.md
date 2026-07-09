@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: Tint 효과를 나타내는 불변 객체입니다. 지정된 양만큼 색조를 향하거나 멀어지게 효과 색상 값을 이동시킵니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: Tint 효과를 나타내는 불변 객체입니다. 지정된 양만큼 색조를 향하거나 멀어지도록 효과 색상 값을 이동시킵니다.
 type: docs
 weight: 3550
 url: /ko/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData 인터페이스
 
-Tint 효과를 나타내는 불변 객체입니다. 지정된 양만큼 색조를 향하거나 멀어지게 색상 값을 이동시킵니다.
+Tint 효과를 나타내는 불변 객체입니다. 지정된 양만큼 색조를 향하거나 멀어지도록 효과 색상 값을 이동시킵니다.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -22,7 +22,7 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | 기본 IEffectEffectiveData 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | 색조를 반환합니다. 읽기 전용 Single. |
 
-### 관련 항목
+### 참조
 
 * 인터페이스 [IEffectEffectiveData](../ieffecteffectivedata)
 * 네임스페이스 [Aspose.Slides.Effects](../../aspose.slides.effects)

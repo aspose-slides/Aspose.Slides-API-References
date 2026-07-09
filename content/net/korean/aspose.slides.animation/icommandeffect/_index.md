@@ -20,10 +20,10 @@ public interface ICommandEffect : IBehavior
 | --- | --- |
 | [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | 기본 IBehavior 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IBehavior`](../ibehavior). |
 | [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | 명령 문자열을 정의합니다. 읽기/쓰기 String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | 명령 효과의 도형 대상을 정의합니다. 읽기/쓰기 [`IShape`](../../aspose.slides/ishape). |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | 명령 효과의 모양 대상을 정의합니다. 읽기/쓰기 [`IShape`](../../aspose.slides/ishape). |
 | [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | 동작의 명령 효과 유형을 정의합니다. 읽기/쓰기 [`CommandEffectType`](../commandeffecttype). |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IBehavior](../ibehavior)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes for .NET API 참조
-description: 차트의 문단 서식 속성을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 차트의 단락 서식 속성을 나타냅니다.
 type: docs
 weight: 1900
 url: /ko/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat 인터페이스
 
-차트의 문단 서식 속성을 나타냅니다.
+차트의 단락 서식 속성을 나타냅니다.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,22 +18,22 @@ public interface IChartParagraphFormat
 
 | 이름 | 설명 |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 문단의 텍스트 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 기본 탭 크기를 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 문단에서 동아시아 줄바꿈을 사용할지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 문단에서 글꼴 정렬을 반환하거나 설정합니다. 읽기/쓰기 [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 문단에서 걸려있는 구두점을 사용할지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 문단의 첫 줄 들여쓰기/걸려있는 들여쓰기를 반환하거나 설정합니다. 걸려있는 들여쓰기는 음수 값으로 정의될 수 있습니다. 읽기/쓰기 Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 문단에서 라틴 줄바꿈을 사용할지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 문단의 왼쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 문단의 오른쪽 여백을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 문단에서 오른쪽에서 왼쪽으로 쓰기가 사용되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 문단에서 마지막 줄 뒤의 공간량을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 문단에서 첫 번째 줄 앞의 공간량을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 문단에서 기준선들 사이의 공간량을 반환하거나 설정합니다. 읽기/쓰기 Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 문단의 탭을 반환합니다. 읽기 전용 [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | 단락에서 텍스트 정렬을 가져오거나 설정합니다. 읽기/쓰기 [`TextAlignment`](../../aspose.slides/textalignment). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | 기본 탭 크기를 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | 단락에서 동아시아 줄 바꿈 사용 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | 단락에서 글꼴 정렬을 가져오거나 설정합니다. 읽기/쓰기 [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | 단락에서 행잉 구두점 사용 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | 단락의 첫 줄 들여쓰기/행잉 들여쓰기를 가져오거나 설정합니다. 행잉 들여쓰기는 음수 값으로 정의할 수 있습니다. 읽기/쓰기 Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | 단락에서 라틴 줄 바꿈 사용 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | 단락의 왼쪽 여백을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | 단락의 오른쪽 여백을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | 단락에서 오른쪽에서 왼쪽으로 쓰기 사용 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | 단락에서 마지막 줄 뒤의 공간 양을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | 단락에서 첫 번째 줄 앞의 공간 양을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | 단락에서 기본 줄 사이의 공간 양을 가져오거나 설정합니다. 읽기/쓰기 Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | 단락의 탭을 가져옵니다. 읽기 전용 [`ITabCollection`](../../aspose.slides/itabcollection). |
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

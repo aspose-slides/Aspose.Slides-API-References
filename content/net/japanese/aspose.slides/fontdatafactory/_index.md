@@ -3,7 +3,7 @@ title: FontDataFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: FontData ファクトリ
 type: docs
-weight: 4810
+weight: 4830
 url: /ja/aspose.slides/fontdatafactory/
 ---
 ## FontDataFactory クラス
@@ -16,13 +16,13 @@ public class FontDataFactory : IFontDataFactory
 
 ## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [FontDataFactory](fontdatafactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [CreateFontData](../../aspose.slides/fontdatafactory/createfontdata)(string) | 指定されたフォント名で FontData を作成します。 |
 

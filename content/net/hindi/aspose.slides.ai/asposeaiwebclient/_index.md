@@ -1,40 +1,40 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक अंतर्निहित IAIWebClient./iaiwebclient कार्यान्वयन जो Asposes के अपने LLM से जुड़ता है। यह डिफ़ॉल्ट क्लाइंट है जिसे पैरामीटरलेस SlidesAIAgent./slidesaiagent/slidesaiagent कंस्ट्रक्टर द्वारा उपयोग किया जाता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: एक अंतर्निहित IAIWebClient./iaiwebclient कार्यान्वयन जो Asposes के अपने LLM से जुड़ता है। यह बिना पैरामीटर के SlidesAIAgent./slidesaiagent/slidesaiagent कंस्ट्रक्टर द्वारा उपयोग किया जाने वाला डिफ़ॉल्ट क्लाइंट है।
 type: docs
 weight: 10
 url: /hi/aspose.slides.ai/asposeaiwebclient/
 ---
 ## AsposeAIWebClient क्लास
 
-एक अंतर्निहित [`IAIWebClient`](../iaiwebclient) कार्यान्वयन जो Aspose के अपने LLM से जुड़ता है। यह डिफ़ॉल्ट क्लाइंट है जिसे पैरामीटरलेस [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा उपयोग किया जाता है।
+एक अंतर्निहित [`IAIWebClient`](../iaiwebclient) कार्यान्वयन जो Aspose के अपने LLM से जुड़ता है। यह वह डिफ़ॉल्ट क्लाइंट है जो बिना पैरामीटर के [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा उपयोग किया जाता है।
 
 ```csharp
 public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
 ```
 
-## निर्माता
+## कंस्ट्रक्टर
 
 | नाम | विवरण |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ने वाला Aspose AI वेब क्लाइंट का एक इंस्टेंस बनाता है। यह क्लाइंट पैरामीटरलेस [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा उपयोग किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तब आवश्यक है जब क्लाइंट को सीधे [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर को पास किया जाए। |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | एक बाहरी प्रबंधित HttpClient का उपयोग करके डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ने वाला Aspose AI वेब क्लाइंट का इंस्टेंस बनाता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के स्वामित्व में रहता है। |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | एक कस्टम एंडपॉइंट URL से जुड़ने वाला Aspose AI वेब क्लाइंट का इंस्टेंस बनाता है। यह ओवरलोड तब उपयोग करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो; अन्यथा, डिफ़ॉल्ट URL के साथ [`AsposeAIWebClient`](./asposeaiwebclient) ओवरलोड का उपयोग करें। |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | एक बाहरी प्रबंधित HttpClient का उपयोग करके कस्टम एंडपॉइंट URL से जुड़ने वाला Aspose AI वेब क्लाइंट का इंस्टेंस बनाता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के स्वामित्व में रहता है। यह ओवरलोड तब उपयोग करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो और आप अपना स्वयं का HttpClient प्रदान करना चाहते हैं; यदि आपको केवल डिफ़ॉल्ट URL के साथ अपना HttpClient चाहिए, तो [`AsposeAIWebClient`](./asposeaiwebclient) ओवरलोड का उपयोग करें। |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | Aspose AI वेब क्लाइंट की एक नई इंस्टेंस बनाता है जो डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ता है। यह वह क्लाइंट है जो बिना पैरामीटर के [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा उपयोग किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तब आवश्यक है जब क्लाइंट को सीधे [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) कंस्ट्रक्टर को पास किया जाए। |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | Aspose AI वेब क्लाइंट की एक नई इंस्टेंस बनाता है जो डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ता है और बाहरी रूप से प्रबंधित HttpClient का उपयोग करता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के स्वामित्व में रहता है। |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | Aspose AI वेब क्लाइंट की एक नई इंस्टेंस बनाता है जो कस्टम एंडपॉइंट URL से जुड़ता है। इस ओवरलोड का उपयोग तब करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो; अन्यथा, डिफ़ॉल्ट URL के साथ [`AsposeAIWebClient`](./asposeaiwebclient) ओवरलोड का उपयोग करें। |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | Aspose AI वेब क्लाइंट की एक नई इंस्टेंस बनाता है जो कस्टम एंडपॉइंट URL से जुड़ता है और बाहरी रूप से प्रबंधित HttpClient का उपयोग करता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा डिस्पोज़ नहीं किया जाता और कॉलर के स्वामित्व में रहता है। इस ओवरलोड का उपयोग तब करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो और आप अपना स्वयं का HttpClient प्रदान करना चाहते हैं; यदि आपको केवल अपने स्वयं के HttpClient की आवश्यकता है डिफ़ॉल्ट URL के साथ, तो इसके बजाय [`AsposeAIWebClient`](./asposeaiwebclient) ओवरलोड का उपयोग करें। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है। |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | एक वार्तालाप इंस्टेंस बनाता है। सामान्य AI कॉल्स के विपरीत, वार्तालाप पूरे संदर्भ को बनाए रखते हैं। |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | AI मॉडल को चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है। |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | एक वार्तालाप इंस्टेंस बनाता है। नियमित AI कॉल्स के विपरीत, वार्तालाप पूरी संदर्भ को बरकरार रखते हैं। |
 | [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | इस इंस्टेंस द्वारा उपयोग किए गए संसाधनों को मुक्त करता है। |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IAIWebClient](../iaiwebclient)
-* नामस्थान [Aspose.Slides.AI](../../aspose.slides.ai)
-* एसेंब्ली [Aspose.Slides](../../)
+* नेमस्पेस [Aspose.Slides.AI](../../aspose.slides.ai)
+* असेंब्ली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

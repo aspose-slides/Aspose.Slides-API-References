@@ -1,14 +1,14 @@
 ---
 title: IMorphTransition
 second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Efekt przejścia slajdu w stylu falowania.
+description: Efekt przejścia slajdu w formie fali.
 type: docs
-weight: 10110
+weight: 10130
 url: /pl/aspose.slides.slideshow/imorphtransition/
 ---
-## interfejs IMorphTransition
+## IMorphTransition interfejs
 
-Efekt przejścia slajdu w stylu falowania.
+Efekt przejścia slajdu w formie fali.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase

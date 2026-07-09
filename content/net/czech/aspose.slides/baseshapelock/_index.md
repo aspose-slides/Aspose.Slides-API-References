@@ -1,14 +1,14 @@
 ---
 title: BaseShapeLock
 second_title: Aspose.Sildes pro .NET API Reference
-description: Representuje základní třídu pro zakázané operace zámků.
+description: Representuje základní třídu pro zakázané zamykání.
 type: docs
-weight: 960
+weight: 980
 url: /cs/aspose.slides/baseshapelock/
 ---
 ## BaseShapeLock třída
 
-Reprezentuje základní třídu pro zámky (zakázaná operace).
+Reprezentuje základní třídu pro lock-flags (zakázaná operace).
 
 ```csharp
 public class BaseShapeLock : IBaseShapeLock
@@ -18,7 +18,7 @@ public class BaseShapeLock : IBaseShapeLock
 
 | Název | Popis |
 | --- | --- |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrátí true, pokud jsou všechna lock-flags zakázána. Pouze pro čtení Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrátí true, pokud jsou všechny lock-flags zakázány. Pouze pro čtení Boolean. |
 
 ### Viz také
 

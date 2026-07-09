@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert een Hue/Saturation/Luminance effect. De hue, saturatie en luminantie kunnen elk worden aangepast ten opzichte van hun huidige waarde.
+second_title: Aspose.Sildes for .NET API-referentie
+description: Stelt een Hue/Saturation/Luminance-effect voor. De hue, saturation en luminance kunnen elk worden aangepast ten opzichte van hun huidige waarde.
 type: docs
 weight: 3360
 url: /nl/aspose.slides.effects/ihsl/
 ---
 ## IHSL interface
 
-Stelt een Hue/Saturation/Luminance effect voor. De hue, saturatie en luminantie kunnen elk worden aangepast ten opzichte van hun huidige waarde.
+Stelt een Hue/Saturation/Luminance-effect voor. Hue, saturation en luminance kunnen elk worden aangepast ten opzichte van hun huidige waarde.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation

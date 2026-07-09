@@ -1,14 +1,14 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: एक Presentation Slide या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों को दर्शाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: Presentation Slide या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 7300
 url: /hi/aspose.slides/itextsearchoptions/
 ---
 ## ITextSearchOptions इंटरफ़ेस
 
-प्रेज़ेंटेशन, स्लाइड या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
+एक Presentation, Slide या TextFrame में टेक्स्ट खोजने के लिए उपयोग किए जा सकने वाले विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface ITextSearchOptions
@@ -18,11 +18,11 @@ public interface ITextSearchOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | सही सेट करें ताकि केस-संवेदनशील खोज का उपयोग किया जाए, अन्यथा गलत। पढ़ें/लिखें Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | स्लाइड नोट्स में मौजूद पाठ को टेक्स्ट खोज, प्रतिस्थापन, या हाइलाइटिंग संचालन के दौरान शामिल करने के लिए `true` सेट करें। डिफ़ॉल्ट मान `false` है। |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | सही सेट करें ताकि केवल संपूर्ण शब्दों से मेल हो, अन्यथा गलत। पढ़ें/लिखें Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | केस-सेंसिटिव खोज का उपयोग करने के लिए true सेट करें, अन्यथा false। पढ़ने/लिखने योग्य Boolean। |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true` सेट करें ताकि स्लाइड नोट्स में मौजूद टेक्स्ट को टेक्स्ट खोज, प्रतिस्थापन या हाइलाइटिंग ऑपरेशनों के दौरान शामिल किया जाए। डिफ़ॉल्ट मान `false` है। |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | केवल पूर्ण शब्दों से मेल करने के लिए true सेट करें, अन्यथा false। पढ़ने/लिखने योग्य Boolean। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

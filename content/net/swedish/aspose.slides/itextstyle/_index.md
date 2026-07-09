@@ -3,12 +3,12 @@ title: ITextStyle
 second_title: Aspose.Sildes för .NET API-referens
 description: Egenskaper för textstilsformatering.
 type: docs
-weight: 7290
+weight: 7310
 url: /sv/aspose.slides/itextstyle/
 ---
 ## ITextStyle gränssnitt
 
-Textstilsformateringsegenskaper.
+Egenskaper för textstilsformatering.
 
 ```csharp
 public interface ITextStyle
@@ -24,10 +24,10 @@ public interface ITextStyle
 
 | Namn | Beskrivning |
 | --- | --- |
-| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Hämtar effektiv textstilformateringsdata med ärvning tillämpad. |
+| [GetEffective](../../aspose.slides/itextstyle/geteffective)() | Hämtar effektiva textstilsformateringsdata med arv tillämpat. |
 | [GetLevel](../../aspose.slides/itextstyle/getlevel)(int) | Om stilnivå finns returneras den, annars returneras null. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides](../../aspose.slides)
 * samling [Aspose.Slides](../../)

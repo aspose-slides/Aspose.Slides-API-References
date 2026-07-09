@@ -1,36 +1,36 @@
 ---
 title: IOuterShadow
 second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایانگر یک اثر سایه خارجی است.
+description: نمایانگر یک افکت سایهٔ بیرونی.
 type: docs
 weight: 3460
 url: /fa/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow رابط
 
-نمایانگر یک اثر سایه خارجی است.
+نمایانگر افکت سایهٔ بیرونی.
 
 ```csharp
 public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>, 
     IImageTransformOperation
 ```
 
-## ویژگی‌ها
+## خواص
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | اجازه می‌دهد رابط IAccessiblePVIObject پایه را دریافت کنید. فقط خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | اجازه می‌دهد رابط IImageTransformOperation پایه را دریافت کنید. فقط خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
-| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | شعاع تاری، به نقاط. مقدار پیش‌فرض – 0 pt. قابل خواندن و نوشتن Double. |
-| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | جهت سایه، به درجه. مقدار پیش‌فرض – 0 ° (چپ به راست). قابل خواندن و نوشتن Single. |
-| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | فاصله سایه از شی، به نقاط. مقدار پیش‌فرض – 0 pt. قابل خواندن و نوشتن Double. |
-| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | تراز مستطیل. مقدار پیش‌فرض – Bottom. قابل خواندن و نوشتن [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | نشان می‌دهد آیا سایه همراه با شکل می‌چرخد یا خیر. مقدار پیش‌فرض – true. قابل خواندن و نوشتن Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | عامل مقیاس افقی، به درصد اندازه اصلی. مقیاس منفی باعث وارون شدن می‌شود. مقدار پیش‌فرض – 100 %. قابل خواندن و نوشتن Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | عامل مقیاس عمودی، به درصد اندازه اصلی. مقیاس منفی باعث وارون شدن می‌شود. مقدار پیش‌فرض – 100 %. قابل خواندن و نوشتن Double. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ioutershadow/asiaccessiblepviobject) { get; } | دسترسی برای دریافت رابط پایه IAccessiblePVIObject را فراهم می‌کند. فقط خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ioutershadow/asiimagetransformoperation) { get; } | دسترسی برای دریافت رابط پایه IImageTransformOperation را فراهم می‌کند. فقط خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
+| [BlurRadius](../../aspose.slides.effects/ioutershadow/blurradius) { get; set; } | شعاع تاری، به نقطه‌ها. مقدار پیش‌فرض – 0 pt. خواندنی/نوشتنی Double. |
+| [Direction](../../aspose.slides.effects/ioutershadow/direction) { get; set; } | جهت سایه، به درجه. مقدار پیش‌فرض – 0 ° (چپ به راست). خواندنی/نوشتنی Single. |
+| [Distance](../../aspose.slides.effects/ioutershadow/distance) { get; set; } | فاصله سایه از شیء، به نقطه‌ها. مقدار پیش‌فرض – 0 pt. خواندنی/نوشتنی Double. |
+| [RectangleAlign](../../aspose.slides.effects/ioutershadow/rectanglealign) { get; set; } | ترازبندی مستطیل. مقدار پیش‌فرض – Bottom. خواندنی/نوشتنی [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/ioutershadow/rotateshadowwithshape) { get; set; } | نشان می‌دهد آیا سایه همراه شکل می‌چرخد یا نه. مقدار پیش‌فرض – true. خواندنی/نوشتنی Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadow/scalehorizontal) { get; set; } | عامل مقیاس افقی، به درصد اندازهٔ اصلی. مقیاس منفی منجر به وارون شدن می‌شود. مقدار پیش‌فرض – 100 %. خواندنی/نوشتنی Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadow/scalevertical) { get; set; } | عامل مقیاس عمودی، به درصد اندازهٔ اصلی. مقیاس منفی منجر به وارون شدن می‌شود. مقدار پیش‌فرض – 100 %. خواندنی/نوشتنی Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadow/shadowcolor) { get; } | رنگ سایه. مقدار پیش‌فرض – سیاه خودکار (وابسته به تم). فقط خواندنی [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | زاویه انحراف افقی، به درجه. مقدار پیش‌فرض – 0 °. قابل خواندن و نوشتن Double. |
-| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | زاویه انحراف عمودی، به درجه. مقدار پیش‌فرض – 0 °. قابل خواندن و نوشتن Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ioutershadow/skewhorizontal) { get; set; } | زاویهٔ اسکویی افقی، به درجه. مقدار پیش‌فرض – 0 °. خواندنی/نوشتنی Double. |
+| [SkewVertical](../../aspose.slides.effects/ioutershadow/skewvertical) { get; set; } | زاویهٔ اسکویی عمودی، به درجه. مقدار پیش‌فرض – 0 °. خواندنی/نوشتنی Double. |
 
 ### موارد مرتبط
 
@@ -38,6 +38,6 @@ public interface IOuterShadow : IAccessiblePVIObject<IOuterShadowEffectiveData>,
 * رابط [IOuterShadowEffectiveData](../ioutershadoweffectivedata)
 * رابط [IImageTransformOperation](../iimagetransformoperation)
 * فضای‌نام [Aspose.Slides.Effects](../../aspose.slides.effects)
-* اسمبلی [Aspose.Slides](../../)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

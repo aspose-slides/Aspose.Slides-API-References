@@ -1,14 +1,14 @@
 ---
 title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes for .NET API 參考
-description: 主講義投影片管理員。
+description: 母版講義投影片管理員。
 type: docs
 weight: 6370
 url: /zh-hant/aspose.slides/imasterhandoutslidemanager/
 ---
 ## IMasterHandoutSlideManager 介面
 
-主講義投影片管理員。
+母版講義投影片管理員。
 
 ```csharp
 public interface IMasterHandoutSlideManager
@@ -18,16 +18,16 @@ public interface IMasterHandoutSlideManager
 
 | 名稱 | 說明 |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果此簡報有主備註投影片，則返回所有備註投影片的主投影片，否則返回 null。唯讀 [`IMasterHandoutSlide`](../imasterhandoutslide)。 |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | 如果此簡報有母版，則傳回此簡報所有註解投影片的母版，否則傳回 null。 唯讀 [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | 移除主講義投影片。 |
-| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 將預設的主講義投影片設定為相關的講義投影片。 |
+| [RemoveMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide)() | 移除母版講義投影片。 |
+| [SetDefaultMasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide)() | 將預設母版講義投影片設定為相關的講義投影片。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

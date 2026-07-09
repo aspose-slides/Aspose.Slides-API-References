@@ -1,14 +1,20 @@
 ---
 title: SlidesAIAgent
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Konstruktor SlidesAIAgent
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Menginisialisasi instance baru dari SlidesAIAgentaspose.slides.ai/slidesaiagent dengan klien AI khusus. Gunakan overload ini untuk menentukan penyedia AI, menyediakan LLM Anda sendiri, atau menyesuaikan koneksi, misalnya dengan menyediakan HttpClient Anda sendiri. Setiap implementasi dari IAIWebClientaspose.slides.ai/iaiwebclient dapat digunakan termasuk
 type: docs
 weight: 10
 url: /id/aspose.slides.ai/slidesaiagent/slidesaiagent/
 ---
-## SlidesAIAgent konstruktor
+## SlidesAIAgent(IAIWebClient) {#constructor_1}
 
-SlidesAIAgent konstruktor
+Menginisialisasi instance baru dari [`SlidesAIAgent`](../../slidesaiagent) dengan klien AI khusus. Gunakan overload ini untuk menentukan penyedia AI, menyediakan LLM Anda sendiri, atau menyesuaikan koneksi (misalnya, dengan menyediakan `HttpClient` Anda sendiri). Setiap implementasi dari [`IAIWebClient`](../../iaiwebclient) dapat digunakan, termasuk:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
+
+Untuk menggunakan [`AsposeAIWebClient`](../../asposeaiwebclient) bawaan dengan konfigurasi default-nya, gunakan overload [`SlidesAIAgent`](../slidesaiagent) sebagai gantinya.
 
 ```csharp
 public SlidesAIAgent(IAIWebClient aiClient)
@@ -16,17 +22,33 @@ public SlidesAIAgent(IAIWebClient aiClient)
 
 | Parameter | Tipe | Deskripsi |
 | --- | --- | --- |
-| aiClient | IAIWebClient |  |
+| aiClient | IAIWebClient | Instansi klien AI. Setiap implementasi dari [`IAIWebClient`](../../iaiwebclient) dapat digunakan. |
 
 ### Pengecualian
 
 | pengecualian | kondisi |
 | --- | --- |
-| ArgumentNullException | Instansi klien AI tidak disediakan |
+| ArgumentNullException | Instansi klien AI tidak diberikan. |
 
 ### Lihat Juga
 
 * antarmuka [IAIWebClient](../../iaiwebclient)
+* kelas [SlidesAIAgent](../../slidesaiagent)
+* ruang nama [Aspose.Slides.AI](../../slidesaiagent)
+* rakitan [Aspose.Slides](../../../)
+
+---
+
+## SlidesAIAgent() {#constructor}
+
+Menginisialisasi instance baru dari [`SlidesAIAgent`](../../slidesaiagent) dengan menggunakan [`AsposeAIWebClient`](../../asposeaiwebclient) bawaan dengan konfigurasi default-nya. Klien terhubung ke LLM milik Aspose sendiri dan tidak memerlukan konfigurasi tambahan. Untuk menggunakan klien AI yang berbeda, gunakan overload [`SlidesAIAgent`](../slidesaiagent) sebagai gantinya.
+
+```csharp
+public SlidesAIAgent()
+```
+
+### Lihat Juga
+
 * kelas [SlidesAIAgent](../../slidesaiagent)
 * ruang nama [Aspose.Slides.AI](../../slidesaiagent)
 * rakitan [Aspose.Slides](../../../)

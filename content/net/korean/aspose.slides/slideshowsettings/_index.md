@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes for .NET API 참조
-description: 프레젠테이션의 슬라이드 쇼 설정을 나타냅니다.
+description: 프레젠테이션에 대한 슬라이드 쇼 설정을 나타냅니다.
 type: docs
 weight: 10480
 url: /ko/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings 클래스
 
-프레젠테이션의 슬라이드 쇼 설정을 나타냅니다.
+프레젠테이션에 대한 슬라이드 쇼 설정을 나타냅니다.
 
 ```csharp
 public class SlideShowSettings
@@ -24,10 +24,10 @@ public class SlideShowSettings
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | 미디어 컨트롤 표시 |
 | [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | 슬라이드 쇼에서 내레이션 표시 |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | 슬라이드 범위 |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 슬라이드 쇼 유형을 가져오거나 설정합니다. 다음 [`SlideShowType`](./slideshowtype) 조상에 의해 표시됩니다: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) 및 [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | 슬라이드 쇼 유형을 가져오거나 설정합니다. 다음 [`SlideShowType`](./slideshowtype) 선조에 의해 표시됩니다: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) 및 [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | 슬라이드 쇼에서 타이밍 사용 |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

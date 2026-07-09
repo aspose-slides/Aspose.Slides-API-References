@@ -3,7 +3,7 @@ title: IColumnFormat
 second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta il formato di una colonna di tabella.
 type: docs
-weight: 5520
+weight: 5540
 url: /it/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat interfaccia
@@ -18,7 +18,7 @@ public interface IColumnFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Ottiene le proprietà di formattazione effettive della colonna della tabella con ereditarietà e stili di tabella applicati. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Restituisce le proprietà di formattazione effettive della colonna della tabella con ereditarietà e stili di tabella applicati. |
 
 ### Vedi anche
 

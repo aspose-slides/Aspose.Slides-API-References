@@ -1,6 +1,6 @@
 ---
 title: LineJoinStyle
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 선 결합 스타일을 나타냅니다.
 type: docs
 weight: 7800
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle 열거형
 
-선 결합 스타일을 나타냅니다.
+LineJoinStyle은 선 결합 스타일을 나타냅니다.
 
 ```csharp
 public enum LineJoinStyle : sbyte

@@ -1,9 +1,9 @@
 ---
 title: XpsOptions
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para Referência de API .NET
 description: Fornece opções que controlam como uma apresentação é salva no formato XPS.
 type: docs
-weight: 4710
+weight: 4730
 url: /pt/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions classe
@@ -24,14 +24,14 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 | Nome | Descrição |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Obtém ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura e gravação String. |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | Verdadeiro para desenhar uma moldura preta ao redor de cada slide. Leitura e gravação Boolean. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Obtém ou define o estilo visual do gradiente. Leitura e gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Retorna ou define a fonte usada caso a fonte de origem não seja encontrada. Leitura e gravação String. |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True para desenhar uma moldura preta ao redor de cada slide. Leitura e gravação Boolean. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Retorna ou define o estilo visual do gradiente. Leitura e gravação [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representa um objeto de retorno de chamada para atualizações de progresso de salvamento em porcentagem. Veja [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | Verdadeiro para converter todos os metafiles usados em uma apresentação em imagens PNG. Leitura e gravação Boolean. |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True para converter todos os metarquivos usados em uma apresentação para imagens PNG. Leitura e gravação Boolean. |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | Especifica se o documento gerado deve incluir slides ocultos ou não. O padrão é `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve ignorar hiperlinks com chamadas JavaScript ao salvar a apresentação. Leitura e gravação Boolean. O valor padrão é **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Obtém ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura e gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Especifica se deve ignorar hyperlinks com chamadas JavaScript ao salvar a apresentação. Leitura e gravação Boolean. O valor padrão é **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Retorna ou define um objeto que recebe avisos e decide se o processo de carregamento continuará ou será abortado. Leitura e gravação [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exemplos
 
@@ -42,8 +42,8 @@ O exemplo a seguir mostra como converter apresentações para XPS usando as conf
 // Instanciar um objeto Presentation que representa um arquivo de apresentação
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
-    // Salvando a apresentação em um documento XPS
-    pres.Save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
+    // Salvando a apresentação em documento XPS
+    pres.Save("XPS_Output_Without_XPSOption_out.xls", SaveFormat.Xps);
 }
 ```
 

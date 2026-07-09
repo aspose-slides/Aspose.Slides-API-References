@@ -1,14 +1,12 @@
 ---
 title: LineFormatCollection
-second_title: Aspose.Sildes .NET API hivatkozás
+second_title: Aspose.Sildes .NET API referencia
 description: A vonalstílusok gyűjteményét képviseli.
 type: docs
-weight: 11400
+weight: 11420
 url: /hu/aspose.slides.theme/lineformatcollection/
 ---
 ## LineFormatCollection osztály
-
-A vonalstílusok gyűjteményét képviseli.
 
 ```csharp
 public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatCollection
@@ -18,16 +16,16 @@ public sealed class LineFormatCollection : DomObject<FormatScheme>, ILineFormatC
 
 | Név | Leírás |
 | --- | --- |
-| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Lekéri a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
-| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált (szálbiztos). Csak olvasható Boolean. |
+| [Count](../../aspose.slides.theme/lineformatcollection/count) { get; } | Visszaadja a gyűjteményben ténylegesen tárolt elemek számát. Csak olvasható Int32. |
+| [IsSynchronized](../../aspose.slides.theme/lineformatcollection/issynchronized) { get; } | Visszaad egy értéket, amely jelzi, hogy a gyűjteményhez való hozzáférés szinkronizált-e (szálbiztos). Csak olvasható Boolean. |
 | [Item](../../aspose.slides.theme/lineformatcollection/item) { get; } | Lekéri a megadott indexű elemet. Csak olvasható [`ILineFormat`](../../aspose.slides/ilineformat). |
-| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökér objektumot. Csak olvasható Object. |
+| [SyncRoot](../../aspose.slides.theme/lineformatcollection/syncroot) { get; } | Visszaad egy szinkronizációs gyökérpontot. Csak olvasható Object. |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | A gyűjtemény összes elemét átmásolja a megadott tömbbe. |
+| [CopyTo](../../aspose.slides.theme/lineformatcollection/copyto)(Array, int) | Átmásolja a gyűjtemény összes elemét a megadott tömbbe. |
 | [GetEnumerator](../../aspose.slides.theme/lineformatcollection/getenumerator)() | Visszaad egy enumerátort, amely végigiterál a gyűjteményen. |
 
 ### Lásd még

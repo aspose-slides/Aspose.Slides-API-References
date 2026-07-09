@@ -1,14 +1,14 @@
 ---
 title: IDataLabelFormat
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: DataLabel के लिए स्वरूपण विकल्पों का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: DataLabel के फ़ॉर्मेटिंग विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 2040
 url: /hi/aspose.slides.charts/idatalabelformat/
 ---
 ## IDataLabelFormat इंटरफ़ेस
 
-DataLabel के लिए स्वरूपण विकल्पों का प्रतिनिधित्व करता है।
+DataLabel के फ़ॉर्मेटिंग विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public interface IDataLabelFormat : IFormattedTextContainer
@@ -16,25 +16,25 @@ public interface IDataLabelFormat : IFormattedTextContainer
 
 ## गुण
 
-| नाम | विवरण |
+| नाम | वर्णन |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer)। |
-| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | डेटा लेबल के प्रारूप का प्रतिनिधित्व करता है। केवल-पढ़ने योग्य [`IFormat`](../iformat)। |
-| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | पढ़ने/लिखने योग्य बूलियन। |
-| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | DataLabels ऑब्जेक्ट के लिए फ़ॉर्मेट स्ट्रिंग का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
-| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | डेटा लेबल की स्थिति का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`LegendDataLabelPosition`](../legenddatalabelposition)। |
-| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | एक वैरिएंट को सेट या लौटाता है जो चार्ट पर डेटा लेबल के लिए उपयोग किए जाने वाले विभाजक का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य स्ट्रिंग। |
-| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल बबल आकार मूल्य प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True बबल आकार मूल्य दिखाता है। False छिपाता है। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल वर्ग नाम प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True डेटा लेबल पर वर्ग नाम दिखाने के लिए। False छिपाने के लिए। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | निर्धारित करता है कि एक निर्दिष्ट चार्ट का डेटा लेबल डेटा कॉलआउट के रूप में या डेटा लेबल के रूप में प्रदर्शित होगा। यदि इस DataLabelFormat ऑब्जेक्ट का पैरेंट DataLabelCollection डेटा लेबल संग्रह है तो यह प्रॉपर्टी नए डेटा लेबल्स के लिए ShowLabelAsDataCallout प्रॉपर्टी का डिफ़ॉल्ट मान प्राप्त या सेट करती है। इस प्रॉपर्टी को मान के साथ सेट करने से सभी डेटा लेबल्स के ShowLabelAsDataCallout प्रॉपर्टी को वही मान सेट हो जाता है (उदा. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" कारण सभी DataLabels[i].ShowLabelAsDataCallout का मान val हो जाता है)। |
-| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल सेल मूल्य प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True सेल मूल्य दिखाता है। False छिपाता है। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल लीडर लाइन्स प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True लीडर लाइन्स दिखाता है। False छिपाता है। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल लेजेंड कुंजी प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। यदि डेटा लेबल लेजेंड कुंजी दृश्यमान है तो True। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल प्रतिशत मूल्य प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True प्रतिशत मूल्य दिखाता है। False छिपाता है। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | एक बूलियन लौटाता या सेट करता है जो चार्ट पर डेटा लेबल के लिए श्रृंखला नाम प्रदर्शन व्यवहार दर्शाता है। श्रृंखला नाम दिखाने के लिए True। छिपाने के लिए False। पढ़ने/लिखने योग्य बूलियन। |
-| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | एक निर्दिष्ट चार्ट के डेटा लेबल प्रतिशत मूल्य प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True प्रतिशत मूल्य दिखाता है। False छिपाता है। पढ़ने/लिखने योग्य बूलियन। |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/idatalabelformat/asiformattedtextcontainer) { get; } | बेस IFormattedTextContainer इंटरफ़ेस को प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [Format](../../aspose.slides.charts/idatalabelformat/format) { get; } | डेटा लेबल के फ़ॉर्मेट का प्रतिनिधित्व करता है। केवल-पढ़ने योग्य [`IFormat`](../iformat). |
+| [IsNumberFormatLinkedToSource](../../aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource) { get; set; } | पढ़ने/लिखने योग्य Boolean. |
+| [NumberFormat](../../aspose.slides.charts/idatalabelformat/numberformat) { get; set; } | DataLabels ऑब्जेक्ट के लिए फ़ॉर्मेट स्ट्रिंग का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य String. |
+| [Position](../../aspose.slides.charts/idatalabelformat/position) { get; set; } | डेटा लेबल की स्थिति का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`LegendDataLabelPosition`](../legenddatalabelposition). |
+| [Separator](../../aspose.slides.charts/idatalabelformat/separator) { get; set; } | एक Variant सेट या लौटाता है जो चार्ट पर डेटा लेबलों के लिए प्रयुक्त विभाजक को दर्शाता है। पढ़ने/लिखने योग्य String. |
+| [ShowBubbleSize](../../aspose.slides.charts/idatalabelformat/showbubblesize) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल बबल आकार मान प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True बबल आकार मान प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowCategoryName](../../aspose.slides.charts/idatalabelformat/showcategoryname) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल श्रेणी नाम प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True चार्ट पर डेटा लेबलों के लिए श्रेणी नाम प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowLabelAsDataCallout](../../aspose.slides.charts/idatalabelformat/showlabelasdatacallout) { get; set; } | निर्धारित करता है कि निर्दिष्ट चार्ट का डेटा लेबल डेटा कॉलआउट के रूप में या डेटा लेबल के रूप में प्रदर्शित होगा। यदि इस DataLabelFormat ऑब्जेक्ट का पैरेंट DataLabelCollection डेटा लेबलों का संग्रह है, तो यह प्रॉपर्टी DataLabelCollection संग्रह में नए डेटा लेबलों के लिए ShowLabelAsDataCallout प्रॉपर्टी का डिफ़ॉल्ट मान प्राप्त या सेट करती है। इस प्रॉपर्टी को मान के साथ सेट करने से DataLabelCollection संग्रह में सभी डेटा लेबलों के लिए ShowLabelAsDataCallout प्रॉपर्टी को भी वही मान सेट होता है (उदा. "DataLabels.DefaultDataLabelFormat.ShowLabelAsDataCallout = val;" जिससे सभी DataLabels[i].ShowLabelAsDataCallout बराबर val हो जाता है)। |
+| [ShowLabelValueFromCell](../../aspose.slides.charts/idatalabelformat/showlabelvaluefromcell) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल सेल मान प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True सेल मान प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowLeaderLines](../../aspose.slides.charts/idatalabelformat/showleaderlines) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल लीडर लाइन्स प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True लीडर लाइन्स प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowLegendKey](../../aspose.slides.charts/idatalabelformat/showlegendkey) { get; set; } | निर्धारित करता है कि डेटा लेबल लेजेंड कुंजी दृश्य है या नहीं। True यदि डेटा लेबल लेजेंड कुंजी दृश्य है। पढ़ने/लिखने योग्य Boolean. |
+| [ShowPercentage](../../aspose.slides.charts/idatalabelformat/showpercentage) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल प्रतिशत मान प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True प्रतिशत मान प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowSeriesName](../../aspose.slides.charts/idatalabelformat/showseriesname) { get; set; } | डेटा लेबलों पर चार्ट में सीरीज़ नाम प्रदर्शन व्यवहार को दर्शाने के लिए Boolean लौटाता या सेट करता है। True सीरीज़ नाम दिखाने के लिए। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
+| [ShowValue](../../aspose.slides.charts/idatalabelformat/showvalue) { get; set; } | निर्दिष्ट चार्ट के डेटा लेबल प्रतिशत मान प्रदर्शन व्यवहार का प्रतिनिधित्व करता है। True प्रतिशत मान प्रदर्शित करता है। False छिपाने के लिए। पढ़ने/लिखने योग्य Boolean. |
 
-### संबंधित देखें
+### देखें भी
 
 * इंटरफ़ेस [IFormattedTextContainer](../iformattedtextcontainer)
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)

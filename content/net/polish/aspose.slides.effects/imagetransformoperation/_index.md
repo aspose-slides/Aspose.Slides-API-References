@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes dla dokumentacji API .NET
-description: Reprezentuje abstrakcyjny efekt transformacji obrazu.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Reprezentuje abstrakcyjny efekt przekształcenia obrazu.
 type: docs
-weight: 3550
+weight: 3570
 url: /pl/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation klasa
 
-Reprezentuje abstrakcyjny efekt transformacji obrazu.
+Reprezentuje abstrakcyjny efekt przekształcenia obrazu.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation

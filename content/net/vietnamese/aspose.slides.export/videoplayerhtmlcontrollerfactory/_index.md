@@ -1,6 +1,6 @@
 ---
 title: VideoPlayerHtmlControllerFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo VideoPlayerHtmlController.
 type: docs
 weight: 4590
@@ -14,11 +14,11 @@ Cho phép tạo VideoPlayerHtmlController.
 public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactory
 ```
 
-## Hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | Hàm khởi tạo mặc định. |
+| [VideoPlayerHtmlControllerFactory](videoplayerhtmlcontrollerfactory)() | Bộ tạo mặc định. |
 
 ## Phương thức
 
@@ -28,7 +28,7 @@ public class VideoPlayerHtmlControllerFactory : IVideoPlayerHtmlControllerFactor
 
 ### Ghi chú
 
-Để tương thích với COM.
+Cho tương thích COM.
 
 ### Xem thêm
 

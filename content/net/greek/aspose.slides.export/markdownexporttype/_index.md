@@ -1,9 +1,9 @@
 ---
 title: MarkdownExportType
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Αναφορά API του Aspose.Sildes για .NET
 description: Τύπος απόδοσης εγγράφου.
 type: docs
-weight: 4220
+weight: 4240
 url: /el/aspose.slides.export/markdownexporttype/
 ---
 ## MarkdownExportType απαρίθμηση
@@ -14,13 +14,13 @@ url: /el/aspose.slides.export/markdownexporttype/
 public enum MarkdownExportType
 ```
 
-### Τιμές
+### Values
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
 | Sequential | `0` | Απόδοση όλων των στοιχείων ξεχωριστά. Ένα-ένα. |
-| TextOnly | `1` | Απόδοση μόνο κειμένου. |
-| Visual | `2` | Απόδοση όλων των στοιχείων, τα στοιχεία που ομαδοποιούνται - απόδοση μαζί. |
+| TextOnly | `1` | Απόδοση μόνο του κειμένου. |
+| Visual | `2` | Απόδοση όλων των στοιχείων, των στοιχείων που είναι ομαδοποιημένα - απόδοση μαζί. |
 
 ### Παραδείγματα
 

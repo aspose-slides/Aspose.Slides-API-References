@@ -1,48 +1,48 @@
 ---
 title: IOleObjectFrame
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک شیء OLE را بر روی اسلاید نمایان می‌کند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک شیء OLE را بر روی اسلاید نشان می‌دهد.
 type: docs
 weight: 6540
 url: /fa/aspose.slides/ioleobjectframe/
 ---
-## IOleObjectFrame رابط
+## رابط IOleObjectFrame
 
-یک شیء OLE را بر روی اسلاید نمایان می‌کند.
+یک شیء OLE را بر روی اسلاید نشان می‌دهد.
 
 ```csharp
 public interface IOleObjectFrame : IGraphicalObject
 ```
 
-## ویژگی‌ها
+## خصوصیات
 
 | نام | توضیح |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | اجازه می‌دهد رابط پایه IGraphicalObject را دریافت کند. فقط قابل خواندن [`IGraphicalObject`](../igraphicalobject). |
-| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | اطلاعات مربوط به داده‌های جاسازی‌شده OLE را دریافت می‌کند. فقط قابل خواندن [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
-| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | نام فایل شیء OLE جاسازی‌شده را برمی‌گرداند |
-| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | مسیر شیء OLE جاسازی‌شده را برمی‌گرداند |
-| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | تعیین می‌کند که آیا شیء به‌عنوان نماد قابل مشاهده است یا خیر. بولی قابل خواندن/نوشتن. |
-| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | تعیین می‌کند که آیا شیء به فایل خارجی لینک شده است یا خیر. فقط قابل خواندن بولی. |
-| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | مسیر کامل به یک فایل لینک‌شده را برمی‌گرداند. نام کوتاه فایل استفاده خواهد شد. فقط قابل خواندن رشته. |
-| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | مسیر کامل به یک فایل لینک‌شده را برمی‌گرداند. نام بلند فایل استفاده خواهد شد. قابل خواندن/نوشتن رشته. |
-| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | مسیر نسبی به یک فایل لینک‌شده را در صورت وجود برمی‌گرداند، در غیر این صورت یک رشته خالی برمی‌گرداند. فقط قابل خواندن رشته. |
-| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | نام یک شیء را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن رشته. |
-| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | ProgID یک شیء را برمی‌گرداند. فقط قابل خواندن رشته. |
-| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | شیء ویژگی‌های پر کردن تصویر OleObject را برمی‌گرداند. فقط قابل خواندن [`IPictureFillFormat`](../ipicturefillformat). |
-| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | عنوان نماد OleObject را برمی‌گرداند یا تنظیم می‌کند. قابل خواندن/نوشتن رشته. |
-| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | تعیین می‌کند که آیا شیء جاسازی‌شده لینک‌شده به‌صورت خودکار هنگام باز کردن یا چاپ ارائه به‌روز می‌شود یا نه. قابل خواندن/نوشتن بولی. |
+| [AsIGraphicalObject](../../aspose.slides/ioleobjectframe/asigraphicalobject) { get; } | اجازه می‌دهد رابط پایه IGraphicalObject را دریافت کند. فقط خواندنی [`IGraphicalObject`](../igraphicalobject). |
+| [EmbeddedData](../../aspose.slides/ioleobjectframe/embeddeddata) { get; } | اطلاعات در مورد داده‌های توکار OLE را دریافت می‌کند. فقط خواندنی [`IOleEmbeddedDataInfo`](../ioleembeddeddatainfo). |
+| [EmbeddedFileLabel](../../aspose.slides/ioleobjectframe/embeddedfilelabel) { get; } | نام فایل شیء OLE توکار را برمی‌گرداند |
+| [EmbeddedFileName](../../aspose.slides/ioleobjectframe/embeddedfilename) { get; } | مسیر شیء OLE توکار را برمی‌گرداند |
+| [IsObjectIcon](../../aspose.slides/ioleobjectframe/isobjecticon) { get; set; } | تعیین می‌کند آیا شیء به صورت نماد قابل مشاهده است یا خیر. خواندنی/نوشتنی بولی. |
+| [IsObjectLink](../../aspose.slides/ioleobjectframe/isobjectlink) { get; } | تعیین می‌کند آیا شیء به فایل خارجی لینک شده است یا خیر. فقط خواندنی بولی. |
+| [LinkFileName](../../aspose.slides/ioleobjectframe/linkfilename) { get; } | مسیر کامل یک فایل لینک‌شده را برمی‌گرداند. نام کوتاه فایل استفاده می‌شود. فقط خواندنی رشته. |
+| [LinkPathLong](../../aspose.slides/ioleobjectframe/linkpathlong) { get; set; } | مسیر کامل یک فایل لینک‌شده را برمی‌گرداند. نام کامل فایل استفاده می‌شود. خواندنی/نوشتنی رشته. |
+| [LinkPathRelative](../../aspose.slides/ioleobjectframe/linkpathrelative) { get; } | مسیر نسبی یک فایل لینک‌شده را در صورت وجود برمی‌گرداند، در غیر این صورت رشته خالی برمی‌گرداند. فقط خواندنی رشته. |
+| [ObjectName](../../aspose.slides/ioleobjectframe/objectname) { get; set; } | نام یک شیء را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی رشته. |
+| [ObjectProgId](../../aspose.slides/ioleobjectframe/objectprogid) { get; set; } | ProgID یک شیء را برمی‌گرداند. فقط خواندنی رشته. |
+| [SubstitutePictureFormat](../../aspose.slides/ioleobjectframe/substitutepictureformat) { get; } | شیء خصوصیات پرکردن تصویر OleObject را برمی‌گرداند. فقط خواندنی [`IPictureFillFormat`](../ipicturefillformat). |
+| [SubstitutePictureTitle](../../aspose.slides/ioleobjectframe/substitutepicturetitle) { get; set; } | عنوان نماد OleObject را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی رشته. |
+| [UpdateAutomatic](../../aspose.slides/ioleobjectframe/updateautomatic) { get; set; } | تعیین می‌کند آیا شیء توکار لینک‌شده به‌طور خودکار هنگام باز یا چاپ ارائه به‌روز می‌شود. خواندنی/نوشتنی بولی. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | اطلاعات مربوط به داده‌های جاسازی‌شده OLE را تنظیم می‌کند. |
+| [SetEmbeddedData](../../aspose.slides/ioleobjectframe/setembeddeddata)(IOleEmbeddedDataInfo) | اطلاعات در مورد داده‌های توکار OLE را تنظیم می‌کند. |
 
 ### موارد مرتبط
 
 * رابط [IGraphicalObject](../igraphicalobject)
 * فضای نام [Aspose.Slides](../../aspose.slides)
-* مجتمع [Aspose.Slides](../../)
+* اسمبل [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

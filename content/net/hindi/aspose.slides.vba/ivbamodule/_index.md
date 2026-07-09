@@ -1,6 +1,6 @@
 ---
 title: IVbaModule
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: VBA प्रोजेक्ट में शामिल मॉड्यूल का प्रतिनिधित्व करता है।
 type: docs
 weight: 11530
@@ -18,10 +18,10 @@ public interface IVbaModule
 
 | नाम | विवरण |
 | --- | --- |
-| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | मॉड्यूल का नाम। केवल पढ़ने योग्य String। |
-| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | मॉड्यूल का स्रोत कोड। पढ़ने/लिखने योग्य String। |
+| [Name](../../aspose.slides.vba/ivbamodule/name) { get; } | मॉड्यूल का नाम। केवल-पढ़ने योग्य String. |
+| [SourceCode](../../aspose.slides.vba/ivbamodule/sourcecode) { get; set; } | मॉड्यूल का स्रोत कोड। पढ़ने/लिखने योग्य String. |
 
-### और देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)
 * असेंबली [Aspose.Slides](../../)

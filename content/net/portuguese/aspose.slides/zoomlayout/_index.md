@@ -1,9 +1,9 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Especifica o layout de zoom resumido.
 type: docs
-weight: 11840
+weight: 11860
 url: /pt/aspose.slides/zoomlayout/
 ---
 ## Enumeração ZoomLayout

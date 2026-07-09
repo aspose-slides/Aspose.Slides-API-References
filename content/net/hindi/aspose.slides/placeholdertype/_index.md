@@ -1,14 +1,14 @@
 ---
 title: PlaceholderType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक प्लेसहोल्डर के प्रकार को प्रदर्शित करता है।
+second_title: Aspose.Sildes .NET API के लिए संदर्भ
+description: एक placeholder के प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 9450
 url: /hi/aspose.slides/placeholdertype/
 ---
 ## PlaceholderType एन्यूमरेशन
 
-एक प्लेसहोल्डर के प्रकार का प्रतिनिधित्व करता है।
+Placeholder के प्रकार का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum PlaceholderType : sbyte
@@ -18,24 +18,24 @@ public enum PlaceholderType : sbyte
 
 | नाम | मान | विवरण |
 | --- | --- | --- |
-| Title | `0` | Title. |
-| Body | `1` | Body. |
-| CenteredTitle | `2` | केंद्रीकृत Title. |
-| Subtitle | `3` | Subtitle. |
-| DateAndTime | `4` | तारीख और समय। |
+| Title | `0` | शीर्षक। |
+| Body | `1` | मुख्य भाग। |
+| CenteredTitle | `2` | केंद्रित शीर्षक। |
+| Subtitle | `3` | उपशीर्षक। |
+| DateAndTime | `4` | तिथि और समय। |
 | SlideNumber | `5` | स्लाइड संख्या। |
-| Footer | `6` | Footer. |
-| Header | `7` | Header. |
-| Object | `8` | Object. |
-| Chart | `9` | Chart. |
-| Table | `10` | Table. |
-| ClipArt | `11` | Clip Art. |
-| Diagram | `12` | Diagram. |
-| Media | `13` | Media. |
-| SlideImage | `14` | स्लाइड छवि। |
-| Picture | `15` | Picture. |
+| Footer | `6` | फ़ुटर। |
+| Header | `7` | हेडर। |
+| Object | `8` | ऑब्जेक्ट। |
+| Chart | `9` | चार्ट। |
+| Table | `10` | टेबल। |
+| ClipArt | `11` | क्लिप आर्ट। |
+| Diagram | `12` | डायाग्राम। |
+| Media | `13` | मीडिया। |
+| SlideImage | `14` | स्लाइड चित्र। |
+| Picture | `15` | चित्र। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

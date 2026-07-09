@@ -1,14 +1,14 @@
 ---
 title: IDuotoneEffectiveData
 second_title: Aspose.Sildes for .NET API 參考文件
-description: 不可變物件，表示 Duotone 效果。對於每個像素，透過線性插值將 clr1 與 clr2 合併，以確定該像素的新顏色。
+description: 不可變的物件，表示 Duotone 效果。對於每個像素，通過線性插值結合 clr1 與 clr2，以確定該像素的新顏色。
 type: docs
 weight: 3270
 url: /zh-hant/aspose.slides.effects/iduotoneeffectivedata/
 ---
 ## IDuotoneEffectiveData 介面
 
-不可變物件，表示 Duotone 效果。對於每個像素，透過線性插值合併 clr1 和 clr2，以確定該像素的新顏色。
+不可變的物件，表示 Duotone 效果。對於每個像素，通過線性插值結合 clr1 與 clr2，以確定該像素的新顏色。
 
 ```csharp
 public interface IDuotoneEffectiveData : IEffectEffectiveData
@@ -19,10 +19,10 @@ public interface IDuotoneEffectiveData : IEffectEffectiveData
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iduotoneeffectivedata/asieffecteffectivedata) { get; } | 允許取得基礎 IEffectEffectiveData 介面。唯讀 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
-| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 返回暗像素的目標顏色格式。唯讀 Color。 |
-| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 返回亮像素的目標顏色格式。唯讀 Color。 |
+| [Color1](../../aspose.slides.effects/iduotoneeffectivedata/color1) { get; } | 回傳暗色像素的目標顏色格式。唯讀 Color。 |
+| [Color2](../../aspose.slides.effects/iduotoneeffectivedata/color2) { get; } | 回傳亮色像素的目標顏色格式。唯讀 Color。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IEffectEffectiveData](../ieffecteffectivedata)
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

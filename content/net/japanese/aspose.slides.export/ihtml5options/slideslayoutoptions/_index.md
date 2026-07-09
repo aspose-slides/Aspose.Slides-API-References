@@ -3,7 +3,7 @@ title: SlidesLayoutOptions
 second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーションをエクスポートする際に、スライドがページ上に配置されるモードを取得または設定します ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
-weight: 70
+weight: 80
 url: /ja/aspose.slides.export/ihtml5options/slideslayoutoptions/
 ---
 ## IHtml5Options.SlidesLayoutOptions プロパティ

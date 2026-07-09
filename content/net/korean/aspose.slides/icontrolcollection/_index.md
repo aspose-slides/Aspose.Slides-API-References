@@ -1,6 +1,6 @@
 ---
 title: IControlCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: ActiveX 컨트롤의 컬렉션입니다.
 type: docs
 weight: 5640
@@ -24,12 +24,12 @@ public interface IControlCollection : IGenericCollection<IControl>
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 새 컨트롤을 생성하고 컬렉션에 추가합니다. |
-| [Clear](../../aspose.slides/icontrolcollection/clear)() | 컬렉션에서 모든 컨트롤을 제거합니다. |
+| [AddControl](../../aspose.slides/icontrolcollection/addcontrol)(ControlType, float, float, float, float) | 컬렉션에 새 컨트롤을 만들고 추가합니다. |
+| [Clear](../../aspose.slides/icontrolcollection/clear)() | 컬렉션의 모든 컨트롤을 제거합니다. |
 | [Remove](../../aspose.slides/icontrolcollection/remove)(IControl) | 컬렉션에서 ActiveX 컨트롤을 제거합니다. |
 | [RemoveAt](../../aspose.slides/icontrolcollection/removeat)(int) | 지정된 위치에 저장된 ActiveX 컨트롤을 컬렉션에서 제거합니다. |
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 인터페이스 [IControl](../icontrol)

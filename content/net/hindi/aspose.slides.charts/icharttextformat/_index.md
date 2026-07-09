@@ -1,33 +1,33 @@
 ---
 title: IChartTextFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: चार्ट सीमित सेट के टेक्स्ट फ़ॉर्मेट गुणों के साथ कार्य करता है। IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat इंटरफ़ेस इस सीमित सेट का वर्णन करते हैं।
+description: Chart सीमित सेट के टेक्स्ट फ़ॉर्मेट प्रॉपर्टीज़ के साथ कार्य करता है। IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat इंटरफ़ेस इस सीमित सेट का वर्णन करते हैं।
 type: docs
 weight: 1990
 url: /hi/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat इंटरफ़ेस
 
-Chart operate with restricted set of text format properties. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat इंटरफ़ेस इस सीमित सेट का वर्णन करते हैं।
+Chart सीमित सेट के टेक्स्ट फ़ॉर्मेट प्रॉपर्टीज़ के साथ कार्य करता है। IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat इंटरफ़ेस इस सीमित सेट का वर्णन करते हैं।
 
 ```csharp
 public interface IChartTextFormat
 ```
 
-## Properties
+## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | पराग्राफ फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | पोरशन फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | चार्ट टेक्स्ट तत्वों के लिए फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | पैराग्राफ फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartParagraphFormat`](../ichartparagraphformat)। |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | पोर्शन फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartPortionFormat`](../ichartportionformat)। |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | चार्ट टेक्स्ट तत्वों के लिए फ़ॉर्मेट लौटाता है। केवल-पढ़ने योग्य [`IChartTextBlockFormat`](../icharttextblockformat)। |
 
-## Methods
+## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम से टेक्स्ट फ़ॉर्मेट की प्रतिलिपि बनाता है। |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम में टेक्स्ट फ़ॉर्मेट की प्रतिलिपि बनाता है। |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम से टेक्स्ट फ़ॉर्मेट कॉपी करता है। |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | निर्दिष्ट टेक्स्ट फ्रेम में टेक्स्ट फ़ॉर्मेट कॉपी करता है। |
 
 ### देखें
 

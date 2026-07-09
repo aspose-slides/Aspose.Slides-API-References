@@ -1,12 +1,12 @@
 ---
 title: LineFormat
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά τη μορφή μιας γραμμής.
+description: Αντιπροσωπεύει τη μορφή μιας γραμμής.
 type: docs
-weight: 7770
+weight: 7790
 url: /el/aspose.slides/lineformat/
 ---
-## LineFormat class
+## LineFormat κλάση
 
 Αναπαριστά τη μορφή μιας γραμμής.
 
@@ -18,24 +18,24 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Επιστρέφει ή ορίζει την ευθυγράμμιση της γραμμής. Ανάγνωση/εγγραφή [`LineAlignment`](../linealignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο-ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Επιστρέφει ή ορίζει το μήκος της κεφαλής βέλους στην αρχή μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ της κεφαλής βέλους στην αρχή μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Επιστρέφει ή ορίζει το πλάτος της κεφαλής βέλους στην αρχή μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ άκρου γραμμής. Ανάγνωση/εγγραφή [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Επιστρέφει ή ορίζει το προσαρμοσμένο μοτίβο παύλας. Ανάγνωση/εγγραφή Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ παύλας γραμμής. Ανάγνωση/εγγραφή [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Επιστρέφει ή ορίζει το μήκος της κεφαλής βέλους στο τέλος μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ της κεφαλής βέλους στο τέλος μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Επιστρέφει ή ορίζει το πλάτος της κεφαλής βέλους στο τέλος μιας γραμμής. Ανάγνωση/εγγραφή [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος μιας γραμμής. Μόνο-ανάγνωση [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Επιστρέφει true εάν η μορφή γραμμής δεν είναι καθορισμένη (όπως μόλις δημιουργήθηκε, προεπιλογή). Μόνο-ανάγνωση Boolean. |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ συγκολλήσεων γραμμών. Ανάγνωση/εγγραφή [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Επιστρέφει ή ορίζει το όριο μύτης (miter) μιας γραμμής. Ανάγνωση/εγγραφή Single. |
-| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Επιστρέφει τη μορφή σκίτσο μιας γραμμής. Μόνο-ανάγνωση [`ILineFillFormat`](../ilinefillformat). |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | Επιστρέφει ή ορίζει το στυλ γραμμής. Ανάγνωση/εγγραφή [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος μιας γραμμής. Ανάγνωση/εγγραφή Double. |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Επιστρέφει ή ορίζει τη στοίχιση της γραμμής. Ανάγνωση/Εγγραφή [`LineAlignment`](../linealignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IPresentationComponent. Μόνο ανάγνωση [`IPresentationComponent`](../ipresentationcomponent). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Επιστρέφει ή ορίζει το μήκος της κεφαλής του βέλους στην αρχή της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ της κεφαλής του βέλους στην αρχή της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Επιστρέφει ή ορίζει το πλάτος της κεφαλής του βέλους στην αρχή της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ άκρου γραμμής. Ανάγνωση/Εγγραφή [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Επιστρέφει ή ορίζει το προσαρμοσμένο μοτίβο παύλης. Ανάγνωση/Εγγραφή Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ παύλης γραμμής. Ανάγνωση/Εγγραφή [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Επιστρέφει ή ορίζει το μήκος της κεφαλής του βέλους στο τέλος της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ της κεφαλής του βέλους στο τέλος της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Επιστρέφει ή ορίζει το πλάτος της κεφαλής του βέλους στο τέλος της γραμμής. Ανάγνωση/Εγγραφή [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Επιστρέφει τη μορφή γεμίσματος μιας γραμμής. Μόνο ανάγνωση [`ILineFillFormat`](../ilinefillformat). |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Επιστρέφει true εάν η μορφή γραμμής δεν έχει οριστεί (όπως μόλις δημιουργήθηκε, προεπιλογή). Μόνο ανάγνωση Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Επιστρέφει ή ορίζει το στυλ σύνδεσης γραμμών. Ανάγνωση/Εγγραφή [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Επιστρέφει ή ορίζει το όριο μύτης μιας γραμμής. Ανάγνωση/Εγγραφή Single. |
+| [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Επιστρέφει τη μορφή σκίτσου μιας γραμμής. Μόνο ανάγνωση [`ILineFillFormat`](../ilinefillformat). |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | Επιστρέφει ή ορίζει το στυλ γραμμής. Ανάγνωση/Εγγραφή [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Επιστρέφει ή ορίζει το πλάτος μιας γραμμής. Ανάγνωση/Εγγραφή Double. |
 
 ## Μέθοδοι
 
@@ -43,14 +43,14 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Καθορίζει εάν τα δύο αντικείμενα LineFormat είναι ίσα. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
-| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης γραμμής με την κληρονομικότητα εφαρμοσμένη. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει τον κωδικό κατακερματισμού. |
+| [GetEffective](../../aspose.slides/lineformat/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα μορφοποίησης γραμμής με την εφαρμοσμένη κληρονομικότητα. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Επιστρέφει κωδικό κατατεμαχισμού. |
 
 ### Δείτε επίσης
 
 * κλάση [PVIObject](../pviobject)
 * διεπαφή [ILineFormat](../ilineformat)
-* χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* χώρο ονομάτων [Aspose.Slides](../../aspose.slides)
+* συγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

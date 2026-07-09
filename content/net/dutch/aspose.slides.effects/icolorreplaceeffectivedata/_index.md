@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een Color Replacement-effect vertegenwoordigt. Alle effectkleuren worden gewijzigd in een vaste kleur. Alpha-waarden blijven ongewijzigd.
+description: Onveranderlijk object dat een kleurvervangings-effect voorstelt. Alle effectkleuren worden gewijzigd naar een vaste kleur. Alfa-waarden blijven onaangedaan.
 type: docs
 weight: 3250
 url: /nl/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData interface
 
-Onveranderlijk object dat een Color Replacement-effect vertegenwoordigt. Alle effectkleuren worden gewijzigd in een vaste kleur. Alpha-waarden blijven ongewijzigd.
+Onveranderlijk object dat een kleurvervangings-effect voorstelt. Alle effectkleuren worden gewijzigd naar een vaste kleur. Alfa-waarden blijven onaangedaan.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basis-IEffectEffectiveData-interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Geeft het kleuropslagformaat terug dat de kleur van elke pixel zal vervangen. Alleen-lezen Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Staat toe de basise IEffectEffectiveData-interface op te halen. Alleen-lezen [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Retourneert het kleurformaat dat de kleur van elke pixel zal vervangen. Alleen-lezen Color. |
 
 ### Zie ook
 

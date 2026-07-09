@@ -19,28 +19,28 @@ public interface IColorFormat : IFillParamSource
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIFillParamSource](../../aspose.slides/icolorformat/asifillparamsource) { get; } | Retourneert IFillParamSource interface. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [B](../../aspose.slides/icolorformat/b) { get; set; } | Retourneert of stelt de blauwe component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Byte. |
-| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Retourneert de resulterende kleur (met alle kleurtransformaties toegepast). Stelt RGB-kleuren in en wist alle kleurtransformaties. Lezen/Schrijven Color. |
-| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Retourneert de collectie van op een kleur toegepaste kleurtransformaties. Alleen-lezen [`IColorOperationCollection`](../icoloroperationcollection). |
-| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Retourneert of stelt de kleuroverdrachtmethode in. Lezen/Schrijven [`ColorType`](../colortype). |
-| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Retourneert of stelt de blauwe component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Retourneert of stelt de groene component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Retourneert of stelt de rode component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [G](../../aspose.slides/icolorformat/g) { get; set; } | Retourneert of stelt de groene component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Byte. |
-| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Retourneert of stelt de tintcomponent van een kleur in HSL-representatie. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Retourneert of stelt de luminantiecomponent van een kleur in HSL-representatie. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Retourneert of stelt de kleurvoorinstelling in. Lezen/Schrijven [`PresetColor`](../presetcolor). |
-| [R](../../aspose.slides/icolorformat/r) { get; set; } | Retourneert of stelt de rode component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Byte. |
-| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Retourneert of stelt de verzadigingscomponent van een kleur in HSL-representatie. Alle kleurtransformaties worden genegeerd. Lezen/Schrijven Single. |
-| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Retourneert of stelt de kleur geïdentificeerd door een kleurenschema in. Lezen/Schrijven [`SchemeColor`](../schemecolor). |
-| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Retourneert of stelt de kleur geïdentificeerd door de systeemkleurentabel in. Lezen/Schrijven [`SystemColor`](../systemcolor). |
+| [B](../../aspose.slides/icolorformat/b) { get; set; } | Retourneert of stelt het blauwe component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Byte. |
+| [Color](../../aspose.slides/icolorformat/color) { get; set; } | Retourneert resulterende kleur (met alle kleurtransformaties toegepast). Stelt RGB-kleuren in en wist alle kleurtransformaties. Lezen/schrijven Color. |
+| [ColorTransform](../../aspose.slides/icolorformat/colortransform) { get; } | Retourneert de verzameling kleurtransformaties die op een kleur zijn toegepast. Alleen-lezen [`IColorOperationCollection`](../icoloroperationcollection). |
+| [ColorType](../../aspose.slides/icolorformat/colortype) { get; set; } | Retourneert of stelt de kleurdefinitiemethode in. Lezen/schrijven [`ColorType`](../colortype). |
+| [FloatB](../../aspose.slides/icolorformat/floatb) { get; set; } | Retourneert of stelt het blauwe component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [FloatG](../../aspose.slides/icolorformat/floatg) { get; set; } | Retourneert of stelt het groene component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [FloatR](../../aspose.slides/icolorformat/floatr) { get; set; } | Retourneert of stelt het rode component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [G](../../aspose.slides/icolorformat/g) { get; set; } | Retourneert of stelt het groene component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Byte. |
+| [Hue](../../aspose.slides/icolorformat/hue) { get; set; } | Retourneert of stelt het tintcomponent van een kleur in HSL-representatie in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [Luminance](../../aspose.slides/icolorformat/luminance) { get; set; } | Retourneert of stelt het luminantiecomponent van een kleur in HSL-representatie in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [PresetColor](../../aspose.slides/icolorformat/presetcolor) { get; set; } | Retourneert of stelt de voorinstelling van de kleur in. Lezen/schrijven [`PresetColor`](../presetcolor). |
+| [R](../../aspose.slides/icolorformat/r) { get; set; } | Retourneert of stelt het rode component van een kleur in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Byte. |
+| [Saturation](../../aspose.slides/icolorformat/saturation) { get; set; } | Retourneert of stelt het verzadigingscomponent van een kleur in HSL-representatie in. Alle kleurtransformaties worden genegeerd. Lezen/schrijven Single. |
+| [SchemeColor](../../aspose.slides/icolorformat/schemecolor) { get; set; } | Retourneert of stelt de kleur die door een kleurenpalet wordt geïdentificeerd in. Lezen/schrijven [`SchemeColor`](../schemecolor). |
+| [SystemColor](../../aspose.slides/icolorformat/systemcolor) { get; set; } | Retourneert of stelt de kleur die door de systeemtabel voor kleuren wordt geïdentificeerd in. Lezen/schrijven [`SystemColor`](../systemcolor). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Kopieer kleurformaat van "color". |
-| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Retourneert een String die het huidige kleurformaat weergeeft. |
+| [CopyFrom](../../aspose.slides/icolorformat/copyfrom)(IColorFormat) | Kopieer kleuropmaak vanaf "color". |
+| [ToString](../../aspose.slides/icolorformat/tostring)(ColorStringFormat) | Retourneert een String die de huidige kleuropmaak weergeeft. |
 
 ### Zie ook
 

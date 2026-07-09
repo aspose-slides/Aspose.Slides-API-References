@@ -1,14 +1,14 @@
 ---
 title: Placeholder
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एक स्लाइड पर प्लेसहोल्डर का प्रतिनिधित्व करता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: स्लाइड पर एक प्लेसहोल्डर का प्रतिनिधित्व करता है।
 type: docs
 weight: 9430
 url: /hi/aspose.slides/placeholder/
 ---
-## Placeholder क्लास
+## प्लेसहोल्डर वर्ग
 
-एक स्लाइड पर प्लेसहोल्डर का प्रतिनिधित्व करता है।
+स्लाइड पर एक प्लेसहोल्डर का प्रतिनिधित्व करता है।
 
 ```csharp
 public class Placeholder : IPlaceholder
@@ -16,14 +16,14 @@ public class Placeholder : IPlaceholder
 
 ## गुण
 
-| नाम | वर्णन |
+| नाम | विवरण |
 | --- | --- |
-| [Index](../../aspose.slides/placeholder/index) { get; } | एक प्लेसहोल्डर का इंडेक्स प्राप्त करता है या सेट करता है। केवल पढ़ने योग्य UInt32. |
-| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | एक प्लेसहोल्डर की अभिविन्यास प्राप्त करता है या सेट करता है। केवल पढ़ने योग्य [`Orientation`](../orientation). |
-| [Size](../../aspose.slides/placeholder/size) { get; } | एक प्लेसहोल्डर का आकार प्राप्त करता है या सेट करता है। केवल पढ़ने योग्य [`PlaceholderSize`](../placeholdersize). |
-| [Type](../../aspose.slides/placeholder/type) { get; } | एक प्लेसहोल्डर का प्रकार प्राप्त करता है या सेट करता है। केवल पढ़ने योग्य [`PlaceholderType`](../placeholdertype). |
+| [Index](../../aspose.slides/placeholder/index) { get; } | प्लेसहोल्डर का इंडेक्स प्राप्त करता है या सेट करता है। केवल-रीड UInt32. |
+| [Orientation](../../aspose.slides/placeholder/orientation) { get; } | प्लेसहोल्डर की अभिविन्यास प्राप्त करता है या सेट करता है। केवल-रीड [`Orientation`](../orientation). |
+| [Size](../../aspose.slides/placeholder/size) { get; } | प्लेसहोल्डर का आकार प्राप्त करता है या सेट करता है। केवल-रीड [`PlaceholderSize`](../placeholdersize). |
+| [Type](../../aspose.slides/placeholder/type) { get; } | प्लेसहोल्डर का प्रकार प्राप्त करता है या सेट करता है। केवल-रीड [`PlaceholderType`](../placeholdertype). |
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IPlaceholder](../iplaceholder)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

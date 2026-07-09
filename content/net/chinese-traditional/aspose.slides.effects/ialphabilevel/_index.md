@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevel
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示 Alpha 雙階層效果。Alpha 透明度值低於閾值時會變為 0（完全透明），高於或等於閾值時會變為 100（完全不透明）。
+description: 表示 Alpha Bi-Level 效果。Alpha 不透明度值低於閾值的會變為 0（完全透明），而大於或等於閾值的會變為 100（完全不透明）。
 type: docs
 weight: 3020
 url: /zh-hant/aspose.slides.effects/ialphabilevel/
 ---
 ## IAlphaBiLevel 介面
 
-表示 Alpha 雙階層效果。Alpha（不透明度）值小於閾值的會變為 0（完全透明），大於或等於閾值的會變為 100%（完全不透明）。
+表示 Alpha Bi-Level 效果。Alpha（不透明度）值低於閾值的將變為 0（完全透明），而 Alpha 值大於或等於閾值的將變為 100%（完全不透明）。
 
 ```csharp
 public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData>, 
@@ -19,15 +19,15 @@ public interface IAlphaBiLevel : IAccessiblePVIObject<IAlphaBiLevelEffectiveData
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。唯讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。唯讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphabilevel/asiaccessiblepviobject) { get; } | 允許取得基礎 IAccessiblePVIObject 介面。只讀 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphabilevel/asiimagetransformoperation) { get; } | 允許取得基礎 IImageTransformOperation 介面。只讀 [`IImageTransformOperation`](../iimagetransformoperation)。 |
 | [Threshold](../../aspose.slides.effects/ialphabilevel/threshold) { get; set; } | 傳回效果閾值。可讀寫 Single。 |
 
 ### 備註
 
-在 COM 中使用 ImageTransformOperationFactory 建立實例。
+使用 ImageTransformOperationFactory 在 COM 中建立實例。
 
-### 相關參考
+### 參見
 
 * 介面 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * 介面 [IAlphaBiLevelEffectiveData](../ialphabileveleffectivedata)

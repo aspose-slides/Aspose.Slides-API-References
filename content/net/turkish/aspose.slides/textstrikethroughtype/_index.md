@@ -3,10 +3,10 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes for .NET API Referansı
 description: Metin üzeri çizgi tipini temsil eder.
 type: docs
-weight: 10970
+weight: 10990
 url: /tr/aspose.slides/textstrikethroughtype/
 ---
-## TextStrikethroughType enum
+## TextStrikethroughType enumerasyonu
 
 Metin üzeri çizgi tipini temsil eder.
 

@@ -8,7 +8,7 @@ url: /th/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine คลาส
 
-เป็นตัวแทนของไทม์ไลน์ของแอนิเมชัน
+เป็นตัวแทนของไทม์ไลน์ของแอนิเมชัน.
 
 ```csharp
 public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
@@ -18,9 +18,9 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | ส่งคืนคอลเลกชันของลำดับเชิงโต้ตอบ. ลำดับเหล่านี้อาจมีเฉพาะเอฟเฟกต์โดย "click on shape" กับรูปร่างเป้าหมายที่ระบุ. อ่านอย่างเดียว [`ISequenceCollection`](../isequencecollection). |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | ส่งคืนลำดับหลักซึ่งอาจมีเฉพาะคอลเลกชันของเอฟเฟกต์หลัก. อ่านอย่างเดียว [`ISequence`](../isequence). |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | ส่งคืนคอลเลกชันของแอนิเมชันข้อความ. อ่านอย่างเดียว [`ITextAnimationCollection`](../itextanimationcollection). |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | ส่งคืนคอลเลกชันของลำดับการโต้ตอบ. ลำดับเหล่านี้อาจมีเฉพาะเอฟเฟกต์ที่ทำโดย "คลิกที่รูปร่าง" พร้อมกำหนดรูปร่างเป้าหมาย. อ่านอย่างเดียว [`ISequenceCollection`](../isequencecollection). |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | ส่งคืนลำดับหลักที่อาจมีเฉพาะคอลเลกชันของเอฟเฟกต์หลัก. อ่านอย่างเดียว [`ISequence`](../isequence). |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | ส่งคืนคอลเลกชันของการเคลื่อนไหวของข้อความ. อ่านอย่างเดียว [`ITextAnimationCollection`](../itextanimationcollection). |
 
 ### ดูเพิ่มเติม
 

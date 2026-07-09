@@ -1,14 +1,14 @@
 ---
 title: SvgExternalFontsHandling
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft een manier weer om externe lettertypen te beheren die worden gebruikt voor het tekenen van tekst.
+description: Geeft een manier weer om externe lettertypen te gebruiken voor het tekenen van tekst.
 type: docs
 weight: 4500
 url: /nl/aspose.slides.export/svgexternalfontshandling/
 ---
-## enumeratie SvgExternalFontsHandling
+## SvgExternalFontsHandling enumeratie
 
-Geeft een manier weer om externe lettertypen te beheren die worden gebruikt voor het tekenen van tekst.
+Geeft een manier weer om externe lettertypen te gebruiken voor het tekenen van tekst.
 
 ```csharp
 public enum SvgExternalFontsHandling
@@ -18,9 +18,9 @@ public enum SvgExternalFontsHandling
 
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
-| AddLinksToFontFiles | `0` | Voeg links naar afzonderlijke lettertypebestanden toe aan het stijlgedeelte van het SVG-bestand. |
-| Embed | `1` | Sla fontgegevens direct op in het SVG-bestand. Controleer alle licentieovereenkomsten voor externe lettertypen voordat u deze optie gebruikt. |
-| Vectorize | `2` | Sla alle tekst die externe lettertypen gebruikt op als graphics. |
+| AddLinksToFontFiles | `0` | Voeg links toe naar afzonderlijke lettertypebestanden in de stijlsectie van het SVG-bestand. |
+| Embed | `1` | Sla lettertypegegevens direct op in het SVG-bestand. Controleer alle licentieovereenkomsten voor externe lettertypen voordat u deze optie gebruikt. |
+| Vectorize | `2` | Sla alle tekst die externe lettertypen gebruikt op als grafische onderdelen. |
 
 ### Zie ook
 

@@ -1,20 +1,20 @@
 ---
 title: ISaveOptionsFactory
-second_title: Aspose.Sildes .NET API Referencia
-description: Lehetővé teszi a mentési opciók példányainak létrehozását
+second_title: Aspose.Sildes .NET API referenciája
+description: Lehetővé teszi a mentési beállítások példányainak létrehozását
 type: docs
-weight: 4060
+weight: 4080
 url: /hu/aspose.slides.export/isaveoptionsfactory/
 ---
 ## ISaveOptionsFactory interfész
 
-Lehetővé teszi a mentési opciók példányainak létrehozását
+Lehetővé teszi a mentési beállítások példányainak létrehozását
 
 ```csharp
 public interface ISaveOptionsFactory
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |

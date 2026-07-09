@@ -1,6 +1,6 @@
 ---
 title: IVbaProjectFactory
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: COM इंटरफ़ेस के माध्यम से VBA प्रोजेक्ट बनाने की अनुमति देता है
 type: docs
 weight: 11560
@@ -8,20 +8,20 @@ url: /hi/aspose.slides.vba/ivbaprojectfactory/
 ---
 ## IVbaProjectFactory इंटरफ़ेस
 
-VBA प्रोजेक्ट को COM इंटरफ़ेस के माध्यम से बनाने की अनुमति देता है
+COM इंटरफ़ेस के माध्यम से VBA प्रोजेक्ट बनाना संभव है
 
 ```csharp
 public interface IVbaProjectFactory
 ```
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
 | [CreateVbaProject](../../aspose.slides.vba/ivbaprojectfactory/createvbaproject)() | नया VBA प्रोजेक्ट बनाता है। |
 | [ReadVbaProject](../../aspose.slides.vba/ivbaprojectfactory/readvbaproject)(byte[]) | OLE कंटेनर से VBA प्रोजेक्ट पढ़ता है। |
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Vba](../../aspose.slides.vba)
 * असेंबली [Aspose.Slides](../../)

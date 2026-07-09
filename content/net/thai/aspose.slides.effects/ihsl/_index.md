@@ -1,14 +1,14 @@
 ---
 title: IHSL
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงเอฟเฟกต์ Hue/Saturation/Luminance. ค่าฮิว ความอิ่มสี และความสว่างแต่ละค่าสามารถปรับได้สัมพันธ์กับค่าปัจจุบันของมัน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟ็กต์ Hue/Saturation/Luminance. ค่าสี ความอิ่มสี และความสว่าง สามารถปรับได้โดยอิงจากค่าปัจจุบันของแต่ละค่า.
 type: docs
 weight: 3360
 url: /th/aspose.slides.effects/ihsl/
 ---
 ## IHSL อินเทอร์เฟซ
 
-แสดงเอฟเฟกต์ Hue/Saturation/Luminance. ค่าฮิว, ความอิ่มสี และความสว่างแต่ละค่าสามารถปรับได้สัมพันธ์กับค่าปัจจุบันของมัน
+แสดงถึงเอฟเฟ็กต์ Hue/Saturation/Luminance. ค่าสี, ความอิ่มสี และความสว่าง สามารถปรับได้โดยอิงจากค่าปัจจุบันของแต่ละค่า.
 
 ```csharp
 public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransformOperation
@@ -16,10 +16,10 @@ public interface IHSL : IAccessiblePVIObject<IHSLEffectiveData>, IImageTransform
 
 ## คุณสมบัติ
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIAccessiblePVIObject](../../aspose.slides.effects/ihsl/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | ส่งกลับอินเทอร์เฟซ IImageTransformOperation. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ihsl/asiimagetransformoperation) { get; } | คืนค่าอินเทอร์เฟซ IImageTransformOperation. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### ดูเพิ่มเติม
 

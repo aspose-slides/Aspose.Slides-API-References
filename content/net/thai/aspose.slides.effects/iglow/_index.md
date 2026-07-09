@@ -1,14 +1,14 @@
 ---
 title: IGlow
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงถึงเอฟเฟกต์ Glow ซึ่งขอบภาพที่เบลอด้วยสีจะถูกเพิ่มด้านนอกของวัตถุ
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงเอฟเฟ็กต์ Glow ที่มีเส้นขอบสีเบลอเพิ่มอยู่ด้านนอกของวัตถุ
 type: docs
 weight: 3320
 url: /th/aspose.slides.effects/iglow/
 ---
 ## IGlow อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Glow ซึ่งขอบภาพที่เบลอด้วยสีจะถูกเพิ่มด้านนอกของวัตถุ
+แสดงถึงเอฟเฟ็กต์ Glow ที่มีเส้นขอบสีเบลอเพิ่มอยู่ด้านนอกของวัตถุ
 
 ```csharp
 public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransformOperation
@@ -16,12 +16,12 @@ public interface IGlow : IAccessiblePVIObject<IGlowEffectiveData>, IImageTransfo
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IAccessiblePVIObject พื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IImageTransformOperation พื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iglow/asiaccessiblepviobject) { get; } | อนุญาตให้ดึง IAccessiblePVIObject อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iglow/asiimagetransformoperation) { get; } | อนุญาตให้ดึง IImageTransformOperation อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IImageTransformOperation`](../iimagetransformoperation). |
 | [Color](../../aspose.slides.effects/iglow/color) { get; } | รูปแบบสี. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | Radius. อ่าน/เขียน Double. |
+| [Radius](../../aspose.slides.effects/iglow/radius) { get; set; } | รัศมี. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

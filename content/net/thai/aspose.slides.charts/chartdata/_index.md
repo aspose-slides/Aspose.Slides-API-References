@@ -1,14 +1,14 @@
 ---
 title: ChartData
-second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของข้อมูลที่ใช้สำหรับการพล็อตแผนภูมิ.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงข้อมูลที่ใช้สำหรับการสร้างแผนภูมิ.
 type: docs
 weight: 1310
 url: /th/aspose.slides.charts/chartdata/
 ---
 ## ChartData คลาส
 
-เป็นตัวแทนของข้อมูลที่ใช้สำหรับการสร้างแผนภูมิ
+Represents data used for a chart plotting.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -16,29 +16,29 @@ public class ChartData : DomObject<Chart>, IChartData
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | ดึงค่าหมวดหมู่หลัก (หรือทั้งหมวดหมู่หลักและรองถ้า [`UseSecondaryCategories`](./usesecondarycategories) คุณสมบัตเป็น false) อ่านอย่างเดียว [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | ดึงโรงงานเซลล์เพื่อสร้างเซลล์ที่ใช้สำหรับชุดข้อมูลแผนภูมิหรือหมวดหมู่. อ่านอย่างเดียว [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | เป็นตัวแทนของเส้นทาง workbook ภายนอกหากเป็นแหล่งข้อมูลภายนอก, มิฉะนั้นเป็น null |
-| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | ดึงประเภทของ workbook ที่ฝังอยู่. คืนค่า NotDefined ถ้า [`DataSourceType`](./datasourcetype) เป็น ExternalWorkbook. อ่านอย่างเดียว [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | เป็นตัวแทนของแหล่งข้อมูลของแผนภูมิ |
-| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | ดึงหมวดหมู่รองถ้า [`UseSecondaryCategories`](./usesecondarycategories) คุณสมบัติเป็น true. อ่านอย่างเดียว [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | ดึงชุดข้อมูล. อ่านอย่างเดียว [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | ดึงกลุ่มของชุดข้อมูล. อ่านอย่างเดียว [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | ถ้าเป็น false แล้ว [`SecondaryCategories`](./secondarycategories) คุณสมบัติจะคืนค่า nullและข้อมูลใน [`Categories`](./categories) คุณสมบัติจะใช้ทั้งสำหรับชุดข้อมูลหลักและรอง. ถ้าเป็น true แล้วข้อมูลใน [`SecondaryCategories`](./secondarycategories) คุณสมบัติจะใช้สำหรับชุดข้อมูลรองและข้อมูลใน [`Categories`](./categories) คุณสมบัติจะใช้สำหรับชุดข้อมูลหลัก. อ่าน/เขียน Boolean. |
+| [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | รับประเภทหลัก (หรือทั้งประเภทหลักและประเภทรองหากคุณสมบัติ [`UseSecondaryCategories`](./usesecondarycategories) เป็น false) อ่านอย่างเดียว [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | รับโรงงานเซลล์เพื่อสร้างเซลล์ที่ใช้สำหรับชุดข้อมูลแผนภูมิหรือประเภท. อ่านอย่างเดียว [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | แสดงเส้นทางของเวิร์กบุ๊กภายนอกหากเป็นแหล่งข้อมูลภายนอก, มิฉะนั้นเป็น null |
+| [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | รับประเภทของเวิร์กบุ๊กที่ฝังไว้. คืนค่า NotDefined หาก [`DataSourceType`](./datasourcetype) เป็น ExternalWorkbook. อ่านอย่างเดียว [`WorkbookType`](../workbooktype). |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | แสดงแหล่งข้อมูลของแผนภูมิ |
+| [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | รับประเภทรองหากคุณสมบัติ [`UseSecondaryCategories`](./usesecondarycategories) เป็น true. อ่านอย่างเดียว [`IChartCategoryCollection`](../ichartcategorycollection). |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | รับซีรีส์. อ่านอย่างเดียว [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | รับกลุ่มของซีรีส์. อ่านอย่างเดียว [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | หากเป็น false แล้วคุณสมบัติ [`SecondaryCategories`](./secondarycategories) จะคืนค่า null และข้อมูลในคุณสมบัติ [`Categories`](./categories) จะใช้ทั้งสำหรับซีรีส์หลักและรอง. หากเป็น true แล้วข้อมูลในคุณสมบัติ [`SecondaryCategories`](./secondarycategories) จะใช้สำหรับซีรีส์รองและข้อมูลในคุณสมบัติ [`Categories`](./categories) จะใช้สำหรับซีรีส์หลัก. อ่าน/เขียน Boolean. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | ดึงช่วงข้อมูลแผนภูมิ. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | เขียน Excel workbook ที่บรรจุภายในไปยัง stream ในหน่วยความจำ. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ. ข้อมูลแผนภูมิจะอัพเดทจาก workbook เป้าหมาย. |
-| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | ตั้งค่า workbook ภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | ตั้งค่าช่วงข้อมูลแผนภูมิ. ชุดข้อมูลและหมวดหมู่จะอัพเดทตามช่วงข้อมูลใหม่. หากจำนวนชุดข้อมูลในช่วงข้อมูลมากกว่าจำนวนชุดข้อมูลในข้อมูลแผนภูมิ จะเพิ่มชุดข้อมูลเพิ่มเติมที่มีประเภทเดียวกับชุดข้อมูลสุดท้ายในคอลเลกชันปัจจุบันไปที่ท้ายคอลเลกชัน. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | สลับข้อมูลบนแกน. ข้อมูลที่แสดงบนแกน X จะย้ายไปยังแกน Y และในทางกลับกัน. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | เริ่มต้น Excel workbook ที่บรรจุภายในด้วยค่าที่ผู้ใช้ระบุ. |
+| [GetRange](../../aspose.slides.charts/chartdata/getrange)() | รับช่วงข้อมูลแผนภูมิ. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | เขียนเวิร์กบุ๊ก Excel ที่บรรจุภายในลงในสตรีมในหน่วยความจำ. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | ตั้งค่าเวิร์กบุ๊กภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ. ข้อมูลแผนภูมิจะถูกอัปเดตจากเวิร์กบุ๊กเป้าหมาย. |
+| [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | ตั้งค่าเวิร์กบุ๊กภายนอกเป็นแหล่งข้อมูลสำหรับแผนภูมิ. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | ตั้งค่าช่วงข้อมูลแผนภูมิ. ซีรีส์และประเภทจะถูกอัปเดตตามช่วงข้อมูลใหม่. หากจำนวนซีรีส์ในช่วงข้อมูลมากกว่าจำนวนซีรีส์ในข้อมูลแผนภูมิ จะเพิ่มซีรีส์เพิ่มเติมที่มีประเภทเดียวกับซีรีส์สุดท้ายในคอลเลกชันปัจจุบันที่ส่วนท้ายของคอลเลกชัน. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | สลับข้อมูลตามแกน. ข้อมูลที่แสดงบนแกน X จะย้ายไปยังแกน Y และในทางกลับกัน. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | เริ่มต้นเวิร์กบุ๊ก Excel ที่บรรจุภายในด้วยค่าที่ผู้ใช้กำหนด. |
 
 ### ดูเพิ่มเติม
 

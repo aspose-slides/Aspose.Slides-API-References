@@ -1,6 +1,6 @@
 ---
 title: XpsOptions
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 提供控制簡報以 XPS 格式儲存方式的選項。
 type: docs
 weight: 4730
@@ -8,13 +8,13 @@ url: /zh-hant/aspose.slides.export/xpsoptions/
 ---
 ## XpsOptions 類別
 
-提供控制簡報以 XPS 格式儲存方式的選項。
+提供控制演示文稿以 XPS 格式儲存方式的選項。
 
 ```csharp
 public class XpsOptions : SaveOptions, IXpsOptions
 ```
 
-## 建構子
+## 建構函式
 
 | 名稱 | 說明 |
 | --- | --- |
@@ -25,13 +25,13 @@ public class XpsOptions : SaveOptions, IXpsOptions
 | 名稱 | 說明 |
 | --- | --- |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到來源字型時使用的字型。可讀寫 String。 |
-| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | 設為 true 時會在每張投影片周圍繪製黑色框線。可讀寫 Boolean。 |
+| [DrawSlidesFrame](../../aspose.slides.export/xpsoptions/drawslidesframe) { get; set; } | True 時會在每張投影片周圍繪製黑色框線。可讀寫 Boolean。 |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表用於保存進度（以百分比表示）的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | 設為 true 時會將簡報中使用的所有中繼檔轉換為 PNG 圖像。可讀寫 Boolean。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 代表一個用於以百分比方式取得儲存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SaveMetafilesAsPng](../../aspose.slides.export/xpsoptions/savemetafilesaspng) { get; set; } | True 時會將簡報中使用的所有中繼檔案轉換為 PNG 圖片。可讀寫 Boolean。 |
 | [ShowHiddenSlides](../../aspose.slides.export/xpsoptions/showhiddenslides) { get; set; } | 指定產生的文件是否應包含隱藏投影片。預設為 `false`。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存簡報時是否跳過含有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定一個接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 範例
 
@@ -39,7 +39,7 @@ public class XpsOptions : SaveOptions, IXpsOptions
 
 ```csharp
 [C#]
-// 實例化一個代表簡報檔案的 Presentation 物件
+// 建立一個代表簡報檔案的 Presentation 物件
 using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 {
     // 將簡報儲存為 XPS 文件
@@ -51,10 +51,10 @@ using (Presentation pres = new Presentation("Convert_XPS.pptx"))
 
 ```csharp
 [C#]
-// 實例化一個代表簡報檔案的 Presentation 物件
+    // 建立一個代表簡報檔案的 Presentation 物件
 using (Presentation pres = new Presentation("Convert_XPS_Options.pptx"))
 {
-    // 實例化 TiffOptions 類別
+    // 建立 TiffOptions 類別的實例
     XpsOptions options = new XpsOptions();
     // 將 MetaFiles 儲存為 PNG
     options.SaveMetafilesAsPng = true;

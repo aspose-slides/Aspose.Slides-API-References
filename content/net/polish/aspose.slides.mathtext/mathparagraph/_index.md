@@ -1,9 +1,9 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes dla .NET – Referencja API
+second_title: Aspose.Sildes dla .NET – dokumentacja API
 description: Matematyczny akapit będący kontenerem dla bloków matematycznych IMathBlock
 type: docs
-weight: 8880
+weight: 8900
 url: /pl/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph klasa
@@ -16,14 +16,14 @@ public class MathParagraph : IMathParagraph
 
 ## Konstruktory
 
-| Name | Opis |
+| Nazwa | Opis |
 | --- | --- |
 | [MathParagraph](mathparagraph#constructor)() | Inicjalizuje nową instancję klasy MathParagraph. |
 | [MathParagraph](mathparagraph#constructor_1)(IMathBlock) | Inicjalizuje nową instancję klasy MathParagraph. |
 
 ## Właściwości
 
-| Name | Opis |
+| Nazwa | Opis |
 | --- | --- |
 | [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | Zwraca liczbę elementów faktycznie zawartych w kolekcji. Tylko do odczytu Int32. |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | Zwraca element pod określonym indeksem. Tylko do odczytu [`IMathBlock`](../imathblock). |
@@ -31,17 +31,17 @@ public class MathParagraph : IMathParagraph
 
 ## Metody
 
-| Name | Opis |
+| Nazwa | Opis |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | Dodaje IMathBlock na koniec kolekcji. |
 | [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | Usuwa wszystkie elementy z kolekcji. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | Określa, czy kolekcja zawiera określoną wartość. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | Określa indeks określonego IMMathBlock w kolekcji. |
-| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Wstawia IMathBlock do kolekcji pod podanym indeksem. |
+| [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | Wstawia IMathBlock do kolekcji pod określonym indeksem. |
 | [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | Usuwa pierwsze wystąpienie określonego obiektu z kolekcji/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Usuwa element pod podanym indeksem w kolekcji. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | Usuwa element pod określonym indeksem w kolekcji. |
 | [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | Zwraca równanie matematyczne w formacie LaTeX |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Zapisuje zawartość tego [`MathParagraph`](../mathparagraph) jako MathML |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | Zapisuje zawartość tego [`MathParagraph`](../mathparagraph) jako MathML. |
 
 ### Przykłady
 

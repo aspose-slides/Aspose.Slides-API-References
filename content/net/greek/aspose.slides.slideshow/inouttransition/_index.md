@@ -3,7 +3,7 @@ title: InOutTransition
 second_title: Aspose.Sildes για .NET API Αναφορά
 description: Εφέ μετάβασης διαφάνειας εισόδου-εξόδου.
 type: docs
-weight: 10210
+weight: 10230
 url: /el/aspose.slides.slideshow/inouttransition/
 ---
 ## InOutTransition κλάση
@@ -18,14 +18,14 @@ public class InOutTransition : TransitionValueBase, IInOutTransition
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Κατεύθυνση του εφέ μετάβασης. Ανάγνωση/εγγραφή [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
+| [Direction](../../aspose.slides.slideshow/inouttransition/direction) { get; set; } | Κατεύθυνση εφέ μετάβασης. Ανάγνωση/εγγραφή [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν τα δύο TransitionValueBase είναι ίσα. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγορίθμους κατακερματισμού και δομές δεδομένων όπως ο πίνακας κατακερματισμού. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Καθορίζει εάν τα δύο αντικείμενα TransitionValueBase είναι ίσα. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο, κατάλληλη για χρήση σε αλγόριθμους κατακερματισμού και δομές δεδομένων όπως ένας πίνακας κατακερματισμού. |
 
 ### Δείτε επίσης
 

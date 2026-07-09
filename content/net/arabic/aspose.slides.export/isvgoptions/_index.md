@@ -1,14 +1,14 @@
 ---
 title: ISVGOptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل خيارات SVG.
 type: docs
 weight: 4060
 url: /ar/aspose.slides.export/isvgoptions/
 ---
-## واجهة ISVGOptions
+## ISVGOptions واجهة
 
-تمثل خيارات SVG.
+يمثل خيارات SVG.
 
 ```csharp
 public interface ISVGOptions : ISaveOptions
@@ -18,26 +18,26 @@ public interface ISVGOptions : ISaveOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | إرجاع واجهة ISaveOptions. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | إشارة منطقية تشير ما إذا كانت الأجزاء المقصوصة ستبقى جزءًا من المستند. إذا كانت true سيتم إزالة الأجزاء المقصوصة، إذا كانت false سيتم تسلسلها في المستند (مما قد يؤدي إلى ملف أكبر) قابل للقراءة والكتابة Boolean. |
-| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | يحدد ما إذا كان النص ثلاثي الأبعاد معطلًا في SVG. قابل للقراءة والكتابة Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | يحصل أو يعيّن قيمة تشير ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عند تعيينها إلى `true`، سيتم تعطيل الأحرف المتصلة في الناتج المعروض. بشكل افتراضي، تُعيّن هذه الخاصية إلى `false`. |
-| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | يعطل تقسيم التدرجات FromCornerX و FromCenter. قابل للقراءة والكتابة Boolean. |
-| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 تفتقر إلى القدرة على تعريف المسافات الداخلية للعلامات. محرك كتابة SVG في Aspose.Slides لديه حل لهذه المشكلة: يقتص نهاية الخط بالسهم، وبالتالي لا يتقاطع الخط مع العلامات. يطفئ هذا الخيار هذا السلوك. قابل للقراءة والكتابة Boolean. |
-| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | يحدد طريقة معالجة الخطوط المحملة خارجيًا. قابل للقراءة والكتابة [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
-| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدّر. للقراءة فقط [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | يحدد جودة تشفير JPEG. قابل للقراءة والكتابة Int32. |
-| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | إرجاع أو تعيين الحد الأدنى لدقة رستريزة ملف التعريف. قابل للقراءة والكتابة Int32. |
-| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | يمثل مستوى ضغط الصور. قابل للقراءة والكتابة [`PicturesCompression`](./picturescompression). |
-| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | إرجاع وتعيين واجهة رد النداء التي تسمح للمستخدم بالتحكم في تحويل الشكل. قابل للقراءة والكتابة [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
-| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | يحدد ما إذا كان يجب تنفيذ دوران الشكل المحدد عند العرض أم لا. قابل للقراءة والكتابة Boolean. القيمة الافتراضية هي true. |
-| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | يحدد ما إذا كان إطار النص سيُضمّن في منطقة العرض أم لا. قابل للقراءة والكتابة Boolean. القيمة الافتراضية هي false. |
-| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | يحدد ما إذا كان سيُحفظ النص على الشريحة كرسوميات. قابل للقراءة والكتابة Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/isvgoptions/asisaveoptions) { get; } | يُرجِع واجهة ISaveOptions. للقراءة فقط [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/isvgoptions/deletepicturescroppedareas) { get; set; } | علامة منطقية تشير إلى ما إذا كانت الأجزاء المقصوصة تبقى كجزء من المستند. إذا كانت true ستُزال الأجزاء المقصوصة، وإذا كانت false سيتم تسلسلها في المستند (ما قد يؤدي إلى ملف أكبر) قراءة/كتابة Boolean. |
+| [Disable3DText](../../aspose.slides.export/isvgoptions/disable3dtext) { get; set; } | يحدد ما إذا كان النص ثلاثي الأبعاد مُعطّلاً في SVG. قراءة/كتابة Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/isvgoptions/disablefontligatures) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان النص يُعرض بدون استخدام الأحرف المتصلة. عندما يُضبط إلى `true`، سيتم تعطيل الأحرف المتصلة في النتيجة المعروضة. افتراضيًا، تكون هذه الخاصية مضبوطة على `false`. |
+| [DisableGradientSplit](../../aspose.slides.export/isvgoptions/disablegradientsplit) { get; set; } | يعطل تقسيم التدرجات FromCornerX و FromCenter. قراءة/كتابة Boolean. |
+| [DisableLineEndCropping](../../aspose.slides.export/isvgoptions/disablelineendcropping) { get; set; } | SVG 1.1 يفتقر إلى القدرة على تحديد الهوامش للعلامات. محرك كتابة Aspose.Slides SVG لديه حلاً بديلًا لهذه المشكلة: يقتطع نهاية الخط مع السهم، بحيث لا يتداخل الخط مع العلامات. هذا الخيار يوقف هذا السلوك. قراءة/كتابة Boolean. |
+| [ExternalFontsHandling](../../aspose.slides.export/isvgoptions/externalfontshandling) { get; set; } | يحدد طريقة معالجة الخطوط المحملة خارجيًا. قراءة/كتابة [`SvgExternalFontsHandling`](../svgexternalfontshandling). |
+| [InkOptions](../../aspose.slides.export/isvgoptions/inkoptions) { get; } | يُوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. للقراءة فقط [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/isvgoptions/jpegquality) { get; set; } | يحدد جودة تشفير JPEG. قراءة/كتابة Int32. |
+| [MetafileRasterizationDpi](../../aspose.slides.export/isvgoptions/metafilerasterizationdpi) { get; set; } | يُرجِع أو يضبط الحد الأدنى للدقة لتدرِيج صورة ميتافايل. قراءة/كتابة Int32. |
+| [PicturesCompression](../../aspose.slides.export/isvgoptions/picturescompression) { get; set; } | يمثل مستوى ضغط الصور. قراءة/كتابة [`PicturesCompression`](./picturescompression). |
+| [ShapeFormattingController](../../aspose.slides.export/isvgoptions/shapeformattingcontroller) { get; set; } | يُرجِع ويضبط واجهة استدعاء رجعي تسمح للمستخدم بالتحكم في تحويل الشكل. قراءة/كتابة [`ISvgShapeFormattingController`](../isvgshapeformattingcontroller). |
+| [UseFrameRotation](../../aspose.slides.export/isvgoptions/useframerotation) { get; set; } | يحدد ما إذا كان يجب تنفيذ الدوران المحدد للشكل عند العرض أم لا. قراءة/كتابة Boolean. القيمة الافتراضية هي true. |
+| [UseFrameSize](../../aspose.slides.export/isvgoptions/useframesize) { get; set; } | يحدد ما إذا كان إطار النص سيُضمّن في منطقة العرض أم لا. قراءة/كتابة Boolean. القيمة الافتراضية هي false. |
+| [VectorizeText](../../aspose.slides.export/isvgoptions/vectorizetext) { get; set; } | يحدد ما إذا كان النص على الشريحة سيُحفظ كرسومات. قراءة/كتابة Boolean. |
 
 ### انظر أيضًا
 
 * واجهة [ISaveOptions](../isaveoptions)
-* مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
-* التجميع [Aspose.Slides](../../)
+* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

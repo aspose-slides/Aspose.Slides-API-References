@@ -1,14 +1,14 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Genişletilmiş madde işaretlerinin türünü temsil eder.
+second_title: Aspose.Slides için .NET API Referansı
+description: Genişletilmiş madde işaretlerinin tipini temsil eder.
 type: docs
-weight: 1060
+weight: 1080
 url: /tr/aspose.slides/bullettype/
 ---
 ## BulletType enum
 
-Genişletilmiş madde işaretlerinin türünü temsil eder.
+Genişletilmiş madde işaretlerinin tipini temsil eder.
 
 ```csharp
 public enum BulletType : sbyte
@@ -20,7 +20,7 @@ public enum BulletType : sbyte
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | None | `0` |  |
-| Symbol | `1` | Sembolik madde işaretleri. |
+| Symbol | `1` | Sembol madde işaretleri. |
 | Numbered | `2` | Numaralı madde işaretleri. |
 | Picture | `3` | Resim madde işaretleri. |
 

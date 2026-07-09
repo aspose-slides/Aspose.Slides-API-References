@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes .NET API Referenciája
 description: Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
 type: docs
-weight: 2480
+weight: 2500
 url: /hu/aspose.slides.charts/updownbarsmanager/
 ---
 ## UpDownBarsManager osztály
 
-Hozzáférést biztosít a vonal- vagy részvény-diagram fel/le sávjaihoz.
+Hozzáférést biztosít a Line- vagy Stock-diagram fel/le sávjaihoz.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

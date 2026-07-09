@@ -1,14 +1,14 @@
 ---
 title: SketchFormat
-second_title: Aspose.Slides için .NET API Referansı
-description: Satır taslak formatı için özellikleri temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Çizgi taslak formatı için özellikleri temsil eder.
 type: docs
-weight: 9930
+weight: 9950
 url: /tr/aspose.slides/sketchformat/
 ---
-## SketchFormat sınıfı
+## SketchFormat sınıf
 
-Satır taslak formatı için özellikleri temsil eder.
+Çizgi taslak formatı için özellikleri temsil eder.
 
 ```csharp
 public sealed class SketchFormat : PVIObject, ISketchFormat
@@ -18,17 +18,17 @@ public sealed class SketchFormat : PVIObject, ISketchFormat
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt-okunur [`IPresentationComponent`](../ipresentationcomponent). |
-| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Taslak tipini döndürür veya ayarlar. Okunur/yazılabilir [`LineSketchType`](../linesketchtype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [SketchType](../../aspose.slides/sketchformat/sketchtype) { get; set; } | Taslak türünü döndürür veya ayarlar. Okunur/yazılabilir [`LineSketchType`](../linesketchtype). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesne ile karşılaştırır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodunu döndürür. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [PVIObject](../pviobject)
 * arayüz [ISketchFormat](../isketchformat)

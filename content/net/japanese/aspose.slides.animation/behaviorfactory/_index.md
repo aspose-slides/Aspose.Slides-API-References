@@ -1,24 +1,24 @@
 ---
 title: BehaviorFactory
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーション効果の作成を可能にします
 type: docs
-weight: 160
+weight: 180
 url: /ja/aspose.slides.animation/behaviorfactory/
 ---
 ## BehaviorFactory クラス
 
-アニメーション効果を作成できます
+アニメーション効果の作成を可能にします
 
 ```csharp
 public class BehaviorFactory : IBehaviorFactory
 ```
 
-## コンストラクター
+## コンストラクタ
 
 | 名前 | 説明 |
 | --- | --- |
-| [BehaviorFactory](behaviorfactory)() | 既定のコンストラクターです。 |
+| [BehaviorFactory](behaviorfactory)() | デフォルトコンストラクタです。 |
 
 ## メソッド
 
@@ -26,7 +26,7 @@ public class BehaviorFactory : IBehaviorFactory
 | --- | --- |
 | [CreateColorEffect](../../aspose.slides.animation/behaviorfactory/createcoloreffect)() | カラー効果を作成します。 |
 | [CreateCommandEffect](../../aspose.slides.animation/behaviorfactory/createcommandeffect)() | コマンド効果を作成します。 |
-| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | フィルター効果を作成します。 |
+| [CreateFilterEffect](../../aspose.slides.animation/behaviorfactory/createfiltereffect)() | フィルタ効果を作成します。 |
 | [CreateMotionEffect](../../aspose.slides.animation/behaviorfactory/createmotioneffect)() | モーション効果を作成します。 |
 | [CreatePropertyEffect](../../aspose.slides.animation/behaviorfactory/createpropertyeffect)() | プロパティ効果を作成します。 |
 | [CreateRotationEffect](../../aspose.slides.animation/behaviorfactory/createrotationeffect)() | 回転効果を作成します。 |

@@ -1,14 +1,14 @@
 ---
 title: OOXMLCorruptFileException
-second_title: Aspose.Sildes for .NET API 참조
-description: Office Open XML 파일 형식이 손상된 경우 발생하는 예외입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: Office Open XML 파일 형식이 손상되었을 때 발생하는 예외입니다.
 type: docs
 weight: 9190
 url: /ko/aspose.slides/ooxmlcorruptfileexception/
 ---
 ## OOXMLCorruptFileException 클래스
 
-Office Open XML 파일 형식이 손상된 경우 발생하는 예외입니다.
+Office Open XML 파일 형식이 손상되었을 때 발생하는 예외입니다.
 
 ```csharp
 public class OOXMLCorruptFileException : OOXMLException
@@ -19,10 +19,10 @@ public class OOXMLCorruptFileException : OOXMLException
 | 이름 | 설명 |
 | --- | --- |
 | [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor)() | 기본 생성자. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
-| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 가진 예외에 대한 생성자. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [OOXMLCorruptFileException](ooxmlcorruptfileexception#constructor_2)(string, Exception) | 메시지와 내부 예외를 포함하는 예외에 대한 생성자. |
 
-### 참조
+### 참고
 
 * 클래스 [OOXMLException](../ooxmlexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

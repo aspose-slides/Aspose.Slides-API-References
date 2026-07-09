@@ -1,14 +1,14 @@
 ---
 title: RectangleAlignment
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: กำหนดการจัดตำแหน่งสองมิติ
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: กำหนดการจัดแนวสองมิติ
 type: docs
 weight: 9690
 url: /th/aspose.slides/rectanglealignment/
 ---
-## RectangleAlignment enumeration
+## RectangleAlignment การกำหนดค่า
 
-กำหนดการจัดตำแหน่งสองมิติ
+กำหนดการจัดแนวสองมิติ
 
 ```csharp
 public enum RectangleAlignment : sbyte

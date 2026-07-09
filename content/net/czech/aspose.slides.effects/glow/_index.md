@@ -1,14 +1,14 @@
 ---
 title: Glow
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje efekt Glow, ve kterém je kolem okrajů objektu přidán rozmazaný obrys barvy.
+second_title: Aspose.Sildes pro .NET - referenční příručka API
+description: Reprezentuje efekt Glow, při kterém je kolem okrajů objektu přidán rozmazaný obrys barvy.
 type: docs
-weight: 2970
+weight: 2990
 url: /cs/aspose.slides.effects/glow/
 ---
 ## Glow třída
 
-Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
+Reprezentuje efekt Glow, ve kterém je kolem okrajů objektu přidán rozostřený obrys barvy.
 
 ```csharp
 public sealed class Glow : IGlow
@@ -16,18 +16,18 @@ public sealed class Glow : IGlow
 
 ## Vlastnosti
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
-| [Color](../../aspose.slides.effects/glow/color) { get; } | Formát barvy. Pouze pro čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Color](../../aspose.slides.effects/glow/color) { get; } | Formát barvy. Pouze ke čtení [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Radius](../../aspose.slides.effects/glow/radius) { get; set; } | Poloměr. Čtení/zápis Double. |
 
 ## Metody
 
-| Název | Popis |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/glow/equals)(object) | Určuje, zda je zadaný [`Glow`](../glow) roven aktuálnímu [`Glow`](../glow). |
 | [GetEffective](../../aspose.slides.effects/glow/geteffective)() | Získá efektivní data efektu Glow s aplikovaným děděním. |
-| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Slouží jako hash funkce pro konkrétní typ. |
+| override [GetHashCode](../../aspose.slides.effects/glow/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 
 ### Viz také
 

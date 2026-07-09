@@ -6,29 +6,29 @@ type: docs
 weight: 4480
 url: /vi/aspose.slides.export/svgcoordinateunit/
 ---
-## SvgCoordinateUnit liệt kê
+## Liệt kê SvgCoordinateUnit
 
-Đại diện cho các đơn vị tọa độ CSS2 được sử dụng để xác định tọa độ SVG.
+Biểu diễn các đơn vị tọa độ CSS2 được sử dụng để xác định tọa độ SVG.
 
 ```csharp
 public enum SvgCoordinateUnit
 ```
 
-### Giá trị
+### Các giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Inch | `0` | inch |
-| Centimeter | `1` | centimet. |
-| Millimeter | `2` | milimet. |
-| Point | `3` | điểm (1/72 inch), |
-| Pica | `4` | pica (1/6 inch). |
-| Em | `5` | kích thước Em của phông chữ của phần tử chứa. |
-| Ex | `6` | kích thước Ex (kích thước của chữ thường, thường là "x") của phông chữ của phần tử chứa. |
-| Pixel | `7` | kích thước pixel. |
-| Percent | `8` | phần trăm. |
+| Inch | `0` | Inch |
+| Centimeter | `1` | Centimet. |
+| Millimeter | `2` | Milimet. |
+| Point | `3` | Point (1/72 inch), |
+| Pica | `4` | Pica (1/6 inch). |
+| Em | `5` | Kích thước Em của phông chữ của phần tử chứa. |
+| Ex | `6` | Kích thước Ex (kích thước của ký tự chữ thường, thường là "x") của phông chữ của phần tử chứa. |
+| Pixel | `7` | Kích thước Pixel. |
+| Percent | `8` | Phần trăm. |
 
-### Xem thêm
+### Tham khảo
 
 * không gian tên [Aspose.Slides.Export](../../aspose.slides.export)
 * tập hợp [Aspose.Slides](../../)

@@ -1,9 +1,9 @@
 ---
 title: CommandEffectType
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta il tipo di effetto del comando per il comportamento dell'effetto del comando.
 type: docs
-weight: 250
+weight: 270
 url: /it/aspose.slides.animation/commandeffecttype/
 ---
 ## Enumerazione CommandEffectType

@@ -14,21 +14,21 @@ IMathSubscriptElement बनाने की अनुमति देता ह
 public class MathSubscriptElementFactory : IMathSubscriptElementFactory
 ```
 
-## कंस्ट्रक्टर
+## कंस्ट्रक्टर्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [MathSubscriptElementFactory](mathsubscriptelementfactory)() | डिफ़ॉल्ट कंस्ट्रक्टर। |
 
 ## मेथड्स
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
 | [CreateMathSubscriptElement](../../aspose.slides.mathtext/mathsubscriptelementfactory/createmathsubscriptelement)(IMathElement, IMathElement) | IMathSubscriptElement बनाता है |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-COM संगतता के लिए
+COM संगतता हेतु
 
 ### देखें
 

@@ -1,14 +1,14 @@
 ---
 title: PathCommandType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn các lệnh đường dẫn đồ họa
+second_title: Tài liệu tham khảo API Aspose.Sildes cho .NET
+description: Đại diện cho các lệnh đường dẫn đồ họa
 type: docs
 weight: 9320
 url: /vi/aspose.slides/pathcommandtype/
 ---
-## PathCommandType liệt kê
+## Kiểu liệt kê PathCommandType
 
-Biểu diễn các lệnh đường dẫn đồ họa
+Đại diện cho các lệnh đường dẫn đồ họa
 
 ```csharp
 public enum PathCommandType : byte
@@ -20,8 +20,8 @@ public enum PathCommandType : byte
 | --- | --- | --- |
 | Close | `0` | Đóng đường dẫn hình học |
 | MoveTo | `1` | Đặt vị trí điểm tiếp theo của đường dẫn hình học |
-| LineTo | `2` | Thêm đường thẳng vào đường dẫn hình học |
-| ArcTo | `3` | Thêm cung đã chỉ định vào đường dẫn hình học. |
+| LineTo | `2` | Thêm một đoạn đường thẳng vào đường dẫn hình học |
+| ArcTo | `3` | Thêm cung chỉ định vào đường dẫn hình học. |
 | QuadBezierTo | `4` | Thêm đường cong Bezier bậc hai vào đường dẫn hình học |
 | CubicBezierTo | `5` | Thêm đường cong Bezier bậc ba vào đường dẫn hình học |
 

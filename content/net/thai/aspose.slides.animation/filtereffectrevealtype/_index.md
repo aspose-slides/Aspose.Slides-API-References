@@ -1,14 +1,14 @@
 ---
 title: FilterEffectRevealType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงประเภทการเปิดเผยฟิลเตอร์
+description: แสดงประเภทการเปิดเผยฟิลเตอร์.
 type: docs
 weight: 380
 url: /th/aspose.slides.animation/filtereffectrevealtype/
 ---
-## FilterEffectRevealType enum
+## FilterEffectRevealType enumeration
 
-แสดงประเภทการเปิดเผยฟิลเตอร์.
+แสดงประเภทการเปิดเผยฟิลเตอร์
 
 ```csharp
 public enum FilterEffectRevealType

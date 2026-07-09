@@ -1,20 +1,20 @@
 ---
 title: VideoPlayerHtmlController
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและเสียงเป็น HTML
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและไฟล์เสียงเป็น HTML
 type: docs
 weight: 4580
 url: /th/aspose.slides.export/videoplayerhtmlcontroller/
 ---
 ## VideoPlayerHtmlController คลาส
 
-คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและเสียงเป็น HTML
+คลาสนี้อนุญาตให้ส่งออกไฟล์วิดีโอและไฟล์เสียงเป็น HTML
 
 ```csharp
 public class VideoPlayerHtmlController : IVideoPlayerHtmlController
 ```
 
-## ตัวสร้าง
+## คอนสตรัคเตอร์
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |

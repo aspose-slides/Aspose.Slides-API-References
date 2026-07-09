@@ -1,14 +1,14 @@
 ---
 title: MasterHandoutSlide
-second_title: Aspose.Sildes dla .NET – odniesienie API
-description: Reprezentuje slajd główny dla notatek.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje slajd nadrzędny dla notatek.
 type: docs
-weight: 7960
+weight: 7980
 url: /pl/aspose.slides/masterhandoutslide/
 ---
 ## MasterHandoutSlide klasa
 
-Reprezentuje slajd główny dla notatek.
+Reprezentuje slajd nadrzędny dla notatek.
 
 ```csharp
 public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
@@ -20,28 +20,28 @@ public class MasterHandoutSlide : BaseSlide, IMasterHandoutSlide
 | --- | --- |
 | [Background](../../aspose.slides/baseslide/background) { get; } | Zwraca tło slajdu. Tylko do odczytu [`IBackground`](../ibackground). |
 | [Controls](../../aspose.slides/baseslide/controls) { get; } | Zwraca kolekcję kontrolek ActiveX na slajdzie. Tylko do odczytu [`IControlCollection`](../icontrolcollection). |
-| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Zwraca własne dane slajdu. Tylko do odczytu [`ICustomData`](../icustomdata). |
-| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Zwraca kolekcję linii pomocniczych rysowania dla slajdu głównego notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Zwraca menedżera nagłówka i stopki slajdu głównego notatek. Tylko do odczytu [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
+| [CustomData](../../aspose.slides/baseslide/customdata) { get; } | Zwraca niestandardowe dane slajdu. Tylko do odczytu [`ICustomData`](../icustomdata). |
+| [DrawingGuides](../../aspose.slides/masterhandoutslide/drawingguides) { get; } | Zwraca kolekcję przewodników rysowania dla slajdu głównego notatek. Tylko do odczytu [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HeaderFooterManager](../../aspose.slides/masterhandoutslide/headerfootermanager) { get; } | Zwraca menedżera HeaderFooter slajdu głównego notatek. Tylko do odczytu [`IMasterHandoutSlideHeaderFooterManager`](../imasterhandoutslideheaderfootermanager). |
 | [HyperlinkQueries](../../aspose.slides/baseslide/hyperlinkqueries) { get; } | Zapewnia łatwy dostęp do zawartych hiperłączy. Tylko do odczytu [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | virtual [Name](../../aspose.slides/baseslide/name) { get; set; } | Zwraca lub ustawia nazwę slajdu. Odczyt/zapis String. |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | Zwraca interfejs IPresentation. Tylko do odczytu [`IPresentation`](../ipresentation). |
 | [Shapes](../../aspose.slides/baseslide/shapes) { get; } | Zwraca kształty slajdu. Tylko do odczytu [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Określa, czy kształty na slajdzie głównym powinny być wyświetlane na slajdach czy nie. Dla samego slajdu głównego ta właściwość zawsze zwraca `false`. Odczyt/zapis Boolean. |
+| override [ShowMasterShapes](../../aspose.slides/masterhandoutslide/showmastershapes) { get; set; } | Określa, czy kształty na slajdzie nadrzędnym powinny być wyświetlane na slajdach, czy nie. Dla samego slajdu nadrzędnego ta właściwość zawsze zwraca `false`. Odczyt/zapis Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | Zwraca identyfikator slajdu. Tylko do odczytu UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Zwraca obiekt Transition, który zawiera informacje o tym, jak dany slajd przechodzi podczas pokazu slajdów. Tylko do odczytu [`ISlideShowTransition`](../islideshowtransition). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | Zwraca obiekt Transition, który zawiera informacje o tym, jak określony slajd przechodzi w trakcie pokazu slajdów. Tylko do odczytu [`ISlideShowTransition`](../islideshowtransition). |
 | [ThemeManager](../../aspose.slides/masterhandoutslide/thememanager) { get; } | Zwraca menedżera motywu. Tylko do odczytu [`IMasterThemeManager`](../../aspose.slides.theme/imasterthememanager). |
-| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt linii czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
+| [Timeline](../../aspose.slides/baseslide/timeline) { get; } | Zwraca obiekt osi czasu animacji. Tylko do odczytu [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | Zwraca efektywny motyw dla tego slajdu. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Określa, czy dwa wystąpienia IBaseSlide są równe. Wartość zwracana jest obliczana na podstawie struktury slajdu i statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itd. są równe. Porównanie nie uwzględnia unikalnych wartości identyfikatorów, np. SlideId oraz dynamicznej zawartości, np. bieżącej wartości daty w placeholderze daty. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Znajduje pierwsze wystąpienie kształtu o określonym tekście alternatywnym. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Łączy ciągi tekstowe o tym samym formatowaniu we wszystkich akapitach wszystkich dopuszczalnych kształtów. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Łączy ciągi tekstowe o tym samym formatowaniu we wszystkich akapitach we wszystkich dopuszczalnych kształtach. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | Określa, czy dwie instancje IBaseSlide są równe. Zwracana wartość jest obliczana na podstawie struktury slajdu i jego statycznej zawartości. Dwa slajdy są równe, jeśli wszystkie kształty, style, teksty, animacje i inne ustawienia itd. są identyczne. Porównanie nie uwzględnia unikalnych wartości identyfikatorów, np. SlideId oraz dynamicznej zawartości, np. bieżącej wartości daty w polu daty. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | Znajduje pierwsze wystąpienie kształtu z określonym tekstem alternatywnym. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | Łączy fragmenty o tym samym formatowaniu we wszystkich akapitach wszystkich akceptowalnych kształtów. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | Łączy fragmenty o tym samym formatowaniu we wszystkich akapitach we wszystkich akceptowalnych kształtach. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: Aspose AI वेब क्लाइंट का एक उदाहरण बनाता है जो डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ता है। यह वह क्लाइंट है जो पैरामीटररहित SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent कंस्ट्रक्टर द्वारा उपयोग किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तब आवश्यक होता है जब क्लाइंट को सीधे SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent कंस्ट्रक्टर को पास किया जाता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: डिफ़ॉल्ट Aspose LLM एंडपॉइंट से कनेक्ट होता हुआ Aspose AI वेब क्लाइंट का एक इंस्टेंस बनाता है। यह क्लाइंट पैरामीटर-रहित SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent कंस्ट्रक्टर द्वारा उपयोग किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तब आवश्यक है जब क्लाइंट को सीधे SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent कंस्ट्रक्टर को पास किया जा रहा हो।
 type: docs
 weight: 10
 url: /hi/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-Aspose AI वेब क्लाइंट का एक उदाहरण बनाता है जो डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ता है। यह वह क्लाइंट है जिसका उपयोग पैरामीटर-रहित [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तब आवश्यक होता है जब क्लाइंट को सीधे [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) कंस्ट्रक्टर को पास किया जाता है।
+एक Aspose AI वेब क्लाइंट का उदाहरण बनाता है जो डिफ़ॉल्ट Aspose LLM एंडपॉइंट से कनेक्ट होता है। यह क्लाइंट [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) कंस्ट्रक्टर द्वारा पैरामीटर-रहित उपयोग किया जाता है, इसलिए इसे स्पष्ट रूप से बनाना केवल तभी आवश्यक है जब क्लाइंट को सीधे [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) कंस्ट्रक्टर को पास किया जा रहा हो।
 
 ```csharp
 public AsposeAIWebClient()
@@ -17,20 +17,20 @@ public AsposeAIWebClient()
 ### संबंधित देखें
 
 * क्लास [AsposeAIWebClient](../../asposeaiwebclient)
-* नेमस्पेस [Aspose.Slides.AI](../../asposeaiwebclient)
+* नामस्थान [Aspose.Slides.AI](../../asposeaiwebclient)
 * असेंबली [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-Aspose AI वेब क्लाइंट का एक उदाहरण बनाता है जो बाहरी रूप से प्रबंधित HttpClient का उपयोग करके डिफ़ॉल्ट Aspose LLM एंडपॉइंट से जुड़ता है। प्रदान किया गया HttpClient इस उदाहरण द्वारा डिस्पोज़ नहीं किया जाता और कॉलर द्वारा ही स्वामित्व में रहता है।
+एक Aspose AI वेब क्लाइंट का उदाहरण बनाता है जो बाहरी रूप से प्रबंधित HttpClient का उपयोग करके डिफ़ॉल्ट Aspose LLM एंडपॉइंट से कनेक्ट होता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा निष्कासित नहीं किया जाता और कॉलर के पास ही बना रहता है।
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
 ```
 
-| परामिति | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
 | httpClient | HttpClient | एक बाहरी रूप से प्रबंधित HttpClient इंस्टेंस। |
 
@@ -43,22 +43,22 @@ public AsposeAIWebClient(HttpClient httpClient)
 ### संबंधित देखें
 
 * क्लास [AsposeAIWebClient](../../asposeaiwebclient)
-* नेमस्पेस [Aspose.Slides.AI](../../asposeaiwebclient)
+* नामस्थान [Aspose.Slides.AI](../../asposeaiwebclient)
 * असेंबली [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-Aspose AI वेब क्लाइंट का एक उदाहरण बनाता है जो कस्टम एंडपॉइंट URL से जुड़ता है। इस ओवरलोड का उपयोग तब करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो; अन्यथा डिफ़ॉल्ट URL के साथ [`AsposeAIWebClient`](../asposeaiwebclient) ओवरलोड का उपयोग करें।
+एक Aspose AI वेब क्लाइंट का उदाहरण बनाता है जो कस्टम एंडपॉइंट URL से कनेक्ट होता है। जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो तो इस ओवरलोड का उपयोग करें; अन्यथा डिफ़ॉल्ट URL के साथ [`AsposeAIWebClient`](../asposeaiwebclient) ओवरलोड का उपयोग करें।
 
 ```csharp
 public AsposeAIWebClient(string url)
 ```
 
-| परामिति | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| url | String | Aspose LLM का एंडपॉइंट URL, जो Aspose.Slides टीम द्वारा प्रदान किया गया है। |
+| url | String | Aspose LLM का एंडपॉइंट URL, जिसे Aspose.Slides टीम द्वारा प्रदान किया गया है। |
 
 ### अपवाद
 
@@ -69,22 +69,22 @@ public AsposeAIWebClient(string url)
 ### संबंधित देखें
 
 * क्लास [AsposeAIWebClient](../../asposeaiwebclient)
-* नेमस्पेस [Aspose.Slides.AI](../../asposeaiwebclient)
+* नामस्थान [Aspose.Slides.AI](../../asposeaiwebclient)
 * असेंबली [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-Aspose AI वेब क्लाइंट का एक उदाहरण बनाता है जो बाहरी रूप से प्रबंधित HttpClient का उपयोग करके कस्टम एंडपॉइंट URL से जुड़ता है। प्रदान किया गया HttpClient इस उदाहरण द्वारा डिस्पोज़ नहीं किया जाता और कॉलर द्वारा ही स्वामित्व में रहता है। इस ओवरलोड का उपयोग तब करें जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो और आप अपना स्वयं का HttpClient प्रदान करना चाहते हैं; यदि आप केवल डिफ़ॉल्ट URL के साथ अपना HttpClient चाहते हैं, तो [`AsposeAIWebClient`](../asposeaiwebclient) ओवरलोड का उपयोग करें।
+एक Aspose AI वेब क्लाइंट का उदाहरण बनाता है जो कस्टम एंडपॉइंट URL से कनेक्ट होता है और बाहरी रूप से प्रबंधित HttpClient का उपयोग करता है। प्रदान किया गया HttpClient इस इंस्टेंस द्वारा निष्कासित नहीं किया जाता और कॉलर के पास ही बना रहता है। जब आपके पास Aspose.Slides टीम द्वारा प्रदान किया गया URL हो और आप अपना HttpClient स्वयं प्रदान करना चाहते हों तो इस ओवरलोड का उपयोग करें; यदि केवल डिफ़ॉल्ट URL के साथ अपना HttpClient चाहिए, तो [`AsposeAIWebClient`](../asposeaiwebclient) ओवरलोड का उपयोग करें।
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
 ```
 
-| परामिति | प्रकार | विवरण |
+| पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| url | String | Aspose LLM का एंडपॉइंट URL, जो Aspose.Slides टीम द्वारा प्रदान किया गया है। |
+| url | String | Aspose LLM का एंडपॉइंट URL, जिसे Aspose.Slides टीम द्वारा प्रदान किया गया है। |
 | httpClient | HttpClient | एक बाहरी रूप से प्रबंधित HttpClient इंस्टेंस। |
 
 ### अपवाद
@@ -97,7 +97,7 @@ public AsposeAIWebClient(string url, HttpClient httpClient)
 ### संबंधित देखें
 
 * क्लास [AsposeAIWebClient](../../asposeaiwebclient)
-* नेमस्पेस [Aspose.Slides.AI](../../asposeaiwebclient)
+* नामस्थान [Aspose.Slides.AI](../../asposeaiwebclient)
 * असेंबली [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

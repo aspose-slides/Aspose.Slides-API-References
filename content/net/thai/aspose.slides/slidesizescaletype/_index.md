@@ -1,14 +1,14 @@
 ---
 title: SlideSizeScaleType
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงประเภทการสเกลของเนื้อหาในสไลด์.
 type: docs
 weight: 10510
 url: /th/aspose.slides/slidesizescaletype/
 ---
-## SlideSizeScaleType enumeration
+## SlideSizeScaleType การระบุ
 
-แสดงประเภทการสเกลของเนื้อหาในสไลด์
+แสดงประเภทการสเกลของเนื้อหาในสไลด์.
 
 ```csharp
 public enum SlideSizeScaleType
@@ -18,9 +18,9 @@ public enum SlideSizeScaleType
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| DoNotScale | `0` | ไม่ทำการสเกล |
-| EnsureFit | `1` | สเกลเพื่อให้พอดี |
-| Maximize | `2` | เพิ่มขนาดของเนื้อหาให้สูงสุด |
+| DoNotScale | `0` | ไม่ปรับขนาด. |
+| EnsureFit | `1` | ปรับขนาดเพื่อให้พอดี. |
+| Maximize | `2` | ขยายขนาดเนื้อหาให้ใหญ่ที่สุด. |
 
 ### ดูเพิ่มเติม
 

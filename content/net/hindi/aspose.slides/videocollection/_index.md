@@ -1,14 +1,14 @@
 ---
 title: VideoCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Video ऑब्जेक्ट्स का संग्रह दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: Video ऑब्जेक्ट्स के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 11710
 url: /hi/aspose.slides/videocollection/
 ---
-## VideoCollection क्लास
+## VideoCollection वर्ग
 
-Video ऑब्जेक्ट्स का संग्रह दर्शाता है।
+संग्रह में Video ऑब्जेक्ट्स का प्रतिनिधित्व करता है।
 
 ```csharp
 public class VideoCollection : DomObject<Presentation>, IVideoCollection
@@ -18,25 +18,25 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | संग्रह में वीडियो फ़ाइलों की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | संग्रह तक पहुँच के समन्वय (थ्रेड-सुरक्षित) की स्थिति दर्शाने वाला मान लौटाता है। केवल-पढ़ने योग्य Boolean. |
-| [Item](../../aspose.slides/videocollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IVideo`](../ivideo). |
-| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | समन्वय रूट लौटाता है। केवल-पढ़ने योग्य Object. |
+| [Count](../../aspose.slides/videocollection/count) { get; } | संग्रह में वीडियो फ़ाइलों की संख्या लौटाता है। केवल पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | यह दर्शाता है कि संग्रह तक पहुँच सिंक्रनाइज़्ड (थ्रेड-सेफ) है या नहीं। केवल पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides/videocollection/item) { get; } | निर्दिष्ट सूचकांक पर तत्व प्राप्त करता है। केवल पढ़ने योग्य [`IVideo`](../ivideo). |
+| [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | सिंक्रनाइज़ेशन रूट लौटाता है। केवल पढ़ने योग्य Object. |
 
-## मेथड
+## विधियां
 
 | नाम | विवरण |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | बाइट एरे से प्रस्तुति में एक वीडियो बनाता है और जोड़ता है। |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | एक अन्य प्रस्तुति से वीडियो फ़ाइल की एक प्रति जोड़ता है। |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | स्ट्रीम से प्रस्तुति में एक वीडियो बनाता है और जोड़ता है। |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | निर्दिष्ट अनुक्रमणिका से शुरू करके निर्दिष्ट एरे में वीडियो कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | संग्रह पर इटेरेट करने वाला एरेटर लौटाता है। |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | बाइट एरे से प्रस्तुति में एक वीडियो बनाता है और जोड़ता है. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | एक अन्य प्रस्तुति से वीडियो फ़ाइल की एक प्रति जोड़ता है. |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | स्ट्रीम से प्रस्तुति में एक वीडियो बनाता है और जोड़ता है. |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | निर्दिष्ट सूचकांक से शुरू होकर निर्दिष्ट एरे में वीडियो कॉपी करता है. |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | संग्रह के माध्यम से इटररेट करने वाला एनेमरेटर लौटाता है. |
 
-### और देखें
+### देखें
 
-* क्लास [DomObject&lt;TParent&gt;](../domobject-1)
-* क्लास [Presentation](../presentation)
+* वर्ग [DomObject&lt;TParent&gt;](../domobject-1)
+* वर्ग [Presentation](../presentation)
 * इंटरफ़ेस [IVideoCollection](../ivideocollection)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

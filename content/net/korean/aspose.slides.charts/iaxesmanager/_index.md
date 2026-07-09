@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/iaxesmanager/
 ---
 ## IAxesManager 인터페이스
 
-차트 축에 대한 액세스를 제공합니다.
+차트 축에 대한 접근을 제공합니다.
 
 ```csharp
 public interface IAxesManager

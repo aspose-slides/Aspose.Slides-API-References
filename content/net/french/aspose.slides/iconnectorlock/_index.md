@@ -1,15 +1,14 @@
 ---
 title: IConnectorLock
-second_title: Aspose.Slides pour la référence API .NET
+second_title: Aspose.Sildes pour .NET API Référence
 description: Détermine quelles opérations sont désactivées sur le connecteur parent.
 type: docs
-weight: 5420
+weight: 5620
 url: /fr/aspose.slides/iconnectorlock/
 ---
+## IConnectorLock interface
 
-## Interface IConnectorLock
-
-Détermine quelles opérations sont désactivées sur le connecteur parent.
+Détermine quelles opérations sont désactivées sur le Connecteur parent.
 
 ```csharp
 public interface IConnectorLock : IBaseShapeLock
@@ -19,22 +18,22 @@ public interface IConnectorLock : IBaseShapeLock
 
 | Nom | Description |
 | --- | --- |
-| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Détermine si un changement des valeurs d'ajustement est interdit. Booléen en lecture/écriture. |
-| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Détermine si un changement des pointes de flèche est interdit. Booléen en lecture/écriture. |
-| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Permet d'obtenir l'interface de base IBaseShapeLock. Seulement en lecture [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Détermine si une forme doit préserver le rapport d'aspect lors du redimensionnement. Booléen en lecture/écriture. |
-| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Détermine si un changement direct du contour de cette forme est interdit. Booléen en lecture/écriture. |
-| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Détermine si l'ajout de cette forme à un groupe est interdit. Booléen en lecture/écriture. |
-| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Détermine si le déplacement de cette forme est interdit. Booléen en lecture/écriture. |
-| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Détermine si un changement de l'angle de rotation de cette forme est interdit. Booléen en lecture/écriture. |
-| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Booléen en lecture/écriture. |
-| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Détermine si un changement de type de forme est interdit. Booléen en lecture/écriture. |
-| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Détermine si un redimensionnement de cette forme est interdit. Booléen en lecture/écriture. |
+| [AdjustHandlesLocked](../../aspose.slides/iconnectorlock/adjusthandleslocked) { get; set; } | Détermine si la modification des valeurs d’ajustement est interdite. Lecture/écriture Boolean. |
+| [ArrowheadsLocked](../../aspose.slides/iconnectorlock/arrowheadslocked) { get; set; } | Détermine si la modification des pointes de flèche est interdite. Lecture/écriture Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/iconnectorlock/asibaseshapelock) { get; } | Permet d’obtenir l’interface de base IBaseShapeLock. Lecture seule [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/iconnectorlock/aspectratiolocked) { get; set; } | Détermine si une forme doit conserver le ratio d’aspect lors du redimensionnement. Lecture/écriture Boolean. |
+| [EditPointsLocked](../../aspose.slides/iconnectorlock/editpointslocked) { get; set; } | Détermine si la modification directe du contour de cette forme est interdite. Lecture/écriture Boolean. |
+| [GroupingLocked](../../aspose.slides/iconnectorlock/groupinglocked) { get; set; } | Détermine si l’ajout de cette forme à un groupe est interdit. Lecture/écriture Boolean. |
+| [PositionMove](../../aspose.slides/iconnectorlock/positionmove) { get; set; } | Détermine si le déplacement de cette forme est interdit. Lecture/écriture Boolean. |
+| [RotateLocked](../../aspose.slides/iconnectorlock/rotatelocked) { get; set; } | Détermine si la modification de l’angle de rotation de cette forme est interdite. Lecture/écriture Boolean. |
+| [SelectLocked](../../aspose.slides/iconnectorlock/selectlocked) { get; set; } | Détermine si la sélection de cette forme est interdite. Lecture/écriture Boolean. |
+| [ShapeTypeLocked](../../aspose.slides/iconnectorlock/shapetypelocked) { get; set; } | Détermine si la modification du type d’une forme est interdite. Lecture/écriture Boolean. |
+| [SizeLocked](../../aspose.slides/iconnectorlock/sizelocked) { get; set; } | Détermine si le redimensionnement de cette forme est interdit. Lecture/écriture Boolean. |
 
-### Voir Aussi
+### Voir aussi
 
-* interface [IBaseShapeLock](../ibaseshapelock)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* interface [IBaseShapeLock](../ibaseshapelock)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

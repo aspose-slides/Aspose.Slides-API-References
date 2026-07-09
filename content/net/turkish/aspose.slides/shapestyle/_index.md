@@ -3,10 +3,10 @@ title: ShapeStyle
 second_title: Aspose.Sildes için .NET API Referansı
 description: Şekillerin stil referansını temsil eder.
 type: docs
-weight: 9890
+weight: 9910
 url: /tr/aspose.slides/shapestyle/
 ---
-## ShapeStyle sınıf
+## ShapeStyle sınıfı
 
 Şeklin stil referansını temsil eder.
 
@@ -18,16 +18,16 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | Ad | Açıklama |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Şeklin etki rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Şeklin stil matrisindeki etki sütun dizinini döndürür veya ayarlar. Okunur/yazılır UInt32. |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Şeklin dolgu rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Şeklin stil matrisindeki dolgu sütun dizinini döndürür veya ayarlar. 0 dolgu yok demektir, pozitif değer tema dolgu stillerindeki dizin, negatif değer tema arka plan stillerindeki dizin. Okunur/yazılır Int16. |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Şeklin bir yazı tipi koleksiyonundaki yazı tipi dizinini döndürür veya ayarlar. Okunur/yazılır [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Şeklin yazı tipi rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Şeklin kontur rengini döndürür. Yalnızca okunur [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Çizginin stil matrisindeki sütun dizinini döndürür veya ayarlar. Okunur/yazılır UInt16. |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | Bir şeklin efekt rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | Bir şeklin stil matrisindeki efekt sütun indeksini döndürür veya ayarlar. Okunur/yazılır UInt32. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | Bir şeklin doldurma rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | Bir şeklin stil matrislerindeki doldurma sütun indeksini döndürür veya ayarlar. 0, doldurma olmadığını, pozitif değer tema doldurma stillerindeki indeksi, negatif değer tema arka plan stillerindeki indeksi gösterir. Okunur/yazılır Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | Bir şeklin yazı tipi koleksiyonundaki yazı tipi indeksini döndürür veya ayarlar. Okunur/yazılır [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | Bir şeklin yazı tipi rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | Bir şeklin anahat rengini döndürür. Salt okunur [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | Bir çizginin stil matrisindeki sütun indeksini döndürür veya ayarlar. Okunur/yazılır UInt16. |
 
-### Ayrıca bakınız
+### Diğer
 
 * sınıf [DomObject&lt;TParent&gt;](../domobject-1)
 * sınıf [Shape](../shape)

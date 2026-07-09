@@ -1,9 +1,9 @@
 ---
 title: ICommentAuthor
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Yorumların bir yazarını temsil eder.
 type: docs
-weight: 5550
+weight: 5570
 url: /tr/aspose.slides/icommentauthor/
 ---
 ## ICommentAuthor arayüz
@@ -18,9 +18,9 @@ public interface ICommentAuthor
 
 | Ad | Açıklama |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Salt okunur [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okuma/yazma String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okuma/yazma String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Yalnızca okuma [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okuma/Yazma String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okuma/Yazma String. |
 
 ## Yöntemler
 
@@ -28,7 +28,7 @@ public interface ICommentAuthor
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | Yazarı üst koleksiyondan kaldırır. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

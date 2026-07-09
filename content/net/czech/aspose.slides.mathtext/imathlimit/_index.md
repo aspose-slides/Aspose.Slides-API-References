@@ -1,14 +1,14 @@
 ---
 title: IMathLimit
-second_title: Aspose.Sildes pro .NET API Reference
-description: Specifikuje objekt Limit, který se skládá z textu na základní linii a zmenšeného textu těsně nad nebo pod ní.
+second_title: Aspose.Sildes pro .NET - referenční příručka
+description: Specifikuje objekt Limit, který se skládá z textu na základní linii a zmenšeného textu těsně nad ní nebo pod ní.
 type: docs
-weight: 8300
+weight: 8320
 url: /cs/aspose.slides.mathtext/imathlimit/
 ---
 ## IMathLimit rozhraní
 
-Specifikuje objekt Limit, který se skládá z textu na základní linii a zmenšeného textu těsně nad nebo pod ní.
+Specifikuje objekt Limit, který se skládá z textu na základní linii a zmenšeného textu těsně nad ní nebo pod ní.
 
 ```csharp
 public interface IMathLimit : IMathElement
@@ -20,7 +20,7 @@ public interface IMathLimit : IMathElement
 | --- | --- |
 | [AsIMathElement](../../aspose.slides.mathtext/imathlimit/asimathelement) { get; } | Umožňuje získat základní rozhraní IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathlimit/base) { get; } | Základní argument |
-| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Argument limitu |
+| [Limit](../../aspose.slides.mathtext/imathlimit/limit) { get; } | Limit argument |
 | [UpperLimit](../../aspose.slides.mathtext/imathlimit/upperlimit) { get; set; } | Určuje horní nebo dolní limit |
 
 ### Příklady

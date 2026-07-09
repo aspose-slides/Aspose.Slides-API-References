@@ -1,14 +1,14 @@
 ---
 title: ShapeStyle
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นการอ้างอิงสไตล์ของรูปร่าง.
+second_title: การอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงอ้างอิงสไตล์ของรูปร่าง
 type: docs
 weight: 9910
 url: /th/aspose.slides/shapestyle/
 ---
 ## ShapeStyle คลาส
 
-เป็นอ้างอิงสไตล์ของรูปร่าง
+แสดงอ้างอิงสไตล์ของรูปร่าง
 
 ```csharp
 public class ShapeStyle : DomObject<Shape>, IShapeStyle
@@ -18,14 +18,14 @@ public class ShapeStyle : DomObject<Shape>, IShapeStyle
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | คืนค่าสีเอฟเฟกต์ของรูปร่าง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | คืนค่าหรือกำหนดดัชนีคอลัมน์เอฟเฟกต์ของรูปร่างในเมทริกซ์สไตล์. อ่าน/เขียน UInt32. |
-| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | คืนค่าสีเติมของรูปร่าง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | คืนค่าหรือกำหนดดัชนีคอลัมน์การเติมของรูปร่างในเมทริกซ์สไตล์. 0 หมายถึงไม่มีการเติม, ค่าเป็นบวก - ดัชนีในสไตล์การเติมของธีม, ค่าเป็นลบ - ดัชนีในสไตล์พื้นหลังของธีม. อ่าน/เขียน Int16. |
-| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | คืนค่าหรือกำหนดดัชนีแบบอักษรของรูปร่างในคอลเลกชันแบบอักษร. อ่าน/เขียน [`FontCollectionIndex`](../fontcollectionindex). |
-| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | คืนค่าสีแบบอักษรของรูปร่าง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | คืนค่าสีโครงร่างของรูปร่าง. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
-| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | คืนค่าหรือกำหนดดัชนีคอลัมน์ของเส้นในเมทริกซ์สไตล์. อ่าน/เขียน UInt16. |
+| [EffectColor](../../aspose.slides/shapestyle/effectcolor) { get; } | คืนค่าสีเอฟเฟ็กต์ของรูปร่าง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [EffectStyleIndex](../../aspose.slides/shapestyle/effectstyleindex) { get; set; } | คืนค่า หรือ ตั้งค่าคอลัมน์ของเอฟเฟ็กต์ของรูปร่างในเมทริกซ์สไตล์ อ่าน/เขียน UInt32. |
+| [FillColor](../../aspose.slides/shapestyle/fillcolor) { get; } | คืนค่าสีเติมของรูปร่าง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [FillStyleIndex](../../aspose.slides/shapestyle/fillstyleindex) { get; set; } | คืนค่า หรือ ตั้งค่าคอลัมน์ของการเติมในเมทริกซ์สไตล์ 0 หมายถึงไม่มีการเติม ค่าบวกคือดัชนีในสไตล์การเติมของธีม ค่าลบคือดัชนีในสไตล์พื้นหลังของธีม อ่าน/เขียน Int16. |
+| [FontCollectionIndex](../../aspose.slides/shapestyle/fontcollectionindex) { get; set; } | คืนค่า หรือ ตั้งค่าอินเด็กซ์ฟอนต์ของรูปร่างในคอลเลกชันฟอนต์ อ่าน/เขียน [`FontCollectionIndex`](../fontcollectionindex). |
+| [FontColor](../../aspose.slides/shapestyle/fontcolor) { get; } | คืนค่าสีฟอนต์ของรูปร่าง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [LineColor](../../aspose.slides/shapestyle/linecolor) { get; } | คืนค่าสีขอบของรูปร่าง อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [LineStyleIndex](../../aspose.slides/shapestyle/linestyleindex) { get; set; } | คืนค่า หรือ ตั้งค่าคอลัมน์ของเส้นในเมทริกซ์สไตล์ อ่าน/เขียน UInt16. |
 
 ### ดูเพิ่มเติม
 

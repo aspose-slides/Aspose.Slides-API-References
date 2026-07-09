@@ -1,14 +1,14 @@
 ---
 title: ColorSchemeIndex
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir renk şemasındaki indeksi temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Bir renk şemasındaki dizini temsil eder.
 type: docs
-weight: 2530
+weight: 2550
 url: /tr/aspose.slides/colorschemeindex/
 ---
-## ColorSchemeIndex enumeration
+## ColorSchemeIndex enum
 
-Bir renk şemasındaki indeksi temsil eder.
+Bir renk şemasındaki bir dizini temsil eder.
 
 ```csharp
 public enum ColorSchemeIndex : byte
@@ -29,9 +29,9 @@ public enum ColorSchemeIndex : byte
 | Accent5 | `8` | Vurgu 5. |
 | Accent6 | `9` | Vurgu 6. |
 | Hyperlink | `10` | Köprü. |
-| FollowedHyperlink | `11` | Takip Edilen Köprü. |
+| FollowedHyperlink | `11` | Takip edilen Köprü. |
 
-### Ayrıca Bakınız
+### See Also
 
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)

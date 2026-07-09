@@ -1,14 +1,14 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक अपरिवर्तनीय वस्तु जो प्रभावी फ़ॉर्मेट स्कीम गुणों को सम्मिलित करती है।
+description: अपरिवर्तनीय वस्तु जो प्रभावी प्रारूप योजना गुणों को सम्मिलित करती है।
 type: docs
 weight: 11280
 url: /hi/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData इंटरफ़ेस
 
-अपरिवर्तनीय वस्तु जो प्रभावी फ़ॉर्मेट स्कीम गुणों को सम्मिलित करती है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी प्रारूप योजना गुणों को सम्मिलित करती है।
 
 ```csharp
 public interface IFormatSchemeEffectiveData
@@ -18,16 +18,16 @@ public interface IFormatSchemeEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | थीम द्वारा परिभाषित बैकग्राउंड फ़िल स्टाइल्स का संग्रह लौटाता है। |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | थीम द्वारा परिभाषित इफ़ेक्ट स्टाइल्स का संग्रह लौटाता है। |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | थीम द्वारा परिभाषित फ़िल स्टाइल्स का संग्रह लौटाता है। |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | थीम द्वारा परिभाषित लाइन स्टाइल्स का संग्रह लौटाता है। |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | थीम द्वारा परिभाषित पृष्ठभूमि भराव शैलियों का संग्रह लौटाता है। |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | थीम द्वारा परिभाषित प्रभाव शैलियों का संग्रह लौटाता है। |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | थीम द्वारा परिभाषित भराव शैलियों का संग्रह लौटाता है। |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | थीम द्वारा परिभाषित रेखा शैलियों का संग्रह लौटाता है। |
 
-### टिप्पणियाँ
+### टिप्पणी
 
-यह इंटरफ़ेस [`IThemeEffectiveData`](../ithemeeffectivedata) का भाग के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IThemeEffectiveData`](../ithemeeffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)

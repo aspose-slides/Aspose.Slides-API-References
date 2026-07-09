@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงคอลเลกชันของสไลด์แม่
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงคอลเลกชันของสไลด์หลัก.
 type: docs
 weight: 6430
 url: /th/aspose.slides/imasterslidecollection/
 ---
-## อินเทอร์เฟซ IMasterSlideCollection
+## IMasterSlideCollection อินเทอร์เฟซ
 
-แสดงถึงคอลเลกชันของสไลด์แม่
+แสดงถึงคอลเลกชันของสไลด์หลัก.
 
 ```csharp
 public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
@@ -18,17 +18,17 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | ดึงเอาอิลิเมนต์ที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IMasterSlide`](../imasterslide). |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | รับองค์ประกอบที่ตำแหน่งที่ระบุ. อ่านอย่างเดียว [`IMasterSlide`](../imasterslide). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | เพิ่มสำเนาของสไลด์แม่ที่ระบุไปยังตำแหน่งสุดท้ายของคอลเลกชัน. สไลด์เลเอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วยเช่นกัน. |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | แทรกสำเนาของสไลด์แม่ที่ระบุไปยังตำแหน่งที่ระบุของคอลเลกชัน. สไลด์เลเอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วยเช่นกัน. |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | ลบการปรากฏครั้งแรกของอ็อบเจกต์ที่ระบุจากคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | ลบอิลิเมนต์ที่ตำแหน่งที่ระบุในคอลเลกชัน. |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | ลบสไลด์แม่ที่ไม่ได้ใช้. |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | เพิ่มสำเนาของสไลด์หลักที่ระบุไปยังตำแหน่งสุดท้ายของคอลเลกชัน. สไลด์เลย์เอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วยเช่นกัน. |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | แทรกสำเนาของสไลด์หลักที่ระบุไปยังตำแหน่งที่ระบุของคอลเลกชัน. สไลด์เลย์เอาต์ที่เชื่อมโยงจะถูกคัดลอกด้วยเช่นกัน. |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | ลบการปรากฏครั้งแรกของอ็อบเจ็กต์ที่ระบุจากคอลเลกชัน. |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | ลบองค์ประกอบที่ตำแหน่งที่ระบุของคอลเลกชัน. |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | ลบสไลด์หลักที่ไม่ได้ใช้. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: ILightRigEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: كائن غير قابل للتغيير يحتوي على خصائص إعدادات الضوء الفعّالة.
+second_title: مرجع API Aspose.Sildes لـ .NET
+description: كائن غير قابل للتغيير يحتوي على خصائص تجميع الإضاءة الفعّالة.
 type: docs
 weight: 6280
 url: /ar/aspose.slides/ilightrigeffectivedata/
 ---
-## واجهة ILightRigEffectiveData
+## ILightRigEffectiveData واجهة
 
-كائن غير قابل للتغيير يحتوي على خصائص إعدادات الضوء الفعّالة.
+كائن غير قابل للتغيير يحتوي على خصائص تجميع الإضاءة الفعّالة.
 
 ```csharp
 public interface ILightRigEffectiveData
@@ -18,20 +18,20 @@ public interface ILightRigEffectiveData
 
 | الاسم | الوصف |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | اتجاه الضوء. للقراءة فقط [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | يمثل إعداد إضاءة مسبق يمكن تطبيقه على شكل. تمثل مجموعة إعدادات الإضاءة مجموعة من الأضواء الموجهة بطريقة محددة بالنسبة إلى مشهد ثلاثي الأبعاد. للقراءة فقط [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrigeffectivedata/direction) { get; } | اتجاه الضوء. قراءة فقط [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrigeffectivedata/lighttype) { get; } | يمثل إضاءة مسبقة يمكن تطبيقها على شكل. تجميع الإضاءة يمثل مجموعة من الأضواء الموجهة بطريقة محددة بالنسبة لمشهد ثلاثي الأبعاد. قراءة فقط [`LightRigPresetType`](../lightrigpresettype). |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | يتم تعريف دوران باستخدام إحداثي خط العرض، وإحداثي خط الطول، وثورة حول المحور باعتبار إحداثي خط العرض وخط الطول. العنصر الأول في مصفوفة الإرجاع - خط العرض، الثاني - خط الطول، الثالث - الثورة. |
+| [GetRotation](../../aspose.slides/ilightrigeffectivedata/getrotation)() | يتم تعريف تدوير من خلال استخدام إحداثي خط العرض، إحداثي خط الطول، وثورة حول المحور كإحداثي خط العرض وخط الطول. العنصر الأول في مصفوفة الإرجاع - خط العرض، العنصر الثاني - خط الطول، العنصر الثالث - الثورة. |
 
 ### ملاحظات
 
 تُستخدم هذه الواجهة كجزء من [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata).
 
-### أنظر أيضًا
+### أنظر أيضاً
 
 * مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * التجميع [Aspose.Slides](../../)

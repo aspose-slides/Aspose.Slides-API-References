@@ -1,6 +1,6 @@
 ---
 title: IRotationEffect
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงพฤติกรรมการหมุนของเอฟเฟกต์.
 type: docs
 weight: 570
@@ -8,7 +8,7 @@ url: /th/aspose.slides.animation/irotationeffect/
 ---
 ## IRotationEffect อินเทอร์เฟซ
 
-แสดงพฤติกรรมการหมุนของเอฟเฟกต์.
+Represent rotation behavior of effect.
 
 ```csharp
 public interface IRotationEffect : IBehavior
@@ -18,10 +18,10 @@ public interface IRotationEffect : IBehavior
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior เบสได้แบบอ่านอย่างเดียว [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | อธิบายค่าการเลื่อนเชิงสัมพันธ์สำหรับแอนิเมชัน. อ่าน/เขียน Single. |
-| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | อธิบายค่าการเริ่มต้นสำหรับแอนิเมชัน. อ่าน/เขียน Single. |
-| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | อธิบายค่าการสิ้นสุดสำหรับแอนิเมชัน. อ่าน/เขียน Single. |
+| [AsIBehavior](../../aspose.slides.animation/irotationeffect/asibehavior) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBehavior พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/irotationeffect/by) { get; set; } | อธิบายค่าการเลื่อนออฟเซ็ตสัมพัทธ์สำหรับแอนิเมชัน. อ่าน/เขียน Single. |
+| [From](../../aspose.slides.animation/irotationeffect/from) { get; set; } | อธิบายค่าตั้งต้นสำหรับแอนิเมชัน. อ่าน/เขียน Single. |
+| [To](../../aspose.slides.animation/irotationeffect/to) { get; set; } | อธิบายค่าปลายสำหรับแอนิเมชัน. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

@@ -3,10 +3,10 @@ title: FilterEffectType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili jenis efek filter.
 type: docs
-weight: 380
+weight: 400
 url: /id/aspose.slides.animation/filtereffecttype/
 ---
-## Enumerasi FilterEffectType
+## FilterEffectType enumerasi
 
 Mewakili jenis efek filter.
 
@@ -14,7 +14,7 @@ Mewakili jenis efek filter.
 public enum FilterEffectType
 ```
 
-### Nilai
+### Values
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |

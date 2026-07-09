@@ -1,6 +1,6 @@
 ---
 title: FontSubstCondition
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示字型替代的規則
 type: docs
 weight: 4880
@@ -18,10 +18,10 @@ public enum FontSubstCondition
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| WhenInaccessible | `0` | 當找不到字型時替代 |
+| WhenInaccessible | `0` | 字型未找到時替代 |
 | Always | `1` | 始終替代 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

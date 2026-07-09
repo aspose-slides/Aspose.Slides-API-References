@@ -1,14 +1,14 @@
 ---
 title: CameraPresetType
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
-description: الثوابت التي تحدد نوع ضبط الكاميرا.
+second_title: مرجع API لـ Aspose.Sildes لمنصة .NET
+description: الثوابت التي تحدد نوع إعداد الكاميرا.
 type: docs
 weight: 1100
 url: /ar/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType تعداد
 
-الثوابت التي تحدد نوع ضبط الكاميرا.
+الثوابت التي تحدد نوع إعداد الكاميرا.
 
 ```csharp
 public enum CameraPresetType

@@ -1,14 +1,14 @@
 ---
 title: GraphicalObjectLock
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: กำหนดว่าการดำเนินการใดที่ถูกปิดการทำงานบน GraphicalObject พาเรนท์
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดว่าการทำงานใดถูกปิดใช้งานบน GraphicalObject พาเรนท์
 type: docs
 weight: 5080
 url: /th/aspose.slides/graphicalobjectlock/
 ---
 ## GraphicalObjectLock คลาส
 
-Determines which operations are disabled on the parent GraphicalObject.
+กำหนดว่าการทำงานใดถูกปิดใช้งานบน GraphicalObject พาเรนท์
 
 ```csharp
 public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
@@ -18,18 +18,18 @@ public class GraphicalObjectLock : BaseShapeLock, IGraphicalObjectLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนขณะปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างย่อยของอ็อบเจ็กต์นี้ห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้ลงในกลุ่มห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หาก lock-flags ทั้งหมดถูกปิดการทำงาน. อ่านอย่างเดียว Boolean. |
-| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้ห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [AspectRatioLocked](../../aspose.slides/graphicalobjectlock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่ อ่าน/เขียน Boolean. |
+| [DrilldownLocked](../../aspose.slides/graphicalobjectlock/drilldownlocked) { get; set; } | กำหนดว่าการเลือกซับรูปร่างของอ็อบเจกต์นี้ถูกห้ามหรือไม่ อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/graphicalobjectlock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้ไปยังกลุ่มถูกห้ามหรือไม่ อ่าน/เขียน Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | คืนค่า true หากแฟล็กการล็อคทั้งหมดถูกปิดการใช้งาน อ่านอย่างเดียว Boolean. |
+| [PositionLocked](../../aspose.slides/graphicalobjectlock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ถูกห้ามหรือไม่ อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/graphicalobjectlock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ถูกห้ามหรือไม่ อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/graphicalobjectlock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้ถูกห้ามหรือไม่ อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 
 * คลาส [BaseShapeLock](../baseshapelock)
-* อินเทอร์เฟซ [IGraphicalObjectLock](../igraphicalobjectlock)
+* อินเทอร์เฟส [IGraphicalObjectLock](../igraphicalobjectlock)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

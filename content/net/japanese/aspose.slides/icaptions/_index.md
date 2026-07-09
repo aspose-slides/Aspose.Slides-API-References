@@ -1,14 +1,14 @@
 ---
 title: ICaptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: WebVTT のクローズドキャプションを表します。
+description: WebVTT クローズドキャプションを表します。
 type: docs
-weight: 5410
+weight: 5430
 url: /ja/aspose.slides/icaptions/
 ---
 ## ICaptions インターフェイス
 
-クローズドキャプション（WebVTT）を表します。
+クローズドキャプションを表します。
 
 ```csharp
 public interface ICaptions
@@ -18,10 +18,10 @@ public interface ICaptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | 閉じたキャプションのバイナリデータを返します。読み取り専用 Byte[]. |
-| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | クローズドキャプションのグローバル一意識別子 (GUID) を返します。読み取り専用 Guid. |
-| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | クローズドキャプションのデータを UTF-8 エンコードされた文字列として返します。読み取り専用 String. |
-| [Label](../../aspose.slides/icaptions/label) { get; set; } | クローズドキャプションのラベルを取得または設定します。読み書き可能 String. |
+| [BinaryData](../../aspose.slides/icaptions/binarydata) { get; } | クローズドキャプションのバイナリ データを返します。 読み取り専用 Byte[]. |
+| [CaptionId](../../aspose.slides/icaptions/captionid) { get; } | クローズドキャプションのグローバル一意識別子 (GUID) を返します。 読み取り専用 Guid. |
+| [DataAsString](../../aspose.slides/icaptions/dataasstring) { get; } | クローズドキャプション データを UTF-8 エンコードされた文字列として返します。 読み取り専用 String. |
+| [Label](../../aspose.slides/icaptions/label) { get; set; } | クローズドキャプションのラベルを取得または設定します。 読み書き可能 String. |
 
 ### 参照
 

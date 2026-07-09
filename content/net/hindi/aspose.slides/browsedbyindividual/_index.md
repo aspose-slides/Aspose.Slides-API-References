@@ -1,6 +1,6 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: व्यक्तिगत द्वारा ब्राउज़ किया गया विंडो
 type: docs
 weight: 1050
@@ -18,13 +18,13 @@ public class BrowsedByIndividual : SlideShowType
 
 | नाम | विवरण |
 | --- | --- |
-| [BrowsedByIndividual](browsedbyindividual)() | BrowsedByIndividual क्लास का नया उदाहरण प्रारंभ करता है। |
+| [BrowsedByIndividual](browsedbyindividual)() | BrowsedByIndividual class का नया इंस्टेंस इनिशियलाइज़ करता है। |
 
 ## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | विंडो में स्क्रॉलबार दिखाएँ |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | विंडो में स्क्रॉल बार दिखाएँ |
 
 ### उदाहरण
 

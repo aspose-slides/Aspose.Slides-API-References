@@ -1,14 +1,14 @@
 ---
 title: ITrendline
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Klasse vertegenwoordigt de trendlijn van een grafieksreeks
+description: Klasse vertegenwoordigt trendlijn van een grafiekreeks
 type: docs
 weight: 2240
 url: /nl/aspose.slides.charts/itrendline/
 ---
 ## ITrendline interface
 
-Klasse vertegenwoordigt de trendlijn van een grafieksreeks
+Klasse vertegenwoordigt trendlijn van een grafiekreeks
 
 ```csharp
 public interface ITrendline : IOverridableText
@@ -19,22 +19,22 @@ public interface ITrendline : IOverridableText
 | Naam | Beschrijving |
 | --- | --- |
 | [AsIOverridableText](../../aspose.slides.charts/itrendline/asioverridabletext) { get; } | Retourneert IOverridableText interface. Alleen-lezen [`IOverridableText`](../ioverridabletext). |
-| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsdiagram) waartussen de trendlijn wordt verlengd vóór de gegevens voor de reeks die wordt getrendet. Op spreidings- en niet-spreidingsdiagrammen mag de waarde elke niet-negatieve waarde zijn. Lezen/Schrijven Double. |
-| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Specificeert dat de vergelijking voor de trendlijn wordt weergegeven op het diagram (in hetzelfde label als de Rsquaredvalue). Lezen/Schrijven Boolean. |
-| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Specificeert dat de R-squared-waarde van de trendlijn wordt weergegeven op het diagram (in hetzelfde label als de vergelijking). Lezen/Schrijven Boolean. |
-| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Stelt het formaat van de trendlijn voor. Lezen/Schrijven [`IFormat`](../iformat). |
-| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsdiagram) waartussen de trendlijn wordt verlengd na de gegevens voor de reeks die wordt getrendet. Op spreidings- en niet-spreidingsdiagrammen mag de waarde elke niet-negatieve waarde zijn. Lezen/Schrijven Double. |
-| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Specificeert de waarde waarop de trendlijn de y-as zal kruisen. Deze eigenschap wordt alleen ondersteund wanneer het trendlijntype exp, lineair of poly is. Lezen/Schrijven Double. |
-| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Specificeert de graad van de polynomiale trendlijn. Het wordt genegeerd voor andere trendlijntypen. Waarde moet tussen 2 en 6 liggen. Lezen/Schrijven Byte. |
-| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Specificeert de periode van de trendlijn voor een voortschrijdend gemiddelde trendlijn. Het wordt genegeerd voor andere trendlijnvarianten. Waarde moet tussen 2 en 255 liggen. Lezen/Schrijven Byte. |
-| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Stelt de legende-vermelding gerelateerd aan deze trendlijn voor Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Haalt of stelt de naam van de trendlijn in. Lezen/Schrijven String. |
-| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Haalt of stelt het type van de trendlijn in. Lezen/Schrijven [`TrendlineType`](./trendlinetype). |
+| [Backward](../../aspose.slides.charts/itrendline/backward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsgrafiek) waaraan de trendlijn wordt verlengd vóór de gegevens voor de serie die wordt getrended. Op spreidings- en niet-spreidingsgrafieken moet de waarde een niet-negatieve waarde zijn. Lezen/schrijven Double. |
+| [DisplayEquation](../../aspose.slides.charts/itrendline/displayequation) { get; set; } | Specificeert dat de vergelijking voor de trendlijn wordt weergegeven op de grafiek (in hetzelfde label als de Rsquaredvalue). Lezen/schrijven Boolean. |
+| [DisplayRSquaredValue](../../aspose.slides.charts/itrendline/displayrsquaredvalue) { get; set; } | Specificeert dat de R-squared-waarde van de trendlijn wordt weergegeven op de grafiek (in hetzelfde label als de vergelijking). Lezen/schrijven Boolean. |
+| [Format](../../aspose.slides.charts/itrendline/format) { get; set; } | Vertegenwoordigt het formaat van de trendlijn. Lezen/schrijven [`IFormat`](../iformat). |
+| [Forward](../../aspose.slides.charts/itrendline/forward) { get; set; } | Specificeert het aantal categorieën (of eenheden op een spreidingsgrafiek) waaraan de trendlijn wordt verlengd na de gegevens voor de serie die wordt getrended. Op spreidings- en niet-spreidingsgrafieken moet de waarde een niet-negatieve waarde zijn. Lezen/schrijven Double. |
+| [Intercept](../../aspose.slides.charts/itrendline/intercept) { get; set; } | Specificeert de waarde waar de trendlijn de y-as moet kruisen. Deze eigenschap wordt alleen ondersteund wanneer het trendlijntype exp, linear of poly is. Lezen/schrijven Double. |
+| [Order](../../aspose.slides.charts/itrendline/order) { get; set; } | Specificeert de graad van de polynomiale trendlijn. Het wordt genegeerd voor andere trendlijntypen. De waarde moet tussen 2 en 6 liggen. Lezen/schrijven Byte. |
+| [Period](../../aspose.slides.charts/itrendline/period) { get; set; } | Specificeert de periode van de trendlijn voor een voortschrijdend gemiddelde. Het wordt genegeerd voor andere trendlijnvarianten. De waarde moet tussen 2 en 255 liggen. Lezen/schrijven Byte. |
+| [RelatedLegendEntry](../../aspose.slides.charts/itrendline/relatedlegendentry) { get; } | Vertegenwoordigt legendavermelding gerelateerd aan deze trendlijn Alleen-lezen [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [TrendlineName](../../aspose.slides.charts/itrendline/trendlinename) { get; set; } | Haalt of stelt de naam van de trendlijn in. Lezen/schrijven String. |
+| [TrendlineType](../../aspose.slides.charts/itrendline/trendlinetype) { get; set; } | Haalt of stelt het type van de trendlijn in. Lezen/schrijven [`TrendlineType`](./trendlinetype). |
 
 ### Zie ook
 
 * interface [IOverridableText](../ioverridabletext)
-* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

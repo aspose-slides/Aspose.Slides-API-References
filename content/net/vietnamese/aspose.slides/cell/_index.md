@@ -1,14 +1,14 @@
 ---
 title: Cell
-second_title: Tài liệu tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một ô của bảng.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một ô của bảng.
 type: docs
 weight: 1130
 url: /vi/aspose.slides/cell/
 ---
-## Cell lớp
+## Lớp Cell
 
-Biểu diễn một ô của bảng.
+Đại diện cho một ô của bảng.
 
 ```csharp
 public class Cell : ICell
@@ -18,30 +18,30 @@ public class Cell : ICell
 
 | Tên | Mô tả |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Xác định liệu hộp văn bản có được căn giữa trong ô hay không. Đọc/ghi Boolean. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Xác định việc hộp văn bản có được căn giữa bên trong ô hay không. Đọc/ghi Boolean. |
 | [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Trả về đối tượng CellFormat chứa các thuộc tính định dạng cho ô này. Chỉ đọc [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Trả về số cột lưới trong bảng cha mà ô hiện tại sẽ chiếm. Thuộc tính này cho phép các ô có vẻ như được gộp, vì chúng mở rộng qua các ranh giới dọc của các ô khác trong bảng. Chỉ đọc Int32. |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Trả về số cột lưới trong lưới bảng của bảng cha mà ô hiện tại sẽ bao phủ. Thuộc tính này cho phép các ô có vẻ như được hợp nhất, vì chúng mở rộng qua ranh giới dọc của các ô khác trong bảng. Chỉ đọc Int32. |
 | [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Lấy cột đầu tiên của ô. Chỉ đọc [`IColumn`](../icolumn). |
 | [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Trả về chỉ mục của cột đầu tiên mà ô bao phủ. Chỉ đọc Int32. |
 | [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Lấy hàng đầu tiên của ô. Chỉ đọc [`IRow`](../irow). |
 | [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Trả về chỉ mục của hàng đầu tiên mà ô bao phủ. Chỉ đọc Int32. |
 | [Height](../../aspose.slides/cell/height) { get; } | Trả về chiều cao của ô. Chỉ đọc Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Trả về true nếu ô đã được gộp với bất kỳ ô nào được điều chỉnh, ngược lại trả về false. Chỉ đọc Boolean. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Trả về hoặc đặt lề dưới trong TextFrame. Đọc/ghi Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Trả về hoặc đặt lề trái trong TextFrame. Đọc/ghi Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Trả về hoặc đặt lề phải trong TextFrame. Đọc/ghi Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Trả về hoặc đặt lề trên trong TextFrame. Đọc/ghi Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Trả về chiều cao tối thiểu của ô. Đây là tổng các chiều cao tối thiểu của mọi hàng mà ô bao phủ. Chỉ đọc Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Trả về khoảng cách từ phía trái của bảng tới phía trái của ô. Chỉ đọc Double. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Trả về true nếu ô được hợp nhất với bất kỳ ô nào đã điều chỉnh, false nếu không. Chỉ đọc Boolean. |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Trả về hoặc thiết lập lề dưới trong TextFrame. Đọc/ghi Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Trả về hoặc thiết lập lề bên trái trong TextFrame. Đọc/ghi Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Trả về hoặc thiết lập lề bên phải trong TextFrame. Đọc/ghi Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Trả về hoặc thiết lập lề trên trong TextFrame. Đọc/ghi Double. |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Trả về chiều cao tối thiểu của ô. Đây là tổng chiều cao tối thiểu của tất cả các hàng mà ô bao phủ. Chỉ đọc Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Trả về khoảng cách từ phía bên trái của bảng tới phía bên trái của ô. Chỉ đọc Double. |
 | [OffsetY](../../aspose.slides/cell/offsety) { get; } | Trả về khoảng cách từ phía trên của bảng tới phía trên của ô. Chỉ đọc Double. |
 | [Presentation](../../aspose.slides/cell/presentation) { get; } | Trả về bản trình bày cha của ô. Chỉ đọc [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Trả về số hàng mà ô đã gộp chiếm. Điều này được sử dụng cùng với thuộc tính vMerge trên các ô khác để chỉ định ô bắt đầu của việc gộp ngang. Chỉ đọc Int32. |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Trả về số hàng mà một ô hợp nhất bao phủ. Điều này được sử dụng cùng với thuộc tính vMerge trên các ô khác để chỉ định ô bắt đầu của việc hợp nhất theo chiều ngang. Chỉ đọc Int32. |
 | [Slide](../../aspose.slides/cell/slide) { get; } | Trả về slide cha của ô. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 | [Table](../../aspose.slides/cell/table) { get; } | Trả về đối tượng Table cha cho ô. Chỉ đọc [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Trả về hoặc đặt kiểu neo văn bản. Đọc/ghi [`TextAnchorType`](../textanchortype). |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Trả về hoặc thiết lập kiểu neo văn bản. Đọc/ghi [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/cell/textframe) { get; } | Trả về khung văn bản của ô. Chỉ đọc [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Trả về hoặc đặt loại văn bản dọc. Đọc/ghi [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/cell/width) { get; } | Trả về chiều rộng của ô. Chỉ đọc Double. |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Trả về hoặc thiết lập kiểu văn bản dọc. Đọc/ghi [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/cell/width) { get; } | Trả về độ rộng của ô. Chỉ đọc Double. |
 
 ## Phương thức
 
@@ -50,7 +50,7 @@ public class Cell : ICell
 | [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Tách ô thành hai ô theo chỉ mục cột. |
 | [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Tách ô theo chiều cao. |
 | [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Tách ô thành hai ô theo chỉ mục hàng. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Tách ô theo chiều rộng. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Tách ô theo độ rộng. |
 
 ### Xem thêm
 

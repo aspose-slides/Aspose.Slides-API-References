@@ -1,14 +1,14 @@
 ---
 title: TiffOptions
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format TIFF.
 type: docs
-weight: 4550
+weight: 4570
 url: /id/aspose.slides.export/tiffoptions/
 ---
 ## Kelas TiffOptions
 
-Menyediakan opsi yang mengontrol bagaimana sebuah presentasi disimpan dalam format TIFF.
+Menyediakan opsi yang mengontrol bagaimana presentasi disimpan dalam format TIFF.
 
 ```csharp
 public class TiffOptions : SaveOptions, ITiffOptions
@@ -24,20 +24,20 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Menentukan algoritma untuk mengonversi gambar berwarna menjadi gambar hitam putih. Opsi ini hanya akan diterapkan jika [`CompressionType`](./compressiontype) diatur ke CCITT4 atau CCITT3 Baca/tulis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default adalah Default. |
-| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Menentukan jenis kompresi. Baca/tulis [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca-tulis String. |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Menentukan algoritma untuk mengonversi gambar berwarna menjadi gambar hitam putih. Opsi ini hanya akan diterapkan jika [`CompressionType`](./compressiontype) disetel ke CCITT4 atau CCITT3 Baca/tulis [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Default adalah Default. |
+| [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Menentukan tipe kompresi. Baca/tulis [`TiffCompressionTypes`](../tiffcompressiontypes). |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Mengembalikan atau mengatur font yang digunakan jika font sumber tidak ditemukan. Baca/tulis String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Menentukan resolusi horizontal dalam dot per inci. Baca/tulis UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Menentukan resolusi vertikal dalam dot per inci. Baca/tulis UInt32. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Mengembalikan atau mengatur gaya visual gradien. Baca/tulis [`GradientStyle`](../../aspose.slides/gradientstyle). |
 | [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Menentukan ukuran gambar TIFF yang dihasilkan. Nilai default adalah 0x0, yang berarti ukuran gambar yang dihasilkan akan dihitung berdasarkan nilai ukuran slide presentasi. Baca/tulis Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Baca-saja [`IInkOptions`](../iinkoptions) |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Menyediakan opsi yang mengontrol tampilan objek Ink dalam dokumen yang diekspor. Hanya-baca [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Menentukan format piksel untuk gambar yang dihasilkan. Baca/tulis [`ImagePixelFormat`](../imagepixelformat). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek panggilan balik untuk pembaruan kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Mewakili objek callback untuk pembaruan kemajuan penyimpanan dalam persentase. Lihat [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Menentukan apakah dokumen yang dihasilkan harus menyertakan slide tersembunyi atau tidak. Default adalah `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah harus melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Menentukan apakah akan melewatkan hyperlink dengan panggilan JavaScript saat menyimpan presentasi. Baca/tulis Boolean. Nilai default adalah **false**. |
 | [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Mengambil atau mengatur mode penempatan slide pada halaman saat mengekspor presentasi [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau akan dibatalkan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Mengembalikan atau mengatur sebuah objek yang menerima peringatan dan memutuskan apakah proses pemuatan akan dilanjutkan atau dihentikan. Baca/tulis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Contoh
 
@@ -60,28 +60,28 @@ Contoh berikut menunjukkan cara mengonversi PowerPoint ke TIFF dengan ukuran khu
 // Membuat objek Presentation yang mewakili file Presentasi
 using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 {
-    // Membuat objek kelas TiffOptions
+    // Membuat instance kelas TiffOptions
     TiffOptions opts = new TiffOptions();
-    // Mengatur jenis kompresi
+    // Mengatur tipe kompresi
     opts.CompressionType = TiffCompressionTypes.Default;
     NotesCommentsLayoutingOptions notesOptions = new NotesCommentsLayoutingOptions();
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
-    // Jenis Kompresi
+    // Tipe Kompresi
     // Default - Menentukan skema kompresi default (LZW).
     // None - Menentukan tidak ada kompresi.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
-    // Kedalaman tergantung pada jenis kompresi dan tidak dapat diatur secara manual.
-    // Unit resolusi selalu sama dengan “2” (dot per inci)
+    // Kedalaman tergantung pada tipe kompresi dan tidak dapat diatur secara manual.
+    // Resolution unit  is always equal to “2” (dot per inci)
     // Mengatur DPI gambar
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Mengatur Ukuran Gambar
     opts.ImageSize = new Size(1728, 1078);
-    // Save the presentation to TIFF with specified image size
+    // Simpan presentasi ke TIFF dengan ukuran gambar yang ditentukan
     pres.Save("TiffWithCustomSize_out.tiff", SaveFormat.Tiff, opts);
 }
 ```
@@ -96,7 +96,7 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     TiffOptions options = new TiffOptions();
     options.PixelFormat = ImagePixelFormat.Format8bppIndexed;
     /*
-    ImagePixelFormat berisi nilai-nilai berikut (seperti dapat dilihat dari dokumentasi):
+    ImagePixelFormat berisi nilai-nilai berikut (seperti yang terlihat dalam dokumentasi):
     Format1bppIndexed; // 1 bit per piksel, terindeks.
     Format4bppIndexed; // 4 bit per piksel, terindeks.
     Format8bppIndexed; // 8 bit per piksel, terindeks.
@@ -112,7 +112,7 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
 
 * kelas [SaveOptions](../saveoptions)
 * antarmuka [ITiffOptions](../itiffoptions)
-* ruang nama [Aspose.Slides.Export](../../aspose.slides.export)
+* ruangnama [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

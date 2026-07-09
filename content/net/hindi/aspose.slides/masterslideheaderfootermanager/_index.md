@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: मास्टर स्लाइड फ़ुटर, तिथि-समय, पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को संक्षिप्त करने वाले प्रबंधक का प्रतिनिधित्व करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर मौजूद होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: मास्टर स्लाइड फुटर, दिनांक-समय, पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को धारण करने वाले प्रबंधक का प्रतिनिधित्व करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
 type: docs
 weight: 8050
 url: /hi/aspose.slides/masterslideheaderfootermanager/
 ---
-## MasterSlideHeaderFooterManager क्लास
+## MasterSlideHeaderFooterManager वर्ग
 
-एक प्रबंधक का प्रतिनिधित्व करता है जो मास्टर स्लाइड फ़ुटर, तिथि-समय, पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को रखता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं।
+मास्टर स्लाइड फुटर, दिनांक-समय, पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड प्लेसहोल्डर के व्यवहार को संभालने वाले प्रबंधक का प्रतिनिधित्व करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं।
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,30 +19,30 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | नाम | विवरण |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि तिथि-समय प्लेसहोल्डर मौजूद है। ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि फ़ुटर प्लेसहोल्डर मौजूद है। Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | एक मान प्राप्त करता है जो दर्शाता है कि पृष्ठ संख्या प्लेसहोल्डर मौजूद है। ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | यह दर्शाता है कि दिनांक-समय प्लेसहोल्डर उपस्थित है, इसका मान प्राप्त करता है। ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | यह दर्शाता है कि फुटर प्लेसहोल्डर उपस्थित है, इसका मान प्राप्त करता है। Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | यह दर्शाता है कि पृष्ठ संख्या प्लेसहोल्डर उपस्थित है, इसका मान प्राप्त करता है। ReadBoolean. |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | मास्टर स्लाइड तिथि-समय प्लेसहोल्डर और सभी चाइल्ड तिथि-समय प्लेसहोल्डर में पाठ सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं। |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | मास्टर स्लाइड तिथि-समय प्लेसहोल्डर और सभी चाइल्ड तिथि-समय प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं। |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड तिथि-समय प्लेसहोल्डर में पाठ सेट करता है। |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड तिथि-समय प्लेसहोल्डर की दृश्यता बदलता है। |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | मास्टर स्लाइड फ़ुटर प्लेसहोल्डर और सभी चाइल्ड फ़ुटर प्लेसहोल्डर में पाठ सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं। |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | मास्टर स्लाइड फ़ुटर प्लेसहोल्डर और सभी चाइल्ड फ़ुटर प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं। |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फ़ुटर प्लेसहोल्डर में पाठ सेट करता है। |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फ़ुटर प्लेसहोल्डर की दृश्यता बदलता है। |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | मास्टर स्लाइड पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड पृष्ठ संख्या प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स पर सम्मिलित होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मास्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर हैं। |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | मास्टर स्लाइड दिनांक-समय प्लेसहोल्डर और सभी चाइल्ड दिनांक-समय प्लेसहोल्डर में टेक्स्ट सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | मास्टर स्लाइड दिनांक-समय प्लेसहोल्डर और सभी चाइल्ड दिनांक-समय प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | स्लाइड दिनांक-समय प्लेसहोल्डर में टेक्स्ट सेट करता है। |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | स्लाइड दिनांक-समय प्लेसहोल्डर की दृश्यता बदलता है। |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | मास्टर स्लाइड फुटर प्लेसहोल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर में टेक्स्ट सेट करता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | मास्टर स्लाइड फुटर प्लेसहॉल्डर और सभी चाइल्ड फुटर प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | स्लाइड फुटर प्लेसहोल्डर में टेक्स्ट सेट करता है। |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | स्लाइड फुटर प्लेसहोल्डर की दृश्यता बदलता है। |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | मास्टर स्लाइड पृष्ठ संख्या प्लेसहोल्डर और सभी चाइल्ड पृष्ठ संख्या प्लेसहोल्डर की दृश्यता बदलता है। चाइल्ड प्लेसहोल्डर का अर्थ है कि प्लेसहोल्डर निर्भर लेआउट स्लाइड्स और निर्भर स्लाइड्स में शामिल होते हैं। निर्भर लेआउट स्लाइड्स और स्लाइड्स मैस्टर स्लाइड का उपयोग करती हैं और उस पर निर्भर करती हैं। |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | स्लाइड पृष्ठ संख्या प्लेसहोल्डर की दृश्यता बदलता है। |
 
 ### संबंधित देखें
 
-* क्लास [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
+* वर्ग [BaseSlideHeaderFooterManager](../baseslideheaderfootermanager)
 * इंटरफ़ेस [IMasterSlideHeaderFooterManager](../imasterslideheaderfootermanager)
-* नेमस्पेस [Aspose.Slides](../../aspose.slides)
+* नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

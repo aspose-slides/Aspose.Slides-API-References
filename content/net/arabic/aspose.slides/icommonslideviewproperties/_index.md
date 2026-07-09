@@ -1,14 +1,14 @@
 ---
 title: ICommonSlideViewProperties
-second_title: مرجع API لـ Aspose.Sildes للـ .NET
-description: يمثل خصائص عرض الشريحة العامة.
+second_title: Aspose.Sildes لواجهة برمجة تطبيقات .NET
+description: يمثل الخصائص العامة لعرض الشريحة.
 type: docs
 weight: 5600
 url: /ar/aspose.slides/icommonslideviewproperties/
 ---
 ## ICommonSlideViewProperties واجهة
 
-يمثل خصائص عرض الشريحة العامة.
+يمثل الخصائص العامة لعرض الشريحة.
 
 ```csharp
 public interface ICommonSlideViewProperties
@@ -18,9 +18,9 @@ public interface ICommonSlideViewProperties
 
 | الاسم | الوصف |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | يرجع مجموعة إرشادات الرسم. للقراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | يحدد نسبة مقياس العرض بنسب مئوية. قراءة/كتابة Int32. |
-| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | يحدد أن محتوى العرض يجب أن يتم توسيعه تلقائيًا ليتناسب بأفضل شكل مع حجم النافذة الحالي. قراءة/كتابة Boolean. |
+| [DrawingGuides](../../aspose.slides/icommonslideviewproperties/drawingguides) { get; } | يُعيد مجموعة أدوات الرسم. للقراءة فقط [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/icommonslideviewproperties/scale) { get; set; } | يحدد نسبة تكبير العرض بالنسب المئوية. قراءة/كتابة Int32. |
+| [VariableScale](../../aspose.slides/icommonslideviewproperties/variablescale) { get; set; } | يحدد أن محتوى العرض يجب أن يتناسب تلقائيًا بأفضل شكل مع حجم النافذة الحالي. قراءة/كتابة Boolean. |
 
 ### انظر أيضًا
 

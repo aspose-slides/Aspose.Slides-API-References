@@ -1,14 +1,14 @@
 ---
 title: MathRowSpacingRule
-second_title: Aspose.Sildes for .NET API 參考
-description: 矩陣或陣列中欄位之垂直間距的類型
+second_title: Aspose.Sildes .NET API 參考
+description: 矩陣或陣列中欄位之間的垂直間距類型
 type: docs
 weight: 8980
 url: /zh-hant/aspose.slides.mathtext/mathrowspacingrule/
 ---
 ## MathRowSpacingRule 列舉
 
-矩陣或陣列中欄位之垂直間距的類型
+矩陣或陣列中欄位之間的垂直間距類型
 
 ```csharp
 public enum MathRowSpacingRule
@@ -21,7 +21,7 @@ public enum MathRowSpacingRule
 | SingleLineGap | `0` | 單行間距 |
 | OneAndAHalfLineGap | `1` | 一行半間距 |
 | TwoLineGap | `2` | 雙行間距 |
-| Exactly | `3` | 完全相同（依賴 RowSpacing 屬性的值，以點為單位） |
+| Exactly | `3` | 精確（依賴 RowSpacing 屬性的值，以點為單位） |
 | Multiple | `4` | 多重（依賴 RowSpacing 屬性的值，以行為單位） |
 
 ### 另見

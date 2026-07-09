@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar alternativ för fyllningsformatering.
+description: Representerar fyllningsformateringsalternativ.
 type: docs
-weight: 4760
+weight: 4780
 url: /sv/aspose.slides/fillformat/
 ---
 ## FillFormat klass
 
-Representerar alternativ för fyllningsformatering.
+Representerar fyllningsformateringsalternativ.
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -18,7 +18,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-interfacet IPresentationComponent. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Tillåter att hämta bas-IPresentationComponent-gränssnittet. Skrivskyddad [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | Returnerar eller anger fyllningstypen. Läs/skriv [`FillType`](../filltype). |
 | [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | Returnerar gradientfyllningsformatet. Skrivskyddad [`IGradientFormat`](../igradientformat). |
 | [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | Returnerar mönsterfyllningsformatet. Skrivskyddad [`IPatternFormat`](../ipatternformat). |
@@ -30,9 +30,9 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med specificerat objekt. |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Hämtar effektiv fyllningsformateringsdata med ärvd tillämpning. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | Hämtar effektiv fyllningsformateringsdata med arv tillämpat. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även
 

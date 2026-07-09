@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bu sınıf, metin stili biçimlendirme özelliklerini içerir.
 type: docs
-weight: 10980
+weight: 11000
 url: /tr/aspose.slides/textstyle/
 ---
 ## TextStyle sınıfı
@@ -18,17 +18,17 @@ public sealed class TextStyle : PVIObject, ITextStyle
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arabirimini almayı sağlar. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Temel IPresentationComponent arayüzünü almaya izin verir. Salt okunur [`IPresentationComponent`](../ipresentationcomponent). |
 | [DefaultParagraphFormat](../../aspose.slides/textstyle/defaultparagraphformat) { get; } | Varsayılan paragraf özellikleri. Salt okunur [`IParagraphFormat`](../iparagraphformat). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Belirtilen nesneyle karşılaştırır. |
-| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Uygulanan mirasla etkili metin stili biçimlendirme verilerini alır. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Hash kodunu döndürür. |
-| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Stil seviyesi varsa onu döndürür, aksi takdirde null döndürür. |
+| [GetEffective](../../aspose.slides/textstyle/geteffective)() | Kalıtım uygulanmış etkili metin stili biçimlendirme verilerini alır. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Karma kodu döndürür. |
+| [GetLevel](../../aspose.slides/textstyle/getlevel)(int) | Stil seviyesi mevcut ise döndürür, aksi takdirde null döndürür. |
 
 ### Ayrıca Bakınız
 

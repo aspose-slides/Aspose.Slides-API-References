@@ -1,14 +1,14 @@
 ---
 title: ZoomLayout
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes a .NET API-referencia számára
 description: Megadja az összefoglaló zoom elrendezést.
 type: docs
-weight: 11840
+weight: 11860
 url: /hu/aspose.slides/zoomlayout/
 ---
-## ZoomLayout enumeráció
+## ZoomLayout felsorolás
 
-Meghatározza a összefoglaló zoom elrendezést.
+Megadja az összefoglaló zoom elrendezést.
 
 ```csharp
 public enum ZoomLayout
@@ -18,8 +18,8 @@ public enum ZoomLayout
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| GridLayout | `0` | Meghatározza a kiosztást rácsos elrendezésként az objektumok listájához. |
-| FixedLayout | `1` | Meghatározza a kiosztást felhasználó által meghatározott Zoom pozicionálással. |
+| GridLayout | `0` | Megadja az elrendezést rács elrendezésként az objektumok listájához. |
+| FixedLayout | `1` | Megadja az elrendezést felhasználó által meghatározott Zoom pozicionálással. |
 
 ### Lásd még
 

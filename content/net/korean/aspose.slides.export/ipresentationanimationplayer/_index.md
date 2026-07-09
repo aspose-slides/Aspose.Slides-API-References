@@ -1,14 +1,14 @@
 ---
 title: IPresentationAnimationPlayer
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 애니메이션 플레이어를 나타냅니다. 애니메이션은 PresentationAnimationsGenerator./presentationanimationsgenerator가 NewAnimation./presentationanimationsgenerator/newanimation 이벤트를 통해 생성합니다.
+description: 애니메이션 플레이어를 나타냅니다. PresentationAnimationsGenerator./presentationanimationsgenerator 에서 생성된 애니메이션은 NewAnimation./presentationanimationsgenerator/newanimation 이벤트를 통해 전송됩니다.
 type: docs
 weight: 4030
 url: /ko/aspose.slides.export/ipresentationanimationplayer/
 ---
 ## IPresentationAnimationPlayer 인터페이스
 
-애니메이션 플레이어를 나타냅니다.  애니메이션은 [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)가 [`NewAnimation`](../presentationanimationsgenerator/newanimation) 이벤트를 통해 생성합니다.
+애니메이션 플레이어를 나타냅니다. [`PresentationAnimationsGenerator`](../presentationanimationsgenerator)에 의해 생성된 애니메이션은 [`NewAnimation`](../presentationanimationsgenerator/newanimation) 이벤트를 통해 전송됩니다.
 
 ```csharp
 public interface IPresentationAnimationPlayer
@@ -18,13 +18,13 @@ public interface IPresentationAnimationPlayer
 
 | 이름 | 설명 |
 | --- | --- |
-| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | 애니메이션 지속 시간 [ms] 가져오기 |
+| [Duration](../../aspose.slides.export/ipresentationanimationplayer/duration) { get; } | 애니메이션 지속 시간[ms]을 가져옵니다 |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 이전에 [`SetTimePosition`](./settimeposition) 메서드로 설정된 현재 시간 위치에 대한 프레임을 가져옵니다. |
+| [GetFrame](../../aspose.slides.export/ipresentationanimationplayer/getframe)() | 이전에 [`SetTimePosition`](./settimeposition) 메서드로 설정한 현재 시간 위치에 대한 프레임을 가져옵니다. |
 | [SetTimePosition](../../aspose.slides.export/ipresentationanimationplayer/settimeposition)(double) | [`Duration`](./duration) 내에서 애니메이션 시간 위치를 설정합니다. |
 
 ### 예제
@@ -51,7 +51,7 @@ using (Presentation presentation = new Presentation("animated.pptx"))
 }
 ```
 
-### 참고
+### 자세히 보기
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

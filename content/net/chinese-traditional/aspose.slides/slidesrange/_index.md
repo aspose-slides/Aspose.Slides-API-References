@@ -1,6 +1,6 @@
 ---
 title: SlidesRange
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 投影片範圍
 type: docs
 weight: 10530

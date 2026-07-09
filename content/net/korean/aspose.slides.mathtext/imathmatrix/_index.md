@@ -1,14 +1,14 @@
 ---
 title: IMathMatrix
-second_title: Aspose.Sildes for .NET API 참조
-description: 행과 열이 하나 이상으로 배치된 자식 요소들로 구성된 Matrix 개체를 지정합니다. 매트릭스에는 기본 구분 기호가 없다는 점에 유의하십시오. 매트릭스를 대괄호 안에 배치하려면 구분 기호 객체 IMathDelimiter를 사용해야 합니다. Null 인수를 사용하여 매트릭스에 공백을 만들 수 있습니다.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: 행과 열 하나 이상에 배치된 자식 요소들로 구성된 Matrix 객체를 지정합니다. 행렬에는 내장 구분 기호가 없다는 점에 유의해야 합니다. 행렬을 괄호로 감싸려면 구분 기호 객체 IMathDelimiter를 사용해야 합니다. Null 인수를 사용하여 행렬에 빈 공간을 만들 수 있습니다.
 type: docs
 weight: 8340
 url: /ko/aspose.slides.mathtext/imathmatrix/
 ---
 ## IMathMatrix 인터페이스
 
-행과 열이 하나 이상으로 배치된 자식 요소들로 구성된 Matrix 개체를 지정합니다. 매트릭스에는 기본 구분 기호가 없다는 점에 유의하십시오. 매트릭스를 대괄호 안에 배치하려면 구분 기호 개체(IMathDelimiter)를 사용해야 합니다. Null 인수를 사용하여 매트릭스에 공백을 만들 수 있습니다.
+행과 열 하나 이상에 배치된 자식 요소들로 구성된 Matrix 객체를 지정합니다. 행렬에는 내장 구분 기호가 없다는 점에 유의해야 합니다. 행렬을 괄호로 묶으려면 구분 기호 객체(IMathDelimiter)를 사용해야 합니다. Null 인수를 사용하여 행렬에 빈 공간을 만들 수 있습니다.
 
 ```csharp
 public interface IMathMatrix : IMathElement
@@ -18,17 +18,17 @@ public interface IMathMatrix : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다 |
-| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 주변 텍스트에 대한 수직 정렬을 지정합니다. 가능한 값은 top, bottom, center이며 기본값은 Center입니다 |
-| [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | 매트릭스의 열 수 |
-| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | 매트릭스 열 사이의 가로 간격 값을 지정합니다. ColumnGapRule이 3("Exactly")으로 설정된 경우 단위는 twips(1/20th of a point)로 해석됩니다. ColumnGapRule이 4("Multiple")으로 설정된 경우 단위는 0.5 em 증분 수로 해석됩니다. 기타 경우는 무시됩니다. 기본값: 0 |
-| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | 매트릭스 열 사이의 가로 간격 유형을 지정합니다. 가로 간격 단위는 ems 또는 points(twips로 저장)일 수 있습니다. 기본값: SingleSpacingGap (0) |
-| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 비어 있는 매트릭스 요소에 대한 자리표시자를 숨깁니다. 기본값: false |
-| [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | 매트릭스 요소 |
-| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | twips(1/20th of a point) 단위의 최소 열 너비. gap spacing(“Column Gap” 또는 “Gap Width”라고도 함)은 MinColumnWidth에 추가되어 전체 Matrix Column Spacing(다른 열의 같은 가장자리 사이 거리)을 결정합니다. 기본값: 0 |
-| [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | 매트릭스의 행 수 |
-| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | 매트릭스 행 사이의 수직 간격 값을 지정합니다. RowGapRule이 3("Exactly")으로 설정된 경우 단위는 twips(1/20th of a point)로 해석됩니다. RowGapRule이 4("Multiple")으로 설정된 경우 단위는 half-lines로 해석됩니다. 기본값: 0 |
-| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | 매트릭스 행 사이의 수직 간격 유형을 지정합니다. 수직 간격 단위는 lines 또는 points(twips로 저장)일 수 있습니다. 기본값: SingleSpacingGap (0) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathmatrix/asimathelement) { get; } | 기초 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [BaseJustification](../../aspose.slides.mathtext/imathmatrix/basejustification) { get; set; } | 주변 텍스트에 대한 수직 정렬을 지정합니다. 가능한 값은 top, bottom, center이며, 기본값은 Center입니다 |
+| [ColumnCount](../../aspose.slides.mathtext/imathmatrix/columncount) { get; } | 행렬의 열 수 |
+| [ColumnGap](../../aspose.slides.mathtext/imathmatrix/columngap) { get; set; } | 행렬의 열 사이의 수평 간격 값입니다. ColumnGapRule이 3("Exactly")으로 설정된 경우 단위는 twip(포인트의 1/20)으로 해석됩니다. ColumnGapRule이 4("Multiple")으로 설정된 경우 단위는 0.5 em 증가 단위의 개수로 해석됩니다. 다른 경우에는 무시됩니다. 기본값: 0 |
+| [ColumnGapRule](../../aspose.slides.mathtext/imathmatrix/columngaprule) { get; set; } | 행렬의 열 사이 수평 간격 유형입니다. 수평 간격 단위는 em 또는 포인트(twip 단위)일 수 있습니다. 기본값: SingleSpacingGap (0) |
+| [HidePlaceholders](../../aspose.slides.mathtext/imathmatrix/hideplaceholders) { get; set; } | 빈 행렬 요소에 대한 자리 표시자를 숨깁니다. 기본값: false |
+| [Item](../../aspose.slides.mathtext/imathmatrix/item) { get; set; } | 행렬 요소 |
+| [MinColumnWidth](../../aspose.slides.mathtext/imathmatrix/mincolumnwidth) { get; set; } | twip(포인트의 1/20) 단위의 최소 열 너비입니다. Gap spacing(“Column Gap” 또는 “Gap Width”이라고도 함)은 MinColumnWidth에 추가되어 전체 Matrix Column Spacing(다른 열의 같은 가장자리 사이 거리)을 결정합니다. 기본값: 0 |
+| [RowCount](../../aspose.slides.mathtext/imathmatrix/rowcount) { get; } | 행렬의 행 수 |
+| [RowGap](../../aspose.slides.mathtext/imathmatrix/rowgap) { get; set; } | 행렬의 행 사이 수직 간격 값입니다. RowGapRule이 3("Exactly")으로 설정된 경우 단위는 twip(포인트의 1/20)으로 해석됩니다. RowGapRule이 4("Multiple")으로 설정된 경우 단위는 반 라인으로 해석됩니다. 기본값: 0 |
+| [RowGapRule](../../aspose.slides.mathtext/imathmatrix/rowgaprule) { get; set; } | 행렬의 행 사이 수직 간격 유형입니다. 수직 간격 단위는 라인 또는 포인트(twip 단위)일 수 있습니다. 기본값: SingleSpacingGap (0) |
 
 ## 메서드
 
@@ -36,17 +36,17 @@ public interface IMathMatrix : IMathElement
 | --- | --- |
 | [DeleteColumn](../../aspose.slides.mathtext/imathmatrix/deletecolumn)(int) | 지정된 열을 삭제합니다 |
 | [DeleteRow](../../aspose.slides.mathtext/imathmatrix/deleterow)(int) | 지정된 행을 삭제합니다 |
-| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 지정된 열의 가로 정렬을 가져옵니다 |
-| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 지정된 열 뒤에 새 열을 삽입합니다. 새 열의 모든 요소는 처음에 null입니다 |
-| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 지정된 열 앞에 새 열을 삽입합니다. 새 열의 모든 요소는 처음에 null입니다 |
-| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 지정된 행 뒤에 새 행을 삽입합니다. 새 행의 모든 요소는 처음에 null입니다 |
-| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 지정된 행 앞에 새 행을 삽입합니다. 새 행의 모든 요소는 처음에 null입니다 |
-| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 지정된 열의 가로 정렬을 설정합니다 |
-| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 지정된 열들의 가로 정렬을 설정합니다 |
+| [GetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/getcolumnalignment)(int) | 지정된 열의 수평 정렬을 가져옵니다 |
+| [InsertColumnAfter](../../aspose.slides.mathtext/imathmatrix/insertcolumnafter)(int) | 지정된 열 뒤에 새 열을 삽입합니다. 새 열의 모든 요소는 처음에 null입니다. |
+| [InsertColumnBefore](../../aspose.slides.mathtext/imathmatrix/insertcolumnbefore)(int) | 지정된 열 앞에 새 열을 삽입합니다. 새 열의 모든 요소는 처음에 null입니다. |
+| [InsertRowAfter](../../aspose.slides.mathtext/imathmatrix/insertrowafter)(int) | 지정된 행 뒤에 새 행을 삽입합니다. 새 행의 모든 요소는 처음에 null입니다. |
+| [InsertRowBefore](../../aspose.slides.mathtext/imathmatrix/insertrowbefore)(int) | 지정된 행 앞에 새 행을 삽입합니다. 새 행의 모든 요소는 처음에 null입니다. |
+| [SetColumnAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnalignment)(int, MathHorizontalAlignment) | 지정된 열의 수평 정렬을 설정합니다 |
+| [SetColumnsAlignment](../../aspose.slides.mathtext/imathmatrix/setcolumnsalignment)(int, uint, MathHorizontalAlignment) | 지정된 열들의 수평 정렬을 설정합니다 |
 
 ### 예제
 
-예제:
+Example:
 
 ```csharp
 [C#]
@@ -54,10 +54,10 @@ IMathMatrix matrix = new MathMatrix(2, 3);
 matrix[0, 0] = new MathematicalText("item.1.1");
 ```
 
-### 참고
+### 참조
 
-* 인터페이스 [IMathElement](../imathelement)
-* 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)
-* 어셈블리 [Aspose.Slides](../../)
+* interface [IMathElement](../imathelement)
+* namespace [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

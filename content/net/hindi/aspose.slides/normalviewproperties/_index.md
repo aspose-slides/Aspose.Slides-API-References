@@ -1,14 +1,14 @@
 ---
 title: NormalViewProperties
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्र होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक नीचे वाला सामग्री क्षेत्र।
+description: सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य तीन सामग्री क्षेत्रों से बना होता है: स्वयं स्लाइड, एक पार्श्व सामग्री क्षेत्र, और एक निचला सामग्री क्षेत्र।
 type: docs
 weight: 9110
 url: /hi/aspose.slides/normalviewproperties/
 ---
 ## NormalViewProperties क्लास
 
-सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य में तीन सामग्री क्षेत्र होते हैं: स्वयं स्लाइड, एक साइड सामग्री क्षेत्र, और एक नीचे वाला सामग्री क्षेत्र।
+सामान्य दृश्य गुणों का प्रतिनिधित्व करता है। सामान्य दृश्य तीन सामग्री क्षेत्रों से बना होता है: स्वयं स्लाइड, एक पार्श्व सामग्री क्षेत्र, और एक निचला सामग्री क्षेत्र।
 
 ```csharp
 public class NormalViewProperties : INormalViewProperties
@@ -18,21 +18,21 @@ public class NormalViewProperties : INormalViewProperties
 
 | नाम | विवरण |
 | --- | --- |
-| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | निर्दिष्ट करता है कि क्षैतिज स्प्लिटर बार किस स्थिति में दिखाया जाना चाहिए। एक क्षैतिज स्प्लिटर बार स्लाइड को स्लाइड के नीचे की सामग्री क्षेत्र से अलग करता है। |
-| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | निर्दिष्ट करता है कि उपयोगकर्ता तीन सामग्री क्षेत्रों वाले मानक सामान्य दृश्य के बजाय पूर्ण-खिड़की एकल-समग्री क्षेत्र देखना पसंद करता है या नहीं। यदि सक्षम किया जाए, तो एप्लिकेशन पूरे विंडो में सामग्री क्षेत्रों में से एक को प्रदर्शित करने का चयन कर सकता है। पढ़ने/लिखने वाला Boolean। |
-| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | यह तत्व सामान्य दृश्य के साइड सामग्री क्षेत्र के आकार को निर्दिष्ट करता है, जब क्षेत्र एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न अधिकतम) का होता है। केवल-पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)। |
-| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | यह तत्व सामान्य दृश्य के शीर्ष स्लाइड क्षेत्र के आकार को निर्दिष्ट करता है, जब क्षेत्र एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न अधिकतम) का होता है। केवल-पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties)। |
-| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | निर्दिष्ट करता है कि सामान्य दृश्य मोड में किसी भी सामग्री क्षेत्र में रूपरेखा सामग्री प्रदर्शित करते समय एप्लिकेशन को आइकॉन दिखाना चाहिए या नहीं। पढ़ने/लिखने वाला Boolean। |
-| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | निर्दिष्ट करता है कि साइड क्षेत्र पर्याप्त छोटा होने पर वर्टिकल स्प्लिटर को न्यूनतम स्थिति में स्नैप करना चाहिए या नहीं। पढ़ने/लिखने वाला Boolean। |
-| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | निर्दिष्ट करता है कि वर्टिकल स्प्लिटर बार किस स्थिति में दिखाया जाना चाहिए। एक वर्टिकल स्प्लिटर बार स्लाइड को साइड सामग्री क्षेत्र से अलग करता है। |
+| [HorizontalBarState](../../aspose.slides/normalviewproperties/horizontalbarstate) { get; set; } | निर्दिष्ट करता है कि क्षैतिज विभाजक पट्टी किस स्थिति में दिखनी चाहिए। एक क्षैतिज विभाजक पट्टी स्लाइड को स्लाइड के नीचे के सामग्री क्षेत्र से अलग करती है। |
+| [PreferSingleView](../../aspose.slides/normalviewproperties/prefersingleview) { get; set; } | निर्दिष्ट करता है कि उपयोगकर्ता मानक सामान्य दृश्य जिसमें तीन सामग्री क्षेत्रों होते हैं, की तुलना में पूर्ण-खिड़की एकल-समग्री क्षेत्र देखना पसंद करता है या नहीं। यदि सक्षम किया जाता है, तो एप्लिकेशन पूरे विंडो में किसी एक सामग्री क्षेत्र को प्रदर्शित करने का चयन कर सकता है। पढ़ने/लिखने योग्य बूलियन। |
+| [RestoredLeft](../../aspose.slides/normalviewproperties/restoredleft) { get; } | यह तत्व सामान्य दृश्य के पार्श्व सामग्री क्षेत्र का आकार निर्दिष्ट करता है, जब क्षेत्र एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न अधिकतम) में हो। केवल पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [RestoredTop](../../aspose.slides/normalviewproperties/restoredtop) { get; } | यह तत्व सामान्य दृश्य के शीर्ष स्लाइड क्षेत्र का आकार निर्दिष्ट करता है, जब क्षेत्र एक परिवर्तनीय पुनर्स्थापित आकार (न तो न्यूनतम और न अधिकतम) में हो। केवल पढ़ने योग्य [`INormalViewRestoredProperties`](../inormalviewrestoredproperties). |
+| [ShowOutlineIcons](../../aspose.slides/normalviewproperties/showoutlineicons) { get; set; } | निर्दिष्ट करता है कि एप्लिकेशन को सामान्य दृश्य मोड के किसी भी सामग्री क्षेत्र में रूपरेखा सामग्री प्रदर्शित करते समय आइकन दिखाने चाहिए या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [SnapVerticalSplitter](../../aspose.slides/normalviewproperties/snapverticalsplitter) { get; set; } | निर्दिष्ट करता है कि जब पार्श्व क्षेत्र पर्याप्त छोटा हो तो लंबवत विभाजक को न्यूनतम स्थिति में स्नैप करना चाहिए या नहीं। पढ़ने/लिखने योग्य बूलियन। |
+| [VerticalBarState](../../aspose.slides/normalviewproperties/verticalbarstate) { get; set; } | निर्दिष्ट करता है कि लंबवत विभाजक पट्टी किस स्थिति में दिखनी चाहिए। एक लंबवत विभाजक पट्टी स्लाइड को पार्श्व सामग्री क्षेत्र से अलग करती है। |
 
 ### उदाहरण
 
-निम्न उदाहरण दिखाता है कि PowerPoint प्रस्तुति की ViewProperties.NormalViewProperties गुणों को कैसे कॉन्फ़िगर किया जाए।
+निम्नलिखित उदाहरण दर्शाता है कि PowerPoint प्रस्तुति की ViewProperties.NormalViewProperties प्रॉपर्टीज़ को कैसे कॉन्फ़िगर किया जाए।
 
 ```csharp
 [C#]
-//प्रस्तुति फ़ाइल का प्रतिनिधित्व करने वाले प्रस्तुति ऑब्जेक्ट को इंस्टैंटिएट करें
+//एक प्रस्तुति फ़ाइल का प्रतिनिधित्व करने वाले प्रस्तुति ऑब्जेक्ट को बनाएँ
 using (Presentation pres = new Presentation("demo.pptx"))
 {
     pres.ViewProperties.NormalViewProperties.HorizontalBarState = SplitterBarStateType.Restored;
@@ -44,10 +44,10 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [INormalViewProperties](../inormalviewproperties)
-* नामस्थान [Aspose.Slides](../../aspose.slides)
+* नेमस्पेस [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

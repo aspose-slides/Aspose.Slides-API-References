@@ -1,14 +1,14 @@
 ---
 title: GradientStyle
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าสไตล์การไล่สีที่มีให้.
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: แสดงถึงสไตล์การไล่สีที่มีให้ใช้งาน.
 type: docs
 weight: 5060
 url: /th/aspose.slides/gradientstyle/
 ---
-## GradientStyle enumeration
+## enumeration ของ GradientStyle
 
-แทนค่าสไตล์การไล่สีที่มีให้.
+แสดงถึงสไตล์การไล่สีที่มีให้ใช้งาน.
 
 ```csharp
 public enum GradientStyle

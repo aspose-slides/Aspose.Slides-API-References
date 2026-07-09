@@ -1,33 +1,33 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과적인 형식 스킴 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 유효한 형식 스키마 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 11280
 url: /ko/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData 인터페이스
 
-효과적인 형식 스킴 속성을 포함하는 불변 객체.
+유효한 형식 스키마 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## Methods
+## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | 테마에서 정의된 배경 채우기 스타일 컬렉션을 반환합니다. |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | 테마에서 정의된 효과 스타일 컬렉션을 반환합니다. |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | 테마에서 정의된 채우기 스타일 컬렉션을 반환합니다. |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | 테마에서 정의된 선 스타일 컬렉션을 반환합니다. |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | 테마에 정의된 배경 채우기 스타일의 컬렉션을 반환합니다. |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | 테마에 정의된 효과 스타일의 컬렉션을 반환합니다. |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | 테마에 정의된 채우기 스타일의 컬렉션을 반환합니다. |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | 테마에 정의된 선 스타일의 컬렉션을 반환합니다. |
 
 ### 비고
 
 이 인터페이스는 [`IThemeEffectiveData`](../ithemeeffectivedata)의 일부로 사용됩니다.
 
-### 또 찾아보기
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: NotesPositions
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงกฎการเรนเดอร์โน้ตลงในเอกสารที่ส่งออก
+second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: แสดงถึงกฎที่ใช้เรนเดอร์โน้ตในเอกสารที่ส่งออก
 type: docs
 weight: 4300
 url: /th/aspose.slides.export/notespositions/
 ---
-## NotesPositions enum
+## NotesPositions 列舉
 
-เป็นตัวแทนของกฎในการเรนเดอร์โน้ตลงในเอกสารที่ส่งออก
+เป็นตัวแทนของกฎที่ใช้เรนเดอร์โน้ตในเอกสารที่ส่งออก
 
 ```csharp
 public enum NotesPositions
@@ -18,9 +18,9 @@ public enum NotesPositions
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| None | `0` | ระบุว่าโน้ตจะไม่แสดงเลย |
-| BottomFull | `1` | ระบุว่าโน้ตควรแสดงเต็มโดยใช้หน้าที่เพิ่มเติมตามที่จำเป็น |
-| BottomTruncated | `2` | ระบุว่าโน้ตควรแสดงในเพียงหนึ่งหน้า |
+| None | `0` | ระบุว่าโน้ตไม่ควรถูกแสดงเลย |
+| BottomFull | `1` | ระบุว่าโน้ตควรแสดงเต็มโดยใช้หน้าพิเศษตามที่จำเป็น |
+| BottomTruncated | `2` | ระบุว่าโน้ตควรแสดงในหน้าเดียวเท่านั้น |
 
 ### ดูเพิ่มเติม
 

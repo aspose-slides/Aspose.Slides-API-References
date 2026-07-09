@@ -1,14 +1,14 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes για .NET API Αναφορά
+second_title: Aspose.Sildes για .NET Αναφορά API
 description: Αναπαριστά τη διαδρομή κίνησης.
 type: docs
-weight: 670
+weight: 690
 url: /el/aspose.slides.animation/motionpath/
 ---
 ## MotionPath κλάση
 
-Αναπαριστά τη διαδρομή κίνησης.
+Αντιπροσωπεύει τη διαδρομή κίνησης.
 
 ```csharp
 public class MotionPath : IMotionPath
@@ -25,7 +25,7 @@ public class MotionPath : IMotionPath
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Count](../../aspose.slides.animation/motionpath/count) { get; } | Επιστρέφει τον αριθμό των διαδρομών στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Επιστρέφει μια εντολή στο καθορισμένο ευρετήριο. |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | Επιστρέφει μια εντολή στον καθορισμένο δείκτη. |
 
 ## Μέθοδοι
 
@@ -33,14 +33,14 @@ public class MotionPath : IMotionPath
 | --- | --- |
 | [Add](../../aspose.slides.animation/motionpath/add)(MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Προσθέτει νέα εντολή στη διαδρομή |
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | Αφαιρεί όλες τις εντολές από τη συλλογή. |
-| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Επιστρέφει έναν εκτελεστή που διατρέχει τη συλλογή. |
+| [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | Επιστρέφει έναν enumerator που διατρέχει τη συλλογή. |
 | [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | Εισάγει νέα εντολή στη διαδρομή |
 | [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | Αφαιρεί τις καθορισμένες εντολές από τη συλλογή. |
-| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Αφαιρεί μια εντολή στο καθορισμένο ευρετήριο. |
+| [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | Αφαιρεί μια εντολή στον καθορισμένο δείκτη. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IMotionPath](../imotionpath)
+* διασύνδεση [IMotionPath](../imotionpath)
 * χώρο ονομάτων [Aspose.Slides.Animation](../../aspose.slides.animation)
 * συναρμολόγηση [Aspose.Slides](../../)
 

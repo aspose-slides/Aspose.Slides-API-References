@@ -1,14 +1,14 @@
 ---
 title: ChartCellCollection
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงคอลเลกชันของเซลล์ที่มีข้อมูล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของคอลเลกชันของเซลล์ที่มีข้อมูล.
 type: docs
 weight: 1300
 url: /th/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection คลาส
 
-แสดงถึงคอลเลกชันของเซลล์ที่มีข้อมูล
+เป็นตัวแทนของคอลเลกชันของเซลล์ที่มีข้อมูล
 
 ```csharp
 public class ChartCellCollection : IChartCellCollection
@@ -16,21 +16,21 @@ public class ChartCellCollection : IChartCellCollection
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | ดึงจำนวนเซลล์ในคอลเลกชัน การอ่านอย่างเดียว Int32. |
-| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | คืนค่าเซลล์ (IChartDataCell) โดยดัชนี. |
+| [Count](../../aspose.slides.charts/chartcellcollection/count) { get; } | รับจำนวนของเซลล์ในคอลเลกชัน. อ่านอย่างเดียว Int32. |
+| [Item](../../aspose.slides.charts/chartcellcollection/item) { get; } | คืนค่าเซลล์ (IChartDataCell) ตามดัชนี. |
 
 ## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | เพิ่มเซลล์ใหม่ลงในคอลเลกชัน. |
-| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | สร้าง [`ChartDataCell`](../chartdatacell) จากค่าที่ระบุและเพิ่มลงในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add)(IChartDataCell) | เพิ่มเซลล์ใหม่ในคอลเลกชัน. |
+| [Add](../../aspose.slides.charts/chartcellcollection/add#add_1)(object) | สร้าง [`ChartDataCell`](../chartdatacell) จากค่าที่ระบุและเพิ่มเข้าไปในคอลเลกชัน. |
 | [GetCellsAddress](../../aspose.slides.charts/chartcellcollection/getcellsaddress)() | คืนค่าที่อยู่ของชุดเซลล์ในเวิร์กบุ๊ก. |
-| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | สตริงการต่อจากค่าสตริงของเซลล์ทั้งหมด. |
+| [GetConcatenatedValuesFromCells](../../aspose.slides.charts/chartcellcollection/getconcatenatedvaluesfromcells)() | สตริงการต่อจากค่าข้อความของเซลล์ทั้งหมด. |
 | [GetEnumerator](../../aspose.slides.charts/chartcellcollection/getenumerator)() | คืนค่า enumerator ที่วนซ้ำผ่านคอลเลกชัน. |
-| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | ลบเซลล์ออกจากคอลเลกชันโดยอ้างอิงดัชนี. |
+| [RemoveAt](../../aspose.slides.charts/chartcellcollection/removeat)(int) | ลบเซลล์ออกจากคอลเลกชันตามดัชนี. |
 
 ### ดูเพิ่มเติม
 

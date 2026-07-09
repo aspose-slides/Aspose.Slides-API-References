@@ -1,14 +1,14 @@
 ---
 title: IBehavior
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 効果のベースクラスの振る舞いを表します。
+description: エフェクトのベースクラスビヘイビアを表します。
 type: docs
-weight: 390
+weight: 410
 url: /ja/aspose.slides.animation/ibehavior/
 ---
 ## IBehavior インターフェイス
 
-効果のベースクラスの振る舞いを表します。
+Effect のベース クラス ビヘイビアを表します。
 
 ```csharp
 public interface IBehavior
@@ -18,12 +18,12 @@ public interface IBehavior
 
 | 名前 | 説明 |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | アニメーション ビヘイビアが蓄積されるかどうかを表します。読み書き可能 [`NullableBool`](../../aspose.slides/nullablebool)。 |
-| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | 現在のアニメーション ビヘイビアが他の実行中のアニメーションと結合されるかどうかを表します。読み書き可能 [`BehaviorAdditiveType`](../behavioradditivetype)。 |
+| [Accumulate](../../aspose.slides.animation/ibehavior/accumulate) { get; set; } | アニメーション ビヘイビアが蓄積されるかどうかを表します。読み書き [`NullableBool`](../../aspose.slides/nullablebool)。 |
+| [Additive](../../aspose.slides.animation/ibehavior/additive) { get; set; } | 現在のアニメーション ビヘイビアが他の実行中のアニメーションと結合されるかどうかを表します。読み書き [`BehaviorAdditiveType`](../behavioradditivetype)。 |
 | [Properties](../../aspose.slides.animation/ibehavior/properties) { get; } | ビヘイビアのプロパティを表します。読み取り専用 [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)。 |
-| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | 効果ビヘイビアのタイミング プロパティを表します。読み書き可能 [`ITiming`](../itiming)。 |
+| [Timing](../../aspose.slides.animation/ibehavior/timing) { get; set; } | エフェクト ビヘイビアのタイミング プロパティを表します。読み書き [`ITiming`](../itiming)。 |
 
-### 参照
+### 関連項目
 
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)

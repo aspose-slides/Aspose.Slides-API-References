@@ -1,6 +1,6 @@
 ---
 title: IFontScheme
-second_title: مرجع API Aspose.Sildes برای .NET
+second_title: Aspose.Sildes برای .NET مرجع API
 description: فونت‌های تعریف‌شده توسط تم را ذخیره می‌کند.
 type: docs
 weight: 11250
@@ -14,13 +14,13 @@ url: /fa/aspose.slides.theme/ifontscheme/
 public interface IFontScheme
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
-| نام | توضیح |
+| Name | Description |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | مجموعهٔ فونت‌ها را برای بخش «heading» اسلاید برمی‌گرداند. فقط-خواندنی [`IFonts`](../../aspose.slides/ifonts). |
-| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | مجموعهٔ فونت‌ها را برای بخش «body» اسلاید برمی‌گرداند. فقط-خواندنی [`IFonts`](../../aspose.slides/ifonts). |
-| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | نام طرح‌فونت را برمی‌گرداند. خواند/نوشتن String. |
+| [Major](../../aspose.slides.theme/ifontscheme/major) { get; } | مجموعه فونت‌ها را برای بخش «heading» اسلاید برمی‌گرداند. فقط خواندنی [`IFonts`](../../aspose.slides/ifonts). |
+| [Minor](../../aspose.slides.theme/ifontscheme/minor) { get; } | مجموعه فونت‌ها را برای بخش «body» اسلاید برمی‌گرداند. فقط خواندنی [`IFonts`](../../aspose.slides/ifonts). |
+| [Name](../../aspose.slides.theme/ifontscheme/name) { get; set; } | نام طرح فونت را برمی‌گرداند. خواندنی/نوشتنی String. |
 
 ### همچنین ببینید
 

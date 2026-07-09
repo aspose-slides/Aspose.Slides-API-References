@@ -1,25 +1,25 @@
 ---
 title: IAIWebClient
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: AI Web क्लाइंट इंटरफ़ेस। यह इंटरफ़ेस विभिन्न AI भाषा मॉडलों को बदलने में सक्षम बनाता है। इस इंटरफ़ेस को लागू करने वाली क्लासेज को SlidesAIAgent के साथ उपयोग करने के लिए माना जाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: AI वेब क्लाइंट इंटरफ़ेस। यह इंटरफ़ेस विभिन्न AI भाषा मॉडलों को प्रतिस्थापित करने में सक्षम बनाता है। इस इंटरफ़ेस को लागू करने वाली क्लासेस को SlidesAIAgent के साथ उपयोग किया जाना चाहिए।
 type: docs
 weight: 30
 url: /hi/aspose.slides.ai/iaiwebclient/
 ---
 ## IAIWebClient इंटरफ़ेस
 
-AI Web क्लाइंट इंटरफ़ेस। यह इंटरफ़ेस विभिन्न AI भाषा मॉडलों को बदलने में सक्षम बनाता है। इस इंटरफ़ेस को लागू करने वाली क्लासेज को `SlidesAIAgent` के साथ उपयोग करने के लिए माना जाता है।
+AI वेब क्लाइंट इंटरफ़ेस। यह इंटरफ़ेस विभिन्न AI भाषा मॉडलों को प्रतिस्थापित करने में सक्षम बनाता है। इस इंटरफ़ेस को लागू करने वाली क्लासेस को `SlidesAIAgent` के साथ उपयोग किया जाना चाहिए।
 
 ```csharp
 public interface IAIWebClient
 ```
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | प्रदान किए गए `HttpClient` इंस्टैंस का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और निर्दिष्ट निर्देश के लिए प्रतिक्रिया संदेश लौटाता है। |
-| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | एक वार्तालाप इंस्टैंस बनाता है। सामान्य AI कॉल्स के विपरीत, वार्तालाप पूरे संदर्भ को बनाए रखते हैं। |
+| [CallChatAsync](../../aspose.slides.ai/iaiwebclient/callchatasync)(string) | प्रदान किए गए `HttpClient` उदाहरण का उपयोग करके AI मॉडल को एक चैट निर्देश भेजता है और दिए गए निर्देश के लिए प्रतिक्रिया संदेश लौटाता है। |
+| [CreateConversation](../../aspose.slides.ai/iaiwebclient/createconversation)() | एक वार्तालाप इंस्टेंस बनाता है। नियमित AI कॉल्स के विपरीत, वार्तालाप पूरे संदर्भ को बरकरार रखता है। |
 
 ### देखें भी
 

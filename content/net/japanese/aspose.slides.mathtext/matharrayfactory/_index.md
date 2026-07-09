@@ -3,7 +3,7 @@ title: MathArrayFactory
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 数式配列を作成できます
 type: docs
-weight: 8540
+weight: 8560
 url: /ja/aspose.slides.mathtext/matharrayfactory/
 ---
 ## MathArrayFactory クラス
@@ -18,14 +18,14 @@ public class MathArrayFactory : IMathArrayFactory
 
 | 名前 | 説明 |
 | --- | --- |
-| [MathArrayFactory](matharrayfactory)() | デフォルトコンストラクタです。 |
+| [MathArrayFactory](matharrayfactory)() | デフォルト コンストラクタです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray)(IMathElement) | 数式配列を作成し、指定された要素を配置します |
-| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 数式配列を作成し、指定された要素群を配置します |
+| [CreateMathArray](../../aspose.slides.mathtext/matharrayfactory/creatematharray#creatematharray_1)(IMathElementCollection) | 数式配列を作成し、指定された要素を配置します |
 
 ### 備考
 

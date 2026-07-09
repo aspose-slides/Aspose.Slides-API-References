@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Duotone エフェクトを表します。
 type: docs
-weight: 3240
+weight: 3260
 url: /ja/aspose.slides.effects/iduotone/
 ---
 ## IDuotone インターフェイス
@@ -18,12 +18,12 @@ public interface IDuotone : IAccessiblePVIObject<IDuotoneEffectiveData>, IImageT
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | ベースの IAccessiblePVIObject インターフェイスを取得できます。 読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | ベースの IImageTransformOperation インターフェイスを取得できます。 読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | 暗いピクセルの対象カラー形式を返します。 読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
-| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | 明るいピクセルの対象カラー形式を返します。 読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iduotone/asiaccessiblepviobject) { get; } | ベース IAccessiblePVIObject インターフェイスを取得できます。読み取り専用 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iduotone/asiimagetransformoperation) { get; } | ベース IImageTransformOperation インターフェイスを取得できます。読み取り専用 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [Color1](../../aspose.slides.effects/iduotone/color1) { get; } | ダークピクセルのターゲット カラー フォーマットを返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
+| [Color2](../../aspose.slides.effects/iduotone/color2) { get; } | ライトピクセルのターゲット カラー フォーマットを返します。読み取り専用 [`IColorFormat`](../../aspose.slides/icolorformat)。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IDuotoneEffectiveData](../iduotoneeffectivedata)

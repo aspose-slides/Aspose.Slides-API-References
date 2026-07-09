@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: एक चार्ट के पैराग्राफ फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है।
+description: एक चार्ट की पैराग्राफ फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है।
 type: docs
 weight: 1900
 url: /hi/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat इंटरफ़ेस
 
-एक चार्ट के पैराग्राफ फ़ॉर्मेटिंग प्रॉपर्टीज़ का प्रतिनिधित्व करता है।
+Represents a paragraph formatting properties of a chart.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -18,24 +18,24 @@ public interface IChartParagraphFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | एक पैराग्राफ में टेक्स्ट संरेखण को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | डिफ़ॉल्ट टैबुलेशन आकार को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | निर्धारित करता है कि क्या एक पैराग्राफ में ईस्ट एशियाई लाइन ब्रेक उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | एक पैराग्राफ में फ़ॉन्ट संरेखण को प्राप्त करता है या सेट करता है। पढ़ें/लिखें [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | निर्धारित करता है कि क्या एक पैराग्राफ में हैंगिंग पंक्‍चुएशन उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | पैराग्राफ के प्रथम पंक्ति इनडेंट/हैंगिंग इनडेंट को प्राप्त करता है या सेट करता है। हैंगिंग इनडेंट को नकारात्मक मानों के साथ परिभाषित किया जा सकता है। पढ़ें/लिखें Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | निर्धारित करता है कि क्या एक पैराग्राफ में लैटिन लाइन ब्रेक उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | एक पैराग्राफ में बायाँ मार्जिन प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | एक पैराग्राफ में दायाँ मार्जिन प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | निर्धारित करता है कि क्या एक पैराग्राफ में दाएँ से बाएँ लेखन उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | एक पैराग्राफ में अंतिम पंक्ति के बाद स्थान की मात्रा को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | एक पैराग्राफ में प्रथम पंक्ति से पहले स्थान की मात्रा को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | एक पैराग्राफ में बेस लाइनों के बीच स्थान की मात्रा को प्राप्त करता है या सेट करता है। पढ़ें/लिखें Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | एक पैराग्राफ की टैबुलेशन को प्राप्त करता है। केवल पढ़ने योग्य [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | एक पैराग्राफ में टेक्स्ट संरेखण को लौटाता है या सेट करता है। पढ़ें/लिखें [`TextAlignment`](../../aspose.slides/textalignment)। |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | डिफ़ॉल्ट टैबुलेशन आकार को लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | निर्धारित करता है कि क्या पैराग्राफ में ईस्ट एशियन लाइन ब्रेक उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | एक पैराग्राफ में फ़ॉन्ट संरेखण को लौटाता है या सेट करता है। पढ़ें/लिखें [`FontAlignment`](../../aspose.slides/fontalignment)। |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | निर्धारित करता है कि क्या पैराग्राफ में हैंगिंग विरामचिह्न उपयोग किया जाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | पैराग्राफ की पहली पंक्ति इंडेंट/हैंगिंग इंडेंट को लौटाता है या सेट करता है। हैंगिंग इंडेंट नकारात्मक मानों से परिभाषित किया जा सकता है। पढ़ें/लिखें Single। |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | निर्धारित करता है कि पैराग्राफ में लैटिन लाइन ब्रेक उपयोग किया जाता है या नहीं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | पैराग्राफ में बायाँ मार्जिन लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | पैराग्राफ में दायाँ मार्जिन लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | निर्धारित करता है कि पैराग्राफ में दाएं से बाएं लेखन उपयोग किया जाता है या नहीं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | पैराग्राफ में अंतिम पंक्ति के बाद की स्पेस की मात्रा लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | पैराग्राफ में पहली पंक्ति से पहले की स्पेस की मात्रा लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | पैराग्राफ में बेस लाइनों के बीच की स्पेस की मात्रा लौटाता है या सेट करता है। पढ़ें/लिखें Single। |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | पैराग्राफ की टैबुलेशन लौटाता है। केवल-पढ़ने योग्य [`ITabCollection`](../../aspose.slides/itabcollection)। |
 
-### देखें
+### देखें भी
 
-* नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
-* असेंबली [Aspose.Slides](../../)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

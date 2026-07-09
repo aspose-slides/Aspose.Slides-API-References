@@ -1,14 +1,14 @@
 ---
 title: ScaleEffect
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een animatie-schaaleffect voor.
+description: Stelt een animatieschaaleffect voor.
 type: docs
 weight: 780
 url: /nl/aspose.slides.animation/scaleeffect/
 ---
 ## ScaleEffect klasse
 
-Stelt een animatie-schaaleffect voor.
+Stelt een animatieschaaleffect voor.
 
 ```csharp
 public class ScaleEffect : Behavior, IScaleEffect
@@ -16,22 +16,22 @@ public class ScaleEffect : Behavior, IScaleEffect
 
 ## Constructoren
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [ScaleEffect](scaleeffect)() | De standaardconstructor. |
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft weer of animatiegedrag wordt opgeteld. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft weer of het huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/Schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | beschrijft de relatieve offsetwaarde voor de animatie (in procenten). Lezen/Schrijven PointF. |
-| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Specificeert een x/y-coördinaat waar de animatie vanaf start (in procenten). Lezen/Schrijven PointF. |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatiegedragingen worden geaccumuleerd. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of het huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [By](../../aspose.slides.animation/scaleeffect/by) { get; set; } | Beschrijft de relatieve offsetwaarde voor de animatie (in procenten). Lezen/schrijven PointF. |
+| [From](../../aspose.slides.animation/scaleeffect/from) { get; set; } | Specificeert een x/y-coördinate om de animatie van te starten (in procenten). Lezen/schrijven PointF. |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Geeft de eigenschappen van gedrag weer. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timingeigenschappen voor het effectgedrag weer. Lezen/Schrijven [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Specificeert de doelpositie voor een animatie-schaaleffect (in procenten). Lezen/Schrijven PointF. |
-| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Bepaalt of een inhoud ingezoomd moet worden. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timingeigenschappen voor het effectgedrag weer. Lezen/schrijven [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/scaleeffect/to) { get; set; } | Specificeert de doelpositie voor een animatieschaaleffect (in procenten). Lezen/schrijven PointF. |
+| [ZoomContent](../../aspose.slides.animation/scaleeffect/zoomcontent) { get; set; } | Bepaalt of een inhoud moet worden ingezoomd. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Zie ook
 

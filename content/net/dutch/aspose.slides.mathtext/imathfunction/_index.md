@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) |
-| [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Functieargument |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Functienaam. Bijvoorbeeld, functienamen zijn sin en cos |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Staat toe de basis IMathElement interface [`IMathElement`](../imathelement) op te halen |
+| [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Functie-argument |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Functienaam Bijvoorbeeld, functienamen zijn sin en cos |
 
 ### Voorbeelden
 

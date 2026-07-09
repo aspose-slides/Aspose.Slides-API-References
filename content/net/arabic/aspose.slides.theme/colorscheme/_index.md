@@ -1,14 +1,14 @@
 ---
 title: ColorScheme
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يخزن الألوان المحددة في السمة.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يخزن الألوان المعرفة في السِمة.
 type: docs
 weight: 11070
 url: /ar/aspose.slides.theme/colorscheme/
 ---
-## فئة ColorScheme
+## ColorScheme فئة
 
-يخزن الألوان المعرفة في السمة.
+يخزن الألوان المعرفة في السِمة.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -18,26 +18,26 @@ public class ColorScheme : IColorScheme
 
 | الاسم | الوصف |
 | --- | --- |
-| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | اللون الأول المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | اللون الثاني المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | اللون الثالث المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | اللون الرابع المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | اللون الخامس المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | اللون السادس المميز في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | اللون الداكن الأول في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | اللون الداكن الثاني في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | لون الروابط التشعبية التي تم زيارتها. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | لون الروابط التشعبية. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | يحصل على العنصر في الفهرس المحدد. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | اللون الفاتح الأول في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | اللون الفاتح الثاني في المخطط. قراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | يعيد العرض التقديمي الأصلي. قراءة فقط [`IPresentation`](../../aspose.slides/ipresentation). |
-| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | يعيد الشريحة الأم. قراءة فقط [`IBaseSlide`](../../aspose.slides/ibaseslide). |
+| [Accent1](../../aspose.slides.theme/colorscheme/accent1) { get; } | اللون الأول المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent2](../../aspose.slides.theme/colorscheme/accent2) { get; } | اللون الثاني المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent3](../../aspose.slides.theme/colorscheme/accent3) { get; } | اللون الثالث المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent4](../../aspose.slides.theme/colorscheme/accent4) { get; } | اللون الرابع المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent5](../../aspose.slides.theme/colorscheme/accent5) { get; } | اللون الخامس المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | اللون السادس المميز في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | اللون الأول الداكن في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | اللون الثاني الداكن في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | لون الروابط التي تم زيارتها. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | لون الروابط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | يحصل على العنصر في الفهرس المحدد. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | اللون الأول الفاتح في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | اللون الثاني الفاتح في المخطط. للقراءة فقط [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | يعيد العرض الأم. للقراءة فقط [`IPresentation`](../../aspose.slides/ipresentation). |
+| [Slide](../../aspose.slides.theme/colorscheme/slide) { get; } | يعيد الشريحة الأم. للقراءة فقط [`IBaseSlide`](../../aspose.slides/ibaseslide). |
 
 ### انظر أيضًا
 
 * واجهة [IColorScheme](../icolorscheme)
-* مساحة اسم [Aspose.Slides.Theme](../../aspose.slides.theme)
-* تجميعة [Aspose.Slides](../../)
+* نطاق [Aspose.Slides.Theme](../../aspose.slides.theme)
+* تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

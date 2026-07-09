@@ -1,6 +1,6 @@
 ---
 title: LinkEmbedDecision
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Bepaalt hoe het object wordt verwerkt tijdens het opslaan.
 type: docs
 weight: 4230
@@ -19,7 +19,7 @@ public enum LinkEmbedDecision
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | Link | `0` | Object wordt extern opgeslagen, verwezen via URL |
-| Embed | `1` | Object moet, indien mogelijk, worden ingesloten in een gegenereerd bestand. Als insluiten onmogelijk is, wordt GetUrl aangeroepen en, afhankelijk van het resultaat, wordt het object verwezen via URL of genegeerd. |
+| Embed | `1` | Object moet worden ingebed in een gegenereerd bestand indien mogelijk. Als inbedding niet mogelijk is, wordt GetUrl aangeroepen en, afhankelijk van het resultaat, wordt het object verwezen via URL of genegeerd. |
 | Ignore | `2` | Object wordt genegeerd. |
 
 ### Zie ook

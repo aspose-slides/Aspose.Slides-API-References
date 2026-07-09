@@ -1,14 +1,14 @@
 ---
 title: ExcelDataWorkbook
 second_title: Aspose.Sildes for .NET API 참조
-description: 일반 사용을 위해 Excel 데이터에 액세스할 수 있는 워크북을 나타냅니다.
+description: 일반 사용을 위해 Excel 데이터에 접근할 수 있는 워크북을 나타냅니다.
 type: docs
 weight: 3690
 url: /ko/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook 클래스
 
-일반 사용을 위해 Excel 데이터를 액세스할 수 있는 워크북을 나타냅니다.
+일반 사용을 위해 Excel 데이터에 접근할 수 있는 워크북을 나타냅니다.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
@@ -18,7 +18,7 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 
 | 이름 | 설명 |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | 제공된 스트림을 사용하여 클래스의 새 인스턴스를 초기화합니다. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | 제공된 Stream을 사용하여 클래스의 새 인스턴스를 초기화합니다. |
 | [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | 지정된 파일 경로를 사용하여 새 인스턴스를 초기화합니다. |
 
 ## 메서드

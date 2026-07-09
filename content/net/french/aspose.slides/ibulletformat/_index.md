@@ -1,13 +1,12 @@
 ---
 title: IBulletFormat
-second_title: Référence API d'Aspose.Slides pour .NET
+second_title: Référence API Aspose.Sildes pour .NET
 description: Représente les propriétés de formatage des puces de paragraphe.
 type: docs
-weight: 5190
+weight: 5390
 url: /fr/aspose.slides/ibulletformat/
 ---
-
-## Interface IBulletFormat
+## IBulletFormat interface
 
 Représente les propriétés de formatage des puces de paragraphe.
 
@@ -19,27 +18,27 @@ public interface IBulletFormat
 
 | Nom | Description |
 | --- | --- |
-| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Renvoie ou définit le caractère de puce d'un paragraphe sans héritage. Lecture/écriture Char. |
-| [Color](../../aspose.slides/ibulletformat/color) { get; } | Renvoie le format de couleur d'une puce d'un paragraphe sans héritage. Lecture seule [`IColorFormat`](../icolorformat). |
-| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Renvoie ou définit la police de puce d'un paragraphe sans héritage. Lecture/écriture [`IFontData`](../ifontdata). |
-| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Renvoie ou définit la hauteur de puce d'un paragraphe sans héritage. La valeur float.NaN détermine que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Détermine si la puce a sa propre couleur ou l'hérite de la première portion du paragraphe. **NullableBool.True** si la puce a sa propre couleur et **NullableBool.False** si la puce hérite de la couleur de la première portion du paragraphe. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Détermine si la puce a sa propre police ou l'hérite de la première portion du paragraphe. **NullableBool.True** si la puce a sa propre police et **NullableBool.False** si la puce hérite de la police de la première portion du paragraphe. Lecture/écriture [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Renvoie ou définit le premier numéro utilisé pour un groupe de puces numérotées sans héritage. Lecture/écriture Int16. |
-| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture [`NumberedBulletStyle`](./numberedbulletstyle). |
-| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. Lecture seule [`ISlidesPicture`](../islidespicture). |
-| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Renvoie ou définit le type de puce d'un paragraphe sans héritage. Lecture/écriture [`BulletType`](../bullettype). |
+| [Char](../../aspose.slides/ibulletformat/char) { get; set; } | Renvoie ou définit le caractère de puce d'un paragraphe sans héritage. Lecture/écriture Char. |
+| [Color](../../aspose.slides/ibulletformat/color) { get; } | Renvoie le format de couleur d'une puce d'un paragraphe sans héritage. Lecture seule [`IColorFormat`](../icolorformat). |
+| [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Renvoie ou définit la police de puce d'un paragraphe sans héritage. Lecture/écriture [`IFontData`](../ifontdata). |
+| [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Renvoie ou définit la hauteur de la puce d'un paragraphe sans héritage. La valeur float.NaN indique que la puce hérite de la hauteur de la première portion du paragraphe. Lecture/écriture Single. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Détermine si la puce possède sa propre couleur ou l'hérite de la première portion du paragraphe. **NullableBool.True** si la puce possède sa propre couleur et **NullableBool.False** si la puce hérite de la couleur de la première portion du paragraphe. Lecture/écriture [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Détermine si la puce possède sa propre police ou l'hérite de la première portion du paragraphe. **NullableBool.True** si la puce possède sa propre police et **NullableBool.False** si la puce hérite de la police de la première portion du paragraphe. Lecture/écriture [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Renvoie ou définit le premier numéro utilisé pour le groupe de puces numérotées sans héritage. Lecture/écriture Int16. |
+| [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Renvoie ou définit le style d'une puce numérotée sans héritage. Lecture/écriture [`NumberedBulletStyle`](./numberedbulletstyle). |
+| [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Renvoie l'image utilisée comme puce dans un paragraphe sans héritage. Lecture seule [`ISlidesPicture`](../islidespicture). |
+| [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Renvoie ou définit le type de puce d'un paragraphe sans héritage. Lecture/écriture [`BulletType`](../bullettype). |
 
 ## Méthodes
 
 | Nom | Description |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Définit des décalages non nuls par défaut pour le retrait et la marge gauche effectifs du paragraphe lorsque les puces sont activées (comme PowerPoint le fait si les puces/numérotations de paragraphe sont activées). Si les puces sont désactivées, réinitialise simplement le retrait et la marge gauche du paragraphe (comme PowerPoint le fait si les puces/numérotations de paragraphe sont désactivées). Les décalages de retrait sont appliqués par rapport au contexte de puce actuel - IBulletFormat.Type, .NumberedBulletStyle et la hauteur de police de la première portion. Les décalages de retrait non nuls sont appliqués au retrait effectif et à la marge gauche du paragraphe actuel (rendre les valeurs résultantes locales). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Obtient les données de formatage des puces effectives avec l'héritage appliqué. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Définit les décalages par défaut différents de zéro pour l'Indent et le MarginLeft effectifs du paragraphe lorsque les puces sont activées (comme PowerPoint le fait lorsqu’on active les puces/numérotation de paragraphe). Si les puces sont désactivées, réinitialise simplement l'Indent et le MarginLeft du paragraphe (comme PowerPoint le fait lorsqu’on désactive les puces/numérotation de paragraphe). Les décalages d'indentation sont appliqués en fonction du contexte de puce actuel - IBulletFormat.Type, .NumberedBulletStyle et FontHeight de la première portion. Les décalages d'indentation différents de zéro sont appliqués à l'Indent et au MarginLeft effectifs du paragraphe actuel (les valeurs résultantes deviennent des valeurs locales). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Obtient les données de formatage effectif des puces avec l'héritage appliqué. |
 
-### Voir Aussi
+### Voir aussi
 
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* espace de noms [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

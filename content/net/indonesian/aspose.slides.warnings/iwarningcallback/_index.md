@@ -3,7 +3,7 @@ title: IWarningCallback
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Antarmuka untuk kelas yang menerima peringatan
 type: docs
-weight: 11780
+weight: 11800
 url: /id/aspose.slides.warnings/iwarningcallback/
 ---
 ## IWarningCallback antarmuka

@@ -1,14 +1,15 @@
 ---
 title: OleEmbeddedDataInfo
-second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
-description: แสดงข้อมูลฝังสำหรับวัตถุ OLE.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE.
 type: docs
 weight: 2760
 url: /th/aspose.slides.dom.ole/oleembeddeddatainfo/
 ---
+
 ## OleEmbeddedDataInfo คลาส
 
-แสดงข้อมูลฝังสำหรับวัตถุ OLE.
+แทนข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE
 
 ```csharp
 public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
@@ -18,15 +19,15 @@ public class OleEmbeddedDataInfo : IOleEmbeddedDataInfo
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | สร้างข้อมูลฝังใหม่สำหรับวัตถุ OLE. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | สร้างอินสแตนซ์ใหม่ของข้อมูลฝังสำหรับวัตถุ OLE. ข้อมูลไฟล์ของวัตถุ OLE ฝัง Byte[]. ส่วนขยายไฟล์สำหรับวัตถุ OLE ฝังปัจจุบัน String. |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor)() | สร้างข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE ใหม่ |
+| [OleEmbeddedDataInfo](oleembeddeddatainfo#constructor_1)(byte[], string) | สร้างอินสแตนซ์ใหม่ของข้อมูลฝังสำหรับอ็อบเจ็กต์ OLE ข้อมูลไฟล์ของอ็อบเจ็กต์ OLE ที่ฝังอยู่ Byte[].ส่วนขยายไฟล์สำหรับอ็อบเจ็กต์ OLE ที่ฝังอยู่ปัจจุบัน String. |
 
 ## คุณสมบัติ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | ส่งคืนข้อมูลไฟล์ของวัตถุ OLE ฝัง อ่านอย่างเดียว Byte[]. |
-| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | ส่งคืนส่วนขยายไฟล์สำหรับวัตถุ OLE ฝังปัจจุบัน อ่านอย่างเดียว String. |
+| [EmbeddedFileData](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata) { get; } | คืนค่าข้อมูลไฟล์ของอ็อบเจ็กต์ OLE ที่ฝังอยู่ อ่านอย่างเดียว Byte[]. |
+| [EmbeddedFileExtension](../../aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfileextension) { get; } | คืนค่าส่วนขยายไฟล์สำหรับอ็อบเจ็กต์ OLE ที่ฝังอยู่ปัจจุบัน อ่านอย่างเดียว String. |
 
 ### ดูเพิ่มเติม
 

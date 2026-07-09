@@ -1,6 +1,6 @@
 ---
 title: PptxUnsupportedFormatException
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes .NET API 레퍼런스
 description: 프레젠테이션 파일 형식이 지원되지 않을 때 발생하는 예외.
 type: docs
 weight: 9580
@@ -16,13 +16,13 @@ public class PptxUnsupportedFormatException : PptxReadException
 
 ## 생성자
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor)() | 기본 생성자. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | 이 예외에 메시지를 추가할 수 있는 생성자. |
-| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | 메시지와 포함된 예외를 포함하는 예외용 생성자. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
+| [PptxUnsupportedFormatException](pptxunsupportedformatexception#constructor_2)(string, Exception) | 메시지와 내재된 예외를 포함하는 예외용 생성자. |
 
-### 참고
+### 참조
 
 * 클래스 [PptxReadException](../pptxreadexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

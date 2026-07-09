@@ -1,12 +1,12 @@
 ---
 title: IFontFallBackRulesCollection
 second_title: Aspose.Sildes for .NET API 참조
-description: 사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다
+description: 사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다.
 type: docs
 weight: 5860
 url: /ko/aspose.slides/ifontfallbackrulescollection/
 ---
-## IFontFallBackRulesCollection 인터페이스
+## IFontFallOutRulesCollection 인터페이스
 
 사용자가 정의한 FontFallBack 규칙의 컬렉션을 나타냅니다.
 
@@ -16,15 +16,15 @@ public interface IFontFallBackRulesCollection : IGenericCollection<IFontFallBack
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [Item](../../aspose.slides/ifontfallbackrulescollection/item) { get; } | 지정된 인덱스에 있는 규칙을 가져옵니다. 읽기 전용 [`IFontFallBackRule`](../ifontfallbackrule). |
 
 ## 메서드
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 새로운 FallBack 규칙을 컬렉션 끝에 추가합니다. |
+| [Add](../../aspose.slides/ifontfallbackrulescollection/add)(IFontFallBackRule) | 컬렉션의 끝에 새로운 FallBack 규칙을 추가합니다. |
 | [Remove](../../aspose.slides/ifontfallbackrulescollection/remove)(IFontFallBackRule) | 컬렉션에서 특정 FallBack 규칙의 첫 번째 항목을 제거합니다. |
 
 ### 참고

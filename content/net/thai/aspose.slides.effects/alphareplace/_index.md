@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของเอฟเฟกต์ Alpha Replace ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะถูกแทนที่ด้วยค่า alpha คงที่
+description: แสดงถึงเอฟเฟกต์ Alpha Replace. ค่าความทึบ (alpha) ของเอฟเฟกต์จะถูกแทนที่ด้วยค่า alpha คงที่.
 type: docs
 weight: 2900
 url: /th/aspose.slides.effects/alphareplace/
 ---
-## คลาส AlphaReplace
+## AlphaReplace คลาส
 
-เป็นตัวแทนของเอฟเฟกต์ Alpha Replace ค่าความโปร่งใส (alpha) จะถูกแทนที่ด้วยค่า alpha คงที่
+แสดงถึงเอฟเฟกต์ Alpha Replace. ค่าพารามิเตอร์ alpha (ความทึบ) ของเอฟเฟกต์จะถูกแทนที่ด้วยค่า alpha คงที่.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -18,15 +18,15 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent เบสได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | ตรวจสอบว่า [`AlphaReplace`](../alphareplace) ที่ระบุเท่ากับ [`AlphaReplace`](../alphareplace) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | รับข้อมูลผลกระทบ Alpha Replace ที่มีประสิทธิภาพพร้อมใช้การสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | กำหนดว่าข้อมูล [`AlphaReplace`](../alphareplace) ที่ระบุเทียบเท่ากับ [`AlphaReplace`](../alphareplace) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Alpha Replace ที่มีผลกับการสืบทอดที่ใช้. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

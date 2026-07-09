@@ -1,6 +1,6 @@
 ---
 title: MathematicalTextFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Cho phép tạo một phần tử MathematicalText
 type: docs
 weight: 9070
@@ -14,20 +14,20 @@ Cho phép tạo một phần tử MathematicalText
 public class MathematicalTextFactory : IMathematicalTextFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [MathematicalTextFactory](mathematicaltextfactory)() | Hàm khởi tạo mặc định. |
+| [MathematicalTextFactory](mathematicaltextfactory)() | Hàm tạo mặc định. |
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Tạo phần tử MathematicalText trống |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Tạo phần tử MathematicalText với giá trị được chỉ định |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Tạo phần tử MathematicalText trống với giá trị được chỉ định |
-| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Tạo phần tử MathematicalText trống với giá trị được chỉ định và các thuộc tính định dạng |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext)() | Tạo phần tử văn bản toán học rỗng |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_1)(char) | Tạo phần tử văn bản toán học với giá trị đã chỉ định |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_2)(string) | Tạo phần tử văn bản toán học rỗng với giá trị đã chỉ định |
+| [CreateMathematicalText](../../aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext#createmathematicaltext_3)(string, IPortionFormat) | Tạo phần tử văn bản toán học rỗng với giá trị đã chỉ định và các thuộc tính định dạng |
 
 ### Ghi chú
 

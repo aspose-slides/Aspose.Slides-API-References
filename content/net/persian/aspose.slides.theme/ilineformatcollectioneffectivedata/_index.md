@@ -1,26 +1,26 @@
 ---
 title: ILineFormatCollectionEffectiveData
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شی غیرقابل تغییر که نمایانگر یک مجموعه فقط‌خواندنی از قالب‌های خط مؤثر است.
+description: شیء ثابت که نمایانگر یک مجموعه فقط‌خواندنی از قالب‌های خط مؤثر است.
 type: docs
 weight: 11300
 url: /fa/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData رابط
 
-شی غیرقابل تغییر که نمایانگر یک مجموعه فقط‌خواندنی از قالب‌های خط مؤثر است.
+شیء غیرقابل تغییر که نمایانگر یک مجموعه فقط‌خواندنی از قالب‌های خط مؤثر است.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | عنصر موجود در ایندکس مشخص را باز می‌گرداند. فقط‌خواندنی [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | عنصر را در ایندکس مشخص شده دریافت می‌کند. فقط‌خواندنی [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
-### تذکرات
+### ملاحظات
 
 این رابط به عنوان بخشی از [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata) استفاده می‌شود.
 

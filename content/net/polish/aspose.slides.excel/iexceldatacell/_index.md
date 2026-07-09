@@ -1,12 +1,12 @@
 ---
 title: IExcelDataCell
-second_title: Aspose.Sildes dla .NET Odniesienie API
+second_title: Aspose.Sildes dla .NET - odniesienie API
 description: Reprezentuje pojedynczą komórkę w skoroszycie Excel.
 type: docs
-weight: 3680
+weight: 3700
 url: /pl/aspose.slides.excel/iexceldatacell/
 ---
-## IExcelDataCell interfejs
+## interfejs IExcelDataCell
 
 Reprezentuje pojedynczą komórkę w skoroszycie Excel.
 
@@ -18,10 +18,10 @@ public interface IExcelDataCell
 
 | Nazwa | Opis |
 | --- | --- |
-| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Zwraca indeks kolumny w arkuszu, zaczynając od zera, w którym znajduje się komórka. Tylko do odczytu Int32. |
+| [Column](../../aspose.slides.excel/iexceldatacell/column) { get; } | Zwraca indeks kolumny w arkuszu, liczony od zera, w którym znajduje się komórka. Tylko do odczytu Int32. |
 | [Name](../../aspose.slides.excel/iexceldatacell/name) { get; } | Zwraca nazwę komórki danych wykresu. Tylko do odczytu String. |
-| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Zwraca indeks wiersza w arkuszu, zaczynając od zera, w którym znajduje się komórka. Tylko do odczytu Int32. |
-| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Zwraca wartość zawartą w komórce Excel. Tylko do odczytu Object. |
+| [Row](../../aspose.slides.excel/iexceldatacell/row) { get; } | Zwraca indeks wiersza w arkuszu, liczony od zera, w którym znajduje się komórka. Tylko do odczytu Int32. |
+| [Value](../../aspose.slides.excel/iexceldatacell/value) { get; } | Zwraca wartość przechowywaną w komórce Excel. Tylko do odczytu Object. |
 
 ### Zobacz także
 

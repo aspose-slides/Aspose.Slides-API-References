@@ -1,6 +1,6 @@
 ---
 title: IFormatFactory
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้างรูปแบบผ่าน COM อินเทอร์เฟซ.
 type: docs
 weight: 5940

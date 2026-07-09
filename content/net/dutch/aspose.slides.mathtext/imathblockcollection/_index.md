@@ -1,12 +1,12 @@
 ---
 title: IMathBlockCollection
-second_title: Aspose.Sildes voor .NET API Referentie
+second_title: Aspose.Sildes voor .NET API-referentie
 description: Collectie van wiskundige blokken IMathBlock
 type: docs
 weight: 8150
 url: /nl/aspose.slides.mathtext/imathblockcollection/
 ---
-## IMMathBlockCollection interface
+## IMathBlockCollection interface
 
 Collectie van wiskundige blokken (IMathBlock)
 
@@ -18,7 +18,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Staat toe om de basis IEnumerable interface IEnumerable op te halen |
+| [AsIEnumerable](../../aspose.slides.mathtext/imathblockcollection/asienumerable) { get; } | Staat toe om de basis-IEnumerable-interface IEnumerable op te halen |
 | [Count](../../aspose.slides.mathtext/imathblockcollection/count) { get; } | Haalt het aantal elementen op dat daadwerkelijk in de collectie zit. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.mathtext/imathblockcollection/item) { get; set; } | Haalt het item op op de opgegeven index. Alleen-lezen [`IMathBlock`](../imathblock). |
 
@@ -29,9 +29,9 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | [Add](../../aspose.slides.mathtext/imathblockcollection/add)(IMathBlock) | Voegt IMathBlock toe aan het einde van de collectie. |
 | [Clear](../../aspose.slides.mathtext/imathblockcollection/clear)() | Verwijdert alle elementen uit de collectie. |
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Bepaalt of de collectie een specifieke waarde bevat. |
-| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Bepaalt de index van een specifiek IMMathBlock in de collectie. |
+| [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Bepaalt de index van een specifieke IMathBlock in de collectie. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Voegt IMathBlock in de collectie in op de opgegeven index. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Verwijdert het eerste voorkomen van een specifiek object uit de collectie/&gt;. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Verwijdert de eerste instantie van een specifiek object uit de collectie. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Verwijdert een item op de opgegeven index van de collectie. |
 
 ### Voorbeelden

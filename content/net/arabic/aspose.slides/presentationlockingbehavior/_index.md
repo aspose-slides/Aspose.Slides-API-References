@@ -1,14 +1,14 @@
 ---
 title: PresentationLockingBehavior
 second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل السلوك المتعلق بمعالجة ملف المصدر IPPresentation./ipresentation أو الـ Stream أثناء التحميل والعمل مع نسخة من IPPresentation./ipresentation.
+description: يمثل السلوك المتعلق بمعالجة ملف المصدر أو Stream الخاص بـ IPresentation./ipresentation أثناء التحميل والعمل مع نسخة من IPresentation./ipresentation.
 type: docs
 weight: 9630
 url: /ar/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior تعداد
 
-يمثل السلوك المتعلق بمعالجة مصدر [`IPresentation`](../ipresentation) (ملف أو تدفق) أثناء التحميل والعمل مع نسخة من [`IPresentation`](../ipresentation).
+يمثل السلوك المتعلق بمعالجة مصدر [`IPresentation`](../ipresentation) (ملف أو Stream) أثناء التحميل والعمل مع نسخة من [`IPresentation`](../ipresentation).
 
 ```csharp
 public enum PresentationLockingBehavior
@@ -18,12 +18,12 @@ public enum PresentationLockingBehavior
 
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
-| LoadAndRelease | `0` | سيتم قفل المصدر فقط خلال فترة تنفيذ مُنشئ [`IPresentation`](../ipresentation). إذا تم تعيين [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) إلى false، سيتم تحميل جميع BLOBs إلى الذاكرة. وإلا، قد تُستخدم وسائل أخرى مثل الملفات المؤقتة. هذا السلوك أبطأ من KeepLocked، وإذا كان من الممكن تمرير ملكية المصدر إلى [`IPresentation`](../ipresentation)، يُنصَح باستخدام KeepLocked. |
-| KeepLocked | `1` | سيتم قفل المصدر طوال عمر نسخة [`IPresentation`](../ipresentation) بالكامل، حتى يتم التخلص منها. يجب تعيين [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) إلى true لاستخدام هذا السلوك، وإلا سيُرمى استثناء. يُنصَح بهذا السلوك، فهو أسرع ويستهلك ذاكرة أقل من LoadAndRelease. |
+| LoadAndRelease | `0` | سيُقفل المصدر فقط لمدة تنفيذ مُنشئ [`IPresentation`](../ipresentation). إذا تم تعيين [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) إلى false، سيتم تحميل جميع الـ BLOBs في الذاكرة. وإلا، قد تُستخدم وسائل أخرى مثل الملفات المؤقتة. هذا السلوك أبطأ من KeepLocked، وإذا كان من الممكن نقل ملكية المصدر إلى [`IPresentation`](../ipresentation)، يُنصح باستخدام KeepLocked. |
+| KeepLocked | `1` | سيُقفل المصدر طوال مدة حياة نسخة [`IPresentation`](../ipresentation) كاملة، حتى يتم التخلص منها. يجب تعيين [`IsTemporaryFilesAllowed`](../iblobmanagementoptions/istemporaryfilesallowed) إلى true لاستخدام هذا السلوك، وإلا سيتم إلقاء استثناء. هذا السلوك موصى به، فهو أسرع ويستهلك ذاكرة أقل مقارنةً بـ LoadAndRelease. |
 
 ### ملاحظات
 
-المصدر هو المعامل الممرَّر إلى مُنشئ [`IPresentation`](../ipresentation). في المثال أدناه، المصدر هو الملف "pres.pptx":
+المصدر هو المعامل الممرّر إلى مُنشئ [`IPresentation`](../ipresentation). في المثال أدناه، المصدر هو ملف "pres.pptx":
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions { 
@@ -31,7 +31,7 @@ LoadOptions loadOptions = new LoadOptions {
 using (IPresentation pres = new Presentation("pres.pptx", loadOptions)) { }
 ```
 
-في هذا المثال، سيُقفل المصدر (ملف "pres.pptx") طوال عمر نسخة [`IPresentation`](../ipresentation)، أي لا يمكن تغييره أو حذفه بواسطة العملية الأخرى.
+في هذا المثال، سيتم قفل المصدر (ملف "pres.pptx") طوال مدة حياة نسخة [`IPresentation`](../ipresentation)، أي لا يمكن تغييره أو حذفه بواسطة العملية الأخرى.
 
 ### انظر أيضًا
 

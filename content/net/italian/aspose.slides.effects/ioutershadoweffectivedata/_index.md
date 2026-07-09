@@ -1,14 +1,14 @@
 ---
 title: IOuterShadowEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta un effetto Outer Shadow.
+second_title: Aspose.Sildes per .NET Riferimento API
+description: Oggetto immutabile che rappresenta un effetto Ombra Esterna.
 type: docs
-weight: 3450
+weight: 3470
 url: /it/aspose.slides.effects/ioutershadoweffectivedata/
 ---
 ## IOuterShadowEffectiveData interfaccia
 
-Oggetto immutabile che rappresenta un effetto Outer Shadow.
+Oggetto immutabile che rappresenta un effetto Ombra Esterna.
 
 ```csharp
 public interface IOuterShadowEffectiveData : IEffectEffectiveData
@@ -16,16 +16,16 @@ public interface IOuterShadowEffectiveData : IEffectEffectiveData
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia IEffectEffectiveData di base. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ioutershadoweffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ioutershadoweffectivedata/blurradius) { get; } | Raggio di sfocatura. Solo lettura Double. |
 | [Direction](../../aspose.slides.effects/ioutershadoweffectivedata/direction) { get; } | Direzione dell'ombra. Solo lettura Single. |
 | [Distance](../../aspose.slides.effects/ioutershadoweffectivedata/distance) { get; } | Distanza dell'ombra. Solo lettura Double. |
 | [RectangleAlign](../../aspose.slides.effects/ioutershadoweffectivedata/rectanglealign) { get; } | Allineamento del rettangolo. Solo lettura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape) { get; } | Specifica se l'ombra deve ruotare con la forma quando la forma è ruotata. Solo lettura Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Specifica il fattore di scala orizzontale, una scala negativa provoca un ribaltamento. Solo lettura Double. |
-| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Specifica il fattore di scala verticale, una scala negativa provoca un ribaltamento. Solo lettura Double. |
+| [ScaleHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/scalehorizontal) { get; } | Specifica il fattore di scala orizzontale, una scala negativa causa un ribaltamento. Solo lettura Double. |
+| [ScaleVertical](../../aspose.slides.effects/ioutershadoweffectivedata/scalevertical) { get; } | Specifica il fattore di scala verticale, una scala negativa causa un ribaltamento. Solo lettura Double. |
 | [ShadowColor](../../aspose.slides.effects/ioutershadoweffectivedata/shadowcolor) { get; } | Colore dell'ombra. Solo lettura Color. |
 | [SkewHorizontal](../../aspose.slides.effects/ioutershadoweffectivedata/skewhorizontal) { get; } | Specifica l'angolo di inclinazione orizzontale (in gradi). Solo lettura Double. |
 | [SkewVertical](../../aspose.slides.effects/ioutershadoweffectivedata/skewvertical) { get; } | Specifica l'angolo di inclinazione verticale (in gradi). Solo lettura Double. |

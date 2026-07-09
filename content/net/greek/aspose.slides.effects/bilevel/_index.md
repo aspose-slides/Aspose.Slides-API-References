@@ -1,14 +1,14 @@
 ---
 title: BiLevel
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αναπαριστά ένα εφέ διπλού επιπέδου (μαύρο/λευκό). Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο. Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή ορίζονται σε λευκό. Οι τιμές alpha του εφέ δεν επηρεάζονται από αυτό το εφέ.
+description: Αναπαριστά ένα εφέ Bi-Level μαύρο/λευκό. Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο. Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή ορίζονται ως λευκό. Οι τιμές του εφέ άλφα δεν επηρεάζονται από αυτό το εφέ.
 type: docs
-weight: 2890
+weight: 2910
 url: /el/aspose.slides.effects/bilevel/
 ---
 ## Κλάση BiLevel
 
-Αναπαριστά ένα εφέ Διπλού Επιπέδου (μαύρο/λευκό). Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο. Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή ορίζονται σε λευκό. Οι τιμές alpha του εφέ δεν επηρεάζονται από αυτό το εφέ.
+Αναπαριστά ένα εφέ Bi-Level (μαύρο/λευκό). Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μικρότερη από την καθορισμένη τιμή κατωφλίου μετατρέπονται σε μαύρο. Τα χρώματα εισόδου των οποίων η φωτεινότητα είναι μεγαλύτερη ή ίση με την καθορισμένη τιμή θένονται σε λευκό. Οι τιμές εφέ άλφα δεν επηρεάζονται από αυτό το εφέ.
 
 ```csharp
 public sealed class BiLevel : ImageTransformOperation, IBiLevel
@@ -18,15 +18,15 @@ public sealed class BiLevel : ImageTransformOperation, IBiLevel
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την ανάκτηση της βάσης IPresentationComponent διεπαφής. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Επιτρέπει την πρόσβαση στη βασική διεπαφή IPresentationComponent. Μόνο για ανάγνωση [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Καθορίζει εάν το καθορισμένο [`BiLevel`](../bilevel) είναι ίσο με το τρέχον [`BiLevel`](../bilevel). |
-| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Αποκτά τα αποτελεσματικά δεδομένα εφέ Διπλού Επιπέδου με την κληρονομικότητα εφαρμοσμένη. |
-| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για συγκεκριμένο τύπο. |
+| override [Equals](../../aspose.slides.effects/bilevel/equals)(object) | Καθορίζει αν το καθορισμένο [`BiLevel`](../bilevel) είναι ίσο με το τρέχον [`BiLevel`](../bilevel). |
+| [GetEffective](../../aspose.slides.effects/bilevel/geteffective)() | Λαμβάνει τα αποτελεσματικά δεδομένα του εφέ Bi-Level με την κληρονομικότητα εφαρμοσμένη. |
+| override [GetHashCode](../../aspose.slides.effects/bilevel/gethashcode)() | Λειτουργεί ως συνάρτηση κατακερματισμού για έναν συγκεκριμένο τύπο. |
 
 ### Δείτε επίσης
 

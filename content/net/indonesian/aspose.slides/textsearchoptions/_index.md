@@ -1,9 +1,9 @@
 ---
 title: TextSearchOptions
-second_title: Aspose.Sildes untuk .NET Referensi API
-description: Mewakili opsi yang dapat digunakan untuk mencari teks dalam Presentation Slide atau TextFrame.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Mewakili opsi yang dapat digunakan untuk mencari teks dalam Presentation, Slide, atau TextFrame.
 type: docs
-weight: 10950
+weight: 10970
 url: /id/aspose.slides/textsearchoptions/
 ---
 ## TextSearchOptions kelas
@@ -24,8 +24,8 @@ public class TextSearchOptions : ITextSearchOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Atur true untuk menggunakan pencarian yang peka huruf, false - sebaliknya. Baca/tulis Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Atur `true` untuk menyertakan teks yang terdapat dalam catatan slide ([`NotesSlide`](../notesslide)) saat melakukan pencarian teks, penggantian, atau operasi penyorotan. Nilai default adalah `false`. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | Atur true untuk menggunakan pencarian peka huruf kapital, false - sebaliknya. Baca/tulis Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | Atur `true` untuk menyertakan teks yang terdapat dalam catatan slide ([`NotesSlide`](../notesslide)) saat melakukan operasi pencarian teks, penggantian, atau penyorotan. Nilai default adalah `false`. |
 | [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | Atur true untuk mencocokkan hanya kata lengkap, false - sebaliknya. Baca/tulis Boolean. |
 
 ### Lihat Juga

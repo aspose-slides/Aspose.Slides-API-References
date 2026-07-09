@@ -1,14 +1,14 @@
 ---
 title: RippleTransition
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: Ripple स्लाइड संक्रमण प्रभाव।
+description: रिपल स्लाइड ट्रांज़िशन प्रभाव।
 type: docs
 weight: 10290
 url: /hi/aspose.slides.slideshow/rippletransition/
 ---
-## RippleTransition क्लास
+## RippleTransition वर्ग
 
-Ripple slide transition effect.
+रिपल स्लाइड ट्रांज़िशन प्रभाव।
 
 ```csharp
 public class RippleTransition : TransitionValueBase, IRippleTransition
@@ -20,16 +20,16 @@ public class RippleTransition : TransitionValueBase, IRippleTransition
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/rippletransition/direction) { get; set; } | ट्रांज़िशन की दिशा। पढ़ें/लिखें [`TransitionCornerAndCenterDirectionType`](../transitioncornerandcenterdirectiontype)। |
 
-## विधियां
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण समान हैं या नहीं। |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | विशिष्ट प्रकार के लिए एक हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश टेबल जैसी डेटा संरचनाओं में उपयोग के योग्य है। |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | निर्धारित करता है कि दो TransitionValueBase उदाहरण बराबर हैं या नहीं। |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | किसी विशेष प्रकार के लिए हैश फ़ंक्शन के रूप में कार्य करता है, जो हैशिंग एल्गोरिदम और हैश तालिका जैसे डेटा संरचनाओं में उपयोग के लिए उपयुक्त है। |
 
-### संबंधित देखें
+### देखें
 
-* क्लास [TransitionValueBase](../transitionvaluebase)
+* वर्ग [TransitionValueBase](../transitionvaluebase)
 * इंटरफ़ेस [IRippleTransition](../irippletransition)
 * नामस्थान [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * असेंबली [Aspose.Slides](../../)

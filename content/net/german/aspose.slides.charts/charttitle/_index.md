@@ -1,13 +1,12 @@
 ---
 title: ChartTitle
-second_title: Aspose.Sildes für .NET API Referenz
+second_title: Aspose.Sildes für .NET API-Referenz
 description: Stellt die Eigenschaften des Diagrammtitels dar.
 type: docs
-weight: 1410
+weight: 1490
 url: /de/aspose.slides.charts/charttitle/
 ---
-
-## ChartTitle-Klasse
+## ChartTitle Klasse
 
 Stellt die Eigenschaften des Diagrammtitels dar.
 
@@ -19,28 +18,32 @@ public class ChartTitle : IChartTitle
 
 | Name | Beschreibung |
 | --- | --- |
-| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Unten. Nur lesbar Single. |
-| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Gibt die Füll-, Linien-, Effektstile eines Titels zurück. Nur lesbar [`IFormat`](../iformat). |
-| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Gibt die Höhe eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt diese. Lese-/schreibbar Single. |
-| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Bestimmt, ob anderen Diagrammelementen das Überlappen des Titels erlaubt sein soll. Lese-/schreibbar Boolean. |
-| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Rechts. Nur lesbar Single. |
-| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt der formatierte Textwert den automatisch erzeugten Text. Automatisch erzeugter Text ist eine implizite Eigenschaft des Datenlabels, des Anzeigewertlabels der Wertachse, des Achsentitels, des Diagrammtitels und des Labels der Trendlinie. Automatisch erzeugter Text wird mit der IFormattedTextContainer.TextFormat-Eigenschaft formatiert. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
-| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Gibt die Breite eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/schreibbar Single. |
-| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Gibt die x-Koordinate eines Titels als Bruchteil der Breite des Diagramms zurück oder setzt diese. Lese-/schreibbar Single. |
-| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Gibt die y-Koordinate eines Titels als Bruchteil der Höhe des Diagramms zurück oder setzt diese. Lese-/schreibbar Single. |
+| [ActualHeight](../../aspose.slides.charts/charttitle/actualheight) { get; } | Gibt die tatsächliche Höhe des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
+| [ActualWidth](../../aspose.slides.charts/charttitle/actualwidth) { get; } | Gibt die tatsächliche Breite des Diagrammelements an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
+| [ActualX](../../aspose.slides.charts/charttitle/actualx) { get; } | Gibt die tatsächliche X-Position (links) des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
+| [ActualY](../../aspose.slides.charts/charttitle/actualy) { get; } | Gibt den tatsächlichen oberen Rand des Diagrammelements relativ zur linken oberen Ecke des Diagramms an. Rufen Sie vorher die Methode IChart.ValidateChartLayout() auf, um die tatsächlichen Werte zu erhalten. Lesen Single. |
+| [Bottom](../../aspose.slides.charts/charttitle/bottom) { get; } | Unten. Nur lesbar Single. |
+| [Chart](../../aspose.slides.charts/charttitle/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/charttitle/format) { get; } | Gibt die Füll-, Linien- und Effektstile eines Titels zurück. Nur lesbar [`IFormat`](../iformat). |
+| [Height](../../aspose.slides.charts/charttitle/height) { get; set; } | Gibt die Höhe eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lese-/Schreib Single. |
+| [Overlay](../../aspose.slides.charts/charttitle/overlay) { get; set; } | Bestimmt, ob andere Diagrammelemente den Titel überlappen dürfen. Lese-/Schreib Boolean. |
+| [Right](../../aspose.slides.charts/charttitle/right) { get; } | Rechts. Nur lesbar Single. |
+| [TextFormat](../../aspose.slides.charts/charttitle/textformat) { get; } | Gibt das Textformat zurück. Nur lesbar [`IChartTextFormat`](../icharttextformat). |
+| [TextFrameForOverriding](../../aspose.slides.charts/charttitle/textframeforoverriding) { get; } | Kann einen reich formatierten Text enthalten. Wenn diese Eigenschaft nicht null ist, überschreibt dieser formatierte Textwert den automatisch generierten Text. Der automatisch generierte Text ist eine implizite Eigenschaft des Datenbeschriftung, des Anzeigeeinheitsbeschriftung der Wertachse, des Achsentitels, des Diagrammtitels, der Beschriftung der Trendlinie. Der automatisch generierte Text wird mit der Eigenschaft IFormattedTextContainer.TextFormat formatiert. Nur lesbar [`ITextFrame`](../../aspose.slides/itextframe). |
+| [Width](../../aspose.slides.charts/charttitle/width) { get; set; } | Gibt die Breite eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lese-/Schreib Single. |
+| [X](../../aspose.slides.charts/charttitle/x) { get; set; } | Gibt die X-Koordinate eines Titels als Bruchteil der Diagrammbreite zurück oder setzt sie. Lese-/Schreib Single. |
+| [Y](../../aspose.slides.charts/charttitle/y) { get; set; } | Gibt die Y-Koordinate eines Titels als Bruchteil der Diagrammhöhe zurück oder setzt sie. Lese-/Schreib Single. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert es einfach seinen Text. |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/charttitle/addtextframeforoverriding)(string) | Initialisiert TextFrameForOverriding mit dem Text im Parameter "text". Wenn TextFrameForOverriding bereits initialisiert ist, ändert er einfach dessen Text. |
 
 ### Siehe auch
 
-* Schnittstelle [IChartTitle](../icharttitle)
-* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assembly [Aspose.Slides](../../)
+* Schnittstelle [IChartTitle](../icharttitle)
+* Namensraum [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -3,7 +3,7 @@ title: IModernComment
 second_title: Aspose.Sildes for .NET API リファレンス
 description: スライド上のコメントを表します。
 type: docs
-weight: 6440
+weight: 6460
 url: /ja/aspose.slides/imoderncomment/
 ---
 ## IModernComment インターフェイス
@@ -18,11 +18,11 @@ public interface IModernComment : IComment
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | ベース IComment インターフェイスを取得できます。 読み取り専用 [`IComment`](../icomment)。 |
-| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | コメントに関連付けられたシェイプを返します。 読み取り専用 [`IShape`](../ishape)。 |
-| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | コメントのステータスを取得または設定します。 読み書き可能 [`ModernCommentStatus`](../moderncommentstatus)。 |
-| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | コメントが AutoShape に関連付けられている場合、テキスト フレーム内のテキスト選択の長さを取得または設定します。 読み書き可能 Int32。 |
-| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | コメントが AutoShape に関連付けられている場合、テキスト フレーム内のテキスト選択の開始位置を取得または設定します。 読み書き可能 Int32。 |
+| [AsIComment](../../aspose.slides/imoderncomment/asicomment) { get; } | ベース IComment インターフェイスを取得できます。読み取り専用 [`IComment`](../icomment)。 |
+| [Shape](../../aspose.slides/imoderncomment/shape) { get; } | コメントに関連付けられたシェイプを返します。読み取り専用 [`IShape`](../ishape)。 |
+| [Status](../../aspose.slides/imoderncomment/status) { get; set; } | コメントのステータスを取得または設定します。読み取り/書き込み可能 [`ModernCommentStatus`](../moderncommentstatus)。 |
+| [TextSelectionLength](../../aspose.slides/imoderncomment/textselectionlength) { get; set; } | コメントが AutoShape に関連付けられている場合、テキストフレーム内のテキスト選択の長さを取得または設定します。読み取り/書き込み可能 Int32。 |
+| [TextSelectionStart](../../aspose.slides/imoderncomment/textselectionstart) { get; set; } | コメントが AutoShape に関連付けられている場合、テキストフレーム内のテキスト選択の開始位置を取得または設定します。読み取り/書き込み可能 Int32。 |
 
 ### 例
 

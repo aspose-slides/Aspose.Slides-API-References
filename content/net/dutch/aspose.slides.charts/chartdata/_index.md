@@ -1,14 +1,14 @@
 ---
 title: ChartData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Representeert gegevens die worden gebruikt voor het plotten van een diagram.
+description: Stelt gegevens voor die worden gebruikt voor het plotten van een diagram.
 type: docs
 weight: 1310
 url: /nl/aspose.slides.charts/chartdata/
 ---
 ## ChartData klasse
 
-Stelt de gegevens voor die worden gebruikt voor het plotten van een diagram.
+Stelt gegevens voor die worden gebruikt voor het plotten van een diagram.
 
 ```csharp
 public class ChartData : DomObject<Chart>, IChartData
@@ -19,33 +19,33 @@ public class ChartData : DomObject<Chart>, IChartData
 | Naam | Beschrijving |
 | --- | --- |
 | [Categories](../../aspose.slides.charts/chartdata/categories) { get; } | Haalt de primaire categorieën op (of zowel primaire als secundaire categorieën als de [`UseSecondaryCategories`](./usesecondarycategories) eigenschap false is). Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Haalt de cellenfabriek op om cellen te maken die worden gebruikt voor diagramreeksen of -categorieën. Alleen-lezen [`IChartDataWorkbook`](../ichartdataworkbook). |
-| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Stelt het pad van een extern werkboek voor als externe gegevensbron, anders null |
+| [ChartDataWorkbook](../../aspose.slides.charts/chartdata/chartdataworkbook) { get; } | Haalt de cellen-fabriek op om cellen te maken die worden gebruikt voor diagramreeksen of categorieën. Alleen-lezen [`IChartDataWorkbook`](../ichartdataworkbook). |
+| [DataSourceType](../../aspose.slides.charts/chartdata/datasourcetype) { get; } | Stelt het pad naar een extern werkboek voor indien een externe gegevensbron, anders null. |
 | [EmbeddedWorkbookType](../../aspose.slides.charts/chartdata/embeddedworkbooktype) { get; } | Haalt het type van het ingesloten werkboek op. Retourneert NotDefined als [`DataSourceType`](./datasourcetype) ExternalWorkbook is. Alleen-lezen [`WorkbookType`](../workbooktype). |
-| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Stelt de gegevensbron van het diagram voor |
+| [ExternalWorkbookPath](../../aspose.slides.charts/chartdata/externalworkbookpath) { get; } | Stelt de gegevensbron van het diagram voor. |
 | [SecondaryCategories](../../aspose.slides.charts/chartdata/secondarycategories) { get; } | Haalt de secundaire categorieën op als de [`UseSecondaryCategories`](./usesecondarycategories) eigenschap true is. Alleen-lezen [`IChartCategoryCollection`](../ichartcategorycollection). |
-| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Haalt de series op. Alleen-lezen [`IChartSeriesCollection`](../ichartseriescollection). |
-| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Haalt de groepen van series op. Alleen-lezen [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
-| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Als false dan retourneert de [`SecondaryCategories`](./secondarycategories) eigenschap null en worden de gegevens in de [`Categories`](./categories) eigenschap gebruikt voor zowel primaire als secundaire series. Als true dan worden de gegevens in de [`SecondaryCategories`](./secondarycategories) eigenschap gebruikt voor secundaire series en de gegevens in de [`Categories`](./categories) eigenschap gebruikt voor primaire series. Lezen/schrijven Boolean. |
+| [Series](../../aspose.slides.charts/chartdata/series) { get; } | Haalt de reeksen op. Alleen-lezen [`IChartSeriesCollection`](../ichartseriescollection). |
+| [SeriesGroups](../../aspose.slides.charts/chartdata/seriesgroups) { get; } | Haalt de groepen van reeksen op. Alleen-lezen [`IChartSeriesGroupCollection`](../ichartseriesgroupcollection). |
+| [UseSecondaryCategories](../../aspose.slides.charts/chartdata/usesecondarycategories) { get; set; } | Als false, dan geeft de [`SecondaryCategories`](./secondarycategories) eigenschap null terug en worden de gegevens in de [`Categories`](./categories) eigenschap zowel voor primaire als secundaire reeksen gebruikt. Als true, dan worden de gegevens in de [`SecondaryCategories`](./secondarycategories) eigenschap gebruikt voor secundaire reeksen en de gegevens in de [`Categories`](./categories) eigenschap voor primaire reeksen. Lezen/Schrijven Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [GetRange](../../aspose.slides.charts/chartdata/getrange)() | Haalt het diagramgegevensbereik op. |
-| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Schrijft het intern aanwezige Excel-werkboek naar een in-memory stream. |
+| [ReadWorkbookStream](../../aspose.slides.charts/chartdata/readworkbookstream)() | Schrijft het intern opgenomen Excel-werkboek naar een in-memory stream. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook)(string) | Stelt een extern werkboek in als gegevensbron voor het diagram. Diagramgegevens worden bijgewerkt vanuit het doelwerkboek. |
 | [SetExternalWorkbook](../../aspose.slides.charts/chartdata/setexternalworkbook#setexternalworkbook_1)(string, bool) | Stelt een extern werkboek in als gegevensbron voor het diagram. |
-| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Stelt het diagramgegevensbereik in. Series en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal series in het gegevensbereik groter is dan het aantal series in de diagramgegevens, dan worden extra series met hetzelfde type als de laatste serie in de huidige collectie aan het einde van de collectie toegevoegd. |
-| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Wissel de gegevens over de as. Gegevens die op de X-as worden weergegeven, worden verplaatst naar de Y-as en omgekeerd. |
-| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Initialiseert het intern aanwezige Excel-werkboek met een door de gebruiker opgegeven waarde. |
+| [SetRange](../../aspose.slides.charts/chartdata/setrange)(string) | Stel het diagramgegevensbereik in. Reeksen en categorieën worden bijgewerkt op basis van het nieuwe gegevensbereik. Als het aantal reeksen in het gegevensbereik groter is dan het aantal reeksen in de diagramgegevens, dan worden extra reeksen met hetzelfde type als de laatste reeks in de huidige collectie aan het einde van de collectie toegevoegd. |
+| [SwitchRowColumn](../../aspose.slides.charts/chartdata/switchrowcolumn)() | Wissel de gegevens over de as. Gegevens die op de X-as worden geplot, verplaatsen zich naar de Y-as en vice versa. |
+| [WriteWorkbookStream](../../aspose.slides.charts/chartdata/writeworkbookstream)(MemoryStream) | Initialiseert het intern opgenomen Excel-werkboek met een door de gebruiker opgegeven waarde. |
 
 ### Zie ook
 
 * klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klasse [Chart](../chart)
 * interface [IChartData](../ichartdata)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* naamruimte [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

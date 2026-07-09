@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export.web/templatecontext-1/
 ---
 ## TemplateContext&lt;TObject&gt; 클래스
 
-호스트 문서에 대한 템플릿 엔진 모델 개체 인터페이스를 나타냅니다.
+템플릿 엔진을 위한 모델 객체 인터페이스를 나타냅니다.
 
 ```csharp
 public sealed class TemplateContext<TObject>
@@ -20,7 +20,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [Global](../../aspose.slides.export.web/templatecontext`1/global) { get; } | 호스트 문서의 전역 저장소를 반환합니다. 읽기 전용 [`Storage`](../storage). |
 | [Local](../../aspose.slides.export.web/templatecontext`1/local) { get; } | 현재 템플릿 컨텍스트의 로컬 저장소를 반환합니다. 읽기 전용 [`Storage`](../storage). |
-| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | 모델 개체를 반환합니다. 읽기 전용 !:TObject. |
+| [Object](../../aspose.slides.export.web/templatecontext`1/object) { get; } | 모델 객체를 반환합니다. 읽기 전용 !:TObject. |
 | [Output](../../aspose.slides.export.web/templatecontext`1/output) { get; } | 호스트 문서의 출력 요소 컬렉션을 반환합니다. 읽기 전용 [`Output`](./output). |
 
 ## 메서드
@@ -29,7 +29,7 @@ public sealed class TemplateContext<TObject>
 | --- | --- |
 | [SubModel&lt;TSubModel&gt;](../../aspose.slides.export.web/templatecontext`1/submodel)(TSubModel) | 자식 템플릿 컨텍스트를 생성합니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Export.Web](../../aspose.slides.export.web)
 * 어셈블리 [Aspose.Slides](../../)

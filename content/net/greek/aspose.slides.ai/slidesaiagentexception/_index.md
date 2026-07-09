@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgentException
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει εξαιρέσεις σχετικές με το Slides AI Agent.
+description: Αναπαριστά εξαιρέσεις σχετικές με το Slides AI Agent.
 type: docs
-weight: 60
+weight: 80
 url: /el/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException κλάση
 
-Αντιπροσωπεύει εξαιρέσεις σχετικές με το Slides AI Agent.
+Αναπαριστά εξαιρέσεις σχετικές με το Slides AI Agent.
 
 ```csharp
 public class SlidesAIAgentException : Exception

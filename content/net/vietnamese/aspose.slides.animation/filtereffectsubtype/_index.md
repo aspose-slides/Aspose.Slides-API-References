@@ -1,14 +1,14 @@
 ---
 title: FilterEffectSubtype
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Mô tả các kiểu phụ của hiệu ứng bộ lọc.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho các loại phụ hiệu lọc.
 type: docs
 weight: 390
 url: /vi/aspose.slides.animation/filtereffectsubtype/
 ---
 ## FilterEffectSubtype liệt kê
 
-Mô tả các kiểu phụ của hiệu ứng bộ lọc.
+Đại diện cho các loại phụ hiệu lọc.
 
 ```csharp
 public enum FilterEffectSubtype
@@ -46,7 +46,7 @@ public enum FilterEffectSubtype
 | UpRight | `25` |  |
 | Vertical | `26` |  |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Animation](../../aspose.slides.animation)
 * tập hợp [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlideHeaderFooterManager
-second_title: Aspose.Sildes for .NET API Reference
-description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide ghi chú chính và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho trình quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide ghi chú chính và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính.
 type: docs
 weight: 8020
 url: /vi/aspose.slides/masternotesslideheaderfootermanager/
 ---
-## Lớp MasterNotesSlideHeaderFooterManager
+## MasterNotesSlideHeaderFooterManager lớp
 
-Represents manager which holds behavior of the master notes slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.
+Đại diện cho trình quản lý giữ hành vi của phần chân trang, ngày-giờ, số trang của slide ghi chú chính và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính.
 
 ```csharp
 public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
@@ -28,20 +28,20 @@ public sealed class MasterNotesSlideHeaderFooterManager : BaseHandoutNotesSlideH
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ trên slide chính và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
 | [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ slide. |
-| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho trình giữ chỗ chân trang của slide chính và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang slide chính và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ trên slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho trình giữ chỗ chân trang của slide chính và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang trên slide chính và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Đặt văn bản cho trình giữ chỗ chân trang của slide. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang slide. |
-| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Đặt văn bản cho trình giữ chỗ đầu trang của slide ghi chú chính và tất cả các trình giữ chỗ đầu trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
-| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ đầu trang slide ghi chú chính và tất cả các trình giữ chỗ đầu trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang trên slide. |
+| [SetHeaderAndChildHeadersText](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheaderstext)(string) | Đặt văn bản cho trình giữ chỗ đầu trang của slide ghi chú chính và tất cả các trình giữ chỗ đầu trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
+| [SetHeaderAndChildHeadersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setheaderandchildheadersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ đầu trang trên slide ghi chú chính và tất cả các trình giữ chỗ đầu trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
 | [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | Đặt văn bản cho trình giữ chỗ đầu trang của slide. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ đầu trang slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang slide chính và tất cả các trình giữ chỗ số trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và phụ thuộc vào slide ghi chú chính. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang slide. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ đầu trang trên slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masternotesslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang trên slide chính và tất cả các trình giữ chỗ số trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide ghi chú phụ thuộc. Các slide ghi chú phụ thuộc sử dụng và dựa vào slide ghi chú chính. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang trên slide. |
 
 ### Xem thêm
 

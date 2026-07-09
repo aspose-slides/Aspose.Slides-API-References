@@ -1,12 +1,12 @@
 ---
 title: IOverrideThemeManager
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Farklı türde geçersiz kılınmış temalara erişim sağlar.
 type: docs
-weight: 11330
+weight: 11350
 url: /tr/aspose.slides.theme/ioverridethememanager/
 ---
-## IOverrideThemeManager arayüzü
+## IOverrideThemeManager arabirimi
 
 Farklı türde geçersiz kılınmış temalara erişim sağlar.
 
@@ -18,13 +18,13 @@ public interface IOverrideThemeManager : IThemeManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Temel IThemeManager arayüzünü almayı sağlar. Salt okunur [`IThemeManager`](../ithememanager). |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'in kalıtılmış etkili temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'i geçersiz kılmaya etkinleştirmek için OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'in geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() yöntemini kullanın. Salt okunur Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Geçersiz kılan tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
+| [AsIThemeManager](../../aspose.slides.theme/ioverridethememanager/asithememanager) { get; } | Temel IThemeManager arabirimine erişim sağlar. Salt okunur [`IThemeManager`](../ithememanager). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/ioverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme'ın kalıtılan etkili temayı geçersiz kılıp kılmadığını belirler. OverrideTheme'ı geçersiz kılma için etkinleştirmek amacıyla OverrideTheme.Init*() yöntemlerini kullanın. OverrideTheme'ın geçersiz kılmasını devre dışı bırakmak için OverrideTheme.Clear() yöntemini kullanın. Salt okunur Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/ioverridethememanager/overridetheme) { get; set; } | Geçersiz kılınan tema nesnesini döndürür. Okunur/yazılabilir [`IOverrideTheme`](../ioverridetheme). |
 
-### Ayrıca
+### Ayrıca Bakınız
 
-* arayüz [IThemeManager](../ithememanager)
+* arabirim [IThemeManager](../ithememanager)
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IFontSchemeEffectiveData
-second_title: Aspose.Sildes a .NET API referencia
-description: Megváltoztathatatlan objektum, amely a tényleges betűkészlet-séma tulajdonságait tartalmazza.
+second_title: Aspose.Sildes .NET API referenciája
+description: Változtathatatlan objektum, amely a hatékony betűtípus-séma tulajdonságait tartalmazza.
 type: docs
-weight: 11240
+weight: 11260
 url: /hu/aspose.slides.theme/ifontschemeeffectivedata/
 ---
 ## IFontSchemeEffectiveData interfész
 
-Megváltoztathatatlan objektum, amely a tényleges betűkészlet-séma tulajdonságait tartalmazza.
+Változtathatatlan objektum, amely a hatékony betűtípus-séma tulajdonságait tartalmazza.
 
 ```csharp
 public interface IFontSchemeEffectiveData
@@ -16,15 +16,15 @@ public interface IFontSchemeEffectiveData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Visszaadja a betűkészletek gyűjteményét a dia "cím" részéhez. Csak olvasható [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Visszaadja a betűkészletek gyűjteményét a dia "törzs" részéhez. Csak olvasható [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
-| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Visszaadja a betűkészlet-séma nevét. Csak olvasható String. |
+| [Major](../../aspose.slides.theme/ifontschemeeffectivedata/major) { get; } | Visszaadja a betűtípusok gyűjteményét a "heading" részéhez a dián. Csak olvasható [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Minor](../../aspose.slides.theme/ifontschemeeffectivedata/minor) { get; } | Visszaadja a betűtípusok gyűjteményét a "body" részéhez a dián. Csak olvasható [`IFontsEffectiveData`](../../aspose.slides/ifontseffectivedata). |
+| [Name](../../aspose.slides.theme/ifontschemeeffectivedata/name) { get; } | Visszaadja a betűtípus-séma nevét. Csak olvasható String. |
 
-### Megjegyzés
+### Megjegyzések
 
-Ez az interfész a [`IThemeEffectiveData`](../ithemeeffectivedata) részeként használható.
+Ez az interfész a [`IThemeEffectiveData`](../ithemeeffectivedata) részeként van használva.
 
 ### Lásd még
 

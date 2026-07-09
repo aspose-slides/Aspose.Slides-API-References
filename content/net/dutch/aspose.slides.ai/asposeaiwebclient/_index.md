@@ -8,7 +8,7 @@ url: /nl/aspose.slides.ai/asposeaiwebclient/
 ---
 ## AsposeAIWebClient klasse
 
-Een ingebouwde [`IAIWebClient`](../iaiwebclient)-implementatie die verbinding maakt met de eigen LLM van Aspose. Dit is de standaardclient die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../slidesaiagent/slidesaiagent)-constructor.
+Een ingebouwde [`IAIWebClient`](../iaiwebclient) implementatie die verbinding maakt met de eigen LLM van Aspose. Dit is de standaardclient die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) constructor.
 
 ```csharp
 public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
@@ -18,18 +18,18 @@ public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM-eindpunt. Dit is de client die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../slidesaiagent/slidesaiagent)-constructor, dus expliciet aanmaken is alleen vereist wanneer de client rechtstreeks aan de [`SlidesAIAgent`](../slidesaiagent/slidesaiagent)-constructor wordt doorgegeven. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM-eindpunt met behulp van een extern beheerde HttpClient. De meegeleverde HttpClient wordt niet door deze instantie vrijgegeven en blijft eigendom van de aanroeper. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste eindpunt-URL. Gebruik deze overload wanneer je een URL hebt die door het Aspose.Slides-team is verstrekt; anders gebruik je de [`AsposeAIWebClient`](./asposeaiwebclient)-overload met de standaard-URL. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste eindpunt-URL met behulp van een extern beheerde HttpClient. De meegeleverde HttpClient wordt niet door deze instantie vrijgegeven en blijft eigendom van de aanroeper. Gebruik deze overload wanneer je een URL hebt die door het Aspose.Slides-team is verstrekt en je je eigen HttpClient wilt leveren; als je alleen je eigen HttpClient nodig hebt met de standaard-URL, gebruik dan de [`AsposeAIWebClient`](./asposeaiwebclient)-overload. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM-eindpunt. Dit is de client die wordt gebruikt door de parameterloze [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) constructor, dus deze expliciet maken is alleen vereist wanneer de client rechtstreeks aan de [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) constructor wordt doorgegeven. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met het standaard Aspose LLM-eindpunt met behulp van een extern beheerde HttpClient. De meegeleverde HttpClient wordt niet door deze instantie afgevoerd en blijft eigendom van de aanroeper. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste endpoint-URL. Gebruik deze overload wanneer je een URL hebt die door het Aspose.Slides-team wordt geleverd; gebruik anders de [`AsposeAIWebClient`](./asposeaiwebclient) overload met de standaard-URL. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | Maakt een instantie van de Aspose AI webclient die verbinding maakt met een aangepaste endpoint-URL met behulp van een extern beheerde HttpClient. De meegeleverde HttpClient wordt niet door deze instantie afgevoerd en blijft eigendom van de aanroeper. Gebruik deze overload wanneer je een URL hebt die door het Aspose.Slides-team wordt geleverd en je je eigen HttpClient wilt gebruiken; als je alleen je eigen HttpClient nodig hebt met de standaard-URL, gebruik dan de [`AsposeAIWebClient`](./asposeaiwebclient) overload. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | Verzendt een chat-instructie naar het AI-model en retourneert het responsbericht voor de opgegeven instructie. |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | Maakt een gespreks-instantie. In tegenstelling tot reguliere AI-aanroepen behouden gesprekken de volledige context. |
-| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | Vrijeft de door deze instantie gebruikte bronnen. |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | Verzendt een chat-instructie naar het AI-model en retourneert het responsbericht voor de gegeven instructie. |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | Maakt een conversatie-instantie. In tegenstelling tot gewone AI-aanroepen behouden conversaties de volledige context. |
+| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | Vrijgeeft de door deze instantie gebruikte bronnen. |
 
 ### Zie ook
 

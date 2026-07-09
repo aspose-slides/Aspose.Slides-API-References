@@ -1,14 +1,14 @@
 ---
 title: CommentsPositions
 second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje pravidlo pro vykreslení komentářů v exportovaném dokumentu
+description: Reprezentuje pravidlo pro vykreslení komentářů do exportovaného dokumentu
 type: docs
-weight: 3710
+weight: 3730
 url: /cs/aspose.slides.export/commentspositions/
 ---
-## Enumerace CommentsPositions
+## výčet CommentsPositions
 
-Reprezentuje pravidlo pro vykreslení komentářů v exportovaném dokumentu
+Representuje pravidlo pro vykreslení komentářů do exportovaného dokumentu
 
 ```csharp
 public enum CommentsPositions
@@ -19,8 +19,8 @@ public enum CommentsPositions
 | Název | Hodnota | Popis |
 | --- | --- | --- |
 | None | `0` | Určuje, že komentáře nebudou vůbec zobrazeny. |
-| Bottom | `1` | Určuje, že komentáře mají být zobrazeny ve spodní části stránky. |
-| Right | `2` | Určuje, že komentáře mají být zobrazeny vpravo od stránky. |
+| Bottom | `1` | Určuje, že komentáře budou zobrazeny ve spodní části stránky. |
+| Right | `2` | Určuje, že komentáře budou zobrazeny napravo od stránky. |
 
 ### Viz také
 

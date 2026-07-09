@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Referência da API Aspose.Sildes para .NET
-description: Representa um valor de string que pode ser armazenado em documento de apresentação pptx de duas maneiras: 1) em célula(s) da pasta de trabalho relacionada ao gráfico; 2) como valor literal.
+second_title: Aspose.Sildes para .NET Referência de API
+description: Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
 type: docs
-weight: 2390
+weight: 2410
 url: /pt/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue classe
 
-Representa um valor de string que pode ser armazenado em documento de apresentação pptx de duas maneiras: 1) em célula/células da pasta de trabalho relacionada ao gráfico; 2) como valor literal.
+Representa um valor de string que pode ser armazenado em um documento de apresentação pptx de duas maneiras: 1) em célula(s) da planilha relacionada ao gráfico; 2) como valor literal.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Propriedades
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Atribuição de valor nulo não é permitida. O valor retornado nunca é nulo. Leitura/gravação [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Retorna ou define o valor como string literal. Leitura/gravação String. |
-| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Retorna ou define o objeto Data. Leitura/gravação Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica se a propriedade AsCell, AsCells, AsLiteralString ou AsLiteralDouble está efetiva nas classes derivadas. Em outras palavras, especifica o tipo de valor da propriedade Data. Leitura/gravação [`DataSourceType`](../datasourcetype). |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | A atribuição de valor nulo não é permitida. O valor retornado nunca é nulo. Leitura/Gravação [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Retorna ou define o valor como string literal. Leitura/Gravação String. |
+| override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Retorna ou define o objeto Data. Leitura/Gravação Object. |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Especifica se a propriedade AsCell, AsCells, AsLiteralString ou AsLiteralDouble está efetiva nos descendentes. Em outras palavras, especifica o tipo de valor da propriedade Data. Leitura/Gravação [`DataSourceType`](../datasourcetype). |
 
 ## Métodos
 
-| Nome | Descrição |
+| Name | Description |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Se a propriedade DataSourceType for DataSourceType.Worksheet, este método retorna o endereço das células na pasta de trabalho que representam os dados de string. Caso contrário, retorna string vazia. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Se a propriedade DataSourceType for DataSourceType.Worksheet então este método retorna o endereço das células na planilha que representam os dados de string. Caso contrário, retorna string vazia. |
 | [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Define o valor a partir da célula especificada. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Retorna os dados do valor de string. Retorna nulo se DataSourceType for false e nenhum valor de string foi atribuído. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Retorna os dados de valor de string. Retorna nulo se DataSourceType for false e nenhum valor de string foi atribuído. |
 
 ### Veja Também
 

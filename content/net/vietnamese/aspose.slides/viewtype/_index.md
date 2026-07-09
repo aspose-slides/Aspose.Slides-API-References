@@ -1,14 +1,14 @@
 ---
 title: ViewType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Các loại chế độ xem của Presentation
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Các kiểu hiển thị bản trình chiếu
 type: docs
 weight: 11750
 url: /vi/aspose.slides/viewtype/
 ---
-## ViewType liệt kê
+## Liệt kê ViewType
 
-Presentation các loại chế độ xem
+Các kiểu hiển thị bản trình chiếu
 
 ```csharp
 public enum ViewType
@@ -19,16 +19,16 @@ public enum ViewType
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | NotDefined | `0` | Giá trị chưa được xác định |
-| SlideView | `1` | Chế độ xem Slide bình thường |
+| SlideView | `1` | Chế độ xem slide bình thường |
 | SlideMasterView | `2` | Chế độ xem Slide Master |
 | NotesView | `3` | Chế độ xem Ghi chú |
-| HandoutView | `4` | Chế độ xem Tờ rơi |
+| HandoutView | `4` | Chế độ xem Tài liệu phát tay |
 | NotesMasterView | `5` | Chế độ xem Notes Master |
-| OutlineView | `6` | Chế độ xem Dàn bài |
-| SlideSorterView | `7` | Chế độ xem Slide Sorter |
-| SlideThumbnailView | `8` | Chế độ xem Slide Thumbnail |
+| OutlineView | `6` | Chế độ xem Dàn ý |
+| SlideSorterView | `7` | Chế độ xem Sắp xếp Slide |
+| SlideThumbnailView | `8` | Chế độ xem Hình thu nhỏ Slide |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * tập hợp [Aspose.Slides](../../)

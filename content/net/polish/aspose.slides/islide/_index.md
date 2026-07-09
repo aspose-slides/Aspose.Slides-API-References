@@ -1,9 +1,9 @@
 ---
 title: ISlide
-second_title: Aspose.Sildes dla .NET – referencja API
+second_title: Aspose.Sildes dla .NET – Dokumentacja API
 description: Reprezentuje slajd w prezentacji.
 type: docs
-weight: 7020
+weight: 7040
 url: /pl/aspose.slides/islide/
 ---
 ## ISlide interfejs
@@ -23,21 +23,21 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Zwraca menedżer HeaderFooter slajdu. Tylko do odczytu [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
 | [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Określa, czy określony slajd jest ukryty podczas pokazu slajdów. Odczyt/zapis Boolean. |
 | [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Zwraca lub ustawia slajd układu dla bieżącego slajdu. Odczyt/zapis [`ILayoutSlide`](../ilayoutslide). |
-| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Umożliwia dostęp do slajdu notatek, ich dodawanie i usuwanie. Tylko do odczytu [`INotesSlideManager`](../inotesslidemanager). |
-| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Zwraca numer slajdu. Indeks slajdu w kolekcji [`Slides`](../ipresentation/slides) jest zawsze równy SlideNumber - 1. Odczyt/zapis Int32. |
+| [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Umożliwia dostęp do slajdu z notatkami, dodawanie i usuwanie go. Tylko do odczytu [`INotesSlideManager`](../inotesslidemanager). |
+| [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Zwraca numer slajdu. Indeks slajdu w kolekcji [`Slides`](../ipresentation/slides) zawsze jest równy SlideNumber - 1. Odczyt/zapis Int32. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Zwraca obiekt Thumbnail Image (20 % rzeczywistego rozmiaru). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Zwraca obiekt Thumbnail Image (20% rzeczywistego rozmiaru). |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Zwraca obiekt Thumbnail Bitmap. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Zwraca obiekt Thumbnail tiff bitmap z określonymi parametrami. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Zwraca obiekt obrazu o określonym rozmiarze. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Zwraca obiekt obrazu ze skalowaniem niestandardowym. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Zwraca obiekt Thumbnail Bitmap o określonym rozmiarze. |
 | [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Zwraca obiekt Thumbnail Bitmap ze skalowaniem niestandardowym. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Zwraca wszystkie komentarze slajdu dodane przez konkretnego autora. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Zwraca wszystkie komentarze slajdu dodane przez określonego autora. |
 | [Remove](../../aspose.slides/islide/remove)() | Usuwa slajd z prezentacji. |
 | [Reset](../../aspose.slides/islide/reset)() | Resetuje pozycję, rozmiar i formatowanie każdego kształtu, który ma prototyp na LayoutSlide. |
 | [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Zapisuje zawartość slajdu jako plik EMF. |

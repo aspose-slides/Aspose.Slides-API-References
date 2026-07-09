@@ -16,21 +16,21 @@ public interface ISummaryZoomSectionCollection : IGenericCollection<ISummaryZoom
 
 ## 屬性
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [Item](../../aspose.slides/isummaryzoomsectioncollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ISummaryZoomSection`](../isummaryzoomsection)。 |
 
 ## 方法
 
-| 名稱 | 描述 |
+| Name | Description |
 | --- | --- |
 | [AddSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection)(ISection) | 建立新的 Summary Zoom Section 物件並將其加入集合 |
 | [Clear](../../aspose.slides/isummaryzoomsectioncollection/clear)() | 從集合中移除所有 SummaryZoomSection 物件。 |
-| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 回傳給定區段的 Summary Zoom Section 元素。 |
-| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 回傳指定 SummaryZoomSection 物件的索引。 |
+| [GetSummarySection](../../aspose.slides/isummaryzoomsectioncollection/getsummarysection)(ISection) | 傳回給定 section 的 Summary Zoom Section 元素。 |
+| [IndexOf](../../aspose.slides/isummaryzoomsectioncollection/indexof)(ISummaryZoomSection) | 傳回指定 SummaryZoomSection 物件的索引。 |
 | [RemoveSummaryZoomSection](../../aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection)(ISection) | 從集合中移除 Summary Zoom Section 物件。 |
 
-### 另請參閱
+### 另見
 
 * 介面 [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * 介面 [ISummaryZoomSection](../isummaryzoomsection)

@@ -20,7 +20,7 @@ public interface IProgressCallback
 | --- | --- |
 | [Reporting](../../aspose.slides/iprogresscallback/reporting)(double) | 진행 업데이트를 보고합니다. |
 
-### 참고
+### 자세히 보기
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

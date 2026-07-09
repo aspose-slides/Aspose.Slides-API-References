@@ -1,6 +1,6 @@
 ---
 title: IChartPlotArea
-second_title: مرجع API لـ Aspose.Sildes على .NET
+second_title: Aspose.Sildes لـ .NET مرجع API
 description: يمثل خصائص عنوان المخطط.
 type: docs
 weight: 1910
@@ -19,9 +19,9 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | الاسم | الوصف |
 | --- | --- |
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | يرجع واجهة IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | يسمح بالحصول على واجهة ILayoutable الأساسية. للقراءة فقط [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | يرجع تنسيق مساحة الرسم. للقراءة فقط [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | إذا تم تعريف تخطيط مساحة الرسم يدويًا، تحدد هذه الخاصية ما إذا كان سيتم تخطيط مساحة الرسم من الداخل (دون تضمين المحاور وتسميات المحاور) أو من الخارج (مع تضمين المحاور وتسميات المحاور). قراءة/كتابة [`LayoutTargetType`](./layouttargettype). |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | يسمح بالحصول على واجهة ILayoutable الأساسية. قراءة فقط [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | يرجع تنسيق منطقة الرسم. قراءة فقط [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | إذا تم تعريف تخطيط منطقة الرسم يدويًا، تحدد هذه الخاصية ما إذا كان سيتم تخطيط منطقة الرسم من الداخل (بدون تضمين المحاور وعناوين المحاور) أو من الخارج (مع تضمين المحاور وعناوين المحاور). قراءة/كتابة [`LayoutTargetType`](./layouttargettype). |
 
 ### انظر أيضًا
 

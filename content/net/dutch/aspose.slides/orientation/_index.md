@@ -1,14 +1,14 @@
 ---
 title: Orientation
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Geeft de oriëntatie van een vorm weer.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt de oriëntatie van een vorm voor.
 type: docs
 weight: 9240
 url: /nl/aspose.slides/orientation/
 ---
 ## Orientation enumeratie
 
-Geeft de oriëntatie van een vorm weer.
+Stelt de oriëntatie van een vorm voor.
 
 ```csharp
 public enum Orientation : sbyte

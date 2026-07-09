@@ -3,7 +3,7 @@ title: ISensitivityLabelCollection
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa uma coleção de rótulos de sensibilidade aplicados ao documento.
 type: docs
-weight: 6920
+weight: 6940
 url: /pt/aspose.slides/isensitivitylabelcollection/
 ---
 ## ISensitivityLabelCollection interface
@@ -16,14 +16,14 @@ public interface ISensitivityLabelCollection : IEnumerable<ISensitivityLabel>
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Count](../../aspose.slides/isensitivitylabelcollection/count) { get; } | Obtém o número de todos os elementos na coleção. Somente leitura Int32. |
-| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Retorna o rótulo de sensibilidade pelo índice. Somente leitura [`ISensitivityLabel`](../isensitivitylabel). |
+| [Item](../../aspose.slides/isensitivitylabelcollection/item) { get; } | Retorna o rótulo de sensibilidade por índice. Somente leitura [`ISensitivityLabel`](../isensitivitylabel). |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add_1)(ISensitivityLabel) | Adiciona um SensitivityLabel à coleção. |
 | [Add](../../aspose.slides/isensitivitylabelcollection/add#add)(string, Guid, bool, SensitivityLabelAssignmentType) | Adiciona o rótulo de sensibilidade ao final da coleção. |

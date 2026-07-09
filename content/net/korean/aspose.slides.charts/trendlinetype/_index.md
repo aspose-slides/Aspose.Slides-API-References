@@ -8,7 +8,7 @@ url: /ko/aspose.slides.charts/trendlinetype/
 ---
 ## TrendlineType 열거형
 
-추세선 유형을 나타냅니다
+추세선의 유형을 나타냅니다
 
 ```csharp
 public enum TrendlineType
@@ -16,16 +16,16 @@ public enum TrendlineType
 
 ### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Exponential | `0` | 추세선이 형태의 지수 곡선이어야 함을 지정합니다. |
-| Linear | `1` | 추세선이 형태의 직선이어야 함을 지정합니다. |
-| Logarithmic | `2` | 추세선이 형태의 로그 곡선이어야 함을 지정합니다, 여기서 log는 자연 로그입니다. |
-| MovingAverage | `3` | 추세선이 기간 Period의 이동 평균이어야 함을 지정합니다. |
-| Polynomial | `4` | 추세선이 형태의 차수 Order인 다항식 곡선이어야 함을 지정합니다. |
-| Power | `5` | 추세선이 형태의 멱 곡선이어야 함을 지정합니다. |
+| Exponential | `0` | 지정된 추세선은 형태의 지수 곡선이어야 합니다. |
+| Linear | `1` | 지정된 추세선은 형태의 직선이어야 합니다. |
+| Logarithmic | `2` | 지정된 추세선은 형태의 로그 곡선이어야 하며, 여기서 log는 자연 로그입니다. |
+| MovingAverage | `3` | 지정된 추세선은 Period 기간의 이동 평균이어야 합니다. |
+| Polynomial | `4` | 지정된 추세선은 형태의 차수 Order인 다항식 곡선이어야 합니다. |
+| Power | `5` | 지정된 추세선은 형태의 거듭제곱 곡선이어야 합니다. |
 
-### 참조
+### 또한 보기
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

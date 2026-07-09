@@ -1,9 +1,9 @@
 ---
 title: ExcelDataCell
-second_title: Aspose.Sildes .NET API referencia
+second_title: Aspose.Sildes .NET API Referencia
 description: Egyetlen cellát képvisel egy Excel munkafüzetben.
 type: docs
-weight: 3660
+weight: 3680
 url: /hu/aspose.slides.excel/exceldatacell/
 ---
 ## ExcelDataCell osztály
@@ -18,10 +18,10 @@ public class ExcelDataCell : IExcelDataCell
 
 | Név | Leírás |
 | --- | --- |
-| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Visszaadja a cella helyét tartalmazó munkalap oszlopának nullától számított indexét. Csak olvasható Int32. |
+| [Column](../../aspose.slides.excel/exceldatacell/column) { get; } | Visszaadja a cellát tartalmazó munkalap oszlopának nulla-alapú indexét. Csak olvasható Int32. |
 | [Name](../../aspose.slides.excel/exceldatacell/name) { get; } | Visszaadja a diagram adatcellájának nevét. |
-| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Visszaadja a cella helyét tartalmazó munkalap sorának nullától számított indexét. Csak olvasható Int32. |
-| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Visszaadja a Excel cellában tárolt értéket. |
+| [Row](../../aspose.slides.excel/exceldatacell/row) { get; } | Visszaadja a cellát tartalmazó munkalap sorának nulla-alapú indexét. Csak olvasható Int32. |
+| [Value](../../aspose.slides.excel/exceldatacell/value) { get; } | Visszaadja az Excel cellában tárolt értéket. |
 
 ### Lásd még
 

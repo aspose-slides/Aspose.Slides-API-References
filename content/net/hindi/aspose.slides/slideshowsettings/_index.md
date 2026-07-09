@@ -1,14 +1,14 @@
 ---
 title: SlideShowSettings
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रस्तुति के लिए स्लाइड शो सेटिंग्स का प्रतिनिधित्व करता है।
+description: प्रेजेंटेशन के लिए स्लाइड शो सेटिंग्स को दर्शाता है।
 type: docs
 weight: 10480
 url: /hi/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings क्लास
 
-प्रस्तुति के लिए स्लाइड शो सेटिंग्स का प्रतिनिधित्व करता है।
+प्रेजेंटेशन के लिए स्लाइड शो सेटिंग्स को दर्शाता है।
 
 ```csharp
 public class SlideShowSettings
@@ -22,12 +22,12 @@ public class SlideShowSettings
 | [PenColor](../../aspose.slides/slideshowsettings/pencolor) { get; } | स्लाइड शो के लिए पेन रंग |
 | [ShowAnimation](../../aspose.slides/slideshowsettings/showanimation) { get; set; } | स्लाइड शो में एनीमेशन दिखाएँ |
 | [ShowMediaControls](../../aspose.slides/slideshowsettings/showmediacontrols) { get; set; } | मीडिया नियंत्रण दिखाएँ |
-| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | स्लाइड शो में वर्णन दिखाएँ |
+| [ShowNarration](../../aspose.slides/slideshowsettings/shownarration) { get; set; } | स्लाइड शो में नैरेशन दिखाएँ |
 | [Slides](../../aspose.slides/slideshowsettings/slides) { get; set; } | स्लाइड रेंज |
-| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | स्लाइड शो प्रकार को प्राप्त करता है या सेट करता है। निम्नलिखित [`SlideShowType`](./slideshowtype) पुरजनों द्वारा प्रतिनिधित्व किया गया है: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) और [`BrowsedByIndividual`](../browsedbyindividual) |
+| [SlideShowType](../../aspose.slides/slideshowsettings/slideshowtype) { get; set; } | स्लाइड शो प्रकार को प्राप्त या सेट करता है। निम्नलिखित [`SlideShowType`](./slideshowtype) पूर्वजों द्वारा प्रतिनिधित्वित: [`BrowsedAtKiosk`](../browsedatkiosk), [`PresentedBySpeaker`](../presentedbyspeaker) और [`BrowsedByIndividual`](../browsedbyindividual) |
 | [UseTimings](../../aspose.slides/slideshowsettings/usetimings) { get; set; } | स्लाइड शो में टाइमिंग का उपयोग करें |
 
-### संबंधित देखें
+### देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

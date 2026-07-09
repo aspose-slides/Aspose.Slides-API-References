@@ -3,7 +3,7 @@ title: CaptionsCollection
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi caption tertutup.
 type: docs
-weight: 1100
+weight: 1120
 url: /id/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection kelas
@@ -18,14 +18,14 @@ public sealed class CaptionsCollection : ICaptionsCollection
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Count](../../aspose.slides/captionscollection/count) { get; } | Mengembalikan jumlah elemen dalam koleksi. Baca-saja Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Mengembalikan caption tertutup pada indeks yang ditentukan. Baca-saja [`ICaptions`](../icaptions). |
+| [Count](../../aspose.slides/captionscollection/count) { get; } | Mengembalikan jumlah elemen dalam koleksi. Hanya-baca Int32. |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Mengembalikan caption tertutup pada indeks yang ditentukan. Hanya-baca [`ICaptions`](../icaptions). |
 
 ## Metode
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Menambahkan caption tertutup WebVTT ke akhir koleksi dari stream. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Menambahkan caption tertutup WebVTT ke akhir koleksi dari sebuah stream. |
 | [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Menambahkan caption tertutup WebVTT ke akhir koleksi. |
 | [Clear](../../aspose.slides/captionscollection/clear)() | Menghapus semua caption tertutup dari koleksi. |
 | [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |

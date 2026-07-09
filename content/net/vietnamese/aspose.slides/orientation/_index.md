@@ -1,14 +1,14 @@
 ---
 title: Orientation
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả hướng của một hình dạng.
+description: Biểu thị hướng của một hình dạng.
 type: docs
 weight: 9240
 url: /vi/aspose.slides/orientation/
 ---
-## Liệt kê Orientation
+## Kiểu enum Orientation
 
-Mô tả hướng của một hình dạng.
+Biểu thị hướng của một hình dạng.
 
 ```csharp
 public enum Orientation : sbyte

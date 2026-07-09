@@ -1,14 +1,14 @@
 ---
 title: SlideUtil
-second_title: Aspose.Sildes for .NET API 參考
-description: 提供有助於在簡報中搜尋圖形和文字的方法。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 提供協助在簡報中搜尋圖形與文字的方法。
 type: docs
 weight: 11520
 url: /zh-hant/aspose.slides.util/slideutil/
 ---
 ## SlideUtil 類別
 
-提供有助於在簡報中搜尋圖形和文字的方法。
+提供協助在簡報中搜尋圖形與文字的方法。
 
 ```csharp
 public static class SlideUtil
@@ -18,20 +18,20 @@ public static class SlideUtil
 
 | 名稱 | 說明 |
 | --- | --- |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | 變更投影片上所有圖形的位置。將圖形對齊至投影片的邊緣或邊框，或相互之間對齊。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 變更群組圖形內所有圖形的位置。將圖形對齊至投影片的邊緣或邊框，或相互之間對齊。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 變更投影片上選取圖形的位置。將圖形對齊至投影片的邊緣或邊框，或相互之間對齊。 |
-| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | 變更群組圖形內選取圖形的位置。將圖形對齊至投影片的邊緣或邊框，或相互之間對齊。 |
-| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 在簡報中尋找並取代文字，使用給定的格式。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes)(ShapesAlignmentType, bool, IBaseSlide) | 變更投影片上所有圖形的位置。將圖形對齊至投影片的邊緣或邊界，或讓它們彼此相對對齊。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_2)(ShapesAlignmentType, bool, IGroupShape) | 變更群組圖形內所有圖形的位置。將圖形對齊至投影片的邊緣或邊界，或讓它們彼此相對對齊。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_1)(ShapesAlignmentType, bool, IBaseSlide, int[]) | 變更投影片上已選取的圖形的位置。將圖形對齊至投影片的邊緣或邊界，或讓它們彼此相對對齊。 |
+| static [AlignShapes](../../aspose.slides.util/slideutil/alignshapes#alignshapes_3)(ShapesAlignmentType, bool, IGroupShape, int[]) | 變更群組圖形內已選取的圖形的位置。將圖形對齊至投影片的邊緣或邊界，或讓它們彼此相對對齊。 |
+| static [FindAndReplaceText](../../aspose.slides.util/slideutil/findandreplacetext)(IPresentation, bool, string, string, PortionFormat) | 在簡報中尋找並取代文字，並套用指定的格式。 |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape)(IBaseSlide, string) | 在 PPTX 簡報的投影片上，依替代文字尋找圖形。 |
 | static [FindShape](../../aspose.slides.util/slideutil/findshape#findshape_1)(IPresentation, string) | 在 PPTX 簡報中，依替代文字尋找圖形。 |
-| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 搜尋指定投影片上符合給定佔位類型的所有圖形。 |
-| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | 回傳 PPTX 簡報中投影片上的所有文字框。 |
-| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | 回傳 PPTX 簡報中的所有文字框。 |
-| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | 回傳指定投影片上包含給定文字的所有文字框。 |
-| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | 將來源檔案格式轉換為相對應的 [`SaveFormat`](../../aspose.slides.export/saveformat)。 |
+| static [FindShapesByPlaceholderType](../../aspose.slides.util/slideutil/findshapesbyplaceholdertype)(IBaseSlide, PlaceholderType) | 在指定的投影片上搜尋符合給定 PlaceholderType 的所有圖形。 |
+| static [GetAllTextBoxes](../../aspose.slides.util/slideutil/getalltextboxes)(IBaseSlide) | 傳回 PPTX 簡報中投影片上的所有文字框。 |
+| static [GetAllTextFrames](../../aspose.slides.util/slideutil/getalltextframes)(IPresentation, bool) | 傳回 PPTX 簡報中的所有文字框。 |
+| static [GetTextBoxesContainsText](../../aspose.slides.util/slideutil/gettextboxescontainstext)(IBaseSlide, string, bool) | 傳回指定投影片上包含給定文字的所有文字框。 |
+| static [ToSaveFormat](../../aspose.slides.util/slideutil/tosaveformat)(SourceFormat) | 將來源檔案格式轉換為相應的 [`SaveFormat`](../../aspose.slides.export/saveformat)。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Util](../../aspose.slides.util)
 * 組件 [Aspose.Slides](../../)

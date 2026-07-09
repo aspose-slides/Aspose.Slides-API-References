@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacter
-second_title: Aspose.Sildes for .NET API リファレンス
-description: 式の上部または下部にグループ化シンボルを指定し、通常は要素間の関係を強調します
+second_title: Aspose.Sildes for .NET APIリファレンス
+description: 式の上または下に配置するグルーピング記号を指定し、通常は要素間の関係を強調します
 type: docs
-weight: 8270
+weight: 8290
 url: /ja/aspose.slides.mathtext/imathgroupingcharacter/
 ---
 ## IMathGroupingCharacter インターフェイス
 
-式の上または下に配置されるグループ化シンボルを指定します。通常、要素間の関係を強調するために使用されます。
+式の上または下に配置するグルーピング記号を指定し、通常は要素間の関係を強調します。
 
 ```csharp
 public interface IMathGroupingCharacter : IMathElement
@@ -18,11 +18,11 @@ public interface IMathGroupingCharacter : IMathElement
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | ベースの IMathElement インターフェイスを取得できます [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathgroupingcharacter/asimathelement) { get; } | ベース IMathElement インターフェイス [`IMathElement`](../imathelement) を取得できます。 |
 | [Base](../../aspose.slides.mathtext/imathgroupingcharacter/base) { get; } | 基本引数 |
-| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | グルーピング文字 デフォルト値: U+23DF (BOTTOM CURLY BRACKET) |
+| [Character](../../aspose.slides.mathtext/imathgroupingcharacter/character) { get; set; } | グルーピング文字のデフォルト値: U+23DF (BOTTOM CURLY BRACKET) |
 | [Position](../../aspose.slides.mathtext/imathgroupingcharacter/position) { get; set; } | グルーピング文字の位置。デフォルト: Bottom |
-| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | グループ文字の垂直配置。オブジェクトのベースラインに対する位置合わせを指定します。例えば、グループ文字がオブジェクトの上にある場合、VerticalJustification が Top に設定されているとオブジェクトの上端がベースライン上に位置します。VerticalJustification が Bottom に設定されている場合、オブジェクトの下端がベースライン上に位置します。デフォルト: Position=Top の場合は Bottom、Position=Bottom の場合は Top。 |
+| [VerticalJustification](../../aspose.slides.mathtext/imathgroupingcharacter/verticaljustification) { get; set; } | グループ文字の垂直整列。ベースラインに対するオブジェクトの位置合わせを指定します。たとえば、グループ文字がオブジェクトの上にある場合、VerticalJustification が Top のときはオブジェクトの上部がベースラインに合わせられます。VerticalJustification が Bottom に設定されている場合、オブジェクトの下部がベースラインに合わせられます。デフォルト: Position=Top のときは Bottom、Position=Bottom のときは Top |
 
 ### 例
 
@@ -33,7 +33,7 @@ public interface IMathGroupingCharacter : IMathElement
 IMathGroupingCharacter groupingElement = new MathematicalText("x;y;z").Group();
 ```
 
-### 参照
+### 関連項目
 
 * インターフェイス [IMathElement](../imathelement)
 * 名前空間 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

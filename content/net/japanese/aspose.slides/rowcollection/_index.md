@@ -1,9 +1,9 @@
 ---
 title: RowCollection
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: テーブル行コレクションを表します。
 type: docs
-weight: 9700
+weight: 9720
 url: /ja/aspose.slides/rowcollection/
 ---
 ## RowCollection クラス
@@ -18,10 +18,10 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/rowcollection/count) { get; } | コレクションに実際に含まれる行数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [Count](../../aspose.slides/rowcollection/count) { get; } | コレクションに実際に含まれている行数を取得します。読み取り専用 Int32。 |
+| [IsSynchronized](../../aspose.slides/rowcollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides/rowcollection/item) { get; } | 指定されたインデックスの行を返します。読み取り専用 [`Row`](../row)。 |
-| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | 同期化ルートを返します。読み取り専用 Object。 |
+| [SyncRoot](../../aspose.slides/rowcollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
 ## メソッド
 
@@ -29,9 +29,9 @@ public sealed class RowCollection : DomObject<Table>, IRowCollection
 | --- | --- |
 | [AddClone](../../aspose.slides/rowcollection/addclone)(IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの末尾に挿入します。 |
 | [CopyTo](../../aspose.slides/rowcollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
-| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | コレクションを列挙する列挙子を返します。 |
+| [GetEnumerator](../../aspose.slides/rowcollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [InsertClone](../../aspose.slides/rowcollection/insertclone)(int, IRow, bool) | 指定されたテンプレート行のコピーを作成し、テーブルの指定位置に挿入します。 |
-| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | テーブルの指定位置から行を削除します。 |
+| [RemoveAt](../../aspose.slides/rowcollection/removeat)(int, bool) | テーブルの指定された位置から行を削除します。 |
 
 ### 参照
 

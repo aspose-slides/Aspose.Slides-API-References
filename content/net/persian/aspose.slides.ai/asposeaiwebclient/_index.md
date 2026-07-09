@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
-second_title: Aspose.Sildes برای مرجع API .NET
-description: یک پیاده‌سازی IAIWebClient./iaiwebclient داخلی که به LLM اختصاصی Asposes متصل می‌شود. این همان مشتری پیش‌فرض است که توسط سازنده بدون پارامتر SlidesAIAgent./slidesaiagent/slidesaiagent استفاده می‌شود.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک پیاده‌سازی IAIWebClient./iaiwebclient داخلی که به LLM اختصاصی Aspose متصل می‌شود. این کلاینت پیش‌فرض است که توسط سازنده بدون پارامتر SlidesAIAgent./slidesaiagent/slidesaiagent استفاده می‌شود.
 type: docs
 weight: 10
 url: /fa/aspose.slides.ai/asposeaiwebclient/
 ---
 ## AsposeAIWebClient کلاس
 
-یک پیاده‌سازی [`IAIWebClient`](../iaiwebclient) داخلی که به LLM متعلق به Aspose متصل می‌شود. این مشتری پیش‌فرض استفاده‌شده توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) است.
+یک پیاده‌سازی [`IAIWebClient`](../iaiwebclient) داخلی که به LLM خود Aspose متصل می‌شود. این کلاینت پیش‌فرض است که توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) استفاده می‌شود.
 
 ```csharp
 public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
@@ -18,23 +18,23 @@ public sealed class AsposeAIWebClient : IAIWebClient, IDisposable
 
 | نام | توضیح |
 | --- | --- |
-| [AsposeAIWebClient](asposeaiwebclient#constructor)() | یک نمونه از Aspose AI web client ایجاد می‌کند که به نقطه انتهای پیش‌فرض Aspose LLM متصل می‌شود. این همان مشتری است که توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) استفاده می‌شود، بنابراین ایجاد صریح آن فقط زمانی لازم است که مشتری را مستقیماً به سازنده [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) منتقل کنید. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | یک نمونه از Aspose AI web client ایجاد می‌کند که با استفاده از HttpClient مدیریت‌شده خارجی به نقطه انتهای پیش‌فرض Aspose LLM متصل می‌شود. HttpClient ارائه‌شده توسط این نمونه تخلیه نمی‌شود و باقی می‌ماند تحت مالکیت فراخواننده. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | یک نمونه از Aspose AI web client ایجاد می‌کند که به URL یک نقطه انتهای سفارشی متصل می‌شود. از این بارگذاری هنگام داشتن URL ارائه‌شده توسط تیم Aspose.Slides استفاده کنید؛ در غیر این صورت، بارگذاری [`AsposeAIWebClient`](./asposeaiwebclient) را با URL پیش‌فرض به کار ببرید. |
-| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | یک نمونه از Aspose AI web client ایجاد می‌کند که با استفاده از HttpClient مدیریت‌شده خارجی به URL یک نقطه انتهای سفارشی متصل می‌شود. HttpClient ارائه‌شده توسط این نمونه تخلیه نمی‌شود و باقی می‌ماند تحت مالکیت فراخواننده. هنگام داشتن URL ارائه‌شده توسط تیم Aspose.Slides و نیاز به ارائه HttpClient خودتان از این بارگذاری استفاده کنید؛ اگر فقط به HttpClient خودتان با URL پیش‌فرض نیاز دارید، به جای آن بارگذاری [`AsposeAIWebClient`](./asposeaiwebclient) را به کار ببرید. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor)() | یک نمونه از کلاینت وب Aspose AI ایجاد می‌کند که به نقطه انتهایی پیش‌فرض Aspose LLM متصل می‌شود. این کلاینت توسط سازنده بدون پارامتر [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) استفاده می‌شود، بنابراین ایجاد صریح آن فقط وقتی لازم است که کلاینت را مستقیماً به سازنده [`SlidesAIAgent`](../slidesaiagent/slidesaiagent) پاس دهید. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_1)(HttpClient) | یک نمونه از کلاینت وب Aspose AI ایجاد می‌کند که با استفاده از HttpClient مدیریت‌شده خارجی به نقطه انتهایی پیش‌فرض Aspose LLM متصل می‌شود. HttpClient ارائه‌شده توسط این نمونه از بین نمی‌رود و مالکیت آن در اختیار فراخواننده می‌ماند. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_2)(string) | یک نمونه از کلاینت وب Aspose AI ایجاد می‌کند که به یک URL نقطه انتهایی سفارشی متصل می‌شود. این overload را زمانی استفاده کنید که یک URL توسط تیم Aspose.Slides فراهم شده باشد؛ در غیر این صورت، overload [`AsposeAIWebClient`](./asposeaiwebclient) را با URL پیش‌فرض استفاده کنید. |
+| [AsposeAIWebClient](asposeaiwebclient#constructor_3)(string, HttpClient) | یک نمونه از کلاینت وب Aspose AI ایجاد می‌کند که با استفاده از HttpClient مدیریت‌شده خارجی به یک URL نقطه انتهایی سفارشی متصل می‌شود. HttpClient ارائه‌شده توسط این نمونه از بین نمی‌رود و مالکیت آن در اختیار فراخواننده می‌ماند. این overload را زمانی استفاده کنید که یک URL توسط تیم Aspose.Slides فراهم شده باشد و بخواهید HttpClient خود را ارائه دهید؛ اگر فقط به HttpClient خود با URL پیش‌فرض نیاز دارید، به‌جای آن overload [`AsposeAIWebClient`](./asposeaiwebclient) را استفاده کنید. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | یک دستور گفتگویی را به مدل AI می‌فرستد و پیام پاسخ را برای دستور داده شده باز می‌گرداند. |
-| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | یک نمونه مکالمه ایجاد می‌کند. برخلاف تماس‌های معمولی AI، مکالمات تمام زمینه را حفظ می‌کنند. |
-| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | منابع استفاده‌شده توسط این نمونه را آزاد می‌کند. |
+| [CallChatAsync](../../aspose.slides.ai/asposeaiwebclient/callchatasync)(string) | یک دستور چت را به مدل AI می‌فرستد و پیام پاسخ را برای دستور داده‌شده برمی‌گرداند. |
+| [CreateConversation](../../aspose.slides.ai/asposeaiwebclient/createconversation)() | یک نمونه گفتگو ایجاد می‌کند. برخلاف تماس‌های معمولی AI، گفتگوها تمام زمینه را حفظ می‌کنند. |
+| [Dispose](../../aspose.slides.ai/asposeaiwebclient/dispose)() | منابع مورد استفاده توسط این نمونه را آزاد می‌کند. |
 
 ### موارد مرتبط
 
 * رابط [IAIWebClient](../iaiwebclient)
 * فضای‌نام [Aspose.Slides.AI](../../aspose.slides.ai)
-* مجتمع [Aspose.Slides](../../)
+* مونتاژ [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

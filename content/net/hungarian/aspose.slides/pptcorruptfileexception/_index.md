@@ -1,19 +1,18 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes a .NET API Referenciája
-description: Kivétel, amely akkor dobódik, amikor a bemutatófájl valószínűleg sérült.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: Kivétel, amely akkor dobódik, amikor a bemutató fájl valószínűleg sérült.
 type: docs
-weight: 9480
+weight: 9500
 url: /hu/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException osztály
 
-Kivétel, amely akkor dobódik, amikor a bemutatófájl valószínűleg sérült.
+Kivétel, amely akkor dobódik, amikor a bemutató fájl valószínűleg sérült.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
 ```
-
 
 ## Konstruktorok
 
@@ -21,7 +20,7 @@ public class PptCorruptFileException : PptReadException
 | --- | --- |
 | [PptCorruptFileException](pptcorruptfileexception#constructor)() | Alapértelmezett konstruktor. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor, amely lehetővé teszi üzenet hozzáadását ehhez a kivételhez. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor olyan kivételhez, amely üzenetet és egy beágyazott kivételt tartalmaz. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor, amely egy üzenetet és egy beágyazott kivételt tartalmazó kivételhez. |
 
 ### Lásd még
 

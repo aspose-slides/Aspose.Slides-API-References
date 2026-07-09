@@ -16,21 +16,21 @@ public abstract class CellCollection : ICellCollection
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [Count](../../aspose.slides/cellcollection/count) { get; } | Retourneert het aantal cellen in een verzameling. Alleen-lezen Int32. |
-| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
+| [IsSynchronized](../../aspose.slides/cellcollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de verzameling gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/cellcollection/item) { get; } | Retourneert een cel op basis van zijn positie. Alleen-lezen [`Cell`](../cell). |
 | [Presentation](../../aspose.slides/cellcollection/presentation) { get; } | Retourneert de bovenliggende presentatie van een CellCollection. Alleen-lezen [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/cellcollection/slide) { get; } | Retourneert de bovenliggende dia van een CellCollection. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides/cellcollection/syncroot) { get; } | Retourneert een synchronisatie-root. Alleen-lezen Object. |
 
-## Methodes
+## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen van de collectie naar de opgegeven array. |
-| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
+| [CopyTo](../../aspose.slides/cellcollection/copyto)(Array, int) | Kopieert alle elementen uit de verzameling naar de opgegeven array. |
+| [GetEnumerator](../../aspose.slides/cellcollection/getenumerator)() | Retourneert een enumerator die door de verzameling itereren. |
 
 ### Zie ook
 

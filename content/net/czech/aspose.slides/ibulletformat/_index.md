@@ -1,14 +1,14 @@
 ---
 title: IBulletFormat
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Představuje vlastnosti formátování odrážek odstavce.
+second_title: Aspose.Slides pro .NET – referenční dokumentace API
+description: Reprezentuje vlastnosti formátování odrážek odstavce.
 type: docs
-weight: 5370
+weight: 5390
 url: /cs/aspose.slides/ibulletformat/
 ---
 ## IBulletFormat rozhraní
 
-Představuje vlastnosti formátování odrážek odstavce.
+Reprezentuje vlastnosti formátování odrážek odstavce.
 
 ```csharp
 public interface IBulletFormat
@@ -22,9 +22,9 @@ public interface IBulletFormat
 | [Color](../../aspose.slides/ibulletformat/color) { get; } | Vrací formát barvy odrážky odstavce bez dědičnosti. Pouze pro čtení [`IColorFormat`](../icolorformat). |
 | [Font](../../aspose.slides/ibulletformat/font) { get; set; } | Vrací nebo nastavuje písmo odrážky odstavce bez dědičnosti. Čtení/zápis [`IFontData`](../ifontdata). |
 | [Height](../../aspose.slides/ibulletformat/height) { get; set; } | Vrací nebo nastavuje výšku odrážky odstavce bez dědičnosti. Hodnota float.NaN určuje, že odrážka dědí výšku z první části odstavce. Čtení/zápis Single. |
-| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Určuje, zda odrážka má vlastní barvu nebo ji dědí z první části odstavce. **NullableBool.True** pokud odrážka má vlastní barvu a **NullableBool.False** pokud odrážka dědí barvu z první části odstavce. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Určuje, zda odrážka má vlastní písmo nebo je děděno z první části odstavce. **NullableBool.True** pokud odrážka má vlastní písmo a **NullableBool.False** pokud odrážka dědí písmo z první části odstavce. Čtení/zápis [`NullableBool`](../nullablebool). |
-| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Vrací nebo nastavuje první číslo použité pro skupinu číslovaných odrážek bez dědičnosti. Čtení/zápis Int16. |
+| [IsBulletHardColor](../../aspose.slides/ibulletformat/isbullethardcolor) { get; set; } | Určuje, zda má odrážka vlastní barvu nebo ji dědí z první části odstavce. **NullableBool.True** pokud má odrážka vlastní barvu a **NullableBool.False** pokud odrážka dědí barvu z první části odstavce. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [IsBulletHardFont](../../aspose.slides/ibulletformat/isbullethardfont) { get; set; } | Určuje, zda má odrážka vlastní písmo nebo ho dědí z první části odstavce. **NullableBool.True** pokud má odrážka vlastní písmo a **NullableBool.False** pokud odrážka dědí písmo z první části odstavce. Čtení/zápis [`NullableBool`](../nullablebool). |
+| [NumberedBulletStartWith](../../aspose.slides/ibulletformat/numberedbulletstartwith) { get; set; } | Vrací nebo nastavuje první číslo, které se používá pro skupinu číslovaných odrážek bez dědičnosti. Čtení/zápis Int16. |
 | [NumberedBulletStyle](../../aspose.slides/ibulletformat/numberedbulletstyle) { get; set; } | Vrací nebo nastavuje styl číslované odrážky bez dědičnosti. Čtení/zápis [`NumberedBulletStyle`](./numberedbulletstyle). |
 | [Picture](../../aspose.slides/ibulletformat/picture) { get; } | Vrací obrázek použitý jako odrážka v odstavci bez dědičnosti. Pouze pro čtení [`ISlidesPicture`](../islidespicture). |
 | [Type](../../aspose.slides/ibulletformat/type) { get; set; } | Vrací nebo nastavuje typ odrážky odstavce bez dědičnosti. Čtení/zápis [`BulletType`](../bullettype). |
@@ -33,8 +33,8 @@ public interface IBulletFormat
 
 | Název | Popis |
 | --- | --- |
-| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Nastaví výchozí nenulové posuny pro efektivní odsazení odstavce (Indent) a levý okraj (MarginLeft), když jsou odrážky povoleny (jako v PowerPointu při zapnutí odrážek/číslování odstavce). Pokud jsou odrážky zakázány, prostě resetuje odsazení odstavce a levý okraj (jako v PowerPointu při vypnutí odrážek/číslování odstavce). Posuny odsazení jsou aplikovány vzhledem k aktuálnímu kontextu odrážky – IBulletFormat.Type, .NumberedBulletStyle a FontHeight první části. Nenulové posuny odsazení jsou aplikovány na efektivní Indent a MarginLeft aktuálního odstavce (výsledné hodnoty jsou lokální). |
-| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Získá efektivní data formátování odrážek s aplikovanou dědičností. |
+| [ApplyDefaultParagraphIndentsShifts](../../aspose.slides/ibulletformat/applydefaultparagraphindentsshifts)() | Nastavuje výchozí nenulové posuny pro efektivní odsazení odstavce (Indent) a levý okraj (MarginLeft), když jsou odrážky povoleny (podobně jako PowerPoint při zapnutí odrážek/číslování odstavců). Pokud jsou odrážky zakázány, resetuje pouze odsazení odstavce a levý okraj (podobně jako PowerPoint při vypnutí odrážek/číslování). Posuny odsazení se aplikují vzhledem ke kontextu aktuální odrážky – IBulletFormat.Type, .NumberedBulletStyle a FontHeight první části. Nenulové posuny odsazení se aplikují na efektivní Indent a MarginLeft aktuálního odstavce (výsledné hodnoty jsou lokální). |
+| [GetEffective](../../aspose.slides/ibulletformat/geteffective)() | Získává efektivní data formátování odrážky s aplikovanou dědičností. |
 
 ### Viz také
 

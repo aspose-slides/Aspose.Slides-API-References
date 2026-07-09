@@ -3,7 +3,7 @@ title: FormatFactory
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillåter att skapa format via COM-gränssnitt.
 type: docs
-weight: 4930
+weight: 4950
 url: /sv/aspose.slides/formatfactory/
 ---
 ## FormatFactory klass
@@ -18,13 +18,13 @@ public class FormatFactory : IFormatFactory
 
 | Namn | Beskrivning |
 | --- | --- |
-| [FormatFactory](formatfactory)() | Standardkonstruktören. |
+| [FormatFactory](formatfactory)() | Standardkonstruktör. |
 
 ## Egenskaper
 
 | Namn | Beskrivning |
 | --- | --- |
-| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Statisk instans av formatfabrik. Skrivskyddad [`FormatFactory`](../formatfactory). |
+| static [Instance](../../aspose.slides/formatfactory/instance) { get; } | Statisk instans av formatfabrik. Endast läsbar [`FormatFactory`](../formatfactory). |
 
 ## Metoder
 

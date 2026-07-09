@@ -1,14 +1,15 @@
 ---
 title: IMotionEffect
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงพฤติกรรมเอฟเฟกต์การเคลื่อนที่ของเอฟเฟกต์
+description: แสดงพฤติกรรมของเอฟเฟ็กต์การเคลื่อนที่
 type: docs
 weight: 520
 url: /th/aspose.slides.animation/imotioneffect/
 ---
-## IMotionEffect อินเตอร์เฟซ
 
-อธิบายพฤติกรรมเอฟเฟ็กต์การเคลื่อนที่ของเอฟเฟ็กต์
+## IMotionEffect อินเทอร์เฟซ
+
+แสดงพฤติกรรมเอฟเฟ็กต์การเคลื่อนที่ของเอฟเฟ็กต์.
 
 ```csharp
 public interface IMotionEffect : IBehavior
@@ -19,18 +20,18 @@ public interface IMotionEffect : IBehavior
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Angle](../../aspose.slides.animation/imotioneffect/angle) { get; set; } | อธิบายมุมสัมพัทธ์ของเส้นทางการเคลื่อนที่. อ่าน/เขียน Single. |
-| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | อธิบายค่าการเลื่อนสัมพัทธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
-| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | ระบุตำแหน่งพิกัด x/y เพื่อเริ่มการเคลื่อนไหวจาก (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
-| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | ระบุว่าต้นกำเนิดของเส้นทางการเคลื่อนที่สัมพันธ์กับอะไร เช่น การจัดวางของสไลด์ หรือพาเรนต์. อ่าน/เขียน [`MotionOriginType`](../motionorigintype). |
-| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | ระบุพาธพื้นฐานที่ตามด้วยพิกัดสำหรับการเคลื่อนที่ของการเคลื่อนไหว. อ่าน/เขียน [`IMotionPath`](../imotionpath). |
-| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | ระบุวิธีที่เส้นทางการเคลื่อนที่เปลี่ยนเมื่อรูปทรงถูกย้าย. อ่าน/เขียน [`MotionPathEditMode`](../motionpatheditmode). |
-| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | อธิบายจุดศูนย์กลางของการหมุนที่ใช้เพื่อหมุนเส้นทางการเคลื่อนที่ด้วยมุม X. อ่าน/เขียน PointF. |
-| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟกต์การเคลื่อนที่ของการเคลื่อนไหว (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [AsIBehavior](../../aspose.slides.animation/imotioneffect/asibehavior) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBehavior พื้นฐาน. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
+| [By](../../aspose.slides.animation/imotioneffect/by) { get; set; } | อธิบายค่าออฟเซ็ตสัมพัทธ์สำหรับการเคลื่อนไหว (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [From](../../aspose.slides.animation/imotioneffect/from) { get; set; } | ระบุตำแหน่ง x/y เพื่อเริ่มการเคลื่อนไหวจาก (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
+| [Origin](../../aspose.slides.animation/imotioneffect/origin) { get; set; } | ระบุจุดกำเนิดของเส้นทางการเคลื่อนที่สัมพันธ์กับเช่นการจัดวางสไลด์หรือพาเรนท์. อ่าน/เขียน [`MotionOriginType`](../motionorigintype). |
+| [Path](../../aspose.slides.animation/imotioneffect/path) { get; set; } | ระบุโครงสร้างเส้นทางที่ตามด้วยพิกัดสำหรับการเคลื่อนไหวของการเคลื่อนที่. อ่าน/เขียน [`IMotionPath`](../imotionpath). |
+| [PathEditMode](../../aspose.slides.animation/imotioneffect/patheditmode) { get; set; } | ระบุว่าการเคลื่อนที่ของเส้นทางเคลื่อนที่อย่างไรเมื่อรูปร่างถูกย้าย. อ่าน/เขียน [`MotionPathEditMode`](../motionpatheditmode). |
+| [RotationCenter](../../aspose.slides.animation/imotioneffect/rotationcenter) { get; set; } | อธิบายจุดศูนย์กลางของการหมุนที่ใช้ในการหมุนเส้นทางการเคลื่อนที่ด้วยมุม X. อ่าน/เขียน PointF. |
+| [To](../../aspose.slides.animation/imotioneffect/to) { get; set; } | ระบุตำแหน่งเป้าหมายสำหรับเอฟเฟ็กต์การเคลื่อนที่ (เป็นเปอร์เซ็นต์). อ่าน/เขียน PointF. |
 
 ### ดูเพิ่มเติม
 
-* อินเตอร์เฟซ [IBehavior](../ibehavior)
+* อินเทอร์เฟซ [IBehavior](../ibehavior)
 * เนมสเปซ [Aspose.Slides.Animation](../../aspose.slides.animation)
 * แอสเซมบลี [Aspose.Slides](../../)
 

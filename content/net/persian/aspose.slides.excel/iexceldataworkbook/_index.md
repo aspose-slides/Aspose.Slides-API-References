@@ -1,14 +1,14 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes برای .NET مرجع API
-description: یک کتاب‌کار را نشان می‌دهد که دسترسی به داده‌های Excel را برای استفاده عمومی فراهم می‌کند.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: یک کتاب‌کار را نمایان می‌سازد که دسترسی به داده‌های Excel را برای استفاده کلی فراهم می‌کند.
 type: docs
 weight: 3710
 url: /fa/aspose.slides.excel/iexceldataworkbook/
 ---
-## رابط IExcelDataWorkbook
+## IExcelDataWorkbook رابط
 
-یک کتاب‌کار را نشان می‌دهد که دسترسی به داده‌های Excel را برای استفاده عمومی فراهم می‌کند.
+یک کتاب‌کار را نمایان می‌سازد که دسترسی به داده‌های Excel را برای استفاده کلی فراهم می‌کند.
 
 ```csharp
 public interface IExcelDataWorkbook
@@ -18,15 +18,15 @@ public interface IExcelDataWorkbook
 
 | نام | توضیح |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | یک سلول را از کاربرگ مشخص‌شده با استفاده از اندیس و نام سلول به سبک Excel (مانند "B2") بازیابی می‌کند. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | یک سلول را از کاربرگ مشخص‌شده با استفاده از نام سلول به سبک Excel (مانند "B2") بازیابی می‌کند. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | یک سلول را از کاربرگ مشخص‌شده با استفاده از اندیس و مختصات سلول بازیابی می‌کند. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | یک سلول را از کاربرگ مشخص‌شده با استفاده از نام و مختصات سلول بازیابی می‌کند. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | یک مجموعه از سلول‌ها را از کتاب‌کار که با فرمول مشخص‌شده مطابقت دارند، بازیابی می‌کند. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | یک دیکشنری حاوی اندیس‌ها و نام‌های همه نمودارها در کاربرگ مشخص‌شده از یک کتاب‌کار Excel را بازیابی می‌کند. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | نام تمام کاربرگ‌های موجود در کتاب‌کار Excel را بازیابی می‌کند. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | یک سلول را از کاربرگ مشخص‌شده با استفاده از ایندکس و نام سلولی به سبک Excel (مثلاً "B2") دریافت می‌کند. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | یک سلول را از کاربرگ مشخص‌شده با استفاده از نام سلولی به سبک Excel (مثلاً "B2") دریافت می‌کند. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | یک سلول را از کاربرگ مشخص‌شده با استفاده از ایندکس و مختصات سلول دریافت می‌کند. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | یک سلول را از کاربرگ مشخص‌شده با استفاده از نام و مختصات سلول دریافت می‌کند. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | یک مجموعه از سلول‌ها را از کتاب‌کار دریافت می‌کند که با فرمول مشخص‌شده مطابقت داشته باشند. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | یک دیکشنری حاوی ایندکس‌ها و نام‌های تمام نمودارهای موجود در کاربرگ مشخص‌شده یک کتاب‌کار Excel را دریافت می‌کند. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | نام‌های تمام کاربرگ‌های موجود در کتاب‌کار Excel را دریافت می‌کند. |
 
-### موارد مرتبط
+### همچنین ببینید
 
 * فضای‌نام [Aspose.Slides.Excel](../../aspose.slides.excel)
 * مجمع [Aspose.Slides](../../)

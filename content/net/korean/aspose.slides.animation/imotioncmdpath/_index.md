@@ -20,7 +20,7 @@ public interface IMotionCmdPath
 | --- | --- |
 | [CommandType](../../aspose.slides.animation/imotioncmdpath/commandtype) { get; set; } | 명령 유형을 지정합니다. 읽기/쓰기 [`MotionCommandPathType`](../motioncommandpathtype). |
 | [IsRelative](../../aspose.slides.animation/imotioncmdpath/isrelative) { get; set; } | 명령 좌표가 상대적인지 여부를 결정합니다. 읽기/쓰기 Boolean. |
-| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 명령의 포인트를 지정합니다. 읽기/쓰기 PointF[]. |
+| [Points](../../aspose.slides.animation/imotioncmdpath/points) { get; set; } | 명령 포인트를 지정합니다. 읽기/쓰기 PointF[]. |
 | [PointsType](../../aspose.slides.animation/imotioncmdpath/pointstype) { get; set; } | 명령 포인트 유형을 지정합니다. 읽기/쓰기 [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### 참고

@@ -3,10 +3,10 @@ title: AfterAnimationType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili tipe animasi setelah efek animasi.
 type: docs
-weight: 90
+weight: 110
 url: /id/aspose.slides.animation/afteranimationtype/
 ---
-## enumerasi AfterAnimationType
+## AfterAnimationType enumerasi
 
 Mewakili tipe animasi setelah efek animasi.
 
@@ -18,10 +18,10 @@ public enum AfterAnimationType
 
 | Nama | Nilai | Deskripsi |
 | --- | --- | --- |
-| DoNotDim | `0` | Jangan redup setelah tipe animasi. |
+| DoNotDim | `0` | Tidak Meredup setelah tipe animasi. |
 | Color | `1` | Warna setelah tipe animasi. |
 | HideAfterAnimation | `2` | Sembunyikan setelah tipe animasi |
-| HideOnNextMouseClick | `3` | Sembunyikan pada klik mouse berikutnya setelah tipe animasi. |
+| HideOnNextMouseClick | `3` | Sembunyikan pada Klik Mouse Berikutnya setelah tipe animasi. |
 
 ### Lihat Juga
 

@@ -3,12 +3,12 @@ title: IMathFunction
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Menentukan fungsi dari sebuah argumen.
 type: docs
-weight: 8250
+weight: 8270
 url: /id/aspose.slides.mathtext/imathfunction/
 ---
 ## IMathFunction antarmuka
 
-Specifies a function of an argument.
+Menentukan fungsi dari sebuah argumen.
 
 ```csharp
 public interface IMathFunction : IMathElement
@@ -18,9 +18,9 @@ public interface IMathFunction : IMathElement
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathfunction/asimathelement) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IMathElement [`IMathElement`](../imathelement) |
 | [Base](../../aspose.slides.mathtext/imathfunction/base) { get; } | Argumen Fungsi |
-| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nama fungsi. Contoh, nama fungsi adalah sin dan cos |
+| [Name](../../aspose.slides.mathtext/imathfunction/name) { get; } | Nama fungsi. Misalnya, nama fungsi adalah sin dan cos |
 
 ### Contoh
 

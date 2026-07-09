@@ -3,7 +3,7 @@ title: ExcelDataWorkbook
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 一般的に使用できる Excel データへのアクセスを提供するワークブックを表します。
 type: docs
-weight: 3670
+weight: 3690
 url: /ja/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook クラス
@@ -14,23 +14,23 @@ url: /ja/aspose.slides.excel/exceldataworkbook/
 public class ExcelDataWorkbook : IExcelDataWorkbook
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | 提供されたストリームを使用してクラスの新しいインスタンスを初期化します。 |
-| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | 指定されたファイルパスを使用して新しいインスタンスを初期化します。 |
+| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | 指定されたファイル パスを使用してクラスの新しいインスタンスを初期化します。 |
 
 ## メソッド
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 指定されたワークシートから、インデックスと Excel 形式のセル名（例: "B2"）を使用してセルを取得します。 |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | 指定されたワークシートから、Excel 形式のセル名（例: "B2"）を使用してセルを取得します。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | 指定されたワークシートから、インデックスと Excel スタイルのセル名（例: "B2"）を使用してセルを取得します。 |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | 指定されたワークシートから、Excel スタイルのセル名（例: "B2"）を使用してセルを取得します。 |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | 指定されたワークシートから、インデックスとセル座標を使用してセルを取得します。 |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | 指定されたワークシートから、名前とセル座標を使用してセルを取得します。 |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | 指定された数式に一致するセルのコレクションをワークブックから取得します。 |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Excel ワークブックの指定されたワークシートにあるすべてのチャートのインデックスと名前を含む辞書を取得します。 |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | 指定された Excel ワークブックのワークシート内のすべてのチャートのインデックスと名前を含むディクショナリを取得します。 |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Excel ワークブックに含まれるすべてのワークシートの名前を取得します。 |
 
 ### 参照

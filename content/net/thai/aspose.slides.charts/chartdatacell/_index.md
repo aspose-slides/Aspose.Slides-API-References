@@ -1,14 +1,14 @@
 ---
 title: ChartDataCell
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: เป็นตัวแทนของเซลล์สำหรับข้อมูลแผนภูมิ.
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แทนเซลล์สำหรับข้อมูลแผนภูมิ.
 type: docs
 weight: 1320
 url: /th/aspose.slides.charts/chartdatacell/
 ---
 ## ChartDataCell คลาส
 
-เป็นตัวแทนของเซลล์สำหรับข้อมูลแผนภูมิ
+แทนเซลล์สำหรับข้อมูลแผนภูมิ.
 
 ```csharp
 public class ChartDataCell : IChartDataCell
@@ -18,21 +18,21 @@ public class ChartDataCell : IChartDataCell
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | รับ Worksheet. อ่านอย่างเดียว [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | ส่งคืนดัชนีของคอลัมน์ของ worksheet ที่เซลล์อยู่. อ่านอย่างเดียว Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | รับหรือกำหนดรูปแบบการแสดงผลแบบกำหนดเองของตัวเลขและวันที่. หากค่าว่างจะใช้ค่า PresetNumberFormat. อ่าน/เขียน String. |
+| [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | รับ worksheet. อ่านอย่างเดียว [`IChartDataWorksheet`](../ichartdataworksheet). |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | ส่งคืนดัชนีของคอลัมน์ใน worksheet ที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | รับหรือกำหนดรูปแบบการแสดงผลของตัวเลขและวันที่แบบกำหนดเอง. หากค่าเป็นค่าว่างจะใช้ค่า PresetNumberFormat. อ่าน/เขียน String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | รับหรือกำหนดสูตรในรูปแบบ A1-style. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | กำหนดว่าเซลล์ถูกซ่อนหรือไม่. อ่านอย่างเดียว Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | รับหรือกำหนดรูปแบบการแสดงผลในตัวของตัวเลขและวันที่. ตัวเลขที่ตั้งไว้ต้องอยู่ในช่วง [0..22] หรือ [37..49]. อ่าน/เขียน Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | รับหรือกำหนดรูปแบบการแสดงผลในตัวของตัวเลขและวันที่. ตัวเลข Preset ต้องอยู่ในช่วง [0..22] หรือ [37..49]. อ่าน/เขียน Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | รับหรือกำหนดสูตรในรูปแบบ R1C1-style. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | ส่งคืนดัชนีของแถวของ worksheet ที่เซลล์อยู่. อ่านอย่างเดียว Int32. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | ส่งคืนดัชนีของแถวใน worksheet ที่เซลล์ตั้งอยู่. อ่านอย่างเดียว Int32. |
 | [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | รับหรือกำหนดค่าของเซลล์. อ่าน/เขียน Object. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | หากเซลล์มีสูตร, ค่าจะอัปเดตตามสูตรนั้น. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | หากเซลล์มีสูตร ค่าจะถูกอัปเดตตามสูตรนั้น. |
 
 ### ดูเพิ่มเติม
 

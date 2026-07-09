@@ -3,10 +3,10 @@ title: IVbaReferenceOleTypeLib
 second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili referensi perpustakaan tipe OLE Automation.
 type: docs
-weight: 11590
+weight: 11610
 url: /id/aspose.slides.vba/ivbareferenceoletypelib/
 ---
-## IVbaReferenceOleTypeLib antarmuka
+## antarmuka IVbaReferenceOleTypeLib
 
 Mewakili referensi perpustakaan tipe OLE Automation.
 

@@ -1,14 +1,14 @@
 ---
 title: BevelPresetType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: シェイプの3Dベベルを定義する定数です。
+description: シェイプの 3D ベベルを定義する定数です。
 type: docs
-weight: 990
+weight: 1010
 url: /ja/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType 列挙型
 
-シェイプの3Dベベルを定義する定数です。
+シェイプの 3D ベベルを定義する定数です。
 
 ```csharp
 public enum BevelPresetType

@@ -1,12 +1,12 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET API Referenci
 description: Určuje polohu legendy v grafu.
 type: docs
-weight: 2300
+weight: 2320
 url: /cs/aspose.slides.charts/legendpositiontype/
 ---
-## enumerace LegendPositionType
+## LegendPositionType výčet
 
 Určuje polohu legendy v grafu.
 
@@ -18,11 +18,11 @@ public enum LegendPositionType
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Bottom | `0` | Určuje, že legendа bude vykreslena ve spodní části grafu. |
-| Left | `1` | Určuje, že legendа bude vykreslena na levé straně grafu. |
-| Right | `2` | Určuje, že legendа bude vykreslena na pravé straně grafu. |
-| Top | `3` | Určuje, že legendа bude vykreslena v horní části grafu. |
-| TopRight | `4` | Určuje, že legendа bude vykreslena v pravém horním rohu grafu. |
+| Bottom | `0` | Určuje, že legenda bude vykreslena ve spodní části grafu. |
+| Left | `1` | Určuje, že legenda bude vykreslena na levé straně grafu. |
+| Right | `2` | Určuje, že legenda bude vykreslena na pravé straně grafu. |
+| Top | `3` | Určuje, že legenda bude vykreslena v horní části grafu. |
+| TopRight | `4` | Určuje, že legenda bude vykreslena v pravém horním rohu grafu. |
 
 ### Viz také
 

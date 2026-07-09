@@ -1,9 +1,9 @@
 ---
 title: ISpreadsheetOptions
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili opsi yang dapat digunakan untuk menentukan perilaku spreadsheet tambahan.
 type: docs
-weight: 7100
+weight: 7120
 url: /id/aspose.slides/ispreadsheetoptions/
 ---
 ## ISpreadsheetOptions antarmuka
@@ -18,8 +18,8 @@ public interface ISpreadsheetOptions
 
 | Nama | Deskripsi |
 | --- | --- |
-| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Mendapatkan atau mengatur informasi budaya yang diutamakan untuk menghitung beberapa fungsi yang dimaksudkan untuk digunakan dengan bahasa yang menggunakan set karakter dua byte (DBCS). |
-| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Jika sumber data untuk diagram merupakan buku kerja eksternal dan tidak tersedia, itu akan dipulihkan dari cache diagram. |
+| [PreferredCulture](../../aspose.slides/ispreadsheetoptions/preferredculture) { get; set; } | Mendapatkan atau mengatur informasi budaya yang diinginkan untuk menghitung beberapa fungsi yang ditujukan untuk digunakan dengan bahasa yang menggunakan set karakter ganda byte (DBCS). |
+| [RecoverWorkbookFromChartCache](../../aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache) { get; set; } | Jika sumber data untuk bagan adalah buku kerja eksternal dan tidak tersedia, sumber tersebut akan dipulihkan dari cache bagan. |
 
 ### Lihat Juga
 

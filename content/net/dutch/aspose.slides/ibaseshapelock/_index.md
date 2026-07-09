@@ -1,7 +1,7 @@
 ---
 title: IBaseShapeLock
-second_title: Aspose.Slides voor .NET API-referentie
-description: Vertegenwoordigt een uitgeschakelde Shape lock-bewerking.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een uitgeschakelde Shape lock bewerking voor.
 type: docs
 weight: 5330
 url: /nl/aspose.slides/ibaseshapelock/
@@ -18,7 +18,7 @@ public interface IBaseShapeLock
 
 | Naam | Beschrijving |
 | --- | --- |
-| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Retourneert true als alle lock-flags zijn uitgeschakeld. Alleen-lezen Boolean. |
+| [NoLocks](../../aspose.slides/ibaseshapelock/nolocks) { get; } | Geeft true terug als alle lock-flags zijn uitgeschakeld. Alleen-lezen Boolean. |
 
 ### Zie ook
 

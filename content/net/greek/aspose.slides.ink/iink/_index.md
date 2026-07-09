@@ -1,12 +1,12 @@
 ---
 title: IInk
-second_title: Αναφορά API Aspose.Sildes για .NET
+second_title: Aspose.Sildes για την .NET API Αναφορά
 description: Αναπαριστά ένα αντικείμενο μελάνης σε μια διαφάνεια.
 type: docs
-weight: 7490
+weight: 7510
 url: /el/aspose.slides.ink/iink/
 ---
-## IInk διασύνδεση
+## IInk διεπαφή
 
 Αναπαριστά ένα αντικείμενο μελάνης σε μια διαφάνεια.
 
@@ -16,14 +16,14 @@ public interface IInk : IGraphicalObject
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Επιτρέπει την πρόσβαση στη βασική διασύνδεση IGraphicalObject. Μόνο για ανάγνωση [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Επιτρέπει την λήψη της βασικής διεπαφής IGraphicalObject. Μόνο για ανάγνωση [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
 | [Traces](../../aspose.slides.ink/iink/traces) { get; } | Αποκτά όλα τα ίχνη που περιέχονται στο στοιχείο IInk [`IInkTrace`](../iinktrace). Μόνο για ανάγνωση. |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IGraphicalObject](../../aspose.slides/igraphicalobject)
+* διεπαφή [IGraphicalObject](../../aspose.slides/igraphicalobject)
 * χώρο ονομάτων [Aspose.Slides.Ink](../../aspose.slides.ink)
 * συναρμολόγηση [Aspose.Slides](../../)
 

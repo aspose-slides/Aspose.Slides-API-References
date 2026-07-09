@@ -1,7 +1,7 @@
 ---
 title: IColorEffect
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: एनीमेशन व्यवहार के लिए एक रंग प्रभाव का प्रतिनिधित्व करता है।
+description: एक एनीमेशन व्यवहार के लिए रंग प्रभाव का प्रतिनिधित्व करता है।
 type: docs
 weight: 460
 url: /hi/aspose.slides.animation/icoloreffect/
@@ -18,12 +18,12 @@ public interface IColorEffect : IBehavior
 
 | नाम | विवरण |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | बेस IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने योग्य [`IBehavior`](../ibehavior). |
-| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | रंग एनीमेशन के लिए सापेक्ष ऑफ़सेट मान का वर्णन करता है। पढ़ने/लिखने योग्य [`IColorOffset`](../icoloroffset). |
-| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | व्यवहार के रंग स्थान का प्रतिनिधित्व करता है। पढ़ने/लिखने योग्य [`ColorSpace`](./colorspace). |
-| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | रंग पहिये के आसपास ह्यू को चक्रित करने की दिशा निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`ColorDirection`](../colordirection). |
-| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | यह मूल्य व्यवहार के प्रारंभिक रंग को निर्दिष्ट करने के लिए उपयोग किया जाता है। पढ़ने/लिखने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | एनीमेशन रंग परिवर्तन के लिए परिणामस्वरूप रंग का वर्णन करता है। पढ़ने/लिखने योग्य [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIBehavior](../../aspose.slides.animation/icoloreffect/asibehavior) { get; } | आधार IBehavior इंटरफ़ेस प्राप्त करने की अनुमति देता है। केवल-पढ़ने-योग्य [`IBehavior`](../ibehavior)। |
+| [By](../../aspose.slides.animation/icoloreffect/by) { get; set; } | रंग एनीमेशन के लिए सापेक्ष ऑफसेट मान का वर्णन करता है। पढ़ने/लिखने योग्य [`IColorOffset`](../icoloroffset)। |
+| [ColorSpace](../../aspose.slides.animation/icoloreffect/colorspace) { get; set; } | व्यवहार का रंग स्थान दर्शाता है। पढ़ने/लिखने योग्य [`ColorSpace`](./colorspace)। |
+| [Direction](../../aspose.slides.animation/icoloreffect/direction) { get; set; } | रंग चक्र के चारों ओर ह्यू को क्रमचय करने की दिशा निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`ColorDirection`](../colordirection)। |
+| [From](../../aspose.slides.animation/icoloreffect/from) { get; set; } | यह मान व्यवहार के प्रारंभिक रंग को निर्दिष्ट करने के लिए उपयोग किया जाता है। पढ़ने/लिखने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
+| [To](../../aspose.slides.animation/icoloreffect/to) { get; set; } | एनीमेशन रंग परिवर्तन के लिए परिणामी रंग का वर्णन करता है। पढ़ने/लिखने योग्य [`IColorFormat`](../../aspose.slides/icolorformat)। |
 
 ### देखें
 

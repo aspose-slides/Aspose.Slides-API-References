@@ -1,14 +1,14 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงประเภทข้อยกเว้นภายในมาตรฐาน
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของประเภทข้อยกเว้นภายในมาตรฐาน
 type: docs
 weight: 9560
 url: /th/aspose.slides/pptxexception/
 ---
 ## PptxException คลาส
 
-แสดงถึงประเภทข้อยกเว้นภายในมาตรฐาน
+เป็นตัวแทนของประเภทข้อยกเว้นภายในมาตรฐาน
 
 ```csharp
 public class PptxException : OOXMLException
@@ -19,8 +19,8 @@ public class PptxException : OOXMLException
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [PptxException](pptxexception#constructor)() | คอนสตรัคเตอร์เริ่มต้น. |
-| [PptxException](pptxexception#constructor_1)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
-| [PptxException](pptxexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
+| [PptxException](pptxexception#constructor_1)(string) | คอนสตรัคเตอร์ที่ให้สามารถเพิ่มข้อความไปยังข้อยกเว้นนี้ได้. |
+| [PptxException](pptxexception#constructor_2)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

@@ -1,14 +1,14 @@
 ---
 title: IPortionFormat
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Deze klasse bevat de tekstgedeelte-opmaak-eigenschappen. In tegenstelling tot IPortionFormatEffectiveData./iportionformateffectivedata zijn alle eigenschappen van deze klasse schrijfbaar.
+description: Deze klasse bevat de tekstgedeelte-opmaak eigenschappen. In tegenstelling tot IPortionFormatEffectiveData./iportionformateffectivedata zijn alle eigenschappen van deze klasse schrijfbaar.
 type: docs
 weight: 6730
 url: /nl/aspose.slides/iportionformat/
 ---
 ## IPortionFormat interface
 
-Deze klasse bevat de tekstgedeelte-opmaak-eigenschappen. In tegenstelling tot [`IPortionFormatEffectiveData`](../iportionformateffectivedata), zijn alle eigenschappen van deze klasse schrijfbaar.
+Deze classe bevat de opmaak-eigenschappen van een tekstgedeelte. In tegenstelling tot [`IPortionFormatEffectiveData`](../iportionformateffectivedata) zijn alle eigenschappen van deze classe schrijfbaar.
 
 ```csharp
 public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
@@ -16,24 +16,24 @@ public interface IPortionFormat : IBasePortionFormat, IHyperlinkContainer
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [AsIBasePortionFormat](../../aspose.slides/iportionformat/asibaseportionformat) { get; } | Retourneert IBasePortionFormat interface. Alleen-lezen [`IBasePortionFormat`](../ibaseportionformat). |
-| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Staat toe om de basis IHyperlinkContainer interface te verkrijgen. Alleen-lezen [`IHyperlinkContainer`](../ihyperlinkcontainer). |
-| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Retourneert of stelt de bladwijzeridentificatie in. Lezen/schrijven String. |
-| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Bepaalt of de smart tag moet worden opgeschoond. Er wordt geen overerving toegepast. Lezen/schrijven Boolean. |
+| [AsIHyperlinkContainer](../../aspose.slides/iportionformat/asihyperlinkcontainer) { get; } | Staat toe de basis IHyperlinkContainer interface op te halen. Alleen-lezen [`IHyperlinkContainer`](../ihyperlinkcontainer). |
+| [BookmarkId](../../aspose.slides/iportionformat/bookmarkid) { get; set; } | Retourneert of stelt bladwijzer-identificatie in. Lezen/schrijven String. |
+| [SmartTagClean](../../aspose.slides/iportionformat/smarttagclean) { get; set; } | Bepaalt of de smart tag moet worden opgeschoond. Geen overerving toegepast. Lezen/schrijven Boolean. |
 
 ## Methoden
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Haalt effectieve portion-opmaakgegevens op met de toegepaste overerving. |
+| [GetEffective](../../aspose.slides/iportionformat/geteffective)() | Haalt de effectieve gedeelte-opmaakgegevens op met de toegepaste overerving. |
 
 ### Opmerkingen
 
-Deze klasse wordt gebruikt om de voor een bepaald gedeelte gedefinieerde opmaak-eigenschappen van tekstgedeelten terug te geven en te manipuleren. Dit betekent dat er geen overerving wordt toegepast bij het ophalen van waarden, zodat in de meeste gevallen waarden worden verkregen die "onbepaald" betekenen.
+Deze classe wordt gebruikt om de opmaak-eigenschappen van een tekstgedeelte op te halen en te manipuleren die voor het specifieke gedeelte zijn gedefinieerd. Dit betekent dat er geen overerving wordt toegepast bij het ophalen van waarden, dus in de meeste gevallen krijg je waarden die “onbepaald” betekenen.
 
-Om de effectieve opmaakparameterwaarden, inclusief geërfde, te krijgen, moet je de [`GetEffective`](./geteffective) methode gebruiken die een [`IPortionFormatEffectiveData`](../iportionformateffectivedata) instantie retourneert.
+Om de effectieve opmaak-parameterwaarden, inclusief geërfde, te krijgen, moet je de [`GetEffective`](./geteffective) methode gebruiken die een [`IPortionFormatEffectiveData`](../iportionformateffectivedata) instantie retourneert.
 
 ### Zie ook
 

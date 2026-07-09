@@ -1,14 +1,14 @@
 ---
 title: LineArrowheadStyle
-second_title: Aspose.Sildes pro .NET – referenční dokumentace API
-description: Reprezentuje styl šipky.
+second_title: Aspose.Sildes pro .NET API Referenci
+description: Representuje styl hrotu šipky.
 type: docs
-weight: 7720
+weight: 7740
 url: /cs/aspose.slides/linearrowheadstyle/
 ---
-## Enumerace LineArrowheadStyle
+## LineArrowheadStyle výčtový typ
 
-Reprezentuje styl šipky.
+Reprezentuje styl hrotu šipky.
 
 ```csharp
 public enum LineArrowheadStyle : sbyte

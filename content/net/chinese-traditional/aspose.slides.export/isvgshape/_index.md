@@ -1,14 +1,14 @@
 ---
 title: ISvgShape
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示 SVG 形狀的選項。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示 SVG 圖形的選項。
 type: docs
 weight: 4110
 url: /zh-hant/aspose.slides.export/isvgshape/
 ---
 ## ISvgShape 介面
 
-表示 SVG 形狀的選項。
+表示 SVG 圖形的選項。
 
 ```csharp
 public interface ISvgShape
@@ -16,17 +16,17 @@ public interface ISvgShape
 
 ## 屬性
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 設定或取得形狀的 id |
+| [Id](../../aspose.slides.export/isvgshape/id) { get; set; } | 設定或取得圖形的 id |
 
 ## 方法
 
-| 名稱 | 描述 |
+| 名稱 | 說明 |
 | --- | --- |
-| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 設定形狀的事件處理常式 |
+| [SetEventHandler](../../aspose.slides.export/isvgshape/seteventhandler)(SvgEvent, string) | 設定圖形的事件處理常式 |
 
-### 參見
+### 另見
 
 * 命名空間 [Aspose.Slides.Export](../../aspose.slides.export)
 * 組件 [Aspose.Slides](../../)

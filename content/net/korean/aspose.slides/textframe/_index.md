@@ -20,26 +20,26 @@ public sealed class TextFrame : ITextFrame
 | --- | --- |
 | [HyperlinkQueries](../../aspose.slides/textframe/hyperlinkqueries) { get; } | 포함된 하이퍼링크에 대한 쉬운 액세스를 제공합니다. 읽기 전용 [`IHyperlinkQueries`](../ihyperlinkqueries). |
 | [Paragraphs](../../aspose.slides/textframe/paragraphs) { get; } | 프레임 내 모든 단락의 목록을 반환합니다. 읽기 전용 [`IParagraphCollection`](../iparagraphcollection). |
-| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | 부모 셀을 반환하거나, 부모 객체가 ICell 인터페이스를 구현하지 않으면 null을 반환합니다. 읽기 전용 [`ICell`](../icell). |
-| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 부모 도형을 반환하거나, 부모 객체가 IShape 인터페이스를 구현하지 않으면 null을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
+| [ParentCell](../../aspose.slides/textframe/parentcell) { get; } | 부모 셀을 반환하거나, 부모 객체가 ICell 인터페이스를 구현하지 않을 경우 null을 반환합니다. 읽기 전용 [`ICell`](../icell). |
+| [ParentShape](../../aspose.slides/textframe/parentshape) { get; } | 부모 모양을 반환하거나, 부모 객체가 IShape 인터페이스를 구현하지 않을 경우 null을 반환합니다. 읽기 전용 [`IShape`](../ishape). |
 | [Presentation](../../aspose.slides/textframe/presentation) { get; } | TextFrame의 부모 프레젠테이션을 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
 | [Slide](../../aspose.slides/textframe/slide) { get; } | TextFrame의 부모 슬라이드를 반환합니다. 읽기 전용 [`IBaseSlide`](../ibaseslide). |
 | [Text](../../aspose.slides/textframe/text) { get; set; } | TextFrame의 일반 텍스트를 가져오거나 설정합니다. 읽기/쓰기 String. |
-| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | 이 TextFrame 객체의 서식 개체를 반환합니다. 읽기 전용 [`ITextFrameFormat`](../itextframeformat). |
+| [TextFrameFormat](../../aspose.slides/textframe/textframeformat) { get; } | 이 TextFrame 객체의 서식 객체를 반환합니다. 읽기 전용 [`ITextFrameFormat`](../itextframeformat). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 지정된 색상으로 정규식과 일치하는 모든 항목을 강조 표시합니다. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다. |
-| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 지정된 색상으로 샘플 텍스트와 일치하는 모든 항목을 강조 표시합니다. |
-| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 모든 단락의 동일한 서식을 가진 런을 결합합니다. |
+| [HighlightRegex](../../aspose.slides/textframe/highlightregex#highlightregex_1)(Regex, Color, IFindResultCallback) | 정규식과 지정된 색상으로 모든 일치를 강조합니다. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext)(string, Color) | 샘플 텍스트의 모든 일치를 지정된 색상으로 강조합니다. |
+| [HighlightText](../../aspose.slides/textframe/highlighttext#highlighttext_2)(string, Color, ITextSearchOptions, IFindResultCallback) | 샘플 텍스트의 모든 일치를 지정된 색상으로 강조합니다. |
+| [JoinPortionsWithSameFormatting](../../aspose.slides/textframe/joinportionswithsameformatting)() | 모든 단락에서 동일한 서식을 가진 실행을 결합합니다. |
 | [ReplaceRegex](../../aspose.slides/textframe/replaceregex)(Regex, string, IFindResultCallback) | 정규식과 일치하는 모든 항목을 지정된 문자열로 교체합니다. |
 | [ReplaceText](../../aspose.slides/textframe/replacetext)(string, string, ITextSearchOptions, IFindResultCallback) | 지정된 텍스트의 모든 발생을 다른 지정된 텍스트로 교체합니다. |
 | [SplitTextByColumns](../../aspose.slides/textframe/splittextbycolumns)() | [`ITextFrame`](../itextframe)의 텍스트 내용을 문자열 배열로 분할하며, 각 요소는 프레임 내 개별 텍스트 열에 해당합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [ITextFrame](../itextframe)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

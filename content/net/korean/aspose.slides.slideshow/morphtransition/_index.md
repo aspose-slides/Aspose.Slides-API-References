@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition 클래스
 
-리플 슬라이드 전환 효과.
+Ripple slide transition effect.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -16,18 +16,18 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 ## 속성
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph 전환의 유형. 읽기/쓰기 [`TransitionMorphType`](../transitionmorphtype). |
 
 ## 메서드
 
-| 이름 | 설명 |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 테이블과 같은 해시 알고리즘 및 데이터 구조에서 사용할 수 있습니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용할 수 있습니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [IMorphTransition](../imorphtransition)

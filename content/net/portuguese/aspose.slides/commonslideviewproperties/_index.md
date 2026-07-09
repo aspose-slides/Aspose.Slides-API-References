@@ -1,9 +1,9 @@
 ---
 title: CommonSlideViewProperties
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa propriedades comuns de visualização de slide.
 type: docs
-weight: 2640
+weight: 2660
 url: /pt/aspose.slides/commonslideviewproperties/
 ---
 ## CommonSlideViewProperties classe
@@ -18,27 +18,27 @@ public class CommonSlideViewProperties : ICommonSlideViewProperties
 
 | Nome | Descrição |
 | --- | --- |
-| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Retorna a coleção dos guias de desenho. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Especifica a proporção de escala da visualização em porcentagens. Leitura/gravação Int32. |
-| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Especifica que o conteúdo da visualização deve ser dimensionado automaticamente para se ajustar melhor ao tamanho atual da janela. Leitura/gravação Boolean. |
+| [DrawingGuides](../../aspose.slides/commonslideviewproperties/drawingguides) { get; } | Retorna a coleção de guias de desenho. Somente leitura [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [Scale](../../aspose.slides/commonslideviewproperties/scale) { get; set; } | Especifica a taxa de escala da visualização em percentuais. Leitura/ gravação Int32. |
+| [VariableScale](../../aspose.slides/commonslideviewproperties/variablescale) { get; set; } | Especifica que o conteúdo da visualização deve ser dimensionado automaticamente para melhor se ajustar ao tamanho atual da janela. Leitura/ gravação Boolean. |
 
 ### Exemplos
 
-O exemplo a seguir mostra como definir o valor de zoom para o slide de uma apresentação do PowerPoint.
+O exemplo a seguir mostra como definir o valor de zoom para um slide de uma Apresentação PowerPoint.
 
 ```csharp
 [C#]
-// Instanciar um objeto Presentation que representa um arquivo de apresentação
+// Instancia um objeto Presentation que representa um arquivo de apresentação
 using (Presentation presentation = new Presentation("demo.pptx"))
 {
     // Definindo propriedades de visualização da apresentação
-    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Valor de zoom em porcentagens para a visualização de slide
-	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Valor de zoom em porcentagens para a visualização de notas
+    presentation.ViewProperties.SlideViewProperties.Scale = 100; // Valor de zoom em porcentagem para a visualização do slide
+	presentation.ViewProperties.NotesViewProperties.Scale = 100; // Valor de zoom em porcentagem para a visualização de notas
     presentation.Save("Zoom_out.pptx", SaveFormat.Pptx);
 }
 ```
 
-### Veja Também
+### Ver também
 
 * interface [ICommonSlideViewProperties](../icommonslideviewproperties)
 * namespace [Aspose.Slides](../../aspose.slides)

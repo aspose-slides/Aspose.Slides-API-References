@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti gambar yang efektif.
+description: Objek tak dapat diubah yang berisi properti gambar efektif.
 type: docs
-weight: 6620
+weight: 6640
 url: /id/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData antarmuka
 
-Objek tak dapat diubah yang berisi properti gambar yang efektif.
+Objek tak dapat diubah yang berisi properti gambar efektif.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -18,9 +18,9 @@ public interface IPictureEffectiveData
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Mengembalikan gambar yang disematkan. Baca-saja [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Mengembalikan koleksi efek transformasi gambar. Baca-saja [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
-| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Mengembalikan URL gambar yang ditautkan. Baca-saja String. |
+| [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Mengembalikan gambar yang disematkan. Hanya-baca [`IPPImage`](../ippimage). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Mengembalikan koleksi efek transformasi gambar. Hanya-baca [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Mengembalikan URL gambar yang ditautkan. Hanya-baca String. |
 
 ### Keterangan
 

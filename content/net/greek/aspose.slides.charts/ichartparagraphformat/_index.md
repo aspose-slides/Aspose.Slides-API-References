@@ -1,14 +1,14 @@
 ---
 title: IChartParagraphFormat
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει τις ιδιότητες μορφοποίησης παραγράφων ενός διαγράμματος.
+second_title: Αναφορά API Aspose.Sildes για .NET
+description: Αναπαριστά τις ιδιότητες μορφοποίησης παραγράφου ενός διαγράμματος.
 type: docs
-weight: 1880
+weight: 1900
 url: /el/aspose.slides.charts/ichartparagraphformat/
 ---
 ## IChartParagraphFormat διεπαφή
 
-Αντιπροσωπεύει τις ιδιότητες μορφοποίησης παραγράφων ενός διαγράμματος.
+Αναπαριστά τις ιδιότητες μορφοποίησης παραγράφου ενός διαγράμματος.
 
 ```csharp
 public interface IChartParagraphFormat
@@ -19,23 +19,23 @@ public interface IChartParagraphFormat
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [Alignment](../../aspose.slides.charts/ichartparagraphformat/alignment) { get; set; } | Επιστρέφει ή ορίζει την στοίχιση κειμένου σε μια παράγραφο. Ανάγνωση/εγγραφή [`TextAlignment`](../../aspose.slides/textalignment). |
-| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Επιστρέφει ή ορίζει το προεπιλεγμένο μέγεθος εσοχής. Ανάγνωση/εγγραφή Single. |
-| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Καθορίζει αν η αναδίπλωση γραμμής Ανατολικής Ασίας χρησιμοποιείται σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Επιστρέφει ή ορίζει την στοίχιση της γραμματοσειράς σε μια παράγραφο. Ανάγνωση/εγγραφή [`FontAlignment`](../../aspose.slides/fontalignment). |
-| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Καθορίζει αν η κρεμαστή στίξη χρησιμοποιείται σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Επιστρέφει ή ορίζει την πρώτη γραμμή εσοχής/την κρεμαστή εσοχή της παραγράφου. Η κρεμαστή εσοχή μπορεί να οριστεί με αρνητικές τιμές. Ανάγνωση/εγγραφή Single. |
-| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Καθορίζει αν η αναδίπλωση γραμμής Λατινικά χρησιμοποιείται σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [DefaultTabSize](../../aspose.slides.charts/ichartparagraphformat/defaulttabsize) { get; set; } | Επιστρέφει ή ορίζει το προεπιλεγμένο μέγεθος στηλοθέτησης. Ανάγνωση/εγγραφή Single. |
+| [EastAsianLineBreak](../../aspose.slides.charts/ichartparagraphformat/eastasianlinebreak) { get; set; } | Καθορίζει εάν χρησιμοποιείται η διάρρηξη γραμμής Ανατολικής Ασίας σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [FontAlignment](../../aspose.slides.charts/ichartparagraphformat/fontalignment) { get; set; } | Επιστρέφει ή ορίζει τη στοίχιση γραμματοσειράς σε μια παράγραφο. Ανάγνωση/εγγραφή [`FontAlignment`](../../aspose.slides/fontalignment). |
+| [HangingPunctuation](../../aspose.slides.charts/ichartparagraphformat/hangingpunctuation) { get; set; } | Καθορίζει εάν χρησιμοποιείται η στίξη κρεμασμένη σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Indent](../../aspose.slides.charts/ichartparagraphformat/indent) { get; set; } | Επιστρέφει ή ορίζει την Εσοχή πρώτης γραμμής/Κρεμασμένη εσοχή της παραγράφου. Η κρεμασμένη εσοχή μπορεί να οριστεί με αρνητικές τιμές. Ανάγνωση/εγγραφή Single. |
+| [LatinLineBreak](../../aspose.slides.charts/ichartparagraphformat/latinlinebreak) { get; set; } | Καθορίζει εάν χρησιμοποιείται η διάρρηξη γραμμής Λατινικών σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
 | [MarginLeft](../../aspose.slides.charts/ichartparagraphformat/marginleft) { get; set; } | Επιστρέφει ή ορίζει το αριστερό περιθώριο σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξί περιθώριο σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Καθορίζει αν η γραφή Δεξιά προς Αριστερά χρησιμοποιείται σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Επιστρέφει ή ορίζει το ποσό του διαστήματος μετά την τελευταία γραμμή σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Επιστρέφει ή ορίζει το ποσό του διαστήματος πριν την πρώτη γραμμή σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Επιστρέφει ή ορίζει το ποσό του διαστήματος μεταξύ των βασικών γραμμών σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
-| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Επιστρέφει τις εσοχές μιας παραγράφου. Μόνο για ανάγνωση [`ITabCollection`](../../aspose.slides/itabcollection). |
+| [MarginRight](../../aspose.slides.charts/ichartparagraphformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξιό περιθώριο σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
+| [RightToLeft](../../aspose.slides.charts/ichartparagraphformat/righttoleft) { get; set; } | Καθορίζει εάν χρησιμοποιείται η γραφή από δεξιά προς αριστερά σε μια παράγραφο. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [SpaceAfter](../../aspose.slides.charts/ichartparagraphformat/spaceafter) { get; set; } | Επιστρέφει ή ορίζει την ποσότητα χώρου μετά την τελευταία γραμμή σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
+| [SpaceBefore](../../aspose.slides.charts/ichartparagraphformat/spacebefore) { get; set; } | Επιστρέφει ή ορίζει την ποσότητα χώρου πριν από την πρώτη γραμμή σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
+| [SpaceWithin](../../aspose.slides.charts/ichartparagraphformat/spacewithin) { get; set; } | Επιστρέφει ή ορίζει την ποσότητα χώρου μεταξύ των βασικών γραμμών σε μια παράγραφο. Ανάγνωση/εγγραφή Single. |
+| [Tabs](../../aspose.slides.charts/ichartparagraphformat/tabs) { get; } | Επιστρέφει τις στηλοθετήσεις μιας παραγράφου. Μόνο ανάγνωση [`ITabCollection`](../../aspose.slides/itabcollection). |
 
 ### Δείτε επίσης
 
 * χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συναρμολόγηση [Aspose.Slides](../../)
+* μονάδα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

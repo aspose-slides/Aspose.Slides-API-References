@@ -1,9 +1,9 @@
 ---
 title: PresentedBySpeaker
-second_title: Aspose.Sildes per il riferimento API di .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Presentato da un relatore a schermo intero
 type: docs
-weight: 9630
+weight: 9650
 url: /it/aspose.slides/presentedbyspeaker/
 ---
 ## PresentedBySpeaker classe

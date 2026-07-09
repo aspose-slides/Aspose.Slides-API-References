@@ -1,9 +1,9 @@
 ---
 title: IThreeDFormat
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Riferimento API .NET di Aspose.Sildes
 description: Rappresenta le proprietà 3-D.
 type: docs
-weight: 7310
+weight: 7330
 url: /it/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat interfaccia
@@ -16,23 +16,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Consente di ottenere l'interfaccia IThreeDParamSource di base. Solo lettura [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Restituisce o imposta il tipo di una smussatura 3D inferiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Restituisce o imposta il tipo di una smussatura 3D superiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
-| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Restituisce o imposta le impostazioni di una fotocamera. Solo lettura [`ICamera`](../icamera). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | Consente di ottenere l'interfaccia base IThreeDParamSource. Solo lettura [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | Restituisce o imposta il tipo di smussatura 3D inferiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | Restituisce o imposta il tipo di smussatura 3D superiore. Solo lettura [`IShapeBevel`](../ishapebevel). |
+| [Camera](../../aspose.slides/ithreedformat/camera) { get; } | Restituisce o imposta le impostazioni di una telecamera. Solo lettura [`ICamera`](../icamera). |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | Restituisce o imposta il colore di un contorno. Solo lettura [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Restituisce o imposta la larghezza di un contorno 3D. Lettura/Scrittura Double. |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Restituisce o imposta la profondità di una forma 3D. Lettura/Scrittura Double. |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | Restituisce o imposta la larghezza di un contorno 3D. Lettura/scrittura Double. |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | Restituisce o imposta la profondità di una forma 3D. Lettura/scrittura Double. |
 | [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | Restituisce o imposta il colore di un'estrusione. Solo lettura [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Restituisce o imposta l'altezza di un effetto di estrusione. Lettura/Scrittura Double. |
-| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Restituisce o imposta il tipo di una luce. Solo lettura [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Restituisce o imposta il tipo di un materiale. Lettura/Scrittura [`MaterialPresetType`](../materialpresettype). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | Restituisce o imposta l'altezza di un effetto di estrusione. Lettura/scrittura Double. |
+| [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | Restituisce o imposta il tipo di luce. Solo lettura [`ILightRig`](../ilightrig). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | Restituisce o imposta il tipo di materiale. Lettura/scrittura [`MaterialPresetType`](../materialpresettype). |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | Ottiene i dati di formattazione 3-D effettivi con l'ereditarietà applicata. |
 

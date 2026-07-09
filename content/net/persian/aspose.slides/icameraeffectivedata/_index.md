@@ -1,6 +1,6 @@
 ---
 title: ICameraEffectiveData
-second_title: Aspose.Sildes برای .NET مرجع API
+second_title: مرجع API Aspose.Sildes برای .NET
 description: شیء غیرقابل تغییر که ویژگی‌های مؤثر دوربین را شامل می‌شود.
 type: docs
 weight: 5420
@@ -18,21 +18,21 @@ public interface ICameraEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | نوع دوربین. فقط خواندنی [`CameraPresetType`](../camerapresettype). |
-| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | FOV دوربین (0-180 درجه، میدان دید). فقط خواندنی Single. |
-| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | بزرگ‌نمایی دوربین (مقدار مثبت به درصد). فقط خواندنی Single. |
+| [CameraType](../../aspose.slides/icameraeffectivedata/cameratype) { get; } | نوع دوربین. فقط-خواندنی [`CameraPresetType`](../camerapresettype). |
+| [FieldOfViewAngle](../../aspose.slides/icameraeffectivedata/fieldofviewangle) { get; } | زاویه دید دوربین (0-180 درجه، میدان دید). فقط-خواندنی Single. |
+| [Zoom](../../aspose.slides/icameraeffectivedata/zoom) { get; } | زوم دوربین (مقدار مثبت به درصد). فقط-خواندنی Single. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | یک چرخش با استفاده از مختصات عرض، مختصات طول و یک دوران حول محور به عنوان مختصات عرض و طول تعریف می‌شود. اولین عنصر در آرایه بازگشتی - عرض، دوم - طول، سوم - دوران. اگر چرخشی تعریف نشده باشد، null برگردانده می‌شود. |
+| [GetRotation](../../aspose.slides/icameraeffectivedata/getrotation)() | چرخش از طریق استفاده از مختصات عرض، مختصات طول، و یک دور حول محور به‌عنوان مختصات عرض و طول تعریف می‌شود. اولین عنصر در آرایهٔ بازگشتی – عرض، دوم – طول، سوم – دور. اگر چرخشی تعریف نشده باشد، null باز می‌گرداند. |
 
-### یادداشت‌ها
+### نکات
 
 این رابط به‌عنوان بخشی از [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) استفاده می‌شود.
 
-### موارد مرتبط
+### مراجع
 
 * فضای‌نام [Aspose.Slides](../../aspose.slides)
 * مجمع [Aspose.Slides](../../)

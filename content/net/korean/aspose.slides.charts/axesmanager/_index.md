@@ -18,13 +18,13 @@ public class AxesManager : DomObject<Chart>, IAxesManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | 차트의 수평 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
-| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | 차트의 보조 수평 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
-| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | 차트의 보조 수직 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
+| [HorizontalAxis](../../aspose.slides.charts/axesmanager/horizontalaxis) { get; } | 차트의 수평축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
+| [SecondaryHorizontalAxis](../../aspose.slides.charts/axesmanager/secondaryhorizontalaxis) { get; } | 차트의 보조 수평축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
+| [SecondaryVerticalAxis](../../aspose.slides.charts/axesmanager/secondaryverticalaxis) { get; } | 차트의 보조 수직축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
 | [SeriesAxis](../../aspose.slides.charts/axesmanager/seriesaxis) { get; } | 차트의 시리즈 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
-| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | 차트의 수직 축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
+| [VerticalAxis](../../aspose.slides.charts/axesmanager/verticalaxis) { get; } | 차트의 수직축을 가져옵니다. 읽기 전용 [`IAxis`](../iaxis). |
 
-### 추가 참조
+### 또 보기
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [Chart](../chart)

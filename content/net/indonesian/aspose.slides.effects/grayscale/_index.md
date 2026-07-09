@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Mewakili efek Gray Scale. Mengubah semua nilai warna efek menjadi nuansa abu-abu yang sesuai dengan luminansinya. Nilai alfa (opasitas) efek tidak terpengaruh.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Mewakili efek Gray Scale. Mengonversi semua nilai warna efek menjadi nuansa abu-abu yang sesuai dengan luminansinya. Nilai alpha (opacity) efek tidak terpengaruh.
 type: docs
-weight: 2980
+weight: 3000
 url: /id/aspose.slides.effects/grayscale/
 ---
 ## GrayScale kelas
 
-Mewakili efek Gray Scale. Mengubah semua nilai warna efek menjadi nuansa abu-abu, yang sesuai dengan luminansinya. Nilai alfa (opasitas) efek tidak terpengaruh.
+Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,7 +18,7 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka IPresentationComponent dasar. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metode
 

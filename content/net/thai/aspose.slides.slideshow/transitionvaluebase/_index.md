@@ -1,14 +1,14 @@
 ---
 title: TransitionValueBase
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: คลาสพื้นฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์.
+description: คลาสฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์.
 type: docs
 weight: 10460
 url: /th/aspose.slides.slideshow/transitionvaluebase/
 ---
 ## TransitionValueBase คลาส
 
-คลาสพื้นฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์.
+คลาสฐานสำหรับเอฟเฟกต์การเปลี่ยนสไลด์.
 
 ```csharp
 public class TransitionValueBase : ITransitionValueBase
@@ -18,8 +18,8 @@ public class TransitionValueBase : ITransitionValueBase
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะที่เหมาะสมสำหรับการใช้ในอัลกอริธึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase ทั้งสองเท่ากันหรือไม่ |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ ซึ่งเหมาะสำหรับการใช้ในอัลกอริทึมการแฮชและโครงสร้างข้อมูลเช่นแฮชเทเบิล |
 
 ### ดูเพิ่มเติม
 

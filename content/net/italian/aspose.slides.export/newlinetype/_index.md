@@ -1,14 +1,14 @@
 ---
 title: NewLineType
-second_title: Aspose.Sildes per .NET API Reference
-description: Tipo di nuova linea che verrà utilizzato nel documento generato.
+second_title: Riferimento API di Aspose.Sildes per .NET
+description: Tipo di nuova riga che verrà utilizzato nel documento generato.
 type: docs
-weight: 4260
+weight: 4280
 url: /it/aspose.slides.export/newlinetype/
 ---
-## NewLineType enumerazione
+## enumerazione NewLineType
 
-Tipo di nuova linea che verrà utilizzato nel documento generato.
+Tipo di nuova riga che verrà utilizzato nel documento generato.
 
 ```csharp
 public enum NewLineType
@@ -20,7 +20,7 @@ public enum NewLineType
 | --- | --- | --- |
 | Windows | `0` |  |
 | Unix | `1` |  |
-| Mac | `2` | Mac (OS 9) nuova linea - \\r |
+| Mac | `2` | Mac (OS 9) nuova riga - \\r |
 
 ### Esempi
 

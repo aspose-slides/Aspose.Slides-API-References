@@ -1,7 +1,7 @@
 ---
 title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과적인 3-D 서식 속성을 나타내는 불변 객체입니다.
+description: 효과적인 3D 서식 속성을 나타내는 불변 객체입니다.
 type: docs
 weight: 7340
 url: /ko/aspose.slides/ithreedformateffectivedata/
@@ -22,19 +22,19 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 | [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | 하단 3D 베벨의 유형을 반환합니다. 읽기 전용 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | 상단 3D 베벨의 유형을 반환합니다. 읽기 전용 [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | 카메라 설정을 반환합니다. 읽기 전용 [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | 윤곽선의 색상을 반환합니다. 읽기 전용 Color. |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | 윤곽선 색상을 반환합니다. 읽기 전용 Color. |
 | [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | 3D 윤곽선의 너비를 반환합니다. 읽기 전용 Double. |
 | [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | 3D 형태의 깊이를 반환합니다. 읽기 전용 Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | 돌출 효과의 색상을 반환합니다. 읽기 전용 Color. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | 돌출 색상을 반환합니다. 읽기 전용 Color. |
 | [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | 돌출 효과의 높이를 반환합니다. 읽기 전용 Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | 광원의 유형을 반환합니다. 읽기 전용 [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | 재질의 유형을 반환합니다. 읽기 전용 [`MaterialPresetType`](../materialpresettype). |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | 조명의 유형을 반환합니다. 읽기 전용 [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | 재료의 유형을 반환합니다. 읽기 전용 [`MaterialPresetType`](../materialpresettype). |
 
 ### 비고
 
 이 인터페이스는 [`IThreeDFormat`](../ithreedformat) 인터페이스와 함께 사용되어 상속이 적용된 효과적인 서식 값을 반환합니다.
 
-### 참고
+### 참조
 
 * 인터페이스 [IThreeDParamSource](../ithreedparamsource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,14 +1,14 @@
 ---
 title: ColorSpace
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 表示色彩效果行為的色彩空間。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示用於顏色效果行為的色彩空間。
 type: docs
 weight: 250
 url: /zh-hant/aspose.slides.animation/colorspace/
 ---
 ## ColorSpace 列舉
 
-表示色彩效果行為的色彩空間。
+表示顏色效果行為的色彩空間。
 
 ```csharp
 public enum ColorSpace
@@ -16,13 +16,13 @@ public enum ColorSpace
 
 ### 值
 
-| 名稱 | 值 | 描述 |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | RGB | `0` |  |
 | HSL | `1` |  |
 
-### 參見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 組件 [Aspose.Slides](../../)

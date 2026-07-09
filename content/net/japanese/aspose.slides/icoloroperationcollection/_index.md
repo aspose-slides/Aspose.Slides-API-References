@@ -1,12 +1,12 @@
 ---
 title: IColorOperationCollection
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 色変換操作のコレクションを表します。
 type: docs
-weight: 5490
+weight: 5510
 url: /ja/aspose.slides/icoloroperationcollection/
 ---
-## IColorOperationCollection interface
+## IColorOperationCollection インターフェイス
 
 色変換操作のコレクションを表します。
 
@@ -25,8 +25,8 @@ public interface IColorOperationCollection : IGenericCloneable<IColorOperationCo
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | コレクションの末尾に新しい操作を追加します。 |
-| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | コレクションの末尾に新しい操作を追加します。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add)(ColorTransformOperation) | 新しい操作をコレクションの末尾に追加します。 |
+| [Add](../../aspose.slides/icoloroperationcollection/add#add_1)(ColorTransformOperation, float) | 新しい操作をコレクションの末尾に追加します。 |
 | [Clear](../../aspose.slides/icoloroperationcollection/clear)() | すべての色操作を削除します。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert)(int, ColorTransformOperation) | 新しい操作をコレクションに挿入します。 |
 | [Insert](../../aspose.slides/icoloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 新しい操作をコレクションに挿入します。 |

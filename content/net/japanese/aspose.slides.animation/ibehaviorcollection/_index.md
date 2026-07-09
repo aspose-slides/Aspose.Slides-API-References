@@ -1,14 +1,14 @@
 ---
 title: IBehaviorCollection
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 動作効果のコレクションを表します。
+description: 動作エフェクトのコレクションを表します。
 type: docs
-weight: 400
+weight: 420
 url: /ja/aspose.slides.animation/ibehaviorcollection/
 ---
 ## IBehaviorCollection インターフェイス
 
-動作効果のコレクションを表します。
+動作エフェクトのコレクションを表します。
 
 ```csharp
 public interface IBehaviorCollection : IEnumerable<IBehavior>
@@ -20,7 +20,7 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/ibehaviorcollection/asienumerable) { get; } | IEnumerable インターフェイスを返します。読み取り専用 IEnumerable。 |
 | [Count](../../aspose.slides.animation/ibehaviorcollection/count) { get; } | コレクション内の動作の数を返します。読み取り専用 Int32。 |
-| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | 指定されたインデックスの動作を返します。 |
+| [Item](../../aspose.slides.animation/ibehaviorcollection/item) { get; set; } | 指定されたインデックスの動作を取得または設定します。 |
 
 ## メソッド
 
@@ -29,8 +29,8 @@ public interface IBehaviorCollection : IEnumerable<IBehavior>
 | [Add](../../aspose.slides.animation/ibehaviorcollection/add)(IBehavior) | コレクションに新しい動作を追加します。 |
 | [Clear](../../aspose.slides.animation/ibehaviorcollection/clear)() | コレクションからすべての動作を削除します。 |
 | [Contains](../../aspose.slides.animation/ibehaviorcollection/contains)(IBehavior) | ICollection が特定の値を含むかどうかを判断します。 |
-| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | IList の特定の項目のインデックスを決定します。 |
-| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | 指定されたインデックスにコレクションへ新しい動作を挿入します。 |
+| [IndexOf](../../aspose.slides.animation/ibehaviorcollection/indexof)(IBehavior) | IList 内の特定の項目のインデックスを決定します。 |
+| [Insert](../../aspose.slides.animation/ibehaviorcollection/insert)(int, IBehavior) | 指定されたインデックスに新しい動作をコレクションへ挿入します。 |
 | [Remove](../../aspose.slides.animation/ibehaviorcollection/remove)(IBehavior) | コレクションから指定された動作を削除します。 |
 | [RemoveAt](../../aspose.slides.animation/ibehaviorcollection/removeat)(int) | 指定されたインデックスのコレクションから動作を削除します。 |
 

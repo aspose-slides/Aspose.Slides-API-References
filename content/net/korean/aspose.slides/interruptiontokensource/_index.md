@@ -1,7 +1,7 @@
 ---
 title: InterruptionTokenSource
-second_title: Aspose.Sildes for .NET API 참조
-description: InterruptionToken의 소스를 나타냅니다./interruptiontoken.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: InterruptionToken./interruptiontoken의 소스를 나타냅니다.
 type: docs
 weight: 7610
 url: /ko/aspose.slides/interruptiontokensource/
@@ -18,7 +18,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 
 | 이름 | 설명 |
 | --- | --- |
-| [InterruptionTokenSource](interruptiontokensource)() | [`InterruptionTokenSource`](../interruptiontokensource)를 새로 생성합니다. |
+| [InterruptionTokenSource](interruptiontokensource)() | 새로운 [`InterruptionTokenSource`](../interruptiontokensource)를 생성합니다. |
 
 ## 속성
 
@@ -33,7 +33,7 @@ public class InterruptionTokenSource : IInterruptionTokenSource
 | --- | --- |
 | [Interrupt](../../aspose.slides/interruptiontokensource/interrupt)() | 중단 요청을 초기화합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IInterruptionTokenSource](../iinterruptiontokensource)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

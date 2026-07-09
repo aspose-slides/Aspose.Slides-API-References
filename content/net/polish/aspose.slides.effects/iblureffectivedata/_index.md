@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt reprezentujący efekt Rozmycia stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
+second_title: Aspose.Sildes dla .NET - odwołanie API
+description: Niezmienny obiekt, który reprezentuje efekt Blur stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
 type: docs
-weight: 3170
+weight: 3190
 url: /pl/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt Rozmycia zastosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
+Niezmienny obiekt, który reprezentuje efekt Blur stosowany do całego kształtu, włącznie z jego wypełnieniem. Wszystkie kanały kolorów, w tym alfa, są poddane działaniu.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -16,10 +16,10 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Określa, czy granice obiektu powinny zostać powiększone w wyniku rozmycia. True wskazuje, że granice są powiększone, natomiast false wskazuje, że nie są. Tylko do odczytu Boolean. |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Określa, czy granice obiektu mają być powiększane w wyniku rozmycia. True wskazuje, że granice są powiększane, natomiast false wskazuje, że nie są. Tylko do odczytu Boolean. |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Zwraca lub ustawia promień rozmycia. Tylko do odczytu Double. |
 
 ### Zobacz także

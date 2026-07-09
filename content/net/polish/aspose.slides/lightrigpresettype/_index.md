@@ -1,14 +1,14 @@
 ---
 title: LightRigPresetType
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Stałe definiujące typy presetów oświetlenia.
+second_title: Aspose.Sildes dla .NET - odniesienie API
+description: Stałe definiujące typy presetów światła.
 type: docs
-weight: 7680
+weight: 7700
 url: /pl/aspose.slides/lightrigpresettype/
 ---
-## LightRigPresetType wyliczenie
+## Wyliczenie LightRigPresetType
 
-Stałe definiujące typy presetów oświetlenia.
+Stałe definiujące typy presetów światła.
 
 ```csharp
 public enum LightRigPresetType

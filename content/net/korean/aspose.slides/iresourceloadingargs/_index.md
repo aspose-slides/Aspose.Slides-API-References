@@ -1,14 +1,14 @@
 ---
 title: IResourceLoadingArgs
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 외부 리소스 로드 인자를 위한 인터페이스입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 외부 리소스 로딩 인수에 대한 인터페이스입니다.
 type: docs
 weight: 6830
 url: /ko/aspose.slides/iresourceloadingargs/
 ---
 ## IResourceLoadingArgs 인터페이스
 
-외부 리소스 로드 인자를 위한 인터페이스입니다.
+외부 리소스 로딩 인수에 대한 인터페이스.
 
 ```csharp
 public interface IResourceLoadingArgs
@@ -19,13 +19,13 @@ public interface IResourceLoadingArgs
 | 이름 | 설명 |
 | --- | --- |
 | [OriginalUri](../../aspose.slides/iresourceloadingargs/originaluri) { get; } | 가져온 프레젠테이션에 지정된 리소스의 원본 URI. |
-| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 가 Default 를 반환하는 경우에 다운로드에 사용되는 리소스의 URI입니다. 처음에는 리소스의 원본 URI 로 설정되지만, 임의의 값으로 재정의할 수 있습니다. |
+| [Uri](../../aspose.slides/iresourceloadingargs/uri) { get; set; } | [`ResourceLoading`](../iresourceloadingcallback/resourceloading)가 Default를 반환할 경우 다운로드에 사용되는 리소스의 URI. 처음에는 리소스의 원본 URI로 설정되지만, 언제든지 다른 값으로 재정의할 수 있습니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | [`ResourceLoading`](../iresourceloadingcallback/resourceloading) 가 UserProvided 를 반환하는 경우에 사용되는 리소스의 사용자 제공 데이터를 설정합니다. |
+| [SetData](../../aspose.slides/iresourceloadingargs/setdata)(byte[]) | [`ResourceLoading`](../iresourceloadingcallback/resourceloading)가 UserProvided를 반환할 경우 사용되는 리소스의 사용자 제공 데이터를 설정합니다. |
 
 ### 참고
 

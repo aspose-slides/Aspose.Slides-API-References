@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorkbook
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET - Riferimento API
 description: Fornisce l'accesso a una cartella di lavoro Excel incorporata
 type: docs
-weight: 1360
+weight: 1380
 url: /it/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook classe
@@ -31,7 +31,7 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
 | [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Restituisce la cella che può essere utilizzata per le serie o le categorie del grafico |
-| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Restituisce l'insieme di celle. |
+| [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Restituisce l'insieme delle celle. |
 
 ### Vedi anche
 

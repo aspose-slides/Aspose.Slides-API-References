@@ -1,14 +1,14 @@
 ---
 title: IGrayScaleEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์ระดับสีเทา. แปลงค่าการสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาซึ่งสอดคล้องกับความสว่างของมัน. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะไม่ถูกเปลี่ยนแปลง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่เปลี่ยนแปลงไม่ได้ซึ่งแสดงถึงเอฟเฟกต์สีเทา. แปลงค่าสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามระดับความสว่างของมัน. ค่าความทึบ (alpha) ของเอฟเฟกต์จะไม่เปลี่ยนแปลง.
 type: docs
 weight: 3350
 url: /th/aspose.slides.effects/igrayscaleeffectivedata/
 ---
 ## IGrayScaleEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งแสดงเอฟเฟกต์ระดับสีเทา. แปลงค่าการสีของเอฟเฟกต์ทั้งหมดเป็นเฉดสีเทา ซึ่งสอดคล้องกับความสว่างของมัน. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์จะไม่ถูกเปลี่ยนแปลง.
+อ็อบเจ็กต์ที่เปลี่ยนแปลงไม่ได้ซึ่งแสดงถึงเอฟเฟกต์สีเทา แปลงค่าสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามระดับความสว่างของมัน ค่าความทึบ (alpha) ของเอฟเฟกต์จะไม่เปลี่ยนแปลง
 
 ```csharp
 public interface IGrayScaleEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IGrayScaleEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึง IEffectEffectiveData อินเทอร์เฟซพื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/igrayscaleeffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

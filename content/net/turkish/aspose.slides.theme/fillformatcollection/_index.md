@@ -3,12 +3,12 @@ title: FillFormatCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Doldurma stillerinin koleksiyonunu temsil eder.
 type: docs
-weight: 11100
+weight: 11120
 url: /tr/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection sınıfı
 
-Doldurma stillerinin koleksiyonunu temsil eder.
+Koleksiyon doldurma stillerini temsil eder.
 
 ```csharp
 public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatCollection
@@ -18,10 +18,10 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Koleksiyonda gerçekte bulunan öğelerin sayısını alır. Salt okunur Int32. |
-| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize edilip edilmediğini (iş parçacığı güvenliğini) gösteren bir değeri döndürür. Salt okunur Boolean. |
-| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Belirtilen indeksdeki öğeyi alır. Salt okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Bir eşzamanlama kökü döndürür. Salt okunur Object. |
+| [Count](../../aspose.slides.theme/fillformatcollection/count) { get; } | Koleksiyonda gerçekten bulunan öğelerin sayısını alır. Salt-okunur Int32. |
+| [IsSynchronized](../../aspose.slides.theme/fillformatcollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (thread-safe) olup olmadığını gösteren bir değer döndürür. Salt-okunur Boolean. |
+| [Item](../../aspose.slides.theme/fillformatcollection/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt-okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [SyncRoot](../../aspose.slides.theme/fillformatcollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt-okunur Object. |
 
 ## Yöntemler
 
@@ -30,7 +30,7 @@ public sealed class FillFormatCollection : DomObject<FormatScheme>, IFillFormatC
 | [CopyTo](../../aspose.slides.theme/fillformatcollection/copyto)(Array, int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
 | [GetEnumerator](../../aspose.slides.theme/fillformatcollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumerator döndürür. |
 
-### Bakınız
+### Ayrıca Bakınız
 
 * sınıf [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * sınıf [FormatScheme](../formatscheme)

@@ -1,6 +1,6 @@
 ---
 title: IMetered
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 提供設定計量金鑰的方法。
 type: docs
 weight: 6450
@@ -18,7 +18,7 @@ public interface IMetered
 
 | 名稱 | 說明 |
 | --- | --- |
-| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | 設定計量的公鑰與私鑰。 |
+| [SetMeteredKey](../../aspose.slides/imetered/setmeteredkey)(string, string) | 設定計量的公開金鑰和私密金鑰。 |
 
 ### 另請參閱
 

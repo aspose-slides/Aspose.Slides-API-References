@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili pemutar animasi yang terkait dengan Presentation../aspose.slides/presentation.
 type: docs
-weight: 4370
+weight: 4390
 url: /id/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer kelas
@@ -36,7 +36,7 @@ public class PresentationPlayer : IDisposable
 
 | Nama | Deskripsi |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Mewakili penangan frame tick dari peristiwa [`FrameTick`](./frametick). |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Mewakili penangan tick frame dari peristiwa [`FrameTick`](./frametick). |
 
 ### Contoh
 
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // Putar animasi dengan 33 FPS
+        // Mainkan animasi dengan 33 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // Putar animasi dengan 45 FPS
+        // Mainkan animasi dengan 45 FPS
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>

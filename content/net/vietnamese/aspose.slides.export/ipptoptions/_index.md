@@ -1,14 +1,14 @@
 ---
 title: IPptOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu ở định dạng PPT.
+description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới định dạng PPT.
 type: docs
 weight: 4010
 url: /vi/aspose.slides.export/ipptoptions/
 ---
 ## IPptOptions giao diện
 
-Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu ở định dạng PPT.
+Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được lưu dưới định dạng PPT.
 
 ```csharp
 public interface IPptOptions : ISaveOptions
@@ -18,8 +18,8 @@ public interface IPptOptions : ISaveOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Trả về giao diện ISaveOptions. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
-| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Đại diện cho GUID lớp đối tượng (CLSID) được lưu trong mục nhập thư mục gốc. Có thể được sử dụng để kích hoạt COM của ứng dụng tài liệu. Giá trị mặc định là '64818D11-4F9B-11CF-86EA-00AA00B929E8' tương ứng với 'Microsoft Powerpoint.Slide.8'. |
+| [AsISaveOptions](../../aspose.slides.export/ipptoptions/asisaveoptions) { get; } | Trả về ISaveOptions interface. Chỉ đọc [`ISaveOptions`](../isaveoptions). |
+| [RootDirectoryClsid](../../aspose.slides.export/ipptoptions/rootdirectoryclsid) { get; set; } | Biểu diễn GUID lớp đối tượng (CLSID) được lưu trong mục nhập thư mục gốc. Có thể được sử dụng để kích hoạt COM của ứng dụng tài liệu. Giá trị mặc định là '64818D11-4F9B-11CF-86EA-00AA00B929E8' tương ứng với 'Microsoft Powerpoint.Slide.8'. |
 
 ### Xem thêm
 

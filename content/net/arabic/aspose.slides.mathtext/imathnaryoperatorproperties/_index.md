@@ -1,6 +1,6 @@
 ---
 title: IMathNaryOperatorProperties
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يحدد خصائص IMathNaryOperator
 type: docs
 weight: 8380
@@ -18,13 +18,13 @@ public interface IMathNaryOperatorProperties
 
 | الاسم | الوصف |
 | --- | --- |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | حرف العملية ينمو عموديًا ليتطابق مع ارتفاع المعامل |
-| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | إخفاء المؤشر |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight) { get; set; } | حرف المشغل ينمو عموديًا ليتطابق مع ارتفاع المعامل |
+| [HideSubscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesubscript) { get; set; } | إخفاء الحرف السفلي |
 | [HideSuperscript](../../aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript) { get; set; } | إخفاء الحرف العلوي |
-| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | موقع الحدود (المؤشر والحرف العلوي) |
-| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | حرف المشغل متعدد الحدود. على سبيل المثال: '∑'، '∫' |
+| [LimitLocation](../../aspose.slides.mathtext/imathnaryoperatorproperties/limitlocation) { get; set; } | موقع الحدود (الحرف السفلي والحرف العلوي) |
+| [Operator](../../aspose.slides.mathtext/imathnaryoperatorproperties/operator) { get; set; } | حرف المشغل المتعدد على سبيل المثال: '∑'، '∫' |
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * التجميع [Aspose.Slides](../../)

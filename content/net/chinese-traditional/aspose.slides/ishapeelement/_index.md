@@ -1,20 +1,20 @@
 ---
 title: IShapeElement
-second_title: Aspose.Sildes .NET API 參考文件
-description: 表示形狀中具有相同輪廓和填充屬性的部分。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示具有相同輪廓和填充屬性的形狀的一部分。
 type: docs
 weight: 6990
 url: /zh-hant/aspose.slides/ishapeelement/
 ---
 ## IShapeElement 介面
 
-表示具有相同輪廓和填充屬性的形狀部分。
+表示具有相同輪廓和填充屬性的形狀的一部分。
 
 ```csharp
 public interface IShapeElement
 ```
 
-### 另見
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

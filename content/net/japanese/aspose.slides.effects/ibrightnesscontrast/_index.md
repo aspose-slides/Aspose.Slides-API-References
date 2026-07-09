@@ -1,21 +1,21 @@
 ---
 title: IBrightnessContrast
-second_title: Aspose.Sildes for .NET API リファレンス
-description: BrightnessContrast エフェクトを表します。 明るさとコントラストを調整します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: BrightnessContrast エフェクトを表します。明るさとコントラストを調整します
 type: docs
-weight: 3180
+weight: 3200
 url: /ja/aspose.slides.effects/ibrightnesscontrast/
 ---
 ## IBrightnessContrast インターフェイス
 
-BrightnessContrast エフェクトを表します。 明るさとコントラストを調整します
+BrightnessContrast エフェクトを表します。明るさとコントラストを調整します
 
 ```csharp
 public interface IBrightnessContrast : IAccessiblePVIObject<IBrightnessContrastEffectiveData>, 
     IImageTransformOperation
 ```
 
-### 関連項目
+### 参照
 
 * インターフェイス [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * インターフェイス [IBrightnessContrastEffectiveData](../ibrightnesscontrasteffectivedata)

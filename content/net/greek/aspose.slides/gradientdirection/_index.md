@@ -1,14 +1,14 @@
 ---
 title: GradientDirection
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αντιπροσωπεύει το στυλ διαβάθμισης.
+description: Αναπαριστά το στυλ κλίσης.
 type: docs
-weight: 4970
+weight: 4990
 url: /el/aspose.slides/gradientdirection/
 ---
 ## GradientDirection απαρίθμηση
 
-Αντιπροσωπεύει το στυλ διαβάθμισης.
+Αναπαριστά το στυλ κλίσης.
 
 ```csharp
 public enum GradientDirection
@@ -18,9 +18,9 @@ public enum GradientDirection
 
 | Όνομα | Τιμή | Περιγραφή |
 | --- | --- | --- |
-| NotDefined | `-1` | Δεν ορίζεται |
-| FromCorner1 | `0` | Από την πάνω αριστερή γωνία |
-| FromCorner2 | `1` | Από την πάνω δεξιά γωνία |
+| NotDefined | `-1` | Μη ορισμένο |
+| FromCorner1 | `0` | Από την επάνω αριστερή γωνία |
+| FromCorner2 | `1` | Από την επάνω δεξιά γωνία |
 | FromCorner3 | `2` | Από την κάτω αριστερή γωνία |
 | FromCorner4 | `3` | Από την κάτω δεξιά γωνία |
 | FromCenter | `4` | Από το κέντρο |

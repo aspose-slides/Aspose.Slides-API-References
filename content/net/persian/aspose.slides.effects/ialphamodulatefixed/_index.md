@@ -1,14 +1,14 @@
 ---
 title: IAlphaModulateFixed
-second_title: Aspose.Sildes برای .NET مرجع API
-description: نمایش‌دهندهٔ اثر Alpha Modulate Fixed. مقادیر شفافیت آلفای اثر در درصد ثابت ضرب می‌شوند.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر یک اثر Alpha Modulate Fixed است. مقادیر شفافیت (alpha) اثر با درصد ثابت ضرب می‌شوند.
 type: docs
 weight: 3120
 url: /fa/aspose.slides.effects/ialphamodulatefixed/
 ---
 ## IAlphaModulateFixed رابط
 
-نمایش‌دهندهٔ اثر Alpha Modulate Fixed. مقادیر آلفای اثر (شفافت) در درصد ثابت ضرب می‌شوند.
+نمایانگر یک اثر Alpha Modulate Fixed است. مقادیر آلفا (شفافیت) اثر در درصد ثابت ضرب می‌شوند.
 
 ```csharp
 public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedEffectiveData>, 
@@ -19,9 +19,9 @@ public interface IAlphaModulateFixed : IAccessiblePVIObject<IAlphaModulateFixedE
 
 | نام | توضیح |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | مقدار اثر را به درصد برمی‌گرداند. قابل خواندن/نوشتن Single. |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | امکان دریافت رابط پایه IAccessiblePVIObject را فراهم می‌کند. فقط-قابل خواندن [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | امکان دریافت رابط پایه IImageTransformOperation را فراهم می‌کند. فقط-قابل خواندن [`IImageTransformOperation`](../iimagetransformoperation). |
+| [Amount](../../aspose.slides.effects/ialphamodulatefixed/amount) { get; set; } | مقدار اثر را به درصد برمی‌گرداند. قابل‌خواندن/قابل‌نوشتن Single. |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphamodulatefixed/asiaccessiblepviobject) { get; } | اجازه می‌دهد رابط پایه IAccessiblePVIObject را دریافت کند. فقط‌خواندنی [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphamodulatefixed/asiimagetransformoperation) { get; } | اجازه می‌دهد رابط پایه IImageTransformOperation را دریافت کند. فقط‌خواندنی [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### موارد مرتبط
 

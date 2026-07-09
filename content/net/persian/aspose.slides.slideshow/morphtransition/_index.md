@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
 second_title: Aspose.Sildes برای .NET مرجع API
-description: اثر انتقال اسلاید Ripple.
+description: اثر انتقال اسلایدی موجی.
 type: docs
 weight: 10250
 url: /fa/aspose.slides.slideshow/morphtransition/
 ---
-## کلاس MorphTransition
+## MorphTransition کلاس
 
-Ripple slide transition effect.
+اثر انتقال اسلایدی موجی.
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,14 +18,14 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | نام | توضیح |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | نوع انتقال مورف. قابل خواندن/قابل نوشتن [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | نوع انتقال Morph. خواندنی/نوشتنی [`TransitionMorphType`](../transitionmorphtype). |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | مشخص می‌کند آیا دو نمونه TransitionValueBase برابر هستند یا خیر. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | یک تابع هش برای یک نوع خاص فراهم می‌کند که برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | تعیین می‌کند که آیا دو نمونه TransitionValueBase برابر هستند یا خیر. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | به عنوان یک تابع هش برای یک نوع خاص عمل می‌کند و برای استفاده در الگوریتم‌های هش و ساختارهای داده‌ای مانند جدول هش مناسب است. |
 
 ### موارد مرتبط
 

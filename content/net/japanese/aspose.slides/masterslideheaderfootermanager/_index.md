@@ -1,14 +1,14 @@
 ---
 title: MasterSlideHeaderFooterManager
 second_title: Aspose.Sildes for .NET API リファレンス
-description: マスタースライドのフッター、日時、ページ番号プレースホルダーおよびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウトスライドおよび依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドとスライドはマスタースライドを使用し、依存します。
+description: マスタースライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドとスライドはマスタースライドを使用し、依存します。
 type: docs
-weight: 8030
+weight: 8050
 url: /ja/aspose.slides/masterslideheaderfootermanager/
 ---
 ## MasterSlideHeaderFooterManager クラス
 
-マスタースライドのフッター、日時、ページ番号プレースホルダーおよびすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。
+マスタースライドのフッター、日付時刻、ページ番号プレースホルダーとすべての子プレースホルダーの動作を保持するマネージャーを表します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。
 
 ```csharp
 public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,23 +19,23 @@ public sealed class MasterSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | 名前 | 説明 |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日時プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在することを示す値を取得します。Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在することを示す値を取得します。ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | 日付時刻プレースホルダーが存在するかを示す値を取得します。ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | フッタープレースホルダーが存在するかを示す値を取得します。Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | ページ番号プレースホルダーが存在するかを示す値を取得します。ReadBoolean. |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日時プレースホルダーとすべての子日時プレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。 |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日時プレースホルダーとすべての子日時プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。 |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日時プレースホルダーにテキストを設定します。 |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日時プレースホルダーの表示状態を変更します。 |
-| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。 |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーとすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。 |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | マスタースライドの日付時刻プレースホルダーおよびすべての子日付時刻プレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。 |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | マスタースライドの日付時刻プレースホルダーおよびすべての子日付時刻プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。 |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | スライドの日付時刻プレースホルダーにテキストを設定します。 |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | スライドの日付時刻プレースホルダーの表示状態を変更します。 |
+| [SetFooterAndChildFootersText](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfooterstext)(string) | マスタースライドのフッタープレースホルダーおよびすべての子フッタープレースホルダーにテキストを設定します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。 |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/masterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | マスタースライドのフッタープレースホルダーおよびすべての子フッタープレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。 |
 | [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | スライドのフッタープレースホルダーにテキストを設定します。 |
 | [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | スライドのフッタープレースホルダーの表示状態を変更します。 |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーとすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウト スライドおよび依存スライドに含まれるプレースホルダーを意味します。依存レイアウト スライドとスライドはマスタースライドを使用し、依存します。 |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | マスタースライドのページ番号プレースホルダーおよびすべての子ページ番号プレースホルダーの表示状態を変更します。子プレースホルダーとは、依存レイアウトスライドや依存スライドに含まれるプレースホルダーを指します。依存レイアウトスライドやスライドはマスタースライドを使用し、依存します。 |
 | [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | スライドのページ番号プレースホルダーの表示状態を変更します。 |
 
 ### 参照

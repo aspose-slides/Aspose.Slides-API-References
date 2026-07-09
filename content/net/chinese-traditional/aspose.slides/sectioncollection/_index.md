@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 代表區段的集合。
+description: 表示節的集合。
 type: docs
 weight: 9760
 url: /zh-hant/aspose.slides/sectioncollection/
 ---
 ## SectionCollection 類別
 
-代表區段的集合。
+表示節的集合。
 
 ```csharp
 public sealed class SectionCollection : DomObject<Presentation>, ISectionCollection
@@ -18,27 +18,27 @@ public sealed class SectionCollection : DomObject<Presentation>, ISectionCollect
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/sectioncollection/count) { get; } | 取得集合實際包含的元素數量。只讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 傳回指示集合存取是否同步（執行緒安全）的值。只讀 Boolean。 |
-| [Item](../../aspose.slides/sectioncollection/item) { get; } | 取得指定索引處的元素。只讀 [`ISection`](../isection)。 |
-| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 傳回同步根。只讀 Object。 |
+| [Count](../../aspose.slides/sectioncollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/sectioncollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否同步（執行緒安全）。唯讀 Boolean。 |
+| [Item](../../aspose.slides/sectioncollection/item) { get; } | 取得指定索引處的元素。唯讀 [`ISection`](../isection)。 |
+| [SyncRoot](../../aspose.slides/sectioncollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | 在集合的指定位置加入空白區段。 |
-| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | 加入從特定投影片開始的投影片區段。 |
-| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | 在集合的末端加入空白區段。 |
-| [Clear](../../aspose.slides/sectioncollection/clear)() | 從集合中移除所有區段。 |
+| [AddEmptySection](../../aspose.slides/sectioncollection/addemptysection)(string, int) | 在集合的指定位置新增空的節。 |
+| [AddSection](../../aspose.slides/sectioncollection/addsection)(string, ISlide) | 從特定投影片開始新增投影片節。 |
+| [AppendEmptySection](../../aspose.slides/sectioncollection/appendemptysection)(string) | 在集合的末端新增空的節。 |
+| [Clear](../../aspose.slides/sectioncollection/clear)() | 從集合中移除所有節。 |
 | [CopyTo](../../aspose.slides/sectioncollection/copyto)(Array, int) | 將整個集合複製到指定的陣列。 |
-| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
-| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 傳回集合中指定區段的索引。 |
-| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 移除區段。區段中包含的投影片將合併到前一個區段。 |
-| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 移除區段及其所包含的投影片。 |
-| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 將區段及其投影片從集合移動至指定位置。 |
+| [GetEnumerator](../../aspose.slides/sectioncollection/getenumerator)() | 傳回一個可遍歷集合的列舉器。 |
+| [IndexOf](../../aspose.slides/sectioncollection/indexof)(ISection) | 傳回集合中指定節的索引。 |
+| [RemoveSection](../../aspose.slides/sectioncollection/removesection)(ISection) | 移除節。該節中包含的投影片將合併至前一節。 |
+| [RemoveSectionWithSlides](../../aspose.slides/sectioncollection/removesectionwithslides)(ISection) | 移除節以及該節中包含的投影片。 |
+| [ReorderSectionWithSlides](../../aspose.slides/sectioncollection/reordersectionwithslides)(ISection, int) | 將節及其投影片從集合中移動到指定位置。 |
 
-### 另請參閱
+### 參見
 
 * 類別 [DomObject&lt;TParent&gt;](../domobject-1)
 * 類別 [Presentation](../presentation)

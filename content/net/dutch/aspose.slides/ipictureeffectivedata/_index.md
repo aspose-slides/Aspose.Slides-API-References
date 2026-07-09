@@ -1,14 +1,14 @@
 ---
 title: IPictureEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve afbeeldings-eigenschappen bevat.
+description: Onveranderbaar object dat effectieve afbeeldingseigenschappen bevat.
 type: docs
 weight: 6640
 url: /nl/aspose.slides/ipictureeffectivedata/
 ---
 ## IPictureEffectiveData interface
 
-Onveranderlijk object dat effectieve afbeeldings-eigenschappen bevat.
+Onveranderbaar object dat effectieve afbeeldingseigenschappen bevat.
 
 ```csharp
 public interface IPictureEffectiveData
@@ -19,7 +19,7 @@ public interface IPictureEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [Image](../../aspose.slides/ipictureeffectivedata/image) { get; } | Retourneert de ingesloten afbeelding. Alleen-lezen [`IPPImage`](../ippimage). |
-| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Retourneert de verzameling van afbeeldingstransformatie-effecten. Alleen-lezen [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
+| [ImageTransform](../../aspose.slides/ipictureeffectivedata/imagetransform) { get; } | Retourneert de collectie van afbeeldingstransformatie-effecten. Alleen-lezen [`IImageTransformOCollectionEffectiveData`](../../aspose.slides.effects/iimagetransformocollectioneffectivedata). |
 | [LinkPathLong](../../aspose.slides/ipictureeffectivedata/linkpathlong) { get; } | Retourneert de URL van de gekoppelde afbeelding. Alleen-lezen String. |
 
 ### Opmerkingen

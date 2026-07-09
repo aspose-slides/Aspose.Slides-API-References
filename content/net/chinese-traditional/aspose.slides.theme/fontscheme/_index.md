@@ -1,6 +1,6 @@
 ---
 title: FontScheme
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 儲存主題定義的字型。
 type: docs
 weight: 11130
@@ -18,11 +18,11 @@ public class FontScheme : IFontScheme
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | 返回投影片「標題」部分的字型集合。唯讀 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | 返回投影片「內文」部分的字型集合。唯讀 [`IFonts`](../../aspose.slides/ifonts)。 |
-| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | 返回字型方案名稱。可讀寫 字串。 |
+| [Major](../../aspose.slides.theme/fontscheme/major) { get; } | 傳回投影片「標題」部分的字型集合。唯讀 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Minor](../../aspose.slides.theme/fontscheme/minor) { get; } | 傳回投影片「內文」部分的字型集合。唯讀 [`IFonts`](../../aspose.slides/ifonts)。 |
+| [Name](../../aspose.slides.theme/fontscheme/name) { get; set; } | 傳回字型方案名稱。讀寫 String。 |
 
-### 另請參閱
+### 參見
 
 * 介面 [IFontScheme](../ifontscheme)
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

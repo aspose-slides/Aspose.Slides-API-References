@@ -1,12 +1,12 @@
 ---
 title: StreamWrapper
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Wrapper Aspose.IO.Stream para interface COM.
 type: docs
-weight: 10730
+weight: 10750
 url: /pt/aspose.slides/streamwrapper/
 ---
-## StreamWrapper classe
+## classe StreamWrapper
 
 Aspose.IO.Stream wrapper for COM interface.
 
@@ -19,27 +19,27 @@ public class StreamWrapper : IStreamWrapper
 | Nome | Descrição |
 | --- | --- |
 | [AsIDisposable](../../aspose.slides/streamwrapper/asidisposable) { get; } | Permite obter a interface base IDisposable. Somente leitura IDisposable. |
-| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Obtém um valor que indica se o fluxo atual suporta leitura. Somente leitura Boolean. |
-| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Obtém um valor que indica se o fluxo atual suporta busca. Somente leitura Boolean. |
-| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Obtém um valor que indica se o fluxo atual suporta gravação. Somente leitura Boolean. |
-| [Length](../../aspose.slides/streamwrapper/length) { get; } | Obtém o comprimento em bytes do fluxo. Somente leitura Int64. |
-| [Position](../../aspose.slides/streamwrapper/position) { get; } | Obtém ou define a posição dentro do fluxo atual. Somente leitura Int64. |
-| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Obtém um fluxo. Somente leitura Stream. |
+| [CanRead](../../aspose.slides/streamwrapper/canread) { get; } | Obtém um valor que indica se o stream atual suporta leitura. Somente leitura Boolean. |
+| [CanSeek](../../aspose.slides/streamwrapper/canseek) { get; } | Obtém um valor que indica se o stream atual suporta busca. Somente leitura Boolean. |
+| [CanWrite](../../aspose.slides/streamwrapper/canwrite) { get; } | Obtém um valor que indica se o stream atual suporta gravação. Somente leitura Boolean. |
+| [Length](../../aspose.slides/streamwrapper/length) { get; } | Obtém o comprimento em bytes do stream. Somente leitura Int64. |
+| [Position](../../aspose.slides/streamwrapper/position) { get; } | Obtém ou define a posição dentro do stream atual. Somente leitura Int64. |
+| [Stream](../../aspose.slides/streamwrapper/stream) { get; } | Obtém um stream. Somente leitura Stream. |
 
 ## Métodos
 
 | Nome | Descrição |
 | --- | --- |
-| [Close](../../aspose.slides/streamwrapper/close)() | Fecha o fluxo atual e libera quaisquer recursos. |
+| [Close](../../aspose.slides/streamwrapper/close)() | Fecha o stream atual e libera quaisquer recursos. |
 | [Dispose](../../aspose.slides/streamwrapper/dispose)() | Descarta o objeto. |
-| [Flush](../../aspose.slides/streamwrapper/flush)() | Limpa todos os buffers deste fluxo e faz com que quaisquer dados em buffer sejam gravados no dispositivo subjacente. |
-| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Lê uma sequência de bytes do fluxo atual e avança a posição dentro do fluxo pelo número de bytes lidos. |
-| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Lê um byte do fluxo e avança a posição dentro do fluxo em um byte, ou retorna -1 se estiver no final do fluxo. |
-| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Define a posição dentro do fluxo atual |
-| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | Grava uma sequência de bytes no fluxo atual e avança a posição atual dentro deste fluxo pelo número de bytes gravados. |
-| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Grava um byte na posição atual no fluxo e avança a posição dentro do fluxo em um byte. |
+| [Flush](../../aspose.slides/streamwrapper/flush)() | Limpa todos os buffers deste stream e faz com que os dados em buffer sejam gravados no dispositivo subjacente. |
+| [Read](../../aspose.slides/streamwrapper/read)(byte[], int, int) | Lê uma sequência de bytes do stream atual e avança a posição no stream pelo número de bytes lidos. |
+| [ReadByte](../../aspose.slides/streamwrapper/readbyte)() | Lê um byte do stream e avança a posição no stream em um byte, ou retorna -1 se estiver no final do stream. |
+| [Seek](../../aspose.slides/streamwrapper/seek)(long, SeekOrigin) | Define a posição dentro do stream atual |
+| [Write](../../aspose.slides/streamwrapper/write)(byte[], int, int) | grava uma sequência de bytes no stream atual e avança a posição atual neste stream pelo número de bytes gravados. |
+| [WriteByte](../../aspose.slides/streamwrapper/writebyte)(byte) | Grava um byte na posição atual do stream e avança a posição no stream em um byte. |
 
-### Ver também
+### Veja Também
 
 * interface [IStreamWrapper](../istreamwrapper)
 * namespace [Aspose.Slides](../../aspose.slides)

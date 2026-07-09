@@ -1,6 +1,6 @@
 ---
 title: ParagraphFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Cho phép tạo các đoạn văn
 type: docs
 weight: 9300
@@ -14,18 +14,18 @@ Cho phép tạo các đoạn văn
 public class ParagraphFactory : IParagraphFactory
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
-| [ParagraphFactory](paragraphfactory)() | Trình khởi tạo mặc định. |
+| [ParagraphFactory](paragraphfactory)() | Hàm tạo mặc định. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Tạo một đoạn mới trống. |
-| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tạo một đoạn mới với dữ liệu đoạn đã chỉ định. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph)() | Tạo một đoạn văn mới rỗng. |
+| [CreateParagraph](../../aspose.slides/paragraphfactory/createparagraph#createparagraph_1)(IParagraph) | Tạo một đoạn văn mới với dữ liệu đoạn văn được chỉ định. |
 
 ### Ghi chú
 

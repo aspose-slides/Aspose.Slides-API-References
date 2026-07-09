@@ -1,14 +1,14 @@
 ---
 title: PointCollection
-second_title: Aspose.Sildes per .NET API Reference
-description: Rappresenta una collezione di punti di animazione.
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta una raccolta di punti di animazione.
 type: docs
-weight: 710
+weight: 730
 url: /it/aspose.slides.animation/pointcollection/
 ---
 ## PointCollection classe
 
-Rappresenta una collezione di punti di animazione.
+Rappresenta una raccolta di punti di animazione.
 
 ```csharp
 public class PointCollection : IPointCollection
@@ -16,22 +16,22 @@ public class PointCollection : IPointCollection
 
 ## Costruttori
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
 | [PointCollection](pointcollection)() | Il costruttore predefinito. |
 
 ## Proprietà
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Restituisce il numero di punti nella collezione. Solo lettura Int32. |
+| [Count](../../aspose.slides.animation/pointcollection/count) { get; } | Restituisce il numero di punti nella raccolta. Solo lettura Int32. |
 | [Item](../../aspose.slides.animation/pointcollection/item) { get; } | Restituisce un punto all'indice specificato. |
 
 ## Metodi
 
-| Nome | Descrizione |
+| Name | Description |
 | --- | --- |
-| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la collezione. |
+| [GetEnumerator](../../aspose.slides.animation/pointcollection/getenumerator)() | Restituisce un enumeratore che itera attraverso la raccolta. |
 
 ### Vedi anche
 

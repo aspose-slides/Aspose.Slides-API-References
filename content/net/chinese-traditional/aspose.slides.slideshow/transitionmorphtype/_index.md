@@ -1,14 +1,14 @@
 ---
 title: TransitionMorphType
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示形態過渡的類型。
+description: 表示形態轉場的類型。
 type: docs
 weight: 10390
 url: /zh-hant/aspose.slides.slideshow/transitionmorphtype/
 ---
 ## TransitionMorphType 列舉
 
-表示一種形態過渡類型。
+表示形態轉場的類型。
 
 ```csharp
 public enum TransitionMorphType
@@ -18,11 +18,11 @@ public enum TransitionMorphType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| ByObject | `0` | 形態過渡將在將形狀視為不可分割的物件時執行。 |
-| ByWord | `1` | 形態過渡將盡可能以單詞為單位傳輸文字。 |
-| ByChar | `2` | 形態過渡將盡可能以字符為單位傳輸文字。 |
+| ByObject | `0` | 形態轉場將在將形狀視為不可分割的物件時執行。 |
+| ByWord | `1` | 形態轉場將在可能的情況下以單字為單位傳輸文字執行。 |
+| ByChar | `2` | 形態轉場將在可能的情況下以字元為單位傳輸文字執行。 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * 組件 [Aspose.Slides](../../)

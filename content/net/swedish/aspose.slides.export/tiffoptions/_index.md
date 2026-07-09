@@ -3,7 +3,7 @@ title: TiffOptions
 second_title: Aspose.Sildes för .NET API-referens
 description: Tillhandahåller alternativ som styr hur en presentation sparas i TIFF-format.
 type: docs
-weight: 4550
+weight: 4570
 url: /sv/aspose.slides.export/tiffoptions/
 ---
 ## TiffOptions klass
@@ -24,20 +24,20 @@ public class TiffOptions : SaveOptions, ITiffOptions
 
 | Namn | Beskrivning |
 | --- | --- |
-| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Anger algoritmen för att konvertera en färgbild till en svartvit bild. Detta alternativ kommer endast att tillämpas om [`CompressionType`](./compressiontype) är inställd på CCITT4 eller CCITT3 Läs/skriv [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standard är Default. |
+| [BwConversionMode](../../aspose.slides.export/tiffoptions/bwconversionmode) { get; set; } | Anger algoritmen för att konvertera en färgbild till en svart-vit bild. Detta alternativ tillämpas endast om [`CompressionType`](./compressiontype) är inställt på CCITT4 eller CCITT3 Läs/skriv [`BlackWhiteConversionMode`](../blackwhiteconversionmode). Standard är Default. |
 | [CompressionType](../../aspose.slides.export/tiffoptions/compressiontype) { get; set; } | Anger komprimeringstypen. Läs/skriv [`TiffCompressionTypes`](../tiffcompressiontypes). |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller anger teckensnitt som används om källteckensnittet inte hittas. Läs/skriv String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returnerar eller ställer in teckensnittet som används om källteckensnittet inte hittas. Läs/skriv String. |
 | [DpiX](../../aspose.slides.export/tiffoptions/dpix) { get; set; } | Anger horisontell upplösning i punkter per tum. Läs/skriv UInt32. |
 | [DpiY](../../aspose.slides.export/tiffoptions/dpiy) { get; set; } | Anger vertikal upplösning i punkter per tum. Läs/skriv UInt32. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller anger den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Anger storleken på en genererad TIFF-bild. Standardvärdet är 0x0, vilket betyder att bildstorlekarna beräknas baserat på presentationens bildsizevärde. Läs/skriv Size. |
-| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr hur bläckobjekt ser ut i exporterat dokument. Endast läs [`IInkOptions`](../iinkoptions) |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Returnerar eller ställer in den visuella stilen för gradienten. Läs/skriv [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ImageSize](../../aspose.slides.export/tiffoptions/imagesize) { get; set; } | Anger storleken på en genererad TIFF-bild. Standardvärdet är 0x0, vilket betyder att bildstorlekarna beräknas utifrån presentationens bildsidors storlek. Läs/skriv Size. |
+| [InkOptions](../../aspose.slides.export/tiffoptions/inkoptions) { get; } | Tillhandahåller alternativ som styr utseendet på bläckobjekt i exporterat dokument. Endast läsning [`IInkOptions`](../iinkoptions) |
 | [PixelFormat](../../aspose.slides.export/tiffoptions/pixelformat) { get; set; } | Anger pixelformaten för de genererade bilderna. Läs/skriv [`ImagePixelFormat`](../imagepixelformat). |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Representerar ett återuppringningsobjekt för att spara förloppsuppdateringar i procent. Se [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [ShowHiddenSlides](../../aspose.slides.export/tiffoptions/showhiddenslides) { get; set; } | Anger om det genererade dokumentet ska inkludera dolda bilder eller inte. Standard är `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över när presentationen sparas. Läs/skriv Boolean. Standardvärdet är **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Hämtar eller anger läget i vilket bilder placeras på sidan när en presentation exporteras [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller anger ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Anger om hyperlänkar med JavaScript-anrop ska hoppas över vid sparning av presentationen. Läs/skriv Boolean. Standardvärdet är **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/tiffoptions/slideslayoutoptions) { get; set; } | Hämtar eller ställer in läget i vilket bilder placeras på sidan vid export av en presentation [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returnerar eller ställer in ett objekt som tar emot varningar och bestämmer om laddningsprocessen ska fortsätta eller avbrytas. Läs/skriv [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Exempel
 
@@ -68,15 +68,15 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
     notesOptions.NotesPosition = NotesPositions.BottomFull;
     opts.SlidesLayoutOption = notesOptions;
     // Komprimeringstyper
-    // Default - Anger standardkomprimeringsschemat (LZW).
-    // None - Anger ingen komprimering.
+    // Default - Anger det förvalda komprimeringsschemat (LZW).
+    // None - Anger ingen kompression.
     // CCITT3
     // CCITT4
     // LZW
     // RLE
-    // Djupet beror på komprimeringstypen och kan inte ställas in manuellt.
-    // Upplösningsenheten är alltid lika med “2” (punkter per tum)
-    // Ställer in bildens DPI
+    // Djup beror på komprimeringstypen och kan inte ställas in manuellt.
+    // Upplösningsenhet  är alltid lika med “2” (punkter per tum)
+    // Ställer in bild-DPI
     opts.DpiX = 200;
     opts.DpiY = 100;
     // Ställ in bildstorlek
@@ -86,7 +86,7 @@ using (Presentation pres = new Presentation("Convert_Tiff_Custom.pptx"))
 }
 ```
 
-Följande exempel visar hur man konverterar PowerPoint till TIFF med anpassat pixelformat för bilden.
+Följande exempel visar hur man konverterar PowerPoint till TIFF med anpassat bildpixelformat.
 
 ```csharp
 [C#]
@@ -103,7 +103,7 @@ using (Presentation presentation = new Presentation("DemoFile.pptx"))
     Format24bppRgb; // 24 bitar per pixel, RGB.
     Format32bppArgb; // 32 bitar per pixel, ARGB.
     */
-    // Spara presentationen som TIFF med angiven bildstorlek
+    // Spara presentationen till TIFF med angiven bildstorlek
     presentation.Save("Tiff_With_Custom_Image_Pixel_Format_out.tiff", SaveFormat.Tiff, options);
 }
 ```

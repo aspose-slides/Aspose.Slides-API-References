@@ -1,14 +1,14 @@
 ---
 title: SlidesAIAgentException
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงข้อยกเว้นที่เกี่ยวข้องกับ Slides AI Agent
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+description: แสดงถึงข้อยกเว้นที่เกี่ยวข้องกับ Slides AI Agent.
 type: docs
 weight: 80
 url: /th/aspose.slides.ai/slidesaiagentexception/
 ---
 ## SlidesAIAgentException คลาส
 
-แสดงถึงข้อยกเว้นที่เกี่ยวข้องกับ Slides AI Agent
+แสดงถึงข้อยกเว้นที่เกี่ยวข้องกับ Slides AI Agent.
 
 ```csharp
 public class SlidesAIAgentException : Exception
@@ -18,8 +18,8 @@ public class SlidesAIAgentException : Exception
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | คอนสตรัคเตอร์ที่อนุญาตให้ข้อความถูกเพิ่มลงในข้อยกเว้นนี้ |
-| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่ |
+| [SlidesAIAgentException](slidesaiagentexception#constructor)(string) | คอนสตรัคเตอร์ที่อนุญาตให้เพิ่มข้อความไปยังข้อยกเว้นนี้. |
+| [SlidesAIAgentException](slidesaiagentexception#constructor_1)(string, Exception) | คอนสตรัคเตอร์สำหรับข้อยกเว้นที่มีข้อความและข้อยกเว้นที่ฝังอยู่. |
 
 ### ดูเพิ่มเติม
 

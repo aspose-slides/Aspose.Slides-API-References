@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le proprietà del titolo del grafico.
 type: docs
-weight: 1890
+weight: 1910
 url: /it/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interfaccia
@@ -18,10 +18,10 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Restituisce IActualLayout interfaccia. |
-| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Consente di ottenere la base ILayoutable interfaccia. Solo lettura [`ILayoutable`](../ilayoutable). |
-| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Restituisce il formato di un'area del grafico. Solo lettura [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico al suo interno (senza includere gli assi e le etichette degli assi) o all'esterno (includendo gli assi e le etichette degli assi). Lettura/scrittura [`LayoutTargetType`](./layouttargettype). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Restituisce l'interfaccia IActualLayout. |
+| [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Consente di ottenere l'interfaccia base ILayoutable. Sola lettura [`ILayoutable`](../ilayoutable). |
+| [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Restituisce il formato di un'area del grafico. Sola lettura [`IFormat`](../iformat). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico al suo interno (escludendo gli assi e le etichette degli assi) o all'esterno (includendo gli assi e le etichette degli assi). Lettura/Scrittura [`LayoutTargetType`](./layouttargettype). |
 
 ### Vedi anche
 

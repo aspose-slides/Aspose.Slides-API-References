@@ -1,14 +1,14 @@
 ---
 title: LineSketchType
-second_title: Aspose.Sildes の .NET API リファレンス
-description: シェイプに割り当てられたスケッチタイプまたは効果を表します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: シェイプに割り当てられたスケッチタイプまたはエフェクトを表します。
 type: docs
-weight: 7790
+weight: 7810
 url: /ja/aspose.slides/linesketchtype/
 ---
-## LineSketchType 列挙型
+## LineSketchType 列挙体
 
-シェイプに割り当てられたスケッチのタイプまたは効果を表します。
+シェイプに割り当てられたスケッチタイプまたはエフェクトを表します。
 
 ```csharp
 public enum LineSketchType
@@ -18,11 +18,11 @@ public enum LineSketchType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| NotDefined | `-1` | シェイプの Sketch 効果が未定義であることを指定します。 |
-| None | `0` | シェイプに Sketch 効果がないことを指定します。このプロパティが空であるのと同等です。 |
-| Curved | `1` | シェイプに Curved 効果があることを指定します。この効果はシェイプの各エッジを1つの大きくやさしい曲線に変えます。 |
-| Freehand | `2` | シェイプに Freehand 効果があることを指定します。この効果は、最も不完全に描かれた線に近いものです。 |
-| Scribble | `3` | シェイプに Scribble 効果があることを指定します。この効果は、意図的に乱雑に描かれたかのように誇張された振動があります。 |
+| NotDefined | `-1` | シェイプの Sketch エフェクトが未定義であることを指定します。 |
+| None | `0` | シェイプに Sketch エフェクトがないことを指定します。このプロパティが空であることと同等です。 |
+| Curved | `1` | シェイプに Curved エフェクトがあることを指定します。このエフェクトはシェイプの各エッジを大きく緩やかな曲線に変換します。 |
+| Freehand | `2` | シェイプに Freehand エフェクトがあることを指定します。このエフェクトは最も不完全に描かれた線に近い外観です。 |
+| Scribble | `3` | シェイプに Scribble エフェクトがあることを指定します。このエフェクトは意図的に乱雑に描かれたかのように、誇張された揺れを持ちます。 |
 
 ### 参照
 

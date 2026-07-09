@@ -1,9 +1,9 @@
 ---
 title: MathRadicalFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET API Reference
 description: Consente di creare un radicale matematico
 type: docs
-weight: 8930
+weight: 8950
 url: /it/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory classe

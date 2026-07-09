@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes .NET API Referencia
-description: Módosíthatatlan objektum, amely egy BrightnessContrast hatást képvisel. Állítja a fényerőt és a kontrasztot
+second_title: Aspose.Sildes .NET API referenciája
+description: Változtathatatlan objektum, amely egy BrightnessContrast effektust képvisel. Állítja a fényerőt és a kontrasztot.
 type: docs
-weight: 3190
+weight: 3210
 url: /hu/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData interfész
 
-Módosíthatatlan objektum, amely egy BrightnessContrast hatást képvisel. Állítja a fényerőt és a kontrasztot
+Változtathatatlan objektum, amely egy BrightnessContrast effektust képvisel. Állítja a fényerőt és a kontrasztot
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
@@ -16,7 +16,7 @@ public interface IBrightnessContrastEffectiveData : IEffectEffectiveData
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
 | [Brightness](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/brightness) { get; } | Visszaadja a fényerőt. Csak olvasható Single. |
 | [Contrast](../../aspose.slides.effects/ibrightnesscontrasteffectivedata/contrast) { get; } | Visszaadja a kontrasztot. Csak olvasható Single. |

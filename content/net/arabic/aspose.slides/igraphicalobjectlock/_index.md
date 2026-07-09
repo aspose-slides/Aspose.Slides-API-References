@@ -1,7 +1,7 @@
 ---
 title: IGraphicalObjectLock
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يحدد العمليات التي تم تعطيلها على الكائن الأب GraphicalObjectEx.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد العمليات التي تم تعطيلها على الكائن الأب GraphualObjectEx.
 type: docs
 weight: 6070
 url: /ar/aspose.slides/igraphicalobjectlock/
@@ -18,13 +18,13 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | يسمح بالحصول على واجهة IBaseShapeLock الأساسية. قراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة الأبعاد عند تغيير الحجم. قراءة/كتابة منطقي. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | يحدد ما إذا كان اختيار الأشكال الفرعية لهذا الكائن محظورًا. قراءة/كتابة منطقي. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورًا. قراءة/كتابة منطقي. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | يحدد ما إذا كان نقل هذا الشكل محظورًا. قراءة/كتابة منطقي. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | يحدد ما إذا كان اختيار هذا الشكل محظورًا. قراءة/كتابة منطقي. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | يحدد ما إذا كان تعديل حجم هذا الشكل محظورًا. قراءة/كتابة منطقي. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | يسمح بالحصول على واجهة IBaseShapeLock الأساسية. للقراءة فقط [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | يحدد ما إذا كان يجب على الشكل الحفاظ على نسبة الأبعاد عند تغيير الحجم. قابل للقراءة والكتابة من نوع Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | يحدد ما إذا كان اختيار الأشكال الفرعية لهذا الكائن محظورًا. قابل للقراءة والكتابة من نوع Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | يحدد ما إذا كان إضافة هذا الشكل إلى مجموعة محظورًا. قابل للقراءة والكتابة من نوع Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | يحدد ما إذا كان نقل هذا الشكل محظورًا. قابل للقراءة والكتابة من نوع Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | يحدد ما إذا كان اختيار هذا الشكل محظورًا. قابل للقراءة والكتابة من نوع Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | يحدد ما إذا كان تغيير حجم هذا الشكل محظورًا. قابل للقراءة والكتابة من نوع Boolean. |
 
 ### انظر أيضًا
 

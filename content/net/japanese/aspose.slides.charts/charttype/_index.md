@@ -3,10 +3,10 @@ title: ChartType
 second_title: Aspose.Sildes for .NET API リファレンス
 description: チャートの種類を表します。
 type: docs
-weight: 1480
+weight: 1500
 url: /ja/aspose.slides.charts/charttype/
 ---
-## ChartType 列挙型
+## ChartType 列挙体
 
 チャートの種類を表します。
 
@@ -18,88 +18,88 @@ public enum ChartType
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| ClusteredColumn | `0` | クラスター化された縦棒グラフを表します。 |
-| StackedColumn | `1` | 積み上げ縦棒グラフを表します。 |
-| PercentsStackedColumn | `2` | 100% 積み上げ縦棒グラフを表します。 |
-| ClusteredColumn3D | `3` | 3D クラスター化された縦棒グラフを表します。 |
-| StackedColumn3D | `4` | 3D 積み上げ縦棒グラフを表します。 |
-| PercentsStackedColumn3D | `5` | 3D 100% 積み上げ縦棒グラフを表します。 |
-| Column3D | `6` | 3D 縦棒グラフを表します。 |
-| ClusteredCylinder | `7` | クラスター化シリンダーチャートを表します。 |
-| StackedCylinder | `8` | 積み上げシリンダーチャートを表します。 |
-| PercentsStackedCylinder | `9` | 100% 積み上げシリンダーチャートを表します。 |
-| Cylinder3D | `10` | 3D シリンダー縦棒グラフを表します。 |
-| ClusteredCone | `11` | クラスター化円錐チャートを表します。 |
-| StackedCone | `12` | 積み上げ円錐チャートを表します。 |
-| PercentsStackedCone | `13` | 100% 積み上げ円錐チャートを表します。 |
-| Cone3D | `14` | 3D 円錐チャートを表します。 |
-| ClusteredPyramid | `15` | クラスター化ピラミッドチャートを表します。 |
-| StackedPyramid | `16` | 積み上げピラミッドチャートを表します。 |
-| PercentsStackedPyramid | `17` | 100% 積み上げピラミッドチャートを表します。 |
-| Pyramid3D | `18` | 3D ピラミッド縦棒チャートを表します。 |
-| Line | `19` | 折れ線グラフを表します。 |
-| StackedLine | `20` | 積み上げ折れ線グラフを表します。 |
-| PercentsStackedLine | `21` | 100% 積み上げ折れ線グラフを表します。 |
-| LineWithMarkers | `22` | データ マーカー付き折れ線グラフを表します。 |
-| StackedLineWithMarkers | `23` | データ マーカー付き積み上げ折れ線グラフを表します。 |
-| PercentsStackedLineWithMarkers | `24` | データ マーカー付き 100% 積み上げ折れ線グラフを表します。 |
-| Line3D | `25` | 3D 折れ線グラフを表します。 |
-| Pie | `26` | 円グラフを表します。 |
-| Pie3D | `27` | 3D 円グラフを表します。 |
-| PieOfPie | `28` | パイ・オブ・パイ グラフを表します。 |
-| ExplodedPie | `29` | 爆発円グラフを表します。 |
-| ExplodedPie3D | `30` | 3D 爆発円グラフを表します。 |
-| BarOfPie | `31` | パイ・オブ・バー グラフを表します。 |
-| PercentsStackedBar | `32` | 100% 積み上げ棒グラフを表します。 |
-| ClusteredBar3D | `33` | 3D クラスター化棒グラフを表します。 |
-| ClusteredBar | `34` | クラスター化棒グラフを表します。 |
-| StackedBar | `35` | 積み上げ棒グラフを表します。 |
-| StackedBar3D | `36` | 3D 積み上げ棒グラフを表します。 |
-| PercentsStackedBar3D | `37` | 3D 100% 積み上げ棒グラフを表します。 |
-| ClusteredHorizontalCylinder | `38` | シリンダー形横棒グラフを表します。 |
-| StackedHorizontalCylinder | `39` | 積み上げシリンダー形横棒グラフを表します。 |
-| PercentsStackedHorizontalCylinder | `40` | 100% 積み上げシリンダー形横棒グラフを表します。 |
-| ClusteredHorizontalCone | `41` | 円錐形横棒グラフを表します。 |
-| StackedHorizontalCone | `42` | 積み上げ円錐形横棒グラフを表します。 |
-| PercentsStackedHorizontalCone | `43` | 100% 積み上げ円錐形横棒グラフを表します。 |
-| ClusteredHorizontalPyramid | `44` | ピラミッド形横棒グラフを表します。 |
-| StackedHorizontalPyramid | `45` | 積み上げピラミッド形横棒グラフを表します。 |
-| PercentsStackedHorizontalPyramid | `46` | 100% 積み上げピラミッド形横棒グラフを表します。 |
-| Area | `47` | 面グラフを表します。 |
-| StackedArea | `48` | 積み上げ面グラフを表します。 |
-| PercentsStackedArea | `49` | 100% 積み上げ面グラフを表します。 |
-| Area3D | `50` | 3D 面グラフを表します。 |
-| StackedArea3D | `51` | 3D 積み上げ面グラフを表します。 |
-| PercentsStackedArea3D | `52` | 3D 100% 積み上げ面グラフを表します。 |
-| ScatterWithMarkers | `53` | マーカー付き散布図を表します。 |
-| ScatterWithSmoothLinesAndMarkers | `54` | 曲線で接続されたマーカー付き散布図を表します。 |
-| ScatterWithSmoothLines | `55` | 曲線で接続された散布図を表します。 |
-| ScatterWithStraightLinesAndMarkers | `56` | 直線で接続されたマーカー付き散布図を表します。 |
-| ScatterWithStraightLines | `57` | 直線で接続された散布図を表します。 |
-| HighLowClose | `58` | 高低終値株価チャートを表します。 |
-| OpenHighLowClose | `59` | 始値高低終値株価チャートを表します。 |
-| VolumeHighLowClose | `60` | ボリューム付き高低終値株価チャートを表します。 |
-| VolumeOpenHighLowClose | `61` | ボリューム付き始値高低終値株価チャートを表します。 |
-| Surface3D | `62` | 3D サーフェスチャートを表します。 |
-| WireframeSurface3D | `63` | ワイヤーフレーム 3D サーフェスチャートを表します。 |
-| Contour | `64` | 等高線チャートを表します。 |
-| WireframeContour | `65` | ワイヤーフレーム等高線チャートを表します。 |
-| Doughnut | `66` | ドーナツチャートを表します。 |
-| ExplodedDoughnut | `67` | 爆発ドーナツチャートを表します。 |
-| Bubble | `68` | バブルチャートを表します。 |
-| BubbleWith3D | `69` | 3D バブルチャートを表します。 |
-| Radar | `70` | レーダーチャートを表します。 |
-| RadarWithMarkers | `71` | マーカー付きレーダーチャートを表します。 |
-| FilledRadar | `72` | 塗りつぶしレーダーチャートを表します。 |
-| SeriesOfMixedTypes | `73` | この値は ChartEx.Type プロパティによってのみ返されます。チャートに混合タイプの系列が含まれることを意味します。 |
-| Treemap | `74` | ツリーマップチャートを表します。 |
-| Sunburst | `75` | サンバーストチャートを表します。 |
-| Histogram | `76` | ヒストグラムチャートを表します。 |
-| ParetoLine | `77` | パレート線系列タイプ（ヒストグラム パレート チャート）を表します。 |
-| BoxAndWhisker | `78` | ボックス・アンド・ウィスカーチャートを表します。 |
-| Waterfall | `79` | ウォーターフォールチャートを表します。 |
-| Funnel | `80` | ファンネルチャートを表します。 |
-| Map | `81` | マップチャートを表します。 |
+| ClusteredColumn | `0` | Clustered Column Chart を表します。 |
+| StackedColumn | `1` | Stacked Column Chart を表します。 |
+| PercentsStackedColumn | `2` | 100% Stacked Column Chart を表します。 |
+| ClusteredColumn3D | `3` | 3D Colustered Column Chart を表します。 |
+| StackedColumn3D | `4` | 3D Stacked Column Chart を表します。 |
+| PercentsStackedColumn3D | `5` | 3D 100% Stacked Column Chart を表します。 |
+| Column3D | `6` | 3D Column Chart を表します。 |
+| ClusteredCylinder | `7` | Cylinder Chart を表します。 |
+| StackedCylinder | `8` | Stacked Cylinder Chart を表します。 |
+| PercentsStackedCylinder | `9` | 100% Stacked Cylinder Chart を表します。 |
+| Cylinder3D | `10` | 3D Cylindrical Column Chart を表します。 |
+| ClusteredCone | `11` | Cone Chart を表します。 |
+| StackedCone | `12` | Stacked Cone Chart を表します。 |
+| PercentsStackedCone | `13` | 100% Stacked Cone Chart を表します。 |
+| Cone3D | `14` | 3D Conical Column Chart を表します。 |
+| ClusteredPyramid | `15` | Pyramid Chart を表します。 |
+| StackedPyramid | `16` | Stacked Pyramid Chart を表します。 |
+| PercentsStackedPyramid | `17` | 100% Stacked Pyramid Chart を表します。 |
+| Pyramid3D | `18` | 3D Pyramid Column Chart を表します。 |
+| Line | `19` | Line Chart を表します。 |
+| StackedLine | `20` | Stacked Line Chart を表します。 |
+| PercentsStackedLine | `21` | 100% Stacked Line Chart を表します。 |
+| LineWithMarkers | `22` | データ マーカー付き Line Chart を表します。 |
+| StackedLineWithMarkers | `23` | データ マーカー付き Stacked Line Chart を表します。 |
+| PercentsStackedLineWithMarkers | `24` | データ マーカー付き 100% Stacked Line Chart を表します。 |
+| Line3D | `25` | 3D Line Chart を表します。 |
+| Pie | `26` | Pie Chart を表します。 |
+| Pie3D | `27` | 3D Pie Chart を表します。 |
+| PieOfPie | `28` | Pie of Pie Chart を表します。 |
+| ExplodedPie | `29` | Exploded Pie Chart を表します。 |
+| ExplodedPie3D | `30` | 3D Exploded Pie Chart を表します。 |
+| BarOfPie | `31` | Bar of Pie Chart を表します。 |
+| PercentsStackedBar | `32` | 100% Stacked Bar Chart を表します。 |
+| ClusteredBar3D | `33` | 3D Colustered Bar Chart を表します。 |
+| ClusteredBar | `34` | Clustered Bar Chart を表します。 |
+| StackedBar | `35` | Stacked Bar Chart を表します。 |
+| StackedBar3D | `36` | 3D Stacked Bar Chart を表します。 |
+| PercentsStackedBar3D | `37` | 3D 100% Stacked Bar Chart を表します。 |
+| ClusteredHorizontalCylinder | `38` | Cylindrical Bar Chart を表します。 |
+| StackedHorizontalCylinder | `39` | Stacked Cylindrical Bar Chart を表します。 |
+| PercentsStackedHorizontalCylinder | `40` | 100% Stacked Cylindrical Bar Chart を表します。 |
+| ClusteredHorizontalCone | `41` | Conical Bar Chart を表します。 |
+| StackedHorizontalCone | `42` | Stacked Conical Bar Chart を表します。 |
+| PercentsStackedHorizontalCone | `43` | 100% Stacked Conical Bar Chart を表します。 |
+| ClusteredHorizontalPyramid | `44` | Pyramid Bar Chart を表します。 |
+| StackedHorizontalPyramid | `45` | Stacked Pyramid Bar Chart を表します。 |
+| PercentsStackedHorizontalPyramid | `46` | 100% Stacked Pyramid Bar Chart を表します。 |
+| Area | `47` | Area Chart を表します。 |
+| StackedArea | `48` | Stacked Area Chart を表します。 |
+| PercentsStackedArea | `49` | 100% Stacked Area Chart を表します。 |
+| Area3D | `50` | 3D Area Chart を表します。 |
+| StackedArea3D | `51` | 3D Stacked Area Chart を表します。 |
+| PercentsStackedArea3D | `52` | 3D 100% Stacked Area Chart を表します。 |
+| ScatterWithMarkers | `53` | Scatter Chart を表します。 |
+| ScatterWithSmoothLinesAndMarkers | `54` | データ マーカー付き、曲線で接続された Scatter Chart を表します。 |
+| ScatterWithSmoothLines | `55` | 曲線で接続された Scatter Chart を表します。 |
+| ScatterWithStraightLinesAndMarkers | `56` | データ マーカー付き、直線で接続された Scatter Chart を表します。 |
+| ScatterWithStraightLines | `57` | 直線で接続された Scatter Chart を表します。 |
+| HighLowClose | `58` | High-Low-Close 株価チャート を表します。 |
+| OpenHighLowClose | `59` | Open-High-Low-Close 株価チャート を表します。 |
+| VolumeHighLowClose | `60` | Volume-High-Low-Close 株価チャート を表します。 |
+| VolumeOpenHighLowClose | `61` | Volume-Open-High-Low-Close 株価チャート を表します。 |
+| Surface3D | `62` | 3D Surface Chart を表します。 |
+| WireframeSurface3D | `63` | Wireframe 3D Surface Chart を表します。 |
+| Contour | `64` | Contour Chart を表します。 |
+| WireframeContour | `65` | Wireframe Contour Chart を表します。 |
+| Doughnut | `66` | Doughnut Chart を表します。 |
+| ExplodedDoughnut | `67` | Exploded Doughnut Chart を表します。 |
+| Bubble | `68` | Bubble Chart を表します。 |
+| BubbleWith3D | `69` | 3D Bubble Chart を表します。 |
+| Radar | `70` | Radar Chart を表します。 |
+| RadarWithMarkers | `71` | データ マーカー付き Radar Chart を表します。 |
+| FilledRadar | `72` | Filled Radar Chart を表します。 |
+| SeriesOfMixedTypes | `73` | この値は ChartEx.Type プロパティからのみ取得できます。これは、チャートに混合タイプの系列があることを意味します。 |
+| Treemap | `74` | Treemap chart を表します。 |
+| Sunburst | `75` | Sunburst chart を表します。 |
+| Histogram | `76` | Histogram chart を表します。 |
+| ParetoLine | `77` | Pareto line series type (Histogram Pareto chart) を表します。 |
+| BoxAndWhisker | `78` | BoxAndWhisker chart を表します。 |
+| Waterfall | `79` | Waterfall chart を表します。 |
+| Funnel | `80` | Funnel chart を表します。 |
+| Map | `81` | Map chart を表します。 |
 
 ### 参照
 

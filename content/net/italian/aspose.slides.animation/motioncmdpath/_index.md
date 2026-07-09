@@ -1,9 +1,9 @@
 ---
 title: MotionCmdPath
-second_title: Aspose.Sildes per il riferimento API .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un comando di un percorso.
 type: docs
-weight: 630
+weight: 650
 url: /it/aspose.slides.animation/motioncmdpath/
 ---
 ## MotionCmdPath classe
@@ -18,10 +18,10 @@ public class MotionCmdPath : IMotionCmdPath
 
 | Nome | Descrizione |
 | --- | --- |
-| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Specifica il tipo di comando. Lettura/Scrittura [`MotionCommandPathType`](../motioncommandpathtype). |
-| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Determina se le coordinate del comando sono relative o meno. Lettura/Scrittura Boolean. |
-| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Specifica i punti del comando. Lettura/Scrittura PointF[]. |
-| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Specifica il tipo di punti del comando. Lettura/Scrittura [`MotionPathPointsType`](../motionpathpointstype). |
+| [CommandType](../../aspose.slides.animation/motioncmdpath/commandtype) { get; set; } | Specifica il tipo di comando. Lettura/scrittura [`MotionCommandPathType`](../motioncommandpathtype). |
+| [IsRelative](../../aspose.slides.animation/motioncmdpath/isrelative) { get; set; } | Determina se le coordinate del comando sono relative o meno. Lettura/scrittura Boolean. |
+| [Points](../../aspose.slides.animation/motioncmdpath/points) { get; set; } | Specifica i punti del comando. Lettura/scrittura PointF[]. |
+| [PointsType](../../aspose.slides.animation/motioncmdpath/pointstype) { get; set; } | Specifica il tipo di punti del comando. Lettura/scrittura [`MotionPathPointsType`](../motionpathpointstype). |
 
 ### Vedi anche
 

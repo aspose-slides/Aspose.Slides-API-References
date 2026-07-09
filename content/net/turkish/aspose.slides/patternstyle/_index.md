@@ -1,12 +1,12 @@
 ---
 title: PatternStyle
-second_title: Aspose.Sildes for .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Desen stilini temsil eder.
 type: docs
-weight: 9340
+weight: 9360
 url: /tr/aspose.slides/patternstyle/
 ---
-## PatternStyle enum
+## PatternStyle enum'ı
 
 Desen stilini temsil eder.
 

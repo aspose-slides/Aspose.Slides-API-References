@@ -1,14 +1,14 @@
 ---
 title: Behavior
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het basisklassegedrag van een effect voor.
+description: Geeft het gedrag van de basisklasse van een effect weer.
 type: docs
 weight: 140
 url: /nl/aspose.slides.animation/behavior/
 ---
-## Gedrag klasse
+## Behavior klasse
 
-Stelt het basisklassengedrag van een effect voor.
+Geeft het gedrag van de basisklasse van een effect weer.
 
 ```csharp
 public abstract class Behavior : IBehavior
@@ -18,10 +18,10 @@ public abstract class Behavior : IBehavior
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatiegedragingen worden opgeteld. Lezen/Schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of het huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/Schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatiegedrag wordt opgeteld. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of het huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Geeft eigenschappen van gedrag weer. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timingeigenschappen voor het effectgedrag weer. Lezen/Schrijven [`ITiming`](../itiming). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timing-eigenschappen voor het effectgedrag weer. Lezen/schrijven [`ITiming`](../itiming). |
 
 ### Zie ook
 

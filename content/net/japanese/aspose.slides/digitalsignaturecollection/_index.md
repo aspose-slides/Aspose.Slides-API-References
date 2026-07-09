@@ -3,12 +3,12 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: ドキュメントに添付されたデジタル署名のコレクションを表します。
 type: docs
-weight: 2760
+weight: 2780
 url: /ja/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection クラス
 
-文書に添付されたデジタル署名のコレクションを表します。
+ドキュメントに添付されたデジタル署名のコレクションを表します。
 
 ```csharp
 public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSignatureCollection
@@ -18,10 +18,10 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 
 | 名前 | 説明 |
 | --- | --- |
-| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
-| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | インデックスによる署名を返します。 |
-| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 同期オブジェクトのルートを返します。読み取り専用 Object。 |
+| [Count](../../aspose.slides/digitalsignaturecollection/count) { get; } | コレクション内の要素数を返します。読み取り専用の Int32。 |
+| [IsSynchronized](../../aspose.slides/digitalsignaturecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用の Boolean。 |
+| [Item](../../aspose.slides/digitalsignaturecollection/item) { get; } | インデックスで署名を返します。 |
+| [SyncRoot](../../aspose.slides/digitalsignaturecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用の Object。 |
 
 ## メソッド
 
@@ -33,7 +33,7 @@ public class DigitalSignatureCollection : DomObject<Presentation>, IDigitalSigna
 | [GetEnumerator](../../aspose.slides/digitalsignaturecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 | [RemoveAt](../../aspose.slides/digitalsignaturecollection/removeat)(int) | 指定されたインデックスの署名を削除します。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../domobject-1)
 * クラス [Presentation](../presentation)

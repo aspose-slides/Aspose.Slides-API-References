@@ -1,14 +1,14 @@
 ---
 title: TileFlip
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Xác định chế độ lật ô.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Xác định chế độ lật tile.
 type: docs
 weight: 11500
 url: /vi/aspose.slides/tileflip/
 ---
-## Enum TileFlip
+## TileFlip liệt kê
 
-Xác định chế độ lật ô.
+Xác định chế độ lật tile.
 
 ```csharp
 public enum TileFlip

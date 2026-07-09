@@ -1,14 +1,14 @@
 ---
 title: Video
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một hình ảnh được nhúng vào bản trình chiếu.
+description: Đại diện cho một hình ảnh được nhúng vào bản trình bày.
 type: docs
 weight: 11700
 url: /vi/aspose.slides/video/
 ---
-## Video lớp
+## Lớp Video
 
-Biểu diễn một hình ảnh được nhúng vào bản trình chiếu.
+Đại diện cho một hình ảnh được nhúng vào bản trình bày.
 
 ```csharp
 public class Video : IVideo
@@ -18,14 +18,14 @@ public class Video : IVideo
 
 | Tên | Mô tả |
 | --- | --- |
-| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Trả về bản sao của dữ liệu âm thanh. Trong trường hợp dữ liệu lớn, hãy cân nhắc sử dụng phương pháp [`GetStream`](./getstream) để ngăn việc tải dữ liệu video không cần thiết vào bộ nhớ hoặc thậm chí gây ra OutOfMemoryException. Chỉ đọc Byte[]. |
-| [ContentType](../../aspose.slides/video/contenttype) { get; } | Trả về loại MIME của video, được mã hóa trong [`BinaryData`](./binarydata). Chỉ đọc String. |
+| [BinaryData](../../aspose.slides/video/binarydata) { get; } | Trả về bản sao của dữ liệu âm thanh. Trong trường hợp lượng dữ liệu lớn, hãy cân nhắc sử dụng phương thức [`GetStream`](./getstream) để ngăn việc tải dữ liệu video không cần thiết vào bộ nhớ hoặc thậm chí gây ra OutOfMemoryException. Chỉ đọc Byte[]. |
+| [ContentType](../../aspose.slides/video/contenttype) { get; } | Trả về kiểu MIME của video, được mã hoá trong [`BinaryData`](./binarydata). Chỉ đọc String. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetStream](../../aspose.slides/video/getstream)() | Trả về Stream stream để đọc. Sử dụng 'using' hoặc đóng stream sau khi sử dụng. |
+| [GetStream](../../aspose.slides/video/getstream)() | Trả về luồng Stream để đọc. Sử dụng 'using' hoặc đóng luồng sau khi sử dụng. |
 
 ### Xem thêm
 

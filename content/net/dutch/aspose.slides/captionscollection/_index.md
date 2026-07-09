@@ -1,14 +1,14 @@
 ---
 title: CaptionsCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een collectie van de gesloten ondertiteling voor.
+description: Stelt een verzameling van de gesloten ondertitels voor.
 type: docs
 weight: 1120
 url: /nl/aspose.slides/captionscollection/
 ---
 ## CaptionsCollection klasse
 
-Stelt een collectie van de gesloten ondertiteling voor.
+Stelt een collectie van de gesloten ondertitels voor.
 
 ```csharp
 public sealed class CaptionsCollection : ICaptionsCollection
@@ -19,18 +19,18 @@ public sealed class CaptionsCollection : ICaptionsCollection
 | Naam | Beschrijving |
 | --- | --- |
 | [Count](../../aspose.slides/captionscollection/count) { get; } | Retourneert het aantal elementen in de collectie. Alleen-lezen Int32. |
-| [Item](../../aspose.slides/captionscollection/item) { get; } | Retourneert de gesloten ondertiteling op de opgegeven index. Alleen-lezen [`ICaptions`](../icaptions). |
+| [Item](../../aspose.slides/captionscollection/item) { get; } | Retourneert de gesloten ondertitels op de opgegeven index. Alleen-lezen [`ICaptions`](../icaptions). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Voegt WebVTT gesloten ondertiteling toe aan het einde van de collectie vanuit een stream. |
-| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Voegt WebVTT gesloten ondertiteling toe aan het einde van de collectie. |
-| [Clear](../../aspose.slides/captionscollection/clear)() | Verwijdert alle gesloten ondertiteling uit de collectie. |
-| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
-| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Verwijdert de opgegeven gesloten ondertiteling uit de collectie. |
-| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Verwijdert de gesloten ondertiteling op de opgegeven index. |
+| [Add](../../aspose.slides/captionscollection/add#add)(string, Stream) | Voegt WebVTT gesloten ondertitels toe aan het einde van de collectie vanuit een stream. |
+| [Add](../../aspose.slides/captionscollection/add#add_1)(string, string) | Voegt WebVTT gesloten ondertitels toe aan het einde van de collectie. |
+| [Clear](../../aspose.slides/captionscollection/clear)() | Verwijdert alle gesloten ondertitels uit de collectie. |
+| [GetEnumerator](../../aspose.slides/captionscollection/getenumerator)() | Retourneert een enumerator die door de collectie iterert. |
+| [Remove](../../aspose.slides/captionscollection/remove)(ICaptions) | Verwijdert de opgegeven gesloten ondertitels uit de collectie. |
+| [RemoveAt](../../aspose.slides/captionscollection/removeat)(int) | Verwijdert de gesloten ondertitels op de opgegeven index. |
 
 ### Zie ook
 

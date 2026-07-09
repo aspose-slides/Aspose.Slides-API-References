@@ -1,20 +1,20 @@
 ---
 title: ISlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션 레이아웃 모드를 내보내기에 사용합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 내보내기를 위한 프레젠테이션 레이아웃 모드를 나타냅니다.
 type: docs
 weight: 4100
 url: /ko/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions 인터페이스
 
-프레젠테이션 레이아웃 모드를 내보내기에 사용합니다.
+프레젠테이션 레이아웃 모드를 내보내기 위해 나타냅니다.
 
 ```csharp
 public interface ISlidesLayoutOptions
 ```
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

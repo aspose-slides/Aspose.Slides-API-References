@@ -1,7 +1,7 @@
 ---
 title: IHtmlGenerator
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: HTML जेनरेटर।
+description: HTML जनरेटर।
 type: docs
 weight: 3960
 url: /hi/aspose.slides.export/ihtmlgenerator/
@@ -16,32 +16,32 @@ public interface IHtmlGenerator
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | वर्तमान स्लाइड के बाद रेंडर किए जाने वाले स्लाइड का इंडेक्स लौटाता है या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1। केवल पढ़ने योग्य Int32। |
-| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | पहले रेंडर किए गए स्लाइड का इंडेक्स लौटाता है या यदि यह पहला स्लाइड है तो -1। केवल पढ़ने योग्य Int32। |
-| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | स्लाइड इमेज आकार लौटाता है। केवल पढ़ने योग्य SizeF। |
-| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | स्लाइड इमेज आकार निर्दिष्ट करने वाली इकाई लौटाता है। केवल पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit)। |
-| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | इकाई के लिए CSS कोड लौटाता है। केवल पढ़ने योग्य String। |
-| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का इंडेक्स लौटाता है। केवल पढ़ने योग्य Int32। |
+| [NextSlideIndex](../../aspose.slides.export/ihtmlgenerator/nextslideindex) { get; } | वर्तमान स्लाइड के बाद रेंडर की जाएगी ऐसी स्लाइड का इंडेक्स लौटाता है या यदि वर्तमान में अंतिम स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32. |
+| [PreviousSlideIndex](../../aspose.slides.export/ihtmlgenerator/previousslideindex) { get; } | पहले रेंडर की गई स्लाइड का इंडेक्स लौटाता है या यदि पहली स्लाइड रेंडर हो रही है तो -1 लौटाता है। केवल पढ़ने योग्य Int32. |
+| [SlideImageSize](../../aspose.slides.export/ihtmlgenerator/slideimagesize) { get; } | स्लाइड छवि का आकार लौटाता है। केवल पढ़ने योग्य SizeF. |
+| [SlideImageSizeUnit](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunit) { get; } | स्लाइड छवि आकार को निर्दिष्ट करने वाली इकाई लौटाता है। केवल पढ़ने योग्य [`SvgCoordinateUnit`](../svgcoordinateunit). |
+| [SlideImageSizeUnitCode](../../aspose.slides.export/ihtmlgenerator/slideimagesizeunitcode) { get; } | स्लाइड छवि आकार को निर्दिष्ट करने वाली इकाई का CSS कोड लौटाता है। केवल पढ़ने योग्य String. |
+| [SlideIndex](../../aspose.slides.export/ihtmlgenerator/slideindex) { get; } | वर्तमान में रेंडर हो रही स्लाइड का इंडेक्स लौटाता है। केवल पढ़ने योग्य Int32. |
 
-## विधियाँ
+## विधियां
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | एट्रिब्यूट मान को उद्धृत करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | एट्रिब्यूट मान को उद्धृत करता है और इसे html फ़ाइल में जोड़ता है। |
-| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | एट्रिब्यूट मान को उद्धृत करता है और इसे html फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue)(char[]) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_2)(string) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
+| [AddAttributeValue](../../aspose.slides.export/ihtmlgenerator/addattributevalue#addattributevalue_1)(char[], int, int) | एट्रिब्यूट मान को उद्धरण में बंद करता है और इसे html फ़ाइल में जोड़ता है। |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml)(char[]) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_2)(string) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
 | [AddHtml](../../aspose.slides.export/ihtmlgenerator/addhtml#addhtml_1)(char[], int, int) | फ़ॉर्मेटेड HTML टेक्स्ट जोड़ता है। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | html फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष वर्णों को html एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | html फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष वर्णों को html एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
-| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | html फ़ाइलों में साधारण टेक्स्ट जोड़ता है, विशेष वर्णों को html एंटिटीज़ से बदलता है। लाइनब्रेक और व्हाइटस्पेस नहीं बदले जाते। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext)(char[]) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_2)(string) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
+| [AddText](../../aspose.slides.export/ihtmlgenerator/addtext#addtext_1)(char[], int, int) | HTML फ़ाइलों में सादा टेक्स्ट जोड़ता है, विशेष वर्णों को HTML एंटिटी से बदलते हुए। लाइनब्रेक और व्हाइटस्पेस बदले नहीं जाते। |
 
-### संबंधित देखें
+### देखें भी
 
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
+* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

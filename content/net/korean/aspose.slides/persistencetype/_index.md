@@ -1,6 +1,6 @@
 ---
 title: PersistenceType
-second_title: Aspose.Sildes .NET API 참조
+second_title: Aspose.Sildes for .NET API 참조
 description: ActiveX 컨트롤의 속성을 저장하는 데 사용되는 방법을 지정합니다.
 type: docs
 weight: 9370
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/persistencetype/
 ---
 ## PersistenceType 열거형
 
-ActiveX 컨트롤의 속성을 저장하는 데 사용되는 방법을 지정합니다.
+ActiveX 컨트롤의 속성을 저장하는 방법을 지정합니다.
 
 ```csharp
 public enum PersistenceType
@@ -18,13 +18,13 @@ public enum PersistenceType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| NotDefined | `-1` | Persistance ID가 지정되지 않았습니다. |
-| PersistPropertyBag | `0` | ActiveX 컨트롤이 property-bag 기반 지속성을 사용하여 영구 저장됨을 지정합니다. property-bag 기반 지속성은 이름과 값 쌍의 컬렉션을 통해 ActiveX 컨트롤이 영구 저장하는 데이터를 지정합니다. |
-| PersistStream | `1` | ActiveX 컨트롤이 기본 상태로 초기화하는 것을 지원하지 않는 stream 기반 지속성을 사용하여 영구 저장됨을 지정합니다. |
-| PersistStreamInit | `2` | ActiveX 컨트롤이 기본 상태로 초기화하는 것을 지원하는 stream 기반 지속성을 사용하여 영구 저장됨을 지정합니다. |
-| PersistStorage | `3` | ActiveX 컨트롤이 storage 기반 지속성을 사용하여 영구 저장됨을 지정합니다. |
+| NotDefined | `-1` | 지속성 ID가 지정되지 않았습니다. |
+| PersistPropertyBag | `0` | ActiveX 컨트롤이 프로퍼티 백 기반 지속성을 사용하여 저장됩니다. 프로퍼티 백 기반 지속성은 이름 및 값 쌍 컬렉션을 통해 ActiveX 컨트롤이 저장하는 데이터를 지정합니다. |
+| PersistStream | `1` | ActiveX 컨트롤이 스트림 기반 지속성을 사용하여 저장되며, 기본 상태로 초기화하는 것을 지원하지 않습니다. |
+| PersistStreamInit | `2` | ActiveX 컨트롤이 스트림 기반 지속성을 사용하여 저장되며, 기본 상태로 초기화하는 것을 지원합니다. |
+| PersistStorage | `3` | ActiveX 컨트롤이 스토리지 기반 지속성을 사용하여 저장됩니다. |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

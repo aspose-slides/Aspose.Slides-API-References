@@ -1,14 +1,14 @@
 ---
 title: ISlideImageFormat
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Καθορίζει τη μορφή στην οποία θα αποθηκευτεί η εικόνα της διαφάνειας για παρουσίαση στην εξαγωγή HTML.
+second_title: Aspose.Sildes για .NET αναφορά API
+description: Καθορίζει τη μορφή στην οποία θα αποθηκευθεί η εικόνα της διαφάνειας για εξαγωγή παρουσίασης σε HTML.
 type: docs
-weight: 4070
+weight: 4090
 url: /el/aspose.slides.export/islideimageformat/
 ---
-## ISlideImageFormat διεπαφή
+## ISlideImageFormat διασύνδεση
 
-Καθορίζει τη μορφή στην οποία θα αποθηκευτεί η εικόνα της διαφάνειας για παρουσίαση στην εξαγωγή HTML.
+Καθορίζει τη μορφή στην οποία θα αποθηκευθεί η εικόνα της διαφάνειας για εξαγωγή παρουσίασης σε HTML.
 
 ```csharp
 public interface ISlideImageFormat

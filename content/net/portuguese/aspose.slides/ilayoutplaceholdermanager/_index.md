@@ -1,9 +1,9 @@
 ---
 title: ILayoutPlaceholderManager
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o gerenciador que permite adicionar marcadores de posição ao slide de layout.
 type: docs
-weight: 6190
+weight: 6210
 url: /pt/aspose.slides/ilayoutplaceholdermanager/
 ---
 ## ILayoutPlaceholderManager interface
@@ -29,7 +29,7 @@ public interface ILayoutPlaceholderManager
 | [AddVerticalContentPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticalcontentplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo, como uma imagem, tabela, mídia ou texto, em direção vertical. |
 | [AddVerticalTextPlaceholder](../../aspose.slides/ilayoutplaceholdermanager/addverticaltextplaceholder)(float, float, float, float) | Adiciona uma nova forma de marcador de posição ao slide de layout para conter conteúdo de texto em direção vertical. |
 
-### Ver Também
+### Veja também
 
 * namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

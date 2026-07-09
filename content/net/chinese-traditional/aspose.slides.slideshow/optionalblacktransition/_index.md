@@ -1,14 +1,14 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Sildes for .NET API 參考文件
-description: 可選的黑色投影片過渡效果。
+second_title: Aspose.Sildes for .NET API 參考
+description: 可選的黑色幻燈片過渡效果。
 type: docs
 weight: 10260
 url: /zh-hant/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition 類別
 
-Optional black slide transition effect.
+可選黑色幻燈片過渡效果。
 
 ```csharp
 public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransition
@@ -16,16 +16,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此屬性指定過渡是否會從黑色畫面開始（然後在黑色上過渡新投影片）。讀寫 Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | 此屬性指定過渡是否從黑色畫面開始（然後在黑色上過渡到新幻燈片）。讀/寫 Boolean。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 判斷兩個 TransitionValueBase 實例是否相等。 |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法和像雜湊表之類的資料結構。 |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 決定兩個 TransitionValueBase 實例是否相等。 |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 作為特定類型的雜湊函式，可用於雜湊演算法和像雜湊表之類的資料結構。 |
 
 ### 另請參閱
 

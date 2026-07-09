@@ -1,14 +1,14 @@
 ---
 title: FlyThroughTransition
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Fly-through dia overgangseffect.
+description: Fly-through dia-overgangseffect.
 type: docs
 weight: 10040
 url: /nl/aspose.slides.slideshow/flythroughtransition/
 ---
 ## FlyThroughTransition klasse
 
-Fly-through dia overgangseffect.
+Fly-through dia-overgangseffect.
 
 ```csharp
 public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
@@ -19,14 +19,14 @@ public class FlyThroughTransition : TransitionValueBase, IFlyThroughTransition
 | Naam | Beschrijving |
 | --- | --- |
 | [Direction](../../aspose.slides.slideshow/flythroughtransition/direction) { get; set; } | Richting van de overgang. Lezen/schrijven [`TransitionInOutDirectionType`](../transitioninoutdirectiontype). |
-| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Specificeert dat de beweging van de presentatiedia's tijdens de overgang een stuiter omvat. Lezen/schrijven Boolean. |
+| [HasBounce](../../aspose.slides.slideshow/flythroughtransition/hasbounce) { get; set; } | Geeft aan dat de beweging van de presentatieslides tijdens de overgang een veerbeweging bevat. Lezen/schrijven Boolean. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | Bepaalt of de twee TransitionValueBase-instanties gelijk zijn. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als een hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hash-tabel. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Dient als hash-functie voor een bepaald type, geschikt voor gebruik in hash-algoritmen en datastructuren zoals een hashtabel. |
 
 ### Zie ook
 

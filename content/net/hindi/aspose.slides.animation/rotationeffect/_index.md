@@ -1,12 +1,12 @@
 ---
 title: RotationEffect
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: इफ़ेक्ट के घूर्णन व्यवहार को दर्शाता है।
 type: docs
 weight: 770
 url: /hi/aspose.slides.animation/rotationeffect/
 ---
-## RotationEffect क्लास
+## RotationEffect वर्ग
 
 इफ़ेक्ट के घूर्णन व्यवहार को दर्शाता है।
 
@@ -14,27 +14,27 @@ url: /hi/aspose.slides.animation/rotationeffect/
 public class RotationEffect : Behavior, IRotationEffect
 ```
 
-## कन्स्ट्रक्टर्स
+## कंस्ट्रक्टर्स
 
 | नाम | विवरण |
 | --- | --- |
-| [RotationEffect](rotationeffect)() | डिफ़ॉल्ट निर्माणकर्ता। |
+| [RotationEffect](rotationeffect)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
-## गुण
+## प्रॉपर्टीज़
 
 | नाम | विवरण |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | एनीमेशन व्यवहार संचित हैं या नहीं, इसे दर्शाता है। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | वर्तमान एनीमेशन व्यवहार अन्य चल रहे एनीमेशन के साथ संयुक्त है या नहीं, इसे दर्शाता है। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype)। |
-| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | एनीमेशन के लिए सापेक्ष ऑफ़सेट मान का वर्णन करता है। पढ़ें/लिखें Single। |
-| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | एनीमेशन के लिए प्रारंभिक मान का वर्णन करता है। पढ़ें/लिखें Single। |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | व्यवहार की गुणधर्मों को दर्शाता है। केवल-पढ़ें [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)। |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | इफ़ेक्ट व्यवहार के समय गुणधर्मों को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming)। |
-| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | एनीमेशन के समाप्ति मान का वर्णन करता है। पढ़ें/लिखें Single। |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | यह दर्शाता है कि क्या एनिमेशन बिहेवियर्स संचित हैं। पढ़ें/लिखें [`NullableBool`](../../aspose.slides/nullablebool)। |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | यह दर्शाता है कि क्या वर्तमान एनिमेशन बिहेवियर अन्य चल रही एनिमेशनों के साथ संयुक्त है। पढ़ें/लिखें [`BehaviorAdditiveType`](../behavioradditivetype)। |
+| [By](../../aspose.slides.animation/rotationeffect/by) { get; set; } | एनिमेशन के लिए सापेक्ष ऑफसेट मान का वर्णन करता है। पढ़ें/लिखें Single। |
+| [From](../../aspose.slides.animation/rotationeffect/from) { get; set; } | एनिमेशन के लिए प्रारम्भिक मान का वर्णन करता है। पढ़ें/लिखें Single। |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | यह बिहेवियर की प्रॉपर्टी को दर्शाता है। केवल-पढ़ने योग्य [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection)। |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | यह इफेक्ट बिहेवियर के समय संबंधी प्रॉपर्टी को दर्शाता है। पढ़ें/लिखें [`ITiming`](../itiming)। |
+| [To](../../aspose.slides.animation/rotationeffect/to) { get; set; } | एनिमेशन के लिए अन्तिम मान का वर्णन करता है। पढ़ें/लिखें Single। |
 
 ### देखें
 
-* क्लास [Behavior](../behavior)
+* वर्ग [Behavior](../behavior)
 * इंटरफ़ेस [IRotationEffect](../irotationeffect)
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

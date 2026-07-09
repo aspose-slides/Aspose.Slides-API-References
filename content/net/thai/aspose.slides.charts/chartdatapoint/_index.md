@@ -1,14 +1,14 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงจุดข้อมูลของชุด
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แทนค่าจุดข้อมูลของชุด
 type: docs
 weight: 1330
 url: /th/aspose.slides.charts/chartdatapoint/
 ---
 ## ChartDataPoint คลาส
 
-แสดงชุดข้อมูลจุด.
+แทนค่าจุดข้อมูลของชุด
 
 ```csharp
 public class ChartDataPoint : IChartDataPoint
@@ -18,24 +18,24 @@ public class ChartDataPoint : IChartDataPoint
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | ระบุตำแหน่ง x (ซ้าย) จริงขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
-| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแผนภูมิเกี่ยวกับมุมซ้ายบนของแผนภูมิ. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualHeight](../../aspose.slides.charts/chartdatapoint/actualheight) { get; } | ระบุความสูงจริงขององค์ประกอบแชต. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualWidth](../../aspose.slides.charts/chartdatapoint/actualwidth) { get; } | ระบุความกว้างจริงขององค์ประกอบแชต. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualX](../../aspose.slides.charts/chartdatapoint/actualx) { get; } | ระบุตำแหน่ง x (ซ้าย) จริงขององค์ประกอบแชตเทียบกับมุมซ้ายบนของแชต. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
+| [ActualY](../../aspose.slides.charts/chartdatapoint/actualy) { get; } | ระบุตำแหน่งบนจริงขององค์ประกอบแชตเทียบกับมุมซ้ายบนของแชต. เรียกเมธอด IChart.ValidateChartLayout() ก่อนเพื่อรับค่าจริง. อ่าน Single. |
 | [BubbleSize](../../aspose.slides.charts/chartdatapoint/bubblesize) { get; } | BubbleSize. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | ส่งคืนค่าสีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | ส่งคืนคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับชุดข้อมูล Treeamp และ Sunburst. การจัดทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | แสดงค่าบาร์ความคลาดเคลื่อนของชุดในกรณีค่าแบบ Custom. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | ระบุระยะที่จุดข้อมูลจะถูกย้ายออกจากจุดศูนย์กลางของพาย. อ่าน/เขียน Int32. |
+| [ColorValue](../../aspose.slides.charts/chartdatapoint/colorvalue) { get; } | คืนค่าเฉดสีของจุดข้อมูลแชต. ใช้กับแชตแผนที่. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/chartdatapoint/datapointlevels) { get; } | คืนคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับชุด Treeamp และ Sunburst. การจัดทำดัชนีระดับจุดข้อมูลเริ่มจากศูนย์. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/chartdatapoint/errorbarscustomvalues) { get; } | แสดงค่าบาร์ความผิดพลาดของชุดในกรณีประเภทค่า Custom. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/chartdatapoint/explosion) { get; set; } | ระบุปริมาณที่จุดข้อมูลจะถูกย้ายจากจุดกึ่งกลางของพาย. อ่าน/เขียน Int32. |
 | [Format](../../aspose.slides.charts/chartdatapoint/format) { get; set; } | แสดงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน [`IFormat`](../iformat). |
 | [Index](../../aspose.slides.charts/chartdatapoint/index) { get; } |  |
-| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | ระบุว่าจุดข้อมูลจะสลับสีเมื่อค่ามีค่าลบ. อ่าน/เขียน Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | ระบุว่าฟองอากาศมีเอฟเฟกต์ 3-D ถูกนำไปใช้. อ่าน/เขียน Boolean. |
-| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | ป้ายกำกับ. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
+| [InvertIfNegative](../../aspose.slides.charts/chartdatapoint/invertifnegative) { get; set; } | ระบุว่าจุดข้อมูลจะกลับสีหากค่าเป็นลบ. อ่าน/เขียน Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/chartdatapoint/isbubble3d) { get; set; } | ระบุว่าฟองควรมีเอฟเฟกต์ 3-D ถูกนำไปใช้. อ่าน/เขียน Boolean. |
+| [Label](../../aspose.slides.charts/chartdatapoint/label) { get; } | ป้ายชื่อ. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/chartdatapoint/marker) { get; } | ระบุมาร์คเกอร์ข้อมูล. อ่านอย่างเดียว [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | คุณสมบัติของรายการคำอธิบายที่สอดคล้องในกรณีประเภทแผนภูมิจากรายการนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | ตั้งค่าจุดข้อมูลเป็นผลรวม. ใช้กับประเภทชุดข้อมูล Waterfall เท่านั้น. |
-| [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | ส่งคืนค่าขนาดของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิ Treemap และ Sunburst. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [RelatedLegendEntry](../../aspose.slides.charts/chartdatapoint/relatedlegendentry) { get; } | คุณสมบัติของรายการคำอธิบายที่สอดคล้องกันในกรณีประเภทแชตจากรายการต่อไปนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/chartdatapoint/setastotal) { get; set; } | ตั้งค่าจุดข้อมูลเป็นยอดรวม. ใช้เฉพาะชุด Waterfall เท่านั้น. |
+| [SizeValue](../../aspose.slides.charts/chartdatapoint/sizevalue) { get; } | คืนค่าขนาดของจุดข้อมูลแชต. ใช้กับแชต Treemap และ Sunburst. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
 | [Value](../../aspose.slides.charts/chartdatapoint/value) { get; } | ค่า. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
 | [XValue](../../aspose.slides.charts/chartdatapoint/xvalue) { get; } | XValue. อ่านอย่างเดียว [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
 | [YValue](../../aspose.slides.charts/chartdatapoint/yvalue) { get; } | YValue. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
@@ -44,13 +44,13 @@ public class ChartDataPoint : IChartDataPoint
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | ส่งคืนสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีชุด, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ. สีนี้จะใช้เป็นค่าเริ่มต้นหาก FillType เท่ากับ NotDefined. |
-| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | ลบ DataPoint จากชุดข้อมูลแผนภูมิ. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | คืนค่าสีอัตโนมัติของจุดข้อมูลตามดัชนีชุด, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แชต. สีกำหนดนี้จะใช้เป็นค่าเริ่มต้นหาก FillType เท่ากับ NotDefined. |
+| [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | ลบ DataPoint ออกจากชุดแชต. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IChartDataPoint](../ichartdatapoint)
-* เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
-* แอสเซมบลี [Aspose.Slides](../../)
+* interface [IChartDataPoint](../ichartdatapoint)
+* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

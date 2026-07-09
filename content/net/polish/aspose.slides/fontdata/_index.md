@@ -1,9 +1,9 @@
 ---
 title: FontData
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET – referencja API
 description: Reprezentuje definicję czcionki. Niezmienny.
 type: docs
-weight: 4800
+weight: 4820
 url: /pl/aspose.slides/fontdata/
 ---
 ## FontData klasa
@@ -18,7 +18,7 @@ public sealed class FontData : IFontData
 
 | Nazwa | Opis |
 | --- | --- |
-| [FontData](fontdata)(string) | Tworzy nowy obiekt FontData z podaną nazwą czcionki. |
+| [FontData](fontdata)(string) | Tworzy nowy obiekt FontData o podanej nazwie czcionki. |
 
 ## Właściwości
 
@@ -30,9 +30,9 @@ public sealed class FontData : IFontData
 
 | Nazwa | Opis |
 | --- | --- |
-| override [Equals](../../aspose.slides/fontdata/equals)(object) | Określa, czy dwa obiekty FontData są równe. |
-| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Zwraca nazwę czcionki, zastępując odwołanie do motywu faktycznie używaną czcionką. |
-| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, odpowiednia do użycia w algorytmach hashujących i strukturach danych, takich jak tablica mieszająca. |
+| override [Equals](../../aspose.slides/fontdata/equals)(object) | Określa, czy dwie instancje FontData są równe. |
+| [GetFontName](../../aspose.slides/fontdata/getfontname)(IThemeEffectiveData) | Zwraca nazwę czcionki, zastępując odwołanie do motywu rzeczywistą używaną czcionką. |
+| override [GetHashCode](../../aspose.slides/fontdata/gethashcode)() | Służy jako funkcja skrótu dla określonego typu, nadająca się do użycia w algorytmach haszowania i strukturach danych, takich jak tabela skrótów. |
 | override [ToString](../../aspose.slides/fontdata/tostring)() | Zwraca reprezentację jako ciąg znaków. |
 
 ### Zobacz także

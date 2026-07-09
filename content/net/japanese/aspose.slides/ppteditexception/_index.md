@@ -1,14 +1,14 @@
 ---
 title: PptEditException
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションの編集エラーが検出されたときにスローされる例外を表します。
+description: 編集プレゼンテーションエラーが検出されたときにスローされる例外を表します。
 type: docs
-weight: 9490
+weight: 9510
 url: /ja/aspose.slides/ppteditexception/
 ---
 ## PptEditException クラス
 
-プレゼンテーションの編集エラーが検出されたときにスローされる例外を表します。
+編集プレゼンテーションエラーが検出されたときにスローされる例外を表します。
 
 ```csharp
 public class PptEditException : PptException
@@ -18,9 +18,9 @@ public class PptEditException : PptException
 
 | 名前 | 説明 |
 | --- | --- |
-| [PptEditException](ppteditexception#constructor)() | デフォルトコンストラクタ。 |
+| [PptEditException](ppteditexception#constructor)() | 既定のコンストラクタ。 |
 | [PptEditException](ppteditexception#constructor_1)(string) | この例外にメッセージを追加できるコンストラクタ。 |
-| [PptEditException](ppteditexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外のためのコンストラクタ。 |
+| [PptEditException](ppteditexception#constructor_2)(string, Exception) | メッセージと内部例外を含む例外用のコンストラクタ。 |
 
 ### 参照
 

@@ -1,12 +1,12 @@
 ---
 title: HtmlOptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes لمرجع API لـ .NET
 description: يمثل خيارات تصدير HTML.
 type: docs
 weight: 3890
 url: /ar/aspose.slides.export/htmloptions/
 ---
-## فئة HtmlOptions
+## HtmlOptions فئة
 
 يمثل خيارات تصدير HTML.
 
@@ -14,7 +14,7 @@ url: /ar/aspose.slides.export/htmloptions/
 public class HtmlOptions : SaveOptions, IHtmlOptions
 ```
 
-## المنشئات
+## المُنشئات
 
 | الاسم | الوصف |
 | --- | --- |
@@ -25,27 +25,27 @@ public class HtmlOptions : SaveOptions, IHtmlOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | يعيد أو يضبط الخط المستخدم في حال عدم العثور على الخط المصدر. قابل للقراءة والكتابة String. |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | علامة منطقية تشير إلى ما إذا كانت الأجزاء المقصوصة تبقى كجزء من المستند. إذا كان true، سيتم إزالة الأجزاء المقصوصة، إذا كان false فستُسلسل في المستند (مما قد يؤدي إلى ملف أكبر). |
-| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | يحصل أو يضبط قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عندما يتم ضبطه على `true`، ستُعطل الأحرف المتصلة في المخرجات المعروضة. بشكل افتراضي، تكون الخاصية مضبوطة على `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | يعيد أو يضبط النمط البصري للتدرج. قابل للقراءة والكتابة [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | يعيد أو يضبط قالب HTML. قابل للقراءة والكتابة [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. قراءة فقط [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | يعيد أو يضبط قيمة تحدد جودة صور JPEG داخل مستند PDF. قابل للقراءة والكتابة Byte. |
-| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | يمثل مستوى ضغط الصور |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | إرجاع أو تعيين الخط المستخدم في حالة عدم العثور على الخط المصدر. سلسلة قابلة للقراءة والكتابة. |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/htmloptions/deletepicturescroppedareas) { get; set; } | علامة منطقية تشير إلى ما إذا كانت الأجزاء المقتطعة تبقى كجزء من المستند. إذا كان true سيتم إزالة الأجزاء المقتطعة، إذا كان false سيتم تسلسلها في المستند (مما قد يؤدي إلى ملف أكبر). |
+| [DisableFontLigatures](../../aspose.slides.export/htmloptions/disablefontligatures) { get; set; } | الحصول أو تعيين قيمة تشير إلى ما إذا كان النص يُعرض دون استخدام الأحرف المتصلة. عند تعيينها إلى `true`، سيتم تعطيل الأحرف المتصلة في الإخراج المعروض. بشكل افتراضي، يتم تعيين هذه الخاصية إلى `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | إرجاع أو تعيين النمط البصري للتدرج. [`GradientStyle`](../../aspose.slides/gradientstyle) قابل للقراءة والكتابة. |
+| [HtmlFormatter](../../aspose.slides.export/htmloptions/htmlformatter) { get; set; } | إرجاع أو تعيين قالب HTML. [`IHtmlFormatter`](../ihtmlformatter) قابل للقراءة والكتابة. |
+| [InkOptions](../../aspose.slides.export/htmloptions/inkoptions) { get; } | يوفر خيارات تتحكم في مظهر كائنات الحبر في المستند المُصدَّر. [`IInkOptions`](../iinkoptions) قابل للقراءة فقط. |
+| [JpegQuality](../../aspose.slides.export/htmloptions/jpegquality) { get; set; } | إرجاع أو تعيين قيمة تحدد جودة صور JPEG داخل مستند PDF. بايت قابل للقراءة والكتابة. |
+| [PicturesCompression](../../aspose.slides.export/htmloptions/picturescompression) { get; set; } | يمثل مستوى ضغط الصور. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | يمثل كائن رد نداء لتحديثات تقدم الحفظ بالنسبة المئوية. انظر [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُولد يجب أن يشتمل على الشرائح المخفية أم لا. الافتراضي هو `false`. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط التشعبية التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. قابل للقراءة والكتابة Boolean. القيمة الافتراضية هي **false**. |
-| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | يعيد أو يضبط خيارات تنسيق صورة الشريحة. قابل للقراءة والكتابة [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | يحصل أو يضبط الوضع الذي تُوضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | True لاستبعاد سمات العرض والارتفاع من حاوية svg - سيجعل ذلك التخطيط متجاوبًا. False بخلاف ذلك. قابل للقراءة والكتابة Boolean. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | يعيد أو يضبط كائنًا يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أم تُلغى. قابل للقراءة والكتابة [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ShowHiddenSlides](../../aspose.slides.export/htmloptions/showhiddenslides) { get; set; } | يحدد ما إذا كان المستند المُنشأ يجب أن يتضمن الشرائح المخفية أم لا. القيمة الافتراضية هي `false`. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | يحدد ما إذا كان يجب تخطي الروابط الفائقة التي تحتوي على استدعاءات JavaScript عند حفظ العرض التقديمي. منطقي قابل للقراءة والكتابة. القيمة الافتراضية هي **false**. |
+| [SlideImageFormat](../../aspose.slides.export/htmloptions/slideimageformat) { get; set; } | إرجاع أو تعيين خيارات تنسيق صورة الشريحة. [`ISlideImageFormat`](../islideimageformat) قابل للقراءة والكتابة. |
+| [SlidesLayoutOptions](../../aspose.slides.export/htmloptions/slideslayoutoptions) { get; set; } | الحصول أو تعيين الوضع الذي توضع فيه الشرائح على الصفحة عند تصدير عرض تقديمي [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/htmloptions/svgresponsivelayout) { get; set; } | صحيح لاستبعاد سمات العرض والارتفاع من حاوية SVG - سيجعل ذلك التخطيط مستجيبًا. خطأ خلاف ذلك. منطقي قابل للقراءة والكتابة. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | إرجاع أو تعيين كائن يتلقى التحذيرات ويقرر ما إذا كانت عملية التحميل ستستمر أو ستُلغى. [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback) قابل للقراءة والكتابة. |
 
 ### انظر أيضًا
 
 * فئة [SaveOptions](../saveoptions)
 * واجهة [IHtmlOptions](../ihtmloptions)
-* نطاق [Aspose.Slides.Export](../../aspose.slides.export)
-* تجميع [Aspose.Slides](../../)
+* مساحة الاسم [Aspose.Slides.Export](../../aspose.slides.export)
+* التجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

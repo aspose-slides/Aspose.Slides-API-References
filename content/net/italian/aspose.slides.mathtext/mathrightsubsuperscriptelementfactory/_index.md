@@ -1,9 +1,9 @@
 ---
 title: MathRightSubSuperscriptElementFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Consente di creare IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 8950
+weight: 8970
 url: /it/aspose.slides.mathtext/mathrightsubsuperscriptelementfactory/
 ---
 ## MathRightSubSuperscriptElementFactory classe
@@ -28,7 +28,7 @@ public class MathRightSubSuperscriptElementFactory : IMathRightSubSuperscriptEle
 
 ### Osservazioni
 
-Per la compatibilità COM
+Per compatibilità COM
 
 ### Vedi anche
 

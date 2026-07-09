@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้เข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock
+description: ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock-chart.
 type: docs
 weight: 2260
 url: /th/aspose.slides.charts/iupdownbarsmanager/
 ---
 ## IUpDownBarsManager อินเทอร์เฟซ
 
-ให้เข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock
+ให้การเข้าถึงแถบขึ้น/ลงของแผนภูมิ Line หรือ Stock.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,10 +18,10 @@ public interface IUpDownBarsManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | คืนค่ารูปแบบของแถบลง อ่านอย่างเดียว [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | คืนค่าหรือกำหนดความกว้างของช่องว่าง อ่าน/เขียน Int32. |
-| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | กำหนดว่ากราฟมีแถบขึ้น/ลงหรือไม่ อ่าน/เขียน Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | คืนค่ารูปแบบของแถบขึ้น อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | ส่งคืนรูปแบบของแถบลง. อ่านอย่างเดียว [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | ส่งคืนหรือกำหนดช่องว่างความกว้าง. อ่าน/เขียน Int32. |
+| [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | กำหนดว่ากราฟมีแถบขึ้น/ลงหรือไม่. อ่าน/เขียน Boolean. |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | ส่งคืนรูปแบบของแถบขึ้น. อ่านอย่างเดียว [`IFormat`](../iformat). |
 
 ### ดูเพิ่มเติม
 

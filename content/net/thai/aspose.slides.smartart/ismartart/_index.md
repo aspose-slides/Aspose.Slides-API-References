@@ -1,14 +1,14 @@
 ---
 title: ISmartArt
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงแผนภาพ SmartArt.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เป็นไดอะแกรม SmartArt.
 type: docs
 weight: 10540
 url: /th/aspose.slides.smartart/ismartart/
 ---
 ## ISmartArt อินเทอร์เฟซ
 
-แสดงแผนภาพ SmartArt.
+เป็นไดอะแกรม SmartArt
 
 ```csharp
 public interface ISmartArt : IGraphicalObject
@@ -18,13 +18,13 @@ public interface ISmartArt : IGraphicalObject
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | ส่งคืนคอลเลกชันของโหนดทั้งหมดในอ็อบเจ็กต์ SmartArt. อ่านอย่างเดียว [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IGraphicalObject พื้นฐาน. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | รับหรือกำหนดสไตล์สีของอ็อบเจ็กต์ SmartArt. อ่าน/เขียน [`SmartArtColorType`](../smartartcolortype). |
-| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | รับหรือกำหนดสถานะของแผนภาพ SmartArt เกี่ยวกับ (ซ้ายไปขวา) LTR หรือ (ขวาไปซ้าย) RTL หากแผนภาพรองรับการกลับทิศ. อ่าน/เขียน Boolean. |
-| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | รับหรือกำหนดเค้าโครงของอ็อบเจ็กต์ SmartArt. อ่าน/เขียน [`SmartArtLayoutType`](../smartartlayouttype). |
-| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | ส่งคืนคอลเลกชันของโหนดรากในอ็อบเจ็กต์ SmartArt. อ่านอย่างเดียว [`ISmartArtNodeCollection`](../ismartartnodecollection). |
-| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | รับหรือกำหนดสไตล์ด่วนของอ็อบเจ็กต์ SmartArt. อ่าน/เขียน [`SmartArtQuickStyleType`](../smartartquickstyletype). |
+| [AllNodes](../../aspose.slides.smartart/ismartart/allnodes) { get; } | คืนคอลเลกชันของโหนดทั้งหมดในวัตถุ SmartArt. อ่านอย่างเดียว [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [AsIGraphicalObject](../../aspose.slides.smartart/ismartart/asigraphicalobject) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IGraphicalObject. อ่านอย่างเดียว [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [ColorStyle](../../aspose.slides.smartart/ismartart/colorstyle) { get; set; } | คืนค่า หรือ ตั้งค่าสไตล์สีของวัตถุ SmartArt. อ่าน/เขียน [`SmartArtColorType`](../smartartcolortype). |
+| [IsReversed](../../aspose.slides.smartart/ismartart/isreversed) { get; set; } | คืนค่า หรือ ตั้งค่าสถานะของไดอะแกรม SmartArt เกี่ยวกับ (จากซ้ายไปขวา) LTR หรือ (จากขวาไปซ้าย) RTL หากไดอะแกรมสนับสนุนการกลับด้าน. อ่าน/เขียน Boolean. |
+| [Layout](../../aspose.slides.smartart/ismartart/layout) { get; set; } | คืนค่า หรือ ตั้งค่าเลย์เอาต์ของวัตถุ SmartArt. อ่าน/เขียน [`SmartArtLayoutType`](../smartartlayouttype). |
+| [Nodes](../../aspose.slides.smartart/ismartart/nodes) { get; } | คืนคอลเลกชันของโหนดรากในวัตถุ SmartArt. อ่านอย่างเดียว [`ISmartArtNodeCollection`](../ismartartnodecollection). |
+| [QuickStyle](../../aspose.slides.smartart/ismartart/quickstyle) { get; set; } | คืนค่า หรือ ตั้งค่าสไตล์ด่วนของวัตถุ SmartArt. อ่าน/เขียน [`SmartArtQuickStyleType`](../smartartquickstyletype). |
 
 ### ดูเพิ่มเติม
 

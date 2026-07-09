@@ -1,14 +1,14 @@
 ---
 title: IBlurEffectiveData
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đối tượng bất biến đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
+description: Đối tượng bất biến đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô màu. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
 type: docs
 weight: 3190
 url: /vi/aspose.slides.effects/iblureffectivedata/
 ---
 ## IBlurEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
+Đối tượng bất biến đại diện cho hiệu ứng Blur được áp dụng cho toàn bộ hình dạng, bao gồm cả phần tô màu. Tất cả các kênh màu, bao gồm cả alpha, đều bị ảnh hưởng.
 
 ```csharp
 public interface IBlurEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface IBlurEffectiveData : IEffectEffectiveData
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ sở. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Xác định liệu giới hạn của đối tượng có nên được mở rộng do hiệu ứng làm mờ hay không. True cho biết giới hạn được mở rộng trong khi false cho biết không. Chỉ đọc Boolean. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iblureffectivedata/asieffecteffectivedata) { get; } | Cho phép lấy giao diện IEffectEffectiveData cơ bản. Chỉ đọc [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Grow](../../aspose.slides.effects/iblureffectivedata/grow) { get; } | Xác định xem giới hạn của đối tượng có nên được mở rộng do hiệu ứng làm mờ hay không. True chỉ ra giới hạn được mở rộng trong khi false chỉ ra chúng không được mở rộng. Chỉ đọc Boolean. |
 | [Radius](../../aspose.slides.effects/iblureffectivedata/radius) { get; } | Trả về hoặc đặt bán kính làm mờ. Chỉ đọc Double. |
 
 ### Xem thêm

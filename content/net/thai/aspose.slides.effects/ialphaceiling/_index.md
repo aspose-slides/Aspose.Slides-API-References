@@ -1,14 +1,14 @@
 ---
 title: IAlphaCeiling
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่าความทึบของ Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100. อีกนัยหนึ่ง ทุกอย่างที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: อธิบายเอฟเฟกต์ Alpha Ceiling ค่าความทึบของ Alpha ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100% กล่าวคือ สิ่งใดที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่
 type: docs
 weight: 3040
 url: /th/aspose.slides.effects/ialphaceiling/
 ---
 ## IAlphaCeiling อินเทอร์เฟซ
 
-แสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่าความทึบ (Alpha) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100%. อีกนัยหนึ่ง, สิ่งที่มีความโปร่งแสงบางส่วนจะกลายเป็นทึบเต็มที่.
+แสดงถึงเอฟเฟกต์ Alpha Ceiling. ค่าของ Alpha (ความทึบ) ที่มากกว่าศูนย์จะถูกเปลี่ยนเป็น 100% พูดอีกอย่างคือ สิ่งใดที่มีความทึบบางส่วนจะกลายเป็นทึบเต็มที่.
 
 ```csharp
 public interface IAlphaCeiling : IAccessiblePVIObject<IAlphaCeilingEffectiveData>, 

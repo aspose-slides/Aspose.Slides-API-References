@@ -1,14 +1,14 @@
 ---
 title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
-description: Alpha Bi-Level エフェクトを表す不変オブジェクトです。しきい値未満の Alpha 不透明度の値は 0（完全に透明）に、しきい値以上の Alpha の値は 100（完全に不透明）に変更されます。
+description: しきい値未満の Alpha 不透明度の値は 0（完全に透明）に、しきい値以上の Alpha の値は 100（完全に不透明）に変換される Alpha バイレベル効果を表す不変オブジェクトです。
 type: docs
-weight: 3010
+weight: 3030
 url: /ja/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData インターフェイス
 
-不変オブジェクトで、Alpha Bi-Level エフェクトを表します。しきい値未満の Alpha（不透明度）値は 0（完全に透明）に変更され、しきい値以上の Alpha 値は 100%（完全に不透明）に変更されます。
+しきい値未満の Alpha (Opacity) 値は 0 (完全に透明) に、しきい値以上の Alpha 値は 100% (完全に不透明) に変換される Alpha Bi-Level エフェクトを表す不変オブジェクトです。
 
 ```csharp
 public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
@@ -18,10 +18,10 @@ public interface IAlphaBiLevelEffectiveData : IEffectEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | エフェクトのしきい値を返します。読み取り専用 Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphabileveleffectivedata/asieffecteffectivedata) { get; } | ベース IEffectEffectiveData インターフェイスを取得できます。読み取り専用 [`IEffectEffectiveData`](../ieffecteffectivedata)。 |
+| [Threshold](../../aspose.slides.effects/ialphabileveleffectivedata/threshold) { get; } | 効果のしきい値を返します。読み取り専用 Single。 |
 
-### 関連項目
+### 参照
 
 * インターフェイス [IEffectEffectiveData](../ieffecteffectivedata)
 * 名前空間 [Aspose.Slides.Effects](../../aspose.slides.effects)

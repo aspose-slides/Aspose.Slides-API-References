@@ -1,14 +1,14 @@
 ---
 title: IFieldType
 second_title: Aspose.Sildes for .NET API リファレンス
-description: フィールドのタイプを表します。この値は、フィールド部分が更新される際にどのテキストが設定されるかを決定します。
+description: フィールドのタイプを表します。この値は、フィールドが更新される際にフィールド部分に設定されるテキストを決定します。
 type: docs
-weight: 5760
+weight: 5780
 url: /ja/aspose.slides/ifieldtype/
 ---
 ## IFieldType インターフェイス
 
-フィールドのタイプを表します。この値は、フィールド部分が更新される際にどのテキストが設定されるかを決定します。
+フィールドのタイプを表します。この値は、フィールドの部分が更新される際に設定されるテキストを決定します。
 
 ```csharp
 public interface IFieldType
@@ -18,7 +18,7 @@ public interface IFieldType
 
 | 名前 | 説明 |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | この FieldTypeEx オブジェクトの内部名を返します。読み書き可能な String。 |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | この FieldTypeEx オブジェクトの内部名前を返します。Read/write String. |
 
 ### 参照
 

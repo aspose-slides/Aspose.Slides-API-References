@@ -1,14 +1,14 @@
 ---
 title: BaseHeaderFooterManager
-second_title: Aspose.Slides för .NET API-referens
-description: Representerar en hanterare som innehåller beteendet för sidfot, datum-tid och sidnummer-platshållare för alla bildtyper.
+second_title: Aspose.Sildes för .NET API-referens
+description: Representerar en hanterare som innehåller beteendet för platshållarna för sidfot, datum-tid och sidnummer för alla bildtyper.
 type: docs
-weight: 940
+weight: 960
 url: /sv/aspose.slides/baseheaderfootermanager/
 ---
 ## BaseHeaderFooterManager klass
 
-Representerar en hanterare som innehåller beteendet för sidfot, datum-tid och sidnummer-platshållare för alla bildtyper.
+Representerar en hanterare som hanterar beteendet för sidfot, datum-tid och sidnummer-platshållare för alla bildtyper.
 
 ```csharp
 public abstract class BaseHeaderFooterManager : IBaseHeaderFooterManager

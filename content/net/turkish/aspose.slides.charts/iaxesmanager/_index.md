@@ -3,12 +3,12 @@ title: IAxesManager
 second_title: Aspose.Sildes için .NET API Referansı
 description: Grafik eksenlerine erişim sağlar.
 type: docs
-weight: 1680
+weight: 1700
 url: /tr/aspose.slides.charts/iaxesmanager/
 ---
-## IAxesManager arayüzü
+## IAxesManager arabirimi
 
-Grafik eksenlerine erişim sağlar.
+Grafiğin eksenlerine erişim sağlar.
 
 ```csharp
 public interface IAxesManager
@@ -21,10 +21,10 @@ public interface IAxesManager
 | [HorizontalAxis](../../aspose.slides.charts/iaxesmanager/horizontalaxis) { get; } | Grafiğin yatay eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
 | [SecondaryHorizontalAxis](../../aspose.slides.charts/iaxesmanager/secondaryhorizontalaxis) { get; } | Grafiğin ikincil yatay eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
 | [SecondaryVerticalAxis](../../aspose.slides.charts/iaxesmanager/secondaryverticalaxis) { get; } | Grafiğin ikincil düşey eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
-| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Grafiğin seriler eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
+| [SeriesAxis](../../aspose.slides.charts/iaxesmanager/seriesaxis) { get; } | Grafiğin seri eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
 | [VerticalAxis](../../aspose.slides.charts/iaxesmanager/verticalaxis) { get; } | Grafiğin düşey eksenini alır. Yalnızca okunabilir [`IAxis`](../iaxis). |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

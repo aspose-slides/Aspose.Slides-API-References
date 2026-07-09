@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt reprezentujący efekt Tint. Przesuwa wartości kolorów efektu w kierunku lub od odcienia o określoną wartość.
+second_title: Aspose.Sildes dla .NET API Reference
+description: Niezmienny obiekt reprezentujący efekt Tint. Przesuwa wartości kolorów efektu w stronę lub od odcienia o określoną wartość.
 type: docs
-weight: 3530
+weight: 3550
 url: /pl/aspose.slides.effects/itinteffectivedata/
 ---
-## Interfejs ITintEffectiveData
+## ITintEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt Tint. Przesuwa wartości kolorów efektu w kierunku/odchodzi od odcienia o określoną wartość.
+Niezmienny obiekt reprezentujący efekt Tint. Przesuwa wartości kolorów efektu w stronę lub z dala od odcienia o określoną ilość.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,8 +18,8 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | Nazwa | Opis |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Zwraca wartość efektu. Tylko do odczytu Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Pozwala pobrać podstawowy interfejs IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Zwraca ilość efektu. Tylko do odczytu Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Zwraca odcień. Tylko do odczytu Single. |
 
 ### Zobacz także

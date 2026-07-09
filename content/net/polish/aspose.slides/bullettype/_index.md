@@ -1,12 +1,12 @@
 ---
 title: BulletType
-second_title: Aspose.Sildes dla .NET referencja API
+second_title: Aspose.Sildes dla .NET - referencja API
 description: Reprezentuje typ rozszerzonych wypunktowań.
 type: docs
-weight: 1060
+weight: 1080
 url: /pl/aspose.slides/bullettype/
 ---
-## BulletType enumeracja
+## enumeracja BulletType
 
 Reprezentuje typ rozszerzonych wypunktowań.
 

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Slides.AI
-second_title: Referência da API Aspose.Sildes para .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Contém classes que fornecem recursos baseados em IA para analisar e processar apresentações do PowerPoint.
 type: docs
 weight: 20
@@ -12,16 +12,18 @@ Contém classes que fornecem recursos baseados em IA para analisar e processar a
 
 | Classe | Descrição |
 | --- | --- |
-| [OpenAIWebClient](./openaiwebclient) | Cliente web OpenAI leve incorporado |
-| [SlidesAIAgent](./slidesaiagent) | Fornece recursos com IA para processar apresentações. |
+| [AsposeAIWebClient](./asposeaiwebclient) | Uma implementação [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) incorporada que se conecta ao LLM próprio da Aspose. Este é o cliente padrão usado pelo construtor sem parâmetros [`SlidesAIAgent`](../aspose.slides.ai/slidesaiagent/slidesaiagent). |
+| [OpenAICompatibleWebClient](./openaicompatiblewebclient) | Uma implementação [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) incorporada que se conecta a um provedor LLM compatível com OpenAI em uma URL base especificada. |
+| [OpenAIWebClient](./openaiwebclient) | Uma implementação [`IAIWebClient`](../aspose.slides.ai/iaiwebclient) incorporada que se conecta à API do OpenAI. |
+| [SlidesAIAgent](./slidesaiagent) | Fornece recursos alimentados por IA para processar apresentações. |
 | [SlidesAIAgentException](./slidesaiagentexception) | Representa exceções relacionadas ao Slides AI Agent. |
 
 ## Interfaces
 
 | Interface | Descrição |
 | --- | --- |
-| [IAIConversation](./iaiconversation) | Representa uma instância de conversa. Diferentemente de chamadas regulares de IA, as conversas mantêm todo o contexto. |
-| [IAIWebClient](./iaiwebclient) | Interface de cliente web de IA. Esta interface permite substituir diferentes modelos de linguagem de IA. Classes que implementam esta interface devem ser usadas junto com `SlidesAIAgent`. |
+| [IAIConversation](./iaiconversation) | Representa uma instância de conversa. Ao contrário das chamadas regulares de IA, as conversas mantêm todo o contexto. |
+| [IAIWebClient](./iaiwebclient) | Interface de cliente Web de IA. Esta interface permite substituir diferentes modelos de linguagem de IA. As classes que implementam esta interface devem ser usadas junto com `SlidesAIAgent`. |
 
 ## Enumeração
 

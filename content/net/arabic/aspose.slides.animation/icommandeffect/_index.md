@@ -1,14 +1,14 @@
 ---
 title: ICommandEffect
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثّل تأثير أمر لسلوك الرسوم المتحركة.
+description: يمثل تأثير أمر لسلوك الرسوم المتحركة.
 type: docs
 weight: 480
 url: /ar/aspose.slides.animation/icommandeffect/
 ---
 ## ICommandEffect واجهة
 
-يمثّل تأثير أمر لسلوك الرسوم المتحركة.
+يمثل تأثير أمر لسلوك الرسوم المتحركة.
 
 ```csharp
 public interface ICommandEffect : IBehavior
@@ -18,10 +18,10 @@ public interface ICommandEffect : IBehavior
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | يسمح بالحصول على واجهة IBehavior الأساسية. قراءة فقط [`IBehavior`](../ibehavior). |
-| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | يعرّف سلسلة الأمر. قراءة/كتابة String. |
-| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | يعرّف هدف الشكل لتأثير الأمر. قراءة/كتابة [`IShape`](../../aspose.slides/ishape). |
-| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | يعرّف نوع تأثير الأمر للسلوك. قراءة/كتابة [`CommandEffectType`](../commandeffecttype). |
+| [AsIBehavior](../../aspose.slides.animation/icommandeffect/asibehavior) { get; } | يسمح بالحصول على واجهة IBehavior الأساسية. للقراءة فقط [`IBehavior`](../ibehavior). |
+| [CommandString](../../aspose.slides.animation/icommandeffect/commandstring) { get; set; } | يحدد سلسلة الأمر. قراءة/كتابة String. |
+| [ShapeTarget](../../aspose.slides.animation/icommandeffect/shapetarget) { get; set; } | يحدد هدف الشكل لتأثير الأمر. قراءة/كتابة [`IShape`](../../aspose.slides/ishape). |
+| [Type](../../aspose.slides.animation/icommandeffect/type) { get; set; } | يحدد نوع تأثير الأمر للسلوك. قراءة/كتابة [`CommandEffectType`](../commandeffecttype). |
 
 ### انظر أيضًا
 

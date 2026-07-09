@@ -1,14 +1,14 @@
 ---
 title: IBrightnessContrastEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: BrightnessContrast 효과를 나타내는 불변 객체입니다. 밝기와 대비를 조정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: BrightnessContrast 효과를 나타내는 불변 객체입니다. 밝기와 대비를 조정합니다
 type: docs
 weight: 3210
 url: /ko/aspose.slides.effects/ibrightnesscontrasteffectivedata/
 ---
 ## IBrightnessContrastEffectiveData 인터페이스
 
-BrightnessContrast 효과를 나타내는 불변 객체입니다. 밝기와 대비를 조정합니다.
+BrightnessContrast 효과를 나타내는 불변 객체입니다. 밝기와 대비를 조정합니다
 
 ```csharp
 public interface IBrightnessContrastEffectiveData : IEffectEffectiveData

@@ -1,14 +1,14 @@
 ---
 title: ITiffOptions
 second_title: Aspose.Sildes for .NET API リファレンス
-description: プレゼンテーションを TIFF 形式で保存する方法を制御するオプションを提供します。
+description: プレゼンテーションをTIFF形式で保存する方法を制御するオプションを提供します。
 type: docs
-weight: 4150
+weight: 4170
 url: /ja/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions インターフェイス
 
-プレゼンテーションを TIFF 形式で保存する方法を制御するオプションを提供します。
+プレゼンテーションをTIFF形式で保存する方法を制御するオプションを提供します。
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -18,15 +18,15 @@ public interface ITiffOptions : ISaveOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | カラー画像を白黒画像に変換するアルゴリズムを指定します。[`CompressionType`](./compressiontype) が CCITT4 または CCITT3 に設定されている場合にのみこのオプションが適用されます。読み書き [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。デフォルトは Default です。 |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 圧縮タイプを指定します。読み書き [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 水平解像度（dpi）を指定します。読み書き UInt32。 |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 垂直解像度（dpi）を指定します。読み書き UInt32。 |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 生成される TIFF 画像のサイズを指定します。デフォルト値は 0x0 で、これは生成された画像サイズがプレゼンテーションのスライドサイズに基づいて計算されることを意味します。読み書き Size。 |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 生成された画像のピクセル形式を指定します。読み書き [`ImagePixelFormat`](../imagepixelformat)。 |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。デフォルトは `false` です。 |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions インターフェイスを返します。 読み取り専用 [`ISaveOptions`](../isaveoptions)。 |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | カラー画像を白黒画像に変換するアルゴリズムを指定します。このオプションは [`CompressionType`](./compressiontype) が CCITT4 または CCITT3 に設定されている場合にのみ適用されます。 読み書き可能 [`BlackWhiteConversionMode`](../blackwhiteconversionmode)。 デフォルトは Default です。 |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | 圧縮タイプを指定します。 読み書き可能 [`TiffCompressionTypes`](../tiffcompressiontypes)。 |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | 水平解像度（dots per inch）を指定します。 読み書き可能 UInt32。 |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | 垂直解像度（dots per inch）を指定します。 読み書き可能 UInt32。 |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | 生成された TIFF 画像のサイズを指定します。デフォルト値は 0x0 で、これは生成された画像サイズがプレゼンテーションのスライドサイズの値に基づいて計算されることを意味します。 読み書き可能 Size。 |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。 読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | 生成された画像のピクセル形式を指定します。 読み書き可能 [`ImagePixelFormat`](../imagepixelformat)。 |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | 生成されたドキュメントに非表示スライドを含めるかどうかを指定します。 デフォルトは `false` です。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際にスライドがページ上に配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
 
 ### 参照

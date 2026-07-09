@@ -1,53 +1,53 @@
 ---
 title: PresentationAnimationsGenerator
-second_title: Aspose.Sildes .NET API Referenciája
-description: A Presentation../aspose.slides/presentation animációinak generátorát képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A Presentation../aspose.slides/presentation animációinak generátorát jelenti.
 type: docs
-weight: 4360
+weight: 4380
 url: /hu/aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator osztály
 
-A [`Presentation`](../../aspose.slides/presentation) animációinak generátorát képviseli.
+A [`Presentation`](../../aspose.slides/presentation) animációinak generátora.
 
 ```csharp
 public class PresentationAnimationsGenerator : IDisposable
 ```
 
-## Constructors
+## Konstruktorok
 
 | Név | Leírás |
 | --- | --- |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Létrehozza a [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) új példányát. |
-| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Létrehozza a [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) új példányát. |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor)(Presentation) | Új példányt hoz létre a(z) [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
+| [PresentationAnimationsGenerator](presentationanimationsgenerator#constructor_1)(Size) | Új példányt hoz létre a(z) [`PresentationAnimationsGenerator`](../presentationanimationsgenerator). |
 
-## Properties
-
-| Név | Leírás |
-| --- | --- |
-| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | A [ms] alapértelmezett késleltetési időt adja meg vagy állítja be. |
-| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Az exportált diák számát adja vissza. |
-| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Beállítja vagy lekéri, hogy a rejtett diák bele legyenek-e vonva. |
-
-## Methods
+## Tulajdonságok
 
 | Név | Leírás |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Elpusztítja a [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) példányát. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Futtatja az animációs események generálását minden diára. |
-| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Futtatja az animációs események generálását minden diára. |
+| [DefaultDelay](../../aspose.slides.export/presentationanimationsgenerator/defaultdelay) { get; set; } | Lekéri vagy beállítja az alapértelmezett késleltetési időt [ms]. |
+| [ExportedSlides](../../aspose.slides.export/presentationanimationsgenerator/exportedslides) { get; } | Lekéri az exportált diák számát. |
+| [IncludeHiddenSlides](../../aspose.slides.export/presentationanimationsgenerator/includehiddenslides) { get; set; } | Lekéri vagy beállítja, hogy a rejtett diák szerepelnek-e. |
 
-## Fields
-
-| Név | Leírás |
-| --- | --- |
-| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | A keret méretét adja vissza. |
-
-## Events
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Egy esemény, amely jelzi, hogy egy új animáció generálódott. |
+| [Dispose](../../aspose.slides.export/presentationanimationsgenerator/dispose)() | Felszabadítja a(z) [`PresentationAnimationsGenerator`](../presentationanimationsgenerator) példányát. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run)(IEnumerable&lt;ISlide&gt;) | Animációs események generálását futtatja minden dián. |
+| [Run](../../aspose.slides.export/presentationanimationsgenerator/run#run_1)(IEnumerable&lt;ISlide&gt;, int, FrameTickHandler) | Animációs események generálását futtatja minden dián. |
+
+## Mezők
+
+| Név | Leírás |
+| --- | --- |
+| readonly [FrameSize](../../aspose.slides.export/presentationanimationsgenerator/framesize) | Lekéri a keret méretét. |
+
+## Események
+
+| Név | Leírás |
+| --- | --- |
+| event [NewAnimation](../../aspose.slides.export/presentationanimationsgenerator/newanimation) | Egy esemény jelzi, hogy új animáció került létrehozásra. |
 
 ### Példák
 

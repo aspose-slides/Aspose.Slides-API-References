@@ -1,14 +1,14 @@
 ---
 title: FillType
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Specificeert het binnenste vultype van verschillende visuele objecten.
+description: Specificeert het binnenvulltype van verschillende visuele objecten.
 type: docs
 weight: 4790
 url: /nl/aspose.slides/filltype/
 ---
 ## FillType enumeratie
 
-Specificeert het binnenste vultype van verschillende visuele objecten.
+Specificeert het binnenvulltype van verschillende visuele objecten.
 
 ```csharp
 public enum FillType : sbyte
@@ -19,7 +19,7 @@ public enum FillType : sbyte
 | Naam | Waarde | Beschrijving |
 | --- | --- | --- |
 | NotDefined | `-1` | Het vultype is niet gedefinieerd. |
-| NoFill | `0` | Geen vulling toegepast. |
+| NoFill | `0` | Er is geen vulling toegepast. |
 | Solid | `1` | Gevuld met een effen kleur. |
 | Gradient | `2` | De vulling is een verloop. |
 | Pattern | `3` | Een herhalend patroon wordt gebruikt om het object te vullen. |

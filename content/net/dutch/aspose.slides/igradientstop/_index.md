@@ -1,14 +1,14 @@
 ---
 title: IGradientStop
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een gradientformaat voor.
+description: Stelt een gradientindeling voor.
 type: docs
 weight: 6020
 url: /nl/aspose.slides/igradientstop/
 ---
 ## IGradientStop interface
 
-Stelt een gradientformaat voor.
+Stelt een gradientindeling voor.
 
 ```csharp
 public interface IGradientStop
@@ -18,8 +18,8 @@ public interface IGradientStop
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstop/color) { get; } | Geeft de kleur van een gradientstop terug. Alleen-lezen [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Geeft de positie (0..1) van een gradientstop terug of stelt deze in. Lezen/schrijven Single. |
+| [Color](../../aspose.slides/igradientstop/color) { get; } | Retourneert de kleur van een gradientstop. Alleen-lezen [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/igradientstop/position) { get; set; } | Retourneert of stelt de positie (0..1) van een gradientstop in. Lezen/Schrijven Single. |
 
 ### Zie ook
 

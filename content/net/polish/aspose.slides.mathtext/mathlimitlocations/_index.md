@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Lokalizacja limitów indeks dolny/górny w operatorach n-argumentowych.
+second_title: Aspose.Sildes dla .NET - referencja API
+description: Lokalizacja limitów indeks dolny/górny w operatorach n-ary.
 type: docs
-weight: 8820
+weight: 8840
 url: /pl/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations wyliczenie
+## Wyliczenie MathLimitLocations
 
-Lokalizacja limitów (indeks dolny/górny) w operatorach n-argumentowych.
+Lokalizacja limitów (indeks dolny/górny) w operatorach wielokrotnych.
 
 ```csharp
 public enum MathLimitLocations
@@ -16,9 +16,9 @@ public enum MathLimitLocations
 
 ### Wartości
 
-| Nazwa | Wartość | Opis |
+| Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | `0` | Nie określono |
+| NotDefined | `0` | Nie zdefiniowano |
 | UnderOver | `1` | Limity są rysowane u góry i u dołu symbolu operatora |
 | SubscriptSuperscript | `2` | Limity są rysowane jako indeks dolny i górny |
 

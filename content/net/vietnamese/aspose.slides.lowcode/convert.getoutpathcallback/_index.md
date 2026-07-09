@@ -1,7 +1,7 @@
 ---
 title: Convert.GetOutPathCallback
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Callback sẽ được gọi cho mỗi Slide../aspose.slides/slide, đường dẫn đầu ra dự kiến sẽ được trả về.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Callback sẽ được gọi cho mỗi Slide../aspose.slides/slide đường dẫn đầu ra dự kiến sẽ được trả về.
 type: docs
 weight: 7890
 url: /vi/aspose.slides.lowcode/convert.getoutpathcallback/
@@ -17,9 +17,9 @@ public delegate string GetOutPathCallback(Slide slide, int index);
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
 | slide | Slide | Slide hiện đang được lặp |
-| index | Int32 | Chỉ mục của slide hiện tại |
+| index | Int32 | Chỉ số của slide hiện tại |
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [Slide](../../aspose.slides/slide)
 * lớp [Convert](../convert)

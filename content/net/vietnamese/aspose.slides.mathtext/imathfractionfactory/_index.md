@@ -1,6 +1,6 @@
 ---
 title: IMathFractionFactory
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho .NET Tham khảo API
 description: Cho phép tạo một phân số toán học
 type: docs
 weight: 8260

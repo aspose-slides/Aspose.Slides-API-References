@@ -3,10 +3,10 @@ title: TextVerticalType
 second_title: Referência da API Aspose.Sildes para .NET
 description: Determina o modo de escrita vertical para um texto.
 type: docs
-weight: 11010
+weight: 11030
 url: /pt/aspose.slides/textverticaltype/
 ---
-## Enumeração TextVerticalType
+## TextVerticalType enumeração
 
 Determina o modo de escrita vertical para um texto.
 
@@ -23,11 +23,11 @@ public enum TextVerticalType : sbyte
 | Vertical | `1` | Texto vertical. |
 | Vertical270 | `2` | Texto vertical de 270 graus. |
 | WordArtVertical | `3` | Texto vertical WordArt. |
-| EastAsianVertical | `4` | Texto vertical leste-asiático. |
+| EastAsianVertical | `4` | Texto vertical asiático oriental. |
 | MongolianVertical | `5` | Texto vertical mongol. |
 | WordArtVerticalRightToLeft | `6` | Texto vertical WordArt da direita para a esquerda. |
 
-### Veja também
+### Ver também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

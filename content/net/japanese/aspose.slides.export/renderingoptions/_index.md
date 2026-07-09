@@ -1,14 +1,14 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: プレゼンテーション/スライドのレンダリング方法を制御するオプションを提供します。
 type: docs
-weight: 4390
+weight: 4410
 url: /ja/aspose.slides.export/renderingoptions/
 ---
 ## RenderingOptions クラス
 
-プレゼンテーション/スライドのレンダリング方法を制御するオプションを提供します。
+プレゼンテーション/スライドがどのようにレンダリングされるかを制御するオプションを提供します。
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
@@ -18,20 +18,20 @@ public class RenderingOptions : SaveOptions, IRenderingOptions
 
 | 名前 | 説明 |
 | --- | --- |
-| [RenderingOptions](renderingoptions)() | デフォルト コンストラクタ。 |
+| [RenderingOptions](renderingoptions)() | 既定のコンストラクタ。 |
 
 ## プロパティ
 
 | 名前 | 説明 |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | フォントが見つからない場合に使用されるフォントを取得または設定します。読み書き可能な String。 |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | テキストを合字を使用せずにレンダリングするかどうかを示す値を取得または設定します。`true` に設定すると、レンダリングされた出力で合字が無効化されます。デフォルトでは、このプロパティは `false` に設定されています。 |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションの視覚スタイルを取得または設定します。読み書き可能な [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | エクスポートされたドキュメント内の Ink オブジェクトの外観を制御するオプションを提供します。読み取り専用の [`IInkOptions`](../iinkoptions) |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | パーセンテージで保存の進行状況を更新するコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存するときに、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き可能な Boolean。デフォルト値は **false** です。 |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートするときに、スライドがページ上に配置されるモードを取得または設定します。[`ISlidesLayoutOptions`](../islideslayoutoptions) |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取って、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み書き可能な [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | ソースフォントが見つからない場合に使用されるフォントを取得または設定します。読み書き String。 |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | テキストを合字を使用せずにレンダリングするかどうかを示す値を取得または設定します。`true` に設定すると、レンダリング出力で合字が無効になります。デフォルトでは、このプロパティは `false` に設定されています。 |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | グラデーションのビジュアル スタイルを取得または設定します。読み書き [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | エクスポートされたドキュメント内のインクオブジェクトの外観を制御するオプションを提供します。読み取り専用 [`IInkOptions`](../iinkoptions) |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 進行状況のパーセンテージ更新を保存するためのコールバックオブジェクトを表します。[`IProgressCallback`](../../aspose.slides/iprogresscallback) を参照してください。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | プレゼンテーションを保存する際に、JavaScript 呼び出しを含むハイパーリンクをスキップするかどうかを指定します。読み書き Boolean。既定値は **false** です。 |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | プレゼンテーションをエクスポートする際に、スライドがページに配置されるモードを取得または設定します [`ISlidesLayoutOptions`](../islideslayoutoptions)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 警告を受け取り、ロードプロセスを続行するか中止するかを決定するオブジェクトを取得または設定します。読み書き [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 例
 

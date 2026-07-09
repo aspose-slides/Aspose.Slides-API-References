@@ -1,14 +1,14 @@
 ---
 title: IColumnFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que contém propriedades de formatação efetiva de coluna de tabela.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que contém propriedades de formatação eficaz da coluna da tabela.
 type: docs
-weight: 5530
+weight: 5550
 url: /pt/aspose.slides/icolumnformateffectivedata/
 ---
 ## IColumnFormatEffectiveData interface
 
-Objeto imutável que contém propriedades de formatação efetiva de coluna de tabela.
+Objeto imutável que contém propriedades de formatação eficaz da coluna da tabela.
 
 ```csharp
 public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -22,9 +22,9 @@ public interface IColumnFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ### Observações
 
-Esta interface é usada juntamente com a interface [`IColumnFormat`](../icolumnformat) para retornar valores de formatação efetiva com herança e estilos de tabela aplicados.
+Esta interface é usada juntamente com a [`IColumnFormat`](../icolumnformat) interface para retornar valores de formatação eficaz com herança e estilos de tabela aplicados.
 
-### Ver também
+### Veja Também
 
 * interface [IBaseTableFormatEffectiveData](../ibasetableformateffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

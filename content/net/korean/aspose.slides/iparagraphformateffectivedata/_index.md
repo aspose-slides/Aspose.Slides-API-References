@@ -1,14 +1,14 @@
 ---
 title: IParagraphFormatEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 유효한 단락 서식 속성을 포함하는 불변 객체입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 실제 적용된 단락 서식 속성을 포함하는 불변 객체입니다.
 type: docs
 weight: 6600
 url: /ko/aspose.slides/iparagraphformateffectivedata/
 ---
 ## IParagraphFormatEffectiveData 인터페이스
 
-유효한 단락 서식 속성을 포함하는 불변 객체입니다.
+불변 객체로, 실질적인 단락 형식 속성을 포함합니다.
 
 ```csharp
 public interface IParagraphFormatEffectiveData
@@ -18,29 +18,29 @@ public interface IParagraphFormatEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 문단에서 텍스트 정렬을 반환합니다. 읽기 전용 [`TextAlignment`](../textalignment). |
-| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | 문단의 글머리표 형식을 반환합니다. 읽기 전용 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
-| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | 문단의 기본 부분 형식을 반환합니다. 읽기 전용 [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
+| [Alignment](../../aspose.slides/iparagraphformateffectivedata/alignment) { get; } | 단락에서 텍스트 정렬을 반환합니다. 읽기 전용 [`TextAlignment`](../textalignment). |
+| [Bullet](../../aspose.slides/iparagraphformateffectivedata/bullet) { get; } | 단락의 글머리표 형식을 반환합니다. 읽기 전용 [`IBulletFormatEffectiveData`](../ibulletformateffectivedata). |
+| [DefaultPortionFormat](../../aspose.slides/iparagraphformateffectivedata/defaultportionformat) { get; } | 단락의 기본 부분 형식을 반환합니다. 읽기 전용 [`IPortionFormatEffectiveData`](../iportionformateffectivedata). |
 | [DefaultTabSize](../../aspose.slides/iparagraphformateffectivedata/defaulttabsize) { get; } | 기본 탭 크기를 반환합니다. 읽기 전용 Single. |
-| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | 문단의 깊이를 반환합니다. 읽기 전용 Int16. |
-| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | 문단에서 동아시아 줄바꿈이 사용되는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 문단에서 글꼴 정렬을 반환합니다. 읽기 전용 [`FontAlignment`](../fontalignment). |
-| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 문단에서 매달린 구두점이 사용되는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 문단의 첫 줄 들여쓰기/매달린 들여쓰기를 반환합니다. 매달린 들여쓰기는 음수 값으로 정의될 수 있습니다. 읽기 전용 Single. |
-| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 문단에서 라틴 줄바꿈이 사용되는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | 문단의 왼쪽 여백을 반환합니다. 읽기 전용 Single. |
-| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | 문단의 오른쪽 여백을 반환합니다. 읽기 전용 Single. |
-| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 문단에서 오른쪽에서 왼쪽으로 쓰기가 사용되는지 여부를 결정합니다. 읽기 전용 Boolean. |
-| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 문단의 마지막 줄 이후 공간 양을 반환합니다. 읽기 전용 Single. |
-| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 문단의 첫 번째 줄 이전 공간 양을 반환합니다. 읽기 전용 Single. |
-| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 문단의 기본 줄 사이 공간 양을 반환합니다. 읽기 전용 Single. |
-| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | 문단의 탭을 반환합니다. 읽기 전용 [`ITabEffectiveData`](../itabeffectivedata)[]. |
+| [Depth](../../aspose.slides/iparagraphformateffectivedata/depth) { get; } | 단락의 깊이를 반환합니다. 읽기 전용 Int16. |
+| [EastAsianLineBreak](../../aspose.slides/iparagraphformateffectivedata/eastasianlinebreak) { get; } | 단락에서 동아시아 줄바꿈이 사용되는지 여부를 판단합니다. 읽기 전용 Boolean. |
+| [FontAlignment](../../aspose.slides/iparagraphformateffectivedata/fontalignment) { get; } | 단락의 글꼴 정렬을 반환합니다. 읽기 전용 [`FontAlignment`](../fontalignment). |
+| [HangingPunctuation](../../aspose.slides/iparagraphformateffectivedata/hangingpunctuation) { get; } | 단락에서 걸린 구두점이 사용되는지 여부를 판단합니다. 읽기 전용 Boolean. |
+| [Indent](../../aspose.slides/iparagraphformateffectivedata/indent) { get; } | 단락 첫 줄 들여쓰기/걸린 들여쓰기를 반환합니다. 걸린 들여쓰기는 음수 값으로 정의될 수 있습니다. 읽기 전용 Single. |
+| [LatinLineBreak](../../aspose.slides/iparagraphformateffectivedata/latinlinebreak) { get; } | 단락에서 라틴어 줄바꿈이 사용되는지 여부를 판단합니다. 읽기 전용 Boolean. |
+| [MarginLeft](../../aspose.slides/iparagraphformateffectivedata/marginleft) { get; } | 단락의 왼쪽 여백을 반환합니다. 읽기 전용 Single. |
+| [MarginRight](../../aspose.slides/iparagraphformateffectivedata/marginright) { get; } | 단락의 오른쪽 여백을 반환합니다. 읽기 전용 Single. |
+| [RightToLeft](../../aspose.slides/iparagraphformateffectivedata/righttoleft) { get; } | 단락에서 오른쪽에서 왼쪽 쓰기가 사용되는지 여부를 판단합니다. 읽기 전용 Boolean. |
+| [SpaceAfter](../../aspose.slides/iparagraphformateffectivedata/spaceafter) { get; } | 단락의 마지막 줄 후 공백 양을 반환합니다. 읽기 전용 Single. |
+| [SpaceBefore](../../aspose.slides/iparagraphformateffectivedata/spacebefore) { get; } | 단락의 첫 줄 전 공백 양을 반환합니다. 읽기 전용 Single. |
+| [SpaceWithin](../../aspose.slides/iparagraphformateffectivedata/spacewithin) { get; } | 단락의 기준선 사이 공백 양을 반환합니다. 읽기 전용 Single. |
+| [Tabs](../../aspose.slides/iparagraphformateffectivedata/tabs) { get; } | 단락의 탭을 반환합니다. 읽기 전용 [`ITabEffectiveData`](../itabeffectivedata)[]. |
 
 ### 비고
 
-이 인터페이스는 [`IParagraphFormat`](../iparagraphformat) 인터페이스와 함께 사용되어 상속이 적용된 유효한 서식 값을 반환합니다.
+이 인터페이스는 [`IParagraphFormat`](../iparagraphformat) 인터페이스와 함께 사용되어 상속이 적용된 실질적인 서식 값을 반환합니다.
 
-### 참고
+### 참조
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

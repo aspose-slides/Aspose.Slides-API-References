@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าของสีเอฟเฟกต์ให้เคลื่อนเข้าหรือออกจาก hue ตามจำนวนที่ระบุ.
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ไปทางหรือห่างจากสีหลักตามจำนวนที่ระบุ.
 type: docs
 weight: 3550
 url: /th/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ให้เคลื่อนเข้าหรือออกจาก hue ตามจำนวนที่ระบุ
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งเป็นตัวแทนของเอฟเฟกต์ Tint. ปรับค่าสีของเอฟเฟกต์ไปทางหรือห่างจากสีหลักตามจำนวนที่ระบุ.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -18,9 +18,9 @@ public interface ITintEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | คืนค่าปริมาณเอฟเฟกต์. อ่านอย่างเดียว Single. |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | คืนค่า hue. อ่านอย่างเดียว Single. |
+| [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | ส่งกลับจำนวนเอฟเฟกต์. อ่านอย่างเดียว Single. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | ส่งกลับสีหลัก. อ่านอย่างเดียว Single. |
 
 ### ดูเพิ่มเติม
 

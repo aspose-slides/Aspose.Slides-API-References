@@ -1,14 +1,14 @@
 ---
 title: AnimateTextType
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir animasyon etkisinin metin animasyon tipini temsil eder.
+description: Bir animasyon etkisinin animasyon metin tipini temsil eder.
 type: docs
-weight: 100
+weight: 120
 url: /tr/aspose.slides.animation/animatetexttype/
 ---
 ## AnimateTextType enum
 
-Bir animasyon etkisinin metin animasyon tipini temsil eder.
+Bir animasyon etkisinin animasyon metin tipini temsil eder.
 
 ```csharp
 public enum AnimateTextType
@@ -18,9 +18,9 @@ public enum AnimateTextType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| AllAtOnce | `0` | Tüm metni bir kerede animasyonla. |
-| ByWord | `1` | Metni kelime kelime animasyonla. |
-| ByLetter | `2` | Metni harf harf animasyonla. |
+| AllAtOnce | `0` | Tüm metni bir anda canlandırır. |
+| ByWord | `1` | Metni kelime kelime canlandırır. |
+| ByLetter | `2` | Metni harf harf canlandırır. |
 
 ### Ayrıca Bakınız
 

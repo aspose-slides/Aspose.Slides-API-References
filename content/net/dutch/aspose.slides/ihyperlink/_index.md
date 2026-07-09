@@ -1,6 +1,6 @@
 ---
 title: IHyperlink
-second_title: Aspose.Sildes voor .NET API-referentie
+second_title: Aspose.Sildes voor .NET API Referentie
 description: Stelt een hyperlink voor.
 type: docs
 weight: 6110
@@ -8,7 +8,7 @@ url: /nl/aspose.slides/ihyperlink/
 ---
 ## IHyperlink interface
 
-Representeert een hyperlink.
+Stelt een hyperlink voor.
 
 ```csharp
 public interface IHyperlink
@@ -19,16 +19,16 @@ public interface IHyperlink
 | Naam | Beschrijving |
 | --- | --- |
 | [ActionType](../../aspose.slides/ihyperlink/actiontype) { get; } | Retourneert het type van de actie van HyperLinkEx. Alleen-lezen [`HyperlinkActionType`](../hyperlinkactiontype). |
-| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Bepaalt de bron van de hyperlinkkleur - ofwel stijlen of gedeelte-indeling. Lezen/schrijven [`HyperlinkColorSource`](../hyperlinkcolorsource). |
-| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specificeert de externe URL. Als deze eigenschap niet null wordt, wordt de eigenschap TargetSlide null. Alleen-lezen String. |
-| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Geeft een hyperlink weer die voor dit gedeelte is ingesteld, ongeacht de feitelijke inhoud van het gedeelte. PowerPoint gedraagt zich specifiek voor links en hun bijbehorende tekst in een gedeelte. Het maakt het mogelijk om tekst voor de hyperlink te maken in de vorm van een geldige URL, anders dan het werkelijke adres van de link. In dit geval, wanneer u de link bekijkt in het bewerkingsvenster, wordt deze gewijzigd zodat deze overeenkomt met het tekstgedeelte. Deze eigenschap geeft de oorspronkelijke waarde van de hyperlink weer. |
+| [ColorSource](../../aspose.slides/ihyperlink/colorsource) { get; set; } | Stelt de bron van de hyperlinkkleur voor – ofwel stijlen of gedeelte-indeling. Lezen/schrijven [`HyperlinkColorSource`](../hyperlinkcolorsource). |
+| [ExternalUrl](../../aspose.slides/ihyperlink/externalurl) { get; } | Specificeert de externe URL. Als deze eigenschap niet null wordt, wordt eigenschap TargetSlide null. Alleen-lezen String. |
+| [ExternalUrlOriginal](../../aspose.slides/ihyperlink/externalurloriginal) { get; } | Stelt een hyperlink voor die is ingesteld voor dit gedeelte zonder rekening te houden met de feitelijke inhoud van het gedeelte. PowerPoint gedraagt zich specifiek voor koppelingen en hun bijbehorende tekst in een gedeelte. Het maakt het mogelijk om tekst voor de hyperlink te maken in de vorm van een geldige URL, anders dan het werkelijke adres van de koppeling. In dit geval, wanneer je de koppeling bekijkt in het bewerkingsvenster, wordt deze aangepast om overeen te komen met het tekstgedeelte. Deze eigenschap stelt de oorspronkelijke waarde van de hyperlink voor. |
 | [HighlightClick](../../aspose.slides/ihyperlink/highlightclick) { get; set; } | Bepaalt of de hyperlink gemarkeerd moet worden bij klikken. Lezen/schrijven Boolean. |
-| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Bepaalt of het doel van de bovenliggende hyperlink moet worden toegevoegd aan een lijst van bekeken hyperlinks wanneer deze wordt aangeroepen. Lezen/schrijven Boolean. |
-| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Geeft het afspelen van geluid van de hyperlink weer. Lezen/schrijven [`IAudio`](../iaudio). |
-| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bepaalt of het geluid moet stoppen bij een klik op de hyperlink. Lezen/schrijven Boolean. |
-| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Retourneert het frame binnen de bovenliggende HTML-frameset voor het doel van de bovenliggende hyperlink wanneer die bestaat. Lezen/schrijven String. |
-| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Als de HyperlinkEx een specifieke dia target, retourneert deze dia. Als de eigenschap niet null wordt, wordt de eigenschap ExternalUrl null. Alleen-lezen [`ISlide`](../islide). |
-| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Retourneert de string die in een gebruikersinterface kan worden weergegeven als geassocieerd met de bovenliggende hyperlink. Lezen/schrijven String. |
+| [History](../../aspose.slides/ihyperlink/history) { get; set; } | Bepaalt of het doel van de bovenliggende hyperlink moet worden toegevoegd aan een lijst met bekeken hyperlinks wanneer deze wordt aangeroepen. Lezen/schrijven Boolean. |
+| [Sound](../../aspose.slides/ihyperlink/sound) { get; set; } | Stelt het afspelen van het geluid van de hyperlink voor. Lezen/schrijven [`IAudio`](../iaudio). |
+| [StopSoundOnClick](../../aspose.slides/ihyperlink/stopsoundonclick) { get; set; } | Bepaalt of het geluid moet worden gestopt bij klikken op de hyperlink. Lezen/schrijven Boolean. |
+| [TargetFrame](../../aspose.slides/ihyperlink/targetframe) { get; set; } | Retourneert het frame binnen de bovenliggende HTML-frameset voor het doel van de bovenliggende hyperlink wanneer deze bestaat. Lezen/schrijven String. |
+| [TargetSlide](../../aspose.slides/ihyperlink/targetslide) { get; } | Als de HyperlinkEx een specifieke dia target, retourneert deze dia. Als de eigenschap niet null wordt, wordt eigenschap ExternalUrl null. Alleen-lezen [`ISlide`](../islide). |
+| [Tooltip](../../aspose.slides/ihyperlink/tooltip) { get; set; } | Retourneert de tekenreeks die mogelijk wordt weergegeven in een gebruikersinterface als geassocieerd met de bovenliggende hyperlink. Lezen/schrijven String. |
 
 ## Methoden
 
@@ -38,7 +38,7 @@ public interface IHyperlink
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides](../../aspose.slides)
+* namespace [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

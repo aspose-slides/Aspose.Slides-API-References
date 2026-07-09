@@ -1,14 +1,14 @@
 ---
 title: MathLimitLocations
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: n-ary ऑपरेटरों में सीमाओं के सबस्क्रिप्ट/सुपरसक्रिप्ट का स्थान।
+description: n-ary ऑपरेटरों में सीमाओं के सबस्क्रिप्ट/सुपरस्क्रिप्ट का स्थान।
 type: docs
 weight: 8840
 url: /hi/aspose.slides.mathtext/mathlimitlocations/
 ---
-## MathLimitLocations एन्यूमेरेशन
+## MathLimitLocations एन्यूमरेशन
 
-n-ary ऑपरेटरों में लिमिट्स (सबस्क्रिप्ट/सुपरसक्रिप्ट) का स्थान।
+n-ary ऑपरेटरों में सीमाओं (सबस्क्रिप्ट/सुपरस्क्रिप्ट) का स्थान।
 
 ```csharp
 public enum MathLimitLocations
@@ -19,10 +19,10 @@ public enum MathLimitLocations
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | NotDefined | `0` | परिभाषित नहीं |
-| UnderOver | `1` | लिमिट्स ऑपरेटर प्रतीक के ऊपर और नीचे खींचे जाते हैं |
-| SubscriptSuperscript | `2` | लिमिट्स को सबस्क्रिप्ट और सुपरसक्रिप्ट के रूप में खींचा जाता है |
+| UnderOver | `1` | ऑपरेटर प्रतीक के ऊपर और नीचे सीमा खींची जाती हैं |
+| SubscriptSuperscript | `2` | सीमाएँ उपस्क्रिप्ट और सुपरस्क्रिप्ट के रूप में खींची जाती हैं |
 
-### संबंधित
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * असेंबली [Aspose.Slides](../../)

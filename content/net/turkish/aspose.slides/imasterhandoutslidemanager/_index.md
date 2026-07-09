@@ -3,10 +3,10 @@ title: IMasterHandoutSlideManager
 second_title: Aspose.Sildes for .NET API Referansı
 description: Ana el ilanı slayt yöneticisi.
 type: docs
-weight: 6350
+weight: 6370
 url: /tr/aspose.slides/imasterhandoutslidemanager/
 ---
-## IMasterHandoutSlideManager arayüz
+## IMasterHandoutSlideManager arabirimi
 
 Ana el ilanı slayt yöneticisi.
 
@@ -18,7 +18,7 @@ public interface IMasterHandoutSlideManager
 
 | Ad | Açıklama |
 | --- | --- |
-| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Bu sunumdaki tüm not slaytları için bir master döndürür, eğer mevcutsa, aksi takdirde null döndürür. Salt okunur [`IMasterHandoutSlide`](../imasterhandoutslide). |
+| [MasterHandoutSlide](../../aspose.slides/imasterhandoutslidemanager/masterhandoutslide) { get; } | Bu sunumdaki tüm not slaytları için bir ana slaytı döndürür; eğer varsa, aksi takdirde null döndürür. Salt okunur [`IMasterHandoutSlide`](../imasterhandoutslide). |
 
 ## Yöntemler
 

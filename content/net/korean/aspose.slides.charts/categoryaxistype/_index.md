@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Aspose.Sildes for .NET API 참조
-description: 범주 축의 유형을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 카테고리 축의 유형을 나타냅니다.
 type: docs
 weight: 1250
 url: /ko/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType 열거형
 
-범주 축의 유형을 나타냅니다.
+카테고리 축의 유형을 나타냅니다.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,10 +18,10 @@ public enum CategoryAxisType
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Text | `0` | 범주 축이 텍스트 축임을 지정합니다. |
-| Date | `1` | 범주 축이 날짜 축임을 지정합니다. |
+| Text | `0` | 카테고리 축이 텍스트 축임을 지정합니다. |
+| Date | `1` | 카테고리 축이 날짜 축임을 지정합니다. |
 
-### 또 보기
+### 참조
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

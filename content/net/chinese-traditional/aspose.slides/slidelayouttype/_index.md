@@ -18,44 +18,44 @@ public enum SlideLayoutType : sbyte
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| Custom | `-1` | Custom |
-| Title | `0` | Title |
-| Text | `1` | Text |
-| TwoColumnText | `2` | Two Column Text |
-| Table | `3` | Table |
-| TextAndChart | `4` | Text and Chart |
-| ChartAndText | `5` | Chart and Text |
-| Diagram | `6` | Diagram |
-| Chart | `7` | Chart |
-| TextAndClipArt | `8` | Text and Clip Art |
-| ClipArtAndText | `9` | Clip Art and Text |
-| TitleOnly | `10` | Title Only |
-| Blank | `11` | Blank |
-| TextAndObject | `12` | Text and Object |
-| ObjectAndText | `13` | Object and Text |
-| Object | `14` | Object |
-| TitleAndObject | `15` | Title and Object |
-| TextAndMedia | `16` | Text and Media |
-| MediaAndText | `17` | Media and Text |
-| ObjectOverText | `18` | Object over Text |
-| TextOverObject | `19` | Text over Object |
-| TextAndTwoObjects | `20` | Text and Two Objects |
-| TwoObjectsAndText | `21` | Two Objects and Text |
-| TwoObjectsOverText | `22` | Two Objects over Text |
-| FourObjects | `23` | Four Objects |
-| VerticalText | `24` | Vertical Text |
-| ClipArtAndVerticalText | `25` | Clip Art and Vertical Text |
-| VerticalTitleAndText | `26` | Vertical Title and Text |
-| VerticalTitleAndTextOverChart | `27` | Vertical Title and Text Over Chart |
-| TwoObjects | `28` | Two Objects |
-| ObjectAndTwoObject | `29` | Object and Two Object |
-| TwoObjectsAndObject | `30` | Two Objects and Object |
-| SectionHeader | `31` | Section Header |
-| TwoTextAndTwoObjects | `32` | Two Text and Two Objects |
-| TitleObjectAndCaption | `33` | Title, Object, and Caption |
-| PictureAndCaption | `34` | Picture and Caption |
+| Custom | `-1` | 自訂 |
+| Title | `0` | 標題 |
+| Text | `1` | 文字 |
+| TwoColumnText | `2` | 兩欄文字 |
+| Table | `3` | 表格 |
+| TextAndChart | `4` | 文字與圖表 |
+| ChartAndText | `5` | 圖表與文字 |
+| Diagram | `6` | 圖示 |
+| Chart | `7` | 圖表 |
+| TextAndClipArt | `8` | 文字與剪貼畫 |
+| ClipArtAndText | `9` | 剪貼畫與文字 |
+| TitleOnly | `10` | 僅標題 |
+| Blank | `11` | 空白 |
+| TextAndObject | `12` | 文字與物件 |
+| ObjectAndText | `13` | 物件與文字 |
+| Object | `14` | 物件 |
+| TitleAndObject | `15` | 標題與物件 |
+| TextAndMedia | `16` | 文字與媒體 |
+| MediaAndText | `17` | 媒體與文字 |
+| ObjectOverText | `18` | 物件覆蓋文字 |
+| TextOverObject | `19` | 文字覆蓋物件 |
+| TextAndTwoObjects | `20` | 文字與兩個物件 |
+| TwoObjectsAndText | `21` | 兩個物件與文字 |
+| TwoObjectsOverText | `22` | 兩個物件覆蓋文字 |
+| FourObjects | `23` | 四個物件 |
+| VerticalText | `24` | 直排文字 |
+| ClipArtAndVerticalText | `25` | 剪貼畫與直排文字 |
+| VerticalTitleAndText | `26` | 直排標題與文字 |
+| VerticalTitleAndTextOverChart | `27` | 直排標題與文字覆蓋圖表 |
+| TwoObjects | `28` | 兩個物件 |
+| ObjectAndTwoObject | `29` | 物件與兩個物件 |
+| TwoObjectsAndObject | `30` | 兩個物件與物件 |
+| SectionHeader | `31` | 章節標題 |
+| TwoTextAndTwoObjects | `32` | 兩段文字與兩個物件 |
+| TitleObjectAndCaption | `33` | 標題、物件與說明文字 |
+| PictureAndCaption | `34` | 圖片與說明文字 |
 
-### 另見
+### 另請參閱
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

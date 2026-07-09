@@ -1,14 +1,14 @@
 ---
 title: FilterEffectSubtype
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt filtereffectsubtypes.
+description: Stelt filtereffectsubtypen voor.
 type: docs
 weight: 390
 url: /nl/aspose.slides.animation/filtereffectsubtype/
 ---
 ## FilterEffectSubtype enumeratie
 
-Geeft filtereffectsubtypes weer.
+Stelt filtereffectsubtypen voor.
 
 ```csharp
 public enum FilterEffectSubtype
@@ -16,7 +16,7 @@ public enum FilterEffectSubtype
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Naam | Waarde | Omschrijving |
 | --- | --- | --- |
 | None | `0` |  |
 | Across | `1` |  |

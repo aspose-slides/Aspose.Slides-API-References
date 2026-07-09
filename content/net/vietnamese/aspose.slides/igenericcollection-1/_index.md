@@ -1,14 +1,14 @@
 ---
 title: IGenericCollectionT
 second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Giao diện bộ sưu tập chung phụ trợ.
+description: Giao diện bộ sưu tập tổng quát phụ trợ.
 type: docs
 weight: 5960
 url: /vi/aspose.slides/igenericcollection-1/
 ---
 ## IGenericCollection<T> giao diện
 
-Giao diện bộ sưu tập chung phụ trợ.
+Giao diện bộ sưu tập tổng quát phụ trợ.
 
 ```csharp
 public interface IGenericCollection<T> : ICollection, IEnumerable<T>

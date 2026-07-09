@@ -1,14 +1,14 @@
 ---
 title: IKnownIssueWarningInfo
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 近い将来に修正されない既知の問題に関する警告を表します。
 type: docs
-weight: 11740
+weight: 11760
 url: /ja/aspose.slides.warnings/iknownissuewarninginfo/
 ---
 ## IKnownIssueWarningInfo インターフェイス
 
-既知の問題に関する警告を表します。この問題は近い将来修正される予定はありません。
+既知の問題に関する警告を表します。この問題は近い将来に修正される予定はありません。
 
 ```csharp
 public interface IKnownIssueWarningInfo : IWarningInfo

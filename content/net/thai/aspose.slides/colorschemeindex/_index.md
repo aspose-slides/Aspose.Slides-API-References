@@ -1,20 +1,20 @@
 ---
 title: ColorSchemeIndex
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนค่าตำแหน่งในชุดสี.
+description: แทนค่าดัชนีในชุดสี
 type: docs
 weight: 2550
 url: /th/aspose.slides/colorschemeindex/
 ---
-## การกำหนดค่า ColorSchemeIndex
+## ColorSchemeIndex ประเภทการนับ
 
-แทนค่าตำแหน่งในชุดสี.
+แทนค่าดัชนีในชุดสี
 
 ```csharp
 public enum ColorSchemeIndex : byte
 ```
 
-### ค่า
+### Values
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
@@ -22,12 +22,12 @@ public enum ColorSchemeIndex : byte
 | Light1 | `1` | สีอ่อน 1. |
 | Dark2 | `2` | สีเข้ม 2. |
 | Light2 | `3` | สีอ่อน 2. |
-| Accent1 | `4` | สีเน้น 1. |
-| Accent2 | `5` | สีเน้น 2. |
-| Accent3 | `6` | สีเน้น 3. |
-| Accent4 | `7` | สีเน้น 4. |
-| Accent5 | `8` | สีเน้น 5. |
-| Accent6 | `9` | สีเน้น 6. |
+| Accent1 | `4` | สำเนียง 1. |
+| Accent2 | `5` | สำเนียง 2. |
+| Accent3 | `6` | สำเนียง 3. |
+| Accent4 | `7` | สำเนียง 4. |
+| Accent5 | `8` | สำเนียง 5. |
+| Accent6 | `9` | สำเนียง 6. |
 | Hyperlink | `10` | ไฮเปอร์ลิงก์. |
 | FollowedHyperlink | `11` | ไฮเปอร์ลิงก์ที่ตามแล้ว. |
 

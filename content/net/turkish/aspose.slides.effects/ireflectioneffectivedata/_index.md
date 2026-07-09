@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes için .NET API Referansı
-description: Yansıtma efektini temsil eden değişmez nesne.
+second_title: Aspose.Sildes .NET API Referansı
+description: Yansıma etkisini temsil eden değişmez nesne.
 type: docs
-weight: 3490
+weight: 3510
 url: /tr/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData arayüzü
 
-Yansıtma etkisini temsil eden değişmez nesne.
+Değişmez nesne, yansıma etkisini temsil eder.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -20,19 +20,19 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Temel IEffectEffectiveData arayüzünü almayı sağlar. Yalnızca okunabilir [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Bulanıklık yarıçapı. Yalnızca okunabilir Double. |
-| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Yansıtmanın yönü. Yalnızca okunabilir Single. |
-| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Yansıtmanın mesafesi. Yalnızca okunabilir Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Son alfa değerinin (yüzde) alfa gradyanı rampası üzerindeki son konumunu belirler. Yalnızca okunabilir Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Son yansıtma opaklığı. (yüzde). Yalnızca okunabilir Single. |
-| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Yansıtmanın kaydırılacağı yönü belirtir. (açı). Yalnızca okunabilir Single. |
+| [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Yansımanın yönü. Yalnızca okunabilir Single. |
+| [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Yansımanın mesafesi. Yalnızca okunabilir Double. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Alpha değerinin (yüzde) son konumunu (alpha gradyan rampası boyunca) belirtir. Yalnızca okunabilir Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Yansımanın son opaklığı. (yüzde). Yalnızca okunabilir Single. |
+| [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Yansımanın kaydırma yönünü belirtir. (açı). Yalnızca okunabilir Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Dikdörtgen hizalaması. Yalnızca okunabilir [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Şekil döndürülürse yansıtmanın da şekille birlikte dönüp dönmeyeceğini belirtir. Yalnızca okunabilir Boolean. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Şekil döndürülürse yansıtmanın şekil ile birlikte döndürülüp döndürülmeyeceğini belirtir. Yalnızca okunabilir Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Yatay ölçekleme faktörünü belirtir, negatif ölçekleme ters çevirir. (yüzde) Yalnızca okunabilir Double. |
 | [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Dikey ölçekleme faktörünü belirtir, negatif ölçekleme ters çevirir. (yüzde) Yalnızca okunabilir Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Yatay çarpıtma açısını belirtir. Yalnızca okunabilir Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Dikey çarpıtma açısını belirtir. Yalnızca okunabilir Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Başlangıç alfa değerinin (yüzde) alfa gradyanı rampası üzerindeki konumunu belirtir. Yalnızca okunabilir Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Başlangıç yansıtma opaklığı. (yüzde). Yalnızca okunabilir Single. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Yatay eğim açısını belirtir. Yalnızca okunabilir Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Dikey eğim açısını belirtir. Yalnızca okunabilir Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Alpha değerinin (yüzde) başlangıç konumunu (alpha gradyan rampası boyunca) belirtir. Yalnızca okunabilir Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Yansımanın başlangıç opaklığı. (yüzde). Yalnızca okunabilir Single. |
 
 ### Ayrıca Bakınız
 

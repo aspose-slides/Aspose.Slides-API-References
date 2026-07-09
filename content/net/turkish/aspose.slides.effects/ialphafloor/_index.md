@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloor
 second_title: Aspose.Sildes için .NET API Referansı
-description: Alpha Floor etkisini temsil eder. Alpha opaklık değerleri %100'den düşükse sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
+description: Bir Alpha Katmanı etkisini temsil eder. %100'den düşük alfa opaklık değerleri sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf hâle gelir.
 type: docs
-weight: 3040
+weight: 3060
 url: /tr/aspose.slides.effects/ialphafloor/
 ---
 ## IAlphaFloor arayüz
 
-Alpha Floor etkisini temsil eder. Alpha (opaklık) değerleri %100'den düşükse sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf olur.
+Alfa Katmanı (Alpha Floor) etkisini temsil eder. %100’ten düşük alfa (opaklık) değerleri sıfıra ayarlanır. Başka bir deyişle, kısmen şeffaf olan her şey tamamen şeffaf hâle gelir.
 
 ```csharp
 public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>, 
@@ -19,8 +19,8 @@ public interface IAlphaFloor : IAccessiblePVIObject<IAlphaFloorEffectiveData>,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphafloor/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almaya izin verir. Yalnızca okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphafloor/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almaya izin verir. Yalnızca okuma [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Ayrıca Bakınız
 

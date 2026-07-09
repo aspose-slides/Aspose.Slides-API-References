@@ -1,14 +1,14 @@
 ---
 title: GeneratePresentationAsync
-second_title: Aspose.Sildes .NET API referenciája
-description: Prezentációpéldányt generál egy szöveges leírásból. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Létrehoz egy prezentáció példányt egy szöveges leírásból. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven.
 type: docs
 weight: 30
 url: /hu/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
 ## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
 
-Prezentációpéldányt generál egy szöveges leírásból. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
+Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -18,13 +18,21 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | description | String | A téma, ötletek, idézetek vagy szövegrészletek. |
-| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrehozott prezentációban. |
+| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrejövő prezentációban. |
 
-### Kivételek
+### Kivétel
 
-| kivétel | feltétel |
+| Kivétel | Feltétel |
 | --- | --- |
-| ArgumentException | Az AI chat utasítás nem lehet null vagy üres. |
+| ArgumentException | AI chat instruction can't be null or empty. |
+
+### Megjegyzés
+
+Az alábbi példa az alapértelmezett [`AsposeAIWebClient`](../../asposeaiwebclient)-t használja, amelyet a paraméter nélküli [`SlidesAIAgent`](../slidesaiagent) konstruktor hoz létre, és az Aspose saját LLM-jéhez csatlakozik. Egy másik AI szolgáltató használatához, saját LLM biztosításához vagy a kapcsolat testreszabásához (például egy saját `HttpClient` megadásával), adjon át egy [`IAIWebClient`](../../iaiwebclient) implementációt a [`SlidesAIAgent`](../slidesaiagent) konstruktorhoz. Az elérhető implementációk a következők:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lásd még
 
@@ -38,7 +46,7 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
 
-Prezentációpéldányt generál egy szöveges leírásból. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a kívánt nyelven.
+Létrehoz egy prezentáció példányt egy szöveges leírás alapján. Adjon meg egy témát, ötleteket, idézeteket vagy szövegrészleteket a szükséges nyelven.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
@@ -48,15 +56,23 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 | Paraméter | Típus | Leírás |
 | --- | --- | --- |
 | description | String | A téma, ötletek, idézetek vagy szövegrészletek. |
-| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrehozott prezentációban. |
-| presentationTemplate | IPresentation | Egy prezentáció, amelyet sablonként használ a elrendezéshez és a dizájnhoz, felülbírálva az alapértelmezett sablont. |
+| presentationContentAmount | PresentationContentAmountType | A tartalom mennyisége a létrejövő prezentációban. |
+| presentationTemplate | IPresentation | Egy prezentáció, amelyet sablonként használ a elrendezéshez és a dizájnhoz, felülírva az alapértelmezett sablont. |
 
-### Kivételek
+### Kivétel
 
-| kivétel | feltétel |
+| Kivétel | Feltétel |
 | --- | --- |
-| ArgumentNullException | A prezentációs sablon nincs megadva. |
-| ArgumentException | Az AI chat utasítás nem lehet null vagy üres. |
+| ArgumentNullException | Presentation template is not provided. |
+| ArgumentException | AI chat instruction can't be null or empty. |
+
+### Megjegyzés
+
+Az alábbi példa az alapértelmezett [`AsposeAIWebClient`](../../asposeaiwebclient)-t használja, amelyet a paraméter nélküli [`SlidesAIAgent`](../slidesaiagent) konstruktor hoz létre, és az Aspose saját LLM-jéhez csatlakozik. Egy másik AI szolgáltató használatához, saját LLM biztosításához vagy a kapcsolat testreszabásához (például egy saját `HttpClient` megadásával), adjon át egy [`IAIWebClient`](../../iaiwebclient) implementációt a [`SlidesAIAgent`](../slidesaiagent) konstruktorhoz. Az elérhető implementációk a következők:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lásd még
 

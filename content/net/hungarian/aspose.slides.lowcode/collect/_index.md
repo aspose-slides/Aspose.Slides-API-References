@@ -1,14 +1,14 @@
 ---
 title: Collect
-second_title: Aspose.Sildes .NET API Referencia
-description: Képviseli a metóduscsoportot, amely különböző típusú modellobjektumok összegyűjtésére szolgál a Presentation../aspose.slides/presentation-ból.
+second_title: Aspose.Sildes .NET API referencia
+description: A Presentation../aspose.slides/presentation-ból különböző típusú modellobjektumok összegyűjtésére szánt metóduscsoportot képviseli.
 type: docs
-weight: 7840
+weight: 7860
 url: /hu/aspose.slides.lowcode/collect/
 ---
 ## Collect osztály
 
-Képviseli a metóduscsoportot, amely különböző típusú modellobjektumok összegyűjtésére szolgál a [`Presentation`](../../aspose.slides/presentation)-ből.
+A [`Presentation`](../../aspose.slides/presentation) különböző típusú modellobjektumok összegyűjtésére szolgáló metódusok egy csoportját képviseli.
 
 ```csharp
 public static class Collect
@@ -18,7 +18,7 @@ public static class Collect
 
 | Név | Leírás |
 | --- | --- |
-| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | Az összes [`Shape`](../../aspose.slides/shape) példányt gyűjti össze a [`Presentation`](../../aspose.slides/presentation)-ben. |
+| static [Shapes](../../aspose.slides.lowcode/collect/shapes)(Presentation) | [`Shape`](../../aspose.slides/shape) összes példányát gyűjti össze a [`Presentation`](../../aspose.slides/presentation)-ban. |
 
 ### Példák
 
@@ -27,7 +27,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     foreach (Shape shape in Collect.Shapes(pres))
     {
-        // ... alakzat formázásának vagy egyéb tulajdonságok módosítása
+        // ... módosítsa a forma formázását vagy egyéb tulajdonságokat
     }
 }    
 ```

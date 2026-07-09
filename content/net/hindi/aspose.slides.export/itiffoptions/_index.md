@@ -1,14 +1,14 @@
----
+--- 
 title: ITiffOptions
-second_title: Aspose.Sildes के लिये .NET API संदर्भ
-description: विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति TIFF स्वरूप में कैसे सहेजी जाती है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: विकल्प प्रदान करता है जो यह नियंत्रित करते हैं कि प्रस्तुति को TIFF स्वरूप में कैसे सहेजा जाए।
 type: docs
 weight: 4170
 url: /hi/aspose.slides.export/itiffoptions/
 ---
 ## ITiffOptions इंटरफ़ेस
 
-प्रेजेंटेशन को TIFF फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रस्तुति को TIFF स्वरूप में कैसे सहेजा जाए।
 
 ```csharp
 public interface ITiffOptions : ISaveOptions
@@ -18,21 +18,21 @@ public interface ITiffOptions : ISaveOptions
 
 | नाम | विवरण |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
-| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | रंगीन छवि को काली और सफ़ेद छवि में बदलने के लिए एल्गोरिद्म निर्दिष्ट करता है। यह विकल्प केवल तभी लागू होगा जब [`CompressionType`](./compressiontype) को CCITT4 या CCITT3 पर सेट किया जाएगा। पढ़ने/लिखने योग्य [`BlackWhiteConversionMode`](../blackwhiteconversionmode)। डिफ़ॉल्ट है Default। |
-| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | संपीड़न प्रकार निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`TiffCompressionTypes`](../tiffcompressiontypes)। |
-| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | डॉट्स प्रति इंच में क्षैतिज रिज़ॉल्यूशन निर्दिष्ट करता है। पढ़ने/लिखने योग्य UInt32। |
-| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | डॉट्स प्रति इंच में ऊर्ध्वाधर रिज़ॉल्यूशन निर्दिष्ट करता है। पढ़ने/लिखने योग्य UInt32। |
-| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | जनरेट किए गए TIFF छवि का आकार निर्दिष्ट करता है। डिफ़ॉल्ट मान 0x0 है, जिसका अर्थ है कि जनरेट की गई छवि आकार प्रस्तुति स्लाइड आकार मान के आधार पर गणना किया जाएगा। पढ़ने/लिखने योग्य Size। |
-| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | निर्यात किए गए दस्तावेज़ में Ink वस्तुओं की उपस्थिति को नियंत्रित करने वाले विकल्प प्रदान करता है। केवल-पढ़ने योग्य [`IInkOptions`](../iinkoptions) |
-| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | जनरेट किए गए छवियों के लिए पिक्सेल फ़ॉर्मेट निर्दिष्ट करता है। पढ़ने/लिखने योग्य [`ImagePixelFormat`](../imagepixelformat)। |
-| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | निर्धारित करता है कि जनरेट किया गया दस्तावेज़ छिपी हुई स्लाइड्स शामिल करे या नहीं। डिफ़ॉल्ट है `false`। |
-| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | प्रेजेंटेशन को निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions)। |
+| [AsISaveOptions](../../aspose.slides.export/itiffoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस लौटाता है। केवल पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
+| [BwConversionMode](../../aspose.slides.export/itiffoptions/bwconversionmode) { get; set; } | रंग छवि को काली और सफेद छवि में परिवर्तित करने के लिए एल्गोरिद्म निर्दिष्ट करता है। यह विकल्प केवल तभी लागू होगा जब [`CompressionType`](./compressiontype) को CCITT4 या CCITT3 पर सेट किया गया हो। पढ़ें/लिखें [`BlackWhiteConversionMode`](../blackwhiteconversionmode)। डिफ़ॉल्ट है Default. |
+| [CompressionType](../../aspose.slides.export/itiffoptions/compressiontype) { get; set; } | संपीड़न प्रकार निर्दिष्ट करता है। पढ़ें/लिखें [`TiffCompressionTypes`](../tiffcompressiontypes)। |
+| [DpiX](../../aspose.slides.export/itiffoptions/dpix) { get; set; } | डॉट प्रति इंच में क्षैतिज रिज़ॉल्यूशन निर्दिष्ट करता है। पढ़ें/लिखें UInt32। |
+| [DpiY](../../aspose.slides.export/itiffoptions/dpiy) { get; set; } | डॉट प्रति इंच में लंबवत रिज़ॉल्यूशन निर्दिष्ट करता है। पढ़ें/लिखें UInt32। |
+| [ImageSize](../../aspose.slides.export/itiffoptions/imagesize) { get; set; } | उत्पन्न TIFF छवि का आकार निर्दिष्ट करता है। डिफ़ॉल्ट मान 0x0 है, जिसका अर्थ है कि उत्पन्न छवि आकार प्रस्तुति स्लाइड आकार मान के आधार पर गणना किए जाएंगे। पढ़ें/लिखें Size। |
+| [InkOptions](../../aspose.slides.export/itiffoptions/inkoptions) { get; } | निर्यातित दस्तावेज़ में Ink वस्तुओं की दिखावट को नियंत्रित करने के विकल्प प्रदान करता है। केवल पढ़ने योग्य [`IInkOptions`](../iinkoptions) |
+| [PixelFormat](../../aspose.slides.export/itiffoptions/pixelformat) { get; set; } | उत्पन्न छवियों के लिए पिक्सेल फ़ॉर्मेट निर्दिष्ट करता है। पढ़ें/लिखें [`ImagePixelFormat`](../imagepixelformat)। |
+| [ShowHiddenSlides](../../aspose.slides.export/itiffoptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि उत्पन्न दस्तावेज़ में छिपी स्लाइडें शामिल हों या नहीं। डिफ़ॉल्ट है `false`। |
+| [SlidesLayoutOptions](../../aspose.slides.export/itiffoptions/slideslayoutoptions) { get; set; } | प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions)। |
 
 ### देखें भी
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
+* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

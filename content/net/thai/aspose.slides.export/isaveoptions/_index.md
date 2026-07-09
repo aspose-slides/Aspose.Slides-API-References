@@ -1,14 +1,14 @@
 ---
 title: ISaveOptions
-second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
-description: ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอ
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+description: ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอ
 type: docs
 weight: 4070
 url: /th/aspose.slides.export/isaveoptions/
 ---
 ## ISaveOptions อินเทอร์เฟซ
 
-ตัวเลือกที่ควบคุมวิธีการบันทึกงานนำเสนอ
+ตัวเลือกที่ควบคุมวิธีการบันทึกการนำเสนอ
 
 ```csharp
 public interface ISaveOptions
@@ -18,11 +18,11 @@ public interface ISaveOptions
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | คืนค่า หรือ ตั้งค่าแบบอักษรที่ใช้ในกรณีที่ไม่พบบต้นแบบแบบอักษร ค่าที่อ่าน/เขียน String. |
-| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | คืนค่า หรือ ตั้งค่าลักษณะการแสดงผลของการไล่ระดับสี ค่าที่อ่าน/เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | แทนวัตถุ callback สำหรับอัปเดตความคืบหน้าการบันทึกเป็นเปอร์เซ็นต์ ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อบันทึกงานนำเสนอ ค่าที่อ่าน/เขียน Boolean ค่าเริ่มต้นคือ **false**. |
-| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | คืนค่า หรือ ตั้งค่าวัตถุที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก ค่าที่อ่าน/เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [DefaultRegularFont](../../aspose.slides.export/isaveoptions/defaultregularfont) { get; set; } | คืนค่า หรือ กำหนดแบบอักษรที่ใช้ในกรณีที่ไม่พบแบบอักษรต้นฉบับ. อ่าน-เขียน String. |
+| [GradientStyle](../../aspose.slides.export/isaveoptions/gradientstyle) { get; set; } | คืนค่า หรือ กำหนดสไตล์การแสดงผลของการไล่ระดับสี. อ่าน-เขียน [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [ProgressCallback](../../aspose.slides.export/isaveoptions/progresscallback) { get; set; } | แสดงวัตถุ callback สำหรับอัปเดตความคืบหน้าการบันทึกเป็นเปอร์เซ็นต์. ดู [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/isaveoptions/skipjavascriptlinks) { get; set; } | ระบุว่าจะข้ามไฮเปอร์ลิงก์ที่มีการเรียก JavaScript หรือไม่เมื่อต้องบันทึกการนำเสนอ. อ่าน-เขียน Boolean. ค่าเริ่มต้นคือ **false**. |
+| [WarningCallback](../../aspose.slides.export/isaveoptions/warningcallback) { get; set; } | คืนค่า หรือ กำหนดวัตถุที่รับคำเตือนและตัดสินใจว่ากระบวนการโหลดจะดำเนินต่อหรือยกเลิก. อ่าน-เขียน [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### ดูเพิ่มเติม
 

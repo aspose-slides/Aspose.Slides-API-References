@@ -1,14 +1,14 @@
 ---
 title: ILegend
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn các thuộc tính chú giải của biểu đồ.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị các thuộc tính legend của biểu đồ.
 type: docs
 weight: 2130
 url: /vi/aspose.slides.charts/ilegend/
 ---
 ## ILegend giao diện
 
-Biểu diễn các thuộc tính chú giải của biểu đồ.
+Biểu thị các thuộc tính legend của biểu đồ.
 
 ```csharp
 public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
@@ -18,12 +18,12 @@ public interface ILegend : IActualLayout, IFormattedTextContainer, ILayoutable
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện IFormattedTextContainer cơ bản. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
-| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Cho phép lấy giao diện ILayoutable cơ bản. Chỉ đọc [`ILayoutable`](../ilayoutable). |
-| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lấy các mục chú giải. Chỉ đọc [`ILegendEntryCollection`](../ilegendentrycollection). |
-| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Trả về định dạng của chú giải. Chỉ đọc [`IFormat`](../iformat). |
-| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Xác định liệu các thành phần biểu đồ khác có được phép chồng lên chú giải hay không. Đọc/ghi Boolean. |
-| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Xác định vị trí của chú giải trên biểu đồ. Các giá trị không phải NaN của các thuộc tính X, Y, Width, Heigt ghi đè hiệu ứng của thuộc tính này. Đọc/ghi [`LegendPositionType`](../legendpositiontype). |
+| [AsIFormattedTextContainer](../../aspose.slides.charts/ilegend/asiformattedtextcontainer) { get; } | Cho phép lấy giao diện cơ sở IFormattedTextContainer. Chỉ đọc [`IFormattedTextContainer`](../iformattedtextcontainer). |
+| [AsILayoutable](../../aspose.slides.charts/ilegend/asilayoutable) { get; } | Cho phép lấy giao diện cơ sở ILayoutable. Chỉ đọc [`ILayoutable`](../ilayoutable). |
+| [Entries](../../aspose.slides.charts/ilegend/entries) { get; } | Lấy các mục legend. Chỉ đọc [`ILegendEntryCollection`](../ilegendentrycollection). |
+| [Format](../../aspose.slides.charts/ilegend/format) { get; } | Trả về định dạng của một legend. Chỉ đọc [`IFormat`](../iformat). |
+| [Overlay](../../aspose.slides.charts/ilegend/overlay) { get; set; } | Xác định liệu các phần tử biểu đồ khác có được phép chồng lên legend hay không. Đọc/ghi Boolean. |
+| [Position](../../aspose.slides.charts/ilegend/position) { get; set; } | Xác định vị trí của legend trên biểu đồ. Các giá trị không phải NaN của các thuộc tính X, Y, Width, Heigt ghi đè tác dụng của thuộc tính này. Đọc/ghi [`LegendPositionType`](../legendpositiontype). |
 
 ### Xem thêm
 

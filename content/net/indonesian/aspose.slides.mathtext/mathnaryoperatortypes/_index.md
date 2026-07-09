@@ -1,14 +1,14 @@
 ---
 title: MathNaryOperatorTypes
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: tipe operator Nary IMathNaryOperator selain integral Untuk integral MathIntegralTypes./mathintegraltypes
+description: Tipe operator N-ary IMathNaryOperator tidak termasuk integral. Untuk integral MathIntegralTypes./mathintegraltypes
 type: docs
-weight: 8870
+weight: 8890
 url: /id/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
 ## MathNaryOperatorTypes enumerasi
 
-Operator Nary IMathNaryOperator (tidak termasuk integral) Untuk integral [`MathIntegralTypes`](../mathintegraltypes)
+Tipe operator N-ary IMathNaryOperator (mengecualikan integral) Untuk integral [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes

@@ -3,7 +3,7 @@ title: AxisFormat
 second_title: Aspose.Sildes の .NET API リファレンス
 description: チャートの書式プロパティを表します。
 type: docs
-weight: 1180
+weight: 1200
 url: /ja/aspose.slides.charts/axisformat/
 ---
 ## AxisFormat クラス
@@ -22,7 +22,7 @@ public sealed class AxisFormat : DomObject<Axis>, IAxisFormat
 | [Fill](../../aspose.slides.charts/axisformat/fill) { get; } | 軸の塗りつぶしスタイルプロパティを返します。読み取り専用 [`IFillFormat`](../../aspose.slides/ifillformat)。 |
 | [Line](../../aspose.slides.charts/axisformat/line) { get; } | 軸の線スタイルプロパティを返します。読み取り専用 [`ILineFormat`](../../aspose.slides/ilineformat)。 |
 
-### 参照
+### 関連項目
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [Axis](../axis)

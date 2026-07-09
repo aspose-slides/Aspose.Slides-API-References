@@ -3,10 +3,10 @@ title: PictureType
 second_title: Aspose.Sildes för .NET API-referens
 description: Bestämmer läget för stapelns bildfyllning.
 type: docs
-weight: 2340
+weight: 2360
 url: /sv/aspose.slides.charts/picturetype/
 ---
-## PictureType-enumeration
+## PictureType enum
 
 Bestämmer läget för stapelns bildfyllning.
 
@@ -19,11 +19,11 @@ public enum PictureType
 | Namn | Värde | Beskrivning |
 | --- | --- | --- |
 | NotDefined | `-1` | Ej definierad. |
-| Stack | `0` | Bilden storleksanpassas för att upprepas högst 15 gånger i den längsta staplade stapeln. |
-| StackScale | `1` | Bilden storleksanpassas till ett specificerat antal enheter och upprepas längs stapelns längd. |
-| Stretch | `2` | Bilden sträcks över hela längden av den staplade stapeln. |
+| Stack | `0` | Bilden storleksanpassas för att upprepas maximalt 15 gånger i den längst staplade stapeln. |
+| StackScale | `1` | Bilden skalas till ett angivet antal enheter och upprepas längs stapelns längd. |
+| Stretch | `2` | Bilden sträcks över hela längden på den staplade stapeln. |
 
-### Se även
+### Se också
 
 * namnrymd [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

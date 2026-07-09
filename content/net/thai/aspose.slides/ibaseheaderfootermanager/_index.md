@@ -1,14 +1,14 @@
 ---
 title: IBaseHeaderFooterManager
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงผู้จัดการที่เก็บพฤติกรรมของตารางส่วนล่าง วันที่-เวลา และตำแหน่งที่พักของหมายเลขหน้า สำหรับทุกประเภทสไลด์
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงผู้จัดการที่ดูแลพฤติกรรมของส่วนเท้า วันที่-เวลา ตัวแปรตำแหน่งเลขหน้า สำหรับทุกประเภทสไลด์
 type: docs
 weight: 5300
 url: /th/aspose.slides/ibaseheaderfootermanager/
 ---
 ## IBaseHeaderFooterManager อินเทอร์เฟซ
 
-แสดงถึงผู้จัดการที่เก็บพฤติกรรมของตารางส่วนล่าง วันที่-เวลา และตำแหน่งที่พักของหมายเลขหน้า สำหรับทุกประเภทสไลด์
+แสดงถึงผู้จัดการที่จัดการพฤติกรรมของส่วนเท้า, วันที่-เวลา, ตัวแปรตำแหน่งเลขหน้า สำหรับทุกประเภทสไลด์
 
 ```csharp
 public interface IBaseHeaderFooterManager

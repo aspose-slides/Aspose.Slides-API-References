@@ -1,14 +1,14 @@
 ---
 title: IPictureFillFormatEffectiveData
-second_title: Aspose.Slides voor .NET API-referentie
-description: Onveranderlijk object dat de eigenschappen van picture fill bevat.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Onveranderlijk object dat de eigenschappen van afbeeldingvulling bevat.
 type: docs
 weight: 6660
 url: /nl/aspose.slides/ipicturefillformateffectivedata/
 ---
 ## IPictureFillFormatEffectiveData interface
 
-Onveranderlijk object dat de eigenschappen van picture fill bevat.
+Onveranderlijk object dat de eigenschappen van een afbeeldingvulling bevat.
 
 ```csharp
 public interface IPictureFillFormatEffectiveData : IFillParamSource
@@ -16,16 +16,16 @@ public interface IPictureFillFormatEffectiveData : IFillParamSource
 
 ## Eigenschappen
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Staat toe de basis IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
-| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Geeft het aantal procenten van de werkelijke afbeeldingshoogte dat onderaan de afbeelding is bijgesneden. Alleen-lezen Single. |
-| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Geeft het aantal procenten van de werkelijke afbeeldingbreedte dat aan de linkerkant van de afbeelding is bijgesneden. Alleen-lezen Single. |
-| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Geeft het aantal procenten van de werkelijke afbeeldingbreedte dat aan de rechterkant van de afbeelding is bijgesneden. Alleen-lezen Single. |
-| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Geeft het aantal procenten van de werkelijke afbeeldingshoogte dat bovenaan de afbeelding is bijgesneden. Alleen-lezen Single. |
-| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Geeft de dpi die wordt gebruikt om een afbeelding te vullen. Alleen-lezen Int32. |
-| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Geeft de afbeelding. Alleen-lezen [`IPictureEffectiveData`](../ipictureeffectivedata). |
-| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Geeft de picture fill-modus. Alleen-lezen [`PictureFillMode`](../picturefillmode). |
+| [AsIFillParamSource](../../aspose.slides/ipicturefillformateffectivedata/asifillparamsource) { get; } | Stelt toe de basis IFillParamSource interface op te halen. Alleen-lezen [`IFillParamSource`](../ifillparamsource). |
+| [CropBottom](../../aspose.slides/ipicturefillformateffectivedata/cropbottom) { get; } | Retourneert het aantal procenten van de werkelijke afbeeldingshoogte dat onderaan de afbeelding wordt bijgesneden. Alleen-lezen Single. |
+| [CropLeft](../../aspose.slides/ipicturefillformateffectivedata/cropleft) { get; } | Retourneert het aantal procenten van de werkelijke afbeeldingsbreedte dat links van de afbeelding wordt bijgesneden. Alleen-lezen Single. |
+| [CropRight](../../aspose.slides/ipicturefillformateffectivedata/cropright) { get; } | Retourneert het aantal procenten van de werkelijke afbeeldingsbreedte dat rechts van de afbeelding wordt bijgesneden. Alleen-lezen Single. |
+| [CropTop](../../aspose.slides/ipicturefillformateffectivedata/croptop) { get; } | Retourneert het aantal procenten van de werkelijke afbeeldingshoogte dat bovenaan de afbeelding wordt bijgesneden. Alleen-lezen Single. |
+| [Dpi](../../aspose.slides/ipicturefillformateffectivedata/dpi) { get; } | Retourneert de dpi die wordt gebruikt om een afbeelding te vullen. Alleen-lezen Int32. |
+| [Picture](../../aspose.slides/ipicturefillformateffectivedata/picture) { get; } | Retourneert de afbeelding. Alleen-lezen [`IPictureEffectiveData`](../ipictureeffectivedata). |
+| [PictureFillMode](../../aspose.slides/ipicturefillformateffectivedata/picturefillmode) { get; } | Retourneert de afbeeldingvulmodus. Alleen-lezen [`PictureFillMode`](../picturefillmode). |
 
 ### Opmerkingen
 

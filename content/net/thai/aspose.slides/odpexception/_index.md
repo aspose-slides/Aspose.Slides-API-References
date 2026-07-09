@@ -1,14 +1,14 @@
 ---
 title: OdpException
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงชนิดข้อยกเว้นภายในมาตรฐาน
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนประเภทข้อยกเว้นภายในมาตรฐาน
 type: docs
 weight: 9210
 url: /th/aspose.slides/odpexception/
 ---
 ## OdpException คลาส
 
-แสดงถึงชนิดข้อยกเว้นภายในมาตรฐาน
+แทนประเภทข้อยกเว้นภายในมาตรฐาน
 
 ```csharp
 public class OdpException : Exception

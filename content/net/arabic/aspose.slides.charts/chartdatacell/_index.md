@@ -1,12 +1,12 @@
 ---
 title: ChartDataCell
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: مرجع Aspose.Sildes لـ .NET API
 description: يمثل خلية لبيانات المخطط.
 type: docs
 weight: 1320
 url: /ar/aspose.slides.charts/chartdatacell/
 ---
-## فئة ChartDataCell
+## ChartDataCell فئة
 
 يمثل خلية لبيانات المخطط.
 
@@ -19,20 +19,20 @@ public class ChartDataCell : IChartDataCell
 | الاسم | الوصف |
 | --- | --- |
 | [ChartDataWorksheet](../../aspose.slides.charts/chartdatacell/chartdataworksheet) { get; } | يحصل على ورقة العمل. للقراءة فقط [`IChartDataWorksheet`](../ichartdataworksheet). |
-| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | يرجع فهرس العمود في ورقة العمل التي تقع فيها الخلية. للقراءة فقط Int32. |
-| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | يحصل أو يضبط تنسيق العرض المخصص للأعداد والتواريخ. إذا كانت القيمة فارغة سيتم استخدام قيمة PresetNumberFormat. قراءة/كتابة String. |
+| [Column](../../aspose.slides.charts/chartdatacell/column) { get; } | يعيد فهرس العمود في ورقة العمل الذي يقع فيه الخلية. للقراءة فقط Int32. |
+| [CustomNumberFormat](../../aspose.slides.charts/chartdatacell/customnumberformat) { get; set; } | يحصل أو يضبط تنسيق العرض المخصص للأرقام والتواريخ. إذا كانت القيمة فارغة سيُستخدم قيمة PresetNumberFormat. للقراءة/الكتابة String. |
 | [Formula](../../aspose.slides.charts/chartdatacell/formula) { get; set; } | يحصل أو يضبط الصيغة بنمط A1. |
 | [IsHidden](../../aspose.slides.charts/chartdatacell/ishidden) { get; } | يحدد ما إذا كانت الخلية مخفية. للقراءة فقط Boolean. |
-| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | يحصل أو يضبط تنسيق العرض المدمج للأعداد والتواريخ. يجب أن يكون رقم Preset في [0..22] أو [37..49]. قراءة/كتابة Byte. |
+| [PresetNumberFormat](../../aspose.slides.charts/chartdatacell/presetnumberformat) { get; set; } | يحصل أو يضبط تنسيق العرض المدمج للأرقام والتواريخ. يجب أن يكون الرقم المسبق في النطاق [0..22] أو [37..49]. للقراءة/الكتابة Byte. |
 | [R1C1Formula](../../aspose.slides.charts/chartdatacell/r1c1formula) { get; set; } | يحصل أو يضبط الصيغة بنمط R1C1. |
-| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | يرجع فهرس الصف في ورقة العمل التي تقع فيها الخلية. للقراءة فقط Int32. |
-| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | يحصل أو يضبط قيمة الخلية. قراءة/كتابة Object. |
+| [Row](../../aspose.slides.charts/chartdatacell/row) { get; } | يعيد فهرس الصف في ورقة العمل الذي تقع فيه الخلية. للقراءة فقط Int32. |
+| [Value](../../aspose.slides.charts/chartdatacell/value) { get; set; } | يحصل أو يضبط قيمة الخلية. للقراءة/الكتابة Object. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | إذا كانت الخلية تحتوي على صيغة، سيتم تحديث القيمة بناءً على تلك الصيغة. |
+| [Calculate](../../aspose.slides.charts/chartdatacell/calculate)(bool) | إذا كانت الخلية تحتوي على صيغة، سيُحدّث القيمة اعتمادًا على تلك الصيغة. |
 
 ### انظر أيضًا
 

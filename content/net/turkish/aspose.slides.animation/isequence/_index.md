@@ -1,14 +1,14 @@
 ---
 title: ISequence
 second_title: Aspose.Sildes için .NET API Referansı
-description: Efektlerin dizi koleksiyonunu temsil eder.
+description: Efektlerin sıralama koleksiyonunu temsil eder.
 type: docs
-weight: 570
+weight: 590
 url: /tr/aspose.slides.animation/isequence/
 ---
-## ISequence arayüz
+## ISequence arayüzü
 
-Diziyi (efekt koleksiyonunu) temsil eder.
+Temsil eder sıralama (efekt koleksiyonu).
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -19,24 +19,24 @@ public interface ISequence : IEnumerable<IEffect>
 | Ad | Açıklama |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Temel IEnumerable arayüzünü almayı sağlar. Yalnızca okunabilir IEnumerable. |
-| [Count](../../aspose.slides.animation/isequence/count) { get; } | Dizideki efekt sayısını döndürür. Yalnızca okunabilir Int32. |
-| [Item](../../aspose.slides.animation/isequence/item) { get; } | Belirtilen indeksteki efekti döndürür. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE dizi için şekil hedefini döndürür veya ayarlar. Dizi etkileşimli değilse null döndürür. Okunur/yazılabilir [`IShape`](../../aspose.slides/ishape). |
+| [Count](../../aspose.slides.animation/isequence/count) { get; } | Bir sıralamadaki efekt sayısını döndürür. Yalnızca okunabilir Int32. |
+| [Item](../../aspose.slides.animation/isequence/item) { get; } | Belirtilen indeksteki bir efekti döndürür. |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE sıralama için şekil hedefini döndürür veya ayarlar. Sıralama etkileşimli değilse null döndürür. Okunur/yazılabilir [`IShape`](../../aspose.slides/ishape). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Paragraf için yeni animasyon etkisini dizinin sonuna ekler. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Yeni efekti dizinin sonuna ekler. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Kategori veya seri için yeni grafik animasyon etkisini dizinin sonuna ekler. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Kategori veya serideki öğeler için yeni grafik animasyon etkisini dizinin sonuna ekler. |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | Bir koleksiyondan tüm efektleri kaldırır. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Paragraf için yeni animasyon efektini sıralamanın sonuna ekler. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Yeni bir efekti sıralamanın sonuna ekler. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Kategori veya seriye ait yeni grafik animasyon efektini sıralamanın sonuna ekler. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Kategori veya serideki öğeler için yeni grafik animasyon efektini sıralamanın sonuna ekler. |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | Bir koleksiyondaki tüm efektleri kaldırır. |
 | [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Belirtilen şekil için efekt sayısını döndürür. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Belirtilen paragraf için efekt dizisini döndürür. |
 | [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Belirtilen şekil için efekt dizisini döndürür. |
 | [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Belirtilen efekti bir koleksiyondan kaldırır. |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Bir koleksiyondan bir efekti kaldırır. |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Bir efekti bir koleksiyondan kaldırır. |
 | [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Belirtilen şekil için efekti kaldırır. |
 
 ### Ayrıca Bakınız

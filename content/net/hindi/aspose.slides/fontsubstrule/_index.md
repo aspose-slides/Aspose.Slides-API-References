@@ -14,22 +14,22 @@ url: /hi/aspose.slides/fontsubstrule/
 public class FontSubstRule : IFontSubstRule
 ```
 
-## निर्माणकर्ता
+## निर्माता
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | एक नया इंस्टेंस बनाता है। |
-| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | एक नया इंस्टेंस बनाता है। |
+| [FontSubstRule](fontsubstrule#constructor)(IFontData, IFontData) | नया उदाहरण बनाता है। |
+| [FontSubstRule](fontsubstrule#constructor_1)(IFontData, IFontData, FontSubstCondition) | नया उदाहरण बनाता है। |
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | प्रतिस्थापन के लिए उपयोग किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata). |
-| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | प्रतिस्थापन के लिए लागू किया जाने वाला नियम। केवल पढ़ने योग्य [`FontSubstCondition`](../fontsubstcondition). |
-| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | प्रतिस्थापित किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata). |
+| [DestFont](../../aspose.slides/fontsubstrule/destfont) { get; } | प्रतिस्थापन के लिए उपयोग किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata)। |
+| [ReplaceFontCondition](../../aspose.slides/fontsubstrule/replacefontcondition) { get; } | प्रतिस्थापन के लिए लागू किया जाने वाला नियम। केवल पढ़ने योग्य [`FontSubstCondition`](../fontsubstcondition)। |
+| [SourceFont](../../aspose.slides/fontsubstrule/sourcefont) { get; } | प्रतिस्थापित किया जाने वाला फ़ॉन्ट। केवल पढ़ने योग्य [`IFontData`](../ifontdata)। |
 
-### देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [IFontSubstRule](../ifontsubstrule)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

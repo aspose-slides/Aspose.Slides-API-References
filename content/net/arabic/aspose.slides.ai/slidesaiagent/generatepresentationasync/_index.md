@@ -1,40 +1,40 @@
 ---
 title: GeneratePresentationAsync
-second_title: Aspose.Sildes لـ .NET – مرجع API
-description: يقوم بإنشاء نسخة من العرض التقديمي من وصف نصي. قدم موضوعًا أو أفكارًا أو اقتباسات أو مقتطفات نصية باللغة المطلوبة.
+second_title: مرجع API لـ Aspose.Sildes لـ .NET
+description: يولد نسخة من العرض التقديمي من وصف نصي. قدّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 type: docs
 weight: 30
 url: /ar/aspose.slides.ai/slidesaiagent/generatepresentationasync/
 ---
-## GeneratePresentationAsync(string, PresentationContentAmountType) {#generatepresentationasync}
+## GeneratePresentationAsync(string, PresentationContentAmtType) {#generatepresentationasync}
 
-يقوم بإنشاء نسخة من العرض التقديمي من وصف نصي. قدم موضوعًا أو أفكارًا أو اقتباسات أو مقتطفات نصية باللغة المطلوبة.
+ينشئ نسخة من العرض التقديمي من وصف نصي. قدّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقتطفات النصية. |
-| presentationContentAmount | PresentationContentAmountType | كمية المحتوى في العرض التقديمي الناتج. |
+| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
+| presentationContentAmount | PresentationContentAmountType | مقدار المحتوى في العرض الناتج. |
 
 ### الاستثناءات
 
-| الاستثناء | الشرط |
+| exception | condition |
 | --- | --- |
-| ArgumentException | تعليمات الدردشة AI لا يمكن أن تكون فارغة أو ذات قيمة null. |
+| ArgumentException | لا يمكن أن تكون تعليمات دردشة AI فارغة أو خالية. |
 
 ### ملاحظات
 
-المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يتم إنشاؤه بواسطة المُنشئ بدون معاملات [`SlidesAIAgent`](../slidesaiagent) ويتصل بـ LLM الخاص بـ Aspose. لاستخدام مزود AI مختلف، قدم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، مرّر تنفيذًا [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
+المثال أدناه يستخدم القيمة الافتراضية [`AsposeAIWebClient`](../../asposeaiwebclient)، التي تم إنشاؤها بواسطة المُنشئ بدون معلمات [`SlidesAIAgent`](../slidesaiagent) وتُربط بـ LLM الخاص بـ Aspose. لاستخدام موفر AI مختلف، قدِّم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، قم بتمرير تنفيذ [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * واجهة [IPresentation](../../../aspose.slides/ipresentation)
 * تعداد [PresentationContentAmountType](../../presentationcontentamounttype)
@@ -44,37 +44,37 @@ public Task<IPresentation> GeneratePresentationAsync(string description,
 
 ---
 
-## GeneratePresentationAsync(string, PresentationContentAmountType, IPresentation) {#generatepresentationasync_1}
+## GeneratePresentationAsync(string, PresentationContentAmtType, IPresentation) {#generatepresentationasync_1}
 
-يقوم بإنشاء نسخة من العرض التقديمي من وصف نصي. قدم موضوعًا أو أفكارًا أو اقتباسات أو مقتطفات نصية باللغة المطلوبة.
+ينشئ نسخة من العرض التقديمي من وصف نصي. قدّم موضوعًا أو أفكارًا أو اقتباسات أو مقاطع نصية باللغة المطلوبة.
 
 ```csharp
 public Task<IPresentation> GeneratePresentationAsync(string description, 
     PresentationContentAmountType presentationContentAmount, IPresentation presentationTemplate)
 ```
 
-| المعامل | النوع | الوصف |
+| Parameter | Type | Description |
 | --- | --- | --- |
-| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقتطفات النصية. |
-| presentationContentAmount | PresentationContentAmountType | كمية المحتوى في العرض التقديمي الناتج. |
-| presentationTemplate | IPresentation | عرض تقديمي يُستخدم كقالب لتنسيق وتصميم الشرائح، بدلًا من القالب الافتراضي. |
+| description | String | الموضوع أو الأفكار أو الاقتباسات أو المقاطع النصية. |
+| presentationContentAmount | PresentationContentAmountType | مقدار المحتوى في العرض الناتج. |
+| presentationTemplate | IPresentation | عرض تقديمي يُستخدم كقالب للتخطيط والتصميم، بدلاً من القالب الافتراضي. |
 
 ### الاستثناءات
 
-| الاستثناء | الشرط |
+| exception | condition |
 | --- | --- |
-| ArgumentNullException | قالب العرض التقديمي لم يتم تقديمه. |
-| ArgumentException | تعليمات الدردشة AI لا يمكن أن تكون فارغة أو ذات قيمة null. |
+| ArgumentNullException | لم يتم توفير قالب العرض التقديمي. |
+| ArgumentException | لا يمكن أن تكون تعليمات دردشة AI فارغة أو خالية. |
 
 ### ملاحظات
 
-المثال أدناه يستخدم الافتراضي [`AsposeAIWebClient`](../../asposeaiwebclient)، الذي يتم إنشاؤه بواسطة المُنشئ بدون معاملات [`SlidesAIAgent`](../slidesaiagent) ويتصل بـ LLM الخاص بـ Aspose. لاستخدام مزود AI مختلف، قدم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، مرّر تنفيذًا [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
+المثال أدناه يستخدم القيمة الافتراضية [`AsposeAIWebClient`](../../asposeaiwebclient)، التي تم إنشاؤها بواسطة المُنشئ بدون معلمات [`SlidesAIAgent`](../slidesaiagent) وتُربط بـ LLM الخاص بـ Aspose. لاستخدام موفر AI مختلف، قدِّم LLM الخاص بك، أو خصّص الاتصال (على سبيل المثال، عن طريق توفير `HttpClient` الخاص بك)، قم بتمرير تنفيذ [`IAIWebClient`](../../iaiwebclient) إلى المُنشئ [`SlidesAIAgent`](../slidesaiagent). تشمل التنفيذات المتاحة:
 
 * [`AsposeAIWebClient`](../../asposeaiwebclient)
 * [`OpenAIWebClient`](../../openaiwebclient)
 * [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
-### انظر أيضًا
+### أنظر أيضًا
 
 * واجهة [IPresentation](../../../aspose.slides/ipresentation)
 * تعداد [PresentationContentAmountType](../../presentationcontentamounttype)

@@ -1,12 +1,11 @@
 ---
 title: IReflection
-second_title: Aspose.Sildes for .NET API Reference
+second_title: Aspose.Sildes for .NET API 参考
 description: 表示反射效果。
 type: docs
-weight: 3380
+weight: 3500
 url: /zh/aspose.slides.effects/ireflection/
 ---
-
 ## IReflection 接口
 
 表示反射效果。
@@ -20,29 +19,29 @@ public interface IReflection : IAccessiblePVIObject<IReflectionEffectiveData>,
 
 | 名称 | 描述 |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | 允许获取基础 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | 允许获取基础 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
-| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | 模糊半径。读/写 Double。 |
-| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | 反射的方向。读/写 Single。 |
-| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | 反射的距离。读/写 Double。 |
-| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | 指定结束 alpha 值的终点位置（沿着 alpha 渐变坡道）（百分比）。读/写 Single。 |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | 结束反射不透明度。（百分比）。读/写 Single。 |
-| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | 指定偏移反射的方向。（角度）。读/写 Single。 |
-| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | 矩形对齐方式。读/写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | 指定如果形状被旋转，反射是否应随形状一起旋转。读/写 Boolean。 |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | 指定水平缩放因子，负值缩放会造成翻转。（百分比）读/写 Double。 |
-| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | 指定垂直缩放因子，负值缩放会造成翻转。（百分比）读/写 Double。 |
-| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | 指定水平倾斜角度。读/写 Double。 |
-| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | 指定垂直倾斜角度。读/写 Double。 |
-| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | 指定起始 alpha 值的起始位置（沿着 alpha 渐变坡道）（百分比）。读/写 Single。 |
-| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | 开始反射不透明度。（百分比）。读/写 Single。 |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ireflection/asiaccessiblepviobject) { get; } | 允许获取基 IAccessiblePVIObject 接口。只读 [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1)。 |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ireflection/asiimagetransformoperation) { get; } | 允许获取基 IImageTransformOperation 接口。只读 [`IImageTransformOperation`](../iimagetransformoperation)。 |
+| [BlurRadius](../../aspose.slides.effects/ireflection/blurradius) { get; set; } | 模糊半径。读/写 Double。 |
+| [Direction](../../aspose.slides.effects/ireflection/direction) { get; set; } | 反射方向。读/写 Single。 |
+| [Distance](../../aspose.slides.effects/ireflection/distance) { get; set; } | 反射距离。读/写 Double。 |
+| [EndPosAlpha](../../aspose.slides.effects/ireflection/endposalpha) { get; set; } | 指定结束位置（沿 alpha 梯度斜坡）的结束 alpha 值（百分比）。读/写 Single。 |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflection/endreflectionopacity) { get; set; } | 结束反射不透明度。（百分比）。读/写 Single。 |
+| [FadeDirection](../../aspose.slides.effects/ireflection/fadedirection) { get; set; } | 指定偏移反射的方向。（角度）。读/写 Single。 |
+| [RectangleAlign](../../aspose.slides.effects/ireflection/rectanglealign) { get; set; } | 矩形对齐方式。读/写 [`RectangleAlignment`](../../aspose.slides/rectanglealignment)。 |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflection/rotateshadowwithshape) { get; set; } | 指定在形状旋转时是否应随形状一起旋转反射。读/写 Boolean。 |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflection/scalehorizontal) { get; set; } | 指定水平缩放因子，负缩放会导致翻转。（百分比）读/写 Double。 |
+| [ScaleVertical](../../aspose.slides.effects/ireflection/scalevertical) { get; set; } | 指定垂直缩放因子，负缩放会导致翻转。（百分比）读/写 Double。 |
+| [SkewHorizontal](../../aspose.slides.effects/ireflection/skewhorizontal) { get; set; } | 指定水平倾斜角度。读/写 Double。 |
+| [SkewVertical](../../aspose.slides.effects/ireflection/skewvertical) { get; set; } | 指定垂直倾斜角度。读/写 Double。 |
+| [StartPosAlpha](../../aspose.slides.effects/ireflection/startposalpha) { get; set; } | 指定开始位置（沿 alpha 梯度斜坡）的开始 alpha 值（百分比）。读/写 Single。 |
+| [StartReflectionOpacity](../../aspose.slides.effects/ireflection/startreflectionopacity) { get; set; } | 起始反射不透明度。（百分比）。读/写 Single。 |
 
-### 另见
+### 另请参阅
 
-* 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
-* 接口 [IReflectionEffectiveData](../ireflectioneffectivedata)
-* 接口 [IImageTransformOperation](../iimagetransformoperation)
-* 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
-* 程序集 [Aspose.Slides](../../)
+* 接口 [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
+* 接口 [IReflectionEffectiveData](../ireflectioneffectivedata)
+* 接口 [IImageTransformOperation](../iimagetransformoperation)
+* 命名空间 [Aspose.Slides.Effects](../../aspose.slides.effects)
+* 程序集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Slides .NET için API Referansı
-description: Gradient stop'ların bir koleksiyonunu temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Gradient durak noktalarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 6010
+weight: 6030
 url: /tr/aspose.slides/igradientstopcollection/
 ---
-## IGradientStopCollection arabirimi
+## IGradientStopCollection arayüz
 
-Gradient stop'ların bir koleksiyonunu temsil eder.
+Bir gradient durak noktası koleksiyonunu temsil eder.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
@@ -18,25 +18,25 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | İndeks ile gradient stop'ı döndürür. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | İndeksine göre gradient durak noktasını döndürür. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Yeni gradient stop'ı oluşturur ve koleksiyonun sonuna ekler. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Yeni gradient stop'ı oluşturur ve koleksiyonun sonuna ekler. |
-| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Yeni gradient stop'ı oluşturur ve koleksiyonun sonuna ekler. |
-| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Bir koleksiyondaki tüm gradient stop'ları kaldırır. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Yeni gradient stop'ı oluşturur ve koleksiyonda belirtilen indeksde ekler. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Yeni gradient stop'ı oluşturur ve koleksiyonda belirtilen indeksde ekler. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Yeni gradient stop'ı oluşturur ve koleksiyonda belirtilen indeksde ekler. |
-| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Belirtilen indeksdeki bir gradient stop'ı kaldırır. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_2)(float, Color) | Yeni bir gradient durak noktasını oluşturur ve koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Yeni bir gradient durak noktasını oluşturur ve koleksiyonun sonuna ekler. |
+| [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Yeni bir gradient durak noktasını oluşturur ve koleksiyonun sonuna ekler. |
+| [Clear](../../aspose.slides/igradientstopcollection/clear)() | Bir koleksiyondaki tüm gradient durak noktalarını kaldırır. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Yeni bir gradient durak noktasını oluşturur ve belirtilen indekse ekler. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Yeni bir gradient durak noktasını oluşturur ve belirtilen indekse ekler. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Yeni bir gradient durak noktasını oluşturur ve belirtilen indekse ekler. |
+| [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Belirtilen indeksteki bir gradient durak noktasını kaldırır. |
 
 ### Ayrıca Bakınız
 
-* arabirimi [IGenericCollection&lt;T&gt;](../igenericcollection-1)
-* arabirimi [IGradientStop](../igradientstop)
+* arayüz [IGenericCollection&lt;T&gt;](../igenericcollection-1)
+* arayüz [IGradientStop](../igradientstop)
 * ad alanı [Aspose.Slides](../../aspose.slides)
 * derleme [Aspose.Slides](../../)
 

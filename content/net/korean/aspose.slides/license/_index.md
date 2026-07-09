@@ -8,7 +8,7 @@ url: /ko/aspose.slides/license/
 ---
 ## License 클래스
 
-구성 요소에 라이선스를 적용하는 메서드를 제공합니다.
+구성 요소에 라이선스를 적용하기 위한 메서드를 제공합니다.
 
 ```csharp
 public class License : ILicense
@@ -24,14 +24,14 @@ public class License : ILicense
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | 구성 요소에 라이선스가 적용되었는지 확인합니다 |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | 라이선스를 재설정합니다 |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | 구성 요소에 라이선스를 적용합니다. |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | 구성 요소에 라이선스를 적용합니다. |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | 라이선스가 구성 요소에 적용되었는지 확인합니다. |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | 라이선스를 재설정합니다. |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | 구성 요소에 라이선스를 부여합니다. |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | 구성 요소에 라이선스를 부여합니다. |
 
 ### 예제
 
-이 예제에서는 MyLicense.lic라는 라이선스 파일을 찾기 위해, 구성 요소가 포함된 폴더, 호출 어셈블리를 포함하는 폴더, 엔트리 어셈블리의 폴더, 그리고 호출 어셈블리의 내장 리소스 순으로 시도합니다.
+이 예제에서는 구성 요소가 포함된 폴더, 호출 어셈블리가 포함된 폴더, 진입 어셈블리의 폴더, 그리고 호출 어셈블리의 임베디드 리소스에서 MyLicense.lic 라는 이름의 라이선스 파일을 찾으려고 시도합니다.
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### 참조
+## 참조
 
 * 인터페이스 [ILicense](../ilicense)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

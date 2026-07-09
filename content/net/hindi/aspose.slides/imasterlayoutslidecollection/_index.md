@@ -1,14 +1,14 @@
 ---
 title: IMasterLayoutSlideCollection
 second_title: Aspose.Sildes for .NET API संदर्भ
-description: परिभाषित मास्टर स्लाइड की सभी लेआउट स्लाइड्स के संग्रह को दर्शाता है। ILayoutSlideCollection इंटरफ़ेस को विस्तारित करता है जिसमें मास्टर के लेआउट स्लाइड्स के व्यक्तिगत संग्रह के संदर्भ में लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने की विधियां होती हैं।
+description: परिभाषित मास्टर स्लाइड की सभी लेआउट स्लाइड्स के संग्रह का प्रतिनिधित्व करता है। ILayoutSlideCollection इंटरफ़ेस का विस्तार करता है जिसमें व्यक्तिगत मास्टर के लेआउट स्लाइड्स के संग्रह के संदर्भ में लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने की विधियाँ हैं।
 type: docs
 weight: 6380
 url: /hi/aspose.slides/imasterlayoutslidecollection/
 ---
 ## IMasterLayoutSlideCollection इंटरफ़ेस
 
-परिभाषित मास्टर स्लाइड के सभी लेआउट स्लाइड्स का संग्रह दर्शाता है। ILayoutSlideCollection इंटरफ़ेस को विस्तारित करता है जिसमें व्यक्तिगत मास्टर के लेआउट स्लाइड्स के संग्रह के संदर्भ में लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने के लिए विधियां होती हैं।
+परिभाषित मास्टर स्लाइड के सभी लेआउट स्लाइड्स के संग्रह का प्रतिनिधित्व करता है। ILayoutSlideCollection इंटरफ़ेस का विस्तार करता है जिसमें व्यक्तिगत मास्टर के लेआउट स्लाइड्स के संग्रह के संदर्भ में लेआउट स्लाइड्स को जोड़ने/डालने/हटाने/क्लोन करने की विधियाँ हैं।
 
 ```csharp
 public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
@@ -18,20 +18,20 @@ public interface IMasterLayoutSlideCollection : ILayoutSlideCollection
 
 | नाम | विवरण |
 | --- | --- |
-| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ILayoutSlideCollection`](../ilayoutslidecollection)। |
+| [AsILayoutSlideCollection](../../aspose.slides/imasterlayoutslidecollection/asilayoutslidecollection) { get; } | ILayoutSlideCollection इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ILayoutSlideCollection`](../ilayoutslidecollection). |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | संग्रह के अंत में एक नया लेआउट स्लाइड जोड़ता है। |
-| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | निर्दिष्ट लेआउट स्लाइड की एक प्रति संग्रह के अंत में जोड़ता है। |
-| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | संग्रह में निर्दिष्ट स्थान पर एक नया लेआउट स्लाइड सम्मिलित करता है। |
-| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | निर्दिष्ट लेआउट स्लाइड की एक प्रति संग्रह में निर्दिष्ट स्थान पर सम्मिलित करता है। |
+| [Add](../../aspose.slides/imasterlayoutslidecollection/add)(SlideLayoutType, string) | नया लेआउट स्लाइड संग्रह के अंत में जोड़ता है। |
+| [AddClone](../../aspose.slides/imasterlayoutslidecollection/addclone)(ILayoutSlide) | निर्दिष्ट लेआउट स्लाइड की एक प्रतिलिपि को संग्रह के अंत में जोड़ता है। |
+| [Insert](../../aspose.slides/imasterlayoutslidecollection/insert)(int, SlideLayoutType, string) | संग्रह में निर्दिष्ट स्थिति पर नया लेआउट स्लाइड डालता है। |
+| [InsertClone](../../aspose.slides/imasterlayoutslidecollection/insertclone)(int, ILayoutSlide) | निर्दिष्ट लेआउट स्लाइड की प्रतिलिपि को संग्रह में निर्दिष्ट स्थिति पर डालता है। |
 | [RemoveAt](../../aspose.slides/imasterlayoutslidecollection/removeat)(int) | संग्रह में निर्दिष्ट अनुक्रमांक पर तत्व को हटाता है। |
-| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | लेआउट स्लाइड को संग्रह से निर्धारित स्थान पर ले जाता है। |
+| [Reorder](../../aspose.slides/imasterlayoutslidecollection/reorder)(int, ILayoutSlide) | लेआउट स्लाइड को संग्रह से हटाकर निर्दिष्ट स्थिति पर ले जाता है। |
 
-### और देखें
+### संबंधित देखें
 
 * इंटरफ़ेस [ILayoutSlideCollection](../ilayoutslidecollection)
 * नामस्थान [Aspose.Slides](../../aspose.slides)

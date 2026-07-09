@@ -1,24 +1,24 @@
 ---
 title: IColumnFormat
 second_title: Aspose.Sildes .NET API referencia
-description: A táblázat oszlopának formátumát képviseli.
+description: A táblázat oszlopának formátumát reprezentálja.
 type: docs
-weight: 5520
+weight: 5540
 url: /hu/aspose.slides/icolumnformat/
 ---
 ## IColumnFormat interfész
 
-A táblázat oszlopának formátumát képviseli.
+A táblázat oszlopának formátumát reprezentálja.
 
 ```csharp
 public interface IColumnFormat
 ```
 
-## Metódusok
+## Módszerek
 
 | Név | Leírás |
 | --- | --- |
-| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Lekéri a hatékony táblázatoszlop-formázási tulajdonságokat öröklődéssel és táblázatstílusok alkalmazásával. |
+| [GetEffective](../../aspose.slides/icolumnformat/geteffective)() | Lekéri a tényleges táblázatoszlop-formázási tulajdonságokat, amelyek öröklődnek és a táblázatstílusok alkalmazva vannak. |
 
 ### Lásd még
 

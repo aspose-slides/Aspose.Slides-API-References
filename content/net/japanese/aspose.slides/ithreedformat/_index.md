@@ -3,7 +3,7 @@ title: IThreeDFormat
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 3-D プロパティを表します。
 type: docs
-weight: 7310
+weight: 7330
 url: /ja/aspose.slides/ithreedformat/
 ---
 ## IThreeDFormat インターフェイス
@@ -16,23 +16,23 @@ public interface IThreeDFormat : IThreeDParamSource
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [AsIThreeDParamSource](../../aspose.slides/ithreedformat/asithreedparamsource) { get; } | ベース IThreeDParamSource インターフェイスを取得できます。読み取り専用 [`IThreeDParamSource`](../ithreedparamsource)。 |
-| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 下部の 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
-| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 上部の 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
+| [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 底部 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
+| [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 上部 3D ベベルのタイプを取得または設定します。読み取り専用 [`IShapeBevel`](../ishapebevel)。 |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | カメラの設定を取得または設定します。読み取り専用 [`ICamera`](../icamera)。 |
 | [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 輪郭の色を取得または設定します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D 輪郭の幅を取得または設定します。読み取り/書き込み Double。 |
-| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 3D 形状の奥行きを取得または設定します。読み取り/書き込み Double。 |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D 輪郭の幅を取得または設定します。読み書き Double。 |
+| [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 3D シェイプの深さを取得または設定します。読み書き Double。 |
 | [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 押し出しの色を取得または設定します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 押し出し効果の高さを取得または設定します。読み取り/書き込み Double。 |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 押し出し効果の高さを取得または設定します。読み書き Double。 |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | 光源のタイプを取得または設定します。読み取り専用 [`ILightRig`](../ilightrig)。 |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | マテリアルのタイプを取得または設定します。読み取り/書き込み [`MaterialPresetType`](../materialpresettype)。 |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | マテリアルのタイプを取得または設定します。読み書き [`MaterialPresetType`](../materialpresettype)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 継承が適用された有効な 3-D 書式設定データを取得します。 |
 

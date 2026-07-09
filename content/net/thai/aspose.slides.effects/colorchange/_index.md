@@ -1,14 +1,14 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของเอฟเฟกต์การเปลี่ยนสี. อินสแตนซ์ของ FromColor จะถูกแทนที่ด้วยอินสแตนซ์ของ ToColor.
+description: แสดงถึงเอฟเฟกต์ Color Change. อินสแตนซ์ของ FromColor จะถูกแทนที่ด้วยอินสแตนซ์ของ ToColor.
 type: docs
 weight: 2940
 url: /th/aspose.slides.effects/colorchange/
 ---
 ## ColorChange คลาส
 
-Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.
+แสดงถึงผลกระทบ Color Change. ตัวอย่างของ FromColor จะถูกแทนที่ด้วยตัวอย่างของ ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
@@ -16,18 +16,18 @@ public sealed class ColorChange : ImageTransformOperation, IColorChange
 
 ## คุณสมบัติ
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Allows to get base IPresentationComponent interface. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | สีที่จะแทนที่. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | สีที่จะแทนที่. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐานได้. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | สีที่จะถูกแทนที่. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | สีที่จะใช้แทน. อ่านอย่างเดียว [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## วิธีการ
+## เมธอด
 
-| ชื่อ | รายละเอียด |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | กำหนดว่า [`ColorChange`](../colorchange) ที่ระบุเท่ากับ [`ColorChange`](../colorchange) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | รับข้อมูลเอฟเฟกต์ Color Change ที่มีผลพร้อมการสืบทอดที่ใช้. |
+| override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | กำหนดว่าค่า [`ColorChange`](../colorchange) ที่ระบุเท่ากับ [`ColorChange`](../colorchange) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | รับข้อมูลผลกระทบ Color Change ที่มีการสืบทอดใช้. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม

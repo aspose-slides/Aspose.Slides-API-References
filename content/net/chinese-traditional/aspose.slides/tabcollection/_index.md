@@ -1,14 +1,14 @@
 ---
 title: TabCollection
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個分頁集合。
+description: 表示一組 tab。
 type: docs
 weight: 10840
 url: /zh-hant/aspose.slides/tabcollection/
 ---
 ## TabCollection 類別
 
-表示一個分頁集合。
+表示一組 tab。
 
 ```csharp
 public sealed class TabCollection : ITabCollection
@@ -18,7 +18,7 @@ public sealed class TabCollection : ITabCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides/tabcollection/count) { get; } | 取得集合中實際包含的元素數量。唯讀 Int32。 |
+| [Count](../../aspose.slides/tabcollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
 | [IsSynchronized](../../aspose.slides/tabcollection/issynchronized) { get; } | 傳回一個值，指示對集合的存取是否已同步（執行緒安全）。唯讀 Boolean。 |
 | [Item](../../aspose.slides/tabcollection/item) { get; } | 取得指定索引處的元素。唯讀 [`Tab`](../tab)。 |
 | [SyncRoot](../../aspose.slides/tabcollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
@@ -27,12 +27,12 @@ public sealed class TabCollection : ITabCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | 將 Tab 加入集合。 |
-| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | 將 Tab 加入集合。 |
+| [Add](../../aspose.slides/tabcollection/add#add_1)(ITab) | 將 Tab 新增至集合。 |
+| [Add](../../aspose.slides/tabcollection/add#add)(double, TabAlignment) | 將 Tab 新增至集合。 |
 | [Clear](../../aspose.slides/tabcollection/clear)() | 從集合中移除所有元素。 |
 | [CopyTo](../../aspose.slides/tabcollection/copyto)(Array, int) | 將集合中的所有元素複製到指定的陣列。 |
 | override [Equals](../../aspose.slides/tabcollection/equals)(object) | 判斷兩個 TabsEx 實例是否相等。 |
-| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | 傳回一個列舉器，用於遍歷集合。 |
+| [GetEnumerator](../../aspose.slides/tabcollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | override [GetHashCode](../../aspose.slides/tabcollection/gethashcode)() | 傳回此物件的雜湊碼。 |
 | [RemoveAt](../../aspose.slides/tabcollection/removeat)(int) | 移除集合中指定索引處的元素。 |
 

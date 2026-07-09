@@ -1,14 +1,14 @@
 ---
 title: IFieldType
-second_title: Aspose.Sildes용 .NET API 레퍼런스
-description: 필드 유형을 나타냅니다. 이 값은 업데이트될 때 필드 부분에 설정될 텍스트를 결정합니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 필드 유형을 나타냅니다. 이 값은 필드 부분이 업데이트될 때 어떤 텍스트가 설정될지 결정합니다.
 type: docs
 weight: 5780
 url: /ko/aspose.slides/ifieldtype/
 ---
 ## IFieldType 인터페이스
 
-필드 유형을 나타냅니다. 이 값은 업데이트될 때 필드 부분에 설정될 텍스트를 결정합니다.
+필드 유형을 나타냅니다. 이 값은 필드 부분이 업데이트될 때 어떤 텍스트가 설정될지 결정합니다.
 
 ```csharp
 public interface IFieldType
@@ -18,7 +18,7 @@ public interface IFieldType
 
 | 이름 | 설명 |
 | --- | --- |
-| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 이 FieldTypeEx 객체의 내부 이름을 반환합니다. 읽기/쓰기 문자열. |
+| [InternalString](../../aspose.slides/ifieldtype/internalstring) { get; set; } | 이 FieldTypeEx 객체의 내부 이름을 반환합니다. 읽기/쓰기 String. |
 
 ### 참고
 

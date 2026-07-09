@@ -3,10 +3,10 @@ title: AudioPlayModePreset
 second_title: Riferimento API Aspose.Sildes per .NET
 description: Costanti che definiscono come viene riprodotto un suono.
 type: docs
-weight: 860
+weight: 880
 url: /it/aspose.slides/audioplaymodepreset/
 ---
-## AudioPlayModePreset enumerazione
+## Enumerazione AudioPlayModePreset
 
 Costanti che definiscono come viene riprodotto un suono.
 
@@ -16,12 +16,12 @@ public enum AudioPlayModePreset
 
 ### Valori
 
-| Name | Value | Descrizione |
+| Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Mixed | `-1` |  |
 | Auto | `0` | Riproduci automaticamente. |
 | OnClick | `1` | Riproduci solo quando l'icona viene cliccata. |
-| AllSlides | `2` | Riproduci su tutte le diapositive. Si prega di utilizzare la proprietà [`PlayAcrossSlides`](../iaudioframe/playacrossslides) invece. Questo elemento è obsoleto a partire da PowerPoint 2013. |
+| AllSlides | `2` | Riproduci su tutte le diapositive. Si prega di usare la proprietà [`PlayAcrossSlides`](../iaudioframe/playacrossslides) invece. Questo elemento è obsoleto dalla versione PowerPoint 2013. |
 | InClickSequence | `3` | Riproduci automaticamente con un clic. |
 
 ### Vedi anche

@@ -3,12 +3,12 @@ title: GeometryPath
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili jalur geometri dari GeometryShape
 type: docs
-weight: 4940
+weight: 4960
 url: /id/aspose.slides/geometrypath/
 ---
 ## GeometryPath kelas
 
-Represents geometry path of GeometryShape
+Mewakili jalur geometri dari GeometryShape
 
 ```csharp
 public sealed class GeometryPath : IGeometryPath
@@ -18,15 +18,15 @@ public sealed class GeometryPath : IGeometryPath
 
 | Nama | Deskripsi |
 | --- | --- |
-| [GeometryPath](geometrypath)() | Creates instance of GeometryPath |
+| [GeometryPath](geometrypath)() | Membuat instance dari GeometryPath |
 
 ## Properti
 
 | Nama | Deskripsi |
 | --- | --- |
-| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Sets fill mode |
-| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Returns geometry path of GeometryShape as an array of path segments. |
-| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Sets stroke appearance |
+| [FillMode](../../aspose.slides/geometrypath/fillmode) { get; set; } | Mengatur mode isi |
+| [PathData](../../aspose.slides/geometrypath/pathdata) { get; } | Mengembalikan jalur geometri dari GeometryShape sebagai array segmen jalur. |
+| [Stroke](../../aspose.slides/geometrypath/stroke) { get; set; } | Mengatur tampilan stroke |
 
 ## Metode
 
@@ -35,25 +35,25 @@ public sealed class GeometryPath : IGeometryPath
 | [ArcTo](../../aspose.slides/geometrypath/arcto)(float, float, float, float) | Menambahkan busur yang ditentukan ke jalur. |
 | [CloseFigure](../../aspose.slides/geometrypath/closefigure)() | Menutup gambar saat ini dari jalur ini |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_2)(PointF, PointF, PointF) | Menambahkan kurva Bezier kubik di akhir jalur |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Menambahkan kurva Bezier kubik ke tempat yang ditentukan pada jalur |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_3)(PointF, PointF, PointF, uint) | Menambahkan kurva Bezier kubik ke posisi yang ditentukan pada jalur |
 | [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto)(float, float, float, float, float, float) | Menambahkan kurva Bezier kubik di akhir jalur |
-| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Menambahkan kurva Bezier kubik ke tempat yang ditentukan pada jalur |
+| [CubicBezierTo](../../aspose.slides/geometrypath/cubicbezierto#cubicbezierto_1)(float, float, float, float, float, float, uint) | Menambahkan kurva Bezier kubik ke posisi yang ditentukan pada jalur |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto_2)(PointF) | Menambahkan garis ke akhir jalur |
 | [LineTo](../../aspose.slides/geometrypath/lineto#lineto)(float, float) | Menambahkan garis ke akhir jalur |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Menambahkan garis ke tempat yang ditentukan pada jalur |
-| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Menambahkan garis ke tempat yang ditentukan pada jalur |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_3)(PointF, uint) | Menambahkan garis ke posisi yang ditentukan pada jalur |
+| [LineTo](../../aspose.slides/geometrypath/lineto#lineto_1)(float, float, uint) | Menambahkan garis ke posisi yang ditentukan pada jalur |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto_1)(PointF) | Mengatur posisi titik berikutnya. |
 | [MoveTo](../../aspose.slides/geometrypath/moveto#moveto)(float, float) | Mengatur posisi titik berikutnya. |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_2)(PointF, PointF) | Menambahkan kurva Bezier kuadratik di akhir jalur |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan pada jalur |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_3)(PointF, PointF, uint) | Menambahkan kurva Bezier kuadratik ke posisi yang ditentukan pada jalur |
 | [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto)(float, float, float, float) | Menambahkan kurva Bezier kuadratik di akhir jalur |
-| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Menambahkan kurva Bezier kuadratik ke tempat yang ditentukan pada jalur |
+| [QuadraticBezierTo](../../aspose.slides/geometrypath/quadraticbezierto#quadraticbezierto_1)(float, float, float, float, uint) | Menambahkan kurva Bezier kuadratik ke posisi yang ditentukan pada jalur |
 | [RemoveAt](../../aspose.slides/geometrypath/removeat)(int) | Menghapus segmen pada indeks yang ditentukan dari jalur geometri. |
 
 ### Lihat Juga
 
 * antarmuka [IGeometryPath](../igeometrypath)
 * ruang nama [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* rakitan [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

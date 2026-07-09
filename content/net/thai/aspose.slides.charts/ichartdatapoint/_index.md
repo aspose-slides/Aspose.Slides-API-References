@@ -1,14 +1,14 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: แทนจุดข้อมูลของชุดข้อมูล.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของจุดข้อมูลซีรีส์.
 type: docs
 weight: 1820
 url: /th/aspose.slides.charts/ichartdatapoint/
 ---
-## IChartDataPoint อินเทอร์เฟซ
+## IChartDataPoint อินเทอร์เฟส
 
-แสดงจุดข้อมูลของชุดข้อมูล.
+เป็นตัวแทนของจุดข้อมูลซีรีส์.
 
 ```csharp
 public interface IChartDataPoint : IActualLayout
@@ -18,35 +18,35 @@ public interface IChartDataPoint : IActualLayout
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | ส่งคืนอินเทอร์เฟซ IActualLayout. |
-| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | ส่งคืนขนาดฟองของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | ส่งคืนค่สีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | ส่งคืนคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้สำหรับชุดข้อมูล Treeamp และ Sunburst. การทำดัชนีระดับจุดข้อมูลเริ่มที่ศูนย์. |
-| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | แสดงค่าแถบความผิดพลาดของชุดข้อมูลในกรณีที่ประเภทค่าเป็น Custom. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
-| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | ระบุจำนวนที่จุดข้อมูลจะถูกย้ายออกจากศูนย์กลางของพาย. อ่าน/เขียน Int32. |
-| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | แสดงคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน [`IFormat`](../iformat). |
-| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | กำหนดว่าจุดข้อมูลนี้ใช้กับคอลเลกชันลูกของพาเรนท์รายการใด. อ่าน UInt32. |
-| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | ระบุว่าจุดข้อมูลจะสลับสีหากค่ามีค่าเป็นลบ. อ่าน/เขียน Boolean. |
-| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | ระบุว่าฟองจะมีเอฟเฟกต์ 3 มิติที่นำไปใช้. อ่าน/เขียน Boolean. |
-| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | แสดงป้ายของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
+| [AsIActualLayout](../../aspose.slides.charts/ichartdatapoint/asiactuallayout) { get; } | คืนค่า IActualLayout อินเทอร์เฟส. |
+| [BubbleSize](../../aspose.slides.charts/ichartdatapoint/bubblesize) { get; } | คืนค่าขนาดฟองของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [ColorValue](../../aspose.slides.charts/ichartdatapoint/colorvalue) { get; } | คืนค่าสีของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิแผนที่. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [DataPointLevels](../../aspose.slides.charts/ichartdatapoint/datapointlevels) { get; } | คืนค่าคอนเทนเนอร์ของระดับจุดข้อมูล. ใช้กับซีรีส์ Treeamp และ Sunburst. การจัดอันดับระดับจุดข้อมูลเริ่มที่ศูนย์. |
+| [ErrorBarsCustomValues](../../aspose.slides.charts/ichartdatapoint/errorbarscustomvalues) { get; } | เป็นตัวแทนค่าบาร์ข้อผิดพลาดของซีรี่ส์ในกรณีประเภทค่า Custom. อ่านอย่างเดียว [`IErrorBarsCustomValues`](../ierrorbarscustomvalues). |
+| [Explosion](../../aspose.slides.charts/ichartdatapoint/explosion) { get; set; } | ระบุจำนวนที่จุดข้อมูลจะย้ายจากศูนย์กลางของพาย. อ่าน/เขียน Int32. |
+| [Format](../../aspose.slides.charts/ichartdatapoint/format) { get; set; } | เป็นตัวแทนของคุณสมบัติการจัดรูปแบบ. อ่าน/เขียน [`IFormat`](../iformat). |
+| [Index](../../aspose.slides.charts/ichartdatapoint/index) { get; } | กำหนดว่าจุดข้อมูลนี้ใช้กับคอลเลกชันลูกของพ่อแม่ใด. อ่าน UInt32. |
+| [InvertIfNegative](../../aspose.slides.charts/ichartdatapoint/invertifnegative) { get; set; } | ระบุว่าจุดข้อมูลจะสลับสีหากค่าติดลบ. อ่าน/เขียน Boolean. |
+| [IsBubble3D](../../aspose.slides.charts/ichartdatapoint/isbubble3d) { get; set; } | ระบุว่าฟองมีผล 3 มิติ. อ่าน/เขียน Boolean. |
+| [Label](../../aspose.slides.charts/ichartdatapoint/label) { get; } | เป็นตัวแทนของป้ายของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDataLabel`](../idatalabel). |
 | [Marker](../../aspose.slides.charts/ichartdatapoint/marker) { get; } | ระบุเครื่องหมายข้อมูล. อ่านอย่างเดียว [`IMarker`](../imarker). |
-| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | คุณสมบัติของรายการคำอธิบายที่สอดคล้องกันในกรณีที่ประเภทแผนภูมิเป็นหนึ่งในรายการต่อไปนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
-| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | ตั้งค่าให้จุดข้อมูลเป็นยอดรวม. ใช้กับประเภทชุดข้อมูล Waterfall เท่านั้น. |
-| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | ส่งคืนค่าขนาดของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิ Treemap และ Sunburst. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | ส่งคืนค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
-| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | ส่งคืนค่าพิกัด x ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
-| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | ส่งคืนค่าพิกัด y ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [RelatedLegendEntry](../../aspose.slides.charts/ichartdatapoint/relatedlegendentry) { get; } | คุณสมบัติของรายการคำอธิบายที่สอดคล้องกันในกรณีของประเภทแผนภูมิจากรายการนี้: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. อ่านอย่างเดียว [`ILegendEntryProperties`](../ilegendentryproperties). |
+| [SetAsTotal](../../aspose.slides.charts/ichartdatapoint/setastotal) { get; set; } | กำหนดจุดข้อมูลเป็นผลรวม. ใช้กับประเภทซีรีส์ Waterfall เท่านั้น. |
+| [SizeValue](../../aspose.slides.charts/ichartdatapoint/sizevalue) { get; } | คืนค่าขนาดของจุดข้อมูลแผนภูมิ. ใช้กับแผนภูมิ Treemap และ Sunburst. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [Value](../../aspose.slides.charts/ichartdatapoint/value) { get; } | คืนค่าค่าของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
+| [XValue](../../aspose.slides.charts/ichartdatapoint/xvalue) { get; } | คืนค่าค่า x ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IStringOrDoubleChartValue`](../istringordoublechartvalue). |
+| [YValue](../../aspose.slides.charts/ichartdatapoint/yvalue) { get; } | คืนค่าค่า y ของจุดข้อมูลแผนภูมิ. อ่านอย่างเดียว [`IDoubleChartValue`](../idoublechartvalue). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | ส่งคืนสีอัตโนมัติของจุดข้อมูลตามดัชนีชุดข้อมูล, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ. สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType เท่ากับ NotDefined. |
-| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | ลบ DataPoint ออกจากชุดข้อมูลแผนภูมิ. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/ichartdatapoint/getautomaticdatapointcolor)() | คืนค่าสีอัตโนมัติของจุดข้อมูลโดยอิงจากดัชนีซีรีส์, ดัชนีจุดข้อมูล, คุณสมบัติ ParentSeriesGroup.IsColorVaried และสไตล์แผนภูมิ. สีนี้จะถูกใช้เป็นค่าเริ่มต้นหาก FillType เท่ากับ NotDefined. |
+| [Remove](../../aspose.slides.charts/ichartdatapoint/remove)() | ลบ DataPoint จากซีรีส์แผนภูมิ. |
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟซ [IActualLayout](../iactuallayout)
+* อินเทอร์เฟส [IActualLayout](../iactuallayout)
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)
 

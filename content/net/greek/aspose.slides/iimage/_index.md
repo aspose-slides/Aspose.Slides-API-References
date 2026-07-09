@@ -1,14 +1,14 @@
 ---
 title: IImage
 second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια ραστροειδή ή διανυσματική εικόνα.
+description: Αντιπροσωπεύει μια raster ή vector εικόνα.
 type: docs
-weight: 6130
+weight: 6150
 url: /el/aspose.slides/iimage/
 ---
 ## IImage διασύνδεση
 
-Αντιπροσωπεύει μια ραστροειδής ή διανυσματική εικόνα.
+Αντιπροσωπεύει μια raster ή vector εικόνα.
 
 ```csharp
 public interface IImage : IDisposable
@@ -18,9 +18,9 @@ public interface IImage : IDisposable
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Height](../../aspose.slides/iimage/height) { get; } | Παίρνει το ύψος της εικόνας σε pixel. |
-| [Size](../../aspose.slides/iimage/size) { get; } | Παίρνει το μέγεθος της εικόνας. |
-| [Width](../../aspose.slides/iimage/width) { get; } | Παίρνει το πλάτος της εικόνας σε pixel. |
+| [Height](../../aspose.slides/iimage/height) { get; } | Επιστρέφει το ύψος της εικόνας σε pixel. |
+| [Size](../../aspose.slides/iimage/size) { get; } | Επιστρέφει το μέγεθος της εικόνας. |
+| [Width](../../aspose.slides/iimage/width) { get; } | Επιστρέφει το πλάτος της εικόνας σε pixel. |
 
 ## Μέθοδοι
 
@@ -32,9 +32,9 @@ public interface IImage : IDisposable
 | [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | Αποθηκεύει την εικόνα σε ροή στη συγκεκριμένη μορφή και ποιότητα. |
 | [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | Αποθηκεύει την εικόνα σε αρχείο στη συγκεκριμένη μορφή και ποιότητα. |
 
-### Παρατηρήσεις
+### Σχόλια
 
-Αυτή η διασύνδεση παρέχει μια κοινή αφαίρεση για τη διαχείριση τόσο ραστροειδών όσο και διανυσματικών εικόνων. Οι υλοποιήσεις ενδέχεται να διαφέρουν ανάλογα με τον υποκείμενο τύπο εικόνας.
+Αυτή η διασύνδεση παρέχει μια κοινή αφαίρεση για τη διαχείριση τόσο των raster όσο και των vector εικόνων. Οι υλοποιήσεις μπορεί να διαφέρουν ανάλογα με τον υποκείμενο τύπο εικόνας.
 
 ### Δείτε επίσης
 

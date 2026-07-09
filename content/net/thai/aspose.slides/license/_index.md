@@ -1,14 +1,14 @@
 ---
 title: License
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: ให้เมธอดเพื่อทำการลงลิขสิทธิ์ให้กับคอมโพเนนต์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: ให้เมธอดเพื่อทำไลเซนส์คอมโพเนนต์
 type: docs
 weight: 7680
 url: /th/aspose.slides/license/
 ---
-## คลาส License
+## License คลาส
 
-ให้เมธอดเพื่อทำการลงทะเบียนลิขสิทธิ์ให้กับคอมโพเนนต์นี้
+ให้เมธอดเพื่อทำไลเซนส์คอมโพเนนต์
 
 ```csharp
 public class License : ILicense
@@ -24,14 +24,14 @@ public class License : ILicense
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [IsLicensed](../../aspose.slides/license/islicensed)() | ตรวจสอบว่าลิขสิทธิ์ได้ถูกนำไปใช้กับคอมโพเนนต์หรือไม่ |
-| [ResetLicense](../../aspose.slides/license/resetlicense)() | รีเซ็ตลิขสิทธิ์ |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | ทำการลงลิขสิทธิ์ให้กับคอมโพเนนต์ |
-| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | ทำการลงลิขสิทธิ์ให้กับคอมโพเนนต์ |
+| [IsLicensed](../../aspose.slides/license/islicensed)() | ตรวจสอบว่าไลเซนส์ได้ถูกนำไปใช้กับคอมโพเนนต์หรือไม่ |
+| [ResetLicense](../../aspose.slides/license/resetlicense)() | รีเซ็ตไลเซนส์ |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense)(Stream) | ทำไลเซนส์คอมโพเนนต์ |
+| [SetLicense](../../aspose.slides/license/setlicense#setlicense_1)(string) | ทำไลเซนส์คอมโพเนนต์ |
 
 ### ตัวอย่าง
 
-ในตัวอย่างนี้ จะพยายามค้นหาไฟล์ลิขสิทธิ์ชื่อ MyLicense.lic ในโฟลเดอร์ที่ประกอบด้วยคอมโพเนนต์, ในโฟลเดอร์ที่ประกอบด้วยแอสเซมบลีที่เรียกใช้, ในโฟลเดอร์ของแอสเซมบลีเริ่มต้น และจากนั้นในทรัพยากรที่ฝังไว้ของแอสเซมบลีที่เรียกใช้
+ในตัวอย่างนี้ จะพยายามค้นหาไฟล์ไลเซนส์ชื่อ MyLicense.lic ในโฟลเดอร์ที่บรรจุคอมโพเนนต์, ในโฟลเดอร์ที่บรรจุแอสเซมบลีที่เรียกใช้งาน, ในโฟลเดอร์ของแอสเซมบลีหลักแล้วจึงในทรัพยากรฝังของแอสเซมบลีที่เรียกใช้งาน
 
 ```csharp
 [C#]

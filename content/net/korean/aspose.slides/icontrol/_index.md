@@ -1,6 +1,6 @@
 ---
 title: IControl
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: ActiveX 컨트롤을 나타냅니다.
 type: docs
 weight: 5630
@@ -18,16 +18,16 @@ public interface IControl : ISlideComponent
 
 | 이름 | 설명 |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | PersistStream, PersistStreamInit 또는 PersistStorage 중 하나를 사용하여 지속성을 지정할 때 ActiveX 컨트롤의 지속성을 지정합니다. |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | ActiveX 컨트롤의 지속성을 지정합니다. 지속에 사용되는 메서드가 PersistStream, PersistStreamInit 또는 PersistStorage 중 하나인 경우. |
 | [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | 기본 ISlideComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ISlideComponent`](../islidecomponent). |
 | [ClassId](../../aspose.slides/icontrol/classid) { get; } | 이 컨트롤의 클래스 ID를 가져옵니다. 읽기 전용 Guid. |
 | [Frame](../../aspose.slides/icontrol/frame) { get; set; } | 컨트롤의 프레임을 반환하거나 설정합니다. 읽기/쓰기 [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | 이 컨트롤의 이름을 반환합니다. 읽기/쓰기 String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | ActiveX 컨트롤의 속성을 저장하는 데 사용되는 메서드를 가져옵니다. 읽기 전용 [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/icontrol/properties) { get; } | ActiveX 속성의 컬렉션을 반환합니다. 읽기 전용 [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Properties](../../aspose.slides/icontrol/properties) { get; } | ActiveX 속성들의 컬렉션을 반환합니다. 읽기 전용 [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/icontrol/substitutepictureformat) { get; } | ControlEx 이미지 채우기 속성 객체를 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [ISlideComponent](../islidecomponent)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

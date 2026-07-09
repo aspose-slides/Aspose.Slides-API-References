@@ -1,14 +1,14 @@
 ---
 title: Images
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: IImage./iimage를 인스턴스화하고 작업하기 위한 메서드.
+second_title: Aspose.Sildes .NET API 레퍼런스
+description: IImage./iimage와 함께 인스턴스를 생성하고 작업하는 메서드.
 type: docs
 weight: 7460
 url: /ko/aspose.slides/images/
 ---
 ## Images 클래스
 
-인스턴스를 생성하고 [`IImage`](../iimage)와 작업하기 위한 메서드.
+[`IImage`](../iimage)를 인스턴스화하고 작업하기 위한 메서드.
 
 ```csharp
 public static class Images
@@ -19,12 +19,12 @@ public static class Images
 | 이름 | 설명 |
 | --- | --- |
 | static [FromFile](../../aspose.slides/images/fromfile#fromfile)(string) | 파일에서 이미지를 생성합니다. |
-| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | 파일에서 이미지를 생성합니다. |
+| static [FromFile](../../aspose.slides/images/fromfile#fromfile_1)(string, bool) | 파일에서 이미지를 생성합니다 |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream)(Stream) | 스트림에서 이미지를 생성합니다. |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_1)(Stream, bool) | 스트림에서 이미지를 생성합니다. |
 | static [FromStream](../../aspose.slides/images/fromstream#fromstream_2)(Stream, bool, bool) | 스트림에서 이미지를 생성합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)
 * 어셈블리 [Aspose.Slides](../../)

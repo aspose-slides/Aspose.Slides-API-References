@@ -1,14 +1,14 @@
 ---
 title: IAlphaFloorEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Floor. ค่าความทึบของ Alpha ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. อีกนัยหนึ่ง สิ่งที่โปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
+second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+description: อ็อบเจกต์ไม่เปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งแสง Alpha ที่น้อยกว่า 100 จะถูกเปลี่ยนเป็นศูนย์. กล่าวอีกนัยหนึ่ง สิ่งที่มีความโปร่งใสบางส่วนจะกลายเป็นโปร่งใสเต็มที่.
 type: docs
 weight: 3070
 url: /th/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData อินเทอร์เฟซ
 
-อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งเป็นตัวแทนของเอฟเฟกต์ Alpha Floor. ค่าความทึบของ Alpha (opacity) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. อีกนัยหนึ่ง สิ่งที่มีความโปร่งแสงบางส่วนจะกลายเป็นโปร่งแสงเต็มที่.
+อ็อบเจกต์ที่ไม่สามารถเปลี่ยนแปลงได้ซึ่งแสดงถึงเอฟเฟกต์ Alpha Floor. ค่าความโปร่งแสง (Alpha) ที่น้อยกว่า 100% จะถูกเปลี่ยนเป็นศูนย์. กล่าวอีกนัยหนึ่ง สิ่งที่มีความโปร่งแสงแบบบางส่วนจะกลายเป็นโปร่งแสงเต็มที่.
 
 ```csharp
 public interface IAlphaFloorEffectiveData : IEffectEffectiveData
@@ -18,7 +18,7 @@ public interface IAlphaFloorEffectiveData : IEffectEffectiveData
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้รับอินเทอร์เฟซ IEffectEffectiveData ฐาน. อ่านอย่างเดียว [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ialphaflooreffectivedata/asieffecteffectivedata) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IEffectEffectiveData พื้นฐาน. อ่านได้เท่านั้น [`IEffectEffectiveData`](../ieffecteffectivedata). |
 
 ### ดูเพิ่มเติม
 

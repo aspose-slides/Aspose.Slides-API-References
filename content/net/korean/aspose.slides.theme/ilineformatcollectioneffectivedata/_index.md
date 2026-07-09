@@ -1,14 +1,14 @@
 ---
 title: ILineFormatCollectionEffectiveData
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 읽기 전용 효과 선 형식 컬렉션을 나타내는 불변 객체입니다.
+second_title: Aspose.Sildes .NET API 참조
+description: 읽기 전용 라인 형식의 효과적인 컬렉션을 나타내는 불변 객체입니다.
 type: docs
 weight: 11300
 url: /ko/aspose.slides.theme/ilineformatcollectioneffectivedata/
 ---
 ## ILineFormatCollectionEffectiveData 인터페이스
 
-읽기 전용 효과적인 선 형식 컬렉션을 나타내는 불변 객체입니다.
+읽기 전용 라인 형식의 효과적인 컬렉션을 나타내는 불변 객체입니다.
 
 ```csharp
 public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFormatEffectiveData>
@@ -18,13 +18,13 @@ public interface ILineFormatCollectionEffectiveData : IGenericCollection<ILineFo
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
+| [Item](../../aspose.slides.theme/ilineformatcollectioneffectivedata/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`ILineFormatEffectiveData`](../../aspose.slides/ilineformateffectivedata). |
 
 ### 비고
 
 이 인터페이스는 [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata)의 일부로 사용됩니다.
 
-### 참조
+### 관련 항목
 
 * 인터페이스 [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * 인터페이스 [ILineFormatEffectiveData](../../aspose.slides/ilineformateffectivedata)

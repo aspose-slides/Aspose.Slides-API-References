@@ -1,12 +1,12 @@
 ---
 title: TransitionType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: स्लाइड शो ट्रांज़िशन प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 10450
 url: /hi/aspose.slides.slideshow/transitiontype/
 ---
-## TransitionType एन्हुमरेशन
+## TransitionType एन्यूमरेशन
 
 स्लाइड शो ट्रांज़िशन प्रकार का प्रतिनिधित्व करता है।
 
@@ -21,25 +21,25 @@ public enum TransitionType
 | None | `0` |  |
 | Blinds | `1` |  |
 | Checker | `2` |  |
-| Circle | `3` | PowerPoint 2010 में ट्रांज़िशन Shape (विकल्प Circle) से संबंधित है। |
+| Circle | `3` | PowerPoint 2010 में ट्रांज़िशन Shape (with option Circle) से संबंधित है। |
 | Comb | `4` |  |
 | Cover | `5` |  |
 | Cut | `6` |  |
-| Diamond | `7` | PowerPoint 2010 में ट्रांज़िशन Shape (विकल्प Diamond) से संबंधित है। |
+| Diamond | `7` | PowerPoint 2010 में ट्रांज़िशन Shape (with option Diamond) से संबंधित है। |
 | Dissolve | `8` |  |
 | Fade | `9` |  |
 | Newsflash | `10` |  |
-| Plus | `11` | PowerPoint 2010 में ट्रांज़िशन Shape (विकल्प Plus) से संबंधित है। |
+| Plus | `11` | PowerPoint 2010 में ट्रांज़िशन Shape (with option Plus) से संबंधित है। |
 | Pull | `12` |  |
 | Push | `13` |  |
 | Random | `14` |  |
 | RandomBar | `15` |  |
-| Split | `16` | PowerPoint 2010 में ट्रांज़िशन Wipe के बराबर है। |
+| Split | `16` | PowerPoint 2010 में ट्रांज़िशन Wipe के समतुल्य है। |
 | Strips | `17` |  |
-| Wedge | `18` | PowerPoint 2010 में ट्रांज़िशन Clock (विकल्प Wedge) से संबंधित है। |
-| Wheel | `19` | PowerPoint 2010 में ट्रांज़िशन Clock (विकल्प Clockwise) से संबंधित है। |
+| Wedge | `18` | PowerPoint 2010 में ट्रांज़िशन Clock (with option Wedge) से संबंधित है। |
+| Wheel | `19` | PowerPoint 2010 में ट्रांज़िशन Clock (with option Clockwise) से संबंधित है। |
 | Wipe | `20` |  |
-| Zoom | `21` | PowerPoint 2010 में ट्रांज़िशन Shape (विकल्प In/Out) से संबंधित है। देखें Warp, जो PowerPoint 2010 में ट्रांज़िशन Zoom से संबंधित है। |
+| Zoom | `21` | PowerPoint 2010 में ट्रांज़िशन Shape (with options In/Out) से संबंधित है। देखें Warp जो PowerPoint 2010 में ट्रांज़िशन Zoom से संबंधित है। |
 | Vortex | `22` | PowerPoint 2010 में उपलब्ध है। |
 | Switch | `23` | PowerPoint 2010 में उपलब्ध है। |
 | Flip | `24` | PowerPoint 2010 में उपलब्ध है। |
@@ -61,7 +61,7 @@ public enum TransitionType
 | Flash | `40` | PowerPoint 2010 में उपलब्ध है। |
 | Shred | `41` | PowerPoint 2010 में उपलब्ध है। |
 | Reveal | `42` | PowerPoint 2010 में उपलब्ध है। |
-| WheelReverse | `43` | PowerPoint 2010 में ट्रांज़िशन Clock (विकल्प Counterclockwise) से संबंधित है। PowerPoint 2010 में उपलब्ध है। |
+| WheelReverse | `43` | PowerPoint 2010 में ट्रांज़िशन Clock (with option Counterclockwise) से संबंधित है। PowerPoint 2010 में उपलब्ध है। |
 | FallOver | `44` | PowerPoint 2013 में उपलब्ध है। |
 | Drape | `45` | PowerPoint 2013 में उपलब्ध है। |
 | Curtains | `46` | PowerPoint 2013 में उपलब्ध है। |
@@ -74,7 +74,7 @@ public enum TransitionType
 | PageCurlSingle | `53` | PowerPoint 2013 में उपलब्ध है। |
 | Airplane | `54` | PowerPoint 2013 में उपलब्ध है। |
 | Origami | `55` | PowerPoint 2013 में उपलब्ध है। |
-| Morph | `56` | PowerPoint 2019 में ट्रांज़िशन Morph (विकल्प Type) से संबंधित है। |
+| Morph | `56` | PowerPoint 2019 में ट्रांज़िशन Morph (with option Type) से संबंधित है। |
 
 ### देखें
 

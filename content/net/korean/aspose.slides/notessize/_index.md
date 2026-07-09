@@ -8,7 +8,7 @@ url: /ko/aspose.slides/notessize/
 ---
 ## NotesSize 클래스
 
-노트 슬라이드의 크기를 나타냅니다.
+Notes slide의 크기를 나타냅니다.
 
 ```csharp
 public class NotesSize : INotesSize
@@ -18,15 +18,15 @@ public class NotesSize : INotesSize
 
 | 이름 | 설명 |
 | --- | --- |
-| [NotesSize](notessize)() | 기본 생성자입니다. |
+| [NotesSize](notessize)() | 기본 생성자. |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
-| [Size](../../aspose.slides/notessize/size) { get; set; } | 크기를 포인트 단위로 반환하거나 설정합니다. 읽기/쓰기 SizeF. |
+| [Size](../../aspose.slides/notessize/size) { get; set; } | 포인트 단위의 크기를 반환하거나 설정합니다. 읽기/쓰기 SizeF. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [INotesSize](../inotessize)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

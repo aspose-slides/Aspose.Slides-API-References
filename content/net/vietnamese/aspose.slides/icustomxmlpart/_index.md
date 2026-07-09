@@ -1,14 +1,14 @@
 ---
 title: ICustomXmlPart
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho phần XML tùy chỉnh.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn phần xml tùy chỉnh.
 type: docs
 weight: 5670
 url: /vi/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart giao diện
 
-Đại diện cho phần XML tùy chỉnh.
+Biểu diễn phần xml tùy chỉnh.
 
 ```csharp
 public interface ICustomXmlPart
@@ -18,16 +18,16 @@ public interface ICustomXmlPart
 
 | Tên | Mô tả |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Xác định một định danh toàn cục duy nhất (GUID) dùng để nhận dạng duy nhất một phần XML tùy chỉnh trong tài liệu Office Open XML. Chỉ đọc Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Trả về tập hợp các sơ đồ XML được liên kết với phần XML tùy chỉnh. Chỉ đọc String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Trả về hoặc thiết lập dữ liệu xml dưới dạng chuỗi UTF-8. Đọc/ghi String. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Trả về hoặc thiết lập dữ liệu xml. Đọc/ghi Byte[]. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Xác định một định danh duy nhất toàn cục (GUID) cho phần XML tùy chỉnh trong tài liệu Office Open XML. Guid chỉ đọc. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Trả về tập hợp các schema XML liên quan đến phần XML tùy chỉnh. String[] chỉ đọc. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Trả về hoặc đặt dữ liệu xml dưới dạng chuỗi UTF-8. String đọc/ghi. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Trả về hoặc đặt dữ liệu xml. Byte[] đọc/ghi. giá trị là `null`. giá trị rỗng hoặc dữ liệu xml không hợp lệ. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Xóa phần xml tùy chỉnh khỏi bản trình chiếu. |
+| [Remove](../../aspose.slides/icustomxmlpart/remove)() | Xóa phần xml tùy chỉnh khỏi bản trình bày. |
 
 ### Xem thêm
 

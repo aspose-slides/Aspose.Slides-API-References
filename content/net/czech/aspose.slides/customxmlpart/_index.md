@@ -3,10 +3,10 @@ title: CustomXmlPart
 second_title: Aspose.Sildes pro .NET API Reference
 description: Představuje vlastní část XML.
 type: docs
-weight: 2720
+weight: 2740
 url: /cs/aspose.slides/customxmlpart/
 ---
-## třída CustomXmlPart
+## CustomXmlPart třída
 
 Představuje vlastní část XML.
 
@@ -19,7 +19,7 @@ public class CustomXmlPart : ICustomXmlPart
 | Název | Popis |
 | --- | --- |
 | [ItemId](../../aspose.slides/customxmlpart/itemid) { get; set; } | Určuje globálně jedinečný identifikátor (GUID), který jednoznačně identifikuje jedinou vlastní část XML v dokumentu Office Open XML. Pouze pro čtení Guid. |
-| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Vrací kolekci schémat XML, která jsou přidružena k vlastní části XML. Pouze pro čtení String[]. |
+| [NamespaceSchemas](../../aspose.slides/customxmlpart/namespaceschemas) { get; } | Vrací kolekci schémat XML, která jsou spojena s vlastní částí XML. Pouze pro čtení String[]. |
 | [XmlAsString](../../aspose.slides/customxmlpart/xmlasstring) { get; set; } | Vrací nebo nastavuje data xml jako řetězec UTF-8. Čtení/zápis String. hodnota je `null`. hodnota je prázdná nebo data xml jsou neplatná. |
 | [XmlData](../../aspose.slides/customxmlpart/xmldata) { get; set; } | Vrací nebo nastavuje data xml. Čtení/zápis Byte[]. hodnota je `null`. hodnota je prázdná nebo data xml jsou neplatná. |
 

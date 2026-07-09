@@ -1,14 +1,14 @@
 ---
 title: AsposeAIWebClient
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับปลายทาง Aspose LLM เริ่มต้น นี้เป็นไคลเอนต์ที่ใช้โดยคอนสตรัคเตอร์ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent ที่ไม่มีพารามิเตอร์ ดังนั้นการสร้างอย่างชัดเจนจะจำเป็นเฉพาะเมื่อส่งไคลเอนต์ให้กับคอนสตรัคเตอร์ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent โดยตรง
+description: สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้น นี่เป็นไคลเอนต์ที่ใช้โดยคอนสตรัคเตอร์ที่ไม่มีพารามิเตอร์ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent ดังนั้นการสร้างโดยตรงจึงจำเป็นเฉพาะเมื่อส่งไคลเอนต์ไปยังคอนสตรัคเตอร์ SlidesAIAgentaspose.slides.ai/slidesaiagent/slidesaiagent โดยตรง.
 type: docs
 weight: 10
 url: /th/aspose.slides.ai/asposeaiwebclient/asposeaiwebclient/
 ---
 ## AsposeAIWebClient() {#constructor}
 
-สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับปลายทาง Aspose LLM เริ่มต้น นี้เป็นคลไอแคลนท์ที่ใช้โดยคอนสตรัคเตอร์ที่ไม่มีพารามิเตอร์ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) ดังนั้นการสร้างโดยชัดเจนจะจำเป็นเฉพาะเมื่อส่งคลไอแคลนท์ให้กับคอนสตรัคเตอร์ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) โดยตรง
+สร้างอินสแตนซ์ของ Aspose AI web client ซึ่งเชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้น นี่เป็นคอนสตรัคเตอร์ที่ใช้โดยคอนสตรัคเตอร์ที่ไม่มีพารามิเตอร์ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) ดังนั้นการสร้างโดยตรงจึงจำเป็นเฉพาะเมื่อต้องส่งคลายเอนท์ไปยังคอนสตรัคเตอร์ [`SlidesAIAgent`](../../slidesaiagent/slidesaiagent) โดยตรง
 
 ```csharp
 public AsposeAIWebClient()
@@ -17,87 +17,87 @@ public AsposeAIWebClient()
 ### ดูเพิ่มเติม
 
 * คลาส [AsposeAIWebClient](../../asposeaiwebclient)
-* เนมสเปส [Aspose.Slides.AI](../../asposeaiwebclient)
+* เนมสเปซ [Aspose.Slides.AI](../../asposeaiwebclient)
 * แอสเซมบลี [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(HttpClient) {#constructor_1}
 
-สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับปลายทาง Aspose LLM เริ่มต้นโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาไม่ได้ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้
+สร้างอินสแตนซ์ของ Aspose AI web client ซึ่งเชื่อมต่อกับจุดสิ้นสุด Aspose LLM เริ่มต้นโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาไม่ได้ถูกกำจัดโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้
 
 ```csharp
 public AsposeAIWebClient(HttpClient httpClient)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | รายละเอียด |
 | --- | --- | --- |
-| httpClient | HttpClient | อินสแตนซ์ของ HttpClient ที่จัดการโดยภายนอก |
+| httpClient | HttpClient | อินสแตนซ์ HttpClient ที่จัดการจากภายนอก |
 
 ### ข้อยกเว้น
 
-| ข้อยกเว้น | สถานการณ์ |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
 | ArgumentNullException | ไม่ได้ให้อินสแตนซ์ HttpClient |
 
 ### ดูเพิ่มเติม
 
 * คลาส [AsposeAIWebClient](../../asposeaiwebclient)
-* เนมสเปส [Aspose.Slides.AI](../../asposeaiwebclient)
+* เนมสเปซ [Aspose.Slides.AI](../../asposeaiwebclient)
 * แอสเซมบลี [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string) {#constructor_2}
 
-สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL ของปลายทางแบบกำหนดเอง ใช้โอเวอร์โหลดนี้เมื่อคุณมี URL ที่ทีม Aspose.Slides จัดให้; หากไม่ใช่ให้ใช้โอเวอร์โหลด [`AsposeAIWebClient`](../asposeaiwebclient) พร้อม URL เริ่มต้น
+สร้างอินสแตนซ์ของ Aspose AI web client ซึ่งเชื่อมต่อกับ URL จุดสิ้นสุดที่กำหนดเอง ใช้ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides ให้ไว้; มิฉะนั้นใช้ overload [`AsposeAIWebClient`](../asposeaiwebclient) พร้อม URL เริ่มต้น
 
 ```csharp
 public AsposeAIWebClient(string url)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | รายละเอียด |
 | --- | --- | --- |
-| url | String | URL ของปลายทาง Aspose LLM ที่ทีม Aspose.Slides จัดให้ |
+| url | String | URL จุดสิ้นสุดของ Aspose LLM ที่ทีม Aspose.Slides ให้ไว้ |
 
 ### ข้อยกเว้น
 
-| ข้อยกเว้น | สถานการณ์ |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | URL ไม่สามารถเป็นค่า null หรือว่างได้ |
+| ArgumentNullException | URL ไม่สามารถเป็นค่า null หรือว่างเปล่าได้ |
 
 ### ดูเพิ่มเติม
 
 * คลาส [AsposeAIWebClient](../../asposeaiwebclient)
-* เนมสเปส [Aspose.Slides.AI](../../asposeaiwebclient)
+* เนมสเปซ [Aspose.Slides.AI](../../asposeaiwebclient)
 * แอสเซมบลี [Aspose.Slides](../../../)
 
 ---
 
 ## AsposeAIWebClient(string, HttpClient) {#constructor_3}
 
-สร้างอินสแตนซ์ของ Aspose AI web client ที่เชื่อมต่อกับ URL ของปลายทางแบบกำหนดเองโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาไม่ได้ถูกทำลายโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้ ใช้โอเวอร์โหลดนี้เมื่อคุณมี URL ที่ทีม Aspose.Slides จัดให้และต้องการใช้ HttpClient ของตนเอง; หากคุณต้องการใช้ HttpClient ของตนเองพร้อม URL เริ่มต้นให้ใช้โอเวอร์โหลด [`AsposeAIWebClient`](../asposeaiwebclient) แทน
+สร้างอินสแตนซ์ของ Aspose AI web client ซึ่งเชื่อมต่อกับ URL จุดสิ้นสุดที่กำหนดเองโดยใช้ HttpClient ที่จัดการจากภายนอก HttpClient ที่ให้มาไม่ได้ถูกกำจัดโดยอินสแตนซ์นี้และยังคงเป็นของผู้เรียกใช้ ใช้ overload นี้เมื่อคุณมี URL ที่ทีม Aspose.Slides ให้ไว้และต้องการให้ HttpClient ของคุณเอง; หากคุณต้องการเพียง HttpClient ของคุณเองกับ URL เริ่มต้น ให้ใช้ overload [`AsposeAIWebClient`](../asposeaiwebclient) แทน
 
 ```csharp
 public AsposeAIWebClient(string url, HttpClient httpClient)
 ```
 
-| พารามิเตอร์ | ชนิด | คำอธิบาย |
+| พารามิเตอร์ | ประเภท | รายละเอียด |
 | --- | --- | --- |
-| url | String | URL ของปลายทาง Aspose LLM ที่ทีม Aspose.Slides จัดให้ |
-| httpClient | HttpClient | อินสแตนซ์ของ HttpClient ที่จัดการโดยภายนอก |
+| url | String | URL จุดสิ้นสุดของ Aspose LLM ที่ทีม Aspose.Slides ให้ไว้ |
+| httpClient | HttpClient | อินสแตนซ์ HttpClient ที่จัดการจากภายนอก |
 
 ### ข้อยกเว้น
 
-| ข้อยกเว้น | สถานการณ์ |
+| ข้อยกเว้น | เงื่อนไข |
 | --- | --- |
-| ArgumentNullException | URL ไม่สามารถเป็นค่า null หรือว่างได้ |
+| ArgumentNullException | URL ไม่สามารถเป็นค่า null หรือว่างเปล่าได้ |
 | ArgumentNullException | ไม่ได้ให้อินสแตนซ์ HttpClient |
 
 ### ดูเพิ่มเติม
 
 * คลาส [AsposeAIWebClient](../../asposeaiwebclient)
-* เนมสเปส [Aspose.Slides.AI](../../asposeaiwebclient)
+* เนมสเปซ [Aspose.Slides.AI](../../asposeaiwebclient)
 * แอสเซมบลี [Aspose.Slides](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -8,7 +8,7 @@ url: /nl/aspose.slides/ilightrig/
 ---
 ## ILightRig interface
 
-Vertegenwoordigt LightRig.
+Represents LightRig.
 
 ```csharp
 public interface ILightRig
@@ -18,15 +18,15 @@ public interface ILightRig
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Lichtrichting. Lezen/Schrijven [`LightingDirection`](../lightingdirection). |
-| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Vertegenwoordigt een vooraf ingestelde lichtinstelling die kan worden toegepast op een vorm. De LightRig vertegenwoordigt een groep lichten die op een specifieke manier ten opzichte van een 3D-scene zijn georiënteerd. Lezen/Schrijven [`LightRigPresetType`](../lightrigpresettype). |
+| [Direction](../../aspose.slides/ilightrig/direction) { get; set; } | Light direction. Lezen/schrijven [`LightingDirection`](../lightingdirection). |
+| [LightType](../../aspose.slides/ilightrig/lighttype) { get; set; } | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Lezen/schrijven [`LightRigPresetType`](../lightrigpresettype). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Een rotatie wordt gedefinieerd door gebruik te maken van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een rotatie rond de as als de breedtegraad- en lengtegraadcoördinaten. Eerste element in retourarray – breedtegraad, tweede – lengtegraad, derde – rotatie. |
-| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door gebruik te maken van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een rotatie rond de as als de breedtegraad- en lengtegraadcoördinaten. |
+| [GetRotation](../../aspose.slides/ilightrig/getrotation)() | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een rotatie rond de as als de breedte- en lengtegraadcoördinaten. eerste element in teruggegeven array – breedtegraad, tweede – lengtegraad, derde – rotatie. |
+| [SetRotation](../../aspose.slides/ilightrig/setrotation)(float, float, float) | Een rotatie wordt gedefinieerd door het gebruik van een breedtegraadcoördinaat, een lengtegraadcoördinaat en een rotatie rond de as als de breedte- en lengtegraadcoördinaten. |
 
 ### Zie ook
 

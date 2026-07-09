@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkManager
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: हाइपरलिंक प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
+description: हाइपरलिंक्स प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
 type: docs
 weight: 6130
 url: /hi/aspose.slides/ihyperlinkmanager/
 ---
 ## IHyperlinkManager इंटरफ़ेस
 
-हाइपरलिंक प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
+हाइपरलिंक्स प्रबंधन (जोड़ना, हटाना) प्रदान करता है।
 
 ```csharp
 public interface IHyperlinkManager

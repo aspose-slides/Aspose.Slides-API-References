@@ -1,7 +1,7 @@
 ---
 title: IBackground
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แทนพื้นหลังของสไลด์หนึ่ง.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แทนพื้นหลังของสไลด์
 type: docs
 weight: 5270
 url: /th/aspose.slides/ibackground/
@@ -18,11 +18,11 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | คืนค่า IFillParamSource อินเทอร์เฟซ. แบบอ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
-| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | คืนค่า ISlideComponent อินเทอร์เฟซ. แบบอ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
-| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | คืนค่า EffectFormat สำหรับการเติม BackgroundType.OwnBackground. แบบอ่านอย่างเดียว [`IEffectFormat`](../ieffectformat). |
-| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | คืนค่า FillFormat สำหรับการเติม BackgroundType.OwnBackground. แบบอ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
-| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | คืนค่า ColorFormat สำหรับการเติม BackgroundType.Themed. แบบอ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
+| [AsIFillParamSource](../../aspose.slides/ibackground/asifillparamsource) { get; } | คืนค่า IFillParamSource อินเทอร์เฟซ. อ่านอย่างเดียว [`IFillParamSource`](../ifillparamsource). |
+| [AsISlideComponent](../../aspose.slides/ibackground/asislidecomponent) { get; } | คืนค่า ISlideComponent อินเทอร์เฟซ. อ่านอย่างเดียว [`ISlideComponent`](../islidecomponent). |
+| [EffectFormat](../../aspose.slides/ibackground/effectformat) { get; } | คืนค่า EffectFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IEffectFormat`](../ieffectformat). |
+| [FillFormat](../../aspose.slides/ibackground/fillformat) { get; } | คืนค่า FillFormat สำหรับการเติม BackgroundType.OwnBackground. อ่านอย่างเดียว [`IFillFormat`](../ifillformat). |
+| [StyleColor](../../aspose.slides/ibackground/stylecolor) { get; } | คืนค่า ColorFormat สำหรับการเติม BackgroundType.Themed. อ่านอย่างเดียว [`IColorFormat`](../icolorformat). |
 | [StyleIndex](../../aspose.slides/ibackground/styleindex) { get; set; } | คืนค่าดัชนีของการเติม BackgroundType.Themed ในคอลเลกชันธีมพื้นหลัง. 0 หมายถึงไม่มีการเติม. 1..999 - ดัชนี. อ่าน/เขียน UInt16. |
 | [Type](../../aspose.slides/ibackground/type) { get; set; } | คืนค่าประเภทของการเติมพื้นหลัง. อ่าน/เขียน [`BackgroundType`](../backgroundtype). |
 
@@ -30,7 +30,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | รับข้อมูลพื้นหลังที่มีผลโดยมีการสืบทอดที่นำมาใช้. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | รับข้อมูลพื้นหลังที่มีผลโดยใช้การสืบทอดที่กำหนด. |
 
 ### ดูเพิ่มเติม
 

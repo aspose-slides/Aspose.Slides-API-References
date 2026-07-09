@@ -1,14 +1,14 @@
 ---
 title: Cell
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje buňku tabulky.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Představuje buňku tabulky.
 type: docs
-weight: 1110
+weight: 1130
 url: /cs/aspose.slides/cell/
 ---
 ## Cell třída
 
-Reprezentuje buňku Table.
+Představuje buňku tabulky.
 
 ```csharp
 public class Cell : ICell
@@ -16,36 +16,36 @@ public class Cell : ICell
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Určuje, zda je textové pole vycentrované uvnitř buňky. Boolean, čtení/zápis. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Určuje, zda je textové pole uvnitř buňky vycentrováno. Čtení/Zápis Boolean. |
 | [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Vrací objekt CellFormat, který obsahuje vlastnosti formátování pro tuto buňku. Pouze pro čtení [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Vrací počet sloupců v mřížce parent Table, které má buňka pokrýt. Tato vlastnost umožňuje buňkám vypadat, že jsou sloučeny, protože přesahují vertikální hranice jiných buněk v tabulce. Pouze pro čtení Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Vrací první sloupec buňky. Pouze pro čtení [`IColumn`](../icolumn). |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Vrací počet sloupců mřížky v nadřazené tabulce, které má aktuální buňka zabrat. Tato vlastnost umožňuje buňkám vypadat, že jsou sloučeny, protože přesahují vertikální hranice jiných buněk v tabulce. Pouze pro čtení Int32. |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Získá první sloupec buňky. Pouze pro čtení [`IColumn`](../icolumn). |
 | [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Vrací index prvního sloupce, který buňka pokrývá. Pouze pro čtení Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Vrací první řádek buňky. Pouze pro čtení [`IRow`](../irow). |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Získá první řádek buňky. Pouze pro čtení [`IRow`](../irow). |
 | [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Vrací index prvního řádku, který buňka pokrývá. Pouze pro čtení Int32. |
 | [Height](../../aspose.slides/cell/height) { get; } | Vrací výšku buňky. Pouze pro čtení Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Vrací true, pokud je buňka sloučena s jakoukoliv přilehlou buňkou, jinak false. Pouze pro čtení Boolean. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj v TextFrame. Double, čtení/zápis. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v TextFrame. Double, čtení/zápis. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v TextFrame. Double, čtení/zápis. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Vrací nebo nastavuje horní okraj v TextFrame. Double, čtení/zápis. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Vrací true, pokud je buňka sloučena s jakoukoliv přizpůsobenou buňkou, jinak false. Pouze pro čtení Boolean. |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Vrací nebo nastavuje spodní okraj v TextFrame. Čtení/Zápis Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Vrací nebo nastavuje levý okraj v TextFrame. Čtení/Zápis Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Vrací nebo nastavuje pravý okraj v TextFrame. Čtení/Zápis Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Vrací nebo nastavuje horní okraj v TextFrame. Čtení/Zápis Double. |
 | [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Vrací minimální výšku buňky. Jedná se o součet minimálních výšek všech řádků pokrytých buňkou. Pouze pro čtení Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Vrací vzdálenost od levé strany Table k levé straně buňky. Pouze pro čtení Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Vrací vzdálenost od horní strany Table k horní straně buňky. Pouze pro čtení Double. |
-| [Presentation](../../aspose.slides/cell/presentation) { get; } | Vrací parent presentation buňky. Pouze pro čtení [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Vrací počet řádků, které sloučená buňka pokrývá. Používá se v kombinaci s atributem vMerge na jiných buňkách k určení počáteční buňky horizontálního sloučení. Pouze pro čtení Int32. |
-| [Slide](../../aspose.slides/cell/slide) { get; } | Vrací parent slide buňky. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | Vrací parent Table objekt buňky. Pouze pro čtení [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Vrací nebo nastavuje typ ukotvení textu. [`TextAnchorType`](../textanchortype), čtení/zápis. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Vrací vzdálenost od levé strany tabulky k levé straně buňky. Pouze pro čtení Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Vrací vzdálenost od horní strany tabulky k horní straně buňky. Pouze pro čtení Double. |
+| [Presentation](../../aspose.slides/cell/presentation) { get; } | Vrací nadřazenou prezentaci buňky. Pouze pro čtení [`IPresentation`](../ipresentation). |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Vrací počet řádků, které sloučená buňka zabírá. Používá se v kombinaci s atributem vMerge u jiných buněk za účelem určení počáteční buňky horizontálního sloučení. Pouze pro čtení Int32. |
+| [Slide](../../aspose.slides/cell/slide) { get; } | Vrací nadřazený snímek buňky. Pouze pro čtení [`IBaseSlide`](../ibaseslide). |
+| [Table](../../aspose.slides/cell/table) { get; } | Vrací nadřazený objekt Table pro buňku. Pouze pro čtení [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Vrací nebo nastavuje typ ukotvení textu. Čtení/Zápis [`TextAnchorType`](../textanchortype). |
 | [TextFrame](../../aspose.slides/cell/textframe) { get; } | Vrací textový rámec buňky. Pouze pro čtení [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Vrací nebo nastavuje typ vertikálního textu. [`TextVerticalType`](../textverticaltype), čtení/zápis. |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Vrací nebo nastavuje typ vertikálního textu. Čtení/Zápis [`TextVerticalType`](../textverticaltype). |
 | [Width](../../aspose.slides/cell/width) { get; } | Vrací šířku buňky. Pouze pro čtení Double. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Rozdělí buňku na dvě buňky podle indexu sloupce. |
 | [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Rozdělí buňku podle výšky. |

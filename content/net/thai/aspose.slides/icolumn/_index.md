@@ -18,10 +18,10 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน IBulkTextFormattable. อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | อนุญาตให้ดึงอินเทอร์เฟซฐาน ICellCollection. อ่านอย่างเดียว [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | คืนค่าอ็อบเจ็กต์ ColumnFormat ที่มีคุณสมบัติกำหนดรูปแบบสำหรับคอลัมน์นี้. อ่านอย่างเดียว [`IColumnFormat`](../icolumnformat). |
-| [Width](../../aspose.slides/icolumn/width) { get; set; } | คืนค่า หรือกำหนด ความกว้างของคอลัมน์. อ่าน/เขียน Double. |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | อนุญาตให้รับอินเทอร์เฟซพื้นฐาน IBulkTextFormattable. อ่านอย่างเดียว [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | อนุญาตให้รับอินเทอร์เฟซพื้นฐาน ICellCollection. อ่านอย่างเดียว [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | ส่งคืนอ็อบเจ็กต์ ColumnFormat ที่มีคุณสมบัติการจัดรูปแบบสำหรับคอลัมน์นี้. อ่านอย่างเดียว [`IColumnFormat`](../icolumnformat). |
+| [Width](../../aspose.slides/icolumn/width) { get; set; } | ส่งคืนหรือกำหนดความกว้างของคอลัมน์. อ่าน/เขียน Double. |
 
 ### ดูเพิ่มเติม
 

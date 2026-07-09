@@ -1,14 +1,14 @@
 ---
 title: FontSubstitutionInfo
-second_title: Aspose.Sildes a .NET API referenciája
-description: Ez a struktúra a betűtípus helyettesítésével kapcsolatos információkat ábrázolja, amikor megjelenik.
+second_title: Aspose.Sildes for .NET API referencia
+description: Ez a struktúra a betűtípuscsere információit tartalmazza, amikor megjelenik.
 type: docs
-weight: 4890
+weight: 4910
 url: /hu/aspose.slides/fontsubstitutioninfo/
 ---
 ## FontSubstitutionInfo osztály
 
-Ez a struktúra a betűtípus helyettesítésével kapcsolatos információkat ábrázolja, amikor megjelenik.
+Ez a struktúra a betűtípuscsere információit tartalmazza, amikor megjelenik.
 
 ```csharp
 public class FontSubstitutionInfo
@@ -16,16 +16,16 @@ public class FontSubstitutionInfo
 
 ## Konstruktorok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | [`FontSubstitutionInfo`](../fontsubstitutioninfo) osztály példányát hozza létre. |
+| [FontSubstitutionInfo](fontsubstitutioninfo)(string, string) | Létrehozza a [`FontSubstitutionInfo`](../fontsubstitutioninfo) osztály egy példányát. |
 
 ## Tulajdonságok
 
-| Name | Description |
+| Név | Leírás |
 | --- | --- |
-| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | A bemutatóban forrás betűtípus nevét jelzi. Csak olvasható String |
-| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Az eredeti betűtípus helyettesítő betűtípus nevét jelzi. Csak olvasható String |
+| [OriginalFontName](../../aspose.slides/fontsubstitutioninfo/originalfontname) { get; } | Jelzi a forrás betűtípus nevét a prezentációban. Csak olvasható String |
+| [SubstitutedFontName](../../aspose.slides/fontsubstitutioninfo/substitutedfontname) { get; } | Jelzi az eredeti betűtípus helyettesítő betűtípus nevét. Csak olvasható String |
 
 ### Példák
 

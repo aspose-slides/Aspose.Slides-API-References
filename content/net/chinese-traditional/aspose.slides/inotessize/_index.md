@@ -1,14 +1,14 @@
 ---
 title: INotesSize
 second_title: Aspose.Sildes for .NET API 參考
-description: 表示註釋投影片的大小。
+description: 表示筆記投影片的尺寸。
 type: docs
 weight: 6490
 url: /zh-hant/aspose.slides/inotessize/
 ---
 ## INotesSize 介面
 
-表示註釋投影片的大小。
+表示筆記投影片的尺寸。
 
 ```csharp
 public interface INotesSize
@@ -18,7 +18,7 @@ public interface INotesSize
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Size](../../aspose.slides/inotessize/size) { get; set; } | 傳回或設定以點為單位的大小。讀/寫 SizeF. |
+| [Size](../../aspose.slides/inotessize/size) { get; set; } | 傳回或設定以點為單位的大小。可讀寫 SizeF。 |
 
 ### 另請參閱
 

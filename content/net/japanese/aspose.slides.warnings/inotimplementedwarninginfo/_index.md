@@ -3,7 +3,7 @@ title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 既知の未実装機能に関する警告を表します。この機能は近い将来に実装される予定はありません。
 type: docs
-weight: 11750
+weight: 11770
 url: /ja/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo インターフェイス
@@ -18,7 +18,7 @@ public interface INotImplementedWarningInfo : IWarningInfo
 
 | 名前 | 説明 |
 | --- | --- |
-| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。 読み取り専用 [`IWarningInfo`](../iwarninginfo)。 |
+| [AsIWarningInfo](../../aspose.slides.warnings/inotimplementedwarninginfo/asiwarninginfo) { get; } | IWarningInfo インターフェイスを返します。読み取り専用 [`IWarningInfo`](../iwarninginfo)。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: GradientStopEffectiveData
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Oggetto immutabile che rappresenta una fermata di gradiente.
+second_title: Aspose.Sildes per .NET - Riferimento API
+description: Oggetto immutabile che rappresenta un punto di gradiente.
 type: docs
-weight: 5030
+weight: 5050
 url: /it/aspose.slides/gradientstopeffectivedata/
 ---
 ## GradientStopEffectiveData classe
 
-Oggetto immutabile che rappresenta una fermata di gradiente.
+Oggetto immutabile che rappresenta un punto di gradiente.
 
 ```csharp
 public class GradientStopEffectiveData : IGradientStopEffectiveData
@@ -18,14 +18,14 @@ public class GradientStopEffectiveData : IGradientStopEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Restituisce il colore di una fermata di gradiente. Solo lettura Color. |
-| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di una fermata di gradiente. Solo lettura Single. |
+| [Color](../../aspose.slides/gradientstopeffectivedata/color) { get; } | Restituisce il colore di un punto di gradiente. Solo lettura Color. |
+| [Position](../../aspose.slides/gradientstopeffectivedata/position) { get; } | Restituisce la posizione (0..1) di un punto di gradiente. Solo lettura Single. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina se il [`GradientStopEffectiveData`](../gradientstopeffectivedata) specificato è uguale all'attuale [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
+| override [Equals](../../aspose.slides/gradientstopeffectivedata/equals)(object) | Determina se lo [`GradientStopEffectiveData`](../gradientstopeffectivedata) specificato è uguale all'attuale [`GradientStopEffectiveData`](../gradientstopeffectivedata). |
 | override [GetHashCode](../../aspose.slides/gradientstopeffectivedata/gethashcode)() |  |
 
 ### Vedi anche

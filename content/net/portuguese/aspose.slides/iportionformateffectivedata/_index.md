@@ -1,14 +1,14 @@
 ---
 title: IPortionFormatEffectiveData
-second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que contém propriedades de formatação de trecho de texto efetivas.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Objeto imutável que contém propriedades de formatação de porção de texto efetivas.
 type: docs
-weight: 6720
+weight: 6740
 url: /pt/aspose.slides/iportionformateffectivedata/
 ---
 ## IPortionFormatEffectiveData interface
 
-Objeto imutável que contém propriedades de formatação de trecho de texto efetivas.
+Objeto imutável que contém propriedades de formatação de porção de texto efetivas.
 
 ```csharp
 public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
@@ -19,15 +19,15 @@ public interface IPortionFormatEffectiveData : IBasePortionFormatEffectiveData
 | Nome | Descrição |
 | --- | --- |
 | [AsIBasePortionFormatEffectiveData](../../aspose.slides/iportionformateffectivedata/asibaseportionformateffectivedata) { get; } | Retorna a interface IBasePortionFormatEffectiveData. |
-| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Retorna o identificador do marcador. String somente leitura. |
+| [BookmarkId](../../aspose.slides/iportionformateffectivedata/bookmarkid) { get; } | Retorna o identificador do marcador. Somente leitura String. |
 | [HyperlinkClick](../../aspose.slides/iportionformateffectivedata/hyperlinkclick) { get; } | Retorna o hyperlink definido para clique do mouse. Somente leitura [`IHyperlink`](../ihyperlink). |
-| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Retorna o hyperlink definido para passagem do mouse. Somente leitura [`IHyperlink`](../ihyperlink). |
+| [HyperlinkMouseOver](../../aspose.slides/iportionformateffectivedata/hyperlinkmouseover) { get; } | Retorna o hyperlink definido para mouse over. Somente leitura [`IHyperlink`](../ihyperlink). |
 
 ### Observações
 
-Esta interface é usada juntamente com a interface [`IPortionFormat`](../iportionformat) para devolver valores de formatação efetiva com herança aplicada.
+Esta interface é usada juntamente com a interface [`IPortionFormat`](../iportionformat) para retornar valores de formatação efetivos com herança aplicada.
 
-### Veja Também
+### Veja também
 
 * interface [IBasePortionFormatEffectiveData](../ibaseportionformateffectivedata)
 * namespace [Aspose.Slides](../../aspose.slides)

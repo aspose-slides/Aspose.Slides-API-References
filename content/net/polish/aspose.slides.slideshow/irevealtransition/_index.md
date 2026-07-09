@@ -1,9 +1,9 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – Odwołanie API
 description: Efekt przejścia slajdu Reveal.
 type: docs
-weight: 10140
+weight: 10160
 url: /pl/aspose.slides.slideshow/irevealtransition/
 ---
 ## IRevealTransition interfejs
@@ -18,9 +18,9 @@ public interface IRevealTransition : ITransitionValueBase
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Umożliwia pobranie podstawowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Umożliwia uzyskanie bazowego interfejsu ITransitionValueBase. Tylko do odczytu [`ITransitionValueBase`](../itransitionvaluebase). |
 | [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Kierunek przejścia. Odczyt/zapis [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Określa, czy przejście zanika przez czarny kolor. Odczyt/zapis Boolean. |
+| [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Określa, czy przejście zanika do czerni. Odczyt/zapis Boolean. |
 
 ### Zobacz także
 

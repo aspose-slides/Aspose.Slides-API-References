@@ -1,46 +1,46 @@
 ---
 title: NotesSlideHeaderFooterManager
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایانگر مدیری است که رفتار نگهدارنده‌های اسلاید یادداشت‌ها، از جمله نگهدارنده سرصفحه، را در خود نگه می‌دارد.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نماینده‌ای است که رفتار جای‌دارهای اسلاید یادداشت‌ها، شامل جای‌دار سرصفحه، را در بر می‌گیرد.
 type: docs
 weight: 9150
 url: /fa/aspose.slides/notesslideheaderfootermanager/
 ---
 ## NotesSlideHeaderFooterManager کلاس
 
-نمایانگر مدیر که رفتار نگهدارندهٔ اسلاید یادداشت‌ها، از جمله نگهدارندهٔ سرصفحه، را در بر می‌گیرد.
+نماینده‌ای است که رفتار جای‌دارهای اسلاید یادداشت‌ها، از جمله جای‌دار سرصفحه، را در بر می‌گیرد.
 
 ```csharp
 public sealed class NotesSlideHeaderFooterManager : BaseHandoutNotesSlideHeaderFooterManager, 
     INotesSlideHeaderFooterManager
 ```
 
-## خواص
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد یک نگهدارنده تاریخ-زمان وجود دارد. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد یک نگهدارنده پاصفحه وجود دارد. Read Boolean. |
-| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد یک نگهدارنده سرصفحه وجود دارد. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را بر می‌گرداند که نشان می‌دهد یک نگهدارنده شمارهٔ صفحه وجود دارد. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌دار تاریخ-زمان وجود دارد. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌دار پاورقی وجود دارد. Read Boolean. |
+| [IsHeaderVisible](../../aspose.slides/basehandoutnotesslideheaderfootermanager/isheadervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌دار سرصفحه وجود دارد. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد یک جای‌دار شماره صفحه وجود دارد. ReadBoolean. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متن را در نگهدارنده تاریخ-زمان اسلاید تنظیم می‌کند. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت نمایش نگهدارنده تاریخ-زمان اسلاید را تغییر می‌دهد. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متن را در نگهدارنده پاصفحه اسلاید تنظیم می‌کند. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت نمایش نگهدارنده پاصفحه اسلاید را تغییر می‌دهد. |
-| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | متن را در نگهدارنده سرصفحه اسلاید تنظیم می‌کند. |
-| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | قابلیت نمایش نگهدارنده سرصفحه اسلاید را تغییر می‌دهد. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت نمایش نگهدارنده شمارهٔ صفحه اسلاید را تغییر می‌دهد. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | متنی را برای جای‌دار تاریخ-زمان اسلاید تنظیم می‌کند. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | قابلیت مشاهده جای‌دار تاریخ-زمان اسلاید را تغییر می‌دهد. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | متنی را برای جای‌دار پاورقی اسلاید تنظیم می‌کند. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | قابلیت مشاهده جای‌دار پاورقی اسلاید را تغییر می‌دهد. |
+| [SetHeaderText](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext)(string) | متنی را برای جای‌دار سرصفحه اسلاید تنظیم می‌کند. |
+| [SetHeaderVisibility](../../aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility)(bool) | قابلیت مشاهده جای‌دار سرصفحه اسلاید را تغییر می‌دهد. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | قابلیت مشاهده جای‌دار شماره صفحه اسلاید را تغییر می‌دهد. |
 
 ### موارد مرتبط
 
 * کلاس [BaseHandoutNotesSlideHeaderFooterManager](../basehandoutnotesslideheaderfootermanager)
 * رابط [INotesSlideHeaderFooterManager](../inotesslideheaderfootermanager)
-* فضای نام [Aspose.Slides](../../aspose.slides)
-* مونتاژ [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides](../../aspose.slides)
+* مجوعه [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

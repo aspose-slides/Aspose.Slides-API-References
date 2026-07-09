@@ -1,7 +1,7 @@
 ---
 title: ITextSearchOptions
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يمثل الخيارات التي يمكن استخدامها للبحث عن نص في Presentation أو Slide أو TextFrame.
+description: يمثل الخيارات التي يمكن استخدامها للبحث عن النص في Presentation Slide أو TextFrame.
 type: docs
 weight: 7300
 url: /ar/aspose.slides/itextsearchoptions/
@@ -18,9 +18,9 @@ public interface ITextSearchOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } |حدد true لاستخدام بحث حساس لحالة الأحرف، false غير ذلك. قابل للقراءة/الكتابة Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } |حدد `true` لتضمين النص الموجود في ملاحظات الشريحة عند تنفيذ عمليات البحث عن النص أو الاستبدال أو التظليل. القيمة الافتراضية هي `false`. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } |حدد true لمطابقة الكلمات بالكامل فقط، false غير ذلك. قابل للقراءة/الكتابة Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | اضبط true لاستخدام بحث حساس لحالة الأحرف، false - خلاف ذلك. قراءة/كتابة Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | اضبط `true` لتضمين النص الموجود في ملاحظات الشريحة عند إجراء بحث نصي أو استبدال أو عمليات تمييز. القيمة الافتراضية هي `false`. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | اضبط true لمطابقة الكلمات الكاملة فقط، false - خلاف ذلك. قراءة/كتابة Boolean. |
 
 ### انظر أيضًا
 

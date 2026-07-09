@@ -1,12 +1,12 @@
 ---
 title: ITable
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά έναν πίνακα σε μια διαφάνεια.
 type: docs
-weight: 7210
+weight: 7230
 url: /el/aspose.slides/itable/
 ---
-## ITable διεπαφή
+## ITable διασύνδεση
 
 Αναπαριστά έναν πίνακα σε μια διαφάνεια.
 
@@ -16,34 +16,34 @@ public interface ITable : IBulkTextFormattable, IGraphicalObject
 
 ## Ιδιότητες
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IBulkTextFormattable. Μόνο για ανάγνωση [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Επιτρέπει την ανάκτηση της βασικής διεπαφής IGraphicalObject. Μόνο για ανάγνωση [`IGraphicalObject`](../igraphicalobject). |
+| [AsIBulkTextFormattable](../../aspose.slides/itable/asibulktextformattable) { get; } | Επιτρέπει την απόκτηση της βασικής διασύνδεσης IBulkTextFormattable. Μόνο για ανάγνωση [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsIGraphicalObject](../../aspose.slides/itable/asigraphicalobject) { get; } | Επιτρέπει την απόκτηση της βασικής διασύνδεσης IGraphicalObject. Μόνο για ανάγνωση [`IGraphicalObject`](../igraphicalobject). |
 | [Columns](../../aspose.slides/itable/columns) { get; } | Επιστρέφει τη συλλογή των στηλών. Μόνο για ανάγνωση [`IColumnCollection`](../icolumncollection). |
-| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Καθορίζει εάν η πρώτη στήλη ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
-| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Καθορίζει εάν η πρώτη γραμμή ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
-| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Καθορίζει εάν οι ζυγές γραμμές πρέπει να σχεδιαστούν με διαφορετική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
-| [Item](../../aspose.slides/itable/item) { get; } | Επιστρέφει το κελί στις καθορισμένες στήλες και γραμμές. Μόνο για ανάγνωση [`ICell`](../icell). |
-| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Καθορίζει εάν η τελευταία στήλη ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
-| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Καθορίζει εάν η τελευταία γραμμή ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
-| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Καθορίζει εάν ο πίνακας έχει σειρά ανάγνωσης από δεξιά προς αριστερά. Ανάγνωση/Εγγραφή Boolean. |
+| [FirstCol](../../aspose.slides/itable/firstcol) { get; set; } | Καθορίζει εάν η πρώτη στήλη ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
+| [FirstRow](../../aspose.slides/itable/firstrow) { get; set; } | Καθορίζει εάν η πρώτη γραμμή ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
+| [HorizontalBanding](../../aspose.slides/itable/horizontalbanding) { get; set; } | Καθορίζει εάν οι ζυγές γραμμές πρέπει να σχεδιαστούν με διαφορετική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
+| [Item](../../aspose.slides/itable/item) { get; } | Επιστρέφει το κελί στους καθορισμένους δείκτες στήλης και γραμμής. Μόνο για ανάγνωση [`ICell`](../icell). |
+| [LastCol](../../aspose.slides/itable/lastcol) { get; set; } | Καθορίζει εάν η τελευταία στήλη ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
+| [LastRow](../../aspose.slides/itable/lastrow) { get; set; } | Καθορίζει εάν η τελευταία γραμμή ενός πίνακα πρέπει να σχεδιαστεί με ειδική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
+| [RightToLeft](../../aspose.slides/itable/righttoleft) { get; set; } | Καθορίζει εάν ο πίνακας έχει σειρά ανάγνωσης από δεξιά προς τα αριστερά. Αναγνώσιμο/εγγράψιμο Boolean. |
 | [Rows](../../aspose.slides/itable/rows) { get; } | Επιστρέφει τη συλλογή των γραμμών. Μόνο για ανάγνωση [`IRowCollection`](../irowcollection). |
-| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Λαμβάνει ή ορίζει το ενσωματωμένο στυλ πίνακα. Ανάγνωση/Εγγραφή [`TableStylePreset`](../tablestylepreset). |
+| [StylePreset](../../aspose.slides/itable/stylepreset) { get; set; } | Ανακτά ή ορίζει το ενσωματωμένο στυλ πίνακα. Αναγνώσιμο/εγγράψιμο [`TableStylePreset`](../tablestylepreset). |
 | [TableFormat](../../aspose.slides/itable/tableformat) { get; } | Επιστρέφει το αντικείμενο TableFormat που περιέχει τις ιδιότητες μορφοποίησης για αυτόν τον πίνακα. Μόνο για ανάγνωση [`ITableFormat`](../itableformat). |
-| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Καθορίζει εάν οι ζυγές στήλες πρέπει να σχεδιαστούν με διαφορετική μορφοποίηση. Ανάγνωση/Εγγραφή Boolean. |
+| [VerticalBanding](../../aspose.slides/itable/verticalbanding) { get; set; } | Καθορίζει εάν οι ζυγές στήλες πρέπει να σχεδιαστούν με διαφορετική μορφοποίηση. Αναγνώσιμο/εγγράψιμο Boolean. |
 
 ## Μέθοδοι
 
-| Όνομα | Περιγραφή |
+| Name | Description |
 | --- | --- |
 | [MergeCells](../../aspose.slides/itable/mergecells)(ICell, ICell, bool) | Συγχωνεύει γειτονικά κελιά. |
 
 ### Δείτε επίσης
 
-* διεπαφή [IBulkTextFormattable](../ibulktextformattable)
-* διεπαφή [IGraphicalObject](../igraphicalobject)
+* διασύνδεση [IBulkTextFormattable](../ibulktextformattable)
+* διασύνδεση [IGraphicalObject](../igraphicalobject)
 * χώρος ονομάτων [Aspose.Slides](../../aspose.slides)
-* συναρμολόγηση [Aspose.Slides](../../)
+* σύγκρότημα [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

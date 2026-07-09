@@ -1,14 +1,14 @@
 ---
 title: IChartTextFormat
 second_title: Aspose.Sildes pro .NET API Reference
-description: Graf funguje s omezenou sadou vlastností formátování textu. IChartTextFormat IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat rozhraní popisují tuto omezenou sadu.
+description: Graf pracuje s omezenou sadou vlastností formátování textu. IChartTextBlockFormat IChartParagraphFormat IChartPortionFormat rozhraní popisují tuto omezenou sadu.
 type: docs
-weight: 1970
+weight: 1990
 url: /cs/aspose.slides.charts/icharttextformat/
 ---
 ## IChartTextFormat rozhraní
 
-Graf funguje s omezenou sadou vlastností formátování textu. Rozhraní IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat a IChartPortionFormat popisují tuto omezenou sadu.
+Graf pracuje s omezenou sadou vlastností formátování textu. IChartTextFormat, IChartTextBlockFormat, IChartParagraphFormat, IChartPortionFormat rozhraní popisují tuto omezenou sadu.
 
 ```csharp
 public interface IChartTextFormat
@@ -18,16 +18,16 @@ public interface IChartTextFormat
 
 | Název | Popis |
 | --- | --- |
-| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Vrací formát odstavce. Pouze pro čtení [`IChartParagraphFormat`](../ichartparagraphformat). |
-| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Vrací formát úseku. Pouze pro čtení [`IChartPortionFormat`](../ichartportionformat). |
-| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Vrací formát pro textové prvky grafu. Pouze pro čtení [`IChartTextBlockFormat`](../icharttextblockformat). |
+| [ParagraphFormat](../../aspose.slides.charts/icharttextformat/paragraphformat) { get; } | Vrací formát odstavce. Pouze ke čtení [`IChartParagraphFormat`](../ichartparagraphformat). |
+| [PortionFormat](../../aspose.slides.charts/icharttextformat/portionformat) { get; } | Vrací formát části. Pouze ke čtení [`IChartPortionFormat`](../ichartportionformat). |
+| [TextBlockFormat](../../aspose.slides.charts/icharttextformat/textblockformat) { get; } | Vrací formát pro textové prvky grafu. Pouze ke čtení [`IChartTextBlockFormat`](../icharttextblockformat). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Zkopíruje formát textu z určeného textového rámce. |
-| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Zkopíruje formát textu do určeného textového rámce. |
+| [CopyFrom](../../aspose.slides.charts/icharttextformat/copyfrom)(ITextFrame) | Zkopíruje formát textu ze zadaného textového rámce. |
+| [CopyTo](../../aspose.slides.charts/icharttextformat/copyto)(ITextFrame) | Zkopíruje formát textu do zadaného textového rámce. |
 
 ### Viz také
 

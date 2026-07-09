@@ -1,14 +1,14 @@
 ---
 title: NullableBool
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงค่าบูลีนแบบสามค่า.
+description: แทนค่าบูลีนแบบสามค่า.
 type: docs
 weight: 9170
 url: /th/aspose.slides/nullablebool/
 ---
 ## NullableBool enumeration
 
-แสดงค่าบูลีนแบบสามค่า
+แทนค่าบูลีนแบบสามค่า.
 
 ```csharp
 public enum NullableBool : sbyte
@@ -22,7 +22,7 @@ public enum NullableBool : sbyte
 | False | `0` | ค่าผิด |
 | True | `1` | ค่าจริง |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)

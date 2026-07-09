@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET API संदर्भ
 description: फ़ॉन्ट परिभाषा का प्रतिनिधित्व करता है।
 type: docs
 weight: 5830
@@ -18,13 +18,13 @@ public interface IFontData
 
 | नाम | विवरण |
 | --- | --- |
-| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | फ़ॉन्ट नाम लौटाता है। केवल-पढ़ने-योग्य String. |
+| [FontName](../../aspose.slides/ifontdata/fontname) { get; } | फ़ॉन्ट नाम लौटाता है। केवल-पढ़ने योग्य String. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | फ़ॉन्ट नाम लौटाता है, थीम संदर्भ को वास्तविक प्रयुक्त फ़ॉन्ट से बदलते हुए। |
+| [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | फ़ॉन्ट नाम लौटाता है, थीम संदर्भ को वास्तविक उपयोग किए गए फ़ॉन्ट से बदलते हुए. |
 
 ### संबंधित देखें
 

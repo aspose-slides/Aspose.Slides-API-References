@@ -1,12 +1,12 @@
 ---
 title: TabAlignment
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Sekme hizalamasını temsil eder.
 type: docs
-weight: 10810
+weight: 10830
 url: /tr/aspose.slides/tabalignment/
 ---
-## TabAlignment enumeration
+## TabAlignment enum
 
 Sekme hizalamasını temsil eder.
 

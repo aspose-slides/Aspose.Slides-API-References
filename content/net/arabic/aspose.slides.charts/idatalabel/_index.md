@@ -1,6 +1,6 @@
 ---
 title: IDataLabel
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes لمرجع API .NET
 description: يمثل تسميات السلسلة.
 type: docs
 weight: 2020
@@ -8,7 +8,7 @@ url: /ar/aspose.slides.charts/idatalabel/
 ---
 ## IDataLabel واجهة
 
-تمثل تسميات السلسلة.
+تمثّل تسميات السلسلة.
 
 ```csharp
 public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
@@ -18,19 +18,19 @@ public interface IDataLabel : IActualLayout, ILayoutable, IOverridableText
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | يرجع واجهة IActualLayout. |
-| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | يرجع واجهة ILayoutable. قراءة فقط [`ILayoutable`](../ilayoutable). |
-| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | يرجع واجهة IOverridableText. قراءة فقط [`IOverridableText`](../ioverridabletext). |
-| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | يرجع تنسيق تسمية البيانات. قراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
-| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False يعني أن تسمية البيانات غير مرئية (وبالتالي جميع العلامات Show*-flags (ShowValue, ...) تكون false). قراءة فقط Boolean. |
-| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | يحصل أو يحدد خلية بيانات ورقة العمل. يُطبق إذا كان خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
+| [AsIActualLayout](../../aspose.slides.charts/idatalabel/asiactuallayout) { get; } | إرجاع واجهة IActualLayout. |
+| [AsILayoutable](../../aspose.slides.charts/idatalabel/asilayoutable) { get; } | إرجاع واجهة ILayoutable. للقراءة فقط [`ILayoutable`](../ilayoutable). |
+| [AsIOverridableText](../../aspose.slides.charts/idatalabel/asioverridabletext) { get; } | إرجاع واجهة IOverridableText. للقراءة فقط [`IOverridableText`](../ioverridabletext). |
+| [DataLabelFormat](../../aspose.slides.charts/idatalabel/datalabelformat) { get; } | إرجاع تنسيق تسمية البيانات. للقراءة فقط [`IDataLabelFormat`](../idatalabelformat). |
+| [IsVisible](../../aspose.slides.charts/idatalabel/isvisible) { get; } | False يعني أن تسمية البيانات غير مرئية (وبالتالي جميع علمات Show*-flags (ShowValue, ...) تكون false). للقراءة فقط Boolean. |
+| [ValueFromCell](../../aspose.slides.charts/idatalabel/valuefromcell) { get; set; } | الحصول أو تعيين خلية بيانات المصنف. يُطبّق إذا كانت خاصية IDataLabelFormat.ShowLabelValueFromCell تساوي true. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | يرجع نص التسمية الفعلي بناءً على إعدادات DataLabelFormat أو قيمة TextFrameForOverriding.Text. |
-| [Hide](../../aspose.slides.charts/idatalabel/hide)() | يجعل تسمية البيانات مخفية بتعيين جميع العلامات Show*-flags (ShowValue, ...) إلى الحالة false. سيكون IsVisible = false بعد ذلك. |
+| [GetActualLabelText](../../aspose.slides.charts/idatalabel/getactuallabeltext)() | إرجاع نص التسمية الفعلية بناءً على إعدادات DataLabelFormat أو قيمة TextFrameForOverriding.Text. |
+| [Hide](../../aspose.slides.charts/idatalabel/hide)() | اجعل تسمية البيانات مخفية عن طريق تعيين جميع علمات Show*-flags (ShowValue, ...) إلى الحالة false. سيكون IsVisible false بعد ذلك. |
 
 ### انظر أيضًا
 

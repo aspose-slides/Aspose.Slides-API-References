@@ -1,14 +1,14 @@
 ---
 title: BaseChartValue
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy diagram értékét képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A diagram egy értékét képviseli.
 type: docs
-weight: 1200
+weight: 1220
 url: /hu/aspose.slides.charts/basechartvalue/
 ---
 ## BaseChartValue osztály
 
-Egy diagram értékét képviseli.
+A diagram egy értékét képviseli.
 
 ```csharp
 public abstract class BaseChartValue : IBaseChartValue
@@ -19,7 +19,7 @@ public abstract class BaseChartValue : IBaseChartValue
 | Név | Leírás |
 | --- | --- |
 | abstract [Data](../../aspose.slides.charts/basechartvalue/data) { get; set; } | Data. Olvasás/írás Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság valódi-e a leszármazottakban. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Megadja, hogy az AsCell, AsCells, AsLiteralString vagy AsLiteralDouble tulajdonság ténylegesen létezik-e az leszármazottakban. Más szóval meghatározza a Data tulajdonság értékének típusát. Olvasás/írás [`DataSourceType`](../datasourcetype). |
 
 ### Lásd még
 

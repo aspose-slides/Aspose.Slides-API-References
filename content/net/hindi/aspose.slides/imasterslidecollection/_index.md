@@ -1,6 +1,6 @@
 ---
 title: IMasterSlideCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: मास्टर स्लाइड्स के संग्रह का प्रतिनिधित्व करता है।
 type: docs
 weight: 6430
@@ -18,19 +18,19 @@ public interface IMasterSlideCollection : IGenericCollection<IMasterSlide>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। केवल-पढ़ने योग्य [`IMasterSlide`](../imasterslide)। |
+| [Item](../../aspose.slides/imasterslidecollection/item) { get; } | निर्दिष्ट अनुक्रमांक पर तत्व प्राप्त करता है। केवल-पठनीय [`IMasterSlide`](../imasterslide). |
 
-## मेथड्स
+## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | निर्दिष्ट मास्टर स्लाइड की एक कॉपी को संग्रह के अंत में जोड़ता है। लिंक्ड लेआउट स्लाइड्स भी कॉपी की जाएँगी। |
-| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | निर्दिष्ट मास्टर स्लाइड की एक कॉपी को संग्रह की निर्दिष्ट स्थिति में डालता है। लिंक्ड लेआउट स्लाइड्स भी कॉपी की जाएँगी। |
-| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | संग्रह से किसी विशिष्ट वस्तु की पहली उपस्थिति को हटाता है। |
-| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | संग्रह के निर्दिष्ट इंडेक्स पर तत्व को हटाता है। |
-| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | अनुपयोगी मास्टर स्लाइड्स को हटाता है। |
+| [AddClone](../../aspose.slides/imasterslidecollection/addclone)(IMasterSlide) | निर्दिष्ट मास्टर स्लाइड की एक प्रति संग्रह के अंत में जोड़ता है। जुड़े लेआउट स्लाइड भी कॉपी किए जाएंगे। |
+| [InsertClone](../../aspose.slides/imasterslidecollection/insertclone)(int, IMasterSlide) | निर्दिष्ट मास्टर स्लाइड की एक प्रति संग्रह के निर्दिष्ट स्थान पर सम्मिलित करता है। जुड़े लेआउट स्लाइड भी कॉपी किए जाएंगे। |
+| [Remove](../../aspose.slides/imasterslidecollection/remove)(IMasterSlide) | संग्रह से विशिष्ट वस्तु की पहली उपस्थिति को हटाता है। |
+| [RemoveAt](../../aspose.slides/imasterslidecollection/removeat)(int) | संग्रह के निर्दिष्ट अनुक्रमांक पर तत्व को हटाता है। |
+| [RemoveUnused](../../aspose.slides/imasterslidecollection/removeunused)(bool) | अप्रयुक्त मास्टर स्लाइड को हटाता है। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * इंटरफ़ेस [IMasterSlide](../imasterslide)

@@ -1,6 +1,6 @@
 ---
 title: SequenceCollection
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示互動序列的集合。
 type: docs
 weight: 800
@@ -18,8 +18,8 @@ public class SequenceCollection : ISequenceCollection
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | 返回集合中元素的數量，唯讀 Int32。 |
-| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | 返回指定索引處的序列。 |
+| [Count](../../aspose.slides.animation/sequencecollection/count) { get; } | 傳回集合中元素的數量，唯讀 Int32。 |
+| [Item](../../aspose.slides.animation/sequencecollection/item) { get; } | 傳回指定索引處的序列。 |
 
 ## 方法
 
@@ -27,9 +27,9 @@ public class SequenceCollection : ISequenceCollection
 | --- | --- |
 | [Add](../../aspose.slides.animation/sequencecollection/add)(IShape) | 新增互動序列。讀寫 [`Sequence`](../sequence)。 |
 | [Clear](../../aspose.slides.animation/sequencecollection/clear)() | 從集合中移除所有序列。 |
-| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | 返回遍歷該集合的列舉器。 |
+| [GetEnumerator](../../aspose.slides.animation/sequencecollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
 | [Remove](../../aspose.slides.animation/sequencecollection/remove)(ISequence) | 從集合中移除指定的序列。 |
-| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | 在指定索引處移除序列。 |
+| [RemoveAt](../../aspose.slides.animation/sequencecollection/removeat)(int) | 移除指定索引處的序列。 |
 
 ### 另請參閱
 

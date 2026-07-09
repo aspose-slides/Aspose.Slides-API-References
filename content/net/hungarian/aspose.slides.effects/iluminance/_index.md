@@ -1,14 +1,14 @@
 ---
 title: ILuminance
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Képviseli a Luminance hatást. A Brightness lineárisan eltolja az összes színt a fehér vagy fekete felé. A Contrast skálázza az összes színt, hogy azok közelebb vagy távolabb legyenek egymástól.
+second_title: Aspose.Sildes a .NET API hivatkozás
+description: A Luminance hatást reprezentálja. A Brightness lineárisan eltolja az összes színt a fehér vagy fekete felé. A Contrast méretezi az összes színt úgy, hogy azok közelebb vagy távolabb legyenek egymástól.
 type: docs
-weight: 3420
+weight: 3440
 url: /hu/aspose.slides.effects/iluminance/
 ---
 ## ILuminance interfész
 
-Képviseli a Luminance hatást. A Brightness lineárisan eltolja az összes színt a fehér vagy fekete felé. A Contrast skálázza az összes színt, hogy azok közelebb vagy távolabb legyenek egymástól.
+Representál egy Luminance hatást. A Brightness lineárisan eltolja az összes színt a fehér vagy fekete felé. A Contrast méretezi az összes színt úgy, hogy közelebb vagy távolabb legyenek egymástól.
 
 ```csharp
 public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>, 
@@ -19,8 +19,8 @@ public interface ILuminance : IAccessiblePVIObject<ILuminanceEffectiveData>,
 
 | Név | Leírás |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Lehetővé teszi a base IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Lehetővé teszi a base IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/iluminance/asiaccessiblepviobject) { get; } | Lehetővé teszi az alap IAccessiblePVIObject interfész lekérését. Csak olvasható [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/iluminance/asiimagetransformoperation) { get; } | Lehetővé teszi az alap IImageTransformOperation interfész lekérését. Csak olvasható [`IImageTransformOperation`](../iimagetransformoperation). |
 
 ### Lásd még
 

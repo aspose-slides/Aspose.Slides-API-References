@@ -1,14 +1,14 @@
 ---
 title: IFillFormatCollection
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Dolgu stillerinin koleksiyonunu temsil eder.
 type: docs
-weight: 11210
+weight: 11230
 url: /tr/aspose.slides.theme/ifillformatcollection/
 ---
-## IFillFormatCollection arayüz
+## IFillFormatCollection arayüzü
 
-Fill stilleri koleksiyonunu temsil eder.
+Doldurma stillerinin koleksiyonunu temsil eder.
 
 ```csharp
 public interface IFillFormatCollection : IGenericCollection<IFillFormat>
@@ -18,9 +18,9 @@ public interface IFillFormatCollection : IGenericCollection<IFillFormat>
 
 | Ad | Açıklama |
 | --- | --- |
-| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Gets the element at the specified index. Yalnızca okuma [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Item](../../aspose.slides.theme/ifillformatcollection/item) { get; } | Belirtilen dizindeki öğeyi alır. Yalnızca-okunur [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-### İlgili
+### Ayrıca Bakınız
 
 * arayüz [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * arayüz [IFillFormat](../../aspose.slides/ifillformat)

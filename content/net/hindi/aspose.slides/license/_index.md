@@ -1,12 +1,12 @@
 ---
 title: License
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
+second_title: .NET के लिए Aspose.Sildes API संदर्भ
 description: घटक को लाइसेंस करने के लिए मेथड्स प्रदान करता है।
 type: docs
 weight: 7680
 url: /hi/aspose.slides/license/
 ---
-## License क्लास
+## लाइसेंस क्लास
 
 घटक को लाइसेंस करने के लिए मेथड्स प्रदान करता है।
 
@@ -14,13 +14,13 @@ url: /hi/aspose.slides/license/
 public class License : ILicense
 ```
 
-## Constructors
+## निर्माता
 
 | नाम | विवरण |
 | --- | --- |
-| [License](license)() | इस क्लास का एक नया उदाहरण आरंभ करता है। |
+| [License](license)() | इस क्लास का नया इंस्टेंस आरंभ करता है। |
 
-## Methods
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
@@ -31,7 +31,7 @@ public class License : ILicense
 
 ### उदाहरण
 
-इस उदाहरण में, MyLicense.lic नामक लाइसेंस फ़ाइल को खोजने का प्रयास किया जाएगा, पहले उस फ़ोल्डर में जहाँ घटक स्थित है, फिर उन फ़ोल्डर में जहाँ कॉलिंग असेंबली स्थित है, फिर एंट्री असेंबली के फ़ोल्डर में, और अंत में कॉलिंग असेंबली के एम्बेडेड संसाधनों में।
+इस उदाहरण में, घटक वाली फ़ोल्डर में, कॉलिंग असेंबली वाली फ़ोल्डर में, एंट्री असेंबली वाली फ़ोल्डर में, और फिर कॉलिंग असेंबली के एम्बेडेड रिसोर्सेज़ में MyLicense.lic नाम की लाइसेंस फ़ाइल को खोजने का प्रयास किया जाएगा।
 
 ```csharp
 [C#]
@@ -46,7 +46,7 @@ Dim license As license = New license
 License.SetLicense("MyLicense.lic")
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ILicense](../ilicense)
 * नेमस्पेस [Aspose.Slides](../../aspose.slides)

@@ -19,7 +19,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 | 이름 | 설명 |
 | --- | --- |
 | [Count](../../aspose.slides.charts/chartdataworksheetcollection/count) { get; } | 카운트를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [IsSynchronized](../../aspose.slides.charts/chartdataworksheetcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
 | [Item](../../aspose.slides.charts/chartdataworksheetcollection/item) { get; } | 인덱스로 워크시트를 반환합니다. |
 | [SyncRoot](../../aspose.slides.charts/chartdataworksheetcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
@@ -32,7 +32,7 @@ public sealed class ChartDataWorksheetCollection : IChartDataWorksheetCollection
 
 ### 예제
 
-예시:
+Example:
 
 ```csharp
 [C#]

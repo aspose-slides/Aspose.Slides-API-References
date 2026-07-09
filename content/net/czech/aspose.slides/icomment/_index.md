@@ -1,14 +1,14 @@
 ---
 title: IComment
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční příručka API
 description: Představuje komentář na snímku.
 type: docs
-weight: 5540
+weight: 5560
 url: /cs/aspose.slides/icomment/
 ---
 ## IComment rozhraní
 
-Představuje komentář na snímku.
+Reprezentuje komentář na snímku.
 
 ```csharp
 public interface IComment
@@ -18,12 +18,12 @@ public interface IComment
 
 | Název | Popis |
 | --- | --- |
-| [Author](../../aspose.slides/icomment/author) { get; } | Vrací autora komentáře. Pouze pro čtení [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Vrací nebo nastavuje čas vytvoření komentáře. Nastavení této vlastnosti na MinValue znamená, že čas komentáře není nastaven. Čtení/zápis DateTime. |
+| [Author](../../aspose.slides/icomment/author) { get; } | Vrací autora komentáře. Jen ke čtení [`ICommentAuthor`](../icommentauthor). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Vrací nebo nastavuje čas vytvoření komentáře. Nastavením této vlastnosti na MinValue znamená, že čas komentáře není nastaven. Čtení/zápis DateTime. |
 | [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Vrací nebo nastavuje nadřazený komentář. Čtení/zápis [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Vrací nebo nastavuje pozici komentáře na snímku. Čtení/zápis PointF. |
-| [Slide](../../aspose.slides/icomment/slide) { get; } | Vrací nebo nastavuje nadřazený snímek komentáře. Pouze pro čtení [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Vrací nebo nastavuje prostý text komentáře na snímku. Čtení/zápis String. |
+| [Slide](../../aspose.slides/icomment/slide) { get; } | Vrací nebo nastavuje nadřazený snímek komentáře. Jen ke čtení [`ISlide`](../islide). |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Vrací nebo nastavuje prostý text komentáře ke snímku. Čtení/zápis String. |
 
 ## Metody
 

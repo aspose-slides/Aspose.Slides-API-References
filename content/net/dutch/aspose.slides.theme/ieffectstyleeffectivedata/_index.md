@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve effectstijl-eigenschappen bevat.
+description: Onveranderlijk object dat effectieve effectstijleigenschappen bevat.
 type: docs
 weight: 11200
 url: /nl/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData interface
 
-Onveranderlijk object dat effectieve effectstijl-eigenschappen bevat.
+Onveranderlijk object dat effectieve effectstijleigenschappen bevat.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -19,7 +19,7 @@ public interface IEffectStyleEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | Retourneert een effectindeling. Alleen-lezen [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Retourneert een 3d-indeling. Alleen-lezen [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | Retourneert een 3D-indeling. Alleen-lezen [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### Opmerkingen
 

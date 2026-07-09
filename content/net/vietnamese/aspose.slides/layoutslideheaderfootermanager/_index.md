@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideHeaderFooterManager
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho trình quản lý giữ hành vi của các placeholder chân trang, ngày-giờ, số trang của layout slide và tất cả các placeholder con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào layout slide.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Biểu diễn bộ quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-gio, số trang của slide bố cục và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục.
 type: docs
 weight: 7660
 url: /vi/aspose.slides/layoutslideheaderfootermanager/
 ---
 ## LayoutSlideHeaderFooterManager lớp
 
-Represents manager which holds behavior of the layout slide footer, date-time, page number placeholders and all child placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.
+Biểu diễn bộ quản lý giữ hành vi của các trình giữ chỗ chân trang, ngày-giờ, số trang của slide bố cục và tất cả các trình giữ chỗ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục.
 
 ```csharp
 public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManager, 
@@ -19,24 +19,24 @@ public sealed class LayoutSlideHeaderFooterManager : BaseSlideHeaderFooterManage
 
 | Tên | Mô tả |
 | --- | --- |
-| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị chỉ ra rằng một placeholder ngày-giờ có tồn tại. ReadBoolean. |
-| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị chỉ ra rằng một placeholder chân trang có tồn tại. Read Boolean. |
-| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị chỉ ra rằng một placeholder số trang có tồn tại. ReadBoolean. |
+| [IsDateTimeVisible](../../aspose.slides/baseslideheaderfootermanager/isdatetimevisible) { get; } | Lấy giá trị cho biết rằng có trình giữ chỗ ngày-giờ. ReadBoolean. |
+| [IsFooterVisible](../../aspose.slides/baseslideheaderfootermanager/isfootervisible) { get; } | Lấy giá trị cho biết rằng có trình giữ chỗ chân trang. Read Boolean. |
+| [IsSlideNumberVisible](../../aspose.slides/baseslideheaderfootermanager/isslidenumbervisible) { get; } | Lấy giá trị cho biết rằng có trình giữ chỗ số trang. ReadBoolean. |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho placeholder ngày-giờ của layout slide và tất cả các placeholder ngày-giờ con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào layout slide. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi hiển thị của placeholder ngày-giờ của layout slide và tất cả các placeholder ngày-giờ con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào layout slide. |
-| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Đặt văn bản cho placeholder ngày-giờ của slide. |
-| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi hiển thị của placeholder ngày-giờ của slide. |
-| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho placeholder chân trang của layout slide và tất cả các placeholder chân trang con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào layout slide. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi hiển thị của placeholder chân trang của layout slide và tất cả các placeholder chân trang con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide chủ. |
-| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Đặt văn bản cho placeholder chân trang của slide. |
-| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi hiển thị của placeholder chân trang của slide. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi hiển thị của placeholder số trang của layout slide và tất cả các placeholder số trang con. Placeholder con có nghĩa là các placeholder được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào layout slide. |
-| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi hiển thị của placeholder số trang của slide. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ của slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ slide bố cục và tất cả các trình giữ chỗ ngày-giờ con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
+| [SetDateTimeText](../../aspose.slides/baseslideheaderfootermanager/setdatetimetext)(string) | Đặt văn bản cho trình giữ chỗ ngày-giờ slide. |
+| [SetDateTimeVisibility](../../aspose.slides/baseslideheaderfootermanager/setdatetimevisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ ngày-giờ slide. |
+| [SetFooterAndChildFootersText](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext)(string) | Đặt văn bản cho trình giữ chỗ chân trang của slide bố cục và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang slide bố cục và tất cả các trình giữ chỗ chân trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide chủ. |
+| [SetFooterText](../../aspose.slides/baseslideheaderfootermanager/setfootertext)(string) | Đặt văn bản cho trình giữ chỗ chân trang slide. |
+| [SetFooterVisibility](../../aspose.slides/baseslideheaderfootermanager/setfootervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ chân trang slide. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang slide bố cục và tất cả các trình giữ chỗ số trang con. Trình giữ chỗ con có nghĩa là các trình giữ chỗ được chứa trên các slide phụ thuộc. Các slide phụ thuộc sử dụng và phụ thuộc vào slide bố cục. |
+| [SetSlideNumberVisibility](../../aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility)(bool) | Thay đổi khả năng hiển thị của trình giữ chỗ số trang slide. |
 
 ### Xem thêm
 

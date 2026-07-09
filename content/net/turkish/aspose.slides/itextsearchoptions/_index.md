@@ -1,12 +1,12 @@
 ---
 title: ITextSearchOptions
-second_title: Aspose.Sildes için .NET API Referansı
-description: Bir Presentation Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
+second_title: Aspose.Sildes .NET için API Referansı
+description: Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
 type: docs
-weight: 7280
+weight: 7300
 url: /tr/aspose.slides/itextsearchoptions/
 ---
-## ITextSearchOptions arayüz
+## ITextSearchOptions arayüzü
 
 Bir Presentation, Slide veya TextFrame içinde metin aramak için kullanılabilecek seçenekleri temsil eder.
 
@@ -16,11 +16,11 @@ public interface ITextSearchOptions
 
 ## Özellikler
 
-| İsim | Açıklama |
+| Ad | Açıklama |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Büyüklük/küçüklük duyarlı arama kullanmak için true, aksi takdirde false ayarlayın. Okunur/yazılır Boolean. |
-| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true` ayarlayın ki metin arama, değiştirme veya vurgulama işlemleri sırasında slayt notlarında bulunan metin dahil edilsin. Varsayılan değer `false`'tur. |
-| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Sadece tam kelimelerle eşleşmesi için true, aksi takdirde false ayarlayın. Okunur/yazılır Boolean. |
+| [CaseSensitive](../../aspose.slides/itextsearchoptions/casesensitive) { get; set; } | Doğru ayarlayın, büyük/küçük harfe duyarlı aramayı kullanmak için, aksi takdirde yanlış. Okunabilir/Yazılabilir Boolean. |
+| [IncludeNotes](../../aspose.slides/itextsearchoptions/includenotes) { get; set; } | `true` ayarlayın, slide notes içinde bulunan metni metin araması, değiştirme veya vurgulama işlemleri sırasında dahil etmek için. Varsayılan değer `false` dır. |
+| [WholeWordsOnly](../../aspose.slides/itextsearchoptions/wholewordsonly) { get; set; } | Doğru ayarlayın, yalnızca tam kelimelerle eşleşmek için, aksi takdirde yanlış. Okunabilir/Yazılabilir Boolean. |
 
 ### Ayrıca Bakınız
 

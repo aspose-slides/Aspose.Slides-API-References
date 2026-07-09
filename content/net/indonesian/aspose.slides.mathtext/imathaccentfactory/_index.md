@@ -1,14 +1,14 @@
 ---
 title: IMathAccentFactory
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mengizinkan membuat aksen matematika
+description: Memungkinkan pembuatan aksen matematika
 type: docs
-weight: 8070
+weight: 8090
 url: /id/aspose.slides.mathtext/imathaccentfactory/
 ---
 ## IMathAccentFactory antarmuka
 
-Mengizinkan membuat aksen matematika
+Memungkinkan pembuatan aksen matematika
 
 ```csharp
 public interface IMathAccentFactory

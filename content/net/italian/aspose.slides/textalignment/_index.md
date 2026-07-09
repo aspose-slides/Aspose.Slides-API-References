@@ -1,9 +1,9 @@
 ---
 title: TextAlignment
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Aspose.Sildes per il riferimento API .NET
 description: Rappresenta diversi stili di allineamento del testo.
 type: docs
-weight: 10880
+weight: 10900
 url: /it/aspose.slides/textalignment/
 ---
 ## Enumerazione TextAlignment
@@ -19,11 +19,11 @@ public enum TextAlignment
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | NotDefined | `-1` | Allineamento predefinito. |
-| Left | `0` | Allineamento sinistro. |
-| Center | `1` | Allineamento centrato. |
-| Right | `2` | Allineamento destro. |
+| Left | `0` | Allineamento a sinistra. |
+| Center | `1` | Allineamento al centro. |
+| Right | `2` | Allineamento a destra. |
 | Justify | `3` | Allineamento giustificato. |
-| JustifyLow | `4` | Giustificazione Kashida bassa. |
+| JustifyLow | `4` | Justificazione Kashida bassa. |
 | Distributed | `5` | Allineamento distribuito. |
 
 ### Vedi anche

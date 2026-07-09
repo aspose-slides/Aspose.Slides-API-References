@@ -1,12 +1,12 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Rappresenta un effetto Reflection.
 type: docs
-weight: 3620
+weight: 3640
 url: /it/aspose.slides.effects/reflection/
 ---
-## Reflection classe
+## classe Reflection
 
 Rappresenta un effetto Reflection.
 
@@ -16,30 +16,30 @@ public sealed class Reflection : IReflection
 
 ## Proprietà
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Raggio sfocatura. Lettura/scrittura Double. |
-| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direzione della riflessione. Lettura/scrittura Single. |
-| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distanza della riflessione. Lettura/scrittura Double. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Raggio di sfocatura. Lettura/scrittura Double. |
+| [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Direzione del riflesso. Lettura/scrittura Single. |
+| [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Distanza del riflesso. Lettura/scrittura Double. |
 | [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Specifica la posizione finale (lungo la rampa di gradiente alfa) del valore alfa finale (percentuali). Lettura/scrittura Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opacità finale della riflessione. (percentuali). Lettura/scrittura Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Specifica la direzione per spostare la riflessione. (angolo). Lettura/scrittura Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Opacità finale del riflesso. (percentuali). Lettura/scrittura Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Specifica la direzione per lo spostamento del riflesso. (angolo). Lettura/scrittura Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Allineamento rettangolo. Lettura/scrittura [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Specifica se la riflessione deve ruotare con la forma se la forma è ruotata. Lettura/scrittura Boolean. |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Specifica se il riflesso deve ruotare con la forma se la forma è ruotata. Lettura/scrittura Boolean. |
 | [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Specifica il fattore di scala orizzontale, una scala negativa provoca un ribaltamento. (percentuali) Lettura/scrittura Double. |
 | [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Specifica il fattore di scala verticale, una scala negativa provoca un ribaltamento. (percentuali) Lettura/scrittura Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Specifica l'angolo di inclinazione orizzontale. Lettura/scrittura Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Specifica l'angolo di inclinazione verticale. Lettura/scrittura Double. |
 | [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Specifica la posizione iniziale (lungo la rampa di gradiente alfa) del valore alfa iniziale (percentuali). Lettura/scrittura Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Opacità iniziale della riflessione. (percentuali). Lettura/scrittura Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Opacità iniziale del riflesso. (percentuali). Lettura/scrittura Single. |
 
 ## Metodi
 
-| Name | Description |
+| Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Determina se l'oggetto specificato [`Reflection`](../reflection) è uguale all'attuale [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Ottiene i dati dell'effetto Reflection effettivo con l'ereditarietà applicata. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Funge da funzione hash per un tipo particolare. |
+| override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Determina se lo specificato [`Reflection`](../reflection) è uguale all'attuale [`Reflection`](../reflection). |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Restituisce i dati effettivi dell'effetto Reflection con l'ereditarietà applicata. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Funge da funzione di hash per un tipo particolare. |
 
 ### Vedi anche
 

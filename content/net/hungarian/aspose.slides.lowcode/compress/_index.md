@@ -1,26 +1,26 @@
 ---
 title: Compress
-second_title: Aspose.Sildes .NET API-referencia
-description: A Presentation../aspose.slides/presentation tömörítésére szolgáló módszercsoportot képviseli.
+second_title: Aspose.Sildes .NET API referencia
+description: A Presentation../aspose.slides/presentation tömörítésére szánt módszercsoportot képviseli.
 type: docs
-weight: 7850
+weight: 7870
 url: /hu/aspose.slides.lowcode/compress/
 ---
 ## Compress osztály
 
-A [`Presentation`](../../aspose.slides/presentation) tömörítésére szánt módszercsoportot képviseli.
+A [`Presentation`](../../aspose.slides/presentation) tömörítésére szolgáló módszerek csoportját képviseli.
 
 ```csharp
 public static class Compress
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi, a beágyazott betűkészletekből a nem használt karakterek eltávolításával. |
-| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi, a nem használt elrendezési diák eltávolításával. |
-| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | A [`Presentation`](../../aspose.slides/presentation) tömörítését végzi, a nem használt mester diák eltávolításával. |
+| static [CompressEmbeddedFonts](../../aspose.slides.lowcode/compress/compressembeddedfonts)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a beágyazott betűkészletek nem használt karaktereinek eltávolításával. |
+| static [RemoveUnusedLayoutSlides](../../aspose.slides.lowcode/compress/removeunusedlayoutslides)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a nem használt elrendezési diák eltávolításával. |
+| static [RemoveUnusedMasterSlides](../../aspose.slides.lowcode/compress/removeunusedmasterslides)(Presentation) | Elvégzi a(z) [`Presentation`](../../aspose.slides/presentation) tömörítését a nem használt mesterdiák eltávolításával. |
 
 ### Példák
 

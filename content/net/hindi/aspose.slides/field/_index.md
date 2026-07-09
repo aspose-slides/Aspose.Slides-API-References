@@ -6,7 +6,7 @@ type: docs
 weight: 4750
 url: /hi/aspose.slides/field/
 ---
-## फ़ील्ड क्लास
+## Field क्लास
 
 फ़ील्ड का प्रतिनिधित्व करता है।
 
@@ -20,7 +20,7 @@ public sealed class Field : DomObject<Portion>, IField
 | --- | --- |
 | [Type](../../aspose.slides/field/type) { get; set; } | फ़ील्ड का प्रकार लौटाता या सेट करता है। पढ़ें/लिखें [`IFieldType`](../ifieldtype)। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Portion](../portion)

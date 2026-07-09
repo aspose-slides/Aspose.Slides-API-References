@@ -1,7 +1,7 @@
 ---
 title: ISequence
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 효과의 시퀀스 컬렉션을 나타냅니다.
+description: 시퀀스 효과 컬렉션을 나타냅니다.
 type: docs
 weight: 590
 url: /ko/aspose.slides.animation/isequence/
@@ -21,25 +21,25 @@ public interface ISequence : IEnumerable<IEffect>
 | [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | 기본 IEnumerable 인터페이스를 가져올 수 있습니다. 읽기 전용 IEnumerable. |
 | [Count](../../aspose.slides.animation/isequence/count) { get; } | 시퀀스에 포함된 효과 수를 반환합니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | 지정된 인덱스의 효과를 반환합니다. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE 시퀀스의 대상 모양을 반환하거나 설정합니다. 시퀀스가 인터랙티브하지 않으면 null을 반환합니다. 읽기/쓰기 [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | INTERACTIVE 시퀀스에 대한 shape 대상을 반환하거나 설정합니다. 시퀀스가 인터랙티브하지 않으면 null을 반환합니다. 읽기/쓰기 [`IShape`](../../aspose.slides/ishape). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 새 애니메이션 효과를 단락에 추가하고 시퀀스 끝에 배치합니다. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | 단락에 대한 새 애니메이션 효과를 시퀀스 끝에 추가합니다. |
 | [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | 새 효과를 시퀀스 끝에 추가합니다. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 새 차트 애니메이션 효과를 카테고리 또는 시리즈에 대해 시퀀스 끝에 추가합니다. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | 카테고리 또는 시리즈에 대한 새 차트 애니메이션 효과를 시퀀스 끝에 추가합니다. |
 | [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | 카테고리 또는 시리즈의 요소에 대한 새 차트 애니메이션 효과를 시퀀스 끝에 추가합니다. |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | 컬렉션의 모든 효과를 제거합니다. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | 지정된 모양에 대한 효과 수를 반환합니다. |
-| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | 지정된 단락에 대한 효과 배열을 반환합니다. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | 지정된 모양에 대한 효과 배열을 반환합니다. |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | 지정된 효과를 컬렉션에서 제거합니다. |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | 컬렉션에서 인덱스에 해당하는 효과를 제거합니다. |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | 지정된 모양에 대한 효과를 제거합니다. |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | 컬렉션에서 모든 효과를 제거합니다. |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | 지정된 shape의 효과 개수를 반환합니다. |
+| [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | 지정된 paragraph에 대한 효과 배열을 반환합니다. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | 지정된 shape에 대한 효과 배열을 반환합니다. |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | 컬렉션에서 지정된 효과를 제거합니다. |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | 컬렉션에서 효과를 제거합니다. |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | 지정된 shape에 대한 효과를 제거합니다. |
 
-### 관련 항목
+### 참고
 
 * 인터페이스 [IEffect](../ieffect)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

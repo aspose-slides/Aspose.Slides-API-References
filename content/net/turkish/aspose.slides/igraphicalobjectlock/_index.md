@@ -1,14 +1,14 @@
 ---
 title: IGraphicalObjectLock
 second_title: Aspose.Sildes için .NET API Referansı
-description: Üst GraphicalObjectEx üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+description: Üst GraphicalObjectEx üzerindeki hangi işlemlerin devre dışı bırakıldığını belirler.
 type: docs
-weight: 6050
+weight: 6070
 url: /tr/aspose.slides/igraphicalobjectlock/
 ---
 ## IGraphicalObjectLock arayüzü
 
-Üst GraphicalObjectEx üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
+Parent GraphicalObjectEx üzerinde hangi işlemlerin devre dışı bırakıldığını belirler.
 
 ```csharp
 public interface IGraphicalObjectLock : IBaseShapeLock
@@ -18,15 +18,15 @@ public interface IGraphicalObjectLock : IBaseShapeLock
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Temel IBaseShapeLock arayüzünü almayı sağlar. Salt okunur [`IBaseShapeLock`](../ibaseshapelock). |
-| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Şeklin yeniden boyutlandırma sırasında en boy oranını koruyup korumayacağını belirler. Okunur/Yazılabilir Boolean. |
-| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bu nesnenin alt şekillerinin seçilmesinin yasaklanıp yasaklanmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasaklanıp yasaklanmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bu şeklin taşınmasının yasaklanıp yasaklanmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasaklanıp yasaklanmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasaklanıp yasaklanmadığını belirler. Okunur/Yazılabilir Boolean. |
+| [AsIBaseShapeLock](../../aspose.slides/igraphicalobjectlock/asibaseshapelock) { get; } | Temel IBaseShapeLock arabirimine erişim sağlar. Yalnızca okunabilir [`IBaseShapeLock`](../ibaseshapelock). |
+| [AspectRatioLocked](../../aspose.slides/igraphicalobjectlock/aspectratiolocked) { get; set; } | Şeklin yeniden boyutlandırma sırasında en-boy oranını koruyup korumayacağını belirler. Okunabilir/Yazılabilir Boolean. |
+| [DrilldownLocked](../../aspose.slides/igraphicalobjectlock/drilldownlocked) { get; set; } | Bu nesnenin alt şekillerinin seçilmesinin yasak olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [GroupingLocked](../../aspose.slides/igraphicalobjectlock/groupinglocked) { get; set; } | Bu şeklin bir gruba eklenmesinin yasak olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [PositionLocked](../../aspose.slides/igraphicalobjectlock/positionlocked) { get; set; } | Bu şeklin taşınmasının yasak olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [SelectLocked](../../aspose.slides/igraphicalobjectlock/selectlocked) { get; set; } | Bu şeklin seçilmesinin yasak olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
+| [SizeLocked](../../aspose.slides/igraphicalobjectlock/sizelocked) { get; set; } | Bu şeklin yeniden boyutlandırılmasının yasak olup olmadığını belirler. Okunabilir/Yazılabilir Boolean. |
 
-### Ayrıca Bakınız
+### Bakınız
 
 * arayüz [IBaseShapeLock](../ibaseshapelock)
 * ad alanı [Aspose.Slides](../../aspose.slides)

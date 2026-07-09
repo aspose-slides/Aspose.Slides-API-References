@@ -1,14 +1,14 @@
 ---
 title: IDigitalSignatureCollection
-second_title: Aspose.Sildes .NET API hivatkozás
-description: Egy dokumentumhoz csatolt digitális aláírások gyűjteményét képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A dokumentumhoz csatolt digitális aláírások gyűjteményét reprezentálja.
 type: docs
-weight: 5680
+weight: 5700
 url: /hu/aspose.slides/idigitalsignaturecollection/
 ---
 ## IDigitalSignatureCollection interfész
 
-Egy dokumentumhoz csatolt digitális aláírások gyűjteményét képviseli.
+A dokumentumhoz csatolt digitális aláírások gyűjteményét képviseli.
 
 ```csharp
 public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignature>
@@ -18,13 +18,13 @@ public interface IDigitalSignatureCollection : IGenericCollection<IDigitalSignat
 
 | Név | Leírás |
 | --- | --- |
-| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | Visszaadja az aláírást index alapján. |
+| [Item](../../aspose.slides/idigitalsignaturecollection/item) { get; } | A megadott indexű aláírást adja vissza. |
 
 ## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | A gyűjtemény végéhez adja hozzá az aláírást. |
+| [Add](../../aspose.slides/idigitalsignaturecollection/add)(IDigitalSignature) | Az aláírást a gyűjtemény végére adja hozzá. |
 | [Clear](../../aspose.slides/idigitalsignaturecollection/clear)() | Eltávolítja az összes aláírást a gyűjteményből. |
 | [RemoveAt](../../aspose.slides/idigitalsignaturecollection/removeat)(int) | Eltávolítja a megadott indexű aláírást. |
 

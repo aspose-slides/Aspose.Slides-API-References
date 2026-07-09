@@ -1,6 +1,6 @@
 ---
 title: SvgEvent
-second_title: Aspose.Sildes for .NET API 參考文件
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 SVG 圖形的選項。
 type: docs
 weight: 4490
@@ -8,32 +8,32 @@ url: /zh-hant/aspose.slides.export/svgevent/
 ---
 ## SvgEvent 列舉
 
-Represents options for SVG shape.
+表示 SVG 圖形的選項。
 
 ```csharp
 public enum SvgEvent
 ```
 
-### 成員
+### 值
 
-| Name | Value | Description |
+| 名稱 | 值 | 說明 |
 | --- | --- | --- |
 | OnFocusIn | `0` | 當元素獲得焦點時發生，例如文字被選取時。 |
 | OnFocusOut | `1` | 當元素失去焦點時發生，例如文字被取消選取時。 |
-| OnActivate | `2` | 當元素被啟動時發生，例如透過滑鼠點擊或按鍵觸發。 |
-| OnClick | `3` | 當指向設備的按鈕在元素上被點擊時發生。 |
-| OnMouseDown | `4` | 當指向設備的按鈕在元素上被按下時發生。 |
-| OnMouseUp | `5` | 當指向設備的按鈕在元素上被釋放時發生。 |
-| OnMouseOver | `6` | 當指向設備移至元素上時發生。 |
-| OnMouseMove | `7` | 當指向設備在元素上移動時發生。 |
-| OnMouseOut | `8` | 當指向設備離開元素時發生。 |
-| OnLoad | `9` | 當使用者代理完全解析元素及其子元素以及所有參考的資源，且已可呈現時發生。 |
-| OnUnload | `10` | 當 DOM 實作將文件從視窗或框架中移除時發生。僅適用於最外層的 svg 元素。 |
-| OnAbort | `11` | 當頁面載入在元素完成載入之前被中止時發生。 |
+| OnActivate | `2` | 當元素被啟動時發生，例如透過滑鼠點擊或鍵盤按鍵。 |
+| OnClick | `3` | 當指向裝置的按鈕在元素上被點擊時發生。 |
+| OnMouseDown | `4` | 當指向裝置的按鈕在元素上被按下時發生。 |
+| OnMouseUp | `5` | 當指向裝置的按鈕在元素上被釋放時發生。 |
+| OnMouseOver | `6` | 當指向裝置移動到元素上時發生。 |
+| OnMouseMove | `7` | 當指向裝置在元素上移動時發生。 |
+| OnMouseOut | `8` | 當指向裝置離開元素時發生。 |
+| OnLoad | `9` | 當使用者代理程式已完整解析該元素及其子元素與所有參考資源，且已足以呈現時發生。 |
+| OnUnload | `10` | 當 DOM 實作從視窗或框架中移除文件時發生。僅適用於最外層的 svg 元素。 |
+| OnAbort | `11` | 當頁面載入在元素尚未完全載入前被停止時發生。 |
 | OnError | `12` | 當元素未能正確載入或在腳本執行期間發生錯誤時發生。 |
-| OnResize | `13` | 當文件檢視被調整大小時發生。僅適用於最外層的 svg 元素。 |
-| OnScroll | `14` | 當文件檢視沿 X、Y 或兩個軸移動時發生。僅適用於最外層的 svg 元素。 |
-| OnZoom | `15` | 當文件檢視的縮放等級被改變時發生。僅適用於最外層的 svg 元素。 |
+| OnResize | `13` | 當文件視圖正在調整大小時發生。僅適用於最外層的 svg 元素。 |
+| OnScroll | `14` | 當文件視圖沿 X、Y 或兩軸移動時發生。僅適用於最外層的 svg 元素。 |
+| OnZoom | `15` | 當文件視圖的縮放等級變更時發生。僅適用於最外層的 svg 元素。 |
 | OnBegin | `16` | 當動畫元素開始時發生。 |
 | OnEnd | `17` | 當動畫元素結束時發生。 |
 | OnRepeat | `18` | 當動畫元素重複時發生。 |

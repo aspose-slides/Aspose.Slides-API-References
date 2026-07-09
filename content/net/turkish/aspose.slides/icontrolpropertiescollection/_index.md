@@ -1,14 +1,14 @@
 ---
 title: IControlPropertiesCollection
 second_title: Aspose.Sildes for .NET API Referansı
-description: ActiveX kontrollerinin bir koleksiyonu.
+description: ActiveX denetimlerinin bir koleksiyonu.
 type: docs
-weight: 5630
+weight: 5650
 url: /tr/aspose.slides/icontrolpropertiescollection/
 ---
-## IControlPropertiesCollection arayüzü
+## IControlPropertiesCollection arayüz
 
-ActiveX kontrollerinin bir koleksiyonu.
+ActiveX denetimlerinin bir koleksiyonu.
 
 ```csharp
 public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string, string>>
@@ -18,7 +18,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable arayüzünü döndürür. Salt okunur IEnumerable. |
+| [AsIEnumerable](../../aspose.slides/icontrolpropertiescollection/asienumerable) { get; } | IEnumerable arabirimini döndürür. Salt okunur IEnumerable. |
 | [Count](../../aspose.slides/icontrolpropertiescollection/count) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur Int32. |
 | [Item](../../aspose.slides/icontrolpropertiescollection/item) { get; set; } | Özelliği döndürür veya ayarlar. |
 | [NamesOfProperties](../../aspose.slides/icontrolpropertiescollection/namesofproperties) { get; } | Koleksiyondaki özellik sayısını döndürür. Salt okunur ICollection. |
@@ -27,7 +27,7 @@ public interface IControlPropertiesCollection : IEnumerable<KeyValuePair<string,
 
 | Ad | Açıklama |
 | --- | --- |
-| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Koleksiyona bir özellik ekler. |
+| [Add](../../aspose.slides/icontrolpropertiescollection/add)(string, string) | Koleksiyona bir özelliği ekler. |
 | [Clear](../../aspose.slides/icontrolpropertiescollection/clear)() | Tüm özellikleri kaldırır. |
 | [Remove](../../aspose.slides/icontrolpropertiescollection/remove)(string) | Belirtilen ada sahip bir özelliği kaldırır. |
 

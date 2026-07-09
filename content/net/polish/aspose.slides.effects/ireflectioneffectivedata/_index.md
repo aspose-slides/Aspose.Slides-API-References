@@ -1,14 +1,14 @@
 ---
 title: IReflectionEffectiveData
-second_title: Aspose.Sildes dla .NET – dokumentacja API
-description: Niezmienny obiekt reprezentujący efekt odbicia.
+second_title: Aspose.Sildes dla .NET Referencja API
+description: Niezmienny obiekt, który reprezentuje efekt odbicia.
 type: docs
-weight: 3490
+weight: 3510
 url: /pl/aspose.slides.effects/ireflectioneffectivedata/
 ---
 ## IReflectionEffectiveData interfejs
 
-Niezmienny obiekt reprezentujący efekt odbicia.
+Niezmienny obiekt, który reprezentuje efekt odbicia.
 
 ```csharp
 public interface IReflectionEffectiveData : IEffectEffectiveData
@@ -16,22 +16,22 @@ public interface IReflectionEffectiveData : IEffectEffectiveData
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Umożliwia pobranie podstawowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ireflectioneffectivedata/asieffecteffectivedata) { get; } | Umożliwia uzyskanie bazowego interfejsu IEffectEffectiveData. Tylko do odczytu [`IEffectEffectiveData`](../ieffecteffectivedata). |
 | [BlurRadius](../../aspose.slides.effects/ireflectioneffectivedata/blurradius) { get; } | Promień rozmycia. Tylko do odczytu Double. |
 | [Direction](../../aspose.slides.effects/ireflectioneffectivedata/direction) { get; } | Kierunek odbicia. Tylko do odczytu Single. |
 | [Distance](../../aspose.slides.effects/ireflectioneffectivedata/distance) { get; } | Odległość odbicia. Tylko do odczytu Double. |
-| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Określa pozycję końcową (wzdłuż zakresu gradientu alfa) wartości końcowej alfa (procenty). Tylko do odczytu Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Nieprzezroczystość końcowego odbicia. (procenty). Tylko do odczytu Single. |
+| [EndPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/endposalpha) { get; } | Określa pozycję końcową (wzdłuż rampy gradientu alfa) wartości alfa końcowej (procenty). Tylko do odczytu Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/endreflectionopacity) { get; } | Koniec nieprzezroczystości odbicia. (procenty). Tylko do odczytu Single. |
 | [FadeDirection](../../aspose.slides.effects/ireflectioneffectivedata/fadedirection) { get; } | Określa kierunek przesunięcia odbicia. (kąt). Tylko do odczytu Single. |
 | [RectangleAlign](../../aspose.slides.effects/ireflectioneffectivedata/rectanglealign) { get; } | Wyrównanie prostokąta. Tylko do odczytu [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Określa, czy odbicie powinno obracać się wraz z kształtem, jeśli kształt jest obrócony. Tylko do odczytu Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Określa poziomy współczynnik skalowania, negatywne skalowanie powoduje odbicie. (procenty) Tylko do odczytu Double. |
-| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Określa pionowy współczynnik skalowania, negatywne skalowanie powoduje odbicie. (procenty) Tylko do odczytu Double. |
-| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Określa poziomy kąt pochylenia. Tylko do odczytu Double. |
-| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Określa pionowy kąt pochylenia. Tylko do odczytu Double. |
-| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Określa pozycję początkową (wzdłuż zakresu gradientu alfa) wartości początkowej alfa (procenty). Tylko do odczytu Single. |
+| [RotateShadowWithShape](../../aspose.slides.effects/ireflectioneffectivedata/rotateshadowwithshape) { get; } | Określa, czy odbicie powinno się obracać wraz z kształtem, jeśli kształt jest obrócony. Tylko do odczytu Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/scalehorizontal) { get; } | Określa poziomy współczynnik skalowania, ujemne skalowanie powoduje odbicie. (procenty) Tylko do odczytu Double. |
+| [ScaleVertical](../../aspose.slides.effects/ireflectioneffectivedata/scalevertical) { get; } | Określa pionowy współczynnik skalowania, ujemne skalowanie powoduje odbicie. (procenty) Tylko do odczytu Double. |
+| [SkewHorizontal](../../aspose.slides.effects/ireflectioneffectivedata/skewhorizontal) { get; } | Określa poziomy kąt skośności. Tylko do odczytu Double. |
+| [SkewVertical](../../aspose.slides.effects/ireflectioneffectivedata/skewvertical) { get; } | Określa pionowy kąt skośności. Tylko do odczytu Double. |
+| [StartPosAlpha](../../aspose.slides.effects/ireflectioneffectivedata/startposalpha) { get; } | Określa pozycję początkową (wzdłuż rampy gradientu alfa) wartości alfa początkowej (procenty). Tylko do odczytu Single. |
 | [StartReflectionOpacity](../../aspose.slides.effects/ireflectioneffectivedata/startreflectionopacity) { get; } | Początkowa nieprzezroczystość odbicia. (procenty). Tylko do odczytu Single. |
 
 ### Zobacz także

@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
-second_title: Aspose.Sildes .NET API referencia
-description: A sorok igazítási típusát képviseli.
+second_title: Aspose.Sildes .NET API Referencia
+description: A sorok igazítási típusát reprezentálja.
 type: docs
-weight: 7700
+weight: 7720
 url: /hu/aspose.slides/linealignment/
 ---
-## LineAlignment enumeráció
+## LineAlignment felsorolás
 
-Képviseli a sorok igazítási típusát.
+A sorok igazítási típusát reprezentálja.
 
 ```csharp
 public enum LineAlignment : sbyte

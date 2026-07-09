@@ -3,23 +3,23 @@ title: ExcelDataWorkbook
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en arbetsbok som ger åtkomst till Excel-data för allmänt bruk.
 type: docs
-weight: 3670
+weight: 3690
 url: /sv/aspose.slides.excel/exceldataworkbook/
 ---
 ## ExcelDataWorkbook klass
 
-Representerar en arbetsbok som ger tillgång till Excel-data för allmänt bruk.
+Representerar en arbetsbok som ger åtkomst till Excel-data för allmänt bruk.
 
 ```csharp
 public class ExcelDataWorkbook : IExcelDataWorkbook
 ```
 
-## Konstruktorer
+## Konstruktörer
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Initialiserar en ny instans av klassen med den angivna strömmen. |
-| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Initialiserar en ny instans med den specificerade filsökvägen. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor)(Stream) | Skapar en ny instans av klassen med den angivna strömmen. |
+| [ExcelDataWorkbook](exceldataworkbook#constructor_1)(string) | Skapar en ny instans med den angivna filsökvägen. |
 
 ## Metoder
 
@@ -27,10 +27,10 @@ public class ExcelDataWorkbook : IExcelDataWorkbook
 | --- | --- |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_1)(int, string) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess index och Excel-liknande cellnamn (t.ex. "B2"). |
 | [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_3)(string, string) | Hämtar en cell från det angivna kalkylbladet med Excel-liknande cellnamn (t.ex. "B2"). |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Hämtar en cell från det angivna kalkylbladet med dess index och cellkoordinater. |
-| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Hämtar en cell från det angivna kalkylbladet med dess namn och cellkoordinater. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell)(int, int, int) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess index och cellkoordinater. |
+| [GetCell](../../aspose.slides.excel/exceldataworkbook/getcell#getcell_2)(string, int, int) | Hämtar en cell från det angivna kalkylbladet med hjälp av dess namn och cellkoordinater. |
 | [GetCells](../../aspose.slides.excel/exceldataworkbook/getcells)(string, bool) | Hämtar en samling celler från arbetsboken som matchar den angivna formeln. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Hämtar en ordbok som innehåller index och namn för alla diagram i det angivna kalkylbladet i en Excel-arbetsbok. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/exceldataworkbook/getchartsfromworksheet)(string) | Hämtar en ordbok som innehåller index och namn på alla diagram i det angivna kalkylbladet i en Excel-arbetsbok. |
 | [GetWorksheetNames](../../aspose.slides.excel/exceldataworkbook/getworksheetnames)() | Hämtar namnen på alla kalkylblad som finns i Excel-arbetsboken. |
 
 ### Se även

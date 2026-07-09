@@ -1,6 +1,6 @@
 ---
 title: IStreamWrapperFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: โรงงานของ StreamWrappers. สำหรับอินเทอร์เฟซ COM.
 type: docs
 weight: 7140
@@ -18,10 +18,10 @@ public interface IStreamWrapperFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | สร้าง FileStream ด้วยพาธที่ระบุและโหมดการสร้าง. |
-| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | สร้าง FileStream ด้วยพาธที่ระบุ, โหมดการสร้าง, และสิทธิ์การอ่าน/เขียน. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | สร้าง wrapper ของ MemoryStream. |
-| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | สร้าง wrapper ของ MemoryStream โดยอิงจากอาร์เรย์ไบต์ที่ระบุ. |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | สร้าง FileStream ด้วยเส้นทางที่ระบุและโหมดการสร้าง |
+| [CreateFileStreamWrapper](../../aspose.slides/istreamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | สร้าง FileStream ด้วยเส้นทางที่ระบุ, โหมดการสร้าง, และสิทธิ์การอ่าน/เขียน |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | สร้าง wrapper ของ MemoryStream |
+| [CreateMemoryStreamWrapper](../../aspose.slides/istreamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | สร้าง wrapper ของ MemoryStream โดยอิงจากอาเรย์ไบต์ที่ระบุ |
 
 ### ดูเพิ่มเติม
 

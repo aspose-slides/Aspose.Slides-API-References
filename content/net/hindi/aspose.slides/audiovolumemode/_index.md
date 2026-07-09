@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: ऑडियो वॉल्यूम को परिभाषित करने वाले कॉन्स्टैंट्स।
+second_title: Aspose.Sildes के लिए .NET API Reference
+description: ऑडियो वॉल्यूम को परिभाषित करने वाले स्थिरांक।
 type: docs
 weight: 890
 url: /hi/aspose.slides/audiovolumemode/
 ---
-## AudioVolumeMode enumeration
+## AudioVolumeMode एन्यूमेरेशन
 
-ऑडियो वॉल्यूम को परिभाषित करने वाले कॉन्स्टैंट्स।
+ऑडियो वॉल्यूम को परिभाषित करने वाले स्थिरांक।
 
 ```csharp
 public enum AudioVolumeMode
@@ -19,10 +19,10 @@ public enum AudioVolumeMode
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Mute | `0` | शून्य ध्वनि मात्रा। |
-| Low | `1` | कम ध्वनि मात्रा। |
-| Medium | `2` | मध्यम ध्वनि मात्रा। |
-| Loud | `3` | उच्च ध्वनि मात्रा। |
+| Mute | `0` | शून्य ध्वनि वॉल्यूम। |
+| Low | `1` | कम ध्वनि वॉल्यूम। |
+| Medium | `2` | मध्यम ध्वनि वॉल्यूम। |
+| Loud | `3` | उच्च ध्वनि वॉल्यूम। |
 
 ### और देखें
 

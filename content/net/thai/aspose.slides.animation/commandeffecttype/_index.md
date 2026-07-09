@@ -1,14 +1,14 @@
 ---
 title: CommandEffectType
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงประเภทเอฟเฟกต์คำสั่งสำหรับพฤติกรรมเอฟเฟกต์คำสั่ง
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงประเภทผลกระทบของคำสั่งสำหรับพฤติกรรมผลกระทบของคำสั่ง.
 type: docs
 weight: 270
 url: /th/aspose.slides.animation/commandeffecttype/
 ---
-## CommandEffectType enum
+## enumeration ของ CommandEffectType
 
-Represents command effect type for command effect behavior.
+แสดงประเภทผลกระทบของคำสั่งสำหรับพฤติกรรมผลกระทบของคำสั่ง.
 
 ```csharp
 public enum CommandEffectType : sbyte

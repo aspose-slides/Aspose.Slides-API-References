@@ -1,14 +1,14 @@
 ---
 title: MarkdownSaveOptions.MarkdownImageSavingHandler
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: ถูกเรียกใช้สำหรับแต่ละภาพที่ไม่ใช่ SVG (bitmap หรือ metafile) ระหว่างการส่งออกเป็น Markdown. คืนค่า true เพื่อใช้ลิงก์ที่ระบุหรือ false เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: ถูกเรียกสำหรับแต่ละภาพที่ไม่ใช่ SVG (bitmap หรือ metafile) ระหว่างการส่งออก Markdown. คืนค่า true เพื่อใช้ลิงก์ที่ระบุหรือ false เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
 type: docs
 weight: 4260
 url: /th/aspose.slides.export/markdownsaveoptions.markdownimagesavinghandler/
 ---
-## MarkdownSaveOptions.MarkdownImageSavingHandler delegate
+## MarkdownSaveOptions.MarkdownImageSavingHandler ตัวแทน
 
-ถูกเรียกใช้สำหรับแต่ละภาพที่ไม่ใช่ SVG (bitmap หรือ metafile) ระหว่างการส่งออกเป็น Markdown. คืนค่า `true` เพื่อใช้ *link* ที่ระบุ, หรือ `false` เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
+ถูกเรียกสำหรับแต่ละภาพที่ไม่ใช่ SVG (bitmap หรือ metafile) ระหว่างการส่งออก Markdown. คืนค่า `true` เพื่อใช้ *link* ที่ระบุ, หรือ `false` เพื่อใช้ตรรกะการบันทึกเริ่มต้น.
 
 ```csharp
 public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format, ref string link);
@@ -17,7 +17,7 @@ public delegate bool MarkdownImageSavingHandler(IImage image, ImageFormat format
 | พารามิเตอร์ | ประเภท | คำอธิบาย |
 | --- | --- | --- |
 | image | IImage | ภาพที่กำลังส่งออก (bitmap หรือ metafile). |
-| format | ImageFormat | รูปแบบของภาพ. |
+| format | ImageFormat | รูปแบบภาพ. |
 | link | String& | ลิงก์ Markdown ที่ใช้เมื่อคืนค่า `true`. |
 
 ### ดูเพิ่มเติม

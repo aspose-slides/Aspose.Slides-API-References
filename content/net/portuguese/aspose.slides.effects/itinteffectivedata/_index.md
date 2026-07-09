@@ -1,14 +1,14 @@
 ---
 title: ITintEffectiveData
 second_title: Aspose.Sildes para .NET Referência da API
-description: Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento da matiz pela quantidade especificada.
+description: Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento do matiz pela quantidade especificada.
 type: docs
-weight: 3530
+weight: 3550
 url: /pt/aspose.slides.effects/itinteffectivedata/
 ---
-## interface ITintEffectiveData
+## ITintEffectiveData interface
 
-Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento da matiz pela quantidade especificada.
+Objeto imutável que representa um efeito Tint. Desloca os valores de cor do efeito em direção/afastamento do matiz pela quantidade especificada.
 
 ```csharp
 public interface ITintEffectiveData : IEffectEffectiveData
@@ -20,7 +20,7 @@ public interface ITintEffectiveData : IEffectEffectiveData
 | --- | --- |
 | [Amount](../../aspose.slides.effects/itinteffectivedata/amount) { get; } | Retorna a quantidade do efeito. Somente leitura Single. |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/itinteffectivedata/asieffecteffectivedata) { get; } | Permite obter a interface base IEffectEffectiveData. Somente leitura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Retorna a matiz. Somente leitura Single. |
+| [Hue](../../aspose.slides.effects/itinteffectivedata/hue) { get; } | Retorna o matiz. Somente leitura Single. |
 
 ### Veja Também
 

@@ -1,12 +1,12 @@
 ---
 title: IInnerShadowEffectiveData
-second_title: Riferimento API di Aspose.Sildes per .NET
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Oggetto immutabile che rappresenta un effetto di ombra interna.
 type: docs
-weight: 3410
+weight: 3430
 url: /it/aspose.slides.effects/iinnershadoweffectivedata/
 ---
-## IInnerShadowEffectiveData interfaccia
+## IInnerShadowEffectiveData interface
 
 Oggetto immutabile che rappresenta un effetto di ombra interna.
 
@@ -18,11 +18,11 @@ public interface IInnerShadowEffectiveData : IEffectEffectiveData
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Solo lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Raggio di sfocatura. Solo lettura Double. |
-| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Direzione dell'ombra. Solo lettura Single. |
-| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Distanza dell'ombra. Solo lettura Double. |
-| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Colore dell'ombra. Solo lettura Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/iinnershadoweffectivedata/asieffecteffectivedata) { get; } | Consente di ottenere l'interfaccia base IEffectEffectiveData. Sola lettura [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [BlurRadius](../../aspose.slides.effects/iinnershadoweffectivedata/blurradius) { get; } | Raggio sfocatura. Sola lettura Double. |
+| [Direction](../../aspose.slides.effects/iinnershadoweffectivedata/direction) { get; } | Direzione dell'ombra. Sola lettura Single. |
+| [Distance](../../aspose.slides.effects/iinnershadoweffectivedata/distance) { get; } | Distanza dell'ombra. Sola lettura Double. |
+| [ShadowColor](../../aspose.slides.effects/iinnershadoweffectivedata/shadowcolor) { get; } | Colore dell'ombra. Sola lettura Color. |
 
 ### Vedi anche
 

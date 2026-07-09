@@ -1,6 +1,6 @@
 ---
 title: MotionPath
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 모션 경로를 나타냅니다.
 type: docs
 weight: 690
@@ -24,8 +24,8 @@ public class MotionPath : IMotionPath
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.animation/motionpath/count) { get; } | 컬렉션에 있는 경로의 수를 반환합니다. 읽기 전용 Int32. |
-| [Item](../../aspose.slides.animation/motionpath/item) { get; } | 지정된 인덱스에 있는 명령을 반환합니다. |
+| [Count](../../aspose.slides.animation/motionpath/count) { get; } | 컬렉션에 있는 경로 수를 반환합니다. 읽기 전용 Int32. |
+| [Item](../../aspose.slides.animation/motionpath/item) { get; } | 지정된 인덱스의 명령을 반환합니다. |
 
 ## 메서드
 
@@ -35,10 +35,10 @@ public class MotionPath : IMotionPath
 | [Clear](../../aspose.slides.animation/motionpath/clear)() | 컬렉션에서 모든 명령을 제거합니다. |
 | [GetEnumerator](../../aspose.slides.animation/motionpath/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
 | [Insert](../../aspose.slides.animation/motionpath/insert)(int, MotionCommandPathType, PointF[], MotionPathPointsType, bool) | 경로에 새 명령을 삽입합니다 |
-| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 컬렉션에서 지정된 명령을 제거합니다. |
+| [Remove](../../aspose.slides.animation/motionpath/remove)(IMotionCmdPath) | 지정된 명령을 컬렉션에서 제거합니다. |
 | [RemoveAt](../../aspose.slides.animation/motionpath/removeat)(int) | 지정된 인덱스의 명령을 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IMotionPath](../imotionpath)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

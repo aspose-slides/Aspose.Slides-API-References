@@ -1,14 +1,14 @@
 ---
 title: ITableFormatEffectiveData
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Objek tak dapat diubah yang berisi properti pemformatan tabel efektif.
+second_title: Referensi API Aspose.Sildes untuk .NET
+description: Objek tidak dapat diubah yang berisi properti pemformatan tabel yang efektif.
 type: docs
-weight: 7230
+weight: 7250
 url: /id/aspose.slides/itableformateffectivedata/
 ---
 ## ITableFormatEffectiveData interface
 
-Objek tak dapat diubah yang berisi properti pemformatan tabel efektif.
+Objek tidak dapat diubah yang berisi properti pemformatan tabel yang efektif.
 
 ```csharp
 public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
@@ -16,14 +16,14 @@ public interface ITableFormatEffectiveData : IBaseTableFormatEffectiveData
 
 ## Properti
 
-| Name | Description |
+| Nama | Deskripsi |
 | --- | --- |
 | [AsIBaseTableFormatEffectiveData](../../aspose.slides/itableformateffectivedata/asibasetableformateffectivedata) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IBaseTableFormatEffectiveData. Hanya-baca [`IBaseTableFormatEffectiveData`](../ibasetableformateffectivedata). |
-| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Mendapatkan transparansi warna isi. Baca Single. |
+| [Transparency](../../aspose.slides/itableformateffectivedata/transparency) { get; } | Mengambil transparansi warna isi. Baca Single. |
 
 ### Catatan
 
-Antarmuka ini digunakan bersama dengan antarmuka [`ITableFormat`](../itableformat) untuk mengembalikan nilai pemformatan efektif dengan pewarisan dan gaya tabel yang diterapkan.
+Antarmuka ini digunakan bersama dengan antarmuka [`ITableFormat`](../itableformat) untuk mengembalikan nilai pemformatan yang efektif dengan pewarisan dan gaya tabel yang diterapkan.
 
 ### Lihat Juga
 

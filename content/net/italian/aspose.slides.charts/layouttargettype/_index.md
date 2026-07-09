@@ -1,14 +1,14 @@
 ---
 title: LayoutTargetType
-second_title: Riferimento API Aspose.Sildes per .NET
-description: Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se il layout dell'area del grafico deve essere effettuato dall'interno (escludendo gli assi e le etichette degli assi) o dall'esterno (includendo assi ed etichette degli assi).
+second_title: Aspose.Sildes per il riferimento API di .NET
+description: Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico internamente, escludendo gli assi e le etichette degli assi, o esternamente, includendo gli assi e le etichette degli assi.
 type: docs
-weight: 2250
+weight: 2270
 url: /it/aspose.slides.charts/layouttargettype/
 ---
-## enumerazione LayoutTargetType
+## LayoutTargetType enumerazione
 
-Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se il layout dell'area del grafico deve essere calcolato dal suo interno (escludendo gli assi e le etichette degli assi) oppure dall'esterno (includendo assi ed etichette degli assi).
+Se il layout dell'area del grafico è definito manualmente, questa proprietà specifica se posizionare l'area del grafico internamente (escludendo gli assi e le etichette degli assi) o esternamente (includendo gli assi e le etichette degli assi).
 
 ```csharp
 public enum LayoutTargetType
@@ -18,8 +18,8 @@ public enum LayoutTargetType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Inner | `0` | Specifica che le dimensioni dell'area del grafico determinano le dimensioni dell'area del grafico, senza includere le tacche e le etichette degli assi. |
-| Outer | `1` | Specifica che le dimensioni dell'area del grafico determinano le dimensioni dell'area del grafico, le tacche e le etichette degli assi. |
+| Inner | `0` | Specifica che la dimensione dell'area del grafico determina la dimensione dell'area del grafico, escludendo i segni di spunta e le etichette degli assi. |
+| Outer | `1` | Specifica che la dimensione dell'area del grafico determina la dimensione dell'area del grafico, i segni di spunta e le etichette degli assi. |
 
 ### Vedi anche
 

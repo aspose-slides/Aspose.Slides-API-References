@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesCollection
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: IChartSeries का संग्रह दर्शाता है./ichartseries
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: IChartSeries की कलेक्शन का प्रतिनिधित्व करता है IChartSeries./ichartseries
 type: docs
 weight: 1940
 url: /hi/aspose.slides.charts/ichartseriescollection/
 ---
 ## IChartSeriesCollection इंटरफ़ेस
 
-[`IChartSeries`](../ichartseries) का संग्रह दर्शाता है
+कलेक्शन का प्रतिनिधित्व करता है [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
@@ -18,21 +18,21 @@ public interface IChartSeriesCollection : IGenericCollection<IChartSeries>
 
 | नाम | विवरण |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। |
+| [Item](../../aspose.slides.charts/ichartseriescollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | नया आरेख श्रृंखला बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection) से नया आरेख श्रृंखला बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell) से नया आरेख श्रृंखला बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | मान से नया आरेख श्रृंखला बनाता है और इसे संग्रह में जोड़ता है। |
-| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | संग्रह से सभी तत्वों को हटाता है (जिसमें आरेख शैली भी शामिल है)। |
-| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | निर्दिष्ट [`IChartSeries`](../ichartseries) को खोजता है और संपूर्ण संग्रह में पहली घटना का शून्य-आधारित अनुक्रमणिका लौटाता है। |
-| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | नया आरेख श्रृंखला बनाता है और इसे संग्रह में सम्मिलित करता है। |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add)(ChartType) | नया चार्ट सीरीज़ बनाता है और इसे कलेक्शन में जोड़ता है। |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`IChartCellCollection`](../ichartcellcollection) से नया चार्ट सीरीज़ बनाता है और इसे कलेक्शन में जोड़ता है। |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`IChartDataCell`](../ichartdatacell) से नया चार्ट सीरीज़ बनाता है और इसे कलेक्शन में जोड़ता है। |
+| [Add](../../aspose.slides.charts/ichartseriescollection/add#add_3)(string, ChartType) | मान से नया चार्ट सीरीज़ बनाता है और इसे कलेक्शन में जोड़ता है। |
+| [Clear](../../aspose.slides.charts/ichartseriescollection/clear)() | कलेक्शन से सभी तत्वों को (चार्ट शैली सहित) हटाता है। |
+| [IndexOf](../../aspose.slides.charts/ichartseriescollection/indexof)(IChartSeries) | निर्दिष्ट [`IChartSeries`](../ichartseries) की खोज करता है और पूरी कलेक्शन में पहली घटनाक्रम का शून्य-आधारित इंडेक्स लौटाता है। |
+| [Insert](../../aspose.slides.charts/ichartseriescollection/insert)(int, ChartType) | नया चार्ट सीरीज़ बनाता है और इसे कलेक्शन में सम्मिलित करता है। |
 | [Remove](../../aspose.slides.charts/ichartseriescollection/remove)(IChartSeries) | निर्दिष्ट मान को हटाता है। |
-| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | निर्दिष्ट अनुक्रमणिका पर तत्व को हटाता है। |
+| [RemoveAt](../../aspose.slides.charts/ichartseriescollection/removeat)(int) | निर्दिष्ट इंडेक्स पर तत्व को हटाता है। |
 
 ### देखें
 

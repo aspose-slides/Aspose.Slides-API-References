@@ -1,7 +1,7 @@
 ---
 title: BrowsedAtKiosk
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Được duyệt trên kiosk toàn màn hình
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Duyệt trên kiosk ở chế độ toàn màn hình
 type: docs
 weight: 1040
 url: /vi/aspose.slides/browsedatkiosk/
@@ -14,7 +14,7 @@ url: /vi/aspose.slides/browsedatkiosk/
 public class BrowsedAtKiosk : SlideShowType
 ```
 
-## Hàm tạo
+## Hàm khởi tạo
 
 | Tên | Mô tả |
 | --- | --- |

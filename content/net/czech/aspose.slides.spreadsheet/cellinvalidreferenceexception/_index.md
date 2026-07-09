@@ -1,14 +1,14 @@
 ---
 title: CellInvalidReferenceException
-second_title: Aspose.Sildes pro .NET API Reference
-description: Výjimka, která je vyvolána, když je zaznamenán neplatný odkaz buňky.
+second_title: Aspose.Sildes pro .NET – Referenční příručka API
+description: Výjimka, která je vyvolána, když je zaznamenána neplatná reference buňky.
 type: docs
-weight: 10700
+weight: 10720
 url: /cs/aspose.slides.spreadsheet/cellinvalidreferenceexception/
 ---
 ## CellInvalidReferenceException třída
 
-Výjimka, která je vyvolána, když je zaznamenán neplatný odkaz buňky.
+Výjimka, která je vyvolána, když je zaznamenána neplatná reference buňky.
 
 ```csharp
 public class CellInvalidReferenceException : PptxEditException
@@ -21,13 +21,13 @@ public class CellInvalidReferenceException : PptxEditException
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor)() | Inicializuje novou instanci třídy [`CellInvalidReferenceException`](../cellinvalidreferenceexception). |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_1)(string) | Inicializuje novou instanci třídy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) s určenou chybovou zprávou. |
 | [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_2)(string, Exception) | Inicializuje novou instanci třídy [`CellInvalidReferenceException`](../cellinvalidreferenceexception) s určenou chybovou zprávou a odkazem na vnitřní výjimku, která je příčinou této výjimky. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inicializuje novou instanci třídy [`CellCircularReferenceException`](../cellcircularreferenceexception) s určenou chybovou zprávou a neplatným odkazem buňky. |
+| [CellInvalidReferenceException](cellinvalidreferenceexception#constructor_3)(string, string) | Inicializuje novou instanci třídy [`CellCircularReferenceException`](../cellcircularreferenceexception) s určenou chybovou zprávou a neplatnou referencí buňky. |
 
 ## Vlastnosti
 
 | Název | Popis |
 | --- | --- |
-| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Získá neplatný odkaz buňky. |
+| [Reference](../../aspose.slides.spreadsheet/cellinvalidreferenceexception/reference) { get; } | Získá neplatnou referenci buňky. |
 
 ### Viz také
 

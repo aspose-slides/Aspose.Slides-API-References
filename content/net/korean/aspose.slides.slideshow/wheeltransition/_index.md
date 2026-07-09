@@ -1,14 +1,14 @@
 ---
 title: WheelTransition
-second_title: Aspose.Sildes for .NET API 참조
-description: Wheel 슬라이드 전환 효과.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 휠 슬라이드 전환 효과.
 type: docs
 weight: 10470
 url: /ko/aspose.slides.slideshow/wheeltransition/
 ---
 ## WheelTransition 클래스
 
-Wheel 슬라이드 전환 효과.
+휠 슬라이드 전환 효과.
 
 ```csharp
 public class WheelTransition : TransitionValueBase, IWheelTransition
@@ -18,16 +18,16 @@ public class WheelTransition : TransitionValueBase, IWheelTransition
 
 | 이름 | 설명 |
 | --- | --- |
-| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | Wheel transition의 스포크 수. 읽기/쓰기 UInt32. |
+| [Spokes](../../aspose.slides.slideshow/wheeltransition/spokes) { get; set; } | 휠 전환의 스포크 수. 읽기/쓰기 UInt32. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 같은지 여부를 결정합니다. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수 역할을 하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
+| override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | 두 TransitionValueBase 인스턴스가 동일한지 여부를 판단합니다. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | 특정 유형에 대한 해시 함수로 작동하며, 해시 알고리즘 및 해시 테이블과 같은 데이터 구조에서 사용하기에 적합합니다. |
 
-### 또 보기
+### 참고
 
 * 클래스 [TransitionValueBase](../transitionvaluebase)
 * 인터페이스 [IWheelTransition](../iwheeltransition)

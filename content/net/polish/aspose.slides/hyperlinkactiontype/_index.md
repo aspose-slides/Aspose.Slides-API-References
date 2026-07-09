@@ -1,14 +1,14 @@
 ---
 title: HyperlinkActionType
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Reprezentuje typ akcji hiperlinku.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Reprezentuje typ działania hiperłącza.
 type: docs
-weight: 5110
+weight: 5130
 url: /pl/aspose.slides/hyperlinkactiontype/
 ---
-## Wyliczenie HyperlinkActionType
+## HyperlinkActionType wyliczenie
 
-Reprezentuje typ akcji hiperlinku.
+Reprezentuje typ działania hiperłącza.
 
 ```csharp
 public enum HyperlinkActionType
@@ -18,22 +18,22 @@ public enum HyperlinkActionType
 
 | Nazwa | Wartość | Opis |
 | --- | --- | --- |
-| Unknown | `-1` | Nierozpoznany typ akcji. |
-| NoAction | `0` | Brak akcji. |
-| Hyperlink | `1` | Zwykły hiperlink. |
+| Unknown | `-1` | Nierozpoznany typ działania. |
+| NoAction | `0` | Brak działania. |
+| Hyperlink | `1` | Zwykłe hiperłącze. |
 | JumpFirstSlide | `2` | Przejście do pierwszego slajdu prezentacji. |
 | JumpPreviousSlide | `3` | Przejście do poprzedniego slajdu. |
 | JumpNextSlide | `4` | Przejście do następnego slajdu. |
 | JumpLastSlide | `5` | Przejście do ostatniego slajdu prezentacji. |
 | JumpEndShow | `6` | Przejście do końca pokazu slajdów. |
-| JumpLastViewedSlide | `7` | Przejście do ostatnio oglądanego slajdu. |
-| JumpSpecificSlide | `8` | Przejście do konkretnego slajdu, określonego przez [`TargetSlide`](../ihyperlink/targetslide) właściwość. |
-| StartCustomSlideShow | `9` | Rozpocznij niestandardowy pokaz slajdów. |
-| OpenFile | `10` | Otwórz odwołany plik. |
-| OpenPresentation | `11` | Otwórz odwołaną prezentację. |
-| StartStopMedia | `12` | Rozpocznij/zatrzymaj odtwarzanie pliku multimedialnego. |
-| StartMacro | `13` | Rozpocznij wykonywanie skryptu makra. |
-| StartProgram | `14` | Uruchom program. |
+| JumpLastViewedSlide | `7` | Przejście do ostatnio wyświetlanego slajdu. |
+| JumpSpecificSlide | `8` | Przejście do konkretnego slajdu, określonego przez właściwość [`TargetSlide`](../ihyperlink/targetslide). |
+| StartCustomSlideShow | `9` | Rozpoczęcie niestandardowego pokazu slajdów. |
+| OpenFile | `10` | Otwarcie odwołanego pliku. |
+| OpenPresentation | `11` | Otwarcie odwołanej prezentacji. |
+| StartStopMedia | `12` | Rozpoczęcie/zatrzymanie odtwarzania pliku multimedialnego. |
+| StartMacro | `13` | Rozpoczęcie wykonywania skryptu makra. |
+| StartProgram | `14` | Uruchomienie programu. |
 
 ### Zobacz także
 

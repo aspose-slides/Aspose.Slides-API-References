@@ -1,12 +1,12 @@
 ---
 title: IErrorBarsFormat
-second_title: Aspose.Sildes dla .NET – odniesienie API
+second_title: Aspose.Sildes dla .NET - Referencja API
 description: Reprezentuje słupki błędów serii wykresu. Niestandardowe wartości ErrorBars znajdują się w IChartDataPointCollection w własności ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 2070
+weight: 2090
 url: /pl/aspose.slides.charts/ierrorbarsformat/
 ---
-## interfejs IErrorBarsFormat
+## IErrorBarsFormat interfejs
 
 Reprezentuje słupki błędów serii wykresu. Niestandardowe wartości ErrorBars znajdują się w IChartDataPointCollection (w własności [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)).
 
@@ -18,13 +18,13 @@ public interface IErrorBarsFormat : IChartComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Zwraca interfejs IChartComponent. Tylko do odczytu [`IChartComponent`](../ichartcomponent). |
-| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Reprezentuje format słupków błędów. Do odczytu i zapisu [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Określa, że końcowy kapelusz nie jest rysowany na słupkach błędów. Do odczytu i zapisu Boolean. |
-| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Pobiera lub ustawia widoczność słupków błędów. Do odczytu i zapisu Boolean. |
-| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Pobiera lub ustawia typ słupków błędów. Do odczytu i zapisu [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Pobiera lub ustawia wartość używaną z typami wartości Fixed, Percentage i StandardDeviation w celu określenia długości słupków błędów. Do odczytu i zapisu Single. |
-| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Reprezentuje możliwe sposoby określenia długości słupków błędów. W przypadku niestandardowego typu wartości, aby określić wartość, użyj własności [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) konkretnego punktu danych w kolekcji DataPoints serii. Do odczytu i zapisu [`ErrorBarValueType`](../errorbarvaluetype). |
+| [AsIChartComponent](../../aspose.slides.charts/ierrorbarsformat/asichartcomponent) { get; } | Zwraca IChartComponent interfejs. Tylko do odczytu [`IChartComponent`](../ichartcomponent). |
+| [Format](../../aspose.slides.charts/ierrorbarsformat/format) { get; set; } | Reprezentuje format słupków błędów. Odczyt/zapis [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/ierrorbarsformat/hasendcap) { get; set; } | Określa, że końcówka nie jest rysowana na słupkach błędów. Odczyt/zapis Boolean. |
+| [IsVisible](../../aspose.slides.charts/ierrorbarsformat/isvisible) { get; set; } | Pobiera lub ustawia widoczność słupków błędów. Odczyt/zapis Boolean. |
+| [Type](../../aspose.slides.charts/ierrorbarsformat/type) { get; set; } | Pobiera lub ustawia typ słupków błędów. Odczyt/zapis [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/ierrorbarsformat/value) { get; set; } | Pobiera lub ustawia wartość używaną wraz z typami wartości Fixed, Percentage i StandardDeviation do określenia długości słupków błędów. Odczyt/zapis Single. |
+| [ValueType](../../aspose.slides.charts/ierrorbarsformat/valuetype) { get; set; } | Reprezentuje możliwe sposoby określenia długości słupków błędów. W przypadku typu wartości niestandardowej, aby określić wartość, użyj własności [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) konkretnego punktu danych w kolekcji DataPoints serii. Odczyt/zapis [`ErrorBarValueType`](../errorbarvaluetype). |
 
 ### Zobacz także
 

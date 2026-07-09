@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes .NET API Referencia
-description: Ábrázolja az Alpha Replace hatást. A hatás alfa átlátszatlansági értékeit egy fix alfa helyettesíti.
+second_title: Aspose.Sildes .NET API referencia
+description: Ábrázolja az Alpha Replace hatást. Az effektus alfa (átlátszóság) értékeit egy rögzített alfával helyetteszi.
 type: docs
-weight: 2880
+weight: 2900
 url: /hu/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace osztály
 
-Ábrázolja az Alpha Replace hatást. A hatás alfa (átlátszatlanság) értékeit egy rögzített alfa helyettesíti.
+Ábrázolja az Alpha Replace hatást. A hatás alpha (opacity) értékei egy rögzített alpha-val vannak helyettesítve.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -24,9 +24,9 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Név | Leírás |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Megállapítja, hogy a megadott [`AlphaReplace`](../alphareplace) egyenlő-e az aktuális [`AlphaReplace`](../alphareplace). |
-| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | A öröklődés alkalmazásával lekéri a hatásos Alpha Replace hatás adatait. |
-| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Hash függvényként szolgál egy adott típus számára. |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Meghatározza, hogy a megadott [`AlphaReplace`](../alphareplace) egyenlő-e a jelenlegi [`AlphaReplace`](../alphareplace). |
+| [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Lekéri a hatékony Alpha Replace effektus adatait az öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

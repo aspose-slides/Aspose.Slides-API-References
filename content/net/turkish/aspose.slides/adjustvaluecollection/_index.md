@@ -1,14 +1,14 @@
 ---
 title: AdjustValueCollection
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET API Referansı
 description: Şekil ayarlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 80
+weight: 100
 url: /tr/aspose.slides/adjustvaluecollection/
 ---
-## AdjustValueCollection sınıfı
+## AdjustValueCollection sınıf
 
-Şeklin ayarlarının bir koleksiyonunu temsil eder.
+Bir şeklin ayarlarının koleksiyonunu temsil eder.
 
 ```csharp
 public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustValueCollection
@@ -18,10 +18,10 @@ public sealed class AdjustValueCollection : DomObject<GeometryShape>, IAdjustVal
 
 | Ad | Açıklama |
 | --- | --- |
-| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Ayarların sayısını döndürür. Yalnızca okuma Int32. |
-| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını gösteren bir değer döndürür. Yalnızca okuma Boolean. |
-| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | İndeksle ayarı döndürür. |
-| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Yalnızca okuma Object. |
+| [Count](../../aspose.slides/adjustvaluecollection/count) { get; } | Ayarlama sayısını döndürür. Salt okunur Int32. |
+| [IsSynchronized](../../aspose.slides/adjustvaluecollection/issynchronized) { get; } | Koleksiyona erişimin senkronize (iş parçacığı güvenli) olup olmadığını belirten bir değer döndürür. Salt okunur Boolean. |
+| [Item](../../aspose.slides/adjustvaluecollection/item) { get; } | İndeks ile ayarlamayı döndürür. |
+| [SyncRoot](../../aspose.slides/adjustvaluecollection/syncroot) { get; } | Bir senkronizasyon kökü döndürür. Salt okunur Object. |
 
 ## Yöntemler
 

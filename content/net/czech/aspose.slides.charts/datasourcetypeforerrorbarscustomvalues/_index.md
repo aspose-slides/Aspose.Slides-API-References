@@ -3,12 +3,12 @@ title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes pro .NET API Reference
 description: Určuje typy hodnot v seznamu vlastností ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1570
+weight: 1590
 url: /cs/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues třída
 
-Specifikuje typy hodnot v seznamu vlastností ChartDataPoint.ErrorBarsCustomValues
+Určuje typy hodnot v seznamu vlastností ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -24,10 +24,10 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 | Název | Popis |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti XMinus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti XPlus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti YMinus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti YPlus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy určuje typ hodnoty vlastnosti ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti XMinus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy specifikuje typ hodnoty vlastnosti ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti XPlus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy specifikuje typ hodnoty vlastnosti ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti YMinus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy specifikuje typ hodnoty vlastnosti ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Určuje, zda je vlastnost AsCell nebo AsLiteralString nebo AsLiteralDouble aktuální v objektu vlastnosti YPlus datových bodů pro vlastní hodnoty chybových úseček. Jinými slovy specifikuje typ hodnoty vlastnosti ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Čtení/zápis [`DataSourceType`](../datasourcetype). |
 
 ### Viz také
 

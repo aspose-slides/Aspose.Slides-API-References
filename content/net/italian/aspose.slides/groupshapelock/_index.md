@@ -1,9 +1,9 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes per .NET Riferimento API
+second_title: Riferimento API Aspose.Sildes per .NET
 description: Determina quali operazioni sono disabilitate sul GroupShape padre.
 type: docs
-weight: 5080
+weight: 5100
 url: /it/aspose.slides/groupshapelock/
 ---
 ## GroupShapeLock classe
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Nome | Descrizione |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Determina se la forma deve mantenere le proporzioni durante il ridimensionamento. Lettura/scrittura Boolean. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Determina se l'aggiunta di questa forma a un gruppo è vietata. Lettura/scrittura Boolean. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Restituisce true se tutti i flag di blocco sono disabilitati. Sola lettura Boolean. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è vietato. Lettura/scrittura Boolean. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è vietata. Lettura/scrittura Boolean. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Lettura/scrittura Boolean. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Lettura/scrittura Boolean. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Determina se la suddivisione di questo groupshape è vietata. Lettura/scrittura Boolean. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Determina se la forma deve preservare le proporzioni durante il ridimensionamento. Lettura/Scrittura Booleano. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Determina se aggiungere questa forma a un gruppo è vietato. Lettura/Scrittura Booleano. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Restituisce vero se tutte le flag di blocco sono disabilitate. Sola lettura Booleano. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Determina se lo spostamento di questa forma è vietato. Lettura/Scrittura Booleano. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Determina se la modifica dell'angolo di rotazione di questa forma è vietata. Lettura/Scrittura Booleano. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Determina se la selezione di questa forma è vietata. Lettura/Scrittura Booleano. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Determina se il ridimensionamento di questa forma è vietato. Lettura/Scrittura Booleano. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Determina se la divisione di questo gruppo di forme è vietata. Lettura/Scrittura Booleano. |
 
 ### Vedi anche
 

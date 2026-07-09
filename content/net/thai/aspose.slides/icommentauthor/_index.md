@@ -1,14 +1,14 @@
 ---
 title: ICommentAuthor
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงผู้เขียนของความคิดเห็น.
+description: แสดงถึงผู้เขียนของความคิดเห็น.
 type: docs
 weight: 5570
 url: /th/aspose.slides/icommentauthor/
 ---
-## ICommentAuthor อินเทอร์เฟซ
+## ICommentAuthor ส่วนต่อประสาน
 
-แสดงผู้เขียนของความคิดเห็น.
+แสดงถึงผู้เขียนของความคิดเห็น.
 
 ```csharp
 public interface ICommentAuthor
@@ -16,15 +16,15 @@ public interface ICommentAuthor
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | คืนคอลเลกชันของความคิดเห็นที่สร้างโดยผู้เขียนนี้. อ่านอย่างเดียว [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | คืนค่า หรือ ตั้งค่าตัวอักษรย่อของผู้เขียน. อ่าน/เขียน String. |
-| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | คืนค่า หรือ ตั้งค่าชื่อของผู้เขียน. อ่าน/เขียน String. |
+| [Comments](../../aspose.slides/icommentauthor/comments) { get; } | ส่งคืนคอลเลกชันของความคิดเห็นที่ผู้เขียนนี้สร้างขึ้น. อ่านอย่างเดียว [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/icommentauthor/initials) { get; set; } | ส่งคืนหรือกำหนดอักษรย่อของผู้เขียน. อ่าน/เขียน String. |
+| [Name](../../aspose.slides/icommentauthor/name) { get; set; } | ส่งคืนหรือกำหนดชื่อของผู้เขียน. อ่าน/เขียน String. |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Remove](../../aspose.slides/icommentauthor/remove)() | ลบผู้เขียนออกจากคอลเลกชันแม่. |
 

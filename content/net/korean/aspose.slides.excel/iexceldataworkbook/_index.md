@@ -1,14 +1,14 @@
 ---
 title: IExcelDataWorkbook
-second_title: Aspose.Sildes .NET용 API 레퍼런스
-description: 일반적으로 사용하기 위해 Excel 데이터에 접근할 수 있는 워크북을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 일반적인 사용을 위해 Excel 데이터에 대한 액세스를 제공하는 워크북을 나타냅니다.
 type: docs
 weight: 3710
 url: /ko/aspose.slides.excel/iexceldataworkbook/
 ---
 ## IExcelDataWorkbook 인터페이스
 
-Excel 데이터를 일반적으로 사용할 수 있도록 제공하는 워크북을 나타냅니다.
+일반적인 사용을 위해 Excel 데이터를 제공하는 워크북을 나타냅니다.
 
 ```csharp
 public interface IExcelDataWorkbook
@@ -18,15 +18,15 @@ public interface IExcelDataWorkbook
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | 지정된 워크시트에서 인덱스와 Excel 스타일 셀 이름(예: "B2")을 사용하여 셀을 검색합니다. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | 지정된 워크시트에서 Excel 스타일 셀 이름(예: "B2")을 사용하여 셀을 검색합니다. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | 지정된 워크시트에서 인덱스와 셀 좌표를 사용하여 셀을 검색합니다. |
-| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | 지정된 워크시트에서 이름과 셀 좌표를 사용하여 셀을 검색합니다. |
-| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | 지정된 수식과 일치하는 셀 컬렉션을 워크북에서 검색합니다. |
-| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Excel 워크북의 지정된 워크시트에 있는 모든 차트의 인덱스와 이름을 포함하는 사전을 검색합니다. |
-| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Excel 워크북에 포함된 모든 워크시트의 이름을 검색합니다. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_1)(int, string) | 지정된 워크시트에서 인덱스와 Excel 형식 셀 이름(예: "B2")을 사용하여 셀을 가져옵니다. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_3)(string, string) | 지정된 워크시트에서 Excel 형식 셀 이름(예: "B2")을 사용하여 셀을 가져옵니다. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell)(int, int, int) | 지정된 워크시트에서 인덱스와 셀 좌표를 사용하여 셀을 가져옵니다. |
+| [GetCell](../../aspose.slides.excel/iexceldataworkbook/getcell#getcell_2)(string, int, int) | 지정된 워크시트에서 이름과 셀 좌표를 사용하여 셀을 가져옵니다. |
+| [GetCells](../../aspose.slides.excel/iexceldataworkbook/getcells)(string, bool) | 지정된 수식과 일치하는 셀 컬렉션을 워크북에서 가져옵니다. |
+| [GetChartsFromWorksheet](../../aspose.slides.excel/iexceldataworkbook/getchartsfromworksheet)(string) | Excel 워크북의 지정된 워크시트에 있는 모든 차트의 인덱스와 이름을 포함하는 사전을 가져옵니다. |
+| [GetWorksheetNames](../../aspose.slides.excel/iexceldataworkbook/getworksheetnames)() | Excel 워크북에 포함된 모든 워크시트의 이름을 가져옵니다. |
 
-### 참고
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Excel](../../aspose.slides.excel)
 * 어셈블리 [Aspose.Slides](../../)

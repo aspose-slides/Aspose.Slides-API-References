@@ -1,14 +1,14 @@
 ---
 title: SvgEvent
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Geeft opties weer voor SVG-vorm.
+description: Geeft opties voor een SVG-vorm weer.
 type: docs
 weight: 4490
 url: /nl/aspose.slides.export/svgevent/
 ---
 ## SvgEvent enumeratie
 
-Geeft opties voor SVG-vorm weer.
+Geeft opties voor een SVG-vorm weer.
 
 ```csharp
 public enum SvgEvent
@@ -16,31 +16,31 @@ public enum SvgEvent
 
 ### Waarden
 
-| Naam | Waarde | Beschrijving |
+| Naam | Waarde | Omschrijving |
 | --- | --- | --- |
 | OnFocusIn | `0` | Vindt plaats wanneer een element focus krijgt, bijvoorbeeld wanneer een tekst wordt geselecteerd. |
-| OnFocusOut | `1` | Vindt plaats wanneer een element focus verliest, bijvoorbeeld wanneer een tekst wordt gedeselecteerd. |
-| OnActivate | `2` | Vindt plaats wanneer een element wordt geactiveerd, bijvoorbeeld via een muisklik of een toetsaanslag. |
-| OnClick | `3` | Vindt plaats wanneer de knop van het aanwijzingsapparaat op een element wordt geklikt. |
-| OnMouseDown | `4` | Vindt plaats wanneer de knop van het aanwijzingsapparaat op een element wordt ingedrukt. |
-| OnMouseUp | `5` | Vindt plaats wanneer de knop van het aanwijzingsapparaat op een element wordt losgelaten. |
-| OnMouseOver | `6` | Vindt plaats wanneer het aanwijzingsapparaat naar een element beweegt. |
-| OnMouseMove | `7` | Vindt plaats wanneer het aanwijzingsapparaat beweegt terwijl het zich boven een element bevindt. |
-| OnMouseOut | `8` | Vindt plaats wanneer het aanwijzingsapparaat zich van een element verwijdert. |
-| OnLoad | `9` | Vindt plaats wanneer de user agent het element en zijn afstammelingen en alle verwezen bronnen volledig heeft geparseerd die nodig zijn om het weer te geven. |
-| OnUnload | `10` | Vindt plaats wanneer de DOM-implementatie een document uit een venster of frame verwijdert. Alleen van toepassing op buitenste svg-elementen. |
-| OnAbort | `11` | Vindt plaats wanneer het laden van de pagina wordt gestopt voordat een element volledig kon laden. |
-| OnError | `12` | Vindt plaats wanneer een element niet correct laad of wanneer een fout optreedt tijdens de uitvoering van een script. |
-| OnResize | `13` | Vindt plaats wanneer een documentweergave wordt vergroot/verkleind. Alleen van toepassing op buitenste svg-elementen. |
-| OnScroll | `14` | Vindt plaats wanneer een documentweergave verschuift langs de X- of Y-as of beide. Alleen van toepassing op buitenste svg-elementen. |
-| OnZoom | `15` | Vindt plaats wanneer het zoomniveau van een documentweergave wordt aangepast. Alleen van toepassing op buitenste svg-elementen. |
+| OnFocusOut | `1` | Vindt plaats wanneer een element focus verliest, bijvoorbeeld wanneer een tekst niet langer geselecteerd is. |
+| OnActivate | `2` | Vindt plaats wanneer een element geactiveerd wordt, bijvoorbeeld via een muisklik of een toetsaanslag. |
+| OnClick | `3` | Vindt plaats wanneer de knop van het aanwijzende apparaat op een element wordt aangeklikt. |
+| OnMouseDown | `4` | Vindt plaats wanneer de knop van het aanwijzende apparaat op een element wordt ingedrukt. |
+| OnMouseUp | `5` | Vindt plaats wanneer de knop van het aanwijzende apparaat op een element wordt losgelaten. |
+| OnMouseOver | `6` | Vindt plaats wanneer het aanwijzende apparaat zich op een element beweegt. |
+| OnMouseMove | `7` | Vindt plaats wanneer het aanwijzende apparaat beweegt terwijl het zich boven een element bevindt. |
+| OnMouseOut | `8` | Vindt plaats wanneer het aanwijzende apparaat zich van een element verwijdert. |
+| OnLoad | `9` | Vindt plaats wanneer de gebruiker-agent het element en zijn afstammelingen en alle verwijzende bronnen volledig heeft geparseerd, die nodig zijn om het weer te geven. |
+| OnUnload | `10` | Vindt plaats wanneer de DOM-implementatie een document uit een venster of frame verwijdert. Alleen van toepassing op de buitenste svg-elementen. |
+| OnAbort | `11` | Vindt plaats wanneer het laden van de pagina wordt gestopt voordat een element volledig geladen kon worden. |
+| OnError | `12` | Vindt plaats wanneer een element niet goed laadt of wanneer er een fout optreedt tijdens de uitvoering van een script. |
+| OnResize | `13` | Vindt plaats wanneer een documentweergave wordt vergroot of verkleind. Alleen van toepassing op de buitenste svg-elementen. |
+| OnScroll | `14` | Vindt plaats wanneer een documentweergave langs de X-, Y- of beide assen wordt verplaatst. Alleen van toepassing op de buitenste svg-elementen. |
+| OnZoom | `15` | Vindt plaats wanneer het zoomniveau van een documentweergave wordt gewijzigd. Alleen van toepassing op de buitenste svg-elementen. |
 | OnBegin | `16` | Vindt plaats wanneer een animatie-element begint. |
 | OnEnd | `17` | Vindt plaats wanneer een animatie-element eindigt. |
-| OnRepeat | `18` | Vindt plaats wanneer een animatie-element herhaalt. |
+| OnRepeat | `18` | Vindt plaats wanneer een animatie-element zich herhaalt. |
 
 ### Zie ook
 
-* naamruimte [Aspose.Slides.Export](../../aspose.slides.export)
+* namespace [Aspose.Slides.Export](../../aspose.slides.export)
 * assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

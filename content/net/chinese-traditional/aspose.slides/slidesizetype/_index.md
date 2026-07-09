@@ -1,39 +1,39 @@
 ---
 title: SlideSizeType
-second_title: Aspose.Sildes 的 .NET API 參考文件
-description: 表示投影片尺寸的預設設定。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示投影片大小的預設值。
 type: docs
 weight: 10520
 url: /zh-hant/aspose.slides/slidesizetype/
 ---
 ## SlideSizeType 列舉
 
-代表投影片尺寸的預設設定。
+表示投影片大小的預設值。
 
 ```csharp
 public enum SlideSizeType
 ```
 
-### 列舉值
+### 值
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| OnScreen | `0` | 螢幕顯示 4x3 |
-| LetterPaper | `1` | Letter 紙 |
+| OnScreen | `0` | 螢幕 4x3 |
+| LetterPaper | `1` | 信紙 |
 | A4Paper | `2` | A4 |
-| Slide35mm | `3` | 35mm 投影片 |
-| Overhead | `4` | 投影紙 |
+| Slide35mm | `3` | 35mm 幻燈片 |
+| Overhead | `4` | 投影片 |
 | Banner | `5` | 橫幅 |
-| Custom | `6` | 自訂尺寸 |
-| Ledger | `7` | Ledger 紙 |
+| Custom | `6` | 自訂大小 |
+| Ledger | `7` | Ledger |
 | A3Paper | `8` | A3 |
 | B4IsoPaper | `9` | B4 ISO |
 | B5IsoPaper | `10` | B5 ISO |
 | B4JisPaper | `11` | B4 JIS |
 | B5JisPaper | `12` | B5 JIS |
 | HagakiCard | `13` | 明信片 |
-| OnScreen16x9 | `14` | 螢幕顯示 16x9 |
-| OnScreen16x10 | `15` | 螢幕顯示 16x10 |
+| OnScreen16x9 | `14` | 螢幕 16x9 |
+| OnScreen16x10 | `15` | 螢幕 16x10 |
 | Widescreen | `16` | 寬螢幕 |
 
 ### 另請參閱

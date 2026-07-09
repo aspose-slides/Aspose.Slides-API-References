@@ -1,9 +1,9 @@
 ---
 title: IBackground
-second_title: Aspose.Sildes dla .NET Referencja API
+second_title: Aspose.Slides dla .NET – dokumentacja API
 description: Reprezentuje tło slajdu.
 type: docs
-weight: 5250
+weight: 5270
 url: /pl/aspose.slides/ibackground/
 ---
 ## IBackground interfejs
@@ -30,7 +30,7 @@ public interface IBackground : IFillParamSource, ISlideComponent
 
 | Nazwa | Opis |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Pobiera efektywne dane tła z zastosowanym dziedziczeniem. |
+| [GetEffective](../../aspose.slides/ibackground/geteffective)() | Pobiera skuteczne dane tła z zastosowanym dziedziczeniem. |
 
 ### Zobacz także
 

@@ -1,6 +1,6 @@
 ---
 title: IRevealTransition
-second_title: Aspose.Sildes cho .NET API Reference
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Hiệu ứng chuyển đổi slide hiển thị.
 type: docs
 weight: 10160
@@ -16,10 +16,10 @@ public interface IRevealTransition : ITransitionValueBase
 
 ## Thuộc tính
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ sở. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/irevealtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/irevealtransition/direction) { get; set; } | Hướng của chuyển động. Đọc/ghi [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
 | [ThroughBlack](../../aspose.slides.slideshow/irevealtransition/throughblack) { get; set; } | Xác định liệu chuyển đổi có mờ dần qua màu đen hay không. Đọc/ghi Boolean. |
 
 ### Xem thêm

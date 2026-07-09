@@ -1,14 +1,14 @@
 ---
 title: Reflection
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje efekt odbicia.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje efekt Reflection.
 type: docs
-weight: 3620
+weight: 3640
 url: /pl/aspose.slides.effects/reflection/
 ---
-## Reflection class
+## Klasa Reflection
 
-Represents a Reflection effect.
+Reprezentuje efekt Reflection.
 
 ```csharp
 public sealed class Reflection : IReflection
@@ -16,13 +16,13 @@ public sealed class Reflection : IReflection
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Promień rozmycia. Odczyt/zapis Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Kierunek odbicia. Odczyt/zapis Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Odległość odbicia. Odczyt/zapis Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Określa końcową pozycję (wzdłuż rampy gradientu alfa) wartości końcowego alfa (procenty). Odczyt/zapis Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Końcowa nieprzezroczystość odbicia. (procenty). Odczyt/zapis Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Określa końcową pozycję (wzdłuż gradientu alfa) wartości końcowego alfa (procenty). Odczyt/zapis Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Koniec nieprzezroczystości odbicia. (procenty). Odczyt/zapis Single. |
 | [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Określa kierunek przesunięcia odbicia. (kąt). Odczyt/zapis Single. |
 | [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Wyrównanie prostokąta. Odczyt/zapis [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
 | [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Określa, czy odbicie powinno obracać się razem z kształtem, jeśli kształt jest obrócony. Odczyt/zapis Boolean. |
@@ -30,16 +30,16 @@ public sealed class Reflection : IReflection
 | [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Określa pionowy współczynnik skalowania, ujemne skalowanie powoduje odbicie. (procenty) Odczyt/zapis Double. |
 | [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Określa poziomy kąt pochylenia. Odczyt/zapis Double. |
 | [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Określa pionowy kąt pochylenia. Odczyt/zapis Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Określa początkową pozycję (wzdłuż rampy gradientu alfa) wartości początkowego alfa (procenty). Odczyt/zapis Single. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Określa początkową pozycję (wzdłuż gradientu alfa) wartości początkowego alfa (procenty). Odczyt/zapis Single. |
 | [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Początkowa nieprzezroczystość odbicia. (procenty). Odczyt/zapis Single. |
 
 ## Metody
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Określa, czy określony [`Reflection`](../reflection) jest równy bieżącemu [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Pobiera efektywne dane efektu Reflection z zastosowanym dziedziczeniem. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Służy jako funkcja mieszająca dla określonego typu. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Pobiera skuteczne dane efektu Reflection z zastosowanym dziedziczeniem. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Służy jako funkcja skrótu dla określonego typu. |
 
 ### Zobacz także
 

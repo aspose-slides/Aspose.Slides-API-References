@@ -1,14 +1,14 @@
 ---
 title: BackgroundType
-second_title: Aspose.Sildes para .NET Referência da API
+second_title: Referência da API Aspose.Sildes para .NET
 description: Define a origem do preenchimento de fundo do slide.
 type: docs
-weight: 920
+weight: 940
 url: /pt/aspose.slides/backgroundtype/
 ---
 ## Enumeração BackgroundType
 
-Define a origem do preenchimento de fundo do slide.
+Define a origem de preenchimento de fundo do slide.
 
 ```csharp
 public enum BackgroundType : sbyte
@@ -22,7 +22,7 @@ public enum BackgroundType : sbyte
 | Themed | `0` |  |
 | OwnBackground | `1` |  |
 
-### Veja Também
+### Ver também
 
 * espaço de nomes [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

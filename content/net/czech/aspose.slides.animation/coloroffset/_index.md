@@ -3,7 +3,7 @@ title: ColorOffset
 second_title: Aspose.Sildes pro .NET API Reference
 description: Reprezentuje offset barvy.
 type: docs
-weight: 220
+weight: 240
 url: /cs/aspose.slides.animation/coloroffset/
 ---
 ## ColorOffset třída

@@ -1,14 +1,14 @@
 ---
 title: AlphaFloor
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một hiệu ứng Alpha Floor. Các giá trị độ trong suốt Alpha dưới 100 được thay đổi thành 0. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở nên hoàn toàn trong suốt.
+description: Biểu diễn một hiệu ứng Alpha Floor. Các giá trị độ trong suốt Alpha dưới 100 được thay đổi thành 0. Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở thành hoàn toàn trong suốt.
 type: docs
 weight: 2860
 url: /vi/aspose.slides.effects/alphafloor/
 ---
-## AlphaFloor lớp
+## Lớp AlphaFloor
 
-Đại diện cho một hiệu ứng Alpha Floor. Các giá trị Alpha (độ trong suốt) dưới 100% sẽ được thay đổi thành không. Nói cách khác, bất kỳ phần nào có độ trong suốt một phần sẽ trở nên hoàn toàn trong suốt.
+Biểu diễn một hiệu ứng Alpha Floor. Các giá trị Alpha (độ mờ) dưới 100% sẽ được thay đổi thành 0. Nói cách khác, bất kỳ đối tượng nào có độ trong suốt một phần sẽ trở nên hoàn toàn trong suốt.
 
 ```csharp
 public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
@@ -24,9 +24,9 @@ public sealed class AlphaFloor : ImageTransformOperation, IAlphaFloor
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Xác định xem [`AlphaFloor`](../alphafloor) được chỉ định có bằng với [`AlphaFloor`](../alphafloor) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Floor đã áp dụng kế thừa. |
-| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
+| override [Equals](../../aspose.slides.effects/alphafloor/equals)(object) | Xác định xem [`AlphaFloor`](../alphafloor) đã cho trước có bằng với [`AlphaFloor`](../alphafloor) hiện tại hay không. |
+| [GetEffective](../../aspose.slides.effects/alphafloor/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Floor hiệu quả với kế thừa đã áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/alphafloor/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

@@ -1,9 +1,9 @@
 ---
 title: IPptxOptions
-second_title: Aspose.Sildes pro .NET API referenci
-description: Reprezentuje možnosti pro ukládání OpenXml prezentací PPTX PPSX POTX PPTM PPSM POTM.
+second_title: Aspose.Sildes pro .NET API Reference
+description: Reprezentuje možnosti pro ukládání prezentací OpenXml PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 4000
+weight: 4020
 url: /cs/aspose.slides.export/ipptxoptions/
 ---
 ## IPptxOptions rozhraní
@@ -18,11 +18,11 @@ public interface IPptxOptions : ISaveOptions
 
 | Název | Popis |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Umožňuje získat základní rozhraní ISaveOptions. Pouze pro čtení [`ISaveOptions`](../isaveoptions). |
-| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Specifikuje úroveň komprese používanou při ukládání dokumentu prezentace. Výchozí hodnota je Level6. |
-| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Určuje třídu shody, ke které dokument Presentation odpovídá. Výchozí hodnota je Ecma376_2006 |
-| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Určuje, zda bude miniaturka prezentace aktualizována. Boolean čtení/zápisu. Výchozí hodnota je **true**. |
-| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Určuje, zda je pro dokument Presentation použit formát ZIP64. Výchozí hodnota je IfNecessary |
+| [AsISaveOptions](../../aspose.slides.export/ipptxoptions/asisaveoptions) { get; } | Umožňuje získat základní rozhraní ISaveOptions. Pouze ke čtení [`ISaveOptions`](../isaveoptions). |
+| [CompressionLevel](../../aspose.slides.export/ipptxoptions/compressionlevel) { get; set; } | Určuje úroveň komprese používanou při ukládání dokumentu prezentace. Výchozí hodnota je Level6. |
+| [Conformance](../../aspose.slides.export/ipptxoptions/conformance) { get; set; } | Určuje třídu souladu, ke které dokument Presentation odpovídá. Výchozí hodnota je Ecma376_2006 |
+| [RefreshThumbnail](../../aspose.slides.export/ipptxoptions/refreshthumbnail) { get; set; } | Určuje, zda bude miniaturka prezentace obnovena. Čtení/zápis Boolean. Výchozí hodnota je **true**. |
+| [Zip64Mode](../../aspose.slides.export/ipptxoptions/zip64mode) { get; set; } | Určuje, zda je pro dokument Presentation používán formát ZIP64. Výchozí hodnota je IfNecessary |
 
 ### Viz také
 

@@ -1,12 +1,12 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
 description: แสดงตัวเลือกการส่งออกเป็น HTML5.
 type: docs
 weight: 3930
 url: /th/aspose.slides.export/ihtml5options/
 ---
-## IHtml5Options ส่วนติดต่อ
+## IHtml5Options อินเทอร์เฟซ
 
 แสดงตัวเลือกการส่งออกเป็น HTML5
 
@@ -14,22 +14,22 @@ url: /th/aspose.slides.export/ihtml5options/
 public interface IHtml5Options : ISaveOptions
 ```
 
-## Properties
+## คุณสมบัติ
 
 | Name | Description |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการเคลื่อนไหวของรูปร่าง. อ่าน/เขียน Boolean. |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการเคลื่อนไหวของการเปลี่ยนฉาก. อ่าน/เขียน Boolean. |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | คืนค่า ส่วนติดต่อ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | รับหรือกำหนดค่าว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลิการเชอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิการเชอร์จะถูกปิดในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้นคุณสมบัตินี้ตั้งเป็น `false`. |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | คืนค่า หรือกำหนดตัวเลือกแอนิเมชันของรูปร่าง. อ่าน/เขียน Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | คืนค่า หรือกำหนดตัวเลือกแอนิเมชันของการเปลี่ยนฉาก. อ่าน/เขียน Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | คืนค่าอินเทอร์เฟซ ISaveOptions. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความจะถูกเรนเดอร์โดยไม่ใช้ลิการเจอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิการเจอร์จะถูกปิดในผลลัพธ์ที่เรนเดอร์. ตามค่าเริ่มต้น คุณสมบัตินี้ถูกตั้งค่าเป็น `false`. |
 | [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | คืนค่า หรือกำหนดตัวเลือกการฝังรูปภาพ. อ่าน/เขียน Boolean. |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | กำหนดว่าทรัพยากรภายนอกจะถูกจัดเก็บที่ใด. อ่าน/เขียน String. |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ อ่าน/เขียน [`PicturesCompression`](./picturescompression). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | กำหนดตำแหน่งที่ควรจัดเก็บทรัพยากรภายนอก. อ่าน/เขียน String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | แสดงระดับการบีบอัดรูปภาพ. อ่าน/เขียน [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะวางบนหน้าขณะส่งออกการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### ตัวอย่าง
 
-Example:
+ตัวอย่าง:
 
 ```csharp
 [C#]
@@ -45,7 +45,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 
 ### ดูเพิ่มเติม
 
-* ส่วนติดต่อ [ISaveOptions](../isaveoptions)
+* อินเทอร์เฟซ [ISaveOptions](../isaveoptions)
 * เนมสเปซ [Aspose.Slides.Export](../../aspose.slides.export)
 * แอสเซมบลี [Aspose.Slides](../../)
 

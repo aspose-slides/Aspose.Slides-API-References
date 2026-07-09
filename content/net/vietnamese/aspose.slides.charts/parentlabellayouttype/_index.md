@@ -1,26 +1,26 @@
 ---
 title: ParentLabelLayoutType
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho bố cục của nhãn dữ liệu danh mục. Chỉ được sử dụng với chuỗi Treemap.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Mô tả bố cục của các nhãn dữ liệu danh mục. Chỉ được sử dụng với series Treemap.
 type: docs
 weight: 2350
 url: /vi/aspose.slides.charts/parentlabellayouttype/
 ---
 ## ParentLabelLayoutType liệt kê
 
-Đại diện cho bố cục của nhãn dữ liệu danh mục. Chỉ được sử dụng với chuỗi Treemap.
+Mô tả cách bố trí của nhãn dữ liệu danh mục. Chỉ được sử dụng với Treemap series.
 
 ```csharp
 public enum ParentLabelLayoutType
 ```
 
-### Values
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Banner | `0` | Chỉ định rằng nhãn danh mục cha được hiển thị dưới dạng banner |
-| None | `1` | Chỉ định rằng nhãn danh mục cha không được vẽ |
-| Overlapping | `2` | Chỉ định rằng nhãn danh mục cha được hiển thị chồng lên nhau |
+| Banner | `0` | Xác định rằng nhãn danh mục cha được hiển thị dưới dạng banner |
+| None | `1` | Xác định rằng nhãn danh mục cha không được vẽ |
+| Overlapping | `2` | Xác định rằng nhãn danh mục cha được hiển thị chồng lên nhau |
 
 ### Xem thêm
 

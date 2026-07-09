@@ -1,12 +1,12 @@
 ---
 title: IAlphaReplace
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes .NET için API Referansı
 description: Temel IImageTransformOperation arayüzünü temsil eder.
 type: docs
-weight: 3120
+weight: 3140
 url: /tr/aspose.slides.effects/ialphareplace/
 ---
-## IAlphaReplace arayüzü
+## IAlphaReplace arayüz
 
 Temel IImageTransformOperation arayüzünü temsil eder.
 
@@ -19,10 +19,10 @@ public interface IAlphaReplace : IAccessiblePVIObject<IAlphaReplaceEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzünü almayı sağlar. Salt okuma [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
-| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzünü almayı sağlar. Salt okuma [`IImageTransformOperation`](../iimagetransformoperation). |
+| [AsIAccessiblePVIObject](../../aspose.slides.effects/ialphareplace/asiaccessiblepviobject) { get; } | Temel IAccessiblePVIObject arayüzüne erişim sağlar. Salt okunur [`IAccessiblePVIObject`](../../aspose.slides/iaccessiblepviobject-1). |
+| [AsIImageTransformOperation](../../aspose.slides.effects/ialphareplace/asiimagetransformoperation) { get; } | Temel IImageTransformOperation arayüzüne erişim sağlar. Salt okunur [`IImageTransformOperation`](../iimagetransformoperation). |
 
-### Ayrıca
+### Ayrıca Bakınız
 
 * arayüz [IAccessiblePVIObject&lt;T&gt;](../../aspose.slides/iaccessiblepviobject-1)
 * arayüz [IAlphaReplaceEffectiveData](../ialphareplaceeffectivedata)

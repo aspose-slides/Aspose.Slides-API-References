@@ -3,7 +3,7 @@ title: IGradientStopCollection
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar en samling gradientstopp.
 type: docs
-weight: 6010
+weight: 6030
 url: /sv/aspose.slides/igradientstopcollection/
 ---
 ## IGradientStopCollection gränssnitt
@@ -18,7 +18,7 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Returnerar gradientstoppet vid index. |
+| [Item](../../aspose.slides/igradientstopcollection/item) { get; } | Returnerar gradientstoppet med angivet index. |
 
 ## Metoder
 

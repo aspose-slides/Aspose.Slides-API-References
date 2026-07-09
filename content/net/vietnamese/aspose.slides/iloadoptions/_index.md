@@ -1,14 +1,14 @@
 ---
 title: ILoadOptions
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Cho phép chỉ định các tùy chọn bổ sung như định dạng hoặc phông chữ mặc định khi tải một bản trình chiếu.
+description: Cho phép chỉ định các tùy chọn bổ sung như định dạng hoặc phông chữ mặc định khi tải bản trình chiếu.
 type: docs
 weight: 6340
 url: /vi/aspose.slides/iloadoptions/
 ---
 ## ILoadOptions giao diện
 
-Cho phép chỉ định các tùy chọn bổ sung (như định dạng hoặc phông chữ mặc định) khi tải một bản trình chiếu.
+Cho phép chỉ định các tùy chọn bổ sung (như định dạng hoặc phông chữ mặc định) khi tải bản trình chiếu.
 
 ```csharp
 public interface ILoadOptions
@@ -18,24 +18,24 @@ public interface ILoadOptions
 
 | Tên | Mô tả |
 | --- | --- |
-| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Đại diện cho các tùy chọn có thể được sử dụng để quản lý hành vi xử lý Binary Large Objects (BLOBs), chẳng hạn như sử dụng tệp tạm thời hoặc số byte BLOB tối đa trong bộ nhớ. Các tùy chọn này nhằm thiết lập tỷ lệ hiệu năng/tiêu thụ bộ nhớ tốt nhất cho môi trường hoặc yêu cầu cụ thể. Binary Large Object (BLOB) là dữ liệu nhị phân được lưu trữ dưới dạng một thực thể duy nhất - tức là BLOB có thể là âm thanh, video hoặc bản trình chiếu. |
-| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Trả về hoặc đặt phông chữ Asian được sử dụng khi không tìm thấy phông chữ nguồn. String Đọc/ghi. |
-| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông chữ Regular được sử dụng khi không tìm thấy phông chữ nguồn. String Đọc/ghi. |
-| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Trả về hoặc đặt phông chữ Symbol được sử dụng khi không tìm thấy phông chữ nguồn. String Đọc/ghi. |
-| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Trả về hoặc đặt ngôn ngữ mặc định cho văn bản bản trình chiếu. String Đọc/ghi. |
-| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Xác định xem Aspose.Slides có sẽ xóa tất cả các đối tượng nhị phân được nhúng trong khi tải bản trình chiếu hay không. |
-| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Chỉ định các nguồn cho phông chữ bên ngoài sẽ được sử dụng bởi bản trình chiếu. Các phông chữ này sẽ có sẵn cho bản trình chiếu trong suốt thời gian tồn tại và không được chia sẻ với các bản trình chiếu khác. |
-| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token để giám sát các yêu cầu ngắt. Token này quản lý toàn bộ vòng đời của thể hiện [`IPresentation`](../ipresentation). Bất kỳ hoạt động nào kéo dài, chẳng hạn tải hoặc lưu bản trình chiếu, sẽ bị ngắt bằng cách gọi phương thức [`Interrupt`](../iinterruptiontokensource/interrupt) của [`IInterruptionTokenSource`](../iinterruptiontokensource). |
-| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Trả về hoặc đặt định dạng của bản trình chiếu cần tải. Đọc/ghi [`LoadFormat`](../loadformat). |
-| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Thuộc tính này có ý nghĩa nếu tệp bản trình chiếu được bảo vệ bằng mật khẩu. Giá trị true có nghĩa là chỉ các thuộc tính tài liệu được tải từ tệp bản trình chiếu được mã hoá và mật khẩu sẽ bị bỏ qua. Giá trị false có nghĩa là toàn bộ bản trình chiếu được mã hoá phải được tải bằng mật khẩu đúng. Nếu bản trình chiếu không được mã hoá thì luôn bỏ qua giá trị thuộc tính. Nếu các thuộc tính tài liệu của tệp được mã hoá không công khai và giá trị thuộc tính là true thì các thuộc tính tài liệu không thể được tải và ngoại lệ sẽ được ném. Boolean Đọc/ghi. |
-| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Lấy hoặc đặt mật khẩu. String Đọc/ghi. |
-| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Trả về hoặc đặt giao diện callback quản lý việc tải tài nguyên bên ngoài. Đọc/ghi [`IResourceLoadingCallback`](../iresourceloadingcallback). |
+| [BlobManagementOptions](../../aspose.slides/iloadoptions/blobmanagementoptions) { get; set; } | Đại diện cho các tùy chọn có thể được sử dụng để quản lý hành vi xử lý Binary Large Objects (BLOBs), chẳng hạn như việc sử dụng tệp tạm thời hoặc số byte tối đa của BLOBs trong bộ nhớ. Các tùy chọn này nhằm thiết lập tỷ lệ hiệu năng/tiêu thụ bộ nhớ tốt nhất cho môi trường hoặc yêu cầu cụ thể. Binary Large Object (BLOB) là dữ liệu nhị phân được lưu trữ dưới dạng một thực thể duy nhất - tức là BLOB có thể là âm thanh, video hoặc bản trình bày. |
+| [DefaultAsianFont](../../aspose.slides/iloadoptions/defaultasianfont) { get; set; } | Trả về hoặc đặt phông Asian được sử dụng khi không tìm thấy phông nguồn. Đọc-ghi String. |
+| [DefaultRegularFont](../../aspose.slides/iloadoptions/defaultregularfont) { get; set; } | Trả về hoặc đặt phông Regular được sử dụng khi không tìm thấy phông nguồn. Đọc-ghi String. |
+| [DefaultSymbolFont](../../aspose.slides/iloadoptions/defaultsymbolfont) { get; set; } | Trả về hoặc đặt phông Symbol được sử dụng khi không tìm thấy phông nguồn. Đọc-ghi String. |
+| [DefaultTextLanguage](../../aspose.slides/iloadoptions/defaulttextlanguage) { get; set; } | Trả về hoặc đặt ngôn ngữ mặc định cho văn bản bản trình bày. Đọc-ghi String. |
+| [DeleteEmbeddedBinaryObjects](../../aspose.slides/iloadoptions/deleteembeddedbinaryobjects) { get; set; } | Xác định xem Aspose.Slides có xoá tất cả các đối tượng nhị phân nhúng khi tải bản trình bày hay không. |
+| [DocumentLevelFontSources](../../aspose.slides/iloadoptions/documentlevelfontsources) { get; set; } | Xác định nguồn cho các phông chữ bên ngoài sẽ được sử dụng bởi bản trình bày. Các phông chữ này có sẵn cho bản trình bày suốt thời gian tồn tại và không được chia sẻ với các bản trình bày khác |
+| [InterruptionToken](../../aspose.slides/iloadoptions/interruptiontoken) { get; set; } | Token để giám sát các yêu cầu ngắt. Token này quản lý toàn bộ vòng đời của đối tượng [`IPresentation`](../ipresentation). Bất kỳ hoạt động kéo dài nào, chẳng hạn như tải hoặc lưu bản trình bày, sẽ bị ngắt bằng cách gọi phương thức [`Interrupt`](../iinterruptiontokensource/interrupt) của [`IInterruptionTokenSource`](../iinterruptiontokensource). |
+| [LoadFormat](../../aspose.slides/iloadoptions/loadformat) { get; set; } | Trả về hoặc đặt định dạng của bản trình bày cần tải. Đọc-ghi [`LoadFormat`](../loadformat). |
+| [OnlyLoadDocumentProperties](../../aspose.slides/iloadoptions/onlyloaddocumentproperties) { get; set; } | Thuộc tính này có ý nghĩa khi tập tin bản trình bày được bảo vệ bằng mật khẩu. Giá trị true có nghĩa là chỉ các thuộc tính tài liệu phải được tải từ tệp bản trình bày đã mã hoá và mật khẩu sẽ bị bỏ qua. Giá trị false có nghĩa là toàn bộ bản trình bày đã mã hoá phải được tải bằng mật khẩu đúng. Nếu bản trình bày không được mã hoá thì giá trị thuộc tính luôn bị bỏ qua. Nếu các thuộc tính tài liệu của tệp đã mã hoá không công khai và giá trị thuộc tính là true thì các thuộc tính tài liệu không thể được tải và một ngoại lệ sẽ được ném. Đọc-ghi Boolean. |
+| [Password](../../aspose.slides/iloadoptions/password) { get; set; } | Lấy hoặc đặt mật khẩu. Đọc-ghi String. |
+| [ResourceLoadingCallback](../../aspose.slides/iloadoptions/resourceloadingcallback) { get; set; } | Trả về hoặc đặt giao diện callback quản lý việc tải tài nguyên bên ngoài. Đọc-ghi [`IResourceLoadingCallback`](../iresourceloadingcallback). |
 | [SpreadsheetOptions](../../aspose.slides/iloadoptions/spreadsheetoptions) { get; set; } | Đại diện cho các tùy chọn có thể được sử dụng để chỉ định hành vi bổ sung cho bảng tính. |
-| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Đối tượng nhận cảnh báo và quyết định việc quá trình tải sẽ tiếp tục hay bị hủy. Đọc/ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [WarningCallback](../../aspose.slides/iloadoptions/warningcallback) { get; set; } | Trả về hoặc đặt một đối tượng nhận cảnh báo và quyết định quá trình tải sẽ tiếp tục hay bị hủy bỏ. Đọc-ghi [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* bộ lắp ráp [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ISlide
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn một slide trong một bản trình chiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị một slide trong bản trình chiếu.
 type: docs
 weight: 7040
 url: /vi/aspose.slides/islide/
 ---
-## ISlide giao diện
+## Giao diện ISlide
 
-Biểu diễn một slide trong một bản trình chiếu.
+Biểu thị một slide trong bản trình chiếu.
 
 ```csharp
 public interface ISlide : IBaseSlide, IOverrideThemeable
@@ -21,8 +21,8 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 | [AsIBaseSlide](../../aspose.slides/islide/asibaseslide) { get; } | Cho phép lấy giao diện IBaseSlide cơ bản. Chỉ đọc [`IBaseSlide`](../ibaseslide). |
 | [AsIOverrideThemeable](../../aspose.slides/islide/asioverridethemeable) { get; } | Trả về giao diện IOverrideThemeable. Chỉ đọc [`IOverrideThemeable`](../../aspose.slides.theme/ioverridethemeable). |
 | [HeaderFooterManager](../../aspose.slides/islide/headerfootermanager) { get; } | Trả về trình quản lý HeaderFooter của slide. Chỉ đọc [`ISlideHeaderFooterManager`](../islideheaderfootermanager). |
-| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Xác định xem slide đã chỉ định có bị ẩn trong trình chiếu không. Đọc/ghi Boolean. |
-| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Trả về hoặc thiết lập slide bố cục cho slide hiện tại. Đọc/ghi [`ILayoutSlide`](../ilayoutslide). |
+| [Hidden](../../aspose.slides/islide/hidden) { get; set; } | Xác định xem slide được chỉ định có bị ẩn trong buổi trình chiếu hay không. Đọc/ghi Boolean. |
+| [LayoutSlide](../../aspose.slides/islide/layoutslide) { get; set; } | Trả về hoặc đặt layout slide cho slide hiện tại. Đọc/ghi [`ILayoutSlide`](../ilayoutslide). |
 | [NotesSlideManager](../../aspose.slides/islide/notesslidemanager) { get; } | Cho phép truy cập slide ghi chú, thêm và xóa nó. Chỉ đọc [`INotesSlideManager`](../inotesslidemanager). |
 | [SlideNumber](../../aspose.slides/islide/slidenumber) { get; set; } | Trả về số thứ tự của slide. Chỉ số của slide trong bộ sưu tập [`Slides`](../ipresentation/slides) luôn bằng SlideNumber - 1. Đọc/ghi Int32. |
 
@@ -30,25 +30,25 @@ public interface ISlide : IBaseSlide, IOverrideThemeable
 
 | Tên | Mô tả |
 | --- | --- |
-| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Trả về một đối tượng Thumbnail Image (20% kích thước thực). |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Trả về một đối tượng Thumbnail Bitmap. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Trả về một đối tượng Thumbnail tiff bitmap với các tham số được chỉ định. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Trả về một đối tượng ảnh với kích thước được chỉ định. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Trả về một đối tượng ảnh với tỷ lệ tùy chỉnh. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Trả về một đối tượng Thumbnail Bitmap với kích thước được chỉ định. |
-| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Trả về một đối tượng Thumbnail Bitmap với tỷ lệ tùy chỉnh. |
-| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Trả về tất cả các bình luận slide được thêm bởi tác giả cụ thể. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage)() | Trả về đối tượng Thumbnail Image (20 % kích thước thực). |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_1)(IRenderingOptions) | Trả về đối tượng Thumbnail Bitmap. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_4)(ITiffOptions) | Trả về đối tượng Thumbnail tiff bitmap với các tham số được chỉ định. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_6)(Size) | Trả về đối tượng hình ảnh với kích thước được chỉ định. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_5)(float, float) | Trả về đối tượng hình ảnh với tỉ lệ tùy chỉnh. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_3)(IRenderingOptions, Size) | Trả về đối tượng Thumbnail Bitmap với kích thước được chỉ định. |
+| [GetImage](../../aspose.slides/islide/getimage#getimage_2)(IRenderingOptions, float, float) | Trả về đối tượng Thumbnail Bitmap với tỉ lệ tùy chỉnh. |
+| [GetSlideComments](../../aspose.slides/islide/getslidecomments)(ICommentAuthor) | Trả về tất cả các bình luận slide do tác giả cụ thể thêm vào. |
 | [Remove](../../aspose.slides/islide/remove)() | Xóa slide khỏi bản trình chiếu. |
-| [Reset](../../aspose.slides/islide/reset)() | Đặt lại vị trí, kích thước và định dạng của mọi shape có mẫu trên LayoutSlide. |
-| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Lưu nội dung slide dưới dạng tệp EMF. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Lưu nội dung slide dưới dạng tệp SVG. |
-| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Lưu nội dung slide dưới dạng tệp SVG. |
+| [Reset](../../aspose.slides/islide/reset)() | Đặt lại vị trí, kích thước và định dạng của mọi shape có nguyên mẫu trên LayoutSlide. |
+| [WriteAsEmf](../../aspose.slides/islide/writeasemf)(Stream) | Lưu nội dung slide dưới dạng file EMF. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg)(Stream) | Lưu nội dung slide dưới dạng file SVG. |
+| [WriteAsSvg](../../aspose.slides/islide/writeassvg#writeassvg_1)(Stream, ISVGOptions) | Lưu nội dung slide dưới dạng file SVG. |
 
 ### Xem thêm
 
-* giao diện [IBaseSlide](../ibaseslide)
-* giao diện [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
-* không gian tên [Aspose.Slides](../../aspose.slides)
-* tập hợp [Aspose.Slides](../../)
+* interface [IBaseSlide](../ibaseslide)
+* interface [IOverrideThemeable](../../aspose.slides.theme/ioverridethemeable)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

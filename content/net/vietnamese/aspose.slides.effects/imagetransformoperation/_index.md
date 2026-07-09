@@ -1,14 +1,14 @@
 ---
 title: ImageTransformOperation
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho hiệu ứng biến đổi ảnh trừu tượng.
+second_title: Aspose.Sildes cho .NET API Tham khảo
+description: Đại diện cho hiệu ứng biến đổi hình ảnh trừu tượng.
 type: docs
 weight: 3570
 url: /vi/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation lớp
 
-Đại diện cho hiệu ứng biến đổi ảnh trừu tượng.
+Đại diện cho hiệu ứng biến đổi hình ảnh trừu tượng.
 
 ```csharp
 public abstract class ImageTransformOperation : PVIObject, IImageTransformOperation
@@ -18,9 +18,9 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện cơ sở IPresentationComponent. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ sở. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
-## Phương thức
+## Phương pháp
 
 | Tên | Mô tả |
 | --- | --- |

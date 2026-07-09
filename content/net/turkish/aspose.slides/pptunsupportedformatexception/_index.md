@@ -1,14 +1,14 @@
 ---
 title: PptUnsupportedFormatException
 second_title: Aspose.Sildes için .NET API Referansı
-description: Sunum dosyası biçimi desteklenmediğinde fırlatılan istisna.
+description: Sunum dosyası formatı desteklenmediğinde atılan istisna.
 type: docs
-weight: 9520
+weight: 9540
 url: /tr/aspose.slides/pptunsupportedformatexception/
 ---
-## PptUnsupportedFormatException sınıf
+## PptUnsupportedFormatException sınıfı
 
-Desteklenmeyen sunum dosyası biçimi durumunda fırlatılan istisna.
+Sunum dosyası biçimi desteklenmediğinde atılan istisna.
 
 ```csharp
 public class PptUnsupportedFormatException : PptReadException
@@ -19,8 +19,8 @@ public class PptUnsupportedFormatException : PptReadException
 | Ad | Açıklama |
 | --- | --- |
 | [PptUnsupportedFormatException](pptunsupportedformatexception#constructor)() | Varsayılan yapıcı. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Bu istisna için bir ileti eklenmesini sağlayan yapıcı. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | İleti ve gömülü bir istisna içeren bir istisna için yapıcı. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_1)(string) | Bu istisnaya bir ileti eklemeyi sağlayan yapıcı. |
+| [PptUnsupportedFormatException](pptunsupportedformatexception#constructor_2)(string, Exception) | Mesaj ve gömülü bir istisna içeren istisna için yapıcı. |
 
 ### Ayrıca Bakınız
 

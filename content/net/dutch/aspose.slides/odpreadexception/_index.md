@@ -1,14 +1,14 @@
 ---
 title: OdpReadException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een uitzondering voor die wordt gegooid bij fouten tijdens het lezen van een presentatie.
+description: Stelt een uitzondering voor die wordt gegooid bij leesfouten van een presentatie.
 type: docs
 weight: 9220
 url: /nl/aspose.slides/odpreadexception/
 ---
 ## OdpReadException klasse
 
-Stelt een uitzondering voor die wordt gegooid bij fouten tijdens het lezen van een presentatie.
+Stelt een uitzondering voor die wordt gegooid bij leesfouten van een presentatie.
 
 ```csharp
 public class OdpReadException : OdpException

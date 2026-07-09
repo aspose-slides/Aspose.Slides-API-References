@@ -8,35 +8,35 @@ url: /nl/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer klasse
 
-Stelt de speler van animaties die aan de [`Presentation`](../../aspose.slides/presentation) gekoppeld zijn, voor.
+Stelt de speler van animaties die gekoppeld zijn aan de [`Presentation`](../../aspose.slides/presentation) voor.
 
 ```csharp
 public class PresentationPlayer : IDisposable
 ```
 
-## Constructoren
+## Constructors
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Maakt een nieuw exemplaar van de [`PresentationPlayer`](../presentationplayer). |
+| [PresentationPlayer](presentationplayer)(PresentationAnimationsGenerator, double) | Maakt een nieuw exemplaar van de [`PresentationPlayer`](../presentationplayer) aan. |
 
-## Eigenschappen
+## Properties
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
 | [FrameIndex](../../aspose.slides.export/presentationplayer/frameindex) { get; } | Haalt de frame-index op. |
 
-## Methoden
+## Methods
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Verwijdert de instantie van de [`PresentationPlayer`](../presentationplayer). |
+| [Dispose](../../aspose.slides.export/presentationplayer/dispose)() | Disposeert de instantie van de [`PresentationPlayer`](../presentationplayer). |
 
-## Andere leden
+## Other Members
 
-| Naam | Beschrijving |
+| Name | Description |
 | --- | --- |
-| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Stelt de frame-tick handler van de [`FrameTick`](./frametick)-gebeurtenis voor. |
+| delegate [FrameTickHandler](presentationplayer.frametickhandler) | Stelt de frame-tick-handler van het [`FrameTick`](./frametick)-evenement voor. |
 
 ### Voorbeelden
 

@@ -1,14 +1,14 @@
 ---
 title: CommandEffect
-second_title: Aspose.Sildes .NET API referencia
-description: Parancshatást képvisel egy animációs viselkedéshez.
+second_title: Aspose.Sildes .NET API Referenciája
+description: Animációs viselkedéshez tartozó parancs hatást reprezentál.
 type: docs
-weight: 240
+weight: 260
 url: /hu/aspose.slides.animation/commandeffect/
 ---
 ## CommandEffect osztály
 
-Parancshatást képvisel egy animációs viselkedéshez.
+Animációs viselkedéshez tartozó parancs hatást reprezentál.
 
 ```csharp
 public class CommandEffect : Behavior, ICommandEffect
@@ -24,13 +24,13 @@ public class CommandEffect : Behavior, ICommandEffect
 
 | Név | Leírás |
 | --- | --- |
-| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Azt jelzi, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Azt jelzi, hogy a jelenlegi animációs viselkedés más futó animációkkal kombinálva van-e. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Jelöli, hogy az animációs viselkedések felhalmozódnak-e. Olvasás/írás [`NullableBool`](../../aspose.slides/nullablebool). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Jelöli, hogy az aktuális animációs viselkedés össze van-e kombinálva más futó animációkkal. Olvasás/írás [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [CommandString](../../aspose.slides.animation/commandeffect/commandstring) { get; set; } | Meghatározza a parancs karakterláncot. Olvasás/írás String. |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | A viselkedés tulajdonságait jelzi. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Meghatározza a parancshatás alakzatcélját. Olvasás/írás [`IShape`](../../aspose.slides/ishape). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | A hatás viselkedés időzítési tulajdonságait jelzi. Olvasás/írás [`ITiming`](../itiming). |
-| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Meghatározza a viselkedés parancshatás típusát. Olvasás/írás [`CommandEffectType`](../commandeffecttype). |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Jelöli a viselkedés tulajdonságait. Csak olvasható [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [ShapeTarget](../../aspose.slides.animation/commandeffect/shapetarget) { get; set; } | Meghatározza a parancs hatás alakzatcélját. Olvasás/írás [`IShape`](../../aspose.slides/ishape). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Jelöli a hatás viselkedés időzítési tulajdonságait. Olvasás/írás [`ITiming`](../itiming). |
+| [Type](../../aspose.slides.animation/commandeffect/type) { get; set; } | Meghatározza a parancs hatás típusát a viselkedéshez. Olvasás/írás [`CommandEffectType`](../commandeffecttype). |
 
 ### Lásd még
 

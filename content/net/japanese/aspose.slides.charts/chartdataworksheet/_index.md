@@ -1,14 +1,14 @@
 ---
 title: ChartDataWorksheet
-second_title: Aspose.Sildes for .NET API リファレンス
-description: IChartDataCell./ichartdatacell に関連付けられたワークシートを表します
+second_title: Aspose.Sildes の .NET API リファレンス
+description: IChartDataCell と関連付けられたワークシートを表します./ichartdatacell
 type: docs
-weight: 1370
+weight: 1390
 url: /ja/aspose.slides.charts/chartdataworksheet/
 ---
 ## ChartDataWorksheet クラス
 
-関連付けられたワークシートを表します [`IChartDataCell`](../ichartdatacell)
+[`IChartDataCell`](../ichartdatacell)に関連付けられたワークシートを表します
 
 ```csharp
 public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChartDataWorksheet
@@ -16,7 +16,7 @@ public class ChartDataWorksheet : DomObject<ChartDataWorksheetCollection>, IChar
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [Index](../../aspose.slides.charts/chartdataworksheet/index) { get; } | ワークシートのインデックスを取得します。読み取り専用 Int32。 |
 | [Name](../../aspose.slides.charts/chartdataworksheet/name) { get; } | ワークシートの名前を返します。読み取り専用 String。 |

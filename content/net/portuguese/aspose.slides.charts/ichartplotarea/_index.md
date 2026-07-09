@@ -1,9 +1,9 @@
 ---
 title: IChartPlotArea
-second_title: Aspose.Sildes para Referência de API .NET
+second_title: Aspose.Sildes para .NET Referência da API
 description: Representa as propriedades do título do gráfico.
 type: docs
-weight: 1890
+weight: 1910
 url: /pt/aspose.slides.charts/ichartplotarea/
 ---
 ## IChartPlotArea interface
@@ -21,7 +21,7 @@ public interface IChartPlotArea : IActualLayout, ILayoutable
 | [AsIActualLayout](../../aspose.slides.charts/ichartplotarea/asiactuallayout) { get; } | Retorna a interface IActualLayout. |
 | [AsILayoutable](../../aspose.slides.charts/ichartplotarea/asilayoutable) { get; } | Permite obter a interface base ILayoutable. Somente leitura [`ILayoutable`](../ilayoutable). |
 | [Format](../../aspose.slides.charts/ichartplotarea/format) { get; } | Retorna o formato de uma área de plotagem. Somente leitura [`IFormat`](../iformat). |
-| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Se o layout da área de plotagem for definido manualmente, esta propriedade especifica se o layout da área de plotagem será interno (não incluindo eixos e rótulos dos eixos) ou externo (incluindo eixos e rótulos dos eixos). Leitura/escrita [`LayoutTargetType`](./layouttargettype). |
+| [LayoutTargetType](../../aspose.slides.charts/ichartplotarea/layouttargettype) { get; set; } | Se o layout da área de plotagem for definido manualmente, esta propriedade especifica se o layout da área de plotagem deve ser feito por dentro (excluindo eixos e rótulos dos eixos) ou por fora (incluindo eixos e rótulos dos eixos). Leitura/gravação [`LayoutTargetType`](./layouttargettype). |
 
 ### Ver também
 

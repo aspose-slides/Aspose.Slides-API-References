@@ -1,6 +1,6 @@
 ---
 title: IGradientStopEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: एक अपरिवर्तनीय ऑब्जेक्ट जो एक ग्रेडिएंट स्टॉप का प्रतिनिधित्व करता है।
 type: docs
 weight: 6050
@@ -18,10 +18,10 @@ public interface IGradientStopEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | एक ग्रेडिएंट स्टॉप का रंग लौटाता है। केवल-पढ़ने योग्य Color. |
-| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | एक ग्रेडिएंट स्टॉप की स्थिति (0..1) लौटाता है। केवल-पढ़ने योग्य Single. |
+| [Color](../../aspose.slides/igradientstopeffectivedata/color) { get; } | एक ग्रेडिएंट स्टॉप का रंग लौटाता है। केवल-पढ़ने योग्य Color। |
+| [Position](../../aspose.slides/igradientstopeffectivedata/position) { get; } | एक ग्रेडिएंट स्टॉप की स्थिति (0..1) लौटाता है। केवल-पढ़ने योग्य Single। |
 
-### देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

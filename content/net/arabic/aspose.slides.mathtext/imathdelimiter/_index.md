@@ -1,14 +1,14 @@
 ---
 title: IMathDelimiter
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يحدد كائن الفاصل المكوّن من أحرف الفتح والإغلاق مثل الأقواس المستديرة والأقواس المعقوفة والأقواس المربعة والشرطة العمودية، وواحد أو أكثر من العناصر الرياضية داخله مفصولة بحرف محدد. أمثلة 2 2x7C2
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يحدد كائن الفاصل المكوّن من الأحرف الافتتاحية والإغلاقية مثل الأقواس والأقواس المعقوفة والأقواس المربعة والشرطة العمودية، وعنصر رياضي واحد أو أكثر داخلها مفصولين بحرف محدد. مثال 2 2x7C2
 type: docs
 weight: 8210
 url: /ar/aspose.slides.mathtext/imathdelimiter/
 ---
 ## IMathDelimiter واجهة
 
-يحدد كائن الفاصل، المكوّن من أحرف الفتح والإغلاق (مثل الأقواس المستديرة، الأقواس المعقوفة، الأقواس المربعة، والشرطة العمودية)، وواحد أو أكثر من العناصر الرياضية داخله، مفصولة بحرف محدد. أمثلة: (𝑥2); [𝑥2&#x7C;𝑦2]
+يحدد كائن الفاصل، المتكوّن من أحرف الفتح والإغلاق (مثل الأقواس، الأقواس المعقوفة، الأقواس المربعة، والشرطة العمودية)، وعنصر رياضي واحد أو أكثر داخلها، مفصولين بحرف محدد. أمثلة: (𝑥2); [𝑥2&#x7C;𝑦2]
 
 ```csharp
 public interface IMathDelimiter : IMathElement
@@ -18,19 +18,19 @@ public interface IMathDelimiter : IMathElement
 
 | الاسم | الوصف |
 | --- | --- |
-| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | واحد أو أكثر من العناصر الرياضية مفصولة بأحرف الفاصل |
-| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | يسمح بالحصول على واجهة IMathElement الأساسية [`IMathElement`](../imathelement) |
-| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | يحدد حرف بداية الفاصل حرف الفاصل الافتتاحي أو البادئ. الفواصل الرياضية هي أحرف تغليف مثل الأقواس المستديرة، الأقواس المربعة، والأقواس المعقوفة. القيمة الافتراضية: '('. |
-| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | يحدد شكل الفواصل في كائن الفاصل. عندما يكون MathDelimiterShape.Centered، تكون الفواصل مركزة حول محور الرياضيات للنص الرياضي وتُصمم لتناسب كامل ارتفاع محتوياتها. عندما يكون MathDelimiterShape.Match، يتم تعديل ارتفاعها وشكلها لتطابق محتوياتها تمامًا. |
-| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | يحدد حرف نهاية الفاصل حرف الفاصل الختامي أو الغلق. الفواصل الرياضية هي أحرف تغليف مثل الأقواس المستديرة، الأقواس المربعة، والأقواس المعقوفة. القيمة الافتراضية: ')'. |
-| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | يحدد نمو BeginningCharacter و SeparatorCharacter و EndingCharacter. عندما تكون true، تنمو الفواصل عمودياً لتطابق ارتفاع المعامل. القيمة الافتراضية هي true |
-| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | يحدد حرف فاصل الفاصل الحرف الذي يفصل بين الوسائط في كائن الفاصل. القيمة الافتراضية: '&#x7C;'. |
+| [Arguments](../../aspose.slides.mathtext/imathdelimiter/arguments) { get; } | عنصر رياضي واحد أو أكثر مفصولًا بأحرف الفاصل |
+| [AsIMathElement](../../aspose.slides.mathtext/imathdelimiter/asimathelement) { get; } | يسمح بالحصول على الواجهة الأساسية IMathElement [`IMathElement`](../imathelement) |
+| [BeginningCharacter](../../aspose.slides.mathtext/imathdelimiter/beginningcharacter) { get; set; } | يحدد حرف بداية الفاصل، وهو حرف الفتح للفاصل. الفواصل الرياضية هي أحرف مغلقة مثل الأقواس، الأقواس المربعة، والأقواس المعقوفة. القيمة الافتراضية: '(' |
+| [DelimiterShape](../../aspose.slides.mathtext/imathdelimiter/delimitershape) { get; set; } | يحدد شكل الفواصل في كائن الفاصل. عندما تكون MathDelimiterShape.Centered، يتم تمركز الفواصل حول محور الرياضيات للنص الرياضي وتظل تتناسب مع الارتفاع الكامل لمحتوياتها. عندما تكون MathDelimiterShape.Match، يتم تعديل ارتفاعها وشكلها لتطابق محتوياتها بالضبط |
+| [EndingCharacter](../../aspose.slides.mathtext/imathdelimiter/endingcharacter) { get; set; } | يحدد حرف نهاية الفاصل، وهو حرف الإغلاق للفاصل. الفواصل الرياضية هي أحرف مغلقة مثل الأقواس، الأقواس المربعة، والأقواس المعقوفة. القيمة الافتراضية: ')' |
+| [GrowToMatchOperandHeight](../../aspose.slides.mathtext/imathdelimiter/growtomatchoperandheight) { get; set; } | يحدد نمو أحرف BeginningCharacter و SeparatorCharacter و EndingCharacter. عندما تكون true، ينمو الفاصل عموديًا لمطابقة ارتفاع العامل. القيمة الافتراضية هي true |
+| [SeparatorCharacter](../../aspose.slides.mathtext/imathdelimiter/separatorcharacter) { get; set; } | يحدد حرف الفاصل الذي يفصل الحجج في كائن الفاصل. القيمة الافتراضية: '&#x7C;' |
 
-## الطرق
+## الأساليب
 
 | الاسم | الوصف |
 | --- | --- |
-| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | يفصل الوسائط باستخدام حرف الفاصل المحدد |
+| [Delimit](../../aspose.slides.mathtext/imathdelimiter/delimit)(char) | يفصل الحجج باستخدام حرف الفاصل المحدد |
 
 ### أمثلة
 
@@ -45,7 +45,7 @@ IMathDelimiter delimiter = element.Enclose();
 ### انظر أيضًا
 
 * واجهة [IMathElement](../imathelement)
-* نطاق [Aspose.Slides.MathText](../../aspose.slides.mathtext)
+* مساحة الاسم [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

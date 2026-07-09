@@ -1,14 +1,14 @@
 ---
 title: FillFormat
 second_title: Aspose.Sildes の .NET API リファレンス
-description: 塗りつぶしの書式設定オプションを表します。
+description: 塗りつぶし書式オプションを表します。
 type: docs
-weight: 4760
+weight: 4780
 url: /ja/aspose.slides/fillformat/
 ---
 ## FillFormat クラス
 
-Represents a fill formatting options.
+塗りつぶし書式オプションを表します。
 
 ```csharp
 public sealed class FillFormat : PVIObject, IFillFormat
@@ -16,22 +16,22 @@ public sealed class FillFormat : PVIObject, IFillFormat
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | ベースの IPresentationComponent インターフェイスを取得できます。 読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
-| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | 塗りつぶしのタイプを取得または設定します。 読み書き [`FillType`](../filltype)。 |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | グラデーション塗りつぶし形式を返します。 読み取り専用 [`IGradientFormat`](../igradientformat)。 |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | パターン塗りつぶし形式を返します。 読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 画像塗りつぶし形式を返します。 読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 塗りつぶしがシェイプとともに回転するかどうかを決定します。 読み書き [`NullableBool`](../nullablebool)。 |
-| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | 塗りつぶしの色を返します。 読み取り専用 [`IColorFormat`](../icolorformat)。 |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | base IPresentationComponent インターフェイスを取得できます。読み取り専用 [`IPresentationComponent`](../ipresentationcomponent)。 |
+| [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | 塗りつぶしのタイプを取得または設定します。読み書き可能 [`FillType`](../filltype)。 |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | グラデーション塗りつぶし形式を返します。読み取り専用 [`IGradientFormat`](../igradientformat)。 |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | パターン塗りつぶし形式を返します。読み取り専用 [`IPatternFormat`](../ipatternformat)。 |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 画像塗りつぶし形式を返します。読み取り専用 [`IPictureFillFormat`](../ipicturefillformat)。 |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 形状とともに塗りつぶしを回転させるかどうかを決定します。読み書き可能 [`NullableBool`](../nullablebool)。 |
+| [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | 塗りつぶしの色を返します。読み取り専用 [`IColorFormat`](../icolorformat)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | 指定されたオブジェクトと比較します。 |
-| [GetEffective](../../aspose.slides/fillformat/geteffective)() | 継承が適用された効果的な塗りつぶしフォーマットデータを取得します。 |
+| [GetEffective](../../aspose.slides/fillformat/geteffective)() | 継承が適用された有効な塗りつぶし書式データを取得します。 |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | ハッシュコードを返します。 |
 
 ### 参照

@@ -1,14 +1,14 @@
 ---
 title: IChartTextBlockFormat
-second_title: Αναφορά API Aspose.Sildes για .NET
-description: Αντιπροσωπεύει τις ιδιότητες μορφοποίησης για τα στοιχεία κειμένου διαγραμμάτων.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Αντιπροσωπεύει τις ιδιότητες μορφοποίησης για στοιχεία κειμένου διαγράμματος.
 type: docs
-weight: 1960
+weight: 1980
 url: /el/aspose.slides.charts/icharttextblockformat/
 ---
-## IChartTextBlockFormat διεπαφή
+## IChartTextBlockFormat διασύνδεση
 
-Αντιπροσωπεύει τις ιδιότητες μορφοποίησης για στοιχεία κειμένου διαγραμμάτων.
+Αντιπροσωπεύει τις ιδιότητες μορφοποίησης για στοιχεία κειμένου γραφήματος.
 
 ```csharp
 public interface IChartTextBlockFormat
@@ -19,19 +19,19 @@ public interface IChartTextBlockFormat
 | Όνομα | Περιγραφή |
 | --- | --- |
 | [AnchoringType](../../aspose.slides.charts/icharttextblockformat/anchoringtype) { get; set; } | Επιστρέφει ή ορίζει το κάθετο άγκυρο κειμένου σε ένα TextFrame. Ανάγνωση/εγγραφή [`TextAnchorType`](../../aspose.slides/textanchortype). |
-| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αυτόματης προσαρμογής του κειμένου. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει καμία επίδραση στην απόδοση). Ανάγνωση/εγγραφή [`TextAutofitType`](../../aspose.slides/textautofittype). |
-| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Εάν NullableBool.True, το κείμενο πρέπει να κεντραστεί οριζόντια στο κουτί. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
-| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Επιστρέφει ή ορίζει το κάτω περιθώριο (σε σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει καμία επίδραση στην απόδοση). Ανάγνωση/εγγραφή Double. |
-| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Επιστρέφει ή ορίζει το αριστερό περιθώριο (σε σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει καμία επίδραση στην απόδοση). Ανάγνωση/εγγραφή Double. |
-| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξί περιθώριο (σε σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει καμία επίδραση στην απόδοση). Ανάγνωση/εγγραφή Double. |
-| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Επιστρέφει ή ορίζει το πάνω περιθώριο (σε σημεία) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει καμία επίδραση στην απόδοση). Ανάγνωση/εγγραφή Double. |
-| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Καθορίζει την προσαρμοσμένη περιστροφή που εφαρμόζεται στο κείμενο εντός του πλαίσιου οριοθέτησης. Εάν δεν καθοριστεί, χρησιμοποιείται η περιστροφή του συνοδευτικού σχήματος. Εάν καθοριστεί, τότε αυτή εφαρμόζεται ανεξάρτητα από το σχήμα. Δηλαδή, το σχήμα μπορεί να έχει μια περιστροφή επιπλέον της περιστροφής που εφαρμόζεται στο ίδιο το κείμενο. Η προκύπτουσα τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτή την ιδιότητα και τον προκαθορισμένο κατακόρυφο τύπο στην ιδιότητα TextVerticalType. Ανάγνωση/εγγραφή Single. |
-| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Καθορίζει τον προσανατολισμό του κειμένου. Η προκύπτουσα τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτή την ιδιότητα και την προσαρμοσμένη γωνία στην ιδιότητα RotationAngle. Ανάγνωση/εγγραφή [`TextVerticalType`](../../aspose.slides/textverticaltype). |
-| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** εάν το κείμενο αναδιπλώνεται στα περιθώρια του TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει ορισμένη επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρη υποστήριξη στο PowerPoint 2007/2013). Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [AutofitType](../../aspose.slides.charts/icharttextblockformat/autofittype) { get; set; } | Επιστρέφει ή ορίζει τη λειτουργία αυτόματης προσαρμογής του κειμένου. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αποτέλεσμα κατά την απόδοση). Ανάγνωση/εγγραφή [`TextAutofitType`](../../aspose.slides/textautofittype). |
+| [CenterText](../../aspose.slides.charts/icharttextblockformat/centertext) { get; set; } | Εάν NullableBool.True τότε το κείμενο πρέπει να κεντράρχεται οριζόντια στο κουτί. Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
+| [MarginBottom](../../aspose.slides.charts/icharttextblockformat/marginbottom) { get; set; } | Επιστρέφει ή ορίζει το κάτω περιθώριο (points) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αποτέλεσμα κατά την απόδοση). Ανάγνωση/εγγραφή Double. |
+| [MarginLeft](../../aspose.slides.charts/icharttextblockformat/marginleft) { get; set; } | Επιστρέφει ή ορίζει το αριστερό περιθώριο (points) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αποτέλεσμα κατά την απόδοση). Ανάγνωση/εγγραφή Double. |
+| [MarginRight](../../aspose.slides.charts/icharttextblockformat/marginright) { get; set; } | Επιστρέφει ή ορίζει το δεξιό περιθώριο (points) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αποτέλεσμα κατά την απόδοση). Ανάγνωση/εγγραφή Double. |
+| [MarginTop](../../aspose.slides.charts/icharttextblockformat/margintop) { get; set; } | Επιστρέφει ή ορίζει το επάνω περιθώριο (points) σε ένα TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2013· στο PowerPoint 2007 δεν υπάρχει αποτέλεσμα κατά την απόδοση). Ανάγνωση/εγγραφή Double. |
+| [RotationAngle](../../aspose.slides.charts/icharttextblockformat/rotationangle) { get; set; } | Καθορίζει την προσαρμοσμένη περιστροφή που εφαρμόζεται στο κείμενο εντός του πλαισίου οριοθέτησης. Εάν δεν καθοριστεί, χρησιμοποιείται η περιστροφή του συνοδευτικού σχήματος. Εάν καθοριστεί, αυτή εφαρμόζεται ανεξάρτητα από το σχήμα. Δηλαδή το σχήμα μπορεί να έχει περιστροφή επιπλέον της περιστροφής του ίδιου του κειμένου. Η τελική τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και τον προκαθορισμένο κάθετο τύπο στην ιδιότητα TextVerticalType. Ανάγνωση/εγγραφή Single. |
+| [TextVerticalType](../../aspose.slides.charts/icharttextblockformat/textverticaltype) { get; set; } | Καθορίζει τον προσανατολισμό του κειμένου. Η τελική τιμή της οπτικής περιστροφής του κειμένου συνοψίζεται από αυτήν την ιδιότητα και το προσαρμοσμένο γωνιακό στοιχείο στην ιδιότητα RotationAngle. Ανάγνωση/εγγραφή [`TextVerticalType`](../../aspose.slides/textverticaltype). |
+| [WrapText](../../aspose.slides.charts/icharttextblockformat/wraptext) { get; set; } | **True** εάν το κείμενο αναδιπλώνεται στα περιθώρια του TextFrame. Η αλλαγή αυτής της ιδιότητας μπορεί να έχει κάποια επίδραση μόνο για τα εξής μέρη του διαγράμματος: DataLabel και DataLabelFormat (πλήρης υποστήριξη στο PowerPoint 2007/2013). Ανάγνωση/εγγραφή [`NullableBool`](../../aspose.slides/nullablebool). |
 
 ### Δείτε επίσης
 
-* χώρο ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότημα [Aspose.Slides](../../)
+* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

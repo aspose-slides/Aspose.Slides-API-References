@@ -1,14 +1,14 @@
 ---
 title: Tab
-second_title: Aspose.Sildes a .NET-hez API referenciája
-description: Egy szöveghez tartozó tabulációt reprezentál.
+second_title: Aspose.Sildes .NET API referencia
+description: Egy szöveg tabulációját ábrázolja.
 type: docs
-weight: 10800
+weight: 10820
 url: /hu/aspose.slides/tab/
 ---
 ## Tab osztály
 
-A szöveghez tartozó tabulációt reprezentálja.
+Egy szöveghez tartozó tabulációt ábrázol.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -24,9 +24,9 @@ public sealed class Tab : PVIObject, ITab
 
 | Név | Leírás |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Visszaadja vagy beállítja egy tabuláció igazítási stílusát. Olvasás/írás [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a bázis IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Visszaadja vagy beállítja egy tabuláció pozícióját. A tulajdonság értékének beállítása megváltoztathatja a tabuláció indexét a gyűjteményben, és érvénytelenítheti az enumerátort. Olvasás/írás Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Visszaadja vagy beállítja egy tab igazítási stílusát. Olvasás/írás [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Visszaadja vagy beállítja egy tab pozícióját. Ennek a tulajdonságnak a beállítása megváltoztathatja a tab indexét a gyűjteményben, és érvénytelenítheti az enumerátort. Olvasás/írás Double. |
 
 ## Metódusok
 
@@ -34,9 +34,9 @@ public sealed class Tab : PVIObject, ITab
 | --- | --- |
 | [CompareTo](../../aspose.slides/tab/compareto)(object) | Összehasonlítja a jelenlegi példányt egy azonos típusú másik objektummal. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash-kódot. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
-### További információk
+### Lásd még
 
 * osztály [PVIObject](../pviobject)
 * interfész [ITab](../itab)

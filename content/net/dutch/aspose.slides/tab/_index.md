@@ -8,7 +8,7 @@ url: /nl/aspose.slides/tab/
 ---
 ## Tab klasse
 
-Stelt een tabulatie voor een tekst voor.
+Stelt een tabulatie voor een tekst weer.
 
 ```csharp
 public sealed class Tab : PVIObject, ITab
@@ -18,23 +18,23 @@ public sealed class Tab : PVIObject, ITab
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Tab](tab)(double, TabAlignment) | Maakt een nieuwe Tab |
+| [Tab](tab)(double, TabAlignment) | Maakt een nieuwe Tab aan |
 
-## Properties
+## Eigenschappen
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Geeft de uitlijningsstijl van een tab terug of stelt deze in. Lezen/Schrijven [`TabAlignment`](../tabalignment). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe de basis-IPresentationComponent-interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
-| [Position](../../aspose.slides/tab/position) { get; set; } | Geeft de positie van een tab terug of stelt deze in. Het toewijzen van deze eigenschap kan de index van de tab in de collectie wijzigen en de Enumerator ongeldig maken. Lezen/Schrijven Double. |
+| [Alignment](../../aspose.slides/tab/alignment) { get; set; } | Geeft de uitlijningsstijl van een tab terug of stelt deze in. Lezen/schrijven [`TabAlignment`](../tabalignment). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Staat toe om de basis- IPresentationComponent interface op te halen. Alleen-lezen [`IPresentationComponent`](../ipresentationcomponent). |
+| [Position](../../aspose.slides/tab/position) { get; set; } | Geeft de positie van een tab terug of stelt deze in. Het toewijzen van deze eigenschap kan de index van de tab in de collectie wijzigen en de Enumerator ongeldig maken. Lezen/schrijven Double. |
 
-## Methods
+## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | [CompareTo](../../aspose.slides/tab/compareto)(object) | Vergelijkt de huidige instantie met een ander object van hetzelfde type. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Vergelijkt met het opgegeven object. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft de hashcode terug. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Geeft een hashcode terug. |
 
 ### Zie ook
 

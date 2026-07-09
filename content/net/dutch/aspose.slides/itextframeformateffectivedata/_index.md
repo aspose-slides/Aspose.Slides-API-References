@@ -1,14 +1,14 @@
 ---
 title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat effectieve opmaak-eigenschappen van een tekstframe bevat.
+description: Onveranderlijk object dat effectieve opmaak-eigenschappen van tekstframes bevat.
 type: docs
 weight: 7290
 url: /nl/aspose.slides/itextframeformateffectivedata/
 ---
 ## ITextFrameFormatEffectiveData interface
 
-Onveranderlijk object dat effectieve opmaak-eigenschappen van een tekstframe bevat.
+Onveranderlijk object dat effectieve opmaak-eigenschappen van tekstframes bevat.
 
 ```csharp
 public interface ITextFrameFormatEffectiveData
@@ -19,14 +19,14 @@ public interface ITextFrameFormatEffectiveData
 | Naam | Beschrijving |
 | --- | --- |
 | [AnchoringType](../../aspose.slides/itextframeformateffectivedata/anchoringtype) { get; } | Retourneert verticale ankertekst in een TextFrame. Alleen-lezen [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Retourneert tekst autofit-modus. Alleen-lezen [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Retourneert of tekst horizontaal moet worden gecentreerd in het kader. Alleen-lezen Boolean. |
-| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Specificeert het aantal kolommen tekst in de begrenzende rechthoek. Alleen-lezen Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Specificeert de ruimte tussen tekstkolommen in het tekstgebied (in punten). Alleen-lezen Single. |
-| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Retourneert de onderste marge (punten) in een TextFrame. Alleen-lezen Double. |
-| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Retourneert de linkermarge (punten) in een TextFrame. Alleen-lezen Double. |
-| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Retourneert de rechtermarge (punten) in een TextFrame. Alleen-lezen Double. |
-| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Retourneert de bovenmarge (punten) in een TextFrame. Alleen-lezen Double. |
+| [AutofitType](../../aspose.slides/itextframeformateffectivedata/autofittype) { get; } | Retourneert de modus voor automatisch aanpassen van tekst. Alleen-lezen [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformateffectivedata/centertext) { get; } | Retourneert of tekst horizontaal in het vak moet worden gecentreerd. Alleen-lezen Boolean. |
+| [ColumnCount](../../aspose.slides/itextframeformateffectivedata/columncount) { get; } | Specificeert het aantal tekstkolommen in de begrenzende rechthoek. Alleen-lezen Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformateffectivedata/columnspacing) { get; } | Specificeert de ruimte tussen tekstkolommen in het tekstgebied (in points). Alleen-lezen Single. |
+| [MarginBottom](../../aspose.slides/itextframeformateffectivedata/marginbottom) { get; } | Retourneert de onderste marge (points) in een TextFrame. Alleen-lezen Double. |
+| [MarginLeft](../../aspose.slides/itextframeformateffectivedata/marginleft) { get; } | Retourneert de linker marge (points) in een TextFrame. Alleen-lezen Double. |
+| [MarginRight](../../aspose.slides/itextframeformateffectivedata/marginright) { get; } | Retourneert de rechter marge (points) in een TextFrame. Alleen-lezen Double. |
+| [MarginTop](../../aspose.slides/itextframeformateffectivedata/margintop) { get; } | Retourneert de boven marge (points) in een TextFrame. Alleen-lezen Double. |
 | [TextStyle](../../aspose.slides/itextframeformateffectivedata/textstyle) { get; } | Retourneert de effectieve stijl van de tekst. Alleen-lezen [`ITextStyleEffectiveData`](../itextstyleeffectivedata). |
 | [TextVerticalType](../../aspose.slides/itextframeformateffectivedata/textverticaltype) { get; } | Retourneert de tekstoriëntatie. Alleen-lezen [`TextVerticalType`](../textverticaltype). |
 | [WrapText](../../aspose.slides/itextframeformateffectivedata/wraptext) { get; } | Retourneert of tekst wordt afgebroken bij de marges van de TextFrame. Alleen-lezen Boolean. |

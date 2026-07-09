@@ -1,14 +1,14 @@
 ---
 title: PVIObject
-second_title: Aspose.Sildes a .NET API-referenciához
-description: Alapvető szolgáltatási infrastruktúrát biztosít olyan objektumok számára, amelyek az ingatlan érték öröklődésének tárgyai lehetnek.
+second_title: Aspose.Sildes .NET API referenciája
+description: Összefogja az alapvető szolgáltatási infrastruktúrát azon objektumok számára, amelyek a tulajdonságérték öröklődés tárgyai lehetnek.
 type: docs
-weight: 9250
+weight: 9270
 url: /hu/aspose.slides/pviobject/
 ---
 ## PVIObject osztály
 
-Alapvető szolgáltatási infrastruktúrát kapszuláz az objektumok számára, amelyek az ingatlan érték öröklődésének tárgyai lehetnek.
+Összefogja az alapvető szolgáltatási infrastruktúrát azokra az objektumokra, amelyek a tulajdonságérték öröklődés tárgyai lehetnek.
 
 ```csharp
 public abstract class PVIObject : ISlideComponent
@@ -18,14 +18,14 @@ public abstract class PVIObject : ISlideComponent
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérdezését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hashkódot. |
 
 ### Lásd még
 

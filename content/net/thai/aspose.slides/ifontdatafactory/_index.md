@@ -1,14 +1,14 @@
 ---
 title: IFontDataFactory
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: อินเทอร์เฟซ factory ของ FontData
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อินเทอร์เฟซของตัวสร้าง FontData
 type: docs
 weight: 5840
 url: /th/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory อินเทอร์เฟซ
 
-อินเทอร์เฟซ factory ของ FontData
+อินเทอร์เฟซของตัวสร้าง FontData
 
 ```csharp
 public interface IFontDataFactory
@@ -18,7 +18,7 @@ public interface IFontDataFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | สร้าง FontData ด้วยชื่อแบบอักษรที่ระบุ. |
+| [CreateFontData](../../aspose.slides/ifontdatafactory/createfontdata)(string) | สร้าง FontData พร้อมชื่อแบบอักษรที่ระบุ |
 
 ### ดูเพิ่มเติม
 

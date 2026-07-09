@@ -1,14 +1,14 @@
 ---
 title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes για .NET Αναφορά API
-description: Καθορίζει τύπους τιμών στη λίστα ιδιοτήτων ChartDataPoint.ErrorBarsCustomValues
+description: Καθορίζει τους τύπους τιμών στη λίστα ιδιοτήτων ChartDataPoint.ErrorBarsCustomValues
 type: docs
-weight: 1570
+weight: 1590
 url: /el/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
 ## DataSourceTypeForErrorBarsCustomValues κλάση
 
-Καθορίζει τύπους τιμών στη λίστα ιδιοτήτων ChartDataPoint.ErrorBarsCustomValues
+Καθορίζει τους τύπους τιμών στη λίστα ιδιοτήτων ChartDataPoint.ErrorBarsCustomValues
 
 ```csharp
 public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBarsCustomValues
@@ -24,15 +24,15 @@ public class DataSourceTypeForErrorBarsCustomValues : IDataSourceTypeForErrorBar
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή στο αντικείμενο ιδιότητας XMinus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια, καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Ανάγνωση/Εγγραφή [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή στο αντικείμενο ιδιότητας XPlus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια, καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Ανάγνωση/Εγγραφή [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή στο αντικείμενο ιδιότητας YMinus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια, καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Ανάγνωση/Εγγραφή [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Καθορίζει εάν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι ενεργή στο αντικείμενο ιδιότητας YPlus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια, καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Ανάγνωση/Εγγραφή [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | Καθορίζει αν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι πραγματική στο αντικείμενο ιδιότητας XMinus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPoint.ErrorBarsCustomValues.XMinus.Data. Ανάγνωση/εγγραφή [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | Καθορίζει αν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι πραγματική στο αντικείμενο ιδιότητας XPlus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPoint.ErrorBarsCustomValues.XPlus.Data. Ανάγνωση/εγγραφή [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | Καθορίζει αν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι πραγματική στο αντικείμενο ιδιότητας YMinus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data. Ανάγνωση/εγγραφή [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | Καθορίζει αν η ιδιότητα AsCell ή AsLiteralString ή AsLiteralDouble είναι πραγματική στο αντικείμενο ιδιότητας YPlus των σημείων δεδομένων για προσαρμοσμένες τιμές γραμμών σφάλματος. Με άλλα λόγια καθορίζει τον τύπο τιμής της ιδιότητας ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data. Ανάγνωση/εγγραφή [`DataSourceType`](../datasourcetype). |
 
 ### Δείτε επίσης
 
-* διασύνδεση [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
-* χώρος ονομάτων [Aspose.Slides.Charts](../../aspose.slides.charts)
-* συγκρότημα [Aspose.Slides](../../)
+* διεπαφή [IDataSourceTypeForErrorBarsCustomValues](../idatasourcetypeforerrorbarscustomvalues)
+* χώροσυνολο [Aspose.Slides.Charts](../../aspose.slides.charts)
+* συναρμολόγηση [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

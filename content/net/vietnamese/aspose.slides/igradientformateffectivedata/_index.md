@@ -1,14 +1,14 @@
 ---
 title: IGradientFormatEffectiveData
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Đối tượng bất biến chứa các thuộc tính tô nền gradient hiệu quả.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Đối tượng bất biến chứa các thuộc tính tô màu gradient hiệu quả.
 type: docs
 weight: 6010
 url: /vi/aspose.slides/igradientformateffectivedata/
 ---
-## IGradientFormatEffectiveData interface
+## IGradientFormatEffectiveData giao diện
 
-Đối tượng bất biến chứa các thuộc tính tô nền gradient hiệu quả.
+Đối tượng bất biến chứa các thuộc tính tô màu gradient hiệu quả.
 
 ```csharp
 public interface IGradientFormatEffectiveData : IFillParamSource
@@ -21,9 +21,9 @@ public interface IGradientFormatEffectiveData : IFillParamSource
 | [AsIFillParamSource](../../aspose.slides/igradientformateffectivedata/asifillparamsource) { get; } | Cho phép lấy giao diện IFillParamSource cơ bản. Chỉ đọc [`IFillParamSource`](../ifillparamsource). |
 | [GradientDirection](../../aspose.slides/igradientformateffectivedata/gradientdirection) { get; } | Trả về kiểu của gradient. Chỉ đọc [`GradientDirection`](../gradientdirection). |
 | [GradientShape](../../aspose.slides/igradientformateffectivedata/gradientshape) { get; } | Trả về hình dạng của gradient. Chỉ đọc [`GradientShape`](../gradientshape). |
-| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Trả về bộ sưu tập các điểm dừng gradient. Chỉ đọc [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
+| [GradientStops](../../aspose.slides/igradientformateffectivedata/gradientstops) { get; } | Trả về tập hợp các điểm dừng gradient. Chỉ đọc [`IGradientStopCollectionEffectiveData`](../igradientstopcollectioneffectivedata). |
 | [LinearGradientAngle](../../aspose.slides/igradientformateffectivedata/lineargradientangle) { get; } | Trả về góc của gradient. Chỉ đọc Single. |
-| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Xác định liệu gradient có được co giãn hay không. Chỉ đọc Boolean. |
+| [LinearGradientScaled](../../aspose.slides/igradientformateffectivedata/lineargradientscaled) { get; } | Xác định liệu gradient có được tỷ lệ hay không. Chỉ đọc Boolean. |
 | [TileFlip](../../aspose.slides/igradientformateffectivedata/tileflip) { get; } | Trả về chế độ lật cho gradient. Chỉ đọc [`TileFlip`](../tileflip). |
 
 ### Ghi chú

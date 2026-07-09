@@ -1,6 +1,6 @@
 ---
 title: IColorOffset
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 表示顏色偏移。
 type: docs
 weight: 470
@@ -18,11 +18,11 @@ public interface IColorOffset
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定義偏移量的第一個值。讀/寫 Single. |
-| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定義偏移量的第二個值。讀/寫 Single. |
-| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定義偏移量的第三個值。讀/寫 Single. |
+| [Value0](../../aspose.slides.animation/icoloroffset/value0) { get; set; } | 定義偏移的第一個值。可讀寫 Single。 |
+| [Value1](../../aspose.slides.animation/icoloroffset/value1) { get; set; } | 定義偏移的第二個值。可讀寫 Single。 |
+| [Value2](../../aspose.slides.animation/icoloroffset/value2) { get; set; } | 定義偏移的第三個值。可讀寫 Single。 |
 
-### 參見
+### 另見
 
 * 命名空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * 組件 [Aspose.Slides](../../)

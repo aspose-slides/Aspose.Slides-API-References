@@ -1,14 +1,14 @@
 ---
 title: IInk
-second_title: Aspose.Sildes .NET API referencia
-description: Egy dián lévő tinta objektumot ábrázol.
+second_title: Aspose.Sildes a .NET API-referencia
+description: Egy dián található tinta objektumot képvisel.
 type: docs
-weight: 7490
+weight: 7510
 url: /hu/aspose.slides.ink/iink/
 ---
 ## IInk interfész
 
-Egy diaon lévő tinta objektumot képvisel.
+Egy dián található tinta objektumot képviseli.
 
 ```csharp
 public interface IInk : IGraphicalObject
@@ -18,8 +18,8 @@ public interface IInk : IGraphicalObject
 
 | Név | Leírás |
 | --- | --- |
-| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Lehetővé teszi az alap IGraphicalObject interfész lekérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
-| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Lekéri az IInk elemben található összes nyomot [`IInkTrace`](../iinktrace). Csak olvasható. |
+| [AsIGraphicalObject](../../aspose.slides.ink/iink/asigraphicalobject) { get; } | Lehetővé teszi az IGraphicalObject alap interfész lekérését. Csak olvasható [`IGraphicalObject`](../../aspose.slides/igraphicalobject). |
+| [Traces](../../aspose.slides.ink/iink/traces) { get; } | Az IInk elemben található összes nyomot lekéri [`IInkTrace`](../iinktrace). Csak olvasható. |
 
 ### Lásd még
 

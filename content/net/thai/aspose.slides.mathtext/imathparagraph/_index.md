@@ -1,14 +1,14 @@
 ---
 title: IMathParagraph
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: Paragraph ทางคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกทางคณิตศาสตร์ IMathBlock
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ IMathBlock
 type: docs
 weight: 8390
 url: /th/aspose.slides.mathtext/imathparagraph/
 ---
-## อินเทอร์เฟซ IMMathParagraph
+## IMathParagraph อินเทอร์เฟซ
 
-Paragraph ทางคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกทางคณิตศาสตร์ (IMathBlock)
+ย่อหน้าคณิตศาสตร์ที่เป็นคอนเทนเนอร์สำหรับบล็อกคณิตศาสตร์ (IMathBlock)
 
 ```csharp
 public interface IMathParagraph : IMathBlockCollection
@@ -19,7 +19,7 @@ public interface IMathParagraph : IMathBlockCollection
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [AsIMathBlockCollection](../../aspose.slides.mathtext/imathparagraph/asimathblockcollection) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IMathBlockCollection พื้นฐาน [`IMathBlockCollection`](../imathblockcollection) |
-| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | Paragraph Justiation ค่าเริ่มต้น: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/imathparagraph/justification) { get; set; } | การจัดบรรทัดย่อหน้า ค่าเริ่มต้น: CenteredAsGroup |
 
 ## เมธอด
 

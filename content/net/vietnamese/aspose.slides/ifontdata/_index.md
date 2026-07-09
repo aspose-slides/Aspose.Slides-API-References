@@ -1,6 +1,6 @@
 ---
 title: IFontData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Đại diện cho một định nghĩa phông chữ.
 type: docs
 weight: 5830
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/ifontdata/
 ---
 ## IFontData giao diện
 
-Biểu diễn một định nghĩa phông chữ.
+Đại diện cho một định nghĩa phông chữ.
 
 ```csharp
 public interface IFontData
@@ -26,7 +26,7 @@ public interface IFontData
 | --- | --- |
 | [GetFontName](../../aspose.slides/ifontdata/getfontname)(IThemeEffectiveData) | Trả về tên phông chữ, thay thế tham chiếu chủ đề bằng phông chữ thực tế được sử dụng. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

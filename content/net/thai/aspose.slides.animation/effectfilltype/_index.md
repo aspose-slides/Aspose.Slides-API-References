@@ -1,14 +1,14 @@
 ---
 title: EffectFillType
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงประเภทการเติม.
 type: docs
 weight: 310
 url: /th/aspose.slides.animation/effectfilltype/
 ---
-## EffectFillType การนับค่า
+## EffectFillType การกำหนดค่า
 
-Represent fill types.
+แสดงประเภทการเติม
 
 ```csharp
 public enum EffectFillType

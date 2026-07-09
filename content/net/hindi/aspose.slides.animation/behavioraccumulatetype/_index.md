@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: प्रभाव व्यवहारों के संचयन के प्रकारों का प्रतिनिधित्व करता है।
+description: इफ़ेक्ट व्यवहारों के संचयन के प्रकारों का प्रतिनिधित्व करता है।
 type: docs
 weight: 150
 url: /hi/aspose.slides.animation/behavioraccumulatetype/
 ---
-## BehaviorAccumulateType एन्यूमरेशन
+## BehaviorAccumulateType एन्उमरेशन
 
-प्रभाव व्यवहारों के संचयन के प्रकारों का प्रतिनिधित्व करता है।
+इफ़ेक्ट व्यवहारों के संचयन प्रकारों का प्रतिनिधित्व करता है।
 
 ```csharp
 public enum BehaviorAccumulateType

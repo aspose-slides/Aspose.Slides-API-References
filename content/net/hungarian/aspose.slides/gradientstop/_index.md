@@ -1,14 +1,14 @@
 ---
 title: GradientStop
-second_title: Aspose.Sildes .NET API referencia
-description: Gradient formátumot képvisel.
+second_title: Aspose.Sildes .NET API referenciája
+description: Színátmenet formátumot reprezentál.
 type: docs
-weight: 5000
+weight: 5020
 url: /hu/aspose.slides/gradientstop/
 ---
 ## GradientStop osztály
 
-Egy gradient formátumot képvisel.
+A színátmenet formátumát reprezentálja.
 
 ```csharp
 public sealed class GradientStop : PVIObject, IGradientStop
@@ -18,9 +18,9 @@ public sealed class GradientStop : PVIObject, IGradientStop
 
 | Név | Leírás |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
-| [Color](../../aspose.slides/gradientstop/color) { get; } | Visszaadja a gradient stop színét. Csak olvasható [`IColorFormat`](../icolorformat). |
-| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Visszaadja vagy beállítja egy gradient stop (0..1) pozícióját. Olvasás/írás Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../ipresentationcomponent). |
+| [Color](../../aspose.slides/gradientstop/color) { get; } | Visszaadja a színátmenet állomás színét. Csak olvasható [`IColorFormat`](../icolorformat). |
+| [Position](../../aspose.slides/gradientstop/position) { get; set; } | Visszaadja vagy beállítja a színátmenet állomás pozícióját (0..1). Olvasás/írás Single. |
 
 ## Metódusok
 
@@ -29,7 +29,7 @@ public sealed class GradientStop : PVIObject, IGradientStop
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Összehasonlítja a megadott objektummal. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Visszaadja a hash kódot. |
 
-### Lásd még
+### Kapcsolódó
 
 * osztály [PVIObject](../pviobject)
 * interfész [IGradientStop](../igradientstop)

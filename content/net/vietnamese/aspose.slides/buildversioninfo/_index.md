@@ -1,12 +1,12 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Sildes cho .NET Tham chiếu API
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Chứa thông tin về phiên bản của Aspose.Slides.
 type: docs
 weight: 1060
 url: /vi/aspose.slides/buildversioninfo/
 ---
-## BuildVersionInfo lớp
+## lớp BuildVersionInfo
 
 Chứa thông tin về phiên bản của Aspose.Slides.
 
@@ -16,7 +16,7 @@ public static class BuildVersionInfo
 
 ## Trường
 
-| Tên | Mô tả |
+| Name | Description |
 | --- | --- |
 | const [AssemblyVersion](../../aspose.slides/buildversioninfo/assemblyversion) | Phiên bản của assembly Aspose.Slides. |
 | const [FileVersion](../../aspose.slides/buildversioninfo/fileversion) | Phiên bản của tệp assembly. |
@@ -25,7 +25,7 @@ public static class BuildVersionInfo
 | const [ProductMinor](../../aspose.slides/buildversioninfo/productminor) | Số phiên bản phụ. |
 | static readonly [ReleaseDate](../../aspose.slides/buildversioninfo/releasedate) | Ngày phát hành của assembly. |
 
-### Xem Thêm
+### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
 * assembly [Aspose.Slides](../../)

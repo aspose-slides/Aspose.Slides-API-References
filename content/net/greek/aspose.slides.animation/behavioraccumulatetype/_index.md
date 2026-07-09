@@ -1,14 +1,14 @@
 ---
 title: BehaviorAccumulateType
-second_title: Aspose.Sildes για .NET Αναφορά API
-description: Αναπαριστά τύπους συσσώρευσης των συμπεριφορών εφέ.
+second_title: Aspose.Sildes για .NET API Αναφορά
+description: Καθορίζει τύπους συσσώρευσης των συμπεριφορών εφέ.
 type: docs
-weight: 130
+weight: 150
 url: /el/aspose.slides.animation/behavioraccumulatetype/
 ---
-## BehaviorAccumulateType απαρίθμηση
+## BehaviorAccumulateType αρίθμηση
 
-Αναπαριστά τύπους συσσώρευσης των συμπεριφορών εφέ.
+Καθορίζει τύπους συσσώρευσης των συμπεριφορών εφέ.
 
 ```csharp
 public enum BehaviorAccumulateType

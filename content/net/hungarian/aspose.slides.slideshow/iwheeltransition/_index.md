@@ -1,14 +1,14 @@
 ---
 title: IWheelTransition
-second_title: Aspose.Sildes .NET API Referencia
-description: Kerék diaátmeneti hatás.
+second_title: Aspose.Sildes .NET API referencia
+description: Kerékcsúszó átmeneti effektus.
 type: docs
-weight: 10200
+weight: 10220
 url: /hu/aspose.slides.slideshow/iwheeltransition/
 ---
 ## IWheelTransition interfész
 
-Kerék diaátmeneti hatás.
+Kerékcsúszó átmeneti effektus.
 
 ```csharp
 public interface IWheelTransition : ITransitionValueBase
@@ -18,8 +18,8 @@ public interface IWheelTransition : ITransitionValueBase
 
 | Név | Leírás |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérdezését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | A kerék átmenet számúszói. Olvasás/írás UInt32. |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iwheeltransition/asitransitionvaluebase) { get; } | Lehetővé teszi a base ITransitionValueBase interfész lekérését. Csak olvasható [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Spokes](../../aspose.slides.slideshow/iwheeltransition/spokes) { get; set; } | A kerék átmenet keréktárcsáinak száma. Olvasás/írás UInt32. |
 
 ### Lásd még
 

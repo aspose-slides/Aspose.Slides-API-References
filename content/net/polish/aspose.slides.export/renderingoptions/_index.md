@@ -1,37 +1,37 @@
 ---
 title: RenderingOptions
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Udostępnia opcje kontrolujące sposób renderowania prezentacji/slajdu.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Udostępnia opcje kontrolujące sposób renderowania prezentacji lub slajdu.
 type: docs
-weight: 4390
+weight: 4410
 url: /pl/aspose.slides.export/renderingoptions/
 ---
-## RenderingOptions klasa
+## Klasa RenderingOptions
 
-Udostępnia opcje, które kontrolują sposób renderowania prezentacji/slajdu.
+Udostępnia opcje kontrolujące sposób renderowania prezentacji/slajdu.
 
 ```csharp
 public class RenderingOptions : SaveOptions, IRenderingOptions
 ```
 
-## Konstruktory
+## Konstruktorzy
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [RenderingOptions](renderingoptions)() | Domyślny konstruktor. |
+| [RenderingOptions](renderingoptions)() | Konstruktor domyślny. |
 
 ## Właściwości
 
-| Name | Description |
+| Nazwa | Opis |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną, gdy nie zostanie znaleziona czcionka źródłowa. Odczyt-zapis String. |
-| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyniku. Domyślnie, właściwość jest ustawiona na `false`. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. Odczyt-zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie. Tylko do odczytu [`IInkOptions`](../iinkoptions) |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Zwraca lub ustawia czcionkę używaną w przypadku, gdy nie odnaleziono czcionki źródłowej. odczyt/zapis String. |
+| [DisableFontLigatures](../../aspose.slides.export/renderingoptions/disablefontligatures) { get; set; } | Pobiera lub ustawia wartość określającą, czy tekst jest renderowany bez użycia ligatur. Gdy ustawione na `true`, ligatury będą wyłączone w renderowanym wyjściu. Domyślnie ta właściwość jest ustawiona na `false`. |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Zwraca lub ustawia styl wizualny gradientu. odczyt/zapis [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [InkOptions](../../aspose.slides.export/renderingoptions/inkoptions) { get; } | Udostępnia opcje kontrolujące wygląd obiektów Ink w wyeksportowanym dokumencie. tylko do odczytu [`IInkOptions`](../iinkoptions) |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Reprezentuje obiekt wywołania zwrotnego służący do zapisywania aktualizacji postępu w procentach. Zobacz [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript podczas zapisywania prezentacji. Odczyt-zapis Boolean. Domyślna wartość to **false**. |
-| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w którym slajdy są rozmieszczane na stronie przy eksportowaniu prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. Odczyt-zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Określa, czy pomijać hiperłącza z wywołaniami JavaScript przy zapisywaniu prezentacji. odczyt/zapis Boolean. Wartość domyślna to **false**. |
+| [SlidesLayoutOptions](../../aspose.slides.export/renderingoptions/slideslayoutoptions) { get; set; } | Pobiera lub ustawia tryb, w którym slajdy są układane na stronie podczas eksportowania prezentacji [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Zwraca lub ustawia obiekt, który odbiera ostrzeżenia i decyduje, czy proces ładowania będzie kontynuowany, czy zostanie przerwany. odczyt/zapis [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Przykłady
 

@@ -1,14 +1,14 @@
 ---
 title: ExtraColorScheme
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho một bảng màu bổ sung có thể được gán cho một slide.
+second_title: Aspose.Sildes cho .NET API Reference
+description: Biểu diễn một bảng màu bổ sung có thể được gán cho một slide.
 type: docs
 weight: 11100
 url: /vi/aspose.slides.theme/extracolorscheme/
 ---
 ## ExtraColorScheme lớp
 
-Đại diện cho một bảng màu bổ sung có thể được gán cho một slide.
+Biểu diễn một bảng màu bổ sung có thể được gán cho một slide.
 
 ```csharp
 public class ExtraColorScheme : IExtraColorScheme
@@ -19,9 +19,9 @@ public class ExtraColorScheme : IExtraColorScheme
 | Tên | Mô tả |
 | --- | --- |
 | [ColorScheme](../../aspose.slides.theme/extracolorscheme/colorscheme) { get; } | Trả về một bảng màu. Chỉ đọc [`IColorScheme`](../icolorscheme). |
-| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Trả về tên của sơ đồ này. Chỉ đọc String. |
+| [Name](../../aspose.slides.theme/extracolorscheme/name) { get; } | Trả về tên của bảng màu này. Chỉ đọc String. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IExtraColorScheme](../iextracolorscheme)
 * không gian tên [Aspose.Slides.Theme](../../aspose.slides.theme)

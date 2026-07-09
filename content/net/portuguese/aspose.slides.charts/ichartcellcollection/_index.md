@@ -1,9 +1,9 @@
 ---
 title: IChartCellCollection
-second_title: Referência da API Aspose.Sildes for .NET
+second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de células com dados.
 type: docs
-weight: 1760
+weight: 1780
 url: /pt/aspose.slides.charts/ichartcellcollection/
 ---
 ## IChartCellCollection interface
@@ -18,7 +18,7 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 
 | Name | Description |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Retorna interface ICollection. Somente leitura IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.charts/ichartcellcollection/asienumerable) { get; } | Retorna a interface ICollection. Somente leitura IEnumerable. |
 | [Count](../../aspose.slides.charts/ichartcellcollection/count) { get; } | Obtém a contagem de células na coleção. Somente leitura Int32. |
 | [Item](../../aspose.slides.charts/ichartcellcollection/item) { get; } | Retorna uma célula (IChartDataCell) por índice. |
 
@@ -27,12 +27,12 @@ public interface IChartCellCollection : IEnumerable<IChartDataCell>
 | Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides.charts/ichartcellcollection/add#add)(IChartDataCell) | Adiciona nova célula à coleção. |
-| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Cria [`IChartDataCell`](../ichartdatacell) a partir do valor especificado e a adiciona à coleção. |
-| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Retorna endereço do conjunto de células na pasta de trabalho. |
+| [Add](../../aspose.slides.charts/ichartcellcollection/add#add_1)(object) | Cria [`IChartDataCell`](../ichartdatacell) a partir do valor especificado e o adiciona à coleção. |
+| [GetCellsAddress](../../aspose.slides.charts/ichartcellcollection/getcellsaddress)() | Retorna o endereço do conjunto de células na pasta de trabalho. |
 | [GetConcatenatedValuesFromCells](../../aspose.slides.charts/ichartcellcollection/getconcatenatedvaluesfromcells)() | String de concatenação dos valores de string de todas as células. |
 | [RemoveAt](../../aspose.slides.charts/ichartcellcollection/removeat)(int) | Remove uma célula da coleção por índice. |
 
-### Ver também
+### Ver Também
 
 * interface [IChartDataCell](../ichartdatacell)
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)

@@ -3,10 +3,10 @@ title: Section
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili bagian slide.
 type: docs
-weight: 9730
+weight: 9750
 url: /id/aspose.slides/section/
 ---
-## Kelas Section
+## Section kelas
 
 Mewakili bagian slide.
 
@@ -19,7 +19,7 @@ public class Section : DomObject<SectionCollection>, ISection
 | Nama | Deskripsi |
 | --- | --- |
 | [Name](../../aspose.slides/section/name) { get; set; } | Nama bagian. |
-| [SectionId](../../aspose.slides/section/sectionid) { get; } | Id bagian. |
+| [SectionId](../../aspose.slides/section/sectionid) { get; } | Id Bagian. |
 | [StartedFromSlide](../../aspose.slides/section/startedfromslide) { get; } | Mengembalikan slide pertama dari bagian. |
 
 ## Metode

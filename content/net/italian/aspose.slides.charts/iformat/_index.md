@@ -1,12 +1,12 @@
 ---
 title: IFormat
-second_title: Aspose.Sildes per .NET API Reference
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta le proprietà di formattazione del grafico.
 type: docs
-weight: 2080
+weight: 2100
 url: /it/aspose.slides.charts/iformat/
 ---
-## IFormat interfaccia
+## interfaccia IFormat
 
 Rappresenta le proprietà di formattazione del grafico.
 
@@ -18,10 +18,10 @@ public interface IFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Restituisce gli effetti usati per un grafico. Solo lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Restituisce il formato 3D di un grafico. Solo lettura [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
-| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Restituisce le proprietà dello stile di riempimento di un grafico. Solo lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
-| [Line](../../aspose.slides.charts/iformat/line) { get; } | Restituisce le proprietà dello stile di linea di un grafico. Solo lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/iformat/effect) { get; } | Restituisce gli effetti utilizzati per un grafico. Sola lettura [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Effect3D](../../aspose.slides.charts/iformat/effect3d) { get; } | Restituisce il formato 3D di un grafico. Sola lettura [`IThreeDFormat`](../../aspose.slides/ithreedformat). |
+| [Fill](../../aspose.slides.charts/iformat/fill) { get; } | Restituisce le proprietà dello stile di riempimento di un grafico. Sola lettura [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [Line](../../aspose.slides.charts/iformat/line) { get; } | Restituisce le proprietà dello stile di linea di un grafico. Sola lettura [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### Vedi anche
 

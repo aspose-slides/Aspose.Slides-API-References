@@ -1,14 +1,14 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes .NET API referencia
-description: Beállítások, amelyek szabályozzák, hogyan kerül mentésre egy XAML dokumentum.
+second_title: Aspose.Sildes a .NET API referencia
+description: Beállítások, amelyek szabályozzák, hogyan mentődik el egy XAML dokumentum.
 type: docs
-weight: 4680
+weight: 4700
 url: /hu/aspose.slides.export.xaml/ixamloptions/
 ---
 ## IXamlOptions interfész
 
-Beállítások, amelyek szabályozzák, hogy egy XAML dokumentum hogyan kerül mentésre.
+Azok a beállítások, amelyek szabályozzák, hogyan mentődik el egy XAML dokumentum.
 
 ```csharp
 public interface IXamlOptions : ISaveOptions
@@ -19,7 +19,7 @@ public interface IXamlOptions : ISaveOptions
 | Név | Leírás |
 | --- | --- |
 | [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | Visszaadja az ISaveOptions interfészt. Csak olvasható [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
-| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Meghatározza, hogy a rejtett diaok exportálásra kerülnek-e. |
+| [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Meghatározza, hogy a rejtett diák exportálásra kerülnek-e. |
 | [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | Az IOutputSaver interfész egy megvalósítását képviseli. |
 
 ### Példák

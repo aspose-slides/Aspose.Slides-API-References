@@ -1,14 +1,14 @@
 ---
 title: ChartDataPointLevel
-second_title: Aspose.Sildes for .NET API 참조
-description: 데이터 포인트 레벨을 나타냅니다. Treemap 및 Sunburst 차트에 적용됩니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 데이터 포인트 수준을 나타냅니다. Treemap 및 Sunburst 차트에 적용됩니다.
 type: docs
 weight: 1350
 url: /ko/aspose.slides.charts/chartdatapointlevel/
 ---
 ## ChartDataPointLevel 클래스
 
-데이터 포인트 레벨을 나타냅니다. Treemap 및 Sunburst 차트에 적용됩니다.
+데이터 포인트 수준을 나타냅니다. Treemap 및 Sunburst 차트에 적용됩니다.
 
 ```csharp
 public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChartDataPointLevel
@@ -18,10 +18,10 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 
 | 이름 | 설명 |
 | --- | --- |
-| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | 데이터 포인트 레벨의 서식 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | 데이터 포인트 레벨의 데이터 레이블을 나타냅니다. Treemap 및 Sunburst 시리즈 유형에 적용됩니다. 읽기 전용 [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | 데이터 포인트 수준의 서식 속성을 나타냅니다. 읽기/쓰기 [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | 데이터 포인트 수준의 데이터 레이블을 나타냅니다. Treemap 및 Sunburst 시리즈 유형에 적용됩니다. 읽기 전용 [`IDataLabel`](../idatalabel). |
 
-### 참고
+### 참조
 
 * 클래스 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 클래스 [ChartDataPointLevelsManager](../chartdatapointlevelsmanager)

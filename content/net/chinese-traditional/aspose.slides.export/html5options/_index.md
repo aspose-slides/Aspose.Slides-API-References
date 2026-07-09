@@ -1,12 +1,11 @@
 ---
 title: Html5Options
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考文件
 description: 表示 HTML5 匯出選項。
 type: docs
 weight: 3860
 url: /zh-hant/aspose.slides.export/html5options/
 ---
-
 ## Html5Options 類別
 
 表示 HTML5 匯出選項。
@@ -15,32 +14,32 @@ url: /zh-hant/aspose.slides.export/html5options/
 public class Html5Options : SaveOptions, IHtml5Options
 ```
 
-## 建構函式
+## 建構式
 
 | 名稱 | 說明 |
 | --- | --- |
-| [Html5Options](html5options)() | 預設建構函式。 |
+| [Html5Options](html5options)() | 預設建構式。 |
 
 ## 屬性
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 取得或設定形狀動畫選項。可讀寫 Boolean。 |
+| [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | 取得或設定圖形動畫選項。可讀寫 Boolean。 |
 | [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | 取得或設定過渡動畫選項。可讀寫 Boolean。 |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定在找不到來源字型時使用的字型。可讀寫 String。 |
-| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 取得或設定一個值，指示文字是否在不使用連字的情況下呈現。設定為 `true` 時，連字將在輸出中停用。預設情況下，此屬性設為 `false`。 |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 取得或設定當找不到來源字型時使用的字型。可讀寫 String。 |
+| [DisableFontLigatures](../../aspose.slides.export/html5options/disablefontligatures) { get; set; } | 取得或設定指示文字是否在渲染時不使用連字的值。設定為 `true` 時，渲染輸出將停用連字。預設情況下，此屬性設定為 `false`。 |
 | [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | 取得或設定圖片嵌入選項。可讀寫 Boolean。 |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 取得或設定漸層的視覺樣式。可讀寫 [`GradientStyle`](../../aspose.slides/gradientstyle)。 |
-| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 決定外部資源應儲存的位置。可讀寫 String。 |
-| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 表示圖片壓縮等級 |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示一個以百分比儲存進度更新的回呼物件。參見 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在儲存簡報時是否跳過包含 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | 決定外部資源應存放的位置。可讀寫 String。 |
+| [PicturesCompression](../../aspose.slides.export/html5options/picturescompression) { get; set; } | 表示圖片的壓縮等級。 |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 表示用於以百分比保存進度更新的回呼物件。請參閱 [`IProgressCallback`](../../aspose.slides/iprogresscallback)。 |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 指定在保存簡報時是否跳過帶有 JavaScript 呼叫的超連結。可讀寫 Boolean。預設值為 **false**。 |
 | [SlidesLayoutOptions](../../aspose.slides.export/html5options/slideslayoutoptions) { get; set; } | 取得或設定匯出簡報 [`ISlidesLayoutOptions`](../islideslayoutoptions) 時投影片在頁面上的排列模式。 |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定一個接收警告並決定載入過程是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 取得或設定接收警告並決定載入程序是否繼續或中止的物件。可讀寫 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback)。 |
 
 ### 範例
 
-範例：
+Example:
 
 ```csharp
 [C#]
@@ -54,7 +53,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### 相關參考
+### 另請參閱
 
 * 類別 [SaveOptions](../saveoptions)
 * 介面 [IHtml5Options](../ihtml5options)

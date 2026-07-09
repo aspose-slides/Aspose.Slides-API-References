@@ -8,7 +8,7 @@ url: /vi/aspose.slides/ifontdatafactory/
 ---
 ## IFontDataFactory giao diện
 
-FontData giao diện nhà máy
+Giao diện nhà máy FontData
 
 ```csharp
 public interface IFontDataFactory

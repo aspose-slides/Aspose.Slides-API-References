@@ -1,9 +1,9 @@
 ---
 title: IRippleTransition
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Efek transisi slide Ripple.
 type: docs
-weight: 10150
+weight: 10170
 url: /id/aspose.slides.slideshow/irippletransition/
 ---
 ## IRippleTransition antarmuka

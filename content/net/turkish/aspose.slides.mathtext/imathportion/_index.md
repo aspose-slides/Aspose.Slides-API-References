@@ -1,14 +1,14 @@
 ---
 title: IMathPortion
 second_title: Aspose.Sildes için .NET API Referansı
-description: Matematiksel bağlam içeren bir bölümü temsil eder.
+description: İçinde matematiksel bağlam içeren bir bölümü temsil eder.
 type: docs
-weight: 8400
+weight: 8420
 url: /tr/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion arayüz
 
-Matematiksel bağlam içeren bir bölümü temsil eder.
+İçinde matematiksel bağlam içeren bir bölümü temsil eder.
 
 ```csharp
 public interface IMathPortion
@@ -35,7 +35,7 @@ using (Presentation pres = new Presentation())
 }
 ```
 
-### Diğer Bağlantılar
+### Bakınız
 
 * ad alanı [Aspose.Slides.MathText](../../aspose.slides.mathtext)
 * derleme [Aspose.Slides](../../)

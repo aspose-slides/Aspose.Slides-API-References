@@ -1,9 +1,9 @@
 ---
 title: ITextFrameFormat
-second_title: Aspose.Sildes .NET API-referencia
+second_title: Aspose.Sildes a .NET API hivatkozásához
 description: Tartalmazza a TextFrames formázási tulajdonságait.
 type: docs
-weight: 7260
+weight: 7280
 url: /hu/aspose.slides/itextframeformat/
 ---
 ## ITextFrameFormat interfész
@@ -18,24 +18,24 @@ public interface ITextFrameFormat
 
 | Név | Leírás |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Visszaadja vagy beállítja a függőleges horgony szöveget egy TextFrame-ben. Olvasás/írás [`TextAnchorType`](../textanchortype). |
-| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Visszaadja vagy beállítja a szöveg automatikus illesztési módját. Olvasás/írás [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Ha NullableBool.True, akkor a szöveget vízszintesen középre kell helyezni a keretben. Olvasás/írás [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Visszaadja vagy beállítja az oszlopok számát a szövegtérben. Ennek az értéknek pozitív számnak kell lennie. Ellenkező esetben az érték nullára lesz beállítva. A 0 érték meghatározatlan értéket jelöl. Olvasás/írás Int32. |
-| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Visszaadja vagy beállítja a szövegoszlopok közötti távolságot a szövegtérben (pontban). Ez csak akkor érvényes, ha több mint 1 oszlop van jelen. Ennek az értéknek pozitív számnak kell lennie. Ellenkező esetben az érték nullára lesz beállítva. Olvasás/írás Double. |
-| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Visszaadja vagy beállítja, hogy a szöveg teljesen kizárásra kerüljön a 3D jelenetből. Olvasás/írás Boolean. |
-| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Visszaadja vagy beállítja az alsó margót (pontban) egy TextFrame-ben. Olvasás/írás Double. |
-| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Visszaadja vagy beállítja a bal margót (pontban) egy TextFrame-ben. Olvasás/írás Double. |
-| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Visszaadja vagy beállítja a jobb margót (pontban) egy TextFrame-ben. Olvasás/írás Double. |
-| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Visszaadja vagy beállítja a felső margót (pontban) egy TextFrame-ben. Olvasás/írás Double. |
-| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Meghatározza a szövegre a keretben alkalmazott egyéni forgatást. Ha nincs megadva, a kísérő alakzat forgatását használja. Ha meg van adva, akkor ez függetlenül az alakzattól kerül alkalmazásra. Vagyis az alakzat rendelkezhet forgatással, miközben a szöveg maga is forgatva van. A vizuális szöveg forgatásának eredő értéke ebből a tulajdonságból és a TextVerticalType tulajdonságban előre definiált vertikális típusból származik. Olvasás/írás Single. |
+| [AnchoringType](../../aspose.slides/itextframeformat/anchoringtype) { get; set; } | Visszaadja vagy beállítja a függőleges rögzítési szöveget egy TextFrame-ben. Olvasás/írás [`TextAnchorType`](../textanchortype). |
+| [AutofitType](../../aspose.slides/itextframeformat/autofittype) { get; set; } | Visszaadja vagy beállítja a szöveg automatikus illesztés módját. Olvasás/írás [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/itextframeformat/centertext) { get; set; } | Ha NullableBool.True, akkor a szövegnek vízszintesen kell középre kerülni a dobozban. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/itextframeformat/columncount) { get; set; } | Visszaadja vagy beállítja a szövegtér oszlopainak számát. Ennek az értéknek pozitív számnak kell lennie. Ellenkező esetben az érték nulla lesz. A 0 érték meghatározatlan értéket jelent. Olvasás/írás Int32. |
+| [ColumnSpacing](../../aspose.slides/itextframeformat/columnspacing) { get; set; } | Visszaadja vagy beállítja a szövegoszlopok közti távolságot a szövegtérben (pontban). Ez csak akkor érvényes, ha több mint 1 oszlop van. Ennek az értéknek pozitív számnak kell lennie. Ellenkező esetben az érték nulla lesz. Olvasás/írás Double. |
+| [KeepTextFlat](../../aspose.slides/itextframeformat/keeptextflat) { get; set; } | Visszaadja vagy beállítja, hogy a szöveg teljesen ki legyen zárva a 3D jelenetből. Olvasás/írás Boolean. |
+| [MarginBottom](../../aspose.slides/itextframeformat/marginbottom) { get; set; } | Visszaadja vagy beállítja a TextFrame alsó margóját (pontban). Olvasás/írás Double. |
+| [MarginLeft](../../aspose.slides/itextframeformat/marginleft) { get; set; } | Visszaadja vagy beállítja a TextFrame bal margóját (pontban). Olvasás/írás Double. |
+| [MarginRight](../../aspose.slides/itextframeformat/marginright) { get; set; } | Visszaadja vagy beállítja a TextFrame jobb margóját (pontban). Olvasás/írás Double. |
+| [MarginTop](../../aspose.slides/itextframeformat/margintop) { get; set; } | Visszaadja vagy beállítja a TextFrame felső margóját (pontban). Olvasás/írás Double. |
+| [RotationAngle](../../aspose.slides/itextframeformat/rotationangle) { get; set; } | Meghatározza a szövegre alkalmazott egyéni forgatást a körülhatároló keretben. Ha nincs megadva, akkor a mellékelt alakzat forgatása kerül felhasználásra. Ha meg van adva, akkor ez függetlenül alkalmazandó az alakzattól. Vagyis az alakzat kaphat forgatást, miközben a szöveg maga is kap forgatást. A vizuális szövegforgatás eredő értéke ebből a tulajdonságból és a TextVerticalType előre definiált függőleges típusából származik. Olvasás/írás Single. |
 | [TextStyle](../../aspose.slides/itextframeformat/textstyle) { get; } | Visszaadja a szöveg stílusát. Csak olvasható [`ITextStyle`](../itextstyle). |
-| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Meghatározza a szöveg tájolását. A vizuális szöveg forgatásának eredő értéke ebből a tulajdonságból és a RotationAngle tulajdonságban megadott egyéni szögekből áll össze. Olvasás/írás [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Visszaadja a ThreeDFormat objektumot, amely a szöveg 3D hatásának tulajdonságait képviseli. Csak olvasható [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Lekéri vagy beállítja a szöveg körbefuttatásához használt alakzatot. Olvasás/írás [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** ha a szöveg a TextFrame margóinál van körbefuttatva. Olvasás/írás [`NullableBool`](../nullablebool). |
+| [TextVerticalType](../../aspose.slides/itextframeformat/textverticaltype) { get; set; } | Meghatározza a szöveg tájolását. A vizuális szövegforgatás eredő értéke ebből a tulajdonságból és a RotationAngle egyéni szögéből származik. Olvasás/írás [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/itextframeformat/threedformat) { get; } | Visszaadja a ThreeDFormat objektumot, amely a szöveg 3D hatás tulajdonságait képviseli. Csak olvasható [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/itextframeformat/transform) { get; set; } | Lekéri vagy beállítja a szöveg körbefuttatásának alakját. Olvasás/írás [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/itextframeformat/wraptext) { get; set; } | **True** ha a szöveg a TextFrame margóinál kerül beletekerésre. Olvasás/írás [`NullableBool`](../nullablebool). |
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |

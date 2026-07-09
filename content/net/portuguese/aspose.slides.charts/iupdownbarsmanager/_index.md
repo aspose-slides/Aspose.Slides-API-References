@@ -1,14 +1,14 @@
 ---
 title: IUpDownBarsManager
-second_title: Aspose.Sildes para .NET Referência da API
-description: Fornece acesso às barras de alta/baixa de um gráfico de linha ou de ações.
+second_title: Referência da API Aspose.Sildes para .NET
+description: Fornece acesso às barras de alta/baixa de gráfico de linha ou de ações.
 type: docs
-weight: 2240
+weight: 2260
 url: /pt/aspose.slides.charts/iupdownbarsmanager/
 ---
-## IUpDownBarsManager interface
+## interface IUpDownBarsManager
 
-Fornece acesso às barras de alta/baixa de um gráfico de linha ou de ações.
+Fornece acesso às barras de alta/baixa de gráfico de linha ou de ações.
 
 ```csharp
 public interface IUpDownBarsManager
@@ -18,12 +18,12 @@ public interface IUpDownBarsManager
 
 | Nome | Descrição |
 | --- | --- |
-| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Retorna o formato das barras inferiores. Somente leitura [`IFormat`](../iformat). |
-| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retorna ou define a largura do intervalo. Leitura/gravação Int32. |
+| [DownBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/downbarsformat) { get; } | Retorna o formato das barras de baixa. Somente leitura [`IFormat`](../iformat). |
+| [GapWidth](../../aspose.slides.charts/iupdownbarsmanager/gapwidth) { get; set; } | Retorna ou define a largura do espaço. Leitura/gravação Int32. |
 | [HasUpDownBars](../../aspose.slides.charts/iupdownbarsmanager/hasupdownbars) { get; set; } | Determina se o gráfico possui barras de alta/baixa. Leitura/gravação Boolean. |
-| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Retorna o formato das barras superiores. Somente leitura [`IFormat`](../iformat). |
+| [UpBarsFormat](../../aspose.slides.charts/iupdownbarsmanager/upbarsformat) { get; } | Retorna o formato das barras de alta. Somente leitura [`IFormat`](../iformat). |
 
-### Ver Também
+### Veja Também
 
 * namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
 * assembly [Aspose.Slides](../../)

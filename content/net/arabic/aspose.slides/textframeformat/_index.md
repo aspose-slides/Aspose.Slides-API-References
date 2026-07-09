@@ -1,14 +1,14 @@
 ---
 title: TextFrameFormat
-second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحتوي على خصائص formatTextFrameFormatting الخاصة بـ TextFrames.
+second_title: مرجع API ل Aspose.Sildes للـ .NET
+description: يحتوي على خصائص formatTextFrameFormatting لـ TextFrames.
 type: docs
 weight: 10960
 url: /ar/aspose.slides/textframeformat/
 ---
-## TextFrameFormat فئة
+## فئة TextFrameFormat
 
-تحتوي على خصائص formatTextFrameFormatting الخاصة بـ TextFrame.
+يحتوي على خصائص formatTextFrameFormatting لإطار TextFrame.
 
 ```csharp
 public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFrameFormat
@@ -16,45 +16,45 @@ public sealed class TextFrameFormat : PVIObject, IChartTextBlockFormat, ITextFra
 
 ## المنشئات
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [TextFrameFormat](textframeformat)() | ينشئ مثيلاً جديدًا للفئة [`TextFrameFormat`](../textframeformat). |
+| [TextFrameFormat](textframeformat)() | ينشئ مثالا جديدا من الفئة [`TextFrameFormat`](../textframeformat). |
 
 ## الخصائص
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
-| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | يرجع أو يعيّن النص العمودي المرتبط في TextFrame. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يتيح الحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
-| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | يرجع أو يعيّن وضع ملاءمة النص تلقائيًا. قراءة/كتابة [`TextAutofitType`](../textautofittype). |
-| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | إذا كان NullableBool.True فإن النص يجب أن يُوسَّط أفقيًا داخل الصندوق. قراءة/كتابة [`NullableBool`](../nullablebool). |
-| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | يرجع أو يعيّن عدد الأعمدة في مساحة النص. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا فسيتم ضبطها على الصفر. القيمة 0 تعني قيمة غير معرَّفة. قراءة/كتابة Int32. |
-| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | يرجع أو يعيّن المسافة بين أعمدة النص في مساحة النص (بالنقاط). يجب أن يُطبق ذلك فقط عندما يكون هناك أكثر من عمود واحد. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا فسيتم ضبطها على الصفر. قراءة/كتابة Double. |
-| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | يحصل أو يعيّن إبقاء النص مسطحًا حتى إذا تم تطبيق تأثير دوران ثلاثي الأبعاد. قراءة/كتابة Boolean. |
-| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | يرجع أو يعيّن الهامش السفلي (نقاط) في TextFrame. قراءة/كتابة Double. |
-| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | يرجع أو يعيّن الهامش الأيسر (نقاط) في TextFrame. قراءة/كتابة Double. |
-| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | يرجع أو يعيّن الهامش الأيمن (نقاط) في TextFrame. قراءة/كتابة Double. |
-| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | يرجع أو يعيّن الهامش العلوي (نقاط) في TextFrame. قراءة/كتابة Double. |
-| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | يحدد الدوران المخصص المطبق على النص داخل الصندوق المحيط. إذا لم يُحدَّد، يُستخدم دوران الشكل المرافق. إذا تم تحديده، يُطبق هذا بشكل مستقل عن الشكل. أي يمكن أن يكون لدى الشكل دوران إضافي إلى جانب دوران النص نفسه. القيمة الناتجة للدوران البصري للنص ملخصة من هذه الخاصية والنوع الرأسي المحدد مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
-| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | يحدد اتجاه النص. القيمة الناتجة للدوران البصري للنص ملخصة من هذه الخاصية والزاوية المخصصة في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
-| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | يرجع كائن ThreeDFormat الذي يمثل خصائص التأثير ثلاثي الأبعاد للنص. قراءة فقط [`IThreeDFormat`](../ithreedformat). |
-| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | يحصل أو يعيّن شكل التفاف النص. قراءة/كتابة [`TextShapeType`](../textshapetype). |
-| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** إذا كان النص ملتفًا عند هوامش TextFrame. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [AnchoringType](../../aspose.slides/textframeformat/anchoringtype) { get; set; } | تعيد أو تعين النص العمودي المرتبط في TextFrame. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | يسمح بالحصول على واجهة IPresentationComponent الأساسية. قراءة فقط [`IPresentationComponent`](../ipresentationcomponent). |
+| [AutofitType](../../aspose.slides/textframeformat/autofittype) { get; set; } | تعيد أو تعين وضع التعبئة التلقائية للنص. قراءة/كتابة [`TextAutofitType`](../textautofittype). |
+| [CenterText](../../aspose.slides/textframeformat/centertext) { get; set; } | إذا كان NullableBool.True فإن النص يجب أن يتمركز أفقياً داخل الصندوق. قراءة/كتابة [`NullableBool`](../nullablebool). |
+| [ColumnCount](../../aspose.slides/textframeformat/columncount) { get; set; } | تعيد أو تعين عدد الأعمدة في منطقة النص. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا سيتم تعيين القيمة إلى صفر. القيمة 0 تعني قيمة غير معرفة. قراءة/كتابة Int32. |
+| [ColumnSpacing](../../aspose.slides/textframeformat/columnspacing) { get; set; } | تعيد أو تعين المسافة بين أعمدة النص في منطقة النص (بالنقاط). يجب أن يُطبق ذلك فقط عندما يكون هناك أكثر من عمود واحد. يجب أن تكون هذه القيمة عددًا موجبًا. وإلا سيتم تعيين القيمة إلى صفر. قراءة/كتابة Double. |
+| [KeepTextFlat](../../aspose.slides/textframeformat/keeptextflat) { get; set; } | تعيد أو تعين الحفاظ على النص مسطحًا حتى إذا تم تطبيق تأثير دوران ثلاثي الأبعاد. قراءة/كتابة Boolean. |
+| [MarginBottom](../../aspose.slides/textframeformat/marginbottom) { get; set; } | تعيد أو تعين الهامش السفلي (نقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginLeft](../../aspose.slides/textframeformat/marginleft) { get; set; } | تعيد أو تعين الهامش الأيسر (نقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginRight](../../aspose.slides/textframeformat/marginright) { get; set; } | تعيد أو تعين الهامش الأيمن (نقاط) في TextFrame. قراءة/كتابة Double. |
+| [MarginTop](../../aspose.slides/textframeformat/margintop) { get; set; } | تعيد أو تعين الهامش العلوي (نقاط) في TextFrame. قراءة/كتابة Double. |
+| [RotationAngle](../../aspose.slides/textframeformat/rotationangle) { get; set; } | يحدد دورانًا مخصصًا يطبق على النص داخل المربع المحيط. إذا لم يتم تحديده، يتم استخدام دوران الشكل المصاحب. إذا تم تحديده، فسيُطبق بشكل مستقل عن الشكل. أي أن الشكل يمكن أن يكون له دوران بالإضافة إلى أن النص نفسه له دوران. القيمة الناتجة لتدوير النص البصري ملخصة من هذه الخاصية والنوع الرأسي المحدد مسبقًا في الخاصية TextVerticalType. قراءة/كتابة Single. |
+| [TextVerticalType](../../aspose.slides/textframeformat/textverticaltype) { get; set; } | يحدد اتجاه النص. القيمة الناتجة لتدوير النص البصري ملخصة من هذه الخاصية والزاوية المخصصة في الخاصية RotationAngle. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
+| [ThreeDFormat](../../aspose.slides/textframeformat/threedformat) { get; } | تعيد كائن ThreeDFormat الذي يمثل خصائص التأثير ثلاثي الأبعاد للنص. قراءة فقط [`IThreeDFormat`](../ithreedformat). |
+| [Transform](../../aspose.slides/textframeformat/transform) { get; set; } | تعيد أو تعين شكل تغليف النص. قراءة/كتابة [`TextShapeType`](../textshapetype). |
+| [WrapText](../../aspose.slides/textframeformat/wraptext) { get; set; } | **True** إذا تم تغليف النص عند هوامش TextFrame. قراءة/كتابة [`NullableBool`](../nullablebool). |
 
 ## الطرق
 
-| الاسم | الوصف |
+| Name | Description |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | يقارن مع الكائن المحدد. |
-| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | يحصل على بيانات تنسيق إطار النص الفعّالة مع تطبيق الوراثة. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | يرجع رمز التجزئة. |
+| [GetEffective](../../aspose.slides/textframeformat/geteffective)() | يحصل على بيانات تنسيق إطار النص الفعالة مع تطبيق الوراثة. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | تعيد رمز التجزئة. |
 
 ### انظر أيضًا
 
 * فئة [PVIObject](../pviobject)
 * واجهة [IChartTextBlockFormat](../../aspose.slides.charts/icharttextblockformat)
 * واجهة [ITextFrameFormat](../itextframeformat)
-* مساحة اسم [Aspose.Slides](../../aspose.slides)
+* مساحة الاسم [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

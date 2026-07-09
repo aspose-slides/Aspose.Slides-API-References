@@ -8,7 +8,7 @@ url: /ko/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData 인터페이스
 
-효과 스타일 속성을 포함하는 불변 객체.
+효과적인 효과 스타일 속성을 포함하는 불변 객체입니다.
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,8 +18,8 @@ public interface IEffectStyleEffectiveData
 
 | 이름 | 설명 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 효과 형식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
-| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 3D 형식을 반환합니다. 읽기 전용 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 효과 서식을 반환합니다. 읽기 전용 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata). |
+| [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 3d 서식을 반환합니다. 읽기 전용 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata). |
 
 ### 비고
 

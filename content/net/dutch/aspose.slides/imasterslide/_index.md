@@ -1,14 +1,14 @@
 ---
 title: IMasterSlide
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een masterslide voor in een presentatie.
+description: Stelt een masterdia voor in een presentatie.
 type: docs
 weight: 6420
 url: /nl/aspose.slides/imasterslide/
 ---
 ## IMasterSlide interface
 
-Stelt een masterslide voor in een presentatie.
+Stelt een masterdia voor in een presentatie.
 
 ```csharp
 public interface IMasterSlide : IBaseSlide, IMasterThemeable
@@ -18,29 +18,29 @@ public interface IMasterSlide : IBaseSlide, IMasterThemeable
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Staat toe om de basis IBaseSlide-interface te verkrijgen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
-| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Retourneert IMasterThemeable-interface. Alleen-lezen [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
-| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Retourneert de stijl van een hoofdtekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
-| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Retourneert een collectie tekeningsgidsen voor de masterslide. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
-| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Retourneert true als er ten minste één dia bestaat die afhangt van deze masterslide. Alleen-lezen Boolean. |
-| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Retourneert HeaderFooter-beheerder van de masterslide. Alleen-lezen [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
-| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Retourneert de collectie van onderliggende lay-outdia's voor deze masterslide. Alleen-lezen [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
+| [AsIBaseSlide](../../aspose.slides/imasterslide/asibaseslide) { get; } | Staat toe om de basis IBaseSlide interface op te halen. Alleen-lezen [`IBaseSlide`](../ibaseslide). |
+| [AsIMasterThemeable](../../aspose.slides/imasterslide/asimasterthemeable) { get; } | Retourneert IMasterThemeable interface. Alleen-lezen [`IMasterThemeable`](../../aspose.slides.theme/imasterthemeable). |
+| [BodyStyle](../../aspose.slides/imasterslide/bodystyle) { get; } | Retourneert de stijl van een body-tekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
+| [DrawingGuides](../../aspose.slides/imasterslide/drawingguides) { get; } | Retourneert een verzameling tekenrichtlijnen voor de masterdia. Alleen-lezen [`IDrawingGuidesCollection`](../idrawingguidescollection) |
+| [HasDependingSlides](../../aspose.slides/imasterslide/hasdependingslides) { get; } | Retourneert true als er minstens één dia bestaat die afhankelijk is van deze masterdia. Alleen-lezen Boolean. |
+| [HeaderFooterManager](../../aspose.slides/imasterslide/headerfootermanager) { get; } | Retourneert HeaderFooter-beheerder van de masterdia. Alleen-lezen [`IMasterSlideHeaderFooterManager`](../imasterslideheaderfootermanager). |
+| [LayoutSlides](../../aspose.slides/imasterslide/layoutslides) { get; } | Retourneert de verzameling onderliggende layout-dia's voor deze masterdia. Alleen-lezen [`IMasterLayoutSlideCollection`](../imasterlayoutslidecollection). |
 | [OtherStyle](../../aspose.slides/imasterslide/otherstyle) { get; } | Retourneert de stijl van een andere tekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
-| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bepaalt of de corresponderende master wordt verwijderd wanneer alle dia's die die master volgen, worden verwijderd. Opmerking: Aspose.Slides verwijdert nooit zelf een ongebruikte master; om ongebruikte masters daadwerkelijk te verwijderen, roep [`RemoveUnused`](../imasterslidecollection/removeunused) aan. Lezen/Schrijven Boolean. |
-| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Retourneert de stijl van een titeltekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
+| [Preserve](../../aspose.slides/imasterslide/preserve) { get; set; } | Bepaalt of de bijbehorende master wordt verwijderd wanneer alle dia's die die master volgen, zijn verwijderd. Opmerking: Aspose.Slides zal nooit een ongebruikte master zelf verwijderen; om ongebruikte masters daadwerkelijk te verwijderen, roep [`RemoveUnused`](../imasterslidecollection/removeunused) aan. Lezen/Schrijven Boolean. |
+| [TitleStyle](../../aspose.slides/imasterslide/titlestyle) { get; } | Retourneert de stijl van een titel-tekst. Alleen-lezen [`ITextStyle`](../itextstyle). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Maakt een nieuwe masterslide op basis van de huidige, past er een extern thema op toe en past de gemaakte masterslide toe op alle afhankelijke dia's. |
-| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Retourneert een array met alle dia's die afhankelijk zijn van deze masterslide. |
+| [ApplyExternalThemeToDependingSlides](../../aspose.slides/imasterslide/applyexternalthemetodependingslides)(string) | Maakt een nieuwe masterdia op basis van de huidige, past er een extern thema op toe en past de gemaakte masterdia toe op alle afhankelijke dia's. |
+| [GetDependingSlides](../../aspose.slides/imasterslide/getdependingslides)() | Retourneert een array met alle dia's die afhankelijk zijn van deze masterdia. |
 
-### Zie ook
+### Zie Ook
 
 * interface [IBaseSlide](../ibaseslide)
 * interface [IMasterThemeable](../../aspose.slides.theme/imasterthemeable)
-* namespace [Aspose.Slides](../../aspose.slides)
-* assembly [Aspose.Slides](../../)
+* naamruimte [Aspose.Slides](../../aspose.slides)
+* assemblage [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

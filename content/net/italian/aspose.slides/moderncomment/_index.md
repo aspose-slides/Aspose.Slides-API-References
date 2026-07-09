@@ -1,12 +1,12 @@
 ---
 title: ModernComment
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Rappresenta un commento su una diapositiva.
 type: docs
-weight: 9070
+weight: 9090
 url: /it/aspose.slides/moderncomment/
 ---
-## classe ModernComment
+## ModernComment classe
 
 Rappresenta un commento su una diapositiva.
 
@@ -19,21 +19,21 @@ public sealed class ModernComment : Comment, IModernComment
 | Nome | Descrizione |
 | --- | --- |
 | [Author](../../aspose.slides/comment/author) { get; } | Restituisce l'autore di un commento. Solo lettura [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Restituisce o imposta l'ora di creazione di un commento. Impostare questa proprietà su MinValue significa che l'ora del commento non è impostata. Lettura/Scrittura DateTime. |
-| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ottiene o imposta il commento principale. Lettura/Scrittura [`IComment`](../icomment). |
-| [Position](../../aspose.slides/comment/position) { get; set; } | Restituisce o imposta la posizione di un commento su una diapositiva. Lettura/Scrittura PointF. |
+| [CreatedTime](../../aspose.slides/comment/createdtime) { get; set; } | Restituisce o imposta l'ora di creazione di un commento. Impostare questa proprietà a MinValue indica che non è impostata alcuna ora per il commento. Lettura/scrittura DateTime. |
+| [ParentComment](../../aspose.slides/comment/parentcomment) { get; set; } | Ottiene o imposta il commento padre. Lettura/scrittura [`IComment`](../icomment). |
+| [Position](../../aspose.slides/comment/position) { get; set; } | Restituisce o imposta la posizione di un commento su una diapositiva. Lettura/scrittura PointF. |
 | [Shape](../../aspose.slides/moderncomment/shape) { get; } | Restituisce una forma associata al commento. Solo lettura [`IShape`](../ishape). |
-| [Slide](../../aspose.slides/comment/slide) { get; } | Restituisce o imposta la diapositiva principale di un commento. Solo lettura [`ISlide`](../islide). |
-| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Ottiene o imposta lo stato del commento. Lettura/Scrittura [`ModernCommentStatus`](../moderncommentstatus). |
-| [Text](../../aspose.slides/comment/text) { get; set; } | Restituisce o imposta il testo semplice di un commento su diapositiva. Lettura/Scrittura String. |
-| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Ottiene o imposta la lunghezza della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/Scrittura Int32. |
-| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Ottiene o imposta la posizione iniziale della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/Scrittura Int32. |
+| [Slide](../../aspose.slides/comment/slide) { get; } | Restituisce o imposta la diapositiva padre di un commento. Solo lettura [`ISlide`](../islide). |
+| [Status](../../aspose.slides/moderncomment/status) { get; set; } | Ottiene o imposta lo stato del commento. Lettura/scrittura [`ModernCommentStatus`](../moderncommentstatus). |
+| [Text](../../aspose.slides/comment/text) { get; set; } | Restituisce o imposta il testo semplice di un commento su una diapositiva. Lettura/scrittura String. |
+| [TextSelectionLength](../../aspose.slides/moderncomment/textselectionlength) { get; set; } | Ottiene o imposta la lunghezza della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
+| [TextSelectionStart](../../aspose.slides/moderncomment/textselectionstart) { get; set; } | Ottiene o imposta la posizione iniziale della selezione di testo nel riquadro di testo se il commento è associato a AutoShape. Lettura/scrittura Int32. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.slides/comment/remove)() | Rimuove il commento e tutte le sue risposte dalla collezione principale. |
+| [Remove](../../aspose.slides/comment/remove)() | Rimuove il commento e tutte le sue risposte dalla collezione padre. |
 
 ### Esempi
 

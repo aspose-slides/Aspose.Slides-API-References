@@ -6,7 +6,7 @@ type: docs
 weight: 2430
 url: /ko/aspose.slides.charts/styletype/
 ---
-## StyleType enumeration
+## StyleType 열거형
 
 차트 스타일을 나타냅니다.
 
@@ -14,9 +14,9 @@ url: /ko/aspose.slides.charts/styletype/
 public enum StyleType
 ```
 
-### Values
+### 값
 
-| Name | Value | Description |
+| 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Style1 | `0` | 스타일 1 |
 | Style2 | `1` | 스타일 2 |
@@ -67,7 +67,7 @@ public enum StyleType
 | Style47 | `46` | 스타일 47 |
 | Style48 | `47` | 스타일 48 |
 
-### 관련 항목
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,12 +1,12 @@
 ---
 title: SaveOptionsFactory
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก
 type: docs
 weight: 4460
 url: /th/aspose.slides.export/saveoptionsfactory/
 ---
-## คลาส SaveOptionsFactory
+## SaveOptionsFactory คลาส
 
 อนุญาตให้สร้างอินสแตนซ์ของตัวเลือกการบันทึก
 

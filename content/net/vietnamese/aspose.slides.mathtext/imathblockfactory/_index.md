@@ -8,7 +8,7 @@ url: /vi/aspose.slides.mathtext/imathblockfactory/
 ---
 ## IMathBlockFactory giao diện
 
-Cho phép tạo khối toán học
+Cho phép tạo một khối toán học
 
 ```csharp
 public interface IMathBlockFactory
@@ -19,8 +19,8 @@ public interface IMathBlockFactory
 | Tên | Mô tả |
 | --- | --- |
 | [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock)() | Tạo một khối toán học |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Tạo một khối toán học và đặt phần tử vào trong |
-| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Tạo một khối toán học và đặt các phần tử vào trong |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_1)(IMathElement) | Tạo một khối toán học và đặt phần tử vào trong đó |
+| [CreateMathBlock](../../aspose.slides.mathtext/imathblockfactory/createmathblock#createmathblock_2)(IMathElementCollection) | Tạo một khối toán học và đặt các phần tử vào trong đó |
 
 ### Ghi chú
 

@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes 用 .NET API リファレンス
-description: レイアウト スライド テーマのオーバーライドへのアクセスを提供します。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: レイアウトスライドテーマのオーバーライドへのアクセスを提供します。
 type: docs
-weight: 11390
+weight: 11410
 url: /ja/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager クラス
 
-レイアウト スライド テーマのオーバーライドへのアクセスを提供します。
+レイアウトスライドテーマのオーバーライドへのアクセスを提供します。
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -16,19 +16,19 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 ## プロパティ
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマを上書きするかどうかを決定します。OverrideTheme を上書きできるようにするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme の上書きを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用の Boolean。 |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 上書きテーマ オブジェクトを返します。読み書き可能な [`IOverrideTheme`](../ioverridetheme)。 |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme が継承された有効なテーマをオーバーライドするかどうかを決定します。OverrideTheme のオーバーライドを有効にするには OverrideTheme.Init*() メソッドを使用します。OverrideTheme のオーバーライドを無効にするには OverrideTheme.Clear() メソッドを使用します。読み取り専用の Boolean。 |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | オーバーライドされたテーマオブジェクトを返します。読み書き可能な [`IOverrideTheme`](../ioverridetheme)。 |
 
 ## メソッド
 
-| Name | Description |
+| 名前 | 説明 |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | スライドに追加のカラースキームを適用します。 |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマ オブジェクトを返します。 |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | テーマオブジェクトを返します。 |
 
-### 参照
+### 関連項目
 
 * クラス [BaseOverrideThemeManager](../baseoverridethememanager)
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)

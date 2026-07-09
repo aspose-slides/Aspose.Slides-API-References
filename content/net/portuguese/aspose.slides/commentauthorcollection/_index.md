@@ -3,12 +3,12 @@ title: CommentAuthorCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Representa uma coleção de autores de comentários.
 type: docs
-weight: 2620
+weight: 2640
 url: /pt/aspose.slides/commentauthorcollection/
 ---
-## Classe CommentAuthorCollection
+## CommentAuthorCollection classe
 
-Representa uma coleção de autores de comentários.
+Representa uma coleção de autores de comentário.
 
 ```csharp
 public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentAuthorCollection
@@ -32,12 +32,12 @@ public sealed class CommentAuthorCollection : DomObject<Presentation>, ICommentA
 | [CopyTo](../../aspose.slides/commentauthorcollection/copyto)(Array, int) | Copia todos os elementos da coleção para o array especificado. |
 | [FindByName](../../aspose.slides/commentauthorcollection/findbyname)(string) | Encontra autor em uma coleção pelo nome. |
 | [FindByNameAndInitials](../../aspose.slides/commentauthorcollection/findbynameandinitials)(string, string) | Encontra autor em uma coleção pelo nome e iniciais. |
-| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Retorna um enumerador que itera pela coleção. |
+| [GetEnumerator](../../aspose.slides/commentauthorcollection/getenumerator)() | Retorna um enumerador que itera através da coleção. |
 | [Remove](../../aspose.slides/commentauthorcollection/remove)(ICommentAuthor) | Remove a primeira ocorrência do autor especificado em uma coleção. |
 | [RemoveAt](../../aspose.slides/commentauthorcollection/removeat)(int) | Remove o autor no índice especificado da coleção. |
 | [ToArray](../../aspose.slides/commentauthorcollection/toarray)() | Cria e retorna um array com todos os autores. |
 
-### Ver Também
+### Veja Também
 
 * classe [DomObject&lt;TParent&gt;](../domobject-1)
 * classe [Presentation](../presentation)

@@ -1,20 +1,20 @@
 ---
 title: LightingDirection
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: ค่าคงที่ที่กำหนดทิศทางของแสง.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: ค่าสถิตที่กำหนดทิศทางของแสง.
 type: docs
 weight: 7710
 url: /th/aspose.slides/lightingdirection/
 ---
 ## LightingDirection enum
 
-ค่าคงที่ที่กำหนดทิศทางของแสง.
+ค่าคงที่ที่กำหนดทิศทางของแสง
 
 ```csharp
 public enum LightingDirection
 ```
 
-### ค่าต่างๆ
+### ค่า
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |

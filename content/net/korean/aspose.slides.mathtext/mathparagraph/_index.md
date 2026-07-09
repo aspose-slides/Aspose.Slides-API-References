@@ -1,14 +1,14 @@
 ---
 title: MathParagraph
-second_title: Aspose.Sildes for .NET API 참조
-description: 수학 블록 IMathBlock을 위한 컨테이너인 수학 단락
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 수학 블록 IMathBlock의 컨테이너인 수학 단락
 type: docs
 weight: 8900
 url: /ko/aspose.slides.mathtext/mathparagraph/
 ---
 ## MathParagraph 클래스
 
-수학 블록 (IMathBlock)을 위한 컨테이너인 수학 단락
+수학 블록(IMathBlock)의 컨테이너인 수학 단락.
 
 ```csharp
 public class MathParagraph : IMathParagraph
@@ -25,27 +25,27 @@ public class MathParagraph : IMathParagraph
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | 컬렉션에 실제로 포함된 요소의 수를 가져옵니다. 읽기 전용 Int32. |
+| [Count](../../aspose.slides.mathtext/mathparagraph/count) { get; } | 컬렉션에 실제로 포함된 요소 수를 가져옵니다. 읽기 전용 Int32. |
 | [Item](../../aspose.slides.mathtext/mathparagraph/item) { get; set; } | 지정된 인덱스에 있는 항목을 가져옵니다. 읽기 전용 [`IMathBlock`](../imathblock). |
-| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification 기본값: CenteredAsGroup |
+| [Justification](../../aspose.slides.mathtext/mathparagraph/justification) { get; set; } | Paragraph Justification Default value: CenteredAsGroup |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
 | [Add](../../aspose.slides.mathtext/mathparagraph/add)(IMathBlock) | 컬렉션의 끝에 IMathBlock을 추가합니다. |
-| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | 컬렉션에서 모든 요소를 제거합니다. |
+| [Clear](../../aspose.slides.mathtext/mathparagraph/clear)() | 컬렉션의 모든 요소를 제거합니다. |
 | [Contains](../../aspose.slides.mathtext/mathparagraph/contains)(IMathBlock) | 컬렉션에 특정 값이 포함되어 있는지 확인합니다. |
 | [IndexOf](../../aspose.slides.mathtext/mathparagraph/indexof)(IMathBlock) | 컬렉션에서 특정 IMathBlock의 인덱스를 확인합니다. |
 | [Insert](../../aspose.slides.mathtext/mathparagraph/insert)(int, IMathBlock) | 지정된 인덱스에 IMathBlock을 컬렉션에 삽입합니다. |
-| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | 컬렉션에서 특정 객체의 첫 번째 발생을 제거합니다/&gt;. |
-| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | 컬렉션의 지정된 인덱스에 있는 항목을 제거합니다. |
-| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | LaTeX 형식의 수학 방정식을 가져옵니다 |
-| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | 이 [`MathParagraph`](../mathparagraph)의 내용을 MathML로 저장합니다 |
+| [Remove](../../aspose.slides.mathtext/mathparagraph/remove)(IMathBlock) | 컬렉션에서 특정 객체의 첫 번째 항목을 제거합니다. |
+| [RemoveAt](../../aspose.slides.mathtext/mathparagraph/removeat)(int) | 지정된 인덱스의 항목을 컬렉션에서 제거합니다. |
+| [ToLatex](../../aspose.slides.mathtext/mathparagraph/tolatex)() | LaTeX 형식의 수학 방정식을 가져옵니다. |
+| [WriteAsMathMl](../../aspose.slides.mathtext/mathparagraph/writeasmathml)(Stream) | 이 [`MathParagraph`](../mathparagraph)의 내용을 MathML로 저장합니다. |
 
-### 예시
+### 예제
 
-예시:
+예제:
 
 ```csharp
 [C#]
@@ -54,7 +54,7 @@ IMathParagraph mathParagraph = (shape.TextFrame.Paragraphs[0].Portions[0] as Mat
 mathParagraph.Justification = MathJustification.LeftJustified;
 ```
 
-### 참조
+### 참고
 
 * 인터페이스 [IMathParagraph](../imathparagraph)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

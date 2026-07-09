@@ -1,30 +1,30 @@
 ---
 title: BrowsedByIndividual
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: 個別ウィンドウで閲覧
 type: docs
-weight: 1030
+weight: 1050
 url: /ja/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual クラス
 
-個別に閲覧 (ウィンドウ)
+個別閲覧 (ウィンドウ)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
 ```
 
-## コンストラクター
+## コンストラクタ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
 | [BrowsedByIndividual](browsedbyindividual)() | BrowsedByIndividual クラスの新しいインスタンスを初期化します。 |
 
 ## プロパティ
 
-| 名前 | 説明 |
+| Name | Description |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | ウィンドウにスクロールバーを表示 |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | ウィンドウにスクロールバーを表示します |
 
 ### 例
 

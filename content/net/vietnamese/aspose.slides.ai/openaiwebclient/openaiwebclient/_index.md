@@ -1,6 +1,6 @@
 ---
 title: OpenAIWebClient
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Tạo một thể hiện của client web OpenAI.
 type: docs
 weight: 10
@@ -16,7 +16,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| model | String | Mô hình ngôn ngữ OpenAI. Các giá trị có thể: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | Mô hình ngôn ngữ OpenAI. Các giá trị khả dụng: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | Khóa API OpenAI. |
 | organizationId | String | ID tổ chức (tùy chọn). |
 
@@ -37,7 +37,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId)
 
 ## OpenAIWebClient(string, string, string, HttpClient) {#constructor_1}
 
-Tạo một thể hiện của client web OpenAI sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không bị giải phóng bởi thể hiện này và vẫn thuộc quyền sở hữu của người gọi.
+Tạo một thể hiện của client web OpenAI sử dụng HttpClient được quản lý bên ngoài. HttpClient được cung cấp sẽ không được giải phóng bởi thể hiện này và vẫn thuộc quyền sở hữu của người gọi.
 
 ```csharp
 public OpenAIWebClient(string model, string apiKey, string organizationId, HttpClient httpClient)
@@ -45,7 +45,7 @@ public OpenAIWebClient(string model, string apiKey, string organizationId, HttpC
 
 | Tham số | Kiểu | Mô tả |
 | --- | --- | --- |
-| model | String | Mô hình ngôn ngữ OpenAI. Các giá trị có thể: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
+| model | String | Mô hình ngôn ngữ OpenAI. Các giá trị khả dụng: - gpt-4o - gpt-4o-mini - o1 - o1-mini - o3 - o3-mini |
 | apiKey | String | Khóa API OpenAI |
 | organizationId | String | ID tổ chức (tùy chọn) |
 | httpClient | HttpClient | Một thể hiện `HttpClient` được quản lý bên ngoài |

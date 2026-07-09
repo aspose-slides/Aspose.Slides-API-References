@@ -3,7 +3,7 @@ title: PptEditException
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar ett undantag som kastas när ett fel vid redigering av presentationen upptäcks.
 type: docs
-weight: 9490
+weight: 9510
 url: /sv/aspose.slides/ppteditexception/
 ---
 ## PptEditException klass
@@ -14,12 +14,12 @@ Representerar ett undantag som kastas när ett fel vid redigering av presentatio
 public class PptEditException : PptException
 ```
 
-## Konstruktörer
+## Konstruktorer
 
 | Namn | Beskrivning |
 | --- | --- |
 | [PptEditException](ppteditexception#constructor)() | Standardkonstruktor. |
-| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor som tillåter ett meddelande att läggas till i detta undantag. |
+| [PptEditException](ppteditexception#constructor_1)(string) | Konstruktor som möjliggör att ett meddelande läggs till i detta undantag. |
 | [PptEditException](ppteditexception#constructor_2)(string, Exception) | Konstruktor för ett undantag som innehåller ett meddelande och ett inbäddat undantag. |
 
 ### Se även

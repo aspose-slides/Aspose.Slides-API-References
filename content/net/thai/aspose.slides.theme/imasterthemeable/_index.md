@@ -18,8 +18,8 @@ public interface IMasterThemeable : IThemeable
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | คืนค่า IThemeable อินเทอร์เฟซ. อ่านอย่างเดียว [`IThemeable`](../ithemeable). |
-| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | คืนค่า ตัวจัดการธีมหลัก. อ่านอย่างเดียว [`IMasterThemeManager`](../imasterthememanager). |
+| [AsIThemeable](../../aspose.slides.theme/imasterthemeable/asithemeable) { get; } | คืนค่าอินเทอร์เฟซ IThemeable. อ่านอย่างเดียว [`IThemeable`](../ithemeable). |
+| [ThemeManager](../../aspose.slides.theme/imasterthemeable/thememanager) { get; } | คืนค่าผู้จัดการธีมหลัก. อ่านอย่างเดียว [`IMasterThemeManager`](../imasterthememanager). |
 
 ### ดูเพิ่มเติม
 

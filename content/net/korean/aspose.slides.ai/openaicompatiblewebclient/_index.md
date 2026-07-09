@@ -1,14 +1,14 @@
 ---
 title: OpenAICompatibleWebClient
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 지정된 기본 URL에서 OpenAI 호환 LLM 공급자에 연결하는 내장 IAIWebClient./iaiwebclient 구현입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 지정된 기본 URL에서 OpenAI 호환 LLM 제공자에 연결하는 내장 IAIWebClient./iaiwebclient 구현입니다.
 type: docs
 weight: 40
 url: /ko/aspose.slides.ai/openaicompatiblewebclient/
 ---
 ## OpenAICompatibleWebClient 클래스
 
-지정된 기본 URL에서 OpenAI 호환 LLM 공급자에 연결하는 내장 [`IAIWebClient`](../iaiwebclient) 구현입니다.
+지정된 기본 URL에서 OpenAI 호환 LLM 제공자에 연결하는 내장 [`IAIWebClient`](../iaiwebclient) 구현입니다.
 
 ```csharp
 public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
@@ -19,7 +19,7 @@ public sealed class OpenAICompatibleWebClient : IAIWebClient, IDisposable
 | 이름 | 설명 |
 | --- | --- |
 | [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor)(string, string, string) | OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다. |
-| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | 외부에서 관리되는 HttpClient를 사용하는 OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 해제되지 않으며 호출자에 의해 소유됩니다. |
+| [OpenAICompatibleWebClient](openaicompatiblewebclient#constructor_1)(string, string, string, HttpClient) | 외부에서 관리되는 HttpClient를 사용하는 OpenAI 호환 웹 클라이언트의 인스턴스를 생성합니다. 제공된 HttpClient는 이 인스턴스에 의해 해제되지 않으며 호출자가 소유합니다. |
 
 ## 메서드
 

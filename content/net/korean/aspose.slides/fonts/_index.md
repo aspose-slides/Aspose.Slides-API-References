@@ -1,6 +1,6 @@
 ---
 title: Fonts
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 폰트 컬렉션.
 type: docs
 weight: 4920
@@ -29,9 +29,9 @@ public class Fonts : IFonts
 | [GetScriptFont](../../aspose.slides/fonts/getscriptfont)(string) | 프레젠테이션 테마에서 특정 스크립트 태그와 연결된 글꼴 이름을 가져옵니다. |
 | [GetScriptFontMap](../../aspose.slides/fonts/getscriptfontmap)() | 프레젠테이션에 있는 모든 스크립트 글꼴 정의의 사전을 반환합니다. |
 | [RemoveScriptFont](../../aspose.slides/fonts/removescriptfont)(string) | 테마의 글꼴 컬렉션에서 특정 스크립트 태그와 연결된 글꼴 설정을 제거합니다. |
-| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 특정 스크립트 태그에 글꼴 이름을 할당합니다. 이는 해당 스크립트의 텍스트가 프레젠테이션에서 어떻게 렌더링되는지를 정의합니다. |
+| [SetScriptFont](../../aspose.slides/fonts/setscriptfont)(string, string) | 특정 스크립트 태그에 글꼴 이름을 할당합니다. 이 태그는 프레젠테이션에서 해당 스크립트 텍스트가 렌더링되는 방식을 정의합니다. |
 
-### 참조
+### 참고
 
 * 인터페이스 [IFonts](../ifonts)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

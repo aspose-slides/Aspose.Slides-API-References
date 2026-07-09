@@ -1,14 +1,14 @@
 ---
 title: ColorStringFormat
 second_title: Aspose.Sildes için .NET API Referansı
-description: Bir hiperbağlantı eylemi türünü temsil eder.
+description: Bir hiperlink eylemi türünü temsil eder.
 type: docs
-weight: 2540
+weight: 2560
 url: /tr/aspose.slides/colorstringformat/
 ---
-## ColorStringFormat enum
+## ColorStringFormat numaralandırması
 
-Bir hiperbağlantı eylemi türünü temsil eder.
+Bir hiperlink eylemi türünü temsil eder.
 
 ```csharp
 public enum ColorStringFormat
@@ -18,7 +18,7 @@ public enum ColorStringFormat
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Vml | `0` | VML renk dizesi formatı. |
+| Vml | `0` | VML renk dize biçimi. |
 
 ### Ayrıca Bakınız
 

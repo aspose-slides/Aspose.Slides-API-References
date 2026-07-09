@@ -1,6 +1,6 @@
 ---
 title: PptxException
-second_title: Aspose.Sildes for .NET API 레퍼런스
+second_title: Aspose.Sildes for .NET API 참조
 description: 표준 내부 예외 유형을 나타냅니다.
 type: docs
 weight: 9560
@@ -22,7 +22,7 @@ public class PptxException : OOXMLException
 | [PptxException](pptxexception#constructor_1)(string) | 예외에 메시지를 추가할 수 있는 생성자. |
 | [PptxException](pptxexception#constructor_2)(string, Exception) | 메시지와 내포된 예외를 포함하는 예외용 생성자. |
 
-### 관련 항목
+### 참고
 
 * 클래스 [OOXMLException](../ooxmlexception)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

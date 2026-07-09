@@ -1,6 +1,6 @@
 ---
 title: IMathLimitFactory
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: อนุญาตให้สร้าง IMathLimit
 type: docs
 weight: 8330
@@ -18,8 +18,8 @@ public interface IMathLimitFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | สร้าง IMMathLimit โดยมีขอบเขตที่ด้านล่าง |
-| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | สร้าง IMMathLimit |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit)(IMathElement, IMathElement) | สร้าง IMathLimit พร้อมขอบเขตที่ด้านล่าง |
+| [CreateMathLimit](../../aspose.slides.mathtext/imathlimitfactory/createmathlimit#createmathlimit_1)(IMathElement, IMathElement, bool) | สร้าง IMathLimit |
 
 ### หมายเหตุ
 

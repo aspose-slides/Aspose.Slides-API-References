@@ -3,7 +3,7 @@ title: IVideoFrame
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa um clipe de vídeo em um slide.
 type: docs
-weight: 7360
+weight: 7380
 url: /pt/aspose.slides/ivideoframe/
 ---
 ## IVideoFrame interface
@@ -19,19 +19,19 @@ public interface IVideoFrame : IPictureFrame
 | Nome | Descrição |
 | --- | --- |
 | [AsIPictureFrame](../../aspose.slides/ivideoframe/asipictureframe) { get; } | Permite obter a interface base IPictureFrame. Somente leitura [`IPictureFrame`](../ipictureframe). |
-| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Obtém a coleção de legendas fechadas associadas ao frame de áudio. Esta propriedade é somente leitura e retorna um [`ICaptionsCollection`](../icaptionscollection) contendo todas as faixas de legendas. |
-| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Retorna ou define o objeto de vídeo incorporado. Leitura/Gravação [`IVideo`](../ivideo). |
-| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se um vídeo é exibido no modo tela cheia. Leitura/Gravação Boolean. |
-| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina se um VideoFrame está oculto. Leitura/Gravação Boolean. |
-| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. Leitura/Gravação String. |
-| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina se um vídeo é reproduzido em loop. Leitura/Gravação Boolean. |
-| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Retorna ou define o modo de reprodução do vídeo. Leitura/Gravação [`VideoPlayModePreset`](../videoplaymodepreset). |
-| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se um vídeo é automaticamente rebobinado ao início assim que o filme termina de ser reproduzido. Leitura/Gravação Boolean. |
+| [CaptionTracks](../../aspose.slides/ivideoframe/captiontracks) { get; } | Obtém a coleção de legendas fechadas associadas ao quadro de áudio. Esta propriedade é somente leitura e retorna um [`ICaptionsCollection`](../icaptionscollection) contendo todas as faixas de legendas. |
+| [EmbeddedVideo](../../aspose.slides/ivideoframe/embeddedvideo) { get; set; } | Retorna ou define o objeto de vídeo incorporado. Leitura/gravação [`IVideo`](../ivideo). |
+| [FullScreenMode](../../aspose.slides/ivideoframe/fullscreenmode) { get; set; } | Determina se um vídeo é exibido em modo de tela cheia. Leitura/gravação Boolean. |
+| [HideAtShowing](../../aspose.slides/ivideoframe/hideatshowing) { get; set; } | Determina se um VideoFrame está oculto. Leitura/gravação Boolean. |
+| [LinkPathLong](../../aspose.slides/ivideoframe/linkpathlong) { get; set; } | Retorna ou define o nome de um arquivo de vídeo que está vinculado a um VideoFrame. Leitura/gravação String. |
+| [PlayLoopMode](../../aspose.slides/ivideoframe/playloopmode) { get; set; } | Determina se um vídeo está em loop. Leitura/gravação Boolean. |
+| [PlayMode](../../aspose.slides/ivideoframe/playmode) { get; set; } | Retorna ou define o modo de reprodução do vídeo. Leitura/gravação [`VideoPlayModePreset`](../videoplaymodepreset). |
+| [RewindVideo](../../aspose.slides/ivideoframe/rewindvideo) { get; set; } | Determina se um vídeo é rebobinado automaticamente para o início assim que o filme termina de ser reproduzido. Leitura/gravação Boolean. |
 | [TrimFromEnd](../../aspose.slides/ivideoframe/trimfromend) { get; set; } | Cortar fim [ms] |
 | [TrimFromStart](../../aspose.slides/ivideoframe/trimfromstart) { get; set; } | Cortar início [ms] |
-| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Retorna ou define o volume do áudio. Leitura/Gravação [`AudioVolumeMode`](../audiovolumemode). |
+| [Volume](../../aspose.slides/ivideoframe/volume) { get; set; } | Retorna ou define o volume de áudio. Leitura/gravação [`AudioVolumeMode`](../audiovolumemode). |
 
-### Ver também
+### Veja também
 
 * interface [IPictureFrame](../ipictureframe)
 * espaço de nomes [Aspose.Slides](../../aspose.slides)

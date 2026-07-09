@@ -1,14 +1,14 @@
 ---
 title: ISetEffect
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: เป็นการแทนชุดเอฟเฟกต์สำหรับพฤติกรรมการเคลื่อนไหว.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: แสดงถึงเอฟเฟกต์ชุดสำหรับพฤติกรรมการเคลื่อนไหว
 type: docs
 weight: 610
 url: /th/aspose.slides.animation/iseteffect/
 ---
 ## ISetEffect อินเทอร์เฟซ
 
-เป็นการแทนชุดเอฟเฟกต์สำหรับพฤติกรรมการเคลื่อนไหว.
+แสดงถึงเอฟเฟกต์ชุดสำหรับพฤติกรรมการเคลื่อนไหว
 
 ```csharp
 public interface ISetEffect : IBehavior
@@ -18,8 +18,8 @@ public interface ISetEffect : IBehavior
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior พื้นฐานได้. อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
-| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | ระบุแอตทริบิวต์บางอย่างของเอฟเฟกต์หลังจากการเคลื่อนไหว. แสดงค่าจุด. เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
+| [AsIBehavior](../../aspose.slides.animation/iseteffect/asibehavior) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IBehavior พื้นฐาน อ่านอย่างเดียว [`IBehavior`](../ibehavior). |
+| [To](../../aspose.slides.animation/iseteffect/to) { get; set; } | กำหนดคุณลักษณะบางอย่างของเอฟเฟกต์หลังจากเอฟเฟกต์การเคลื่อนไหว. แสดงค่าจุด. สามารถเป็นได้แค่: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
 
 ### ดูเพิ่มเติม
 

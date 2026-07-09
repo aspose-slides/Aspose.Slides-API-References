@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
-description: يمثل المدير الذي يتحكم في سلوك عناصر نائب تذييل الشريحة الرئيسية، التاريخ-الوقت، رقم الصفحة وجميع العناصر النائبة التابعة. تعني العناصر النائبة التابعة أنها موجودة في الشرائح ذات التخطيط المعتمد والشرائح المعتمدة. تستخدم الشرائح ذات التخطيط المعتمد والشرائح المعتمدة وتعتمد على الشريحة الرئيسية.
+second_title: Aspose.Sildes لـ .NET مرجع API
+description: يمثل مديرًا يتحكم بسلوك عناصر نائب تذييل الشريحة الأساسية، تاريخ/وقت، رقم الصفحة وجميع عناصر النائب الفروع. تعني عناصر النائب الفروع أن العناصر موجودة في الشرائح المعتمدة على التخطيط والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها.
 type: docs
 weight: 6440
 url: /ar/aspose.slides/imasterslideheaderfootermanager/
 ---
-## IMasterSlideHeaderFooterManager واجهة
+## IMasterSlideHeaderFooterManager interface
 
-يمثل هذا المدير الذي يتحكم في سلوك عنصر تذييل الشريحة الرئيسية، وعنصر التاريخ-الوقت، وعنصر رقم الصفحة بالإضافة إلى جميع العناصر التابعة. تعني العناصر التابعة أنها موجودة في الشرائح ذات التخطيط المعتمد والشرائح المعتمدة. تستخدم الشرائح ذات التخطيط المعتمد والشرائح المعتمدة وتعتمد على الشريحة الرئيسية.
+يمثل مديرًا يتحكم بسلوك عناصر نائب تذييل الشريحة الأساسية، تاريخ/وقت، رقم الصفحة وجميع عناصر النائب الفروع. تعني عناصر النائب الفروع أن العناصر موجودة في الشرائح المعتمدة على التخطيط والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,22 +18,22 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | الاسم | الوصف |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | إرجاع واجهة IBaseSlideHeaderFooterManager. |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | يعيد IBaseSlideHeaderFooterManager واجهة. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يضبط النص في عنصر نائب لتاريخ-الوقت في الشريحة الرئيسية وجميع عناصر نائب التاريخ-الوقت التابعة. تعني العناصر التابعة أن العناصر النائبة موجودة في الشرائح ذات التخطيط المعتمد والشرائح المعتمدة. تستخدم الشرائح ذات التخطيط المعتمد والشرائح المعتمدة وتعتمد على الشريحة الرئيسية. |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغير إظهار عنصر نائب لتاريخ-الوقت في الشريحة الرئيسية وجميع عناصر نائب التاريخ-الوقت التابعة. |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | يضبط النص في عنصر نائب لتذييل الشريحة الرئيسية وجميع عناصر نائب التذييل التابعة. |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغير إظهار عنصر نائب لتذييل الشريحة الرئيسية وجميع عناصر نائب التذييل التابعة. |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغير إظهار عنصر نائب لرقم الصفحة في الشريحة الرئيسية وجميع عناصر نائب أرقام الصفحات التابعة. |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | يحدد النص لعنصر نائب تاريخ/وقت الشريحة الأساسية وجميع عناصر نائب تاريخ/وقت الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | يغيّر رؤية عنصر نائب تاريخ/وقت الشريحة الأساسية وجميع عناصر نائب تاريخ/وقت الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | يحدد النص لعنصر نائب تذييل الشريحة الأساسية وجميع عناصر نائب التذييل الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | يغيّر رؤية عنصر نائب تذييل الشريحة الأساسية وجميع عناصر نائب التذييل الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | يغيّر رؤية عنصر نائب رقم الصفحة في الشريحة الأساسية وجميع عناصر نائب رقم الصفحة الفروع. تعني عناصر نائب الفروع أن العناصر موجودة في الشرائح المعتمدة على تخطيطها والشرائح المعتمدة. تستخدم الشرائح المعتمدة على التخطيط والشرائح المعتمدة الشريحة الأساسية وتعتمد عليها. |
 
 ### انظر أيضًا
 
 * واجهة [IBaseSlideHeaderFooterManager](../ibaseslideheaderfootermanager)
-* مساحة الأسماء [Aspose.Slides](../../aspose.slides)
+* نطاق [Aspose.Slides](../../aspose.slides)
 * تجميع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

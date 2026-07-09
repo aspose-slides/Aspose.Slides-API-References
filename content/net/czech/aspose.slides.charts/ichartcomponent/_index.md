@@ -1,14 +1,14 @@
 ---
 title: IChartComponent
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje komponentu grafu.
+second_title: Aspose.Sildes pro .NET – referenční dokumentace
+description: Representuje komponentu grafu.
 type: docs
-weight: 1770
+weight: 1790
 url: /cs/aspose.slides.charts/ichartcomponent/
 ---
 ## IChartComponent rozhraní
 
-Reprezentuje komponentu grafu.
+Representuje komponentu grafu.
 
 ```csharp
 public interface IChartComponent : ISlideComponent

@@ -1,9 +1,9 @@
 ---
 title: ImageTransformOperation
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en abstrakt bildtransformeringseffekt.
+description: Representerar abstrakt bildtransformeringseffekt.
 type: docs
-weight: 3550
+weight: 3570
 url: /sv/aspose.slides.effects/imagetransformoperation/
 ---
 ## ImageTransformOperation klass
@@ -25,7 +25,7 @@ public abstract class ImageTransformOperation : PVIObject, IImageTransformOperat
 | Namn | Beskrivning |
 | --- | --- |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | Jämför med angivet objekt. |
-| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hash-kod. |
+| override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returnerar hashkod. |
 
 ### Se även
 

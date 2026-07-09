@@ -1,14 +1,14 @@
 ---
 title: EffectTriggerType
-second_title: Aspose.Sildes .NET API संदर्भ
-description: इफ़ेक्ट के ट्रिगर प्रकार को दर्शाता है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: प्रभाव के ट्रिगर प्रकार का प्रतिनिधित्व करता है।
 type: docs
 weight: 350
 url: /hi/aspose.slides.animation/effecttriggertype/
 ---
 ## EffectTriggerType एन्यूमरेशन
 
-प्रभाव के ट्रिगर प्रकार को दर्शाता है।
+इफ़ेक्ट के ट्रिगर प्रकार को दर्शाता है।
 
 ```csharp
 public enum EffectTriggerType
@@ -22,7 +22,7 @@ public enum EffectTriggerType
 | OnClick | `1` |  |
 | WithPrevious | `2` |  |
 
-### और देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides.Animation](../../aspose.slides.animation)
 * असेंबली [Aspose.Slides](../../)

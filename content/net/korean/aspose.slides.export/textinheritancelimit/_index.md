@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/textinheritancelimit/
 ---
 ## TextInheritanceLimit 열거형
 
-텍스트 속성 상속의 깊이를 제어합니다.
+텍스트 속성 상속 깊이를 제어합니다.
 
 ```csharp
 public enum TextInheritanceLimit
@@ -20,9 +20,9 @@ public enum TextInheritanceLimit
 | --- | --- | --- |
 | All | `0` | 모든 텍스트 속성을 상속합니다. |
 | TextBox | `1` | TextFrame의 스타일만 상속합니다. |
-| ParagraphOnly | `2` | 문단에 정의된 속성만 사용합니다. |
+| ParagraphOnly | `2` | 단락에 정의된 속성만 사용합니다. |
 
-### 참조
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: IHtmlOptions
-second_title: Aspose.Sildes برای .NET - مرجع API
-description: گزینه‌های صادرات HTML را نشان می‌دهد.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: نمایانگر گزینه‌های خروجی HTML است.
 type: docs
 weight: 3970
 url: /fa/aspose.slides.export/ihtmloptions/
 ---
 ## IHtmlOptions رابط
 
-گزینه‌های صادرات HTML را نشان می‌دهد.
+نمایانگر گزینه‌های خروجی HTML است.
 
 ```csharp
 public interface IHtmlOptions : ISaveOptions
@@ -18,22 +18,22 @@ public interface IHtmlOptions : ISaveOptions
 
 | نام | توضیح |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | ISaveOptions رابط را برمی‌گرداند. فقط-خواندنی [`ISaveOptions`](../isaveoptions). |
-| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | یک پرچم بولی نشان می‌دهد که آیا بخش‌های برش‌خورده به عنوان بخشی از سند باقی می‌مانند. اگر true باشد بخش‌های برش‌خورده حذف می‌شوند، اگر false باشند در سند سریال‌سازی می‌شوند (که می‌تواند منجر به فایل بزرگ‌تری شود) خواندنی/نوشتنی Boolean. |
-| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | مقدار نشان‌دهنده این که آیا متن بدون استفاده از لیگچرها رندر می‌شود را می‌گیرد یا تنظیم می‌کند. وقتی به `true` تنظیم شود، لیگچرها در خروجی رندر شده غیرفعال می‌شوند. به‌طور پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
-| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | قالب HTML را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`IHtmlFormatter`](../ihtmlformatter). |
-| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | گزینه‌هایی را که ظاهر اشیاء Ink را در سند صادرشده کنترل می‌کنند، فراهم می‌کند. فقط-خواندنی [`IInkOptions`](../iinkoptions) |
-| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | مقدار تعیین‌کننده کیفیت تصاویر JPEG داخل سند PDF را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی Byte. |
-| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد. خواندنی/نوشتنی [`PicturesCompression`](./picturescompression). |
-| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | مشخص می‌کند که آیا سند تولید شده باید اسلایدهای مخفی را شامل شود یا نه. مقدار پیش‌فرض `false` است. |
-| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | گزینه‌های فرمت تصویر اسلاید را برمی‌گرداند یا تنظیم می‌کند. خواندنی/نوشتنی [`ISlideImageFormat`](../islideimageformat). |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام صادر کردن یک ارائه را می‌گیرد یا تنظیم می‌کند [`ISlidesLayoutOptions`](../islideslayoutoptions). |
-| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | درست برای حذف ویژگی‌های عرض و ارتفاع از مخزن SVG - که باعث می‌شود طرح‌بندی واکنش‌گرا باشد. نادرست - در غیر این صورت. خواندنی/نوشتنی Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtmloptions/asisaveoptions) { get; } | این رابط ISaveOptions را برمی‌گرداند. فقط-خواندنی [`ISaveOptions`](../isaveoptions). |
+| [DeletePicturesCroppedAreas](../../aspose.slides.export/ihtmloptions/deletepicturescroppedareas) { get; set; } | پرچم Boolean نشان می‌دهد که آیا بخش‌های برش‌خورده به‌عنوان بخشی از سند باقی می‌مانند یا نه. اگر true باشد، بخش‌های برش‌خورده حذف می‌شوند، اگر false باشد، در سند سریال‌سازی می‌شوند (که ممکن است منجر به فایل بزرگ‌تر شود) قابل‌خواندن/نوشتن Boolean. |
+| [DisableFontLigatures](../../aspose.slides.export/ihtmloptions/disablefontligatures) { get; set; } | مقداری را دریافت یا تنظیم می‌کند که نشان می‌دهد آیا متن بدون استفاده از لیگچرها رندر می‌شود یا نه. وقتی به `true` تنظیم شود، لیگچرها در خروجی رندر غیرفعال می‌شوند. به‌صورت پیش‌فرض، این ویژگی به `false` تنظیم شده است. |
+| [HtmlFormatter](../../aspose.slides.export/ihtmloptions/htmlformatter) { get; set; } | قالب HTML را برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن [`IHtmlFormatter`](../ihtmlformatter). |
+| [InkOptions](../../aspose.slides.export/ihtmloptions/inkoptions) { get; } | گزینه‌هایی را فراهم می‌کند که ظاهر اشیاء Ink را در سند صادر‌شده کنترل می‌کند. فقط-خواندنی [`IInkOptions`](../iinkoptions) |
+| [JpegQuality](../../aspose.slides.export/ihtmloptions/jpegquality) { get; set; } | مقدار تعیین‌کننده کیفیت تصاویر JPEG در سند PDF را برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن Byte. |
+| [PicturesCompression](../../aspose.slides.export/ihtmloptions/picturescompression) { get; set; } | سطح فشرده‌سازی تصاویر را نشان می‌دهد قابل‌خواندن/نوشتن [`PicturesCompression`](./picturescompression). |
+| [ShowHiddenSlides](../../aspose.slides.export/ihtmloptions/showhiddenslides) { get; set; } | مشخص می‌کند که آیا سند تولید‌شده باید اسلایدهای مخفی را شامل شود یا نه. پیش‌فرض `false` است. |
+| [SlideImageFormat](../../aspose.slides.export/ihtmloptions/slideimageformat) { get; set; } | گزینه‌های فرمت تصویر اسلاید را برمی‌گرداند یا تنظیم می‌کند. قابل‌خواندن/نوشتن [`ISlideImageFormat`](../islideimageformat). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtmloptions/slideslayoutoptions) { get; set; } | حالت قرارگیری اسلایدها بر روی صفحه هنگام صادرات ارائه را دریافت یا تنظیم می‌کند [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [SvgResponsiveLayout](../../aspose.slides.export/ihtmloptions/svgresponsivelayout) { get; set; } | اگر true باشد، ویژگی‌های عرض و ارتفاع از کانتینر SVG حذف می‌شوند - که طرح واکنش‌گرا می‌شود. اگر false باشد - خلاف آن. قابل‌خواندن/نوشتن Boolean. |
 
 ### موارد مرتبط
 
 * رابط [ISaveOptions](../isaveoptions)
-* فضای نام [Aspose.Slides.Export](../../aspose.slides.export)
-* مجوعه [Aspose.Slides](../../)
+* فضای‌نام [Aspose.Slides.Export](../../aspose.slides.export)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

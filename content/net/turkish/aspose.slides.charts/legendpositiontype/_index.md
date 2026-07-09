@@ -1,14 +1,14 @@
 ---
 title: LegendPositionType
-second_title: Aspose.Sildes .NET API Referansı
-description: Bir grafikteki legend'ın konumunu belirler.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Bir grafikte lejandın konumunu belirler.
 type: docs
-weight: 2300
+weight: 2320
 url: /tr/aspose.slides.charts/legendpositiontype/
 ---
 ## LegendPositionType enum
 
-Grafikteki legend'ın konumunu belirler.
+Grafikte lejandın konumunu belirler.
 
 ```csharp
 public enum LegendPositionType
@@ -18,13 +18,13 @@ public enum LegendPositionType
 
 | Ad | Değer | Açıklama |
 | --- | --- | --- |
-| Bottom | `0` | Legend'ın grafiğin altında çizileceğini belirtir. |
-| Left | `1` | Legend'ın grafiğin solunda çizileceğini belirtir. |
-| Right | `2` | Legend'ın grafiğin sağında çizileceğini belirtir. |
-| Top | `3` | Legend'ın grafiğin üstünde çizileceğini belirtir. |
-| TopRight | `4` | Legend'ın grafiğin sağ üst köşesinde çizileceğini belirtir. |
+| Bottom | `0` | Lejandın grafiğin alt kısmına çizileceğini belirtir. |
+| Left | `1` | Lejandın grafiğin sol tarafına çizileceğini belirtir. |
+| Right | `2` | Lejandın grafiğin sağ tarafına çizileceğini belirtir. |
+| Top | `3` | Lejandın grafiğin üst kısmına çizileceğini belirtir. |
+| TopRight | `4` | Lejandın grafiğin sağ üst köşesine çizileceğini belirtir. |
 
-### Ayrıca bakınız
+### İlgili
 
 * ad alanı [Aspose.Slides.Charts](../../aspose.slides.charts)
 * derleme [Aspose.Slides](../../)

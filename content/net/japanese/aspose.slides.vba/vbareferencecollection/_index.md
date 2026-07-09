@@ -3,7 +3,7 @@ title: VbaReferenceCollection
 second_title: Aspose.Sildes for .NET API リファレンス
 description: VBA プロジェクトの参照のコレクションを表します。
 type: docs
-weight: 11650
+weight: 11670
 url: /ja/aspose.slides.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection クラス
@@ -19,7 +19,7 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 | 名前 | 説明 |
 | --- | --- |
 | [Count](../../aspose.slides.vba/vbareferencecollection/count) { get; } | コレクションに実際に含まれる要素数を取得します。読み取り専用 Int32。 |
-| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | コレクションへのアクセスが同期されているか（スレッドセーフ）を示す値を返します。読み取り専用 Boolean。 |
+| [IsSynchronized](../../aspose.slides.vba/vbareferencecollection/issynchronized) { get; } | コレクションへのアクセスが同期化されているか（スレッド セーフ）を示す値を返します。読み取り専用 Boolean。 |
 | [Item](../../aspose.slides.vba/vbareferencecollection/item) { get; } | 指定されたインデックスの要素を取得します。 |
 | [SyncRoot](../../aspose.slides.vba/vbareferencecollection/syncroot) { get; } | 同期ルートを返します。読み取り専用 Object。 |
 
@@ -27,11 +27,11 @@ public class VbaReferenceCollection : IVbaReferenceCollection
 
 | 名前 | 説明 |
 | --- | --- |
-| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 新しい参照を参照コレクションに追加します。 |
-| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | コレクションのすべての要素を指定された配列にコピーします。 |
+| [Add](../../aspose.slides.vba/vbareferencecollection/add)(IVbaReference) | 新しい参照を参照コレクションに追加します |
+| [CopyTo](../../aspose.slides.vba/vbareferencecollection/copyto)(Array, int) | コレクション内のすべての要素を指定された配列にコピーします。 |
 | [GetEnumerator](../../aspose.slides.vba/vbareferencecollection/getenumerator)() | コレクションを反復処理する列挙子を返します。 |
 
-### 参照
+### 関連項目
 
 * インターフェイス [IVbaReferenceCollection](../ivbareferencecollection)
 * 名前空間 [Aspose.Slides.Vba](../../aspose.slides.vba)

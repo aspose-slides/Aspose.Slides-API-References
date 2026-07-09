@@ -18,7 +18,7 @@ public abstract class DomObject<TParent>
 | --- | --- |
 | TParent | पैरेंट DOM ऑब्जेक्ट का प्रकार |
 
-### संबंधित देखें
+### और देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

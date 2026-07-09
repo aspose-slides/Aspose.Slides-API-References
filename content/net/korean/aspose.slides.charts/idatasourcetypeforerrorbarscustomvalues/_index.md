@@ -1,14 +1,14 @@
 ---
 title: IDataSourceTypeForErrorBarsCustomValues
-second_title: Aspose.Sildes for .NET API 참조
-description: ChartDataPoint.ErrorBarsCustomValues 속성 목록의 값 유형을 지정합니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: ChartDataPoint.ErrorBarsCustomValues 속성 목록에 있는 값 유형을 지정합니다.
 type: docs
 weight: 2050
 url: /ko/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 ---
 ## IDataSourceTypeForErrorBarsCustomValues 인터페이스
 
-ChartDataPoint.ErrorBarsCustomValues 속성 목록의 값 유형을 지정합니다.
+ChartDataPoint.ErrorBarsCustomValues 속성 목록에 있는 값 유형을 지정합니다.
 
 ```csharp
 public interface IDataSourceTypeForErrorBarsCustomValues
@@ -18,12 +18,12 @@ public interface IDataSourceTypeForErrorBarsCustomValues
 
 | 이름 | 설명 |
 | --- | --- |
-| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | 오류 막대 사용자 지정 값에 대한 데이터 포인트의 XMinus 속성 개체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제로 사용되는지를 지정합니다. 즉, ChartDataPoint.ErrorBarsCustomValues.XMinus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | 오류 막대 사용자 지정 값에 대한 데이터 포인트의 XPlus 속성 개체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제로 사용되는지를 지정합니다. 즉, ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | 오류 막대 사용자 지정 값에 대한 데이터 포인트의 YMinus 속성 개체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제로 사용되는지를 지정합니다. 즉, ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
-| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | 오류 막대 사용자 지정 값에 대한 데이터 포인트의 YPlus 속성 개체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제로 사용되는지를 지정합니다. 즉, ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxminusvalues) { get; set; } | 오류 막대 사용자 정의 값에 대한 데이터 포인트의 XMinus 속성 객체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말하면 ChartDataPoint.ErrorBarsCustomValues.XMinus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForXPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforxplusvalues) { get; set; } | 오류 막대 사용자 정의 값에 대한 데이터 포인트의 XPlus 속성 객체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말하면 ChartDataPoint.ErrorBarsCustomValues.XPlus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYMinusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyminusvalues) { get; set; } | 오류 막대 사용자 정의 값에 대한 데이터 포인트의 YMinus 속성 객체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말하면 ChartDataPointEx.ErrorBarsCustomValues.YMinus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
+| [DataSourceTypeForYPlusValues](../../aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/datasourcetypeforyplusvalues) { get; set; } | 오류 막대 사용자 정의 값에 대한 데이터 포인트의 YPlus 속성 객체에서 AsCell, AsLiteralString 또는 AsLiteralDouble 속성이 실제인지 지정합니다. 다시 말하면 ChartDataPointEx.ErrorBarsCustomValues.YPlus.Data 속성의 값 유형을 지정합니다. 읽기/쓰기 [`DataSourceType`](../datasourcetype). |
 
-### 참조
+### 관련 항목
 
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)
 * 어셈블리 [Aspose.Slides](../../)

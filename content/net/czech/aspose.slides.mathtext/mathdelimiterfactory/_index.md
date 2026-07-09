@@ -3,7 +3,7 @@ title: MathDelimiterFactory
 second_title: Aspose.Sildes pro .NET API Reference
 description: Umožňuje vytvořit matematický oddělovač
 type: docs
-weight: 8640
+weight: 8660
 url: /cs/aspose.slides.mathtext/mathdelimiterfactory/
 ---
 ## MathDelimiterFactory třída
@@ -25,7 +25,7 @@ public class MathDelimiterFactory : IMathDelimiterFactory
 | Název | Popis |
 | --- | --- |
 | [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter)(IMathElement) | Vytvoří matematický oddělovač aplikací na prvek |
-| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Vytvoří matematický oddělovač aplikací na prvek |
+| [CreateMathDelimiter](../../aspose.slides.mathtext/mathdelimiterfactory/createmathdelimiter#createmathdelimiter_1)(IMathElementCollection) | Vytvoří matematický oddělovač aplikací na kolekci prvků |
 
 ### Poznámky
 

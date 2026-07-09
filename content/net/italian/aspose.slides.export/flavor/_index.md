@@ -1,14 +1,14 @@
 ---
 title: Flavor
 second_title: Riferimento API Aspose.Sildes per .NET
-description: Tutte le specifiche markdown utilizzate nel programma.
+description: Tutte le specifiche markdown usate nel programma.
 type: docs
-weight: 3780
+weight: 3800
 url: /it/aspose.slides.export/flavor/
 ---
-## Enumerazione dei flavor
+## Flavor enumerazione
 
-Tutte le specifiche markdown utilizzate nel programma.
+Tutte le specifiche markdown usate nel programma.
 
 ```csharp
 public enum Flavor
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Github | `0` | Tipo Github. |
-| Gruber | `1` | Tipo Gruber. |
-| MultiMarkdown | `2` | Tipo Multi markdown. |
-| CommonMark | `3` | Tipo Common mark. |
-| MarkdownExtra | `4` | Tipo Markdown extra. |
-| Pandoc | `5` | Tipo Pandoc. |
-| Kramdown | `6` | Tipo Kramdown. |
-| Markua | `7` | Tipo Markua. |
-| Maruku | `8` | Tipo Maruku. |
-| Markdown2 | `9` | Tipo Markdown2. |
-| Remarkable | `10` | Tipo Remarkable |
-| Showdown | `11` | Tipo Showdown. |
-| Ghost | `12` | Tipo Ghost. |
-| GitLab | `13` | Tipo Gitlab. |
-| Haroopad | `14` | Tipo Haroopad. |
-| IaWriter | `15` | Tipo IAWriter. |
-| Redcarpet | `16` | Tipo Redcarpet. |
-| ScholarlyMarkdown | `17` | Tipo Scholarly markdown. |
-| Taiga | `18` | Tipo Taiga. |
-| Trello | `19` | Tipo Trello. |
-| S9ETextFormatter | `20` | Tipo S9E text formatter. |
-| XWiki | `21` | Tipo XWiki. |
-| StackOverflow | `22` | Tipo Stack overflow. |
-| Default | `23` | Tipo Default markdown. |
+| Github | `0` | Flavor Github. |
+| Gruber | `1` | Flavor Gruber. |
+| MultiMarkdown | `2` | Flavor Multi markdown. |
+| CommonMark | `3` | Flavor Common mark. |
+| MarkdownExtra | `4` | Flavor Markdown extra. |
+| Pandoc | `5` | Flavor Pandoc. |
+| Kramdown | `6` | Flavor Kramdown. |
+| Markua | `7` | Flavor Markua. |
+| Maruku | `8` | Flavor Maruku. |
+| Markdown2 | `9` | Flavor Markdown2. |
+| Remarkable | `10` | Flavor Remarkable |
+| Showdown | `11` | Flavor Showdown. |
+| Ghost | `12` | Flavor Ghost. |
+| GitLab | `13` | Flavor Gitlab. |
+| Haroopad | `14` | Flavor Haroopad. |
+| IaWriter | `15` | Flavor IAWriter. |
+| Redcarpet | `16` | Flavor Redcarpet. |
+| ScholarlyMarkdown | `17` | Flavor Scholarly markdown. |
+| Taiga | `18` | Flavor Taiga. |
+| Trello | `19` | Flavor Trello. |
+| S9ETextFormatter | `20` | Flavor S9E text formatter. |
+| XWiki | `21` | Flavor XWiki. |
+| StackOverflow | `22` | Flavor Stack overflow. |
+| Default | `23` | Flavor Default markdown. |
 
 ### Esempi
 

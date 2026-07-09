@@ -1,6 +1,6 @@
 ---
 title: IFormatSchemeEffectiveData
-second_title: Aspose.Sildes for .NET API 參考
+second_title: Aspose.Sildes .NET API 參考
 description: 不可變物件，包含有效的格式方案屬性。
 type: docs
 weight: 11280
@@ -18,16 +18,16 @@ public interface IFormatSchemeEffectiveData
 
 | 名稱 | 描述 |
 | --- | --- |
-| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | 傳回一個由佈景主題定義的背景填充樣式集合。 |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | 傳回一個由佈景主題定義的效果樣式集合。 |
-| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | 傳回一個由佈景主題定義的填充樣式集合。 |
-| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | 傳回一個由佈景主題定義的線條樣式集合。 |
+| [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | 傳回一個主題定義的背景填充樣式集合。 |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | 傳回一個主題定義的效果樣式集合。 |
+| [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | 傳回一個主題定義的填充樣式集合。 |
+| [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | 傳回一個主題定義的線條樣式集合。 |
 
 ### 備註
 
-此介面作為 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部份使用。
+此介面用作 [`IThemeEffectiveData`](../ithemeeffectivedata) 的一部分。
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * 組件 [Aspose.Slides](../../)

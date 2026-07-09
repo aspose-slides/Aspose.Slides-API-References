@@ -1,14 +1,14 @@
 ---
 title: IFontsEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který obsahuje sadu efektivních písem.
+description: Neměnný objekt, který obsahuje sadu efektivních fontů.
 type: docs
-weight: 5890
+weight: 5910
 url: /cs/aspose.slides/ifontseffectivedata/
 ---
 ## IFontsEffectiveData rozhraní
 
-Neměnný objekt, který obsahuje efektivní sadu písem.
+Neměnný objekt, který obsahuje sadu efektivních fontů.
 
 ```csharp
 public interface IFontsEffectiveData
@@ -18,13 +18,13 @@ public interface IFontsEffectiveData
 
 | Název | Popis |
 | --- | --- |
-| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Vrací písmo komplexního skriptu. Pouze ke čtení [`IFontData`](../ifontdata). |
-| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Vrací východoasijské písmo. Pouze ke čtení [`IFontData`](../ifontdata). |
-| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Vrací latinské písmo. Pouze ke čtení [`IFontData`](../ifontdata). |
+| [ComplexScriptFont](../../aspose.slides/ifontseffectivedata/complexscriptfont) { get; } | Vrací font pro komplexní skript. Pouze pro čtení [`IFontData`](../ifontdata). |
+| [EastAsianFont](../../aspose.slides/ifontseffectivedata/eastasianfont) { get; } | Vrací východoasijský font. Pouze pro čtení [`IFontData`](../ifontdata). |
+| [LatinFont](../../aspose.slides/ifontseffectivedata/latinfont) { get; } | Vrací latinský font. Pouze pro čtení [`IFontData`](../ifontdata). |
 
 ### Poznámky
 
-Toto rozhraní se používá jako součást rozhraní [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) a [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
+Toto rozhraní je používáno jako součást rozhraní [`IBasePortionFormatEffectiveData`](../ibaseportionformateffectivedata) a [`IFontSchemeEffectiveData`](../../aspose.slides.theme/ifontschemeeffectivedata).
 
 ### Viz také
 

@@ -1,12 +1,12 @@
 ---
 title: IXamlOptions
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
 type: docs
-weight: 4680
+weight: 4700
 url: /tr/aspose.slides.export.xaml/ixamloptions/
 ---
-## IXamlOptions arayüzü
+## IXamlOptions arabirimi
 
 XAML belgesinin nasıl kaydedileceğini kontrol eden seçenekler.
 
@@ -18,9 +18,9 @@ public interface IXamlOptions : ISaveOptions
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ISaveOptions arayüzünü döndürür. Salt okunur [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
+| [AsISaveOptions](../../aspose.slides.export.xaml/ixamloptions/asisaveoptions) { get; } | ISaveOptions arabirimini döndürür. Salt okunur [`ISaveOptions`](../../aspose.slides.export/isaveoptions). |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/ixamloptions/exporthiddenslides) { get; set; } | Gizli slaytların dışa aktarılıp aktarılmayacağını belirler. |
-| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | IOutputSaver arayüzünün bir uygulamasını temsil eder. |
+| [OutputSaver](../../aspose.slides.export.xaml/ixamloptions/outputsaver) { get; set; } | IOutputSaver arabiriminin bir uygulamasını temsil eder. |
 
 ### Örnekler
 
@@ -32,9 +32,9 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### Ayrıca Bakınız
+### İlgili Bağlantılar
 
-* arayüz [ISaveOptions](../../aspose.slides.export/isaveoptions)
+* arabirim [ISaveOptions](../../aspose.slides.export/isaveoptions)
 * ad alanı [Aspose.Slides.Export.Xaml](../../aspose.slides.export.xaml)
 * derleme [Aspose.Slides](../../)
 

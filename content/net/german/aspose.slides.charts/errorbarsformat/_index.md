@@ -1,15 +1,14 @@
 ---
 title: ErrorBarsFormat
-second_title: Aspose.Sildes für .NET API Referenz
-description: Repräsentiert Fehlerbalken von Diagrammserien. Fehlerbalken benutzerdefinierte Werte sind in IChartDataPointCollection im ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues-Eigenschaft.
+second_title: Aspose.Sildes für .NET API-Referenz
+description: Stellt Fehlerbalken einer Diagrammserie dar. Benutzerdefinierte Werte für ErrorBars befinden sich in IChartDataPointCollection in der Eigenschaft ErrorBarsCustomValues./ichartdatapoint/errorbarscustomvalues.
 type: docs
-weight: 1590
+weight: 1670
 url: /de/aspose.slides.charts/errorbarsformat/
 ---
+## ErrorBarsFormat Klasse
 
-## ErrorBarsFormat-Klasse
-
-Repräsentiert Fehlerbalken von Diagrammserien. Fehlerbalken benutzerdefinierte Werte sind in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)-Eigenschaft).
+Stellt Fehlerbalken einer Diagrammserie dar. Benutzerdefinierte Werte für ErrorBars befinden sich in IChartDataPointCollection (in [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) Eigenschaft).
 
 ```csharp
 public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
@@ -19,20 +18,20 @@ public class ErrorBarsFormat : DomObject<ChartSeries>, IErrorBarsFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur-Lese [`IChart`](../ichart). |
-| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Repräsentiert das Format der Fehlerbalken. Lesen/Schreiben [`IFormat`](../iformat). |
-| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Gibt an, dass an den Fehlerbalken keine Kappe gezeichnet wird. Lesen/Schreiben Boolean. |
-| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Ruft die Sichtbarkeit der Fehlerbalken ab oder setzt sie. Lesen/Schreiben Boolean. |
-| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Ruft den Typ der Fehlerbalken ab oder setzt ihn. Lesen/Schreiben [`ErrorBarType`](../errorbartype). |
-| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Ruft den Wert ab oder setzt den Wert, der mit den Werttypen Fixed, Percentage und StandardDeviation verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In jedem anderen Fall wird NaN zurückgegeben. Lesen/Schreiben Single. |
-| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Repräsentiert mögliche Wege, um die Länge der Fehlerbalken zu bestimmen. Im Fall des benutzerdefinierten Werttyps verwenden Sie die [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues)-Eigenschaft des spezifischen Datenpunkts in der DataPoints-Sammlung der Serie, um den Wert anzugeben. Im Fall von Fixed, Percentage oder StandardDeviation-Werttyp verwenden Sie die Value-Eigenschaft, um den Wert anzugeben. Lesen/Schreiben [`ErrorBarValueType`](../errorbarvaluetype). |
+| [Chart](../../aspose.slides.charts/errorbarsformat/chart) { get; } | Gibt das übergeordnete Diagramm zurück. Nur lesbar [`IChart`](../ichart). |
+| [Format](../../aspose.slides.charts/errorbarsformat/format) { get; set; } | Stellt das Format der Fehlerbalken dar. Lesen/Schreiben [`IFormat`](../iformat). |
+| [HasEndCap](../../aspose.slides.charts/errorbarsformat/hasendcap) { get; set; } | Gibt an, dass an den Fehlerbalken keine Endkappe gezeichnet wird. Lesen/Schreiben Boolean. |
+| [IsVisible](../../aspose.slides.charts/errorbarsformat/isvisible) { get; set; } | Liest oder setzt die Sichtbarkeit der Fehlerbalken. Lesen/Schreiben Boolean. |
+| [Type](../../aspose.slides.charts/errorbarsformat/type) { get; set; } | Liest oder setzt den Typ der Fehlerbalken. Lesen/Schreiben [`ErrorBarType`](../errorbartype). |
+| [Value](../../aspose.slides.charts/errorbarsformat/value) { get; set; } | Liest oder setzt den Wert, der mit den Werttypen Fixed, Percentage und StandardDeviation verwendet wird, um die Länge der Fehlerbalken zu bestimmen. In allen anderen Fällen wird NaN zurückgegeben. Lesen/Schreiben Single. |
+| [ValueType](../../aspose.slides.charts/errorbarsformat/valuetype) { get; set; } | Stellt mögliche Wege zur Bestimmung der Länge der Fehlerbalken dar. Im Fall eines benutzerdefinierten Werttyps wird zur Angabe des Wertes die [`ErrorBarsCustomValues`](../ichartdatapoint/errorbarscustomvalues) Eigenschaft eines bestimmten Datenpunkts in der DataPoints-Sammlung der Serie verwendet. Im Fall der Werttypen Fixed, Percentage oder StandardDeviation wird die Value-Eigenschaft zur Angabe des Wertes verwendet. Lesen/Schreiben [`ErrorBarValueType`](../errorbarvaluetype). |
 
-### Siehe Auch
+### Siehe auch
 
-* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
-* Klasse [ChartSeries](../chartseries)
-* Schnittstelle [IErrorBarsFormat](../ierrorbarsformat)
-* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* Assembly [Aspose.Slides](../../)
+* Klasse [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
+* Klasse [ChartSeries](../chartseries)
+* Schnittstelle [IErrorBarsFormat](../ierrorbarsformat)
+* Namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
+* Assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

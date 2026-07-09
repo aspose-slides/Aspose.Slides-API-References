@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu diễn hiệu ứng Fill Overlay. Fill Overlay có thể được sử dụng để chỉ định một lớp nền bổ sung cho một đối tượng và pha trộn hai lớp nền lại với nhau.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một màu nền bổ sung cho một đối tượng và pha trộn hai màu nền lại với nhau.
 type: docs
 weight: 2980
 url: /vi/aspose.slides.effects/filloverlay/
 ---
 ## Lớp FillOverlay
 
-Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
+Đại diện cho hiệu ứng Fill Overlay. Fill overlay có thể được sử dụng để chỉ định một màu nền bổ sung cho một đối tượng và pha trộn hai màu nền lại với nhau.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -18,7 +18,7 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện cơ bản IPresentationComponent. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 | [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Đọc/ghi [`FillBlendMode`](../../aspose.slides/fillblendmode). |
 | [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Định dạng Fill. Chỉ đọc [`IFillFormat`](../../aspose.slides/ifillformat). |
 

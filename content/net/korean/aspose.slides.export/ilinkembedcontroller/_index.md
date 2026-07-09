@@ -1,14 +1,14 @@
 ---
 title: ILinkEmbedController
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 저장 중 객체가 어떻게 처리되어야 하는지를 판단하기 위해 사용되는 콜백 인터페이스입니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 저장 중에 객체가 어떻게 처리되어야 하는지를 결정하는 콜백 인터페이스입니다.
 type: docs
 weight: 3990
 url: /ko/aspose.slides.export/ilinkembedcontroller/
 ---
 ## ILinkEmbedController 인터페이스
 
-저장 중 객체가 어떻게 처리되어야 하는지를 판단하기 위해 사용되는 콜백 인터페이스입니다.
+저장 중에 객체가 어떻게 처리되어야 하는지를 결정하는 콜백 인터페이스입니다.
 
 ```csharp
 public interface ILinkEmbedController
@@ -18,11 +18,11 @@ public interface ILinkEmbedController
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | 객체가 저장될 위치를 결정합니다. 이 메서드는 각 객체 ID마다 한 번 호출됩니다. 동일한 data, semanticName 및 contentType을 가지지만 서로 다른 ID를 가진 두 객체가 존재하지 않을 것이라는 보장은 없습니다. |
-| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 외부 객체에 대한 URL을 반환합니다. 이 메서드는 [`GetObjectStoringLocation`](./getobjectstoringlocation)가 Link를 반환했을 때 항상 호출되며, [`GetObjectStoringLocation`](./getobjectstoringlocation)가 Embed를 반환했지만 임베딩이 불가능한 경우에도 호출될 수 있습니다. 동일한 객체 ID에 대해 여러 번 호출될 수 있습니다. |
+| [GetObjectStoringLocation](../../aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation)(int, byte[], string, string, string) | 객체가 저장될 위치를 결정합니다. 이 메서드는 각 객체 ID마다 한 번씩 호출됩니다. 동일한 data, semanticName 및 contentType을 가진 두 개의 객체가 다른 ID를 가질 수 있다는 보장은 없습니다. |
+| [GetUrl](../../aspose.slides.export/ilinkembedcontroller/geturl)(int, int) | 외부 객체에 대한 URL을 반환합니다. 이 메서드는 [`GetObjectStoringLocation`](./getobjectstoringlocation)가 Link를 반환한 경우 항상 호출되며, [`GetObjectStoringLocation`](./getobjectstoringlocation)가 Embed를 반환했지만 임베딩이 불가능한 경우에도 호출될 수 있습니다. 동일한 객체 ID에 대해 여러 번 호출될 수 있습니다. |
 | [SaveExternal](../../aspose.slides.export/ilinkembedcontroller/saveexternal)(int, byte[]) | 외부 객체를 저장합니다. |
 
-### 또한 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

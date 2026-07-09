@@ -1,6 +1,6 @@
 ---
 title: PptxOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: OpenXml 프레젠테이션(PPTX, PPSX, POTX, PPTM, PPSM, POTM)을 저장하기 위한 옵션을 나타냅니다.
 type: docs
 weight: 4370
@@ -18,20 +18,20 @@ public sealed class PptxOptions : SaveOptions, IPptxOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [PptxOptions](pptxoptions)() | 새 PptxOptions 인스턴스를 생성합니다. |
+| [PptxOptions](pptxoptions)() | 새로운 PptxOptions 인스턴스를 생성합니다 |
 
 ## 속성
 
 | 이름 | 설명 |
 | --- | --- |
 | [CompressionLevel](../../aspose.slides.export/pptxoptions/compressionlevel) { get; set; } | 프레젠테이션 문서를 저장할 때 사용되는 압축 수준을 지정합니다. 기본값은 Level6입니다. |
-| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 프레젠테이션 문서가 준수하는 호환성 클래스를 지정합니다. 기본값은 Ecma376_2006입니다. |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 소스 글꼴을 찾을 수 없는 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 String. |
+| [Conformance](../../aspose.slides.export/pptxoptions/conformance) { get; set; } | 프레젠테이션 문서가 따르는 호환성 클래스를 지정합니다. 기본값은 Ecma376_2006입니다. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | 원본 글꼴을 찾을 수 없을 경우 사용되는 글꼴을 반환하거나 설정합니다. 읽기/쓰기 문자열. |
 | [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | 그라디언트의 시각적 스타일을 반환하거나 설정합니다. 읽기/쓰기 [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 백분율로 저장 진행 상황 업데이트를 위한 콜백 객체를 나타냅니다. 참조 [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | 프레젠테이션 썸네일을 새로 고칠지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **true**입니다. |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 포함된 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 Boolean. 기본값은 **false**입니다. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 받고 로드 프로세스를 계속할지 중단할지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | 저장 진행률을 퍼센트 단위로 업데이트하는 콜백 객체를 나타냅니다. [`IProgressCallback`](../../aspose.slides/iprogresscallback)를 참조하세요. |
+| [RefreshThumbnail](../../aspose.slides.export/pptxoptions/refreshthumbnail) { get; set; } | 프레젠테이션 썸네일을 새로 고칠지 여부를 지정합니다. 읽기/쓰기 부울. 기본값은 **true**입니다. |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | 프레젠테이션을 저장할 때 JavaScript 호출이 있는 하이퍼링크를 건너뛸지 여부를 지정합니다. 읽기/쓰기 부울. 기본값은 **false**입니다. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | 경고를 수신하고 로드 과정이 계속될지 중단될지를 결정하는 객체를 반환하거나 설정합니다. 읽기/쓰기 [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 | [Zip64Mode](../../aspose.slides.export/pptxoptions/zip64mode) { get; set; } | 프레젠테이션 문서에 ZIP64 형식을 사용할지 여부를 지정합니다. 기본값은 IfNecessary입니다. |
 
 ### 참조

@@ -22,19 +22,19 @@ public interface IThreeDFormat : IThreeDParamSource
 | [BevelBottom](../../aspose.slides/ithreedformat/bevelbottom) { get; } | 하단 3D 베벨의 유형을 반환하거나 설정합니다. 읽기 전용 [`IShapeBevel`](../ishapebevel). |
 | [BevelTop](../../aspose.slides/ithreedformat/beveltop) { get; } | 상단 3D 베벨의 유형을 반환하거나 설정합니다. 읽기 전용 [`IShapeBevel`](../ishapebevel). |
 | [Camera](../../aspose.slides/ithreedformat/camera) { get; } | 카메라 설정을 반환하거나 설정합니다. 읽기 전용 [`ICamera`](../icamera). |
-| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 윤곽선 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D 윤곽선의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [ContourColor](../../aspose.slides/ithreedformat/contourcolor) { get; } | 컨투어 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [ContourWidth](../../aspose.slides/ithreedformat/contourwidth) { get; set; } | 3D 컨투어의 너비를 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [Depth](../../aspose.slides/ithreedformat/depth) { get; set; } | 3D 형태의 깊이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 압출의 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
-| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 압출 효과의 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
+| [ExtrusionColor](../../aspose.slides/ithreedformat/extrusioncolor) { get; } | 돌출 효과의 색상을 반환하거나 설정합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
+| [ExtrusionHeight](../../aspose.slides/ithreedformat/extrusionheight) { get; set; } | 돌출 효과의 높이를 반환하거나 설정합니다. 읽기/쓰기 Double. |
 | [LightRig](../../aspose.slides/ithreedformat/lightrig) { get; } | 조명의 유형을 반환하거나 설정합니다. 읽기 전용 [`ILightRig`](../ilightrig). |
-| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | 재질의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`MaterialPresetType`](../materialpresettype). |
+| [Material](../../aspose.slides/ithreedformat/material) { get; set; } | 재료의 유형을 반환하거나 설정합니다. 읽기/쓰기 [`MaterialPresetType`](../materialpresettype). |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 상속이 적용된 상태로 효과적인 3-D 서식 데이터를 가져옵니다. |
+| [GetEffective](../../aspose.slides/ithreedformat/geteffective)() | 상속이 적용된 효과적인 3-D 서식 데이터를 가져옵니다. |
 
 ### 참조
 

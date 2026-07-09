@@ -1,14 +1,14 @@
 ---
 title: RevealTransition
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เอฟเฟกต์การเปลี่ยนสไลด์แบบ Reveal
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: เอฟเฟกต์การเปลี่ยนสไลด์ Reveal.
 type: docs
 weight: 10280
 url: /th/aspose.slides.slideshow/revealtransition/
 ---
-## RevealTransition คลาส
+## คลาส RevealTransition
 
-เอฟเฟกต์การเปลี่ยนสไลด์แบบ Reveal
+เอฟเฟกต์การเปลี่ยนสไลด์ Reveal
 
 ```csharp
 public class RevealTransition : TransitionValueBase, IRevealTransition
@@ -18,15 +18,15 @@ public class RevealTransition : TransitionValueBase, IRevealTransition
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | ทิศทางของการเปลี่ยน. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
-| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | ระบุว่าการเปลี่ยนจะค่อยๆ จางผ่านสีดำหรือไม่. อ่าน/เขียน Boolean. |
+| [Direction](../../aspose.slides.slideshow/revealtransition/direction) { get; set; } | ทิศทางของการเปลี่ยนภาพ. อ่าน/เขียน [`TransitionLeftRightDirectionType`](../transitionleftrightdirectiontype). |
+| [ThroughBlack](../../aspose.slides.slideshow/revealtransition/throughblack) { get; set; } | ระบุว่าการเปลี่ยนภาพทำให้จางผ่านสีดำหรือไม่. อ่าน/เขียน Boolean. |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | กำหนดว่าตัวอย่าง TransitionValueBase สองตัวเท่ากันหรือไม่. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่งที่เหมาะสำหรับใช้ในอัลกอริทึมแฮชและโครงสร้างข้อมูลเช่น ตารางแฮช. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง ๆ ที่เหมาะสำหรับใช้ในอัลกอริธึมแฮชชิงและโครงสร้างข้อมูลเช่นตารางแฮช. |
 
 ### ดูเพิ่มเติม
 

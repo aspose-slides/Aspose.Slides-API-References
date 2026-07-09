@@ -3,7 +3,7 @@ title: AnimationTimeLine
 second_title: Aspose.Sildes for .NET API リファレンス
 description: アニメーションのタイムラインを表します。
 type: docs
-weight: 110
+weight: 130
 url: /ja/aspose.slides.animation/animationtimeline/
 ---
 ## AnimationTimeLine クラス
@@ -18,15 +18,15 @@ public class AnimationTimeLine : DomObject<BaseSlide>, IAnimationTimeLine
 
 | 名前 | 説明 |
 | --- | --- |
-| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | インタラクティブ シーケンスのコレクションを返します。このシーケンスは、指定された対象シェイプによる「シェイプのクリック」効果のみを含むことができます。読み取り専用 [`ISequenceCollection`](../isequencecollection)。 |
-| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | メイン エフェクトのコレクションのみを含む可能性があるメイン シーケンスを返します。読み取り専用 [`ISequence`](../isequence)。 |
-| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | テキスト アニメーションのコレクションを返します。読み取り専用 [`ITextAnimationCollection`](../itextanimationcollection)。 |
+| [InteractiveSequences](../../aspose.slides.animation/animationtimeline/interactivesequences) { get; } | 対話的シーケンスのコレクションを返します。このシーケンスは、指定された対象シェイプによる「click on shape」効果のみを含む場合があります。読み取り専用 [`ISequenceCollection`](../isequencecollection)。 |
+| [MainSequence](../../aspose.slides.animation/animationtimeline/mainsequence) { get; } | メインエフェクトコレクションのみを含む可能性があるメインシーケンスを返します。読み取り専用 [`ISequence`](../isequence)。 |
+| [TextAnimationCollection](../../aspose.slides.animation/animationtimeline/textanimationcollection) { get; } | テキストアニメーションのコレクションを返します。読み取り専用 [`ITextAnimationCollection`](../itextanimationcollection)。 |
 
-### 関連項目
+### 参照
 
 * クラス [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * クラス [BaseSlide](../../aspose.slides/baseslide)
-* インターフェース [IAnimationTimeLine](../../aspose.slides/ianimationtimeline)
+* インターフェイス [IAnimationTimeLine](../../aspose.slides/ianimationtimeline)
 * 名前空間 [Aspose.Slides.Animation](../../aspose.slides.animation)
 * アセンブリ [Aspose.Slides](../../)
 

@@ -1,14 +1,14 @@
 ---
 title: IInkBrush
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt traceerkwast.
+description: Stelt een sporenkwast voor.
 type: docs
 weight: 7530
 url: /nl/aspose.slides.ink/iinkbrush/
 ---
 ## IInkBrush interface
 
-Vertegenwoordigt traceerkwast.
+Stelt een sporenkwast voor.
 
 ```csharp
 public interface IInkBrush
@@ -18,9 +18,9 @@ public interface IInkBrush
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Haalt de penseelkleur op of stelt deze in voor een lijn. |
-| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Haalt het inkt-effecttype op (bijv. Galaxy, Gold, Silver) dat de visuele stijl van de inktstreep definieert. De waarde wordt ontleed uit de penseel-eigenschap "inkEffects". Als er geen herkend effect is opgegeven, wordt NotDefined geretourneerd. |
-| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Haalt de penseelgrootte op of stelt deze in voor een lijn in punten. |
+| [Color](../../aspose.slides.ink/iinkbrush/color) { get; set; } | Haalt of stelt de kwastkleur voor een lijn in. |
+| [InkEffect](../../aspose.slides.ink/iinkbrush/inkeffect) { get; } | Haalt het inkt-effecttype op (bijv. Galaxy, Gold, Silver) dat de visuele stijl van de inktstreek definieert. De waarde wordt geparseerd uit de kwast-eigenschap "inkEffects". Als er geen herkend effect is opgegeven, wordt NotDefined geretourneerd. |
+| [Size](../../aspose.slides.ink/iinkbrush/size) { get; set; } | Haalt of stelt de kwastgrootte voor een lijn in punten in. |
 
 ### Zie ook
 

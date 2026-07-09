@@ -1,14 +1,14 @@
 ---
 title: FillOverlay
-second_title: Aspose.Sildes .NET API Referenciája
-description: Egy Fill Overlay hatást reprezentál. A Fill Overlay használható egy további kitöltés megadására egy objektumhoz, és a két kitöltés összekeverésére.
+second_title: Aspose.Sildes .NET API Referencia
+description: Egy Fill Overlay effektust képvisel. A fill overlay használható egy objektum további kitöltésének meghatározására, és a két kitöltés egyesítésére.
 type: docs
-weight: 2960
+weight: 2980
 url: /hu/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay osztály
 
-Egy Fill Overlay hatást reprezentál. A fill overlay egy további kitöltés megadására használható egy objektumhoz, és összekeveri a két kitöltést.
+Egy Fill Overlay effektust képvisel. A fill overlay használható egy objektum további kitöltésének meghatározására, és a két kitöltés egyesítésére.
 
 ```csharp
 public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
@@ -16,19 +16,19 @@ public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi a base IPresentationComponent interfész elérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Olvasási/írási [`FillBlendMode`](../../aspose.slides/fillblendmode). |
-| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Fill formátum. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Lehetővé teszi az alap IPresentationComponent interfész lekérését. Csak olvasható [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Blend](../../aspose.slides.effects/filloverlay/blend) { get; set; } | FillBlendMode. Olvasás/írás [`FillBlendMode`](../../aspose.slides/fillblendmode). |
+| [FillFormat](../../aspose.slides.effects/filloverlay/fillformat) { get; } | Kitöltés formátuma. Csak olvasható [`IFillFormat`](../../aspose.slides/ifillformat). |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Determines whether the specified [`FillOverlay`](../filloverlay) is equal to the current [`FillOverlay`](../filloverlay). |
-| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Megkapja a hatékony Fill Overlay effektus adatokat az öröklődés alkalmazásával. |
-| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Hash függvényként szolgál egy adott típushoz. |
+| override [Equals](../../aspose.slides.effects/filloverlay/equals)(object) | Megállapítja, hogy a megadott [`FillOverlay`](../filloverlay) egyenlő-e a jelenlegi [`FillOverlay`](../filloverlay)-val. |
+| [GetEffective](../../aspose.slides.effects/filloverlay/geteffective)() | Lekéri a hatékony Fill Overlay effektus adatokat a öröklődés alkalmazásával. |
+| override [GetHashCode](../../aspose.slides.effects/filloverlay/gethashcode)() | Hash-függvényként szolgál egy adott típushoz. |
 
 ### Lásd még
 

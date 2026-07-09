@@ -6,7 +6,7 @@ type: docs
 weight: 2830
 url: /fa/aspose.slides/effectformat/
 ---
-## کلاس EffectFormat
+## EffectFormat کلاس
 
 خواص اثرهای شکل را نمایش می‌دهد.
 
@@ -14,50 +14,50 @@ url: /fa/aspose.slides/effectformat/
 public sealed class EffectFormat : PVIObject, IEffectFormat
 ```
 
-## خواص
+## خصوصیات
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | برای دریافت رابط پایه IPresentationComponent امکان‌پذیر است. فقط‌خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
-| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | افکت تاری. خواندنی/نوشتنی [`IBlur`](../../aspose.slides.effects/iblur). |
-| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | افکت پوشش پر. خواندنی/نوشتنی [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
-| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | افکت تاب. خواندنی/نوشتنی [`IGlow`](../../aspose.slides.effects/iglow). |
-| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | سایه داخلی. خواندنی/نوشتنی [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
-| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | در صورتی که تمام افکت‌ها غیرفعال شوند (مانند به‌تازگی ایجاد شده، شیء پیش‌فرض EffectFormat) مقدار true را برمی‌گرداند. فقط‌خواندنی Boolean. |
-| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | سایه خارجی. خواندنی/نوشتنی [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
-| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | سایه پیش‌تنظیم. خواندنی/نوشتنی [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
-| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | انعکاس. خواندنی/نوشتنی [`IReflection`](../../aspose.slides.effects/ireflection). |
-| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | لبه نرم. خواندنی/نوشتنی [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | دسترسی به رابط پایه IPresentationComponent را فراهم می‌کند. فقط‌خواندنی [`IPresentationComponent`](../ipresentationcomponent). |
+| [BlurEffect](../../aspose.slides/effectformat/blureffect) { get; set; } | اثر تاری. قابل‌نوشتن [`IBlur`](../../aspose.slides.effects/iblur). |
+| [FillOverlayEffect](../../aspose.slides/effectformat/filloverlayeffect) { get; set; } | اثر پوشش پر کردن. قابل‌نوشتن [`IFillOverlay`](../../aspose.slides.effects/ifilloverlay). |
+| [GlowEffect](../../aspose.slides/effectformat/gloweffect) { get; set; } | اثر درخشندگی. قابل‌نوشتن [`IGlow`](../../aspose.slides.effects/iglow). |
+| [InnerShadowEffect](../../aspose.slides/effectformat/innershadoweffect) { get; set; } | سایه داخلی. قابل‌نوشتن [`IInnerShadow`](../../aspose.slides.effects/iinnershadow). |
+| [IsNoEffects](../../aspose.slides/effectformat/isnoeffects) { get; } | در صورت غیرفعال بودن تمام اثرها (مانند شیء EffectFormat تازه‌ساخته، پیش‌فرض) true برمی‌گرداند. فقط‌خواندنی Boolean. |
+| [OuterShadowEffect](../../aspose.slides/effectformat/outershadoweffect) { get; set; } | سایه خارجی. قابل‌نوشتن [`IOuterShadow`](../../aspose.slides.effects/ioutershadow). |
+| [PresetShadowEffect](../../aspose.slides/effectformat/presetshadoweffect) { get; set; } | سایه پیش‌تنظیم‌شده. قابل‌نوشتن [`IPresetShadow`](../../aspose.slides.effects/ipresetshadow). |
+| [ReflectionEffect](../../aspose.slides/effectformat/reflectioneffect) { get; set; } | بازتاب. قابل‌نوشتن [`IReflection`](../../aspose.slides.effects/ireflection). |
+| [SoftEdgeEffect](../../aspose.slides/effectformat/softedgeeffect) { get; set; } | لبه نرم. قابل‌نوشتن [`ISoftEdge`](../../aspose.slides.effects/isoftedge). |
 
 ## متدها
 
-| نام | توضیحات |
+| نام | توضیح |
 | --- | --- |
-| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | افکت تاری را غیرفعال می‌کند. |
-| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | افکت پوشش پر را غیرفعال می‌کند. |
-| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | افکت تاب را غیرفعال می‌کند. |
-| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | افکت سایه داخلی را غیرفعال می‌کند. |
-| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | افکت سایه خارجی را غیرفعال می‌کند. |
-| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | افکت سایه پیش‌تنظیم را غیرفعال می‌کند. |
-| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | افکت انعکاس را غیرفعال می‌کند. |
-| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | افکت لبه نرم را غیرفعال می‌کند. |
-| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | افکت پوشش پر را فعال می‌کند. |
-| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | افکت تاب را فعال می‌کند. |
-| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | افکت سایه داخلی را فعال می‌کند. |
-| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | افکت سایه خارجی را فعال می‌کند. |
-| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | افکت سایه‌های پیش‌تنظیم را فعال می‌کند. |
-| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | افکت انعکاس را فعال می‌کند. |
-| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | افکت لبه نرم را فعال می‌کند. |
+| [DisableBlurEffect](../../aspose.slides/effectformat/disableblureffect)() | اثر تاری را غیرفعال می‌کند. |
+| [DisableFillOverlayEffect](../../aspose.slides/effectformat/disablefilloverlayeffect)() | اثر پوشش پر کردن را غیرفعال می‌کند. |
+| [DisableGlowEffect](../../aspose.slides/effectformat/disablegloweffect)() | اثر درخشندگی را غیرفعال می‌کند. |
+| [DisableInnerShadowEffect](../../aspose.slides/effectformat/disableinnershadoweffect)() | اثر سایه داخلی را غیرفعال می‌کند. |
+| [DisableOuterShadowEffect](../../aspose.slides/effectformat/disableoutershadoweffect)() | اثر سایه خارجی را غیرفعال می‌کند. |
+| [DisablePresetShadowEffect](../../aspose.slides/effectformat/disablepresetshadoweffect)() | اثر سایه پیش‌تنظیم‌شده را غیرفعال می‌کند. |
+| [DisableReflectionEffect](../../aspose.slides/effectformat/disablereflectioneffect)() | اثر بازتاب را غیرفعال می‌کند. |
+| [DisableSoftEdgeEffect](../../aspose.slides/effectformat/disablesoftedgeeffect)() | اثر لبه نرم را غیرفعال می‌کند. |
+| [EnableFillOverlayEffect](../../aspose.slides/effectformat/enablefilloverlayeffect)() | اثر پوشش پر کردن را فعال می‌کند. |
+| [EnableGlowEffect](../../aspose.slides/effectformat/enablegloweffect)() | اثر درخشندگی را فعال می‌کند. |
+| [EnableInnerShadowEffect](../../aspose.slides/effectformat/enableinnershadoweffect)() | اثر سایه داخلی را فعال می‌کند. |
+| [EnableOuterShadowEffect](../../aspose.slides/effectformat/enableoutershadoweffect)() | اثر سایه خارجی را فعال می‌کند. |
+| [EnablePresetShadowEffect](../../aspose.slides/effectformat/enablepresetshadoweffect)() | اثر سایه‌های پیش‌تنظیم‌شده را فعال می‌کند. |
+| [EnableReflectionEffect](../../aspose.slides/effectformat/enablereflectioneffect)() | اثر بازتاب را فعال می‌کند. |
+| [EnableSoftEdgeEffect](../../aspose.slides/effectformat/enablesoftedgeeffect)() | اثر لبه نرم را فعال می‌کند. |
 | override [Equals](../../aspose.slides/pviobject/equals)(object) | با شیء مشخص‌شده مقایسه می‌کند. |
 | [GetEffective](../../aspose.slides/effectformat/geteffective)() | داده‌های قالب‌بندی اثر مؤثر را با در نظر گرفتن ارث‌بری دریافت می‌کند. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | کد هش را برمی‌گرداند. |
-| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | افکت تاری را تنظیم می‌کند. |
+| [SetBlurEffect](../../aspose.slides/effectformat/setblureffect)(double, bool) | اثر تاری را تنظیم می‌کند. |
 
-### موارد مرتبط
+### مطالب مرتبط
 
 * کلاس [PVIObject](../pviobject)
-* اینترفیس [IEffectFormat](../ieffectformat)
-* فضای‌نام [Aspose.Slides](../../aspose.slides)
-* اسمبلی [Aspose.Slides](../../)
+* رابط [IEffectFormat](../ieffectformat)
+* فضای نام [Aspose.Slides](../../aspose.slides)
+* مجمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

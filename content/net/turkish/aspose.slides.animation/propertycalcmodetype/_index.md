@@ -1,12 +1,12 @@
 ---
 title: PropertyCalcModeType
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: Animasyon özelliği için hesaplama modunu temsil eder.
 type: docs
-weight: 720
+weight: 740
 url: /tr/aspose.slides.animation/propertycalcmodetype/
 ---
-## PropertyCalcModeType numaralandırması
+## PropertyCalcModeType enumerasyon
 
 Animasyon özelliği için hesaplama modunu temsil eder.
 
@@ -16,7 +16,7 @@ public enum PropertyCalcModeType
 
 ### Değerler
 
-| İsim | Değer | Açıklama |
+| Ad | Değer | Açıklama |
 | --- | --- | --- |
 | NotDefined | `-1` |  |
 | Discrete | `0` |  |

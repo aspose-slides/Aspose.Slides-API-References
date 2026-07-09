@@ -1,9 +1,9 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Reprezentuje niestandardową część XML.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje niestandardową część xml.
 type: docs
-weight: 5650
+weight: 5670
 url: /pl/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart interfejs
@@ -18,10 +18,10 @@ public interface ICustomXmlPart
 
 | Nazwa | Opis |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Określa globalnie unikatowy identyfikator (GUID), który jednoznacznie identyfikuje pojedynczą niestandardową część XML w dokumencie Office Open XML. Tylko do odczytu Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Zwraca kolekcję schematów XML powiązanych z niestandardową częścią XML. Tylko do odczytu String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Zwraca lub ustawia dane xml jako ciąg UTF-8. Do odczytu i zapisu String. wartość jest `null`. wartość jest pusta lub dane xml są nieprawidłowe. |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Zwraca lub ustawia dane xml. Do odczytu i zapisu Byte[]. wartość jest `null`. wartość jest pusta lub dane xml są nieprawidłowe. |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | Określa globalnie unikalny identyfikator (GUID), który jednoznacznie identyfikuje pojedynczą niestandardową część XML w dokumencie Office Open XML. GUID tylko do odczytu. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | Zwraca kolekcję schematów XML powiązanych z niestandardową częścią XML. String[] tylko do odczytu. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | Zwraca lub ustawia dane xml jako ciąg UTF-8. String odczyt/zapis. wartość jest `null`. wartość jest pusta lub dane xml są nieprawidłowe. |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | Zwraca lub ustawia dane xml. Byte[] odczyt/zapis. wartość jest `null`. wartość jest pusta lub dane xml są nieprawidłowe. |
 
 ## Metody
 

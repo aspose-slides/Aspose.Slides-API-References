@@ -18,28 +18,28 @@ public enum PresetShadowType
 
 | 名稱 | 值 | 說明 |
 | --- | --- | --- |
-| TopLeftDropShadow | `0` | 表示左上投影。 |
-| TopLeftLargeDropShadow | `1` | 表示左上大型投影。 |
-| BackLeftLongPerspectiveShadow | `2` | 表示左後長透視陰影。 |
-| BackRightLongPerspectiveShadow | `3` | 表示右後長透視陰影。 |
-| TopLeftDoubleDropShadow | `4` | 表示左上雙層投影。 |
-| BottomRightSmallDropShadow | `5` | 表示右下小型投影。 |
-| FrontLeftLongPerspectiveShadow | `6` | 表示左前長透視陰影。 |
-| FrontRightLongPerspectiveShadow | `7` | 表示右前長透視陰影。 |
-| OuterBoxShadow3D | `8` | 表示外部盒子 3D 陰影。 |
-| InnerBoxShadow3D | `9` | 表示內部盒子 3D 陰影。 |
-| BackCenterPerspectiveShadow | `10` | 表示後方中心透視陰影。 |
-| TopRightDropShadow | `11` | 表示右上投影。 |
-| FrontBottomShadow | `12` | 表示前下陰影。 |
-| BackLeftPerspectiveShadow | `13` | 表示左後透視陰影。 |
-| BackRightPerspectiveShadow | `14` | 表示右後透視陰影。 |
-| BottomLeftDropShadow | `15` | 表示左下投影。 |
-| BottomRightDropShadow | `16` | 表示右下投影。 |
-| FrontLeftPerspectiveShadow | `17` | 表示左前透視陰影。 |
-| FrontRightPerspectiveShadow | `18` | 表示右前透視陰影。 |
-| TopLeftSmallDropShadow | `19` | 表示左上小型投影。 |
+| TopLeftDropShadow | `0` | 表示左上方投影。 |
+| TopLeftLargeDropShadow | `1` | 表示左上方大型投影。 |
+| BackLeftLongPerspectiveShadow | `2` | 表示左後方長透視投影 |
+| BackRightLongPerspectiveShadow | `3` | 表示右後方長透視投影 |
+| TopLeftDoubleDropShadow | `4` | 表示左上方雙重投影。 |
+| BottomRightSmallDropShadow | `5` | 表示右下方小型投影。 |
+| FrontLeftLongPerspectiveShadow | `6` | 表示左前方長透視投影。 |
+| FrontRightLongPerspectiveShadow | `7` | 表示右前方長透視投影。 |
+| OuterBoxShadow3D | `8` | 表示外部盒狀 3D 投影。 |
+| InnerBoxShadow3D | `9` | 表示內部盒狀 3D 投影。 |
+| BackCenterPerspectiveShadow | `10` | 表示後方中央透視投影。 |
+| TopRightDropShadow | `11` | 表示右上方投影。 |
+| FrontBottomShadow | `12` | 表示前方底部投影。 |
+| BackLeftPerspectiveShadow | `13` | 表示左後方透視投影。 |
+| BackRightPerspectiveShadow | `14` | 表示右後方透視投影。 |
+| BottomLeftDropShadow | `15` | 表示左下方投影。 |
+| BottomRightDropShadow | `16` | 表示右下方投影。 |
+| FrontLeftPerspectiveShadow | `17` | 表示左前方透視投影。 |
+| FrontRightPerspectiveShadow | `18` | 表示右前方透視投影。 |
+| TopLeftSmallDropShadow | `19` | 表示左上方小型投影。 |
 
-### 另請參閱
+### 參見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

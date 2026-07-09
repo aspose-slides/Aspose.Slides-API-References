@@ -1,14 +1,14 @@
 ---
 title: Marker
-second_title: Aspose.Sildes voor .NET API Referentie
-description: Stelt de markering van een chert voor.
+second_title: Aspose.Sildes voor .NET API-referentie
+description: Stelt een marker van een chert voor.
 type: docs
 weight: 2330
 url: /nl/aspose.slides.charts/marker/
 ---
-## Marker-klasse
+## Marker klasse
 
-Stelt de markering van een chert voor.
+Stelt een marker van een chert voor.
 
 ```csharp
 public class Marker : IMarker
@@ -18,9 +18,9 @@ public class Marker : IMarker
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Format](../../aspose.slides.charts/marker/format) { get; } | Geeft of stelt de markervulling in. Alleen-lezen [`IFormat`](../iformat). |
-| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Stelt de markeromvang voor in een lijndiagram, spreidingsdiagram of radardiagram. Lees/schrijf Int32. |
-| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Stelt de markerstijl voor in een lijndiagram, spreidingsdiagram of radardiagram. Lees/schrijf [`MarkerStyleType`](../markerstyletype). |
+| [Format](../../aspose.slides.charts/marker/format) { get; } | Haalt of stelt de marker-vulling in. Alleen-lezen [`IFormat`](../iformat). |
+| [Size](../../aspose.slides.charts/marker/size) { get; set; } | Stelt de marker-grootte voor in een lijndiagram, spreidingsdiagram of radardiagram. Lees/schrijf Int32. |
+| [Symbol](../../aspose.slides.charts/marker/symbol) { get; set; } | Stelt de marker-stijl voor in een lijndiagram, spreidingsdiagram of radardiagram. Lees/schrijf [`MarkerStyleType`](../markerstyletype). |
 
 ### Zie ook
 

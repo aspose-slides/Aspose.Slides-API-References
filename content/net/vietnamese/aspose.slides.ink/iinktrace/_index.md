@@ -1,14 +1,14 @@
 ---
 title: IInkTrace
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Biểu thị đường viết tay trong một đối tượng Ink.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu diễn đường viết tay trong một đối tượng Ink.
 type: docs
 weight: 7540
 url: /vi/aspose.slides.ink/iinktrace/
 ---
-## IInkTrace giao diện
+## Giao diện IInkTrace
 
-Biểu thị đường viết tay trong đối tượng Ink.
+Biểu diễn đường viết tay trong một đối tượng Ink.
 
 ```csharp
 public interface IInkTrace

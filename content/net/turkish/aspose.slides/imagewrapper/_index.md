@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Aspose.Sildes .NET API Referansı
-description: COM arabirimi için System.Drawing.Image sarmalayıcısı.
+second_title: Aspose.Sildes için .NET API Referansı
+description: COM arabirimi için System.Drawing.Image sarmalayıcı.
 type: docs
-weight: 7420
+weight: 7440
 url: /tr/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper sınıfı
 
-COM arabirimi için System.Drawing.Image sarmalayıcısı.
+COM arabirimi için System.Drawing.Image sarmalayıcı.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -18,19 +18,19 @@ public class ImageWrapper : IImageWrapper
 
 | Ad | Açıklama |
 | --- | --- |
-| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image'ı alır. Yalnızca okunabilir [`IImage`](../iimage). |
-| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image'ın piksel cinsinden genişliğini ve yüksekliğini alır. Yalnızca okunabilir [`Size`](./size). |
+| [ImageSource](../../aspose.slides/imagewrapper/imagesource) { get; } | Image öğesini alır. Salt okunur [`IImage`](../iimage). |
+| [Size](../../aspose.slides/imagewrapper/size) { get; } | Image'in piksel cinsinden genişliğini ve yüksekliğini alır. Salt okunur [`Size`](./size). |
 
 ## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | ImageWrapper'ı serbest bırak |
-| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image'ı belirtilen dosyaya kaydeder |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image'ı belirtilen formatta belirtilen akışa kaydeder |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image'ı belirtilen formatta belirtilen dosyaya kaydeder |
+| [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Image'i belirtilen dosyaya kaydeder |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Image'i belirtilen akışa belirtilen formatta kaydeder. |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Image'i belirtilen dosyaya belirtilen formatta kaydeder. |
 
-### Ayrıca Bakınız
+### Diğer Bağlantılar
 
 * arayüz [IImageWrapper](../iimagewrapper)
 * ad alanı [Aspose.Slides](../../aspose.slides)

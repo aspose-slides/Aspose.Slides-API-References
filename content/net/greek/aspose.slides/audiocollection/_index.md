@@ -1,9 +1,9 @@
 ---
 title: AudioCollection
-second_title: Aspose.Sildes για .NET API Αναφορά
-description: Αντιπροσωπεύει μια συλλογή ενσωματωμένων αρχείων ήχου.
+second_title: Aspose.Sildes για .NET Αναφορά API
+description: Αναπαριστά μια συλλογή ενσωματωμένων αρχείων ήχου.
 type: docs
-weight: 840
+weight: 860
 url: /el/aspose.slides/audiocollection/
 ---
 ## AudioCollection κλάση
@@ -18,21 +18,21 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Επιστρέφει τον αριθμό των αρχείων ήχου στη συλλογή. Μόνο για ανάγνωση Int32. |
-| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει εάν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο για ανάγνωση Boolean. |
-| [Item](../../aspose.slides/audiocollection/item) { get; } | Λαμβάνει το στοιχείο στο συγκεκριμένο δείκτη. Μόνο για ανάγνωση [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο για ανάγνωση Object. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Επιστρέφει τον αριθμό των αρχείων ήχου στη συλλογή. Μόνο-ανάγνωση Int32. |
+| [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Επιστρέφει τιμή που υποδεικνύει αν η πρόσβαση στη συλλογή είναι συγχρονισμένη (thread-safe). Μόνο-ανάγνωση Boolean. |
+| [Item](../../aspose.slides/audiocollection/item) { get; } | Λαμβάνει το στοιχείο στον καθορισμένο δείκτη. Μόνο-ανάγνωση [`IAudio`](../iaudio). |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Επιστρέφει τη ρίζα συγχρονισμού. Μόνο-ανάγνωση Object. |
 
 ## Μέθοδοι
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Δημιουργεί και προσθέτει ένα αρχείο ήχου σε μια παρουσίαση από πίνακα byte. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Προσθέτει ένα αντίγραφο αρχείου ήχου από άλλη παρουσίαση. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Δημιουργεί και προσθέτει ένα αρχείο ήχου σε μια παρουσίαση από ροή. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Δημιουργεί και προσθέτει ένα αρχείο ήχου σε μια παρουσίαση από ροή. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Αντιγράφει ήχους σε καθορισμένο πίνακα ξεκινώντας από καθορισμένο δείκτη. |
-| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Επιστρέφει έναν αριθμητή που διατρέχει τη συλλογή. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Δημιουργεί και προσθέτει έναν ήχο σε μια παρουσίαση από πίνακα byte. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Προσθέτει ένα αντίγραφο αρχείου ήχου από μια άλλη παρουσίαση. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Δημιουργεί και προσθέτει έναν ήχο σε μια παρουσίαση από Stream. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Δημιουργεί και προσθέτει έναν ήχο σε μια παρουσίαση από Stream. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Αντιγράφει ήχους σε καθορισμένο πίνακα ξεκινώντας από τον καθορισμένο δείκτη. |
+| [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Επιστρέφει έναν απαριθμητή που επαναλαμβάνει τη συλλογή. |
 
 ### Δείτε επίσης
 

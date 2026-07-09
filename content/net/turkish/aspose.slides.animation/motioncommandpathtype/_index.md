@@ -1,12 +1,12 @@
 ---
 title: MotionCommandPathType
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Animasyon hareket efekti davranışı için komut türlerini temsil eder.
 type: docs
-weight: 640
+weight: 660
 url: /tr/aspose.slides.animation/motioncommandpathtype/
 ---
-## MotionCommandPathType enum
+## MotionCommandPathType sayımı
 
 Animasyon hareket efekti davranışı için komut türlerini temsil eder.
 

@@ -16,43 +16,43 @@ public class DataLabel : IDataLabel
 
 ## 建構函式
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
 | [DataLabel](datalabel)(IChartDataPoint) | 建立 DataLabel 類別的新執行個體。 |
 
 ## 屬性
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 指定圖表元素的實際高度。請先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。Read Single. |
-| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 指定圖表元素的實際寬度。請先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。Read Single. |
-| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 X 位置（左）。請先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。Read Single. |
-| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。請先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。Read Single. |
-| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 底部。Read-only Single. |
-| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 返回父圖表。Read-only [`IChart`](../ichart). |
-| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | 返回資料標籤格式。Read-only [`IDataLabelFormat`](../idatalabelformat). |
-| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 以圖表高度的比例返回或設定標題的高度。Read/write Single. |
-| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False 表示資料標籤不顯示（因此所有 Show* 標誌皆為 false）。Read-only Boolean. |
-| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右側。Read-only Single. |
-| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | 返回文字格式。Read-only [`IChartTextFormat`](../icharttextformat). |
-| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 可包含富格式文字。若此屬性不為 null，則此格式化文字值會覆寫資料標籤的自動產生文字。自動產生的文字是由 ShowSeriesName、ShowValue 等屬性管理，並使用 TextFormatManager.TextFormat 屬性格式化。Read-only [`ITextFrame`](../../aspose.slides/itextframe). |
-| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 取得或設定工作簿資料儲存格。當 IDataLabelFormat.ShowLabelValueFromCell 屬性為 true 時套用。 |
-| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 以圖表寬度的比例返回或設定標題的寬度。Read/write Single. |
-| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | 以圖表寬度的比例返回或設定標題的 X 座標。Read/write Single. |
-| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | 以圖表高度的比例返回或設定標題的 Y 座標。Read/write Single. |
+| [ActualHeight](../../aspose.slides.charts/datalabel/actualheight) { get; } | 指定圖表元素的實際高度。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single。 |
+| [ActualWidth](../../aspose.slides.charts/datalabel/actualwidth) { get; } | 指定圖表元素的實際寬度。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single。 |
+| [ActualX](../../aspose.slides.charts/datalabel/actualx) { get; } | 指定圖表元素相對於圖表左上角的實際 X 位置（左）。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single。 |
+| [ActualY](../../aspose.slides.charts/datalabel/actualy) { get; } | 指定圖表元素相對於圖表左上角的實際上緣。先呼叫方法 IChart.ValidateChartLayout() 以取得實際值。讀取 Single。 |
+| [Bottom](../../aspose.slides.charts/datalabel/bottom) { get; } | 底部。唯讀 Single。 |
+| [Chart](../../aspose.slides.charts/datalabel/chart) { get; } | 返回父圖表。唯讀 [`IChart`](../ichart)。 |
+| [DataLabelFormat](../../aspose.slides.charts/datalabel/datalabelformat) { get; } | 返回資料標籤格式。唯讀 [`IDataLabelFormat`](../idatalabelformat)。 |
+| [Height](../../aspose.slides.charts/datalabel/height) { get; set; } | 返回或設定標題高度，作為圖表高度的比例。可讀寫 Single。 |
+| [IsVisible](../../aspose.slides.charts/datalabel/isvisible) { get; } | False 表示資料標籤不可見（因此所有 Show*-flags（ShowValue 等）皆為 false）。唯讀 Boolean。 |
+| [Right](../../aspose.slides.charts/datalabel/right) { get; } | 右側。唯讀 Single。 |
+| [TextFormat](../../aspose.slides.charts/datalabel/textformat) { get; } | 返回文字格式。唯讀 [`IChartTextFormat`](../icharttextformat)。 |
+| [TextFrameForOverriding](../../aspose.slides.charts/datalabel/textframeforoverriding) { get; } | 可包含富格式文字。如果此屬性不為 null，則此格式化文字值會覆寫資料標籤的自動產生文字。自動產生文字是由 ShowSeriesName、ShowValue 等屬性管理，並以 TextFormatManager.TextFormat 屬性格式化。唯讀 [`ITextFrame`](../../aspose.slides/itextframe)。 |
+| [ValueFromCell](../../aspose.slides.charts/datalabel/valuefromcell) { get; set; } | 取得或設定工作簿資料儲存格。若 IDataLabelFormat.ShowLabelValueFromCell 屬性為 true，則套用此設定。 |
+| [Width](../../aspose.slides.charts/datalabel/width) { get; set; } | 返回或設定標題寬度，作為圖表寬度的比例。可讀寫 Single。 |
+| [X](../../aspose.slides.charts/datalabel/x) { get; set; } | 返回或設定標題的 X 座標，作為圖表寬度的比例。可讀寫 Single。 |
+| [Y](../../aspose.slides.charts/datalabel/y) { get; set; } | 返回或設定標題的 Y 座標，作為圖表高度的比例。可讀寫 Single。 |
 
 ## 方法
 
-| Name | Description |
+| 名稱 | 說明 |
 | --- | --- |
-| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | 使用參數「text」中的文字初始化 TextFrameForOverriding。若 TextFrameForOverriding 已經初始化，則直接變更其文字。 |
-| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | 根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值返回實際的標籤文字。 |
-| [Hide](../../aspose.slides.charts/datalabel/hide)() | 透過將所有 Show* 標誌（ShowValue 等）設定為 false 使資料標籤隱藏。IsVisible 之後會為 false。 |
+| [AddTextFrameForOverriding](../../aspose.slides.charts/datalabel/addtextframeforoverriding)(string) | 使用參數 "text" 中的文字初始化 TextFrameForOverriding。如果 TextFrameForOverriding 已經初始化，則僅變更其文字。 |
+| [GetActualLabelText](../../aspose.slides.charts/datalabel/getactuallabeltext)() | 根據 DataLabelFormat 設定或 TextFrameForOverriding.Text 值返回實際標籤文字。 |
+| [Hide](../../aspose.slides.charts/datalabel/hide)() | 透過將所有 Show*-flags（ShowValue 等）設為 false 使資料標籤隱藏。IsVisible 之後將為 false。 |
 
-### 參見
+### 另請參閱
 
-* interface [IDataLabel](../idatalabel)
-* namespace [Aspose.Slides.Charts](../../aspose.slides.charts)
-* assembly [Aspose.Slides](../../)
+* 介面 [IDataLabel](../idatalabel)
+* 命名空間 [Aspose.Slides.Charts](../../aspose.slides.charts)
+* 程式集 [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

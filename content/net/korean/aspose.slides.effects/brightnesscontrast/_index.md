@@ -1,6 +1,6 @@
 ---
 title: BrightnessContrast
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: BrightnessContrast 효과를 나타냅니다. 밝기와 대비를 조정합니다.
 type: docs
 weight: 2930
@@ -24,11 +24,11 @@ public sealed class BrightnessContrast : ImageTransformOperation, IBrightnessCon
 
 | 이름 | 설명 |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | 지정된 [`BrightnessContrast`](../brightnesscontrast)가 현재 [`BrightnessContrast`](../brightnesscontrast)와 같은지 여부를 결정합니다. |
+| override [Equals](../../aspose.slides.effects/brightnesscontrast/equals)(object) | 지정된 [`BrightnessContrast`](../brightnesscontrast)가 현재 [`BrightnessContrast`](../brightnesscontrast)와 같은지 확인합니다. |
 | [GetEffective](../../aspose.slides.effects/brightnesscontrast/geteffective)() | 상속이 적용된 효과적인 BrightnessContrast 효과 데이터를 가져옵니다. |
-| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | 특정 유형에 대한 해시 함수로 사용됩니다. |
+| override [GetHashCode](../../aspose.slides.effects/brightnesscontrast/gethashcode)() | 특정 타입에 대한 해시 함수를 제공합니다. |
 
-### 관련 항목
+### 참조
 
 * 클래스 [ImageTransformOperation](../imagetransformoperation)
 * 인터페이스 [IBrightnessContrast](../ibrightnesscontrast)

@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Sildes för .NET API-referens
 description: Representerar bildspelsövergång.
 type: docs
-weight: 10300
+weight: 10320
 url: /sv/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition klass
@@ -18,32 +18,32 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Detta attribut anger om bildspelet ska gå till nästa bild efter en viss tid. Läs/skriv Boolean. |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Anger tiden, i millisekunder, efter vilken övergången ska starta. Denna inställning kan användas tillsammans med advClick-attributet. Om detta attribut inte anges antas att ingen automatisk vidaregång sker. Läs/skriv UInt32. |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | Detta attribut anger om bildspelet kommer att gå till nästa bild efter en viss tid. Läs/skriv Boolean. |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | Anger tiden, i millisekunder, efter vilken övergången ska starta. Denna inställning kan användas i kombination med advClick-attributet. Om detta attribut inte anges antas att ingen automatisk vidaregång kommer att ske. Läs/skriv UInt32. |
 | [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | Anger om ett musklick ska gå vidare till nästa bild eller inte. Om detta attribut inte anges antas värdet true. Läs/skriv Boolean. |
 | [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | Hämtar eller anger varaktigheten för bildövergångseffekten i millisekunder. Läs/skriv Int32. |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Hämtar eller anger det inbäddade ljuddata. Läs/skriv [`IAudio`](../../aspose.slides/iaudio). |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Anger om detta ljud är ett inbyggt ljud eller inte. Om detta attribut är true får den genererande applikationen en signal att kontrollera namnattributet för detta ljud i sin lista över inbyggda ljud och kan då visa ett anpassat namn eller UI efter behov. Läs/skriv Boolean. |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Detta attribut anger om ljudet ska loopa tills nästa ljudhändelse inträffar i bildspelet. Läs/skriv Boolean. |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | Hämtar eller anger de inbäddade ljuddata. Läs/skriv [`IAudio`](../../aspose.slides/iaudio). |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | Anger om detta ljud är ett inbyggt ljud eller inte. Om detta attribut är satt till true får den genererande applikationen en varning att kontrollera name-attributet som angivits för detta ljud i dess lista över inbyggda ljud och kan då visa ett anpassat namn eller UI vid behov. Läs/skriv Boolean. |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | Detta attribut anger om ljudet ska loopa tills nästa ljudevent inträffar i bildspelet. Läs/skriv Boolean. |
 | [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | Ställer in eller hämtar ljudläget för bildövergången. Läs/skriv [`TransitionSoundMode`](../transitionsoundmode). |
 | [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | Anger ett människoläsbart namn för övergångens ljud. [`Sound`](./sound)-egenskapen måste tilldelas för att hämta eller ange ljudnamnet. Läs/skriv String. |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Anger den övergångshastighet som ska användas när man går från den aktuella bilden till nästa. Läs/skriv [`TransitionSpeed`](../transitionspeed). |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | Anger övergångshastigheten som ska användas när man övergår från den aktuella bilden till nästa. Läs/skriv [`TransitionSpeed`](../transitionspeed). |
 | [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | Typ av övergång. Läs/skriv [`TransitionType`](../transitiontype). |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Värde för bildspelsövergång. Endast läs [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | Värde för bildspelsövergång. Skrivskyddad [`ITransitionValueBase`](../itransitionvaluebase). |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Avgör om de två SlideShowTransition-instanserna är lika. Läs/skriv Boolean. |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Tjänar som en hashfunktion för en specifik typ, lämplig för användning i hash-algoritmer och datastrukturer som en hash-tabell. |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | Bestämmer om de två SlideShowTransition-instanserna är lika. Läs/skriv Boolean. |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | Fungerar som en hashfunktion för en viss typ, lämplig för användning i hashalgoritmer och datastrukturer som en hashtabell. |
 
-### Se även
+### Se också
 
 * klass [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * klass [BaseSlide](../../aspose.slides/baseslide)
 * gränssnitt [ISlideShowTransition](../../aspose.slides/islideshowtransition)
-* namnrymd [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
+* namnutrymme [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * samling [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

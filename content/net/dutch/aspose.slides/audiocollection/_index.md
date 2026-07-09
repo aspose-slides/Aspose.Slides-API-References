@@ -1,14 +1,14 @@
 ---
 title: AudioCollection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een verzameling van ingebedde audiobestanden.
+description: Stelt een collectie van ingesloten audiobestanden voor.
 type: docs
 weight: 860
 url: /nl/aspose.slides/audiocollection/
 ---
 ## AudioCollection klasse
 
-Vertegenwoordigt een verzameling van ingebedde audiobestanden.
+Stelt een collectie van ingesloten audiobestanden voor.
 
 ```csharp
 public class AudioCollection : DomObject<Presentation>, IAudioCollection
@@ -18,20 +18,20 @@ public class AudioCollection : DomObject<Presentation>, IAudioCollection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Count](../../aspose.slides/audiocollection/count) { get; } | Retourneert een aantal audiobestanden in de collectie. Alleen-lezen Int32. |
+| [Count](../../aspose.slides/audiocollection/count) { get; } | Retourneert het aantal audiobestanden in de collectie. Alleen-lezen Int32. |
 | [IsSynchronized](../../aspose.slides/audiocollection/issynchronized) { get; } | Retourneert een waarde die aangeeft of de toegang tot de collectie gesynchroniseerd is (thread-safe). Alleen-lezen Boolean. |
 | [Item](../../aspose.slides/audiocollection/item) { get; } | Haalt het element op op de opgegeven index. Alleen-lezen [`IAudio`](../iaudio). |
-| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Retourneert een synchronisatieroot. Alleen-lezen Object. |
+| [SyncRoot](../../aspose.slides/audiocollection/syncroot) { get; } | Retourneert een synchronisatiewortel. Alleen-lezen Object. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Maakt een audio aan en voegt deze toe aan een presentatie vanuit een byte-array. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Voegt een kopie van een audiobestand toe vanaf een andere presentatie. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Maakt een audio aan en voegt deze toe aan een presentatie vanuit een stream. |
-| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Maakt een audio aan en voegt deze toe aan een presentatie vanuit een stream. |
-| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopieert audio’s naar de opgegeven array, beginnend bij de opgegeven index. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_1)(byte[]) | Creëert en voegt een audio toe aan een presentatie vanuit een byte-array. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio)(IAudio) | Voegt een kopie van een audiobestand toe vanuit een andere presentatie. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_2)(Stream) | Creëert en voegt een audio toe aan een presentatie vanuit een stream. |
+| [AddAudio](../../aspose.slides/audiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Creëert en voegt een audio toe aan een presentatie vanuit een stream. |
+| [CopyTo](../../aspose.slides/audiocollection/copyto)(Array, int) | Kopieert audio's naar de opgegeven array beginnend vanaf de opgegeven index. |
 | [GetEnumerator](../../aspose.slides/audiocollection/getenumerator)() | Retourneert een enumerator die door de collectie itereert. |
 
 ### Zie ook

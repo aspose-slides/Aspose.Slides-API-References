@@ -1,14 +1,14 @@
 ---
 title: IMasterSlideHeaderFooterManager
-second_title: อ้างอิง API Aspose.Sildes สำหรับ .NET
-description: แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวพักส่วนท้ายของสไลด์หลัก, ตัวพักวัน-เวลา, ตัวพักหมายเลขหน้า และตัวพักลูกทั้งหมด. ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา. สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก วันที่-เวลา ตัวเลขหน้าและตัวอักษรตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก.
 type: docs
 weight: 6440
 url: /th/aspose.slides/imasterslideheaderfootermanager/
 ---
 ## IMasterSlideHeaderFooterManager อินเทอร์เฟซ
 
-แสดงถึงผู้จัดการที่ควบคุมพฤติกรรมของตัวพักส่วนท้ายของสไลด์หลัก, ตัวพักวัน-เวลา, ตัวพักหมายเลขหน้า และตัวพักลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก
+เป็นผู้จัดการที่กำหนดพฤติกรรมของส่วนท้ายสไลด์หลัก, ตัวแทนวันที่-เวลา, ตัวเลขหน้าสไลด์และตัวอักษรตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์จะใช้และพึ่งพาสไลด์หลัก.
 
 ```csharp
 public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
@@ -18,17 +18,17 @@ public interface IMasterSlideHeaderFooterManager : IBaseSlideHeaderFooterManager
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่าอินเทอร์เฟซ IBaseSlideHeaderFooterManager |
+| [AsIBaseSlideHeaderFooterManager](../../aspose.slides/imasterslideheaderfootermanager/asibaseslideheaderfootermanager) { get; } | คืนค่า IBaseSlideHeaderFooterManager interface. |
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | ตั้งค่าข้อความในตัวพักวัน-เวลาของสไลด์หลักและตัวพักวัน-เวลาในสไลด์ลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก |
-| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนการแสดงผลของตัวพักวัน-เวลาของสไลด์หลักและตัวพักวัน-เวลาในสไลด์ลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก |
-| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | ตั้งค่าข้อความในตัวพักส่วนท้ายของสไลด์หลักและตัวพักส่วนท้ายในสไลด์ลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก |
-| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวพักส่วนท้ายของสไลด์หลักและตัวพักส่วนท้ายในสไลด์ลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก |
-| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนการแสดงผลของตัวพักหมายเลขหน้าของสไลด์หลักและตัวพักหมายเลขหน้าในสไลด์ลูกทั้งหมด ตัวพักลูกหมายถึงตัวพักที่อยู่ในสไลด์เค้าโครงที่พึ่งพาและสไลด์ที่พึ่งพา สไลด์เค้าโครงและสไลด์ที่พึ่งพาใช้และพึ่งพาสไลด์หลัก |
+| [SetDateTimeAndChildDateTimesText](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimestext)(string) | กำหนดข้อความให้กับตัวแทนวันที่-เวลาในสไลด์หลักและตัวแทนวันที่-เวลาตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
+| [SetDateTimeAndChildDateTimesVisibility](../../aspose.slides/imasterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของตัวแทนวันที่-เวลาในสไลด์หลักและตัวแทนวันที่-เวลาตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
+| [SetFooterAndChildFootersText](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfooterstext)(string) | กำหนดข้อความให้กับส่วนท้ายสไลด์หลักและส่วนท้ายตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
+| [SetFooterAndChildFootersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setfooterandchildfootersvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของส่วนท้ายสไลด์หลักและส่วนท้ายตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
+| [SetSlideNumberAndChildSlideNumbersVisibility](../../aspose.slides/imasterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility)(bool) | เปลี่ยนแปลงการมองเห็นของตัวแทนเลขหน้าสไลด์หลักและตัวแทนเลขหน้าตัวย่อยทั้งหมด. ตัวอักษรตัวย่อยหมายถึงตัวอักษรที่อยู่บนสไลด์เค้าโครงที่อิงและสไลด์ที่อิง. สไลด์เค้าโครงที่อิงและสไลด์ใช้และพึ่งพาสไลด์หลัก. |
 
 ### ดูเพิ่มเติม
 

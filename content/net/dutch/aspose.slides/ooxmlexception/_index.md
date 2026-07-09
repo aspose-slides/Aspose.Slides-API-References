@@ -1,26 +1,26 @@
 ---
 title: OOXMLException
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een standaard interne exceptietype voor dat verband houdt met het Office Open XML-bestandformaat.
+description: Stelt een standaard intern exceptietype voor dat gerelateerd is aan het Office Open XML-bestandsformaat.
 type: docs
 weight: 9200
 url: /nl/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException klasse
 
-Stelt een standaard interne exceptietype voor dat verband houdt met het Office Open XML-bestandformaat.
+Stelt een standaard interne exceptietype voor dat gerelateerd is aan het Office Open XML-bestandsformaat.
 
 ```csharp
 public class OOXMLException : Exception
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
 | [OOXMLException](ooxmlexception#constructor)() | Standaardconstructor. |
-| [OOXMLException](ooxmlexception#constructor_1)(string) | Constructor die een bericht aan deze exceptie kan toevoegen. |
-| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Constructor voor een exceptie met een bericht en een ingesloten exceptie. |
+| [OOXMLException](ooxmlexception#constructor_1)(string) | Constructor die het mogelijk maakt een bericht toe te voegen aan deze exceptie. |
+| [OOXMLException](ooxmlexception#constructor_2)(string, Exception) | Constructor voor een exceptie die een bericht en een ingebedde exceptie bevat. |
 
 ### Zie ook
 

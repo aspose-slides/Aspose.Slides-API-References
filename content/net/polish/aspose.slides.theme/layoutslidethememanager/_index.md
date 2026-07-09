@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideThemeManager
-second_title: Aspose.Sildes dla .NET referencja API
-description: Zapewnia dostęp do nadpisanego motywu slajdu układu.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Udostępnia dostęp do nadpisanego tematu slajdu układu.
 type: docs
-weight: 11390
+weight: 11410
 url: /pl/aspose.slides.theme/layoutslidethememanager/
 ---
 ## LayoutSlideThemeManager klasa
 
-Umożliwia dostęp do nadpisanego motywu slajdu układu.
+Udostępnia dostęp do nadpisanego tematu slajdu układu.
 
 ```csharp
 public class LayoutSlideThemeManager : BaseOverrideThemeManager
@@ -18,15 +18,15 @@ public class LayoutSlideThemeManager : BaseOverrideThemeManager
 
 | Nazwa | Opis |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje dziedziczony efektywny motyw, czy nie. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Zwraca obiekt nadpisującego motywu. Odczyt/Zapis [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Określa, czy OverrideTheme nadpisuje odziedziczony efektywny motyw, czy nie. Aby włączyć OverrideTheme do nadpisywania, użyj metod OverrideTheme.Init*(). Aby wyłączyć OverrideTheme z nadpisywania, użyj metody OverrideTheme.Clear(). Tylko do odczytu Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Zwraca obiekt tematu nadpisującego. Odczyt/zapis [`IOverrideTheme`](../ioverridetheme). |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Stosuje dodatkowy schemat kolorów do slajdu. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Zwraca obiekt motywu. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Zwraca obiekt tematu. |
 
 ### Zobacz także
 

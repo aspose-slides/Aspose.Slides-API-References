@@ -1,14 +1,14 @@
 ---
 title: Captions
 second_title: Aspose.Sildes for .NET API 참조
-description: WebVTT 폐쇄 캡션을 나타냅니다.
+description: WebVTT 닫힌 캡션을 나타냅니다.
 type: docs
 weight: 1110
 url: /ko/aspose.slides/captions/
 ---
 ## Captions 클래스
 
-WebVTT 폐쇄 캡션을 나타냅니다.
+닫힌 WebVTT 캡션을 나타냅니다.
 
 ```csharp
 public class Captions : ICaptions
@@ -16,14 +16,14 @@ public class Captions : ICaptions
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [BinaryData](../../aspose.slides/captions/binarydata) { get; } | 닫힌 캡션의 바이너리 데이터를 반환합니다. 읽기 전용 Byte[]. |
 | [CaptionId](../../aspose.slides/captions/captionid) { get; } | 닫힌 캡션의 전역 고유 식별자(GUID)를 반환합니다. 읽기 전용 Guid. |
 | [DataAsString](../../aspose.slides/captions/dataasstring) { get; } | 닫힌 캡션 데이터를 UTF-8 인코딩 문자열로 반환합니다. 읽기 전용 String. |
 | [Label](../../aspose.slides/captions/label) { get; set; } | 닫힌 캡션의 레이블을 반환하거나 설정합니다. 읽기/쓰기 String. |
 
-### 참조
+### 또 보기
 
 * 인터페이스 [ICaptions](../icaptions)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

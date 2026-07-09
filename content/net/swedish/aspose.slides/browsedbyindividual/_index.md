@@ -1,14 +1,14 @@
 ---
 title: BrowsedByIndividual
 second_title: Aspose.Sildes för .NET API-referens
-description: Bläddrad av individuellt fönster
+description: Bläddrad per individ fönster
 type: docs
-weight: 1030
+weight: 1050
 url: /sv/aspose.slides/browsedbyindividual/
 ---
 ## BrowsedByIndividual klass
 
-Bläddrad av individ (fönster)
+Bläddrad per individ (fönster)
 
 ```csharp
 public class BrowsedByIndividual : SlideShowType
@@ -24,7 +24,7 @@ public class BrowsedByIndividual : SlideShowType
 
 | Namn | Beskrivning |
 | --- | --- |
-| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Visa rullningslist i fönster |
+| [ShowScrollbar](../../aspose.slides/browsedbyindividual/showscrollbar) { get; set; } | Visa rullningsfält i fönster |
 
 ### Exempel
 

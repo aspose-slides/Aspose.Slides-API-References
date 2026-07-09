@@ -1,14 +1,14 @@
 ---
 title: UpDownBarsManager
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc Cổ phiếu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Cung cấp quyền truy cập vào thanh lên/xuống của biểu đồ Line- hoặc Stock-chart.
 type: docs
 weight: 2500
 url: /vi/aspose.slides.charts/updownbarsmanager/
 ---
-## UpDownBarsManager class
+## Lớp UpDownBarsManager
 
-Cung cấp quyền truy cập vào các thanh lên/xuống của biểu đồ Đường hoặc Cổ phiếu.
+Cung cấp quyền truy cập vào thanh lên/xuống của biểu đồ Line hoặc Stock-chart.
 
 ```csharp
 public class UpDownBarsManager : DomObject<ChartSeriesGroup>, IUpDownBarsManager

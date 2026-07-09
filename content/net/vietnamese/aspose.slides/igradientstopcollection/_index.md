@@ -1,18 +1,19 @@
 ---
 title: IGradientStopCollection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Biểu diễn một tập hợp các điểm dừng gradient.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho một bộ sưu tập các điểm dừng gradient.
 type: docs
 weight: 6030
 url: /vi/aspose.slides/igradientstopcollection/
 ---
-## IGradientStopCollection giao diện
+## Giao diện IGradientStopCollection
 
-Biểu diễn một tập hợp các điểm dừng gradient.
+Đại diện cho một bộ sưu tập các điểm dừng gradient.
 
 ```csharp
 public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 ```
+
 
 ## Thuộc tính
 
@@ -28,12 +29,12 @@ public interface IGradientStopCollection : IGenericCollection<IGradientStop>
 | [Add](../../aspose.slides/igradientstopcollection/add#add)(float, PresetColor) | Tạo điểm dừng gradient mới và thêm nó vào cuối bộ sưu tập. |
 | [Add](../../aspose.slides/igradientstopcollection/add#add_1)(float, SchemeColor) | Tạo điểm dừng gradient mới và thêm nó vào cuối bộ sưu tập. |
 | [Clear](../../aspose.slides/igradientstopcollection/clear)() | Xóa tất cả các điểm dừng gradient khỏi một bộ sưu tập. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Tạo điểm dừng gradient mới và chèn nó vào vị trí chỉ định trong bộ sưu tập. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Tạo điểm dừng gradient mới và chèn nó vào vị trí chỉ định trong bộ sưu tập. |
-| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tạo điểm dừng gradient mới và chèn nó vào vị trí chỉ định trong bộ sưu tập. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_2)(int, float, Color) | Tạo điểm dừng gradient mới và chèn nó vào chỉ mục được chỉ định trong bộ sưu tập. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert)(int, float, PresetColor) | Tạo điểm dừng gradient mới và chèn nó vào chỉ mục được chỉ định trong bộ sưu tập. |
+| [Insert](../../aspose.slides/igradientstopcollection/insert#insert_1)(int, float, SchemeColor) | Tạo điểm dừng gradient mới và chèn nó vào chỉ mục được chỉ định trong bộ sưu tập. |
 | [RemoveAt](../../aspose.slides/igradientstopcollection/removeat)(int) | Xóa một điểm dừng gradient tại chỉ mục được chỉ định. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IGenericCollection&lt;T&gt;](../igenericcollection-1)
 * giao diện [IGradientStop](../igradientstop)

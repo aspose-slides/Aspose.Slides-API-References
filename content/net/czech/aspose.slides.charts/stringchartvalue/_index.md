@@ -1,14 +1,14 @@
 ---
 title: StringChartValue
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícím s grafem, 2) jako doslovná hodnota.
+second_title: "Aspose.Sildes pro .NET – reference API"
+description: "Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem, 2) jako literální hodnota."
 type: docs
-weight: 2390
+weight: 2410
 url: /cs/aspose.slides.charts/stringchartvalue/
 ---
 ## StringChartValue třída
 
-Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.
+Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejících s grafem; 2) jako literální hodnota.
 
 ```csharp
 public class StringChartValue : BaseChartValue, IStringChartValue
@@ -16,20 +16,20 @@ public class StringChartValue : BaseChartValue, IStringChartValue
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Přiřazení null hodnoty není povoleno. Návratová hodnota je vždy nenulová. Číst/Zapisovat [`IChartCellCollection`](../ichartcellcollection). |
-| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako doslovný řetězec. Číst/Zapisovat String. |
+| [AsCells](../../aspose.slides.charts/stringchartvalue/ascells) { get; set; } | Přiřazení nulové hodnoty není povoleno. Vrácená hodnota je vždy nenulová. Číst/Zapisovat [`IChartCellCollection`](../ichartcellcollection). |
+| [AsLiteralString](../../aspose.slides.charts/stringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje hodnotu jako literální řetězec. Číst/Zapisovat String. |
 | override [Data](../../aspose.slides.charts/stringchartvalue/data) { get; set; } | Vrací nebo nastavuje objekt Data. Číst/Zapisovat Object. |
-| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je v potomcích platná vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti Data. Číst/Zapisovat [`DataSourceType`](../datasourcetype). |
+| [DataSourceType](../../aspose.slides.charts/basechartvalue/datasourcetype) { get; set; } | Určuje, zda je v potomcích aktuální vlastnost AsCell, AsCells, AsLiteralString nebo AsLiteralDouble. Jinými slovy určuje typ hodnoty vlastnosti Data. Číst/Zapisovat [`DataSourceType`](../datasourcetype). |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Pokud je vlastnost DataSourceType nastavena na DataSourceType.Worksheet, tato metoda vrátí adresu buněk v sešitu, které představují řetězcová data. V opačném případě vrátí prázdný řetězec. |
-| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Nastaví hodnotu z určené buňky. |
-| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Vrací data řetězcové hodnoty. Vrátí null, pokud je DataSourceType false a nebyla přiřazena žádná řetězcová hodnota. |
+| [GetCellsAddressInWorkbook](../../aspose.slides.charts/stringchartvalue/getcellsaddressinworkbook)() | Pokud je vlastnost DataSourceType nastavena na DataSourceType.Worksheet, pak tato metoda vrací adresu buněk v sešitu, které představují řetězcová data. Jinak vrací prázdný řetězec. |
+| [SetFromOneCell](../../aspose.slides.charts/stringchartvalue/setfromonecell)(IChartDataCell) | Nastaví hodnotu ze zadané buňky. |
+| override [ToString](../../aspose.slides.charts/stringchartvalue/tostring)() | Vrací data řetězcové hodnoty. Vrátí null, pokud je DataSourceType nepravdivý a nebyla přiřazena žádná řetězcová hodnota. |
 
 ### Viz také
 

@@ -1,12 +1,12 @@
 ---
 title: AnimateTextType
-second_title: مرجع API Aspose.Sildes لـ .NET
+second_title: Aspose.Sildes للـ .NET مرجع API
 description: يمثل نوع النص المتحرك لتأثير الرسوم المتحركة.
 type: docs
 weight: 120
 url: /ar/aspose.slides.animation/animatetexttype/
 ---
-## تعداد AnimateTextType
+## AnimateTextType تعداد
 
 يمثل نوع النص المتحرك لتأثير الرسوم المتحركة.
 
@@ -19,7 +19,7 @@ public enum AnimateTextType
 | الاسم | القيمة | الوصف |
 | --- | --- | --- |
 | AllAtOnce | `0` | تحريك كل النص مرة واحدة. |
-| ByWord | `1` | تحريك النص كلمةً بكلمة. |
+| ByWord | `1` | تحريك النص كلمةً كلمةً. |
 | ByLetter | `2` | تحريك النص حرفًا بحرف. |
 
 ### انظر أيضًا

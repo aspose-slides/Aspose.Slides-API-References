@@ -1,14 +1,14 @@
 ---
 title: IHeadingPair
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Đại diện cho thuộc tính Heading pair của tài liệu. Nó chỉ ra tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Đại diện cho thuộc tính Heading pair của tài liệu. Thuộc tính này cho biết tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
 type: docs
 weight: 6100
 url: /vi/aspose.slides/iheadingpair/
 ---
-## IHeadingPair interface
+## IHeadingPair giao diện
 
-Đại diện cho thuộc tính 'Heading pair' của tài liệu. Nó chỉ ra tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
+Biểu diễn thuộc tính 'Heading pair' của tài liệu. Thuộc tính này cho biết tên nhóm của các phần tài liệu và số lượng phần trong nhóm.
 
 ```csharp
 public interface IHeadingPair

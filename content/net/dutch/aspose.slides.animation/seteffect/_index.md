@@ -1,20 +1,20 @@
 ---
 title: SetEffect
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Vertegenwoordigt een set-effect voor een animatiegedrag.
+description: Stelt een set-effect voor een animatiegedrag.
 type: docs
 weight: 810
 url: /nl/aspose.slides.animation/seteffect/
 ---
 ## SetEffect klasse
 
-Stelt een set-effect voor een animatiegedrag.
+Stelt een set-effect voor voor een animatiegedrag.
 
 ```csharp
 public class SetEffect : Behavior, ISetEffect
 ```
 
-## Constructors
+## Constructoren
 
 | Naam | Beschrijving |
 | --- | --- |
@@ -26,9 +26,9 @@ public class SetEffect : Behavior, ISetEffect
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | Geeft aan of animatiegedragingen worden opgeteld. Lezen/schrijven [`NullableBool`](../../aspose.slides/nullablebool). |
 | [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | Geeft aan of het huidige animatiegedrag wordt gecombineerd met andere lopende animaties. Lezen/schrijven [`BehaviorAdditiveType`](../behavioradditivetype). |
-| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Geeft eigenschappen van gedrag weer. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Geeft timing-eigenschappen voor het effectgedrag weer. Lezen/schrijven [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Specificeert een bepaald attribuut van een effect na een animatie-effect. Geeft puntwaarde weer. Alleen: bool, ColorFormat, float, int, string. Lezen/schrijven Object. |
+| [Properties](../../aspose.slides.animation/behavior/properties) { get; } | Stelt eigenschappen van gedrag voor. Alleen-lezen [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | Stelt timingeigenschappen voor het effectgedrag voor. Lezen/schrijven [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | Specificeert een bepaald attribuut van een effect na een animatie-effect. Stelt puntwaarde voor. Alleen: bool, ColorFormat, float, int, string. Lezen/schrijven Object. |
 
 ### Zie ook
 

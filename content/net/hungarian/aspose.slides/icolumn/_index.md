@@ -1,14 +1,14 @@
 ---
 title: IColumn
-second_title: Aspose.Sildes .NET API referenciája
-description: Egy táblázat oszlopát reprezentálja.
+second_title: Aspose.Sildes .NET API-referenciája
+description: Egy táblázatban lévő oszlopot képvisel.
 type: docs
-weight: 5500
+weight: 5520
 url: /hu/aspose.slides/icolumn/
 ---
 ## IColumn interfész
 
-Egy táblázat oszlopát reprezentálja.
+Egy táblázatban lévő oszlopot képvisel.
 
 ```csharp
 public interface IColumn : IBulkTextFormattable, ICellCollection
@@ -18,9 +18,9 @@ public interface IColumn : IBulkTextFormattable, ICellCollection
 
 | Név | Leírás |
 | --- | --- |
-| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Lehetővé teszi az alap IBulkTextFormattable interfész elérését. Csak olvasható [`IBulkTextFormattable`](../ibulktextformattable). |
-| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Lehetővé teszi az alap ICellCollection interfész elérését. Csak olvasható [`ICellCollection`](../icellcollection). |
-| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely a jelen oszlop formázási tulajdonságait tartalmazza. Csak olvasható [`IColumnFormat`](../icolumnformat). |
+| [AsIBulkTextFormattable](../../aspose.slides/icolumn/asibulktextformattable) { get; } | Lehetővé teszi a base IBulkTextFormattable interfész elérését. Csak olvasható [`IBulkTextFormattable`](../ibulktextformattable). |
+| [AsICellCollection](../../aspose.slides/icolumn/asicellcollection) { get; } | Lehetővé teszi a base ICellCollection interfész elérését. Csak olvasható [`ICellCollection`](../icellcollection). |
+| [ColumnFormat](../../aspose.slides/icolumn/columnformat) { get; } | Visszaadja a ColumnFormat objektumot, amely a formázási tulajdonságokat tartalmazza ehhez az oszlophoz. Csak olvasható [`IColumnFormat`](../icolumnformat). |
 | [Width](../../aspose.slides/icolumn/width) { get; set; } | Visszaadja vagy beállítja egy oszlop szélességét. Olvasás/írás Double. |
 
 ### Lásd még

@@ -1,14 +1,14 @@
 ---
 title: IBackdrop3DScene
-second_title: Aspose.Sildes pro .NET API Reference
-description: Definuje rovinu, ve které jsou aplikovány efekty, jako je záře a stín, vzhledem k tvaru, na který jsou aplikovány.
+second_title: Aspose.Sildes pro .NET - reference API
+description: Definuje rovinu, ve které jsou efekty jako svit a stín aplikovány ve vztahu k tvaru, na který jsou aplikovány.
 type: docs
-weight: 5240
+weight: 5260
 url: /cs/aspose.slides/ibackdrop3dscene/
 ---
 ## IBackdrop3DScene rozhraní
 
-Definuje rovinu, ve které jsou efekty, jako je záře a stín, aplikovány ve vztahu k tvaru, na který jsou aplikovány.
+Definuje rovinu, ve které jsou efekty, jako je svit a stín, aplikovány ve vztahu k tvaru, na který jsou aplikovány.
 
 ```csharp
 public interface IBackdrop3DScene
@@ -18,9 +18,9 @@ public interface IBackdrop3DScene
 
 | Název | Popis |
 | --- | --- |
-| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Vrací nebo nastavuje bod ve 3D prostoru. Tento bod je bodem v prostoru, který ukotvuje rovinu pozadí. 3D bod je reprezentován polem tří hodnot typu float, které určují souřadnice X, Y a Z. Číst/Zapisovat Single[]. |
-| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Vrací nebo nastavuje normálový vektor. Přesněji řečeno, tento atribut určuje vektor kolmý na plochu roviny pozadí. Vektor je reprezentován polem tří hodnot typu float, které určují souřadnice X, Y a Z. Číst/Zapisovat Single[]. |
-| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Vrací nebo nastavuje vektor představující směr nahoru. Přesněji řečeno, tento atribut určuje vektor představující směr nahoru vzhledem k ploše roviny pozadí. Vektor je reprezentován polem tří hodnot typu float, které určují souřadnice X, Y a Z. Číst/Zapisovat Single[]. |
+| [AnchorPoint](../../aspose.slides/ibackdrop3dscene/anchorpoint) { get; set; } | Vrací nebo nastavuje bod ve 3D prostoru. Tento bod je bodem v prostoru, který ukotvuje rovinu pozadí. 3D bod je reprezentován polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
+| [NormalVector](../../aspose.slides/ibackdrop3dscene/normalvector) { get; set; } | Vrací nebo nastavuje normálový vektor. Přesněji řečeno, tento atribut definuje vektor kolmutý k ploše roviny pozadí. Vektor je reprezentován polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
+| [UpVector](../../aspose.slides/ibackdrop3dscene/upvector) { get; set; } | Vrací nebo nastavuje vektor představující směr nahoru. Přesněji řečeno, tento atribut definuje vektor představující směr nahoru vzhledem k ploše roviny pozadí. Vektor je reprezentován polem 3 hodnot typu float, které definují souřadnice X, Y a Z. Čtení/Zápis Single[]. |
 
 ### Viz také
 

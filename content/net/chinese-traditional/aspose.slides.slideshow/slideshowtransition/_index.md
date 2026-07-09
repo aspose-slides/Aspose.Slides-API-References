@@ -1,14 +1,14 @@
 ---
 title: SlideShowTransition
-second_title: Aspose.Sildes .NET API 參考
-description: 表示投影片秀轉場。
+second_title: Aspose.Sildes for .NET API 參考
+description: 表示投影片播放過渡。
 type: docs
 weight: 10320
 url: /zh-hant/aspose.slides.slideshow/slideshowtransition/
 ---
 ## SlideShowTransition 類別
 
-Represents slide show transition.
+表示投影片播放過渡。
 
 ```csharp
 public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
@@ -18,27 +18,27 @@ public class SlideShowTransition : DomObject<BaseSlide>, ISlideShowTransition
 
 | 名稱 | 說明 |
 | --- | --- |
-| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | 此屬性指定投影片秀是否會在特定時間後移至下一張投影片。讀寫 Boolean。 |
-| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | 指定轉場應開始的時間（以毫秒為單位）。此設定可與 advClick 屬性共同使用。若未指定此屬性，則假設不會自動前進。讀寫 UInt32。 |
-| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | 指定滑鼠點擊是否會前進投影片。若未指定此屬性，則假設其值為 true。讀寫 Boolean。 |
-| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | 取得或設定投影片轉場效果的持續時間（以毫秒為單位）。讀寫 Int32。 |
-| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | 取得或設定嵌入的音訊資料。讀寫 [`IAudio`](../../aspose.slides/iaudio)。 |
-| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | 指定此音效是否為內建音效。若此屬性設為 true，則生成應用程式會被提醒檢查在其內建音效清單中為此音效指定的 name 屬性，並可酌情顯示自訂名稱或 UI。讀寫 Boolean。 |
-| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | 此屬性指定音效是否會持續循環，直至投影片秀中發生下一個音效事件。讀寫 Boolean。 |
-| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | 設定或取得投影片轉場的音效模式。讀寫 [`TransitionSoundMode`](../transitionsoundmode)。 |
-| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | 指定轉場音效的可讀名稱。必須指派 [`Sound`](./sound) 屬性以取得或設定音效名稱。讀寫 String。 |
-| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | 指定在從目前投影片過渡至下一張投影片時使用的轉場速度。讀寫 [`TransitionSpeed`](../transitionspeed)。 |
-| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | 轉場類型。讀寫 [`TransitionType`](../transitiontype)。 |
-| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | 投影片秀轉場值。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
+| [AdvanceAfter](../../aspose.slides.slideshow/slideshowtransition/advanceafter) { get; set; } | 此屬性指定投影片播放是否會在特定時間後移至下一張投影片。可讀寫 Boolean。 |
+| [AdvanceAfterTime](../../aspose.slides.slideshow/slideshowtransition/advanceaftertime) { get; set; } | 指定過渡應開始的時間（毫秒）。此設定可與 advClick 屬性一起使用。如果未指定此屬性，則假設不會自動前進。可讀寫 UInt32。 |
+| [AdvanceOnClick](../../aspose.slides.slideshow/slideshowtransition/advanceonclick) { get; set; } | 指定滑鼠點擊是否會前進投影片。若未指定此屬性，則預設值為 true。可讀寫 Boolean。 |
+| [Duration](../../aspose.slides.slideshow/slideshowtransition/duration) { get; set; } | 取得或設定投影片過渡效果的持續時間（毫秒）。可讀寫 Int32。 |
+| [Sound](../../aspose.slides.slideshow/slideshowtransition/sound) { get; set; } | 取得或設定嵌入的音訊資料。可讀寫 [`IAudio`](../../aspose.slides/iaudio)。 |
+| [SoundIsBuiltIn](../../aspose.slides.slideshow/slideshowtransition/soundisbuiltin) { get; set; } | 指定此聲音是否為內建聲音。若此屬性設為 true，則會通知產生此檔案的應用程式檢查此聲音在其內建聲音清單中指定的 name 屬性，並依需求顯示自訂名稱或 UI。可讀寫 Boolean。 |
+| [SoundLoop](../../aspose.slides.slideshow/slideshowtransition/soundloop) { get; set; } | 此屬性指定聲音是否會持續循環直至投影片播放中下一個聲音事件發生。可讀寫 Boolean。 |
+| [SoundMode](../../aspose.slides.slideshow/slideshowtransition/soundmode) { get; set; } | 設定或取得投影片過渡的聲音模式。可讀寫 [`TransitionSoundMode`](../transitionsoundmode)。 |
+| [SoundName](../../aspose.slides.slideshow/slideshowtransition/soundname) { get; set; } | 指定過渡聲音的易於閱讀的名稱。必須指派 [`Sound`](./sound) 屬性以取得或設定聲音名稱。可讀寫 String。 |
+| [Speed](../../aspose.slides.slideshow/slideshowtransition/speed) { get; set; } | 指定在從目前投影片過渡至下一張投影片時使用的過渡速度。可讀寫 [`TransitionSpeed`](../transitionspeed)。 |
+| [Type](../../aspose.slides.slideshow/slideshowtransition/type) { get; set; } | 過渡類型。可讀寫 [`TransitionType`](../transitiontype)。 |
+| [Value](../../aspose.slides.slideshow/slideshowtransition/value) { get; } | 投影片播放過渡值。唯讀 [`ITransitionValueBase`](../itransitionvaluebase)。 |
 
 ## 方法
 
 | 名稱 | 說明 |
 | --- | --- |
-| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | 判斷兩個 SlideShowTransition 實例是否相等。讀寫 Boolean。 |
-| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法及如雜湊表等資料結構。 |
+| override [Equals](../../aspose.slides.slideshow/slideshowtransition/equals)(object) | 判斷兩個 SlideShowTransition 實例是否相等。可讀寫 Boolean。 |
+| override [GetHashCode](../../aspose.slides.slideshow/slideshowtransition/gethashcode)() | 作為特定類型的雜湊函式，適用於雜湊演算法及像雜湊表之類的資料結構。 |
 
-### 另請參閱
+### 相關參考
 
 * 類別 [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * 類別 [BaseSlide](../../aspose.slides/baseslide)

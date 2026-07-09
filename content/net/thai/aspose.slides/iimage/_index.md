@@ -1,14 +1,14 @@
 ---
 title: IImage
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงภาพแบบราสเตอร์หรือเวกเตอร์
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงภาพเรสเตอร์หรือเวกเตอร์
 type: docs
 weight: 6150
 url: /th/aspose.slides/iimage/
 ---
 ## IImage อินเทอร์เฟซ
 
-แสดงถึงภาพแบบราสเตอร์หรือเวกเตอร์
+แสดงถึงภาพเรสเตอร์หรือเวกเตอร์
 
 ```csharp
 public interface IImage : IDisposable
@@ -16,25 +16,25 @@ public interface IImage : IDisposable
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
 | [Height](../../aspose.slides/iimage/height) { get; } | รับความสูงของภาพเป็นพิกเซล |
 | [Size](../../aspose.slides/iimage/size) { get; } | รับขนาดของภาพ |
 | [Width](../../aspose.slides/iimage/width) { get; } | รับความกว้างของภาพเป็นพิกเซล |
 
-## เมธอด
+## วิธีการ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [Save](../../aspose.slides/iimage/save#save_2)(string) | บันทึกภาพไปยังไฟล์ |
-| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | บันทึกภาพไปยังสตรีมในรูปแบบที่ระบุ |
-| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | บันทึกภาพไปยังไฟล์ในรูปแบบที่ระบุ |
-| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | บันทึกภาพไปยังสตรีมในรูปแบบและคุณภาพที่ระบุ |
-| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | บันทึกภาพไปยังไฟล์ในรูปแบบและคุณภาพที่ระบุ |
+| [Save](../../aspose.slides/iimage/save#save_2)(string) | บันทึกภาพลงไฟล์ |
+| [Save](../../aspose.slides/iimage/save#save)(Stream, ImageFormat) | บันทึกภาพลงสตรีมในรูปแบบที่ระบุ |
+| [Save](../../aspose.slides/iimage/save#save_3)(string, ImageFormat) | บันทึกภาพลงไฟล์ในรูปแบบที่ระบุ |
+| [Save](../../aspose.slides/iimage/save#save_1)(Stream, ImageFormat, int) | บันทึกภาพลงสตรีมในรูปแบบและคุณภาพที่ระบุ |
+| [Save](../../aspose.slides/iimage/save#save_4)(string, ImageFormat, int) | บันทึกภาพลงไฟล์ในรูปแบบและคุณภาพที่ระบุ |
 
 ### หมายเหตุ
 
-อินเทอร์เฟซนี้ให้การสังเคราะห์ทั่วไปสำหรับการจัดการภาพแบบราสเตอร์และเวกเตอร์ ทั้งนี้การนำไปใช้สามารถแตกต่างกันได้ขึ้นอยู่กับประเภทของภาพพื้นฐาน
+อินเทอร์เฟซนี้ให้การนามธรรมทั่วไปสำหรับการจัดการภาพเรสเตอร์และเวกเตอร์ทั้งสองประเภท การทำงานอาจแตกต่างกันขึ้นอยู่กับประเภทภาพพื้นฐาน
 
 ### ดูเพิ่มเติม
 

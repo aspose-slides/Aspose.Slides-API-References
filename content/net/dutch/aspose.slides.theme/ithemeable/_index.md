@@ -18,13 +18,13 @@ public interface IThemeable : ISlideComponent
 
 | Naam | Beschrijving |
 | --- | --- |
-| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Retourneert de ISlideComponent interface. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
+| [AsISlideComponent](../../aspose.slides.theme/ithemeable/asislidecomponent) { get; } | Retourneert ISlideComponent interface. Alleen-lezen [`ISlideComponent`](../../aspose.slides/islidecomponent). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Retourneert een effectief thema voor dit themeable-object. |
+| [CreateThemeEffective](../../aspose.slides.theme/ithemeable/createthemeeffective)() | Retourneert een effectief thema voor dit themavoorwerp. |
 
 ### Zie ook
 

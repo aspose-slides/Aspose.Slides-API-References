@@ -1,14 +1,14 @@
 ---
 title: CommentAuthor
-second_title: Aspose.Slides için .NET API Referansı
-description: Yorumların bir yazarını temsil eder.
+second_title: Aspose.Sildes için .NET API Referansı
+description: Yorum yazarını temsil eder.
 type: docs
-weight: 2610
+weight: 2630
 url: /tr/aspose.slides/commentauthor/
 ---
-## CommentAuthor sınıf
+## CommentAuthor sınıfı
 
-Yorumların bir yazarını temsil eder.
+Yorum yazarını temsil eder.
 
 ```csharp
 public sealed class CommentAuthor : ICommentAuthor
@@ -18,11 +18,11 @@ public sealed class CommentAuthor : ICommentAuthor
 
 | Ad | Açıklama |
 | --- | --- |
-| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Salt-okunur [`ICommentCollection`](../icommentcollection). |
-| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okunur/yazılabilir String. |
-| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okunur/yazılabilir String. |
+| [Comments](../../aspose.slides/commentauthor/comments) { get; } | Bu yazar tarafından yapılan yorumların koleksiyonunu döndürür. Salt okunur [`ICommentCollection`](../icommentcollection). |
+| [Initials](../../aspose.slides/commentauthor/initials) { get; set; } | Yazarın baş harflerini döndürür veya ayarlar. Okunur/Yazılır String. |
+| [Name](../../aspose.slides/commentauthor/name) { get; set; } | Yazarın adını döndürür veya ayarlar. Okunur/Yazılır String. |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |

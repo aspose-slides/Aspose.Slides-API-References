@@ -1,38 +1,38 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Lớp bộ điều khiển định dạng được sử dụng để nhúng tất cả phông chữ của bản trình bày ở định dạng WOFF.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Lớp bộ điều khiển định dạng dùng để nhúng tất cả các phông chữ của bản trình chiếu ở định dạng WOFF.
 type: docs
 weight: 3760
 url: /vi/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController lớp
 
-The formatting controller class to use for embedding all presentation fonts in WOFF format.
+Lớp bộ điều khiển định dạng dùng để nhúng tất cả các phông chữ của bản trình chiếu ở định dạng WOFF.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
 ```
 
-## Các hàm khởi tạo
+## Hàm tạo
 
 | Tên | Mô tả |
 | --- | --- |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor)() | Tạo một thể hiện mới |
 | [EmbedAllFontsHtmlController](embedallfontshtmlcontroller#constructor_1)(string[]) | Tạo một thể hiện mới |
 
-## Các phương thức
+## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Ghi tất cả phông chữ có trong [`Presentation`](../../aspose.slides/presentation). |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Được gọi để ghi chân trang tài liệu html. Được gọi một lần cho mỗi lần chuyển đổi bản trình bày. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Được gọi để ghi phần đầu tài liệu html. Được gọi một lần cho mỗi lần chuyển đổi bản trình bày. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | Ghi tất cả phông chữ được chứa trong [`Presentation`](../../aspose.slides/presentation). |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | Được gọi để ghi phần chân trang tài liệu html. Được gọi một lần cho mỗi lần chuyển đổi bản trình chiếu. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | Được gọi để ghi phần đầu trang tài liệu html. Được gọi một lần cho mỗi lần chuyển đổi bản trình chiếu. |
 | virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | Ghi dữ liệu dưới dạng base64 vào chính tài liệu HTML |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Được gọi trước khi render shape. Được gọi một lần cho mỗi shape. Nếu hàm này ghi bất cứ điều gì vào generator, quá trình tạo ảnh slide hiện tại sẽ kết thúc, đoạn html được thêm sẽ được chèn và ảnh mới sẽ được bắt đầu trên ảnh trước. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Được gọi trước khi render shape. Được gọi một lần cho mỗi shape. Nếu hàm này ghi bất cứ điều gì vào generator, quá trình tạo ảnh slide hiện tại sẽ kết thúc, đoạn html được thêm sẽ được chèn và ảnh mới sẽ được bắt đầu trên ảnh trước. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Được gọi để ghi chân trang slide html. Được gọi một lần cho mỗi slide. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Được gọi để ghi phần đầu slide html. Được gọi một lần cho mỗi slide. |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | Được gọi trước khi vẽ hình dạng. Được gọi một lần cho mỗi hình dạng. Nếu hàm này ghi bất kỳ nội dung nào vào bộ tạo, việc tạo ảnh slide hiện tại sẽ kết thúc, đoạn html được thêm sẽ được chèn và ảnh mới sẽ được bắt đầu trên ảnh trước. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | Được gọi trước khi vẽ hình dạng. Được gọi một lần cho mỗi hình dạng. Nếu hàm này ghi bất kỳ nội dung nào vào bộ tạo, việc tạo ảnh slide hiện tại sẽ kết thúc, đoạn html được thêm sẽ được chèn và ảnh mới sẽ được bắt đầu trên ảnh trước. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | Được gọi để ghi phần chân trang slide html. Được gọi một lần cho mỗi slide. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | Được gọi để ghi phần đầu trang slide html. Được gọi một lần cho mỗi slide. |
 
 ### Xem thêm
 

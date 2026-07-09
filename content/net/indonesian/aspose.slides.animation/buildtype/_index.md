@@ -1,9 +1,9 @@
 ---
 title: BuildType
-second_title: Referensi API Aspose.Sildes untuk .NET
-description: Menentukan bagaimana teks akan muncul pada sebuah bentuk selama animasi.
+second_title: Aspose.Sildes untuk Referensi API .NET
+description: Menentukan bagaimana teks akan muncul pada bentuk selama animasi.
 type: docs
-weight: 190
+weight: 210
 url: /id/aspose.slides.animation/buildtype/
 ---
 ## enumerasi BuildType

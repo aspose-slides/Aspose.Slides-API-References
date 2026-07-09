@@ -1,14 +1,14 @@
 ---
 title: Timing
-second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili timing animasi.
+second_title: Referensi API Aspose.Slides untuk .NET
+description: Mewakili waktu animasi.
 type: docs
-weight: 820
+weight: 840
 url: /id/aspose.slides.animation/timing/
 ---
-## Kelas Timing
+## Timing kelas
 
-Mewakili timing animasi.
+Mewakili waktu animasi.
 
 ```csharp
 public class Timing : ITiming
@@ -18,16 +18,16 @@ public class Timing : ITiming
 
 | Nama | Deskripsi |
 | --- | --- |
-| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Menjelaskan persentase durasi efek perilaku percepatan. Baca/tulis Single. |
-| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Menjelaskan apakah animasi akan diputar secara otomatis mundur setelah diputar maju. Baca/tulis Boolean. |
-| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Menjelaskan persentase durasi efek perilaku perlambatan. Baca/tulis Single. |
+| [Accelerate](../../aspose.slides.animation/timing/accelerate) { get; set; } | Menjelaskan persentase efek perilaku percepatan durasi. Baca/tulis Single. |
+| [AutoReverse](../../aspose.slides.animation/timing/autoreverse) { get; set; } | Menjelaskan apakah animasi secara otomatis diputar mundur setelah diputar ke depan. Baca/tulis Boolean. |
+| [Decelerate](../../aspose.slides.animation/timing/decelerate) { get; set; } | Menjelaskan persentase efek perilaku perlambatan durasi. Baca/tulis Single. |
 | [Duration](../../aspose.slides.animation/timing/duration) { get; set; } | Menjelaskan durasi efek animasi. Baca/tulis Single. |
 | [RepeatCount](../../aspose.slides.animation/timing/repeatcount) { get; set; } | Menjelaskan jumlah kali efek harus diulang. Baca/tulis Single. |
 | [RepeatDuration](../../aspose.slides.animation/timing/repeatduration) { get; set; } | Menjelaskan jumlah kali efek harus diulang. Baca/tulis Single. |
 | [RepeatUntilEndSlide](../../aspose.slides.animation/timing/repeatuntilendslide) { get; set; } | Atribut ini menentukan apakah efek akan diulang hingga akhir slide. Baca/tulis Boolean. |
 | [RepeatUntilNextClick](../../aspose.slides.animation/timing/repeatuntilnextclick) { get; set; } | Atribut ini menentukan apakah efek akan diulang hingga klik berikutnya. Baca/tulis Boolean. |
-| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Menentukan apakah efek akan dimulai kembali setelah selesai. Baca/tulis [`EffectRestartType`](../effectrestarttype). |
-| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Atribut ini menentukan apakah efek akan diputar kembali ketika selesai diputar. Baca/tulis Boolean. |
+| [Restart](../../aspose.slides.animation/timing/restart) { get; set; } | Menentukan apakah sebuah efek akan dimulai ulang setelah selesai. Baca/tulis [`EffectRestartType`](../effectrestarttype). |
+| [Rewind](../../aspose.slides.animation/timing/rewind) { get; set; } | Atribut ini menentukan apakah efek akan diputar mundur ketika selesai diputar. Baca/tulis Boolean. |
 | [Speed](../../aspose.slides.animation/timing/speed) { get; set; } | Menentukan persentase percepatan (atau perlambatan) waktu. Baca/tulis Single. |
 | [TriggerDelayTime](../../aspose.slides.animation/timing/triggerdelaytime) { get; set; } | Menjelaskan waktu tunda setelah pemicu. Baca/tulis Single. |
 | [TriggerType](../../aspose.slides.animation/timing/triggertype) { get; set; } | Menjelaskan tipe pemicu. Baca/tulis [`EffectTriggerType`](../effecttriggertype). |

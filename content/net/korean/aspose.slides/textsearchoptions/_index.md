@@ -24,11 +24,11 @@ public class TextSearchOptions : ITextSearchOptions
 
 | 이름 | 설명 |
 | --- | --- |
-| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | `true` 로 설정하면 대소문자를 구분하여 검색하고, `false` 로 설정하면 구분하지 않습니다. 읽기/쓰기 Boolean. |
-| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | `true` 로 설정하면 텍스트 검색, 교체 또는 강조 표시 작업을 수행할 때 슬라이드 노트([`NotesSlide`](../notesslide))에 포함된 텍스트를 포함합니다. 기본값은 `false` 입니다. |
-| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | `true` 로 설정하면 전체 단어와 일치하도록 하고, `false` 로 설정하면 부분 일치도 허용합니다. 읽기/쓰기 Boolean. |
+| [CaseSensitive](../../aspose.slides/textsearchoptions/casesensitive) { get; set; } | true를 설정하면 대소문자 구분 검색을 사용하고, false이면 그렇지 않습니다. 읽기/쓰기 Boolean. |
+| [IncludeNotes](../../aspose.slides/textsearchoptions/includenotes) { get; set; } | 텍스트 검색, 교체 또는 강조 작업을 수행할 때 슬라이드 노트([`NotesSlide`](../notesslide))에 포함된 텍스트를 포함하려면 `true`를 설정합니다. 기본값은 `false`입니다. |
+| [WholeWordsOnly](../../aspose.slides/textsearchoptions/wholewordsonly) { get; set; } | true를 설정하면 전체 단어만 일치시키고, false이면 그렇지 않습니다. 읽기/쓰기 Boolean. |
 
-### 참조
+### 참고
 
 * 인터페이스 [ITextSearchOptions](../itextsearchoptions)
 * 네임스페이스 [Aspose.Slides](../../aspose.slides)

@@ -1,25 +1,25 @@
 ---
 title: IFormatSchemeEffectiveData
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: วัตถุที่ไม่แปรเปลี่ยนซึ่งบรรจุคุณสมบัติของรูปแบบสกีมที่มีผล
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของรูปแบบสกีมที่มีผล
 type: docs
 weight: 11280
 url: /th/aspose.slides.theme/iformatschemeeffectivedata/
 ---
 ## IFormatSchemeEffectiveData อินเทอร์เฟซ
 
-วัตถุที่ไม่แปรเปลี่ยนซึ่งบรรจุคุณสมบัติของรูปแบบสกีมที่มีผล
+อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติของรูปแบบสกีมที่มีผล
 
 ```csharp
 public interface IFormatSchemeEffectiveData
 ```
 
-## เมธอด
+## วิธีการ
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [GetBackgroundFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles)(Color) | คืนคอลเลกชันของสไตล์การเติมพื้นหลังที่กำหนดโดยธีม |
-| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | คืนคอลเลกชันของสไตล์เอฟเฟกต์ที่กำหนดโดยธีม |
+| [GetEffectStyles](../../aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles)(Color) | คืนคอลเลกชันของสไตล์เอฟเฟ็กต์ที่กำหนดโดยธีม |
 | [GetFillStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getfillstyles)(Color) | คืนคอลเลกชันของสไตล์การเติมที่กำหนดโดยธีม |
 | [GetLineStyles](../../aspose.slides.theme/iformatschemeeffectivedata/getlinestyles)(Color) | คืนคอลเลกชันของสไตล์เส้นที่กำหนดโดยธีม |
 

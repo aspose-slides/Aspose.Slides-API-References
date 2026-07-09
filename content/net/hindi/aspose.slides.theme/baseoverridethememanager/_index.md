@@ -1,14 +1,14 @@
 ---
 title: BaseOverrideThemeManager
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विभिन्न प्रकार के ओवरराइडेड थीम्स तक पहुँच प्रदान करने वाली कक्षाओं के लिए बेस क्लास।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेंस
+description: विभिन्न प्रकार की ओवरराइडेड थीम्स तक पहुंच प्रदान करने वाली क्लासों के लिए बेस क्लास।
 type: docs
 weight: 11040
 url: /hi/aspose.slides.theme/baseoverridethememanager/
 ---
 ## BaseOverrideThemeManager क्लास
 
-विभिन्न प्रकार के ओवरराइडेड थीम्स तक पहुँच प्रदान करने वाली कक्षाओं के लिए बेस क्लास।
+ओवरराइडेड थीम के विभिन्न प्रकारों तक पहुँच प्रदान करने वाली क्लासों के लिए बेस क्लास।
 
 ```csharp
 public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThemeManager
@@ -18,20 +18,20 @@ public abstract class BaseOverrideThemeManager : BaseThemeManager, IOverrideThem
 
 | नाम | विवरण |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | निर्धारित करता है कि OverrideTheme वंशागत प्रभावी थीम को ओवरराइड करता है या नहीं। OverrideTheme को ओवरराइड करने के लिए OverrideTheme.Init*() मेथड्स का उपयोग करें। OverrideTheme को ओवरराइड करने से रोकने के लिए OverrideTheme.Clear() मेथड का उपयोग करें। केवल पढ़ने योग्य Boolean। |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट को लौटाता है। पढ़ें/लिखें [`IOverrideTheme`](../ioverridetheme)। |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | निर्धारित करता है कि OverrideTheme विरासत में मिले प्रभावी थीम को ओवरराइड करता है या नहीं। OverrideTheme को ओवरराइड करने के लिए OverrideTheme.Init*() विधियों का उपयोग करें। OverrideTheme को ओवरराइड करने से रोकने के लिए OverrideTheme.Clear() विधि का उपयोग करें। केवल पढ़ने योग्य Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | ओवरराइडिंग थीम ऑब्जेक्ट को लौटाता है। पढ़ें/लिखें [`IOverrideTheme`](../ioverridetheme). |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
 | [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | एक स्लाइड पर अतिरिक्त रंग योजना लागू करता है। |
 | [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | थीम ऑब्जेक्ट को लौटाता है। |
 
-### देखें भी
+### देखें
 
 * क्लास [BaseThemeManager](../basethememanager)
-* 인터फ़ेस [IOverrideThemeManager](../ioverridethememanager)
+* इंटरफ़ेस [IOverrideThemeManager](../ioverridethememanager)
 * नेमस्पेस [Aspose.Slides.Theme](../../aspose.slides.theme)
 * असेंबली [Aspose.Slides](../../)
 

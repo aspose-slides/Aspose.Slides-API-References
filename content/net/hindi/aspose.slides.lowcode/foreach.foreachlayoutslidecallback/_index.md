@@ -6,9 +6,9 @@ type: docs
 weight: 7910
 url: /hi/aspose.slides.lowcode/foreach.foreachlayoutslidecallback/
 ---
-## ForEach.ForEachLayoutSlideCallback डेलीगेट
+## ForEach.ForEachLayoutSlideCallback delegate
 
-प्रत्येक [`LayoutSlide`](../foreach/layoutslide) के लिए कॉलबैक जो [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
+कॉलबैक प्रत्येक [`LayoutSlide`](../foreach/layoutslide) को [`Presentation`](../../aspose.slides/presentation) में बुलाया जाएगा।
 
 ```csharp
 public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int index);
@@ -16,10 +16,10 @@ public delegate void ForEachLayoutSlideCallback(LayoutSlide layoutSlide, int ind
 
 | पैरामीटर | प्रकार | विवरण |
 | --- | --- | --- |
-| layoutSlide | LayoutSlide | वर्तमान पुनरावृत लेआउट स्लाइड |
-| index | Int32 | वर्तमान लेआउट स्लाइड का सूचकांक |
+| layoutSlide | LayoutSlide | वर्तमान इटरिटेड लेआउट स्लाइड |
+| index | Int32 | वर्तमान लेआउट स्लाइड का अनुक्रमांक |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [LayoutSlide](../../aspose.slides/layoutslide)
 * क्लास [ForEach](../foreach)

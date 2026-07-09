@@ -1,9 +1,9 @@
 ---
 title: IMathematicalTextFactory
-second_title: Riferimento API Aspose.Sildes per .NET
+second_title: Aspose.Sildes per .NET Riferimento API
 description: Consente di creare un elemento MathematicalText
 type: docs
-weight: 8500
+weight: 8520
 url: /it/aspose.slides.mathtext/imathematicaltextfactory/
 ---
 ## IMathematicalTextFactory interfaccia
@@ -25,7 +25,7 @@ public interface IMathematicalTextFactory
 
 ### Osservazioni
 
-Per compatibilità COM
+Per la compatibilità COM
 
 ### Vedi anche
 

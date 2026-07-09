@@ -1,14 +1,14 @@
 ---
 title: IGroupShapeLock
-second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
-description: กำหนดว่าการดำเนินการใดจะถูกปิดใช้งานบน GroupShape พาเรนท์.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: กำหนดว่าการทำงานใดถูกปิดใช้งานบน GroupShape พาเรนต์
 type: docs
 weight: 6090
 url: /th/aspose.slides/igroupshapelock/
 ---
 ## IGroupShapeLock อินเทอร์เฟซ
 
-กำหนดว่าการดำเนินการใดจะถูกปิดใช้งานบน GroupShape พาเรนท์
+กำหนดว่าการทำงานใดถูกปิดใช้งานบน GroupShape พาเรนต์
 
 ```csharp
 public interface IGroupShapeLock : IBaseShapeLock
@@ -18,14 +18,14 @@ public interface IGroupShapeLock : IBaseShapeLock
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | อนุญาตให้ดึงอินเทอร์เฟซพื้นฐาน IBaseShapeLock ได้. อ่านอย่างเดียว [`IBaseShapeLock`](../ibaseshapelock). |
+| [AsIBaseShapeLock](../../aspose.slides/igroupshapelock/asibaseshapelock) { get; } | อนุญาตให้รับอินเทอร์เฟซ IBaseShapeLock พื้นฐาน. อ่านได้เท่านั้น [`IBaseShapeLock`](../ibaseshapelock). |
 | [AspectRatioLocked](../../aspose.slides/igroupshapelock/aspectratiolocked) { get; set; } | กำหนดว่ารูปร่างต้องรักษาอัตราส่วนเมื่อปรับขนาดหรือไม่. อ่าน/เขียน Boolean. |
-| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้เข้าในกลุ่มถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
-| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | กำหนดว่าการแยก GroupShape นี้ถูกห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [GroupingLocked](../../aspose.slides/igroupshapelock/groupinglocked) { get; set; } | กำหนดว่าการเพิ่มรูปร่างนี้ไปยังกลุ่มเป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [PositionLocked](../../aspose.slides/igroupshapelock/positionlocked) { get; set; } | กำหนดว่าการย้ายรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [RotationLocked](../../aspose.slides/igroupshapelock/rotationlocked) { get; set; } | กำหนดว่าการเปลี่ยนมุมการหมุนของรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SelectLocked](../../aspose.slides/igroupshapelock/selectlocked) { get; set; } | กำหนดว่าการเลือกรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [SizeLocked](../../aspose.slides/igroupshapelock/sizelocked) { get; set; } | กำหนดว่าการปรับขนาดรูปร่างนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
+| [UngroupingLocked](../../aspose.slides/igroupshapelock/ungroupinglocked) { get; set; } | กำหนดว่าการแยกรูปร่างกลุ่มนี้เป็นสิ่งต้องห้ามหรือไม่. อ่าน/เขียน Boolean. |
 
 ### ดูเพิ่มเติม
 

@@ -1,6 +1,6 @@
 ---
 title: EmbedAllFontsHtmlController
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: WOFF 형식으로 모든 프레젠테이션 글꼴을 포함하기 위해 사용하는 포맷팅 컨트롤러 클래스입니다.
 type: docs
 weight: 3760
@@ -8,7 +8,7 @@ url: /ko/aspose.slides.export/embedallfontshtmlcontroller/
 ---
 ## EmbedAllFontsHtmlController 클래스
 
-프레젠테이션의 모든 글꼴을 WOFF 형식으로 포함하기 위해 사용하는 포맷팅 컨트롤러 클래스.
+WOFF 형식으로 모든 프레젠테이션 글꼴을 포함하기 위해 사용하는 포맷팅 컨트롤러 클래스입니다.
 
 ```csharp
 public class EmbedAllFontsHtmlController : IHtmlFormattingController
@@ -25,16 +25,16 @@ public class EmbedAllFontsHtmlController : IHtmlFormattingController
 
 | 이름 | 설명 |
 | --- | --- |
-| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | 모든 글꼴을 [`Presentation`](../../aspose.slides/presentation)에 포함합니다. |
-| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML 문서 푸터를 작성하도록 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
-| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML 문서 헤더를 작성하도록 호출됩니다. 프레젠테이션 변환당 한 번 호출됩니다. |
-| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | 데이터를 base64로 HTML 문서 자체에 씁니다 |
-| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | shape을 렌더링하기 전에 호출됩니다. 각 shape마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 쓰면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며 새로운 이미지가 이전 이미지 위에 시작됩니다. |
-| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | shape을 렌더링하기 전에 호출됩니다. 각 shape마다 한 번 호출됩니다. 이 함수가 generator에 무언가를 쓰면 현재 슬라이드 이미지 생성이 완료되고, 추가된 HTML 조각이 삽입되며 새로운 이미지가 이전 이미지 위에 시작됩니다. |
-| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML 슬라이드 푸터를 작성하도록 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
-| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML 슬라이드 헤더를 작성하도록 호출됩니다. 각 슬라이드마다 한 번 호출됩니다. |
+| virtual [WriteAllFonts](../../aspose.slides.export/embedallfontshtmlcontroller/writeallfonts)(IHtmlGenerator, IPresentation) | [`Presentation`](../../aspose.slides/presentation)에 포함된 모든 글꼴을 씁니다. |
+| virtual [WriteDocumentEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentend)(IHtmlGenerator, IPresentation) | HTML 문서 푸터를 씁니다. 프레젠테이션 변환당 한 번 호출됩니다. |
+| virtual [WriteDocumentStart](../../aspose.slides.export/embedallfontshtmlcontroller/writedocumentstart)(IHtmlGenerator, IPresentation) | HTML 문서 헤더를 씁니다. 프레젠테이션 변환당 한 번 호출됩니다. |
+| virtual [WriteFont](../../aspose.slides.export/embedallfontshtmlcontroller/writefont)(IHtmlGenerator, IFontData, IFontData, string, string, byte[]) | 데이터를 base64 형식으로 HTML 문서 자체에 씁니다 |
+| virtual [WriteShapeEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapeend)(IHtmlGenerator, IShape) | 도형 렌더링 전에 호출됩니다. 각 도형마다 한 번 호출됩니다. 이 함수가 생성기에 무언가를 쓰면 현재 슬라이드 이미지 생성이 종료되고, 추가된 HTML 조각이 삽입된 후 새 이미지가 이전 이미지 위에서 시작됩니다. |
+| virtual [WriteShapeStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeshapestart)(IHtmlGenerator, IShape) | 도형 렌더링 전에 호출됩니다. 각 도형마다 한 번 호출됩니다. 이 함수가 생성기에 무언가를 쓰면 현재 슬라이드 이미지 생성이 종료되고, 추가된 HTML 조각이 삽입된 후 새 이미지가 이전 이미지 위에서 시작됩니다. |
+| virtual [WriteSlideEnd](../../aspose.slides.export/embedallfontshtmlcontroller/writeslideend)(IHtmlGenerator, ISlide) | HTML 슬라이드 푸터를 씁니다. 각 슬라이드마다 한 번 호출됩니다. |
+| virtual [WriteSlideStart](../../aspose.slides.export/embedallfontshtmlcontroller/writeslidestart)(IHtmlGenerator, ISlide) | HTML 슬라이드 헤더를 씁니다. 각 슬라이드마다 한 번 호출됩니다. |
 
-### 또 보기
+### 참고
 
 * 인터페이스 [IHtmlFormattingController](../ihtmlformattingcontroller)
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)

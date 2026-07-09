@@ -1,6 +1,6 @@
 ---
 title: IMathAccentFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
+second_title: Aspose.Sildes สำหรับเอกสารอ้างอิง API ของ .NET
 description: อนุญาตให้สร้างสำเนียงคณิตศาสตร์
 type: docs
 weight: 8090
@@ -18,12 +18,12 @@ public interface IMathAccentFactory
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | สร้างสำเนียงคณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุโดยใช้ค่าตัวอักษรสำเนียงเริ่มต้น |
-| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | สร้างสำเนียงคณิตศาสตร์ที่ใช้กับองค์ประกอบคณิตศาสตร์ที่ระบุ |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent)(IMathElement) | สร้างสำเนียงคณิตศาสตร์ที่ใช้กับองค์ประกอบทางคณิตศาสตร์ที่ระบุด้วยค่าอักขระสำเนียงเริ่มต้น |
+| [CreateMathAccent](../../aspose.slides.mathtext/imathaccentfactory/createmathaccent#createmathaccent_1)(IMathElement, char) | สร้างสำเนียงคณิตย์ศาสตร์ที่ใช้กับองค์ประกอบทางคณิตศาสตร์ที่ระบุ |
 
 ### หมายเหตุ
 
-เพื่อความเข้ากันได้กับ COM
+สำหรับการเปรียบเทียบกับ COM
 
 ### ดูเพิ่มเติม
 

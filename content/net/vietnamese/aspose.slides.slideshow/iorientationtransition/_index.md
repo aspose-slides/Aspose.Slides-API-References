@@ -18,10 +18,10 @@ public interface IOrientationTransition : ITransitionValueBase
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện cơ sở ITransitionValueBase. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
-| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Hướng chuyển tiếp. Đọc/ghi [`Orientation`](../../aspose.slides/orientation). |
+| [AsITransitionValueBase](../../aspose.slides.slideshow/iorientationtransition/asitransitionvaluebase) { get; } | Cho phép lấy giao diện ITransitionValueBase cơ bản. Chỉ đọc [`ITransitionValueBase`](../itransitionvaluebase). |
+| [Direction](../../aspose.slides.slideshow/iorientationtransition/direction) { get; set; } | Hướng của chuyển đổi. Đọc/ghi [`Orientation`](../../aspose.slides/orientation). |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [ITransitionValueBase](../itransitionvaluebase)
 * không gian tên [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

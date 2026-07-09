@@ -1,14 +1,14 @@
 ---
 title: VbaProject
-second_title: مرجع API Aspose.Sildes برای .NET
-description: نمایندهٔ پروژه VBA با ماکروهای ارائه.
+second_title: Aspose.Sildes برای .NET مرجع API
+description: نمایش‌دهنده پروژه VBA با ماکروهای ارائه.
 type: docs
 weight: 11650
 url: /fa/aspose.slides.vba/vbaproject/
 ---
 ## کلاس VbaProject
 
-نمایش پروژه VBA با ماکروهای ارائه.
+Represents VBA project with presentation macros.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -16,29 +16,29 @@ public sealed class VbaProject : IVbaProject
 
 ## سازنده‌ها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
 | [VbaProject](vbaproject#constructor)() | این سازنده یک پروژه VBA جدید را از ابتدا ایجاد می‌کند. پروژه در صفحه کد 1252 Windows Latin 1 (ANSI) ایجاد خواهد شد |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | این سازنده پروژه VBA را از نمایش باینری یک محفظه OLE بارگذاری می‌کند |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | این سازنده پروژه VBA را از نمای باینری کانتینر OLE بارگیری می‌کند. |
 
 ## ویژگی‌ها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | نشان می‌دهد آیا VBAProject با رمز عبور برای مشاهده ویژگی‌های پروژه محافظت شده است یا خیر. فقط خواندنی Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | فهرست همه ماژول‌های موجود در پروژه VBA را برمی‌گرداند. فقط خواندنی [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | نام پروژه VBA را برمی‌گرداند. فقط خواندنی String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | فهرست همه مراجع موجود در پروژه VBA را برمی‌گرداند. فقط خواندنی [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | نشان می‌دهد آیا VBAProject توسط رمز عبور برای مشاهده ویژگی‌های پروژه محافظت شده است یا خیر. فقط‌خواندنی Boolean. |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | فهرست تمام ماژول‌هایی که در پروژه VBA موجود هستند را برمی‌گرداند. فقط‌خواندنی [`IVbaModuleCollection`](../ivbamodulecollection). |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | نام پروژه VBA را برمی‌گرداند. فقط‌خواندنی String. |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | فهرست تمام ارجاع‌هایی که در پروژه VBA موجود هستند را برمی‌گرداند. فقط‌خواندنی [`IVbaReferenceCollection`](../ivbareferencecollection). |
 
 ## متدها
 
-| نام | شرح |
+| نام | توضیح |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | نمایش باینری پروژه VBA را به عنوان محفظه OLE برمی‌گرداند |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | نمای باینری پروژه VBA را به‌عنوان کانتینر OLE برمی‌گرداند |
 
 ### همچنین ببینید
 
-* واسط [IVbaProject](../ivbaproject)
+* رابط [IVbaProject](../ivbaproject)
 * فضای‌نام [Aspose.Slides.Vba](../../aspose.slides.vba)
 * مجمع [Aspose.Slides](../../)
 

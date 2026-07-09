@@ -1,9 +1,9 @@
 ---
 title: HandoutType
-second_title: Aspose.Sildes for .NET API リファレンス
+second_title: Aspose.Sildes の .NET API リファレンス
 description: ページに配置されるスライドの枚数と順序を指定します。
 type: docs
-weight: 3830
+weight: 3850
 url: /ja/aspose.slides.export/handouttype/
 ---
 ## HandoutType 列挙型
@@ -16,17 +16,17 @@ public enum HandoutType
 
 ### 値
 
-| Name | Value | Description |
+| 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Handouts1 | `0` | 1ページに1枚のスライド。 |
-| Handouts2 | `1` | 1ページに2枚のスライド。 |
-| Handouts3 | `2` | 1ページに3枚のスライド。 |
-| Handouts4Horizontal | `3` | 横方向の順序で1ページに4枚のスライド。 |
-| Handouts4Vertical | `4` | 縦方向の順序で1ページに4枚のスライド。 |
-| Handouts6Horizontal | `5` | 横方向の順序で1ページに6枚のスライド。 |
-| Handouts6Vertical | `6` | 縦方向の順序で1ページに6枚のスライド。 |
-| Handouts9Horizontal | `7` | 横方向の順序で1ページに9枚のスライド。 |
-| Handouts9Vertical | `8` | 縦方向の順序で1ページに9枚のスライド。 |
+| Handouts1 | `0` | ページあたり1枚のスライド。 |
+| Handouts2 | `1` | ページあたり2枚のスライド。 |
+| Handouts3 | `2` | ページあたり3枚のスライド。 |
+| Handouts4Horizontal | `3` | 横方向の順序でページあたり4枚のスライド。 |
+| Handouts4Vertical | `4` | 縦方向の順序でページあたり4枚のスライド。 |
+| Handouts6Horizontal | `5` | 横方向の順序でページあたり6枚のスライド。 |
+| Handouts6Vertical | `6` | 縦方向の順序でページあたり6枚のスライド。 |
+| Handouts9Horizontal | `7` | 横方向の順序でページあたり9枚のスライド。 |
+| Handouts9Vertical | `8` | 縦方向の順序でページあたり9枚のスライド。 |
 
 ### 参照
 

@@ -1,14 +1,14 @@
 ---
 title: IFontFallBackRule
-second_title: Aspose.Sildes para .NET Referência de API
-description: Representa a regra de fallback de fonte
+second_title: Referência da API Aspose.Sildes para .NET
+description: Representa a regra de fallback de fontes
 type: docs
-weight: 5830
+weight: 5850
 url: /pt/aspose.slides/ifontfallbackrule/
 ---
 ## IFontFallBackRule interface
 
-Representa a regra de fallback de fonte
+Representa a regra de fallback de fontes
 
 ```csharp
 public interface IFontFallBackRule
@@ -27,7 +27,7 @@ public interface IFontFallBackRule
 
 | Nome | Descrição |
 | --- | --- |
-| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona nova(s) fonte(s) à lista de fontes FallBack. |
+| [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts)(string) | Adiciona uma(s) nova(s) fonte(s) à lista de fontes FallBack. |
 | [AddFallBackFonts](../../aspose.slides/ifontfallbackrule/addfallbackfonts#addfallbackfonts_1)(string[]) | Adiciona novas fontes à lista de fontes FallBack. |
 | [Clear](../../aspose.slides/ifontfallbackrule/clear)() | Remove todas as fontes da lista. |
 | [IndexOf](../../aspose.slides/ifontfallbackrule/indexof)(string) | Retorna um índice da regra especificada na coleção. |

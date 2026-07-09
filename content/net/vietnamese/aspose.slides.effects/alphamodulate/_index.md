@@ -1,14 +1,14 @@
 ---
 title: AlphaModulate
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho hiệu ứng Alpha Modulate. Các giá trị alpha độ trong suốt của hiệu ứng được nhân với một phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn một hiệu ứng Alpha Modulate. Các giá trị độ trong suốt alpha của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chế.
 type: docs
 weight: 2880
 url: /vi/aspose.slides.effects/alphamodulate/
 ---
 ## AlphaModulate lớp
 
-Đại diện cho hiệu ứng Alpha Modulate. Các giá trị alpha (độ trong suốt) của hiệu ứng được nhân với một phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chỉnh.
+Biểu diễn một Alpha Modulate effect. Giá trị alpha (độ mờ) của hiệu ứng được nhân với một tỷ lệ phần trăm cố định. Bộ chứa hiệu ứng chỉ định một hiệu ứng chứa các giá trị alpha để điều chế.
 
 ```csharp
 public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
@@ -18,15 +18,15 @@ public sealed class AlphaModulate : ImageTransformOperation, IAlphaModulate
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy giao diện IPresentationComponent cơ bản. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Cho phép lấy base IPresentationComponent interface. Chỉ đọc [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Xác định liệu [`AlphaModulate`](../alphamodulate) được chỉ định có bằng với [`AlphaModulate`](../alphamodulate) hiện tại hay không. |
-| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Lấy dữ liệu hiệu ứng Alpha Modulate đã được áp dụng kế thừa. |
-| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Đóng vai trò như một hàm băm cho một kiểu cụ thể. |
+| override [Equals](../../aspose.slides.effects/alphamodulate/equals)(object) | Xác định xem [`AlphaModulate`](../alphamodulate) được chỉ định có bằng với [`AlphaModulate`](../alphamodulate) hiện tại không. |
+| [GetEffective](../../aspose.slides.effects/alphamodulate/geteffective)() | Lấy dữ liệu Alpha Modulate effect thực tế với kế thừa đã được áp dụng. |
+| override [GetHashCode](../../aspose.slides.effects/alphamodulate/gethashcode)() | Đóng vai trò là hàm băm cho một kiểu cụ thể. |
 
 ### Xem thêm
 

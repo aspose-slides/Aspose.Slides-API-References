@@ -1,12 +1,12 @@
 ---
 title: SlideOrientation
-second_title: Aspose.Sildes の .NET API リファレンス
+second_title: Aspose.Sildes for .NET API リファレンス
 description: スライドの向きを表します。
 type: docs
-weight: 9980
+weight: 10000
 url: /ja/aspose.slides/slideorientation/
 ---
-## SlideOrientation 列挙型
+## SlideOrientation 列挙体
 
 スライドの向きを表します。
 
@@ -18,8 +18,8 @@ public enum SlideOrientation
 
 | 名前 | 値 | 説明 |
 | --- | --- | --- |
-| Landscape | `0` | Landscape 向きです。 |
-| Portrait | `1` | Portrait 向きです。 |
+| Landscape | `0` | Landscape 方向。 |
+| Portrait | `1` | Portrait 方向。 |
 
 ### 参照
 

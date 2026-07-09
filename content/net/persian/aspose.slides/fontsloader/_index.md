@@ -1,14 +1,14 @@
 ---
 title: FontsLoader
-second_title: Aspose.Sildes برای .NET مرجع API
-description: کلاسی برای بارگذاری قلم‌های سفارشی تعریف‌شده توسط کاربر. باید قبل از ایجاد هر شیء ارائه استفاده شود.
+second_title: Aspose.Sildes برای مرجع API .NET
+description: کلاسی برای بارگذاری فونت‌های سفارشی تعریف‌شده توسط کاربر. باید قبل از ایجاد هر شیء ارائه‌نامه‌ای استفاده شود.
 type: docs
 weight: 4930
 url: /fa/aspose.slides/fontsloader/
 ---
 ## FontsLoader کلاس
 
-کلاسی برای بارگذاری قلم‌های سفارشی تعریف‌شده توسط کاربر. باید قبل از ایجاد هر شیء ارائه استفاده شود.
+کلاسی برای بارگذاری فونت‌های سفارشی تعریف‌شده توسط کاربر. باید قبل از ایجاد هر شیء ارائه‌نامه‌ای استفاده شود.
 
 ```csharp
 public sealed class FontsLoader : IFontsLoader
@@ -18,10 +18,10 @@ public sealed class FontsLoader : IFontsLoader
 
 | نام | توضیح |
 | --- | --- |
-| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | تمام قلم‌های سفارشی تعریف‌شده توسط کاربر را آزاد می‌کند |
-| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | پوشه‌های قلم را دریافت می‌کند. پوشه‌هایی را برمی‌گرداند که با متد LoadExternalFonts اضافه شده‌اند و همچنین پوشه‌های قلم سیستم |
-| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | قلم را از داده‌های باینری اضافه می‌کند |
-| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | پوشه‌های اضافی برای جستجوی قلم‌ها اضافه می‌کند. |
+| static [ClearCache](../../aspose.slides/fontsloader/clearcache)() | تمام فونت‌های سفارشی تعریف‌شده توسط کاربر را آزاد می‌کند |
+| static [GetFontFolders](../../aspose.slides/fontsloader/getfontfolders)() | پوشه‌های فونت را دریافت می‌کند. پوشه‌هایی که با متد LoadExternalFonts افزوده شده‌اند و همچنین پوشه‌های فونت سیستم را بر می‌گرداند |
+| static [LoadExternalFont](../../aspose.slides/fontsloader/loadexternalfont)(byte[]) | فونت را از داده‌های باینری اضافه می‌کند |
+| static [LoadExternalFonts](../../aspose.slides/fontsloader/loadexternalfonts)(string[]) | پوشه‌های اضافی برای جستجوی فونت‌ها را اضافه می‌کند. |
 
 ### موارد مرتبط
 

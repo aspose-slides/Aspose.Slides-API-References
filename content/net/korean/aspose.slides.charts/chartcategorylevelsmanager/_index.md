@@ -1,14 +1,14 @@
 ---
 title: ChartCategoryLevelsManager
-second_title: Aspose.Sildes .NET API 레퍼런스
-description: 차트 카테고리 레벨 값의 관리 컨테이너.
+second_title: Aspose.Sildes for .NET API 참조
+description: 차트 카테고리 레벨 값들을 관리하는 컨테이너.
 type: docs
 weight: 1290
 url: /ko/aspose.slides.charts/chartcategorylevelsmanager/
 ---
 ## ChartCategoryLevelsManager 클래스
 
-차트 카테고리 레벨 값의 관리 컨테이너.
+차트 카테고리 레벨 값들을 관리하는 컨테이너.
 
 ```csharp
 public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
@@ -18,16 +18,16 @@ public class ChartCategoryLevelsManager : IChartCategoryLevelsManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 정의된 수준에 대한 IChartDataCell 객체를 반환합니다. |
+| [Item](../../aspose.slides.charts/chartcategorylevelsmanager/item) { get; } | 정의된 레벨에 대한 IChartDataCell 객체를 반환합니다. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 정의된 수준에 대한 그룹화 항목을 삭제합니다. |
-| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 정의된 수준에 대한 그룹화 항목을 설정합니다. |
+| [DeleteGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/deletegroupingitem)(int) | 정의된 레벨에 대한 그룹화 항목을 삭제합니다. |
+| [SetGroupingItem](../../aspose.slides.charts/chartcategorylevelsmanager/setgroupingitem)(int, object) | 정의된 레벨에 대한 그룹화 항목을 설정합니다. |
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [IChartCategoryLevelsManager](../ichartcategorylevelsmanager)
 * 네임스페이스 [Aspose.Slides.Charts](../../aspose.slides.charts)

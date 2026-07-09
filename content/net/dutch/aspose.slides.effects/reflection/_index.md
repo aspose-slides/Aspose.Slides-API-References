@@ -1,7 +1,7 @@
 ---
 title: Reflection
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een Reflection-effect voor.
+description: Stelt een Reflection effect voor.
 type: docs
 weight: 3640
 url: /nl/aspose.slides.effects/reflection/
@@ -18,28 +18,28 @@ public sealed class Reflection : IReflection
 
 | Naam | Beschrijving |
 | --- | --- |
-| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Blur radius. Lezen/schrijven Double. |
+| [BlurRadius](../../aspose.slides.effects/reflection/blurradius) { get; set; } | Vervagingsstraal. Lezen/schrijven Double. |
 | [Direction](../../aspose.slides.effects/reflection/direction) { get; set; } | Richting van de reflectie. Lezen/schrijven Single. |
 | [Distance](../../aspose.slides.effects/reflection/distance) { get; set; } | Afstand van de reflectie. Lezen/schrijven Double. |
-| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Specificeert de eindpositie (langs de alfagradiënentrek) van de eind-alpha-waarde (percentages). Lezen/schrijven Single. |
-| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Eind-reflectie-ondoorzichtigheid. (percentages). Lezen/schrijven Single. |
-| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Specificeert de richting om de reflectie te verschuiven. (hoek). Lezen/schrijven Single. |
-| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rechthoek uitlijning. Lezen/schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
-| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Specificeert of de reflectie moet roteren met de vorm als de vorm is geroteerd. Lezen/schrijven Boolean. |
-| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Specificeert de horizontale schaalfactor, negatieve schaling veroorzaakt een omkering. (percentages) Lezen/schrijven Double. |
-| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Specificeert de verticale schaalfactor, negatieve schaling veroorzaakt een omkering. (percentages) Lezen/schrijven Double. |
-| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Specificeert de horizontale scheefhoek. Lezen/schrijven Double. |
-| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Specificeert de verticale scheefhoek. Lezen/schrijven Double. |
-| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Specificeert de startpositie (langs de alfagradiënentrek) van de start-alpha-waarde (percentages). Lezen/schrijven Single. |
-| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Startende reflectie-ondoorzichtigheid. (percentages). Lezen/schrijven Single. |
+| [EndPosAlpha](../../aspose.slides.effects/reflection/endposalpha) { get; set; } | Bepaalt de eindpositie (langs de alfadegradatie) van de eind-alpha-waarde (procenten). Lezen/schrijven Single. |
+| [EndReflectionOpacity](../../aspose.slides.effects/reflection/endreflectionopacity) { get; set; } | Eind-reflectie-opaciteit (procenten). Lezen/schrijven Single. |
+| [FadeDirection](../../aspose.slides.effects/reflection/fadedirection) { get; set; } | Bepaalt de richting om de reflectie te verschuiven (hoek). Lezen/schrijven Single. |
+| [RectangleAlign](../../aspose.slides.effects/reflection/rectanglealign) { get; set; } | Rechthoekuitlijning. Lezen/schrijven [`RectangleAlignment`](../../aspose.slides/rectanglealignment). |
+| [RotateShadowWithShape](../../aspose.slides.effects/reflection/rotateshadowwithshape) { get; set; } | Bepaalt of de reflectie moet roteren met de vorm wanneer de vorm wordt geroteerd. Lezen/schrijven Boolean. |
+| [ScaleHorizontal](../../aspose.slides.effects/reflection/scalehorizontal) { get; set; } | Bepaalt de horizontale schaalfactor; negatieve schaal veroorzaakt een omkering (procenten). Lezen/schrijven Double. |
+| [ScaleVertical](../../aspose.slides.effects/reflection/scalevertical) { get; set; } | Bepaalt de verticale schaalfactor; negatieve schaal veroorzaakt een omkering (procenten). Lezen/schrijven Double. |
+| [SkewHorizontal](../../aspose.slides.effects/reflection/skewhorizontal) { get; set; } | Bepaalt de horizontale scheefhoek. Lezen/schrijven Double. |
+| [SkewVertical](../../aspose.slides.effects/reflection/skewvertical) { get; set; } | Bepaalt de verticale scheefhoek. Lezen/schrijven Double. |
+| [StartPosAlpha](../../aspose.slides.effects/reflection/startposalpha) { get; set; } | Bepaalt de startpositie (langs de alfadegradatie) van de start-alpha-waarde (procenten). Lezen/schrijven Single. |
+| [StartReflectionOpacity](../../aspose.slides.effects/reflection/startreflectionopacity) { get; set; } | Start-reflectie-opaciteit (procenten). Lezen/schrijven Single. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/reflection/equals)(object) | Bepaalt of de opgegeven [`Reflection`](../reflection) gelijk is aan de huidige [`Reflection`](../reflection). |
-| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Haalt effectieve Reflection-effectgegevens op met de toegepaste overerving. |
-| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Dient als een hash-functie voor een bepaald type. |
+| [GetEffective](../../aspose.slides.effects/reflection/geteffective)() | Haalt effectieve Reflection-effectdata op met de toegepaste overerving. |
+| override [GetHashCode](../../aspose.slides.effects/reflection/gethashcode)() | Dient als hash-functie voor een specifiek type. |
 
 ### Zie ook
 

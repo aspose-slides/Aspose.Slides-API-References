@@ -1,14 +1,14 @@
 ---
 title: IMathGroupingCharacterFactory
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อนุญาตให้สร้างอักขระจัดกลุ่มคณิตศาสตร์
+second_title: Aspose.Sildes สำหรับ .NET อ้างอิง API
+description: อนุญาตให้สร้างอักขระการจัดกลุ่มคณิตศาสตร์
 type: docs
 weight: 8300
 url: /th/aspose.slides.mathtext/imathgroupingcharacterfactory/
 ---
-## อินเทอร์เฟซ IMathGroupingCharacterFactory
+## IMathGroupingCharacterFactory อินเทอร์เฟซ
 
-อนุญาตให้สร้างอักขระจัดกลุ่มคณิตศาสตร์
+อนุญาตให้สร้างอักขระการจัดกลุ่มคณิตศาสตร์
 
 ```csharp
 public interface IMathGroupingCharacterFactory
@@ -16,10 +16,10 @@ public interface IMathGroupingCharacterFactory
 
 ## เมธอด
 
-| Name | Description |
+| ชื่อ | คำอธิบาย |
 | --- | --- |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | สร้างอักขระจัดกลุ่มคณิตศาสตร์ |
-| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | สร้างอักขระจัดกลุ่มคณิตศาสตร์ |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter)(IMathElement) | สร้างอักขระการจัดกลุ่มคณิตศาสตร์ |
+| [CreateMathGroupingCharacter](../../aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter#createmathgroupingcharacter_1)(IMathElement, char, MathTopBotPositions, MathTopBotPositions) | สร้างอักขระการจัดกลุ่มคณิตศาสตร์ |
 
 ### หมายเหตุ
 

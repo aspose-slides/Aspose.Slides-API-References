@@ -1,9 +1,9 @@
 ---
 title: HeadingPair
-second_title: Aspose.Sildes dla .NET Referencja API
-description: Reprezentuje właściwość pary nagłówków dokumentu. Wskazuje nazwę grupy części dokumentu oraz liczbę części w grupie.
+second_title: Aspose.Sildes dla .NET – odniesienie API
+description: Reprezentuje właściwość Heading pair dokumentu. Wskazuje nazwę grupy części dokumentu oraz liczbę części w grupie.
 type: docs
-weight: 5090
+weight: 5110
 url: /pl/aspose.slides/headingpair/
 ---
 ## HeadingPair klasa

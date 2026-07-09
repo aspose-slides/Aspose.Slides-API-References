@@ -1,20 +1,20 @@
 ---
 title: Dispose
-second_title: Aspose.Sildes cho .NET Tham chiếu API
-description: Giải phóng các tài nguyên được sử dụng bởi thể hiện này.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Giải phóng tài nguyên được sử dụng bởi thực thể này.
 type: docs
 weight: 40
 url: /vi/aspose.slides.ai/openaicompatiblewebclient/dispose/
 ---
-## OpenAICompatibleWebClient.Dispose phương thức
+## Phương thức OpenAICompatibleWebClient.Dispose
 
-Giải phóng các tài nguyên được sử dụng bởi thể hiện này.
+Giải phóng tài nguyên được sử dụng bởi thực thể này.
 
 ```csharp
 public void Dispose()
 ```
 
-### Xem Thêm
+### Xem thêm
 
 * lớp [OpenAICompatibleWebClient](../../openaicompatiblewebclient)
 * không gian tên [Aspose.Slides.AI](../../openaicompatiblewebclient)

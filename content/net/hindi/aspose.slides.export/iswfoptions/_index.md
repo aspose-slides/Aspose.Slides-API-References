@@ -1,14 +1,14 @@
 ---
 title: ISwfOptions
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: विकल्प प्रदान करता है जो नियंत्रित करते हैं कि प्रेज़ेंटेशन SWF फ़ॉर्मेट में कैसे सहेजा जाता है।
+second_title: Aspose.Sildes for .NET API संदर्भ
+description: विकल्प प्रदान करता है जो यह निर्धारित करता है कि प्रस्तुति को SWF फ़ॉर्मेट में कैसे सहेजा जाता है।
 type: docs
 weight: 4150
 url: /hi/aspose.slides.export/iswfoptions/
 ---
 ## ISwfOptions इंटरफ़ेस
 
-एक प्रेज़ेंटेशन को SWF फ़ॉर्मेट में सहेजने के तरीके को नियंत्रित करने वाले विकल्प प्रदान करता है।
+Provides options that control how a presentation is saved in SWF format.
 
 ```csharp
 public interface ISwfOptions : ISaveOptions
@@ -16,30 +16,30 @@ public interface ISwfOptions : ISaveOptions
 
 ## गुण
 
-| नाम | विवरण |
+| Name | Description |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | वापस देता है ISaveOptions इंटरफ़ेस। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
-| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | निर्दिष्ट करता है कि जनरेट किया गया SWF दस्तावेज़ संकुचित होना चाहिए या नहीं। डिफ़ॉल्ट `true` है। |
-| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | कॉन्टेक्स्ट मेनू को सक्षम/अक्षम करें। डिफ़ॉल्ट true है। |
-| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | JPEG छवियों की गुणवत्ता निर्दिष्ट करता है। डिफ़ॉल्ट 95 है। |
-| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | व्यूअर के शीर्ष दाएँ कोने में लोगो के रूप में दिखाने वाली छवि। छवि 32x64 पिक्सेल PNG होनी चाहिए, अन्यथा लोगो सही ढंग से नहीं दिख सकता। |
-| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | लोगो के लिए पूरा हाइपरलिंक पता प्राप्त करता है या सेट करता है। केवल तभी प्रभाव डालता है जब [`LogoImageBytes`](./logoimagebytes) निर्दिष्ट किया गया हो। |
-| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | नीचे का पैन दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | फुलस्क्रीन बटन दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | निर्दिष्ट करता है कि जनरेट किया गया दस्तावेज़ छिपी हुई स्लाइड्स शामिल करेगा या नहीं। डिफ़ॉल्ट `false` है। |
-| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | बाएँ पैन दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | निर्धारित करता है कि पृष्ठों के चारों ओर बॉर्डर दिखाया जाए या नहीं। डिफ़ॉल्ट true है। |
-| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | पेज स्टेपर दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | सर्च सेक्शन दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | पूरे शीर्ष पैन को दिखाएँ/छिपाएँ। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
-| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | प्रेज़ेंटेशन को एक्सपोर्ट करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions)। यह प्रॉपर्टी `Aspose.Slides.Export.HandoutLayoutingOptions` प्रकार के ऑब्जेक्ट असाइन करने का समर्थन नहीं करती। |
-| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | खुले बाएँ पैन के साथ शुरू करें। इसे flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट false है। |
-| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | निर्दिष्ट करता है कि जनरेट किया गया SWF दस्तावेज़ में इंटीग्रेटेड दस्तावेज़ व्यूवर शामिल होना चाहिए या नहीं। डिफ़ॉल्ट `true` है। |
+| [AsISaveOptions](../../aspose.slides.export/iswfoptions/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions)। |
+| [Compressed](../../aspose.slides.export/iswfoptions/compressed) { get; set; } | यह निर्दिष्ट करता है कि जनित SWF दस्तावेज़ को संकुचित किया जाना चाहिए या नहीं। डिफ़ॉल्ट `true` है। |
+| [EnableContextMenu](../../aspose.slides.export/iswfoptions/enablecontextmenu) { get; set; } | संदर्भ मेनू को सक्षम/अक्षम करता है। डिफ़ॉल्ट true है। |
+| [JpegQuality](../../aspose.slides.export/iswfoptions/jpegquality) { get; set; } | JPEG चित्रों की गुणवत्ता निर्दिष्ट करता है। डिफ़ॉल्ट 95 है। |
+| [LogoImageBytes](../../aspose.slides.export/iswfoptions/logoimagebytes) { get; set; } | दर्शक के ऊपर दाएँ कोने में लोगो के रूप में प्रदर्शित होने वाली छवि। छवि 32x64 पिक्सेल PNG छवि होनी चाहिए, अन्यथा लोगो ठीक से नहीं दिख सकता। |
+| [LogoLink](../../aspose.slides.export/iswfoptions/logolink) { get; set; } | लोगो के लिए पूर्ण हाइपरलिंक पता प्राप्त करता है या सेट करता है। यह केवल तभी प्रभावी होता है जब एक [`LogoImageBytes`](./logoimagebytes) निर्दिष्ट किया गया हो। |
+| [ShowBottomPane](../../aspose.slides.export/iswfoptions/showbottompane) { get; set; } | निचले पैन को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [ShowFullScreen](../../aspose.slides.export/iswfoptions/showfullscreen) { get; set; } | पूर्ण-स्क्रीन बटन को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [ShowHiddenSlides](../../aspose.slides.export/iswfoptions/showhiddenslides) { get; set; } | यह निर्दिष्ट करता है कि जनित दस्तावेज़ में छिपी स्लाइडें शामिल की जानी चाहिए या नहीं। डिफ़ॉल्ट `false` है। |
+| [ShowLeftPane](../../aspose.slides.export/iswfoptions/showleftpane) { get; set; } | बाएँ पैन को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [ShowPageBorder](../../aspose.slides.export/iswfoptions/showpageborder) { get; set; } | यह निर्दिष्ट करता है कि पृष्ठों के चारों ओर सीमा दिखानी चाहिए या नहीं। डिफ़ॉल्ट true है। |
+| [ShowPageStepper](../../aspose.slides.export/iswfoptions/showpagestepper) { get; set; } | पृष्ठ स्टेपर को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [ShowSearch](../../aspose.slides.export/iswfoptions/showsearch) { get; set; } | खोज अनुभाग को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [ShowTopPane](../../aspose.slides.export/iswfoptions/showtoppane) { get; set; } | पूरा शीर्ष पैन को दिखाए/छिपाए। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट true है। |
+| [SlidesLayoutOptions](../../aspose.slides.export/iswfoptions/slideslayoutoptions) { get; set; } | प्रस्तुति निर्यात करते समय स्लाइडों को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions)। यह गुण `Aspose.Slides.Export.HandoutLayoutingOptions` प्रकार के ऑब्जेक्ट असाइन करने का समर्थन नहीं करता। |
+| [StartOpenLeftPane](../../aspose.slides.export/iswfoptions/startopenleftpane) { get; set; } | खुले बाएँ पैन के साथ शुरू करें। flashvars में ओवरराइड किया जा सकता है। डिफ़ॉल्ट false है। |
+| [ViewerIncluded](../../aspose.slides.export/iswfoptions/viewerincluded) { get; set; } | यह निर्दिष्ट करता है कि जनित SWF दस्तावेज़ में एकीकृत दस्तावेज़ दर्शक शामिल किया जाना चाहिए या नहीं। डिफ़ॉल्ट `true` है। |
 
-### देखें भी
+### संबंधित देखें
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
-* नेमस्पेस [Aspose.Slides.Export](../../aspose.slides.export)
+* नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

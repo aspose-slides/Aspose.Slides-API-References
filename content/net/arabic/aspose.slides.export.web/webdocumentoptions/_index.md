@@ -1,6 +1,6 @@
 ---
 title: WebDocumentOptions
-second_title: مرجع API لـ Aspose.Sildes لـ .NET
+second_title: مرجع API لـ Aspose.Sildes for .NET
 description: يمثل مجموعة خيارات لحفظ WebDocument./webdocument.
 type: docs
 weight: 4690
@@ -14,7 +14,7 @@ url: /ar/aspose.slides.export.web/webdocumentoptions/
 public class WebDocumentOptions
 ```
 
-## المُنشئات
+## المنشئات
 
 | الاسم | الوصف |
 | --- | --- |
@@ -24,11 +24,11 @@ public class WebDocumentOptions
 
 | الاسم | الوصف |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | إرجاع أو تعيين خيار رسوم متحركة الأشكال. قراءة/كتابة Boolean. |
-| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | إرجاع أو تعيين خيار رسوم متحركة الانتقالات. قراءة/كتابة Boolean. |
-| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | إرجاع أو تعيين خيار تضمين الصور. قراءة/كتابة Boolean. |
-| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | إرجاع أو تعيين حفظ الإخراج. قراءة/كتابة [`IOutputSaver`](../ioutputsaver). |
-| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | إرجاع أو تعيين محرك القوالب. قراءة/كتابة [`ITemplateEngine`](../itemplateengine). |
+| [AnimateShapes](../../aspose.slides.export.web/webdocumentoptions/animateshapes) { get; set; } | يعيد أو يعيّن خيار حركة الأشكال. قراءة/كتابة Boolean. |
+| [AnimateTransitions](../../aspose.slides.export.web/webdocumentoptions/animatetransitions) { get; set; } | يعيد أو يعيّن خيار حركة الانتقالات. قراءة/كتابة Boolean. |
+| [EmbedImages](../../aspose.slides.export.web/webdocumentoptions/embedimages) { get; set; } | يعيد أو يعيّن خيار تضمين الصور. قراءة/كتابة Boolean. |
+| [OutputSaver](../../aspose.slides.export.web/webdocumentoptions/outputsaver) { get; set; } | يعيد أو يعيّن حافظة الإخراج. قراءة/كتابة [`IOutputSaver`](../ioutputsaver). |
+| [TemplateEngine](../../aspose.slides.export.web/webdocumentoptions/templateengine) { get; set; } | يعيد أو يعيّن محرك القوالب. قراءة/كتابة [`ITemplateEngine`](../itemplateengine). |
 
 ### انظر أيضًا
 

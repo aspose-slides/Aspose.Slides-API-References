@@ -1,14 +1,14 @@
 ---
 title: IActualLayout
 second_title: Aspose.Sildes لـ .NET مرجع API
-description: يحدد الموضع الفعلي لعنصر المخطط.
+description: يحدد الموقع الفعلي لعنصر المخطط.
 type: docs
 weight: 1690
 url: /ar/aspose.slides.charts/iactuallayout/
 ---
-## واجهة IActualLayout
+## IActualLayout الواجهة
 
-يحدد الموضع الفعلي لعنصر المخطط.
+يحدد الموقع الفعلي لعنصر المخطط.
 
 ```csharp
 public interface IActualLayout
@@ -21,7 +21,7 @@ public interface IActualLayout
 | [ActualHeight](../../aspose.slides.charts/iactuallayout/actualheight) { get; } | يحدد الارتفاع الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
 | [ActualWidth](../../aspose.slides.charts/iactuallayout/actualwidth) { get; } | يحدد العرض الفعلي لعنصر المخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
 | [ActualX](../../aspose.slides.charts/iactuallayout/actualx) { get; } | يحدد الموقع الفعلي للمحور س (اليسار) لعنصر المخطط بالنسبة للزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
-| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | يحدد أعلى عنصر المخطط الفعلي بالنسبة للزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
+| [ActualY](../../aspose.slides.charts/iactuallayout/actualy) { get; } | يحدد الجزء العلوي الفعلي لعنصر المخطط بالنسبة للزاوية اليسرى العليا للمخطط. استدعِ الطريقة IChart.ValidateChartLayout() مسبقًا للحصول على القيم الفعلية. قراءة Single. |
 
 ### انظر أيضًا
 

@@ -20,10 +20,10 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | --- | --- |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | 기본 IPresentationComponent 인터페이스를 가져올 수 있습니다. 읽기 전용 [`IPresentationComponent`](../ipresentationcomponent). |
 | [FillType](../../aspose.slides/fillformat/filltype) { get; set; } | 채우기 유형을 반환하거나 설정합니다. 읽기/쓰기 [`FillType`](../filltype). |
-| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | 그라데이션 채우기 형식을 반환합니다. 읽기 전용 [`IGradientFormat`](../igradientformat). |
-| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | 패턴 채우기 형식을 반환합니다. 읽기 전용 [`IPatternFormat`](../ipatternformat). |
-| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 그림 채우기 형식을 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
-| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 도형과 함께 채우기를 회전시킬지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
+| [GradientFormat](../../aspose.slides/fillformat/gradientformat) { get; } | 그라디언트 채우기 서식을 반환합니다. 읽기 전용 [`IGradientFormat`](../igradientformat). |
+| [PatternFormat](../../aspose.slides/fillformat/patternformat) { get; } | 패턴 채우기 서식을 반환합니다. 읽기 전용 [`IPatternFormat`](../ipatternformat). |
+| [PictureFillFormat](../../aspose.slides/fillformat/picturefillformat) { get; } | 그림 채우기 서식을 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
+| [RotateWithShape](../../aspose.slides/fillformat/rotatewithshape) { get; set; } | 채우기가 도형과 함께 회전되는지 여부를 결정합니다. 읽기/쓰기 [`NullableBool`](../nullablebool). |
 | [SolidFillColor](../../aspose.slides/fillformat/solidfillcolor) { get; } | 채우기 색상을 반환합니다. 읽기 전용 [`IColorFormat`](../icolorformat). |
 
 ## 메서드
@@ -34,7 +34,7 @@ public sealed class FillFormat : PVIObject, IFillFormat
 | [GetEffective](../../aspose.slides/fillformat/geteffective)() | 상속이 적용된 효과적인 채우기 서식 데이터를 가져옵니다. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | 해시 코드를 반환합니다. |
 
-### 참고
+### 참조
 
 * 클래스 [PVIObject](../pviobject)
 * 인터페이스 [IFillFormat](../ifillformat)

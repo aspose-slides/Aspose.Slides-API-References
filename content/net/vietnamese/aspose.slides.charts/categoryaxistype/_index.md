@@ -1,14 +1,14 @@
 ---
 title: CategoryAxisType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn một loại trục danh mục.
+second_title: Tham chiếu API .NET của Aspose.Sildes
+description: Biểu thị một loại trục danh mục.
 type: docs
 weight: 1250
 url: /vi/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType liệt kê
 
-Biểu diễn một loại trục danh mục.
+Represents a type of a category axis.
 
 ```csharp
 public enum CategoryAxisType
@@ -18,8 +18,8 @@ public enum CategoryAxisType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Text | `0` | Chỉ định trục danh mục là trục văn bản. |
-| Date | `1` | Chỉ định trục danh mục là trục ngày. |
+| Text | `0` | Xác định trục danh mục là trục văn bản. |
+| Date | `1` | Xác định trục danh mục là trục ngày. |
 
 ### Xem thêm
 

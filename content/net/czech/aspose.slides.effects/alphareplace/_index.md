@@ -1,14 +1,14 @@
 ---
 title: AlphaReplace
-second_title: Aspose.Sildes pro .NET – referenční příručka API
-description: Představuje efekt Alpha Replace. Hodnoty alfa (průhlednosti) jsou nahrazeny pevnou alfu.
+second_title: Aspose.Sildes pro .NET - reference API
+description: Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednosti) efektu jsou nahrazeny pevnou alfa hodnotou.
 type: docs
-weight: 2880
+weight: 2900
 url: /cs/aspose.slides.effects/alphareplace/
 ---
 ## AlphaReplace třída
 
-Představuje efekt Alpha Replace. Hodnoty alfa (průhlednosti) jsou nahrazeny pevnou hodnotou alfa.
+Reprezentuje efekt Alpha Replace. Hodnoty alfa (průhlednost) efektu jsou nahrazeny pevnou alfa hodnotou.
 
 ```csharp
 public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
@@ -18,13 +18,13 @@ public sealed class AlphaReplace : ImageTransformOperation, IAlphaReplace
 
 | Název | Popis |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze ke čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Umožňuje získat základní rozhraní IPresentationComponent. Pouze pro čtení [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## Metody
 
 | Název | Popis |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Určuje, zda specifikovaný [`AlphaReplace`](../alphareplace) je roven aktuálnímu [`AlphaReplace`](../alphareplace). |
+| override [Equals](../../aspose.slides.effects/alphareplace/equals)(object) | Určuje, zda je zadaný [`AlphaReplace`](../alphareplace) roven aktuálnímu [`AlphaReplace`](../alphareplace). |
 | [GetEffective](../../aspose.slides.effects/alphareplace/geteffective)() | Získá efektivní data efektu Alpha Replace s aplikovaným děděním. |
 | override [GetHashCode](../../aspose.slides.effects/alphareplace/gethashcode)() | Slouží jako hashovací funkce pro konkrétní typ. |
 

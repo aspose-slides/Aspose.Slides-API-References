@@ -18,18 +18,18 @@ public interface IThemeEffectiveData
 
 | Naam | Beschrijving |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Retourneert het lettertype-schema. Alleen-lezen [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Retourneert het vormindelings-schema. Alleen-lezen [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Geeft het lettertype-schema terug. Alleen-lezen [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Geeft het vormformat-schema terug. Alleen-lezen [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Retourneert het kleurenschema. |
+| [GetColorScheme](../../aspose.slides.theme/ithemeeffectivedata/getcolorscheme)(Color) | Geeft het kleurschema terug. |
 
 ### Opmerkingen
 
-Deze interface wordt samen met de [`ITheme`](../itheme) interface gebruikt om effectieve opmaakwaarden met overerving toegepast te retourneren.
+Deze interface wordt samen met de [`ITheme`](../itheme) interface gebruikt om effectieve opmaakwaarden met toepaste overerving terug te geven.
 
 ### Zie ook
 

@@ -1,14 +1,14 @@
 ---
 title: ControlPropertiesCollection
 second_title: Aspose.Sildes för .NET API-referens
-description: En samling av AcitveX-egenskaper.
+description: En samling av AcitveX egenskaper.
 type: docs
-weight: 2690
+weight: 2710
 url: /sv/aspose.slides/controlpropertiescollection/
 ---
 ## ControlPropertiesCollection klass
 
-En samling av AcitveX egenskaper.
+En samling av AcitveX-egenskaper.
 
 ```csharp
 public class ControlPropertiesCollection : IControlPropertiesCollection
@@ -16,22 +16,22 @@ public class ControlPropertiesCollection : IControlPropertiesCollection
 
 ## Egenskaper
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
-| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Returnerar antal egenskaper i samlingen. Skrivskyddad Int32. |
-| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Returnerar eller anger egenskapen. |
+| [Count](../../aspose.slides/controlpropertiescollection/count) { get; } | Returnerar antalet egenskaper i samlingen. Skrivskyddad Int32. |
+| [Item](../../aspose.slides/controlpropertiescollection/item) { get; set; } | Returnerar eller anger egenskap. |
 | [NamesOfProperties](../../aspose.slides/controlpropertiescollection/namesofproperties) { get; } | Returnerar samlingen av egenskapsnamn. Skrivskyddad ICollection. |
 
 ## Metoder
 
-| Namn | Beskrivning |
+| Name | Description |
 | --- | --- |
 | [Add](../../aspose.slides/controlpropertiescollection/add)(string, string) | Lägger till en egenskap i samlingen. |
 | [Clear](../../aspose.slides/controlpropertiescollection/clear)() | Tar bort alla egenskaper. |
-| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Returnerar en enumerator som itererar igenom samlingen. |
+| [GetEnumerator](../../aspose.slides/controlpropertiescollection/getenumerator)() | Returnerar en enumerator som itererar genom samlingen. |
 | [Remove](../../aspose.slides/controlpropertiescollection/remove)(string) | Tar bort en egenskap med det angivna namnet. |
 
-### Se också
+### Se även
 
 * gränssnitt [IControlPropertiesCollection](../icontrolpropertiescollection)
 * namnrymd [Aspose.Slides](../../aspose.slides)

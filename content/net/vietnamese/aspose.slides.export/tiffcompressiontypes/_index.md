@@ -1,14 +1,14 @@
 ---
 title: TiffCompressionTypes
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Cung cấp các tùy chọn kiểm soát cách một bản trình bày được nén ở định dạng TIFF.
+second_title: Aspose.Sildes cho API Tham chiếu .NET
+description: Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được nén ở định dạng TIFF.
 type: docs
 weight: 4560
 url: /vi/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes liệt kê
 
-Cung cấp các tùy chọn kiểm soát cách một bản trình bày được nén ở định dạng TIFF.
+Cung cấp các tùy chọn kiểm soát cách một bản trình chiếu được nén ở định dạng TIFF.
 
 ```csharp
 public enum TiffCompressionTypes
@@ -18,12 +18,12 @@ public enum TiffCompressionTypes
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Default | `0` | Chỉ định phương pháp nén mặc định (LZW). |
+| Default | `0` | Chỉ định sơ đồ nén mặc định (LZW). |
 | None | `1` | Chỉ định không nén. |
-| CCITT3 | `2` | Chỉ định phương pháp nén CCITT3. |
-| CCITT4 | `3` | Chỉ định phương pháp nén CCITT4. |
-| LZW | `4` | Chỉ định phương pháp nén LZW (Mặc định). |
-| RLE | `5` | Chỉ định phương pháp nén RLE. |
+| CCITT3 | `2` | Chỉ định sơ đồ nén CCITT3. |
+| CCITT4 | `3` | Chỉ định sơ đồ nén CCITT4. |
+| LZW | `4` | Chỉ định sơ đồ nén LZW (Mặc định). |
+| RLE | `5` | Chỉ định sơ đồ nén RLE. |
 
 ### Xem thêm
 

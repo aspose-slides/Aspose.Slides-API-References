@@ -1,14 +1,14 @@
 ---
 title: ColorDirection
-second_title: Aspose.Sildes cho Tham chiếu API .NET
-description: Đại diện cho hướng màu cho hành vi hiệu ứng màu.
+second_title: Tham chiếu API Aspose.Sildes cho .NET
+description: Biểu thị hướng màu cho hành vi hiệu ứng màu.
 type: docs
 weight: 220
 url: /vi/aspose.slides.animation/colordirection/
 ---
-## Kiểu liệt kê ColorDirection
+## ColorDirection kiểu liệt kê
 
-Đại diện cho hướng màu cho hành vi hiệu ứng màu.
+Biểu thị hướng màu cho hành vi hiệu ứng màu.
 
 ```csharp
 public enum ColorDirection

@@ -1,47 +1,47 @@
 ---
 title: EffectFactory
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: इफ़ेक्ट बनाने की अनुमति देता है
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: इफ़ेक्ट्स बनाने की अनुमति देता है
 type: docs
 weight: 2970
 url: /hi/aspose.slides.effects/effectfactory/
 ---
-## EffectFactory क्लास
+## EffectFactory वर्ग
 
-इफ़ेक्ट बनाने के लिए अनुमति देता है
+इफ़ेक्ट्स बनाने की अनुमति देता है
 
 ```csharp
 public class EffectFactory : IEffectFactory
 ```
 
-## कंस्ट्रक्टर्स
+## निर्माताएँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [EffectFactory](effectfactory)() | डिफ़ॉल्ट कन्स्ट्रक्टर। |
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory को लौटाता है। केवल-पढ़ने योग्य [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)। |
+| [ImageTransformOperationFactory](../../aspose.slides.effects/effectfactory/imagetransformoperationfactory) { get; } | ImageTransformOperationFactory लौटाता है। केवल-पढ़ने योग्य [`IImageTransformOperationFactory`](../iimagetransformoperationfactory)। |
 
 ## विधियाँ
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow इफ़ेक्ट बनाता है। |
-| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | Inner shafow इफ़ेक्ट बनाता है। |
-| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | Outer shadow इफ़ेक्ट बनाता है। |
-| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | Preset shadow इफ़ेक्ट बनाता है। |
-| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | Reflection इफ़ेक्ट बनाता है। |
-| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | Soft Edge इफ़ेक्ट बनाता है। |
+| [CreateGlow](../../aspose.slides.effects/effectfactory/createglow)() | Glow प्रभाव बनाता है। |
+| [CreateInnerShadow](../../aspose.slides.effects/effectfactory/createinnershadow)() | अंदर छाया प्रभाव बनाता है। |
+| [CreateOuterShadow](../../aspose.slides.effects/effectfactory/createoutershadow)() | बाहरी छाया प्रभाव बनाता है। |
+| [CreatePresetShadow](../../aspose.slides.effects/effectfactory/createpresetshadow)() | पूर्वनिर्धारित छाया प्रभाव बनाता है। |
+| [CreateReflection](../../aspose.slides.effects/effectfactory/createreflection)() | परावर्तन प्रभाव बनाता है। |
+| [CreateSoftEdge](../../aspose.slides.effects/effectfactory/createsoftedge)() | सॉफ्ट एज प्रभाव बनाता है। |
 
 ### टिप्पणी
 
 COM संगतता के लिए।
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [IEffectFactory](../ieffectfactory)
 * नेमस्पेस [Aspose.Slides.Effects](../../aspose.slides.effects)

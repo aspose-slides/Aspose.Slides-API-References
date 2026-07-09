@@ -1,12 +1,12 @@
 ---
 title: Flavor
 second_title: Aspose.Sildes pro .NET API Reference
-description: Všechny specifikace markdown používané v programu.
+description: Všechny specifikace markdown použité v programu.
 type: docs
-weight: 3780
+weight: 3800
 url: /cs/aspose.slides.export/flavor/
 ---
-## Flavor enumerace
+## Výčtový typ Flavor
 
 Všechny specifikace markdown používané v programu.
 
@@ -18,30 +18,30 @@ public enum Flavor
 
 | Název | Hodnota | Popis |
 | --- | --- | --- |
-| Github | `0` | Github varianta. |
-| Gruber | `1` | Gruber varianta. |
-| MultiMarkdown | `2` | Multi markdown varianta. |
-| CommonMark | `3` | Common mark varianta. |
-| MarkdownExtra | `4` | Markdown extra varianta. |
-| Pandoc | `5` | Pandoc varianta. |
-| Kramdown | `6` | Kramdown varianta. |
-| Markua | `7` | Markua varianta. |
-| Maruku | `8` | Maruku varianta. |
-| Markdown2 | `9` | Markdown2 varianta. |
-| Remarkable | `10` | Remarkable varianta |
-| Showdown | `11` | Showdown varianta. |
-| Ghost | `12` | Ghost varianta. |
-| GitLab | `13` | Gitlab varianta. |
-| Haroopad | `14` | Haroopad varianta. |
-| IaWriter | `15` | IAWriter varianta. |
-| Redcarpet | `16` | Redcarpet varianta. |
-| ScholarlyMarkdown | `17` | Scholarly markdown varianta. |
-| Taiga | `18` | Taiga varianta. |
-| Trello | `19` | Trello varianta. |
-| S9ETextFormatter | `20` | S9E text formatter varianta. |
-| XWiki | `21` | XWiki varianta. |
-| StackOverflow | `22` | Stack overflow varianta. |
-| Default | `23` | Default markdown varianta. |
+| Github | `0` | Varianta Github. |
+| Gruber | `1` | Varianta Gruber. |
+| MultiMarkdown | `2` | Varianta Multi markdown. |
+| CommonMark | `3` | Varianta Common mark. |
+| MarkdownExtra | `4` | Varianta Markdown extra. |
+| Pandoc | `5` | Varianta Pandoc. |
+| Kramdown | `6` | Varianta Kramdown. |
+| Markua | `7` | Varianta Markua. |
+| Maruku | `8` | Varianta Maruku. |
+| Markdown2 | `9` | Varianta Markdown2. |
+| Remarkable | `10` | Varianta Remarkable |
+| Showdown | `11` | Varianta Showdown. |
+| Ghost | `12` | Varianta Ghost. |
+| GitLab | `13` | Varianta Gitlab. |
+| Haroopad | `14` | Varianta Haroopad. |
+| IaWriter | `15` | Varianta IAWriter. |
+| Redcarpet | `16` | Varianta Redcarpet. |
+| ScholarlyMarkdown | `17` | Varianta Scholarly markdown. |
+| Taiga | `18` | Varianta Taiga. |
+| Trello | `19` | Varianta Trello. |
+| S9ETextFormatter | `20` | Varianta S9E text formatter. |
+| XWiki | `21` | Varianta XWiki. |
+| StackOverflow | `22` | Varianta Stack overflow. |
+| Default | `23` | Výchozí markdown varianta. |
 
 ### Příklady
 

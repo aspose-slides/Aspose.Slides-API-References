@@ -8,7 +8,7 @@ url: /vi/aspose.slides.warnings/ipresentationsignedwarninginfo/
 ---
 ## IPresentationSignedWarningInfo giao diện
 
-Cảnh báo này cho biết bản trình chiếu đang đọc có chữ ký và chữ ký này sẽ bị xóa trong quá trình xử lý.
+Cảnh báo này cho biết bản trình chiếu đang được đọc có chữ ký và chữ ký này sẽ bị xóa trong quá trình xử lý.
 
 ```csharp
 public interface IPresentationSignedWarningInfo : IWarningInfo
@@ -20,7 +20,7 @@ public interface IPresentationSignedWarningInfo : IWarningInfo
 | --- | --- |
 | [AsIWarningInfo](../../aspose.slides.warnings/ipresentationsignedwarninginfo/asiwarninginfo) { get; } | Trả về giao diện IWarningInfo. Chỉ đọc [`IWarningInfo`](../iwarninginfo). |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IWarningInfo](../iwarninginfo)
 * không gian tên [Aspose.Slides.Warnings](../../aspose.slides.warnings)

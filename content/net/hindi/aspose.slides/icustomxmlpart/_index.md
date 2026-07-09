@@ -1,6 +1,6 @@
 ---
 title: ICustomXmlPart
-second_title: Aspose.Sildes .NET API संदर्भ
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
 description: कस्टम XML भाग का प्रतिनिधित्व करता है।
 type: docs
 weight: 5670
@@ -18,10 +18,10 @@ public interface ICustomXmlPart
 
 | Name | Description |
 | --- | --- |
-| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | एक वैश्विक रूप से अद्वितीय पहचानकर्ता (GUID) निर्दिष्ट करता है जो Office Open XML दस्तावेज़ के भीतर एकल कस्टम XML भाग को विशिष्ट रूप से पहचानता है। केवल-पढ़ने-योग्य Guid. |
-| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | कस्टम XML भाग से सम्बंधित संग्रह XML स्कीमा को लौटाता है। केवल-पढ़ने-योग्य String[]. |
-| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML डेटा को UTF-8 स्ट्रिंग के रूप में लौटाता या सेट करता है। पढ़ने/लिखने योग्य String। मान `null` है। मान खाली है या XML-डेटा अमान्य है। |
-| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | XML डेटा को लौटाता या सेट करता है। पढ़ने/लिखने योग्य Byte[]। मान `null` है। मान खाली है या XML-डेटा अमान्य है। |
+| [ItemId](../../aspose.slides/icustomxmlpart/itemid) { get; set; } | एक वैश्विक रूप से अद्वितीय पहचानकर्ता (GUID) निर्दिष्ट करता है जो Office Open XML दस्तावेज़ में एकल कस्टम XML भाग को विशिष्ट रूप से पहचानता है। केवल पढ़ने योग्य Guid. |
+| [NamespaceSchemas](../../aspose.slides/icustomxmlpart/namespaceschemas) { get; } | कस्टम XML भाग से संबंधित संग्रह XML स्कीमाओं को लौटाता है। केवल पढ़ने योग्य String[]. |
+| [XmlAsString](../../aspose.slides/icustomxmlpart/xmlasstring) { get; set; } | XML डेटा को UTF-8 स्ट्रिंग के रूप में लौटाता है या सेट करता है। पढ़ने/लिखने योग्य String. मान `null` है। मान खाली है या xml-data अमान्य है। |
+| [XmlData](../../aspose.slides/icustomxmlpart/xmldata) { get; set; } | XML डेटा को लौटाता है या सेट करता है। पढ़ने/लिखने योग्य Byte[]. मान `null` है। मान खाली है या xml-data अमान्य है। |
 
 ## विधियाँ
 

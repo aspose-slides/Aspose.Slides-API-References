@@ -18,7 +18,7 @@ public interface ITextAnimationCollection : IGenericCollection<ITextAnimation>
 
 | 이름 | 설명 |
 | --- | --- |
-| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | 인덱스로 요소를 반환합니다. (2개의 인덱서) |
+| [Item](../../aspose.slides.animation/itextanimationcollection/item) { get; } | 인덱스로 요소를 반환합니다. (인덱서 2개) |
 
 ### 참고
 

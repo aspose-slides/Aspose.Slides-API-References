@@ -1,6 +1,6 @@
 ---
 title: ICell
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: مرجع API لـ Aspose.Sildes للـ .NET
 description: يمثل خلية في جدول.
 type: docs
 weight: 5450
@@ -18,43 +18,43 @@ public interface ICell : ISlideComponent
 
 | الاسم | الوصف |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | يحدد ما إذا كان صندوق النص مُتمركزًا داخل خلية أم لا. قراءة/كتابة Boolean. |
-| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | يسمح بالحصول على واجهة ISlideComponent الأساسية. قراءة فقط [`ISlideComponent`](../islidecomponent). |
-| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | يرجع كائن CellFormat الذي يحتوي على خصائص التنسيق لهذه الخلية. قراءة فقط [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/icell/colspan) { get; } | يرجع عدد أعمدة الشبكة في شبكة الجدول الأصلية التي يجب أن يغطيها الخلية الحالية. تسمح هذه الخاصية للخلية بأن تبدو مُدمجة، حيث تمتد عبر حدود الخلايا الأخرى عموديًا في الجدول. قراءة فقط Int32. |
+| [AnchorCenter](../../aspose.slides/icell/anchorcenter) { get; set; } | يحدد ما إذا كان مربع النص مركّزًا داخل خلية أم لا. قراءة/كتابة Boolean. |
+| [AsISlideComponent](../../aspose.slides/icell/asislidecomponent) { get; } | يتيح الحصول على واجهة ISlideComponent الأساسية. قراءة فقط [`ISlideComponent`](../islidecomponent). |
+| [CellFormat](../../aspose.slides/icell/cellformat) { get; } | يُعيد كائن CellFormat الذي يحتوي على خصائص التنسيق لهذه الخلية. قراءة فقط [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/icell/colspan) { get; } | يُعيد عدد أعمدة الشبكة في جدول父 الجدول التي يجب أن تمتد عبرها الخلية الحالية. تسمح هذه الخاصية للخلية بأن تظهر كأنها مدمجة، حيث تمتد عبر حدود خلايا أخرى في الجدول. قراءة فقط Int32. |
 | [FirstColumn](../../aspose.slides/icell/firstcolumn) { get; } | يحصل على العمود الأول للخلية. قراءة فقط [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | يرجع فهرس العمود الأول الذي تغطيه الخلية. قراءة فقط Int32. |
+| [FirstColumnIndex](../../aspose.slides/icell/firstcolumnindex) { get; } | يُعيد فهرس العمود الأول الذي تغطيه الخلية. قراءة فقط Int32. |
 | [FirstRow](../../aspose.slides/icell/firstrow) { get; } | يحصل على الصف الأول للخلية. قراءة فقط [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | يرجع فهرس الصف الأول الذي تغطيه الخلية. قراءة فقط Int32. |
-| [Height](../../aspose.slides/icell/height) { get; } | يرجع ارتفاع الخلية. قراءة فقط Double. |
-| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | يرجع true إذا كانت الخلية مدمجة مع أي خلية مُضبطَة، وإلا false. قراءة فقط Boolean. |
-| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | يرجع أو يضبط الهامش السفلي في TextFrame. قراءة/كتابة Double. |
-| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | يرجع أو يضبط الهامش الأيسر في TextFrame. قراءة/كتابة Double. |
-| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | يرجع أو يضبط الهامش الأيمن في TextFrame. قراءة/كتابة Double. |
-| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | يرجع أو يضبط الهامش الأعلى في TextFrame. قراءة/كتابة Double. |
-| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | يرجع الحد الأدنى لارتفاع الخلية. هذا هو مجموع الحد الأدنى لأارتفاعات جميع الصفوف التي تغطيها الخلية. قراءة فقط Double. |
-| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | يرجع المسافة من الجانب الأيسر للجدول إلى الجانب الأيسر للخلية. قراءة فقط Double. |
-| [OffsetY](../../aspose.slides/icell/offsety) { get; } | يرجع المسافة من الجانب العلوي للجدول إلى الجانب العلوي للخلية. قراءة فقط Double. |
-| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | يرجع عدد الصفوف التي تمتد عبرها الخلية المدمجة. يُستخدم هذا بالاشتراك مع سمة vMerge على خلايا أخرى لتحديد الخلية البداية للدمج الأفقي. قراءة فقط Int32. |
-| [Table](../../aspose.slides/icell/table) { get; } | يرجع كائن Table الأب للخلية. قراءة فقط [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | يرجع أو يضبط نوع محور النص. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/icell/textframe) { get; } | يرجع إطار النص للخلية. قراءة فقط [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | يرجع أو يضبط نوع النص العمودي. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/icell/width) { get; } | يرجع عرض الخلية. قراءة فقط Double. |
+| [FirstRowIndex](../../aspose.slides/icell/firstrowindex) { get; } | يُعيد فهرس الصف الأول الذي تغطيه الخلية. قراءة فقط Int32. |
+| [Height](../../aspose.slides/icell/height) { get; } | يُعيد ارتفاع الخلية. قراءة فقط Double. |
+| [IsMergedCell](../../aspose.slides/icell/ismergedcell) { get; } | يُعيد true إذا كانت الخلية مدمجة مع أي خلية أخرى، وإلا false. قراءة فقط Boolean. |
+| [MarginBottom](../../aspose.slides/icell/marginbottom) { get; set; } | يُعيد أو يضبط الهامش السفلي في TextFrame. قراءة/كتابة Double. |
+| [MarginLeft](../../aspose.slides/icell/marginleft) { get; set; } | يُعيد أو يضبط الهامش الأيسر في TextFrame. قراءة/كتابة Double. |
+| [MarginRight](../../aspose.slides/icell/marginright) { get; set; } | يُعيد أو يضبط الهامش الأيمن في TextFrame. قراءة/كتابة Double. |
+| [MarginTop](../../aspose.slides/icell/margintop) { get; set; } | يُعيد أو يضبط الهامش العلوي في TextFrame. قراءة/كتابة Double. |
+| [MinimalHeight](../../aspose.slides/icell/minimalheight) { get; } | يُعيد الحد الأدنى لارتفاع الخلية. هذا مجموع 최소 الارتفاعات لجميع الصفوف التي تغطيها الخلية. قراءة فقط Double. |
+| [OffsetX](../../aspose.slides/icell/offsetx) { get; } | يُعيد المسافة من الجانب الأيسر للجدول إلى الجانب الأيسر للخلية. قراءة فقط Double. |
+| [OffsetY](../../aspose.slides/icell/offsety) { get; } | يُعيد المسافة من الجانب العلوي للجدول إلى الجانب العلوي للخلية. قراءة فقط Double. |
+| [RowSpan](../../aspose.slides/icell/rowspan) { get; } | يُعيد عدد الصفوف التي تمتد عبرها خلية مدمجة. يُستخدم هذا بالاشتراك مع سمة vMerge على خلايا أخرى لتحديد الخلية البداية للدمج الأفقي. قراءة فقط Int32. |
+| [Table](../../aspose.slides/icell/table) { get; } | يُعيد كائن Table الأصل للخلية. قراءة فقط [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/icell/textanchortype) { get; set; } | يُعيد أو يضبط نوع مرساة النص. قراءة/كتابة [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/icell/textframe) { get; } | يُعيد TextFrame الخاص بالخلية. قراءة فقط [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/icell/textverticaltype) { get; set; } | يُعيد أو يضبط نوع النص العمودي. قراءة/كتابة [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/icell/width) { get; } | يُعيد عرض الخلية. قراءة فقط Double. |
 
 ## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/icell/splitbycolspan)(int) | يقسم الخلية إلى خليتين حسب فهرس العمود. |
-| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | يقسم الخلية حسب الارتفاع. |
+| [SplitByHeight](../../aspose.slides/icell/splitbyheight)(double) | يقسم الخلية بحسب الارتفاع. |
 | [SplitByRowSpan](../../aspose.slides/icell/splitbyrowspan)(int) | يقسم الخلية إلى خليتين حسب فهرس الصف. |
-| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | يقسم الخلية حسب العرض. |
+| [SplitByWidth](../../aspose.slides/icell/splitbywidth)(double) | يقسم الخلية بحسب العرض. |
 
-### انظر أيضًا
+### أنظر أيضاً
 
-* واجهة [ISlideComponent](../islidecomponent)
-* مساحة الاسم [Aspose.Slides](../../aspose.slides)
-* التجميع [Aspose.Slides](../../)
+* interface [ISlideComponent](../islidecomponent)
+* namespace [Aspose.Slides](../../aspose.slides)
+* assembly [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

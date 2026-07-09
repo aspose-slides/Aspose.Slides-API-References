@@ -1,14 +1,14 @@
 ---
 title: AlphaBiLevel
-second_title: Aspose.Sildes per .NET Riferimento API
-description: Rappresenta un effetto Alpha Bi-Level. I valori di Opacità Alpha inferiori alla soglia sono cambiati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia sono cambiati a 100 (completamente opaco).
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Rappresenta un effetto Alpha Bi-Level. I valori Alpha Opacity inferiori alla soglia vengono cambiati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono cambiati a 100 (completamente opaco).
 type: docs
-weight: 2820
+weight: 2840
 url: /it/aspose.slides.effects/alphabilevel/
 ---
 ## AlphaBiLevel classe
 
-Rappresenta un effetto Alpha Bi-Level. I valori Alpha (Opacità) inferiori alla soglia vengono cambiati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono cambiati al 100 % (completamente opaco).
+Rappresenta un effetto Alpha Bi-Level. I valori Alpha (Opacità) inferiori alla soglia vengono impostati a 0 (completamente trasparente) e i valori alpha maggiori o uguali alla soglia vengono impostati al 100% (completamente opaco).
 
 ```csharp
 public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
@@ -18,15 +18,15 @@ public sealed class AlphaBiLevel : ImageTransformOperation, IAlphaBiLevel
 
 | Nome | Descrizione |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia IPresentationComponent di base. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Restituisce la soglia dell'effetto. Lettura/scrittura Single. |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Consente di ottenere l'interfaccia base IPresentationComponent. Solo lettura [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [Threshold](../../aspose.slides.effects/alphabilevel/threshold) { get; set; } | Restituisce la soglia dell'effetto. Lettura/Scrittura Single. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Determina se il [`AlphaBiLevel`](../alphabilevel) specificato è uguale al [`AlphaBiLevel`](../alphabilevel) corrente. |
-| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Ottiene i dati dell'effetto Alpha Bi-Level effettivo con l'ereditarietà applicata. |
+| override [Equals](../../aspose.slides.effects/alphabilevel/equals)(object) | Determina se lo [`AlphaBiLevel`](../alphabilevel) specificato è uguale all'attuale [`AlphaBiLevel`](../alphabilevel). |
+| [GetEffective](../../aspose.slides.effects/alphabilevel/geteffective)() | Ottiene i dati effettivi dell'effetto Alpha Bi-Level con l'ereditarietà applicata. |
 | override [GetHashCode](../../aspose.slides.effects/alphabilevel/gethashcode)() | Funge da funzione hash per un tipo particolare. |
 
 ### Vedi anche

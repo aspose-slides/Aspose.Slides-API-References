@@ -8,7 +8,7 @@ url: /ko/aspose.slides.slideshow/imorphtransition/
 ---
 ## IMorphTransition 인터페이스
 
-리플 슬라이드 전환 효과.
+Ripple 슬라이드 전환 효과.
 
 ```csharp
 public interface IMorphTransition : ITransitionValueBase
@@ -16,12 +16,12 @@ public interface IMorphTransition : ITransitionValueBase
 
 ## 속성
 
-| Name | Description |
+| 이름 | 설명 |
 | --- | --- |
 | [AsITransitionValueBase](../../aspose.slides.slideshow/imorphtransition/asitransitionvaluebase) { get; } | 기본 ITransitionValueBase 인터페이스를 가져올 수 있습니다. 읽기 전용 [`ITransitionValueBase`](../itransitionvaluebase). |
-| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | Morph 전환의 유형. 읽기/쓰기 [`TransitionMorphType`](../transitionmorphtype). |
+| [MorphType](../../aspose.slides.slideshow/imorphtransition/morphtype) { get; set; } | 모프 전환의 유형. 읽기/쓰기 [`TransitionMorphType`](../transitionmorphtype). |
 
-### 참조
+### 참고
 
 * 인터페이스 [ITransitionValueBase](../itransitionvaluebase)
 * 네임스페이스 [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)

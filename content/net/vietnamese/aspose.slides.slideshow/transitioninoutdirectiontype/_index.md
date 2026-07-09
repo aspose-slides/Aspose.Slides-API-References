@@ -1,14 +1,14 @@
 ---
 title: TransitionInOutDirectionType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu diễn các loại chuyển đổi hướng vào hoặc ra.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho các loại chuyển đổi hướng vào hoặc ra.
 type: docs
 weight: 10370
 url: /vi/aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 ## TransitionInOutDirectionType liệt kê
 
-Biểu diễn các loại chuyển đổi hướng vào hoặc ra.
+Đại diện cho các loại chuyển đổi hướng vào hoặc ra.
 
 ```csharp
 public enum TransitionInOutDirectionType

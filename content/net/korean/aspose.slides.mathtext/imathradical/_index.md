@@ -1,14 +1,14 @@
 ---
 title: IMathRadical
-second_title: Aspose.Sildes for .NET API 참조
-description: 기본과 선택적 차수로 구성된 근호 함수를 지정합니다. 근호 객체의 예는 .
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 기본값과 선택적 차수로 구성된 라디컬 함수를 지정합니다. 라디컬 객체의 예는 .
 type: docs
 weight: 8430
 url: /ko/aspose.slides.mathtext/imathradical/
 ---
-## IMathRadical 인터페이스
+## IMathRadial 인터페이스
 
-근호 함수를 지정합니다. 이 함수는 밑(base)과 선택적 차수를 포함합니다. 근호 객체의 예는 √𝑥입니다.
+기본값과 선택적인 차수를 갖는 근함수를 지정합니다. 근 객체의 예는 √𝑥입니다.
 
 ```csharp
 public interface IMathRadical : IMathElement
@@ -18,21 +18,21 @@ public interface IMathRadical : IMathElement
 
 | 이름 | 설명 |
 | --- | --- |
-| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | 기본 IMathElement 인터페이스를 가져올 수 있습니다 [`IMathElement`](../imathelement) |
+| [AsIMathElement](../../aspose.slides.mathtext/imathradical/asimathelement) { get; } | 기본 IMathElement 인터페이스 [`IMathElement`](../imathelement)를 가져올 수 있습니다 |
 | [Base](../../aspose.slides.mathtext/imathradical/base) { get; } | 기본 인수 |
 | [Degree](../../aspose.slides.mathtext/imathradical/degree) { get; } | 차수 인수 |
-| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | Hide degree가 true이면 차수가 표시되지 않으며, √𝑥와 같이 나타납니다 |
+| [HideDegree](../../aspose.slides.mathtext/imathradical/hidedegree) { get; set; } | 차수를 숨깁니다. true인 경우 √𝑥와 같이 차수가 표시되지 않습니다 |
 
 ### 예제
 
-예제:
+예시:
 
 ```csharp
 [C#]
-IMathRadical radical = new MathematicalText("x").Radial("3"); // 세제곱근
+IMathRadical radical = new MathematicalText("x").Radical("3"); // 세제곱근
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [IMathElement](../imathelement)
 * 네임스페이스 [Aspose.Slides.MathText](../../aspose.slides.mathtext)

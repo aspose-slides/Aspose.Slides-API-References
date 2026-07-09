@@ -1,14 +1,14 @@
 ---
 title: IPresetShadowEffectiveData
 second_title: Aspose.Sildes برای .NET مرجع API
-description: شیء ثابت که نمایانگر اثر سایه پیش‌تنظیم‌شده است.
+description: شیء غیرقابل تغییر که نمایانگر اثر سایه پیش‌تنظیم‌شده است.
 type: docs
 weight: 3490
-url: /fa/aspose.slides.effects/ipresetshadoweffectivedata/
+url: /fa/aspose.slides.effects/ippresetshadoweffectivedata/
 ---
 ## IPresetShadowEffectiveData رابط
 
-شیء ثابت که نمایانگر اثر سایه پیش‌تنظیم‌شده است.
+شیء غیرقابل تغییر که نمایانگر اثر سایه پیش‌تنظیم شده است.
 
 ```csharp
 public interface IPresetShadowEffectiveData : IEffectEffectiveData
@@ -18,11 +18,11 @@ public interface IPresetShadowEffectiveData : IEffectEffectiveData
 
 | نام | توضیح |
 | --- | --- |
-| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | اجازۀ دریافت رابط IEffectEffectiveData پایه را می‌دهد. فقط خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | جهت سایه. فقط خواندنی Single. |
-| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | فاصله سایه. فقط خواندنی Double. |
-| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | پیش‌تنظیم. فقط خواندنی [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
-| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | رنگ سایه. فقط خواندنی Color. |
+| [AsIEffectEffectiveData](../../aspose.slides.effects/ipresetshadoweffectivedata/asieffecteffectivedata) { get; } | اجازه دریافت رابط پایه IEffectEffectiveData را می‌دهد. فقط-خواندنی [`IEffectEffectiveData`](../ieffecteffectivedata). |
+| [Direction](../../aspose.slides.effects/ipresetshadoweffectivedata/direction) { get; } | جهت سایه. فقط-خواندنی Single. |
+| [Distance](../../aspose.slides.effects/ipresetshadoweffectivedata/distance) { get; } | فاصله سایه. فقط-خواندنی Double. |
+| [Preset](../../aspose.slides.effects/ipresetshadoweffectivedata/preset) { get; } | Preset. فقط-خواندنی [`PresetShadowType`](../../aspose.slides/presetshadowtype). |
+| [ShadowColor](../../aspose.slides.effects/ipresetshadoweffectivedata/shadowcolor) { get; } | رنگ سایه. فقط-خواندنی Color. |
 
 ### همچنین ببینید
 

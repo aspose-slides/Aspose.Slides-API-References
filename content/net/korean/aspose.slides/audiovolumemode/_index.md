@@ -1,14 +1,14 @@
 ---
 title: AudioVolumeMode
-second_title: Aspose.Sildes for .NET API 참조
-description: 오디오 볼륨을 정의하는 상수입니다.
+second_title: Aspose.Sildes for .NET API 레퍼런스
+description: 오디오 볼륨을 정의하는 상수.
 type: docs
 weight: 890
 url: /ko/aspose.slides/audiovolumemode/
 ---
 ## AudioVolumeMode 열거형
 
-오디오 볼륨을 정의하는 상수입니다.
+오디오 볼륨을 정의하는 상수.
 
 ```csharp
 public enum AudioVolumeMode
@@ -19,10 +19,10 @@ public enum AudioVolumeMode
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
 | Mixed | `-1` |  |
-| Mute | `0` | 음량이 0입니다. |
-| Low | `1` | 낮은 음량입니다. |
-| Medium | `2` | 보통 음량입니다. |
-| Loud | `3` | 높은 음량입니다. |
+| Mute | `0` | 소리 볼륨이 0입니다. |
+| Low | `1` | 낮은 소리 볼륨. |
+| Medium | `2` | 중간 소리 볼륨. |
+| Loud | `3` | 높은 소리 볼륨. |
 
 ### 참고
 

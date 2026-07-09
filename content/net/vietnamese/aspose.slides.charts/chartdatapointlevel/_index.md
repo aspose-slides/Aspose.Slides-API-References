@@ -19,7 +19,7 @@ public class ChartDataPointLevel : DomObject<ChartDataPointLevelsManager>, IChar
 | Tên | Mô tả |
 | --- | --- |
 | [Format](../../aspose.slides.charts/chartdatapointlevel/format) { get; } | Đại diện cho các thuộc tính định dạng của mức độ điểm dữ liệu. Đọc/ghi [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Đại diện cho nhãn dữ liệu của mức độ điểm dữ liệu. Áp dụng cho các loại series Treemap và Sunburst. Chỉ đọc [`IDataLabel`](../idatalabel). |
+| [Label](../../aspose.slides.charts/chartdatapointlevel/label) { get; } | Đại diện cho nhãn dữ liệu của mức độ điểm dữ liệu. Áp dụng cho các loại sereis Treemap và Sunburst. Chỉ đọc [`IDataLabel`](../idatalabel). |
 
 ### Xem thêm
 

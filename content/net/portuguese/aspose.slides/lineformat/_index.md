@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Sildes para .NET Referência da API
 description: Representa o formato de uma linha.
 type: docs
-weight: 7770
+weight: 7790
 url: /pt/aspose.slides/lineformat/
 ---
 ## classe LineFormat
@@ -16,32 +16,32 @@ public sealed class LineFormat : PVIObject, ILineFormat
 
 ## Propriedades
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Retorna ou define o alinhamento da linha. Leitura/gravação [`LineAlignment`](../linealignment). |
+| [Alignment](../../aspose.slides/lineformat/alignment) { get; set; } | Retorna ou define o alinhamento da linha. Leitura/Gravação [`LineAlignment`](../linealignment). |
 | [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Permite obter a interface base IPresentationComponent. Somente leitura [`IPresentationComponent`](../ipresentationcomponent). |
-| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Retorna ou define o comprimento da ponta da seta no início de uma linha. Leitura/gravação [`LineArrowheadLength`](../linearrowheadlength). |
-| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Retorna ou define o estilo da ponta da seta no início de uma linha. Leitura/gravação [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Retorna ou define a largura da ponta da seta no início de uma linha. Leitura/gravação [`LineArrowheadWidth`](../linearrowheadwidth). |
-| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Retorna ou define o estilo da extremidade da linha. Leitura/gravação [`LineCapStyle`](../linecapstyle). |
-| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Retorna ou define o padrão de traço personalizado. Leitura/gravação Single[]. |
-| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Retorna ou define o estilo de traço da linha. Leitura/gravação [`LineDashStyle`](../linedashstyle). |
-| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Retorna ou define o comprimento da ponta da seta no final de uma linha. Leitura/gravação [`LineArrowheadLength`](../linearrowheadlength). |
-| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Retorna ou define o estilo da ponta da seta no final de uma linha. Leitura/gravação [`LineArrowheadStyle`](../linearrowheadstyle). |
-| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Retorna ou define a largura da ponta da seta no final de uma linha. Leitura/gravação [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [BeginArrowheadLength](../../aspose.slides/lineformat/beginarrowheadlength) { get; set; } | Retorna ou define o comprimento da ponta da seta no início de uma linha. Leitura/Gravação [`LineArrowheadLength`](../linearrowheadlength). |
+| [BeginArrowheadStyle](../../aspose.slides/lineformat/beginarrowheadstyle) { get; set; } | Retorna ou define o estilo da ponta da seta no início de uma linha. Leitura/Gravação [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [BeginArrowheadWidth](../../aspose.slides/lineformat/beginarrowheadwidth) { get; set; } | Retorna ou define a largura da ponta da seta no início de uma linha. Leitura/Gravação [`LineArrowheadWidth`](../linearrowheadwidth). |
+| [CapStyle](../../aspose.slides/lineformat/capstyle) { get; set; } | Retorna ou define o estilo da tampa da linha. Leitura/Gravação [`LineCapStyle`](../linecapstyle). |
+| [CustomDashPattern](../../aspose.slides/lineformat/customdashpattern) { get; set; } | Retorna ou define o padrão de traço personalizado. Leitura/Gravação Single[]. |
+| [DashStyle](../../aspose.slides/lineformat/dashstyle) { get; set; } | Retorna ou define o estilo de traço da linha. Leitura/Gravação [`LineDashStyle`](../linedashstyle). |
+| [EndArrowheadLength](../../aspose.slides/lineformat/endarrowheadlength) { get; set; } | Retorna ou define o comprimento da ponta da seta no final de uma linha. Leitura/Gravação [`LineArrowheadLength`](../linearrowheadlength). |
+| [EndArrowheadStyle](../../aspose.slides/lineformat/endarrowheadstyle) { get; set; } | Retorna ou define o estilo da ponta da seta no final de uma linha. Leitura/Gravação [`LineArrowheadStyle`](../linearrowheadstyle). |
+| [EndArrowheadWidth](../../aspose.slides/lineformat/endarrowheadwidth) { get; set; } | Retorna ou define a largura da ponta da seta no final de uma linha. Leitura/Gravação [`LineArrowheadWidth`](../linearrowheadwidth). |
 | [FillFormat](../../aspose.slides/lineformat/fillformat) { get; } | Retorna o formato de preenchimento de uma linha. Somente leitura [`ILineFillFormat`](../ilinefillformat). |
-| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Retorna true se o formato da linha não estiver definido (como recém criado, padrão). Somente leitura Boolean. |
-| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Retorna ou define o estilo de junção das linhas. Leitura/gravação [`LineJoinStyle`](../linejoinstyle). |
-| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Retorna ou define o limite de chanfro de uma linha. Leitura/gravação Single. |
+| [IsFormatNotDefined](../../aspose.slides/lineformat/isformatnotdefined) { get; } | Retorna true se o formato da linha não estiver definido (como recém-criado, padrão). Somente leitura Boolean. |
+| [JoinStyle](../../aspose.slides/lineformat/joinstyle) { get; set; } | Retorna ou define o estilo de junção das linhas. Leitura/Gravação [`LineJoinStyle`](../linejoinstyle). |
+| [MiterLimit](../../aspose.slides/lineformat/miterlimit) { get; set; } | Retorna ou define o limite de mitra de uma linha. Leitura/Gravação Single. |
 | [SketchFormat](../../aspose.slides/lineformat/sketchformat) { get; } | Retorna o formato de esboço de uma linha. Somente leitura [`ILineFillFormat`](../ilinefillformat). |
-| [Style](../../aspose.slides/lineformat/style) { get; set; } | Retorna ou define o estilo da linha. Leitura/gravação [`LineStyle`](../linestyle). |
-| [Width](../../aspose.slides/lineformat/width) { get; set; } | Retorna ou define a largura de uma linha. Leitura/gravação Double. |
+| [Style](../../aspose.slides/lineformat/style) { get; set; } | Retorna ou define o estilo da linha. Leitura/Gravação [`LineStyle`](../linestyle). |
+| [Width](../../aspose.slides/lineformat/width) { get; set; } | Retorna ou define a largura de uma linha. Leitura/Gravação Double. |
 
 ## Métodos
 
-| Name | Description |
+| Nome | Descrição |
 | --- | --- |
-| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Determina se duas instâncias de LineFormat são iguais. |
+| [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Determina se as duas instâncias de LineFormat são iguais. |
 | override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
 | [GetEffective](../../aspose.slides/lineformat/geteffective)() | Obtém os dados efetivos de formatação da linha com a herança aplicada. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Retorna o código hash. |

@@ -1,12 +1,12 @@
 ---
 title: ShapeAdjustmentType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
+second_title: Aspose.Sildes cho Tham chiếu API .NET
 description: Xác định các loại giá trị điều chỉnh hình dạng khác nhau.
 type: docs
 weight: 9840
 url: /vi/aspose.slides/shapeadjustmenttype/
 ---
-## ShapeAdjustmentType enum
+## ShapeAdjustmentType liệt kê
 
 Xác định các loại giá trị điều chỉnh hình dạng khác nhau.
 
@@ -14,49 +14,49 @@ Xác định các loại giá trị điều chỉnh hình dạng khác nhau.
 public enum ShapeAdjustmentType
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
 | Custom | `0` | Kiểu tùy chỉnh (điều chỉnh không xác định) |
-| CornerSize | `1` | Kiểm soát kích thước các góc. |
-| LeftUpCorner | `2` | Kiểm soát góc trái trên. |
-| RightUpCorner | `3` | Kiểm soát góc phải trên. |
-| UpCorners | `4` | Kiểm soát các góc trên. |
-| DownCorners | `5` | Kiểm soát các góc dưới. |
-| Thickness | `6` | Kiểm soát độ dày của hình. |
-| ArrowTailThickness | `7` | Kiểm soát độ dày của phần đuôi mũi tên. |
-| ArrowheadLength | `8` | Kiểm soát độ dài của mũi tên. |
-| ArrowheadWidth | `9` | Kiểm soát độ rộng của mũi tên. |
-| Radius | `10` | Kiểm soát kích thước bán kính của hình hoặc phần của nó. |
-| Depth | `11` | Kiểm soát độ sâu của răng bánh răng hoặc hiệu ứng bevel. |
-| ShapePartOffset | `12` | Kiểm soát độ lệch của một phần của hình so với phần khác. |
-| Angle | `13` | Kiểm soát góc cho hình hoặc phần của nó. |
-| StartAngle | `14` | Góc bắt đầu cho hình tròn bánh và cung. |
-| EndAngle | `15` | Góc kết thúc cho hình tròn bánh và cung. |
-| StartPointX | `16` | Kiểm soát vị trí X của điểm bắt đầu callout. |
-| StartPointY | `17` | Kiểm soát vị trí Y của điểm bắt đầu callout. |
-| ConnectorPoint1X | `18` | Kiểm soát vị trí ngang của điểm điều chỉnh góc callout. |
-| ConnectorPoint1Y | `19` | Kiểm soát vị trí dọc của điểm điều chỉnh góc callout. |
-| ConnectorPoint2X | `20` | Kiểm soát vị trí ngang của điểm điều chỉnh góc callout. |
-| ConnectorPoint2Y | `21` | Kiểm soát vị trí dọc của điểm điều chỉnh góc callout. |
-| ConnectorBendPositionX | `22` | Kiểm soát vị trí ngang của độ cong trong connector. |
-| ConnectorBendPositionY | `23` | Kiểm soát vị trí dọc của độ cong trong connector. |
-| AttachY | `24` | Kiểm soát điểm gắn dọc của hình. |
-| AttachX | `25` | Kiểm soát điểm gắn ngang của hình. |
-| CalloutHeight | `26` | Kiểm soát kích thước chiều dọc của callout. |
-| CalloutWidth | `27` | Kiểm soát kích thước chiều ngang của callout. |
-| CalloutSize | `28` | Kiểm soát kích thước của callout. |
-| Curvature | `29` | Độ cong của một đường cong, móc, mũi tên cong hoặc hình. |
-| HorizontalThickness | `30` | Kiểm soát độ dày ngang của hình góc. |
-| VerticalThickness | `31` | Kiểm soát độ dày dọc của hình góc. |
-| VerticalSize | `32` | Kiểm soát kích thước dọc của hình. |
-| HorizontalSize | `33` | Kiểm soát kích thước ngang của hình. |
-| Top | `34` | Kiểm soát phía trên của một hình. |
+| CornerSize | `1` | Điều khiển kích thước các góc. |
+| LeftUpCorner | `2` | Điều khiển góc trên bên trái. |
+| RightUpCorner | `3` | Điều khiển góc trên bên phải. |
+| UpCorners | `4` | Điều khiển các góc trên. |
+| DownCorners | `5` | Điều khiển các góc dưới. |
+| Thickness | `6` | Điều khiển độ dày của hình. |
+| ArrowTailThickness | `7` | Điều khiển độ dày của đuôi mũi tên. |
+| ArrowheadLength | `8` | Điều khiển độ dài của đầu mũi tên. |
+| ArrowheadWidth | `9` | Điều khiển độ rộng của đầu mũi tên. |
+| Radius | `10` | Điều khiển kích thước bán kính của hình hoặc bộ phận của nó. |
+| Depth | `11` | Điều khiển độ sâu của răng bánh răng hoặc hiệu ứng chêm góc. |
+| ShapePartOffset | `12` | Điều khiển độ dịch chuyển của một phần của hình so với phần khác. |
+| Angle | `13` | Điều khiển góc cho hình hoặc phần của nó. |
+| StartAngle | `14` | Góc bắt đầu cho các hình tròn bánh và cung. |
+| EndAngle | `15` | Góc kết thúc cho các hình tròn bánh và cung. |
+| StartPointX | `16` | Điều khiển vị trí X của điểm bắt đầu callout. |
+| StartPointY | `17` | Điều khiển vị trí Y của điểm bắt đầu callout. |
+| ConnectorPoint1X | `18` | Điều khiển vị trí ngang của điểm điều chỉnh góc callout. |
+| ConnectorPoint1Y | `19` | Điều khiển vị trí dọc của điểm điều chỉnh góc callout. |
+| ConnectorPoint2X | `20` | Điều khiển vị trí ngang của điểm điều chỉnh góc callout. |
+| ConnectorPoint2Y | `21` | Điều khiển vị trí dọc của điểm điều chỉnh góc callout. |
+| ConnectorBendPositionX | `22` | Điều khiển vị trí ngang của khúc uốn trong connector. |
+| ConnectorBendPositionY | `23` | Điều khiển vị trí dọc của khúc uốn trong connector. |
+| AttachY | `24` | Điều khiển điểm gắn dọc của hình. |
+| AttachX | `25` | Điều khiển điểm gắn ngang của hình. |
+| CalloutHeight | `26` | Điều khiển kích thước dọc của callout. |
+| CalloutWidth | `27` | Điều khiển kích thước ngang của callout. |
+| CalloutSize | `28` | Điều khiển kích thước của callout. |
+| Curvature | `29` | Độ cong của một dạng uốn, ngoặc, mũi tên cong hoặc hình. |
+| HorizontalThickness | `30` | Điều khiển độ dày ngang của hình góc. |
+| VerticalThickness | `31` | Điều khiển độ dày dọc của hình góc. |
+| VerticalSize | `32` | Điều khiển kích thước dọc của hình. |
+| HorizontalSize | `33` | Điều khiển kích thước ngang của hình. |
+| Top | `34` | Điều khiển phía trên của một hình. |
 
 ### Xem thêm
 
 * không gian tên [Aspose.Slides](../../aspose.slides)
-* bộ [Aspose.Slides](../../)
+* tập hợp [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

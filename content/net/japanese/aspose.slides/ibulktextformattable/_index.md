@@ -3,7 +3,7 @@ title: IBulkTextFormattable
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 子テキスト要素の書式を一括設定できるオブジェクトを表します。
 type: docs
-weight: 5360
+weight: 5380
 url: /ja/aspose.slides/ibulktextformattable/
 ---
 ## IBulkTextFormattable インターフェイス
@@ -18,9 +18,9 @@ public interface IBulkTextFormattable
 
 | 名前 | 説明 |
 | --- | --- |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | 定義された段落書式プロパティを要素のすべての段落に設定します。 |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | 定義された部分書式プロパティを要素のすべての部分に設定します。 |
-| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | 定義されたテキストフレーム書式プロパティを要素のすべてのテキストフレームに設定します。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat)(IParagraphFormat) | 定義された段落書式プロパティをすべての要素の段落に設定します。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_1)(IPortionFormat) | 定義された部分書式プロパティをすべての要素の部分に設定します。 |
+| [SetTextFormat](../../aspose.slides/ibulktextformattable/settextformat#settextformat_2)(ITextFrameFormat) | 定義されたテキストフレーム書式プロパティをすべての要素のテキストフレームに設定します。 |
 
 ### 参照
 

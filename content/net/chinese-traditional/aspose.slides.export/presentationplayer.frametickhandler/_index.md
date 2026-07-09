@@ -1,6 +1,6 @@
 ---
 title: PresentationPlayer.FrameTickHandler
-second_title: Aspose.Sildes .NET API 參考
+second_title: Aspose.Sildes for .NET API 參考
 description: 表示 FrameTick./presentationplayer/frametick 事件的框架滴答處理程序。
 type: docs
 weight: 4400

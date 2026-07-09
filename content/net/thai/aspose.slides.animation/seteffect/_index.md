@@ -1,6 +1,6 @@
 ---
 title: SetEffect
-second_title: Aspose.Sildes สำหรับอ้างอิง API ของ .NET
+second_title: Aspose.Sildes สำหรับ .NET API Reference
 description: แสดงถึงเอฟเฟกต์ชุดสำหรับพฤติกรรมการเคลื่อนไหว.
 type: docs
 weight: 810
@@ -25,10 +25,10 @@ public class SetEffect : Behavior, ISetEffect
 | ชื่อ | คำอธิบาย |
 | --- | --- |
 | [Accumulate](../../aspose.slides.animation/behavior/accumulate) { get; set; } | แสดงว่าพฤติกรรมการเคลื่อนไหวถูกสะสมหรือไม่. อ่าน/เขียน [`NullableBool`](../../aspose.slides/nullablebool). |
-| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | แสดงว่าพฤติกรรมการเคลื่อนไหวปัจจุบันถูกรวมกับการเคลื่อนไหวอื่นที่กำลังทำงานอยู่หรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
+| [Additive](../../aspose.slides.animation/behavior/additive) { get; set; } | แสดงว่าพฤติกรรมการเคลื่อนไหวดังกล่าวถูกรวมกับการเคลื่อนไหวอื่นที่กำลังทำงานหรือไม่. อ่าน/เขียน [`BehaviorAdditiveType`](../behavioradditivetype). |
 | [Properties](../../aspose.slides.animation/behavior/properties) { get; } | แสดงคุณสมบัติของพฤติกรรม. อ่านอย่างเดียว [`IBehaviorPropertyCollection`](../ibehaviorpropertycollection). |
-| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงคุณสมบัติเวลา สำหรับพฤติกรรมเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
-| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | ระบุแอตทริบิวต์บางอย่างของเอฟเฟกต์หลังจากการเคลื่อนไหว. แสดงค่าจุด. เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
+| [Timing](../../aspose.slides.animation/behavior/timing) { get; set; } | แสดงคุณสมบัติเวลาสำหรับพฤติกรรมเอฟเฟกต์. อ่าน/เขียน [`ITiming`](../itiming). |
+| [To](../../aspose.slides.animation/seteffect/to) { get; set; } | ระบุแอตทริบิวต์เฉพาะของเอฟเฟกต์หลังจากผลการเคลื่อนไหว. แสดงค่าเป็นจุด. เฉพาะ: bool, ColorFormat, float, int, string. อ่าน/เขียน Object. |
 
 ### ดูเพิ่มเติม
 

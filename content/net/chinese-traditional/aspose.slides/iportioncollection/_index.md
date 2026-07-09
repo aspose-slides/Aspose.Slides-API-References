@@ -1,14 +1,14 @@
 ---
 title: IPortionCollection
-second_title: Aspose.Sildes for .NET API 參考
-description: 表示一個 Portion 的集合。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 表示 Portion 的集合。
 type: docs
 weight: 6710
 url: /zh-hant/aspose.slides/iportioncollection/
 ---
 ## IPortionCollection 介面
 
-表示一個 Portion 的集合。
+表示 Portion 的集合。
 
 ```csharp
 public interface IPortionCollection : IEnumerable<IPortion>
@@ -19,7 +19,7 @@ public interface IPortionCollection : IEnumerable<IPortion>
 | 名稱 | 說明 |
 | --- | --- |
 | [AsIEnumerable](../../aspose.slides/iportioncollection/asienumerable) { get; } | 傳回 IEnumerable 介面。唯讀 IEnumerable。 |
-| [Count](../../aspose.slides/iportioncollection/count) { get; } | 取得集合實際包含的元素數目。唯讀 Int32。 |
+| [Count](../../aspose.slides/iportioncollection/count) { get; } | 取得集合實際包含的元素數量。唯讀 Int32。 |
 | [Item](../../aspose.slides/iportioncollection/item) { get; } | 取得指定索引處的元素。 |
 
 ## 方法

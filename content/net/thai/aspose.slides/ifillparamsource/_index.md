@@ -1,14 +1,14 @@
 ---
 title: IFillParamSource
-second_title: Aspose.Sildes สำหรับการอ้างอิง API ของ .NET
-description: อินเทอร์เฟซพารามิเตอร์การเติมเสริม.
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: อินเทอร์เฟซของพารามิเตอร์การเติมเสริม.
 type: docs
 weight: 5810
 url: /th/aspose.slides/ifillparamsource/
 ---
 ## IFillParamSource อินเทอร์เฟซ
 
-อินเทอร์เฟซพารามิเตอร์การเติมเสริม.
+อินเทอร์เฟซของพารามิเตอร์การเติมเสริม.
 
 ```csharp
 public interface IFillParamSource

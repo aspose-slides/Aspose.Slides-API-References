@@ -1,14 +1,14 @@
 ---
 title: MathPortion
 second_title: Aspose.Sildes för .NET API-referens
-description: Representerar en portion med matematiskt sammanhang inuti.
+description: Representerar en del med matematisk kontext inuti.
 type: docs
-weight: 8910
+weight: 8930
 url: /sv/aspose.slides.mathtext/mathportion/
 ---
 ## MathPortion klass
 
-Representerar en portion med matematiskt sammanhang inuti.
+Representerar en del med matematisk kontext inuti.
 
 ```csharp
 public sealed class MathPortion : Portion, IMathPortion
@@ -24,20 +24,20 @@ public sealed class MathPortion : Portion, IMathPortion
 
 | Namn | Beskrivning |
 | --- | --- |
-| [Field](../../aspose.slides/portion/field) { get; } | Returnerar ett fält i denna portion. Read-only [`IField`](../../aspose.slides/ifield). |
-| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Matematisk stycke |
-| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Returnerar ett formateringsobjekt som innehåller explicit angivna formateringsegenskaper för textportionen utan ärftlighet tillämpad. Read-only [`IPortionFormat`](../../aspose.slides/iportionformat). |
-| [Text](../../aspose.slides/portion/text) { get; set; } | Hämtar eller anger vanlig text för en portion. Read/write String. |
+| [Field](../../aspose.slides/portion/field) { get; } | Returnerar ett fält för den här delen. Skrivskyddad [`IField`](../../aspose.slides/ifield). |
+| [MathParagraph](../../aspose.slides.mathtext/mathportion/mathparagraph) { get; } | Matematisk paragraf |
+| [PortionFormat](../../aspose.slides/portion/portionformat) { get; } | Returnerar ett formateringsobjekt som innehåller explicit inställda formateringsinställningar för textdelen utan ärvda värden. Skrivskyddad [`IPortionFormat`](../../aspose.slides/iportionformat). |
+| [Text](../../aspose.slides/portion/text) { get; set; } | Hämtar eller anger den rena texten för en del. Läs/skriv String. |
 
 ## Metoder
 
 | Namn | Beskrivning |
 | --- | --- |
-| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Konverterar denna portion till ett automatiskt uppdaterat fält. |
-| [AddField](../../aspose.slides/portion/addfield)(string) | Konverterar denna portion till ett automatiskt uppdaterat fält. |
-| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Hämtar koordinaterna för början av portionen. X-koordinaten för punkten representerar portionens början från det första tecknet inklusive vänster sidobäring. Y-koordinaten inkluderar övre sidobäring. |
-| [GetRect](../../aspose.slides/portion/getrect)() | Hämtar koordinaterna för rektangeln som omger portionen. Rektangeln inkluderar alla textrader i portionen, inklusive tomma. |
-| [RemoveField](../../aspose.slides/portion/removefield)() | Konverterar detta fältavsnitt till ett enkelt avsnitt. |
+| [AddField](../../aspose.slides/portion/addfield)(IFieldType) | Konverterar denna del till det automatiskt uppdaterade fältet. |
+| [AddField](../../aspose.slides/portion/addfield)(string) | Konverterar denna del till det automatiskt uppdaterade fältet. |
+| [GetCoordinates](../../aspose.slides/portion/getcoordinates)() | Hämtar koordinaterna för början av delen. X-koordinaten för punkten representerar delens början från det första tecknet inklusive vänster sidbäring. Y-koordinaten inkluderar övre sidbäring. |
+| [GetRect](../../aspose.slides/portion/getrect)() | Hämtar koordinaterna för den rektangel som begränsar delen. Rektangeln inkluderar alla textrader i delen, även tomma. |
+| [RemoveField](../../aspose.slides/portion/removefield)() | Konverterar denna fältdel till en enkel del. |
 
 ### Exempel
 

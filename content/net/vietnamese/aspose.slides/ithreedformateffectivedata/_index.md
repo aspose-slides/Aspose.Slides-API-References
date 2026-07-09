@@ -1,6 +1,6 @@
 ---
 title: IThreeDFormatEffectiveData
-second_title: Aspose.Sildes cho Tham chiếu API .NET
+second_title: Tham khảo API Aspose.Sildes cho .NET
 description: Đối tượng bất biến đại diện cho các thuộc tính định dạng 3-D hiệu quả.
 type: docs
 weight: 7340
@@ -8,7 +8,7 @@ url: /vi/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData giao diện
 
-Đối tượng bất biến đại diện cho các thuộc tính định dạng 3-D hiệu quả.
+Immutable object which represents effective 3-D formatting properties.
 
 ```csharp
 public interface IThreeDFormatEffectiveData : IThreeDParamSource
@@ -18,21 +18,21 @@ public interface IThreeDFormatEffectiveData : IThreeDParamSource
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Cho phép lấy giao diện cơ sở IThreeDParamSource. Chỉ đọc [`IThreeDParamSource`](../ithreedparamsource). |
-| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Trả về kiểu của bevel 3D dưới. Chỉ đọc [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
-| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Trả về kiểu của bevel 3D trên. Chỉ đọc [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [AsIThreeDParamSource](../../aspose.slides/ithreedformateffectivedata/asithreedparamsource) { get; } | Cho phép lấy giao diện IThreeDParamSource cơ sở. Chỉ đọc [`IThreeDParamSource`](../ithreedparamsource). |
+| [BevelBottom](../../aspose.slides/ithreedformateffectivedata/bevelbottom) { get; } | Trả về loại của góc chạm 3D dưới. Chỉ đọc [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
+| [BevelTop](../../aspose.slides/ithreedformateffectivedata/beveltop) { get; } | Trả về loại của góc chạm 3D trên. Chỉ đọc [`IShapeBevelEffectiveData`](../ishapebeveleffectivedata). |
 | [Camera](../../aspose.slides/ithreedformateffectivedata/camera) { get; } | Trả về cài đặt của máy ảnh. Chỉ đọc [`ICameraEffectiveData`](../icameraeffectivedata). |
-| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Trả về màu của đường viền. Chỉ đọc Color. |
-| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Trả về độ rộng của đường viền 3D. Chỉ đọc Double. |
+| [ContourColor](../../aspose.slides/ithreedformateffectivedata/contourcolor) { get; } | Trả về màu của viền. Chỉ đọc Color. |
+| [ContourWidth](../../aspose.slides/ithreedformateffectivedata/contourwidth) { get; } | Trả về độ rộng của viền 3D. Chỉ đọc Double. |
 | [Depth](../../aspose.slides/ithreedformateffectivedata/depth) { get; } | Trả về độ sâu của hình 3D. Chỉ đọc Double. |
-| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Trả về màu của hiệu ứng đùn. Chỉ đọc Color. |
+| [ExtrusionColor](../../aspose.slides/ithreedformateffectivedata/extrusioncolor) { get; } | Trả về màu của phần đùn. Chỉ đọc Color. |
 | [ExtrusionHeight](../../aspose.slides/ithreedformateffectivedata/extrusionheight) { get; } | Trả về chiều cao của hiệu ứng đùn. Chỉ đọc Double. |
-| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Trả về kiểu của ánh sáng. Chỉ đọc [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
-| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Trả về kiểu của vật liệu. Chỉ đọc [`MaterialPresetType`](../materialpresettype). |
+| [LightRig](../../aspose.slides/ithreedformateffectivedata/lightrig) { get; } | Trả về loại của ánh sáng. Chỉ đọc [`ILightRigEffectiveData`](../ilightrigeffectivedata). |
+| [Material](../../aspose.slides/ithreedformateffectivedata/material) { get; } | Trả về loại của vật liệu. Chỉ đọc [`MaterialPresetType`](../materialpresettype). |
 
 ### Ghi chú
 
-Giao diện này được sử dụng cùng với giao diện [`IThreeDFormat`](../ithreedformat) để trả về các giá trị định dạng hiệu quả với kế thừa đã được áp dụng.
+Giao diện này được sử dụng cùng với giao diện [`IThreeDFormat`](../ithreedformat) để trả về các giá trị định dạng hiệu quả với kế thừa được áp dụng.
 
 ### Xem thêm
 

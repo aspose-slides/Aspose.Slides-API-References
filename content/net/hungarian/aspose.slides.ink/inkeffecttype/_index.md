@@ -1,14 +1,14 @@
 ---
 title: InkEffectType
-second_title: Aspose.Sildes .NET API Referencia
-description: Előre definiált vizuális effektusok halmazát adja meg a tinta megjelenítéséhez. Minden effektus egy textúrához vagy képhez illeszkedik, amely szimulál egy stilizált tinta megjelenést. Ezeket az értékeket a digitális tinta vonalak megjelenítésének vizuális stílusának testreszabására lehet használni.
+second_title: Aspose.Sildes .NET API referencia
+description: Meghatároz egy előre definiált vizuális hatások halmazát a tinta megjelenítéséhez. Minden hatás egy textúrára vagy képre vonatkozik, amely sztylizált tinta megjelenést szimulál. Ezek az értékek használhatók a digitális tintavonalak vizuális stílusának testreszabására a megjelenítés során.
 type: docs
-weight: 7560
+weight: 7580
 url: /hu/aspose.slides.ink/inkeffecttype/
 ---
 ## InkEffectType enumeráció
 
-Előre definiált vizuális effektusok halmazát adja meg a tinta megjelenítéséhez. Minden effektus egy textúrához vagy képhez illeszkedik, amely szimulál egy stilizált tinta megjelenést. Ezeket az értékeket a digitális tinta vonalak megjelenítésének vizuális stílusának testreszabására lehet használni.
+Meghatároz egy előre definiált vizuális hatások halmazát a tinta megjelenítéséhez. Minden hatás egy textúrára vagy képre vonatkozik, amely sztylizált tinta megjelenést szimulál. Ezek az értékek használhatók a digitális tintavonalak vizuális stílusának testreszabására a megjelenítés során.
 
 ```csharp
 public enum InkEffectType
@@ -18,14 +18,14 @@ public enum InkEffectType
 
 | Név | Érték | Leírás |
 | --- | --- | --- |
-| NotDefined | `-1` | Az effektus nincs definiálva vagy ismeretlen. Ez az érték használható alapértelmezettként vagy tartalék értékként. |
-| Bronze | `0` | Meleg, barnás fémes textúra, amely a bronz tintához hasonlít. |
-| Galaxy | `1` | Színes, csillogó textúra, amely egy galaxisra hasonlít, kozmikus árnyalatokkal. |
-| Gold | `2` | Fényes, fémes arany textúra, amely a tinta vonalainak luxus megjelenést kölcsönöz. |
-| Lava | `3` | Tűzies textúra, amely a folyékony lávára hasonlít, piros és narancssárga árnyalatokkal. |
-| Ocean | `4` | Mélykék, folyadékszerű textúra, amely az óceán hullámait vagy vízalapú tintát utánozza. |
-| RainbowGlitter | `5` | Színes, csillogó szivárvány csillámpor hatás, amelyet ünnepi vagy élénk tinta vonalakhoz használnak. |
-| RoseGold | `6` | Puha rózsaszín-arany keverék, amely a rózsaaranyra hasonlít, elegáns tinta vonalakhoz. |
+| NotDefined | `-1` | A hatás nincs definiálva vagy ismeretlen. Ez az érték használható alapértelmezettként vagy tartalékként. |
+| Bronze | `0` | Meleg, barna árnyalatú fémes textúra, amely a bronz tintára emlékeztet. |
+| Galaxy | `1` | Színes, csillogó textúra, amely a galaxisra emlékeztet, kozmikus színekkel. |
+| Gold | `2` | Fényes, fémes arany textúra, amely a tollvonásnak luxus megjelenést kölcsönöz. |
+| Lava | `3` | Lángoló textúra, amely a forró lávára hasonlít, piros és narancssárga árnyalatokkal. |
+| Ocean | `4` | Mély kék, folyadékszerű textúra, amely az óceán hullámait vagy vízalapú tintát idézi. |
+| RainbowGlitter | `5` | Színes, csillogó szivárvány glitter hatás, amelyet ünnepi vagy élénk tollvonásokhoz használnak. |
+| RoseGold | `6` | Puha rózsaszín-arany keverék, amely a rózsaaranyhoz hasonlít, elegáns tollvonásokhoz. |
 | Silver | `7` | Hideg, fémes ezüst textúra, amely a klasszikus ezüst tintát szimulálja. |
 
 ### Lásd még

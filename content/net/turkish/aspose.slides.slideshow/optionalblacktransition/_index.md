@@ -1,9 +1,9 @@
 ---
 title: OptionalBlackTransition
-second_title: Aspose.Sildes .NET API Referansı
+second_title: Aspose.Sildes için .NET API Referansı
 description: İsteğe bağlı siyah slayt geçiş efekti.
 type: docs
-weight: 10240
+weight: 10260
 url: /tr/aspose.slides.slideshow/optionalblacktransition/
 ---
 ## OptionalBlackTransition sınıfı
@@ -18,16 +18,16 @@ public class OptionalBlackTransition : TransitionValueBase, IOptionalBlackTransi
 
 | Ad | Açıklama |
 | --- | --- |
-| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Bu öznitelik, geçişin siyah bir ekrandan başlayıp (ve ardından yeni slaytı siyah üzerinden geçiş yaparak) başlayıp başlamayacağını belirtir. Okuma/yazma Boolean. |
+| [FromBlack](../../aspose.slides.slideshow/optionalblacktransition/fromblack) { get; set; } | Bu öznitelik geçişin siyah bir ekrandan başlayıp (ve ardından yeni slaytı siyah üzerinden geçiş yapacağını) belirler. Okunur/yazılabilir Boolean. |
 
-## Metodlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | override [Equals](../../aspose.slides.slideshow/transitionvaluebase/equals)(object) | İki TransitionValueBase örneğinin eşit olup olmadığını belirler. |
-| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tip için hash işlevi olarak hizmet eder; hash algoritmaları ve hash tablosu gibi veri yapılarında kullanılmaya uygundur. |
+| override [GetHashCode](../../aspose.slides.slideshow/transitionvaluebase/gethashcode)() | Belirli bir tür için hash işlevi olarak hizmet eder, hash tabloları gibi hash algoritmaları ve veri yapılarına uygun. |
 
-### İlgili
+### Ayrıca Bakınız
 
 * sınıf [TransitionValueBase](../transitionvaluebase)
 * arayüz [IOptionalBlackTransition](../ioptionalblacktransition)

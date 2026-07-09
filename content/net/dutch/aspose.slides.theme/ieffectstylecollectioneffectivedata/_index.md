@@ -1,14 +1,14 @@
 ---
 title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Onveranderlijk object dat een readonly collectie van effectieve effectstijlen vertegenwoordigt.
+description: Onveranderlijk object dat een alleen-lezen collectie van effectieve effectstijlen vertegenwoordigt.
 type: docs
 weight: 11190
 url: /nl/aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
 ## IEffectStyleCollectionEffectiveData interface
 
-Onveranderlijk object dat een readonly collectie van effectieve effectstijlen vertegenwoordigt.
+Onveranderlijk object dat een alleen-lezen collectie van effectieve effectstijlen vertegenwoordigt.
 
 ```csharp
 public interface IEffectStyleCollectionEffectiveData : IGenericCollection<IEffectStyleEffectiveData>

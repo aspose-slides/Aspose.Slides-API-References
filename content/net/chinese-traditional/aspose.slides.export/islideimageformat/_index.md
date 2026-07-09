@@ -1,14 +1,14 @@
 ---
 title: ISlideImageFormat
-second_title: Aspose.Sildes for .NET API 參考
-description: 確定投影片影像在匯出為 HTML 時的儲存格式。
+second_title: Aspose.Sildes for .NET API 參考文件
+description: 確定投影片影像在匯出為 HTML 呈現時的儲存格式。
 type: docs
 weight: 4090
 url: /zh-hant/aspose.slides.export/islideimageformat/
 ---
 ## ISlideImageFormat 介面
 
-確定投影片影像在匯出為 HTML 時的儲存格式。
+決定在將簡報匯出為 HTML 時，用於儲存投影片影像的格式。
 
 ```csharp
 public interface ISlideImageFormat

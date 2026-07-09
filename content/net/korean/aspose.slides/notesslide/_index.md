@@ -1,7 +1,7 @@
 ---
 title: NotesSlide
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 프레젠테이션에서 노트 슬라이드를 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 프레젠테이션의 노트 슬라이드를 나타냅니다.
 type: docs
 weight: 9140
 url: /ko/aspose.slides/notesslide/
@@ -27,22 +27,22 @@ public class NotesSlide : BaseSlide, INotesSlide
 | [NotesTextFrame](../../aspose.slides/notesslide/notestextframe) { get; } | 노트 텍스트가 있는 경우 TextFrame을 반환합니다. 읽기 전용 [`ITextFrame`](../itextframe). |
 | [ParentSlide](../../aspose.slides/notesslide/parentslide) { get; } | 부모 슬라이드를 반환합니다. 읽기 전용 [`ISlide`](../islide). |
 | [Presentation](../../aspose.slides/baseslide/presentation) { get; } | IPresentation 인터페이스를 반환합니다. 읽기 전용 [`IPresentation`](../ipresentation). |
-| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 슬라이드의 도형을 반환합니다. 읽기 전용 [`IShapeCollection`](../ishapecollection). |
-| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | 마스터 슬라이드의 도형을 슬라이드에 표시할지 여부를 지정합니다. 읽기/쓰기 Boolean. |
+| [Shapes](../../aspose.slides/baseslide/shapes) { get; } | 슬라이드의 모양을 반환합니다. 읽기 전용 [`IShapeCollection`](../ishapecollection). |
+| override [ShowMasterShapes](../../aspose.slides/notesslide/showmastershapes) { get; set; } | 마스터 슬라이드의 모양을 슬라이드에 표시할지 여부를 지정합니다. 읽기/쓰기 Boolean. |
 | [SlideId](../../aspose.slides/baseslide/slideid) { get; } | 슬라이드의 ID를 반환합니다. 읽기 전용 UInt32. |
-| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 지정된 슬라이드가 슬라이드 쇼 중 어떻게 진행되는지에 대한 정보를 포함하는 Transition 객체를 반환합니다. 읽기 전용 [`ISlideShowTransition`](../islideshowtransition). |
-| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | 오버라이딩 테마 관리자를 반환합니다. 읽기 전용 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
+| virtual [SlideShowTransition](../../aspose.slides/baseslide/slideshowtransition) { get; } | 슬라이드 쇼 중에 지정된 슬라이드가 어떻게 진행되는지에 대한 정보를 포함하는 Transition 객체를 반환합니다. 읽기 전용 [`ISlideShowTransition`](../islideshowtransition). |
+| [ThemeManager](../../aspose.slides/notesslide/thememanager) { get; } | 오버라이드 테마 관리자를 반환합니다. 읽기 전용 [`IOverrideThemeManager`](../../aspose.slides.theme/ioverridethememanager). |
 | [Timeline](../../aspose.slides/baseslide/timeline) { get; } | 애니메이션 타임라인 객체를 반환합니다. 읽기 전용 [`IAnimationTimeLine`](../ianimationtimeline). |
 
 ## 메서드
 
 | Name | Description |
 | --- | --- |
-| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 이 슬라이드에 대한 효과적인 테마를 반환합니다. |
-| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 두 IBaseSlide 인스턴스가 같은지 여부를 결정합니다. 반환값은 슬라이드의 구조와 정적 콘텐츠를 기반으로 계산됩니다. 모든 도형, 스타일, 텍스트, 애니메이션 및 기타 설정 등이 동일하면 두 슬라이드는 동일합니다. 비교에서는 SlideId와 같은 고유 식별자 값 및 Date Placeholder의 현재 날짜 값과 같은 동적 콘텐츠는 고려되지 않습니다. |
-| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 지정된 대체 텍스트를 가진 도형을 처음 찾습니다. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 모든 허용 가능한 도형의 모든 단락에서 같은 서식을 가진 실행을 결합합니다. |
-| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 모든 허용 가능한 도형의 모든 단락에서 같은 서식을 가진 실행을 결합합니다. |
+| [CreateThemeEffective](../../aspose.slides/baseslide/createthemeeffective)() | 이 슬라이드에 대한 유효한 테마를 반환합니다. |
+| [Equals](../../aspose.slides/baseslide/equals)(IBaseSlide) | 두 IBaseSlide 인스턴스가 동일한지 판단합니다. 반환 값은 슬라이드의 구조와 정적 콘텐츠를 기반으로 계산됩니다. 모든 모양, 스타일, 텍스트, 애니메이션 및 기타 설정 등이 동일하면 두 슬라이드는 동일합니다. 비교에서는 SlideId와 같은 고유 식별자 값이나 Date Placeholder의 현재 날짜 값과 같은 동적 콘텐츠는 고려되지 않습니다. |
+| [FindShapeByAltText](../../aspose.slides/baseslide/findshapebyalttext)(string) | 지정된 대체 텍스트를 가진 모양을 처음으로 찾습니다. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)() | 모든 허용 가능한 모양의 모든 단락에서 동일한 서식이 있는 런을 합칩니다. |
+| virtual [JoinPortionsWithSameFormatting](../../aspose.slides/baseslide/joinportionswithsameformatting)(IShapeCollection) | 모든 허용 가능한 모양의 모든 단락에서 동일한 서식이 있는 런을 합칩니다. |
 
 ### 참조
 

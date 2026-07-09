@@ -19,8 +19,8 @@ public class InvalidPasswordException : Exception
 | Tên | Mô tả |
 | --- | --- |
 | [InvalidPasswordException](invalidpasswordexception#constructor)() | Hàm khởi tạo mặc định. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông điệp vào ngoại lệ này. |
-| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông điệp và một ngoại lệ được nhúng. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_1)(string) | Hàm khởi tạo cho phép thêm một thông báo vào ngoại lệ này. |
+| [InvalidPasswordException](invalidpasswordexception#constructor_2)(string, Exception) | Hàm khởi tạo cho một ngoại lệ chứa thông báo và một ngoại lệ được nhúng. |
 
 ### Xem thêm
 

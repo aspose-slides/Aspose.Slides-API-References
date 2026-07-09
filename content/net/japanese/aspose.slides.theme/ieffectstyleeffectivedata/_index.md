@@ -3,12 +3,12 @@ title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes for .NET API リファレンス
 description: 有効なエフェクトスタイル プロパティを含む不変オブジェクトです。
 type: docs
-weight: 11180
+weight: 11200
 url: /ja/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData インターフェイス
 
-有効なエフェクトスタイル プロパティを含む不変オブジェクトです。
+有効なエフェクトスタイルプロパティを含む不変オブジェクトです。
 
 ```csharp
 public interface IEffectStyleEffectiveData
@@ -18,14 +18,14 @@ public interface IEffectStyleEffectiveData
 
 | 名前 | 説明 |
 | --- | --- |
-| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | エフェクト フォーマットを返します。読み取り専用 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
+| [EffectFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/effectformat) { get; } | 効果フォーマットを返します。読み取り専用 [`IEffectFormatEffectiveData`](../../aspose.slides/ieffectformateffectivedata)。 |
 | [ThreeDFormat](../../aspose.slides.theme/ieffectstyleeffectivedata/threedformat) { get; } | 3D フォーマットを返します。読み取り専用 [`IThreeDFormatEffectiveData`](../../aspose.slides/ithreedformateffectivedata)。 |
 
 ### 備考
 
 このインターフェイスは [`IEffectStyleCollectionEffectiveData`](../ieffectstylecollectioneffectivedata) の一部として使用されます。
 
-### 関連項目
+### 参照
 
 * 名前空間 [Aspose.Slides.Theme](../../aspose.slides.theme)
 * アセンブリ [Aspose.Slides](../../)

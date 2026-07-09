@@ -1,9 +1,9 @@
 ---
 title: ChartDataWorkbook
-second_title: Aspose.Sildes dla .NET – dokumentacja API
+second_title: Aspose.Sildes dla .NET – odniesienie API
 description: Umożliwia dostęp do osadzonego skoroszytu Excel
 type: docs
-weight: 1360
+weight: 1380
 url: /pl/aspose.slides.charts/chartdataworkbook/
 ---
 ## ChartDataWorkbook klasa
@@ -18,19 +18,19 @@ public class ChartDataWorkbook : DomObject<ChartData>, IChartDataWorkbook
 
 | Nazwa | Opis |
 | --- | --- |
-| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Zwraca kolekcję arkuszy kalkulacyjnych. |
+| [Worksheets](../../aspose.slides.charts/chartdataworkbook/worksheets) { get; } | Zwraca kolekcję arkuszy. |
 
 ## Metody
 
 | Nazwa | Opis |
 | --- | --- |
-| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Oblicza wszystkie formuły w skoroszycie i aktualizuje odpowiadające im wartości komórek. |
+| [CalculateFormulas](../../aspose.slides.charts/chartdataworkbook/calculateformulas)() | Oblicza wszystkie formuły w skoroszycie i aktualizuje wartości odpowiednich komórek. |
 | [Clear](../../aspose.slides.charts/chartdataworkbook/clear)(int) | Czyści wszystkie wartości komórek w arkuszu |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
-| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Zwraca komórkę, którą można użyć dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_2)(int, string) | Zwraca komórkę, którą można wykorzystać dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell)(int, int, int) | Zwraca komórkę, którą można wykorzystać dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_3)(int, string, object) | Zwraca komórkę, którą można wykorzystać dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_4)(string, int, int) | Zwraca komórkę, którą można wykorzystać dla serii wykresu lub kategorii |
+| [GetCell](../../aspose.slides.charts/chartdataworkbook/getcell#getcell_1)(int, int, int, object) | Zwraca komórkę, którą można wykorzystać dla serii wykresu lub kategorii |
 | [GetCellCollection](../../aspose.slides.charts/chartdataworkbook/getcellcollection)(string, bool) | Zwraca zestaw komórek. |
 
 ### Zobacz także

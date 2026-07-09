@@ -1,25 +1,25 @@
 ---
 title: MathHorizontalAlignment
-second_title: Aspose.Sildes برای .NET مرجع API
-description: تراز افقی
+second_title: Aspose.Sildes برای مرجع API .NET
+description: چینش افقی
 type: docs
 weight: 8780
 url: /fa/aspose.slides.mathtext/mathhorizontalalignment/
 ---
 ## MathHorizontalAlignment شمارش
 
-تراز افقی
+چینش افقی
 
 ```csharp
 public enum MathHorizontalAlignment
 ```
 
-### مقادیر
+### مقدارها
 
-| نام | مقدار | توضیح |
+| Name | Value | Description |
 | --- | --- | --- |
 | NotDefined | `0` | مقدار تعریف نشده است |
-| Left | `1` | چپ |
+| Left | `1` | تراز چپ |
 | Center | `2` | وسط |
 | Right | `3` | راست |
 

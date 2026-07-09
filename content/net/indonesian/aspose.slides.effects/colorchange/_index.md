@@ -1,33 +1,33 @@
 ---
 title: ColorChange
 second_title: Aspose.Sildes untuk Referensi API .NET
-description: Mewakili efek Perubahan Warna. Instance FromColor digantikan dengan instance ToColor.
+description: Mewakili efek Color Change. Instance FromColor digantikan dengan instance ToColor.
 type: docs
-weight: 2920
+weight: 2940
 url: /id/aspose.slides.effects/colorchange/
 ---
-## ColorChange kelas
+## ColorChange class
 
-Mewakili efek Perubahan Warna. Instance FromColor digantikan dengan instance ToColor.
+Mewakili efek Color Change. Instance FromColor digantikan dengan instance ToColor.
 
 ```csharp
 public sealed class ColorChange : ImageTransformOperation, IColorChange
 ```
 
-## Properti
+## Properties
 
 | Nama | Deskripsi |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Memungkinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
-| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Warna yang akan diganti. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar IPresentationComponent. Hanya-baca [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [FromColor](../../aspose.slides.effects/colorchange/fromcolor) { get; } | Warna yang akan digantikan. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [ToColor](../../aspose.slides.effects/colorchange/tocolor) { get; } | Warna yang akan menggantikan. Hanya-baca [`IColorFormat`](../../aspose.slides/icolorformat). |
 
-## Metode
+## Methods
 
 | Nama | Deskripsi |
 | --- | --- |
 | override [Equals](../../aspose.slides.effects/colorchange/equals)(object) | Menentukan apakah [`ColorChange`](../colorchange) yang ditentukan sama dengan [`ColorChange`](../colorchange) saat ini. |
-| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Mendapatkan data efek Perubahan Warna yang efektif dengan pewarisan diterapkan. |
+| [GetEffective](../../aspose.slides.effects/colorchange/geteffective)() | Mendapatkan data efek Color Change yang efektif dengan pewarisan yang diterapkan. |
 | override [GetHashCode](../../aspose.slides.effects/colorchange/gethashcode)() | Berfungsi sebagai fungsi hash untuk tipe tertentu. |
 
 ### Lihat Juga

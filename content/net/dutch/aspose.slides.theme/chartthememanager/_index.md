@@ -1,14 +1,14 @@
 ---
 title: ChartThemeManager
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Biedt toegang tot een overschreven grafiekthema.
+description: Biedt toegang tot het overschreven chartthema.
 type: docs
 weight: 11060
 url: /nl/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager klasse
 
-Biedt toegang tot een overschreven grafiekthema.
+Biedt toegang tot het aangepaste chart-thema.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -16,17 +16,17 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft al dan niet. Om OverrideTheme in te schakelen voor overschrijven, gebruik de OverrideTheme.Init*()-methoden. Om OverrideTheme uit te schakelen voor overschrijven, gebruik de OverrideTheme.Clear()-methode. Alleen-lezen Boolean. |
-| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Geeft het overschrijf-thema-object terug. Lezen/schrijven [`IOverrideTheme`](../ioverridetheme). |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | Bepaalt of OverrideTheme het geërfde effectieve thema overschrijft of niet. Om OverrideTheme voor overschrijven in te schakelen, gebruik de OverrideTheme.Init*()-methoden. Om OverrideTheme van overschrijven uit te schakelen, gebruik de OverrideTheme.Clear()-methode. Alleen-lezen Boolean. |
+| [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | Retourneert het overschrijf-thema-object. Lezen/Schrijven [`IOverrideTheme`](../ioverridetheme). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past extra kleurenpalet toe op een dia. |
-| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Geeft het thema-object terug. |
+| [ApplyColorScheme](../../aspose.slides.theme/baseoverridethememanager/applycolorscheme)(IExtraColorScheme) | Past een extra kleurschema toe op een dia. |
+| [CreateThemeEffective](../../aspose.slides.theme/baseoverridethememanager/createthemeeffective)() | Retourneert het themobject. |
 
 ### Zie ook
 

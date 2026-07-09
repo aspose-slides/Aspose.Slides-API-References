@@ -1,14 +1,14 @@
 ---
 title: ImageWrapper
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Bọc System.Drawing.Image cho giao diện COM.
+second_title: Tham khảo API Aspose.Sildes cho .NET
+description: Lớp wrapper System.Drawing.Image cho giao diện COM.
 type: docs
 weight: 7440
 url: /vi/aspose.slides/imagewrapper/
 ---
 ## ImageWrapper lớp
 
-System.Drawing.Image wrapper cho giao diện COM.
+System.Drawing.Image wrapper for COM interface.
 
 ```csharp
 public class ImageWrapper : IImageWrapper
@@ -27,8 +27,8 @@ public class ImageWrapper : IImageWrapper
 | --- | --- |
 | [Dispose](../../aspose.slides/imagewrapper/dispose)() | Giải phóng ImageWrapper |
 | [Save](../../aspose.slides/imagewrapper/save#save_1)(string) | Lưu Image vào tệp được chỉ định |
-| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Lưu Image vào luồng được chỉ định ở định dạng được chỉ định. |
-| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Lưu Image vào tệp được chỉ định ở định dạng được chỉ định. |
+| [Save](../../aspose.slides/imagewrapper/save#save)(Stream, PPImageFormat) | Lưu Image vào luồng được chỉ định ở định dạng PPImageFormat. |
+| [Save](../../aspose.slides/imagewrapper/save#save_2)(string, PPImageFormat) | Lưu Image vào tệp được chỉ định ở định dạng PPImageFormat. |
 
 ### Xem thêm
 

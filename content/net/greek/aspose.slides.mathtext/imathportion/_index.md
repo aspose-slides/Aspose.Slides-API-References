@@ -1,9 +1,9 @@
 ---
 title: IMathPortion
-second_title: Αναφορά API του Aspose.Sildes για .NET
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Αναπαριστά ένα τμήμα με μαθηματικό περιεχόμενο.
 type: docs
-weight: 8400
+weight: 8420
 url: /el/aspose.slides.mathtext/imathportion/
 ---
 ## IMathPortion διασύνδεση

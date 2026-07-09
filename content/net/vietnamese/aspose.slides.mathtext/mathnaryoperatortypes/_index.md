@@ -1,20 +1,21 @@
 ---
 title: MathNaryOperatorTypes
-second_title: Aspose.Sildes cho Tham khảo API .NET
-description: Các loại Nary operator IMathNaryOperator ngoại trừ tích phân. Đối với tích phân MathIntegralTypes./mathintegraltypes
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Các loại toán tử Nary IMathNaryOperator không bao gồm các tích phân. Đối với các tích phân MathIntegralTypes./mathintegraltypes
 type: docs
 weight: 8890
 url: /vi/aspose.slides.mathtext/mathnaryoperatortypes/
 ---
-## Kiểu liệt kê MathNaryOperatorTypes
+## MathNaryOperatorTypes kiểu liệt kê
 
-Nary operator IMathNaryOperator types (excluding integrals) For integrals [`MathIntegralTypes`](../mathintegraltypes)
+Các loại toán tử Nary IMathNaryOperator (không bao gồm các tích phân)  
+Đối với các tích phân [`MathIntegralTypes`](../mathintegraltypes)
 
 ```csharp
 public enum MathNaryOperatorTypes
 ```
 
-### Các giá trị
+### Giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |

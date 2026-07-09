@@ -1,14 +1,14 @@
 ---
 title: IShapeBevelEffectiveData
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: प्रभावी आकारों की फेस रिलीफ़ विशेषताओं को सम्मिलित करने वाला अपरिवर्तनीय ऑब्जेक्ट।
+second_title: Aspose.Sildes .NET के लिए API संदर्भ
+description: एक अपरिवर्तनीय वस्तु जो प्रभावी आकारों की फेस रिलीफ़ प्रॉपर्टी को सम्मिलित करती है।
 type: docs
 weight: 6970
 url: /hi/aspose.slides/ishapebeveleffectivedata/
 ---
 ## IShapeBevelEffectiveData इंटरफ़ेस
 
-एक अपरिवर्तनीय ऑब्जेक्ट जो प्रभावी आकार की फेस रिलीफ़ विशेषताओं को सम्मिलित करता है।
+एक अपरिवर्तनीय वस्तु जो प्रभावी shape की फेस रिलीफ़ प्रॉपर्टी को सम्मिलित करती है।
 
 ```csharp
 public interface IShapeBevelEffectiveData
@@ -18,15 +18,15 @@ public interface IShapeBevelEffectiveData
 
 | नाम | विवरण |
 | --- | --- |
-| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | Bevel प्रकार। केवल-पढ़ने योग्य [`BevelPresetType`](../bevelpresettype)। |
-| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | Bevel ऊँचाई। केवल-पढ़ने योग्य Double। |
-| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | Bevel चौड़ाई। केवल-पढ़ने योग्य Double। |
+| [BevelType](../../aspose.slides/ishapebeveleffectivedata/beveltype) { get; } | बेवेल प्रकार। केवल-पढ़ने योग्य [`BevelPresetType`](../bevelpresettype)। |
+| [Height](../../aspose.slides/ishapebeveleffectivedata/height) { get; } | बेवेल ऊँचाई। केवल-पढ़ने योग्य Double। |
+| [Width](../../aspose.slides/ishapebeveleffectivedata/width) { get; } | बेवेल चौड़ाई। केवल-पढ़ने योग्य Double। |
 
 ### टिप्पणियाँ
 
-यह इंटरफ़ेस [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) का एक हिस्सा के रूप में उपयोग किया जाता है।
+यह इंटरफ़ेस [`IThreeDFormatEffectiveData`](../ithreedformateffectivedata) का एक भाग के रूप में उपयोग किया जाता है।
 
-### देखें
+### संबंधित देखें
 
 * नामस्थान [Aspose.Slides](../../aspose.slides)
 * असेंबली [Aspose.Slides](../../)

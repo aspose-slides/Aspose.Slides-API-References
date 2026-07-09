@@ -1,14 +1,14 @@
 ---
 title: IChartSeriesReadonlyCollection
 second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Mô tả một bộ sưu tập chỉ đọc của IChartSeries./ichartseries
+description: Đại diện cho một bộ sưu tập chỉ đọc của IChartSeries./ichartseries
 type: docs
 weight: 1970
 url: /vi/aspose.slides.charts/ichartseriesreadonlycollection/
 ---
-## Giao diện IChartSeriesReadonlyCollection
+## IChartSeriesReadonlyCollection giao diện
 
-Mô tả một bộ sưu tập chỉ đọc của [`IChartSeries`](../ichartseries)
+Đại diện cho một bộ sưu tập chỉ đọc của [`IChartSeries`](../ichartseries)
 
 ```csharp
 public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSeries>
@@ -18,9 +18,9 @@ public interface IChartSeriesReadonlyCollection : IGenericCollection<IChartSerie
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Lấy phần tử tại vị trí chỉ định. |
+| [Item](../../aspose.slides.charts/ichartseriesreadonlycollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. |
 
-### Xem thêm
+### Xem Thêm
 
 * giao diện [IGenericCollection&lt;T&gt;](../../aspose.slides/igenericcollection-1)
 * giao diện [IChartSeries](../ichartseries)

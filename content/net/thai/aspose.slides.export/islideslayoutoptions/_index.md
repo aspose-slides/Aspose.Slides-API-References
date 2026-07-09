@@ -1,14 +1,14 @@
 ---
 title: ISlidesLayoutOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงโหมดการจัดวางการนำเสนอสำหรับการส่งออก.
+description: แสดงถึงโหมดการจัดเรียงงานนำเสนอสำหรับการส่งออก.
 type: docs
 weight: 4100
 url: /th/aspose.slides.export/islideslayoutoptions/
 ---
 ## ISlidesLayoutOptions อินเทอร์เฟซ
 
-แสดงถึงโหมดการจัดวางการนำเสนอสำหรับการส่งออก.
+แสดงถึงโหมดการจัดเรียงงานนำเสนอสำหรับการส่งออก.
 
 ```csharp
 public interface ISlidesLayoutOptions

@@ -1,14 +1,14 @@
 ---
 title: SvgShape
 second_title: Aspose.Sildes के लिए .NET API संदर्भ
-description: SVG shape के विकल्पों का प्रतिनिधित्व करता है।
+description: SVG आकार के लिए विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 4510
 url: /hi/aspose.slides.export/svgshape/
 ---
 ## SvgShape क्लास
 
-SVG shape के विकल्पों को दर्शाता है।
+SVG आकार के लिए विकल्पों का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class SvgShape : ISvgShape
@@ -16,13 +16,13 @@ public sealed class SvgShape : ISvgShape
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | shape id प्राप्त करता है |
+| [Id](../../aspose.slides.export/svgshape/id) { get; set; } | आकार आईडी प्राप्त करता है |
 
-## विधियाँ
+## विधियां
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
 | [SetEventHandler](../../aspose.slides.export/svgshape/seteventhandler)(SvgEvent, string) | आकार के लिए इवेंट हैंडलर सेट करता है |
 

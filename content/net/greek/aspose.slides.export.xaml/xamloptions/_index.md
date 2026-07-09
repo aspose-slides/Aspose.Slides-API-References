@@ -1,9 +1,9 @@
 ---
 title: XamlOptions
-second_title: Aspose.Sildes για .NET Αναφορά API
+second_title: Aspose.Sildes για .NET API Αναφορά
 description: Επιλογές που ελέγχουν πώς αποθηκεύεται ένα έγγραφο XAML.
 type: docs
-weight: 4700
+weight: 4720
 url: /el/aspose.slides.export.xaml/xamloptions/
 ---
 ## XamlOptions κλάση
@@ -24,13 +24,13 @@ public class XamlOptions : SaveOptions, IXamlOptions
 
 | Όνομα | Περιγραφή |
 | --- | --- |
-| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Ανάγνωση-Εγγραφή String. |
+| [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Επιστρέφει ή ορίζει τη γραμματοσειρά που χρησιμοποιείται σε περίπτωση που η πηγαία γραμματοσειρά δεν βρεθεί. Αναγνώσιμη-εγγράψιμη String. |
 | [ExportHiddenSlides](../../aspose.slides.export.xaml/xamloptions/exporthiddenslides) { get; set; } | Καθορίζει αν οι κρυφές διαφάνειες θα εξαχθούν. |
-| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ της διαβάθμισης. Ανάγνωση/Εγγραφή [`GradientStyle`](../../aspose.slides/gradientstyle). |
-| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Αντιπροσωπεύει μια υλοποίηση της διασύνδεσης IOutputSaver. |
-| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αντιπροσωπεύει ένα αντικείμενο callback για την αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
-| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραληφθούν οι υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Ανάγνωση/Εγγραφή Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
-| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Ανάγνωση/Εγγραφή [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
+| [GradientStyle](../../aspose.slides.export/saveoptions/gradientstyle) { get; set; } | Επιστρέφει ή ορίζει το οπτικό στυλ του gradient. Αναγνώσιμη/εγγράψιμη [`GradientStyle`](../../aspose.slides/gradientstyle). |
+| [OutputSaver](../../aspose.slides.export.xaml/xamloptions/outputsaver) { get; set; } | Αναπαριστά μια υλοποίηση της διασύνδεσης IOutputSaver. |
+| [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Αναπαριστά ένα αντικείμενο callback για την αποθήκευση ενημερώσεων προόδου σε ποσοστό. Δείτε [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
+| [SkipJavaScriptLinks](../../aspose.slides.export/saveoptions/skipjavascriptlinks) { get; set; } | Καθορίζει αν θα παραλειφθούν υπερσυνδέσεις με κλήσεις JavaScript κατά την αποθήκευση της παρουσίασης. Αναγνώσιμη/εγγράψιμη Boolean. Η προεπιλεγμένη τιμή είναι **false**. |
+| [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Επιστρέφει ή ορίζει ένα αντικείμενο που λαμβάνει προειδοποιήσεις και αποφασίζει αν η διαδικασία φόρτωσης θα συνεχιστεί ή θα ματαιωθεί. Αναγνώσιμη/εγγράψιμη [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 
 ### Παραδείγματα
 

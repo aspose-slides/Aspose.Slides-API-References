@@ -1,14 +1,14 @@
 ---
 title: EmbedFontCharacters
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: IPresentation../aspose.slides/ipresentation में नया एम्बेडिंग फ़ॉन्ट जोड़ने के लिए उपयोग किए जाने वाले नियम का प्रतिनिधित्व करता है
+second_title: Aspose.Sildes के लिये .NET API संदर्भ
+description: IPresentation में नया एम्बेडेड फ़ॉन्ट जोड़ने के लिए उपयोग किए जाने वाले नियम को दर्शाता है../aspose.slides/ipresentation
 type: docs
 weight: 3770
 url: /hi/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters एन्यूमरेशन
 
-नए एम्बेडिंग फ़ॉन्ट को [`IPresentation`](../../aspose.slides/ipresentation) में जोड़ने के लिए उपयोग किए जाने वाले नियम का प्रतिनिधित्व करता है।
+प्रस्तुति में नई एम्बेडिंग फ़ॉन्ट जोड़ने के लिए उपयोग किए जाने वाले नियम का प्रतिनिधित्व करता है [`IPresentation`](../../aspose.slides/ipresentation)
 
 ```csharp
 public enum EmbedFontCharacters
@@ -19,9 +19,9 @@ public enum EmbedFontCharacters
 | नाम | मान | विवरण |
 | --- | --- | --- |
 | OnlyUsed | `0` | प्रस्तुति में उपयोग किए गए अक्षरों को ही एम्बेड करें (फ़ाइल आकार घटाने के लिए सबसे अच्छा)। |
-| All | `1` | सभी अक्षरों को एम्बेड करें (दूसरों द्वारा संपादन के लिए सबसे अच्छा)। |
+| All | `1` | सभी अक्षरों को एम्बेड करें (दूसरे लोगों द्वारा संपादन के लिए सबसे अच्छा)। |
 
-### संबंधित देखें
+### देखें भी
 
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)
 * असेंबली [Aspose.Slides](../../)

@@ -1,14 +1,14 @@
 ---
 title: SlideShowType
-second_title: Riferimento API di Aspose.Sildes per .NET
-description: Impostazioni di base della presentazione. Gli antenati rappresentano i tipi della presentazione PresentedBySpeaker./presentedbyspeaker Presentata da un relatore a schermo intero BrowsedByIndividual./browsedbyindividual Consultata da un individuo in finestra BrowsedAtKiosk./browsedatkiosk Consultata in un chiosco a schermo intero
+second_title: Riferimento API Aspose.Sildes per .NET
+description: Impostazioni di base della presentazione. Gli antenati rappresentano i tipi della presentazione PresentedBySpeaker./presentedbyspeaker Presentata da un relatore a schermo intero BrowsedByIndividual./browsedbyindividual Visualizzata da un individuo in finestra BrowsedAtKiosk./browsedatkiosk Visualizzata in kiosk a schermo intero
 type: docs
-weight: 10470
+weight: 10490
 url: /it/aspose.slides/slideshowtype/
 ---
 ## SlideShowType classe
 
-Impostazioni di base della presentazione. Gli antenati rappresentano i tipi della presentazione: [`PresentedBySpeaker`](../presentedbyspeaker) Presentata da un relatore (schermo intero) [`BrowsedByIndividual`](../browsedbyindividual) Consultata da un individuo (finestra) [`BrowsedAtKiosk`](../browsedatkiosk) Consultata in un chiosco (schermo intero)
+Impostazioni di base della presentazione. Gli antenati rappresentano i tipi della presentazione: [`PresentedBySpeaker`](../presentedbyspeaker) Presentata da un relatore (schermo intero) [`BrowsedByIndividual`](../browsedbyindividual) Visualizzata da un individuo (finestra) [`BrowsedAtKiosk`](../browsedatkiosk) Visualizzata in kiosk (schermo intero)
 
 ```csharp
 public abstract class SlideShowType

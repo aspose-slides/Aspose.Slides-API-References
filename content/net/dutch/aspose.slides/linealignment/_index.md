@@ -1,14 +1,14 @@
 ---
 title: LineAlignment
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt het type uitlijning van regels voor.
+description: Geeft het uitlijningstype van de lijnen weer.
 type: docs
 weight: 7720
 url: /nl/aspose.slides/linealignment/
 ---
 ## LineAlignment enumeratie
 
-Stelt het type uitlijning van regels voor.
+Geeft het uitlijningstype van de lijnen weer.
 
 ```csharp
 public enum LineAlignment : sbyte

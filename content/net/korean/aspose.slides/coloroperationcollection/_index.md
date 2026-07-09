@@ -1,14 +1,14 @@
 ---
 title: ColorOperationCollection
-second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 색 변환 연산의 컬렉션을 나타냅니다.
+second_title: Aspose.Sildes for .NET API 참조
+description: 색 변환 작업 컬렉션을 나타냅니다.
 type: docs
 weight: 2540
 url: /ko/aspose.slides/coloroperationcollection/
 ---
 ## ColorOperationCollection 클래스
 
-색 변환 연산의 컬렉션을 나타냅니다.
+색 변환 작업의 컬렉션을 나타냅니다.
 
 ```csharp
 public sealed class ColorOperationCollection : IColorOperationCollection
@@ -18,25 +18,25 @@ public sealed class ColorOperationCollection : IColorOperationCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 컬렉션의 연산 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화(스레드 안전)되는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 지정된 인덱스에 있는 연산을 반환하거나 설정합니다. 읽기/쓰기 [`ColorOperation`](../coloroperation). |
+| [Count](../../aspose.slides/coloroperationcollection/count) { get; } | 컬렉션에 있는 작업 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/coloroperationcollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/coloroperationcollection/item) { get; set; } | 지정된 인덱스에 있는 작업을 반환하거나 설정합니다. 읽기/쓰기 [`ColorOperation`](../coloroperation). |
 | [SyncRoot](../../aspose.slides/coloroperationcollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
 
 | 이름 | 설명 |
 | --- | --- |
-| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | 새 연산을 컬렉션의 끝에 추가합니다. |
-| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | 새 연산을 컬렉션의 끝에 추가합니다. |
-| [Clear](../../aspose.slides/coloroperationcollection/clear)() | 모든 색 연산을 제거합니다. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add)(ColorTransformOperation) | 컬렉션 끝에 새로운 작업을 추가합니다. |
+| [Add](../../aspose.slides/coloroperationcollection/add#add_1)(ColorTransformOperation, float) | 컬렉션 끝에 새로운 작업을 추가합니다. |
+| [Clear](../../aspose.slides/coloroperationcollection/clear)() | 모든 색 작업을 제거합니다. |
 | [Clone](../../aspose.slides/coloroperationcollection/clone)() | ColorOperationCollection 컬렉션의 복사본을 생성합니다. |
 | [CloneT](../../aspose.slides/coloroperationcollection/clonet)() | 현재 객체를 복제합니다. |
 | [CopyTo](../../aspose.slides/coloroperationcollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열로 복사합니다. |
 | [GetEnumerator](../../aspose.slides/coloroperationcollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | 새 연산을 컬렉션에 삽입합니다. |
-| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 새 연산을 컬렉션에 삽입합니다. |
-| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 컬렉션에서 색 연산을 제거합니다. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert)(int, ColorTransformOperation) | 새 작업을 컬렉션에 삽입합니다. |
+| [Insert](../../aspose.slides/coloroperationcollection/insert#insert_1)(int, ColorTransformOperation, float) | 새 작업을 컬렉션에 삽입합니다. |
+| [RemoveAt](../../aspose.slides/coloroperationcollection/removeat)(int) | 컬렉션에서 색 작업을 제거합니다. |
 
 ### 참고
 

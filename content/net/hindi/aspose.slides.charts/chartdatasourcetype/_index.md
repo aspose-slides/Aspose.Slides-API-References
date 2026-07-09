@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
-second_title: Aspose.Sildes के लिए .NET API संदर्भ
+second_title: Aspose.Sildes for .NET API संदर्भ
 description: चार्ट के डेटा स्रोत के प्रकार को दर्शाता है
 type: docs
 weight: 1370
 url: /hi/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType एन्उमरेशन
+## ChartDataSourceType एन्यूमरेशन
 
-चार्ट के डेटा स्रोत के प्रकार को दर्शाता है
+चार्ट का डेटा स्रोत का प्रकार दर्शाता है
 
 ```csharp
 public enum ChartDataSourceType
@@ -21,7 +21,7 @@ public enum ChartDataSourceType
 | InternalWorkbook | `0` | आंतरिक डेटा स्रोत। |
 | ExternalWorkbook | `1` | बाहरी डेटा स्रोत। |
 
-### देखें
+### संदर्भ
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

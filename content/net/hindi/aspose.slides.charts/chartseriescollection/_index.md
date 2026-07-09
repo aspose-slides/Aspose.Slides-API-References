@@ -1,6 +1,6 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: ChartSeries का संग्रह दर्शाता है।/chartseries
 type: docs
 weight: 1450
@@ -8,7 +8,7 @@ url: /hi/aspose.slides.charts/chartseriescollection/
 ---
 ## ChartSeriesCollection क्लास
 
-[`ChartSeries`](../chartseries) का संग्रह प्रतिनिधित्व करता है।
+फ़ाइल [`ChartSeries`](../chartseries) का संग्रह दर्शाता है।
 
 ```csharp
 public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollection
@@ -18,28 +18,28 @@ public class ChartSeriesCollection : DomObject<ChartData>, IChartSeriesCollectio
 
 | नाम | विवरण |
 | --- | --- |
-| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | संग्रह में वस्तुओं की संख्या लौटाता है। केवल-पढ़ने-योग्य Int32. |
-| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | यह दर्शाता है कि संग्रह तक पहुँच सिंक्रनाइज़्ड (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने-योग्य Boolean. |
-| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | निर्दिष्ट इंडेक्स पर तत्व प्राप्त करता है। |
-| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | एक सिंक्रनाइज़ेशन रूट लौटाता है। केवल-पढ़ने-योग्य Object. |
+| [Count](../../aspose.slides.charts/chartseriescollection/count) { get; } | संग्रह में वस्तुओं की संख्या लौटाता है। केवल-पढ़ने योग्य Int32. |
+| [IsSynchronized](../../aspose.slides.charts/chartseriescollection/issynchronized) { get; } | एक मान लौटाता है जो यह दर्शाता है कि संग्रह तक पहुँच समकालिक (थ्रेड-सेफ़) है या नहीं। केवल-पढ़ने योग्य Boolean. |
+| [Item](../../aspose.slides.charts/chartseriescollection/item) { get; } | निर्दिष्ट अनुक्रमणिका पर तत्व प्राप्त करता है। |
+| [SyncRoot](../../aspose.slides.charts/chartseriescollection/syncroot) { get; } | एक समकालिकीकरण मूल लौटाता है। केवल-पढ़ने योग्य Object. |
 
 ## विधियाँ
 
 | नाम | विवरण |
 | --- | --- |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | नया चार्ट सीरीज़ बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`ChartCellCollection`](../chartcellcollection) से नया चार्ट सीरीज़ बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`ChartDataCell`](../chartdatacell) से नया चार्ट सीरीज़ बनाता है और इसे संग्रह में जोड़ता है। |
-| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | मान से नया चार्ट सीरीज़ बनाता है और इसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add)(ChartType) | नया चार्ट सीरीज़ बनाता है और उसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_1)(IChartCellCollection, ChartType) | [`ChartCellCollection`](../chartcellcollection) से नया चार्ट सीरीज़ बनाता है और उसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_2)(IChartDataCell, ChartType) | [`ChartDataCell`](../chartdatacell) से नया चार्ट सीरीज़ बनाता है और उसे संग्रह में जोड़ता है। |
+| [Add](../../aspose.slides.charts/chartseriescollection/add#add_3)(string, ChartType) | मान से नया चार्ट सीरीज़ बनाता है और उसे संग्रह में जोड़ता है। |
 | [Clear](../../aspose.slides.charts/chartseriescollection/clear)() | संग्रह से सभी कंट्रोल हटाता है। |
-| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | पूरे संग्रह को निर्दिष्ट एरे में कॉपी करता है। |
-| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | एक एनेुमरेटर लौटाता है जो संग्रह के माध्यम से इटरेट करता है। |
-| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | निर्दिष्ट [`ChartSeries`](../chartseries) को खोजता है और पूरे संग्रह में पहली घटना का शून्य-आधारित सूचकांक लौटाता है। |
-| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | नया चार्ट सीरीज़ बनाता है और इसे संग्रह में सम्मिलित करता है। |
+| [CopyTo](../../aspose.slides.charts/chartseriescollection/copyto)(Array, int) | पूरे संग्रह की प्रतिलिपि निर्दिष्ट सरणी में बनाता है। |
+| [GetEnumerator](../../aspose.slides.charts/chartseriescollection/getenumerator)() | एक इटेरेटर लौटाता है जो संग्रह के माध्यम से चलाता है। |
+| [IndexOf](../../aspose.slides.charts/chartseriescollection/indexof)(IChartSeries) | निर्दिष्ट [`ChartSeries`](../chartseries) को खोजता है और पूरे संग्रह में उसकी पहली उपस्थिति का शून्य-आधारित सूचकांक लौटाता है। |
+| [Insert](../../aspose.slides.charts/chartseriescollection/insert)(int, ChartType) | नया चार्ट सीरीज़ बनाता है और उसे संग्रह में सम्मिलित करता है। |
 | [Remove](../../aspose.slides.charts/chartseriescollection/remove)(IChartSeries) | निर्दिष्ट मान हटाता है। |
-| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | संग्रह में निर्दिष्ट स्थिति पर संग्रहीत ActiveX कंट्रोल को हटाता है। |
+| [RemoveAt](../../aspose.slides.charts/chartseriescollection/removeat)(int) | निर्दिष्ट स्थिति पर संग्रहीत ActiveX कंट्रोल को संग्रह से हटाता है। |
 
-### संबंधित
+### संबंधित देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../../aspose.slides/domobject-1)
 * क्लास [ChartData](../chartdata)

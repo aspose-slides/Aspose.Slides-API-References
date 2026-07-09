@@ -1,14 +1,14 @@
 ---
 title: IDrawingGuide
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงไกด์การวาดที่ปรับได้.
+second_title: Aspose.Sildes สำหรับ .NET การอ้างอิง API
+description: เป็นตัวแทนของแนวการวาดที่ปรับได้.
 type: docs
 weight: 5720
 url: /th/aspose.slides/idrawingguide/
 ---
 ## IDrawingGuide อินเทอร์เฟซ
 
-แสดงไกด์การวาดที่ปรับได้.
+Represents an adjustable drawing guide.
 
 ```csharp
 public interface IDrawingGuide
@@ -18,9 +18,9 @@ public interface IDrawingGuide
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | คืนค่า หรือกำหนดสีของไกด์การวาด. อ่าน/เขียน Color. |
-| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | คืนค่า หรือกำหนดทิศทางของไกด์การวาด. อ่าน/เขียน [`Orientation`](../orientation). |
-| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | คืนค่า หรือกำหนดตำแหน่งของไกด์การวาดในหน่วยจุดจากมุมบนซ้ายของสไลด์. อ่าน/เขียน Single. |
+| [Color](../../aspose.slides/idrawingguide/color) { get; set; } | คืนค่า หรือกำหนดสีของแนวการวาด. อ่าน/เขียน Color. |
+| [Orientation](../../aspose.slides/idrawingguide/orientation) { get; set; } | คืนค่า หรือกำหนดการวางแนวของแนวการวาด. อ่าน/เขียน [`Orientation`](../orientation). |
+| [Position](../../aspose.slides/idrawingguide/position) { get; set; } | คืนค่า หรือกำหนดตำแหน่งของแนวการวาดเป็นจุดจากมุมบนซ้ายของสไลด์. อ่าน/เขียน Single. |
 
 ### ดูเพิ่มเติม
 

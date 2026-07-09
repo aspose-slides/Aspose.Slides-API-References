@@ -3,7 +3,7 @@ title: PresetShadowType
 second_title: Aspose.Sildes untuk Referensi API .NET
 description: Mewakili preset untuk efek bayangan.
 type: docs
-weight: 9650
+weight: 9670
 url: /id/aspose.slides/presetshadowtype/
 ---
 ## PresetShadowType enumerasi

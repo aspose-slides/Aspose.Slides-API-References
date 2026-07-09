@@ -1,14 +1,14 @@
 ---
 title: ChartDataSourceType
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: แสดงถึงประเภทของแหล่งข้อมูลของแผนภูมิ
+description: อธิบายประเภทของแหล่งข้อมูลของแผนภูมิ
 type: docs
 weight: 1370
 url: /th/aspose.slides.charts/chartdatasourcetype/
 ---
-## ChartDataSourceType enum
+## ChartDataSourceType enumeration
 
-แสดงถึงประเภทของแหล่งข้อมูลของแผนภูมิ
+อธิบายประเภทของแหล่งข้อมูลของแผนภูมิ
 
 ```csharp
 public enum ChartDataSourceType
@@ -21,7 +21,7 @@ public enum ChartDataSourceType
 | InternalWorkbook | `0` | แหล่งข้อมูลภายใน. |
 | ExternalWorkbook | `1` | แหล่งข้อมูลภายนอก. |
 
-### ดูเพิ่มเติม
+### See Also
 
 * เนมสเปซ [Aspose.Slides.Charts](../../aspose.slides.charts)
 * แอสเซมบลี [Aspose.Slides](../../)

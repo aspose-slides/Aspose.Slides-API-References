@@ -3,7 +3,7 @@ title: DrawingGuidesCollection
 second_title: Aspose.Sildes için .NET API Referansı
 description: Ayarlanabilir çizim kılavuzlarının bir koleksiyonunu temsil eder.
 type: docs
-weight: 2800
+weight: 2820
 url: /tr/aspose.slides/drawingguidescollection/
 ---
 ## DrawingGuidesCollection sınıfı
@@ -19,16 +19,16 @@ public sealed class DrawingGuidesCollection : IDrawingGuidesCollection
 | Ad | Açıklama |
 | --- | --- |
 | [Count](../../aspose.slides/drawingguidescollection/count) { get; } | Koleksiyondaki öğelerin sayısını döndürür. Salt okunur Int32. |
-| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | İndeks ile çizim kılavuzunu döndürür. Salt okunur [`IDrawingGuide`](../idrawingguide). |
+| [Item](../../aspose.slides/drawingguidescollection/item) { get; } | İndekse göre çizim kılavuzunu döndürür. Salt okunur [`IDrawingGuide`](../idrawingguide). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
 | [Add](../../aspose.slides/drawingguidescollection/add)(Orientation, float) | Çizim kılavuzunu koleksiyonun sonuna ekler. |
 | [Clear](../../aspose.slides/drawingguidescollection/clear)() | Koleksiyondaki tüm öğeleri kaldırır. |
 | [CopyTo](../../aspose.slides/drawingguidescollection/copyto)(IDrawingGuide[], int) | Koleksiyondaki tüm öğeleri belirtilen diziye kopyalar. |
-| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratör döndürür. |
+| [GetEnumerator](../../aspose.slides/drawingguidescollection/getenumerator)() | Koleksiyon içinde yineleme yapan bir enumeratörü döndürür. |
 | [RemoveAt](../../aspose.slides/drawingguidescollection/removeat)(int) | Belirtilen indeksteki çizim kılavuzunu kaldırır. |
 
 ### Ayrıca Bakınız

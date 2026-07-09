@@ -1,6 +1,6 @@
 ---
 title: NotesSlideManager
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 노트 슬라이드 관리자.
 type: docs
 weight: 9160
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/notesslidemanager/
 ---
 ## NotesSlideManager 클래스
 
-노트 슬라이드 관리자.
+Notes slide manager.
 
 ```csharp
 public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
@@ -29,7 +29,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 
 ### 예제
 
-다음 예제는 특정 PowerPoint 프리젠테이션 슬라이드에 노트를 추가하는 방법을 보여줍니다.
+다음 예제는 특정 PowerPoint 프레젠테이션 슬라이드에 노트를 추가하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -44,7 +44,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-다음 예제는 PowerPoint 프리젠테이션의 특정 슬라이드에서 노트를 제거하는 방법을 보여줍니다.
+다음 예제는 PowerPoint 프레젠테이션의 특정 슬라이드에서 노트를 제거하는 방법을 보여줍니다.
 
 ```csharp
 [C#]
@@ -58,7 +58,7 @@ public sealed class NotesSlideManager : DomObject<Slide>, INotesSlideManager
 	}
 ```
 
-### 또 보기
+### 참고
 
 * 클래스 [DomObject&lt;TParent&gt;](../domobject-1)
 * 클래스 [Slide](../slide)

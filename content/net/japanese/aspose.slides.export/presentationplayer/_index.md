@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Sildes for .NET API リファレンス
 description: Presentation../aspose.slides/presentation に関連付けられたアニメーションのプレーヤーを表します。
 type: docs
-weight: 4370
+weight: 4390
 url: /ja/aspose.slides.export/presentationplayer/
 ---
 ## PresentationPlayer クラス
@@ -46,7 +46,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 {
     using (var animationsGenerator = new PresentationAnimationsGenerator(pres))
     {
-        // 33 FPS でアニメーションを再生
+        // 33 FPS でアニメーションを再生する
         using (var player = new PresentationPlayer(animationsGenerator, 33))
         {
             player.FrameTick += (sender, args) =>
@@ -57,7 +57,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
             animationsGenerator.Run(pres.Slides);
         }
         
-        // 45 FPS でアニメーションを再生
+        // 45 FPS でアニメーションを再生する
         using (var player = new PresentationPlayer(animationsGenerator, 45))
         {
             player.FrameTick += (sender, args) =>

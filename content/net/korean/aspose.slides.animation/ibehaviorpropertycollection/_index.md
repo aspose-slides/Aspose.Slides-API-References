@@ -1,6 +1,6 @@
 ---
 title: IBehaviorPropertyCollection
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 효과 동작에 대한 타이밍 속성을 나타냅니다.
 type: docs
 weight: 450
@@ -25,12 +25,12 @@ public interface IBehaviorPropertyCollection : IList<IBehaviorProperty>
 | 이름 | 설명 |
 | --- | --- |
 | [Add](../../aspose.slides.animation/ibehaviorpropertycollection/add)(string) | 컬렉션에 새 속성을 추가합니다. |
-| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | ICollection에 지정된 값이 포함되어 있는지 확인합니다. |
+| [Contains](../../aspose.slides.animation/ibehaviorpropertycollection/contains)(string) | ICollection에 특정 값이 포함되어 있는지 확인합니다. |
 | [IndexOf](../../aspose.slides.animation/ibehaviorpropertycollection/indexof)(string) | IList에서 속성 값으로 특정 항목의 인덱스를 결정합니다. |
-| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | 지정된 인덱스에 새 속성(지정된 속성 값)을 삽입합니다. |
+| [Insert](../../aspose.slides.animation/ibehaviorpropertycollection/insert)(int, string) | 지정된 인덱스에 새 속성(지정된 속성 값 포함)을 컬렉션에 삽입합니다. |
 | [Remove](../../aspose.slides.animation/ibehaviorpropertycollection/remove)(string) | 컬렉션에서 지정된 속성을 제거합니다. |
 
-### 참고
+### 참조
 
 * 인터페이스 [IBehaviorProperty](../ibehaviorproperty)
 * 네임스페이스 [Aspose.Slides.Animation](../../aspose.slides.animation)

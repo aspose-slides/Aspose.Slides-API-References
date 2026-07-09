@@ -1,9 +1,9 @@
 ---
 title: IMathNaryOperatorFactory
-second_title: Aspose.Sildes .NET API Referencia
+second_title: Aspose.Sildes .NET API-referencia
 description: Lehetővé teszi az IMathNaryOperator létrehozását
 type: docs
-weight: 8350
+weight: 8370
 url: /hu/aspose.slides.mathtext/imathnaryoperatorfactory/
 ---
 ## IMathNaryOperatorFactory interfész
@@ -14,13 +14,13 @@ Lehetővé teszi az IMathNaryOperator létrehozását
 public interface IMathNaryOperatorFactory
 ```
 
-## Módszerek
+## Metódusok
 
 | Név | Leírás |
 | --- | --- |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | Létrehozza az IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator |
-| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator)(char, IMathElement) | Létrehozza az IMathNaryOperator-t |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_1)(char, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator-t |
+| [CreateMathNaryOperator](../../aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator#createmathnaryoperator_2)(char, IMathElement, IMathElement, IMathElement) | Létrehozza az IMathNaryOperator-t |
 
 ### Megjegyzések
 

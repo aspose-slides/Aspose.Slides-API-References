@@ -3,7 +3,7 @@ title: IMathBlockCollection
 second_title: Referência da API Aspose.Sildes para .NET
 description: Coleção de blocos matemáticos IMathBlock
 type: docs
-weight: 8130
+weight: 8150
 url: /pt/aspose.slides.mathtext/imathblockcollection/
 ---
 ## IMathBlockCollection interface
@@ -29,7 +29,7 @@ public interface IMathBlockCollection : IEnumerable<IMathBlock>
 | [Contains](../../aspose.slides.mathtext/imathblockcollection/contains)(IMathBlock) | Determina se a coleção contém um valor específico. |
 | [IndexOf](../../aspose.slides.mathtext/imathblockcollection/indexof)(IMathBlock) | Determina o índice de um IMathBlock específico na coleção. |
 | [Insert](../../aspose.slides.mathtext/imathblockcollection/insert)(int, IMathBlock) | Insere IMathBlock na coleção no índice especificado. |
-| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Remove a primeira ocorrência de um objeto específico da coleção/>. |
+| [Remove](../../aspose.slides.mathtext/imathblockcollection/remove)(IMathBlock) | Remove a primeira ocorrência de um objeto específico da coleção. |
 | [RemoveAt](../../aspose.slides.mathtext/imathblockcollection/removeat)(int) | Remove um item no índice especificado da coleção. |
 
 ### Exemplos

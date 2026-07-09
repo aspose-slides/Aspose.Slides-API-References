@@ -18,12 +18,12 @@ public class Control : DomObject<ControlCollection>, IControl
 
 | 이름 | 설명 |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | PersistStream, PersistStreamInit 또는 PersistStorage 중 하나를 사용하여 지속성을 지정하는 ActiveX 컨트롤의 지속 방식을 지정합니다. |
+| [ActiveXControlBinary](../../aspose.slides/control/activexcontrolbinary) { get; } | ActiveX 컨트롤의 지속성을 지정합니다. 지속에 사용되는 메서드가 PersistStream, PersistStreamInit 또는 PersistStorage인 경우입니다. |
 | [ClassId](../../aspose.slides/control/classid) { get; set; } | 이 컨트롤의 클래스 ID를 가져옵니다. 읽기 전용 Guid. |
 | [Frame](../../aspose.slides/control/frame) { get; set; } | 컨트롤의 프레임을 반환하거나 설정합니다. 읽기/쓰기 [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/control/name) { get; set; } | 이 컨트롤의 이름을 가져오거나 설정합니다. 읽기/쓰기 String. |
-| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX 컨트롤의 속성을 저장하는 방법을 가져옵니다. 읽기 전용 [`PersistenceType`](../persistencetype). |
-| [Properties](../../aspose.slides/control/properties) { get; } | ActiveX 속성 컬렉션을 반환합니다. 참고: Aspose.Slides는 XML 기반 ActiveX 속성만 지원합니다. 속성이 바이너리 형식으로 저장된 경우 이 속성은 null을 반환합니다. 읽기 전용 [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
+| [Persistence](../../aspose.slides/control/persistence) { get; } | ActiveX 컨트롤의 속성을 저장하는 데 사용되는 메서드를 가져옵니다. 읽기 전용 [`PersistenceType`](../persistencetype). |
+| [Properties](../../aspose.slides/control/properties) { get; } | ActiveX 속성 컬렉션을 반환합니다. 참고: Aspose.Slides는 XML 기반 ActiveX 속성만 지원합니다. 속성이 바이너리 형식으로 저장된 경우, 이 속성은 null을 반환합니다. 읽기 전용 [`IControlPropertiesCollection`](../icontrolpropertiescollection). |
 | [SubstitutePictureFormat](../../aspose.slides/control/substitutepictureformat) { get; } | Control 이미지 채우기 속성 객체를 반환합니다. 읽기 전용 [`IPictureFillFormat`](../ipicturefillformat). |
 
 ### 참고

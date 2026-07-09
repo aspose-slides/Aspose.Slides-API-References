@@ -1,14 +1,14 @@
 ---
 title: HandleRepeatedSpaces
-second_title: Aspose.Sildes .NET के लिए API संदर्भ
-description: Markdown निर्यात के दौरान दोहराए गए सामान्य स्पेस कैरेक्टर को कैसे संभालना चाहिए, यह निर्दिष्ट करता है।
+second_title: Aspose.Sildes के लिए .NET API रेफ़रेन्स
+description: निर्दिष्ट करता है कि दोहराए गए नियमित स्पेस कैरेक्टर को Markdown निर्यात के दौरान कैसे संभाला जाना चाहिए।
 type: docs
 weight: 3830
 url: /hi/aspose.slides.export/handlerepeatedspaces/
 ---
-## HandleRepeatedSpaces एन्‍युमरेशन
+## HandleRepeatedSpaces एन्यूमरेशन
 
-Markdown निर्यात के दौरान दोहराए गए सामान्य स्पेस कैरेक्टर कैसे संभाले जाएँ, यह निर्दिष्ट करता है।
+निर्दिष्ट करता है कि दोहराए गए नियमित स्पेस कैरेक्टर को Markdown निर्यात के दौरान कैसे संभाला जाना चाहिए।
 
 ```csharp
 public enum HandleRepeatedSpaces
@@ -16,9 +16,9 @@ public enum HandleRepeatedSpaces
 
 ### मान
 
-| Name | Value | Description |
+| नाम | मान | विवरण |
 | --- | --- | --- |
-| None | `0` | सभी स्पेस को नियमित स्पेस कैरेक्टर के रूप में बिना किसी परिवर्तन के संरक्षित किया जाता है। कोई रूपांतरण लागू नहीं किया जाता, और कई लगातार स्पेस को जैसे हैं वैसा निर्यात किया जाता है। |
+| None | `0` | सभी स्पेस को सामान्य स्पेस कैरेक्टर के रूप में बिना किसी बदलाव के संरक्षित किया जाता है। कोई रूपांतरण लागू नहीं किया जाता, और कई लगातार स्पेस को जैसा है वैसा ही निर्यात किया जाता है। |
 | AlternateSpacesToNbsp | `1` |  |
 | MultipleSpacesToNbsp | `2` |  |
 

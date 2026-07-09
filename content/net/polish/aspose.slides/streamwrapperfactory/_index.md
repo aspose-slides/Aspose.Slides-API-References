@@ -1,14 +1,14 @@
 ---
 title: StreamWrapperFactory
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Fabryka StreamWrappers. Dla interfejsu COM.
+second_title: Aspose.Sildes dla .NET - dokumentacja API
+description: Fabryka StreamWrapperów. Dla interfejsu COM.
 type: docs
-weight: 10740
+weight: 10760
 url: /pl/aspose.slides/streamwrapperfactory/
 ---
 ## StreamWrapperFactory klasa
 
-Fabryka StreamWrappers. Dla interfejsu COM.
+Fabryka StreamWrapperów. Dla interfejsu COM.
 
 ```csharp
 public class StreamWrapperFactory : IStreamWrapperFactory
@@ -24,12 +24,12 @@ public class StreamWrapperFactory : IStreamWrapperFactory
 
 | Nazwa | Opis |
 | --- | --- |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Tworzy FileStream o określonej ścieżce i trybie tworzenia. |
-| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Tworzy FileStream o określonej ścieżce, trybie tworzenia i uprawnieniach odczytu/zapisu. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper)(string, FileMode) | Tworzy FileStream z określoną ścieżką i trybem tworzenia. |
+| [CreateFileStreamWrapper](../../aspose.slides/streamwrapperfactory/createfilestreamwrapper#createfilestreamwrapper_1)(string, FileMode, FileAccess) | Tworzy FileStream z określoną ścieżką, trybem tworzenia i uprawnieniem odczytu/zapisu. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper)() | Tworzy opakowanie MemoryStream. |
 | [CreateMemoryStreamWrapper](../../aspose.slides/streamwrapperfactory/creatememorystreamwrapper#creatememorystreamwrapper_1)(byte[]) | Tworzy opakowanie MemoryStream na podstawie określonej tablicy bajtów. |
 
-### Zobacz także
+### Zobacz też
 
 * interfejs [IStreamWrapperFactory](../istreamwrapperfactory)
 * przestrzeń nazw [Aspose.Slides](../../aspose.slides)

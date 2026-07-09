@@ -1,14 +1,14 @@
 ---
 title: IChartLinesFormat
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: แสดงคุณสมบัติรูปแบบเส้นกริด.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงคุณสมบัติรูปแบบของเส้นกริด.
 type: docs
 weight: 1890
 url: /th/aspose.slides.charts/ichartlinesformat/
 ---
 ## IChartLinesFormat อินเทอร์เฟซ
 
-แสดงคุณสมบัติรูปแบบเส้นกริด.
+แสดงคุณสมบัติรูปแบบของเส้นกริด.
 
 ```csharp
 public interface IChartLinesFormat
@@ -18,8 +18,8 @@ public interface IChartLinesFormat
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | คืนค่าเอฟเฟกต์ที่ใช้สำหรับเส้นแผนภูมิ. อ่านเท่านั้น [`IEffectFormat`](../../aspose.slides/ieffectformat). |
-| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | คืนค่าคุณสมบัติสไตล์เส้นของแผนภูมิ. อ่านเท่านั้น [`ILineFormat`](../../aspose.slides/ilineformat). |
+| [Effect](../../aspose.slides.charts/ichartlinesformat/effect) { get; } | ส่งคืนเอฟเฟกต์ที่ใช้สำหรับเส้นกราฟ. อ่านอย่างเดียว [`IEffectFormat`](../../aspose.slides/ieffectformat). |
+| [Line](../../aspose.slides.charts/ichartlinesformat/line) { get; } | ส่งคืนคุณสมบัติรูปแบบเส้นของเส้นกราฟ. อ่านอย่างเดียว [`ILineFormat`](../../aspose.slides/ilineformat). |
 
 ### ดูเพิ่มเติม
 

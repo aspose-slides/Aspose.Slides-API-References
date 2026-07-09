@@ -1,14 +1,14 @@
 ---
 title: IAudioCollection
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị một bộ sưu tập các tệp âm thanh nhúng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Đại diện cho một bộ sưu tập các tệp âm thanh được nhúng.
 type: docs
 weight: 5220
 url: /vi/aspose.slides/iaudiocollection/
 ---
-## IAudioCollection giao diện
+## Giao diện IAudioCollection
 
-Biểu thị một bộ sưu tập các tệp âm thanh nhúng.
+Đại diện cho một bộ sưu tập các tệp âm thanh được nhúng.
 
 ```csharp
 public interface IAudioCollection : IGenericCollection<IAudio>
@@ -18,15 +18,15 @@ public interface IAudioCollection : IGenericCollection<IAudio>
 
 | Tên | Mô tả |
 | --- | --- |
-| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Lấy phần tử tại chỉ mục được chỉ định. Chỉ đọc [`IAudio`](../iaudio). |
+| [Item](../../aspose.slides/iaudiocollection/item) { get; } | Lấy phần tử tại chỉ mục đã chỉ định. Chỉ đọc [`IAudio`](../iaudio). |
 
 ## Phương thức
 
 | Tên | Mô tả |
 | --- | --- |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Tạo và thêm một âm thanh vào bản trình bày từ mảng byte. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Thêm một bản sao của tệp âm thanh từ một bản trình bày khác. |
-| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Tạo và thêm một âm thanh vào bản trình bày từ luồng. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_1)(byte[]) | Tạo và thêm một âm thanh vào bản trình chiếu từ mảng byte. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio)(IAudio) | Thêm một bản sao của tệp âm thanh từ một bản trình chiếu khác. |
+| [AddAudio](../../aspose.slides/iaudiocollection/addaudio#addaudio_3)(Stream, LoadingStreamBehavior) | Tạo và thêm một âm thanh vào bản trình chiếu từ luồng. |
 
 ### Xem thêm
 

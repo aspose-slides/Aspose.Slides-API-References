@@ -1,14 +1,14 @@
 ---
 title: OpenAIWebClient
 second_title: Aspose.Sildes for .NET API リファレンス
-description: 組み込みの軽量 OpenAI Web クライアント
+description: OpenAI API に接続する組み込みの IAIWebClient./iaiwebclient 実装です。
 type: docs
-weight: 30
+weight: 50
 url: /ja/aspose.slides.ai/openaiwebclient/
 ---
 ## OpenAIWebClient クラス
 
-組み込みの軽量 OpenAI Web クライアント
+OpenAI API に接続する組み込みの [`IAIWebClient`](../iaiwebclient) 実装。
 
 ```csharp
 public class OpenAIWebClient : IAIWebClient, IDisposable
@@ -19,15 +19,15 @@ public class OpenAIWebClient : IAIWebClient, IDisposable
 | 名前 | 説明 |
 | --- | --- |
 | [OpenAIWebClient](openaiwebclient#constructor)(string, string, string) | OpenAI Web クライアントのインスタンスを作成します。 |
-| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | OpenAI Web クライアントのインスタンスを作成します。 |
+| [OpenAIWebClient](openaiwebclient#constructor_1)(string, string, string, HttpClient) | 外部で管理された HttpClient を使用する OpenAI Web クライアントのインスタンスを作成します。提供された HttpClient はこのインスタンスによって破棄されず、呼び出し元が所有したままです。 |
 
 ## メソッド
 
 | 名前 | 説明 |
 | --- | --- |
 | [CallChatAsync](../../aspose.slides.ai/openaiwebclient/callchatasync)(string) | 外部で管理された `HttpClient` インスタンスを使用して AI モデルにチャット指示を送信し、指定された指示に対する応答メッセージを返します。 |
-| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | 会話インスタンスを作成します。通常の AI 呼び出しとは異なり、会話は全コンテキストを保持します。 |
-| [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | このインスタンスで使用されているリソースを解放します。 |
+| [CreateConversation](../../aspose.slides.ai/openaiwebclient/createconversation)() | 会話インスタンスを作成します。通常の AI 呼び出しとは異なり、会話は全体のコンテキストを保持します。 |
+| [Dispose](../../aspose.slides.ai/openaiwebclient/dispose)() | このインスタンスが使用しているリソースを解放します。 |
 
 ### 参照
 

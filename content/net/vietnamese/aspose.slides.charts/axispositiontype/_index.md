@@ -1,6 +1,6 @@
 ---
 title: AxisPositionType
-second_title: Tham khảo API Aspose.Sildes cho .NET
+second_title: Tham chiếu API Aspose.Sildes cho .NET
 description: Xác định vị trí của trục.
 type: docs
 weight: 1210
@@ -18,12 +18,12 @@ public enum AxisPositionType
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| Bottom | `0` | Chỉ định rằng trục sẽ được hiển thị ở phía dưới của vùng vẽ. |
-| Left | `1` | Chỉ định rằng trục sẽ được hiển thị ở phía trái của vùng vẽ. |
-| Right | `2` | Chỉ định rằng trục sẽ được hiển thị ở phía phải của vùng vẽ. |
-| Top | `3` | Chỉ định rằng trục sẽ được hiển thị ở phía trên của vùng vẽ. |
+| Bottom | `0` | Chỉ định rằng trục sẽ được hiển thị ở phía dưới của vùng biểu đồ. |
+| Left | `1` | Chỉ định rằng trục sẽ được hiển thị ở phía trái của vùng biểu đồ. |
+| Right | `2` | Chỉ định rằng trục sẽ được hiển thị ở phía phải của vùng biểu đồ. |
+| Top | `3` | Chỉ định rằng trục sẽ được hiển thị ở phía trên của vùng biểu đồ. |
 
-### Xem thêm
+### Xem Thêm
 
 * không gian tên [Aspose.Slides.Charts](../../aspose.slides.charts)
 * tập hợp [Aspose.Slides](../../)

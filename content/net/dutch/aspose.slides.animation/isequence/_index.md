@@ -1,14 +1,14 @@
 ---
 title: ISequence
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Stelt een verzameling van effecten in een sequentie voor.
+description: Stelt een sequence (verzameling van effecten) voor.
 type: docs
 weight: 590
 url: /nl/aspose.slides.animation/isequence/
 ---
 ## ISequence interface
 
-Stelt een sequentie (collectie van effecten) voor.
+Representeert een sequence (verzameling van effecten).
 
 ```csharp
 public interface ISequence : IEnumerable<IEffect>
@@ -16,28 +16,28 @@ public interface ISequence : IEnumerable<IEffect>
 
 ## Eigenschappen
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Stelt het verkrijgen van de basis IEnumerable interface mogelijk. Alleen-lezen IEnumerable. |
+| [AsIEnumerable](../../aspose.slides.animation/isequence/asienumerable) { get; } | Stelt toe om de basis IEnumerable-interface op te halen. Alleen-lezen IEnumerable. |
 | [Count](../../aspose.slides.animation/isequence/count) { get; } | Retourneert het aantal effecten in een sequentie. Alleen-lezen Int32. |
 | [Item](../../aspose.slides.animation/isequence/item) { get; } | Retourneert een effect op de opgegeven index. |
-| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retourneert of stelt het vormdoel in voor een INTERACTIVE sequentie. Als de sequentie niet interactief is, wordt null geretourneerd. Lezen/schrijven [`IShape`](../../aspose.slides/ishape). |
+| [TriggerShape](../../aspose.slides.animation/isequence/triggershape) { get; set; } | Retourneert of stelt shape-target in voor INTERACTIVE sequence. Als de sequence niet interactief is, retourneert null. Lezen/schrijven [`IShape`](../../aspose.slides/ishape). |
 
 ## Methoden
 
-| Name | Description |
+| Naam | Beschrijving |
 | --- | --- |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Voeg een nieuw animatie-effect voor alinea toe aan het einde van de sequentie. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Voeg een nieuw effect toe aan het einde van de sequentie. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Voeg het nieuwe diagram-animatie-effect voor categorie of serie toe aan het einde van de sequentie. |
-| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Voeg het nieuwe diagram-animatie-effect voor elementen in categorie of serie toe aan het einde van de sequentie. |
-| [Clear](../../aspose.slides.animation/isequence/clear)() | Verwijdert alle effecten uit een collectie. |
-| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Retourneert het aantal effecten voor de opgegeven vorm. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_2)(IParagraph, EffectType, EffectSubtype, EffectTriggerType) | Voegt een nieuw animatie-effect toe voor alinea aan het einde van de sequence. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_3)(IShape, EffectType, EffectSubtype, EffectTriggerType) | Voegt een nieuw effect toe aan het einde van de sequence. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect)(IChart, EffectChartMajorGroupingType, int, EffectType, EffectSubtype, EffectTriggerType) | Voegt het nieuwe diagram-animatie-effect toe voor categorie of reeks aan het einde van de sequence. |
+| [AddEffect](../../aspose.slides.animation/isequence/addeffect#addeffect_1)(IChart, EffectChartMinorGroupingType, int, int, EffectType, EffectSubtype, EffectTriggerType) | Voegt het nieuwe diagram-animatie-effect toe voor elementen in categorie of reeks aan het einde van de sequence. |
+| [Clear](../../aspose.slides.animation/isequence/clear)() | Verwijdert alle effecten uit een verzameling. |
+| [GetCount](../../aspose.slides.animation/isequence/getcount)(IShape) | Retourneert het aantal effecten voor de opgegeven shape. |
 | [GetEffectsByParagraph](../../aspose.slides.animation/isequence/geteffectsbyparagraph)(IParagraph) | Retourneert een array van effecten voor de opgegeven alinea. |
-| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Retourneert een array van effecten voor de opgegeven vorm. |
-| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Verwijdert het opgegeven effect uit een collectie. |
-| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Verwijdert een effect uit een collectie. |
-| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Verwijdert het effect voor de opgegeven vorm. |
+| [GetEffectsByShape](../../aspose.slides.animation/isequence/geteffectsbyshape)(IShape) | Retourneert een array van effecten voor de opgegeven shape. |
+| [Remove](../../aspose.slides.animation/isequence/remove)(IEffect) | Verwijdert het opgegeven effect uit een verzameling. |
+| [RemoveAt](../../aspose.slides.animation/isequence/removeat)(int) | Verwijdert een effect uit een verzameling. |
+| [RemoveByShape](../../aspose.slides.animation/isequence/removebyshape)(IShape) | Verwijdert effect voor de opgegeven shape. |
 
 ### Zie ook
 

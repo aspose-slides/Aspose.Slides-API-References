@@ -1,14 +1,14 @@
 ---
 title: TransitionCornerDirectionType
-second_title: Aspose.Sildes için .NET API Referansı
-description: Köşe yönü geçiş türlerini temsil eder.
+second_title: Aspose.Sildes for .NET API Referansı
+description: Köşe yönü geçiş tiplerini temsil eder.
 type: docs
-weight: 10330
+weight: 10350
 url: /tr/aspose.slides.slideshow/transitioncornerdirectiontype/
 ---
-## TransitionCornerDirectionType enum
+## TransitionCornerDirectionType sayım
 
-Köşe yönü geçiş türlerini temsil eder.
+Köşe yönü geçiş tiplerini temsil eder.
 
 ```csharp
 public enum TransitionCornerDirectionType
@@ -23,7 +23,7 @@ public enum TransitionCornerDirectionType
 | RightDown | `2` |  |
 | RightUp | `3` |  |
 
-### Diğer
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.SlideShow](../../aspose.slides.slideshow)
 * derleme [Aspose.Slides](../../)

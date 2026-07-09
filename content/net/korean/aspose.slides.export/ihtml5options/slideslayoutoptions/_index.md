@@ -16,7 +16,7 @@ public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
 
 ### 예제
 
-예제:
+예시:
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 관련 항목
 
 * 인터페이스 [ISlidesLayoutOptions](../../islideslayoutoptions)
 * 인터페이스 [IHtml5Options](../../ihtml5options)

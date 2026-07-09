@@ -1,14 +1,14 @@
 ---
 title: IControl
-second_title: Referensi API Aspose.Sildes untuk .NET
+second_title: Aspose.Sildes untuk .NET Referensi API
 description: Mewakili kontrol ActiveX.
 type: docs
-weight: 5610
+weight: 5630
 url: /id/aspose.slides/icontrol/
 ---
-## antarmuka IControl
+## IControl antarmuka
 
-Mewakili kontrol ActiveX.
+Represents an ActiveX control.
 
 ```csharp
 public interface IControl : ISlideComponent
@@ -16,12 +16,12 @@ public interface IControl : ISlideComponent
 
 ## Properti
 
-| Nama | Deskripsi |
+| Name | Description |
 | --- | --- |
-| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Menentukan persistensi kontrol ActiveX ketika metode yang digunakan untuk persisten adalah PersistStream, PersistStreamInit, atau PersistStorage. |
-| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Mengizinkan untuk mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
-| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Mendapatkan class id kontrol ini. Hanya-baca Guid. |
-| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Mengembalikan atau mengatur frame kontrol. Baca/tulis [`IShapeFrame`](../ishapeframe). |
+| [ActiveXControlBinary](../../aspose.slides/icontrol/activexcontrolbinary) { get; } | Menentukan keberlanjutan kontrol ActiveX ketika metode yang digunakan untuk menyimpan adalah PersistStream, PersistStreamInit, atau PersistStorage. |
+| [AsISlideComponent](../../aspose.slides/icontrol/asislidecomponent) { get; } | Mengizinkan mendapatkan antarmuka dasar ISlideComponent. Hanya-baca [`ISlideComponent`](../islidecomponent). |
+| [ClassId](../../aspose.slides/icontrol/classid) { get; } | Mendapatkan id kelas dari kontrol ini. Hanya-baca Guid. |
+| [Frame](../../aspose.slides/icontrol/frame) { get; set; } | Mengembalikan atau menyetel bingkai kontrol. Baca/tulis [`IShapeFrame`](../ishapeframe). |
 | [Name](../../aspose.slides/icontrol/name) { get; set; } | Mengembalikan nama kontrol ini. Baca/tulis String. |
 | [Persistence](../../aspose.slides/icontrol/persistence) { get; } | Mendapatkan metode yang digunakan untuk menyimpan properti kontrol ActiveX. Hanya-baca [`PersistenceType`](../persistencetype). |
 | [Properties](../../aspose.slides/icontrol/properties) { get; } | Mengembalikan koleksi properti ActiveX. Hanya-baca [`IControlPropertiesCollection`](../icontrolpropertiescollection). |

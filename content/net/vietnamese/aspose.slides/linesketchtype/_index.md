@@ -1,28 +1,28 @@
 ---
 title: LineSketchType
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Biểu thị kiểu phác thảo hoặc hiệu ứng nào đã được gán cho một hình dạng.
+second_title: Aspose.Sildes cho Tham chiếu API .NET
+description: Biểu thị loại phác thảo hoặc hiệu ứng nào đã được gán cho một hình dạng.
 type: docs
 weight: 7810
 url: /vi/aspose.slides/linesketchtype/
 ---
 ## LineSketchType liệt kê
 
-Biểu thị kiểu phác thảo hoặc hiệu ứng nào được gán cho một hình dạng.
+Biểu thị loại phác thảo hoặc hiệu ứng nào mà một hình dạng đã được chỉ định.
 
 ```csharp
 public enum LineSketchType
 ```
 
-### Giá trị
+### Các giá trị
 
 | Tên | Giá trị | Mô tả |
 | --- | --- | --- |
-| NotDefined | `-1` | Chỉ định rằng hiệu ứng Sketch của hình dạng chưa được xác định. |
-| None | `0` | Chỉ định rằng hình dạng không có hiệu ứng Sketch. Điều này tương đương với việc thuộc tính này để trống. |
-| Curved | `1` | Chỉ định rằng hình dạng có hiệu ứng Curved, biến mỗi cạnh của hình thành một đường cong nhẹ lớn. |
-| Freehand | `2` | Chỉ định rằng hình dạng có hiệu ứng Freehand, gần nhất với một đường vẽ không đều. |
-| Scribble | `3` | Chỉ định rằng hình dạng có hiệu ứng Scribble, có dao động phóng đại như thể được vẽ một cách lộn xộn cố ý. |
+| NotDefined | `-1` | Chỉ định rằng hiệu ứng Sketch của hình dạng không được xác định. |
+| None | `0` | Chỉ định rằng một hình dạng không có hiệu ứng Sketch. Điều này tương đương với thuộc tính này rỗng. |
+| Curved | `1` | Chỉ định rằng một hình dạng có hiệu ứng Curved, chuyển mỗi cạnh của hình dạng thành một đường cong nhẹ lớn. |
+| Freehand | `2` | Chỉ định rằng một hình dạng có hiệu ứng Freehand, gần giống nhất với một đường vẽ không hoàn hảo. |
+| Scribble | `3` | Chỉ định rằng một hình dạng có hiệu ứng Scribble, có dao động phóng đại như thể được vẽ một cách lộn xộn có ý đồ. |
 
 ### Xem thêm
 

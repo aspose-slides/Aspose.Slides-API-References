@@ -1,6 +1,6 @@
 ---
 title: IHtml5Options
-second_title: Aspose.Sildes for .NET API संदर्भ
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
 description: HTML5 निर्यात विकल्पों का प्रतिनिधित्व करता है।
 type: docs
 weight: 3930
@@ -16,16 +16,16 @@ public interface IHtml5Options : ISaveOptions
 
 ## गुण
 
-| Name | Description |
+| नाम | विवरण |
 | --- | --- |
-| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | वापस देता है या सेट करता है आकृति एनीमेशन विकल्प। पढ़ें/लिखें Boolean। |
-| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | वापस देता है या सेट करता है ट्रांज़िशन एनीमेशन विकल्प। पढ़ें/लिखें Boolean। |
-| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | वापस देता है ISaveOptions इंटरफ़ेस। केवल पढ़ें [`ISaveOptions`](../isaveoptions)। |
-| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | प्राप्त करता है या सेट करता है वह मान जो यह दर्शाता है कि क्या टेक्स्ट लिगेचर का उपयोग किए बिना रेंडर किया गया है। जब `true` पर सेट किया जाता है, तो लिगेचर रेंडर किए हुए आउटपुट में अक्षम किए जाएंगे। डिफ़ॉल्ट रूप से, यह गुण `false` पर सेट है। |
-| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | वापस देता है या सेट करता है छवियों एम्बेडिंग विकल्प। पढ़ें/लिखें Boolean। |
-| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ें/लिखें String। |
-| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | चित्र संपीड़न स्तर का प्रतिनिधित्व करता है। पढ़ें/लिखें [`PicturesCompression`](./picturescompression)। |
-| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | प्राप्त करता है या सेट करता है वह मोड जिसमें स्लाइड्स को पृष्ठ पर रखा जाता है जब प्रस्तुति निर्यात की जाती है [`ISlidesLayoutOptions`](../islideslayoutoptions)। |
+| [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | shapes एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
+| [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | transitions एनीमेशन विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
+| [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | ISaveOptions इंटरफ़ेस को लौटाता है। केवल-पढ़ने योग्य [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/ihtml5options/disablefontligatures) { get; set; } | टेक्स्ट को लिगेचर का उपयोग किए बिना रेंडर किया जाता है या नहीं, यह दर्शाने वाला मान प्राप्त करता है या सेट करता है। जब इसे `true` पर सेट किया जाता है, तो रेंडर किए गए आउटपुट में लिगेचर निष्क्रिय हो जाएंगे। डिफ़ॉल्ट रूप से, यह प्रॉपर्टी `false` पर सेट होती है। |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | images एम्बेडिंग विकल्प को लौटाता है या सेट करता है। पढ़ें/लिखें Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | निर्धारित करता है कि बाहरी संसाधन कहाँ संग्रहीत किए जाने चाहिए। पढ़ें/लिखें String. |
+| [PicturesCompression](../../aspose.slides.export/ihtml5options/picturescompression) { get; set; } | pictures संपीड़न स्तर को दर्शाता है। पढ़ें/लिखें [`PicturesCompression`](./picturescompression). |
+| [SlidesLayoutOptions](../../aspose.slides.export/ihtml5options/slideslayoutoptions) { get; set; } | एक प्रस्तुति निर्यात करते समय स्लाइड्स को पृष्ठ पर रखने के मोड को प्राप्त करता है या सेट करता है [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### उदाहरण
 
@@ -43,7 +43,7 @@ using (Presentation pres = new Presentation("demo.pptx"))
 }
 ```
 
-### संबंधित देखें
+### देखें
 
 * इंटरफ़ेस [ISaveOptions](../isaveoptions)
 * नामस्थान [Aspose.Slides.Export](../../aspose.slides.export)

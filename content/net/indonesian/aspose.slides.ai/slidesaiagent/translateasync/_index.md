@@ -21,10 +21,18 @@ public Task TranslateAsync(IPresentation presentation, string language)
 
 ### Pengecualian
 
-| pengecualian | kondisi |
+| Pengecualian | Kondisi |
 | --- | --- |
 | ArgumentNullException | Instansi presentasi tidak disediakan |
 | ArgumentException | Nilai bahasa tidak boleh null atau kosong |
+
+### Catatan
+
+Contoh di bawah ini menggunakan [`AsposeAIWebClient`](../../asposeaiwebclient) default, yang dibuat oleh konstruktor [`SlidesAIAgent`](../slidesaiagent) tanpa parameter dan terhubung ke LLM milik Aspose. Untuk menggunakan penyedia AI yang berbeda, sediakan LLM Anda sendiri, atau sesuaikan koneksi (misalnya, dengan menyediakan `HttpClient` Anda sendiri), berikan implementasi [`IAIWebClient`](../../iaiwebclient) ke konstruktor [`SlidesAIAgent`](../slidesaiagent). Implementasi yang tersedia meliputi:
+
+* [`AsposeAIWebClient`](../../asposeaiwebclient)
+* [`OpenAIWebClient`](../../openaiwebclient)
+* [`OpenAICompatibleWebClient`](../../openaicompatiblewebclient)
 
 ### Lihat Juga
 

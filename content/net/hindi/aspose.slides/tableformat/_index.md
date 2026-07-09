@@ -8,7 +8,7 @@ url: /hi/aspose.slides/tableformat/
 ---
 ## TableFormat क्लास
 
-एक तालिका का स्वरूप दर्शाता है।
+एक तालिका के स्वरूप का प्रतिनिधित्व करता है।
 
 ```csharp
 public sealed class TableFormat : DomObject<Table>, ITableFormat
@@ -18,16 +18,16 @@ public sealed class TableFormat : DomObject<Table>, ITableFormat
 
 | नाम | विवरण |
 | --- | --- |
-| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | टेबल फिल प्रॉपर्टी ऑब्जेक्ट लौटाता है। केवल पढ़ने योग्य [`IFillFormat`](../ifillformat)। |
-| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | फिल रंग की पारदर्शिता प्राप्त करता है या सेट करता है। पढ़ने/लिखने योग्य Single। |
+| [FillFormat](../../aspose.slides/tableformat/fillformat) { get; } | एक तालिका फ़िल प्रॉपर्टी ऑब्जेक्ट लौटाता है। केवल-पढ़ने योग्य [`IFillFormat`](../ifillformat)। |
+| [Transparency](../../aspose.slides/tableformat/transparency) { get; set; } | फ़िल रंग की पारदर्शिता प्राप्त करता है या सेट करता है। पढ़ने-लिखने योग्य Single। |
 
-## विधियाँ
+## मेथड्स
 
 | नाम | विवरण |
 | --- | --- |
-| [GetEffective](../../aspose.slides/tableformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका स्वरूपण गुण प्राप्त करता है। |
+| [GetEffective](../../aspose.slides/tableformat/geteffective)() | विरासत और तालिका शैलियों के लागू होने के साथ प्रभावी तालिका स्वरूपण प्रॉपर्टीज़ प्राप्त करता है। |
 
-### संबंधित देखें
+### देखें
 
 * क्लास [DomObject&lt;TParent&gt;](../domobject-1)
 * क्लास [Table](../table)

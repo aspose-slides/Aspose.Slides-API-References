@@ -16,22 +16,22 @@ public class VideoCollection : DomObject<Presentation>, IVideoCollection
 
 ## 屬性
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [Count](../../aspose.slides/videocollection/count) { get; } | 傳回集合中影片檔案的數量。唯讀 Int32。 |
-| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 傳回指示是否已同步（執行緒安全）存取集合的值。唯讀 Boolean。 |
-| [Item](../../aspose.slides/videocollection/item) { get; } | 取得指定索引處的元素。唯讀 [`IVideo`](../ivideo)。 |
+| [Count](../../aspose.slides/videocollection/count) { get; } | 傳回集合中 Video 檔案的數量。唯讀 Int32。 |
+| [IsSynchronized](../../aspose.slides/videocollection/issynchronized) { get; } | 傳回指示集合的存取是否同步化（執行緒安全）的值。唯讀 Boolean。 |
+| [Item](../../aspose.slides/videocollection/item) { get; } | 取得指定索引位置的元素。唯讀 [`IVideo`](../ivideo)。 |
 | [SyncRoot](../../aspose.slides/videocollection/syncroot) { get; } | 傳回同步根。唯讀 Object。 |
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 從位元組陣列建立並將影片加入簡報。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 從另一個簡報中加入影片檔案的副本。 |
-| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 從串流建立並將影片加入簡報。 |
-| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 將影片複製到指定的陣列，起始於指定的索引。 |
-| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | 傳回可遍歷集合的列舉器。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_1)(byte[]) | 從位元組陣列建立並將 Video 新增至簡報。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo)(IVideo) | 從另一個簡報加入 Video 檔案的副本。 |
+| [AddVideo](../../aspose.slides/videocollection/addvideo#addvideo_2)(Stream, LoadingStreamBehavior) | 從串流建立並將 Video 新增至簡報。 |
+| [CopyTo](../../aspose.slides/videocollection/copyto)(Array, int) | 將 Video 複製至指定陣列，從指定索引開始。 |
+| [GetEnumerator](../../aspose.slides/videocollection/getenumerator)() | 傳回用於遍歷集合的列舉器。 |
 
 ### 另請參閱
 

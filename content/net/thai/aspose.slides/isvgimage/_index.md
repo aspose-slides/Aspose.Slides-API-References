@@ -1,7 +1,7 @@
 ---
 title: ISvgImage
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: เป็นตัวแทนของภาพ SVG.
+second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
+description: แสดงถึงภาพ SVG.
 type: docs
 weight: 7180
 url: /th/aspose.slides/isvgimage/
@@ -18,10 +18,10 @@ public interface ISvgImage
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | ส่งคืน URI พื้นฐานของ SVG ที่ระบุ ใช้เพื่อแก้ไขลิงก์สัมพันธ์ อ่านอย่างเดียว String. |
-| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | ส่งคืนอินเทอร์เฟซ callback ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร SVG อ่านอย่างเดียว [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
-| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | ส่งคืนเนื้อหา SVG อ่านอย่างเดียว String. |
-| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | ส่งคืนข้อมูล SVG อ่านอย่างเดียว Byte[]. |
+| [BaseUri](../../aspose.slides/isvgimage/baseuri) { get; } | คืนค่า base URI ของ SVG ที่ระบุ ใช้เพื่อแก้ไขลิงก์แบบสัมพันธ์ อ่านอย่างเดียว String. |
+| [ExternalResourceResolver](../../aspose.slides/isvgimage/externalresourceresolver) { get; } | คืนค่า callback interface ที่ใช้เพื่อแก้ไขทรัพยากรภายนอกระหว่างการนำเข้าเอกสาร SVG อ่านอย่างเดียว [`IExternalResourceResolver`](../../aspose.slides.import/iexternalresourceresolver). |
+| [SvgContent](../../aspose.slides/isvgimage/svgcontent) { get; } | คืนค่าเนื้อหา SVG อ่านอย่างเดียว String. |
+| [SvgData](../../aspose.slides/isvgimage/svgdata) { get; } | คืนค่าข้อมูล SVG อ่านอย่างเดียว Byte[]. |
 
 ## เมธอด
 

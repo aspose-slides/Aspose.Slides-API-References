@@ -1,14 +1,14 @@
 ---
 title: IThemeEffectiveData
 second_title: Aspose.Sildes için .NET API Referansı
-description: Etkili tema özelliklerini içeren değiştirilemez nesne.
+description: Etkili tema özelliklerini içeren değişmez nesne.
 type: docs
-weight: 11360
+weight: 11380
 url: /tr/aspose.slides.theme/ithemeeffectivedata/
 ---
-## IThemeEffectiveData arabirimi
+## IThemeEffectiveData arayüz
 
-Etkili tema özelliklerini içeren değiştirilemez nesne.
+Etkili tema özelliklerini içeren değişmez nesne.
 
 ```csharp
 public interface IThemeEffectiveData
@@ -18,10 +18,10 @@ public interface IThemeEffectiveData
 
 | Ad | Açıklama |
 | --- | --- |
-| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Yazı tipi şemasını döndürür. Salt okunur [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
-| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Şekil biçim şemasını döndürür. Salt okunur [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
+| [FontScheme](../../aspose.slides.theme/ithemeeffectivedata/fontscheme) { get; } | Yazı tipi şemasını döndürür. Yalnızca okunur [`IFontSchemeEffectiveData`](../ifontschemeeffectivedata). |
+| [FormatScheme](../../aspose.slides.theme/ithemeeffectivedata/formatscheme) { get; } | Şekil biçim şemasını döndürür. Yalnızca okunur [`IFormatSchemeEffectiveData`](../iformatschemeeffectivedata). |
 
-## Metotlar
+## Yöntemler
 
 | Ad | Açıklama |
 | --- | --- |
@@ -31,7 +31,7 @@ public interface IThemeEffectiveData
 
 Bu arayüz, [`ITheme`](../itheme) arayüzüyle birlikte, kalıtım uygulanmış etkili biçimlendirme değerlerini döndürmek için kullanılır.
 
-### Bkz
+### Ayrıca Bakınız
 
 * ad alanı [Aspose.Slides.Theme](../../aspose.slides.theme)
 * derleme [Aspose.Slides](../../)

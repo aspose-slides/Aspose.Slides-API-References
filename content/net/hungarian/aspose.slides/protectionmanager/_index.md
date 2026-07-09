@@ -1,9 +1,9 @@
 ---
 title: ProtectionManager
-second_title: Aspose.Sildes .NET API referencia
-description: A prezentáció jelszóvédelmi kezelése.
+second_title: Aspose.Sildes .NET API hivatkozás
+description: A prezentáció jelszóvédelemének kezelése.
 type: docs
-weight: 9660
+weight: 9680
 url: /hu/aspose.slides/protectionmanager/
 ---
 ## ProtectionManager osztály
@@ -16,26 +16,26 @@ public sealed class ProtectionManager : IProtectionManager
 
 ## Tulajdonságok
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Ez a tulajdonság akkor értelmezhető, ha a prezentáció jelszóval védett. Ha true, akkor a dokumentum tulajdonságok titkosítva vannak a prezentáció fájlban. Ha false, akkor a dokumentum tulajdonságok nyilvánosak, míg a prezentáció titkosított. Olvasás/írás Boolean. |
-| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Lekéri a jelszót, amely a prezentáció titkosításához használatos. Csak olvasható String. |
-| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Lekéri az értéket, amely jelzi, hogy ez a példány titkosított-e. Csak olvasható Boolean. |
-| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Ez a tulajdonság akkor értelmezhető, ha a prezentációfájl jelszóval védett és a fájl dokumentumtulajdonságai nyilvánosak. A true érték azt jelenti, hogy csak a dokumentumtulajdonságok töltődnek be egy titkosított prezentációfájlból jelszó használata nélkül. A false érték azt jelenti, hogy a teljes titkosított prezentáció betöltődik a megfelelő jelszó használatával, nem csak a dokumentumtulajdonságok. Ha a prezentáció nincs titkosítva, akkor a tulajdonság értéke mindig false. Ha egy titkosított fájl dokumentumtulajdonságai nem nyilvánosak, akkor a tulajdonság értéke mindig false. Ha a Presentation.EncryptDocumentProperties true, akkor az IsOnlyDocumentPropertiesLoaded tulajdonság értéke mindig false. Csak olvasható Boolean. |
-| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Lekéri az értéket, amely jelzi, hogy ez a prezentáció írásvédett-e. Csak olvasható Boolean. |
-| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Lekéri vagy beállítja a csak-olvasás ajánlását. Olvasás/írás Boolean. |
+| [EncryptDocumentProperties](../../aspose.slides/protectionmanager/encryptdocumentproperties) { get; set; } | Ez a tulajdonság értelmes, ha a bemutató jelszóval védett. Ha igaz, akkor a dokumentum tulajdonságok titkosítva vannak a bemutató fájlban. Ha hamis, akkor a dokumentum tulajdonságok nyilvánosak, míg a bemutató titkosított. Olvasás/írás Boolean. |
+| [EncryptionPassword](../../aspose.slides/protectionmanager/encryptionpassword) { get; } | Lekéri a jelszót, amelyet a bemutató titkosításához használnak. Csak olvasás String. |
+| [IsEncrypted](../../aspose.slides/protectionmanager/isencrypted) { get; } | Lekéri az értéket, amely jelzi, hogy ez a példány titkosítva van-e. Csak olvasás Boolean. |
+| [IsOnlyDocumentPropertiesLoaded](../../aspose.slides/protectionmanager/isonlydocumentpropertiesloaded) { get; } | Ez a tulajdonság értelmes, ha a bemutató fájl jelszóval védett és a fájl dokumentum tulajdonságai nyilvánosak. Az igaz érték azt jelenti, hogy csak a dokumentum tulajdonságok töltődnek be egy titkosított bemutató fájlból jelszó használata nélkül. A hamis érték azt jelenti, hogy a teljes titkosított bemutató betöltődik a megfelelő jelszó használatával, nem csak a dokumentum tulajdonságok töltődnek be. Ha a bemutató nincs titkosítva, akkor a tulajdonság értéke mindig hamis. Ha egy titkosított fájl dokumentum tulajdonságai nem nyilvánosak, akkor a tulajdonság értéke mindig hamis. Ha a Presentation.EncryptDocumentProperties igaz, akkor az IsOnlyDocumentPropertiesLoaded tulajdonság értéke mindig hamis. Csak olvasás Boolean. |
+| [IsWriteProtected](../../aspose.slides/protectionmanager/iswriteprotected) { get; } | Lekéri az értéket, amely jelzi, hogy ez a bemutató írásvédett-e. Csak olvasás Boolean. |
+| [ReadOnlyRecommended](../../aspose.slides/protectionmanager/readonlyrecommended) { get; set; } | Lekérdezi vagy beállítja az írásvédett ajánlást. Olvasás/írás Boolean. |
 
-## Metódusok
+## Módszerek
 
-| Név | Leírás |
+| Name | Description |
 | --- | --- |
-| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Megállapítja, hogy a prezentáció módosításra jelszóval védett-e. |
-| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Titkosítja a prezentációt a megadott jelszóval. |
+| [CheckWriteProtection](../../aspose.slides/protectionmanager/checkwriteprotection)(string) | Megállapítja, hogy egy bemutató jelszóval védett-e a módosításhoz. |
+| [Encrypt](../../aspose.slides/protectionmanager/encrypt)(string) | Titkosítja a bemutatót a megadott jelszóval. |
 | [RemoveEncryption](../../aspose.slides/protectionmanager/removeencryption)() | Eltávolítja a titkosítást. |
-| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Eltávolítja az írásvédelmet ehhez a prezentációhoz. |
-| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Beállítja az írásvédelmet ehhez a prezentációhoz a megadott jelszóval. |
+| [RemoveWriteProtection](../../aspose.slides/protectionmanager/removewriteprotection)() | Eltávolítja a írásvédelmet ennél a bemutatónál. |
+| [SetWriteProtection](../../aspose.slides/protectionmanager/setwriteprotection)(string) | Beállítja a írásvédelmet a bemutatóhoz a megadott jelszóval. |
 
-### Lásd még
+### Továbbiak
 
 * interfész [IProtectionManager](../iprotectionmanager)
 * névtér [Aspose.Slides](../../aspose.slides)

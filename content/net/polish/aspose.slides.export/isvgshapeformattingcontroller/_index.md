@@ -1,14 +1,14 @@
 ---
 title: ISvgShapeFormattingController
-second_title: Aspose.Sildes dla .NET - dokumentacja API
-description: Kontroluje generowanie kształtów SVG.
+second_title: Aspose.Sildes dla .NET – dokumentacja API
+description: Kontroluje generowanie kształtu SVG.
 type: docs
-weight: 4110
+weight: 4130
 url: /pl/aspose.slides.export/isvgshapeformattingcontroller/
 ---
 ## ISvgShapeFormattingController interfejs
 
-Kontroluje generowanie kształtów SVG.
+Kontroluje generowanie kształtu SVG.
 
 ```csharp
 public interface ISvgShapeFormattingController

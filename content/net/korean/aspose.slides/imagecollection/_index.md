@@ -1,6 +1,6 @@
 ---
 title: ImageCollection
-second_title: Aspose.Sildes용 .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: PPImage 컬렉션을 나타냅니다.
 type: docs
 weight: 7420
@@ -8,7 +8,7 @@ url: /ko/aspose.slides/imagecollection/
 ---
 ## ImageCollection 클래스
 
-PPImage 컬렉션을 나타냅니다.
+Represents collection of PPImage.
 
 ```csharp
 public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
@@ -18,9 +18,9 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 
 | 이름 | 설명 |
 | --- | --- |
-| [Count](../../aspose.slides/imagecollection/count) { get; } | 컬렉션에 포함된 이미지 수를 반환합니다. 읽기 전용 Int32. |
-| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 컬렉션에 대한 접근이 동기화되는지(스레드 안전) 여부를 반환합니다. 읽기 전용 Boolean. |
-| [Item](../../aspose.slides/imagecollection/item) { get; } | 지정된 인덱스에 있는 요소를 가져옵니다. 읽기 전용 [`IPPImage`](../ippimage). |
+| [Count](../../aspose.slides/imagecollection/count) { get; } | 컬렉션에 있는 이미지 수를 반환합니다. 읽기 전용 Int32. |
+| [IsSynchronized](../../aspose.slides/imagecollection/issynchronized) { get; } | 컬렉션에 대한 액세스가 동기화(스레드 안전)되어 있는지 여부를 나타내는 값을 반환합니다. 읽기 전용 Boolean. |
+| [Item](../../aspose.slides/imagecollection/item) { get; } | 지정된 인덱스의 요소를 가져옵니다. 읽기 전용 [`IPPImage`](../ippimage). |
 | [SyncRoot](../../aspose.slides/imagecollection/syncroot) { get; } | 동기화 루트를 반환합니다. 읽기 전용 Object. |
 
 ## 메서드
@@ -29,13 +29,13 @@ public sealed class ImageCollection : DomObject<Presentation>, IImageCollection
 | --- | --- |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_3)(byte[]) | 지정된 버퍼에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage)(IImage) | 프레젠테이션에 이미지를 추가합니다. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 다른 프레젠테이션에서 이미지의 복사본을 추가합니다. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_1)(IPPImage) | 다른 프레젠테이션에서 이미지 복사본을 추가합니다. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_2)(ISvgImage) | Svg 객체에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_4)(MemoryStream) | 스트림에서 프레젠테이션에 이미지를 추가합니다. |
 | [AddImage](../../aspose.slides/imagecollection/addimage#addimage_5)(Stream) | 스트림에서 프레젠테이션에 이미지를 추가합니다. |
-| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 스트림에서 프레젠테이션에 이미지를 생성하고 추가합니다. |
+| [AddImage](../../aspose.slides/imagecollection/addimage#addimage_6)(Stream, LoadingStreamBehavior) | 스트림에서 이미지를 생성하고 프레젠테이션에 추가합니다. |
 | [CopyTo](../../aspose.slides/imagecollection/copyto)(Array, int) | 컬렉션의 모든 요소를 지정된 배열에 복사합니다. |
-| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 컬렉션을 순회하는 열거자를 반환합니다. |
+| [GetEnumerator](../../aspose.slides/imagecollection/getenumerator)() | 컬렉션을 반복하는 열거자를 반환합니다. |
 
 ### 참조
 

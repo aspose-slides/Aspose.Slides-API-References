@@ -1,6 +1,6 @@
 ---
 title: GradientStopCollectionEffectiveData
-second_title: Aspose.Sildes لـ .NET مرجع API
+second_title: Aspose.Sildes للـ .NET مرجع API
 description: يمثل مجموعة من كائنات GradientStopData.
 type: docs
 weight: 5040
@@ -18,19 +18,19 @@ public class GradientStopCollectionEffectiveData : IGradientStopCollectionEffect
 
 | الاسم | الوصف |
 | --- | --- |
-| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | إرجاع عدد نقاط التدرج في مجموعة. قراءة فقط Int32. |
-| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامنًا (آمن للموضوعات). قراءة فقط Boolean. |
-| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | إرجاع نقطة التدرج بحسب الفهرس. |
-| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | إرجاع جذر المزامنة. قراءة فقط Object. |
+| [Count](../../aspose.slides/gradientstopcollectioneffectivedata/count) { get; } | إرجاع عدد نقاط التدرج في مجموعة. للقراءة فقط Int32. |
+| [IsSynchronized](../../aspose.slides/gradientstopcollectioneffectivedata/issynchronized) { get; } | إرجاع قيمة تشير إلى ما إذا كان الوصول إلى المجموعة متزامن (آمن عبر خيوط). للقراءة فقط Boolean. |
+| [Item](../../aspose.slides/gradientstopcollectioneffectivedata/item) { get; } | إرجاع نقطة التدرج حسب الفهرس. |
+| [SyncRoot](../../aspose.slides/gradientstopcollectioneffectivedata/syncroot) { get; } | إرجاع جذر المزامنة. للقراءة فقط Object. |
 
-## الأساليب
+## الطرق
 
 | الاسم | الوصف |
 | --- | --- |
 | [CopyTo](../../aspose.slides/gradientstopcollectioneffectivedata/copyto)(Array, int) | نسخ جميع العناصر من المجموعة إلى المصفوفة المحددة. |
-| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | إرجاع عدّاد يتنقل عبر المجموعة. |
+| [GetEnumerator](../../aspose.slides/gradientstopcollectioneffectivedata/getenumerator)() | إرجاع عداد يعيد التجول عبر المجموعة. |
 
-### انظر أيضا
+### راجع أيضًا
 
 * واجهة [IGradientStopCollectionEffectiveData](../igradientstopcollectioneffectivedata)
 * نطاق [Aspose.Slides](../../aspose.slides)

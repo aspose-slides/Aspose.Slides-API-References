@@ -1,14 +1,14 @@
 ---
 title: IBackgroundEffectiveData
-second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติพื้นหลังที่มีผล
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: อ็อบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติพื้นหลังที่มีผล.
 type: docs
 weight: 5280
 url: /th/aspose.slides/ibackgroundeffectivedata/
 ---
-## IBackgroundEffectiveData อินเทอร์เฟส
+## IBackgroundEffectiveData อินเทอร์เฟซ
 
-อ็อบเจ็กต์แบบไม่เปลี่ยนแปลงซึ่งประกอบด้วยคุณสมบัติพื้นหลังที่มีผล
+ออบเจ็กต์ที่ไม่เปลี่ยนแปลงซึ่งมีคุณสมบัติพื้นหลังที่มีผล
 
 ```csharp
 public interface IBackgroundEffectiveData : IFillParamSource
@@ -18,17 +18,17 @@ public interface IBackgroundEffectiveData : IFillParamSource
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | คืนค่า IFillParamSource อินเทอร์เฟส |
-| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | คืนค่ารูปแบบเอฟเฟกต์ที่มีผล อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata) |
-| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | คืนค่ารูปแบบการเติมที่มีผล อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata) |
+| [AsIFillParamSource](../../aspose.slides/ibackgroundeffectivedata/asifillparamsource) { get; } | ส่งคืน IFillParamSource อินเทอร์เฟซ. |
+| [EffectFormat](../../aspose.slides/ibackgroundeffectivedata/effectformat) { get; } | ส่งคืนรูปแบบเอฟเฟกต์ที่มีผล. อ่านอย่างเดียว [`IEffectFormatEffectiveData`](../ieffectformateffectivedata). |
+| [FillFormat](../../aspose.slides/ibackgroundeffectivedata/fillformat) { get; } | ส่งคืนรูปแบบเติมที่มีผล. อ่านอย่างเดียว [`IFillFormatEffectiveData`](../ifillformateffectivedata). |
 
 ### หมายเหตุ
 
-อินเทอร์เฟสนี้ถูกใช้ร่วมกับ [`IBackground`](../ibackground) อินเทอร์เฟส เพื่อคืนค่าการจัดรูปแบบที่มีผลพร้อมการสืบทอดที่ใช้
+อินเทอร์เฟซนี้ถูกใช้ร่วมกับอินเทอร์เฟซ [`IBackground`](../ibackground) เพื่อส่งคืนค่าการจัดรูปแบบที่มีผลโดยใช้การสืบทอด
 
 ### ดูเพิ่มเติม
 
-* อินเทอร์เฟส [IFillParamSource](../ifillparamsource)
+* อินเทอร์เฟซ [IFillParamSource](../ifillparamsource)
 * เนมสเปซ [Aspose.Slides](../../aspose.slides)
 * แอสเซมบลี [Aspose.Slides](../../)
 

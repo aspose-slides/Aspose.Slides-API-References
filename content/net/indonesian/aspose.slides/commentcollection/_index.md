@@ -1,9 +1,9 @@
 ---
 title: CommentCollection
-second_title: Aspose.Sildes untuk Referensi API .NET
+second_title: Referensi API Aspose.Sildes untuk .NET
 description: Mewakili koleksi komentar dari satu penulis.
 type: docs
-weight: 2630
+weight: 2650
 url: /id/aspose.slides/commentcollection/
 ---
 ## CommentCollection kelas
@@ -19,7 +19,7 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | Nama | Deskripsi |
 | --- | --- |
 | [Count](../../aspose.slides/commentcollection/count) { get; } | Mendapatkan jumlah elemen yang sebenarnya terkandung dalam koleksi. Hanya-baca Int32. |
-| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (thread-safe). Hanya-baca Boolean. |
+| [IsSynchronized](../../aspose.slides/commentcollection/issynchronized) { get; } | Mengembalikan nilai yang menunjukkan apakah akses ke koleksi disinkronkan (aman terhadap thread). Hanya-baca Boolean. |
 | [Item](../../aspose.slides/commentcollection/item) { get; } | Mendapatkan elemen pada indeks yang ditentukan. Hanya-baca [`Comment`](../comment). |
 | [SyncRoot](../../aspose.slides/commentcollection/syncroot) { get; } | Mengembalikan akar sinkronisasi. Hanya-baca Object. |
 
@@ -29,16 +29,16 @@ public sealed class CommentCollection : DomObject<CommentAuthor>, ICommentCollec
 | --- | --- |
 | [AddComment](../../aspose.slides/commentcollection/addcomment)(string, ISlide, PointF, DateTime) | Menambahkan komentar baru di akhir koleksi. |
 | [AddModernComment](../../aspose.slides/commentcollection/addmoderncomment)(string, ISlide, IShape, PointF, DateTime) | Menambahkan komentar modern baru di akhir koleksi. |
-| [Clear](../../aspose.slides/commentcollection/clear)() | Menghapus semua komentar dari koleksi. |
+| [Clear](../../aspose.slides/commentcollection/clear)() | Menghapus semua komentar dari sebuah koleksi. |
 | [CopyTo](../../aspose.slides/commentcollection/copyto)(Array, int) | Menyalin semua elemen dari koleksi ke array yang ditentukan. |
 | [FindCommentByIdx](../../aspose.slides/commentcollection/findcommentbyidx)(int) | Menemukan komentar dalam koleksi berdasarkan indeks. |
-| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi melalui koleksi. |
-| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Menyisipkan komentar baru ke koleksi pada indeks yang ditentukan. |
-| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Menyisipkan komentar modern baru ke koleksi pada indeks yang ditentukan. |
-| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Menghapus kejadian pertama dari komentar yang ditentukan dalam koleksi. |
+| [GetEnumerator](../../aspose.slides/commentcollection/getenumerator)() | Mengembalikan enumerator yang mengiterasi koleksi. |
+| [InsertComment](../../aspose.slides/commentcollection/insertcomment)(int, string, ISlide, PointF, DateTime) | Menyisipkan komentar baru ke dalam koleksi pada indeks yang ditentukan. |
+| [InsertModernComment](../../aspose.slides/commentcollection/insertmoderncomment)(int, string, ISlide, IShape, PointF, DateTime) | Menyisipkan komentar modern baru ke dalam koleksi pada indeks yang ditentukan. |
+| [Remove](../../aspose.slides/commentcollection/remove)(IComment) | Menghapus kemunculan pertama dari komentar yang ditentukan dalam koleksi. |
 | [RemoveAt](../../aspose.slides/commentcollection/removeat)(int) | Menghapus elemen pada indeks yang ditentukan dalam koleksi. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Membuat dan mengembalikan array dengan semua komentar. |
-| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Membuat dan mengembalikan array dengan semua komentar dari rentang yang ditentukan. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray)() | Membuat dan mengembalikan array berisi semua komentar. |
+| [ToArray](../../aspose.slides/commentcollection/toarray#toarray_1)(int, int) | Membuat dan mengembalikan array berisi semua komentar dari rentang yang ditentukan. |
 
 ### Lihat Juga
 

@@ -1,14 +1,14 @@
 ---
 title: IPictureFrame
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: İçinde bir resim bulunan bir çerçeveyi temsil eder.
 type: docs
-weight: 6650
+weight: 6670
 url: /tr/aspose.slides/ipictureframe/
 ---
 ## IPictureFrame arayüzü
 
-İçinde bir resim bulunan bir çerçeveyi temsil eder.
+Bir resim içeren çerçeveyi temsil eder.
 
 ```csharp
 public interface IPictureFrame : IGeometryShape
@@ -18,14 +18,14 @@ public interface IPictureFrame : IGeometryShape
 
 | Ad | Açıklama |
 | --- | --- |
-| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Temel IGeometryShape arayüzünü almayı sağlar. Salt okunur [`IGeometryShape`](../igeometryshape). |
-| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Bir resim çerçevesi için PictureFillFormat nesnesini döndürür. Salt okunur [`IPictureFillFormat`](../ipicturefillformat). |
-| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame kilitlerini döndürür. Salt okunur [`IPictureFrameLock`](../ipictureframelock). |
-| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Resim çerçevesinin yüksekliğinin ölçeğini (orijinal resim boyutuna göre) döndürür veya ayarlar. Değer 1.0, %100'e karşılık gelir. Okuma/yazma Single. |
-| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Resim çerçevesinin genişliğinin ölçeğini (orijinal resim boyutuna göre) döndürür veya ayarlar. Değer 1.0, %100'e karşılık gelir. Okuma/yazma Single. |
-| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Şeklin kilitlerini döndürür. Salt okunur [`IPictureFrameLock`](../ipictureframelock). |
+| [AsIGeometryShape](../../aspose.slides/ipictureframe/asigeometryshape) { get; } | Temel IGeometryShape arayüzünü almayı sağlar. Yalnızca okuma [`IGeometryShape`](../igeometryshape). |
+| [PictureFormat](../../aspose.slides/ipictureframe/pictureformat) { get; } | Bir resim çerçevesi için PictureFillFormat nesnesini döndürür. Yalnızca okuma [`IPictureFillFormat`](../ipicturefillformat). |
+| [PictureFrameLock](../../aspose.slides/ipictureframe/pictureframelock) { get; } | PictureFrame kilitlerini döndürür. Yalnızca okuma [`IPictureFrameLock`](../ipictureframelock). |
+| [RelativeScaleHeight](../../aspose.slides/ipictureframe/relativescaleheight) { get; set; } | Resim çerçevesinin yüksekliğinin (orijinal resim boyutuna göre) ölçeğini döndürür veya ayarlar. Değer 1.0 %100'e eşittir. Okuma/yazma Single. |
+| [RelativeScaleWidth](../../aspose.slides/ipictureframe/relativescalewidth) { get; set; } | Resim çerçevesinin genişliğinin (orijinal resim boyutuna göre) ölçeğini döndürür veya ayarlar. Değer 1.0 %100'e eşittir. Okuma/yazma Single. |
+| [ShapeLock](../../aspose.slides/ipictureframe/shapelock) { get; } | Şeklin kilitlerini döndürür. Yalnızca okuma [`IPictureFrameLock`](../ipictureframelock). |
 
-### Diğer Bağlantılar
+### Ayrıca Bakınız
 
 * arayüz [IGeometryShape](../igeometryshape)
 * ad alanı [Aspose.Slides](../../aspose.slides)

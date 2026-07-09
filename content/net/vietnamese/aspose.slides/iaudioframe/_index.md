@@ -1,14 +1,14 @@
 ---
 title: IAudioFrame
-second_title: Tham chiếu API Aspose.Sildes cho .NET
-description: Đại diện cho một đoạn âm thanh trên một slide.
+second_title: Aspose.Sildes cho Tham khảo API .NET
+description: Biểu thị một đoạn âm thanh trên một slide.
 type: docs
 weight: 5230
 url: /vi/aspose.slides/iaudioframe/
 ---
 ## IAudioFrame giao diện
 
-Đại diện cho một đoạn âm thanh trên một slide.
+Biểu thị một đoạn âm thanh trên một slide.
 
 ```csharp
 public interface IAudioFrame : IPictureFrame
@@ -18,28 +18,28 @@ public interface IAudioFrame : IPictureFrame
 
 | Tên | Mô tả |
 | --- | --- |
-| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Cho phép lấy giao diện cơ bản IPictureFrame. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
-| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Trả về hoặc thiết lập chỉ mục bản ghi cuối cùng. Đọc/ghi Int32. |
-| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Trả về hoặc thiết lập thời gian bản ghi cuối cùng. Đọc/ghi Int32. |
-| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Trả về hoặc thiết lập chỉ mục bản ghi bắt đầu. Đọc/ghi Int32. |
-| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Trả về hoặc thiết lập thời gian bản ghi bắt đầu. Đọc/ghi Int32. |
-| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên quan đến khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các bản ghi phụ đề. |
-| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Xác định liệu âm thanh có được nhúng vào bài thuyết trình hay không. Chỉ đọc Boolean. |
-| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Trả về hoặc thiết lập đối tượng âm thanh nhúng. Đọc/ghi [`IAudio`](../iaudio). |
-| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Chỉ định thời lượng thời gian cho quá trình mờ dần ban đầu của media tính bằng mili giây. Đọc/ghi Single. |
-| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Chỉ định thời lượng thời gian cho quá trình mờ dần cuối cùng của media tính bằng mili giây. Đọc/ghi Single. |
+| [AsIPictureFrame](../../aspose.slides/iaudioframe/asipictureframe) { get; } | Cho phép lấy giao diện cơ sở IPictureFrame. Chỉ đọc [`IPictureFrame`](../ipictureframe). |
+| [AudioCdEndTrack](../../aspose.slides/iaudioframe/audiocdendtrack) { get; set; } | Trả về hoặc đặt chỉ số bản ghi cuối cùng Đọc/ghi Int32. |
+| [AudioCdEndTrackTime](../../aspose.slides/iaudioframe/audiocdendtracktime) { get; set; } | Trả về hoặc đặt thời gian bản ghi cuối cùng. Đọc/ghi Int32. |
+| [AudioCdStartTrack](../../aspose.slides/iaudioframe/audiocdstarttrack) { get; set; } | Trả về hoặc đặt chỉ số bản ghi bắt đầu. Đọc/ghi Int32. |
+| [AudioCdStartTrackTime](../../aspose.slides/iaudioframe/audiocdstarttracktime) { get; set; } | Trả về hoặc đặt thời gian bản ghi bắt đầu. Đọc/ghi Int32. |
+| [CaptionTracks](../../aspose.slides/iaudioframe/captiontracks) { get; } | Lấy bộ sưu tập phụ đề đóng liên quan tới khung âm thanh. Thuộc tính này chỉ đọc và trả về một [`ICaptionsCollection`](../icaptionscollection) chứa tất cả các bản ghi phụ đề. |
+| [Embedded](../../aspose.slides/iaudioframe/embedded) { get; } | Xác định liệu âm thanh có được nhúng vào bản trình chiếu hay không. Chỉ đọc Boolean. |
+| [EmbeddedAudio](../../aspose.slides/iaudioframe/embeddedaudio) { get; set; } | Trả về hoặc đặt đối tượng âm thanh nhúng. Đọc/ghi [`IAudio`](../iaudio). |
+| [FadeInDuration](../../aspose.slides/iaudioframe/fadeinduration) { get; set; } | Xác định thời lượng thời gian cho fade-in ban đầu của media tính bằng mili giây. Đọc/ghi Single. |
+| [FadeOutDuration](../../aspose.slides/iaudioframe/fadeoutduration) { get; set; } | Xác định thời lượng thời gian cho fade-out cuối cùng của media tính bằng mili giây. Đọc/ghi Single. |
 | [HideAtShowing](../../aspose.slides/iaudioframe/hideatshowing) { get; set; } | Xác định liệu AudioFrame có bị ẩn hay không. Đọc/ghi Boolean. |
-| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Trả về hoặc thiết lập tên của tệp âm thanh được liên kết với một AudioFrame. Đọc/ghi String. |
+| [LinkPathLong](../../aspose.slides/iaudioframe/linkpathlong) { get; set; } | Trả về hoặc đặt tên của tệp âm thanh được liên kết với AudioFrame. Đọc/ghi String. |
 | [PlayAcrossSlides](../../aspose.slides/iaudioframe/playacrossslides) { get; set; } | Xác định liệu âm thanh có phát xuyên suốt các slide hay không. Đọc/ghi Boolean. |
 | [PlayLoopMode](../../aspose.slides/iaudioframe/playloopmode) { get; set; } | Xác định liệu âm thanh có được lặp lại hay không. Đọc/ghi Boolean. |
-| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Trả về hoặc thiết lập chế độ phát âm thanh. Đọc/ghi [`AudioPlayModePreset`](../audioplaymodepreset). |
+| [PlayMode](../../aspose.slides/iaudioframe/playmode) { get; set; } | Trả về hoặc đặt chế độ phát âm thanh. Đọc/ghi [`AudioPlayModePreset`](../audioplaymodepreset). |
 | [RewindAudio](../../aspose.slides/iaudioframe/rewindaudio) { get; set; } | Xác định liệu âm thanh có tự động tua lại về đầu sau khi phát hay không. Đọc/ghi Boolean. |
-| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Chỉ định thời lượng thời gian sẽ bị loại bỏ từ cuối media trong quá trình phát, tính bằng mili giây. Đọc/ghi Single. |
-| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Chỉ định thời lượng thời gian sẽ bị loại bỏ từ đầu media trong quá trình phát, tính bằng mili giây. Đọc/ghi Single. |
-| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Trả về hoặc thiết lập âm lượng âm thanh. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
-| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Trả về hoặc thiết lập âm lượng âm thanh dưới dạng phần trăm. Đọc/ghi Single. |
+| [TrimFromEnd](../../aspose.slides/iaudioframe/trimfromend) { get; set; } | Xác định thời lượng thời gian sẽ bị loại bỏ từ cuối media trong quá trình phát, tính bằng mili giây. Đọc/ghi Single. |
+| [TrimFromStart](../../aspose.slides/iaudioframe/trimfromstart) { get; set; } | Xác định thời lượng thời gian sẽ bị loại bỏ từ đầu media trong quá trình phát, tính bằng mili giây. Đọc/ghi Single. |
+| [Volume](../../aspose.slides/iaudioframe/volume) { get; set; } | Trả về hoặc đặt âm lượng âm thanh. Đọc/ghi [`AudioVolumeMode`](../audiovolumemode). |
+| [VolumeValue](../../aspose.slides/iaudioframe/volumevalue) { get; set; } | Trả về hoặc đặt âm lượng âm thanh tính bằng phần trăm. Đọc/ghi Single. |
 
-### Xem Thêm
+### Xem thêm
 
 * giao diện [IPictureFrame](../ipictureframe)
 * không gian tên [Aspose.Slides](../../aspose.slides)

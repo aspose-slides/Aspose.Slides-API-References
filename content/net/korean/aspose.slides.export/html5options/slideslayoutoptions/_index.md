@@ -1,6 +1,6 @@
 ---
 title: SlidesLayoutOptions
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 프레젠테이션을 내보낼 때 슬라이드가 페이지에 배치되는 모드를 가져오거나 설정합니다 ISlidesLayoutOptionsaspose.slides.export/islideslayoutoptions.
 type: docs
 weight: 80
@@ -16,7 +16,7 @@ public ISlidesLayoutOptions SlidesLayoutOptions { get; set; }
 
 ### 예제
 
-예제:
+예시:
 
 ```csharp
 [C#]
@@ -34,7 +34,7 @@ using (Presentation pres = new Presentation("pres.pptx"))
 }
 ```
 
-### 참고
+### 참조
 
 * 인터페이스 [ISlidesLayoutOptions](../../islideslayoutoptions)
 * 클래스 [Html5Options](../../html5options)

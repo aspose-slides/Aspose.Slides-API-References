@@ -1,14 +1,14 @@
 ---
 title: MorphTransition
-second_title: Aspose.Sildes の .NET API リファレンス
-description: リップル スライド遷移効果。
+second_title: Aspose.Sildes for .NET API リファレンス
+description: リップルスライド遷移効果。
 type: docs
-weight: 10230
+weight: 10250
 url: /ja/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition クラス
 
-リップル スライド遷移効果。
+リップルスライド遷移効果。
 
 ```csharp
 public class MorphTransition : TransitionValueBase, IMorphTransition
@@ -18,7 +18,7 @@ public class MorphTransition : TransitionValueBase, IMorphTransition
 
 | 名前 | 説明 |
 | --- | --- |
-| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | モーフ遷移のタイプ。読み取り/書き込み可能 [`TransitionMorphType`](../transitionmorphtype)。 |
+| [MorphType](../../aspose.slides.slideshow/morphtransition/morphtype) { get; set; } | Morph遷移の型。読み取り/書き込み [`TransitionMorphType`](../transitionmorphtype)。 |
 
 ## メソッド
 

@@ -1,50 +1,50 @@
 ---
 title: BehaviorPropertyCollection
-second_title: Aspose.Sildes برای مرجع API .NET
-description: خواص زمان‌بندی برای رفتار افکت را نشان می‌دهد.
+second_title: مرجع API Aspose.Sildes برای .NET
+description: خواص زمان‌بندی برای رفتار اثر را نمایندگی می‌کند.
 type: docs
 weight: 200
 url: /fa/aspose.slides.animation/behaviorpropertycollection/
 ---
 ## BehaviorPropertyCollection کلاس
 
-Represents timing properties for the effect behavior.
+خواص زمان‌بندی برای رفتار اثر را نمایندگی می‌کند.
 
 ```csharp
 public class BehaviorPropertyCollection : IBehaviorPropertyCollection
 ```
 
-## خصوصیات
+## ویژگی‌ها
 
 | نام | توضیح |
 | --- | --- |
-| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | تعداد خصوصیات ذخیره‌شده در مجموعه را برمی‌گرداند. فقط-خواندنی Int32. |
-| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | یک مقدار دریافت می‌کند که نشان می‌دهد آیا ICollection فقط-خواندنی است. فقط-خواندنی Boolean. |
-| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | خصوصییتی را در ایندکس مشخص برمی‌گرداند. |
+| [Count](../../aspose.slides.animation/behaviorpropertycollection/count) { get; } | تعداد خواص ذخیره‌شده در مجموعه را برمی‌گرداند. فقط‌خواندنی Int32. |
+| [IsReadOnly](../../aspose.slides.animation/behaviorpropertycollection/isreadonly) { get; } | مقداری را برمی‌گرداند که نشان می‌دهد آیا ICollection فقط‌خواندنی است. فقط‌خواندنی Boolean. |
+| [Item](../../aspose.slides.animation/behaviorpropertycollection/item) { get; set; } | خواصی را در اندیس مشخص شده برمی‌گرداند. |
 
 ## متدها
 
 | نام | توضیح |
 | --- | --- |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | یک خصوصیت جدید به مجموعه اضافه می‌کند. |
-| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | یک خصوصیت جدید به مجموعه اضافه می‌کند. |
-| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | تمام خصوصیات را از مجموعه حذف می‌کند. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | تعیین می‌کند آیا ICollection شامل مقدار خاصی است یا نه. |
-| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | تعیین می‌کند آیا ICollection شامل مقدار خاصی است یا نه. |
-| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | عناصر ICollection را به یک آرایه کپی می‌کند، از یک ایندکس مشخص در آرایه شروع می‌شود. |
-| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | یک Enumerator برمی‌گرداند که در مجموعه مرور می‌کند. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | ایندکس یک مورد خاص را در IList تعیین می‌کند. |
-| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | ایندکس یک مورد خاص را بر اساس مقدار خصوصیت در IList تعیین می‌کند. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | یک خصوصیت جدید را در ایندکس مشخص به مجموعه وارد می‌کند. |
-| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | یک خصوصیت جدید (با مقدار خصوصیت مشخص شده) را در ایندکس مشخص به مجموعه وارد می‌کند. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | خصوصیت مشخص شده را از مجموعه حذف می‌کند. |
-| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | خصوصیت مشخص شده را از مجموعه حذف می‌کند. |
-| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | خصوصیت را در ایندکس مشخص حذف می‌کند. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add)(IBehaviorProperty) | یک ویژگی جدید به مجموعه اضافه می‌کند. |
+| [Add](../../aspose.slides.animation/behaviorpropertycollection/add#add_1)(string) | یک ویژگی جدید به مجموعه اضافه می‌کند. |
+| [Clear](../../aspose.slides.animation/behaviorpropertycollection/clear)() | تمام ویژگی‌ها را از مجموعه حذف می‌کند. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains)(IBehaviorProperty) | تعیین می‌کند آیا ICollection شامل مقدار خاصی است. |
+| [Contains](../../aspose.slides.animation/behaviorpropertycollection/contains#contains_1)(string) | تعیین می‌کند آیا ICollection شامل مقدار خاصی است. |
+| [CopyTo](../../aspose.slides.animation/behaviorpropertycollection/copyto)(IBehaviorProperty[], int) | عناصر ICollection را به یک Array کپی می‌کند، شروع از یک ایندکس خاص در Array. |
+| [GetEnumerator](../../aspose.slides.animation/behaviorpropertycollection/getenumerator)() | یک enumerator که روی مجموعه پیمایش می‌کند را برمی‌گرداند. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof)(IBehaviorProperty) | ایندکس یک آیتم خاص در IList را تعیین می‌کند. |
+| [IndexOf](../../aspose.slides.animation/behaviorpropertycollection/indexof#indexof_1)(string) | ایندکس یک آیتم خاص را بر اساس مقدار ویژگی در IList تعیین می‌کند. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert)(int, IBehaviorProperty) | یک ویژگی جدید را در ایندکس مشخص به مجموعه اضافه می‌کند. |
+| [Insert](../../aspose.slides.animation/behaviorpropertycollection/insert#insert_1)(int, string) | یک ویژگی جدید (با مقدار ویژگی مشخص) را در ایندکس مشخص به مجموعه اضافه می‌کند. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove)(IBehaviorProperty) | ویژگی مشخص‌شده را از مجموعه حذف می‌کند. |
+| [Remove](../../aspose.slides.animation/behaviorpropertycollection/remove#remove_1)(string) | ویژگی مشخص‌شده را از مجموعه حذف می‌کند. |
+| [RemoveAt](../../aspose.slides.animation/behaviorpropertycollection/removeat)(int) | ویژگی را در ایندکس مشخص حذف می‌کند. |
 
 ### موارد مرتبط
 
 * رابط [IBehaviorPropertyCollection](../ibehaviorpropertycollection)
 * فضای‌نام [Aspose.Slides.Animation](../../aspose.slides.animation)
-* اسمبلی [Aspose.Slides](../../)
+* مجتمع [Aspose.Slides](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

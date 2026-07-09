@@ -1,14 +1,14 @@
 ---
 title: IHyperlinkQueries
 second_title: Aspose.Sildes for .NET API 參考
-description: 提供對包含的超連結的簡易存取。
+description: 提供對所含超連結的簡易存取。
 type: docs
 weight: 6140
 url: /zh-hant/aspose.slides/ihyperlinkqueries/
 ---
 ## IHyperlinkQueries 介面
 
-提供對包含的超連結的簡便存取。
+提供對所含超連結的簡易存取。
 
 ```csharp
 public interface IHyperlinkQueries
@@ -16,14 +16,14 @@ public interface IHyperlinkQueries
 
 ## 方法
 
-| 名稱 | 說明 |
+| 名稱 | 描述 |
 | --- | --- |
-| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | 取得所有包含非 null HyperlinkMouseOver 的 IHyperlinkContainer 子對象。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
-| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | 取得所有包含非 null HyperlinkClick 的 IHyperlinkContainer 子對象。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
-| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | 取得所有包含非 null HyperlinkMouseOver 的 IHyperlinkContainer 子對象。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
-| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | 移除所有包含的 HyperlinkClick 和 HyperlinkMouseOver 超連結（在所有 IHyperlinkContainer 子對象中）。 |
+| [GetAnyHyperlinks](../../aspose.slides/ihyperlinkqueries/getanyhyperlinks)() | 取得所有 IHyperlinkContainer 子物件，其包含非 null HyperlinkMouseOver。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
+| [GetHyperlinkClicks](../../aspose.slides/ihyperlinkqueries/gethyperlinkclicks)() | 取得所有 IHyperlinkContainer 子物件，其包含非 null HyperlinkClick。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
+| [GetHyperlinkMouseOvers](../../aspose.slides/ihyperlinkqueries/gethyperlinkmouseovers)() | 取得所有 IHyperlinkContainer 子物件，其包含非 null HyperlinkMouseOver。使用給定的 IHyperlinkContainer 物件，您可以管理其超連結（讀取、更新或移除）。請參閱 IHyperlinkContainer 介面。 |
+| [RemoveAllHyperlinks](../../aspose.slides/ihyperlinkqueries/removeallhyperlinks)() | 移除所有包含的 HyperlinkClick 與 HyperlinkMouseOver 超連結（在所有 IHyperlinkContainer 子物件中）。 |
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides](../../aspose.slides)
 * 組件 [Aspose.Slides](../../)

@@ -1,7 +1,7 @@
 ---
 title: CallChatAsync
 second_title: Aspose.Sildes voor .NET API-referentie
-description: Verstuurt een chatinstructie naar het AI-model met behulp van een extern beheerde HttpClient-instantie en retourneert het responsbericht op de opgegeven instructie.
+description: Stuurt een chatinstructie naar het AI-model met behulp van een extern beheerde HttpClient-instantie en retourneert het responsbericht op de opgegeven instructie.
 type: docs
 weight: 20
 url: /nl/aspose.slides.ai/openaicompatiblewebclient/callchatasync/
@@ -16,17 +16,17 @@ public Task<string> CallChatAsync(string instruction)
 
 | Parameter | Type | Beschrijving |
 | --- | --- | --- |
-| instruction | String | De instructie of het bericht dat door het AI-model verwerkt moet worden. |
+| instruction | String | De instructie of het bericht dat door het AI-model moet worden verwerkt. |
 
 ### Retourwaarde
 
-Het bericht dat door het AI-model is gegenereerd als reactie op de opgegeven instructie.
+Het bericht dat door het AI-model wordt gegenereerd als reactie op de opgegeven instructie.
 
 ### Uitzonderingen
 
-| exception | condition |
+| exceptie | conditie |
 | --- | --- |
-| ArgumentException | OpenAI-compatibele chatinstructie mag niet null of leeg zijn |
+| ArgumentException | OpenAI-compatible chat-instructie mag niet null of leeg zijn |
 
 ### Zie ook
 

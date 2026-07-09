@@ -1,14 +1,14 @@
 ---
 title: ITransitionValueBase
-second_title: Tham khảo API Aspose.Sildes cho .NET
-description: Biểu diễn lớp cơ sở cho các hiệu ứng chuyển tiếp slide.
+second_title: Aspose.Sildes cho .NET Tham chiếu API
+description: Biểu diễn lớp cơ sở cho các hiệu ứng chuyển đổi slide.
 type: docs
 weight: 10210
 url: /vi/aspose.slides.slideshow/itransitionvaluebase/
 ---
 ## ITransitionValueBase giao diện
 
-Biểu diễn lớp cơ bản cho các hiệu ứng chuyển tiếp slide.
+Biểu diễn lớp cơ sở cho các hiệu ứng chuyển đổi slide.
 
 ```csharp
 public interface ITransitionValueBase

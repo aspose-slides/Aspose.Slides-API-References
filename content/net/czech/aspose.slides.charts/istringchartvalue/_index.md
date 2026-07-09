@@ -1,14 +1,14 @@
 ---
 title: IStringChartValue
-second_title: Aspose.Sildes pro .NET API Reference
-description: Reprezentuje řetězcovou hodnotu, která může být uložena do dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota.
+second_title: Aspose.Sildes pro .NET API referenci
+description: Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem, 2) jako doslovná hodnota.
 type: docs
-weight: 2200
+weight: 2220
 url: /cs/aspose.slides.charts/istringchartvalue/
 ---
 ## IStringChartValue rozhraní
 
-Representuje řetězcovou hodnotu, kterou lze uložit do dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako doslovnou hodnotu.
+Reprezentuje řetězcovou hodnotu, která může být uložena v dokumentu prezentace pptx dvěma způsoby: 1) v buňce/buňkách sešitu souvisejícího s grafem; 2) jako doslovná hodnota.
 
 ```csharp
 public interface IStringChartValue : IMultipleCellChartValue
@@ -16,18 +16,18 @@ public interface IStringChartValue : IMultipleCellChartValue
 
 ## Vlastnosti
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
-| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Umožňuje získat základní rozhraní IMultipleCellChartValue. Pouze ke čtení [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
-| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje doslovný řetězec, pokud je vlastnost DataSourceType rovna DataSourceType.StringLiterals. Čtení/zápis String. |
+| [AsIMultipleCellChartValue](../../aspose.slides.charts/istringchartvalue/asimultiplecellchartvalue) { get; } | Umožňuje získat základní rozhraní IMultipleCellChartValue. Pouze pro čtení [`IMultipleCellChartValue`](../imultiplecellchartvalue). |
+| [AsLiteralString](../../aspose.slides.charts/istringchartvalue/asliteralstring) { get; set; } | Vrací nebo nastavuje doslovný řetězec, pokud je vlastnost DataSourceType nastavena na DataSourceType.StringLiterals. Čtení/zápis String. |
 
 ## Metody
 
-| Name | Description |
+| Název | Popis |
 | --- | --- |
 | [GetCellsAddressInWorkbook](../../aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook)() | Pokud je vlastnost DataSourceType nastavena na DataSourceType.Worksheet, tato metoda vrátí adresu buněk v sešitu, které představují řetězcová data. V opačném případě vrátí prázdný řetězec. |
 | [SetFromOneCell](../../aspose.slides.charts/istringchartvalue/setfromonecell)(IChartDataCell) | Nastaví hodnotu z určené buňky. |
-| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Vrací řetězcovou reprezentaci. |
+| [ToString](../../aspose.slides.charts/istringchartvalue/tostring)() | Vrátí řetězcovou reprezentaci. |
 
 ### Viz také
 

@@ -1,20 +1,20 @@
 ---
 title: IEffectEffectiveData
 second_title: Aspose.Sildes for .NET API 參考
-description: 用於不可變物件的基礎類別，這些物件代表效果。
+description: 用於表示效果的不可變對象的基類。
 type: docs
 weight: 3280
 url: /zh-hant/aspose.slides.effects/ieffecteffectivedata/
 ---
 ## IEffectEffectiveData 介面
 
-基礎類別，用於不可變的物件，這些物件代表效果。
+用於表示效果的不可變對象的基類。
 
 ```csharp
 public interface IEffectEffectiveData
 ```
 
-### 另請參閱
+### 另見
 
 * 命名空間 [Aspose.Slides.Effects](../../aspose.slides.effects)
 * 組件 [Aspose.Slides](../../)

@@ -3,12 +3,12 @@ title: ColorScheme
 second_title: Aspose.Sildes için .NET API Referansı
 description: Tema tanımlı renkleri depolar.
 type: docs
-weight: 11050
+weight: 11070
 url: /tr/aspose.slides.theme/colorscheme/
 ---
 ## ColorScheme sınıfı
 
-Temaya özgü renkleri depolar.
+Tema tanımlı renkleri depolar.
 
 ```csharp
 public class ColorScheme : IColorScheme
@@ -26,9 +26,9 @@ public class ColorScheme : IColorScheme
 | [Accent6](../../aspose.slides.theme/colorscheme/accent6) { get; } | Şemadaki altıncı vurgu rengi. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark1](../../aspose.slides.theme/colorscheme/dark1) { get; } | Şemadaki ilk koyu renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Dark2](../../aspose.slides.theme/colorscheme/dark2) { get; } | Şemadaki ikinci koyu renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Ziyaret edilen bağlantılar için renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [FollowedHyperlink](../../aspose.slides.theme/colorscheme/followedhyperlink) { get; } | Ziyaret edilmiş bağlantılar için renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Hyperlink](../../aspose.slides.theme/colorscheme/hyperlink) { get; } | Bağlantılar için renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
-| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Belirtilen dizindeki öğeyi alır. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [Item](../../aspose.slides.theme/colorscheme/item) { get; } | Belirtilen indeksteki öğeyi alır. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light1](../../aspose.slides.theme/colorscheme/light1) { get; } | Şemadaki ilk açık renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Light2](../../aspose.slides.theme/colorscheme/light2) { get; } | Şemadaki ikinci açık renk. Salt okunur [`IColorFormat`](../../aspose.slides/icolorformat). |
 | [Presentation](../../aspose.slides.theme/colorscheme/presentation) { get; } | Üst sunumu döndürür. Salt okunur [`IPresentation`](../../aspose.slides/ipresentation). |

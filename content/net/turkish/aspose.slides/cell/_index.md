@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Sildes için .NET API Referansı
 description: Bir tablonun hücresini temsil eder.
 type: docs
-weight: 1110
+weight: 1130
 url: /tr/aspose.slides/cell/
 ---
 ## Cell sınıfı
@@ -18,41 +18,41 @@ public class Cell : ICell
 
 | Name | Description |
 | --- | --- |
-| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Bir hücre içinde metin kutusunun ortalanıp ortalanmadığını belirler. Okunur/Yazılabilir Boolean. |
-| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Bu hücre için biçimlendirme özelliklerini içeren CellFormat nesnesini döndürür. Salt okunur [`ICellFormat`](../icellformat). |
-| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Üst tablonun tablo ızgarasındaki, mevcut hücre tarafından kapsanacak ızgara sütun sayısını döndürür. Bu özellik, hücrelerin tablo içindeki diğer hücrelerin dikey sınırlarını kapsaması sayesinde birleşik görünüm elde etmesini sağlar. Salt okunur Int32. |
-| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Hücrenin ilk sütununu alır. Salt okunur [`IColumn`](../icolumn). |
-| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Hücre tarafından kapsanan ilk sütunun indeksini döndürür. Salt okunur Int32. |
-| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Hücrenin ilk satırını alır. Salt okunur [`IRow`](../irow). |
-| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Hücre tarafından kapsanan ilk satırın indeksini döndürür. Salt okunur Int32. |
-| [Height](../../aspose.slides/cell/height) { get; } | Hücrenin yüksekliğini döndürür. Salt okunur Double. |
-| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Hücrenin ayarlanmış bir hücreyle birleştirilip birleştirilmediğini true, aksi halde false olarak döndürür. Salt okunur Boolean. |
-| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | Bir TextFrame içinde alt kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | Bir TextFrame içinde sol kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | Bir TextFrame içinde sağ kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | Bir TextFrame içinde üst kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılabilir Double. |
-| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Hücrenin minimum yüksekliğini döndürür. Bu, hücre tarafından kapsanan tüm satırların minimum yüksekliğinin toplamıdır. Salt okunur Double. |
-| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Tablonun sol tarafından hücrenin sol tarafına olan mesafeyi döndürür. Salt okunur Double. |
-| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Tablonun üst tarafından hücrenin üst tarafına olan mesafeyi döndürür. Salt okunur Double. |
-| [Presentation](../../aspose.slides/cell/presentation) { get; } | Hücrenin üst sunumunu döndürür. Salt okunur [`IPresentation`](../ipresentation). |
-| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Birleştirilmiş bir hücrenin kapsadığı satır sayısını döndürür. Bu, diğer hücrelerdeki vMerge özelliğiyle birlikte yatay bir birleştirmenin başlangıç hücresini belirtmek için kullanılır. Salt okunur Int32. |
-| [Slide](../../aspose.slides/cell/slide) { get; } | Hücrenin üst slaytını döndürür. Salt okunur [`IBaseSlide`](../ibaseslide). |
-| [Table](../../aspose.slides/cell/table) { get; } | Hücre için üst Table nesnesini döndürür. Salt okunur [`ITable`](../itable). |
-| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Metin ankraj tipini döndürür veya ayarlar. Okunur/Yazılabilir [`TextAnchorType`](../textanchortype). |
-| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Hücrenin metin çerçevesini döndürür. Salt okunur [`ITextFrame`](../itextframe). |
-| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Dikey metnin tipini döndürür veya ayarlar. Okunur/Yazılabilir [`TextVerticalType`](../textverticaltype). |
-| [Width](../../aspose.slides/cell/width) { get; } | Hücrenin genişliğini döndürür. Salt okunur Double. |
+| [AnchorCenter](../../aspose.slides/cell/anchorcenter) { get; set; } | Metin kutusunun hücre içinde ortalanıp ortalanmadığını belirler. Okunur/Yazılır Boolean. |
+| [CellFormat](../../aspose.slides/cell/cellformat) { get; } | Bu hücre için biçimlendirme özelliklerini içeren CellFormat nesnesini döndürür. Salt-okunur [`ICellFormat`](../icellformat). |
+| [ColSpan](../../aspose.slides/cell/colspan) { get; } | Geçerli hücrenin kapsayacağı, üst tablonun tablo ızgarasındaki sütun sayısını döndürür. Bu özellik hücrelerin birleştirilmiş gibi görünmesini sağlar, çünkü hücre diğer hücrelerin dikey sınırlarını kapsar. Salt-okunur Int32. |
+| [FirstColumn](../../aspose.slides/cell/firstcolumn) { get; } | Hücrenin ilk sütununu alır. Salt-okunur [`IColumn`](../icolumn). |
+| [FirstColumnIndex](../../aspose.slides/cell/firstcolumnindex) { get; } | Hücre tarafından kapsanan ilk sütunun dizinini döndürür. Salt-okunur Int32. |
+| [FirstRow](../../aspose.slides/cell/firstrow) { get; } | Hücrenin ilk satırını alır. Salt-okunur [`IRow`](../irow). |
+| [FirstRowIndex](../../aspose.slides/cell/firstrowindex) { get; } | Hücre tarafından kapsanan ilk satırın dizinini döndürür. Salt-okunur Int32. |
+| [Height](../../aspose.slides/cell/height) { get; } | Hücrenin yüksekliğini döndürür. Salt-okunur Double. |
+| [IsMergedCell](../../aspose.slides/cell/ismergedcell) { get; } | Hücre herhangi bir ayarlanmış hücreyle birleştirilmişse true, aksi takdirde false döndürür. Salt-okunur Boolean. |
+| [MarginBottom](../../aspose.slides/cell/marginbottom) { get; set; } | TextFrame içinde alt kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginLeft](../../aspose.slides/cell/marginleft) { get; set; } | TextFrame içinde sol kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginRight](../../aspose.slides/cell/marginright) { get; set; } | TextFrame içinde sağ kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MarginTop](../../aspose.slides/cell/margintop) { get; set; } | TextFrame içinde üst kenar boşluğunu döndürür veya ayarlar. Okunur/Yazılır Double. |
+| [MinimalHeight](../../aspose.slides/cell/minimalheight) { get; } | Bir hücrenin minimum yüksekliğini döndürür. Bu, hücre tarafından kapsanan tüm satırların minimum yüksekliklerinin toplamıdır. Salt-okunur Double. |
+| [OffsetX](../../aspose.slides/cell/offsetx) { get; } | Bir tablonun sol kenarından hücrenin sol kenarına olan mesafeyi döndürür. Salt-okunur Double. |
+| [OffsetY](../../aspose.slides/cell/offsety) { get; } | Bir tablonun üst kenarından hücrenin üst kenarına olan mesafeyi döndürür. Salt-okunur Double. |
+| [Presentation](../../aspose.slides/cell/presentation) { get; } | Bir hücrenin üst sunumunu döndürür. Salt-okunur [`IPresentation`](../ipresentation). |
+| [RowSpan](../../aspose.slides/cell/rowspan) { get; } | Birleştirilmiş bir hücrenin kapsadığı satır sayısını döndürür. Bu, diğer hücrelerdeki vMerge özniteliği ile birlikte, yatay birleştirmenin başlangıç hücresini belirtmek için kullanılır. Salt-okunur Int32. |
+| [Slide](../../aspose.slides/cell/slide) { get; } | Bir hücrenin üst slaytını döndürür. Salt-okunur [`IBaseSlide`](../ibaseslide). |
+| [Table](../../aspose.slides/cell/table) { get; } | Bir hücre için üst Table nesnesini döndürür. Salt-okunur [`ITable`](../itable). |
+| [TextAnchorType](../../aspose.slides/cell/textanchortype) { get; set; } | Metin çapa tipini döndürür veya ayarlar. Okunur/Yazılır [`TextAnchorType`](../textanchortype). |
+| [TextFrame](../../aspose.slides/cell/textframe) { get; } | Bir hücrenin metin çerçevesini döndürür. Salt-okunur [`ITextFrame`](../itextframe). |
+| [TextVerticalType](../../aspose.slides/cell/textverticaltype) { get; set; } | Dikey metnin tipini döndürür veya ayarlar. Okunur/Yazılır [`TextVerticalType`](../textverticaltype). |
+| [Width](../../aspose.slides/cell/width) { get; } | Hücrenin genişliğini döndürür. Salt-okunur Double. |
 
 ## Yöntemler
 
 | Name | Description |
 | --- | --- |
 | [SplitByColSpan](../../aspose.slides/cell/splitbycolspan)(int) | Hücreyi sütun indeksine göre iki hücreye böler. |
-| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Hücreyi yüksekliğine göre böler. |
+| [SplitByHeight](../../aspose.slides/cell/splitbyheight)(double) | Hücreyi yükseklikte böler. |
 | [SplitByRowSpan](../../aspose.slides/cell/splitbyrowspan)(int) | Hücreyi satır indeksine göre iki hücreye böler. |
-| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Hücreyi genişliğine göre böler. |
+| [SplitByWidth](../../aspose.slides/cell/splitbywidth)(double) | Hücreyi genişlikte böler. |
 
-### Ayrıca bakınız
+### Diğer Bağlantılar
 
 * arayüz [ICell](../icell)
 * ad alanı [Aspose.Slides](../../aspose.slides)

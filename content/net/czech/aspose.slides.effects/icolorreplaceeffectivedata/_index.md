@@ -1,14 +1,14 @@
 ---
 title: IColorReplaceEffectiveData
 second_title: Aspose.Sildes pro .NET API Reference
-description: Neměnný objekt, který představuje efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
+description: Neměnný objekt představující efekt nahrazení barvy Color. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
 type: docs
-weight: 3230
+weight: 3250
 url: /cs/aspose.slides.effects/icolorreplaceeffectivedata/
 ---
 ## IColorReplaceEffectiveData rozhraní
 
-Neměnný objekt, který představuje efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
+Neměnný objekt představující efekt nahrazení barvy. Všechny barvy efektu jsou změněny na pevnou barvu. Hodnoty alfa zůstávají nedotčeny.
 
 ```csharp
 public interface IColorReplaceEffectiveData : IEffectEffectiveData
@@ -19,7 +19,7 @@ public interface IColorReplaceEffectiveData : IEffectEffectiveData
 | Název | Popis |
 | --- | --- |
 | [AsIEffectEffectiveData](../../aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata) { get; } | Umožňuje získat základní rozhraní IEffectEffectiveData. Pouze pro čtení [`IEffectEffectiveData`](../ieffecteffectivedata). |
-| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Vrací formát barvy, který nahradí barvu každého pixelu. Pouze pro čtení Color. |
+| [Color](../../aspose.slides.effects/icolorreplaceeffectivedata/color) { get; } | Vrátí formát barvy, který nahradí barvu každého pixelu. Pouze pro čtení Color. |
 
 ### Viz také
 

@@ -1,6 +1,6 @@
 ---
 title: VbaProject
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
+second_title: เอกสารอ้างอิง API ของ Aspose.Sildes สำหรับ .NET
 description: แสดงถึงโครงการ VBA ที่มีแมโครการนำเสนอ.
 type: docs
 weight: 11650
@@ -8,7 +8,7 @@ url: /th/aspose.slides.vba/vbaproject/
 ---
 ## VbaProject คลาส
 
-แสดงถึงโครงการ VBA ที่มีแมโครการนำเสนอ
+แสดงถึงโครงการ VBA ที่มีแมโครการนำเสนอ.
 
 ```csharp
 public sealed class VbaProject : IVbaProject
@@ -16,29 +16,29 @@ public sealed class VbaProject : IVbaProject
 
 ## คอนสตรัคเตอร์
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [VbaProject](vbaproject#constructor)() | คอนสตรัคเตอร์นี้สร้างโครงการ VBA ใหม่ตั้งแต่ต้น โครงการจะถูกสร้างใน 1252 Windows Latin 1 (ANSI) codepage |
-| [VbaProject](vbaproject#constructor_1)(byte[]) | คอนสตรัคเตอร์นี้โหลดโครงการ VBA จากการแทนค่าดิจิทัลของคอนเทนเนอร์ OLE |
+| [VbaProject](vbaproject#constructor)() | คอนสตรัคเตอร์นี้สร้างโครงการ VBA ใหม่ตั้งแต่เริ่มต้น โครงการจะถูกสร้างใน 1252 Windows Latin 1 (ANSI) codepage |
+| [VbaProject](vbaproject#constructor_1)(byte[]) | คอนสตรัคเตอร์นี้โหลดโครงการ VBA จากการแสดงผลไบนารีของคอนเทนเนอร์ OLE |
 
 ## คุณสมบัติ
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | บ่งชี้ว่า VBAProject มีการปกป้องด้วยรหัสผ่านเพื่อดูคุณสมบัติโครงการหรือไม่ อ่านอย่างเดียว Boolean. |
-| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | คืนรายการของโมดูลทั้งหมดที่อยู่ในโครงการ VBA. อ่านอย่างเดียว [`IVbaModuleCollection`](../ivbamodulecollection). |
-| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | คืนชื่อของโครงการ VBA. อ่านอย่างเดียว String. |
-| [References](../../aspose.slides.vba/vbaproject/references) { get; } | คืนรายการของการอ้างอิงทั้งหมดที่อยู่ในโครงการ VBA. อ่านอย่างเดียว [`IVbaReferenceCollection`](../ivbareferencecollection). |
+| [IsPasswordProtected](../../aspose.slides.vba/vbaproject/ispasswordprotected) { get; } | ระบุว่า VBAProject ถูกป้องกันด้วยรหัสผ่านเพื่อดูคุณสมบัติโครงการหรือไม่ อ่านอย่างเดียว Boolean |
+| [Modules](../../aspose.slides.vba/vbaproject/modules) { get; } | ส่งคืนรายการของโมดูลทั้งหมดที่อยู่ในโครงการ VBA อ่านอย่างเดียว [`IVbaModuleCollection`](../ivbamodulecollection) |
+| [Name](../../aspose.slides.vba/vbaproject/name) { get; } | ส่งคืนชื่อของโครงการ VBA อ่านอย่างเดียว String |
+| [References](../../aspose.slides.vba/vbaproject/references) { get; } | ส่งคืนรายการของการอ้างอิงทั้งหมดที่อยู่ในโครงการ VBA อ่านอย่างเดียว [`IVbaReferenceCollection`](../ivbareferencecollection) |
 
 ## เมธอด
 
-| ชื่อ | คำอธิบาย |
+| Name | Description |
 | --- | --- |
-| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | คืนการแทนค่าดิจิทัลของโครงการ VBA ในรูปของคอนเทนเนอร์ OLE |
+| [ToBinary](../../aspose.slides.vba/vbaproject/tobinary)() | ส่งคืนการแสดงผลไบนารีของโครงการ VBA ในรูปแบบคอนเทนเนอร์ OLE |
 
 ### ดูเพิ่มเติม
 
-* อินเตอร์เฟซ [IVbaProject](../ivbaproject)
+* อินเทอร์เฟซ [IVbaProject](../ivbaproject)
 * เนมสเปซ [Aspose.Slides.Vba](../../aspose.slides.vba)
 * แอสเซมบลี [Aspose.Slides](../../)
 

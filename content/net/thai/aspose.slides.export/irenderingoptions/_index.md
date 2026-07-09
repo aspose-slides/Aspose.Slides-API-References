@@ -1,27 +1,27 @@
 ---
 title: IRenderingOptions
 second_title: Aspose.Sildes สำหรับ .NET API Reference
-description: ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของการนำเสนอ/สไลด์
+description: ให้ตัวเลือกที่ควบคุมวิธีการเรนเดอร์ของงานนำเสนอ/สไลด์
 type: docs
 weight: 4040
 url: /th/aspose.slides.export/irenderingoptions/
 ---
 ## IRenderingOptions อินเทอร์เฟซ
 
-ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของการนำเสนอ/สไลด์
+ให้ตัวเลือกที่ควบคุมวิธีการแสดงผลของงานนำเสนอ/สไลด์
 
 ```csharp
 public interface IRenderingOptions : ISaveOptions
 ```
 
-## คุณสมบัติ
+## Properties
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | คืนค่า ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
-| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าที่บ่งชี้ว่าข้อความถูกแสดงโดยไม่ใช้ ligatures. เมื่อกำหนดเป็น `true` ligatures จะถูกปิดในผลลัพธ์ที่แสดง. โดยค่าเริ่มต้น, คุณสมบัตินี้จะถูกตั้งค่าเป็น `false`. |
-| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมรูปลักษณ์ของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
-| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์จะถูกวางบนหน้าเมื่อส่งออกรายการนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
+| [AsISaveOptions](../../aspose.slides.export/irenderingoptions/asisaveoptions) { get; } | ส่งคืน ISaveOptions อินเทอร์เฟซ. อ่านอย่างเดียว [`ISaveOptions`](../isaveoptions). |
+| [DisableFontLigatures](../../aspose.slides.export/irenderingoptions/disablefontligatures) { get; set; } | รับหรือกำหนดค่าแสดงว่าข้อความถูกเรนเดอร์โดยไม่ใช้ลิการเจอร์หรือไม่. เมื่อกำหนดเป็น `true` ลิการเจอร์จะถูกปิดในผลลัพธ์ที่เรนเดอร์. โดยค่าเริ่มต้น, คุณสมบัตินี้ตั้งค่าเป็น `false`. |
+| [InkOptions](../../aspose.slides.export/irenderingoptions/inkoptions) { get; } | ให้ตัวเลือกที่ควบคุมลักษณะของวัตถุ Ink ในเอกสารที่ส่งออก. อ่านอย่างเดียว [`IInkOptions`](../iinkoptions) |
+| [SlidesLayoutOptions](../../aspose.slides.export/irenderingoptions/slideslayoutoptions) { get; set; } | รับหรือกำหนดโหมดที่สไลด์ถูกวางบนหน้าเมื่อส่งออกงานนำเสนอ [`ISlidesLayoutOptions`](../islideslayoutoptions). |
 
 ### ตัวอย่าง
 

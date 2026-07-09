@@ -1,14 +1,14 @@
 ---
 title: PptCorruptFileException
-second_title: Aspose.Sildes dla .NET – referencja API
-description: Wyjątek, który jest rzucany, gdy plik prezentacji prawdopodobnie jest uszkodzony.
+second_title: Aspose.Sildes dla .NET API Referencja
+description: Wyjątek, który jest rzucany, gdy plik prezentacji jest prawdopodobnie uszkodzony.
 type: docs
-weight: 9480
+weight: 9500
 url: /pl/aspose.slides/pptcorruptfileexception/
 ---
 ## PptCorruptFileException klasa
 
-Wyjątek rzucany, gdy plik prezentacji prawdopodobnie jest uszkodzony.
+Wyjątek, który jest rzucany, gdy plik prezentacji jest prawdopodobnie uszkodzony.
 
 ```csharp
 public class PptCorruptFileException : PptReadException
@@ -18,9 +18,9 @@ public class PptCorruptFileException : PptReadException
 
 | Nazwa | Opis |
 | --- | --- |
-| [PptCorruptFileException](pptcorruptfileexception#constructor)() | Domyślny konstruktor. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor)() | Konstruktor domyślny. |
 | [PptCorruptFileException](pptcorruptfileexception#constructor_1)(string) | Konstruktor umożliwiający dodanie komunikatu do tego wyjątku. |
-| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor wyjątku zawierającego komunikat i osadzony wyjątek. |
+| [PptCorruptFileException](pptcorruptfileexception#constructor_2)(string, Exception) | Konstruktor dla wyjątku zawierającego komunikat oraz zagnieżdżony wyjątek. |
 
 ### Zobacz także
 

@@ -1,14 +1,14 @@
 ---
 title: SystemColor
-second_title: อ้างอิง API ของ Aspose.Sildes สำหรับ .NET
-description: แสดงสีระบบที่กำหนดไว้ล่วงหน้า.
+second_title: Aspose.Sildes สำหรับ .NET เอกสารอ้างอิง API
+description: แสดงถึงสีระบบที่กำหนดล่วงหน้า
 type: docs
 weight: 10810
 url: /th/aspose.slides/systemcolor/
 ---
-## การ列舉 SystemColor
+## SystemColor การกำหนดค่า
 
-แสดงสีระบบที่กำหนดไว้ล่วงหน้า.
+แสดงถึงสีระบบที่กำหนดล่วงหน้า
 
 ```csharp
 public enum SystemColor
@@ -18,7 +18,7 @@ public enum SystemColor
 
 | ชื่อ | ค่า | คำอธิบาย |
 | --- | --- | --- |
-| NotDefined | `-1` | สีระบบไม่ได้กำหนด |
+| NotDefined | `-1` | System color is not defined. |
 | ScrollBar | `0` |  |
 | Background | `1` |  |
 | ActiveCaption | `2` |  |

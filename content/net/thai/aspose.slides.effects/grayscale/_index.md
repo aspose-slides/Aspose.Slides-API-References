@@ -1,14 +1,14 @@
 ---
 title: GrayScale
-second_title: Aspose.Sildes สำหรับ .NET API อ้างอิง
-description: เป็นตัวแทนของเอฟเฟกต์โทนสีเทา แปลงค่าสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามความสว่างของมัน ค่าอัลฟ่า (ความทึบแสง) ของเอฟเฟกต์จะไม่เปลี่ยนแปลง
+second_title: Aspose.Sildes สำหรับ .NET API Reference
+description: เป็นตัวแทนของเอฟเฟกต์ Gray Scale. แปลงค่าระบบสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามความสว่างของมัน. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์ไม่ถูกเปลี่ยนแปลง.
 type: docs
 weight: 3000
 url: /th/aspose.slides.effects/grayscale/
 ---
 ## GrayScale คลาส
 
-เป็นตัวแทนของเอฟเฟกต์โทนสีเทา แปลงค่าสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามความสว่างของมัน ค่าอัลฟา (ความทึบแสง) ของเอฟเฟกต์จะไม่ถูกเปลี่ยนแปลง
+เป็นตัวแทนของเอฟเฟกต์ Gray Scale. แปลงค่าระบบสีของเอฟเฟกต์ทั้งหมดให้เป็นเฉดสีเทาตามความสว่างของมัน. ค่าความโปร่งใส (alpha) ของเอฟเฟกต์ไม่ถูกเปลี่ยนแปลง.
 
 ```csharp
 public sealed class GrayScale : ImageTransformOperation, IGrayScale
@@ -18,15 +18,15 @@ public sealed class GrayScale : ImageTransformOperation, IGrayScale
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้ดึงอินเทอร์เฟซ IPresentationComponent พื้นฐาน. อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
+| [AsIPresentationComponent](../../aspose.slides/pviobject/asipresentationcomponent) { get; } | อนุญาตให้รับอินเทอร์เฟซ IPresentationComponent พื้นฐาน อ่านอย่างเดียว [`IPresentationComponent`](../../aspose.slides/ipresentationcomponent). |
 
 ## เมธอด
 
 | ชื่อ | คำอธิบาย |
 | --- | --- |
-| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | กำหนดว่าตัว [`GrayScale`](../grayscale) ที่ระบุเท่ากับ [`GrayScale`](../grayscale) ปัจจุบันหรือไม่. |
-| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | ดึงข้อมูลเอฟเฟกต์ Gray Scale ที่มีผลการสืบทอด. |
-| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทหนึ่ง. |
+| override [Equals](../../aspose.slides.effects/grayscale/equals)(object) | กำหนดว่ารายการ [`GrayScale`](../grayscale) ที่ระบุเท่ากับ [`GrayScale`](../grayscale) ปัจจุบันหรือไม่. |
+| [GetEffective](../../aspose.slides.effects/grayscale/geteffective)() | รับข้อมูลผลกระทบ Gray Scale ที่มีการสืบทอดใช้ได้. |
+| override [GetHashCode](../../aspose.slides.effects/grayscale/gethashcode)() | ทำหน้าที่เป็นฟังก์ชันแฮชสำหรับประเภทเฉพาะ. |
 
 ### ดูเพิ่มเติม
 

@@ -1,12 +1,12 @@
 ---
 title: GroupShapeLock
-second_title: Aspose.Sildes pro .NET API Reference
+second_title: Aspose.Sildes pro .NET – referenční dokumentace
 description: Určuje, které operace jsou na nadřazeném GroupShape zakázány.
 type: docs
-weight: 5080
+weight: 5100
 url: /cs/aspose.slides/groupshapelock/
 ---
-## třída GroupShapeLock
+## GroupShapeLock třída
 
 Určuje, které operace jsou na nadřazeném GroupShape zakázány.
 
@@ -18,14 +18,14 @@ public class GroupShapeLock : BaseShapeLock, IGroupShapeLock
 
 | Název | Popis |
 | --- | --- |
-| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovat poměr stran při změně velikosti. Boolean s možností čtení a zápisu. |
-| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidávat tento tvar do skupiny. Boolean s možností čtení a zápisu. |
-| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrací true, pokud jsou všechna zamykací příznaky zakázána. Boolean pouze pro čtení. |
-| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Určuje, zda je zakázáno přesunout tento tvar. Boolean s možností čtení a zápisu. |
-| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Určuje, zda je zakázáno měnit úhel otáčení tohoto tvaru. Boolean s možností čtení a zápisu. |
-| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybrat tento tvar. Boolean s možností čtení a zápisu. |
-| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Boolean s možností čtení a zápisu. |
-| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Určuje, zda je zakázáno rozdělit tento groupshape. Boolean s možností čtení a zápisu. |
+| [AspectRatioLocked](../../aspose.slides/groupshapelock/aspectratiolocked) { get; set; } | Určuje, zda má tvar zachovávat poměr stran při změně velikosti. Čtení/zápis Boolean. |
+| [GroupingLocked](../../aspose.slides/groupshapelock/groupinglocked) { get; set; } | Určuje, zda je zakázáno přidat tento tvar do skupiny. Čtení/zápis Boolean. |
+| [NoLocks](../../aspose.slides/baseshapelock/nolocks) { get; } | Vrací true, pokud jsou všechny lock-flags vypnuty. Pouze pro čtení Boolean. |
+| [PositionLocked](../../aspose.slides/groupshapelock/positionlocked) { get; set; } | Určuje, zda je zakázáno přesunout tento tvar. Čtení/zápis Boolean. |
+| [RotationLocked](../../aspose.slides/groupshapelock/rotationlocked) { get; set; } | Určuje, zda je zakázáno měnit úhel otáčení tohoto tvaru. Čtení/zápis Boolean. |
+| [SelectLocked](../../aspose.slides/groupshapelock/selectlocked) { get; set; } | Určuje, zda je zakázáno vybrat tento tvar. Čtení/zápis Boolean. |
+| [SizeLocked](../../aspose.slides/groupshapelock/sizelocked) { get; set; } | Určuje, zda je zakázáno měnit velikost tohoto tvaru. Čtení/zápis Boolean. |
+| [UngroupingLocked](../../aspose.slides/groupshapelock/ungroupinglocked) { get; set; } | Určuje, zda je zakázáno rozdělit tuto GroupShape. Čtení/zápis Boolean. |
 
 ### Viz také
 

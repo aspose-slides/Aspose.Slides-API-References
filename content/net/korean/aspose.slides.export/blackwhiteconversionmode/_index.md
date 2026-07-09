@@ -1,6 +1,6 @@
 ---
 title: BlackWhiteConversionMode
-second_title: Aspose.Sildes for .NET API 참조
+second_title: Aspose.Sildes for .NET API 레퍼런스
 description: 슬라이드 이미지가 비톤 이미지로 변환되는 방식을 제어하는 옵션을 제공합니다.
 type: docs
 weight: 3720
@@ -18,16 +18,16 @@ public enum BlackWhiteConversionMode
 
 | 이름 | 값 | 설명 |
 | --- | --- | --- |
-| Default | `0` | 변환 알고리즘이 없음을 지정합니다. TIFF 코덱에 구현된 알고리즘이 사용됩니다. (Default) |
-| Dithering | `1` | 디더링 알고리즘 (Floyd-Steinberg)을 지정합니다. |
+| Default | `0` | 변환 알고리즘을 지정하지 않음을 의미합니다. TIFF 코덱에 구현된 알고리즘이 사용됩니다. (Default) |
+| Dithering | `1` | 디더링 알고리즘(Floyd-Steinberg)을 지정합니다. |
 | DitheringFloydSteinberg | `2` | Floyd-Steinberg 디더링 알고리즘을 지정합니다. |
-| Auto | `3` | 자동으로 계산된 임계값 알고리즘 (Otsu)을 지정합니다. |
+| Auto | `3` | 자동으로 계산된 임계값 알고리즘(Otsu)을 지정합니다. |
 | AutoOtsu | `4` | 자동으로 계산된 Otsu 임계값 알고리즘을 지정합니다. |
-| Threshold25 | `5` | 정적 임계값 알고리즘 (25%)을 지정합니다. |
-| Threshold50 | `6` | 정적 임계값 알고리즘 (50%)을 지정합니다. |
-| Threshold75 | `7` | 정적 임계값 알고리즘 (75%)을 지정합니다. |
+| Threshold25 | `5` | 정적 임계값 알고리즘(25%)을 지정합니다. |
+| Threshold50 | `6` | 정적 임계값 알고리즘(50%)을 지정합니다. |
+| Threshold75 | `7` | 정적 임계값 알고리즘(75%)을 지정합니다. |
 
-### 자세히 보기
+### 참고
 
 * 네임스페이스 [Aspose.Slides.Export](../../aspose.slides.export)
 * 어셈블리 [Aspose.Slides](../../)

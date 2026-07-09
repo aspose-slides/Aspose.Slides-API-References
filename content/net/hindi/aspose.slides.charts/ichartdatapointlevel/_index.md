@@ -1,14 +1,14 @@
 ---
 title: IChartDataPointLevel
-second_title: Aspose.Sildes for .NET API संदर्भ
-description: डेटा पॉइंट स्तर का प्रतिनिधित्व करता है। Treemap और Sunburst चार्ट के लिए लागू है।
+second_title: Aspose.Sildes के लिए .NET API संदर्भ
+description: डेटा पॉइंट स्तर को दर्शाता है। Treemap और Sunburst चार्ट पर लागू होता है।
 type: docs
 weight: 1840
 url: /hi/aspose.slides.charts/ichartdatapointlevel/
 ---
 ## IChartDataPointLevel इंटरफ़ेस
 
-डेटा पॉइंट स्तर का प्रतिनिधित्व करता है। Treemap और Sunburst चार्ट के लिए लागू है।
+डेटा पॉइंट स्तर को दर्शाता है। Treemap और Sunburst चार्ट पर लागू होता है।
 
 ```csharp
 public interface IChartDataPointLevel
@@ -18,10 +18,10 @@ public interface IChartDataPointLevel
 
 | नाम | विवरण |
 | --- | --- |
-| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | डेटा पॉइंट स्तर की फ़ॉर्मेटिंग गुणों का प्रतिनिधित्व करता है। पढ़ें/लिखें [`IFormat`](../iformat). |
-| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | डेटा पॉइंट स्तर के डेटा लेबल का प्रतिनिधित्व करता है। Treemap और Sunburst श्रृंखला प्रकारों के लिए लागू है। केवल पढ़ने योग्य [`IDataLabel`](../idatalabel). |
+| [Format](../../aspose.slides.charts/ichartdatapointlevel/format) { get; } | डेटा पॉइंट स्तर की फ़ॉर्मेटिंग गुणों को दर्शाता है। पढ़ने/लिखने योग्य [`IFormat`](../iformat). |
+| [Label](../../aspose.slides.charts/ichartdatapointlevel/label) { get; } | डेटा पॉइंट स्तर का डेटा लेबल दर्शाता है। Treemap और Sunburst sereis प्रकारों पर लागू होता है। केवल पढ़ने योग्य [`IDataLabel`](../idatalabel). |
 
-### इसी प्रकार देखें
+### देखें
 
 * नामस्थान [Aspose.Slides.Charts](../../aspose.slides.charts)
 * असेंबली [Aspose.Slides](../../)

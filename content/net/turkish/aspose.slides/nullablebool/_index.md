@@ -1,14 +1,14 @@
 ---
 title: NullableBool
-second_title: Aspose.Sildes için .NET API Referansı
+second_title: Aspose.Sildes for .NET API Referansı
 description: Üçlü boolean değerlerini temsil eder.
 type: docs
-weight: 9150
+weight: 9170
 url: /tr/aspose.slides/nullablebool/
 ---
-## NullableBool enumı
+## NullableBool enum
 
-Üçlü Boolean değerlerini temsil eder.
+Üçlü boolean değerlerini temsil eder.
 
 ```csharp
 public enum NullableBool : sbyte

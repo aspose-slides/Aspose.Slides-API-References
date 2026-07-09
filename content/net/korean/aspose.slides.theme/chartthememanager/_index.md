@@ -1,14 +1,14 @@
 ---
 title: ChartThemeManager
 second_title: Aspose.Sildes for .NET API 레퍼런스
-description: 재정의된 차트 테마에 대한 액세스를 제공합니다.
+description: 차트 테마 재정의에 대한 액세스를 제공합니다.
 type: docs
 weight: 11060
 url: /ko/aspose.slides.theme/chartthememanager/
 ---
 ## ChartThemeManager 클래스
 
-재정의된 차트 테마에 대한 액세스를 제공합니다.
+차트 테마 재정의를 위한 액세스를 제공합니다.
 
 ```csharp
 public class ChartThemeManager : BaseOverrideThemeManager
@@ -18,7 +18,7 @@ public class ChartThemeManager : BaseOverrideThemeManager
 
 | 이름 | 설명 |
 | --- | --- |
-| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 효과적인 테마를 재정의하는지 여부를 결정합니다. OverrideTheme를 재정의에 사용하려면 OverrideTheme.Init*() 메서드를 사용하십시오. OverrideTheme가 재정의를 하지 않도록 하려면 OverrideTheme.Clear() 메서드를 사용하십시오. 읽기 전용 Boolean. |
+| [IsOverrideThemeEnabled](../../aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled) { get; } | OverrideTheme가 상속된 유효 테마를 재정의하는지 여부를 결정합니다. OverrideTheme를 재정의하도록 활성화하려면 OverrideTheme.Init*() 메서드를 사용합니다. OverrideTheme가 재정의되지 않도록 비활성화하려면 OverrideTheme.Clear() 메서드를 사용합니다. 읽기 전용 Boolean. |
 | [OverrideTheme](../../aspose.slides.theme/baseoverridethememanager/overridetheme) { get; set; } | 재정의된 테마 객체를 반환합니다. 읽기/쓰기 [`IOverrideTheme`](../ioverridetheme). |
 
 ## 메서드

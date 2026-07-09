@@ -3,12 +3,12 @@ title: MasterTheme
 second_title: Aspose.Sildes for .NET API リファレンス
 description: マスターテーマを表します。
 type: docs
-weight: 11410
+weight: 11430
 url: /ja/aspose.slides.theme/mastertheme/
 ---
 ## MasterTheme クラス
 
-Represents a master theme.
+マスターテーマを表します。
 
 ```csharp
 public sealed class MasterTheme : Theme, IMasterTheme
@@ -18,12 +18,12 @@ public sealed class MasterTheme : Theme, IMasterTheme
 
 | 名前 | 説明 |
 | --- | --- |
-| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | カラースキームを返します。 読み取り専用 [`IColorScheme`](../icolorscheme). |
-| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 追加のカラースキームのコレクションを返します。 これらのスキームはプレゼンテーションの外観に影響しません。スライドのメインカラースキームとして選択できます。 読み取り専用 [`IExtraColorSchemeCollection`](../iextracolorschemecollection). |
-| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | フォントスキームを返します。 読み取り専用 [`IFontScheme`](../ifontscheme). |
-| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | シェイプ形式スキームを返します。 読み取り専用 [`IFormatScheme`](../iformatscheme). |
-| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | テーマの名前を返します。 読み書き String. |
-| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 親プレゼンテーションを返します。 読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation). |
+| override [ColorScheme](../../aspose.slides.theme/mastertheme/colorscheme) { get; } | カラースキームを返します。読み取り専用 [`IColorScheme`](../icolorscheme)。 |
+| [ExtraColorSchemes](../../aspose.slides.theme/mastertheme/extracolorschemes) { get; } | 追加のカラースキームのコレクションを返します。これらのスキームはプレゼンテーションの外観に影響せず、スライドのメインカラースキームとして選択できます。読み取り専用 [`IExtraColorSchemeCollection`](../iextracolorschemecollection)。 |
+| override [FontScheme](../../aspose.slides.theme/mastertheme/fontscheme) { get; } | フォントスキームを返します。読み取り専用 [`IFontScheme`](../ifontscheme)。 |
+| override [FormatScheme](../../aspose.slides.theme/mastertheme/formatscheme) { get; } | シェイプフォーマットスキームを返します。読み取り専用 [`IFormatScheme`](../iformatscheme)。 |
+| [Name](../../aspose.slides.theme/mastertheme/name) { get; set; } | テーマの名前を返します。読み取り/書き込み String。 |
+| [Presentation](../../aspose.slides.theme/theme/presentation) { get; } | 親プレゼンテーションを返します。読み取り専用 [`IPresentation`](../../aspose.slides/ipresentation)。 |
 
 ## メソッド
 

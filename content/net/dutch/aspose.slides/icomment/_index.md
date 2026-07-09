@@ -19,17 +19,17 @@ public interface IComment
 | Naam | Beschrijving |
 | --- | --- |
 | [Author](../../aspose.slides/icomment/author) { get; } | Geeft de auteur van een opmerking terug. Alleen-lezen [`ICommentAuthor`](../icommentauthor). |
-| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Geeft de tijd van het aanmaken van een opmerking terug of stelt deze in. Het instellen van deze eigenschap op MinValue betekent dat er geen tijd voor de opmerking is ingesteld. Lezen/schrijven DateTime. |
-| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Krijgt of stelt de bovenliggende opmerking in. Lezen/schrijven [`IComment`](../icomment). |
+| [CreatedTime](../../aspose.slides/icomment/createdtime) { get; set; } | Geeft de tijd van het maken van een opmerking terug of stelt deze in. Als deze eigenschap op MinValue wordt gezet, betekent dit dat er geen tijd voor de opmerking is ingesteld. Lezen/schrijven DateTime. |
+| [ParentComment](../../aspose.slides/icomment/parentcomment) { get; set; } | Geeft de bovenliggende opmerking terug of stelt deze in. Lezen/schrijven [`IComment`](../icomment). |
 | [Position](../../aspose.slides/icomment/position) { get; set; } | Geeft de positie van een opmerking op een dia terug of stelt deze in. Lezen/schrijven PointF. |
 | [Slide](../../aspose.slides/icomment/slide) { get; } | Geeft de bovenliggende dia van een opmerking terug of stelt deze in. Alleen-lezen [`ISlide`](../islide). |
-| [Text](../../aspose.slides/icomment/text) { get; set; } | Geeft de platte tekst van een dia-opmerking terug of stelt deze in. Lezen/schrijven String. |
+| [Text](../../aspose.slides/icomment/text) { get; set; } | Geeft de platte tekst van een diaopmerking terug of stelt deze in. Lezen/schrijven String. |
 
 ## Methoden
 
 | Naam | Beschrijving |
 | --- | --- |
-| [Remove](../../aspose.slides/icomment/remove)() | Verwijdert de opmerking en alle bijbehorende antwoorden uit de bovenliggende collectie. |
+| [Remove](../../aspose.slides/icomment/remove)() | Verwijdert de opmerking en alle antwoorden ervan uit de bovenliggende collectie. |
 
 ### Zie ook
 
